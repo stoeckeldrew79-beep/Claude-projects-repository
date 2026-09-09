@@ -1562,6 +1562,10 @@ If you're a timeshare owner considering an exit, know that a legitimate resort o
     slug: `wesco-international-2026-data-breach-guide`,
     author: `ScamShield Editorial`,
     tags: [`guide`, `wesco-international-2026-data-breach`],
+    coverImage: `https://commons.wikimedia.org/wiki/Special:FilePath/Pittsburgh_skyline_panorama_daytime.jpg?width=1200`,
+    coverImageCredit: `Photo: Dllu, CC BY-SA 4.0, via Wikimedia Commons — the Pittsburgh, Pennsylvania skyline, where Wesco International is headquartered; not the company's own CRM system`,
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: `https://www.scworld.com/brief/wesco-investigates-cybersecurity-incident-after-data-extortion-group-claims-breach`,
     body: `WESCO International is a Fortune 500 company most consumers have never bought anything from directly — it's a Pittsburgh-based industrial distributor that supplies electrical, communications, and utility equipment to businesses, contractors, and government customers around the world, moving billions of dollars in products a year through business-to-business sales rather than storefronts. On August 11, 2026, Wesco confirmed it was investigating a cybersecurity incident after a data-extortion group calling itself ExfilSquad claimed on a hacking forum to have stolen roughly 2.6 million records from Wesco's cloud customer relationship management (CRM) environment, dating the intrusion to around July 26, 2026. When Wesco didn't meet the group's ransom demand, ExfilSquad published the stolen data.
 

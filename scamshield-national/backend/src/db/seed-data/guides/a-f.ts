@@ -5617,6 +5617,10 @@ If you play on Chess.com and haven't checked whether you're among the 4,541 peop
     slug: 'amazon-fcra-identity-theft-records-settlement-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'fcra-609e-identity-theft-records'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Amazon_headquarters_building_Seattle.jpg?width=1200',
+    coverImageCredit: 'Photo: Adbar, CC BY-SA 3.0, via Wikimedia Commons — an Amazon headquarters building in Seattle; not the specific customer-service systems at issue in the FTC case',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-requires-amazon-pay-225-million-resolve-charges-it-knowingly-violated-fair-credit-reporting-act',
     body: `Most people who discover a fraudulent purchase in their name know the first two steps by instinct: dispute the charge, then freeze their credit. Far fewer know about a third step that federal law specifically entitles them to — and, according to the Federal Trade Commission, Amazon spent years making it nearly impossible to use. On June 30, 2026, the FTC announced that Amazon had agreed to pay a $2.25 million civil penalty, the largest ever obtained for a violation of this specific provision, after the agency's investigation found the company had knowingly denied identity theft victims a legal right most consumers don't even know exists.
 
@@ -5745,6 +5749,10 @@ If you're a current or former Bimbo Bakeries USA employee, don't assume a single
     slug: `craneware-2026-data-breach-guide`,
     author: `ScamShield Editorial`,
     tags: [`guide`, `craneware-2026-data-breach`],
+    coverImage: `https://commons.wikimedia.org/wiki/Special:FilePath/Edinburgh_Old_Town_Skyline.jpg?width=1200`,
+    coverImageCredit: `Photo: Depthcharge101, CC BY-SA 3.0, via Wikimedia Commons — the Edinburgh, Scotland skyline, where Craneware is headquartered; not the company's own office or systems`,
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: `https://techcrunch.com/2026/07/20/hackers-stole-significant-amount-of-data-from-tech-firm-relied-on-by-thousands-of-us-hospitals-and-pharmacies/`,
     body: `Craneware, an Edinburgh, Scotland-based software company listed on the London Stock Exchange, isn't a name most patients or pharmacy customers in the United States would recognize — but its technology sits behind the scenes at a striking number of the places they get care. Craneware's billing and revenue-cycle software is used by roughly 2,000 U.S. hospitals and health systems and around 10,000 pharmacies and clinics to handle the accounting and paperwork side of patient care: coding claims, processing bills, and managing the flow of money between providers, insurers, and patients. On July 20, 2026, Craneware disclosed in a London Stock Exchange filing that hackers had broken into its network and stolen data — the kind of announcement that, because of how deeply embedded the company is in American healthcare billing, could touch far more people than its own name would suggest.
 
@@ -5850,6 +5858,10 @@ If you have an ASOS account, reset your password even if you weren't prompted to
     slug: `erie-insurance-2025-data-breach-guide`,
     author: `ScamShield Editorial`,
     tags: [`guide`, `erie-insurance-2025-data-breach`],
+    coverImage: `https://commons.wikimedia.org/wiki/Special:FilePath/Erie_Insurance_Arena_-_Exterior.JPG?width=1200`,
+    coverImageCredit: `Photo: Jfvoll, CC BY-SA 4.0, via Wikimedia Commons — the Erie Insurance Arena in Erie, Pennsylvania; not the company's own IT systems`,
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: `https://www.hipaajournal.com/erie-insurance-cyberattack/`,
     body: `Erie Insurance, a Pennsylvania-based insurer with roughly 6 million active policies covering an estimated 7 million people across the country, told the Securities and Exchange Commission on June 7, 2025 that it had identified unusual activity on its internal network. What followed was not a quiet, contained incident: Erie's customer portal, claims-processing systems, and the tools local agents rely on to serve customers all went down, and the company warned policyholders directly that during the outage it would not be calling or emailing them to request payment — an unusual step that underscored how disruptive, and how ripe for copycat scams, the situation had become. Full business operations weren't restored until roughly ten days later, on July 7, 2025.
 
