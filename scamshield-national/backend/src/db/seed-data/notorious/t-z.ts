@@ -1935,3 +1935,21 @@ Trought was arrested in Jamaica in August 2025 and extradited to the United Stat
 The Trought case is a version of the same lottery-and-sweepstakes fraud that has run for decades out of Jamaica specifically because it scales: a ring built to last ten years doesn't need one mastermind who never turns over — it needs a role, "senior leader" among them, that a new person can step into as older members are arrested, extradited, and replaced, while the underlying script to a frightened 80-year-old on the other end of the phone barely has to change at all.`,
   },
 );
+
+NotoriousTZ.push(
+  {
+    title: 'Zhao Wang, "Oscar," and the Refund-Scam Ring That Called Its 2,000 Victims\' Vulnerability "How They Were Selected"',
+    slug: 'zhao-wang-oscar-elder-refund-scam-ring',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-sdca/pr/chinese-national-and-ringleader-sentenced-125-years-27-million-multinational-fraud-and',
+    // no rights-cleared photo found — sourceUrl above serves as the "read the full story" link
+    body: `Zhao Wang, a 41-year-old Chinese national going by the name "Oscar" and living in Las Vegas, led a five-defendant conspiracy that federal prosecutors in the Southern District of California say stole more than $27 million from over 2,000 elderly victims across the United States between roughly 2021 and 2023. The scheme didn't rely on a single script but rotated between several: unsolicited phone calls, emails, and pop-up ads warning of a virus or a billing problem, all directing victims to call a phone number that actually connected to scam call centers based in India, staffed by people trained to build trust before ever asking for money.
+
+Once a victim called in, conspirators used social-engineering tactics to walk them through installing commercially available remote-desktop software, giving the callers direct access to the victim's own computer. From there the pitch shifted into a refund scam: victims were told they were owed a refund for tech-support or security services, then informed the refund had mistakenly been sent for too much, and instructed to return the "overpayment" — not to a bank, but by wiring money or mailing bulk cash through express mail to addresses Wang controlled. Wang himself retrieved the packages using fake identification, took a cut prosecutors put at roughly 18 percent of the proceeds, and laundered the remainder through cryptocurrency transfers back to co-conspirators overseas.
+
+A federal grand jury indicted Wang and four co-conspirators in 2024, and Wang pleaded guilty to conspiracy to commit mail and wire fraud and conspiracy to launder monetary instruments. On May 8, 2026, U.S. District Judge Robert S. Huie sentenced him to 151 months — just over 12 and a half years — in federal prison. Huie called the scope of the fraud "staggering" and Wang's role running the domestic side of the operation "100 percent reprehensible," telling the court that the victims' age and isolation were the entire point of the targeting: "Their vulnerability was not incidental. It was not coincidence. It was how they were selected." U.S. Attorney Adam Gordon said the sentence "recognizes the profound human cost of exploiting trust and treating vulnerable people as opportunities for profit."
+
+Wang's case shows how thin the line has become between a "tech support" scam and a straightforward robbery: once a victim installs remote-access software at a caller's direction, the caller doesn't need to talk them into a wire transfer at all — they can watch the victim's own bank balance in real time and simply direct them toward whatever amount and payment method is hardest to claw back, cash mailed to a stranger with a fake ID chief among them.`,
+  },
+);

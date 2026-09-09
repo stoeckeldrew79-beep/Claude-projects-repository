@@ -4281,3 +4281,21 @@ The scheme reached more than 4,000 identified victims in the United States and t
 The case is a reminder that an overseas call center doesn't need a victim to fall for a stranger — it needs the victim to fall for a badge. Impersonating the FBI or the IRS does the psychological work that a fake lottery win or a phony romance would otherwise have to build over weeks, compressing a scam into a single frightening phone call precisely because government agencies are the one kind of caller most people are trained never to hang up on.`,
   },
 );
+
+NotoriousNS.push(
+  {
+    title: 'Roy Cox Jr., Aaron Michael Jones, and the 5-Billion-Call Auto Warranty Robocall Ring Fined $300 Million',
+    slug: 'roy-cox-aaron-jones-sumco-panama-robocall-fine',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.fcc.gov/document/fcc-assesses-nearly-300m-forfeiture-unlawful-robocalls',
+    // no rights-cleared photo found — sourceUrl above serves as the "read the full story" link
+    body: `Roy M. Cox Jr. and Aaron Michael Jones were already supposed to be out of the telemarketing business. Years earlier, the FTC had sued Cox over an illegal robocall operation selling credit-card rate reductions and home security systems using spoofed caller-ID names like "CARD SERVICES," and in February 2013 a federal court entered a settlement permanently banning him from telemarketing — a $1.1 million civil penalty was even written into the order, suspended only because Cox claimed he could not pay it. Jones had separately been hit with his own lifetime telemarketing ban following actions by the FTC and the State of Texas. Neither ban stopped either man from going right back into the business that got them banned in the first place.
+
+Operating through a company called Sumco Panama and a web of domestic and foreign entities — Virtual Telecom, Davis Telecom, Geist Telecom, Fugle Telecom, Tech Direct, Mobi Telecom, and Posting Express among them, with international pieces registered in Panama and Hungary — Cox and Jones built a robocalling operation that the FCC would later call the largest it had ever investigated. Over just a three-month span in early 2021, the operation placed more than 5 billion pre-recorded calls to more than 500 million phone numbers, using more than a million different spoofed caller-ID numbers to disguise where the calls were actually coming from. Anyone who pressed 1 was connected to a "warranty specialist" pitching an extended or reinstated auto warranty — a product pitch built entirely around getting past caller ID and the National Do Not Call Registry rather than around any car the callers actually owned.
+
+The volume was disruptive enough on its own that in July 2022 the FCC took the unusual step of ordering every U.S.-based voice service provider to stop carrying the operation's traffic outright, a directive that the agency said cut the campaign's call volume by 99 percent almost overnight. On December 21, 2022, the FCC proposed a $299,997,000 fine against Cox, Jones, and their network of companies for violations including illegal spoofing, ignoring the Do Not Call Registry, placing pre-recorded calls without consent, and failing to provide required caller-identification and opt-out information. After the pair failed to meaningfully contest the findings, the FCC formally adopted the forfeiture on August 3, 2023 under Order FCC 23-64 — the largest fine in the Commission's history at the time, later referred to the Department of Justice for collection when it went unpaid.
+
+Cox and Jones's case shows what an existing telemarketing ban is actually worth against someone determined to keep working: without a corresponding criminal prosecution or an enforcement agency willing to physically intercept the calls, a "lifetime ban" leaves the banned operator free to simply open new companies, in new jurisdictions, and start dialing again — until the volume itself becomes so overwhelming that carriers, rather than any court order, are what finally shuts the lines down.`,
+  },
+);
