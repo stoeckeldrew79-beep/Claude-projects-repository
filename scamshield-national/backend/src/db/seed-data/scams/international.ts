@@ -11897,3 +11897,42 @@ International.push(
     sourceUrl: 'https://www.police.govt.nz/news/release/don%E2%80%99t-be-fooled-ticket-scams',
   },
 );
+
+International.push(
+  {
+    name: 'UK Puppy and Pet Sales Fraud',
+    slug: 'uk-puppy-pet-sales-fraud',
+    description: `A listing for a puppy, kitten, or other pet appears on a classified site or social media, usually below the going rate and illustrated with appealing photos or video that in reality have been lifted from a genuine breeder's page or generated to look convincing. Because the pandemic made viewing animals in person before buying much harder, sellers were able to insist a deposit or the full price be paid upfront, by bank transfer, before the buyer ever meets the animal — citing high demand, travel restrictions, or a rival buyer waiting in the wings to create urgency. Once payment lands, the "seller" typically vanishes, or strings the buyer along with further demands for courier, insurance, or vaccination fees before cutting contact, and no pet ever arrives. Action Fraud's alert on the pattern found reports had roughly quadrupled during the pandemic, with dogs and puppies the animals most commonly advertised this way, and warned that the same fake-advert tactic has since been used across other classified categories once a seller sees it work. Its advice is to always view a pet in person, or over a live video call showing the animal and its surroundings clearly, before paying anything, to be wary of a price that undercuts the market, and to use a registered breeder listed with the Kennel Club's Assured Breeder Scheme wherever possible.`,
+    categorySlug: 'pet-sales-scams',
+    country: 'GB',
+    alertLevel: 'medium',
+    sources: ['Action Fraud', 'Which?'],
+    sourceUrl: 'https://www.actionfraud.police.uk/alert/ruff-time-for-animal-lovers-as-scale-of-pandemic-pet-fraud-unleashed-by-action-fraud',
+  },
+);
+
+International.push(
+  {
+    name: 'UK AI Voice-Cloning "Lifestyle Survey" Direct Debit Fraud',
+    slug: 'uk-ai-voice-cloning-lifestyle-survey-fraud',
+    description: `A cold call arrives framed as a harmless "lifestyle survey," asking a string of seemingly innocuous questions about health, spending habits, and household finances while quietly drawing the person into talking at length — and, crucially, recording their voice. National Trading Standards found that criminals are now feeding those recordings into AI voice-cloning software to generate a synthetic copy of the victim's voice convincing enough to give fraudulent consent for a direct debit, tricking even legitimate businesses' verification checks into processing payments the account holder never actually agreed to. The harvested personal, health, and financial details are also passed on and resold to other criminal operations, who use them to get past bank security questions on further scams. The scheme surfaced through National Trading Standards' Operation Derdap, a call-blocking initiative that intercepted almost 21 million scam calls and shut down 2,000 numbers over a six-month period, and which found the tactic is disproportionately aimed at older people. National Trading Standards' advice is to be wary of any unsolicited "survey" call that asks detailed personal or financial questions, to hang up rather than stay on the line, to check bank statements regularly for unrecognised direct debits, and to talk to older relatives about the tactic since it specifically targets those less familiar with what AI voice-cloning can now do.`,
+    categorySlug: 'account-takeover',
+    country: 'GB',
+    alertLevel: 'medium',
+    sources: ['National Trading Standards'],
+    sourceUrl: 'https://www.nationaltradingstandards.uk/news/phone-scams-take-sinister-twist-as-victims-voices-cloned/',
+  },
+);
+
+International.push(
+  {
+    name: 'UK Digital Landline Switchover Scam',
+    slug: 'uk-digital-landline-switchover-scam',
+    description: `As the UK's phone network is upgraded from the old analogue system to a digital "Voice over Internet Protocol" line — a switchover every household must eventually go through — a cold caller claiming to be from BT or another provider tells the person answering that their line will be cut off, or their broadband disconnected, unless they act immediately. Some versions demand an upfront fee to "complete" the switch; others ask the person to confirm bank or personal details to "verify" their account first. Callers sometimes already know the victim's name and address, lending the call false credibility, and the pressure to act "right now or lose your line" is deliberately designed to stop someone pausing to check. Citizens Advice warns the tactic is a particular risk for older and vulnerable people, including those relying on a landline-connected personal or telecare alarm, and stresses that the switchover itself is free — no genuine provider will ever call asking for payment or bank details to carry it out, and any changeover is confirmed in writing rather than sprung on someone over the phone. Anyone contacted this way is advised to hang up, contact their provider directly using the number on a genuine bill, and report the call to Action Fraud.`,
+    categorySlug: 'utility-scams',
+    country: 'GB',
+    alertLevel: 'medium',
+    sources: ['Citizens Advice', 'Action Fraud'],
+    sourceUrl: 'https://www.citizensadvice.org.uk/consumer/phone-internet-downloads-or-tv/check-your-personal-alarm-will-work-after-the-landline-switch-off/',
+  },
+);
