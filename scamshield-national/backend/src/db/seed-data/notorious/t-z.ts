@@ -1706,3 +1706,22 @@ Beard pleaded guilty to one count of wire fraud in July 2023. On September 11, 2
 Consignment arrangements run on a kind of trust that has almost no built-in verification: an owner who hands over a valuable print expects periodic updates on its sale status and has no independent way to confirm whether a dealer's claimed delay — a slow buyer, a shipping problem, or, in this case, a medical crisis — is real or invented. Beard's fabricated illness worked for years specifically because a request to prove a private medical claim feels intrusive in a way that a request for a sales update does not, letting an increasingly implausible story survive years past the point a straightforward business excuse would have collapsed under scrutiny.`,
   },
 );
+
+NotoriousTZ.push(
+  {
+    title: 'Xiao Hu and the Skyline Technologies "AI Trading" Ponzi Indictment',
+    slug: 'xiao-hu-skyline-technologies-ai-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.njoag.gov/chief-executive-officer-of-technology-company-indicted-in-alleged-million-dollar-securities-fraud-ponzi-scheme/',
+    body: `Note: this case is at the indictment stage. Xiao Hu has been charged but not convicted, and the allegations described below reflect the government's case rather than proven facts.
+
+Xiao Hu — who also went by "Mark Hu" — was the founder and chief executive of Skyline Technologies USA LLC, a company based in Mercer County, New Jersey, when he began soliciting investors with claims that Skyline had developed proprietary, artificial-intelligence-driven trading products capable of delivering annual returns of 10 to 22 percent, according to a New Jersey state grand jury indictment. Between 2019 and 2023, he raised more than $1 million from at least six investors on the strength of those claims.
+
+According to the New Jersey Office of the Attorney General, Skyline never actually developed the AI trading products Hu described to investors. Instead, prosecutors allege, Hu spent investor money on personal expenses — including payments toward a home, luxury vehicles, private-school tuition, his mortgage, and his personal credit cards — while also using newer investors' deposits to make payments to earlier investors that looked like investment returns, the classic structure of a Ponzi scheme. One victim, identified in the indictment only by initials, is alleged to have lost approximately $600,000; five other victims are alleged to have lost a combined roughly $400,000.
+
+A state grand jury indicted Hu — now living in Orlando, Florida, after previously residing in Princeton, New Jersey — on charges including securities fraud, theft by deception, money laundering, and misconduct by a corporate official, the New Jersey Attorney General's Office announced in February 2026, following an investigation by the state Division of Criminal Justice, the New Jersey State Police, and the U.S. Postal Inspection Service. As of this writing, the case remains pending, Hu has not been convicted of any of the charges against him, and he is presumed innocent unless and until proven guilty in court.
+
+The Skyline case is a reminder that "artificial intelligence" has become one of the most effective single phrases in a fraud pitch: it describes a technology most investors don't understand well enough to independently verify, which makes it an easy stand-in for the kind of specific, checkable claims about trading strategy and performance that would otherwise invite hard questions about how, exactly, those returns are supposedly being generated.`,
+  },
+);
