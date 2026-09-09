@@ -4955,3 +4955,15 @@ UsGM.push({
     country: 'US',
     state: 'IN',
 });
+
+UsGM.push({
+    name: 'Georgia Power Utility Disconnection Impersonation Scam',
+    slug: 'georgia-power-disconnection-impersonation-scam',
+    description: `Scammers impersonating Georgia Power contact customers by phone, text, door-to-door visit, and fake digital ads, falsely claiming a bill is overdue and threatening same-day disconnection unless payment is made immediately. Phone callers spoof an 800 number and pressure customers to buy a prepaid debit or gift "money pack" from a nearby Walmart, CVS, or Walgreens, while a separate variant asks customers to send payment through Cash App to an account carrying an unauthorized Georgia Power logo. A newer digital version places fake ads on Google and other platforms that lead to fraudulent billing websites built to harvest personal and financial information, and some callers falsely claim a meter upgrade requires an upfront payment or ask a customer to "update" the credit card on file. Around National Utility Scam Awareness Day, Georgia Power reminded customers that it never requests a credit card number by phone, never accepts cryptocurrency, never calls to set up automatic payments, and never sends a field employee to collect an in-person cash payment. Customers who receive a suspicious call are advised to hang up and check their account status directly at GeorgiaPower.com, or call the verified customer service line printed on a real bill, 1-888-660-5890, rather than any number given by the caller, and to report the contact at GeorgiaPower.com/ReportAScam.`,
+    categorySlug: 'utility-scams',
+    alertLevel: 'high',
+    sources: ['Georgia Power'],
+    sourceUrl: 'https://www.georgiapower.com/news-hub/press-releases/georgia-power-reminds-customers-to-be-aware-of-scams-for-national-utility-scam-awareness-day.html',
+    country: 'US',
+    state: 'GA',
+});
