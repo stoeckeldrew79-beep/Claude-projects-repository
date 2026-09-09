@@ -11840,3 +11840,42 @@ International.push(
     sourceUrl: 'https://www.fma.govt.nz/library/warnings-and-alerts/txex/',
   },
 );
+
+International.push(
+  {
+    name: 'UK DVSA "Parking Penalty" Text Scam',
+    slug: 'uk-dvsa-parking-penalty-text-scam',
+    description: `A text message impersonating the DVSA (Driver and Vehicle Standards Agency) claims the recipient has an outstanding "parking penalty charge" and warns that failing to pay immediately could mean their car is banned from driving, the fine increases, or they're taken to court — a threat followed days later by a second "final reminder" text pushing the same fake payment link. The DVSA doesn't issue or handle parking fines at all; its role is vehicle testing and roadworthiness standards, which is itself the clearest sign the message is fake. The Department for Transport confirmed in a public notice that these scam texts were not sent by the department, and recommends forwarding suspicious messages free to 7726 and never clicking the payment link.`,
+    categorySlug: 'government-impersonation',
+    country: 'GB',
+    alertLevel: 'medium',
+    sources: ['Department for Transport (GOV.UK)', 'Which?'],
+    sourceUrl: 'https://www.gov.uk/government/news/dft-issues-warning-about-scam-text-messages-asking-people-to-pay-fines',
+  },
+);
+
+International.push(
+  {
+    name: 'UK HMRC Arrest Threat Phone Scam',
+    slug: 'uk-hmrc-arrest-threat-phone-scam',
+    description: `A phone call, voicemail, or barrage of missed calls claims to be from HMRC, alleging a criminal case or arrest warrant has been opened over unpaid tax, and warns that police will come to make an arrest unless the "debt" is settled immediately. Victims who call back, or press a number to "speak to an officer," are pressured to pay on the spot — fraudsters have specifically favoured iTunes and other gift cards, since a victim can be talked through reading out the redemption code over the phone and the funds are cashed out and gone within minutes, though demands for a direct bank transfer are also common. Caller ID can be spoofed to display a real-looking HMRC number, adding to the pressure to act before hanging up and checking. HMRC states plainly that it will never leave a voicemail or call threatening someone with immediate arrest, and never asks for payment by gift card or payment voucher — anyone targeted is advised to hang up and report the call to HMRC and Action Fraud.`,
+    categorySlug: 'tax-scams',
+    country: 'GB',
+    alertLevel: 'high',
+    sources: ['HM Revenue & Customs (GOV.UK)', 'Action Fraud'],
+    sourceUrl: 'https://www.gov.uk/guidance/check-if-a-phone-call-youve-received-from-hmrc-is-genuine',
+  },
+);
+
+International.push(
+  {
+    name: 'UK Boiler Room Share and Bond Scam',
+    slug: 'uk-boiler-room-share-bond-scam',
+    description: `An investor receives an unsolicited cold call — often to a number pulled from a public shareholder list — from someone claiming to be a broker and offering shares or bonds promising an unusually high return; the stock on offer is sometimes wildly overpriced, sometimes for a company that doesn't exist at all. Callers operate from so-called "boiler rooms" using high-pressure sales tactics: repeated calls, urgency to decide "today or miss the deal," and sometimes a free research report or a discount on dealing fees to appear more credible, occasionally backed by adverts in newspapers, magazines, or online. The FCA warns that even experienced investors have been caught out, with the largest single loss it has recorded through the police reaching £6 million, and that dealing with a genuinely authorised firm is no protection if the person who actually called isn't who they claim to be. Its advice is to only ever contact a firm using the number listed on its own FCA Firm Checker entry — never a number given by the caller — and to treat any unsolicited call offering shares or bonds as a warning sign in itself.`,
+    categorySlug: 'investment-fraud',
+    country: 'GB',
+    alertLevel: 'high',
+    sources: ['UK Financial Conduct Authority'],
+    sourceUrl: 'https://www.fca.org.uk/consumers/share-bond-and-boiler-room-scams',
+  },
+);
