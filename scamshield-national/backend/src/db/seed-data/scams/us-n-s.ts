@@ -4507,3 +4507,27 @@ UsNS.push({
     country: 'US',
     state: 'NH',
 });
+
+UsNS.push({
+    name: `Richland County Wig-Disguised Impersonation Scam (Dorothy Watkins)`,
+    slug: 'south-carolina-richland-county-dorothy-watkins-impersonation-scam',
+    description: `Dorothy Watkins, 41, first stole an 87-year-old Richland County, South Carolina woman's driver's license while working as a cashier at a Sandhills-area store under a false identity, handing the victim a different license in its place, then used the address on file to locate the victim's home. Over three separate visits in early March 2026, Watkins allegedly returned wearing different wigs each time, posing first as a store employee, then as a South Carolina Department of Motor Vehicles worker, and finally as a plainclothes Richland County Sheriff's Department investigator who told the victim she worked closely with Sheriff Leon Lott and did not need a uniform because of her position. During that third visit, Watkins drove the victim to a Palmetto Citizens Federal Credit Union branch and instructed her to withdraw $10,000 in "legal fees," a transaction that was only blocked because the bank was closing for the day; across the scheme she also stole several of the victim's credit cards and ran up more than $17,000 in fraudulent charges, including large appliance purchases. Watkins was arrested March 16, 2026 and charged with kidnapping, exploitation of a vulnerable adult, impersonating a law enforcement officer, and two counts of financial identity fraud. "This is probably one of the most disturbing scams against a senior that we've dealt with," Sheriff Lott said at a news conference announcing the arrest. The case is a reminder that a real government agency or law-enforcement investigator will never show up unannounced at your home, in plain clothes, to walk you to a bank and direct a large cash withdrawal — verify any such visit by calling the agency's published non-emergency number yourself before going anywhere with the visitor.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Richland County Sheriff\'s Department', 'WIS-TV', 'WACH FOX57'],
+    sourceUrl: 'https://www.wistv.com/2026/03/20/columbia-woman-arrested-kidnapping-fraud-after-impersonating-rcsd-worker/',
+    country: 'US',
+    state: 'SC',
+});
+
+UsNS.push({
+    name: `Latta Power-of-Attorney Nursing Home Exploitation (Delores Ann Edge)`,
+    slug: 'south-carolina-latta-delores-edge-power-of-attorney-exploitation',
+    description: `Delores Ann Edge, 64, of Latta, South Carolina, served as court-appointed conservator and power of attorney for a vulnerable adult residing at Veterans Village Nursing Home in Florence, a role that gave her legal authority over the victim's bank accounts and assets. Between April 23, 2024 and February 6, 2026, prosecutors allege Edge used that fiduciary authority to knowingly and willfully spend approximately $34,071.98 of the victim's money on herself rather than for the victim's care or benefit. South Carolina Attorney General Alan Wilson's office announced her arrest on July 22, 2026, following a joint investigation by the Attorney General's Vulnerable Adults and Medicaid Provider Fraud unit, the Dillon County Sheriff's Office, and the Florence County Sheriff's Office; Edge was booked into the Florence County Detention Center and charged with exploitation of a vulnerable adult and breach of trust with fraudulent intent for an amount of $10,000 or more, a charge carrying up to 10 years in prison. The case illustrates a risk that has nothing to do with a stranger's phone call: a legitimately appointed power of attorney or conservator has lawful access to a vulnerable adult's entire financial life, so families are advised to request regular accountings from a conservator, consider a co-conservator or bonded fiduciary for significant assets, and report any conservator or agent under power of attorney who resists sharing account statements to the state's Vulnerable Adults and Medicaid Provider Fraud unit.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'high',
+    sources: ["South Carolina Attorney General's Office"],
+    sourceUrl: 'https://www.scag.gov/about-the-office/news/attorney-general-alan-wilson-announces-latta-woman-charged-with-stealing-more-than-34-000-from-nursing-home-resident/',
+    country: 'US',
+    state: 'SC',
+});
