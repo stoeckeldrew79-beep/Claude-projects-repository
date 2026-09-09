@@ -5614,3 +5614,20 @@ Franklin was charged with wire fraud, and on July 31, 2026, U.S. District Judge 
 Franklin's case underscores a distinction that benefit-fraud prosecutions turn on again and again: means-tested programs like SSI aren't just checking whether a recipient is disabled or has a qualifying need, they're checking whether that person's financial resources fall under a specific threshold, which makes an undisclosed bank account — even one funded by money that has nothing to do with the underlying disability — just as material to eligibility as a fabricated diagnosis would be. A seven-figure sum moving through an account the government doesn't know exists is not a detail a benefits recipient gets to decide is irrelevant on their own.`,
   },
 );
+
+NotoriousAF.push(
+  {
+    title: "Alma Perez and the Decade-Old 'Guaranteed' Investment Fraud That Took Retirees' Life Savings",
+    slug: "alma-perez-grand-trine-kings-funding-fraud",
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://oag.ca.gov/news/press-releases/attorney-general-bonta-announces-18-year-prison-sentence-defendant-investment',
+    body: `From May 2008 through December 2013, Alma Perez raised money from a small circle of victims through two companies she controlled, Grand Trine LLC and Kings Funding Source LLC, according to the California Department of Justice. Her pitch, prosecutors said, was the same reassurance that has drawn retirees into fraudulent investments for generations: their principal was "guaranteed" and not at risk, and they could count on steady monthly returns on top of it. Five victims put in money on that promise, drawing on retirement savings and inheritance funds — exactly the kind of money people can least afford to lose and are least likely to risk without believing it is safe.
+
+There was no safe, guaranteed investment behind the promise. According to the California Attorney General's Office, Perez used the money she took in to pay for her own five different credit cards, groceries, clothing, utilities, and dining, along with cash withdrawals — and she used a portion of it to make "Ponzi" payments to earlier victims, dressed up as investment returns, to keep the scheme looking legitimate to the people who had already put money in. In one instance, prosecutors said, Perez went further than simply misdirecting new deposits: she forged a disbursement request against a victim's annuity policy and diverted those funds into a bank account she used for her own spending. In total, the five known victims lost more than $735,000.
+
+The California Department of Justice's Special Prosecution Section charged Perez with grand theft, securities fraud, conspiracy, use of a scheme to defraud in connection with the sale of a security, and an aggravated white-collar-crime sentencing enhancement tied to the dollar amount involved. The case took years to reach trial relative to the underlying conduct, which had ended in 2013; a jury heard seven days of evidence and, on July 3, 2025, convicted Perez on every count and enhancement charged. On August 22, 2025, she was remanded into custody and sentenced to 18 years and 8 months in state prison. "When bad actors scheme to steal the savings of hardworking Californians, we won't stand idly by," Attorney General Rob Bonta said in announcing the sentence. "Today, justice has been served."
+
+Perez's case is a reminder that a "guaranteed" return on an investment product is, on its own, a warning sign rather than a reassurance — no legitimate security can promise that principal is risk-free while also paying a fixed monthly return, because if it could, everyone would already be invested in it. It's also a reminder that the machinery of a Ponzi scheme doesn't require dozens of victims or a public-facing sales operation to inflict serious damage: five people and a set of two small, obscure LLCs were enough to cost retirees three-quarters of a million dollars in savings they had no way to replace.`,
+  },
+);
