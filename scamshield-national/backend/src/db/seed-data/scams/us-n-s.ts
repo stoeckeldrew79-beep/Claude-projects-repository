@@ -4614,3 +4614,15 @@ UsNS.push({
     country: 'US',
     state: 'OR',
 });
+
+UsNS.push({
+    name: 'OYO Las Vegas Fake AI-Generated "Palette" and "Collection O" Hotel Listings',
+    slug: 'oyo-las-vegas-fake-ai-hotel-listings-scam',
+    description: `Travel booking sites including Booking.com and Expedia began investigating listings in August 2026 for two Las Vegas properties, "Palette Las Vegas" and "Collection O Las Vegas," that turned out not to be real, separate hotels at all, according to reporting by the Las Vegas Review-Journal and travel writer Gary Leff of View From the Wing. Both listings used the address of an existing, poorly reviewed off-Strip budget property operated under the OYO brand by hospitality company PRISM, with casino operations run by Paragon Gaming, and were illustrated with AI-generated photographs showing polished lobbies, refreshed rooms, and building signage that does not exist anywhere on the actual property. Guests who booked "Palette" or "Collection O" hoping for a different, better-reviewed hotel were checked in as ordinary OYO guests instead; one traveler said a front-desk employee told her outright, "That's us. This is OYO." Once guests realized what had happened and began leaving honest reviews, the fake listings quickly accumulated the same complaints already attached to OYO's own listing — broken elevators, roaches, and stained furnishings — with Collection O drawing a 4-out-of-10 rating built largely from 2-out-of-10 reviews. The listings appeared across Booking.com, Expedia, Travelocity, Orbitz, Hotels.com, and Trip.com before a guest's viral video drew wider attention; Expedia disabled the Collection O listing on August 14, 2026 and said, "If we identify content that does not comply with the policy, we will take appropriate action against the partner," while Booking.com said it monitors "for suspicious activity around the clock." It wasn't the first time OYO's naming practices had come under scrutiny: former employees told researchers in 2020 they had been pressured to list rooms and photos for hotels that didn't actually have inventory available, to make the chain look bigger than it was. Travelers who find a highly rated hotel listing at an address that also happens to house a much lower-rated property should treat the newer listing skeptically, reverse-image-search its photos, read its most recent reviews rather than relying on the overall score, and book only through a site that lets them cancel without penalty if the property doesn't match what was advertised.`,
+    categorySlug: 'travel-vacation-scams',
+    alertLevel: 'medium',
+    sources: ['Las Vegas Review-Journal', 'View From the Wing'],
+    sourceUrl: 'https://www.reviewjournal.com/business/tourism/travel-sites-investigating-non-existent-las-vegas-hotel-listings-3863614/',
+    country: 'US',
+    state: 'NV',
+});

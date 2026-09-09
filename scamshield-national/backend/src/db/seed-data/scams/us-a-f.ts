@@ -6396,3 +6396,15 @@ UsAF.push({
     sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2026/01/ftc-sues-justanswer-deceiving-consumers-enrolling-costly-recurring-monthly-subscription',
     country: 'US',
 });
+
+UsAF.push({
+    name: 'ACC Tournament Screenshot Ticket Scam',
+    slug: 'acc-tournament-screenshot-ticket-scam',
+    description: `Ahead of the 2026 ACC Men's Basketball Tournament in Charlotte, the Better Business Bureau of the Eastern Carolinas warned North Carolina fans on March 10, 2026 about sellers on Facebook groups and other resale sites offering what looks like a normal mobile ticket transfer but is actually just a screenshot of someone else's ticket. Because arenas like Charlotte's Spectrum Center have moved to mobile tickets with a barcode that refreshes roughly every 30 seconds specifically to prevent duplication, a static image can be sold to dozens of different buyers who each believe they have a valid ticket, only to be turned away at the gate when the code they're holding can't be scanned or was already used by someone earlier in line. "You don't want to be stuck with a screenshot of a ticket if they're only accepting live barcodes," said BBB of the Eastern Carolinas spokesperson Alyssa Parker, and the NCAA itself has stated plainly that "no, screenshots of tickets or any ticket produced by an unauthorized source will not be accepted" at its championship events. The BBB noted the tactic also thrives during other high-demand tournament windows, since sellers count on buyers being in a rush and unfamiliar with a specific arena's entry technology. Fans are advised to buy directly from the venue, the ACC, or an authorized resale partner whenever possible, to verify an unfamiliar seller through the National Association of Ticket Brokers, to pay by credit card rather than a peer-to-peer app, wire transfer, or cash so a fraudulent purchase can be disputed, and to be especially wary of any seller who can only provide a screenshot rather than transferring the ticket through the venue's own mobile-ticketing app.`,
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'medium',
+    sources: ['Better Business Bureau of the Eastern Carolinas', 'WRAL'],
+    sourceUrl: 'https://www.wral.com/consumer/5onyourside/bbb-warns-triangle-fans-ticket-scams-acc-tournament-charlotte-march-2026/',
+    country: 'US',
+    state: 'NC',
+});
