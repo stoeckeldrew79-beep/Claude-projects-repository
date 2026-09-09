@@ -11762,3 +11762,42 @@ International.push(
     sourceUrl: 'https://www.actionfraud.police.uk/news/scam-at-first-sight-criminals-target-those-looking-for-love-with-bogus-investment-opportunities',
   },
 );
+
+International.push(
+  {
+    name: 'UK SIM Swap Fraud',
+    slug: 'uk-sim-swap-fraud',
+    description: `Using personal details gathered from data breaches, phishing, or social media, a fraudster contacts a victim's mobile network provider and convinces it — sometimes with the help of a bribed or deceived insider — that the victim's phone has been lost or damaged, causing the victim's number to be transferred onto a SIM the fraudster controls while the genuine handset loses service entirely. Once the number is under their control, the fraudster intercepts the one-time passcodes and password-reset texts that banks, email providers, and other services send by SMS, using them to bypass two-factor authentication and drain online banking and other accounts, often within minutes of the swap going through. Cifas, which runs the UK's National Fraud Database, reported a 1,055% surge in unauthorised SIM swaps logged to the database in 2024 compared with the year before — nearly 3,000 cases in total — and named mobile and telecoms providers among the sectors hit hardest as criminals target the SMS-based two-factor authentication still widely used to protect online accounts. Cifas advises mobile customers to set a PIN or password with their provider that must be given before any SIM or account change is processed, and to treat an unexpected loss of signal, or a text confirming a SIM or number change they didn't request, as an immediate warning sign — contacting their provider and bank straight away rather than waiting to see if service returns on its own.`,
+    categorySlug: 'account-takeover',
+    country: 'GB',
+    alertLevel: 'high',
+    sources: ['Cifas', 'Action Fraud'],
+    sourceUrl: 'https://www.cifas.org.uk/newsroom/huge-surge-see-sim-swaps-hit-telco-and-mobile',
+  },
+);
+
+International.push(
+  {
+    name: 'UK Loan Fee Fraud',
+    slug: 'uk-loan-fee-fraud',
+    description: `A fraudulent lender advertises loans online with guaranteed approval regardless of poor credit history, or calls or texts someone who has recently applied for credit through a genuine comparison site, offering to release the money almost immediately on condition that the borrower first pays an upfront fee — described as a deposit, an insurance premium, or an administration charge, typically somewhere between £25 and £450. Once that fee is paid, usually by bank transfer, gift card, or increasingly cryptocurrency, the promised loan never arrives, and victims are sometimes strung along with demands for further "release" or "processing" fees before the fraudster stops responding altogether. The Financial Conduct Authority says victims report an average loss of around £255 to loan fee fraud, that it is a high-volume, persistent scam generating hundreds of reports to the FCA every year, and that people who have recently applied for credit online — often precisely because they have a poor credit history — are the most likely to be targeted by a follow-up call from a fraudster posing as a lender. The FCA advises checking any lender against its Financial Services Register and Warning List before applying, treating any request to pay money upfront as a clear sign of fraud, and reporting suspected loan fee fraud to the FCA and to Action Fraud.`,
+    categorySlug: 'debt-relief-scams',
+    country: 'GB',
+    alertLevel: 'medium',
+    sources: ['Financial Conduct Authority (FCA)'],
+    sourceUrl: 'https://www.fca.org.uk/consumers/loan-fee-fraud',
+  },
+);
+
+International.push(
+  {
+    name: 'UK Recovery Fraud Targeting Past Scam Victims',
+    slug: 'uk-recovery-fraud-scam',
+    description: `Someone who has already lost money to an investment, romance, or cryptocurrency scam is contacted again, sometimes months later, by a person claiming to work for a fraud recovery agency, a law firm, or a government-sounding body, offering to help recover the money already lost. The caller often already knows specific details of the original scam — the amount lost, the platform used, sometimes even the name of the original fraudster — because criminal groups compile and resell lists of confirmed victims to one another, which makes the follow-up approach sound credible to someone still trying to make sense of what happened to their money. Genuine recovery of stolen funds never requires the victim to pay anything upfront, yet the caller asks for a fee described as a deposit, a tax, or a release charge before the "recovered" money can supposedly be paid out — money that, once sent, simply becomes a second loss, with no recovery ever taking place. The UK government's Stop! Think Fraud campaign warns fraud victims to stay alert to this follow-up approach in the months after a scam, to never hand over banking details, passwords, or one-time codes to anyone claiming to be helping recover lost funds, and to report any such approach to Action Fraud, since a genuine recovery agency never asks for payment before returning money.`,
+    categorySlug: 'investment-fraud',
+    country: 'GB',
+    alertLevel: 'medium',
+    sources: ['Stop! Think Fraud (UK Home Office)', 'Action Fraud'],
+    sourceUrl: 'https://stopthinkfraud.campaign.gov.uk/recovery-from-fraud/be-on-your-guard-against-further-fraud',
+  },
+);
