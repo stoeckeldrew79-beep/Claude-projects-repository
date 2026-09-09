@@ -6237,3 +6237,22 @@ A federal grand jury in the Western District of Washington indicted Carty in Nov
 Carty's case is a reminder that a lottery scam's real weapon isn't the fake prize but the isolation the caller manufactures around it — a fabricated gag order dressed up as an FBI investigation, kept in place by someone willing to send a tow truck to a stranger's driveway rather than let her go quiet.`,
   },
 );
+NotoriousAF.push(
+  {
+    title: 'James "Billy" Arehart and the $9 Million "Providing Hope VA" Charity Fraud',
+    slug: 'james-arehart-providing-hope-va-charity-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-edva/pr/ceo-charity-veterans-charged-federal-fraud-crimes',
+    // no rights-cleared photo found — sourceUrl above serves as the "read the full story" link
+    body: `James "Billy" Arehart founded Providing Hope VA in 2018, pitching it as a lifeline for veterans facing financial trouble, homelessness, unemployment, and the need for treatment. He first registered the charity in Virginia, then relocated its operations to Loris, South Carolina, in early 2020. Between 2018 and August 2021, the organization raised more than $9 million — the bulk of it through raffle tickets for high-end prizes, including luxury vehicles, advertised on the charity's own Facebook page. Buyers were told their ticket purchases counted as tax-deductible donations.
+
+Arehart was Providing Hope VA's president and its only board member, giving him sole control of its bank account with no one else positioned to ask where the raffle money actually went. Court records show his own compensation climbed steeply as the charity grew: $162,000 in salary and bonuses in 2019, $292,000 in 2020, and $525,000 in 2021 — all drawn from donations solicited in veterans' names. Prosecutors also documented more direct diversions, including a $25,000 check to a swimming-pool construction company and a separate $125,000 payment to a third party, neither connected to any veteran service the charity claimed to provide.
+
+The most public piece of the pitch was a promised "Building Fund" for a transitional and emergency housing facility in Loris that Providing Hope VA said would eventually house up to 100 veterans. The city of Loris annexed land for the project, and the charity held a groundbreaking ceremony in 2023 while continuing to solicit donations toward construction. According to the indictment, no such dedicated fund ever existed — money raised for the building went into the same single account Arehart controlled and used "as he saw fit." No construction ever began.
+
+A federal grand jury indicted Arehart in November 2023 on charges including mail fraud, wire fraud, money laundering, and making false statements to federal agents. He reached a plea agreement in August 2024, pleading guilty to one count of engaging in a monetary transaction in property derived from unlawful activity — a money-laundering charge — in exchange for the government dropping the remaining counts. On March 24, 2025, a federal judge in the Eastern District of Virginia sentenced him to 21 months in prison and ordered him to forfeit $250,000 in criminal proceeds.
+
+The charity's website and social media accounts disappeared after the sentencing, and the Loris housing project remains an empty, annexed lot. Bruce Donegan, South Carolina's American Legion state commander, summed up the reaction among veterans who had bought raffle tickets or watched the groundbreaking with hope: "I felt betrayed, I was kind of shocked," he said, adding that the stalled facility left a real gap in Horry County. "I hope he has to pay it back somehow." The case is a reminder that a charity's mission statement and a Facebook raffle page are not oversight — when one person controls both the story being told and the only bank account it funds, there is nothing standing between a donor's good intentions and a $525,000 salary paid for by them.`,
+  },
+);
