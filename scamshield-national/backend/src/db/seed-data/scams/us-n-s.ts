@@ -4590,3 +4590,27 @@ UsNS.push({
     country: 'US',
     state: 'PA',
 });
+
+UsNS.push({
+    name: 'Super Bowl LX Ticket Scam Alert',
+    slug: 'super-bowl-lx-ticket-scam',
+    description: `Ahead of Super Bowl LX in Santa Clara, California Attorney General Rob Bonta issued a consumer alert on February 2, 2026 warning fans about counterfeit tickets and ticket-resale fraud. "We all enjoy going to live shows and games to see our favorite artists or sports teams, but unfortunately scammers prey on our excitement," Bonta said, urging fans to treat street-side ticket hawking and suspiciously cheap offers as red flags. With the cheapest verified resale tickets running above $5,200 and field-level seats reaching $17,000, Santa Clara County Assistant District Attorney James Gibbons-Shapiro separately warned that buying from a stranger carries "very high" scam risk and said his office would prosecute anyone selling counterfeit tickets as a felony. Bonta's office recommended buying only from authorized vendors or established resale platforms, confirming a seller's refund policy before paying, checking that a ticketing site's address begins with "https" and shows a lock icon, researching a seller's reviews and complaint history, and paying by credit card rather than Zelle, Venmo, Cash App, a gift card, a prepaid debit card, a wire transfer, or cryptocurrency, since those payment methods carry no fraud-dispute protection. Fans who believe they were sold a fake ticket can file a complaint at oag.ca.gov/report, with the Better Business Bureau, or with the FBI's Internet Crime Complaint Center.`,
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'medium',
+    sources: ["California Department of Justice (Attorney General Rob Bonta)", 'KQED'],
+    sourceUrl: 'https://www.oag.ca.gov/news/press-releases/ahead-super-bowl-attorney-general-bonta-warns-californians-against-ticket-scams',
+    country: 'US',
+    state: 'CA',
+});
+
+UsNS.push({
+    name: 'Oregon OSHA Consultant and Penalty-Settlement Impersonation Scam',
+    slug: 'oregon-osha-impersonation-scam',
+    description: `Oregon OSHA warned employers in May 2026 about two distinct scams targeting businesses that had recently gone through, or were currently facing, a real state safety inspection. In the first, callers claiming to represent an outside safety-consulting firm contact an employer with an open Oregon OSHA inspection and promise that, for a fee, they can guarantee the inspection turns up zero violations. In the second, callers impersonate actual Oregon OSHA staff and offer to settle a pending enforcement penalty for a reduced amount if the employer sends payment directly to them rather than through the state's normal penalty-payment process. Oregon OSHA said scammers appear to identify targets using a publicly searchable federal OSHA enforcement database, letting them time calls to employers already anxious about a specific, real inspection or citation — a level of detail that makes the pitch feel far more credible than a generic cold call. No legitimate consultant can guarantee an inspection outcome in advance, and Oregon OSHA never asks an employer to pay a penalty to an individual caller rather than through its official payment channels. Employers who receive one of these calls are advised not to send any payment and to call Oregon OSHA directly at 1-800-922-2689 to verify whether the caller is legitimate before responding.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Oregon Occupational Safety and Health Division (Oregon OSHA)', 'Insurance Journal'],
+    sourceUrl: 'https://www.insurancejournal.com/news/west/2026/05/13/869582.htm',
+    country: 'US',
+    state: 'OR',
+});
