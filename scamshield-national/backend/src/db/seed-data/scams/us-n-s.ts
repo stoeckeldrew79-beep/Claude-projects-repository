@@ -4363,3 +4363,15 @@ UsNS.push({
     country: 'US',
     state: 'OR',
 });
+
+UsNS.push({
+    name: 'Hanover Power-of-Attorney Caregiver Neglect and Medicaid Fraud (Ashlee and Brian Brady)',
+    slug: 'pennsylvania-hanover-brady-power-of-attorney-caregiver-fraud',
+    description: `Pennsylvania Attorney General Dave Sunday's office charged Ashlee Brady, 32, and her husband Brian Brady, 32, both of Hanover in York County, after investigators found the elderly woman they were responsible for — Ashlee's own mother, for whom Ashlee held power of attorney while Brian served as her Medicaid-paid caregiver — locked alone behind a dog gate in the basement of her home in February 2024, left in soiled conditions with only hot dogs and two cups of water while the couple took an overnight trip with their children. Prosecutors allege the Bradys diverted more than $10,000 of the victim's money to pay for vacations and alcohol instead of her care, that Brian submitted four false Medicaid claims billing for caregiving hours he never actually worked, and that Ashlee later committed perjury and twice intimidated a witness in an effort to cover up the arrangement. Both defendants were charged on February 14, 2025 with financial exploitation of an older adult, theft by deception, neglect of a care-dependent person, and conspiracy; Brian faces four additional counts of Medicaid fraud, and Ashlee faces perjury and two counts of witness intimidation. "These alleged acts are truly disturbing on many levels," the Attorney General's office said, noting the defendants were the very family members entrusted to protect the victim's interests rather than exploit them. Families relying on a relative who holds both power of attorney and a paid Medicaid caregiving role for an elderly loved one should arrange for a neutral third party — another relative, a social worker, or a professional fiduciary — to periodically check on the person in care and review account and Medicaid billing statements, since a sole agent who is also the paid caregiver has both the access and the financial motive to hide neglect or theft for months before anyone outside the household notices.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'high',
+    sources: ['Pennsylvania Office of Attorney General'],
+    sourceUrl: 'https://www.attorneygeneral.gov/taking-action/york-county-couple-exercising-power-of-attorney-and-primary-caregiving-responsibilities-charged-with-neglect-financial-exploitation-of-elderly-woman/',
+    country: 'US',
+    state: 'PA',
+});
