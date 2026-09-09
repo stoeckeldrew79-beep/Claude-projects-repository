@@ -5134,3 +5134,15 @@ UsGM.push({
     country: 'US',
     state: 'CA',
 });
+
+UsGM.push({
+    name: 'Hawaii Fake "State-Funded" Door-to-Door Solar Pitch',
+    slug: 'hawaii-fake-state-funded-solar-door-to-door-scam',
+    description: `Hawaii's Department of Business, Economic Development and Tourism, the Hawaii Green Infrastructure Authority (HGIA), and the Department of Commerce and Consumer Affairs' Office of Consumer Protection jointly issued a public warning on March 5, 2026 about door-to-door and cold-calling solar salespeople falsely claiming to work for or be affiliated with a state agency, telling homeowners the state will pay for their entire solar system and that they'll see significantly lower energy bills as a result. None of it is true: the state does not give away free solar systems, government agencies do not cold-call or go door-to-door selling anything, and the federal solar tax credit that once offset installation costs had already expired the year before the warning went out. DCCA deputy director Dean Hazama told reporters the message for anyone approached this way is simple — "Don't make any decisions. Don't sign any contracts until you get further information from a government agency" — while HGIA executive director Gwen Lau said the salespeople "will pressure homeowners to go and sign the documents right then," a high-pressure, same-visit signing push that is itself a warning sign regardless of what's being claimed. Officials advised residents to ask any door-to-door solar representative for government identification, to get multiple independent quotes before agreeing to anything, and to remember Hawaii law gives buyers three business days to cancel a signed contract without penalty. Suspected cases can be reported to the Office of Consumer Protection at consumercomplaint.hawaii.gov or 1-844-808-3222, ext. 5, or to HGIA at 808-587-3868 or dbedt.greenbank@hawaii.gov.`,
+    categorySlug: 'home-improvement-solar',
+    alertLevel: 'medium',
+    sources: ['Hawaii Department of Business, Economic Development and Tourism', 'Hawaii Green Infrastructure Authority', 'Hawaii Department of Commerce and Consumer Affairs — Office of Consumer Protection'],
+    sourceUrl: 'https://www.hawaiinewsnow.com/2026/03/05/state-warns-public-about-misleading-solar-door-to-door-sales/',
+    country: 'US',
+    state: 'HI',
+});
