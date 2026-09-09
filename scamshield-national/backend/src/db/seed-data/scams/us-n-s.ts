@@ -4769,3 +4769,15 @@ UsNS.push({
     country: 'US',
     state: 'FL',
 });
+
+UsNS.push({
+    name: 'JTB Landscaping Deposit-and-Vanish Fraud (Jon Thomas Banning)',
+    slug: 'nevada-las-vegas-jtb-landscaping-jon-banning-fraud',
+    description: `Investigators with the Nevada Attorney General's Office arrested Jon Thomas Banning, 51, the owner of Las Vegas-based JTB Landscaping — also doing business as JTB Pools — on February 4, 2025, acting on a felony warrant issued by the Las Vegas Justice Court. The arrest followed an investigation by the Nevada State Contractors Board (NSCB) after it received multiple complaints from homeowners, many of them seniors, who said Banning collected tens of thousands of dollars in upfront deposits for landscaping and swimming-pool construction projects and then either never started the work or abandoned it partway through, refusing to return any of the unearned money. The NSCB said in its news release that Banning "obtained tens of thousands of dollars through deposits on landscaping and pool projects" and then "did not complete or start the projects and refused to return any of the money not earned." Investigators determined that, combined across all the identified victims, Banning's fraud cost homeowners more than $308,000. He was charged with eight felony counts covering multiple transactions involving fraud or deceit and obtaining money, property, rent, or labor by false pretenses. On February 10, 2026, Banning was sentenced to four to ten years in Nevada state prison on those eight felony counts. The case, built jointly by the Attorney General's Office and the state licensing board that regulates contractors, illustrates why Nevada homeowners are advised to verify any landscaping, pool, or home-improvement contractor's license status and complaint history directly through the Nevada State Contractors Board before signing a contract, to avoid paying a large deposit before any work begins, and to put a specific project timeline and payment schedule tied to completed work stages in writing rather than trusting a verbal promise — since by the time dozens of homeowners in this case realized a pattern was underway, hundreds of thousands of dollars were already gone.`,
+    categorySlug: 'home-improvement-solar',
+    alertLevel: 'high',
+    sources: ['Nevada State Contractors Board', "Nevada Attorney General's Office", 'FOX5 Las Vegas (KVVU)'],
+    sourceUrl: 'https://www.nvcontractorsboard.com/wp-content/uploads/2025/02/02-06-2025-News-Release-Banning-Release.pdf',
+    country: 'US',
+    state: 'NV',
+});

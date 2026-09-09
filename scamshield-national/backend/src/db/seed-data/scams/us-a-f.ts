@@ -6514,3 +6514,14 @@ UsAF.push({
     country: 'US',
     state: 'GA',
 });
+
+UsAF.push({
+    name: 'Amazon Prime "Dark Patterns" Enrollment and Cancellation Scheme',
+    slug: 'amazon-prime-ftc-dark-patterns-settlement',
+    description: `The Federal Trade Commission announced on September 25, 2025 that it had secured a $2.5 billion settlement against Amazon.com, Inc. resolving a 2023 lawsuit that accused the company of enrolling millions of consumers in Amazon Prime without their consent and then knowingly making it extremely difficult to cancel. FTC Chairman Andrew N. Ferguson said "Amazon used sophisticated subscription traps designed to manipulate consumers into enrolling in Prime, and then made it exceedingly hard for consumers to end their subscription," and the agency's court filings cited internal Amazon communications describing the deceptive enrollment flow as "a bit of a shady world" and, internally, "an unspoken cancer." Amazon's checkout process buried a Prime opt-out inside a maze of confusingly worded buttons and pop-ups steering shoppers toward accidental enrollment, while its cancellation flow — which Amazon internally named the "Iliad Flow," after Homer's account of the decade-long Trojan War — routed subscribers through a four-page, six-click, fifteen-option journey of repeated retention offers and confirmation prompts before a cancellation ever went through, a design the FTC said existed to stop cancellations rather than process them. The agency estimated roughly 35 million consumers were affected by unwanted enrollment or deliberately deferred cancellation. Under the settlement, filed in the U.S. District Court for the Western District of Washington and covering claims under the FTC Act and the Restore Online Shoppers' Confidence Act (ROSCA), Amazon agreed to pay a $1 billion civil penalty — the largest ever obtained for a rule violation in FTC history — plus $1.5 billion in consumer refunds, the second-largest restitution award the agency has ever secured, and to overhaul its enrollment and cancellation design going forward. Consumers signing up for any subscription should look for a clearly labeled "no thanks" or skip option before completing a purchase, and should treat a cancellation process that takes more than a couple of clicks, or that keeps redirecting to new retention offers, as a sign the design itself — not the consumer — is the problem; eligible Amazon customers can check refund status at ftc.gov/AmazonPrimeRefunds.`,
+    categorySlug: 'subscription-traps',
+    alertLevel: 'high',
+    sources: ['Federal Trade Commission'],
+    sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2025/09/ftc-secures-historic-25-billion-settlement-against-amazon',
+    country: 'US',
+});

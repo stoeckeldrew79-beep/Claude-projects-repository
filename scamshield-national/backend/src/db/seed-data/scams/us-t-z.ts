@@ -2745,3 +2745,15 @@ UsTZ.push({
     country: 'US',
     state: 'TX',
 });
+
+UsTZ.push({
+    name: 'A Community Funeral Home Forged-Will Estate Theft (Unique Green)',
+    slug: 'texas-houston-funeral-home-estate-theft-unique-green',
+    description: `Lawrence Gammon, 78, died in June 2025, and his out-of-state family hired A Community Funeral Home in Houston's Third Ward to handle his arrangements, providing the funeral home's operator, Unique Green (also known as Unique Mica Green-Battle), 47, with his personal information in the process. According to Harris County prosecutors, Green — who had no prior relationship to Gammon — used that information to forge a will naming herself as his surviving spouse and sole heir, then falsified a death certificate to open a bank account in the name of his estate. Investigators say she used the fraudulent probate paperwork to gain control of Gammon's real bank accounts, his home, and three vehicles, ultimately draining nearly $2.2 million from the estate, including a single $1.3 million wire transfer made just five days after she gained control of the assets. Green was arrested and charged with theft of more than $300,000 and four counts of forgery; she was released on an $800,000 bond with a condition barring her from working in the funeral industry while the case proceeds. Adam Brodrick, chief of the consumer fraud division at the Harris County District Attorney's Office, said of the scheme's impact on Gammon's real family: "Green has effectively robbed this family of that experience," referring to their ability to properly grieve and lay their relative to rest. A related search warrant executed at the funeral home turned up dozens of boxes of unclaimed cremated remains and evidence Green had also operated under a second, non-existent business name, "Wingate Funeral Home," while soliciting payments from other grieving families. The case is a reminder that families arranging a funeral hand over exactly the kind of personal and financial information — a full legal name, date of birth, Social Security number, and next-of-kin details — that can be used to impersonate the deceased in probate court; families should ask a funeral home for a written, itemized contract before paying anything, and should monitor a deceased relative's accounts, mail, and any probate filings in the following months rather than assuming the funeral home's role ended with the service.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'high',
+    sources: ['Harris County District Attorney\'s Office', 'FOX 26 Houston (KRIV)', 'CBS12'],
+    sourceUrl: 'https://www.fox26houston.com/news/houston-funeral-home-operator-accused-stealing-2-2-million-estate-appears-court',
+    country: 'US',
+    state: 'TX',
+});
