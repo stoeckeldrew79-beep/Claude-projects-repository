@@ -11722,3 +11722,43 @@ International.push(
     sourceUrl: 'https://www.actionfraud.police.uk/a-z-of-fraud/shopping-fraud',
   },
 );
+
+International.push(
+  {
+    name: 'London Capital & Finance Mini-Bond Ponzi Scheme',
+    slug: 'london-capital-finance-mini-bond-ponzi-scheme',
+    description: `London Capital & Finance (LCF) sold "mini-bonds" to more than 11,600 retail investors between 2013 and its collapse in January 2019, marketing them as a low-risk way to earn fixed returns of up to 8% by lending to small and medium-sized UK businesses. In reality, almost all of the £237 million raised was funnelled to a handful of companies connected to LCF's own directors, who used a substantial share of it for personal benefit rather than genuine business lending. On 14 November 2024, the High Court ruled — after a judgment running to hundreds of pages — that LCF had been operated as a Ponzi scheme, with interest and capital repayments to existing bondholders funded not by real business income but by money raised from new bondholders, and found that LCF's former chief executive and four associates had knowingly participated in defrauding investors. Because mini-bonds are an unregulated product, most bondholders initially fell outside the Financial Services Compensation Scheme's normal protection; a separate compensation scheme was established by the Government and administered by the FSCS, which together with FSCS's own payouts had returned more than £173 million to eligible bondholders by 2024. The FCA and FSCS both warn that a firm holding regulatory authorisation does not mean every product it sells is regulated or protected, and that an unusually high, fixed return advertised for an unlisted bond is a hallmark of investment fraud.`,
+    categorySlug: 'ponzi-pyramid-schemes',
+    country: 'GB',
+    isHistorical: true,
+    firstRecorded: '2013-01-01',
+    sources: ['UK Financial Conduct Authority', 'Financial Services Compensation Scheme (FSCS)'],
+    sourceUrl: 'https://www.fscs.org.uk/making-a-claim/failed-firms/lcf/',
+  },
+);
+
+International.push(
+  {
+    name: 'UK Conveyancing "Payment Diversion" Fraud (Friday Afternoon Fraud)',
+    slug: 'uk-conveyancing-payment-diversion-fraud',
+    description: `Criminals gain access to the email correspondence between a homebuyer, their solicitor or conveyancer, and the estate agent handling a property purchase — sometimes by hacking a real account, sometimes by registering a lookalike address a single character different from the genuine one and copying its tone and signature. Posing as the solicitor, they send "updated" bank details and press the buyer to transfer their deposit or completion funds immediately, often timed for late on a Friday afternoon so the payment clears before anyone can query it over the weekend, giving the scam its nickname, "Friday afternoon fraud." City of London Police, which hosts the national fraud reporting service Action Fraud, said on 7 October 2025 that it had recorded 143 conveyancing fraud reports between April 2024 and March 2025 with combined losses of £11.7 million; the 140 residential cases lost an average of £78,393 each, while three commercial property cases lost an average of £257,833, with losses peaking at almost £2 million in March 2025 alone and most victims aged 30 to 49. Detective Superintendent Oliver Little advised buyers to verify any payment request directly with their solicitor using a phone number obtained independently, never one taken from the email itself, and to treat any last-minute change to bank details as a red flag, since a legitimate solicitor will never pressure a client into moving money immediately.`,
+    categorySlug: 'account-takeover',
+    country: 'GB',
+    alertLevel: 'high',
+    sources: ['City of London Police', 'Action Fraud'],
+    sourceUrl: 'https://www.cityoflondon.police.uk/news/city-of-london/news/2025/city-of-london-police-warns-public-about-surge-in-payment-diversion-fraud-targeting-property-transactions/',
+  },
+);
+
+International.push(
+  {
+    name: 'UK Romance-Investment "Pig Butchering" Fraud',
+    slug: 'uk-romance-investment-pig-butchering-scam',
+    description: `Unlike a romance scam built around a fabricated emergency, this version keeps the online relationship friendly and steers it toward money the victim believes they are growing rather than giving away. After building trust over weeks or months on a dating app or social media, the fraudster introduces what looks like an exclusive opportunity — most often a cryptocurrency trading platform, though some victims are told they are investing in shares, gold, or other commodities. The victim opens an account and makes a modest first deposit, watches an on-screen "balance" show fast, steady profits, and is coaxed into depositing progressively more; when they try to withdraw the supposed gains, the platform stalls, demands further "fees" or "taxes" to release the funds, or simply disappears along with everything paid in. Action Fraud's "Scam at first sight" campaign found that victims had lost more than £15.6 million to bogus investment offers made through dating platforms in the period covered by the alert, with the vast majority of the money funnelled into cryptocurrency, an average loss of £15,936 per victim, and roughly six in ten victims aged between 30 and 59. Action Fraud's advice is to treat any online partner who raises the subject of investing — especially in cryptocurrency — as a warning sign, and to never move money into a platform on the recommendation of someone met only online.`,
+    categorySlug: 'cryptocurrency-scams',
+    country: 'GB',
+    alertLevel: 'high',
+    sources: ['Action Fraud'],
+    sourceUrl: 'https://www.actionfraud.police.uk/news/scam-at-first-sight-criminals-target-those-looking-for-love-with-bogus-investment-opportunities',
+  },
+);
