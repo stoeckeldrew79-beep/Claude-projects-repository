@@ -4862,3 +4862,39 @@ UsGM.push({
     country: 'US',
     state: 'MO',
 });
+
+UsGM.push({
+    name: `Missoula "Brady Batista" Fake Goods and Ticket Investor Fraud`,
+    slug: 'missoula-brady-batista-fake-goods-investor-fraud',
+    description: `Brady Allen Batista, a Missoula, Montana real estate agent, told acquaintances and investors between March 2023 and May 2024 that he had inside access to buy and resell hard-to-get items — a pontoon boat, condos, Super Bowl tickets, F1 racing tickets, and vacation packages — and collected wire payments up front to "secure" the deals, then never delivered. In one case, a buyer wired him $45,000 for a pontoon boat that never arrived; in others, he told victims he could get Super Bowl tickets for around $1,800 apiece that could be resold at a markup. Federal prosecutors in the District of Montana charged Batista with 24 felony counts — nine counts of wire fraud, eight counts of money laundering, and seven counts of aggravated identity theft, the last tied to his use of victims' own identities in parts of the scheme. He was sentenced on February 26, 2026 to 33 months in federal prison, and the U.S. Attorney's Office separately announced it had recovered approximately $450,000 to return to the more than $700,000 in losses his victims reported. The case is a reminder that a legitimate "inside connection" for scarce tickets or big-ticket items never requires the buyer to wire full payment to an individual before anything changes hands — that structure alone should be treated as a red flag, since wired funds are extremely difficult to recover once sent.`,
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'medium',
+    sources: ["U.S. Attorney's Office, District of Montana", 'Missoulian'],
+    sourceUrl: 'https://www.justice.gov/usao-mt/pr/us-attorneys-office-recovers-approximately-450000-victims-missoula-fraudster',
+    country: 'US',
+    state: 'MT',
+});
+
+UsGM.push({
+    name: `Garden City Credit Union Loan Officer Fake-Loan Identity Fraud`,
+    slug: 'kansas-garden-city-credit-union-fake-loan-embezzlement',
+    description: `Ricky Naovoravong, a 39-year-old loan officer at a credit union in Garden City, Kansas, secretly created loan paperwork in members' names without their knowledge or consent, then routed the disbursed funds — and used the members' own accounts to make "payments" on those fake loans — into his personal checking account, continually originating new fictitious loans to cover the old ones so members' statements never showed a problem. A credit union manager first caught on in August 2024 after noticing a suspicious transfer from a member's savings account into Naovoravong's checking account, which traced back to a $5,000 loan created in that member's name without their knowledge. When confronted, Naovoravong admitted the loans were fictitious and that the members named on them had no idea the loans existed. The resulting investigation found he had embezzled a total of $171,164 between November 2020 and August 2024. He pleaded guilty to embezzlement by a credit union employee and was sentenced in the U.S. District Court for the District of Kansas around September 1, 2026 to 19 months in federal prison, along with an order to pay $207,920 in restitution. Because an insider with account access can originate a loan in a customer's name without the customer ever being contacted, credit union and bank members are advised to review their own account and loan activity regularly — through online banking or a paper statement — rather than assuming they would automatically be notified of a new loan taken out in their name.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'medium',
+    sources: ["U.S. Attorney's Office, District of Kansas", 'WIBW'],
+    sourceUrl: 'https://www.justice.gov/usao-ks/pr/former-loan-officer-sentenced-embezzlement-through-fake-loans',
+    country: 'US',
+    state: 'KS',
+});
+
+UsGM.push({
+    name: `Salina Homeowner's Address Hijacked for Fake Rental Listings`,
+    slug: 'kansas-salina-fake-rental-listing-scam',
+    description: `Melissa Williams, a homeowner in Salina, Kansas, discovered in early 2026 that scammers had listed her actual home for rent on Zillow and other listing sites, using photos pulled from her home's original real-estate sale listing, without her knowledge. "I googled my address and it was everywhere! Zillow... all the places you can rent," Williams said after searching her own address online. Prospective renters who contacted the fake listing were sent fabricated supporting documents, including a state ID card carrying her husband's name — with the middle name misspelled — and a fake lease agreement, and were asked to wire an upfront deposit; one prospective renter told Williams the scammer had asked for $2,000, with keys promised to be shipped by FedEx once payment cleared, and every request to view the home or meet in person was deflected. Williams filed a police report and contacted each listing site to get the fraudulent posts taken down. There is no fee a homeowner can pay to stop a listing site from being misused this way, but Kansas law enforcement and industry sources recommend homeowners periodically search their own address online, and that renters confirm a landlord's identity and ownership before paying any deposit, insist on touring a rental in person or by live video, and refuse any request to pay by wire transfer, gift card, or peer-to-peer app before a lease is signed.`,
+    categorySlug: 'rental-housing',
+    alertLevel: 'medium',
+    sources: ['KWCH'],
+    sourceUrl: 'https://www.kwch.com/2026/04/01/salina-homeowner-targeted-sophisticated-online-rental-scam/',
+    country: 'US',
+    state: 'KS',
+});

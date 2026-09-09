@@ -2649,3 +2649,27 @@ UsTZ.push({
     country: 'US',
     state: 'ND',
 });
+
+UsTZ.push({
+    name: `"Felony Lane Gang" Stolen Checkbook Bank Fraud Ring Hits Wyoming`,
+    slug: 'wyoming-felony-lane-gang-stolen-checkbook-bank-fraud',
+    description: `The Casper Police Department, working with the FBI, arrested a suspect on April 3, 2026 tied to what investigators identified as the "Felony Lane Gang," a loosely organized, nationwide criminal network that the U.S. Department of Justice has tracked for well over a decade. The gang's method is to travel from city to city stealing purses, checkbooks, and driver's licenses out of unattended, often unlocked, cars — frequently parked outside gyms or daycare facilities — then use the stolen IDs to impersonate the victims at bank drive-through lanes, typically pulling into the lane farthest from the branch's security cameras, and cash forged checks drawn on the victims' own stolen checkbooks before the theft is even reported. In the Wyoming case, a 38-year-old woman using a false identity allegedly withdrew $12,500 from an ANB Bank branch in Buffalo, Wyoming and then attempted a similar fraudulent withdrawal at an ANB branch in Casper the same day; she was charged with conspiracy to commit forgery, possession of forged documents, and conspiracy to commit theft, and held on a $100,000 cash-only bond, with two additional suspects arrested in Laramie. Casper Police said the conduct was consistent with the Felony Lane Gang's established pattern. Because the crime starts with an item stolen from a parked car, Wyoming residents are urged to never leave a purse, checkbook, or wallet visible or accessible inside an unattended vehicle, to report a stolen checkbook to their bank immediately so the account can be frozen, and to reconcile bank statements promptly for any check they did not write.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'medium',
+    sources: ['Casper Police Department', 'Oil City News'],
+    sourceUrl: 'https://oilcity.news/crime/2026/04/07/casper-police-nab-suspect-in-organized-bank-fraud-conspiracy/',
+    country: 'US',
+    state: 'WY',
+});
+
+UsTZ.push({
+    name: `Sheridan County Facebook Marketplace Puppy Scam`,
+    slug: 'wyoming-sheridan-county-facebook-puppy-scam',
+    description: `The Sheridan County Sheriff's Office warned Wyoming residents on February 28, 2026 about a wave of fake puppy and pet listings on Facebook Marketplace. Undersheriff Lieutenant Doug Sanders said scammers post appealing photos of puppies for sale, and once a buyer expresses interest, request payment through hard-to-trace prepaid cards, such as Green Dot cards, rather than a traceable method, then frequently add last-minute fees for "transportation," a special travel crate, or pet insurance before the animal ever arrives — money that, once sent, cannot be recovered. Warning signs include a seller with no verifiable breeder website, listing photos that don't match the seller's claimed location, more than one person asking for money on the same deal, and any pressure to pay immediately. "If a deal appears too good to be true or the seller pressures immediate payment, it is likely a scam," Sanders said. His office noted that the scammers frequently use burner phones and messaging apps to hide their identity, which makes both tracing the money and identifying a suspect difficult once payment has gone through. Prospective buyers are urged to insist on seeing a puppy in person or over live video before paying anything, and to walk away from any seller who refuses.`,
+    categorySlug: 'pet-sales-scams',
+    alertLevel: 'medium',
+    sources: ["Sheridan County Sheriff's Office"],
+    sourceUrl: 'https://sheridanwyoming.com/2026/02/28/undersheriff-warns-of-puppy-scam-on-social-media-market-place/',
+    country: 'US',
+    state: 'WY',
+});
