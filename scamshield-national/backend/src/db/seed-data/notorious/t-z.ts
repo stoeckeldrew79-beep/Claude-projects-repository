@@ -1848,3 +1848,20 @@ Following an investigation by the U.S. Postal Inspection Service, Murray pleaded
 Murray's case shows why prosecutors increasingly target the list broker rather than only the caller: an individual scam crew can defraud dozens or hundreds of people, but the person supplying the targeting data behind many crews at once — who never speaks to a single victim directly — can enable millions of dollars in losses across an entire criminal ecosystem, making the data supply chain as much the crime as the phone call itself.`,
   },
 );
+
+NotoriousTZ.push(
+  {
+    title: 'Yalei Li: The Money-Mule Courier Police Were Waiting for at a 92-Year-Old\'s Door',
+    slug: 'yalei-li-tech-support-scam-money-mule-pelham-nh',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://wgme.com/news/local/california-man-sentenced-for-attempting-to-scam-92-year-old-new-hampshire-woman-crime-yalei-li-tech-support-scam-scammer-theft-by-deception',
+    body: `A 92-year-old woman in Pelham, New Hampshire, was working on her Apple computer when a pop-up alert appeared warning that she'd been hacked, with a phone number to call for help. She called it, and reached a man who identified himself as "Sam Harwell" from Apple. He transferred her to a second man, "Christopher," who claimed to work for her bank, Enterprise Bank, and told her that her accounts had been compromised — the money needed to be moved somewhere safe immediately, and an agent of the bank would come collect it in person.
+
+On April 3, 2025, following the callers' instructions, she withdrew $20,000 in cash, which was picked up at her home by a man using the alias "Jack." Days later, the callers came back asking for another $50,000. This time, something didn't sit right with her, and she called the police instead of the bank. When a man arrived at her door on the night of April 8, 2025, to collect the second payment, officers were already there waiting. That man was Yalei Li, 39, of Rosemead, California, who had traveled across the country to pick up the cash.
+
+Li was tried before a Hillsborough County Superior Court jury and, on May 27, 2026, convicted of one count of attempted theft by deception. He was sentenced to two to four years in New Hampshire State Prison. New Hampshire officials, announcing the case, noted that scams targeting senior citizens had climbed more than 50 percent over the prior year according to Justice Department data, with tech-support scams among the fastest-growing categories.
+
+Li was never the mastermind of the scheme that targeted this victim — the callers posing as "Sam Harwell," "Christopher," and "Jack" were never identified or charged in the coverage of this case, and likely operated from well outside New Hampshire or the country entirely. What Li represents is the courier layer that this kind of remote fraud depends on: someone willing to show up in person, take the physical risk of collecting cash from a stranger's doorstep, and carry the scheme's proceeds back to whoever is really running it. It's a role that's disposable and replaceable for the organizers, but it's also the one point in the whole operation where a victim's hunch and a phone call to police can actually catch someone.`,
+  },
+);

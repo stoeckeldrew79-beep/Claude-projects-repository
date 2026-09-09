@@ -6300,3 +6300,20 @@ Costello pleaded guilty on January 18, 2023, to one count of securities fraud. A
 Costello's case is a reminder that the credential itself can be the entire product a fraudster is selling: no fund ever existed to check, no combat record to verify, no Harvard transcript on file — just a confident story that most investors, flattered to be pitched by a billionaire, never thought to question until their money was already gone.`,
   },
 );
+
+NotoriousGM.push(
+  {
+    title: 'Lance Slayton: The Contractor Who Took $70,000 From an Elderly Woman and Left Her Rental Home Full of Asbestos',
+    slug: 'lance-slayton-colorado-contractor-asbestos-elder-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://coag.gov/press-releases/colorado-contractor-sentenced-fraud-environmental-crimes/',
+    body: `An 82-year-old Colorado woman owned a rental property in Arvada that had been damaged by fire, and she needed someone to handle the fire restoration and asbestos abatement work required before it could be lived in again. She hired Lance Slayton, paying him more than $70,000 to get the job done safely and legally. According to the Colorado Attorney General's office, Slayton did neither.
+
+Instead of licensed asbestos-abatement crews, prosecutors say Slayton put unlicensed laborers on the job, mishandled asbestos-containing hazardous material in the process, and never finished the work — leaving the elderly woman's property contaminated and unsafe, with the carcinogenic material improperly disturbed and workers and nearby residents put at risk of exposure. He had taken the money for the job without ever intending, or being able, to deliver it.
+
+Slayton was convicted on charges including criminal exploitation of an at-risk elder, theft from an at-risk elder, intentionally causing a hazardous substance incident, and knowingly endangering others under Colorado's Air Quality Control Act. On February 13, 2025, a Jefferson County District Court judge sentenced him to 10 years in the Colorado Department of Corrections on the elder-abuse and theft counts, with lesser sentences on the environmental charges running concurrently; prosecutors sought roughly $85,000 in restitution. A co-defendant, Christina Beckner, pleaded guilty separately in the case. The prosecution was handled by Colorado Attorney General Phil Weiser's office, working with the Colorado Department of Public Health and Environment.
+
+Home-repair fraud against elderly homeowners is common enough to have its own name in elder-abuse casework, but Slayton's case shows how much further it can go than an unfinished paint job or a driveway that cracks apart in a season: an unlicensed, corner-cutting contractor working with a hazardous material like asbestos can leave a victim not just out tens of thousands of dollars, but living in — or unable to safely return to — a home that's now a health hazard.`,
+  },
+);
