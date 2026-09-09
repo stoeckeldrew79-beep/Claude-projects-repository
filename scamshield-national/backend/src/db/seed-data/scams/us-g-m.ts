@@ -4670,3 +4670,27 @@ UsGM.push({
     country: 'US',
     state: 'IL',
 });
+
+UsGM.push({
+    name: 'Fake Vacation Rental Listing Scam Targeting Tourists',
+    slug: 'hawaii-fake-vacation-rental-listing-tourist-scam',
+    description: `Hawaii's Office of Consumer Protection warned in July 2026 that scammers are copying real, legitimate vacation rental listings — reusing the same photos and descriptions pulled from sites like Airbnb and VRBO — and reposting them on social media, Craigslist, or cloned booking websites, sometimes for beachfront North Shore or Poipu Beach properties that were never actually for rent. "The photos are real, but the listing itself is not," enforcement attorney Radji Tolentino told Hawaii News Now. Travelers are pressured into paying quickly by wire transfer, payment app, gift card, or cryptocurrency to lock in what looks like an unbeatable deal, only to arrive in Hawaii and discover no reservation exists or that the unit is already occupied by its real owner. Hawaii has one of the highest per-capita rates of vacation rental scams in the country. State officials advise booking only through verified platforms rather than links sent directly by a host, video-calling to confirm a listing and host are legitimate before paying, and treating prices well below comparable nearby properties, brand-new host accounts with no reviews, and demands for urgent off-platform payment as red flags. Suspected scams can be reported to Hawaii's Office of Consumer Protection at cca.hawaii.gov/ocp or 1-844-808-3222.`,
+    categorySlug: 'travel-vacation-scams',
+    alertLevel: 'high',
+    sources: ['Hawaii Office of Consumer Protection', 'Hawaii News Now'],
+    sourceUrl: 'https://www.hawaiinewsnow.com/2026/07/23/state-officials-that-vacation-rental-listing-could-be-scam/',
+    country: 'US',
+    state: 'HI',
+});
+
+UsGM.push({
+    name: 'Harpswell Municipal Vendor-Impersonation Wire Fraud',
+    slug: 'maine-harpswell-vendor-impersonation-wire-fraud',
+    description: `The town of Harpswell disclosed in late May 2026 that it had been defrauded of $189,199 in municipal funds after scammers impersonating one of the town's real vendors sent town staff fraudulent payment instructions made to look like they came from that vendor, diverting a payment intended for legitimate town business to an account the fraudsters controlled. "The town recently became the victim of a fraud scheme in which it received fraudulent payment instructions that were made to appear as if they came from a vendor, diverting $189,199 of municipal funds," Select Board Chair Kevin Johnson said, adding that Harpswell had notified its insurance carrier, legal counsel, and auditing firm, and was cooperating with local and federal law enforcement while pursuing recovery and tightening its internal payment-verification procedures. The theft is part of a broader pattern documented across Maine, where scammers have impersonated towns, code-enforcement and zoning offices, and vendors — in at least one case using an AI-generated phishing email requesting a wire for permit fees, and in another spoofing official-looking letters carrying real department names and seals — to redirect payments meant for permits, contracts, and municipal services. Any request to change previously agreed-upon payment or wiring instructions, even one that appears to come from a familiar vendor's email address, should be verified by calling that vendor directly using a phone number obtained independently rather than one supplied in the message itself.`,
+    categorySlug: 'business-email-compromise',
+    alertLevel: 'high',
+    sources: ['Bangor Daily News', 'Town of Harpswell, Maine Select Board'],
+    sourceUrl: 'https://www.bangordailynews.com/2026/05/28/midcoast/midcoast-government/harpswell-maine-cyber-fraud-scam-190k/',
+    country: 'US',
+    state: 'ME',
+});

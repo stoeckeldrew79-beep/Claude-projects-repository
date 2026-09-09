@@ -6195,3 +6195,15 @@ UsAF.push({
     country: 'US',
     state: 'FL',
 });
+
+UsAF.push({
+    name: 'March 2025 Storm Home-Repair Fraud and Price-Gouging Warning',
+    slug: 'alabama-march-2025-storm-repair-fraud-price-gouging',
+    description: `After tornadoes and severe storms tore through 52 of Alabama's 67 counties in mid-March 2025, prompting Governor Kay Ivey to declare a state of emergency effective 2:00 p.m. on March 14, Attorney General Steve Marshall warned on March 17 that unlicensed, often out-of-town contractors and price gougers tend to follow disaster survivors home looking to profit off the damage. Alabama's price-gouging law activates automatically once a state of emergency is declared, and under it a price 25 percent or more above what was charged for the same good or service in the same area over the prior 30 days is a presumptive violation. Marshall and the Home Builders Licensure Board urged storm victims to ask to see a contractor's state builder's license before hiring — and to verify it by calling the Board at 1-800-304-0853 — to get a written contract listing the full scope, timeline, and total cost of the job, to ask for proof of workers' compensation and liability insurance, and to never pay in full or make a large down payment before work is finished. "We must remain vigilant against those who may try to exploit the goodwill of our community and scam those in distress," Marshall said, encouraging residents in affected counties to report suspected fraud or price gouging to the Attorney General's Consumer Interest Division at 1-800-392-5658.`,
+    categorySlug: 'home-improvement-solar',
+    alertLevel: 'high',
+    sources: ["Alabama Attorney General's Office", 'Alabama Home Builders Licensure Board'],
+    sourceUrl: 'https://www.alabamaag.gov/alabama-attorney-general-marshall-warns-storm-emergency-declarations-activate-price-gouging-protections/',
+    country: 'US',
+    state: 'AL',
+});
