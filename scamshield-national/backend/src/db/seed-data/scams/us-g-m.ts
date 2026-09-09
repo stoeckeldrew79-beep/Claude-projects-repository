@@ -4764,3 +4764,39 @@ UsGM.push({
     country: 'US',
     state: 'PA',
 });
+
+UsGM.push({
+    name: 'Ohio Man\'s Business Email Compromise Scheme Targeting Mississippi Companies (Gabriel Waters)',
+    slug: 'mississippi-gabriel-waters-business-email-compromise',
+    description: `Gabriel Waters, 54, of Chillicothe, Ohio, played a key role in a business email compromise scheme that stole more than $500,000 from companies across the country, including businesses in Mississippi. The scheme's operators registered domain names that closely mimicked the real domains of target companies, then used those look-alike addresses to impersonate employees who controlled company finances — sending emails to a victim company's own staff, customers, or business partners with instructions to redirect a payment to a new bank account. Waters's role was to receive the stolen money: he set up U.S. bank accounts to collect wire transfers directly from victims, then layered the funds through additional accounts before converting the proceeds to cryptocurrency and sending it overseas to the scheme's other participants, making the money far harder for investigators and banks to trace or claw back. U.S. District Judge Sharion Aycock sentenced Waters to 57 months in federal prison, followed by five years of supervised release, and ordered him to pay $547,455.80 in restitution to his victims. The case illustrates why a business receiving any request to change payment or wiring instructions — even one that appears to come from a familiar vendor's or executive's own email address — should always confirm the change by phone, using a number already on file rather than one provided in the email itself, before sending a single payment.`,
+    categorySlug: 'business-email-compromise',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office, Northern District of Mississippi", 'WJTV'],
+    sourceUrl: 'https://www.justice.gov/usao-ndms/pr/ohio-man-sentenced-large-scale-multi-national-business-email-compromise-scams',
+    country: 'US',
+    state: 'MS',
+});
+
+UsGM.push({
+    name: 'Mississippi $12.3 Million Medicaid Billing Fraud Indictments',
+    slug: 'mississippi-12-3-million-medicaid-fraud-indictments',
+    description: `Mississippi Attorney General Lynn Fitch announced on June 23, 2026 that a state grand jury had indicted 11 Mississippians — including Curtis Moore, 51, of Gulfport, and Taylor Christian Rushing, 34, of Gautier — on charges of wire fraud and submitting materially false claims to Mississippi Medicaid, in a scheme investigators say generated $12.3 million in fraudulent billings. The indictments were announced as part of the U.S. Department of Justice's 2026 National Health Care Fraud Takedown, a coordinated nationwide sweep that charged hundreds of defendants and identified roughly $6.5 billion in intended losses to Medicaid and Medicare programs across the country. "These indictments are just the latest efforts we are taking to fight waste, fraud, and corruption," Fitch said, noting that her office has secured 58 criminal convictions and 61 civil settlements since she took office, recovering more than $101 million for Mississippi taxpayers. Medicaid billing fraud like this ultimately strains a program that low-income, elderly, and disabled Mississippians depend on for basic medical care, and beneficiaries are one of the best lines of defense against it: anyone who receives an explanation-of-benefits statement listing a provider they never saw, a service they never received, or a date they don't recognize should report it to the Mississippi Attorney General's Medicaid Fraud Control Unit right away, since patient tips are often what first exposes a billing scheme that has been running for months or years.`,
+    categorySlug: 'healthcare-fraud',
+    alertLevel: 'high',
+    sources: ["Mississippi Attorney General's Office", 'WLBT', 'WJTV'],
+    sourceUrl: 'https://www.wlbt.com/2026/06/23/11-indicted-123m-mississippi-medicaid-fraud-scheme-ag-says/',
+    country: 'US',
+    state: 'MS',
+});
+
+UsGM.push({
+    name: 'Marshall County Tax Preparers\' PPP Loan Kickback Fraud (Lakisha and Robert Pearson)',
+    slug: 'mississippi-pearson-unity-tax-express-ppp-fraud',
+    description: `Lakisha and Robert Pearson of Holly Springs, in Marshall County, Mississippi, owned and ran Unity Tax Express, a tax-preparation business they used as the vehicle for a multimillion-dollar Paycheck Protection Program fraud scheme: in exchange for a kickback, the couple helped numerous clients prepare and file fraudulent PPP loan applications during the COVID-19 pandemic, padding or fabricating the payroll and revenue figures needed to qualify for a larger loan than the applicant's business actually supported. U.S. District Judge Sharion Aycock sentenced the pair on April 9, 2025: Robert Pearson received 110 months in federal prison for conspiracy to commit wire fraud, while Lakisha Pearson received 75 months to run consecutively to a separate 52-month sentence she was already serving, for a combined 127 months. The judge also ordered the Pearsons to repay $3,364,052 in restitution. The case underscores that PPP fraud, even years after the loans were disbursed, often ran through a trusted local tax preparer able to make fabricated payroll and revenue numbers look routine on paper, a pattern federal prosecutors have identified in similar tax-preparer-led schemes in other states — and it's a reminder that a preparer who promises a client a bigger loan or refund than their real numbers would support is offering fraud, not expertise; anyone who suspects their tax preparer submitted false information on their behalf should contact the IRS's Return Preparer Office or the Treasury Inspector General for Tax Administration.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'medium',
+    sources: ["U.S. Attorney's Office, Northern District of Mississippi", 'WJTV', 'Internal Revenue Service Criminal Investigation'],
+    sourceUrl: 'https://www.justice.gov/usao-ndms/pr/marshall-county-couple-both-sentenced-prison-covid-ppp-fraud',
+    country: 'US',
+    state: 'MS',
+});

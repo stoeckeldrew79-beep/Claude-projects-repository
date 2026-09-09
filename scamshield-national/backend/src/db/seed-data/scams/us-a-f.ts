@@ -6288,3 +6288,51 @@ UsAF.push({
     country: 'US',
     state: 'AL',
 });
+
+UsAF.push({
+    name: 'Alaska Timeshare Exit Advance-Fee Scheme (Consumer Law Protection / Square One Group)',
+    slug: 'alaska-timeshare-exit-advance-fee-scheme',
+    description: `Beginning around 2019, a rotating set of companies operating under names including Consumer Law Protection, Consumer Rights Council, Premier Reservations Group, Resort Transfer Group, Square One Development Group, Square One Group, and Timeshare Help Source mailed Alaska timeshare owners deceptive postcards promising a free $250 shopping card and help exiting or renegotiating their timeshare contracts. Owners who called back were invited to sales presentations at Anchorage hotels, where salespeople used scare tactics — falsely warning that maintenance fees would skyrocket and that heirs would be stuck paying them forever — to pressure attendees into signing on the spot and paying large upfront fees, sometimes exceeding $10,000, for an "exit service" that was never actually delivered. Alaska's Attorney General sued the operation's corporate entities and eight individuals — Christopher Carroll, George Reed, Louann Reed, Scott Jackson, Eduardo Balderas, Sherrod Banks, Courtney Kirkpatrick, and Gary Adamson — in June 2022, and on October 4, 2024 an Anchorage Superior Court ordered them to pay a combined $310,000 in civil penalties and $177,349 in restitution to defrauded Alaskans, while banning several defendants from selling goods or services in the state for five years. Attorney General Treg Taylor urged Alaskans to treat unsolicited timeshare-relief offers with "healthy skepticism," since a legitimate exit or resale service does not need to be marketed through a free-dinner postcard and does not require a large fee before any work is done; timeshare owners looking to exit a contract should instead contact their resort directly about a deed-back program or consult a licensed attorney before paying anyone upfront.`,
+    categorySlug: 'timeshare-scams',
+    alertLevel: 'medium',
+    sources: ['Alaska Department of Law, Office of the Attorney General'],
+    sourceUrl: 'https://www.law.alaska.gov/press/releases/2024/100424-Timeshare.html',
+    country: 'US',
+    state: 'AK',
+});
+
+UsAF.push({
+    name: 'Anchorage Rheumatology Clinic Insurance and Tax Fraud (Claribel and Daniel Tan)',
+    slug: 'alaska-anchorage-tan-rheumatology-billing-fraud',
+    description: `Dr. Claribel Tan and her husband Daniel Tan ran an Anchorage rheumatology clinic treating conditions like rheumatoid arthritis, osteoarthritis, and psoriatic arthritis from 2005 onward, and for roughly 15 years padded their insurance billings well beyond what patients actually received: prosecutors found the clinic billed for 4,829 units of injectable medication while purchasing only 369, meaning most billed doses were never truly administered — patients were often given expired medication, free drug samples, or a different medication than what was billed, undermining their actual treatment while insurers paid for care that never happened. The scheme generated more than $12.5 million in fraudulent billings to more than ten insurance plans, while the Tans separately evaded more than $4.2 million in taxes by filing false returns for 2014, 2015, and 2017 that overstated the clinic's expenses, and by simply not filing any clinic tax returns at all from 2018 through 2021. A federal grand jury indicted the couple in July 2024; they pleaded guilty in November 2025, and in March 2026 Claribel Tan was sentenced to six and a half years in federal prison plus three years of supervised release, while Daniel Tan received three years of probation, including two years of home confinement. Prosecutors had already seized roughly $10.4 million in proceeds, and the Tans made a $6.3 million payment toward restitution. The case is a reminder that a long-running, legitimate-seeming medical practice can still be running an insurance fraud scheme for years — patients should keep their own records of exactly which medication and dose they received at each visit and compare them against their insurer's explanation-of-benefits statement, since a mismatch between what was actually given and what was billed is often the first sign something is wrong.`,
+    categorySlug: 'healthcare-fraud',
+    alertLevel: 'medium',
+    sources: ["U.S. Attorney's Office, District of Alaska", 'Internal Revenue Service Criminal Investigation', 'Anchorage Daily News'],
+    sourceUrl: 'https://www.justice.gov/usao-ak/pr/anchorage-doctor-sentenced-prison-multi-million-dollar-health-care-tax-fraud-schemes',
+    country: 'US',
+    state: 'AK',
+});
+
+UsAF.push({
+    name: 'Delaware Bitcoin ATM and Crypto Kiosk Scam Surge',
+    slug: 'delaware-bitcoin-atm-crypto-kiosk-scam-surge',
+    description: `Delaware Attorney General Kathy Jennings warned on January 9, 2025 that Bitcoin ATM scams were surging nationally — a 1,000% jump in reported losses since 2020, and $110 million in complaints to the FTC in 2023 alone — and cautioned Delawareans about a scheme in which a caller or online contact posing as a government agency, a bank fraud department, or a too-good-to-be-true investment opportunity pressures a victim to withdraw cash immediately and feed it into a nearby cryptocurrency ATM, scanning a QR code or entering a wallet address the scammer supplies; because the machine converts the cash to crypto and sends it straight to the scammer's wallet, the transaction is irreversible within minutes. "Scammers create some urgent justification for you to take cash out of your bank accounts and put it into a Bitcoin ATM," Jennings said. The warning proved prescient: state lawmakers revealed in 2026 that Delaware's Investor Protection Unit had logged 181 cryptocurrency complaints and 255 cryptocurrency-wallet complaints in 2025 alone, totaling $26,893,098 in reported losses, with more than half involving people over 50 — prompting the House Economic Matters Committee to release a bill in June 2026 that would eliminate unregulated cryptocurrency kiosks in Delaware entirely. Anyone contacted out of the blue and told an account or investment can only be "protected" by withdrawing cash and feeding it into a crypto ATM should treat that instruction itself as proof of fraud, hang up, and verify independently with their bank or the agency the caller claims to represent using a number looked up separately, not one the caller provided.`,
+    categorySlug: 'cryptocurrency-scams',
+    alertLevel: 'high',
+    sources: ['Delaware Department of Justice', 'Delaware House Democrats', 'The Defiant'],
+    sourceUrl: 'https://news.delaware.gov/2025/01/09/delaware-attorney-general-warns-delawareans-not-to-fall-for-bitcoin-atm-scams/',
+    country: 'US',
+    state: 'DE',
+});
+
+UsAF.push({
+    name: 'Delaware 23andMe Genetic Data Breach Bankruptcy Settlement',
+    slug: 'delaware-23andme-genetic-data-breach-settlement',
+    description: `After a 2023 data breach exposed the genetic and personal data of roughly 6.9 million 23andMe customers worldwide — including ancestry reports, health-risk information, and, for many users, the identities of their genetic relatives — the company filed for bankruptcy in 2025, leaving affected customers with little direct recourse against the company itself. Delaware Attorney General Kathy Jennings joined a coalition of 42 other state attorneys general in pursuing 23andMe's bankruptcy trustee over the breach, announcing on July 14, 2026 a settlement that secured $150 million in allowed claims for the states, though the finite funds remaining in the bankruptcy estate limited actual recovery to $18 million, of which Delaware will receive $159,654 for its Consumer Protection Fund; the settlement runs alongside a separate $46.75 million class-action fund for individual consumers who filed a claim by February 17, 2026. Genetic data is uniquely sensitive because, unlike a password or credit card number, it cannot be changed or reissued once exposed, and it can reveal information about blood relatives who never used the service themselves. Anyone who used 23andMe or a similar consumer genetic-testing service should watch for phishing attempts that reference specific ancestry or health details from the breach — a tactic that makes a scam message look far more credible — and should never pay an unsolicited caller or emailer claiming they can "protect" genetic data or recover a settlement payment on the customer's behalf.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'medium',
+    sources: ['Delaware Department of Justice'],
+    sourceUrl: 'https://news.delaware.gov/2026/07/14/ag-jennings-announces-multistate-settlement-of-bankruptcy-claims-against-23andme-over-genetic-data-breach/',
+    country: 'US',
+    state: 'DE',
+});
