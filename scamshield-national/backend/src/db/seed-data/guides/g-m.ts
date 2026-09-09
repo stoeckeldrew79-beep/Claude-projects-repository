@@ -2743,6 +2743,10 @@ If you believe your identity has been stolen using information from this or any 
     slug: `google-ads-2025-data-breach-guide`,
     author: `ScamShield Editorial`,
     tags: [`guide`, `google-ads-2025-data-breach`],
+    coverImage: `https://commons.wikimedia.org/wiki/Special:FilePath/Googleplex_HQ.jpg?width=1200`,
+    coverImageCredit: `Photo: The Pancake of Heaven!, CC BY-SA 4.0, via Wikimedia Commons — Google's Mountain View headquarters campus; not the specific Salesforce instance that was breached`,
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: `https://cloud.google.com/blog/topics/threat-intelligence/voice-phishing-data-extortion`,
     body: `In June 2025, Google's own Threat Intelligence Group caught the same criminal campaign it had spent months warning other companies about breaking into a system belonging to Google itself. One of Google's corporate Salesforce instances — a customer-relationship-management database the company uses to store contact information and internal notes about prospective Google Ads customers, mostly small and medium-sized businesses — was accessed by an unauthorized party. Google says it identified the activity, ran an impact analysis, and cut off access quickly, limiting the intrusion to what it later called "a small window of time."
 

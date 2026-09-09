@@ -58,10 +58,9 @@ The reliable habits: never click a link in an unexpected message claiming to be 
     slug: 'package-delivery-scam-texts',
     author: 'ScamShield Editorial',
     tags: ['guide', 'phishing'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Typical_UPS_delivery_truck.JPG?width=1200',
-    coverImageCredit: 'Photo: An Errant Knight (CC BY-SA 4.0)',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/SMS_Phishing_Attack_Example.jpg?width=1200',
+    coverImageCredit: 'Photo: Johnathan.g.freeman (CC BY-SA 4.0)',
     coverImagePosition: 50,
-    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.uspis.gov/news/scam-article/smishing-package-tracking-text-scams',
     body: `A text arrives claiming to be from USPS, FedEx, UPS, or a similar carrier: a package couldn't be delivered, or a small customs/redelivery fee is due, with a link to resolve it. The timing is what makes it effective — sent broadly enough that a meaningful share of recipients actually are expecting a delivery, at which point the message feels routine rather than suspicious.
 
