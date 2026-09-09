@@ -4567,3 +4567,25 @@ UsNS.push({
     country: 'US',
     state: 'NJ',
 });
+
+UsNS.push({
+    name: 'Syndicated Conservation Easement Tax Shelter Fraud',
+    slug: 'syndicated-conservation-easement-tax-shelter-fraud',
+    description: `The IRS's 2026 "Dirty Dozen" list of tax scams flags abusive syndicated conservation easement deductions, in which promoters sell units in a partnership that buys land and rushes it into a "donated" conservation easement within days or weeks, then uses a wildly inflated appraisal to claim a charitable deduction worth several times what each investor actually put in. In the largest prosecuted case, Georgia CPA Jack Fisher and attorney James Sinnott sold shelter units promising deductions 4.5 times an investor's contribution, backed by appraisals the government says were often more than ten times the land's real value and by backdated paperwork to make the transaction timeline work — generating over $1.3 billion in fraudulent deductions and roughly $450 million in Treasury losses before a federal jury convicted both men in September 2023. Fisher was sentenced to 25 years in prison and ordered to pay more than $457 million in restitution; Sinnott received 23 years and over $443 million in restitution, and two CPAs who helped promote the shelter, Victor Smith and William Tomasello, separately pleaded guilty. Investors who bought into shelters like this one — often steered there by their own accountant or financial advisor rather than approached cold — don't just lose the promised deduction: many face years of back taxes, penalties, and interest once the IRS audits the claim, on top of possible legal exposure if prosecutors conclude they knew the appraisal was fraudulent. The IRS urges anyone offered a conservation-easement or other non-cash charitable deduction that looks disproportionate to what they're actually paying in to get an independent appraisal and legal review before signing anything, and to report a suspected abusive tax shelter or promoter using IRS Form 14242.`,
+    categorySlug: 'tax-scams',
+    alertLevel: 'high',
+    sources: ['Internal Revenue Service (IRS)', 'IRS Criminal Investigation'],
+    sourceUrl: 'https://www.irs.gov/compliance/criminal-investigation/two-tax-shelter-promoters-sentenced-for-billion-dollar-sce-tax-scheme-two-more-cpas-plead-guilty',
+    country: 'US',
+});
+
+UsNS.push({
+    name: 'Privvy Investments Fake "AI Trading Bot" Crypto Ponzi Scheme',
+    slug: 'privvy-ai-trading-bot-crypto-ponzi-scheme',
+    description: `Privvy Investments — also marketed as "Gateway Digital Investments" — raised roughly $12.3 million from about 150 investors nationwide between October 2022 and mid-2024 by promising a proprietary AI-powered trading bot that would run high-frequency arbitrage across cryptocurrency exchanges, buying low on one platform and selling high on another. According to the SEC, founder Nathan Fuller of Cypress, Texas pitched guaranteed profits of "over 100% in as little as 21 days," with losses supposedly capped at 3% by built-in stop-loss code, and told investors their funds were protected by a surety bond, FDIC insurance, and a professional-liability policy — protections that don't apply to a private crypto trading partnership and that a real automated trading strategy has no reason to promise, since its returns are supposed to come from the market rather than from insurance. The SEC's May 2026 complaint alleges the bots never functioned as described: Fuller instead misappropriated at least $6.2 million for personal expenses and used roughly $5.5 million to make Ponzi-style payments to earlier investors, sending fabricated account statements and correspondence from invented entities to keep new money flowing in. The agency charged Fuller with violating the registration and antifraud provisions of the federal securities laws and is seeking an injunction, disgorgement, and civil penalties. Regulators say attaching an "AI trading bot" label to a fixed, guaranteed return with a hard deadline — especially one paired with invented insurance or bonding claims — is a pattern showing up repeatedly in 2026 as fraudsters rebrand old-fashioned Ponzi structures around AI hype; the SEC recommends verifying any investment professional or firm through its EDGAR and Investment Adviser Public Disclosure databases before wiring money into a fund promising automated, guaranteed crypto returns.`,
+    categorySlug: 'cryptocurrency-scams',
+    alertLevel: 'high',
+    sources: ['U.S. Securities and Exchange Commission (SEC)'],
+    sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26558',
+    country: 'US',
+});
