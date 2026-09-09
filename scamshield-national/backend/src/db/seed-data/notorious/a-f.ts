@@ -5748,3 +5748,34 @@ Lickiss pleaded guilty on May 20, 2026, in the U.S. District Court for the North
 Lickiss's case is notable simply for how long it ran: at 78, he had reportedly been taking in money on the same false promise since he was in his early fifties, decades before regulators or prosecutors caught up with him. It's a reminder that the passage of time, and a long track record of "paying out" to existing investors, is not itself evidence that an investment is real — it can just as easily mean a fraud has had that much longer to recruit the next round of victims needed to keep the last round paid.`,
   },
 );
+
+NotoriousAF.push(
+  {
+    title: 'Eric James Stone: The Fidelity Broker Who Emailed a 75-Year-Old Client Into $2 Million of Fake Fees',
+    slug: 'eric-stone-fidelity-broker-elder-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-mdfl/pr/st-augustine-man-sentenced-more-six-years-prison-defrauding-senior-more-2-million',
+    body: `Eric James Stone, 43, of St. Augustine, Florida, spent 13 years as a registered representative at Fidelity Investments' Jacksonville office before he was terminated in June 2021 for improperly soliciting and taking personal loans from clients. According to the U.S. Attorney's Office for the Middle District of Florida, that firing didn't end his access to at least one client's trust — a 75-year-old woman he had served as a broker — and it's what he did with that relationship afterward that turned into the much larger fraud.
+
+Prosecutors said Stone spent roughly three years fabricating an elaborate paper trail of fake emergencies to keep the victim paying him. He created fake email accounts impersonating attorneys, banks, and other institutions, using them to tell her that fees, taxes, or legal costs needed to be paid before money that was supposedly hers could be released. Believing she was following legitimate instructions from real financial and legal professionals, she made more than 600 separate transactions to Stone over about three years, ultimately losing more than $2 million. Investigators said Stone routed much of the money through foreign online gambling sites.
+
+Stone pleaded guilty to wire fraud and money laundering, and on August 21, 2026, U.S. District Judge Jordan E. Pratt sentenced him to 80 months — six years and eight months — in federal prison, followed by a period of supervised release, and ordered him to pay $2,037,103 in restitution to his victim. The case was investigated by the FBI and IRS Criminal Investigation, with the Financial Industry Regulatory Authority (FINRA) permanently barring Stone from the securities industry over his conduct.
+
+Stone's case is a reminder that the professional relationship a broker builds with a client doesn't end just because the broker's employment does — a client who has spent years trusting someone as "their" financial adviser may keep taking that person's calls and instructions long after the firm's name and oversight are gone, which is exactly the gap Stone is accused of exploiting for years before anyone outside the two of them noticed.`,
+  },
+  {
+    title: 'Anthony J. Mastroianni Jr. and the Barred Broker Who Kept Selling Notes to Seniors',
+    slug: 'anthony-mastroianni-global-business-development-promissory-note-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26396',
+    body: `Anthony J. Mastroianni Jr., of New Jersey, was already a barred former broker — no longer licensed to sell securities to the public — when, according to the Securities and Exchange Commission, he kept doing it anyway through a company he controlled called Global Business Development and Consulting Corp. From at least February 2017 through May 2022, the SEC alleged, Mastroianni sold promissory notes issued by Global to at least 11 investors ranging in age from 64 to 82, raising at least $1.2 million by promising them interest rates as high as 50 to 175 percent — returns far outside anything a legitimate note could plausibly pay.
+
+The SEC's complaint said Mastroianni gave investors shifting, inconsistent explanations of what Global's business actually was, and routinely persuaded them to "roll over" notes that had come due into new notes that combined the unpaid balance with fresh money, rather than ever actually cashing them out. In reality, according to the SEC, Global generated no income to support any of the promised payments; Mastroianni instead withdrew more than $486,000 of investor funds in cash and spent investor money on personal luxury purchases, including at Disney resorts, Tiffany & Co., and Gucci.
+
+The SEC filed suit against Mastroianni and Global in the U.S. District Court for the District of New Jersey in August 2022, charging violations of the antifraud provisions of the federal securities laws. On September 10, 2025, the court entered a final judgment against Mastroianni, permanently enjoining him from future violations of Section 10(b) of the Securities Exchange Act and Section 17(a) of the Securities Act; the SEC told the court it would not pursue additional monetary relief against him in light of restitution and forfeiture obligations already imposed in a parallel criminal case.
+
+Mastroianni's case is a reminder that a broker being "barred" doesn't erase the trust he built up over a career in the industry, or stop him from using it — a formal bar keeps a name off a firm's roster, but it can't, by itself, stop a barred individual from forming his own company and continuing to pitch the same kind of investment directly to people who have no easy way of checking his regulatory history before they sign.`,
+  },
+);
