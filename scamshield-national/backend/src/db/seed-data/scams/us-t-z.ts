@@ -2649,3 +2649,15 @@ UsTZ.push({
     country: 'US',
     state: 'UT',
 });
+
+UsTZ.push({
+    name: `Williams County Sheriff's Office Deputy-Impersonation Warrant Scam`,
+    slug: 'williams-county-north-dakota-deputy-impersonation-warrant-scam',
+    description: `The Williams County Sheriff's Office and the Williston Police Department warned North Dakota residents in July 2026 about a phone scam in which callers impersonate sheriff's deputies using a spoofed caller ID that displays the department's real number. The callers falsely claim the recipient missed jury duty, failed to appear in court, or has an outstanding warrant, and in one reported case demanded $30,000 to avoid arrest; victims have also been sent fake supporting "warrant" paperwork and told not to visit the sheriff's office in person to check the claim. Payment has been demanded by phone, cryptocurrency such as Bitcoin, and gift cards — methods no genuine deputy would ever use to resolve a warrant or a missed court date. The Sheriff's Office stresses that real law enforcement officers will never demand payment over the phone or require fines to be paid in cryptocurrency or gift cards, and urges anyone who gets such a call to hang up and verify it independently by calling the department's non-emergency line at 701-577-7700 or the dispatch center at 701-713-3355, using a number they look up themselves rather than one given by the caller.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ["Williams County Sheriff's Office", 'Williston Police Department'],
+    sourceUrl: 'https://keyzradio.com/williams-county-sheriff-scam-warning/',
+    country: 'US',
+    state: 'ND',
+});

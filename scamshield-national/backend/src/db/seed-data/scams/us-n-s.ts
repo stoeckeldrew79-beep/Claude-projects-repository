@@ -4495,3 +4495,15 @@ UsNS.push({
     country: 'US',
     state: 'OH',
 });
+
+UsNS.push({
+    name: `Former Derry Contractor's Fire-Rebuild Theft (Jason Tessier)`,
+    slug: 'new-hampshire-derry-contractor-jason-tessier-fire-victim-theft',
+    description: `Jason Tessier, 49, a former home improvement contractor from Derry, New Hampshire, accepted $108,000 from a Manchester homeowner as a prepayment to rebuild a house that had burned down, then stole $60,563 of those funds instead of using the money for the promised work — conduct that also broke the terms of an Assurance of Discontinuance Tessier had already signed with the New Hampshire Department of Justice back in 2018 over earlier contracting complaints. Tessier pleaded guilty on July 14, 2025 in Hillsborough County Superior Court – Northern District to a class A felony count of theft by unauthorized taking or transfer and a class A misdemeanor count of unfair or deceptive acts or practices under the New Hampshire Consumer Protection Act. The court sentenced him to 2½ to 7 years in the New Hampshire State Prison on the theft charge, plus a fully suspended one-year sentence on the deceptive-practices count, with the suspended term running three years past his release. The case, brought by New Hampshire Attorney General John M. Formella's office, is a reminder to check a contractor's history with the Attorney General's Consumer Protection and Antitrust Bureau — including whether they have a prior Assurance of Discontinuance on file — before handing over a large upfront payment, especially after a fire or other disaster when a homeowner is under pressure to get rebuilding started quickly.`,
+    categorySlug: 'home-improvement-solar',
+    alertLevel: 'medium',
+    sources: ['New Hampshire Department of Justice'],
+    sourceUrl: 'https://www.doj.nh.gov/news-and-media/former-home-improvement-contractor-sentenced-minimum-2-12-years-state-prison',
+    country: 'US',
+    state: 'NH',
+});
