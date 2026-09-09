@@ -4626,3 +4626,14 @@ UsNS.push({
     country: 'US',
     state: 'NV',
 });
+
+UsNS.push({
+    name: 'OAuth "Consent Phishing" Account Takeover',
+    slug: 'oauth-consent-phishing-account-takeover',
+    description: `The FBI's Internet Crime Complaint Center issued a public service announcement on September 1, 2026 (Alert Number I-090126-PSA) warning that malicious actors are using "OAuth consent phishing" to take over victims' email and cloud-storage accounts without ever needing a password — a technique the FBI says has been active since late 2025 and specifically targets prominent individuals along with their relatives and personal contacts. Rather than tricking someone into typing a password into a fake login page, the attacker registers a malicious application with a legitimate cloud provider's own authorization system, configures it to request broad permissions to read and write the target's files and emails, and then sends a phishing message — often through a commercial messaging app, and often impersonating a journalist, an official, or an event planner — that leads the victim to a genuine, real login page belonging to the actual cloud provider. Because the sign-in page is real, the victim enters their real password and passes their real multi-factor authentication challenge without anything looking wrong; the only unusual step is a pop-up asking the victim to "allow" or "approve" the malicious app's requested permissions, and once that consent is granted, the attacker gets persistent, standing access to the account's emails and files through the approved app — access that survives a later password reset and normal MFA entirely, since the attacker was never given the password in the first place and doesn't need it again. The FBI advises treating any unexpected message asking you to sign in and then approve an application's access request with the same suspicion as a typical phishing link, independently verifying the identity of whoever sent the request before proceeding, and periodically reviewing the list of third-party apps with access to your email and cloud accounts in the account's security settings to revoke anything unfamiliar. Anyone who suspects they granted access to a malicious app is urged to revoke that app's permissions immediately in their account settings and report the incident to their local FBI field office or at ic3.gov with screenshots of the phishing message and the consent screen.`,
+    categorySlug: 'phishing',
+    alertLevel: 'high',
+    sources: ['FBI', 'FBI Internet Crime Complaint Center (IC3)'],
+    sourceUrl: 'https://www.ic3.gov/PSA/2026/PSA260901',
+    country: 'US',
+});

@@ -1557,6 +1557,17 @@ export const UsGM: SeedScam[] = [
     sourceUrl: 'https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/',
   },
 {
+    name: 'JoAriam "FX Trade" and "Leveraged Trade" Program Emergency Order (KaRhonda Jewell Bray)',
+    slug: 'joariam-fx-leveraged-trade-texas-securities-order',
+    description: `The Texas State Securities Board's Deputy Securities Commissioner, Cristi Ramón Ochoa, signed an emergency cease-and-desist order on May 19, 2026 against JoAriam, LLC, a Fort Worth-area LLC, and its founder and managing member, KaRhonda Jewell Bray, over two investment programs the order says were built on undisclosed risk and unregistered securities. Bray marketed the "FX Trade Program" by telling investors — including small business owners — that their money would fund foreign-exchange trading through a "trading partner," promising returns of roughly 10% per month, and pitched a separate "Leveraged Trade Program" that supposedly acquired trading rights to banking instruments such as Medium-Term Notes and would pay out monthly dividends of about $1.5 million after a four-month "incubation period," with JoAriam keeping a 20% management fee off the top. At least one investor put in $450,000 across the two programs. According to the order, JoAriam routed that investor's money from its business checking account through Bray's personal checking account before sending it to a Coinbase account — even though Coinbase does not offer foreign-exchange trading services at all, meaning the money could never have been generating the trading returns Bray described. The order also finds that Bray failed to disclose her own Chapter 7 bankruptcy filing from April 2024, which listed roughly $297,000 in liabilities, including a nearly $277,000 Tarrant County judgment tied to a prior fraud and fraudulent-inducement lawsuit against her and Bray Investment Group. Neither JoAriam nor Bray was registered with the Texas Securities Commissioner to sell securities or act as an investment adviser, and the programs themselves were never registered for sale in the state. The case is a reminder that "trading program" pitches promising a fixed monthly percentage return regardless of market conditions are a hallmark of fraud, and that any offering worth $450,000 deserves independent verification — through the Texas State Securities Board's registration lookup and a search of the promoter's litigation and bankruptcy history — before any money changes hands, since a real trading operation has no reason to route client funds through the promoter's own personal bank account.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'high',
+    sources: ['Texas State Securities Board'],
+    sourceUrl: 'https://www.ssb.texas.gov/news-publications/texas-state-securities-board-issues-emergency-order-halt-alleged-fraudulent',
+    country: 'US',
+    state: 'TX',
+},
+{
     name: 'Indiana Unclaimed Property "Escrow Agent" Fee Deception',
     slug: 'indiana-unclaimed-property-escrow-agent-fee-deception',
     description:
