@@ -6147,3 +6147,22 @@ It then took more than four additional years for a sentence to follow. In Januar
     sourceUrl: 'https://www.justice.gov/archives/opa/pr/founder-nationwide-tax-return-preparation-company-sentenced-prison-fraud-and-tax-crimes',
   },
 );
+
+NotoriousAF.push(
+  {
+    title: 'Brian Davison, Barry Rybicki, and the $170 Million EquiAlt Real Estate Fraud',
+    slug: 'brian-davison-barry-rybicki-equialt-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.sec.gov/newsroom/press-releases/2020-35',
+    body: `EquiAlt LLC was a Tampa, Florida-based private real estate investment firm, formed in 2011 by CEO Brian Davison alongside managing director Barry Rybicki. Through a family of pooled entities — EquiAlt Fund, LLC, EquiAlt Fund II, LLC, EquiAlt III, LLC, and EA SIP, LLC — the two men sold unregistered securities to more than 1,100 investors nationwide, ultimately raising more than $170 million. Many of the investors were retirees putting in retirement savings, drawn by a pitch that sounded conservative rather than speculative: a real estate fund, not a crypto token or a currency-trading "system."
+
+According to the SEC complaint that unsealed the case, Davison and Rybicki told investors that roughly 90% of pooled money would go toward buying undervalued real estate to rent or flip, generating annual returns of 8% to 10%. In reality, the SEC alleged, less than half of investor money ever went into real estate at all. A substantial share instead funded the executives' personal spending — chartered jets, collector wristwatches, and sports cars among the assets regulators traced — and EquiAlt used money raised from investors in one fund to make interest and redemption payments to investors in another, the same rob-Peter-to-pay-Paul mechanic that defines a Ponzi scheme regardless of the "real estate fund" label wrapped around it.
+
+The SEC filed an emergency enforcement action in the Middle District of Florida on February 14, 2020, and won a temporary restraining order and asset freeze the same day, describing many of the victims as elderly investors who had put their retirement funds into EquiAlt on the strength of the promised steady returns. A federal court later appointed receiver Burton W. Wiand to take control of EquiAlt's assets and try to recover money for investors — a civil process separate from, and considerably faster than, the criminal case that followed.
+
+That criminal case, when it came, was narrower than the SEC's fraud allegations. Davison pleaded guilty in March 2025, not to securities fraud, but to three counts of tax fraud for underreporting at least $29.7 million of his EquiAlt-derived income on personal returns filed between October 2018 and December 2020, causing a $6.29 million loss to the IRS. On August 13, 2025, U.S. District Judge Mary S. Scriven sentenced him to three years in federal prison and ordered him to pay $6.3 million in restitution to the IRS. Rybicki, meanwhile, was never criminally charged at all; the SEC's civil fraud case against him and EquiAlt proceeded on its own separate track.
+
+The split outcome is itself instructive. The conduct the SEC said harmed 1,100 investors out of $170 million produced, in the end, a criminal sentence tied to the money the scheme's own architect hid from the IRS rather than to the underlying fraud that generated it — a reminder that in complex Ponzi-adjacent cases, a civil regulator's fraud complaint and a prosecutor's criminal charges often travel down different, and unevenly punishing, legal paths, leaving investors' actual recovery to depend on a receivership rather than a restitution order matched to what they lost.`,
+  },
+);

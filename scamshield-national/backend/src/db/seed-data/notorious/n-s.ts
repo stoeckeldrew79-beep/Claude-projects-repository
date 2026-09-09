@@ -4188,3 +4188,22 @@ Tech-support scams built around a fake virus warning remain one of the most comm
     sourceUrl: 'https://www.justice.gov/usao-sdny/pr/las-vegas-woman-sentenced-prison-10-million-tech-support-fraud-scheme-exploited-elderly',
   },
 );
+
+NotoriousNS.push(
+  {
+    title: 'Richard Rompala and the $20 Million Fake Veterans Charity Scam',
+    slug: 'richard-rompala-svas-veterans-benefits-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.ccprosecutor.us/the-founder-of-senior-veterans-administration-services-sentenced-for-scamming-the-department-of-veterans-affairs-of-approximately-20-million-in-fraudulent-benefit/',
+    body: `Richard Rompala, 65, ran a Cleveland-area outfit called Senior Veterans Administration Services (SVAS) that presented itself to elderly veterans as exactly what its name implied: a free, charitable service helping them navigate the Department of Veterans Affairs' Aid and Attendance benefit, a pension supplement for veterans and surviving spouses who need help with daily living. For veterans confused by VA paperwork and eager for legitimate assistance, SVAS looked like the help they'd been searching for.
+
+According to the Cuyahoga County Prosecutor's Office, the "help" SVAS actually provided was engineering fraudulent eligibility. Aid and Attendance benefits are income-tested, so SVAS encouraged veterans to designate a "caregiver" — ideally a trusted friend or family member, but when none was available, an SVAS employee or associate would fill the role instead — a maneuver used to offset the veteran's countable income and manufacture eligibility for benefits they otherwise would not have qualified for, or to inflate the size of benefits they legitimately could claim. SVAS then submitted the falsified paperwork to the VA and used a separate entity to intercept the resulting benefit payments before passing on only a portion to the veterans they were supposedly serving. Prosecutors said the scheme extracted approximately $20 million in fraudulent VA benefits, and that Rompala personally pocketed roughly $670,000 of it.
+
+A Cuyahoga County grand jury indicted Rompala, SVAS itself, and four SVAS employees — Carolina Riemer, Karen Kral, Gina Ayala, and Mary Lou Griffin — on charges including engaging in a pattern of corrupt activity, aggravated theft, money laundering, and tampering with records. Rompala, who had been arrested in Naples, Florida, pleaded guilty on January 13, 2026, to six counts: attempted pattern of corrupt activity, aggravated theft, money laundering, filing incomplete or fraudulent returns, prohibited acts and practices, and tampering with records.
+
+On February 23, 2026, Rompala was sentenced to four years in prison and ordered to repay the roughly $670,000 he took for himself; SVAS, as a corporate defendant, faced a maximum fine of $20,000. "Rompala's scheme preyed on veterans who were simply seeking help," Cuyahoga County Prosecutor Michael O'Malley said at sentencing. "Today's sentence delivers justice and sends a clear message that fraud targeting veterans will not be tolerated."
+
+The SVAS case is a reminder that charity fraud aimed at veterans doesn't always look like a fake GoFundMe or a robocall soliciting donations — sometimes it looks like a legitimate-seeming benefits-navigation service that never has to ask a victim for a dime up front, because the fraud is baked into the paperwork the victim trusted it to file on their behalf.`,
+  },
+);
