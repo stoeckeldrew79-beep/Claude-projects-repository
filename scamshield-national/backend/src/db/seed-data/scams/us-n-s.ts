@@ -4660,3 +4660,27 @@ UsNS.push({
     country: 'US',
     state: 'NC',
 });
+
+UsNS.push({
+    name: 'New Jersey Bureau of Securities Revokes Broker-Dealer Agent\'s Registration Over Elder Investment Fraud (Carlos Leston)',
+    slug: 'new-jersey-carlos-leston-broker-dealer-elder-investment-fraud',
+    description: `The New Jersey Bureau of Securities revoked the broker-dealer agent and investment adviser representative registrations of Carlos Leston, also known as Jose Carlos Leston, of Maywood, announcing the action on October 1, 2024 after finding he sold two elderly clients a combined $3.65 million in unregistered, high-risk securities issued by a New York lending company without disclosing that the company's CEO was a friend of his who had already been barred from the securities industry, or that the lending company was separately paying Leston more than $1.5 million through an undisclosed referral arrangement. While registered as an agent for a Massachusetts-based broker-dealer, Leston sold the notes in unauthorized private transactions outside his firm's oversight, and on his advice both clients liquidated insurance annuities they had relied on for steady retirement income to fund the purchase, absorbing surrender charges and tax consequences on top of the underlying investment risk. Investigators also found Leston opened a prohibited joint checking account with one client and acted under an unauthorized power of attorney for the other, conduct the Bureau said breached Regulation Best Interest's duty to put a client's interests ahead of the adviser's own financial gain. Then-Attorney General Matthew J. Platkin's office framed the case as a warning that an existing relationship with an adviser is not, by itself, a reason to skip independent verification before moving large sums, particularly when a recommendation involves cashing out an annuity or other income-generating asset a retiree depends on. Anyone recommended an investment by a registered broker or adviser can check that person's disciplinary history and confirm whether a specific security is actually registered, free of charge, through the New Jersey Bureau of Securities at 1-866-I-INVEST (1-866-446-8378) or NJSecurities.gov, and through FINRA's BrokerCheck, before signing paperwork or liquidating any existing account.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'high',
+    sources: ['New Jersey Office of the Attorney General', 'New Jersey Bureau of Securities'],
+    sourceUrl: 'https://www.njoag.gov/nj-bureau-of-securities-revokes-registration-of-agent-who-didnt-put-elderly-clients-best-interest-first-when-recommending-risky-investments-in-company-that-paid-him-1-5m/',
+    country: 'US',
+    state: 'NJ',
+});
+
+UsNS.push({
+    name: 'Richmond Ren Faire Ticket Resale Scam',
+    slug: 'richmond-ren-faire-virginia-ticket-resale-scam',
+    description: `Ahead of the inaugural Richmond Ren Faire at Dorey Park in Henrico, Virginia on April 18-19, 2026, organizers with the nonprofit Virago Alley warned ticket holders about a wave of counterfeit resale tickets that surged once the sold-out two-day event's real allotment ran out in late March. A Facebook group with nearly 1,000 members sprang up specifically to connect people still hoping to attend with sellers claiming to have extra tickets, and bots piled onto the group and the event's own social media posts with more offers; organizers said the flood of people contacting them to verify a ticket bought through these channels turned up almost nothing but fakes. "Our tickets are not set up for resale," organizers said in an April 12 warning, adding plainly, "Please do not buy tickets from strangers online." Because Richmond Ren Faire tickets are non-transferable by design and tied to the original purchaser, anyone who paid an unauthorized reseller was turned away at the gate holding a ticket that could never have scanned as valid, no matter how convincing the seller or listing looked. The event, which drew crowds for jousting, live performances, and more than 100 craft and food vendors, is a reminder that a first-year festival with a hard sellout date and no established resale system is exactly the gap scammers and bots move fastest to fill, since a shut-out buyer has little time or ability to verify a seller before the event happens. Organizers and consumer advocates advise buying only through an event's official ticketing link, treating any offer inside a resale-focused Facebook group or from an unsolicited direct message as unverifiable, and never sending payment to a stranger for a ticket that the venue itself says cannot be legitimately transferred or resold.`,
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'medium',
+    sources: ['WTVR CBS 6', 'Henrico Citizen'],
+    sourceUrl: 'https://www.wtvr.com/news/local-news/richmond-ren-faire-ticket-scam-warning--april-12-2026',
+    country: 'US',
+    state: 'VA',
+});
