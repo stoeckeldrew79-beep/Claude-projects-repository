@@ -6479,3 +6479,15 @@ UsAF.push({
     sourceUrl: 'https://www.dea.gov/press-releases/2026/02/04/dea-operation-meltdown-shuts-down-hundreds-illegal-online-pharmacies',
     country: 'US',
 });
+
+UsAF.push({
+    name: 'NeedTags.com DMV "Business Partner" Lookalike Fee Markup',
+    slug: 'california-needtags-dmv-lookalike-website-fee-markup',
+    description: `NeedTags.com is a private company California's DMV has authorized as a "business partner" to process vehicle registration transactions — a status that lets it buy Google search ads for terms like "DMV registration renewal" and appear, to a driver who isn't looking closely, indistinguishable from the state's own site. Customers who land on NeedTags instead of dmv.ca.gov pay the real DMV fee plus the company's own layered charges on top of it: a service fee, a "BPA" (business partner agreement) fee, a credit-card processing fee, and shipping, which pushed one Santa Cruz customer's $612 registration to $702 and left a San Jose driver paying roughly a 37% premium over the base cost — consumers interviewed by ABC7's I-Team described paying $300 to $400 for a renewal that should have cost around $200. Part of that markup flows back to the state itself: the DMV collects $7 from every business-partner transaction, generating an estimated $35 million a year toward its $1.4 billion budget, a financial stake consumer advocates argue has made the agency reluctant to rein in the fees third-party partners charge. Robert Herrell, executive director of the Consumer Federation of California, said these companies "use this language about being a DMV business partner to create the false impression in someone's mind that you're paying the same amount as if you were on the DMV website. That's not true," and some customers who disputed the charges with their credit-card company said NeedTags warned them a chargeback would be treated as fraud. Two bills sponsored by California Assemblyman Matt Haney to cap third-party DMV fees at 5% above the state's own rate cleared committee with broad support in both 2025 and 2026 but never reached a floor vote. The DMV itself says customers can avoid the markup entirely by completing transactions directly at dmv.ca.gov rather than clicking a sponsored search result, and Google has begun labeling some ads for government services with a "Not a government website" warning, though it doesn't appear on every listing. Drivers renewing registration online should type dmv.ca.gov directly into their browser instead of clicking a search ad, and should read past a site's own fine-print disclaimer to confirm whether they're paying the government's fee or a private reseller's marked-up version of it.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['ABC7 News / KGO-TV San Francisco (I-Team)', 'Consumer Federation of California'],
+    sourceUrl: 'https://abc7news.com/post/california-drivers-misled-dmv-lookalike-needtags-website-pay-extra-fees-register-cars-gets-cut/19592465/',
+    country: 'US',
+    state: 'CA',
+});

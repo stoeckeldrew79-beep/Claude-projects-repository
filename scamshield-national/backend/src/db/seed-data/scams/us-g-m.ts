@@ -5184,3 +5184,29 @@ UsGM.push({
     country: 'US',
     state: 'TX',
 });
+
+UsGM.push({
+    name: `"2026 Camp Explosion" Fake Special-Needs Summer Camp Donation Scam`,
+    slug: 'michigan-camp-explosion-fake-special-needs-summer-camp-scam',
+    description: `The Oakland County, Michigan Sheriff's Office warned businesses on April 29, 2026 about a woman soliciting donations across Oakland and Wayne counties for a summer camp for children with special needs that does not exist, called "2026 Camp Explosion." Flyers dropped off at local businesses, signed "Mrs. Alex" and closing with "Thank You and God bless you for giving," suggested a $150 donation to sponsor one child or $400 to sponsor a family, framed as covering camp costs; the flyer listed a website, campforkidsspecialneed.com, that led nowhere, and a phone number that actually belonged to an unrelated financial-services business rather than any camp. A Pontiac restaurant owner who believed she was supporting a legitimate charity handed over $150 before the Sheriff's Office identified the solicitation as fraudulent. "People that seek to violate the goodwill and generosity of caring people for their own enrichment must be held accountable," Sheriff Mike Bouchard said, asking any other business that gave money to the solicitor to come forward so additional charges could be pursued. Unlike a fundraiser tied to a real school, sports league, or registered nonprofit, this pitch invented the camp itself — its name, its stated cause, and the children it claimed to serve. Before donating cash on the spot to a flyer or an in-person solicitor asking to sponsor a specific camp, drive, or cause, business owners and residents can look up whether the organization is a real registered charity through the Michigan Attorney General's Charitable Trust Section, and should treat a listed phone number that reaches an unrelated business, or a website that never loads, as confirmation the appeal is fake.`,
+    categorySlug: 'charity-scams',
+    alertLevel: 'medium',
+    sources: ["Oakland County (MI) Sheriff's Office", 'Audacy (WWJ Newsradio)'],
+    sourceUrl: 'https://www.audacy.com/wwjnewsradio/news/local/special-needs-summer-camp-scam',
+    country: 'US',
+    state: 'MI',
+});
+
+UsGM.push({
+    name: 'Lakeville Liquor Store Clerk Stolen $3 Million Lottery Ticket (Carly Nunes)',
+    slug: 'massachusetts-lakeville-carly-nunes-lottery-ticket-theft',
+    description: `On January 17, 2023, a customer at Savas Liquors on Bedford Street in Lakeville, Massachusetts bought a bag of barbecue chips along with two Mega Millions and two Mass Cash quick-pick tickets, then left the store without the tickets, which stayed behind on the checkout counter. Store clerk Carly Nunes, then 24, kept one of the abandoned tickets, and two days later a co-worker, Joseph Reddem, drove her and her boyfriend to Massachusetts State Lottery headquarters in Dorchester so she could redeem it. A lottery customer-service worker noticed the ticket was torn and burned before scanning it — but it validated anyway, for $3 million. Surveillance video in the lottery office's lobby caught Nunes and Reddem arguing shortly afterward, with Nunes telling him she would "only pay him $200,000" of the winnings. A four-month investigation by the Plymouth County District Attorney's Office, built on that surveillance footage, witness interviews, and lottery records, led to Nunes being charged with presentation of a false claim; she pleaded guilty in Brockton Superior Court, and although prosecutors sought one to two years in state prison, a judge sentenced her in February 2024 to two years of probation with drug screening and counseling. The case is one of several like it around the country — store clerks in Florida and Oregon have separately faced theft charges after keeping a customer's winning ticket rather than handing it over — showing that a ticket left behind at a register isn't automatically lost: the actual purchaser can often still prove a claim using the store's own surveillance footage and purchase records, and a state lottery can flag or block a payout once a competing claim or an employee's suspicious redemption is reported. Anyone who realizes they left a lottery ticket at a store should return right away and ask the retailer to pull register video before it's overwritten, and should report a suspected theft directly to the state lottery's security division rather than assume an already-cashed ticket is unrecoverable.`,
+    categorySlug: 'lottery-sweepstakes-scams',
+    alertLevel: 'medium',
+    sources: ["Plymouth County (MA) District Attorney's Office", 'The Boston Globe'],
+    sourceUrl: 'https://plymouthda.com/news/2024-press-releases/former-convenience-store-clerk-pleads-guilty-in-scheme-to-steal-3m-winning-lottery-ticket/',
+    country: 'US',
+    state: 'MA',
+    isHistorical: true,
+    firstRecorded: '2023-01-17',
+});
