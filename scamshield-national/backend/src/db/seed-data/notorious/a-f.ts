@@ -6218,3 +6218,22 @@ The CFTC filed a civil enforcement action against Reynolds and Control-Finance i
 No criminal charges against Reynolds have been publicly announced, and he is not known to have ever set foot in a U.S. courtroom; the entire case was resolved without him. The judgment remains one of the largest the CFTC has ever obtained in a cryptocurrency fraud case — a paper victory for the more than 1,000 people he took bitcoin from, won against a man who never had to answer for it in person.`,
   },
 );
+NotoriousAF.push(
+  {
+    title: "Roshard Andrew Carty and the Jamaican Lottery Scam That Sent Tow Trucks and Pizza Deliveries to a Retiree's Door",
+    slug: 'roshard-carty-jamaican-lottery-scam-tow-trucks-pizza',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-wdwa/pr/jamaican-national-sentenced-prison-lottery-scam-devastated-southwest-washington',
+    // no rights-cleared photo found — sourceUrl above serves as the "read the full story" link
+    body: `In August 2020, a 73-year-old woman in southwest Washington state got a call from a man claiming to work for Publishers Clearing House. He told her she had won $22 million and a new car, but there was a catch: the win had to stay secret because, he said, the FBI was monitoring the transaction for her protection. That lie did the real work of the scheme — it cut her off from the one thing that might have exposed it, telling someone else what was happening. Federal prosecutors would later identify the caller as Roshard Andrew Carty, a 34-year-old Jamaican national who ran the fraud from overseas.
+
+What followed was nearly four years of escalating demands. Carty told the victim she needed to pay taxes and fees to release her winnings, starting with modest amounts and growing larger over time. When she sent money, he sometimes claimed it had been "lost in transit" and needed to be sent again. As her own funds ran low, he pushed her to borrow against her home; she eventually lost that home entirely, having sent Carty more than $600,000 between August 2020 and February 2024 through a rotating cast of money couriers across the United States who ultimately funneled the cash back to him in Jamaica.
+
+Prosecutors described Carty as relentless, and the case file backs that up: he contacted the victim thousands of times, cycling through different phone numbers and messaging platforms to keep the conversation going even as suspicion grew. When she tried to stop responding, he escalated in ways designed to unsettle her into re-engaging — sending unordered tow trucks and pizza deliveries to her home, and at one point contacting her landlord to request a welfare check, using a stranger's concern for her safety as a pretext to reestablish contact with his target himself.
+
+A federal grand jury in the Western District of Washington indicted Carty in November 2024. He was arrested in Jamaica on August 21, 2025, extradited to the United States, and arraigned in Tacoma on October 23, 2025. Carty pleaded guilty to wire fraud in February 2026, and in May 2026, U.S. District Judge Tiffany M. Cartwright sentenced him to three years in federal prison. "This defendant was relentless in defrauding a vulnerable victim," First Assistant U.S. Attorney Charles Neil Floyd said in announcing the sentence.
+
+Carty's case is a reminder that a lottery scam's real weapon isn't the fake prize but the isolation the caller manufactures around it — a fabricated gag order dressed up as an FBI investigation, kept in place by someone willing to send a tow truck to a stranger's driveway rather than let her go quiet.`,
+  },
+);
