@@ -1883,4 +1883,19 @@ The case ended in a September 2021 consent decree: Reed Hein was barred from con
 
 The timeshare-exit industry that Reed Hein helped build exists entirely downstream of a first regret — someone who bought a timeshare, in many cases under high-pressure sales tactics of its own, and later wanted out. Reed and Hein built a business that charged those same people thousands of dollars up front for a way out, and then, prosecutors said, often gave them nothing more than advice they could have found for free — turning one round of buyer's remorse into two.`,
   },
+{
+    title: 'Carl Delano Torjagbo and the Gold Mine That Employed Keanu Reeves, Charlie Brown, and No One Real',
+    slug: 'carl-torjagbo-kremkov-industries-ppp-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.irs.gov/compliance/criminal-investigation/marietta-scam-artist-sentenced-to-nearly-15-years-in-federal-prison-for-13-million-ppp-fraud-and-tax-scheme',
+    // no rights-cleared photo found — sourceUrl above serves as the "read the full story" link
+    body: `Carl Delano Torjagbo, 50, of Marietta, Georgia — who also went by the name Karl Lucius Delano — told the IRS and the Small Business Administration that he ran a gold-mining operation in Ghana called Kremkov Industries, complete with a payroll of employees drawing salaries large enough to justify a multimillion-dollar Paycheck Protection Program loan. On February 13, 2021, he submitted false federal tax returns for the company. Three days later, on February 16, 2021, he filed a PPP loan application built on those same fabricated numbers, claiming a payroll that ultimately brought in $9,554,425 in pandemic relief funds Kremkov Industries had no legitimate business needing.
+
+The payroll records Torjagbo used to support the loan didn't hold up to even casual scrutiny. Prosecutors said the list of "employees" he submitted included real celebrities who had no connection to any Ghanaian gold mine — including actors Keanu Reeves, Gene Hackman, and Emilia Clarke — sitting alongside entirely fictional characters, among them Charlie Brown, Nancy Drew, and a Jon Snow whose name investigators noted was borrowed, misspelled, from "Game of Thrones." Combined with a separate false tax-refund claim of $3,366,240.76, Torjagbo's total fraud came to roughly $13 million.
+
+He didn't sit on the money. Prosecutors said Torjagbo used the fraudulent proceeds to buy a Marietta mansion worth close to $1.7 million, a fleet of luxury vehicles including a BMW, a Lamborghini, and a Range Rover collectively worth more than $500,000, and additional land holdings valued above $241,000 — a lifestyle built entirely on a payroll of people, real and invented, who had never worked for him.
+
+A jury convicted Torjagbo on July 25, 2025, of one count of bank fraud, two counts of wire fraud, and seven counts of money laundering. On January 27, 2026, U.S. District Judge Michael L. Brown sentenced him to 14 years and 7 months in federal prison, followed by five years of supervised release, and ordered forfeiture of roughly $1.75 million seized from his bank accounts, the Marietta house, the luxury vehicles, and the land, along with a personal money judgment of $4,615,080.75 and restitution of at least $3,366,240.76. The case stands out even among pandemic-relief fraud prosecutions for the sheer carelessness of the fabrication — a fraudster who could invent a workforce out of movie stars and comic-strip characters and still get a bank to wire him nearly $10 million.`,
+  },
 );
