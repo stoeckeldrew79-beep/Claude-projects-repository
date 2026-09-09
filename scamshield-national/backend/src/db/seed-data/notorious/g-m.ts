@@ -6014,3 +6014,39 @@ A federal jury in the Northern District of Georgia convicted Fayne on charges in
 Fayne's case is a reminder that emergency relief programs built for speed — the PPP loans were designed to get cash to struggling small businesses within days — are also easiest to exploit by someone already running a fraud who simply has to lie once more, on one more form, to a lender moving too fast to check. The same tells that mark most Ponzi schemes, from the luxury car to the custom jewelry, showed up again in the receipts for exactly where the "payroll" money went.`,
   },
 );
+
+NotoriousGM.push(
+  {
+    title: 'John Thomas Burch Jr. and the Veterans Charity That Kept Almost Nothing for Veterans',
+    slug: 'john-thomas-burch-national-vietnam-veterans-foundation-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-dc/pr/former-charity-president-pleads-guilty-embezzling-money',
+    body: `John Thomas Burch Jr. spent years as a prominent Washington-area advocate for veterans, including a stint as a senior attorney at the Department of Veterans Affairs, before building the National Vietnam Veterans Foundation (NVVF) into a nationwide telemarketing fundraising operation. By 2014, NVVF was pulling in nearly $9 million a year in donations solicited with promises that the money would go directly toward helping struggling veterans and their families. According to a subsequent investigation by the New York Attorney General's office, almost none of it did: of the $8.6 million NVVF raised in 2014 alone, $7.7 million — roughly 90 percent — went straight back out to the professional fundraising firms NVVF had hired to make the calls.
+
+What little remained after paying the fundraisers was, prosecutors and the New York Attorney General both found, frequently spent on the charity's own leadership rather than on veterans. Investigators pointed to consulting fees paid to friends and relatives of NVVF's directors, and to a 2014 board trip to Normandy, France. Burch himself controlled a fund NVVF described publicly as an "Emergency Assistance Program" meant to help the young children of impoverished Vietnam veterans' families — and, according to federal prosecutors, used it instead as a personal slush fund, distributing more than $10,000 apiece to several women with whom he had personal relationships and submitting expense reports that described nightclub visits, restaurant meals, and hotel stays as work related to "veteran issues" and homelessness outreach.
+
+New York Attorney General Eric Schneiderman settled civil charges against NVVF and Burch in November 2016: Burch agreed to personally repay $100,000, redirected to legitimate veterans' charities, to return his severance from the organization, and to a permanent, nationwide ban on ever again handling charitable assets, a ban that also applied to NVVF's vice president, David Kaufman. NVVF itself stopped fundraising in New York and moved to dissolve. Separately, federal prosecutors charged Burch criminally over the roughly $149,317 he had personally misappropriated from the Emergency Assistance Program between 2012 and 2016. He pleaded guilty to wire fraud in June 2017, and that October, U.S. District Judge Ketanji Brown Jackson — since elevated to the U.S. Supreme Court — sentenced him to five months in federal prison and ordered him to forfeit $75,000.
+
+Burch's case is a reminder that a charity's name can do most of the persuading before a donor ever checks anything else — "National Vietnam Veterans Foundation" invokes exactly the sympathy and trust its telemarketers were counting on — and that the surest way to see past that is to look at the numbers a charity is required to disclose: how much of what it raises actually reaches the people it claims to serve, rather than the fundraisers, consultants, and executives collecting a cut along the way.`,
+  },
+);
+
+NotoriousGM.push(
+  {
+    title: 'Larry Dean Harmon and the Dark Web Bitcoin "Mixer" That Laundered $300 Million',
+    slug: 'larry-dean-harmon-helix-bitcoin-mixer-money-laundering',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/archives/opa/pr/operator-helix-darknet-cryptocurrency-mixer-sentenced-money-laundering-conspiracy-and',
+    body: `Larry Dean Harmon, of Akron, Ohio, ran a service on the dark web that solved a specific problem for a specific kind of customer: bitcoin, despite its reputation for anonymity, leaves a permanent public record of every transaction on its blockchain, which meant proceeds from drug sales and other crimes could in principle be traced back to their source. From 2014 to 2017, Harmon operated Helix, a bitcoin "mixer" or "tumbler" that took in customers' bitcoin, pooled and scrambled it together with bitcoin from many other sources, and sent back different coins to a destination of the customer's choosing — deliberately severing the trail investigators would otherwise be able to follow.
+
+Harmon built Helix to serve the dark web's biggest markets directly. He operated a companion darknet search engine called Grams to help customers find drug marketplaces and other illicit vendors in the first place, developed an application programming interface that let markets including AlphaBay — at the time the largest dark web marketplace in the world — integrate Helix directly into their own bitcoin withdrawal systems, and customized the service's features for compatibility with other major markets like Evolution and Cloud 9. Prosecutors said Helix processed at least 354,468 bitcoin on behalf of its customers — worth approximately $311 million at the time of the transactions — much of it traced directly to and from darknet drug markets, with Harmon keeping a percentage of every transaction as his fee.
+
+Investigators with IRS Criminal Investigation and the FBI unwound Harmon's anonymity using the same blockchain forensics tools Helix was designed to defeat, tracing patterns across the bitcoin wallets tied to the service and using undercover transactions to confirm how the mixing worked in practice. Harmon was arrested in February 2020 and pleaded guilty on August 18, 2021, to conspiracy to commit money laundering. In a parallel civil action, the Treasury Department's Financial Crimes Enforcement Network assessed a $60 million penalty against him — the agency's first-ever enforcement action against a bitcoin mixing service.
+
+Harmon was sentenced on November 15, 2024, to three years in federal prison, followed by three years of supervised release, a forfeiture money judgment of $311,145,854, and forfeiture of seized cryptocurrency, real estate, and other assets ultimately valued at more than $400 million. "Operator of Helix Darknet Cryptocurrency 'Mixer' Sentenced in Money Laundering Conspiracy," the Justice Department titled its announcement — a case investigators said required international cooperation from Belize, where some of Harmon's assets were traced, coordinated through the U.S. Embassy in Belmopan.
+
+Helix's business model depended on a myth its own customers wanted to believe: that mixing bitcoin through enough intermediate wallets would make it as untraceable as cash. Blockchain analysis proved otherwise, and Harmon's case stands as a reminder that a cryptocurrency transaction, however many hands it passes through, still leaves a permanent public ledger for investigators patient enough to follow it — the opposite of the anonymity his customers were paying for.`,
+  },
+);
