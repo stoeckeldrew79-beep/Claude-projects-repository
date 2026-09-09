@@ -4084,3 +4084,20 @@ Palladino's legal troubles didn't end with the state sentence. Even after the SE
 The Viking Financial case is a smaller-scale fraud than the billion-dollar schemes that dominate national headlines, but it captures a durable pattern in local investment fraud: an operator with an existing history of exploiting a vulnerable family member pivots into a "safe," asset-backed-sounding investment vehicle — hard-money real estate lending is a legitimate business model — and uses that legitimacy as camouflage for an ordinary Ponzi scheme, all while treating a federal court's own asset freeze as just one more obstacle to route around rather than a stop sign.`,
   },
 );
+
+NotoriousNS.push(
+  {
+    title: 'Scott Kohn and the $310 Million Pension-Advance Scheme That Preyed on Military Veterans',
+    slug: 'scott-kohn-future-income-payments-pension-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-sc/pr/california-man-receives-10-year-sentence-following-guilty-plea-south-carolina-fraud',
+    body: `Scott Kohn ran Future Income Payments, LLC — formerly known as Pensions, Annuities and Settlements, LLC — out of Newport Beach, California, from April 2011 until the operation collapsed in April 2018. The pitch was aimed squarely at people with a guaranteed but limited monthly income: retirees and, disproportionately, military veterans drawing pensions or disability payments, who were often in financial distress and looking for a fast way to raise cash. Future Income Payments offered them a lump sum upfront in exchange for "selling" the rights to their future monthly pension or disability checks for a fixed number of years.
+
+Federal regulators said that structure was a deliberate legal fiction. Assigning away a veteran's disability payments is illegal, and federal pensions generally can't be sold outright, so Kohn's contracts were written as purchases of "structured cash flows" rather than loans — even though the arrangement functioned exactly like a loan, just one carrying effective annual interest rates as high as 240 percent, far beyond what usury laws would ever permit a lender to charge directly. To reach victims nationwide, Kohn built a network of hundreds of independent insurance agents and financial advisors who solicited clients on commission, many of them unaware of how the underlying deal was actually structured or funded.
+
+By the time the scheme fell apart, Future Income Payments had drawn in more than 2,500 retirees and pushed over 13,000 veterans into these exploitative advances, causing more than $310 million in losses. The Consumer Financial Protection Bureau sued Kohn, Future Income Payments, and related entities in September 2018, and after the defendants failed to mount a defense, the court entered a default judgment in February 2021 requiring more than $436 million in consumer redress plus a $65,481,736 civil penalty — figures the operation's own victims were never likely to collect given how much of the money was already gone.
+
+The criminal case moved on a separate track. Four of Kohn's co-conspirators — Kraig Aiken, David Kenneally, Melanie Jo Schulze-Miller, and Joseph Hipp — pleaded guilty between 2019 and 2021 in the U.S. District Court for the District of South Carolina. Kohn himself pleaded guilty and, on August 22, 2022, was sentenced to 10 years in federal prison plus three years of supervised release, and ordered to forfeit $297 million. The case stands as one of the largest pension-advance fraud prosecutions the Justice Department has brought, and a reminder that a scheme built on relabeling an illegal loan as a "sale" can still run for years and reach tens of thousands of victims before regulators and prosecutors catch up to the paperwork.`,
+  },
+);
