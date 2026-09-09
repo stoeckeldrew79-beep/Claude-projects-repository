@@ -4610,3 +4610,15 @@ UsGM.push({
     country: 'US',
     state: 'KS',
 });
+
+UsGM.push({
+    name: `Cedar Rapids Home Care Owner's Veterans Affairs Billing Fraud (Jacob Hughes)`,
+    slug: 'iowa-cedar-rapids-hughes-synergy-homecare-veterans-fraud',
+    description: `A federal grand jury in the Northern District of Iowa indicted Jacob Hughes, 35, of Cedar Rapids, and his company Hughes Home Care, Inc. — doing business as Synergy Homecare — on ten counts of health care fraud, the U.S. Attorney's Office announced in late June 2026 as part of the Department of Justice's nationwide 2026 National Health Care Fraud Takedown. Prosecutors allege that between April and November 2024, Hughes submitted claims to the VA's Veterans Community Care Program — which pays private agencies to deliver home health services to veterans who can't easily get them at a VA facility — for in-home care that four elderly and infirm veteran clients never actually received, and that some of those claims sought reimbursement for visits supposedly performed after the veteran named on the claim had already died. Investigators identified $15,357 in fraudulent claims tied to the ten counts, and federal prosecutors are separately seeking $350,000 in damages from Hughes and his company; court filings allege he used the proceeds to pay off personal sports-gambling debts and cover other personal expenses rather than the caregiving his billing claimed to fund. The case was one of two Iowa matters folded into the 2026 takedown, which identified more than $6.5 billion in false health care claims nationwide. Veterans and families who arrange home health care through the Veterans Community Care Program are advised to keep their own log of which caregiver visited on which day and for how long, compare it against the VA's explanation-of-benefits statements when they arrive, and report any billed visit that never happened — or any claim dated after a family member's death — directly to the VA Office of Inspector General rather than assuming it was a clerical error.`,
+    categorySlug: 'healthcare-fraud',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office for the Northern District of Iowa", 'KCRG', 'CBS 2 Iowa (KGAN)'],
+    sourceUrl: 'https://www.kcrg.com/2026/06/26/cedar-rapids-home-care-owner-accused-defrauding-veterans-affairs-program/',
+    country: 'US',
+    state: 'IA',
+});

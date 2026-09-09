@@ -4316,3 +4316,15 @@ UsNS.push({
     country: 'US',
     state: 'SD',
 });
+
+UsNS.push({
+    name: `Fargo Man's $113,000 Business Email Compromise Fraud (Nicolas Mondani Oleko)`,
+    slug: 'north-dakota-fargo-oleko-mondani-llc-business-email-compromise',
+    description: `An auction house in Asheville, North Carolina that had sold furniture, silver, and historical artifacts on behalf of an 80-year-old art dealer emailed him a settlement statement showing what he was owed — and someone was watching that exchange closely enough to strike. The impersonator registered a look-alike email address that swapped a zero for the letter "o" in the real art dealer's name, then wrote to the auction house with new wire instructions directing the payment to a different account entirely. Believing the request came from its own client, the auction company wired $113,050 on December 21, 2023 to a Wells Fargo account belonging to Mondani LLC, a company federal prosecutors say Nicolas Mondani Oleko, then living in Fargo, North Dakota, controlled. Within hours that same day, $112,240.80 was withdrawn from the account, including transfers of $40,000, $15,000, and $10,000 into a personal checking account Oleko shared with his wife. FBI agents interviewed Oleko at his Fargo apartment in April 2024, and investigators later recovered phone searches asking about the auction business's net worth and what happens "when they blocked your bank account." A federal grand jury indicted Oleko, now 32, on June 3, 2026, though the indictment stayed sealed until his arraignment in federal court in North Dakota on August 10, 2026, on one count of wire fraud and one count of bank fraud, each carrying a maximum 20-year prison sentence. Any business that receives a last-minute change to wire instructions on an outstanding invoice or settlement payment — especially one arriving only by email rather than a phone call — should independently verify the new account information by calling the client or vendor directly at a number already on file before sending funds, since a one-character difference in an email address is easy to miss and impossible to undo once a wire has gone through.`,
+    categorySlug: 'business-email-compromise',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office for the District of North Dakota", 'Valley News Live (KVLY)'],
+    sourceUrl: 'https://www.valleynewslive.com/2026/08/10/man-democratic-republic-congo-arraigned-federal-wire-fraud-bank-fraud-charges-113000-email-scheme/',
+    country: 'US',
+    state: 'ND',
+});
