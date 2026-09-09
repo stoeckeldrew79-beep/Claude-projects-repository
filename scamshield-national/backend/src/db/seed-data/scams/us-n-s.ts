@@ -3905,6 +3905,18 @@ UsNS.push({
 });
 
 UsNS.push({
+    name: 'Bradshaw Court-Appointed Guardian Vulnerable-Adult Exploitation (Becky Stamp)',
+    slug: 'nebraska-bradshaw-becky-stamp-guardian-exploitation',
+    description: `Becky Stamp, 57, of Bradshaw, Nebraska, ran a guardianship business called Stamped With Love LLC that made her the court-appointed guardian and, in many cases, the Social Security representative payee for dozens of vulnerable Nebraskans spread across roughly 18 counties from the Panhandle to the eastern part of the state. A Nebraska State Patrol investigation accused Stamp of using that access to steal from the people she was supposed to protect, including running up more than $21,000 in unauthorized charges at York-area shops on an account belonging to a man courts had deemed incapable of managing his own finances; prosecutors ultimately charged her with theft by unlawful taking, unauthorized use of a financial transaction device, and knowing and intentional exploitation of a vulnerable adult, alleging she took more than $167,000 from 22 vulnerable victims, with the York County charge count reaching 63 and later climbing to 66 as investigators uncovered additional victims. Reporting by the Flatwater Free Press found that Stamp remained the active court-appointed guardian for at least 25 vulnerable Nebraskans for months after her initial arrest and was even appointed to more than a dozen new guardianship cases in 2025 while the case was pending, before courts finally removed her from her remaining cases in mid-2025 after she stopped filing required financial reports. The case has fueled calls for reform from advocates who say it exposes a systemic gap in oversight of Nebraska's more than 10,000 adults living under guardianship or conservatorship, where a single guardian can be assigned dozens of financially vulnerable wards with little routine outside review of how their money is actually spent. Families of anyone under a court-appointed guardian or conservator are advised to request copies of the required annual accounting filed with the court, to ask the ward's local Area Agency on Aging or the county court clerk how to formally object to a guardian's report, and to report suspected misuse of a ward's funds to local law enforcement or the county attorney rather than assuming the court's appointment alone guarantees oversight.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'high',
+    sources: ['Flatwater Free Press', 'The Associated Press'],
+    sourceUrl: 'https://flatwaterfreepress.org/authorities-accused-her-of-abusing-a-vulnerable-nebraskan-she-remained-the-court-appointed-guardian-for-dozens-of-others/',
+    country: 'US',
+    state: 'NE',
+});
+
+UsNS.push({
     name: 'New Hampshire "Virus on Your Device" Cryptocurrency Blackmail Letter Scam',
     slug: 'new-hampshire-virus-device-crypto-blackmail-letter',
     description: `The New Hampshire Attorney General's Office received several reports from residents who received unsolicited emails, each with a subject line and body containing the recipient's own name, that attached a threatening letter listing the recipient's name, telephone number, home address, and a photograph of their house. The letter falsely claimed that a virus had been secretly placed on the recipient's electronic device, giving the sender the ability to track their browsing history, emails, and social media accounts, and threatened to release extracted "embarrassing information" to the recipient's contacts unless they paid a "privacy fee" in cryptocurrency. Attorney General John M. Formella's office confirmed the senders never actually visited the victims' homes or gained any access to their devices — the personal details used to make the threat feel credible, including the home photo, were assembled from publicly available sources such as property records and online map imagery, not from any real hack. The office said the scheme is designed purely to manufacture fear and urgency so the recipient pays before stopping to verify the claim, and urged anyone who receives such a letter not to pay, not to reply, and to report it to the Attorney General's Consumer Protection and Antitrust Bureau rather than engaging with the sender.`,
@@ -4422,4 +4434,16 @@ UsNS.push({
     sourceUrl: 'https://www.njoag.gov/ag-davenport-announces-criminal-conviction-in-elder-financial-exploitation-case-highlights-ongoing-efforts-to-prevent-elder-abuse-as-new-jersey-observes-world-elder-abuse-awareness-day/',
     country: 'US',
     state: 'NJ',
+});
+
+UsNS.push({
+    name: `Irish "Traveling Conman" Multi-State Home Repair Fraud (John O'Brien)`,
+    slug: 'rhode-island-obrien-traveling-conman-home-repair-fraud',
+    description: `John O'Brien, an Irish national living unlawfully in the United States, and several co-conspirators posed as skilled tradesmen and contractors — operating under names including Traditional Masonry & Construction — to defraud more than 100 homeowners across Rhode Island and Massachusetts of over $1.5 million between July 2021 and March 2025. Prosecutors said the group's method followed a pattern: they would perform a small, legitimate-looking repair, then falsely claim to discover urgent structural problems requiring far more expensive work, pressuring homeowners — including an 83-year-old Warwick resident — into authorizing additional payments for repairs that were unnecessary, overpriced, or never properly completed. O'Brien pleaded guilty to wire fraud on December 11, 2025, and on April 7, 2026, U.S. District Court Chief Judge John J. McConnell Jr. sentenced him to 56 months in federal prison, after which O'Brien is expected to be deported. Announcing the sentence, the U.S. Attorney's Office said the case "reflects a broader pattern of individuals known as 'Traveling Conmen' who cross state lines to defraud victims," moving from town to town so that no single police department sees enough complaints to spot the pattern on its own. Homeowners approached by a driveway, roofing, or masonry crew they did not seek out should get a written estimate for only the work actually needed, get a second contractor's opinion before authorizing any "emergency" add-on discovered mid-job, and verify a contractor's business registration with the Rhode Island or Massachusetts Attorney General's office before making any payment.`,
+    categorySlug: 'home-improvement-solar',
+    alertLevel: 'high',
+    sources: ['Internal Revenue Service Criminal Investigation', "U.S. Attorney's Office for the District of Rhode Island"],
+    sourceUrl: 'https://www.irs.gov/compliance/criminal-investigation/irish-national-sentenced-in-multi-state-home-repair-fraud-scheme',
+    country: 'US',
+    state: 'RI',
 });
