@@ -3859,3 +3859,48 @@ Wonsey did not respond to the lawsuit or appear in court to contest it. The CFTC
 Wonsey's case is a reminder that a default judgment — entered because a defendant simply stopped participating in his own defense — is not a lesser outcome for the people who lost money to him. It is often what happens when the person behind a trading scheme has nothing left to offer in his own defense and nowhere further to go, leaving a federal judgment on the books that establishes what he owes even though actually collecting it from him remains a separate, and often much harder, problem.`,
   },
 );
+
+NotoriousNS.push(
+  {
+    title: 'Raymond Kim and the Colorado Fraud Case That Continued From Probation',
+    slug: 'raymond-kim-colorado-recidivist-securities-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://securities.colorado.gov/press-release/press-release-recidivist-colorado-man-sentenced-to-eight-years-in-prison-for',
+    body: `Raymond Kim, of Centennial, Colorado, had already been through the state's securities-fraud process once by the time his second case began. In 2019, the Colorado Division of Securities investigated Kim for lying to and omitting material information from investors and misusing their money for personal expenses, and referred the case to the Colorado Attorney General's office for prosecution. Kim pleaded guilty in August 2020 to a class 3 felony count of securities fraud and was sentenced to economic probation — a form of supervision built around repaying victims rather than incarceration.
+
+According to the Colorado Division of Securities, Kim used that probation period to start a new scheme rather than comply with it. While still under the terms of his 2020 plea agreement, he began soliciting new investors at a fitness center in Centennial, offering convertible promissory notes and stock purchase agreements. Investigators say Kim made material misrepresentations and omissions to these investors just as he had in the first case, and collectively took in $820,000 from them, using some of the new money to pay earlier investors — the hallmark structure of a Ponzi scheme — while diverting the rest for his own use.
+
+Kim pleaded guilty a second time in September 2025, and on December 16, 2025, an Arapahoe County District Court judge sentenced him to two concurrent 8-year prison terms followed by three years of parole, along with an order to pay $812,004 in restitution to his victims.
+
+The Colorado Division of Securities highlighted the case specifically because of what it shows about repeat offenders: a securities-fraud conviction and probation did not stop Kim from immediately building a new set of victims using the same basic playbook — false statements about an investment paired with a plausible-sounding paper instrument, in this case a convertible note. Investors dealing with anyone offering promissory notes or stock purchase agreements can check an individual's disciplinary and criminal history through their state securities regulator before wiring money, rather than relying on how credible the pitch itself sounds.`,
+  },
+  {
+    title: 'Shahid Javed and the Fake Fuel Companies That Funded a Bentley',
+    slug: 'shahid-javed-fake-fuel-companies-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.njoag.gov/middlesex-county-man-sentenced-to-seven-years-in-state-prison-for-running-a-7-7-million-securities-fraud-scheme-involving-fake-fuel-companies/',
+    body: `Shahid Javed, of Old Bridge, New Jersey, built his fraud scheme around a business investors could picture clearly: fuel trading. According to the New Jersey Attorney General's Office, Javed began in March 2018 by soliciting roughly $640,000 in purported loans for a venture called East Coast Energy Partners, telling investors the money would finance jet-fuel purchases. From there, prosecutors say, the scheme grew and shifted shape — Javed created two entirely fictitious companies, Prime Petroleum Group LLC and Petro Traders Group LLC, and used them to solicit additional investors with promises of returns as high as 50%, plus the return of their principal, from fuel-trading profits and an investment in a Texas oil refinery that authorities say did not exist as described.
+
+To keep the story credible, Javed is alleged to have impersonated multiple fictitious employees of his own companies when communicating with investors, and to have paid roughly $1 million to early investors using money from later ones — a Ponzi-style mechanic that let the scheme's apparent returns keep new money flowing in. Between March 2018 and May 2023, prosecutors say Javed took in approximately $7.7 million from investors in total, diverting much of it to personal spending that included a Bentley, a house, and a boat.
+
+Javed pleaded guilty on April 15, 2026, to two counts of second-degree securities fraud and one count of second-degree theft by deception. On June 18, 2026, a Morris County Superior Court judge sentenced him to seven years in state prison and ordered him to pay $250,000 in restitution. "This case represents our continuing effort to ensure that individuals who engage in securities fraud are held accountable in New Jersey," said New Jersey Attorney General Jennifer Davenport in announcing the sentence.
+
+Javed's case is a reminder that a fraudulent investment doesn't need a headline-grabbing hook like cryptocurrency to work — an unglamorous, capital-intensive commodity business like fuel trading can be just as effective a cover story, precisely because it sounds like the kind of unglamorous, hard-to-verify operation an ordinary investor has no independent way to check.`,
+  },
+  {
+    title: "Scott Mason and the $17 Million Rubicon Wealth Management Fraud",
+    slug: 'scott-mason-rubicon-wealth-management-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-edpa/pr/gladwyne-investment-adviser-sentenced-over-eight-years-prison-defrauding-clients-more',
+    body: `Scott Mason ran Rubicon Wealth Management LLC, an investment advisory firm based in Gladwyne, Pennsylvania, and used it to manage money for clients who, in many cases, were also his longtime friends and family members — the kind of relationship that normally makes a client feel safer, not more exposed. According to the U.S. Attorney's Office for the Eastern District of Pennsylvania, that trust is exactly what Mason exploited.
+
+Prosecutors say Mason diverted more than $17 million from thirteen Rubicon clients into entities he personally owned and controlled, often by forging clients' signatures on distribution forms or misrepresenting the transfers to them as bond investments. In one case, prosecutors say Mason had been misappropriating funds from a single victim since as far back as 2007, and partially repaid that victim over the years specifically to avoid detection — while still netting more than $6 million from that person alone. He used the diverted money to fund international travel, country club membership dues, credit card bills, and an ownership stake in a miniature golf course near the Jersey Shore. He also failed to report the fraud proceeds as income, creating a tax loss prosecutors estimated at roughly $3.2 million.
+
+Mason was charged in January 2025 with two counts of wire fraud, securities fraud, investment adviser fraud, and five counts of filing a false tax return, and pleaded guilty to all counts. On June 25, 2025, U.S. District Judge Timothy J. Savage sentenced him to 97 months — just over eight years — in federal prison, followed by three years of supervised release, and ordered him to pay $24,998,596.46 in restitution to his victims and $2,353,355 to the IRS. The case was investigated jointly by the IRS Criminal Investigation division, the FBI, and the SEC's Philadelphia Regional Office.
+
+Mason's case illustrates a pattern regulators see repeatedly in adviser fraud: the victims were not strangers responding to a cold pitch, but people who already trusted him personally, which is precisely why forged paperwork and vague talk of "bond investments" went unquestioned for so long. Clients of any investment adviser can independently verify how their money is actually invested through account statements from an unaffiliated, independent custodian, rather than relying solely on statements or explanations the adviser provides directly.`,
+  },
+);
