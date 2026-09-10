@@ -5278,3 +5278,14 @@ UsGM.push({
     sourceUrl: 'https://www.justice.gov/usao-cdca/pr/two-cousins-plead-guilty-federal-crimes-connection-nationwide-online-short-term-rental',
     country: 'US',
 });
+
+UsGM.push({
+    name: 'Fake "Pearl Talent" Recruiter Text-Message Job Scam',
+    slug: 'pearl-talent-fake-recruiting-text-job-scam',
+    description: `The Better Business Bureau issued a nationwide scam alert on August 29, 2025 warning that fraudsters are impersonating Pearl Talent LLC, a legitimate recruitment firm registered in Florida and New York, to run a text-message job scam. Victims receive an unsolicited text from someone identifying herself as "Katherine from Pearl Talent," who claims to have seen the recipient's profile and been impressed by their qualifications, then offers a flexible, fully remote position described as "assisting merchants by updating their data, visibility and managing bookings" for just 60 to 90 minutes of work a day, paying $200 to $500. When a recipient replies with interest, the scammer follows up to confirm and then invites them to "interview" not by phone or video call but by switching to a separate downloaded messaging app — a tactic BBB flags as a hallmark of the scheme, since it lets the fraudster avoid ever having a live conversation that could expose the impersonation. BBB says the same wave of reports included scammers spoofing other real staffing and media companies, including Amazon, WBD Global Streaming, Aquent, Creative Niche, and Scion Staffing, to send nearly identical unsolicited job offers. Once a target is hooked, these schemes typically escalate into a fake-check overpayment scam: the "employer" sends a check to cover a home-office setup, instructs the new hire to deposit it and wire back the "excess" funds, and the check later bounces, leaving the victim liable for the full amount to their bank. The real Pearl Talent has no connection to these messages and, like the targeted job seekers, is itself a victim of the impersonation. BBB advises anyone contacted this way to independently look up the company's own published phone number or website rather than replying to the text, to treat any job that never requires a real-time phone or video interview as a red flag, and to be suspicious of pay that is well above market rate for minimal, vaguely described work — and never to deposit an unexpected check from a new employer and wire money back.`,
+    categorySlug: 'job-task-scams',
+    alertLevel: 'medium',
+    sources: ['Better Business Bureau'],
+    sourceUrl: 'https://www.bbb.org/article/news-releases/32277-bbb-scam-alert-scammers-are-impersonating-a-recruitment-firm-in-new-text-message-job-scam',
+    country: 'US',
+});

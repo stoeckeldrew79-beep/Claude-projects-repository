@@ -6569,3 +6569,15 @@ UsAF.push({
     sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2025/12/ftc-sends-more-96-million-consumers-who-bought-deceptively-advertised-vehicle-service-contracts',
     country: 'US',
 });
+
+UsAF.push({
+    name: 'Florida Lawsuits Against VGW and Stake Over "Sweepstakes Casino" Gambling',
+    slug: 'florida-vgw-stake-sweepstakes-casino-lawsuit',
+    description: `Florida Attorney General James Uthmeier filed two lawsuits on August 19, 2026 in Hillsborough County Circuit Court against the operators of two of the country's largest online "sweepstakes casinos," alleging their real-money gambling operations are illegal under Florida law despite being marketed as free-to-play promotional games. One suit targets VGW Group, which runs Chumba Casino, LuckyLand Slots, and Global Poker and which the complaint says generated more than $5 billion in revenue in 2025, with $3.7 billion of that from Chumba Casino alone; the other targets Stake and its co-founders, Ed Craven and Bijan Tehrani. Both suits also name payment processors the state says helped move consumer money into the platforms, including Worldpay, Trustly, Praxis, and Breeze Labs. Under the "sweepstakes" model, players buy bundles of virtual "gold coins" that come bundled with free "sweeps coins," which can then be redeemed for cash prizes — a structure Uthmeier says exists only to dodge Florida's gambling licensing, taxation, and consumer-protection requirements. "These so-called 'sweepstakes' and 'social casinos' are illegal online gambling operations," Uthmeier said, adding, "If it looks like a casino, takes real money like a casino, and pays out like a casino, it is a casino — and it is illegal under Florida law." The complaints, brought under Florida's gambling statutes and the Florida Deceptive and Unfair Trade Practices Act, ask the court for permanent injunctions barring the defendants from operating in the state, forfeiture and recovery of every dollar lost by Florida consumers, disgorgement of the companies' proceeds, civil penalties, and attorneys' fees. The Florida suits follow a broader nationwide crackdown: the New York Attorney General's office reached an $8 million settlement with VGW in September 2026 after issuing cease-and-desist letters to 26 sweepstakes platforms in mid-2025, and states including California, Connecticut, Louisiana, Montana, and Tennessee have passed laws targeting the sweepstakes-casino model since 2025. Consumers should treat any online "casino" that sells coins and pays out cash winnings as a real gambling operation subject to state licensing, regardless of how it is marketed, and should be skeptical that a platform advertised as a harmless sweepstakes game is exempt from the consumer protections that apply to licensed casinos.`,
+    categorySlug: 'lottery-sweepstakes-scams',
+    alertLevel: 'high',
+    sources: ["Florida Attorney General's Office", 'Casino.org', 'Legal Sports Report'],
+    sourceUrl: 'https://www.myfloridalegal.com/newsrelease/attorney-general-james-uthmeier-files-lawsuits-against-operators-illegal-online-casinos',
+    country: 'US',
+    state: 'FL',
+});
