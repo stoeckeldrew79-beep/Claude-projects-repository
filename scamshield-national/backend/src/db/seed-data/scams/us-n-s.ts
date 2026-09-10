@@ -4828,3 +4828,14 @@ UsNS.push({
     country: 'US',
     state: 'NY',
 });
+
+UsNS.push({
+    name: 'Nuvei Payment Processor Tech Support Scam Settlement',
+    slug: 'nuvei-payment-processor-tech-support-scam-settlement',
+    description: `The Federal Trade Commission announced on September 4, 2026 that global payment processor Nuvei Corporation, along with its U.S. subsidiary Nuvei Technologies Inc. and related entities Nuvei International Group Limited, Nuvei Limited, and SafeCharge Digital Limited, agreed to pay $4.85 million and accept a permanent ban on processing payments for tech-support telemarketers to settle charges that the company knowingly opened and kept open merchant accounts for scammers. The FTC's complaint centers on Reimage, an offshore tech-support scam that used deceptive pop-up warnings claiming a consumer's computer was infected or malfunctioning to sell unnecessary "repair" software and services; Nuvei processed more than $30 million in consumer payments for Reimage between 2017 and 2023 despite persistent red flags. The complaint also names DK Automation, which allegedly sold business-opportunity programs using false or baseless income claims, and American Tax Service, a merchant accused of impersonating government tax authorities to collect payments — plus other merchants that competing payment processors and banks had already terminated for excessive chargebacks or suspected fraud before Nuvei took them on. Investigators say Nuvei's U.S. arm also used "load balancing," spreading a merchant's transactions across multiple accounts, to keep fraud-monitoring systems from flagging any single account's chargeback rate. "Today's action underscores the Commission's commitment to ensuring that our payments system operates free of fraud," said Christopher Mufarrige, Director of the FTC's Bureau of Consumer Protection. Beyond the monetary payment, the proposed order permanently bars Nuvei from providing payment services to any seller of tech-support products or services marketed through telemarketing or pop-up security alerts, prohibits misrepresenting facts to acquiring banks or card networks to obtain merchant accounts, and requires ongoing screening and monitoring of both new and existing merchant clients. Consumers who see a pop-up warning claiming their computer is infected should never call the number displayed or grant remote access, and anyone who already paid such a scam by card should dispute the charge with their card issuer and report it at reportfraud.ftc.gov, since a fraudulent charge routed through a legitimate-seeming processor is still reversible under standard cardholder protections.`,
+    categorySlug: 'tech-support-scams',
+    alertLevel: 'high',
+    sources: ['Federal Trade Commission'],
+    sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2026/09/payment-processor-nuvei-must-implement-robust-merchant-screening-practices-pay-485-million-settle',
+    country: 'US',
+});
