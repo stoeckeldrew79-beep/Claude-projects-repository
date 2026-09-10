@@ -4828,3 +4828,14 @@ UsNS.push({
     sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2026/09/payment-processor-nuvei-must-implement-robust-merchant-screening-practices-pay-485-million-settle',
     country: 'US',
 });
+
+UsNS.push({
+    name: 'Sixt Rent A Car Fake Damage Charge Class Action Settlement',
+    slug: 'sixt-rental-car-damage-charge-class-action-settlement',
+    description: `A federal class action, Calderon, et al. v. Sixt Rent A Car LLC, No. 0:19-cv-62408-AHS in the U.S. District Court for the Southern District of Florida, accused the rental car company of billing renters for vehicle damage in ways that violated the terms of its own rental agreements — charging for "diminished value," estimated repair costs, "loss of use" fees, and administrative fees on vehicles Sixt had never actually repaired and had never actually lost the use of, contrary to the itemized damage-billing method printed in its contracts. The case, which covers U.S. renters who rented from Sixt's corporate U.S. locations on or before June 30, 2019 and received a damage claim on or after January 1, 2014, won preliminary court approval on February 26, 2025, establishing an $11.07 million settlement fund. Under its terms, class members can claim a 70% refund of the disputed Sixt damage charges they paid, with the average estimated payout at $356.67 per claimant, plus an additional $6.6 million in non-monetary relief in the form of Sixt halting collection efforts on disputed charges that were never paid. The court set an exclusion and objection deadline of May 27, 2025, held a final fairness hearing on July 15, 2025, and set a claims-submission deadline of August 15, 2025. The case illustrates a pattern renters across the industry have also pursued against other major companies — Enterprise, Alamo, National, and others have faced similar lawsuits and state attorney general actions over damage billing that skips required inspections or inflates repair estimates beyond what the company actually paid to fix the car. Anyone renting a vehicle should photograph or video every exterior panel, wheel, and interior surface at pickup and again at return with a timestamp visible, request a written inspection report or receipt at drop-off documenting the vehicle's condition, and dispute any post-return damage charge in writing by citing the itemized cost method — repair invoice, discounted rate, or documented loss of a specific rental — that the company's own rental agreement is legally required to use, rather than accepting a flat "damage fee" at face value.`,
+    categorySlug: 'travel-vacation-scams',
+    alertLevel: 'medium',
+    sources: ['U.S. District Court for the Southern District of Florida', 'Top Class Actions'],
+    sourceUrl: 'https://topclassactions.com/lawsuit-settlements/closed-settlements/11-07m-sixt-rent-a-car-class-action-settlement/',
+    country: 'US',
+});
