@@ -4299,3 +4299,39 @@ The volume was disruptive enough on its own that in July 2022 the FCC took the u
 Cox and Jones's case shows what an existing telemarketing ban is actually worth against someone determined to keep working: without a corresponding criminal prosecution or an enforcement agency willing to physically intercept the calls, a "lifetime ban" leaves the banned operator free to simply open new companies, in new jurisdictions, and start dialing again — until the volume itself becomes so overwhelming that carriers, rather than any court order, are what finally shuts the lines down.`,
   },
 );
+
+NotoriousNS.push(
+  {
+    title: 'Paul Randall and the $270 Million Medi-Cal Pharmacy Scheme That Billed $13,424 for a Bottle of Pills',
+    slug: 'paul-randall-monte-vista-pharmacy-medi-cal-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/opa/pr/california-man-sentenced-30-years-orchestrating-270m-medication-reimbursement-fraud-scheme',
+    // no rights-cleared photo found — sourceUrl above serves as the "read the full story" link
+    body: `Paul Richard Randall, 67, of Orange, California, ran Monte Vista Pharmacy, and when Medi-Cal — California's Medicaid program — temporarily suspended its usual requirement that pharmacies get prior authorization before dispensing certain drugs, Randall and two co-schemers treated the gap not as a rule to bend but as a wide-open door. Through Monte Vista, prosecutors say Randall, Kyrollos Mekail, 38, of Moreno Valley, and Patricia Anderson, 59, of West Hills, began billing Medi-Cal for high-reimbursement, non-contracted generic drugs that beneficiaries frequently never needed and, often, never actually received.
+
+The scale and speed were what set the scheme apart. Between May 2022 and April 2023 — eleven months — Monte Vista Pharmacy billed Medi-Cal more than $269 million for just nineteen expensive drugs built around cheap generic ingredients, and the state actually paid out more than $178 million of it before the fraud was caught. The markups exposed exactly how the math worked: one prescription for meloxicam, a generic anti-inflammatory that normally costs $5 to $25 for a month's supply in its common doses, was billed to Medi-Cal at roughly $13,424. Other claims ran through similarly inflated generic formulations, sometimes including over-the-counter vitamin ingredients dressed up as costly specialty medication — the entire scheme dependent on nobody at the state checking a pharmacy invoice against what the pill inside actually was.
+
+Randall pleaded guilty to health care fraud in April 2026. On September 9, 2026, U.S. District Judge Mark C. Scarsi sentenced him to 30 years in federal prison and ordered him to pay $178,746,556 in restitution — the full amount Medi-Cal actually paid out on the fraudulent claims. "This defendant took advantage of California's weak systems allowing him to submit $270 million in fraudulent claims to Medi-Cal in less than a year," First Assistant U.S. Attorney Bill Essayli said in announcing the sentence. Investigators seized more than $17 million from Randall's bank accounts along with three vehicles, seven properties, and a collection of sports memorabilia that included Mickey Mantle and Jackie Robinson baseball cards and a pair of Kobe Bryant sneakers — the physical trail of where eleven months of fraudulent pharmacy billing actually went. Mekail pleaded guilty in August 2024 and awaited sentencing as of Randall's case; Anderson's charges remained pending.
+
+The Monte Vista Pharmacy case is a reminder that Medicaid fraud doesn't need a fake clinic, a phantom patient roster, or a sophisticated kickback network to move enormous sums — it can run through something as mundane as a neighborhood pharmacy's drug-selection choices, once the one control designed to catch it, prior authorization, is temporarily switched off and nobody is watching what fills the gap.`,
+  },
+);
+
+NotoriousNS.push(
+  {
+    title: 'Roger Roger and the Costa Rica Call Center That Sold Fake Government Sweepstakes to American Seniors',
+    slug: 'roger-roger-costa-rica-telemarketing-sweepstakes-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/opa/pr/costa-rica-resident-sentenced-orchestrating-multimillion-dollar-international-telemarketing',
+    // no rights-cleared photo found — sourceUrl above serves as the "read the full story" link
+    body: `Roger Roger ran a telemarketing operation out of a call center in Costa Rica that spent years working a single trick on hundreds of victims in the United States: co-conspirators called claiming to be U.S. government officials, told the person on the line they had won a substantial sweepstakes prize, and then explained that a series of up-front payments — framed as taxes, fees, or processing costs — had to be paid before any of the winnings could be released. Many of the victims were elderly, chosen for exactly the trust in official-sounding callers that the scheme depended on.
+
+To make the calls convincing, Roger's operation used Voice over Internet Protocol technology to spoof caller ID so that calls placed from a room in Costa Rica appeared to be coming from Washington, D.C., or other U.S. locations — the same infrastructure a real federal agency's switchboard might use, borrowed to sell a prize that didn't exist. Evidence presented at trial showed that Roger and his co-conspirators took more than $4 million from their victims through the scheme before investigators caught up with the operation and extradited him from Costa Rica to face charges in February 2023.
+
+In September 2024, a federal jury convicted Roger of one count of conspiracy to commit mail and wire fraud, four counts of wire fraud, one count of conspiracy to commit international money laundering, and two counts of international money laundering. He was sentenced in the Western District of North Carolina to more than 15 years in federal prison, and ordered to pay more than $3.3 million in restitution and forfeit more than $4.2 million in proceeds tied to the scheme. Acting Assistant Attorney General Matthew R. Galeotti and U.S. Attorney Russ Ferguson announced the sentence, crediting IRS Criminal Investigation, the U.S. Postal Inspection Service, and the FBI with unwinding an operation built specifically to look, sound, and route like it was calling from inside the U.S. government.
+
+Roger's case is a reminder that a call center's physical address is no obstacle to reaching an American living room: with spoofed caller ID and a script built around a government agency's authority rather than a stranger's, distance and jurisdiction stopped mattering the moment a victim picked up the phone believing Washington, D.C. was actually on the other end of the line.`,
+  },
+);
