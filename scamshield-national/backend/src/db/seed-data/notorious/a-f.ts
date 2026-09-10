@@ -6273,3 +6273,37 @@ Cassells pleaded guilty in June 2024 in the Southern District of Texas to one co
 The case is a reminder that a Medicare fraud scheme built on paper — a brace, a signature, a billing code — doesn't need a single elaborate lie to work, only a lot of small, boring ones repeated enough times: an enrollment form with the wrong name on it, a doctor's order bought rather than written, and a kickback that never has to look like a kickback as long as an invoice calls it "marketing."`,
   },
 );
+NotoriousAF.push(
+  {
+    title: 'Zishan Alvi and the Chicago Lab That Billed $14 Million for COVID Tests It Never Ran',
+    slug: 'zishan-alvi-chicago-covid-testing-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/opa/pr/chicago-lab-owner-sentenced-seven-years-prison-connection-14m-covid-19-fraud-scheme',
+    // no rights-cleared photo found — sourceUrl above serves as the "read the full story" link
+    body: `Zishan Alvi, 46, of Inverness, Illinois, owned and operated a Chicago laboratory that offered COVID-19 testing during 2021 and 2022, at the height of federal reimbursement programs built to make testing free and fast for anyone who needed it. Under the Health Resources and Services Administration's uninsured testing program, providers submitted a claim for each test performed and got paid without the patient ever seeing a bill — a system built entirely on trust between the lab and the federal government paying it. Alvi's lab took that trust and inverted it: prosecutors said the lab routinely told patients they had tested negative for COVID-19 even when no test had actually been run on their sample, or when the sample had produced an inconclusive result because Alvi had diluted testing reagents to cut his own costs, rendering whatever result the lab did generate meaningless.
+
+Alvi knew exactly what his lab was telling patients and billing the government for, according to the Justice Department — he was the one who caused it to submit claims for tests that were never performed or that had produced no reliable result at all, and he lied to his own laboratory directors to keep the operation running without their objection. On the strength of those fraudulent claims, HRSA paid Alvi's laboratory more than $14 million for testing that, for an unknown share of the patients who relied on it, may have delivered nothing more than a guess dressed up as a lab result — at a moment when an accurate negative result was the only thing standing between someone and the workplaces, schools, and family gatherings a real infection could have spread through.
+
+Alvi pleaded guilty to one count of wire fraud on September 30, 2024, in the Northern District of Illinois. He was sentenced to seven years in federal prison and ordered to pay $14,199,217 in restitution — the full amount HRSA paid out — along with a forfeiture package that included approximately $6.8 million in cash, a 2021 Range Rover HSE, and more than $630,000 seized from an E-Trade brokerage account. The announcement came from Matthew R. Galeotti, head of the Justice Department's Criminal Division, together with U.S. Attorney Andrew S. Boutros for the Northern District of Illinois, the FBI's Chicago Field Office, and the Department of Health and Human Services' Office of Inspector General, whose agents built the case.
+
+The scheme is a reminder that pandemic-era testing fraud didn't require inventing a treatment or a cure — it only required a lab willing to tell people what they wanted to hear. A diluted reagent and a fabricated "negative" cost the government the same $14 million whether or not it also cost a patient the chance to know they were actually contagious.`,
+  },
+);
+NotoriousAF.push(
+  {
+    title: 'Petros Fichidzhyan and the "House of Angels" Sham Hospice Ring That Used Strangers\' Identities to Steal $16 Million',
+    slug: 'petros-fichidzhyan-house-of-angels-hospice-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/opa/pr/four-california-residents-sentenced-prison-connection-16m-hospice-fraud-and-money-laundering',
+    // no rights-cleared photo found — sourceUrl above serves as the "read the full story" link
+    body: `Petros Fichidzhyan, 44, of Granada Hills, California, ran a hospice fraud scheme with a problem most fraudsters never have to solve: he needed to appear, on paper, to own several hospice companies at once, without any of them being traceable back to him. Fichidzhyan and co-defendants Juan Carlos Esparza and Karpis Srapyan solved it by using the names and personal identifying information of foreign nationals as straw owners — people who never set foot in the businesses but whose identities were used to open bank accounts, submit enrollment paperwork to Medicare, sign property leases, and hold cell phone accounts used to run the scheme. Esparza's name did appear on one of the four sham hospices, House of Angels Hospice, but the arrangement let the group operate multiple shell hospices simultaneously while keeping investigators guessing about who was actually in charge.
+
+From July 2019 to January 2023, the four hospices billed Medicare for hospice care that court documents describe as medically unnecessary and, in many instances, never provided at all — care that Medicare's hospice benefit is supposed to reserve for patients in their final six months of life. In total, Medicare paid the sham hospices nearly $16 million. Rather than simply banking the proceeds, Fichidzhyan, Esparza, and Srapyan worked with two additional co-defendants, Susanna Harutyunyan and Mihran Panosyan, to launder the money — maintaining fraudulent identification documents in the names of the purported foreign owners, along with matching bank documents, checkbooks, and credit and debit cards, then moving the funds between shell-company bank accounts and other assets to obscure where it had actually come from.
+
+Fichidzhyan pleaded guilty in February 2025 to health care fraud, aggravated identity theft, and concealment money laundering, and in May 2025 was sentenced to 12 years in federal prison and ordered to pay $17,129,060 in restitution — the largest restitution figure among the five defendants. His co-conspirators were sentenced across the following months: Srapyan and Esparza each received 57 months, Panosyan 57 months, and Harutyunyan 15 months, with individual restitution amounts ranging from roughly $1.8 million to $4.7 million. At sentencing, the court preliminarily ordered forfeiture of two homes purchased with fraud proceeds, and the government separately seized more than $2.9 million from bank accounts tied to the scheme.
+
+The House of Angels case is a reminder that a hospice fraud ring's biggest vulnerability isn't usually the billing — it's the ownership trail. By borrowing the identities of foreign nationals who had no idea their names were on a Medicare enrollment form, Fichidzhyan and his co-conspirators built a layer of deniability between themselves and four companies collecting from a program meant for the dying, a layer that took a five-defendant federal money laundering case to finally strip away.`,
+  },
+);

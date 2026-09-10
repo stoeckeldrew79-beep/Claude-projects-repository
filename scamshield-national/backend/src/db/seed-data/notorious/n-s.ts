@@ -4335,3 +4335,21 @@ In September 2024, a federal jury convicted Roger of one count of conspiracy to 
 Roger's case is a reminder that a call center's physical address is no obstacle to reaching an American living room: with spoofed caller ID and a script built around a government agency's authority rather than a stranger's, distance and jurisdiction stopped mattering the moment a victim picked up the phone believing Washington, D.C. was actually on the other end of the line.`,
   },
 );
+
+NotoriousNS.push(
+  {
+    title: 'Robert "Bobby" Leon Smith III and the $61.5 Million Telemarketing Ring That Called Orders "Trash" and "Junk"',
+    slug: 'robert-bobby-leon-smith-telemarketing-dme-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/opa/pr/texas-fugitive-apprehended-and-sentenced-over-12-years-prison-61m-telemarketing-fraud-scheme',
+    // no rights-cleared photo found — sourceUrl above serves as the "read the full story" link
+    body: `Robert "Bobby" Leon Smith III, 50, of Archer City, Texas, built a Medicare fraud operation on two sides of the same business: he owned seven durable medical equipment (DME) supply companies across Florida, Texas, and Maryland that submitted claims for orthotic braces and foot baths, and he separately owned a Texas marketing company that ran the deceptive telemarketing campaigns feeding those claims. Working with an offshore call center in the Philippines, Smith's operation pushed medically unnecessary orthotic braces, foot baths, and genetic tests on Medicare beneficiaries nationwide, and prosecutors played audio recordings at trial of Smith personally pressuring beneficiaries into accepting the products even after they said, directly, that they didn't need or want them.
+
+The doctors' orders that made each claim look legitimate were, by Smith's own recorded words, treated as inventory rather than medical judgment. He obtained the orders by paying kickbacks and bribes to illegitimate telemedicine companies, then resold them to other medical suppliers he knew would use them to bill Medicare — and when an order couldn't be resold, jurors heard Smith complaining on tape and calling it "trash" and "junk." His former business partner testified that when the supply of real doctors' signatures ran short, the operation moved to using "fake" orders bearing forged signatures of physicians who had never seen the patients or agreed to anything. Altogether, the scheme generated $61.5 million in false claims to Medicare.
+
+After a four-day jury trial, Smith pleaded guilty in March 2025 to conspiracy to commit health care fraud and wire fraud, and to health care fraud. He then failed to appear for his own sentencing, disappearing for more than a month before the U.S. Marshals Service tracked him down and took him into custody. Once returned to court, he was sentenced to 150 months — 12.5 years — in federal prison, plus two years of supervised release, and ordered to pay $30,158,608.25 in restitution and forfeit $9,215,225 along with real estate he owned in Texas. The case was announced by Assistant Attorney General A. Tysen Duva of the Justice Department's Criminal Division, HHS-OIG Acting Deputy Inspector General for Investigations Scott J. Lampert, and FBI Miami Field Office Special Agent in Charge Brett Skiles, and was prosecuted as part of the Health Care Fraud Strike Force Program, which has charged more than 6,200 defendants nationwide since 2007.
+
+Smith's case shows how far a telemarketing fraud ring can stretch a single doctor's signature — routing it from an offshore call center to a shell telemedicine company to a supply company to a Medicare claim — and how little that distance protects the person running it once investigators have the recordings of him complaining that a stolen signature wasn't worth reselling.`,
+  },
+);
