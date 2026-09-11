@@ -4781,3 +4781,20 @@ Hassan and Yusuf were charged by indictment with conspiracy to commit health car
 The alleged scheme is a reminder that Medicaid fraud against a program serving children with disabilities can be structured the same way as any other kickback-driven billing scheme — the "product" changes from meals or medical equipment to autism therapy sessions, but the mechanics of paying families or intermediaries to generate billable enrollments, and billing for services that were shortened, unnecessary, or never delivered at all, recur across program after program precisely because the underlying incentive is identical: more enrolled beneficiaries and more billed hours mean more revenue, regardless of whether a child's actual course of treatment calls for it.`,
   },
 );
+
+NotoriousNS.push(
+  {
+    title: 'Anomah Ndonwi and the Fake Puppies, Horses, and Meat Shipments Behind a $930,000 Fraud',
+    slug: 'anomah-ndonwi-pet-selling-fraud-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-md/pr/maryland-man-sentenced-connection-pet-selling-fraud-scheme',
+    body: `Anomah Ndonwi, 32, of Chillum, Maryland, ran a fraud built on a category of purchase that is uniquely hard to inspect before paying: an animal, or a shipment of meat, that a buyer has only ever seen in a photo. Between September 2019 and December 2022, according to the U.S. Attorney's Office for the District of Maryland, Ndonwi and his co-conspirators advertised dogs, horses, and other pets for sale through fraudulent websites, collecting payment through wire transfers and electronic payment apps from buyers across the country who never received an animal or a refund. A parallel version of the scheme targeted businesses rather than individual pet buyers, advertising meat and other agricultural products for sale to buyers overseas who paid for shipments that never arrived.
+
+What let the scheme keep operating for more than three years, prosecutors say, was Ndonwi's ability to move money without his own name attached to it. He obtained fraudulent Cameroonian passports bearing his own photograph under different identities, and used at least twelve of them to open bank accounts in Maryland — part of a network of at least fourteen accounts in total that received and dispersed the proceeds of the fraud, making it harder for banks, payment platforms, and investigators to connect any single account to a pattern of complaints. In total, the scheme took in more than $930,000 from at least ten identified victims.
+
+Ndonwi pleaded guilty to conspiracy to commit wire fraud, and on July 24, 2025, U.S. District Judge Theodore D. Chuang sentenced him to 30 months in federal prison, to be followed by three years of supervised release. The case was investigated by the U.S. Department of State's Diplomatic Security Service, reflecting the scheme's international reach into buyers and false identity documents connected to Cameroon, and was announced by then-U.S. Attorney for the District of Maryland Kelly O. Hayes.
+
+Online pet sales are a well-documented soft spot in ordinary consumer fraud protections: a puppy cannot be inspected before a wire transfer clears, a "seller" can vanish the moment payment lands, and a heartfelt story about a specific breed or a specific horse creates urgency that discourages the buyer from asking basic questions a legitimate breeder or seller would happily answer — a video call with the actual animal, a local pickup option, or payment through a platform that offers buyer protection instead of an irreversible wire or app transfer. The FTC and Better Business Bureau both maintain ongoing pet-scam advisories for exactly this reason: it remains one of the most commonly reported online purchase scams in the country.`,
+  },
+);
