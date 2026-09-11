@@ -7099,3 +7099,20 @@ A federal grand jury in the Northern District of Texas indicted Moran on ten cou
 Precious-metals fraud aimed at retirees follows a durable pattern: it doesn't ask a victim to hand over cash to a stranger's bank account so much as talk them into converting a liquid, easily verified retirement balance into a physical asset whose fair price is much harder for a layperson to check and whose delivery, as these cases allege, isn't always guaranteed at all. A legitimate precious-metals dealer will disclose its markup over spot price in writing before a purchase, not after a sale has already emptied a retirement account.`,
   },
 );
+NotoriousGM.push(
+  {
+    title: 'Joshua Bellamy and the PPP Loan a Former NFL Receiver Spent on Designer Clothes and a Casino Trip',
+    slug: 'joshua-bellamy-nfl-ppp-loan-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-sdfl/pr/former-nfl-player-sentenced-federal-prison-covid-19-relief-fraud',
+    // representative photo — replace with a portrait if found
+    body: `Joshua Bellamy spent eight seasons in the NFL as a wide receiver for the Kansas City Chiefs, Chicago Bears, Washington Football Team, and New York Jets. By the spring of 2020, he was no longer on an active roster, and when Congress created the Paycheck Protection Program to keep small businesses and their employees afloat during the COVID-19 shutdowns, Bellamy turned to a company he controlled, Drip Entertainment LLC, to apply.
+
+According to the U.S. Attorney's Office for the Southern District of Florida, Drip Entertainment had few if any employees and little legitimate payroll to protect — but Bellamy's application, prosecutors said, claimed otherwise, and the loan was approved for $1.2 million. Rather than using the money to cover wages, as PPP loans required, prosecutors said Bellamy spent it on himself: more than $104,000 at luxury retailers including Dior and Gucci and at high-end jewelers, more than $62,000 during a trip to the Seminole Hard Rock Hotel & Casino, and more than $302,000 in cash withdrawals. He also paid roughly $311,000 to a co-conspirator, James Stote, prosecutors said, as a kickback for help preparing and submitting the fraudulent application. A separate defendant charged in a related PPP fraud, Yashica Bain of Miramar, Florida, was accused of using falsified payroll documents to fraudulently obtain a $415,232 PPP loan for a company called Microblading Brow Studio LLC and funneling personal expenses through it as though they were payroll.
+
+Bellamy pleaded guilty in June 2021 to conspiracy to commit wire fraud. He was sentenced to 37 months — just over three years — in federal prison, along with three years of supervised release, and was ordered to pay $1,246,565 in restitution and forfeiture, matching the loan amount he had fraudulently obtained. Bain was separately sentenced to 24 months in prison and ordered to pay $415,232 in restitution and forfeiture on her own PPP fraud charge.
+
+Bellamy's case was one of a wave of PPP fraud prosecutions in which a program built for speed — designed to get emergency money to small businesses within days rather than the weeks a normal underwriting process would take — became an easy target for anyone willing to overstate a payroll that barely existed. The Small Business Administration and its lenders approved loans based largely on the applicant's own certifications rather than verified payroll records, a tradeoff that got money to legitimate businesses quickly but also let a defunct entertainment LLC walk away with over a million dollars in emergency relief funds that never reached a single employee's paycheck.`,
+  },
+);
