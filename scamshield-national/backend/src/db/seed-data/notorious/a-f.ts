@@ -4031,7 +4031,9 @@ Contemporary accounts estimated Price had swindled roughly £200,000 from the Ba
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://en.wikipedia.org/wiki/Dan_Tan',
-    // no rights-cleared photo found — sourceUrl above serves as the "read the full story" link
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Supreme_Court_Building_behind_Parliament_House,_Singapore_-_20100803.jpg?width=1200',
+    coverImageCredit: 'Supreme Court Building, Singapore, by Smuconlaw (CC BY-SA 3.0, Wikimedia Commons)',
     body: `Tan Seet Eng, known internationally as Dan Tan, is a Singaporean businessman who never completed secondary school but rose, according to years of investigation by Interpol, Europol and prosecutors across three continents, to become the alleged mastermind of what officials repeatedly described as the world's largest and most aggressive football match-fixing syndicate. Unlike the operatives who traveled the world bribing players and referees on his network's behalf, Tan was said to run the operation from a comfortable distance in Singapore — and, remarkably, has never been convicted of a single match-fixing offense anywhere.
 
 Tan's history with sports betting predates the syndicate that made him infamous. In the early 1990s he served under a year in jail for illegal horse-racing and football bookmaking, and in 1994 he fled Singapore after losing an estimated $1.5 million on World Cup betting, later returning to repay the debt in installments. By the early 2010s he was a director of Singapore-registered companies, including one called Exclusive Sports Pte Ltd, that investigators would later allege served as fronts for a fixing operation stretching from Asia into Europe, Africa and Latin America.
