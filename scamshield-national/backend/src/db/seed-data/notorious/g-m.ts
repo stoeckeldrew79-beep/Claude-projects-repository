@@ -7087,7 +7087,10 @@ NotoriousGM.push(
     author: 'ScamShield Editorial',
     tags: ['notorious'],
     sourceUrl: 'https://www.justice.gov/usao-ndtx/pr/dallas-man-federally-indicted-his-role-alleged-precious-metals-scam-targeting-elderly',
-    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Dallas_City_Hall_1.jpg?width=1200',
+    coverImageCredit: 'Photo: Loadmaster (David R. Tribble), CC BY-SA 3.0, via Wikimedia Commons — Dallas City Hall, in the city where Moran\'s companies operated',
+    coverImagePosition: 50,
+    // representative photo — Dallas city hall, not a portrait; replace with a portrait if found
     body: `Note: The allegations below come from a federal grand jury indictment. Damien Moran has not been convicted of any crime, and the case remains pending as of this writing — nothing here should be read as an established finding of guilt.
 
 Damien Moran, 36, of the Dallas area, allegedly owned and operated several companies — including Bright Future Financial LLC, doing business as Oakhurst Metals, and Crown Bullion, Inc. — that pitched retirement-age customers on moving their savings into physical gold and silver. According to a federal indictment and a related civil action brought by the Commodity Futures Trading Commission and dozens of state regulators, the sales pitch relied on the same appeal precious-metals fraud has used for decades: gold and silver as a hedge against a volatile stock market and a currency losing value, sold as a safer place than a 401(k) or IRA for a retiree's nest egg.
