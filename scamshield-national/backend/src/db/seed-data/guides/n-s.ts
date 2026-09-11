@@ -3396,6 +3396,9 @@ New York's Division of Consumer Protection and Acting Superintendent of Financia
     slug: "pih-health-2024-ransomware-data-breach-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "pih-health-2024-data-breach"],
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/PIH_Health_Downey_Hospital.jpg?width=1200",
+    coverImageCredit: "Photo: Eric Staudenmaier, via PIH Health / Wikimedia Commons, CC BY-SA 4.0 — PIH Health's Downey Hospital campus",
+    coverImagePosition: 50,
     sourceUrl: "https://www.hipaajournal.com/pih-health-data-breach-ransomware/",
     body: `PIH Health, a nonprofit healthcare network that runs Downey Hospital, Good Samaritan Hospital, and Whittier Hospital along with urgent care clinics, home health and hospice services, and physicians' offices across Orange County and the San Gabriel Valley in California, detected a ransomware attack on its network on December 1, 2024. A forensic investigation later traced the intruder's actual access back further, finding the attacker had been inside PIH Health's systems from November 14 through December 23, 2024 — meaning the ransomware deployment that got noticed was the tail end of a five-week intrusion, not the start of one. No ransomware gang publicly claimed responsibility or listed PIH Health on a dark-web leak site, which is itself unusual for a breach this size and means outside researchers have had little independent way to verify exactly what was taken beyond what the health system itself has confirmed.
 
