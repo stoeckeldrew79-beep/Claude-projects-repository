@@ -6806,3 +6806,20 @@ GWG filed for Chapter 11 bankruptcy in April 2022, leaving tens of thousands of 
 Heppner's case is a reminder that a merger between two companies the same person controls on both sides of the table is exactly the kind of transaction that deserves the most scrutiny, not the least — GWG's board authorized transfers based on a debt obligation that prosecutors say Heppner invented out of a shell partnership he ran, and it took a federal investigation, rather than the audit process meant to catch exactly this kind of related-party self-dealing, to establish that the $141 million Beneficient supposedly owed HCLP was never a real debt at all.`,
   },
 );
+NotoriousAF.push(
+  {
+    title: 'Thomas Doyle: The Recidivist Art Fraudster Who Sold a Client\'s Own Courbet Out From Under Him',
+    slug: 'thomas-doyle-courbet-painting-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-sdny/pr/recidivist-fraudster-pleads-guilty-stealing-gustave-courbet-painting',
+    // representative photo — replace with a portrait if found
+    body: `Thomas Doyle was already a convicted art fraudster by the time he approached a New York art dealer in 2022 with an offer to help sell one of the dealer's paintings. The work in question was "Mother and Child on a Hammock," a canvas by the 19th-century French Realist master Gustave Courbet, and Doyle's pitch was simple: he knew a buyer, and he could arrange the sale. It was almost exactly the kind of transaction that had already sent him to prison once before — in 2011, Doyle was convicted in the same federal district, the Southern District of New York, of a separate art-related fraud.
+
+According to prosecutors, the dealer agreed in June 2024 to let Doyle take physical custody of the Courbet so a potential buyer could view it in person, and authorized him to sell it on the dealer's behalf for $550,000. Doyle did find a buyer — but rather than complete that sale and remit the proceeds, prosecutors say he had an associate quietly consign the painting to a Manhattan gallery instead, and by early August 2024 falsely told the dealer the $550,000 sale had already gone through. In reality, prosecutors said, Doyle never turned over the money, having redirected the painting and the transaction away from the dealer who had trusted him with it. The alleged scheme is described in court filings as running from around December 2022 through March 2025.
+
+Doyle was arrested and charged by criminal complaint in the Southern District of New York, and on June 25, 2026, pleaded guilty before U.S. District Judge Arun Subramanian to one count of wire fraud, which carries a statutory maximum of 20 years in prison. He is scheduled to be sentenced on November 9, 2026; as of this writing, no sentence has been imposed. A separate civil lawsuit filed by the Matthiesen Gallery over the same painting, naming Doyle, the Jill Newhouse Gallery, and collector Jon Landau — the longtime manager of musician Bruce Springsteen, who had been a prospective buyer connected to the transaction — remains pending in parallel with the criminal case.
+
+Doyle's case is a reminder that a prior fraud conviction doesn't disqualify someone from being trusted with a six-figure painting a second time, if the person extending that trust never checks. The art market runs heavily on personal relationships and reputational shorthand rather than routine background checks on who is actually handling a consigned work, which is precisely the gap a repeat offender with a plausible manner and real connections in the gallery world can walk through more than once.`,
+  },
+);
