@@ -8053,6 +8053,10 @@ NotoriousGM.push(
     slug: 'marlon-quan-acorn-capital-petters-feeder-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/01_19_22_Warren_E._Burger_Federal_Building,_St._Paul_(51833331800).jpg?width=1200',
+    coverImageCredit: 'Photo: Chad Davis, CC BY 2.0, via Wikimedia Commons — the Warren E. Burger Federal Building in St. Paul, home of the U.S. District Court for the District of Minnesota, where a jury found Quan liable for securities fraud',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-23093',
     body: `Marlon Quan ran a group of hedge funds — Stewardship Investment Advisors (SIA), Acorn Capital Group, and an affiliated entity called ACG II — that raised hundreds of millions of dollars from institutional and individual investors with a pitch built on safety. The money, investors were told, would be lent to Thomas Petters' company under a "purchase order financing" arrangement, secured by real transactions in which Petters' firm supposedly bought consumer electronics wholesale and resold them to major retailers like Walmart and Costco, with investor funds protected in "lock box" accounts that would only release cash once a matching sale was confirmed.
 
