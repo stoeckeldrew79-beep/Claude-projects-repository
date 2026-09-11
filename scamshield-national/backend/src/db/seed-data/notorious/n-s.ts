@@ -4071,6 +4071,10 @@ NotoriousNS.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
     sourceUrl: 'https://www.justice.gov/usao-sdfl/pr/miami-man-sentenced-more-19-years-prison-40-million-investment-ponzi-scheme',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/James_Lawrence_King_Federal_Justice_Building.jpg?width=1200',
+    coverImageCredit: 'Cielbie, CC BY-SA 3.0, via Wikimedia Commons',
+    coverImagePosition: 50,
     body: `Pablo Silverio Rebollido built E-Card Lending LLC and E-Card Merchant LLC, both based in Miami, around a business model that sounds mundane by design: merchant cash advances, in which a company gets a lump sum of cash upfront in exchange for a cut of its future credit card sales or daily bank deposits. It's a real and common form of small-business financing — which is exactly what made it convincing cover for a fraud that prosecutors say ran for nearly five years.
 
 According to the U.S. Attorney's Office for the Southern District of Florida, Rebollido solicited money from investors between August 2019 and February 2024 by telling them their funds would be used to finance E-Card's merchant cash advances to small and medium-sized businesses, in exchange for a promised return. In reality, prosecutors said, E-Card had no actual clients and wasn't funding merchant cash advances at anywhere near the scale Rebollido described. Instead, he used incoming investor money to pay "returns" to earlier investors — the defining structure of a Ponzi scheme — while diverting a substantial share to finance his own lifestyle.
