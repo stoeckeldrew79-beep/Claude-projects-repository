@@ -5744,3 +5744,17 @@ UsNS.push({
     isHistorical: true,
     firstRecorded: '2026-08-20',
 });
+
+UsNS.push({
+    name: 'Philadelphia PennDOT Tag-Agent Vehicle Title-Washing Ring (Adam Richardson)',
+    slug: 'pennsylvania-richardson-penndot-title-washing-ring',
+    description: `Adam K. Richardson, 40, of Philadelphia, worked as an authorized PennDOT tag agent — a private business licensed to process vehicle titles and registrations on the state's behalf — and used that access to run what the Pennsylvania Attorney General's office calls a title-washing operation for stolen luxury cars. According to charges filed by Attorney General Dave Sunday and the Pennsylvania State Police, Richardson submitted falsified paperwork through his tag-agent authority to issue clean Pennsylvania titles for stolen vehicles, erasing any trace that they had ever been reported stolen, in exchange for a fee paid by the people reselling them. Investigators tie the ring to 65 stolen vehicles worth nearly $3.8 million, including a roughly $250,000 Ferrari along with Mercedes-Benzes, BMWs, and Cadillacs; about 40 have been recovered so far. "The scope and harm from this criminal enterprise went beyond cutting corners," Sunday said. "Many of these vehicles were sold to individuals who knew they were stolen" — but the laundered titles also mean an unsuspecting buyer further down the resale chain could unknowingly purchase a stolen vehicle with paperwork that looks completely clean. Richardson was arraigned on corrupt-organizations, title-washing, forgery, and dealing-in-proceeds-of-unlawful-activity charges and denied bail. Anyone buying a used luxury vehicle, especially in a private-party sale priced below market, is advised to run the VIN through NMVTIS or a similar stolen-vehicle and title-history database before paying, rather than relying on the title alone.`,
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'high',
+    sources: ['Pennsylvania Office of Attorney General', 'Pennsylvania State Police'],
+    sourceUrl: 'https://www.attorneygeneral.gov/taking-action/ag-sunday-pa-state-police-charge-philadelphia-man-in-vehicle-title-washing-scheme-involving-3-8m-in-stolen-luxury-vehicles/',
+    country: 'US',
+    state: 'PA',
+    isHistorical: true,
+    firstRecorded: '2026-03-16',
+});
