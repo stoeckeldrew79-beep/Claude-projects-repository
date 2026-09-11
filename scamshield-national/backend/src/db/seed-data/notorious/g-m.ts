@@ -8469,3 +8469,15 @@ NotoriousGM.push(
     sourceUrl: "https://www.justice.gov/usao-edmi/pr/last-eight-defendants-sentenced-77-million-pandemic-fraud-scheme",
   },
 );
+
+NotoriousGM.push(
+  {
+    title: "Kimberly Goodwin and the AFGE Local 2419 Union Embezzlement Scheme",
+    slug: "kimberly-goodwin-afge-local-2419-embezzlement",
+    author: "ScamShield Editorial",
+    tags: ["notorious", "notorious-scammer"],
+    body:
+      "Kimberly Goodwin led American Federation of Government Employees Local 2419, a union representing federal employees in the Washington, D.C. area, as its president from January 2017 to August 2019. During her tenure, the union settled a series of grievance lawsuits against the National Institutes of Health on behalf of its members, and NIH paid roughly $1 million into the local's bank account to resolve them — money that belonged to the union and, by extension, to the dues-paying members it represented.\n\nGoodwin never gave up her signatory authority over that account, even after her presidency ended in August 2019. According to federal prosecutors, she used that continued access between 2019 and 2022 to move approximately $1 million out of the union's account and into a consulting company she owned, through a series of bank and wire transfers and cash withdrawals, for services her company either never performed or billed at values far exceeding whatever work was actually done. While she controlled the account, prosecutors said, she also spent union money directly on personal purchases, including a $7,400 massage chair.\n\nA federal jury in Greenbelt, Maryland convicted Goodwin, 54, of Bowie, Maryland, on August 31, 2026, of one count of wire fraud conspiracy and eight counts of money laundering. Her co-conspirator, Kelleigh Williams, the local's secretary-treasurer, had already been convicted in 2025 of wire fraud conspiracy for her part in the scheme. By the time the fraud came to light, AFGE Local 2419 had run out of money and entered receivership in 2022, leaving the members whose own grievance settlements had funded the account without the union apparatus that money was meant to support. \"Goodwin was a union leader entrusted to safeguard finances and represent the interests of dues-paying members, but instead led a scheme to steal from them,\" said Assistant Attorney General A. Tysen Duva in announcing the conviction.\n\nA labor union runs on a version of the trust any membership organization depends on: officers control shared funds on behalf of people who mostly aren't positioned to audit every transaction themselves. Goodwin's scheme relied on one narrow, easily overlooked gap in that system — a former president who retained bank-account signatory authority long after the position that justified it had ended — paired with a consulting arrangement routed to her own company, exactly the kind of related-party transaction an internal financial control is supposed to catch before the money moves, not after it's gone.",
+    sourceUrl: "https://www.justice.gov/opa/pr/maryland-union-leader-convicted-defrauding-union-enrich-herself",
+  },
+);
