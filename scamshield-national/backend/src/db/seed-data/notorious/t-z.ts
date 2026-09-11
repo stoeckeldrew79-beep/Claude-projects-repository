@@ -1603,6 +1603,10 @@ NotoriousTZ.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.cbc.ca/news/canada/montreal/cinar-sentencing-1.3647161',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Palais_de_Justice_de_Montreal_05.jpg?width=1200',
+    coverImageCredit: 'Photo: Jean Gagnon, Wikimedia Commons (CC BY-SA 3.0) — the Palais de justice de Montréal, where Ronald Weinberg was tried in the Cinar fraud case',
+    coverImagePosition: 50,
     body: `Ronald Weinberg and his wife, Micheline Charest, founded Cinar as a small film and television distribution company in 1976 and rebuilt it in Montreal in 1984 as a children's animation studio. Over the following decade and a half, Cinar became one of Canada's biggest entertainment-industry success stories, producing or co-producing beloved children's shows including "Arthur," "Caillou," "The Busy World of Richard Scarry," and "Wimzie's House," and trading publicly on both the Toronto and Nasdaq exchanges. Behind that reputation, Weinberg and Charest were running two separate frauds that would eventually be investigated, and punished, in two very different ways.
 
 The first scheme exploited Canadian content rules. To qualify for lucrative federal and provincial tax credits reserved for shows written and produced by Canadians, Cinar needed its scripts credited to Canadian writers — so, prosecutors and regulators later found, the company put the names of Canadian citizens who hadn't actually written the material on scripts that American writers had produced, including using a pseudonym, "Eric Alexandre," assembled from the names of Charest's sister and the couple's own sons. When the practice surfaced around 1999-2000, Quebec's securities regulator investigated, and in 2002 Weinberg and Charest each agreed to pay C$1 million in penalties and accepted five-year bans from serving as officers or directors of any Canadian public company, without admitting wrongdoing — a civil settlement, not a criminal conviction.
