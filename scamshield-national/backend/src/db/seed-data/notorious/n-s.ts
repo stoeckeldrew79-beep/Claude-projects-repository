@@ -4650,3 +4650,20 @@ The FCA charged Pugh on July 18, 2023, and on October 6, 2025, he was sentenced 
 Pugh's case is a useful corrective to the idea that a Ponzi scheme needs a Wall Street address, a call center, or even a company beyond a name and a bank account to take real money from real people: a bedroom, a Facebook ad account, and a numerically specific but mathematically impossible daily return were enough to pull in £1.3 million from 238 people who, like most victims of these schemes, had no way to verify that only a fifth of their money was ever actually invested until regulators did the digging for them.`,
   },
 );
+NotoriousNS.push(
+  {
+    title: 'Stanley Pophal and the $14.25 Million "Bright with Silver" Scheme That Bought Hundreds of Snowmobiles',
+    slug: 'stanley-pophal-bright-with-silver-wisconsin-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-wdwi/pr/wausau-man-pleads-guilty-wire-fraud-and-money-laundering',
+    // representative photo — replace with a portrait if found
+    body: `Stanley Pophal, 64, of Wausau, Wisconsin, ran an investment operation out of a business he called Bright with Silver, Inc. — formerly known as Fromm Bros., Inc. — that promised investors guaranteed returns of at least 20 percent through promissory notes. Between May 2019 and June 2025, according to the U.S. Attorney's Office for the Western District of Wisconsin, Pophal pitched investors on a rotating menu of ventures that changed with whatever seemed to be generating buzz at the time: cryptocurrency, real estate flipping, artificial intelligence technology, and gold, silver, and emerald trading among them. He told investors his own substantial personal wealth stood behind the notes, guaranteeing their principal against any risk of loss.
+
+None of it, prosecutors said, was real in the way Pophal described it. There was no diversified, professionally managed investment engine behind Bright with Silver generating the returns he promised; instead, the operation ran on new investors' money to pay the guaranteed returns owed to earlier ones — the same structural mechanism that has powered every Ponzi scheme since Charles Ponzi's own postal-coupon scam a century earlier. Over the six years the scheme ran, Pophal took in $14.25 million from 190 investors. Rather than reinvesting the money as promised, he spent it financing a personal collection that eventually numbered more than 600 seized items — hundreds of snowmobiles and motorcycles among them, along with other vehicles — auctioned off online in July 2026 as investigators worked to recover something for his victims. "He spent them financing a lifestyle he could not afford and kept the scheme alive by using new victims' money to make payments to earlier investors," IRS Criminal Investigation Special Agent Adam Jobes said of Pophal's spending.
+
+Pophal pleaded guilty in April 2026 to wire fraud and money laundering. On September 9, 2026, U.S. District Judge William M. Conley sentenced him to eight years in federal prison and ordered him to pay $14.25 million in restitution — the full amount investigators calculated he had taken from his victims.
+
+Pophal's case is a reminder that a "guarantee" backed by nothing more than one person's claimed personal wealth is not a guarantee at all — it is a promise with no collateral behind it beyond the fraudster's own word, and the rotating cast of trendy-sounding ventures he cited (crypto one year, AI the next) was less a diversified strategy than a moving target designed to keep pace with whatever investors were most likely to find plausible at the moment they were asked to write a check.`,
+  },
+);
