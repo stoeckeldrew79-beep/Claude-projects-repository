@@ -2831,3 +2831,15 @@ UsTZ.push({
     country: 'US',
     state: 'TX',
 });
+
+UsTZ.push({
+    name: 'Homeaglow "Dazzling Cleaning" $19 Promo Membership Trap',
+    slug: 'washington-homeaglow-dazzling-cleaning-membership-settlement',
+    description: `Washington Attorney General Nick Brown announced a $2.25 million consent decree on May 21, 2026 with Homeaglow Inc., which operates a home-cleaning marketplace under the name Dazzling Cleaning, over a marketing scheme built around a $19 three-hour cleaning offer. Investigators found the ad was presented as a simple one-time discounted cleaning, but completing checkout actually enrolled the customer in a $59-a-month "ForeverClean" recurring membership, without clearly and conspicuously saying so, and without disclosing an added 5%-to-15% transaction fee charged on every cleaning booked. The membership carried a six-month minimum term, and the state alleged that customers who tried to cancel early were hit with a termination fee equal to the full, undiscounted price of the original $19 cleaning. The Attorney General's office separately alleged Homeaglow inflated its own reputation by suppressing negative reviews on its own site to maintain a 4.8-star average while advertising a five-star Trustpilot rating built on roughly 6,406 reviews, even though Trustpilot's own published data for the company showed an average of just 1.3 stars from about 2,000 reviews. "It's not a legitimate business practice to deceive people into a membership program they didn't know they were joining and have to pay hundreds of dollars to cancel — it's a scam," Brown said in announcing the settlement. Beyond the $2.25 million payment and four years of state monitoring, the consent decree lets any Washington ForeverClean member cancel immediately at no charge, even if still inside the six-month minimum term, and requires Homeaglow to clearly disclose membership terms, fees, and true review ratings going forward. Anyone signing up for a bargain-priced trial service online should look for the word "membership" or "subscription" and a recurring price before completing checkout, screenshot the terms shown at signup, and check a company's rating directly on the review platform's own site rather than trusting a summarized score on the company's own page.`,
+    categorySlug: 'subscription-traps',
+    alertLevel: 'medium',
+    sources: ['Washington State Office of the Attorney General (Nick Brown)'],
+    sourceUrl: 'https://www.atg.wa.gov/news/news-releases/homeaglow-home-cleaning-platform-must-cease-deceptive-and-predatory-practices',
+    country: 'US',
+    state: 'WA',
+});
