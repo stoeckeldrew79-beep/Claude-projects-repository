@@ -5540,3 +5540,17 @@ UsGM.push({
     isHistorical: true,
     firstRecorded: '1964-01-01',
 });
+
+UsGM.push({
+    name: 'DARCARS Honda of Bowie Hidden Fee Settlement',
+    slug: 'maryland-darcars-honda-hidden-fees-scam',
+    description: `DARCARS of Bowie, Inc., doing business as DARCARS Honda, along with parent company Mariam, Inc. and owners John Rahmangholi Darvish and Jamshyd Darvish, charged car buyers an undisclosed "sales commission" fee and quietly folded markups and add-on products into financing paperwork without clearly telling customers what they were actually paying for — in some cases inflating a car's price by thousands of dollars beyond what was advertised. Maryland Attorney General Anthony Brown's Consumer Protection Division found the practices violated the Maryland Consumer Protection Act and announced a settlement on March 5, 2025 requiring the dealership to refund the sales-commission fees and any undisclosed markups or add-ons to affected customers, on top of paying $3 million to the Attorney General's office; the dealership did not admit wrongdoing, with a spokesperson describing the deal as "simply a business decision" made to avoid the cost of litigation. Car buyers are advised to get the full "out-the-door" price in writing before ever discussing financing, ask for an itemized breakdown of every fee and add-on listed separately from the vehicle's price, and decline any charge that isn't clearly explained, since a dealership fee added without a buyer's informed agreement is one Maryland law entitles them to have refunded. Suspected dealership fee abuses can be reported to the Maryland Attorney General's Consumer Protection Division.`,
+    categorySlug: 'insurance-fraud',
+    alertLevel: 'medium',
+    sources: ['Maryland Attorney General (Anthony Brown)'],
+    sourceUrl: 'https://oag.maryland.gov/News/Pages/Attorney-General-Brown-Announces-Settlement-With-DARCARS-Honda-and-its-Owners.aspx',
+    country: 'US',
+    state: 'MD',
+    isHistorical: true,
+    firstRecorded: '2025-03-05',
+});
