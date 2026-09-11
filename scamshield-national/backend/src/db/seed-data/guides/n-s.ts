@@ -3512,6 +3512,10 @@ If you're a current or former PsychPlus patient, start by changing the password 
     slug: "stack-sports-2026-checkout-skimmer-data-breach-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "stack-sports-2026-data-breach"],
+    // representative photo — replace with an exact match if found
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Children_playing_soccer.jpg?width=1200",
+    coverImageCredit: "Photo: Bill Branson, National Cancer Institute / Wikimedia Commons / Public Domain — children playing youth soccer, the kind of league registration Stack Sports processes payments for",
+    coverImagePosition: 50,
     sourceUrl: "https://www.scworld.com/brief/stack-sports-notifies-users-of-payment-card-data-exposure",
     body: `Millions of parents use a Stack Sports product without ever hearing the company's name — it's the technology behind Sports Connect and Sports Affinity, the online registration and payment platforms that a huge share of local youth soccer, baseball, and other recreational leagues rely on to sign kids up for a season and collect the registration fee. That's exactly what makes the breach Stack Sports disclosed in the summer of 2026 worth understanding: the attackers didn't go after a database sitting on a server somewhere, they went after the moment of payment itself.
 
