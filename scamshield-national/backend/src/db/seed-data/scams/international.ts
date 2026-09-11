@@ -11136,6 +11136,18 @@ International.push(
 );
 International.push(
   {
+    name: 'Puerto Rico Fake Banco Popular Account Alert Phishing Email',
+    slug: 'puerto-rico-fake-banco-popular-account-alert-phishing-email',
+    description: `Puerto Rico's Department of Consumer Affairs (DACO) warned on November 9, 2023, about a sophisticated phishing email campaign impersonating Banco Popular de Puerto Rico, the island's largest bank. The emails carry the bank's logo and falsely claim the recipient's account shows irregular electronic transfers, directing them to click a link to "resolve the problem" — a link that leads not to any real Banco Popular page but to a fake form built to harvest the victim's personal and account information for identity theft and further fraud. DACO traced one version of the campaign to a sender address, robert@markmanins.com, that has nothing to do with the bank, one of several signs the message is fraudulent despite its convincing appearance. Interim DACO Secretary Lisoannette González Ruíz said such schemes to defraud consumers "son cada vez más ingeniosos y refinados" ("are increasingly ingenious and refined"), and urged residents to check the actual sending address behind any bank email rather than trusting the display name or logo, to confirm they even hold an account with the bank named before reacting, to verify any claimed account issue directly through the bank's official app or by calling a number printed on a card or statement rather than one in the email, and to report suspicious messages to DACO.`,
+    categorySlug: 'phishing',
+    alertLevel: 'medium',
+    sources: ['Departamento de Asuntos del Consumidor de Puerto Rico (DACO)', 'WIPR'],
+    sourceUrl: 'https://wipr.pr/daco-alerta-de-fraudes-electronicos-vinculados-a-banco-en-puerto-rico/',
+    country: 'PR',
+  },
+);
+International.push(
+  {
     name: 'Cayman Islands Bank Phone Impersonation Fraud',
     slug: 'cayman-islands-bank-phone-impersonation-fraud',
     description: `The Royal Cayman Islands Police Service (RCIPS) said in June 2026 that it was investigating a report of banking fraud after a victim received a phone call from someone claiming to be associated with a financial institution based in the Cayman Islands. During the call, the victim was persuaded to disclose personal banking information, which the caller then used to carry out unauthorised transactions on the victim's account, resulting in cash being stolen. Billy Pennington, president of the Cayman Islands Bankers Association (CIBA), said scammers are becoming increasingly sophisticated and creative, using tactics such as social engineering and artificial intelligence to impersonate trusted sources, clone voices, and build convincing fake messages or websites in order to steal sensitive information. RCIPS reminded the public that legitimate banks do not ask customers to read out full account numbers, PINs, one-time passcodes, or online banking credentials over an inbound phone call or messaging app, and urged anyone contacted this way to hang up and call their bank back using the number printed on a card or statement rather than any number supplied during the call.`,
