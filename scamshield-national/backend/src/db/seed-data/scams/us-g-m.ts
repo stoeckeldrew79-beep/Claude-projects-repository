@@ -5378,3 +5378,17 @@ UsGM.push({
     isHistorical: true,
     firstRecorded: '2021-09-01',
 });
+
+UsGM.push({
+    name: 'Butler Bank VP "Cattle-Buying" Investment Fraud (Craig Johnson)',
+    slug: 'missouri-butler-craig-johnson-cattle-investment-fraud',
+    description: `Craig Johnson, 45, of Butler, Missouri, worked as a vice president and loan officer at Community First Bank starting in 2022 while also serving as a pastor at a church in nearby El Dorado Springs until he was removed from that role in 2025. Beginning at least in 2024, Johnson began soliciting "investments" from individuals for cattle he claimed he would buy and quickly resell for a profit, in some cases personally arranging bank loans for the same people he was soliciting and having them deposit the loan proceeds into his own accounts. According to the U.S. Attorney's Office for the Western District of Missouri, Johnson never actually purchased any cattle with the money; instead, he moved the funds into a personal investment account where he repeatedly traded speculative small-cap and micro-cap securities, lost the money, and used newer victims' deposits to paper over the shortfalls left by earlier ones. As Johnson's loan officer, he personally arranged roughly 30 loans and lines of credit at Community First Bank totaling more than $4.4 million tied to the scheme, and in February 2026, to keep the fiction going, he forged a bill of sale claiming he had bought 850 cow-calf pairs for $2.8 million from a real livestock company in Utah; when investigators contacted the company, its owner confirmed no such sale had ever happened and that the signature on the document, while similar to his own, was not his. Combining money taken directly from individual victims with the losses to Community First Bank itself, prosecutors say the scheme totaled more than $9.3 million. Johnson pleaded guilty before U.S. District Judge Fernando J. Gaitan Jr. to wire fraud, bank fraud, aggravated identity theft, and making a false statement to a financial institution, with a sentencing date not yet scheduled. Anyone approached about investing in a short-term cattle purchase or resale deal — especially one pitched personally by a bank loan officer who could also arrange the financing for it — should independently contact any livestock company or seller named in the paperwork using contact information looked up on their own, rather than trusting a bill of sale or invoice handed over by the person asking for the investment, since a real livestock sale can be confirmed directly with the seller in a single phone call.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'medium',
+    sources: ["U.S. Attorney's Office for the Western District of Missouri"],
+    sourceUrl: 'https://www.justice.gov/usao-wdmo/pr/butler-missouri-bank-vice-president-and-former-pastor-pleads-guilty-financial-fraud',
+    country: 'US',
+    state: 'MO',
+    isHistorical: true,
+    firstRecorded: '2024-08-05',
+});
