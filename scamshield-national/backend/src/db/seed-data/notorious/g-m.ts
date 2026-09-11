@@ -6741,7 +6741,9 @@ NotoriousGM.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/usao-nv/pr/nevada-man-sentenced-over-11m-covid-19-relief-fraud-and-money-laundering-scheme',
-    // no rights-cleared photo found — sourceUrl above serves as the "read the full story" link
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Lasvegascourthouse.jpg?width=1200',
+    coverImageCredit: 'U.S. Department of Justice (public domain) — Lloyd D. George U.S. Courthouse, Las Vegas, where Dezfooli was sentenced',
     body: `Meelad Dezfooli, of Henderson, Nevada, submitted three fraudulent Paycheck Protection Program loan applications for businesses he owned, backing each one with false tax records, fabricated payroll documents, and grossly inflated employee counts designed to maximize the amount lenders would approve. Federal prosecutors said the applications worked: banks funded the loans based on paperwork that bore little relationship to the businesses' real operations, and Dezfooli walked away with more than $11 million in pandemic relief funds intended for employers struggling to keep workers on payroll.
 
 Rather than spend the money on the payroll the applications claimed to support, prosecutors said Dezfooli set about laundering it through real estate on a remarkable scale — using aliases including "James Dez" and a fictitious entity called "Holdings Trust" to purchase approximately 25 properties across Nevada, obscuring his own name from the paper trail on each deal. He funneled additional proceeds into a personal investment account, bought luxury vehicles, and gambled extensively at Las Vegas casinos, all while, according to prosecutors, continuing to sell off properties bought with the stolen funds even after the fraud had already drawn law enforcement scrutiny.
