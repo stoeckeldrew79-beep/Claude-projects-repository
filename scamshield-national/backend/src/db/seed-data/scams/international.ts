@@ -12925,3 +12925,16 @@ International.push(
     country: 'GU',
   },
 );
+
+International.push(
+  {
+    name: 'Guam-Based "Ichioka Ventures" Bitcoin Investment Feeder Scheme',
+    slug: 'guam-ichioka-ventures-bitcoin-investment-feeder-scheme',
+    description: `From January 2020 to April 2021, Julien Abat Weymouth, 32, of Dededo, Guam, ran an unlicensed cryptocurrency money-transmitting business that fed local investors' cash and Bitcoin into a fraudulent operation called "Ichioka Ventures," run off-island by William Ichioka. Weymouth solicited cash and cryptocurrency from clients and investors on Guam by guaranteeing them a set percentage return, then transmitted the funds — ultimately worth approximately $5,517,323.48 — to Ichioka for purported investment, keeping any returns above the guaranteed rate for himself as an undisclosed fee. He operated without registering as a money-services business with FinCEN or complying with federal anti-money-laundering rules, and prosecutors said he also knowingly accepted funds from people engaged in other illegal activity. Ichioka, prosecuted separately in the Northern District of California, was separately convicted for running the underlying scheme as a Ponzi-style operation that used new investors' money to create the appearance of returns while victimizing more than 100 people — including friends and family — who believed they were funding legitimate cryptocurrency trades; he was sentenced to four years in federal prison and ordered to pay a $5 million fine. Following a joint investigation by the U.S. Secret Service and the Guam Police Department, Weymouth was sentenced in the District Court of Guam to 30 months in federal prison and three years of supervised release, with the court ordering forfeiture of more than 200 Bitcoin (worth over $8 million at the time), six vehicles, and $127,000 held in a bank account. The case illustrates how a trusted local "broker" — someone investors could meet in person on Guam — can be the critical link that lends false legitimacy to a Ponzi scheme actually being run by a stranger thousands of miles away.`,
+    categorySlug: 'cryptocurrency-scams',
+    alertLevel: 'high',
+    sources: ['U.S. Secret Service', 'U.S. Attorney\'s Office, Districts of Guam and the Northern Mariana Islands', 'Guam Police Department', 'Pacific Daily News (postguam.com)', 'KUAM News', 'Pacific Island Times'],
+    sourceUrl: 'https://www.secretservice.gov/newsroom/releases/2024/01/guam-cryptocurrency-broker-sentenced-30-months-federal-prison-55-million',
+    country: 'GU',
+  },
+);
