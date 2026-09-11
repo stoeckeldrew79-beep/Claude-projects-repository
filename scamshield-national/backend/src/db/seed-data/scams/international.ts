@@ -13146,3 +13146,45 @@ International.push(
     firstRecorded: '2021-08-12',
   },
 );
+
+International.push(
+  {
+    name: 'Kingdom of EnenKio Fake Micronation Bond and Title Fraud',
+    slug: 'kingdom-of-enenkio-fake-micronation-bond-title-fraud',
+    description: `A self-declared "Kingdom of EnenKio," run by a Hawaii-based man named Robert Moore, claimed sovereignty over Wake Island — territory the Republic of the Marshall Islands calls Enen-kio and has itself long claimed — and used that borrowed geography to sell a series of fabricated instruments to buyers around the world: "diplomatic" passports and titles of nobility, postage stamps requiring a US$2,850 "official dealer" fee to distribute, and "economic citizenship" memberships priced from US$500 to US$10,000, alongside solicited donations toward a fictitious spaceport project. On April 23, 1998, the Republic of the Marshall Islands Ministry of Foreign Affairs issued an official Circular Note formally denouncing EnenKio (alongside a similar outfit calling itself the "Dominion of Melchizedek") as fraudulent, stating that its organizers were making assertions with no basis in the RMI constitution or in any recognized claim to Marshallese territory. The fraud escalated in 2000, when Moore began marketing a US$1 billion offering of "EnenKio Gold War Bonds" over the internet and by mass email, promising a 10% compounded interest rate after five years supposedly "backed by gold reserves, guarantees, real property or other assets" that did not exist; the U.S. Securities and Exchange Commission obtained an emergency temporary restraining order on October 5, 2000 barring further sales, froze Moore's assets, and later sought civil contempt sanctions after he kept marketing the bonds from the enenkio.org website in violation of the order. The episode remains a cautionary example of how a fabricated "nation" attached to a real, remote Pacific location — one most buyers had no way to independently verify — was used to sell worthless titles, passports, stamps and bonds to victims who believed they were dealing with a legitimate, if obscure, sovereign government.`,
+    categorySlug: 'investment-fraud',
+    sources: ['U.S. Securities and Exchange Commission (SEC)', 'Republic of the Marshall Islands Ministry of Foreign Affairs', 'Quatloos'],
+    sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-16776',
+    country: 'MH',
+    isHistorical: true,
+    firstRecorded: '1998-04-23',
+  },
+);
+
+International.push(
+  {
+    name: 'Marshall Islands Rongelap "Special Administrative Region" Bribery Scheme',
+    slug: 'marshall-islands-rongelap-special-administrative-region-bribery-scheme',
+    description: `Cary Yan and Gina Zhou, two Chinese-born U.S. residents who ran a Manhattan nonprofit called the World Organization of Governance and Competitiveness (WOGC), paid a Dominican Republic ambassador to the United Nations roughly US$1 million to help them seize control of his UN-affiliated charity, then used its Manhattan office near UN headquarters and its access to visiting diplomats to manufacture an air of international legitimacy. Beginning around 2017, they used that borrowed credibility — along with direct bribes to about half a dozen Marshallese parliament members and senior officials, including at least US$150,000 disguised as "tuition fees" routed through shadow accounts — to push legislation creating the Rongelap Atoll Special Administrative Region (RASAR), a proposed autonomous investment zone with its own courts and immigration rules pitched to foreign investors, to be built on an atoll still contaminated from U.S. nuclear testing in the 1950s and located near the strategically sensitive American military installation at Kwajalein Atoll. The FBI and the U.S. Attorney's Office for the Southern District of New York charged Yan and Zhou in 2020 with conspiracy to violate the Foreign Corrupt Practices Act; both were arrested in Thailand that November, extradited to the U.S. in September 2022, and pleaded guilty that December, with Yan sentenced to three and a half years in prison and Zhou to two years and seven months. The U.S. State Department separately barred former RMI President Kessai Note and then-Senator Mike Halferty from entering the United States, citing their "involvement in significant corruption" in accepting the bribes, and after the case became public the Marshall Islands' Attorney General moved to revoke Yan's and Zhou's Marshallese passports. The scheme is a striking illustration of how the country's Compact of Free Association-era governance and its reputation as an offshore corporate and investment jurisdiction were deliberately targeted by fraudsters willing to bribe sitting officials and hijack a UN-affiliated organization to lend a fabricated economic-zone project the appearance of legitimacy.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'medium',
+    sources: ['U.S. Attorney\'s Office, Southern District of New York', 'Organized Crime and Corruption Reporting Project (OCCRP)', 'FCPA Professor'],
+    sourceUrl: 'https://www.occrp.org/en/investigation/chinese-miracle-water-grifters-infiltrated-the-un-and-bribed-politicians-to-build-pacific-dream-city',
+    country: 'MH',
+  },
+);
+
+International.push(
+  {
+    name: 'Marshall Islands "Social Security" Phone Impersonation Scam',
+    slug: 'marshall-islands-social-security-phone-impersonation-scam',
+    description: `The Marshall Islands Police Department (MIPD) posted a public "Scam Alert" to its official Facebook page on August 10, 2020, after residents began reporting phone calls from people impersonating Social Security Administration officials who claimed the recipient's Social Security number had been compromised and pressed for personal information to "verify" or "protect" it. MIPD's alert was blunt: "Please do not give them any information!" Residents who commented on the post said the calls displayed a U.S. mainland area code (608, associated with Wisconsin) rather than a local Marshallese number, an early tell of caller-ID spoofing, and described mixed reactions ranging from hanging up immediately to deliberately wasting the callers' time with false answers. The pattern mirrors the Social Security impersonation robocall scam that the U.S. Federal Trade Commission and the Social Security Administration's Office of Inspector General have separately warned is one of the most reported impersonation scams nationwide, and its reach into Majuro illustrates how the same international spoofed-caller-ID infrastructure used against callers throughout the United States extends into the Marshall Islands, a country whose Compact of Free Association ties give many residents real dealings with U.S. federal agencies and benefit programs that scammers can exploit for a veneer of plausibility. MIPD's guidance to the public was to never provide a Social Security number, bank details, or other personal information to an unsolicited caller, to hang up and independently verify any claim of a compromised account by contacting the agency directly through a known number, and to report suspicious calls to police.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Marshall Islands Police Department (MIPD)'],
+    sourceUrl: 'https://www.facebook.com/permalink.php/?story_fbid=1499236573594946&id=290562067795742',
+    country: 'MH',
+    isHistorical: true,
+    firstRecorded: '2020-08-10',
+  },
+);
