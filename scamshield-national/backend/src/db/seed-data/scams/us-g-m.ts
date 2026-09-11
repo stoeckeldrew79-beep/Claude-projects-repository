@@ -6065,3 +6065,15 @@ UsGM.push({
     sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2026/01/traveling-olympics-italy-heres-how-avoid-scam',
     country: 'US',
 });
+
+UsGM.push({
+    name: 'Guam Department of Revenue and Taxation WhatsApp Impersonation Scam',
+    slug: 'guam-drt-whatsapp-impersonation-scam',
+    description: `Guam's Department of Revenue and Taxation (DRT) warned taxpayers on August 18, 2026 about a scammer contacting residents over WhatsApp from the number 671-707-0559, falsely claiming to be a former DRT official in an attempt to extract personal information and money. DRT stated plainly that "the department does not contact taxpayers via WhatsApp, or any other instant messaging application," and that it has no off-island number used for taxpayer contact — a legitimate notice from the agency arrives by postal mail, and any phone or email contact from an actual employee comes only from the department's own published office numbers and email addresses. Guam residents who receive a message like this are advised not to send money or personal information, to verify any claimed DRT matter by calling the department directly at 671-635-1835 or 671-635-1836, and to report the attempt by emailing pinadmin@revtax.guam.gov.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Guam Department of Revenue and Taxation', 'Isla Public Radio (KPRG)'],
+    sourceUrl: 'https://www.islapublic.org/news/2026-08-18/rev-and-tax-warns-about-scam-using-whatsapp-to-contact-taxpayers',
+    country: 'US',
+    state: 'GU',
+});
