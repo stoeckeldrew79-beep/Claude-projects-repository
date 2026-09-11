@@ -6893,7 +6893,10 @@ NotoriousAF.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/usao-sdal/pr/honduran-national-sentenced-9-years-massive-immigration-fraud-scheme',
-    // no verified rights-cleared photo found yet — see NotoriousCoverPhotos
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/John_A_Campbell_US_Courthouse_Sept_2012_02.jpg?width=1200',
+    coverImageCredit: 'Photo: Chris Pruitt, CC BY-SA 3.0, via Wikimedia Commons — the John Archibald Campbell U.S. Courthouse in Mobile, Alabama, where Perez-Rios was prosecuted',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Franklin Javier Perez-Rios, a Honduran national living in Pensacola, Florida, had no law degree, no paralegal certification, and no government position — but for six years, prosecutors say, he presented himself to immigrants across the country as all three, depending on which story a given victim needed to hear.
 
 According to the U.S. Attorney's Office for the Southern District of Alabama, Perez-Rios ran his scheme from 2017 through 2023, telling foreign nationals living in the United States that he could handle their immigration paperwork — sometimes posing as a current or former U.S. government official, sometimes as an immigration attorney, sometimes as a paralegal or other "immigration services professional." He filed real asylum applications with U.S. Citizenship and Immigration Services on victims' behalf, giving the arrangement a veneer of legitimacy, but then layered fabricated requirements on top of the genuine process: prosecutors said he told clients they needed to travel, at their own expense, to California for medical exams and vaccinations that had nothing to do with any actual asylum procedure. To keep the illusion going and to convince victims their cases were progressing, he supplied forged government documents — paperwork that led many recipients to believe they had obtained legal status they never actually received.
