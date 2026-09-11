@@ -3371,6 +3371,10 @@ If you are a current or former Hibbett or City Gear employee — or a dependent 
     slug: "match-group-new-jersey-background-screening-settlement-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "match-group-new-jersey-settlement"],
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Richard_J._Hughes_Justice_Complex_of_the_New_Jersey_Supreme_Court.jpg?width=1200",
+    coverImageCredit: "Public domain",
+    coverImagePosition: 50,
+    // representative photo — the Richard J. Hughes Justice Complex in Trenton, home to the NJ Division of Consumer Affairs that brought this action, not a Match Group facility; replace with an exact match if found
     sourceUrl: "https://www.njoag.gov/ag-davenport-match-inc-to-pay-650000-and-change-public-disclosures-to-resolve-allegations-its-internet-dating-services-misrepresented-criminal-background-screening-policies/",
     body: `Match Group, Inc. — the company behind Match.com, Tinder, Hinge, Plenty of Fish, OurTime, BLK, Chispa, Upward, and BlackPeopleMeet — agreed on September 1, 2026 to pay $650,000 and rewrite how it describes criminal-background screening across its dating platforms, settling an investigation by the New Jersey Attorney General's Office and its Division of Consumer Affairs. Unlike Match Group's earlier, much larger federal cases over billing and cancellation practices, this one goes directly to a safety feature many users assume is happening automatically: checking whether the person on the other end of a match has a criminal record.
 
@@ -3387,6 +3391,10 @@ If you use Match, Tinder, Hinge, Plenty of Fish, or any other dating platform, t
     slug: "meta-multistate-child-safety-settlement-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "meta-child-safety-settlement"],
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Meta_Platforms_Headquarters_Menlo_Park_California.jpg?width=1200",
+    coverImageCredit: "Photo: LPS.1 (CC0)",
+    coverImagePosition: 50,
+    // representative photo — Meta's Menlo Park headquarters, not tied to the specific settlement announcement; replace with an exact match if found
     sourceUrl: "https://oag.dc.gov/release/attorney-general-schwalb-announces-meta-will-pay",
     body: `On August 26, 2026, Meta Platforms agreed to pay up to $17.1 billion and overhaul how Instagram and Facebook work for teenagers, settling a multistate lawsuit that a bipartisan coalition of attorneys general first filed in October 2023. The states accused Meta of designing its platforms to be intentionally addictive to children, of knowing from its own internal research that features like infinite scroll, autoplay, and public "like" counts were linked to anxiety, depression, and poor sleep in teen users, and of publicly denying or downplaying those harms for years while continuing to market the platforms to minors. Forty-seven states, the District of Columbia, and several U.S. territories joined the settlement; Texas negotiated its own separate $1 billion deal with Meta, Florida's attorney general rejected the group settlement outright and continues to pursue its own case, and New Mexico had already won an earlier lawsuit against the company on its own.
 
