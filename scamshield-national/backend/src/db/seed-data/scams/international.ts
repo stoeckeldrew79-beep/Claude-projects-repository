@@ -14888,3 +14888,16 @@ International.push(
     country: 'CG',
   },
 );
+
+International.push(
+  {
+    name: '"SunPower" Fake Solar Investment Platform Scam',
+    slug: 'ivory-coast-sunpower-fake-solar-investment-scam',
+    description: `An online platform calling itself "SunPower" presented itself as an investment opportunity tied to the sale of solar panels, promising investors their capital would multiply within days if paid in through Mobile Money — for example advertising that a 36,000 CFA franc deposit would return 72,000 CFA francs within 48 hours, or that 740,000 CFA francs could grow to 3,000,000 CFA francs in a month. After collecting deposits from thousands of Ivorians through 2024, the platform disappeared with investors' funds around September 2024 and deactivated victims' accounts so they could no longer withdraw anything. Côte d'Ivoire's Plateforme de Lutte Contre la Cybercriminalité (PLCC), working with the national Laboratoire Criminalistique Numérique (LCN), received more than 1,000 complaints about the scheme and announced on February 17, 2025 that it had dismantled the network, arresting eight suspects — identified by the initials BAK, TG, WR, ZZ, LQ, SB, YQ and ZZ — who were referred to the prosecutor of the Pôle Pénal Économique et Financier (the economic and financial crimes division) to face charges. The PLCC used the case to warn the public more broadly that any platform promising guaranteed, rapid, above-market returns on a deposit is almost certainly a Ponzi-style scheme paying early investors with money collected from later ones rather than from any real underlying business, and urged Ivorians to verify that an investment platform is actually registered and regulated before sending it money through Mobile Money or any other channel.`,
+    categorySlug: 'ponzi-pyramid-schemes',
+    alertLevel: 'critical',
+    sources: ['Agence Ivoirienne de Presse (AIP)', 'Plateforme de Lutte Contre la Cybercriminalité (PLCC)', 'KOACI'],
+    sourceUrl: 'https://www.aip.ci/157091/cote-divoire-aip-un-reseau-descroquerie-en-ligne-impliquant-la-plateforme-sunpower-demantele-plcc/',
+    country: 'CI',
+  },
+);
