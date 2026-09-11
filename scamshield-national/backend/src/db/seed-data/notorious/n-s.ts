@@ -4905,6 +4905,10 @@ NotoriousNS.push(
     slug: 'shvartsman-brothers-dwac-trump-media-insider-trading',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Daniel_Patrick_Moynihan_U.S._Courthouse,_Manhattan,_New_York_(7237347688).jpg?width=1200',
+    coverImageCredit: 'Ken Lund / Wikimedia Commons / CC BY-SA 2.0',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.justice.gov/usao-sdny/pr/us-attorney-announces-charges-four-separate-insider-trading-cases-against-10',
     body: `Digital World Acquisition Corp. was a special-purpose acquisition company — a "blank-check" shell with no operating business of its own, raised specifically to merge with a still-undisclosed private company and take it public. Brothers Michael and Gerald Shvartsman were early investors in DWAC, and in June 2021 they signed confidentiality agreements after being brought closer to the deal, along with Bruce Garelick, an early DWAC board member and chief investment officer at Rocket One Capital. Confidentiality agreements like theirs exist for exactly one reason: to keep whatever a SPAC is planning to merge with a secret until it's announced to the whole market at once, so that no one with early access can trade on it before everyone else finds out.
 
