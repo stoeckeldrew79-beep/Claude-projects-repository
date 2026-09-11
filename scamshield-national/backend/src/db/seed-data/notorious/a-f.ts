@@ -6873,7 +6873,10 @@ NotoriousAF.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/usao-sdny/pr/international-stock-manipulator-sentenced-27-months',
-    // no verified rights-cleared photo found yet — see NotoriousCoverPhotos
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/U.S._Disctrict_Courthouse_-_Southern_District_of_New_York.JPG?width=1200',
+    coverImageCredit: 'Photo: Michael J DAmato, CC BY-SA 3.0, via Wikimedia Commons — the Thurgood Marshall U.S. Courthouse in Manhattan, home to the Southern District of New York, where Csurgo was prosecuted',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Julius Csurgo, a 71-year-old dual citizen of Canada and Hungary living in Toronto, spent years quietly running one of the oldest tricks in securities fraud at a scale that eventually drew in nine other defendants scattered across six countries. According to federal prosecutors in the Southern District of New York, Csurgo used an entity he controlled, Antevorta Capital Partners, Ltd., to gain secret controlling stakes in thinly traded "penny stocks," then hid his ownership by parceling his shares out to a network of nominee entities through a Swiss corporation called Blacklight, S.A. — obscuring, from regulators and ordinary investors alike, who was actually calling the shots behind the stock.
 
 With his real ownership concealed, Csurgo and his co-conspirators funded promotional campaigns touting the companies to retail investors, talking up their prospects without ever disclosing that the people doing the touting already controlled large blocks of stock and intended to sell into whatever buying interest the hype created. Prosecutors say the conspiracy, which also involved a co-defendant named Anthony Korculanic, ran pump-and-dump schemes across at least 19 U.S.-based issuers, generating roughly $35 million in illicit proceeds as artificially inflated share prices let Csurgo's network cash out before the stocks collapsed back to their real value. The scheme was part of a broader pattern federal prosecutors described when they unsealed indictments in April 2022 charging ten defendants — residents of Canada, the United Kingdom, Bulgaria, Spain, Monaco, Turkey, and the Bahamas — in a series of interlocking international stock-manipulation rings, with the SEC separately describing a related web of penny-stock schemes spanning three continents and roughly $194 million in fraudulent trading.
@@ -6890,7 +6893,10 @@ NotoriousAF.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/usao-sdal/pr/honduran-national-sentenced-9-years-massive-immigration-fraud-scheme',
-    // no verified rights-cleared photo found yet — see NotoriousCoverPhotos
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/John_A_Campbell_US_Courthouse_Sept_2012_02.jpg?width=1200',
+    coverImageCredit: 'Photo: Chris Pruitt, CC BY-SA 3.0, via Wikimedia Commons — the John Archibald Campbell U.S. Courthouse in Mobile, Alabama, where Perez-Rios was prosecuted',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Franklin Javier Perez-Rios, a Honduran national living in Pensacola, Florida, had no law degree, no paralegal certification, and no government position — but for six years, prosecutors say, he presented himself to immigrants across the country as all three, depending on which story a given victim needed to hear.
 
 According to the U.S. Attorney's Office for the Southern District of Alabama, Perez-Rios ran his scheme from 2017 through 2023, telling foreign nationals living in the United States that he could handle their immigration paperwork — sometimes posing as a current or former U.S. government official, sometimes as an immigration attorney, sometimes as a paralegal or other "immigration services professional." He filed real asylum applications with U.S. Citizenship and Immigration Services on victims' behalf, giving the arrangement a veneer of legitimacy, but then layered fabricated requirements on top of the genuine process: prosecutors said he told clients they needed to travel, at their own expense, to California for medical exams and vaccinations that had nothing to do with any actual asylum procedure. To keep the illusion going and to convince victims their cases were progressing, he supplied forged government documents — paperwork that led many recipients to believe they had obtained legal status they never actually received.
