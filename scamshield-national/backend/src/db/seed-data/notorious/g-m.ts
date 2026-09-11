@@ -5287,6 +5287,9 @@ NotoriousGM.push(
     slug: 'jenaro-garcia-gowex-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Edificio_de_la_Bolsa_de_Valores_Madrid.jpg?width=1200',
     sourceUrl: 'https://www.cnbc.com/2014/08/14/how-a-spanish-tech-star-fooled-the-world.html',
     body: `Jenaro García founded Gowex in Madrid in 1999 and, over the following decade, rebuilt it as "Let's Gowex," a company that installed free public Wi-Fi hotspots in cities across Spain and, it claimed, dozens of other countries. García listed the company on the Mercado Alternativo Bursátil (MAB), Spain's lightly regulated junior stock market for smaller and growth companies, in 2010, and its share price climbed dramatically over the next four years — from roughly €2 to more than €20 — as García reported revenue growth that outpaced any comparable company in its sector, turning Gowex into one of the Spanish stock market's most celebrated technology success stories.
 
