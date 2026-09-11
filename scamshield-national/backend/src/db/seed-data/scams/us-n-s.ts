@@ -4959,3 +4959,15 @@ UsNS.push({
     country: 'US',
     state: 'OR',
 });
+
+UsNS.push({
+    name: 'N. Stanley Paving Driveway Contractor Fraud',
+    slug: 'n-stanley-paving-driveway-contractor-fraud',
+    description: `N. Stanley Paving, Inc. and its owner, Nicholas E. Stanley, advertised driveway paving, sealing, and asphalt work to Northeastern Pennsylvania homeowners through social media ads and door-to-door solicitations, then, according to a complaint Pennsylvania Attorney General Dave Sunday's Bureau of Consumer Protection filed on August 14, 2026, routinely failed to deliver on what was sold. In one case detailed in the filing, a Dauphin County senior citizen was approached with an offer to pave a driveway using materials supposedly left over from another nearby job, quoted $16,000 with an $8,000 down payment — but once the work was done, the company demanded $32,000, double the agreed price. Across the Lackawanna, Luzerne, and Dauphin county cases the office reviewed, homeowners who had signed contracts totaling $66,000 ended up billed $88,925, and the office said it had received at least 14 consumer complaints describing high-pressure sales tactics, unauthorized price increases made without a signed change order, abandoned projects, substandard workmanship, and warranty non-compliance, while the company's home-improvement contractor registration had lapsed on September 21, 2025. The complaint alleges violations of Pennsylvania's Home Improvement Consumer Protection Act and its Unfair Trade Practices and Consumer Protection Law, and seeks restitution for affected homeowners, civil penalties of up to $1,000 per violation (up to $3,000 for a victim age 60 or older), disgorgement of profits, and a permanent order barring Stanley from working as a home-improvement contractor in Pennsylvania. "Consumers relied on this contractor to complete the work they paid for and were left with unfinished or shoddy projects," Attorney General Sunday said in announcing the case. Before paying a contractor found through a social media ad or a door-to-door pitch — especially one offering a discount tied to "leftover materials" from another job — Pennsylvania homeowners can verify the contractor's required state registration through the Attorney General's Bureau of Consumer Protection, should insist any price change be put in writing and signed before work continues, and should never let a final payment exceed what a signed, itemized contract actually says.`,
+    categorySlug: 'home-improvement-solar',
+    alertLevel: 'medium',
+    sources: ["Pennsylvania Office of Attorney General"],
+    sourceUrl: 'https://www.attorneygeneral.gov/taking-action/ag-sundays-bureau-of-consumer-protection-files-complaint-against-ne-pa-contractor-who-failed-to-complete-work-or-issue-refunds/',
+    country: 'US',
+    state: 'PA',
+});
