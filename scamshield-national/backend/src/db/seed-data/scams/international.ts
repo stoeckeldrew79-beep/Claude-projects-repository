@@ -13836,3 +13836,16 @@ International.push(
     country: 'KY',
   },
 );
+
+International.push(
+  {
+    name: 'Liechtenstein "Novum Asset Management" Clone-Firm Investment Fraud',
+    slug: 'liechtenstein-novum-asset-management-clone-firm-fraud',
+    description: `Liechtenstein's Financial Market Authority (FMA) issued a public warning in April 2026 after fraudsters began impersonating Novum Asset Management AG, a licensed asset manager genuinely based in Vaduz, in a "clone-firm" scheme. The perpetrators copied the real company's name, logo, and Vaduz address onto forged letters and a lookalike website, registered deceptive domains and email addresses designed to resemble the legitimate firm's own, and used the borrowed credibility to approach prospective investors with professionally worded correspondence aimed at moving them toward a wire transfer or signed contract. The FMA stated there is "no connection whatsoever" between the genuine, FMA-supervised Novum Asset Management AG and the fraudulent operation, and explained that clone-firm fraud works precisely because a victim who searches the impersonated name finds a real, licensed company and lets their guard down. The regulator advised anyone contacted this way not to reply or send any payment, to preserve all correspondence, to independently verify a firm's identity and license status through the FMA's public register rather than any contact details supplied by the caller or letter, and — for anyone who has already transferred funds — to contact their bank immediately to attempt to halt or reverse the payment and to consider filing a criminal complaint.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'high',
+    sources: ['Financial Market Authority Liechtenstein (FMA)', 'Verbraucherschutzforum Berlin', 'Diebewertung.de'],
+    sourceUrl: 'https://verbraucherschutzforum.berlin/2026-04-15/fma-li-warnt-betrueger-klonen-novum-asset-management-anleger-im-visier-415411/',
+    country: 'LI',
+  },
+);
