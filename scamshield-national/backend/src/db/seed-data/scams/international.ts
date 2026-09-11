@@ -13125,3 +13125,17 @@ International.push(
     firstRecorded: '2021-08-12',
   },
 );
+
+International.push(
+  {
+    name: 'Kingdom of EnenKio Fake Micronation Bond and Title Fraud',
+    slug: 'kingdom-of-enenkio-fake-micronation-bond-title-fraud',
+    description: `A self-declared "Kingdom of EnenKio," run by a Hawaii-based man named Robert Moore, claimed sovereignty over Wake Island — territory the Republic of the Marshall Islands calls Enen-kio and has itself long claimed — and used that borrowed geography to sell a series of fabricated instruments to buyers around the world: "diplomatic" passports and titles of nobility, postage stamps requiring a US$2,850 "official dealer" fee to distribute, and "economic citizenship" memberships priced from US$500 to US$10,000, alongside solicited donations toward a fictitious spaceport project. On April 23, 1998, the Republic of the Marshall Islands Ministry of Foreign Affairs issued an official Circular Note formally denouncing EnenKio (alongside a similar outfit calling itself the "Dominion of Melchizedek") as fraudulent, stating that its organizers were making assertions with no basis in the RMI constitution or in any recognized claim to Marshallese territory. The fraud escalated in 2000, when Moore began marketing a US$1 billion offering of "EnenKio Gold War Bonds" over the internet and by mass email, promising a 10% compounded interest rate after five years supposedly "backed by gold reserves, guarantees, real property or other assets" that did not exist; the U.S. Securities and Exchange Commission obtained an emergency temporary restraining order on October 5, 2000 barring further sales, froze Moore's assets, and later sought civil contempt sanctions after he kept marketing the bonds from the enenkio.org website in violation of the order. The episode remains a cautionary example of how a fabricated "nation" attached to a real, remote Pacific location — one most buyers had no way to independently verify — was used to sell worthless titles, passports, stamps and bonds to victims who believed they were dealing with a legitimate, if obscure, sovereign government.`,
+    categorySlug: 'investment-fraud',
+    sources: ['U.S. Securities and Exchange Commission (SEC)', 'Republic of the Marshall Islands Ministry of Foreign Affairs', 'Quatloos'],
+    sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-16776',
+    country: 'MH',
+    isHistorical: true,
+    firstRecorded: '1998-04-23',
+  },
+);
