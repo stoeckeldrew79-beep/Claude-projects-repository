@@ -7147,3 +7147,15 @@ UsAF.push({
     country: 'US',
     state: 'CA',
 });
+
+UsAF.push({
+    name: 'Alaska Motor Home Rental Reservation Cancellation Fraud (Peter Harkovitch)',
+    slug: 'alaska-motor-home-rental-reservation-cancellation-fraud',
+    description: `Peter Harkovitch owned and ran Alaska Motor Home Inc., an Anchorage RV rental company, which abruptly announced in June 2024 that it was going out of business in the middle of Alaska's peak summer tourism season — telling the state it would neither honor nor refund the reservations travelers had already booked and paid deposits on. The Alaska Department of Law's Consumer Protection Unit sued, and in the course of the case found that Harkovitch had also forged a customer's signature to win a credit card chargeback dispute over a $7,500 charge he had made to her card without authorization, and had repeatedly violated the terms of a consent judgment that had already resolved a prior 2019 lawsuit the state brought against him and the same business. Acting Alaska Attorney General Cori Mills announced on August 13, 2026 that the state had obtained a judgment ordering Harkovitch to pay $183,000 in civil penalties plus $50,409.86 in restitution to the customers who lost deposits or were never repaid, and permanently banning him from owning any business in Alaska until he satisfies the Superior Court at Anchorage that a future business would operate legally and that its proceeds would go toward paying off his restitution debt. "Unscrupulous businesses have no place in the State of Alaska," Mills said. "And nobody's dream of an Alaskan vacation should be turned into a nightmare." Harkovitch is currently incarcerated in Florida after pleading guilty to aggravated battery and battery of a law enforcement officer there. Travelers booking an RV, cabin, or tour package for an Alaska trip are advised to pay deposits by credit card rather than debit, wire transfer, or check whenever possible — since a credit card issuer can reverse a charge for services never delivered — and to check a rental company's standing with the Alaska Department of Law's Consumer Protection Unit before paying, particularly for a company that has been sued by the state before.`,
+    categorySlug: 'travel-vacation-scams',
+    alertLevel: 'medium',
+    sources: ['Alaska Department of Law, Consumer Protection Unit'],
+    sourceUrl: 'https://law.alaska.gov/press/releases/2026/081326-Harkovitch.html',
+    country: 'US',
+    state: 'AK',
+});
