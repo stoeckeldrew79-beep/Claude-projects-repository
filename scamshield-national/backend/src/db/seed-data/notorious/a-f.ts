@@ -5688,6 +5688,10 @@ NotoriousAF.push(
     slug: "antonio-franklin-milwaukee-disability-benefits-fraud",
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Federal_Building_and_US_Courthouse_Milwaukee.jpg?width=1200',
+    coverImageCredit: 'Carol M. Highsmith, public domain, via Wikimedia Commons',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.justice.gov/usao-edwi/pr/milwaukee-county-man-sentenced-18-months-federal-prison-wire-fraud-involving',
     body: `Government disability and benefit programs generally run on an honor system at the edges: applicants self-report their income, assets, and bank accounts, and the agency verifies what it can rather than auditing every recipient's finances line by line. Antonio Franklin, 47, of Milwaukee County, Wisconsin, exploited that gap for more than five years, according to the U.S. Attorney's Office for the Eastern District of Wisconsin. From January 2020 through March 2025, prosecutors said, Franklin was receiving Title XVI disability benefits from the Social Security Administration, a Wisconsin Supplemental Security Income payment from the state's Department of Health Services, and benefits through Wisconsin's IRIS long-term care program — three separate need-based programs, each of which required him to disclose his financial resources to remain eligible.
 
