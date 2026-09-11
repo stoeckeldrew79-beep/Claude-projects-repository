@@ -7937,6 +7937,10 @@ NotoriousAF.push(
     slug: 'danielle-painter-new-plymouth-idaho-city-clerk-embezzlement',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Payette_City_Hall-Courthouse_1_-_Payette_Idaho.jpg?width=1200',
+    coverImageCredit: 'Photo: Ian Poellet, CC BY-SA 4.0, via Wikimedia Commons — the Payette County courthouse serving New Plymouth, Idaho',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     body: `Danielle Painter worked for the small city of New Plymouth, Idaho, from 2012 to 2023, rising to city clerk and treasurer — the employee trusted with recording the city's charges and issuing its electronic payments. That access, combined with years in the role and no one double-checking her entries, gave her the tools to quietly steal from the city she worked for over most of a decade.
 
 Starting in 2017, according to federal prosecutors, Painter began using city-issued credit cards to pay for retail shopping, restaurant meals, clothing, travel, utility bills, rent, and medical expenses that had nothing to do with running the city. To keep the spending from standing out in New Plymouth's books, she used her own authority over the accounting system to relabel many of the personal charges as "professional services" — a vague enough category that it didn't invite the scrutiny a line item like "clothing" or "rent" would have drawn. Over roughly six years, the falsified entries let her divert a total of $196,947.87 in city funds.
