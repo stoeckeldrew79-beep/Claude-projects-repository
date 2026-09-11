@@ -5111,3 +5111,17 @@ UsNS.push({
     isHistorical: true,
     firstRecorded: '2025-03-19',
 });
+
+UsNS.push({
+    name: 'Rapid Ruling Sham Arbitration Scheme for Predatory Merchant Cash Advance Lenders',
+    slug: 'new-york-rapid-ruling-sham-arbitration-merchant-cash-advance-scheme',
+    description: `New York Attorney General Letitia James filed suit on June 8, 2026 against Rapid Ruling, an online arbitration platform, and its founders Zachary Meyer and Andrew Sachs, alleging the company fraudulently marketed itself to small businesses nationwide as a neutral forum for resolving disputes with merchant cash advance (MCA) lenders, decided by "independent" and "impartial" arbitrators weighing evidence from "both sides." According to the complaint, Rapid Ruling was actually created in coordination with an MCA company and ran on arbitration rules that MCA company itself had drafted and edited, engineering a process stacked against the small businesses forced into it. Of the roughly 3,000 arbitrations Rapid Ruling administered in its first three years, 97% proceeded without the small business even appearing, and the MCA lender won almost every single case — rulings the lenders then used to obtain New York court judgments letting them garnish wages and seize assets from struggling business owners who often never knew a case had been decided against them. "Small businesses are the backbone of our economy. Taking advantage of them with predatory loans and unfair arbitration proceedings is both illegal and immoral," James said in announcing the case, alleging violations of New York's consumer and business protection laws and seeking restitution for affected businesses, civil penalties, and a court order halting the practice. The case follows a $1 billion settlement James's office reached in January 2025 with the Yellowstone Capital merchant-cash-advance network, and is a reminder that a signed arbitration clause naming a specific, unfamiliar arbitration company is worth researching before signing: a forum's polished appearance of neutrality is not proof it is actually independent from the lender who required it. Small-business owners facing a merchant cash advance dispute or a mystery arbitration judgment can contact the New York Attorney General's Office at ag.ny.gov to find out whether they may be part of the case.`,
+    categorySlug: 'debt-relief-scams',
+    alertLevel: 'high',
+    sources: ["New York Attorney General's Office (Letitia James)", 'Harlem World Magazine', 'Fingerlakes1.com'],
+    sourceUrl: 'https://ag.ny.gov/press-release/2026/attorney-general-james-sues-sham-arbitration-service-created-help-predatory',
+    country: 'US',
+    state: 'NY',
+    isHistorical: true,
+    firstRecorded: '2026-06-08',
+});
