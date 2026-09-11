@@ -13254,3 +13254,16 @@ International.push(
     firstRecorded: '2026-06-17',
   },
 );
+
+International.push(
+  {
+    name: 'Purcell Mena €300 Million VAT Fraud Fugitive Scandal',
+    slug: 'sao-tome-purcell-mena-vat-fraud-fugitive-scandal',
+    description: `Téla Nón, Jornal Económico, and RTP reported that Ignacio Purcell Mena, a 54-year-old Chilean businessman sought by Spanish justice as a suspected organizer of a criminal network of 38 companies accused of defrauding the Spanish state of more than €300 million in 2024 by failing to declare VAT on fuel sales, had in the meantime built a public role for himself inside São Tomé and Príncipe's government. He was appointed special adviser to Prime Minister Américo Ramos and, before that, to then-National Assembly president Celmira Sacramento in August 2025, only losing the latter post after the Foreign Ministry refused to issue him a diplomatic passport. São Tomé's Judicial Police arrested him in the north of São Tomé island on March 11, 2026 at Interpol's request, and the Supreme Court of Justice ruled on May 26, 2026 that he met every requirement for extradition to Spain, rejecting his defense's objections; São Tomé's Constitutional Court separately found his detention illegal and ordered his release, a ruling that was not immediately carried out. The case then spilled into a judicial-independence scandal: on July 31, 2026, Purcell Mena's lawyer, accompanied by National Assembly president Abnildo d'Oliveira and Labour Minister Jourceli Tiny dos Ramos, visited the home of Supreme Court president Eurídice Dias and then the court itself, in what the Supreme Court publicly described as an attempt to compel the presiding magistrate to issue a release order for Purcell Mena. The Attorney General's Office opened a criminal investigation into both officials over the alleged pressure campaign, and President Carlos Vila Nova dismissed Dos Ramos as Labour Minister on August 12, 2026 at the Prime Minister's own request. The episode shows how a fraud suspect can trade on a small, resource-poor administration's appetite for well-connected foreign advisers to gain protection at the highest levels of government, and how far some officials were reportedly willing to go to shield him from extradition once he was in custody.`,
+    categorySlug: 'tax-scams',
+    alertLevel: 'medium',
+    sources: ['Téla Nón', 'Jornal Económico', 'RTP'],
+    sourceUrl: 'https://www.telanon.info/politica/2026/05/26/53040/supremo-confirma-extradicao-de-ignacio-purcell-mena-para-espanha/',
+    country: 'ST',
+  },
+);
