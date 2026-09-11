@@ -10844,6 +10844,16 @@ International.push(
     sourceUrl: 'https://csirt.gov.gd/',
     country: 'GD',
   },
+  {
+    name: 'Grenada Citizenship by Investment Illegal Discounting and Owner-Financing Scheme',
+    slug: 'grenada-citizenship-by-investment-illegal-discounting-owner-financing-scheme',
+    description: `Grenada's Investment Migration Agency (IMA Grenada, formerly the Citizenship by Investment Unit) issued Circular No. 2 of 2025 on March 5, 2025 after uncovering that a marketing agent, a group of sub-agents, and an approved real estate developer were offering prospective Citizenship by Investment (CBI) applicants illegal shortcuts around the program's required minimum contribution. Under the scheme, applicants were provided "owner financing" — loans of tens of thousands of US dollars, in documented cases up to US$100,000, extended by the developer, its marketing agent, or an affiliated company — to effectively cover part of the statutory investment on the applicant's behalf, alongside arrangements to discount the qualifying investment below the legal minimum and to buy back or rebate an investor's contribution before the CBI Act's mandatory five-year holding period had elapsed. The circular stated plainly that "this is an illegal, unauthorized and egregious act which will not be tolerated by the Government, CBI Committee or Investment Migration Agency (Grenada)," and IMA Grenada's CEO, Thomas Anthony, together with CBI Committee chairman Richard Duncan O.B.E., told agents directly that "the notion of owner financing is the problem" regardless of whether the money came from a developer, a marketing agent, or an affiliated entity. Enforcement followed quickly: on March 18, 2025 the IMA suspended, for 90 days, the acceptance of any new applications from Singapore Heng Sheng (Grenada) Development Pte. Ltd. and its Grenada National Resort project after confirming instances of owner financing and illegal discounting, warning that a second violation would trigger a 120-day marketing-license suspension and a third would mean license revocation and project decertification; separately, the agency disclosed it had already rejected eight CBI applications tied to illegal-discount arrangements (six in late 2024 and two in 2025) and revoked one previously granted citizenship over the same conduct. Because an applicant who accepts an "instant discount," a same-day buyback, or financing from the very developer they are investing with risks having their application rejected or an already-granted citizenship revoked — losing both the investment and the citizenship they paid for — Grenadian authorities urged anyone applying through the CBI program to deal only with an authorized marketing agent, to fund the investment with their own money rather than developer-arranged financing, and to treat any offer to discount or refund part of the required contribution as a serious red flag.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'high',
+    sources: ['Investment Migration Agency (Grenada) / Citizenship by Investment Unit', 'IMI Daily', 'NOW Grenada'],
+    sourceUrl: 'https://imagrenada.gd/wp-content/uploads/2025/03/Circular-No.-2-ILLEGAL-DISCOUNTING-AND-OWNER-FINANCING-March-5-2025.pdf',
+    country: 'GD',
+  },
 );
 
 International.push(
