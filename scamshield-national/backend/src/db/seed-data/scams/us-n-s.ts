@@ -5516,3 +5516,15 @@ UsNS.push({
     isHistorical: true,
     state: 'NH',
 });
+
+UsNS.push({
+    name: 'Fargo "AMS Holdings" Unregistered Promissory Note Scheme (Bradley Stroup)',
+    slug: 'north-dakota-fargo-stroup-ams-holdings-unregistered-notes',
+    description: `Bradley J. Stroup of Fargo — a former bar owner and high school social studies teacher previously accused in 2008 of defrauding an Oklahoma State University athletics official out of $570,000, and ordered in 2012 to pay more than $630,000 in restitution after pleading no contest — resurfaced in a new securities case when North Dakota regulators found he had used his company, AMS Holdings, LLC, to sell $351,335 in promissory notes across sixteen separate transactions between January 2019 and January 2022. The notes were purchased by two private funds, Jamieson CAPEX Fund, LLC and Jamieson Natural Resources, LLC, both controlled by Fargo financier Jeremy L. Carlson — whose own firm, Jamieson Capital Financial, was separately found in the same broader investigation to have sold $25 million in unregistered securities and paid a $2.8 million civil penalty. North Dakota's Securities Commissioner issued a cease-and-desist order on July 19, 2023 finding that neither Stroup nor AMS Holdings had ever registered as an issuer-dealer, broker-dealer, or agent as North Dakota law requires, and ordering the unlawfully obtained investments repaid — notable in part because Stroup carried an unpaid, court-ordered judgment of more than $20,700 (over $29,600 with accrued interest) from an unrelated landlord dispute the entire time he was raising money from the Jamieson funds. On March 30, 2026, the Department finalized an Administrative Consent Order in which Stroup admitted the underlying conduct and agreed to an 18-month prohibition on registering with the Department or offering, selling, or engaging in any securities-related transactions in North Dakota. Department enforcement attorney Carl Karpinski described the matter as one of the smaller, ancillary cases stemming from the larger Carlson investigation. Before putting money into a promissory note or private fund pitched by an individual seller rather than a registered broker-dealer, North Dakota investors can check the seller's registration and disciplinary history for free through the state Securities Department — a step that would have surfaced Stroup's earlier cease-and-desist order and fraud conviction years before the Jamieson funds ever wired him money.`,
+    categorySlug: 'investment-fraud',
+    sources: ['North Dakota Insurance & Securities Department', 'The Forum of Fargo-Moorhead (InForum)'],
+    sourceUrl: 'https://www.securities.nd.gov/news/ams-holdings-llc-and-bradley-j-stroup-aka-brad-stroup-administrative-consent-order',
+    country: 'US',
+    isHistorical: true,
+    state: 'ND',
+});
