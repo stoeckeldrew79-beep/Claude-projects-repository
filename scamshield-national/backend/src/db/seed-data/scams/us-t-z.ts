@@ -3124,3 +3124,15 @@ UsTZ.push({
     country: 'US',
     state: 'TX',
 });
+
+UsTZ.push({
+    name: 'Texas Parks and Wildlife Hunting and Fishing License Data Breach',
+    slug: 'texas-parks-wildlife-hunting-fishing-license-data-breach',
+    description: `An unauthorized actor broke into the systems of the third-party vendor that runs online license sales for the Texas Parks and Wildlife Department, exposing personal information tied to more than 3 million customers who bought a Texas hunting or fishing license. Texas Cyber Command detected the intrusion and notified TPWD on May 13, 2026; the department published its formal breach notification on June 12, 2026 and made the incident public on June 18, 2026. The exposed data included driver's license information, passport numbers for customers who had provided one, email addresses, phone numbers, and home addresses, though TPWD says Social Security numbers, dates of birth, and financial or credit card information were not part of the breach. Affected customers are eligible for one free year of credit monitoring through Kroll, with a call center at 844-959-7123 fielding questions and an enrollment deadline of September 14, 2026. Because a driver's license number and passport number are enough on their own to support identity theft or a convincing follow-up phishing attempt, anyone who has bought a Texas hunting or fishing license is advised to enroll in the free monitoring before the deadline, watch for phishing emails or texts that reference the breach to appear legitimate, and independently verify any "TPWD" or "Kroll" contact by calling the numbers TPWD has published itself rather than one included in an unsolicited message.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'high',
+    sources: ['Texas Parks and Wildlife Department', 'Texas Cyber Command', 'Houston Public Media'],
+    sourceUrl: 'https://tpwd.texas.gov/about/notification-of-data-security-incident',
+    country: 'US',
+    state: 'TX',
+});
