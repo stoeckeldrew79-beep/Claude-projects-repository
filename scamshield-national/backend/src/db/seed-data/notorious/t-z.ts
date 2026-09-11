@@ -2224,3 +2224,21 @@ The court found that victims lost more than $3.5 million to the scheme overall, 
 Lottery and sweepstakes fraud persists because it inverts the usual warning signs of a scam: instead of a stranger asking for money upfront, the victim is told they've already won something and simply need to clear a small administrative hurdle to collect it. No legitimate lottery, sweepstakes, or prize drawing — state-run or otherwise — ever requires a winner to pay taxes, fees, or "processing costs" in advance in order to receive a prize; genuine winnings are paid out with any taxes withheld directly from the payment itself, never collected separately beforehand by mail, wire, or gift card.`,
   },
 );
+NotoriousTZ.push(
+  {
+    title: 'Teresa and Joe Giudice: The Reality-TV Fraud That Outlasted the Marriage',
+    slug: 'teresa-joe-giudice-bankruptcy-mortgage-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-nj/pr/real-housewives-new-jersey-stars-sentenced-prison-conspiracy-bankruptcy-fraud-and-tax',
+    body: `Teresa Giudice and her then-husband Giuseppe "Joe" Giudice, of Towaco, New Jersey, were already reality-TV fixtures — original cast members of Bravo's "The Real Housewives of New Jersey" since 2009 — by the time federal prosecutors unsealed a 39-count indictment against them in July 2013. The charges covered conduct that mostly predated the show: conspiracy to commit mail and wire fraud, bank fraud, and making false statements on loan applications, tied to years of allegedly falsifying income and asset information to obtain mortgages and other loans the couple would not otherwise have qualified for.
+
+The indictment also reached into more recent territory. Prosecutors said that after Joe Giudice's construction business collapsed following the 2008 financial crisis, the couple filed for Chapter 7 bankruptcy in October 2009 and concealed income and assets from the bankruptcy court — including, prosecutors noted, income Teresa was earning from a newly launched reality-TV career that had started airing publicly on national television around the same time she was telling the court she had none. Joe Giudice was separately charged with failing to file tax returns for several years despite reporting substantial income to lenders on the same loan applications at the center of the fraud counts.
+
+Both Giudices pleaded guilty before U.S. District Judge Esther Salas in March 2014 — each to one count of conspiracy to commit mail and wire fraud and three bankruptcy fraud counts (concealment of assets, false oaths, and false declarations), with Joe additionally pleading guilty to failing to file a tax return. In October 2014, Judge Salas sentenced Teresa Giudice, then 42, to 15 months in prison, and Joe Giudice, then 44, to 41 months, structuring the sentences so the couple's four children would not be left without a parent at home: Teresa reported to federal prison in January 2015 and was released in December of that year, after which Joe began serving his own sentence in March 2016.
+
+Because Joe Giudice had never completed the process of becoming a U.S. citizen despite decades living in the country since childhood, his felony convictions triggered mandatory immigration consequences beyond the prison sentence itself. He was transferred directly into ICE custody upon his release from federal prison in March 2019, fought deportation through the following months, and was ultimately removed to Italy that October — permanently separating him from the family's home in New Jersey. Teresa and Joe Giudice divorced in 2020, and both have continued to appear in reality television since, including a 2025 interview in which Teresa said publicly that she "never thought" she would go to prison over the case.
+
+The Giudices' case is a reminder that a bankruptcy filing is a sworn representation to a federal court, not a formality — and that the falsehoods prosecutors say fueled the case weren't limited to routine paperwork: concealing a genuinely new source of income, even one being broadcast on national television at the very moment it was denied under oath, is exactly the kind of concrete, checkable fact that can turn a civil bankruptcy into a federal criminal prosecution.`,
+  },
+);
