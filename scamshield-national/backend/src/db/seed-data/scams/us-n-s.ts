@@ -5290,3 +5290,16 @@ UsNS.push({
     isHistorical: true,
     firstRecorded: '2026-05-01',
 });
+
+UsNS.push({
+    name: 'Rhode Island "Speculative Ticket" Resale Crackdown',
+    slug: 'rhode-island-speculative-ticket-resale-scam',
+    description: `Rhode Island Attorney General Peter Neronha's office investigated a practice called "speculative ticketing," in which online resellers listed tickets to Rhode Island events for sale before the sellers actually owned them or had any contractual right to obtain them, banking on being able to buy the real tickets later — often for less than what the buyer had already paid — without ever disclosing to the buyer that the ticket didn't exist yet at the time of purchase. The investigation found the practice had flooded the market for "Hamilton" at the Providence Performing Arts Center alone, turning up more than 4,000 speculative listings that generated at least $214,000 in sales, with consumers paying an average of $479 per ticket against a $145 box-office price — and no guarantee the speculative seller would ever actually secure a seat matching what was advertised, or any seat at all. Announcing the resolution on June 27, 2019, Neronha's office reached settlements with three ticket brokers — Venue Kings Ticket Brokers Inc. of Vancouver, Front Row Tickets Inc. of Tarpon Springs, Florida, and National Tixx LLC of Burbank, California — requiring consent decrees that bar them from selling undisclosed speculative tickets to Rhode Island events going forward, along with civil penalties and refunds to affected Rhode Island consumers; Ticketmaster and StubHub cooperated with the investigation by pulling the flagged speculative listings from their platforms. "Deceptive practices in the ticket resale market confuse and rip off consumers, often inflating prices and not delivering what was paid for," Neronha said in announcing the settlements. Buyers shopping a resale marketplace for a sold-out show should be wary of a listing at a steep markup from face value with a generic or delayed delivery date, and should ask a reseller directly whether it currently holds the ticket being sold — a legitimate reseller can produce a real ticket number or barcode, while a speculative seller is only promising to find one later.`,
+    categorySlug: 'online-shopping-scams',
+    sources: ["Rhode Island Office of the Attorney General (Peter Neronha)"],
+    sourceUrl: 'https://riag.ri.gov/press-releases/attorney-general-neronha-takes-action-protect-consumers-speculative-ticket-sellers',
+    country: 'US',
+    state: 'RI',
+    isHistorical: true,
+    firstRecorded: '2019-06-27',
+});
