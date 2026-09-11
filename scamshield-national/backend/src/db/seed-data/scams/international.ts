@@ -10402,6 +10402,26 @@ International.push(
     sourceUrl: 'https://kuenselonline.com/news/email-scams-a-new-trend-in-online-fraud-cases',
     country: 'BT',
   },
+  {
+    name: 'Bhutan QNet Pyramid Scheme (GoldQuest Rebrand)',
+    slug: 'bhutan-qnet-goldquest-pyramid-scheme',
+    description: `The multi-level marketing scheme QNet — run in Bhutan through India's Vihaan Direct Selling Pvt. Ltd. — has resurfaced repeatedly despite being formally banned. Bhutan's then-Office of Consumer Protection, now the Competition and Consumer Affairs Authority (CCAA), declared QNet a pyramid scheme and banned it on 26 August 2022, the second time authorities have outlawed the same underlying operation: the Royal Monetary Authority banned an earlier version of it, marketed as "GoldQuest" and built around a gold-coin investment, back in 2003. Recruiters — often close family members, colleagues, or even former parliamentarians, civil servants, and teachers — pitch the scheme as a legitimate e-commerce or direct-selling "business opportunity" and ask new members to pay steep up-front fees, with earnings depending entirely on recruiting further downline members rather than any genuine product sales. Kuensel reported one recent case in which a Punakha businesswoman nearly lost Nu 650,000 after a former colleague persuaded her to invest, only for her to realize within days that it was a pyramid scheme. Despite the ban, cases keep surfacing: in one Paro police complaint, five Bhutanese accused nine others of cheating them out of Nu 2.14 million, and in a separate 2024 complaint one victim named 17 promoters — Bhutanese, Indian, and Australian — after losing Nu 614,000. Authorities warn that any scheme paying members for recruiting others, rather than for real product sales, is illegal in Bhutan and should be reported to the CCAA or police rather than joined.`,
+    categorySlug: 'ponzi-pyramid-schemes',
+    alertLevel: 'high',
+    sources: ['The Bhutanese', 'Kuensel'],
+    sourceUrl: 'https://thebhutanese.bt/many-bhutanese-still-losing-millions-to-qnet-despite-the-ban/',
+    country: 'BT',
+  },
+  {
+    name: 'Bhutan Fake Overseas Job Placement and Forged Visa Scam',
+    slug: 'bhutan-fake-overseas-job-placement-forged-visa-scam',
+    description: `Bhutan's Qualifications and Professionals Certification Authority (BQPCA) indefinitely suspended Yarab Global Education Consultancy and Placement Firm in June 2025 after finding it had exceeded its approved scope of operations, collaborated with unrecognized overseas agencies, issued forged documents, and continued unauthorized job placements for the United Kingdom and Canada. According to Bhutan Broadcasting Service (BBS) reporting based on interviews with affected clients and a review of their documents, the firm ran at least four recruitment batches between September 2023 and April 2025: eight clients in the first batch paid a combined Nu 1.397 million between September 2023 and June 2024 for caregiver jobs advertised through a WhatsApp group, while later batches collectively paid over Nu 7.5 million for Canadian farm work, more than Nu 1.4 million each for Canadian caregiver visas, and Nu 850,000 for a single farm-job placement. Clients were repeatedly sent to New Delhi for biometric submissions and shown video calls of what appeared to be approved visas, only for the Canadian High Commission in New Delhi to confirm on May 12, 2025 that the visas were forged — leaving several clients banned from entering Canada for up to five years. When clients sought refunds, the firm's CEO reportedly claimed he had himself been scammed by an Indian counterpart and repeatedly delayed repayment. The BQPCA forwarded the case to police in July 2025, and more than 30 people have filed formal complaints, with the investigation continuing through international cooperation. Bhutan's Ministry of Industry, Commerce and Employment warns jobseekers to verify any overseas recruiter's license before paying a single ngultrum, since unlicensed agents regularly advertise fake overseas job openings on social media.`,
+    categorySlug: 'employment-scams',
+    alertLevel: 'high',
+    sources: ['Bhutan Broadcasting Service (BBS)', 'Bhutan Qualifications and Professionals Certification Authority (BQPCA)'],
+    sourceUrl: 'https://www.bbs.bt/238327/',
+    country: 'BT',
+  },
 );
 
 International.push(
