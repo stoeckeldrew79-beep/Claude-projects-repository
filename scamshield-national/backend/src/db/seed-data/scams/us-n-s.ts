@@ -5492,3 +5492,15 @@ UsNS.push({
     country: 'US',
     state: 'RI',
 });
+
+UsNS.push({
+    name: 'Belt Parkway "Cash-for-Crash" Staged Collision Ring (Huiracocha & Murillo)',
+    slug: 'new-york-belt-parkway-staged-crash-insurance-fraud-ring',
+    description: `Jaime Huiracocha, 53, and Victor Murillo, 34, both of Brooklyn, staged three deliberate rear-end collisions on New York City highways between August and October 2024 — on the Belt Parkway near Erskine Street, on the Nassau Expressway near Cross Bay Boulevard, and again on the Belt Parkway in Rosedale — so that recruited passengers could file fraudulent injury claims against real drivers' auto insurers. According to the Queens County District Attorney's Office, Huiracocha recruited participants with promises of cash payouts and directed the scheme from a trailing vehicle, while Murillo drove the target car and deliberately braked hard or reversed into unsuspecting drivers to force a collision; immediately after each crash, Murillo climbed into the front passenger seat and fled the scene in a red Kia that had pulled in front of the wrecked car moments earlier, leaving the remaining occupants behind to climb out, feign injury, and follow instructions to visit specific medical clinics that built a paper trail of treatment records to support the claims. The scheme drew law enforcement attention after dashcam video of one of the staged collisions went viral online. Huiracocha pleaded guilty on May 27, 2026 to insurance fraud in the third degree and conspiracy in the fifth degree, and Murillo pleaded guilty to staging a motor vehicle accident in the second degree, insurance fraud in the fourth degree, and conspiracy in the fifth degree; Queens Supreme Court Justice Jerry Iannece sentenced Murillo on August 3, 2026 to two years in prison and sentenced Huiracocha on August 24, 2026 to one to three years, with two additional co-conspirators expected to be sentenced afterward. "Staged auto collisions...put other motorists at risk and ultimately lead to increased insurance costs for all New Yorkers," Queens District Attorney Melinda Katz said in announcing the sentencings, while Governor Kathy Hochul warned, "If you stage crashes, if you defraud New Yorkers, if you endanger lives, we will find you, we will prosecute you, and make you pay the price." A driver involved in a collision where the other vehicle braked suddenly and inexplicably, or whose passengers seemed uninjured at the scene but later report significant injuries, should photograph the vehicles and everyone present before anyone leaves, and can report suspected staged-crash fraud to New York's Insurance Fraud Hotline at 1-888-372-8369 or dfs.ny.gov/consumers.`,
+    categorySlug: 'insurance-fraud',
+    alertLevel: 'high',
+    sources: ['Queens County District Attorney', 'New York Department of Financial Services'],
+    sourceUrl: 'https://queensda.org/two-conspirators-sentenced-for-staging-car-crashes-on-new-york-city-highways/',
+    country: 'US',
+    state: 'NY',
+});
