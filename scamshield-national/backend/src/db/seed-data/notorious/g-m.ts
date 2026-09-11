@@ -7068,6 +7068,9 @@ NotoriousGM.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/opa/pr/texas-doctor-sentenced-85-years-prison-145-million-health-care-fraud-scheme',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/McKinney_April_2017_001_(Historic_Collin_County_Courthouse).jpg?width=1200',
+    coverImageCredit: 'Historic Collin County Courthouse, McKinney, Texas — where Taba practiced — by Michael Barera (CC BY-SA 4.0, Wikimedia Commons)',
     body: `Dr. Michael Taba was a practicing orthopedic surgeon in McKinney, Texas, when, prosecutors say, he turned patients injured on the job into raw material for one of the largest workers'-compensation fraud schemes the Justice Department has prosecuted. Rather than billing a private insurer or Medicare directly, the scheme targeted the U.S. Department of Labor's Office of Workers' Compensation Programs (OWCP), which pays medical costs for federal employees hurt while working — postal carriers, TSA officers, and other federal workers among them.
 
 The mechanism was compounded pain creams: topical medications custom-mixed by a pharmacy rather than manufactured in standard doses. Prosecutors said three pharmacies in Fort Worth and Arlington, Texas, paid Taba kickbacks to prescribe these creams to federal workers regardless of whether they were medically necessary, then billed OWCP as much as $16,000 for a single prescription that cost the pharmacies roughly $15 to actually produce — compounds often mixed not by licensed pharmacists but by untrained employees in a pharmacy back room. Between May 2014 and March 2017, prosecutors say, the scheme submitted $145 million in fraudulent claims to OWCP and was actually paid more than $90 million of that before it was caught.
