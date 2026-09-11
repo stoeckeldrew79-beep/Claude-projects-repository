@@ -7427,6 +7427,9 @@ Almost none of the underlying mining was actually happening. According to the Ju
 The two men didn't stop at HashFlare. In May 2017, they began marketing a related venture called Polybius, pitched as a forthcoming bank built specifically to serve cryptocurrency customers, with investors promised a cut of its future profits as dividends. Polybius raised at least $25 million of its own — including roughly $7 million funneled in from HashFlare proceeds — and, like the bank it promised to build, never materialized. Altogether, HashFlare and Polybius took in more than $577 million from over 440,000 customers worldwide, including tens of thousands of Americans who put in over $130 million.
 
 Potapenko and Turõgin were arrested in Tallinn in November 2022 and extradited to the United States, where each pleaded guilty in February 2025 to one count of conspiracy to commit wire fraud and agreed to forfeit assets worth more than $400 million, earmarked for a victim remission process. At sentencing in August 2025, a federal judge in Seattle handed down a term of time served — roughly sixteen months — despite calculating an advisory guidelines range of 30 years to life, a decision prosecutors have since appealed as too lenient. Whatever the sentence, the underlying fraud is a reminder that a dashboard showing a balance going up proves nothing about whether the activity behind it is real — the same blind trust in a number on a screen that made Bernie Madoff's fabricated statements believable for seventeen years.`,
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Bitcoin_mining_farm.jpg?width=1200',
+    coverImageCredit: 'Photo: Marko Ahtisaari, CC BY 2.0, via Wikimedia Commons',
   },
 );
 
@@ -7444,6 +7447,9 @@ Juan Tacuri, of Greenacres, Florida, became one of the scheme's most successful 
 Tacuri pleaded guilty to one count of conspiracy to commit wire fraud. In October 2024, U.S. District Judge Analisa Torres of the Southern District of New York sentenced him to the statutory maximum of 240 months — 20 years — in federal prison, followed by one year of supervised release. The court also ordered him to forfeit $3,610,718.67 along with a Florida home he had purchased in part with victim funds, and to pay at least that same amount in restitution to the people he defrauded.
 
 Forcount's pitch worked the way most guaranteed-return schemes do: a fixed, doubled payout in a fixed window, delivered by someone the investor already trusted from their own community rather than a stranger cold-calling out of nowhere. That combination — an unrealistic promise wrapped in the credibility of an in-group referral — is what let a scheme built on nothing keep drawing in new victims for as long as it did.`,
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Thurgood_Marshall_United_States_Courthouse_007.jpg?width=1200',
+    coverImageCredit: 'Photo: Kidfly182, CC BY 4.0, via Wikimedia Commons — Thurgood Marshall United States Courthouse, Southern District of New York, where Tacuri was sentenced',
   },
 );
 
