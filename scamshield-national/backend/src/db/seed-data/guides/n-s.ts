@@ -3739,6 +3739,10 @@ If you've rented from a large, multi-property landlord in recent years, there's 
     slug: "quantum-ai-investment-scam-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "quantum-ai-investment-scam"],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/White_smartphone_(photo)_on_a_hand_adult.jpg?width=1200',
+    coverImageCredit: 'Photo: MerveillePédia (CC BY-SA 3.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: "https://www.which.co.uk/news/article/quantum-ai-scams-warning-aRelP4u7EbDf",
     body: `"Quantum AI" is the name behind one of the most widely flagged investment scams operating today, and despite the name, it has nothing to do with real quantum computing — it borrows the term because it sounds cutting-edge and impossible for an ordinary investor to question. The pitch is always some version of the same promise: hand over a small amount of money, let a supposedly unbeatable AI trading algorithm invest it, and watch your balance grow with little effort and no real risk. Financial regulators in the United Kingdom, Ireland, Germany, Belgium, Canada, Australia, and New Zealand have all separately warned that firms operating under the Quantum AI name, and dozens of near-identical clones of it, are not authorized to offer financial services in their jurisdictions at all.
 
