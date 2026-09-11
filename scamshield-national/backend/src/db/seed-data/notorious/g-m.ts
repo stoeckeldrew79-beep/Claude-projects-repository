@@ -8149,3 +8149,20 @@ Ossie's case is a reminder that a guarantee is itself the tell in an investment 
     sourceUrl: 'https://www.cftc.gov/PressRoom/PressReleases/5948-10',
   },
 );
+
+NotoriousGM.push(
+  {
+    title: 'Joseph Signore\'s Virtual Concierge Machines: An $80 Million Ponzi Scheme Sold Kiosk by Kiosk',
+    slug: 'joseph-signore-virtual-concierge-machines-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    body: `Joseph Signore ran JCS Enterprises out of Jupiter, Florida, selling investors a piece of what he called Virtual Concierge Machines — freestanding kiosks, priced between $2,600 and $4,500 apiece, that businesses would supposedly host to print coupons and display local advertising, generating a share of ad revenue for whoever had bought in. Beginning around 2011, Signore and his business partner Paul Schumack II marketed the machines through YouTube videos, company websites, and mass emails — Schumack's pitches falsely claimed he'd graduated West Point in 1979 and leaned on Bible verses to build trust — promising investors annual returns of 80% to 120%, and as much as 500% over the life of a three- or four-year contract.
+
+The numbers didn't remotely match reality. JCS pre-sold more than 22,500 machines to roughly 1,800 investors nationwide, but fewer than 200 were ever manufactured and only 82 were actually installed anywhere; the machines that did exist generated a combined total of about $21,000 in real advertising revenue against tens of millions of dollars raised. Rather than build out the business investors thought they owned a piece of, Signore and Schumack used new investors' money to make "returns" payments to earlier ones, while diverting more than $2 million to Signore's own family, another $56,000 to restaurants, retail stores and a tanning salon, and moving roughly $4 million more through over 100 unexplained cash withdrawals. The SEC and federal prosecutors shut the operation down in 2014, by which point it had taken in an estimated $80 million.
+
+A federal jury in West Palm Beach convicted Signore in December 2015 on 34 counts of fraud and money laundering; Schumack was convicted alongside him on 23 counts, and Signore's estranged wife, Laura Grande-Signore, was convicted on 7 counts. In March 2016, Signore was sentenced to 20 years in federal prison — one of the longest sentences handed down in the case.
+
+Signore's scheme worked by selling investors something almost nobody involved had the means or the intention to actually build: a nationwide network of tens of thousands of advertising kiosks, pre-sold by the tens of thousands before even a fraction of the handful that existed were ever installed, on the strength of promotional videos and a business partner's fabricated West Point pedigree rather than any evidence the product worked.`,
+    sourceUrl: 'https://www.sec.gov/newsroom/press-releases/2014-70',
+  },
+);

@@ -7302,3 +7302,15 @@ UsAF.push({
     country: 'US',
     state: 'DC',
 });
+
+UsAF.push({
+    name: 'Houston City Treasurer Embezzlement (Jess Adams)',
+    slug: 'alaska-houston-city-treasurer-jess-adams-embezzlement',
+    description: `Jess Adams, 67, used the access and trust that came with two separate bookkeeping roles to embezzle a combined $1.16 million over six years from the small Alaska city of Houston and a Wasilla-based equipment company. As Houston's city treasurer from 2015 to 2018, Adams used his administrative access to the city's accounting software and bank accounts to transfer roughly $275,000 into his own personal account, disguising the transfers with false entries made to look like legitimate city business expenses. After leaving that post, he was hired in 2019 as bookkeeper for Alaska Electric and Control, which does business as Jewell Equipment Co. in Wasilla, and by 2022 had transferred another $888,000 of the company's money to himself along with more than $13,000 in cash withdrawals. Prosecutors said the stolen money paid for eight vehicles, firearms, more than $55,000 in Amazon purchases, over $90,000 in cash withdrawals, and roughly $60,000 at an auto repair shop, and that Adams failed to report any of it as income, evading about $320,000 in federal taxes in the process. He pleaded guilty to one count of wire fraud, eight counts of money laundering, and six counts of tax evasion — out of an original indictment covering 17 wire fraud counts, 8 money laundering counts, and 6 tax evasion counts — and on July 9, 2024, a federal judge sentenced him to 30 months in prison followed by three years of supervised release, ordering $1.5 million in restitution to the federal government along with additional restitution owed to the City of Houston and the equipment company; Adams apologized in court for "the inexcusable hurt and mistrust" his actions caused. The case is a reminder that a small municipality's finance office and a small private company's back office face the same risk from the same pattern — a single trusted bookkeeper with unsupervised access to both the books and the bank account — and both should require an independent second reviewer to reconcile statements against actual invoices and payroll on a regular schedule, not just when something already looks wrong.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'medium',
+    sources: ["U.S. Attorney's Office for the District of Alaska", 'IRS Criminal Investigation', 'Anchorage Daily News', 'Alaska Public Media'],
+    sourceUrl: 'https://www.justice.gov/usao-ak/pr/former-city-treasurer-alaska-sentenced-prison-wire-fraud-money-laundering-tax-evasion',
+    country: 'US',
+    state: 'AK',
+});
