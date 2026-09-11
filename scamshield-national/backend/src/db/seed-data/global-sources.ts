@@ -242,4 +242,40 @@ export const SEED_GLOBAL_SOURCES: SeedGlobalSource[] = [
       "Switzerland's federal cybersecurity office publishes a semi-annual situation report tallying voluntary and mandatory incident reports; fraud — including phishing and CEO fraud — has made up roughly half of all reports in recent editions. Reports are published in German, French, and English.",
     data_type: 'annual_report',
   },
+  {
+    agency_name: 'CERT Polska (NASK)',
+    country: 'PL',
+    country_name: 'Poland',
+    url: 'https://cert.pl/en/posts/2026/04/annual-report-2025/',
+    description:
+      "Poland's national computer emergency response team, run by the NASK research institute, publishes a detailed annual report covering large-scale fraud campaigns, phishing, SMS fraud, and malware activity observed on Polish networks — the closest Polish equivalent to a national cybercrime-and-fraud yearbook.",
+    data_type: 'annual_report',
+  },
+  {
+    agency_name: 'Watchlist Internet (ÖIAT)',
+    country: 'AT',
+    country_name: 'Austria',
+    url: 'https://www.watchlist-internet.at/',
+    description:
+      "Not a government agency — an independent, non-profit platform run by the Austrian Institute for Applied Telecommunications (ÖIAT), included here because it functions as Austria's de facto national fraud-warning service: documenting current online scam cases daily and taking public fraud reports through its own submission form.",
+    data_type: 'public_stats',
+  },
+  {
+    agency_name: 'RASI — Relatório Anual de Segurança Interna (SSI)',
+    country: 'PT',
+    country_name: 'Portugal',
+    url: 'https://www.ssi.gov.pt/en/publicacoes/rasi',
+    description:
+      "Portugal's Internal Security System has published this annual security report every year since 1989, compiling recorded-crime statistics — including burla (fraud/swindling) offences — drawn from roughly 25 security forces and services into one national figure.",
+    data_type: 'annual_report',
+  },
+  {
+    agency_name: 'Statistics Finland — Offences and Coercive Measures',
+    country: 'FI',
+    country_name: 'Finland',
+    url: 'https://stat.fi/en/statistics/rpk',
+    description:
+      'Finland has no single dedicated scam-reporting portal — victims report to the police — but Statistics Finland publishes fraud and payment-card-fraud victim counts, broken down by age group, as part of its quarterly-and-annual "Offences and coercive measures" statistics sourced from police records.',
+    data_type: 'annual_report',
+  },
 ];
