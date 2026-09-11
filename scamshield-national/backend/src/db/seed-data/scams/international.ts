@@ -13500,3 +13500,18 @@ International.push(
     country: 'CD',
   },
 );
+
+International.push(
+  {
+    name: 'Cook Islands Asset Protection Trust Used to Shield Ponzi Scheme Proceeds (FTC v. Anderson)',
+    slug: 'cook-islands-asset-protection-trust-ponzi-scheme-anderson',
+    description: `In FTC v. Affordable Media, LLC, 179 F.3d 1228 (9th Cir. 1999), the Ninth Circuit Court of Appeals upheld a civil contempt order against a Las Vegas couple, Michael and Denyse Anderson, after they used a Cook Islands asset protection trust to keep roughly $6 million in fraud proceeds beyond the reach of a federal court. The Andersons had raised at least $13 million from investors through Financial Growth Consultants and its telemarketing arm, Affordable Media, LLC, selling "media units" on a promise of a 50 percent return within 60 to 90 days — a scheme the Federal Trade Commission later showed was funded not by any real business activity but by using new investors' money to pay earlier ones. In July 1995, well before the FTC sued, the Andersons had set up an irrevocable trust in the Cook Islands with a local trustee, AsiaCiti Trust Limited, naming themselves both co-trustees and "trust protectors," and writing in a duress clause that automatically stripped their own trustee powers the moment any court tried to compel the trust's assets to move. When the FTC filed suit on April 23, 1998 and a federal judge in Nevada ordered the Andersons to repatriate the trust funds, they instructed AsiaCiti to comply — but the trustee refused, invoking the duress clause exactly as the trust had been designed to trigger. The district court held the Andersons in civil contempt on June 4, 1998 and had them taken into custody on June 17, 1998 for failing to comply with an order over assets they claimed they no longer had the legal power to reach; the Ninth Circuit affirmed, holding that the couple retained enough control as trust protectors that their claimed "impossibility" did not excuse compliance. The Andersons were released after roughly six months once the court concluded further incarceration would not coerce compliance, and although a judgment of nearly $26.6 million was entered against them, only about $1.2 million was ever recovered, through a December 2002 settlement with the trustee — the rest of the money stayed inside the Cook Islands trust structure precisely as its designers intended. The case remains one of the most-cited illustrations of how Cook Islands trust law — which does not recognize foreign court orders against Cook Islands trustees and permits duress clauses of this kind — can be used to place fraud proceeds outside the practical reach of U.S. courts and the victims who sued for it.`,
+    categorySlug: 'ponzi-pyramid-schemes',
+    alertLevel: 'medium',
+    sources: ['Federal Trade Commission (FTC)', 'U.S. Court of Appeals for the Ninth Circuit', 'Journal of Asset Protection'],
+    sourceUrl: 'https://law.justia.com/cases/federal/appellate-courts/ca9/98-16378/98-16378.html',
+    country: 'CK',
+    isHistorical: true,
+    firstRecorded: '1998-04-23',
+  },
+);
