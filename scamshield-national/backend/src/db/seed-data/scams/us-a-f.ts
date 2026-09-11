@@ -7058,3 +7058,16 @@ UsAF.push({
     isHistorical: true,
     firstRecorded: '2008-05-01',
 });
+
+UsAF.push({
+    name: 'Nocatee "Pineapple Corporation" Abandoned Custom Home Fraud (Spencer Calvert)',
+    slug: 'florida-nocatee-pineapple-corporation-calvert-homebuilder-fraud',
+    description: `Spencer Travis Calvert, owner of custom homebuilder Pineapple Corporation, took large deposits from buyers building homes in the Vista at Twenty Mile neighborhood of Nocatee, in St. Johns County, Florida, between 2019 and 2023, then misappropriated the money instead of using it to pay the subcontractors and cover the construction costs it was meant for. Projects were abandoned in every stage of incompletion — some homes had only a foundation poured, others had a roof but little else — leaving buyers to discover mechanic's liens filed against their own properties by subcontractors Calvert had never paid, on top of a half-finished house they now had to pay someone else to complete. The St. Johns County State Attorney's Office charged Calvert with 45 felony counts, including one count of organized scheme to defraud over $50,000, 16 counts of grand theft, one count of misappropriating construction funds over $100,000, and 27 additional misappropriation counts, after identifying 15 cooperating victims out of a larger group affected. Calvert pleaded guilty to all 45 counts in June 2026, and on July 29, 2026, Circuit Judge Christopher Ferebee sentenced him to five years in prison followed by 30 years of probation, with early termination possible once full restitution is paid; as part of the deal, Calvert paid $1 million toward the $8,722,659.05 total restitution owed at the sentencing hearing itself, distributed proportionally among the 15 victims, including reality-TV star Sandy Yawn of Bravo's "Below Deck Mediterranean." Anyone hiring a custom homebuilder for new construction is advised to tie every deposit and draw payment to a specific, inspected stage of completed work rather than paying far ahead of the work performed, to independently confirm with subcontractors and suppliers that they have actually been paid before releasing further funds, and to check a builder's complaint history and licensing status with the Florida Department of Business and Professional Regulation before signing a contract.`,
+    categorySlug: 'home-improvement-solar',
+    sources: ['St. Johns County State Attorney\'s Office', 'News4JAX', 'Action News Jax'],
+    sourceUrl: 'https://www.news4jax.com/news/local/2026/07/29/victims-expected-to-share-impact-of-st-johns-county-homebuilders-fraud-at-sentencing-hearing/',
+    country: 'US',
+    state: 'FL',
+    isHistorical: true,
+    firstRecorded: '2019-01-01',
+});

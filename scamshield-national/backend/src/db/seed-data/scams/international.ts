@@ -14092,4 +14092,14 @@ International.push(
     sourceUrl: 'https://meduza.io/news/2026/09/08/larisa-dolina-otsudila-114-millionov-rubley-u-osuzhdennyh-po-delu-o-moshennichestve-s-ee-kvartiroy-vyplachivat-ih-budut-kurier-i-dropper',
     country: 'RU',
   },
+  {
+    name: 'Gosuslugi State Services Portal Account Takeover Fraud',
+    slug: 'russia-gosuslugi-account-takeover-fraud',
+    description: `Russia's Ministry of Internal Affairs (MVD) reported that fraudulent access to Gosuslugi accounts — the state portal Russians use for everything from tax filings to medical records — struck roughly 50,000 citizens in 2024, nearly double the number of cases recorded in 2023, and came to account for about 90 percent of all unauthorized-computer-access cases opened by police that year. Investigators and cybersecurity researchers describe several recurring methods: fraudsters build convincing lookalike phishing sites at domains such as "gosuslugi-login.ru" or "gosuslugi-auth.com" and harvest the login and password entered there; they buy up old, disconnected mobile numbers that are still listed as the recovery contact on a dormant Gosuslugi account and use them to reset the password directly; and, in a scheme that spread through 2025, callers posing as bank, telecom, or government employees talk victims into reading out a one-time SMS code under the pretext of "verifying" their identity, or into issuing an electronic power of attorney through the government's Gosklyuch app on the false premise that it is needed to "update" their records — actually handing the caller full control of the account. Once inside, criminals have used hijacked accounts to take out microloans in the victim's name, redirect their tax refunds to an attacker-controlled bank account, or harvest enough personal data to commit further identity fraud, and police say only a small fraction of these cases — a little over 2,000 out of tens of thousands — have been solved. Russian banks and the MVD advise typing "gosuslugi.ru" directly into the browser rather than following a link, treating any unsolicited call asking for an SMS code or an electronic power of attorney as fraud, and enabling two-factor authentication on the account.`,
+    categorySlug: 'account-takeover',
+    alertLevel: 'high',
+    sources: ['Russian Ministry of Internal Affairs (MVD)', 'RBC', 'Gazprombank'],
+    sourceUrl: 'https://www.anti-malware.ru/news/2025-06-02-111332/46222',
+    country: 'RU',
+  },
 );
