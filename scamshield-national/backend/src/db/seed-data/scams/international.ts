@@ -13286,3 +13286,16 @@ International.push(
     country: 'AD',
   },
 );
+
+International.push(
+  {
+    name: 'Andorra Fake Package Delivery SMS Smishing Scam',
+    slug: 'andorra-fake-package-delivery-sms-smishing-scam',
+    description: `Diari d'Andorra reported on April 19, 2026 that a wave of fraudulent parcel-delivery text messages, using a technique called "smishing" (SMS phishing), was spreading through the principality and letting scammers link victims' bank cards and drain their accounts within minutes. The messages claim to come from a postal or courier company such as Correus, telling the recipient a package addressed to them is being held and cannot be delivered, and they attach a link to resolve the supposed problem. To make the trap feel low-risk, the linked page typically asks for only a small payment — often around €2 — described as a customs, handling, or "unblocking" fee needed to release the parcel. Entering card details to pay that trivial amount actually hands the full card number, expiry date, and security code to the scammers, who use it — sometimes together with a one-time verification code phished in a follow-up message or call — to register the card with a mobile payment service or make fraudulent purchases, emptying the account before the victim realizes no parcel ever existed. Police repeated the warning on social media on August 1, 2026 as a fresh round of near-identical delivery-themed texts circulated, again confirming that no real package or address problem lies behind any such message. Authorities and banks have urged recipients to delete this type of SMS without clicking the link, to never enter card details to "unblock" a delivery, to check any shipment status only through a carrier's official app or site typed in directly, and to contact their bank immediately to block the card if details were already entered.`,
+    categorySlug: 'package-delivery-scams',
+    alertLevel: 'high',
+    sources: ["Diari d'Andorra", "Policia d'Andorra", 'Alto.ad'],
+    sourceUrl: 'https://www.alto.ad/other/2026/08/andorra-phishing-scam-package-delivery-texts',
+    country: 'AD',
+  },
+);
