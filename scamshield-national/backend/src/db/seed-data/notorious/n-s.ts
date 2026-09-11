@@ -4576,7 +4576,10 @@ NotoriousNS.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/usao-ct/pr/killingly-man-admits-stealing-775k-nonprofits-windham-and-middlefield',
-    // no rights-cleared photo identified — sourceUrl above serves as the "read the full story" link
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Richard_C._Lee_Courthouse,_New_Haven_CT.jpg?width=1200',
+    coverImageCredit: 'U.S. General Services Administration, Public Domain, via Wikimedia Commons',
+    coverImagePosition: 50,
     body: `Note: Ryan Fitzgibbons pleaded guilty to wire fraud, so his guilt on that charge is not in dispute. But as of this writing he has not yet been sentenced — a hearing is scheduled for December 2, 2026 — so the prison term described below as a statutory maximum is not a settled final sentence.
 
 Ryan Fitzgibbons, 44, of Killingly, Connecticut, spent nearly two years as executive director of Holy Family Home & Shelter (HFHS) in Windham, a charity that provides emergency and temporary housing to people facing homelessness. Between November 2021 and June 2023, federal prosecutors say, he embezzled approximately $734,683 from the shelter by transferring money directly from its bank accounts into his own, making unauthorized debit card purchases and ATM withdrawals, and writing shelter checks to himself and to "cash." To keep the board from noticing, he gave them falsified financial and donation reports that concealed the gap the thefts were leaving in the shelter's accounts. He was fired in September 2023 once the discrepancies surfaced.
