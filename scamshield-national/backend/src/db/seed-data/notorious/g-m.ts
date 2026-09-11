@@ -6884,3 +6884,20 @@ Sowerby pleaded guilty to a single count of wire fraud, resolving all three fede
 Sowerby's case illustrates a durable pattern in investment fraud: a scheme doesn't need one clever hook to survive for six years, it needs the willingness to abandon a name the moment it draws scrutiny and reopen under a new one, wrapped in whichever piece of speculative technology — mining rigs, storage contracts, a trading "bot" — happens to be generating the most public excitement at the time.`,
   },
 );
+NotoriousGM.push(
+  {
+    title: 'Lucas Lee-Tyson, Osmany Batte, and the Growth Cave "Business Opportunity" That Cost a Ferrari and a Rolls-Royce',
+    slug: 'lucas-lee-tyson-growth-cave-business-opportunity-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2026/01/ftc-secures-settlement-banning-growth-cave-defendants-marketing-selling-business-opportunities',
+    // no rights-cleared photo identified — sourceUrl above serves as the "read the full story" link
+    body: `Growth Cave marketed itself as a business-coaching program that could teach ordinary people, through paid courses and coaching packages, how to build a profitable online marketing agency or start their own business — the kind of "flip this skill into a business" pitch that has become a mainstay of social-media advertising. Co-CEOs Lucas Lee-Tyson and Osmany Batte ran it alongside an affiliated credit-repair operation, marketed through related entities including LLT Research and Apex Mind, that promised to fix consumers' credit scores.
+
+The Federal Trade Commission sued Growth Cave, Lee-Tyson, Batte, operations manager Jordan Marksberry, and several related corporate entities in February 2025, alleging the defendants used deceptive earnings claims to sell business opportunities and credit-repair services that consistently failed to deliver what was promised, and that consumers who tried to get refunds or support ran into a wall of unresponsiveness. The FTC put the total consumer harm at close to $50 million.
+
+Marksberry settled first, in August 2025. The remaining defendants reached final settlements approved by the court, with the FTC announcing the resolution on January 27, 2026. The orders permanently ban Lee-Tyson, Batte, and the corporate defendants from ever again marketing or selling business opportunities or credit-repair services, or making misleading earnings or AI-related claims in any venture. The settlement entered a monetary judgment of $48,597,538 against the defendants, though most of it was suspended based on documented inability to pay in full — a common outcome in FTC cases once a defendant's actual assets are accounted for. What could be collected was collected in kind rather than cash: Lee-Tyson was ordered to sell a multimillion-dollar house and liquidate investment accounts, and Batte was ordered to give up a Rolls-Royce and a Ferrari, with relief defendant Friendly Solar required to turn over roughly $43,000.
+
+The Growth Cave settlement is a civil resolution, not a criminal conviction — nobody involved was charged with a crime, and the defendants settled without admitting wrongdoing, as is standard in FTC consumer-protection cases. What makes it notable is how visibly the FTC tied the penalty to the defendants' own lifestyle: rather than a purely paper judgment, the order named the specific luxury assets — the house, the Rolls-Royce, the Ferrari — that had been purchased with money the agency said came from consumers who bought a business opportunity that didn't deliver one.`,
+  },
+);
