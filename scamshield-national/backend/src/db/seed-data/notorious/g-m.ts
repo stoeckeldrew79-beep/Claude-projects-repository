@@ -7200,3 +7200,22 @@ The FCA did not stop at the criminal conviction. At a further hearing at Southwa
 Burford's case is a reminder that a trader's public writing — articles, a published book, years of confident market commentary — is marketing, not a credential, and says nothing about whether the person behind it is legally authorised to manage a subscriber's money. In the UK, the FCA's Financial Services Register lets anyone check in minutes whether a person or firm offering investment services is actually authorised to do so; in the United States, FINRA's BrokerCheck and the SEC's Investment Adviser Public Disclosure database serve the same purpose. A compelling personal brand built entirely outside that registration is, by itself, a reason to check rather than a substitute for checking.`,
   },
 );
+
+NotoriousGM.push(
+  {
+    title: '"Real Housewife" Jen Shah and the Telemarketing Scheme That Sold Elderly Victims Nothing',
+    slug: 'jen-shah-real-housewives-telemarketing-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-sdny/pr/reality-show-cast-member-jennifer-shah-sentenced-78-months-prison-running-nationwide',
+    body: `Jennifer "Jen" Shah spent years building a public persona as a successful Salt Lake City businesswoman before joining the cast of Bravo's "The Real Housewives of Salt Lake City" in 2020, presenting herself on camera as a self-made marketing mogul. Federal prosecutors say the business behind that image was, for nearly a decade, a nationwide telemarketing fraud operation that had nothing to do with the "expert" services it claimed to sell.
+
+According to the U.S. Attorney's Office for the Southern District of New York, from at least 2012 until her arrest in March 2021, Shah was "an integral leader" of a scheme that sold victims so-called "business services" — coaching packages and lead lists pitched as tools to help people build their own online businesses — that in reality were often reused, outdated, or entirely worthless. Telemarketers working the scheme specifically targeted older and otherwise vulnerable victims, many of whom were repeatedly resold the same "services" or added to "reload" lists that marked them as easy, repeat targets for further pitches once they had already paid once. Shah's longtime personal assistant, Stuart Smith, worked alongside her as a co-defendant in running the operation.
+
+Shah was indicted in March 2021 alongside Smith and other co-defendants, and the arrest — and her decision to keep filming "Housewives" episodes referencing the looming case, including her now-famous line "not guilty, bitch" as she was led away by agents — became a plotline on the show itself even as the criminal case proceeded off-camera. She initially pleaded not guilty and fought the charges for over a year before changing her plea in July 2022, admitting to one count of conspiracy to commit wire fraud in connection with telemarketing.
+
+U.S. District Judge Sidney H. Stein sentenced Shah on January 6, 2023, to 78 months — six and a half years — in federal prison, along with five years of supervised release. The court also ordered her to forfeit $6.5 million along with 30 luxury items and 78 counterfeit luxury goods seized from her properties, and to pay $6,645,251 in restitution to her victims. Shah self-surrendered to FPC Bryan, a minimum-security federal prison camp in Texas, in February 2023. After serving roughly three years, she was moved into a Bureau of Prisons community confinement program in late 2025 to finish the remainder of her sentence in a halfway house and home confinement.
+
+Shah's case is a reminder that a scam's packaging can be almost entirely separate from its substance: the victims here weren't sold a fake stock tip or an impossible investment return, but ordinary-sounding "business services" whose actual value collapsed the moment anyone checked what they'd actually received for their money — and that a polished, camera-ready public identity is no evidence at all of what's funding the lifestyle behind it.`,
+  },
+);
