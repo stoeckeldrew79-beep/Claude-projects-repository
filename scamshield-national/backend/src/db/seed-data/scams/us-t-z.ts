@@ -2947,3 +2947,17 @@ UsTZ.push({
     isHistorical: true,
     firstRecorded: '2025-10-13',
 });
+
+UsTZ.push({
+    name: 'Wyoming and Colorado "Atlantic Publishers" Magazine Renewal Scam',
+    slug: 'wyoming-atlantic-publishers-magazine-subscription-scam',
+    description: `Dennis Simpson and John Ackermann ran a magazine subscription business first as Atlantic Publishers Group, LLC out of Colorado, then, after Colorado's Attorney General opened an investigation, relocated the operation to Cheyenne and continued it under the name Publishers Partnership Services, LLC, along with related entities Customer Publication Services, LLC and Endeavor Daily, LLC. From 2016 through 2019, the companies mailed millions of solicitations across the country designed to look like official renewal notices from consumers' actual magazine publishers — complete with invoice-style formatting and language urging immediate payment — when in fact the mailers had no affiliation with the magazines at all and charged far more than a subscriber's real renewal rate. One 94-year-old Colorado woman sent more than $60 to Atlantic Publishers believing she was renewing her Time subscription. Colorado Attorney General Phil Weiser sued in November 2019, and after the operation resurfaced in Wyoming, Attorney General Bridget Hill's office filed its own suit there in January 2021; hundreds of complaints had come in to both states and the Better Business Bureau, the large majority from consumers over age 60. The two offices announced a joint settlement on May 11, 2021 requiring the defendants to pay $500,000 to each state — over $1 million combined — and permanently banning Simpson, Ackermann, and their companies from operating a magazine subscription business in either Colorado or Wyoming, as well as from sending the deceptive renewal-style mailers to consumers there. "Overcharging and misleading older consumers into thinking that the mailers were renewal notices is unconscionable," Weiser said, while Hill called the case an example of "the value of interstate coordination" in stopping an operation that had simply moved states to dodge scrutiny. Consumers should be wary of any magazine renewal notice that arrives as an unsolicited mailer rather than through the subscription's original vendor, should call the magazine's publisher directly using the number on its own website — not one printed on the mailer — to confirm a renewal price and true expiration date, and can report a suspected fake renewal notice to their state Attorney General's consumer protection office, since real publishers virtually never delegate renewal billing to an unaffiliated third-party mail solicitor.`,
+    categorySlug: 'subscription-traps',
+    alertLevel: 'medium',
+    sources: ["Wyoming Attorney General's Office (Bridget Hill)", "Colorado Attorney General's Office (Phil Weiser)"],
+    sourceUrl: 'https://coag.gov/press-releases/5-11-21/',
+    country: 'US',
+    state: 'WY',
+    isHistorical: true,
+    firstRecorded: '2021-05-11',
+});
