@@ -4241,6 +4241,10 @@ NotoriousAF.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://en.wikipedia.org/wiki/Murder_of_Abraham_Shakespeare',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Skyline_of_Tampa,_Florida_from_Bayshore_Blvd.jpg?width=1200',
+    coverImageCredit: 'Tampa Gator, Public Domain, via Wikimedia Commons',
+    coverImagePosition: 50,
     body: `Abraham Shakespeare, a warehouse worker in Polk County, Florida, won a $30 million Florida Lotto jackpot on November 15, 2006, and took the lump-sum payout of roughly $17 million. He bought a home in a gated community but otherwise lived modestly, and locally he quickly became known as an easy target: friends, relatives, and strangers alike showed up asking for money, and Shakespeare — who struggled to read — had no formal financial advisor or legal structure protecting what was left of his winnings.
 
 In October 2008, a woman named Dorice "Dee Dee" Moore introduced herself to Shakespeare, telling him she was writing a book about people trying to take advantage of a lottery winner. Over the following months she made herself indispensable, positioning herself as the one person looking out for his interests while everyone else circled his money. In early 2009 she formed a company, Abraham Shakespeare LLC, giving herself control of its accounts, and withdrew roughly $1 million that she used to buy herself a Hummer, a Chevrolet Corvette, and a truck. On January 9, 2009, Shakespeare signed a quitclaim deed transferring his $1.1 million house to another Moore-controlled entity, American Medical Professionals LLC; Moore later claimed she had paid $655,000 for the property, but no evidence of any such payment was ever produced.
