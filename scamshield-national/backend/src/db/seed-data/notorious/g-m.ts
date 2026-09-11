@@ -5117,6 +5117,10 @@ NotoriousGM.push(
     slug: 'myron-goodman-mordecai-weissman-opm-leasing-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/NASAComputerRoom7090.NARA.jpg?width=1200',
+    coverImageCredit: 'Photo: NASA / National Archives (public domain) — an IBM mainframe computer room, representative of the leased machines at the center of the O.P.M. fraud',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     body: `Mordecai Weissman and Myron Goodman were childhood friends who started a computer-leasing company above a Brooklyn sweet shop in 1970. O.P.M. Leasing Services borrowed money from banks and insurers to buy IBM mainframe computers, then leased the machines to blue-chip customers — among them Rockwell International, Merrill Lynch, Xerox, American Express, and General Motors — pledging the computers and the lease payments themselves as collateral for the loans that financed each purchase. The name officially stood for "Other People's Machines." Inside the industry, it was soon joked to really mean Other People's Money.
 
 Starting around 1972, Weissman and Goodman began forging and altering leases, pledging the same lease as collateral for multiple loans at once, inflating the value of real leases, and — in the scheme's largest iteration — fabricating leases for computers that Rockwell International had never actually agreed to rent and that, in many cases, did not exist at all. Between 1978 and February 1981, the forged Rockwell paperwork alone induced nineteen lending institutions to buy notes worth $190.4 million.
