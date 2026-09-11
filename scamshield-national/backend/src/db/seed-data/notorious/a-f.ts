@@ -7267,3 +7267,21 @@ Mobley's fund never had anything close to the assets, or the track record, it cl
     coverImageCredit: 'Photo: AgnosticPreachersKid, CC BY-SA 3.0, via Wikimedia Commons — SEC headquarters, which filed the emergency enforcement action against Mobley',
   },
 );
+NotoriousAF.push(
+  {
+    title: 'Efrain Betancourt Jr. and the $66 Million "Payday Loan" Ponzi Scheme That Targeted Venezuelan Americans',
+    slug: 'efrain-betancourt-sky-group-usa-ponzi',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-sdfl/pr/mastermind-payday-loan-scheme-receives-over-seven-years-prison',
+    body: `Starting around January 2016, Efrain Betancourt Jr. ran Sky Group USA LLC out of Miami, pitching it to investors as a payday-loan company: put money in through a promissory note, and Sky Group would lend it out to short-term borrowers at high interest, passing a share of that interest back as your return. The promised yields were extraordinary — 24 to 120 percent annually, according to the SEC — but the pitch worked because the underlying business sounded plausible and unglamorous, not because it dangled crypto riches or a celebrity endorsement.
+
+Betancourt marketed Sky Group heavily within South Florida's Venezuelan-American community, many of whom were looking for a safe place to preserve savings amid Venezuela's economic collapse and had reason to distrust both their home country's institutions and unfamiliar American financial products. A promissory note sold by a fellow Spanish-speaking businessman, promising steady returns from something as mundane as payday lending, read as safer than it was. Between January 2016 and March 2020, Sky Group raised more than $66 million from over 600 investors, the large majority of them Venezuelan nationals.
+
+There was no payday-lending operation capable of generating anything close to the promised returns. According to the SEC's civil complaint, Betancourt used at least $19.2 million from newer investors to pay off earlier ones — the defining mechanic of a Ponzi scheme — while diverting at least $2.9 million to his own personal expenses, including a chateau wedding in France, a luxury condominium on Miami's Biscayne Boulevard, jewelry, airplane maintenance, and family vacations, and funneling roughly $3.6 million more to friends, family members, and a company controlled by his ex-wife.
+
+The SEC sued Sky Group and Betancourt civilly in September 2021, freezing assets and eventually barring him from serving as an officer or director of a public company. Criminal charges followed years later: a federal grand jury indicted Betancourt on September 12, 2024, and the case was unsealed after he was arrested reentering the United States on November 14, 2024, charging him with conspiracy to commit mail and wire fraud and substantive wire fraud, exposing him to a maximum of 140 years in prison. Betancourt pleaded guilty on May 21, 2025, and on August 14, 2025, U.S. District Judge Darrin P. Gayles sentenced him to 87 months in federal prison, to be followed by three years of supervised release.
+
+Sky Group's appeal wasn't a flashy new asset class — it was an old-fashioned lending business, run in Spanish, by someone who understood exactly which community's trust and financial anxieties he was positioned to exploit. That combination, more than any specific promise about payday-loan interest rates, is what let a $66 million fraud recruit 600 investors one referral at a time before regulators ever caught up to it.`,
+  },
+);
