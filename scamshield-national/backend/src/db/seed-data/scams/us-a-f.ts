@@ -7156,3 +7156,15 @@ UsAF.push({
     country: 'US',
     state: 'CT',
 });
+
+UsAF.push({
+    name: 'California CalFresh EBT Skimming and Chip-Card Response',
+    slug: 'california-calfresh-ebt-skimming-chip-card-response',
+    description: `California recipients of CalFresh (the state's name for SNAP) and CalWORKs cash benefits have for years been targeted by card skimmers who plant hidden devices on retailer point-of-sale terminals and ATMs, then clone the captured card numbers and drain benefits the moment they're deposited each month — the same underlying scheme other states have warned about, but with an unusually high-stakes twist in California: federal authority for states to reimburse stolen SNAP benefits expired on December 20, 2024 and Congress has not renewed it, leaving California and Maryland as the only two states that still reimburse victims at all, doing so entirely out of their own state funds. In January 2024, before California's countermeasures took hold, the state paid out roughly $20.9 million in a single month replacing stolen benefits. Starting in February 2025, California became the first state in the nation to roll out chip-and-tap EBT cards, whose embedded microchips are far harder to clone than the older magnetic-stripe design, with roughly 4 million of the new cards issued by the end of April 2025; combined with a predictive machine-learning fraud model, an aggressive PIN-reset program, and a card-freeze feature used more than 9.5 million times since 2023, the state says total benefit theft fell 83% by November 2025, down to about $4 million reimbursed that month, alongside 190 arrests and the seizure of hundreds of skimming devices. "We remain steadfast in our commitment to stopping benefit theft and protecting the resources our families rely on," said California Health and Human Services Agency Secretary Kim Johnson. CalFresh and CalWORKs recipients are advised to use the ebtEDGE app or website to freeze their card whenever it isn't actively being used, block out-of-state transactions if they don't travel, request a chip-enabled card replacement if they haven't received one, and report any suspected theft to their county human-services office immediately — since even with California's own state-funded replacement program, CalFresh benefits stolen electronically can only be replaced up to two times per federal fiscal year.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'medium',
+    sources: ["Office of Governor Gavin Newsom", 'California Health and Human Services Agency'],
+    sourceUrl: 'https://www.gov.ca.gov/2026/01/16/california-reduces-theft-of-food-and-cash-benefits-by-83-with-state-of-the-art-technology/',
+    country: 'US',
+    state: 'CA',
+});
