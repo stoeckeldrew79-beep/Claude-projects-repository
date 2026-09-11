@@ -12821,3 +12821,16 @@ International.push(
     country: 'KM',
   },
 );
+
+International.push(
+  {
+    name: 'Aruba Romance Scams Targeting Seniors, Warns FIU-Aruba',
+    slug: 'aruba-fiu-romance-scam-warning-seniors',
+    description: `The Financial Intelligence Unit Aruba (FIU-Aruba) issued a public warning on August 18, 2020, after identifying a recurring pattern of romance scams in which Aruban residents — often older and emotionally vulnerable women — send money abroad to people they met online while believing they are in a genuine romantic relationship. FIU-Aruba described a consistent playbook: the scammer builds a fake profile, frequently posing as a foreign military officer, police official, or businessman working overseas, and reaches out through dating sites or social media. The relationship develops gradually, with the scammer gradually winning the victim's trust through love stories and promises of a shared future, before introducing a sudden crisis — a medical emergency, a detained shipment, unpaid travel costs to finally meet in person, or a business setback — that only the victim's money can solve. FIU-Aruba noted that these operators typically use fabricated identities built from stolen photos and videos, prepaid phones, concealed or rerouted internet connections, and multiple email addresses to make themselves difficult to trace once a victim grows suspicious or a relationship goes cold, and that after one payment is sent further "emergencies" tend to follow. The agency acknowledged that money sent this way is very rarely recovered, but urged victims to report the fraud to the police anyway, since even reports that cannot lead to restitution help investigators identify patterns and warn others before they send money to the same profiles. FIU-Aruba's broader advice to the public was to treat any online romantic partner who has never been met in person and who eventually asks for money as a serious warning sign, regardless of how long the relationship has developed or how convincing the story behind the request for funds.`,
+    categorySlug: 'romance-scams',
+    alertLevel: 'high',
+    sources: ['Financial Intelligence Unit Aruba (FIU-Aruba)'],
+    sourceUrl: 'https://www.fiu-aruba.com/2020/08/18/waarschuwing-voor-romance-scams/',
+    country: 'AW',
+  },
+);
