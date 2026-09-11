@@ -1904,6 +1904,10 @@ NotoriousTZ.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://wgme.com/news/local/california-man-sentenced-for-attempting-to-scam-92-year-old-new-hampshire-woman-crime-yalei-li-tech-support-scam-scammer-theft-by-deception',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/NashuaNH_HillsboroughCountyCourthouse.jpg?width=1200',
+    coverImageCredit: 'Photo: Magicpiano, Wikimedia Commons (CC BY-SA) — the historic Hillsborough County Courthouse in Nashua, New Hampshire, the county where Yalei Li was tried',
+    coverImagePosition: 50,
     body: `A 92-year-old woman in Pelham, New Hampshire, was working on her Apple computer when a pop-up alert appeared warning that she'd been hacked, with a phone number to call for help. She called it, and reached a man who identified himself as "Sam Harwell" from Apple. He transferred her to a second man, "Christopher," who claimed to work for her bank, Enterprise Bank, and told her that her accounts had been compromised — the money needed to be moved somewhere safe immediately, and an agent of the bank would come collect it in person.
 
 On April 3, 2025, following the callers' instructions, she withdrew $20,000 in cash, which was picked up at her home by a man using the alias "Jack." Days later, the callers came back asking for another $50,000. This time, something didn't sit right with her, and she called the police instead of the bank. When a man arrived at her door on the night of April 8, 2025, to collect the second payment, officers were already there waiting. That man was Yalei Li, 39, of Rosemead, California, who had traveled across the country to pick up the cash.
@@ -1921,6 +1925,10 @@ NotoriousTZ.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.atg.wa.gov/news/news-releases/ag-ferguson-reed-hein-pay-261-million-resolve-timeshare-exit-scheme-lawsuit',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Seattle_-_City_Hall_Park_%26_King_County_Courthouse_P.jpg?width=1200',
+    coverImageCredit: 'Photo: Joe Mabel, Wikimedia Commons (CC BY-SA 3.0) — the King County Courthouse in Seattle, where Washington sued Reed Hein & Associates over the Timeshare Exit Team scheme',
+    coverImagePosition: 50,
     body: `Brandon Reed was selling gutters when he noticed something at a trade show in 2012: a long line of people waiting at a booth offering to get them out of their timeshare contracts. He and Trevor Hein turned that observation into Reed Hein & Associates LLC, a Washington state company doing business as "Timeshare Exit Team," built around a simple, aggressive promise blasted across national television and radio ads: "We'll get you out of your timeshare contract, or give you every penny back."
 
 The company grew fast, eventually operating around 30 offices across the United States plus one in Canada and signing up roughly 32,000 clients nationwide, who paid upfront fees the Washington Attorney General's lawsuit put as high as $8,795 per timeshare — with some clients elsewhere reporting bills running into the tens of thousands of dollars for a single exit. What many of those clients got in exchange for the fee, according to the state's investigation, was not a negotiated release from their timeshare at all: in many cases, Reed Hein's own employees simply handed clients a hardship-letter script to send to the resort themselves, or advised them to stop paying their timeshare maintenance fees and mortgage outright — advice that, rather than producing a clean legal exit, tended to push the client's account into default and foreclosure, wrecking their credit instead of freeing them from the contract.
