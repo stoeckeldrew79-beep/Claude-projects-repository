@@ -5471,3 +5471,17 @@ UsGM.push({
     isHistorical: true,
     firstRecorded: '2026-07-20',
 });
+
+UsGM.push({
+    name: 'Moberly Fake-Landlord Pandemic Rental Assistance Fraud (Steven Hendren)',
+    slug: 'missouri-moberly-hendren-safhr-pandemic-rental-assistance-fraud',
+    description: `Steven W. Hendren, 34, of Moberly, Missouri, submitted a string of fraudulent applications from March 2021 through June 2024 to Missouri's State Assistance for Housing Relief (SAFHR) program, a federally funded, pandemic-era benefit administered by the Missouri Housing Development Commission to help cover back rent and utility bills for struggling tenants and the landlords who housed them. To get the money, Hendren falsely represented himself as a landlord, submitting fabricated lease agreements and financial statements for renters, and in other applications altered real leases and financial records to inflate the rent amounts he was claiming. The scheme brought him $284,840 in fraudulent benefit payments, which prosecutors say he spent largely on personal expenses, including buying a 2020 GMC Yukon. Hendren pleaded guilty in June 2026 to one count of wire fraud, and was sentenced in the U.S. District Court for the Eastern District of Missouri to 27 months in federal prison and ordered to repay the full $284,840 to the program. The case is part of a broader wave of prosecutions targeting people who exploited pandemic-era rental assistance programs by inventing landlord identities and paperwork that program administrators, moving quickly to get emergency aid out the door, had limited ability to verify in real time. It's a reminder for state and local housing agencies still processing older SAFHR-style claims, and for landlords asked to co-sign or verify a tenant's benefit application, to independently confirm that anyone claiming to be a property's landlord actually appears on the deed or a matching lease filed with the county before releasing any funds tied to that claim.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'medium',
+    sources: ["U.S. Attorney's Office, Eastern District of Missouri", 'FBI St. Louis Field Office', 'FOX 2 St. Louis'],
+    sourceUrl: 'https://www.fbi.gov/contact-us/field-offices/stlouis/news/missouri-man-sentenced-for-284000-pandemic-rental-assistance-fraud',
+    country: 'US',
+    state: 'MO',
+    isHistorical: true,
+    firstRecorded: '2021-03-01',
+});
