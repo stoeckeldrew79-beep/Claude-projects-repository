@@ -7968,3 +7968,22 @@ On August 17, 2005, U.S. District Judge Barbara Jones sentenced Myers to one yea
     sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-17753',
   },
 );
+
+NotoriousAF.push(
+  {
+    title: 'Evangelos Drosos: The Accountant Who Ran a Ponzi Scheme on His Own Clients',
+    slug: 'evangelos-drosos-bergen-county-accountant-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    body: `Evangelos Drosos built his career as a working accountant in Glen Rock, New Jersey — the kind of credentialed, familiar professional whose word people take on faith when it comes to their money. Starting in 2013, according to the U.S. Attorney's Office for the District of New Jersey, Drosos used several businesses he controlled to solicit funds from clients and other investors, telling them he would manage their money through legitimate investment strategies.
+
+He didn't. Prosecutors say Drosos never actually invested the money as described, instead commingling client deposits across his various accounts and using the cash to make payments to earlier investors that looked like investment returns — the defining structure of a Ponzi scheme — while diverting a substantial share into his own life, including vacations, a luxury vehicle, and real estate. Over roughly twelve years, Drosos caused victims to send him more than $10 million.
+
+The scheme ran out of room in June 2024, when Drosos no longer had enough new money coming in to keep paying out the old. Rather than let the shortfall surface, he turned to check-kiting: writing checks that exceeded what was actually sitting in his accounts, then rapidly depositing and withdrawing funds between different banks to keep the bad checks from bouncing before he could cover them. It bought time, not solvency. By the time the fraud came apart, it had cost victims an aggregate of more than $3 million — the gap between the roughly $10 million Drosos took in and the returns and repayments he'd managed to pay back out before the music stopped.
+
+On February 19, 2026, Drosos pleaded guilty to three counts of wire fraud, one count of bank fraud, and failing to file an income tax return, admitting that he had also skipped filing at least one year of his own personal returns while the scheme was running.
+
+Drosos's fraud wasn't dressed up in cryptocurrency or some novel financial instrument — it ran on an accountant's professional credibility and the ordinary habit of assuming that the person managing your money is actually doing what they say they're doing with it. A license or a professional title is a reason to start trusting someone; it was never meant to be a substitute for checking where the money in your account statement actually went.`,
+    sourceUrl: 'https://www.justice.gov/usao-nj/pr/bergen-county-accountant-admits-defrauding-investors-through-multi-million-dollar-ponzi',
+  },
+);
