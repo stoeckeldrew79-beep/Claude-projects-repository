@@ -3184,3 +3184,15 @@ UsTZ.push({
     country: 'US',
     state: 'WA',
 });
+
+UsTZ.push({
+    name: 'Memphis Notary Quitclaim Deed Fraud Ring (Shaneika Seymore)',
+    slug: 'tennessee-memphis-seymore-notary-quitclaim-deed-fraud',
+    description: `Shaneika Seymore, 41, of Memphis, worked as a licensed Tennessee notary public and used that role to notarize a string of fraudulent quitclaim deeds that purported to transfer ownership of more than 30 Memphis-area properties from their true owners to Seymore and her co-conspirators, without the real owners' knowledge or consent. The fabricated deeds were filed directly with the Shelby County Register of Deeds, and in one instance both of the supposed signatories on a notarized deed had already died before the document was purportedly signed — a detail investigators say should have been an obvious red flag but went unnoticed because a recorded deed, once filed, is treated as valid unless someone actively checks it. Seymore had also lied on her own notary public application filed with the Shelby County Clerk's Office, falsely claiming she had no prior felony conviction despite a 2019 felony theft conviction, and separately forged signatures on stolen checks she deposited into her own bank account and submitted a falsified Paycheck Protection Program loan application. She pleaded guilty on April 16, 2025 to one count of mail fraud, one count of bank fraud, and one count of making a materially false statement, and on February 17, 2026, U.S. District Judge Mark S. Norris sentenced her in the Western District of Tennessee to 57 months in federal prison and ordered her to pay $280,914.25 in restitution. Because a notary's stamp is what gives a deed its legal weight, homeowners — especially those who own a second property, an inherited home, or land they don't check on often — should periodically search their own name and address in the Shelby County Register of Deeds' (or their own county's) online records for any document they didn't file, and can sign up for a free property fraud alert service where the county register's office offers one, since a forged deed can sit on record for months before the real owner discovers it, typically only when trying to sell, refinance, or pay taxes on the property.`,
+    categorySlug: 'mortgage-foreclosure-scams',
+    alertLevel: 'medium',
+    sources: ["U.S. Attorney's Office, Western District of Tennessee", 'WBBJ-TV', 'Action News 5 (WMC)'],
+    sourceUrl: 'https://www.justice.gov/usao-wdtn/pr/notary-sentenced-57-months-imprisonment-real-estate-fraud-scheme',
+    country: 'US',
+    state: 'TN',
+});
