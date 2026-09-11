@@ -9702,6 +9702,26 @@ International.push(
     sourceUrl: 'https://consumerrescue.org/cruise-fiascos/2-more-cruise-ship-passengers-scammed-nassau-what-happened/',
     country: 'BS',
   },
+  {
+    name: 'Fake Central Bank of The Bahamas Loan Advertisement Scam',
+    slug: 'bahamas-fake-central-bank-loan-advertisement-scam',
+    description: `Fraudsters have built internet advertisements and social media posts that impersonate the Central Bank of The Bahamas, falsely claiming the institution is offering loans and other financial services directly to the public. The posts are designed to look official and direct interested readers to click a link, where they are asked to hand over personal and financial details to "apply." In a public notice, the Central Bank stated plainly that it "does not offer loans or banking services to the general public" — a role reserved for licensed commercial banks and credit unions — making any such advertisement an automatic red flag regardless of how convincing the branding looks. The Bank urged the public to remain skeptical of unsolicited loan offers, avoid clicking links in suspicious posts, never share personal information with unknown parties, refrain from sending money to unknown individuals even through legitimate banking channels, and to contact the Central Bank directly to verify the legitimacy of any offer made in its name before responding.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Central Bank of The Bahamas'],
+    sourceUrl: 'https://www.centralbankbahamas.com/news/scams-and-frauds/consumer-loan-scam-alert',
+    country: 'BS',
+  },
+  {
+    name: 'Bahamian Bank-Impersonation SMS Phishing and Mule-Account Ring',
+    slug: 'bahamas-bank-impersonation-sms-phishing-mule-account-ring',
+    description: `The Royal Bahamas Police Force's Financial Investigation Branch has warned that a fast-growing SMS phishing scheme is tricking Bahamians into handing over their online banking credentials. Victims receive a text message or link claiming their bank account has been locked or placed on hold, directing them to a fake page made to look like their bank's real login portal; anyone who enters their username and password there has effectively handed the details straight to the scammers. The fraudsters then call or message the victim posing as bank staff and talk them into reading out a one-time verification code sent to their phone, which — despite looking like routine security confirmation — actually authorizes the scammers to complete a takeover of the account. A second half of the scheme recruits accomplices willing to let scammers route the stolen funds through their own bank accounts before withdrawing the cash, spreading the fraud across a wider network of participants. Branch head Anthony McCartney told reporters that "a financial institution will not contact you under any circumstances to require you to change your personal banking information," while Superintendent Yvette Rolle-Davis added that "the bank will never ask you for your personal information. They will never ask you for your verification code." Police say the number of victims is increasing daily and are urging anyone contacted this way to hang up or ignore the message and instead call their bank directly using the number printed on their card or statement.`,
+    categorySlug: 'phishing',
+    alertLevel: 'high',
+    sources: ['The Tribune (Bahamas)', 'Royal Bahamas Police Force'],
+    sourceUrl: 'https://www.tribune242.com/news/2025/sep/10/scores-fall-victim-to-phishing-scammers/',
+    country: 'BS',
+  },
 );
 
 International.push(
