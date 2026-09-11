@@ -5514,6 +5514,10 @@ NotoriousAF.push(
     slug: 'brian-sewell-fake-credentials-investment-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/St_George_Utah_from_east_1.jpg?width=1200',
+    coverImageCredit: 'Photo: Stan Shebs, Wikimedia Commons (CC BY-SA 3.0) — St. George, Utah, in the Washington County area where Brian Garry Sewell operated',
     sourceUrl: 'https://www.justice.gov/usao-ut/pr/southern-utah-man-sentenced-three-years-prison-wire-fraud-cost-investors-millions',
     body: `Brian Garry Sewell, 54, of Washington County in southern Utah, built a reputation as a Bitcoin trader through an outfit he called the American Bitcoin Academy — a reputation prosecutors say rested partly on a résumé he invented. According to the U.S. Attorney's Office for the District of Utah, Sewell told prospective investors he held degrees from Johns Hopkins University and Stanford University, credentials that would have made him one of the more academically decorated crypto traders around. His actual highest level of education, prosecutors say, was a GED.
 
