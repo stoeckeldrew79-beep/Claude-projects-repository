@@ -4922,3 +4922,28 @@ UsNS.push({
     country: 'US',
     state: 'SD',
 });
+
+UsNS.push({
+    name: 'New York "Sewer Service" Debt-Collection Default-Judgment Fraud (American Legal Process)',
+    slug: 'new-york-sewer-service-debt-collection-judgment-fraud',
+    description: `On July 23, 2009, New York Attorney General Andrew Cuomo announced a lawsuit against 35 debt-collection law firms and two collection agencies, alleging they relied on a Long Island-based process-serving company, American Legal Process (ALP), to notify consumers they were being sued over unpaid credit card and other debts — but that ALP routinely never served the papers at all, a fraud known as "sewer service," while falsely certifying under oath in court filings that service had been completed. Because a defendant who is never actually notified of a lawsuit cannot appear in court to contest it, the scheme let debt collectors win an estimated 100,000 default judgments across New York State between January 2007 and October 2008 alone, worth an average of roughly $5,474 apiece, without a single named consumer having a real chance to dispute the debt, raise a defense, or even learn a case existed before it resulted in a judgment against them. Many affected New Yorkers first discovered they had "lost" a lawsuit they never knew about when a bank account was frozen or wages were garnished to satisfy the resulting judgment. Cuomo's office, which had already brought criminal and civil charges against ALP and its owner, William Singler, earlier in 2009, sought a court order vacating the fraudulently obtained default judgments and barring the law firms from relying on ALP-served affidavits again; a related action the following year shut down a second, Western New York-based process-serving company for the identical practice. Sewer service is not confined to one era — a 2025 investigative report found strikingly similar patterns of unverifiable and likely-false affidavits of service still surfacing in Bronx and Queens Civil Court debt-collection dockets more than a decade after Cuomo's case — which is why anyone who discovers a surprise default judgment, a frozen bank account, or a wage garnishment tied to a debt lawsuit they were never notified of should immediately request the case file from the court clerk to examine the process server's affidavit of service, and can move to vacate a default judgment obtained through improper or fabricated service by filing an order to show cause with the court that entered it.`,
+    categorySlug: 'legal-debt-collection',
+    sources: ["New York Attorney General's Office (Andrew Cuomo)", 'New York Focus', 'ABA Journal'],
+    sourceUrl: 'https://ag.ny.gov/press-release/2009/attorney-general-cuomo-sues-throw-out-over-100000-faulty-judgments-entered',
+    country: 'US',
+    isHistorical: true,
+    firstRecorded: '2007-01-01',
+    state: 'NY',
+});
+
+UsNS.push({
+    name: 'New York "Product Boosting" Task-Job Crypto Scam (NFT Legal-Notice Lawsuit)',
+    slug: 'new-york-product-boosting-task-job-crypto-scam-nft-notice',
+    description: `Beginning in 2024, unsolicited text messages promising "good-paying, flexible" remote jobs began circulating among New Yorkers, offering pay for reviewing products online to generate what the messages called "market data." Victims who responded were told they first needed to open an account on a legitimate cryptocurrency exchange such as Coinbase or Gemini, buy stablecoins (USDC or USDT), and transfer them into a separate digital wallet controlled by the scam operators, ostensibly to fund the products they'd be "reviewing" and unlock commissions. Once a victim tried to withdraw any of the money shown accumulating in an in-app balance, the operators invented new charges that supposedly had to be paid first — a "credit score improvement" fee, a "blockchain verification" fee — each one draining more real cryptocurrency while the promised earnings stayed permanently out of reach and withdrawals were blocked entirely. On January 9, 2025, New York Attorney General Letitia James filed suit seeking to recover roughly $2.2 million in cryptocurrency frozen in the scammers' unhosted wallets, working with the U.S. Secret Service, the Queens County District Attorney's Office, and stablecoin issuers Tether and Circle, who helped trace and freeze the funds; one identified victim alone had lost more than $100,000. Because the operators behind the wallets could not be identified or served through conventional means, the Attorney General's office took the unusual step of attempting to serve legal notice of the litigation by depositing a non-fungible token (NFT) containing a link to the court filings directly into the defendants' wallet addresses — reportedly the first time any U.S. government regulator has used blockchain-based service of process to reach anonymous defendants. Anyone contacted out of the blue about a job that requires opening a cryptocurrency account, buying stablecoins, or transferring crypto to a wallet address before being paid should treat it as fraud regardless of how legitimate the exchange used to buy the coins is — a real employer never requires an employee to fund their own "job" with cryptocurrency, and any fee demanded before a withdrawal can be completed is a clear sign the balance shown on screen was never real money to begin with.`,
+    categorySlug: 'job-task-scams',
+    alertLevel: 'high',
+    sources: ["New York Attorney General's Office (Letitia James)", 'U.S. Secret Service', 'Cointelegraph'],
+    sourceUrl: 'https://ag.ny.gov/press-release/2025/attorney-general-james-stops-text-message-scam-targeting-vulnerable-new-yorkers',
+    country: 'US',
+    state: 'NY',
+});
