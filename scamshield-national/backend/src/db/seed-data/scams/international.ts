@@ -13372,3 +13372,43 @@ International.push(
     country: 'AG',
   },
 );
+
+International.push(
+  {
+    name: 'Fake Police Officer Sextortion and Impersonation Ring (Adjohoun)',
+    slug: 'benin-fake-police-officer-sextortion-adjohoun',
+    description: `Benin's Police Républicaine and the Centre National d'Investigations Numériques (CNIN) announced the arrest of a 27-year-old tile layer from Abato on Tuesday, June 16, 2026, after officers from the Adjohoun district police station traced a wave of impersonation and extortion complaints in the Ouémé valley back to him. The investigation began when commissariats in Dangbo, Azowlissé, Adjohoun, and Affamé each logged complaints describing the same pattern: a man falsely presenting himself as an officer of the Police Républicaine pressured and threatened victims into handing over large sums of money. Careful cross-referencing of those complaints let investigators locate and arrest the suspect at his home in Abato, and a search of his mobile phones afterward revealed the true scope of his network — including a separate sextortion operation in which he used intimate and compromising photos and videos to blackmail victims, both inside Benin and abroad, and numerous photographs of himself wearing official-looking Police Républicaine and Beninese Armed Forces uniforms that he used to build credibility and intimidate his targets. Given the case's technological and cross-border dimensions, it was transferred to the CNIN, whose specialists are now analyzing the seized devices to trace financial flows, identify additional victims, and determine whether the suspect had accomplices. He faces charges of impersonating a public official, cybercrime, and sextortion. Authorities urged anyone contacted by someone claiming to be a police or military officer demanding money, or threatened with the release of private images or video, to refuse payment, preserve the messages as evidence, and report the contact to the Police Républicaine or the CNIN rather than negotiating directly with the blackmailer.`,
+    categorySlug: 'sextortion',
+    alertLevel: 'high',
+    sources: ['Police Républicaine du Bénin', "Centre National d'Investigations Numériques (CNIN - Bénin)", 'Bénin Web TV'],
+    sourceUrl: 'https://beninwebtv.bj/benin-un-faux-policier-arrete-pour-sextorsion-et-usurpation-de-fonction-a-adjohoun/',
+    country: 'BJ',
+  },
+);
+
+International.push(
+  {
+    name: 'Fake France Travel Mission Offer Scam',
+    slug: 'benin-fake-france-travel-mission-offer-scam',
+    description: `Benin's Office Central de Répression de la Cybercriminalité (OCRC) arrested a 28-year-old rapper with numerous Facebook accounts in early July 2021 after tracing a long-running string of complaints to his home in Porto-Novo, where officers found him in possession of several mobile phones and SIM cards registered under false names — despite police having already blocked several of those numbers as far back as January 2021. Operating under a rotating cast of stolen identities, including the mayor of Bohicon and other Beninese mayors, a director general of the Police Républicaine, a police inspector, and a member of the presidential security detail, the suspect spent months contacting Beninese Facebook users with offers to travel to France on missions tied to supposed municipal decentralized-cooperation programs. Once a target showed interest, he moved the conversation to WhatsApp, asked for a scanned passport copy, and directed payment to a phone number for a self-described immigration police inspector to cover "dossier" fees — then, once that first payment went through, followed up with further requests, such as covering COVID-19 testing costs, before cutting contact; one victim alone reported sending him more than 200,000 CFA francs, and those who refused to pay further said the suspect turned to insults. Internet users who spotted the scheme without falling for it had already flagged it on social media in April 2021, and OCRC investigators eventually matched multiple victim complaints to identify and arrest him. At least twenty declared victims lost a combined total in the millions of CFA francs. He was presented to the prosecutor at the Cour de Répression des Infractions Économiques et du Terrorisme (CRIET), placed under a pretrial detention warrant, and held at Akpro-Missérété civil prison pending trial on digital- and penal-code offenses carrying up to seven years in prison. The OCRC noted it refers cyber-scammers of this kind to prosecutors every month and urged internet users to independently verify the real existence of anyone offering an online travel, job, or "mission" opportunity — through the free hotline 166 if needed — before ever sending money or identity documents.`,
+    categorySlug: 'travel-vacation-scams',
+    sources: ['Office Central de Répression de la Cybercriminalité (OCRC - Bénin)', 'SRTB'],
+    sourceUrl: 'https://srtb.bj/arnaque-en-ligne-au-benin-un-auteur-de-fausses-offres-de-voyage-sur-la-france-arrete/',
+    country: 'BJ',
+    isHistorical: true,
+    firstRecorded: '2021-07-01',
+  },
+);
+
+International.push(
+  {
+    name: 'New Banknote Resale and Fake Canada Visa Advance-Fee Scheme',
+    slug: 'benin-new-banknote-resale-fake-canada-visa-scheme',
+    description: `Benin's Police Républicaine announced that a suspect identified by the initials Z.D.I. was placed under three separate pretrial detention warrants on July 16, 2026, a day after being presented to the prosecutor at Porto-Novo's tribunal de première instance de première classe. The case, investigated by the Honvié district police station in the commune of Adjarra after several victims filed complaints, centered on two parallel confidence schemes run by the same man. In the first, he told people preparing traditional ceremonies — where crisp, uncirculated banknotes are prized as gifts — that he could obtain new banknotes directly from banks to resell to them, describing it to prospective buyers as a "lucrative operation" with a substantial profit margin; convinced they were making a profitable deal, several victims handed over funds that investigators say totaled roughly 10 million CFA francs. In the second scheme, he told other victims he could facilitate their Canadian visa applications by "moving money through their bank accounts" to satisfy the financial-means requirements consular officers look for, collecting close to 12 million CFA francs from people whose applications were never actually filed. Investigators say none of the promised services in either scheme were ever delivered, and the case also involves charges of forging private documents. Benin's Police Républicaine noted that it regularly investigates cases built on promises of fast money, unofficial migration assistance, and financial transactions conducted outside recognized banking channels, and urged the public to treat any offer of outsized profit on a private cash transaction, or a visa obtained by manipulating a bank account's balance, as a certain sign of fraud rather than a real opportunity.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'high',
+    sources: ['Police Républicaine du Bénin', 'La Nouvelle Tribune'],
+    sourceUrl: 'https://lanouvelletribune.info/2026/07/benin-il-attirait-ses-victimes-en-leur-promettant-des-billets-neufs/',
+    country: 'BJ',
+  },
+);
