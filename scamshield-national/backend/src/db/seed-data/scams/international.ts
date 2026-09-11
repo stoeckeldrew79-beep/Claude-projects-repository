@@ -10075,6 +10075,26 @@ International.push(
     sourceUrl: 'https://www.hercegovina.info/vijesti/bih/sve-vise-prijava-prevara-s-kripto-ulaganjima-fup-poziva-na-oprez/253098/',
     country: 'BA',
   },
+  {
+    name: 'Bosnia and Herzegovina Online Romance Scams Targeting Seniors',
+    slug: 'bosnia-herzegovina-online-romance-scams-targeting-seniors',
+    description: `On May 19, 2026, the Ministry of Internal Affairs of Republika Srpska (MUP RS) publicly warned citizens about "love scams," which it described as one of the most common forms of online manipulation. Fraudsters build fake profiles on dating apps and social media, then target isolated individuals and people over the age of 60. The perpetrators move quickly to express affection, build an emotional connection, and consistently find reasons to avoid video calls that would expose the fake identity, before eventually asking the victim for money. MUP RS urged citizens, "especially elderly people who are most often victims," to be careful and not share personal and financial data with unknown people online, and to treat any online relationship that turns toward requests for money as a warning sign.`,
+    categorySlug: 'romance-scams',
+    alertLevel: 'high',
+    sources: ['Ministry of Internal Affairs of Republika Srpska (MUP RS)', 'Klix.ba'],
+    sourceUrl: 'https://www.klix.ba/vijesti/crna-hronika/mup-rs-upozorio-gradane-zbog-ljubavnih-prevara-na-internetu-najcesce-mete-su-usamljene-osobe/260519088',
+    country: 'BA',
+  },
+  {
+    name: 'Bosnia and Herzegovina Fake IDDEEA Traffic-Fine SMS Scam',
+    slug: 'bosnia-herzegovina-fake-iddeea-traffic-fine-sms-scam',
+    description: `On April 30, 2026, the Agency for Identification Documents, Registers and Data Exchange of Bosnia and Herzegovina (IDDEEA) issued a renewed public warning about an organized SMS campaign impersonating state institutions. The messages falsely claim the recipient owes an unpaid traffic fine, cite a payment deadline, and threaten legal consequences to pressure the recipient into clicking a link and entering personal or financial data. Despite an earlier warning, IDDEEA said the campaign continued with altered message wording and new fraudulent domains built to mimic the agency's real site, including one registered as "iddeea.govba.cam." IDDEEA stressed that "IDDEEA BiH ne izriče saobraćajne kazne" and "IDDEEA BiH ne vrši naplatu kazni putem SMS poruka" (IDDEEA does not issue traffic fines and does not collect fine payments via SMS messages), and that its only official website is www.iddeea.gov.ba. The agency called on police, telecom operators, and security services to coordinate on detecting, filtering, and blocking the campaign, and urged citizens to avoid clicking links in unsolicited fine-related texts and to report them to authorities.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Agency for Identification Documents, Registers and Data Exchange of BiH (IDDEEA)', 'Klix.ba'],
+    sourceUrl: 'https://www.klix.ba/vijesti/bih/naplate-kazni-nova-runda-sms-prevara-koju-dobijaju-bh-gradani-iddeea-poslala-upozorenje/260430041',
+    country: 'BA',
+  },
 );
 
 International.push(
