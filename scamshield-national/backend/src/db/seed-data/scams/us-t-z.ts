@@ -2977,3 +2977,17 @@ UsTZ.push({
     country: 'US',
     state: 'WY',
 });
+
+UsTZ.push({
+    name: 'Kerrville Flood GoFundMe Fraud Investigation (Tray Coppola)',
+    slug: 'texas-kerrville-flood-gofundme-fraud-investigation',
+    description: `Following catastrophic flash flooding across the Texas Hill Country on July 4, 2025, that killed more than 100 people in Kerr County alone, Tray Coppola launched a GoFundMe campaign soliciting donations under the banner of helping Kerrville flood victims. On July 14, 2025, Texas Attorney General Ken Paxton's office issued Coppola a formal warning letter after complaints and local news coverage raised questions about where the raised funds were actually going, demanding he immediately cease the campaign, return any donations collected, and preserve every record and communication related to the fundraiser. "Malicious schemes to swindle Americans who want to generously help our fellow Texans amidst this tragedy will be met with swift and forceful action from my office," Paxton said, adding that his office would investigate whether Coppola's GoFundMe was an intentional scam and, if so, pursue civil penalties, restitution, and a court-ordered injunction against him. The letter was part of a broader wave of scrutiny Paxton's office applied to Hill Country flood fundraisers in the weeks after the disaster, warning that GoFundMe and similar crowdfunding platforms — while a legitimate way to give — had also been "utilized by digital scammers" capitalizing on a highly emotional, fast-moving news event to solicit money that never reached actual victims. Anyone moved to donate to a disaster-relief fundraiser after a major flood, wildfire, or storm should verify the organizer's identity and stated connection to the affected community independently, check whether the crowdfunding platform offers any donor protection or refund process, and favor giving to an established, registered charity over an individual's personal fundraising page whenever the destination of the money can't be clearly confirmed.`,
+    categorySlug: 'charity-scams',
+    alertLevel: 'high',
+    sources: ["Texas Attorney General's Office (Ken Paxton)"],
+    sourceUrl: 'https://www.texasattorneygeneral.gov/news/releases/attorney-general-ken-paxton-takes-action-against-unverified-flood-related-fundraiser-potentially',
+    country: 'US',
+    state: 'TX',
+    isHistorical: true,
+    firstRecorded: '2025-07-14',
+});
