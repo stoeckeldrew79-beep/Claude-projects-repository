@@ -7041,6 +7041,10 @@ NotoriousAF.push(
     slug: 'david-lam-social-security-employee-identity-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Houston,_TX_skyline_from_freeway.jpg?width=1200',
+    coverImageCredit: 'Photo: dbking, CC BY 2.0, via Wikimedia Commons — Houston, where Lam worked at the Social Security Administration field office',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     sourceUrl: 'https://www.justice.gov/usao-sdtx/pr/social-security-employee-sentenced-multimillion-dollar-fraud-and-identity-theft-scheme',
     body: `Most identity-theft schemes depend on stealing information from outside a system that is supposed to guard it. David Lam's depended on the opposite: he was inside it. Lam, 46, of Pearland, Texas, worked as an operations supervisor and claims specialist at the Social Security Administration's field office in Houston — a job that gave him direct, authorized access to exactly the kind of records that make a survivor-benefits application look legitimate.
 
