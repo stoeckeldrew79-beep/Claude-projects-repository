@@ -7845,6 +7845,10 @@ If you own or leased one of the eligible vehicles, you don't need to do anything
     author: "ScamShield Editorial",
     tags: ["guide", "crossroads-trading-2025-data-breach-settlement"],
     sourceUrl: "https://www.classaction.org/news/600k-crossroads-trading-settlement-resolves-class-action-lawsuit-over-2025-data-breach",
+    // representative photo — replace with an exact match if found
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Commerce_March_2017_123_(My_Sister's_Closet_Thrift_Store).jpg?width=1200",
+    coverImageCredit: "Photo: Michael Barera, CC BY-SA 4.0, via Wikimedia Commons — a secondhand clothing resale shop, representative of Crossroads Trading's business",
+    coverImagePosition: 50,
     body: `Crossroads Trading Co., Inc., a chain that buys and resells secondhand clothing, agreed to pay $600,000 to resolve Wright, et al. v. Crossroads Trading Co., Inc. (Case No. 25CV479119, Superior Court of California), a class action alleging the company failed to secure the personal information of its customers, employees, and the individual sellers who bring clothing in to trade or sell. Crossroads has not admitted wrongdoing but agreed to settle rather than continue litigating.
 
 The lawsuit followed a security incident the company detected on February 15, 2025, in which an unauthorized party accessed files containing personal information. According to the settlement, the exposed data spans names, dates of birth, home addresses, contact information, driver's license or other state ID numbers, Social Security numbers, financial account information, and, for some individuals, passport information. That last category stands out — a reseller of used clothing isn't an obvious place to expect passport numbers on file, but Crossroads' business model means it collects government ID from ordinary customers selling clothes over the counter, not just from a smaller pool of account holders, which is part of why the settlement class runs to roughly 60,041 people nationwide.
@@ -7861,6 +7865,10 @@ If you sold clothing to, bought from, or worked for Crossroads Trading and recei
     author: "ScamShield Editorial",
     tags: ["guide", "dairy-farmers-of-america-2025-data-breach-settlement"],
     sourceUrl: "https://www.classaction.org/news/dairy-farmers-of-america-settlement-resolves-data-breach-lawsuit",
+    // representative photo — replace with an exact match if found
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Holstein_dairy_cows.jpg?width=1200",
+    coverImageCredit: "Photo: Scott Bauer, USDA Agricultural Research Service, public domain, via Wikimedia Commons — dairy cows, representing DFA's member farms",
+    coverImagePosition: 50,
     body: `Dairy Farmers of America, Inc. (DFA), a national dairy marketing cooperative owned by thousands of member dairy farms across the country, agreed to pay $475,000 to resolve Buhl v. Dairy Farmers of America, Inc. (Case No. WY-2026-CV-000143), a class action alleging the cooperative failed to protect personal information from a 2025 data breach. DFA has not admitted wrongdoing but agreed to settle rather than continue litigating.
 
 According to the settlement, unauthorized parties accessed certain DFA files containing private information around June 11, 2025. The settlement class is comparatively small — approximately 4,546 people — which fits a pattern seen in breaches at cooperatives and agricultural businesses: the exposed records typically belong to a defined group of employees, member-farm contacts, or business associates rather than a mass consumer customer base, but the sensitivity of what's exposed can be just as high as in a much larger breach.
@@ -7877,6 +7885,10 @@ If you received a notice from Dairy Farmers of America about this breach, file a
     author: "ScamShield Editorial",
     tags: ["guide", "essen-medical-associates-data-breach-settlement"],
     sourceUrl: "https://www.classaction.org/news/4m-essen-health-care-settlement-ends-class-action-lawsuit-over-march-2023-data-breach",
+    // representative photo — replace with an exact match if found
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/The_Bronx_borough,_New_York.jpg?width=1200",
+    coverImageCredit: "Photo: Matthew Trump, CC BY-SA 3.0, via Wikimedia Commons — the Bronx, where Essen Medical Associates operates its clinics",
+    coverImagePosition: 50,
     body: `Essen Medical Associates, P.C., a Bronx-based network of medical practices and urgent-care clinics operating as Essen Health Care, has agreed to a $4 million settlement to resolve a class action over a data breach that hit its systems in March 2023. The case, Rivera, et al. v. Essen Medical Associates, P.C. d/b/a Essen Health Care (Index No. 801239/2024E, Supreme Court of the State of New York, Bronx County), alleged the healthcare provider failed to secure patients' personal and medical information against exactly the kind of intrusion that eventually happened. Essen has not admitted wrongdoing but agreed to settle rather than continue litigating; the court granted preliminary approval on January 8, 2026.
 
 According to the settlement, unauthorized access to Essen's network occurred between March 14 and March 22, 2023. Court documents estimate that approximately 907,782 current and former patients had their information compromised — a number that puts this breach, at a single multi-site medical group most people outside the Bronx have never heard of, in the same range as data breaches at far larger, nationally known healthcare companies.
@@ -7893,6 +7905,10 @@ If you're only learning about this breach now, the claim window has already clos
     author: "ScamShield Editorial",
     tags: ["guide", "floatme-ftc-settlement"],
     sourceUrl: "https://www.ftc.gov/enforcement/refunds/floatme-refunds",
+    // representative photo — replace with an exact match if found
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/The_Apex_Building,_headquarters_of_the_Federal_Trade_Commission,_on_Constitution_Avenue_and_7th_Streets_in_Washington,_D.C.jpg?width=1200",
+    coverImageCredit: "Photo: Harrison Keely, CC BY 4.0, via Wikimedia Commons — the FTC's Apex Building headquarters, which brought the case against FloatMe",
+    coverImagePosition: 50,
     body: `FloatMe built its pitch around a simple promise: download the app, and get quick, "free" cash advances between paychecks with no interest and no catch. According to a Federal Trade Commission complaint, that promise didn't match what the company actually delivered. The FTC and FloatMe's co-founders, Joshua Sanchez and Ryan Cleary, agreed to a stipulated order resolving the case on January 22, 2024, entered by the U.S. District Court for the Western District of Texas the following day.
 
 The complaint alleged FloatMe lured users in with "empty promises of quick and free cash advances," then routinely provided less than the amount a customer had requested or been promised, while charging a fee for the "instant" delivery that was supposed to be the app's selling point. It also alleged FloatMe made it deliberately difficult for customers to cancel their subscription once enrolled, and separately discriminated against consumers who applied for cash advances while receiving public assistance income. A further allegation stood out as a distinct kind of deception: FloatMe claimed a customer's cash advance limit could be increased by "an algorithm or another automated system," a claim the FTC said had no factual basis at all.
