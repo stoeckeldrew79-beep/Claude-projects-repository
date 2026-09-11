@@ -5403,3 +5403,20 @@ The human cost went well beyond the dollar figure. Prosecutors told the court th
 Nwofor's case is a reminder that romance scams and business email compromise fraud are rarely two-person crimes — the person typing the messages that manipulate a victim into sending money is often several links removed from the person built to receive it, and a real U.S. company name on a bank account can be exactly the kind of ordinary-looking front that lets six-figure sums move through the financial system without triggering a second look.`,
   },
 );
+
+NotoriousNS.push(
+  {
+    title: 'Steven Pagartanis: The Long Island Broker Who Ran an 18-Year Ponzi Scheme on Elderly Women',
+    slug: 'steven-pagartanis-long-island-elder-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-edny/pr/former-long-island-investment-advisor-sentenced-170-months-prison-multi-million-dollar',
+    body: `Steven Pagartanis worked for years as a registered investment advisor and broker on Long Island, New York, affiliated over time with firms including Lombard Securities and Cadaret, Grant & Co. — the kind of professional credentials that let him sit across the table from clients as a trusted financial expert rather than a stranger pitching an opportunity. From January 2000 to March 2018, he used that standing to solicit victims — almost all of them elderly women — to invest in two publicly traded companies, promising a steady, guaranteed 8 percent return.
+
+The scheme ran for more than 18 years. Rather than actually investing his clients' money as described, Pagartanis laundered it through a series of bank accounts and used it to cover personal expenses, buy luxury items, fund failed business ventures — including his wife's pet store — and make the "interest" and "dividend" payments that kept earlier victims believing their investments were performing exactly as promised. In total, his victims invested more than $13 million and sustained losses exceeding $9 million.
+
+Pagartanis pleaded guilty in December 2018 to conspiracy to commit mail and wire fraud. The SEC filed a parallel civil complaint over the same conduct, holding its charges in abeyance pending the criminal case, and in February 2021 barred him from associating with any broker, dealer, investment adviser, or several other categories of regulated financial firm. On January 14, 2020, he was sentenced to 170 months — just over 14 years — in federal prison, followed by three years of supervised release, and ordered to pay $6,519,594 in restitution.
+
+Pagartanis's case shows how a Ponzi scheme can survive for nearly two decades by staying deliberately unremarkable: a believable, moderate 8 percent return rather than an outlandish one, real-sounding publicly traded companies as the pretext, and a client base of elderly women who had every reason to trust a credentialed local advisor and few obvious reasons to independently verify statements he was actively fabricating.`,
+  },
+);
