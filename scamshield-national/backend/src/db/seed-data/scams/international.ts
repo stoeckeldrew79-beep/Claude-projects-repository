@@ -13152,3 +13152,18 @@ International.push(
     country: 'MH',
   },
 );
+
+International.push(
+  {
+    name: 'Marshall Islands "Social Security" Phone Impersonation Scam',
+    slug: 'marshall-islands-social-security-phone-impersonation-scam',
+    description: `The Marshall Islands Police Department (MIPD) posted a public "Scam Alert" to its official Facebook page on August 10, 2020, after residents began reporting phone calls from people impersonating Social Security Administration officials who claimed the recipient's Social Security number had been compromised and pressed for personal information to "verify" or "protect" it. MIPD's alert was blunt: "Please do not give them any information!" Residents who commented on the post said the calls displayed a U.S. mainland area code (608, associated with Wisconsin) rather than a local Marshallese number, an early tell of caller-ID spoofing, and described mixed reactions ranging from hanging up immediately to deliberately wasting the callers' time with false answers. The pattern mirrors the Social Security impersonation robocall scam that the U.S. Federal Trade Commission and the Social Security Administration's Office of Inspector General have separately warned is one of the most reported impersonation scams nationwide, and its reach into Majuro illustrates how the same international spoofed-caller-ID infrastructure used against callers throughout the United States extends into the Marshall Islands, a country whose Compact of Free Association ties give many residents real dealings with U.S. federal agencies and benefit programs that scammers can exploit for a veneer of plausibility. MIPD's guidance to the public was to never provide a Social Security number, bank details, or other personal information to an unsolicited caller, to hang up and independently verify any claim of a compromised account by contacting the agency directly through a known number, and to report suspicious calls to police.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Marshall Islands Police Department (MIPD)'],
+    sourceUrl: 'https://www.facebook.com/permalink.php/?story_fbid=1499236573594946&id=290562067795742',
+    country: 'MH',
+    isHistorical: true,
+    firstRecorded: '2020-08-10',
+  },
+);
