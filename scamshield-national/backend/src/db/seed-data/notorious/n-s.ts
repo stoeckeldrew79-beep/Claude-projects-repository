@@ -5672,3 +5672,15 @@ Mata's case is a reminder that a disciplinary record — a state suspension, a F
     sourceUrl: 'https://www.justice.gov/usao-cdca/pr/former-financial-advisor-sentenced-14-years-federal-prison-12-million-fraud-caused',
   },
 );
+
+NotoriousNS.push(
+  {
+    title: "Tanzanika Ruffin and the $250,000 Fake Police Settlement Scam",
+    slug: "tanzanika-ruffin-new-orleans-fake-police-settlement-fraud",
+    author: "ScamShield Editorial",
+    tags: ["notorious", "notorious-scammer"],
+    body:
+      "Tanzanika Ruffin was a practicing New Orleans defense attorney, which made the story she told a client's family sound plausible instead of absurd. Her client, Kai Hansen, a 23-year-old Colorado man, had been arrested after an altercation with an NOPD detective outside a Bourbon Street cigar bar and faced charges including battery on a police officer and resisting an officer with force. Ruffin represented him — and then, prosecutors say, used that relationship to defraud his family.\n\nAccording to federal prosecutors, Ruffin told Hansen's parents that they needed to compensate the NOPD officer for various injuries and harms he had supposedly suffered in the altercation, and that she had personally negotiated a \"Mutual Non-Disclosure Agreement\" with the Orleans Parish District Attorney's Office and the officer requiring the family to keep any settlement discussions confidential. None of that was real. Ruffin convinced Hansen's parents to send her money through Venmo and wire transfers — funds prosecutors say had nothing to do with any actual settlement or legal obligation — ultimately collecting approximately $250,000 from the family under the false pretense that it was going toward resolving the case against their son.\n\nA federal grand jury indicted Ruffin, 48, on March 13, 2026, on a wire fraud charge, and prosecutors later alleged she had defrauded at least one additional victim using a similar scheme. Ruffin pleaded guilty to wire fraud in federal court in the Eastern District of Louisiana; her sentencing was set for December 3, 2026, and she faces a maximum penalty of 20 years in prison.\n\nRuffin's scheme worked because the family had every reason to trust her: she was the very lawyer they were paying to protect their son, invoking the machinery of the justice system itself — a police officer's claimed injuries, a confidential settlement, the District Attorney's Office — to justify demands that never would have withstood a second attorney's review. A confidentiality demand that conveniently prevents a client's family from checking a settlement claim with the court, the DA's office, or another lawyer is itself worth treating as a warning sign, especially when it's the person collecting the money who insists on the secrecy.",
+    sourceUrl: "https://www.justice.gov/usao-edla/pr/new-orleans-lawyer-pleads-guilty-wire-fraud",
+  },
+);
