@@ -7288,3 +7288,21 @@ Sky Group's appeal wasn't a flashy new asset class — it was an old-fashioned l
     coverImageCredit: 'Photo: Miami92 (Public Domain), via Wikimedia Commons — federal courthouse in Miami, in the Southern District of Florida where Betancourt was prosecuted and sentenced',
   },
 );
+NotoriousAF.push(
+  {
+    title: 'Africrypt and the "Bitcoin Brothers": South Africa\'s Vanishing Billion-Rand Trading Platform',
+    slug: 'africrypt-cajee-brothers-bitcoin-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.dailymaverick.co.za/article/2025-04-14-africrypt-how-investors-were-fleeced-and-left-high-and-dry/',
+    body: `Brothers Raees and Ameer Cajee were teenagers — reportedly around 17 and 20 — when they launched Africrypt in Johannesburg in 2019, pitching a cryptocurrency trading platform that used proprietary algorithms and pooled investor bitcoin to generate returns investors were told could run as high as 10 percent a day. In a country where formal crypto regulation barely existed and word-of-mouth carried enormous weight, the brothers built a client base that grew to several hundred investors, many of whom pooled family and community savings into the platform on the strength of the Cajees' promised expertise.
+
+On April 13, 2021, Africrypt investors received an email from the brothers claiming the platform's systems, client accounts, and wallets had all been "compromised" by hackers, and urging investors not to approach lawyers or the police because doing so would supposedly slow down recovery efforts. Within days the company's website went dark and its offices emptied out. Investors who hired the law firm Hanekom Attorneys to investigate said blockchain analysis told a different story than a hack: pooled investor bitcoin had been moved out through a series of transfers, tumbled through mixing services, and routed into wallets the investigators traced back to addresses under the brothers' own control — the digital equivalent of watching someone walk out the back door carrying the safe rather than watching a stranger break in the front.
+
+Early estimates of the missing bitcoin — as much as $3.6 billion at the cryptocurrency prices of the time — made international headlines as a contender for the largest crypto theft ever recorded, though South Africa's Financial Sector Conduct Authority later put confirmed investor losses at a considerably smaller figure, just over R200 million, cautioning that the platform's total claimed holdings and what was actually proven to have been invested and lost were not the same number. The FSCA also acknowledged it had no regulatory authority to act, since South African law did not yet classify crypto assets as a regulated financial product at the time Africrypt collapsed — a gap regulators closed only afterward.
+
+Swiss authorities arrested Ameer Cajee in Zurich in November 2021, while he was reportedly attempting to access hardware wallets holding cryptocurrency through a safe-deposit box, and held him in pretrial detention on suspicion of money laundering and asset concealment until his release on bail the following May. Swiss prosecutors ultimately dropped that case without a public explanation, reportedly after settlement agreements led some investor complaints underpinning it to be withdrawn. South Africa's Directorate for Priority Crime Investigation, known as the Hawks, opened its own criminal probe into complaints from Africrypt investors, but as of early 2026 — with reporting placing both brothers back in South Africa after years abroad — no charges had been formally served in their home country.
+
+Nearly five years after the "hack" email went out, Africrypt remains a case with no criminal conviction, no confirmed recovery of the missing funds, and no public accounting from the Cajee brothers themselves, who have denied wrongdoing through lawyers without addressing the blockchain trail investigators say leads back to them. It is a reminder that "notorious" and "resolved" are different things — and that a fraud run by people barely out of their teens, in a jurisdiction where crypto sat outside any regulator's authority, can still make international headlines as one of the largest crypto losses ever alleged while its architects continue to evade a courtroom.`,
+  },
+);
