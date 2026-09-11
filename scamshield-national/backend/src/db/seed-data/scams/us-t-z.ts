@@ -2991,3 +2991,16 @@ UsTZ.push({
     isHistorical: true,
     firstRecorded: '2025-07-14',
 });
+
+UsTZ.push({
+    name: '"Blessings in No Time" Pyramid Scheme (BINT Operations)',
+    slug: 'texas-blessings-in-no-time-bint-pyramid-scheme',
+    description: `LaShonda and Marlon Moore of Frisco, Texas ran "Blessings in No Time" (BINT), a faith-based, chain-referral pyramid scheme that recruited participants through weekly livestream broadcasts during the COVID-19 pandemic and arranged them onto "playing boards" with tiers named Fire, Wind, Earth, and Water. Participants paid at least $1,400 in "blessings" on the promise of an 800% return and a money-back guarantee, with a payout of more than $11,000 triggered only once eight new recruits filled the bottom Fire positions beneath them — a structure that could pay existing members only by continuously feeding in new recruits' money, the hallmark of an illegal pyramid. The Moores, who had appeared on an Oprah Winfrey Network reality show and invoked that platform to build credibility, marketed BINT heavily within the Black community during pandemic-era economic hardship. Texas Attorney General Ken Paxton sued BINT Operations LLC in June 2021 under the Texas Deceptive Trade Practices Act, alleging the scheme had already taken in tens of millions of dollars from roughly 8,000 consumers, and won a $10.76 million final judgment and permanent injunction in July 2023. Federal prosecutors separately brought a criminal case covering the full scope of the fraud — more than $30 million taken from over 10,000 victims nationwide between June 2020 and June 2021 — and a jury convicted the Moores of conspiracy to commit wire fraud, wire fraud, and money laundering in January 2026; a federal judge sentenced each of them to 40 years in prison and ordered more than $4.3 million in restitution. Any "investment" or blessing circle that pays existing members primarily from money paid in by new recruits, rather than from an outside product or service actually being sold, is a pyramid scheme regardless of what it calls itself or what charitable or faith-based language it uses, and a promised return anywhere near 800% is itself a reliable sign of fraud.`,
+    categorySlug: 'ponzi-pyramid-schemes',
+    sources: ["Texas Attorney General's Office", "U.S. Attorney's Office, Eastern District of Texas"],
+    sourceUrl: 'https://www.texasattorneygeneral.gov/news/releases/texas-oag-secures-1076-million-judgment-against-pyramid-scheme-operators-who-exploited-consumers',
+    country: 'US',
+    state: 'TX',
+    isHistorical: true,
+    firstRecorded: '2020-06-01',
+});
