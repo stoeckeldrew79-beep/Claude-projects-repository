@@ -7211,6 +7211,9 @@ NotoriousGM.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/usao-sdny/pr/reality-show-cast-member-jennifer-shah-sentenced-78-months-prison-running-nationwide',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Utah_State_Capitol,_Salt_Lake_City_(7631480380).jpg?width=1200',
+    coverImageCredit: 'Utah State Capitol, Salt Lake City, where Shah built her public persona — photo by Andrew Smith, CC BY-SA 2.0, via Wikimedia Commons',
     body: `Jennifer "Jen" Shah spent years building a public persona as a successful Salt Lake City businesswoman before joining the cast of Bravo's "The Real Housewives of Salt Lake City" in 2020, presenting herself on camera as a self-made marketing mogul. Federal prosecutors say the business behind that image was, for nearly a decade, a nationwide telemarketing fraud operation that had nothing to do with the "expert" services it claimed to sell.
 
 According to the U.S. Attorney's Office for the Southern District of New York, from at least 2012 until her arrest in March 2021, Shah was "an integral leader" of a scheme that sold victims so-called "business services" — coaching packages and lead lists pitched as tools to help people build their own online businesses — that in reality were often reused, outdated, or entirely worthless. Telemarketers working the scheme specifically targeted older and otherwise vulnerable victims, many of whom were repeatedly resold the same "services" or added to "reload" lists that marked them as easy, repeat targets for further pitches once they had already paid once. Shah's longtime personal assistant, Stuart Smith, worked alongside her as a co-defendant in running the operation.
