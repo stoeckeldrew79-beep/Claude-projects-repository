@@ -6789,3 +6789,17 @@ UsAF.push({
     isHistorical: true,
     firstRecorded: '2022-08-01',
 });
+
+UsAF.push({
+    name: 'Chenmax Properties Delaware Real Estate Ponzi Scheme',
+    slug: 'delaware-carl-chen-chenmax-properties-ponzi-scheme',
+    description: `Carl Chen ran Chenmax Properties, Inc. — a Delaware real estate investment trust — and was also a part-owner of Re/Max Sunvest Realty Co., using his standing as a real estate professional to solicit large cash investments from his own real-estate clients and others by promising guaranteed annual returns of roughly 10 to 15 percent, to be repaid along with the full return of their principal, from real estate purchases the money was supposedly funding. By 2013, Chen's underlying business was already losing money, and rather than tell investors, he began quietly diverting newly invested cash to pay the "returns" owed to earlier investors — the classic structure of a Ponzi scheme — while some of the money instead covered his own personal expenses. The scheme continued for years, with federal prosecutors calculating that Chen fraudulently collected at least $3.32 million from twenty different victims between 2013 and 2017 alone. When the operation finally collapsed, Chen filed for bankruptcy in the U.S. Bankruptcy Court for the District of Delaware in October 2017, seeking to discharge $6.738 million he owed to the investors he had defrauded. Chen pleaded guilty to wire fraud on March 12, 2019, and U.S. District Judge Richard G. Andrews sentenced him on August 19, 2019 to 51 months in federal prison, calling the case "one of the most horrendous white collar offenses that I remember seeing." At sentencing, victims described how Chen had solicited hundreds of thousands of dollars from them on multiple occasions, always framed as a specific real estate venture, when in reality their money was being funneled straight to earlier investors or spent on Chen personally. The case is a reminder that a real estate agent's or broker's professional license says nothing about whether a "guaranteed return" investment they're personally offering outside of a normal transaction is legitimate — any promise of a fixed, above-market return on a real estate deal should be verified through recorded property records and independent title or escrow documentation, not just the word of the person soliciting the investment, and Delaware's Investor Protection Unit can be contacted to check whether a specific investment offering or the person selling it is properly registered before any money changes hands.`,
+    categorySlug: 'ponzi-pyramid-schemes',
+    alertLevel: 'medium',
+    sources: ['U.S. Attorney\'s Office for the District of Delaware', 'Delaware Business Now', 'WDEL'],
+    sourceUrl: 'https://www.justice.gov/usao-de/pr/delaware-businessman-sentenced-federal-prison-multi-million-dollar-ponzi-scheme',
+    country: 'US',
+    state: 'DE',
+    isHistorical: true,
+    firstRecorded: '2019-08-19',
+});
