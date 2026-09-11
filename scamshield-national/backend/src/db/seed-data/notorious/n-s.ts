@@ -3475,6 +3475,9 @@ The AremisSoft case is a study in how differently a single fraud can end for the
     slug: 'sergei-polonsky-mirax-group-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Polonsky_april_2012.jpg?width=1200',
+    coverImageCredit: 'Photo: Dinozaurus (CC BY-SA 3.0)',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.themoscowtimes.com/2017/07/13/convicted-polonsky-walks-free-court-a58380',
     body: `Sergei Polonsky built Mirax Group into one of Russia's largest property developers during the country's 2000s construction boom, putting his name behind Federation Tower, at the time planned as Europe's tallest skyscraper, in Moscow's new financial district. By 2008, Forbes estimated his fortune at more than a billion dollars, and at a real estate conference in Cannes that March, Polonsky delivered the line that would follow him for the rest of his career: "Anyone who doesn't have a billion can go to hell."
 
