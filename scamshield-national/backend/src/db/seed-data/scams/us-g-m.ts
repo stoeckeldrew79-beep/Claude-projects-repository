@@ -5404,3 +5404,15 @@ UsGM.push({
     sources: ['Kentucky Secretary of State (Michael G. Adams)', 'NKyTribune'],
     sourceUrl: 'https://www.sos.ky.gov/',
 });
+
+UsGM.push({
+    name: 'Farquharson Lottery Prize-Fee Mail Fraud Scheme',
+    slug: 'maryland-farquharson-lottery-mail-fraud-scheme',
+    description: `Beginning in October 2020 and continuing through at least January 2024, Jamaican national Tavoy Farquharson conspired with brothers Wayne Henry, 36, and Dwayne Henry, 34, both of Landover Hills, Maryland, to run a classic advance-fee lottery scheme through the U.S. mail, targeting victims across the country — many of them elderly — with letters falsely announcing they had won a large cash prize through a lottery or sweepstakes. To collect the supposed winnings, victims were told, they first had to send payment to cover taxes or processing fees; the promised prize never arrived, and the victim was left out only the money they had already sent. U.S. District Judge Brendan A. Hurson in the District of Maryland sentenced Farquharson to 40 months in federal prison followed by two years of supervised release and ordered him to pay $3,962,826 in restitution, after he and the Henry brothers pleaded guilty to conspiracy to commit mail fraud. A legitimate sweepstakes or lottery never requires a winner to pay any fee, tax, or "processing cost" upfront to receive a prize — real lottery winnings have taxes withheld directly from the payout, not billed separately in advance — and anyone who receives a letter, call, or email announcing an unexpected prize should treat any request for advance payment as proof of fraud, especially when the letter targets an older relative living alone. Suspected lottery mail fraud can be reported to the U.S. Postal Inspection Service at uspis.gov or the FTC at ReportFraud.ftc.gov.`,
+    categorySlug: 'lottery-sweepstakes-scams',
+    alertLevel: 'medium',
+    sources: ["U.S. Attorney's Office for the District of Maryland"],
+    sourceUrl: 'https://www.justice.gov/usao-md/pr/jamaican-national-sentenced-federal-prison-role-lottery-fraud-scheme',
+    country: 'US',
+    state: 'MD',
+});
