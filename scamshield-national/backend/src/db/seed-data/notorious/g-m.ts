@@ -5936,6 +5936,9 @@ The case is a reminder that a pastor's standing inside a tight-knit community of
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.ssb.texas.gov/news-publications/texas-state-securities-board-issues-emergency-order-halt-alleged-fraudulent',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Grand_Prairie_May_2019_10_(Grand_Prairie_City_Hall).jpg?width=1200',
+    coverImageCredit: 'Photo: Michael Barera, Wikimedia Commons (CC BY-SA 4.0) — Grand Prairie, Texas, where KaRhonda Jewell Bray operated JoAriam, LLC',
     body: `Note: this is a civil administrative enforcement action. The Texas State Securities Board's emergency order describes findings from its own investigation — KaRhonda Jewell Bray has not been criminally charged in connection with this matter, and the order became final only because neither she nor her company requested a hearing to contest it, not through any trial or independent adjudication of the underlying allegations.
 
 KaRhonda Jewell Bray, of Grand Prairie, Texas, founded JoAriam, LLC in 2023 and, according to the Texas State Securities Board, ran it as an "asset and wealth solutions financial consulting firm" that pitched two investment programs to small business owners and other investors: an "FX Trade Program" promising roughly 10 percent monthly returns from foreign currency trading through a "trading partner," and a "Leveraged Trade Program" promising monthly dividend payments of about $1.5 million after a four-month "incubation period" tied to trading rights in banking instruments called Medium-Term Notes. Bray promoted both programs through a company website and a network of agents who solicited and referred investors on JoAriam's behalf.
