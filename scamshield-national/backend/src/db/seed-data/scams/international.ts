@@ -14957,3 +14957,16 @@ International.push(
     country: 'CM',
   },
 );
+
+International.push(
+  {
+    name: 'Mekit Invest Fake Cryptocurrency Trading Ponzi Scheme',
+    slug: 'cameroon-mekit-invest-crypto-trading-ponzi-scheme',
+    description: `Mekit Invest, a company registered in 2019 (RC/DLBB/2019/B/109) with offices in Douala and Yaoundé, marketed itself as a cryptocurrency trading platform and recruited more than 2,000 subscribers by promising large fixed weekly dividends — for example advertising that a 300,000 FCFA package would pay out 48,000 FCFA every week — alongside crypto "training" and digital-wallet setup services, all without ever holding the authorization the Central African Financial Markets Supervisory Commission (COSUMAF) requires to solicit public investment in the CEMAC zone. Payments to subscribers stopped in September 2020, with founder Jean Calvin Mebenga initially blaming "mobile money connection issues" and platform ceiling limits, an explanation regulators and victims rejected; the governor of Cameroon's Centre Region suspended the company's operations on October 15, 2020, by which point it had collected an estimated 1.5 billion FCFA from more than 1,900 subscribers. Mebenga, nicknamed "the Bernard Madoff of the Tropics" in Cameroonian press coverage, was arrested on December 4, 2020, held at the Centre Region gendarmerie legion, and transferred to Yaoundé's Kondengui central prison in early January 2021 to face prosecution. Cameroonian financial-law commentary on the case noted a parallel scheme, Africa'Lif, in which roughly 35 investors lost about 67.6 million FCFA to an unlicensed entity offering cryptocurrency "swap" trading and participatory financing before its Douala operation closed in mid-2020, and pointed out that COSUMAF has repeatedly stated that no entity may solicit public investment in the region without its prior approval. Cameroonians are advised to verify that any platform soliciting cryptocurrency or forex trading investments actually holds COSUMAF authorization before sending money, and to treat guaranteed fixed weekly or monthly returns — regardless of a company's registration paperwork or physical office presence — as a hallmark of a Ponzi scheme rather than a real trading operation.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'high',
+    sources: ['camer.be', 'Cameroon-Info.Net', "Agence Ecofin"],
+    sourceUrl: 'https://www.camer.be/82776/11:1/cameroun-mekit-invest-une-autre-grosse-escroquerie-eventree-cameroon.html',
+    country: 'CM',
+  },
+);
