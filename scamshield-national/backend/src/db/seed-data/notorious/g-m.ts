@@ -7427,6 +7427,9 @@ Almost none of the underlying mining was actually happening. According to the Ju
 The two men didn't stop at HashFlare. In May 2017, they began marketing a related venture called Polybius, pitched as a forthcoming bank built specifically to serve cryptocurrency customers, with investors promised a cut of its future profits as dividends. Polybius raised at least $25 million of its own — including roughly $7 million funneled in from HashFlare proceeds — and, like the bank it promised to build, never materialized. Altogether, HashFlare and Polybius took in more than $577 million from over 440,000 customers worldwide, including tens of thousands of Americans who put in over $130 million.
 
 Potapenko and Turõgin were arrested in Tallinn in November 2022 and extradited to the United States, where each pleaded guilty in February 2025 to one count of conspiracy to commit wire fraud and agreed to forfeit assets worth more than $400 million, earmarked for a victim remission process. At sentencing in August 2025, a federal judge in Seattle handed down a term of time served — roughly sixteen months — despite calculating an advisory guidelines range of 30 years to life, a decision prosecutors have since appealed as too lenient. Whatever the sentence, the underlying fraud is a reminder that a dashboard showing a balance going up proves nothing about whether the activity behind it is real — the same blind trust in a number on a screen that made Bernie Madoff's fabricated statements believable for seventeen years.`,
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Bitcoin_mining_farm.jpg?width=1200',
+    coverImageCredit: 'Photo: Marko Ahtisaari, CC BY 2.0, via Wikimedia Commons',
   },
 );
 
