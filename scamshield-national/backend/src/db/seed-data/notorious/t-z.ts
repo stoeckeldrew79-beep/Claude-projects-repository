@@ -1625,7 +1625,7 @@ NotoriousTZ.push(
     sourceUrl: "https://www.cftc.gov/PressRoom/PressReleases/9264-26",
     // representative photo — replace with a portrait if found
     coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Charles_R._Jonas_Federal_Building,_Charlotte_(Mecklenburg_County,_North_Carolina).jpg?width=1200",
-    coverImageCredit: "Photo: National Archives / Federal Judicial Center, Public Domain, via Wikimedia Commons — the Charles R. Jonas Federal Building in Charlotte, home of the Western District of North Carolina, where the CFTC's civil complaint against Trevor Vernon was filed",
+    coverImageCredit: "Photo: National Archives / Federal Judicial Center, Public Domain, via Wikimedia Commons — the Charles R. Jonas Federal Building, Charlotte, W.D.N.C., where the CFTC's complaint was filed",
     coverImagePosition: 50,
     body: `Note: this case is a civil enforcement action. The Commodity Futures Trading Commission's complaint describes allegations only — Trevor Vernon has not been criminally charged, and neither he nor Argent Capital Management has been found liable by a court as of this writing.
 
