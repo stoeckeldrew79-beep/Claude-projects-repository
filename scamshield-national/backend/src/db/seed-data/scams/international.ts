@@ -11559,6 +11559,36 @@ International.push(
     sourceUrl: 'https://bvinews.com/beware-of-unlicensed-investment-schemes-fsc-warns/',
     country: 'VG',
   },
+  {
+    name: 'British Virgin Islands Police Impersonation Phone Scam',
+    slug: 'british-virgin-islands-police-impersonation-phone-scam',
+    description: `The Royal Virgin Islands Police Force (RVIPF) issued a public warning on August 2, 2026 after receiving reports of fraudulent telephone calls, video calls, and emails from individuals falsely claiming to be RVIPF officers, including calls placed from the number (340) 205-6489. The RVIPF cautioned that scammers may rotate through different phone numbers, email addresses, and online platforms to disguise their identity, and that a call can look local or familiar even though the number has been spoofed. The Force's guidance is to never share personal or sensitive information over the phone or during a video call unless the caller's identity is certain, to end the call immediately if someone claims to be a police officer, and to independently verify any such call by contacting the RVIPF directly through its own official numbers rather than one the caller provides. Anyone who receives a suspicious call is asked to report it to the RVIPF Intelligence Unit at 368-9512 or the non-emergency line 311, and the RVIPF specifically urged residents to share the warning with elderly relatives and other vulnerable family members who are frequently targeted.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Royal Virgin Islands Police Force (RVIPF)', 'Virgin Islands News Online'],
+    sourceUrl: 'http://www.virginislandsnewsonline.com/en/news/scammers-pretending-to-be-police-officers-on-telephone-calls-rvipf-warns-',
+    country: 'VG',
+  },
+  {
+    name: 'British Virgin Islands Fraudulent Online ED Card Website',
+    slug: 'british-virgin-islands-fraudulent-online-ed-card-website',
+    description: `The British Virgin Islands Immigration Department issued a public advisory on February 2, 2026 warning residents and travellers about a fraudulent website that falsely presents itself as the official government platform for obtaining an Online Embarkation-Disembarkation (ED) Card — the entry form required of everyone arriving in the territory — and is unlawfully charging a fee to use it. The advisory stressed that the fraudulent site "is NOT affiliated with the Government of the Virgin Islands," that BVIEDCARD.GOV.VG is the only authorized website for the service, and that "there is NO charge to obtain an Online ED Card to enter The Virgin Islands." The Immigration Department urged the public not to provide personal information or make payments on unauthorized websites claiming to process territory entry, and advised anyone who believes they interacted with the fraudulent site or made a payment on it to report the matter immediately to their own banking institution.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['British Virgin Islands Immigration Department', 'BVI News'],
+    sourceUrl: 'https://bvinews.com/government-warns-of-fraudulent-ed-card-website/',
+    country: 'VG',
+  },
+  {
+    name: 'British Virgin Islands Hotel Reservation Cheque Refund Scam',
+    slug: 'british-virgin-islands-hotel-reservation-cheque-refund-scam',
+    description: `The British Virgin Islands Financial Investigation Agency (FIA) issued a warning on July 28, 2022 about a scheme targeting the territory's banking and hospitality industries, in which unknown individuals use the names of reputable people and businesses to make false reservations at hotels and guest houses. The FIA said these bookings are paid for with a cashier's cheque deposited into the property's bank account, then cancelled soon afterward with a refund requested by email; the hotel or guest house pays out the refund by cheque before the original cashier's cheque can be confirmed as fraudulent, which lets the money enter the financial system looking like a legitimate refund, while any cancellation fee the property keeps is simply written off by the scammer as a cost of doing business. The FIA warned the bookings "may appear legitimate at first glance" since they can be highly sophisticated and carried out under the names of familiar people or businesses, and it asked anyone who encounters such a scheme or other suspicious activity to file a Suspicious Activity Report through the Agency's SAR form or to contact the FIA directly at (284) 852-3200.`,
+    categorySlug: 'fake-check-overpayment',
+    alertLevel: 'medium',
+    sources: ['British Virgin Islands Financial Investigation Agency (FIA)', 'BVI News'],
+    sourceUrl: 'https://bvinews.com/money-laundering-scheme-targeting-banks-hotels-fia-warns/',
+    country: 'VG',
+  },
 );
 
 International.push(
