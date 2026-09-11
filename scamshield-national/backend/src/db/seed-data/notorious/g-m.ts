@@ -6766,7 +6766,10 @@ Hospice fraud is easy to overlook next to flashier scams because the billing its
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/usao-edny/pr/seven-defendants-sentenced-prison-their-participation-transnational-telemarketing-2',
-    // no rights-cleared photo found — sourceUrl above serves as the "read the full story" link
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Federal_Courthouse_Brooklyn.jpg?width=1200',
+    coverImageCredit: 'Beyond My Ken, CC BY-SA 4.0, via Wikimedia Commons',
+    coverImagePosition: 50,
     body: `The call always came with the same false emergency: your bank account has been compromised, hackers are already inside it, and the only way to keep your money safe is to send it — right now, by check or money order — to an address that will hold it securely until the danger passes. Between January 2022 and December 2023, co-conspirators operating out of India placed that call to dozens of victims across the United States, many of them elderly, and federal prosecutors in the Eastern District of New York say the scheme extracted more than $12 million from people who believed they were protecting their savings rather than mailing them away.
 
 Yveler Marcellus was the operation's collection point on the U.S. side. The checks and money orders victims mailed in a panic landed at addresses in the Eastern District of New York that Marcellus and a crew of six co-conspirators — Felix Marcial, Asheem Henry, George Mims, Rahmel Thompson, Daquan Mitchell, and Tatiana Williams — controlled, where the group deposited the funds into personal and shell bank accounts, split a share among themselves, and wired the remainder back to the conspirators in India who had made the original calls. It was, in effect, a domestic laundering franchise built specifically to receive and clean the proceeds of a fear-based script that never had to change because it kept working.
