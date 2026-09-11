@@ -7493,6 +7493,10 @@ The most damning detail to emerge at trial was what Bell and Josephberg were doi
 A federal jury convicted Discala in May 2018 of securities and wire fraud conspiracy, securities fraud, and wire fraud, and in December 2021 he was sentenced to 138 months — eleven and a half years — in federal prison, along with forfeiture of nearly $2.5 million. Josephberg pleaded guilty in March 2018 and was later sentenced to 36 months and ordered to pay more than $16 million in restitution; Bell pleaded guilty as well, and Shapiro and Wexler faced their own charges in the same indictment.
 
 The CodeSmart case is a reminder that a pump-and-dump doesn't require anonymous internet chat rooms or offshore shell companies to work — it can run through licensed, regulated stockbrokers who are legally obligated to act in their clients' interest, quietly selling the very same stock they're steering client money into, confident that the trade confirmations their customers receive will never reveal what's happening in the broker's own account at the same time.`,
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/New_York_Stock_Exchange_June_2024.jpg?width=1200',
+    coverImageCredit: 'Photo: Kidfly182 / Wikimedia Commons / CC BY 4.0',
+    coverImagePosition: 50,
   },
 );
 
