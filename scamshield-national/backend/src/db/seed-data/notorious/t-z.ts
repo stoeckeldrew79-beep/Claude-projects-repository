@@ -1986,6 +1986,10 @@ NotoriousTZ.push(
     slug: 'jordan-trought-sweepstakes-fraud-ring-leader',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    // representative photo (case prosecuted by the U.S. Attorney's Office for the Southern District of New York) — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Thurgood_Marshall_United_States_Courthouse_004.jpg?width=1200',
+    coverImageCredit: 'Kidfly182, CC BY-SA 4.0, via Wikimedia Commons',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.justice.gov/usao-sdny/pr/jamaican-national-pleads-guilty-role-international-sweepstakes-scam-stole-more-9',
     // no rights-cleared photo found — sourceUrl above serves as the "read the full story" link
     body: `From 2015 through 2025, a Jamaica-based fraud ring ran a sweepstakes con on elderly Americans that never went out of style because it never had to change much: an unsolicited call or text told the victim they'd won a large cash prize and a luxury car from a well-known marketing and sweepstakes company, but first needed to pay "taxes" or "fees" to release it. Victims who paid were told the payment hadn't gone through, or that a new fee had come up, and were walked through sending money again — by check, money order, cash, wire transfer, Zelle, or Venmo — for months or years, one promised prize that never arrived.
