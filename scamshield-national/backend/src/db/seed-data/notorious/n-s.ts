@@ -4999,6 +4999,9 @@ By the FTC's count, FES and its related entities took in more than $213 million 
 The case took over two years to resolve. On August 5, 2024, the court approved settlements permanently banning Naik, the Toloffs, and Thompson from ever again offering credit repair services or operating a multi-level marketing business, and ordered them to surrender more than $12 million in combined assets — including $5.5 million in cash from Naik, cash along with vehicles, a boat, and real estate from Michael Toloff, $1.7 million from Christopher Toloff, and $215,000 from Thompson. The FTC began distributing the recovered funds to victims in installments, sending out more than $10.9 million in refunds as of March 2026 — a payout that, set against $213 million in confirmed losses, illustrates how little of a shut-down pyramid scheme's take is typically left to give back.
 
 FES worked by layering two frauds that reinforced each other: a credit-repair pitch that exploited people's urgent need to fix a real, painful problem, and a recruitment scheme that turned FES's own paying victims into its unpaid sales force. Both halves depended on the same federal law most operations like it violate without customers ever realizing it — the Credit Repair Organizations Act's flat ban on charging for credit repair before the work is done — a rule that exists precisely because people trying to rebuild damaged credit are among the easiest targets to convince that paying first is normal.`,
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/2014-04-04-Federal-Trade-Commission-Building-Washington-DC.jpg?width=1200',
+    coverImageCredit: 'Photo: Gunnar Klack, CC BY-SA 4.0, via Wikimedia Commons — FTC headquarters, which brought the case against Naik and Financial Education Services',
   },
 );
 
