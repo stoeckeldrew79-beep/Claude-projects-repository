@@ -7265,6 +7265,10 @@ Kuhlmann's role illustrates a part of the tech-support scam pipeline that rarely
     slug: 'markovich-brothers-compass-detox-addiction-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Balharbour_fla.jpg?width=1200',
+    coverImageCredit: 'Photo: Alexf, public domain, via Wikimedia Commons — Bal Harbour, Florida, where the Markovich brothers were based',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     sourceUrl: 'https://www.justice.gov/opa/pr/addiction-treatment-facility-operators-sentenced-112-million-addiction-treatment-fraud-scheme',
     body: `Jonathan Markovich and his younger brother Daniel, of Bal Harbour, Florida, ran two addiction treatment businesses — Second Chance Detox LLC, doing business as Compass Detox, an inpatient detox and residential facility, and a related outpatient program called WAR Network LLC. On paper, they looked like part of South Florida's large, legitimate recovery industry. According to federal prosecutors, the brothers instead built a $112 million health care fraud scheme that depended on keeping patients sick, dependent, and cycling back through their own facilities rather than getting better and leaving.
 
