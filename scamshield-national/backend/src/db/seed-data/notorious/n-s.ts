@@ -4838,6 +4838,10 @@ NotoriousNS.push(
     slug: 'norman-schmidt-redstone-castle-investment-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Osgood_Castle.JPG?width=1200',
+    coverImageCredit: 'Jeffrey Beall / Wikimedia Commons / CC BY-SA 3.0',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.justice.gov/archive/usao/co/news/2008/April08/4_29_08.html',
     body: `Between 1999 and 2003, Norman Eugene Schmidt of Denver, Colorado, ran a "high-yield" investment program through a rotating cast of shell entities — Reserve Foundation Trust, Smitty's Investments, Capital Holdings, Monarch Capital Holdings, and Fast Track among them — that promised investors returns nearly impossible to take at face value: gains of 2 to 400 percent per month, described as fully insured, risk-free, and kept in a "nondepleting account" that would never lose principal. Real financial products don't guarantee anything close to those numbers, because no legitimate investment can.
 
@@ -4857,6 +4861,10 @@ NotoriousNS.push(
     slug: 'philip-barry-leverage-group-ponzi-scheme',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Federal_Courthouse_Brooklyn.jpg?width=1200',
+    coverImageCredit: 'Beyond My Ken / Wikimedia Commons / CC BY-SA 4.0',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-21199',
     body: `Most Ponzi schemes get caught within a few years, once the flow of new investor money can no longer keep pace with what's owed to earlier ones. Philip Barry, a Brooklyn money manager, ran his for roughly three decades. Starting in the late 1970s, Barry began taking money from investors — describing the collection of funds and shell entities as "the Leverage Group" — and telling them it was being invested in stock options, generating the steady, guaranteed returns he promised.
 
