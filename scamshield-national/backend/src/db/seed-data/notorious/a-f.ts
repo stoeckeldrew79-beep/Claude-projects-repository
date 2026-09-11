@@ -6012,6 +6012,10 @@ NotoriousAF.push(
     slug: 'dennise-merdjanian-superior-servicing-student-loan-scam',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    // representative photo (FTC case filed in the U.S. District Court for the District of Nevada, Las Vegas) — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Lasvegascourthouse.jpg?width=1200',
+    coverImageCredit: 'U.S. Department of Justice, public domain, via Wikimedia Commons',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2026/07/student-loan-forgiveness-scammer-permanently-banned-debt-relief-industry-telemarketing',
     body: `Dennise Merdjanian operated Superior Servicing LLC, a Nevada-based company that, starting no later than January 2023, cold-called and mailed personalized letters to student loan borrowers around the country claiming to be affiliated with the U.S. Department of Education. According to a complaint filed by the Federal Trade Commission in November 2024 in the U.S. District Court for the District of Nevada, the pitch promised things borrowers desperately wanted to hear — loan consolidation, reduced interest rates, lower monthly payments, and in some cases full forgiveness — none of which Merdjanian's operation actually had any special ability to deliver.
 
