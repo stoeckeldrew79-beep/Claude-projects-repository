@@ -7085,6 +7085,10 @@ NotoriousAF.push(
     slug: 'aron-puretz-moshe-silber-mortgage-fraud-scheme',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Robert_F._Kennedy_Department_of_Justice_Building,_Washington,_D.C.jpg?width=1200',
+    coverImageCredit: 'Pelajanela / Wikimedia Commons / CC BY-SA 4.0',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.justice.gov/opa/pr/four-real-estate-investors-sentenced-multimillion-dollar-loan-scheme',
     body: `Commercial real estate lenders size up a loan largely by looking at what a property just sold for — the theory being that a recent, arm's-length sale price is the most reliable evidence of what a building is actually worth. Aron Puretz, his son Chaim "Eli" Puretz, Moshe "Mark" Silber, and Fredrick Schulman built a fraud around exploiting exactly that assumption, according to the Justice Department, by making sure the lender never learned the sale wasn't arm's-length at all.
 
