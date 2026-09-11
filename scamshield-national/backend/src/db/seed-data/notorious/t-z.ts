@@ -2316,6 +2316,10 @@ NotoriousTZ.push(
     slug: 'troy-williams-jamaica-lottery-scam',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Pittsburgh_Federal_Court_House_-_Joseph_F._Weis,_Jr._(48061060956).jpg?width=1200',
+    coverImageCredit: 'Photo: Tony Webster, CC BY-SA 2.0, via Wikimedia Commons — the Joseph F. Weis, Jr. U.S. Courthouse in Pittsburgh, where Williams was sentenced',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.fbi.gov/contact-us/field-offices/pittsburgh/news/jamaican-man-sentenced-to-65-years-in-prison-for-role-in-international-lottery-scam-targeting-elderly',
     body: `From roughly January 2019 to October 2023, a seven-person conspiracy split between Montego Bay, Jamaica, and several U.S. cities ran a lottery scam that federal prosecutors say targeted elderly Americans, many over the age of 75, across western Pennsylvania and beyond. Troy Williams, of St. James Parish, Jamaica, was among the Jamaica-based members of the group, working alongside Jason Plummer and Tajay Singh. Victims were called and told they had won a multi-million-dollar sweepstakes prize, but that they first needed to pay taxes and processing fees before the winnings could be released — a prize that, of course, never existed.
 
