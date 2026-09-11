@@ -5181,3 +5181,17 @@ UsNS.push({
     isHistorical: true,
     firstRecorded: '2025-06-13',
 });
+
+UsNS.push({
+    name: 'Manhattan SIM-Swap Ring With Bribed Telecom Store Employees',
+    slug: 'new-york-manhattan-sim-swap-telecom-insider-ring',
+    description: `Manhattan District Attorney Alvin Bragg announced the indictment on November 20, 2025 of an eleven-person ring accused of stealing $435,000 from four Manhattan residents by paying insiders at AT&T and T-Mobile retail stores to illegally reassign victims' phone numbers onto SIM cards the group controlled. Prosecutors say ringleaders Devin Lopez-Dominguez, Brian Cortorreal, and Kilsis Delacruz paid four retail employees — Jadakiss Bonilla, Kendrah Vasquez, Amanda Rodado, and Jared Moreland — to perform the unauthorized SIM swaps from inside the stores, sidestepping the security checks a scammer would otherwise have to defeat over the phone. Once a victim's number was hijacked, the group used it to intercept the one-time SMS passcodes banks and other services sent to "verify" the account holder, then used those codes to log into victims' bank accounts and transfer out cash; additional defendants — Brandan Goodwin, Starlyn Solano, and Lilyan Gil — are accused of receiving the stolen funds, while Jason Weaver and Juan Castillo are accused of directing additional swaps and paying other participants. "We allege that, with the help of insiders at cellphone stores, this ring stole hundreds of thousands from Manhattanites by accessing their accounts through SIM-swapping," Bragg said in announcing charges that include conspiracy, second-degree money laundering, grand larceny, first-degree identity theft, and criminal possession of stolen property. The case is a reminder that a SIM swap doesn't always require tricking a call-center employee over the phone — it can be arranged in minutes by a paid insider at a retail store — so anyone whose phone unexpectedly loses signal or shows "no service" without explanation should immediately contact their carrier through a separately verified number and check bank and financial accounts for unauthorized activity, and should ask their carrier to add a PIN or passcode required for any SIM change or port-out request.`,
+    categorySlug: 'account-takeover',
+    alertLevel: 'high',
+    sources: ['Manhattan District Attorney (Alvin Bragg)'],
+    sourceUrl: 'https://manhattanda.org/d-a-bragg-announces-indictment-of-sim-swapping-id-theft-ring-including-att-and-t-mobile-employees/',
+    country: 'US',
+    state: 'NY',
+    isHistorical: true,
+    firstRecorded: '2025-11-20',
+});
