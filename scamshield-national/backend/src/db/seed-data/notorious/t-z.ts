@@ -2407,6 +2407,10 @@ According to the SEC's civil complaint, the pitch was fiction from the start. Ve
 Federal prosecutors eventually caught up with the criminal side of the scheme. Gaffney pleaded guilty on January 23, 2025 to conspiracy to commit wire fraud, and U.S. District Judge John C. Antoon II sentenced him to five years in federal prison, along with an order of forfeiture of $487,750 — the amount prosecutors calculated he personally obtained from the conspiracy. The SEC's parallel civil case held Gaffney and VerdeGroup jointly and severally liable for disgorgement of $467,110 plus prejudgment interest.
 
 Gaffney's case is a study in how little a securities bar accomplishes on its own without ongoing enforcement behind it: a man the SEC had already permanently barred from penny-stock offerings and corporate leadership simply moved to a different structure — a private lending pitch instead of a stock offering — and kept going for years before newspaper ads soliciting "legal marijuana" loans drew fresh victims into the same basic fraud. A guaranteed fixed return, a hot industry used as a hook, and money routed through an unrelated small business rather than a verifiable fund are three separate warning signs that, together, describe almost exactly what VerdeGroup's investors were never shown.`,
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Historic_Downtown_Melbourne.jpg?width=1200',
+    coverImageCredit: 'Photo: MicheleHaro / Wikimedia Commons / CC BY 3.0',
+    coverImagePosition: 50,
   },
 );
 
