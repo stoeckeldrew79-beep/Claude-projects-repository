@@ -3342,6 +3342,10 @@ NotoriousNS.push(
     slug: 'elvis-ogiekpolor-romance-scam-money-laundering',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Downtown_Atlanta_skyline_panorama.jpg?width=1200',
+    coverImageCredit: 'London looks, CC BY 2.0, via Wikimedia Commons',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.justice.gov/usao-ndga/pr/georgia-man-who-laundered-millions-romance-scams-business-email-compromises-and-other',
     body: `Elvis Eghosa Ogiekpolor lived in Norcross, Georgia, when federal prosecutors say he built one of the more elaborate money-laundering operations to come out of the wave of online romance and business email compromise fraud that swept the United States in the late 2010s. Between October 2018 and August 2020, Ogiekpolor opened, and directed others to open, more than 50 fraudulent business bank accounts under roughly a dozen shell companies — accounts that existed for one purpose: to receive money that other scammers had already talked victims out of.
 
@@ -3360,6 +3364,10 @@ NotoriousNS.push(
     slug: 'donald-sheelen-regina-company-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/New_Jersey_State_House_north_panorama.jpg?width=1200',
+    coverImageCredit: 'Niagara, CC BY-SA 3.0, via Wikimedia Commons',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.upi.com/Archives/1989/02/08/Top-Regina-officers-admit-false-financial-statements/3396602917200/',
     body: `Regina had been making vacuum cleaners in Rahway, New Jersey, for decades by the time Donald D. Sheelen took over as chairman, chief executive, and president in the 1980s, but under his leadership it briefly became a Wall Street growth story. The 1986 launch of the Housekeeper upright, backed by heavy network television advertising, was marketed as the turnaround product that would make Regina a major national vacuum brand again, and investors bought the story: Regina's stock climbed as high as $27.50 a share by July 1988 on the strength of financial statements showing the company swinging to real profitability.
 
@@ -3378,6 +3386,10 @@ NotoriousNS.push(
     slug: 'ramil-ventura-palafox-pgi-global-bitcoin-ponzi',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Albert_V._Bryan_Federal_Courthouse_2019.jpg?width=1200',
+    coverImageCredit: 'Antony-22, CC BY-SA 4.0, via Wikimedia Commons',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.justice.gov/usao-edva/pr/praetorian-group-international-ceo-sentenced-20-years-prison-200m-bitcoin-ponzi-scheme',
     body: `Ramil Ventura Palafox, a dual citizen of the United States and the Philippines, built Praetorian Group International — branded to investors as PGI Global — around a simple pitch: hand over cash or bitcoin, and Palafox's supposed high-volume bitcoin trading operation would pay daily returns of 0.5 to 3 percent, an annualized rate so high it should have been an immediate red flag. Instead, between December 2019 and October 2021, more than 90,000 investors around the world put over $201 million into PGI, including roughly $30.3 million in ordinary currency and more than 8,198 bitcoin worth over $171 million at the time it was deposited.
 
@@ -3454,6 +3466,10 @@ Skowron's case is a reminder that insider trading in the hedge fund world doesn'
     slug: 'roman-shpakov-qbf-russia-investment-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Тверской_суд_1.jpg?width=1200',
+    coverImageCredit: 'AlexChirkin, CC0, via Wikimedia Commons',
+    coverImagePosition: 50,
     sourceUrl: 'https://en.wikipedia.org/wiki/QBF_fraud_case',
     body: `Roman Valerievich Shpakov founded QB Finance, later rebranded QBF, in Moscow in 2008, and by 2009 had secured the licenses that let it operate as a registered securities broker and portfolio manager under Russian financial law. The wrapper of legitimacy mattered: QBF didn't pitch itself as an obvious pyramid scheme but as a professional asset-management firm, promising clients annual returns of 15 to 20 percent from diversified trading — high enough to be attractive, but not so implausible that it triggered the skepticism a "double your money" pitch would have.
 
@@ -3470,6 +3486,9 @@ QBF's case is a reminder that a real financial license and a decade of quiet ope
     slug: 'roys-poyiadjis-lycourgos-kyprianou-aremissoft-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Roys_poyiadjis.jpg?width=1200',
+    coverImageCredit: 'Donna Poyiadjis, CC BY-SA 3.0, via Wikimedia Commons',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.sec.gov/news/press/2005-87.htm',
     body: `AremisSoft Corporation was an enterprise software company co-founded by Greek Cypriot businessmen Roys Poyiadjis and Lycourgos Kyprianou, who built it from a small Cyprus-based operation into a Nasdaq-listed firm with nominal U.S. headquarters in Edison, New Jersey and offices spanning London, Cyprus, and India. By early 2000, AremisSoft's stock had soared on the strength of what looked like a rapidly growing customer base and a string of acquisitions — a classic dot-com-era growth story that made both founders, on paper, extraordinarily wealthy.
 
@@ -3526,6 +3545,10 @@ Aequitas is a case study in how a fraud can hide inside assets that are entirely
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
     sourceUrl: 'https://en.wikipedia.org/wiki/Double_Shah',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Gateway_to_wazirabad.jpg?width=1200',
+    coverImageCredit: 'Manofsteelsupes, CC BY-SA 4.0, via Wikimedia Commons',
+    coverImagePosition: 50,
     body: `Sibtul Hasan Shah taught science at a school in Wazirabad, a working-class city in Pakistan's Punjab province, until 2005, when a trip to Dubai seems to have given him both the capital and the idea to quit teaching for good. Back home, he began approaching former colleagues and neighbors with a proposition that would have sounded absurd from a stranger but landed differently coming from a familiar face: hand him their savings, and in just 15 days he would hand them back double.
 
 The pitch worked because it was, for a while, true — for the first depositors. Shah paid the earliest participants exactly what he promised, funded entirely by the money flowing in from the next wave of depositors drawn in by word of mouth and by neighbors who had already been paid. As the scheme grew, the payout window stretched to 70 days to keep the arithmetic from collapsing too quickly, and Shah's operation, which people came to call simply "Double Shah," spread out from Wazirabad into the surrounding Punjab districts of Gujranwala, Gujrat, Sialkot, and Hafizabad, eventually taking in a reported 40 billion Pakistani rupees from thousands of investors, many of them teachers, shopkeepers, and other members of the same lower-middle-class communities Shah himself came from.
@@ -3542,6 +3565,10 @@ The "Double Shah" case is a reminder of how little sophistication a fraud needs 
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
     sourceUrl: 'https://www.abc.net.au/news/2014-01-23/trio-capital-fraudster-shawn-richards-released-from-prison/5214724',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Law_Courts_Building,_Sydney_04.jpg?width=1200',
+    coverImageCredit: 'Chris Olszewski, CC BY-SA 4.0, via Wikimedia Commons',
+    coverImagePosition: 50,
     body: `Trio Capital was a licensed Australian superannuation and managed-investment fund operator based in Albury, New South Wales, that by 2009 was responsible for the retirement savings of thousands of ordinary Australians, channeled through funds with names like the Astarra Strategic Fund and the ARP Growth Fund. Shawn Richard, a Canadian national in his twenties, sat on the board of Trio's asset manager, Astarra Asset Management, and had his name attached as director to many of the funds' key legal documents — making him the public face of an operation that investigators later found had been quietly funneling Australian retirement savings offshore almost from the moment it began.
 
 From July 2004, Richard authorized the transfer of investors' money out of the Australian funds and into a web of offshore hedge funds based in places like the British Virgin Islands and Hong Kong. Those offshore funds were controlled by Jack Flader, a US-born, Hong Kong-based businessman whom the sentencing judge would later describe as the scheme's architect. Richard signed off on fabricated valuations and other documents that made the offshore holdings look legitimate to auditors, regulators, and the Australian trustees still responsible for the funds, while Flader used the diverted money to buy shares in small US companies from other entities he also controlled — extracting profit for himself at investors' expense on both ends of the transaction.
@@ -3561,6 +3588,10 @@ NotoriousNS.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
     sourceUrl: 'https://en.wikipedia.org/wiki/Sakvithi_Ranasinghe',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Colombo_Skyline_Jan_2022.jpg?width=1200',
+    coverImageCredit: 'XKillSwitchXxx, CC BY-SA 4.0, via Wikimedia Commons',
+    coverImagePosition: 50,
     body: `Sakvithi Ranasinghe — born Abhaya Ranasinghe Arachchilage Chandana Weerakumara in 1972 in Battaramulla, near Colombo — became one of Sri Lanka's most recognizable public figures not through finance but through English-language tutoring, building a television and advertising presence around English classes for students desperate to improve their job prospects, marketed under the slogan "I was born to teach." That fame became his business model. In 2003, at the height of his popularity as a tutor, he founded S.R. Property Sharing Investment (Private) Limited, an unlicensed finance company that took deposits from the public in exchange for the promise of attractive dividends, and later added Sakvithi Constructions, which claimed to sell land and property but in several cases relied on counterfeit deeds for land it did not actually own or have the right to sell.
 
 Depositors handed Ranasinghe their savings largely because they already trusted him as a familiar face from television rather than because anyone had vetted S.R. Property Sharing as a licensed deposit-taking institution — it was not one. By the time Sri Lanka's Central Bank moved against the operation on September 26, 2008, investigators calculated that Ranasinghe had taken in more than 1 billion rupees (roughly $8.5 million at the time) from 2,135 depositors, funds that court proceedings later showed had gone toward a personal lifestyle that included heavy gambling losses at casinos including the MGM Grand, Bellagio, and Bally's in Las Vegas rather than toward any property investment that could actually pay depositors back.
@@ -3580,6 +3611,10 @@ NotoriousNS.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
     sourceUrl: 'https://www.rnz.co.nz/news/all/104260/bridgecorp-director-petricevic-jailed-6-years',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Auckland_High_Court.jpg?width=1200',
+    coverImageCredit: 'Krzysztof Golik, CC BY-SA 4.0, via Wikimedia Commons',
+    coverImagePosition: 50,
     body: `Rod Petricevic was the managing director of Bridgecorp, an Auckland-based property-lending finance company that raised money from the New Zealand public the way many of the country's finance companies did in the 2000s: by selling secured debenture stock through a registered investment prospectus that promised fixed interest returns and was marketed heavily to everyday retail investors, retirees especially, as a safer alternative to shares. For years the pitch worked, and Petricevic lived accordingly — including having Bridgecorp fund the purchase of a NZ$3.5 million luxury launch, the "Medici," a deal that later became the subject of a separate fraud prosecution in its own right.
 
 The core fraud lay in what Bridgecorp kept telling investors even as the company's finances deteriorated. Its prospectus and later investment statements represented that Bridgecorp had never missed an interest or principal payment to investors — a claim the sentencing judge would later find Petricevic knew to be false at the time it was published. Relying on those assurances, more than NZ$91 million in reinvested funds and a further NZ$28 million in new investor money flowed into Bridgecorp after the misleading statements were published, money invested by people who had no way of knowing the company was already unable to meet its obligations to them.
@@ -3744,6 +3779,10 @@ NotoriousNS.push(
     author: "ScamShield Editorial",
     tags: ["notorious", "notorious-scammer"],
     sourceUrl: "https://www.justice.gov/opa/pr/telemedicine-company-owner-sentenced-7-years-prison-56m-medicare-fraud-scheme",
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/US.PostOffice%26Courthouse.Newark.jpg?width=1200',
+    coverImageCredit: 'Djflem, CC0, via Wikimedia Commons',
+    coverImagePosition: 50,
     body: `Reinaldo Wilson, 57, formerly of Richmond Hill, Georgia, owned and operated two telemedicine companies based in Bayonne, New Jersey between 2017 and 2019. According to the Justice Department, Wilson and his co-conspirators used those companies to run a durable-medical-equipment kickback scheme that funneled more than $56 million in false claims to Medicare — a scheme that worked not by inventing patients out of thin air, but by talking real Medicare beneficiaries into accepting medical equipment they did not need.
 
 Wilson and others paid illegal kickbacks to medical providers willing to sign orders for orthotic braces for Medicare beneficiaries regardless of medical necessity. Those signed orders were then sold to marketing companies, which frequently resold them again to brace suppliers, who submitted the actual claims to Medicare — a layered structure that let each participant along the chain collect a cut while distancing themselves from the fraudulent billing at the end of it. Prosecutors say providers working for Wilson's companies signed orders for four or more orthotics apiece for more than 3,000 beneficiaries, and that more than 40 beneficiaries were issued 10 or more orthotic braces each, with Wilson and his marketing-company co-conspirators pushing beneficiaries to accept as many devices as they could be talked into. When Wilson wanted to keep the scheme running under a fresh corporate name, prosecutors say he turned to someone who trusted him personally: he convinced a fellow member of his church that a new telemedicine company was a legitimate investment opportunity, took $20,000 from her, and had her open the company and its bank accounts in her name — accounts he then took control of himself.
@@ -3802,6 +3841,10 @@ NotoriousNS.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/usao-sdia/pr/connecticut-man-sentenced-nine-years-imprisonment-participating-nationwide-romance',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Abraham_Ribicoff_Federal_Building_Hartford_CT.JPG?width=1200',
+    coverImageCredit: 'Grondemar, CC BY-SA 3.0, via Wikimedia Commons',
+    coverImagePosition: 50,
     body: `Naabanyin Aniagyei-Cobbold, 30, of Connecticut, was one of the money-moving links in a nationwide romance scam operation investigated by the FBI's Omaha Cyber Task Force and the Polk County, Iowa, Sheriff's Office. Romance scams follow a familiar structure: someone creates a fake profile on a dating site or social media platform, builds what feels like a real relationship with a victim over weeks or months, and then invents a reason — a medical emergency, a business opportunity, a shipment stuck in customs — for the victim to send money. What varies from case to case is the money-laundering plumbing behind the fake profile, and that was Aniagyei-Cobbold's role.
 
 According to the U.S. Attorney's Office for the Southern District of Iowa, Aniagyei-Cobbold set up a shell company, Alpha Distributions LLC, that existed only to receive wire transfers and other payments from romance-scam victims who believed they were sending money to help a partner they had met online. He also recruited and coached at least one additional participant, Nana Takyiwa Adonu, 43, of Odenton, Maryland, in setting up her own front company, Han-Dak LLC, along with a website and bank accounts to receive victim funds through the same scheme. Prosecutors say Aniagyei-Cobbold's channel alone took in more than $1.5 million from victims nationwide, including over $400,000 from a single victim in central Iowa; Adonu's channel separately took in more than $1.6 million, including from Iowa victims. Many of the people targeted drained retirement accounts, sold homes and vehicles, delayed retirement, or borrowed heavily from family members to keep sending money to a partner who did not exist.
@@ -3882,6 +3925,10 @@ NotoriousNS.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
     sourceUrl: 'https://www.cftc.gov/PressRoom/PressReleases/8786-23',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Skyline_of_Tampa,_Florida_from_Bayshore_Blvd.jpg?width=1200',
+    coverImageCredit: 'Tampa Gator, Public Domain, via Wikimedia Commons',
+    coverImagePosition: 50,
     body: `Patrick Wonsey, of Riverview, Florida, ran a foreign-currency and binary-options trading business under the name One Bell & Associates, Inc., soliciting money from retail customers with promises of profitable trading in forex, binary options, metals, and digital assets. According to the U.S. Commodity Futures Trading Commission, Wonsey operated the business from at least January 2017 through September 2022, taking in a minimum of $3.4 million from more than 50 individuals.
 
 The CFTC's civil complaint, filed September 26, 2023 in the U.S. District Court for the Middle District of Florida, alleged that Wonsey misrepresented his trading success and the safety of customers' money, then misappropriated a substantial share of what he collected — roughly $2.7 million, the agency said — for purposes that had nothing to do with the trading he had promised. The complaint further alleged that Wonsey operated as an unregistered commodity pool operator and commingled customer funds with his own, leaving his customers with no independent way to verify what had actually happened to their money.
@@ -3916,6 +3963,10 @@ The Colorado Division of Securities highlighted the case specifically because of
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.njoag.gov/middlesex-county-man-sentenced-to-seven-years-in-state-prison-for-running-a-7-7-million-securities-fraud-scheme-involving-fake-fuel-companies/',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/MiddlesexCountyCourtHouse1.JPG?width=1200',
+    coverImageCredit: 'Djflem, CC BY-SA 4.0, via Wikimedia Commons',
+    coverImagePosition: 50,
     body: `Shahid Javed, of Old Bridge, New Jersey, built his fraud scheme around a business investors could picture clearly: fuel trading. According to the New Jersey Attorney General's Office, Javed began in March 2018 by soliciting roughly $640,000 in purported loans for a venture called East Coast Energy Partners, telling investors the money would finance jet-fuel purchases. From there, prosecutors say, the scheme grew and shifted shape — Javed created two entirely fictitious companies, Prime Petroleum Group LLC and Petro Traders Group LLC, and used them to solicit additional investors with promises of returns as high as 50%, plus the return of their principal, from fuel-trading profits and an investment in a Texas oil refinery that authorities say did not exist as described.
 
 To keep the story credible, Javed is alleged to have impersonated multiple fictitious employees of his own companies when communicating with investors, and to have paid roughly $1 million to early investors using money from later ones — a Ponzi-style mechanic that let the scheme's apparent returns keep new money flowing in. Between March 2018 and May 2023, prosecutors say Javed took in approximately $7.7 million from investors in total, diverting much of it to personal spending that included a Bentley, a house, and a boat.
@@ -4017,6 +4068,10 @@ NotoriousNS.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.ssb.texas.gov/news-publications/texas-state-securities-board-enters-emergency-order-against-southlake-real-estate',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Southlake_Town_Square_(6181958881).jpg?width=1200',
+    coverImageCredit: 'Southlake Texas (Flickr), CC BY 2.0, via Wikimedia Commons',
+    coverImagePosition: 50,
     body: `Note: this entry describes allegations contained in a Texas State Securities Board emergency cease-and-desist order, not a criminal conviction or a finding proven in court. The order's allegations have not been adjudicated, and the underlying investigation is described by the TSSB as ongoing.
 
 Shiloh Boone Lasater and Tie Glenn Lasater ran Lasater Capital, LLC, a Southlake, Texas-based firm marketing a real estate investment vehicle called Lasater RE Fund 14, pitched to investors as a diversified play on multi-family and other real estate assets. According to an emergency cease-and-desist order the Texas State Securities Board entered on June 9, 2026, the fund was targeting roughly $10 million in commitments and had already raised approximately $5.6 million from more than 50 investors by promoting quarterly distributions, equity appreciation, and returns as high as 20 percent.
@@ -4036,6 +4091,10 @@ NotoriousNS.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
     sourceUrl: 'https://www.justice.gov/usao-sdfl/pr/miami-man-sentenced-more-19-years-prison-40-million-investment-ponzi-scheme',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/James_Lawrence_King_Federal_Justice_Building.jpg?width=1200',
+    coverImageCredit: 'Cielbie, CC BY-SA 3.0, via Wikimedia Commons',
+    coverImagePosition: 50,
     body: `Pablo Silverio Rebollido built E-Card Lending LLC and E-Card Merchant LLC, both based in Miami, around a business model that sounds mundane by design: merchant cash advances, in which a company gets a lump sum of cash upfront in exchange for a cut of its future credit card sales or daily bank deposits. It's a real and common form of small-business financing — which is exactly what made it convincing cover for a fraud that prosecutors say ran for nearly five years.
 
 According to the U.S. Attorney's Office for the Southern District of Florida, Rebollido solicited money from investors between August 2019 and February 2024 by telling them their funds would be used to finance E-Card's merchant cash advances to small and medium-sized businesses, in exchange for a promised return. In reality, prosecutors said, E-Card had no actual clients and wasn't funding merchant cash advances at anywhere near the scale Rebollido described. Instead, he used incoming investor money to pay "returns" to earlier investors — the defining structure of a Ponzi scheme — while diverting a substantial share to finance his own lifestyle.
@@ -4176,6 +4235,10 @@ NotoriousNS.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
     sourceUrl: 'https://www.justice.gov/archive/usao/waw/press/2011/may/miracle.html',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Seattle-_William_Kenzo_Nakamura_United_States_Court_House_front.jpg?width=1200',
+    coverImageCredit: 'Thayne Tuason, CC BY 4.0, via Wikimedia Commons',
+    coverImagePosition: 50,
     body: `Robert Miracle, of Bellevue, Washington, ran a group of companies — Laramie Petroleum Inc., MCube Petroleum Inc., and affiliated entities Diski LLC, Basilam LLC, and Halmahera-Rembang LLC — that he pitched to investors as vehicles for oil and gas field development in Indonesia and Malaysia. He told investors the overseas fields were producing and profitable, an assertion few of them were in any position to verify from the other side of the world, and one that turned out to be almost entirely false.
 
 Between September 2004 and October 2007, Miracle's companies took in roughly $65.3 million from investors. About $36.7 million of that went right back out the door as "dividends" and payments to lenders — the defining mechanic of a Ponzi scheme, in which money from newer investors funds payouts that make earlier investors believe the underlying business is real and thriving. What remained went to a mix of genuine, if limited, Indonesian drilling costs and Miracle's own spending, including a diamond ring later valued at more than $38,000 and a painting worth more than $27,000, both ultimately forfeited to the government.
@@ -4254,6 +4317,11 @@ NotoriousNS.push(
     slug: 'romana-leyva-tech-support-fraud-elderly',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-sdny/pr/las-vegas-woman-sentenced-prison-10-million-tech-support-fraud-scheme-exploited-elderly',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Daniel_Patrick_Moynihan_U.S._Courthouse,_Manhattan,_New_York_(7237347688).jpg?width=1200',
+    coverImageCredit: 'Ken Lund, CC BY-SA 2.0, via Wikimedia Commons',
+    coverImagePosition: 50,
     body: `The pop-up looked like exactly the kind of warning a cautious computer user was taught to take seriously: a message claiming the machine had been infected with a virus, sometimes dressed up with a familiar-looking tech-company logo, warning that closing the window or shutting down the computer would cause permanent data loss. It gave a phone number to call for help. From around 2015 to 2018, a fraud ring based in the United States and India used that single fake warning to steal more than $10 million from roughly 7,500 victims, most of them elderly, across the United States and Canada. Romana Leyva was one of its members.
 
 The pop-ups were the hook; the "technicians" on the other end of the phone number did the rest. Once a frightened victim called in, callers posing as tech support staff asked for — and were granted — remote access to the victim's computer, then used that access to "demonstrate" a nonexistent infection before selling the victim virus-removal and computer-support services that were neither needed nor, in many cases, ever actually performed. Victims, many with limited technical knowledge and a genuine fear of losing years of photos, documents, and financial records, paid hundreds or thousands of dollars for services built entirely on a manufactured scare.
@@ -4261,7 +4329,6 @@ The pop-ups were the hook; the "technicians" on the other end of the phone numbe
 Leyva was arrested in 2019 and pleaded guilty to conspiracy to commit wire fraud. On January 21, 2022, a federal judge in the Southern District of New York sentenced her to 100 months — more than eight years — in prison, and ordered her to forfeit $4,679,586.93 and pay $2,707,882.91 in restitution to victims. Other members of the ring, including a former bank branch manager who helped launder the proceeds and a co-defendant who was extradited from India, were separately charged and sentenced in the same investigation.
 
 Tech-support scams built around a fake virus warning remain one of the most common fraud formats reported to the FTC and FBI's Internet Crime Complaint Center years after Leyva's ring was broken up, precisely because the pitch requires no research on the victim at all — just a pop-up designed to trigger panic before the reader has time to think, and a phone number ready to "help."`,
-    sourceUrl: 'https://www.justice.gov/usao-sdny/pr/las-vegas-woman-sentenced-prison-10-million-tech-support-fraud-scheme-exploited-elderly',
   },
 );
 
@@ -4272,6 +4339,10 @@ NotoriousNS.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.ccprosecutor.us/the-founder-of-senior-veterans-administration-services-sentenced-for-scamming-the-department-of-veterans-affairs-of-approximately-20-million-in-fraudulent-benefit/',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Cuyahoga_County_Courthouse,_Cleveland,_OH_(28726166058).jpg?width=1200',
+    coverImageCredit: 'Warren LeMay, CC0, via Wikimedia Commons',
+    coverImagePosition: 50,
     body: `Richard Rompala, 65, ran a Cleveland-area outfit called Senior Veterans Administration Services (SVAS) that presented itself to elderly veterans as exactly what its name implied: a free, charitable service helping them navigate the Department of Veterans Affairs' Aid and Attendance benefit, a pension supplement for veterans and surviving spouses who need help with daily living. For veterans confused by VA paperwork and eager for legitimate assistance, SVAS looked like the help they'd been searching for.
 
 According to the Cuyahoga County Prosecutor's Office, the "help" SVAS actually provided was engineering fraudulent eligibility. Aid and Attendance benefits are income-tested, so SVAS encouraged veterans to designate a "caregiver" — ideally a trusted friend or family member, but when none was available, an SVAS employee or associate would fill the role instead — a maneuver used to offset the veteran's countable income and manufacture eligibility for benefits they otherwise would not have qualified for, or to inflate the size of benefits they legitimately could claim. SVAS then submitted the falsified paperwork to the VA and used a separate entity to intercept the resulting benefit payments before passing on only a portion to the veterans they were supposedly serving. Prosecutors said the scheme extracted approximately $20 million in fraudulent VA benefits, and that Rompala personally pocketed roughly $670,000 of it.
@@ -4524,7 +4595,10 @@ NotoriousNS.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/usao-ct/pr/killingly-man-admits-stealing-775k-nonprofits-windham-and-middlefield',
-    // no rights-cleared photo identified — sourceUrl above serves as the "read the full story" link
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Richard_C._Lee_Courthouse,_New_Haven_CT.jpg?width=1200',
+    coverImageCredit: 'U.S. General Services Administration, Public Domain, via Wikimedia Commons',
+    coverImagePosition: 50,
     body: `Note: Ryan Fitzgibbons pleaded guilty to wire fraud, so his guilt on that charge is not in dispute. But as of this writing he has not yet been sentenced — a hearing is scheduled for December 2, 2026 — so the prison term described below as a statutory maximum is not a settled final sentence.
 
 Ryan Fitzgibbons, 44, of Killingly, Connecticut, spent nearly two years as executive director of Holy Family Home & Shelter (HFHS) in Windham, a charity that provides emergency and temporary housing to people facing homelessness. Between November 2021 and June 2023, federal prosecutors say, he embezzled approximately $734,683 from the shelter by transferring money directly from its bank accounts into his own, making unauthorized debit card purchases and ATM withdrawals, and writing shelter checks to himself and to "cash." To keep the board from noticing, he gave them falsified financial and donation reports that concealed the gap the thefts were leaving in the shelter's accounts. He was fired in September 2023 once the discrepancies surfaced.
