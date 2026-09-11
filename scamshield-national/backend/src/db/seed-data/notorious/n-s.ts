@@ -4617,6 +4617,9 @@ NotoriousNS.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://docs.fcc.gov/public/attachments/DOC-402506A1.pdf',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Mumbai_skyline,_Coastal_road,_Carter_Road.jpg?width=1200',
+    coverImageCredit: 'Mumbai, India — where Anand was arrested by India’s Central Bureau of Investigation, by Wander-earth (CC BY-SA 4.0, Wikimedia Commons)',
     body: `Note: Prince Jashvantlal Anand has been arrested by Indian federal police and identified by the U.S. Federal Communications Commission as the leader of the Royal Tiger network, but as of this writing he has not been criminally charged or convicted in the United States, and no Indian court has yet ruled on the case against him. What follows describes regulatory findings and an ongoing foreign investigation, not a settled conviction.
 
 On May 15, 2024, the FCC's Enforcement Bureau did something it had never done before: it published a formal alert naming a specific criminal network — one it called "Royal Tiger" — as the first-ever Consumer Communications Information Services Threat (C-CIST), a designation the agency reserves for operations it considers a serious, ongoing danger to the integrity of the country's phone system. The alert identified the network's leader as Prince Jashvantlal Anand, a Mumbai-based operator working under the alias "Frank Murphy," alongside an associate, Kaushal Bhavsar, and described a robocalling operation with entities and personnel spread across India, the United Arab Emirates, the United Kingdom, and the United States, doing business through shell companies including Illum Telecommunication Limited and PZ Telecommunication LLC.
