@@ -4088,6 +4088,9 @@ Germany does not typically extradite its own citizens to face charges outside th
     slug: 'kapil-wadhawan-dhfl-bank-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Bandra-Kurla-Complex-Mumbai-Maharashtra-India.jpg?width=1200',
     sourceUrl: 'https://www.theweek.in/news/biz-tech/2022/06/23/cbi-books-dhfl-in-biggest-banking-fraud-of-rs-34615-crore-17-banks-hit.html',
     body: `Kapil Wadhawan ran Dewan Housing Finance Corporation Limited (DHFL), a company his family had built since 1984 into one of India's largest non-bank housing lenders, financing home loans for millions of lower- and middle-income borrowers the country's traditional banks often overlooked. By the mid-2010s DHFL was borrowing heavily from a consortium of public and private banks to fund that lending, a structure that worked smoothly for years and made Wadhawan, as chairman and managing director, one of Indian finance's more prominent second-generation executives.
 
