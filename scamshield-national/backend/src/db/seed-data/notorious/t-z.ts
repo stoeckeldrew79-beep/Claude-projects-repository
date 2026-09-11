@@ -2295,6 +2295,10 @@ NotoriousTZ.push(
     slug: 'vincent-dispoto-giddeon-financial-ponzi-scheme',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/US.PostOffice%26Courthouse.Newark.jpg?width=1200',
+    coverImageCredit: 'Photo: Djflem, public domain, via Wikimedia Commons — the federal courthouse in Newark, District of New Jersey, which prosecuted the case',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     sourceUrl: 'https://www.justice.gov/usao-nj/pr/investment-firm-owner-sentenced-151-months-defrauding-more-60-elderly-and-other-victim',
     body: `Most Ponzi schemes collapse within a few years, once the flow of new money can no longer cover what's owed to earlier investors. Vincent Dispoto Jr.'s ran for nearly 37 years. Dispoto, of Belmar, New Jersey, owned and operated Giddeon Financial Services, a purported investment services firm, along with a related entity called Liberty Mortgage Services. Starting around 1988, according to the U.S. Attorney's Office for the District of New Jersey, he raised money from clients — many of them elderly — with a pitch built entirely around safety: he would place their funds into low-risk products like municipal bonds and certificates of deposit, guaranteeing steady rates of return. Some victims were told a more specific story, that their money was funding loans and mortgages for medical professionals, generating long-term returns through the interest those loans paid.
 

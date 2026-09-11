@@ -3604,6 +3604,10 @@ The Growth Cave case is a useful field guide for what a "make money online" pitc
     slug: 'genshin-impact-cognosphere-coppa-lootbox-settlement-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'video-game-loot-box-childrens-privacy-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Child_uses_smartphone_to_play_games_at_home_closeup.jpg?width=1200',
+    coverImageCredit: 'Photo: Nenad Stojković, CC BY 2.0, via Wikimedia Commons',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2025/01/genshin-impact-game-developer-will-be-banned-selling-lootboxes-teens-under-16-without-parental',
     body: `Genshin Impact is one of the most popular mobile and console games in the world, built around anime-style characters and a virtual currency system that lets players spend real money on "wishes" — randomized draws for a chance at rare, powerful characters and weapons. In January 2025, the FTC announced that Cognosphere Pte. Ltd., the Singapore-based company that publishes the game in the U.S. as HoYoverse (through its California subsidiary Cognosphere LLC), agreed to pay $20 million and accept a sweeping set of operating restrictions to settle federal charges that it deceived players — especially children and teens — about the game's loot box odds and unlawfully collected personal information from kids under 13.
 
