@@ -7305,3 +7305,17 @@ UsAF.push({
     country: 'US',
     state: 'CT',
 });
+
+UsAF.push({
+    name: 'Florida "Cut Your Debit Card" Bank Impersonation Scam',
+    slug: 'florida-indian-river-cut-debit-card-bank-impersonation-scam',
+    description: `The Indian River County Sheriff's Office warned Florida residents on August 8, 2026 about a bank-impersonation scam in which a caller claiming to be from the victim's bank's fraud department says fraudulent charges have just been attempted on the account, citing legitimate-sounding banking details to build credibility. Rather than asking for a card number over the phone, the caller instructs the victim to physically cut their debit card in half because it has supposedly been compromised, then arranges for someone to come to the victim's home shortly afterward to collect the destroyed card — a courier pickup that lets the scammer walk away with a card whose chip and magnetic stripe can still be read and exploited despite looking "cut up," while also creating a false sense that the problem has already been resolved. "STOP. HANG UP. CALL YOUR BANK DIRECTLY," the Sheriff's Office said in its alert, stressing that a real bank never sends a representative to a home to collect a card, whether intact or destroyed, and never asks a customer to hand over a card, PIN, or account information to an unsolicited caller. Residents are advised to hang up immediately on any such call and phone their bank back using the number printed on the card or a statement, never one supplied during the call, and to report the scam to IRCSO along with any doorbell or surveillance footage of the person who arrives to collect the card.`,
+    categorySlug: 'account-takeover',
+    alertLevel: 'critical',
+    sources: ["Indian River County Sheriff's Office", 'CBS12'],
+    sourceUrl: 'https://cbs12.com/news/local/ircso-warns-of-bank-impersonation-scam-targeting-residents-august-8-2026',
+    country: 'US',
+    state: 'FL',
+    isHistorical: true,
+    firstRecorded: '2026-08-08',
+});
