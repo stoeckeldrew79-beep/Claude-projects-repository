@@ -5138,6 +5138,10 @@ NotoriousAF.push(
     slug: 'travis-ford-wolf-capital-crypto-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Tulsa_skyline_aerial,_April_2023.jpg?width=1200',
+    coverImageCredit: 'Photo: Nils Huenerfuerst, Wikimedia Commons (CC BY-SA 4.0) — Tulsa, Oklahoma, near Travis Ford\'s Glenpool base',
     sourceUrl: 'https://www.justice.gov/opa/pr/cryptocurrency-investment-firm-founder-sentenced-five-years-prison-defrauding-investors-94m',
     body: `Travis Ford, of Glenpool, Oklahoma, was the CEO, co-founder, and head trader of Wolf Capital Crypto Trading LLC, a cryptocurrency investment firm he built around a pitch that should have been a warning sign on its own: consistent daily returns of 1% to 2%, which compounded out to roughly 547% a year. Between January and August 2023, prosecutors with the Justice Department's Criminal Division said, that promise drew in approximately 2,800 investors who collectively put in $9.4 million.
 
