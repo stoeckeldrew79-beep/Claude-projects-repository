@@ -7509,3 +7509,22 @@ Sentencing dragged on for years after the verdict, delayed in part by disputes b
 Zamora-Quezada's case is a reminder that health care fraud doesn't always look like a billing clerk padding invoices — it can start with the diagnosis itself, the one piece of the medical record patients are least equipped to second-guess, from a doctor whose white coat is doing the persuading a scammer's script would otherwise have to do.`,
   },
 );
+
+NotoriousGM.push(
+  {
+    title: 'Gary Sorenson and Milowe Brost: The Calgary Gold Ponzi That Became Canada\'s Largest',
+    slug: 'gary-sorenson-milowe-brost-syndicated-gold-depository',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'international'],
+    sourceUrl: 'https://www.cbc.ca/news/canada/calgary/gary-sorenson-and-milowe-brost-get-12-years-in-prison-for-ponzi-scheme-1.3170551',
+    body: `Starting in 1999, two Calgary men, Gary Sorenson and Milowe Brost, began raising money through a company called Syndicated Gold Depository SA, pitching investors on what sounded like a straightforward commodities business: buying gold at a discount, refining it, and selling it on for a profit, with the arrangement described to investors as low-risk. Over the following decade the pair expanded the pitch through a web of related entities — Base Metals Corp., Bahama Resource Alliance, and Merendon Mining Corporation, which claimed extensive mining operations in Honduras — layering official-sounding corporate structure on top of a business that mostly wasn't doing what investors were told.
+
+The scheme drew in more than 3,000 investors across Canada and the United States, many of whom put in their savings, retirement funds, or home equity chasing the promised returns. Regulators and prosecutors later estimated the total taken from investors at between $100 million and $400 million, with Alberta securities regulators separately finding the pair responsible for a related $46 million fraud — figures that made it, by the time it collapsed, the largest Ponzi-type scheme in Canadian history. As with any Ponzi structure, the "profits" some investors saw were funded by the cash brought in by others, not by any functioning gold or mining business behind it.
+
+Canadian authorities charged Sorenson and Brost in 2009, but Sorenson had already left the country; he was arrested years later after being tracked down abroad, extending a prosecution that ultimately took more than seven years to reach trial. A Calgary jury convicted both men in 2016 on two counts each of fraud and theft, with Brost also convicted of money laundering. At sentencing, the court heard from hundreds of the scheme's victims about the toll of losing life savings and retirement funds, a process a judge later summarized as evidence of "life-wrecking" harm across the investor base.
+
+Sorenson and Brost were each sentenced in 2016 to 12 years in prison — a sentence prosecutors and victims alike considered barely proportionate to the scale of the fraud. They ultimately served only about two years of that term before being paroled, a gap between the headline sentence and the time actually served that became its own point of controversy among the victims who had waited years for the case to even go to trial.
+
+The Syndicated Gold Depository case shows how a plausible-sounding physical asset — gold, refined and resold — combined with international mining operations that were difficult for ordinary investors or even regulators to verify from Calgary, let a fraud grow for nearly a decade before collapsing, and how far a determined defendant can push out the clock on accountability simply by leaving the jurisdiction that wants to try him.`,
+  },
+);
