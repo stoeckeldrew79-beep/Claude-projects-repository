@@ -12873,3 +12873,16 @@ International.push(
     country: 'CW',
   },
 );
+
+International.push(
+  {
+    name: 'Curaçao Gaming Authority Warning on "TrumpBet.cc" Fake-License Casino Network',
+    slug: 'curacao-gaming-authority-trumpbet-fake-license-network',
+    description: `The Curaçao Gaming Authority (CGA), the territory's online gambling regulator, issued a public warning on February 12, 2026 stating that the online gambling website "TRUMPBET.CC" is neither authorized nor licensed by the CGA despite falsely presenting itself as a licensed Curaçao operator. The CGA said the site unlawfully displays the authority's official logo and its Digital Authorization Seal — the green verification badge legitimate operators are permitted to show, which should link directly to the operator's real certificate on the CGA's own certificate site — specifically to deceive players into believing the operator is genuinely regulated and therefore safe to deposit money with. According to the CGA and reporting that followed the warning, TrumpBet.cc claimed on its own site to have been operating since 2017 under a "fully licensed structure" offering both cryptocurrency and fiat betting with instant withdrawals, while the CGA said it could not identify any real entity behind the site and that its true operators remain unknown. The warning also named a cluster of copycat and mirror domains tied to the same fraudulent network — including trumpcasino.click, trump777.bet, trumpcasino.live, trumpixz.com, trumpgo.top, trumpsino.digital, grandhash.cc, and caiwax.com — noting that the sites share identical templates, marketing language, and technical infrastructure, which lets the operators stand up a replacement domain almost immediately whenever one is reported or taken down. The CGA said the action is part of its broader enforcement push under Curaçao's new National Ordinance on Games of Chance (LOK) to clean up the jurisdiction's gambling reputation, and it urged players anywhere in the world to verify an operator's licensing status directly through the CGA's official license registry before creating an account or depositing any money, rather than trusting a logo or seal displayed on the operator's own website.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'high',
+    sources: ['Curaçao Gaming Authority (CGA)', 'Curaçao Chronicle'],
+    sourceUrl: 'https://www.curacaochronicle.com/post/main_news/curacao-gaming-authority-warns-public-against-unlicensed-gambling-website-trumpbetcc',
+    country: 'CW',
+  },
+);
