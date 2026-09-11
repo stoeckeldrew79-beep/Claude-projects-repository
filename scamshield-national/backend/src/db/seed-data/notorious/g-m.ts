@@ -7719,6 +7719,10 @@ Rather than holding customer payments in trust, NPS and a web of affiliated comp
 The fraud ran from roughly 1992 until NPS collapsed in 2008, ensnaring more than 97,000 customers along with hundreds of funeral homes and financial institutions that had relied on NPS's trust and insurance arrangements being real. Untangling it took a multi-year joint investigation by the FBI, IRS Criminal Investigation, and insurance regulators in numerous states before the Department of Justice could bring charges. James Cassity was sentenced to 115 months in federal prison, Sutton to 84 months, Brent Cassity to 60 months, Wittner to 36 months, and Province to 18 months — combined sentences of more than 36 years — while Wulf, the only defendant who went to trial rather than pleading guilty, received 120 months. Courts ordered a combined $435 million in restitution toward total losses estimated at more than $450 million, making NPS the largest prepaid funeral fraud in U.S. history. "Honest and law-abiding citizens are fed up with the likes of those who use deceit," IRS-Criminal Investigation Special Agent Sybil Smith said when the final sentences were announced.
 
 The NPS case is a reminder of just how long a trust-fund fraud can run undetected when the people responsible for safeguarding the money — a company's own executives, its attorney, and even the independent adviser appointed by statute to watch over it — are the same people quietly emptying it, and how many ordinary families and small local funeral homes end up absorbing the loss once a fraud that size finally comes apart.`,
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Clayton,_Missouri_skyline_panoramic.jpg?width=1200',
+    coverImageCredit: 'Photo: David Ackerman / Wikimedia Commons / CC BY 2.0',
+    coverImagePosition: 50,
   },
 );
 
