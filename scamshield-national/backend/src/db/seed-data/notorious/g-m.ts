@@ -7939,3 +7939,20 @@ The FTC sued Johnson, IWorks, and a string of other individuals and corporate en
 The case had an unusual political postscript: Johnson's own claims that he had arranged a $600,000 payment meant to influence a sitting U.S. senator on his behalf became public and implicated then-Utah Attorney General John Swallow, triggering state and federal investigations that forced Swallow from office within months of taking it — a reminder that the fallout from a fraud this size doesn't always stay contained to the people who lost money on the original "free trial."`,
   },
 );
+
+NotoriousGM.push(
+  {
+    title: 'Paul McGonigle: The Financial Adviser Who Impersonated His Own Clients to Raid Their Annuities',
+    slug: 'paul-mcgonigle-annuity-elder-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-ma/pr/middleboro-financial-adviser-sentenced-over-four-years-prison-investment-adviser-fraud',
+    body: `Paul R. McGonigle worked as a financial adviser out of Middleboro, Massachusetts, serving a client base that included several elderly and otherwise vulnerable people — among them a client with dementia and another who had suffered a traumatic brain injury. Starting no later than February 2015, McGonigle used the access that role gave him to simply take their money: he caused unauthorized withdrawals from their annuities and induced others to hand over funds for him to "invest" on their behalf, which he instead used to cover his own personal and business expenses.
+
+The mechanics were direct rather than elaborate. To get money out of clients' annuities without their knowledge, McGonigle called the annuity companies himself and posed as the client on the phone, then signed the client's name on the paperwork requesting the withdrawal — cutting the actual account holder out of a transaction that was, on paper, theirs to authorize.
+
+In February 2023, McGonigle pleaded guilty to one count of investment adviser fraud, two counts of money laundering, three counts of wire fraud, one count of mail fraud, and one count of aggravated identity theft. U.S. District Judge Nathaniel M. Gorton sentenced him to 54 months in federal prison plus two months of supervised release, and ordered him to pay $652,987 in restitution to the clients he had defrauded.
+
+McGonigle's case is a reminder that a financial adviser's fraud doesn't always require a fake investment product or a fabricated prospectus — sometimes it only requires access to accounts that are already real, a client too impaired to notice a withdrawal, and a willingness to pick up the phone and pretend, convincingly enough, to be someone else.`,
+  },
+);
