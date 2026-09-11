@@ -2911,3 +2911,17 @@ UsTZ.push({
     country: 'US',
     state: 'IA',
 });
+
+UsTZ.push({
+    name: 'Vermont "Angi Certified Pro" Deceptive Credential Settlement',
+    slug: 'vermont-angi-certified-pro-deceptive-credential-settlement',
+    description: `Angi, Inc., the home-services platform formerly known as Angie's List, advertised participating Vermont contractors on its site and app as "Angi Certified Pro," a label designed to reassure homeowners that a listed contractor had been vetted and credentialed. Vermont Attorney General Charity Clark's office found the claim was hollow on both ends: Vermont has no government "certification" process for residential contractors at all — the state only requires contractors to register under Title 26 with the Secretary of State's Office of Professional Regulation — and Angi itself had no independent process for verifying or vouching for a contractor's skill or credentials before slapping the "Certified Pro" badge on their listing. The label let Angi imply a level of government-backed vetting that simply did not exist, leaving homeowners who relied on the badge with no more assurance than an unverified listing would have given them. Clark's office announced a settlement on October 13, 2025 requiring Angi to permanently stop using "Angi Certified Pro" or any similar term implying a governmental credential, to clearly direct Vermont users to the state's own contractor-registration lookup so they can verify a contractor's actual status, and to notify every Vermont contractor in its system of their obligation to register with the Secretary of State under Title 26. Angi also agreed to pay $100,000 to the state to resolve the matter. Vermonters hiring a contractor through any online platform are advised not to treat a site's own "certified," "verified," or "vetted" badge as proof of a real government credential, and to independently confirm a contractor's registration status directly through the Vermont Secretary of State's Office of Professional Regulation before signing a contract.`,
+    categorySlug: 'home-improvement-solar',
+    alertLevel: 'low',
+    sources: ["Vermont Attorney General's Office (Charity Clark)", 'WCAX', 'Vermont Business Magazine'],
+    sourceUrl: 'https://ago.vermont.gov/blog/2025/10/13/attorney-general-clark-settles-dispute-angi-over-misleading-marketing-practice',
+    country: 'US',
+    state: 'VT',
+    isHistorical: true,
+    firstRecorded: '2025-10-13',
+});
