@@ -7412,3 +7412,20 @@ Galemmo pleaded guilty in January 2014 to one count of wire fraud and one count 
 Galemmo's case is a familiar shape in affinity fraud: the fraud didn't spread through cold calls or advertisements, but through the ordinary trust people extend to someone already inside their social and family circles. Victims who might have scrutinized a stranger's investment pitch waived that scrutiny because the person making it was already vouched for by everyone around them — a reminder that a personal relationship with an investment manager is not itself evidence that the underlying investment is real.`,
   },
 );
+
+NotoriousGM.push(
+  {
+    title: 'Sergei Potapenko and Ivan Turõgin: The $577 Million HashFlare Mining Fraud',
+    slug: 'hashflare-crypto-mining-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/archives/opa/pr/two-estonian-nationals-plead-guilty-577m-cryptocurrency-fraud-scheme',
+    body: `Starting in 2015, two Estonian entrepreneurs, Sergei Potapenko and Ivan Turõgin, ran a "cloud mining" business called HashFlare that let ordinary people buy into Bitcoin mining without owning any hardware themselves. Customers paid for a contract entitling them to a share of whatever cryptocurrency HashFlare's data centers mined, and a web dashboard showed their balance climbing in something close to real time. It was an appealing pitch during the crypto boom: skip the noisy rigs and the electricity bill, and just collect the proceeds of mining run by someone else.
+
+Almost none of the underlying mining was actually happening. According to the Justice Department, HashFlare's real computing power amounted to less than one percent of what the company claimed to be running, and the dashboard numbers customers saw were simply fabricated. When customers tried to withdraw their supposed mining proceeds, Potapenko and Turõgin often stalled or refused outright — and when they did pay out, prosecutors say it was frequently with cryptocurrency bought on the open market rather than anything HashFlare had mined, keeping the illusion running for existing customers at the expense of new money coming in.
+
+The two men didn't stop at HashFlare. In May 2017, they began marketing a related venture called Polybius, pitched as a forthcoming bank built specifically to serve cryptocurrency customers, with investors promised a cut of its future profits as dividends. Polybius raised at least $25 million of its own — including roughly $7 million funneled in from HashFlare proceeds — and, like the bank it promised to build, never materialized. Altogether, HashFlare and Polybius took in more than $577 million from over 440,000 customers worldwide, including tens of thousands of Americans who put in over $130 million.
+
+Potapenko and Turõgin were arrested in Tallinn in November 2022 and extradited to the United States, where each pleaded guilty in February 2025 to one count of conspiracy to commit wire fraud and agreed to forfeit assets worth more than $400 million, earmarked for a victim remission process. At sentencing in August 2025, a federal judge in Seattle handed down a term of time served — roughly sixteen months — despite calculating an advisory guidelines range of 30 years to life, a decision prosecutors have since appealed as too lenient. Whatever the sentence, the underlying fraud is a reminder that a dashboard showing a balance going up proves nothing about whether the activity behind it is real — the same blind trust in a number on a screen that made Bernie Madoff's fabricated statements believable for seventeen years.`,
+  },
+);
