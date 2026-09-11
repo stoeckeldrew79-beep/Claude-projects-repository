@@ -7116,3 +7116,20 @@ The SEC filed civil fraud charges against Narayan, The Ticket Reserve, and two o
 Narayan's case is a reminder that the specific conflict of interest he hid — steering client money into a company he personally profited from — is exactly the disclosure investment-adviser law exists to force into the open, because a client has no way to evaluate advice for bias they were never told existed. Professional athletes are frequently targeted by this particular pattern of fraud: a short career produces a large sum of money early, often with limited independent financial experience and heavy reliance on a single trusted advisor, which is precisely the setup that lets a conflicted recommendation go unquestioned for years rather than months.`,
   },
 );
+
+NotoriousAF.push(
+  {
+    title: 'Brandon Frere and the Student Loan "Help" That Charged Fees for a Free Government Program',
+    slug: 'brandon-frere-ameritech-financial-student-loan-scam',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-ndca/pr/sonoma-county-ceo-sentenced-three-and-half-years-prison-charges-stemming-multi-million',
+    body: `Brandon Frere ran a cluster of student loan "debt relief" companies out of Rohnert Park, California — Ameritech Financial, American Financial Benefits Center, and Financial Education Benefits Center among them — that mailed millions of federal student loan borrowers personalized letters designed to look like official notices. The letters told recipients they had been identified as eligible for programs that would permanently lower their monthly payments to a fixed amount or forgive their loans outright, and urged them to call and enroll.
+
+What borrowers weren't told was that the programs being pitched — income-driven repayment plans and loan forgiveness options — already existed for free, available to any eligible federal borrower who applied directly through their loan servicer or the Department of Education. Frere's companies charged anywhere from $100 to $1,200 in upfront fees to enroll callers in a "financial education" membership, followed by recurring monthly fees of $49 to $99 that could run for the 10 to 25 years it typically takes to pay off a student loan, all layered on top of, or in place of, help that cost nothing to get directly from the government. According to prosecutors, Frere instructed employees to use deceptive sales scripts and sign borrowers up for additional paid plans they hadn't knowingly agreed to.
+
+Frere admitted in his plea agreement to defrauding borrowers of between $25 million and $65 million between January 2014 and November 2018, with roughly 40,000 consumers affected. He waived indictment and was charged by criminal information in October 2019, pleaded guilty that December to wire fraud and mail fraud, and in July 2020 was sentenced to 42 months in federal prison and ordered to forfeit more than $8.9 million in assets. The Federal Trade Commission separately settled civil charges against him in October 2020, permanently banning Frere and his companies from the debt-relief industry, and in August 2023 the FTC and Department of Justice distributed more than $9 million in refunds to the borrowers he had defrauded.
+
+Frere's scheme worked by inserting a paid middleman in front of a process that was already free. Every income-driven repayment plan, consolidation option, and loan-forgiveness program for federal student loans can be applied for directly through a loan servicer or studentaid.gov at no cost — no company needs to be paid to "enroll" a borrower in a benefit the government already offers for free. A letter urging quick action on a "special eligibility" for loan relief, paired with any request for an upfront or recurring fee before real help has happened, is the exact pattern Frere's operation ran on, and remains one of the most reliable warning signs in student loan debt-relief solicitations today.`,
+  },
+);
