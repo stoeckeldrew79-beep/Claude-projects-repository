@@ -11294,6 +11294,17 @@ International.push(
     isHistorical: true,
     firstRecorded: '1998-01-01',
   },
+  {
+    name: 'Nauru "Economic Citizenship" Passport-for-Sale Scheme',
+    slug: 'nauru-economic-citizenship-passport-for-sale-scheme',
+    description: `Facing the exhaustion of its phosphate reserves and a collapsing economy, Nauru's government launched an "economic citizenship" program in 1998, selling Nauruan passports to foreign nationals who had no residency, ancestry, or other genuine connection to the island, for fees reported by outlets that track the citizenship-by-investment industry to have run from roughly $15,000 to $50,000 per applicant, with little to no background screening beyond payment. The program ran for several years with limited international scrutiny — even as Nauru's offshore banking sector was separately drawing money-laundering warnings over the same period — until foreign security services began finding Nauruan passports in the hands of people they had already flagged as security threats. Investigators identified members of the East Turkestan Liberation Organization carrying Nauru passports, and in February 2003 two suspected al-Qaeda operatives captured in Malaysia were also found holding Nauruan travel documents. The discovery, amid intense post-9/11 scrutiny of "passports of convenience," brought direct pressure from the United States. While visiting Washington, D.C. for medical treatment in February 2003, then-President Bernard Dowiyogo signed an executive order terminating Nauru's passport-sale program outright, alongside its offshore banking ventures; he died in Washington ten days later without the order ever being reversed. Nauru's parliament subsequently opened an inquiry into how many passports had actually been issued and to whom, and the government moved to pass anti-money-laundering legislation covering the citizenship program as it wound down the offshore-bank sector. The episode is still cited in analyses of "golden passport" and citizenship-by-investment schemes as a cautionary example: a national passport sold purely for revenue, without meaningful vetting of who was actually buying it, became a document that people already under investigation for terrorism links could obtain like any other product — undermining the passport's value as proof of identity for every legitimate holder of it. Nauru's government relaunched a heavily reformed citizenship-by-investment program in 2024, this time with independent annual audits and grounds for revocation covering fraud, money laundering, and sanctions, explicitly designed to avoid repeating the earlier scheme's failures.`,
+    categorySlug: 'investment-fraud',
+    sources: ['ABC News (Australia)', 'IMI Daily', 'East Asia Forum'],
+    sourceUrl: 'https://www.abc.net.au/news/2003-04-16/nauru-to-probe-terrorist-passport-claims/1837596',
+    country: 'NR',
+    isHistorical: true,
+    firstRecorded: '1998-01-01',
+  },
 );
 
 International.push(
