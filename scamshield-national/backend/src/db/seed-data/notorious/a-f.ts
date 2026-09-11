@@ -6023,6 +6023,10 @@ ASD was one of the largest "autosurf" Ponzi schemes of the 2000s internet-Ponzi 
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/usao-sc/pr/charleston-county-man-sentenced-5-years-federal-prison-wire-fraud',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Charleston_County_Courthouse_2013.jpg?width=1200',
+    coverImageCredit: 'Photo: ProfReader, Wikimedia Commons (CC BY-SA 3.0) — Charleston, South Carolina, where Amir Golestan ran the Micfo IPv4 fraud',
+    coverImagePosition: 50,
     body: `Every device connected to the internet needs an IPv4 address, and the global supply of them ran out years ago — the nonprofit that allocates addresses in the U.S., Canada, and parts of the Caribbean, the American Registry for Internet Numbers (ARIN), stopped having new blocks to hand out around 2015. That scarcity turned old, already-allocated address blocks into a genuinely valuable commodity, reselling for $15 to $25 apiece on a legitimate secondary market. It also created an opening for fraud, and Amir Golestan, founder and CEO of the Charleston, South Carolina tech company Micfo LLC, built a scheme to exploit it.
 
 ARIN's rules limit how many IP addresses a single organization can acquire, so Golestan's scheme, prosecutors said, was to make it look like many small, unrelated organizations were each requesting a modest, rule-compliant allocation. He set up a network of shell companies with fabricated identities, backed by notarized affidavits sworn in the names of people who did not exist, and used them to submit dozens of separate requests to ARIN — concealing that every one of those "customers" was really Micfo, and that all of the addresses were headed to the same buyer. ARIN itself uncovered the pattern and filed a civil suit against Golestan and Micfo in 2018.
@@ -6042,6 +6046,10 @@ NotoriousAF.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.atg.wa.gov/news/news-releases/lularoe-pay-475-million-resolve-ag-ferguson-s-lawsuit-over-pyramid-scheme',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/The_Washington_State_Capitol.jpg?width=1200',
+    coverImageCredit: 'Photo: Bluedisk, Wikimedia Commons (CC BY-SA 3.0) — the Washington State Capitol in Olympia, where the Attorney General sued LuLaRoe and the Stidhams',
+    coverImagePosition: 50,
     body: `DeAnne Stidham started LuLaRoe at her kitchen table in 2012, naming the company after her three oldest granddaughters — Lucy, Lola, and Monroe — and running it with her husband, Mark, who became the company's CEO. What began as a small line of women's clothing sold through Facebook groups turned, after LuLaRoe introduced its now-signature line of brightly patterned leggings in 2014, into one of the fastest-growing multi-level marketing companies in the country: by August 2016 Mark Stidham said the company was on pace to top $1 billion in annual sales with roughly 26,000 independent "fashion consultants," and by early 2017 that sales force had grown past 80,000.
 
 LuLaRoe didn't sell clothing to the public directly. It sold wholesale inventory to the consultants who signed up to resell it, requiring an upfront "onboarding" purchase that could run from a few hundred dollars into the thousands, delivered as a random, non-customizable assortment the consultant had no say in choosing. The company's own compensation plan rewarded consultants far more for recruiting other consultants into the network beneath them than for actually selling clothes to customers — the defining feature regulators look for in a pyramid scheme — and according to Washington state's later lawsuit, two of the company's top recruiters collectively earned more than $5 million between 2016 and 2019 while more than a third of all consultants lost money.
@@ -6061,6 +6069,10 @@ NotoriousAF.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.cftc.gov/PressRoom/PressReleases/8377-21',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/U.S._Court_House,_Los_Angeles.JPG?width=1200',
+    coverImageCredit: 'Photo: Los Angeles (Wikimedia username), Wikimedia Commons (CC BY-SA 3.0) — a U.S. courthouse in Los Angeles, home of the Central District of California, where David Saffron was indicted',
+    coverImagePosition: 50,
     body: `David Gilbert Saffron, an Australian-born businessman who split his time between Los Angeles and Las Vegas, spent 2017 through 2019 raising money for Circle Society Corp., a Nevada company he pitched to investors as running a proprietary automated trading bot capable of executing thousands of cryptocurrency transactions an hour across multiple exchanges. Saffron told prospective participants the bot could turn their bitcoin and cash into an unregistered commodity pool trading off-exchange binary options, with returns he described as reaching up to 300 percent.
 
 There was no such bot generating those returns. The Commodity Futures Trading Commission's civil enforcement action, filed in September 2019, alleged that Saffron and Circle Society instead ran the operation as a Ponzi scheme, using new participants' funds to make payouts that created the appearance of trading profits while diverting a substantial share of the money to Saffron's own use. The CFTC said at least 179 individuals were drawn into the scheme, contributing more than $15.8 million in Bitcoin and U.S. dollars. When Saffron and Circle Society failed to defend themselves in the case, a federal court in the Central District of California entered a default judgment against them on March 29, 2021, ordering $14,841,280 in restitution, $15,815,967 in disgorgement, and a $1,484,128 civil monetary penalty — a total judgment of more than $32 million — along with a permanent injunction barring Saffron from ever again trading commodities or registering with the CFTC.
@@ -6112,6 +6124,10 @@ NotoriousAF.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/archives/opa/pr/ceo-multibillion-dollar-software-company-indicted-decades-long-tax-evasion-and-wire-fraud',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Downtown_Houston_Skyline_Night.JPG?width=1200',
+    coverImageCredit: 'Photo: Bobby L. Warren, Wikimedia Commons (CC BY-SA 3.0) — Houston, where Robert Brockman lived and ran Reynolds and Reynolds',
+    coverImagePosition: 50,
     body: `Robert T. Brockman spent decades as the low-profile chairman and CEO of Reynolds and Reynolds, an Ohio-based company that sold software to car dealerships across the country — an unglamorous, workaday business that quietly made Brockman a private-jet-owning billionaire few outside the auto industry had ever heard of. That obscurity ended in October 2020, when federal prosecutors unveiled what they called the largest tax charge ever brought against an individual American: a decades-long scheme to hide roughly $2 billion in income from the IRS.
 
 According to the 39-count indictment returned by a federal grand jury in San Francisco, Brockman spent nearly two decades, from 2000 to 2018, concealing capital gains he earned through investments in private equity funds run by Vista Equity Partners behind a web of offshore entities registered in Bermuda and Nevis, then routing the untaxed proceeds into secret bank accounts in Bermuda and Switzerland. Prosecutors said he communicated with the associates who ran those offshore entities through a proprietary encrypted email system, using angling-themed code names — referring to himself as "Permit" — and that he directed evidence to be altered or destroyed once he suspected investigators were closing in. A separate set of charges in the same indictment accused him of a scheme, between 2008 and 2010, to manipulate roughly $67.8 million of Reynolds and Reynolds' own debt securities to conceal the company's declining financial performance from the investors holding that debt.
@@ -6144,6 +6160,10 @@ Ceglia surfaced nearly three years later, arrested by local authorities in Ecuad
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/usao-edca/pr/hard-money-lender-pleads-guilty-defrauding-investors-2-cases-involving-bitwise',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/RobertCoyleCourthouse.jpg?width=1200',
+    coverImageCredit: 'Photo: Justin Loyear (Cadking3), Wikimedia Commons (CC BY-SA 3.0) — the Robert E. Coyle U.S. Courthouse in Fresno, Eastern District of California, where David Hardcastle was prosecuted',
+    coverImagePosition: 50,
     body: `David Hardcastle was a well-known hard-money lender in Fresno, California, the kind of local financier who arranges high-interest, asset-backed loans for businesses that can't get conventional bank credit. Between December 2022 and May 2023, he and a Connecticut business partner, Andrew Adler, used that role to funnel roughly $20 million into Bitwise Industries, a once-prominent Fresno tech company, through their own lending vehicle, Startop Investments LLC. Rather than hold the loans themselves, Hardcastle and Adler split them into pieces and resold them to outside investors — but according to federal prosecutors, the loan documents investors actually signed had been altered to understate the true interest Bitwise owed, and to conceal a $700,000 reserve fund the two men diverted into investments of their own choosing rather than holding it as promised collateral. Prosecutors said the paperwork even carried a forged signature purporting to belong to Bitwise's co-CEO, Jake Soberal. When Bitwise collapsed in 2023 — a separate matter from a later, larger fraud case brought against its own founders — the investors who had bought pieces of Hardcastle and Adler's loans lost nearly everything.
 
 Hardcastle didn't stop there. As general partner and CEO of a second venture, Voyager Pacific Capital Management, he raised money from investors between 2020 and 2025 for a real estate fund called Opportunity Fund II. According to the U.S. Attorney's Office for the Eastern District of California, Hardcastle told investors their money was being used for specific property investments, then gave them false financial statements and staged sham property sales designed to inflate the fund's apparent value, all while diverting investor money to cover his own unrelated investments and to pay off earlier participants — the same rob-Peter-to-pay-Paul mechanics that define a Ponzi scheme. When a third party eventually acquired the fund, it did so at a steep discount, wiping out much of what remaining investors were owed.
@@ -6181,6 +6201,10 @@ The financial details of Kokesh's own case became almost secondary to what the r
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
     sourceUrl: 'https://www.justice.gov/archive/usao/cac/Pressroom/pr2010/006.html',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/LA_City_Hall_at_night.JPG?width=1200',
+    coverImageCredit: 'Photo: Leki, Wikimedia Commons (Public Domain) — Los Angeles, in the Central District of California where Bradley Ruderman was prosecuted',
+    coverImagePosition: 50,
     body: `Bradley Ruderman ran two Beverly Hills hedge funds, Ruderman Capital Partners and Ruderman Capital Partners A, built largely on the trust of people who already trusted him — family members and close friends he'd known for years. From 2003 through 2009, he collected more than $44 million from investors by promising annual returns as high as 60 percent, a figure implausible enough that it should have been a warning sign on its own.
 
 Behind the promised returns was nothing but paperwork. Ruderman told investors he had $206 million under management; at the start of the year his fraud collapsed, he actually controlled $588,246. He kept the illusion running by repeatedly sending investors falsified account statements showing gains that didn't exist. In a December 2008 letter meant to reassure his own victims as the Madoff scandal broke nationally, Ruderman wrote that he was disgusted by Bernard Madoff's "chicanery" and promised such "disgraceful practices" would never happen under his watch — while, as the sentencing judge later noted, he was actively stealing from the people reading it.
@@ -6198,6 +6222,10 @@ NotoriousAF.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/opa/pr/florida-man-sentenced-after-fraudulently-obtaining-39-million-ppp-loans',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Miami_skyline_from_the_ocean.jpg?width=1200',
+    coverImageCredit: 'Photo: Matthew T Rader, Wikimedia Commons (CC BY-SA 4.0) — Miami, where David Hines ran his PPP loan fraud',
+    coverImagePosition: 50,
     body: `When Congress created the Paycheck Protection Program in the spring of 2020 to keep small businesses afloat during COVID-19 shutdowns, it prioritized speed over verification — loans were meant to reach struggling employers within days, not weeks, which meant lenders had little practical ability to check an applicant's claims before wiring the money. David Tyler Hines, a 29-year-old from Miami, treated that gap as an opportunity. Prosecutors said he submitted a series of PPP loan applications, seeking roughly $13.5 million in total across multiple companies he controlled, backed by fabricated IRS payroll tax forms claiming dozens of employees and monthly payrolls in the hundreds of thousands of dollars that didn't actually exist.
 
 Lenders approved and funded about $3.9 million of what Hines requested. Rather than paying any of the wages the applications described, he spent the money on himself: a 2020 Lamborghini Huracán bought for roughly $318,000, jewelry, extended stays at a luxury Miami Beach resort, memberships on dating websites, and two payments totaling $30,000 sent to his mother and falsely logged as legitimate business expenses. According to court filings, he also helped other people submit fraudulent PPP applications of their own, extending the scheme beyond his own companies.
