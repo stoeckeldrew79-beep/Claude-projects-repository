@@ -8069,3 +8069,20 @@ If the allegations hold up, Gilchrist's case illustrates a pattern investigators
     sourceUrl: 'https://www.justice.gov/usao-ndtx/pr/grand-prairie-attorney-arrested-ponzi-scheme-and-obstructing-sec-investigation',
   },
 );
+
+NotoriousAF.push(
+  {
+    title: 'Matthew Campbell and the Preferred Property $9 Million Real Estate Ponzi Scheme',
+    slug: 'matthew-campbell-preferred-property-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    body: `Matthew Campbell, 43, of Fresno, California, had run two real estate investment companies, Preferred Property LLC and Ampez Rehab Investments LLC, since 2012, pitching investors on a business that bought, renovated, and resold houses. Starting in 2018, according to federal prosecutors, the legitimate parts of that business stopped being enough, and Campbell began telling investors things that weren't true — about the companies' finances, about how their money was being used, and about the "guaranteed returns" and distributions he promised them.
+
+Between January 2018 and October 2025, prosecutors say, Campbell raised more than $9.1 million from over 40 investors this way. At least $2.3 million of what came in from newer investors went straight back out to pay off earlier ones — the defining mechanic of a Ponzi scheme — while the rest was diverted to purposes that had nothing to do with the real estate deals investors thought they were funding. "Each investor believed Campbell's claim that his legitimate real estate business could offer guaranteed returns, not knowing those promises were impossible to fulfill," said Brian Tosh, Special Agent in Charge of the FBI's Sacramento Field Office, in announcing the case.
+
+Campbell pleaded guilty to wire fraud on February 9, 2026, in the U.S. District Court for the Eastern District of California. On August 24, 2026, U.S. District Judge Jennifer L. Thurston sentenced him to 52 months in federal prison. A hearing to determine the exact restitution owed to his victims was set for October 22, 2026 — a date that, as of this writing, had not yet occurred, leaving the final dollar figure undetermined. The case was investigated by the FBI and prosecuted by Assistant U.S. Attorneys Cody S. Chapple and Arelis M. Clemente.
+
+Campbell's scheme is a reminder that a real, years-old business with an actual product — in this case, real houses bought and renovated — doesn't make an investment safe by itself. A "guaranteed return" is not a feature any legitimate real estate operation can honestly offer, since renovation costs, resale timelines, and local housing markets are inherently unpredictable; a promoter who removes that risk from the pitch entirely is usually removing it from the marketing material only, not from the underlying business.`,
+    sourceUrl: 'https://www.justice.gov/usao-edca/pr/fresno-man-pleads-guilty-running-9-million-real-estate-ponzi-scheme',
+  },
+);
