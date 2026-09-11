@@ -4320,6 +4320,10 @@ NotoriousNS.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.ccprosecutor.us/the-founder-of-senior-veterans-administration-services-sentenced-for-scamming-the-department-of-veterans-affairs-of-approximately-20-million-in-fraudulent-benefit/',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Cuyahoga_County_Courthouse,_Cleveland,_OH_(28726166058).jpg?width=1200',
+    coverImageCredit: 'Warren LeMay, CC0, via Wikimedia Commons',
+    coverImagePosition: 50,
     body: `Richard Rompala, 65, ran a Cleveland-area outfit called Senior Veterans Administration Services (SVAS) that presented itself to elderly veterans as exactly what its name implied: a free, charitable service helping them navigate the Department of Veterans Affairs' Aid and Attendance benefit, a pension supplement for veterans and surviving spouses who need help with daily living. For veterans confused by VA paperwork and eager for legitimate assistance, SVAS looked like the help they'd been searching for.
 
 According to the Cuyahoga County Prosecutor's Office, the "help" SVAS actually provided was engineering fraudulent eligibility. Aid and Attendance benefits are income-tested, so SVAS encouraged veterans to designate a "caregiver" — ideally a trusted friend or family member, but when none was available, an SVAS employee or associate would fill the role instead — a maneuver used to offset the veteran's countable income and manufacture eligibility for benefits they otherwise would not have qualified for, or to inflate the size of benefits they legitimately could claim. SVAS then submitted the falsified paperwork to the VA and used a separate entity to intercept the resulting benefit payments before passing on only a portion to the veterans they were supposedly serving. Prosecutors said the scheme extracted approximately $20 million in fraudulent VA benefits, and that Rompala personally pocketed roughly $670,000 of it.
