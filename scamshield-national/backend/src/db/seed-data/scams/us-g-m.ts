@@ -5592,3 +5592,17 @@ UsGM.push({
     isHistorical: true,
     firstRecorded: '2025-12-22',
 });
+
+UsGM.push({
+    name: 'Infinite Auto Protection Deceptive Vehicle Service Contract Scheme',
+    slug: 'michigan-infinite-auto-protection-vehicle-service-contract-scam',
+    description: `Opulent Marketing, Inc. sold vehicle service contracts — extended auto warranties — online nationwide under the brand Infinite Auto Protection (IAP) through infiniteautoprotection.com, advertising every contract as "100% Risk Free" with a "30 days money back guarantee." Michigan Attorney General Dana Nessel's office found that promise was hollow: the company routinely denied or simply ignored valid repair claims and eventually stopped paying claims altogether, while owners Adam Hakim and Isaac Saada allegedly diverted more than $280,000 from Opulent Marketing to a related company, U.S. Auto Management LLC, and paid Adam Hakim's father, Albert Hakim, more than $71,000 for services the state says were never actually rendered. Nessel's office sued Opulent Marketing, IAP, Adam Hakim, Albert Hakim, and U.S. Auto Management LLC on January 17, 2025, alleging violations of the Michigan Consumer Protection Act, and after the defendants failed to respond, secured a default judgment in September 2025 totaling more than $500,000 in restitution, civil fines, and other relief; the office separately reached a $22,000 settlement with one of the company's owners. Vehicle service contracts are sold by private companies and are not the same as a manufacturer's warranty, so a "risk free" guarantee attached to one is only as good as the seller's willingness to actually pay claims. Before buying a vehicle service contract sold primarily online or by robocall, drivers should check the seller's complaint history with their state Attorney General's office and the Better Business Bureau, get the exact list of covered repairs and the refund process in writing, and be skeptical of any offer marketed as entirely risk-free.`,
+    categorySlug: 'insurance-fraud',
+    alertLevel: 'medium',
+    sources: ["Michigan Attorney General's Office (Dana Nessel)", 'Aftermarket Matters'],
+    sourceUrl: 'https://www.michigan.gov/ag/news/press-releases/2025/01/17/ag-nessel-files-lawsuit-against-vehicle-service-contracts-company-for-deceptive-business-practices',
+    country: 'US',
+    state: 'MI',
+    isHistorical: true,
+    firstRecorded: '2025-01-17',
+});
