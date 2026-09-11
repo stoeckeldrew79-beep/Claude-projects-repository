@@ -11115,6 +11115,16 @@ International.push(
     sourceUrl: 'https://www.manxradio.com/news/isle-of-man-news/scam-courier-message-warning-to-residents/',
     country: 'IM',
   },
+  {
+    name: 'Isle of Man Elderly Resident Online "Lover" Romance Scam',
+    slug: 'isle-of-man-elderly-resident-online-lover-romance-scam',
+    description: `The Isle of Man's Cyber-Security Centre publicised the case of an elderly Manx woman who was defrauded of more than £15,000 by fraudsters posing as a romantic partner online, reported in March 2024. Using a fake profile picture, the scammer built an online relationship with her before asking for £3,000 to cover supposed "vet bills," which she sent. A second fraudster, apparently working the same target, then talked her into sending a further £12,500. The scale of the loss was limited only because her bank intervened and blocked a subsequent attempt to transfer an additional £50,000 to the same contacts, flagging the pattern as suspicious before the money left her account. The Cyber-Security Centre said it is "crucial to verify who you're talking to online and report anything suspicious," and separately, Action Fraud Claims Advice and Victim Support Isle of Man have logged reports from 16 Manx residents over a five-year period, with victims losing an average of around £10,000 each; anyone approached this way is urged never to send money, photos, or personal data to an online partner they have not met in person, and to contact Victim Support Isle of Man (01624 679950) or the Cyber-Security Centre to report a suspected romance scam.`,
+    categorySlug: 'romance-scams',
+    alertLevel: 'high',
+    sources: ['Cyber Security Centre for the Isle of Man', '3FM Isle of Man', 'Isle of Man Today', 'Victim Support Isle of Man'],
+    sourceUrl: 'https://www.three.fm/news/isle-of-man-news/fraudster-ran-12500-lover-scam-on-elderly-manx-woman/',
+    country: 'IM',
+  },
 );
 
 International.push(
