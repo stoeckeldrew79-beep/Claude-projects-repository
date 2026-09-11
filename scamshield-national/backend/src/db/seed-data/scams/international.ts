@@ -13761,3 +13761,16 @@ International.push(
     country: 'IQ',
   },
 );
+
+International.push(
+  {
+    name: 'Jersey Bank Fraud Team Impersonation Cold-Calling Scam',
+    slug: 'jersey-bank-fraud-team-impersonation-scam',
+    description: `The Jersey Financial Services Commission (JFSC) warned islanders in May 2026 about a rise in cold-calling scams in which fraudsters impersonate banks and bank "fraud teams" to steal money and account access. Callers contact victims out of the blue, often using real bank names, cloned websites, copied branding, and even AI-generated images or voices to sound credible, before asking the victim to read out a one-time passcode sent to their phone to "verify" their identity — a code that is then used to log into or authorise a transfer from the victim's real online banking. The JFSC stressed that "banks will never ask customers to disclose such information during a call" and urged islanders to "Stop, Check and Protect": pause before responding to any unexpected contact, verify who they are really speaking to using a phone number obtained independently rather than one given by the caller, and never share a one-time passcode or other security details with anyone who calls unprompted. Anyone targeted is advised to contact their bank immediately if a payment has already been made, report the call to the States of Jersey Police, and notify the JFSC's enforcement team.`,
+    categorySlug: 'account-takeover',
+    alertLevel: 'high',
+    sources: ['Jersey Financial Services Commission (JFSC)', 'Jersey Evening Post'],
+    sourceUrl: 'https://jerseyeveningpost.com/news/2026/05/30/jfsc-warns-of-scammers-posing-as-bank-fraud-teams/',
+    country: 'JE',
+  },
+);
