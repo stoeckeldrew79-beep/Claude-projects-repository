@@ -6596,3 +6596,14 @@ UsAF.push({
     country: 'US',
     state: 'FL',
 });
+
+UsAF.push({
+    name: 'CareCredit "Deferred Interest" Medical Credit Card Deception (Synchrony Bank)',
+    slug: 'carecredit-synchrony-bank-deferred-interest-medical-credit-card-lawsuit',
+    description: `CareCredit, a medical and veterinary credit card issued by Synchrony Bank and offered at the counter of dentists', veterinarians', and other health providers' offices, is the subject of a proposed class action, S.G. v. Synchrony Bank, filed August 19, 2024 in the U.S. District Court for the Eastern District of New York (No. 2:24-cv-05788). The named plaintiff opened a CareCredit account in 2021 after his dog, Pumpkin, needed more than $2,000 in emergency veterinary treatment and staff told him CareCredit was the clinic's only available payment option; the complaint alleges Synchrony fixed the interest rate on new CareCredit accounts at 32.99% per year — nearly double New York's 16% civil usury cap — and seeks to represent everyone who signed up online and paid interest above that limit. Reporting on the case documented similar stories nationwide: Tennessee cardholder Christopher Crim was hit with a surprise $700 interest charge on a $1,500 dental balance, and Florida cardholder Michael Tomaso paid roughly $1,244 in interest in 2024 alone on about $2,500 to $3,000 of actual dental work, after the card's initial promotional period lapsed and "deferred interest" was applied retroactively to the full original balance rather than just the unpaid portion — a structure the CFPB has separately warned can add far more to a bill than a standard credit card would. Synchrony reported $3.7 billion in interest and fees from CareCredit accounts in 2024 alone, and the card's enrollee base has grown from 4.4 million cardholders in 2013, the same year the CFPB ordered CareCredit to refund $34.1 million to consumers over deceptive enrollment practices, to 11.7 million by 2023. Patients offered same-visit financing during a stressful medical or veterinary emergency should ask explicitly whether an offer is truly interest-free or "deferred interest" — meaning all the interest accrued from day one is charged in full if the balance isn't paid off by the deadline — get the exact APR and payoff terms in writing before signing on an office tablet, and compare the cost against a standard payment plan or personal loan rather than assuming a branded medical card is automatically the cheapest option.`,
+    categorySlug: 'healthcare-fraud',
+    alertLevel: 'medium',
+    sources: ['S.G. v. Synchrony Bank, U.S. District Court for the Eastern District of New York (No. 2:24-cv-05788)', 'The American Prospect', 'Consumer Financial Protection Bureau'],
+    sourceUrl: 'https://topclassactions.com/lawsuit-settlements/money/loans/carecredit-loans-with-high-interest-rates-offered-at-vulnerable-moments-class-action-claims/',
+    country: 'US',
+});
