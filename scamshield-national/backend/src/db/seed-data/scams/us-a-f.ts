@@ -6754,3 +6754,31 @@ UsAF.push({
     isHistorical: true,
     firstRecorded: '2022-12-08',
 });
+
+UsAF.push({
+    name: "Carol Ann Feist In-Law Impersonation Bank Fraud (Montana)",
+    slug: 'carol-ann-feist-montana-in-law-bank-impersonation-fraud',
+    description: `Carol Ann Feist, 57, of Whitehall, Montana, called a US Bank customer service line on October 26, 2021 and impersonated her own elderly mother-in-law, using personal identifying information she already had access to as a family member to convince the bank representative she was speaking with the real account holder. Once the representative was satisfied, Feist directed a $134,000 wire transfer — her in-laws' entire life savings — out of their Bismarck, North Dakota checking account and into a title company in Helena, Montana, to use as the down payment on a home she was buying for herself in Whitehall. She had laid the groundwork earlier by forging her father-in-law's signature as a co-borrower on the property's closing documents, alongside a fraudulent North Dakota notary stamp, so the purchase would appear to have his backing even though he never knew about or approved any of it. Feist pleaded guilty to bank fraud and aggravated identity theft, and on April 13, 2023, was sentenced in the District of North Dakota to 65 months in federal prison, three years of supervised release, and full restitution of the $134,000 taken from her mother-in-law and father-in-law. The case is a reminder that elder financial exploitation often comes from inside the family rather than a stranger on the phone, and that a bank representative satisfied by identifying details alone can be fooled by someone who already has close access to an older relative's personal information — families concerned about an aging relative's accounts can ask their bank about adding fraud alerts, transaction notifications, or a trusted-contact designation that flags unusual large transfers before they go through.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'medium',
+    sources: ['U.S. Department of Justice — District of North Dakota'],
+    sourceUrl: 'https://www.justice.gov/usao-nd/pr/montana-woman-sentenced-federal-prison-stealing-134000-her-elderly-mother-law-and-father',
+    country: 'US',
+    state: 'MT',
+    isHistorical: true,
+    firstRecorded: '2023-04-13',
+});
+
+UsAF.push({
+    name: 'Ekwelle and Berinyuy Malvern Fake Puppy Sales Scheme (Arkansas)',
+    slug: 'ekwelle-berinyuy-arkansas-malvern-puppy-scam',
+    description: `Thierry Assoueesoh Ekwelle and Helda Verla Berinyuy, neighbors and fellow students in Malvern, Arkansas, built a network of websites advertising purebred, AKC-registered puppies — French Bulldogs, Boxers, Toy Poodles, English Bulldogs, and other breeds — that did not actually exist, taking payment from buyers across the country who believed they were purchasing a real dog. After collecting an initial purchase price, the pair called victims posing as airline or shipping officials and piled on additional "fees" for pet insurance, special crates, and COVID-19 handling requirements before the promised puppy ever arrived — which it never did, since there was no puppy to ship. Between roughly 2017 and November 2020, the scheme took in more than $160,000 combined across the full run of the operation, with a federal indictment covering 153 victims and $110,691.50 in losses from the August 2018–November 2020 stretch alone, funneled through Western Union and Walmart money transfers under a rotating set of aliases. Ekwelle, a naturalized U.S. citizen, pleaded guilty to one count of wire fraud in August 2022 and was sentenced to one month in prison, three years of supervised release, and $105,609 in restitution; Berinyuy was also criminally charged but has been a federal fugitive with her whereabouts unknown. Arkansas Attorney General Tim Griffin's office separately sued both under the Arkansas Deceptive Trade Practices Act, seeking civil penalties of up to $10,000 per violation, and a Pulaski County circuit judge ruled in July 2026 that the state's evidence was sufficient to send that case to trial over Ekwelle's objection. Anyone buying a puppy sight-unseen online should insist on a live video call with the actual animal before paying anything, be suspicious of any seller who calls later demanding more money for "shipping insurance" or emergency fees before delivery, and pay by credit card rather than wire transfer or a cash-transfer app so a fraudulent purchase can potentially be disputed.`,
+    categorySlug: 'pet-sales-scams',
+    alertLevel: 'medium',
+    sources: ["Arkansas Attorney General's Office (Tim Griffin)", 'U.S. Department of Justice — Eastern District of Arkansas', 'Arkansas Democrat-Gazette'],
+    sourceUrl: 'https://arkansasag.gov/news-alerts/news-releases/',
+    country: 'US',
+    state: 'AR',
+    isHistorical: true,
+    firstRecorded: '2021-05-04',
+});
