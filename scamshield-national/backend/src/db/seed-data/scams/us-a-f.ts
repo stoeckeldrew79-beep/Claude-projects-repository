@@ -7380,3 +7380,14 @@ UsAF.push({
     sourceUrl: 'https://www.mbc.ca.gov/News/Fake-DEA-Agents.aspx',
     country: 'US',
 });
+
+UsAF.push({
+    name: 'Fake Rental Listings Targeting Military PCS Moves',
+    slug: 'fake-rental-listing-military-pcs-move-scam',
+    description: `The FTC issued a consumer alert on July 13, 2026 focused specifically on how rental-listing scams prey on service members during a Permanent Change of Station (PCS) move, a situation that combines a hard relocation deadline, a search often conducted entirely online from the current duty station, and unfamiliarity with the new area — exactly the conditions that make a family less likely to insist on seeing a property in person before paying. Scammers invent listings for homes that aren't actually for rent, or steal real photos from a legitimate listing and repost them elsewhere at a below-market price, then make up an excuse — deployment, an out-of-state landlord, a property manager who's "unavailable" — for why an in-person tour isn't possible right now. Once a family is hooked, the "landlord" pushes payment through a gift card, cryptocurrency, or a wire transfer service like Western Union or MoneyGram, methods the FTC notes are difficult or impossible to reverse once money is sent. To verify a listing before paying anything, the FTC recommends searching the property's address online to check whether the same home is listed elsewhere under a different price or landlord's name, insisting on an in-person tour or having a trusted local contact view the property directly, and contacting the new duty station's relocation or housing referral office, which can confirm whether a property or landlord is legitimate and flag known scams in the area. Anyone who loses money to a fake listing during a PCS move should file a report at ReportFraud.ftc.gov and with their state attorney general's office.`,
+    categorySlug: 'rental-housing',
+    alertLevel: 'medium',
+    sources: ['Federal Trade Commission (FTC)'],
+    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2026/07/how-spot-fake-rental-listings-during-military-move',
+    country: 'US',
+});
