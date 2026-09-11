@@ -8348,6 +8348,10 @@ A separate criminal prosecution reached a very different result. Federal prosecu
     slug: 'hava-yfrah-austin-plantation-bookkeeper-gambling-embezzlement',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Plantation_Preserve_Golf_Course_%26_Club_in_July_2024.jpg?width=1200',
+    coverImageCredit: 'Photo: Gatorfan252525, CC BY-SA 4.0, via Wikimedia Commons — Plantation, Florida',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     body: `Hava Yfrah Austin owned and ran Accounting Solutions Today, P.A., a bookkeeping and tax-preparation business in Plantation, Florida, and for years served as the long-time outside bookkeeper for one client company in particular — a role that gave her signature authority over that company's own bank accounts, the same trusted access an in-house employee would have.
 
 From 2018 through April 2024, according to federal prosecutors, Austin used that authority to siphon roughly $9.8 million out of her client's accounts, concealing the theft by falsifying accounting entries and inventing fake vendor names so the missing money appeared, on paper, to be ordinary business expenses rather than payments to herself. Prosecutors said she funneled much of what she stole into gambling — betting it away at local casinos and on online gaming platforms — and then compounded the fraud by failing to report the stolen income on her own tax returns, later pleading guilty to filing a false income tax return alongside a wire fraud charge.
