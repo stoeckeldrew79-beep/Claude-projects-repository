@@ -13167,3 +13167,16 @@ International.push(
     firstRecorded: '2020-08-10',
   },
 );
+
+International.push(
+  {
+    name: 'Kiribati Invoice and Business Email Compromise Fraud',
+    slug: 'kiribati-invoice-business-email-compromise-fraud',
+    description: `ANZ Bank, the main commercial bank operating in Kiribati, published a dedicated fraud-prevention advisory for its Kiribati customers warning that fraudsters are targeting local businesses and their customers with invoice scams and business email compromise. In the pattern the bank describes, a business either receives a fake invoice for a product or service it never ordered or received, or has its own email account hacked so that outgoing invoices are altered mid-stream to list a different, fraudster-controlled bank account for payment — meaning a legitimate customer paying a real, expected invoice can still end up sending funds straight to a scammer. The same advisory flags a related fake-employment scheme working the opposite side of a transaction: fraudsters pose as legitimate employers advertising a high wage or an easy, guaranteed path to fast money for little effort, using the promise of a real job to extract fees or personal and banking details from job seekers before disappearing. ANZ's guidance for i-Kiribati businesses and account holders is to verify any invoice or request to change payment details by phone, using a number obtained independently rather than one listed in the email itself, to be suspicious of any job offer that demands payment or unusual personal information up front, and to contact the bank immediately if a payment has already been sent to a suspicious account so it can attempt to intervene before the funds are moved again.`,
+    categorySlug: 'business-email-compromise',
+    alertLevel: 'medium',
+    sources: ['ANZ Bank Kiribati'],
+    sourceUrl: 'https://www.anz.com/kiribati/en/personal/ways-bank/protect-banking/types-of-scams-and-fraud/',
+    country: 'KI',
+  },
+);

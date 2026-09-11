@@ -202,6 +202,7 @@ export const SCAM_TAGS: Record<string, string[]> = {
   'kentucky-addiction-centers-billing-fraud': ['elder-targeted'],
   'kentucky-addiction-centers-suboxone-billing-fraud': ['elder-targeted'],
   'kentucky-canadian-grandparent-scam-ring': ['elder-targeted'],
+  'kiribati-invoice-business-email-compromise-fraud': ['small-business-targeted'],
   'louisiana-firstep-annual-report-mailer-scam': ['small-business-targeted'],
   'louisiana-professional-consultants-ponzi-scheme': ['elder-targeted'],
   'ma-fake-veterans-petition-supermarket-solicitation': ['veteran-targeted'],
