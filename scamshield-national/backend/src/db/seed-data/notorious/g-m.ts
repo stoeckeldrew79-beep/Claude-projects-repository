@@ -7828,3 +7828,20 @@ Federal prosecutors in the Southern District of Florida filed parallel criminal 
 A guaranteed 102 percent return over five years works out to roughly 15 percent a year, compounded — a number picked, most likely, because it sounds impressive without sounding impossible the way "double your money in a year" would. That's the trap in a lot of currency- and forex-branded pitches: the return is dressed up as merely aggressive rather than obviously fictional, which is exactly what makes it easier for investors to talk themselves into believing a claim no legitimate currency-trading operation could consistently deliver.`,
   },
 );
+
+NotoriousGM.push(
+  {
+    title: 'Jeffrey Higgins: The Small-Town Investment Adviser Who Stole Client Stock for 17 Years',
+    slug: 'jeffrey-higgins-baker-city-oregon-investment-adviser-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-or/pr/baker-city-man-pleads-guilty-investment-fraud',
+    body: `Jeffrey Thomas Higgins worked as an investment adviser in Baker City, a small eastern Oregon town, from December 2007 through June 2024 — nearly seventeen years serving the same community. According to federal prosecutors, Higgins pitched clients on a plan that sounded conservative rather than speculative: he would buy stock shares for them at a steep discount to market price, an arrangement he marketed as "low-risk yet with a high return." What he actually did, prosecutors said, was buy the shares at ordinary market value using client money, then secretly sell those shares without the clients' knowledge or authorization and move the proceeds into his own bank account.
+
+Keeping seventeen years of theft hidden from clients who trusted him took ongoing effort. Higgins had genuine trade confirmations — the paperwork that would have shown clients their shares had been sold out from under them — rerouted to a post office box he controlled rather than to the clients themselves. In their place, he created fictitious annual account statements showing exaggerated profits, so that on paper, nothing looked wrong. At least fourteen investors were affected, with documented losses exceeding $1.6 million by the time the scheme was uncovered.
+
+The reckoning came in stages. FINRA permanently barred Higgins from the securities industry in July 2024, and the SEC filed a parallel civil complaint alleging the same core conduct: misappropriating client funds for his personal use. On June 2, 2026, Higgins pleaded guilty in the U.S. District Court for the District of Oregon to one count of investment adviser fraud, agreeing as part of the plea to pay more than $1.6 million in restitution to the clients he had stolen from. He faces a statutory maximum of five years in prison, a $10,000 fine, and three years of supervised release, with sentencing scheduled for December 7, 2026.
+
+Higgins's case is a reminder that an affinity for the familiar — a longtime local adviser in a town small enough that everyone knows everyone — can substitute for the kind of independent verification a client would otherwise insist on. Nearly two decades is a long time for fabricated account statements to go unchallenged, and it went unchallenged for that long in part because the trade confirmations that would have exposed it never reached the clients they belonged to; a second, independent copy of that paperwork, sent somewhere the adviser doesn't control, is one of the simplest checks an investor can insist on.`,
+  },
+);
