@@ -7786,6 +7786,10 @@ The case is a useful reminder that a hospital's own cybersecurity isn't the only
     author: "ScamShield Editorial",
     tags: ["guide", "farmers-insurance-tcpa-settlement"],
     sourceUrl: "https://www.classaction.org/news/2.87m-farmers-insurance-settlement-ends-tcpa-class-action-lawsuit",
+    // representative photo — replace with an exact match if found
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/St_Louis_Gateway_Arch_831.jpg?width=1200",
+    coverImageCredit: "Photo: Kbh3rd, CC BY-SA 3.0, via Wikimedia Commons — the Gateway Arch in St. Louis, where the case was filed",
+    coverImagePosition: 50,
     body: `Farmers Insurance Exchange and related Farmers entities agreed to pay $2,875,000 to resolve Starling v. Farmers Insurance Exchange, et al. (Case No. 26SL-CC00138, Circuit Court of St. Louis County, Missouri), a class action accusing one of the company's independent agencies of blowing past the federal Do-Not-Call Registry. This is a separate case from the much larger 2025 Farmers Insurance data breach that exposed 1.1 million customers' driver's license and Social Security numbers — this lawsuit had nothing to do with hacked data. It was about old-fashioned unwanted sales calls and texts.
 
 According to the complaint, Todd Henderson Insurance Agency, Inc. and its principal, R. Todd Henderson, placed marketing calls and texts pitching Farmers insurance products to consumers whose personal phone numbers had already been on the National Do-Not-Call Registry for more than 30 days — conduct the lawsuit alleged violated the federal Telephone Consumer Protection Act (TCPA). The proposed class covers people who received two or more such calls or texts between October 8, 2020, and March 13, 2026, and who certify they hadn't requested a quote from Farmers or been a Farmers customer at the time or within the prior 18 months. Farmers has not admitted wrongdoing but agreed to settle rather than continue litigating.
@@ -7802,6 +7806,9 @@ If you're still getting unwanted telemarketing calls or texts after registering 
     author: "ScamShield Editorial",
     tags: ["guide", "costco-commercial-email-settlement"],
     sourceUrl: "https://topclassactions.com/lawsuit-settlements/open-lawsuit-settlements/14m-costco-sales-emails-class-action-settlement/",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Costcoheadquarters.jpg?width=1200",
+    coverImageCredit: "Photo: Coolcaesar, CC BY-SA 4.0, via Wikimedia Commons — Costco's headquarters in Issaquah, Washington",
+    coverImagePosition: 50,
     body: `Costco Wholesale Corporation agreed to pay $14 million to resolve Aaland v. Costco Wholesale Corporation (Case No. 25-2-16392-0, Superior Court for the State of Washington, King County), a class action accusing the warehouse retailer of sending promotional emails with subject lines that manufactured a false sense of urgency. The case turned on Washington's Commercial Electronic Mail Act (CEMA), a state law that lets consumers sue directly over deceptive commercial email.
 
 According to the lawsuit, Costco's marketing emails routinely used subject lines like "Today is the last day to access Member-Only Savings" and "Hot Buys available for 5 Days Only" to push recipients toward buying before a deadline — except, the complaint alleged, Costco routinely extended those same "limited-time" promotions well past the date the subject line advertised. That gap between what the subject line promised and what the company actually did, plaintiffs argued, made the emails false and misleading under Washington law regardless of whether the underlying sale itself was real. Costco has not admitted wrongdoing but agreed to settle rather than continue litigating.
@@ -7818,6 +7825,10 @@ If you were a Costco.com or warehouse member in Washington during the class peri
     author: "ScamShield Editorial",
     tags: ["guide", "fca-us-valve-train-warranty-settlement"],
     sourceUrl: "https://www.classaction.org/news/fca-warranty-settlement-ends-class-action-lawsuit-over-coverage-for-high-priced-auto-parts",
+    // representative photo — replace with an exact match if found
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Jeep_Wrangler_JK_-_001.jpg?width=1200",
+    coverImageCredit: "Photo: JamesHenry, CC BY 2.0, via Wikimedia Commons — a Jeep Wrangler JK, one of the engines covered by the suit",
+    coverImagePosition: 50,
     body: `FCA US LLC, the Stellantis subsidiary behind Jeep, Dodge, Ram, and Chrysler, agreed to settle Regueiro v. FCA US LLC (Case No. 2:22-cv-05521, U.S. District Court for the Central District of California), a class action alleging the automaker shortchanged owners on emissions-related warranty coverage for a specific engine. The case began with a single driver's Jeep Wrangler and its recurring check-engine light, and grew into a settlement that could extend warranty protection for a wide swath of FCA's 3.6-liter V6 lineup.
 
 The lawsuit alleged that certain valve train components — the valve rocker arm, valve stem oil seal, and valve tappet — inside FCA's 3.6-liter Pentastar V6 engine are "high-priced" parts under California's emissions warranty rules, meaning state law required FCA to cover them for seven years or 70,000 miles rather than the standard three years or 50,000 miles that applies to most other parts. According to the complaint, FCA didn't extend that longer coverage to these components, leaving owners whose vehicles developed valve train problems after the shorter warranty period to pay for diagnosis and repair themselves. FCA has not admitted wrongdoing but agreed to the settlement, which received preliminary court approval on June 29, 2026.
