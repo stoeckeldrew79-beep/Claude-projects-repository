@@ -1774,6 +1774,10 @@ NotoriousTZ.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/usao-mdpa/pr/dover-resident-charged-defrauding-elderly-victim-over-1-million-and-using-proceeds-his',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Pennsylvania_State_Capitol_East_Side.jpg?width=1200',
+    coverImageCredit: 'Photo: Kumar Appaiah, Wikimedia Commons (CC BY-SA 2.0) — the Pennsylvania State Capitol in Harrisburg, near the Camp Hill credit union at the center of the Brenner indictment',
+    coverImagePosition: 50,
     body: `Note: this case is at the indictment stage. William D. Brenner has been charged but not convicted, and the allegations described below reflect the government's case rather than proven facts.
 
 William D. Brenner, 62, of Dover, Pennsylvania, served for years as a board member of Susquehanna Valley Federal Credit Union, a roughly $86.8 million-asset credit union based in Camp Hill, Pennsylvania, sitting on its board from 2016 through mid-2022. According to a federal grand jury indictment announced by the U.S. Attorney's Office for the Middle District of Pennsylvania on August 5, 2026, Brenner used the trust that position afforded him to defraud an elderly woman, born in 1936, and her daughter, who held power of attorney over her finances.
