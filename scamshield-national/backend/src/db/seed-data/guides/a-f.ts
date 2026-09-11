@@ -6074,6 +6074,10 @@ If you rely on Clorox brands and noticed empty shelves in 2023, no consumer fina
     slug: `700credit-2025-data-breach-guide`,
     author: `ScamShield Editorial`,
     tags: [`guide`, `700credit-2025-data-breach`],
+    coverImage: `https://commons.wikimedia.org/wiki/Special:FilePath/Car_Dealer.jpg?width=1200`,
+    coverImageCredit: `Photo: Buster Lang (CC BY-SA 4.0)`,
+    coverImagePosition: 50,
+    // representative photo — generic car dealership, evoking the auto buyers 700Credit's data covers; replace with an exact match if found
     sourceUrl: `https://www.securityweek.com/700credit-data-breach-impacts-5-8-million-individuals/`,
     body: `Almost nobody who bought or financed a car through a dealership has heard of 700Credit, but the company sits quietly behind an enormous share of those transactions: it supplies the credit checks, identity verification, and fraud-detection screening that roughly 18,000 automotive, marine, powersports, and RV dealerships across North America run every time a customer applies for financing. That kind of behind-the-scenes role is exactly what makes a breach of 700Credit's systems so consequential — the people affected never chose to hand their Social Security number to 700Credit; they handed it to a local car dealer, who routed it through a vendor most of them never saw or heard of.
 
@@ -6110,6 +6114,10 @@ More broadly, this incident is a useful reminder that a single vendor failure ca
     slug: `doxo-bill-pay-search-ad-impersonation-settlement-guide`,
     author: `ScamShield Editorial`,
     tags: [`guide`, `doxo-bill-pay-scam`],
+    coverImage: `https://commons.wikimedia.org/wiki/Special:FilePath/Laptop_on_a_neat_desk_(Unsplash).jpg?width=1200`,
+    coverImageCredit: `Photo: Norbert Levajsics (CC0)`,
+    coverImagePosition: 50,
+    // representative photo — generic laptop/bill pay, not Doxo's own site; replace with an exact match if found
     sourceUrl: `https://www.ftc.gov/news-events/news/press-releases/2026/08/bill-payment-firm-doxo-pay-21-million-settle-ftc-allegations-it-deceived-consumers-charged-them-add`,
     body: `On August 17, 2026, the Federal Trade Commission announced that Doxo, Inc., an online bill-pay platform based in Seattle, agreed to pay $2.1 million and accept a court order restricting its advertising practices to settle allegations that it spent years tricking consumers into thinking they were paying their actual biller directly. The FTC's complaint, filed jointly with the case that produced the settlement, named Doxo and two of its co-founders, CEO Steve Shivers and Chief Product Officer Roger Parks, personally.
 
@@ -6434,6 +6442,10 @@ Parents whose children watch Disney content or any other children's programming 
     slug: "american-addiction-centers-2026-data-breach-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "american-addiction-centers-2026-data-breach"],
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Counselling_session.jpg?width=1200",
+    coverImageCredit: "Photo: tiyowprasetyo (CC0)",
+    coverImagePosition: 50,
+    // representative photo — generic counseling session, not an American Addiction Centers facility; replace with an exact match if found
     sourceUrl: "https://www.hipaajournal.com/american-addiction-centers-oculus-pathology-disclose-hacking-incidents/",
     body: `American Addiction Centers (AAC), a Brentwood, Tennessee-based operator of one of the largest networks of drug and alcohol treatment facilities in the country, began notifying state regulators in August 2026 that a hacker had gotten into the Salesforce environment it uses to manage outreach from people considering treatment. According to AAC's own account, an unauthorized party accessed the system on May 12, 2026; the company says it first noticed suspicious activity on June 5 and had outside forensic investigators confirm on June 12 that personal information had actually been taken. AAC didn't file its notification with the California Attorney General until August 7, 2026 — nearly three months after the access occurred — and as of that filing said it still didn't know how many people were affected nationwide, though a separate filing with Washington state's attorney general put the Washington total at 1,155 residents. This is AAC's second reportable breach in two years: a September 2024 ransomware attack attributed to the Rhysida gang hit its core network directly, rather than a vendor platform, and exposed the names, addresses, phone numbers, and medical information of 410,747 people, leading to twelve consolidated class-action lawsuits that AAC settled in 2026 for $2.75 million along with a court-monitored commitment to improve its security.
 
@@ -6488,6 +6500,10 @@ Treat any unsolicited call, text, or email that references this breach, "HR veri
     slug: "ai-deepfake-recruiter-video-interview-scam-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "ai-deepfake-recruiter-scam"],
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/USB_webcam_for_PC.jpg?width=1200",
+    coverImageCredit: "Photo: WrS.tm.pl (CC0)",
+    coverImagePosition: 50,
+    // representative photo — generic webcam, evoking the video-interview scam; replace with an exact match if found
     sourceUrl: "https://consumer.ftc.gov/consumer-alerts/2023/08/scammers-impersonate-well-known-companies-recruit-fake-jobs-linkedin-other-job-platforms",
     body: `The message looks routine: a recruiter on LinkedIn or Indeed says a résumé caught their eye, names a real, well-known employer, and offers a remote position with better-than-average pay. What's changed since the FTC first warned about this exact impersonation pattern in 2023 is what happens next. Instead of a rushed email exchange, the "recruiter" now schedules a live video interview — and in a growing number of documented 2026 cases, the person on that call isn't a person at all, or isn't the person their video and voice claim to be. The Better Business Bureau has tracked a jump in these reports, logging roughly 22,000 employment-scam complaints to its Scam Tracker in 2025, up from about 11,000 the year before, and flagging generative AI as the reason old-fashioned fake-job letters have become far more convincing fake-job interviews.
 

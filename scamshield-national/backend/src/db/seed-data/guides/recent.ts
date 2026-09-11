@@ -460,6 +460,10 @@ If you're a current or former student, parent, or employee connected to Lexingto
     slug: "rectory-school-2026-data-breach-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "rectory-school-2026-data-breach"],
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Flagg_Hall_-_Loomis_Chaffee_School_-_Windsor,_Connecticut_-_DSC04842.JPG?width=1200",
+    coverImageCredit: "Photo: Daderot (CC0)",
+    coverImagePosition: 50,
+    // representative photo — another Connecticut boarding school campus, not Rectory School's own; replace with an exact match if found
     body: `Rectory School, a small independent boarding and day school for students in grades K-9 in Pomfret, Connecticut, that has operated since 1920, experienced a network disruption on September 14, 2025. Within weeks, a ransomware group calling itself Qilin — a prolific extortion gang that has claimed attacks on hospitals, manufacturers, and school districts around the world — posted the school as a victim on its dark-web leak site on September 30, 2025, claiming to have stolen 143 gigabytes of the school's data and publishing sample screenshots as proof. It took Rectory School until the following July to finish confirming exactly whose information was involved, completing that review on July 6, 2026, and beginning to mail notification letters to affected individuals on July 9, 2026 — nearly ten months after the attack itself.
 
 According to the school's breach notice, the exposed information included names, Social Security numbers, and driver's license or state identification numbers. Because Rectory is a small junior boarding school with roughly a few hundred students and a comparatively small staff, the total number of people affected is far smaller than the multi-million-record breaches that dominate headlines — but the sensitivity of the data is identical, and a small institution often has far less in-house cybersecurity staff and resources to detect and respond to an intrusion quickly, which helps explain the long gap between the September attack and the following summer's notification. Rectory School is offering everyone affected complimentary identity protection through Kroll, including credit monitoring, a $1 million identity fraud loss reimbursement policy, and fully managed identity theft recovery assistance for anyone who does become a victim of fraud.
@@ -585,6 +589,10 @@ If you use any account that still relies on SMS for two-factor authentication �
     slug: "indico-data-solutions-2026-data-breach-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "indico-data-solutions-2026-data-breach"],
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Laptop_on_a_neat_desk_(Unsplash).jpg?width=1200",
+    coverImageCredit: "Photo: Norbert Levajsics (CC0)",
+    coverImagePosition: 50,
+    // representative photo — generic office desk, not Indico Data Solutions' own office; replace with an exact match if found
     sourceUrl: "https://www.claimdepot.com/data-breach/indico-2026",
     body: `Most people who were notified about the Indico Data Solutions breach had never heard the company's name before the letter arrived. Indico is a Boston-based artificial intelligence company that doesn't sell anything directly to consumers — it builds an "intake and orchestration" platform that insurance companies and other corporate customers use behind the scenes to process underwriting files and claims paperwork, feeding scanned documents, applications, and correspondence into automated workflows. That back-office role is exactly what makes the breach worth understanding even if you've never used Indico's product or signed up for anything it offers: your information can end up inside a vendor's systems simply because the insurer, employer, or benefits administrator you actually do business with decided to use that vendor to process your file.
 
