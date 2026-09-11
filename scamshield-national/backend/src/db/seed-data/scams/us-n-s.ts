@@ -4924,3 +4924,15 @@ UsNS.push({
     firstRecorded: '2007-01-01',
     state: 'NY',
 });
+
+UsNS.push({
+    name: 'New York "Product Boosting" Task-Job Crypto Scam (NFT Legal-Notice Lawsuit)',
+    slug: 'new-york-product-boosting-task-job-crypto-scam-nft-notice',
+    description: `Beginning in 2024, unsolicited text messages promising "good-paying, flexible" remote jobs began circulating among New Yorkers, offering pay for reviewing products online to generate what the messages called "market data." Victims who responded were told they first needed to open an account on a legitimate cryptocurrency exchange such as Coinbase or Gemini, buy stablecoins (USDC or USDT), and transfer them into a separate digital wallet controlled by the scam operators, ostensibly to fund the products they'd be "reviewing" and unlock commissions. Once a victim tried to withdraw any of the money shown accumulating in an in-app balance, the operators invented new charges that supposedly had to be paid first — a "credit score improvement" fee, a "blockchain verification" fee — each one draining more real cryptocurrency while the promised earnings stayed permanently out of reach and withdrawals were blocked entirely. On January 9, 2025, New York Attorney General Letitia James filed suit seeking to recover roughly $2.2 million in cryptocurrency frozen in the scammers' unhosted wallets, working with the U.S. Secret Service, the Queens County District Attorney's Office, and stablecoin issuers Tether and Circle, who helped trace and freeze the funds; one identified victim alone had lost more than $100,000. Because the operators behind the wallets could not be identified or served through conventional means, the Attorney General's office took the unusual step of attempting to serve legal notice of the litigation by depositing a non-fungible token (NFT) containing a link to the court filings directly into the defendants' wallet addresses — reportedly the first time any U.S. government regulator has used blockchain-based service of process to reach anonymous defendants. Anyone contacted out of the blue about a job that requires opening a cryptocurrency account, buying stablecoins, or transferring crypto to a wallet address before being paid should treat it as fraud regardless of how legitimate the exchange used to buy the coins is — a real employer never requires an employee to fund their own "job" with cryptocurrency, and any fee demanded before a withdrawal can be completed is a clear sign the balance shown on screen was never real money to begin with.`,
+    categorySlug: 'job-task-scams',
+    alertLevel: 'high',
+    sources: ["New York Attorney General's Office (Letitia James)", 'U.S. Secret Service', 'Cointelegraph'],
+    sourceUrl: 'https://ag.ny.gov/press-release/2025/attorney-general-james-stops-text-message-scam-targeting-vulnerable-new-yorkers',
+    country: 'US',
+    state: 'NY',
+});
