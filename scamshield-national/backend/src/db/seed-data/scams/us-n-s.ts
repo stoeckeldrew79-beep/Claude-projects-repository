@@ -5276,3 +5276,17 @@ UsNS.push({
     isHistorical: true,
     firstRecorded: '2025-04-04',
 });
+
+UsNS.push({
+    name: 'Nigeria-Based Romance Scam Conspiracy Targeting a Rhode Island Senior',
+    slug: 'rhode-island-nigerian-romance-wire-fraud-conspiracy',
+    description: `A federal criminal complaint unsealed May 1, 2026 in the U.S. District Court for the District of Rhode Island charges three Nigerian nationals — William Elvis, 35, Moses Kolawole Hezekiah, 34, and Destiny Okobeni Oghentega, 30 — with conspiracy to commit wire fraud over a romance-scam operation prosecutors say ran from early 2021 onward. According to the complaint, the defendants and unnamed co-conspirators built online relationships with victims by posing as professionals working overseas, often using stolen photographs and identities lifted from real people who had no connection to the scheme, then spent weeks or months cultivating trust before turning to a fabricated crisis — a business emergency, a legal problem, a sudden medical bill — to pressure the victim into sending money, frequently through gift cards and cryptocurrency chosen specifically because they are hard to trace or reverse. Investigators say the victims included an elderly Rhode Island resident who, like others in the scheme, sent substantial sums over an extended period before the fraud was uncovered, and that financial and communications records traced the operation back to Nigeria. Because the case was brought as a criminal complaint, the charges against Elvis, Hezekiah, and Oghentega remain allegations that the government must still prove in court. The case follows a pattern the U.S. Attorney's Office for Rhode Island has prosecuted repeatedly: an online partner who is always working abroad, always has a plausible reason to avoid a video call or in-person meeting, and eventually asks for money tied to a crisis that conveniently can only be solved with cash, a gift card code, or a cryptocurrency transfer. Anyone in an online relationship who has never met the other person face-to-face should treat any request for money — however sympathetic the story — as a reason to stop contact and verify the person's identity independently before sending anything.`,
+    categorySlug: 'romance-scams',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office, District of Rhode Island"],
+    sourceUrl: 'https://www.justice.gov/usao-ri/pr/three-nigerian-nationals-charged-online-romance-and-wire-fraud-conspiracy',
+    country: 'US',
+    state: 'RI',
+    isHistorical: true,
+    firstRecorded: '2026-05-01',
+});
