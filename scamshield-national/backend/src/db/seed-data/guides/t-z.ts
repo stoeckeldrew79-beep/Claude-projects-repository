@@ -1580,6 +1580,9 @@ If you're a Wesco customer, supplier, or current or former employee, watch for a
     slug: `veradigm-2025-data-breach-guide`,
     author: `ScamShield Editorial`,
     tags: [`guide`, `veradigm-2025-data-breach`],
+    coverImage: `https://commons.wikimedia.org/wiki/Special:FilePath/Merchandise_Mart,_Chicago,_Illinois_(9181646666).jpg?width=1200`,
+    coverImageCredit: `Photo: Ken Lund, CC BY-SA 2.0, via Wikimedia Commons — the Merchandise Mart in Chicago, home to Veradigm's headquarters`,
+    coverImagePosition: 50,
     sourceUrl: `https://www.hipaajournal.com/veradigm-data-breach/`,
     body: `Veradigm, the healthcare technology company formerly known as Allscripts, discovered on July 1, 2025 that a threat actor had spent months inside one of its cloud storage accounts. According to the timeline Veradigm later laid out for regulators and in class-action filings, the intrusion itself began around December 2024, when an unauthorized party obtained login credentials belonging to one of Veradigm's own customers and used them to reach into a Veradigm storage account rather than the customer's own systems. Veradigm says that once it discovered the unauthorized access, it immediately cut off the attacker, brought in outside cybersecurity investigators, and notified law enforcement — but by then the intruder had already had roughly seven months of unsupervised access to files inside that account.
 
@@ -1738,6 +1741,9 @@ Virta has set up a dedicated assistance line at 833-502-8832 (Monday through Fri
     slug: `ucla-health-2026-data-breach-guide`,
     author: `ScamShield Editorial`,
     tags: [`guide`, `ucla-health-2026-data-breach`],
+    coverImage: `https://commons.wikimedia.org/wiki/Special:FilePath/UCLA_Reagan_Medical_Center.JPG?width=1200`,
+    coverImageCredit: `Photo: Fuzzy901, CC BY-SA 3.0, via Wikimedia Commons — the Ronald Reagan UCLA Medical Center`,
+    coverImagePosition: 50,
     sourceUrl: `https://www.hipaajournal.com/data-breaches-loma-linda-university-health-ucla-health/`,
     body: `Not every health-data breach starts with a hacker. UCLA Health, one of the largest academic medical systems in the country, disclosed in notification letters mailed beginning August 6, 2026 that it had determined, on July 2, 2026, that patient information had been accessed and disclosed to an outside healthcare provider in a manner inconsistent with UCLA Health's own internal policies governing protected health information. There's no ransomware gang in this story and no dark-web leak site — the incident UCLA Health reported to the California Attorney General was an internal process failure: patient records routed somewhere they weren't supposed to go, under UCLA Health's own data-sharing arrangements, and nobody caught it for a long time. According to the notification, the improper disclosures took place over more than sixteen months, from December 27, 2024 through April 21, 2026, before the health system identified what had happened.
 
@@ -1828,6 +1834,10 @@ Because USA DeBusk primarily serves industrial and energy clients rather than co
     slug: `universal-plant-services-2026-data-breach-guide`,
     author: `ScamShield Editorial`,
     tags: [`guide`, `universal-plant-services-2026-data-breach`],
+    // representative photo — replace with an exact match if found
+    coverImage: `https://commons.wikimedia.org/wiki/Special:FilePath/Reed_Roller_Bit_Co._at_Shell_Oil_refinery_(9291469015).jpg?width=1200`,
+    coverImageCredit: `Photo: Robert Yarnall Richie / DeGolyer Library, SMU (public domain), via Wikimedia Commons — an industrial refinery facility in Deer Park, Texas, where Universal Plant Services is headquartered`,
+    coverImagePosition: 50,
     sourceUrl: `https://www.classaction.org/data-breach-lawsuits/universal-plant-services-august-2026`,
     body: `Universal Plant Services, a Deer Park, Texas-based company that repairs and maintains rotating and reciprocating equipment — the engines, turbines, and compressors used at roughly 700 refineries, chemical plants, and other industrial facilities across North America — has notified regulators that a network intrusion in June 2026 exposed employees' personal and financial information. The company says it discovered unauthorized activity on its network on June 12, 2026, and that an intruder had accessed data between June 8 and June 12. Universal Plant Services brought in forensic specialists and completed its review of exactly what was affected on July 14, 2026, then began notifying state regulators in mid-August, including a filing with the Texas Attorney General that put the confirmed toll at 3,492 Texas residents, along with notices to California, Massachusetts, and other states.
 
@@ -1842,6 +1852,9 @@ If you are a current or former Universal Plant Services employee, or a contracto
     slug: `yellow-corporation-2026-data-breach-guide`,
     author: `ScamShield Editorial`,
     tags: [`guide`, `yellow-corporation-2026-data-breach`],
+    coverImage: `https://commons.wikimedia.org/wiki/Special:FilePath/Yellow_freight_building_-_panoramio.jpg?width=1200`,
+    coverImageCredit: `Photo: Mike Trinastich, CC BY-SA 3.0, via Wikimedia Commons — a Yellow Corporation freight building in Overland Park, Kansas, the company's headquarters city`,
+    coverImagePosition: 50,
     sourceUrl: `https://myyellow.com/wp-content/uploads/2026/06/Yellow-Corporation-Website-Notice.pdf`,
     body: `Yellow Corporation was, until the summer of 2023, one of the largest less-than-truckload freight carriers in the United States — a nearly century-old trucking company that shut down operations and filed for what became the largest bankruptcy in U.S. trucking history, putting roughly 30,000 people out of work. Nearly two years later, on or about March 27, 2025, Yellow — now operating only as a debtor-in-possession under Chapter 11 in Delaware bankruptcy court, its trucks and terminals long since sold off — identified suspicious activity on its computer network. The company says it brought in cybersecurity specialists, briefly took its remaining systems offline, and restored them from backup, then found that files had been accessed and taken without authorization that same day. It took until June 26, 2026 — roughly 15 months after the intrusion — for Yellow to post a formal notice of the breach, explaining that the "historical nature of the data involved" made it difficult to identify and verify current contact information for many of the people affected.
 According to that notice and the state breach filings that followed it, at least 13,711 people have been confirmed affected so far across just three states that have published figures — 13,183 in Texas, 491 in Massachusetts, and 37 in Vermont — with Yellow acknowledging that additional states are still being notified. The company says the substantial majority of those affected are former Yellow employees, and that the exposed files may include, depending on the person, their name, Social Security number, date of birth, driver's license or state ID number, passport number, other government-issued identification numbers, financial account numbers, payment card numbers, medical information, and health insurance information — personnel and payroll records that in some cases had sat untouched in Yellow's systems for years after the company itself stopped operating.
@@ -1855,6 +1868,10 @@ If you worked for Yellow Corporation or one of its subsidiaries (including YRC F
     slug: "union-county-ohio-2025-ransomware-breach-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "union-county-ohio-2025-data-breach"],
+    // representative photo — replace with an exact match if found
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Union_County_Courthouse_Marysville.jpg?width=1200",
+    coverImageCredit: "Photo: Wiki Historian N OH, CC BY-SA 3.0, via Wikimedia Commons — the Union County Courthouse in Marysville, Ohio",
+    coverImagePosition: 50,
     body: `Union County, Ohio — a fast-growing county northwest of Columbus that includes the city of Marysville and part of Dublin — disclosed in late September 2025 that a ransomware attack earlier that year had exposed personal information belonging to 45,487 people who live or work in the county. County officials say cybercriminals accessed its network between May 6 and May 18, 2025, and detected the intrusion on that last date, at which point the county brought in outside cybersecurity and digital-forensics specialists and notified federal law enforcement. "The cyber criminals accessed our network from May 6, 2025 through May 18, 2025, and took some County data," the county said in its notification letters. County Administrator Bill Narducci noted that it was the first time Union County had been the victim of a ransomware attack. The county's investigation into exactly whose data was affected wasn't finished until August 25, 2025, and notification letters began going out roughly a month later, in late September.
 
 What sets this breach apart from most of the corporate breaches covered here is the sheer range of data a county government holds — and how unusual some of it is. According to the county's own notice, the exposed information included names, Social Security numbers, driver's license numbers, dates of birth, financial account information, payment card details, medical information, passport numbers, and — notably — fingerprint data. County governments typically collect fingerprints for things like concealed-carry permit applications, professional licensing, jail bookings, or background checks tied to certain jobs, and unlike a password or even a Social Security number, a fingerprint can't be reset or reissued if it falls into the wrong hands. As of the county's September 2025 notice, no ransomware gang had publicly claimed responsibility for the attack, and officials said they were monitoring the internet for signs the stolen data had been posted or offered for sale, without finding any at that point.
@@ -1869,6 +1886,10 @@ For a county resident or employee, this breach is a reminder that identity-theft
     slug: "triwest-healthcare-alliance-2026-data-breach-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "triwest-healthcare-alliance-2026-data-breach"],
+    // representative photo — replace with an exact match if found
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Downtown_Phoenix_Skyline_(6974043971).jpg?width=1200",
+    coverImageCredit: "Photo: Alan Stark, CC BY-SA 2.0, via Wikimedia Commons — the Phoenix, Arizona skyline; TriWest Healthcare Alliance is headquartered in Phoenix",
+    coverImagePosition: 50,
     sourceUrl: "https://www.hipaajournal.com/triwest-healthcare-alliance-data-breach/",
     body: `TriWest Healthcare Alliance, a government contractor that helps administer TRICARE and VA community-care health benefits for active-duty service members, retirees, National Guard and Reserve members, and their families, disclosed in the summer of 2026 that an unauthorized third party had gained access to parts of its network and downloaded files containing protected health information. TriWest says it identified the security incident on April 16, 2026, and reported it to the U.S. Department of Health and Human Services' Office for Civil Rights roughly five weeks later, on May 21, 2026. Notification letters to affected beneficiaries didn't go out until July 2, 2026 — nearly eleven weeks after the intrusion was first identified — a gap TriWest attributed to the time its investigation took to determine whose information was actually involved.
 
@@ -1883,6 +1904,9 @@ If you or a family member receives health care through TRICARE's West Region net
     slug: "veradigm-2026-vendor-credential-breach-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "veradigm-2026-data-breach"],
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Merchandise_Mart,_Chicago,_Illinois_(9181646666).jpg?width=1200",
+    coverImageCredit: "Photo: Ken Lund, CC BY-SA 2.0, via Wikimedia Commons — the Merchandise Mart in Chicago, home to Veradigm's headquarters",
+    coverImagePosition: 50,
     sourceUrl: "https://www.hipaajournal.com/veradigm-data-breach-2026/",
     body: `Veradigm, the Chicago-based health-technology company formerly known as Allscripts that provides electronic health record and practice-management software used across the healthcare industry, disclosed on September 8, 2026 that it had suffered a new data breach — its second publicly disclosed incident in about a year and a half. This time, Veradigm says the intrusion didn't start on its own network at all: an attacker compromised a third-party vendor's environment, stole valid credentials for a Veradigm API that vendor used to deliver services, and then used that legitimate-looking access to copy out patient data. A ransomware and extortion group calling itself The Gentlemen claimed responsibility on a dark-web leak site on September 5, 2026, days before Veradigm's own disclosure, and said it had obtained roughly 3.5 million patient records.
 
