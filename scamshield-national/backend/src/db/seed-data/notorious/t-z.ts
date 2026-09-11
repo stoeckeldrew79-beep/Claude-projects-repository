@@ -2161,3 +2161,21 @@ A federal grand jury indicted 18 former NBA players in October 2021 in connectio
 Williams's case is a reminder that a benefit plan built on trust between a league and its own retired players is a soft target precisely because it isn't designed to assume fraud from the people it exists to help. A health and welfare plan that reimburses claims based on submitted invoices, rather than independently verifying that the underlying appointment happened, is only as reliable as the honesty of the people submitting them — and once a recruiter inside that trusted population started supplying fabricated paperwork to more than a dozen willing participants, the fraud grew for years before a single implausible date on one dental claim helped bring the whole scheme down.`,
   },
 );
+NotoriousTZ.push(
+  {
+    title: 'Benjamin Wiener and the "Benaiah" Crypto Ponzi Scheme Awaiting Trial in Sioux Falls',
+    slug: 'benjamin-wiener-benaiah-capital-crypto-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-sd/pr/sioux-falls-crypto-investor-indicted-wire-fraud-money-laundering-bank-fraud-and',
+    body: `Note: Benjamin Paul Wiener has been indicted, not convicted. He pleaded not guilty to every count against him, and a trial was scheduled for September 15, 2026. The allegations below reflect a federal indictment — the government's case — rather than any judicial finding of guilt.
+
+Benjamin Paul Wiener, 43, of Sioux Falls, South Dakota, built a cluster of similarly named companies — Benaiah Capital LLC, Benaiah Holdings, Inc., Benaiah Digital Fixed Income LP, Benaiah Digital LP, Benaiah Management Company, Inc., Benaiah Enterprises, LLC, along with Aslan Management, LLC and an entity called Runway Four10 — that, according to a federal indictment, he used to solicit money and cryptocurrency from investors across South Dakota, Minnesota, and the surrounding region.
+
+According to the indictment, Wiener made materially false statements and fraudulent representations to persuade victims to hand over cash and digital assets, then routed the proceeds through a mix of bank accounts and cryptocurrency exchanges to obscure where the money had actually gone. When client funds ran low or investors asked for their money back, prosecutors allege, Wiener recruited new investors and used their money to cover redemptions and repay earlier participants — the same recycling structure at the center of every Ponzi scheme, spread here across eight interlocking entities rather than one central fund. Separately, prosecutors allege that in April 2025 Wiener fraudulently obtained a $1 million business line of credit by submitting falsified bank documents and using another person's identifying information without permission.
+
+A federal grand jury indicted Wiener in June 2026 on 29 counts spanning wire fraud, money laundering, bank fraud, and aggravated identity theft, unsealed in mid-July; the indictment attributes roughly $20 million in losses to dozens of victims. He appeared before U.S. Magistrate Judge Veronica L. Duffy on July 10, 2026, pleaded not guilty to every count, and was released pending trial. If convicted on all counts, Wiener would face up to 30 years in prison on the bank fraud charge, up to 20 years each on the wire fraud and money laundering counts, and a mandatory consecutive two-year term for aggravated identity theft — exposure that, as of this writing, remains entirely theoretical, since no trial has yet been held.
+
+Wiener's case is a reminder that a cluster of investment vehicles sharing a near-identical name and a single principal is a structure regulators see again and again in alleged Ponzi schemes, because it lets an operator shuffle money between entities faster than any one investor, bank, or auditor looking at a single fund can follow — and that an indictment, however detailed, is a set of allegations a jury has not yet tested, not a verdict.`,
+  },
+);
