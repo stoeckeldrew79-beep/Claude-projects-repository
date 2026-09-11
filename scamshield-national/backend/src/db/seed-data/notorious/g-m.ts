@@ -5232,6 +5232,10 @@ The Kluger case illustrates a specific vulnerability at the center of corporate 
     slug: 'lim-oon-kuin-hin-leong-trading-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Jurong_Island,_Singapore_-_20110227-01.jpg?width=1200',
+    coverImageCredit: "Photo: Jacklee, Wikimedia Commons (CC BY-SA 3.0) — Jurong Island, Singapore's petrochemical and oil-trading hub",
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     sourceUrl: 'https://www.scmp.com/news/asia/southeast-asia/article/3287035/singapore-sentences-ok-lim-over-17-years-prison',
     body: `Lim Oon Kuin, widely known by his initials "O.K. Lim," arrived in Singapore from Fujian, China as a young man with little money and built Hin Leong Trading into one of Asia's largest independent oil trading companies, supplying fuel to ships and refineries across the region for more than five decades. By the 2010s, Hin Leong and its related companies were trading billions of dollars worth of oil a year, and Lim had become one of Singapore's wealthiest and most respected businessmen — the kind of "legendary" trader whose company banks extended enormous, largely unquestioned credit lines to finance cargoes of crude and refined products moving through the world's busiest bunkering port.
 
