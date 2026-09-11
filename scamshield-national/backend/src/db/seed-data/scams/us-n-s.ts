@@ -5815,3 +5815,15 @@ UsNS.push({
     country: 'US',
     state: 'NV',
 });
+
+UsNS.push({
+    name: 'North Carolina Voter Registration Drive Worker Impersonation Scheme',
+    slug: 'north-carolina-voter-registration-drive-impersonation-scheme',
+    description: `The North Carolina State Board of Elections announced on February 13, 2026 that it was investigating reports of misconduct by voter registration drive workers in at least seven counties — Brunswick, Buncombe, Chowan, Haywood, Nash, Scotland, and Wake — including workers who went door-to-door falsely claiming to be county or state election officials. Investigators say some workers told voters they needed to "re-register" to remain eligible to vote in upcoming elections, which is false: a registered voter does not need to re-register unless they have moved to a new county. Other complaints involve registration applications submitted with missing or inaccurate information, such as wrong dates of birth or incorrect voter ID numbers, that can cause real problems for the voters whose names are on them. "The State Board will investigate all credible allegations of voter registration fraud," said State Board Executive Director Sam Hayes, noting that falsified or mishandled forms "can cause problems for innocent voters" who may not learn there was an issue until they try to cast a ballot. The State Board advises North Carolinians approached by a registration drive worker to ask for identification and verify the worker's affiliation before providing any personal information, to submit a completed registration form directly to the county board of elections rather than handing it back to the canvasser, and to check their own registration status anytime using the State Board's online Voter Search tool. Suspected misconduct can be reported to the State Board's Investigations Division at (919) 814-0700 or investigations.sboe@ncsbe.gov, or through an Election Law Complaint Form filed with the State Board.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['North Carolina State Board of Elections'],
+    sourceUrl: 'https://www.ncsbe.gov/news/press-releases/2026/02/13/state-board-investigating-reports-misconduct-voter-registration-drive-workers',
+    country: 'US',
+    state: 'NC',
+});
