@@ -7595,6 +7595,10 @@ NotoriousAF.push(
     slug: 'elizabeth-gutfahr-santa-cruz-county-treasurer-embezzlement',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Santa_Cruz_County,_Arizona,_courthouse_from_NW_1.JPG?width=1200',
+    coverImageCredit: 'Photo: Ammodramus (CC0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.justice.gov/usao-az/pr/former-santa-cruz-county-treasurer-sentenced-10-years-prison-stealing-over-38-million',
     body: `Elizabeth Gutfahr was an elected official — the Treasurer of Santa Cruz County, Arizona, a small border county whose government relied on her to safeguard its public funds. From 2012 through 2024, prosecutors say, she instead treated the county's accounts as her personal bank.
 
