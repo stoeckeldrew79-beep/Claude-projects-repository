@@ -5629,6 +5629,10 @@ NotoriousAF.push(
     slug: "daniel-boadu-romance-scam-money-laundering",
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Williston,_North_Dakota_-_6177085262.jpg?width=1200',
+    coverImageCredit: 'Photo: Andrew Filer, Wikimedia Commons (CC BY-SA 2.0) — downtown Williston, North Dakota, where Daniel Boadu lived',
     sourceUrl: 'https://www.justice.gov/usao-edtx/pr/north-dakota-man-sentenced-east-texas-romance-scam-ordered-pay-over-47-million',
     body: `Romance scams need two things to move money out of a victim's bank account and out of the country before anyone notices: a convincing enough fake relationship to get the wire transfer sent in the first place, and a U.S. bank account willing to receive it. Daniel Boadu, of Williston, North Dakota, supplied the second piece. According to the U.S. Attorney's Office for the Eastern District of Texas, from at least August 2015 through February 2021 he was one of the American bank-account holders in a romance-scam network that used fake dating-site profiles to build romantic relationships with victims and then convince them to send money — funds Boadu would receive into accounts he controlled before forwarding them on to the people running the scam overseas, keeping a cut for himself along the way.
 
