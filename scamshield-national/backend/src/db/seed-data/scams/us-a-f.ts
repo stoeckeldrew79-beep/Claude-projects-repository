@@ -7216,3 +7216,15 @@ UsAF.push({
     country: 'US',
     state: 'AL',
 });
+
+UsAF.push({
+    name: 'Dohn Community High School $8 Million Charter School Fraud (Davenport & Ballew)',
+    slug: 'dohn-community-high-school-8-million-fraud-scheme',
+    description: `A federal grand jury indicted Leando Ramone Davenport, 50, of Cincinnati — the former superintendent and, through an LLC, later operator of Dohn Community High School, an Ohio charter (community) school — and his business partner Jonathan Larry Ballew, 62, of Phoenix, Arizona, on wire fraud and money laundering charges after the FBI's Cincinnati Field Office arrested both men on September 3, 2026. Prosecutors allege that between 2021 and 2024 the pair defrauded the now-closed school of roughly $8 million by having Ballew's companies overbill Dohn for education services, staff training, technology, and construction or remodeling work that was never actually performed or delivered, with Ballew then kicking back about $4 million of the proceeds to Davenport. Investigators also allege the school inflated its reported student enrollment — claiming 1,676 students for the 2023-2024 school year against an actual count of just 355 the following year — to draw more in Ohio's per-pupil state and federal funding than the school's real population qualified for. U.S. Attorney Dominick Gerace said the fraudulently obtained money went toward luxury spending, including a Rolls-Royce for Davenport, a Bentley for Ballew, and a two-year lease on a $30,000-a-month Miami rental property; Davenport was ousted from the school in late 2024, and Dohn Community High School closed permanently in March 2025. Because Ohio's community (charter) schools are funded per-pupil directly from state and federal dollars based on self-reported enrollment, the case underscores why parents, school board members, and state auditors should treat inflated or unverifiable enrollment figures — and vendor contracts awarded without competitive bidding to a superintendent's own business partner — as red flags worth independently checking against the state's own attendance and funding records.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'medium',
+    sources: ['U.S. Attorney\'s Office, Southern District of Ohio', 'FBI Cincinnati', 'WVXU'],
+    sourceUrl: 'https://www.wvxu.org/education/2026-09-03/former-cincinnati-charter-school-superintendent-arrested-by-the-fbi-for-alleged-fraud-scheme',
+    country: 'US',
+    state: 'OH',
+});
