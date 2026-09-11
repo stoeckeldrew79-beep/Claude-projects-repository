@@ -7946,6 +7946,10 @@ NotoriousGM.push(
     slug: 'paul-mcgonigle-annuity-elder-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Middleboro_MA_Town_Hall.jpg?width=1200',
+    coverImageCredit: 'Photo: T.S. Custadio (CC BY-SA 3.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.justice.gov/usao-ma/pr/middleboro-financial-adviser-sentenced-over-four-years-prison-investment-adviser-fraud',
     body: `Paul R. McGonigle worked as a financial adviser out of Middleboro, Massachusetts, serving a client base that included several elderly and otherwise vulnerable people — among them a client with dementia and another who had suffered a traumatic brain injury. Starting no later than February 2015, McGonigle used the access that role gave him to simply take their money: he caused unauthorized withdrawals from their annuities and induced others to hand over funds for him to "invest" on their behalf, which he instead used to cover his own personal and business expenses.
 
