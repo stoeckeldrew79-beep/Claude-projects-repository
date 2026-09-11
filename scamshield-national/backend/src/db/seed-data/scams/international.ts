@@ -13378,3 +13378,16 @@ International.push(
     firstRecorded: '2021-07-01',
   },
 );
+
+International.push(
+  {
+    name: 'New Banknote Resale and Fake Canada Visa Advance-Fee Scheme',
+    slug: 'benin-new-banknote-resale-fake-canada-visa-scheme',
+    description: `Benin's Police Républicaine announced that a suspect identified by the initials Z.D.I. was placed under three separate pretrial detention warrants on July 16, 2026, a day after being presented to the prosecutor at Porto-Novo's tribunal de première instance de première classe. The case, investigated by the Honvié district police station in the commune of Adjarra after several victims filed complaints, centered on two parallel confidence schemes run by the same man. In the first, he told people preparing traditional ceremonies — where crisp, uncirculated banknotes are prized as gifts — that he could obtain new banknotes directly from banks to resell to them, describing it to prospective buyers as a "lucrative operation" with a substantial profit margin; convinced they were making a profitable deal, several victims handed over funds that investigators say totaled roughly 10 million CFA francs. In the second scheme, he told other victims he could facilitate their Canadian visa applications by "moving money through their bank accounts" to satisfy the financial-means requirements consular officers look for, collecting close to 12 million CFA francs from people whose applications were never actually filed. Investigators say none of the promised services in either scheme were ever delivered, and the case also involves charges of forging private documents. Benin's Police Républicaine noted that it regularly investigates cases built on promises of fast money, unofficial migration assistance, and financial transactions conducted outside recognized banking channels, and urged the public to treat any offer of outsized profit on a private cash transaction, or a visa obtained by manipulating a bank account's balance, as a certain sign of fraud rather than a real opportunity.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'high',
+    sources: ['Police Républicaine du Bénin', 'La Nouvelle Tribune'],
+    sourceUrl: 'https://lanouvelletribune.info/2026/07/benin-il-attirait-ses-victimes-en-leur-promettant-des-billets-neufs/',
+    country: 'BJ',
+  },
+);
