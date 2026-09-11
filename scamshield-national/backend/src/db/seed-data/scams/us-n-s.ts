@@ -5803,3 +5803,15 @@ UsNS.push({
     isHistorical: true,
     firstRecorded: '2026-04-01',
 });
+
+UsNS.push({
+    name: 'Nevada Wildfire Unlicensed Contractor and Insurance-Splitting Scam',
+    slug: 'nevada-wildfire-unlicensed-contractor-insurance-scam',
+    description: `After the Bug, Stallion, and Hawk fires burned through the Horizon Hills area near Reno in early September 2026, the Nevada State Contractors Board (NSCB) warned residents that unlicensed contractors were already showing up at fire-damaged homes offering cleanup and rebuilding work. NSCB investigator Fred Schoenfeldt said the operators typically demand payment up front, then either disappear without finishing the job or complete it with poor workmanship, leaving homeowners to pay again for a licensed contractor to redo the work. Schoenfeldt said the callers "will get the money, as much money as they can up front. They won't complete the job or if they work on the job, it is poor workmanship." The Board also flagged a related insurance-fraud variant in which an unlicensed operator offers to bill the homeowner's insurance company an inflated amount for the repair and then split the extra money with the homeowner — a scheme that itself constitutes insurance fraud and can leave the homeowner facing a denied claim or criminal exposure alongside a botched repair. Red flags NSCB urged fire victims to watch for include a contractor who cannot produce a valid Nevada contractor's license (or who has only a general business license), one who insists on full payment before work begins, and one who won't put the job in a written contract. Nevada homeowners are advised to verify any contractor's license status directly through the Nevada State Contractors Board at nvcontractorsboard.com before signing anything or handing over a deposit, and to report suspected unlicensed contracting to the Board rather than paying to make the problem go away.`,
+    categorySlug: 'home-improvement-solar',
+    alertLevel: 'high',
+    sources: ['Nevada State Contractors Board', 'KOLO 8 News Now'],
+    sourceUrl: 'https://www.kolotv.com/2026/09/09/unscrupulous-contractors-expected-appear-after-bug-stallion-hawk-fires/',
+    country: 'US',
+    state: 'NV',
+});
