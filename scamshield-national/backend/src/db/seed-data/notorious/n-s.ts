@@ -4697,7 +4697,10 @@ NotoriousNS.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/usao-sdny/pr/owner-physical-rehabilitation-company-sentenced-38-months-prison-20-million-fraud',
-    // no verified rights-cleared photo found yet — see NotoriousCoverPhotos
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/U.S._District_Court_-_Southern_District_of_New_York_(48129021526).jpg?width=1200',
+    coverImageCredit: 'Photo: Ajay Suresh, CC BY 2.0, via Wikimedia Commons — the Daniel Patrick Moynihan U.S. Courthouse, Southern District of New York, where Sklar was sentenced',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Nosson Sklar, also known as Nathan Sklar, owned and ran a company operating a series of physical rehabilitation facilities around New York City. Between at least January 2020 and July 2024, according to federal prosecutors in the Southern District of New York, Sklar submitted, or had others submit, more than $20 million in claims to health care benefit programs for medical services — asserting in the paperwork that the treatments had been personally rendered by a specific physician affiliated with his company.
 
 That physician, prosecutors said, had done no such thing. He did not perform the billed services, did not work with Sklar's rehabilitation company during the period in question, and had never authorized Sklar to submit claims under his name at all. Sklar billed the insurance programs anyway, using the physician's credentials to make the claims look like legitimate, physician-supervised care rather than services that were never rendered as described or, in many cases, rendered by someone with no license to bill for them. Of the more than $20 million in claims Sklar submitted over the four-year span, health benefit programs actually paid out roughly $12.4 million before investigators uncovered the fraud.
@@ -4714,7 +4717,10 @@ NotoriousNS.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/opa/pr/nurse-practitioner-sentenced-87-months-prison-12m-medicare-fraud',
-    // no verified rights-cleared photo found yet — see NotoriousCoverPhotos
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Hale_Boggs_Federal_Building-Courthouse,_New_Orleans,_Louisiana_LCCN2014630190.tif?width=1200',
+    coverImageCredit: 'Photo: Carol M. Highsmith, public domain, via Wikimedia Commons — the Hale Boggs Federal Building, home of the Eastern District of Louisiana, where Lawson Baker was tried',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Scharmaine Lawson Baker, 59, of Fulshear, Texas, was a licensed nurse practitioner and enrolled Medicare provider who, for about a year, put her signature on medical orders she had no real basis to write. From October 2018 to October 2019, working as an independent contractor for a company that marketed itself as a telehealth provider, Lawson Baker signed off on hundreds of orders for expensive cancer genetic tests after phone calls with patients that prosecutors said typically lasted less than 30 seconds — and often without examining the patient at all.
 
 The genetic tests she ordered were not incidental add-ons to legitimate checkups; in some cases they made no clinical sense whatsoever. Evidence at trial showed Lawson Baker ordering ovarian and cervical cancer screening tests for male patients, a detail prosecutors used to argue she was not exercising medical judgment but simply approving whatever the telehealth company's marketing operation sent her way in exchange for payment. A recorded call played at trial captured a telehealth company phone operator telling her she'd be "rolling in money" for signing the orders, and Lawson Baker responding, "Honey, I am not complaining."

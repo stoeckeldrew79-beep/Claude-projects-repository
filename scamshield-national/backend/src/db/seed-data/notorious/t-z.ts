@@ -2188,3 +2188,20 @@ A federal grand jury indicted Wiener in June 2026 on 29 counts spanning wire fra
 Wiener's case is a reminder that a cluster of investment vehicles sharing a near-identical name and a single principal is a structure regulators see again and again in alleged Ponzi schemes, because it lets an operator shuffle money between entities faster than any one investor, bank, or auditor looking at a single fund can follow — and that an indictment, however detailed, is a set of allegations a jury has not yet tested, not a verdict.`,
   },
 );
+NotoriousTZ.push(
+  {
+    title: 'Timothy Ingram and the Money-Mule Network Behind a Nationwide Grandparent Scam',
+    slug: 'timothy-ingram-grandparent-scam-money-mules',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-sdca/pr/two-men-sentenced-prison-participating-nationwide-grandparent-scam',
+    // no verified rights-cleared photo found yet — see NotoriousCoverPhotos
+    body: `Timothy Ingram, of North Hollywood, California, spent nearly a year as a key logistics operator inside a nationwide "grandparent scam" enterprise that federal prosecutors say stole roughly $2 million from more than 70 elderly victims across the country. From November 2019 through October 2020, the enterprise's callers phoned senior citizens with a familiar, panic-inducing script: a grandchild, or another close relative or friend, was in trouble — arrested, in a car accident, facing new charges — and needed cash immediately, sent through a courier or wired directly, to make the problem go away.
+
+Ingram's role wasn't placing the calls; it was making sure the money actually reached the conspiracy once a frightened victim agreed to pay. According to the U.S. Attorney's Office for the Southern District of California, he ran a network of money mules who conducted in-person cash pickups and received wire transfers from victims who believed they were helping a relative in a real emergency. In one case cited by prosecutors, Ingram personally orchestrated the collection of $42,000 from a 76-year-old Los Angeles County victim. Ten victims in San Diego County alone lost more than $300,000 to the scheme.
+
+A federal indictment charged eight defendants in the racketeering enterprise; six pleaded guilty, including Ingram and a Florida-based co-defendant, Joaquin Lopez, while two others remained at large. Ingram was sentenced in San Diego federal court on August 30, 2022, to nine years in federal prison and ordered to pay $1,932,507.93 in restitution to his victims, along with forfeiture of $124,700 in proceeds he personally received from the scheme; Lopez received a two-year sentence for his own role. "These defendants were crucial members of a sophisticated criminal organization that shamelessly exploited the grandparents' love for their grandchildren," said then-U.S. Attorney Randy Grossman in announcing the sentence.
+
+Grandparent scams endure because they are engineered to short-circuit exactly the kind of verification a victim would normally perform: a claimed emergency, a demand for secrecy, and an artificial deadline are designed to make hanging up and calling another family member feel like an unaffordable risk rather than an obvious precaution. Ingram's case adds a second layer worth remembering — a scam's callers are often only half the operation, and the money mules who show up in person to collect cash or wire transfers are just as central, and just as criminally liable, as the person who made the phone ring in the first place. No legitimate bail, medical bill, or legal fee is ever paid by handing cash to a stranger who arrives at the door or by wiring money to an account with no connection to the courthouse or hospital supposedly involved.`,
+  },
+);
