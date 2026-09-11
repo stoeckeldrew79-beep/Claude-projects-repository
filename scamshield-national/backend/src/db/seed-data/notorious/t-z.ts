@@ -2550,6 +2550,10 @@ NotoriousTZ.push(
     slug: 'terrance-pruitt-bessemer-power-of-attorney-elder-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Jefferson_County_Courthouse_in_Bessemer,_Alabama.JPG?width=1200',
+    coverImageCredit: 'Photo: Rudi Weikard (CC BY-SA 3.0) — the Jefferson County Courthouse in Bessemer, Alabama',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.justice.gov/usao-ndal/pr/bessemer-man-sentenced-more-four-years-prison-his-role-elder-fraud-scheme',
     body: `In September 2023, Terrance Alonzo Pruitt of Bessemer, Alabama executed a power of attorney over an elderly family member who had dementia — without the victim's knowledge or permission. Unlike the strangers who dominate most elder-fraud headlines, Pruitt didn't need to build trust with a fake persona or talk his way past a bank's security questions. He already had access to his relative's life; the fraud was in the paperwork he used to formalize control she never agreed to give him.
 
@@ -2567,6 +2571,10 @@ NotoriousTZ.push(
     slug: 'theresa-szwast-niss-nonprofit-embezzlement',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Skyline_Indianapolis_at_night.jpg?width=1200',
+    coverImageCredit: 'Photo: Jimmy Baikovicius (CC BY-SA 2.0) — Indianapolis, where the nonprofit Szwast embezzled from was based and where she was sentenced',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.justice.gov/usao-sdin/pr/former-nonprofit-ceo-heads-federal-prison-33-months-2-million-embezzlement-scheme',
     body: `Theresa Szwast, of Fishers, Indiana, spent from 2005 to 2022 as chief executive of the National Independent Statistical Service (NISS), an Indianapolis-based nonprofit — a run long enough, and a position trusted enough, that she was left effectively unsupervised over the organization's banking and accounting the entire time.
 
