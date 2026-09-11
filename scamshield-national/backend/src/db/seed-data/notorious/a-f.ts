@@ -6023,6 +6023,10 @@ ASD was one of the largest "autosurf" Ponzi schemes of the 2000s internet-Ponzi 
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/usao-sc/pr/charleston-county-man-sentenced-5-years-federal-prison-wire-fraud',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Charleston_County_Courthouse_2013.jpg?width=1200',
+    coverImageCredit: 'Photo: ProfReader, Wikimedia Commons (CC BY-SA 3.0) — Charleston, South Carolina, where Amir Golestan ran the Micfo IPv4 fraud',
+    coverImagePosition: 50,
     body: `Every device connected to the internet needs an IPv4 address, and the global supply of them ran out years ago — the nonprofit that allocates addresses in the U.S., Canada, and parts of the Caribbean, the American Registry for Internet Numbers (ARIN), stopped having new blocks to hand out around 2015. That scarcity turned old, already-allocated address blocks into a genuinely valuable commodity, reselling for $15 to $25 apiece on a legitimate secondary market. It also created an opening for fraud, and Amir Golestan, founder and CEO of the Charleston, South Carolina tech company Micfo LLC, built a scheme to exploit it.
 
 ARIN's rules limit how many IP addresses a single organization can acquire, so Golestan's scheme, prosecutors said, was to make it look like many small, unrelated organizations were each requesting a modest, rule-compliant allocation. He set up a network of shell companies with fabricated identities, backed by notarized affidavits sworn in the names of people who did not exist, and used them to submit dozens of separate requests to ARIN — concealing that every one of those "customers" was really Micfo, and that all of the addresses were headed to the same buyer. ARIN itself uncovered the pattern and filed a civil suit against Golestan and Micfo in 2018.
