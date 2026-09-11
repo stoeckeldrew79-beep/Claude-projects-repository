@@ -8185,3 +8185,20 @@ There was never a secret Federal Reserve trust fund waiting to be unlocked — o
     sourceUrl: 'https://www.justice.gov/usao-edtn/pr/federal-jury-convicts-knoxville-man-and-former-washington-state-prosecutor-turned',
   },
 );
+
+NotoriousGM.push(
+  {
+    title: 'Luke Servas and the Elected Official Who Emptied His Own Tiny Town\'s Bank Accounts',
+    slug: 'luke-servas-cusick-washington-town-clerk-embezzlement',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    body: `Cusick, Washington, is a town of a few hundred people in rural Pend Oreille County, the kind of small municipality where the same handful of residents fill most of the elected and administrative roles. Luke Michael Servas filled two of them at once: from October 2022 to March 2023, he served simultaneously as the town's clerk, with direct control over its finances and accounts, and as an elected member of the town council that was supposed to oversee that same spending.
+
+Servas used that dual position to move town money into his own life. Using both the town's credit card and one issued to the mayor, he transferred funds into accounts belonging to himself and his spouse, and into a cryptocurrency account, ultimately embezzling more than $277,000 from a town with a correspondingly tiny annual budget. When town officials noticed the missing money and started asking questions, Servas didn't confess — he filed a false report with the Pend Oreille County Sheriff's Office claiming it was the elected mayor, Duane Schofield, who had misused the card. Prosecutors later said Servas also attempted to delete the town's computer systems, both to cover his tracks and to try to misappropriate still more money in the process.
+
+A federal grand jury indicted Servas in March 2024 on more than 75 counts of fraud and theft. He pleaded guilty that August to a single count of bank fraud, with the remaining charges dismissed as part of the plea agreement. In December 2024, a federal judge in the Eastern District of Washington sentenced him to 51 months in prison — denying his attorney's request to go below the 51-to-63-month guideline range — along with five years of supervised release and restitution of $282,208.18. U.S. Attorney Vanessa Waldref said Servas "used his elected position of trust to financially devastate a small community."
+
+Cusick's case is a reminder that the safeguards meant to catch this kind of theft — an elected council overseeing a paid clerk — depend on those roles actually being held by different people with different interests. When one person occupies both the office that spends the money and the office that is supposed to watch how it's spent, a town with only a few hundred residents and a correspondingly small budget can have hundreds of thousands of dollars disappear before anyone outside city hall notices.`,
+    sourceUrl: 'https://www.justice.gov/usao-edwa/pr/former-washington-town-clerk-and-town-council-member-sentenced-stealing-more-277000',
+  },
+);
