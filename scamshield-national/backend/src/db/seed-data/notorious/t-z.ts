@@ -2134,7 +2134,10 @@ NotoriousTZ.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/archives/opa/pr/doctor-sentenced-70m-medicare-fraud-scheme',
-    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Gillespie_County_Courthouse_(2018),_Fredericksburg,_TX.jpg?width=1200',
+    coverImageCredit: 'Photo: 25or6to4, CC BY-SA 4.0, via Wikimedia Commons — the Gillespie County Courthouse in Fredericksburg, Texas, where Young practiced',
+    coverImagePosition: 50,
+    // representative photo — Fredericksburg, TX, not a portrait; replace with a portrait if found
     body: `Dr. David M. Young was a licensed physician in Fredericksburg, Texas, when he became the prescribing signature behind one of the larger durable-medical-equipment and genetic-testing fraud schemes the Justice Department has prosecuted. Young's role in the scheme wasn't running a call center or a supply company — it was simpler than that: telemarketing networks fed him beneficiaries' information, and he signed off on orders for orthotic braces and cancer genetic tests for patients he had never examined, diagnosed, or, in many cases, so much as spoken with.
 
 According to prosecutors, Young signed prescriptions and medical records falsely stating that he had evaluated each patient, diagnosed a qualifying condition, developed a plan of care, and determined the equipment or testing was medically necessary — none of which had actually happened for the more than 13,000 Medicare beneficiaries whose paperwork carried his signature, a group that also included undercover agents posing as beneficiaries during the investigation. Brace-supply companies and testing laboratories then used those signed orders to bill Medicare directly, submitting more than $70 million in claims for equipment and tests that Young's own conduct had never actually validated. Young himself was paid roughly $475,000 for the prescriptions and paperwork — a small fraction of the total amount fraudulently billed, reflecting how this kind of telemarketing-driven scheme spreads the proceeds of a single doctor's signature across a whole network of equipment suppliers and labs downstream of him.
