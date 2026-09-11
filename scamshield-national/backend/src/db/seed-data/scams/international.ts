@@ -13935,3 +13935,16 @@ International.push(
     country: 'LS',
   },
 );
+
+International.push(
+  {
+    name: 'Lesotho Vodacom Impersonation Fake Discounted Phone Scam',
+    slug: 'lesotho-vodacom-impersonation-fake-discounted-phone-scam',
+    description: `Vodacom Lesotho issued a public warning on May 2, 2025 about fraudsters impersonating company staff on Facebook and other social media to sell mobile phones at steeply discounted prices through a supposed "backdoor" deal unavailable through official channels. The scammers create profiles and posts designed to look like they come from Vodacom or its authorized dealers, advertise the latest handsets at prices well below anything the network genuinely offers, and instruct interested buyers to pay upfront via M-Pesa, Vodacom's own mobile money service, to secure the "deal." Once the payment clears, the scammer stops responding and the profile used to run the scam typically disappears; victims only learn the transaction was fraudulent when they visit an official Vodacom store to collect their phone and staff find no record of any such order or promotion. The company said more than 20 people had already been defrauded this way, some losing substantial sums, and stressed that all of its genuine promotions are announced exclusively through its verified official social media pages, customer care channels, and in-store notices — never through unsolicited private messages or posts offering phones at prices "too good to be true." Vodacom Lesotho urged the public to buy only from official Vodacom stores or authorized dealers, to verify any advertised promotion directly with the company before paying, to never send M-Pesa payments to individuals they cannot verify, and to report suspicious posts or profiles to Vodacom or the police.`,
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'medium',
+    sources: ['Vodacom Lesotho', 'Lesotho NewsDesk'],
+    sourceUrl: 'https://lesotho.co.ls/2025/05/vodacom-lesotho-warns-public-against-rising-phone-scam-targeting-customers-online/',
+    country: 'LS',
+  },
+);
