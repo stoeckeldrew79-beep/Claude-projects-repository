@@ -10416,6 +10416,26 @@ International.push(
     sourceUrl: 'https://centralpress.pt/page/145228/redacao/2026/07/15/esquemas-de-investimento-no-whatsapp-alastram-em-angola-e-exploram-o-desespero-financeiro-de-milhares-de-pessoas',
     country: 'AO',
   },
+  {
+    name: 'Fake Interpol/UN Phishing and Extortion Email Scam',
+    slug: 'angola-fake-interpol-un-phishing-extortion-email-scam',
+    description: `Angola's Serviço de Investigação Criminal (SIC) issued a public alert on October 14, 2022 warning citizens about fraudulent emails circulating under the Interpol and United Nations names, falsely notifying recipients that they faced criminal charges or a court summons and pressing them to click an embedded link or open an attachment to deal with the supposed case. SIC classified the messages as a "tentativa de burla e extorsão online" (attempted online fraud and extortion) built on ordinary phishing tactics aimed at harvesting bank passwords and personal data by dressing up the request in the borrowed authority of international law enforcement. The agency was direct about why the premise itself was false: "a INTERPOL, enquanto Organização Internacional de Polícia Criminal, não notifica nenhum cidadão nacional ou estrangeiro residente em Angola de forma directa" (INTERPOL, as an International Criminal Police Organization, does not directly notify any national or foreign citizen residing in Angola) — any genuine notification would instead have to pass through Angola's own National Interpol Office (Gabinete Nacional da Interpol de Angola), which sits under SIC's Directorate-General, and would require an actual case already registered with both the Attorney General's Office and SIC, with any resulting summons signed by that office's director. SIC's guidance to anyone who received one of these emails was to disregard its instructions entirely, avoid clicking any link or opening any attachment, never reply to the sender, and block the address immediately, since every claim of Interpol or UN involvement arriving this way was fabricated.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Serviço de Investigação Criminal de Angola (SIC)', 'Angola24Horas'],
+    sourceUrl: 'https://sic.gov.ao/sic-alerta-tentativa-de-burla-e-extorsao-online-com-mensagens-falsas-e-uso-de-simbolos-da-interpol/',
+    country: 'AO',
+  },
+  {
+    name: 'Fake Prize, Bank, and Tax-Authority Phishing Messages Targeting Multicaixa Express Users',
+    slug: 'angola-multicaixa-express-phishing-messages-scam',
+    description: `EMIS (Empresa Interbancária de Serviços), the company that operates Angola's Multicaixa and Multicaixa Express payment network, issued a public fraud alert reported on May 7, 2022 after tracking a rise in increasingly elaborate phishing messages sent to cardholders and mobile-payment users. According to EMIS executive administrator Joaquim Caniço, the volume of fraudulent messages was climbing even though total fraud cases were not, because scammers kept refining their pretexts: some messages falsely announce that the recipient has won a prize and ask for personal data to "process" the transfer; others are forged to look like they were sent by the customer's own bank, asking them to "update" their account data; still others impersonate public entities such as the tax authority AGT, claiming an erroneous credit was made to the victim's account and requesting reimbursement details to "correct" it. Caniço stressed that "as pessoas têm que saber que a EMIS nunca telefona nem envia mensagens" (people need to know that EMIS never phones or sends messages to customers) asking for card data, passwords, or codes, and warned that the same techniques increasingly arrive disguised as messages from friends or family members whose own accounts or phones had already been compromised — "é importante dizer que muitas vezes os burladores são pessoas próximas, familiares, amigos" (it's important to say that the fraudsters are often people close to the victim, relatives, friends). EMIS's guidance was to never share personal data or access codes with anyone under any of these pretexts, to ignore and not open suspicious prize, bank, or government-agency messages, and to change access codes immediately if they were ever disclosed.`,
+    categorySlug: 'phishing',
+    alertLevel: 'medium',
+    sources: ['EMIS (Empresa Interbancária de Serviços)', 'Expansão'],
+    sourceUrl: 'https://expansao.co.ao/empresas/detalhe/emis-lanca-alerta-sobre-casos-de-burlas-no-multicaixa-express-58586.html',
+    country: 'AO',
+  },
 );
 
 International.push(
