@@ -5282,6 +5282,10 @@ NotoriousNS.push(
     slug: 'phillipe-gravel-nadon-grandparent-scam',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Person_looking_at_smartphone_in_the_dark_(2).jpg?width=1200',
+    coverImageCredit: 'Photo: Japanexperterna.se (CC BY-SA 2.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.secretservice.gov/newsroom/releases/2025/06/canadian-man-sixth-and-final-defendant-sentenced-grandparent-scam',
     body: `From August 2020 to May 2021, a call-center-based "grandparent scam" conspiracy phoned elderly victims in Kentucky and across the United States, telling them a grandchild had just been in a car accident and was being held on bail — and then sent local couriers to collect cash directly from the victims' homes. The U.S. Attorney's Office for the Western District of Kentucky, working with IRS Criminal Investigation and the U.S. Secret Service, said the scheme reached hundreds of victims nationwide and cost them more than $3 million, with proceeds later moved through banks and cryptocurrency exchanges to obscure where the money had gone.
 

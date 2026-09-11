@@ -7630,3 +7630,54 @@ New York State Police's Financial Crimes Unit and the Attorney General's Office 
 The case shows how a power of attorney, a document meant to help someone who can no longer manage their own affairs, can instead become the mechanism that empties their accounts once it's handed to the wrong person — and how naming a successor power of attorney can extend that risk to a second person even before the first one is finished acting. Adult children and other relatives of elderly people who grant this kind of authority to a neighbor or new acquaintance are often the ones best positioned to ask for regular, independent statements showing where the money is actually going.`,
   },
 );
+
+NotoriousAF.push(
+  {
+    title: 'Dean Dellas: The Cazenovia Advisor Who Kept Advising After His License Lapsed',
+    slug: 'dean-dellas-cazenovia-investment-advisor-elder-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-ndny/pr/cazenovia-man-sentenced-70-months-wire-fraud-and-aggravated-identity-theft',
+    body: `Dean Dellas spent more than a decade building a legitimate resume in finance: a broker at Merrill Lynch's Syracuse office from 2008 to September 2013, then a dually registered investment advisor and broker at Pinnacle Investments until February 2021. That history was real, and it was exactly the kind of background that made clients comfortable following him when he struck out on his own, forming DSD Capital Management in Cazenovia, New York, just outside Syracuse. What his clients didn't know was that neither Dellas nor DSD Capital was actually registered as an investment advisor or broker at any point after he left Pinnacle — he kept managing money and collecting fees as though the registration had simply carried over.
+
+Among the clients who trusted him with their entire life savings were a 61-year-old man and his 91-year-old mother, according to the U.S. Attorney's Office for the Northern District of New York and a parallel civil complaint from the Commodity Futures Trading Commission. From at least February 2021 through November 2023, prosecutors say Dellas fraudulently induced the pair to sign paperwork authorizing advisory fees far above what they'd actually agreed to, and separately induced them to sign documents granting him trading and withdrawal authority over their accounts. He entered tens of thousands of futures transactions without disclosing the risk involved, concealed the resulting losses by telling his clients their accounts were doing well, and secretly transferred large sums to himself under the cover of "fees." When dealing with the futures commission merchants who held the accounts, he went a step further and impersonated his own clients rather than let them see what he was doing.
+
+The CFTC's civil complaint, filed in May 2025, put the combined misappropriation and concealed losses at more than $690,000. Dellas was separately indicted criminally and pleaded guilty to wire fraud and aggravated identity theft — the identity theft charge tied directly to his impersonation of the clients whose money he was taking. On August 26, 2025, Chief U.S. District Judge Brenda K. Sannes sentenced him to 70 months in federal prison, followed by two years of supervised release, and ordered him to pay $686,797 in restitution.
+
+Dellas's case is a reminder that a real professional history doesn't guarantee a current one: clients who followed him from Merrill Lynch to Pinnacle to DSD Capital never independently confirmed that his registration had followed him too. A financial advisor's current status — not their résumé — can be checked for free in minutes through FINRA's BrokerCheck or the SEC's Investment Adviser Public Disclosure database, and doing so before signing over trading authority would have shown that the man who once worked at a household-name brokerage was, by the time he was managing their life savings, not registered to manage anyone's money at all.`,
+  },
+);
+
+NotoriousAF.push(
+  {
+    title: 'Badetito Obafemi and the Romance Scam Money Trail Through Three States',
+    slug: 'badetito-obafemi-romance-scam-money-laundering',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-wdmo/pr/georgia-man-sentenced-300000-romance-fraud-scheme',
+    body: `In May 2016, a woman in Taney County, Missouri, was contacted on Facebook by a man calling himself "Kevin Condon." Over the following months he built what felt like a real relationship with her, then began asking for money — first around $27,400 for an "overseas business project" and medical expenses, and later an attempt to get her to send an additional $40,000. She was one of victims in Missouri, Minnesota, and New Jersey targeted by the same scheme between June 2016 and March 2018, all of them contacted online, drawn into a fabricated romance, and asked for money under a rotating set of pretexts: business ventures, medical emergencies, travel costs.
+
+Badetito Obafemi, of Georgia, wasn't necessarily the voice on the other end of those conversations — according to the U.S. Attorney's Office for the Western District of Missouri, his role was moving the money once it arrived. Prosecutors say he operated two Georgia business accounts, registered under the names EasyTickets, LLC and Goeeasy Logistics, LLC, that existed to receive wire transfers from victims and route the funds onward. He conspired with the people actually running the fake relationships, coordinating bank account details, the timing of transfers, and the movement of money between accounts — the money-laundering infrastructure that let a Facebook conversation turn into cash the scammers could actually use.
+
+Obafemi pleaded guilty on April 18, 2024, to one count of conspiracy to commit money laundering. On April 9, 2025, Chief U.S. District Judge Beth Phillips sentenced him to two years in federal prison, with no eligibility for parole, followed by three years of supervised release, and ordered him to pay $311,520 in restitution to victims across the three states.
+
+The business names Obafemi used weren't incidental. A wire transfer to "EasyTickets, LLC" or "Goeeasy Logistics, LLC" looks, on a bank statement, like a payment to an ordinary company — exactly the impression a victim sending money to someone they've never met in person needs to not have. Romance scams are often described as a single con between two people, but cases like this one show the more common structure: one set of people builds the fake relationship, and a separate set, often in a different state entirely, exists solely to receive the money and make it disappear into legitimate-looking accounts before the victim's bank or family can trace it.`,
+  },
+);
+
+NotoriousAF.push(
+  {
+    title: 'Edward Stief and the Lawn Service That Became a Power of Attorney Scheme',
+    slug: 'edward-stief-effingham-power-of-attorney-elder-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-sdil/pr/effingham-county-man-sentenced-12-years-federal-prison-financially-exploiting-elder',
+    body: `Edward L. Stief Jr. met his victim, an 89-year-old man in Effingham County, Illinois, in May 2023, while offering him lawn care and landscaping services. It was an ordinary service relationship, the kind an older homeowner might have with any number of local contractors — and according to the U.S. Attorney's Office for the Southern District of Illinois, Stief used it to gain the man's confidence and, through a series of misrepresentations, get himself named both Financial and Healthcare Power of Attorney. That gave him signatory authority over the victim's bank accounts.
+
+By August 2023, Stief had talked the victim into cashing out his life insurance policies, then deposited most of the proceeds into his own personal accounts rather than the victim's. Over the months that followed, prosecutors say, Stief spent the older man's savings on himself and took possession of the victim's personal valuables outright — a gold coin collection, gold necklaces, guns, and watches. In October 2023, he went further still, persuading the victim to leave the nursing home where he'd been living so Stief could provide his care personally. Once the victim was out of professional care and living with him, prosecutors say his medical needs went unmet; the isolation that let Stief keep control of the money also cut off the oversight that a nursing home, however imperfect, had been providing.
+
+Stief pleaded guilty to one count each of wire fraud, mail fraud, and unlawful monetary transactions in criminally derived property, admitting to exploiting the victim out of more than $400,000. On December 18, 2025, a federal judge sentenced him to 12 years in federal prison and ordered him to pay $411,773.51 in restitution. "Not only did Stief manipulate his victim into cashing life insurance policies and draining his bank accounts, but he also convinced the man to leave the care of a nursing home," U.S. Attorney Steven Weinhoeft said. "This 12-year prison sentence sends a clear message that we will protect vulnerable populations against predators who would prey upon them." The FBI's Springfield Field Office and the Effingham Police Department investigated the case.
+
+What makes Stief's case more dangerous than a typical power-of-attorney scam is the second layer he added on top of the first: not just taking control of the money, but engineering the victim's removal from the one institution — the nursing home — where staff would have noticed his declining condition and asked questions. Financial exploitation and physical neglect of an elderly person often travel together for exactly this reason; anyone who sees a new acquaintance push an older relative or neighbor to leave supervised care at the same time they're taking on financial authority over that person has reason to treat both moves as one red flag, not two separate decisions.`,
+  },
+);
