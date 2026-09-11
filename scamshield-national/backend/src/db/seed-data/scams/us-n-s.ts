@@ -5440,3 +5440,17 @@ UsNS.push({
     isHistorical: true,
     firstRecorded: '2022-10-25',
 });
+
+UsNS.push({
+    name: 'Lake Holdings "Domain Directory" Deceptive Invoice Scheme (North Dakota)',
+    slug: 'north-dakota-lake-holdings-domain-directory-deceptive-invoice-scheme',
+    description: `Lake Holdings, LLC, doing business under the names Domain Networks, North Dakota Domain Directory, and My Safe Domain, mailed North Dakota small businesses, churches, and nonprofit organizations solicitations formatted to look like official invoices for domain-registration or website-directory-listing services the recipients had never ordered. The mailers used formal billing language, itemized charges, and firm payment deadlines to create the impression that money was owed for a service already rendered, banking on the fact that a busy office manager, church volunteer, or nonprofit staffer processing routine bills might pay without noticing the notice wasn't a real invoice at all. North Dakota Attorney General Drew H. Wrigley's office investigated the mailings as a violation of the state's Consumer Fraud Law and announced a settlement with Lake Holdings on February 11, 2026, in which the company agreed to pay $19,650 in civil penalties, notify every North Dakota entity that paid in response to the mailers since March 2022 of its right to a full refund within 30 days, and rework its mailers going forward so they no longer resemble legitimate invoices. "These entities should not be subjected to deceptive marketing practices that abuse their trust or exploit their limited resources or staff turnover," Wrigley's office said in announcing the resolution, which the company entered into without admitting wrongdoing. Any organization that receives a mailed "invoice" for a domain, directory-listing, or similar service should check it against records of services actually ordered before paying, watch for red flags like a due-immediately deadline or a listed entity name that doesn't match the vendor the business actually uses, and can report a suspected deceptive invoice to the North Dakota Attorney General's Consumer Protection and Antitrust Division at 701-328-3404.`,
+    categorySlug: 'business-email-compromise',
+    alertLevel: 'medium',
+    sources: ["North Dakota Attorney General's Office (Drew H. Wrigley)"],
+    sourceUrl: 'https://attorneygeneral.nd.gov/attorney-general-wrigley-announces-settlement-with-company-behind-deceptive-invoice-solicitations/',
+    country: 'US',
+    state: 'ND',
+    isHistorical: true,
+    firstRecorded: '2022-03-01',
+});
