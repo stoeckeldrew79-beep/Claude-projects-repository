@@ -5426,3 +5426,17 @@ UsGM.push({
     country: 'US',
     state: 'MD',
 });
+
+UsGM.push({
+    name: 'MN Fundraising Initiative Sham Charity Stadium Concessions Scheme',
+    slug: 'minnesota-mn-fundraising-initiative-sham-charity-concessions-scheme',
+    description: `MN Fundraising Initiative (MNFI), a Blaine, Minnesota nonprofit, presented itself to the public as a charity that helped families cover the cost of school, sports, and other extracurricular activities, but Minnesota Attorney General Keith Ellison's office alleges it actually operated as an unlicensed staffing agency, supplying hundreds of workers to staff concession stands at major Twin Cities venues — including Target Field, Target Center, US Bank Stadium, Allianz Field, Grand Casino Arena, and several University of Minnesota facilities — for for-profit concessionaires such as Minnesota Sportservice, Levy Premium Foodservice, and Aramark. Rather than paying these workers wages as employees, MNFI classified them as "volunteers" and instead issued them "grants" calculated by the hour or as a share of concession sales, a structure Ellison's office says let the arrangement dodge minimum-wage, overtime, and other employment-law protections while still functioning, in substance, as ordinary paid labor. The nonprofit took in roughly $3.47 million in revenue from the for-profit vendors' "donations," and investigators found more than $1.1 million of the resulting "grants" went to current or former MNFI board members themselves, including one former board member who alone received over $237,000 tied to concession work. Ellison announced a settlement on July 29, 2026 requiring MNFI to dissolve and wind down entirely; the organization has since voted to file for Chapter 7 bankruptcy. "Charities can't do an end-run around employment law by abusing their nonprofit status to save on labor costs," Ellison said in announcing the settlement. Donors and workers alike should be wary of a "charity" that pays participants through informal, hours-based "grants" rather than ordinary wages or an actual needs-based award process, since that structure can be a sign an operation is using nonprofit status to disguise what is really a for-profit labor arrangement — and anyone unsure whether an organization collecting donations or recruiting volunteers is a legitimate, registered charity can check its status through the Minnesota Attorney General's Charities Division before giving money or time.`,
+    categorySlug: 'charity-scams',
+    alertLevel: 'medium',
+    sources: ["Minnesota Attorney General's Office (Keith Ellison)", 'MPR News', 'KARE 11'],
+    sourceUrl: 'https://www.ag.state.mn.us/Office/Communications/2026/07/29_MNFI.asp',
+    country: 'US',
+    state: 'MN',
+    isHistorical: true,
+    firstRecorded: '2026-07-29',
+});

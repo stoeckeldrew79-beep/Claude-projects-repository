@@ -13188,3 +13188,31 @@ International.push(
     firstRecorded: '2020-08-10',
   },
 );
+
+International.push(
+  {
+    name: 'Kiribati Invoice and Business Email Compromise Fraud',
+    slug: 'kiribati-invoice-business-email-compromise-fraud',
+    description: `ANZ Bank, the main commercial bank operating in Kiribati, published a dedicated fraud-prevention advisory for its Kiribati customers warning that fraudsters are targeting local businesses and their customers with invoice scams and business email compromise. In the pattern the bank describes, a business either receives a fake invoice for a product or service it never ordered or received, or has its own email account hacked so that outgoing invoices are altered mid-stream to list a different, fraudster-controlled bank account for payment — meaning a legitimate customer paying a real, expected invoice can still end up sending funds straight to a scammer. The same advisory flags a related fake-employment scheme working the opposite side of a transaction: fraudsters pose as legitimate employers advertising a high wage or an easy, guaranteed path to fast money for little effort, using the promise of a real job to extract fees or personal and banking details from job seekers before disappearing. ANZ's guidance for i-Kiribati businesses and account holders is to verify any invoice or request to change payment details by phone, using a number obtained independently rather than one listed in the email itself, to be suspicious of any job offer that demands payment or unusual personal information up front, and to contact the bank immediately if a payment has already been sent to a suspicious account so it can attempt to intervene before the funds are moved again.`,
+    categorySlug: 'business-email-compromise',
+    alertLevel: 'medium',
+    sources: ['ANZ Bank Kiribati'],
+    sourceUrl: 'https://www.anz.com/kiribati/en/personal/ways-bank/protect-banking/types-of-scams-and-fraud/',
+    country: 'KI',
+  },
+);
+
+International.push(
+  {
+    name: 'Kiribati Fake Investment Scheme Warning to Elders',
+    slug: 'kiribati-fake-investment-scheme-elder-warning',
+    description: `Speaking at the Pacific Peace and Security Dialogue in June 2026, Kiribati's Minister for Women, Youth, Sport and Social Affairs, Ruth Cross-Kwansing, warned that online fraud has become a regional security issue reaching directly into i-Kiribati households, singling out older residents as a target: "Our elders are also quite vulnerable," she said, pointing to "fake investment schemes and other online deceptions" that "drain savings and undermine trust" within families and communities. Cross-Kwansing framed the threat as a byproduct of Kiribati's own geography — a nation spread across 21 inhabited islands over roughly 3.5 million square kilometres of ocean, where "information that can spread across social media is faster than any government vehicle" that could respond to it — meaning a convincing investment pitch can reach isolated island communities well before any warning from Tarawa does. Her remarks, delivered as part of a wider address on the human-security dimensions of the Pacific's Boe Declaration and Blue Pacific 2050 strategy, tied fake investment schemes into a broader pattern of online manipulation the minister said is also driving youth mental health harm and validating gender-based violence across the region. The warning reflects a wider United Nations Office on Drugs and Crime assessment, also issued in 2026, that scam operators displaced from crackdowns in Southeast Asia are increasingly looking to small Pacific Island states with weaker regulation and enforcement capacity as new territory, making unsolicited investment offers reaching Kiribati's elders and other residents worth treating with particular suspicion regardless of how official or lucrative they appear.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'medium',
+    sources: ['Islands Business', 'Pacific Islands News Association (PINA)'],
+    sourceUrl: 'https://islandsbusiness.com/news-break/kiribati-minister-warns-online-misinformation-distorts-pacific-youths-reality/',
+    country: 'KI',
+    isHistorical: true,
+    firstRecorded: '2026-06-17',
+  },
+);
