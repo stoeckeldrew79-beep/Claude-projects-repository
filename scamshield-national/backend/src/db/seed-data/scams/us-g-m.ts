@@ -6088,3 +6088,17 @@ UsGM.push({
     sourceUrl: 'https://www.bbb.org/article/news-releases/24032-bbb-scam-alert-students-hire-homework-help-and-end-up-in-extortion-con',
     country: 'US',
 });
+
+UsGM.push({
+    name: 'Miami Fine Art Gallery Forged Warhol Authentication Scheme',
+    slug: 'miami-fine-art-gallery-forged-warhol-authentication-scheme',
+    description: `Leslie Roberts, the owner of Miami Fine Art Gallery on Commodore Plaza in Coconut Grove, Florida, sold buyers artwork he represented as genuine Andy Warhol pieces, backing up the claim with fabricated invoices stating he had purchased the works directly from the Andy Warhol Foundation for the Visual Arts and with in-person "authentication" visits staged to look like an independent expert review. According to a federal factual proffer, Roberts paid Carlos Miguel Rodriguez Melendez $5,500 to pose as an employee of a New York auction house, printing him business cards reading "Warhol Art Appraisal Authenticator"; Rodriguez and a colleague would visit a buyer's home dressed in black outfits and white gloves, inspect the piece with theatrical care, and falsely certify it as an authentic Warhol, even though — as the proffer states — "Rodriguez was never employed by" the auction house Roberts had invented the connection to. One family, the Perlmans, sued Roberts in Miami-Dade County in August 2024 alleging they paid $6 million for a forged Warhol after he posed as a Warhol Foundation representative; the FBI raided Miami Fine Art Gallery on April 9, 2025 and arrested Roberts and Rodriguez on federal wire fraud conspiracy and money-laundering charges, with prosecutors also documenting $240,000 in transfers from the gallery's account to Roberts' personal account. Rodriguez pleaded guilty in June 2025 and was sentenced in September 2025 to one year of probation and $5,000 in restitution; Roberts, who remained free on a $250,000 bond while his own case proceeded, has denied wrongdoing through his attorney. It was not Roberts' first brush with art fraud — he served time in the 1980s for looting a relative's stock portfolio, was permanently enjoined in 2010 after selling fake work by artist Romero Britto, and was convicted again in 2015 for selling forged paintings by Peter Max — a pattern that shows a dealer's polished reputation, gallery storefront, and claimed industry pedigree are no substitute for independent verification. Buyers of high-value art or collectibles should confirm authenticity directly with the artist's foundation or estate using contact information they look up themselves, insist on independent authentication from a source they select rather than one the seller provides or arranges, and treat a dealer's own invoice, stamp, or in-house "authenticator" as no proof at all.`,
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'medium',
+    sources: ['U.S. Attorney\'s Office, Southern District of Florida', 'Miami New Times'],
+    sourceUrl: 'https://www.justice.gov/usao-sdfl/pr/coconut-grove-fine-art-dealer-indicted-federal-case-charged-wire-fraud-conspiracy-and',
+    country: 'US',
+    state: 'FL',
+    isHistorical: true,
+    firstRecorded: '2025-04-09',
+});
