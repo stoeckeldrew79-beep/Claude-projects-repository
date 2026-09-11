@@ -5072,6 +5072,10 @@ Courtenay House's mechanics were unremarkable by Ponzi-scheme standards — fabr
     slug: 'goodman-goqo-ingede-mineral-holdings-ponzi-scheme',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Durban_City_Centre_(201291238).jpg?width=1200',
+    coverImageCredit: 'Photo: Chris Bloom, Wikimedia Commons (CC BY-SA 2.0) — Durban, South Africa, near where Goqo ran the Ingede scheme',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     sourceUrl: 'https://www.timeslive.co.za/news/south-africa/2025-09-26-ponzi-mastermind-goodman-goqo-sentenced-for-conning-thousands-out-of-r75m--15-years-later/',
     body: `Between 2009 and 2010, Nsikayomuzi Goodman Goqo ran an investment company called Ingede Mineral Holdings out of an office on Crooked Lane in Hillcrest, a suburb of Durban in South Africa's KwaZulu-Natal province. Goqo, an alumnus of the elite Michaelhouse boarding school, told prospective investors he was placing their money on the stock exchange and offering a guaranteed return of 30 percent every month for six months running — a rate that would have multiplied an investment several times over in half a year, and one no legitimate stock-market strategy could reliably deliver.
 
