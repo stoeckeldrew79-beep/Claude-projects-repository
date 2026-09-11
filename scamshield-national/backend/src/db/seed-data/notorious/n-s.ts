@@ -5634,3 +5634,20 @@ The case is a reminder that tribal government revenue offices handling contracto
     sourceUrl: 'https://www.justice.gov/usao-sd/pr/porcupine-man-sentenced-more-6-years-federal-prison-wire-fraud-and-money-laundering',
   },
 );
+
+NotoriousNS.push(
+  {
+    title: "Shawn Edward Good and the Morgan Stanley Advisor Ponzi Scheme",
+    slug: 'shawn-good-morgan-stanley-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    body: `Shawn Edward Good spent a decade as a registered representative and investment advisor for Morgan Stanley Smith Barney in Wilmington, North Carolina — a position that put him in direct contact with business clients looking for somewhere to park money. From 2012 to February 2022, according to federal prosecutors, Good used that access to run a Ponzi scheme built around investments that never existed as described: purported real estate projects and tax-free municipal bonds, pitched as low-risk opportunities paying returns of 6 to 10 percent over three- or six-month terms.
+
+The mechanics prosecutors described went beyond simply pocketing new deposits. Good is accused of using liquid asset lines of credit secured against clients' own investment and retirement accounts — a legitimate lending tool at Morgan Stanley — to generate cash that he then diverted into personal bank accounts, effectively borrowing against victims' real holdings to fund payouts and personal spending without their knowledge. In total, the scheme took in more than $7.2 million from at least a dozen clients before it collapsed.
+
+Good pleaded guilty to wire fraud and money laundering on September 15, 2022. On May 24, 2023, he was sentenced in federal court in the Eastern District of North Carolina to 87 months in prison, followed by three years of supervised release, and ordered to pay $3,619,594 in restitution to his victims. "This investment advisor was a financial predator who used his position of trust to run a decade-long Ponzi scheme," said then-U.S. Attorney Michael Easley in announcing the sentence.
+
+Good's case is part of a recurring pattern in advisor fraud: the institution's name on the business card — a major, recognizable brokerage — does a lot of the persuading on its own, letting an advisor's personal misconduct hide behind a firm's reputation for years. Clients who received liquid-asset-line paperwork or account statements that seemed unusual had no easy way to know their advisor, not some outside fraudster, was the one moving the money.`,
+    sourceUrl: 'https://www.justice.gov/usao-ednc/pr/former-morgan-stanley-financial-advisor-sentenced-over-7-years-prison-executing',
+  },
+);
