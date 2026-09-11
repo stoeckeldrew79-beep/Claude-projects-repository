@@ -5165,6 +5165,10 @@ What made the case unusual was how the company handled customers who complained.
 The FTC sued Cooper, World Patent Marketing, and an affiliated entity, Desa Industries Inc., in March 2017, winning a temporary restraining order and asset freeze. The case settled in May 2018 with an order permanently banning Cooper and his companies from the invention-promotion business and from misrepresenting any good or service, along with a $25,987,192 judgment that was substantially suspended based on the defendants' inability to pay in full — Cooper was ordered to turn over $976,330 in available funds, later distributed back to more than 1,000 defrauded customers as partial refunds beginning in 2020.
 
 World Patent Marketing is a reminder that the invention-promotion industry has a long history of preying on inventors' optimism about their own idea, and that a company's willingness to threaten refund-seeking customers with criminal prosecution is itself a warning sign — a legitimate business that delivered what it promised would rarely need to intimidate the customers it failed.`,
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/David_W._Dyer_Federal_Building_and_United_States_Courthouse_(15130121621).jpg?width=1200',
+    coverImageCredit: 'Photo: Phillip Pessar / Wikimedia Commons / CC BY 2.0',
+    coverImagePosition: 50,
   },
 );
 
