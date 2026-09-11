@@ -3874,6 +3874,10 @@ The case is also a reminder that "generic" is not, by itself, a guarantee of the
     slug: "gangnam-unni-2026-data-breach-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "gangnam-unni-2026-data-breach"],
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Street_in_Yeoksam-dong,_Gangnam-gu.jpg?width=1200",
+    coverImageCredit: "Photo: Christophe95, CC BY-SA 4.0, via Wikimedia Commons — a street in Gangnam-gu, Seoul, the district that gives Gangnam Unni's cosmetic-procedure platform its name",
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: "https://www.koreaherald.com/article/10866388",
     body: `Gangnam Unni, South Korea's leading platform for researching and booking cosmetic and plastic surgery procedures, disclosed in early September 2026 that an unauthorized party had broken into its systems through an application programming interface (API) used to handle consultation records. The company, operated by Healing Paper, said it detected and blocked the initial intrusion, but the same attacker attempted to get back in through a different channel within a day or two — prompting Healing Paper to lock down the affected systems, conduct a full security audit, and notify users individually rather than treat the first block as the end of the incident.
 
@@ -3890,6 +3894,10 @@ Affected users in South Korea can follow up with KISA's reporting channels (118)
     slug: "green-dot-federal-reserve-prepaid-card-settlement-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "green-dot-federal-reserve-settlement"],
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Marriner_S._Eccles_Federal_Reserve_Board_Building.jpg?width=1200",
+    coverImageCredit: "Photo: AgnosticPreachersKid, CC BY-SA 3.0, via Wikimedia Commons — the Marriner S. Eccles Federal Reserve Board Building in Washington, D.C., home of the Federal Reserve Board that issued this consent order",
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20240719b.htm",
     body: `On July 19, 2024, the Federal Reserve Board announced a consent order against Green Dot Corporation and its bank subsidiary, Green Dot Bank, requiring the companies to pay a $44 million civil money penalty over a string of consumer-law violations tied to their general-purpose reloadable prepaid debit card business. Green Dot isn't a household name to most people who've never held one of its cards directly, but it's the bank behind Walmart MoneyCard and the infrastructure that powers Apple Cash's peer-to-peer payments, along with a long list of other retail and fintech prepaid card programs — meaning the Fed's findings reached far more consumers than the Green Dot brand name alone suggests.
 

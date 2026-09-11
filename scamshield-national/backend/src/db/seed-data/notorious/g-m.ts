@@ -8090,3 +8090,20 @@ The indictment, unsealed May 23, 2025, charges Kubler with securities fraud and 
 Kubler's case underscores a checkable fact that too many investors never actually check: whether the person managing their money is licensed at all. FINRA's BrokerCheck and the SEC's Investment Adviser Public Disclosure database are free, public tools that would have told any of his clients, in seconds, that "investment adviser" was never a title Kubler was entitled to use.`,
   },
 );
+
+NotoriousGM.push(
+  {
+    title: 'John Bivona and the Pre-IPO "Fund of Funds" That Was Paying Investors With Other Investors\' Money',
+    slug: 'john-bivona-saddle-river-advisors-pre-ipo-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    body: `John V. Bivona ran Saddle River Advisors LLC and a related firm, SRA Management Associates, out of New Jersey, pitching investors on something that sounded like a golden ticket in the years before the biggest tech IPOs of the 2010s: access to pre-IPO shares of companies like Twitter, Dropbox, Box, Square, Bloom Energy, and Palantir Technologies, ordinarily off-limits to anyone who wasn't already a well-connected insider or venture investor. Bivona positioned his funds as the vehicle that could get ordinary investors into those deals before the rest of the public ever had the chance.
+
+According to the SEC, that access was real in only some of the underlying holdings, and the accounting behind it was not real at all. The agency alleged that Bivona and his firms misappropriated at least $5.7 million of investor money, using cash raised for one fund to pay off earlier investors in another, prop up struggling funds, and cover family-related expenses — a Ponzi-like structure hidden underneath the legitimate-sounding language of pre-IPO share access. Investors had been promised annual financial statements for their funds; the SEC said none were ever prepared, leaving investors with no independent way to check what had actually happened to their money. The SEC also alleged that Bivona steered a substantial share of the diverted funds to his nephew, Frank Mazzola, who had previously been barred from the securities industry in an earlier SEC enforcement action and was not supposed to be handling investor money at all.
+
+The SEC filed its civil fraud complaint and obtained an emergency asset freeze against Bivona, Mazzola, and their firms in March 2016 in the U.S. District Court for the Northern District of California. Bivona and Mazzola were later held jointly and severally liable for $4.65 million in disgorgement under a December 2017 consent judgment, and Bivona was permanently barred from the securities industry as part of the resolution of the case.
+
+Bivona's case is a reminder that "access" is one of the most effective words in an investment pitch precisely because it's hard for an outsider to verify — a promise to get an ordinary investor into a deal usually reserved for insiders plays on the same fear of missing out that has powered fraud schemes for a century, and the absence of the audited statements investors were promised was the clearest warning sign available the entire time, sitting in plain view of anyone who thought to ask why they'd never actually received one.`,
+    sourceUrl: 'https://www.sec.gov/newsroom/press-releases/2016-57',
+  },
+);
