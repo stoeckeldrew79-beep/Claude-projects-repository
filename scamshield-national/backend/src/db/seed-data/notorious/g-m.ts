@@ -7355,6 +7355,9 @@ NotoriousGM.push(
     slug: 'keniel-thomas-lottery-extortion-scam-webster',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/William_H_Webster.jpg?width=1200',
+    coverImageCredit: 'FBI / Wikimedia Commons / Public Domain',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.justice.gov/usao-dc/pr/jamaican-national-sentenced-prison-lottery-fraudextortion-scheme',
     body: `On June 9, 2014, a man in Washington, D.C. picked up the phone and was told he had just won $15.5 million and a new Mercedes-Benz in the Mega Millions lottery. The caller, identifying himself as "David Morgan," explained that before the prize could be released, the winner needed to wire $50,000 to cover taxes and fees — a version of the advance-fee lottery scam that has targeted Americans by phone and mail for decades. What made this particular call unusual was who was on the other end: the recipient was William Webster, then 90 years old, who had spent a career at the very top of federal law enforcement as both Director of the FBI (1978-1987) and Director of the CIA (1987-1991), and his wife Lynda.
 
