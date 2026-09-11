@@ -10535,6 +10535,19 @@ International.push(
 
 International.push(
   {
+    name: 'Fake "Amazon/Alibaba" Telegram Task-Investment Platform Scam (Liberia)',
+    slug: 'liberia-fake-amazon-alibaba-telegram-task-investment-scam',
+    description: `FrontPageAfrica reported on January 7, 2026 on a wave of fraudulent Telegram-based "task investment" platforms circulating in Liberia, built around fake interfaces designed to look like Amazon and Alibaba. In one documented case, Justina Thomas, a small business owner in Paynesville who trades fish for a living, was invited into the scheme by a friend and paid roughly $300 to join a platform where members bought digital items to earn points that supposedly converted into profit, with recruiters telling members "the more people you bring, the more your profit will increase." When Thomas tried to withdraw about $100 of her supposed earnings, the platform became inaccessible, and "Angela," the contact who had managed her account and whose profile photo suggested a Philippines connection, stopped responding after sending initial reassurances. Thomas said the money lost had been capital she and her recruiting friend — who was also defrauded — had built up from their fish-trading business, telling FrontPageAfrica, "Since that time, I haven't even gotten back on my feet again," and that she personally knew at least six other Liberians, including educated professionals, who lost money to the identical scheme. Liberia National Police told FrontPageAfrica that only 20 cybercrime cases had been reported to them over the prior two years, with just 5 forwarded to court, hampered by the absence of a dedicated cybercrime law — a gap the newly passed Cybercrime Act of 2025 is intended to close by criminalizing online fraud and impersonation and formalizing the Liberia Cyber Emergency Response Team (LCERT) under the Ministry of Posts and Telecommunications.`,
+    categorySlug: 'job-task-scams',
+    alertLevel: 'high',
+    sources: ['FrontPageAfrica', 'Liberia National Police'],
+    sourceUrl: 'https://frontpageafricaonline.com/news/liberia-as-internet-use-surges-thousands-of-poor-families-are-being-scammed-a-new-bill-will-help-but-police-warn-they-still-have-few-options-to-stop-it/',
+    country: 'LR',
+  },
+);
+
+International.push(
+  {
     name: 'Fake "Hong Kong Police" NFC Card-Tap Scam (Macau)',
     slug: 'macau-fake-police-prosecutor-nfc-tap-scam',
     description: `An elderly Macau resident lost MOP600,000 in a "police-prosecutor" impersonation scam reported to the Judiciary Police (PJ) in March 2026. The victim received a Cantonese-language call from a "+852" Hong Kong number from a caller claiming to be a Wan Chai Police officer, who alleged the victim was implicated in a money-laundering and criminal case in Xiamen and displayed a fabricated arrest warrant to appear credible. To "prove his innocence" and avoid arrest, the victim was instructed to install an unfamiliar mobile app and then hold his bank card against the back of his phone, letting the app read the card's NFC chip and relay the payment data so the scammers could complete unauthorized transactions in real time. This NFC card-clone technique lets fraudsters drain funds without ever needing the card's PIN, magnetic stripe, or physical possession of the card, and has spread from Hong Kong-based "Macau scam" syndicates to victims across the region. The Judiciary Police, which logs dozens of impersonation-of-authority reports every week, reminds residents that genuine Mainland or Hong Kong police and prosecutors never conduct investigations, demand proof of innocence, or collect payments over the phone or through app installations, and urges anyone contacted this way to hang up and verify independently through official hotlines.`,
