@@ -12951,3 +12951,16 @@ International.push(
     country: 'SX',
   },
 );
+
+International.push(
+  {
+    name: 'SZV Business Email Compromise Attack on Sint Maarten',
+    slug: 'sint-maarten-szv-business-email-compromise-attack',
+    description: `Social & Health Insurances SZV, the government body that runs Sint Maarten's social security and health insurance programs, disclosed on March 12, 2019, that it had been targeted by a business email compromise (BEC) scheme in which fraudsters impersonated company insiders by email to request and get approval for outgoing wire transfers. SZV said the attack "was of such a sophisticated nature that protocol was not breached" on its end, meaning the fraudulent requests looked enough like genuine internal correspondence that normal review did not flag them before money moved. In response, SZV said it had tightened its ICT security and banking protocols, added manual verification checks on transfers — extending how long payments take to process — filed a police report, and reached out to the FBI and other international agencies for assistance, while also working with its bank to try to recover the diverted funds. SZV noted that BEC schemes of this kind, long common against businesses and government bodies in the United States, the Netherlands, and the United Kingdom, "now seems to be targeting the Caribbean region more aggressively," and that other local and regional organizations had been targeted in similar ways. The case is a reminder that BEC scams do not rely on hacking a network — they rely on a convincing email that looks like it came from a real colleague or vendor asking for a routine-seeming transfer — so any request to change payment details, rush a wire, or approve a transfer outside normal channels should be verified by phone with a known, independently-looked-up number before funds are sent, even when the email itself shows no obvious red flags.`,
+    categorySlug: 'business-email-compromise',
+    alertLevel: 'high',
+    sources: ['Social & Health Insurances SZV', '721news.com', 'Federal Bureau of Investigation (FBI)'],
+    sourceUrl: 'https://www.721news.com/2019/03/szv-investigates-phishing-scam/',
+    country: 'SX',
+  },
+);
