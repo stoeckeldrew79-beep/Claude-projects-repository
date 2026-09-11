@@ -6505,6 +6505,10 @@ The House of Angels case is a reminder that a hospice fraud ring's biggest vulne
     slug: 'ken-ejimofor-ezeah-duffey-persona-romance-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    // representative photo (case prosecuted by the U.S. Attorney's Office for the Western District of Oklahoma) — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/OK-OklahomaCity_1961_Ref.jpg?width=1200',
+    coverImageCredit: 'U.S. National Archives, public domain, via Wikimedia Commons',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.justice.gov/usao-wdok/pr/two-sentenced-11-and-7-years-federal-prison-46-million-internet-romance-fraud',
     // no rights-cleared photo found — sourceUrl above serves as the "read the full story" link
     body: `Ken Ejimofor Ezeah, 38, of Houston, Texas, built his fraud around a single invented man who never existed: "Edward Peter Duffey," a supposedly wealthy, widowed British financier from Manchester, England, who — in the character's own backstory — counted the chair of the U.S. Securities and Exchange Commission among his personal friends. Working with Akunna Baiyina Ejiofor, 36, also of Houston, and Nnamdi Franklin Ojimba, 36, of Chicago, Ezeah used the Duffey persona and others like it to open fake profiles on ChristianMingle.com, Match.com, OurTime.com, and Zoosk, targeting older widows and divorcées across the country between May 2014 and January 2016.
