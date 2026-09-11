@@ -2051,6 +2051,9 @@ Paying by credit card for any purchase from an unfamiliar online seller gives yo
     slug: "tfg-holding-justfab-shoedazzle-fabkids-vip-membership-settlement-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "tfg-holding-vip-membership-settlement"],
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Justfab_logo.svg?width=1200",
+    coverImageCredit: "JustFab / Wikimedia Commons / Public Domain (logo)",
+    coverImagePosition: 50,
     sourceUrl: "https://www.attorneygeneral.gov/taking-action/ag-sunday-secures-settlement-valued-at-4-8-million-with-online-clothing-retailer-for-deceptive-advertising-and-billing-practices/",
     body: `JustFab, ShoeDazzle, and FabKids are online shoe and apparel brands that built their business around a familiar pitch: browse a curated selection, buy what catches your eye, and get styled like a celebrity for less. What the marketing didn't make clear, according to a coalition of state attorneys general led by Pennsylvania's Dave Sunday, was that simply making a purchase on any of these sites — all owned by parent company TFG Holding, Inc. — automatically enrolled a shopper in a recurring "VIP Membership Program" that charged $49.95 a month unless the customer logged back in and actively skipped it before a monthly deadline. On October 23, 2025, the coalition announced TFG Holding would pay $4.8 million to resolve the case.
 
