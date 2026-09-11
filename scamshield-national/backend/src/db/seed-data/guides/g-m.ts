@@ -3664,6 +3664,10 @@ If you're a HealthEquity member, or your HSA is administered by HealthEquity thr
     slug: "lg-smart-tv-acr-texas-privacy-settlement-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "lg-smart-tv-acr-texas-settlement"],
+    // representative photo — replace with an exact match if found
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/LG_symbol.svg?width=1200",
+    coverImageCredit: "LG Corporation logo (PD-textlogo/simple geometric shape), via Wikimedia Commons — LG Electronics, the smart TV manufacturer named in the Texas settlement",
+    coverImagePosition: 50,
     sourceUrl: "https://www.fox7austin.com/news/lg-smart-tv-acr-data-collection-texas-settlement",
     body: `A smart TV doesn't just play whatever you put on it — on most sets sold in the last several years, it also watches what's on the screen and reports back. The technology behind that is called Automatic Content Recognition, or ACR: software built into the television that periodically samples the audio or takes tiny snapshots of the video playing on screen, matches those samples against a massive reference database, and identifies exactly what's being watched — a network show, a movie, a video game, a streaming series, even content coming in from a cable box, gaming console, or Blu-ray player plugged into an HDMI port, regardless of whether it has anything to do with the TV manufacturer's own apps. In May 2026, Texas Attorney General Ken Paxton announced a settlement with LG Electronics resolving a lawsuit over exactly this technology, requiring the company to change how it discloses and controls ACR on its televisions sold in the state.
 
@@ -3680,6 +3684,9 @@ The case is a useful prompt to check a setting most people never touch. ACR gene
     slug: "geico-travelers-driver-license-data-breach-settlement-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "geico-travelers-data-breach-settlement"],
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/GEICO_headquarters.jpg?width=1200",
+    coverImageCredit: "Photo: Coolcaesar, CC BY-SA 3.0, via Wikimedia Commons — GEICO headquarters in Chevy Chase, Maryland",
+    coverImagePosition: 50,
     sourceUrl: "https://ag.ny.gov/press-release/2024/attorney-general-james-and-dfs-superintendent-harris-secure-113-million-auto",
     body: `An online auto insurance "instant quote" tool is designed to do one thing quickly: take a few pieces of identifying information and return a price. That convenience is exactly what made GEICO's public-facing quoting tool, and a related agent-facing quoting tool, so useful to criminals starting in 2020. Attackers who already had a trove of stolen personal information — names, dates of birth, and addresses harvested from earlier, unrelated breaches — ran that data through the quoting tools not to get a price, but to get back a driver's license number the tool matched to each person, turning a marketing feature into a lookup service for identity thieves.
 
