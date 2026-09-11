@@ -7488,6 +7488,9 @@ The SEC's emergency complaint, filed September 19, 2022, detailed the mechanics 
 The freeze didn't stop the network underneath Chavez. In February 2024, the SEC charged 17 additional individuals — recruiters and regional leaders spread across Texas, California, Louisiana, Illinois, and Florida — with continuing to solicit new investors even after the court's shutdown order. Some allegedly went further: Gabriel and Dulce Ochoa kept soliciting investments and, prosecutors said, Gabriel instructed victims to withdraw their SEC complaints, while Maria Saravia allegedly told investors outright that "the SEC's lawsuit was fake."
 
 CryptoFX shows how an affinity-fraud network can outlast the regulatory action meant to stop it: the same trusted, face-to-face relationships that recruited 40,000 investors in the first place were then used to keep them in the scheme, and even to talk some out of believing a real federal lawsuit had been filed at all. A recruiter who shares your language, your neighborhood, and your church is not thereby more trustworthy about where your money is actually going — and a court order freezing a company's assets doesn't automatically reach every person still working its rooms.`,
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/CaseyFederalCourthouseHoustonTX.JPG?width=1200',
+    coverImageCredit: 'Photo: WhisperToMe (Public Domain), via Wikimedia Commons — Bob Casey Federal Courthouse, Houston, in the Southern District of Texas where the CryptoFX case was heard',
   },
 );
 
