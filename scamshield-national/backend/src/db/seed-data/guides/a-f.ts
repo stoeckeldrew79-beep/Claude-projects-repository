@@ -7497,6 +7497,10 @@ The case is a reminder of how long the gap between a data breach and any actual 
     slug: "american-mint-negative-option-settlement-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "american-mint-negative-option-settlement"],
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Front_Steps,_Pennsylvania_State_Capitol,_Harrisburg,_PA.jpg?width=1200",
+    coverImageCredit: "Photo: Warren LeMay (CC BY-SA 2.0) — the Pennsylvania State Capitol in Harrisburg, where the Attorney General's Bureau of Consumer Protection that reached this settlement is based",
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: "https://www.attorneygeneral.gov/taking-action/ag-sunday-reaches-750k-settlement-with-mechanicsburg-based-collectibles-company-over-negative-option-subscription-practices/",
     body: `On October 30, 2025, Pennsylvania Attorney General Dave Sunday announced a $750,000 settlement with American Mint, LLC, a Mechanicsburg-based company that sells collectible coins and similar merchandise through direct mail, print ads, phone orders, and its own website. The Office of Attorney General's Bureau of Consumer Protection said it had received more than 200 consumer complaints about the company before reaching the deal, describing a pattern built around what regulators call a "negative option" — enrolling a customer in an ongoing subscription plan based on their failure to say no, rather than their clear choice to say yes.
 
