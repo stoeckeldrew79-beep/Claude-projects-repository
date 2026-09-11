@@ -7332,3 +7332,15 @@ UsAF.push({
     isHistorical: true,
     firstRecorded: '2026-07-15',
 });
+
+UsAF.push({
+    name: 'Florida Department of Revenue Tax Refund Text Scam',
+    slug: 'florida-department-of-revenue-tax-refund-text-scam',
+    description: `County Clerk of Court offices across Florida — including Lake, Manatee, and Sumter counties — have issued matching public warnings about text messages and emails impersonating the Florida Department of Revenue (DOR) that tell recipients a tax refund has been "processed and approved" and ask them to click a link to submit banking information before the funds are supposedly forfeited. The messages typically originate from international phone numbers, reference deadlines or refund laws that do not actually exist, and route victims to a fake page built to harvest bank account numbers, debit card details, or Social Security numbers, which are then sold on criminal markets or used to drain the victim's accounts. The DOR states flatly that it "does not send text messages about tax refunds" and that any legitimate department correspondence about a refund arrives by mail, not by an unsolicited text or email link. The pattern is not unique to Florida — Colorado, Minnesota, Nebraska, and Delaware have each issued nearly identical warnings about scammers impersonating their own state revenue departments with the same "approved refund" lure. Floridians who receive one of these messages are advised not to click any link or reply, to verify a refund status only by logging into the DOR's own website directly, and to report the scam to the Florida Attorney General's Office at MyFloridaLegal.com or 1-866-9NO-SCAM, the Florida Department of Agriculture and Consumer Services, or the FTC at ReportFraud.ftc.gov; anyone who already entered financial information should contact their bank immediately.`,
+    categorySlug: 'tax-scams',
+    alertLevel: 'medium',
+    sources: ['Florida Department of Revenue', 'Florida Office of the Attorney General', 'Lake County Clerk of the Circuit Court & Comptroller'],
+    sourceUrl: 'https://www.lakecountyclerkfl.gov/scam-alert-florida-department-of-revenue-tax-refund/',
+    country: 'US',
+    state: 'FL',
+});
