@@ -6137,6 +6137,10 @@ NotoriousAF.push(
     slug: 'fesum-ogbazion-instant-tax-service-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Dayton-ohio-skyline.jpg?width=1200',
+    coverImageCredit: 'Photo: Tysto (Derek Jensen), Wikimedia Commons (Public Domain) — the Dayton, Ohio skyline; Instant Tax Service was headquartered in Dayton',
+    coverImagePosition: 50,
     body: `Fesum Ogbazion had already sold one tax-prep company to a Fortune 500 buyer before he built his second one into a nationwide fraud. He founded Instant Refund Tax Service in 1994 and sold it to Jackson Hewitt in 1999, then in 2004 launched ITS Financial LLC, the franchisor behind Instant Tax Service (ITS), which grew to more than 1,100 storefronts across the country and, by its own marketing, became the fourth-largest tax-preparation firm in the nation.
 
 The growth was built on a loan that didn't exist. ITS advertisements nationwide offered customers refund anticipation loans — quick cash against an expected tax refund — funded through what was described as an independent third-party lender. Prosecutors said ITS had no such lender ready to fund the promised loans at all: the loan pitch existed to get customers in the door, where the "application" was instead used to prepare and file their tax returns, often without their authorization, generating a return-prep fee ITS collected regardless of whether any loan ever materialized. Between 2006 and 2011 alone, the scheme brought in more than $70 million in fees. Court filings from a related civil case described a company that also charged its largely low-income customers hidden add-on fees, forged signatures on loan checks, and trained franchisees to prepare early, deliberately understated returns to move customers through the door faster.
@@ -6155,6 +6159,10 @@ NotoriousAF.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.sec.gov/newsroom/press-releases/2020-35',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Tampa_Skyline.jpg?width=1200',
+    coverImageCredit: 'Photo: Sonny SideUp, Wikimedia Commons (CC BY 2.0) — the Tampa, Florida skyline; EquiAlt LLC was based in Tampa',
+    coverImagePosition: 50,
     body: `EquiAlt LLC was a Tampa, Florida-based private real estate investment firm, formed in 2011 by CEO Brian Davison alongside managing director Barry Rybicki. Through a family of pooled entities — EquiAlt Fund, LLC, EquiAlt Fund II, LLC, EquiAlt III, LLC, and EA SIP, LLC — the two men sold unregistered securities to more than 1,100 investors nationwide, ultimately raising more than $170 million. Many of the investors were retirees putting in retirement savings, drawn by a pitch that sounded conservative rather than speculative: a real estate fund, not a crypto token or a currency-trading "system."
 
 According to the SEC complaint that unsealed the case, Davison and Rybicki told investors that roughly 90% of pooled money would go toward buying undervalued real estate to rent or flip, generating annual returns of 8% to 10%. In reality, the SEC alleged, less than half of investor money ever went into real estate at all. A substantial share instead funded the executives' personal spending — chartered jets, collector wristwatches, and sports cars among the assets regulators traced — and EquiAlt used money raised from investors in one fund to make interest and redemption payments to investors in another, the same rob-Peter-to-pay-Paul mechanic that defines a Ponzi scheme regardless of the "real estate fund" label wrapped around it.
@@ -6174,6 +6182,10 @@ NotoriousAF.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/usao-ndtx/pr/so-called-frack-master-sentenced-15-years-federal-prison',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/West_Texas_Pumpjack.JPG?width=1200',
+    coverImageCredit: 'Photo: Eric Kounce, Wikimedia Commons (Public Domain) — an oil pumpjack in West Texas, the industry Christopher Faulkner claimed to represent as "The Frack Master"',
+    coverImagePosition: 50,
     body: `Christopher Faulkner built a public persona as "The Frack Master," a hydraulic-fracturing pundit who wrote a book, gave media interviews, and padded his résumé with academic credentials federal prosecutors later said he never actually earned. As founder, CEO, and president of the Dallas-based Breitling Energy Corporation, he used that manufactured authority to sell investors stakes in specific oil and gas drilling projects, raising more than $80 million between 2011 and 2016.
 
 The wells were real. The numbers pitched to investors were not. Prosecutors said Faulkner routinely inflated the estimated drilling costs he presented to investors by as much as 800 percent above what the work actually cost, pocketing the difference, and diverted roughly $23 million of investor money to personal spending rather than the wells his investors believed they were funding.
@@ -6191,6 +6203,10 @@ NotoriousAF.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/usao-sdny/pr/two-defendants-charged-non-fungible-token-nft-fraud-and-money-laundering-scheme-0',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Sign_Brodway_crossing_Wall_Street.JPG?width=1200',
+    coverImageCredit: 'Photo: Benoît Prieur, Wikimedia Commons (CC0) — the Wall Street street sign in Manhattan; the Frosties NFT case was prosecuted in the Southern District of New York',
+    coverImagePosition: 50,
     body: `In late 2021, two 20-year-olds using the handles "Frostie" and "heyandre" launched Frosties, a collection of 8,888 ice-cream-themed profile-picture NFTs priced at roughly 0.04 ETH — about $200 to $300 — each. Buyers were promised the standard pitch of that NFT cycle: exclusive rewards, staking benefits, and early access to a "Frosties"-branded metaverse game the creators said they were building.
 
 The offering sold out within about an hour on January 8, 2022. Within hours of that sellout, Ethan Nguyen and Andre Llacuna deactivated the Frosties website and social media accounts and moved roughly $1.1 million in cryptocurrency proceeds into wallets under their control — the maneuver crypto communities had already started calling a "rug pull," in which a project's creators abandon it the moment they've collected the money, with no further reason to deliver anything. Buyers were left holding NFTs for a game and rewards that would never exist.
@@ -6208,7 +6224,10 @@ NotoriousAF.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.cftc.gov/PressRoom/PressReleases/8371-21',
-    // no rights-cleared photo found — sourceUrl above serves as the "read the full story" link
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Manchester_Skyline_-_geograph.org.uk_-_7577148.jpg?width=1200',
+    coverImageCredit: 'Photo: Anthony Parkes, Wikimedia Commons (CC BY-SA 2.0) — Manchester, England, where Benjamin Reynolds ran Control-Finance',
+    coverImagePosition: 50,
     body: `In May 2017, a UK-registered company called Control-Finance Limited began soliciting bitcoin from the public with a pitch built for the top of that year's crypto bull run: hand over bitcoin, and a team of "expert" virtual currency traders would generate 1.5 percent in daily trading profits — as much as 45 percent a month — through pooled, diversified trading. Customers who signed up were shown weekly "Trade Reports" listing profitable trades, and an affiliate program offered escalating bitcoin bonuses to anyone who recruited new depositors, giving existing customers a financial reason to sell the scheme to their own friends and family.
 
 None of the trading was real. According to the CFTC, the man behind Control-Finance, Benjamin Reynolds of Manchester, England, never traded customer deposits at all. Instead, he moved incoming bitcoin through convoluted, economically pointless blockchain transactions designed to obscure where it was going, routed it through pooled wallets at payment processors and exchanges, and used a portion of new deposits to pay "withdrawals" to customers who asked for their money back — a Ponzi-style shell game dressed up as an automated trading fund. By the time the scheme wound down in October 2017, Reynolds had taken in at least 22,858 bitcoin, worth roughly $147 million at the time, from more than 1,000 customers worldwide, including at least 169 people in the United States.
@@ -6225,7 +6244,10 @@ NotoriousAF.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/usao-wdwa/pr/jamaican-national-sentenced-prison-lottery-scam-devastated-southwest-washington',
-    // no rights-cleared photo found — sourceUrl above serves as the "read the full story" link
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Painted_house_in_downtown_Kingston,_Jamaica._(33032978752).jpg?width=1200',
+    coverImageCredit: 'Photo: Ralf Steinberger, Wikimedia Commons (CC BY 2.0) — downtown Kingston, Jamaica, where Roshard Carty ran his lottery-scam operation',
+    coverImagePosition: 50,
     body: `In August 2020, a 73-year-old woman in southwest Washington state got a call from a man claiming to work for Publishers Clearing House. He told her she had won $22 million and a new car, but there was a catch: the win had to stay secret because, he said, the FBI was monitoring the transaction for her protection. That lie did the real work of the scheme — it cut her off from the one thing that might have exposed it, telling someone else what was happening. Federal prosecutors would later identify the caller as Roshard Andrew Carty, a 34-year-old Jamaican national who ran the fraud from overseas.
 
 What followed was nearly four years of escalating demands. Carty told the victim she needed to pay taxes and fees to release her winnings, starting with modest amounts and growing larger over time. When she sent money, he sometimes claimed it had been "lost in transit" and needed to be sent again. As her own funds ran low, he pushed her to borrow against her home; she eventually lost that home entirely, having sent Carty more than $600,000 between August 2020 and February 2024 through a rotating cast of money couriers across the United States who ultimately funneled the cash back to him in Jamaica.
@@ -6244,7 +6266,10 @@ NotoriousAF.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/usao-edva/pr/ceo-charity-veterans-charged-federal-fraud-crimes',
-    // no rights-cleared photo found — sourceUrl above serves as the "read the full story" link
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Athenaeum_-_Old_Town_Alexandria,_Virginia.jpg?width=1200',
+    coverImageCredit: 'Photo: AgnosticPreachersKid, Wikimedia Commons (CC BY-SA 3.0) — Old Town Alexandria, Virginia, in the Eastern District of Virginia where the case against James Arehart was brought',
+    coverImagePosition: 50,
     body: `James "Billy" Arehart founded Providing Hope VA in 2018, pitching it as a lifeline for veterans facing financial trouble, homelessness, unemployment, and the need for treatment. He first registered the charity in Virginia, then relocated its operations to Loris, South Carolina, in early 2020. Between 2018 and August 2021, the organization raised more than $9 million — the bulk of it through raffle tickets for high-end prizes, including luxury vehicles, advertised on the charity's own Facebook page. Buyers were told their ticket purchases counted as tax-deductible donations.
 
 Arehart was Providing Hope VA's president and its only board member, giving him sole control of its bank account with no one else positioned to ask where the raffle money actually went. Court records show his own compensation climbed steeply as the charity grew: $162,000 in salary and bonuses in 2019, $292,000 in 2020, and $525,000 in 2021 — all drawn from donations solicited in veterans' names. Prosecutors also documented more direct diversions, including a $25,000 check to a swimming-pool construction company and a separate $125,000 payment to a third party, neither connected to any veteran service the charity claimed to provide.
@@ -6263,7 +6288,10 @@ NotoriousAF.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/opa/pr/owner-durable-medical-equipment-company-sentenced-59m-medicare-fraud',
-    // no rights-cleared photo found — sourceUrl above serves as the "read the full story" link
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Orthotics_-_Knee_Brace_(36209261475).jpg?width=1200',
+    coverImageCredit: 'Photo: grace.jun719, Wikimedia Commons (CC BY 2.0) — an orthotic knee brace of the type Patrick Cassells\' companies billed Medicare for',
+    coverImagePosition: 50,
     body: `Patrick Cassells, 65, of Fulshear, Texas, owned and controlled three durable medical equipment (DME) companies that billed Medicare for orthotic braces — knee, back, shoulder, and wrist braces — supposedly ordered by physicians for beneficiaries who needed them. On the paperwork for at least one of the three companies, Cassells wasn't listed as the owner at all: prosecutors said he falsely identified someone else as the sole owner and manager on the company's Medicare enrollment application, keeping his own name off the one document that might have drawn scrutiny to how many DME companies he was actually running at once.
 
 The doctors' orders that justified each brace claim weren't the product of real medical exams. According to the Justice Department, Cassells paid illegal kickbacks to co-conspirators who supplied him with signed physician orders and other paperwork needed to bill Medicare, disguising the payments in his own books as "marketing" fees and the orders themselves as purchased "leads" — bureaucratic language standing in for what was, functionally, a fee paid per beneficiary whose Medicare number could be turned into a bill. Across the three companies, Cassells caused more than $59.9 million in false and fraudulent claims to be submitted to Medicare, of which the program actually paid out over $27 million.
@@ -6280,7 +6308,10 @@ NotoriousAF.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/opa/pr/chicago-lab-owner-sentenced-seven-years-prison-connection-14m-covid-19-fraud-scheme',
-    // no rights-cleared photo found — sourceUrl above serves as the "read the full story" link
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Chicago-illinois-skyline-skyscrapers-161963.jpg?width=1200',
+    coverImageCredit: 'Photo: Wikimedia Commons (CC0) — the Chicago skyline; Zishan Alvi ran his COVID-19 testing lab fraud out of the Chicago area',
+    coverImagePosition: 50,
     body: `Zishan Alvi, 46, of Inverness, Illinois, owned and operated a Chicago laboratory that offered COVID-19 testing during 2021 and 2022, at the height of federal reimbursement programs built to make testing free and fast for anyone who needed it. Under the Health Resources and Services Administration's uninsured testing program, providers submitted a claim for each test performed and got paid without the patient ever seeing a bill — a system built entirely on trust between the lab and the federal government paying it. Alvi's lab took that trust and inverted it: prosecutors said the lab routinely told patients they had tested negative for COVID-19 even when no test had actually been run on their sample, or when the sample had produced an inconclusive result because Alvi had diluted testing reagents to cut his own costs, rendering whatever result the lab did generate meaningless.
 
 Alvi knew exactly what his lab was telling patients and billing the government for, according to the Justice Department — he was the one who caused it to submit claims for tests that were never performed or that had produced no reliable result at all, and he lied to his own laboratory directors to keep the operation running without their objection. On the strength of those fraudulent claims, HRSA paid Alvi's laboratory more than $14 million for testing that, for an unknown share of the patients who relied on it, may have delivered nothing more than a guess dressed up as a lab result — at a moment when an accurate negative result was the only thing standing between someone and the workplaces, schools, and family gatherings a real infection could have spread through.
@@ -6297,7 +6328,10 @@ NotoriousAF.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/opa/pr/four-california-residents-sentenced-prison-connection-16m-hospice-fraud-and-money-laundering',
-    // no rights-cleared photo found — sourceUrl above serves as the "read the full story" link
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Granada_Hills_CA.JPG?width=1200',
+    coverImageCredit: 'Photo: Jordan Brown, Wikimedia Commons (Public Domain) — Granada Hills, California, the Los Angeles neighborhood where Petros Fichidzhyan operated the House of Angels hospice scheme',
+    coverImagePosition: 50,
     body: `Petros Fichidzhyan, 44, of Granada Hills, California, ran a hospice fraud scheme with a problem most fraudsters never have to solve: he needed to appear, on paper, to own several hospice companies at once, without any of them being traceable back to him. Fichidzhyan and co-defendants Juan Carlos Esparza and Karpis Srapyan solved it by using the names and personal identifying information of foreign nationals as straw owners — people who never set foot in the businesses but whose identities were used to open bank accounts, submit enrollment paperwork to Medicare, sign property leases, and hold cell phone accounts used to run the scheme. Esparza's name did appear on one of the four sham hospices, House of Angels Hospice, but the arrangement let the group operate multiple shell hospices simultaneously while keeping investigators guessing about who was actually in charge.
 
 From July 2019 to January 2023, the four hospices billed Medicare for hospice care that court documents describe as medically unnecessary and, in many instances, never provided at all — care that Medicare's hospice benefit is supposed to reserve for patients in their final six months of life. In total, Medicare paid the sham hospices nearly $16 million. Rather than simply banking the proceeds, Fichidzhyan, Esparza, and Srapyan worked with two additional co-defendants, Susanna Harutyunyan and Mihran Panosyan, to launder the money — maintaining fraudulent identification documents in the names of the purported foreign owners, along with matching bank documents, checkbooks, and credit and debit cards, then moving the funds between shell-company bank accounts and other assets to obscure where it had actually come from.

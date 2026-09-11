@@ -6415,7 +6415,10 @@ NotoriousGM.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
     sourceUrl: 'https://www.justice.gov/usao-sdil/victim-witness-assistance/kimoto',
-    // no rights-cleared photo found — sourceUrl above serves as the "read the full story" link
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/St_George,_Utah_panorama.jpg?width=1200',
+    coverImageCredit: 'Photo: Murray Foubister, Wikimedia Commons (CC BY-SA 2.0) — St. George, Utah, where Kyle Kimoto ran Assail, Inc.',
+    coverImagePosition: 50,
     body: `Kyle Kimoto ran Assail, Inc., a St. George, Utah telemarketing operation that placed calls out of boiler rooms in the United States, Canada, India, and the Caribbean under brand names like Advantage Capital, Capital First, and Premier One. Telemarketers told consumers — many with damaged credit who had been turned down for cards elsewhere — that they had been approved for a Visa- or MasterCard-branded credit card, and collected an upfront processing fee, typically around $159, to activate it. What arrived instead, if anything did, was a stored-value debit card requiring the customer's own money to be loaded onto it before it could be used at all — nothing resembling the credit line they had paid for.
 
 Over 2001 and 2002, the scheme collected roughly $43 million from an estimated half a million consumers, backed by an "incomprehensible, computer-generated verification tape" designed to sound like a legitimate compliance script rather than let a live salesperson make promises that could later be disputed. A co-conspirator later testified that Kimoto himself estimated only about one in ten customers understood they were getting, at best, a debit card rather than a credit card. The FTC sued Kimoto, Assail, and related telemarketing partners in January 2003; a September 2003 settlement permanently banned Kimoto from telemarketing and entered a $106 million judgment against him, suspended to the extent it exceeded what he could actually pay.
@@ -6462,7 +6465,10 @@ NotoriousGM.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/usao-edla/pr/missouri-man-sentenced-10-years-prison-174-million-health-care-fraud-conspiracy',
-    // no rights-cleared photo found — sourceUrl above serves as the "read the full story" link
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Orleans.bourbon.arp.750pix.jpg?width=1200',
+    coverImageCredit: 'Photo: Jon Sullivan, Wikimedia Commons (Public Domain) — New Orleans, in the Eastern District of Louisiana where Jamie McNamara was prosecuted',
+    coverImagePosition: 50,
     body: `Jamie P. McNamara operated several diagnostic laboratories in Louisiana and Texas, but hid his ownership behind family members' names on the paperwork — a first sign that the genetic-testing operation he ran was built to obscure who was actually collecting the money. From November 2018 through July 2020, those labs submitted more than $174 million in claims to Medicare for cancer genetic testing (CGx) and cardiovascular genetic testing, receiving over $55 million in reimbursements before investigators caught up with the scheme.
 
 The tests themselves followed a now-familiar genetic-testing fraud pipeline. Telemarketers and call centers ran aggressive campaigns cold-calling Medicare beneficiaries, pitching cheek-swab genetic screenings the callers said Medicare would cover at no cost. Once a beneficiary agreed, the order was routed to a "telemedicine doctor" who had never examined the patient, never spoken with them in a meaningful consultation, and never followed up after the test was run — a signature that existed purely to make an unnecessary test look medically justified on paper. To keep that pipeline of signed orders flowing, McNamara paid the telemarketers and brokers illegal kickbacks and bribes, which he disguised through sham consulting and marketing contracts rather than paying them outright.
@@ -6482,7 +6488,10 @@ NotoriousGM.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/usao-ndtx/pr/novus-hospice-ceo-sentenced-13-years-healthcare-fraud',
-    // no rights-cleared photo found — sourceUrl above serves as the "read the full story" link
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Earl_Cabell_Federal_Building,_cropped.jpg?width=1200',
+    coverImageCredit: 'Photo: Stefan Hillebrand, Wikimedia Commons (CC BY-SA 3.0) — the Earle Cabell Federal Building in Dallas, in the Northern District of Texas where Bradley Harris was prosecuted',
+    coverImagePosition: 50,
     body: `Bradley Harris co-founded Novus Health Services and a related company, Optim Health Services, as Dallas-area hospice providers at a time when Medicare's hospice benefit — built to cover comfort care for patients in their final six months of life — was paying out a fixed daily rate per enrolled patient, regardless of how much or how little care that patient actually needed on a given day. Prosecutors said Harris and his co-conspirators treated that daily rate as a target to maximize rather than a service to earn: from 2012 through 2016, Novus and Optim enrolled and kept billing for patients who were not terminally ill and did not qualify for hospice care at all, while falsifying medical records to make ineligible patients look eligible on paper.
 
 The scheme reached further than false eligibility. According to court filings, Harris directed staff to use blank, pre-signed controlled-substance prescriptions so that potent pain medications could be issued to patients without any physician actually reviewing or authorizing the specific prescription, and the company obtained confidential patient referral information through an intermediary business called Express Medical to keep the enrollment pipeline full regardless of medical necessity. When regulators moved to suspend Novus's Medicare billing privileges over the mounting irregularities, prosecutors said Harris simply began shifting patients and billing through the shell company Optim to keep the money flowing under a different name.

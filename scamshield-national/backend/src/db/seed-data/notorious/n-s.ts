@@ -4307,7 +4307,10 @@ NotoriousNS.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/opa/pr/california-man-sentenced-30-years-orchestrating-270m-medication-reimbursement-fraud-scheme',
-    // no rights-cleared photo found — sourceUrl above serves as the "read the full story" link
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Fountain_at_the_Orange_Circle.jpg?width=1200',
+    coverImageCredit: 'Photo: Jeaniac, Wikimedia Commons (CC BY-SA 3.0) — the Orange Circle in Orange, California, where Paul Randall ran Monte Vista Pharmacy',
+    coverImagePosition: 50,
     body: `Paul Richard Randall, 67, of Orange, California, ran Monte Vista Pharmacy, and when Medi-Cal — California's Medicaid program — temporarily suspended its usual requirement that pharmacies get prior authorization before dispensing certain drugs, Randall and two co-schemers treated the gap not as a rule to bend but as a wide-open door. Through Monte Vista, prosecutors say Randall, Kyrollos Mekail, 38, of Moreno Valley, and Patricia Anderson, 59, of West Hills, began billing Medi-Cal for high-reimbursement, non-contracted generic drugs that beneficiaries frequently never needed and, often, never actually received.
 
 The scale and speed were what set the scheme apart. Between May 2022 and April 2023 — eleven months — Monte Vista Pharmacy billed Medi-Cal more than $269 million for just nineteen expensive drugs built around cheap generic ingredients, and the state actually paid out more than $178 million of it before the fraud was caught. The markups exposed exactly how the math worked: one prescription for meloxicam, a generic anti-inflammatory that normally costs $5 to $25 for a month's supply in its common doses, was billed to Medi-Cal at roughly $13,424. Other claims ran through similarly inflated generic formulations, sometimes including over-the-counter vitamin ingredients dressed up as costly specialty medication — the entire scheme dependent on nobody at the state checking a pharmacy invoice against what the pill inside actually was.
@@ -4325,7 +4328,10 @@ NotoriousNS.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/opa/pr/costa-rica-resident-sentenced-orchestrating-multimillion-dollar-international-telemarketing',
-    // no rights-cleared photo found — sourceUrl above serves as the "read the full story" link
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Cityscape_of_San_Jos%C3%A9,_Costa_Rica_(253552473).jpg?width=1200',
+    coverImageCredit: 'Photo: Xlionheartx, Wikimedia Commons (CC BY 3.0) — San José, Costa Rica, where Roger Roger ran his telemarketing call center',
+    coverImagePosition: 50,
     body: `Roger Roger ran a telemarketing operation out of a call center in Costa Rica that spent years working a single trick on hundreds of victims in the United States: co-conspirators called claiming to be U.S. government officials, told the person on the line they had won a substantial sweepstakes prize, and then explained that a series of up-front payments — framed as taxes, fees, or processing costs — had to be paid before any of the winnings could be released. Many of the victims were elderly, chosen for exactly the trust in official-sounding callers that the scheme depended on.
 
 To make the calls convincing, Roger's operation used Voice over Internet Protocol technology to spoof caller ID so that calls placed from a room in Costa Rica appeared to be coming from Washington, D.C., or other U.S. locations — the same infrastructure a real federal agency's switchboard might use, borrowed to sell a prize that didn't exist. Evidence presented at trial showed that Roger and his co-conspirators took more than $4 million from their victims through the scheme before investigators caught up with the operation and extradited him from Costa Rica to face charges in February 2023.
@@ -4343,7 +4349,10 @@ NotoriousNS.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/opa/pr/texas-fugitive-apprehended-and-sentenced-over-12-years-prison-61m-telemarketing-fraud-scheme',
-    // no rights-cleared photo found — sourceUrl above serves as the "read the full story" link
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Wichita_Falls,_TX,_City_Hall_IMG_6909.JPG?width=1200',
+    coverImageCredit: 'Photo: Billy Hathorn, Wikimedia Commons (CC BY-SA 3.0) — Wichita Falls, Texas, near Archer City where Robert "Bobby" Leon Smith III lived',
+    coverImagePosition: 50,
     body: `Robert "Bobby" Leon Smith III, 50, of Archer City, Texas, built a Medicare fraud operation on two sides of the same business: he owned seven durable medical equipment (DME) supply companies across Florida, Texas, and Maryland that submitted claims for orthotic braces and foot baths, and he separately owned a Texas marketing company that ran the deceptive telemarketing campaigns feeding those claims. Working with an offshore call center in the Philippines, Smith's operation pushed medically unnecessary orthotic braces, foot baths, and genetic tests on Medicare beneficiaries nationwide, and prosecutors played audio recordings at trial of Smith personally pressuring beneficiaries into accepting the products even after they said, directly, that they didn't need or want them.
 
 The doctors' orders that made each claim look legitimate were, by Smith's own recorded words, treated as inventory rather than medical judgment. He obtained the orders by paying kickbacks and bribes to illegitimate telemedicine companies, then resold them to other medical suppliers he knew would use them to bill Medicare — and when an order couldn't be resold, jurors heard Smith complaining on tape and calling it "trash" and "junk." His former business partner testified that when the supply of real doctors' signatures ran short, the operation moved to using "fake" orders bearing forged signatures of physicians who had never seen the patients or agreed to anything. Altogether, the scheme generated $61.5 million in false claims to Medicare.

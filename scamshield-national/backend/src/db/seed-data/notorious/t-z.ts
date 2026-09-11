@@ -1943,7 +1943,10 @@ NotoriousTZ.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/usao-sdca/pr/chinese-national-and-ringleader-sentenced-125-years-27-million-multinational-fraud-and',
-    // no rights-cleared photo found — sourceUrl above serves as the "read the full story" link
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Las_Vegas_strip.jpg?width=1200',
+    coverImageCredit: 'Photo: Jon Sullivan, Wikimedia Commons (Public Domain) — Las Vegas, where Zhao Wang, "Oscar," lived while running the refund-scam ring',
+    coverImagePosition: 50,
     body: `Zhao Wang, a 41-year-old Chinese national going by the name "Oscar" and living in Las Vegas, led a five-defendant conspiracy that federal prosecutors in the Southern District of California say stole more than $27 million from over 2,000 elderly victims across the United States between roughly 2021 and 2023. The scheme didn't rely on a single script but rotated between several: unsolicited phone calls, emails, and pop-up ads warning of a virus or a billing problem, all directing victims to call a phone number that actually connected to scam call centers based in India, staffed by people trained to build trust before ever asking for money.
 
 Once a victim called in, conspirators used social-engineering tactics to walk them through installing commercially available remote-desktop software, giving the callers direct access to the victim's own computer. From there the pitch shifted into a refund scam: victims were told they were owed a refund for tech-support or security services, then informed the refund had mistakenly been sent for too much, and instructed to return the "overpayment" — not to a bank, but by wiring money or mailing bulk cash through express mail to addresses Wang controlled. Wang himself retrieved the packages using fake identification, took a cut prosecutors put at roughly 18 percent of the proceeds, and laundered the remainder through cryptocurrency transfers back to co-conspirators overseas.
@@ -1961,7 +1964,10 @@ NotoriousTZ.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/usao-sdca/pr/lead-defendant-and-10-others-plead-guilty-65-million-multinational-fraud-ring',
-    // no rights-cleared photo found — sourceUrl above serves as the "read the full story" link
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Sandiego_harbor_and_skyline.jpg?width=1200',
+    coverImageCredit: 'Photo: Jon Sullivan, Wikimedia Commons (Public Domain) — San Diego, in the Southern District of California where the case against Hua Wang was prosecuted',
+    coverImagePosition: 50,
     body: `The investigation that eventually reached Hua Wang started small: in December 2020, an elderly victim contacted an express mail carrier after realizing she had been tricked into shipping cash to strangers, leading agents to intercept 11 packages addressed to fake names at a San Diego-area short-term rental, holding a combined $135,000. Federal investigators would spend the next several years tracing that single tip into a $65 million multinational fraud and money-laundering ring — one that, according to the U.S. Attorney's Office for the Southern District of California, eventually named more than 30 defendants across four separate federal indictments.
 
 The scheme followed a script that has become depressingly familiar in elder fraud: conspirators posing as tech-support agents, government officials, or bank employees called or emailed victims warning of a computer virus, a compromised account, or an accidental overpayment, then talked them into withdrawing their own savings in cash and mailing it to addresses the ring controlled. To stay ahead of investigators, the operation ran on a "hub-and-spoke" model — renting a short-term "hub" property for about a week at a time while "spoke" locations nearby were booked for even shorter stays, so that as soon as one address drew attention, packages could simply be rerouted to the next. Wang, 48, of Flushing, New York, was the operation's collections point on the U.S. side, personally responsible for retrieving more than 2,000 cash packages — accounting for roughly $64 million of the ring's $65 million in total victim losses. Among those victims was a 97-year-old San Diego widow of a Holocaust survivor, who lost her entire life savings to the scheme.
