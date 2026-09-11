@@ -7559,3 +7559,21 @@ The "secret board in London" pitch worked precisely because it was unfalsifiable
     coverImageCredit: 'Photo: Notorious4life (CC0), via Wikimedia Commons — Grosse Pointe Shores, Michigan, where Zada lived and ran his fraud',
   },
 );
+NotoriousGM.push(
+  {
+    title: "Justin Chen and Jun Zhen: The EDGAR Filing Clerks Who Traded on Tomorrow's Headlines",
+    slug: 'justin-chen-jun-zhen-edgaragents-insider-trading',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26634',
+    body: `Every public company merger, earnings report, and material announcement has to be formatted and filed on the SEC's EDGAR system before it becomes public, and a lot of companies outsource that last technical step to specialized filing agents rather than handling it in-house. Justin Chen worked at one of those agents — a New York firm that helped its corporate clients prepare and submit EDGAR filings — in a role that meant reviewing draft filings before they went live. That gave him and a colleague, Jun Zhen, a preview of market-moving news, sometimes by hours, before anyone else outside the company knew it was coming.
+
+According to the SEC, Chen and Zhen used that preview window to trade. Between January and June 2025, the two traded on the basis of material nonpublic information they had lifted from draft client filings — upcoming mergers, earnings results, and other significant corporate announcements — on at least 13 separate occasions, generating more than $2.2 million in combined profits before any of the underlying news had been made public. Their employer had policies against exactly this kind of trading; the filings that crossed their desks were confidential client work product, not information either of them was supposed to act on personally.
+
+What caught them wasn't a tip or a whistleblower inside the firm — it was the trading pattern itself. Regulators used data from the Consolidated Audit Trail, the system built after the 2010 "flash crash" to give the SEC and FINRA a unified record of essentially every order and trade across U.S. equity and options markets, to spot a recurring signature: trades placed shortly before specific client announcements, timed too consistently to be coincidence, tracing back to accounts connected to two employees at the same filing agent.
+
+The SEC filed civil fraud charges against both men in August 2025 in the Eastern District of New York, alongside a parallel criminal case brought by the U.S. Attorney's Office for the same district. Zhen pleaded guilty in October 2025. Chen was convicted and, in mid-2026, sentenced to 27 months in federal prison. The SEC's civil case concluded with a final judgment entered September 8, 2026, ordering Chen to pay $1,828,442 in disgorgement plus $32,361 in prejudgment interest — an amount the judgment noted was already satisfied by the restitution and forfeiture ordered in his criminal case.
+
+The case is a reminder that insider-trading risk doesn't only sit inside the companies making the announcements — it sits with everyone downstream who touches the paperwork before the public does, from law firms and printers to the filing agents whose entire business model depends on being trusted with material nonpublic information they are never supposed to trade on themselves.`,
+  },
+);
