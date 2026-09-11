@@ -5895,6 +5895,9 @@ The scale of Abousaoui's sentence — 25 years for a scheme that raised a few mi
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://oag.maryland.gov/News/pages/Former-Insurance-Agent-and-Financial-Advisor-Sentenced-to-Jail-for-Insurance-Fraud--.aspx',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Baltococircuit_court.jpg?width=1200',
+    coverImageCredit: 'Photo: Marylandstater, Wikimedia Commons (public domain) — the Baltimore County Courts Building in Towson, Maryland, where a jury convicted Michael Okolo',
     body: `Michael C. Okolo, 68, of Pikesville, Maryland, lost his insurance license in 2019 after the Maryland Insurance Administration found he had misappropriated a client's premium payments. That revocation did not stop him from selling insurance products — according to the Maryland Attorney General's Office, it just changed how he did it. Okolo set up a new business, Wise Money Group, and recruited a licensed agent to sign the paperwork on annuity applications that Okolo himself was actually soliciting and selling, even though he was no longer permitted to act as an insurance agent at all.
 
 Between 2021 and 2024, prosecutors said, Okolo used that arrangement to sell 11 annuity policies across 10 separate transactions, collecting more than $88,000 in commissions on business he had no license to conduct. A Baltimore County jury convicted him on 10 counts of insurance fraud for acting as an unlicensed insurance agent, and on July 29, 2026, Baltimore County Circuit Court Judge Michael S. Barranco sentenced him to six months of incarceration on each count, to run concurrently, followed by three years of supervised probation — with a violation of that probation carrying a potential additional sentence of up to 14 years and six months.
