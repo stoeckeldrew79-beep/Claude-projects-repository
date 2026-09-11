@@ -6986,3 +6986,20 @@ By the time it collapsed, BINT had taken in more than $30 million from over 10,0
 The BINT case is a reminder that a pyramid scheme doesn't need cryptocurrency, a foreign call center, or a sophisticated trading algorithm to reach tens of thousands of victims — a livestream, a familiar word like "blessing," and a pandemic-sized dose of financial desperation were enough to move $30 million through a structure with no product at all.`,
   },
 );
+NotoriousGM.push(
+  {
+    title: 'Karen Northcutt and the $826,000 She Stole From a Charity That Builds Houses for the Homeless',
+    slug: 'karen-northcutt-habitat-for-humanity-embezzlement',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.yavapaiaz.gov/files/sharedassets/public/v/1/resident-services/law-and-justice/documents/womanconvictedofembezzlement.pdf',
+    // no rights-cleared photo identified — sourceUrl above serves as the "read the full story" link
+    body: `Karen Northcutt, 62, of Dewey, Arizona, ran Prescott Area Habitat for Humanity as its executive director — a position of trust at a nonprofit whose entire mission is building affordable homes for families who couldn't otherwise afford one. According to the Yavapai County Attorney's Office, she spent years quietly diverting the organization's money into her own life instead: paying her mortgage and utility bills from the charity's bank accounts, renovating her home, buying vehicles, withdrawing more than $100,000 in cash, and opening an unauthorized credit card in the organization's name that she then charged roughly $187,000 on.
+
+The theft came to light in February 2024, after an anonymous tip to the Habitat for Humanity board prompted an investigation. A forensic accountant who reviewed the organization's books put the total loss at approximately $826,000. Prosecutors said Northcutt did not simply take the money quietly — she also tampered with physical evidence and trafficked in stolen property in the course of covering her tracks, conduct that added charges well beyond a simple theft case.
+
+A Yavapai County jury convicted Northcutt in May 2026 on seven felony counts: fraudulent schemes and artifices, theft, aggravated taking of identity, tampering with physical evidence, trafficking in stolen property, and first-degree money laundering. Sentencing came down hard: on August 3, 2026, a Yavapai County Superior Court judge sentenced her to 62.5 years in prison, a term that reflected not just the scale of the theft but what prosecutors described as a lifetime pattern of criminal conduct — the case was Northcutt's third fraud-related conviction in 32 years. "Ms. Northcutt's conviction sends a clear message that no one is above the law," Yavapai County Attorney Dennis McGrane said.
+
+The case is a stark illustration of why nonprofit boards are urged to build in financial oversight that doesn't depend on trusting the executive director — segregated duties, independent bank reconciliation, and outside audits — precisely because the person best positioned to steal from a small charity is often the same person the board has come to trust the most. Northcutt held the keys to the organization's finances for years before a single anonymous tip, rather than any routine check, finally exposed what she had been doing with them.`,
+  },
+);
