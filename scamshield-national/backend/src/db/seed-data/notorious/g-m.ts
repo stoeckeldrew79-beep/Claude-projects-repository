@@ -5678,6 +5678,9 @@ NotoriousGM.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/usao-sdny/pr/founder-and-former-ceo-charity-pleads-guilty-multimillion-dollar-charity-fraud-and-tax',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Midtown_Manhattan_Skyline_413.jpg?width=1200',
+    coverImageCredit: 'Photo: Kidfly182, Wikimedia Commons (CC BY 4.0) — Midtown Manhattan, where Keith Taylor spent embezzled charity funds on a 30th-floor apartment and high-end restaurants',
     body: `Note: Keith Taylor pleaded guilty to the charges described below, so his guilt on those counts is not in dispute. But as of this writing, the outcome of his most recently scheduled sentencing hearing could not be confirmed through published reporting, so the figures below describe an agreed sentencing range and statutory maximums, not a settled final sentence.
 
 Keith Taylor, 58, spent more than two decades building Modest Needs Foundation, a New York-based 501(c)(3) charity he founded around 2002, into a respected name in a crowded field. The nonprofit made itself distinct by funding small, one-time "self-sufficiency grants" — a few hundred dollars toward a utility bill, a car repair, or a month's rent — meant to help a working family cover a short-term emergency before it snowballed into a full-blown crisis. Donors trusted Taylor, as the charity's founder and chief executive, to run it responsibly.
