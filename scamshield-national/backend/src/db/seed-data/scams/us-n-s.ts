@@ -5515,3 +5515,15 @@ UsNS.push({
     country: 'US',
     state: 'NY',
 });
+
+UsNS.push({
+    name: 'White Birch Brewing Investor Fraud (Dennis Nordquist)',
+    slug: 'new-hampshire-gilford-nordquist-white-birch-brewing-fraud',
+    description: `Dennis Nordquist, 71, of Gilford, New Hampshire, helped the owner of the now-defunct White Birch Brewing, David Herlicka, fraudulently secure a $962,000 investment from an outside lender by lying about the brewery's ability to repay it. According to the New Hampshire Attorney General's Office, Nordquist and Herlicka gave the investor false and misleading information about the brewery's finances to induce the loan, with Nordquist personally agreeing to guarantee repayment if White Birch defaulted even though, prosecutors said, he had "no ability or intention to repay the loan." Once the $962,000 arrived, only a fraction went toward brewery operations: an $18,000 cashier's check was cut to Nordquist himself, a $67,000 check went to Herlicka Financial Group — which then issued Nordquist another $6,000 — and tens of thousands more covered Herlicka's own personal expenses rather than the business the investor believed was being financed. Both men were indicted in 2023 on charges of theft by deception, conspiracy to commit theft by deception, and securities fraud. A Hillsborough County Superior Court jury in Manchester convicted Nordquist on all three counts in April 2025, and on July 9, 2025 a judge sentenced him to two concurrent terms of 1½ to 3 years in New Hampshire State Prison — with a recommendation he be moved to home confinement after the first year — plus a suspended 3½-to-7-year term on the conspiracy count, with restitution to be set at a later hearing; Herlicka faced his own trial later in 2025. The case is a reminder that a "loan" pitched as an investment in a small, locally beloved business can carry the same fabricated guarantees and undisclosed self-dealing as any other securities fraud — before wiring money to fund someone else's business, an investor should have the company's actual finances independently verified and confirm that anyone offering securities or promissory notes is registered with New Hampshire's Bureau of Securities Regulation.`,
+    categorySlug: 'investment-fraud',
+    sources: ["New Hampshire Attorney General's Office", 'New Hampshire Union Leader'],
+    sourceUrl: 'https://www.doj.nh.gov/news-and-media/dennis-nordquist-sentenced-prison-theft-securities-fraud-and-conspiracy',
+    country: 'US',
+    isHistorical: true,
+    state: 'NH',
+});
