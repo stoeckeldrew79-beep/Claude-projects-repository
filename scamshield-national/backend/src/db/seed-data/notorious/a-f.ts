@@ -8103,3 +8103,20 @@ Romance scams built around a sudden windfall — inherited gold, a frozen intern
     sourceUrl: 'https://www.justice.gov/usao-edva/pr/ghanaian-national-sentenced-prison-two-years-1m-romance-scam',
   },
 );
+
+NotoriousAF.push(
+  {
+    title: 'Charles Uchenna Nwadavid and the Nec Bullion Romance Scam Money-Laundering Ring',
+    slug: 'charles-nwadavid-nec-bullion-romance-scam-money-laundering',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    body: `Charles Uchenna Nwadavid ran a company in Nigeria called Nec Bullion, but the money that mattered most to his case didn't come from bullion trading. Between around 2016 and September 2019, according to federal prosecutors, Nwadavid took part in a romance scam operation built on fabricated online dating profiles — fake personas that struck up relationships with victims, many of them older women in Massachusetts, and then spun stories about inheritances or medical emergencies to get them sending money.
+
+At least six victims lost more than $2.5 million to the scheme, prosecutors said, with one Massachusetts victim used, apparently without full awareness of the scam's true nature, as an intermediary who received funds from other victims before passing them along. From there, the money moved through cryptocurrency platforms like LocalBitcoins into digital wallets prosecutors say Nwadavid controlled — a laundering step that converted stolen cash into a form that was both harder to trace and easier to move across borders.
+
+Nwadavid, 35, of Abuja, Nigeria, was arrested in April 2025 after arriving at Dallas-Fort Worth International Airport on a flight from the United Kingdom. He pleaded guilty in June 2025 to mail fraud, money laundering, and aiding and abetting money laundering. On September 24, 2025, U.S. District Judge Leo T. Sorokin sentenced him in federal court in Boston to two years in prison, followed by one year of supervised release, and ordered him to pay $2,724,810.41 in restitution to his victims. As a foreign national, Nwadavid is subject to deportation once his sentence is complete.
+
+The case illustrates how a legitimate-sounding business name — a "bullion" company with an actual product line — can double as a laundering vehicle for money that never touched gold or silver at all, and how cryptocurrency exchanges that don't rigorously verify who's behind an account become a convenient last stop for funds a scammer needs to get out of the traceable banking system quickly.`,
+    sourceUrl: 'https://www.justice.gov/usao-ma/pr/nigerian-national-sentenced-two-years-prison-romance-scam-and-money-laundering-scheme',
+  },
+);
