@@ -5205,5 +5205,9 @@ The trucking company behind the promised returns was, prosecutors said, losing m
 The Securities and Exchange Commission and federal prosecutors in the Southern District of Florida both pursued the case; the SEC's civil action initially centered on some $112 million raised before the final tally, developed through the criminal case, grew to more than $158 million. A federal jury convicted Singh in November 2024 on all eight counts of his indictment, including conspiracy to commit wire fraud, wire fraud, and engaging in transactions in unlawful proceeds. On May 30, 2025, a judge in the Southern District of Florida sentenced him to 23 years in federal prison, and in February 2026 entered an amended judgment ordering him to pay $51,199,671 in restitution to the roughly 2,000 investors he had defrauded — a fraction of the money actually lost, since RBL had never generated the profits it was paying out.
 
 The Royal Bengal Logistics case is a reminder that an investment doesn't need cryptocurrency or an exotic financial instrument to be a Ponzi scheme — a real, physically existing trucking company with actual trucks and a plausible-sounding business model was enough cover to draw in $158 million, precisely because "there's a real business behind this" is exactly what investors want to hear before they hand over their money. Consistent, unusually high returns paid out regardless of how freight rates or fuel costs were actually moving in the broader trucking industry were, in hindsight, the clearest warning sign the whole operation offered.`,
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Truck_Florida.jpg?width=1200',
+    coverImageCredit: 'Photo: Thomas Schilling / Wikimedia Commons / CC BY-SA 4.0',
+    coverImagePosition: 50,
   },
 );
