@@ -3894,6 +3894,10 @@ Affected users in South Korea can follow up with KISA's reporting channels (118)
     slug: "green-dot-federal-reserve-prepaid-card-settlement-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "green-dot-federal-reserve-settlement"],
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Marriner_S._Eccles_Federal_Reserve_Board_Building.jpg?width=1200",
+    coverImageCredit: "Photo: AgnosticPreachersKid, CC BY-SA 3.0, via Wikimedia Commons — the Marriner S. Eccles Federal Reserve Board Building in Washington, D.C., home of the Federal Reserve Board that issued this consent order",
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20240719b.htm",
     body: `On July 19, 2024, the Federal Reserve Board announced a consent order against Green Dot Corporation and its bank subsidiary, Green Dot Bank, requiring the companies to pay a $44 million civil money penalty over a string of consumer-law violations tied to their general-purpose reloadable prepaid debit card business. Green Dot isn't a household name to most people who've never held one of its cards directly, but it's the bank behind Walmart MoneyCard and the infrastructure that powers Apple Cash's peer-to-peer payments, along with a long list of other retail and fintech prepaid card programs — meaning the Fed's findings reached far more consumers than the Green Dot brand name alone suggests.
 
