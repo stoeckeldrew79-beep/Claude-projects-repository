@@ -13992,3 +13992,16 @@ International.push(
     country: 'MR',
   },
 );
+
+International.push(
+  {
+    name: 'Bank Account Hacking Ring Targeting Young Account Holders',
+    slug: 'mauritania-bank-account-hacking-ring-youth',
+    description: `Mauritania's Central Office for Combating Cybercrime, part of the General Directorate of National Security, dismantled a digital fraud network accused of hijacking bank accounts and extorting roughly forty victims, Sahara Médias reported in April 2025. Investigators said the network exploited limited digital literacy among younger account holders, using fraudulent applications and deceptive messages to harvest victims' personal and banking data, then used the compromised accounts — including those belonging to adolescents — to move stolen funds abroad through complex transfer chains to accomplices. The investigation began at the end of Ramadan 2025 and continued for several weeks before the Central Office for Combating Cybercrime arrested multiple members of the ring, froze a portion of the stolen funds, and referred the suspects to the Nouakchott West prosecutor's office, with authorities saying the search for additional conspirators was continuing.`,
+    categorySlug: 'account-takeover',
+    alertLevel: 'high',
+    sources: ['Sahara Médias', 'Cridem'],
+    sourceUrl: 'https://cridem.org/C_Info.php?article=782752',
+    country: 'MR',
+  },
+);
