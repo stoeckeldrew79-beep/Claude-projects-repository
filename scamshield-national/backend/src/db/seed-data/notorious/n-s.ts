@@ -3599,6 +3599,10 @@ NotoriousNS.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
     sourceUrl: 'https://www.rnz.co.nz/news/all/104260/bridgecorp-director-petricevic-jailed-6-years',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Auckland_High_Court.jpg?width=1200',
+    coverImageCredit: 'Krzysztof Golik, CC BY-SA 4.0, via Wikimedia Commons',
+    coverImagePosition: 50,
     body: `Rod Petricevic was the managing director of Bridgecorp, an Auckland-based property-lending finance company that raised money from the New Zealand public the way many of the country's finance companies did in the 2000s: by selling secured debenture stock through a registered investment prospectus that promised fixed interest returns and was marketed heavily to everyday retail investors, retirees especially, as a safer alternative to shares. For years the pitch worked, and Petricevic lived accordingly — including having Bridgecorp fund the purchase of a NZ$3.5 million luxury launch, the "Medici," a deal that later became the subject of a separate fraud prosecution in its own right.
 
 The core fraud lay in what Bridgecorp kept telling investors even as the company's finances deteriorated. Its prospectus and later investment statements represented that Bridgecorp had never missed an interest or principal payment to investors — a claim the sentencing judge would later find Petricevic knew to be false at the time it was published. Relying on those assurances, more than NZ$91 million in reinvested funds and a further NZ$28 million in new investor money flowed into Bridgecorp after the misleading statements were published, money invested by people who had no way of knowing the company was already unable to meet its obligations to them.
