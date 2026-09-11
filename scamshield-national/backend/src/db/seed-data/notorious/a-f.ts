@@ -6046,6 +6046,10 @@ NotoriousAF.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.atg.wa.gov/news/news-releases/lularoe-pay-475-million-resolve-ag-ferguson-s-lawsuit-over-pyramid-scheme',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/The_Washington_State_Capitol.jpg?width=1200',
+    coverImageCredit: 'Photo: Bluedisk, Wikimedia Commons (CC BY-SA 3.0) — the Washington State Capitol in Olympia, where the Attorney General sued LuLaRoe and the Stidhams',
+    coverImagePosition: 50,
     body: `DeAnne Stidham started LuLaRoe at her kitchen table in 2012, naming the company after her three oldest granddaughters — Lucy, Lola, and Monroe — and running it with her husband, Mark, who became the company's CEO. What began as a small line of women's clothing sold through Facebook groups turned, after LuLaRoe introduced its now-signature line of brightly patterned leggings in 2014, into one of the fastest-growing multi-level marketing companies in the country: by August 2016 Mark Stidham said the company was on pace to top $1 billion in annual sales with roughly 26,000 independent "fashion consultants," and by early 2017 that sales force had grown past 80,000.
 
 LuLaRoe didn't sell clothing to the public directly. It sold wholesale inventory to the consultants who signed up to resell it, requiring an upfront "onboarding" purchase that could run from a few hundred dollars into the thousands, delivered as a random, non-customizable assortment the consultant had no say in choosing. The company's own compensation plan rewarded consultants far more for recruiting other consultants into the network beneath them than for actually selling clothes to customers — the defining feature regulators look for in a pyramid scheme — and according to Washington state's later lawsuit, two of the company's top recruiters collectively earned more than $5 million between 2016 and 2019 while more than a third of all consultants lost money.
