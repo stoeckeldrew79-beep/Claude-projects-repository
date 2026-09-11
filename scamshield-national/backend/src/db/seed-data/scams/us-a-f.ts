@@ -7066,3 +7066,16 @@ UsAF.push({
     isHistorical: true,
     firstRecorded: '2019-01-03',
 });
+
+UsAF.push({
+    name: 'Alma Perez "Guaranteed Return" Investment Fraud',
+    slug: 'california-alma-perez-guaranteed-return-investment-fraud',
+    description: `Alma Perez sold fraudulent investments through two companies she controlled, Grand Trine LLC and Kings Funding Source LLC, telling prospective investors between May 2008 and December 2013 that their principal was "guaranteed" and risk-free while promising steady monthly returns — a pitch she used to draw in retirees and people who had recently come into an inheritance. Rather than investing the money as promised, Perez diverted more than $735,000 belonging to five victims to her own personal expenses, including credit card payments, groceries, clothing, utilities, and dining out, and at one point forged an annuity disbursement request in a victim's name to pull additional funds out of their account. The California Department of Justice charged Perez with grand theft, securities fraud, conspiracy, and use of a scheme to defraud in connection with the sale of a security, along with an aggravated white-collar-crime enhancement; a jury convicted her on all counts following a seven-day trial on July 3, 2025, and she was remanded into custody. On August 22, 2025, a judge sentenced Perez to 18 years and 8 months in prison. "When bad actors scheme to steal the savings of hardworking Californians, we won't stand idly by," said California Attorney General Rob Bonta in announcing the sentence. "Those who cheat the system to line their own pockets will be held accountable." A promise that an investment's principal is "guaranteed" against loss, paired with a steady monthly payout regardless of market conditions, is itself a warning sign, since no legitimate security can guarantee against loss; before investing retirement savings or an inheritance with anyone, verify they are actually licensed to sell securities through FINRA's BrokerCheck or the California Department of Financial Protection and Innovation, and be skeptical of any pitch that discourages independent verification.`,
+    categorySlug: 'investment-fraud',
+    sources: ['California Department of Justice, Office of the Attorney General'],
+    sourceUrl: 'https://oag.ca.gov/news/press-releases/attorney-general-bonta-announces-18-year-prison-sentence-defendant-investment',
+    country: 'US',
+    state: 'CA',
+    isHistorical: true,
+    firstRecorded: '2008-05-01',
+});
