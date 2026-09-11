@@ -6691,7 +6691,10 @@ The case is a small-scale illustration of a pattern federal health care fraud in
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/opa/pr/co-founder-paycheck-protection-program-lender-service-provider-sentenced-63m-covid-19-relief',
-    // no rights-cleared photo found — sourceUrl above serves as the "read the full story" link
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Sandra_Day_O%27Connor_U.S._Federal_Courthouse,_Phoenix,_Arizona.jpg?width=1200',
+    coverImageCredit: 'Tony Webster, CC BY 2.0, via Wikimedia Commons',
+    coverImagePosition: 50,
     body: `Stephanie Hockridge spent years as a television news anchor at ABC15 in Phoenix before she and her husband, Nathan Reis, co-founded Blueacorn in April 2020 — a fintech company built to process Paycheck Protection Program loan applications for small businesses shut out of the traditional banking system during the pandemic. Blueacorn grew explosively: a 2022 congressional inquiry found the company collected close to $1 billion in taxpayer-funded processing fees for its work, and prosecutors say Hockridge and Reis personally transferred roughly $300 million of that out to themselves as owners. The company that was supposed to be a conduit for emergency small-business relief became, according to federal prosecutors, a fee-generating machine its own founders were willing to feed with fraud.
 
 Blueacorn's alleged scheme centered on a service the company marketed internally as "VIPPP" — personalized help getting a PPP application approved. Prosecutors said Hockridge, Reis, and co-conspirators, including a man named Jimmy Flores, recruited referral agents to coach applicants on submitting loan requests backed by fabricated payroll records, falsified tax documents, and doctored bank statements, inflating the loan amounts (and the percentage-based fees Blueacorn collected) well beyond what the underlying businesses could support. The fraudulent applications processed through the scheme totaled more than $63 million in PPP loans that should never have been approved.
