@@ -1686,6 +1686,10 @@ NotoriousTZ.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/usao-sdny/pr/nft-startup-founder-charged-fraud',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Daniel_Patrick_Moynihan_U.S._Courthouse,_Manhattan,_New_York_(7237347688).jpg?width=1200',
+    coverImageCredit: 'Photo: Ken Lund, Wikimedia Commons (CC BY-SA 2.0) — the Daniel Patrick Moynihan U.S. Courthouse in Manhattan, where Taj Tarsha was indicted in the Southern District of New York',
+    coverImagePosition: 50,
     body: `Note: Taj Tarsha has been indicted, not convicted. The allegations below come from a federal indictment and describe the government's case; Tarsha's attorneys have publicly disputed them, and he is presumed innocent unless and until proven guilty in court.
 
 Taj Tarsha, 34, of Miami, founded Few and Far, an NFT and crypto startup that pitched itself as a platform for the future of digital collecting. Rather than selling stock in the traditional sense, Few and Far raised money by selling investors the rights to future "FAR" tokens through Simple Agreement for Future Tokens (SAFT) contracts — a structure common in crypto fundraising that promises a cryptocurrency token once a platform launches, in exchange for cash up front. By Tarsha's own public announcement in March 2023, the company had raised more than $10 million from investors this way.
