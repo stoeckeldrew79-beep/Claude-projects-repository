@@ -2419,6 +2419,10 @@ NotoriousTZ.push(
     title: 'William and Chantal McCorkle: The Late-Night Infomercial Couple Behind a $30 Million Real Estate Fraud',
     slug: 'william-chantal-mccorkle-infomercial-real-estate-fraud',
     author: 'ScamShield Editorial',
+    // representative photo — replace with an exact match if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Skyline_of_Orlando,_9_Feb_2017.jpg?width=1200',
+    coverImageCredit: 'Photo: Artystyk386 / Wikimedia Commons / CC BY-SA 4.0 — Orlando, Florida, where the McCorkles lived and ran their infomercial operation',
+    coverImagePosition: 50,
     tags: ['notorious', 'notorious-scammer', 'historical'],
     sourceUrl: 'https://law.justia.com/cases/federal/appellate-courts/F3/296/1284/559905/',
     body: `William McCorkle and his wife Chantal built a business during the 1990s that ran almost entirely through late-night cable television: hour-long infomercials in which William, speaking from what he told viewers was his own life of foreclosed-property riches, offered to sell the audience videotapes and printed manuals teaching them how to buy foreclosed real estate for pennies on the dollar and resell it for a fortune. The McCorkles staged the infomercials in expensive homes, and around luxury cars and a helicopter bearing William's name — all of it leased specifically for filming rather than anything the couple actually owned — while a parade of enthusiastic "students" told the camera how the McCorkle course had changed their lives. Those testimonials came from paid actors, not real customers who had ever used the program.
@@ -2436,6 +2440,10 @@ NotoriousTZ.push(
     title: 'Troy Wragg and Mantria Corporation: The $54 Million "Green" Ponzi Scheme Built on Biochar',
     slug: 'troy-wragg-mantria-corporation-green-ponzi-scheme',
     author: 'ScamShield Editorial',
+    // representative photo — replace with an exact match if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Temple_University_Paley_Library_Front_View.JPG?width=1200',
+    coverImageCredit: 'Photo: Dorevabelfiore / Wikimedia Commons / CC BY-SA 4.0 — Temple University in Philadelphia, where Wragg and co-founder Amanda Knorr met before founding Mantria',
+    coverImagePosition: 50,
     tags: ['notorious', 'notorious-scammer', 'historical'],
     sourceUrl: 'https://www.justice.gov/usao-edpa/pr/founder-mantria-corp-sentenced-22-years-operating-54-million-ponzi-scheme',
     body: `Troy Wragg and Amanda Knorr, both 2005 graduates of Temple University, founded Mantria Corporation out of an office just outside Philadelphia and built it around a pitch tailor-made for the late-2000s market: environmentally conscious investing. Mantria told investors their money would fund planned "green" residential communities in rural Tennessee and, later, the production of biochar — a charcoal-like substitute made from organic waste, marketed as a carbon-negative soil additive — positioning the company at the intersection of two things investors found hard to resist at once, a good cause and an extraordinary return.
