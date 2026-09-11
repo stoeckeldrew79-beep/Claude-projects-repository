@@ -13562,3 +13562,16 @@ International.push(
     country: 'CK',
   },
 );
+
+International.push(
+  {
+    name: 'Cape Verde "WS Group" Unlicensed Investment Scheme Alert',
+    slug: 'cape-verde-ws-group-unlicensed-investment-scheme-alert',
+    description: `Cape Verde's securities regulator, the Auditoria Geral do Mercado de Valores Mobiliários (AGMVM), issued a public investor alert on October 27, 2025 warning that an entity calling itself "Wealth Sharing Investment Group" (WS Group) was soliciting Cape Verdean customers to enter financial-intermediation contracts and investment arrangements despite not being registered in the AGMVM's special records as a financial intermediary. The regulator stated that WS Group is not authorized under Cape Verdean law to carry out any financial-intermediation activity and that its prospecting and recruitment of clients therefore falls outside any licensed or supervised framework. AGMVM urged the public to carry out due diligence on any investment product and its associated risks before committing money, to deal only with intermediaries and platforms that are duly regulated and registered, and warned that engaging with unregistered entities like WS Group exposes investors to fraud and financial loss with no supervisory protection if things go wrong. The alert came amid a wider rise in online "quick profit" investment pitches — cryptocurrency trading platforms and daily-return schemes among them — that Cape Verdean media have reported drawing in increasing numbers of residents through social media advertising.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'high',
+    sources: ['Auditoria Geral do Mercado de Valores Mobiliários (AGMVM), Cape Verde'],
+    sourceUrl: 'https://agmvm.cv/alerta-aos-investidores-ws-group/',
+    country: 'CV',
+  },
+);
