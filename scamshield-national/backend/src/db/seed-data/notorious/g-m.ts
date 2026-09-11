@@ -5658,6 +5658,9 @@ Medicare Advantage brace fraud follows a pattern regulators have flagged for yea
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/usao-edny/pr/former-nypd-officer-turned-forex-investor-sentenced-36-months-prison-wire-fraud-scheme',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Downtown_Brooklyn_Skyline_2023.jpg?width=1200',
+    coverImageCredit: 'Photo: FluffballsM&Ms, Wikimedia Commons (CC0) — Brooklyn, home of the Eastern District of New York courthouse where Jason Rodriguez was prosecuted',
     body: `Jason Rodriguez spent years as a New York City police officer before reinventing himself as a foreign-exchange fund manager — a transition that, prosecutors say, was built on a fabricated safety net that never actually existed. In 2020, Rodriguez founded Technical Trading Team LLC, a forex-focused investment fund, and together with a business partner, Edwin Carrion, who handled the fund's back-office operations and investor contracts, raised more than $4 million from over 20 individual investors, many of them friends, family, and personal contacts.
 
 According to the U.S. Attorney's Office for the Eastern District of New York, Rodriguez and Carrion promised investors annual returns of 18 to 24 percent and described Technical Trading Team as a safe, carefully hedged investment. Central to that pitch was a "loss reserve account" — a pool of money the two men said was set aside, untouched, specifically to reimburse investors if the fund's trades lost money. Prosecutors say no such account ever existed. Instead, as Rodriguez's trading racked up losses, he and Carrion continued soliciting new investor money while misrepresenting the fund's performance, and roughly $3.5 million of the $4.8 million investors had put in was never returned to them.
@@ -5675,6 +5678,9 @@ NotoriousGM.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/usao-sdny/pr/founder-and-former-ceo-charity-pleads-guilty-multimillion-dollar-charity-fraud-and-tax',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Midtown_Manhattan_Skyline_413.jpg?width=1200',
+    coverImageCredit: 'Photo: Kidfly182, Wikimedia Commons (CC BY 4.0) — Midtown Manhattan, where Keith Taylor spent embezzled charity funds on a 30th-floor apartment and high-end restaurants',
     body: `Note: Keith Taylor pleaded guilty to the charges described below, so his guilt on those counts is not in dispute. But as of this writing, the outcome of his most recently scheduled sentencing hearing could not be confirmed through published reporting, so the figures below describe an agreed sentencing range and statutory maximums, not a settled final sentence.
 
 Keith Taylor, 58, spent more than two decades building Modest Needs Foundation, a New York-based 501(c)(3) charity he founded around 2002, into a respected name in a crowded field. The nonprofit made itself distinct by funding small, one-time "self-sufficiency grants" — a few hundred dollars toward a utility bill, a car repair, or a month's rent — meant to help a working family cover a short-term emergency before it snowballed into a full-blown crisis. Donors trusted Taylor, as the charity's founder and chief executive, to run it responsibly.
@@ -5696,6 +5702,9 @@ NotoriousGM.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26463',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Newark_NJ_Skyline.jpg?width=1200',
+    coverImageCredit: 'Photo: Gamezilla2019, Wikimedia Commons (CC BY 4.0) — Newark, New Jersey, where the SEC filed its complaint against Joel Sofia in federal court',
     body: `Note: this is a civil SEC enforcement action. The complaint filed against Joel Sofia describes allegations only — as of this writing, he has not been found liable by a court, and the case remains active.
 
 Joel B. Sofia, 46, of Sewell, New Jersey, ran an advisory operation he called WOLO Wealth Inc. — a name, the SEC's complaint points out, that didn't actually belong to any incorporated company. According to the SEC, Sofia told at least three prospective clients he had spent 20 to 30-plus years successfully trading options, a background prosecutors say he fabricated. He also told them their money would face essentially no risk: their principal was guaranteed against loss, he said, thanks to proprietary artificial-intelligence trading software he'd built himself that automated trades and eliminated downside — a description of a product that, as regulators noted, does not exist in any legitimate form.
@@ -5717,6 +5726,9 @@ NotoriousGM.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/usao-co/pr/two-sentenced-connection-fraud-ring-stole-millions-government-funds-thousands-identities',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Alfred_A._Arraj_U.S._Courthouse_2023-04-21.jpg?width=1200',
+    coverImageCredit: 'Photo: Xnatedawgx, Wikimedia Commons (CC BY-SA 4.0) — the Alfred A. Arraj U.S. Courthouse in Denver, where Ikponmwosa Erhinmwinrose was tried and sentenced',
     body: `The pandemic-relief programs Congress built in 2020 were designed to move money fast — a deliberate tradeoff that got emergency cash to struggling businesses and unemployed workers quickly, at the cost of the verification steps that might otherwise have slowed a legitimate application down. Ikponmwosa Erhinmwinrose, 39, of Atlanta, Georgia, built a fraud operation around exploiting exactly that tradeoff, at a scale prosecutors say reached far beyond any single program: applications submitted under more than 1,000 stolen identities, seeking more than $90 million in benefits across the Paycheck Protection Program, the Economic Injury Disaster Loan program, multiple states' unemployment insurance systems — including Colorado's — and fraudulent tax refunds.
 
 According to the U.S. Attorney's Office for the District of Colorado, Erhinmwinrose and co-conspirators, including Nyerhovwo Presley Agbure, 34, also of Atlanta, created dozens of email accounts impersonating real people and businesses, used those identities to file a wave of benefit applications, and then moved the proceeds through a network of bank accounts before converting the money to cash or wiring it overseas — a laundering trail designed to put distance between the stolen identity used on an application and the person who ultimately spent the money. Prosecutors say the ring actually collected more than $7.6 million of the $90-plus million it sought, a gap that reflects both the fraud controls that did catch some applications and the sheer volume the conspirators tried to push through regardless.
@@ -5734,6 +5746,9 @@ NotoriousGM.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/usao-edpa/pr/montgomery-county-woman-sentenced-five-years-prison-defrauding-fema-over-17-million',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Philadelphia_skyline_panorama.jpg?width=1200',
+    coverImageCredit: 'Photo: Pierre Blaché, Wikimedia Commons (CC0) — Philadelphia, where Jasmine Williams was prosecuted in the Eastern District of Pennsylvania',
     body: `When Hurricane Ida struck the East Coast in September 2021, the federal disaster declaration that followed opened up FEMA assistance to homeowners and renters across much of Pennsylvania — money meant to help people repair storm damage or cover temporary housing while they got back on their feet. Jasmine Williams, 34, of Plymouth Meeting, Pennsylvania, turned that assistance program into a business, according to the U.S. Attorney's Office for the Eastern District of Pennsylvania: from around October 2021 through March 2023, she recruited people over social media with the promise that she could get them FEMA money, then charged them half of whatever came through.
 
 Williams didn't wait for people to have real, documentable storm damage before recruiting them. Prosecutors say she advertised her services broadly — reaching renters, homeowners, and homeless individuals alike — and then manufactured the paperwork FEMA required regardless of whether the underlying facts existed: fabricated leases, letters purportedly from landlords, utility bills, earnings statements, and home-repair estimates, submitted on behalf of nearly 200 people to support applications for disaster assistance. FEMA paid out more than $1.7 million in benefits based on those fraudulent submissions, and Williams collected roughly half of each payout for herself, amassing hundreds of thousands of dollars in fees along the way. When at least one participant balked at paying Williams her cut, prosecutors say she retaliated by posting that person's personal information on social media.
@@ -5751,6 +5766,9 @@ NotoriousGM.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/opa/pr/virginia-man-convicted-investor-and-bankruptcy-fraud-scheme',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Albert_V._Bryan_Federal_Courthouse_2019.jpg?width=1200',
+    coverImageCredit: 'Photo: Antony-22, Wikimedia Commons (CC BY-SA 4.0) — the Albert V. Bryan U.S. Courthouse in Alexandria, Virginia, where a jury convicted Jihoon Park',
     body: `Jihoon Park, a 52-year-old resident of Chantilly, Virginia, spent years positioning himself within his community as a trustworthy investment advisor, leaning on personal relationships and, according to federal prosecutors, claims tied to a past affiliation with a major financial institution. He told people he could put their life savings and retirement money into "safe investments with high returns." Instead, prosecutors say, he simply kept the money for himself — spending it on real estate and cryptocurrency rather than investing it on his victims' behalf. Losses to his victims topped $2.5 million.
 
 The fraud might have stayed a private financial dispute if not for what happened next. When one victim sued him to try to recover the money, prosecutors say Park transferred assets to his spouse and concealed millions of dollars in cryptocurrency holdings, then filed for personal bankruptcy — falsely declaring, under penalty of perjury, that he held a grand total of $0.34 in financial assets and no cryptocurrency at all. The bankruptcy filing amounted to a second fraud layered on top of the first, this one aimed directly at a federal court rather than at an individual investor.
@@ -5823,6 +5841,9 @@ NotoriousGM.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://ag.ny.gov/press-release/2025/attorney-general-james-announces-arrest-florida-man-investment-fraud-scheme',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Nassau_County_Courthouse,_Garden_City,_Nassau_County,_Long_Island,_New_York_July_12,_2022_A.jpg?width=1200',
+    coverImageCredit: 'Photo: AITFFan1, Wikimedia Commons (CC BY-SA 4.0) — the Nassau County Courthouse, where Marc Henry Menard was indicted and pleaded guilty',
     body: `Marc Henry Menard, formerly of Mineola, New York and later of Sunrise, Florida, was not registered to offer or sell securities in New York — a fact the New York Attorney General's Office says he never disclosed to the eleven investors he solicited between July 2020 and June 2023. Instead, according to a 24-count indictment unsealed in Nassau County Supreme Court, Menard told prospective investors he was a highly successful trader who could generate returns of up to 20 percent a month, and backed up the pitch with financial documents that prosecutors say significantly overstated his wealth and trading success. Operating through a company called Marcotech LLC, he drew in victims concentrated in the Haitian community across New York, Florida, and Georgia — people who, prosecutors said, trusted him in part because he was a known and visible figure within that community.
 
 The money did not go where investors were told. According to the indictment, Menard transferred investor funds into his own personal trading account, where he racked up trading losses of more than $670,000 rather than the double-digit monthly gains he had promised. At the same time, prosecutors said, he spent more than $100,000 of investor money on himself — vacations to Turkey, Puerto Rico, and Disney World, a 2021 Mercedes-Benz, a 2022 BMW, and purchases at Gucci and Louis Vuitton — while telling investors their money was compounding in the market. In total, the office said Menard took more than $600,000 from his eleven victims.
@@ -5840,6 +5861,9 @@ NotoriousGM.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
     sourceUrl: 'https://ssb.texas.gov/news-publications/time-out-joseph-seth-foster-oil-and-gas-investment-scheme-halted',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Midland,_TX_skyline_(cropped).jpg?width=1200',
+    coverImageCredit: 'Photo: Quintin Soloviev, Wikimedia Commons (CC BY 4.0) — Midland, Texas, the West Texas oil-and-gas hub where Joseph Seth Foster sold his fraudulent drilling investment',
     body: `Joseph Seth Foster was a licensed securities agent working out of Lubbock, Texas, when he began soliciting investors for what he described as an oil-and-gas drilling opportunity. According to the Texas State Securities Board (TSSB), four investors put in almost $400,000 combined to buy into the venture — money Foster was supposed to use to acquire drilling rights and get wells producing.
 
 He never did. A TSSB financial examiner who reviewed the venture's records testified at trial that investor money was instead used for purposes that had nothing to do with oil or gas exploration, including purchases of antiques and jewelry and a trip to Paris, France. Evidence presented at trial also showed that Foster never actually acquired the rights to drill the lease he had raised the investment money for in the first place — meaning the venture investors were told they were funding did not exist in any form capable of producing a return.
@@ -5854,6 +5878,9 @@ Foster's case is a reminder that a securities license by itself is not proof tha
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
     sourceUrl: 'https://ssb.texas.gov/news-publications/mejdi-mahmoud-abousaoui-guilty-plea',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Fort_bend_courthouse.jpg?width=1200',
+    coverImageCredit: 'Photo: Larry D. Moore, Wikimedia Commons (CC BY 4.0) — the Fort Bend County Courthouse in Richmond, Texas, where Mejdi Mahmoud Abousaoui was prosecuted',
     body: `Mejdi Mahmoud Abousaoui spent roughly three years, from early 2015 through mid-2018, raising money from investors around Fort Bend County, Texas, on a promise that was mathematically implausible from the start: a return of 5 percent per month, supposedly generated by placing their money into equities, bonds, mutual funds, and similar products. According to the Texas State Securities Board (TSSB), at least 70 victims put in more than $4 million on the strength of that pitch.
 
 The money did not go where investors were told. Rather than investing it as promised, Abousaoui used incoming investor funds to cover his own personal expenses and to make payments to earlier investors — the defining structure of a Ponzi scheme, in which the appearance of steady returns is manufactured entirely from new deposits rather than from any underlying investment activity. As long as new money kept arriving, the scheme could keep paying out; when it eventually could not sustain that pace, the fraud came to light.
@@ -5868,6 +5895,9 @@ The scale of Abousaoui's sentence — 25 years for a scheme that raised a few mi
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://oag.maryland.gov/News/pages/Former-Insurance-Agent-and-Financial-Advisor-Sentenced-to-Jail-for-Insurance-Fraud--.aspx',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Baltococircuit_court.jpg?width=1200',
+    coverImageCredit: 'Photo: Marylandstater, Wikimedia Commons (public domain) — the Baltimore County Courts Building in Towson, Maryland, where a jury convicted Michael Okolo',
     body: `Michael C. Okolo, 68, of Pikesville, Maryland, lost his insurance license in 2019 after the Maryland Insurance Administration found he had misappropriated a client's premium payments. That revocation did not stop him from selling insurance products — according to the Maryland Attorney General's Office, it just changed how he did it. Okolo set up a new business, Wise Money Group, and recruited a licensed agent to sign the paperwork on annuity applications that Okolo himself was actually soliciting and selling, even though he was no longer permitted to act as an insurance agent at all.
 
 Between 2021 and 2024, prosecutors said, Okolo used that arrangement to sell 11 annuity policies across 10 separate transactions, collecting more than $88,000 in commissions on business he had no license to conduct. A Baltimore County jury convicted him on 10 counts of insurance fraud for acting as an unlicensed insurance agent, and on July 29, 2026, Baltimore County Circuit Court Judge Michael S. Barranco sentenced him to six months of incarceration on each count, to run concurrently, followed by three years of supervised probation — with a violation of that probation carrying a potential additional sentence of up to 14 years and six months.
@@ -5885,6 +5915,9 @@ NotoriousGM.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.sec.state.ma.us/divisions/securities/download/26-02-11-Administrative-Complaint--E-2025-0187-_Final.pdf',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Worcester_Massachusetts_City_Hall_from_Common.jpg?width=1200',
+    coverImageCredit: 'Photo: JoeyBagODonuts, Wikimedia Commons (CC BY-SA 3.0) — Worcester, Massachusetts, where Jose Encarnacion ran his church and the Trinity real estate investment scheme',
     body: `Note: this is a civil administrative complaint. The Massachusetts Securities Division's complaint describes allegations only — Jose Encarnacion has not been criminally charged in connection with this matter, and neither he nor Trinity Estate Investments & Development LLC has been found liable by a hearing officer as of this writing.
 
 Jose Antonio Encarnacion was the senior pastor of Iglesia Cristiana De La Comunidad, a church in Worcester, Massachusetts, when he began raising money in June 2020 through a real estate company he had formed a few months earlier, Trinity Estate Investments & Development LLC, doing business as Trinity Real Estate Investment Group. According to an administrative complaint the Massachusetts Securities Division filed on February 11, 2026, Encarnacion issued promissory notes he called "Investment Verification Contracts," telling investors their money would fund the renovation of specific real estate properties Trinity already owned and that they would be repaid their principal plus interest — in some cases as high as 60 percent — once a project was completed and sold.
@@ -5903,6 +5936,9 @@ The case is a reminder that a pastor's standing inside a tight-knit community of
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.ssb.texas.gov/news-publications/texas-state-securities-board-issues-emergency-order-halt-alleged-fraudulent',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Grand_Prairie_May_2019_10_(Grand_Prairie_City_Hall).jpg?width=1200',
+    coverImageCredit: 'Photo: Michael Barera, Wikimedia Commons (CC BY-SA 4.0) — Grand Prairie, Texas, where KaRhonda Jewell Bray operated JoAriam, LLC',
     body: `Note: this is a civil administrative enforcement action. The Texas State Securities Board's emergency order describes findings from its own investigation — KaRhonda Jewell Bray has not been criminally charged in connection with this matter, and the order became final only because neither she nor her company requested a hearing to contest it, not through any trial or independent adjudication of the underlying allegations.
 
 KaRhonda Jewell Bray, of Grand Prairie, Texas, founded JoAriam, LLC in 2023 and, according to the Texas State Securities Board, ran it as an "asset and wealth solutions financial consulting firm" that pitched two investment programs to small business owners and other investors: an "FX Trade Program" promising roughly 10 percent monthly returns from foreign currency trading through a "trading partner," and a "Leveraged Trade Program" promising monthly dividend payments of about $1.5 million after a four-month "incubation period" tied to trading rights in banking instruments called Medium-Term Notes. Bray promoted both programs through a company website and a network of agents who solicited and referred investors on JoAriam's behalf.
@@ -5922,6 +5958,9 @@ NotoriousGM.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://attorneygeneral.utah.gov/guilty-plea-securities-fraud-miller/',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Old_Post_Office_Ogden_Utah.jpeg?width=1200',
+    coverImageCredit: 'Photo: Ntsimp, Wikimedia Commons (public domain) — Ogden, the seat of Weber County, Utah, where James Curt Miller committed his fraud',
     body: `James Curt Miller, of Weber County, Utah, spent roughly two years — from February 2021 to February 2023 — soliciting money from people around him under a series of false pretenses, according to the Utah Attorney General's Office. Miller told victims he needed the money for things like refinancing property, covering legal expenses, and paying for medical care, and separately promised at least three investors returns from cryptocurrency trading. Instead of using the funds as described, prosecutors said, Miller diverted the money into cryptocurrency purchases and cash withdrawals for himself, taking more than $400,000 from his victims in total.
 
 The Utah Attorney General's Office charged Miller with a full range of felony counts covering his conduct: securities fraud, communications fraud, money laundering, selling unregistered securities, and acting as an unlicensed securities agent. Miller pleaded guilty in Utah's Second District Court to one count of Securities Fraud and one count of Money Laundering, both second-degree felonies.
@@ -5936,6 +5975,9 @@ Miller's case is a reminder that Utah, like every state, runs a securities divis
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://securities.colorado.gov/press-release/press-release-colorado-court-sentences-convicted-scammer-jazzmen-la-vone-gaskins-to',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/AdamsCountyCourthouse.JPG?width=1200',
+    coverImageCredit: 'Photo: Bpvideo, Wikimedia Commons (CC BY-SA 3.0) — the historic Adams County Courthouse building in Brighton, Colorado, the county seat where an Adams County District Court judge sentenced Jazzmen La-Vone Gaskins',
     body: `Jazzmen La-Vone Gaskins solicited a Colorado investor through JG Capital Finance Corporation, a company he controlled, offering promissory notes with an unusually high, guaranteed rate of interest along with a promise that the investor's principal would be repaid in full. According to the Colorado Division of Securities, Gaskins took in more than $100,000 from at least one Colorado investor through the scheme, promises that were never backed by any real underlying investment activity.
 
 A Colorado state grand jury indicted Gaskins on securities fraud charges on August 14, 2025. He pleaded guilty in 2026 to one count of securities fraud, and on July 15, 2026, an Adams County District Court judge sentenced him to nine years of incarceration followed by three years of parole supervision, along with an order to pay $116,675 in restitution to his victim. The court ordered the Colorado sentence to run concurrently with a separate federal sentence Gaskins was already serving.
@@ -5953,6 +5995,9 @@ NotoriousGM.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://ago.mo.gov/attorney-general-hanaway-announces-charges-against-contractor-targeting-st-louis-tornado-victims/',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/EF3_House_Damage_in_Greater_Ville_STL_MO.jpg?width=1200',
+    coverImageCredit: 'Photo: National Weather Service St. Louis, Wikimedia Commons (public domain) — storm damage from the May 16, 2025 St. Louis-area tornado that Jacob Kaestner is accused of exploiting',
     body: `Note: this case is at the charging stage. Jacob Kaestner has been charged but not convicted, and the allegations described below reflect the government's case rather than proven facts.
 
 Jacob D. Kaestner, 43, of High Ridge, Missouri, ran JK Exteriors, a residential contracting business offering roofing, gutter, siding, and fencing repairs. According to the Missouri Attorney General's Office, Kaestner built much of his business around homeowners left vulnerable by two tornadoes that tore through the St. Louis area in 2025 — one on March 14 and a far more destructive one on May 16 — collecting upfront payments from storm-damage victims for repairs he then failed to deliver.

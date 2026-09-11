@@ -4157,6 +4157,9 @@ NotoriousNS.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.bankingdive.com/news/former-kansas-bank-ceo-shan-hanes-24-years-crypto-embezzlement-pig-butchering-scam/724849/',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Point_of_Rocks_(Morton_Co_KS)_at_sundown_2.JPG?width=1200',
+    coverImageCredit: 'Photo: Ammodramus, Wikimedia Commons (CC0) — Morton County, Kansas, home to Elkhart and the Heartland Tri-State Bank that Shan Hanes emptied',
     body: `Shan Hanes, 53, was the chief executive of Heartland Tri-State Bank, a small community bank in Elkhart, Kansas, near the Oklahoma panhandle — the kind of trusted, small-town banker whose word other people took as good as collateral. In 2023, Hanes was drawn into an online relationship with people who introduced him to what looked like a lucrative cryptocurrency investment opportunity, the setup behind what investigators call a "pig butchering" scam: scammers spend time building trust with a target before steering them toward a fake trading platform showing fabricated, ever-growing returns designed to encourage larger and larger deposits.
 
 Convinced the investment was genuine, Hanes did not risk his own money — he risked the bank's. Between May and July 2023, he initiated eleven wire transfers, ranging from $5,000 to $10.3 million each, sending a total of $47.1 million of Heartland Tri-State's own funds to cryptocurrency wallets controlled by the scammers. When the promised profits never materialized, prosecutors say Hanes didn't stop chasing the loss — according to news reporting on the case, he also drew in money from a local church, an investment club, and his own daughter's college savings account, pulling more people's trust and money into the hole the scam had opened.
@@ -4176,6 +4179,9 @@ NotoriousNS.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/opa/pr/nigerian-national-sentenced-prison-international-fraud-scheme-defrauded-elderly-us-victims',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Downtown_Miami_banner.jpg?width=1200',
+    coverImageCredit: 'Photo: Dori and Massimo Telò, Wikimedia Commons (CC BY-SA 3.0) — Miami, where Okezie Bonaventure Ogbata was sentenced in the Southern District of Florida',
     body: `The letters looked official, even bureaucratic — exactly the kind of paperwork an elderly American might expect from a foreign bank handling a deceased relative's estate. A representative of a bank in Spain, the letter would explain, was writing to inform the recipient that a distant, long-lost family member had died and left behind a multimillion-dollar inheritance with the recipient's name on it. All that stood between the reader and the windfall was a series of "delivery fees," taxes, and processing charges, to be sent along before the money could be released. Okezie Bonaventure Ogbata, a Nigerian national, was one of the fraudsters behind that letter campaign, targeting elderly people across the United States over the course of several years.
 
 The inheritance was always fictional, but the fraud ran on real money and real sophistication. Prosecutors say Ogbata and his co-conspirators built a laundering network by recruiting people who had already fallen for the scheme — convincing these earlier victims, many still unaware they'd been defrauded, to receive further payments from other targets and forward the money onward, layering the trail between the mailboxes of elderly Americans and the fraudsters collecting on the other end. By the time the scheme was unwound, Ogbata admitted to defrauding more than $6 million from over 400 victims, many of them elderly or otherwise vulnerable.
@@ -4229,6 +4235,9 @@ NotoriousNS.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/usao-sdga/pr/georgia-man-who-used-covid-relief-funds-buy-pokemon-card-sentenced-prison',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/U.S._Post_Office_and_Court_House,_Augusta_(Richmond_County,_Georgia).jpg?width=1200',
+    coverImageCredit: 'Photo: Federal Judicial Center, Wikimedia Commons (public domain) — a U.S. courthouse in the Southern District of Georgia, where Vinath Oudomsine was prosecuted',
     body: `The CARES Act's Economic Injury Disaster Loan program was built for speed. As the pandemic shut down businesses across the country in 2020, Congress and the Small Business Administration streamlined the application process so struggling business owners could get relief funds within days rather than months — a design choice that also meant far less verification than a normal SBA loan would require before money went out the door. Vinath Oudomsine, of Dublin, Georgia, found that gap and used it.
 
 In August 2020, Oudomsine applied for an EIDL loan on behalf of an "entertainment services" business he claimed to operate, telling the SBA it had ten employees and had generated $235,000 in revenue in the twelve months before the pandemic. Based on those representations, the SBA deposited $85,000 into his bank account. Prosecutors said no such business existed at anywhere near the scale he described.
