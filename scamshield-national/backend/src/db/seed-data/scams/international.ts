@@ -10543,6 +10543,19 @@ International.push(
 
 International.push(
   {
+    name: 'Fake Fundraising Scam Impersonating Liberia\'s Mines Minister',
+    slug: 'liberia-fake-fundraising-mines-minister-impersonation-scam',
+    description: `Liberia's Ministry of Mines and Energy issued a public warning on April 15, 2026 after a fraudulent social-media campaign began soliciting money in the name of Minister R. Matenokay Tingban, using a fake Facebook account created in his name to urge Liberians to contribute toward the construction of an office building for the Liberia Geological Survey (LGS). The fake post directed would-be donors to send funds to phone number 0760-401-109, a number with no connection to the Ministry or the Minister. The Ministry called the scheme "a calculated attempt to deceive the public and exploit the credibility of the Minister," and confirmed the LGS office project is already fully funded through the government's own budgetary process, meaning no public contributions were ever needed or solicited. Officials noted this was the third known fraud attempt made in Minister Tingban's name since he took office in November 2025, with earlier attempts using text messages requesting financial assistance rather than social media. The Ministry urged citizens to remain vigilant, ignore any financial request made in the Minister's name, verify appeals through official government channels only, and report suspicious solicitations rather than sending money to unverified numbers or accounts.`,
+    categorySlug: 'charity-scams',
+    alertLevel: 'medium',
+    sources: ['Liberia Ministry of Mines and Energy', 'FrontPageAfrica'],
+    sourceUrl: 'https://frontpageafricaonline.com/news/liberia-fake-fundraising-scam-targets-mines-minister-as-government-issues-strong-warning/',
+    country: 'LR',
+  },
+);
+
+International.push(
+  {
     name: 'Fake "Hong Kong Police" NFC Card-Tap Scam (Macau)',
     slug: 'macau-fake-police-prosecutor-nfc-tap-scam',
     description: `An elderly Macau resident lost MOP600,000 in a "police-prosecutor" impersonation scam reported to the Judiciary Police (PJ) in March 2026. The victim received a Cantonese-language call from a "+852" Hong Kong number from a caller claiming to be a Wan Chai Police officer, who alleged the victim was implicated in a money-laundering and criminal case in Xiamen and displayed a fabricated arrest warrant to appear credible. To "prove his innocence" and avoid arrest, the victim was instructed to install an unfamiliar mobile app and then hold his bank card against the back of his phone, letting the app read the card's NFC chip and relay the payment data so the scammers could complete unauthorized transactions in real time. This NFC card-clone technique lets fraudsters drain funds without ever needing the card's PIN, magnetic stripe, or physical possession of the card, and has spread from Hong Kong-based "Macau scam" syndicates to victims across the region. The Judiciary Police, which logs dozens of impersonation-of-authority reports every week, reminds residents that genuine Mainland or Hong Kong police and prosecutors never conduct investigations, demand proof of innocence, or collect payments over the phone or through app installations, and urges anyone contacted this way to hang up and verify independently through official hotlines.`,
