@@ -3336,6 +3336,9 @@ The pattern the FTC described at Handy — advertising a headline pay rate that 
     slug: "greenberg-traurig-2026-data-breach-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "greenberg-traurig-2026-data-breach"],
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Greenberg_Traurig_headquarters.jpg?width=1200",
+    coverImageCredit: "Photo: Coolcaesar (CC BY-SA 3.0)",
+    coverImagePosition: 50,
     sourceUrl: "https://databreachrights.com/greenberg-traurig-data-breach/",
     body: `The Greenberg Traurig data breach shows how a single ransomware intrusion at a top-50 U.S. law firm can quietly touch people who never chose to be its clients at all — and it shows what a breach notice looks like in its earliest, still-unfolding days. Greenberg Traurig, LLP, an international law firm with roughly 2,750 attorneys across 49 offices worldwide, was listed on the leak site of a ransomware and extortion group calling itself SilentRansomGroup around September 2-3, 2026, which claimed to have stolen files from the firm's network. Greenberg Traurig began notifying affected individuals on September 8, 2026, and filed a breach notice with the Vermont Attorney General the same day, though as of this writing the firm has not publicly confirmed SilentRansomGroup's identity or the total scope of what the attackers claim to hold.
 
