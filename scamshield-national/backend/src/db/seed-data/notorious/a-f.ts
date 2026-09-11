@@ -6522,6 +6522,10 @@ NotoriousAF.push(
     slug: 'kenneth-akpieyi-emanuella-hall-romance-scam-fugitive',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    // representative photo (case prosecuted by the U.S. Attorney's Office for the Eastern District of Louisiana) — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Hale_Boggs_Federal_Building_and_United_States_Courthouse.jpg?width=1200',
+    coverImageCredit: 'Yair Haklai, CC BY-SA 4.0, via Wikimedia Commons',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.justice.gov/usao-edla/pr/georgia-residents-sentenced-multi-million-dollar-romance-scam',
     // no rights-cleared photo found — sourceUrl above serves as the "read the full story" link
     body: `Kenneth G. Akpieyi of Marietta, Georgia, and Emuobosan Emanuella Hall of Atlanta ran a romance-fraud operation built on borrowed authority: fake Facebook and Instagram profiles presenting the conspirators as decorated military generals, philanthropists, and international entrepreneurs — men and women of obvious means who happened to live overseas and could never quite meet in person. Once a target responded, the conversation moved off the public platform and onto encrypted WhatsApp messaging, where the relationship deepened for weeks or months before any request for money ever surfaced. More than 30 women across the country were drawn in this way, most of them older women who believed they had found a late-in-life partner rather than a scripted character run by a fraud ring in Georgia.
