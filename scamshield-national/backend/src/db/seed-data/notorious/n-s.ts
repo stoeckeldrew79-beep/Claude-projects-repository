@@ -5603,6 +5603,10 @@ NotoriousNS.push(
     slug: 'roy-dixon-jr-detroit-pension-fund-bribery',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Coleman_A._Young_Municipal_Center_2025.jpg?width=1200',
+    coverImageCredit: 'Photo: WMrapids, CC0, via Wikimedia Commons — Coleman A. Young Municipal Center, Detroit',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     body: `Roy Dixon Jr. founded Onyx Capital Advisors and pitched it to public pension funds as a way to diversify retirement money into stable, income-producing private companies. In 2006 and 2007, he persuaded two City of Detroit pension funds and a City of Pontiac, Michigan, pension fund to invest a combined $23.8 million in Onyx's newly formed private-equity fund — retirement money for police officers, firefighters, and other municipal employees, entrusted to a firm with no meaningful track record, on the strength of Dixon's pitch and, prosecutors later said, cash paid quietly to the people deciding whether to approve it.
 
 According to the SEC, Onyx never invested the money the way it told pension trustees it would. Rather than the diversified Midwest manufacturing portfolio Onyx had described, nearly $16 million of the pension funds' money ended up in Second Chance Motors, a used-car dealership serving credit-challenged buyers in Georgia that was controlled by Dixon's business partner, Michael A. Farr — a former NFL wide receiver for the Detroit Lions. Dixon and Onyx separately pulled more than $2.06 million out of the fund disguised as "excess" and "advance" management fees, while Farr helped divert roughly another $1.05 million from the fund's supposed investments in his own companies.
