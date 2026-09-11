@@ -13259,3 +13259,17 @@ International.push(
     country: 'TL',
   },
 );
+
+International.push(
+  {
+    name: 'Bobby Boye Petroleum Tax Advisor Shell-Company Fraud',
+    slug: 'timor-leste-bobby-boye-petroleum-tax-advisor-fraud',
+    description: `Bobby Boye, a Nigerian-American "tax expert," was recruited by Norway's Ministry of Finance in early 2010 to advise Timor-Leste's government under the Norwegian Petroleum Assistance Project, taking up a post as a petroleum tax advisor to the Ministry of Finance in June 2010; by 2011 his salary had shifted from Norwegian aid funding onto Timor-Leste's own treasury. While serving in a position of trust that included sitting on a committee responsible for reviewing and awarding multimillion-dollar contracts for legal and tax accounting advice, Boye secretly created a shell company in New York called Opus & Best Law Services LLC and, without disclosing that he controlled it, steered roughly $8 million in government contracts to the firm for purported legal drafting and advisory work it was never positioned to genuinely perform. Timor-Leste authorities uncovered the scheme and alerted their U.S. counterparts, and Boye was arrested at Newark Liberty International Airport in June 2014 and charged with conspiracy and wire fraud over $3.51 million in payments Timor-Leste had wired to Opus & Best. He pleaded guilty on May 2, 2015 in U.S. District Court in Trenton, New Jersey, to conspiracy to commit wire fraud, admitting he had acted "knowingly, willfully and with the intent to defraud." On October 15, 2015, Judge Freda Wolfson sentenced him to six years in federal prison plus three years of supervised release and ordered him to pay the full $3.51 million in restitution to Timor-Leste, routed through the U.S. Treasury to the government's own attorney; a bank account, four properties, three vehicles, and two watches were also forfeited to help cover the loss. The Dili-based watchdog group La'o Hamutuk, which tracks the country's oil-funded state budget, argued the true cost of Boye's self-dealing — counting inflated fees and lost value across the full run of Opus & Best contracts — was closer to $176 million, though that broader estimate was not factored into his sentence. The case remains one of the clearest examples of a foreign advisor exploiting insider access to a resource-rich but institutionally young government, and Timor-Leste's own government publicly confirmed the guilty plea and restitution once it was secured, underscoring the risk that any external "expert" awarding contracts to a firm they will not name their own connection to should be treated as a serious conflict-of-interest red flag by the officials who hired them.`,
+    categorySlug: 'business-email-compromise',
+    sources: ['U.S. Department of Justice', 'Federal Bureau of Investigation (FBI), Newark Field Office', 'Government of Timor-Leste', "La'o Hamutuk"],
+    sourceUrl: 'https://timor-leste.gov.tl/?p=11861&lang=en',
+    country: 'TL',
+    isHistorical: true,
+    firstRecorded: '2011-01-01',
+  },
+);
