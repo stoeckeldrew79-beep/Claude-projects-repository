@@ -2594,6 +2594,10 @@ NotoriousTZ.push(
     slug: 'todd-hitt-kiddar-capital-ponzi-scheme',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Albert_V_Bryan_Federal_District_Courthouse_-_Alexandria_Va_-_0005_-_2012-03-10_(6828497078).jpg?width=1200',
+    coverImageCredit: 'Photo: Tim Evanson, CC BY-SA 2.0, via Wikimedia Commons — the Eastern District of Virginia courthouse where Hitt was sentenced',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     body: `Todd Hitt came from money and pedigree in the Washington, D.C. real estate world — his family's name was on Hitt Contracting, one of the region's largest construction firms — and he used that inherited credibility to found Kiddar Capital, a Falls Church, Virginia investment firm he told investors managed $1.4 billion in assets across offices in Washington, London, Houston, and Palm Springs. In reality, Kiddar operated out of a single Falls Church office with roughly $26 million in verifiable assets, a gap between the pitch and the balance sheet that widened for years before anyone outside the company noticed.
 
 From 2014 through August 2018, Hitt solicited roughly $30 million from investors for what he described as real estate and venture capital deals around the D.C. area, the largest a $17 million raise tied to an office building project near a Metro Silver Line stop in Herndon. Rather than putting the money into the specific projects investors were told they were funding, prosecutors said, Hitt commingled it across unrelated ventures, used new investors' money to make payments that looked like returns to earlier investors, and diverted a substantial share directly to his own lifestyle — vacations, sports tickets, and a credit card bill that in one instance ran to roughly $230,000, covering luxury jewelry, private flights, and resort stays. It took complaints from Hitt's own employees, who could see the gap between what he was telling investors and what the company actually had, to bring the scheme to investigators' attention.

@@ -8139,6 +8139,10 @@ NotoriousGM.push(
     slug: 'james-ossie-cre-capital-currency-ponzi-scheme',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Alpharetta,_Georgia_City_Hall.jpg?width=1200',
+    coverImageCredit: 'Photo: Thomson200 (CC0, public domain) — Alpharetta, Georgia, where Ossie ran CRE Capital',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     body: `James G. Ossie ran CRE Capital Corporation out of Alpharetta, Georgia, pitching what he called "30-Day Currency Trading Contracts" — an investment program that guaranteed investors a 10% return within thirty days, backed, he told them, by a "large, defensive reserve fund" CRE had set aside specifically to cover redemptions and promised profits even when a given month's trades didn't pan out. He also claimed the program had been reviewed by an outside auditor who'd confirmed it wasn't a fraud, the kind of manufactured credibility that made a guarantee which should have raised red flags on its own look instead like a rare, low-risk opportunity in the foreign exchange market.
 
 From around April 2008 into January 2009, CRE and Ossie raised at least $25 million from more than 120 investors on that pitch. There was no consistent trading profit behind the returns; the SEC later found CRE was paying investors' guaranteed 10% out of money coming in from newer investors, classic Ponzi mechanics dressed up as a currency-arbitrage strategy. The scheme collapsed once new money couldn't keep pace with existing obligations, and the SEC moved to freeze CRE's and Ossie's assets on January 15, 2009. Ossie didn't respect the freeze: he sold a BMW 750 for $51,000 and attempted to move $45,000 into an account controlled by his wife, prompting the SEC to file a contempt application against him weeks later.
@@ -8156,6 +8160,10 @@ NotoriousGM.push(
     slug: 'joseph-signore-virtual-concierge-machines-ponzi-scheme',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/West_Palm_Beach,_FL,_Courthouse_One,_West_Side,_Palm_Beach_County,_11-21-2010_(3).JPG?width=1200',
+    coverImageCredit: 'Photo: Georgia Guercio, CC BY-SA 3.0, via Wikimedia Commons — the Palm Beach County courthouse where Signore was tried',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     body: `Joseph Signore ran JCS Enterprises out of Jupiter, Florida, selling investors a piece of what he called Virtual Concierge Machines — freestanding kiosks, priced between $2,600 and $4,500 apiece, that businesses would supposedly host to print coupons and display local advertising, generating a share of ad revenue for whoever had bought in. Beginning around 2011, Signore and his business partner Paul Schumack II marketed the machines through YouTube videos, company websites, and mass emails — Schumack's pitches falsely claimed he'd graduated West Point in 1979 and leaned on Bible verses to build trust — promising investors annual returns of 80% to 120%, and as much as 500% over the life of a three- or four-year contract.
 
 The numbers didn't remotely match reality. JCS pre-sold more than 22,500 machines to roughly 1,800 investors nationwide, but fewer than 200 were ever manufactured and only 82 were actually installed anywhere; the machines that did exist generated a combined total of about $21,000 in real advertising revenue against tens of millions of dollars raised. Rather than build out the business investors thought they owned a piece of, Signore and Schumack used new investors' money to make "returns" payments to earlier ones, while diverting more than $2 million to Signore's own family, another $56,000 to restaurants, retail stores and a tanning salon, and moving roughly $4 million more through over 100 unexplained cash withdrawals. The SEC and federal prosecutors shut the operation down in 2014, by which point it had taken in an estimated $80 million.
@@ -8173,6 +8181,10 @@ NotoriousGM.push(
     slug: 'heather-tucci-jarraf-sovereign-citizen-bank-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Knoxville_skyline_from_Tennessee_River.jpg?width=1200',
+    coverImageCredit: 'Photo: AppalachianCentrist, CC BY-SA 4.0, via Wikimedia Commons — Knoxville, Tennessee, where Beane cashed in the fraudulent CDs',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     body: `Heather Ann Tucci-Jarraf was a former lawyer who had once worked as both a prosecutor and a public defender in Pierce County, Washington, before reinventing herself as a leading voice of the "sovereign citizen" fringe. Through a website, videos, and talk-show appearances, she promoted a piece of "straw man" conspiracy folklore: the theory that the government secretly creates a hidden trust fund of "unlimited value" for every citizen, accessible to anyone who files paperwork with "the correct verbiage." She also produced faux-legal documents, tied to a group she called "The One People's Public Trust," that purported to unlock those accounts.
 
 Randall Keith Beane, an Air Force veteran and electrical engineer from Knoxville, Tennessee, found Tucci-Jarraf's material while drowning in car, credit card, and personal-loan debt, and reached out to her directly. In July 2017 he came across a Facebook video posted under the alias of the Batman villain Harvey Dent, claiming to teach viewers how to tap their secret trust accounts. In reality, the video was teaching a way to commit wire fraud by exploiting a weakness in the Automated Clearing House network banks use to move money online. Beane tried it on July 3, entering his own Social Security number as an account number and the Federal Reserve's own routing number to fraudulently pay off his loans, credit cards, and car insurance in full. Two days later, with Tucci-Jarraf offering "moral support" over video-conferencing software, he began buying certificate of deposit after certificate of deposit at his bank, USAA, and didn't stop until his computer mouse ran out of battery. He woke up the next morning to find more than $28 million in fraudulent CDs sitting in his account; before long, he pushed the total to $31 million and started cashing them in, buying an $86,000 truck and a half-million-dollar motor home with two bathrooms, marble floors, and a fireplace.
@@ -8192,6 +8204,10 @@ NotoriousGM.push(
     slug: 'luke-servas-cusick-washington-town-clerk-embezzlement',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Pend_Oreille_County_Courthouse;_Newport,_WA.JPG?width=1200',
+    coverImageCredit: 'Photo: Kirk Bailey, CC BY-SA 3.0, via Wikimedia Commons — the Pend Oreille County courthouse serving Cusick, Washington',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     body: `Cusick, Washington, is a town of a few hundred people in rural Pend Oreille County, the kind of small municipality where the same handful of residents fill most of the elected and administrative roles. Luke Michael Servas filled two of them at once: from October 2022 to March 2023, he served simultaneously as the town's clerk, with direct control over its finances and accounts, and as an elected member of the town council that was supposed to oversee that same spending.
 
 Servas used that dual position to move town money into his own life. Using both the town's credit card and one issued to the mayor, he transferred funds into accounts belonging to himself and his spouse, and into a cryptocurrency account, ultimately embezzling more than $277,000 from a town with a correspondingly tiny annual budget. When town officials noticed the missing money and started asking questions, Servas didn't confess — he filed a false report with the Pend Oreille County Sheriff's Office claiming it was the elected mayor, Duane Schofield, who had misused the card. Prosecutors later said Servas also attempted to delete the town's computer systems, both to cover his tracks and to try to misappropriate still more money in the process.
@@ -8200,5 +8216,39 @@ A federal grand jury indicted Servas in March 2024 on more than 75 counts of fra
 
 Cusick's case is a reminder that the safeguards meant to catch this kind of theft — an elected council overseeing a paid clerk — depend on those roles actually being held by different people with different interests. When one person occupies both the office that spends the money and the office that is supposed to watch how it's spent, a town with only a few hundred residents and a correspondingly small budget can have hundreds of thousands of dollars disappear before anyone outside city hall notices.`,
     sourceUrl: 'https://www.justice.gov/usao-edwa/pr/former-washington-town-clerk-and-town-council-member-sentenced-stealing-more-277000',
+  },
+);
+
+NotoriousGM.push(
+  {
+    title: 'Gregory B. Anderson: The "Women\'s Cancer Fund" That Gave Cancer Patients One Cent on the Dollar',
+    slug: 'gregory-anderson-womens-cancer-fund-charity-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2024/03/ftc-10-states-take-action-against-operator-sham-cancer-charity-deceiving-donors',
+    body: `Gregory B. Anderson ran Cancer Recovery Foundation International, Inc., a nonprofit that did business under a name designed to pull at heartstrings: the Women's Cancer Fund. Telemarketers working the phones on the charity's behalf told prospective donors their gifts would "help save lives" and go "directly" toward basic living expenses — rent, groceries, utilities — for women undergoing cancer treatment, with some callers claiming as much as half of every donation would reach survivors directly.
+
+Federal and state regulators say almost none of it did. According to the complaint the Federal Trade Commission and ten state attorneys general filed jointly in March 2024, Women's Cancer Fund collected more than $18.25 million in donations between 2017 and 2022, and of that total, only about $194,809 — roughly one cent on every dollar donated — was actually spent helping women with cancer. The rest went almost entirely to running the fundraising operation itself: regulators say the charity paid for-profit telemarketing firms $15.55 million, or about 85 percent of everything it raised, while paying Anderson personally $775,139 in compensation — nearly four times what reached the cancer patients the charity was supposedly built to help — on top of covering his hotels, travel, and other personal expenses with donated funds.
+
+The FTC and the attorneys general of California, Florida, Maryland, Massachusetts, North Carolina, Oklahoma, Oregon, Texas, Virginia, and Wisconsin filed the joint action against Anderson and the charity in the U.S. District Court for the Southern District of Texas (Civil Action No. 4:24-cv-00881), alleging violations of the FTC Act and the Telemarketing Sales Rule. By December 2024, the court had entered a Stipulated Order for Permanent Injunction and Other Relief against the Women's Cancer Fund entity itself, barring it from continuing to operate as a charity.
+
+The case is a reminder that a sympathetic name and an urgent-sounding phone pitch aren't evidence a charity is doing what it claims — donors who want their money to actually reach cancer patients have to check a charity's real financial breakdown against groups like CharityWatch or a state charity regulator's database, because "help save lives" on a telemarketing script cost this organization's donors nothing to say and, according to regulators, meant almost nothing in practice.`,
+  },
+);
+
+NotoriousGM.push(
+  {
+    title: "James Trankle's Fake Veterans and Cancer Charities That Turned Donors' Own Checks Against Them",
+    slug: 'james-trankle-fake-charity-check-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-dc/pr/maryland-man-sentenced-five-years-scheme-bilked-benevolent-donors-charitable',
+    body: `James Trankle, of Churchton, Maryland, and a co-defendant, Stephen Sibert, spent from 2013 to 2018 registering a string of charities with Washington, D.C.'s Department of Consumer and Regulatory Affairs under names built to sound both sympathetic and legitimate: the Disabled and Paralyzed Veterans Fund, the National Breast Cancer Awareness Fund, and the Children's Leukemia of America Fund. None of them, prosecutors said, functioned as real charities at all.
+
+The pair mailed solicitations to potential donors nationwide, asking recipients to support veterans, breast cancer patients, or children with leukemia by mailing back a personal check. It worked well enough to bring in more than 1,600 checks from donors who believed they were making legitimate charitable gifts — money that, instead of funding any veteran's care or cancer patient's treatment, was deposited directly into accounts Trankle and Sibert controlled, netting them more than $45,000.
+
+Trankle and Sibert then used the banking and routing information printed on those same 1,600-plus donor checks to manufacture a second layer of fraud: more than 700 unauthorized counterfeit checks, drawn against the donors' own accounts and payable to the fraudulent charities, which the pair deposited and spent on personal expenses. That counterfeiting scheme brought in well over $150,000 more, pushing the total scheme's take toward $200,000 — meaning that people who thought they'd made a one-time donation to a veterans' or cancer charity had unknowingly handed over the information needed to keep being victimized long after their check cleared.
+
+A federal jury in the District of Columbia convicted Trankle in May 2023 of conspiracy to commit mail and bank fraud along with five substantive counts of bank fraud. U.S. District Judge Trevor N. McFadden sentenced him that December to 60 months in federal prison, followed by five years of supervised release, and ordered $204,561 in restitution alongside forfeiture of $135,327. Trankle's scheme is a reminder that a charitable check carries more risk than the amount written on its face: the same account and routing numbers that let a legitimate charity deposit a gift can, in the hands of a fraudster, be reused to print entirely new checks against a donor's account — a second theft made possible only because the first one, disguised as generosity, was trusted enough to go unquestioned.`,
   },
 );

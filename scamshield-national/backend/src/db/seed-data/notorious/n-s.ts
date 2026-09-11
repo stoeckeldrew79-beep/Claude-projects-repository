@@ -5575,3 +5575,20 @@ Khan pleaded guilty in March 2024 to a single count of aggravated identity theft
     sourceUrl: 'https://www.justice.gov/usao-sdny/pr/international-businessman-sentenced-two-years-prison-connection-wine-fraud-scheme',
   },
 );
+
+NotoriousNS.push(
+  {
+    title: 'Robert Lee Adams: The 73-Year-Old Optometrist Running a Forex Ponzi Scheme on the Side',
+    slug: 'robert-adams-simtradepro-forex-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.cftc.gov/PressRoom/PressReleases/9148-25',
+    body: `Robert Lee Adams held down a full-time job as an optometrist in Bandon, a small coastal town in Oregon, while running a side business that promised clients something his day job never could: extraordinary returns from trading leveraged foreign currency and precious metals. Adams had no formal training as a financial adviser and, according to court records, had previously been sanctioned in Wisconsin for offering financial advice without a license — a warning sign that didn't stop him from doing much the same thing in Oregon under two successive entities, Winning Investments LLC and later SimTradePro Inc.
+
+The pitch was straightforward: pool client money into commodity trading pools built around leveraged forex and leveraged gold and silver contracts, with Adams claiming he only collected fees when his customers actually made money. Oregon's Division of Financial Regulation caught an early, smaller piece of it in January 2020, issuing a cease-and-desist order after finding that four investors — including an elderly client who lost most of her retirement savings — had lost more than $279,000 in under a year to an operation that had never been licensed as an investment adviser in the state. Adams kept going anyway. By the time federal regulators caught up with the full scope of the business, SimTradePro had solicited more than $2.3 million from at least 100 customers, many of them planning for retirement, misrepresenting its fee structure and concealing significant trading losses the whole time.
+
+The Commodity Futures Trading Commission filed a civil fraud complaint against Adams and SimTradePro in the District of Oregon in October 2024, alleging the company had operated for years as an unregistered commodity pool operator and trading advisor while giving customers a false picture of how their money was performing. A federal criminal case ran alongside it, and the criminal numbers came in even larger than the civil complaint: prosecutors ultimately tied Adams to $2.8 million taken from 155 victims. Adams pleaded guilty to wire fraud, and on August 12, 2025, U.S. District Judge Michael J. McShane sentenced him to 30 months in federal prison, rejecting his attorney's request for probation based on his age and health and ordering him to surrender to the U.S. Marshals Service that November. After SimTradePro collapsed, Adams reportedly took jobs at a Dollar General store and an assisted living facility. In December 2025, the CFTC secured a consent order requiring Adams and SimTradePro to pay $2,072,986 in restitution and permanently banning both from ever registering with the CFTC or trading in markets it regulates again.
+
+Adams's case is a reminder that a fraudster's day job can be the very thing that makes a side-hustle investment pitch feel safe: a respected local professional with a stable, unrelated career doesn't fit most people's mental picture of a con artist, which is exactly why a prior licensing sanction in another state and a total absence of financial-industry credentials weren't enough, on their own, to stop 155 people — many of them retirees — from handing him their money.`,
+  },
+);
