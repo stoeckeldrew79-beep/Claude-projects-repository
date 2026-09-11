@@ -6930,3 +6930,17 @@ UsAF.push({
     isHistorical: true,
     firstRecorded: '2026-04-27',
 });
+
+UsAF.push({
+    name: 'Fake Military Care-Package Charity Fraud (Durand Kelby Tovar)',
+    slug: 'colorado-first-choice-processing-military-charity-fraud',
+    description: `Durand Kelby Tovar, of Summit County, Colorado, spent more than a decade going door-to-door soliciting cash donations for what he described as a charity that shipped care packages to active-duty U.S. service members, veterans, and their families — an operation Colorado Attorney General Phil Weiser's office says was never actually registered as a charity and, for years, barely functioned as one at all. Tovar ran the solicitation through First Choice Processing and related businesses beginning in at least 2013, using marketing materials claiming a distributor shipped "10,000 plus care packages" a year on the charity's behalf; investigators found Tovar had stopped using that distributor back in 2017 and could not confirm he had sent a single care package since 2021, even as he kept collecting cash at doorsteps across the state. Because Tovar had never registered the operation with the Colorado Secretary of State as a charity or registered himself as a paid solicitor, donors had no way to look up the organization's real finances or track record before giving. "Fake charities of any kind are wrong and illegal, but it's especially despicable for someone to take advantage of those who want to support our active-duty service members, veterans, and their families," Weiser's office said in announcing the case. Under a settlement filed in Summit County district court on May 16, 2024, Tovar agreed to a permanent bar from engaging in any charitable solicitation, direct or indirect, and to pay a $20,000 fine the state can use for victim restitution, consumer education, or further enforcement — with a $50,000 penalty due if he violates the terms. Anyone solicited for a military-support charity at their own front door is advised to ask for the organization's registration number and independently verify it through the Colorado Secretary of State's charity search before donating, rather than relying on a solicitor's own claims about how much aid the charity has shipped.`,
+    categorySlug: 'charity-scams',
+    alertLevel: 'medium',
+    sources: ["Colorado Attorney General's Office (Phil Weiser)"],
+    sourceUrl: 'https://coag.gov/press-releases/attorney-general-phil-weiser-fake-charity-military-fraud-5-16-24/',
+    country: 'US',
+    state: 'CO',
+    isHistorical: true,
+    firstRecorded: '2024-05-16',
+});
