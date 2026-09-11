@@ -7756,3 +7756,20 @@ The fraud finally unraveled in June 2002, when WorldCom's internal audit departm
 Vinson's case became one of the most closely studied examples of how an ordinary employee gets drawn into a fraud she recognized as wrong from the outset: not through greed, in her own telling, but through a boss's calm insistence that the false entries were only temporary, that resigning would solve nothing, and that going along for one more quarter was easier than being the one who forced the plane to crash. Knowing something is fraudulent and doing it anyway because refusing felt harder is a common thread through cases on this list, and Vinson's is one of the clearest illustrations of how that reasoning plays out from the inside, quarter after quarter, until an auditor outside the chain of command finally looks at the numbers and asks the question no one inside it was willing to ask.`,
   },
 );
+
+NotoriousAF.push(
+  {
+    title: 'Francisco Illarramendi and the Michael Kenwood Hedge Fund Ponzi Scheme',
+    slug: 'francisco-illarramendi-michael-kenwood-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-21875',
+    body: `Francisco Illarramendi, a dual U.S.-Venezuelan citizen who lived in New Canaan and later Stamford, Connecticut, built a group of investment firms — Michael Kenwood Capital Management, LLC and related entities operating under the umbrella Michael Kenwood Group, LLC — that managed hedge funds on behalf of institutional clients. His biggest client by far was a pension fund tied to Petróleos de Venezuela, S.A. (PDVSA), the Venezuelan state oil company: at its peak, that single pension fund supplied roughly 90 percent of the money in the funds Illarramendi ran.
+
+From 2006 until the scheme collapsed in February 2011, Illarramendi used new investor money to cover the gap between what his funds actually held and what he had told investors and creditors they held, the same structural mechanic as any Ponzi scheme. By the time it unraveled, the hedge funds and related entities he managed had liabilities far exceeding their real assets, leaving investors, creditors, and service providers with combined losses of more than $700 million — the overwhelming majority of it belonging to the Venezuelan pension fund and, by extension, the oil-company workers it was meant to support.
+
+As the SEC began investigating, Illarramendi worked to keep the fraud hidden rather than let it surface on its own. He gave SEC staff a letter, purportedly from an accountant in Venezuela, falsely verifying that one of his funds held about $275 million in assets that did not actually exist, and paid roughly $3.4 million in bribes to two PDVSA officials to help secure a further $100 million investment into the scheme. The SEC filed a civil fraud complaint on January 14, 2011; a federal court froze his assets two weeks later and appointed a receiver, attorney John J. Carney, to take control of the funds and their remaining assets.
+
+Illarramendi pleaded guilty to two counts of wire fraud, one count of securities fraud, one count of investment adviser fraud, and one count of conspiracy to obstruct justice, obstruct an official proceeding, and defraud the SEC. On January 29, 2015, U.S. District Judge Stefan R. Underhill sentenced him in Bridgeport to 156 months — 13 years — in federal prison, followed by three years of supervised release, with restitution to be determined once the full scope of victim losses was calculated. The fabricated accountant's letter and the PDVSA bribes are why the case stands out even among nine-figure Ponzi schemes: caught mid-fraud, Illarramendi didn't stop, he escalated, manufacturing new lies and paying new bribes to keep a collapsing scheme alive a little longer at the expense of a foreign pension fund that had no way of knowing its retirement money had already been spent.`,
+  },
+);
