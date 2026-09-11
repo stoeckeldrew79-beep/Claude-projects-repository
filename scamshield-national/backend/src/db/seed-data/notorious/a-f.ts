@@ -6906,3 +6906,22 @@ More than 425 victims across Florida, Alabama, and at least fourteen other state
 Immigration fraud built around a fake practitioner works because the paperwork it produces is genuinely hard for a layperson to evaluate — a real asylum filing sitting alongside fabricated add-on requirements looks, to someone unfamiliar with the actual process, like a single coherent legal procedure rather than a mix of the real and the invented. Anyone offering immigration help who cannot be verified through a state bar association or the Department of Justice's list of accredited representatives, or who tacks unusual demands like out-of-state "medical exams" onto a standard filing, is a reason to stop and independently confirm the person's credentials before paying or traveling anywhere on their instruction.`,
   },
 );
+NotoriousAF.push(
+  {
+    title: 'Bruce Jin and the $59 Million Unemployment Fraud Pipeline to China',
+    slug: 'bruce-jin-unemployment-insurance-fraud-china',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://oig.dol.gov/public/Press%20Releases/OIG-Press-Release-050826.htm',
+    // no verified rights-cleared photo found yet — see NotoriousCoverPhotos
+    body: `Bruce Jin, 61, of Los Angeles, built his role in a nationwide pandemic-unemployment fraud conspiracy around a simple piece of paperwork theater: agreements that made it look, on the surface, like he was running a legitimate business selling masks and other COVID-19 personal protective equipment. According to the U.S. Attorney's Office for the Middle District of Pennsylvania, that manufactured business identity was the cover Jin and two Los Angeles-based coconspirators, Brian R. Cleland, 72, and Carlos A. Grijalva, 60, needed to plug into a much larger, partly China-based fraud network targeting state unemployment compensation systems.
+
+The scheme's engine, prosecutors said, was industrial-scale identity theft: coconspirators, including some based in China, opened thousands of bank accounts across the United States using the stolen personal identifying information of real people, then filed a flood of fraudulent unemployment claims in their names with state agencies in Pennsylvania, Virginia, Florida, and elsewhere — states whose pandemic-era systems, built for speed rather than scrutiny, approved and paid many of the claims before anyone could verify a legitimate job loss had actually occurred. Jin's own companies, Ample International and Jin Commerce, received more than $12 million of those fraudulently obtained unemployment funds funneled through the identity theft victims' accounts.
+
+Rather than let the money sit in domestic accounts where it might draw scrutiny, prosecutors said Jin moved it overseas: he wired more than $35 million of the proceeds internationally to a company bank account in China, laundering the stolen benefits out of the reach of the states and victims the money had been taken from. Combined with the rest of the scheme's proceeds, prosecutors put Jin's total fraud at roughly $59 million in public benefits.
+
+Jin pleaded guilty on January 29, 2025, to conspiracy to commit wire fraud and conspiracy to launder monetary instruments. On April 30, 2026, U.S. District Judge Jennifer P. Wilson sentenced him to 144 months — twelve years — in federal prison and ordered forfeiture of more than $59 million in currency and other property traced to the scheme. "This is exactly the kind of brazen fraud that steals from hardworking American taxpayers and lines the pockets of criminals," said Department of Labor Office of Inspector General special agent in charge Anthony P. D'Esposito in announcing the sentence, which followed a joint investigation with the FBI.
+
+Jin's case is a reminder that a pandemic-era relief system built to move money quickly to laid-off workers was also, by design, a system that trusted the identity behind each claim more than it verified it — a vulnerability that let identity thieves, shell "PPE businesses," and an international money-laundering pipeline sit quietly behind thousands of individually unremarkable unemployment claims until the total reached nine figures.`,
+  },
+);
