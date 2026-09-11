@@ -5986,3 +5986,17 @@ UsGM.push({
     isHistorical: true,
     firstRecorded: '2026-05-26',
 });
+
+UsGM.push({
+    name: 'C4D Contract-for-Deed Scheme Targeting Somali Muslim Homebuyers',
+    slug: 'minnesota-c4d-somali-muslim-contract-for-deed-scheme',
+    description: `Minnesota Attorney General Keith Ellison sued St. Cloud-based C4D, LLC and Five Points Properties, LLC, along with co-owners Travis Benoit and Steven Legatt, in Hennepin County District Court on September 11, 2026, alleging the companies deliberately marketed predatory "contracts for deed" to Minnesota's roughly 80,000-strong Somali Muslim community by falsely presenting the arrangement as interest-free financing compliant with Islamic prohibitions on interest. Under a contract for deed, a buyer makes payments directly to the seller without receiving legal title until the full price is paid off — and the complaint alleges C4D exploited that structure by first buying homes with conventional mortgages, then reselling the same properties the same day at dramatically inflated prices, in one example flipping a $399,900 home for $931,950, a $532,050 same-day markup. To build trust, the companies allegedly used a Somali community liaison to recruit buyers and collect payments, featured a local imam and a Somali singer in their marketing, and promoted the company's donations toward a mosque and a charter school. Buyers were left facing balloon payments as high as $77,475 a year or a final payment of $220,000 on a $541,200 contract; more than two-thirds of C4D's roughly 74 customers ended up applying for COVID-era homeowner assistance — five times the rate of other Minnesota contract-for-deed companies — and the contracts failed at roughly 20 times the national foreclosure rate. The Attorney General's office described contracts for deed generally as "poor man's mortgages that combine the obligations of homeownership with the disadvantages of renting," and the lawsuit seeks restitution for affected buyers along with civil penalties and injunctive relief. Minnesota law gives contract-for-deed buyers who did not receive the legally required disclosures the right to cancel the purchase and receive a full refund within five days of signing, and prospective buyers are advised to have any contract-for-deed offer independently reviewed by a housing counselor or attorney before signing, regardless of how the financing is described or who is vouching for the seller.`,
+    categorySlug: 'mortgage-foreclosure-scams',
+    country: 'US',
+    state: 'MN',
+    alertLevel: 'high',
+    sources: ["Minnesota Attorney General's Office", 'Hoodline'],
+    sourceUrl: 'https://hoodline.com/2026/09/minnesota-ag-sues-st-cloud-firm-over-contracts-that-targeted-somali-muslims/',
+    isHistorical: true,
+    firstRecorded: '2026-09-11',
+});
