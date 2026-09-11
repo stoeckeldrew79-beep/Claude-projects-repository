@@ -13588,3 +13588,16 @@ International.push(
     country: 'CV',
   },
 );
+
+International.push(
+  {
+    name: 'Fraudulent "Micronesia International Ship Registry" Flag Scheme',
+    slug: 'fsm-fraudulent-ship-registry-scheme',
+    description: `The Permanent Mission of the Federated States of Micronesia to the United Nations sent a letter to the UN, reported by shipping trade outlet Splash247 on April 12, 2017, warning that vessels and seafarers were being illegally registered under a fake outfit calling itself the "Micronesia International Ship Registry" (MISR). The letter stated plainly that "the laws of the FSM do not provide or otherwise allow for an international ship registry" and that FSM law likewise does not provide for the issuance of seafarers' certification tied to any such registry. Despite FSM not even being a member of the International Maritime Organization (IMO) at the time, individuals behind MISR had presented false documentation to the IMO claiming they were duly authorized to act as the country's ship registrar, and in doing so gained access to IMO-assigned codes needed to register vessels in FSM's name. "At this time we believe that there are approximately 300 vessels illegally registered in the name of FSM," the Permanent Mission's letter said, adding that the same individuals were believed responsible for issuing more than 1,000 bogus seafarers' certifications purporting to comply with the International Convention on Standards of Training, Certification and Watchkeeping (STCW). The IMO's own Legal Affairs and External Relations Division later confirmed it had mistakenly listed the fraudulent MISR as an authorized registry representative in its contact records for a period, and by the IMO Legal Committee's 2019 session FSM was reporting more than 100 confirmed fraudulent ship registrations plus attempts by the same operators to defraud the Organization's own web accounts. Ships carrying fake FSM registration papers pose real safety and security risks, since a phantom flag means no genuine authority stands behind a vessel's safety certificates, crew documents, or accountability for the ship's conduct at sea, including illegal fishing and other unlawful activity in other nations' waters. The IMO subsequently adopted an Assembly resolution on measures to prevent fraudulent ship registration and issued Circular Letter No. 4190 recommending that prospective flag states and registrants verify IMO vessel numbers, confirm a flag administration's official contact-point information through the IMO's own GISIS database, and check any registry's legitimacy directly with the flag state before relying on its paperwork.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Permanent Mission of the Federated States of Micronesia to the United Nations', 'Splash247', 'International Maritime Organization (IMO) Legal Affairs and External Relations Division'],
+    sourceUrl: 'https://splash247.com/300-ships-1000-seafarers-fall-fake-registry-scam/',
+    country: 'FM',
+  },
+);
