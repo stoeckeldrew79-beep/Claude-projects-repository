@@ -7624,6 +7624,10 @@ NotoriousGM.push(
     title: "George Levin and the Fake Legal Settlements That Fed Scott Rothstein's Ponzi Scheme",
     slug: 'george-levin-banyon-rothstein-feeder-fund-fraud',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Ft._Lauderdale,_FL,_Courthouse,_Broward_County,_11-21-2010_(10).JPG?width=1200',
+    coverImageCredit: 'Photo: Georgia Guercio (CC BY-SA 3.0) — the Broward County courthouse in Fort Lauderdale, where the Rothstein-Banyon case unraveled',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
     sourceUrl: 'https://www.sec.gov/newsroom/press-releases/2012-2012-100htm',
     body: `George Levin, a Fort Lauderdale businessman, was by the SEC's account the single largest source of outside money that flowed into disbarred attorney Scott Rothstein's $1.2 billion Ponzi scheme — one of the largest in Florida history. Levin didn't run the underlying fraud, but the feeder operation he built around it raised more than $157 million from 173 investors in less than two years, and without it Rothstein's scheme would have run out of fuel far sooner than it did.
