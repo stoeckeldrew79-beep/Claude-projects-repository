@@ -6065,6 +6065,10 @@ NotoriousGM.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/usao-wdnc/pr/assistant-pastor-convicted-trial-800000-investment-scheme-sentenced-prison',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Charles R. Jonas Federal Building, Charlotte (Mecklenburg County, North Carolina).jpg?width=1200',
+    coverImageCredit: 'Photo: National Archives (Public Domain)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `From 2009 to October 2021, Michael Mandel Baldwin served as assistant pastor and musical director at a church in Northern Virginia while also running his own company, Miracle Mansion, LLC, of which he was chief executive officer. According to the U.S. Attorney's Office for the Western District of North Carolina, Baldwin used his standing inside the church to pitch a very different kind of project to fellow believers: an "entertainment complex" he described as poised to "reshape the face of family entertainment" in the Washington, D.C. area, built around explicitly Biblical themes.
 
 To make the pitch land, prosecutors said, Baldwin produced promotional material and ran investor meetings — in person and virtual — that repeatedly misrepresented the project's backing. He falsely claimed that executives from Chick-fil-A, Hobby Lobby, and the Kennedy Center had reviewed and endorsed Miracle Mansion; when some of those companies were later asked about the claims, officials said they had no knowledge of Baldwin or his project and had never endorsed it.
@@ -6081,6 +6085,10 @@ Baldwin's case follows a pattern regulators see repeatedly in affinity fraud aim
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/usao-wdky/pr/former-crofton-pastor-sentenced-over-two-years-federal-prison-fraud-and-tax-offenses',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/KY-BowlingGreen 1912 Ref.jpg?width=1200',
+    coverImageCredit: 'Photo: National Archives (Public Domain)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Marvin Upton, 58, was the pastor of Crofton Pentecostal Church in the small western Kentucky town of Crofton. According to the U.S. Attorney's Office for the Western District of Kentucky and IRS Criminal Investigation, Upton spent three years, from 2013 to 2016, defrauding one of his own elderly parishioners — a member of his congregation who was suffering from dementia — through a bank fraud scheme, and then compounded it by filing false federal tax returns that omitted the income he derived from defrauding her.
 
 The published record of the case does not detail the specific mechanics prosecutors proved at trial — whether Upton used checks, account access, or some other means to divert the victim's money — but the underlying charges were three counts of bank fraud tied directly to the scheme against her, alongside three counts of filing false tax returns covering the same period. A federal jury convicted Upton on all six counts.
