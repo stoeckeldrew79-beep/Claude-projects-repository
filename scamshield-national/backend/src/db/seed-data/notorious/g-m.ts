@@ -8063,3 +8063,22 @@ Petters was arrested in 2008 and convicted in 2009. Quan was not charged crimina
 Quan's case illustrates a layer of Ponzi-scheme risk that individual investors rarely see directly: the feeder fund. Someone who put money with Quan's funds never dealt with Petters at all — they trusted a professional hedge fund manager who was supposed to be doing the diligence on their behalf. When that manager kept the money flowing after he had reason to know something was wrong, the safeguard investors thought they were paying fees for wasn't there. A fund's promise of an extra layer of protection is only as good as the manager's willingness to act on bad news, not just collect fees while the good news lasts.`,
   },
 );
+
+NotoriousGM.push(
+  {
+    title: 'Jon Patrick Kubler: The Unlicensed Adviser Accused of Running a Real Estate Ponzi Scheme on an NFL Pro Bowler and Retirees',
+    slug: 'jon-patrick-kubler-real-estate-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-wdnc/pr/unlicensed-adviser-charged-4-million-investment-fraud-scheme-targeting-elderly-and',
+    body: `Jon Patrick Kubler, of Redondo Beach, California, spent years positioning himself as a trusted financial adviser to a client roster that included professional athletes, retirees, and people who had just received large lump-sum payouts — without ever holding the license that role would normally require. Federal prosecutors allege Kubler was never registered as an investment adviser at all, a fact that did not stop him from providing investment planning and portfolio-management services to roughly 30 clients over nearly six years.
+
+According to a federal indictment unsealed in the Western District of North Carolina, Kubler steered clients into commercial real estate deals through a web of entities he owned and controlled — including Kubler Consulting, Aksarben Evolution, and Green Saddle — using false statements, concealed material facts, and what prosecutors called "deceptive half-truths" to get people to hand over their money. To keep the arrangement looking profitable, he allegedly made Ponzi-style payments, using newer investors' money to pay off earlier ones, while diverting a portion of what came in to his own personal expenses.
+
+Prosecutors say Kubler targeted people less likely to push back: elderly clients, unsophisticated investors, and beneficiaries who had just received a settlement or life-insurance payout and were navigating a sudden windfall without independent financial advice. One of his longtime clients was Mike Rucker, a former NFL Pro Bowl defensive lineman for the Carolina Panthers, who separately sued Kubler in North Carolina business court claiming he lost nearly $3 million entrusted to him over years of what Rucker's suit called mismanagement inside a Ponzi scheme.
+
+The indictment, unsealed May 23, 2025, charges Kubler with securities fraud and transactional money laundering covering conduct from December 2017 to April 2023 and losses exceeding $4 million across roughly 30 investors. He faces up to 20 years in prison on the securities fraud count and up to 10 more on the money laundering count if convicted; the criminal case and Rucker's parallel civil suit were both still working through the courts as of late 2025.
+
+Kubler's case underscores a checkable fact that too many investors never actually check: whether the person managing their money is licensed at all. FINRA's BrokerCheck and the SEC's Investment Adviser Public Disclosure database are free, public tools that would have told any of his clients, in seconds, that "investment adviser" was never a title Kubler was entitled to use.`,
+  },
+);
