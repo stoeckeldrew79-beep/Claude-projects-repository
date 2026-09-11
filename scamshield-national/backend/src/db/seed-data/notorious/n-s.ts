@@ -3492,6 +3492,10 @@ NotoriousNS.push(
     title: 'Robert Jesenik and the Aequitas Capital Fraud That Hid Behind a Collapsing For-Profit College',
     slug: 'robert-jesenik-aequitas-capital-fraud',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Portland_Oregon_skyline_NW_Everett_and_17th.jpg?width=1200',
+    coverImageCredit: 'Photo: Ian Poellet (CC BY-SA 3.0) — Portland, Oregon, near Lake Oswego where Jesenik ran Aequitas Capital Management',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/usao-or/pr/former-aequitas-ceo-and-company-executives-sentenced-federal-prison-roles-300-million',
     body: `Robert J. Jesenik co-founded Aequitas Capital Management (later restructured as Aequitas Management, LLC) in Lake Oswego, Oregon, building it into a private investment firm that pitched itself to registered investment advisers and individual investors as a specialist in buying trade receivables and structured notes — assets that sounded technical enough, and safe enough, to draw in retirees, religious groups, and other conservative investors. One line of business came to dominate the firm's balance sheet: between 2011 and 2014, Aequitas purchased or funded roughly $561 million in private student loan debt owed to Corinthian Colleges, a scandal-plagued for-profit college chain, structuring the deal in part to help Corinthian satisfy a federal rule requiring for-profit schools to draw at least 10 percent of revenue from sources other than federal student aid.
@@ -4019,6 +4023,9 @@ If the allegations hold up, the case is a reminder that the confidentiality prot
     title: 'Sean Kingston and the Fake Wire Receipts Behind a $1 Million Luxury Goods Fraud',
     slug: 'sean-kingston-luxury-goods-wire-fraud',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Sean_Kingston_Shout_Awards.jpg?width=1200',
+    coverImageCredit: 'Photo: Irwandy Mazwir (CC BY 2.0)',
+    coverImagePosition: 50,
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.secretservice.gov/newsroom/releases/2025/08/sean-kingston-and-mother-sentenced-federal-prison-1-million-fraud-scheme',
     body: `Sean Kingston, born Kisean Paul Anderson, had a real music career behind his name — the 2007 hit "Beautiful Girls" made him a genuine teenage pop star — and prosecutors say he spent 2023 and 2024 using that fame as bait in a straightforward fraud scheme run with his mother, Janice Eleanor Turner. According to the U.S. Secret Service and the U.S. Attorney's Office for the Southern District of Florida, Anderson used social media to contact sellers of high-end merchandise, then invited them to one or more of his luxury homes in Broward County, where his celebrity status helped convince sellers he was good for the money — sometimes with vague references to social media features or celebrity buyers that never materialized.
@@ -4033,6 +4040,10 @@ The scheme worked the same way most affinity-adjacent frauds do: a recognizable 
     title: 'Rudy Meredith, the Yale Coach Whose Own Fraud Cracked Open Varsity Blues',
     slug: 'rudy-meredith-yale-soccer-varsity-blues',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Yale_University_Old_Campus_02.JPG?width=1200',
+    coverImageCredit: 'Photo: Ad Meskens (CC BY-SA 3.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
     sourceUrl: 'https://www.justice.gov/usao-ma/pr/former-head-coach-women-s-soccer-yale-university-sentenced-college-admissions-case',
     body: `Rudy Meredith coached Yale University's women's soccer team for more than two decades, a position that came with a genuinely valuable power: the ability to designate a handful of applicants each year as recruited athletes, guaranteeing them a far easier path through Yale's admissions process than any amount of academic achievement alone could buy. Starting around April 2015, prosecutors say, Meredith began selling that power directly.
@@ -4250,9 +4261,12 @@ NotoriousNS.push(
     title: 'Lawrence Salander and the $120 Million Salander-O\'Reilly Galleries Art Fraud',
     slug: 'lawrence-salander-salander-oreilly-galleries-art-fraud',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/550_Madison_Avenue_July2015.JPG?width=1200',
+    coverImageCredit: 'Photo: Citizen59 (CC BY 3.0) — Madison Avenue in Manhattan, the Upper East Side gallery district where Salander-O\'Reilly Galleries operated',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://en.wikipedia.org/wiki/Lawrence_Salander',
-    // no rights-cleared photo found — sourceUrl above serves as the "read the full story" link
     body: `Lawrence "Larry" Salander spent decades building Salander-O'Reilly Galleries into one of the most prestigious art dealerships in the country — a Manhattan Upper East Side gallery that Robb Report named "the best gallery in the world" in 2003, trading in Old Masters alongside blue-chip modern names like Picasso, Cézanne, and Monet. His client list included the actor Robert De Niro, whose father's estate had entrusted the gallery with artwork, and tennis champion John McEnroe, who invested in paintings through the gallery as a client. That reputation was the entire mechanism of the fraud: collectors and investors handed Salander art and money because his name and his gallery's standing functioned as their due diligence.
 
 Behind the reputation, prosecutors said, Salander was selling art he didn't own and money he hadn't earned. He took paintings that clients and artists' estates had given him to hold, sell on consignment, or safeguard, and sold them without permission or without ever remitting the proceeds to their rightful owners. He also ran phony investment partnerships, selling fractional ownership stakes in specific paintings to multiple different investors at once — the same artwork effectively pledged to more people than could ever be paid back from a single eventual sale. On top of that, he submitted fraudulent loan applications to Bank of America, using art as collateral that he had already promised, sold, or didn't actually control.
