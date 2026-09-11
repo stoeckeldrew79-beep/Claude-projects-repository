@@ -7903,3 +7903,22 @@ The fraud unwound over 2019 and 2020. The SEC charged IIG itself in November 201
 IIG's fraud survived for years in part because trade finance is exactly the kind of asset class few investors, or even many advisers, can independently verify — the underlying loans sit with foreign borrowers, are documented by paperwork investors never see directly, and can be marked at whatever value keeps a monthly statement looking steady. Hu's case is a reminder that an unfamiliar, illiquid corner of a fund's portfolio isn't automatically safer for being obscure; obscurity can just make it harder for anyone outside the fund to catch when the numbers stop being real.`,
   },
 );
+
+NotoriousAF.push(
+  {
+    title: 'Deepal Wannakuwatte: The Latex-Glove Ponzi Scheme That Bought a Pro Tennis Team',
+    slug: 'deepal-wannakuwatte-latex-glove-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-edca/pr/former-owner-sacramento-capitals-tennis-team-sentenced-20-years-prison-fraud-scheme',
+    body: `Deepal Wannakuwatte was a familiar face in Sacramento business and sports circles — owner of the Sacramento Capitals, a professional World TeamTennis franchise, and head of a pair of companies, International Manufacturing Group (IMG) and RelyAid Global Health Care, that he told investors were quietly becoming one of the country's biggest suppliers of medical-grade latex gloves. For more than a decade, that reputation was enough to keep money flowing in.
+
+The pitch rested on a single credibility-lending claim: that IMG and RelyAid held enormous, ongoing supply contracts with the U.S. Department of Veterans Affairs and other federal agencies. In 2013 alone, Wannakuwatte told investors and lenders his VA contracts were worth more than $125 million. Investigators later found his actual contract with the VA was capped at roughly $25,000 a year — a rounding error next to the figures he had been presenting.
+
+From 2002 to 2014, according to prosecutors, Wannakuwatte backed that story with fabricated contracts and financial statements that wildly overstated his companies' real business, and used the pitch to raise more than $230 million from close to 200 victims — individuals, businesses, and financial institutions. Like any Ponzi scheme, it needed new money to keep old promises: he used incoming investor cash to make "lulling payments" to earlier investors that looked like real returns, while personally spending heavily, including on the tennis team that gave the whole operation an air of prosperous, legitimate success.
+
+The scheme collapsed in February 2014, when Wannakuwatte was arrested on bank fraud charges; he lost the Sacramento Capitals franchise within days. He pleaded guilty to one count of wire fraud, and on November 13, 2014, U.S. District Judge Troy L. Nunley sentenced him to 20 years in federal prison — the statutory maximum for the count he admitted to. A later restitution order required him to pay $108,199,425 to his victims, though prosecutors noted the full scale of what he took, in excess of $230 million, was never going to be fully recoverable.
+
+Wannakuwatte's case is a reminder that a visible, expensive asset — a pro sports team, a courtside seat, a name in the program — can function as an investment pitch all by itself: it tells potential investors "someone this successful must be telling the truth" without anyone needing to check a single underlying contract. Owning something everyone can see is a cheap way to manufacture the credibility a fabricated business plan can't earn on its own.`,
+  },
+);
