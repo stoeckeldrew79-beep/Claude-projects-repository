@@ -5144,3 +5144,22 @@ Complaints about delayed payments and evaporating survey work began piling up th
 Speak Asia's survey framing is what set it apart from a typical Ponzi pitch: asking panellists to fill out forms in exchange for payment made the arrangement feel like modest compensation for real work rather than a speculative investment promising outsized returns, which is exactly the kind of pitch that discourages the questions people would normally ask before handing money to a stranger — like whether the company doing the "hiring" has any genuine revenue behind it, or whether, as investigators ultimately found here, the surveys exist mainly to give a Ponzi scheme's payouts a plausible cover story.`,
   },
 );
+
+NotoriousNS.push(
+  {
+    title: 'Scott Cooper and World Patent Marketing: The Invention-Promotion Firm That Threatened Its Own Customers',
+    slug: 'scott-cooper-world-patent-marketing-invention-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2017/03/ftc-halts-invention-promotion-scheme-charged-bilking-millions-dollars-consumers',
+    body: `World Patent Marketing, a Miami-based company founded by Scott J. Cooper in 2014, pitched itself to hopeful inventors as a full-service partner that could turn a garage idea into a patented, manufactured, market-ready product. The company built an advisory board stacked with credible-sounding names — retired military officers, scientists, and, notably, attorney Matthew Whitaker, who would later serve briefly as acting U.S. Attorney General — and backed its sales pitch with success stories and testimonials that the FTC would later say were fabricated to make the company's track record look far stronger than it was.
+
+Customers paid thousands of dollars upfront for patent filing, prototyping, and marketing services. Filing paperwork was often the easy part — World Patent Marketing genuinely submitted around 400 U.S. and 70 international patent applications on customers' behalf between 2014 and 2016 — but the FTC alleged that beyond the filings, the company strung customers along for months or years without delivering the manufacturing, marketing, or licensing deals it had promised, leaving many with a filed application, no actual product, and thousands of dollars in debt.
+
+What made the case unusual was how the company handled customers who complained. According to the FTC's complaint, dissatisfied customers seeking refunds were met not with resolution but with legal threats: one customer who asked for a refund received a letter from the company's own counsel — Whitaker — warning that pursuing a refund could constitute extortion under Florida law and expose the customer to a federal extortion charge carrying up to two years in prison. "They added insult to injury by threatening people who complained," then-Acting FTC Chairman Maureen K. Ohlhausen said when the agency announced its case. The tactic was consistent with a broader pattern the FTC described: intimidating unhappy customers into silence rather than making good on undelivered services.
+
+The FTC sued Cooper, World Patent Marketing, and an affiliated entity, Desa Industries Inc., in March 2017, winning a temporary restraining order and asset freeze. The case settled in May 2018 with an order permanently banning Cooper and his companies from the invention-promotion business and from misrepresenting any good or service, along with a $25,987,192 judgment that was substantially suspended based on the defendants' inability to pay in full — Cooper was ordered to turn over $976,330 in available funds, later distributed back to more than 1,000 defrauded customers as partial refunds beginning in 2020.
+
+World Patent Marketing is a reminder that the invention-promotion industry has a long history of preying on inventors' optimism about their own idea, and that a company's willingness to threaten refund-seeking customers with criminal prosecution is itself a warning sign — a legitimate business that delivered what it promised would rarely need to intimidate the customers it failed.`,
+  },
+);
