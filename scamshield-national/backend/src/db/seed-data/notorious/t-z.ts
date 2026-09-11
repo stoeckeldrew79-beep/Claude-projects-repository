@@ -1965,7 +1965,10 @@ NotoriousTZ.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/opa/pr/telemarketing-company-operators-sentenced-roles-genetic-testing-fraud-scheme',
-    // no rights-cleared photo found — sourceUrl above serves as the "read the full story" link
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Tampa_FL_US_crths01.jpg?width=1200',
+    coverImageCredit: 'Photo: Ebyabe, Wikimedia Commons (CC BY-SA 3.0) — the Sam M. Gibbons U.S. Courthouse in Tampa, Middle District of Florida, where Wexler and Bleignier were prosecuted',
+    coverImagePosition: 50,
     body: `Paul Wexler, 56, of Spring, Texas, and Paul Bleignier, 64, of Seminole, Florida, ran a telemarketing company built around a single cold call: Medicare would cover an expensive cancer genetic screening — known in the industry as CGx testing — at no cost to the beneficiary. It was a real category of test, aimed at detecting inherited mutations linked to cancer risk, but the beneficiaries Wexler and Bleignier's callers targeted mostly hadn't asked for it, didn't need it, and in many cases never heard back about the results. What they were really generating, prosecutors said, was a stream of signed referrals that Wexler and Bleignier could bill to Medicare.
 
 The referral pipeline ran on kickbacks. According to federal prosecutors, Wexler, Bleignier, and their co-conspirators solicited and received illegal kickback payments in exchange for steering Medicare beneficiaries toward CGx testing that was not eligible for Medicare reimbursement in the first place. Through the scheme, the pair caused Medicare to be billed $17.3 million, of which they personally were paid $5.2 million — money generated almost entirely from phone calls rather than any legitimate medical referral process.
