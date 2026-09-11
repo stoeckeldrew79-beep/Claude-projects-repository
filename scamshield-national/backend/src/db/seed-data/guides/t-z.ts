@@ -2032,6 +2032,9 @@ If you filed with TaxAct between 2018 and 2022, there's a good chance your round
     slug: `trend-deploy-covid-ppe-mask-scam-refund-guide`,
     author: `ScamShield Editorial`,
     tags: [`guide`, `trend-deploy-ftc-settlement`],
+    coverImage: `https://commons.wikimedia.org/wiki/Special:FilePath/3M_Surgical_N95_Respirator.png?width=1200`,
+    coverImageCredit: `Photo: Debora Cartagena / CDC Public Health Image Library, public domain, via Wikimedia Commons — an N95 respirator, the product at the center of the case`,
+    coverImagePosition: 50,
     sourceUrl: `https://www.ftc.gov/news-events/news/press-releases/2026/07/ftc-returns-money-consumers-harmed-trend-deploys-deceptive-marketing`,
     body: `On July 22, 2026, the Federal Trade Commission mailed 9,419 refund checks totaling more than $672,000 to consumers who had ordered protective equipment online back in 2020 and, in many cases, never actually got what they paid for. The checks close out a case against Trend Deploy, an online PPE marketer run by an individual named Frank Romero, and they arrive a full five years after the underlying scam — a gap that says as much about how hard it can be to actually collect from a scammer as it does about the scam itself.
 

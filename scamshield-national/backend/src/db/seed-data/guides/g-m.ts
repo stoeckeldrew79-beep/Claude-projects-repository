@@ -3564,6 +3564,10 @@ If you're buying tickets through Ticketmaster, Live Nation, or any similar platf
     slug: "luminis-health-2026-cyberattack-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "luminis-health-2026-data-breach"],
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Anne_Arundel_Medical_Center.jpg?width=1200",
+    coverImageCredit: "Photo: SlipperyDude, CC BY-SA 3.0, via Wikimedia Commons — Anne Arundel Medical Center in Annapolis, one of the two Luminis Health hospitals affected",
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: "https://www.hipaajournal.com/luminis-health-jeffrey-reuben-well-child-horizon-eye-care-data-breaches/",
     body: `Luminis Health, the nonprofit health system that runs Anne Arundel Medical Center in Annapolis and Doctors Community Medical Center in Lanham, first disclosed on September 1, 2026 that it was dealing with a cyberattack — though patients and community members in Annapolis told local reporters that hospital systems had already been down the day before. By the time the health system issued a fuller public statement on September 4, the picture was clear: the phone systems and the MyChart patient portal at both hospitals were offline, some appointments had to be rescheduled, and staff at Anne Arundel Medical Center were reverting to paper charts to keep treating patients while electronic records remained unreliable or inaccessible.
 
@@ -3580,6 +3584,10 @@ If you're a Luminis Health patient, don't wait for a breach notification letter 
     slug: "growth-cave-business-opportunity-credit-repair-settlement-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "growth-cave-ftc-settlement"],
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/ApexBuildingHighsmith.jpg?width=1200",
+    coverImageCredit: "Photo: Carol M. Highsmith, public domain, via Wikimedia Commons — the FTC's headquarters (Apex Building) in Washington, D.C., which brought the case",
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: "https://www.ftc.gov/news-events/news/press-releases/2026/01/ftc-secures-settlement-banning-growth-cave-defendants-marketing-selling-business-opportunities",
     body: `A YouTube ad promises that anyone can build a "digital education" side business generating $20,000 to $50,000 a month in passive income, with no experience required. Click through, and a sequence of follow-up videos and emails builds toward a "free strategy call" with a real person — who, according to the Federal Trade Commission, told prospective customers they'd start making money within four to six weeks of signing up. That pitch, and the company behind it, is what the FTC and California's Department of Financial Protection and Innovation sued to shut down in March 2025: Growth Cave, LLC, an online business-coaching operation the agencies say took in nearly $50 million from consumers through a tangle of escalating "opportunities" that rarely delivered anything close to what was promised.
 

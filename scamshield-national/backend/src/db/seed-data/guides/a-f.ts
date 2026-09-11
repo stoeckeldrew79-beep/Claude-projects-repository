@@ -6806,6 +6806,10 @@ The real IRS does send letters, but never one designed to make you call a privat
     slug: "alpha-dental-excellence-medicare-settlement-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "alpha-dental-excellence-medicare-scam"],
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Dental_Chair.jpg?width=1200",
+    coverImageCredit: "Photo: Nizil Shah, CC BY-SA 3.0, via Wikimedia Commons",
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: "https://www.attorneygeneral.gov/taking-action/attorney-general-sunday-announces-1-million-settlement-with-alpha-dental-patients-who-were-pushed-into-expensive-services-to-receive-500k/",
     body: `Traditional Medicare has never covered routine dental work — no cleanings, no fillings, no crowns, no dentures. It's one of the most consistently misunderstood gaps in American health coverage, and according to the Pennsylvania Attorney General's office, a southeastern Pennsylvania dental group built a business model around exploiting exactly that confusion. On June 18, 2026, Attorney General Dave Sunday announced a $1 million settlement with Infinity Dental, which did business as Alpha Dental Excellence, resolving allegations that the practice knowingly told Medicare-eligible patients their coverage would pay for expensive procedures it knew Medicare would never actually reimburse.
 
@@ -6822,6 +6826,10 @@ This same playbook shows up well beyond one Pennsylvania dental office, and the 
     slug: "americana-liberty-three-nations-made-in-usa-flags-settlement-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "americana-liberty-ftc-settlement"],
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/American_flag.jpg?width=1200",
+    coverImageCredit: "Photo: Frydolin (Vít Luštinec), CC BY-SA 3.0, via Wikimedia Commons",
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: "https://www.ftc.gov/news-events/news/press-releases/2026/04/ftc-announces-made-usa-sweep-including-three-law-enforcement-actions-protect-american-consumers",
     body: `On March 13, 2026, with the country's 250th anniversary approaching, President Trump signed an executive order directing the FTC to sharpen its focus on companies that falsely claim their products are American-made. A month later, on April 14, 2026, the agency announced the first coordinated result of that push: a sweep of three law enforcement actions targeting "Made in the USA" claims, including a federal complaint against Americana Liberty LLC and Three Nations LLC — two companies that sold American flags, U.S. military flags, and other patriotic flag-display products with some of the most explicitly nationalist marketing language the FTC has cited in a case of this kind.
 
