@@ -7332,6 +7332,10 @@ NotoriousGM.push(
     slug: 'lee-price-iii-ppp-loan-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/2020_Lamborghini_Urus_Auto.jpg?width=1200',
+    coverImageCredit: 'Calreyn88 / Wikimedia Commons / CC BY-SA 4.0',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.justice.gov/archives/opa/pr/texas-man-sentenced-more-nine-years-covid-19-fraud-and-money-laundering-scheme',
     body: `The Paycheck Protection Program was built for speed. In the spring of 2020, with businesses shutting down overnight and Congress racing to keep payrolls afloat, lenders were told to approve PPP loans on the strength of an applicant's own certifications, with limited time to verify payroll records, employee counts, or even whether a business actually existed before the pandemic. That speed saved millions of real jobs — and it also created an opening that thousands of people used to simply invent a business on paper and collect the money meant for someone else's employees. Lee Price III, of Houston, was one of them.
 
