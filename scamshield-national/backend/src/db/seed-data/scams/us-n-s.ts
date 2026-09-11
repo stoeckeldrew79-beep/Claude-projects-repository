@@ -5827,3 +5827,15 @@ UsNS.push({
     country: 'US',
     state: 'NC',
 });
+
+UsNS.push({
+    name: 'New York Child Care Licensor Impersonation Scam',
+    slug: 'new-york-child-care-licensor-impersonation-scam',
+    description: `New York's Office of Children and Family Services (OCFS) warns that licensed and registered child care programs are being contacted by individuals falsely claiming to be OCFS or state Department of Health employees. In one recurring version, the caller gives the provider the real name of their actual assigned licensor or registrar — information that makes the call sound credible — then says the purpose of the contact is to schedule the provider for a vaccine appointment, supplying a fabricated "password" to use when booking it and asking for personal information to add the provider to a vaccination list; providers who don't comply are sometimes threatened with having their program shut down. Related contacts have the caller claim to be scheduling a compliance inspection or asking a provider to confirm case information, then pressing for a Social Security number, and other callers have simply offered free supplies while name-dropping the program's actual regulator to sound legitimate. OCFS states plainly that neither it nor the Department of Health calls child care programs to schedule vaccinations or hand out free supplies, and that no caller should be given personal information unless a provider has independently confirmed the caller is their actual licensor or registrar, ideally by hanging up and calling the regional office back using a number looked up separately rather than one the caller provides. New York child care operators who receive one of these calls are directed to report it to their regional OCFS office rather than acting on any instructions given during the call.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['New York State Office of Children and Family Services (OCFS)', 'Child Care Solutions (Syracuse Regional Child Care Resource & Referral Agency)'],
+    sourceUrl: 'https://ocfs.ny.gov/programs/childcare/news/scams.php',
+    country: 'US',
+    state: 'NY',
+});
