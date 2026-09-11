@@ -4846,3 +4846,20 @@ Schmidt, his wife Jannice, and several co-defendants were indicted in March 2004
 The Redstone Castle case is a reminder that a guaranteed monthly return in double or triple digits is not an aggressive investment strategy — it is a mathematical impossibility, since no real asset class has ever sustained anything close to those numbers over time. A legitimate financial adviser can explain exactly how a promised return would be generated and point to a regulated, independently verifiable fund; an operation that instead offers a lavish historic property as proof of its success, and tells investors not to talk to law enforcement about their doubts, is showing two of the clearest tells a Ponzi scheme can give off.`,
   },
 );
+
+NotoriousNS.push(
+  {
+    title: "Philip Barry and the Ponzi Scheme That Outlasted the Term 'Ponzi Scheme'",
+    slug: 'philip-barry-leverage-group-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-21199',
+    body: `Most Ponzi schemes get caught within a few years, once the flow of new investor money can no longer keep pace with what's owed to earlier ones. Philip Barry, a Brooklyn money manager, ran his for roughly three decades. Starting in the late 1970s, Barry began taking money from investors — describing the collection of funds and shell entities as "the Leverage Group" — and telling them it was being invested in stock options, generating the steady, guaranteed returns he promised.
+
+None of it was true. Barry never actually earned the returns he advertised; the interest rates on investor statements were simply numbers he made up. To keep the operation running and prevent investors from asking to cash out, he issued account statements showing balances growing exactly on schedule, told investors their money was completely safe, and promised that withdrawals could be made easily on request — the same reassurances Ponzi schemes have used since Charles Ponzi's original version in 1920. What Barry actually did with roughly 800 investors' money, prosecutors said, was spend it: on real estate held in his own name and in entities he controlled, on funding a separate mail-order pornography business he also ran, and on his personal lifestyle, all funded in large part by cash arriving from newer investors rather than any actual investment profit.
+
+The scheme finally drew regulatory attention in the mid-2000s. The SEC sued Barry and his Leverage Group entities in 2009, and federal prosecutors indicted him separately on securities and mail fraud charges. Rather than plead guilty, Barry went to trial, and in November 2010 a federal jury in Brooklyn convicted him on all 34 counts of a securities and mail fraud indictment covering his decades of operating the scheme. In June 2011, U.S. District Judge Raymond J. Dearie sentenced Barry to 20 years in federal prison and ordered him to pay $24,146,540 in restitution — roughly matching the actual cash losses investigators calculated across the life of the scheme, even though total investor deposits over 30 years were substantially higher.
+
+What makes the Leverage Group case unusual isn't its size — at $24 million, it's modest next to Madoff's or Stanford's — but its duration: Barry was already running his scheme before the term "Ponzi scheme" had fully entered everyday financial vocabulary, and kept running it through three full decades of financial regulation, market cycles, and, eventually, the very Madoff scandal that made the public newly alert to exactly this kind of fraud, without ever being stopped. It's a reminder that regulatory attention tends to follow scale and public visibility, not just duration — a scheme quiet and modest enough in its ambitions can, in the right circumstances, simply keep going for a working lifetime before anyone with the authority to stop it takes a serious look.`,
+  },
+);
