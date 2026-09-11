@@ -7414,3 +7414,17 @@ UsAF.push({
     sourceUrl: 'https://www.uspto.gov/subscription-center/2025/protect-yourself-scammers',
     country: 'US',
 });
+
+UsAF.push({
+    name: 'Arkansas Department of Agriculture Fraudulent Payment Email Scam',
+    slug: 'arkansas-department-of-agriculture-fraudulent-payment-email-scam',
+    description: `The Arkansas Department of Agriculture warned the public on May 11, 2026 about fraudulent emails circulating from people falsely claiming to represent the department, using the agency's name to send payment requests and other suspicious messages to businesses and individuals the department deals with. Officials pointed to one reliable tell: a genuine email from the Arkansas Department of Agriculture will always come from an address ending in "arkansas.gov," so a message about an invoice, fee, or account matter arriving from any other domain is not really from the agency no matter how convincing the letterhead or signature looks. The department's guidance is to review the sender's full email address before responding to anything, to contact the department directly through a known number rather than one supplied in the message if the sender's name isn't recognized, and to never click a suspicious link, download an unexpected attachment, or send payment or financial information until the message's legitimacy has been confirmed. Arkansans who receive one of these emails are asked to report it to the department at Agri.Info@arkansas.gov or 501-225-1598 before deleting it.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Arkansas Department of Agriculture'],
+    sourceUrl: 'https://www.agriculture.arkansas.gov/',
+    country: 'US',
+    state: 'AR',
+    isHistorical: true,
+    firstRecorded: '2026-05-11',
+});
