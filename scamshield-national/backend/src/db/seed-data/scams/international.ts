@@ -10798,6 +10798,19 @@ International.push(
 
 International.push(
   {
+    name: `Togo Fake "National Development Association" Phishing Site`,
+    slug: 'togo-fake-national-development-association-phishing-site',
+    description: `Togo's National Cybersecurity Agency (Agence Nationale de Cybersécurité, ANCy) issued an alert on April 1, 2025, reported by République Togolaise, warning the public about a fraudulent website at the domain "nda-gov.org" that presented itself as the official portal of a supposed "National Development Association." The site, despite a government-style ".gov" appearance in its domain name, claimed to offer businesses and individuals help marketing their products and services in Togo or responding to national public tenders and calls for proposals, a pitch aimed squarely at the Togolese diaspora and at entrepreneurs seeking contracts with the state. ANCy said that after verification, neither the "association" nor the website were recognized or authorized by any Togolese authority, and that behind its official-looking facade the site was actually built to harvest sensitive personal data, banking details, and passwords from anyone who entered them to "register." The agency urged the public to always verify a website's authenticity before submitting personal information, reminded users that legitimate government-linked bodies do not operate improvised, unverifiable "association" portals through look-alike domains, and framed the case as part of a broader push for digital education and prevention as key defenses against Togo's rising volume of online fraud.`,
+    categorySlug: 'phishing',
+    alertLevel: 'medium',
+    sources: ['Agence Nationale de Cybersécurité (ANCy - Togo)', 'République Togolaise'],
+    sourceUrl: 'https://www.republicoftogo.com/toutes-les-rubriques/high-tech/faux-site-web-l-ancy-appelle-a-la-vigilance',
+    country: 'TG',
+  },
+);
+
+International.push(
+  {
     name: 'Royal Bengal Logistics Trucking Investment Ponzi Scheme',
     slug: 'haiti-royal-bengal-logistics-trucking-ponzi-scheme',
     description: `A federal jury in the Southern District of Florida convicted Sanjay Singh, owner of the Coral Springs trucking firm Royal Bengal Logistics, Inc., on November 6, 2024, of wire fraud, money laundering, and conspiracy after prosecutors and the SEC showed he had run an elaborate Ponzi scheme through the company between 2020 and 2023. Singh sold contracts that promised investors an ownership stake in specific freight trucks and extremely high, steady interest payments, telling them the fleet was generating roughly $1 million a month and was about to expand to 200 trucks; in reality the trucking operation lost money, and new investors' cash was used to pay "returns" to earlier ones. Federal investigators found the scheme drew heavily on the Haitian-American community and ultimately collected more than $150 million from roughly 2,000 investors before it collapsed, with Singh diverting millions for a home renovation, a luxury vehicle, personal stock trading, and transfers to family overseas. He was sentenced on May 30, 2025 to 23 years in federal prison, and on February 9, 2026 a federal judge entered a $51,199,671 restitution judgment against him in favor of victims — a fraction of what was actually lost. The case is a reminder that a written contract and a real company name are not proof an investment is legitimate, especially when the promised returns are unusually high and steady regardless of market conditions.`,
