@@ -5901,3 +5901,17 @@ UsNS.push({
     isHistorical: true,
     firstRecorded: '2024-12-28',
 });
+
+UsNS.push({
+    name: 'Structured Settlement Buyout "Independent Advice" Scheme',
+    slug: 'structured-settlement-buyout-independent-advice-scheme',
+    description: `Structured settlement buyout companies advertise "cash now" for the future payments someone is owed under a court-approved settlement — typically from a personal injury or wrongful-death case — offering a lump sum in exchange for signing away the right to years or decades of scheduled payments. Every state's Structured Settlement Protection Act requires a judge to approve any such transfer, and most require the seller to first receive independent professional advice about whether the deal is actually in their interest, a safeguard meant to protect people from being talked into trading away guaranteed future income for far less than it's worth. Access Funding LLC, headquartered in Chevy Chase, Maryland, defeated that safeguard by steering consumers to an attorney, Charles Smith, who was held out as independent but was in fact paid directly by Access Funding itself — a conflict of interest the company never disclosed. Between 2013 and 2015, according to the Consumer Financial Protection Bureau, Access Funding obtained the rights to nearly $18 million in future structured settlement payments from about 100 Maryland residents, offering roughly 30% of the present value of those payments; more than 70% of the sellers were victims of childhood lead-paint poisoning, a population the company's own executives referred to internally as "lead-paint virgins" when discussing prime targets who were financially desperate and, in some cases, cognitively impaired. The CFPB sued Access Funding and executives Lee Jundanian and Raffi Boghosian in the U.S. District Court for the District of Maryland in November 2016; a stipulated final judgment entered December 17, 2021 ordered $40,000 in disgorgement and a $10,000 civil penalty, and permanently barred the defendants from referring consumers to any individual or for-profit entity offering "independent" advice on a structured settlement sale. Anyone approached about selling structured settlement payments should get their own attorney or financial advisor — one they found and are paying themselves, not one recommended or paid for by the buyout company — before signing anything, and should ask a court-appointed advisor directly whether they have any financial relationship with the company making the offer.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'medium',
+    sources: ['Consumer Financial Protection Bureau'],
+    sourceUrl: 'https://www.consumerfinance.gov/about-us/newsroom/cfpb-takes-action-against-access-funding-and-its-leadership-for-misleading-consumers-with-structured-settlements/',
+    country: 'US',
+    state: 'MD',
+    isHistorical: true,
+    firstRecorded: '2013-01-01',
+});
