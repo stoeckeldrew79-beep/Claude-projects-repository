@@ -5475,6 +5475,10 @@ NotoriousNS.push(
     slug: 'omar-dario-chavez-fake-trading-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Roybal_Building.jpg?width=1200',
+    coverImageCredit: 'Photo: DocFreeman24, CC BY-SA 4.0, via Wikimedia Commons — the Edward R. Roybal Federal Building in Los Angeles, home of the U.S. District Court for the Central District of California, where the SEC filed civil fraud charges against Chavez',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26630',
     body: `Omar Dario Chavez, who also went by Omar Aiden Chavez, built a client base in Southern California around a simple, seductive promise: he could trade their money and consistently deliver returns most professional fund managers would envy. According to the SEC, Chavez told prospective clients he was averaging monthly returns of 10 to 20 percent through his trading, and personally guaranteed the safety of their money by claiming he held between $1 million and $2 million in personal assets that would cover any losses.
 
