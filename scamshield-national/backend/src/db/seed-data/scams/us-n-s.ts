@@ -5863,3 +5863,14 @@ UsNS.push({
     country: 'US',
     state: 'NJ',
 });
+
+UsNS.push({
+    name: 'Sora AI Video App Copycat Scam',
+    slug: 'sora-ai-video-app-copycat-scam',
+    description: `When OpenAI launched its invite-only Sora app for AI-generated video on September 30, 2025, demand outran the limited number of invite codes almost immediately — and within days, more than a dozen unrelated apps using "Sora" or "Sora 2" branding and near-identical icons appeared in Apple's App Store to capture the overflow of searches from people who couldn't get in the front door. A TechCrunch investigation published October 9, 2025 found these copycats had drawn roughly 300,000 combined installs, more than 80,000 of them after OpenAI's own launch, and had collectively pulled in over $160,000 in revenue; the single largest impostor, listed as "Sora 2 – AI Video Generator," accounted for more than 50,000 installs on its own. Rather than providing real access to OpenAI's video model, the copycats functioned as bait: some charged a subscription before delivering anything resembling the advertised AI video generation, while a parallel wave of "invite code" sellers and cloned Sora login sites circulated on social media, which OpenAI's own moderators publicly warned were phishing risks after some users who entered their credentials on a fake site lost control of their real OpenAI account. Security researchers have since documented the same clone-and-capture pattern hitting other suddenly viral AI apps, with thousands of near-identical ChatGPT and DALL-E impostors found across the Apple and Google app stores using copied names, logos, and app-store descriptions to ride a real product's launch buzz. Anyone downloading a newly hyped AI app should install it only from the verified developer account linked on the real company's own website or official announcement, check the app's publisher name and review history rather than trusting its icon or ranking in search results, and never enter an OpenAI, Google, or other account password on a third-party site offering to sell or "unlock" an invite code.`,
+    categorySlug: 'ai-deepfake-scams',
+    alertLevel: 'medium',
+    sources: ['TechCrunch'],
+    sourceUrl: 'https://techcrunch.com/2025/10/09/sora-copycats-flooded-apples-app-store-and-some-still-remain/',
+    country: 'US',
+});
