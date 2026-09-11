@@ -6966,7 +6966,10 @@ NotoriousGM.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2026/01/ftc-secures-settlement-banning-growth-cave-defendants-marketing-selling-business-opportunities',
-    // no rights-cleared photo identified — sourceUrl above serves as the "read the full story" link
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/San_Fernando_Valley_panorama.jpg?width=1200',
+    coverImageCredit: 'Tom Adams, CC BY-SA 2.0, via Wikimedia Commons',
+    coverImagePosition: 50,
     body: `Growth Cave marketed itself as a business-coaching program that could teach ordinary people, through paid courses and coaching packages, how to build a profitable online marketing agency or start their own business — the kind of "flip this skill into a business" pitch that has become a mainstay of social-media advertising. Co-CEOs Lucas Lee-Tyson and Osmany Batte ran it alongside an affiliated credit-repair operation, marketed through related entities including LLT Research and Apex Mind, that promised to fix consumers' credit scores.
 
 The Federal Trade Commission sued Growth Cave, Lee-Tyson, Batte, operations manager Jordan Marksberry, and several related corporate entities in February 2025, alleging the defendants used deceptive earnings claims to sell business opportunities and credit-repair services that consistently failed to deliver what was promised, and that consumers who tried to get refunds or support ran into a wall of unresponsiveness. The FTC put the total consumer harm at close to $50 million.
