@@ -13246,3 +13246,16 @@ International.push(
     country: 'ST',
   },
 );
+
+International.push(
+  {
+    name: 'Timor-Leste Fake Lottery Winner and Forged BNCTL Bank Statement Scam',
+    slug: 'timor-leste-fake-lottery-forged-bank-statement-scam',
+    description: `Timor-Leste's Polícia Científica e de Investigação Criminal (PCIC) issued a public alert on July 1, 2026 warning citizens about a financial fraud scheme spreading through fake profiles on Facebook and other social networks, some of them posting in Tetum to reach a wider local audience. The fake profiles claim that ordinary people have won large sums of money through lottery programs or online games, and criminal networks running the scheme use it to direct victims toward foreign WhatsApp numbers, mainly registered in Indonesia, to "process" the supposed winnings. To make the promised prize look real, the scammers present forged bank statements that illegally reuse the logo and imagery of BNCTL (Banco Nacional de Comércio de Timor-Leste) to display fabricated account balances of thousands of US dollars. Once a victim is convinced the money exists, the criminals demand advance payment described as "administrative fees," "taxes," or "transfer costs" before the funds can supposedly be released — money that, once sent, is never seen again, because no lottery prize or online-game winnings ever existed in the first place. The PCIC said the scheme forms part of a wider pattern of transnational cybercrime networks operating through social media, and it urged citizens not to respond or send messages to unknown WhatsApp numbers promising easy money, not to share personal data, identification documents, or bank account numbers on social media, and to report suspicious profiles to police so the accounts can be taken down before more people are targeted.`,
+    categorySlug: 'lottery-sweepstakes-scams',
+    alertLevel: 'high',
+    sources: ['Polícia Científica e de Investigação Criminal (PCIC), Timor-Leste', 'Executive Digest (SAPO)'],
+    sourceUrl: 'https://executivedigest.sapo.pt/policia-timorense-alerta-cidadaos-para-burlas-e-falsificacoes-nas-redes-sociais/',
+    country: 'TL',
+  },
+);
