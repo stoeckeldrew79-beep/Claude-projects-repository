@@ -6001,6 +6001,10 @@ If you were a Frontier customer as of April 2024 and never received a breach not
     slug: `fiesta-insurance-franchise-corporation-2026-data-breach-guide`,
     author: `ScamShield Editorial`,
     tags: [`guide`, `fiesta-insurance-data-breach`],
+    coverImage: `https://commons.wikimedia.org/wiki/Special:FilePath/Star_Insurance_Agency,_Remerton.JPG?width=1200`,
+    coverImageCredit: `Photo: Michael Rivera (CC BY-SA 3.0)`,
+    coverImagePosition: 50,
+    // representative photo — generic small insurance agency storefront, not Fiesta Insurance; replace with an exact match if found
     sourceUrl: `https://www.insurancebusinessmag.com/us/news/cyber/fiesta-insurance-took-a-year-to-identify-breached-customer-data--report-583647.aspx`,
     body: `Fiesta Insurance Franchise Corporation, a Las Vegas-based franchisor that sells auto, home, renters, and commercial insurance alongside tax-preparation services through more than 220 storefront locations, discovered on June 9, 2025 that unauthorized activity had occurred somewhere inside its network. What happened next is the part that stands out: rather than working out quickly whose data was affected, the company spent more than a year sorting through the files an intruder had potentially accessed, only reaching a determination on June 26, 2026 — over 12 months after the intrusion was first detected. Notification letters didn't start going out to affected customers until July 13, 2026, more than 13 months after Fiesta first knew something was wrong.
 
@@ -6122,6 +6126,10 @@ If you've paid a bill by searching for the company's name online rather than typ
     slug: `elixir-medical-2026-data-breach-guide`,
     author: `ScamShield Editorial`,
     tags: [`guide`, `elixir-medical-2026-data-breach`],
+    coverImage: `https://commons.wikimedia.org/wiki/Special:FilePath/Clean_room.jpg?width=1200`,
+    coverImageCredit: `Photo: NASA Glenn Research Center (public domain)`,
+    coverImagePosition: 50,
+    // representative photo — generic cleanroom manufacturing environment, not Elixir Medical's own facility; replace with an exact match if found
     sourceUrl: `https://oag.ca.gov/ecrime/databreach/reports/sb24-629325`,
     body: `Elixir Medical Corporation, a privately held medical device company in Milpitas, California that develops technologies for treating coronary and peripheral artery disease, began notifying people in the fall of 2026 that a network intrusion months earlier had exposed sensitive personal information held in its human resources files. According to the notification letter Elixir filed with the California Attorney General's office, the company learned that an unauthorized party had accessed its computer network between July 20 and July 21, 2026. It then took roughly three weeks of investigation with outside forensic experts before Elixir determined, on August 11, 2026, that some of the files an intruder could have reached contained human resources records belonging to current and former employees and consultants, along with information tied to some of their beneficiaries and dependents.
 
@@ -6191,6 +6199,9 @@ Most people will never see an F5 logo and don't need to do anything about this b
     slug: `bennett-college-2026-data-breach-guide`,
     author: `ScamShield Editorial`,
     tags: [`guide`, `bennett-college-2026-data-breach`],
+    coverImage: `https://commons.wikimedia.org/wiki/Special:FilePath/Bennett_College_from_Gorrell.jpg?width=1200`,
+    coverImageCredit: `Photo: Nyttend (public domain)`,
+    coverImagePosition: 50,
     sourceUrl: `https://www.govtech.com/education/higher-ed/bennett-college-data-breach-affected-30-000-people`,
     body: `Bennett College, a small historically Black liberal-arts college for women in Greensboro, North Carolina, founded in 1873, disclosed that an unauthorized party had access to its computer network for nearly three weeks in late 2025. According to the college's notification, the intrusion ran from October 27 through November 15, 2025, and Bennett detected the disruption on November 15 — the same day the access window closed. The college says it responded immediately: it contacted law enforcement, engaged outside computer forensic specialists, isolated the affected systems, and worked to determine exactly whose information had been exposed. That review took the better part of a year. Bennett didn't begin mailing notification letters to affected individuals until August 27, 2026, and the stolen data had already turned up on a ransomware group's dark-web leak site months earlier, on December 6, 2025 — meaning the information was circulating in criminal circles well before the people it belonged to were told anything was wrong.
 
@@ -6205,6 +6216,10 @@ Bennett is offering affected individuals free credit monitoring and identity-pro
     slug: `demera-demera-cameron-cpa-firm-2026-data-breach-guide`,
     author: `ScamShield Editorial`,
     tags: [`guide`, `demera-demera-cameron-2026-data-breach`],
+    coverImage: `https://commons.wikimedia.org/wiki/Special:FilePath/Laptop_on_a_neat_desk_(Unsplash).jpg?width=1200`,
+    coverImageCredit: `Photo: Norbert Levajsics (CC0)`,
+    coverImagePosition: 50,
+    // representative photo — generic office desk, not DeMera DeMera Cameron's own office; replace with an exact match if found
     sourceUrl: `https://oag.ca.gov/ecrime/databreach/reports/sb24-629160`,
     body: `DeMera DeMera Cameron, LLP, a certified public accounting firm in Fresno, California with more than 80 years serving individual and business tax clients, first appeared in the news for the wrong reason on April 13, 2026, when the double-extortion ransomware group Akira listed the firm on its dark-web leak site and claimed to be holding roughly 260 gigabytes of stolen data — describing it as "a bit of personal data, financials, client financials (international ones), contracts and agreements, corporate confidential documents, NDAs and so on." At the time, the claim was just that: an unverified boast on a criminal forum, the kind security researchers see from ransomware gangs daily. Five months later, it stopped being unverified. In notification letters dated September 1, 2026 and filed with the California Attorney General and regulators in at least seven other states, DDC confirmed that it had detected suspicious activity on its network on or about March 27, 2026, that a forensic investigation found files had been downloaded from its systems without authorization, and that a review of those files — completed July 23, 2026 — confirmed clients' personal information was among what was taken.
 
@@ -6236,6 +6251,10 @@ If you've used an Amgen medication, participated in an Amgen-sponsored clinical 
     slug: `adapthealth-2026-data-breach-guide`,
     author: `ScamShield Editorial`,
     tags: [`guide`, `adapthealth-2026-data-breach`],
+    coverImage: `https://commons.wikimedia.org/wiki/Special:FilePath/Portable_Oxygen_Concentrator_by_Inogen.jpg?width=1200`,
+    coverImageCredit: `Photo: Oxystore (CC BY-SA 4.0)`,
+    coverImagePosition: 50,
+    // representative photo — generic home medical equipment, not AdaptHealth's own device; replace with an exact match if found
     sourceUrl: `https://www.theregister.com/security/2026/07/03/adapthealth-crooks-stole-our-passwords-patient-health-data/5266512`,
     body: `AdaptHealth, LLC, a Pennsylvania-based, publicly traded company (Nasdaq: AHCO) that is one of the largest suppliers of home medical equipment in the country — CPAP machines, oxygen concentrators, wheelchairs, and diabetes supplies delivered to patients' homes and billed through their insurance — told patients in mid-August 2026 that their information had been stolen in a cyberattack. According to AdaptHealth's own notification letter, an unauthorized third party used a social-engineering attack — tricking a person into handing over access rather than exploiting a technical flaw — to obtain the login credentials of a single company user account on June 5, 2026. AdaptHealth says it didn't learn of the intrusion until June 15, when the attacker actually contacted the company directly, a common extortion tactic in which criminals announce a theft themselves to pressure a victim into paying rather than leave it for outside researchers to discover. By June 27, AdaptHealth had determined the incident was serious enough to require a securities filing, disclosing it to the SEC as a material cybersecurity event. A group calling itself ShinyHunters listed AdaptHealth on its dark-web extortion site around the same time, though AdaptHealth itself has not confirmed that attribution.
 
@@ -6272,6 +6291,10 @@ If you've ever subscribed to Vogue, The New Yorker, GQ, Glamour, Vanity Fair, WI
     slug: `boston-healthcare-for-the-homeless-program-2026-data-breach-guide`,
     author: `ScamShield Editorial`,
     tags: [`guide`, `boston-healthcare-for-the-homeless-2026-data-breach`],
+    coverImage: `https://commons.wikimedia.org/wiki/Special:FilePath/Boston_city_skyline_(Unsplash).jpg?width=1200`,
+    coverImageCredit: `Photo: Alice Donovan Rouse (CC0)`,
+    coverImagePosition: 50,
+    // representative photo — Boston, where the program operates; replace with an exact match if found
     sourceUrl: `https://www.hipaajournal.com/boston-healthcare-homeless-program-mon-general-open-door-illinois-data-breaches/`,
     body: `Boston Health Care for the Homeless Program (BHCHP) is a nonprofit safety-net provider, not a typical hospital system — it delivers medical, dental, and behavioral health care at more than 80 sites across the city, including shelters, soup kitchens, day centers, street outreach vans, detox units, and clinics embedded inside three major teaching hospitals, to patients who often have no fixed address at all. On November 11, 2025, the organization noticed a disruption on its computer network. It took until June 8, 2026 — nearly seven months later — for BHCHP to complete its review and determine that an unauthorized third party had accessed the network and potentially viewed or obtained files containing sensitive patient and employee information. Notification letters didn't go out to affected individuals until August 7, 2026, roughly nine months after the disruption was first detected. Two patients and a former employee have since sued the organization, arguing they should have been told sooner.
 
@@ -6286,6 +6309,9 @@ If you or someone you know has received care through BHCHP — at any of its she
     slug: `foster-city-2026-ransomware-attack-guide`,
     author: `ScamShield Editorial`,
     tags: [`guide`, `foster-city-2026-ransomware-attack`],
+    coverImage: `https://commons.wikimedia.org/wiki/Special:FilePath/Foster_City_aerial_view,_February_2018.JPG?width=1200`,
+    coverImageCredit: `Photo: Pi.1415926535 (CC BY-SA 3.0)`,
+    coverImagePosition: 50,
     sourceUrl: `https://www.cbsnews.com/sanfrancisco/news/foster-city-cybersecurity-breach-plans-state-of-emergency/`,
     body: `In the early hours of March 19, 2026, staff in Foster City, California — a Bay Area city of roughly 33,000 people — discovered ransomware on the city's computer network and immediately began taking systems offline to contain it. What followed wasn't a quiet, behind-the-scenes cleanup: nearly every public-facing city service outside of police and 911 dispatch went dark for days, and by the following Monday, the city council had voted to formally declare a state of emergency so Foster City could access additional resources to respond. Cybersecurity experts quoted in coverage of the incident said a full return to normal operations after an attack like this one typically takes three to six weeks, even when the most critical services come back online sooner.
 
@@ -6300,6 +6326,10 @@ If you live in Foster City or do business with the city, change any password tie
     slug: `eyemart-express-2026-data-breach-guide`,
     author: `ScamShield Editorial`,
     tags: [`guide`, `eyemart-express-2026-data-breach`],
+    coverImage: `https://commons.wikimedia.org/wiki/Special:FilePath/Optical_photochromic_lenses.jpg?width=1200`,
+    coverImageCredit: `Photo: Albarubescens (CC BY-SA 4.0)`,
+    coverImagePosition: 50,
+    // representative photo — generic eyeglasses, not Eyemart Express's own product; replace with an exact match if found
     sourceUrl: `https://www.classaction.org/data-breach-lawsuits/eyemart-express-april-2026`,
     body: `Eyemart Express is one of the country's largest optical retailers, operating close to 250 stores across more than 40 states under names including Eyemart Express, Eyewear Express, Vision4Less, and Visionmart Express. On February 13, 2026, the company detected unauthorized activity on its computer network and determined that an intruder had briefly gained access the day before, on February 12, before the environment was secured and contained. Weeks later, on March 10, 2026, a ransomware group calling itself Payouts King posted a claim on the dark web that it had exfiltrated roughly 435 gigabytes of Eyemart Express's internal data and threatened to publish it if the company didn't negotiate.
 
@@ -6314,6 +6344,10 @@ If you're an Eyemart Express customer or a current or former employee, don't dis
     slug: `forrestall-cpas-2026-data-breach-guide`,
     author: `ScamShield Editorial`,
     tags: [`guide`, `forrestall-cpas-2026-data-breach`],
+    coverImage: `https://commons.wikimedia.org/wiki/Special:FilePath/Ruler_and_laptop_on_a_desk_(Unsplash).jpg?width=1200`,
+    coverImageCredit: `Photo: Oli Dale (CC0)`,
+    coverImagePosition: 50,
+    // representative photo — generic office desk, not Forrestall CPAs' own office; replace with an exact match if found
     sourceUrl: `https://www.fox5atlanta.com/news/personal-files-taken-buford-accounting-firm-data-breach`,
     body: `Forrestall CPAs LLC, a full-service accounting firm based in Buford, Georgia, in the Atlanta metro area, has notified clients that an unauthorized person got into its computer network and obtained files containing their personal information. The firm says the intrusion took place between December 22 and December 30, 2025. It took roughly seven months for Forrestall to pin down exactly what had been taken: the firm secured its systems, brought in a cybersecurity firm to investigate, and reported the incident to law enforcement, but notification letters didn't start going out to affected individuals until August 7, 2026, with a formal filing to the Texas Attorney General's office following on August 21.
 
@@ -6414,6 +6448,10 @@ If you or someone in your household ever contacted American Addiction Centers or
     slug: "eckert-seamans-2026-data-breach-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "eckert-seamans-2026-data-breach"],
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/USPS_15222_Pittsb_Grant_St_sun_jeh.jpg?width=1200",
+    coverImageCredit: "Photo: Jim Henderson (CC0)",
+    coverImagePosition: 50,
+    // representative photo — Grant Street in Pittsburgh, where Eckert Seamans is headquartered, not the firm's own building; replace with an exact match if found
     sourceUrl: "https://www.federmanlaw.com/blog/eckert-seamans-cherin-mellott-llc-data-breach-investigated-by-federman-sherwood/",
     body: `Eckert Seamans Cherin & Mellott, LLP, a full-service law firm headquartered in Pittsburgh with offices across roughly a dozen states, confirmed on August 17, 2026 that an unauthorized party had accessed files on its network. Following its investigation, the firm began mailing notification letters to affected individuals in early September 2026. It's the firm's second reportable data incident in about a year: in 2025 it disclosed a breach tied to its representation of Wheeling University that exposed personal information belonging to roughly 9,400 of the school's alumni, and was sued over it in a suit that was later voluntarily dismissed without prejudice.
 
