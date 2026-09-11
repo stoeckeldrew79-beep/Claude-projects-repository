@@ -5692,3 +5692,15 @@ UsNS.push({
     isHistorical: true,
     firstRecorded: '2025-11-03',
 });
+
+UsNS.push({
+    name: 'Oregon Board of Nursing License-Suspension Impersonation Scam',
+    slug: 'oregon-board-of-nursing-license-suspension-impersonation-scam',
+    description: `The Oregon State Board of Nursing (OSBN) warns licensees about scammers who impersonate Board staff by phone, fax, and email to falsely claim a nurse's license has been suspended over fabricated federal drug violations. In some reported cases, targeted nurses received a counterfeit suspension letter reproducing a poor copy of OSBN's letterhead along with a forged signature of the Board's director, Rachel Prusak, designed to make the fake notice look like genuine Board correspondence. The callers create artificial urgency, demand payment or personal and financial information over the phone, and in some instances discourage the licensee from contacting an attorney. OSBN states plainly that it never suspends a license by phone, never demands or requires payment over the phone, and never notifies a licensee of an investigation by telephone — a real investigation notice arrives only by letter, which includes the specific allegation and the assigned investigator's contact information so it can be verified. Any nurse contacted this way can independently confirm their license status through OSBN's online license verification system and should report the contact to the Federal Trade Commission at reportfraud.ftc.gov or to Oregon's consumer protection authorities; anyone who has already shared financial information should also contact their bank and local law enforcement immediately. Questions can be directed to OSBN at 971-673-0685 or oregon.bn.info@osbn.oregon.gov.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Oregon State Board of Nursing'],
+    sourceUrl: 'https://www.oregon.gov/osbn/Pages/Scam-Awareness.aspx',
+    country: 'US',
+    state: 'OR',
+});
