@@ -11092,6 +11092,16 @@ International.push(
     sourceUrl: 'https://caymanmarlroad.com/2026/07/17/police-get-more-reports-of-scam-calls-impersonating-law-enforcement/',
     country: 'KY',
   },
+  {
+    name: 'Cayman Islands "TrustFinance" Fake CIMA-Approved Investment Platform',
+    slug: 'cayman-islands-trustfinance-fake-cima-approved-investment-platform',
+    description: `On 15 August 2025, the Cayman Islands Monetary Authority (CIMA) issued a fraud alert warning the public about an online investment platform called TrustFinance, which was falsely claiming to be registered, licensed, regulated, or otherwise authorised by CIMA to conduct business in the Cayman Islands. CIMA said the operation was circulating dishonest promotional material on social media, in a style typical of investment scams, designed to deceive people into transferring money or handing over personal information. The scammers also falsely claimed an affiliation with Cayman Finance, the private-sector body representing the jurisdiction's financial services industry; Cayman Finance publicly confirmed it had no "affiliation, connection, or relationship" with TrustFinance and that its name and materials had been used without authorisation. CIMA stated it had never authorised TrustFinance in any capacity and urged anyone who had been approached by or engaged with the platform to exercise caution, avoid sending money or personal information, verify any firm's regulatory status using the search function on CIMA's own website before investing, and report the matter to CIMA and to the Financial Crime Investigation Unit of the Royal Cayman Islands Police Service.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'high',
+    sources: ['Cayman Islands Monetary Authority (CIMA)', 'Cayman Finance', 'Cayman News Service'],
+    sourceUrl: 'https://www.cima.ky/general-public-notices',
+    country: 'KY',
+  },
 );
 
 International.push(
