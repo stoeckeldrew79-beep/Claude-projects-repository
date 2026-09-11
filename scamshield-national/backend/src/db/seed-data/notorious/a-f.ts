@@ -7231,6 +7231,10 @@ NotoriousAF.push(
     title: 'Dennis Bolze and the Day-Trading Ponzi Scheme That Ran on Fake Statements',
     slug: 'dennis-bolze-centurion-asset-management-ponzi-scheme',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Exterior._The_Joel_Solomon_Federal_Building_and_U.S._Courthouse,_Chattanooga,_Tennessee_LCCN2014630060.tif?width=1200',
+    coverImageCredit: 'Photo: Carol M. Highsmith / Library of Congress (Public Domain) — the federal courthouse in the Eastern District of Tennessee, where Bolze was sentenced',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
     sourceUrl: 'https://www.cftc.gov/PressRoom/PressReleases/5995-11',
     body: `Dennis R. Bolze, operating out of Gatlinburg, Tennessee, told investors he would put their money into day-trading E-mini NASDAQ and S&P 500 futures contracts through his firms, Centurion Asset Management, Inc. and Advanced Trading Services, Inc. From roughly April 2002 through December 2008, more than 100 investors in the United States and Europe wired him a combined $20 million on that promise.
