@@ -13111,3 +13111,17 @@ International.push(
     country: 'PW',
   },
 );
+
+International.push(
+  {
+    name: 'Fake Palau Financial Institutions Commission Websites (pfsa.pw, palaufsr.org)',
+    slug: 'palau-fake-financial-institutions-commission-websites',
+    description: `The Republic of Palau's Financial Institutions Commission (FIC) — the country's sole bank licensing authority and financial regulator — issued back-to-back public warnings, first on August 12, 2021 and again on June 9, 2022, after discovering that unknown parties had built fake regulatory websites designed to pass as an official Palau banking authority. The first, at pfsa.pw, assumed the identity of a bank-licensing regulator for the Republic of Palau and made false claims about how a person or company could obtain a license to operate a bank or other financial institution there; the FIC described the site as "well developed" and convincing enough to appear legitimate, noting that it had copied the FIC's actual banking and financial-institution regulations, renumbered them, and altered key licensing requirements, so that anyone relying on the fake site could believe they were following genuine Palau law while actually following fabricated rules from an entity with no legal authority to license anything. A second fraudulent site, palaufsr.org, surfaced the following year using the same basic approach. In both warnings the FIC stressed that it is the only body legally authorized to license and supervise banks and financial institutions in the Republic of Palau, that its sole official website is ropfic.org, and it asked anyone who had already interacted with either fake site — for example by submitting an application, a payment, or personal or corporate documents believing they were obtaining a real Palau banking license — to contact the Commission directly. The case illustrates a scam pattern aimed less at everyday consumers than at foreign entrepreneurs and shell-company operators shopping for an offshore banking charter: because a convincingly cloned regulator website can be used to sell fake "approvals" that carry no real legal standing, the FIC urges anyone considering a Palau-licensed bank, trust, or financial institution to verify a company's or intermediary's claims directly against ropfic.org rather than trusting a search-engine result or a link supplied by the person offering the license.`,
+    categorySlug: 'government-impersonation',
+    sources: ['Republic of Palau Financial Institutions Commission'],
+    sourceUrl: 'https://ropfic.org/2022/06/09/second-fake-and-fraudulent-website/',
+    country: 'PW',
+    isHistorical: true,
+    firstRecorded: '2021-08-12',
+  },
+);
