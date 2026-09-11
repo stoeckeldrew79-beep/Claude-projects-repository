@@ -4149,6 +4149,9 @@ NotoriousNS.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
     sourceUrl: 'https://www.justice.gov/archive/usao/co/news/2010/September10/9_15_10.html',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Alfred_A._Arraj_U.S._Courthouse_2023-04-21.jpg?width=1200',
+    coverImageCredit: 'Xnatedawgx / Wikimedia Commons (CC BY-SA 4.0) — Alfred A. Arraj U.S. Courthouse, Denver, where Merriman was prosecuted',
     body: `Shawn Merriman served as a bishop in his local congregation of The Church of Jesus Christ of Latter-day Saints in the Denver area — an unpaid, elected lay leadership position that gave him standing and trust well beyond his actual financial credentials. Through Market Street Advisors and a related web of entities, including Mountain Springs Partners, L.P. and a series of associated LLCs, Merriman used that trust to build a client base drawn overwhelmingly from his own church community and their extended circle of friends and family in Colorado and Utah.
 
 From roughly 1994 through February 2009, Merriman told investors he was trading their money in stocks and bonds and generating annual returns of 7 to 20 percent. According to prosecutors, there was little to no legitimate trading behind those promises. Instead, Merriman sent investors fabricated account statements showing gains and trades that never happened, using money from newer investors to make it look like a functioning investment business — a Ponzi scheme running, undetected, for roughly a decade and a half inside a single trusting community.
