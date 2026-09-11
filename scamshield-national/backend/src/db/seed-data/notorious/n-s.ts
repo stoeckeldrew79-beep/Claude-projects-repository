@@ -4750,4 +4750,18 @@ Truglia didn't pay. Instead, prosecutors said, he continued moving funds and buy
 
 Truglia's case shows how a single hijacked phone number can unravel an entire financial identity in minutes, and how a theft's real cost can compound for years afterward: the crime that put him in prison the first time was orchestrated crypto theft, but it was his own refusal to give up the proceeds — captured, in the end, in his own boastful words — that turned an 18-month sentence into a 12-year one.`,
   },
+{
+    title: 'Raj Chauhan, Monarch Sachdev, and the Cross-Country Couriers of a Missouri Gold Bar Scam',
+    slug: 'raj-chauhan-monarch-sachdev-gold-bar-courier-scam',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-edmo/pr/three-accused-defrauding-elderly-gold-bar-scam',
+    body: `Note: Raj Chauhan, Monarch Sachdev, and Elon Harper have been indicted, not convicted. The description below reflects a federal indictment and related detention filings — allegations the government must still prove — and all three defendants are presumed innocent unless and until a court finds otherwise.
+
+According to a federal indictment unsealed in the Eastern District of Missouri, the scheme worked like this: co-conspirators based outside the United States called or messaged elderly victims claiming their bank or investment accounts had been compromised by hackers, or that they had erroneously received money and now owed back taxes on it. To "protect" their savings, victims were told to withdraw funds, convert them into gold bars and gold coins, and hand the gold over in person to a "government courier" sent to collect it. In one example cited in the indictment, Monarch Sachdev directed Chauhan to pick up gold from an elderly woman in Cedar Hill, Missouri, who had been told she'd been mistakenly sent money over PayPal and would owe income tax on it unless she bought $200,000 in gold to surrender.
+
+Chauhan, 33, Sachdev, 28, and Harper, 27, were each indicted on February 4, 2026, on one count of wire fraud, and prosecutors describe them as couriers who criss-crossed the country to collect gold and cash from victims — Harper alone is alleged to have made pickups in Dallas and Lindale, Texas; Orrick, Missouri; Mount Pleasant, South Carolina; Bonita Springs, Florida; and Norman, Oklahoma. Sachdev, according to detention filings, also helped manage pickups by other couriers, including his two co-defendants, coordinating collections in Houston, Canon City, Colorado, Quincy, Illinois, and St. Louis. Prosecutors said Sachdev was personally responsible for retrieving fraud proceeds on at least 65 separate occasions, totaling at least $5.4 million, and facilitated the pickup of a further $4.2 million by others. All three were arrested in February 2026 far from Missouri — Harper in Maine, Sachdev in Texas, and Chauhan in northern Illinois — underscoring how widely the courier network the government alleges had spread.
+
+The case is one of a growing number of federal prosecutions targeting the courier layer of "gold bar" elder-fraud schemes, a variant of the older "pack up your cash and hand it to a stranger" scam that swaps a bag of currency for bullion specifically because gold is harder for banks to flag and easier to convert back to cash anonymously later. As in similar cases prosecuted elsewhere in the country, the couriers charged here are typically not the people making the frightening phone calls — those callers, according to the indictment, operated from outside the U.S. and remain unnamed — but the in-person link that turns a phone script into an elderly victim actually handing over their retirement savings at the front door.`,
+  },
 );
