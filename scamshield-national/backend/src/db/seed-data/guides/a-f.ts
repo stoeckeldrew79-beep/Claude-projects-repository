@@ -5908,6 +5908,10 @@ If you have ever had dental coverage through Delta Dental of Virginia, watch for
     slug: `fcc-one-to-one-consent-rule-vacated-guide`,
     author: `ScamShield Editorial`,
     tags: [`guide`, `fcc-one-to-one-consent-rule-vacated`],
+    coverImage: `https://commons.wikimedia.org/wiki/Special:FilePath/Cellphone_(Unsplash).jpg?width=1200`,
+    coverImageCredit: `Photo: Rodion Kutsaev (CC0)`,
+    coverImagePosition: 50,
+    // representative photo — generic phone, evoking the robocalls/robotexts at issue; replace with an exact match if found
     sourceUrl: `https://www.daypitney.com/eleventh-circuit-vacates-fccs-one-to-one-consent-rule`,
     body: `For more than a decade, one of the most common ways consumers ended up buried under robocalls and robotexts from businesses they'd never heard of traced back to a single checkbox on a "comparison shopping" website — the kind of page that promises to find you the best rate on a car loan, an auto warranty, or health insurance if you just fill in your name and phone number. Buried in the fine print beneath that form was often a single consent disclosure that, once checked, was treated as permission for dozens, sometimes hundreds, of unrelated sellers and lead-buying marketers to call or text the number submitted — a practice regulators and plaintiffs' lawyers came to call the "lead generator loophole." The Federal Communications Commission moved to close it in December 2023, adopting a "one-to-one consent" rule under the Telephone Consumer Protection Act that would have required a consumer's consent to cover exactly one seller at a time, with any resulting calls or texts required to stay "logically and topically related" to whatever the consumer had actually signed up for.
 
@@ -5922,6 +5926,10 @@ What the reversal means in practice is that the fine print on any site asking fo
     slug: `community-health-center-inc-connecticut-2025-data-breach-guide`,
     author: `ScamShield Editorial`,
     tags: [`guide`, `community-health-center-inc-connecticut-2025-data-breach`],
+    coverImage: `https://commons.wikimedia.org/wiki/Special:FilePath/Downtown_Middletown,_CT.jpg?width=1200`,
+    coverImageCredit: `Photo: Daniel Case (CC BY-SA 3.0)`,
+    coverImagePosition: 50,
+    // representative photo — downtown Middletown, Connecticut, where CHC is headquartered; replace with an exact match if found
     sourceUrl: `https://www.hipaajournal.com/community-health-center-data-breach/`,
     body: `Community Health Center, Inc. (CHC), a nonprofit healthcare provider headquartered in Middletown, Connecticut that operates dozens of clinics and is one of the largest federally qualified health centers in New England, disclosed in early February 2025 that a criminal hacker had broken into its computer network and copied out patient data. According to the timeline CHC later gave regulators, the unauthorized access actually began on October 14, 2024, but the organization didn't identify the intrusion until January 2, 2025 — a gap of more than two and a half months during which the intruder had unnoticed access to CHC's systems.
 
@@ -5957,6 +5965,9 @@ If you have a Cisco.com account, treat any unsolicited call, text, or email that
     slug: `ftc-social-media-scams-report-2026-guide`,
     author: `ScamShield Editorial`,
     tags: [`guide`, `ftc-social-media-scams-2026`],
+    coverImage: `https://commons.wikimedia.org/wiki/Special:FilePath/Social_Media_App_Icons_On_The_Screen_of_A_Smartphone.jpg?width=1200`,
+    coverImageCredit: `Photo: Mike MacKenzie (CC BY 2.0)`,
+    coverImagePosition: 50,
     sourceUrl: `https://www.ftc.gov/news-events/news/press-releases/2026/04/new-ftc-data-show-people-have-lost-billions-social-media-scams`,
     body: `In April 2026, the Federal Trade Commission released a new breakdown of consumer fraud reports showing just how dominant social media has become as a starting point for scams. In 2025, nearly 30 percent of people who told the FTC they'd lost money to a scam said it began on a social media platform — and the dollar figure behind that number was $2.1 billion, an eightfold increase from what the agency recorded in 2020. For the first time, the FTC's data shows a single platform, Facebook, generating more reported dollar losses on its own than phone text messages and email scams combined, with WhatsApp and Instagram rounding out the next two spots.
 
@@ -6075,6 +6086,10 @@ If you financed a vehicle through a dealership at any point in 2025, or receive 
     slug: `bridgepay-ransomware-attack-2026-guide`,
     author: `ScamShield Editorial`,
     tags: [`guide`, `bridgepay-ransomware-attack-2026`],
+    coverImage: `https://commons.wikimedia.org/wiki/Special:FilePath/Credit_card_terminal.jpg?width=1200`,
+    coverImageCredit: `Photo: Izcool (public domain)`,
+    coverImagePosition: 50,
+    // representative photo — generic card payment terminal, not BridgePay's own hardware; replace with an exact match if found
     sourceUrl: `https://therecord.media/payment-tech-provider-texas-florida-govs-ransomware-attack`,
     body: `BridgePay Network Solutions is not a household name, but the Florida-based company sits in the middle of an enormous number of everyday transactions: as a payment gateway processing roughly 40 million transactions a month, it handles the behind-the-scenes card processing for restaurants, retailers, and — critically — the online bill-pay portals of dozens of local governments and municipal utilities. On Friday, February 6, 2026, that infrastructure went dark. BridgePay's systems suffered a system-wide outage that the company confirmed days later was caused by a ransomware attack, and because so many unrelated businesses and city governments depended on the same gateway, the fallout showed up simultaneously in places that had no idea they shared a vendor.
 
@@ -6313,6 +6328,10 @@ Because Social Security numbers and financial account information were both expo
     slug: `first-advantage-2026-data-breach-guide`,
     author: `ScamShield Editorial`,
     tags: [`guide`, `first-advantage-2026-data-breach`],
+    coverImage: `https://commons.wikimedia.org/wiki/Special:FilePath/Jackson_Street_Bridge_and_Atlanta_Night_Skyline_(Unsplash).jpg?width=1200`,
+    coverImageCredit: `Photo: Joey Kyber (CC0)`,
+    coverImagePosition: 50,
+    // representative photo — Atlanta, where First Advantage is headquartered; replace with an exact match if found
     sourceUrl: `https://oag.ca.gov/ecrime/databreach/reports/sb24-625323`,
     body: `First Advantage Corporation is an Atlanta-based background-screening and identity-verification company that runs more than 200 million screens a year on behalf of employers, landlords, and other organizations doing pre-employment or tenant checks. On November 17, 2025, the company discovered that an unauthorized third party had used "sophisticated phishing" to gain access to a single employee's account within its Drug & Occupational Health Screening Unit. First Advantage's investigation traced the intrusion back to on or about November 13, 2025, and determined the intruder used that access to download the entire contents of the employee's email inbox. Notification letters didn't begin going out to affected individuals until April 21, 2026 — roughly five months later. Filings that followed with state regulators, including California on June 23, 2026, and a supplemental filing with the Texas Attorney General on July 23, 2026, put the confirmed toll at a total of at least 4,669 people nationwide, with the largest single share — several thousand people — in Texas.
 
@@ -6344,6 +6363,10 @@ If you do business with Cushman & Wakefield — as a client, tenant, landlord, b
     slug: "apollo-global-management-2026-data-breach-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "apollo-global-management-2026-data-breach"],
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Manhattan_-_9_West_57th_Street.JPG?width=1200",
+    coverImageCredit: "Photo: C.M. de Talleyrand-Périgord (CC BY-SA 4.0)",
+    coverImagePosition: 50,
+    // representative photo — entrance of the Solow Building at 9 West 57th Street, Apollo's headquarters address; replace with an exact match if found
     sourceUrl: "https://cyberscoop.com/apollo-discloses-data-breach-social-engineering-attack/",
     body: `Apollo Global Management, a New York-based private equity and asset-management firm that oversees roughly $1 trillion for pension funds, insurers, and other institutional clients, disclosed in late August 2026 that its subsidiary Apollo Management Holdings, L.P. had suffered a data breach — one that began not with a hacked server, but with a phone call. According to Apollo's notification to state regulators, an unauthorized party used social engineering to gain access to certain of the company's cloud platforms between July 6 and July 10, 2026. Apollo says it brought in outside forensic investigators after detecting the intrusion, and it wasn't until August 12, 2026 that the investigation confirmed personal information had actually been taken. The company began notifying the California, Massachusetts, and Vermont attorneys general on August 20 and mailed letters to affected individuals the next day, August 21. Apollo has not disclosed how many people were affected, or whether they are current employees, former employees, or contacts tied to Apollo-owned portfolio companies.
 
