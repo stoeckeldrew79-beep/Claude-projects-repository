@@ -2608,3 +2608,20 @@ Hitt's case shows how far an inherited name and an invented balance sheet can ca
     sourceUrl: 'https://www.justice.gov/usao-edva/pr/former-kiddar-capital-ceo-sentenced-prison',
   },
 );
+
+NotoriousTZ.push(
+  {
+    title: "David Voss and the Assembly-Line Ring That Forged Thousands of Norval Morrisseau Paintings",
+    slug: 'david-voss-norval-morrisseau-forgery-ring',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    body: `David John Voss ran what investigators called Canada's largest art fraud investigation out of Thunder Bay, Ontario, mass-producing fake paintings falsely attributed to Norval Morrisseau, the celebrated Anishinaabe artist and founder of the Woodlands School of Art who died in 2007. Between 1996 and 2019, according to an agreed statement of facts read in court, Voss developed what amounted to an assembly-line forgery process: he would sketch a painting's outline in pencil and mark each section with a letter code corresponding to a specific color, then pay other painters to fill in the "paint by numbers" template he had created — turning what should have been an individual artist's spiritual and cultural expression into a mass-manufactured commodity.
+
+The operation ran for more than two decades before a years-long investigation by the Thunder Bay Police Service and the Ontario Provincial Police caught up with it. In March 2023, eight people were charged in connection with the ring: Voss, Gary Lamont, Diane Marie Champagne, Linda Joy Tkachyk, and Benjamin Paul Morrisseau — the artist's own nephew — all of Thunder Bay, along with Jeffrey Gordon Cowan of Niagara-on-the-Lake, James White of Essa Township, and David P. Bremner of Locust Hill. Police seized more than 1,000 forged paintings in the course of the investigation, and the Morrisseau estate's executive director, Cory Dingle, told the court the estate faces at least $100 million in losses as a result of the fraud, with the artist's genuine work potentially taking decades to regain its market value.
+
+Voss pleaded guilty on June 4, 2024, to charges of forgery and uttering forged documents. On September 5, 2024, Ontario Superior Court Justice Bonnie Warkentin sentenced him to five years in a federal penitentiary. "The purpose of the creation of these fake paintings was to gain an economic benefit, but in the course of creating and selling these fakes, the legacy of Norval Morrisseau has been irrevocably damaged," Warkentin told the court. "His spirituality has been undermined and tarnished, so today, we have one small opportunity to address this wrong." She added that the case amounted to more than ordinary fraud: "It's an appropriation of a cultural and spiritual identity of one of Canada's most loved and valued artists." Gary Lamont, identified by investigators as the ring's "ringleader," had already been sentenced to the same five-year term in December 2023 after pleading guilty to making false documents and defrauding the public. The Crown did not seek restitution in either case, telling the court that calculating an amount across the scheme's scale "would be so complex as to be unmanageable" — leaving Morrisseau's estate to pursue any recovery through separate civil action instead.
+
+The Morrisseau forgery ring shows how a market built on an artist's reputation rather than independently verifiable authentication can be exploited at industrial scale: a "paint by numbers" production line run out of one city sustained itself for more than twenty years, moving thousands of fakes through galleries and private sales, precisely because no centralized, artist-controlled authentication process existed to catch a forgery before it reached a buyer. Morrisseau's estate has since pushed for changes to Canadian law specifically to close that gap — a reminder that even a deceased artist's family can be left fighting the same fight forgery investigators describe in almost every other kind of fraud: proving what's real after the fake has already been sold.`,
+    sourceUrl: 'https://www.cbc.ca/news/canada/thunder-bay/david-john-voss-sentencing-hearing-1.7314191',
+  },
+);
