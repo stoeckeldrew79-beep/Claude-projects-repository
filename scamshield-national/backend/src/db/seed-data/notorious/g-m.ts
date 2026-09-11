@@ -6190,6 +6190,10 @@ NotoriousGM.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/usao-dc/pr/former-charity-president-pleads-guilty-embezzling-money',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Vietnam War Memorial Washington DC Maya Lin-editA.jpg?width=1200',
+    coverImageCredit: 'Photo: Tomcloyd / Wikimedia Commons (Public Domain)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `John Thomas Burch Jr. spent years as a prominent Washington-area advocate for veterans, including a stint as a senior attorney at the Department of Veterans Affairs, before building the National Vietnam Veterans Foundation (NVVF) into a nationwide telemarketing fundraising operation. By 2014, NVVF was pulling in nearly $9 million a year in donations solicited with promises that the money would go directly toward helping struggling veterans and their families. According to a subsequent investigation by the New York Attorney General's office, almost none of it did: of the $8.6 million NVVF raised in 2014 alone, $7.7 million — roughly 90 percent — went straight back out to the professional fundraising firms NVVF had hired to make the calls.
 
 What little remained after paying the fundraisers was, prosecutors and the New York Attorney General both found, frequently spent on the charity's own leadership rather than on veterans. Investigators pointed to consulting fees paid to friends and relatives of NVVF's directors, and to a 2014 board trip to Normandy, France. Burch himself controlled a fund NVVF described publicly as an "Emergency Assistance Program" meant to help the young children of impoverished Vietnam veterans' families — and, according to federal prosecutors, used it instead as a personal slush fund, distributing more than $10,000 apiece to several women with whom he had personal relationships and submitting expense reports that described nightclub visits, restaurant meals, and hotel stays as work related to "veteran issues" and homelessness outreach.
