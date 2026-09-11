@@ -7776,6 +7776,10 @@ NotoriousGM.push(
     slug: 'jeffery-gentry-white-county-tractor-supply-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/White-county-tennessee-courthouse1.jpg?width=1200',
+    coverImageCredit: 'Photo: Brian Stansberry (CC BY 3.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.justice.gov/usao-mdtn/pr/white-county-business-owner-sentenced-three-years-prison-43-million-investment-scheme',
     body: `Jeffery Lynn Gentry owned and ran two small businesses in Sparta, Tennessee — Gentry Brothers Tractor Supply and, later, a used-car lot called Gentry Auto. To the more than 50 people who eventually invested with him, most of them fellow White County residents including customers, friends, and family, he was a known local face, not a stranger pitching a stock tip out of nowhere.
 
