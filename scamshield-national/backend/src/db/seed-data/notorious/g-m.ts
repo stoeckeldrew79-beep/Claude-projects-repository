@@ -7893,3 +7893,20 @@ Mba pleaded guilty on December 4, 2025, to conspiracy to commit wire fraud and c
 Mba's case illustrates how the infrastructure behind different scam categories often overlaps: the same conspiracy that hijacked corporate email accounts to reroute six- and seven-figure business payments was, in parallel, running the far more personal con of a fabricated online relationship — two very different victim experiences, funneled through the same laundering network, run by people willing to marry strangers on paper to keep the operation based in the United States.`,
   },
 );
+
+NotoriousGM.push(
+  {
+    title: 'James Torchia and the Credit Nation Life-Settlement Ponzi Scheme',
+    slug: 'james-torchia-credit-nation-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.ajc.com/news/jury-finds-accused-ponzi-scheme-operator-not-guilty-of-fraud/2CKYPLCXNFGZ5KI7EDVJGGTDXU/',
+    body: `Starting in 2009, James "Jim" Torchia ran a group of Cherokee County, Georgia companies — CN Capital, Credit Nation Capital, and related entities doing business as Credit Nation — selling two kinds of investments to ordinary investors, many of them elderly and investing their retirement savings or entire IRAs. One was promissory notes tied to subprime auto loans, most promising 9 percent annual returns and marketed, the SEC later said, as "100% asset-backed." The other was fractional interests in life settlements and viaticals — the practice of buying the rights to an elderly or terminally ill person's life insurance policy at a discount and collecting the full death benefit once they died, effectively betting that the payout would arrive before the ongoing premiums ate up the profit.
+
+The Securities and Exchange Commission sued Torchia and his companies in the Northern District of Georgia on November 10, 2015, alleging he was running a Ponzi scheme: that the businesses were losing money on a massive scale while Torchia kept marketing the notes as safe and asset-backed, diverted investor funds to prop up his other ventures and cover personal expenses, and used new investors' money to keep paying the ones who came before them. A federal judge froze the companies' assets, later found on the evidence before it that investors had probably been defrauded, and appointed a receiver to try to recover money for them; in March 2017, Torchia consented to the entry of a judgment on the SEC's liability claims against him, without admitting or denying the allegations, leaving the exact civil penalty and disgorgement amount to be set once total investor losses were tallied. Federal prosecutors separately indicted Torchia criminally, accusing him of continuing to market the notes even after learning the SEC was investigating; his longtime lawyer and adviser, Marc Celello, pleaded guilty to conspiracy to commit wire fraud and agreed to testify against him.
+
+The criminal case ended very differently. After a two-week trial in federal court in Atlanta, in which Torchia did not testify, a jury acquitted him on October 24, 2022, of conspiracy to commit mail and wire fraud and of six counts of mail fraud, clearing him of all criminal charges. His attorney said afterward that prosecutors had made "a slew of allegations that they were ultimately unable to prove."
+
+Torchia's case is a useful, uncomfortable reminder that a regulator's civil finding and a criminal jury's verdict aren't the same test applied to the same fact pattern: the SEC's civil case, decided on a preponderance of the evidence, produced a consent judgment and a receiver working to recover money for defrauded investors, while the criminal case, requiring proof beyond a reasonable doubt, ended in acquittal on every count. Both outcomes are part of the documented record, and neither erases the other — which is exactly why "100% asset-backed" is a claim worth verifying independently rather than accepting on an issuer's word, regardless of how any later court case turns out.`,
+  },
+);
