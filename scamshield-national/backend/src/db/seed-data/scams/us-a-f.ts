@@ -7159,3 +7159,15 @@ UsAF.push({
     country: 'US',
     state: 'AK',
 });
+
+UsAF.push({
+    name: 'Florida Roof Specialists Insurance-Deductible-Only Roofing Scheme',
+    slug: 'florida-roof-specialists-insurance-deductible-scheme',
+    description: `Jacksonville-based Florida Roof Specialists and its president, Jeremy S. Rogero, used door-to-door and home-solicitation sales pitches to promise Florida homeowners that a new roof would cost them nothing beyond their insurance deductible, with the company handling the insurance claim directly. According to the Florida Attorney General's Office, which sued the company and Rogero in September 2025 after fielding more than 130 consumer complaints, homeowners who agreed were later billed thousands of dollars beyond what their insurer paid, and those who didn't or couldn't pay had liens placed against their homes — at least 75 properties by the state's count — followed by lawsuits; the company had filed more than 250 such suits against its own customers. The Attorney General's Office called the resulting liens "frivolous" and "baseless" and, in March 2026, asked a court to halt the company's pending collection lawsuits while the state's own case proceeded, alleging the pattern of deceptive sales pitches, undisclosed extra charges, and retaliatory liens violated the Florida Deceptive and Unfair Trade Practices Act. The lawsuit seeks to bar Rogero and Florida Roof Specialists from doing any further roofing business in Florida, to void the disputed liens and underlying contracts, and to secure restitution for affected homeowners. Florida homeowners approached with a "your roof costs nothing but the deductible" pitch are advised to get a fully itemized, written estimate before signing anything, to stay directly involved in their own insurance claim rather than letting a contractor negotiate it unsupervised, and to check a contractor's license and complaint history with the Florida Department of Business and Professional Regulation and the Attorney General's Office before signing a contract that hands the contractor control of the insurance payout.`,
+    categorySlug: 'home-improvement-solar',
+    alertLevel: 'high',
+    sources: ["Florida Attorney General's Office", 'WFLA', 'News4JAX'],
+    sourceUrl: 'https://www.news4jax.com/news/local/2026/03/06/jacksonville-lawyers-warn-homeowners-after-state-sues-roofing-company/',
+    country: 'US',
+    state: 'FL',
+});
