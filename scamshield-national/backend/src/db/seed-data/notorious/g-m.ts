@@ -7811,3 +7811,20 @@ The fraud didn't stay contained to individual clients. A Minnesota-based investm
 Darrah pleaded guilty to one count of wire fraud, and on May 19, 2025, U.S. District Judge Otis D. Wright II sentenced her to 121 months in federal prison. A separate civil judgment in December 2024 held her liable for $2,416,511, including interest, on top of the SEC's asset freeze and injunction. Her case is a reminder that the professional designations meant to reassure clients — registered investment adviser, fiduciary, trustee — describe a legal relationship of trust, not a guarantee that the person holding those titles is entitled to it; family members of elderly investors are often in the best position to ask a second, independent professional to review any arrangement that hands one advisor this much unsupervised control.`,
   },
 );
+
+NotoriousGM.push(
+  {
+    title: 'Henry Abdo and Titanium Capital: The Fake Currency Fund That Promised 102 Percent Returns',
+    slug: 'henry-abdo-titanium-capital-currency-fund-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.sec.gov/newsroom/press-releases/2023-251',
+    body: `Henry Abdo ran Titanium Capital LLC out of Florida, pitching investors on something he called the "Multi Currency Investment Fund" — a supposed proprietary currency-exchange operation that, according to Abdo, could generate extraordinary, steady profits by trading between world currencies. The math he offered prospective investors was the kind that should have ended the conversation immediately: returns of up to 102 percent compounded interest over a five-year investment. Instead, according to the SEC, Abdo backed the pitch with a further lie, telling investors the fund was registered with and overseen by the SEC when it was neither.
+
+The SEC's complaint, filed in December 2023 in the Southern District of Florida, alleged that Abdo and Titanium had been running the scheme since at least 2014, ultimately raising more than $5.3 million from over 160 retail investors in the United States and abroad. Rather than trading currencies at any scale capable of producing the promised returns, the SEC said, Abdo and Titanium funneled virtually all of the money right back out: Ponzi-style payments to earlier investors to keep the operation looking legitimate, transfers to relatives named as relief defendants in the case, commissions to unregistered promoters — including a company representative, Carol Ann Barsh, separately charged for soliciting investors without being registered to do so — and personal spending on jewelry and casino trips.
+
+Federal prosecutors in the Southern District of Florida filed parallel criminal charges alongside the SEC's civil case, a pairing that shows up often in Ponzi prosecutions: the civil case moves to freeze assets and stop the bleeding for investors, while the criminal case pursues Abdo's liberty. On March 4, 2026, a federal judge granted the SEC's motion for summary judgment and entered final judgment against Abdo, permanently enjoining him from violating the antifraud provisions of the Securities Act and the Exchange Act and barring him from participating in the issuance, purchase, offer, or sale of any security except for his own personal account.
+
+A guaranteed 102 percent return over five years works out to roughly 15 percent a year, compounded — a number picked, most likely, because it sounds impressive without sounding impossible the way "double your money in a year" would. That's the trap in a lot of currency- and forex-branded pitches: the return is dressed up as merely aggressive rather than obviously fictional, which is exactly what makes it easier for investors to talk themselves into believing a claim no legitimate currency-trading operation could consistently deliver.`,
+  },
+);
