@@ -11136,6 +11136,16 @@ International.push(
     sourceUrl: 'https://www.nevispages.com/public-notice-st-kitts-nevis-anguilla-national-bank-issues-fraud-alert/',
     country: 'KN',
   },
+  {
+    name: 'St. Kitts and Nevis WhatsApp Account-Cloning Impersonation Scam',
+    slug: 'st-kitts-nevis-whatsapp-account-cloning-impersonation-scam',
+    description: `The White Collar Crime Unit (WCCU) of the Royal St. Christopher and Nevis Police Force (RSCNPF) issued a public advisory on November 15, 2024 warning residents about a wave of WhatsApp account-cloning scams. Overseas scammers were found to be duplicating a real person's WhatsApp account — using their name and profile photo — and then messaging that person's own contact list while posing as the account holder, typically claiming to be stranded overseas, often "in the United States," and in urgent need of a money transfer to get home. Police said they first became aware of the pattern in early October 2024 and that only three cases had been formally reported at the time of the advisory, but cautioned that the true number of victims was likely much higher since many people who received a fraudulent message never realized their contact's account, rather than the contact themselves, had been the one compromised. The WCCU advised anyone who receives a message from a contact asking for money, or asking them to forward money to a third party, to independently verify the request by phone before sending anything, to never approve a WhatsApp verification code they did not request themselves, and to report suspected cloning attempts to the WCCU directly.`,
+    categorySlug: 'account-takeover',
+    alertLevel: 'medium',
+    sources: ['Royal St. Christopher and Nevis Police Force White Collar Crime Unit (WCCU)', 'WINN FM 98.9'],
+    sourceUrl: 'https://police.kn/press-releases/detail/367',
+    country: 'KN',
+  },
 );
 
 International.push(
