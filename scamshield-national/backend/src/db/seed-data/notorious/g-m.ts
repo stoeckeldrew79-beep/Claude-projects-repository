@@ -7229,6 +7229,10 @@ Shah's case is a reminder that a scam's packaging can be almost entirely separat
     slug: 'michael-marasigan-guam-bingo-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Tamuning,_Guam.jpg?width=1200',
+    coverImageCredit: 'Photo: NJo, CC BY 3.0, via Wikimedia Commons — Tamuning, Guam, where Hafa Adai Bingo operated',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     sourceUrl: 'https://www.justice.gov/usao-gu/pr/guam-bingo-operators-receive-federal-prison-sentences-34-million-fraud-scheme',
     body: `Michael Lizaso Marasigan, of Dededo, Guam, helped run Hafa Adai Bingo, a charity bingo parlor in Tamuning operated under the Guam Shrine Club. Like similar charity-bingo operations across the country, Hafa Adai Bingo was pitched to patrons and regulators as a fundraising vehicle for a specific, sympathetic cause: covering airfare and travel costs so that sick and injured children from Guam, along with a parent or guardian, could fly to Shriners Children's Hospital in Honolulu for specialized medical care they couldn't get at home.
 
