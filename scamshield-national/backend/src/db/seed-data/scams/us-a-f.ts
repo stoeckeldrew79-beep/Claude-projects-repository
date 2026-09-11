@@ -7369,3 +7369,14 @@ UsAF.push({
     country: 'US',
     state: 'CA',
 });
+
+UsAF.push({
+    name: 'DEA Agent Impersonation Scam Targeting Licensed Nurses',
+    slug: 'dea-agent-nursing-board-impersonation-extortion-scam',
+    description: `Scammers posing as U.S. Drug Enforcement Administration agents or state board investigators are calling licensed healthcare professionals — nurses first and most heavily, but the same script has also hit physicians, dentists, and respiratory care practitioners — falsely claiming the target's license is under investigation for illegal drug trafficking and is about to be suspended. The Medical Board of California's own fraud alert describes callers who spoof the Board's real toll-free number so it displays correctly on caller ID, then email or fax a fabricated "Notice of Suspension" carrying the board's letterhead and logo along with an "Agreement for the Bond and Protocols" demanding a $25,000 payment framed as a bond to keep practicing while the (nonexistent) investigation proceeds, and requiring the victim to keep the call confidential rather than checking with anyone else. Nursing boards have reported the identical playbook nationwide well into 2026: the North Dakota Board of Nursing warned licensees on July 7, 2026 about hostile-toned, spoofed calls claiming urgent action was needed to stop a license suspension, and the Kentucky Board of Nursing issued its own warning in May 2026 about callers using board-adjacent phone numbers and threats of a missed court date or a pending investigation to extract personal information and payment. Every board involved says the same thing: staff and investigators never call demanding money, bank account information, or immediate payment to resolve a licensing matter, and a real investigation is never kept secret from the licensee's own verification. Anyone who gets a call like this should hang up, independently verify their license status through the board's own online verification portal, and report the call directly to the board using a phone number looked up separately — never one the caller supplies — rather than to any "investigator" on the line.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Medical Board of California', 'California Board of Registered Nursing', 'North Dakota Board of Nursing', 'Kentucky Board of Nursing'],
+    sourceUrl: 'https://www.mbc.ca.gov/News/Fake-DEA-Agents.aspx',
+    country: 'US',
+});
