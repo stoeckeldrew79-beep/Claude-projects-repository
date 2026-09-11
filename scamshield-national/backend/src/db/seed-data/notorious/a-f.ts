@@ -7548,6 +7548,10 @@ NotoriousAF.push(
     title: 'Brian Mitchell: The Banned Trader Who Kept Raising Money Anyway',
     slug: 'brian-mitchell-banned-trader-young-pros-fraud',
     author: 'ScamShield Editorial',
+    // representative photo — replace with an exact match if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Ann_Arbor,_Michigan_Skyline.JPG?width=1200',
+    coverImageCredit: 'Photo: Dwight Burdette / Wikimedia Commons / CC BY 3.0 — Ann Arbor, Michigan, where Mitchell operated',
+    coverImagePosition: 50,
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/usao-edmi/pr/suspended-ann-arbor-commodities-trader-pleads-guilty-multi-million-dollar-fraud-scheme',
     body: `Brian Mitchell, of Ann Arbor, Michigan, was already a known name to futures regulators by the time he started raising real money from investors. The National Futures Association disciplined him in 2017, and in a 2021 settlement with the Commodity Futures Trading Commission covering violations from January 2018 to January 2019, he agreed to a three-year bar from soliciting or accepting funds for commodity futures trading. None of that stopped him from doing exactly that.
