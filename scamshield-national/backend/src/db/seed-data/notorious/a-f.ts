@@ -7637,6 +7637,10 @@ NotoriousAF.push(
     slug: 'dean-dellas-cazenovia-investment-advisor-elder-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    // representative photo — replace with an exact match if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Downtown_Cazenovia,_NY.jpg?width=1200',
+    coverImageCredit: 'Photo: Doug Kerr (CC BY-SA 2.0) — Cazenovia, New York, where Dellas ran DSD Capital Management',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.justice.gov/usao-ndny/pr/cazenovia-man-sentenced-70-months-wire-fraud-and-aggravated-identity-theft',
     body: `Dean Dellas spent more than a decade building a legitimate resume in finance: a broker at Merrill Lynch's Syracuse office from 2008 to September 2013, then a dually registered investment advisor and broker at Pinnacle Investments until February 2021. That history was real, and it was exactly the kind of background that made clients comfortable following him when he struck out on his own, forming DSD Capital Management in Cazenovia, New York, just outside Syracuse. What his clients didn't know was that neither Dellas nor DSD Capital was actually registered as an investment advisor or broker at any point after he left Pinnacle — he kept managing money and collecting fees as though the registration had simply carried over.
 
