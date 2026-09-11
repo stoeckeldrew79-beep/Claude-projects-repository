@@ -2779,3 +2779,15 @@ UsTZ.push({
     country: 'US',
     state: 'TX',
 });
+
+UsTZ.push({
+    name: 'Texas Pediatric Dental Medicaid Gift-Card Kickback Scheme',
+    slug: 'texas-pediatric-dental-medicaid-gift-card-kickback-scheme',
+    description: `Texas Attorney General Ken Paxton announced on March 30, 2026 that his office had sued a network of dental providers and the outside "marketers" who fed them patients, alleging a kickback scheme that defrauded Texas Medicaid by paying for referrals and then billing the program for medically unnecessary — and in some cases high-risk — dental procedures performed on Medicaid beneficiaries, including young children. According to the complaint, filed under the Texas Health Care Program Fraud Prevention Act, the marketer defendants targeted Medicaid families with gift cards and cash incentives to bring their children in as patients, and were paid by the dental providers on a per-patient basis; those payments were allegedly disguised in Master Service Agreements as fees for "survey services" that the complaint says never actually took place. Patients were then allegedly circulated among a network of affiliated clinic locations so the providers could maximize how many procedures — and how much reimbursement — could be billed to Medicaid for each child. The lawsuit, which the Attorney General's office says was originally filed under seal in August 2025 before being unsealed this year, alleges the scheme generated tens of thousands of fraudulent Medicaid claims over several years. "It is malicious and unacceptable that these providers were performing dangerous, medically unnecessary procedures on patients in order to scam our Medicaid system," Paxton said in announcing the suit, which seeks full restitution to the state, civil penalties, and all other remedies available under the Act. The case echoes a pattern regulators have flagged nationally in pediatric Medicaid dentistry — including a $23.9 million settlement paid by dental chain Benevis and its Kool Smiles clinics over unnecessary pulpotomies ("baby root canals") and steel crowns performed on children — and Paxton's office has said its Medicaid Fraud Control Unit is separately scrutinizing dental chains for billing "paper-only" exams that a dentist never actually performed. Parents whose children are enrolled in Medicaid should ask for a written explanation of any recommended dental procedure, request an independent second opinion before agreeing to multiple extractions, crowns, or root canals in a single visit, and can report suspected billing fraud to the Texas Health and Human Services Commission's Office of Inspector General.`,
+    categorySlug: 'healthcare-fraud',
+    alertLevel: 'high',
+    sources: ["Texas Attorney General's Office", "Becker's Dental Review", 'Legal Newsline'],
+    sourceUrl: 'https://www.texasattorneygeneral.gov/news/releases/attorney-general-paxton-sues-dental-providers-and-fraudulent-marketers-performing-medically',
+    country: 'US',
+    state: 'TX',
+});

@@ -4850,3 +4850,15 @@ UsNS.push({
     sourceUrl: 'https://topclassactions.com/lawsuit-settlements/closed-settlements/11-07m-sixt-rent-a-car-class-action-settlement/',
     country: 'US',
 });
+
+UsNS.push({
+    name: 'New York City Extra Space Storage Bait-and-Switch Pricing Settlement',
+    slug: 'new-york-city-extra-space-storage-bait-and-switch-settlement',
+    description: `The New York City Department of Consumer and Worker Protection (DCWP) filed a lawsuit on February 10, 2026 against Extra Space, a publicly traded self-storage company operating roughly 60 facilities across the five boroughs, after a three-year investigation that reviewed more than 100 consumer complaints. The complaint alleged Extra Space lured customers in with low advertised rates and then, once belongings were moved into a unit, "quickly and often dramatically" raised the price with little or no meaningful notice; that the company tacked on undisclosed "late fees" and other junk charges; and that it threatened to auction off customers' stored belongings unless they paid the full amount of these newly imposed and often disputed charges, without adequate due process. DCWP also alleged Extra Space routinely failed to maintain the clean, secure facilities it advertised, with inspectors documenting vermin infestations, water damage, and mold at units across the city. On July 10, 2026, New York City Mayor Zohran Mamdani's office announced a $1.7 million settlement resolving the case: $1 million was set aside as a direct restitution fund for affected New York City customers, with the remaining $700,000 paid as civil penalties to the city. Extra Space did not admit wrongdoing but agreed to stop advertising prices or facility conditions in a deceptive manner and to put in place stronger due-process protections — including clearer notice and an opportunity to dispute charges — before restricting a customer's access to their unit or auctioning its contents. The restitution fund began accepting claims on August 1, 2026, with eligible New Yorkers instructed to email DCWP with supporting documentation such as lease agreements, payment records, and rate-increase notices. The case is a reminder that a "storage rental" is a contract like any other lease: renters should read the fine print on rate-increase clauses before signing, photograph the unit and its stated condition at move-in, and keep every notice a facility sends about fees or an impending lien sale, since those records are exactly what a restitution claim — or a dispute over a threatened auction — will turn on.`,
+    categorySlug: 'rental-housing',
+    alertLevel: 'medium',
+    sources: ['NYC Department of Consumer and Worker Protection', 'NYC Mayor\'s Office', 'amNewYork'],
+    sourceUrl: 'https://www.nyc.gov/site/dca/news/047-26/mayor-mamdani-secures-1-7-million-extra-space-new-york-city-consumers',
+    country: 'US',
+    state: 'NY',
+});

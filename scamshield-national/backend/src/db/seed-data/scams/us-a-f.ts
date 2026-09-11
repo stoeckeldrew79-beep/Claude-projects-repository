@@ -6605,3 +6605,15 @@ UsAF.push({
     country: 'US',
     state: 'FL',
 });
+
+UsAF.push({
+    name: 'Delray Beach Counterfeit Designer Handbag Scheme (Ronnie\'s Shoes)',
+    slug: 'delray-beach-florida-counterfeit-designer-handbag-scheme',
+    description: `Ronald C. Axelrod, the 84-year-old owner of Ronnie's Shoes at 6578 W. Atlantic Avenue in Delray Beach, Florida, was arrested on April 30, 2025 after Palm Beach County Sheriff's Office (PBSO) investigators — acting on a Crime Stoppers tip — executed a search warrant on his store and found more than $200,000 worth of counterfeit designer handbags and accessories bearing brands including Chanel, Louis Vuitton, Goyard, Prada, and Hermès, along with $2,000 in cash. Axelrod was booked into the Palm Beach County Jail on charges of selling counterfeit goods and operating a business under an unregistered fictitious name. Rather than stop, investigators say Axelrod kept dealing in fakes out of the same store: on June 3, 2026, an undercover PBSO agent returned, negotiated a purchase, and was led by Axelrod into the store's back bathroom, where counterfeit bags were displayed on wire racks. The agent walked out with a fake Louis Vuitton handbag and a fake Goyard tote — items that retail authentically for thousands of dollars each — for just $300 cash. Axelrod, now 85, was arrested again at the store and charged with one count of selling or offering for sale counterfeit goods, a second-degree felony under Florida law, after allegedly telling the undercover agent that "police were giving him problems because of an earlier arrest," suggesting he knew the risk and sold anyway. Florida's counterfeit-trafficking statute exists precisely because buyers of fake luxury goods are often deceived as much as the brands are: a shopper paying a steep discount for what is represented as an authentic designer bag is being sold a knockoff at a price point designed to look like a legitimate deal rather than an obvious fake, and PBSO's investigation shows that even a business with a public storefront and years of operating history can be running a counterfeit operation out of a back room. Consumers should be wary of luxury handbags offered well below authorized-retailer pricing, ask for a manufacturer's receipt or authentication card, and report suspected counterfeit sales to their local sheriff's office or the National Intellectual Property Rights Coordination Center at iprcenter.gov.`,
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'medium',
+    sources: ['Palm Beach County Sheriff\'s Office', 'CBS12 News (WPEC)', 'BocaNewsNow'],
+    sourceUrl: 'https://cbs12.com/news/local/delray-beach-businessman-accused-of-selling-counterfeit-designer-bags-again-louis-vuitton-chanel-prada-goyard-christian-dior-ysl-palm-beach-county-sheriffs-office-pbso-undercover-investigation-undercover-agent-luxury-merchandise-counterfeit',
+    country: 'US',
+    state: 'FL',
+});
