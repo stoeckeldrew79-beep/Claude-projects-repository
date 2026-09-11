@@ -5296,3 +5296,22 @@ Gravel-Nadon's sentencing closed out a case that had already produced five other
 Because this scam depends on panicking a grandparent into acting before they can think it through or call anyone else, the U.S. Attorney's Office urges anyone who receives such a call to hang up and contact the family member directly using a phone number they already have saved — and to remember that no real bail, court fee, or legal fee is ever collected in cash by a courier sent to a private home.`,
   },
 );
+
+NotoriousNS.push(
+  {
+    title: 'Ronnie Gene Wilson and the Silver That Was Never Bought',
+    slug: 'ronnie-gene-wilson-atlantic-bullion-coin-silver-ponzi',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://www.cftc.gov/PressRoom/PressReleases/6275-12',
+    body: `Ronnie Gene Wilson ran Atlantic Bullion & Coin out of Easley, South Carolina, a small precious-metals dealership that, on paper, offered a simple and conservative pitch: send Wilson money, and he would use it to buy physical silver bullion on the client's behalf, holding it safely at a depository in Delaware until the client wanted to sell or take delivery. A former Anderson County councilman with deep roots in the community, Wilson drew investors largely through personal relationships, and kept the pitch running for more than a decade, from as early as 2001 through March 2012.
+
+The silver mostly didn't exist. According to the U.S. Commodity Futures Trading Commission, the Delaware depository had no record of holding any silver for Wilson or Atlantic Bullion & Coin, and investigators say he purchased little or none of the metal his clients believed they owned. Regulators said the operation took in roughly $90 million from investors over its eleven-year run, though not all of that represented a loss — Wilson generated account statements showing silver holdings that were largely fictional, and used money from new investors to pay off earlier ones seeking withdrawals, the standard Ponzi mechanic running underneath what looked, to his roughly 800 clients across at least 25 states, like a straightforward bullion-storage business.
+
+Wilson pleaded guilty to two counts of mail fraud, and on November 13, 2012, U.S. District Judge J. Michelle Childs handed down the maximum sentence available under federal guidelines: 235 months, roughly 19.5 years, along with an order to pay $57.4 million in restitution. Childs told the court she had read hundreds of victim-impact statements before concluding Wilson was "a man who preyed on the elderly, and was cruel, heartless and without conscience." The case did not end at sentencing: the night before he was due in court, Wilson handed $7,000 in cash to his brother to hold for him, and prosecutors later charged him with conspiracy to obstruct justice for trying to hide assets from forfeiture — his brother and his wife both pleaded guilty to helping conceal the money, and a further stash of roughly $164,300 hidden in an ammunition can was recovered in 2014. Wilson received six additional months in prison for the obstruction conspiracy. The CFTC separately pursued a civil case, obtaining a 2013 order for $23 million in civil penalties and $11.53 million in restitution, plus a permanent ban on Wilson trading commodities again.
+
+More than a decade later, Wilson's case took an unexpected turn: he was among the people whose sentences President Biden commuted in a broad round of clemency issued in the final weeks of his administration in January 2025. For the investors Wilson defrauded — many of them elderly, some of them, like his own brother and daughter, family — the commutation cut short a sentence a judge had handed down specifically because she saw those victims as deserving of extra protection.
+
+Atlantic Bullion's silver never had to physically not exist for the fraud to work — it only had to be unverifiable to the people who had paid for it. A depository statement a client never independently confirms, for a metal a client never personally holds, is functionally identical to a fabricated one; the entire scheme rested on investors trusting a monthly piece of paper over a phone call to the depository that would have unraveled it in minutes.`,
+  },
+);
