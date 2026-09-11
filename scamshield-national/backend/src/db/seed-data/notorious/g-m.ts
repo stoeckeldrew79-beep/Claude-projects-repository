@@ -7189,6 +7189,9 @@ NotoriousGM.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.fca.org.uk/news/press-releases/john-burford-sentenced-prison-investment-fraud',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Inner_london_crown_court_southwark.jpg?width=1200',
+    coverImageCredit: 'Southwark Crown Court, London, where Burford was sentenced — public domain, via Wikimedia Commons',
     body: `John Charles Burford, of Mansfield, Nottinghamshire, built a public persona as a market veteran through self-published articles, blogs, and a trading book, presenting himself as an unusually skilled technical trader with a proprietary method — what he branded "tramline" trading — for reading price charts. Through his company, Financial Trading Strategies Limited, where he was sole director, he turned that reputation into a paid subscription business: daily trade alerts and access to three self-named investment funds, marketed on the company's website to a following he had spent years building through his own writing.
 
 There was a problem the UK's Financial Conduct Authority says Burford never disclosed to a single subscriber: he was never authorised by the FCA to manage other people's money or offer investment advice in the first place. Between 2016 and 2021, the FCA found, Burford collected roughly £1 million from more than 100 investors, repeatedly telling them the funds were performing well and concealing the trading losses that were actually piling up underneath the confident updates he sent subscribers. Rather than being reinvested or returned, a share of the money instead went toward property purchases and Burford's own living expenses.
@@ -7208,6 +7211,9 @@ NotoriousGM.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/usao-sdny/pr/reality-show-cast-member-jennifer-shah-sentenced-78-months-prison-running-nationwide',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Utah_State_Capitol,_Salt_Lake_City_(7631480380).jpg?width=1200',
+    coverImageCredit: 'Utah State Capitol, Salt Lake City, where Shah built her public persona — photo by Andrew Smith, CC BY-SA 2.0, via Wikimedia Commons',
     body: `Jennifer "Jen" Shah spent years building a public persona as a successful Salt Lake City businesswoman before joining the cast of Bravo's "The Real Housewives of Salt Lake City" in 2020, presenting herself on camera as a self-made marketing mogul. Federal prosecutors say the business behind that image was, for nearly a decade, a nationwide telemarketing fraud operation that had nothing to do with the "expert" services it claimed to sell.
 
 According to the U.S. Attorney's Office for the Southern District of New York, from at least 2012 until her arrest in March 2021, Shah was "an integral leader" of a scheme that sold victims so-called "business services" — coaching packages and lead lists pitched as tools to help people build their own online businesses — that in reality were often reused, outdated, or entirely worthless. Telemarketers working the scheme specifically targeted older and otherwise vulnerable victims, many of whom were repeatedly resold the same "services" or added to "reload" lists that marked them as easy, repeat targets for further pitches once they had already paid once. Shah's longtime personal assistant, Stuart Smith, worked alongside her as a co-defendant in running the operation.

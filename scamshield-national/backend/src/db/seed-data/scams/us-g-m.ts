@@ -5509,3 +5509,17 @@ UsGM.push({
     isHistorical: true,
     firstRecorded: '2026-07-16',
 });
+
+UsGM.push({
+    name: 'Kaufman & Co. Funeral Home Prepaid Funeral Embezzlement',
+    slug: 'michigan-kaufman-co-funeral-home-embezzlement',
+    description: `Terry Alvin Kaufman, 72, of Bad Axe, founded and operated Kaufman & Co. Funeral Home in Huron County, Michigan, where families paid in advance to cover their own or a relative's eventual funeral — money state law requires a funeral home to place untouched into an escrow or trust account until the service is actually needed. Over roughly the prior decade, according to the Michigan Attorney General's office, Kaufman never escrowed those prepaid funds at all, and separately embezzled money he collected while acting through the Huron County Public Guardian, instead converting both streams of money to his own use, including paying his own salary. Kaufman was charged in November 2025 with 39 felony counts and pleaded no contest on March 17, 2026 to one count of conducting a criminal enterprise, two counts of embezzlement by an agent of $20,000 or more but less than $50,000, five counts of embezzlement by an agent of $1,000 or more but less than $20,000, and 31 counts of conversion of funeral contracts. On May 11, 2026, he was sentenced to 7 to 20 years in prison and ordered to pay $1,111,165.77 in restitution to the 204 victims the Attorney General's office identified. "I am proud of the prosecutors in my office who were able to secure this conviction and an order for more than $1 million in restitution for the hundreds of victims in this case," Attorney General Dana Nessel said. Anyone prepaying for funeral or cremation services should get written confirmation that the funds are going into a state-regulated trust or insurance-funded account rather than the funeral home's own operating account, ask for an annual statement showing the trust balance, and verify a funeral director's license and any disciplinary history with Michigan's Bureau of Professional Licensing before signing a prepaid contract.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'high',
+    sources: ['Michigan Attorney General', 'WNEM'],
+    sourceUrl: 'https://www.michigan.gov/ag/news/press-releases/2026/05/11/former-huron-county-funeral-home-director-sentenced-for-1-million-embezzlement-scheme',
+    country: 'US',
+    state: 'MI',
+    isHistorical: true,
+    firstRecorded: '2026-03-17',
+});

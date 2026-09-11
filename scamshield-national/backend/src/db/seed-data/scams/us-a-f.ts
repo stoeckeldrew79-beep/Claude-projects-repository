@@ -6782,3 +6782,17 @@ UsAF.push({
     isHistorical: true,
     firstRecorded: '2021-05-04',
 });
+
+UsAF.push({
+    name: 'Cherish Home Care Unlicensed Assisted-Living Benefits Seizure Scheme',
+    slug: 'florida-cherish-home-care-unlicensed-assisted-living-exploitation',
+    description: `Ronald Keith Pack, 60, and Marie Carenan, 56, operated a network of eight homes across Osceola and Polk counties, Florida under the names Cherish Home Care Inc. and Cherish Independent Living Care Inc., taking referrals from mental health and behavioral health facilities and presenting the homes as unlicensed "independent living" arrangements that, Florida investigators say, were actually functioning as unlicensed assisted living facilities. According to the Florida Attorney General's Office of Statewide Prosecution, once an elderly or disabled resident moved in, Pack and Carenan seized the person's identification, debit cards, medications, and personal belongings and took control of their Social Security benefits, while padlocking doors, windows, refrigerators, and cabinets to restrict residents' movement and access to food. The two were arrested on June 24, 2026 on felony charges including organized scheme to defraud, elder exploitation, aggravated abuse of an elderly person, elder neglect, and welfare fraud, and a judge denied them bond at a July 9, 2026 hearing. The Florida Department of Children and Families removed 38 residents from the homes and placed them in licensed care facilities, and reporting on the case tied five resident deaths to the conditions found at the properties. "State investigators nabbed two suspects in [a] widespread elderly and financial abuse case," Attorney General James Uthmeier's office said in announcing the charges. Families placing a relative in any residential care setting should confirm the facility's assisted-living license directly with Florida's Agency for Health Care Administration before move-in, ask who holds the resident's ID, benefits, and bank cards on an ongoing basis, and treat a facility's refusal to let family visit freely or speak with the resident privately as an urgent warning sign rather than a routine policy.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'critical',
+    sources: ['Florida Attorney General (Office of Statewide Prosecution)', 'WUSF', 'Florida Politics'],
+    sourceUrl: 'https://floridapolitics.com/archives/804073-james-uthmeier-says-state-investigators-nab-2-suspects-in-widespread-elderly-and-financial-abuse-case/',
+    country: 'US',
+    state: 'FL',
+    isHistorical: true,
+    firstRecorded: '2026-06-24',
+});
