@@ -7162,3 +7162,20 @@ A federal grand jury indicted six defendants in total: Beasley, Davis, current N
 The Beasley and Davis case is a companion to two other 2025-2026 federal cases involving NBA figures — the prop-bet scheme that ended Toronto center Jontay Porter's career, and the mob-linked poker and insider-betting indictments against Chauncey Billups and Terry Rozier — that together illustrate the same underlying vulnerability: legal, app-based sports betting now lets anyone anywhere wager on the precise in-game statistics of a single athlete, and an athlete willing to nudge his own performance by a rebound or two, or simply share that he plans to, has effectively handed a bettor inside information no stock-market regulator would tolerate in a public company.`,
   },
 );
+NotoriousGM.push(
+  {
+    title: 'Jordan Dave Persad and the SIM-Swapping Ring That Hijacked Phone Numbers to Drain Crypto Wallets',
+    slug: 'jordan-persad-sim-swapping-crypto-theft',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-az/pr/hacker-sentenced-30-months-sim-swapping-conspiracy-resulting-theft-nearly-1-million',
+    // no verified rights-cleared photo found yet — see NotoriousCoverPhotos
+    body: `Jordan Dave Persad was 20 years old and living in Orlando, Florida, when federal prosecutors say he and a group of co-conspirators found a way around the security measure millions of people rely on without thinking twice about it: the text-message code that confirms a login really is you. Between March 2021 and September 2022, according to the U.S. Attorney's Office for the District of Arizona, the group ran a "SIM-swapping" operation — hacking into victims' email accounts, then using that access and social engineering to convince cell carriers to transfer, or "swap," a victim's phone number onto a SIM card the conspirators controlled.
+
+Once a victim's number was hijacked, the scheme practically ran itself: any text-message verification code meant to confirm a password reset or a login attempt on that person's cryptocurrency exchange or wallet account now arrived on a phone in the conspirators' hands instead of the victim's own device. Prosecutors said the group used that access to break into online cryptocurrency accounts belonging to dozens of victims across the country, including one Arizona resident who lost roughly $30,000, stealing close to $1 million in crypto assets in total before splitting the proceeds among themselves. Persad personally kept around $475,000 of the group's haul.
+
+Persad pleaded guilty to conspiracy to commit computer fraud. On October 30, 2023, U.S. District Judge Diane J. Humetewa sentenced him to 30 months in federal prison, to be followed by three years of supervised release, and ordered him to pay $945,833 in restitution to his victims. Investigators recovered a portion of the stolen funds by executing a search warrant at Persad's Orlando home, though most of what he and his co-conspirators took was never fully returned to the people it belonged to.
+
+SIM swapping is a reminder that SMS text messages are one of the weaker forms of two-factor authentication precisely because they depend on a link — the carrier's own customer-service process for transferring a number — that a persuasive caller or a bribed or tricked employee can potentially manipulate without ever touching the victim's phone at all. Security researchers and the FBI recommend that anyone holding meaningful cryptocurrency or financial assets move away from SMS-based verification codes toward an authenticator app or a physical security key, and ask their mobile carrier to add a PIN or passcode requirement specifically for any request to port or transfer their phone number.`,
+  },
+);
