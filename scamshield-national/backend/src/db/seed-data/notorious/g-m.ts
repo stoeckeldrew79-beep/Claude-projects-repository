@@ -7740,5 +7740,9 @@ There was no liquidity pool. According to prosecutors, Rogue Liquidity had no re
 The scheme was investigated jointly by the Utah Division of Securities and the FBI's Salt Lake City Field Office, and Dalton pleaded guilty to securities fraud on September 30, 2024. On March 20, 2025, U.S. District Judge Jill N. Parrish sentenced him to 24 months in federal prison, three years of supervised release, and $1,553,806 in restitution to his victims. "[Dalton] exploited trust within the community for his own gain," Acting U.S. Attorney Felice John Viti said in announcing the sentence, a description that fit both how Dalton found his victims and how he kept them investing.
 
 Rogue Liquidity is a small-scale case by the standards of the biggest frauds in this collection, but it illustrates a pattern that recurs constantly at every scale: a "guaranteed, risk-free" return well above what any legitimate fund could reliably deliver, sold not through a stranger's pitch but through a friend, a former classmate, or a familiar face on social media — the personal relationship doing the persuading that the numbers alone never could.`,
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Utah_Lake_from_Saratoga_Springs_dyeclan.com_-_panoramio.jpg?width=1200',
+    coverImageCredit: 'Photo: The Dye Clan / Wikimedia Commons / CC BY-SA 3.0',
+    coverImagePosition: 50,
   },
 );
