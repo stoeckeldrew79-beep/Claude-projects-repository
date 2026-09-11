@@ -5972,3 +5972,17 @@ UsGM.push({
     sources: ['Missouri Supreme Court', 'Missouri Lawyers Media'],
     sourceUrl: 'https://molawyersmedia.com/2026/03/19/missouri-court-casenet-spoof-scam-warning/',
 });
+
+UsGM.push({
+    name: 'New Iberia Staged Garbage Truck Crash Insurance Fraud Ring',
+    slug: 'louisiana-new-iberia-staged-garbage-truck-crash-insurance-fraud',
+    description: `Four New Iberia, Louisiana residents — Rayshonte Oppenheimer, 29, Briannie Butler, 32, Passion Keal, 24, and Quandalyn Bernard, 33 — were arrested after the Louisiana State Police Insurance Fraud/Auto Theft Unit determined they had submitted false statements during the claims process following a 2025 crash involving a Pelican Waste & Debris garbage truck, seeking a payout investigators say could have totaled approximately $4 million had the claims succeeded. The investigation opened after a criminal referral from Timber Creek Insurance Services and the Louisiana Department of Insurance's Fraud Division, which flagged the claims as suspicious before any money went out. Investigators obtained arrest warrants for all four between April 30 and May 1, 2026, charging each with felony automobile insurance fraud; all four were arrested or turned themselves in and were booked into the Iberia Parish Jail. Louisiana State Police noted in announcing the arrests on May 26, 2026 that "insurance fraud is a serious criminal offense that increases costs for consumers and businesses throughout the state," since inflated or fabricated claims like this one ultimately raise premiums for every policyholder even when, as here, the fraud is caught before a payout is made. The case is a reminder that a legitimate crash claim is built on documented, verifiable injuries and damage tied to the actual collision, and that insurers and state fraud investigators routinely cross-check claimants' statements, medical records, and damage estimates against the specifics of a reported crash — inconsistencies of the kind that unraveled this scheme are what insurance fraud units are specifically trained to catch. Anyone with information about suspected insurance fraud in Louisiana can report it to the Louisiana Department of Insurance's Fraud Division.`,
+    categorySlug: 'insurance-fraud',
+    country: 'US',
+    state: 'LA',
+    alertLevel: 'medium',
+    sources: ['Louisiana State Police', 'Louisiana Department of Insurance'],
+    sourceUrl: 'https://lsp.org/community-outreach/news/four-arrested-in-multi-million-dollar-insurance-fraud-scheme/',
+    isHistorical: true,
+    firstRecorded: '2026-05-26',
+});

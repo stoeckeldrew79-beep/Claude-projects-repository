@@ -7987,3 +7987,22 @@ Drosos's fraud wasn't dressed up in cryptocurrency or some novel financial instr
     sourceUrl: 'https://www.justice.gov/usao-nj/pr/bergen-county-accountant-admits-defrauding-investors-through-multi-million-dollar-ponzi',
   },
 );
+
+NotoriousAF.push(
+  {
+    title: 'Anna Amponsah and the Ghana-to-Ohio Romance Fraud Ring That Targeted Older Americans',
+    slug: 'anna-amponsah-ghana-romance-fraud-ring',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    body: `From roughly July 2024 to April 2026, a network of conspirators operating between Ghana and Columbus, Ohio, ran a coordinated romance-fraud operation aimed at older Americans, according to the U.S. Attorney's Office for the Northern District of Ohio. Members of the ring built fake identities on dating websites and social media, cultivated close, often romantic relationships with victims over weeks or months, and then used fabricated stories — emergencies, business opportunities, the kinds of crises a trusted partner is supposed to help with — to get those victims to wire money to accounts the conspirators controlled.
+
+Anna Amponsah, 35, of Columbus, was one of the defendants charged in the case, United States v. Otuo Amponsah, et al. She pleaded guilty to conspiracy to commit wire fraud and money laundering conspiracy, admitting her role in helping move and launder the proceeds victims sent in — the less visible half of a romance scam, where money wired by a heartbroken victim has to be converted, routed through accounts, and dispersed quickly enough to stay ahead of a bank's fraud alerts or a victim's second thoughts.
+
+A federal judge sentenced Amponsah to 108 months — nine years — in prison, three years of supervised release, and restitution of $1,444,639. She wasn't sentenced alone: co-defendant Otuo Amponsah, 34, also of Columbus, received the same 108-month term along with $3,324,675 in restitution; Portia Joe was sentenced to 51 months and ordered to pay more than $2 million; and Dwayne Asafo Adjei and Hannah Adom each received 71-month sentences. Prosecutors said that, across the conspiracy, nine defendants were ultimately sentenced to a combined roughly 50 years in federal prison.
+
+The case was investigated by the FBI's Cleveland Division with assistance from the Justice Department's Office of International Affairs — a reminder that a romance scam prosecuted in an Ohio courtroom often depends on cross-border cooperation, since the people crafting the fake profiles, the people managing the relationships, and the people laundering the wired money can all be working from different countries, coordinating a single fraud aimed at a victim who believes they're talking to one person.
+
+Romance-fraud rings like this one succeed by outsourcing empathy: the "person" a victim falls for is a constructed persona, but the patience, reassurance, and manufactured urgency that keep the money moving over weeks or months are real labor, performed on a schedule, by real people working for a cut of the proceeds. Multi-year sentences for the money-movers and relationship-builders alike reflect how seriously prosecutors now treat every layer of that labor — not just whoever typed the final message — as part of the fraud.`,
+    sourceUrl: 'https://www.justice.gov/usao-ndoh/pr/ghanaian-nationals-indicted-romance-fraud-scams',
+  },
+);
