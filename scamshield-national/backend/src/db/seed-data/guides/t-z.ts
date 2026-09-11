@@ -2305,6 +2305,9 @@ Eligible class members can file a claim directly at TeslaIdleFeeClassAction.com;
     slug: "toyota-forklift-emissions-settlement-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "toyota-forklift-emissions-settlement"],
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Toyota_Core_IC_Pneumatic_Forklift_Las_Vegas_2026.jpg?width=1200",
+    coverImageCredit: "Photo: TaurusEmerald, CC BY-SA 4.0, via Wikimedia Commons — Toyota internal combustion forklift",
+    coverImagePosition: 50,
     sourceUrl: "https://www.classaction.org/news/299.5m-toyota-forklift-settlement-resolves-class-action-lawsuit-over-alleged-emission-standards-violations",
     body: `Most class action settlements involving Toyota concern its cars. This one is about forklifts — and at $299.5 million, it's a reminder that a "consumer" settlement doesn't have to involve individual shoppers at all, since most of the businesses affected are companies that never thought of themselves as consumers of anything. A federal judge in the U.S. District Court for the Northern District of California granted preliminary approval to the settlement in the case Broadmoor Lumber & Plywood Co., et al. v. Toyota Industries Corporation, et al. (Case No. 3:24-cv-06640-JSC), which accuses Toyota Industries Corp. and affiliated Toyota entities of manipulating and falsifying engine tests and emissions data for internal combustion forklifts sold in the United States, and of misleading customers into believing those forklifts met federal emissions standards when, the complaint alleges, they did not. A final approval hearing was held July 9, 2026 in San Francisco.
 
