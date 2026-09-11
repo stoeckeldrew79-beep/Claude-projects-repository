@@ -3779,6 +3779,10 @@ Because the underlying cause — the elimination of SAVE and the phase-out of ot
     slug: "onetouchpoint-2022-data-breach-settlement-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "onetouchpoint-2022-data-breach-settlement"],
+    // representative photo — replace with an exact match if found
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Hartland_Public_Library.jpg?width=1200",
+    coverImageCredit: "Photo: Awkwafaba / Wikimedia Commons / CC BY-SA 3.0 — Hartland, Wisconsin, where OneTouchPoint is headquartered",
+    coverImagePosition: 50,
     sourceUrl: "https://www.classaction.org/news/onetouchpoint-data-breach-settlement-resolves-lawsuit-over-2022-cyber-incident",
     body: `OneTouchPoint Corp. is a marketing and print-fulfillment company that nearly 40 health insurers and medical providers — including Anthem, Blue Cross Blue Shield plans, Humana, and Kaiser Permanente — have relied on to produce and mail member materials such as ID cards, wellness reminders, and health assessment forms. That behind-the-scenes role is exactly what made its 2022 breach so consequential: because OneTouchPoint handled mailings on behalf of dozens of separate health plans, a single intrusion into its own systems ended up touching millions of people who had never heard of the company and had no reason to know their health plan used it.
 
@@ -3793,6 +3797,10 @@ This breach is a useful reminder that your health plan's own security doesn't te
     slug: "serviceaide-2024-data-breach-settlement-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "serviceaide-2024-data-breach-settlement"],
+    // representative photo — replace with an exact match if found
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/San_Jose_California_Skyline.jpg?width=1200",
+    coverImageCredit: "Photo: Michael (Flickr: mlhradio) / Wikimedia Commons / CC BY 2.0 — San Jose, California, where Serviceaide is headquartered",
+    coverImagePosition: 50,
     sourceUrl: "https://www.classaction.org/news/1.8m-serviceaide-settlement-resolves-class-action-lawsuit-over-2024-data-breach",
     body: `Serviceaide, Inc. is not a name most patients would recognize, but it's the kind of company an increasing number of hospital systems quietly rely on: an AI-powered IT service-management and help-desk vendor whose software sits behind the scenes handling support tickets, workflows, and records access for its healthcare clients. One of those clients was Catholic Health, a network of hospitals and medical practices on New York's Long Island, and that vendor relationship is exactly why a breach of Serviceaide's own systems ended up exposing sensitive medical records that Catholic Health's patients never gave Serviceaide directly.
 
@@ -3809,6 +3817,10 @@ If you were a Catholic Health patient and received a notice about this breach, d
     slug: "oreilly-automotive-tcpa-settlement-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "oreilly-automotive-tcpa-settlement"],
+    // representative photo — replace with an exact match if found
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Springfield_skyline.jpg?width=1200",
+    coverImageCredit: "Photo: BreathDriver / Wikimedia Commons / CC BY-SA 4.0 — Springfield, Missouri, where O'Reilly Automotive is headquartered",
+    coverImagePosition: 50,
     sourceUrl: "https://www.classaction.org/news/18.8m+-oreilly-automotive-settlement-ends-lawsuit-over-alleged-spam-texts",
     body: `O'Reilly Automotive, the national auto-parts retailer behind thousands of O'Reilly Auto Parts stores, has agreed to pay $18,842,577 to settle a class-action lawsuit accusing it of violating the Telephone Consumer Protection Act by sending telemarketing text messages to phone numbers that were registered on the National Do-Not-Call Registry. The case, Bryan v. O'Reilly Automotive, Inc., was filed in Illinois state court in April 2025 and reached preliminary settlement approval on June 29, 2026. O'Reilly has not admitted wrongdoing and says it agreed to settle to avoid protracted litigation.
 
