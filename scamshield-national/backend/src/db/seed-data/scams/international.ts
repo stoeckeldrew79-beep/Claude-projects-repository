@@ -9764,6 +9764,26 @@ International.push(
     sourceUrl: 'https://barbadostoday.bb/2026/06/03/scam-alert-police-issue-warning-as-fraudsters-pose-as-officers-on-social-media/',
     country: 'BB',
   },
+  {
+    name: 'Forged Central Bank Governor Letter Demanding $28,000 "Registration Fee"',
+    slug: 'barbados-forged-central-bank-governor-letter-fee-demand',
+    description: `A fraudulent letter circulating in Barbados falsely presents itself as official correspondence from the Central Bank of Barbados and carries a forged signature of Governor Dr Kevin Greenidge. The letter demands a "final fee" of $28,000, which it claims is made up in part of a separate $4,000 "registration" charge, to be paid before some unspecified benefit or transaction can proceed. The Central Bank issued a public statement on September 18, 2024 declaring that it "has not authorised any such communication," confirming the letter and signature are fake, and stating it was working with local authorities to investigate, with the Bank warning that "those responsible for this fraudulent activity will be subject to legal prosecution." The Bank urged anyone who received the letter to disregard it and make no payment, cautioned against sharing personal information with the senders, told anyone who had already paid to report the matter to the Barbados Police Service, and offered its Communications Department (436-6870 or info@centralbank.org.bb) as a way for the public to verify any communication claiming to come from the Bank before acting on it.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Central Bank of Barbados', 'Barbados Today'],
+    sourceUrl: 'https://barbadostoday.bb/2024/09/18/central-bank-warns-of-fake-letter-demanding-payment/',
+    country: 'BB',
+  },
+  {
+    name: '"TKY Media" YouTube/TikTok Partnership Ponzi Scheme',
+    slug: 'barbados-tky-media-youtube-tiktok-ponzi-scheme',
+    description: `TKY Media marketed itself to Barbadians as a YouTube and TikTok "partnership" program, recruiting members with promises of fast, easy income: an initial payment of roughly $700 to get past a three-day probationary period, after which participants were told they would earn US$2.50 a day for making five clicks in designated spaces, rising to a "level two" tier paying US$10 (about BBD $20) a day. Central Bank of Barbados Governor Dr Kevin Greenidge publicly warned on October 31, 2024 that the scheme displayed "all of those red flags" of a fraudulent operation, telling the public plainly to "avoid them" and stressing that "there are no get-rich schemes." He also revealed that his own signature had been fraudulently used to make a scheme appear endorsed by the Bank, which he said "does not endorse anybody." The Bank's internal investigation found no legitimate company behind TKY Media despite a name registration with the Corporate Affairs and Intellectual Property Office (CAIPO), and the matter was referred to the Fair Trading Commission. The Governor urged the public to research any such offer independently, verify regulatory status through CAIPO and the Central Bank before paying anything, and to consider legitimate alternatives such as real estate, education, government bonds, and listed stocks instead.`,
+    categorySlug: 'ponzi-pyramid-schemes',
+    alertLevel: 'high',
+    sources: ['Central Bank of Barbados', 'Barbados Today'],
+    sourceUrl: 'https://barbadostoday.bb/2024/10/31/central-bank-warns-of-ponzi-scheme-targeting-barbadians/',
+    country: 'BB',
+  },
 );
 
 International.push(
