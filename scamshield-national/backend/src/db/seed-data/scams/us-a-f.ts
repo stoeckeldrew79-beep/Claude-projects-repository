@@ -6986,3 +6986,31 @@ UsAF.push({
     isHistorical: true,
     firstRecorded: '2015-08-17',
 });
+
+UsAF.push({
+    name: 'Etowah County Assisted-Living Caregiver Power-of-Attorney Exploitation (Lisa Talton Wells Daugherty)',
+    slug: 'alabama-daugherty-etowah-assisted-living-caregiver-exploitation',
+    description: `Lisa Talton Wells Daugherty, 57, of Attalla, Alabama, worked as a care technician at Oak Landing Assisted Living in Etowah County and used that position to become power of attorney for an elderly resident, then spent years systematically draining the woman's accounts. Investigators with the Alabama Attorney General's office found Daugherty diverted more than $10 million total — over $8.5 million in cash plus roughly $500,000 in personal property and nearly $1 million in real property — using the stolen money to buy two homes each worth more than $1 million, including a beach house, several vehicles worth a combined $120,000, and $86,000 in dental implants for herself. Daugherty pleaded guilty on May 8, 2023 to four counts of Financial Exploitation of an Elderly Person in the First Degree, a Class B felony, and was sentenced to 20 years, with 5 years to serve in the Department of Corrections; as part of the resolution she agreed to forfeit roughly $5.5 million already tied up in a related federal case and to make restitution for the remaining balance. Announcing the conviction, the Attorney General's office said Daugherty would "feel the full force of justice after using her position as a caregiver to exploit" a vulnerable resident. A power of attorney granted to a caregiver is rarely double-checked by a bank once it is signed, so families placing a relative in assisted living are advised to keep a second, independent person receiving copies of every account statement, to be alert to a facility employee who becomes unusually close to a resident and pushes to be named power of attorney, and to report suspected caregiver exploitation or Medicaid fraud to the Alabama Attorney General's office.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'high',
+    sources: ["Alabama Attorney General's Office (Steve Marshall)", 'WBRC', 'AL.com'],
+    sourceUrl: 'https://www.alabamaag.gov/attorney-general-marshall-announces-conviction-of-etowah-county-woman-2/',
+    country: 'US',
+    state: 'AL',
+    isHistorical: true,
+    firstRecorded: '2023-05-08',
+});
+
+UsAF.push({
+    name: 'Ezra Unger Williamsburg Condo Down-Payment Escrow Fraud',
+    slug: 'ezra-unger-williamsburg-condo-escrow-fraud',
+    description: `Developer Ezra Unger, through his company 425 Marcy, LLC, sold residential and commercial units at 427 Marcy Avenue in Williamsburg, Brooklyn, collecting $6.715 million in down payments from buyers — but instead of holding that money in the escrow account required by law, he spent it on construction costs and other expenses. New York Attorney General Letitia James's office found Unger violated the Martin Act twice over: he sold 17 residential units, 3 commercial units, and 3 parking spaces before the state had even accepted the building's offering plan for filing, and he then failed to place buyers' down payments into escrow at all once sales began. The project went through bankruptcy, filed in January 2023 and completed in April 2025, before a new entity, 33 Walton Holdings, LLC, took over the building under a fresh offering plan. Under a settlement announced September 3, 2026, Unger must repay buyers more than $6 million — either a full refund of their down payment plus interest, or a credit toward purchasing their original unit under the new offering plan — pay $824,000 in penalties ($324,000 for the unauthorized presales and $500,000 for the escrow violations), and is barred from marketing, offering, or selling securities in New York for six years. "When New Yorkers hand over their hard-earned savings for a down payment on a home, that money is not a piggy bank for developers to raid," James said in announcing the resolution. New York's Martin Act exists specifically to prevent this: a condo down payment is legally required to sit untouched in escrow until the sale closes, so buyers are advised to confirm with the Attorney General's Real Estate Finance Bureau that a building's offering plan has actually been accepted for filing before signing a purchase contract, and to ask their attorney to independently verify that deposit funds are going into a real escrow account rather than directly to the developer.`,
+    categorySlug: 'mortgage-foreclosure-scams',
+    alertLevel: 'medium',
+    sources: ["New York Attorney General's Office (Letitia James)", 'VINnews', 'BKReader'],
+    sourceUrl: 'https://ag.ny.gov/press-release/2026/attorney-general-james-secures-over-6-million-brooklyn-homebuyers-cheated-condo',
+    country: 'US',
+    state: 'NY',
+    isHistorical: true,
+    firstRecorded: '2026-09-03',
+});
