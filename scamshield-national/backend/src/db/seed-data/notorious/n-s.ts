@@ -4796,6 +4796,10 @@ NotoriousNS.push(
     slug: 'anomah-ndonwi-pet-selling-fraud-scheme',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/US_District_Court_Maryland_Southern_Division_Greenbelt.jpg?width=1200',
+    coverImageCredit: 'Public domain (U.S. federal government work), via Wikimedia Commons — the U.S. District Court for Maryland, Southern Division, in Greenbelt',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     sourceUrl: 'https://www.justice.gov/usao-md/pr/maryland-man-sentenced-connection-pet-selling-fraud-scheme',
     body: `Anomah Ndonwi, 32, of Chillum, Maryland, ran a fraud built on a category of purchase that is uniquely hard to inspect before paying: an animal, or a shipment of meat, that a buyer has only ever seen in a photo. Between September 2019 and December 2022, according to the U.S. Attorney's Office for the District of Maryland, Ndonwi and his co-conspirators advertised dogs, horses, and other pets for sale through fraudulent websites, collecting payment through wire transfers and electronic payment apps from buyers across the country who never received an animal or a refund. A parallel version of the scheme targeted businesses rather than individual pet buyers, advertising meat and other agricultural products for sale to buyers overseas who paid for shipments that never arrived.
 
