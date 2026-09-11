@@ -7580,3 +7580,19 @@ The case is a reminder that insider-trading risk doesn't only sit inside the com
     coverImageCredit: 'Photo: Beyond My Ken, CC BY-SA (GFDL), via Wikimedia Commons — the Theodore Roosevelt U.S. Courthouse in Brooklyn, in the Eastern District of New York where Chen and Zhen were prosecuted',
   },
 );
+NotoriousGM.push(
+  {
+    title: 'John Fortini and the "Traders Domain" Forex Pool That Kept Promising an Algorithm It Wasn\'t Running',
+    slug: 'john-fortini-traders-domain-algo-capital-forex-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.cftc.gov/PressRoom/PressReleases/9213-26',
+    body: `John Fortini was an executive at Algo Capital LLC, a Florida-based operation that pooled customer money and funneled it to a separate outfit called Traders Domain FX Ltd. for trading, on the pitch that Traders Domain ran a proprietary algorithm capable of generating steady returns in the foreign-exchange market. According to the Commodity Futures Trading Commission, that pitch survived well past the point where Fortini had reason to know it wasn't true.
+
+By the CFTC's account, Traders Domain wasn't actually trading customer funds the way it claimed, at least as far back as October 2021. Then, in the fall of 2022, customer withdrawal requests started going unfulfilled — a classic warning sign that money coming in was covering redemptions rather than sitting in live trading positions. Fortini kept assuring customers they could get their money out anyway, according to the CFTC, even as he was aware some withdrawal requests weren't being honored. He also failed to tell customers that Traders Domain had landed on the CFTC's own Registration Deficient List, a public flag meant to warn exactly the customers he was still soliciting.
+
+The CFTC filed its underlying civil enforcement action in the Southern District of Florida in September 2024, naming Fortini along with other individuals and entities tied to the scheme. Fortini resolved the case against him by consent order, entered by the court on April 15, 2026: the judgment permanently bars him from trading commodity interests and from registering with the CFTC in any capacity, permanently enjoins him from further violating the Commodity Exchange Act, and orders him to pay $1,347,867.56 in disgorgement. The CFTC's case against the other defendants in the matter continued past Fortini's settlement.
+
+Fortini's role illustrates a specific failure mode in pooled forex and algorithmic-trading fraud: the person soliciting customers doesn't have to be the one who built the fake algorithm or diverted the money to be liable for fraud. Regulators held him responsible for what he told customers and for what he didn't — the stalled withdrawals he knew about, and the regulatory red flag he had access to and never passed along — a reminder that a middleman who keeps collecting and reassuring investors after the warning signs appear is not a bystander to the fraud underneath him.`,
+  },
+);
