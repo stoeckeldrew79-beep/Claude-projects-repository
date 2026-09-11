@@ -6803,3 +6803,16 @@ UsAF.push({
     isHistorical: true,
     firstRecorded: '2019-08-19',
 });
+
+UsAF.push({
+    name: 'Delaware "Advance Loan Fee" Racketeering Scheme',
+    slug: 'delaware-ginsburg-cashman-advance-loan-fee-scheme',
+    description: `Daniel L. Ginsburg and Joseph T. Cashman — a former Delaware Secretary of Finance — ran an advance-fee loan scheme through Delaware business entities including Thatch, Inc. and The Two Js, telling out-of-state business owners seeking capital that the pair could arrange loans for them at reasonable rates. Before any financing would be released, borrowers were told to wire "points" or "earnest money" up front, typically a percentage of the loan amount; once they paid, the promised loan never arrived, and victims said Ginsburg and Cashman kept assuring them the money was still coming while refusing refund requests. The investigation began after a Texas business owner filed a complaint, and it uncovered a pattern the Delaware Department of Justice's Fraud Division had already been warning residents about generally — brokers who guarantee financing "regardless of employment or credit history" when legitimate banks have turned the same borrower down. A New Castle County grand jury returned a 28-count indictment against Ginsburg and Cashman on April 17, 2006, charging racketeering, conspiracy, theft, securities fraud, and securities registration violations. No legitimate lender requires a fee before a loan is actually funded; if a "guaranteed" loan is contingent on paying money up front, regulators treat that as a sign the loan itself doesn't exist, not a normal cost of borrowing.`,
+    categorySlug: 'debt-relief-scams',
+    sources: ['Delaware Department of Justice'],
+    sourceUrl: 'https://news.delaware.gov/2006/04/18/investor-alert-attorney-general-announces-indictments-in-delaware-advance-loan-fee-scam/',
+    country: 'US',
+    state: 'DE',
+    isHistorical: true,
+    firstRecorded: '2006-04-17',
+});
