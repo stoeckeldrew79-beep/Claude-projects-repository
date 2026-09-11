@@ -4930,6 +4930,9 @@ Duane Reade itself survived the scandal as a company — restating years of earn
     slug: 'choi-soon-sil-mir-k-sports-foundation-scandal',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Choi_Soon-sil.jpg?width=1200',
+    coverImageCredit: 'Photo: MBC PD수첩 (CC BY 3.0)',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.aljazeera.com/news/2018/2/13/s-korea-choi-soon-sil-jailed-20-years-for-corruption',
     body: `Choi Soon-sil held no government position, no security clearance, and no formal role in South Korea's government — but for four decades she was the closest confidante of Park Geun-hye, a relationship that began after Park's mother was assassinated in 1974, when Choi's father, a self-styled religious mentor named Choi Tae-min, stepped in as a source of comfort and counsel to the grieving young Park. When Park was elected president in 2012, Choi came with her into the shadows of the presidency, reviewing speeches, weighing in on policy, and — prosecutors would later show — using that access to extract tens of millions of dollars from South Korea's largest companies.
 
