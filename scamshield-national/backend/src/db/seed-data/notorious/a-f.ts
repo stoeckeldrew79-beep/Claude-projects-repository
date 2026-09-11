@@ -6823,3 +6823,20 @@ Doyle was arrested and charged by criminal complaint in the Southern District of
 Doyle's case is a reminder that a prior fraud conviction doesn't disqualify someone from being trusted with a six-figure painting a second time, if the person extending that trust never checks. The art market runs heavily on personal relationships and reputational shorthand rather than routine background checks on who is actually handling a consigned work, which is precisely the gap a repeat offender with a plausible manner and real connections in the gallery world can walk through more than once.`,
   },
 );
+NotoriousAF.push(
+  {
+    title: 'Chris Kirchner: The Slync CEO Who Turned a $60 Million Funding Round Into a Private Jet',
+    slug: 'chris-kirchner-slync-startup-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-ndtx/pr/slync-founder-sentenced-20-years-federal-prison-fraud',
+    // representative photo — replace with a portrait if found
+    body: `Chris Kirchner founded Slync in 2017, building it into a supply-chain logistics software startup that told investors it was solving a real problem: getting shipping companies, freight forwarders, and their customers off spreadsheets and phone calls and onto one shared digital platform. The pitch worked. By early 2021, Slync had raised nearly $70 million from venture investors, including a $60 million Series B round led by Goldman Sachs Growth that valued the company at roughly $240 million.
+
+According to federal prosecutors in the Northern District of Texas, Kirchner treated that investor money as his own well before the ink on the funding round was dry. Between April 2020 and March 2022, he initiated close to 100 wire transfers moving money out of Slync's Silicon Valley Bank account, including one transfer of $20 million directly into his personal checking account — money he described to private bankers as "a distribution from my company," even though Slync's board had never authorized any such distribution. Prosecutors said he also fraudulently obtained an additional roughly $850,000 from investors for a Series C funding round that was never actually completed. In total, Kirchner was accused of diverting nearly $25 million in investor funds for personal use.
+
+The money reportedly funded a lifestyle far removed from the cash-strapped startup Slync's own employees were experiencing: a $16 million Gulfstream G550 private jet, a luxury suite at a Dallas-area sports stadium, high-end watches and vehicles, and travel to celebrity golf tournaments. Slync, meanwhile, struggled to make payroll and ceased operations in October 2023. A federal jury in Fort Worth convicted Kirchner in January 2024, after a four-day trial, on four counts of wire fraud and seven counts of money laundering. On July 11, 2024, U.S. District Judge Mark T. Pittman sentenced him to 20 years in federal prison, followed by three years of supervised release, and ordered him to pay $65.4 million in restitution.
+
+Kirchner's case is a reminder that a large venture-capital round is a vote of confidence in a founder's story, not proof that the money behind it is being spent the way investors were told it would be. Slync's investors had every reason to believe a $60 million Series B, led by a name as recognizable as Goldman Sachs, came with real financial oversight attached — but a founder with sole access to the company's bank accounts and a willingness to mislabel a $20 million wire as a "distribution" was able to move investor capital into a private jet and a stadium suite long before anyone outside the company noticed the gap between Slync's public funding story and its actual finances.`,
+  },
+);
