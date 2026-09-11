@@ -3148,3 +3148,15 @@ UsTZ.push({
     country: 'US',
     state: 'TX',
 });
+
+UsTZ.push({
+    name: 'Hampton Medicaid and Unemployment Fraud Scheme (Jamahl Burch)',
+    slug: 'virginia-hampton-burch-medicaid-unemployment-fraud',
+    description: `Jamahl Rennelle Burch, 43, of Hampton — who also went by "Jarod" or "Jerrod" Burch — ran a scheme that targeted two different Virginia government benefit programs over more than eight years. Under Virginia Medicaid's consumer-directed care program, the state pays a personal care attendant (PCA) directly for documented hours of personal or respite care that let a Medicaid recipient stay at home rather than enter a nursing facility. From May 2015 through November 2023, Burch recruited Medicaid recipients and designated various individuals as their PCAs, then used the personal identifying information of both the recipients and the purported PCAs to create online accounts and submit timesheets for care that, according to court documents, was never actually provided — Burch personally approved the timesheets attesting the services had happened, while he and his co-conspirators knew none of it was real. In total, prosecutors say Burch and his co-conspirators caused Medicaid to pay out at least $936,950.70 in fraudulent reimbursements. Separately, in 2020 and 2021, Burch used two of the same purported PCAs' stolen identities to file four fraudulent applications with the Virginia Employment Commission for state unemployment and Federal Pandemic Unemployment Compensation benefits, falsely claiming the two had been terminated from their fake PCA jobs and then submitting weekly certifications for continuing benefits, drawing another $15,720. After his November 2023 arrest, Burch repeatedly violated court orders barring contact with potential witnesses, several of whom were later charged as co-conspirators. He pleaded guilty on Aug. 29, 2024 to conspiracy to commit health care fraud, health care fraud, and aggravated identity theft, and on March 11, 2025 Senior U.S. District Judge John A. Gibney Jr. sentenced him to nine years and three months in federal prison, ordered him to pay $936,950.70 in restitution to Medicaid and $15,720 to the Virginia Unemployment Commission, and ordered $806,008.38 in forfeiture. Medicaid recipients receiving personal-care or respite services — and anyone who discovers an unemployment claim was filed in their name without their knowledge — should compare their own Medicaid explanation-of-benefits statements against services they actually received and report a suspicious unemployment filing directly to the Virginia Employment Commission rather than assume it was a clerical mix-up.`,
+    categorySlug: 'healthcare-fraud',
+    sources: ["U.S. Attorney's Office, Eastern District of Virginia", 'U.S. Department of Health and Human Services Office of Inspector General', 'U.S. Department of Labor Office of Inspector General'],
+    sourceUrl: 'https://www.justice.gov/usao-edva/pr/hampton-man-sentenced-over-nine-years-prison-defrauding-virginia-medicaid-and-virginia',
+    country: 'US',
+    isHistorical: true,
+    state: 'VA',
+});
