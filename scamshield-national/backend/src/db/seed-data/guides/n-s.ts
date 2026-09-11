@@ -3472,6 +3472,10 @@ If you're considering a GLP-1 or other weight-loss subscription service, treat a
     slug: "pa-corporate-certificates-subsistence-certificate-settlement-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "pa-corporate-certificates-settlement"],
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/North_Office_Building,_Pennsylvania_State_Capitol_Complex,_Harrisburg,_PA_-_52441724948.jpg?width=1200",
+    coverImageCredit: "Photo: Warren LeMay, CC BY-SA 2.0, via Wikimedia Commons — the North Office Building in Harrisburg, home of the Pennsylvania Department of State that PA Corporate Certificates was accused of impersonating",
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: "https://www.attorneygeneral.gov/taking-action/attorney-general-sunday-reaches-40k-settlement-with-florida-based-company-that-allegedly-posed-as-pa-state-agency-targeting-new-business-owners/",
     body: `Registering a new LLC or corporation in Pennsylvania generates a public record almost immediately — and, according to the Pennsylvania Attorney General's office, that public record became a mailing list for a Florida-based company accused of impersonating the very state agency that had just approved the paperwork. On April 23, 2026, Attorney General Dave Sunday announced a $40,000 settlement with PA Corporate Certificates, LLC, resolving allegations that the company sent deceptive letters designed to look like they came from the Pennsylvania Department of State, targeting people who had just registered a new business.
 
