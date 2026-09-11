@@ -14258,3 +14258,16 @@ International.push(
     country: 'ST',
   },
 );
+
+International.push(
+  {
+    name: 'Forged São Tomé Diplomatic Passport Scheme',
+    slug: 'sao-tome-forged-diplomatic-passport-scheme',
+    description: `São Tomé and Príncipe's Ministry of Foreign Affairs issued a public clarification, carried by Téla Nón on April 13, 2023, after learning through international media — rather than through its own channels — that Portugal's Serviço de Estrangeiros e Fronteiras (SEF) had detected five passengers arriving at Lisbon airport on a Royal Air Maroc flight from Casablanca on April 4, 2023, carrying forged São Tomé and Príncipe diplomatic and service passports: two counterfeit service passports and three counterfeit diplomatic passports, each altered on the biographical data page to carry the bearer's own photo and details. Notably, none of the five travelers were themselves São Tomé citizens — the group comprised three Guinean nationals, one Senegalese national, and one Cape Verdean national — and one of them attempted to talk his way past border control with a fabricated cover story, claiming to be travelling on an official medical mission to attend a conference that did not exist. The one traveler who was detained was released under a bail-like regime requiring biweekly check-ins with authorities, surrender of his passport, and a prohibition on leaving Portuguese territory, though his whereabouts were reportedly unknown by the time of the ministry's statement. São Tomé's Foreign Ministry said it pursued clarification of the case through diplomatic channels with Portugal once it became aware of it. The episode illustrates how a small country's official travel and diplomatic documents can be counterfeited by document-forgery networks and used to move people who have paid for the fraudulent documents across European borders under a false diplomatic identity, a scheme that exploits both the migrants who buy the forged passports and São Tomé and Príncipe's own international credibility.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Téla Nón'],
+    sourceUrl: 'https://www.telanon.info/politica/2023/04/13/40282/esclarecimento-do-mne-ao-caso-dos-passaportes-falsos-de-stp-em-portugal/',
+    country: 'ST',
+  },
+);
