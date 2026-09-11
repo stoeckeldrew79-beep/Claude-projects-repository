@@ -3047,3 +3047,17 @@ UsTZ.push({
     isHistorical: true,
     firstRecorded: '2013-01-01',
 });
+
+UsTZ.push({
+    name: 'Carroll Brothers Door-to-Door Asphalt Paving Scheme (Wyoming)',
+    slug: 'wyoming-carroll-brothers-asphalt-paving-scam',
+    description: `John Michael Carroll and Thomas "Tommy" Carroll, doing business as Carrolls Construction, went door-to-door across Wyoming offering chip-seal and asphalt paving at a steep discount, falsely claiming they had just finished a nearby Wyoming Department of Transportation road job and had leftover road-quality asphalt that would go to waste if it wasn't used immediately. The urgency was fabricated — investigators found no such surplus existed — and the pitch simply pressured homeowners into signing on the spot without getting a second bid. In one transaction highlighted by the Wyoming Attorney General's office, the Carrolls solicited two Kelly, Wyoming residents in July 2015, including an elderly woman living alone, billing her $17,500 for driveway work, while another nearby household paid $4,000 for paving that was never properly completed. Across more than 50 documented transactions statewide, the brothers misrepresented the quality and price of their work, gave inflated estimates, used aggressive high-pressure sales tactics, ignored warranty claims, and failed to give consumers the notice of their right to cancel a door-to-door sale that Wyoming law requires. The Wyoming Attorney General's office filed a consent judgment, entered October 18, 2017, permanently barring the Carrolls from offering paving services anywhere in Wyoming and ordering them to pay $167,854 in restitution to the affected households, with a $200,000 penalty hanging over any future violation. Wyoming homeowners approached by a traveling paving or sealcoating crew claiming to have "leftover" material from a nearby road job should treat the manufactured urgency itself as a warning sign, get at least one independent estimate before signing anything, and can check a contractor's complaint history with the Wyoming Attorney General's Consumer Protection and Antitrust Unit before paying a deposit.`,
+    categorySlug: 'home-improvement-solar',
+    alertLevel: 'medium',
+    sources: ["Wyoming Attorney General's Office", 'Jackson Hole News&Guide'],
+    sourceUrl: 'https://attorneygeneral.wyo.gov/law-office-division/consumer-protection-and-antitrust-unit/resolved-matters',
+    country: 'US',
+    state: 'WY',
+    isHistorical: true,
+    firstRecorded: '2015-07-15',
+});
