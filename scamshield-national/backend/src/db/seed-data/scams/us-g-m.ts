@@ -6000,3 +6000,15 @@ UsGM.push({
     isHistorical: true,
     firstRecorded: '2026-09-11',
 });
+
+UsGM.push({
+    name: 'Indiana "Back2Work" Unemployment Bonus Text Scam',
+    slug: 'indiana-back2work-dwd-text-scam',
+    description: `Text messages impersonating the Indiana Department of Workforce Development (DWD) tell recipients they're eligible for a $3,800 payment for returning to work, through a program the messages call "Back2Work," and claim the money will be direct deposited as soon as the recipient clicks an included link. The texts arrive from an out-of-state area code but contain a link designed to look like it leads to an official State of Indiana page, and clicking it risks installing malware that can expose the personal information stored on the recipient's device. The Better Business Bureau serving Central and Northern Indiana and the Indiana Department of Workforce Development both issued public warnings confirming the "Back 2 Work" program does not exist and that DWD never contacts residents by text message at all — legitimate identity verification for a claim only happens through the state's ID.me portal. "If you receive a text from the Indiana Dept of Workforce Development do not click" the link, BBB spokeswoman Jennifer Adamany said, advising recipients to delete the message immediately rather than reply, since responding confirms to scammers that the number is active. Anyone who receives the text is encouraged to avoid clicking any link, delete it without replying, and report it to BBB Scam Tracker at BBB.org/ScamTracker or to the FTC at ReportFraud.ftc.gov.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'medium',
+    sources: ['Better Business Bureau', 'Indiana Department of Workforce Development'],
+    sourceUrl: 'https://www.wrtv.com/news/wrtv-investigates/new-twist-on-dept-of-workforce-development-text-message-scam',
+    country: 'US',
+    state: 'IN',
+});
