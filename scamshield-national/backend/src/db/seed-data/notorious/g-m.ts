@@ -7893,3 +7893,37 @@ Mba pleaded guilty on December 4, 2025, to conspiracy to commit wire fraud and c
 Mba's case illustrates how the infrastructure behind different scam categories often overlaps: the same conspiracy that hijacked corporate email accounts to reroute six- and seven-figure business payments was, in parallel, running the far more personal con of a fabricated online relationship — two very different victim experiences, funneled through the same laundering network, run by people willing to marry strangers on paper to keep the operation based in the United States.`,
   },
 );
+
+NotoriousGM.push(
+  {
+    title: 'James Torchia and the Credit Nation Life-Settlement Ponzi Scheme',
+    slug: 'james-torchia-credit-nation-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.ajc.com/news/jury-finds-accused-ponzi-scheme-operator-not-guilty-of-fraud/2CKYPLCXNFGZ5KI7EDVJGGTDXU/',
+    body: `Starting in 2009, James "Jim" Torchia ran a group of Cherokee County, Georgia companies — CN Capital, Credit Nation Capital, and related entities doing business as Credit Nation — selling two kinds of investments to ordinary investors, many of them elderly and investing their retirement savings or entire IRAs. One was promissory notes tied to subprime auto loans, most promising 9 percent annual returns and marketed, the SEC later said, as "100% asset-backed." The other was fractional interests in life settlements and viaticals — the practice of buying the rights to an elderly or terminally ill person's life insurance policy at a discount and collecting the full death benefit once they died, effectively betting that the payout would arrive before the ongoing premiums ate up the profit.
+
+The Securities and Exchange Commission sued Torchia and his companies in the Northern District of Georgia on November 10, 2015, alleging he was running a Ponzi scheme: that the businesses were losing money on a massive scale while Torchia kept marketing the notes as safe and asset-backed, diverted investor funds to prop up his other ventures and cover personal expenses, and used new investors' money to keep paying the ones who came before them. A federal judge froze the companies' assets, later found on the evidence before it that investors had probably been defrauded, and appointed a receiver to try to recover money for them; in March 2017, Torchia consented to the entry of a judgment on the SEC's liability claims against him, without admitting or denying the allegations, leaving the exact civil penalty and disgorgement amount to be set once total investor losses were tallied. Federal prosecutors separately indicted Torchia criminally, accusing him of continuing to market the notes even after learning the SEC was investigating; his longtime lawyer and adviser, Marc Celello, pleaded guilty to conspiracy to commit wire fraud and agreed to testify against him.
+
+The criminal case ended very differently. After a two-week trial in federal court in Atlanta, in which Torchia did not testify, a jury acquitted him on October 24, 2022, of conspiracy to commit mail and wire fraud and of six counts of mail fraud, clearing him of all criminal charges. His attorney said afterward that prosecutors had made "a slew of allegations that they were ultimately unable to prove."
+
+Torchia's case is a useful, uncomfortable reminder that a regulator's civil finding and a criminal jury's verdict aren't the same test applied to the same fact pattern: the SEC's civil case, decided on a preponderance of the evidence, produced a consent judgment and a receiver working to recover money for defrauded investors, while the criminal case, requiring proof beyond a reasonable doubt, ended in acquittal on every count. Both outcomes are part of the documented record, and neither erases the other — which is exactly why "100% asset-backed" is a claim worth verifying independently rather than accepting on an issuer's word, regardless of how any later court case turns out.`,
+  },
+);
+
+NotoriousGM.push(
+  {
+    title: 'Jeremy Johnson and the iWorks Free-Trial Billing Scheme',
+    slug: 'jeremy-johnson-iworks-billing-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2016/08/iworks-billing-scheme-ringleader-agrees-settle-ftc-charges',
+    body: `Jeremy Johnson built St. George, Utah-based IWorks, Inc. into one of the largest internet "negative option" marketing operations of the late 2000s, advertising "free" or "risk-free" trials of government-grant directories and money-making business kits online. Consumers who signed up for a trial believing they were paying little or nothing, according to the Federal Trade Commission, were in fact being enrolled in recurring monthly billing plans they never knowingly agreed to — charges that kept hitting their cards or bank accounts long after the "free" trial period, if they noticed it had started at all.
+
+As complaints and chargebacks mounted to levels that threatened IWorks' ability to keep processing payments at all, prosecutors said Johnson worked to keep the money flowing rather than fix the underlying product: he set up 37 shell corporations and more than 300 merchant accounts, many registered in the names of family members and employees who had little or nothing to do with running them, spreading the billing volume across enough fronts that payment processors like Wells Fargo and CardFlex couldn't see how large, and how complaint-ridden, the real operation behind them actually was. In total, the FTC said, the scheme took more than $280 million from consumers.
+
+The FTC sued Johnson, IWorks, and a string of other individuals and corporate entities in December 2010. After years of litigation, Johnson and several co-defendants agreed to stipulated final orders in August 2016 resulting in a $280.9 million judgment against Johnson and related corporate defendants, a separate $6 million judgment against another defendant, a permanent ban on selling grant-related, continuity, and forced-upsell products, and the surrender of a wide range of assets — his family's Utah home, aircraft, land, precious metals, and investment accounts — that helped fund more than $12 million in refunds the FTC later sent to consumers. Separately, federal prosecutors charged Johnson criminally over the shell companies and merchant accounts used to deceive the banks; a jury convicted him in 2016 on eight counts of making false statements to financial institutions, while acquitting him of 78 other counts including wire fraud, bank fraud, and money laundering. On July 29, 2016, U.S. District Judge David Nuffer sentenced him to 135 months — more than 11 years — in federal prison, telling Johnson he had become "comfortable with lying and deceiving."
+
+The case had an unusual political postscript: Johnson's own claims that he had arranged a $600,000 payment meant to influence a sitting U.S. senator on his behalf became public and implicated then-Utah Attorney General John Swallow, triggering state and federal investigations that forced Swallow from office within months of taking it — a reminder that the fallout from a fraud this size doesn't always stay contained to the people who lost money on the original "free trial."`,
+  },
+);
