@@ -5810,3 +5810,27 @@ UsGM.push({
     country: 'US',
     state: 'MO',
 });
+
+UsGM.push({
+    name: 'Treasure Valley Planning & Zoning Permit Invoice Scam',
+    slug: 'idaho-treasure-valley-planning-zoning-permit-invoice-scam',
+    description: `Idaho Attorney General Raúl Labrador and planning officials from Boise, Meridian, Nampa, and Caldwell jointly warned residents on June 29, 2026 about scammers pulling public building-permit and zoning-application records from city planning department websites, then using those real project details to craft convincing fake invoices. Because the fraudulent emails cite an applicant's actual project address, the correct contractor's name, real city employee names, and official-looking logos pulled straight from the public record, they read as far more legitimate than a typical phishing attempt — and pressure the applicant into paying immediately by claiming the permit or project will be canceled or delayed unless a fee is wired, paid in cryptocurrency, or covered with a gift card right away. "Scammers are pulling public permit records and sending fake invoices designed to look official and counting on people to panic and pay first, ask questions later," Labrador said. Boise's planning director emphasized that "the city will never request payment by wire transfer for planning application or permitting fees," and Nampa's planning director urged applicants to "reach out to us to confirm any requests for funds" before paying anything. Anyone with a permit or zoning application pending in the Treasure Valley — or any city — who receives an unexpected invoice by email should call the planning department directly using a phone number looked up independently, not one listed in the email, before sending a payment, and should report suspected scam invoices to the Idaho Attorney General's office at ReportScamsIdaho.com.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Idaho Office of the Attorney General', 'City of Boise', 'City of Meridian', 'City of Nampa', 'City of Caldwell'],
+    sourceUrl: 'https://www.ag.idaho.gov/newsroom/ag-labrador-and-cities-across-the-treasure-valley-warn-idaho-consumers-about-planning-and-zoning-fraud-scheme/',
+    country: 'US',
+    state: 'ID',
+});
+
+UsGM.push({
+    name: 'Maine Notary and Marriage Officiant Overpayment Scam',
+    slug: 'maine-notary-marriage-officiant-overpayment-scam',
+    description: `Maine Secretary of State Shenna Bellows warned notaries public and marriage officiants across the state on October 10, 2025 about a scam that targets them directly rather than the couples or clients they serve. A "client" requests a notarization or wedding-officiant service by email, then sends payment — by check or digital transfer — for noticeably more than the quoted fee, and shortly afterward contacts the notary or officiant again, claims the overpayment was a mistake, and asks for the difference to be refunded right away, often citing an urgent personal reason for the rush. Notaries and officiants who send the refund before the original payment has actually cleared are left holding the full loss once the check bounces or the digital payment is reversed, since the refund itself is real money leaving their own account. The same alert flagged a second scheme aimed at Maine businesses: unsolicited mailers formatted to closely resemble the Secretary of State's own corporate annual report form demand $210 to file a report that costs only $85 for a domestic corporation, $35 for a nonprofit, or $150 for a foreign entity when filed directly through the state's own online system, since Maine's Bureau of Corporations, Elections and Commissions never mails these forms itself. "Refuse the initial payment and ask that they resend it in the proper amount, or wait for the payment to clear before any refund is sent," Bellows advised. Notaries, officiants, and business owners who receive a suspicious solicitation can confirm it directly with the Bureau of Corporations at cec.corporations@maine.gov or 207-624-7752 before sending any money.`,
+    categorySlug: 'fake-check-overpayment',
+    alertLevel: 'medium',
+    sources: ['Maine Secretary of State'],
+    sourceUrl: 'https://www.maine.gov/sos/news/secretary-state-warns-scams-targeting-maine-notaries-marriage-officiants-corporations-and',
+    country: 'US',
+    state: 'ME',
+});
