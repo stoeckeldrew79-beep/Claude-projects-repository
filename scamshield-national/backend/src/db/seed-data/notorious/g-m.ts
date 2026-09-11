@@ -7528,3 +7528,22 @@ Sorenson and Brost were each sentenced in 2016 to 12 years in prison — a sente
 The Syndicated Gold Depository case shows how a plausible-sounding physical asset — gold, refined and resold — combined with international mining operations that were difficult for ordinary investors or even regulators to verify from Calgary, let a fraud grow for nearly a decade before collapsing, and how far a determined defendant can push out the clock on accountability simply by leaving the jurisdiction that wants to try him.`,
   },
 );
+
+NotoriousGM.push(
+  {
+    title: 'Joseph Zada and the "Secret" London Trading Board That Never Existed',
+    slug: 'joseph-zada-oil-trading-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.fbi.gov/contact-us/field-offices/miami/news/press-releases/michigan-man-guilty-of-mail-fraud-in-50-million-ponzi-scheme',
+    body: `Joseph Zada, of Grosse Pointe Shores, Michigan, spent roughly a decade telling investors he had access to something no one else could get into: a secretive trading operation headquartered in London that generated outsized, consistent profits from oil and currency trading. From 1998 to 2009, that pitch pulled in tens of millions of dollars from a client list built largely on personal referrals and social connections rather than any advertising or public offering — the kind of quiet, word-of-mouth credibility that made the fraud harder for any one investor to independently check.
+
+Zada's victims included people with real money and real connections of their own: retired NHL star Sergei Fedorov, six-time Olympic dressage competitor Robert Dover, and a mix of professionals — a veterinarian, a jeweler, a pawnbroker — along with a group of Michigan firefighters who pooled money with him. None of it was actually invested in oil or currency trading through any London board, secret or otherwise. Zada spent the incoming money on a jet-set lifestyle instead, including mansions in Florida and Michigan, while telling investors their capital was compounding safely overseas.
+
+A federal jury in Florida convicted Zada in June 2015 on 15 counts of mail fraud, following a scheme prosecutors said cost victims more than $50 million. He was sentenced that November to 15 years in federal prison — a sentence reflecting both the scale of the fraud and the number of counts a jury had found proven beyond a reasonable doubt.
+
+Zada's case took an additional turn in 2020, when he was released early from federal custody to home confinement at his own mansion as part of the broader wave of COVID-era prison releases for older or medically vulnerable inmates — a detail that struck many of his victims as one more instance of Zada landing somewhere considerably softer than the consequences most fraud victims themselves absorbed.
+
+The "secret board in London" pitch worked precisely because it was unfalsifiable by design: investors had no way to verify an operation they were told, from the outset, they weren't allowed to see directly. That structure — access sold as a privilege, paired with an explanation for why ordinary due diligence wasn't possible — is one of the most durable tells in affinity fraud, whether the claimed secret is a trading desk, a gold vault, or an algorithm no one else is permitted to inspect.`,
+  },
+);
