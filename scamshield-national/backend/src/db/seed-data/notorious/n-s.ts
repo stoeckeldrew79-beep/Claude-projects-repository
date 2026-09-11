@@ -5525,3 +5525,20 @@ Righter pleaded guilty to wire fraud, aggravated identity theft, and tax fraud. 
     sourceUrl: 'https://www.justice.gov/usao-sdfl/pr/miami-federal-judge-sentences-los-angeles-art-fraudster-five-years-prison',
   },
 );
+
+NotoriousNS.push(
+  {
+    title: 'Ruless Pierre and the Ponzi Scheme That Preyed on His Own Haitian Community',
+    slug: 'ruless-pierre-rockland-county-haitian-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    body: `Ruless Pierre lived in Nanuet, in Rockland County, New York, and built his client base largely among friends and fellow members of the area's Haitian community — the kind of shared background that made people inclined to trust him with their savings without asking too many questions. Starting in November 2016, he began soliciting investors into Ruless Pierre Consulting Group, promising them he could turn their money into a 20% return every 60 days through stock day-trading, with the reassurance that they could withdraw their principal after just 30 days if they changed their mind. By October 2019, prosecutors said, he had taken in more than $2 million from nearly 100 investors.
+
+The trading barely happened, and when it did, it lost money rather than making it. To keep investors from noticing, Pierre sent them fabricated account statements showing steady profits that had no relationship to what was actually happening to their funds, commingling new deposits with old ones and using investor money to cover his own personal spending, including luxury vehicles — classic Ponzi mechanics dressed up as a day-trading strategy. Starting in November 2018, while the stock-trading scheme was still running, he layered a second pitch on top of it: partnership interests in fast-food franchise locations, promising investors 5% monthly returns plus 40% of quarterly profits for a minimum $5,000 buy-in. He raised at least $200,000 from 18 more investors on that pitch but, prosecutors said, only ever actually opened one of the promised franchise locations.
+
+Pierre had a history with other people's money well before either scheme. As director of finance for two hotel properties between 2007 and 2019, he wrote more than 70 checks totaling over $300,000 to himself after he'd already left the job, and structured cash deposits to keep them under the $10,000 threshold that would have triggered a currency transaction report — a separate embezzlement thread investigators folded into the same case.
+
+A federal jury in Manhattan convicted Pierre in May 2021 on two counts of securities fraud, one count of wire fraud, and one count of structuring. On September 9, 2021, U.S. District Judge Sidney Stein sentenced him to 84 months — seven years — in federal prison. Pierre's case is a reminder that affinity fraud doesn't require a stranger or a foreign call center; the trust that makes a shared community valuable — the assumption that "he's one of us, he wouldn't do that" — is exactly the shortcut past due diligence that a scheme like his depends on.`,
+    sourceUrl: 'https://www.justice.gov/usao-sdny/pr/rockland-county-man-sentenced-7-years-ponzi-securities-fraud-scheme-targeting-local',
+  },
+);
