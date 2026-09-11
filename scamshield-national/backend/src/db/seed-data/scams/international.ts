@@ -14123,4 +14123,14 @@ International.push(
     sourceUrl: 'https://www.anti-malware.ru/news/2025-06-02-111332/46222',
     country: 'RU',
   },
+  {
+    name: 'Fake Military Summons (Povestka) Phishing Scam',
+    slug: 'russia-fake-military-summons-povestka-phishing-scam',
+    description: `Sberbank's cybersecurity team disclosed on May 15, 2023 that it had blocked a mass phishing campaign aimed at its own staff: emails formatted to look like official notices from a military registration and enlistment office (voenkomat), urgently summoning the recipient in to "clarify personal data," carrying an attachment named to look like a mobilization order that was in fact malware built to infect the bank's internal systems. A Sberbank security official said commissariats do not issue summonses by email, and warned the same lure was likely to be used against other organizations and individuals, not just bank employees. Independent outlet Fontanka and Russian regional press documented a broader version of the same scheme reaching ordinary citizens through 2023 and 2024, particularly after an April 2023 law authorized electronic military summonses: messages purporting to be from a commissariat ask the recipient to click a link or open an attachment to "verify" their military-registration data, to read out a one-time SMS code supposedly needed to confirm the record — a code that in reality grants the caller access to the victim's Gosuslugi account — or to pay a fee by card to have a summons canceled or a fine waived. Consumer-facing guidance from Russian outlets covering the scheme stresses that a summons only carries legal force when delivered on paper, in person or by registered mail, that a commissariat will never request payment or a verification code by phone, email, or text, and that any notice should be checked directly against the official reestrpovestok.ru registry or gosuslugi.ru rather than through a link supplied in the message itself.`,
+    categorySlug: 'phishing',
+    alertLevel: 'medium',
+    sources: ['Sberbank', 'Fontanka', 'Interfax', 'RIAMO'],
+    sourceUrl: 'https://www.fontanka.ru/2023/05/15/72304694/',
+    country: 'RU',
+  },
 );
