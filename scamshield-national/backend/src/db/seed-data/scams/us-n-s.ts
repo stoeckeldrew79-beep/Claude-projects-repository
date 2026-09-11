@@ -5761,3 +5761,17 @@ UsNS.push({
     isHistorical: true,
     firstRecorded: '2026-09-09',
 });
+
+UsNS.push({
+    name: 'Holly Christina Photography Wedding Deposit and No-Show Scheme',
+    slug: 'north-carolina-holly-christina-photography-wedding-scheme',
+    description: `Holly Christina Photography, run by Holly Christina Scott Ayscue and Christopher Owen Ayscue out of the Raleigh area, took deposits and full advance payments from engaged couples across North Carolina for wedding photography and videography packages, then routinely failed to deliver — sending unapproved substitute photographers, double- and triple-booking more than 60 wedding dates (in some cases five weddings scheduled at once), pressuring couples with false "last spot available" urgency, and abruptly shutting down on January 25, 2026, leaving at least 24 couples with weddings booked within 90 days and no photographer or refund. Attorney General Jeff Jackson sued the company and its owners on February 24, 2026, when the state had already logged 166 complaints and about $750,000 in losses; he said the business "left engaged couples and newlyweds stranded without a wedding photographer, without refunds, and without memories from one of the most important days of their lives." By May 2026, complaints had grown to 228 and losses to roughly $1 million, and a Superior Court judge granted a preliminary injunction freezing the company's assets, barring it from doing further business in North Carolina, and ordering the defendants to turn over every unedited and edited photo and video within 30 days. When the defendants did not fully comply, Jackson filed a motion for default judgment on September 2, 2026, seeking nearly $600,000 in consumer restitution and over $1.1 million in civil penalties. Couples booking a wedding vendor are advised to avoid paying the full balance far in advance, to get delivery timelines and backup-photographer terms in writing, and to pay by credit card rather than by cash app or wire transfer so a disputed charge can potentially be reversed.`,
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'medium',
+    sources: ["North Carolina Department of Justice (Attorney General Jeff Jackson)", 'WRAL'],
+    sourceUrl: 'https://ncdoj.gov/attorney-general-jeff-jackson-asks-judge-for-default-judgment-in-holly-christina-photography-case/',
+    country: 'US',
+    state: 'NC',
+    isHistorical: true,
+    firstRecorded: '2026-02-24',
+});
