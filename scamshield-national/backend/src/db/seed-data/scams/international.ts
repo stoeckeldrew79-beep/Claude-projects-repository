@@ -9241,6 +9241,26 @@ Egypt's Ministry of Interior announced on February 24, 2025, that it had arreste
     sourceUrl: 'https://brudirect.com/post/13/05/2026-Fraud-Cases-through-Social-Media-and-Communication-Applications',
     country: 'BN',
   },
+  {
+    name: 'BIBD Impersonation SMS Phishing ("Smishing") Scam',
+    slug: 'brunei-bibd-sms-phishing-smishing-scam',
+    description: `Bank Islam Brunei Darussalam (BIBD), the country's largest bank, issued a public warning on July 29, 2025 after a surge in fraudulent text messages impersonating the bank in an attempt to steal customers' online banking credentials. The messages are designed to look like genuine BIBD notifications — often claiming there is a problem with the recipient's account or a transaction that needs to be verified — and contain a shortened link that redirects to a convincing fake website mimicking BIBD's real online banking portal. Anyone who enters their details there hands scammers their username, password, account number, or one-time password (OTP), which is enough to let the fraudsters log in and drain the account within minutes, since an OTP is typically the last barrier standing between a stolen password and an actual transfer. BIBD stated plainly that it "will never ask for sensitive information via unsolicited SMS, phone calls, or other unverified communication channels," and its published fraud-prevention guidance underlines that any message asking a customer to click a link and "verify" or "validate" their account should be treated as suspicious by default rather than acted on. The bank's advice mirrors warnings issued around the same period by Baiduri Bank over similar smishing messages hitting its own customers, suggesting the campaign was not limited to a single institution's customer base. Customers who receive such a message are advised never to click the embedded link or enter any banking details through it, to check any claimed account issue only by opening the official BIBD app directly or calling BIBD's Contact Centre at 2238181, and to report suspected fraud immediately so compromised accounts can be frozen before funds are moved.`,
+    categorySlug: 'phishing',
+    alertLevel: 'high',
+    sources: ['Bank Islam Brunei Darussalam (BIBD)', 'The Star', 'Xinhua'],
+    sourceUrl: 'https://www.thestar.com.my/news/world/2025/07/30/brunei039s-largest-bank-warns-of-sms-phishing-scams',
+    country: 'BN',
+  },
+  {
+    name: 'Fake Traffic Fine SMS and Phishing Website Scam',
+    slug: 'brunei-fake-traffic-fine-sms-phishing-website-scam',
+    description: `The Royal Brunei Police Force (RBPF) has twice had to publicly disown a recurring smishing campaign that falsely claims recipients owe an unpaid traffic fine. In the first documented wave, reported on July 9, 2025, a viral SMS message directed recipients to a fraudulent website built to impersonate Brunei's Land Transport Department (Jabatan Pengangkutan Darat, JPD) and collect payment for the fabricated fine; police said the site had "no connection" to the real department, the Cyber Crime Investigation Division opened an investigation, and the Authority for Info-communications Technology Industry of Brunei Darussalam (AITI) was asked to block access to the fake page, while JPD itself publicly disavowed the message on its own social media. The scam resurfaced in a near-identical form roughly a year later: on June 15, 2026 the RBPF again "denied sending the SMS," stating the message "was not issued by any department within the force" and warning that clicking the embedded link "could expose mobile devices and personal data to misuse." Police guidance in both waves has been the same — genuine traffic fines in Brunei can only be paid in person at a police counter (cash or card) or through the official BIBD mobile application, never by following a link texted to a phone — and recipients are told not to click the link, not to share personal information, and to verify any claimed fine directly with police rather than through the message itself. The wider scale of this enforcement effort was set out by the Minister of Transport and Infocommunications during the 21st Legislative Council session, who disclosed that RBPF, AITI, and telecom provider Unified National Networks had together blocked 82 fraudulent websites and 557 fraudulent phone numbers used for scam calls and fraudulent SMS since 2024. Anyone who receives a traffic-fine text with a payment link is advised to delete it without clicking and to report it to the Anti-Scam Helpline 16993 or the nearest police station.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Royal Brunei Police Force (RBPF)', 'The Star', 'The Cyber Express'],
+    sourceUrl: 'https://www.thestar.com.my/aseanplus/aseanplus-news/2026/06/16/brunei-police-warn-public-about-fake-traffic-fine-sms-scam',
+    country: 'BN',
+  },
 ];
 
 International.push(
