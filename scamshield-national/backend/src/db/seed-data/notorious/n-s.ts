@@ -4460,6 +4460,10 @@ NotoriousNS.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/opa/pr/two-sentenced-prison-522m-genetic-testing-fraud-and-illegal-kickback-scheme-targeting',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Pedestrian border crossing sign Tijuana Mexico.jpg?width=1200',
+    coverImageCredit: 'Photo: Toksave / Wikimedia Commons (CC BY-SA 3.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     // no rights-cleared photo found — sourceUrl above serves as the "read the full story" link
     body: `Reyad Salahaldeen, 57, of Buford, Georgia, controlled four diagnostic laboratories spread across three states — Express Diagnostics in New Jersey, BioConfirm Laboratory USA and BioConfirm Laboratories in Georgia, and Tox Management and Tri-State Toxicology in Texas — that between 2018 and August 2020 submitted approximately $522 million in false and fraudulent claims to Medicare, Medicaid, and private insurers for genetic and toxicology testing. Marketers working the scheme fanned out through telemarketing calls, door-to-door visits, and health fairs, collecting cheek-swab DNA samples and insurance information from people who were told the cancer-screening tests being offered were free, or medically important, or both. Many of the tests were never medically necessary at all, ordered through requisition forms and medical-necessity letters that Salahaldeen personally falsified to make a stranger's swab look like a doctor's considered judgment.
 
@@ -4497,6 +4501,10 @@ NotoriousNS.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/usao-mdtn/pr/former-bridgestone-americas-assistant-treasurer-pleads-guilty-nearly-15-million-wire',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Nashville skyline from Fort Negley 2018.jpg?width=1200',
+    coverImageCredit: 'Photo: Jacknstock / Wikimedia Commons (CC BY-SA 4.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     // no rights-cleared photo identified — sourceUrl above serves as the "read the full story" link
     body: `Note: Sajju Khatiwada has pleaded guilty, but as of this writing he has not yet been sentenced — a hearing is scheduled for December 22, 2026 — so the prison term the court will actually impose is not yet known.
 
