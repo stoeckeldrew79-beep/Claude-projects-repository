@@ -12545,6 +12545,16 @@ International.push(
     sourceUrl: 'https://en.cibercuba.com/noticias/2026-05-05-u1-e135253-s27061-nid328093-consulado-espana-cuba-alerta-estafas-citas-falsas',
     country: 'CU',
   },
+  {
+    name: 'Cuba Revolico WhatsApp Verification Code Hijacking Scam',
+    slug: 'cuba-revolico-whatsapp-verification-code-hijacking-scam',
+    description: `In September 2026, independent Camagüey journalist José Luis Tan Estrada used his #TanteandoCuba Facebook segment to warn about a scam moving through Revolico's local buy-and-sell groups. Fraudsters post everyday necessities — cooking-gas cylinders among them — at prices well under the going rate to draw in interested buyers, then message them a link, presented as belonging to a small home-business sales group, and tell them that continuing requires entering the six-digit verification code WhatsApp texts when an account is being set up on a new device. Anyone who shares that code unknowingly hands the scammer control of their own WhatsApp account, which is then used to impersonate them to their real contacts and solicit money from friends and family who believe they're talking to the actual account owner. Tan Estrada warned Revolico users, "no pinchen enlaces que ustedes no conocen" ("don't click links you don't recognize"), and stressed that WhatsApp's own verification code should never be read out or forwarded to anyone else, since the platform never needs a user to repeat it back to a third party.`,
+    categorySlug: 'account-takeover',
+    alertLevel: 'medium',
+    sources: ['José Luis Tan Estrada (#TanteandoCuba)', 'CiberCuba'],
+    sourceUrl: 'https://www.cibercuba.com/noticias/2026-09-11-u1-e43231-s27061-nid340082-alertan-estafas-grupos-revolico-camaguey',
+    country: 'CU',
+  },
 );
 
 International.push(
