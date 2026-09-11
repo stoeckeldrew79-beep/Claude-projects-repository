@@ -7057,3 +7057,37 @@ Lam pleaded guilty on June 5, 2025, to conspiracy to steal government funds and 
 The Lam case is a reminder that an insider with legitimate system access is often a fraud scheme's most valuable asset, not its riskiest one: every safeguard built to stop an outsider from impersonating a deceased person's family member is worth nothing against an employee who can pull the dead man's own government record and hand it directly to someone ready to use it. It is also a reminder that survivor benefits, like any benefit tied to a claimed family relationship, rest on a paper trail — a father's name on a claim form — that a records clerk with the right access can fabricate as easily as an identity thief with a stolen wallet.`,
   },
 );
+
+NotoriousAF.push(
+  {
+    title: 'Dhruv Mangukiya, the Student on a Visa Who Ran a Cash-and-Gold Courier Ring Targeting the Elderly',
+    slug: 'dhruv-mangukiya-elder-fraud-money-laundering-ring',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-wdtx/pr/indian-national-sentenced-austin-role-multi-million-dollar-elder-fraud-scheme',
+    body: `Dhruv Rajeshbhai Mangukiya came to the United States on a student visa. According to the U.S. Attorney's Office for the Western District of Texas, he spent part of that time running the money-laundering end of a scheme built around a single, well-worn lie: that the elderly person on the other end of the phone was in serious legal trouble and needed to act immediately to fix it.
+
+The callers posed as government officials — investigators, bank fraud units, sometimes officers investigating stolen identities tied to drug trafficking. In one case detailed by prosecutors, a conspirator convinced a victim that his identity had been stolen and that counterfeit bank accounts opened in his name were linked to drug cartels; frightened into believing his assets and his name were both at risk, the victim withdrew cash and handed it to couriers across three separate transactions totaling $180,000. Other victims were told to convert savings into gold rather than cash, a variation on the same courier model that has become increasingly common in elder-fraud schemes because gold is harder to trace than a wire transfer and doesn't require a bank teller to ask questions. Mangukiya's role, prosecutors said, was to receive the cash and gold from couriers and move it through the conspiracy — work for which he admitted being paid roughly 2 percent of the proceeds that passed through his hands, while identifying two unidentified higher-level coordinators referred to in his own messages only as "Hunter" and "Master."
+
+Mangukiya recruited a fellow Indian national on a student visa, Kishan Rajeshkumar Patel, 20, of Navsari, Gujarat, to work as a courier and co-conspirator; prosecutors tied Patel's own portion of the scheme to roughly $2.69 million taken from at least 25 victims over the summer of 2024 alone. When federal agents arrested Mangukiya at his New Jersey residence on December 5, 2024, they found about $73,422 in cash and a printer investigators said had been used to produce fake identification documents. Mangukiya pleaded guilty to one count of conspiracy to commit money laundering, and U.S. District Judge Robert Pitman sentenced him in Austin to 97 months — just over eight years — in federal prison, ordering him to pay $2,515,780 in restitution. Patel pleaded guilty separately on March 18, 2025, and was sentenced to 63 months. "Patel defrauded vulnerable citizens by impersonating officials and preying on fears," U.S. Attorney Justin Simmons said in announcing that sentence.
+
+The case is a reminder that a government agency will never ask a target to withdraw cash or buy gold and hand it to a stranger at the door — that single instruction is the tell in nearly every version of this scam, whatever badge or case number the caller claims. It's also a reminder that a scheme's most physically exposed participants, the couriers and cash-handlers who show up in person to collect money, are often the youngest and most replaceable links in a chain that reaches back to organizers who never have to meet a victim face to face.`,
+  },
+);
+
+NotoriousAF.push(
+  {
+    title: 'Aron Puretz, Moshe Silber, and the Fake Second Closing That Inflated Two Buildings by $50 Million',
+    slug: 'aron-puretz-moshe-silber-mortgage-fraud-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/opa/pr/four-real-estate-investors-sentenced-multimillion-dollar-loan-scheme',
+    body: `Commercial real estate lenders size up a loan largely by looking at what a property just sold for — the theory being that a recent, arm's-length sale price is the most reliable evidence of what a building is actually worth. Aron Puretz, his son Chaim "Eli" Puretz, Moshe "Mark" Silber, and Fredrick Schulman built a fraud around exploiting exactly that assumption, according to the Justice Department, by making sure the lender never learned the sale wasn't arm's-length at all.
+
+In one transaction described by prosecutors, Aron and Eli Puretz bought an office complex called Troy Technology Park in Troy, Michigan, in September 2020 for roughly $42 million. Rather than simply refinancing at that price, the group arranged to "flip" the property to a co-conspirator for approximately $70 million — a sale between parties who were secretly working together, not competing buyers testing the market — and presented the inflated $70 million price, backed by falsified closing documents, to a lender who used it to underwrite a $45 million loan. Silber ran a similar play on an Ohio apartment complex called the Williamsburg of Cincinnati: the group acquired it for $70 million using a stolen identity, flipped it to a cooperating co-conspirator for $96 million, and used that fabricated second price to secure a $74 million loan. Both schemes relied on what prosecutors called "dual closings" — structuring the real purchase and the inflated resale as two separate transactions on paper, timed closely enough together that the lender funding the loan only ever saw the second, invented number.
+
+Aron Puretz and Silber pleaded guilty to conspiracy to commit wire fraud affecting a financial institution, as did Eli Puretz and Schulman. A federal court sentenced Aron Puretz to 60 months in prison and ordered him to pay $22,235,457 in restitution; Eli Puretz received 24 months and was ordered to pay $20,315,457; Silber was sentenced to 30 months; and Schulman, 72, received 12 months and a day followed by nine months of home confinement, with restitution for Silber and Schulman set at a later hearing.
+
+The Puretz and Silber case is a reminder that a lender's most important fraud safeguard — verifying a property's value through a genuinely independent recent sale — depends entirely on the sale actually being independent, something a lender reviewing paperwork after the fact has no easy way to confirm. A "recent comparable sale" presented as evidence of value is only as trustworthy as the relationship, or lack of one, between the buyer and the seller — a relationship that dual closings and shell-company buyers are specifically built to hide from anyone relying on the paperwork alone.`,
+  },
+);
