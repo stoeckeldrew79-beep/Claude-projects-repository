@@ -7681,3 +7681,22 @@ Federal investigators ultimately indicted Harris over a scheme separate from the
 The Harris case is a reminder that "offshore asset protection" sold on a promise of secrecy is, by design, a business built to be unaccountable: the same opacity marketed to clients as a shield against tax authorities and creditors is just as useful for hiding what the firm itself is doing with their money. Harris's downfall didn't end with his own sentencing, either — more than a decade later, clients who had used his structures to hide assets from the IRS were still being individually identified and prosecuted, a reminder that handing money to a fraudulent offshore promoter to dodge taxes carries its own separate legal exposure, regardless of whether the promoter running the scheme is ever caught.`,
   },
 );
+
+NotoriousGM.push(
+  {
+    title: 'Louis Schooler: The San Diego Real Estate Promoter Who Sailed Off Rather Than Pay a $148 Million Judgment',
+    slug: 'louis-schooler-western-financial-planning-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.sec.gov/newsroom/press-releases/2012-2012-183htm',
+    body: `Louis V. Schooler ran a San Diego firm called Western Financial Planning Corporation (doing business as, and later formally incorporated as, First Financial Planning Corporation), pitching a straightforward-sounding real estate investment: Western would buy raw, undeveloped land in the Nevada desert, organize it into limited partnerships, and sell partnership units to investors who would profit when the land was eventually developed or resold at a higher price. Beginning around 2007, hundreds of investors nationwide — many of them older, conservative savers looking for something safer than the stock market — put a combined $50 million or more into the partnerships.
+
+What investors weren't told was how much they were overpaying. The SEC found that Schooler and Western routinely sold land to the partnerships at a fraction of what investors were charged — in one example cited in the agency's complaint, a parcel Western bought for $1.85 million was turned around and sold to a partnership at a price valuing the land at $9.3 million, a roughly 500 percent markup that Schooler never disclosed. Western also failed to tell investors that some of the land carried mortgages used to finance the original purchase, and supplied misleading comparable-sales data to make the inflated prices look market-reasonable. When investors began to suspect they'd been overcharged, the SEC alleged, Schooler paid some of them "hush money" starting in the spring of 2011 to keep them from going public or complaining to regulators.
+
+The SEC sued Schooler and Western in September 2012, winning an emergency asset freeze and the appointment of a receiver to take over the company. The case dragged on for more than three years before a federal district court in California ruled against him in January 2016, ordering Schooler to pay approximately $148 million in disgorgement, prejudgment interest, and civil penalties — a judgment that dwarfed the roughly $50 million investors had actually put in, reflecting years of accumulated interest and penalties on top of the underlying fraud.
+
+Schooler never paid it. Facing a separate SEC administrative proceeding in July 2016, he set sail from San Diego on his boat, the Entertainer, headed for French Polynesia. He reached Tahiti — and then vanished. The boat was later recovered, but Schooler was not; one of his own attorneys told the court he believed his client was dead, yet no death certificate was ever issued, and the U.S. State Department has continued to list him as missing rather than deceased. The unresolved question of whether Schooler is alive later produced an unusual coda in the courts: when his estate's executor took over the appeal, the Ninth Circuit vacated the civil penalty in light of his apparent death and sent the disgorgement award back for reconsideration under intervening Supreme Court precedent that had narrowed how far back the SEC can reach when calculating disgorgement.
+
+Schooler's case is a reminder that a final judgment, however large, is only as good as a regulator's ability to actually collect it — and that a promoter with enough advance warning of a losing legal outcome, and the means to leave the country, can turn even a $148 million verdict into an open question that outlives the case itself.`,
+  },
+);
