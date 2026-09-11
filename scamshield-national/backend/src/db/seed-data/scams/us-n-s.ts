@@ -5409,3 +5409,18 @@ UsNS.push({
     country: 'US',
     state: 'OH',
 });
+
+
+UsNS.push({
+    name: 'Bronx "Fairy\'s Crown" Sweepstakes Prize-Fee Fraud (Gibbs)',
+    slug: 'new-york-bronx-sweepstakes-prize-fee-fraud-gibbs',
+    description: `Ricki Rickaline Gibbs, of the Bronx, New York, worked with co-conspirators operating out of New York and Jamaica to call and text elderly victims nationwide, falsely telling them they had won a substantial cash prize and a luxury vehicle through a sweepstakes, then instructing them to send checks, money orders, gift cards, cash, wire transfers, and Zelle payments to cover supposed "taxes" and "fees" before the winnings could be released. Once a victim paid, the conspirators simply invented another fee and asked for more, and in some cases folded in romance-scam tactics — sustaining a fake personal relationship with the victim — to keep the payments coming; the scheme ran from 2019 to 2023 and stole more than $1.6 million from over 20 elderly victims, with $1,379,402 traced directly to Gibbs or accounts she controlled and used to fund her clothing business, "Fairy's Crown," and personal luxury purchases. After her arrest, Gibbs falsely claimed she was a victim herself rather than a perpetrator. She pleaded guilty in September 2025 to conspiracy to commit wire fraud and mail fraud, and on January 7, 2026, was sentenced in the U.S. District Court for the Southern District of New York to 51 months in federal prison, three years of supervised release, and ordered to pay $1,379,402 in restitution with $1,018,703 in forfeiture. "Fraudsters who prey on our most vulnerable must be brought to justice," U.S. Attorney Jay Clayton said in announcing the sentence. No legitimate sweepstakes or lottery ever requires a winner to pay taxes or fees upfront by gift card, wire transfer, or Zelle before releasing a prize, and any call or text announcing an unexpected win should be treated as a scam, especially one that keeps inventing new fees after the first payment is made.`,
+    categorySlug: 'lottery-sweepstakes-scams',
+    alertLevel: 'high',
+    sources: ['IRS Criminal Investigation', "U.S. Attorney's Office for the Southern District of New York"],
+    sourceUrl: 'https://www.irs.gov/compliance/criminal-investigation/bronx-woman-sentenced-in-nationwide-sweepstakes-fraud-scheme-targeting-the-elderly',
+    country: 'US',
+    state: 'NY',
+    isHistorical: true,
+    firstRecorded: '2019-01-01',
+});

@@ -7355,6 +7355,10 @@ NotoriousAF.push(
     title: 'The Ethical Forestry Fraud: A £70 Million "Green" Pension Scheme Built on Costa Rican Trees',
     slug: 'ethical-forestry-limited-pension-fraud-uk',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Oil_palm_forest_fragment_Costa_Rica.JPG?width=1200',
+    coverImageCredit: 'Photo: T. R. Shankar Raman (CC BY-SA 4.0) — a managed tree plantation in Costa Rica',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.gov.uk/government/news/prison-for-directors-behind-70-million-investment-fraud',
     body: `For seven years, a call centre in Bournemouth, England, cold-called members of the public with a pitch built to sound both profitable and virtuous: transfer your pension into Ethical Forestry Limited, and your money would fund a sustainable tree-planting operation in Costa Rica, generating strong returns from the eventual harvest while doing some good for the planet along the way. More than 3,000 people, many of them pensioners moving their life savings out of regulated pension schemes, were persuaded to invest. Between them, they handed over roughly £70 million.
@@ -7372,6 +7376,10 @@ NotoriousAF.push(
     title: 'Chris Marco: The Perth "Private Placement" Fraud That Drew Australia\'s Longest ASIC-Linked Sentence',
     slug: 'chris-marco-ams-holdings-perth-fraud',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Central_Law_Courts,_Perth,_Western_Australia.jpg?width=1200',
+    coverImageCredit: 'Photo: JarrahTree (CC BY 2.5 AU) — the Perth law courts precinct where Marco was tried and sentenced',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2025-releases/25-255mr-perth-fraudster-chris-marco-sentenced-to-14-years-imprisonment/',
     body: `Chris Marco ran an unregistered investment scheme out of Perth, Western Australia, through a company called AMS Holdings (WA) Pty Ltd, telling investors their money would go into "private placement programs" — a phrase used across the world by fraudsters to describe a supposedly exclusive, high-yield trading opportunity unavailable to ordinary retail investors. Between July 2013 and October 2018, according to the Australian Securities and Investments Commission (ASIC), Marco took in more than $34 million from people who trusted that characterization.
