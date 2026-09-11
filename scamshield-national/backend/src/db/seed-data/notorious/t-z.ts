@@ -2195,7 +2195,10 @@ NotoriousTZ.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/usao-sdca/pr/two-men-sentenced-prison-participating-nationwide-grandparent-scam',
-    // no verified rights-cleared photo found yet — see NotoriousCoverPhotos
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/US_Dist_S_Cal.jpg?width=1200',
+    coverImageCredit: 'Photo: Federal Judiciary, public domain, via Wikimedia Commons — the Edward J. Schwartz U.S. Courthouse in San Diego (Southern District of California), where the case was prosecuted',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Timothy Ingram, of North Hollywood, California, spent nearly a year as a key logistics operator inside a nationwide "grandparent scam" enterprise that federal prosecutors say stole roughly $2 million from more than 70 elderly victims across the country. From November 2019 through October 2020, the enterprise's callers phoned senior citizens with a familiar, panic-inducing script: a grandchild, or another close relative or friend, was in trouble — arrested, in a car accident, facing new charges — and needed cash immediately, sent through a courier or wired directly, to make the problem go away.
 
 Ingram's role wasn't placing the calls; it was making sure the money actually reached the conspiracy once a frightened victim agreed to pay. According to the U.S. Attorney's Office for the Southern District of California, he ran a network of money mules who conducted in-person cash pickups and received wire transfers from victims who believed they were helping a relative in a real emergency. In one case cited by prosecutors, Ingram personally orchestrated the collection of $42,000 from a 76-year-old Los Angeles County victim. Ten victims in San Diego County alone lost more than $300,000 to the scheme.
