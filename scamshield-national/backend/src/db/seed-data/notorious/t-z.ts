@@ -2426,3 +2426,22 @@ Federal prosecutors indicted the McCorkles along with two associates, Herman Ven
 The McCorkle case is a reminder that an infomercial's most persuasive evidence — the mansion, the car, the excited testimonial — is also the easiest part of the pitch to fake entirely: none of it has to be real, or even paid for by the person selling it, to convince a television audience that a stranger's promised riches are within reach for the price of a videotape.`,
   },
 );
+
+NotoriousTZ.push(
+  {
+    title: 'Troy Wragg and Mantria Corporation: The $54 Million "Green" Ponzi Scheme Built on Biochar',
+    slug: 'troy-wragg-mantria-corporation-green-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://www.justice.gov/usao-edpa/pr/founder-mantria-corp-sentenced-22-years-operating-54-million-ponzi-scheme',
+    body: `Troy Wragg and Amanda Knorr, both 2005 graduates of Temple University, founded Mantria Corporation out of an office just outside Philadelphia and built it around a pitch tailor-made for the late-2000s market: environmentally conscious investing. Mantria told investors their money would fund planned "green" residential communities in rural Tennessee and, later, the production of biochar — a charcoal-like substitute made from organic waste, marketed as a carbon-negative soil additive — positioning the company at the intersection of two things investors found hard to resist at once, a good cause and an extraordinary return.
+
+That return was the real draw: Mantria promised annual gains of 17 percent up to "hundreds of percent," paid not from any functioning green-energy business but from cash raised from newer investors, a straightforward Ponzi structure dressed in sustainability language. To reach investors nationwide, Mantria worked with a Colorado-based promotional operation, Speed of Wealth LLC, run by Wayde and Donna McKelvy, who marketed Mantria's offerings through investment seminars aimed at everyday retirement savers. Between 2005 and 2009, the scheme took in roughly $54 million from more than 300 investors across the country before it collapsed.
+
+The Securities and Exchange Commission sued Mantria, Wragg, Knorr, and the McKelvys in November 2009, and a federal court in Colorado entered final judgments in 2012 ordering disgorgement, prejudgment interest, and civil penalties totaling more than $135 million. The criminal case took longer to reach sentencing: Wayde McKelvy was sentenced to 18 years in federal prison for his role promoting the scheme, and Amanda Knorr received 30 months after cooperating with prosecutors.
+
+Troy Wragg's case took an unusual turn along the way. While free on bail awaiting sentencing for the Mantria fraud, he ran an entirely separate scheme, soliciting an investment in an online video-dating startup called LUVR by falsely claiming a well-known internet entrepreneur was about to buy the company — a lie that cost his new victim her entire investment. U.S. District Judge Joel H. Slomsky sentenced Wragg in August 2019 to 22 years in federal prison and ordered him to pay $54 million in restitution, covering both the original Mantria fraud and the LUVR scheme he had committed while under indictment for the first one.
+
+Mantria's collapse is a reminder that a compelling cause — carbon-negative charcoal, planned eco-friendly towns — provides no more real backing for an investment than any other story a fraudster tells; the "green" framing only made a standard Ponzi scheme feel more virtuous to the people funding it, right up until the returns being paid out were shown to have never come from anywhere but the next investor's check.`,
+  },
+);
