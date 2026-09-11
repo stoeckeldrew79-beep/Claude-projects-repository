@@ -5704,3 +5704,15 @@ UsNS.push({
     country: 'US',
     state: 'OR',
 });
+
+UsNS.push({
+    name: 'Rodeo Electrical Services Employee Embezzlement (Charity Felch)',
+    slug: 'new-mexico-santa-fe-felch-rodeo-electrical-embezzlement',
+    description: `Charity Felch, 48, of Santa Fe, New Mexico, worked in a financial role at Rodeo Electrical Services and, from roughly May 2017 through April 2020, embezzled at least $385,930.19 from the company by paying herself and her husband with company funds for personal expenses, then covering her tracks with fraudulent financial transactions and fraudulent checks. Court records show Felch also misused another person's identifying information and financial accounts without authorization, and, once the case was underway, repeatedly gave false information about her employment status to Pretrial Services, the U.S. Probation Office, and the court itself. She pleaded guilty to five counts of bank fraud, one count of aggravated identity theft, and one count of access device fraud, and a federal judge sentenced her to 111 months — more than nine years — in prison followed by five years of supervised release, ordering her to pay the full $385,930.19 back in restitution to Rodeo Electrical Services. The FBI investigated the case, which the U.S. Attorney's Office for the District of New Mexico announced in 2026. Small and mid-sized businesses that give one employee ongoing control over both bookkeeping and check-writing are advised to require a second signature or approval on checks and outgoing payments above a set threshold, have an owner or outside accountant periodically reconcile bank statements directly against invoices and payroll rather than relying on the same employee's own reports, and treat resistance to that kind of routine, independent review as a warning sign rather than simple friction.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'medium',
+    sources: ["FBI", "U.S. Attorney's Office for the District of New Mexico", 'KRQE'],
+    sourceUrl: 'https://www.krqe.com/news/crime/santa-fe-woman-sentenced-for-embezzling-385k-from-electrical-company/',
+    country: 'US',
+    state: 'NM',
+});
