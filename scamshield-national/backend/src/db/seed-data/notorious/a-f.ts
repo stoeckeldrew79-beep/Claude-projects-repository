@@ -7204,3 +7204,22 @@ The FTC sued Vemma, Boreyko, and top affiliates Tom and Bethany Alkazin in the U
 Vemma's case is a reminder that a pyramid scheme doesn't need to hide behind a fake product to functionally be one — the FTC's complaint didn't dispute that Vemma's drinks were real, only that almost nobody outside the compensation plan was actually buying them. The giveaway regulators point to again and again, in Vemma's case as in similar MLM actions before and since, is whether a participant's own required purchases are what's actually generating the "sales" being used to calculate their commissions.`,
   },
 );
+
+NotoriousAF.push(
+  {
+    title: 'Ferdinand Waldo Demara: The Great Impostor Who Talked His Way Into a Warship\'s Operating Room',
+    slug: 'ferdinand-demara-the-great-impostor',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://en.wikipedia.org/wiki/Ferdinand_Waldo_Demara',
+    body: `Ferdinand Waldo Demara Jr. never forged a single financial document to make himself rich. His fraud was simpler and, in its way, more audacious: he simply told people he was someone else — usually someone with credentials he did not have — and then talked, bluffed, and studied his way into performing the job anyway. Over roughly two decades, Demara impersonated a psychology professor, a civil engineer, a sheriff's deputy, a prison assistant warden, a cancer researcher, a Benedictine monk, and, most famously, a Royal Canadian Navy surgeon — sometimes well enough that the institutions he fooled never caught him at all.
+
+His best-documented impersonation began in 1951, when Demara assumed the identity of a real Canadian physician named Dr. Joseph C. Cyr, having earlier borrowed and never returned Cyr's professional credentials. Using Cyr's name and papers, Demara joined the Royal Canadian Navy as a surgeon-lieutenant and was assigned to the destroyer HMCS Cayuga during the Korean War. When wounded Korean soldiers were brought aboard with serious combat injuries, including at least one requiring major chest surgery, Demara — who had no medical training beyond what he had read — reportedly shut himself in his quarters with a textbook, then emerged and performed the operations. His patients survived. The Navy recommended him for a commendation for battlefield medical bravery, which is what finally exposed him: the paperwork surfaced questions about "Dr. Cyr" that the real Joseph Cyr, still in Canada, could not explain.
+
+That was not an isolated stunt. Under other assumed names, Demara taught psychology as dean of a Pennsylvania college's School of Philosophy and published a book on child-rearing under a borrowed doctorate; founded and briefly ran a Christian Brothers college in Maine that was later chartered by the state; and worked, at various points, as a hospital orderly, an editor, and a teacher — talking his way into positions that ordinarily required licenses, degrees, or backgrounds he simply invented on the spot, then relying on a genuinely sharp memory and an outsized ability to project competence to stay ahead of anyone who might check.
+
+What eventually made Demara impossible to keep hiding was fame rather than law enforcement. A January 1952 LIFE magazine profile of "the Great Impostor" ran his photograph nationally, and old acquaintances and former employers began recognizing him at his newest post each time the story recirculated, forcing him to move on again and again. He did serve real prison time — 18 months in a Naval disciplinary barracks for an earlier desertion under a different alias, and a separate six-month sentence tied to one of his forged-credential teaching jobs — but most of his impersonations ended not in criminal charges but simply in quiet dismissal once someone worked out who he actually was.
+
+Demara's story became a bestselling 1960 book by Robert Crichton and a 1961 film starring Tony Curtis, and later inspired television characters from M*A*S*H to The Pretender. He spent his final years working, under his own name, as a chaplain at a hospital in Anaheim, California, counseling patients until his death in 1982 — a legitimate calling, colleagues there said, that he was good at. His case is a reminder that credential fraud does not require forging a diploma or hacking a database; for most of the 20th century, it required only confidence, a good memory, and institutions willing to take a compelling résumé at its word rather than verify it against the people and schools it claimed to come from.`,
+  },
+);
