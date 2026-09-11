@@ -3466,6 +3466,10 @@ The pattern both cases expose matters well beyond these two companies: a "people
     slug: "legends-hospitality-2024-2025-data-breach-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "legends-hospitality-2024-2025-data-breach"],
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Yankee_Stadium_001.JPG?width=1200",
+    coverImageCredit: "Photo: Gryffindor, CC BY-SA 3.0, via Wikimedia Commons — Yankee Stadium, one of the venues where Legends Hospitality runs concessions and retail operations",
+    coverImagePosition: 50,
+    // representative photo — one of the venues Legends operates at, not Legends' own offices; replace with an exact match if found
     sourceUrl: "https://www.classaction.org/news/812900-legends-hospitality-settlement-ends-class-action-lawsuit-over-data-breaches",
     body: `Legends Hospitality is not a company most people can name, even though many have handed it a credit card without realizing it. Co-founded in 2008 by the ownership groups behind the New York Yankees and Dallas Cowboys, Legends runs the food and beverage stands, premium club service, retail merchandise, and ticket-sales operations behind the scenes at more than 300 stadiums, arenas, and attractions, including SoFi Stadium, Allegiant Stadium, AT&T Stadium, Yankee Stadium, and the One World Observatory — a roughly $2 billion-a-year business built on being invisible to the fans and employees who interact with its systems every game day.
 
