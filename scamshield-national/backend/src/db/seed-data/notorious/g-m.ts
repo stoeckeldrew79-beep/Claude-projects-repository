@@ -8370,6 +8370,10 @@ NotoriousGM.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2026/03/air-ai-its-owners-will-be-banned-marketing-business-opportunities-settle-ftc-charges-company-misled',
+    // representative photo — replace with an exact match if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/FTC_headquarters.jpg?width=1200',
+    coverImageCredit: 'Photo: Postdlf, CC BY-SA 3.0, via Wikimedia Commons — FTC headquarters, which brought the Air AI case',
+    coverImagePosition: 50,
     body: `Caleb Maddix built a public profile as a teenage "success" influencer and business coach years before he turned 22 — a persona built on the promise that hustle and confidence could substitute for experience. That persona became the public face of Air AI, a company he ran alongside Ryan O'Donnell and Thomas Lancer that pitched itself as a shortcut into the artificial-intelligence boom: an "AI-driven business opportunity" that, the trio told prospective buyers, could earn a small business owner as much as $250,000.
 
 According to a Federal Trade Commission complaint filed in August 2025 in the U.S. District Court for the District of Arizona, that promise was the hook for a sales operation running since at least February 2023. Air AI Technologies, Inc. and five affiliated companies — doing business under names including Air.ai and Scale 13 — charged small-business owners $25,000 to $100,000 in upfront license fees for what the FTC described as AI-powered software bundled with business-coaching support. In practice, the complaint alleges, the software was frequently glitchy or simply unavailable, the earnings claims bore no resemblance to what typical buyers actually made, and the "buy-back" and refund guarantees the company used to close reluctant buyers were misrepresented and rarely honored when customers tried to invoke them.
@@ -8387,6 +8391,10 @@ NotoriousGM.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/usao-wdtn/pr/memphis-woman-sentenced-8-years-federal-prison-defrauding-department-veterans-affairs',
+    // representative photo — replace with an exact match if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Barbershop_haircutting_session_(51210140096).jpg?width=1200',
+    coverImageCredit: 'Photo: Hair Spies, CC BY 2.0, via Wikimedia Commons — representative barbershop photo, not the actual school',
+    coverImagePosition: 50,
     body: `Quannah Fields Harris ran Last Minute Cuts School of Barbering and Cosmetology out of a storefront on South Third Street in downtown Memphis from 2014 to 2019, a state-licensed vocational school that gave her access to one of the federal government's most generous education benefits: the Post-9/11 GI Bill, which pays a veteran's tuition directly to the school and a separate monthly housing stipend to the veteran.
 
 According to the U.S. Attorney's Office for the Western District of Tennessee, Harris turned that arrangement into a years-long fraud by enrolling veterans who barely attended class, if they attended at all. Prosecutors said the school certified attendance and academic progress to the Department of Veterans Affairs for students who took few or no classes, sat no exams, and never earned the state barbering or cosmetology license the program was supposed to lead to — while the VA kept sending tuition payments to the school and housing stipends to the "students" on the strength of Harris's false paperwork. The scheme let Harris collect VA tuition funds for instruction that was, in large part, never actually delivered, ultimately costing the department more than $2.9 million.
@@ -8404,6 +8412,10 @@ NotoriousGM.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26596',
+    // representative photo — replace with an exact match if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/U.S._Securities_and_Exchange_Commission_headquarters.JPG?width=1200',
+    coverImageCredit: 'Photo: AgnosticPreachersKid, CC BY-SA 3.0, via Wikimedia Commons — SEC headquarters, which filed the complaint',
+    coverImagePosition: 50,
     body: `Note: This entry describes a pending civil fraud complaint and a separate pending criminal indictment. The SEC's complaint and the mail fraud indictment against Brandon Mendenhall lay out the government's allegations only — neither defendant has been found liable or guilty by a court as of this writing, and Mendenhall is entitled to a presumption of innocence in the criminal case.
 
 Brandon "Dutch" Mendenhall and Amy Vaughn built RAD Diversified REIT into a fast-growing draw for small investors, marketing the Port Richey, Florida-based nontraded real estate investment trust through aggressive social media campaigns, in-person seminars, and appeals to Christian values and patriotism, alongside a promise that ordinary people could get into commercial real estate the way institutional investors do. Between November 2019 and March 2024, according to a Securities and Exchange Commission complaint filed July 29, 2026 in the U.S. District Court for the Middle District of Florida, the pair raised at least $152 million from more than 5,500 retail investors — many of whom, the SEC alleges, were encouraged to fund their investment by taking out home-equity loans, draining retirement accounts, cashing in life insurance policies, or charging the purchase to credit cards.
