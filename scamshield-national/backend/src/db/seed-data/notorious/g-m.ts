@@ -7047,6 +7047,9 @@ NotoriousGM.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/usao-cdca/pr/former-treasurer-orange-county-high-school-football-booster-club-arrested-allegedly',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Ronald_Reagan_Federal_Building_and_Courthouse_at_411_West_Fourth_Street,_Santa_Ana,_California_LCCN2011631317.tif?width=1200',
+    coverImageCredit: 'Ronald Reagan Federal Building and Courthouse, Santa Ana, California, by Carol M. Highsmith (public domain, Library of Congress via Wikimedia Commons)',
     body: `Note: Julie Hanway Molina has been arrested and charged by federal prosecutors, but as of this writing she has not been convicted of any crime, and the account below reflects the government's allegations, which she is presumed innocent of unless and until proven otherwise in court.
 
 Julie Hanway Molina, 56, of Aliso Viejo, California, served as treasurer of the Wolverine Football Club, a nonprofit booster club that raises money to support a high school football program in Orange County. According to a federal indictment, that role gave her sole day-to-day control over a bank account that parents, sponsors, and fundraisers trusted to cover the ordinary costs of running a high school team — equipment, travel, banquets — rather than anyone's personal mortgage.
