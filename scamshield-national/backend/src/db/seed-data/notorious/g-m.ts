@@ -5915,6 +5915,9 @@ NotoriousGM.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.sec.state.ma.us/divisions/securities/download/26-02-11-Administrative-Complaint--E-2025-0187-_Final.pdf',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Worcester_Massachusetts_City_Hall_from_Common.jpg?width=1200',
+    coverImageCredit: 'Photo: JoeyBagODonuts, Wikimedia Commons (CC BY-SA 3.0) — Worcester, Massachusetts, where Jose Encarnacion ran his church and the Trinity real estate investment scheme',
     body: `Note: this is a civil administrative complaint. The Massachusetts Securities Division's complaint describes allegations only — Jose Encarnacion has not been criminally charged in connection with this matter, and neither he nor Trinity Estate Investments & Development LLC has been found liable by a hearing officer as of this writing.
 
 Jose Antonio Encarnacion was the senior pastor of Iglesia Cristiana De La Comunidad, a church in Worcester, Massachusetts, when he began raising money in June 2020 through a real estate company he had formed a few months earlier, Trinity Estate Investments & Development LLC, doing business as Trinity Real Estate Investment Group. According to an administrative complaint the Massachusetts Securities Division filed on February 11, 2026, Encarnacion issued promissory notes he called "Investment Verification Contracts," telling investors their money would fund the renovation of specific real estate properties Trinity already owned and that they would be repaid their principal plus interest — in some cases as high as 60 percent — once a project was completed and sold.
