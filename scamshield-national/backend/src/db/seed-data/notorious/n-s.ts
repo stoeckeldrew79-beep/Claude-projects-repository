@@ -4039,6 +4039,9 @@ NotoriousNS.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/usao-ma/pr/thirty-individuals-charged-global-insider-trading-scheme-netting-tens-millions-illicit',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/2017_Moakley_US_Courthouse_from_Central_Wharf.jpg?width=1200',
+    coverImageCredit: 'Beyond My Ken / Wikimedia Commons (CC BY-SA) — John Joseph Moakley U.S. Courthouse, Boston, where the case was charged',
     body: `Note: this case is at the charged stage. The individuals named below have been criminally indicted and civilly charged but not convicted, and are presumed innocent unless and until proven otherwise; the SEC's allegations are civil claims that have not been proven in court. The description below reflects the government's case rather than established facts.
 
 Nicolo Nourafchan spent roughly a decade, from 2013 to 2023, working as a mergers-and-acquisitions associate at a string of prominent law firms, including stints at Sidley Austin, Latham & Watkins, Cleary Gottlieb, and Goodwin Procter. According to a criminal indictment unsealed in May 2026 in the U.S. District Court for the District of Massachusetts and a parallel civil complaint filed by the Securities and Exchange Commission, Nourafchan used that access for something other than legal work: prosecutors allege he repeatedly opened confidential deal files — draft merger agreements, signing checklists, board presentations — for pending M&A transactions he wasn't even staffed on, then fed what he found to a Yale Law School classmate, Robert Yadgarov, and a wider network of relatives, friends, and associates who traded on it ahead of public announcements.
