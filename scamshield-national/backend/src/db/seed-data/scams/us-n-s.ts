@@ -5888,3 +5888,16 @@ UsNS.push({
     isHistorical: true,
     firstRecorded: '2025-10-22',
 });
+
+UsNS.push({
+    name: 'PowerSchool Breach Child Identity Theft and Repeat District Extortion',
+    slug: 'powerschool-breach-child-identity-theft-district-extortion',
+    description: `A hacker exploited a single stolen credential to break into PowerSchool, the student-information system used by thousands of K-12 districts across the U.S. and Canada, stealing records on roughly 60 million students and 10 million teachers — names, phone numbers, Social Security numbers, home addresses, and in many cases medical histories and other health data tied to individual students. PowerSchool received a $2.85 million Bitcoin ransom demand on December 28, 2024 and paid it, believing the deal would keep the data from being released, but that did not end the exposure: by May 2025, the same stolen dataset was being used to extort individual school districts directly, with attackers sending district administrators samples of their own students' records as proof the threat was real and demanding a second, separate payment despite PowerSchool's ransom already having been paid. Matthew D. Lane, a then-19-year-old Assumption University student from Sterling, Massachusetts, pleaded guilty to cyber extortion conspiracy, cyber extortion, unauthorized access to protected computers, and aggravated identity theft, admitting he also tried to extort a U.S. telecommunications company for $200,000 using a separate stolen dataset; a federal judge sentenced him on October 14, 2025 to four years in prison, three years of supervised release, a $25,000 fine, and $14,075,540.58 in restitution. Because a child's Social Security number has no credit history attached to it, stolen student data like this can be used to open fraudulent credit accounts that go undetected for years — often not discovered until the child applies for their first credit card, car loan, or student loan as a young adult. South Carolina's Department of Consumer Affairs, whose alert warned that "scam artists follow the headlines," urged parents statewide to contact Experian, TransUnion, and Equifax directly to check whether a credit file already exists in their child's name — since minors typically shouldn't have one at all — and to place a free protective consumer freeze on that file if their state offers it. Parents of any student whose school district uses PowerSchool or a similar system should take that step regardless of which state they live in, watch for follow-up phishing emails or calls that cite real details from their child's school record to sound legitimate, and treat any unsolicited message referencing the breach as a reason to verify independently through the school district or PowerSchool's own notifications rather than by replying or clicking a link.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'high',
+    sources: ['U.S. Department of Justice', 'South Carolina Department of Consumer Affairs'],
+    sourceUrl: 'https://www.justice.gov/usao-ma/pr/worcester-college-student-sentenced-four-years-prison-cyber-extortions',
+    country: 'US',
+    isHistorical: true,
+    firstRecorded: '2024-12-28',
+});
