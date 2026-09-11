@@ -13808,3 +13808,16 @@ International.push(
     country: 'JE',
   },
 );
+
+International.push(
+  {
+    name: 'Jersey Fake JFSC Executive Email Impersonation Scam',
+    slug: 'jersey-fake-jfsc-executive-email-scam',
+    description: `The Jersey Financial Services Commission (JFSC) warned local businesses in October 2025 about scam emails sent from the address kerry.petulla@mail-jerseyfsc.org, impersonating Kerry Petulla, a genuine JFSC executive director. The fraudulent emails falsely claimed that a "preliminary reference" had been made against the recipient business as part of an internal JFSC regulatory assessment, then urged the business to "confirm contact details" for what it called secure communication — a pretext designed to draw the recipient into further correspondence a scammer could exploit for money or sensitive business information. The JFSC stated plainly: "This is a scam. The impersonating email address and emails sent from it are not in any way connected to the JFSC or Kerry Petulla," and advised anyone who received such a message not to respond. The commission told businesses to check that any genuine JFSC email comes only from the official @jerseyfsc.org domain — never a lookalike domain such as mail-jerseyfsc.org — to rely only on its official website at www.jerseyfsc.org, and to call the JFSC directly on +44 (0)1534 822000, or its confidential whistleblowing line on +44 (0)1534 887557, to verify whether any message claiming to be from the commission is genuine.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Jersey Financial Services Commission (JFSC)', 'Bailiwick Express'],
+    sourceUrl: 'https://www.bailiwickexpress.com/news/fraud-warning-as-scammers-impersonate-financial-services-regulator/',
+    country: 'JE',
+  },
+);
