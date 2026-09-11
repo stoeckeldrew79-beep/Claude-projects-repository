@@ -3916,6 +3916,10 @@ Anyone having trouble accessing funds on a Green Dot-issued card, or any other p
     slug: "google-admob-coppa-childrens-privacy-settlement-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "google-admob-coppa-settlement"],
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Kindergarten_iPad.jpg?width=1200",
+    coverImageCredit: "Photo: Oakknollschool, CC BY-SA 3.0, via Wikimedia Commons — a child using a tablet app",
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: "https://topclassactions.com/lawsuit-settlements/open-lawsuit-settlements/8-25m-google-play-childrens-privacy-class-action-settlement/",
     body: `A.B., et al. v. Google LLC, et al., filed in the U.S. District Court for the Northern District of California (Case No. 5:23-cv-03101), accused Google and its advertising subsidiary AdMob of violating the Children's Online Privacy Protection Act (COPPA) through the very program Google built to reassure parents their kids' apps were safe. Google Play's "Designed for Families" program let app developers opt in to a section of the store aimed at kids, but required them to self-certify COPPA compliance and use an advertising software kit configured to disable behavioral tracking for child-directed content. According to the complaint, that safeguard didn't work the way it was supposed to: even when developers certified their apps as compliant and believed tracking was switched off, AdMob's embedded software kept collecting device identifiers, IP addresses, and location data from children under 13 who played "Designed for Families" games, and that data was then used to help build advertising profiles and deliver targeted ads to kids — the exact outcome COPPA's parental-consent requirement exists to prevent. The class period covers Google Play app use from April 1, 2015 onward, and outside estimates based on the "Designed for Families" program's reach put the number of potentially affected children in the millions.
 
