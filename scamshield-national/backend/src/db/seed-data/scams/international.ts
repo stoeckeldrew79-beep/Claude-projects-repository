@@ -12847,3 +12847,16 @@ International.push(
     country: 'AW',
   },
 );
+
+International.push(
+  {
+    name: 'Aruba Online "Task Scam" Warning from FIU-Aruba',
+    slug: 'aruba-fiu-online-task-scam-warning',
+    description: `The Financial Intelligence Unit Aruba (FIU-Aruba) issued a public alert on July 28, 2026, warning residents about "task scams," a form of online fraud in which people are unexpectedly contacted through WhatsApp, Telegram, SMS, or social media with an offer to earn easy money from home by completing simple digital tasks, such as liking videos, rating products, or promoting webshops. The scammers, who sometimes pose as representatives of well-known companies or employment agencies, initially let victims withdraw small amounts of real money to build confidence, then move them onto a platform displaying a rising balance of "commissions" that is entirely fabricated. Once the victim tries to withdraw a larger sum, the operators start demanding that the victim deposit money of their own — described as needed to unlock higher-paying tasks, cover a supposed negative balance, reach a higher account "level," or pay a fee to release previously earned funds — with the requested amounts increasing each time, most often demanded in cryptocurrency but sometimes through ordinary bank transfers or payment apps. FIU-Aruba stressed that the account balances shown to victims throughout the process are never real money, and that when a victim tries to stop participating or insists on a withdrawal, the scammers simply invent new fees, taxes, or conditions rather than ever paying out. The agency's warning included a direct line quoted in local coverage: "A legitimate employer never asks an employee to deposit their own money to receive salary or commission." FIU-Aruba urged anyone caught up in a task scam to stop paying immediately, cut off contact with the recruiter, never hand over identification documents, banking details, passwords, or crypto-wallet keys, preserve all chat logs and transaction records, and report the fraud to their bank and to the Police Force of Aruba — while also warning against a common follow-on scam in which so-called "recovery" services falsely promise to retrieve money lost to the original scheme for an upfront fee.`,
+    categorySlug: 'job-task-scams',
+    alertLevel: 'high',
+    sources: ['Financial Intelligence Unit Aruba (FIU-Aruba)', 'EA News Aruba'],
+    sourceUrl: 'https://www.eanews.com/fiu-aruba-alerts-against-online-task-scams-never-pay-money-to-be-able-to-work/',
+    country: 'AW',
+  },
+);
