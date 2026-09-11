@@ -5127,3 +5127,20 @@ The case took an unusual legal path to a conviction. The Ontario Court of Justic
 The Peblik case is a useful illustration of how a crypto pitch can borrow legitimacy from something tangible and checkable — a real, named, physical mine — precisely because that kind of specific detail feels harder to fabricate than a vague promise of technological innovation. It wasn't. A mine's existence says nothing about whether the company citing it as collateral actually owns any stake in it, and that ownership claim is exactly the kind of fact that can be verified against public land-title and corporate records before money changes hands, rather than taken on faith because the underlying asset happens to be real.`,
   },
 );
+
+NotoriousNS.push(
+  {
+    title: 'Ram Sumiran Pal and the Speak Asia "Paid Survey" Ponzi Scheme',
+    slug: 'ram-sumiran-pal-speak-asia-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://en.wikipedia.org/wiki/Speak_Asia_scam',
+    body: `Speak Asia Online launched in India in 2010 with a pitch built around something that sounded almost mundane: pay an annual "panellist" subscription fee of roughly ₹5,000 to ₹11,000, fill out a handful of online consumer surveys each week, and collect a promised monthly payout of ₹4,000 to ₹8,000. Framing the payout as compensation for work, rather than a return on an investment, made the arrangement feel more like a part-time job than a speculative bet. An additional commission for recruiting new panellists layered a pyramid structure on top of the survey pitch, and word of mouth about people who really were collecting fat monthly checks helped the panellist base grow to an eventual 2.4 million people across India.
+
+The surveys themselves were largely theater. Investigators later found that Speak Asia — nominally a Singapore-registered company originally incorporated in 2006 as Haren Technology Pte Ltd — conducted no meaningful survey business of any genuine commercial value; the "market research" existed mainly to give the monthly payouts a plausible cover story, while the money actually funding those payouts came from the subscription fees of the next wave of panellists signing up behind them, a classic Ponzi mechanism dressed as an online market-research startup. India's Enforcement Directorate later found that roughly ₹700 crore — about $73 million — of panellist money had been moved out of the country through the company's Indian master franchise, Haren Ventures.
+
+Complaints about delayed payments and evaporating survey work began piling up through 2011, and the scheme collapsed the following year under scrutiny from three separate Indian authorities working in parallel: the Reserve Bank of India, the Enforcement Directorate, and the Serious Fraud Investigation Office, alongside criminal investigations by the Mumbai and Delhi police Economic Offences Wings. Ram Sumiran Pal, identified as the scheme's primary promoter, was arrested in November 2013; associate Renu Sharma, a company director, was arrested in October 2016, part of a string of arrests that continued for years after the scheme's collapse as investigators worked through its layered structure of franchises and directors. Total losses to Indian panellists were estimated at roughly ₹2,200 to ₹2,276 crore — between $230 million and $240 million.
+
+Speak Asia's survey framing is what set it apart from a typical Ponzi pitch: asking panellists to fill out forms in exchange for payment made the arrangement feel like modest compensation for real work rather than a speculative investment promising outsized returns, which is exactly the kind of pitch that discourages the questions people would normally ask before handing money to a stranger — like whether the company doing the "hiring" has any genuine revenue behind it, or whether, as investigators ultimately found here, the surveys exist mainly to give a Ponzi scheme's payouts a plausible cover story.`,
+  },
+);
