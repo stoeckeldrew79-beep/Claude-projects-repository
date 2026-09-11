@@ -6908,6 +6908,10 @@ The practical lesson extends well beyond one car wash chain: before signing up f
     slug: "fbcs-debt-collector-2024-data-breach-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "fbcs-2024-data-breach"],
+    // representative photo — replace with an exact match if found
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Data_Security_Breach_(29723649810).jpg?width=1200",
+    coverImageCredit: "Blogtrepreneur / Wikimedia Commons / CC BY 2.0",
+    coverImagePosition: 50,
     sourceUrl: "https://www.bankingdive.com/news/truist-customer-data-exposed-in-fbcs-third-party-breach/729234/",
     body: `Financial Business and Consumer Solutions, known as FBCS, is a debt-collection agency most of its victims had never heard of until a breach notification letter arrived — because FBCS doesn't deal with the public directly. It's a vendor: banks, telecom companies, healthcare providers, and other creditors hire agencies like FBCS behind the scenes to chase down unpaid accounts, handing over exactly the kind of personal and financial detail needed to identify a debtor and collect from them. In February 2024, FBCS discovered that unauthorized access to its network between February 14 and 26 had exposed that data — and what started as a mid-sized collector's breach notice kept growing for months, eventually reaching an estimated 4.2 million people across a long list of the collector's corporate clients, including Truist Bank and Comcast.
 
