@@ -7728,3 +7728,19 @@ Beam later wrote a memoir, "HealthSouth: The Wagon to Disaster," and became a pa
   },
 );
 
+NotoriousAF.push(
+  {
+    title: 'Betty Vinson: The WorldCom Accountant Who Kept Falsifying the Books While Hoping to Be Fired',
+    slug: 'betty-vinson-worldcom-accounting-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-19776',
+    body: `Betty Vinson spent nearly two decades as an accountant at WorldCom, rising to director of management reporting, before she became one of the central figures in the roughly $11 billion accounting fraud that sank the telecommunications giant into the largest corporate bankruptcy in U.S. history at the time. Unlike WorldCom's top executives, Vinson wasn't accused of designing the scheme — prosecutors and the SEC said she carried it out at the direction of others, reclassifying billions of dollars in ordinary operating expenses as capital expenditures so the company's reported earnings would keep matching the numbers Wall Street expected, even as WorldCom's real business slowed.
+
+Vinson later testified that she knew the entries were wrong from the start and twice tried to resign rather than keep making them. At an October 2000 meeting, she and fellow accountant Troy Normand told CFO Scott Sullivan they wanted out; according to Vinson's account, Sullivan talked them out of it with an analogy that stuck with investigators for years afterward — "We have planes in the air. Let's get the planes landed. Once they've landed, if you still want to leave, then leave" — and both stayed, making the same kind of fraudulent adjustments for roughly another year and a half rather than force the confrontation their resignations would have caused.
+
+The fraud finally unraveled in June 2002, when WorldCom's internal audit department uncovered the improperly capitalized expenses. Vinson pleaded guilty that October to conspiracy and securities fraud, becoming one of the government's key cooperating witnesses, and her testimony at CEO Bernard Ebbers's 2005 criminal trial — describing the pressure she said came down from Sullivan and, through him, from Ebbers — helped secure Ebbers's conviction and 25-year sentence. On August 5, 2005, a federal judge sentenced Vinson herself to five months in prison followed by five months of home confinement, a sentence far below what she could otherwise have faced, in recognition of her cooperation. The SEC separately barred her from practicing as an accountant before the agency.
+
+Vinson's case became one of the most closely studied examples of how an ordinary employee gets drawn into a fraud she recognized as wrong from the outset: not through greed, in her own telling, but through a boss's calm insistence that the false entries were only temporary, that resigning would solve nothing, and that going along for one more quarter was easier than being the one who forced the plane to crash. Knowing something is fraudulent and doing it anyway because refusing felt harder is a common thread through cases on this list, and Vinson's is one of the clearest illustrations of how that reasoning plays out from the inside, quarter after quarter, until an auditor outside the chain of command finally looks at the numbers and asks the question no one inside it was willing to ask.`,
+  },
+);
