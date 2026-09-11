@@ -7958,6 +7958,10 @@ NotoriousAF.push(
     slug: 'david-myers-worldcom-controller-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Thurgood_Marshall_United_States_Courthouse_008.jpg?width=1200',
+    coverImageCredit: 'Photo: Kidfly182, CC BY 4.0, via Wikimedia Commons — Thurgood Marshall U.S. Courthouse, Manhattan',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     body: `David Myers spent years climbing the ranks at WorldCom before becoming the company's controller — the executive responsible for its day-to-day accounting — during the same period that CFO Scott Sullivan and other senior finance staff were hiding a widening gap between the telecom giant's real financial performance and the earnings Wall Street expected it to report.
 
 Beginning in 2000, according to federal prosecutors and the SEC, Myers directed subordinates, including accountants Betty Vinson and Troy Normand, to reclassify billions of dollars of ordinary "line cost" expenses — payments WorldCom was already making to lease network capacity from other carriers — as capital expenditures instead. Capital spending gets depreciated over years rather than counted against a single quarter's earnings, so booking routine operating costs that way let WorldCom report profits its actual cash flow didn't support. Myers signed off on the entries and passed the pressure down the chain, telling Vinson and Normand to keep making the adjustments even after they came to him directly and said they believed what they were being asked to do was wrong.
@@ -7975,6 +7979,10 @@ NotoriousAF.push(
     slug: 'evangelos-drosos-bergen-county-accountant-ponzi-scheme',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Glen_Rock,_NJ_(557511189).jpg?width=1200',
+    coverImageCredit: 'Photo: Beatrice Murch, CC BY-SA 2.0, via Wikimedia Commons — Glen Rock, New Jersey',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     body: `Evangelos Drosos built his career as a working accountant in Glen Rock, New Jersey — the kind of credentialed, familiar professional whose word people take on faith when it comes to their money. Starting in 2013, according to the U.S. Attorney's Office for the District of New Jersey, Drosos used several businesses he controlled to solicit funds from clients and other investors, telling them he would manage their money through legitimate investment strategies.
 
 He didn't. Prosecutors say Drosos never actually invested the money as described, instead commingling client deposits across his various accounts and using the cash to make payments to earlier investors that looked like investment returns — the defining structure of a Ponzi scheme — while diverting a substantial share into his own life, including vacations, a luxury vehicle, and real estate. Over roughly twelve years, Drosos caused victims to send him more than $10 million.
@@ -7994,6 +8002,10 @@ NotoriousAF.push(
     slug: 'anna-amponsah-ghana-romance-fraud-ring',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Columbus-ohio-skyline-panorama.jpg?width=1200',
+    coverImageCredit: 'Photo: Derek Jensen (Tysto), public domain, via Wikimedia Commons — Columbus, Ohio skyline',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     body: `From roughly July 2024 to April 2026, a network of conspirators operating between Ghana and Columbus, Ohio, ran a coordinated romance-fraud operation aimed at older Americans, according to the U.S. Attorney's Office for the Northern District of Ohio. Members of the ring built fake identities on dating websites and social media, cultivated close, often romantic relationships with victims over weeks or months, and then used fabricated stories — emergencies, business opportunities, the kinds of crises a trusted partner is supposed to help with — to get those victims to wire money to accounts the conspirators controlled.
 
 Anna Amponsah, 35, of Columbus, was one of the defendants charged in the case, United States v. Otuo Amponsah, et al. She pleaded guilty to conspiracy to commit wire fraud and money laundering conspiracy, admitting her role in helping move and launder the proceeds victims sent in — the less visible half of a romance scam, where money wired by a heartbroken victim has to be converted, routed through accounts, and dispersed quickly enough to stay ahead of a bank's fraud alerts or a victim's second thoughts.
@@ -8013,6 +8025,10 @@ NotoriousAF.push(
     slug: 'cheryl-campos-vfw-quartermaster-embezzlement',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Quartz_crystals_(12250418364).jpg?width=1200',
+    coverImageCredit: 'Photo: James E. Petts, CC BY-SA 2.0, via Wikimedia Commons — quartz crystals',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     body: `Cheryl Elizabeth Campos, a U.S. Army veteran living in Dayton, Oregon, served as quartermaster of a Department of Oregon Veterans of Foreign Wars post — the officer trusted with the organization's bank accounts and books. It's an unpaid, honor-system role that exists because VFW posts, like most small nonprofits and civic organizations, run on the assumption that a fellow member entrusted with the checkbook is handling it in good faith, with minimal outside auditing to check that assumption.
 
 That trust was misplaced. According to the U.S. Attorney's Office for the District of Oregon, Campos used her access as quartermaster to transfer more than $1.7 million from the VFW's accounts into her own personal accounts between January 2022 and June 2024, then falsified financial documents, bank statements, and accounting records to keep the missing money from showing up when anyone looked at the books.
@@ -8023,5 +8039,33 @@ Campos pleaded guilty to wire fraud, and on July 8, 2025, U.S. District Judge Am
 
 Her case is a reminder that the organizations most vulnerable to embezzlement are often the ones that can least afford it: a local VFW post, unlike a large company, typically has no separate finance department, no external auditor, and no one whose job is exclusively to double-check the treasurer's math — just members who trust that the person handling the money is one of their own, and therefore above suspicion. That trust is exactly the control an embezzler in a position like Campos's is counting on.`,
     sourceUrl: 'https://www.justice.gov/usao-or/pr/dayton-woman-sentenced-federal-prison-defrauding-veterans-organization',
+  },
+{
+    title: 'Adam Gentile: The Office Manager Who Ran the Same $7.8 Million Payroll Scam at Two Different Medical Practices',
+    slug: 'adam-gentile-medical-practice-payroll-embezzlement',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    body: `Adam Gentile was hired in 2014 as an administrative assistant at a medical practice near Boston and was soon promoted to office manager, a role that gave him sole responsibility for processing the practice's payroll. Starting around 2015 and continuing through November 2020, prosecutors say Gentile used that access to quietly issue himself extra paychecks — sometimes labeling them "bonuses" in the practice's books — funneling roughly $4.5 million out of his employer over five years while the fabricated payments sat disguised among the practice's normal payroll records.
+
+Rather than stop after leaving that job, Gentile took the same playbook to a second employer. Hired in 2021 as office manager at another medical practice, again with sole control over payroll, he ran a nearly identical scheme from April 2021 through May 2024, issuing himself unauthorized payroll payments recorded as bonuses and diverting roughly $3.3 million more. Between the two practices, prosecutors say Gentile used the stolen money to pay down personal credit card balances, fund home improvements on his property in Hudson, Massachusetts, and bankroll a side business — ordinary-looking spending that never showed up as suspicious because it wasn't running through the victim companies' own accounts, just money that had already left them.
+
+Federal prosecutors in Massachusetts charged Gentile in December 2025 with wire fraud, and he pleaded guilty in early 2026 to three counts. On August 27, 2026, U.S. District Judge Margaret R. Guzman sentenced him to four years in federal prison followed by four years of supervised release, ordering him to pay restitution of roughly $3.8 million and $3.3 million to his two former employers and to forfeit $7.8 million in ill-gotten gains — the FBI's Boston field office investigated the case alongside local police.
+
+Gentile's case is a reminder that a single point of failure doesn't stop being dangerous just because it moves to a new address: giving one employee sole, unchecked control over payroll — with no second signature, no outside review of who's actually on the payroll — is a control gap that follows whoever holds the job, not the company that first failed to catch it. Two different medical practices, years apart, handed the same kind of unsupervised authority to the same person and got the same result both times.`,
+    sourceUrl: 'https://www.justice.gov/usao-ma/pr/sudbury-man-sentenced-four-years-prison-78-million-embezzlement-scheme',
+  },
+{
+    title: 'David Thomas Gilchrist: The Texas Attorney Accused of Forging Deeds and Framing an Innocent Woman to Hide His Ponzi Scheme',
+    slug: 'david-gilchrist-grand-prairie-attorney-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    body: `David Thomas Gilchrist had been a licensed Texas attorney since 1983 when, according to federal prosecutors, he began pitching investors in Grand Prairie on an opportunity built around property tax liens — buying up delinquent tax debt secured by real estate, then collecting steep statutory interest or the underlying property if the debt went unpaid. Between April 2023 and January 2026, prosecutors say Gilchrist collected approximately $1.45 million from investors this way (the SEC's parallel civil case puts the figure at more than $1.85 million), returning only around $789,000 — a shortfall prosecutors allege he papered over using forged quitclaim deeds bearing unauthorized notary stamps and signatures, making liens and properties that didn't actually back the investments look real on paper.
+
+What makes the case unusual is what prosecutors say Gilchrist did once the SEC and investors started asking questions. Rather than simply stop, he allegedly built a cover story around a real person who had nothing to do with the scheme: a green-card holder identified in court filings by the initials R.A., whom Gilchrist falsely cast as an undocumented intermediary supposedly central to the transactions — a fabrication prosecutors say he also fed directly to federal regulators investigating him. When that story risked unraveling, prosecutors allege Gilchrist told R.A.'s husband that the FBI was looking for him and pressured the couple to leave the country on a "vacation" to Mexico rather than be available to speak with investigators.
+
+Gilchrist was arrested on August 31, 2026, and made his initial court appearance on September 4, 2026, charged by criminal complaint with wire fraud, aggravated identity theft, and witness tampering — charges that, if he is convicted, could carry up to 20 years on the fraud count alone, a mandatory consecutive two years for aggravated identity theft, and up to 20 more for witness tampering. "Gilchrist allegedly forged documents, lied to federal regulators and tried to intimidate witnesses to cover his tracks," said U.S. Attorney Ryan Raybould. As of this writing, Gilchrist has not been convicted, and the charges against him remain allegations that he is entitled to contest in court.
+
+If the allegations hold up, Gilchrist's case illustrates a pattern investigators see again and again once a fraud starts to be discovered: the cover-up — forged records, lies to regulators, and pressure on a bystander to disappear — often ends up generating criminal exposure just as serious as the original scheme, layering identity theft and obstruction charges on top of whatever the underlying investment fraud would have carried on its own.`,
+    sourceUrl: 'https://www.justice.gov/usao-ndtx/pr/grand-prairie-attorney-arrested-ponzi-scheme-and-obstructing-sec-investigation',
   },
 );
