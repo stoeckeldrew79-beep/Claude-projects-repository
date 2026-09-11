@@ -7403,6 +7403,10 @@ Because the exposed data includes Social Security numbers, driver's license numb
     slug: "connectoncall-2024-data-breach-settlement-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "connectoncall-2024-data-breach-settlement"],
+    // representative photo — replace with an exact match if found
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Hauppauge_Palace_Diner.jpg?width=1200",
+    coverImageCredit: "Photo: Kenneth C. Zirkel / Wikimedia Commons / CC BY-SA 4.0 — Hauppauge, New York, where ConnectOnCall is headquartered",
+    coverImagePosition: 50,
     sourceUrl: "https://www.classaction.org/news/4.95m-connectoncall-class-action-settlement-resolves-lawsuit-over-2024-data-breach",
     body: `ConnectOnCall.com, LLC operates an after-hours call-answering and secure-messaging platform that medical practices and on-call physicians use to route patient calls and communications outside normal office hours. In a breach notification filed with the U.S. Department of Health and Human Services, the company disclosed that an unknown third party had access to its platform and certain data within it between February 16 and May 12, 2024 — nearly three months — before the intrusion was discovered on May 12, 2024. A forensic investigation found the exposed information included patients' names and phone numbers, and, depending on the individual, may also have included dates of birth, Social Security numbers, medical record numbers, and health, treatment, and prescription information exchanged in provider-patient communications routed through the platform. ConnectOnCall reported the breach to HHS as affecting 914,138 patients, but notification letters didn't go out until December 11, 2024 — roughly seven months after the intrusion was discovered and closer to ten months after it began.
 
