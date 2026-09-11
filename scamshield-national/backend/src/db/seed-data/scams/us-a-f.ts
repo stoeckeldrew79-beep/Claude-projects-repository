@@ -6895,3 +6895,17 @@ UsAF.push({
     isHistorical: true,
     firstRecorded: '2024-10-18',
 });
+
+UsAF.push({
+    name: 'Mid-America Apartment Communities (MAA) Hidden Rental Fee Lawsuit',
+    slug: 'dc-maa-mid-america-apartment-communities-hidden-fees-lawsuit',
+    description: `District of Columbia Attorney General Brian Schwalb sued Mid-America Apartment Communities, Inc. and two subsidiaries — Mid-America Apartments, L.P. and Post 1499 Massachusetts, LLC — on April 27, 2026, alleging the operator of a 269-unit building at 1499 Massachusetts Avenue NW advertised "starting at" rental prices that no prospective tenant could actually lease at, because the real cost included mandatory add-ons the ads never mentioned. According to the complaint, MAA charged a $385 fee just to process a lease application, layered on an $18 monthly "community fee" billed as covering property taxes, insurance, and common-area maintenance, and imposed a $350 "roommate release fee" on tenants who wanted to remove a departing roommate from the lease before it ended — none of it disclosed until late in the leasing process, and some of it, the office says, not disclosed at all until late 2025 or into 2026. "The rent you see advertised should be the rent you pay," Schwalb said in announcing the suit. "MAA has been nickel-and-diming DC tenants with illegal hidden fees." The lawsuit alleges the practices violate the District's Consumer Protection Procedures Act and seeks restitution for affected tenants, civil penalties, and an order barring MAA from continuing to advertise incomplete rental prices. Renters comparing apartments are advised to ask for the full monthly cost — including any recurring "community," amenity, or admin fees — in writing before applying, to get the terms for ending a shared lease early in writing as well, and to report a DC landlord who advertises one price but charges materially more to the Attorney General's Office of Consumer Protection at oag.dc.gov/complaint or 202-442-9828.`,
+    categorySlug: 'rental-housing',
+    alertLevel: 'medium',
+    sources: ['Office of the D.C. Attorney General (Brian Schwalb)'],
+    sourceUrl: 'https://oag.dc.gov/release/attorney-general-schwalb-sues-landlord-charging',
+    country: 'US',
+    state: 'DC',
+    isHistorical: true,
+    firstRecorded: '2026-04-27',
+});
