@@ -5364,3 +5364,17 @@ UsGM.push({
     isHistorical: true,
     firstRecorded: '2019-01-01',
 });
+
+UsGM.push({
+    name: 'Macon Forged-Deed Stolen-Home Sales Scheme (Angela Spradley)',
+    slug: 'georgia-macon-spradley-forged-deed-stolen-home-scheme',
+    description: `Between September and December 2021, Angela Jessie Spradley forged deed transfers for five properties in Bibb County, Georgia, filing documents that falsely claimed she or LLCs she controlled had legitimately acquired homes she had no ownership interest in, then recorded the fabricated deeds directly at the Bibb County Clerk of Superior Court's office the same day. She went on to sell at least three of the stolen homes to an unsuspecting buyer for $7,500 apiece. The scheme first came to light when one of the actual owners discovered their second home had been stripped of its fixtures and had a realtor's lockbox hanging on the front door — a single complaint that Macon Judicial Circuit District Attorney Anita R. Howard's office, working with Assistant District Attorney Jeremy Johnson, used as the starting point for a full search of county property records, turning up four more victims who had no idea their homes had been targeted at all. A Bibb County grand jury indicted Spradley on 32 counts, including identity fraud, first-degree forgery, filing false documents, false swearing, making false statements, and theft by deception, and she was ultimately sentenced to five years in prison followed by 25 years of probation. "Your home is your safe haven. You never think someone's going to come along and try to take your actual home away from you," victim Melissa Sannes said after the sentencing. Georgia homeowners — especially anyone who owns a second property, an inherited home, or land they don't check on often — can register their parcels for free with the Georgia Superior Court Clerks' Cooperative Authority's property fraud alert service, which sends a notice the moment any new document is recorded against a monitored property, catching a forged deed before the scammer has time to sell or borrow against the home.`,
+    categorySlug: 'mortgage-foreclosure-scams',
+    alertLevel: 'medium',
+    sources: ["Macon Judicial Circuit District Attorney's Office", 'Atlanta News First', 'WGXA'],
+    sourceUrl: 'https://www.maconjudicialcircuitda.com/the-prosecutor-behind-the-paper-trail-deed-fraud/',
+    country: 'US',
+    state: 'GA',
+    isHistorical: true,
+    firstRecorded: '2021-09-01',
+});
