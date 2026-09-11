@@ -1623,6 +1623,10 @@ NotoriousTZ.push(
     author: "ScamShield Editorial",
     tags: ["notorious", "notorious-scammer"],
     sourceUrl: "https://www.cftc.gov/PressRoom/PressReleases/9264-26",
+    // representative photo — replace with a portrait if found
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Charles_R._Jonas_Federal_Building,_Charlotte_(Mecklenburg_County,_North_Carolina).jpg?width=1200",
+    coverImageCredit: "Photo: National Archives / Federal Judicial Center, Public Domain, via Wikimedia Commons — the Charles R. Jonas Federal Building in Charlotte, home of the Western District of North Carolina, where the CFTC's civil complaint against Trevor Vernon was filed",
+    coverImagePosition: 50,
     body: `Note: this case is a civil enforcement action. The Commodity Futures Trading Commission's complaint describes allegations only — Trevor Vernon has not been criminally charged, and neither he nor Argent Capital Management has been found liable by a court as of this writing.
 
 Trevor L. Vernon, of Franklin, North Carolina, ran a commodity pool called Argent Capital Partners, LP through his company, Argent Capital Management, LLC, soliciting money from friends, acquaintances, and other prospective participants by presenting himself as a successful trader. According to a civil complaint the CFTC filed July 7, 2026 in the U.S. District Court for the Western District of North Carolina, Vernon and his firm raised at least $14.8 million from more than 60 participants between March 2022 and February 2026, promising to invest the pooled money across equity index futures, options, cryptocurrency, real estate, and private companies.
