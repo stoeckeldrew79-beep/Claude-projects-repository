@@ -3877,6 +3877,10 @@ As with Glenmark's earlier settlement in the same case, expect this one to draw 
     slug: "operation-robocall-roundup-task-force-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "operation-robocall-roundup"],
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Cell_tower_aerial.jpg?width=1200",
+    coverImageCredit: "Photo: Wikideas1 (CC0) — cellular network infrastructure; the task force's letters targeted the wholesale voice carriers that originate and route robocall traffic",
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: "https://www.attorneygeneral.gov/taking-action/attorney-general-sunday-national-operation-robocall-roundup-continues-with-crackdown-on-four-major-providers-allowing-illegal-calls/",
     body: `On December 3, 2025, a bipartisan coalition of 51 state and territorial attorneys general, working together as the Anti-Robocall Multistate Litigation Task Force, announced Phase 2 of an effort called Operation Robocall Roundup — and this time it wasn't aimed at any individual scammer. It was aimed at the plumbing. The task force, led by North Carolina Attorney General Jeff Jackson, Indiana Attorney General Todd Rokita, and Ohio Attorney General Dave Yost, sent formal legal demand letters to four of the country's largest voice service providers — Inteliquent (a Sinch company), Bandwidth Inc., Lumen Technologies, and Peerless Network (an Infobip company) — accusing each of continuing to originate and carry illegal robocall traffic across their networks despite years of documented red flags, and giving them 35 days to explain concretely how they'd stop it or risk facing litigation.
 
@@ -3893,6 +3897,10 @@ There's no new individual action required from consumers because of this specifi
     slug: "safeguard-metals-precious-metals-fraud-judgment-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "safeguard-metals-precious-metals-fraud"],
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/American_Silver_Eagle_monster_box_from_United_States_Mint.png?width=1200",
+    coverImageCredit: "Photo: Diiscool (CC0) — a U.S. Mint shipping box of American Silver Eagle coins, the kind of physical silver bullion Safeguard Metals sold its customers",
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: "https://www.cftc.gov/PressRoom/PressReleases/9139-25",
     body: `A cold call warning that a bank collapse or stock market crash could wipe out a retirement account is a familiar opening line in precious metals fraud, and it's exactly how the Commodity Futures Trading Commission and regulators in 30 states say Safeguard Metals LLC and its owner, Jeffrey Ikahn — who also went by Jeffrey Santulan and Jeffrey Hill — built a scheme that pulled in roughly $68 million from more than 450 customers, the large majority of them elderly or already retired.
 
