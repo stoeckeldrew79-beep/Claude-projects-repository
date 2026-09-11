@@ -7111,3 +7111,27 @@ UsAF.push({
     country: 'US',
     state: 'KY',
 });
+
+UsAF.push({
+    name: 'Connecticut Secretary of the State Business Registry Spoofing Email Scam',
+    slug: 'connecticut-secretary-of-state-business-registry-spoofing-scam',
+    description: `Connecticut businesses have been receiving phishing emails spoofed to look like they come from the state's Connecticut Business Registry, pushing recipients toward a malicious "Team OpenSign" link that prompts them to review and sign an undisclosed digital document. Clicking through can compromise login credentials, trigger unauthorized money transfers, or install malware, rather than deliver any real state filing. Secretary of the State Stephanie Thomas issued a public warning about the campaign, saying "cybercriminals are getting more sophisticated, and it's critical that businesses stay alert. Our office will never send unsolicited documents for signature. If something feels off, trust your instincts and verify before you click." Her office advises recipients to check that any sender address actually ends in the real @ct.gov domain rather than a lookalike such as @cct.gov, to avoid clicking links in unexpected emails, to access business filings only by typing business.ct.gov directly into a browser, to never share a business.ct.gov password, and to enable multi-factor authentication on any state filing account.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Connecticut Secretary of the State'],
+    sourceUrl: 'https://portal.ct.gov/sots/press-releases/2026-press-releases/secretary-of-the-state-stephanie-thomas-warns-businesses-of-spoofing-email-scam',
+    country: 'US',
+    state: 'CT',
+});
+
+UsAF.push({
+    name: 'Connecticut Gold and Cash Courier Pickup Scam',
+    slug: 'connecticut-gold-cash-courier-pickup-scam',
+    description: `Stamford Police warned residents on July 14, 2026 about a courier scam in which callers impersonating government officials, bank fraud investigators, or tech support falsely claim a victim's bank account or investments have been compromised, then pressure them to withdraw cash or convert savings into gold or silver — which a courier then collects from the victim's home in person, rather than through a wire transfer or gift card that might draw more suspicion. Police cited FBI figures showing Americans reported more than $300 million in losses to this scheme in 2025 alone, and said "no federal or local government will ever ask you to convert currency and/or provide cash or gold to anyone. Anyone who does this is scamming you." The warning proved current within weeks: on September 9, 2026, the department's Financial Crimes Unit arrested 28-year-old Qianlin Zheng of Flushing, New York, after he traveled to Stamford to collect roughly $15,000 in cash from an 82-year-old victim who had already lost more than $100,000 to the same scheme. Zheng was charged with second-degree larceny and held on bond pending an October court date. Police stressed that legitimate U.S. government agencies will never send someone to a home to collect cash, gold, gift cards, or other valuables, and that couriers can appear professional and use code words or fake documentation to seem legitimate — anyone instructed to withdraw money, buy precious metals, or hand valuables to a stranger at the door should hang up, contact the agency directly using a number looked up independently, and call local police before anyone arrives.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'critical',
+    sources: ['Stamford Police Department', 'Daily Voice'],
+    sourceUrl: 'https://patch.com/connecticut/stamford/stamford-police-warn-residents-gold-courier-scam',
+    country: 'US',
+    state: 'CT',
+});
