@@ -12777,3 +12777,29 @@ International.push(
     country: 'BF',
   },
 );
+
+International.push(
+  {
+    name: 'Nazra Said Hassani "Comorian Madoff" Ponzi Scheme (Halfastyles)',
+    slug: 'comoros-nazra-said-hassani-halfastyles-ponzi-scheme',
+    description: `Nazra Said Hassani, a Comorian businesswoman who ran a clothing and fashion company called Halfastyles, used the firm as the vehicle for a pyramid scheme that collapsed in 2023 and left her branded in the local press as the "Comorian Madoff" ("la Madoff comorienne"). Reporting by Comores Infos and Mayotte Hebdo describes how, over roughly 2019 to 2023, she recruited investors — including wealthy individuals, politicians, and dozens of employees of the state telecom operator Comores Telecom — by promising annual returns of 10 to 20 percent, pitched as loans that Huawei Technologies supposedly needed because it could not open its own bank account in Comoros and required financing to cover customs clearance on imported equipment, to be repaid with interest. Comores Infos reported that the criminal complaint that first exposed the scheme covered about 116 million Comorian francs, but investigators ultimately estimated the operation moved between 2.5 and 4 billion Comorian francs in total, drawing in dozens of people. When the scheme collapsed, Nazra fled Comoros on falsified travel documents; she was intercepted through international law-enforcement cooperation and repatriated to Moroni, where a correctional tribunal convicted her on December 25, 2023 and sentenced her to three years in prison. She had already completed that sentence by the time a Moroni court ruled again on the case in a separate civil judgment reported May 26, 2026, ordering her — together with two entities swept into the fraud, Huawei Technologies Mauritius and Green Building Engineering Co. Ltd (CRGB) — to jointly pay roughly 500 million Comorian francs (about €1 million) in restitution to 21 plaintiffs, twelve of them women, most of whom were Comores Telecom employees. One senior Comtel executive alone testified to investing 89 million francs (about €181,000) on a promise of 52.858 million francs in "interest." The victims' lawyer told the court that bank records showed real transfers to Huawei described as being for "customs clearance," which Nazra used as the cover story that made her promised repayments look credible. The case stands as a reminder that a pitch invoking a real, recognizable company's name — even one as large as Huawei — is no proof that money is being safely invested with that company, and that "lend money to a corporation that can't use its own bank account" is not how legitimate corporate finance works.`,
+    categorySlug: 'ponzi-pyramid-schemes',
+    alertLevel: 'high',
+    sources: ['Comores Infos', 'Mayotte Hebdo'],
+    sourceUrl: 'https://www.mayottehebdo.com/actualite/justice/comores-deux-societes-etrangeres-condamnees-dans-laffaire-de-ponzi/',
+    country: 'KM',
+  },
+);
+
+International.push(
+  {
+    name: 'Comoros "Oubeid Ankiba Auto et Meuble" TikTok Fake Luxury Goods Scam',
+    slug: 'comoros-tiktok-oubeid-ankiba-fake-luxury-goods-scam',
+    description: `A TikTok account calling itself "Oubeid Ankiba Auto et Meuble" ran what Moroni prosecutors have charged as fraud and complicity ("escroquerie et complicité"), luring buyers — including members of the Comorian diaspora — with polished videos of brand-new luxury cars, warehouses said to be stacked with furniture imported from Dubai, and shipping containers presented as ready to embark, all advertised at prices "défiant toute concurrence" (defying all competition). According to reporting by Comores Infos published December 17, 2025, and corroborated by the Comorian daily Al-watwan, the operator and local accomplices moved negotiations to private messages, quoted prices supposedly already including customs clearance, and then collected full or partial payment through intermediaries inside Comoros — some of whom signed discharge letters or offered supposed guarantees to make the deal look secure — before the promised cars and furniture never arrived and the seller vanished. Ten victims had come forward by the time of the reporting, with documented losses already exceeding 50 million Comorian francs, while the prosecutor's office said it believed the true number of victims and total losses to be significantly higher; intermediaries who helped collect money locally were reportedly paid as much as 6 million francs each for their role. The Moroni public prosecutor's office opened a judicial investigation for fraud and complicity, and by mid-December 2025 five people had been indicted, two of them held in pretrial detention at Moroni's central prison and the rest placed under judicial supervision. Investigators said the man behind the account operated under multiple aliases — Hassane, Oubeid, and Soilahou — and was a repeat offender previously convicted in a separate 40-million-franc fraud case on Anjouan (Ndzuani); a well-known Comorian comedian who had promoted the account was briefly detained and then released after saying his own involvement was limited to paid promotional videos. The case illustrates a scam pattern spreading on Comorian social media: professionally produced videos of unrealistically cheap imported vehicles and goods used to collect upfront payment from buyers who have no way to inspect the merchandise or verify the seller's real identity before money changes hands.`,
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'high',
+    sources: ['Comores Infos', 'Al-watwan'],
+    sourceUrl: 'https://www.comoresinfos.net/le-piege-tiktok-voitures-fantomes-millions-disparus-quand-des-videos-de-luxe-ruinent-des-familles-comoriennes/',
+    country: 'KM',
+  },
+);

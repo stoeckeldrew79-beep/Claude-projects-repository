@@ -5786,6 +5786,9 @@ NotoriousGM.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/usao-sdny/pr/two-foreign-nationals-charged-fraudulently-using-trump-name-scam-victims-across-united',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Thurgood_Marshall_United_States_Courthouse_008.jpg?width=1200',
+    coverImageCredit: 'Kidfly182 / Wikimedia Commons (CC BY 4.0) — Thurgood Marshall U.S. Courthouse, Manhattan, where the case was indicted',
     body: `Note: this case is at the indictment stage. Goran Spiridonov and Kristina Janeva have been charged but not convicted, both remain at large outside the United States, and the allegations below reflect the government's case rather than proven facts.
 
 Federal prosecutors in Manhattan allege that Goran Spiridonov, 25, and Kristina Janeva, 39 — both citizens and residents of North Macedonia — spent years marketing and selling a line of fake financial products called "Trump Bucks" to victims across the United States, falsely telling buyers the products were affiliated with President Trump, his family, the Trump Organization, or his administration. According to indictments unsealed May 13, 2026 in the U.S. District Court for the Southern District of New York, the pair sold the products under the banner "Trump Rebate Banking System," or "TRB," in a lineup that included "Golden Checks," "Golden Badges," "Trump Dollars," "Trump Checks," "Golden Trump Checks," "Diamond Bucks," and "Membership Booklets"; Janeva is separately accused of marketing purported "Bank of Trump" products, including a "Ruby Certificate" described as an official Trump Organization financial instrument. Prosecutors say buyers were told their purchases would be redeemable for cash at banks during a Trump presidency and would help fund his campaign and associated causes — claims the Justice Department says are entirely false.
@@ -5822,6 +5825,9 @@ NotoriousGM.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/usao-ndtx/pr/five-federally-indicted-alleged-220-million-nationwide-cattle-fraud-scheme-one',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Eldon_B_Mahon_Courthouse_1.jpg?width=1200',
+    coverImageCredit: 'Turn685 / Wikimedia Commons (CC BY-SA 3.0) — Eldon B. Mahon U.S. Courthouse, Fort Worth, Texas, where the case was indicted',
     body: `Note: this case involves both a guilty plea and pending charges. Jed Wood has pleaded guilty to one count of wire fraud; Joshua Link, Tia Link, Taylor Bang, and Royana Thomas have been indicted but, as of this writing, have not been convicted, and the allegations against them described below reflect the government's case rather than proven facts.
 
 Agridime LLC, headquartered in Fort Worth, Texas, marketed itself as a way for ordinary people to invest directly in the cattle business: a customer could buy a contract tied to a specific, individually identified animal, which Agridime would raise on real ranches and eventually sell for meat, splitting the resulting profit with the investor. Agricultural trade press later nicknamed it the "ghost herd" scheme, because — according to a federal indictment — the company never purchased anywhere near enough actual cattle to back the volume of contracts it was selling.
@@ -6140,6 +6146,9 @@ NotoriousGM.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/usao-dc/pr/singaporean-ringleader-245-million-cryptocurrency-racketeering-enterprise-pleads-guilty',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/E._Barrett_Prettyman_U.S._Courthouse.JPG?width=1200',
+    coverImageCredit: 'AgnosticPreachersKid / Wikimedia Commons (CC BY-SA 3.0) — E. Barrett Prettyman U.S. Courthouse, Washington, D.C., where the case was prosecuted',
     body: `On August 18, 2024, a longtime cryptocurrency investor in Washington, D.C. got a call from someone claiming to be Google support, warning that his account had faced repeated break-in attempts. A second caller followed, posing as staff from the Gemini crypto exchange, warning of malware on his device. Talked through a sequence of "security" steps by the callers — who were watching his screen the whole time — the victim ended up granting access to his Google Drive and revealing verification codes that let the callers into wallets holding more than 4,100 Bitcoin, worth over $240 million at the time.
 
 According to the U.S. Attorney's Office for the District of Columbia, the operation behind that theft was run by Malone Lam, a 22-year-old Singaporean citizen living in Miami who went by online aliases including "Anne Hathaway," "$$$," and "King Greavy." Lam had built his crew through online gaming circles, recruiting participants across California, Connecticut, New York, and Florida to make the deceptive calls, launder the proceeds through cryptocurrency mixers, "peel chains," and pass-through wallets, and convert the stolen funds into cash. Prosecutors say the D.C. theft was the largest single haul in a broader racketeering enterprise, involving multiple victims and additional thefts, that totaled more than $245 million.
@@ -6275,6 +6284,9 @@ NotoriousGM.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
     sourceUrl: 'https://www.sec.gov/newsroom/press-releases/2018-160',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Phillip_Burton_Federal_Building.jpg?width=1200',
+    coverImageCredit: 'Sam Wheeler / Wikimedia Commons (CC BY-SA 3.0) — Phillip Burton Federal Building and U.S. Courthouse, San Francisco',
     body: `Michael Rothenberg founded Rothenberg Ventures in San Francisco in 2012, marketing the firm as the venture-capital home for "millennial entrepreneurs" building "frontier technology" — later narrowing its focus to virtual and augmented reality. By the mid-2010s the firm managed close to 200 investors and more than $64 million in assets across several funds, and Rothenberg himself became a recognizable Silicon Valley figure for a reason that had nothing to do with returns: courtside Golden State Warriors seats, a private box at Formula E races, and lavish investor events that later earned him the nickname "Silicon Valley's party animal" in press coverage of his fall.
 
 The Securities and Exchange Commission charged Rothenberg and his firm on August 20, 2018, alleging that over roughly three years he misappropriated millions of dollars from the funds he managed, including an estimated $7 million in fees beyond what the funds' governing documents allowed. According to the SEC's complaint, Rothenberg funneled investor money into River Studios, a virtual-reality production company he owned and had told investors was self-funded, and used a $2 million capital contribution from one investor to pay down his own personal debt rather than fund the business. Separately, prosecutors said he misrepresented the size of his funds and the fees he had collected to Silicon Valley Bank in order to secure a line of credit for his management company.
@@ -6514,6 +6526,11 @@ NotoriousGM.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/usao-edca/pr/elk-grove-man-sentenced-20-years-prison-1m-adult-adoption-immigration-fraud-scheme',
+    // representative photo — replace with a portrait if found. Hansen's appeal
+    // became the Supreme Court case United States v. Hansen (2023), decided
+    // in this building.
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/US_Supreme_Court_Building.jpg?width=1200',
+    coverImageCredit: 'Duncan Lock / Wikimedia Commons (CC BY-SA 3.0) — U.S. Supreme Court Building, which decided United States v. Hansen',
     body: `There is no provision in U.S. immigration law that lets an adult immigrant become a citizen simply by being legally adopted by an American. Helaman Hansen told hundreds of people there was, and charged them for it.
 
 From 2012 to 2016, Hansen ran an Elk Grove, California-based organization called Americans Helping America Chamber of Commerce, through which he sold memberships in what he branded the "Migration Program." The pitch was that an undocumented immigrant could put themselves on a path to U.S. citizenship by being adopted as an adult by an American citizen and completing a series of additional steps Hansen laid out — a legal theory that had no basis in actual immigration law. Membership fees ran from $550 to $10,000 per person, and prosecutors said at least 471 people paid into the program, together handing Hansen more than $1.8 million.
