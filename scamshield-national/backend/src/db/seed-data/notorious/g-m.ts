@@ -7532,6 +7532,9 @@ Canadian authorities charged Sorenson and Brost in 2009, but Sorenson had alread
 Sorenson and Brost were each sentenced in 2016 to 12 years in prison — a sentence prosecutors and victims alike considered barely proportionate to the scale of the fraud. They ultimately served only about two years of that term before being paroled, a gap between the headline sentence and the time actually served that became its own point of controversy among the victims who had waited years for the case to even go to trial.
 
 The Syndicated Gold Depository case shows how a plausible-sounding physical asset — gold, refined and resold — combined with international mining operations that were difficult for ordinary investors or even regulators to verify from Calgary, let a fraud grow for nearly a decade before collapsing, and how far a determined defendant can push out the clock on accountability simply by leaving the jurisdiction that wants to try him.`,
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Calgary_Courts_Centre,_Calgary,_June_2013.jpg?width=1200',
+    coverImageCredit: 'Photo: Ultimateshot, CC BY-SA 3.0, via Wikimedia Commons — Calgary Courts Centre, where Sorenson and Brost were tried and convicted',
   },
 );
 
