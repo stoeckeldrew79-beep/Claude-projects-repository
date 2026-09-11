@@ -5652,3 +5652,17 @@ UsGM.push({
     isHistorical: true,
     firstRecorded: '2015-06-25',
 });
+
+UsGM.push({
+    name: 'Boise Caregiver Couple Ranch and Trust Fraud (James and Jessica Dougherty)',
+    slug: 'idaho-boise-dougherty-caregiver-ranch-trust-fraud',
+    description: `James and Jessica Dougherty moved onto an elderly Boise woman's 46-acre ranch in early 2015, agreeing to help with the property and her horses in exchange for free rent — an arrangement federal prosecutors say became the foothold for a slow-moving fraud once the victim's health began to decline later that year. As her cognitive function worsened, James Dougherty gained control of her finances and had himself named her power of attorney, then had a trust executed that named James and Jessica as primary beneficiaries of her estate, including the ranch itself, with James installed as successor trustee. In December 2015, the ranch was transferred out of the victim's name into that new trust at a price below its actual market value, a transaction prosecutors say breached James Dougherty's fiduciary duty and cost the victim more than $250,000. When investigators later sought records relevant to the case, Jessica Dougherty had data destroyed from a laptop connected to the investigation, and she admitted to knowingly obstructing the Department of Justice's inquiry into her husband's conduct. A federal court in the District of Idaho sentenced James Dougherty to 41 months in prison for wire fraud, while Jessica Dougherty received three years of probation for obstruction of justice. The case illustrates how elder financial exploitation often doesn't look like a stranger's phone call — it can start with a trusted in-home caregiver who slowly gains legal control over finances and property once a victim's health declines, making it worth having a family member, elder-law attorney, or other independent party regularly review any account or property where an in-home helper has gained power of attorney or trustee status.`,
+    categorySlug: 'mortgage-foreclosure-scams',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office, District of Idaho"],
+    sourceUrl: 'https://www.justice.gov/usao-id/pr/husband-and-wife-sentenced-defrauding-elderly-victim-out-her-home-and-obstruction',
+    country: 'US',
+    state: 'ID',
+    isHistorical: true,
+    firstRecorded: '2024-08-22',
+});
