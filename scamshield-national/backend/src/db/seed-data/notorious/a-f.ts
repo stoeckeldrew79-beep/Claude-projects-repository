@@ -7148,6 +7148,10 @@ NotoriousAF.push(
     slug: 'april-parks-nevada-guardian-exploitation',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/The_Las_Vegas_Clark_County_Government_Center_and_the_Lou_Ruvo_Brain_Institute,_Las_Vegas,_Nevada_LCCN2010630611.tif?width=1200',
+    coverImageCredit: 'Photo: Carol M. Highsmith, Library of Congress / Wikimedia Commons / Public Domain — the Clark County Government Center in Las Vegas, seat of the county where Parks operated; not the courthouse itself',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.reviewjournal.com/crime/courts/ex-nevada-guardian-to-serve-up-to-40-years-behind-bars-1565690/',
     body: `Nevada courts, like those in every state, can appoint a "guardian" to take over the finances, property, and medical decisions of an adult a judge has deemed unable to manage them — a system meant to protect the elderly and mentally incapacitated from exploitation. April Parks ran a Las Vegas company called A Private Professional Guardian LLC that made a business out of that authority, at times serving as court-appointed guardian for 50 to 100 wards simultaneously, with full legal control over their bank accounts, homes, and medical care.
 
