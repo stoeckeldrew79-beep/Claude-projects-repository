@@ -13294,3 +13294,42 @@ International.push(
     firstRecorded: '2011-01-01',
   },
 );
+
+International.push(
+  {
+    name: 'Andorra Cryptocurrency Pyramid Scheme Arrest',
+    slug: 'andorra-cryptocurrency-pyramid-scheme-arrest',
+    description: `Policia d'Andorra announced on July 22, 2024 that it had arrested two men, aged 44 and 56 and described as business partners running an investment firm, on suspicion of operating a pyramid scheme built around cryptoassets worth close to €900,000. Police said the pair promised investors a high rate of return on crypto investments in order to attract as many participants as possible, then paid out those "returns" using money paid in by newer investors rather than any real trading or investment activity — the classic mechanic of a Ponzi scheme applied to digital assets. The scheme unravelled on Thursday, July 18, 2024, when a group of investors went in person to the company's offices to demand the profits they had been promised, and one of the two partners admitted on the spot that no underlying investments had ever been made. Police were called, arrested both men on suspicion of crimes against property, and searched the firm's offices along with the suspects' homes, seizing documents and computer equipment before the pair appeared before judicial authorities the following night. At the time of the arrest, formal complaints had been filed by three investors — two of them non-residents and one Andorran resident — but police said they believed the true number of people who had put money into the scheme was considerably higher and continued to investigate. The case illustrates how the promise of high, guaranteed cryptocurrency returns can mask an old-fashioned pyramid structure, and Andorran authorities urged anyone who invested with the firm, or who is offered similarly guaranteed high returns on crypto investments by an unregistered party, to verify any investment manager's registration with INAF (Andorra's financial regulator) and to file a police report rather than continuing to wait for promised payouts.`,
+    categorySlug: 'ponzi-pyramid-schemes',
+    alertLevel: 'high',
+    sources: ["Policia d'Andorra"],
+    sourceUrl: 'https://www.policia.ad/ca/noticies/salut-publica/2024/07/22/7548/la-policia-dete-dos-homes-com-a-presumptes-autors-d-una-estafa-piramidal-amb-criptoactius-quantificada-en-prop-de-900-000-euros/',
+    country: 'AD',
+  },
+);
+
+International.push(
+  {
+    name: 'Andorra Fake Package Delivery SMS Smishing Scam',
+    slug: 'andorra-fake-package-delivery-sms-smishing-scam',
+    description: `Diari d'Andorra reported on April 19, 2026 that a wave of fraudulent parcel-delivery text messages, using a technique called "smishing" (SMS phishing), was spreading through the principality and letting scammers link victims' bank cards and drain their accounts within minutes. The messages claim to come from a postal or courier company such as Correus, telling the recipient a package addressed to them is being held and cannot be delivered, and they attach a link to resolve the supposed problem. To make the trap feel low-risk, the linked page typically asks for only a small payment — often around €2 — described as a customs, handling, or "unblocking" fee needed to release the parcel. Entering card details to pay that trivial amount actually hands the full card number, expiry date, and security code to the scammers, who use it — sometimes together with a one-time verification code phished in a follow-up message or call — to register the card with a mobile payment service or make fraudulent purchases, emptying the account before the victim realizes no parcel ever existed. Police repeated the warning on social media on August 1, 2026 as a fresh round of near-identical delivery-themed texts circulated, again confirming that no real package or address problem lies behind any such message. Authorities and banks have urged recipients to delete this type of SMS without clicking the link, to never enter card details to "unblock" a delivery, to check any shipment status only through a carrier's official app or site typed in directly, and to contact their bank immediately to block the card if details were already entered.`,
+    categorySlug: 'package-delivery-scams',
+    alertLevel: 'high',
+    sources: ["Diari d'Andorra", "Policia d'Andorra", 'Alto.ad'],
+    sourceUrl: 'https://www.alto.ad/other/2026/08/andorra-phishing-scam-package-delivery-texts',
+    country: 'AD',
+  },
+);
+
+International.push(
+  {
+    name: 'Andorra CASS Social Security Reimbursement Phishing Scam',
+    slug: 'andorra-cass-social-security-reimbursement-phishing-scam',
+    description: `CASS, the Caixa Andorrana de Seguretat Social (Andorra's social security fund), issued a public warning on July 8, 2026 about fraudulent emails impersonating the agency and telling recipients they have a pending healthcare reimbursement waiting to be processed. The emails urge the recipient to click a link to claim the refund immediately, and that link leads to a counterfeit website, built to resemble an official CASS page, which asks the victim to enter credit card details and other personal information supposedly needed to complete the "immediate payment." In reality no such transfer is ever made — the page exists solely to harvest the card numbers and personal data entered, which the scammers can then use to make fraudulent charges. CASS stressed in its warning that it "never requests banking details by email" and never sends links asking members to manage a payment or refund that way — any genuine reimbursement is handled entirely through the agency's own member portal or in person, never by clicking a link in an unsolicited email. The agency advised anyone who received such a message to delete it without clicking the link, to never enter card or banking information on a site reached that way, and to contact CASS directly through its official phone line or in-person offices to confirm whether any reimbursement is genuinely pending before acting on any email claiming one is.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Caixa Andorrana de Seguretat Social (CASS)', 'Alto.ad'],
+    sourceUrl: 'https://www.alto.ad/business/2026/07/andorra-cass-phishing-scam-bank-details',
+    country: 'AD',
+  },
+);
