@@ -3703,6 +3703,10 @@ There's no direct action a driver had to take to be exposed in this incident —
     slug: "harvard-pilgrim-point32health-ransomware-breach-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "harvard-pilgrim-point32health-data-breach"],
+    // representative photo — replace with an exact match if found
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Pleasant_Street,_Canton_MA_01.jpg?width=1200",
+    coverImageCredit: "Photo: Jameslwoodward, CC BY-SA 3.0, via Wikimedia Commons — Canton, Massachusetts, headquarters town of Harvard Pilgrim's parent company Point32Health; not the breached facility itself",
+    coverImagePosition: 50,
     sourceUrl: "https://www.hipaajournal.com/harvard-pilgrim-health-care-data-breach-settlement/",
     body: `Harvard Pilgrim Health Care, a Massachusetts-based health insurer operated by its parent company Point32Health, discovered on April 17, 2023 that hackers had been inside its computer systems for about three weeks, since March 28. What began as a ransomware attack on an insurer's internal network turned into one of the largest healthcare data breaches disclosed that year, as the investigation into exactly what the attackers had touched kept turning up more affected people — the initial notification covered roughly 2.5 million individuals, and by the time Point32Health finished updating state regulators, the count had grown to nearly 2.9 million current and former health plan members.
 
