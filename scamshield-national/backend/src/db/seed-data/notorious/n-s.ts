@@ -4396,3 +4396,20 @@ By the time federal prosecutors had built their case, eleven co-conspirators —
 The case is a reminder that genetic-testing fraud doesn't require a single genius mastermind so much as a supply chain willing to keep its head down — marketers signing up strangers at health fairs, a lab owner backfilling the paperwork that makes an unnecessary test look ordered by a doctor, and a second operator building the contracts that make a kickback look like marketing. It took falling apart at a stage most fraud schemes never reach — a defendant fleeing toward an international border with someone else's ID — to finally stop it, more than half a billion dollars in fraudulent billing after it started.`,
   },
 );
+NotoriousNS.push(
+  {
+    title: 'Matthew Pisoni, Marcus Pradel, and the $28 Million "You\'ve Already Won" Letters That Reached Six Countries',
+    slug: 'matthew-pisoni-marcus-pradel-sweepstakes-mail-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2024/06/ftc-action-leads-sweepstakes-ban-three-individuals-who-ran-massive-scheme-cost-consumers-millions',
+    // no rights-cleared photo found — sourceUrl above serves as the "read the full story" link
+    body: `For years, personalized-looking letters arrived in mailboxes across the United States, Australia, Canada, France, Germany, Japan, and the United Kingdom carrying a version of the same message: you have already won more than $2 million, guaranteed, and all you need to do to collect it is mail back $20 to $30 within the next ten days. Behind the letters, the FTC alleged in a complaint filed in May 2015 in the Southern District of Florida, was a network of eleven shell companies — among them Mail Tree Inc., Spin Mail Inc., and Masterpiece Marketing LLC, doing business under names like Affiliated Opportunities Group and National Directory Center — run by Matthew Pisoni, Marcus Pradel, John Leon, and Victor Ramirez.
+
+The letters were personalized enough to feel real and vague enough to survive a lawyer's read: buried in small print at the bottom was language revealing that the companies had merely compiled reports on public sweepstakes, not actually awarded any prizes themselves. The artificial ten-day deadlines and "guaranteed" language were built to push recipients into mailing a fee before they had time to research the company sending it. By the time the FTC won a temporary restraining order shutting the operation down in May 2015, it had collected more than $28 million from consumers who never received the winnings they'd been promised. The U.S. Attorney's Office for the Southern District of Florida arrested four individuals tied to the scheme that same month, running a parallel criminal track alongside the FTC's civil case.
+
+The civil case against Pisoni, Pradel, and Leon took nine years to fully resolve. On June 21, 2024, a federal court entered settlements permanently banning all three from any involvement in sweepstakes or prize promotions of any kind, for life; a fourth defendant, Victor Ramirez, settled on the same terms two months later, in August 2024. None of the orders carried a meaningful monetary judgment — a consequence of the Supreme Court's 2021 ruling in AMG Capital Management v. FTC, which stripped the agency of authority it had long used to force fraudsters to disgorge their gains. "These settlements will keep these defendants from harming more consumers with bogus prize claims," said Samuel Levine, director of the FTC's Bureau of Consumer Protection, in announcing the resolution — adding that they would not, however, "return money to consumers."
+
+The nine-year gap between the FTC's 2015 complaint and its 2024 settlements says as much about the limits of civil enforcement as the underlying scheme says about how sweepstakes fraud works: a false deadline and a small, repeatable fee, multiplied across enough victims in enough countries to reach eight figures, followed by a lifetime ban that arrived only after the money was long gone.`,
+  },
+);
