@@ -7006,7 +7006,10 @@ NotoriousGM.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.yavapaiaz.gov/files/sharedassets/public/v/1/resident-services/law-and-justice/documents/womanconvictedofembezzlement.pdf',
-    // no rights-cleared photo identified — sourceUrl above serves as the "read the full story" link
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Yavapai_County_Courthouse_-_Prescott,_AZ.jpg?width=1200',
+    coverImageCredit: 'Upstateherd, CC BY-SA 4.0, via Wikimedia Commons',
+    coverImagePosition: 50,
     body: `Karen Northcutt, 62, of Dewey, Arizona, ran Prescott Area Habitat for Humanity as its executive director — a position of trust at a nonprofit whose entire mission is building affordable homes for families who couldn't otherwise afford one. According to the Yavapai County Attorney's Office, she spent years quietly diverting the organization's money into her own life instead: paying her mortgage and utility bills from the charity's bank accounts, renovating her home, buying vehicles, withdrawing more than $100,000 in cash, and opening an unauthorized credit card in the organization's name that she then charged roughly $187,000 on.
 
 The theft came to light in February 2024, after an anonymous tip to the Habitat for Humanity board prompted an investigation. A forensic accountant who reviewed the organization's books put the total loss at approximately $826,000. Prosecutors said Northcutt did not simply take the money quietly — she also tampered with physical evidence and trafficked in stolen property in the course of covering her tracks, conduct that added charges well beyond a simple theft case.
