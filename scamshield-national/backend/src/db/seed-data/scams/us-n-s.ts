@@ -5074,3 +5074,15 @@ UsNS.push({
     country: 'US',
     state: 'NY',
 });
+
+UsNS.push({
+    name: 'Sundance Vacations Bait-and-Switch Vacation Package Settlement',
+    slug: 'pennsylvania-sundance-vacations-bait-and-switch-settlement',
+    description: `Pennsylvania Attorney General Michelle Henry announced a $500,000 settlement on January 15, 2025 with Wilkes-Barre Township-based Sundance Vacations, resolving a years-long investigation into the travel company's sales practices. According to the settlement, Sundance's slideshow sales presentations advertised deals like "30 vacations for $15,000" without disclosing that the figure was only a partial package price, letting the true total cost emerge only after a prospective buyer had already sat through hours of high-pressure pitching; the office also alleged the company misrepresented product values against competitors, falsely claimed sponsorships from third-party entities, misrepresented the terms of "sweepstakes" prizes used to draw people to sales events, and didn't give consumers adequate time to actually read what they were signing. The settlement requires Sundance to disclose all package costs clearly and upfront going forward, and gives certain existing customers a 30-day window to cancel their contracts entirely — with any outstanding loan balance reported to credit bureaus as paid in full and future bookings, fees, and taxes refunded. The Attorney General's office is distributing restitution to consumers who had already filed complaints and accepted additional complaints, for possible restitution, through May 16, 2025. Anyone invited to a "free" vacation-planning presentation or sweepstakes event should expect a lengthy, high-pressure sales pitch rather than a quick prize claim, ask for the full, all-in price of any advertised package in writing before signing anything, and take contract paperwork home to review rather than signing on the spot — a legitimate travel offer doesn't require an immediate decision.`,
+    categorySlug: 'travel-vacation-scams',
+    alertLevel: 'medium',
+    sources: ["Pennsylvania Office of Attorney General", 'WNEP'],
+    sourceUrl: 'https://www.wnep.com/article/news/local/luzerne-county/pa-attorney-general-reaches-500k-settlement-with-sundance-vacations-travel-company-wilkesbarre-township-michelle-henry-luzerne-county/523-a0774648-f32a-46e1-b6c3-7f9c902afba0',
+    country: 'US',
+    state: 'PA',
+});
