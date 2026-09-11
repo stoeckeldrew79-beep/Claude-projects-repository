@@ -12738,3 +12738,42 @@ International.push(
     sourceUrl: 'https://www.diariodepernambuco.com.br/noticia/vidaurbana/2024/11/policia-civil-indicia-dois-por-fraude-em-saques-do-bolsa-familia.html',
   },
 );
+
+International.push(
+  {
+    name: 'Forged Mobile Money SMS Used to Defraud Vendors and Agents',
+    slug: 'burkina-faso-forged-mobile-money-sms-vendor-fraud',
+    description: `Burkinabè courts have repeatedly convicted people over a low-tech but effective mobile money con: rather than hacking anything, the fraudster simply fabricates the text message a real Orange Money or Moov Money transfer would generate and shows it on their own phone screen to a vendor or mobile money agent as if it were proof that payment already went through. In one case tried before Bobo-Dioulasso's high court, a young man identified as A.S. visited Orange Money kiosks, wrote out a fake withdrawal message inserting the agent's own code, and timed his approach for busy periods so the kiosk manager would hand over cash without checking the transaction on the actual system — a scheme that netted him 42,000 and then 25,000 CFA francs at the same kiosk before the agent caught on during a third attempt to withdraw 151,000 CFA francs; he was convicted on April 28, 2023 and sentenced to 24 months' imprisonment (12 firm) plus a suspended 1 million CFA franc fine. In a second case reported in May 2025, a repeat offender using the alias "Zaki" used the same fake-transfer-message trick to buy grilled fish and other street food without paying, showing vendors a doctored screenshot of a supposed 10,000 CFA franc transfer; Bobo-Dioulasso's correctional tribunal, noting he had a prior conviction for the same conduct in Banfora, sentenced him to 8 years in prison and a 4 million CFA franc fine, revoking an earlier suspended sentence. The pattern is distinct from account-takeover mobile money fraud in that no password, PIN, or verification code is ever stolen — the fraud works purely because a vendor or agent trusts a message shown on a stranger's phone instead of checking their own account balance or transaction history before handing over cash or goods, which is the check Burkinabè authorities and mobile money operators urge every merchant to make before completing a sale.`,
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'medium',
+    sources: ['leFaso.net', 'Quotidien Sidwaya'],
+    sourceUrl: 'https://lefaso.net/spip.php?article138082=',
+    country: 'BF',
+  },
+);
+
+International.push(
+  {
+    name: 'Fake Military/Police Officer "Urgent Loan" Facebook Scam',
+    slug: 'burkina-faso-fake-military-police-urgent-loan-facebook-scam',
+    description: `Burkina Faso's Central Cybercrime Brigade (BCLCC) has prosecuted a recurring fraud pattern in which men, in confirmed cases retired or dismissed military personnel, create fake Facebook profiles and use them to target people who sell goods online through their own Facebook pages. In one case reported February 6, 2025, a 42-year-old retired soldier identified as Z.C. built a fake profile under the name "Éric SABA," joined merchants' sales pages and groups, and used it to collect sellers' phone numbers before contacting them under invented identities — a soldier on assignment, a driver stranded en route to a funeral — with a fabricated emergency and a request for an urgent short-term loan he promised to repay; once a victim transferred money he cut off all contact and labeled the number "À ÉVITER" (to avoid), with total confirmed losses exceeding 500,000 CFA francs before his arrest and referral to the Ouagadougou prosecutor. A separate, similar case tried before the Correctional Chamber of Ouagadougou's Court of First Instance on April 15, 2025 involved another 42-year-old former soldier, identified in court as Nonraogo, who posed by turns as a police station chief, a police officer, a soldier robbed by "terrorists," or a man needing money for a sick wife, using a fake profile to approach seven identified online sellers and obtain their contact details before asking for money; the court convicted him of aggravated fraud and sentenced him to 18 months' imprisonment. The BCLCC's advice to anyone selling goods on Facebook or a similar platform is to treat an unsolicited "buyer" who pivots to a personal hardship story and asks for money transferred to them, rather than for the item being sold, as a fraud attempt regardless of what uniform, rank, or emergency they claim, and to verify any such claim independently before sending anything.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Brigade Centrale de Lutte Contre la Cybercriminalité (BCLCC), Burkina Faso', '24heures.bf', 'leFaso.net'],
+    sourceUrl: 'https://www.24heures.bf/18775-2/',
+    country: 'BF',
+  },
+);
+
+International.push(
+  {
+    name: 'QNET Pyramid Scheme Trafficking Burkinabè Youth to Ghana',
+    slug: 'burkina-faso-qnet-pyramid-scheme-trafficking-to-ghana',
+    description: `QNET, a multi-level "direct selling" network offering products and services with, in Burkinabè officials' words, "promesses de gains irréalistes et flatteurs" (unrealistic and flattering profit promises), recruited young Burkinabè with false job and sporting-opportunity offers before pressuring them to buy into the pyramid structure and, in some cases, transporting them across the border into Ghana to keep recruiting. A joint communiqué dated July 10, 2024 and signed by Burkina Faso's ministers of commerce, territorial administration, and the economy banned all QNET sales activity nationwide "jusqu'à nouvel ordre" (until further notice), calling the network "une source d'escroquerie de la population" and setting up hotline numbers for the public to report continued violations. The ban did not stop the scheme: a January 2025 sweep detained roughly 160 people of several nationalities over a version of the fraud estimated to have caused 80 million CFA francs in losses, and in May 2025 a separate group of 22 young Burkinabè who had been moved into Ghana and effectively trapped there — one survivor said "we were forced to join a system we didn't understand; we had already paid" and could not leave — were recovered and repatriated, with nine suspected organizers, including Seydou Ido, Yousouf Zoungrana, and Lassina Démé, arrested and placed under judicial detention ahead of a trial set for June 17, 2025, over losses estimated at 33 million CFA francs. Consumer advocates point to the case as a reminder that a "job" or "opportunity" that requires paying money upfront to join, and that depends on constantly recruiting new members to keep the money flowing, is a pyramid scheme regardless of what products it claims to sell, and that Burkinabè nationals recruited this way have specifically ended up transported abroad and unable to leave once they arrive.`,
+    categorySlug: 'ponzi-pyramid-schemes',
+    alertLevel: 'high',
+    sources: ['Government of Burkina Faso (joint ministerial communiqué)', '24heures.bf', 'leFaso.net'],
+    sourceUrl: 'https://www.24heures.bf/burkina-faso-arnaque-via-qnet-9-personnes-arretees-et-placees-sous-mandat-de-depot/',
+    country: 'BF',
+  },
+);

@@ -1730,6 +1730,10 @@ NotoriousTZ.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.njoag.gov/chief-executive-officer-of-technology-company-indicted-in-alleged-million-dollar-securities-fraud-ponzi-scheme/',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/2014-08-30_11_07_51_View_of_Mercer_County_Court_House_in_Trenton,_New_Jersey_from_the_east.JPG?width=1200',
+    coverImageCredit: 'Photo: Famartin, Wikimedia Commons (CC BY-SA 4.0) — the Mercer County Courthouse in Trenton, New Jersey, where Skyline Technologies was based and Xiao Hu was indicted',
+    coverImagePosition: 50,
     body: `Note: this case is at the indictment stage. Xiao Hu has been charged but not convicted, and the allegations described below reflect the government's case rather than proven facts.
 
 Xiao Hu — who also went by "Mark Hu" — was the founder and chief executive of Skyline Technologies USA LLC, a company based in Mercer County, New Jersey, when he began soliciting investors with claims that Skyline had developed proprietary, artificial-intelligence-driven trading products capable of delivering annual returns of 10 to 22 percent, according to a New Jersey state grand jury indictment. Between 2019 and 2023, he raised more than $1 million from at least six investors on the strength of those claims.
@@ -1749,6 +1753,10 @@ NotoriousTZ.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/usao-ndfl/pr/chinese-national-sentenced-conspiracy-defraud-elderly-victims',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Gainesville_City_Hall_(West_face).JPG?width=1200',
+    coverImageCredit: 'Photo: Michael Rivera, Wikimedia Commons (CC BY-SA 4.0) — Gainesville, Florida, where Xin Liu picked up cash from an assisted-living community victim',
+    coverImagePosition: 50,
     body: `Xin Liu, 40, a Chinese national living in Apopka, Florida on an H-1B work visa, played a role that many elder-fraud schemes need but few outsiders ever see: the local person who actually shows up in person to collect a victim's money. According to the U.S. Attorney's Office for the Northern District of Florida, Liu conspired with a scammer based in China who identified elderly targets across the state by phone calls and electronic messages, building the kind of urgent, confusing pretext — a supposed legal problem, an emergency, a prize or refund requiring action — that these schemes typically use to convince a victim that only immediate cash will fix the situation.
 
 Rather than have victims wire money or buy gift cards, as many remote scams do, the scheme prosecutors described relied on someone local to pick the money up directly. Between July 22 and July 30, 2025, Liu drove to at least six locations across Florida to collect cash and packages from victims in person, including one visit to an assisted-living community in Gainesville, and delivered the proceeds back to her co-conspirators in China, keeping a cut of the stolen money as her own payment. Court records described one Gainesville-area victim who lost $60,000, including a single $15,000 cash pickup and a separate $20,000 wire transfer, in the space of about a week. In total, prosecutors said Liu and her co-conspirators attempted to collect more than $95,000 from victims during the scheme.
