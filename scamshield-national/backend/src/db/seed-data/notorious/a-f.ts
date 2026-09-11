@@ -8045,6 +8045,10 @@ Her case is a reminder that the organizations most vulnerable to embezzlement ar
     slug: 'adam-gentile-medical-practice-payroll-embezzlement',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Doctor_office_waiting_room.jpg?width=1200',
+    coverImageCredit: 'Photo: Kurt Kaiser, CC0, via Wikimedia Commons — representative medical office waiting room',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     body: `Adam Gentile was hired in 2014 as an administrative assistant at a medical practice near Boston and was soon promoted to office manager, a role that gave him sole responsibility for processing the practice's payroll. Starting around 2015 and continuing through November 2020, prosecutors say Gentile used that access to quietly issue himself extra paychecks — sometimes labeling them "bonuses" in the practice's books — funneling roughly $4.5 million out of his employer over five years while the fabricated payments sat disguised among the practice's normal payroll records.
 
 Rather than stop after leaving that job, Gentile took the same playbook to a second employer. Hired in 2021 as office manager at another medical practice, again with sole control over payroll, he ran a nearly identical scheme from April 2021 through May 2024, issuing himself unauthorized payroll payments recorded as bonuses and diverting roughly $3.3 million more. Between the two practices, prosecutors say Gentile used the stolen money to pay down personal credit card balances, fund home improvements on his property in Hudson, Massachusetts, and bankroll a side business — ordinary-looking spending that never showed up as suspicious because it wasn't running through the victim companies' own accounts, just money that had already left them.
@@ -8059,6 +8063,10 @@ Gentile's case is a reminder that a single point of failure doesn't stop being d
     slug: 'david-gilchrist-grand-prairie-attorney-ponzi-scheme',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Grand_Prairie_May_2019_10_(Grand_Prairie_City_Hall).jpg?width=1200',
+    coverImageCredit: 'Photo: Michael Barera, CC BY-SA 4.0, via Wikimedia Commons — Grand Prairie, Texas City Hall',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     body: `David Thomas Gilchrist had been a licensed Texas attorney since 1983 when, according to federal prosecutors, he began pitching investors in Grand Prairie on an opportunity built around property tax liens — buying up delinquent tax debt secured by real estate, then collecting steep statutory interest or the underlying property if the debt went unpaid. Between April 2023 and January 2026, prosecutors say Gilchrist collected approximately $1.45 million from investors this way (the SEC's parallel civil case puts the figure at more than $1.85 million), returning only around $789,000 — a shortfall prosecutors allege he papered over using forged quitclaim deeds bearing unauthorized notary stamps and signatures, making liens and properties that didn't actually back the investments look real on paper.
 
 What makes the case unusual is what prosecutors say Gilchrist did once the SEC and investors started asking questions. Rather than simply stop, he allegedly built a cover story around a real person who had nothing to do with the scheme: a green-card holder identified in court filings by the initials R.A., whom Gilchrist falsely cast as an undocumented intermediary supposedly central to the transactions — a fabrication prosecutors say he also fed directly to federal regulators investigating him. When that story risked unraveling, prosecutors allege Gilchrist told R.A.'s husband that the FBI was looking for him and pressured the couple to leave the country on a "vacation" to Mexico rather than be available to speak with investigators.
@@ -8076,6 +8084,10 @@ NotoriousAF.push(
     slug: 'matthew-campbell-preferred-property-ponzi-scheme',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Downtown_Fresno_Skyline.jpg?width=1200',
+    coverImageCredit: 'Photo: JMora24, CC BY-SA 4.0, via Wikimedia Commons — downtown Fresno, California skyline',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     body: `Matthew Campbell, 43, of Fresno, California, had run two real estate investment companies, Preferred Property LLC and Ampez Rehab Investments LLC, since 2012, pitching investors on a business that bought, renovated, and resold houses. Starting in 2018, according to federal prosecutors, the legitimate parts of that business stopped being enough, and Campbell began telling investors things that weren't true — about the companies' finances, about how their money was being used, and about the "guaranteed returns" and distributions he promised them.
 
 Between January 2018 and October 2025, prosecutors say, Campbell raised more than $9.1 million from over 40 investors this way. At least $2.3 million of what came in from newer investors went straight back out to pay off earlier ones — the defining mechanic of a Ponzi scheme — while the rest was diverted to purposes that had nothing to do with the real estate deals investors thought they were funding. "Each investor believed Campbell's claim that his legitimate real estate business could offer guaranteed returns, not knowing those promises were impossible to fulfill," said Brian Tosh, Special Agent in Charge of the FBI's Sacramento Field Office, in announcing the case.
