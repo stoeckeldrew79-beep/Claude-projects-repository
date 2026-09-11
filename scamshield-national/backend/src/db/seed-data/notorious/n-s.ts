@@ -5347,6 +5347,10 @@ NotoriousNS.push(
     slug: 'olayinka-sunmola-prince-charming-romance-scam',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Lagos_(Nigeria).jpg?width=1200',
+    coverImageCredit: 'Photo: Anders Broberg (CC BY-SA 2.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.justice.gov/usao-sdil/pr/prince-charming-behind-bars-nigerian-romance-scammer-nets-27-year-prison-sentence',
     body: `From 2007 to 2014, Olayinka Ilumsa Sunmola ran a criminal organization out of Nigeria and South Africa that federal prosecutors said targeted and stole from hundreds of women across the United States, with dozens of victims concentrated in the St. Louis, Missouri, and southern Illinois area. Sunmola and his associates built fake online personas using stolen photographs — including photos of real U.S. soldiers, some of them deceased — and posed as American military service members stationed overseas or as engineers working government contracts in South Africa, cultivating what felt to the women on the other end like genuine, intense long-distance relationships.
 
@@ -5364,6 +5368,10 @@ NotoriousNS.push(
     slug: 'ronald-diaz-morgan-stanley-elder-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Downtown_Tucson,_Arizona_(5)_(3441082332).jpg?width=1200',
+    coverImageCredit: 'Photo: Ken Lund (CC BY-SA 2.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.justice.gov/usao-az/pr/former-morgan-stanley-financial-advisor-sentenced-prison-defrauding-his-elderly-client',
     body: `Ronald Diaz worked as a financial advisor at Morgan Stanley in Tucson, Arizona, a role that put him in direct control of an elderly client's trust in exactly the way elder-fraud investigators warn about. Diaz told the client he had found an "annuity" investment opportunity that guaranteed a 10 percent return — the kind of promised, fixed high return that should raise doubts on its own — and between November 2020 and July 2022 directed the victim to transfer a total of $970,000 into accounts held by members of Diaz's own family.
 
@@ -5381,6 +5389,10 @@ NotoriousNS.push(
     slug: 'okechukwu-nwofor-romance-scam-bec-money-laundering',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Federal_Courthouse_Brooklyn.jpg?width=1200',
+    coverImageCredit: 'Photo: Beyond My Ken (CC BY-SA 4.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.justice.gov/usao-cdca/pr/ringleader-group-laundered-money-stolen-romance-scams-and-other-swindles-sentenced',
     body: `Okechukwu Nwofor, of Brooklyn, New York, didn't build the fake online personas or write the messages that convinced victims across the country they had found love or were handling an urgent business wire transfer — that work fell to overseas co-conspirators running romance scams and business email compromise (BEC) schemes. From at least July 2018 through August 2019, Nwofor's job was what came after: receiving the money victims sent and making it disappear into the ordinary banking system before anyone could claw it back.
 
