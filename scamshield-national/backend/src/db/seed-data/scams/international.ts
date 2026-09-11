@@ -11146,6 +11146,16 @@ International.push(
     sourceUrl: 'https://police.kn/press-releases/detail/367',
     country: 'KN',
   },
+  {
+    name: 'St. Kitts $50 Million Fraud and Money Laundering Charges Against Paul Bilzerian and Associates',
+    slug: 'st-kitts-50-million-fraud-money-laundering-bilzerian',
+    description: `The Royal St. Christopher and Nevis Police Force (RSCNPF) formally charged three people at Basseterre Police Station on June 18, 2026 following a lengthy White Collar Crime Unit investigation into an alleged scheme to obtain roughly US$50 million by false pretences and then launder the proceeds, allegedly carried out between November 2018 and July 2024. Charged were Paul Bilzerian and Terri Steffen, both of Frigate Bay, and Gregory Gilpin-Payne of New Road, St. Kitts; Bilzerian and Gilpin-Payne each face four counts — money laundering by transaction, conspiracy to commit money laundering, false pretence, and conspiracy to commit false pretence — while Steffen was charged with conspiracy to commit money laundering. Police said the investigation is ongoing and that further inquiries are being pursued, and stated plainly that "St. Kitts and Nevis will not be used as a vehicle for fraud, false pretences, or the laundering of criminal proceeds." Bilzerian is a former U.S. corporate takeover financier who was convicted in New York in 1989 on nine federal counts including securities fraud, false statements to the SEC, and conspiracy to defraud the IRS and SEC, and who relocated to St. Kitts after serving his sentence, later working as a service provider within the country's Citizenship-by-Investment program despite that record — a history that underscores why local authorities and prospective investors are urged to independently verify the licensing, registration, and background of anyone soliciting large sums for an investment or business opportunity in the Federation before transferring any money, rather than relying on reputation or existing residency alone.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'high',
+    sources: ['Royal St. Christopher and Nevis Police Force', 'The St Kitts Nevis Observer', 'ZIZ Broadcasting Corporation', 'SKNVibes'],
+    sourceUrl: 'https://www.nevispages.com/rscnpf-charges-trio-in-50-million-fraud-money-laundering-matter/',
+    country: 'KN',
+  },
 );
 
 International.push(
