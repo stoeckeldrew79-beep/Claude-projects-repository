@@ -6719,6 +6719,10 @@ NotoriousAF.push(
     slug: 'elie-schwartz-nightingale-properties-crowdstreet-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Richard_B._Russell_Federal_Building_and_Courthouse,_Atlanta_(Fulton_County,_Georgia).jpg?width=1200',
+    coverImageCredit: 'U.S. Marshals Service, Public Domain, via Wikimedia Commons',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.justice.gov/usao-ndga/pr/head-commercial-real-estate-investment-firm-sentenced-federal-prison-628-million-fraud',
     // no rights-cleared photo identified — sourceUrl above serves as the "read the full story" link
     body: `Elchonon "Elie" Schwartz ran Nightingale Properties, a New York commercial real estate investment firm, and raised money the way a growing share of real estate deals now do: through CrowdStreet, an online platform that connects individual investors directly with commercial property offerings, letting a firm raise millions from hundreds of strangers without ever meeting most of them in person.
