@@ -5575,6 +5575,10 @@ The Perkins case is a reminder that a fund's reported performance is only as tru
     slug: "leigh-tesar-medicare-wound-care-fraud",
     author: "ScamShield Editorial",
     tags: ["notorious", "notorious-scammer"],
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Raymond_James_Stadium.JPG?width=1200",
+    coverImageCredit: "Photo: AHeneen, Wikimedia Commons (CC BY-SA 4.0) — Raymond James Stadium in Tampa, where prosecutors allege scheme proceeds paid for a luxury suite",
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found; case is at the indictment stage
     sourceUrl: "https://www.justice.gov/criminal/criminal-fraud/health-care-fraud-unit/2026-national-hcf-case-summaries",
     body: `Note: this case is at the indictment stage. The scheme described below reflects criminal charges brought by federal prosecutors — Leigh Tesar, Walter Presha Jr., and Koby Evans have not been convicted, and the allegations against them are, as a matter of law, unproven.
 
