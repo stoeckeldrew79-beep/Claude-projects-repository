@@ -12035,6 +12035,19 @@ International.push(
 
 International.push(
   {
+    name: 'ManageMyHealth Ransomware Breach Threatens Niue Residents\' Health Data',
+    slug: 'niue-managemyhealth-ransomware-breach-advisory',
+    description: `RNZ Pacific reported on January 7, 2026 that Niue's Department of Health had issued a community advisory after a major cyberattack on ManageMyHealth, a patient portal used across New Zealand's health system, in which hackers breached the platform around December 31, 2025 and threatened to release personal health data unless a ransom was paid. Niue does not use the ManageMyHealth application for its own internal clinical records — its Department of Health instead relies on ManageMyHealth's partner system, Medtech — and officials said they had not detected any breach of Niue's internal clinical records, describing the overall impact on the Niuean community as low-risk. However, the department specifically warned that some Niue residents had independently signed up for and used the ManageMyHealth app itself, separate from the government's own systems, and that this group could have had their information exposed in the breach. "Although there is a low-risk impact on our community regarding the above breach in NZ, we are aware there are some in our community that are registered and use the app," the Department of Health said, with Niue's director of health, Minerva Ikimau-McCurdy, telling residents who use the app that "some of your information therein could potentially be affected" and urging them to stay informed as the investigation continued in New Zealand. The Cook Islands' Ministry of Health issued a similar advisory the same week after detecting and blocking an unsuccessful attempt to breach its own ManageMyHealth-linked data, and ManageMyHealth's operators said they had received independent confirmation from IT experts that the flaws in its code had since been fixed. Authorities in both Pacific nations said they would continue providing local updates as the New Zealand investigation into the ransom threat progressed.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'low',
+    sources: ['RNZ Pacific', 'Niue Department of Health'],
+    sourceUrl: 'https://www.rnz.co.nz/international/pacific-news/583350/cooks-niue-say-data-secure-after-nz-hack-but-independent-niue-users-could-be-at-risk',
+    country: 'NU',
+  },
+);
+
+International.push(
+  {
     name: 'WorldBuy Fake Crypto Trading App Collapse',
     slug: 'mauritania-worldbuy-crypto-trading-app-collapse',
     description: `Mauritanian outlets Cridem and Radiodiffusion Mauritanie Internationale reported that a mobile application called WorldBuy, along with a related platform known as VCT, drew in large numbers of young Mauritanians during 2024 by promising rapid, outsized returns on cryptocurrency trading. The operators encouraged users to open multiple accounts and keep depositing funds, telling them that additional accounts and larger deposits would generate bigger profits. Reporting described the schemes as deliberately targeting people of modest income, with individual victims said to have lost sums as high as 900,000 Mauritanian ouguiya and total losses across victims estimated in the hundreds of millions of old ouguiya. On May 13, 2024, WorldBuy abruptly stopped allowing withdrawals, the app disappeared from download platforms, and its Nouakchott office was found closed with staff gone, leaving depositors unable to recover their money. Victims organized in WhatsApp groups to seek legal recourse and publicly accused banks and mobile payment services of having facilitated the transfers without adequate warning, while also criticizing the state for a lack of consumer protection against the scheme. No arrests or prosecutions of the operators were reported at the time of the coverage.`,
