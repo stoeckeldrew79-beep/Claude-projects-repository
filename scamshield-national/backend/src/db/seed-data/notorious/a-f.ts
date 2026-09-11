@@ -7819,3 +7819,20 @@ Both women pleaded guilty, Durbon to conspiracy to commit wire fraud and Lukasik
 The case is a reminder that elder financial exploitation is most often committed by the people closest to a victim, not a stranger on the phone — a caretaker already has the access, the routine, and the trust that a con artist usually has to work hard to build, and stealing from a client who genuinely cannot advocate for herself can go undetected for years precisely because no one outside the household is watching closely enough to ask questions.`,
   },
 );
+
+NotoriousAF.push(
+  {
+    title: 'Daren Palmer: The Idaho Ponzi Scheme That Preyed on Family, Friends, and Fellow Churchgoers',
+    slug: 'daren-palmer-trigon-group-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.fbi.gov/saltlakecity/press-releases/2011/idaho-falls-man-sentenced-in-29-million-loss-ponzi-scheme',
+    body: `Daren L. Palmer owned and ran Trigon Group, LLC, a commodity-trading operation he worked out of Idaho Falls, Idaho, pitching it to local investors as a safe way to earn steady returns on their savings. His client base wasn't strangers responding to an ad — it was drawn heavily from his own family, friends, and fellow members of the Church of Jesus Christ of Latter-day Saints, the kind of close-knit affinity network where a warm personal referral tends to substitute for independent due diligence.
+
+From 2002 through December 2008, Palmer took in roughly $75.8 million from 68 investors. Rather than trading the funds as promised, Trigon operated as a Ponzi scheme, with new investors' money used to pay purported returns to earlier ones. Palmer kept soliciting even as the operation's finances deteriorated: in September 2008, months before it collapsed, he persuaded a client to invest another $500,000 without disclosing that Trigon was already in serious financial trouble.
+
+Both the CFTC and the SEC filed civil actions against Palmer and Trigon; the CFTC's case alone resulted in more than $41.2 million in disgorgement and civil monetary penalties. On the criminal side, Palmer pleaded guilty in May 2011 to wire fraud and money laundering. U.S. District Judge Edward J. Lodge sentenced him in the District of Idaho that September to eight years in federal prison — later reduced to seven years following an appeal — along with three years of supervised release, 200 hours of community service, and restitution of $29,842,731, reflecting the losses investors ultimately suffered on their $75.8 million in contributions.
+
+Palmer's case is a recurring pattern in affinity fraud: a locally trusted operator, embedded in a real community and a real congregation, offering steady above-market returns to the people least likely to ask for independently verifiable account statements — because doing so would feel like distrusting a neighbor rather than protecting an investment.`,
+  },
+);
