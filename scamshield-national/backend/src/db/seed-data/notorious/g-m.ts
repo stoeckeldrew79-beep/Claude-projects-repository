@@ -7629,3 +7629,20 @@ The whole arrangement collapsed in October 2009 when Rothstein's fraud came apar
 Levin's case illustrates a recurring feature of large Ponzi schemes: they rarely run on the fraudster's own charisma alone. Rothstein needed feeder networks like Banyon to keep new money arriving faster than old investors demanded payouts, and the people running those networks — even when they insist they were themselves deceived — can end up legally and financially responsible for the money they funneled into a fraud they were supposed to be vetting.`,
   },
 );
+
+NotoriousGM.push(
+  {
+    title: 'Larry Ray: The Con Man Who Turned a College Dorm Into a Decade-Long Extortion Scheme',
+    slug: 'larry-ray-sarah-lawrence-extortion-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.foxnews.com/us/sarah-lawrence-college-trafficker-larry-ray-sentenced-60-years-sex-trafficking-forced-labor-scheme',
+    body: `In 2010, Lawrence "Larry" Ray moved into his daughter's dorm room at Sarah Lawrence College in Bronxville, New York, ostensibly to stay with her after a difficult period in his own life. He never really left, and neither did the influence he built over the following decade — not just over his daughter but over the circle of her roommates and friends who became known, privately, as "the Ray family."
+
+Ray presented himself to the students as a worldly protector with a background in military intelligence and government connections, cooking them dinners and offering fatherly advice before slowly tightening his grip. Prosecutors described a methodical campaign of psychological manipulation — sleep deprivation, forced confessions to fabricated crimes, verbal abuse, and threats — used to isolate victims from their families and convince them they owed Ray money for damage they believed, falsely, that they had caused him. Once that debt existed in a victim's mind, Ray extracted payment for years: victims drained their parents' savings, opened credit lines, solicited money from acquaintances, and in at least one case a victim was coerced into prostitution, with prosecutors saying Ray extracted millions of dollars in proceeds from that exploitation alone.
+
+A federal jury in the Southern District of New York convicted Ray in April 2022 on all 15 counts he faced, including racketeering, extortion, sex trafficking, forced labor, money laundering, and tax evasion, following a monthlong trial. On January 20, 2023, U.S. District Judge Lewis J. Liman sentenced Ray to 60 years in federal prison, telling the courtroom the abuse amounted to "sadism, pure and simple" and that Ray had set out to "take any light from his victims' lives."
+
+Ray's case is a stark illustration of how financial exploitation doesn't require a stock pitch or a fake investment fund — coercive control, sustained over years inside what looked from the outside like an ordinary friend group, extracted just as much money and did far graver harm than most of the schemes typically labeled a "scam."`,
+  },
+);
