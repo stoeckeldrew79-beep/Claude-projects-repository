@@ -4729,6 +4729,9 @@ NotoriousAF.push(
     slug: 'todd-farha-wellcare-medicaid-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Florida_State_Capitol_and_Florida_House_Office.JPG?width=1200',
     sourceUrl: 'https://www.tampabay.com/news/business/us-supreme-court-wont-hear-appeal-of-fraud-conviction-of-wellcare-health/2321513/',
     body: `Todd Farha was chief executive of WellCare Health Plans, a Tampa-based managed-care company that ran two Florida Medicaid HMOs, Staywell and HealthEase, covering hundreds of thousands of low-income and disabled state residents. Florida's Medicaid contracts required behavioral-health plans like WellCare's to spend at least 80 percent of the premiums they were paid on actual patient care; any shortfall below that threshold had to be refunded to the state's Agency for Health Care Administration. It was a consumer-protection mechanism built directly into the contract — and, prosecutors would later show, one WellCare's own executives set out to defeat rather than satisfy.
 
