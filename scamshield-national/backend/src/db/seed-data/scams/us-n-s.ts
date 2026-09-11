@@ -4983,3 +4983,15 @@ UsNS.push({
     country: 'US',
     state: 'PA',
 });
+
+UsNS.push({
+    name: 'Susquehanna Valley Credit Union Board Member "Better Investment" Fraud (William Brenner)',
+    slug: 'pennsylvania-york-county-brenner-credit-union-investment-fraud',
+    description: `William D. Brenner, 62, of Dover Township in York County, Pennsylvania, sat on the board of Susquehanna Valley Federal Credit Union and used that position to gain the trust of an elderly local woman, born in 1936, and her daughter, who held power of attorney over her mother's finances. According to a federal indictment returned August 5, 2026, Brenner persuaded the pair that he could get them a better return than the investment the elderly woman already had, then had them move her retirement savings into an account at the credit union where he served as a board member. Prosecutors say Brenner forged a document making it appear the woman and her daughter had authorized him to use more than $1 million of her money to buy a commercial property in Caneyville, Kentucky, by cutting and pasting authentic signatures the two women had given him on an unrelated document. With the diverted funds, Brenner bought the Kentucky property along with a new Dodge Ram pickup truck, a skid steer, and other motorized equipment for his own use. He was indicted on charges of wire fraud and engaging in unlawful monetary transactions, and the case, investigated by the U.S. Secret Service, remains pending in the U.S. District Court for the Middle District of Pennsylvania. The case shows that a scammer doesn't need to be a stranger to drain a retirement account — a trusted local figure with an official-sounding title, like a credit union board seat, can use that credibility to move money before anyone questions the paperwork; families managing an aging relative's power of attorney should insist that any new investment or account move be confirmed independently and in writing directly with the financial institution's own compliance office, not just with the individual proposing it, and should be suspicious of any document requiring only their previously-given signature transferred onto something new.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office, Middle District of Pennsylvania", 'U.S. Secret Service'],
+    sourceUrl: 'https://www.justice.gov/usao-mdpa/pr/dover-resident-charged-defrauding-elderly-victim-over-1-million-and-using-proceeds-his',
+    country: 'US',
+    state: 'PA',
+});
