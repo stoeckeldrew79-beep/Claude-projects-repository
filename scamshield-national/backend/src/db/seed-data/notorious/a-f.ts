@@ -6997,6 +6997,10 @@ Fraud built around curses, hexes, and spiritual "cleansings" survives because it
     slug: 'alexander-baldonado-medicare-kickback-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Federal_Courthouse_Brooklyn.jpg?width=1200',
+    coverImageCredit: 'Photo: Beyond My Ken, CC BY-SA 4.0, via Wikimedia Commons — the federal courthouse in Brooklyn, home of the Eastern District of New York',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     sourceUrl: 'https://www.justice.gov/opa/pr/doctor-sentenced-seven-years-prison-24m-medicare-fraud',
     body: `Alexander Baldonado, M.D., 69, of Queens, New York, was a licensed physician whose signature was worth money to the people running fraudulent medical billing schemes — not for any care he provided, but simply because a doctor's order is what turns a lab test or a piece of medical equipment into something Medicare will pay for. Federal prosecutors say Baldonado sold that signature for cash, again and again, over years.
 
