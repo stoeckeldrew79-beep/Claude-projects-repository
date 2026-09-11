@@ -4638,6 +4638,9 @@ NotoriousNS.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.fca.org.uk/news/press-releases/daniel-pugh-sentenced-for-ponzi-scheme',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Inner_London_Crown_Court_-_geograph.org.uk_-_2560722.jpg?width=1200',
+    coverImageCredit: 'Inner London Crown Court, Southwark — where the FCA obtained a confiscation order against Pugh — by Bill Boaden (CC BY-SA 2.0, Wikimedia Commons)',
     body: `Daniel Pugh ran his fraud from a bedroom in Devon, England, using nothing more sophisticated than paid Facebook advertisements to build a network of 238 investors for something he called the Imperial Investment Fund. The pitch was aggressive even by the standards of investment fraud: returns of 1.4% a day, 7% a week, or 350% a year, figures that would make Pugh's fund, if genuine, one of the best-performing trading operations on the planet.
 
 It wasn't genuine. The UK's Financial Conduct Authority found that only about 19% of the roughly £1.3 million investors put into the fund was ever actually traded; the rest simply moved between accounts, with early investors' "returns" paid out of money coming in from new ones — the standard mechanics of a Ponzi scheme regardless of how small or informal the operation running it looks. Pugh, operating with another individual the FCA has said remains wanted in connection with the scheme, personally received around £96,000, which he spent on designer clothes, restaurant meals, and at least £18,000 withdrawn in cash.

@@ -6754,6 +6754,9 @@ NotoriousAF.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-130mr-former-metigy-ceo-david-fairfull-sentenced-to-nine-years-imprisonment',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Law_Courts_Building.jpg?width=1200',
+    coverImageCredit: 'Law Courts Building, Sydney — home to the Federal Court of Australia, which sentenced Fairfull — by JustARandomEditor123 (CC BY-SA 4.0, Wikimedia Commons)',
     body: `David Fairfull co-founded Metigy Pty Ltd, a Sydney-based startup that sold small and medium businesses AI-powered software for managing digital marketing, and rode it to a valuation that reportedly touched close to AUD 1 billion at its peak, backed by a Series B round led by Cygnet Capital. It was, on the strength of the numbers Fairfull gave investors, one of Australia's most promising AI companies. It was also, according to Australia's corporate regulator, built on financial statements that bore almost no relationship to reality.
 
 Between October 2018 and October 2020, Metigy ran three capital-raising rounds that brought in roughly AUD 23.4 million, followed by a July 2021 secondary share sale that raised a further AUD 15.7 million — a combined AUD 39 million from investors who were told the company's revenue was already in the millions of dollars. The Australian Securities and Investments Commission's investigation found the real figure was just above AUD 43,000. Fairfull didn't stop at misstating revenue: in November 2021, ASIC alleged, he used his position as a director to have Metigy lend him AUD 7.7 million of the company's own money, which he used to buy residential property for himself.
