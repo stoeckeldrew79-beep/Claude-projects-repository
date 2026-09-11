@@ -5887,6 +5887,10 @@ NotoriousAF.push(
     slug: 'eric-stone-fidelity-broker-elder-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/St._Johns_County_Courthouse_North_Entrance.jpg?width=1200',
+    coverImageCredit: 'Michael Rivera, CC BY-SA 4.0, via Wikimedia Commons',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.justice.gov/usao-mdfl/pr/st-augustine-man-sentenced-more-six-years-prison-defrauding-senior-more-2-million',
     body: `Eric James Stone, 43, of St. Augustine, Florida, spent 13 years as a registered representative at Fidelity Investments' Jacksonville office before he was terminated in June 2021 for improperly soliciting and taking personal loans from clients. According to the U.S. Attorney's Office for the Middle District of Florida, that firing didn't end his access to at least one client's trust — a 75-year-old woman he had served as a broker — and it's what he did with that relationship afterward that turned into the much larger fraud.
 
