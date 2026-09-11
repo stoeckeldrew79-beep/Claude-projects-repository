@@ -5040,5 +5040,8 @@ According to the Securities and Exchange Commission and federal prosecutors in t
 Federal prosecutors in the Southern District of New York unsealed an indictment against Lucas on December 18, 2025, charging him with securities fraud, investment adviser fraud, wire fraud, and money laundering; the SEC filed a parallel civil action in April 2026. On July 27, 2026, Lucas pleaded guilty to all four charges — securities fraud, wire fraud, and money laundering each carry a maximum of 20 years in prison, with investment adviser fraud carrying up to five more. His sentencing is scheduled for November 12, 2026.
 
 Lucas's case is a reminder that "I've been part of this community for decades and you know my name" is a credential that speaks to reputation, not to where an investor's money is actually going. The same local trust that had once helped him win a major-party nomination for governor became, in his second act, exactly the kind of familiarity a fraud depends on — investors who had followed his career for years saw no reason to ask a stranger's questions of a fellow New Hampshirite finally running something of his own.`,
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/New_Hampshire_State_House,_Concord,_NH_(2004).jpg?width=1200',
+    coverImageCredit: 'Photo: Ken Lund, CC BY-SA 2.0, via Wikimedia Commons — the New Hampshire State House, Concord, where Lucas served as a state representative and later ran for governor',
   },
 );
