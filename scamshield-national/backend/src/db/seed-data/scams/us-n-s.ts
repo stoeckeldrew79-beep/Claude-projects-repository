@@ -5262,3 +5262,17 @@ UsNS.push({
     isHistorical: true,
     firstRecorded: '2025-03-21',
 });
+
+UsNS.push({
+    name: 'Accelerated Debt Settlement Illegal Upfront Fee Scheme',
+    slug: 'pennsylvania-accelerated-debt-settlement-illegal-fees',
+    description: `Accelerated Debt Settlement, Inc. and related entities Accelerated Debt Solutions, Accelerated Debt Settlement LLC, and Financial Services Group, LLC pitched financially struggling Pennsylvanians on a way to shrink or settle their credit card and other unsecured debts, but Attorney General Dave Sunday's Bureau of Consumer Protection found the businesses collected unlawful upfront payments ranging from $1,200 to $17,500 before ever settling a debt, then in a pattern of cases simply failed to deliver the negotiated relief they had been paid for. The businesses operated without the license Pennsylvania's Debt Settlement Services Act requires and, investigators found, violated both the state's Unfair Trade Practices and Consumer Protection Law and the Federal Trade Commission's Telemarketing Sales Rule, which bars debt-settlement companies from charging most fees before they actually settle a customer's debt. Before this settlement was reached, the businesses had already issued more than $55,000 in refunds to consumers through the Bureau of Consumer Protection's mediation process. Announced April 4, 2025, the settlement requires Accelerated Debt Settlement and its affiliates to pay $550,000 total — $500,000 of it earmarked for consumer refunds, with individual checks ranging from $2,850 to $19,998 mailed directly by the Office of Attorney General — and bars the companies from advertising or selling debt-settlement services in Pennsylvania until they obtain the required license. Consumers who believe they were charged by the same businesses had 90 days from the announcement to file a complaint with the Bureau of Consumer Protection to become eligible for restitution. Anyone considering a debt-settlement company should confirm it is licensed with the Pennsylvania Department of Banking and Securities before paying anything, should treat any request for a large fee before a debt is actually settled as illegal under federal telemarketing rules, and can file a complaint with the Pennsylvania Office of Attorney General's Bureau of Consumer Protection at 1-800-441-2555.`,
+    categorySlug: 'debt-relief-scams',
+    alertLevel: 'medium',
+    sources: ["Pennsylvania Office of Attorney General (Dave Sunday)", 'CBS News Pittsburgh'],
+    sourceUrl: 'https://www.attorneygeneral.gov/taking-action/ag-sunday-secures-more-than-500k-in-refunds-for-consumers-from-debt-settlement-businesses-that-allegedly-operated-illegally-in-pa/',
+    country: 'US',
+    state: 'PA',
+    isHistorical: true,
+    firstRecorded: '2025-04-04',
+});

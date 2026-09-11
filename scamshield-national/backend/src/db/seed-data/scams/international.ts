@@ -11532,6 +11532,26 @@ International.push(
     sourceUrl: 'https://www.gabonreview.com/iphone-17-50e-anniversaire-tirage-au-sort-larnaque-dans-vos-messageries-qui-usurpe-cecado/',
     country: 'GA',
   },
+  {
+    name: 'Gabon BMI Investissement Bitcoin Ponzi Scheme',
+    slug: 'gabon-bmi-investissement-bitcoin-ponzi-scheme',
+    description: `On November 9, 2023, the Commission de Surveillance du Marché Financier de l'Afrique Centrale (COSUMAF), the financial market regulator for the six-nation CEMAC region including Gabon, issued a public alert against a Libreville-based outfit called BMI Investissement Gabon over an illegal public offering of cryptocurrency investments. Operating since 2022 and advertising mainly through Facebook, BMI Investissement solicited deposits from the public with promises of an 80% return on investment within a single hour, instructing investors to send funds via Airtel Money to a designated mobile number. Victims who transferred money and sent screenshots as proof of payment were initially in contact with representatives of the scheme, who then cut off communication once funds were collected, leaving investors with compromised mobile-money accounts and no return of their principal. COSUMAF stated that BMI Investissement Gabon did not appear on its list of entities authorized to offer digital-asset investment services to the public, declared its fundraising activity illegal, ordered the structure to cease the practice immediately, and referred the matter for judicial and administrative action. The regulator urged the public and investors to refrain from subscribing to BMI Investissement's offers pending the outcome of proceedings, and more broadly warned CEMAC residents to be wary of unlicensed platforms promising guaranteed short-term returns on cryptocurrency.`,
+    categorySlug: 'cryptocurrency-scams',
+    alertLevel: 'high',
+    sources: ["Commission de Surveillance du Marché Financier de l'Afrique Centrale (COSUMAF)", 'Gabonreview', 'Le Nouveau Gabon'],
+    sourceUrl: 'https://www.gabonreview.com/cryptomonnaie-la-cosumaf-alerte-sur-une-anarque-de-bmi-investissement-gabon/',
+    country: 'GA',
+  },
+  {
+    name: 'Gabon Fake CNSS, DGCC and City Hall Agents Extortion Duo',
+    slug: 'gabon-fake-cnss-dgcc-city-hall-agents-scam',
+    description: `Following a complaint filed on December 30, 2024, Gabon's Direction Générale des Recherches (DGR) spent several weeks surveilling and ultimately dismantled a two-man fraud operation in which suspects identified as Patrick and Blanchard posed as officials of the Caisse Nationale de Sécurité Sociale (CNSS), the Direction Générale de la Concurrence et de la Consommation (DGCC), and the Libreville city hall to extort money from small business operators. The pair produced forged identification cards to back up their claimed authority and, on at least some outings, arranged to appear alongside genuine security-force personnel, lending false credibility to their shakedowns of shopkeepers and other business owners who believed they were facing real regulatory or social-security inspections. The DGR made the arrest during an active con operation at the Lycée Mohamed Arissani in Libreville's Nzeng Ayong neighborhood, after multiple victims had come forward. Both suspects were referred for prosecution on charges of impersonating public officials (usurpation de fonction), forgery, and fraud. The case illustrates a recurring pattern in Gabon of scammers posing as CNSS, tax, consumer-protection, or municipal inspectors to pressure business owners into on-the-spot payments, and authorities urged operators confronted by self-identified officials to demand and verify credentials before handing over any money.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Direction Générale des Recherches (DGR), Gabon', 'Gabon Mail Infos'],
+    sourceUrl: 'https://gabonmailinfos.com/faux-agents-cnss-dgcc-et-mairie-la-dgr-demantele-un-duo-darnaqueurs/',
+    country: 'GA',
+  },
 );
 
 International.push(
