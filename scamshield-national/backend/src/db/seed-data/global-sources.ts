@@ -215,4 +215,31 @@ export const SEED_GLOBAL_SOURCES: SeedGlobalSource[] = [
       "South Korea's National Police Agency publishes yearly cybercrime-fraud figures — broken down by category such as direct-transaction fraud, shopping-mall scams, and (as of 2024) cyber investment fraud and celebrity-impersonation fraud — as a downloadable CSV dataset on the national Public Data Portal, with an Open API also available to registered users.",
     data_type: 'open_dataset',
   },
+  {
+    agency_name: 'INCIBE (Instituto Nacional de Ciberseguridad)',
+    country: 'ES',
+    country_name: 'Spain',
+    url: 'https://www.incibe.es/incibe/sala-de-prensa/incibe-detecto-mas-de-122000-incidentes-de-ciberseguridad-en-2025',
+    description:
+      'Spain\'s National Cybersecurity Institute, under the Ministry for Digital Transformation, publishes an annual "Balance de Ciberseguridad" tallying the incidents it has handled — online fraud, led by phishing, is consistently its single largest category. INCIBE-CERT separately runs a public fraud-reporting channel, but does not publish a raw incident-level dataset.',
+    data_type: 'annual_report',
+  },
+  {
+    agency_name: 'Polizia Postale e delle Comunicazioni',
+    country: 'IT',
+    country_name: 'Italy',
+    url: 'https://www.poliziadistato.it/articolo/i-dati-delle-attivita-della-postale-nel-2024',
+    description:
+      "Italy's national cybercrime police unit (part of the Polizia di Stato) publishes a yearly activity report with online-fraud case counts and euro losses, alongside sextortion, non-consensual-imagery, and critical-infrastructure-attack figures handled by its CNAIPIC center. The public can also file fraud reports directly through the unit's own online portal.",
+    data_type: 'annual_report',
+  },
+  {
+    agency_name: 'Bundesamt für Cybersicherheit (BACS) — formerly NCSC',
+    country: 'CH',
+    country_name: 'Switzerland',
+    url: 'https://www.bacs.admin.ch/de/lageberichte',
+    description:
+      "Switzerland's federal cybersecurity office publishes a semi-annual situation report tallying voluntary and mandatory incident reports; fraud — including phishing and CEO fraud — has made up roughly half of all reports in recent editions. Reports are published in German, French, and English.",
+    data_type: 'annual_report',
+  },
 ];
