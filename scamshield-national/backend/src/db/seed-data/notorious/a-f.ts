@@ -7018,6 +7018,10 @@ NotoriousAF.push(
     slug: 'calvin-darden-jr-dwight-howard-atlanta-dream-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Thurgood_Marshall_United_States_Courthouse,_New_York.jpg?width=1200',
+    coverImageCredit: 'Photo: Mike Peel (mikepeel.net), CC BY-SA 4.0, via Wikimedia Commons — the Manhattan federal courthouse where Darden was tried and sentenced',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     sourceUrl: 'https://www.justice.gov/usao-sdny/pr/atlanta-man-sentenced-151-months-prison-defrauding-former-nba-players',
     body: `Calvin Darden Jr., of Atlanta, pitched former NBA All-Star Dwight Howard on a chance to become the first Black majority owner of a WNBA franchise: an opportunity, Darden said, to buy the Atlanta Dream. To make the deal look real, prosecutors say Darden put together a glossy "Vision Plan" claiming that Tyler Perry, Issa Rae, Naomi Osaka, Aflac, and Starbucks had all agreed to serve as advisors to the team or sponsor it once Howard took ownership — a roster of boldface names designed to make a fake acquisition feel like an inevitability rather than a pitch worth independently checking.
 
