@@ -5564,3 +5564,15 @@ UsNS.push({
     firstRecorded: '2010-02-01',
     state: 'PA',
 });
+
+UsNS.push({
+    name: 'QIS LLC Butler County After-School Medicaid Billing Fraud (Robert Haley)',
+    slug: 'ohio-qis-butler-county-after-school-medicaid-fraud-haley',
+    description: `Robert H. Haley, 63, of Cincinnati, owned QIS LLC, a Butler County, Ohio behavioral-health clinic that billed Medicaid for therapeutic behavioral services supposedly delivered to children enrolled in after-school programs. According to Ohio Attorney General Dave Yost's office, Haley submitted more than 60,000 fraudulent Medicaid claims between January 2020 and May 2026, drawing more than $12 million in improper payments for services that were, in many cases, never provided at all — family members of the children told investigators they knew nothing about the billed services and that signatures on consent forms and service plans appeared to have been forged. A Butler County grand jury indicted Haley on June 4, 2026 on 31 felony counts, including engaging in a pattern of corrupt activity, aggravated theft, Medicaid fraud, telecommunications fraud, tampering with evidence, and 26 separate counts of forgery; the case proceeds in Butler County Common Pleas Court. "This was complete fraud — top to bottom," Yost said in announcing the indictment. Haley had previously worked as a regional manager for an opioid treatment center that operated in Butler County before closing. Parents whose children are enrolled in Ohio Medicaid behavioral-health or after-school therapeutic services are advised to review any explanation-of-benefits notice against services their child actually received, to ask directly before signing any consent form or service plan what specific services it authorizes, and to report a mismatched or unfamiliar billing entry to the Ohio Medicaid Fraud Control Unit rather than assume it is a clerical error.`,
+    categorySlug: 'healthcare-fraud',
+    alertLevel: 'high',
+    sources: ["Ohio Attorney General's Office (Medicaid Fraud Control Unit)"],
+    sourceUrl: 'https://www.ohioattorneygeneral.gov/Media/News-Releases/June-2026/Cincinnati-Man-Indicted-in-$12M-Medicaid-Scheme',
+    country: 'US',
+    state: 'OH',
+});
