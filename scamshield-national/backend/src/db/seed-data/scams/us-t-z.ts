@@ -3028,3 +3028,17 @@ UsTZ.push({
     isHistorical: true,
     firstRecorded: '2019-01-01',
 });
+
+UsTZ.push({
+    name: 'Washington "Renton Collections" Medical Debt Disclosure Violations',
+    slug: 'washington-renton-collections-medical-debt-disclosure-settlement',
+    description: `Renton Collections Inc. (RCI), a debt collection agency, sent collection notices to roughly 400,000 Washington residents over medical debt without including the disclosures state law has required since 2019 — specifically, that a person has the right to request key information about the debt, including the dates of service, what care was actually provided, any interest or fees added, and whether they might qualify for a hospital's charity-care program that could reduce or eliminate what they owed. The Washington Attorney General's office found RCI's collection practices generated more than $35 million from consumers while the agency earned over $7 million in commissions, all without giving people the legally required opportunity to check whether the underlying bill was accurate or whether they qualified for financial assistance before paying. Attorney General Nick Brown's office filed a consent decree in King County Superior Court on April 13, 2026 requiring RCI to provide $1.5 million in medical debt relief, permanently barring the company from ever collecting fees, costs, or interest on the debt at issue in the case, and requiring it to include the mandatory disclosures in all future collection notices; RCI also agreed to pay $1 million to the state to cover attorneys' fees, enforcement, and future consumer protection efforts. "Debt collectors must inform Washington consumers of their protections under the law, and if not, they will hear from us," the Attorney General's office said in announcing the settlement. Washington residents who receive a medical debt collection notice are advised to check whether it includes their right to request an itemized statement of the underlying services and charges, to ask the original healthcare provider directly about charity-care eligibility before paying a collector, and to report a collection notice that appears to skip these disclosures to the Washington Attorney General's Office.`,
+    categorySlug: 'legal-debt-collection',
+    alertLevel: 'medium',
+    sources: ["Washington State Attorney General's Office (Nick Brown)", 'Washington State Hospital Association'],
+    sourceUrl: 'https://www.atg.wa.gov/news/news-releases/renton-collections-provide-washingtonians-15-million-medical-debt-relief-settle',
+    country: 'US',
+    state: 'WA',
+    isHistorical: true,
+    firstRecorded: '2026-04-13',
+});
