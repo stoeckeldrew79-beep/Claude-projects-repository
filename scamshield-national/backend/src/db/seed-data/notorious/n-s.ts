@@ -5142,6 +5142,10 @@ The surveys themselves were largely theater. Investigators later found that Spea
 Complaints about delayed payments and evaporating survey work began piling up through 2011, and the scheme collapsed the following year under scrutiny from three separate Indian authorities working in parallel: the Reserve Bank of India, the Enforcement Directorate, and the Serious Fraud Investigation Office, alongside criminal investigations by the Mumbai and Delhi police Economic Offences Wings. Ram Sumiran Pal, identified as the scheme's primary promoter, was arrested in November 2013; associate Renu Sharma, a company director, was arrested in October 2016, part of a string of arrests that continued for years after the scheme's collapse as investigators worked through its layered structure of franchises and directors. Total losses to Indian panellists were estimated at roughly ₹2,200 to ₹2,276 crore — between $230 million and $240 million.
 
 Speak Asia's survey framing is what set it apart from a typical Ponzi pitch: asking panellists to fill out forms in exchange for payment made the arrangement feel like modest compensation for real work rather than a speculative investment promising outsized returns, which is exactly the kind of pitch that discourages the questions people would normally ask before handing money to a stranger — like whether the company doing the "hiring" has any genuine revenue behind it, or whether, as investigators ultimately found here, the surveys exist mainly to give a Ponzi scheme's payouts a plausible cover story.`,
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Tower_and_building_of_Reserve_Bank_of_India,_Mumbai_01.jpg?width=1200',
+    coverImageCredit: 'Photo: Pinakpani / Wikimedia Commons / CC BY-SA 4.0',
+    coverImagePosition: 50,
   },
 );
 
