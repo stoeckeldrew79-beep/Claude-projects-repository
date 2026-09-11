@@ -3991,7 +3991,9 @@ Spoutz's case became a textbook example for the FBI's own art-crime unit of how 
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
     sourceUrl: 'https://en.wikipedia.org/wiki/Amit_Bhardwaj',
-    // no rights-cleared photo found — sourceUrl above serves as the "read the full story" link
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Pune_Skyline_2018.jpg?width=1200',
     body: `Amit Bhardwaj was a Pune-based software engineer who left a corporate IT career in the mid-2010s to become one of India's most visible bitcoin promoters, launching what he described as the country's first online bitcoin-accepting marketplace before pivoting, in 2014 and 2015, to a business that would make him vastly more money: selling shares in bitcoin mining. Through companies including GB Miners and GainBitcoin, and later Amaze Mining and Blockchain Research Limited, Bhardwaj toured Indian cities running seminars and building a network of paid recruiters who signed up new investors in exchange for commissions on what they brought in.
 
 The pitch was a cloud-mining contract: hand over bitcoin, and GainBitcoin would use it to run mining hardware on the investor's behalf, paying back a guaranteed 10 percent return every month for eighteen months — a structure that, on its own arithmetic, promised investors nearly double their money back over a year and a half, with no mining equipment, technical risk, or electricity bill of their own to worry about. It was a multi-level-marketing structure wrapped around a commodity few investors, regulators, or reporters in India yet understood well enough to question, and it grew explosively: Bhardwaj's own materials claimed more than 8,000 direct contract holders, and Indian investigators later estimated the true reach — once sub-agents and referral chains across several states were counted — at well over 100,000 people.
