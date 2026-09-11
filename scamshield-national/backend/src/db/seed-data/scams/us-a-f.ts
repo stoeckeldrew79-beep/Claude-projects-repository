@@ -6853,3 +6853,17 @@ UsAF.push({
     isHistorical: true,
     firstRecorded: '1962-03-01',
 });
+
+UsAF.push({
+    name: 'Club Exploria Illegal Timeshare Robocall Lawsuit',
+    slug: 'club-exploria-north-carolina-illegal-robocall-lawsuit',
+    description: `Club Exploria, LLC — a timeshare company also marketed as Exploria Resorts — routed more than 65 million prerecorded robocalls to North Carolina phone numbers, according to a lawsuit North Carolina Attorney General Josh Stein's office filed in Wake County Superior Court on October 18, 2024, reaching over one million different North Carolinians pitching timeshares and vacation rentals. State law requires a business placing prerecorded telemarketing calls to first get the recipient's consent and to accurately identify the caller at the start of each call; investigators say Club Exploria, working through an outside service provider, did neither, leaving consumers bombarded with unsolicited sales pitches they never agreed to receive and often couldn't immediately identify as coming from a timeshare company at all. The lawsuit was filed as part of Stein's broader Anti-Robocall Multistate Litigation Task Force work, which has separately sued robocall-enabling gateway providers and sent warnings to phone carriers that allow illegal call traffic onto their networks, and it asks the court to permanently bar Club Exploria from making illegal robocalls to North Carolina consumers and to impose civil penalties and other costs. Club Exploria has denied the allegations in court filings. The case is a reminder that a call ID showing a company name — or no name at all — is not proof a telemarketer had permission to call, and that consumers who never opted in to a company's calls, especially a prerecorded pitch for a timeshare or vacation package, can report the calls to the North Carolina Attorney General's Consumer Protection Division at 1-877-5-NO-SCAM or file a complaint with the FCC, since a pattern of unconsented robocalls like this one is exactly what state and federal telemarketing law is built to stop.`,
+    categorySlug: 'timeshare-scams',
+    alertLevel: 'medium',
+    sources: ["North Carolina Department of Justice (Attorney General's Office)"],
+    sourceUrl: 'https://ncdoj.gov/wp-content/uploads/2024/10/Club-Exploria-Complaint-2024.10.18.pdf',
+    country: 'US',
+    state: 'NC',
+    isHistorical: true,
+    firstRecorded: '2024-10-18',
+});
