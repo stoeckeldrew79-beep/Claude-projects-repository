@@ -7860,6 +7860,10 @@ NotoriousGM.push(
     slug: 'mustafa-qadiri-ppp-loan-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    // representative photo — replace with an exact match if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Newport_Gateway_19800_%26_19900_MacArthur_Boulevard_Irvine.jpg?width=1200',
+    coverImageCredit: 'Photo: Beyond My Ken (CC BY-SA 4.0) — the Irvine/Newport Beach area where Qadiri registered his four sham companies',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.justice.gov/usao-cdca/pr/irvine-man-sentenced-4-12-years-federal-prison-fraudulently-obtaining-5-million-covid',
     body: `Mustafa Qadiri, of Irvine, California, invented four Newport Beach-based businesses — All American Lending, Inc., All American Capital Holdings, Inc., RadMediaLab, Inc., and Ad Blot, Inc. — for the sole purpose, federal prosecutors said, of collecting Paycheck Protection Program loans the companies had no legitimate right to receive. In May and June of 2020, at the height of pandemic-relief lending meant to keep real payrolls afloat, Qadiri submitted applications to three different banks on the companies' behalf, backed by altered bank records showing inflated balances, fabricated quarterly federal tax filings, and false claims about how many employees the companies paid and how much. For at least one application, prosecutors said, he went further still, using another person's name, Social Security number, and signature without their knowledge to make the paperwork look more convincing.
 
@@ -7868,5 +7872,24 @@ The fraud worked well enough to bring in $5 million across the four sham compani
 A federal grand jury indicted Qadiri on charges including bank fraud, wire fraud, aggravated identity theft, and money laundering, and he pleaded guilty in July 2021 to one count of bank fraud, one count of aggravated identity theft, and one count of money laundering. He was sentenced to four and a half years in federal prison, fined $20,000, and ordered to pay $2,861,050 in restitution; federal agents also seized the Ferrari, Bentley, and Lamborghini he had bought with the fraudulently obtained loans, along with roughly $2 million recovered from his bank accounts.
 
 Qadiri's case is representative of a specific category of COVID-era fraud that federal prosecutors pursued aggressively for years after the money went out the door: PPP loans were disbursed quickly, with limited upfront verification, on the strength of self-reported payroll and tax paperwork that a determined applicant could fabricate outright rather than merely exaggerate. The paper trail that ultimately caught him — altered bank statements and tax forms that didn't match records the government could independently check — is the same kind of documentation gap that has unwound pandemic-relief fraud cases across the country.`,
+  },
+);
+
+NotoriousGM.push(
+  {
+    title: 'Leslie Chinedu Mba: 19 Years for a Business Email and Romance Fraud Ring Run From Inside a Green Card Scheme',
+    slug: 'leslie-chinedu-mba-business-email-romance-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.fox7austin.com/news/nigerian-houston-man-sentenced-20-years-4-million-romance-scam-involving-fraudulent-marriage-attempts',
+    body: `Leslie Chinedu Mba, a Nigerian national who had been living in the Houston area illegally after an earlier immigration application was denied and he was ordered removed from the country, ran an international fraud operation from April 2018 through December 2023 that combined two distinct scam types under one roof. On one side, co-conspirators based outside the United States broke into business email accounts and used that access to redirect legitimate company payments — the kind of business email compromise (BEC) scheme that tricks accounting departments into wiring real invoices to the wrong account — into bank accounts Mba and his network controlled. On the other, the group ran romance scams, cultivating fake online relationships to draw victims into sending money directly. Combined, prosecutors said, the two schemes cost victims and businesses more than $4 million.
+
+Mba was not operating alone: federal prosecutors in the Southern District of Texas separately charged and sentenced several co-conspirators for their roles in the network, including Grace Morisho, Rodgers Kadikilo, and Kristin Smith, each sentenced to roughly 15 to 25 months, and Alexandra Golovko, who received five years of probation. Mba's sentence stood apart from the rest of the group by a wide margin, reflecting prosecutors' view of his leadership role in the conspiracy.
+
+Compounding the fraud, prosecutors said, Mba used the scheme's proceeds and his time in the country to try to cement his immigration status through fraud as well: after his initial bid for lawful permanent residency was denied and a removal order was entered against him, he attempted to obtain a green card through a series of fraudulent marriages rather than leave the country as ordered.
+
+Mba pleaded guilty on December 4, 2025, to conspiracy to commit wire fraud and conspiracy to commit false statements in immigration documents. U.S. District Judge David Hittner sentenced him to 228 months — 19 years — in federal prison, one of the longest sentences handed down in a U.S. business-email-compromise and romance-scam case. He is expected to face federal removal proceedings once his prison term ends.
+
+Mba's case illustrates how the infrastructure behind different scam categories often overlaps: the same conspiracy that hijacked corporate email accounts to reroute six- and seven-figure business payments was, in parallel, running the far more personal con of a fabricated online relationship — two very different victim experiences, funneled through the same laundering network, run by people willing to marry strangers on paper to keep the operation based in the United States.`,
   },
 );
