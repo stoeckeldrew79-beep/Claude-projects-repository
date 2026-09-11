@@ -5225,5 +5225,28 @@ From 2010 until their arrest in June 2017, the Hongs took in $12.7 million from 
 Both Hongs pleaded guilty to conspiracy and wire fraud charges. In October 2018, U.S. District Judge Thomas S. Zilly sentenced Sung Hong to 15 years in federal prison and Hyun Joo Hong to six years, telling Sung Hong directly, "You are one of those con men who will never be able to stop conning people." The CFTC's parallel case against the couple and Pishon Holding LLC resulted in more than $1 million in restitution and penalties on top of the criminal case's consequences.
 
 Hong's case is a reminder that a completed prison sentence and a restitution order don't automatically stop a fraudster who has already shown regulators exactly how he operates — the same affinity-fraud tactic, the same religious-community targeting, and even a company name drawn from scripture reappeared within roughly three years of his release, this time defrauding more than fifty times as many victims as his first conviction covered. A judge's blunt assessment after the second scheme collapsed was, in hindsight, also the clearest warning anyone could have offered the investors who trusted him the second time: a con man caught once has shown you what he's capable of, not necessarily that he's finished.`,
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Clyde_Hill,_Bellevue_seen_from_the_southeast.jpg?width=1200',
+    coverImageCredit: 'Photo: SounderBruce / Wikimedia Commons / CC BY-SA 4.0',
+    coverImagePosition: 50,
+  },
+);
+
+NotoriousNS.push(
+  {
+    title: "Scott Wolas: The Fugitive Biglaw Partner Who Borrowed a Friend's Name for a Second Fraud",
+    slug: 'scott-wolas-fugitive-lawyer-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-ma/pr/former-quincy-man-sentenced-19-million-real-estate-fraud-scheme',
+    body: `Scott Wolas was a partner at Hunton & Williams, a large, well-regarded law firm, when New York prosecutors indicted him in 1997 on 119 counts of fraud and grand larceny over an alleged Ponzi scheme built around a liquor-exporting business he had pitched to investors as a real, profitable venture. Rather than face the charges, Wolas vanished. He was disbarred in absentia in 1999 and spent the following years as a fugitive, cycling through at least six false identities and a string of odd jobs — including stints as a bartender and, eventually, a licensed real estate agent — while New York's case against him sat unresolved.
+
+By 2009, calling himself "Eugene Grathwohl" — borrowing the name of a real Florida man known to his ex-wife — Wolas had built a new, ordinary-looking life in Quincy, Massachusetts, becoming a top-producing agent at a local Century 21 office. That legitimate day job gave him the credibility to run a second fraud on the side: through a company called Increasing Fortune Inc., he solicited investors to fund the redevelopment of the historic Beachcomber Bar property on Quincy Shore Drive and an adjacent home-construction project, promising some investors as much as 125 percent of the profits once the properties were built and sold. Over roughly eight years he collected more than $1.9 million from at least two dozen investors, using the money largely for his own personal expenses rather than any actual construction.
+
+The scheme collapsed in September 2016, when Wolas failed to show up for the property's scheduled closing and abruptly cut off contact with his girlfriend, his coworkers, and his investors. Investigators soon discovered that the well-liked local Realtor was in fact Wolas, still wanted in New York nearly two decades after he had disappeared. He was arrested about six months later, in April 2017, in Delray Beach, Florida.
+
+Wolas pleaded guilty to seven counts including wire fraud, aggravated identity theft, misuse of a Social Security number, and tax evasion. On January 28, 2019, a federal court sentenced him to 81 months in prison and three years of supervised release, and ordered him to pay roughly $1.9 million in restitution to his Massachusetts victims on top of separate amounts owed to the Social Security Administration and the IRS for the identity theft itself.
+
+Wolas's case folds two frauds into one: an original Ponzi scheme old enough that its victims waited decades for any resolution, and a second, unrelated scheme made possible only because the fugitive years in between had taught him exactly how to build a convincing, ordinary identity. Investors who checked out "Eugene Grathwohl" — a licensed agent with a steady sales record at a recognizable national brokerage — had every reason to think they were dealing with someone else entirely, because on paper, they were.`,
   },
 );
