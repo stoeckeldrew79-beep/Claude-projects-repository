@@ -11293,6 +11293,19 @@ International.push(
 
 International.push(
   {
+    name: 'Gibraltar "Mystery Shopper" Phishing and Money-Mule Scam',
+    slug: 'gibraltar-mystery-shopper-phishing-money-mule-scam',
+    description: `In May 2021 the Royal Gibraltar Police's Economic Crime Unit revealed it was investigating a two-stage fraud that had already stolen funds from at least five Gibraltar bank accounts. In the first stage, victims were phished — tricked by fake bank emails or look-alike websites into handing over their online banking credentials — after which fraudsters transferred several thousand pounds out of the compromised accounts. In the second stage, the same fraudsters recruited unwitting "Mystery Shoppers" through fake job adverts posted on local Facebook groups including GibJobs, Gibwork, Unemployment Group Gibraltar, and Gibraltar Things for Sale, offering a fee in exchange for testing a retailer's customer service. Recruits who signed up had the stolen funds — typically several thousand pounds — deposited into their own bank accounts and were then instructed to spend a few hundred pounds on purchases such as online gift vouchers, before converting the remaining balance to cryptocurrency or wiring it to an overseas account, unknowingly laundering the proceeds of the phishing attack on the fraudsters' behalf. The fraudsters operated under a rotating set of aliases, including Anna Danikova, Claybel Quinones, Bobby Bennett, and Zoltan Füller, and the RGP warned that these names were likely to keep changing as the scheme continued. A police spokesman asked anyone who had taken part as a "Mystery Shopper" following a Facebook advertisement to come forward, adding the general warning that "if something looks too good to be true, it usually is," and urged residents to be wary both of unsolicited banking emails and of job offers that require handing over bank account access.`,
+    categorySlug: 'job-task-scams',
+    alertLevel: 'high',
+    sources: ['Royal Gibraltar Police (RGP)', 'The Gibraltar Chronicle', 'Olive Press News Spain'],
+    sourceUrl: 'https://www.police.gi/news/police-investigate-an-elaborate-scam-508',
+    country: 'GI',
+  },
+);
+
+International.push(
+  {
     name: 'Guam "Hafa Adai Bingo" Children\'s Charity Diversion Scheme',
     slug: 'guam-hafa-adai-bingo-charity-diversion-scheme',
     description: `Between March 2015 and the end of 2021, operators of the Guam Shrine Club's Hafa Adai Bingo parlor in Tamuning collected roughly $34 million in gross bingo proceeds from players who believed their spending helped fund travel for sick children to Shriners Hospital for Children in Honolulu, when in fact only a small fraction of that money — about $140,000 over the period — ever reached the charity. Federal prosecutors said club leaders Jose Arthur D. Chan Jr. and his wife Christine C. Chan, along with associate Michael L. Marasigan, instead diverted and laundered more than $10.75 million of the proceeds for personal use while continuing to market the games under the Aloha Shriners' name. A jury convicted the three at trial, and on May 12-13, 2026, Chief Judge Frances Tydingco-Gatewood sentenced Art Chan to 60 months and Christine Chan to 70 months in federal prison; Marasigan, who had fled to the Philippines in 2025 after being granted court permission for medical travel, was sentenced in absentia on May 19, 2026 to 262 months, and the FBI has since offered a $150,000 reward for information leading to his capture. Four additional defendants who pleaded guilty received probation or time-served sentences. All three main defendants were ordered to pay $10,750,804 in joint and several restitution to the Aloha Shriners. The case, investigated by the FBI and IRS Criminal Investigation, is a reminder that a charity's name, decades of community trust, and a seemingly routine bingo night are no guarantee that donated or wagered money actually reaches the cause it claims to support.`,
