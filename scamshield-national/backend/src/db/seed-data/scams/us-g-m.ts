@@ -6054,3 +6054,14 @@ UsGM.push({
     isHistorical: true,
     firstRecorded: '2026-07-31',
 });
+
+UsGM.push({
+    name: 'Milan-Cortina 2026 Winter Olympics Ticket and Travel Scam',
+    slug: 'milan-cortina-2026-olympics-travel-scam',
+    description: `Ahead of the February 2026 Winter Olympics in Milan and Cortina d'Ampezzo, Italy, the FTC issued a consumer alert on January 9, 2026 warning American travelers about three scams converging on the Games. Unauthorized resellers advertised Olympic tickets on social media, marketplace sites, and lookalike storefronts even though tickets are sold only through the official Milano Cortina 2026 organizing committee's own site, with brokers on unofficial channels reportedly marking tickets up as much as 600% above face value; security researchers separately identified close to 20 fraudulent websites mimicking the official Olympic merchandise store's exact template, down to the same promotional video and background music. Fraudulent websites impersonating the U.S. Department of State or Italian consular services charged inflated fees for a visa or expedited passport processing that a U.S. citizen visiting Italy for under 90 days doesn't actually need. And vacation-rental scams duplicated real Milan- and Cortina-area listings under a different contact email, reposted stolen listing photos on an unaffiliated platform, or advertised a property that didn't actually exist or was never available for the dates offered. The FTC's advice: buy tickets only through the official milanocortina2026.org domain and its hospitality site, verify any vacation rental by independently searching its address and photos before sending a deposit, confirm passport and visa requirements directly through the State Department's own travel.state.gov site rather than a search ad or unsolicited email, and pay by credit card wherever possible for the fraud-dispute protection it offers over a wire transfer or cash payment. The same pattern — unauthorized ticket resale, cloned official storefronts, and duplicated rental listings — recurs around any major international event and is worth watching for ahead of future Games or tournaments held abroad.`,
+    categorySlug: 'travel-vacation-scams',
+    alertLevel: 'medium',
+    sources: ['Federal Trade Commission (FTC)'],
+    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2026/01/traveling-olympics-italy-heres-how-avoid-scam',
+    country: 'US',
+});
