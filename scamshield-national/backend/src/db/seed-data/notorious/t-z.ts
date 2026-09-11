@@ -2274,6 +2274,10 @@ NotoriousTZ.push(
     slug: 'sharon-toney-finch-yit-foundation-stolen-valor',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Downtown_Newburgh_from_Beacon.jpg?width=1200',
+    coverImageCredit: 'Photo: Daniel Case, CC BY-SA 3.0, via Wikimedia Commons — downtown Newburgh, New York, where Toney-Finch and her foundation were based',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     sourceUrl: 'https://www.justice.gov/usao-sdny/pr/newburgh-woman-who-made-headlines-false-claims-about-homeless-veterans-sentenced-wire',
     body: `Sharon Toney-Finch, of Newburgh, New York, built a public identity around a war wound she never received. She told donors, reporters, and — according to federal prosecutors — doctored her own military discharge paperwork to claim she had been wounded by an improvised explosive device in Iraq and awarded a Purple Heart. Army records checked by investigators showed no such award and no combat service badge. On the strength of that fabricated record, and a charity she founded called the Yerik Israel Toney (YIT) Foundation, she spent years soliciting donations meant to help premature infants in neonatal intensive care and homeless or low-income military veterans.
 
