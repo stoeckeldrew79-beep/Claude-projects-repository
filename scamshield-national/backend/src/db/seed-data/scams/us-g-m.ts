@@ -5485,3 +5485,17 @@ UsGM.push({
     isHistorical: true,
     firstRecorded: '2021-03-01',
 });
+
+UsGM.push({
+    name: 'Multistate Absentee-Owner Deed Fraud and Money Laundering Ring (Levi, James, and Beauge)',
+    slug: 'massachusetts-levi-james-beauge-multistate-deed-fraud-scheme',
+    description: `Moshe Levi, 57, of Carrollton, Texas, and two associates — Kyon James, 44, of Middleboro, Massachusetts, and Bradley Beauge, 41, of Somerset, New Jersey — built a scheme around a simple search: combing public property records for vacant, unencumbered homes and lots owned by people who lived far away and were unlikely to notice anything wrong until it was too late. Prosecutors say Levi and his co-conspirators identified such properties in Massachusetts, Georgia, Indiana, and Tennessee, then impersonated the real owners using freshly created email addresses, internet telephony numbers, and fake identification — including forged driver's licenses and passports bearing the owners' real names. Posing as the property owners, they contacted real estate professionals to list and market the homes, negotiated sales with buyers who had no reason to doubt the paperwork, and ultimately deeded the stolen properties over in exchange for payment that went straight to accounts the conspirators controlled. Since around June 2023, the group is accused of pocketing roughly $1.5 million this way, then laundering the proceeds through a mix of individual and corporate bank accounts, checks, and wire transfers designed to obscure where the money had actually come from. All three men were arrested on July 16, 2026, following a federal investigation out of the U.S. Attorney's Office for the District of Massachusetts: Levi was charged with wire fraud conspiracy and money laundering conspiracy and detained after an initial court appearance in Kansas City, Missouri, while James and Beauge were each charged with money laundering conspiracy and released on conditions after appearing in federal court in Boston. The case underscores why absentee owners of vacant land, inherited homes, or rental property they don't check on often are a favorite target for deed fraud: with no one physically present to notice a "For Sale" sign or a realtor's lockbox appearing on a property they never listed, the fraud can run its full course — listing, sale, and closing — before the real owner ever finds out. Owners of any property they don't visit regularly can register it for free with their county Registry of Deeds' property-fraud alert service, where available, which sends a notice the moment a new deed or other document is recorded against that parcel, and should periodically search their own address in the registry's public records to confirm nothing has been filed without their knowledge.`,
+    categorySlug: 'mortgage-foreclosure-scams',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office, District of Massachusetts"],
+    sourceUrl: 'https://www.justice.gov/usao-ma/pr/three-men-charged-15-million-deed-fraud-and-money-laundering-schemes',
+    country: 'US',
+    state: 'MA',
+    isHistorical: true,
+    firstRecorded: '2026-07-16',
+});
