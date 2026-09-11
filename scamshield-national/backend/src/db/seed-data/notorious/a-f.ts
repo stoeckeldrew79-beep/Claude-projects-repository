@@ -7510,3 +7510,20 @@ Antonucci pleaded guilty in October 2010, under a cooperation agreement, to frau
 Antonucci's case is a reminder that a crisis-era rescue program is still just a set of paperwork requirements to satisfy — and that a bank executive already comfortable embezzling from his own institution and taking bribes from its customers saw little difference between defrauding private investors and defrauding the federal government's own emergency lifeline.`,
   },
 );
+
+NotoriousAF.push(
+  {
+    title: 'Charlie Shrem and the Bitcoin Exchange That Laundered Money for Silk Road',
+    slug: 'charlie-shrem-bitinstant-silk-road-money-laundering',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'historical'],
+    sourceUrl: 'https://www.justice.gov/usao-sdny/pr/former-ceo-bitcoin-exchange-company-sentenced-manhattan-federal-court-two-years-prison',
+    body: `Charlie Shrem was, by his early twenties, one of Bitcoin's most visible public faces — CEO of BitInstant, at the time one of the largest and fastest bitcoin exchanges in the country, and a vice chairman of the nonprofit Bitcoin Foundation, the currency's closest thing to an industry trade group. That prominence made him a natural early example when federal prosecutors decided to show that the same anti-money-laundering laws governing banks and wire transfer services applied just as forcefully to the new world of cryptocurrency exchanges.
+
+Prosecutors said Shrem, as BitInstant's CEO and its own compliance officer, knowingly let the company's platform be used to convert cash into bitcoin for a Florida man, Robert Faiella, who ran an underground exchange service on the darknet marketplace Silk Road under the handle "BTCKing." Faiella took cash deposits from Silk Road drug buyers who wanted anonymous bitcoin to spend on the site and used BitInstant to convert it, funneling roughly $1 million through the exchange over the course of the scheme. As BitInstant's compliance officer, Shrem was legally required to file suspicious activity reports flagging the pattern — federal law requires exactly that kind of large, repetitive, cash-to-cryptocurrency conversion to be reported — but he never did, and prosecutors said he processed the transactions despite knowing what they were funding.
+
+Shrem was arrested at John F. Kennedy International Airport in January 2014 as he prepared to board a flight and resigned from the Bitcoin Foundation's board the same day. He pleaded guilty in September 2014 before U.S. District Judge Jed S. Rakoff to one count of aiding and abetting the operation of an unlicensed money-transmitting business. At sentencing that December, Rakoff described Shrem as having been "knowingly, willfully, to some extent excitedly and even passionately involved" in conduct he understood was helping facilitate illegal drug purchases, and sentenced him to two years in federal prison. Shrem served his time and was released early, in September 2015; Faiella, who ran the underlying exchange operation, was separately sentenced to four years.
+
+Shrem's case became one of the earliest and most closely watched examples of federal prosecutors applying decades-old money-transmitting and anti-money-laundering law directly to a cryptocurrency company's own executives, rather than just the platform itself — a signal, early in bitcoin's history, that running an exchange came with the same legal obligations to know your customer and report suspicious activity as any bank, and that ignoring where the money was actually going was not a defense available to the person whose job it was to be watching for exactly that.`,
+  },
+);
