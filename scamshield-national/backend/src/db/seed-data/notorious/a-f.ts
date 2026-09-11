@@ -5159,6 +5159,10 @@ NotoriousAF.push(
     slug: 'christopher-delgado-goliath-ventures-crypto-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/High-rises_in_Orlando,_Florida_from_Lake_Eola_(May_2023).jpg?width=1200',
+    coverImageCredit: 'Photo: Benoît Prieur, Wikimedia Commons (CC0) — Orlando, Florida, near Christopher Delgado\'s Apopka base',
     sourceUrl: 'https://www.justice.gov/usao-mdfl/pr/goliath-ventures-ceo-pleads-guilty-cryptocurrency-fraud-scheme-conspiracy',
     body: `Christopher Alexander Delgado, 34, of Apopka, Florida, ran Goliath Ventures — a company he had rebranded from its earlier name, Gen-Z Venture Firm — around a pitch built for the crypto era: hand Goliath your money, and it would deploy it into cryptocurrency "liquidity pools," the pools that let traders swap crypto assets on platforms like Uniswap, in exchange for a share of the trading fees. Delgado told investors Goliath would pass most of that yield back to them as guaranteed monthly returns of 3 to 10 percent, along with a promise to return their principal on request. Between January 2023 and January 2026, prosecutors said, that pitch drew in victims through personal referrals, professional marketing materials, luxury events, and charitable sponsorships.
 
