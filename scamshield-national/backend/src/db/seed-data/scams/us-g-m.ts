@@ -5301,3 +5301,15 @@ UsGM.push({
     country: 'US',
     state: 'CA',
 });
+
+UsGM.push({
+    name: 'Kansas City Counterfeit FIFA World Cup Jersey Seizures',
+    slug: 'kansas-city-missouri-counterfeit-fifa-world-cup-jersey-seizures',
+    description: `As Kansas City hosted matches during the 2026 FIFA World Cup, Homeland Security Investigations and area law enforcement announced on June 23, 2026 that they had seized nearly 4,000 counterfeit World Cup jerseys, scarves, and t-shirts from vendors operating in and around the city, with a genuine retail value of roughly $550,000. The fakes carried counterfeit Nike and Adidas tags that looked authentic to a casual buyer but showed telltale defects on closer inspection — uneven stitching, missing or fake holographic security labels, and irregular team crests — and investigators warned that counterfeit sports apparel is sometimes made from materials that don't meet U.S. flame-retardancy and safety standards. The Kansas City seizures were part of a much larger nationwide enforcement push: ICE Deputy Director Charles Wall warned consumers on April 8, 2026 that "every year, major international sporting events attract bad actors who attempt to cash in by selling fake jerseys, hats, tickets and memorabilia," as the agency's "True Fans Keep It Real" campaign reported seizing more than 276,000 counterfeit sports-related items nationwide with a combined manufacturer's suggested retail value exceeding $33 million ahead of the tournament. Counterfeiters distributed the fake merchandise through pop-up street stands and vendor tables near stadiums and fan festival zones, as well as through online marketplaces and social media ads, exploiting the same surge in team-gear demand that drives legitimate retail sales during a hosted World Cup. Beyond the safety risk of substandard materials, officials noted that counterfeit sales divert money away from the manufacturers, licensed retailers, and teams and leagues whose licensing revenue funds official operations and community programs. Fans and gear shoppers are advised to buy jerseys and other official merchandise only from a team's own store, a stadium concessionaire, or a retailer listed as an authorized partner on the league's official website; to inspect stitching, tags, and holographic authentication labels closely before buying from a street vendor or an unfamiliar online seller; to be wary of prices well below authorized retail; and to pay by credit card rather than cash, gift card, or a peer-to-peer payment app, since a card purchase can be disputed if the merchandise turns out to be counterfeit or never arrives.`,
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'medium',
+    sources: ['U.S. Immigration and Customs Enforcement / Homeland Security Investigations', 'KCTV5'],
+    sourceUrl: 'https://www.ice.gov/news/releases/ice-warns-fans-counterfeit-merchandise-ahead-fifa-world-cup',
+    country: 'US',
+    state: 'MO',
+});
