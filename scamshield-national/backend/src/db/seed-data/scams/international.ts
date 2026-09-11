@@ -14970,3 +14970,16 @@ International.push(
     country: 'CM',
   },
 );
+
+International.push(
+  {
+    name: 'Online Tontine (Njangi) Rotating Savings Scam',
+    slug: 'cameroon-online-tontine-njangi-savings-scam',
+    description: `Traditional tontines (locally also called "njangi") are real, longstanding informal savings circles in Cameroon, where a fixed group of members each contribute a set amount on a regular schedule and take turns receiving the full pooled sum — but the practice's move onto WhatsApp, Facebook, and Telegram groups has let organizers recruit members who have never met in person and who have no way to verify who is actually running the pot. Cameroonian outlet camer.be documented the case of Madame G. Ntsama, a stylist in her thirties from the Anguissa neighborhood of Yaoundé, who together with her husband contributed 100,000 FCFA a month for over a year to a 15-member online tontine promising a 1,500,000 FCFA lump-sum payout when her turn in the rotation arrived; when that turn came, the payout never appeared, the phone numbers the group's administrator and treasurer had used for transactions went unreachable, and she discovered she had been quietly removed and blocked from the group's chat altogether, losing the full 1.5 million FCFA contributed. The report noted that these virtual savings pools carry none of the social accountability of an in-person tontine among neighbors, coworkers, or relatives, and operate with no legal oversight or recourse if an administrator simply disappears with the pooled funds. Cameroonians considering an online rotating-savings group are advised to prioritize traditional, in-person tontines with people they and their community already know and trust, independently verify an online organizer's real identity and track record before contributing, avoid putting in more than they can afford to lose entirely, treat any promise of unusually fast or outsized payouts as a red flag, and consult a financial professional before joining a large group organized primarily online.`,
+    categorySlug: 'ponzi-pyramid-schemes',
+    alertLevel: 'high',
+    sources: ['camer.be'],
+    sourceUrl: 'https://www.camer.be/86172/11:1/arnaque-a-la-tontine-en-ligne-une-camerounaise-perd-15-million-fcfa-dans-une-cotisation-virtuelle-cameroon.html',
+    country: 'CM',
+  },
+);
