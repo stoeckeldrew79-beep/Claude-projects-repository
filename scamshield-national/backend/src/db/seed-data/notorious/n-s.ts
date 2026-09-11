@@ -3841,6 +3841,9 @@ NotoriousNS.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.ssb.texas.gov/news-publications/texas-grounds-crypto-mining-investment-rocket-ship',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Texas_State_Capitol_building-front_left_front_oblique_view.JPG?width=1200',
+    coverImageCredit: 'Daniel Mayer / Wikimedia Commons (CC BY-SA 3.0) — Texas State Capitol, Austin, home of the Texas State Securities Board that halted the scheme',
     body: `A note before this one: everything below comes from a Texas state securities regulator's emergency order and subsequent news reporting on the contested administrative hearing that followed it. Robert Gray has denied wrongdoing, and as of this writing the hearing had not yet produced a ruling — none of it should be read as an adjudicated finding of fraud.
 
 Robert "Bobby" Gray, of McKinney, Texas, built TEXITcoin and an associated mining venture, MineTXC, around a pitch that promised passive daily returns for simply buying in. Sales materials, according to the Texas State Securities Board, told buyers that once they purchased a "Mining Package," they had a "seat on the rocket ship, and now can simply sit back and enjoy the ride." The packages sold for $995, $2,985, or $8,955 and were promoted through YouTube, Facebook, and X, along with radio and billboard advertising, sold through a multi-level marketing structure that paid participants commissions for recruiting additional buyers. By the time regulators intervened, according to news reporting on the case, the venture had taken in more than $147 million from tens of thousands of participants and paid out roughly $65 million in commissions, while TEXITcoin's own token price had fallen from a high above $6 to under $0.30.
