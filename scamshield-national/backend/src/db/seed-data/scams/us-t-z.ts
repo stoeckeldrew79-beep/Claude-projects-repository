@@ -3220,3 +3220,15 @@ UsTZ.push({
     isHistorical: true,
     firstRecorded: '2025-12-29',
 });
+
+UsTZ.push({
+    name: 'Bonaventure Senior Living Paid-For Care Failures',
+    slug: 'washington-bonaventure-senior-living-care-failure-settlement',
+    description: `Bonaventure Senior Living, an Oregon-based company operating 15 long-term care facilities in Washington, agreed to a $7 million settlement after a Washington Attorney General's Office consumer protection investigation found that, from January 1, 2019 through December 31, 2024, ten of its facilities — in Arlington, Bellingham, Bothell, East Wenatchee, Lacey, Puyallup, Richland, the Tri-Cities, and Vancouver — repeatedly failed to provide vital services residents and their families were paying for, including medication assistance, housekeeping, maintenance, dining, and infection control. Attorney General Nick Brown's office announced the settlement on November 19, 2025, filed in King County Superior Court; Bonaventure did not admit liability but agreed to invest $7 million in service improvements at the facilities over four years, issue a $250 credit to each of roughly 800 affected residents, and pay $200,000 to the Attorney General's Office to fund future consumer protection enforcement. "Families entrusted their loved ones to these facilities and expected safe, clean, and conscientious care," Brown said. "Sadly, for many of them, that's not what they got." Families choosing a paid assisted living or long-term care facility for a loved one are advised to get the specific services included in the monthly fee in writing, to document any repeated lapses in medication management, housekeeping, or dining with dates and details, and to report a facility that consistently fails to deliver contracted care to the Washington Attorney General's Consumer Protection Division rather than assuming nothing can be done about it.`,
+    categorySlug: 'healthcare-fraud',
+    alertLevel: 'medium',
+    sources: ["Washington State Office of the Attorney General"],
+    sourceUrl: 'https://www.atg.wa.gov/news/news-releases/bonaventure-will-pay-7-million-improve-services-10-long-term-care-facilities-wa',
+    country: 'US',
+    state: 'WA',
+});

@@ -5946,3 +5946,15 @@ UsGM.push({
     country: 'US',
     state: 'MS',
 });
+
+UsGM.push({
+    name: 'Maryland Campaign Treasurer Yacht-Loan Embezzlement (James Appel)',
+    slug: 'maryland-annapolis-appel-campaign-treasurer-yacht-embezzlement',
+    description: `James Appel, 58, of Annapolis, ran GOP Compliance, an Annapolis-based political consulting firm that handled campaign-finance filings, and served as the paid treasurer on as many as 20 Maryland campaign and organization accounts, including for Delegate Kathy Szeliga and the Anne Arundel County Tennis Association, where he was also treasurer and tournament director. According to a federal indictment unsealed March 31, 2026, Appel transferred roughly $100,000 out of Szeliga's campaign accounts and another roughly $100,000 out of the Tennis Association's accounts into his own personal accounts during 2024, then used the money to refinance a loan on his 65-foot Pacific Mariner yacht. To keep the theft from surfacing, prosecutors allege he filed false campaign finance reports with the Maryland State Board of Elections in January 2025 and January 2026 that inflated the campaign's actual account balance, and separately misrepresented the tennis association's financial condition to its members. He was charged with three counts each of wire fraud and money laundering, facing up to 20 years in federal prison on each wire fraud count and up to 10 years on each money laundering count if convicted; he has pleaded not guilty and was released from custody. "As a trusted professional, political, and commercial treasurer, James Appel exploited that trust and stole from the very people he was hired to serve," Szeliga said after the indictment was unsealed. The Maryland Republican Party confirmed Appel no longer holds any position with the party. The case underscores that a campaign or nonprofit treasurer's own periodic financial reports are not independent verification of anything — any candidate, campaign committee, or community organization that hands financial control to a single outside treasurer should insist on being able to view live bank statements directly from the bank, not only the treasurer's own summaries, and should have a second officer or board member review actual account activity on a regular schedule.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'medium',
+    sources: ["U.S. Attorney's Office for the District of Maryland", 'The Baltimore Banner', 'Maryland Matters', 'WUSA9'],
+    sourceUrl: 'https://www.justice.gov/usao-md/pr/treasurer-maryland-candidates-political-campaigns-indicted-embezzlement-charges',
+    country: 'US',
+    state: 'MD',
+});
