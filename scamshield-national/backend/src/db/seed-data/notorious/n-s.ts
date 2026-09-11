@@ -4926,6 +4926,10 @@ NotoriousNS.push(
     slug: 'solomon-okpe-bec-romance-cyber-fraud-ring',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    // representative photo — replace with a portrait if found
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Sandra_Day_O'Connor_United_States_Courthouse_-_Phoenix,_Arizona_(49343843277).jpg?width=1200",
+    coverImageCredit: "Photo: Tony Webster, CC BY-SA 2.0, via Wikimedia Commons — the Sandra Day O'Connor U.S. Courthouse in Phoenix, where Okpe was sentenced",
+    coverImagePosition: 50,
     sourceUrl: 'https://www.justice.gov/archives/opa/pr/foreign-national-sentenced-victimizing-us-persons-through-cyber-enabled-fraud-schemes',
     body: `Solomon Ekunke Okpe, a Nigerian national from Lagos, spent roughly six years — from December 2011 to January 2017, according to federal prosecutors — at the center of a cyber-fraud operation that didn't specialize in just one type of scam. Rather than picking a single method, Okpe and his co-conspirators, including Johnson Uke Obogo, ran business email compromise (BEC) schemes, romance scams, fraudulent work-from-home job postings, stolen credit-card fraud, and check-cashing operations side by side, treating each as a separate funnel feeding the same underlying money-laundering network.
 
