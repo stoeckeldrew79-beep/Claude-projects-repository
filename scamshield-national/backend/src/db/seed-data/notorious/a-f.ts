@@ -6957,6 +6957,9 @@ NotoriousAF.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.sec.gov/newsroom/press-releases/2026-86-sec-charges-founder-his-two-new-jersey-based-companies-alleged-16-million-ponzi-scheme',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/United_States_Courthouse_-_Eastern_District_of_New_York_(48228039566).jpg?width=1200',
+    coverImageCredit: 'Theodore Roosevelt U.S. Courthouse, Brooklyn (Eastern District of New York), where the SEC complaint was filed — photo by Ajay Suresh, CC BY 2.0, via Wikimedia Commons',
     body: `Note: Ernest Ossei Boateng has been civilly charged by the Securities and Exchange Commission, not criminally convicted. The SEC's complaint, filed September 11, 2026, lays out the government's allegations; no court has yet ruled on their merits, and Boateng has not been reported as having filed a response.
 
 Ernest Ossei Boateng ran two New Jersey-based firms, Intercontinental Wealth Network LLC and I Wealth Network LP, that the SEC says operated as a Ponzi scheme from at least January 2020 through March 2026. According to the complaint, filed in the U.S. District Court for the Eastern District of New York, Boateng solicited, recommended, and sold interests in an investment fund almost entirely within one community: Christians of Ghanaian heritage across New York and New Jersey. His investors, the SEC says, included retirees, taxi drivers, home health aides, students, a widow raising young children on her own, and at least two churches and a prayer group — few of them experienced investors, and many drawn in through the kind of personal, congregation-based trust that affinity fraud is built to exploit.
