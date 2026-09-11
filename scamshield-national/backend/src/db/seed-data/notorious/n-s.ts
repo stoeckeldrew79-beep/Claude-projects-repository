@@ -5508,3 +5508,20 @@ Paul's case is a reminder that a portfolio's size and a lender's willingness to 
     sourceUrl: 'https://www.justice.gov/usao-wdtx/pr/commercial-real-estate-investor-natin-paul-indicted-eight-counts-austin',
   },
 );
+
+NotoriousNS.push(
+  {
+    title: 'Philip Righter and the $6 Million Basquiat and Warhol Paintings That Never Existed',
+    slug: 'philip-righter-basquiat-warhol-art-forgery',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    body: `Philip Righter, an art dealer and consultant working out of West Hollywood, spent roughly two years, from 2016 to 2018, selling and shopping around paintings he attributed to some of the modern art market's biggest names — Andy Warhol, Jean-Michel Basquiat, Keith Haring, Kurt Schwitters, and Roy Lichtenstein among them. He bought genuine but unremarkable art and objects online, some of it through ordinary eBay listings, and then built an entirely fictional pedigree around each piece to transform it into a supposedly lost or unrecorded work by a marquee artist.
+
+The paperwork was the real product. Prosecutors said Righter manufactured false provenance documents using custom embossing stamps designed to mimic the official seals of artists' estates, and fabricated gallery labels tying his fakes to New York's Annina Nosei Gallery — the real gallery that gave Basquiat his first solo show, and a name serious collectors would recognize as legitimate. To authenticate one purported Basquiat, he went further still, impersonating an actual member of the Basquiat estate to generate a bogus certificate of authenticity, a piece of identity theft that became a central count against him.
+
+The scheme's reach was international. In May 2017, Righter offered two supposed Basquiat works to a UK-based collector for more than $1 million; the buyer wired £120,000 (about $151,484) before the works were exposed as fakes. In a separate deal that same year, he sold a purported 1983 Basquiat bearing the artist's "SAMO" tag through an online art marketplace for $50,000, which the platform was forced to refund once the piece was identified as counterfeit. Righter compounded the fraud with the IRS, filing false tax returns that claimed $2,575,000 in fabricated art donations and theft losses to collect fraudulent refunds of roughly $107,000. Altogether, prosecutors said, the forgeries he tried to place were worth about $6 million, with confirmed victim losses of at least $758,265.
+
+Righter pleaded guilty to wire fraud, aggravated identity theft, and tax fraud. On July 15, 2020, U.S. District Judge Marcia G. Cooke sentenced him to two concurrent five-year prison terms. The case is a reminder that in the art world, the canvas is rarely what a forger actually forges — a certificate of authenticity, an estate stamp, a gallery label, and a fabricated chain of ownership are all far easier to fake convincingly than a dead artist's brushwork, and collectors who trust the paperwork more than they trust independent verification are exactly who that paperwork is built to fool.`,
+    sourceUrl: 'https://www.justice.gov/usao-sdfl/pr/miami-federal-judge-sentences-los-angeles-art-fraudster-five-years-prison',
+  },
+);
