@@ -3836,6 +3836,9 @@ NotoriousNS.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
     sourceUrl: 'https://www.njoag.gov/ocean-county-lawyer-who-hosted-radio-show-on-elder-law-sentenced-to-10-years-in-state-prison-for-stealing-millions-from-elderly-clients/',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Ocean_County_Courthouse.jpg?width=1200',
+    coverImageCredit: 'James Welsh / Wikimedia Commons (CC BY-SA 3.0) — Ocean County Courthouse, Toms River, New Jersey, where Novy practiced law',
     body: `Robert Novy built a public reputation as a protector of the elderly: an Ocean County, New Jersey attorney who hosted "Inside the Law," a bi-monthly radio program on elder-law topics, dispensing advice on wills, trusts, and guardianship to an audience made up of exactly the kind of older adults he would later be convicted of robbing.
 
 According to the New Jersey Attorney General's Office, Novy used his law practice to gain sweeping control over the finances of elderly clients who had no close relatives keeping watch — becoming the named agent under powers of attorney, writing himself favorable terms into wills and trust documents, and positioning himself as the only person with visibility into his clients' financial affairs. Once he had that control, prosecutors said, Novy redirected annuities and life insurance policies into his own accounts and funneled the proceeds through his attorney trust and business accounts to obscure where the money had gone. Many of his victims were elderly, some with dementia, and several were already deceased by the time investigators reconstructed how their estates had been drained.
