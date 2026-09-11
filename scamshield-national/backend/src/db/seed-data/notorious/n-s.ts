@@ -5443,3 +5443,20 @@ Agyemang was sentenced in the U.S. District Court for the Southern District of O
 His case illustrates a piece of the romance-scam pipeline that gets far less attention than the fake profiles themselves: someone overseas can write a convincing love letter, but they generally can't cash a wire transfer sent to a U.S. bank. That job — opening the accounts, moving the money, and making the trail hard to follow — is its own distinct crime, and often the single point in the whole scheme where a scammer who never leaves Ghana can still be reached by a Cincinnati courtroom.`,
   },
 );
+
+NotoriousNS.push(
+  {
+    title: 'Neal Goyal and the Chicago Ponzi Scheme That Used Empty Computer Monitors as Props',
+    slug: 'neal-goyal-caldera-blue-horizon-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.sec.gov/newsroom/press-releases/2014-108',
+    body: `Neal Goyal ran a pair of unregistered investment advisory firms out of Chicago — Blue Horizon Asset Management and Caldera Advisors, later reorganized as Caldera Investment Group — through which he raised more than $11.4 million from at least 35 investors, many of them friends and family, across four private funds he told them followed a "long-short" trading strategy in the stock market.
+
+According to the SEC, Goyal did little to no real trading after 2009, instead funneling investor money into his own personal expenses while sending clients fabricated account statements showing steady, healthy returns. Prosecutors later described how Goyal kept an office on Michigan Avenue outfitted with computer monitors that served no purpose beyond creating the appearance of an active trading desk for anyone who visited. Investor money went toward down payments and mortgage payments on two homes, a stake in a Chicago tavern, two children's clothing boutiques run by his wife, and artwork and furniture — while new investor deposits were used to cover redemption requests from earlier investors, the classic structure of a Ponzi scheme.
+
+The SEC filed civil fraud charges and obtained an emergency asset freeze against Goyal in May 2014, and the U.S. Attorney's Office for the Northern District of Illinois brought parallel criminal charges covering more than 40 defrauded investors. Goyal pleaded guilty, and on June 24, 2016, U.S. District Judge Matthew Kennelly sentenced him to six years in federal prison, rejecting leniency pleas made on Goyal's behalf by his own family members — several of whom were among the victims who together lost more than $9 million over the roughly eight years the scheme ran, from 2006 to 2014.
+
+What makes Goyal's case worth remembering isn't the trading strategy — that part was never real — it's how long an affinity fraud can survive on trust alone once it targets people who have no reason to doubt someone they already know. Family and friends are typically the investors least likely to demand audited statements or ask who else holds a fund's assets; the case is a reminder that closeness to the person raising money is not a substitute for the same due diligence a stranger's pitch would require.`,
+  },
+);

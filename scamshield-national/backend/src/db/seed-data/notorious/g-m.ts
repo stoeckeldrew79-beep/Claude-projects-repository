@@ -8042,3 +8042,20 @@ Joseph pleaded guilty to wire fraud in January 2024. In September 2025, U.S. Dis
 Joseph's case is a plain illustration of why basic vendor-verification controls exist: a nonprofit's board or an independent auditor checking that a paid vendor is a real company doing real work, rather than trusting the same employee who approves the invoices to also be the one who wrote them, is often the only thing standing between a functioning accounts-payable process and a seventeen-year embezzlement.`,
   },
 );
+
+NotoriousGM.push(
+  {
+    title: "Marlon Quan and the Hedge Funds That Fed Hundreds of Millions Into Tom Petters' Ponzi Scheme",
+    slug: 'marlon-quan-acorn-capital-petters-feeder-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-23093',
+    body: `Marlon Quan ran a group of hedge funds — Stewardship Investment Advisors (SIA), Acorn Capital Group, and an affiliated entity called ACG II — that raised hundreds of millions of dollars from institutional and individual investors with a pitch built on safety. The money, investors were told, would be lent to Thomas Petters' company under a "purchase order financing" arrangement, secured by real transactions in which Petters' firm supposedly bought consumer electronics wholesale and resold them to major retailers like Walmart and Costco, with investor funds protected in "lock box" accounts that would only release cash once a matching sale was confirmed.
+
+There were no such sales. Petters was, in fact, running one of the largest Ponzi schemes in U.S. history, and the purchase-order paperwork Quan's funds relied on to justify their lock-box structure was fabricated. According to the SEC's complaint, Quan and his firms invested hundreds of millions of dollars of their own investors' assets with Petters while collecting tens of millions of dollars in fees for themselves — and, critically, kept steering new investor money into the scheme even after Petters began missing payments, concealing those defaults from investors rather than disclosing them.
+
+Petters was arrested in 2008 and convicted in 2009. Quan was not charged criminally, but the SEC pursued him civilly, and in February 2014, after a nine-day trial, a jury in the District of Minnesota found Quan and his companies liable for securities fraud. That September, U.S. District Judge Ann Montgomery imposed permanent injunctions against Quan and his firms along with financial sanctions totaling more than $80 million in disgorgement and prejudgment interest.
+
+Quan's case illustrates a layer of Ponzi-scheme risk that individual investors rarely see directly: the feeder fund. Someone who put money with Quan's funds never dealt with Petters at all — they trusted a professional hedge fund manager who was supposed to be doing the diligence on their behalf. When that manager kept the money flowing after he had reason to know something was wrong, the safeguard investors thought they were paying fees for wasn't there. A fund's promise of an extra layer of protection is only as good as the manager's willingness to act on bad news, not just collect fees while the good news lasts.`,
+  },
+);
