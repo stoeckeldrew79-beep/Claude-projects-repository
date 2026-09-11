@@ -11147,6 +11147,26 @@ International.push(
     sourceUrl: 'https://kanivatonga.co.nz/2026/05/romance-scam-loss-in-nz-highlights-tonga-warning/',
     country: 'TO',
   },
+  {
+    name: 'Tonga Fake National Reserve Bank Facebook Page Scam',
+    slug: 'tonga-fake-national-reserve-bank-facebook-page-scam',
+    description: `The National Reserve Bank of Tonga (NRBT) issued a public warning on June 15, 2026 after discovering a fake Facebook page impersonating the central bank. The page, titled "Ngaue 'a e IMF mo e Ngaahi Pangike 'a Tonga – No ta'e totongi fakafoki," used the NRBT's official logo and falsely claimed to be affiliated with the bank in order to mislead the public. The NRBT said in its notice that "the page is not affiliated with the National Reserve Bank of Tonga and is a deliberate attempt to mislead the public and engage in fraudulent activities," and warned residents not to contact the page, send it any payments, or share personal or financial information with whoever was operating it. The bank stressed that it never requests money or payments from members of the public through Facebook or any other social media platform, and directed people to verify any communication claiming to be from the NRBT through its genuine Facebook page, named "National Reserve Bank of Tonga," or through the bank's official website. Officials encouraged anyone who came across the fake page, or similar pages impersonating the bank, to report it rather than engage with it.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['National Reserve Bank of Tonga (NRBT)', 'Talanoa o Tonga'],
+    sourceUrl: 'https://talanoaotonga.to/reserve-bank-warns-public-over-fake-facebook-page-using-its-logo/',
+    country: 'TO',
+  },
+  {
+    name: 'Tonga Fake Vehicle Importation Video Scam',
+    slug: 'tonga-fake-vehicle-importation-video-scam',
+    description: `Tonga Police charged two people in July 2023 over an elaborate vehicle-importation scam that used doctored videos to convince victims their cars were genuinely being sourced and shipped from Japan. According to Kaniva Tonga News, Lepeka Moala — also known as Lepeka Fanua, 27, of Vava'u — and her associate 'Ahake Tāufa, also known as 'Ahake Tulahe, 42, of Ma'ofanga, were accused of recording themselves narrating over real video clips filmed inside genuine car dealerships in Japan, including footage of vehicles such as a blue Honda Fit Hybrid, to make it appear they were personally selecting and arranging shipment of a customer's vehicle. Victims paid money believing their vehicle purchase and shipping were genuinely underway, only for the vehicles shown in the videos to never actually be theirs, for no vehicle to ever arrive, and for their money to not be returned. Police allege the pair scammed victims out of a combined TP$38,300 (Tongan pa'anga) in June 2023 alone. The case reflects a recurring pattern in vehicle-import scams reaching the Tongan community, in which buyers are pressured to pay upfront for a car said to be sourced overseas before ever receiving a genuine dealership invoice, bill of lading, or other independent proof that the vehicle and shipment are real.`,
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'high',
+    sources: ['Kaniva Tonga News', 'Tonga Police'],
+    sourceUrl: 'https://kanivatonga.co.nz/2023/07/tongan-scammer-accused-of-sharing-fake-car-importation-videos-to-con-victims-in-new-twist/',
+    country: 'TO',
+  },
 );
 
 International.push(
