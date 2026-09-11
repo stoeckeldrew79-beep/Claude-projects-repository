@@ -6705,3 +6705,17 @@ UsAF.push({
     country: 'US',
     state: 'AZ',
 });
+
+UsAF.push({
+    name: 'ClaimClam Deceptive Class-Action Claims-Filing Service',
+    slug: 'dc-claimclam-class-action-claims-fee-scheme',
+    description: `Communion, Inc., doing business as ClaimClam, marketed itself to District residents as a paid shortcut for cashing in on class-action lawsuits and other large legal settlements they may have heard about in the news — submit your information and let ClaimClam handle the paperwork. District of Columbia Attorney General Brian Schwalb's office found the pitch left out the parts that mattered most: ClaimClam never disclosed that it had no actual affiliation with the cases it advertised (including the office's own price-fixing suit against RealPage), that free, standard claims-filing options already existed for the same settlements, or that many of the "opportunities" it promoted hadn't reached a settlement at all and might never pay out anything. Once signed up, a customer was locked into a contract that let ClaimClam change its terms unilaterally with nothing more than a notice posted on its own website, discouraged people from filing claims themselves by suggesting self-filing was riskier than using the service, and charged a fee of 15 percent of any recovery — rising to as much as 40 percent in some cases — without adequately disclosing that ClaimClam also had an undisclosed financial relationship with a law firm, Mensch LLP, that its own founder co-owned. Schwalb's office reached a settlement announced in December 2024 requiring ClaimClam to prominently disclose its lack of affiliation with promoted cases and its actual fees before signup, strip the unilateral change-of-terms language from its contracts, stop claiming self-filing is riskier than going through ClaimClam, clearly flag when an advertised case hasn't actually settled yet, release every enrolled DC consumer from their contract, and pay $55,000 in civil penalties. "At a time when too many Washingtonians are struggling to make ends meet, ClaimClam sought to take advantage with false promises of an easy, class-action payout," Schwalb said in announcing the deal. "Fortunately, we were able to put a stop to its deceptive business model before anyone was seriously harmed." Anyone who thinks they may be eligible for money from a class-action settlement should check the case's official settlement website directly — usually free to file a claim on your own — before paying a third party a percentage of a recovery it did nothing to win, and should be skeptical of any claims-filing service that won't clearly state, in advance, that it has no affiliation with the court or the case itself.`,
+    categorySlug: 'debt-relief-scams',
+    alertLevel: 'medium',
+    sources: ["District of Columbia Office of the Attorney General"],
+    sourceUrl: 'https://oag.dc.gov/release/attorney-general-schwalb-forces-class-action',
+    country: 'US',
+    state: 'DC',
+    isHistorical: true,
+    firstRecorded: '2024-12-11',
+});
