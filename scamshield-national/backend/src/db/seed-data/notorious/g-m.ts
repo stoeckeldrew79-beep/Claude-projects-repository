@@ -7853,3 +7853,20 @@ The reckoning came in stages. FINRA permanently barred Higgins from the securiti
 Higgins's case is a reminder that an affinity for the familiar — a longtime local adviser in a town small enough that everyone knows everyone — can substitute for the kind of independent verification a client would otherwise insist on. Nearly two decades is a long time for fabricated account statements to go unchallenged, and it went unchallenged for that long in part because the trade confirmations that would have exposed it never reached the clients they belonged to; a second, independent copy of that paperwork, sent somewhere the adviser doesn't control, is one of the simplest checks an investor can insist on.`,
   },
 );
+
+NotoriousGM.push(
+  {
+    title: 'Mustafa Qadiri: Four Fake Companies, $5 Million in COVID Relief, and a Ferrari, a Bentley, and a Lamborghini',
+    slug: 'mustafa-qadiri-ppp-loan-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-cdca/pr/irvine-man-sentenced-4-12-years-federal-prison-fraudulently-obtaining-5-million-covid',
+    body: `Mustafa Qadiri, of Irvine, California, invented four Newport Beach-based businesses — All American Lending, Inc., All American Capital Holdings, Inc., RadMediaLab, Inc., and Ad Blot, Inc. — for the sole purpose, federal prosecutors said, of collecting Paycheck Protection Program loans the companies had no legitimate right to receive. In May and June of 2020, at the height of pandemic-relief lending meant to keep real payrolls afloat, Qadiri submitted applications to three different banks on the companies' behalf, backed by altered bank records showing inflated balances, fabricated quarterly federal tax filings, and false claims about how many employees the companies paid and how much. For at least one application, prosecutors said, he went further still, using another person's name, Social Security number, and signature without their knowledge to make the paperwork look more convincing.
+
+The fraud worked well enough to bring in $5 million across the four sham companies. According to the Justice Department, Qadiri didn't quietly bank the money or funnel it toward any business activity at all — he spent it, buying a Ferrari, a Bentley, and a Lamborghini along with funding personal vacations, a level of visible spending that made the case a recurring example in reporting on pandemic-relief fraud of just how brazenly some defendants treated the Paycheck Protection Program as personal money rather than emergency payroll funding for real employees.
+
+A federal grand jury indicted Qadiri on charges including bank fraud, wire fraud, aggravated identity theft, and money laundering, and he pleaded guilty in July 2021 to one count of bank fraud, one count of aggravated identity theft, and one count of money laundering. He was sentenced to four and a half years in federal prison, fined $20,000, and ordered to pay $2,861,050 in restitution; federal agents also seized the Ferrari, Bentley, and Lamborghini he had bought with the fraudulently obtained loans, along with roughly $2 million recovered from his bank accounts.
+
+Qadiri's case is representative of a specific category of COVID-era fraud that federal prosecutors pursued aggressively for years after the money went out the door: PPP loans were disbursed quickly, with limited upfront verification, on the strength of self-reported payroll and tax paperwork that a determined applicant could fabricate outright rather than merely exaggerate. The paper trail that ultimately caught him — altered bank statements and tax forms that didn't match records the government could independently check — is the same kind of documentation gap that has unwound pandemic-relief fraud cases across the country.`,
+  },
+);
