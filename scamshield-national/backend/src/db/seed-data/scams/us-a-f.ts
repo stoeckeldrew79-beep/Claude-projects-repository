@@ -7085,3 +7085,17 @@ UsAF.push({
     isHistorical: true,
     firstRecorded: '2017-01-01',
 });
+
+UsAF.push({
+    name: 'Match.com "Dark Web" Romance Scam Money Mule (Donald Huegel)',
+    slug: 'arizona-huegel-romance-scam-dark-web-extortion',
+    description: `Donald Franklin Huegel, a California resident, worked with a network of scammers operating out of Africa who built romantic relationships with two elderly Arizona women through fake Match.com profiles using the names "Chad Callahan" and "Michael Williams." Once the women were emotionally invested, the scammers began asking for money, and when one victim grew hesitant, they falsely claimed her identity had been compromised on the "Dark Web" and demanded payment to have it "cleared" — a fabricated threat used to keep the money flowing. Over roughly two years, Huegel personally received and forwarded $26,000 from one victim, who also mailed him a separate $24,000 money order, and more than $367,000 from a second victim, funneling the funds from his own accounts to his co-conspirators overseas. A Pima County jury convicted Huegel of fraudulent schemes and artifices, illegally conducting an enterprise, money laundering, and theft, and on March 26, 2024, Pima County Superior Court Judge Richard Gordon sentenced him to four years in prison followed by three years of probation. "Criminals defrauding elderly individuals should be put on notice that my office will find you, and we will prosecute you," Arizona Attorney General Kris Mayes said in announcing the sentencing. A romantic interest met only online who eventually describes a crisis — a compromised identity, a Dark Web threat, a customs fee, a medical emergency — and asks for money, or asks the victim to receive and forward funds on their behalf, is running a scam; agreeing to move money for someone met only online can also expose the sender to money-laundering liability as a "money mule," even if they believed they were helping a real partner.`,
+    categorySlug: 'romance-scams',
+    alertLevel: 'high',
+    sources: ["Arizona Attorney General's Office"],
+    sourceUrl: 'https://www.azag.gov/press-release/attorney-general-mayes-announces-sentencing-man-involved-romance-scam-targeting',
+    country: 'US',
+    state: 'AZ',
+    isHistorical: true,
+    firstRecorded: '2022-01-01',
+});
