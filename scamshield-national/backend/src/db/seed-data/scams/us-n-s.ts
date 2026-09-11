@@ -4886,3 +4886,15 @@ UsNS.push({
     country: 'US',
     state: 'NY',
 });
+
+UsNS.push({
+    name: 'RivX "Trucking Automation" Business Opportunity Scam',
+    slug: 'rivx-trucking-automation-scam-ftc-florida',
+    description: `The Federal Trade Commission and the Florida Attorney General's Office sued RivX Automation Corp., owner Antonio Rivodo, and executive Noah Wooten on August 28, 2024, alleging the company ran a "trucking automation" business opportunity that drained millions of dollars from consumers with a promise that sounded too good to check closely: pay $75,000 or more, and RivX would buy a semi-truck in the consumer's name, hire a driver, secure freight loads, and handle all the logistics, generating "passive income" of $5,000 to $7,000 a month with no trucking experience required. Rivodo pitched it in marketing materials as money that would arrive "like mailbox money, coming in every single month," and told prospects the truck would "literally just become a passive income asset." According to the FTC's complaint, very few consumers who paid ever received a truck at all, and not a single one recouped their investment, let alone earned the promised profits — many lost their life savings outright. Contracts consumers signed reportedly included an unlawful $100,000 penalty clause for posting a negative online review of the company, a separate violation of the federal Consumer Review Fairness Act on top of the FTC Act and Business Opportunity Rule violations alleged in the case. A federal court in the Southern District of Florida granted a temporary restraining order and asset freeze days after the complaint was filed, and after the named defendants failed to respond to the litigation, the court entered default judgments on January 28, 2026, permanently banning Rivodo, Wooten, and eight related RivX entities from ever again operating or promoting a business or investment opportunity, and imposing an $8.39 million judgment against them. The case is a reminder that a "guaranteed" passive-income business opportunity built around a single expensive asset purchased in the buyer's own name — leaving the buyer, not the seller, holding the loan or liability if the promised income never appears — deserves independent scrutiny before a five- or six-figure payment changes hands: ask for the actual name and DOT number of trucks and drivers already operating under the program, request audited financials or references from earners who aren't company-supplied, and check any business opportunity against the FTC's Business Opportunity Rule disclosure requirements and your state attorney general's office before signing.`,
+    categorySlug: 'job-task-scams',
+    alertLevel: 'high',
+    sources: ['Federal Trade Commission (FTC)', "Florida Attorney General's Office"],
+    sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2026/01/federal-court-permanently-shuts-down-deceptive-trucking-business-opportunity',
+    country: 'US',
+    state: 'FL',
+});

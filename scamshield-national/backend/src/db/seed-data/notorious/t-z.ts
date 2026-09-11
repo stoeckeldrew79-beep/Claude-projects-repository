@@ -1979,3 +1979,37 @@ A nationwide takedown in August 2025 brought arrests in California, New York, Te
 The case is a rare instance of internet vigilantism directly feeding a federal prosecution years after the fact: the scambaiting videos weren't made as evidence-gathering for law enforcement, they were made as entertainment and public warning, and it still took a federal investigation built off a single intercepted mail shipment to turn identified faces into indicted names — a reminder that catching a cash-courier network usually depends less on any one clever tactic than on how many independent threads, a victim's tip, a mail carrier's suspicion, and a stranger's YouTube channel among them, eventually get pulled together.`,
   },
 );
+NotoriousTZ.push(
+  {
+    title: 'Travis Peterson and the Fake Veterans Charities That Bought Him Vehicles and Online Dating Subscriptions',
+    slug: 'travis-peterson-veterans-charity-robocall-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-ndga/pr/utah-man-who-operated-fraudulent-veteran-charities-sentenced-federal-prison',
+    // no rights-cleared photo found — sourceUrl above serves as the "read the full story" link
+    body: `Travis Deloy Peterson, of Ephraim, Utah, spent nearly six years, from April 2012 to July 2018, registering one purported veterans' charity after another in Utah, Nevada, and Michigan — operations doing business under names like Veterans of America, Vehicles for Veterans, Saving Our Soldiers, Act of Valor, and Medal of Honor. None of them held actual tax-exempt status, a fact Peterson never disclosed to the people he called. Instead, prosecutors said, he blanketed the country with millions of robocalls asking people to donate cars, boats, real estate, and even timeshares, assuring every caller that the gift was tax-deductible and would benefit American veterans.
+
+It didn't. Peterson took the donated vehicles and property to auction, converted them to cash, and spent the proceeds on himself — including, according to court records, paying for online dating subscriptions and buying vehicles of his own. None of the money reached a veteran or a veterans' service organization at any point in the scheme. The Federal Trade Commission had already flagged Peterson's operations as part of "Operation Donate with Honor," a coordinated 2019 crackdown in which the FTC and more than 60 federal and state law enforcement partners took action against upwards of 100 organizations nationwide that used veterans' and military charities as cover for fraud.
+
+A federal grand jury in the Northern District of Georgia indicted Peterson on mail and wire fraud charges, and he pleaded guilty in November 2021 to one count of mail fraud. He was sentenced on March 23, 2022, to three years and five months in federal prison, followed by five years of supervised release, and ordered to pay more than $540,000 in restitution to his victims — a figure higher than the roughly $500,000 prosecutors said he'd actually pocketed, reflecting the additional value of vehicles and property donors gave up. "Fraudsters rely on the goodwill of unsuspecting citizens to perpetrate their schemes," then-U.S. Attorney Kurt Erskine said in announcing the sentence.
+
+Peterson's operation worked precisely because a car donation is one of the few charitable gifts most people never think to verify: no receipt gets checked against a nonprofit registry, no follow-up email confirms the vehicle actually reached a veteran, and a name like "Medal of Honor" or "Act of Valor" is built to sound official enough that asking for proof feels almost insulting. Multiplied across a nationwide robocall list and run for six years, that gap between what a gift is supposed to do and what anyone actually confirms was worth more than half a million dollars to a single man in rural Utah.`,
+  },
+);
+NotoriousTZ.push(
+  {
+    title: 'Yaroslav Shilkloper and the Fake Brokerage That Laundered Money Across Five Countries',
+    slug: 'yaroslav-shilkloper-fake-brokerage-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/opa/pr/ukrainian-israeli-citizen-sentenced-multi-million-dollar-fake-brokerage-scheme',
+    // no rights-cleared photo found — sourceUrl above serves as the "read the full story" link
+    body: `Yaroslav Shilkloper, a dual citizen of Ukraine and Israel, ran his fraud through a set of companies built to sound like legitimate investment firms — K6 Investing, Neotron Holding Ltd., and Goldex Technology — that promised American victims high, steady returns on money placed through what looked like an ordinary online brokerage. Investors could log into a digital platform and watch what appeared to be real-time performance data on their holdings, numbers that tracked upward the way a real trading account's might. None of it was connected to an actual market. Victims' money was never invested at all; it went straight into accounts Shilkloper and his co-conspirators controlled.
+
+When investors tried to withdraw their supposed gains, the operation's second layer kicked in: some were simply blocked from cashing out, others were threatened with legal action for trying, and others still were talked into sending additional money before they'd be allowed to withdraw anything. Behind the scenes, prosecutors said, the more than $3 million taken from U.S. victims was laundered through a chain of bank accounts spanning Ukraine, Georgia, Hungary, Israel, the Czech Republic, and elsewhere — a deliberately international paper trail meant to put as many borders as possible between the American money and whoever was actually holding it.
+
+Shilkloper was arrested in Poland in 2023 and extradited to the United States in September 2024. He pleaded guilty in December 2025 to wire fraud in the U.S. District Court for the Southern District of Mississippi, in a case prosecuted by Assistant U.S. Attorney Hunter McCreight with assistance from the Justice Department's Office of International Affairs, which coordinated the arrest and extradition with Polish authorities. He was sentenced on July 28, 2026, to four years in federal prison, a $250,000 fine, and $1.43 million in restitution to his victims — with prosecutors noting that nearly $2.8 million had separately been recovered and returned to victims through forfeiture proceedings carried out in Georgia (the country, not the U.S. state, where some of the laundered funds had been traced). Shilkloper was the first of three co-defendants in the scheme to be sentenced.
+
+The fake-brokerage model Shilkloper ran is a step beyond a simple advance-fee con: rather than asking victims to wire money and disappearing immediately, it kept them logged in, watching invented numbers climb, for as long as it took to either extract more money or run out the clock on any complaint. Routing the eventual payout through five countries' banking systems wasn't incidental to that model — it was the part of the plan that assumed, correctly for a while, that a victim in the United States would run out of ways to trace a wire transfer long before Polish authorities would run out of reasons to look for the man who sent it.`,
+  },
+);
