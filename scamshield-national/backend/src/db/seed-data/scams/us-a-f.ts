@@ -7278,3 +7278,27 @@ UsAF.push({
     country: 'US',
     state: 'AZ',
 });
+
+UsAF.push({
+    name: 'Arkansas Forged Tax Notice Letter Scam',
+    slug: 'arkansas-forged-tax-notice-letter-scam',
+    description: `The Arkansas Attorney General's Office warned on May 27, 2026 that scammers are mailing Arkansans forged letters designed to look like official government tax notices, falsely claiming the recipient owes back taxes and threatening consequences like tax liens, wage garnishment, or other penalties if they don't call the number printed on the letter. Anyone who calls is connected not to a real tax agency but to a private company posing as a "tax-relief service," where operators pressure the caller to pay a large upfront fee while pretending to phone the IRS on the victim's behalf — a stall tactic used to keep the victim on the line while extracting personal and financial information. The Attorney General's Office stressed the letters are "designed to create fear and urgency" and released sample images of the forged notices so residents can compare them against anything they receive in the mail. Arkansans who get one of these letters are advised not to call the number it lists, never share personal, banking, or financial information with the caller, and instead verify their actual tax status directly with the real IRS at (800) 829-1040 or the Arkansas Department of Finance and Administration at (501) 682-5000; anyone who has already paid should contact their bank immediately and report the letter to the FTC, the Treasury Inspector General for Tax Administration, or the Arkansas Attorney General's Office at (501) 682-2007.`,
+    categorySlug: 'tax-scams',
+    alertLevel: 'high',
+    sources: ["Arkansas Attorney General's Office"],
+    sourceUrl: 'https://arkansasag.gov/news-release/consumer-alert-scammers-target-arkansans-with-forged-tax-notice-letters/',
+    country: 'US',
+    state: 'AR',
+});
+
+UsAF.push({
+    name: 'DC In-Store Gift Card Tampering Scheme',
+    slug: 'dc-in-store-gift-card-tampering-scheme',
+    description: `DC Attorney General Brian Schwalb issued a consumer alert on December 15, 2025 warning District residents about three tampering methods thieves use to drain gift cards before a shopper ever activates one at the register: scratching off a card's PIN sticker while it still sits on the store rack, memorizing or photographing the code, then carefully resealing the sticker so the tampering isn't visible; peeling off a card's real barcode and replacing it with a sticker bearing an already-activated barcode the thief controls, so a customer's payment gets diverted straight to the scammer's card when the cashier scans it; and simply scanning an unpurchased card's code, then periodically checking online until a shopper buys and activates that exact card, at which point the thief drains it before the buyer or recipient ever uses it. Warning signs include damaged packaging, a scratched-off or re-stuck PIN sticker, and a barcode sticker that looks added or replaced — though the alert notes a tampered card can look completely normal even under close inspection. The Office of the Attorney General recommends buying gift cards only from behind a register or a locked display case rather than an open rack, paying by credit card for easier fraud recovery, registering the card with the retailer and keeping the receipt, and checking the balance in-store or online immediately after purchase and again before giving or using it. District residents who receive or buy a card that turns out to already be empty are advised to report it to the retailer, to the DC Department of Insurance, Securities and Banking at (202) 727-8000, to DC police, and to OAG's Office of Consumer Protection at (202) 442-9828 or oag.dc.gov/complaint, and to dispute the charge with their credit card company if that's how they paid.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'medium',
+    sources: ['Office of the D.C. Attorney General (Brian Schwalb)'],
+    sourceUrl: 'https://oag.dc.gov/release/attorney-general-brian-schwalb-issues-alert',
+    country: 'US',
+    state: 'DC',
+});
