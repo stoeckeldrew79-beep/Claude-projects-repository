@@ -6023,6 +6023,9 @@ Air France and KLM notified law enforcement and reported the incident to France'
     slug: `docusign-e-signature-phishing-scam-guide`,
     author: `ScamShield Editorial`,
     tags: [`guide`, `docusign-e-signature-phishing-scam`],
+    coverImage: `https://commons.wikimedia.org/wiki/Special:FilePath/DocuSignHeadquarters.jpg?width=1200`,
+    coverImageCredit: `Photo: Coolcaesar (CC BY-SA 4.0)`,
+    coverImagePosition: 50,
     sourceUrl: `https://blog.checkpoint.com/email-security/40000-phishing-emails-disguised-as-sharepoint-and-and-e-signing-services-a-new-wave-of-finance-themed-scams/`,
     body: `DocuSign has become one of the most impersonated brands in phishing precisely because it's become so ordinary: a lease, a loan document, an employment offer, a home closing, or a business contract routinely arrives as a "please review and sign" email these days, and almost nobody stops to question one more of them landing in their inbox. Security researchers at Check Point tracked exactly how far that trust gets abused when they identified a single campaign, running for about two weeks in December 2025, that sent more than 40,000 phishing emails impersonating DocuSign and Microsoft SharePoint e-signing notifications to roughly 6,100 organizations worldwide. The United States absorbed the overwhelming majority of the volume — more than 34,000 of the emails — with the rest spread across Europe, Canada, the Middle East, Asia, and Australia, hitting consulting, technology, and construction and real-estate firms hardest, alongside healthcare, finance, manufacturing, and government targets.
 
@@ -6201,6 +6204,9 @@ If you're a current or former client of DeMera DeMera Cameron — or the parent 
     slug: `amgen-2026-data-breach-guide`,
     author: `ScamShield Editorial`,
     tags: [`guide`, `amgen-2026-data-breach`],
+    coverImage: `https://commons.wikimedia.org/wiki/Special:FilePath/Amgenheadquarters.jpg?width=1200`,
+    coverImageCredit: `Photo: Coolcaesar (CC BY-SA 3.0)`,
+    coverImagePosition: 50,
     sourceUrl: `https://www.hipaajournal.com/amgen-cyberattack-data-breach/`,
     body: `Amgen, the Thousand Oaks, California biopharmaceutical giant behind drugs like Enbrel, Otezla, and Repatha, disclosed to the SEC on July 29, 2026 that it had discovered unauthorized third-party access to Amgen systems and data held in cloud environments run by outside cloud service providers. The company says it first became aware of the intrusion on or about July 2, 2026, and by July 18 its investigation had confirmed that the intruder had actually obtained and copied files — not just accessed them — including patients' personal information and health information. As of the SEC filing and follow-up reporting, Amgen has not said publicly how the cloud environment was breached or named a threat actor, and it says it is still working to determine the full extent of what was taken, including whether confidential business information, intellectual property, and research and development data were exfiltrated alongside patient records.
 
@@ -6354,6 +6360,9 @@ If you receive a letter from Apollo, or believe you may be a current or former e
     slug: "disney-ftc-coppa-settlement-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "disney-ftc-coppa-settlement"],
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Disney_studios_burbank_team_disney_building_buena_vista.jpg?width=1200",
+    coverImageCredit: "Photo: Junkyardsparkle (CC0)",
+    coverImagePosition: 50,
     sourceUrl: "https://www.ftc.gov/news-events/news/press-releases/2025/09/disney-pay-10-million-settle-ftc-allegations-company-enabled-unlawful-collection-childrens-personal",
     body: `The Federal Trade Commission announced in September 2025 that The Walt Disney Company would pay $10 million to settle allegations that it violated the Children's Online Privacy Protection Act (COPPA) Rule by letting personal data be collected from children under 13 who watched Disney's videos on YouTube — collection that happened because Disney itself mislabeled which of its own videos were made for kids. A federal court in the Central District of California approved the settlement order in December 2025, finalizing the penalty and a set of new compliance obligations.
 
@@ -6398,6 +6407,10 @@ Treat any unsolicited call, text, or email that cites this breach, a legal matte
     slug: "estee-lauder-2026-data-breach-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "estee-lauder-2026-data-breach"],
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/General_Motors_Building_at_5th_Avenue_and_59th_Street,_Manhattan.jpg?width=1200",
+    coverImageCredit: "Photo: Scalleja (CC BY-SA 2.0)",
+    coverImagePosition: 50,
+    // representative photo — the General Motors Building at 767 Fifth Avenue, Estée Lauder's actual corporate headquarters; replace with an exact match if found
     sourceUrl: "https://www.bleepingcomputer.com/news/security/est-e-lauder-discloses-data-breach-via-oracle-e-business-flaw/",
     body: `The Estée Lauder Companies, the New York-based cosmetics conglomerate behind brands including Clinique, MAC, and Origins, notified current and former employees on July 17, 2026 that an unauthorized party had broken into the company's Oracle E-Business Suite environment — the enterprise software it uses to run human resources — and stolen personal data. The intrusion itself happened almost a year earlier, on or around August 9, 2025, but Estée Lauder says it didn't confirm the access until June 19, 2026, meaning employees went nearly eleven months without knowing their HR records had been compromised.
 
