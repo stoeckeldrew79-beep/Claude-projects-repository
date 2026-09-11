@@ -6813,7 +6813,10 @@ NotoriousAF.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/usao-sdny/pr/recidivist-fraudster-pleads-guilty-stealing-gustave-courbet-painting',
-    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Courbet_-_Mother_and_Child_on_a_Hammock_(c._1848).jpg?width=1200',
+    coverImageCredit: 'Gustave Courbet, "Mother and Child on a Hammock" (c. 1848) — the painting at the center of the fraud; public domain, via Wikimedia Commons',
+    coverImagePosition: 50,
+    // representative photo — the actual painting at the center of the case, not a portrait of Doyle; replace with a portrait if found
     body: `Thomas Doyle was already a convicted art fraudster by the time he approached a New York art dealer in 2022 with an offer to help sell one of the dealer's paintings. The work in question was "Mother and Child on a Hammock," a canvas by the 19th-century French Realist master Gustave Courbet, and Doyle's pitch was simple: he knew a buyer, and he could arrange the sale. It was almost exactly the kind of transaction that had already sent him to prison once before — in 2011, Doyle was convicted in the same federal district, the Southern District of New York, of a separate art-related fraud.
 
 According to prosecutors, the dealer agreed in June 2024 to let Doyle take physical custody of the Courbet so a potential buyer could view it in person, and authorized him to sell it on the dealer's behalf for $550,000. Doyle did find a buyer — but rather than complete that sale and remit the proceeds, prosecutors say he had an associate quietly consign the painting to a Manhattan gallery instead, and by early August 2024 falsely told the dealer the $550,000 sale had already gone through. In reality, prosecutors said, Doyle never turned over the money, having redirected the painting and the transaction away from the dealer who had trusted him with it. The alleged scheme is described in court filings as running from around December 2022 through March 2025.
