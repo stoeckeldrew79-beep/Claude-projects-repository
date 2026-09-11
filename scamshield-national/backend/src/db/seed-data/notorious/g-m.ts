@@ -8330,6 +8330,10 @@ NotoriousGM.push(
     slug: 'michael-lauer-lancer-management-hedge-fund-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/James_Lawrence_King_Federal_Justice_Building.jpg?width=1200',
+    coverImageCredit: 'Photo: Carol Bean, CC BY-SA 3.0, via Wikimedia Commons — federal courthouse, Miami',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     body: `Michael Lauer ran a family of hedge funds — Lancer Offshore, Lancer Partners LP, and related vehicles — through his firm, Lancer Management Group, pitching investors a small- and micro-cap stock strategy that, on paper, delivered years of unusually consistent, strong returns. Between the late 1990s and 2003, Lauer raised more than $1.1 billion from investors drawn in by that track record.
 
 According to the SEC, the returns behind that record were manufactured rather than earned. From November 1999 through April 2003, Lauer took large, often controlling positions in seven thinly traded microcap stocks that made up a substantial share of the funds' reported holdings, then traded those stocks in ways the SEC said were designed to move their prices — effectively marking up his own portfolio's value whenever he needed the funds to look profitable. Investors reading their account statements had no way of knowing that much of the value behind their money existed largely because Lauer himself had set the price of the stock underneath it, and the SEC said he provided no legitimate basis at all for the valuations placed on the shell corporations that filled out the rest of the funds' holdings.
