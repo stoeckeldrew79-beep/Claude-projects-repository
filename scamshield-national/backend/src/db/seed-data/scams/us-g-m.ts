@@ -6040,3 +6040,17 @@ UsGM.push({
     isHistorical: true,
     firstRecorded: '2026-03-06',
 });
+
+UsGM.push({
+    name: 'Kalshi "Prediction Market" Unlicensed Gambling Scheme',
+    slug: 'kalshi-prediction-market-unlicensed-gambling-scheme',
+    description: `New York Governor Kathy Hochul and Attorney General Letitia James announced on July 31, 2026 that the state had sued KalshiEX LLC, operator of the "prediction market" app Kalshi, alleging it runs an illegal, unlicensed gambling operation disguised behind the label "trading" rather than betting. The lawsuit, filed in Manhattan state court, followed an Office of the Attorney General investigation finding that Kalshi lets users wager real money on the outcome of sports games, elections, and other future events without the state gambling license, age verification, or problem-gambling safeguards New York law requires of licensed sportsbooks — including access by users as young as 18, three years below the state's 21-and-over minimum for mobile sports betting. Kalshi has marketed itself since expanding into sports "trading" in 2025 as a federally regulated financial exchange legally available in all 50 states because it operates under the Commodity Futures Trading Commission rather than as a state-licensed sportsbook, a framing James rejected directly: "No matter what they call themselves, prediction markets like Kalshi are gambling platforms, plain and simple." Hochul added that Kalshi "has chosen to ignore New York's gaming laws, which exist to protect consumers, prevent problematic gambling, deliver funding for critical public services, and ensure that every company plays by the rules." The lawsuit asks the court to order Kalshi to forfeit its illegal gains, pay restitution to affected New York consumers, and pay a penalty equal to three times those gains; New York is one of several states, along with a growing number of tribal gaming regulators, taking similar legal action against Kalshi and comparable platforms like Polymarket, which runs on cryptocurrency rather than a bank-linked account and carries the same lack of licensed consumer protections. Anyone using a prediction-market app is advised to first confirm through the New York State Gaming Commission whether the platform is actually licensed to offer sports wagering in New York, to treat a "prediction market" or "event contract" framing as marketing rather than proof the product isn't gambling, and to report a suspected illegal gambling operation to the Attorney General's Office online at ag.ny.gov or by calling 1-800-771-7755.`,
+    categorySlug: 'lottery-sweepstakes-scams',
+    alertLevel: 'medium',
+    sources: ['New York Office of the Attorney General', 'Office of Governor Kathy Hochul'],
+    sourceUrl: 'https://ag.ny.gov/press-release/2026/governor-hochul-and-attorney-general-james-announce-new-york-has-sued-kalshi',
+    country: 'US',
+    state: 'NY',
+    isHistorical: true,
+    firstRecorded: '2026-07-31',
+});
