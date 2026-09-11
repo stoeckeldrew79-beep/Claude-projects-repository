@@ -5364,18 +5364,3 @@ UsGM.push({
     isHistorical: true,
     firstRecorded: '2019-01-01',
 });
-
-
-UsGM.push({
-    name: 'Minnesota "Feeding Our Future" Child Nutrition Program Fraud',
-    slug: 'minnesota-feeding-our-future-child-nutrition-fraud',
-    description: `Feeding Our Future was a Minnesota nonprofit that acted as a state-authorized "sponsor" overseeing sites in the Federal Child Nutrition Program, which reimburses organizations for meals served to low-income children — a role that let it collect federal money on a site's behalf and pass it along after taking an administrative cut. When pandemic relief rules relaxed the program's normal in-person oversight and site-visit requirements in 2020, the number of sites Feeding Our Future sponsored exploded from a handful to more than 250 across Minnesota, and the funds it received and disbursed jumped from about $3.4 million in 2019 to nearly $200 million in 2021. According to federal prosecutors, founder and executive director Aimee Bock and her co-conspirators submitted false paperwork claiming to serve tens of thousands of meals a day at sites that were often serving few or none, created dozens of shell companies to receive and launder the proceeds, and collected roughly $18 million in unauthorized administrative fees on top of bribes and kickbacks disguised as consulting payments — funneling out an estimated $250 million in what the U.S. Department of Justice has called the largest pandemic relief fraud scheme charged in the country. More than 70 people were charged, and after a six-week trial, Bock and Safari Restaurant co-owner Salim Said were convicted in March 2025; presiding over Bock's sentencing to 500 months (over 41 years) in federal prison on May 22, 2026, U.S. District Judge Nancy Brasel told her "this was a fraud vortex and you were at the epicenter of it," adding that "a sentence of less than 500 months would not do justice to the people of Minnesota, who were in a very real sense the victims of this fraud." A 2024 report from Minnesota's own Office of the Legislative Auditor concluded the scandal wasn't just criminal ingenuity but a failure of state oversight, finding the state agency responsible for monitoring the program had ignored a whistleblower's specific warnings about Feeding Our Future years before the fraud ballooned. The case is a reminder that "nonprofit" status and a government contract are not proof of legitimacy on their own — state agencies distributing public benefit funds through pass-through sponsors need real, unannounced site verification rather than paperwork alone, and anyone with firsthand knowledge of a benefit program being gamed should report it directly to a federal Inspector General hotline or the FBI, since a report to the state agency overseeing the program may not be enough.`,
-    categorySlug: 'public-benefits-fraud',
-    alertLevel: 'medium',
-    sources: ["U.S. Department of Justice", "U.S. Attorney's Office, District of Minnesota", 'Minnesota Office of the Legislative Auditor'],
-    sourceUrl: 'https://www.justice.gov/usao-mn/pr/feeding-our-future-ringleader-sentenced-500-months',
-    country: 'US',
-    state: 'MN',
-    isHistorical: true,
-    firstRecorded: '2020-01-01',
-});
