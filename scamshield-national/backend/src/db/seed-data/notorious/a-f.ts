@@ -5764,6 +5764,10 @@ Willy's case shows how an affinity-style fraud can operate on two levels at once
     slug: "douglas-dalton-petiq-insider-trading",
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/James_A._McClure_Federal_Bldg_%26_U.S._Courthouse.JPG?width=1200',
+    coverImageCredit: 'Matthew Harrison Smith, CC BY-SA 3.0, via Wikimedia Commons',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.justice.gov/usao-id/pr/arkansas-man-pleads-guilty-insider-trading',
     body: `Douglas Dalton, 48, of Bentonville, Arkansas, and Michael Smith, the then-president and chief operating officer of Eagle, Idaho-based pet health company PetIQ, Inc., were close personal friends — the kind of relationship that gave Dalton access to information no outside investor could have had. According to the U.S. Attorney's Office for the District of Idaho and a parallel SEC enforcement action, Smith called Dalton on July 26, 2024, and disclosed that PetIQ was about to be acquired by private equity firm Bansk Group LP at approximately $31 per share — material, nonpublic information about a deal that had not yet been announced.
 
