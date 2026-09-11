@@ -10001,6 +10001,26 @@ International.push(
     sourceUrl: 'https://operativmm.az/en/post/sspf-warns-of-1000-azn-payment-scam-in-azerbaijan/67900',
     country: 'AZ',
   },
+  {
+    name: 'Azerbaijan Unlicensed Foreign Investment Platform Warning',
+    slug: 'azerbaijan-unlicensed-foreign-investment-platforms',
+    description: `On August 21, 2026, the Central Bank of Azerbaijan (CBA) warned citizens against using foreign investment platforms that are not licensed to operate in the country, after monitoring found such platforms being promoted to Azerbaijani residents through internet resources, social media, training programs, seminars, and other marketing tools. The Central Bank stressed that holding a license issued by a regulatory authority in another country gives a platform no right to provide or promote investment services inside Azerbaijan; under Azerbaijani law, investment services may only be offered on the basis of a license issued by the CBA itself. Residents drawn in by slick foreign-branded platforms and "training" webinars can end up depositing funds with an operator that has no legal standing or supervision in Azerbaijan and no recourse if it disappears with their money. The CBA recommended that citizens verify a provider's Azerbaijani license before depositing any funds and entrust their investments only to companies on the Central Bank's published list of licensed investment companies, available on the CBA's official website.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'high',
+    sources: ['Central Bank of the Republic of Azerbaijan (CBA)', 'APA Economics'],
+    sourceUrl: 'https://en.apa.az/finance/central-bank-of-azerbaijan-warns-citizens-about-foreign-investment-platforms-521136',
+    country: 'AZ',
+  },
+  {
+    name: 'Azerbaijan Compromised-Email Phishing Campaign Targeting Organizations',
+    slug: 'azerbaijan-compromised-email-phishing-campaign',
+    description: `On June 12, 2026, Azerbaijan's National Cybersecurity Center (NCSC), operating under the State Service of Special Communication and Information Security within the Ministry of Digital Development and Transport, warned of a sophisticated phishing campaign hijacking real, compromised official email accounts belonging to local organizations to distribute malicious links. Using these trusted addresses, attackers send messages with subjects like "Shared a File" or "New secure message from," directing recipients to what looks like a legitimate document portal. The links are hosted on the genuine freshdesk.com platform specifically to slip past standard email security filters, then redirect victims to a fake Microsoft login page at a look-alike domain, where the page captures usernames, passwords, and multi-factor authentication (MFA/2FA) codes in real time; by stealing the resulting session cookies, attackers can bypass two-factor authentication entirely and take over the account. The NCSC advised recipients to treat unexpected "shared document" or "secure message" emails with extreme caution, verify such requests through a separate communication channel, confirm the browser address bar shows only the genuine "login.microsoftonline.com" domain before entering any credentials, and report suspicious activity to the National Cybersecurity Center by email or via its 1654 hotline.`,
+    categorySlug: 'phishing',
+    alertLevel: 'high',
+    sources: ['Azerbaijan National Cybersecurity Center (NCSC)', 'Operative Information Center'],
+    sourceUrl: 'https://operativmm.az/en/post/national-cybersecurity-center-warns-of-new-phishing-attacks/73566',
+    country: 'AZ',
+  },
 );
 
 International.push(
