@@ -5542,3 +5542,20 @@ A federal jury in Manhattan convicted Pierre in May 2021 on two counts of securi
     sourceUrl: 'https://www.justice.gov/usao-sdny/pr/rockland-county-man-sentenced-7-years-ponzi-securities-fraud-scheme-targeting-local',
   },
 );
+
+NotoriousNS.push(
+  {
+    title: 'Omar Khan\'s "Wine-and-Dine" Scheme That Fleeced New York Oenophiles Out of $7 Million',
+    slug: 'omar-khan-wine-and-dine-scheme-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    body: `Omar Khan, the founder of a Manhattan management consulting firm called Firm-1, had cultivated a public identity as one of the wine world's most connected insiders — Forbes profiled him in 2015 as a "fanatical wine connoisseur" — and turned that reputation into an exclusive events business. He hosted elaborate networking dinners for wealthy guests that paired rare, expensive vintages with food from name-brand chefs and appearances by self-described "leading business minds," with evocatively named evenings like "An Evening of Daring Duos and Tantalizing Trios" in December 2017.
+
+Between 2015 and 2019, Khan used those dinners as a pitch: he told wealthy guests and wine retailers that if they invested in expanding the events business and related ventures — including, at one point, a purported $5 million deal to acquire a Bordeaux vineyard — they'd earn a cut of the profits. Prosecutors said the investments funded no such expansion; Khan spent the money on himself instead, then strung investors along with excuses when the promised returns never materialized. One victim, a New York retiree identified in court papers as "Victim-1," put in escalating sums starting in 2015; another investor tied to Renaissance Technologies wealth put in roughly $5 million and got nothing back. Altogether, prosecutors said, Khan took in close to $7 million.
+
+As the scheme came under pressure, Khan turned to a second, smaller fraud to buy time: prosecutors said he sent emails impersonating his own attorney to stall investors demanding their money. In September 2019, thirteen of his clients sued him civilly, and rather than answer the claims, Khan left the country for Sri Lanka; federal wire fraud charges followed in 2020 while he remained abroad. He stayed out of U.S. reach until February 2024, when Sri Lankan authorities expelled him over an immigration issue and the FBI arrested him at JFK Airport as he arrived.
+
+Khan pleaded guilty in March 2024 to a single count of aggravated identity theft tied to the fake attorney emails. On June 10, 2024, U.S. District Judge Paul A. Engelmayer sentenced him in the Southern District of New York to two years in federal prison plus a year of supervised release, and ordered him to pay $6,699,582 in restitution — telling Khan he was fortunate the count he'd pleaded to capped his sentence where it did, given the underlying facts. Khan's case is a reminder that an affinity scam doesn't need a stranger's cold call to work; an exclusive world built on magazine profiles, velvet-rope dinners, and insider credibility can substitute for the financial verification a stranger's pitch would never get away with skipping — right up until the person running it has to start impersonating his own lawyer just to keep the excuses coming.`,
+    sourceUrl: 'https://www.justice.gov/usao-sdny/pr/international-businessman-sentenced-two-years-prison-connection-wine-fraud-scheme',
+  },
+);
