@@ -1945,7 +1945,10 @@ The timeshare-exit industry that Reed Hein helped build exists entirely downstre
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.irs.gov/compliance/criminal-investigation/marietta-scam-artist-sentenced-to-nearly-15-years-in-federal-prison-for-13-million-ppp-fraud-and-tax-scheme',
-    // no rights-cleared photo found — sourceUrl above serves as the "read the full story" link
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Richard_Russell_Federal_Building.jpg?width=1200',
+    coverImageCredit: 'Photo: DukeArcTerex, Wikimedia Commons (CC BY 3.0) — the Richard B. Russell Federal Building in Atlanta, home of the Northern District of Georgia, where Carl Torjagbo was convicted',
+    coverImagePosition: 50,
     body: `Carl Delano Torjagbo, 50, of Marietta, Georgia — who also went by the name Karl Lucius Delano — told the IRS and the Small Business Administration that he ran a gold-mining operation in Ghana called Kremkov Industries, complete with a payroll of employees drawing salaries large enough to justify a multimillion-dollar Paycheck Protection Program loan. On February 13, 2021, he submitted false federal tax returns for the company. Three days later, on February 16, 2021, he filed a PPP loan application built on those same fabricated numbers, claiming a payroll that ultimately brought in $9,554,425 in pandemic relief funds Kremkov Industries had no legitimate business needing.
 
 The payroll records Torjagbo used to support the loan didn't hold up to even casual scrutiny. Prosecutors said the list of "employees" he submitted included real celebrities who had no connection to any Ghanaian gold mine — including actors Keanu Reeves, Gene Hackman, and Emilia Clarke — sitting alongside entirely fictional characters, among them Charlie Brown, Nancy Drew, and a Jon Snow whose name investigators noted was borrowed, misspelled, from "Game of Thrones." Combined with a separate false tax-refund claim of $3,366,240.76, Torjagbo's total fraud came to roughly $13 million.
