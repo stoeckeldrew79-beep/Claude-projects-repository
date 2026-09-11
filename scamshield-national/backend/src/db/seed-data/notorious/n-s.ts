@@ -5357,3 +5357,20 @@ An investigation that began in 2012, involving the U.S. Postal Inspection Servic
 The case is a reminder that a romance scam's damage is rarely a single wire transfer: it compounds over months or years of a relationship the victim believed was real, and by the time it ends, the loss is measured not just in dollars but in the bankruptcies, canceled weddings, and shattered trust of people who were never in a relationship with anyone at all.`,
   },
 );
+
+NotoriousNS.push(
+  {
+    title: "Ronald Diaz: The Morgan Stanley Advisor Who Routed His Elderly Client's Money Through His Own Family",
+    slug: 'ronald-diaz-morgan-stanley-elder-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-az/pr/former-morgan-stanley-financial-advisor-sentenced-prison-defrauding-his-elderly-client',
+    body: `Ronald Diaz worked as a financial advisor at Morgan Stanley in Tucson, Arizona, a role that put him in direct control of an elderly client's trust in exactly the way elder-fraud investigators warn about. Diaz told the client he had found an "annuity" investment opportunity that guaranteed a 10 percent return — the kind of promised, fixed high return that should raise doubts on its own — and between November 2020 and July 2022 directed the victim to transfer a total of $970,000 into accounts held by members of Diaz's own family.
+
+Rather than investing the money, prosecutors said, Diaz had his family members funnel most of those funds back to him, using relatives as a layer of separation between the client's account and his own use of the money. He spent large portions of it on himself: gambling at casinos, a down payment on a 2021 Range Rover, paying down his own credit card debt, remodeling his family's pool, making mortgage payments, and other personal expenses that had nothing to do with any annuity.
+
+Diaz pleaded guilty to wire fraud on July 18, 2024. He was sentenced by U.S. District Judge Scott H. Rash to 22 months in federal prison and ordered to pay $867,510.37 in restitution — paid not to the victim directly, but to the victim's next of kin, after an investigation led by the FBI and prosecution by the U.S. Attorney's Office for the District of Arizona in Tucson.
+
+The case is a reminder that a familiar, brand-name employer doesn't vet the person behind the desk: Diaz's title and firm gave his fabricated "guaranteed" annuity a credibility a stranger's cold-call pitch never would have had, and routing the stolen money through his own relatives before it reached him was itself part of the deception, an extra layer of legitimate-looking activity between the client's trust and where the money actually ended up.`,
+  },
+);
