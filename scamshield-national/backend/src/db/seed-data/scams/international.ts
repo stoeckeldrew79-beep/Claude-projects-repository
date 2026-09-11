@@ -14816,3 +14816,16 @@ International.push(
     country: 'ST',
   },
 );
+
+International.push(
+  {
+    name: 'Fraudulent Emails Impersonating Belize FIU Staff',
+    slug: 'belize-fiu-staff-impersonation-fraudulent-email-scam',
+    description: `On May 14, 2026, Belize's Financial Intelligence Unit issued a public alert warning that scammers were circulating fraudulent emails impersonating its own staff, using real FIU officers' names, titles, logos, signatures, and messages formatted to look as though they came from the unit's official email domain. The fake messages are designed to appear official and typically reference loan approvals, financial assistance, pending payments, or banking details in an effort to trick recipients into sharing confidential information or completing a financial transaction. The FIU stressed in its advisory that it "does not process loans, approve financial assistance or request banking credentials through email communications," directly contradicting the premise of the messages, and urged the public to exercise caution and independently verify any suspicious message claiming to come from the agency rather than responding to it, clicking any embedded link, or opening an attachment. Anyone who had already responded to one of the fake emails was told to contact their financial institution immediately and change any compromised passwords. Because the scam borrows the credibility of Belize's own anti-financial-crime regulator to dangle a loan or benefit that does not exist, consumer advocates note the same defense applies here as with any unsolicited financial offer: reach the supposed sender only through contact details looked up independently, never ones supplied inside the message itself.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Financial Intelligence Unit of Belize', 'Greater Belize Media', 'Belize Live News'],
+    sourceUrl: 'https://www.greaterbelize.com/fiu-warns-public-about-fraudulent-emails-impersonating-staff/',
+    country: 'BZ',
+  },
+);
