@@ -8288,6 +8288,10 @@ NotoriousGM.push(
     slug: 'loretta-pyeatt-dent-county-caregiver-theft',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Dent_County_Courthouse,_Salem,_Missouri.jpg?width=1200',
+    coverImageCredit: 'Photo: Steveewatkins, CC BY-SA 4.0, via Wikimedia Commons — the Dent County Courthouse in Salem, Missouri',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.justice.gov/usao-edmo/pr/dent-county-caregiver-admits-stealing-client',
     body: `In rural Dent County, Missouri, a man living on Social Security retirement and Veterans Affairs disability benefits hired Loretta Pyeatt, 52, as an in-home caregiver starting around July 2023. Part of the arrangement was ordinary and sensible: he gave her his debit cards so she could run errands and buy groceries on his behalf, a convenience thousands of families extend to caregivers every day.
 
@@ -8305,6 +8309,10 @@ NotoriousGM.push(
     slug: 'jess-kinmont-john-wenz-pro-timeshare-resales-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Condo_building_at_310_2nd_St_S,_Jacksonville_Beach,_Florida,_2019-03-07-4412.jpg?width=1200',
+    coverImageCredit: 'Photo: Tim Kiser, CC BY-SA 4.0, via Wikimedia Commons — a Florida condominium building',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.justice.gov/usao-ndga/pr/owners-timeshare-resale-company-sentenced-federal-prison-defrauding-over-8000-victims',
     body: `Timeshares are notoriously hard to sell — the resale market is thin, prices are a fraction of what owners originally paid, and plenty of owners just want out. Jess Kinmont and John P. Wenz Jr. built a business in Florida squarely around that frustration: from January 2012 to December 2016, their company, Pro Timeshare Resales, cold-called timeshare owners nationwide and told them a buyer or renter was already lined up, sometimes naming a specific closing date to make the pitch feel concrete and urgent.
 
