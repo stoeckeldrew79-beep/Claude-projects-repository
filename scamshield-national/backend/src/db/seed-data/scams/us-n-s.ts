@@ -5437,3 +5437,17 @@ UsNS.push({
     country: 'US',
     state: 'PA',
 });
+
+UsNS.push({
+    name: 'Warren County Fake Home Sale Elder Fraud (Richard Toelk Jr.)',
+    slug: 'new-york-warren-county-fake-home-sale-elder-fraud-toelk',
+    description: `Richard Toelk Jr., 58 — who also went by the name Richard Donato — met an 82-year-old woman at a local business in neighboring Hamilton County, New York during the summer of 2022, and after building what she believed was a close friendship, offered to sell her a home he claimed to own. On October 25, 2022, Toelk drove the woman to a bank in Warren County, where she withdrew $40,000 in cash as a down payment and handed it over to him; he split the money between two separate bank accounts and never produced a deed, a closing, or a refund. A two-day jury trial in January 2026 convicted Toelk of larceny, and Johnsburg Town Court Judge David Cavanagh sentenced him on September 4, 2026 to 364 days in the Warren County Jail plus $40,000 in restitution to his victim, now 86. "This outcome reflects diligent, principled work by our team and the persistence of the victim," Warren County District Attorney Jason Carusone said after the sentencing. The case shows how a fraudulent real-estate sale can rest entirely on personal trust rather than paperwork — no listing, deed, or title search ever stood behind Toelk's offer — so anyone asked to hand over a large cash down payment on a home, especially by someone who is not a licensed real estate agent or attorney, should insist on an independent title search and a closing handled through a licensed title or escrow company before paying anything, and should be especially wary of a new acquaintance who builds a fast friendship before proposing a private, off-market real estate deal.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'high',
+    sources: ["Warren County District Attorney's Office", 'WRGB (CBS 6 Albany)'],
+    sourceUrl: 'https://cbs6albany.com/news/local/man-sentenced-after-scamming-elderly-women-in-fake-home-sale-house-fraud-scheme-richard-toelk-jr-donato-40000-in-restitution-82-year-old-woman-warren-county-district-attorney-jason-carusone-county-jail-cbs6-wrgb',
+    country: 'US',
+    state: 'NY',
+    isHistorical: true,
+    firstRecorded: '2022-10-25',
+});
