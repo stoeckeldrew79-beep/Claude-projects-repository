@@ -12756,3 +12756,16 @@ International.push(
     country: 'BF',
   },
 );
+
+International.push(
+  {
+    name: 'Nazra Said Hassani "Comorian Madoff" Ponzi Scheme (Halfastyles)',
+    slug: 'comoros-nazra-said-hassani-halfastyles-ponzi-scheme',
+    description: `Nazra Said Hassani, a Comorian businesswoman who ran a clothing and fashion company called Halfastyles, used the firm as the vehicle for a pyramid scheme that collapsed in 2023 and left her branded in the local press as the "Comorian Madoff" ("la Madoff comorienne"). Reporting by Comores Infos and Mayotte Hebdo describes how, over roughly 2019 to 2023, she recruited investors — including wealthy individuals, politicians, and dozens of employees of the state telecom operator Comores Telecom — by promising annual returns of 10 to 20 percent, pitched as loans that Huawei Technologies supposedly needed because it could not open its own bank account in Comoros and required financing to cover customs clearance on imported equipment, to be repaid with interest. Comores Infos reported that the criminal complaint that first exposed the scheme covered about 116 million Comorian francs, but investigators ultimately estimated the operation moved between 2.5 and 4 billion Comorian francs in total, drawing in dozens of people. When the scheme collapsed, Nazra fled Comoros on falsified travel documents; she was intercepted through international law-enforcement cooperation and repatriated to Moroni, where a correctional tribunal convicted her on December 25, 2023 and sentenced her to three years in prison. She had already completed that sentence by the time a Moroni court ruled again on the case in a separate civil judgment reported May 26, 2026, ordering her — together with two entities swept into the fraud, Huawei Technologies Mauritius and Green Building Engineering Co. Ltd (CRGB) — to jointly pay roughly 500 million Comorian francs (about €1 million) in restitution to 21 plaintiffs, twelve of them women, most of whom were Comores Telecom employees. One senior Comtel executive alone testified to investing 89 million francs (about €181,000) on a promise of 52.858 million francs in "interest." The victims' lawyer told the court that bank records showed real transfers to Huawei described as being for "customs clearance," which Nazra used as the cover story that made her promised repayments look credible. The case stands as a reminder that a pitch invoking a real, recognizable company's name — even one as large as Huawei — is no proof that money is being safely invested with that company, and that "lend money to a corporation that can't use its own bank account" is not how legitimate corporate finance works.`,
+    categorySlug: 'ponzi-pyramid-schemes',
+    alertLevel: 'high',
+    sources: ['Comores Infos', 'Mayotte Hebdo'],
+    sourceUrl: 'https://www.mayottehebdo.com/actualite/justice/comores-deux-societes-etrangeres-condamnees-dans-laffaire-de-ponzi/',
+    country: 'KM',
+  },
+);
