@@ -5026,3 +5026,19 @@ Gold-bar liquidation scams like this one have become one of the fastest-growing 
     coverImageCredit: 'Photo: Szaaman (Public Domain), via Wikimedia Commons — gold bars, the form victims were persuaded to convert their savings into before handing them to Singh\'s couriers',
   },
 );
+NotoriousNS.push(
+  {
+    title: 'Jay Lucas: The New Hampshire GOP Power Broker Who Turned a Private Equity Fund Into His Personal Piggy Bank',
+    slug: 'jay-lucas-lucas-brand-equity-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-sdny/pr/founder-private-equity-firm-pleads-guilty',
+    body: `Jay Lucas spent decades as a fixture of New Hampshire Republican politics — a state representative at 19, the 1998 GOP nominee for governor, and a well-known donor and activist in the years after — before reinventing himself as a private equity manager. Through Lucas Brand Equity LLC and three funds he controlled (Lucas Brand Equity LP, Lucas Brand Equity Emerging Growth LP, and Lucas Brand Equity Wellness Growth LP), he told investors their money would back early-stage health and wellness companies. Between roughly 2013 and 2025, that pitch, combined with Lucas's decades of local name recognition and political connections, persuaded more than 200 investors to put in over $50 million.
+
+According to the Securities and Exchange Commission and federal prosecutors in the Southern District of New York, Lucas treated the funds as what one prosecutor called a "cookie jar." At least $8 million of investor money never touched an early-stage company at all: prosecutors say he diverted funds to cover his own alimony and rent, paid political consultants, spent roughly $123,000 on his own wedding, and funneled about $90,000 into The Eagle Times, a struggling newspaper in his hometown of Newport that he had bought in 2022 promising to revive — it stopped printing in mid-2025 and never reopened. Millions more went to Immunocologie, a luxury skincare company owned by his wife, and over $1 million of a separate $2.5 million raised for a patriotic-décor company, Flags of Valor, was likewise diverted rather than invested as promised. When the math on any of this came up short, prosecutors say, Lucas covered the gap with Ponzi-like payments — using newer investors' money to pay off earlier ones — while LBE's own employees went unpaid.
+
+Federal prosecutors in the Southern District of New York unsealed an indictment against Lucas on December 18, 2025, charging him with securities fraud, investment adviser fraud, wire fraud, and money laundering; the SEC filed a parallel civil action in April 2026. On July 27, 2026, Lucas pleaded guilty to all four charges — securities fraud, wire fraud, and money laundering each carry a maximum of 20 years in prison, with investment adviser fraud carrying up to five more. His sentencing is scheduled for November 12, 2026.
+
+Lucas's case is a reminder that "I've been part of this community for decades and you know my name" is a credential that speaks to reputation, not to where an investor's money is actually going. The same local trust that had once helped him win a major-party nomination for governor became, in his second act, exactly the kind of familiarity a fraud depends on — investors who had followed his career for years saw no reason to ask a stranger's questions of a fellow New Hampshirite finally running something of his own.`,
+  },
+);
