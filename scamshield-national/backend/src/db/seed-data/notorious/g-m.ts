@@ -4445,6 +4445,9 @@ NotoriousGM.push(
     slug: 'jean-claude-mas-pip-breast-implant-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Marseille_Old_Port.jpg?width=1200',
     sourceUrl: 'https://en.wikipedia.org/wiki/Poly_Implant_Proth%C3%A8se',
     body: `Jean-Claude Mas, a former butcher and medical-device salesman, founded Poly Implant Prothèse (PIP) in 1991 in La Seyne-sur-Mer, in the south of France, building it into one of the world's largest breast-implant manufacturers by exporting roughly 80 percent of its output overseas. From 2001 onward, according to his own later admission to investigators, Mas had workers at the company quietly fill implant shells with an unapproved industrial-grade silicone gel — mixed in-house from compounds such as Baysilone, Silopren, and Rhodorsil, materials intended for products like mattresses and fuel-line seals — instead of the approved medical-grade silicone that regulators had certified. The industrial gel cost a fraction of the medical alternative, and PIP kept using it for roughly a decade, all while continuing to submit its implants for regulatory approval as though nothing had changed.
 
