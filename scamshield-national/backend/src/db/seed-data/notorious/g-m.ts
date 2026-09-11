@@ -6344,6 +6344,10 @@ Rothenberg's case is a reminder that a venture fund's glamour can be part of the
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26476',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Wall Street Sign NYC.jpg?width=1200',
+    coverImageCredit: 'Photo: JSquish / Wikimedia Commons (CC BY-SA 3.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Marat Likhtenstein worked as a registered investment adviser in the New York City area, a role that gave him direct, trusted access to his clients' finances. According to the Securities and Exchange Commission, from at least April 2017 through June 2024 he used that access to run an unauthorized "side business" alongside his registered advisory work — soliciting his own advisory clients to buy promissory notes that he issued personally, outside of any registered fund or product his firm had approved.
 
 Likhtenstein told clients the notes would pay extraordinary interest rates, funded by what he described as highly lucrative business opportunities and deals he had access to. The SEC alleges he raised more than $4.1 million from at least fifteen clients this way, drawing heavily on his standing inside the Russian-American Jewish community in Brooklyn, where many of his clients — a number of them elderly — knew him socially as well as professionally and trusted him accordingly. In reality, according to the SEC's complaint, Likhtenstein never invested the money in anything resembling the opportunities he described. Instead, he used roughly $940,000 of new investor money to make Ponzi-like payments to earlier noteholders and spent about $3.2 million of the total directly on his own personal expenses.
