@@ -5410,6 +5410,10 @@ NotoriousNS.push(
     slug: 'steven-pagartanis-long-island-elder-ponzi-scheme',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    // representative photo — replace with an exact match if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Nassau_County_Courthouse,_Garden_City,_Nassau_County,_Long_Island,_New_York_July_12,_2022_A.jpg?width=1200',
+    coverImageCredit: 'Photo: AITFFan1 (CC BY-SA 4.0) — the Nassau County Courthouse in Garden City, Long Island, New York, where Pagartanis worked as a broker',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.justice.gov/usao-edny/pr/former-long-island-investment-advisor-sentenced-170-months-prison-multi-million-dollar',
     body: `Steven Pagartanis worked for years as a registered investment advisor and broker on Long Island, New York, affiliated over time with firms including Lombard Securities and Cadaret, Grant & Co. — the kind of professional credentials that let him sit across the table from clients as a trusted financial expert rather than a stranger pitching an opportunity. From January 2000 to March 2018, he used that standing to solicit victims — almost all of them elderly women — to invest in two publicly traded companies, promising a steady, guaranteed 8 percent return.
 
@@ -5418,5 +5422,24 @@ The scheme ran for more than 18 years. Rather than actually investing his client
 Pagartanis pleaded guilty in December 2018 to conspiracy to commit mail and wire fraud. The SEC filed a parallel civil complaint over the same conduct, holding its charges in abeyance pending the criminal case, and in February 2021 barred him from associating with any broker, dealer, investment adviser, or several other categories of regulated financial firm. On January 14, 2020, he was sentenced to 170 months — just over 14 years — in federal prison, followed by three years of supervised release, and ordered to pay $6,519,594 in restitution.
 
 Pagartanis's case shows how a Ponzi scheme can survive for nearly two decades by staying deliberately unremarkable: a believable, moderate 8 percent return rather than an outlandish one, real-sounding publicly traded companies as the pretext, and a client base of elderly women who had every reason to trust a credentialed local advisor and few obvious reasons to independently verify statements he was actively fabricating.`,
+  },
+);
+
+NotoriousNS.push(
+  {
+    title: 'Richard Opoku Agyemang: The Cincinnati Launderer Behind a Transatlantic Romance Fraud Ring',
+    slug: 'richard-opoku-agyemang-cincinnati-romance-fraud-laundering',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-sdoh/pr/cincinnati-man-sentenced-prison-laundering-proceeds-romance-fraud-conspiracy-scammed',
+    body: `Richard Opoku Agyemang, 41, of Cincinnati, wasn't the one writing the messages that convinced dozens of victims they'd found love. That work fell to co-conspirators in Ghana, who used stolen photographs and fabricated identities to build fake profiles on dating websites and target people specifically chosen for their vulnerability: the elderly, and those who had recently lost a spouse and were looking for connection again.
+
+Once a relationship was established online, the scammers told their victims they needed money — often framed as help with a medical emergency a supposed romantic partner was facing. Because Agyemang lived legally in the United States, he could do what his overseas co-conspirators couldn't: open American bank accounts in his own name to receive the money victims wired in, then move it onward to other domestic accounts and to accounts overseas, laundering it through enough hands to make it hard to trace back to the original scam. Dozens of victims lost more than $2 million combined; prosecutors said some were driven to sell their homes and vehicles, cash in life insurance policies and 401(k) accounts, and max out credit cards to keep sending money to a partner who never existed.
+
+Agyemang's opportunism wasn't limited to romance fraud. During the COVID-19 pandemic, he separately defrauded the Small Business Administration by fraudulently obtaining a Paycheck Protection Program loan of nearly $21,000 in pandemic relief funds — a loan that was later forgiven — even as he was running money for a scheme built on defrauding some of the same population PPP relief was meant to help protect.
+
+Agyemang was sentenced in the U.S. District Court for the Southern District of Ohio on March 10, 2026, after pleading guilty to laundering the proceeds of the romance fraud conspiracy. He received 41 months in federal prison and was ordered to pay nearly $1.4 million in restitution to his victims.
+
+His case illustrates a piece of the romance-scam pipeline that gets far less attention than the fake profiles themselves: someone overseas can write a convincing love letter, but they generally can't cash a wire transfer sent to a U.S. bank. That job — opening the accounts, moving the money, and making the trail hard to follow — is its own distinct crime, and often the single point in the whole scheme where a scammer who never leaves Ghana can still be reached by a Cincinnati courtroom.`,
   },
 );

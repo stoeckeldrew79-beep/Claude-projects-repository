@@ -7840,3 +7840,22 @@ Both the CFTC and the SEC filed civil actions against Palmer and Trigon; the CFT
 Palmer's case is a recurring pattern in affinity fraud: a locally trusted operator, embedded in a real community and a real congregation, offering steady above-market returns to the people least likely to ask for independently verifiable account statements — because doing so would feel like distrusting a neighbor rather than protecting an investment.`,
   },
 );
+
+NotoriousAF.push(
+  {
+    title: 'Dean Vagnozzi: The Radio Pitchman Who Steered His Own Audience Into a $500 Million Fraud',
+    slug: 'dean-vagnozzi-par-funding-promoter-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.inquirer.com/business/sec-fraud-vagnozzi-philadelpha-par-funding-20220217.html',
+    body: `Dean Vagnozzi built "A Better Financial Plan" into one of the Philadelphia area's more recognizable financial-services brands the old-fashioned way: radio spots, direct mail, and free dinner seminars at local restaurants that turned retirees and small investors into a loyal audience who trusted him with their money. He wasn't a registered broker-dealer or investment adviser — his background was in insurance sales — but the reach and polish of his marketing gave him the standing of one in the eyes of the people who showed up to his seminars.
+
+Starting around 2012, Vagnozzi used that trusted platform to steer his listeners and dinner guests toward promissory notes issued by Complete Business Solutions Group, Inc., doing business as Par Funding, a Philadelphia merchant cash advance lender run by Joseph LaForte and Lisa McElhone. Investors who bought in through Vagnozzi were promised strong, steady returns from a company making short-term, high-interest loans to small businesses. What he didn't tell them, the SEC later alleged, was that LaForte had a hidden criminal record for prior financial crimes, that Par Funding's loan default rate was far higher than investors were told, that the company lacked the business insurance it claimed to carry, and that Vagnozzi himself was being paid to bring investors through the door.
+
+The SEC sued Vagnozzi, A Better Financial Plan, LaForte, McElhone, Par Funding, and several other defendants in July 2020 in the U.S. District Court for the Southern District of Florida, alleging the group had raised nearly $500 million from roughly 1,200 investors nationwide. A court-appointed receiver took control of Par Funding and A Better Financial Plan within weeks to investigate the operation and preserve what assets remained. It wasn't Vagnozzi's first brush with securities regulators over his promotional work: in 2020 he and his firm had already settled a separate SEC charge for acting as an unregistered broker in a securities offering for a company called Fallcatcher, Inc., for which he'd collected a $500,000 fee and four million shares of stock.
+
+Vagnozzi settled the SEC's Par Funding case in February 2022, agreeing to pay $5 million — $4.5 million in disgorgement, roughly $161,000 in interest, and a $400,000 civil penalty — without admitting or denying the SEC's allegations. Combined with his earlier unregistered-securities settlements with the SEC and state securities regulators, his total payments reached roughly $5.7 million.
+
+Vagnozzi's case is a reminder that a familiar voice on the radio, or a free steak dinner at a nice restaurant, isn't a credential — it's a marketing budget. The trust his audience extended to him was built through repetition and hospitality, not licensing or disclosure, and it was enough to move hundreds of millions of dollars into a lender whose finances, and whose co-founder's criminal past, his own listeners were never told about.`,
+  },
+);
