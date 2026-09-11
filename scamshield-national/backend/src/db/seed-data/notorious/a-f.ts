@@ -5915,6 +5915,10 @@ NotoriousAF.push(
     slug: 'andrew-egber-montgomery-county-elder-financial-exploitation',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    // representative photo (Egber pleaded guilty before the Circuit Court for Montgomery County, Maryland) — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Montgomery_County_Courthouse,_Maryland_(January_2006).jpg?width=1200',
+    coverImageCredit: 'Kmf164, CC BY-SA 2.5, via Wikimedia Commons',
+    coverImagePosition: 50,
     sourceUrl: 'https://oag.maryland.gov/News/pages/Former-Montgomery-County-Financial-Advisor-Sentenced-to-Jail-for-Felony-Theft,-Securities-Fraud,-and-Exploitation-of-a-Vuln.aspx',
     body: `Andrew Joseph Egber worked as a financial advisor in Gaithersburg, Maryland, holding roles at well-known firms including Wells Fargo, Raymond James, and Steward Partners over the course of his career — the kind of résumé that gives a client little reason to question an instruction from him. According to the Office of the Maryland Attorney General, between 2015 and 2019 Egber used exactly that trust to defraud five of his elderly clients out of their retirement savings through a real estate investment that never existed.
 
