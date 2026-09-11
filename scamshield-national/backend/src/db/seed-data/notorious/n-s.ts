@@ -5681,6 +5681,18 @@ Mata's case is a reminder that a disciplinary record — a state suspension, a F
 
 NotoriousNS.push(
   {
+    title: "Leslie Roberts, Carlos Rodriguez Melendez, and the Fake Warhols Sold From a Coconut Grove Gallery",
+    slug: "leslie-roberts-coconut-grove-fake-warhol-scheme",
+    author: "ScamShield Editorial",
+    tags: ["notorious", "notorious-scammer"],
+    body:
+      "Note: this case is a pending federal indictment. The allegations below are the government's, and as of this writing neither Leslie Roberts nor Carlos Miguel Rodriguez Melendez has been convicted or found liable by a court.\n\nLeslie Roberts, 62, ran the Miami Fine Art Gallery out of Coconut Grove, a well-heeled Miami neighborhood, selling what he told buyers were authentic Andy Warhol paintings he had obtained directly from the Andy Warhol Foundation for the Visual Arts, backed by fraudulent invoices meant to document that provenance. According to federal prosecutors, Roberts had an accomplice for the part of the scheme a forged signature alone couldn't cover: getting the artwork independently \"authenticated.\" Carlos Miguel Rodriguez Melendez, 37, of Sunny Isles Beach, allegedly posed as an employee of a real New York auction house to vouch for the counterfeit Warhols' legitimacy — a fabricated second opinion designed to reassure buyers who might otherwise have sought their own independent authentication.\n\nInvestigators identified a series of fraudulent transfers moving money from the gallery's account into Roberts's personal accounts, including transactions of $150,000, $40,000, and $50,000. The FBI raided the Miami Fine Art Gallery on April 9, 2025, and both men were indicted the same week, arrested, and released on bond following their initial federal court appearances. Roberts was charged with wire fraud conspiracy and money laundering, exposing him to up to 30 years in prison, while Rodriguez Melendez was charged with wire fraud conspiracy alone, carrying a maximum of 20 years. As of this writing, the case remains pending, and both men are presumed innocent unless and until convicted.\n\nIt was not Roberts's first brush with art fraud or financial crime: he had previously pleaded guilty to mail fraud in 2015 for selling fake paintings, and was convicted in the late 1980s of defrauding his own uncle in a stock scheme, serving federal prison time in both cases. A criminal record spanning three decades and two different kinds of fraud — one of them art forgery specifically — is exactly the sort of public information a buyer paying tens of thousands of dollars for a \"museum quality\" Warhol could check before wiring money to a Coconut Grove storefront, since court records and prior convictions don't disappear simply because a defendant has since opened a new gallery under a respectable-sounding name.\n\nThe scheme's second layer — a supposed independent authenticator who was, prosecutors allege, working for the seller all along — illustrates why real authentication has to come from a source with no financial stake in the sale: a major auction house, the artist's own foundation, or a recognized independent expert contacted directly by the buyer, not a name or credential the seller supplies along with the artwork itself.",
+    sourceUrl: "https://www.justice.gov/usao-sdfl/pr/coconut-grove-fine-art-dealer-indicted-federal-case-charged-wire-fraud-conspiracy-and",
+  },
+);
+
+NotoriousNS.push(
+  {
     title: "Tanzanika Ruffin and the $250,000 Fake Police Settlement Scam",
     slug: "tanzanika-ruffin-new-orleans-fake-police-settlement-fraud",
     author: "ScamShield Editorial",
