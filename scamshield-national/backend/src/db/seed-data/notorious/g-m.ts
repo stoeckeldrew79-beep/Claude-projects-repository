@@ -6824,7 +6824,10 @@ NotoriousGM.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2025/09/ftc-19-states-act-stop-deceptive-cancer-charity-fundraising-scheme',
-    // no rights-cleared photo found — sourceUrl above serves as the "read the full story" link
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/U.S._Court_House,_Los_Angeles.JPG?width=1200',
+    coverImageCredit: 'Los Angeles (Wikimedia Commons user), CC BY-SA 3.0, via Wikimedia Commons',
+    coverImagePosition: 50,
     body: `Kars-R-Us.com, Inc. built a national car-donation business on a simple pitch, repeated for years across English- and Spanish-language television, radio, and online ads: donate your old vehicle, and the proceeds would help fund free and low-cost breast cancer screenings through its charity partner, the United Breast Cancer Foundation. Between 2017 and 2022, more than 84,000 donors handed over their vehicles believing exactly that. According to a complaint the Federal Trade Commission and 19 states filed in September 2025, Kars raised $45.5 million from those donations — and directed just $126,815 of it, roughly 0.28 percent, to actual breast cancer screening services.
 
 The rest of the money, regulators said, went everywhere except where the ads promised: $34.9 million flowed to Kars, its operators, and the vendors who ran its fundraising machine, while the charitable purpose that had persuaded donors to give away a car in the first place received what amounted to a rounding error. Michael Irwin served as Kars's president and co-owner until 2022; Lisa Frank took over as the company's sole owner and current president. Both were named personally in the FTC's complaint, filed in the U.S. District Court for the Central District of California with 22 agencies from 19 states joining the case.
