@@ -5539,3 +5539,15 @@ UsNS.push({
     isHistorical: true,
     state: 'ND',
 });
+
+UsNS.push({
+    name: 'Pennsylvania "National Filing Corp" Inflated Annual Report Filing Scam',
+    slug: 'pennsylvania-national-filing-corp-annual-report-scam',
+    description: `The Pennsylvania Department of State warned businesses on August 27, 2026 about National Filing Corp, which advertises "Annual Report Filing for LLCs and Corporations Nationwide" at national-corp-filings.com and charges $136 for an LLC or $171 for a corporation to file the state's required annual report. The company tells customers the price covers "the $7.00 state fee, the $35.00 state late fee (past this year's deadline) and our $129.00 service fee," but the Department says there is no such state late fee at all, and that the $129 service charge alone runs more than 18 times what Pennsylvania itself charges to file an annual report directly — just $7 for a for-profit entity and $0 for a nonprofit. The Department's alert directs business owners to file the report themselves through the state's own online filing service, which it says provides step-by-step instructions and automatically approves and posts a filing submitted online at no additional charge. Business owners who receive a mailer or email offering to handle an "annual report filing" for a fee well above the state's own should confirm the real cost and deadline directly on Pennsylvania's official business filing site before paying a third party that contacted them first.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Pennsylvania Department of State'],
+    sourceUrl: 'https://www.pa.gov/agencies/dos/alerts-and-notices/business-and-charities-scams',
+    country: 'US',
+    state: 'PA',
+});
