@@ -3196,3 +3196,17 @@ UsTZ.push({
     country: 'US',
     state: 'TN',
 });
+
+UsTZ.push({
+    name: 'U.S. Virgin Islands Lawsuit Over Meta Scam-Ad Revenue',
+    slug: 'virgin-islands-meta-scam-advertising-lawsuit',
+    description: `The U.S. Virgin Islands Department of Justice, under Attorney General Gordon C. Rhea, filed a lawsuit against Meta Platforms, Inc. and its Facebook and Instagram subsidiaries in the Superior Court of the Virgin Islands on St. Croix on December 29, 2025, alleging the company knowingly built fraudulent advertising into its business model rather than simply failing to catch it. The complaint alleges Meta's own internal projections showed roughly 10% of its 2025 revenue — about $16 billion — would come from ads for scams and banned goods, and that the company privately acknowledged its platforms were responsible for roughly one-third of all successful scams reported in the United States, yet continued running the ads because, according to the complaint, Meta actually charged fraudulent advertisers a premium rate for the placement rather than removing them. The lawsuit alleges violations of the Virgin Islands Consumer Protection Law of 1973 and the territory's Consumer Fraud and Deceptive Business Practices Act, seeking injunctive relief to stop the practice along with civil penalties and disgorgement of the improper profits. Rhea's office said the Virgin Islands was joining dozens of other states already suing Meta over harms to children, but that its own complaint uniquely centers the platform's role enabling widespread consumer fraud that reaches Virgin Islands residents, including elderly account holders targeted by romance and investment scam ads run directly through Meta's ad system. Virgin Islands residents are advised to treat any unsolicited investment, romance, or prize-related ad on Facebook or Instagram with the same skepticism as an unsolicited phone call, since a platform accepting payment to run an ad is not, by itself, any verification that the advertiser or the offer behind it is legitimate; anyone who believes they were defrauded through a Meta platform ad can contact the V.I. DOJ's Special Investigations Division at joycelyn.conner@doj.vi.gov or 340-774-5666, ext. 10343.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'medium',
+    sources: ['U.S. Virgin Islands Department of Justice'],
+    sourceUrl: 'https://usvidoj.com/v-i-attorney-general-files-lawsuit-against-meta-to-protect-children-and-combat-widespread-online-fraud/',
+    country: 'US',
+    state: 'VI',
+    isHistorical: true,
+    firstRecorded: '2025-12-29',
+});
