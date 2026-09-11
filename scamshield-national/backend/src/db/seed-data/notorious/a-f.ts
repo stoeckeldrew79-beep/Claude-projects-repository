@@ -7847,6 +7847,10 @@ NotoriousAF.push(
     slug: 'dean-vagnozzi-par-funding-promoter-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Philadelphia_skyline.JPG?width=1200',
+    coverImageCredit: 'Photo: ErgoSum88 (Public domain) — Philadelphia, where Vagnozzi built "A Better Financial Plan" into a recognizable local brand',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.inquirer.com/business/sec-fraud-vagnozzi-philadelpha-par-funding-20220217.html',
     body: `Dean Vagnozzi built "A Better Financial Plan" into one of the Philadelphia area's more recognizable financial-services brands the old-fashioned way: radio spots, direct mail, and free dinner seminars at local restaurants that turned retirees and small investors into a loyal audience who trusted him with their money. He wasn't a registered broker-dealer or investment adviser — his background was in insurance sales — but the reach and polish of his marketing gave him the standing of one in the eyes of the people who showed up to his seminars.
 
@@ -7866,6 +7870,10 @@ NotoriousAF.push(
     slug: 'felix-clark-ghana-gold-romance-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/The_Aerial_View_of_Accra,_the_capital_town_of_Ghana.jpg?width=1200',
+    coverImageCredit: 'Photo: Joseph Wemakor (CC BY-SA 4.0) — Accra, Ghana, where the co-conspirators who built the fake romantic personas were based',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.justice.gov/usao-nj/pr/texas-man-and-his-romantic-partner-sentenced-prison-their-roles-harming-elderly-victims',
     body: `Felix Clark, 37, of Royse City, Texas — who also went by the aliases "Joseph Moore" and "Stanley Smith" — didn't create the fake romantic personas that anchored this scheme. That work was done by co-conspirators based in Ghana, who trawled online dating sites using invented identities to strike up relationships with mostly elderly victims, several of them recently widowed, sometimes going so far as to talk about marriage before ever asking for money. Clark's role was what made the fraud collectible: receiving the wire transfers victims sent and moving the money out of the country before anyone could claw it back.
 
