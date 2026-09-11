@@ -10590,6 +10590,16 @@ International.push(
     sourceUrl: 'https://www.finance.gov.sc/blog/2026/06/10/ministry-of-finance-issues-scam-alert/',
     country: 'SC',
   },
+  {
+    name: 'Fake "Airtel" R1 Million WhatsApp Lottery Scam Impersonating the Central Bank of Seychelles',
+    slug: 'seychelles-airtel-whatsapp-lottery-scam-cbs-impersonation',
+    description: `The Central Bank of Seychelles (CBS) issued a public warning in January 2022 after a WhatsApp message began circulating that falsely claimed to be from Airtel Telecom Seychelles, telling recipients they had won SCR1,000,000 in a prize draw redeemable through the Central Bank. The message carried the CBS logo and implied a joint promotion between Airtel and the Bank, instructing recipients to call a phone number to claim their winnings. The CBS stated it "is not aware of the origin of this message and advises the public that the institution is not presently collaborating with Airtel or any other service provider on promotions of this nature," and confirmed it runs no consumer prize draws of any kind. The Bank urged the public not to call the number given in the message or share any personal or banking information with it, and said the matter had been referred to the Seychelles Police for investigation, flagging a broader rise in scams that misuse the CBS name and logo to appear credible. As with similar prize-notification scams reported elsewhere in Seychelles, victims who make contact are typically pressed to pay an "administrative," "clearance," or "transfer" fee before any winnings can supposedly be released — money that is never recovered, because no prize ever existed.`,
+    categorySlug: 'lottery-sweepstakes-scams',
+    alertLevel: 'medium',
+    sources: ['Central Bank of Seychelles (CBS)', 'Seychelles Nation'],
+    sourceUrl: 'https://www.nation.sc/articles/12069/cbs-warns-public-to-be-more-vigilant-as-latest-scam-surfaces-via-whatsapp',
+    country: 'SC',
+  },
 );
 
 International.push(
