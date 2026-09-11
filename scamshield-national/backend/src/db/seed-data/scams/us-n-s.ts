@@ -5167,3 +5167,17 @@ UsNS.push({
     isHistorical: true,
     firstRecorded: '2020-12-01',
 });
+
+UsNS.push({
+    name: 'Aneva Gym Illegal Cancellation-Fee Membership Trap',
+    slug: 'new-york-aneva-gym-membership-cancellation-trap',
+    description: `Atlas Risen Corp., doing business as Aneva Gym in Long Island City, Queens, signed up members without ever providing the written membership contract New York's Health Club Services Law requires, instead posting its own terms and conditions on its website and leaving customers to find out the real rules only when they tried to leave. New York Attorney General Letitia James sued the gym on June 13, 2025, alleging it required members to cancel in person and in writing — when state law lets a member cancel by website, email, mail, or phone as well — and separately made members give 30 days' advance notice to cancel, far beyond the three business days the law allows after a monthly membership renews, all while the business had never posted the $50,000 consumer-protection bond New York requires health clubs to maintain in case they close or fail to deliver. "When New Yorkers join a gym, they deserve clear contracts that allow them to cancel their memberships quickly and easily," James said in announcing the suit. The case settled on August 4, 2025: Aneva Gym agreed to refund members who had been unable to cancel under the illegal policy, pay a $5,000 penalty, post the required bond, and rewrite its contracts and cancellation process to comply with state law going forward. Anyone joining a gym in New York can ask to see the required written contract before signing, confirm the cancellation method and notice period in that contract match what state law actually allows, and file a complaint with the Attorney General's office if a gym refuses to process a cancellation sent by mail, email, or phone.`,
+    categorySlug: 'subscription-traps',
+    alertLevel: 'medium',
+    sources: ["New York Attorney General's Office (Letitia James)"],
+    sourceUrl: 'https://ag.ny.gov/press-release/2025/attorney-general-james-secures-refunds-and-policy-changes-queens-gym-misled',
+    country: 'US',
+    state: 'NY',
+    isHistorical: true,
+    firstRecorded: '2025-06-13',
+});
