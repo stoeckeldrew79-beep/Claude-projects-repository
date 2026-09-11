@@ -6526,3 +6526,22 @@ Kumi was arrested in Ghana on December 11, 2025, following an investigation by t
 The Abu Trica case sits at an uncomfortable frontier for elder-fraud investigators: generative AI tools that were, until recently, expensive and technically demanding are now cheap and simple enough for a scam network to use them not just to write more convincing messages, but to manufacture the sustained illusion of an actual person — a voice, a face, a relationship maintained in real time over months. If the government's allegations hold up at trial, the case offers a preview of how much harder the oldest trick in the fraud playbook, a stranger claiming to love you, may become to spot once the stranger is not a person typing from a script but a synthetic performance built to survive a video call.`,
   },
 );
+NotoriousAF.push(
+  {
+    title: 'Eric Zhu and the "Locked Liquidity" That Wasn\'t: A $553,000 Crypto Rug Pull',
+    slug: 'eric-zhu-game-coin-gme-rug-pull',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26223',
+    // civil SEC settlement, no rights-cleared photo identified — sourceUrl serves as the "read the full story" link
+    body: `Note: this case is a civil SEC settlement. Eric Zhu settled the SEC's charges without admitting or denying the allegations, and the case involves no criminal conviction.
+
+Game Coin, LLC was a small Louisiana venture founded in August 2021 by two people whose primary business, according to the SEC's complaint, was landscaping rather than software — an ordinary-enough origin story for a company that set out to build a website where amateur athletes could create and sell their own digital trading cards. To handle the technical side of launching a companion crypto token called GME, the founders brought in Eric Zhu, a freelance blockchain engineer based in New York, to write the code that would create the token and bring it to market.
+
+GME was sold to the public in June 2021 through a decentralized exchange called PancakeSwap, using a mechanism common across the crypto industry: a "liquidity pool," where anyone can deposit a pair of crypto assets — in this case GME and Binance Coin — to enable other users to trade between them, and in exchange receives "LP tokens" representing a claim on that pooled liquidity. Game Coin's founders assured prospective buyers in public social media posts that the project's liquidity was "locked," industry shorthand meaning the LP tokens were held in a way that prevented insiders from withdrawing the pooled assets and abandoning the project — the exact maneuver known in crypto slang as a "rug pull."
+
+According to the SEC's complaint, filed January 16, 2025 in the U.S. District Court for the Middle District of Louisiana, that promise wasn't true for all of the LP tokens. A portion of them, generated as part of how GME's sale was structured, ended up sitting in a blockchain address under Zhu's exclusive control — and rather than locking or returning them, Zhu kept them fully usable and, months after the launch, used them to withdraw GME and Binance Coin from the liquidity pool for himself, misappropriating crypto assets the SEC valued at approximately $553,000 and triggering roughly a 12 percent drop in GME's price as the pool he had drained lost the ability to support the token's value.
+
+Zhu settled the SEC's charges — that he violated the antifraud provisions of the Securities Act and the Securities Exchange Act — without admitting or denying the allegations, agreeing to pay $672,992 in disgorgement and prejudgment interest plus a $150,000 civil penalty, for a total of roughly $823,000, along with a permanent injunction against future violations, subject to court approval. Unlike Game Coin's founders, who were accused of misrepresenting the project's basic safeguards, Zhu's alleged fraud came from a position most investors never think to scrutinize: not the people making public promises about a token, but the engineer with backend access to the mechanism meant to keep those promises honest. "Locked liquidity" is a claim retail crypto buyers generally have no independent way to verify — it lives in code and permissions controlled by people they've never met — which is exactly what let one member of a small team quietly hold the keys to a lock everyone else believed was already shut.`,
+  },
+);
