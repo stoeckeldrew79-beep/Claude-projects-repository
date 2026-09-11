@@ -7537,5 +7537,8 @@ Prosecutors said Shrem, as BitInstant's CEO and its own compliance officer, know
 Shrem was arrested at John F. Kennedy International Airport in January 2014 as he prepared to board a flight and resigned from the Bitcoin Foundation's board the same day. He pleaded guilty in September 2014 before U.S. District Judge Jed S. Rakoff to one count of aiding and abetting the operation of an unlicensed money-transmitting business. At sentencing that December, Rakoff described Shrem as having been "knowingly, willfully, to some extent excitedly and even passionately involved" in conduct he understood was helping facilitate illegal drug purchases, and sentenced him to two years in federal prison. Shrem served his time and was released early, in September 2015; Faiella, who ran the underlying exchange operation, was separately sentenced to four years.
 
 Shrem's case became one of the earliest and most closely watched examples of federal prosecutors applying decades-old money-transmitting and anti-money-laundering law directly to a cryptocurrency company's own executives, rather than just the platform itself — a signal, early in bitcoin's history, that running an exchange came with the same legal obligations to know your customer and report suspicious activity as any bank, and that ignoring where the money was actually going was not a defense available to the person whose job it was to be watching for exactly that.`,
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Charlie_Shrem_2013.jpg?width=1200',
+    coverImageCredit: 'Photo: Cshrem / Wikimedia Commons / CC BY-SA 3.0',
+    coverImagePosition: 50,
   },
 );
