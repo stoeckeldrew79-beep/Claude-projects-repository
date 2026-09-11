@@ -6796,3 +6796,17 @@ UsAF.push({
     isHistorical: true,
     firstRecorded: '2026-06-24',
 });
+
+UsAF.push({
+    name: 'California Roomster Fake Reviews and "Verified" Rental Listing Scam',
+    slug: 'california-roomster-fake-reviews-verified-listings-settlement',
+    description: `Roomster, a room- and roommate-finding app, marketed itself to Californians apartment-hunting or looking for a roommate as offering "millions of verified listings," but California Attorney General Rob Bonta's office found the company never actually verified who posted a listing or whether it was real, leaving the app filled with scam postings alongside genuine ones. Investigators also found Roomster co-founders John Shriber and Roman Zaks had paid a review-selling business to generate at least 20,000 fake five-star reviews in the Apple and Google app stores — in one email, Shriber told the reviews seller he wanted "lots of 5 star IOS app reviews" because he "would like to be #1" when people searched for roommates — misleading users into trusting an app that was doing nothing to screen out fraudulent listings. Bonta's office joined the Federal Trade Commission and attorneys general from Colorado, Florida, Illinois, Massachusetts, and New York in suing Roomster and its founders, reaching a settlement announced August 28, 2023 that required $1.6 million in immediate consumer restitution, with a suspended judgment of more than $47 million that becomes payable in full if the company violates the settlement's terms. "Our coalition's investigation revealed that Roomster was, in simple terms, conning people seeking rental housing," Bonta said. Under the settlement, Roomster and its founders are permanently barred from buying or incentivizing app reviews, from using biased reviews to promote any product, and from claiming a listing is "verified" without actually verifying it — restrictions that also follow Shriber and Zaks to any future company they create. Anyone using a listing or roommate-finding app should treat "verified" and star-rating claims with skepticism, insist on seeing the actual unit and meeting the person renting it out before paying any deposit or fee, and search a listing's photos and description elsewhere online to check whether they've been copied from a different, unrelated property.`,
+    categorySlug: 'rental-housing',
+    alertLevel: 'medium',
+    sources: ["California Attorney General's Office (Rob Bonta)", 'Federal Trade Commission'],
+    sourceUrl: 'https://www.oag.ca.gov/news/press-releases/attorney-general-bonta-announces-settlement-room-rental-app-purchasing-fake',
+    country: 'US',
+    state: 'CA',
+    isHistorical: true,
+    firstRecorded: '2022-08-01',
+});

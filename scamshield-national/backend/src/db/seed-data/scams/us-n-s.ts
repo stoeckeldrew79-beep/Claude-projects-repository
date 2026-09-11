@@ -5178,3 +5178,31 @@ UsNS.push({
     isHistorical: true,
     firstRecorded: '2020-12-01',
 });
+
+UsNS.push({
+    name: 'Aneva Gym Illegal Cancellation-Fee Membership Trap',
+    slug: 'new-york-aneva-gym-membership-cancellation-trap',
+    description: `Atlas Risen Corp., doing business as Aneva Gym in Long Island City, Queens, signed up members without ever providing the written membership contract New York's Health Club Services Law requires, instead posting its own terms and conditions on its website and leaving customers to find out the real rules only when they tried to leave. New York Attorney General Letitia James sued the gym on June 13, 2025, alleging it required members to cancel in person and in writing — when state law lets a member cancel by website, email, mail, or phone as well — and separately made members give 30 days' advance notice to cancel, far beyond the three business days the law allows after a monthly membership renews, all while the business had never posted the $50,000 consumer-protection bond New York requires health clubs to maintain in case they close or fail to deliver. "When New Yorkers join a gym, they deserve clear contracts that allow them to cancel their memberships quickly and easily," James said in announcing the suit. The case settled on August 4, 2025: Aneva Gym agreed to refund members who had been unable to cancel under the illegal policy, pay a $5,000 penalty, post the required bond, and rewrite its contracts and cancellation process to comply with state law going forward. Anyone joining a gym in New York can ask to see the required written contract before signing, confirm the cancellation method and notice period in that contract match what state law actually allows, and file a complaint with the Attorney General's office if a gym refuses to process a cancellation sent by mail, email, or phone.`,
+    categorySlug: 'subscription-traps',
+    alertLevel: 'medium',
+    sources: ["New York Attorney General's Office (Letitia James)"],
+    sourceUrl: 'https://ag.ny.gov/press-release/2025/attorney-general-james-secures-refunds-and-policy-changes-queens-gym-misled',
+    country: 'US',
+    state: 'NY',
+    isHistorical: true,
+    firstRecorded: '2025-06-13',
+});
+
+UsNS.push({
+    name: 'Manhattan SIM-Swap Ring With Bribed Telecom Store Employees',
+    slug: 'new-york-manhattan-sim-swap-telecom-insider-ring',
+    description: `Manhattan District Attorney Alvin Bragg announced the indictment on November 20, 2025 of an eleven-person ring accused of stealing $435,000 from four Manhattan residents by paying insiders at AT&T and T-Mobile retail stores to illegally reassign victims' phone numbers onto SIM cards the group controlled. Prosecutors say ringleaders Devin Lopez-Dominguez, Brian Cortorreal, and Kilsis Delacruz paid four retail employees — Jadakiss Bonilla, Kendrah Vasquez, Amanda Rodado, and Jared Moreland — to perform the unauthorized SIM swaps from inside the stores, sidestepping the security checks a scammer would otherwise have to defeat over the phone. Once a victim's number was hijacked, the group used it to intercept the one-time SMS passcodes banks and other services sent to "verify" the account holder, then used those codes to log into victims' bank accounts and transfer out cash; additional defendants — Brandan Goodwin, Starlyn Solano, and Lilyan Gil — are accused of receiving the stolen funds, while Jason Weaver and Juan Castillo are accused of directing additional swaps and paying other participants. "We allege that, with the help of insiders at cellphone stores, this ring stole hundreds of thousands from Manhattanites by accessing their accounts through SIM-swapping," Bragg said in announcing charges that include conspiracy, second-degree money laundering, grand larceny, first-degree identity theft, and criminal possession of stolen property. The case is a reminder that a SIM swap doesn't always require tricking a call-center employee over the phone — it can be arranged in minutes by a paid insider at a retail store — so anyone whose phone unexpectedly loses signal or shows "no service" without explanation should immediately contact their carrier through a separately verified number and check bank and financial accounts for unauthorized activity, and should ask their carrier to add a PIN or passcode required for any SIM change or port-out request.`,
+    categorySlug: 'account-takeover',
+    alertLevel: 'high',
+    sources: ['Manhattan District Attorney (Alvin Bragg)'],
+    sourceUrl: 'https://manhattanda.org/d-a-bragg-announces-indictment-of-sim-swapping-id-theft-ring-including-att-and-t-mobile-employees/',
+    country: 'US',
+    state: 'NY',
+    isHistorical: true,
+    firstRecorded: '2025-11-20',
+});
