@@ -5115,6 +5115,10 @@ NotoriousAF.push(
     slug: 'terrence-chalk-dr-cash-church-ponzi-scheme',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Skyline_of_Orlando,_9_Feb_2017.jpg?width=1200',
+    coverImageCredit: 'Photo: Artystyk386, Wikimedia Commons (CC BY-SA 4.0) — Orlando, Florida, where Terrence Chalk built his "Dr. Cash" client base',
     sourceUrl: 'https://www.justice.gov/usao-sdny/pr/serial-fraudster-dr-cash-sentenced-three-years-prison-running-ponzi-scheme',
     body: `Terrence Chalk had already been convicted once of federal fraud, in 2006, by the time he started building a new investment business a decade later in Orlando, Florida. Rather than use his own name — which an internet search would have tied directly to that earlier conviction — federal prosecutors in the Southern District of New York said Chalk rebranded himself "Dr. Cash," presenting himself as a financial guru with a system for building wealth, and built his client base by holding "wealth seminars" pitched at Black churches, promising to reveal the "hidden secrets of the wealthy."
 
