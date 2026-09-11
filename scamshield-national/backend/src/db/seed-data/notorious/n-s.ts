@@ -4940,3 +4940,24 @@ Okpe was arrested in Malaysia at the request of the United States and spent more
 Okpe's case is a reminder that the categories consumer-protection agencies use to sort scam reports — romance fraud, BEC, fake job postings, stolen credit cards — often describe different storefronts run by the very same organized group, sharing the same money mules and the same laundering channels behind the scenes. Someone defrauded through a dating app and a business defrauded through a spoofed vendor invoice can, without either one ever knowing it, turn out to be victims of the identical criminal network.`,
   },
 );
+
+NotoriousNS.push(
+  {
+    title: 'Shervin Neman and the Fake Hedge Fund That Targeted His Own Community',
+    slug: 'shervin-neman-neman-financial-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Roybal_Federal_Building_and_United_States_Courthouse.jpg?width=1200',
+    coverImageCredit: 'Photo: Downtowngal, CC BY-SA 3.0, via Wikimedia Commons — the Roybal Federal Building and U.S. Courthouse in Los Angeles, where Neman was tried',
+    coverImagePosition: 50,
+    sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-22331',
+    body: `Shervin Neman, operating under the name Neman Financial, told investors he ran a hedge fund with an enviable list of holdings: foreclosed residential properties bought cheap and flipped quickly for profit, pre-IPO shares of Facebook obtained through private placement, and allocations in some of the most sought-after initial public offerings of the era, including Groupon, LinkedIn, and Angie's List. Neman raised roughly $7.5 million from at least 11 investors on the strength of that story between 2008 and 2011.
+
+According to the SEC, almost none of it was true. Neman Financial held no meaningful stake in Facebook, Groupon, LinkedIn, or Angie's List, and the fund wasn't systematically flipping foreclosed homes for profit. Instead, the "returns" paid to existing investors came from money raised from newer ones — the defining structure of a Ponzi scheme. Most of Neman's investors came from the Persian-Jewish community in Los Angeles, where Neman had personal and family ties that gave his pitch a level of built-in credibility a stranger's cold call never would have carried.
+
+The SEC obtained an emergency court order in 2011 to halt the scheme and freeze Neman's assets. He was separately indicted criminally, and a jury convicted him in May 2014 on wire fraud and mail fraud charges. He was sentenced to 135 months — about 11 years and three months — in federal prison and ordered to pay more than $3.2 million in restitution; the Ninth Circuit Court of Appeals affirmed his conviction and sentence on appeal.
+
+Neman's case sits in a long tradition of affinity fraud, in which a con artist deliberately targets people who share the fraudster's own ethnic, religious, or community ties, using that shared identity as a substitute for the due diligence a stranger would ordinarily have to earn. The claimed access to name-brand, hard-to-get IPO shares served the same function the fake grocery-trading profits, forged account statements, and other props serve in every Ponzi scheme on this list: a plausible-sounding story that discourages investors from asking simple, disqualifying questions like where the money is actually being held and by whom.`,
+  },
+);
