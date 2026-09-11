@@ -7704,3 +7704,20 @@ Schooler's case is a reminder that a final judgment, however large, is only as g
     coverImagePosition: 50,
   },
 );
+
+NotoriousGM.push(
+  {
+    title: 'James Cassity and the $450 Million Prepaid Funeral Fraud That Took 15 Years to Unravel',
+    slug: 'james-cassity-national-prearranged-services-funeral-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://www.justice.gov/usao-edmo/pr/six-defendants-sentenced-total-36-years-prison-national-prearranged-services-case',
+    body: `National Prearranged Services (NPS), based in Clayton, Missouri, sold prearranged funeral contracts across Missouri, Illinois, Ohio, and more than a dozen other states starting in the early 1990s. The pitch was simple and reassuring: pay now, lock in today's price for tomorrow's funeral, and state law would require that money to sit untouched in a trust account or an insurance policy until the day it was actually needed, decades later if necessary. James Douglas Cassity, who prosecutors said organized and led the enterprise, treated that legal requirement less as a safeguard than as a pile of cash sitting around with no one watching it closely.
+
+Rather than holding customer payments in trust, NPS and a web of affiliated companies — including Lincoln Memorial Life Insurance Company, run by CEO Randall K. Sutton — diverted the money for unauthorized purposes and personal enrichment, using new contract sales to paper over the growing hole left by funerals that had already been promised and paid for but never funded. James Cassity's son, Brent Douglas Cassity, served as an NPS officer; company attorney Howard A. Wittner helped keep the structure running and made false statements to insurance regulators; and NPS employee Sharon Nekol Province processed mail and wire transactions at the center of the scheme. A statutorily appointed independent investment adviser, David Wulf, was separately convicted at trial on 18 counts including bank fraud and wire fraud for his own role overseeing — and failing to catch, or participating in concealing — where the money actually went.
+
+The fraud ran from roughly 1992 until NPS collapsed in 2008, ensnaring more than 97,000 customers along with hundreds of funeral homes and financial institutions that had relied on NPS's trust and insurance arrangements being real. Untangling it took a multi-year joint investigation by the FBI, IRS Criminal Investigation, and insurance regulators in numerous states before the Department of Justice could bring charges. James Cassity was sentenced to 115 months in federal prison, Sutton to 84 months, Brent Cassity to 60 months, Wittner to 36 months, and Province to 18 months — combined sentences of more than 36 years — while Wulf, the only defendant who went to trial rather than pleading guilty, received 120 months. Courts ordered a combined $435 million in restitution toward total losses estimated at more than $450 million, making NPS the largest prepaid funeral fraud in U.S. history. "Honest and law-abiding citizens are fed up with the likes of those who use deceit," IRS-Criminal Investigation Special Agent Sybil Smith said when the final sentences were announced.
+
+The NPS case is a reminder of just how long a trust-fund fraud can run undetected when the people responsible for safeguarding the money — a company's own executives, its attorney, and even the independent adviser appointed by statute to watch over it — are the same people quietly emptying it, and how many ordinary families and small local funeral homes end up absorbing the loss once a fraud that size finally comes apart.`,
+  },
+);

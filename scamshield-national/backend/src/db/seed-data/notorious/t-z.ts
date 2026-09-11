@@ -2387,5 +2387,9 @@ The largest and most visible of those projects was The Villa, a shopping centre 
 The scheme came apart in September 2010, when South Africa's Reserve Bank ruled that Sharemax's entire funding model violated the country's Banks Act and ordered public funds repaid — a directive that, combined with pending winding-up applications against the company, triggered a collapse across its projects almost immediately. The Villa was left roughly 75 percent complete and has sat empty and unfinished for more than fifteen years since, a physical monument to money that never turned into a working shopping centre. South Africa's elite Hawks police unit investigated potential fraud, but the National Prosecuting Authority ultimately declined to bring any criminal case over the collapse — including one prosecution effort covering 18,600 investors and R4.6 billion in losses that the NPA dropped entirely, leaving no Sharemax director, including Botha, ever criminally convicted over the scheme.
 
 Sharemax is a useful case precisely because it shows how far a scheme can run without a single conviction ever being secured: a regulator's own finding that the funding model was illegal, a shopping centre sitting half-built and empty for a decade and a half, and tens of thousands of retirees out billions of rand were, on their own, not enough to produce a criminal case that stuck. It's a reminder that a scheme's scale and its documented harm to victims don't automatically translate into accountability for the people who ran it — regulatory findings and civil rulings against a scheme are not the same thing as someone actually paying a criminal price for it.`,
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Pretoria_Skyline.jpg?width=1200',
+    coverImageCredit: 'Photo: R4vi / Wikimedia Commons / CC BY-SA 2.0',
+    coverImagePosition: 50,
   },
 );
