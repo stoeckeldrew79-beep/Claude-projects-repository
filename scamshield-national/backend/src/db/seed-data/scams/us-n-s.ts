@@ -4898,3 +4898,15 @@ UsNS.push({
     country: 'US',
     state: 'FL',
 });
+
+UsNS.push({
+    name: '"Palisade Legal Group" Fake Law Firm Debt Settlement Scheme',
+    slug: 'rhode-island-palisade-legal-group-debt-settlement-scheme',
+    description: `Rhode Island Attorney General Peter F. Neronha sued Palisade Legal Group, PLLC and its sole member and "Managing Attorney," Michael Moccia, in Providence Superior Court on March 19, 2025, alleging the firm dressed itself up as a law practice to sell what was actually an unlicensed debt-management service to financially struggling Rhode Islanders. According to the complaint, Palisade never registered with the state's Department of Business Regulation as required of any company offering debt-management or debt-settlement services, and instead of the fee structure Rhode Island law requires — a cap of 30% of the actual debt relief a client obtains — Palisade allegedly charged a flat 27.5% fee on the full amount of debt enrolled in the program, regardless of how much relief the client ever actually received. That distinction matters enormously in practice: a client who enrolled $20,000 in debt but only had $2,000 forgiven could still be billed thousands of dollars, since the fee was pegged to the debt enrolled rather than the debt actually eliminated. The complaint also describes a client who was promised a debt-reduction plan structured to conclude in six months but was still making payments eleven months later without having received the promised relief, and alleges Palisade misapplied client payments in ways that didn't match what customers were told when they signed up. The Attorney General's office alleges these practices violate Rhode Island's Unfair and Deceptive Trade Practices Act and is seeking civil penalties, an injunction barring further unlicensed debt-management activity, and refunds for affected Rhode Island consumers. "Deceiving Rhode Islanders who are already struggling financially into paying illegal fees for services under false pretenses is unacceptable," Neronha's office said in announcing the suit. Anyone who has enrolled in a debt-settlement or debt-management plan — especially one marketed by a company presenting itself as a law firm — should ask directly whether the company is registered with Rhode Island's Department of Business Regulation, request a written breakdown showing whether fees are calculated on debt enrolled or debt actually settled, and can file a complaint with the Rhode Island Attorney General's office at 401-274-4400 if the numbers don't match what they were promised.`,
+    categorySlug: 'debt-relief-scams',
+    alertLevel: 'medium',
+    sources: ["Rhode Island Attorney General's Office"],
+    sourceUrl: 'https://riag.ri.gov/press-releases/attorney-general-neronha-sues-debt-management-group-charging-illegal-excessive-fees',
+    country: 'US',
+    state: 'RI',
+});
