@@ -13333,3 +13333,42 @@ International.push(
     country: 'AD',
   },
 );
+
+International.push(
+  {
+    name: 'Antigua and Barbuda FSRC "Digital Cryptocurrency Bank" Unlicensed Entity Warning',
+    slug: 'antigua-barbuda-fsrc-digital-cryptocurrency-bank-unlicensed-warning',
+    description: `Antigua and Barbuda's Financial Services Regulatory Commission (FSRC) issued a public notice on August 14, 2025 warning that an online entity calling itself "Digital Cryptocurrency Bank," also trading as "DCB," is not licensed to operate in or from the jurisdiction despite claiming otherwise. DCB advertises itself through the website dcb-banking.com and lists customer-support and wire-transfer contact points, including an email address and two phone numbers, inviting members of the public to open accounts and move funds through what it presents as a fully regulated international bank offering cryptocurrency-linked banking services. The FSRC confirmed that DCB has never been incorporated under Antigua and Barbuda's International Business Corporation Act and has never been granted a license under the International Banking Act to conduct international banking business, stating plainly that "all statements or representations by DCB claiming lawful registration or licensing by the FSRC to operate in any jurisdiction are false." Because Antigua and Barbuda is a recognized offshore financial center, fraudulent operators frequently borrow the jurisdiction's name and regulatory branding to lend a fake entity false credibility with overseas depositors and investors who have no easy way to check the claim themselves. The FSRC urged anyone who is approached by DCB, who has already sent money to it, or who is offered banking or investment services by any entity claiming an Antigua and Barbuda license to first verify that claim against the register of licensed international banks and other regulated entities published on the Commission's own website, www.fsrc.gov.ag, before sending any funds or personal information, and to report any suspected unlicensed activity directly to the FSRC.`,
+    categorySlug: 'cryptocurrency-scams',
+    alertLevel: 'high',
+    sources: ['Financial Services Regulatory Commission (FSRC) of Antigua and Barbuda', 'Antigua News'],
+    sourceUrl: 'https://antigua.news/2025/08/14/fsrc-issues-warning-unlicensed-digital-cryptocurrency-bank-operating-in-antigua-and-barbuda/',
+    country: 'AG',
+  },
+);
+
+International.push(
+  {
+    name: 'Fake "Arrive Antigua" Travel Arrival Form Website Scam',
+    slug: 'antigua-barbuda-fake-arrive-antigua-travel-form-scam',
+    description: `Antigua News Room reported on January 19, 2026 that residents, accommodation providers, and other members of the tourism sector were being urged to warn incoming visitors about fraudulent websites impersonating Arrive Antigua, the government's official online pre-arrival registration form. Travelers searching online for the arrival form were instead being directed to lookalike third-party sites that closely mimic the real government page, where they were asked to upload personal photographs and pay a fee of up to US$100 per person to "complete" what the site presented as a mandatory entry requirement. In reality, most visitors to Antigua and Barbuda do not need a tourist visa or arrival fee at all, and the genuine Arrive Antigua form — available only at www.arriveantigua.com — is completed entirely free of charge; any site charging a fee to submit it, or requesting payment card details, is not the official government platform. Because travelers typically complete this step shortly before an unfamiliar trip and have no easy way to judge which result in a search engine is authentic, the fake sites are able to collect both a fraudulent payment and uploaded personal photographs and travel details before the visitor ever realizes anything is wrong. Authorities advised residents and tourism businesses to direct visitors specifically to www.arriveantigua.com, to caution that copycat sites may closely mimic official government branding and page design while charging unauthorized fees, and to treat any request for payment, a credit card number, or a personal photo upload beyond standard travel information as a clear sign a site is not the legitimate government portal.`,
+    categorySlug: 'travel-vacation-scams',
+    alertLevel: 'medium',
+    sources: ['Antigua News Room'],
+    sourceUrl: 'https://antiguanewsroom.com/fake-arrive-antigua-websites-target-travelers/',
+    country: 'AG',
+  },
+);
+
+International.push(
+  {
+    name: 'Fake Governor-General Social Media Impersonation Scam',
+    slug: 'antigua-barbuda-fake-governor-general-social-media-scam',
+    description: `The Office of the Governor-General of Antigua and Barbuda issued a public notice, reported by the Antigua Observer and Antigua News Room in September 2021, warning that at least two residents had already been defrauded of thousands of dollars by a person or persons creating fake Facebook Messenger and Instagram accounts that impersonate His Excellency Sir Rodney Williams, the Governor-General. The fraudulent accounts use versions of the Governor-General's name and title along with at least one genuine photograph of him to appear authentic, then contact targets directly to request money — with some of the fake accounts claiming to be collecting funds on the Governor-General's behalf for United Nations-affiliated entities or promising a greater financial return in exchange for an upfront payment. The Office noted that the only valid Facebook page for the Governor-General is "Governor-General Antigua Barbuda," and that any other page or account using his name or image to request funds, however convincing the photo or title, is not genuine. Because a request appearing to come from the country's head of state carries an unusual degree of authority and urgency, victims have sent money without pausing to verify the claim through any official channel. The Office of the Governor-General asked members of the public never to send money to anyone purporting to be the Governor-General or acting on his behalf on social media, and to direct any query about a request claiming to come from him to the Office directly by email before responding or sending any funds.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Office of the Governor-General of Antigua and Barbuda', 'Antigua Observer Newspaper', 'Antigua News Room'],
+    sourceUrl: 'https://antiguanewsroom.com/two-people-scammed-of-thousands-by-person-pretending-to-be-governor-general/',
+    country: 'AG',
+  },
+);
