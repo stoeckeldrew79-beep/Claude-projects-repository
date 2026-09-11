@@ -7615,6 +7615,10 @@ If you bought a mattress from Brooklyn Bedding, Helix, Bear, or Leesa during the
     slug: "ftc-health-breach-notification-rule-policy-rescission-2026-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "ftc-health-breach-notification-rule-rescission"],
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/The_Apex_Building,_headquarters_of_the_Federal_Trade_Commission,_on_Constitution_Avenue_and_7th_Streets_in_Washington,_D.C.jpg?width=1200",
+    coverImageCredit: "Photo: Harrison Keely, CC BY 4.0, via Wikimedia Commons — the FTC's Apex Building headquarters",
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: "https://www.ftc.gov/news-events/news/press-releases/2026/09/ftc-withdraws-obsolete-policy-statement",
     body: `On September 9, 2026, the Federal Trade Commission voted unanimously to withdraw its 2021 Policy Statement on Breaches by Health Apps and Other Connected Devices — the guidance document that first put period trackers, fitness apps, and other health tech outside HIPAA's reach on notice that a federal breach-notification law actually applied to them. The FTC's own announcement called the 2021 statement "obsolete" and said it had "provided minimal benefit and has been superseded by rulemaking," framing the move as routine regulatory housekeeping rather than a rollback of consumer protection. Whether that framing holds up depends on which part of the 2021 policy you're looking at.
 
