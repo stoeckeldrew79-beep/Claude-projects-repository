@@ -2229,6 +2229,20 @@ UsTZ.push({
 });
 
 UsTZ.push({
+    name: 'Milwaukee Evicted-Tenant Posing as Landlord Rental Scam (Yasmin Hameed)',
+    slug: 'wisconsin-milwaukee-hameed-evicted-tenant-fake-landlord-scam',
+    description: `Yasmin Hameed advertised a single-family Milwaukee home for rent to families searching for housing — but she wasn't the landlord at all. Court records show Hameed was actually the tenant living in the home, and one already facing eviction for not paying her own rent, when she began collecting money from prospective renters for a property she had no legal right to lease. Working with an accomplice using the name "Quincy Jones" and communicating with at least one victim under the alias "Tasha," Hameed and her associate showed the home to interested families and took payments from at least four of them — deposits and rent that together totaled nearly $8,000 — before the scheme unraveled. Milwaukee prosecutors charged Hameed with felony theft by false representation, forgery, three additional counts of misdemeanor theft by false representation, and four counts of bail jumping, the last because she was already free on bond in two unrelated pending felony cases, for armed robbery and financial fraud, when she carried out the rental scheme. She was arrested on July 16, 2026, held on a $15,000 cash bond, and scheduled for a preliminary hearing on August 6, 2026. The case is a reminder that a "landlord" who found you online, rather than the other way around, still needs to prove they actually own or manage the property before any money changes hands: ask to see a photo ID that matches the name on the property's tax and ownership records (searchable for free through the county assessor's website), insist on touring the unit in person rather than relying only on a remote showing, and never wire money or send a deposit through a peer-to-peer payment app to someone who resists a face-to-face meeting or a written lease with their full legal name on it.`,
+    categorySlug: 'rental-housing',
+    alertLevel: 'medium',
+    sources: ['WTMJ Milwaukee', 'Moneywise'],
+    sourceUrl: 'https://wtmj.com/news/2026/07/20/milwaukee-woman-charged-in-alleged-rental-scam-targeting-families-searching-for-housing/',
+    country: 'US',
+    state: 'WI',
+    isHistorical: true,
+    firstRecorded: '2026-07-16',
+});
+
+UsTZ.push({
     name: 'Vermont Fake State Tax Portal Phishing Websites',
     slug: 'vermont-fake-tax-portal-phishing-websites',
     description: `Just two days before Vermont's 2026 income tax filing deadline, the Vermont Attorney General's Office warned residents that scammers had set up lookalike websites carrying names very close to the state's real online taxpayer portal, myVTax, in an apparent bid to harvest Social Security numbers and other personal and financial information from taxpayers rushing to file. The genuine portal is only reachable at myvtax.vermont.gov, and the Attorney General's Office told Vermonters to double-check that any tax website they land on actually shows "vermont.gov" in the browser's address bar rather than a ".com" or other look-alike domain, noting that many browsers now truncate or hide the full URL by default, a setting that can be turned off to make the real domain easier to verify before entering any information. Attorney General Charity Clark's office had already flagged the rise in impersonation scams weeks earlier when it released its Top 10 Scams of 2025 report, which found Vermonters filed 3,982 scam complaints with the Consumer Assistance Program in 2025, a 12% increase over the prior year, with computer tech-support scams topping the list for a fifth straight year and a government-imposter scam category appearing in the top ten for the first time. Anyone who is unsure whether a tax-related website, email, or phone call claiming to be from the State of Vermont is genuine should navigate directly to tax.vermont.gov themselves rather than clicking a link, and can report a suspected scam to the Attorney General's Consumer Assistance Program hotline at 800-649-2424.`,
