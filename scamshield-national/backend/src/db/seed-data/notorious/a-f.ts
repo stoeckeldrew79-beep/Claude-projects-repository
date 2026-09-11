@@ -7429,5 +7429,9 @@ Hecker filed for personal bankruptcy in June 2009, listing debts of roughly $767
 The case dragged on for roughly two years as investigators kept uncovering new instances of concealment — "we were never done," one assistant U.S. attorney said afterward. "We just kept having to investigate him, over and over." Hecker eventually pleaded guilty to one count of conspiracy to commit wire fraud and one count of bankruptcy fraud. Under an initial plea agreement, prosecutors had been prepared to recommend a reduced sentence in exchange for his continued cooperation and truthful conduct, but Hecker's own actions after the plea — further dishonesty and additional misconduct — led prosecutors to conclude he hadn't held up his end of the bargain.
 
 On February 11, 2011, a federal judge in Minneapolis sentenced Hecker to 10 years in prison, the maximum available under his plea agreement, and ordered him to pay roughly $31 million in restitution, primarily to the auto-financing companies he had defrauded. The sentencing judge cited Hecker's pattern of lying to and concealing assets from the court as justifying the harshest sentence on the table. Hecker's rapid fall from local celebrity — car-dealership empire, high-profile divorce, tabloid-covered relationship with a Minneapolis TV meteorologist — to federal inmate made his case one of the most closely watched white-collar prosecutions in Minnesota history, and a frequently cited example of how bankruptcy fraud, unlike an investment Ponzi scheme, victimizes the very legal process meant to give a failed businessman a fair, honest fresh start.`,
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Minneapolis_Federal_Courthouse_-_U.S._District_Court,_Minnesota_(43702329510).jpg?width=1200',
+    coverImageCredit: 'Photo: Tony Webster / Wikimedia Commons / CC BY 2.0',
+    coverImagePosition: 50,
   },
 );
