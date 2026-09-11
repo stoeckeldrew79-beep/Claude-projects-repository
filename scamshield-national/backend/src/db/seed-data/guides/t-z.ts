@@ -2362,6 +2362,9 @@ If you held a SunTrust account in Georgia and think you may be eligible, check t
     author: "ScamShield Editorial",
     tags: ["guide", "trader-joes-facta-receipt-settlement"],
     sourceUrl: "https://www.classaction.org/news/7.4m-trader-joes-settlement-ends-class-action-lawsuit-over-info-printed-on-credit-and-debit-card-receipts",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Trader_Joe's_in_Rockridge.jpg?width=1200",
+    coverImageCredit: "Photo: Mx. Granger, CC0, via Wikimedia Commons — a Trader Joe's storefront",
+    coverImagePosition: 50,
     body: `Every swipe of a credit or debit card at checkout is supposed to come with a specific federal protection most shoppers never think about: under the Fair and Accurate Credit Transactions Act (FACTA), a business is barred from printing more than the last five digits of a customer's card number, or the card's expiration date, on any receipt provided at the point of sale. The rule exists specifically to keep a lost or discarded receipt from becoming a usable piece of a stolen identity. A class action, Keim v. Trader Joe's Company (Case No. 19STCV36790, Los Angeles County Superior Court), alleged Trader Joe's violated that exact rule — and the grocery chain agreed to a $7.4 million settlement rather than continue litigating, without admitting wrongdoing.
 
 According to the lawsuit, for a roughly four-month stretch between March 5, 2019 and July 19, 2019, a glitch in Trader Joe's payment-processing software caused receipts at its stores to print the first six and last four digits of a customer's card number — well beyond the last-five-digits limit FACTA allows, and enough digits, combined with other information, to meaningfully narrow down or reconstruct a full card number. The court granted preliminary approval to the settlement on February 5, 2026.
@@ -2378,6 +2381,9 @@ If you're reading this after the claim deadline, the settlement itself is closed
     author: "ScamShield Editorial",
     tags: ["guide", "volkswagen-atlas-water-pump-settlement"],
     sourceUrl: "https://www.classaction.org/news/vw-atlas-settlement-ends-class-action-suit-over-alleged-water-pump-defect",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/2021_Volkswagen_Atlas_1X7A0392.jpg?width=1200",
+    coverImageCredit: "Photo: Alexander Migl, CC BY-SA 4.0, via Wikimedia Commons — a Volkswagen Atlas, the SUV model covered by the settlement",
+    coverImagePosition: 50,
     body: `A water pump failing on a family SUV sounds like a routine, if unwelcome, repair bill. On the Volkswagen Atlas and Atlas Cross Sport, according to a class action lawsuit, it could be considerably worse: Briggs, et al. v. Volkswagen Group of America, Inc. (Case No. 2:25-cv-01540, U.S. District Court for the District of New Jersey) alleged that 2018-2022 model-year Atlas and Atlas Cross Sport vehicles equipped with the naturally aspirated 3.6-liter VR6 engine shipped with a water pump defect prone to premature failure, causing coolant leaks that owners say can lead to overheating and, in some cases, more extensive engine damage if not caught in time. The complaint invoked the federal Magnuson-Moss Warranty Act along with state consumer-protection statutes in Virginia, Wisconsin, Maryland, and Massachusetts. Volkswagen has not admitted wrongdoing but agreed to settle rather than continue litigating, and the court granted preliminary approval on March 23, 2026.
 
 Unlike a safety recall, which requires an automaker to proactively notify every owner and fix an affected vehicle at no charge regardless of whether the owner does anything, this VW settlement works the other way around: it's an extended-warranty-and-reimbursement deal that a covered owner has to actively claim. The National Highway Traffic Safety Administration has not ordered a recall over this water pump issue, so nothing about the settlement happens automatically for an owner who does nothing.
