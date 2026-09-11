@@ -4883,6 +4883,10 @@ NotoriousGM.push(
     title: 'Jack Grubman: The Wall Street Analyst Whose "Buy" Ratings Were for Sale',
     slug: 'jack-grubman-telecom-analyst-conflict-of-interest',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/NYSE_Building.JPG?width=1200',
+    coverImageCredit: 'Photo: Andy C (CC BY-SA 3.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
     sourceUrl: 'https://www.sec.gov/news/press/2003-55.htm',
     body: `Jack Grubman spent the 1990s telecom boom as Wall Street's most powerful analyst covering the sector, first at PaineWebber and then, from 1994 on, at Smith Barney and its successor Salomon Smith Barney, part of Citigroup. At his peak he was reportedly paid more than $20 million a year, and a single ratings change from him could move a telecom stock several points in a day. What regulators later established was that his research was also, in effect, for sale to the investment bank that employed him.
@@ -5113,6 +5117,10 @@ The case is a reminder that a fraud doesn't need to be original to work: WoToken
     title: 'James J. McDermott Jr. and the Insider-Trading Scandal His Mistress Turned Into $170,000 in Profits',
     slug: 'james-mcdermott-keefe-bruyette-insider-trading',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/40_Wall_Street,_NYC.png?width=1200',
+    coverImageCredit: 'Photo: Sterlfilms (CC BY-SA 4.0) — Manhattan\'s Financial District, where McDermott ran Keefe, Bruyette & Woods',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
     sourceUrl: 'https://en.wikipedia.org/wiki/James_McDermott_(business_executive)',
     body: `James J. McDermott Jr. spent the 1990s as chairman and CEO of Keefe, Bruyette & Woods, the boutique Wall Street investment bank that had built its reputation advising on nearly every major merger between American banks and thrifts. It was a business built on secrets — KBW routinely knew which banks were about to buy which other banks, weeks or months before the public did — and McDermott, married with children, spent roughly a year handing some of those secrets to his mistress.
@@ -5187,6 +5195,10 @@ The Hin Leong case is one of the largest and most closely watched trade-finance 
     title: `José Hawilla and the Traffic Sports Bribes That Cracked FIFA's Corruption Open`,
     slug: 'jose-hawilla-traffic-sports-fifa-bribery',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Cidade_de_S%C3%A3o_Paulo.jpg?width=1200',
+    coverImageCredit: 'Photo: Diego Torres Silvestre (CC BY 2.0) — São Paulo, where Hawilla built Traffic Group and died in 2018',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
     sourceUrl: 'https://www.justice.gov/archives/opa/pr/nine-fifa-officials-and-five-corporate-executives-indicted-racketeering-conspiracy-and',
     body: `José Hawilla built Traffic Group, the Brazilian sports-marketing conglomerate he founded in the 1980s, into one of the dominant middlemen in international soccer — buying up broadcast and sponsorship rights to tournaments like the Copa América and World Cup qualifiers, then reselling them to networks and advertisers at a markup. For that business to work at the scale Hawilla wanted, he needed the officials who controlled those rights, at FIFA and its regional confederations, to keep awarding them to him rather than a competitor. Over roughly two decades, prosecutors would later show, Hawilla and his companies simply paid for that outcome.
@@ -5203,6 +5215,10 @@ Hawilla's case illustrates a dynamic that shows up across large bribery networks
     title: `John McDonald and the Whiskey Ring That Defrauded the U.S. Treasury Out of Millions in Liquor Taxes`,
     slug: 'john-mcdonald-whiskey-ring-tax-fraud',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/The_Old_Courthouse,_Saint_Louis,_Missouri.JPG?width=1200',
+    coverImageCredit: 'Photo: Daderot (CC BY-SA 3.0) — the Old Courthouse in St. Louis, seat of the district McDonald ran as a revenue supervisor',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
     sourceUrl: 'https://www.archives.gov/publications/prologue/2000/fall/whiskey-ring-1',
     body: `John McDonald was a Union Army veteran and political operative whom President Ulysses S. Grant appointed Supervisor of Internal Revenue for the St. Louis district in 1869 — a post that put him in charge of collecting the federal excise tax on distilled whiskey, at the time one of the U.S. government's largest sources of revenue. Rather than collect that tax honestly, McDonald built and ran what became known as the Whiskey Ring: a conspiracy of distillers, rectifiers, and Treasury and IRS officials across St. Louis, Chicago, Milwaukee, and several other cities who bribed government gaugers and revenue agents to certify far less whiskey than distilleries actually produced, letting millions of gallons move to market completely untaxed.
@@ -5222,6 +5238,10 @@ NotoriousGM.push(
     title: `Daryl Heller and the $770 Million ATM Ponzi Scheme That Preyed on His Own Mennonite Neighbors`,
     slug: 'daryl-heller-prestige-atm-ponzi-scheme',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Eurobank_ATM.jpg?width=1200',
+    coverImageCredit: 'Photo: NikosLikomitros (CC0) — a generic bank ATM, the hardware business Heller\'s funds claimed to operate',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.sec.gov/newsroom/press-releases/2025-111-sec-charges-pennsylvania-resident-his-companies-770-million-ponzi-scheme',
     body: `Daryl F. Heller grew up on a farm north of Lititz, Pennsylvania, the son and grandson of Mennonite pastors, before building Prestige Investment Group and a related company, Paramount Management Group, into what he told investors was a fast-growing, nationwide network of automated teller machines and cryptocurrency kiosks. Starting in January 2017, Heller sold units in roughly two dozen separate funds — marketed under names including the Prestige ATM Funds and WF Velocity ATM Funds — pitching fixed monthly distributions that worked out to double-digit annual returns, with typical minimum investments of $52,000, $104,000, or $120,000.

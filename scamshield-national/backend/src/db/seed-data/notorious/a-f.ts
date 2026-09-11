@@ -4086,6 +4086,10 @@ NotoriousAF.push(
     title: 'Anthony Marshall and the Fraud That Robbed Brooke Astor of Her Final Years',
     slug: 'anthony-marshall-brooke-astor-elder-fraud',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/500_Park_Avenue.JPG?width=1200',
+    coverImageCredit: 'Photo: Elisa.rolle (CC BY-SA 4.0) — Park Avenue in Manhattan, where Brooke Astor lived and was allegedly neglected while her son controlled her fortune',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
     sourceUrl: 'https://en.wikipedia.org/wiki/Anthony_Dryden_Marshall',
     body: `Anthony Dryden Marshall was the only child of Brooke Astor, the philanthropist and widow of Vincent Astor whose charitable foundation gave away hundreds of millions of dollars across New York City in the second half of the 20th century. A decorated Marine Corps veteran of Iwo Jima, a former CIA officer, a U.S. ambassador to Kenya, Madagascar, and Trinidad and Tobago, and a Tony Award-winning Broadway producer, Marshall spent much of his adult life at a comfortable remove from his mother's fortune — until her health began to fail and he became the man managing it.
@@ -4742,6 +4746,10 @@ NotoriousAF.push(
     title: 'Robert Freeman and the Goldman Sachs Insider-Trading Chain That Led Back to Ivan Boesky',
     slug: 'robert-freeman-goldman-sachs-insider-trading',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Goldman_Sachs_200_West_Street.JPG?width=1200',
+    coverImageCredit: 'Photo: Youngking11 (CC BY-SA 3.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
     sourceUrl: 'https://www.washingtonpost.com/archive/business/1989/08/18/trader-agrees-to-plead-guilty-to-insider-trading-charge/12a6e482-781f-4a37-b3c3-3168b07d58a5/',
     body: `Robert M. Freeman was one of the most respected men on Wall Street's arbitrage desks — a partner at Goldman Sachs and head of the firm's risk-arbitrage department, the group that bets on the outcome of pending corporate takeovers. During the leveraged-buyout boom of the mid-1980s, that job put Freeman at the center of a small, insular world of rival arbitrageurs who socialized together, traded gossip about upcoming deals, and, prosecutors would eventually show, sometimes traded nonpublic information along with it.
@@ -5015,6 +5023,9 @@ NotoriousAF.push(
     title: "Cardinal Angelo Becciu and the €350 Million London Property Deal That Made Vatican History",
     slug: 'angelo-becciu-vatican-financial-trial',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Palazzo_Apostolico_001.JPG?width=1200',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.npr.org/2023/12/16/1219839096/cardinal-vatican-embezzlement-trial-guilty',
     body: `Cardinal Angelo Becciu spent nearly a decade, from 2011 to 2018, as the Substitute for General Affairs in the Vatican's Secretariat of State — a post that functioned as the Holy See's day-to-day chief of staff, with broad control over the Secretariat's own investment funds. During that tenure, the Secretariat committed roughly €350 million, built up partly from Peter's Pence, the annual worldwide collection Catholics are told funds the pope's charitable works, to a speculative real-estate venture: a stake in 60 Sloane Avenue, a former Harrods warehouse in London's Chelsea district being converted into luxury apartments. The deal ran first through a fund managed by Italian financier Raffaele Mincione, then, when the Vatican tried to extricate itself, through a second intermediary, Gianluigi Torzi, who structured the buyout so that he personally retained the voting shares in the property — leaving the Vatican, briefly, without effective control of an investment it had already sunk hundreds of millions of euros into and had to pay Torzi millions more to unwind.
@@ -5905,6 +5916,10 @@ The case is a reminder that any company offering to reduce or forgive federal st
     title: 'Charles Hallinan: The "Godfather of Payday Lending" and His $492 Million Illegal Loan Empire',
     slug: 'charles-hallinan-godfather-payday-lending-racketeering',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Philadelphia_city_hall.jpg?width=1200',
+    coverImageCredit: 'Photo: Toniklemm (CC BY-SA 4.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/usao-edpa/pr/reputed-godfather-payday-lending-sentenced-168-months-federal-prison',
     body: `Charles M. Hallinan was a Main Line Philadelphia investment banker who, after selling a landfill company for roughly $120 million in the 1990s, moved into payday lending and became so dominant in the industry that other lenders called him the "godfather of payday lending." Over roughly two decades, he owned, financed, or operated dozens of small-loan companies with names like Tele-Ca$h, Instant Cash USA, and Your First Payday, issuing short-term, fixed-fee loans to financially stretched borrowers at interest rates federal prosecutors said worked out to as much as 780% a year.
@@ -6036,6 +6051,10 @@ Brockman pleaded not guilty and fought the case for nearly two years, during whi
     title: 'Paul Ceglia and the Forged Facebook Contract That Turned Into a Federal Fugitive Case',
     slug: 'paul-ceglia-facebook-forged-contract-fraud',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Facebook_Headquarters_1_Hacker_Way_Menlo_Park.jpg?width=1200',
+    coverImageCredit: 'Photo: LPS.1 (CC0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/archive/usao/nys/pressreleases/October12/CegliaPaulCharges.php',
     body: `In June 2010, an obscure wood-pellet fuel dealer from rural Wellsville, New York, named Paul Ceglia filed a lawsuit claiming he owned roughly half of Facebook. Ceglia's suit centered on a contract he said he and Mark Zuckerberg had signed in April 2003, while Zuckerberg was still a Harvard freshman: in exchange for $1,000 to help fund a website Ceglia was developing, Zuckerberg had supposedly agreed to give him a 50 percent stake in "The Face Book" — plus an additional 1 percent for every day past January 1, 2004 that the site remained unfinished, a penalty clause that, applied literally, would have made Ceglia the majority owner of a company that by 2010 was worth tens of billions of dollars.
@@ -6067,6 +6086,10 @@ NotoriousAF.push(
     title: 'Charles Kokesh, the New Mexico Fund Manager Whose $34.9 Million Fraud Reshaped SEC Enforcement',
     slug: 'charles-kokesh-business-development-companies-disgorgement',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Morning_at_the_plaza_-_panoramio.jpg?width=1200',
+    coverImageCredit: 'Photo: olekinderhook (CC BY 3.0) — Santa Fe Plaza, in the New Mexico city where Kokesh ran his advisory firms',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
     sourceUrl: 'https://www.sec.gov/litigation/litreleases/lr-23228',
     body: `Charles R. Kokesh ran a set of registered investment-adviser firms that, from 1995 through 2009, controlled four business-development companies — publicly registered investment vehicles designed to funnel capital to small and mid-sized businesses — on behalf of roughly 21,000 outside investors. Rather than simply managing that money, the SEC alleged, Kokesh used his control over the advisory relationship to siphon tens of millions of dollars out of the funds for himself, directing the business-development companies to pay his advisory firms improper distributions, inflated performance fees, bonuses, and expense reimbursements that had nothing to do with legitimate fund management.
