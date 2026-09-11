@@ -7784,6 +7784,10 @@ NotoriousAF.push(
     slug: 'alex-hope-mz-consultancy-forex-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Inner_london_crown_court_southwark.jpg?width=1200',
+    coverImageCredit: 'Photo: MRSC (Public domain)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.fca.org.uk/news/press-releases/alex-hope-and-raj-von-badlo-sentenced-following-fca-prosecution',
     body: `Alex Hope was 21 years old and running a company called MZ Consultancy out of London when he began pitching investors on his supposed talent for foreign-exchange trading. Between March 2011 and April 2012, Hope and an associate, Raj Von Badlo (also known as Raj Shastri), persuaded more than 100 investors to hand over a combined £5.5 million, promising returns as high as 100 percent within months, funded by Hope's trading on the FX markets. Badlo acted as the operation's main recruiter, bringing in more than 75 of those investors himself, who together contributed roughly £4.29 million of the total. Neither Hope nor his scheme was ever authorized by the UK's Financial Conduct Authority to run a collective investment scheme at all.
 
@@ -7801,6 +7805,10 @@ NotoriousAF.push(
     slug: 'diane-durbon-brittany-lukasik-cape-coral-caretaker-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Front_view_of_Cape_Coral_Police_Headquarters..jpg?width=1200',
+    coverImageCredit: 'Photo: Mike Meehan (CC BY-SA 3.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.justice.gov/usao-mdfl/pr/cape-coral-caretakers-sentenced-federal-prison-stealing-more-half-million-dollars',
     body: `In 2016, Diane Durbon and her daughter, registered nurse Brittany Lukasik, were hired as caretakers for a 92-year-old Cape Coral, Florida woman identified in court records only as T.H. — the kind of in-home caregiving arrangement families set up specifically because they trust the people they're hiring with an aging relative's daily life. Durbon used that access for something else. Starting in October 2017, she began unlawfully accessing T.H.'s investment accounts, and when the accounts' security questions required the client's own voice, Durbon put T.H. herself on the phone to answer them — turning the victim into an unwitting tool for draining her own money.
 

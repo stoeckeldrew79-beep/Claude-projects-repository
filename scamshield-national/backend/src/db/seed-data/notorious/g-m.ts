@@ -7990,3 +7990,20 @@ Kerns pleaded guilty on February 9, 2022, to wire fraud and money laundering. Ch
 The case shows how a caregiving relationship can double as cover for financial exploitation: clients who trusted Kerns to manage their care simply took her word for what they owed her each week, and by the time anyone added it up, more than a million dollars had gone to her lifestyle instead of their care.`,
   },
 );
+
+NotoriousGM.push(
+  {
+    title: 'Marcia Nickette Remedies: The Caregiver Who Gambled Away a Bedridden Hospice Patient\'s Grocery Money',
+    slug: 'marcia-remedies-hardin-county-caregiver-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-edtx/pr/caregiver-sentenced-federal-prison-stealing-elderly-hardin-county-woman',
+    body: `In October 2022, the family of a 91-year-old, bedridden Hardin County, Texas woman receiving hospice care found Marcia Nickette Remedies, 71, of nearby Huffman, through a Facebook ad and hired her as a caregiver. They gave Remedies access to the victim's debit card for one purpose only: buying groceries and personal care items the homebound woman needed.
+
+Between November 2022 and April 2023, Remedies used that access for something else entirely. She made repeated unauthorized withdrawals and purchases on the victim's card, running up charges at local stores that had nothing to do with the woman's care and, most tellingly, making numerous withdrawals at the Delta Downs Racetrack Casino and Hotel across the state line in Vinton, Louisiana — money meant for a dying woman's groceries instead funding Remedies's own gambling.
+
+The Hardin County Sheriff's Office opened an investigation in May 2023 after suspicious activity came to light, and brought in the FBI; investigators built their case in part on surveillance footage documenting the unauthorized transactions. Remedies pleaded guilty to wire fraud, and on November 5, 2024, U.S. District Judge Michael J. Truncale sentenced her to eight months in federal prison and ordered her to pay $24,887.75 in restitution.
+
+The dollar amount here is small next to many of the fraud cases on this site, but the harm it measures isn't: a family paid a stranger to care for their bedridden, dying relative, and that stranger spent the money meant for her basic needs at a casino instead — a reminder that vetting a caregiver's background and monitoring account activity matters just as much when the sums involved are modest as when they're in the millions.`,
+  },
+);
