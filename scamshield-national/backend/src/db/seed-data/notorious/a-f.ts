@@ -6747,3 +6747,19 @@ The scheme finally ran out of road in 2025: Hirshfield stopped making interest p
 Hirshfield's case is a reminder that a Ponzi scheme doesn't have to start as one. Ideal spent over sixty years as a real business with a real product before a regulator's order to stop raising money became, in her hands, a secret to keep from the very people whose money kept the company's lights on — and a family name built over three generations wasn't enough to keep the math of "pay old investors with new investors' money" from eventually running out.`,
   },
 );
+NotoriousAF.push(
+  {
+    title: 'David Fairfull, Metigy, and the AI Marketing Startup Built on $43,000 of Real Revenue',
+    slug: 'david-fairfull-metigy-investor-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-130mr-former-metigy-ceo-david-fairfull-sentenced-to-nine-years-imprisonment',
+    body: `David Fairfull co-founded Metigy Pty Ltd, a Sydney-based startup that sold small and medium businesses AI-powered software for managing digital marketing, and rode it to a valuation that reportedly touched close to AUD 1 billion at its peak, backed by a Series B round led by Cygnet Capital. It was, on the strength of the numbers Fairfull gave investors, one of Australia's most promising AI companies. It was also, according to Australia's corporate regulator, built on financial statements that bore almost no relationship to reality.
+
+Between October 2018 and October 2020, Metigy ran three capital-raising rounds that brought in roughly AUD 23.4 million, followed by a July 2021 secondary share sale that raised a further AUD 15.7 million — a combined AUD 39 million from investors who were told the company's revenue was already in the millions of dollars. The Australian Securities and Investments Commission's investigation found the real figure was just above AUD 43,000. Fairfull didn't stop at misstating revenue: in November 2021, ASIC alleged, he used his position as a director to have Metigy lend him AUD 7.7 million of the company's own money, which he used to buy residential property for himself.
+
+Metigy collapsed into administration in July 2022, roughly twenty months after the round that had valued it near a billion dollars, wiping out the investors who had bought in on the strength of numbers ASIC says were never real. Fairfull pleaded guilty in November 2025 to one count of making false and misleading statements to investors and one count of dishonestly using his position as a director for personal gain. The Federal Court of Australia sentenced him to nine years' imprisonment — seven and a half years for the misleading statements and three years, largely concurrent, for the dishonest use of his position — with a non-parole period of five years and four months. "Mr Fairfull's actions were a breach of the integrity and honesty expected of directors, and his imprisonment reflects the seriousness of his crime," ASIC Chair Sarah Court said in announcing the sentence.
+
+Metigy's collapse is a reminder that a headline valuation is only ever a multiple of the revenue a company claims to have, and that claim is worth exactly as much as the audit behind it. A billion-dollar-adjacent valuation built on AUD 43,000 of actual sales wasn't a rounding error or an optimistic projection — investors who wired millions into Metigy's later raises were, per ASIC's findings, working from a set of books that had been fabricated well before they signed a check.`,
+  },
+);

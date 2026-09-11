@@ -4631,3 +4631,19 @@ That jurisdictional gap closed, unexpectedly, from India's side rather than Amer
 Royal Tiger's case is a reminder that the "threat" an American regulator identifies and the "defendant" an American court can actually reach are often two very different things when a fraud network's leadership operates entirely offshore: the FCC could name Anand, describe his network's tactics in detail, and order U.S. carriers to block his traffic more than a year before any law enforcement agency anywhere in the world had the jurisdiction and evidence in hand to actually arrest him — and even that arrest, when it finally came, was the result of an Indian federal investigation into fraud against Canadian and American consumers, not an American one.`,
   },
 );
+NotoriousNS.push(
+  {
+    title: 'Daniel Pugh, the Bedroom Ponzi Scheme, and the Facebook Ads Promising 1.4% a Day',
+    slug: 'daniel-pugh-imperial-investment-fund-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.fca.org.uk/news/press-releases/daniel-pugh-sentenced-for-ponzi-scheme',
+    body: `Daniel Pugh ran his fraud from a bedroom in Devon, England, using nothing more sophisticated than paid Facebook advertisements to build a network of 238 investors for something he called the Imperial Investment Fund. The pitch was aggressive even by the standards of investment fraud: returns of 1.4% a day, 7% a week, or 350% a year, figures that would make Pugh's fund, if genuine, one of the best-performing trading operations on the planet.
+
+It wasn't genuine. The UK's Financial Conduct Authority found that only about 19% of the roughly £1.3 million investors put into the fund was ever actually traded; the rest simply moved between accounts, with early investors' "returns" paid out of money coming in from new ones — the standard mechanics of a Ponzi scheme regardless of how small or informal the operation running it looks. Pugh, operating with another individual the FCA has said remains wanted in connection with the scheme, personally received around £96,000, which he spent on designer clothes, restaurant meals, and at least £18,000 withdrawn in cash.
+
+The FCA charged Pugh on July 18, 2023, and on October 6, 2025, he was sentenced to seven years and six months in prison for fraud, plus concurrent sentences of two years for carrying out unauthorized regulated activity and one year for issuing unauthorized financial promotions; he was also disqualified from acting as a company director for eight years starting on his release. The regulator didn't stop at the criminal sentence — in June 2026, a court sitting at Southwark Crown Court granted the FCA a confiscation order requiring Pugh to pay £452,286.80, earmarked to compensate his victims. "Claims that sound too good to be true, are usually just that," the FCA's joint executive director of enforcement and market oversight, Steve Smart, said in announcing the sentencing.
+
+Pugh's case is a useful corrective to the idea that a Ponzi scheme needs a Wall Street address, a call center, or even a company beyond a name and a bank account to take real money from real people: a bedroom, a Facebook ad account, and a numerically specific but mathematically impossible daily return were enough to pull in £1.3 million from 238 people who, like most victims of these schemes, had no way to verify that only a fifth of their money was ever actually invested until regulators did the digging for them.`,
+  },
+);
