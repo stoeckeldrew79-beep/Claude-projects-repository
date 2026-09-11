@@ -5708,3 +5708,17 @@ UsGM.push({
     isHistorical: true,
     firstRecorded: '2026-09-08',
 });
+
+UsGM.push({
+    name: 'Massachusetts $1.4 Million Multi-Program Benefit Fraud Crackdown',
+    slug: 'massachusetts-benefit-fraud-crackdown-rodriguez-chalas',
+    description: `The U.S. Attorney's Office for the District of Massachusetts announced criminal charges against 15 people on June 18, 2026, in a coordinated crackdown alleging more than $1.4 million was fraudulently drawn from SNAP, MassHealth, Social Security and Social Security Disability Insurance, HUD housing assistance, and unemployment benefit programs, with the Department of Labor's Office of Inspector General, Homeland Security Investigations, and the USDA's and HHS's Offices of Inspector General assisting in the investigation. Heriberto Rodriguez of Framingham was charged with passport fraud, SNAP fraud, and aggravated identity theft in connection with an alleged $546,463 in combined losses spread across MassHealth ($175,182), Social Security ($146,944), HUD ($185,194), and SNAP ($39,000); Mirian Chalas, a U.S. citizen living in Salem, New Hampshire, was charged with making false statements to obtain $266,000 in MassHealth benefits along with Social Security disability and SNAP payments; and Santo Escolastico Cuello was charged in connection with $162,180 in MassHealth fraud, among the other defendants named in the sweep. U.S. Attorney Leah B. Foley said the cases involved defendants who gave false information — including, in some instances, stolen identities — to qualify for benefit programs meant for Massachusetts residents genuinely in need. All defendants are presumed innocent unless and until proven guilty. Anyone with information about suspected fraud involving SNAP, MassHealth, Social Security, HUD, or unemployment benefits can report it to the Department of Labor's Office of Inspector General hotline or the relevant program's own fraud line, since these cases are typically built from tips and cross-referenced income and identity records rather than caught through routine review alone.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office, District of Massachusetts", 'U.S. Department of Labor Office of Inspector General'],
+    sourceUrl: 'https://www.justice.gov/usao-ma/pr/us-attorneys-office-announces-15-arrests-benefit-fraud',
+    country: 'US',
+    state: 'MA',
+    isHistorical: true,
+    firstRecorded: '2026-06-18',
+});
