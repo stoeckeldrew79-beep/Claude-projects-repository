@@ -7293,3 +7293,15 @@ UsAF.push({
     country: 'US',
     state: 'AK',
 });
+
+UsAF.push({
+    name: 'Ellington Law Firm Bookkeeper Embezzlement (Heather Murdock)',
+    slug: 'connecticut-ellington-murdock-law-firm-bookkeeper-embezzlement',
+    description: `Heather Murdock, 57, of Ellington, Connecticut, worked as the bookkeeper and office manager for a Hartford-area law firm and, between approximately 2010 and 2022, used the firm's own bookkeeping software to generate hundreds of false checks made payable to herself, forging the firm owner's signature on each one and then doctoring the accounting entries to make the payments look like they had gone to legitimate vendors. She separately pocketed $175,559 in cash rental payments that tenants had paid toward properties owned by the firm's owner, again altering the books to hide the theft. The Acting U.S. Attorney for the District of Connecticut announced Murdock's indictment in March 2025, and on September 1, 2026 she pleaded guilty in New Haven federal court to bank fraud and tax evasion, admitting she had also failed to file federal income tax returns from 2013 through 2022 and substantially underreported her income in the years before that, on top of never paying tax on the embezzled funds themselves. As part of the plea, Murdock agreed to pay $753,838.70 in restitution to the law firm and $225,991 in back taxes, penalties, and interest to the IRS; she faces up to 35 years in prison at sentencing, scheduled for December 1, 2026, though actual federal sentences are typically far below statutory maximums. The FBI and IRS Criminal Investigation worked the case together. As with other long-running bookkeeper-embezzlement schemes, the theft continued for over a decade because Murdock was the single trusted employee with both bookkeeping access and check-signing authority and no one independently reconciled the firm's bank statements against its actual books; small businesses and professional practices are advised to have an owner or a second, independent person regularly compare bank and credit card statements directly against invoices and payroll, and to require a second signature on checks above a set dollar threshold.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'medium',
+    sources: ["U.S. Attorney's Office for the District of Connecticut", 'IRS Criminal Investigation', 'Daily Voice', 'NBC Connecticut'],
+    sourceUrl: 'https://www.justice.gov/usao-ct/pr/ellington-woman-pleads-guilty-fraud-and-tax-offenses',
+    country: 'US',
+    state: 'CT',
+});
