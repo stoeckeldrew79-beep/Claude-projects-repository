@@ -5498,6 +5498,10 @@ NotoriousNS.push(
     slug: 'nate-paul-world-class-holdings-bank-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Austin_skyline.JPG?width=1200',
+    coverImageCredit: 'Photo: Sahmeditor, CC BY-SA 3.0, via Wikimedia Commons — the Austin, Texas skyline',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     body: `Nate Paul built World Class Holdings into one of Austin, Texas's most aggressive commercial real estate buyers, assembling a portfolio Forbes once pegged at more than 120 properties worth over $1.2 billion and profiling him, while still in his twenties, as a real estate "prodigy." The growth was fueled by a steady stream of bank loans and private investor capital — and, according to federal prosecutors, by lies about what that money would actually be used for and what financial shape Paul's businesses were really in.
 
 In June 2023, a federal grand jury in the Western District of Texas indicted Paul on eight counts of bank fraud, alleging he made false statements to lending institutions to obtain roughly $172 million in loans for various real estate ventures. A superseding indictment that November added four wire fraud counts, alleging Paul told investors in limited partnerships that their money would be kept isolated for use within those specific partnerships, then diverted the funds to prop up his other business ventures instead. Paul's case drew national attention beyond the real estate world because of his ties to Texas Attorney General Ken Paxton — Paxton's own securities fraud indictment and 2023 impeachment trial centered partly on allegations that he'd used his office to help Paul in exchange for favors, allegations Paxton denied and was acquitted of at trial.
@@ -5515,6 +5519,10 @@ NotoriousNS.push(
     slug: 'philip-righter-basquiat-warhol-art-forgery',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Paintbrush_and_palette.JPG?width=1200',
+    coverImageCredit: 'Photo: Sebastian Grünwald, CC BY 3.0, via Wikimedia Commons — an artist\'s paintbrush and palette',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     body: `Philip Righter, an art dealer and consultant working out of West Hollywood, spent roughly two years, from 2016 to 2018, selling and shopping around paintings he attributed to some of the modern art market's biggest names — Andy Warhol, Jean-Michel Basquiat, Keith Haring, Kurt Schwitters, and Roy Lichtenstein among them. He bought genuine but unremarkable art and objects online, some of it through ordinary eBay listings, and then built an entirely fictional pedigree around each piece to transform it into a supposedly lost or unrecorded work by a marquee artist.
 
 The paperwork was the real product. Prosecutors said Righter manufactured false provenance documents using custom embossing stamps designed to mimic the official seals of artists' estates, and fabricated gallery labels tying his fakes to New York's Annina Nosei Gallery — the real gallery that gave Basquiat his first solo show, and a name serious collectors would recognize as legitimate. To authenticate one purported Basquiat, he went further still, impersonating an actual member of the Basquiat estate to generate a bogus certificate of authenticity, a piece of identity theft that became a central count against him.
@@ -5532,6 +5540,10 @@ NotoriousNS.push(
     slug: 'ruless-pierre-rockland-county-haitian-ponzi-scheme',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/RocklandCountyCourthouse.jpg?width=1200',
+    coverImageCredit: 'Photo: KForce, CC BY-SA 3.0, via Wikimedia Commons — the Rockland County Courthouse, New City, NY',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     body: `Ruless Pierre lived in Nanuet, in Rockland County, New York, and built his client base largely among friends and fellow members of the area's Haitian community — the kind of shared background that made people inclined to trust him with their savings without asking too many questions. Starting in November 2016, he began soliciting investors into Ruless Pierre Consulting Group, promising them he could turn their money into a 20% return every 60 days through stock day-trading, with the reassurance that they could withdraw their principal after just 30 days if they changed their mind. By October 2019, prosecutors said, he had taken in more than $2 million from nearly 100 investors.
 
 The trading barely happened, and when it did, it lost money rather than making it. To keep investors from noticing, Pierre sent them fabricated account statements showing steady profits that had no relationship to what was actually happening to their funds, commingling new deposits with old ones and using investor money to cover his own personal spending, including luxury vehicles — classic Ponzi mechanics dressed up as a day-trading strategy. Starting in November 2018, while the stock-trading scheme was still running, he layered a second pitch on top of it: partnership interests in fast-food franchise locations, promising investors 5% monthly returns plus 40% of quarterly profits for a minimum $5,000 buy-in. He raised at least $200,000 from 18 more investors on that pitch but, prosecutors said, only ever actually opened one of the promised franchise locations.
@@ -5549,6 +5561,10 @@ NotoriousNS.push(
     slug: 'omar-khan-wine-and-dine-scheme-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Wine_glasses_on_a_table_.jpg?width=1200',
+    coverImageCredit: 'Photo: Socket0, CC BY-SA 3.0, via Wikimedia Commons — wine glasses on a table',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     body: `Omar Khan, the founder of a Manhattan management consulting firm called Firm-1, had cultivated a public identity as one of the wine world's most connected insiders — Forbes profiled him in 2015 as a "fanatical wine connoisseur" — and turned that reputation into an exclusive events business. He hosted elaborate networking dinners for wealthy guests that paired rare, expensive vintages with food from name-brand chefs and appearances by self-described "leading business minds," with evocatively named evenings like "An Evening of Daring Duos and Tantalizing Trios" in December 2017.
 
 Between 2015 and 2019, Khan used those dinners as a pitch: he told wealthy guests and wine retailers that if they invested in expanding the events business and related ventures — including, at one point, a purported $5 million deal to acquire a Bordeaux vineyard — they'd earn a cut of the profits. Prosecutors said the investments funded no such expansion; Khan spent the money on himself instead, then strung investors along with excuses when the promised returns never materialized. One victim, a New York retiree identified in court papers as "Victim-1," put in escalating sums starting in 2015; another investor tied to Renaissance Technologies wealth put in roughly $5 million and got nothing back. Altogether, prosecutors said, Khan took in close to $7 million.
