@@ -5681,27 +5681,6 @@ Profit Connect's pitch worked precisely because "AI" and "crypto mining" are cla
 
 NotoriousAF.push(
   {
-    title: "David Thomas Gilchrist and the Property Tax Lien Investments That Didn't Exist",
-    slug: "david-gilchrist-property-tax-lien-fraud",
-    author: 'ScamShield Editorial',
-    tags: ['notorious', 'notorious-scammer'],
-    // representative photo (case prosecuted by the U.S. Attorney's Office for the Northern District of Texas) — replace with a portrait if found
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Earl_Cabell_Federal_Building,_cropped.jpg?width=1200',
-    coverImageCredit: 'Rapidfire, CC BY-SA 3.0, via Wikimedia Commons',
-    coverImagePosition: 50,
-    sourceUrl: 'https://www.justice.gov/usao-ndtx/pr/grand-prairie-attorney-arrested-ponzi-scheme-and-obstructing-sec-investigation',
-    body: `David Thomas Gilchrist is a 70-year-old attorney from Grand Prairie, Texas whom federal prosecutors accuse of using his professional standing to draw roughly 20 people into what he described as partnerships to buy Texas property tax liens — a real, if niche, investment vehicle, since local governments do sell delinquent tax debt at auction and a buyer can profit from the interest homeowners eventually pay to redeem it. According to a criminal complaint unsealed in September 2026, Gilchrist collected approximately $1.45 million from investors between April 2023 and January 2026, but prosecutors allege that no such tax liens were purchased with most of that money. He allegedly commingled investor funds with his own, spent a portion of it personally, and used incoming money to make roughly $789,000 in payments back to earlier investors — the same new-investors-pay-old-investors structure that defines a Ponzi scheme.
-
-The allegations extend beyond the underlying investment fraud. Prosecutors say that once the SEC opened a civil investigation into his conduct, Gilchrist forged documents using notary stamps and signatures he was not authorized to use, and separately urged a witness and her husband to "take a vacation" to Mexico in the days before they were scheduled to testify — conduct that forms the basis of a witness tampering charge layered on top of the fraud allegations.
-
-Gilchrist was arrested and charged by criminal complaint on September 1, 2026 with wire fraud, aggravated identity theft, and witness tampering, and made an initial appearance before a federal magistrate judge shortly afterward; the SEC separately filed a parallel civil securities-fraud case against him. As of this writing, the criminal case is pending, Gilchrist has not been convicted of any charge, and — as with any criminal complaint — the allegations against him are accusations federal prosecutors will have to prove in court rather than established facts. If convicted, he would face a potential maximum of 20 years in prison on the wire fraud and witness tampering counts, plus a mandatory consecutive two-year sentence on the identity theft charge.
-
-Property tax lien investing is a legitimate, if specialized, corner of the market in states that auction delinquent tax debt, which is exactly what prosecutors say made it a convincing wrapper here: a pitch built around a real financial instrument is far harder for a prospective investor to wave off as too-good-to-be-true than a pitch built around something that obviously doesn't exist. Investors approached about a niche asset class few people understand in detail have the same recourse available in any unfamiliar investment: verify independently, through public county auction records, that the specific liens being described were actually purchased, rather than relying on the promoter's own account statements.`,
-  },
-);
-
-NotoriousAF.push(
-  {
     title: "Antonio Franklin and the Hidden Bank Account Behind a Milwaukee Disability Benefits Fraud",
     slug: "antonio-franklin-milwaukee-disability-benefits-fraud",
     author: 'ScamShield Editorial',
