@@ -5747,3 +5747,17 @@ UsNS.push({
     isHistorical: true,
     firstRecorded: '2026-03-16',
 });
+
+UsNS.push({
+    name: 'VGW "Sweeps Coin" Illegal Online Sweepstakes Casino Settlement',
+    slug: 'new-york-vgw-sweepstakes-casino-settlement',
+    description: `VGW Holdings Pty. Ltd. and its affiliates ran three online sweepstakes-casino platforms — Chumba Casino, Global Poker, and Luckyland Slots — that let New Yorkers play traditional casino-style games using virtual "sweeps coins" the company marketed as free promotional currency but that an Attorney General investigation found players actually bought, receiving roughly one coin for every dollar spent, the same way a player buys chips at a real casino. Those coins could then be redeemed for cash or prizes, meaning the platforms offered real-money gambling outside any state licensing, regulatory audit, or oversight, leaving players — some of whom lost tens of thousands of dollars — with no recourse if the games were unfair. Attorney General Letitia James issued a cease-and-desist letter in June 2025 that halted VGW's virtual-coin gambling operations in New York, and Governor Kathy Hochul signed a law formally banning sweepstakes casinos statewide in December 2025. On September 9, 2026, James announced VGW agreed to pay $8 million in disgorgement, penalties, and costs to resolve the state's claims. New Yorkers are advised that a platform describing its currency as "free" or a "promotional sweepstakes" is not proof the underlying game is legal or regulated — if coins purchased with real money can be cashed out for money or prizes, it functions as gambling regardless of what it is called, and unlicensed online casino-style sites operating in New York can be reported to the Attorney General's office.`,
+    categorySlug: 'lottery-sweepstakes-scams',
+    alertLevel: 'medium',
+    sources: ["New York Attorney General's Office (Letitia James)"],
+    sourceUrl: 'https://ag.ny.gov/press-release/2026/attorney-general-james-secures-8-million-leading-operator-illegal-online',
+    country: 'US',
+    state: 'NY',
+    isHistorical: true,
+    firstRecorded: '2026-09-09',
+});
