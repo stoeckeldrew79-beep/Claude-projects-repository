@@ -4755,6 +4755,10 @@ Truglia's case shows how a single hijacked phone number can unravel an entire fi
     slug: 'raj-chauhan-monarch-sachdev-gold-bar-courier-scam',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Thomas_Eagleton_courthouse.jpg?width=1200',
+    coverImageCredit: 'Photo: Johnhochi, CC BY-SA 4.0, via Wikimedia Commons — the federal courthouse in St. Louis, Eastern District of Missouri, which brought the indictment',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found; defendants are presumed innocent pending trial
     sourceUrl: 'https://www.justice.gov/usao-edmo/pr/three-accused-defrauding-elderly-gold-bar-scam',
     body: `Note: Raj Chauhan, Monarch Sachdev, and Elon Harper have been indicted, not convicted. The description below reflects a federal indictment and related detention filings — allegations the government must still prove — and all three defendants are presumed innocent unless and until a court finds otherwise.
 
