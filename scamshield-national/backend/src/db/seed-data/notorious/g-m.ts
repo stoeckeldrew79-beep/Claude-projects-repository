@@ -5808,6 +5808,10 @@ NotoriousGM.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
     sourceUrl: 'https://ag.ny.gov/press-release/2026/attorney-general-james-announces-sentencing-madison-county-tax-preparer-who',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Madison County Courthouse.JPG?width=1200',
+    coverImageCredit: 'Photo: A P Wood / Wikimedia Commons (CC BY-SA 3.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Miles Burton Marshall was a tax preparer in Hamilton, a small town in New York's Madison County, when he began soliciting his own clients — people who already trusted him with their financial paperwork every year — to invest in something he called the "Eight Percent Fund." He told them their money would go primarily into real estate investments and promised a guaranteed 8 percent annual return, a pitch he kept running, according to the New York Attorney General's Office, from the early 1990s until the scheme finally collapsed in March 2023.
 
 There was no real estate portfolio generating anything close to those returns. Instead, prosecutors say, Marshall paid earlier investors with money raised from newer ones — the defining mechanic of a Ponzi scheme — while also siphoning off client funds to prop up his other business ventures and to pay for his own travel, shopping trips, and restaurant visits. What made the fraud unusual was less its structure than its duration: Marshall kept it running for roughly three decades in a small, tight-knit rural community, eventually drawing in 988 investors across Madison County and neighboring counties who collectively lost more than $50 million in principal.
