@@ -1860,6 +1860,10 @@ NotoriousTZ.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/usao-wdnc/pr/charlotte-man-sentenced-more-five-years-prison-defrauding-investor-ponzi-scheme',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Charlotte_Skyline_2011_-_Ricky_W.jpg?width=1200',
+    coverImageCredit: 'Photo: Riction, Wikimedia Commons (CC BY-SA 3.0) — Charlotte, North Carolina, where Wynn Charlebois ran his investment fraud',
+    coverImagePosition: 50,
     body: `Wynn A.D. Charlebois presented himself around Charlotte, North Carolina as a self-styled business consultant with a résumé that included time at a legitimate hedge fund — credentials he leaned on heavily to persuade acquaintances that handing him their savings was a safe bet. Starting around 2015, he used a rotating cast of entities he owned and controlled, including WC Private LLC, Wilcox Hybrid, and Damon Investments, to solicit money for what he described as risk-free investments, subscription agreements, and short-term loans, promising returns that made the pitches sound conservative rather than speculative.
 
 The money wasn't going where Charlebois said it was. According to federal prosecutors, he used new investor funds to make Ponzi-style payments to earlier investors and to cover his own personal expenses, rather than putting the money into any real investment. His pool of victims skewed toward people primed to trust him on reputation alone rather than paperwork: more than 40 victims nationwide, prosecutors said, including friends, family, fellow church members, military veterans, and retirees — several of them already in or nearing retirement when they handed over money they could not afford to lose.
