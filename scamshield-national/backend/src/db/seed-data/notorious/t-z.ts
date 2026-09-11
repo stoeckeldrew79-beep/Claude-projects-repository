@@ -2505,6 +2505,10 @@ NotoriousTZ.push(
     title: 'Vijay Taneja: The $33 Million Mortgage Fraud Behind a Bollywood Dream',
     slug: 'vijay-taneja-financial-mortgage-fraud',
     author: 'ScamShield Editorial',
+    // representative photo — replace with an exact match if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Old_Fairfax_County_Courthouse,_Fairfax_City.JPG?width=1200',
+    coverImageCredit: 'Photo: Eopederson / Wikimedia Commons / CC BY-SA 3.0 — Fairfax City, Virginia, where Taneja ran Financial Mortgage, Inc.',
+    coverImagePosition: 50,
     tags: ['notorious', 'notorious-scammer', 'historical'],
     sourceUrl: 'https://www.mortgagefraudblog.com/fairfax_man_sentenced_in_33_million_mortgage_fraud_case/',
     body: `Vijay K. Taneja was, by most outward measures, a Northern Virginia success story: a respected businessman in the Washington, D.C. area's Indian-American community, active in his temple, who ran Fairfax City-based Financial Mortgage, Inc. (FMI), a company that originated and sold residential mortgages across the D.C. metro area. That standing — and the trust it bought him among friends, fellow congregants, and business contacts drawn from the same close-knit community — became the foundation for one of the largest mortgage fraud schemes uncovered in Virginia in nearly two decades.

@@ -5588,3 +5588,15 @@ UsNS.push({
     country: 'US',
     state: 'PR',
 });
+
+UsNS.push({
+    name: 'Petaluma Senior Scam Spree — $315,000 Lost in 24 Hours',
+    slug: 'petaluma-seniors-crypto-timeshare-scam-spree',
+    description: `The Petaluma Police Department warned residents on August 30, 2026 after four Petaluma seniors were separately defrauded out of more than $315,000 combined within a single 24-hour span in late August, through a mix of cryptocurrency transfers, gift card purchases, and a timeshare-related scheme. Police did not identify the victims or say whether the incidents were connected, but pointed to the city's demographics — roughly 22% of Petaluma residents are 65 or older — as a factor in why organized fraud operations target the area, consistent with national data showing adults 60 and older filed more than 42,000 cryptocurrency-fraud complaints with the FBI in 2025 alone, losing a combined $4.35 billion, as part of $7.7 billion in total elder cyber-enabled fraud losses nationwide that year, a 59% jump from 2024; California led all states, with seniors here losing roughly $1.4 billion in 2025. Petaluma police urged residents to be skeptical of any unknown party requesting money, to independently verify a caller or company through an official phone number rather than one provided in the contact itself, and to check in regularly with elderly friends and family members who may be targeted alone. No arrests had been announced as of the department's public notice. Sonoma County residents who suspect an elderly friend or relative is being scammed or financially exploited can contact Sonoma County Adult Protective Services at 707-565-5940, a 24-hour line, or the national Elder Fraud Hotline at 1-833-372-8311.`,
+    categorySlug: 'cryptocurrency-scams',
+    alertLevel: 'high',
+    sources: ['Petaluma Police Department', 'Hoodline'],
+    sourceUrl: 'https://hoodline.com/2026/09/petaluma-seniors-lose-315-000-to-scammers-in-a-single-24-hour-span/',
+    country: 'US',
+    state: 'CA',
+});

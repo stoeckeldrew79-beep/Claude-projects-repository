@@ -7880,6 +7880,10 @@ NotoriousGM.push(
     title: 'Leslie Chinedu Mba: 19 Years for a Business Email and Romance Fraud Ring Run From Inside a Green Card Scheme',
     slug: 'leslie-chinedu-mba-business-email-romance-fraud',
     author: 'ScamShield Editorial',
+    // representative photo — replace with an exact match if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Houston,_TX_skyline_from_freeway.jpg?width=1200',
+    coverImageCredit: 'Photo: dbking / Wikimedia Commons / CC BY 2.0 — Houston, Texas, where the case was prosecuted',
+    coverImagePosition: 50,
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.fox7austin.com/news/nigerian-houston-man-sentenced-20-years-4-million-romance-scam-involving-fraudulent-marriage-attempts',
     body: `Leslie Chinedu Mba, a Nigerian national who had been living in the Houston area illegally after an earlier immigration application was denied and he was ordered removed from the country, ran an international fraud operation from April 2018 through December 2023 that combined two distinct scam types under one roof. On one side, co-conspirators based outside the United States broke into business email accounts and used that access to redirect legitimate company payments — the kind of business email compromise (BEC) scheme that tricks accounting departments into wiring real invoices to the wrong account — into bank accounts Mba and his network controlled. On the other, the group ran romance scams, cultivating fake online relationships to draw victims into sending money directly. Combined, prosecutors said, the two schemes cost victims and businesses more than $4 million.
@@ -7899,6 +7903,10 @@ NotoriousGM.push(
     title: 'James Torchia and the Credit Nation Life-Settlement Ponzi Scheme',
     slug: 'james-torchia-credit-nation-ponzi-scheme',
     author: 'ScamShield Editorial',
+    // representative photo — replace with an exact match if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Old_Cherokee_County_Courthouse;_Canton,_Georgia;_November_4,_2012.JPG?width=1200',
+    coverImageCredit: 'Photo: Stephen Matthew Milligan / Wikimedia Commons / CC BY-SA 3.0 — Cherokee County, Georgia, where Torchia ran Credit Nation',
+    coverImagePosition: 50,
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.ajc.com/news/jury-finds-accused-ponzi-scheme-operator-not-guilty-of-fraud/2CKYPLCXNFGZ5KI7EDVJGGTDXU/',
     body: `Starting in 2009, James "Jim" Torchia ran a group of Cherokee County, Georgia companies — CN Capital, Credit Nation Capital, and related entities doing business as Credit Nation — selling two kinds of investments to ordinary investors, many of them elderly and investing their retirement savings or entire IRAs. One was promissory notes tied to subprime auto loans, most promising 9 percent annual returns and marketed, the SEC later said, as "100% asset-backed." The other was fractional interests in life settlements and viaticals — the practice of buying the rights to an elderly or terminally ill person's life insurance policy at a discount and collecting the full death benefit once they died, effectively betting that the payout would arrive before the ongoing premiums ate up the profit.
@@ -7916,6 +7924,10 @@ NotoriousGM.push(
     title: 'Jeremy Johnson and the iWorks Free-Trial Billing Scheme',
     slug: 'jeremy-johnson-iworks-billing-fraud',
     author: 'ScamShield Editorial',
+    // representative photo — replace with an exact match if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/St._George,_Utah_(9179236137).jpg?width=1200',
+    coverImageCredit: 'Photo: Ken Lund / Wikimedia Commons / CC BY-SA 2.0 — St. George, Utah, where IWorks was based',
+    coverImagePosition: 50,
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2016/08/iworks-billing-scheme-ringleader-agrees-settle-ftc-charges',
     body: `Jeremy Johnson built St. George, Utah-based IWorks, Inc. into one of the largest internet "negative option" marketing operations of the late 2000s, advertising "free" or "risk-free" trials of government-grant directories and money-making business kits online. Consumers who signed up for a trial believing they were paying little or nothing, according to the Federal Trade Commission, were in fact being enrolled in recurring monthly billing plans they never knowingly agreed to — charges that kept hitting their cards or bank accounts long after the "free" trial period, if they noticed it had started at all.
