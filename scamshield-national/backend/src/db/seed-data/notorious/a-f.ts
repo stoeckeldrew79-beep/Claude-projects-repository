@@ -6488,3 +6488,22 @@ A federal grand jury in the District of Massachusetts charged thirteen individua
 The grandparent scam is one of the oldest tricks in the elder-fraud playbook precisely because it exploits a parent's or grandparent's instinct to act first and verify later, and the two-role "opener/closer" structure Castanos Garcia's operation used is built to compress that instinct into a single phone call before anyone has time to hang up and dial the grandchild directly. What made this case unusual wasn't the script — it was the scale of the infrastructure behind it, a multinational operation with defined job roles, a dedicated laundering arm, and enough victims across enough states that piecing together the full picture took a federal investigation running from a 2024 indictment through extraditions, guilty pleas, and sentencings still unfolding two years later.`,
   },
 );
+NotoriousAF.push(
+  {
+    title: 'Arsalan Rawjani and the $18 Million "Trade with Ayasa" Ponzi Scheme That Preyed on North Texas\'s Ismaili Community',
+    slug: 'arsalan-rawjani-trade-with-ayasa-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26391',
+    // civil SEC case, no rights-cleared photo identified — sourceUrl serves as the "read the full story" link
+    body: `Note: this case is a civil enforcement action. The Securities and Exchange Commission's complaint describes allegations only — Arsalan Rawjani has not been criminally charged, and neither he nor Trade with Ayasa has been found liable by a court as of this writing.
+
+Arsalan A. Rawjani was, by the SEC's account, an active and respected member of the Ismaili Muslim community in North Texas, the kind of insider whose standing inside a close religious and cultural network made his investment pitch land differently than a cold call from a stranger ever could. Starting in 2021, Rawjani held himself out to fellow community members as a skilled options trader and solicited money for a company he ran called Trade with Ayasa, LLC — registered at various points in Texas, Wyoming, and Nevada — promising a guaranteed monthly dividend of three to five percent, funded, he said, by profits from pooling investor money into options contracts.
+
+According to the SEC's civil complaint, filed September 5, 2025 in the U.S. District Court for the Northern District of Texas, the trading barely happened. Of the roughly $18 million Rawjani is alleged to have raised from investors between 2021 and 2024, the complaint says only about $1 million was ever deposited into a brokerage account and actually used to trade options — nowhere near enough to generate the fixed, above-market returns investors were promised month after month. The dividends kept arriving anyway, the SEC alleges, paid out of newer investors' deposits in the classic mechanics of a Ponzi scheme, while Rawjani personally withdrew roughly $4.3 million from Trade with Ayasa's main account between April 2021 and March 2024.
+
+The scheme collapsed in late 2023 and into early 2024, when the guaranteed monthly payments simply stopped arriving and investors — many of whom had trusted Rawjani specifically because of his standing inside their own community — were left trying to reconstruct where their money had gone. The SEC's complaint charges Rawjani and Trade with Ayasa with violating the antifraud provisions of the Securities Act and the Securities Exchange Act, along with the registration requirements governing securities offerings, and seeks a permanent injunction, disgorgement of ill-gotten gains with prejudgment interest, and civil monetary penalties. As of this writing the case remains in active litigation, with none of the allegations yet tested at trial.
+
+Affinity fraud like the scheme described in the SEC's complaint depends on a specific and durable vulnerability: the more tightly knit and trust-based a community is, the less its members tend to demand the kind of paperwork, audited statements, or independent verification they might insist on from an outside broker. A guaranteed fixed monthly return, regardless of what options markets are actually doing that month, is a claim no legitimate trading operation can honestly make — a fact that outside due diligence might catch quickly, but that shared faith, language, and community standing can make invisible for years.`,
+  },
+);
