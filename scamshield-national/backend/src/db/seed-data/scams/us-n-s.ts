@@ -5036,3 +5036,17 @@ UsNS.push({
     country: 'US',
     state: 'PA',
 });
+
+UsNS.push({
+    name: 'Shake A Paw Sick Puppy Sales Settlement',
+    slug: 'new-york-shake-a-paw-sick-puppy-sales-settlement',
+    description: `New York Attorney General Letitia James sued Long Island pet store chain Shake A Paw, with locations in Hicksville and Lynbrook, on December 16, 2021, alleging the company systematically sold sick puppies to consumers while falsely marketing them as healthy animals sourced from reputable breeders. A review of 408 of the store's own veterinary records found that 52% of the puppies sold had respiratory illnesses, 54% carried parasites, and 10% had pneumonia, with health certificates frequently issued only zero to 19 days before a sale despite visible signs of illness; the Attorney General's investigation also traced the store's payments back to known puppy mills, including one breeder who had already been indicted by the U.S. Department of Justice, despite Shake A Paw's advertising claiming its puppies came from the "most trusted breeders." Multiple puppies died within days or weeks of being brought home, and the complaint alleged the company refused to reimburse customers for the veterinary bills that followed, in violation of New York's Pet Lemon Law, which entitles a buyer to a refund or reimbursement when a purchased pet turns out to be sick. In March 2024, Shake A Paw agreed to pay $300,000 to roughly 190 affected customers, stop all advertising describing its puppies as the "healthiest" or "best of the best," and source animals only from breeders or brokers who actually comply with state and local law. "Shake A Paw's actions of deceiving consumers into purchasing sick or injured dogs is unconscionable and illegal," James said in announcing the settlement. Shake A Paw stopped selling dogs entirely once a New York law banning retail pet stores from selling dogs, cats, and rabbits took effect in December 2024. Anyone buying a puppy from a pet store or breeder should ask to see the animal's complete veterinary history rather than a single certificate issued right before the sale, meet the animal in person before paying anything, and know that New York's Pet Lemon Law gives a buyer a limited window after purchase to return a sick pet or be reimbursed for related vet costs.`,
+    categorySlug: 'pet-sales-scams',
+    alertLevel: 'medium',
+    sources: ["New York Attorney General's Office (Letitia James)"],
+    sourceUrl: 'https://ag.ny.gov/press-release/2024/attorney-general-james-wins-300000-customers-long-island-pet-store-illegally',
+    country: 'US',
+    state: 'NY',
+    isHistorical: true,
+    firstRecorded: '2021-12-16',
+});
