@@ -5557,6 +5557,10 @@ NotoriousGM.push(
     slug: "matthew-shane-perkins-rentdue-capital-investment-fraud",
     author: "ScamShield Editorial",
     tags: ["notorious", "notorious-scammer"],
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/City_Hall_(St_George,_Utah).jpg?width=1200",
+    coverImageCredit: "Wikimedia Commons (CC BY-SA 3.0) — St. George, the seat of Washington County, Utah, where Perkins lived",
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     sourceUrl: "https://www.justice.gov/usao-ut/pr/southern-utah-man-admits-wire-fraud-89m-investment-scheme-over-200-victims",
     body: `Matthew Shane Perkins, of Washington County, Utah, presented himself to prospective investors as a "brilliant trader who consistently beat the market and rarely suffered losing days" — the kind of unbroken winning streak that should be a warning sign in itself, since no legitimate trading strategy avoids losses indefinitely. Between August 2023 and November 2025, according to the U.S. Attorney's Office for the District of Utah, that pitch helped Perkins and a business partner raise more than $89 million from over 200 investors nationwide.
 
