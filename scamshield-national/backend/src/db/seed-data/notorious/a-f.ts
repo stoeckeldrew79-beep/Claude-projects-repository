@@ -6201,6 +6201,10 @@ The financial details of Kokesh's own case became almost secondary to what the r
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
     sourceUrl: 'https://www.justice.gov/archive/usao/cac/Pressroom/pr2010/006.html',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/LA_City_Hall_at_night.JPG?width=1200',
+    coverImageCredit: 'Photo: Leki, Wikimedia Commons (Public Domain) — Los Angeles, in the Central District of California where Bradley Ruderman was prosecuted',
+    coverImagePosition: 50,
     body: `Bradley Ruderman ran two Beverly Hills hedge funds, Ruderman Capital Partners and Ruderman Capital Partners A, built largely on the trust of people who already trusted him — family members and close friends he'd known for years. From 2003 through 2009, he collected more than $44 million from investors by promising annual returns as high as 60 percent, a figure implausible enough that it should have been a warning sign on its own.
 
 Behind the promised returns was nothing but paperwork. Ruderman told investors he had $206 million under management; at the start of the year his fraud collapsed, he actually controlled $588,246. He kept the illusion running by repeatedly sending investors falsified account statements showing gains that didn't exist. In a December 2008 letter meant to reassure his own victims as the Madoff scandal broke nationally, Ruderman wrote that he was disgusted by Bernard Madoff's "chicanery" and promised such "disgraceful practices" would never happen under his watch — while, as the sentencing judge later noted, he was actively stealing from the people reading it.
