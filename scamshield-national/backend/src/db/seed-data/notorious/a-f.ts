@@ -8191,3 +8191,16 @@ NotoriousAF.push(
     sourceUrl: "https://www.justice.gov/usao-sdoh/pr/grand-jury-indicts-former-community-school-superintendent-business-partner-8-million",
   },
 );
+
+NotoriousAF.push(
+  {
+    title: "James Bradford and the VA Caregiver Benefits He Claimed While Running Multimillion-Dollar Federal Contracts",
+    slug: "james-bradford-va-caregiver-benefit-fraud",
+    author: "ScamShield Editorial",
+    tags: ["notorious", "notorious-scammer"],
+    body:
+      "Note: James Bradford was convicted by a federal jury on the charges described below; as of this writing, he has not yet been sentenced.\n\nJames Bradford, 49, an Army veteran living in Junction City, Kansas, took part in a Department of Veterans Affairs program built on a simple premise: veterans too disabled to manage their own daily lives can qualify a family member or another caregiver for monthly payments in exchange for that care. From August 2014 through July 2023, according to federal prosecutors, Bradford and his caregiver told the VA's Program of Comprehensive Assistance for Family Caregivers that Bradford could not manage his own medication, organize his own finances, or arrange his own transportation — claims serious enough to qualify the caregiver for ongoing monthly payments funded by taxpayers.\n\nWhat prosecutors say those statements left out was Bradford's day job. From May 2016 until 2025, Bradford worked as a project manager for the U.S. General Services Administration in Topeka, where his duties reportedly included overseeing multimillion-dollar contracts between GSA and its vendors — a level of professional responsibility that sits uneasily next to a caregiver application describing someone unable to manage his own medication schedule or bank account. Over nearly a decade, prosecutors say, Bradford collected more than $170,000 in caregiver benefit payments he was not entitled to receive.\n\nA federal jury in the District of Kansas convicted Bradford in August 2026 on one count of conspiracy to defraud the government and one count of theft of public money, property, or records; sentencing had not yet been scheduled as of this writing. \"Safeguarding benefits for veterans is a priority, and our investigators work diligently to ensure that VA's programs are not exploited for financial gain by fraudulent actors,\" said Gregory Billingsley, Special Agent in Charge at the VA Office of Inspector General, in announcing the conviction. GSA-OIG Special Agent in Charge Jorge Richardson added, \"Fraud against a program designed to provide essential care to veterans is unacceptable.\"\n\nThe VA's family caregiver program exists because some veterans genuinely cannot manage daily life without help, and the payments it provides are real support for real caregiving work. What investigators say caught up with Bradford wasn't a gap in the program's paperwork — it was the same kind of cross-check that catches a lot of benefits fraud: comparing what someone tells one government program about their own capabilities against what a different government program's own employment and contracting records already show about the same person.",
+    sourceUrl: "https://www.justice.gov/usao-ks/pr/jury-convicts-army-veteran-embellishing-health-issues-defraud-va",
+  },
+);
+
