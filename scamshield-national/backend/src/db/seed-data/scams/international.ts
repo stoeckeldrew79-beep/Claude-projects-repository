@@ -13139,3 +13139,16 @@ International.push(
     firstRecorded: '1998-04-23',
   },
 );
+
+International.push(
+  {
+    name: 'Marshall Islands Rongelap "Special Administrative Region" Bribery Scheme',
+    slug: 'marshall-islands-rongelap-special-administrative-region-bribery-scheme',
+    description: `Cary Yan and Gina Zhou, two Chinese-born U.S. residents who ran a Manhattan nonprofit called the World Organization of Governance and Competitiveness (WOGC), paid a Dominican Republic ambassador to the United Nations roughly US$1 million to help them seize control of his UN-affiliated charity, then used its Manhattan office near UN headquarters and its access to visiting diplomats to manufacture an air of international legitimacy. Beginning around 2017, they used that borrowed credibility — along with direct bribes to about half a dozen Marshallese parliament members and senior officials, including at least US$150,000 disguised as "tuition fees" routed through shadow accounts — to push legislation creating the Rongelap Atoll Special Administrative Region (RASAR), a proposed autonomous investment zone with its own courts and immigration rules pitched to foreign investors, to be built on an atoll still contaminated from U.S. nuclear testing in the 1950s and located near the strategically sensitive American military installation at Kwajalein Atoll. The FBI and the U.S. Attorney's Office for the Southern District of New York charged Yan and Zhou in 2020 with conspiracy to violate the Foreign Corrupt Practices Act; both were arrested in Thailand that November, extradited to the U.S. in September 2022, and pleaded guilty that December, with Yan sentenced to three and a half years in prison and Zhou to two years and seven months. The U.S. State Department separately barred former RMI President Kessai Note and then-Senator Mike Halferty from entering the United States, citing their "involvement in significant corruption" in accepting the bribes, and after the case became public the Marshall Islands' Attorney General moved to revoke Yan's and Zhou's Marshallese passports. The scheme is a striking illustration of how the country's Compact of Free Association-era governance and its reputation as an offshore corporate and investment jurisdiction were deliberately targeted by fraudsters willing to bribe sitting officials and hijack a UN-affiliated organization to lend a fabricated economic-zone project the appearance of legitimacy.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'medium',
+    sources: ['U.S. Attorney\'s Office, Southern District of New York', 'Organized Crime and Corruption Reporting Project (OCCRP)', 'FCPA Professor'],
+    sourceUrl: 'https://www.occrp.org/en/investigation/chinese-miracle-water-grifters-infiltrated-the-un-and-bribed-politicians-to-build-pacific-dream-city',
+    country: 'MH',
+  },
+);
