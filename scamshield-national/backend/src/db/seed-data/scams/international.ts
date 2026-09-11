@@ -9569,6 +9569,26 @@ International.push(
     sourceUrl: 'https://arkatelecom.am/en/news/telecom/armenia-s-cyber-police-warns-of-tiktok-scams-offering-fake-social-benefits/',
     country: 'AM',
   },
+  {
+    name: '"Money Mule" Account Recruitment Scheme',
+    slug: 'armenia-money-mule-account-recruitment-scam',
+    description: `The Central Bank of Armenia has warned that criminals are increasingly recruiting ordinary citizens, often people with no criminal record, to act as "dummy intermediaries" who launder stolen or illicit funds through their own personal bank accounts, cards, and e-wallets. Recruiters make first contact through social media, direct messages, job postings advertising easy income, and even online dating platforms, promising quick money for work that supposedly requires no experience or qualifications — usually just receiving a transfer into a personal account and then forwarding or withdrawing it for someone else. Once a target agrees, criminally obtained money is routed through their account and then withdrawn as cash or pushed on to further accounts, deliberately obscuring where it actually came from before investigators can trace it; some versions of the scheme skip the account entirely and simply ask the target to hand over their online banking username, password, and card details for someone else to use directly. The Central Bank stressed that agreeing to any of this carries real legal exposure for the account holder, not just the organizer, warning that "such actions may have legal consequences even if you have not received compensation for them or do not fully understand the true purpose," since knowingly or negligently letting a personal account be used to move criminal proceeds can itself amount to money laundering regardless of whether the account holder was ever paid. Consumers are advised that a personal bank account, card, or e-wallet is meant solely for their own use, to refuse any offer — however it is framed — that asks them to receive or move money on someone else's behalf, and to never hand over account access credentials, passwords, or verification codes to a third party under any circumstance.`,
+    categorySlug: 'job-task-scams',
+    alertLevel: 'high',
+    sources: ['Central Bank of Armenia', 'ArmBanks.am'],
+    sourceUrl: 'https://armbanks.am/en/2026/08/17/278227/',
+    country: 'AM',
+  },
+  {
+    name: 'Fake Armenpress "AI Revenue Boosters" Investment Site',
+    slug: 'armenia-fake-armenpress-ai-revenue-boosters-investment-scam',
+    description: `The fact-checking outlet CivilNet uncovered a fraudulent investment scheme built around a fake website, Silvurean.com, that copies the exact design, layout, and logo of Armenpress, Armenia's state-owned news agency, so a fabricated investment pitch reads as real news coverage. The site falsely claims that Prime Minister Nikol Pashinyan, together with Jeffrey Epstein, Bill Gates, and Elon Musk, launched an artificial-intelligence investment platform called "AI Revenue Boosters" that supposedly guarantees extremely high, effortless returns, and backs the story with what CivilNet described as forged documents made to look credible, along with fabricated user testimonials — some posted under Azerbaijani-sounding names — claiming large profits. Rather than granting access to any real trading system, the site instead funnels visitors into a questionnaire that collects their phone number and personal details, after which targets are called by people posing as "investment consultants" who work to extract money directly. CivilNet, in a report published in late February 2026, traced the campaign to roughly 50 sponsored advertisements running simultaneously on Instagram and Facebook from an ad account called "Hannahp Guzman Gracet" created on November 25, 2025, which leaned on the real, widely covered Jeffrey Epstein news cycle to make the fake platform seem newsworthy rather than promotional. Armenpress itself republished CivilNet's findings to warn its own readers, stressing that its only real domain is armenpress.am and that any other address using its branding should be treated as fraudulent. Consumers are advised to check a news or investment site's actual domain name before trusting anything on it, to treat any investment platform claiming a sitting head of government personally endorsed it as an automatic red flag, and to never submit a phone number or other personal details to a site reached through a sponsored social media ad promising guaranteed high returns.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'high',
+    sources: ['CivilNet', 'Armenpress'],
+    sourceUrl: 'https://armenpress.am/en/article/1243327',
+    country: 'AM',
+  },
 );
 
 International.push(
