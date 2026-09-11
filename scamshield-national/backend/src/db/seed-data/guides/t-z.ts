@@ -1641,6 +1641,10 @@ If you believe your identity has been stolen using information from this or any 
     slug: "titlease-2026-data-breach-guide",
     author: 'ScamShield Editorial',
     tags: ['guide', 'titlease-2026-data-breach'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Suburban_neighborhood_(Unsplash).jpg?width=1200',
+    coverImageCredit: 'Photo: Serg Bataiev (CC0)',
+    coverImagePosition: 50,
+    // representative photo — generic housing, evoking the real-estate closings TitleEase handles; replace with an exact match if found
     sourceUrl: 'https://www.claimdepot.com/data-breach/titleease-2026',
     body: `TitleEase LLC is a title insurance and settlement services franchisor headquartered in Warwick, Rhode Island — the kind of company that sits in the background of a real estate closing, working with local title agencies to make sure a property's ownership history is clear and a buyer's, seller's, and lender's money moves where it's supposed to on closing day. That role means a title company's files routinely hold some of the most sensitive financial information a person ever hands over at one time, all bundled together for a single transaction, which is exactly what made this breach worth taking seriously even though it started with something as ordinary-sounding as two employee email accounts.
 
@@ -1733,6 +1737,10 @@ If your credit union offers TruStage-branded insurance or payment protection and
     slug: `youlend-2026-data-breach-guide`,
     author: `ScamShield Editorial`,
     tags: [`guide`, `youlend-2026-data-breach`],
+    coverImage: `https://commons.wikimedia.org/wiki/Special:FilePath/Ruler_and_laptop_on_a_desk_(Unsplash).jpg?width=1200`,
+    coverImageCredit: `Photo: Oli Dale (CC0)`,
+    coverImagePosition: 50,
+    // representative photo — generic office desk, not YouLend's own office; replace with an exact match if found
     sourceUrl: `https://oag.ca.gov/ecrime/databreach/reports/sb24-626504`,
     body: `YouLend US LLC, an Atlanta-based fintech company that provides "embedded financing" — revenue-based financing, merchant cash advances, and business loans arranged through partner platforms rather than sold directly to the public — told affected individuals in the summer of 2026 that a network intrusion had exposed their Social Security numbers. According to the notification letter YouLend filed with the California Attorney General's office, the company received alerts of a disruption to its computer network on June 9, 2026. After launching an investigation with outside cybersecurity specialists, YouLend determined that its network had actually been accessed without authorization over the five days before that alert, between June 5 and June 9, 2026, and that certain files containing personal information had been acquired during that window. YouLend began mailing notification letters on July 15, 2026, and reported the incident to attorneys general in California, Texas, and other states around the same time; the Texas filing alone identified 2,793 affected residents, with the company's letter to Rhode Island regulators separately putting that state's count at 89 — figures that, taken together, suggest a nationwide total considerably larger than either state on its own.
 
@@ -1747,6 +1755,10 @@ YouLend is offering affected individuals 12 months of complimentary Single Burea
     slug: `virta-health-2026-data-breach-guide`,
     author: `ScamShield Editorial`,
     tags: [`guide`, `virta-health-2026-data-breach`],
+    coverImage: `https://commons.wikimedia.org/wiki/Special:FilePath/Glucometer01.JPG?width=1200`,
+    coverImageCredit: `Photo: PerPlex (public domain)`,
+    coverImagePosition: 50,
+    // representative photo — generic blood glucose meter, evoking Virta's diabetes-management program; replace with an exact match if found
     sourceUrl: `https://www.teiss.co.uk/news/lapsus-claims-cyber-attack-on-virta-health-nearly-15000-affected-17709`,
     body: `Virta Health is a Denver-based virtual clinic that treats type 2 diabetes and other metabolic conditions entirely online — patients work with physicians and health coaches through an app, without in-person visits, and the company's whole pitch rests on using that remote relationship to reduce or eliminate diabetes medication. On March 24, 2026, Virta discovered unauthorized activity in a data repository that operates separately from the platform patients actually use day to day. Its investigation determined that files in that repository had potentially been accessed several days earlier, between March 19 and March 22, 2026. The Lapsus$ ransomware group claimed responsibility, listing Virta on its dark-web leak site and threatening to publish the stolen files if the company didn't pay — a familiar extortion playbook where the goal is to pressure payment by holding the threat of a public leak over the victim, whether or not the data is ever actually released.
 
@@ -1815,6 +1827,10 @@ If you're a current or former WilmerHale client or employee, watch for an offici
     slug: `terry-dubrow-md-2026-data-breach-guide`,
     author: `ScamShield Editorial`,
     tags: [`guide`, `terry-dubrow-md-2026-data-breach`],
+    coverImage: `https://commons.wikimedia.org/wiki/Special:FilePath/Rodeo_Drive_Beverly_Hills.jpg?width=1200`,
+    coverImageCredit: `Photo: Prayitno (CC BY 2.0)`,
+    coverImagePosition: 50,
+    // representative photo — Beverly Hills, where Dr. Dubrow's practice is based; replace with an exact match if found
     sourceUrl: `https://www.hipaajournal.com/data-theft-extortion-incident-beverly-hills-plastic-surgeon/`,
     body: `Terry J. Dubrow, MD, A Medical Corporation — the Beverly Hills plastic surgery practice of Dr. Terry Dubrow, known to television audiences from Bravo's "Botched" and as the husband of "The Real Housewives of Orange County" star Heather Dubrow — disclosed in August 2026 that patient data had been stolen in a cyberattack that went undetected for a year and a half. According to the practice's own notification, filed with the California Attorney General on August 13, 2026, unauthorized access to its network began on or around January 16, 2025. The practice says it didn't learn anything was wrong on its own; instead, it was contacted directly by an individual who claimed to have broken into its computer systems and copied sensitive patient information — a common tactic among data-theft extortionists, who announce a theft themselves to pressure a victim into paying rather than wait for the intrusion to surface some other way. The practice confirmed on July 27, 2026 that patient information had in fact been taken, reported the incident to the FBI, and began mailing notification letters shortly after.
 
@@ -1831,6 +1847,10 @@ If you're a current or former patient of Terry J. Dubrow, MD, watch your mail fo
     slug: `town-2025-festival-ticket-data-leak-guide`,
     author: `ScamShield Editorial`,
     tags: [`guide`, `town-2025-ticket-data-leak`],
+    coverImage: `https://commons.wikimedia.org/wiki/Special:FilePath/Carnival_in_Rio_de_Janeiro.jpg?width=1200`,
+    coverImageCredit: `Photo: Sergio Luiz (CC BY 2.0)`,
+    coverImagePosition: 50,
+    // representative photo — a Brazilian festival crowd, not the Town 2025 festival itself; replace with an exact match if found
     sourceUrl: `https://securityaffairs.com/198354/data-breach/412000-the-town-2025-ticket-buyers-data-hits-the-dark-web.html`,
     body: `The Town is a large annual music festival held at the Autódromo de Interlagos racetrack in São Paulo, Brazil, produced by the same organizers behind Rock in Rio; its 2025 edition ran across five days — September 6, 7, 12, 13, and 14 — with tickets sold through Ticketmaster's Brazilian operation, ticketmaster.com.br. About a year later, in early September 2026, a seller on a Russian-language cybercrime forum listed a database described as Ticketmaster Latin America purchase records, pricing the full set at $10,000 or roughly $80 per thousand records — a little under 4 cents per person. Security researchers who reviewed the listing found 412,192 individual rows tied specifically to The Town 2025.
 
@@ -1847,6 +1867,10 @@ If you bought a ticket to The Town 2025 — or any major festival or concert in 
     slug: `usa-debusk-2026-data-breach-guide`,
     author: `ScamShield Editorial`,
     tags: [`guide`, `usa-debusk-2026-data-breach`],
+    coverImage: `https://commons.wikimedia.org/wiki/Special:FilePath/Chevron_Oil_Refinery_017.JPG?width=1200`,
+    coverImageCredit: `Photo: Discott (CC BY-SA 3.0)`,
+    coverImagePosition: 50,
+    // representative photo — generic refinery, the kind of industrial site USA DeBusk services; replace with an exact match if found
     sourceUrl: `https://oag.ca.gov/ecrime/databreach/reports/sb24-628082`,
     body: `USA DeBusk LLC is a Texas-based industrial services company that performs specialized cleaning, decontamination, and infrastructure maintenance work for refineries, chemical plants, and other heavy-industrial and energy-sector clients across the country. On or around September 5, 2025, an unauthorized party gained access to USA DeBusk's computer systems. Two weeks later, on September 20, 2025, a ransomware group calling itself Embargo claimed responsibility for the intrusion on its dark-web leak site, stating it had obtained roughly 2 terabytes of the company's data, including contracts, client records, employee personal information, and incident reports. Embargo is a double-extortion ransomware operation that first emerged in late 2023 and has built a reputation for pairing technically capable attacks with political and ideological messaging on its leak site.
 
