@@ -5050,3 +5050,15 @@ UsNS.push({
     isHistorical: true,
     firstRecorded: '2021-12-16',
 });
+
+UsNS.push({
+    name: 'Holly Christina Photography Wedding Deposit Fraud (Ayscue)',
+    slug: 'north-carolina-holly-christina-photography-wedding-fraud',
+    description: `North Carolina Attorney General Jeff Jackson sued Raleigh-based Holly Christina Photography and its owners, married couple Holly Christina Scott Ayscue and Christopher Owen Ayscue, in North Carolina Superior Court on February 24, 2026, alleging the business systematically defrauded engaged couples out of thousands of dollars each. According to the complaint, the Ayscues used a hard-sell "almost fully booked, only one date left" pitch to rush couples into signing on the spot for $5,000-to-$7,000 wedding photo-and-video packages, when in reality the business was routinely double-, triple-, and in some cases quintuple-booking the same wedding date; when a couple's day arrived, they might get no photographer at all, a last-minute substitute they never agreed to, or, in many cases, simply never receive their edited photos or raw footage afterward. By the time the suit was filed the Department of Justice had already logged 166 complaints and roughly $750,000 in losses; within months that grew to 217 complaints and nearly $1 million as more affected couples came forward. Superior Court Judge Bryan Collins Jr. granted the state a preliminary injunction freezing the company's assets, barring the Ayscues from operating any consumer-facing business while the case proceeds, and ordering them to deliver every outstanding edited and unedited photo and video to paying couples within 30 days — an order the Attorney General's office said in September 2026 still had not been fully honored, prompting a motion for default judgment. Couples booking a wedding vendor who insist on full payment far in advance, use urgency ("only one spot left") to rush a signature, or can't produce a written contract spelling out a specific delivery date and refund terms should treat those as red flags, and can check a photography or videography business's complaint history with the North Carolina Attorney General's Consumer Protection Division before paying a deposit.`,
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'high',
+    sources: ['North Carolina Department of Justice (Attorney General Jeff Jackson)', 'WRAL'],
+    sourceUrl: 'https://ncdoj.gov/attorney-general-jeff-jackson-gets-preliminary-injunction-in-lawsuit-against-holly-christina-wedding-photographers/',
+    country: 'US',
+    state: 'NC',
+});
