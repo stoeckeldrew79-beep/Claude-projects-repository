@@ -5680,3 +5680,17 @@ UsGM.push({
     isHistorical: true,
     firstRecorded: '2025-09-24',
 });
+
+UsGM.push({
+    name: 'Georgia "Certificate of Existence" Business Mailer Scam',
+    slug: 'georgia-certificate-of-existence-mailer-scam',
+    description: `Georgia Secretary of State Brad Raffensperger warned new business owners on January 24, 2020 about official-looking mailers from a company calling itself "Georgia Certificate Service," demanding $72.50 for a "Certificate of Existence" the letter implies is a required next step after registering a new LLC or corporation with the state. The mailers are timed to arrive soon after a new filing becomes public record and reproduce the business's real name and filing information to look more official, while the required disclosure that "this is not a government agency" is buried in small print the sender is counting on recipients to miss. In reality, a newly formed Georgia business needs no certificate of existence at all to complete its registration, and any business that genuinely needs one — because a bank, landlord, or other third party asked for it — can order it directly from the Secretary of State's office for a fraction of the price, $10 online or $20 by mail. New business owners who receive an official-looking letter demanding payment soon after filing are advised to check the sender's name against the Secretary of State's own corporations database, read any solicitation closely for a "not a government agency" disclaimer in the fine print, and order any certificate directly through the Secretary of State's website rather than through a company that mailed an unsolicited offer.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Georgia Secretary of State'],
+    sourceUrl: 'https://sos.ga.gov/news/new-business-owner-alert-misleading-certificate-existence-solicitations-sent-out-statewide',
+    country: 'US',
+    state: 'GA',
+    isHistorical: true,
+    firstRecorded: '2020-01-24',
+});
