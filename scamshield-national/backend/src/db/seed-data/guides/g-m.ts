@@ -3353,6 +3353,10 @@ If you receive a letter from Greenberg Traurig referencing this incident, don't 
     slug: "hibbett-retail-2026-data-breach-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "hibbett-retail-2026-data-breach"],
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Hibbett_Sports,_Cairo.JPG?width=1200",
+    coverImageCredit: "Photo: Michael Rivera (CC BY-SA 3.0)",
+    coverImagePosition: 50,
+    // representative photo — a Hibbett Sports storefront, not the specific location affected; replace with an exact match if found
     sourceUrl: "https://cyberinsider.com/sporting-goods-chain-hibbett-discloses-employee-data-breach/",
     body: `Hibbett Retail, Inc., the Alabama-based sporting goods chain and wholly owned subsidiary of UK retailer JD Sports, disclosed on September 8, 2026 that an unauthorized party had unauthorized access to its computer systems for several days in the spring — between April 22 and April 25, 2026 — before the intrusion was detected and shut down. Hibbett operates roughly 1,169 stores across 36 states under the Hibbett and City Gear banners and employs about 12,500 people, and the breach notice makes clear the exposure centers on the company's own workforce rather than its retail customers.
 
