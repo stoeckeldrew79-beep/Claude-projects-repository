@@ -5958,6 +5958,9 @@ NotoriousGM.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://attorneygeneral.utah.gov/guilty-plea-securities-fraud-miller/',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Old_Post_Office_Ogden_Utah.jpeg?width=1200',
+    coverImageCredit: 'Photo: Ntsimp, Wikimedia Commons (public domain) — Ogden, the seat of Weber County, Utah, where James Curt Miller committed his fraud',
     body: `James Curt Miller, of Weber County, Utah, spent roughly two years — from February 2021 to February 2023 — soliciting money from people around him under a series of false pretenses, according to the Utah Attorney General's Office. Miller told victims he needed the money for things like refinancing property, covering legal expenses, and paying for medical care, and separately promised at least three investors returns from cryptocurrency trading. Instead of using the funds as described, prosecutors said, Miller diverted the money into cryptocurrency purchases and cash withdrawals for himself, taking more than $400,000 from his victims in total.
 
 The Utah Attorney General's Office charged Miller with a full range of felony counts covering his conduct: securities fraud, communications fraud, money laundering, selling unregistered securities, and acting as an unlicensed securities agent. Miller pleaded guilty in Utah's Second District Court to one count of Securities Fraud and one count of Money Laundering, both second-degree felonies.
