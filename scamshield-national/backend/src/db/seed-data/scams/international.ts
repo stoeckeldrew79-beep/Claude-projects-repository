@@ -12881,3 +12881,42 @@ International.push(
     country: 'AW',
   },
 );
+
+International.push(
+  {
+    name: 'Curaçao Fake Census Bureau Door-to-Door Impersonation Scam',
+    slug: 'curacao-fake-cbs-door-to-door-surveyor-scam',
+    description: `The Central Bureau of Statistics of Curaçao (Centraal Bureau voor de Statistiek, CBS) issued a public warning on March 16, 2026 after receiving reports of individuals going door-to-door on the island and falsely claiming to represent the bureau while conducting what they described as an official census or household survey. CBS said it currently has no door-to-door household survey underway or scheduled, making any such visit inherently suspect, and stressed that genuine CBS fieldwork is never a surprise: real surveys are always preceded by an official introduction letter explaining in advance which neighborhoods will be visited, over what period, and for what purpose, giving residents a way to confirm legitimacy before anyone knocks. The bureau warned that residents who let an impostor "surveyor" into their home or answer their questions risk handing over personal, household, or financial details to someone with no real connection to the government, and it published concrete steps for telling a genuine CBS employee from a fraudster: authentic staff carry an official identification badge displaying their name, the CBS logo, a photograph, the director's signature, and a QR code, and residents are entitled to ask for and closely inspect that badge before answering a single question or letting anyone inside. CBS urged anyone who is approached by a person claiming to work for the bureau, or who has doubts about a badge or a visit, to stop before answering and verify the visit directly with CBS by calling 724-1802 or messaging the bureau's WhatsApp line at 520-2227 rather than taking the visitor's word for it.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Central Bureau of Statistics, Curaçao (CBS)', 'Curaçao Chronicle'],
+    sourceUrl: 'https://www.curacaochronicle.com/post/unknown/cbs-warns-public-about-reports-of-fake-surveyors-going-door-to-door',
+    country: 'CW',
+  },
+);
+
+International.push(
+  {
+    name: 'Curaçao Gaming Authority Warning on "TrumpBet.cc" Fake-License Casino Network',
+    slug: 'curacao-gaming-authority-trumpbet-fake-license-network',
+    description: `The Curaçao Gaming Authority (CGA), the territory's online gambling regulator, issued a public warning on February 12, 2026 stating that the online gambling website "TRUMPBET.CC" is neither authorized nor licensed by the CGA despite falsely presenting itself as a licensed Curaçao operator. The CGA said the site unlawfully displays the authority's official logo and its Digital Authorization Seal — the green verification badge legitimate operators are permitted to show, which should link directly to the operator's real certificate on the CGA's own certificate site — specifically to deceive players into believing the operator is genuinely regulated and therefore safe to deposit money with. According to the CGA and reporting that followed the warning, TrumpBet.cc claimed on its own site to have been operating since 2017 under a "fully licensed structure" offering both cryptocurrency and fiat betting with instant withdrawals, while the CGA said it could not identify any real entity behind the site and that its true operators remain unknown. The warning also named a cluster of copycat and mirror domains tied to the same fraudulent network — including trumpcasino.click, trump777.bet, trumpcasino.live, trumpixz.com, trumpgo.top, trumpsino.digital, grandhash.cc, and caiwax.com — noting that the sites share identical templates, marketing language, and technical infrastructure, which lets the operators stand up a replacement domain almost immediately whenever one is reported or taken down. The CGA said the action is part of its broader enforcement push under Curaçao's new National Ordinance on Games of Chance (LOK) to clean up the jurisdiction's gambling reputation, and it urged players anywhere in the world to verify an operator's licensing status directly through the CGA's official license registry before creating an account or depositing any money, rather than trusting a logo or seal displayed on the operator's own website.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'high',
+    sources: ['Curaçao Gaming Authority (CGA)', 'Curaçao Chronicle'],
+    sourceUrl: 'https://www.curacaochronicle.com/post/main_news/curacao-gaming-authority-warns-public-against-unlicensed-gambling-website-trumpbetcc',
+    country: 'CW',
+  },
+);
+
+International.push(
+  {
+    name: 'Curaçao "Rollyx.cc" Crypto Casino Scam Using MrBeast\'s Name',
+    slug: 'curacao-rollyx-crypto-casino-mrbeast-impersonation-scam',
+    description: `Curaçao Chronicle reported on August 17, 2026 that a tourist had filed a complaint with the Curaçao Gaming Authority (CGA) after being defrauded by an online gambling site called Rollyx.cc that used YouTuber Jimmy "MrBeast" Donaldson's name and image without his involvement to lend the platform false credibility. The complaint, which the outlet reviewed along with the victim's supporting screenshots, described an Instagram post purporting to be from MrBeast promoting a $2,500 giveaway tied to the promotional code "BEAST"; people who used the code and signed up for an account on Rollyx.cc saw a $2,500 balance appear immediately, but when they tried to actually withdraw any of it, the site returned an "account verification error" and told them a $150 deposit was required before the money could be released, with a support agent claiming that deposit would later be refunded along with the winnings. In practice, the reported balance was never real money at all, and paying the requested "verification" fee simply handed the operators an additional deposit while the original $2,500 remained permanently unreachable. The CGA had not issued a formal determination on the complaint by the time of publication, but the authority pointed to its existing public license registry as the way to check whether an operator is genuinely regulated, and noted it has separately warned about sites that falsely claim Curaçao authorization altogether, stressing that a legitimate CGA Digital Authorization Seal must link directly to the operator's real certificate rather than simply being a static logo pasted onto a page. The complainant in this case also reported the matter to the FBI. The episode illustrates two overlapping Curaçao-linked risks at once — a celebrity-impersonation "verified giveaway" lure used to build false trust, paired with an advance-fee demand disguised as an "unlock" or "verification" cost, on a platform whose real relationship to Curaçao's actual gambling licensing regime was itself in question.`,
+    categorySlug: 'lottery-sweepstakes-scams',
+    alertLevel: 'high',
+    sources: ['Curaçao Chronicle', 'Curaçao Gaming Authority (CGA)'],
+    sourceUrl: 'https://www.curacaochronicle.com/post/unknown/suspected-crypto-casino-scam-using-mrbeasts-name-reported-to-curacao-gaming-authority',
+    country: 'CW',
+  },
+);

@@ -5887,6 +5887,10 @@ NotoriousAF.push(
     slug: 'eric-stone-fidelity-broker-elder-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/St._Johns_County_Courthouse_North_Entrance.jpg?width=1200',
+    coverImageCredit: 'Michael Rivera, CC BY-SA 4.0, via Wikimedia Commons',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.justice.gov/usao-mdfl/pr/st-augustine-man-sentenced-more-six-years-prison-defrauding-senior-more-2-million',
     body: `Eric James Stone, 43, of St. Augustine, Florida, spent 13 years as a registered representative at Fidelity Investments' Jacksonville office before he was terminated in June 2021 for improperly soliciting and taking personal loans from clients. According to the U.S. Attorney's Office for the Middle District of Florida, that firing didn't end his access to at least one client's trust — a 75-year-old woman he had served as a broker — and it's what he did with that relationship afterward that turned into the much larger fraud.
 
@@ -5901,6 +5905,10 @@ Stone's case is a reminder that the professional relationship a broker builds wi
     slug: 'anthony-mastroianni-global-business-development-promissory-note-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/US.PostOffice%26Courthouse.Newark.jpg?width=1200',
+    coverImageCredit: 'Djflem, CC0, via Wikimedia Commons',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26396',
     body: `Anthony J. Mastroianni Jr., of New Jersey, was already a barred former broker — no longer licensed to sell securities to the public — when, according to the Securities and Exchange Commission, he kept doing it anyway through a company he controlled called Global Business Development and Consulting Corp. From at least February 2017 through May 2022, the SEC alleged, Mastroianni sold promissory notes issued by Global to at least 11 investors ranging in age from 64 to 82, raising at least $1.2 million by promising them interest rates as high as 50 to 175 percent — returns far outside anything a legitimate note could plausibly pay.
 
