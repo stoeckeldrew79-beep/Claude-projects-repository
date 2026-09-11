@@ -4851,3 +4851,15 @@ UsNS.push({
     country: 'US',
     state: 'NY',
 });
+
+UsNS.push({
+    name: 'Raleigh Facebook Marketplace Counterfeit Airbag Scheme (Mateen Alinaghian)',
+    slug: 'raleigh-north-carolina-facebook-marketplace-counterfeit-airbags',
+    description: `Mateen Mohammad Alinaghian, a Raleigh, North Carolina man who spent nearly five years working for the North Carolina Department of Transportation before his dismissal in March 2025 for conduct violations, imported roughly 2,500 counterfeit automotive airbags from a supplier in the United Kingdom between May 2022 and April 2024 and resold them to unsuspecting buyers and repair shops across the Raleigh area through Facebook Marketplace seller profiles using the names "Matt AutoParts" and "Medo Smith." The counterfeit airbags carried fake markings for Honda, Chevrolet, General Motors, and Toyota, and when the real manufacturers tested recovered units, they confirmed the parts were not genuine and were built from low-quality materials that, according to the U.S. Attorney's Office for the Eastern District of North Carolina, "often malfunctioned, either not fully inflating, or worse, inflating late" — defects that can mean the difference between survivable and fatal injuries in a crash. Vincent Belmonte, owner of Epic Auto Center, put the danger plainly: "Airbags are an explosive device. They are regulated by the government for a reason." A federal judge in the Eastern District of North Carolina sentenced Alinaghian on September 30, 2025 to one year and a day in prison, and ordered him to pay $83,405.95 in restitution to victims and forfeit an additional $154,693.16. The case is a reminder that a safety-critical part like an airbag is not something to shop for by price alone: buyers and repair shops should purchase replacement airbags only from a dealership, a manufacturer-authorized parts distributor, or a supplier that can provide a verifiable chain of custody back to the original manufacturer, should be skeptical of airbags sold significantly below dealer pricing through a social media marketplace listing, and should ask an installing mechanic to confirm a part's authenticity — including checking it against the vehicle identification number and manufacturer part number — before it goes anywhere near a vehicle that will carry passengers.`,
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office for the Eastern District of North Carolina", 'WRAL'],
+    sourceUrl: 'https://www.justice.gov/usao-ednc/pr/raleigh-man-sentenced-selling-dangerous-counterfeit-car-airbags',
+    country: 'US',
+    state: 'NC',
+});
