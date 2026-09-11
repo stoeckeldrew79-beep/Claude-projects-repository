@@ -8269,3 +8269,20 @@ The case took an unusual turn before it was even filed. Brodacki died around Mar
 Brodacki's alleged victims are a reminder of why regulators treat elderly and seriously ill clients as a specially protected class: a scheme that quietly diverts a fraction of a client's account for seven years can go undetected for exactly as long as nobody outside the relationship is checking the statements — which is precisely the population least likely, because of age, illness, or trust in a longtime adviser, to be checking closely themselves. Anyone managing a parent's or relative's investment accounts should ask for, and actually read, the underlying account statements from the custodian directly — not just an adviser's own summary — since a summary is exactly what a scheme like this one depends on going unquestioned.`,
   },
 );
+
+NotoriousGM.push(
+  {
+    title: 'Loretta Pyeatt and the Grocery-Money Debit Card That Drained a Disabled Veteran\'s Savings',
+    slug: 'loretta-pyeatt-dent-county-caregiver-theft',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-edmo/pr/dent-county-caregiver-admits-stealing-client',
+    body: `In rural Dent County, Missouri, a man living on Social Security retirement and Veterans Affairs disability benefits hired Loretta Pyeatt, 52, as an in-home caregiver starting around July 2023. Part of the arrangement was ordinary and sensible: he gave her his debit cards so she could run errands and buy groceries on his behalf, a convenience thousands of families extend to caregivers every day.
+
+According to federal prosecutors, Pyeatt turned that convenience into a two-year drain on the man's life savings. Before she started working for him, his account showed a normal pattern of 20 to 30 debit transactions a month; after she took over the shopping, that number ballooned to as many as 330 transactions in a single month, as she allegedly used the cards for cash withdrawals and purchases that had nothing to do with groceries. When Pyeatt began, the victim had at least $232,026 in his account on top of his monthly benefit payments; by July 2025, prosecutors say, the balance had fallen to less than $5,600.
+
+Pyeatt pleaded guilty in the U.S. District Court for the Eastern District of Missouri in St. Louis to one count of fraud in connection with access devices, admitting she had stolen at least $321,000 from her client between July 2023 and September 2025. The charge carries a maximum penalty of 15 years in prison and a $250,000 fine; as of this writing, her sentencing is scheduled for December 9, 2026.
+
+Caregiver theft like this is one of the hardest forms of elder and disabled-adult financial exploitation to catch precisely because it doesn't require breaking in anywhere — the victim hands over the card himself, to someone he has invited into his home and daily life to help him. Families arranging in-home care for an aging or disabled relative can blunt this risk with tools that don't depend on trust alone: setting up real-time text or email alerts for every debit transaction, giving a separate family member read-only online access to the account, or capping the card's daily withdrawal and purchase limits to what groceries and errands actually cost — so that a pattern like 20 transactions a month becoming 330 gets flagged automatically, long before a life savings account quietly empties out.`,
+  },
+);
