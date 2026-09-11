@@ -6935,6 +6935,9 @@ NotoriousAF.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/usao-sdny/pr/tech-ceo-charged-artificial-intelligence-investment-fraud-scheme',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Thurgood_Marshall_United_States_Courthouse_002.jpg?width=1200',
+    coverImageCredit: 'Thurgood Marshall U.S. Courthouse, Manhattan (Southern District of New York) — photo by Kidfly182, CC BY-SA 4.0, via Wikimedia Commons',
     body: `Note: this profile describes a pending federal criminal prosecution. Albert Saniger has pleaded not guilty and has not been convicted of anything described below; an indictment is only a set of charges rather than proof of guilt, and he is presumed innocent unless and until proven guilty at trial.
 
 Albert Saniger — legally Alberto Saniger Mantinan — founded the e-commerce startup Nate, Inc. around a pitch tailored to the generative-AI investment boom of the late 2010s and early 2020s: a shopping app that used proprietary artificial intelligence to complete online purchases on a user's behalf, automatically selecting product options and entering payment details with little to no human involvement. Prosecutors say that pitch, repeated to venture capital investors across Nate's Seed and Series A funding rounds, was the product Saniger sold to raise more than $42 million — and that it wasn't true.
@@ -6944,5 +6947,24 @@ According to a criminal complaint filed by the U.S. Attorney's Office for the So
 Saniger was charged with one count of securities fraud and one count of wire fraud, each carrying a statutory maximum of 20 years in prison; the SEC's civil case, filed the same day in the U.S. District Court for the Southern District of New York, seeks disgorgement, civil penalties, and an officer-and-director bar. He entered a plea of not guilty in December 2025 and was released on a $250,000 bond that permits him to live in Spain subject to travel restrictions. Legal commentators have flagged the case as the first criminal prosecution built squarely on "AI-washing" — the practice of a company marketing itself as AI-powered to attract investment when the underlying work is substantially done by people. As of this writing, no trial date has produced a verdict and the charges remain allegations.
 
 Nate's case is a preview of a fraud pattern regulators expect to see more of as "AI-powered" becomes one of the most valuable phrases a startup can put in a pitch deck: a claimed automation rate, unlike a claimed profit margin, is nearly impossible for an outside investor to verify without access to the company's own backend — which is exactly the access Saniger is accused of restricting even to some of his own employees. Investors evaluating any startup's AI claims have reason to ask not just what the software is supposed to do, but for concrete, independently checkable evidence of how much of the actual work it performs today.`,
+  },
+);
+
+NotoriousAF.push(
+  {
+    title: 'Ernest Ossei Boateng and the Ghanaian Church Community Ponzi Scheme',
+    slug: 'ernest-ossei-boateng-intercontinental-wealth-network-ponzi',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.sec.gov/newsroom/press-releases/2026-86-sec-charges-founder-his-two-new-jersey-based-companies-alleged-16-million-ponzi-scheme',
+    body: `Note: Ernest Ossei Boateng has been civilly charged by the Securities and Exchange Commission, not criminally convicted. The SEC's complaint, filed September 11, 2026, lays out the government's allegations; no court has yet ruled on their merits, and Boateng has not been reported as having filed a response.
+
+Ernest Ossei Boateng ran two New Jersey-based firms, Intercontinental Wealth Network LLC and I Wealth Network LP, that the SEC says operated as a Ponzi scheme from at least January 2020 through March 2026. According to the complaint, filed in the U.S. District Court for the Eastern District of New York, Boateng solicited, recommended, and sold interests in an investment fund almost entirely within one community: Christians of Ghanaian heritage across New York and New Jersey. His investors, the SEC says, included retirees, taxi drivers, home health aides, students, a widow raising young children on her own, and at least two churches and a prayer group — few of them experienced investors, and many drawn in through the kind of personal, congregation-based trust that affinity fraud is built to exploit.
+
+The pitch, according to the complaint, was guaranteed fixed returns from a low-risk strategy, with Boateng and his companies telling investors their money was protected by what they described as "financial, investment insurance." "That's as big of a red flag as we see in these types of scams," said Thomas P. Smith Jr., Associate Director of the SEC's New York Regional Office, in announcing the case. In reality, the SEC alleges, Boateng raised roughly $16 million from more than 200 investors and put it to very different use: about $5.8 million went to his own personal expenses, including buying, renovating, and furnishing a home; roughly $6.6 million was recycled into Ponzi-style payments to earlier investors to keep the illusion of steady returns alive; and more than $750,000 evaporated in high-risk, speculative day trading that had nothing to do with the conservative strategy investors had been sold.
+
+The SEC's complaint charges Boateng and Intercontinental Wealth Network with violating the antifraud provisions of the Securities Act of 1933, the Securities Exchange Act of 1934, and the Investment Advisers Act of 1940, and seeks permanent injunctions, disgorgement with prejudgment interest, and civil penalties against both defendants. As of this writing, no criminal charges have been reported in connection with the scheme, and the allegations remain just that — a civil complaint the SEC will need to prove in court.
+
+Affinity fraud like this endures precisely because it recruits its own sales force for free: a pastor, a fellow congregant, or a trusted member of an immigrant community vouching for an investment carries a kind of credibility no stranger's cold pitch could match, and it makes basic diligence — checking a fund's SEC registration, asking who actually holds and audits the money — feel almost like an accusation against someone the victim already trusts. A guaranteed, no-risk return, and vague talk of an "investment insurance" backstop that isn't a real, checkable financial product, are warning signs no amount of community trust should be allowed to override.`,
   },
 );
