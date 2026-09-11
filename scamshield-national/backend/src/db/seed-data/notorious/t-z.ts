@@ -1818,6 +1818,10 @@ NotoriousTZ.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
     sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-22487',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Hatfield_Federal_Courthouse_from_North_-_Portland,_Oregon.JPG?width=1200',
+    coverImageCredit: 'Photo: M.O. Stevens, Wikimedia Commons (CC BY-SA 4.0) — the Mark O. Hatfield U.S. Courthouse in Portland, where Yusaf Jawed was prosecuted',
+    coverImagePosition: 50,
     body: `Yusaf Jawed ran Grifphon Asset Management and a related stable of funds, including one called the Alpha Qualified Fund, out of Portland, Oregon, marketing to investors across the Pacific Northwest and beyond. His pitch leaned on consistency rather than excitement: marketing materials claimed the funds delivered double-digit returns year after year, even in years the S&P 500 index was falling — a claim that should have read as implausible rather than reassuring.
 
 None of it held up. According to the SEC, Jawed diverted investor money into accounts he personally controlled, sent out fabricated account statements showing gains that never happened, and — when investors grew anxious about their money — staged a sham buyout of the funds to make it look like an orderly, voluntary exit rather than a fraud in progress. Underneath the fabricated paperwork was a straightforward Ponzi structure: money from new investors paid off earlier ones. An outside attorney, Robert Custis, was separately charged by the SEC for helping relay the falsified statements to investors.
