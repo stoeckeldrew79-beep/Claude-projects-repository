@@ -4997,3 +4997,18 @@ UsNS.push({
     country: 'US',
     state: 'NC',
 });
+
+
+UsNS.push({
+    name: 'Ohio Clean Water Fund Fake East Palestine Derailment Charity',
+    slug: 'ohio-clean-water-fund-east-palestine-fake-charity',
+    description: `After a Norfolk Southern train carrying hazardous chemicals derailed in East Palestine, Ohio on February 3, 2023, forcing an evacuation and a controlled burn of vinyl chloride that drew national news coverage, Michael Peppel set up an organization called the Ohio Clean Water Fund and told more than 3,000 donors he was raising money on behalf of Second Harvest Food Bank of the Mahoning Valley to buy bottled water and emergency supplies for affected residents. Second Harvest had never agreed to let Peppel raise money in its name, and once the food bank complained, Ohio Attorney General Dave Yost's office opened an investigation and sued, alleging Peppel and an associated board member, Patrick Lee, had pocketed roughly $131,000 of the approximately $141,000 raised rather than passing it on to the community it claimed to help. A Columbus court granted Yost's office a preliminary injunction freezing the fund's assets, and a settlement reached June 1, 2023 required the Ohio Clean Water Fund to dissolve entirely and pay $116,904 in restitution — routed directly to Second Harvest Food Bank for bottled water and other emergency aid — plus a $15,000 civil penalty to the state. "I have said from the beginning that we will continue to fight for the people of East Palestine, which is exactly what we did here," Attorney General Yost said in announcing the recovery. "Our Charitable Law Section was able to recover and return every cent intended to aid the community." The case is a reminder that a fundraiser invoking a well-known, trusted local charity's name is not the same as that charity actually receiving or endorsing the money — anyone wanting to help after a chemical spill, industrial accident, or other local disaster should give directly through the named charity's own official website or verified phone number rather than through a newly created fund or GoFundMe-style page that merely claims an affiliation, and can check a charity's registration and any past enforcement history with the Ohio Attorney General's Charitable Law Section before donating.`,
+    categorySlug: 'charity-scams',
+    alertLevel: 'medium',
+    sources: ["Ohio Attorney General's Office"],
+    sourceUrl: 'https://www.ohioattorneygeneral.gov/Files/Briefing-Room/News-Releases/Matter-502-2494-OCWF-Lee-Settlement-_with-signatur.aspx',
+    country: 'US',
+    state: 'OH',
+    isHistorical: true,
+    firstRecorded: '2023-02-03',
+});
