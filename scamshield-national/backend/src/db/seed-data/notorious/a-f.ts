@@ -7408,6 +7408,10 @@ The case's larger significance came from the other side of the border. On Decemb
 Quebec's own prosecution ran on a separate, slower track. The AMF charged Lacroix and an associate, IT director Yan Ouellet, with distributing securities without a prospectus, and charged Lacroix separately with making misrepresentations about the PlexCoin offering. A Quebec court found both men guilty on December 11, 2023, and on November 14, 2024 — more than seven years after the scheme first drew regulators' attention — sentenced Lacroix to 42 months in prison and a $150,000 fine, with the sentencing judge specifically citing his history of ignoring court orders and obstructing the recovery of investor assets as aggravating factors.
 
 PlexCoin is a useful marker in the history of crypto fraud precisely because of how little separated it from an ordinary Ponzi pitch: the technology was new, but the promise — guaranteed, wildly outsized returns in an absurdly short window, from a token nobody outside the promoters could meaningfully evaluate — was the same one securities regulators have been chasing for a century. It became the first case regulators pointed to as proof that "it's on the blockchain" describes a technology, not a guarantee, and that an unregistered offering promising four-figure percentage returns in under a month is a securities violation whether it's sold on paper or through a website.`,
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/2014_Pure_Gold_Physical_Bitcoin_China_Mint.jpg?width=1200',
+    coverImageCredit: 'Photo: Bits86 / Wikimedia Commons / CC0',
+    coverImagePosition: 50,
   },
 );
 
