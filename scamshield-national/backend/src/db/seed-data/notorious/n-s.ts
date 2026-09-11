@@ -5106,3 +5106,20 @@ Sachdeva pleaded guilty on November 17, 2010, to six counts of wire fraud and wa
 The Sachdeva case is a reminder that embezzlement on this scale rarely requires a criminal mastermind — it requires an organization that never builds the boring, unglamorous checks (segregation of duties, independent reconciliations, systems that log who moved money and when) that make a single trusted employee's unsupervised access to the company's bank accounts impossible to abuse for half a decade without anyone inside the building noticing.`,
   },
 );
+
+NotoriousNS.push(
+  {
+    title: 'Stephan Katmarian and the Crypto Token "Backed" by a Mine Peblik Never Owned',
+    slug: 'stephan-katmarian-peblik-token-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.osc.ca/en/news-events/news/stephan-katmarian-be-jailed-following-fraud-conviction',
+    body: `Stephan Katmarian, of Mississauga, Ontario, was the executive director, managing director, and board chair of Peblik Inc., a company that sold investors convertible notes tied to a cryptocurrency called the Peblik Token. The token itself was never actually launched. What made the pitch distinctive — and, according to Ontario securities regulators, fraudulent — was the specific claim used to give it credibility: Peblik told investors the token's value was backed by the Thierry Mine, an inactive copper mine in Northern Ontario.
+
+Peblik held no valid ownership stake in that mine. Between January 1, 2018, and August 8, 2019, the company raised approximately $480,000 from 32 Ontario investors on the strength of that false claim, and, per Ontario securities regulators, every one of those investors ultimately lost their money when the promised token never materialized. The Ontario Securities Commission (OSC) alleged that Katmarian knew about, and was responsible for, the misrepresentations made to investors regarding both the mine's backing and the company's registration to sell securities in the first place.
+
+The case took an unusual legal path to a conviction. The Ontario Court of Justice initially acquitted Katmarian on all four charges brought against him. The OSC appealed three of those acquittals, and on June 20, 2025, the Ontario Superior Court of Justice allowed the appeal in part, substituting a conviction for securities fraud. On May 11, 2026, Katmarian was sentenced to six months in jail, to be followed by 18 months of probation upon his release. "This decision is a strong reminder that making false claims about financial backing of assets is fraud," OSC counsel Bonnie Lysyk said of the outcome. Katmarian has appealed his conviction to the Ontario Court of Appeal.
+
+The Peblik case is a useful illustration of how a crypto pitch can borrow legitimacy from something tangible and checkable — a real, named, physical mine — precisely because that kind of specific detail feels harder to fabricate than a vague promise of technological innovation. It wasn't. A mine's existence says nothing about whether the company citing it as collateral actually owns any stake in it, and that ownership claim is exactly the kind of fact that can be verified against public land-title and corporate records before money changes hands, rather than taken on faith because the underlying asset happens to be real.`,
+  },
+);
