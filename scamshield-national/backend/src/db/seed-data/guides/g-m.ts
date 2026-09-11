@@ -3643,6 +3643,9 @@ The case is a useful lens for any parent whose child plays a "gacha" or loot-box
     slug: "healthequity-2024-data-breach-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "healthequity-2024-data-breach"],
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/HealthEquity_logo.svg?width=1200",
+    coverImageCredit: "HealthEquity / Wikimedia Commons / Public Domain (logo)",
+    coverImagePosition: 50,
     sourceUrl: "https://www.hipaajournal.com/protected-health-information-stolen-in-healthequity-sharepoint-breach/",
     body: `HealthEquity, the Draper, Utah-based company that bills itself as the nation's largest administrator of health savings accounts, disclosed in 2024 that a data breach had exposed the personal information of approximately 4.3 million people. The company's own account of the incident shows how long it can take a breach to move from first detection to a full understanding of what was actually taken: HealthEquity says it spotted a "systems anomaly" through routine monitoring on March 25, 2024, didn't complete its investigation until June 10, and didn't confirm that files had actually been accessed without authorization until June 26 — a three-month gap between noticing something wrong and knowing what it meant. Formal notification letters to affected individuals didn't go out until August 9, and the company disclosed the incident publicly in a Form 8-K filed with the Securities and Exchange Commission on July 2, 2024.
 
