@@ -4470,3 +4470,22 @@ The civil case against Pisoni, Pradel, and Leon took nine years to fully resolve
 The nine-year gap between the FTC's 2015 complaint and its 2024 settlements says as much about the limits of civil enforcement as the underlying scheme says about how sweepstakes fraud works: a false deadline and a small, repeatable fee, multiplied across enough victims in enough countries to reach eight figures, followed by a lifetime ban that arrived only after the money was long gone.`,
   },
 );
+NotoriousNS.push(
+  {
+    title: 'Sajju Khatiwada and the Fake Vendor That Bilked Bridgestone Americas for Four Years',
+    slug: 'sajju-khatiwada-bridgestone-americas-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-mdtn/pr/former-bridgestone-americas-assistant-treasurer-pleads-guilty-nearly-15-million-wire',
+    // no rights-cleared photo identified — sourceUrl above serves as the "read the full story" link
+    body: `Note: Sajju Khatiwada has pleaded guilty, but as of this writing he has not yet been sentenced — a hearing is scheduled for December 22, 2026 — so the prison term the court will actually impose is not yet known.
+
+Sajju Khatiwada, 45, of Franklin, Tennessee, worked as an assistant treasurer at Bridgestone Americas, Inc., the U.S. arm of the global tire manufacturer — a finance role that gave him visibility into how the company's vendor payments worked and, prosecutors say, exactly the knowledge he needed to invent a vendor of his own. In July 2020, Khatiwada created a company called Paymt-Tech, LLC, registering it in Nevada under the name of an acquaintance rather than his own, and opened bank accounts in the fictitious company's name.
+
+From August 2020 through April 2024 — nearly four years — Khatiwada emailed fraudulent invoices to other Bridgestone employees on a recurring monthly basis, billing for services Paymt-Tech never actually provided. The scheme worked because the invoices looked like routine, recurring vendor charges rather than a single suspicious payment, letting them clear month after month without triggering the scrutiny a one-time unusual request might have drawn. According to the Justice Department, Bridgestone paid a total of $14,923,978.57 into accounts Khatiwada controlled before the scheme was discovered.
+
+Rather than simply spending the stolen money, Khatiwada moved it into financial and investment accounts under his own control, where prosecutors say it generated more than $6.1 million in additional interest, dividends, and investment gains — bringing the total unlawful proceeds to roughly $21 million, the amount he agreed to forfeit to the United States as part of his plea. He was arrested in November 2024, indicted by a federal grand jury the following month, and pleaded guilty to two counts of wire fraud, each carrying a statutory maximum of 20 years in prison. "This defendant abused a position of extraordinary trust to steal nearly $15 million from his employer and then used those stolen funds to generate millions more in investment gains," said U.S. Attorney Braden Boucek for the Middle District of Tennessee. Khatiwada is scheduled to be sentenced on December 22, 2026, and separately owes Bridgestone restitution of $14,923,978.57 plus interest.
+
+The case is a textbook illustration of vendor fraud: not a single dramatic theft but a shell company designed to look like an ordinary, unremarkable line item on a corporate ledger, billing modestly enough and regularly enough to blend into the routine flow of payments a large company processes every month — a structure that let the scheme run for nearly four years precisely because no single invoice, on its own, looked worth questioning.`,
+  },
+);
