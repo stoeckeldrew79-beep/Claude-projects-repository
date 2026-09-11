@@ -5315,3 +5315,14 @@ UsGM.push({
     country: 'US',
     state: 'GA',
 });
+
+UsGM.push({
+    name: 'Medicare Advantage Insurer-Broker Kickback Steering Scheme',
+    slug: 'medicare-advantage-insurer-broker-kickback-scheme',
+    description: `The U.S. Department of Justice filed a civil False Claims Act complaint on May 1, 2025 in the U.S. District Court for the District of Massachusetts against three of the nation's largest Medicare Advantage insurers — Aetna, Elevance Health (formerly Anthem), and Humana — and three major insurance brokerages that sell their plans to seniors — eHealth, GoHealth, and SelectQuote — alleging the insurers paid the brokers hundreds of millions of dollars in kickbacks between 2016 and at least 2021 disguised as marketing and administrative payments. According to the complaint, rather than acting as unbiased advisors helping beneficiaries pick the plan that actually fit their medical needs, the broker organizations allegedly steered Medicare enrollees toward whichever insurer paid the highest kickback, set up dedicated sales teams authorized to sell only the plans of insurers who paid enough, and at times refused to offer plans from insurers who wouldn't pay. The case originated from a whistleblower complaint filed in November 2021 by Andrew Shea, eHealth's former senior vice president of marketing. The complaint also alleges Aetna and Humana separately pressured the broker defendants to steer away from enrolling Medicare beneficiaries with disabilities, whom the companies viewed as costlier to cover: DOJ alleges the brokers "rejected referrals of disabled beneficiaries, filtered telephone calls from disabled beneficiaries, and strategically directed disabled beneficiaries away" from Aetna and Humana plans, in violation of federal disability-discrimination law layered on top of the kickback allegations. The upshot for consumers is that a phone call to what looks like an independent Medicare broker may not actually be independent at all — the "recommendation" can be shaped by which insurer pays the broker more, not by which plan best covers a beneficiary's own doctors, hospitals, and medications. Anyone shopping for a Medicare Advantage plan should ask a broker directly whether they sell plans from every major carrier in the area or only a limited list, compare plans independently using the government's Medicare Plan Finder at medicare.gov, and consider consulting a State Health Insurance Assistance Program (SHIP) counselor, who offers free, unbiased Medicare guidance and does not earn a commission tied to which plan a beneficiary picks.`,
+    categorySlug: 'medicare-health-plans',
+    alertLevel: 'high',
+    sources: ['U.S. Department of Justice', 'HHS Office of Inspector General'],
+    sourceUrl: 'https://www.justice.gov/opa/pr/united-states-files-false-claims-act-complaint-against-three-national-health-insurance',
+    country: 'US',
+});
