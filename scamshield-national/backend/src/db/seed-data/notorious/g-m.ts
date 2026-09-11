@@ -6629,3 +6629,20 @@ The FCC's fine ran alongside a separate lawsuit Texas Attorney General Ken Paxto
 Spiller and Mears's case shows how a robocall operation reaches a billion calls in months, not years: by selling access rather than a product. Rising Eagle wasn't itself the health-insurance seller taking consumers' money — it was a lead-generation vendor, paid to fill call centers with warm transfers, which meant its only real product was volume, and volume was exactly what neighbor-spoofed caller IDs and a Do Not Call list treated as a target list, rather than a legal boundary, were built to deliver.`,
   },
 );
+NotoriousGM.push(
+  {
+    title: 'Gabriel Hay, Gavin Mayo, and the $22 Million NFT "Rug Pull" Spree the DOJ Called Its Largest',
+    slug: 'gabriel-hay-gavin-mayo-nft-rug-pull-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-cdca/pr/beverly-hills-and-ventura-county-men-indicted-allegedly-running-nft-crypto-fraud',
+    // no rights-cleared photo found — sourceUrl above serves as the "read the full story" link
+    body: `Gabriel Hay, 23, of Beverly Hills, and Gavin Mayo, 23, of Thousand Oaks, California, spent from May 2021 to May 2024 sponsoring one non-fungible token or digital asset project after another — Vault of Gems, Faceless, Sinful Souls, Clout Coin, Dirty Dogs, Uncovered, MoonPortal, Squiggles, and Roost Coin among them — and, according to a federal indictment unsealed in December 2024, running the same play each time: promote the project with false and misleading statements about its potential, publish a "roadmap" of features and plans the sponsors never intended to deliver, then abandon it once investor money had come in. Prosecutors called it the largest NFT scheme the Justice Department has ever prosecuted, built on a pattern known in crypto circles as a "rug pull" — vanishing with investor funds the moment enough of them arrive.
+
+Vault of Gems was pitched as the first NFT collection "pegged to a hard asset," a claim designed to make speculative tokens sound as safe as a commodity-backed investment; it, too, was abandoned once the promotional wave passed. When a project manager on the Faceless NFT project later identified Hay and Mayo as the operators behind it, the indictment alleges the pair responded not by disputing the claim but by escalating against him: sending threatening emails and text messages to the man and, separately, to his parents, in one message impersonating a law firm and threatening to fabricate false sexual abuse allegations against him. That conduct is charged as a standalone federal stalking count alongside the fraud charges.
+
+A federal grand jury in the Central District of California indicted Hay and Mayo on one count of conspiracy to commit wire fraud, two counts of wire fraud, and one count of stalking — charges carrying up to 20 years in prison on each fraud count and five years on the stalking count. "Fraudsters take advantage of new technologies and financial products to steal investors' hard-earned money," then-Principal Deputy Assistant Attorney General Nicole Argentieri said in announcing the case. Mayo has since agreed to plead guilty to the conspiracy count, with his sentencing continued into 2026; Hay has not pleaded guilty and, as of this writing, is proceeding toward trial.
+
+The Hay and Mayo case is less notable for any single fraudulent project than for how many of them there were: nine named schemes run by the same two promoters over three years, each one following an identical script of hype, a roadmap that was never real, and a disappearance once the money landed. For an industry with no equivalent of a prospectus or an escrow requirement, that kind of repetition is what eventually turns a string of disappointed Discord communities into the Justice Department's biggest NFT prosecution to date.`,
+  },
+);
