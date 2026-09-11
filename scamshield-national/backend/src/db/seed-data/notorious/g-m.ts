@@ -5140,6 +5140,10 @@ NotoriousGM.push(
     slug: 'gao-yudong-wotoken-crypto-ponzi-scheme',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/20230328_Skyline_of_Suzhou_High-speed_Rail_New_Town.jpg?width=1200',
+    coverImageCredit: 'Photo: Windmemories, Wikimedia Commons (CC BY-SA 4.0) — Jiangsu province, China, where WoToken\'s ringleaders were tried and convicted',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     body: `In August 2018, while a nearly identical Ponzi scheme called PlusToken was already luring hundreds of thousands of Chinese investors, a copycat platform called WoToken launched with its own token, the WOR, and the same basic pitch: hand over Bitcoin, Ethereum, or other cryptocurrency, and a proprietary trading algorithm would generate steady returns by exploiting price differences across global exchanges.
 
 There was no algorithm. WoToken was a multi-level marketing scheme dressed up as a crypto hedge fund, structured across 501 recruitment layers, in which existing members earned a cut for every new investor they signed up. By the time Chinese police shut it down in October 2019, the platform had registered 715,249 users and taken in a combined 46,050 bitcoin, roughly 2 million ether, 286 million tether, and smaller holdings of litecoin and EOS — cryptocurrency worth about 7.7 billion yuan, or $1.1 billion, at the time it was collected.
