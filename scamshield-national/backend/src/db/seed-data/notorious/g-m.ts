@@ -4423,6 +4423,9 @@ NotoriousGM.push(
     slug: 'michael-mastromarino-biomedical-tissue-services-body-theft-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/George_Washington_Bridge_from_New_Jersey-edit.jpg?width=1200',
     sourceUrl: 'https://en.wikipedia.org/wiki/Biomedical_Tissue_Services',
     body: `Michael Mastromarino was a licensed oral and maxillofacial surgeon in the New York City area until a 2000 arrest for practicing while impaired — he had become addicted to the painkiller Demerol — led him to surrender his dental license, first for six months and then, after he was caught practicing again in violation of that suspension, for four years. Facing the loss of his medical career, he pivoted in 2001 to a business built on the one skill regulators had not taken from him: the ability to move confidently around a cadaver.
 
