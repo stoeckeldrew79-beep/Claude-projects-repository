@@ -6944,7 +6944,10 @@ NotoriousGM.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/usao-az/pr/arizona-man-charged-defrauding-least-150-victims-cryptocurrency-investment-scheme',
-    // no rights-cleared photo identified — sourceUrl above serves as the "read the full story" link
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Downtown_Phoenix_Skyline_(6974043971).jpg?width=1200',
+    coverImageCredit: 'Alan Stark, CC BY-SA 2.0, via Wikimedia Commons',
+    coverImagePosition: 50,
     body: `Note: Jeremie Andrew Sowerby has pleaded guilty and admitted the conduct described below as part of a plea agreement resolving three separate federal cases, but as of this writing he has not yet been sentenced — a hearing is scheduled for October 14, 2026 — so the prison term he ultimately receives is not yet known.
 
 Jeremie Andrew Sowerby, 48, of Fountain Hills, Arizona, didn't run one long-running scheme so much as a rotating sequence of them, each built around cryptocurrency's changing fashions and each launched under new company names once the last one stopped bringing in fresh money. According to the U.S. Attorney's Office for the District of Arizona, his fraud ran from 2017 through 2023 under a long list of entities that included Now Mining, VIP Mining, Millennium Technologies, Dunamis Global Technologies, SOFTEK LLC, Justice Capital, Stealth Capital, FX Primary, Phoenix Ultra, Limitless Trading, Block Mint, Block X, Digital Mint, 888 Management, Kannabiz Koin, Kannabiz Monkeez, My Blockchain Life, My Block X, and We Sell Miners.
