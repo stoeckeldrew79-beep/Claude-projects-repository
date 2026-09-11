@@ -6580,6 +6580,9 @@ NotoriousGM.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/usao-sdca/pr/us-promoter-foreign-cryptocurrency-company-sentenced-prison-role-fraud-scheme',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Carter_and_Keep_Courthouse.jpg?width=1200',
+    coverImageCredit: 'U.S. General Services Administration (public domain) — James M. Carter and Judith N. Keep U.S. Courthouse, San Diego, where Arcaro was sentenced',
     body: `BitConnect billed itself as a cryptocurrency lending platform built on a proprietary "Trading Bot" and "Volatility Software" that it claimed could generate guaranteed daily returns by trading on swings in the crypto markets. Between its launch and its collapse in January 2018, BitConnect took in more than $2 billion from investors worldwide — money prosecutors said was never actually traded, but simply paid out to earlier investors using money deposited by later ones, a Ponzi scheme run at a scale few before it had reached.
 
 Glenn Arcaro was BitConnect's top U.S.-based promoter, recruiting investors across North America through a YouTube channel called Crypto Nation and a network of paid sub-promoters beneath him, collecting commissions tied directly to how much new investor money he brought in. When BitConnect abruptly shut down its lending program in January 2018, its token collapsed within days, wiping out the holdings of thousands of investors who had trusted his pitch.
