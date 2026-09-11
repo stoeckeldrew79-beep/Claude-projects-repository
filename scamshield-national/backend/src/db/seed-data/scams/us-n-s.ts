@@ -5789,3 +5789,17 @@ UsNS.push({
     isHistorical: true,
     firstRecorded: '2026-07-18',
 });
+
+UsNS.push({
+    name: 'New York AI-Powered Tax Season Scam Alert',
+    slug: 'new-york-ai-powered-tax-season-scam-alert',
+    description: `New York Attorney General Letitia James issued a consumer alert on April 1, 2026 warning that "scammers are increasingly using sophisticated AI programs to create more deceptive schemes this tax season," detailing four AI-driven tactics her office had identified. Fraudsters now generate deepfake videos of government officials or celebrities appearing to promote fake tax incentives or deductions; send phishing emails written by AI that are personalized enough to overcome the typo- and grammar-based detection tips consumers used to rely on, disguised as tax notices or preparation offers; use AI voice-cloning to replicate the voice of an IRS official or a taxpayer's own tax preparer on a call, pairing it with a spoofed caller ID and references to real, recent transactions to sound convincing while demanding payment or personal information; and exploit Google's AI Overview search feature, which can surface a fraudulent contact number or link alongside otherwise-legitimate tax information for someone searching for help. The alert also flagged more familiar tax-season schemes still active alongside the AI-driven ones: fake debt collectors demanding payment through gift cards, cryptocurrency, or prepaid cards; false claims that a legitimate refund was sent in error and must be repaid; deceptive "free" tax preparation offers that carry hidden fees; and predatory preparers charging excessive fees or steering clients into high-interest refund-anticipation loans. James advised New Yorkers to independently verify any unexpected tax-related call, email, or video before responding, use free resources like IRS Free File or a VITA site rather than an unfamiliar "free" offer, check a preparer's credentials through the Better Business Bureau, and remember that no legitimate government agency threatens arrest or demands payment through gift cards, cryptocurrency, or wire transfer; suspected scams can be reported to her office at 1-800-771-7755.`,
+    categorySlug: 'ai-deepfake-scams',
+    alertLevel: 'high',
+    sources: ["New York Attorney General's Office (Letitia James)"],
+    sourceUrl: 'https://ag.ny.gov/press-release/2026/attorney-general-james-offers-tips-protect-consumers-fraud-during-tax-season',
+    country: 'US',
+    state: 'NY',
+    isHistorical: true,
+    firstRecorded: '2026-04-01',
+});
