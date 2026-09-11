@@ -5356,6 +5356,9 @@ NotoriousGM.push(
     slug: 'gregoire-tournant-allianz-structured-alpha-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Wzwz_schwabing_26_allianz_building.JPG?width=1200',
     sourceUrl: 'https://www.justice.gov/usao-sdny/pr/chief-investment-officer-allianz-global-investors-us-pleads-guilty-investment-adviser',
     body: `Gregoire Tournant ran Structured Alpha, a family of hedge funds inside Allianz Global Investors U.S. (AGI), marketed heavily to pension funds and institutional investors — retirement systems for teachers, transit workers, and municipal employees, along with religious and charitable organizations — who together entrusted the funds with roughly $11 billion by 2020. The pitch was a strategy designed to profit from options trading on the S&P 500 while carrying a built-in safety net: protective options positions meant to sharply limit losses if the market ever suffered a severe, sudden crash, the kind of event the funds' own marketing said they were specifically engineered to survive.
 
