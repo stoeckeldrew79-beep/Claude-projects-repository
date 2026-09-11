@@ -8225,6 +8225,10 @@ NotoriousGM.push(
     slug: 'gregory-anderson-womens-cancer-fund-charity-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Photo_of_Pink_ribbon.jpg?width=1200',
+    coverImageCredit: 'Photo: Monash University, CC BY-SA 4.0, via Wikimedia Commons — a pink ribbon, the cancer-awareness symbol',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2024/03/ftc-10-states-take-action-against-operator-sham-cancer-charity-deceiving-donors',
     body: `Gregory B. Anderson ran Cancer Recovery Foundation International, Inc., a nonprofit that did business under a name designed to pull at heartstrings: the Women's Cancer Fund. Telemarketers working the phones on the charity's behalf told prospective donors their gifts would "help save lives" and go "directly" toward basic living expenses — rent, groceries, utilities — for women undergoing cancer treatment, with some callers claiming as much as half of every donation would reach survivors directly.
 
