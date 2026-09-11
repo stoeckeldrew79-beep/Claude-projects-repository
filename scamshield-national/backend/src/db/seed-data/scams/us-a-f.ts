@@ -7319,3 +7319,16 @@ UsAF.push({
     isHistorical: true,
     firstRecorded: '2026-08-08',
 });
+
+UsAF.push({
+    name: 'Freelance Creative Professional Third-Party-Forwarding Overpayment Scam',
+    slug: 'freelance-creative-professional-overpayment-scam',
+    description: `The Better Business Bureau serving Abilene and the Big Country issued a scam alert on July 15, 2026 warning photographers, videographers, graphic designers, and other creative freelancers about an overpayment scheme that dresses itself up as a normal part of the job. A fake "client" — posing as a magazine publisher, marketing firm, or brand seeking someone for a fashion editorial, promotional campaign, or event — reaches out with a professional-looking contract and an unusually generous rate, then sends payment that comes in higher than the agreed fee. Rather than asking the freelancer to simply wire back the difference, the scammer instructs them to forward the extra amount on to a supposed third-party vendor the shoot requires, such as a modeling agency, makeup artist, stylist, or event coordinator — a step that mimics how freelancers legitimately pay subcontractors out of a client advance, making the request far less suspicious than a bare "send back the overage" ask. By the time the original payment is flagged as fraudulent or the check bounces, the freelancer is out the full amount they forwarded and, in some cases, liable to their bank for the difference. BBB President and CEO Britni Casady's office listed red flags including unsolicited offers promising unusually high pay, pressure to forward money before the original payment has fully cleared, contracts with inconsistent details or grammar errors, and a client who avoids any real-time phone or video conversation. Freelancers are advised to never forward money from a client payment on to a third party, to independently verify a hiring company before accepting an assignment, and to wait until a payment has fully cleared their bank — not just posted as pending — before spending or transferring any of it.`,
+    categorySlug: 'fake-check-overpayment',
+    alertLevel: 'medium',
+    sources: ['Better Business Bureau (Abilene & the Big Country)', 'KTXS ABC'],
+    sourceUrl: 'https://ktxs.com/news/local/bbb-warns-creative-professionals-of-overpayment-scam-targeting-freelancers',
+    country: 'US',
+    isHistorical: true,
+    firstRecorded: '2026-07-15',
+});
