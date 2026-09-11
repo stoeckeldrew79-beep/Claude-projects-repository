@@ -11091,6 +11091,18 @@ International.push(
 );
 International.push(
   {
+    name: 'Puerto Rico Fake Luxury Property Rental TikTok Scam',
+    slug: 'puerto-rico-fake-luxury-property-rental-tiktok-scam',
+    description: `Puerto Rico's Department of Consumer Affairs (DACO) warned on July 18, 2026, about a scheme in which fraudsters use TikTok videos to advertise luxury homes for rent in exclusive areas of Dorado, Gurabo, and Humacao at prices far below market — around $600 a month — to draw in prospective renters before asking for an upfront deposit of roughly $300 to "process" the rental. DACO Secretary Hiram Torres Montalvo said the unrealistically low price is deliberate bait: "The price that is announced aims to capture the victim's attention" before the request for the deposit follows, adding plainly, "This is a scam, it is not real." Investigators found the accounts behind the ads are not run by licensed real estate brokers and typically use generic avatar images instead of real photos to conceal the poster's identity, one of the clearest signs the listing is fraudulent. DACO urged consumers to be skeptical of any rental priced well under market value, to confirm that anyone advertising a property is a broker licensed under Puerto Rico's real estate law before sending any money, and to verify a listing independently — including in person or through a licensed agent — before wiring a deposit to someone found only through a social media video.`,
+    categorySlug: 'rental-housing',
+    alertLevel: 'medium',
+    sources: ['Departamento de Asuntos del Consumidor de Puerto Rico (DACO)', 'Telemundo Puerto Rico'],
+    sourceUrl: 'https://www.telemundopr.com/noticias/puerto-rico/daco-alerta-sobre-fraude-con-propiedades-de-lujo-a-traves-de-tiktok/2829674/',
+    country: 'PR',
+  },
+);
+International.push(
+  {
     name: 'Cayman Islands Bank Phone Impersonation Fraud',
     slug: 'cayman-islands-bank-phone-impersonation-fraud',
     description: `The Royal Cayman Islands Police Service (RCIPS) said in June 2026 that it was investigating a report of banking fraud after a victim received a phone call from someone claiming to be associated with a financial institution based in the Cayman Islands. During the call, the victim was persuaded to disclose personal banking information, which the caller then used to carry out unauthorised transactions on the victim's account, resulting in cash being stolen. Billy Pennington, president of the Cayman Islands Bankers Association (CIBA), said scammers are becoming increasingly sophisticated and creative, using tactics such as social engineering and artificial intelligence to impersonate trusted sources, clone voices, and build convincing fake messages or websites in order to steal sensitive information. RCIPS reminded the public that legitimate banks do not ask customers to read out full account numbers, PINs, one-time passcodes, or online banking credentials over an inbound phone call or messaging app, and urged anyone contacted this way to hang up and call their bank back using the number printed on a card or statement rather than any number supplied during the call.`,
