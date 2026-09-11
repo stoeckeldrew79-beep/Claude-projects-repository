@@ -8343,4 +8343,18 @@ The SEC sued Lauer, Lancer Management, and a set of related trusts in 2003, free
 A separate criminal prosecution reached a very different result. Federal prosecutors in Miami charged Lauer with wire fraud and conspiracy carrying a potential sentence of up to 25 years in prison, but on April 27, 2011, a jury acquitted him on all counts after deliberating more than three days. The split outcome — liable for securities fraud in civil court under a preponderance-of-the-evidence standard, but acquitted of the same underlying conduct by a criminal jury applying proof beyond a reasonable doubt — is a reminder that regulatory and criminal cases built on identical facts can land in opposite places, and that a federal judge calling a scheme "egregious, pervasive, and premeditated" does not automatically translate into a criminal conviction for the person found to have run it.`,
     sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-20751',
   },
+{
+    title: 'Hava Yfrah Austin: The Bookkeeper Whose $9.8 Million Embezzlement Fed a Casino Gambling Habit',
+    slug: 'hava-yfrah-austin-plantation-bookkeeper-gambling-embezzlement',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    body: `Hava Yfrah Austin owned and ran Accounting Solutions Today, P.A., a bookkeeping and tax-preparation business in Plantation, Florida, and for years served as the long-time outside bookkeeper for one client company in particular — a role that gave her signature authority over that company's own bank accounts, the same trusted access an in-house employee would have.
+
+From 2018 through April 2024, according to federal prosecutors, Austin used that authority to siphon roughly $9.8 million out of her client's accounts, concealing the theft by falsifying accounting entries and inventing fake vendor names so the missing money appeared, on paper, to be ordinary business expenses rather than payments to herself. Prosecutors said she funneled much of what she stole into gambling — betting it away at local casinos and on online gaming platforms — and then compounded the fraud by failing to report the stolen income on her own tax returns, later pleading guilty to filing a false income tax return alongside a wire fraud charge.
+
+Austin was sentenced on September 19, 2025, by Chief U.S. District Judge Cecilia M. Altonaga to 51 months in federal prison, along with forfeiture and restitution tied to the nearly $10 million she took. "This defendant betrayed the trust placed in her, stole nearly $10 million, and gambled it away," said U.S. Attorney Jason A. Reding Quiñones. IRS Criminal Investigation led the probe, and Assistant U.S. Attorneys Jon Juenger and Nicole Grosnoff prosecuted the case.
+
+Austin's case is a reminder that the "trusted bookkeeper" role — whether an employee or, as here, an outside contractor with standing access to a client's accounts — is one of the highest-value embezzlement positions precisely because it combines the authority to move money with the authority to record how that movement gets described in the books. A business that hands one person both jobs, with no separate set of eyes reconciling the bank statements against the ledger, has no way to catch the gap until, as in Austin's case, it has grown into eight figures.`,
+    sourceUrl: 'https://www.justice.gov/usao-sdfl/pr/former-plantation-bookkeeper-sentenced-federal-prison-98-million-embezzlement-scheme',
+  },
 );
