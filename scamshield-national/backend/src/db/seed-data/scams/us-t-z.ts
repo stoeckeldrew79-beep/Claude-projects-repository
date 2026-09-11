@@ -3278,3 +3278,16 @@ UsTZ.push({
     isHistorical: true,
     firstRecorded: '2025-10-29',
 });
+
+UsTZ.push({
+    name: 'Walmart Spark Driver Deceptive Earnings Claims',
+    slug: 'walmart-spark-driver-deceptive-earnings-claims',
+    description: `The Federal Trade Commission announced on February 26, 2026 that Walmart had agreed to a $100 million judgment to resolve allegations that it misrepresented how much people could earn delivering orders through its Spark Driver gig platform. According to the FTC, Walmart advertised the app to prospective drivers with earnings figures built on inflated estimates of tips, base pay, and incentive bonuses that didn't reflect what most drivers actually took home once the platform's own pay structure and fee deductions were applied — luring people into buying gas, insurance, and vehicle maintenance against income that, in practice, fell well short of what was promised. Unlike a scam run by a fraudulent third party, the FTC's complaint targeted the platform operator itself for the earnings claims used to recruit its own gig workforce, alleging violations of the FTC Act's prohibition on deceptive advertising. The settlement requires Walmart to pay restitution directly to affected drivers and to fund a claims process for drivers who never received tips or incentive pay they were owed under the app's own stated terms, while barring the company from making unsubstantiated earnings claims to recruit gig drivers going forward. The FTC advises anyone considering gig delivery or rideshare work to ask the platform for a written breakdown of how advertised pay figures are calculated before accepting shifts, to research other drivers' actual reported earnings and complaints rather than relying on an app's own marketing, and to file a report at ReportFraud.ftc.gov if a platform's real payouts don't match what was advertised to recruit them.`,
+    categorySlug: 'employment-scams',
+    alertLevel: 'medium',
+    sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2026/02/ftc-helps-walmart-spark-drivers-and-other-gig-workers-heres-how',
+    country: 'US',
+    isHistorical: true,
+    firstRecorded: '2026-02-26',
+});
