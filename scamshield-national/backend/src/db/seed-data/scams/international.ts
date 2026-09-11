@@ -12899,3 +12899,16 @@ International.push(
     country: 'CW',
   },
 );
+
+International.push(
+  {
+    name: 'Guam Advance-Fee "Multimillion-Dollar Inheritance" Scam Ring',
+    slug: 'guam-advance-fee-multimillion-dollar-inheritance-scam-ring',
+    description: `Between roughly 2016 and 2021, a multi-state and international ring of at least seven conspirators defrauded about 60 victims — nearly all of them on Guam — out of a combined $2.6 million by convincing them they were about to receive a share of a multimillion-dollar inheritance, provided they first paid a series of "processing," "legal," "tax," and other release fees. Federal prosecutors said two Guam women, Teresa Adamos Pereda and Sally Cruz Roberto, served as local recruiters and points of contact, drawing in family members, coworkers, and fellow congregants from St. Paul Christian Church and St. Paul Christian School alumni circles, while Nigerian nationals Okechukwu F. Iwuji and Jide Abimbola (also using the aliases Mark Long, Grang Long, Greg Long, and Luke Joshua) and others directed the scheme from off-island, and Monique Jones and Mekayda D. Jones helped launder the proceeds through bank accounts in Texas. Victims who balked or asked questions were told additional "final" fees were required before funds already deemed theirs could be released — money that, in reality, never existed. The District Court of Guam handed down a string of sentences: Pereda, who alone defrauded at least 36 victims including relatives and church acquaintances from January 2016 to November 2019, received eight years in federal prison; Monique Jones was sentenced to 48 months on wire fraud and money-laundering conspiracy counts; Iwuji received 45 months; Roberto received 33 months; and Abimbola pleaded guilty to conspiracy to commit wire fraud, with additional co-defendants extradited from Texas and Georgia to face trial. The case shows how an inheritance scam can hide behind a trusted local face — a relative, coworker, or fellow parishioner — recruited specifically because victims would never suspect someone from their own community and congregation.`,
+    categorySlug: 'lottery-sweepstakes-scams',
+    alertLevel: 'high',
+    sources: ['U.S. Attorney\'s Office, Districts of Guam and the Northern Mariana Islands', 'Pacific Daily News (postguam.com)', 'KUAM News', 'Pacific Island Times'],
+    sourceUrl: 'https://www.postguam.com/news/local/man-admits-role-in-inheritance-scam-that-defrauded-dozens-on-guam/article_6a52f974-5721-11ec-96e4-7feff78c1663.html',
+    country: 'GU',
+  },
+);
