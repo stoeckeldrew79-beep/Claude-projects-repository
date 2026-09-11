@@ -7019,3 +7019,37 @@ A Yavapai County jury convicted Northcutt in May 2026 on seven felony counts: fr
 The case is a stark illustration of why nonprofit boards are urged to build in financial oversight that doesn't depend on trusting the executive director — segregated duties, independent bank reconciliation, and outside audits — precisely because the person best positioned to steal from a small charity is often the same person the board has come to trust the most. Northcutt held the keys to the organization's finances for years before a single anonymous tip, rather than any routine check, finally exposed what she had been doing with them.`,
   },
 );
+NotoriousGM.push(
+  {
+    title: 'John A. Miller and the $1.6 Million He Stole From a Charity for Clergy Widows and Orphans Founded in 1769',
+    slug: 'john-miller-clergy-assurance-fund-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-edpa/pr/former-nonprofit-executive-who-defrauded-organization-more-16-million-sentenced-10',
+    body: `The Clergy Assurance Fund traces its roots back further than almost any charity likely to appear in a federal fraud indictment: it was chartered in 1769, under Pennsylvania's colonial governor John Penn, as "The Corporation for the Relief of the Widows and Children of Clergymen." By the 2020s it had grown into an $80-million-plus fund serving Episcopal dioceses across Pennsylvania — Bethlehem, Central Pennsylvania, Northwestern Pennsylvania, and Pittsburgh among them — governed by a board of bishops and volunteers, with a straightforward mission largely unchanged in two and a half centuries: provide financial support to the widows, widowers, and orphaned children of deceased clergy.
+
+John A. Miller served as the fund's executive director and treasurer, a dual role that gave him both day-to-day control of its finances and the authority to approve what those finances actually did. According to federal prosecutors in the Eastern District of Pennsylvania, Miller used that combination between 2015 and 2022 to divert more than $1.6 million intended for grieving clergy families into his own pocket — disguising wire transfers and other payments meant for beneficiaries as personal checks written to himself, and creating false and misleading entries in the fund's internal accounting ledgers to keep the board and outside reviewers from noticing the gap. Prosecutors say he spent the stolen money on luxury travel and, ultimately, a Philadelphia condominium.
+
+The scheme came apart in March 2022, when improper charges on a fund-issued credit card drew scrutiny and led to Miller's removal; a forensic audit that followed identified at least $1.4 million in confirmed theft, a figure that grew as investigators dug further. Federal prosecutors filed charges in late 2023, and law enforcement seized more than $281,000 in proceeds from the sale of Miller's condominium after he learned of the investigation. On March 3, 2026, Miller — by then 76 years old — pleaded guilty to one count of wire fraud and one count of engaging in a monetary transaction involving criminally derived property, charges that together carried a statutory maximum of 30 years in prison. On September 9, 2026, a federal judge sentenced him to 10 months in prison followed by two years of supervised release, including six months of home confinement, and ordered him to pay $1,626,556 in restitution.
+
+Miller's case is a reminder that the same features that make a fund like this trustworthy on paper — a mission unchanged since before the American Revolution, a board of bishops, more than $80 million in assets — say nothing about whether the one person managing its books day to day is doing so honestly. A charity's age and reputation are not a substitute for the boring, unglamorous controls that actually catch embezzlement: segregating who approves a payment from who executes it, and having someone other than the executive director reconcile the accounts against what beneficiaries were actually supposed to receive.`,
+  },
+);
+NotoriousGM.push(
+  {
+    title: 'Julie Hanway Molina and the $400,000 Booster Club Fund Federal Prosecutors Say Paid Her Mortgage',
+    slug: 'julie-hanway-molina-booster-club-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-cdca/pr/former-treasurer-orange-county-high-school-football-booster-club-arrested-allegedly',
+    body: `Note: Julie Hanway Molina has been arrested and charged by federal prosecutors, but as of this writing she has not been convicted of any crime, and the account below reflects the government's allegations, which she is presumed innocent of unless and until proven otherwise in court.
+
+Julie Hanway Molina, 56, of Aliso Viejo, California, served as treasurer of the Wolverine Football Club, a nonprofit booster club that raises money to support a high school football program in Orange County. According to a federal indictment, that role gave her sole day-to-day control over a bank account that parents, sponsors, and fundraisers trusted to cover the ordinary costs of running a high school team — equipment, travel, banquets — rather than anyone's personal mortgage.
+
+Prosecutors allege that between 2023 and November 2025, Molina diverted more than $400,000 of the club's funds into her own accounts, using the money to pay down a delinquent balance on her home mortgage and to cover her credit card bills. One transaction detailed in the indictment moved roughly $131,523 out of the booster club's account, through Federal Reserve facilities in New Jersey and Texas, and into an account in Santa Ana — a single wire large enough, prosecutors say, to bring her mortgage current in one transfer. To keep the club's board from noticing the shortfall, the indictment alleges, Molina sent them falsified treasurer's reports that made the account's balance look intact.
+
+FBI agents arrested Molina on September 10, 2026, with assistance from the Orange County Sheriff's Department, and she made an initial appearance in federal court in Santa Ana the same day on four counts of wire fraud, each carrying a statutory maximum of 20 years in prison. The Wolverine Football Club said in a statement that it had "been cooperating fully with law enforcement throughout this process and will continue to do so."
+
+Booster clubs are built on a specific kind of trust that makes them easy to exploit: a single volunteer parent typically controls the books, board turnover is frequent because parents cycle out as their kids graduate, and nobody wants to be the one demanding an outside audit of a group that exists, on paper, purely to support their own children's team. If the allegations against Molina are proven, her case will be a reminder that the same absence of independent financial oversight that makes a booster club easy to run with a few volunteer hours a week is exactly what makes it easy for one of those volunteers to quietly redirect its funds toward a personal bill for two years before anyone outside the treasurer's own reports has reason to ask where the money went.`,
+  },
+);
