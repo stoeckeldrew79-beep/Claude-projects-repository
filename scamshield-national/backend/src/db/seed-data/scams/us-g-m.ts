@@ -5564,3 +5564,17 @@ UsGM.push({
     isHistorical: true,
     firstRecorded: '2025-03-05',
 });
+
+UsGM.push({
+    name: 'Summit Software Systems Foreclosure-Consulting Deception',
+    slug: 'iowa-summit-software-systems-foreclosure-consulting-scam',
+    description: `Summit Software Systems, Inc. and its owner, Robert Boligan, mailed Iowa homeowners facing foreclosure notices formatted to look like they came from a government office, offering "foreclosure prevention services" and access to "housing counselors" without clearly disclosing that Summit was actually a private, unaffiliated company. Iowa Attorney General Brenna Bird's office found the mailers omitted Summit's own identity, left out contract and cancellation disclosures required for this kind of service, and, in some cases, took payment from struggling homeowners without ever delivering everything the pitch promised. Roughly 3,285 Iowa households received the mailers, and 15 who paid lost a combined $30,626.03. Under a consent judgment Bird's office announced November 1, 2023, Boligan and Summit denied wrongdoing but agreed to a court order requiring a complete, automatic refund to every Iowa consumer who purchased the service, paid out at a rate of at least $5,000 a month, and to stop offering foreclosure-consultant services in Iowa altogether; the office said checks went out to affected Iowans in the second quarter of 2024. "Iowans facing foreclosure are already struggling enough," Bird said. "For a company to trick them out of money on top of that is just flat wrong." Homeowners behind on a mortgage should be skeptical of any unsolicited mailer offering foreclosure help, especially one whose return address or letterhead suggests a government connection it doesn't have, and can get free, legitimate mortgage counseling directly through Iowa Mortgage Help at iowamortgagehelp.com rather than paying an unfamiliar company that reached out first.`,
+    categorySlug: 'mortgage-foreclosure-scams',
+    alertLevel: 'medium',
+    sources: ["Iowa Attorney General's Office (Brenna Bird)", 'Iowa Capital Dispatch'],
+    sourceUrl: 'https://www.iowaattorneygeneral.gov/newsroom/attorney-general-bird-announces-settlement-with-company-that-deceived-iowa-homeowners-facing-foreclo',
+    country: 'US',
+    state: 'IA',
+    isHistorical: true,
+    firstRecorded: '2023-11-01',
+});
