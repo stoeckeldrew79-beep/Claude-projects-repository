@@ -3561,6 +3561,10 @@ The "Double Shah" case is a reminder of how little sophistication a fraud needs 
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
     sourceUrl: 'https://www.abc.net.au/news/2014-01-23/trio-capital-fraudster-shawn-richards-released-from-prison/5214724',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Law_Courts_Building,_Sydney_04.jpg?width=1200',
+    coverImageCredit: 'Chris Olszewski, CC BY-SA 4.0, via Wikimedia Commons',
+    coverImagePosition: 50,
     body: `Trio Capital was a licensed Australian superannuation and managed-investment fund operator based in Albury, New South Wales, that by 2009 was responsible for the retirement savings of thousands of ordinary Australians, channeled through funds with names like the Astarra Strategic Fund and the ARP Growth Fund. Shawn Richard, a Canadian national in his twenties, sat on the board of Trio's asset manager, Astarra Asset Management, and had his name attached as director to many of the funds' key legal documents — making him the public face of an operation that investigators later found had been quietly funneling Australian retirement savings offshore almost from the moment it began.
 
 From July 2004, Richard authorized the transfer of investors' money out of the Australian funds and into a web of offshore hedge funds based in places like the British Virgin Islands and Hong Kong. Those offshore funds were controlled by Jack Flader, a US-born, Hong Kong-based businessman whom the sentencing judge would later describe as the scheme's architect. Richard signed off on fabricated valuations and other documents that made the offshore holdings look legitimate to auditors, regulators, and the Australian trustees still responsible for the funds, while Flader used the diverted money to buy shares in small US companies from other entities he also controlled — extracting profit for himself at investors' expense on both ends of the transaction.
