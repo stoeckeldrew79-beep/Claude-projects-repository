@@ -5624,3 +5624,17 @@ UsGM.push({
     isHistorical: true,
     firstRecorded: '2026-02-01',
 });
+
+UsGM.push({
+    name: 'Guam Shrine Club "Hafa Adai Bingo" Charity Diversion Scheme',
+    slug: 'guam-shrine-club-hafa-adai-bingo-charity-fraud',
+    description: `The Guam Shrine Club operated Hafa Adai Bingo, a charitable bingo parlor in Tamuning, telling patrons their play funded the Aloha Shriners' program flying sick and injured children from Guam to Shriners Hospital for Children in Honolulu for free medical care. Between 2015 and 2021, federal prosecutors say the parlor took in roughly $34 million in gross bingo receipts, but Jose Arthur D. Chan Jr., his wife Christine C. Chan, and club manager Michael L. Marasigan diverted about $10.75 million of it away from that charitable purpose and laundered the proceeds through a web of personal and business accounts, while fellow defendant Juanita Capulong separately pleaded guilty for her role in the illegal-gambling and money-laundering conspiracy. A federal jury convicted Marasigan and Christine Chan of illegal-gambling conspiracy, money-laundering conspiracy, wire-fraud conspiracy, and related money-laundering counts; a judge in the U.S. District Court for the District of Guam sentenced Jose Chan Jr., 77, of Dededo, to 60 months in prison on May 12, 2026, Christine Chan, 64, also of Dededo, to 70 months, and Capulong, 73, of Tamuning, to four years of probation, while ordering the defendants to pay a combined $10,750,804 in restitution to the Aloha Shriners along with more than $5.8 million in forfeiture. Marasigan, 54, never returned from court-approved medical travel to the Philippines in June 2025, and the court sentenced him in absentia on May 18, 2026 to 262 months — nearly 22 years — while he remains a fugitive; the FBI has offered a reward of up to $150,000 for information leading to his arrest. The case is a reminder that a charity gambling night naming a well-known, sympathetic beneficiary — in this case, sick children needing medical care thousands of miles from home — is not proof the money actually reaches that cause: donors can ask a charitable bingo or raffle operator directly what share of proceeds goes to the stated beneficiary, and can check with the named charity itself about how much it has actually received from a specific local fundraiser before assuming a familiar name on a bingo hall wall guarantees where the money goes.`,
+    categorySlug: 'charity-scams',
+    alertLevel: 'medium',
+    sources: ["U.S. Attorney's Office, District of Guam and the Northern Mariana Islands", 'The Washington Times'],
+    sourceUrl: 'https://www.justice.gov/usao-gu/pr/guam-bingo-operators-receive-federal-prison-sentences-34-million-fraud-scheme',
+    country: 'US',
+    state: 'GU',
+    isHistorical: true,
+    firstRecorded: '2026-05-12',
+});
