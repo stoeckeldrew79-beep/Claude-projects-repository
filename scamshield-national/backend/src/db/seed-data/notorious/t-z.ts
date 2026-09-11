@@ -2127,3 +2127,20 @@ At the FTC's request, the court granted a temporary restraining order on June 17
 The case is a reminder that a company doesn't need to be an obscure shell operation to end up accused of running a subscription trap at scale — Genesis Tech's products had real download numbers, real user bases, and real technology partnerships, which is exactly the kind of legitimate-looking surface regulators say let a hidden-renewal business model reach hundreds of millions of dollars in revenue before enough complaints piled up to draw federal scrutiny. As with any active federal case, the fair reading for now is that these are allegations the FTC believes it can prove — not a settled finding of fraud.`,
   },
 );
+NotoriousTZ.push(
+  {
+    title: 'Dr. David Young and the $70 Million Medicare Scheme Built on Patients He Never Treated',
+    slug: 'david-young-medicare-braces-genetic-testing-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/archives/opa/pr/doctor-sentenced-70m-medicare-fraud-scheme',
+    // representative photo — replace with a portrait if found
+    body: `Dr. David M. Young was a licensed physician in Fredericksburg, Texas, when he became the prescribing signature behind one of the larger durable-medical-equipment and genetic-testing fraud schemes the Justice Department has prosecuted. Young's role in the scheme wasn't running a call center or a supply company — it was simpler than that: telemarketing networks fed him beneficiaries' information, and he signed off on orders for orthotic braces and cancer genetic tests for patients he had never examined, diagnosed, or, in many cases, so much as spoken with.
+
+According to prosecutors, Young signed prescriptions and medical records falsely stating that he had evaluated each patient, diagnosed a qualifying condition, developed a plan of care, and determined the equipment or testing was medically necessary — none of which had actually happened for the more than 13,000 Medicare beneficiaries whose paperwork carried his signature, a group that also included undercover agents posing as beneficiaries during the investigation. Brace-supply companies and testing laboratories then used those signed orders to bill Medicare directly, submitting more than $70 million in claims for equipment and tests that Young's own conduct had never actually validated. Young himself was paid roughly $475,000 for the prescriptions and paperwork — a small fraction of the total amount fraudulently billed, reflecting how this kind of telemarketing-driven scheme spreads the proceeds of a single doctor's signature across a whole network of equipment suppliers and labs downstream of him.
+
+A federal jury convicted Young in May 2024 on one count of conspiracy to commit health care fraud and three counts of making false statements relating to health care matters. He was sentenced to 10 years in federal prison and ordered to pay more than $26.6 million in restitution — a figure reflecting the portion of the fraudulent billing tied specifically to his own conduct within the larger scheme. Texas Attorney General Ken Paxton's Medicaid Fraud Control Unit assisted in the investigation alongside federal law enforcement, an example of the state-federal coordination increasingly common in Medicare and Medicaid fraud prosecutions of this scale.
+
+Young's case illustrates the specific vulnerability telemarketing-driven health care fraud exploits: a doctor's signature is meant to certify a real, individualized medical judgment, but Medicare's claims system largely trusts that signature at face value rather than verifying that the visit, diagnosis, and care plan it represents ever actually occurred. When a prescription for a brace or a genetic test arrives from a telemarketer rather than a treating physician, and the "doctor" behind it has never seen the patient, the fraud isn't hidden in fine print — it's built into a signature nobody downstream had any real way to check.`,
+  },
+);

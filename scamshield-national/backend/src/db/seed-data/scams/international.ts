@@ -11157,6 +11157,36 @@ International.push(
     sourceUrl: 'https://www.nevispages.com/public-notice-st-kitts-nevis-anguilla-national-bank-issues-fraud-alert/',
     country: 'KN',
   },
+  {
+    name: 'St. Kitts and Nevis WhatsApp Account-Cloning Impersonation Scam',
+    slug: 'st-kitts-nevis-whatsapp-account-cloning-impersonation-scam',
+    description: `The White Collar Crime Unit (WCCU) of the Royal St. Christopher and Nevis Police Force (RSCNPF) issued a public advisory on November 15, 2024 warning residents about a wave of WhatsApp account-cloning scams. Overseas scammers were found to be duplicating a real person's WhatsApp account — using their name and profile photo — and then messaging that person's own contact list while posing as the account holder, typically claiming to be stranded overseas, often "in the United States," and in urgent need of a money transfer to get home. Police said they first became aware of the pattern in early October 2024 and that only three cases had been formally reported at the time of the advisory, but cautioned that the true number of victims was likely much higher since many people who received a fraudulent message never realized their contact's account, rather than the contact themselves, had been the one compromised. The WCCU advised anyone who receives a message from a contact asking for money, or asking them to forward money to a third party, to independently verify the request by phone before sending anything, to never approve a WhatsApp verification code they did not request themselves, and to report suspected cloning attempts to the WCCU directly.`,
+    categorySlug: 'account-takeover',
+    alertLevel: 'medium',
+    sources: ['Royal St. Christopher and Nevis Police Force White Collar Crime Unit (WCCU)', 'WINN FM 98.9'],
+    sourceUrl: 'https://police.kn/press-releases/detail/367',
+    country: 'KN',
+  },
+  {
+    name: 'St. Kitts $50 Million Fraud and Money Laundering Charges Against Paul Bilzerian and Associates',
+    slug: 'st-kitts-50-million-fraud-money-laundering-bilzerian',
+    description: `The Royal St. Christopher and Nevis Police Force (RSCNPF) formally charged three people at Basseterre Police Station on June 18, 2026 following a lengthy White Collar Crime Unit investigation into an alleged scheme to obtain roughly US$50 million by false pretences and then launder the proceeds, allegedly carried out between November 2018 and July 2024. Charged were Paul Bilzerian and Terri Steffen, both of Frigate Bay, and Gregory Gilpin-Payne of New Road, St. Kitts; Bilzerian and Gilpin-Payne each face four counts — money laundering by transaction, conspiracy to commit money laundering, false pretence, and conspiracy to commit false pretence — while Steffen was charged with conspiracy to commit money laundering. Police said the investigation is ongoing and that further inquiries are being pursued, and stated plainly that "St. Kitts and Nevis will not be used as a vehicle for fraud, false pretences, or the laundering of criminal proceeds." Bilzerian is a former U.S. corporate takeover financier who was convicted in New York in 1989 on nine federal counts including securities fraud, false statements to the SEC, and conspiracy to defraud the IRS and SEC, and who relocated to St. Kitts after serving his sentence, later working as a service provider within the country's Citizenship-by-Investment program despite that record — a history that underscores why local authorities and prospective investors are urged to independently verify the licensing, registration, and background of anyone soliciting large sums for an investment or business opportunity in the Federation before transferring any money, rather than relying on reputation or existing residency alone.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'high',
+    sources: ['Royal St. Christopher and Nevis Police Force', 'The St Kitts Nevis Observer', 'ZIZ Broadcasting Corporation', 'SKNVibes'],
+    sourceUrl: 'https://www.nevispages.com/rscnpf-charges-trio-in-50-million-fraud-money-laundering-matter/',
+    country: 'KN',
+  },
+  {
+    name: 'St. Kitts and Nevis Social Media Job Search Scam',
+    slug: 'st-kitts-nevis-social-media-job-search-scam',
+    description: `The Financial Services Regulatory Commission (FSRC), the Royal St. Christopher and Nevis Police Force's White Collar Crime Unit (WCCU), and the Financial Intelligence Unit (FIU) issued a joint General Public Advisory on July 24, 2024 warning residents about job search scams circulating on social media, chiefly Facebook. The scams advertise work-from-home roles such as typing, correspondence preparation, or data entry at unusually high pay, contact applicants only through social media direct messages rather than by phone or in person, and tell them they have been "hired" without any interview or screening process. Victims are then asked to hand over banking details before ever receiving a real job offer, and in some versions are paid via wire transfer and instructed to forward part of the funds on to someone else through a money remitter — money that is, in fact, the proceeds of someone else's fraud. The advisory stressed "if it appears too good to be true, it usually is" and warned that using or moving funds obtained this way exposes the person, not just the scammer, to a money laundering charge under Section 4(1) of the Proceeds of Crime Act, since ignorance of the funds' origin is not a defense once a report is not made. Anyone contacted this way, or who has already received such funds, was urged to stop using the money and contact the WCCU immediately.`,
+    categorySlug: 'job-task-scams',
+    alertLevel: 'medium',
+    sources: ['Financial Services Regulatory Commission (FSRC)', 'Royal St. Christopher and Nevis Police Force White Collar Crime Unit (WCCU)', 'Financial Intelligence Unit (FIU)', 'WINN FM 98.9'],
+    sourceUrl: 'https://fsrc.kn/2-uncategorised/275-general-public-advisory',
+    country: 'KN',
+  },
 );
 
 International.push(

@@ -7080,3 +7080,22 @@ A federal jury in the Northern District of Texas convicted Taba on November 16, 
 Compound-cream and durable-medical-equipment schemes like this one exploit a specific gap in how billing works: OWCP, like Medicare, largely pays claims first and audits later, trusting that a prescribing physician's order reflects an actual medical need rather than a kickback arrangement with the pharmacy filling it. A federal worker who is prescribed an unfamiliar compounded cream, especially one billed at a price wildly out of proportion to an ordinary tube of medication, has no easy way to know whether the price tag reflects legitimate cost or a doctor being paid to write the prescription in the first place — which is exactly why cases like Taba's are typically unwound only after investigators, not patients, start tracing the money.`,
   },
 );
+NotoriousGM.push(
+  {
+    title: 'Damien Moran and the Precious-Metals Dealers Accused of Emptying Retirement Accounts Into Overpriced Gold',
+    slug: 'damien-moran-precious-metals-elderly-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious'],
+    sourceUrl: 'https://www.justice.gov/usao-ndtx/pr/dallas-man-federally-indicted-his-role-alleged-precious-metals-scam-targeting-elderly',
+    // representative photo — replace with a portrait if found
+    body: `Note: The allegations below come from a federal grand jury indictment. Damien Moran has not been convicted of any crime, and the case remains pending as of this writing — nothing here should be read as an established finding of guilt.
+
+Damien Moran, 36, of the Dallas area, allegedly owned and operated several companies — including Bright Future Financial LLC, doing business as Oakhurst Metals, and Crown Bullion, Inc. — that pitched retirement-age customers on moving their savings into physical gold and silver. According to a federal indictment and a related civil action brought by the Commodity Futures Trading Commission and dozens of state regulators, the sales pitch relied on the same appeal precious-metals fraud has used for decades: gold and silver as a hedge against a volatile stock market and a currency losing value, sold as a safer place than a 401(k) or IRA for a retiree's nest egg.
+
+The indictment alleges that behind that pitch, Moran's companies sold the metals at markups far above their actual market value without disclosing those markups to customers — inflated prices that, per the parallel CFTC civil case against related entities, have run into the tens of millions of dollars in fraudulent profit taken from elderly customers nationwide. Prosecutors say that on multiple occasions, customers who paid for gold or silver coins never received the metal they had purchased at all. The CFTC's civil complaint against the broader group of Dallas- and Los Angeles-area precious-metals dealers it has pursued in related actions describes retirement savings being liquidated specifically to fund these purchases — money that, once converted to overpriced coins or bullion that was never delivered, is far harder for a victim to recover than a straightforward wire transfer would have been.
+
+A federal grand jury in the Northern District of Texas indicted Moran on ten counts of wire fraud; he made his initial appearance before a U.S. magistrate judge in June 2026. Each wire fraud count carries a statutory maximum of 20 years in federal prison. The FBI's Dallas Field Office investigated the case, which Assistant U.S. Attorney Marty Basu is prosecuting. As of this writing, no trial date, plea, or verdict has been reported, and the underlying allegations remain unproven in court.
+
+Precious-metals fraud aimed at retirees follows a durable pattern: it doesn't ask a victim to hand over cash to a stranger's bank account so much as talk them into converting a liquid, easily verified retirement balance into a physical asset whose fair price is much harder for a layperson to check and whose delivery, as these cases allege, isn't always guaranteed at all. A legitimate precious-metals dealer will disclose its markup over spot price in writing before a purchase, not after a sale has already emptied a retirement account.`,
+  },
+);
