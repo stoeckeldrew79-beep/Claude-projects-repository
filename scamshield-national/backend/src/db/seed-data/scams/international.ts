@@ -10530,6 +10530,19 @@ International.push(
 
 International.push(
   {
+    name: 'Unlicensed "Abundance Community Coin" (TACC) Cryptocurrency Scheme (Liberia)',
+    slug: 'liberia-abundance-community-coin-tacc-crypto-scheme',
+    description: `The Central Bank of Liberia (CBL) issued a public notice on May 15, 2021 after an organization calling itself The Abundance Community Coin (TACC) publicized plans, reported in the May 6, 2021 edition of FrontPageAfrica, to launch its own cryptocurrency in Liberia on May 14, 2021, with TACC claiming the token had been created to help "enrich people through the use of task coins." The CBL stated it had at no time approved any license for TACC to transact any financial business in Liberia under Section 3(1) of the country's New Financial Institutions Act, and characterized the attempted launch as illegal and intended to undermine confidence in Liberia's financial system. The Bank directed TACC to immediately halt all publicity around the token's launch and desist from carrying out any financial activity, warning that continuing in defiance of the notice would leave the CBL "no other alternative but to pursue legal recourse in accordance with the law." Despite the warning, promotion of Abundance Coin continued, with the group announcing in early 2022 an offer of $50 million in cryptocurrency to the Liberian public — prompting renewed concern from observers that unlicensed token schemes were continuing to target Liberians even after a direct regulatory rebuke. The CBL used the notice to remind the public that it has not licensed any cryptocurrency or digital-asset business to operate in Liberia, and urged residents to verify a company's license status with the Bank before investing in or purchasing any digital-currency product.`,
+    categorySlug: 'cryptocurrency-scams',
+    alertLevel: 'high',
+    sources: ['Central Bank of Liberia (CBL)', 'FrontPageAfrica'],
+    sourceUrl: 'https://www.cbl.org.lr/media/press-releases/public-notice-abundance-community-coin-tacc',
+    country: 'LR',
+  },
+);
+
+International.push(
+  {
     name: 'Fake "Hong Kong Police" NFC Card-Tap Scam (Macau)',
     slug: 'macau-fake-police-prosecutor-nfc-tap-scam',
     description: `An elderly Macau resident lost MOP600,000 in a "police-prosecutor" impersonation scam reported to the Judiciary Police (PJ) in March 2026. The victim received a Cantonese-language call from a "+852" Hong Kong number from a caller claiming to be a Wan Chai Police officer, who alleged the victim was implicated in a money-laundering and criminal case in Xiamen and displayed a fabricated arrest warrant to appear credible. To "prove his innocence" and avoid arrest, the victim was instructed to install an unfamiliar mobile app and then hold his bank card against the back of his phone, letting the app read the card's NFC chip and relay the payment data so the scammers could complete unauthorized transactions in real time. This NFC card-clone technique lets fraudsters drain funds without ever needing the card's PIN, magnetic stripe, or physical possession of the card, and has spread from Hong Kong-based "Macau scam" syndicates to victims across the region. The Judiciary Police, which logs dozens of impersonation-of-authority reports every week, reminds residents that genuine Mainland or Hong Kong police and prosecutors never conduct investigations, demand proof of innocence, or collect payments over the phone or through app installations, and urges anyone contacted this way to hang up and verify independently through official hotlines.`,
