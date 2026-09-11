@@ -7794,3 +7794,20 @@ A jury convicted Hope of fraud on January 9, 2015, and he separately pleaded gui
 Hope's case is a reminder that a criminal conviction and a prison sentence don't automatically stop a fraud in progress — for nearly three years after his original sentencing, he kept working to hide money from the same regulator that had already caught him once, treating a restraint order as just one more obstacle to route around rather than the end of the story.`,
   },
 );
+
+NotoriousAF.push(
+  {
+    title: 'Diane Durbon and Brittany Lukasik: The Mother-Daughter Caretakers Who Drained a 92-Year-Old Patient',
+    slug: 'diane-durbon-brittany-lukasik-cape-coral-caretaker-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-mdfl/pr/cape-coral-caretakers-sentenced-federal-prison-stealing-more-half-million-dollars',
+    body: `In 2016, Diane Durbon and her daughter, registered nurse Brittany Lukasik, were hired as caretakers for a 92-year-old Cape Coral, Florida woman identified in court records only as T.H. — the kind of in-home caregiving arrangement families set up specifically because they trust the people they're hiring with an aging relative's daily life. Durbon used that access for something else. Starting in October 2017, she began unlawfully accessing T.H.'s investment accounts, and when the accounts' security questions required the client's own voice, Durbon put T.H. herself on the phone to answer them — turning the victim into an unwitting tool for draining her own money.
+
+Between January 2019 and March 2020, roughly $542,700 in funds fraudulently obtained from T.H.'s accounts ended up deposited into accounts controlled by Lukasik. A large share of that came through a simple, repeated mechanism: approximately 92 separate checks, totaling $372,092.98, were issued to Lukasik directly from T.H.'s checking account over that period — not one dramatic theft, but dozens of transactions small enough, individually, not to draw immediate attention.
+
+Both women pleaded guilty, Durbon to conspiracy to commit wire fraud and Lukasik to conspiracy to commit wire fraud and filing a false tax return. U.S. District Judge Thomas P. Barber, sentencing them in the Middle District of Florida, gave Durbon 10 years in federal prison and Lukasik 2 years. The court also ordered the pair to forfeit their Cape Coral residence, two vehicles, and approximately $542,760.23 traceable to the proceeds of the fraud — the house and cars bought, in effect, with an elderly patient's stolen savings.
+
+The case is a reminder that elder financial exploitation is most often committed by the people closest to a victim, not a stranger on the phone — a caretaker already has the access, the routine, and the trust that a con artist usually has to work hard to build, and stealing from a client who genuinely cannot advocate for herself can go undetected for years precisely because no one outside the household is watching closely enough to ask questions.`,
+  },
+);

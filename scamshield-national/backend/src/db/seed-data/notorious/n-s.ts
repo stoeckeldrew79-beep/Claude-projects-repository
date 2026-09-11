@@ -5374,3 +5374,20 @@ Diaz pleaded guilty to wire fraud on July 18, 2024. He was sentenced by U.S. Dis
 The case is a reminder that a familiar, brand-name employer doesn't vet the person behind the desk: Diaz's title and firm gave his fabricated "guaranteed" annuity a credibility a stranger's cold-call pitch never would have had, and routing the stolen money through his own relatives before it reached him was itself part of the deception, an extra layer of legitimate-looking activity between the client's trust and where the money actually ended up.`,
   },
 );
+
+NotoriousNS.push(
+  {
+    title: 'Okechukwu Nwofor: The Brooklyn "Kingpin" Who Laundered Romance-Scam and BEC Money Through His Own Company',
+    slug: 'okechukwu-nwofor-romance-scam-bec-money-laundering',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-cdca/pr/ringleader-group-laundered-money-stolen-romance-scams-and-other-swindles-sentenced',
+    body: `Okechukwu Nwofor, of Brooklyn, New York, didn't build the fake online personas or write the messages that convinced victims across the country they had found love or were handling an urgent business wire transfer — that work fell to overseas co-conspirators running romance scams and business email compromise (BEC) schemes. From at least July 2018 through August 2019, Nwofor's job was what came after: receiving the money victims sent and making it disappear into the ordinary banking system before anyone could claw it back.
+
+To do that, Nwofor opened bank accounts in his own name and in the name of a company he founded, Juboy New Generation Inc., based in Albany, New York, then directed a network of other people to open accounts of their own to receive fraudulent proceeds. As victims' money landed in those accounts, Nwofor and his co-conspirators moved quickly to withdraw or transfer it into funds they controlled, spreading it across enough hands and enough transactions to make it hard to trace back to any single scam. One traced victim, a Pasadena, California woman, wired $19,000 to an account in New York controlled by one of Nwofor's accomplices; prosecutors said the scheme's total losses exceeded $930,000.
+
+The human cost went well beyond the dollar figure. Prosecutors told the court the fraud left victims "in dire straits, including one victim's inability to care for her disabled son," and said one victim tragically took her own life in the aftermath. Nwofor pleaded guilty on February 21 to one count of conspiracy to commit money laundering, admitting he led the laundering operation. U.S. District Judge Stephen V. Wilson, sentencing him in the Central District of California, called Nwofor the "kingpin" of the scheme and, describing the damage done to its victims, the "personification of evil." Wilson sentenced him to 70 months in federal prison and ordered him to pay $392,296 in restitution.
+
+Nwofor's case is a reminder that romance scams and business email compromise fraud are rarely two-person crimes — the person typing the messages that manipulate a victim into sending money is often several links removed from the person built to receive it, and a real U.S. company name on a bank account can be exactly the kind of ordinary-looking front that lets six-figure sums move through the financial system without triggering a second look.`,
+  },
+);
