@@ -5279,3 +5279,15 @@ UsGM.push({
     sourceUrl: 'https://www.bbb.org/article/news-releases/32277-bbb-scam-alert-scammers-are-impersonating-a-recruitment-firm-in-new-text-message-job-scam',
     country: 'US',
 });
+
+UsGM.push({
+    name: 'Sun City Lincoln Hills Gutter and Window Cleaning Elder Theft Scheme',
+    slug: 'lincoln-california-sun-city-gutter-window-cleaning-elder-theft',
+    description: `The Lincoln Police Department in Placer County, California, announced in early March 2026 that it had spent the prior 18 months investigating a series of gutter- and window-cleaning scams that targeted elderly residents of the Sun City Lincoln Hills retirement community, a scheme that produced more than $11,000 in documented losses. According to investigators, the suspects — later identified as 19-year-old Avenir Nikitchuk and 18-year-old Samuel Petrashishen — solicited home-service jobs from residents and then manipulated payment after the work was done: in some cases they falsely told a victim that a check had mistakenly been written to the wrong person and needed to be reissued, effectively collecting twice for the same job; in others they charged a customer twice while promising a refund that never materialized; and in at least one documented instance, a suspect briefly gained access to a victim's phone during the visit and used it to send themselves additional, unauthorized electronic payments through a mobile payment app before the resident noticed. Detectives obtained felony arrest warrants charging Nikitchuk with nine counts of elder theft and conspiracy and Petrashishen with two counts of elder theft and nine counts of conspiracy, and the Placer County District Attorney's Office is prosecuting both. The case is a reminder that a home-service scam doesn't always end when the invoice is paid: residents, particularly older homeowners in age-restricted communities that are frequently targeted precisely because they are seen as easier marks, should never hand a phone to a service worker for any reason, should call their bank directly — using a number from a genuine statement, not one the worker supplies — to verify any claim that a check needs to be redone, and should review recent electronic payment app activity after any in-home service visit. Suspected scams affecting a Lincoln resident can be reported to Lincoln Police Department dispatch at 916-645-4040.`,
+    categorySlug: 'home-improvement-solar',
+    alertLevel: 'high',
+    sources: ['Lincoln Police Department (California)', 'Placer County District Attorney\'s Office', 'CrimeVoice'],
+    sourceUrl: 'https://www.crimevoice.com/2026/03/03/sun-city-gutter-and-window-cleaning-scam-arrests/',
+    country: 'US',
+    state: 'CA',
+});
