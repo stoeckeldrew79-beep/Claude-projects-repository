@@ -5275,3 +5275,20 @@ The FBI's investigation led to federal charges against all three defendants for 
 This case is a reminder that a romance scam does not have to stay a romance scam. The same fabricated relationship that got a victim to trust a stranger enough to send money was reused, once the fake actress persona had done its work, to manufacture a second and far more coercive lie — fake federal agents threatening fake criminal exposure — layering extortion on top of the original con. The victim never met a real person behind either persona, and by the time the truth would have come out, he was already dead.`,
   },
 );
+
+NotoriousNS.push(
+  {
+    title: 'Phillipe Gravel-Nadon and the Grandparent Scam That Reached from Kentucky to Colombia',
+    slug: 'phillipe-gravel-nadon-grandparent-scam',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.secretservice.gov/newsroom/releases/2025/06/canadian-man-sixth-and-final-defendant-sentenced-grandparent-scam',
+    body: `From August 2020 to May 2021, a call-center-based "grandparent scam" conspiracy phoned elderly victims in Kentucky and across the United States, telling them a grandchild had just been in a car accident and was being held on bail — and then sent local couriers to collect cash directly from the victims' homes. The U.S. Attorney's Office for the Western District of Kentucky, working with IRS Criminal Investigation and the U.S. Secret Service, said the scheme reached hundreds of victims nationwide and cost them more than $3 million, with proceeds later moved through banks and cryptocurrency exchanges to obscure where the money had gone.
+
+Phillipe Gravel-Nadon, a 35-year-old Canadian citizen, was identified by prosecutors as a manager or supervisor within the conspiracy — one level up from the couriers and "safehouse" operators who physically collected and guarded the stolen cash. He was extradited from Colombia to face the federal indictment, becoming the sixth and final defendant sentenced in the case. On June 12, 2025, a federal court sentenced him to 5 years and 1 month in prison, followed by 2 years of supervised release, and ordered him to pay $963,290 in restitution.
+
+Gravel-Nadon's sentencing closed out a case that had already produced five other convictions among couriers and money launderers who worked beneath him in the conspiracy's structure — an organizational layering common to grandparent scams run out of call centers, where the person making the panicked phone call, the courier who shows up at the door, and the manager coordinating both operate at enough distance from each other that no single arrest necessarily unravels the whole operation.
+
+Because this scam depends on panicking a grandparent into acting before they can think it through or call anyone else, the U.S. Attorney's Office urges anyone who receives such a call to hang up and contact the family member directly using a phone number they already have saved — and to remember that no real bail, court fee, or legal fee is ever collected in cash by a courier sent to a private home.`,
+  },
+);
