@@ -13554,3 +13554,16 @@ International.push(
     country: 'CV',
   },
 );
+
+International.push(
+  {
+    name: 'Cape Verde Fake Online Marketplace Sales Scam',
+    slug: 'cape-verde-fake-online-marketplace-sales-scam',
+    description: `Cape Verde's Judiciary Police, through its Central Brigade for Investigation and Combating Cybercrime and Terrorism (BCICCT), issued a public alert on May 19, 2026 over a fraud scheme built on fake sales pages spreading across Facebook and Instagram under names like "Móveis Krioulo" and "Móveis de Nós Terra." The pages advertise vehicles, furniture, electronics, and other goods at unusually attractive prices, and operators respond to interested buyers with detailed product information and photos to build trust before asking for an upfront payment — commonly framed as a 50 percent "reservation guarantee" transferred by bank transfer, with the remainder supposedly due on delivery. Once the transfer lands, the sellers string victims along with excuses about transport, customs paperwork, or logistics delays before cutting off all contact, leaving buyers out the money with no product ever delivered. The PJ said the same network has been linked to a related recruitment scheme in which people are lured with fake job offers in the financial sector and used, often unwittingly, to receive the fraudulently obtained transfers and forward them onward via Western Union or MoneyGram, making the money and the operators harder to trace. Investigators, who said complaints had been received from multiple islands, urged the public to be wary of prices that seem too good to be true, to avoid paying in full or in large part before receiving goods from an unfamiliar seller, and to verify a seller's legitimacy — such as a real business address or the ability to meet in person — before transferring any money.`,
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'high',
+    sources: ['Polícia Judiciária de Cabo Verde (PJ)', 'Brigada Central de Investigação e Combate à Cibercriminalidade e Terrorismo (BCICCT)', 'Expresso das Ilhas'],
+    sourceUrl: 'https://expressodasilhas.cv/pais/2026/05/19/pj-investiga-esquema-de-burlas-atraves-de-paginas-falsas-de-vendas-nas-redes-sociais/102797',
+    country: 'CV',
+  },
+);
