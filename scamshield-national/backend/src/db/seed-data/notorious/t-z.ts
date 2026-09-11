@@ -1925,6 +1925,10 @@ NotoriousTZ.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.atg.wa.gov/news/news-releases/ag-ferguson-reed-hein-pay-261-million-resolve-timeshare-exit-scheme-lawsuit',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Seattle_-_City_Hall_Park_%26_King_County_Courthouse_P.jpg?width=1200',
+    coverImageCredit: 'Photo: Joe Mabel, Wikimedia Commons (CC BY-SA 3.0) — the King County Courthouse in Seattle, where Washington sued Reed Hein & Associates over the Timeshare Exit Team scheme',
+    coverImagePosition: 50,
     body: `Brandon Reed was selling gutters when he noticed something at a trade show in 2012: a long line of people waiting at a booth offering to get them out of their timeshare contracts. He and Trevor Hein turned that observation into Reed Hein & Associates LLC, a Washington state company doing business as "Timeshare Exit Team," built around a simple, aggressive promise blasted across national television and radio ads: "We'll get you out of your timeshare contract, or give you every penny back."
 
 The company grew fast, eventually operating around 30 offices across the United States plus one in Canada and signing up roughly 32,000 clients nationwide, who paid upfront fees the Washington Attorney General's lawsuit put as high as $8,795 per timeshare — with some clients elsewhere reporting bills running into the tens of thousands of dollars for a single exit. What many of those clients got in exchange for the fee, according to the state's investigation, was not a negotiated release from their timeshare at all: in many cases, Reed Hein's own employees simply handed clients a hardship-letter script to send to the resort themselves, or advised them to stop paying their timeshare maintenance fees and mortgage outright — advice that, rather than producing a clean legal exit, tended to push the client's account into default and foreclosure, wrecking their credit instead of freeing them from the contract.
