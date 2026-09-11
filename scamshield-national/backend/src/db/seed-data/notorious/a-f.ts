@@ -5802,6 +5802,10 @@ NotoriousAF.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.aol.com/articles/ohio-securities-regulators-issue-cease-164114000.html',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Ohio_Statehouse_exterior_01.jpg?width=1200',
+    coverImageCredit: 'Ɱ, CC BY-SA 4.0, via Wikimedia Commons',
+    coverImagePosition: 50,
     body: `Note: this is a civil administrative enforcement action. The Ohio Division of Securities' cease-and-desist order describes findings from the Division's own investigation — Clarence Shaw has not been criminally charged in connection with this matter, and the order became final only because neither he nor his company filed a timely appeal, not through a trial on the merits.
 
 Clarence Shaw registered Syntax Financial Group LLC with the Ohio Secretary of State in March 2021, operating out of an office suite on Columbus's northwest side. According to a cease-and-desist order the Ohio Division of Securities issued on March 30, 2026, Shaw used a webinar in May 2021 to pitch investors on funding programs promising outsized, short-term returns — in one case telling a Georgia investor identified in the order only as "D.K." that a $5,000 investment would return $10,000 within a 90-day campaign, and in another describing an annual return of roughly 30 percent.
