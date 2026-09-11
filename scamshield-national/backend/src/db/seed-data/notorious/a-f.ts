@@ -7435,3 +7435,20 @@ On February 11, 2011, a federal judge in Minneapolis sentenced Hecker to 10 year
     coverImagePosition: 50,
   },
 );
+
+NotoriousAF.push(
+  {
+    title: 'Dee Allen Randall and the $72 Million "Horizon" Ponzi Scheme Built on an Insurance Agent\'s Client List',
+    slug: 'dee-allen-randall-horizon-financial-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://attorneygeneral.utah.gov/utah-attorney-generals-office-announces-the-sentencing-of-dee-allen-randall/',
+    body: `Dee Allen Randall was a licensed insurance agent in Fruit Heights, Utah, running a cluster of companies — Horizon Mortgage & Investment, Horizon Financial & Insurance Group, and Horizon Auto Funding — that gave him something most fraudsters have to build from scratch: an existing base of clients who already trusted him with their insurance and retirement planning. Randall and a network of subordinate agents used that trust to sell "Horizon Notes," promising investors annual returns of 9 to 17 percent, and told them their money would be used to finance auto loans and residential and commercial real estate deals.
+
+No such lending or real estate operation existed at anywhere near the scale needed to support those returns. Investigators with the Utah Division of Securities found that Randall was instead running a straightforward Ponzi structure, using money from new investors to pay off earlier ones and keep the operation looking solvent. Between at least 2006 and early 2011, Randall drew in roughly 700 investors from across the country — many of them older clients who had come to him for insurance products and were persuaded to move retirement savings into the "Horizon" notes instead — for a total of more than $72 million.
+
+The Utah Attorney General's Office and Division of Securities built a case that led to Randall pleading guilty in 2016 to four counts of securities fraud and one count of engaging in a pattern of unlawful activity, all second-degree felonies, with fifteen additional charges dismissed as part of the plea. On February 6, 2017, Third District Court Judge Mark Kouris sentenced him to 9 to 30 years in the Utah State Prison — three consecutive terms of 3 to 15 years, plus additional concurrent terms — calling it one of the most damaging white-collar cases the state had ever prosecuted. "Dee Randall is one of the most damaging white-collar cases our Division of Securities has ever investigated," said Francine A. Giani, then executive director of the Utah Department of Commerce, when the sentence was announced. Victims described losing retirement savings, homes, and the ability to pay for medical care as a result of the scheme.
+
+The Randall case is a reminder that an affinity fraud doesn't need a shared religion, ethnicity, or social club to work — a licensed professional's own client roster, built over years of legitimate business, can be just as effective a hunting ground, because the trust a victim extends to their own insurance agent is exactly the trust a Ponzi scheme depends on to keep new money coming in the door.`,
+  },
+);
