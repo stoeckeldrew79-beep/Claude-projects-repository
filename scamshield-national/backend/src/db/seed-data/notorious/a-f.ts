@@ -7491,3 +7491,22 @@ A federal jury convicted Discala in May 2018 of securities and wire fraud conspi
 The CodeSmart case is a reminder that a pump-and-dump doesn't require anonymous internet chat rooms or offshore shell companies to work — it can run through licensed, regulated stockbrokers who are legally obligated to act in their clients' interest, quietly selling the very same stock they're steering client money into, confident that the trade confirmations their customers receive will never reveal what's happening in the broker's own account at the same time.`,
   },
 );
+
+NotoriousAF.push(
+  {
+    title: 'Charles Antonucci and the First Fraud Charged Against the Bank Bailout Program',
+    slug: 'charles-antonucci-park-avenue-bank-tarp-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://www.justice.gov/usao-sdny/pr/former-president-park-avenue-bank-sentenced-30-months-prison-role-fraud-government',
+    body: `When Congress created the Troubled Asset Relief Program (TARP) in 2008 to prop up banks reeling from the financial crisis, it was meant to funnel taxpayer capital into institutions healthy enough to survive and keep lending. Charles Antonucci Sr., president and CEO of the small Manhattan-based Park Avenue Bank, saw a different opportunity: rather than let his bank's real condition disqualify it, prosecutors said, he set out to fake the numbers that would get it approved.
+
+Antonucci's bank needed to show it had raised new outside capital to strengthen its balance sheet before regulators would even consider its roughly $11.25 million TARP application. So he arranged what looked, on paper, like a $6.5 million personal stock purchase into the bank — but according to federal prosecutors, the "sale" was a sham, with the money actually coming from Park Avenue Bank itself, circulated back through Antonucci to make it look like fresh, independent investment. He submitted the fabricated documentation to regulators as proof the bank met TARP's capital requirements. The scheme didn't even achieve its own goal — the bank's TARP application was ultimately denied — but the fraud on the application was only one piece of a much larger pattern.
+
+Prosecutors said Antonucci was simultaneously looting the bank he ran: causing it to pay rent on properties he personally owned that the bank never actually used, steering bank loans to companies in which he held a financial stake, and accepting roughly $250,000 in cash along with the free use of private jets and luxury cars from bank customers in exchange for favorable treatment — bribes that, between 2008 and 2009 alone, funded more than ten personal trips on borrowed planes to Florida, Arizona, the Super Bowl, and the Masters golf tournament. He separately took part in a $37.5 million scheme connected to an Oklahoma insurance company that ended up in state receivership. Park Avenue Bank itself failed and was shut down by regulators in March 2010.
+
+Antonucci pleaded guilty in October 2010, under a cooperation agreement, to fraud on TARP, securities fraud, self-dealing, bank bribery, and embezzlement of bank funds — becoming the first person convicted of trying to defraud the TARP bailout program. U.S. District Judge Naomi Reice Buchwald calculated the total harm from his conduct at roughly $54 million and, in August 2015, sentenced him to 30 months in prison, ordering $54.6 million in restitution and forfeiture of $11.2 million; without his cooperation, she noted, sentencing guidelines would have called for at least 20 years. A co-defendant and former senior vice president at the bank, Matthew Morris, was separately sentenced to a year and a day.
+
+Antonucci's case is a reminder that a crisis-era rescue program is still just a set of paperwork requirements to satisfy — and that a bank executive already comfortable embezzling from his own institution and taking bribes from its customers saw little difference between defrauding private investors and defrauding the federal government's own emergency lifeline.`,
+  },
+);
