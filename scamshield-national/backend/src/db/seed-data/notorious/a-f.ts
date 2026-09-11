@@ -6514,7 +6514,10 @@ NotoriousAF.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/usao-ma/pr/operators-transnational-elder-fraud-scheme-plead-guilty',
-    // no rights-cleared photo found — sourceUrl above serves as the "read the full story" link
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/2017_Moakley_US_Courthouse_from_Boston_Harbor.jpg?width=1200',
+    coverImageCredit: 'Beyond My Ken, CC BY-SA 4.0, via Wikimedia Commons',
+    coverImagePosition: 50,
     body: `Oscar Manuel Castanos Garcia, 34, ran a "grandparent scam" operation the way a legitimate outsourced call center might be run, complete with job titles and a division of labor — except every call it made was engineered to convince an elderly American that a grandchild was sitting in a jail cell somewhere, needing cash before a judge would let them go. From a base in the Dominican Republic, Castanos Garcia directed call-center managers Joel Jose Cruz Rodriguez, who went by "Paflow," and Edward Jose Puello Garcia, who together oversaw the staff running two linked roles on every call: an "opener," who placed the first call impersonating a panicked grandchild claiming to have been in a car accident, and a "closer," who called back posing as that grandchild's attorney to name a dollar figure for bail or legal fees and walk the victim through how to pay it.
 
 The operation targeted victims by volume rather than by any special vulnerability beyond age — federal investigators eventually identified more than 400 victims with an average age of 84, at least 50 of them in Massachusetts, who collectively lost more than $5 million. Once a victim agreed to pay, "runners" like Joel Francisco Mathilda Leon collected the cash in person, arranging pickups through rideshare drivers or having money mailed directly, while Gerardo Heriberto Nuñez Nuñez moved the proceeds through U.S. bank accounts and back to operators in the Dominican Republic — a laundering pipeline built specifically to get the money out of the country before any bank or victim's family member could ask where it had gone.
