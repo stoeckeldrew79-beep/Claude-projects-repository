@@ -12769,3 +12769,16 @@ International.push(
     country: 'KM',
   },
 );
+
+International.push(
+  {
+    name: 'Comoros "Oubeid Ankiba Auto et Meuble" TikTok Fake Luxury Goods Scam',
+    slug: 'comoros-tiktok-oubeid-ankiba-fake-luxury-goods-scam',
+    description: `A TikTok account calling itself "Oubeid Ankiba Auto et Meuble" ran what Moroni prosecutors have charged as fraud and complicity ("escroquerie et complicité"), luring buyers — including members of the Comorian diaspora — with polished videos of brand-new luxury cars, warehouses said to be stacked with furniture imported from Dubai, and shipping containers presented as ready to embark, all advertised at prices "défiant toute concurrence" (defying all competition). According to reporting by Comores Infos published December 17, 2025, and corroborated by the Comorian daily Al-watwan, the operator and local accomplices moved negotiations to private messages, quoted prices supposedly already including customs clearance, and then collected full or partial payment through intermediaries inside Comoros — some of whom signed discharge letters or offered supposed guarantees to make the deal look secure — before the promised cars and furniture never arrived and the seller vanished. Ten victims had come forward by the time of the reporting, with documented losses already exceeding 50 million Comorian francs, while the prosecutor's office said it believed the true number of victims and total losses to be significantly higher; intermediaries who helped collect money locally were reportedly paid as much as 6 million francs each for their role. The Moroni public prosecutor's office opened a judicial investigation for fraud and complicity, and by mid-December 2025 five people had been indicted, two of them held in pretrial detention at Moroni's central prison and the rest placed under judicial supervision. Investigators said the man behind the account operated under multiple aliases — Hassane, Oubeid, and Soilahou — and was a repeat offender previously convicted in a separate 40-million-franc fraud case on Anjouan (Ndzuani); a well-known Comorian comedian who had promoted the account was briefly detained and then released after saying his own involvement was limited to paid promotional videos. The case illustrates a scam pattern spreading on Comorian social media: professionally produced videos of unrealistically cheap imported vehicles and goods used to collect upfront payment from buyers who have no way to inspect the merchandise or verify the seller's real identity before money changes hands.`,
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'high',
+    sources: ['Comores Infos', 'Al-watwan'],
+    sourceUrl: 'https://www.comoresinfos.net/le-piege-tiktok-voitures-fantomes-millions-disparus-quand-des-videos-de-luxe-ruinent-des-familles-comoriennes/',
+    country: 'KM',
+  },
+);
