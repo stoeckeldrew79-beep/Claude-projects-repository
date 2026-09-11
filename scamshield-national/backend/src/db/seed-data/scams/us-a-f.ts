@@ -7391,3 +7391,15 @@ UsAF.push({
     sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2026/07/how-spot-fake-rental-listings-during-military-move',
     country: 'US',
 });
+
+UsAF.push({
+    name: 'California "Ballot Now" Unofficial Ballot-Status Text Scam',
+    slug: 'california-ballot-now-text-scam',
+    description: `California Secretary of State Shirley N. Weber, Ph.D. issued a consumer notice on October 29, 2025 warning voters about an unofficial text messaging service called "Ballot Now" that is "not in any way affiliated with the California Office of the Secretary of State." The service sends voters inaccurate texts that lead them to believe their returned vote-by-mail ballot has not been received or processed by their county elections office, an alarming and false claim that has generated numerous voter reports to the Secretary of State's office. Ballot Now's operators have not publicly identified themselves, and reporters who have tried to contact the service for comment have gotten no response. Secretary Weber urged Californians to trust only information from her office or their county registrar of voters, and to check a ballot's actual status through the state's own free "Where's My Ballot?" tracking tool at WheresMyBallot.sos.ca.gov or at voterstatus.sos.ca.gov, both of which give automatic updates when a mail ballot is sent, received, and counted. Voters who get an unsolicited text about their ballot status from a source other than these official tools are advised to ignore it and verify directly with the state or their county elections office rather than responding to the message or clicking any link it contains.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['California Secretary of State'],
+    sourceUrl: 'https://www.sos.ca.gov/administration/news-releases-and-advisories/2025-news-releases-and-advisories/california-secretary-state-shirley-n-weber-phd-sets-record-straight-about-unofficial-text-messages-ballot-now',
+    country: 'US',
+    state: 'CA',
+});
