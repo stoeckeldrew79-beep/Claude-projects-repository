@@ -7967,6 +7967,10 @@ NotoriousGM.push(
     slug: 'joanne-schiwart-elder-retirement-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    // representative photo — replace with an exact match if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Aerial_view_of_Port_Arthur,_Texas.JPG?width=1200',
+    coverImageCredit: 'Photo: Ente75 (CC0) — an aerial view of Port Arthur, Texas, where Joanne Schiwart lived',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.justice.gov/usao-edtx/pr/jefferson-county-woman-sentenced-10-years-federal-prison-defrauding-elderly-victim-out',
     body: `Joanne Schiwart, 28, of Port Arthur, Texas, didn't need to hack anything to drain an elderly victim's retirement savings — she just needed enough of the victim's personal information to sound convincing on the phone. Over roughly a year, Schiwart repeatedly called the investment company that held the victim's retirement accounts, used stolen personally identifying information to pass the company's identity checks, and had herself mistaken for the account holder on the other end of the line.
 
@@ -7984,6 +7988,10 @@ NotoriousGM.push(
     slug: 'lindsey-kerns-home-care-coordinators-elder-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    // representative photo — replace with an exact match if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/North_Main_Street,_Mars_Hill,_NC_(31739974777).jpg?width=1200',
+    coverImageCredit: 'Photo: Warren LeMay (CC0) — North Main Street in Mars Hill, North Carolina, where Lindsey Kerns operated Home Care Coordinators',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.justice.gov/usao-wdnc/pr/home-health-care-provider-sentenced-prison-stealing-more-1-million-two-elderly-clients',
     body: `Lindsey Allison Kerns, 39, of Mars Hill, North Carolina, owned and operated Home Care Coordinators, LLC, a home health care business serving Buncombe and Madison Counties. Beginning in December 2018, she took on two elderly clients — identified in court records only as S.A. and P.R., ages 86 and 90 — with P.R. suffering from dementia and S.A. acting as her close friend's power of attorney. Rather than send itemized invoices, Kerns simply told the women by phone each week what they owed, leaving them with no paper trail to check her math against.
 
@@ -8001,6 +8009,10 @@ NotoriousGM.push(
     slug: 'marcia-remedies-hardin-county-caregiver-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    // representative photo — replace with an exact match if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Hardin_county_tx_courthouse_2014.jpg?width=1200',
+    coverImageCredit: 'Photo: Larry D. Moore (CC BY 4.0) — the Hardin County Courthouse in Kountze, Texas, where Marcia Remedies was investigated',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.justice.gov/usao-edtx/pr/caregiver-sentenced-federal-prison-stealing-elderly-hardin-county-woman',
     body: `In October 2022, the family of a 91-year-old, bedridden Hardin County, Texas woman receiving hospice care found Marcia Nickette Remedies, 71, of nearby Huffman, through a Facebook ad and hired her as a caregiver. They gave Remedies access to the victim's debit card for one purpose only: buying groceries and personal care items the homebound woman needed.
 

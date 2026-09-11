@@ -7826,6 +7826,10 @@ NotoriousAF.push(
     slug: 'daren-palmer-trigon-group-ponzi-scheme',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    // representative photo — replace with an exact match if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Idaho_Falls_Idaho_Temple_1.jpeg?width=1200',
+    coverImageCredit: 'Photo: benmckune (CC BY-SA 2.0) — the Idaho Falls Idaho Temple; Palmer drew many of his victims from his own congregation in Idaho Falls',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.fbi.gov/saltlakecity/press-releases/2011/idaho-falls-man-sentenced-in-29-million-loss-ponzi-scheme',
     body: `Daren L. Palmer owned and ran Trigon Group, LLC, a commodity-trading operation he worked out of Idaho Falls, Idaho, pitching it to local investors as a safe way to earn steady returns on their savings. His client base wasn't strangers responding to an ad — it was drawn heavily from his own family, friends, and fellow members of the Church of Jesus Christ of Latter-day Saints, the kind of close-knit affinity network where a warm personal referral tends to substitute for independent due diligence.
 
