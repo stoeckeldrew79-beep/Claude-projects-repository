@@ -5062,3 +5062,15 @@ UsNS.push({
     country: 'US',
     state: 'NC',
 });
+
+UsNS.push({
+    name: '1-800-Flowers "Celebrations Passport" Deceptive Auto-Renewal Settlement',
+    slug: 'new-york-1-800-flowers-celebrations-passport-settlement',
+    description: `New York Attorney General Letitia James announced on July 22, 2026 that 1-800-Flowers.com, Inc. would pay $375,000 to resolve an investigation into how the company enrolled customers in its "Celebrations Passport" program, a recurring $14.99-to-$29.99-a-year membership advertised as waiving delivery and service fees on future orders. The investigation found that 1-800-Flowers failed to clearly disclose, at the point of purchase, that a customer was being signed up for an automatically-renewing paid subscription rather than simply getting a one-time discount or free shipping on the order in front of them; it also failed to provide the plain-language subscription acknowledgment New York law requires and did not notify members before their membership renewed and charged their card again the following year. As a result, many customers only discovered the recurring charge on a credit card statement well after the fact, for a membership benefit — waived fees on flower and gift orders — they may never have used again. Under the settlement, 1-800-Flowers must pay the $375,000 penalty, obtain clear affirmative consent before enrolling anyone in Celebrations Passport or any similar recurring program, send a proper subscription acknowledgment disclosing how to cancel, and give advance notice before every renewal charge. Before agreeing to a "free shipping" or "member discount" add-on at online checkout, shoppers should look for the actual recurring price and renewal terms rather than assuming a one-time discount, check for it as a separate line item before completing the order, and review card statements for a small annual charge from a retailer they may have ordered from only once.`,
+    categorySlug: 'subscription-traps',
+    alertLevel: 'medium',
+    sources: ["New York Attorney General's Office (Letitia James)"],
+    sourceUrl: 'https://ag.ny.gov/press-release/2026/attorney-general-james-secures-375000-1-800-flowers-deceiving-consumers-about',
+    country: 'US',
+    state: 'NY',
+});
