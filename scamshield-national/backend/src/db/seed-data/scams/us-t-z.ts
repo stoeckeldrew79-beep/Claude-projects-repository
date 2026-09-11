@@ -2899,3 +2899,15 @@ UsTZ.push({
     isHistorical: true,
     firstRecorded: '2025-03-03',
 });
+
+UsTZ.push({
+    name: 'World Trade Coal Forged Iowa Secretary of State Surety Scam',
+    slug: 'world-trade-coal-iowa-secretary-of-state-forgery-scam',
+    description: `Iowa Secretary of State Paul Pate issued a warning on April 10, 2025 about a company called World Trade Coal (WTC), which was soliciting investments from Iowans by handing them a fraudulent "letter of surety" that lifted Pate's actual signature and the official seal of the Iowa Secretary of State's office to make the offering look state-approved. "While this certificate displays my signature and our seal, it is counterfeit and has not been approved or issued by my office," Pate said, adding that his office had already fielded a number of complaints from Iowans harmed by the scheme and had referred the matter to the Iowa Attorney General's Consumer Protection Division for investigation. No state agency reviews, guarantees, or "insures" a private investment opportunity by issuing a certificate of surety — the Secretary of State's office only handles business registration and filings, not investment vetting — so a document invoking that kind of state backing is a fabrication regardless of how authentic its signature or seal appear. Iowans are urged to verify any document claiming to carry a state official's endorsement by contacting that office directly using contact information looked up independently, never a number or website printed on the document itself, and anyone who believes they were solicited using a forged state document is encouraged to seek legal counsel and file a complaint with the Attorney General's Consumer Protection Division at 888-777-4590.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'high',
+    sources: ['Iowa Secretary of State (Paul D. Pate)'],
+    sourceUrl: 'https://sos.iowa.gov/news-resources/iowa-secretary-state-warns-fraudulent-business-targeting-iowans',
+    country: 'US',
+    state: 'IA',
+});
