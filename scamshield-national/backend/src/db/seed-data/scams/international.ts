@@ -11004,6 +11004,30 @@ International.push(
 );
 International.push(
   {
+    name: 'Gambia Fake Farming Business Partnership Fraud',
+    slug: 'gambia-fake-farming-business-partnership-fraud',
+    description: `The Gambia Police Force said it was investigating a fraud case after a 49-year-old businesswoman from Latrikunda Sabiji reported losing D750,000 to men who had presented themselves as legitimate partners in a farming business venture. According to police, the woman handed over the money after being persuaded the funds would go toward a shared agricultural enterprise, growing suspicious only when the men who had already taken her money came back asking for still more — a request that prompted her to stop paying and file a complaint at Abuko Police Station. Investigators traced the suspects to Jarra Soma and other locations, arresting three men who admitted to the scheme under interrogation; all three were cautioned, formally charged with obtaining money by false pretences, and held in custody while police worked to trace and recover the stolen funds. In a statement on the case, the Gambia Police Force said it "remains committed to combating fraud" and urged members of the public to stay vigilant against people who solicit money for business partnerships or investment opportunities that cannot be independently verified before any payment changes hands.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'medium',
+    sources: ['The Gambia Police Force', 'The Point (Gambia)'],
+    sourceUrl: 'https://thepoint.gm/africa/gambia/headlines/police-investigate-d750000-fraud-case',
+    country: 'GM',
+  },
+);
+International.push(
+  {
+    name: 'Fake "Backway" Europe Travel Facilitation Fraud',
+    slug: 'gambia-fake-backway-europe-travel-facilitation-fraud',
+    description: `Ensa Dampha was arraigned before the Kanifing Magistrates' Court on a charge of obtaining money by false pretence after prosecutors said he collected D88,000 from Kaddy Touray in August 2025 at Manjai-Kunda, Kanifing Municipality, on the promise that he would arrange for her younger brother to travel to Europe via the "backway" — the clandestine overland-and-sea migration route through the Sahara and across the Mediterranean that large numbers of young Gambians have used, often at great risk, to reach Europe outside any official visa process. According to Chief Inspector A. Bojang, who presented the case for the prosecution, Dampha took the payment and then failed to deliver on the promised journey, prompting Touray to report the matter to police. Dampha denied the charge when it was read to him at his arraignment, and Magistrate Awa Manneh granted him bail of D100,000 on condition he produce two Gambian sureties with valid identification and verifiable contact details. Touray testified as the prosecution's first witness in June 2026, describing how she paid Dampha in the hope of securing her brother's passage, and the case continued before the Kanifing Magistrates' Court with further hearings running into July 2026. The case fits a recurring pattern documented by Gambian courts, in which self-described "connection men" or informal travel brokers collect large upfront payments from families desperate to get a relative to Europe and then either vanish or never had any real means of arranging the journey in the first place — a scheme consumer advocates say is best avoided by never paying an individual broker for undocumented travel and by treating any such arrangement as a fraud risk regardless of how trustworthy the broker appears.`,
+    categorySlug: 'travel-vacation-scams',
+    alertLevel: 'medium',
+    sources: ['Voice Gambia'],
+    sourceUrl: 'https://www.voicegambia.com/2026/05/19/two-arraigned-over-alleged-d68-6m-hajj-visa-scam-and-d88000-backway-fraud/',
+    country: 'GM',
+  },
+);
+International.push(
+  {
     name: 'Andorra CEO Impersonation Phone Fraud',
     slug: 'andorra-ceo-impersonation-phone-fraud',
     description: `Andorra's national police force said in February 2026 that it had detected a fresh wave of "CEO fraud" calls targeting businesses and shops around the country, with losses per incident ranging from roughly €700 to €3,000. In the scheme, callers pose as a company's manager, owner, or a regular supplier and use accurate details about the business — gathered in advance from its website, social media, and other public sources — to sound credible. They then pressure an employee, often someone in accounting or at the front desk, to make an urgent payment for a supposed pending invoice or order, telling the worker there is no time to verify the request through normal channels. When a business has no immediate way to wire cash, callers have asked employees to buy prepaid gift cards and photograph the redemption codes instead. Police warned that some fraudsters can now use artificial intelligence to mimic the voice of the real executive or supplier being impersonated, making the calls harder to spot as fake. Officers advised employees to always pause a payment request made under pressure, contact the supposed caller or a supervisor through a known phone number rather than one supplied during the call, and never send payment or gift-card codes to someone whose identity has not been independently confirmed.`,
