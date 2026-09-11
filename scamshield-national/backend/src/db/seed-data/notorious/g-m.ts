@@ -7429,3 +7429,20 @@ The two men didn't stop at HashFlare. In May 2017, they began marketing a relate
 Potapenko and Turõgin were arrested in Tallinn in November 2022 and extradited to the United States, where each pleaded guilty in February 2025 to one count of conspiracy to commit wire fraud and agreed to forfeit assets worth more than $400 million, earmarked for a victim remission process. At sentencing in August 2025, a federal judge in Seattle handed down a term of time served — roughly sixteen months — despite calculating an advisory guidelines range of 30 years to life, a decision prosecutors have since appealed as too lenient. Whatever the sentence, the underlying fraud is a reminder that a dashboard showing a balance going up proves nothing about whether the activity behind it is real — the same blind trust in a number on a screen that made Bernie Madoff's fabricated statements believable for seventeen years.`,
   },
 );
+
+NotoriousGM.push(
+  {
+    title: 'Juan Tacuri and the Forcount Cryptocurrency Ponzi Scheme',
+    slug: 'juan-tacuri-forcount-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-sdny/pr/senior-promoter-cryptocurrency-ponzi-scheme-sentenced-240-months-prison',
+    body: `Forcount, later rebranded as Weltsys, marketed itself as a cryptocurrency trading and mining operation that could guarantee investors daily returns and double their money within six months. It spread through word of mouth and staged events rather than cold calls, and it found a particularly receptive audience in Spanish-speaking communities across the United States and abroad, where organizers hosted lavish expos and smaller neighborhood presentations to pitch the "opportunity" directly to friends, relatives, and church and community networks.
+
+Juan Tacuri, of Greenacres, Florida, became one of the scheme's most successful promoters, traveling the country to recruit new investors and collect their money. According to federal prosecutors, there was no real trading or mining behind any of it — Forcount and Weltsys functioned as a straightforward Ponzi scheme, using money from newer investors to pay off earlier ones and to keep the promotional machine running, while Tacuri and his fellow promoters used their cut to buy Florida real estate and luxury goods. The scheme spanned the globe and ensnared thousands of victim-investors before it unraveled, with total losses attributed to Tacuri's own conduct reaching approximately $8.4 million.
+
+Tacuri pleaded guilty to one count of conspiracy to commit wire fraud. In October 2024, U.S. District Judge Analisa Torres of the Southern District of New York sentenced him to the statutory maximum of 240 months — 20 years — in federal prison, followed by one year of supervised release. The court also ordered him to forfeit $3,610,718.67 along with a Florida home he had purchased in part with victim funds, and to pay at least that same amount in restitution to the people he defrauded.
+
+Forcount's pitch worked the way most guaranteed-return schemes do: a fixed, doubled payout in a fixed window, delivered by someone the investor already trusted from their own community rather than a stranger cold-calling out of nowhere. That combination — an unrealistic promise wrapped in the credibility of an in-group referral — is what let a scheme built on nothing keep drawing in new victims for as long as it did.`,
+  },
+);
