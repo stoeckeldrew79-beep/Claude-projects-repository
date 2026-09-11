@@ -4817,6 +4817,10 @@ NotoriousNS.push(
     slug: 'oluwafemi-awoyemi-business-email-compromise-network',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Exterior,_U.S._Courthouse,_Toledo,_Ohio_LCCN2010718813.jpg?width=1200',
+    coverImageCredit: 'Carol M. Highsmith / Library of Congress via Wikimedia Commons / Public Domain',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.justice.gov/usao-ndoh/pr/25-defendants-convicted-international-215m-scam-targeted-1000-victims',
     body: `Note: Oluwafemi Michael Awoyemi, Aruan Drake, and Peter Reed were convicted by a federal jury in April 2026; as of this writing they await sentencing, which will be set based on each defendant's individual role and conduct.
 
