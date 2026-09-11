@@ -6110,6 +6110,9 @@ NotoriousGM.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
     sourceUrl: 'https://www.justice.gov/usao-edmi/pr/ponzi-scheme-fraudster-sentenced-11-years-prison-embezzling-over-4-million',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Theodore_Levin_United_States_Courthouse_Detroit_MI.jpg?width=1200',
+    coverImageCredit: 'Andrew Jameson / Wikimedia Commons (CC BY-SA 3.0) — Theodore Levin U.S. Courthouse, Detroit, where Accettola was sentenced',
     body: `Gino Accettola, of Shelby Township in Macomb County, Michigan, was already a familiar name to prosecutors by the time federal investigators caught up with his final scheme. Court records show Accettola had been convicted of fraud-related crimes sixteen separate times between 1991 and 2019 — a criminal history that makes his last case less a single isolated fraud than the closing chapter of a decades-long pattern.
 
 Between 2014 and 2016, Accettola solicited investments from friends and acquaintances by promising abnormally high, short-term returns, telling them their money would fund commercial construction projects in Michigan and Florida. According to the U.S. Attorney's Office for the Eastern District of Michigan, many of those projects simply didn't exist. In one instance, Accettola claimed he was personally friends with the managing partner of a real Michigan manufacturing company and that investor money would support a facility the company was building — a company he in fact had no connection to and a managing partner he had never met. To keep the story convincing, prosecutors said Accettola fabricated emails, contracts, and payout schedules made to look as though they came from the company, its managing partner, and other employees who had no idea their names were being used.
@@ -6127,6 +6130,9 @@ NotoriousGM.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
     sourceUrl: 'https://www.justice.gov/usao-sdfl/pr/leader-200-million-ponzi-scheme-sentenced-20-years-prison',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Federal_Courthouse_in_Miami.jpg?width=1200',
+    coverImageCredit: 'Miami92 / Wikimedia Commons (public domain) — Wilkie D. Ferguson Jr. U.S. Courthouse, Miami, where the case was prosecuted',
     body: `Johanna Michely Garcia, of Pompano Beach in Broward County, Florida, was the founder and chief executive of MJ Capital Funding, LLC and an affiliated business, MJ Taxes and More, Inc. Starting around mid-2020, Garcia and associates including Pavel Ramon Ruiz Hernandez pitched investors on a real and fairly common form of small-business financing: merchant cash advances, in which a lender provides cash upfront in exchange for a cut of a business's future card sales or deposits. The pitch came with an eye-catching promise — a guaranteed 120% return on a six-month investment, equivalent to roughly 10% a month — funded, investors were told, by the profits MJ Capital earned making those advances.
 
 According to the Securities and Exchange Commission and the U.S. Attorney's Office for the Southern District of Florida, MJ Capital's actual merchant cash advance business was tiny — at most a few million dollars in real advances — nowhere near enough to generate the returns Garcia promised. More than 2,000 investors nationwide put a combined $190.7 million into the company between 2020 and 2021, and the SEC says a large share of incoming investor money was simply paid out to earlier investors as fake "returns," Ponzi-style, while millions more were diverted to Garcia and other insiders. Investor losses ultimately totaled nearly $90 million. The FBI and SEC shut MJ Capital down in the fall of 2021.
@@ -6231,6 +6237,9 @@ Scronic's fund is a reminder that a Ponzi scheme doesn't need strangers or a sli
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.sec.gov/newsroom/press-releases/2018-52',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Edward_T._Gignoux_U.S._Courthouse,_Portland,_ME.png?width=1200',
+    coverImageCredit: 'U.S. General Services Administration (public domain) — Edward T. Gignoux U.S. Courthouse, Portland, Maine, where Liberty was charged',
     body: `Michael Liberty built his first fortune developing affordable and senior housing in Maine in the 1980s and 1990s before reinventing himself, decades later, as a startup financier. Beginning around 2010, Liberty began raising money from investors — ultimately more than 200 of them, according to the Securities and Exchange Commission — to buy into what he pitched as equity in Mozido, a Texas-based mobile-payments startup that was, for a few years, one of the more hyped fintech companies in the country.
 
 Investors weren't actually buying Mozido stock. According to the SEC's March 2018 civil complaint, Liberty and four associates — his wife Brittany Liberty, attorney George Marcus, cousin Richard Liberty, and Richard's friend Paul Hess — sold interests in shell companies Liberty controlled that supposedly held transferable stakes in Mozido, when in reality those shell companies either held no real Mozido interest at all or held interests that couldn't legally be resold to the investors buying into them. The SEC said Liberty and his associates raised more than $48 million this way and diverted the large majority of it away from Mozido entirely, spending it instead on chartered private jets, multimillion-dollar homes, luxury cars, a movie production venture, and — as later reporting on the case detailed — expenses as mundane as groceries and livestock. The SEC filed suit on March 30, 2018, and the Department of Justice followed with a parallel criminal indictment against Liberty and Hess in February 2019, charging conspiracy to commit wire fraud, wire fraud, securities fraud, and — against Liberty individually — money laundering.
@@ -6372,6 +6381,9 @@ NotoriousGM.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/usao-sdfl/pr/owner-sentenced-more-27-years-prison-multi-million-dollar-health-care-fraud-and-money',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Ft._Lauderdale,_FL,_Courthouse,_Broward_County,_11-21-2010_(10).JPG?width=1200',
+    coverImageCredit: 'Georgia Guercio / Wikimedia Commons (CC BY-SA 3.0) — Broward County Courthouse, Fort Lauderdale, near Chatman\'s Margate, Florida sober homes',
     body: `Kenneth "Kenny" Chatman ran Reflections Treatment Center in Margate, Florida, and Journey to Recovery in Lake Worth, Florida, two outpatient programs operating inside South Florida's booming — and loosely regulated — addiction-treatment industry. The region drew people seeking help from across the country, and Chatman built his business around getting as many of them into his programs as possible: prosecutors said he paid kickbacks and bribes to other sober-home operators for every patient they referred to him, disguising the payments on paper as "case management fees," "consulting fees," "marketing fees," and "commissions" — a practice known in the industry as patient brokering.
 
 Once patients were enrolled, the fraud continued on the billing side. Chatman's clinics subjected residents to excessive, often medically unnecessary urine drug testing, sometimes multiple times a week, generating insurance bills that in some cases approached $1 million a year for a single patient, alongside claims for "group therapy" sessions that, according to court records, sometimes amounted to little more than patients sitting in a room watching a movie. Prosecutors said the operation defrauded insurers of several million dollars in the process.
@@ -6425,6 +6437,9 @@ NotoriousGM.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/usao-sdny/pr/bronx-former-attorney-sentenced-70-months-prison-large-scale-immigration-fraud',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Front_of_Bronx_County_Hall_of_Justice_on_30_June_2012.jpeg?width=1200',
+    coverImageCredit: 'Christopher Le / Wikimedia Commons (CC BY-SA 3.0) — Bronx County Hall of Justice, near Amankwaa\'s former law practice',
     body: `The Violence Against Women Act allows certain noncitizens who have been abused by a U.S.-citizen or lawful-permanent-resident family member to self-petition for legal status without that family member's knowledge or cooperation — a path created specifically so victims trapped in abusive households aren't forced to rely on their abuser to sponsor their immigration case. Kofi Amankwaa, a licensed attorney running an immigration practice out of the South Bronx, spent more than seven years turning that protection into a factory line for fabricated abuse claims.
 
 From September 2016 through November 2023, according to the U.S. Attorney's Office for the Southern District of New York, Amankwaa and staff working under his direction met with immigrant clients and had them sign fraudulent Form I-360 VAWA petitions falsely claiming they had been abused by their own U.S.-citizen adult children — an unusual and clinically specific angle on the fraud, since VAWA petitions typically involve spousal or parental abuse, not abuse alleged to run from child to parent. Amankwaa signed the petitions himself, under penalty of perjury, as the preparing attorney, then used the resulting VAWA status to request advance-parole travel documents that let clients leave the country and return, setting up follow-on applications for lawful permanent residence. Prosecutors said Amankwaa filed thousands of these petitions over the life of the scheme, charging clients between $3,000 and $6,000 apiece plus additional fees, without ever confirming — or caring — whether any actual abuse had occurred. Reporting by the nonprofit newsroom Documented later found that some of his own employees posed as licensed attorneys despite holding no New York law license at all.
@@ -6444,6 +6459,9 @@ NotoriousGM.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/usao-nj/pr/burlington-county-man-admits-role-conspiracy-defraud-internet-donors',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/CamdenNJ_FedCourt.jpg?width=1200',
+    coverImageCredit: 'U.S. Department of Justice (public domain) — federal courthouse, Camden, New Jersey, where the case was prosecuted',
     body: `In the fall of 2017, a New Jersey woman named Kate McClure told a story that spread around the world within days: driving home to Burlington Township on I-95 near Philadelphia, she said, her car ran out of gas, and a homeless veteran named Johnny Bobbitt Jr. spent his last $20 to buy her fuel so she could get home safely. In December 2017, McClure and her boyfriend, Mark D'Amico, launched a GoFundMe campaign called "Paying It Forward" with a modest $10,000 goal, asking the public to help repay Bobbitt's kindness. The story was warm, specific, and easy to share — and it worked far beyond what either of them apparently expected, pulling in roughly $400,000 from more than 14,000 donors in under a month as outlets from local TV news to national morning shows picked it up.
 
 None of it had happened. McClure never ran out of gas on I-95, and Bobbitt never spent his last $20 on her behalf — the entire encounter was, by the couple's own later admissions, invented specifically to give the fundraiser a compelling hook. Money continued pouring in even as GoFundMe itself and eventually New Jersey and federal investigators started asking where it was actually going, because Bobbitt — the campaign's supposed beneficiary — wasn't seeing anything close to $400,000. He received an initial camper and roughly $25,000 in cash and other support over time, while McClure and D'Amico spent heavily on themselves: trips to Disney World, Disneyland, and Las Vegas, a helicopter tour over the Grand Canyon, a BMW, designer handbags, and casino gambling. It was Bobbitt filing a civil lawsuit against the couple in the summer of 2018, alleging they'd frozen him out of money raised in his name, that first forced the fabricated backstory into public view and triggered the criminal investigation.
@@ -6485,6 +6503,9 @@ NotoriousGM.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://coag.gov/press-releases/colorado-contractor-sentenced-fraud-environmental-crimes/',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Ralph_L._Carr_Colorado_Judicial_Center,_SW_corner.jpg?width=1200',
+    coverImageCredit: 'Xnatedawgx / Wikimedia Commons (CC BY-SA 4.0) — Ralph L. Carr Colorado Judicial Center, Denver, home of the Colorado Attorney General\'s office',
     body: `An 82-year-old Colorado woman owned a rental property in Arvada that had been damaged by fire, and she needed someone to handle the fire restoration and asbestos abatement work required before it could be lived in again. She hired Lance Slayton, paying him more than $70,000 to get the job done safely and legally. According to the Colorado Attorney General's office, Slayton did neither.
 
 Instead of licensed asbestos-abatement crews, prosecutors say Slayton put unlicensed laborers on the job, mishandled asbestos-containing hazardous material in the process, and never finished the work — leaving the elderly woman's property contaminated and unsafe, with the carcinogenic material improperly disturbed and workers and nearby residents put at risk of exposure. He had taken the money for the job without ever intending, or being able, to deliver it.
@@ -6565,6 +6586,9 @@ NotoriousGM.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/usao-sdca/pr/us-promoter-foreign-cryptocurrency-company-sentenced-prison-role-fraud-scheme',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Carter_and_Keep_Courthouse.jpg?width=1200',
+    coverImageCredit: 'U.S. General Services Administration (public domain) — James M. Carter and Judith N. Keep U.S. Courthouse, San Diego, where Arcaro was sentenced',
     body: `BitConnect billed itself as a cryptocurrency lending platform built on a proprietary "Trading Bot" and "Volatility Software" that it claimed could generate guaranteed daily returns by trading on swings in the crypto markets. Between its launch and its collapse in January 2018, BitConnect took in more than $2 billion from investors worldwide — money prosecutors said was never actually traded, but simply paid out to earlier investors using money deposited by later ones, a Ponzi scheme run at a scale few before it had reached.
 
 Glenn Arcaro was BitConnect's top U.S.-based promoter, recruiting investors across North America through a YouTube channel called Crypto Nation and a network of paid sub-promoters beneath him, collecting commissions tied directly to how much new investor money he brought in. When BitConnect abruptly shut down its lending program in January 2018, its token collapsed within days, wiping out the holdings of thousands of investors who had trusted his pitch.
@@ -6723,7 +6747,9 @@ NotoriousGM.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/usao-nv/pr/nevada-man-sentenced-over-11m-covid-19-relief-fraud-and-money-laundering-scheme',
-    // no rights-cleared photo found — sourceUrl above serves as the "read the full story" link
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Lasvegascourthouse.jpg?width=1200',
+    coverImageCredit: 'U.S. Department of Justice (public domain) — Lloyd D. George U.S. Courthouse, Las Vegas, where Dezfooli was sentenced',
     body: `Meelad Dezfooli, of Henderson, Nevada, submitted three fraudulent Paycheck Protection Program loan applications for businesses he owned, backing each one with false tax records, fabricated payroll documents, and grossly inflated employee counts designed to maximize the amount lenders would approve. Federal prosecutors said the applications worked: banks funded the loans based on paperwork that bore little relationship to the businesses' real operations, and Dezfooli walked away with more than $11 million in pandemic relief funds intended for employers struggling to keep workers on payroll.
 
 Rather than spend the money on the payroll the applications claimed to support, prosecutors said Dezfooli set about laundering it through real estate on a remarkable scale — using aliases including "James Dez" and a fictitious entity called "Holdings Trust" to purchase approximately 25 properties across Nevada, obscuring his own name from the paper trail on each deal. He funneled additional proceeds into a personal investment account, bought luxury vehicles, and gambled extensively at Las Vegas casinos, all while, according to prosecutors, continuing to sell off properties bought with the stolen funds even after the fraud had already drawn law enforcement scrutiny.
