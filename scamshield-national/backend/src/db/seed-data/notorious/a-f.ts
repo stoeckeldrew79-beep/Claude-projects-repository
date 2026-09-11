@@ -5491,6 +5491,10 @@ NotoriousAF.push(
     slug: 'edwin-brant-frost-first-liberty-ponzi-scheme',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Coweta_County_Courthouse,_Newnan,_GA,_US.jpg?width=1200',
+    coverImageCredit: 'Photo: Jud McCranie, Wikimedia Commons (CC BY-SA 4.0) — the Coweta County Courthouse in Newnan, Georgia, Edwin Brant Frost IV\'s hometown',
     sourceUrl: 'https://www.justice.gov/usao-ndga/pr/first-liberty-president-charged-multi-million-dollar-ponzi-scheme',
     body: `Note: Edwin Brant Frost IV pleaded guilty to one federal criminal count in May 2026, so his guilt on that charge is not in dispute. But as of this writing, the specific sentence a judge ultimately imposed at his August 2026 sentencing hearing could not be confirmed through published reporting, so it is described below as scheduled rather than as a settled outcome.
 
