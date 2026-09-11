@@ -3250,3 +3250,17 @@ UsTZ.push({
     isHistorical: true,
     firstRecorded: '2025-11-14',
 });
+
+UsTZ.push({
+    name: 'Spokane Development Services Fake Permit Invoice Email Scam',
+    slug: 'washington-spokane-development-services-permit-invoice-scam',
+    description: `The City of Spokane's Development Services Center (DSC) warned residents and contractors on June 16, 2026 about fraudulent emails that falsely appear to come from City staff regarding permit, planning, or development applications and demand payment by wire transfer. The scam emails use the names of actual City employees, reference real project addresses and permit applications pulled from the public record, and include invoices formatted to look like a genuine outstanding balance — but they arrive from a non-official address rather than one ending in the City's real "@spokanecity.org" domain, a distinction easy to miss if a recipient checks only the display name rather than the full sender address. The City stated flatly that it "will never request payment through emailed wire transfer instructions," and urged anyone who receives one of these emails not to click any link, open any attachment, or send payment or financial information in response. Recipients are advised to verify the sender's full email address before doing anything else, to contact the Development Services Center directly at (509) 625-6300 to confirm whether any invoice is legitimate before paying it, and to forward suspicious emails to the DSC's Permit Team at PermitTeam@spokanecity.org and then delete them.`,
+    categorySlug: 'government-impersonation',
+    country: 'US',
+    state: 'WA',
+    alertLevel: 'medium',
+    sources: ['City of Spokane, Washington'],
+    sourceUrl: 'https://my.spokanecity.org/news/releases/2026/06/16/beware-of-fake-city-of-spokane-development-and-permit-invoices/',
+    isHistorical: true,
+    firstRecorded: '2026-06-16',
+});
