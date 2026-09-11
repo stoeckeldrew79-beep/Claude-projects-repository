@@ -2950,6 +2950,10 @@ STIIIZY is offering affected customers 12 months of complimentary credit monitor
     slug: `nova-scotia-power-2025-data-breach-guide`,
     author: `ScamShield Editorial`,
     tags: [`guide`, `nova-scotia-power-2025-data-breach`],
+    coverImage: `https://commons.wikimedia.org/wiki/Special:FilePath/Point_Aconi_Generating_Station_4.jpg?width=1200`,
+    coverImageCredit: `Photo: Ken Heaton (CC BY-SA 4.0)`,
+    coverImagePosition: 50,
+    // representative photo — Nova Scotia Power generating station, not company HQ office; replace with an exact match if found
     sourceUrl: `https://www.priv.gc.ca/en/opc-news/news-and-announcements/2026/nr-c_260325/`,
     body: `Nova Scotia Power, the Emera-owned utility that serves nearly all of Nova Scotia's electricity customers, disclosed in May 2025 that a cyberattack had compromised the personal information of hundreds of thousands of people. According to Canada's Office of the Privacy Commissioner, which opened a formal investigation after receiving customer complaints, the intrusion actually began weeks earlier than the company first realized: around March 19, 2025, a Nova Scotia Power employee visited a compromised website and clicked a malicious pop-up, letting an unauthorized third party install malware and quietly access the utility's systems. The company says it didn't discover the breach until April 25, 2025, and didn't begin notifying customers until mid-May. By the time the investigation concluded, the Privacy Commissioner's office put the toll at roughly 375,000 current customers and about 540,000 former customers — more than 900,000 people in a province of only around a million residents.
 
@@ -2996,6 +3000,10 @@ If you believe your identity has already been misused, start a recovery plan at 
     slug: "oneblood-2024-ransomware-data-breach-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "oneblood-2024-data-breach"],
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Blood_donation_(at_a_%22bloodmobile%22).JPG?width=1200",
+    coverImageCredit: "Photo: Vegasjon (CC BY-SA 4.0)",
+    coverImagePosition: 50,
+    // representative photo — blood donation at a bloodmobile, not OneBlood's own vehicle; replace with an exact match if found
     body: `OneBlood, a nonprofit blood collection organization that supplies roughly 250 hospitals across Florida, Georgia, North and South Carolina, and Alabama, disclosed on July 31, 2024 that it had been hit by a ransomware attack. OneBlood said it first detected suspicious activity in its network on July 28, and its investigation later determined that an intruder had access between July 14 and July 29, 2024, during which time files and folders were copied from the network without authorization.
 
 The attack's immediate effect had nothing to do with data at all: it knocked out the software OneBlood normally uses to collect, test, and label donated blood, forcing staff onto manual, paper-based processes and sharply cutting how much blood the organization could process at once. That slowdown was severe enough that OneBlood asked its hundreds of partner hospitals to activate their critical blood shortage protocols and postpone elective procedures where possible, and it put out an urgent public call for donations of all blood types to keep supplies from running out across the region it serves.
