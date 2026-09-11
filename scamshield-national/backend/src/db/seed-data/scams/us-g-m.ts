@@ -6012,3 +6012,17 @@ UsGM.push({
     country: 'US',
     state: 'IN',
 });
+
+UsGM.push({
+    name: 'Minnesota Department of Revenue Tax Refund Text Scam',
+    slug: 'minnesota-department-of-revenue-tax-refund-text-scam',
+    description: `The Minnesota Department of Revenue issued a public warning on September 17, 2025 about fraudulent text messages impersonating the department, which tell recipients "Your refund request has been processed and approved. Please provide accurate payment information by [DATE]..." followed by a link to a fake site designed to capture bank account or card details before a fabricated deadline. The department confirmed the messages are not from Revenue and stressed that its own systems and taxpayer data remain secure — any real text message a taxpayer receives from the department is purely informational or a two-factor login code for its e-Services portal, and will never ask a recipient to click a link to claim a refund or make a payment. Minnesota's Attorney General's office has separately warned about impersonation scams targeting the state's unemployment insurance applicants using the same playbook: a message claims an account has been "de-activated" and directs the recipient to call a number and hand over debit card numbers and PINs to "reactivate" it, even though the state's unemployment insurance program never contacts claimants by text or social media at all. Minnesotans who receive a suspicious refund text are advised not to click the link, to delete the message and report it as spam, and to contact their bank immediately if they already entered information; questions about a real refund's status can be confirmed only by logging into the department's own website directly, not through a message.`,
+    categorySlug: 'tax-scams',
+    alertLevel: 'medium',
+    sources: ['Minnesota Department of Revenue'],
+    sourceUrl: 'https://www.revenue.state.mn.us/press-release/2025-09-17/department-revenue-warns-text-message-scam-impacting-minnesotans',
+    country: 'US',
+    state: 'MN',
+    isHistorical: true,
+    firstRecorded: '2025-09-17',
+});
