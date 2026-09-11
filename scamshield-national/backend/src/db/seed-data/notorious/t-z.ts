@@ -2529,6 +2529,10 @@ NotoriousTZ.push(
     slug: 'william-sadleir-aviron-pictures-blackrock-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    // representative photo — replace with an exact match if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Greystone_Mansion.JPG?width=1200',
+    coverImageCredit: 'Photo: Los Angeles (Wikimedia Commons user) (CC BY-SA 3.0) — Greystone Mansion in Beverly Hills, California, near the $14 million mansion Sadleir bought with misappropriated investor funds',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.justice.gov/usao-sdny/pr/hollywood-executive-and-former-white-house-staffer-sentenced-six-years-prison',
     body: `William Sadleir founded and ran Aviron Pictures, an independent film production and distribution company whose releases included "Kidnap," "A Private War," and "Serenity." To finance the business, Aviron secured investment from a BlackRock-managed fund, the BlackRock Multi-Sector Income Trust, which ultimately put roughly $75 million into the company — money meant to fund Aviron's film slate and, specifically, its advertising and marketing spend.
 
@@ -2537,5 +2541,22 @@ Prosecutors said Sadleir misappropriated more than $25 million of that investmen
 Sadleir pleaded guilty in January 2022 to two counts of wire fraud. U.S. District Judge Paul A. Engelmayer sentenced him in the Southern District of New York that September to six years in federal prison, three years of supervised release, and $31,597,000 in forfeiture and restitution. In a separate case, Sadleir was also convicted for fraudulently obtaining $1.7 million in Paycheck Protection Program loans for Aviron entities in 2020 — applying for pandemic relief funds for a business he was actively defrauding into insolvency — and was sentenced to an additional 41 months and ordered to pay $282,566 in restitution on those charges.
 
 Sadleir's fraud stands out for going a step beyond falsifying his own numbers: he manufactured an entire fictitious third party, complete with a name and an email address, to make an investor's questions about missing money feel answered rather than raise the questions the investor should have kept asking. It's a reminder that verifying a counterparty actually exists is as important as verifying the figures in an account statement.`,
+  },
+);
+
+NotoriousTZ.push(
+  {
+    title: 'Terrance Alonzo Pruitt: The Bessemer Man Who Used a Forged Power of Attorney to Drain a Relative With Dementia',
+    slug: 'terrance-pruitt-bessemer-power-of-attorney-elder-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-ndal/pr/bessemer-man-sentenced-more-four-years-prison-his-role-elder-fraud-scheme',
+    body: `In September 2023, Terrance Alonzo Pruitt of Bessemer, Alabama executed a power of attorney over an elderly family member who had dementia — without the victim's knowledge or permission. Unlike the strangers who dominate most elder-fraud headlines, Pruitt didn't need to build trust with a fake persona or talk his way past a bank's security questions. He already had access to his relative's life; the fraud was in the paperwork he used to formalize control she never agreed to give him.
+
+Over the following months, Pruitt used that self-granted authority to become a joint holder on the victim's bank accounts, then changed the mailing address on those accounts from hers to his own — a quiet step that meant she, and anyone else who might have noticed unusual activity, would stop seeing the statements. He removed two payable-on-death beneficiaries from one account and added two different beneficiaries of his own choosing to another, rewriting who stood to inherit the money alongside directly spending it. Between September and December 2023, Pruitt transferred $550,000 out of the victim's accounts into his own, and moved $500,000 of it into a new account that didn't include her as a holder at all.
+
+The case went to a jury trial rather than a plea, and in December 2024 Pruitt was convicted on two counts of wire fraud in the U.S. District Court for the Northern District of Alabama. He had testified in his own defense at trial; the court found that testimony to be perjury and applied an obstruction-of-justice enhancement at sentencing as a result. On May 2, 2025, U.S. District Judge Anna Manasco sentenced Pruitt to 50 months in federal prison.
+
+Pruitt's case is a reminder that the most damaging elder fraud often requires no deception of a bank or a stranger at all — only a legitimate-looking legal document and a relative willing to use it. A victim with dementia may not recognize what's happening to her own accounts, and redirecting the mail is often the only "cover-up" a family-member fraudster needs, since the person best positioned to notice the theft is the one it was designed to keep in the dark.`,
   },
 );
