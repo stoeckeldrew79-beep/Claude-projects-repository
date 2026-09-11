@@ -3684,6 +3684,9 @@ The case is a useful prompt to check a setting most people never touch. ACR gene
     slug: "geico-travelers-driver-license-data-breach-settlement-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "geico-travelers-data-breach-settlement"],
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/GEICO_headquarters.jpg?width=1200",
+    coverImageCredit: "Photo: Coolcaesar, CC BY-SA 3.0, via Wikimedia Commons — GEICO headquarters in Chevy Chase, Maryland",
+    coverImagePosition: 50,
     sourceUrl: "https://ag.ny.gov/press-release/2024/attorney-general-james-and-dfs-superintendent-harris-secure-113-million-auto",
     body: `An online auto insurance "instant quote" tool is designed to do one thing quickly: take a few pieces of identifying information and return a price. That convenience is exactly what made GEICO's public-facing quoting tool, and a related agent-facing quoting tool, so useful to criminals starting in 2020. Attackers who already had a trove of stolen personal information — names, dates of birth, and addresses harvested from earlier, unrelated breaches — ran that data through the quoting tools not to get a price, but to get back a driver's license number the tool matched to each person, turning a marketing feature into a lookup service for identity thieves.
 
