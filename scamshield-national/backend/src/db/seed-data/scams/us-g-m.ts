@@ -6077,3 +6077,14 @@ UsGM.push({
     country: 'US',
     state: 'GU',
 });
+
+UsGM.push({
+    name: 'Homework Helper Extortion Scam',
+    slug: 'homework-helper-extortion-scam',
+    description: `A student — often a college freshman or a high schooler under pressure from a hard class — finds an online "tutor" or homework-help service through a search ad or social media post advertising help completing an assignment rather than teaching the material, and pays a few hundred dollars upfront for help with a math, coding, or other technical assignment. Instead of delivering finished work, the "tutor" comes back demanding more money, sometimes claiming the assignment required extra "research" or a higher tier of service, and when the student balks or can't pay, the scammer threatens to email the student's school and report them for academic cheating — a threat calibrated to work specifically because the student can't report the scam without admitting what they hired someone to do. The Better Business Bureau, which first documented the pattern in a July 2024 scam alert, says victims describe paying the scammer "1,000s of dollars so they dont screw their future" rather than risk expulsion over a professor finding out. The scheme resurfaces every fall: Wisconsin's BBB flagged it again in a September 2026 back-to-school advisory listing "exam prep" services that "threaten to report [students] for cheating to their institution" as one of the season's most common scams, often blended with fake SAT/ACT test-prep outreach that already has a student's name and school to sound credible. The BBB advises getting any tutoring help through a school's own tutoring center or a personal referral with real, checkable references, agreeing on the full scope and total price in writing before any work begins, and treating a "pay more or we tell your school" message as an empty threat to report to BBB Scam Tracker rather than one worth paying to silence.`,
+    categorySlug: 'student-loan-education',
+    alertLevel: 'medium',
+    sources: ['Better Business Bureau (BBB)'],
+    sourceUrl: 'https://www.bbb.org/article/news-releases/24032-bbb-scam-alert-students-hire-homework-help-and-end-up-in-extortion-con',
+    country: 'US',
+});
