@@ -1881,6 +1881,10 @@ NotoriousTZ.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/opa/pr/fraudster-who-sold-personal-information-over-7-million-elderly-americans-jamaican-scammers',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Historic_Catawba_County_Courthouse_-_Newton,_NC.jpg?width=1200',
+    coverImageCredit: 'Photo: Upstateherd, Wikimedia Commons (CC BY-SA 3.0) — the historic Catawba County Courthouse near Hickory, North Carolina, where Troy Murray ran his lead-list business',
+    coverImagePosition: 50,
     body: `Most people prosecuted in lottery-scam cases are the ones on the phone, telling an elderly victim they've won a prize and just need to pay a "fee" to collect it. Troy Murray, 57, of Hickory, North Carolina, never made those calls himself. Instead, from 2016 through 2023, prosecutors say he built and ran the supply chain that made thousands of other people's calls possible — compiling and selling "lead lists" of elderly Americans' names, phone numbers, and home addresses, and in some cases their ages and email addresses too, directly to lottery-fraud operators in Jamaica.
 
 Murray's business ran at real commercial scale: at roughly $500 per list of 100 to 300 names, he sold at least 22,000 lists over the life of the scheme, covering the personal information of more than seven million elderly Americans in total. He operated under the pseudonym "Steve Dixon" in his dealings with Jamaican buyers, and when banks and wire-transfer companies began cutting off payments tied to lottery-fraud proceeds, he adapted rather than stopped — switching to prepaid gift cards as payment to keep the money moving around the financial system's fraud controls.
