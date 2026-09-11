@@ -5292,3 +5292,17 @@ UsNS.push({
     isHistorical: true,
     firstRecorded: '2019-06-27',
 });
+
+UsNS.push({
+    name: 'Puerto Rico DACO Governor-Image Investment Scam Alert',
+    slug: 'puerto-rico-daco-governor-image-investment-scam',
+    description: `Text messages and emails circulating across Puerto Rico in early 2026 promised recipients they could turn a single $250 deposit into $12,500 within 30 days by opening what the message called a personal "cuenta del Seguro Social" (Social Security account), using the image of Governor Jenniffer González — without her knowledge or involvement — to make the pitch look like a real, government-backed opportunity. Clicking the message's "verificar elegibilidad" (verify eligibility) link led to a fraudulent form asking for the last four digits of the target's Social Security number, date of birth, banking information, and home address — information the scammers could use directly for identity theft even if the target never sent any money. Puerto Rico's Secretary of the Department of Consumer Affairs (DACO), Hiram Torres Montalvo, issued a public alert on April 13, 2026 warning residents about the scheme, noting it primarily targets older adults, who make up roughly a quarter of the island's population and are frequently the focus of this kind of investment fraud. Torres Montalvo urged anyone who receives the message to delete it without clicking the link, since simply opening the linked page can expose a device to further compromise, and directed residents who believe they've been targeted to report it through DACO's official channels — its "DACO a tu favor" social media accounts or www.daco.pr.gov — rather than respond to the message directly. No government agency, including the Social Security Administration or the Puerto Rico government, notifies residents of a guaranteed investment return by unsolicited text message, and a message using a recognizable public official's photo is not, by itself, any indication the offer is real.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'high',
+    sources: ['Puerto Rico Department of Consumer Affairs (DACO)', 'Metro Puerto Rico'],
+    sourceUrl: 'https://www.metro.pr/noticias/2026/04/13/daco-alerta-sobre-esquema-de-fraude-que-utiliza-imagen-de-la-gobernadora/',
+    country: 'US',
+    state: 'PR',
+    isHistorical: true,
+    firstRecorded: '2026-04-13',
+});
