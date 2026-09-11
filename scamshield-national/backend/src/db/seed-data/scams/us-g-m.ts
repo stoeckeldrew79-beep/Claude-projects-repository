@@ -6026,3 +6026,17 @@ UsGM.push({
     isHistorical: true,
     firstRecorded: '2025-09-17',
 });
+
+UsGM.push({
+    name: 'Kansas Department of Revenue Fake Traffic Ticket Text Scam',
+    slug: 'kansas-department-of-revenue-fake-traffic-ticket-text-scam',
+    description: `The Kansas Department of Revenue (KDOR) issued a warning on March 6, 2026 about text messages impersonating the department that claim the recipient has an outstanding traffic violation ticket, cite a fabricated legal reference — "rule 16C-16.003" — and demand payment by a set deadline, in this instance March 7, 2026, threatening that failure to pay will result in driver's license suspension, vehicle registration suspension, further legal action, and damage to the recipient's credit. "This is a scam and anyone who received it should delete the text without responding or clicking on any links," the department said. KDOR's own fraud-alert page describes a related family of impersonation calls and texts in which a caller claims the recipient owes back taxes and threatens that police are "ready to come to your residence or work and arrest you" unless payment is made immediately on a cash card, and separately warns that some texts falsely claim an unpaid toll is owed even though the Department of Revenue does not collect tolls. KDOR states it will never threaten a resident with police or jail over the phone or demand payment by cash card, and that any real notice about a driver's license, vehicle registration, or tax balance arrives by mail. Kansans who receive one of these messages are advised to delete it without clicking any link, to verify any claimed balance by contacting KDOR directly at (785) 296-3671 or through its own website, and to report the scam at ReportFraud.ks.gov.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Kansas Department of Revenue', 'KWCH'],
+    sourceUrl: 'https://www.kwch.com/2026/03/06/kansas-department-revenue-issues-warning-regarding-text-scam/',
+    country: 'US',
+    state: 'KS',
+    isHistorical: true,
+    firstRecorded: '2026-03-06',
+});
