@@ -5960,3 +5960,15 @@ UsGM.push({
     sources: ["U.S. Attorney's Office for the Southern District of Texas", 'Harris County Constable Precinct 1', 'ABC13 Houston'],
     sourceUrl: 'https://www.justice.gov/usao-sdtx/pr/immigration-attorney-arrested-alleged-fraud-scheme',
 });
+
+UsGM.push({
+    name: 'Missouri Case.net Court-Records Spoofing Malware Scam',
+    slug: 'missouri-casenet-spoofing-malware-scam',
+    description: `The Supreme Court of Missouri warned attorneys and the public on March 18, 2026 about a cluster of fraudulent websites — including casenetmo.us, mo-casenet.us, casenetmo.net, mo-case.net, and casenetmonet.website3.me — built to mimic the appearance and name of Case.net, the state judiciary's real, free online court-records lookup system. Anyone who lands on one of the spoofed sites and tries to search for a case is confronted with a fake virus-detection warning designed either to scare the visitor into calling a bogus "support" number or to serve actual malware to their device, rather than any real Missouri case information. Beth Riggert, the Missouri Supreme Court's communications counsel, said "the public is urged not to use this website, as attempting to do so may produce a message warning a virus has been detected," and the court referred the matter to law enforcement while asking anyone who encounters one of the lookalike sites to report it to the State Courts Administrator's Help Desk. Because the fake domains are close misspellings or variations of the real casenet.courts.mo.gov address and can surface through ordinary search-engine results, Missourians and out-of-state attorneys searching for a Missouri case should type or bookmark the official courts.mo.gov domain directly rather than clicking a search result or a link shared by someone else, and should treat any "virus detected" pop-up on a court-records site as a sign the page itself is fraudulent.`,
+    categorySlug: 'government-impersonation',
+    country: 'US',
+    state: 'MO',
+    alertLevel: 'medium',
+    sources: ['Missouri Supreme Court', 'Missouri Lawyers Media'],
+    sourceUrl: 'https://molawyersmedia.com/2026/03/19/missouri-court-casenet-spoof-scam-warning/',
+});
