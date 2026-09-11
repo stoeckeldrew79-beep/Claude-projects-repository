@@ -6190,6 +6190,10 @@ NotoriousGM.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/usao-dc/pr/former-charity-president-pleads-guilty-embezzling-money',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Vietnam War Memorial Washington DC Maya Lin-editA.jpg?width=1200',
+    coverImageCredit: 'Photo: Tomcloyd / Wikimedia Commons (Public Domain)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `John Thomas Burch Jr. spent years as a prominent Washington-area advocate for veterans, including a stint as a senior attorney at the Department of Veterans Affairs, before building the National Vietnam Veterans Foundation (NVVF) into a nationwide telemarketing fundraising operation. By 2014, NVVF was pulling in nearly $9 million a year in donations solicited with promises that the money would go directly toward helping struggling veterans and their families. According to a subsequent investigation by the New York Attorney General's office, almost none of it did: of the $8.6 million NVVF raised in 2014 alone, $7.7 million — roughly 90 percent — went straight back out to the professional fundraising firms NVVF had hired to make the calls.
 
 What little remained after paying the fundraisers was, prosecutors and the New York Attorney General both found, frequently spent on the charity's own leadership rather than on veterans. Investigators pointed to consulting fees paid to friends and relatives of NVVF's directors, and to a 2014 board trip to Normandy, France. Burch himself controlled a fund NVVF described publicly as an "Emergency Assistance Program" meant to help the young children of impoverished Vietnam veterans' families — and, according to federal prosecutors, used it instead as a personal slush fund, distributing more than $10,000 apiece to several women with whom he had personal relationships and submitting expense reports that described nightclub visits, restaurant meals, and hotel stays as work related to "veteran issues" and homelessness outreach.
@@ -6882,5 +6886,22 @@ The pattern repeated with small variations. From 2017 to 2018, operating as a mu
 Sowerby pleaded guilty to a single count of wire fraud, resolving all three federal cases against him at once, and agreed as part of his plea to pay restitution of up to $30 million to the victims spread across his various shell companies. A wire fraud conviction carries a statutory maximum of 20 years in federal prison; he is scheduled to be sentenced on October 14, 2026, before U.S. District Judge Susan M. Brnovich.
 
 Sowerby's case illustrates a durable pattern in investment fraud: a scheme doesn't need one clever hook to survive for six years, it needs the willingness to abandon a name the moment it draws scrutiny and reopen under a new one, wrapped in whichever piece of speculative technology — mining rigs, storage contracts, a trading "bot" — happens to be generating the most public excitement at the time.`,
+  },
+);
+NotoriousGM.push(
+  {
+    title: 'Lucas Lee-Tyson, Osmany Batte, and the Growth Cave "Business Opportunity" That Cost a Ferrari and a Rolls-Royce',
+    slug: 'lucas-lee-tyson-growth-cave-business-opportunity-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2026/01/ftc-secures-settlement-banning-growth-cave-defendants-marketing-selling-business-opportunities',
+    // no rights-cleared photo identified — sourceUrl above serves as the "read the full story" link
+    body: `Growth Cave marketed itself as a business-coaching program that could teach ordinary people, through paid courses and coaching packages, how to build a profitable online marketing agency or start their own business — the kind of "flip this skill into a business" pitch that has become a mainstay of social-media advertising. Co-CEOs Lucas Lee-Tyson and Osmany Batte ran it alongside an affiliated credit-repair operation, marketed through related entities including LLT Research and Apex Mind, that promised to fix consumers' credit scores.
+
+The Federal Trade Commission sued Growth Cave, Lee-Tyson, Batte, operations manager Jordan Marksberry, and several related corporate entities in February 2025, alleging the defendants used deceptive earnings claims to sell business opportunities and credit-repair services that consistently failed to deliver what was promised, and that consumers who tried to get refunds or support ran into a wall of unresponsiveness. The FTC put the total consumer harm at close to $50 million.
+
+Marksberry settled first, in August 2025. The remaining defendants reached final settlements approved by the court, with the FTC announcing the resolution on January 27, 2026. The orders permanently ban Lee-Tyson, Batte, and the corporate defendants from ever again marketing or selling business opportunities or credit-repair services, or making misleading earnings or AI-related claims in any venture. The settlement entered a monetary judgment of $48,597,538 against the defendants, though most of it was suspended based on documented inability to pay in full — a common outcome in FTC cases once a defendant's actual assets are accounted for. What could be collected was collected in kind rather than cash: Lee-Tyson was ordered to sell a multimillion-dollar house and liquidate investment accounts, and Batte was ordered to give up a Rolls-Royce and a Ferrari, with relief defendant Friendly Solar required to turn over roughly $43,000.
+
+The Growth Cave settlement is a civil resolution, not a criminal conviction — nobody involved was charged with a crime, and the defendants settled without admitting wrongdoing, as is standard in FTC consumer-protection cases. What makes it notable is how visibly the FTC tied the penalty to the defendants' own lifestyle: rather than a purely paper judgment, the order named the specific luxury assets — the house, the Rolls-Royce, the Ferrari — that had been purchased with money the agency said came from consumers who bought a business opportunity that didn't deliver one.`,
   },
 );

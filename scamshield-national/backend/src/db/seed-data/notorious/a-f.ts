@@ -6686,3 +6686,22 @@ Schwartz pleaded guilty on February 12, 2025, to one count of wire fraud in the 
 The case is a case study in how a real, named, physically existing building can still be the backdrop for a fraud: investors on platforms like CrowdStreet could look up the Atlanta Financial Center and the Miami Beach property themselves and confirm they were genuine assets, which was exactly the point — a verifiable underlying deal lent credibility to promises about how investor money would actually be used, when in fact the platform offered no way for investors to confirm that their specific dollars, once wired, ever reached the project the offering named.`,
   },
 );
+NotoriousAF.push(
+  {
+    title: 'Barbara Hirshfield and the 77-Year-Old Family Lending Company That Became a Ponzi Scheme',
+    slug: 'barbara-hirshfield-ideal-financial-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-ma/pr/massachusetts-woman-pleads-guilty-wire-fraud-connection-with-10-million-ponzi-scheme',
+    // no rights-cleared photo identified — sourceUrl above serves as the "read the full story" link
+    body: `Note: Barbara Hirshfield pleaded guilty in September 2026 and admitted the conduct described below, but as of this writing she has not yet been sentenced — a hearing is scheduled for January 7, 2027 — so the prison term she ultimately receives is not yet known.
+
+Ideal Financial Services was not a shell company built to look legitimate; it was legitimate, for decades. Barbara Hirshfield's father founded the West Springfield, Massachusetts, motor-vehicle and small-loan business in 1948 as Ideal Budget Plan, and Hirshfield took control of it, along with her sister, in 1980. For years it did what it said: made vehicle and business loans, and raised some of that lending capital from outside investors through promissory notes.
+
+That began to change after 2012, when the Massachusetts Division of Banks grew concerned about Ideal's finances and ordered it to stop soliciting new outside investment. According to federal prosecutors, Hirshfield did not tell her investors about that order and kept selling promissory notes anyway. A second state action in 2014 stripped Ideal of its lending licenses altogether, and from that point the company that had once genuinely made loans had no real lending business left to fund — yet Hirshfield, now in her seventies, kept raising money from investors who believed they were still financing motor-vehicle loans. Prosecutors say that of roughly $7.6 million in notes sold from 2019 onward, about 95% went straight back out the door to pay interest and principal owed to earlier investors, the defining mechanic of a Ponzi scheme rather than a struggling lender.
+
+The scheme finally ran out of road in 2025: Hirshfield stopped making interest payments that year, and by June 2025 Ideal had no money left to repay principal on outstanding notes at all. Federal prosecutors say the fraud spanned roughly $10.9 million taken from 204 investors — many in the Springfield area, some of whom told investigators they were relying on the promised interest to cover living expenses — with the largest single loss totaling $530,000. Then 83 years old, Hirshfield pleaded guilty in September 2026 to five counts of wire fraud. Each count carries a statutory maximum of 20 years in prison and a $250,000 fine; prosecutors have recommended a four-year sentence plus roughly $11 million in restitution, with a federal judge in Springfield set to decide her actual sentence in January 2027.
+
+Hirshfield's case is a reminder that a Ponzi scheme doesn't have to start as one. Ideal spent over sixty years as a real business with a real product before a regulator's order to stop raising money became, in her hands, a secret to keep from the very people whose money kept the company's lights on — and a family name built over three generations wasn't enough to keep the math of "pay old investors with new investors' money" from eventually running out.`,
+  },
+);

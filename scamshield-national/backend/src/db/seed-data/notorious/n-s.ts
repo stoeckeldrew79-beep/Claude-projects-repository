@@ -4304,7 +4304,10 @@ NotoriousNS.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/usao-mdfl/pr/jury-finds-non-fungible-token-developer-guilty-defrauding-investors-and-laundering',
-    // no rights-cleared photo found — sourceUrl above serves as the "read the full story" link
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Macdill-main-gate.jpg?width=1200',
+    coverImageCredit: 'Photo: United States Air Force (Public Domain)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `In March 2022, at the height of "profile picture" NFT mania, two young men minted a pair of cartoon-ape collections on the Solana blockchain called "UndeadApes" and "Undead Lady Apes." Berman Jerry Nowlin Jr., 21, of Huntsville, Alabama, who went by "Repulse" and "Zayous" online, built the technical side of the project. Devin Alan Rhoden, in his mid-twenties and living in Pinellas Park, Florida, handled the marketing on Discord and X under the handles "Denny" and "Deviinz" — a side hustle he was running while serving as an active-duty senior airman and cyber analyst at MacDill Air Force Base. As hype built, the price of a single Undead Ape climbed as high as $360.
 
 The following month, Nowlin and Rhoden announced a third collection, "Undead Tombstone," backed by what federal prosecutors called exaggerated, misleading, and outright false claims about future partnerships with prominent businesses, how much capital would be reinvested into the project, and what utility NFT holders would eventually receive. They minted 632 Undead Tombstone tokens, collected roughly $135,000 in cryptocurrency from buyers, and then simply stopped — deleting their social media accounts and cutting off all further communication with the investors they'd just taken money from, the textbook "rug pull" in which a project's creators abandon it the moment new money stops flowing in. Across all three collections, prosecutors said, the two men took in nearly $400,000 from hundreds of victims around the world, then laundered the proceeds by "chain-hopping" — moving the funds from Solana to Ethereum through the Tornado Cash mixer to make them harder to trace.
@@ -4345,7 +4348,10 @@ NotoriousNS.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/usao-edva/pr/leader-international-robocall-scam-sentenced-defrauding-over-4000-us-victims-out-more',
-    // no rights-cleared photo found — sourceUrl above serves as the "read the full story" link
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Ahmedabad skyline from Patang hotel.jpg?width=1200',
+    coverImageCredit: 'Photo: Sneha G Gupta / Wikimedia Commons (CC BY-SA 4.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Shehzadkhan Pathan, 40, ran a call center in Ahmedabad, India, that blasted automated robocalls at phone numbers across the United States, then routed anyone who answered to a live operator posing as a federal agent. Callers impersonated FBI and DEA agents, and in some versions of the pitch, representatives of the Social Security Administration, warning victims — many of them elderly — that they faced imminent arrest, frozen accounts, or other severe legal and financial consequences unless they resolved a supposed problem immediately, sometimes paired with a false promise of a loan to help cover it.
 
 Pathan wasn't just running the center — prosecutors described him as the mastermind and leader of the entire scheme, personally taking over as the "closer" on calls once a victim had been softened up by the initial script, deciding when a target was scared enough to pay. He also managed the logistics that kept the fraud's money moving: a network of couriers inside the United States who collected the funds victims sent and illegally transferred them back overseas to Pathan's call center in India, keeping the cash a step removed from any single bank account that might draw suspicion.
@@ -4363,7 +4369,10 @@ NotoriousNS.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.fcc.gov/document/fcc-assesses-nearly-300m-forfeiture-unlawful-robocalls',
-    // no rights-cleared photo found — sourceUrl above serves as the "read the full story" link
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/FCC HQ.jpg?width=1200',
+    coverImageCredit: 'Photo: Ser Amantio di Nicolao / Wikimedia Commons (CC BY 3.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Roy M. Cox Jr. and Aaron Michael Jones were already supposed to be out of the telemarketing business. Years earlier, the FTC had sued Cox over an illegal robocall operation selling credit-card rate reductions and home security systems using spoofed caller-ID names like "CARD SERVICES," and in February 2013 a federal court entered a settlement permanently banning him from telemarketing — a $1.1 million civil penalty was even written into the order, suspended only because Cox claimed he could not pay it. Jones had separately been hit with his own lifetime telemarketing ban following actions by the FTC and the State of Texas. Neither ban stopped either man from going right back into the business that got them banned in the first place.
 
 Operating through a company called Sumco Panama and a web of domestic and foreign entities — Virtual Telecom, Davis Telecom, Geist Telecom, Fugle Telecom, Tech Direct, Mobi Telecom, and Posting Express among them, with international pieces registered in Panama and Hungary — Cox and Jones built a robocalling operation that the FCC would later call the largest it had ever investigated. Over just a three-month span in early 2021, the operation placed more than 5 billion pre-recorded calls to more than 500 million phone numbers, using more than a million different spoofed caller-ID numbers to disguise where the calls were actually coming from. Anyone who pressed 1 was connected to a "warranty specialist" pitching an extended or reinstated auto warranty — a product pitch built entirely around getting past caller ID and the National Do Not Call Registry rather than around any car the callers actually owned.
@@ -4460,7 +4469,10 @@ NotoriousNS.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2024/06/ftc-action-leads-sweepstakes-ban-three-individuals-who-ran-massive-scheme-cost-consumers-millions',
-    // no rights-cleared photo found — sourceUrl above serves as the "read the full story" link
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/The Apex Building, headquarters of the Federal Trade Commission, on Constitution Avenue and 7th Streets in Washington, D.C.jpg?width=1200',
+    coverImageCredit: 'Photo: Harrison Keely / Wikimedia Commons (CC BY 4.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `For years, personalized-looking letters arrived in mailboxes across the United States, Australia, Canada, France, Germany, Japan, and the United Kingdom carrying a version of the same message: you have already won more than $2 million, guaranteed, and all you need to do to collect it is mail back $20 to $30 within the next ten days. Behind the letters, the FTC alleged in a complaint filed in May 2015 in the Southern District of Florida, was a network of eleven shell companies — among them Mail Tree Inc., Spin Mail Inc., and Masterpiece Marketing LLC, doing business under names like Affiliated Opportunities Group and National Directory Center — run by Matthew Pisoni, Marcus Pradel, John Leon, and Victor Ramirez.
 
 The letters were personalized enough to feel real and vague enough to survive a lawyer's read: buried in small print at the bottom was language revealing that the companies had merely compiled reports on public sweepstakes, not actually awarded any prizes themselves. The artificial ten-day deadlines and "guaranteed" language were built to push recipients into mailing a fee before they had time to research the company sending it. By the time the FTC won a temporary restraining order shutting the operation down in May 2015, it had collected more than $28 million from consumers who never received the winnings they'd been promised. The U.S. Attorney's Office for the Southern District of Florida arrested four individuals tied to the scheme that same month, running a parallel criminal track alongside the FTC's civil case.
