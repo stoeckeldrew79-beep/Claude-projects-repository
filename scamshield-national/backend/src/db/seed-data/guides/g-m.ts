@@ -3371,6 +3371,10 @@ If you are a current or former Hibbett or City Gear employee — or a dependent 
     slug: "match-group-new-jersey-background-screening-settlement-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "match-group-new-jersey-settlement"],
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Richard_J._Hughes_Justice_Complex_of_the_New_Jersey_Supreme_Court.jpg?width=1200",
+    coverImageCredit: "Public domain",
+    coverImagePosition: 50,
+    // representative photo — the Richard J. Hughes Justice Complex in Trenton, home to the NJ Division of Consumer Affairs that brought this action, not a Match Group facility; replace with an exact match if found
     sourceUrl: "https://www.njoag.gov/ag-davenport-match-inc-to-pay-650000-and-change-public-disclosures-to-resolve-allegations-its-internet-dating-services-misrepresented-criminal-background-screening-policies/",
     body: `Match Group, Inc. — the company behind Match.com, Tinder, Hinge, Plenty of Fish, OurTime, BLK, Chispa, Upward, and BlackPeopleMeet — agreed on September 1, 2026 to pay $650,000 and rewrite how it describes criminal-background screening across its dating platforms, settling an investigation by the New Jersey Attorney General's Office and its Division of Consumer Affairs. Unlike Match Group's earlier, much larger federal cases over billing and cancellation practices, this one goes directly to a safety feature many users assume is happening automatically: checking whether the person on the other end of a match has a criminal record.
 
