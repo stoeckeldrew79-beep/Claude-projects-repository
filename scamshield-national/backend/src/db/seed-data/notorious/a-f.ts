@@ -4916,6 +4916,10 @@ Knapp was convicted of defrauding Western Savings of roughly $11 million and, on
     slug: 'andrew-bressman-ar-baron-boiler-room-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/New_York_City_Criminal_Court_(48126615687).jpg?width=1200',
+    coverImageCredit: 'Photo: Ajay Suresh, Wikimedia Commons (CC BY 2.0) — the New York City Criminal Court building, where Manhattan prosecutors charged the A.R. Baron case',
     sourceUrl: 'https://www.sec.gov/enforcement-litigation/administrative-proceedings/34-42103',
     body: `Andrew Bressman was president of A.R. Baron & Co., a New York brokerage that spent the first half of the 1990s running what regulators would later describe as a textbook boiler room: cold-calling investors to buy stock in small companies Baron itself had taken public, then using coercive in-house sales tactics to keep the share price from falling once the shares were sold. The SEC later found that Baron enforced a "no-net-sale" policy across three stock offerings it had manipulated — Professional Care Inc. in 1991, Health Professionals Inc. in 1992 and 1993, and Cypros Pharmaceutical Corp. in 1995 — under which brokers were required to refuse client sell orders unless they were matched by an equal buy order, propping up prices that had no real market support.
 
