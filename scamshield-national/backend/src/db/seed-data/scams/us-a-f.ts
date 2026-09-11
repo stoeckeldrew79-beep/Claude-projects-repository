@@ -7442,3 +7442,17 @@ UsAF.push({
     isHistorical: true,
     firstRecorded: '2026-04-01',
 });
+
+UsAF.push({
+    name: 'Fantasy Football "Charity League" Unpaid-Winnings Scam',
+    slug: 'fantasy-football-charity-league-unpaid-winnings-scam',
+    description: `The Missouri Attorney General's Office confirmed in early July 2026 that it opened an investigation into ESPN NFL draft analyst Matt Miller after complaints piled up on Reddit and social media alleging he ran dozens of "charity" fantasy football leagues and paid scouting camps for years without ever delivering the winnings, refunds, or promised charitable donations participants paid for. According to reporting that first surfaced the allegations, at least seven people described paying entry fees — with some league buy-ins as high as $500, collected through apps like Venmo, Cash App, and PayPal — for leagues Miller ran as commissioner, only to find him unreachable when it came time to collect a payout or confirm where the "charity" portion of the pot actually went; the fantasy platform Sleeper showed an account tied to Miller had been commissioner of 91 separate leagues in the 2025 season alone, and more than 40 additional people came forward with similar complaints once the story spread. Attorney General Catherine Hanaway said her office received 26 formal complaints from Missourians describing the same pattern — paying for a camp, a bet, or a league entry and getting "no product," or "minimal product," delivered in return — and called the case "kind of lengthy" specifically because of the sheer number of transactions involved, adding "there's certainly a lot of smoke, and I would bet there's some fire in this case." The episode is a reminder that a high-profile personality's public reputation is not a substitute for real safeguards on a private fantasy-sports pot: a legitimate commissioner should be able to show an escrow arrangement, a clear payout schedule, and — for any league marketed as benefiting a charity — the charity's own name so a donation can be independently verified, and a commissioner who goes quiet as soon as it's time to pay out is reason enough to stop sending money and file a complaint with a state attorney general's consumer protection division.`,
+    categorySlug: 'lottery-sweepstakes-scams',
+    alertLevel: 'medium',
+    sources: ['Missouri Attorney General\'s Office', 'KY3 News'],
+    sourceUrl: 'https://www.ky3.com/2026/07/15/missouri-ag-shares-what-led-investigation-into-espn-analyst-matt-miller/',
+    country: 'US',
+    state: 'MO',
+    isHistorical: true,
+    firstRecorded: '2026-07-02',
+});
