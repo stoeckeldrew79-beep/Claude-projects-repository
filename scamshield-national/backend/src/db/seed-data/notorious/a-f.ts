@@ -6024,6 +6024,10 @@ Hallinan's case is a reminder that predatory lending doesn't have to hide in a b
     slug: 'andy-bowdoin-adsurfdaily-autosurf-ponzi-scheme',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    // representative photo (Bowdoin pleaded guilty in the U.S. District Court for the District of Columbia) — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/E._Barrett_Prettyman_Federal_Courthouse,_DC.jpg?width=1200',
+    coverImageCredit: 'AgnosticPreachersKid, CC BY-SA 3.0, via Wikimedia Commons',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.justice.gov/doj/case/us-v-thomas-anderson-bowdoin-jr-aka-andy-bowdoin',
     body: `Thomas Anderson Bowdoin Jr., who went by Andy Bowdoin, ran a Quincy, Florida-based company called AdSurfDaily, Inc. that presented itself as an online advertising business but was, underneath, a Ponzi scheme wearing a dot-com costume. Members paid to "purchase advertising" and, in exchange, clicked through a rotating carousel of banner ads on an "ASD rotator" a set number of times a day. For that modest effort, ASD promised to return 125% — initially 150% — of whatever a member had put in, plus commissions for recruiting new members.
 
