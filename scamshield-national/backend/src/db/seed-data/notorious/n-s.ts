@@ -5237,6 +5237,10 @@ NotoriousNS.push(
     title: "Scott Wolas: The Fugitive Biglaw Partner Who Borrowed a Friend's Name for a Second Fraud",
     slug: 'scott-wolas-fugitive-lawyer-fraud',
     author: 'ScamShield Editorial',
+    // representative photo — replace with an exact match if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Quincy_Shore_Drive_2009.jpg?width=1200',
+    coverImageCredit: 'Photo: Sswonk / Wikimedia Commons / CC BY-SA 3.0 — Quincy Shore Drive, Quincy, Massachusetts, site of the Beachcomber Bar property at the center of Wolas\'s second fraud',
+    coverImagePosition: 50,
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/usao-ma/pr/former-quincy-man-sentenced-19-million-real-estate-fraud-scheme',
     body: `Scott Wolas was a partner at Hunton & Williams, a large, well-regarded law firm, when New York prosecutors indicted him in 1997 on 119 counts of fraud and grand larceny over an alleged Ponzi scheme built around a liquor-exporting business he had pitched to investors as a real, profitable venture. Rather than face the charges, Wolas vanished. He was disbarred in absentia in 1999 and spent the following years as a fugitive, cycling through at least six false identities and a string of odd jobs — including stints as a bartender and, eventually, a licensed real estate agent — while New York's case against him sat unresolved.
@@ -5256,6 +5260,10 @@ NotoriousNS.push(
     title: 'Stephen Anagor, Chinagorom Onwumere, and Salma Abdalkareem: A Celebrity Romance Scam That Ended in a Death',
     slug: 'stephen-anagor-chinagorom-onwumere-romance-scam-extortion',
     author: 'ScamShield Editorial',
+    // representative photo — replace with an exact match if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/U.S._Army_privates_wait_their_turn_to_go_through_the_convoy_live-fire_course_during_Army_basic_training_at_Fort_Jackson,_September_2006.jpg?width=1200',
+    coverImageCredit: 'Photo: SrA Desiree N. Palacios / U.S. Air Force (public domain) — Fort Jackson, South Carolina, where Anagor and Onwumere met during military training',
+    coverImagePosition: 50,
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/usao-edtn/pr/nigerian-men-and-sudanese-woman-sentenced-over-20-years-romance-scam-resulting-elderly',
     body: `Stephen Anagor and Chinagorom Onwumere met during military training in South Carolina in June 2023. Working with Salma Abdalkareem, the two men ran a scheme that followed the familiar romance-scam script for its first act — an online stranger posing as someone worth falling for — before pivoting into something far more aggressive. In August 2023 they contacted a 74-year-old retired teacher in Jonesborough, Tennessee, convincing him he was corresponding with a well-known female actress. Once the relationship was established, the scammers switched personas, posing as FBI agents and telling the man he was under federal investigation for sexually harassing the "actress," and that the matter could be kept confidential only if he paid.
