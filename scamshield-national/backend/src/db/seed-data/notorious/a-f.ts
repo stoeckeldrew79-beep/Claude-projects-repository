@@ -5974,6 +5974,10 @@ NotoriousAF.push(
     slug: 'carter-reese-berks-county-counterfeit-art-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    // representative photo (case prosecuted by the U.S. Attorney's Office for the Eastern District of Pennsylvania) — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/James_A._Byrne_United_States_Courthouse.jpg?width=1200',
+    coverImageCredit: 'Beyond My Ken, CC BY-SA 4.0, via Wikimedia Commons',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.justice.gov/usao-edpa/pr/berks-county-man-pleads-guilty-art-fraud-scheme-admits-selling-counterfeit-artworks',
     body: `Carter Reese, 77, of the Reading, Pennsylvania area in Berks County, spent roughly two years — from February 2019 to March 2021 — selling artwork he represented as genuine, original pieces by major 20th-century artists: Pablo Picasso, Andy Warhol, Jean-Michel Basquiat, Keith Haring, Francis Bacon, Joan Miró, Roy Lichtenstein, Jean Cocteau, and Fernand Léger among them. According to the U.S. Attorney's Office for the Eastern District of Pennsylvania, Reese knew the pieces were fake the entire time.
 
