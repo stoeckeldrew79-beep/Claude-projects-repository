@@ -7797,6 +7797,10 @@ NotoriousGM.push(
     slug: 'julie-darrah-vivid-financial-management-elder-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Santa_Barbara_County_Courthouse_CA.jpg?width=1200',
+    coverImageCredit: 'Photo: John Stanton (CC BY-SA 3.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.justice.gov/usao-cdca/pr/santa-barbara-county-investment-advisor-sentenced-over-10-years-prison-stealing-nearly',
     body: `Julie Anne Darrah ran Vivid Financial Management, Inc. (VFM), a registered investment advisory firm in Santa Maria, California, where she served as president, chief compliance officer, and a one-third owner. Her clients were disproportionately elderly women, including at least one living in a memory care facility — people who needed to trust someone else to manage money they could no longer easily track themselves.
 
