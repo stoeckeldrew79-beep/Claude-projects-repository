@@ -3429,6 +3429,10 @@ Two back-to-back breaches at the same organization is a pattern worth taking ser
     author: "ScamShield Editorial",
     tags: ["guide", "medtronic-2026-data-breach"],
     sourceUrl: "https://www.bleepingcomputer.com/news/security/medtronic-notifies-customers-impacted-by-shinyhunters-data-breach/",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Medtronic_OHQ_Fridley_MN_2017.jpg?width=1200",
+    coverImageCredit: "Photo: Group29, CC BY-SA 3.0, via Wikimedia Commons — Medtronic's operational headquarters in Fridley, Minnesota",
+    coverImagePosition: 50,
+    // representative photo — the corporate headquarters building, not the breached IT systems themselves
     body: `Medtronic, the world's largest medical device manufacturer, disclosed that it identified suspicious activity inside certain corporate IT systems on April 15, 2026, and that unauthorized access had actually occurred over a roughly week-long window between April 13 and April 19, 2026. The extortion group ShinyHunters claimed responsibility, listing Medtronic on its Tor-based leak site on April 17 and asserting it had stolen more than 9 million records along with terabytes of corporate data, setting a ransom deadline of April 21. Medtronic was later removed from the group's leak site — a detail that has led researchers to suspect, though not confirm, that some form of payment or negotiation took place. After completing its investigation, Medtronic began notifying 3.8 million individuals in the months that followed that their personal and, for many, medical information had been compromised in the breach.
 
 According to Medtronic's notification, the compromised data varies by individual but can include full names, contact information, dates of birth, Social Security numbers, and health-related information. The company said the intrusion was limited to corporate IT systems and that its medical devices, along with its manufacturing and distribution operations, were not affected — meaning the breach is a data-theft and extortion incident rather than one that put any implanted or in-use medical device at risk of tampering.
