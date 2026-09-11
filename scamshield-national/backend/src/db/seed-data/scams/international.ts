@@ -13312,3 +13312,16 @@ International.push(
     country: 'AD',
   },
 );
+
+International.push(
+  {
+    name: 'Antigua and Barbuda FSRC "Digital Cryptocurrency Bank" Unlicensed Entity Warning',
+    slug: 'antigua-barbuda-fsrc-digital-cryptocurrency-bank-unlicensed-warning',
+    description: `Antigua and Barbuda's Financial Services Regulatory Commission (FSRC) issued a public notice on August 14, 2025 warning that an online entity calling itself "Digital Cryptocurrency Bank," also trading as "DCB," is not licensed to operate in or from the jurisdiction despite claiming otherwise. DCB advertises itself through the website dcb-banking.com and lists customer-support and wire-transfer contact points, including an email address and two phone numbers, inviting members of the public to open accounts and move funds through what it presents as a fully regulated international bank offering cryptocurrency-linked banking services. The FSRC confirmed that DCB has never been incorporated under Antigua and Barbuda's International Business Corporation Act and has never been granted a license under the International Banking Act to conduct international banking business, stating plainly that "all statements or representations by DCB claiming lawful registration or licensing by the FSRC to operate in any jurisdiction are false." Because Antigua and Barbuda is a recognized offshore financial center, fraudulent operators frequently borrow the jurisdiction's name and regulatory branding to lend a fake entity false credibility with overseas depositors and investors who have no easy way to check the claim themselves. The FSRC urged anyone who is approached by DCB, who has already sent money to it, or who is offered banking or investment services by any entity claiming an Antigua and Barbuda license to first verify that claim against the register of licensed international banks and other regulated entities published on the Commission's own website, www.fsrc.gov.ag, before sending any funds or personal information, and to report any suspected unlicensed activity directly to the FSRC.`,
+    categorySlug: 'cryptocurrency-scams',
+    alertLevel: 'high',
+    sources: ['Financial Services Regulatory Commission (FSRC) of Antigua and Barbuda', 'Antigua News'],
+    sourceUrl: 'https://antigua.news/2025/08/14/fsrc-issues-warning-unlicensed-digital-cryptocurrency-bank-operating-in-antigua-and-barbuda/',
+    country: 'AG',
+  },
+);
