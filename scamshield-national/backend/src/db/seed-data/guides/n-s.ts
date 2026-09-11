@@ -3995,6 +3995,10 @@ Anyone who suspects their identity has already been misused can start a free rec
     slug: "novo-nordisk-2026-data-breach-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "novo-nordisk-2026-data-breach"],
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Novo_Nordisk_headquarters_building_Denmark.jpg?width=1200",
+    coverImageCredit: "Photo: News Øresund - Johan Wessman, CC BY 3.0, via Wikimedia Commons — Novo Nordisk's HQ in Denmark",
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: "https://www.hipaajournal.com/novo-nordisk-cyberattack/",
     body: `Novo Nordisk, the Danish pharmaceutical giant behind Ozempic, Wegovy, and Rybelsus, posted a notice on its website on June 11, 2026 confirming what it called an "IT security incident involving unauthorised access to a limited number of internal IT systems." The disclosure is worth reading carefully, because what Novo Nordisk has actually confirmed and what the criminal group claiming credit says it stole are two different, only partly overlapping stories — and the gap between them matters for figuring out who's actually at risk.
 
