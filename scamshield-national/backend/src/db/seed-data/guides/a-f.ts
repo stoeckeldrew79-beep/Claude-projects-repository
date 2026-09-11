@@ -7421,6 +7421,9 @@ If you've ever called a doctor's office after normal business hours and been ask
     slug: "atrium-health-pixel-tracking-settlement-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "atrium-health-pixel-tracking-settlement"],
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Carolinas_Medical_Center,_Charlotte,_NC_-_panoramio.jpg?width=1200",
+    coverImageCredit: "Photo: James Willamor (CC BY-SA 3.0) — Carolinas Medical Center, Atrium Health's flagship hospital in Charlotte, NC",
+    coverImagePosition: 50,
     sourceUrl: "https://www.classaction.org/news/1.8m-atrium-health-pixel-settlement-ends-class-action-lawsuit-over-alleged-patient-data-tracking",
     body: `Atrium Health, the Charlotte, North Carolina-based nonprofit system that operates roughly 40 hospitals and hundreds of care sites across the Carolinas and Georgia as part of Advocate Health, has agreed to a $1.8 million settlement resolving a lawsuit over tracking code embedded in its MyAtriumHealth and MyCarolinas patient portals. The case, Roberts, et al. v. The Charlotte-Mecklenburg Hospital Authority, filed in Mecklenburg County Superior Court, didn't allege a hack or a stolen password — it alleged that Atrium Health's own website quietly told outside advertising companies what patients were doing inside a portal most people assume is private between them and their care team.
 
@@ -7437,6 +7440,10 @@ Atrium Health is far from the only health system to face this kind of claim — 
     slug: "choice-home-warranty-arizona-settlement-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "choice-home-warranty-settlement"],
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Air_conditioning_(4141300922).jpg?width=1200",
+    coverImageCredit: "Photo: Lee Haywood (CC BY-SA 2.0)",
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: "https://www.azag.gov/press-release/attorney-general-mayes-announces-118-million-settlement-choice-home-warranty",
     body: `Choice Home Warranty, a New Jersey-based company that sells service contracts promising to repair or replace home systems and appliances like air conditioners, water heaters, and refrigerators when they break down, agreed to pay $11.8 million to resolve a consumer-fraud lawsuit brought by the Arizona Attorney General's Office. A court entered the consent judgment on January 23, 2026, and Attorney General Kris Mayes announced the settlement on February 10, 2026, calling it the largest home warranty consumer-fraud settlement in Arizona history. The state had first sued the company back in 2019.
 
@@ -7453,6 +7460,9 @@ If you bought a Choice Home Warranty contract by phone for an Arizona property i
     slug: "capital-health-2023-data-breach-settlement-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "capital-health-2023-data-breach-settlement"],
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/2023-08-14_13_46_53_The_main_entrance_of_the_Capital_Health_Regional_Medical_Center_(formerly_Helene_Fuld_Medical_Center)_along_U.S._Route_206_northbound_(Brunswick_Avenue)_in_Trenton,_Mercer_County,_New_Jersey.jpg?width=1200",
+    coverImageCredit: "Photo: Famartin (CC BY-SA 4.0) — Capital Health Regional Medical Center, Trenton, NJ",
+    coverImagePosition: 50,
     sourceUrl: "https://www.hipaajournal.com/capital-health-class-action-data-breach-settlement/",
     body: `Capital Health, a nonprofit hospital system operating Capital Health Regional Medical Center in Trenton and Capital Health Medical Center in Hopewell, New Jersey, identified unauthorized activity on its computer network on November 26, 2023. A forensic investigation later determined that a criminal actor had actually been inside the network for roughly two weeks before that, between November 11 and November 26, 2023, and had used ransomware to encrypt files across the system. The ransomware gang LockBit — one of the most prolific ransomware-as-a-service operations in the world at the time, responsible for attacks against hospitals, schools, and government agencies globally before an international law enforcement takedown disrupted its infrastructure in early 2024 — claimed responsibility, and on January 9, 2024 threatened to publish roughly 7 terabytes of data it said it had stolen from Capital Health unless a ransom was paid.
 
