@@ -3112,3 +3112,15 @@ UsTZ.push({
     country: 'US',
     state: 'WV',
 });
+
+UsTZ.push({
+    name: 'KS Cartel Affinity Ponzi Scheme (Waco, Texas)',
+    slug: 'texas-ks-cartel-affinity-ponzi-scheme',
+    description: `Christian Kranenberg and Sebastian Silea ran KS Cartel, LLC out of the Waco, Texas area, soliciting money from friends, family members, and other acquaintances in their own close-knit community by promising the funds would be placed in mutual funds and private stock portfolios. Instead, according to a McLennan County grand jury indictment, the pair diverted more than $380,000 in investor money to personal expenses — including the purchase of a Mercedes-Benz — and used new investors' money to make Ponzi-style payments to earlier investors to keep the scheme looking legitimate. The U.S. Securities and Exchange Commission had already sued Kranenberg and Silea civilly over the same conduct, winning a permanent injunction barring them from participating in the issuance, purchase, offer, or sale of securities along with $265,705.29 in fines and penalties, but the Texas State Securities Board's Enforcement Division continued investigating and referred the case for criminal prosecution. A McLennan County grand jury indicted both men on March 19, 2026 on charges of misapplication of fiduciary property, a first-degree felony carrying a punishment range of up to 99 years or life in prison, along with money laundering. "Investment fraud often begins with trust," said Texas State Securities Board Deputy Securities Commissioner Cristi Ramón Ochoa in announcing the indictment, urging Texans to independently verify that anyone soliciting an investment is properly registered before handing over money — precisely the kind of affinity-fraud case where a personal relationship with the person asking for money substitutes for the due diligence a stranger's pitch would normally invite. Texans can verify whether a person or firm is registered to sell securities or give investment advice, for free, through the Texas State Securities Board's online registration search at ssb.texas.gov before investing, and can report suspected investment fraud to the Board at enforceinfo@ssb.texas.gov.`,
+    categorySlug: 'ponzi-pyramid-schemes',
+    alertLevel: 'high',
+    sources: ['Texas State Securities Board', 'U.S. Securities and Exchange Commission'],
+    sourceUrl: 'https://ssb.texas.gov/news-publications/mclennan-county-grand-jury-indicts-two-alleged-ponzi-scheme-involving-ks-cartel',
+    country: 'US',
+    state: 'TX',
+});
