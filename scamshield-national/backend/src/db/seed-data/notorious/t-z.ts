@@ -2485,6 +2485,10 @@ NotoriousTZ.push(
     slug: 'william-neil-gallagher-money-doctor-affinity-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    // representative photo — replace with an exact match if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Fort_Worth_Skyline.jpg?width=1200',
+    coverImageCredit: 'Photo: Neuwieser (CC BY-SA 2.0) — the Dallas-Fort Worth area, where Gallagher broadcast his "Money Doctor" radio show',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.cbsnews.com/texas/news/william-neil-doc-gallagher-sentenced-life-terms-ripping-off-texans-ponzi-scheme/',
     body: `William Neil Gallagher spent years building a public persona as "Doc" Gallagher, the self-styled "Money Doctor," dispensing financial advice on AM radio stations across the Dallas-Fort Worth area and leaning on his own Christian faith to build trust with an audience of retirees. That platform became the recruiting engine for Gallagher Financial Group and a related entity, W. Neil Gallagher, Ph.D. Agency, Inc., through which he raised at least $19.6 million from roughly 60 senior citizens by early 2019 — a figure that grew, once the full criminal investigation was complete, to about $32 million taken from roughly 190 victims, most of them elderly listeners who trusted him because of his on-air ministry as much as his financial credentials.
 
@@ -2493,5 +2497,24 @@ From December 2014 through January 2019, Gallagher offered investors what he cal
 The SEC filed an emergency civil action on March 7, 2019, and a federal court froze Gallagher's assets, appointed a receiver, and entered a temporary injunction the next day — the same week a Texas criminal indictment, obtained March 4, 2019, led to his arrest. He pleaded guilty to securities fraud and money laundering in Dallas County in 2020 and was sentenced to 25 years in prison and ordered to pay $10.3 million in restitution; then, in a separate Tarrant County case covering additional victims, he pleaded guilty again on August 31, 2021, to securing the execution of a document by deception, theft of property, and misapplication of fiduciary property. On November 1, 2021, Judge Elizabeth Beach sentenced him to three concurrent life terms on those charges, plus ten years each on a related forgery count and two counts of financial exploitation of the elderly. A prosecutor told reporters Gallagher was "one of the worst offenders I have seen." Victims described losses ranging from $50,000 to $600,000 apiece; one, Judy Dewitt, told the court, "I'm afraid my money is going to run out. It's a very scary thing."
 
 Gallagher's scheme is textbook affinity fraud: the religious references on his radio show were not incidental to the pitch, they were the pitch, signaling to a target audience of retired Christians that he was one of them and could be trusted in a way a stranger offering the same guarantees couldn't. A "guaranteed, risk-free" annual return is a red flag regardless of who is offering it, but affinity fraud specifically works by making the messenger — a fellow churchgoer, a fellow veteran, a fellow member of any close-knit community — feel like a reason to skip the scrutiny a stranger would get.`,
+  },
+);
+
+NotoriousTZ.push(
+  {
+    title: 'Vijay Taneja: The $33 Million Mortgage Fraud Behind a Bollywood Dream',
+    slug: 'vijay-taneja-financial-mortgage-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://www.mortgagefraudblog.com/fairfax_man_sentenced_in_33_million_mortgage_fraud_case/',
+    body: `Vijay K. Taneja was, by most outward measures, a Northern Virginia success story: a respected businessman in the Washington, D.C. area's Indian-American community, active in his temple, who ran Fairfax City-based Financial Mortgage, Inc. (FMI), a company that originated and sold residential mortgages across the D.C. metro area. That standing — and the trust it bought him among friends, fellow congregants, and business contacts drawn from the same close-knit community — became the foundation for one of the largest mortgage fraud schemes uncovered in Virginia in nearly two decades.
+
+Beginning around 2001, according to federal prosecutors, Taneja ran FMI's fraud on two fronts at once: creating entirely fictitious loans backed by bogus closings that never happened, and separately selling the same legitimate mortgage to multiple investors simultaneously, pocketing the duplicate proceeds. He also used refinancing transactions as a source of cash, collecting payouts that were supposed to go toward paying off homeowners' prior mortgages and instead keeping much of the money himself, leaving old loans unpaid behind the scenes while new paperwork made it look like the transactions had closed cleanly. Prosecutors said Taneja carried out the scheme with the cooperation of the owner of TitlePro, a now-defunct title company whose closing documents lent the fake transactions a veneer of legitimacy. By the time FMI collapsed into bankruptcy in June 2008, the fraud had cost four lending institutions — Franklin Bank, First Tennessee Bank, Wells Fargo Bank, and EMC Mortgage Co., a J.P. Morgan Chase subsidiary — a combined $33 million.
+
+Alongside the mortgage business, Taneja had been pursuing a very different ambition: becoming a Bollywood film financier and building what The Washington Post and other outlets later described as a "budding entertainment empire," with aspirations of bringing Indian cinema to a wider American audience. NPR's reporting on the case, headlined "Bollywood Producer Chases His Dream, Scams His Community," and further coverage in the Post and Washington City Paper described a man who used the credibility and cash generated by his mortgage business to fund that entertainment ambition, drawing investors, business partners, and goodwill from the same Indian-American community that trusted him as a mortgage lender — the same audience, in other words, whose trust the fraud was quietly spending down.
+
+Taneja pleaded guilty in November 2008 in the U.S. District Court for the Eastern District of Virginia to one count of conspiracy to commit money laundering. On February 2, 2009, he was sentenced to 84 months — seven years — in federal prison, followed by three years of supervised release, and ordered to pay the full $33 million in restitution to the defrauded lenders.
+
+Taneja's case is a reminder that affinity and fraud aren't opposites — they're frequently the same mechanism. A lender or adviser who is already a trusted, visible member of a close community starts every transaction with a credibility a stranger would have to earn, and that head start is exactly what let a mortgage broker quietly sell the same loan to more than one buyer for years before four separate financial institutions ever compared notes.`,
   },
 );
