@@ -4072,6 +4072,10 @@ Pruthi pleaded guilty in January 2012 to charges including obtaining money by de
     slug: 'jessica-richman-zachary-apte-ubiome-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/San_Francisco_City_Hall.JPG?width=1200',
+    coverImageCredit: 'Photo: Sanfranman59, Wikimedia Commons (CC BY-SA 4.0) — San Francisco, where uBiome was headquartered',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     sourceUrl: 'https://www.justice.gov/usao-ndca/pr/ubiome-co-founders-charged-federal-securities-health-care-fraud-conspiracies',
     body: `Jessica Richman and Zachary Apte co-founded uBiome in San Francisco in 2012, pitching a genuinely novel idea: mail-order kits that let ordinary consumers sequence the bacteria in their own gut and get a report back on their microbiome. Richman, as CEO, and Apte, as chief scientific officer, rode the buzz around the emerging field to raise roughly $105 million from venture investors over the company's life, pushing its valuation to around $600 million by a 2018 funding round and landing Richman on lists of promising young founders to watch.
 
