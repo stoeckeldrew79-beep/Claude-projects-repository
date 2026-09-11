@@ -6103,6 +6103,10 @@ Upton's case is elder financial exploitation carried out inside the one relation
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26267',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Anglican chapel, Allerton Cemetery & graves.JPG?width=1200',
+    coverImageCredit: 'Photo: Rodhullandemu / Wikimedia Commons (CC BY-SA 4.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Note: this is a settled civil SEC enforcement action, not a criminal case. Jonathan Webb agreed to settle without admitting or denying the SEC's allegations, and the settlement was subject to court approval that could not be independently confirmed as finalized as of this writing.
 
 Jonathan Webb worked at a cemetery in Massachusetts in various horticultural and groundskeeping roles from 1994 through 2024. He had no professional investment training or experience beyond his own retirement account and personal trading, until around 2019, when he took a two-week course on online trading, with the second week focused specifically on foreign currency exchange, or Forex, trading.
