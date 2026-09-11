@@ -11625,6 +11625,36 @@ International.push(
     sourceUrl: 'https://fsasvg.com/warning-notice-marella-llc-trading-as-changelly/',
     country: 'VC',
   },
+  {
+    name: 'St. Vincent and the Grenadines Bank Mystery Shopper Money Mule Scam',
+    slug: 'st-vincent-grenadines-bosvg-mystery-shopper-money-mule-scam',
+    description: `The Bank of Saint Vincent and the Grenadines (BOSVG) issued a warning, reported May 30, 2025, alerting customers to a fraudulent "mystery shopper" scheme circulating on social media and by email across the Caribbean, including St. Vincent and the Grenadines. The scam advertises easy money-making opportunities, and once a target responds, stolen funds are deposited directly into the victim's own bank account before the scammer asks them to withdraw or wire most of the money elsewhere, promising the victim can keep a "commission" for acting as an intermediary. BOSVG stated plainly, "This is a scam involving stolen funds and cybercrime," and warned customers never to "accept or transfer funds on behalf of unknown individuals" or share online banking credentials or other personal information with anyone contacting them this way. The bank cautioned that participating — even unknowingly — "may implicate you in criminal conduct, including receiving and laundering stolen funds," meaning a victim recruited as a mystery shopper can end up facing money-laundering exposure rather than the promised payout. Customers who had already engaged with such an offer were told to immediately stop communicating with the scammer, refrain from sending any further funds, and contact BOSVG directly at 784-452-4375 to report the incident.`,
+    categorySlug: 'job-task-scams',
+    alertLevel: 'high',
+    sources: ['Bank of Saint Vincent and the Grenadines (BOSVG)', 'St. Vincent Times'],
+    sourceUrl: 'https://www.stvincenttimes.com/bank-of-st-vincent-social-media-scams/',
+    country: 'VC',
+  },
+  {
+    name: 'St. Vincent and the Grenadines WhatsApp Account Takeover and Zelle Scam',
+    slug: 'st-vincent-grenadines-whatsapp-account-takeover-zelle-scam',
+    description: `The Royal St. Vincent and the Grenadines Police Force (RSVGPF) issued a public alert on November 2, 2024 after it was "brought to the attention of law enforcement that the WhatsApp accounts of several persons have been compromised." Once inside a hijacked account, hackers impersonate the real owner and message their contacts directly, running two variations of the same fraud: in one, the impersonator claims the contact has won a cash prize and asks for personal details — full name, address, and bank account number — to "process" the payout; in the other, the impersonator asks the contact to send money using Zelle, the U.S. peer-to-peer payment service, which the RSVGPF noted (quoting Zelle's own description) is marketed as "a fast and easy way to send and receive money" using only an email address or U.S. mobile number, making a fraudulent request hard to distinguish from a genuine one from a trusted contact. The police urged Vincentians not to share personal or financial information without a legitimate reason, to use strong, unique passwords, to verify unusual requests by asking a question only the real contact would know the answer to, and to "exercise caution when clicking links, even if they are sent by someone you know," before wishing the public a "safe and incident-free Yuletide Season" as the alert went out ahead of the December holidays.`,
+    categorySlug: 'account-takeover',
+    alertLevel: 'medium',
+    sources: ['Royal St. Vincent and the Grenadines Police Force (RSVGPF)', 'Searchlight'],
+    sourceUrl: 'https://www.searchlight.vc/front-page/2024/12/03/police-warn-phishing-scam-social-media/',
+    country: 'VC',
+  },
+  {
+    name: 'St. Vincent and the Grenadines Romance and Catfishing Scams',
+    slug: 'st-vincent-grenadines-romance-catfishing-scams',
+    description: `The Royal St. Vincent and the Grenadines Police Force's Information Technology Unit, through Sergeant Syon Shoy, issued a public warning on May 24, 2024 about romance and phishing scams increasingly targeting Vincentians online, cautioning residents to beware of online financial scams. The romance variant lures a target into an online relationship built entirely on a fictional persona — often over months — before the "catfish" begins manipulating the victim into sending money or, in more severe cases, threatens to release intimate images or messages unless paid. Sergeant Shoy said the demographic most frequently victimized in these cases skews toward Vincentians in their late 40s and 50s, and advised the public to be wary of accepting friend requests and romantic overtures from unknown online contacts, particularly ones who quickly profess strong feelings or begin asking for money or sensitive information. The same alert flagged fraudulent mobile apps as a related phishing vector, urging residents to "utilize the PlayStore to download all mobile apps, and not make use of third party websites" that can carry malicious or data-harvesting versions of legitimate apps. The RSVGPF noted that identity fraud is a criminal offense under St. Vincent and the Grenadines' Cyber Crime Act of 2016, carrying penalties of up to $200,000 in fines or three years' imprisonment.`,
+    categorySlug: 'romance-scams',
+    alertLevel: 'medium',
+    sources: ['Royal St. Vincent and the Grenadines Police Force (RSVGPF)', 'Searchlight'],
+    sourceUrl: 'https://www.searchlight.vc/news/2024/05/24/police-warning-to-vincentians-beware-online-financial-scams/',
+    country: 'VC',
+  },
 );
 
 International.push(
