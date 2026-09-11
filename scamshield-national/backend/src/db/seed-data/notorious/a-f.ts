@@ -7595,6 +7595,10 @@ NotoriousAF.push(
     slug: 'elizabeth-gutfahr-santa-cruz-county-treasurer-embezzlement',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Santa_Cruz_County,_Arizona,_courthouse_from_NW_1.JPG?width=1200',
+    coverImageCredit: 'Photo: Ammodramus (CC0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.justice.gov/usao-az/pr/former-santa-cruz-county-treasurer-sentenced-10-years-prison-stealing-over-38-million',
     body: `Elizabeth Gutfahr was an elected official — the Treasurer of Santa Cruz County, Arizona, a small border county whose government relied on her to safeguard its public funds. From 2012 through 2024, prosecutors say, she instead treated the county's accounts as her personal bank.
 
@@ -7612,6 +7616,10 @@ NotoriousAF.push(
     slug: 'frank-whittaker-christine-ellsworth-power-of-attorney-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Ulster_County_courthouse,_Kingston,_NY.jpg?width=1200',
+    coverImageCredit: 'Photo: Daniel Case (CC BY-SA 3.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://ag.ny.gov/press-release/2025/attorney-general-james-announces-conviction-and-sentencing-father-and-daughter',
     body: `Frank Whittaker, of Kingston, New York, first got close to his elderly neighbor in Ulster County by helping her out around the house — mowing her lawn, running errands, the kind of small favors that build trust with an isolated older person over time. According to New York Attorney General Letitia James, that trust eventually turned into legal authority: the woman, 92 years old, named Whittaker her power of attorney, giving him control over her finances, and named his daughter, Christine Ellsworth, as successor power of attorney behind him.
 
