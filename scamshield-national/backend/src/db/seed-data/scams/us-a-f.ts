@@ -7092,3 +7092,17 @@ UsAF.push({
     isHistorical: true,
     firstRecorded: '2019-01-01',
 });
+
+UsAF.push({
+    name: 'Fresno County Stepdaughter Financial Elder Abuse (Abercrombie & Teel)',
+    slug: 'california-fresno-abercrombie-teel-financial-elder-abuse',
+    description: `Gina Denise Abercrombie, 52, of Pleasanton, California, and her partner Justin Linder Teel, 52, of Friant, spent roughly three years — beginning not long after the 2017 death of the wife of Abercrombie's stepfather, Randall Jon Hansen, 74, of Sanger — exploiting his grief and declining health to siphon control of his finances and property. According to the Fresno County District Attorney's Office, the pair drained more than $800,000 from Hansen's financial accounts, forged documents and fraudulent deeds, incorporated a business called Sherwood Forest Mobile Home Park without his authorization while falsely listing Abercrombie as its owner, and fraudulently obtained title to his roughly $3 million Aptos residence by misrepresenting what he was told were refinancing documents as an outright property transfer — together targeting more than $2.4 million in combined financial accounts and real estate. Following a three-month jury trial, Abercrombie and Teel were convicted on May 19, 2026 of one felony count of financial elder abuse and two felony counts of theft by false pretenses. On June 29, 2026, Abercrombie was sentenced to five years of formal probation, 365 days in Fresno County Jail, and a 10-year criminal protective order barring contact with the victim's daughter, while Teel — found to have played the more active role in the property fraud — was sentenced to three years in state prison. Fresno County District Attorney Lisa Smittcamp said "financial exploitation can strip older adults of their savings, independence, dignity, and peace of mind." The case is a reminder that financial elder abuse is frequently committed by a relative or someone already trusted with access to a vulnerable person's affairs rather than a stranger, and that family members, caregivers, and financial institutions should watch for a grieving or declining older relative who suddenly stops handling their own finances, signs unfamiliar documents, or has a relative claiming new ownership over property or accounts — and should report suspected exploitation promptly to Adult Protective Services or local law enforcement rather than assuming a family member's involvement makes it legitimate.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'high',
+    sources: ['Fresno County District Attorney\'s Office', 'ABC30 Fresno', 'KMPH'],
+    sourceUrl: 'https://www.fresnoda.org/News-Media/News-Releases/Two-Defendants-Sentenced-Following-Convictions-in-Multi-Year-Financial-Elder-Abuse-Scheme',
+    country: 'US',
+    state: 'CA',
+    isHistorical: true,
+    firstRecorded: '2017-01-01',
+});
