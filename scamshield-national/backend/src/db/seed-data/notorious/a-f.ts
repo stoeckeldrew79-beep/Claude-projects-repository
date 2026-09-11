@@ -7658,6 +7658,10 @@ NotoriousAF.push(
     slug: 'badetito-obafemi-romance-scam-money-laundering',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    // representative photo — replace with an exact match if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Georgia_State_Capitol,_Atlanta,_West_view_20160716_1.jpg?width=1200',
+    coverImageCredit: 'Photo: Daniel Vorndran / DXR (CC BY-SA 4.0) — Georgia, where Obafemi ran the accounts that laundered the stolen funds',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.justice.gov/usao-wdmo/pr/georgia-man-sentenced-300000-romance-fraud-scheme',
     body: `In May 2016, a woman in Taney County, Missouri, was contacted on Facebook by a man calling himself "Kevin Condon." Over the following months he built what felt like a real relationship with her, then began asking for money — first around $27,400 for an "overseas business project" and medical expenses, and later an attempt to get her to send an additional $40,000. She was one of victims in Missouri, Minnesota, and New Jersey targeted by the same scheme between June 2016 and March 2018, all of them contacted online, drawn into a fabricated romance, and asked for money under a rotating set of pretexts: business ventures, medical emergencies, travel costs.
 
