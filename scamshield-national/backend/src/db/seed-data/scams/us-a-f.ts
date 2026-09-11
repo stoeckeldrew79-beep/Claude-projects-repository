@@ -7007,3 +7007,15 @@ UsAF.push({
     isHistorical: true,
     firstRecorded: '2020-05-01',
 });
+
+UsAF.push({
+    name: 'Bay Minette House Cleaner Cash-Skimming Elder Theft (Tabitha White)',
+    slug: 'alabama-bay-minette-house-cleaner-elder-cash-theft',
+    description: `Tabitha White, 28, worked as a house cleaner for an elderly couple in Bay Minette, Alabama, and, according to the Baldwin County Sheriff's Office, used that access over several months to quietly skim "handfuls" of cash from the home during her visits, eventually taking an estimated $400,000. Investigators say the theft went undetected for months because the couple, who live on a fixed income, kept cash in the home and did not track it closely, letting White take relatively small amounts often enough to avoid raising immediate suspicion. When deputies searched White's property, they found new appliances, a four-wheeler, and lawn equipment purchased with the stolen money. She was arrested in late August 2026 and charged with felony financial exploitation of the elderly before being released from the Baldwin County jail to await a court date. "It's shameful that someone would target people who are on a fixed income and trust someone in their home," Lieutenant Andy Ashton of the Baldwin County Sheriff's Office said in announcing the arrest, and AARP Alabama noted separately that elder financial exploitation costs older Americans an estimated $30 billion a year nationwide. Families who employ an in-home caregiver, cleaner, or aide are advised not to keep large amounts of cash in the house at all, to have a relative outside the household periodically check for anything valuable that has gone missing, and to report suspected elder financial exploitation to local law enforcement or the AARP Fraud Watch Network helpline at 1-833-372-8311.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'high',
+    sources: ["Baldwin County Sheriff's Office", 'FOX10 News (WALA)'],
+    sourceUrl: 'https://www.fox10tv.com/2026/08/29/its-shameful-house-cleaner-steals-400000-cash-elderly-couple-bcso-says/',
+    country: 'US',
+    state: 'AL',
+});
