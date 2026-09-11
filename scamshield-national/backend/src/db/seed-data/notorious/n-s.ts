@@ -4348,7 +4348,10 @@ NotoriousNS.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/usao-edva/pr/leader-international-robocall-scam-sentenced-defrauding-over-4000-us-victims-out-more',
-    // no rights-cleared photo found — sourceUrl above serves as the "read the full story" link
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Ahmedabad skyline from Patang hotel.jpg?width=1200',
+    coverImageCredit: 'Photo: Sneha G Gupta / Wikimedia Commons (CC BY-SA 4.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Shehzadkhan Pathan, 40, ran a call center in Ahmedabad, India, that blasted automated robocalls at phone numbers across the United States, then routed anyone who answered to a live operator posing as a federal agent. Callers impersonated FBI and DEA agents, and in some versions of the pitch, representatives of the Social Security Administration, warning victims — many of them elderly — that they faced imminent arrest, frozen accounts, or other severe legal and financial consequences unless they resolved a supposed problem immediately, sometimes paired with a false promise of a loan to help cover it.
 
 Pathan wasn't just running the center — prosecutors described him as the mastermind and leader of the entire scheme, personally taking over as the "closer" on calls once a victim had been softened up by the initial script, deciding when a target was scared enough to pay. He also managed the logistics that kept the fraud's money moving: a network of couriers inside the United States who collected the funds victims sent and illegally transferred them back overseas to Pathan's call center in India, keeping the cash a step removed from any single bank account that might draw suspicion.
