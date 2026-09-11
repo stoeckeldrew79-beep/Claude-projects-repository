@@ -5600,3 +5600,15 @@ UsNS.push({
     country: 'US',
     state: 'CA',
 });
+
+UsNS.push({
+    name: 'PNM Utility Disconnection Threat Scam (New Mexico)',
+    slug: 'pnm-utility-disconnection-threat-scam',
+    description: `Callers spoof the name and phone number of PNM (Public Service Company of New Mexico), the state's largest electric utility, on caller ID and tell residential or business customers their account is past due, demanding payment within the hour — commonly $200 to $500 from residential customers and more than $1,000 from commercial customers — by prepaid gift card to avoid an immediate power shutoff. Scammers deliberately call outside normal business hours and on weekends, when PNM's offices are closed, to exploit the fact that a real disconnection can't actually happen right then; the utility does not disconnect service on weekends or holidays. A related, separate scheme sends people door-to-door falsely claiming to be PNM employees or PNM-affiliated solar representatives to collect a customer's bill and personal information as a sales lead. PNM says a genuine employee will always present identification if asked and will never call demanding immediate payment by gift card. Customers who get a suspicious call are advised to hang up and call PNM directly at 888-DIAL-PNM (888-342-5766), or text BAL to 78766 to check their real balance, rather than use any number or link the caller provides, and can report scam attempts through PNM's online scam-report form, the FBI's Internet Crime Complaint Center (IC3.gov), the FTC, or the New Mexico Attorney General's Office.`,
+    categorySlug: 'utility-scams',
+    alertLevel: 'high',
+    sources: ['PNM (Public Service Company of New Mexico)', 'KOB4 News'],
+    sourceUrl: 'https://www.pnm.com/scam-calls',
+    country: 'US',
+    state: 'NM',
+});
