@@ -14031,3 +14031,16 @@ International.push(
     country: 'NE',
   },
 );
+
+International.push(
+  {
+    name: 'Niger Fake Government Official Spoofed-Caller-ID Procurement Fraud',
+    slug: 'niger-fake-official-spoofed-caller-id-procurement-fraud',
+    description: `Zinder's Interregional Judicial Police Service (SIRPJ) dismantled a 15-member fraud network in January 2025 that had operated since late 2022, targeting business owners with fake government procurement deals for commodities such as fertilizer, rice, and sugar. The scammers registered spoofed phone numbers on the Truecaller app under the names and photos of real ministers, directors general, traditional chiefs, and prosecutors, so that when a targeted merchant looked up or called back the number, it displayed what appeared to be a legitimate official's verified identity. Posing as these officials, the callers told merchants they had been selected to supply goods for a government contract and needed to rush the merchandise for delivery before the paperwork could be finalized — then disappeared with the products once they were handed over. Within the network, some members researched which real officials to impersonate, others identified and contacted prospective merchant victims, and a separate group received and resold the stolen goods. Police arrested 12 of the 15 identified suspects, including four women between the ages of 21 and 65, with arrests made in Zinder, Niamey, and Agadez and one suspect still at large. Investigators identified 17 victims with combined losses exceeding 133.1 million CFA francs (roughly $220,000), and said several additional attempted frauds using the same spoofed-caller-ID method were stopped before merchants handed over goods.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Service Interrégional de Police Judiciaire (SIRPJ), Zinder, Niger', 'ActuNiger'],
+    sourceUrl: 'https://actuniger.com/faits-divers/20688-cybercriminalite-une-operation-denvergure-a-zinder-met-fin-a-un-reseau-de-15-escrocs-electroniques-133-millions-fcfa-derobes.html',
+    country: 'NE',
+  },
+);
