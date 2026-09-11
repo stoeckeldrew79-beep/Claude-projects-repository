@@ -13468,3 +13468,16 @@ International.push(
     country: 'BY',
   },
 );
+
+International.push(
+  {
+    name: 'Belarus "Riders" NFC Card-Tap Malware Scam',
+    slug: 'belarus-riders-nfc-card-tap-malware-scam',
+    description: `In October 2025, fraudsters telephoned at least 15 people in Belarus, falsely identifying themselves as representatives of the National Bank of the Republic of Belarus, the state postal operator Belpochta, or law enforcement, and warning victims that their funds needed to be "protected" or that a fraudulent loan taken out in their name needed to be "annulled." To do this, victims were told to install an Android application called "Riders" and then hold their bank card against the back of their phone; the app read the card's chip over NFC and relayed the data in real time to the fraudsters, who used it to withdraw cash from ATMs using stolen PIN codes. When one victim explained she only owned an iPhone, which the app could not run on, the callers talked her into buying an Android phone specifically so the scheme could proceed. The Zhlobin District Court convicted two foreign nationals recruited to launder and cash out the roughly 130,000 Belarusian rubles stolen from the 15 victims — one who physically withdrew cash at ATMs in exchange for a 4% commission, and a second convicted of aiding the theft — sentencing both to 5 years 6 months in a strict-regime penal colony on 29 June 2026, plus fines of 6,750 rubles each and an order to fully compensate the victims. The case is a newer variant of NFC card-relay fraud already seen elsewhere: unlike classic phishing, it needs no PIN typed online, only a brief tap of a physical card against a phone running the malicious app, which is why authorities stress that no legitimate bank, postal service, or police officer will ever direct someone to install an unfamiliar app or tap a payment card to a phone in order to "protect" funds.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Zerkalo.io', 'ONT (Belarusian State Television)'],
+    sourceUrl: 'https://news.zerkalo.io/accidents/130758.html',
+    country: 'BY',
+  },
+);
