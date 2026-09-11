@@ -5874,3 +5874,17 @@ UsNS.push({
     sourceUrl: 'https://techcrunch.com/2025/10/09/sora-copycats-flooded-apples-app-store-and-some-still-remain/',
     country: 'US',
 });
+
+UsNS.push({
+    name: 'Northern Mariana Islands Supreme Court Clerk Spoofed Jury Duty Call',
+    slug: 'northern-mariana-islands-supreme-court-clerk-jury-duty-call-scam',
+    description: `The Northern Mariana Islands Judiciary warned the public on October 22, 2025 about callers falsely claiming to represent the Supreme Court Clerk's Office, with some of the reported calls reaching people in the continental United States rather than only on Saipan. The scammers use caller ID spoofing so the call display shows the Judiciary's real phone number, then tell the recipient they missed jury duty or owe money on a nonexistent traffic citation and must report to the Clerk's Office immediately or pay a fee right away to avoid arrest. Recipients who engage are pressured to pay using prepaid debit cards, gift cards, wire transfers, cryptocurrency, or a payment app, or to hand over a Social Security number and bank or card details to "resolve" the fabricated case. The Judiciary stated plainly that it "does not call, email, or text to demand payment or personal information for court-related matters," and recommended hanging up immediately without answering any questions, never trusting caller ID (since it can be spoofed to show a real court number), deleting suspicious texts or emails without clicking any link, and verifying any claimed court matter only by calling the Judiciary directly using a number looked up independently rather than one the caller provides. Anyone who feels physically threatened during one of these calls is told to contact 911, and suspected scam calls can be reported to the CNMI Department of Public Safety, the FTC, or the FBI's Internet Crime Complaint Center (IC3).`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Northern Mariana Islands Judiciary'],
+    sourceUrl: 'https://www.nmijudiciary.gov/news/northern-mariana-islands-judiciary-warns-public-about-scam-calls',
+    country: 'US',
+    state: 'MP',
+    isHistorical: true,
+    firstRecorded: '2025-10-22',
+});
