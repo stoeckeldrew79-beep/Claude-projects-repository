@@ -8415,3 +8415,15 @@ RAD Diversified froze investor redemptions in February 2024 and filed for Chapte
 The RAD Diversified case shows how a nontraded REIT — a structure that, unlike a publicly traded REIT, has no daily market price and no easy way for an investor to independently check what their shares are actually worth — can keep raising money from small investors for years after the underlying properties stop generating enough income to support it, as long as the marketing keeps outrunning the balance sheet.`,
   },
 );
+
+NotoriousGM.push(
+  {
+    title: "Jason Johnson and the Financial Adviser Who Managed Nothing",
+    slug: "jason-johnson-cranston-fake-financial-adviser-fraud",
+    author: "ScamShield Editorial",
+    tags: ["notorious", "notorious-scammer"],
+    body:
+      "Jason Johnson, of Cranston, Rhode Island, introduced himself to a Massachusetts couple in 2017 the way a legitimate financial adviser would: he told them he managed more than $10 million in assets across more than 20 client relationships, and that he could get them steady annuity returns of 6 to 10 percent a year through his company, W.S. Solutions LLC. None of it was true. Johnson wasn't a licensed financial adviser managing a real client book — according to federal prosecutors, he was simply collecting money from people who trusted the title he'd given himself.\n\nThe couple wired Johnson roughly $140,000 to invest on their behalf. Rather than placing the money anywhere close to what he'd promised, prosecutors said Johnson diverted most of it into two bank accounts under his own control and spent it on personal expenses. When the couple tried to check on their investment, Johnson stopped responding to their inquiries — a common inflection point in affinity and solicitation frauds, where a fraudster who cannot produce real account statements simply goes quiet rather than admit the money is gone. W.S. Solutions LLC was dissolved by the time investigators caught up with the scheme.\n\nA federal grand jury indicted Johnson, 53, in March 2025, and he pleaded guilty to one count of wire fraud in the U.S. District Court for the District of Rhode Island. He was scheduled to be sentenced on August 27, 2025. Investigators noted that Johnson had no registration as an investment adviser or broker at any point during his dealings with the couple — a status any prospective client can check for free through FINRA's BrokerCheck or the SEC's Investment Adviser Public Disclosure database before wiring a dollar.\n\nJohnson's case follows a pattern regulators see constantly in smaller-scale investment fraud: no complex trading strategy, no offshore shell companies, just a confident self-description — \"financial adviser,\" \"$10 million under management\" — that a victim has no independent way to verify beyond taking the person's word for it. A real adviser's registration, licensing, and disciplinary history are public record precisely so a prospective client doesn't have to rely on that word alone.",
+    sourceUrl: "https://www.justice.gov/usao-ri/pr/cranston-man-posing-financial-adviser-pleads-guilty-wire-fraud",
+  },
+);
