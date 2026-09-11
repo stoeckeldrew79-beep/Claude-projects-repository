@@ -5523,3 +5523,17 @@ UsGM.push({
     isHistorical: true,
     firstRecorded: '2026-03-17',
 });
+
+UsGM.push({
+    name: 'Whitefish "Fake CIA Rescue Missions" Investment Fraud (Matthew Marshall)',
+    slug: 'montana-whitefish-fake-cia-rescue-mission-investment-fraud',
+    description: `Matthew Anthony Marshall, 51, of Whitefish, Montana, told a Montana investor he was a former Force Recon Marine and a current CIA operative who needed private funding to run five off-the-books CIA-backed rescue missions in foreign countries — money the government supposedly couldn't provide through normal channels. In reality, Marshall had never worked for the CIA and had received an Other Than Honorable discharge from the Marine Corps Reserve in November 1999. To keep the story believable over several years, Marshall used a burner-number app to generate fake Virginia-area-code phone numbers and sent the victim fabricated text messages purporting to come from Cofer Black, a real former director of the CIA's Counterterrorist Center, praising the fictional missions' success. Believing he was quietly bankrolling real intelligence operations, the victim wired Marshall roughly $2,355,000 between 2013 and 2016 — money Marshall spent on personal expenses and gifts rather than any mission, while also failing to report $356,756 of it as income. Marshall pleaded guilty to wire fraud, money laundering, and tax evasion, and U.S. District Judge Donald W. Molloy sentenced him on March 3, 2022 to six years in federal prison plus three years of supervised release, ordering $3,254,327 in total restitution — $2,355,000 to the victim and $899,327 to the IRS. "Marshall promoted a fantasy world," said U.S. Attorney Leif Johnson. "It was all fake, but unfortunately it was paid for with real money from a real victim." The case is a reminder that an investment pitch built around secrecy, national security, or a supposed government operation that can't be independently verified is a red flag regardless of how convincing the supporting "evidence" looks — a real federal agency does not solicit private citizens to personally fund off-the-books missions, and claimed military or intelligence credentials can be checked through the National Personnel Records Center or a service member's own discharge paperwork before any money is sent.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'medium',
+    sources: ["U.S. Attorney's Office for the District of Montana", 'Missoulian', 'KPAX'],
+    sourceUrl: 'https://www.justice.gov/usao-mt/pr/whitefish-man-sentenced-six-years-prison-defrauding-montana-investor-23-million-scheme',
+    country: 'US',
+    state: 'MT',
+    isHistorical: true,
+    firstRecorded: '2022-03-03',
+});
