@@ -6507,3 +6507,22 @@ The scheme collapsed in late 2023 and into early 2024, when the guaranteed month
 Affinity fraud like the scheme described in the SEC's complaint depends on a specific and durable vulnerability: the more tightly knit and trust-based a community is, the less its members tend to demand the kind of paperwork, audited statements, or independent verification they might insist on from an outside broker. A guaranteed fixed monthly return, regardless of what options markets are actually doing that month, is a claim no legitimate trading operation can honestly make — a fact that outside due diligence might catch quickly, but that shared faith, language, and community standing can make invisible for years.`,
   },
 );
+NotoriousAF.push(
+  {
+    title: 'Frederick Kumi, the AI-Generated "Girlfriends," and an $8 Million Romance Fraud Indictment',
+    slug: 'frederick-kumi-abu-trica-ai-romance-scam',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-ndoh/pr/ghanaian-national-extradited-us-face-accusations-using-romance-fraud-schemes-take-8',
+    // criminal case pending trial as of writing — no rights-cleared photo identified, sourceUrl serves as the "read the full story" link
+    body: `Note: this case is a pending criminal prosecution. An indictment is only a charge, not evidence of guilt, and the defendants are presumed innocent unless and until proven guilty at trial. As of this writing, jury selection in the case had just begun and no verdict had been reached.
+
+To his followers in Ghana, Frederick Kumi was a 31-year-old social media entrepreneur from Swedru who went by the online handle "Abu Trica." According to a federal indictment unsealed in the Northern District of Ohio, that public persona sat alongside a very different one: prosecutors allege that between April 2023 and November 2025, Kumi — using the aliases Emmanuel Kojo Baah Obeng and Abu Trica — led a criminal network, together with co-defendant Daniel Yussif (also known as "Denteni" and "Slab"), that used artificial intelligence tools to fabricate entirely fictitious romantic partners and deploy them against more than 80 elderly Americans, extracting more than $8 million.
+
+What distinguishes the scheme described in the indictment from an ordinary romance scam, prosecutors say, is the technology behind the deception. Rather than relying solely on scripted messages and borrowed photographs, Kumi is accused of using AI-driven video and image tools to build and sustain convincing fake female personas capable of engaging victims — many of them widows and divorcees found through online dating sites and social media — in what felt like a real, ongoing relationship rather than a text exchange with a stranger. Once trust was established, the indictment alleges, victims were drawn in with fabricated stories, including claims of gold or diamond inheritances that required the victim's help to access, and were then instructed to wire money to bank accounts controlled by members of the conspiracy.
+
+Kumi was arrested in Ghana on December 11, 2025, following an investigation by the FBI's Cleveland Division, and was extradited to the United States on July 9, 2026, to face a federal grand jury indictment charging him with conspiracy to commit wire fraud and money laundering conspiracy — charges that together carry a statutory maximum of 20 years in prison. He pleaded not guilty at his arraignment before U.S. District Judge John R. Adams, and the court set a jury trial for September 8, 2026, with Assistant U.S. Attorney Brian M. McDonough prosecuting the case for the Northern District of Ohio.
+
+The Abu Trica case sits at an uncomfortable frontier for elder-fraud investigators: generative AI tools that were, until recently, expensive and technically demanding are now cheap and simple enough for a scam network to use them not just to write more convincing messages, but to manufacture the sustained illusion of an actual person — a voice, a face, a relationship maintained in real time over months. If the government's allegations hold up at trial, the case offers a preview of how much harder the oldest trick in the fraud playbook, a stranger claiming to love you, may become to spot once the stranger is not a person typing from a script but a synthetic performance built to survive a video call.`,
+  },
+);
