@@ -11104,6 +11104,16 @@ International.push(
     sourceUrl: 'https://www.three.fm/news/isle-of-man-news/fraudster-ran-12500-lover-scam-on-elderly-manx-woman/',
     country: 'IM',
   },
+  {
+    name: 'Isle of Man Fake "JMS Corporate Services" Clone Investment Firm',
+    slug: 'isle-of-man-fake-jms-corporate-services-clone-investment-firm',
+    description: `The Isle of Man Financial Services Authority (FSA) issued a public warning in March 2026 about a fraudulent website, jmscsl.com, that falsely claimed to be JMS Corporate Services Limited, gave a Douglas address, and advertised investment services to attract customers. The FSA's investigation found the site had no connection to any company actually incorporated in the Isle of Man and that whoever operated it was not authorised to provide financial services from or within the Island — a classic "clone firm" tactic in which fraudsters borrow the name, address, and credibility of a genuine or plausible-sounding local entity to make an unauthorised operation look legitimate. The regulator warned that anyone who had already engaged with the site risked both financial loss and the unauthorised collection of personal data that could be used for identity theft, and said steps had been taken to get the website removed. The FSA's standard advice applies: always check a firm against its public Register of Authorised Firms and call back only on the switchboard number listed there, never on a number or link the firm itself provides, and report suspicious approaches to Isle of Man Constabulary and the Cyber Security Centre for the Isle of Man.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'high',
+    sources: ['Isle of Man Financial Services Authority', 'Manx Radio'],
+    sourceUrl: 'https://www.manxradio.com/news/isle-of-man-news/financial-regulator-warns-public-about-fraudulent-website-claiming-isle-of-man-links/',
+    country: 'IM',
+  },
 );
 
 International.push(
