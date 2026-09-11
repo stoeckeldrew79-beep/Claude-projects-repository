@@ -7710,3 +7710,37 @@ The CFTC filed a civil fraud complaint on September 3, 2009, and a federal court
 Diamond's pitch worked because it inverted the one honest thing anyone in currency trading can tell a client: results vary, and no one can guarantee a specific return regardless of what the market does. A "guaranteed" 2.75 to 5 percent every month, paid no matter what, isn't a description of a skilled trader — it's a description of a Ponzi payment schedule, since real trading profits don't arrive on that kind of clockwork. The false account statements were what let the scheme run for three years instead of three months: investors who see paper gains every month have little reason to ask where the money is really coming from until the checks stop clearing.`,
   },
 );
+
+NotoriousAF.push(
+  {
+    title: "Aaron Beam: HealthSouth's First CFO, Who Says He Was Too Afraid to Say No",
+    slug: 'aaron-beam-healthsouth-accounting-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://www.justice.gov/archive/opa/pr/2003/April/03_crm_255.htm',
+    body: `Aaron Beam helped Richard Scrushy found HealthSouth out of a single-room office in 1984 and served as the company's first chief financial officer as it grew into the country's largest chain of rehabilitation hospitals. According to Beam's own later account and federal prosecutors, the trouble started in 1996, when HealthSouth's quarterly earnings began falling short of the numbers Scrushy had already promised Wall Street analysts. Rather than report the shortfall, Beam has said, Scrushy directed him to "fix the numbers" so the company's reported results matched the forecast instead of the business it actually ran.
+
+What began that year grew into a fraud that continued for most of a decade, eventually overstating HealthSouth's earnings by roughly $2.7 billion — one of the largest accounting frauds in U.S. corporate history. Beam's own role, prosecutors said, was to help engineer the earliest false entries and to sign off on financial statements — submitted to lenders including AmSouth Bank to secure roughly $55 million in loans and credit — that he knew materially misstated HealthSouth's income, assets, and liabilities. He retired from the company in October 1997, by his account increasingly uneasy about a fraud he had helped start but no longer controlled, while the scheme he'd helped design kept running without him for years afterward.
+
+The Justice Department charged Beam with bank fraud in April 2003, and he pleaded guilty that same year, agreeing to cooperate with the broader investigation into Scrushy and the rest of HealthSouth's finance department. That cooperation became pivotal: at Scrushy's 2005 criminal trial, Beam testified that Scrushy had personally ordered him to alter the books, one of the prosecution's central pieces of evidence in a trial that nonetheless ended with a Birmingham jury acquitting Scrushy on all 36 fraud-related counts. On August 25, 2005, a federal judge sentenced Beam to three months in prison, a $10,000 fine, and $275,000 in forfeiture — a comparatively light sentence prosecutors specifically requested because of how much his cooperation had helped build the government's case, even though it wasn't enough, in the end, to convict the man he said gave the order.
+
+Beam later wrote a memoir, "HealthSouth: The Wagon to Disaster," and became a paid speaker on corporate ethics, telling audiences he had no real excuse for what he'd done: "I should have stood up to Richard Scrushy and said 'No,' but I didn't." His case is a reminder that the subordinate who eventually cooperates rarely gets to undo the fact that the falsified paperwork still carries their own signature — being pressured into a fraud by a boss is a mitigating story prosecutors and juries may credit at sentencing, but it isn't a defense to having committed it.`,
+  },
+);
+
+NotoriousAF.push(
+  {
+    title: 'Betty Vinson: The WorldCom Accountant Who Kept Falsifying the Books While Hoping to Be Fired',
+    slug: 'betty-vinson-worldcom-accounting-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-19776',
+    body: `Betty Vinson spent nearly two decades as an accountant at WorldCom, rising to director of management reporting, before she became one of the central figures in the roughly $11 billion accounting fraud that sank the telecommunications giant into the largest corporate bankruptcy in U.S. history at the time. Unlike WorldCom's top executives, Vinson wasn't accused of designing the scheme — prosecutors and the SEC said she carried it out at the direction of others, reclassifying billions of dollars in ordinary operating expenses as capital expenditures so the company's reported earnings would keep matching the numbers Wall Street expected, even as WorldCom's real business slowed.
+
+Vinson later testified that she knew the entries were wrong from the start and twice tried to resign rather than keep making them. At an October 2000 meeting, she and fellow accountant Troy Normand told CFO Scott Sullivan they wanted out; according to Vinson's account, Sullivan talked them out of it with an analogy that stuck with investigators for years afterward — "We have planes in the air. Let's get the planes landed. Once they've landed, if you still want to leave, then leave" — and both stayed, making the same kind of fraudulent adjustments for roughly another year and a half rather than force the confrontation their resignations would have caused.
+
+The fraud finally unraveled in June 2002, when WorldCom's internal audit department uncovered the improperly capitalized expenses. Vinson pleaded guilty that October to conspiracy and securities fraud, becoming one of the government's key cooperating witnesses, and her testimony at CEO Bernard Ebbers's 2005 criminal trial — describing the pressure she said came down from Sullivan and, through him, from Ebbers — helped secure Ebbers's conviction and 25-year sentence. On August 5, 2005, a federal judge sentenced Vinson herself to five months in prison followed by five months of home confinement, a sentence far below what she could otherwise have faced, in recognition of her cooperation. The SEC separately barred her from practicing as an accountant before the agency.
+
+Vinson's case became one of the most closely studied examples of how an ordinary employee gets drawn into a fraud she recognized as wrong from the outset: not through greed, in her own telling, but through a boss's calm insistence that the false entries were only temporary, that resigning would solve nothing, and that going along for one more quarter was easier than being the one who forced the plane to crash. Knowing something is fraudulent and doing it anyway because refusing felt harder is a common thread through cases on this list, and Vinson's is one of the clearest illustrations of how that reasoning plays out from the inside, quarter after quarter, until an auditor outside the chain of command finally looks at the numbers and asks the question no one inside it was willing to ask.`,
+  },
+);
