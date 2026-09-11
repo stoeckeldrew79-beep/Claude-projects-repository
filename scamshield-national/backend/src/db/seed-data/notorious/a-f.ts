@@ -6609,26 +6609,6 @@ The case is a reminder that a romance scam's fictions don't necessarily end at s
 );
 NotoriousAF.push(
   {
-    title: 'Oscar Manuel Castanos Garcia and the Dominican Call Center Behind a $5 Million Grandparent Scam',
-    slug: 'oscar-castanos-garcia-dominican-grandparent-scam',
-    author: 'ScamShield Editorial',
-    tags: ['notorious', 'notorious-scammer'],
-    sourceUrl: 'https://www.justice.gov/usao-ma/pr/operators-transnational-elder-fraud-scheme-plead-guilty',
-    // representative photo — replace with a portrait if found
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/2017_Moakley_US_Courthouse_from_Boston_Harbor.jpg?width=1200',
-    coverImageCredit: 'Beyond My Ken, CC BY-SA 4.0, via Wikimedia Commons',
-    coverImagePosition: 50,
-    body: `Oscar Manuel Castanos Garcia, 34, ran a "grandparent scam" operation the way a legitimate outsourced call center might be run, complete with job titles and a division of labor — except every call it made was engineered to convince an elderly American that a grandchild was sitting in a jail cell somewhere, needing cash before a judge would let them go. From a base in the Dominican Republic, Castanos Garcia directed call-center managers Joel Jose Cruz Rodriguez, who went by "Paflow," and Edward Jose Puello Garcia, who together oversaw the staff running two linked roles on every call: an "opener," who placed the first call impersonating a panicked grandchild claiming to have been in a car accident, and a "closer," who called back posing as that grandchild's attorney to name a dollar figure for bail or legal fees and walk the victim through how to pay it.
-
-The operation targeted victims by volume rather than by any special vulnerability beyond age — federal investigators eventually identified more than 400 victims with an average age of 84, at least 50 of them in Massachusetts, who collectively lost more than $5 million. Once a victim agreed to pay, "runners" like Joel Francisco Mathilda Leon collected the cash in person, arranging pickups through rideshare drivers or having money mailed directly, while Gerardo Heriberto Nuñez Nuñez moved the proceeds through U.S. bank accounts and back to operators in the Dominican Republic — a laundering pipeline built specifically to get the money out of the country before any bank or victim's family member could ask where it had gone.
-
-A federal grand jury in the District of Massachusetts charged thirteen individuals in the scheme in May 2024; Castanos Garcia and several co-defendants were arrested in the Dominican Republic in August 2025 and extradited to face trial. Castanos Garcia, Cruz Rodriguez, Puello Garcia, and Mathilda Leon each pleaded guilty in 2026 to one count of conspiracy to commit mail and wire fraud and one count of money laundering conspiracy — charges carrying up to 20 years in prison apiece — while Nuñez Nuñez agreed separately to plead guilty to the money laundering count alone. A co-defendant further down the operation's chain, Luis German Santos Burgos, known as "Mambo Flow," was already sentenced on June 25, 2026, to 48 months in federal prison, giving prosecutors their first concrete sentencing benchmark for the case even as Castanos Garcia and the other pleaders awaited their own sentencing before U.S. District Judge Leo T. Sorokin.
-
-The grandparent scam is one of the oldest tricks in the elder-fraud playbook precisely because it exploits a parent's or grandparent's instinct to act first and verify later, and the two-role "opener/closer" structure Castanos Garcia's operation used is built to compress that instinct into a single phone call before anyone has time to hang up and dial the grandchild directly. What made this case unusual wasn't the script — it was the scale of the infrastructure behind it, a multinational operation with defined job roles, a dedicated laundering arm, and enough victims across enough states that piecing together the full picture took a federal investigation running from a 2024 indictment through extraditions, guilty pleas, and sentencings still unfolding two years later.`,
-  },
-);
-NotoriousAF.push(
-  {
     title: 'Arsalan Rawjani and the $18 Million "Trade with Ayasa" Ponzi Scheme That Preyed on North Texas\'s Ismaili Community',
     slug: 'arsalan-rawjani-trade-with-ayasa-ponzi-scheme',
     author: 'ScamShield Editorial',
