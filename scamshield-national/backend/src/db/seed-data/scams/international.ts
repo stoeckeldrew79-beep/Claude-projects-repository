@@ -13106,3 +13106,43 @@ International.push(
     country: 'MS',
   },
 );
+
+International.push(
+  {
+    name: 'Cocoro Hotel and Beluu Sea View Resort Online Scam Compounds (Koror)',
+    slug: 'palau-cocoro-beluu-hotel-scam-compounds-prince-group',
+    description: `In early January 2025, Palau's National Security Coordination Office (NSCO), Bureau of Immigration, and Bureau of Public Safety raided two Koror hotels, the Cocoro Hotel and the Beluu Sea View Resort, and found sophisticated online scam operations running so-called "pig-butchering" schemes that lure victims into fake online relationships, gambling sites, or investment come-ons before draining their money through rigged cryptocurrency platforms. Investigators detained roughly two dozen foreign nationals from China, Vietnam, and Malaysia who worked under Chinese-language nicknames such as "Shark" and "Little Hero," ran scripted Chinese-language pitches aimed largely at gambling and investment victims overseas, and — according to Palau's Ministry of Finance chief information security officer, Jay Hunter Anson — had been shielded by "insider access and protection" from prominent local figures. One of the two operations, based at the Cocoro Hotel, was generating at least $200,000 a month funneled offshore through the Tron cryptocurrency network and had reportedly run undetected for roughly two and a half years; local sponsors whose companies held the visas of the detained workers included Cocoro Hotel owner Vance Polycarp, a former board member of Palau's banking regulator, and former Palau vice president Elias Camsek Chin, who denied any knowing involvement. Because Palau, in Anson's words, still has "zero cybercrime laws or regulations," at least 12 of the detained workers could not be prosecuted locally and were instead deported. The case reached further in October 2025, when the U.S. Treasury's Office of Foreign Assets Control, acting jointly with the United Kingdom, sanctioned Palau-based hotelier Wang Guodan (also known as Rose Wang) along with two of her companies, Jing Pin Inc. and Aqua Pure Water Inc., for acting as a "transnational organized crime facilitator" who handled local administrative affairs for the Cambodia-based Prince Group and helped it obtain a lease on Palau's Ngerbelas Island — the same criminal network whose founder, Chen Zhi, was separately indicted by U.S. federal prosecutors for running forced-labor scam compounds across Southeast Asia. Consumer advocates note the case shows how a scam's real operators, and the country it is physically run from, are often invisible to the victim on the other end of a chat; anyone approached online about a "guaranteed" cryptocurrency or gambling opportunity by a new romantic or business contact should assume the platform may be run out of a trafficking-linked compound rather than a legitimate company, regardless of how polished it looks.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'critical',
+    sources: ['OCCRP (Organized Crime and Corruption Reporting Project)', 'Island Times', 'U.S. Department of the Treasury (OFAC)'],
+    sourceUrl: 'https://www.occrp.org/en/investigation/foreign-workers-local-sponsors-inside-palaus-hotel-scam-centers',
+    country: 'PW',
+  },
+);
+
+International.push(
+  {
+    name: 'Online Romance Scams Surging Among Elderly Palauans',
+    slug: 'palau-online-romance-scams-elderly-victims',
+    description: `In a report published May 5, 2026, Island Times detailed a rising wave of online "friendship" and romance scams targeting Palau's senior citizens, with victims persuaded to send thousands of dollars to strangers they had never met in person. In one case, an elderly woman living on Social Security lost more than $10,000 after months of daily messaging with an online contact who never appeared on video and eventually asked for money to cover a fabricated emergency; her niece, who discovered the losses, said her aunt "really believes this to be real" even after the scam was explained to her, and other victims interviewed said shame kept them from telling their own families, let alone reporting the loss to police. Officials said the pattern typically begins with a friend request on Facebook, Instagram, Snapchat, or WhatsApp from a stranger posing as a romantic prospect, an old friend, or a successful businessperson overseas, followed by weeks or months of frequent messaging meant to build trust before the scammer introduces a fabricated emergency, business opportunity, or financial "reward" and asks for money by bank transfer or remittance service; once funds leave Palau, both the money and the scammer disappear. Palau's Financial Intelligence Unit is leading awareness efforts alongside the Bureau of Public Safety and the Office of the Special Prosecutor, but authorities acknowledge that because these schemes are run from overseas, the odds of recovering lost funds or identifying an offender are low even when a victim does report the loss to the Bureau of Public Safety at 488-2412 or the Office of the Special Prosecutor at 767-3291 or www.palauosp.org. Officials are urging residents, especially elderly relatives who may be less familiar with the pattern, to be suspicious of any online-only relationship that quickly turns romantic or financially generous, to never send money to someone they have not met in person, and to talk with family before wiring funds to an unfamiliar overseas contact.`,
+    categorySlug: 'romance-scams',
+    alertLevel: 'high',
+    sources: ['Island Times', 'Palau Financial Intelligence Unit', 'Bureau of Public Safety (Palau)'],
+    sourceUrl: 'https://islandtimes.org/online-romance-scams-surge-in-palau-targeting-elderly-victims/',
+    country: 'PW',
+  },
+);
+
+International.push(
+  {
+    name: 'Fake Palau Financial Institutions Commission Websites (pfsa.pw, palaufsr.org)',
+    slug: 'palau-fake-financial-institutions-commission-websites',
+    description: `The Republic of Palau's Financial Institutions Commission (FIC) — the country's sole bank licensing authority and financial regulator — issued back-to-back public warnings, first on August 12, 2021 and again on June 9, 2022, after discovering that unknown parties had built fake regulatory websites designed to pass as an official Palau banking authority. The first, at pfsa.pw, assumed the identity of a bank-licensing regulator for the Republic of Palau and made false claims about how a person or company could obtain a license to operate a bank or other financial institution there; the FIC described the site as "well developed" and convincing enough to appear legitimate, noting that it had copied the FIC's actual banking and financial-institution regulations, renumbered them, and altered key licensing requirements, so that anyone relying on the fake site could believe they were following genuine Palau law while actually following fabricated rules from an entity with no legal authority to license anything. A second fraudulent site, palaufsr.org, surfaced the following year using the same basic approach. In both warnings the FIC stressed that it is the only body legally authorized to license and supervise banks and financial institutions in the Republic of Palau, that its sole official website is ropfic.org, and it asked anyone who had already interacted with either fake site — for example by submitting an application, a payment, or personal or corporate documents believing they were obtaining a real Palau banking license — to contact the Commission directly. The case illustrates a scam pattern aimed less at everyday consumers than at foreign entrepreneurs and shell-company operators shopping for an offshore banking charter: because a convincingly cloned regulator website can be used to sell fake "approvals" that carry no real legal standing, the FIC urges anyone considering a Palau-licensed bank, trust, or financial institution to verify a company's or intermediary's claims directly against ropfic.org rather than trusting a search-engine result or a link supplied by the person offering the license.`,
+    categorySlug: 'government-impersonation',
+    sources: ['Republic of Palau Financial Institutions Commission'],
+    sourceUrl: 'https://ropfic.org/2022/06/09/second-fake-and-fraudulent-website/',
+    country: 'PW',
+    isHistorical: true,
+    firstRecorded: '2021-08-12',
+  },
+);
