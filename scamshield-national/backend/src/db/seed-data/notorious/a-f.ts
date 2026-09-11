@@ -8133,6 +8133,18 @@ NotoriousAF.push(
 
 NotoriousAF.push(
   {
+    title: "Justinas Butkus and the Mutual Funds That Never Existed",
+    slug: "justinas-butkus-tbo-gray-capital-fake-mutual-funds",
+    author: "ScamShield Editorial",
+    tags: ["notorious", "notorious-scammer"],
+    body:
+      "Note: this is a civil SEC enforcement action. The complaint describes allegations only — Justinas Butkus has not been criminally charged in connection with this scheme, and neither he nor his companies has been found liable by a court as of this writing.\n\nJustinas Butkus, a Lithuanian national, built two investment firms, TBO Capital Group and Gray Capital Group, around a product that sounds mundane precisely because mutual funds are one of the most familiar, most regulated investment vehicles ordinary people buy — which made it an effective disguise for something that didn't actually exist. Operating in part under the alias \"Darius Karpavicius,\" Butkus and two companies he owned and controlled, HMC Trading LLC and HMC Management LLC, built professional-looking websites, issued press releases, and ran internet advertisements starting in late 2021 offering investors shares in TBO Capital and Gray Capital mutual funds. The materials claimed the funds were run by industry professionals with decades of experience and had racked up years of high-yield returns.\n\nAccording to the Securities and Exchange Commission's complaint, filed February 27, 2025 in the U.S. District Court for the Southern District of New York, none of it was real: the funds themselves were fictitious, the managers whose biographies appeared on TBO Capital's and Gray Capital's marketing materials did not exist, and no investor money was ever actually placed into any fund. Despite that, the pitch worked well enough to raise approximately $4.1 million from 64 investors. Butkus used roughly $3.6 million of it — the bulk of what came in — on himself, the SEC says, spending it on groceries, restaurants, hotels, clothes, cash withdrawals, and cryptocurrency purchases; a company he controlled called DK Auto LLC was named as a relief defendant in the case. The SEC had originally filed a version of the case in January 2024, which was dismissed without prejudice, before refiling the complaint in February 2025 with the fuller allegations described here.\n\nThe SEC's complaint charges Butkus, HMC Trading, and HMC Management with violating the registration and antifraud provisions of the federal securities laws, and seeks permanent injunctions, disgorgement, and civil penalties. \"Butkus' conduct was egregious: He went to great lengths to defraud unsuspecting investors using sophisticated websites,\" said Samuel Waldon, Acting Director of the SEC's Division of Enforcement, in announcing the case. As of this writing, the litigation remains pending.\n\nA mutual fund is one of the most heavily regulated products in American finance — real ones are registered with the SEC, file public prospectuses, and disclose their actual managers and holdings, all searchable for free through the SEC's EDGAR database. Butkus's fictitious funds carried none of that paperwork, only a website and a press release built to look like it, which is precisely the gap a prospective investor can close by checking a fund's registration before, rather than after, wiring money to buy into it.",
+    sourceUrl: "https://www.sec.gov/newsroom/press-releases/2025-46",
+  },
+);
+
+NotoriousAF.push(
+  {
     title: "Alec Dierna, John Engler, and the $8 Million 'Merchandise You Never Ordered' Mail Scheme",
     slug: "alec-dierna-john-engler-unordered-merchandise-mail-fraud",
     author: "ScamShield Editorial",
