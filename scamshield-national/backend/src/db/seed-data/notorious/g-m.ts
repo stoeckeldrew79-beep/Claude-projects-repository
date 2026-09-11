@@ -7645,6 +7645,10 @@ NotoriousGM.push(
     title: 'Larry Ray: The Con Man Who Turned a College Dorm Into a Decade-Long Extortion Scheme',
     slug: 'larry-ray-sarah-lawrence-extortion-scheme',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/SLCTweed.JPG?width=1200',
+    coverImageCredit: 'Photo: EdRichardson (CC BY 3.0) — Sarah Lawrence College, where Ray moved into his daughter\'s dorm and built his scheme',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.foxnews.com/us/sarah-lawrence-college-trafficker-larry-ray-sentenced-60-years-sex-trafficking-forced-labor-scheme',
     body: `In 2010, Lawrence "Larry" Ray moved into his daughter's dorm room at Sarah Lawrence College in Bronxville, New York, ostensibly to stay with her after a difficult period in his own life. He never really left, and neither did the influence he built over the following decade — not just over his daughter but over the circle of her roommates and friends who became known, privately, as "the Ray family."

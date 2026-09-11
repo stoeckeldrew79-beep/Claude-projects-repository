@@ -14026,3 +14026,16 @@ International.push(
     country: 'MR',
   },
 );
+
+International.push(
+  {
+    name: 'Nouakchott Land Subdivision and Forged Title Fraud',
+    slug: 'mauritania-nouakchott-land-subdivision-forged-title-fraud',
+    description: `Mauritania's Ministry of Housing, Urbanism, and Territorial Planning issued a public warning in September 2020, reported by Le360 Afrique, about widespread fraud involving illegally subdivided land parcels offered for sale in Nouakchott, particularly in the capital's northern and western zones. The Ministry described unqualified intermediaries selling plots that do not appear on any approved, filed subdivision plan, that come with forged or irregular ownership documents, and that are frequently the product of an unauthorized division of a rural land concession never recognized in an official layout — meaning a buyer can pay in full for a parcel with no valid legal title that may not even correspond to real, surveyed land. The Ministry noted the capital had already accumulated more than 50,000 land disputes and urged prospective buyers to verify, before paying anything, that a parcel appears on an approved subdivision plan, physically exists as described, was not created by dividing a rural concession, and carries an authentic title confirmed directly with the lands department rather than relying on documents supplied only by the seller or broker.`,
+    categorySlug: 'mortgage-foreclosure-scams',
+    alertLevel: 'high',
+    sources: ['Le360 Afrique', 'Ministry of Housing, Urbanism and Territorial Planning (Mauritania)'],
+    sourceUrl: 'https://afrique.le360.ma/mauritanie/politique/2020/09/01/31711-mauritanie-le-ministere-de-lhabitat-alerte-sur-des-escroqueries-foncieres-nouakchott-31711/',
+    country: 'MR',
+  },
+);
