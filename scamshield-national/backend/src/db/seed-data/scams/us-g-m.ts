@@ -5874,3 +5874,16 @@ UsGM.push({
     country: 'US',
     state: 'MA',
 });
+
+UsGM.push({
+    name: 'Mississippi Annual Report Mailer Scam',
+    slug: 'mississippi-annual-report-mailer-scam',
+    description: `Mississippi Attorney General Lynn Fitch warned businesses on March 18, 2025 to carefully review any mail or email claiming to help them file the annual report required of every for-profit business and LLC operating in Mississippi — a filing that is available free of charge directly through the Mississippi Secretary of State's Office. Some private companies send solicitations dressed up to look like official government correspondence, charging a fee that can run several hundred dollars for a filing the state itself performs at no cost. "Small businesses have enough to do trying to keep their products on the shelves, their employees paid, and their customers happy," Fitch said. "Sometimes there just is not enough time to pay close attention to the emails and mail they get so they end up falling for a government imposter letter. Some of these letters are slick, but not malicious, and the business may end up paying for something they could get for free from a government agency. But some are actual scam artists who can expose the business to a loss of valuable private information." Her office cited a real example: after it flagged one advertising company's mailer as a possible violation of the Mississippi Consumer Protection Act, the company removed the state flag from its seal and added disclosures making clear it was not a government mailing — changes Fitch's office now points to as a checklist for spotting an imposter, including a website or email address ending in .com or .org rather than .gov, and a notice that the sender is not affiliated with the Secretary of State or any other government agency. Business owners who receive one of these mailers are urged to file directly through the Secretary of State's own site, verify any similar notice before paying, and report suspected imposters to the Attorney General's Office at consumer@ago.ms.gov.`,
+    categorySlug: 'legal-debt-collection',
+    alertLevel: 'medium',
+    sources: ['Mississippi Attorney General\'s Office (Lynn Fitch)', 'Mississippi Secretary of State\'s Office'],
+    sourceUrl: 'https://attorneygenerallynnfitch.com/2025/03/18/ag-fitch-warns-of-government-imposter-scams-march-18-2025-2/',
+    country: 'US',
+    state: 'MS',
+});
+
