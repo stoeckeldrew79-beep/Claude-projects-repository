@@ -5397,3 +5397,15 @@ UsNS.push({
     country: 'US',
     state: 'NY',
 });
+
+UsNS.push({
+    name: 'NERD Solutions / ED REF Student Loan Debt Relief Scheme',
+    slug: 'ohio-nerd-solutions-ed-ref-student-loan-debt-relief-scheme',
+    description: `NERD Solutions Inc. and ED REF Inc., operated by Natalie Rodriguez and Pablo Ortiz, cold-called student loan borrowers nationwide — including borrowers whose numbers were on the National Do Not Call Registry — falsely claiming to be affiliated with the U.S. Department of Education or a borrower's actual loan servicer, and promising loan forgiveness or dramatically reduced payments that the operation had no ability to deliver. Once a borrower was on the phone, the operators charged illegal upfront monthly fees of as much as $1,400, in violation of the Telemarketing Sales Rule's ban on advance fees for debt-relief services, ultimately collecting at least $8.8 million from consumers between February 2022 and April 2026. The Federal Trade Commission, with substantial investigative assistance from the Ohio Attorney General's Office, obtained a temporary restraining order against the operation on April 13, 2026, and filed a complaint alleging violations of the FTC Act, the Telemarketing Sales Rule, the FTC's government and business impersonation rules, and the Gramm-Leach-Bliley Act's safeguards for sensitive financial information. The case was announced as part of the FTC's broader crackdown on companies falsely posing as the Department of Education or a borrower's servicer to exploit confusion around changing federal repayment programs. Student loan borrowers contacted out of the blue with a promise of fast forgiveness or a reduced balance are advised to hang up and manage their loans only through the servicer listed on StudentAid.gov, since neither the Department of Education nor a real servicer will ever demand an upfront fee by phone before forgiveness or a lower payment is applied.`,
+    categorySlug: 'student-loan-education',
+    alertLevel: 'high',
+    sources: ['Federal Trade Commission', "Ohio Attorney General's Office"],
+    sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2026/04/ftc-stops-operation-allegedly-targeted-people-seeking-student-loan-debt-relief',
+    country: 'US',
+    state: 'OH',
+});
