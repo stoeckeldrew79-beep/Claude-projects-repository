@@ -13421,3 +13421,16 @@ International.push(
     country: 'BJ',
   },
 );
+
+International.push(
+  {
+    name: 'Belarus "Fake Boss" Messenger CEO-Fraud Scam',
+    slug: 'belarus-fake-boss-messenger-ceo-fraud',
+    description: `Belarus's Investigative Committee warned on 7 August 2024 that a scheme it calls "Fake Boss" was accelerating across the country. Fraudsters study a targeted organization's internal messenger chats, harvest the name, job title, and — increasingly — a real photograph of its director or another senior manager from public sources, and open a lookalike account under that identity on Telegram or a similar messenger. Posing as the boss, they contact an employee — most often at schools, hospitals and clinics, agricultural enterprises, food producers, factories, and retailers — and announce that an upcoming call or meeting with law enforcement or a state inspection body must be kept strictly confidential, manufacturing both urgency and a reason not to check the story with colleagues. Some versions add an AI-generated voice message or a live phone call cloned to sound like the real manager, along with a photo of a forged ID, before the impersonator instructs the employee to hand over online-banking credentials, wire money to a supposed "safe" or "reserve" account, or hand cash to a courier. By August 2026, the National Bank of the Republic of Belarus said the scheme had evolved to target company accountants directly, with fake "directors" messaging them to process supposedly urgent payments that are then moved abroad; Inna Legchilova, head of the National Bank's Information Protection Department, urged staff to always call the real supervisor back on an independently known number rather than replying inside the chat. Both agencies stress that no genuine boss, bank employee, or law-enforcement officer will ever ask a worker to move money to a "safe" account, or ask that the request be kept secret from colleagues.`,
+    categorySlug: 'business-email-compromise',
+    alertLevel: 'high',
+    sources: ['Investigative Committee of the Republic of Belarus', 'National Bank of the Republic of Belarus', 'BELTA'],
+    sourceUrl: 'https://belta.by/society/view/sk-preduprezhdaet-chto-moshennichestvo-po-sheme-fake-boss-nabiraet-oboroty-652892-2024/',
+    country: 'BY',
+  },
+);
