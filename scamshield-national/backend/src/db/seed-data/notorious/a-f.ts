@@ -7951,3 +7951,20 @@ New Plymouth's case is a small-town version of a pattern that shows up at every 
     sourceUrl: 'https://www.justice.gov/usao-id/pr/former-city-clerk-treasurer-sentenced-prison-stealing-over-196000-city-new-plymouth',
   },
 );
+
+NotoriousAF.push(
+  {
+    title: "David Myers: The WorldCom Controller Who Told His Own Accountants to Keep Faking the Books",
+    slug: 'david-myers-worldcom-controller-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `David Myers spent years climbing the ranks at WorldCom before becoming the company's controller — the executive responsible for its day-to-day accounting — during the same period that CFO Scott Sullivan and other senior finance staff were hiding a widening gap between the telecom giant's real financial performance and the earnings Wall Street expected it to report.
+
+Beginning in 2000, according to federal prosecutors and the SEC, Myers directed subordinates, including accountants Betty Vinson and Troy Normand, to reclassify billions of dollars of ordinary "line cost" expenses — payments WorldCom was already making to lease network capacity from other carriers — as capital expenditures instead. Capital spending gets depreciated over years rather than counted against a single quarter's earnings, so booking routine operating costs that way let WorldCom report profits its actual cash flow didn't support. Myers signed off on the entries and passed the pressure down the chain, telling Vinson and Normand to keep making the adjustments even after they came to him directly and said they believed what they were being asked to do was wrong.
+
+The fraud, which eventually totaled roughly $11 billion in improperly accounted-for expenses, unraveled in June 2002 after WorldCom's internal audit department caught the capitalized entries during a routine review. Myers was the first WorldCom executive to plead guilty, admitting in September 2002 — a month before Vinson — to conspiracy, securities fraud, and filing false statements with regulators. He went on to become one of the government's most important cooperating witnesses, testifying in detail against CEO Bernard Ebbers at Ebbers's 2005 criminal trial about how pressure to hit earnings targets flowed down from Sullivan and Ebbers, through him, and into the entries his own accountants actually typed into the books.
+
+On August 17, 2005, U.S. District Judge Barbara Jones sentenced Myers to one year and one day in prison, calling his cooperation "extraordinary" and noting that the SEC had taken the unusual step of writing the court to praise it — a harsher sentence than the accountants below him received, but far lighter than what Ebbers and Sullivan ultimately faced. WorldCom's collapse into what was then the largest corporate bankruptcy in U.S. history, with roughly $107 billion in assets, cost thousands of employees their jobs and wiped out shareholders and pension funds that had trusted the company's reported numbers. Myers's case captures a pattern that shows up across a lot of corporate fraud: the people who actually type the fraudulent figures into the ledger are rarely the ones who profit most from the fraud, but they're very often the ones a prosecutor can most easily prove knew exactly what they were doing.`,
+    sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-17753',
+  },
+);
