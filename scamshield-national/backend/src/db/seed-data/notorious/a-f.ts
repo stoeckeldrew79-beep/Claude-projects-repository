@@ -6793,6 +6793,9 @@ NotoriousAF.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/usao-sdny/pr/public-company-ceo-and-chairman-convicted-fraud',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Daniel_Patrick_Moynihan_U.S._Courthouse,_Manhattan,_New_York_(7237347688).jpg?width=1200',
+    coverImageCredit: 'Photo: Ken Lund, CC BY-SA 2.0, via Wikimedia Commons — the Daniel Patrick Moynihan U.S. Courthouse in Manhattan, where Heppner was tried and convicted',
+    coverImagePosition: 50,
     // representative photo — replace with a portrait if found
     body: `Bradley Heppner, 60, of Dallas, Texas, was chairman of GWG Holdings, a publicly traded company whose main product was something called "L Bonds" — high-yield securities GWG sold to tens of thousands of retail investors, many of them retirees, to fund the purchase of life insurance policies on the secondary market. Heppner was also the founder of a separate company he controlled, Beneficient, which specialized in providing liquidity to holders of stakes in private investment funds. In December 2021, GWG merged with Beneficient in a deal Heppner engineered and, prosecutors say, then used to quietly move tens of millions of dollars of GWG's money into accounts he personally controlled.
 
