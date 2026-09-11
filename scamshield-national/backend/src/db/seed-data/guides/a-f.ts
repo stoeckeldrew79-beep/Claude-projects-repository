@@ -7537,6 +7537,10 @@ Illinois residents who believe they were pressured into a home-repair contract b
     slug: "erie-family-health-centers-2026-data-breach-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "erie-family-health-centers-2026-data-breach"],
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Chicago_Skyline_Hi-Res.jpg?width=1200",
+    coverImageCredit: "Photo: Buphoff, CC BY-SA 3.0, via Wikimedia Commons — the Chicago skyline",
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: "https://www.hipaajournal.com/erie-family-health-centers-data-breach/",
     body: `Erie Family Health Centers, a network of community health centers providing primary medical, dental, and behavioral health care across the Chicago area, has notified roughly 570,000 people that their personal and health information was exposed in a cyberattack. Erie says an unauthorized party first accessed its network on December 10, 2025 and retained that access until January 27, 2026, when the intrusion was finally identified and shut down — a window of more than six weeks in which attackers had a foothold inside the organization's systems. Erie notified the U.S. Department of Health and Human Services of the breach on March 27, 2026, and began mailing notification letters to affected patients around the same time.
 
@@ -7553,6 +7557,10 @@ Patients with questions can contact Erie Family Health Centers directly at its C
     slug: "florida-physician-specialists-2026-data-breach-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "florida-physician-specialists-2026-data-breach"],
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/North_Florida_Medical_Center,_Cross_City,_Florida.jpg?width=1200",
+    coverImageCredit: "Photo: The Bushranger, CC BY-SA 4.0, via Wikimedia Commons — a Florida medical center building",
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: "https://www.paubox.com/blog/florida-physician-specialists-notifies-hhs-of-breach-impacting-over-250k",
     body: `Florida Physician Specialists, a network that provides lab testing, imaging, and research services to patients across Florida, has notified 276,498 people that a hacker accessed its network and their personal information over a two-day window in late 2025. According to the breach notice filed with the U.S. Department of Health and Human Services, the intrusion took place between November 27 and November 29, 2025. The company completed its review of exactly which records were affected on April 6, 2026, and began mailing notification letters — and notifying HHS — on April 24, 2026, nearly five months after the intrusion itself.
 
