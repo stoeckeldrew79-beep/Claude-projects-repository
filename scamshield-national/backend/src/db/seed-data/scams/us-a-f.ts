@@ -6642,3 +6642,15 @@ UsAF.push({
     country: 'US',
     state: 'MA',
 });
+
+UsAF.push({
+    name: 'Asheville Fake QR Code Parking Meter Sticker Scam',
+    slug: 'asheville-fake-qr-code-parking-meter-sticker-scam',
+    description: `Over a weekend in late February 2026, the City of Asheville's Parking Services Division discovered fraudulent bright-green QR code stickers affixed to public parking meters across downtown, including along South Biltmore Avenue, Coxe Avenue near the post office, and Pack Square. A city employee first noticed one of the stickers during routine coin collections, and staff working with the city's IT department went on to trace and remove roughly 15 of them from meters around the area. Scanning one of the fake codes led to a website built to closely mimic a legitimate private pay-by-cell parking service, which asked drivers to enter their credit card information to "pay" for parking; the city's IT staff found that the fraudulent site "functioned like a typical pay-by-cell website," making it difficult for a driver in a hurry to tell it apart from the real thing, though no confirmed victims had come forward by the time the city issued its warning. Asheville does not use QR codes to collect parking payments at all, according to Parking Services Division Manager Sabrina Tolley, who urged drivers to pay directly at the meter itself, use the meter's printed text-to-pay number, or pay through the city's official Flowbird app rather than scan any code on a sticker attached to the meter — advice that applies wherever else a QR code turns up on public pay equipment, since a fraudulent sticker can simply be printed and placed directly over a legitimate one by anyone passing by. Before scanning a QR code on a parking meter, garage kiosk, or toll sign, check whether it looks like it has been stuck on top of another sticker or the equipment's original printed materials, and when in doubt, skip the code entirely and pay through the jurisdiction's official app or website instead.`,
+    categorySlug: 'qr-code-scams',
+    alertLevel: 'medium',
+    sources: ['City of Asheville Parking Services Division', 'WLOS News 13'],
+    sourceUrl: 'https://wlos.com/news/local/asheville-downtown-qr-code-stickers-parking-meters-warning-parking-services-division-scam-south-biltmore-avenue-coxe-pack-square-private-pay-by-cell-system-drivers-text-to-pay-flowbird-app-space-zone-number-street-name-report-public-infrastructure',
+    country: 'US',
+    state: 'NC',
+});
