@@ -7786,3 +7786,20 @@ The scheme caused documented losses of more than $10 million once it collapsed. 
 Gentry's case follows a familiar pattern in smaller-town investment fraud: the pitch didn't rely on complexity, just on a business owner's existing local reputation standing in for due diligence. Investors who had bought tractors from Gentry, or knew him as a neighbor, treated that history as proof his investment claims were true — when a state contract, like any specific factual claim behind an investment pitch, is something a would-be investor can actually verify independently before wiring money, rather than taking a familiar face's word for it.`,
   },
 );
+
+NotoriousGM.push(
+  {
+    title: "Julie Anne Darrah: The Investment Advisor Whose Elderly Clients Couldn't Afford End-of-Life Care",
+    slug: 'julie-darrah-vivid-financial-management-elder-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-cdca/pr/santa-barbara-county-investment-advisor-sentenced-over-10-years-prison-stealing-nearly',
+    body: `Julie Anne Darrah ran Vivid Financial Management, Inc. (VFM), a registered investment advisory firm in Santa Maria, California, where she served as president, chief compliance officer, and a one-third owner. Her clients were disproportionately elderly women, including at least one living in a memory care facility — people who needed to trust someone else to manage money they could no longer easily track themselves.
+
+According to the SEC, which filed civil fraud charges against Darrah in October 2023, she used exactly that trust against them. She had herself named trustee of clients' trusts, obtained power of attorney over their property and accounts, made herself a signatory on their bank accounts, and in at least one case changed a client's mailing address to her own so paperwork wouldn't tip anyone off. From November 2016 through July 2023, she moved roughly $2.25 million out of at least nine clients' accounts and into her own, commingling it with her personal funds and covering the gaps with false disclosures about her trustee status and backdated promissory notes. She spent it on real estate, luxury vehicles, and a restaurant business.
+
+The fraud didn't stay contained to individual clients. A Minnesota-based investment advisory firm acquired VFM based on Darrah's false statements about the business and, according to prosecutors, lost approximately $5.4 million as a result. By the time investigators from the FBI and the FDIC Office of Inspector General unwound the scheme, some of Darrah's elderly victims no longer had the money to pay for their own end-of-life care — the exact kind of expense the relationship they'd built with their trusted advisor was supposed to help them plan for.
+
+Darrah pleaded guilty to one count of wire fraud, and on May 19, 2025, U.S. District Judge Otis D. Wright II sentenced her to 121 months in federal prison. A separate civil judgment in December 2024 held her liable for $2,416,511, including interest, on top of the SEC's asset freeze and injunction. Her case is a reminder that the professional designations meant to reassure clients — registered investment adviser, fiduciary, trustee — describe a legal relationship of trust, not a guarantee that the person holding those titles is entitled to it; family members of elderly investors are often in the best position to ask a second, independent professional to review any arrangement that hands one advisor this much unsupervised control.`,
+  },
+);
