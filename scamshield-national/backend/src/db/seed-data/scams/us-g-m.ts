@@ -5800,3 +5800,15 @@ UsGM.push({
     country: 'US',
     state: 'MO',
 });
+
+UsGM.push({
+    name: 'Treasure Valley Planning & Zoning Permit Invoice Scam',
+    slug: 'idaho-treasure-valley-planning-zoning-permit-invoice-scam',
+    description: `Idaho Attorney General Raúl Labrador and planning officials from Boise, Meridian, Nampa, and Caldwell jointly warned residents on June 29, 2026 about scammers pulling public building-permit and zoning-application records from city planning department websites, then using those real project details to craft convincing fake invoices. Because the fraudulent emails cite an applicant's actual project address, the correct contractor's name, real city employee names, and official-looking logos pulled straight from the public record, they read as far more legitimate than a typical phishing attempt — and pressure the applicant into paying immediately by claiming the permit or project will be canceled or delayed unless a fee is wired, paid in cryptocurrency, or covered with a gift card right away. "Scammers are pulling public permit records and sending fake invoices designed to look official and counting on people to panic and pay first, ask questions later," Labrador said. Boise's planning director emphasized that "the city will never request payment by wire transfer for planning application or permitting fees," and Nampa's planning director urged applicants to "reach out to us to confirm any requests for funds" before paying anything. Anyone with a permit or zoning application pending in the Treasure Valley — or any city — who receives an unexpected invoice by email should call the planning department directly using a phone number looked up independently, not one listed in the email, before sending a payment, and should report suspected scam invoices to the Idaho Attorney General's office at ReportScamsIdaho.com.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Idaho Office of the Attorney General', 'City of Boise', 'City of Meridian', 'City of Nampa', 'City of Caldwell'],
+    sourceUrl: 'https://www.ag.idaho.gov/newsroom/ag-labrador-and-cities-across-the-treasure-valley-warn-idaho-consumers-about-planning-and-zoning-fraud-scheme/',
+    country: 'US',
+    state: 'ID',
+});
