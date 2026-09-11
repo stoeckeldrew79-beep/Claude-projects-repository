@@ -5705,3 +5705,17 @@ UsNS.push({
     country: 'US',
     state: 'NM',
 });
+
+UsNS.push({
+    name: 'CMN "General Contractors National" Storm-Chaser Fraud',
+    slug: 'ohio-cmn-general-contractors-national-storm-chaser-fraud',
+    description: `CMN Group, doing business as General Contractors National, is a Virginia-based outfit that Ohio Attorney General Dave Yost sued in Cuyahoga County Common Pleas Court in March 2026 after homeowners in storm-damaged parts of northeastern Ohio said the company took their money and disappeared. According to the lawsuit, CMN and its owners, Renato Perez and Andre Kinduelo, solicited residents in 2024 with offers to replace storm-damaged roofs and siding and to handle the insurance-claim paperwork, collected deposits, and then failed to perform any of the promised work. Yost's office documented 24 unresolved consumer complaints against the company totaling more than $188,000 in unrefunded payments. "These so-called 'businesses' aren't here to help," Yost said. "They're here to make a quick buck." The lawsuit, filed under the Ohio Consumer Sales Practices Act, seeks restitution for the affected homeowners, civil penalties, and a court order barring the defendants from further consumer transactions in Ohio until they satisfy what they owe. Homeowners approached by a contractor after a storm are advised to verify the company is actually registered to do business in Ohio, get multiple written estimates, avoid a large upfront deposit, and pay incrementally as work is completed rather than in a lump sum before anything is done.`,
+    categorySlug: 'home-improvement-solar',
+    alertLevel: 'high',
+    sources: ['Ohio Attorney General', 'WHIO', 'Highland County Press'],
+    sourceUrl: 'https://www.ohioattorneygeneral.gov/Media/News-Releases/March-2026/AG-Yost-Sues-Storm-Chasing-Contractor-for-Consumer',
+    country: 'US',
+    state: 'OH',
+    isHistorical: true,
+    firstRecorded: '2026-03-05',
+});
