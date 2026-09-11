@@ -4297,6 +4297,11 @@ NotoriousNS.push(
     slug: 'romana-leyva-tech-support-fraud-elderly',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-sdny/pr/las-vegas-woman-sentenced-prison-10-million-tech-support-fraud-scheme-exploited-elderly',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Daniel_Patrick_Moynihan_U.S._Courthouse,_Manhattan,_New_York_(7237347688).jpg?width=1200',
+    coverImageCredit: 'Ken Lund, CC BY-SA 2.0, via Wikimedia Commons',
+    coverImagePosition: 50,
     body: `The pop-up looked like exactly the kind of warning a cautious computer user was taught to take seriously: a message claiming the machine had been infected with a virus, sometimes dressed up with a familiar-looking tech-company logo, warning that closing the window or shutting down the computer would cause permanent data loss. It gave a phone number to call for help. From around 2015 to 2018, a fraud ring based in the United States and India used that single fake warning to steal more than $10 million from roughly 7,500 victims, most of them elderly, across the United States and Canada. Romana Leyva was one of its members.
 
 The pop-ups were the hook; the "technicians" on the other end of the phone number did the rest. Once a frightened victim called in, callers posing as tech support staff asked for — and were granted — remote access to the victim's computer, then used that access to "demonstrate" a nonexistent infection before selling the victim virus-removal and computer-support services that were neither needed nor, in many cases, ever actually performed. Victims, many with limited technical knowledge and a genuine fear of losing years of photos, documents, and financial records, paid hundreds or thousands of dollars for services built entirely on a manufactured scare.
