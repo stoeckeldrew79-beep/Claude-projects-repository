@@ -2227,6 +2227,10 @@ If you were notified — or believe you might have been a Vector Security custom
     slug: "vgw-sweepstakes-casino-new-york-settlement-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "vgw-sweepstakes-casino-settlement"],
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Las_Vegas_slot_machines.jpg?width=1200",
+    coverImageCredit: "Photo: Yamaguchi先生 (CC BY-SA 3.0) — casino slot machines; VGW's Chumba Casino, Global Poker, and LuckyLand Slots offered the same style of casino-style gameplay online",
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: "https://ag.ny.gov/press-release/2026/attorney-general-james-secures-8-million-leading-operator-illegal-online",
     body: `Chumba Casino, Global Poker, and LuckyLand Slots look and play like an ordinary online casino — spinning slots, dealt poker hands, blackjack tables — but for years they operated in a legal gray zone by calling themselves something else: sweepstakes. Players bought "Gold Coins" for entertainment play with no cash value, and in exchange got a bonus allotment of a second currency, "Sweeps Coins," that could be redeemed for real cash prizes. Because federal and state sweepstakes law generally allows a promotion where entry doesn't require a purchase, operators like VGW Holdings Pty. Ltd. — the company behind all three brands — argued the Sweeps Coins were a free promotional giveaway, not a gambling product, and therefore exempt from the licensing, auditing, and consumer protections that apply to regulated casinos and legal sports betting.
 
