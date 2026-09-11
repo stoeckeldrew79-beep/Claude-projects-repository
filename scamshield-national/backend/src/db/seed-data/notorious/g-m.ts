@@ -7391,3 +7391,24 @@ The SEC filed a civil fraud suit against Jerome Cohen, Shaun Cohen, and their co
 The EquityBuild case is a reminder that "secured by real estate" is only as protective as the appraisal and the paperwork behind it — a promissory note tied to an inflated property value, sold with fees the investor never sees itemized, can carry exactly the same underlying risk as an unsecured Ponzi scheme, dressed up in the language of hard assets and first-lien priority that makes it feel far safer than it actually is.`,
   },
 );
+
+NotoriousGM.push(
+  {
+    title: 'Glen Galemmo and the $100 Million Queen City Investments Ponzi Scheme',
+    slug: 'glen-galemmo-queen-city-investments-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Potter_Stewart_United_States_Courthouse.jpg?width=1200',
+    coverImageCredit: 'Photo: Analogue Kid, CC BY-SA 3.0, via Wikimedia Commons — the Potter Stewart U.S. Courthouse in Cincinnati, where Galemmo was sentenced',
+    coverImagePosition: 50,
+    sourceUrl: 'https://www.justice.gov/usao-sdoh/pr/investment-company-owner-sentenced-188-months-prison-wire-fraud-and-money-laundering',
+    body: `Glen Galemmo spent more than a decade as a trusted figure among friends, extended family, and fellow parishioners in the Cincinnati area, running an investment business called Queen City Investments that promised steady, above-market returns. Investors were told their money was going into a mix of legitimate-sounding ventures — bars, restaurants, and other local businesses — managed by someone who had built his reputation the old-fashioned way, through personal relationships rather than slick advertising.
+
+Almost none of it was real. According to federal prosecutors, Galemmo solicited money from individuals for investment opportunities that were largely fictitious, then created fabricated account statements showing gains that never actually existed. He paid "returns" to earlier investors using cash raised from newer ones — the defining mechanic of a Ponzi scheme — while diverting a substantial share of the money to his own personal use. The Internal Revenue Service seized control of Galemmo's business records in 2013 after the scheme began to unravel, and investigators ultimately identified as many as 200 victims, with total investor losses estimated between $7 million and $20 million against a backdrop of far larger sums moving through his accounts over the life of the fraud.
+
+Galemmo pleaded guilty in January 2014 to one count of wire fraud and one count of money laundering. In September 2014, U.S. District Judge Herman J. Weber handed down the maximum sentence available under the plea agreement: 188 months — 15 years and eight months — in federal prison, along with an order to pay roughly $34.5 million in restitution. The CFTC separately obtained a permanent trading and registration ban against Galemmo. He sought early release during the COVID-19 pandemic, citing health concerns, but remained in custody to serve out his sentence.
+
+Galemmo's case is a familiar shape in affinity fraud: the fraud didn't spread through cold calls or advertisements, but through the ordinary trust people extend to someone already inside their social and family circles. Victims who might have scrutinized a stranger's investment pitch waived that scrutiny because the person making it was already vouched for by everyone around them — a reminder that a personal relationship with an investment manager is not itself evidence that the underlying investment is real.`,
+  },
+);
