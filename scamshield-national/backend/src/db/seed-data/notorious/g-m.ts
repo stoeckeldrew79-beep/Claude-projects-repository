@@ -7596,3 +7596,19 @@ The CFTC filed its underlying civil enforcement action in the Southern District 
 Fortini's role illustrates a specific failure mode in pooled forex and algorithmic-trading fraud: the person soliciting customers doesn't have to be the one who built the fake algorithm or diverted the money to be liable for fraud. Regulators held him responsible for what he told customers and for what he didn't — the stalled withdrawals he knew about, and the regulatory red flag he had access to and never passed along — a reminder that a middleman who keeps collecting and reassuring investors after the warning signs appear is not a bystander to the fraud underneath him.`,
   },
 );
+NotoriousGM.push(
+  {
+    title: 'Luis Alfonso Bisono Rodriguez and Engels Guillermo Almengot Valerio: The Rideshare Cash Couriers Behind a Dominican Republic Grandparent Scam',
+    slug: 'luis-bisono-rodriguez-engels-almengot-valerio-grandparent-scam-couriers',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-wdpa/pr/two-dominican-republic-men-each-sentenced-two-years-prison-roles-grandparent-fraud',
+    body: `The calls came from the Dominican Republic, but the money never had to leave the United States. Prosecutors in the Western District of Pennsylvania described a grandparent-fraud operation in which callers overseas phoned elderly Americans posing as a grandchild or other close relative in sudden trouble — a car accident, an arrest, a medical emergency — and in urgent need of cash immediately, before the "real" family member could supposedly find out and worry. The victims, convinced they were helping someone they loved, were told to hand over cash rather than wire it, which is where Luis Alfonso Bisono Rodriguez and Engels Guillermo Almengot Valerio came in.
+
+Rather than risk a traceable bank wire, the scheme's organizers had panicked victims hand cash to ordinary rideshare drivers, who were told they were simply making a delivery. Almengot Valerio, living in Paterson, New Jersey, helped order many of those rides himself, routing drivers to pick up cash from victims and deliver it onward — including deliveries that ended up in the hands of Bisono Rodriguez, who was living in Cleveland, Ohio. Both men admitted to personally receiving cash directly from the drivers who had just picked it up from a defrauded senior, then moving the money into bank accounts and sending portions of it back overseas to the organizers who had placed the original calls. A search of Almengot Valerio's New Jersey residence turned up roughly $12,000 in cash tied to the scheme. Investigators traced their activity beyond Pennsylvania into California, New York, and Nevada, part of a broader pattern of transnational "grandparent scam" cases the Justice Department has prosecuted involving call centers based in the Dominican Republic.
+
+Both men were convicted of conspiracy to commit money laundering. Senior U.S. District Judge Nora Barry Fischer sentenced each of them to two years in federal prison, to be followed by three years of supervised release.
+
+The rideshare-courier layer of this scheme is precisely the piece that grandparent scams depend on and that families rarely think to warn each other about: the caller supplies the fear and the false identity, but someone still has to physically collect the cash and get it out of the country, and increasingly that job goes not to a specialized "money mule" but to an app-summoned driver who has no idea what's in the envelope or bag they're handling. For families of elderly relatives, the practical takeaway prosecutors keep repeating is the same one at the center of this case: verify a distressed relative's identity independently, by calling them back on a known number, before any cash changes hands with a stranger at the door — rideshare driver included.`,
+  },
+);
