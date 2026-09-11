@@ -5702,6 +5702,9 @@ NotoriousGM.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26463',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Newark_NJ_Skyline.jpg?width=1200',
+    coverImageCredit: 'Photo: Gamezilla2019, Wikimedia Commons (CC BY 4.0) — Newark, New Jersey, where the SEC filed its complaint against Joel Sofia in federal court',
     body: `Note: this is a civil SEC enforcement action. The complaint filed against Joel Sofia describes allegations only — as of this writing, he has not been found liable by a court, and the case remains active.
 
 Joel B. Sofia, 46, of Sewell, New Jersey, ran an advisory operation he called WOLO Wealth Inc. — a name, the SEC's complaint points out, that didn't actually belong to any incorporated company. According to the SEC, Sofia told at least three prospective clients he had spent 20 to 30-plus years successfully trading options, a background prosecutors say he fabricated. He also told them their money would face essentially no risk: their principal was guaranteed against loss, he said, thanks to proprietary artificial-intelligence trading software he'd built himself that automated trades and eliminated downside — a description of a product that, as regulators noted, does not exist in any legitimate form.
