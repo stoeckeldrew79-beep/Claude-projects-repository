@@ -7383,6 +7383,10 @@ Beyond the settlement claim itself, treat any Social Security number or health-i
     slug: "california-casualty-2025-data-breach-settlement-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "california-casualty-2025-data-breach-settlement"],
+    // representative photo — replace with an exact match if found
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/San_Mateo,_CA_City_Hall_main_entrance.JPG?width=1200",
+    coverImageCredit: "Photo: BrokenSphere, Wikimedia Commons (CC BY-SA 3.0) — San Mateo, California, where California Casualty Group is headquartered",
+    coverImagePosition: 50,
     sourceUrl: "https://www.classaction.org/news/california-casualty-group-class-action-settlement-resolves-lawsuit-over-2025-cyberattack",
     body: `California Casualty Indemnity Exchange, doing business as California Casualty Group, isn't a household name the way a national insurer is — it's a niche, affinity-based insurer founded in 1914 that sells auto and home coverage almost entirely through endorsements from teachers' unions, police and firefighter associations, and nursing groups, including the National Education Association and the California Teachers Association. That business model is exactly why its 2025 data breach is worth understanding on its own terms: the people affected skew heavily toward teachers, law enforcement officers, firefighters, and nurses — the public-sector and public-safety workers the company has spent decades specifically marketing to.
 
