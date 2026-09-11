@@ -3943,6 +3943,10 @@ The Colorado Division of Securities highlighted the case specifically because of
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.njoag.gov/middlesex-county-man-sentenced-to-seven-years-in-state-prison-for-running-a-7-7-million-securities-fraud-scheme-involving-fake-fuel-companies/',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/MiddlesexCountyCourtHouse1.JPG?width=1200',
+    coverImageCredit: 'Djflem, CC BY-SA 4.0, via Wikimedia Commons',
+    coverImagePosition: 50,
     body: `Shahid Javed, of Old Bridge, New Jersey, built his fraud scheme around a business investors could picture clearly: fuel trading. According to the New Jersey Attorney General's Office, Javed began in March 2018 by soliciting roughly $640,000 in purported loans for a venture called East Coast Energy Partners, telling investors the money would finance jet-fuel purchases. From there, prosecutors say, the scheme grew and shifted shape — Javed created two entirely fictitious companies, Prime Petroleum Group LLC and Petro Traders Group LLC, and used them to solicit additional investors with promises of returns as high as 50%, plus the return of their principal, from fuel-trading profits and an investment in a Texas oil refinery that authorities say did not exist as described.
 
 To keep the story credible, Javed is alleged to have impersonated multiple fictitious employees of his own companies when communicating with investors, and to have paid roughly $1 million to early investors using money from later ones — a Ponzi-style mechanic that let the scheme's apparent returns keep new money flowing in. Between March 2018 and May 2023, prosecutors say Javed took in approximately $7.7 million from investors in total, diverting much of it to personal spending that included a Bentley, a house, and a boat.
