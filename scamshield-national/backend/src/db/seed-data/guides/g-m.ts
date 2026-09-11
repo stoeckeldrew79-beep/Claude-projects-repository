@@ -3936,6 +3936,10 @@ If your child used Google Play apps as a young child any time after April 2015, 
     slug: "infosys-mccamish-systems-2023-data-breach-settlement-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "infosys-mccamish-systems-2023-data-breach-settlement"],
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Infosys_Trivandrum_Campus.jpg?width=1200",
+    coverImageCredit: "Photo: Xeno Axe, CC BY-SA 3.0, via Wikimedia Commons — an Infosys campus building",
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: "https://www.hipaajournal.com/infosys-mccamish-systems-data-breach-settlement/",
     body: `On December 18, 2025, a federal judge in Georgia granted final approval to a $17.5 million settlement resolving Lindley v. Infosys McCamish Systems, LLC and six related class action lawsuits — closing the book, financially, on one of the more consequential breaches most of the people affected by it had never heard of before it happened. Infosys McCamish Systems isn't a company that sells anything directly to consumers. It's a behind-the-scenes technology vendor, a subsidiary of the Indian IT giant Infosys, that provides cloud computing, data processing, and software platforms to more than 40 life insurance and retirement-plan companies — meaning the people ultimately harmed here were customers of those insurers, who likely never chose McCamish and may not have known their policy or retirement data passed through its systems at all.
 
