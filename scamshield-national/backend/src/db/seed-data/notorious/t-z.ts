@@ -1904,6 +1904,10 @@ NotoriousTZ.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://wgme.com/news/local/california-man-sentenced-for-attempting-to-scam-92-year-old-new-hampshire-woman-crime-yalei-li-tech-support-scam-scammer-theft-by-deception',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/NashuaNH_HillsboroughCountyCourthouse.jpg?width=1200',
+    coverImageCredit: 'Photo: Magicpiano, Wikimedia Commons (CC BY-SA) — the historic Hillsborough County Courthouse in Nashua, New Hampshire, the county where Yalei Li was tried',
+    coverImagePosition: 50,
     body: `A 92-year-old woman in Pelham, New Hampshire, was working on her Apple computer when a pop-up alert appeared warning that she'd been hacked, with a phone number to call for help. She called it, and reached a man who identified himself as "Sam Harwell" from Apple. He transferred her to a second man, "Christopher," who claimed to work for her bank, Enterprise Bank, and told her that her accounts had been compromised — the money needed to be moved somewhere safe immediately, and an agent of the bank would come collect it in person.
 
 On April 3, 2025, following the callers' instructions, she withdrew $20,000 in cash, which was picked up at her home by a man using the alias "Jack." Days later, the callers came back asking for another $50,000. This time, something didn't sit right with her, and she called the police instead of the bank. When a man arrived at her door on the night of April 8, 2025, to collect the second payment, officers were already there waiting. That man was Yalei Li, 39, of Rosemead, California, who had traveled across the country to pick up the cash.
