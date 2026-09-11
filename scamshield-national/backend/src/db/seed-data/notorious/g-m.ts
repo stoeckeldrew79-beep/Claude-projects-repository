@@ -6526,6 +6526,11 @@ NotoriousGM.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/usao-edca/pr/elk-grove-man-sentenced-20-years-prison-1m-adult-adoption-immigration-fraud-scheme',
+    // representative photo — replace with a portrait if found. Hansen's appeal
+    // became the Supreme Court case United States v. Hansen (2023), decided
+    // in this building.
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/US_Supreme_Court_Building.jpg?width=1200',
+    coverImageCredit: 'Duncan Lock / Wikimedia Commons (CC BY-SA 3.0) — U.S. Supreme Court Building, which decided United States v. Hansen',
     body: `There is no provision in U.S. immigration law that lets an adult immigrant become a citizen simply by being legally adopted by an American. Helaman Hansen told hundreds of people there was, and charged them for it.
 
 From 2012 to 2016, Hansen ran an Elk Grove, California-based organization called Americans Helping America Chamber of Commerce, through which he sold memberships in what he branded the "Migration Program." The pitch was that an undocumented immigrant could put themselves on a path to U.S. citizenship by being adopted as an adult by an American citizen and completing a series of additional steps Hansen laid out — a legal theory that had no basis in actual immigration law. Membership fees ran from $550 to $10,000 per person, and prosecutors said at least 471 people paid into the program, together handing Hansen more than $1.8 million.
