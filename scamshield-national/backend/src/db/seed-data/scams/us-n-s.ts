@@ -5413,3 +5413,16 @@ UsNS.push({
     isHistorical: true,
     firstRecorded: '2019-01-01',
 });
+
+
+UsNS.push({
+    name: 'Unsolicited Medicare Durable Medical Equipment Billing Scheme',
+    slug: 'pennsylvania-unsolicited-medicare-durable-medical-equipment-scam',
+    description: `Scammers are mailing Pennsylvania Medicare patients durable medical equipment — items like back braces, knee braces, and oxygen equipment — that the patient never requested and no doctor ever ordered, then using the delivery itself to submit fraudulent reimbursement claims, either billing Medicare directly for equipment the patient never needed or billing the patient for merchandise they never agreed to buy. Pennsylvania Attorney General Dave Sunday's office issued a consumer alert on September 24, 2025 warning that the office was "seeing a growing number of instances where senior patients are receiving equipment so that scammers can collect a payout from the patient or the state Medicare program," noting the scheme specifically targets seniors because an unsolicited medical delivery can look legitimate enough that a patient assumes a doctor authorized it somewhere along the line. The Attorney General's Office advises Medicare recipients to carefully review every Medicare Summary Notice and Explanation of Benefits for equipment or services they don't recognize, to never provide a Medicare number or other personal information to a caller who contacts them out of the blue offering "free" braces or equipment, to confirm directly with their own doctor before accepting or paying for any medical device that arrives without a prior conversation, and to report unsolicited equipment or suspicious billing to Medicare at 1-800-633-4227 or to the Attorney General's Health Care Section at 1-877-888-4877, since an item never ordered by a doctor is the clearest sign that a billing scam — not a legitimate medical supplier — is behind the delivery.`,
+    categorySlug: 'medicare-health-plans',
+    alertLevel: 'medium',
+    sources: ["Pennsylvania Office of Attorney General"],
+    sourceUrl: 'https://www.attorneygeneral.gov/taking-action/attorney-general-sunday-warns-seniors-of-trending-scam-involving-unprescribed-equipment-sent-to-medicare-patients/',
+    country: 'US',
+    state: 'PA',
+});
