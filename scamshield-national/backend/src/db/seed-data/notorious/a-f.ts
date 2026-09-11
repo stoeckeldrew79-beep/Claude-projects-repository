@@ -5722,6 +5722,10 @@ NotoriousAF.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://oag.ca.gov/news/press-releases/attorney-general-bonta-announces-18-year-prison-sentence-defendant-investment',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/California_State_Capitol,_June_2019.jpg?width=1200',
+    coverImageCredit: 'Frank Schulenburg, CC BY-SA 4.0, via Wikimedia Commons',
+    coverImagePosition: 50,
     body: `From May 2008 through December 2013, Alma Perez raised money from a small circle of victims through two companies she controlled, Grand Trine LLC and Kings Funding Source LLC, according to the California Department of Justice. Her pitch, prosecutors said, was the same reassurance that has drawn retirees into fraudulent investments for generations: their principal was "guaranteed" and not at risk, and they could count on steady monthly returns on top of it. Five victims put in money on that promise, drawing on retirement savings and inheritance funds — exactly the kind of money people can least afford to lose and are least likely to risk without believing it is safe.
 
 There was no safe, guaranteed investment behind the promise. According to the California Attorney General's Office, Perez used the money she took in to pay for her own five different credit cards, groceries, clothing, utilities, and dining, along with cash withdrawals — and she used a portion of it to make "Ponzi" payments to earlier victims, dressed up as investment returns, to keep the scheme looking legitimate to the people who had already put money in. In one instance, prosecutors said, Perez went further than simply misdirecting new deposits: she forged a disbursement request against a victim's annuity policy and diverted those funds into a bank account she used for her own spending. In total, the five known victims lost more than $735,000.
