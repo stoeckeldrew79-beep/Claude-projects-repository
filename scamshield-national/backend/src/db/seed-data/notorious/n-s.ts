@@ -4657,6 +4657,9 @@ NotoriousNS.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/usao-wdwi/pr/wausau-man-pleads-guilty-wire-fraud-and-money-laundering',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Wausau,_Wisconsin_downtown.jpg?width=1200',
+    coverImageCredit: 'Photo: Wikideas1, CC0, via Wikimedia Commons — downtown Wausau, Wisconsin, where Pophal ran Bright with Silver',
+    coverImagePosition: 50,
     // representative photo — replace with a portrait if found
     body: `Stanley Pophal, 64, of Wausau, Wisconsin, ran an investment operation out of a business he called Bright with Silver, Inc. — formerly known as Fromm Bros., Inc. — that promised investors guaranteed returns of at least 20 percent through promissory notes. Between May 2019 and June 2025, according to the U.S. Attorney's Office for the Western District of Wisconsin, Pophal pitched investors on a rotating menu of ventures that changed with whatever seemed to be generating buzz at the time: cryptocurrency, real estate flipping, artificial intelligence technology, and gold, silver, and emerald trading among them. He told investors his own substantial personal wealth stood behind the notes, guaranteeing their principal against any risk of loss.
 
