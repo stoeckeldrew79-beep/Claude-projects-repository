@@ -5454,3 +5454,17 @@ UsNS.push({
     isHistorical: true,
     firstRecorded: '2022-03-01',
 });
+
+UsNS.push({
+    name: 'Menards "11% Rebate" Deceptive Advertising Settlement (South Dakota)',
+    slug: 'south-dakota-menards-11-percent-rebate-deceptive-advertising-settlement',
+    description: `Home-improvement retailer Menards advertised its long-running "11% Rebate" promotion with in-store and print signage reading phrases like "11% OFF EVERYTHING," implying customers would get an immediate discount at the register, when in reality the "rebate" was in-store merchandise credit redeemable only on a future purchase — a distinction disclosed only in small print. Investigators also found Menards represented "Rebates International," the entity that processed the rebate claims, as an independent company when it was actually Menards itself, and that consumers who submitted rebate claims often faced confusing tracking systems and difficulty getting timely credit. South Dakota Attorney General Marty Jackley joined attorneys general from Arizona, Illinois, Iowa, Kansas, Michigan, Minnesota, Nebraska, Ohio, and Wisconsin in investigating the practice, and the multistate settlement was announced on December 18, 2025, sending South Dakota $102,888.64 for its Consumer Protection Division to use on consumer education and future investigations. Under the settlement, Menards must stop advertising the rebate as a point-of-purchase discount, clearly disclose in its advertising that the "rebate" is store credit rather than cash off at checkout, spell out all rebate terms and limitations, disclose that it operates as Rebates International, give consumers at least a year to submit a rebate claim, and update its online rebate-tracking system within 48 hours of processing a claim. South Dakota shoppers are advised to read the fine print on any advertised "percent off" or rebate promotion before assuming it will be deducted at checkout, to ask a cashier directly whether a discount applies immediately or only as future store credit, and to keep receipts and rebate confirmation numbers in case a promised credit doesn't appear.`,
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'low',
+    sources: ["South Dakota Attorney General's Office (Marty Jackley)"],
+    sourceUrl: 'https://news.sd.gov/news?id=news_kb_article_view&sys_id=233504d3473dfa10701588ff336d43e0',
+    country: 'US',
+    state: 'SD',
+    isHistorical: true,
+    firstRecorded: '2025-12-18',
+});
