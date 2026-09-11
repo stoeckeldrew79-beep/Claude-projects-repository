@@ -5032,6 +5032,10 @@ NotoriousAF.push(
     slug: 'chris-faulkner-breitling-energy-frack-master-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    // representative photo (case prosecuted by the U.S. Attorney's Office for the Northern District of Texas) — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Earl_Cabell_Federal_Building,_cropped.jpg?width=1200',
+    coverImageCredit: 'Rapidfire, CC BY-SA 3.0, via Wikimedia Commons',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.justice.gov/usao-ndtx/pr/so-called-frack-master-sentenced-15-years-federal-prison',
     body: `Chris Faulkner built a public persona around a nickname he gave himself: the "Frack Master." As CEO of Dallas-based Breitling Oil and Gas Corporation and its successor, Breitling Energy Corporation, he cultivated the image of a leading authority on hydraulic fracturing — writing op-eds, giving television interviews, and appearing at industry conferences as the fracking boom's telegenic spokesman. That persona became the sales pitch: it lent an air of technical credibility to an oil-and-gas investment operation that, according to U.S. regulators and prosecutors, was largely a fraud.
 
@@ -5911,6 +5915,10 @@ NotoriousAF.push(
     slug: 'andrew-egber-montgomery-county-elder-financial-exploitation',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    // representative photo (Egber pleaded guilty before the Circuit Court for Montgomery County, Maryland) — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Montgomery_County_Courthouse,_Maryland_(January_2006).jpg?width=1200',
+    coverImageCredit: 'Kmf164, CC BY-SA 2.5, via Wikimedia Commons',
+    coverImagePosition: 50,
     sourceUrl: 'https://oag.maryland.gov/News/pages/Former-Montgomery-County-Financial-Advisor-Sentenced-to-Jail-for-Felony-Theft,-Securities-Fraud,-and-Exploitation-of-a-Vuln.aspx',
     body: `Andrew Joseph Egber worked as a financial advisor in Gaithersburg, Maryland, holding roles at well-known firms including Wells Fargo, Raymond James, and Steward Partners over the course of his career — the kind of résumé that gives a client little reason to question an instruction from him. According to the Office of the Maryland Attorney General, between 2015 and 2019 Egber used exactly that trust to defraud five of his elderly clients out of their retirement savings through a real estate investment that never existed.
 
@@ -5945,6 +5953,10 @@ NotoriousAF.push(
     slug: 'brian-haigler-mint-hill-real-estate-church-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    // representative photo (case prosecuted by the U.S. Attorney's Office for the Western District of North Carolina, Charlotte) — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Charles_R._Jonas_Federal_Building,_Charlotte_(Mecklenburg_County,_North_Carolina).jpg?width=1200',
+    coverImageCredit: 'U.S. National Archives, public domain, via Wikimedia Commons',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.justice.gov/usao-wdnc/pr/mint-hill-sentenced-investment-fraud-embezzlement-church-and-covid-19-relief-fraud',
     body: `Brian Shane Haigler worked as a real estate agent in Mint Hill, North Carolina, and in February 2019 he began recruiting friends and acquaintances into what he described as straightforward real estate investments: hand him money, and he would use it to purchase or improve specific properties, then pay investors a fixed return by an agreed date. According to the U.S. Attorney's Office for the Western District of North Carolina, that description was mostly fiction. Haigler used little, if any, of the money he raised for actual real estate — instead spending much of it on personal expenses or using it to pay earlier investors, the defining mechanic of a Ponzi scheme.
 
@@ -5962,6 +5974,10 @@ NotoriousAF.push(
     slug: 'carter-reese-berks-county-counterfeit-art-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    // representative photo (case prosecuted by the U.S. Attorney's Office for the Eastern District of Pennsylvania) — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/James_A._Byrne_United_States_Courthouse.jpg?width=1200',
+    coverImageCredit: 'Beyond My Ken, CC BY-SA 4.0, via Wikimedia Commons',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.justice.gov/usao-edpa/pr/berks-county-man-pleads-guilty-art-fraud-scheme-admits-selling-counterfeit-artworks',
     body: `Carter Reese, 77, of the Reading, Pennsylvania area in Berks County, spent roughly two years — from February 2019 to March 2021 — selling artwork he represented as genuine, original pieces by major 20th-century artists: Pablo Picasso, Andy Warhol, Jean-Michel Basquiat, Keith Haring, Francis Bacon, Joan Miró, Roy Lichtenstein, Jean Cocteau, and Fernand Léger among them. According to the U.S. Attorney's Office for the Eastern District of Pennsylvania, Reese knew the pieces were fake the entire time.
 
@@ -5979,6 +5995,10 @@ NotoriousAF.push(
     slug: 'donald-rodgers-three-bridges-trading-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    // representative photo (case prosecuted by the U.S. Attorney's Office for the Western District of Tennessee, Memphis) — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Federal_Building_Main_St_Memphis_TN_05.jpg?width=1200',
+    coverImageCredit: 'Thomas R Machnitzki, CC BY 3.0, via Wikimedia Commons',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.justice.gov/usao-wdtn/pr/collierville-commodity-trader-sentenced-51-months-2000000-investment-fraud-scheme',
     body: `Donald Wray Rodgers, of Collierville, Tennessee, ran a commodity pool called Three Bridges Trading Fund, LLC, pitching it to acquaintances and investors around the country as a successful futures-trading fund under his management. Between January and November 2022, he raised at least $2 million from more than 50 participants in multiple states based on that pitch, according to the U.S. Attorney's Office for the Western District of Tennessee and a related civil complaint filed by the Commodity Futures Trading Commission.
 
@@ -5996,6 +6016,10 @@ NotoriousAF.push(
     slug: 'dennise-merdjanian-superior-servicing-student-loan-scam',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    // representative photo (FTC case filed in the U.S. District Court for the District of Nevada, Las Vegas) — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Lasvegascourthouse.jpg?width=1200',
+    coverImageCredit: 'U.S. Department of Justice, public domain, via Wikimedia Commons',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2026/07/student-loan-forgiveness-scammer-permanently-banned-debt-relief-industry-telemarketing',
     body: `Dennise Merdjanian operated Superior Servicing LLC, a Nevada-based company that, starting no later than January 2023, cold-called and mailed personalized letters to student loan borrowers around the country claiming to be affiliated with the U.S. Department of Education. According to a complaint filed by the Federal Trade Commission in November 2024 in the U.S. District Court for the District of Nevada, the pitch promised things borrowers desperately wanted to hear — loan consolidation, reduced interest rates, lower monthly payments, and in some cases full forgiveness — none of which Merdjanian's operation actually had any special ability to deliver.
 
@@ -6501,6 +6525,10 @@ The House of Angels case is a reminder that a hospice fraud ring's biggest vulne
     slug: 'ken-ejimofor-ezeah-duffey-persona-romance-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    // representative photo (case prosecuted by the U.S. Attorney's Office for the Western District of Oklahoma) — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/OK-OklahomaCity_1961_Ref.jpg?width=1200',
+    coverImageCredit: 'U.S. National Archives, public domain, via Wikimedia Commons',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.justice.gov/usao-wdok/pr/two-sentenced-11-and-7-years-federal-prison-46-million-internet-romance-fraud',
     // no rights-cleared photo found — sourceUrl above serves as the "read the full story" link
     body: `Ken Ejimofor Ezeah, 38, of Houston, Texas, built his fraud around a single invented man who never existed: "Edward Peter Duffey," a supposedly wealthy, widowed British financier from Manchester, England, who — in the character's own backstory — counted the chair of the U.S. Securities and Exchange Commission among his personal friends. Working with Akunna Baiyina Ejiofor, 36, also of Houston, and Nnamdi Franklin Ojimba, 36, of Chicago, Ezeah used the Duffey persona and others like it to open fake profiles on ChristianMingle.com, Match.com, OurTime.com, and Zoosk, targeting older widows and divorcées across the country between May 2014 and January 2016.
@@ -6518,6 +6546,10 @@ NotoriousAF.push(
     slug: 'kenneth-akpieyi-emanuella-hall-romance-scam-fugitive',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    // representative photo (case prosecuted by the U.S. Attorney's Office for the Eastern District of Louisiana) — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Hale_Boggs_Federal_Building_and_United_States_Courthouse.jpg?width=1200',
+    coverImageCredit: 'Yair Haklai, CC BY-SA 4.0, via Wikimedia Commons',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.justice.gov/usao-edla/pr/georgia-residents-sentenced-multi-million-dollar-romance-scam',
     // no rights-cleared photo found — sourceUrl above serves as the "read the full story" link
     body: `Kenneth G. Akpieyi of Marietta, Georgia, and Emuobosan Emanuella Hall of Atlanta ran a romance-fraud operation built on borrowed authority: fake Facebook and Instagram profiles presenting the conspirators as decorated military generals, philanthropists, and international entrepreneurs — men and women of obvious means who happened to live overseas and could never quite meet in person. Once a target responded, the conversation moved off the public platform and onto encrypted WhatsApp messaging, where the relationship deepened for weeks or months before any request for money ever surfaced. More than 30 women across the country were drawn in this way, most of them older women who believed they had found a late-in-life partner rather than a scripted character run by a fraud ring in Georgia.
