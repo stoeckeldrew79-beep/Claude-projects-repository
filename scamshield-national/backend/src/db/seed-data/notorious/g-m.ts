@@ -7377,6 +7377,10 @@ NotoriousGM.push(
     slug: 'jerome-shaun-cohen-equitybuild-ponzi-scheme',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Dirksen_United_States_Courthouse,_Chicago_Loop,_Chicago,_Illinois_(11004376983).jpg?width=1200',
+    coverImageCredit: 'Photo: Ken Lund, CC BY-SA 2.0, via Wikimedia Commons — the Dirksen U.S. Courthouse in Chicago, where the SEC filed its fraud suit against the Cohens',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-24237',
     body: `EquityBuild, Inc. and its lending arm, EquityBuild Finance, LLC, pitched a straightforward-sounding real estate investment to people around the country starting in 2010: hand over money, and it would go toward buying, renovating, and managing income-producing apartment buildings and single-family homes on Chicago's South Side, secured by promissory notes and first-lien mortgages that made the investment sound as safe as a bank loan while promising annual returns of 12 to 20 percent. Father and son Jerome H. Cohen and Shaun D. Cohen ran the operation, eventually building a portfolio of 79 apartment buildings and 34 single-family homes — roughly 1,674 rental units in all — and raising more than $135 million from about 900 investors nationwide.
 
