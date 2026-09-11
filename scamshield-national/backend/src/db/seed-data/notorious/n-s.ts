@@ -5340,3 +5340,20 @@ Wade did not plead guilty. Prosecutors in the Southern District of New York took
 Romance scams are frequently discussed as a story about the person on the other end of the chat window, but Wade's case is a reminder that the money has to go somewhere real once a victim wires it — and that the U.S.-based accounts and shell companies receiving it are themselves a prosecutable, and often more findable, link in the chain than an overseas scammer using a fake name and a stolen photo.`,
   },
 );
+
+NotoriousNS.push(
+  {
+    title: 'Olayinka Sunmola: The "Prince Charming" Behind a Nigeria-Based Romance Scam Ring',
+    slug: 'olayinka-sunmola-prince-charming-romance-scam',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://www.justice.gov/usao-sdil/pr/prince-charming-behind-bars-nigerian-romance-scammer-nets-27-year-prison-sentence',
+    body: `From 2007 to 2014, Olayinka Ilumsa Sunmola ran a criminal organization out of Nigeria and South Africa that federal prosecutors said targeted and stole from hundreds of women across the United States, with dozens of victims concentrated in the St. Louis, Missouri, and southern Illinois area. Sunmola and his associates built fake online personas using stolen photographs — including photos of real U.S. soldiers, some of them deceased — and posed as American military service members stationed overseas or as engineers working government contracts in South Africa, cultivating what felt to the women on the other end like genuine, intense long-distance relationships.
+
+Once a relationship was established, the requests for money began: hotel bills, food, transportation, and other costs tied to fabricated emergencies or the logistics of a supposed "mission" that kept the relationship from ever becoming physical. Prosecutors said Sunmola's organization also used some victims as unwitting money mules to help process funds from stolen credit cards, and in at least some cases obtained private, intimate webcam photos from victims that were then used to extort them for still more money. Victims described being driven to bankruptcy; one contemplated suicide, and prosecutors said another made a medication dosing error, while caring for a child, in the midst of the emotional toll the scheme caused.
+
+An investigation that began in 2012, involving the U.S. Postal Inspection Service and international law enforcement partners, led to a federal indictment in November 2013 charging Sunmola with mail fraud, wire fraud, conspiracy, and interstate extortion. He was arrested at London's Heathrow Airport in August 2014 and extradited to face trial in the Southern District of Illinois. Sunmola pleaded guilty to all eight counts on March 2, 2016, and on February 2, 2017, U.S. District Judge David Herndon sentenced him to 27 years in federal prison and ordered him to pay at least $1.7 million in restitution — a conservative figure, prosecutors said, given how many victims and how many years the scheme ran.
+
+The case is a reminder that a romance scam's damage is rarely a single wire transfer: it compounds over months or years of a relationship the victim believed was real, and by the time it ends, the loss is measured not just in dollars but in the bankruptcies, canceled weddings, and shattered trust of people who were never in a relationship with anyone at all.`,
+  },
+);
