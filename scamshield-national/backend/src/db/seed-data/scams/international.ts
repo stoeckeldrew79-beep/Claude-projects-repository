@@ -13966,3 +13966,16 @@ International.push(
     country: 'MO',
   },
 );
+
+International.push(
+  {
+    name: 'Fake "Retiring Military Officer" Romance-Investment Scam (Macau)',
+    slug: 'macau-fake-military-officer-romance-investment-scam',
+    description: `A middle-aged Macau woman reported losing MOP460,000 to Judiciary Police (PJ) on August 12, 2026 after a romance-investment scam that began when she met a man online in May 2026 who claimed to be a Chinese military officer nearing retirement. After weeks of building an online relationship, the man told her he had insider knowledge of a security vulnerability on a "China Aerospace" metal-trading investment platform and said exploiting it required a form of "military intervention" that could generate outsized profits, but only if she moved quickly. Trusting him, the victim transferred funds on June 18 and July 6, 2026 into a virtual-currency account she believed was topping up her stake in the platform, only for the man to cut off all contact once the money had been sent. Investigators found the suspect had never even specified what profit margin the victim could expect, and she never received any actual returns during the supposed investment period — the platform and the "military intervention" pretext existed only to justify the transfers. The case fits a broader pattern the PJ has flagged repeatedly through 2025 and 2026, in which fraudsters cultivate a romantic relationship online before steering the victim toward a fake investment scheme promising "high returns and low risk," with the PJ's Anti-Fraud Coordination Centre reporting dozens of such complaints and tens of millions of patacas in cumulative losses. Police urge residents to be especially wary of any online romantic partner who introduces an investment opportunity, never to move money into an account at a partner's direction, and to independently verify any investment platform before transferring funds.`,
+    categorySlug: 'romance-scams',
+    alertLevel: 'high',
+    sources: ['Macau Daily Times', 'Judiciary Police of Macau (PJ)'],
+    sourceUrl: 'https://macaudailytimes.com.mo/online-romance-scam-costs-woman-mop460000.html',
+    country: 'MO',
+  },
+);
