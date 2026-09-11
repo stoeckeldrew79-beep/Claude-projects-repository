@@ -5066,3 +5066,19 @@ What makes Jorgensen's case a clean illustration of how this category of fraud a
     coverImageCredit: 'Photo: Mike Peel, CC BY-SA 4.0, via Wikimedia Commons — the Thurgood Marshall U.S. Courthouse, home of the Southern District of New York, where the SEC charged Jorgensen',
   },
 );
+NotoriousNS.push(
+  {
+    title: 'Patrick McDonnell, "Coin Drop Markets," and the Case That Gave Regulators Power Over Crypto Fraud',
+    slug: 'patrick-mcdonnell-cabbagetech-coin-drop-markets',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.cftc.gov/PressRoom/PressReleases/7774-18',
+    body: `Patrick K. McDonnell ran a small operation out of Staten Island, New York, called CabbageTech Corp., doing business as "Coin Drop Markets." Between January and July 2017, at the height of the first big retail rush into bitcoin, McDonnell marketed paid memberships in a trading-advice group, promising subscribers real-time virtual-currency trading signals and telling some customers he would personally buy and trade bitcoin and litecoin on their behalf, with claimed returns as extravagant as 300 percent a week.
+
+None of it was real. According to the Commodity Futures Trading Commission's complaint, McDonnell never provided the promised trading advice, never made the promised trades, and simply kept the money customers sent him, cutting off communication once they asked for it back. It was, in the regulator's telling, a straightforward theft dressed up in the vocabulary of a trading club — but the case became far more consequential than its dollar amount suggested, because of a legal question nobody had definitively answered before: did the CFTC, an agency built to police commodities like oil, wheat, and financial futures, actually have authority to sue over fraud involving Bitcoin?
+
+The CFTC filed suit in the Eastern District of New York in January 2018, and in March 2018, U.S. District Judge Jack B. Weinstein ruled that virtual currencies qualify as "commodities" under the Commodity Exchange Act — meaning the CFTC's anti-fraud authority reached bitcoin and litecoin transactions even though the agency doesn't directly regulate crypto spot markets the way it does futures exchanges. CabbageTech, the corporate defendant, then failed to appear through counsel as required of companies in federal court and was held in default. McDonnell fought on individually, and after a four-day bench trial in August 2018, Judge Weinstein found he had "ruthlessly misled" his customers and misappropriated their money, entering a final judgment ordering McDonnell and CabbageTech, jointly, to pay $290,429.29 in restitution and an $871,287.87 civil monetary penalty, along with a permanent ban from trading commodities and registering with the CFTC.
+
+The money recovered was modest by the standards of a corpus full of billion-dollar frauds — McDonnell's scheme ran for roughly six months and defrauded a comparatively small circle of customers. What made the case matter was the precedent: CFTC v. McDonnell became one of the first court rulings to confirm, in a fully litigated judgment rather than a settlement, that federal commodities-fraud law reaches cryptocurrency — a foundation regulators would go on to cite in case after case as digital-asset fraud exploded in scale over the years that followed. A modest Staten Island trading-advice scam is, improbably, part of the reason regulators today have a clear legal basis to go after crypto fraud at all.`,
+  },
+);
