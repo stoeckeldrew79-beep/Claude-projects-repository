@@ -2285,6 +2285,10 @@ If you purchased VSL#3 between June 1, 2016 and June 19, 2019, file a claim dire
     slug: "tesla-supercharger-idle-fee-settlement-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "tesla-supercharger-idle-fee-settlement"],
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Victor_(Rochester)_NY_Tesla_Supercharger_at_Eastview_Mall_with_three_Model_S_sedans.jpg?width=1200",
+    coverImageCredit: "Photo: B137, CC0, via Wikimedia Commons — a Tesla Supercharger charging station",
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: "https://www.classaction.org/news/tesla-settlement-unplugs-class-action-lawsuit-over-idle-fees-for-free-lifetime-supercharging",
     body: `To sell some of its earliest cars, Tesla made a promise that sounded simple: buy a Model S or Model X before a certain date, and you'd get free access to Tesla's Supercharger network for as long as you owned the car, no strings attached. California owner Kevin Shenkman was one of the buyers who took Tesla up on it — and in 2021, he sued the company in Alameda County Superior Court, alleging Tesla had quietly built a way to charge those same "free for life" customers money anyway, and to cut off their charging access entirely if they didn't pay.
 
