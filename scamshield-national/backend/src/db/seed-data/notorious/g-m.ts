@@ -7309,6 +7309,10 @@ NotoriousGM.push(
     slug: 'mark-grenon-genesis-ii-church-mms-bleach-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/FDA_Bldg_1_-_Exterior_With_Circle_(5161374950).jpg?width=1200',
+    coverImageCredit: 'U.S. Food and Drug Administration / Wikimedia Commons / Public Domain',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/doj-press-releases-involving-fda-oci/leaders-genesis-ii-church-health-and-healing-who-sold-toxic-bleach-fake-miracle-cure-covid-19-and',
     body: `Mark Grenon and his sons Jonathan, Jordan, and Joseph ran an outfit they called the "Genesis II Church of Health and Healing" out of Bradenton, Florida, built around a product they named Miracle Mineral Solution, or MMS. Stripped of the branding, MMS was sodium chlorite mixed with water that, once ingested, became chlorine dioxide — a bleaching agent used industrially to treat wastewater and bleach textiles and paper pulp, not something meant to go in the human body.
 
