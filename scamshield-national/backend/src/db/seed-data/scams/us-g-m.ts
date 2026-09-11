@@ -5338,3 +5338,15 @@ UsGM.push({
     country: 'US',
     state: 'HI',
 });
+
+UsGM.push({
+    name: 'Joliet, Montana Fake Microsoft Pop-Up to FTC Impersonation Scam (Wei Jia Luo)',
+    slug: 'montana-joliet-fake-microsoft-popup-ftc-impersonation-wei-jia-luo',
+    description: `A 73-year-old man in Joliet, Montana — a small town in Carbon County — was on his home computer in March 2024 when a pop-up window claiming to be from Microsoft told him his device was compromised and instructed him to call a listed number for help. The call connected him to a scammer who, over a series of follow-up messages, convinced him he needed to make payments to comply with a supposed Federal Trade Commission investigation into his accounts. Following those instructions, the victim paid $53,000 on April 11, 2024, then liquidated a $50,000 investment account and handed that over on May 1, 2024, and was separately directed to buy $5,000 in Apple and Lowe's gift cards, in total losing $182,000. Federal investigators traced the scheme to Wei Jia Luo, 42, a Chinese national living in California, who was indicted at the end of 2024 and arrested in Arizona in 2025 after agents combed through his rental-car and flight records. Luo pleaded guilty in March 2026 to one count of wire fraud in the U.S. District Court for the District of Montana and was sentenced to two years and three months in prison, ordered to pay $181,000 in restitution, and will be deported to China after completing his sentence. The case follows the well-worn "tech support to government impersonation" pipeline: an alarming computer pop-up is used to open a channel of trust, which a second scammer then exploits by invoking a real federal agency's name to pressure a victim into liquidating savings and converting the rest into gift cards, an untraceable form of payment no legitimate government investigation would ever request. A real security problem is never resolved by calling a phone number displayed in a pop-up, and no federal agency, including the FTC, ever demands payment by gift card or a wire transfer to resolve an investigation into a consumer's own accounts; anyone who sees such a pop-up should restart the browser without calling the number, and anyone already told to pay this way should stop, hang up, and report the contact to the FBI's Internet Crime Complaint Center at IC3.gov.`,
+    categorySlug: 'tech-support-scams',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office for the District of Montana"],
+    sourceUrl: 'https://www.justice.gov/usao-mt/pr/chinese-national-sentenced-over-2-years-prison-scamming-73-year-old-joliet-man',
+    country: 'US',
+    state: 'MT',
+});
