@@ -7348,3 +7348,22 @@ Price pleaded guilty in September 2021 to wire fraud and money laundering. On No
 The case became one of the more widely covered examples of COVID-relief fraud precisely because the mismatch was so stark: a program meant to keep real employees on real payrolls during a national emergency, diverted instead into a luxury SUV and a watch, memorialized in the kind of receipts and dealership records that made the fraud straightforward for investigators to trace once they went looking. A relief program engineered to move money quickly in a crisis will always be more vulnerable to exactly this kind of fabricated paperwork than a program with time to verify every claim before paying it out — which is why the enforcement side of PPP fraud, unlike the loans themselves, took years rather than days, and is still working through cases like this one long after the pandemic emergency that created the program has passed.`,
   },
 );
+
+NotoriousGM.push(
+  {
+    title: 'Keniel Thomas and the Lottery Scam That Turned to Death Threats Against a Former CIA and FBI Director',
+    slug: 'keniel-thomas-lottery-extortion-scam-webster',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-dc/pr/jamaican-national-sentenced-prison-lottery-fraudextortion-scheme',
+    body: `On June 9, 2014, a man in Washington, D.C. picked up the phone and was told he had just won $15.5 million and a new Mercedes-Benz in the Mega Millions lottery. The caller, identifying himself as "David Morgan," explained that before the prize could be released, the winner needed to wire $50,000 to cover taxes and fees — a version of the advance-fee lottery scam that has targeted Americans by phone and mail for decades. What made this particular call unusual was who was on the other end: the recipient was William Webster, then 90 years old, who had spent a career at the very top of federal law enforcement as both Director of the FBI (1978-1987) and Director of the CIA (1987-1991), and his wife Lynda.
+
+Rather than pay, the Websters recognized the call for what it was and, drawing on decades of institutional familiarity with exactly this kind of fraud, contacted the FBI. Over the following months, the man calling himself David Morgan escalated rather than backed off: the claimed prize grew to $72 million, and when the Websters continued to stall, his messages turned overtly threatening, including threats to burn down their house or have a sniper shoot them. The Websters cooperated with federal investigators for years, helping build a case against a caller who had no idea who he had actually targeted.
+
+Investigators identified the caller as Keniel Thomas, a Jamaican national, and found the Websters were far from his only victims — Thomas had defrauded or attempted to defraud more than 30 people across the country, collecting hundreds of thousands of dollars from them combined. He was ultimately traced after an email sent in furtherance of the scheme included his real name rather than his "David Morgan" alias. Thomas was arrested on December 18, 2017, as he arrived at New York's John F. Kennedy International Airport on a flight from Montego Bay, Jamaica.
+
+Thomas pleaded guilty on October 26, 2018, in the U.S. District Court for the District of Columbia to interstate communication with intent to extort. In February 2019, Chief Judge Beryl Howell sentenced him to 71 months — just under six years — in federal prison, to be followed by deportation proceedings.
+
+The Webster case is a fixture in FBI elder-fraud training precisely because of who ended up on the receiving end: lottery and sweepstakes scammers dial enormous, indiscriminate call lists with no way of knowing in advance who will answer, which meant a former head of both the FBI and CIA was, at the moment the phone rang, just as anonymous a target as anyone else in the directory. What protected the Websters wasn't a level of sophistication ordinary victims lack — it was the same advice federal agencies give everyone: a legitimate lottery never asks winners to pay upfront fees, and reporting a suspicious call immediately, rather than engaging with the caller, is what turned this particular scam attempt into a solved case.`,
+  },
+);
