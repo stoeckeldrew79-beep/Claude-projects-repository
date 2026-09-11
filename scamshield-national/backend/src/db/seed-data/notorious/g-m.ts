@@ -6375,6 +6375,9 @@ NotoriousGM.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/usao-sdfl/pr/owner-sentenced-more-27-years-prison-multi-million-dollar-health-care-fraud-and-money',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Ft._Lauderdale,_FL,_Courthouse,_Broward_County,_11-21-2010_(10).JPG?width=1200',
+    coverImageCredit: 'Georgia Guercio / Wikimedia Commons (CC BY-SA 3.0) — Broward County Courthouse, Fort Lauderdale, near Chatman\'s Margate, Florida sober homes',
     body: `Kenneth "Kenny" Chatman ran Reflections Treatment Center in Margate, Florida, and Journey to Recovery in Lake Worth, Florida, two outpatient programs operating inside South Florida's booming — and loosely regulated — addiction-treatment industry. The region drew people seeking help from across the country, and Chatman built his business around getting as many of them into his programs as possible: prosecutors said he paid kickbacks and bribes to other sober-home operators for every patient they referred to him, disguising the payments on paper as "case management fees," "consulting fees," "marketing fees," and "commissions" — a practice known in the industry as patient brokering.
 
 Once patients were enrolled, the fraud continued on the billing side. Chatman's clinics subjected residents to excessive, often medically unnecessary urine drug testing, sometimes multiple times a week, generating insurance bills that in some cases approached $1 million a year for a single patient, alongside claims for "group therapy" sessions that, according to court records, sometimes amounted to little more than patients sitting in a room watching a movie. Prosecutors said the operation defrauded insurers of several million dollars in the process.
