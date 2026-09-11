@@ -12964,3 +12964,16 @@ International.push(
     country: 'SX',
   },
 );
+
+International.push(
+  {
+    name: 'Windward Islands Bank Insider Account-Draining Fraud',
+    slug: 'sint-maarten-windward-islands-bank-insider-fraud',
+    description: `The Police Force of Sint Maarten (KPSM) confirmed on February 24, 2026 that it had arrested a Windward Islands Bank (WIB) employee and a second suspect, her boyfriend, in a fraud investigation into customer accounts being drained from the inside. Investigators said the employee used her access at the bank to move funds — including transfers of up to $15,000 at a time — out of customer accounts to accomplices, with money then channeled onward to the boyfriend, who was arrested in St. Maarten while driving a stolen vehicle alongside another woman also suspected of receiving diverted funds. Police spokesman Joe Josepha said KPSM was "conducting a very broad investigation" and that several customer accounts had already been frozen as the probe widened, but declined to give further specifics while the case was active; WIB itself declined to comment publicly or offer customers any reassurance. The case drew added alarm because, according to reporting on an International Monetary Fund transparency assessment requested by the Central Bank of Curaçao and Sint Maarten, banks on Sint Maarten — including WIB — do not carry insurance that protects customers against losses from this kind of internal fraud, leaving affected depositors with far less certainty of being made whole than customers of banks in jurisdictions with deposit or fraud insurance. Consumer advocates urged Sint Maarten bank customers to check statements and online or mobile banking activity regularly rather than assuming unauthorized transfers will be caught internally, and to report any unrecognized transaction to their bank and to KPSM's Fraud Department immediately, since recovery of funds already moved by an insider is far from guaranteed on an island where no fraud-insurance backstop currently exists.`,
+    categorySlug: 'account-takeover',
+    alertLevel: 'high',
+    sources: ['St. Martin News Network (SMN News)', 'Police Force of Sint Maarten (KPSM)', 'International Monetary Fund (IMF)'],
+    sourceUrl: 'https://smn-news.com/index.php/st-maarten-st-martin-news/50059-sint-maarten-police-arrest-two-in-fraud-investigation-amid-wib-scandal.html',
+    country: 'SX',
+  },
+);
