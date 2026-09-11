@@ -13953,3 +13953,16 @@ International.push(
     country: 'MO',
   },
 );
+
+International.push(
+  {
+    name: 'Mobile Screen-Sharing Banking Fraud (Macau)',
+    slug: 'macau-mobile-screen-sharing-banking-fraud',
+    description: `The Monetary Authority of Macao (AMCM) issued a public warning on March 17, 2026 about a rising pattern of fraud built around mobile-phone screen-sharing. The scheme starts with an unsolicited phone call in which the fraudster poses as a bank, government office, or other trusted entity to build rapport, then steers the victim toward opening their mobile banking app and turning on a screen-sharing or remote-access function — often under the pretext of "verifying" an account issue or helping resolve a supposed problem. Once sharing is active, the caller can see everything on the victim's screen in real time, including account numbers, card details, usernames, and one-time security codes, and uses that visibility to drain the account, sometimes without the victim realizing anything is wrong until the funds are already gone. The AMCM stated plainly that "legitimate institutions, including banks and government bodies, never ask customers to share screens or disclose passwords over the phone," and urged residents to treat any unsolicited request to enable screen-sharing or grant remote device access as an immediate red flag, regardless of how official the caller sounds. Anyone unsure whether a call is genuine is advised to use the Judiciary Police's anti-fraud verification programme to check the number, and anyone who has already shared their screen or disclosed banking credentials, ID numbers, or security codes is urged to contact their bank immediately and file a police report.`,
+    categorySlug: 'tech-support-scams',
+    alertLevel: 'high',
+    sources: ['Macau Daily Times', 'Monetary Authority of Macao (AMCM)'],
+    sourceUrl: 'https://macaudailytimes.com.mo/amcm-warns-about-risks-of-mobile-phone-screen-sharing-fraud.html',
+    country: 'MO',
+  },
+);
