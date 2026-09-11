@@ -5733,3 +5733,15 @@ NotoriousNS.push(
     sourceUrl: "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26392",
   },
 );
+
+NotoriousNS.push(
+  {
+    title: "Todd Prins and the San Antonio Law Practice Built on Forged Court Judgments",
+    slug: "todd-prins-san-antonio-forged-court-judgments-fraud",
+    author: "ScamShield Editorial",
+    tags: ["notorious", "notorious-scammer"],
+    body:
+      "Todd Prins spent years practicing law in San Antonio, which gave his clients every reason to believe him when he told them their cases had been won. According to federal prosecutors, from August 16, 2013, through December 22, 2016, Prins told clients that lawsuits he had filed on their behalf succeeded and resulted in court judgments awarding them money — and to make those claims credible, he fabricated the courts themselves, forging rulings, opinions, and orders purportedly issued by the Bexar County District Court, the Texas Fourth Court of Appeals, the Texas Supreme Court, the U.S. District Court for the Western District of Texas, and the U.S. Courts of Appeals for the Fifth and Seventh Circuits.\n\nPrins's fraud wasn't limited to invented paperwork. In October and November 2016, an entity that had purchased real estate at a foreclosure sale wired approximately $2.4 million to Prins's law firm trust account — money that, under the basic rules governing every attorney trust account, he was obligated to hold and disburse only as the underlying transaction required. Instead, prosecutors say, Prins transferred roughly $2 million of it to another account under his own control and personally misappropriated about $800,000.\n\nPrins pleaded guilty to one count of wire fraud. U.S. District Judge David A. Ezra sentenced him, at age 52, to six years in federal prison, ordered him to pay $2,975,264 in restitution, and imposed three years of supervised release to follow. Prosecutors described the scheme as \"elaborate and sophisticated,\" and Judge Ezra was blunt about the damage it did beyond Prins's own clients, telling him he had \"tainted the reputation of every lawyer in this community.\"\n\nA forged court order is a particularly hard fraud for a victim to catch, because the entire point of hiring a lawyer is to avoid having to track a case through the court system yourself — most clients have no independent habit of calling the clerk's office to confirm a ruling their own attorney just told them about. That is exactly the gap Prins's scheme depended on: a genuine, publicly verifiable judgment is a matter of court record that any client can request directly from the court that supposedly issued it, and doing so, even once, is the one step that would have unraveled Prins's fabricated wins years before prosecutors did.",
+    sourceUrl: "https://www.justice.gov/usao-wdtx/pr/former-san-antonio-attorney-todd-prins-sentenced-federal-prison-24-million-wire-fraud",
+  },
+);
