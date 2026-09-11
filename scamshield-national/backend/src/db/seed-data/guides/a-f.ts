@@ -6848,6 +6848,10 @@ The lesson for any shopper looking for a genuinely American-made product, flags 
     slug: 'apitor-robot-toy-jpush-coppa-settlement-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'kids-app-location-tracking-coppa-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Cubelets_Robot_Construction_Kit_(16241003794).jpg?width=1200',
+    coverImageCredit: 'Photo: Maurizio Pesce, CC BY 2.0, via Wikimedia Commons',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2025/09/ftc-takes-action-against-robot-toy-maker-allowing-collection-childrens-data-without-parental-consent',
     body: `Apitor Technology sells programmable robot-building kits marketed to kids ages 6 to 14, the kind of STEM toy sold widely on Amazon and pitched to parents as a hands-on way to teach coding. To actually program and control the robot, a child needs Apitor's free companion app — and in September 2025, the FTC announced a settlement charging that the app came with an undisclosed catch: a piece of software baked into it was quietly sending children's precise location to servers in China.
 
