@@ -8075,7 +8075,7 @@ NotoriousGM.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Skyline_of_Charlotte,_North_Carolina,_seen_from_the_Carolina_Panthers%27_practice_field.(2009).jpg?width=1200",
-    coverImageCredit: 'Photo: Riction, CC BY-SA 3.0, via Wikimedia Commons — the Charlotte skyline seen from the Carolina Panthers\' practice field; Kubler\'s longtime client Mike Rucker was a former Panthers Pro Bowl defensive lineman, and the case was charged in the Western District of North Carolina',
+    coverImageCredit: 'Photo: Riction, CC BY-SA 3.0, via Wikimedia Commons — Charlotte skyline from the Carolina Panthers\' practice field; a Kubler client was a former Panthers Pro Bowler',
     coverImagePosition: 50,
     // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.justice.gov/usao-wdnc/pr/unlicensed-adviser-charged-4-million-investment-fraud-scheme-targeting-elderly-and',
