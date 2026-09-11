@@ -5948,3 +5948,15 @@ UsGM.push({
     country: 'US',
     state: 'MD',
 });
+
+UsGM.push({
+    name: 'Houston Immigration Attorney Client-Fund and Fake Case-Number Fraud',
+    slug: 'houston-immigration-attorney-fake-case-number-fraud',
+    description: `Alla Nowowiejski, 44, a licensed Houston immigration attorney, was arrested and indicted on federal mail fraud and false-statement charges after Harris County Constable Precinct 1 detectives determined that more than 100 clients had been victimized by her practice. Prosecutors allege clients paid Nowowiejski to prepare and file work-visa petitions and immigration-status adjustment applications, but she often submitted only partial paperwork — or none at all — while feeding clients fabricated case reference numbers tied to unrelated, real immigration matters so they would believe their applications were actively being processed with U.S. Citizenship and Immigration Services. In at least one instance detailed in the indictment, she also had clients submit medical records to USCIS that were not actually required and that contained materially false statements. The scheme first surfaced publicly in a 2023 civil lawsuit filed by an employer, Audubon Engineering Operations, after Nowowiejski failed to properly handle immigration cases for five of its employees and did not respond to the suit, resulting in a default judgment against her; the federal criminal case followed after Harris County Constable Alan Rosen's office fielded a wave of additional complaints. She made her initial federal court appearance on September 9, 2026, and faces up to 20 years in prison and a $250,000 fine if convicted. Constable Rosen urged any additional victims, regardless of immigration status, to contact his office at 713-755-5200. Because a real attorney's license does not guarantee a case is actually being worked, clients who paid for immigration filings are advised to independently confirm any case or receipt number directly through USCIS's own case-status tool at uscis.gov rather than trusting a number or screenshot supplied by the attorney, and to request copies of every document filed on their behalf.`,
+    categorySlug: 'legal-debt-collection',
+    country: 'US',
+    state: 'TX',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office for the Southern District of Texas", 'Harris County Constable Precinct 1', 'ABC13 Houston'],
+    sourceUrl: 'https://www.justice.gov/usao-sdtx/pr/immigration-attorney-arrested-alleged-fraud-scheme',
+});
