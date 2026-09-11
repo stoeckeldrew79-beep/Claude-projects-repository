@@ -5666,3 +5666,17 @@ UsGM.push({
     isHistorical: true,
     firstRecorded: '2024-08-22',
 });
+
+UsGM.push({
+    name: "Calton's Lawn Care and Lake Michigan Pool Deposit-and-Disappear Scheme",
+    slug: 'michigan-caltons-lawn-care-lake-michigan-pool-deposit-scheme',
+    description: `Aron and Leslie Calton, operating a business called Calton's Lawn Care and, under a separate Facebook page, Lake Michigan Pool, collected upfront payments and deposits from West Michigan homeowners for lawn service and swimming pool installation or repair projects, then performed little or no work and ignored or blocked customers who asked for refunds, according to a lawsuit Michigan Attorney General Dana Nessel's office filed in Ingham County Circuit Court on September 24, 2025. The lawsuit, which alleges the Kent City couple's conduct violated the Michigan Consumer Protection Act, asks the court to dissolve Calton's Lawn Care and order the company to repay every affected customer. Nessel's office said the pattern extended across multiple consumers and business names tied to the Caltons, and urged anyone who had a similar experience with Calton's Lawn Care, Lake Michigan Pool, or another business connected to Aron or Leslie Calton to contact the Attorney General's Consumer Protection Team directly. "Companies cannot fail to provide the services they promised after accepting deposits or ignore rightful requests for refunds," Nessel said. "My office will hold businesses accountable for engaging in these unfair practices." The case followed a similar Nessel lawsuit filed two months earlier against a Washtenaw County construction company accused of the same deposit-and-disappear pattern, part of what the office says was more than $16 million recovered for Michigan consumers and businesses in 2024 alone. Homeowners hiring a lawn care, pool, or other seasonal home-service company should avoid paying the full cost upfront, get a written contract specifying a start date and scope of work, pay by a method that offers fraud protection such as a credit card rather than cash or a peer-to-peer payment app, and check a business's name — and any other names or pages it operates under — against the Michigan Attorney General's Consumer Protection complaint records before paying a deposit.`,
+    categorySlug: 'home-improvement-solar',
+    alertLevel: 'medium',
+    sources: ["Michigan Department of Attorney General (Dana Nessel)"],
+    sourceUrl: 'https://www.michigan.gov/ag/news/press-releases/2025/09/24/attorney-general-nessel-files-consumer-protection-lawsuit',
+    country: 'US',
+    state: 'MI',
+    isHistorical: true,
+    firstRecorded: '2025-09-24',
+});
