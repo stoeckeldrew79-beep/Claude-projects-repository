@@ -5142,3 +5142,15 @@ UsNS.push({
     isHistorical: true,
     firstRecorded: '2026-07-16',
 });
+
+UsNS.push({
+    name: 'Lancaster County Violent-Threat Extortion Scam',
+    slug: 'nebraska-lancaster-county-violent-extortion-scam',
+    description: `Nebraska Attorney General Mike Hilgers and Lancaster County Sheriff Terry Wagner issued a joint consumer alert on February 20, 2025 after a wave of reports describing an extortion scheme more aggressive than a typical scam call: victims received threatening phone calls, texts, and emails — some including violent images — from callers who already knew the victim's home address and the names of family members, then demanded money to prevent harm to the victim or their relatives. Some of the callers falsely claimed to be FBI agents or police officers to make the threat feel like an unavoidable legal matter rather than an extortion attempt, leaning on the personal details they had gathered — often from data-broker sites, social media, or past data breaches — to make each call feel individually targeted rather than a mass-blasted scam. The alert stressed that no genuine law-enforcement agency ever calls, texts, or emails a person demanding payment to prevent violence against them or their family, and urged anyone who receives a threat like this to contact local law enforcement immediately using a number they look up independently, rather than any number the caller provides, and to avoid engaging with or replying to the sender. Nebraskans who receive a similar threat can get help identifying it from the Attorney General's Consumer Affairs Response Team at 402-471-2682, which also offers free guides for blocking unwanted calls and a Consumer Protection Kit on request.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ["Nebraska Attorney General's Office (Mike Hilgers)", "Lancaster County Sheriff's Office"],
+    sourceUrl: 'https://ago.nebraska.gov/ag-hilgers-and-lancaster-county-sheriff-issue-consumer-alert-extortion-scam',
+    country: 'US',
+    state: 'NE',
+});
