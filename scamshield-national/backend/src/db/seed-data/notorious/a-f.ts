@@ -7099,3 +7099,20 @@ Aron Puretz and Silber pleaded guilty to conspiracy to commit wire fraud affecti
 The Puretz and Silber case is a reminder that a lender's most important fraud safeguard — verifying a property's value through a genuinely independent recent sale — depends entirely on the sale actually being independent, something a lender reviewing paperwork after the fact has no easy way to confirm. A "recent comparable sale" presented as evidence of value is only as trustworthy as the relationship, or lack of one, between the buyer and the seller — a relationship that dual closings and shell-company buyers are specifically built to hide from anyone relying on the paperwork alone.`,
   },
 );
+
+NotoriousAF.push(
+  {
+    title: 'Ash Narayan: The Advisor Who Drained Pro Athletes to Prop Up His Own Startup',
+    slug: 'ash-narayan-rgt-capital-athlete-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-cdca/pr/ex-financial-advisor-sentenced-more-3-years-prison-defrauding-professional-athlete',
+    body: `Ash Narayan worked as a managing director out of the Irvine, California office of RGT Capital Management, building a client roster around a specific niche: professional athletes navigating the short, unusually front-loaded earning careers unique to pro sports. His clients included San Francisco Giants pitcher Jake Peavy, then-Denver Broncos quarterback Mark Sanchez, and retired Houston Astros pitcher Roy Oswalt — high earners who, like most professional athletes, had only a handful of years to make money that needed to last the rest of their lives, and who were trusting Narayan to manage it conservatively.
+
+From around 2009 through early 2016, Narayan instead steered more than $30 million of his clients' savings into The Ticket Reserve, an Illinois-based startup that sold speculative reservations for future event tickets — an unprofitable, high-risk company millions of dollars in debt. At times, prosecutors said, Narayan directed employees to forge his clients' signatures on the wire authorizations that moved their money, without their knowledge or consent. What he never disclosed to the clients whose retirement savings he was redirecting: he sat on The Ticket Reserve's board, held a substantial ownership stake in it, and was personally collecting nearly $2 million in compensation from the company over those years — paid for, in substantial part, out of the same funds he was funneling in on his clients' behalf. He also misrepresented himself to clients as a certified public accountant, a credential he never held.
+
+The SEC filed civil fraud charges against Narayan, The Ticket Reserve, and two of its executives on May 24, 2016, in federal court in Dallas, freezing his assets and installing a receiver over the company the same day. A parallel criminal case followed: Narayan pleaded guilty in June 2019 to a two-count federal information charging wire fraud and filing a false tax return. In November 2019, U.S. District Judge Josephine Staton sentenced him to 37 months in federal prison and ordered him to pay $18,811,231 in restitution to his victims. He separately agreed to be permanently barred from associating with any brokerage or investment advisory firm and to disgorge his ill-gotten gains plus a civil penalty in the related SEC action.
+
+Narayan's case is a reminder that the specific conflict of interest he hid — steering client money into a company he personally profited from — is exactly the disclosure investment-adviser law exists to force into the open, because a client has no way to evaluate advice for bias they were never told existed. Professional athletes are frequently targeted by this particular pattern of fraud: a short career produces a large sum of money early, often with limited independent financial experience and heavy reliance on a single trusted advisor, which is precisely the setup that lets a conflicted recommendation go unquestioned for years rather than months.`,
+  },
+);
