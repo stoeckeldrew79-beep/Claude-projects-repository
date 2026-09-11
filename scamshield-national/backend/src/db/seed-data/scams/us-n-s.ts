@@ -5480,3 +5480,15 @@ UsNS.push({
     country: 'US',
     state: 'NJ',
 });
+
+UsNS.push({
+    name: 'Preferred Property Solutions "Foreclosure Rescue" Deed Theft (Kyle Seyboth)',
+    slug: 'rhode-island-seyboth-preferred-property-solutions-foreclosure-rescue-scheme',
+    description: `Jean Marie and Marie Delva, an elderly Haitian immigrant couple with limited English proficiency who had owned their Providence home for nearly 30 years, fell behind on their mortgage in 2023 and owed roughly $61,000 to Wells Fargo on a house the Rhode Island Attorney General's Office says was worth about $450,000. In June 2023, an associate of real estate broker Kyle Seyboth approached Marie Delva outside her home, and days later texted her daughter Joana proposing that Seyboth's company, Preferred Property Solutions, add its name to the title, pay off the existing mortgage, and set the Delvas up on a new payment plan before eventually returning full ownership to them. At a July 24, 2023 meeting with the defendants' own attorney — held with no interpreter present despite the Delvas' limited English — the paperwork they signed did not refinance anything; according to the Attorney General's complaint, it transferred full title of the home to Preferred Property Solutions outright. For the next year, the Delvas kept sending mortgage-style payments to an entity called Red Balloon Capital, believing they were paying down a refinanced loan, until Seyboth listed their home for sale on July 3, 2024 for $450,000 — a sale that, had it closed, stood to hand the defendants roughly $385,000 in equity that belonged to the Delvas. Rhode Island Attorney General Peter Neronha sued Seyboth, Preferred Property Solutions, Red Balloon Capital, and associate Lowell Williams on November 13, 2024 for violating the state's Unfair and Deceptive Trade Practices Act, temporarily blocking the sale while the case proceeded through discovery; a related federal lawsuit adding further defendants followed in February 2026. "The alleged behavior exposes the depths to which some people will sink in order to turn a buck, robbing the Delvas of the place they called home for decades," Neronha said in announcing the suit. A homeowner who is behind on mortgage payments and is approached by someone offering to "help" by taking over the title — rather than by a lender-approved loan modification or a HUD-certified housing counselor — should have any paperwork reviewed by an independent attorney before signing, and if English is not their first language, should insist on a professional interpreter, since a document described verbally as a refinancing can legally be an outright transfer of ownership.`,
+    categorySlug: 'mortgage-foreclosure-scams',
+    alertLevel: 'high',
+    sources: ["Rhode Island Office of the Attorney General"],
+    sourceUrl: 'https://riag.ri.gov/press-releases/attorney-general-neronha-files-lawsuit-against-real-estate-broker-following',
+    country: 'US',
+    state: 'RI',
+});
