@@ -6675,7 +6675,10 @@ NotoriousAF.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26223',
-    // civil SEC settlement, no rights-cleared photo identified — sourceUrl serves as the "read the full story" link
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/U.S._Post_Office_and_Court_House,_1933,_Baton_Rouge_(East_Baton_Rouge_Parish,_Louisiana).jpg?width=1200',
+    coverImageCredit: 'National Archives, Public Domain, via Wikimedia Commons',
+    coverImagePosition: 50,
     body: `Note: this case is a civil SEC settlement. Eric Zhu settled the SEC's charges without admitting or denying the allegations, and the case involves no criminal conviction.
 
 Game Coin, LLC was a small Louisiana venture founded in August 2021 by two people whose primary business, according to the SEC's complaint, was landscaping rather than software — an ordinary-enough origin story for a company that set out to build a website where amateur athletes could create and sell their own digital trading cards. To handle the technical side of launching a companion crypto token called GME, the founders brought in Eric Zhu, a freelance blockchain engineer based in New York, to write the code that would create the token and bring it to market.
