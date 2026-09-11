@@ -3061,3 +3061,17 @@ UsTZ.push({
     isHistorical: true,
     firstRecorded: '2015-07-15',
 });
+
+UsTZ.push({
+    name: 'Parker Wilde Amazon "Done-For-You" E-Commerce Scam (Utah)',
+    slug: 'utah-parker-wilde-amazon-ecommerce-scam',
+    description: `Parker J. Wilde, a Brigham Young University graduate operating out of Utah, sold a "done-for-you" business opportunity that promised consumers passive income from an automated Amazon storefront his team would build, stock, and manage on their behalf. Between 2020 and 2023, Wilde charged an upfront "consulting fee" of $5,000 to $20,000 plus a separate "inventory cost" of $7,000 to $10,000 for each product line, and told buyers they could expect $2,500 to $7,200 or more in monthly passive profit within 60 days, backed by a promised full refund if the store wasn't profitable within a year. A Utah Division of Consumer Protection investigation found none of that materialized: of the more than 200 consumers who signed up, none received the promised profits, and those who asked for a refund didn't get one either. The Division filed a complaint against Wilde, and on December 18, 2025, Utah's Fourth District Court entered a stipulated judgment permanently prohibiting him from selling any business opportunity, running a money-making scheme, or telemarketing in Utah, and ordering him to pay up to $7.9 million in restitution — with roughly $3.9 million of that stayed on the condition that he complies with the order and is unable to pay the full amount. Anyone offered a guaranteed-profit, "we run it for you" online store — on Amazon, Walmart.com, or any other marketplace — should treat a promised monthly income figure and a money-back guarantee as red flags rather than reassurance, since no legitimate e-commerce business can promise a specific profit before a single sale is made, and should check a seller's litigation and complaint history with a state consumer protection office before paying a five-figure "consulting fee."`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'high',
+    sources: ['Utah Division of Consumer Protection', 'KSL.com'],
+    sourceUrl: 'https://commerce.utah.gov/2025/12/18/utah-secures-7-9-million-judgment-and-permanent-ban-against-parker-j-wilde-for-amazon-e-commerce-scam/',
+    country: 'US',
+    state: 'UT',
+    isHistorical: true,
+    firstRecorded: '2020-01-01',
+});
