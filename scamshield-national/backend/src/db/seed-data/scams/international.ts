@@ -13795,3 +13795,16 @@ International.push(
     country: 'JE',
   },
 );
+
+International.push(
+  {
+    name: 'Jersey Deepfake Chief Minister Investment Scam',
+    slug: 'jersey-deepfake-chief-minister-investment-scam',
+    description: `In May 2025, ITV Channel journalist Emma Volney revealed on social media that scammers had used artificial intelligence to clone her voice and that of Jersey's Chief Minister, Lyndon Farnham, to create a fake video designed to con islanders out of money, writing that "police have been made aware" and that she would cover the story on ITV Channel Television that evening. The AI-generated video, circulated on social media, appeared to show the pair discussing a new "government-backed investment programme" that promised islanders £800 a week in return for an initial £200 "investment." The cloned voice of "Lyndon Farnham" insisted the scheme had "nothing to do with FOREX trading, pyramid schemes, and other nonsense found everywhere" and claimed he was "willing to give you your money back out of my own pocket" if investors did not earn £800 within a week, while on-screen prompts pressured viewers to act immediately and enter their details before they lost the opportunity. The video followed an earlier Jersey Financial Services Commission (JFSC) warning that fraudsters were running Facebook adverts misusing photographs of local politicians, an ITV Channel presenter, and the Jersey Evening Post's branding to promote the same bogus scheme, without any of those pictured or named having authorised the use of their image. Volney and the JFSC confirmed neither she nor the Chief Minister had any connection to the investment scheme, and islanders were urged to treat any celebrity- or politician-fronted investment offer shared on social media with suspicion and to verify it independently, through official channels, before sending any money.`,
+    categorySlug: 'ai-deepfake-scams',
+    alertLevel: 'high',
+    sources: ['Jersey Financial Services Commission (JFSC)', 'ITV Channel', 'States of Jersey Police'],
+    sourceUrl: 'https://www.itv.com/news/channel/2025-05-07/how-to-spot-a-deepfake-cyber-security-expert-explains-warning-signs',
+    country: 'JE',
+  },
+);
