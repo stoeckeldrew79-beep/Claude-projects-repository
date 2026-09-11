@@ -5527,3 +5527,16 @@ UsGM.push({
     isHistorical: true,
     firstRecorded: '2022-03-03',
 });
+
+UsGM.push({
+    name: 'Home-Stake Production Company Oil-Drilling Ponzi Scheme',
+    slug: 'home-stake-production-oil-drilling-ponzi-scheme',
+    description: `Tulsa, Oklahoma attorney Robert S. Trippet founded Home-Stake Production Company in 1955 and, starting in 1964, began selling interests in oil-drilling "programs" nationally, marketed as a tax shelter that would pay steady income from real working oil wells. Little of investors' money actually went into drilling — instead, cash from new participants was used to pay "production income" to earlier investors in a structure a federal appeals court later said resembled "a classic Ponzi swindle," and when skeptical investors pressed to see their wells, Home-Stake employees reportedly showed them farmers' water-irrigation pipes painted to look like oil pipelines. The company's investors included entertainers such as Andy Williams, Walter Matthau, Liza Minnelli, Jack Benny, and David Cassidy, along with sitting U.S. senators and financial-industry executives, drawn in partly by Home-Stake's reputation among people who assumed others had already done the diligence. Home-Stake filed for bankruptcy in September 1973 after investors began suing over disallowed tax deductions and missing "production" payments, with total losses estimated above $100 million; Trippet and two associates pleaded no contest to related charges in 1976 and received only probation, a fine, and one night in jail, and investor litigation over the scheme was not fully resolved until 1996. The case is a reminder that celebrity or high-profile participation in an investment is not itself evidence of legitimacy — sophisticated-seeming investors are targeted specifically because their presence reassures everyone who invests after them.`,
+    categorySlug: 'ponzi-pyramid-schemes',
+    sources: ['U.S. Court of Appeals for the Tenth Circuit', 'The Wall Street Journal'],
+    sourceUrl: 'https://caselaw.findlaw.com/court/us-10th-circuit/1200509.html',
+    country: 'US',
+    state: 'OK',
+    isHistorical: true,
+    firstRecorded: '1964-01-01',
+});
