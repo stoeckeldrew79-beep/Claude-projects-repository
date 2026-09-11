@@ -3492,6 +3492,10 @@ If you've recently registered a business in Pennsylvania or any other state, tre
     slug: "psychiatry-of-texas-psychplus-2026-data-breach-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "psychiatry-of-texas-psychplus-2026-data-breach"],
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Downtown_Houston,_TX_Skyline_-_2018.jpg?width=1200",
+    coverImageCredit: "Photo: David Daniel Turner, CC BY 4.0, via Wikimedia Commons — downtown Houston, where Psychiatry of Texas (PsychPlus) is based",
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: "https://www.hipaajournal.com/resource-center-dallas-data-breach/",
     body: `Most breach notices tell you a name, address, and account number got out. The one Psychiatry of Texas — a Houston-based psychiatric practice that does business as PsychPlus — sent to 4,565 patients in the second half of 2026 went further, listing diagnoses and treatment information among the data an unauthorized party had gained access to, alongside the more familiar categories that show up in nearly every breach letter.
 
