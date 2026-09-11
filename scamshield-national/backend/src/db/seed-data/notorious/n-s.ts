@@ -4690,3 +4690,20 @@ A federal grand jury in Minnesota first charged 60 defendants in October 2020, a
 Rahm's case is a reminder that a "magazine subscription renewal" call is one of the more mundane-sounding fronts fraud has ever hidden behind, precisely because the underlying transaction is real and familiar enough that someone who has genuinely subscribed to magazines before has no obvious reason for suspicion. The scale the scheme reached — two decades, nine states, tens of thousands of victims each billed by multiple companies working from shared lists — shows how a fraud built on something this ordinary can run for a generation, and pull in a champion powerboat racer as one of its senior operators, before prosecutors can even finish charging everyone involved.`,
   },
 );
+NotoriousNS.push(
+  {
+    title: 'Nosson Sklar and the $20 Million in Rehab Bills Signed by a Doctor Who Never Worked There',
+    slug: 'nosson-sklar-physical-rehabilitation-billing-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-sdny/pr/owner-physical-rehabilitation-company-sentenced-38-months-prison-20-million-fraud',
+    // no verified rights-cleared photo found yet — see NotoriousCoverPhotos
+    body: `Nosson Sklar, also known as Nathan Sklar, owned and ran a company operating a series of physical rehabilitation facilities around New York City. Between at least January 2020 and July 2024, according to federal prosecutors in the Southern District of New York, Sklar submitted, or had others submit, more than $20 million in claims to health care benefit programs for medical services — asserting in the paperwork that the treatments had been personally rendered by a specific physician affiliated with his company.
+
+That physician, prosecutors said, had done no such thing. He did not perform the billed services, did not work with Sklar's rehabilitation company during the period in question, and had never authorized Sklar to submit claims under his name at all. Sklar billed the insurance programs anyway, using the physician's credentials to make the claims look like legitimate, physician-supervised care rather than services that were never rendered as described or, in many cases, rendered by someone with no license to bill for them. Of the more than $20 million in claims Sklar submitted over the four-year span, health benefit programs actually paid out roughly $12.4 million before investigators uncovered the fraud.
+
+Sklar pleaded guilty on December 11, 2025, to a single felony count of health care fraud. On September 10, 2026, he was sentenced in the Southern District of New York to 38 months in federal prison. In admitting his conduct to the court, Sklar said he had committed the fraud simply "because of the money." "Nosson Sklar spent years bilking health care benefit programs of millions of dollars and will now spend serious time in prison for his conduct," said U.S. Attorney Jamie McDonald in announcing the sentence.
+
+Sklar's case illustrates a particular vulnerability in how health insurers process claims: billing systems generally trust that a claim submitted under a licensed physician's credentials reflects care that physician actually provided, which is exactly the assumption Sklar's scheme depended on for four years. Borrowing a real doctor's name and license number let a rehabilitation company bill as though every session had genuine medical supervision behind it, when the physician whose name appeared on $20 million worth of claims may not have known his credentials were being used at all.`,
+  },
+);
