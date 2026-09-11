@@ -7467,5 +7467,8 @@ According to the Justice Department, the project's creator, a Vietnamese nationa
 To move the stolen funds, prosecutors allege Tuan and his associates used "chain-hopping," converting the cryptocurrency into other coin types and shuttling it across multiple blockchains through decentralized swap services designed specifically to make transactions harder to trace back to a single wallet or identity — the crypto-native equivalent of laundering cash through a series of shell companies.
 
 A federal grand jury in the Central District of California indicted Tuan on one count of conspiracy to commit wire fraud and one count of conspiracy to commit international money laundering, charges that carry a maximum sentence of 40 years in prison if he is convicted. As of the most recent public court record, Tuan has not been arrested and remains outside U.S. custody. The case is a reminder that an NFT project's polish — the artwork, the roadmap, the active Discord server — says nothing about whether the people behind it plan to still be reachable the day after the money changes hands.`,
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Roybal_Building.jpg?width=1200',
+    coverImageCredit: 'Photo: DocFreeman24, CC BY-SA 4.0, via Wikimedia Commons — Edward R. Roybal Federal Building, Los Angeles, in the Central District of California where Tuan was indicted',
   },
 );
