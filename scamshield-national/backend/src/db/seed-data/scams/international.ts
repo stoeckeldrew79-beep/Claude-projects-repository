@@ -10801,6 +10801,16 @@ International.push(
     sourceUrl: 'https://bernews.com/2025/03/scammers-impersonate-bermuda-police-service/',
     country: 'BM',
   },
+  {
+    name: 'Bermuda Monetary Authority Fake "Certificate of Converting" Prize Scam',
+    slug: 'bermuda-monetary-authority-fake-certificate-of-converting-prize-scam',
+    description: `The Bermuda Monetary Authority (BMA) issued a fraud alert warning that criminals were circulating a forged document called a "Certificate of Converting" through targeted social media messages, using it to convince recipients that a large prize or payout was waiting for them. The fake certificate misappropriated the BMA's official name and logo as a watermark and carried a falsified approval purportedly signed by the Authority's Executive Chair, lending the fraud an air of regulatory legitimacy it did not have. The scheme is a classic advance-fee fraud: recipients who believed the certificate was genuine were told they needed to pay a "conversion fee" upfront before any of the promised prize winnings could be released to them, but no legitimate payout ever follows and the upfront payment is simply stolen. The BMA emphasized that it never charges members of the public a fee to release winnings, lottery payouts, or any other funds, and that a falsified approval combined with the misuse of a real institution's name or logo is a clear red flag for fraud. The Authority warned that anyone who engages with the individuals behind such a document, or sends them money, does so entirely at their own risk, and urged the public to verify any document claiming to originate from the BMA directly with the Authority before acting on it or making any payment.`,
+    categorySlug: 'lottery-sweepstakes-scams',
+    alertLevel: 'medium',
+    sources: ['Bermuda Monetary Authority (BMA)', 'Bernews'],
+    sourceUrl: 'https://www.bma.bm/news-and-press-releases/public-warning-fraud-alert',
+    country: 'BM',
+  },
 );
 
 International.push(
