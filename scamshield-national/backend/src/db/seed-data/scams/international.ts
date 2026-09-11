@@ -12535,6 +12535,16 @@ International.push(
     sourceUrl: 'https://oncubanews.com/cuba/etecsa-reactiva-alerta-sobre-estafas-con-las-recargas-internacionales/',
     country: 'CU',
   },
+  {
+    name: 'Cuba Fake Spanish Consulate Appointment Scam',
+    slug: 'cuba-fake-spanish-consulate-appointment-scam',
+    description: `On May 5, 2026, the Consulate General of Spain in Havana — the only Spanish diplomatic post in Cuba authorized to process Spanish-nationality applications — publicly warned that scammers were sending fraudulent emails impersonating the consulate to confirm appointments that don't actually exist, often for "changing an employment-contract appointment" and listing specific times such as 9:00 a.m. or 10:45 a.m., with language like "cancellations are not allowed through this channel" designed to discourage recipients from checking whether the appointment was real. Several applicants, who appear to have paid intermediaries believing they were securing a guaranteed slot, showed up at the consulate only to be turned away once staff found no record of any such appointment. The consulate stated plainly, "this is a scam," and reiterated that the only valid appointments come through its own official website, that hiring an intermediary is never necessary to get one, and that anyone affected should file a report with Cuba's Revolutionary National Police (PNR) if the fraud occurred in Cuba, or with the Spanish National Police if it was arranged in Spain.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Consulate General of Spain in Havana', 'CiberCuba'],
+    sourceUrl: 'https://en.cibercuba.com/noticias/2026-05-05-u1-e135253-s27061-nid328093-consulado-espana-cuba-alerta-estafas-citas-falsas',
+    country: 'CU',
+  },
 );
 
 International.push(
