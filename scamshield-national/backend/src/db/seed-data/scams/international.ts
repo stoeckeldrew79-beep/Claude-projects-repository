@@ -13434,3 +13434,16 @@ International.push(
     country: 'BY',
   },
 );
+
+International.push(
+  {
+    name: 'Minsk-Bishkek-Moscow Pseudo-Investment Call Center Network',
+    slug: 'belarus-pseudo-investment-call-center-network',
+    description: `On 28 July 2026, the Minsk City Court handed down verdicts against 54 defendants — 15 organizers and 39 rank-and-file participants — in what Belarusian prosecutors described as an international fraudulent call-center network that ran linked divisions out of Minsk, Moscow, and Bishkek from 2017 to 2024. Using IP telephony to mask their true location, callers posed as investment brokers and told targets across CIS and EU countries they could earn reliable "passive income" by putting their savings into financial projects that did not actually exist, then walked victims through transferring money into bank accounts the organization controlled. A prosecutor involved in the case said the people targeted were disproportionately "of a respectable age" and had no real investment experience, and were won over by internet advertising and a broker's reassurances into handing over funds they did not understand were at risk. After an investigation lasting roughly a year and a half and a trial that ran nine months, the court convicted the ring's leaders of directing divisions of a criminal organization and of large-scale fraud, sentencing them to between 6 years and 11 years 6 months in prison alongside fines of 45,000 to 450,000 Belarusian rubles; rank-and-file participants received 3 years 3 months to 7 years 6 months plus fines of 27,000 to 180,000 rubles. Documented losses exceeded 2 million Belarusian rubles, and the court ordered more than 2.2 million rubles in restitution plus 15,000 rubles in moral damages paid to victims. The case is a reminder that a cold call promising guaranteed "passive income" from an unfamiliar trading or investment platform — however professional the caller sounds — is a hallmark of organized investment fraud rather than a real opportunity.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'high',
+    sources: ['Minsk City Court', 'Onliner.by'],
+    sourceUrl: 'https://money.onliner.by/2026/07/28/ushherb-bolshe-2-millionov-rublej-osudili-moshennikov-iz-mezhdunarodnogo-koll-centra',
+    country: 'BY',
+  },
+);
