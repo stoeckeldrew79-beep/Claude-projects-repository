@@ -3314,3 +3314,14 @@ UsTZ.push({
     sourceUrl: 'https://www.bbb.org/article/business/21031-bbb-tip-vanity-awards',
     country: 'US',
 });
+
+UsTZ.push({
+    name: 'Fake Vinyl Record Storefront Scam',
+    slug: 'vinyl-record-fake-storefront-scam',
+    description: `As vinyl sales have kept climbing for nearly two decades running, a wave of fake record shops has followed the money straight into collectors' Instagram and Facebook feeds. The pitch is a polished-looking storefront advertising hard-to-find pressings, colored-vinyl variants, or brand-new box sets — sometimes major-label releases like a Rolling Stones or Beatles set — at prices well below what any legitimate retailer or pressing plant charges, paired with professional product photography lifted from real stores. A buyer who orders is often given a fake tracking number to keep them from disputing the charge too early, then finds the "shop" unreachable once the shipping window passes — email goes unanswered, the contact form bounces, and eventually the entire website disappears and reappears days later under a new name. The Better Business Bureau has logged reports of the same pattern under different storefront names; in one filed report, a Kentucky collector who ordered records after seeing a Facebook ad for a shop called Ithered Vinyl Records lost $80 when the order never arrived and the "business" turned out to have no verifiable history anywhere online. Because record collecting runs on scarcity and hype around limited pressings, the community itself has become a frontline defense — collectors on forums like Discogs and Reddit's vinyl communities actively compile and share lists of newly registered scam storefronts as they appear, often within days of the first complaints. The BBB recommends checking how recently a seller's domain was registered before buying, searching the store's name alongside the words "scam" or "complaint," looking for a real street address and working contact information rather than only a form, and paying by credit card — which allows a chargeback — rather than a debit card, payment app, or gift card, since a listing with no verifiable seller history and a price far under market value is the clearest sign the "record shop" behind it doesn't actually exist.`,
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'medium',
+    sources: ['Better Business Bureau (BBB)'],
+    sourceUrl: 'https://www.bbb.org/all/social-media-scams/think-twice-before-buying-from-these-social-media-ads',
+    country: 'US',
+});
