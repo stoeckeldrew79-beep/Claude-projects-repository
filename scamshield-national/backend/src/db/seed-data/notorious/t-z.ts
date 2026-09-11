@@ -2367,5 +2367,8 @@ It was caught. When Elanco compiled a list of everyone who had traded Kindred st
 The SEC filed civil insider-trading charges against both Vakil and Visen in the Southern District of New York in July 2025, alongside parallel criminal charges brought by federal prosecutors. Both pleaded guilty. The SEC's civil case concluded with a final judgment entered in September 2026, permanently barring both from serving as an officer or director of a public company and ordering each to pay a civil penalty of $54,718 — a figure many times larger than either of their original trading profits, reflecting that the penalty was calculated as much for the false statements and the attempted cover-up as for the trades themselves.
 
 Vakil and Visen's case is a useful corrective to the instinct that a small trade is a safe trade. Regulators don't only look at dollar amounts; they look at timing relative to a specific, confidential event, and a friend buying 38,000 shares of an obscure company two days before it's acquired is exactly the kind of pattern automated surveillance is designed to flag, regardless of how modest the tipster's own trade was. And once investigators come asking, lying to them — rather than simply admitting a bad decision — is what reliably turns a securities violation into something closer to obstruction of justice.`,
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/New_York_Stock_Exchange_Facade_-_New_York_City,_USA.jpg?width=1200',
+    coverImageCredit: 'Photo: Donatingpictures, CC BY-SA 4.0, via Wikimedia Commons — the New York Stock Exchange; Vakil and Visen were charged with insider trading of Kindred Biosciences stock',
   },
 );
