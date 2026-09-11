@@ -5250,3 +5250,20 @@ Wolas pleaded guilty to seven counts including wire fraud, aggravated identity t
 Wolas's case folds two frauds into one: an original Ponzi scheme old enough that its victims waited decades for any resolution, and a second, unrelated scheme made possible only because the fugitive years in between had taught him exactly how to build a convincing, ordinary identity. Investors who checked out "Eugene Grathwohl" — a licensed agent with a steady sales record at a recognizable national brokerage — had every reason to think they were dealing with someone else entirely, because on paper, they were.`,
   },
 );
+
+NotoriousNS.push(
+  {
+    title: 'Stephen Anagor, Chinagorom Onwumere, and Salma Abdalkareem: A Celebrity Romance Scam That Ended in a Death',
+    slug: 'stephen-anagor-chinagorom-onwumere-romance-scam-extortion',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-edtn/pr/nigerian-men-and-sudanese-woman-sentenced-over-20-years-romance-scam-resulting-elderly',
+    body: `Stephen Anagor and Chinagorom Onwumere met during military training in South Carolina in June 2023. Working with Salma Abdalkareem, the two men ran a scheme that followed the familiar romance-scam script for its first act — an online stranger posing as someone worth falling for — before pivoting into something far more aggressive. In August 2023 they contacted a 74-year-old retired teacher in Jonesborough, Tennessee, convincing him he was corresponding with a well-known female actress. Once the relationship was established, the scammers switched personas, posing as FBI agents and telling the man he was under federal investigation for sexually harassing the "actress," and that the matter could be kept confidential only if he paid.
+
+Believing the threat was real, the victim sent five checks totaling $86,900 — his entire life savings, along with money from a truck loan — to Onwumere and Abdalkareem. On October 23, 2023, he was found dead in his home from a self-inflicted gunshot wound. Investigators concluded that the extortion had driven him to suicide.
+
+The FBI's investigation led to federal charges against all three defendants for wire fraud conspiracy, with additional counts of money laundering against Abdalkareem and Onwumere, aggravated stalking resulting in death against Onwumere and Anagor, and aggravated identity theft against Anagor. On December 2, 2025, a federal court in the Eastern District of Tennessee sentenced Anagor, 37, of Lakewood, Washington, to 108 months in prison; Onwumere, 36, of Piscataway, New Jersey, to 84 months; and Abdalkareem, 29, also of Piscataway, to 51 months. All three received terms of supervised release to follow and were ordered to jointly pay $388,500 in restitution.
+
+This case is a reminder that a romance scam does not have to stay a romance scam. The same fabricated relationship that got a victim to trust a stranger enough to send money was reused, once the fake actress persona had done its work, to manufacture a second and far more coercive lie — fake federal agents threatening fake criminal exposure — layering extortion on top of the original con. The victim never met a real person behind either persona, and by the time the truth would have come out, he was already dead.`,
+  },
+);
