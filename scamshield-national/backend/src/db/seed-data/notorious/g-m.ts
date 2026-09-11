@@ -6558,6 +6558,10 @@ NotoriousGM.push(
   {
     title: 'Miteshkumar Patel: The Chicago Runner-Network Manager Who Laundered a Fear-Based Phone Scam',
     slug: 'miteshkumar-patel-irs-scam-runner-network',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Dirksen_United_States_Courthouse,_Chicago_Loop,_Chicago,_Illinois_(11004248426).jpg?width=1200',
+    coverImageCredit: 'Ken Lund, CC BY-SA 2.0, via Wikimedia Commons',
+    coverImagePosition: 50,
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     body: `The India-based call center scam that impersonated the IRS and U.S. Citizenship and Immigration Services needed more than telecallers reading a fear script — it needed people in the United States who could turn each victim's payment into cash before anyone caught on. Miteshkumar Patel ran that half of the operation. Based in Illinois, he managed a Chicago crew of "runners" who liquidated and laundered the proceeds of a telefraud conspiracy that, prosecutors said, ran from roughly 2013 to 2016 and defrauded thousands of victims across the country.
