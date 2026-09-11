@@ -14901,3 +14901,16 @@ International.push(
     country: 'CI',
   },
 );
+
+International.push(
+  {
+    name: 'Fake Finance Ministry "Guaranteed Monthly Income" Scam',
+    slug: 'ivory-coast-fake-finance-ministry-guaranteed-income-scam',
+    description: `Fraudulent posts circulating on social media in Côte d'Ivoire falsely claim to offer an official government mechanism that lets people earn up to 2,000,000 CFA francs per month after simply registering online, with no actual work or service involved, and use forged signatures and unauthorized photos of ministry officials to make the offer look legitimate. Côte d'Ivoire's Ministry of Economy, Finance and Budget (Ministère de l'Économie, des Finances et du Budget) issued a formal public communiqué on May 13, 2026 denouncing the posts, stating it recognized none of the announcements and had never created any such income scheme, and describing them as "purement et simplement de l'escroquerie" (purely and simply fraud) regardless of which page, group, or account shared them. The ministry said the operation's goal is twofold — to extract money directly from people who register, and to harvest their personal information for later blackmail or further fraud — and explicitly instructed the public not to transmit any personal data in response to these solicitations, while announcing that it had referred the matter to the competent authorities to identify, arrest, and prosecute those responsible. The case fits a broader pattern flagged by Ivorian authorities of scammers impersonating government ministries and agencies to lend fake investment or income schemes false credibility, and the ministry's guidance was for citizens to treat any online offer of easy government money as fraudulent by default and verify such claims only through the ministry's own official channels.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ["Ministère de l'Économie, des Finances et du Budget de Côte d'Ivoire", 'Fraternité Matin (FratMat)', 'Yessouan.ci'],
+    sourceUrl: 'https://www.fratmat.info/article/2641913/economie/arnaques-en-ligne-le-ministere-des-finances-alerte-contre-de-fausses-promesses-de-gains-mensuels-en-cote-divoire',
+    country: 'CI',
+  },
+);
