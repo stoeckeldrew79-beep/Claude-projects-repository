@@ -5585,6 +5585,10 @@ NotoriousAF.push(
     slug: "daniel-damato-counterfeit-sports-memorabilia-fraud",
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Oracle_Park_from_China_Basin_Park.jpg?width=1200',
+    coverImageCredit: "Photo: Lexi Mattick, Wikimedia Commons (CC BY 4.0) — Oracle Park in San Francisco, home of the Giants, Willie Mays's team",
     sourceUrl: 'https://www.justice.gov/usao-ndca/pr/concord-man-who-sold-fraudulent-sports-memorabilia-pleads-guilty-wire-fraud',
     body: `Daniel Damato, 40, of Concord, California, worked as a sports memorabilia dealer, buying and selling the kind of game-used artifacts that let collectors own a physical piece of a favorite player's career — items whose value rests almost entirely on provenance, since a bat or jersey is worth vastly more if it can be tied to a specific legendary player and moment than if it's simply old sports equipment. Between 2022 and 2024, according to the U.S. Attorney's Office for the Northern District of California, Damato manufactured that provenance rather than verifying it, doctoring items and inventing false histories to make ordinary pieces look like museum-grade collectibles.
 
