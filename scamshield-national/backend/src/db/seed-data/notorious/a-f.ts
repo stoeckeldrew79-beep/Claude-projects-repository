@@ -5926,6 +5926,10 @@ NotoriousAF.push(
     slug: 'emir-matos-camargo-aureus-revenue-group-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Orange_County_Courthouse,_Orlando,_FL.jpg?width=1200',
+    coverImageCredit: 'christian bueno, CC BY 2.0, via Wikimedia Commons',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.cftc.gov/PressRoom/PressReleases/8964-24',
     body: `Note: this case was resolved through a civil consent order, not a criminal conviction. The order does not state that Emir Jesus Matos Camargo admitted or denied the Commodity Futures Trading Commission's findings, and the CFTC's separate case against his company, Aureus Revenue Group LLC, remains pending as of this writing.
 
