@@ -5824,3 +5824,15 @@ UsGM.push({
     country: 'US',
     state: 'ME',
 });
+
+UsGM.push({
+    name: 'Michigan State Police "Total Clearance" Extortion Letter Scam',
+    slug: 'michigan-state-police-total-clearance-letter-scam',
+    description: `The Michigan State Police warned residents on May 5, 2026 about a fraudulent letter circulating statewide that falsely claims to come from MSP headquarters and demands payment to "clear" the recipient's record. The letter tells the recipient they owe $1,900 for "total clearance," with a follow-up notice that an additional $500 will be required later, wrapping the demand in vague language about "processing" paperwork and releasing funds or a debit card on the recipient's behalf. MSP said flatly that "police will never request payment for police clearance, document processing or the release of financial assets," and pointed to warning signs common to the letters: requests for payment in advance, poor grammar and unusual wording, references to international banks or debit cards, and manufactured urgency tied to a fund "release." Anyone who receives a letter like this is advised not to send money or provide personal or banking information, to report it to local law enforcement, and to file a complaint with the FTC at reportfraud.ftc.gov.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Michigan State Police', 'WILX', 'WHMI 93.5'],
+    sourceUrl: 'https://www.wilx.com/2026/05/05/michigan-state-police-warns-residents-about-scam-letters-demanding-money/',
+    country: 'US',
+    state: 'MI',
+});
