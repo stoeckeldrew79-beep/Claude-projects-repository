@@ -7679,6 +7679,10 @@ NotoriousAF.push(
     slug: 'edward-stief-effingham-power-of-attorney-elder-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    // representative photo — replace with an exact match if found
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/The_World's_Largest_Cross_In_Effingham_Illinois.jpg?width=1200",
+    coverImageCredit: 'Photo: Clara1978 (CC BY-SA 4.0) — Effingham, Illinois, where Stief exploited his elderly neighbor',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.justice.gov/usao-sdil/pr/effingham-county-man-sentenced-12-years-federal-prison-financially-exploiting-elder',
     body: `Edward L. Stief Jr. met his victim, an 89-year-old man in Effingham County, Illinois, in May 2023, while offering him lawn care and landscaping services. It was an ordinary service relationship, the kind an older homeowner might have with any number of local contractors — and according to the U.S. Attorney's Office for the Southern District of Illinois, Stief used it to gain the man's confidence and, through a series of misrepresentations, get himself named both Financial and Healthcare Power of Attorney. That gave him signatory authority over the victim's bank accounts.
 
