@@ -7577,6 +7577,10 @@ Patients with questions can use the hotline number provided in their notificatio
     slug: "eyemed-vision-care-2020-data-breach-settlement-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "eyemed-vision-care-2020-data-breach-settlement"],
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Man_at_Phoropter.jpg?width=1200",
+    coverImageCredit: "Photo: Ben Ostrowsky, CC BY 2.0, via Wikimedia Commons — an eye exam using a phoropter",
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: "https://www.hipaajournal.com/eyemed-vision-care-class-action-data-breach-settlement/",
     body: `A federal judge in the Southern District of Ohio granted preliminary approval in July 2025 to a $5 million class action settlement resolving Tate, et al. v. EyeMed Vision Care, LLC — the latest, and largest, single payout stemming from a 2020 data breach at one of the country's largest vision benefits managers. A final fairness hearing was scheduled for January 7, 2026, and the case is only the newest chapter in a breach that has now cost EyeMed roughly $12.6 million across four separate settlements with regulators and consumers over five years.
 
@@ -7637,6 +7641,10 @@ If you believe a health or wellness app has shared your data without proper cons
     slug: "clorox-glad-ocean-plastic-greenwashing-accc-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "clorox-glad-ocean-plastic-greenwashing"],
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/004_Beach_pollution_in_Tenerife_-_Atlantic_Ocean_beach_plastic_garbage_debris.jpg?width=1200",
+    coverImageCredit: "Photo: Marek Slusarczyk, CC BY 3.0, via Wikimedia Commons — ocean-adjacent plastic waste",
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: "https://www.accc.gov.au/media-release/clorox-ordered-to-pay-825m-in-penalties-for-misleading-ocean-plastic-claims-about-certain-glad-products",
     body: `Between June 2021 and July 2023, shoppers in Australia looking for an eco-friendlier garbage bag could reach for a product with a clear, specific promise printed right on the packaging: GLAD to be GREEN "50% Ocean Plastic Recycled" Kitchen Tidy Bags and Garbage Bags, sold in small, medium, large, and extra-large sizes. The claim wasn't vague marketing language about "sustainability" or "doing our part" — it was a precise, quantified statement that half of each bag's plastic had been recycled from waste collected out of the ocean or sea. More than 2.2 million of these bags were sold under that packaging. According to Australia's consumer regulator, the claim wasn't true.
 
@@ -7651,6 +7659,9 @@ For consumers, the practical lesson isn't to distrust every environmental claim 
     slug: "fca-global-finfluencer-crackdown-2026-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "fca-global-finfluencer-crackdown-2026"],
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/12_Endeavour_Square,_Stratford_(2026-04-15).jpg?width=1200",
+    coverImageCredit: "Photo: Yirba, CC0, via Wikimedia Commons — the FCA's Stratford headquarters",
+    coverImagePosition: 50,
     sourceUrl: "https://www.fca.org.uk/news/press-releases/fca-spearheads-global-action-stop-illegal-finfluencers",
     body: `On April 24, 2026, the UK's Financial Conduct Authority (FCA) announced it had led a coordinated week of action, running from April 20, together with 17 regulators across 14 countries — including Australia's ASIC, Brazil's CVM, Hong Kong's SFC, India's SEBI, Singapore's MAS, and securities regulators in Belgium, Canada, Denmark, Ireland, New Zealand, Norway, Qatar, and the UAE — specifically targeting "finfluencers": social media personalities who promote investment products, trading platforms, or financial schemes to their followers, some legally and some not. In the UK alone, the sweep identified 1,267 illegal financial promotions reaching a minimum of roughly 2.34 million UK social media accounts, with 66 percent of those adverts traced back to firms or individuals already named on the FCA's own Warning List of unauthorized operators.
 
