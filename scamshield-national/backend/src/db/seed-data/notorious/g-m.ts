@@ -4539,6 +4539,10 @@ NotoriousGM.push(
     slug: 'kenneth-walton-ebay-shill-bidding-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/UC-Berkeley-010-campanile-way-from-sather-tower.jpg?width=1200',
+    coverImageCredit: 'Photo: Firstcultural, Wikimedia Commons (CC0) — Berkeley, California, where Walton claimed to have found the forged "Diebenkorn" at a garage sale',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     sourceUrl: 'https://plaintiffmagazine.com/recent-issues/item/taking-on-art-fraud',
     body: `Kenneth Walton was a Sacramento attorney at one of the city's larger law firms when an old Army friend, Ken Fetterman, introduced him to buying and reselling art on eBay in the site's early years, when online auctions were still new enough that most buyers had little way to verify a seller's claims. Walton's tactics escalated fast. Between 1998 and 2000, he and two collaborators — Fetterman and a third man, Scott Beach — built a scheme around dozens of fake eBay identities, using names like "golfpoorly," "big-fat-mamba-jamba," and "thriftstorebob" to bid on and sell paintings across more than 250 auctions, with prosecutors later concluding that a large share of them were fraudulent, either through shill bidding to inflate prices on real listings or by selling paintings falsely attributed to well-known artists.
 
