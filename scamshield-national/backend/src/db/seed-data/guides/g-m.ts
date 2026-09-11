@@ -3874,6 +3874,10 @@ The case is also a reminder that "generic" is not, by itself, a guarantee of the
     slug: "gangnam-unni-2026-data-breach-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "gangnam-unni-2026-data-breach"],
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Street_in_Yeoksam-dong,_Gangnam-gu.jpg?width=1200",
+    coverImageCredit: "Photo: Christophe95, CC BY-SA 4.0, via Wikimedia Commons — a street in Gangnam-gu, Seoul, the district that gives Gangnam Unni's cosmetic-procedure platform its name",
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: "https://www.koreaherald.com/article/10866388",
     body: `Gangnam Unni, South Korea's leading platform for researching and booking cosmetic and plastic surgery procedures, disclosed in early September 2026 that an unauthorized party had broken into its systems through an application programming interface (API) used to handle consultation records. The company, operated by Healing Paper, said it detected and blocked the initial intrusion, but the same attacker attempted to get back in through a different channel within a day or two — prompting Healing Paper to lock down the affected systems, conduct a full security audit, and notify users individually rather than treat the first block as the end of the incident.
 
