@@ -5812,3 +5812,15 @@ UsGM.push({
     country: 'US',
     state: 'ID',
 });
+
+UsGM.push({
+    name: 'Maine Notary and Marriage Officiant Overpayment Scam',
+    slug: 'maine-notary-marriage-officiant-overpayment-scam',
+    description: `Maine Secretary of State Shenna Bellows warned notaries public and marriage officiants across the state on October 10, 2025 about a scam that targets them directly rather than the couples or clients they serve. A "client" requests a notarization or wedding-officiant service by email, then sends payment — by check or digital transfer — for noticeably more than the quoted fee, and shortly afterward contacts the notary or officiant again, claims the overpayment was a mistake, and asks for the difference to be refunded right away, often citing an urgent personal reason for the rush. Notaries and officiants who send the refund before the original payment has actually cleared are left holding the full loss once the check bounces or the digital payment is reversed, since the refund itself is real money leaving their own account. The same alert flagged a second scheme aimed at Maine businesses: unsolicited mailers formatted to closely resemble the Secretary of State's own corporate annual report form demand $210 to file a report that costs only $85 for a domestic corporation, $35 for a nonprofit, or $150 for a foreign entity when filed directly through the state's own online system, since Maine's Bureau of Corporations, Elections and Commissions never mails these forms itself. "Refuse the initial payment and ask that they resend it in the proper amount, or wait for the payment to clear before any refund is sent," Bellows advised. Notaries, officiants, and business owners who receive a suspicious solicitation can confirm it directly with the Bureau of Corporations at cec.corporations@maine.gov or 207-624-7752 before sending any money.`,
+    categorySlug: 'fake-check-overpayment',
+    alertLevel: 'medium',
+    sources: ['Maine Secretary of State'],
+    sourceUrl: 'https://www.maine.gov/sos/news/secretary-state-warns-scams-targeting-maine-notaries-marriage-officiants-corporations-and',
+    country: 'US',
+    state: 'ME',
+});
