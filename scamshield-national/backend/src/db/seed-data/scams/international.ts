@@ -10751,6 +10751,37 @@ International.push(
     sourceUrl: 'https://www.samoaobserver.ws/category/samoa/117441',
     country: 'WS',
   },
+  {
+    name: 'Voice-Cloning Impersonation Scam Targeting Samoan Business and Government Figures',
+    slug: 'samoa-voice-cloning-impersonation-scam',
+    description: `Samoa Police, Prisons and Corrections Services Commissioner Auapa'au Logoitino Filipo confirmed in late April 2025 that his office was investigating more than ten cases in which scammers used voice-changing or voice-cloning apps to impersonate well-known Samoan business and government figures over the phone, most often under the pretext of a sudden family medical emergency. In the case that first drew public attention, Vailima businesswoman Brenda Lee-Lo told the Samoa Observer she received a phone call one Friday night from someone using a voice-altering app to sound exactly like businessman Fong Chan Sau, who said a family member urgently needed help at Tupua Tamasese Meaole Hospital; believing she was genuinely speaking with Sau, Lee-Lo handed $600 in cash to a man who met her at the hospital, and only realized she had been deceived after separately phoning the real Fong Chan Sau. Officials said the Minister for Works, Transport and Infrastructure was separately scammed out of $7,000 after believing he was speaking with former Attorney General Aumua Ming Leung Wai, and Aumua himself was later targeted by a call using a disguised voice, losing $3,000; Minister of Commerce, Industry and Labour Leatinu'u Wayne Fong and other members of the business community were also reported to have fallen prey to the same pattern of calls. Lee-Lo told the Observer she believed the man behind her loss was the same person responsible for a fraudulent "Kangen water" treatment sold during Samoa's 2019 measles outbreak. Commissioner Filipo, who said complaints had been mounting at police headquarters, urged the public to be wary: "This is going way too far. We would like to send out a message to the public to beware of these con artists."`,
+    categorySlug: 'ai-deepfake-scams',
+    alertLevel: 'high',
+    sources: ['Samoa Observer', 'Samoa News'],
+    sourceUrl: 'https://www.samoanews.com/regional/voice-scam-cases-reported-samoa',
+    country: 'WS',
+  },
+  {
+    name: 'Fake "Seasonal Work in Australia" Recruitment Scam at Malaefatu',
+    slug: 'samoa-fake-seasonal-work-recruitment-scam',
+    description: `More than 50 frustrated jobseekers gathered at Malaefatu on 25 November 2025 to meet a couple who had promised them seasonal fruit-picking work in Australia, only to realize, as the Samoa Observer reported, that they had fallen victim to an elaborate recruitment scam. Victims said the couple had collected $200 from each of them in advance, describing the payment as covering "visa fees" and "police clearance costs" for placement under Australia's Pacific Australia Labour Mobility (PALM) scheme; when the pair failed to show up at the agreed meeting point and then stopped answering calls and messages, those who had already paid realized they had been misled. Samoa's Ministry of Commerce, Industry and Labour (MCIL) responded within days, confirming that registration for both Australia's PALM Scheme and New Zealand's Recognised Seasonal Employer (RSE) Scheme is completely free of charge and that no individual or private group is authorized to collect any fee for registration, visas, clearances, or confirmed placements. The Ministry said only its own Labour Employment Export Program (LEEP) is authorized to manage and administer the two schemes in Samoa, that legitimate communication about seasonal work comes solely through verified official channels, and it urged jobseekers to verify any seasonal-work offer directly with LEEP before paying anything and to report suspected recruitment scams to the Ministry or police immediately.`,
+    categorySlug: 'employment-scams',
+    alertLevel: 'high',
+    sources: ['Samoa Observer', 'Ministry of Commerce, Industry and Labour (Samoa)'],
+    sourceUrl: 'https://www.samoaobserver.ws/category/samoa/117071',
+    country: 'WS',
+    firstRecorded: '2025-11-25',
+  },
+  {
+    name: '"Third-Party Deposit" Money Mule Recruitment Scheme',
+    slug: 'samoa-third-party-deposit-money-mule-scheme',
+    description: `The Central Bank of Samoa's December 2025 public warning on rising scams singled out a "third-party deposit" scheme as one of the most sophisticated patterns showing up in financial-institution reports, alongside parcel, investment, romance and online-gaming scams. In this scheme, organizers approach people through social media platforms such as Facebook and WhatsApp and recruit them as unwitting "middlemen," promising a commission in exchange for the use of their own bank account; once recruited, the account holder hands over their banking details, and the organizers then direct separate, unrelated depositors to transfer money directly into that account, which is quickly moved on again and ultimately sent overseas before the original account holder, or the person who deposited the money, realizes anything is wrong. The Central Bank said scam-related activity had been climbing sharply as a result of this and the other schemes it described: 70 percent of all suspicious-activity reports filed by Samoan financial institutions in FY2024/2025 were scam-related, and roughly 60 percent of reports already filed in the first part of FY2025/2026 were as well. The Bank warned that anyone who "knowingly assists scammers, for example by accepting deposits and transferring money for them," may themselves be committing a money-laundering offence under Samoa's Crimes Act 2013, and urged the public to stay alert and vigilant and to check with their own financial institution before moving money into or out of an account on someone else's instruction.`,
+    categorySlug: 'job-task-scams',
+    alertLevel: 'high',
+    sources: ['Central Bank of Samoa'],
+    sourceUrl: 'https://cbs.gov.ws/news/central-bank-of-samoa-warns-public-of-rising-scams',
+    country: 'WS',
+  },
 );
 
 International.push(
