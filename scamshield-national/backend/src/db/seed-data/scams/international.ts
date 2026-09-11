@@ -10762,6 +10762,21 @@ International.push(
 
 International.push(
   {
+    name: 'Togo Novissi COVID-19 Relief Impersonation Scam',
+    slug: 'togo-novissi-covid19-relief-impersonation-scam',
+    description: `When Togo launched its Novissi emergency cash-transfer program in April 2020 to help informal-sector workers survive the COVID-19 state-of-emergency lockdown, fraudsters moved quickly to exploit it. Commissioner Nifo Labé of the Central Directorate of the Judicial Police announced on June 8, 2020 that officers had arrested four people, three Togolese nationals and one Beninese national, for running two related schemes built around Novissi. In the first, the scammers posed as agents of the mobile money operators (MTN, Moov) that Novissi used to disburse aid and told victims they needed to "open an account" and deposit a fee at a kiosk to activate their payment, pocketing the deposit while delivering nothing. In the second, they posed as Novissi program agents offering to "help" people register as beneficiaries, then used the personal data from the victim's voter's card to enroll and redirect the payout to themselves before the real beneficiary ever received a single tranche. The case illustrated how quickly organized fraudsters pivoted to impersonate a brand-new, widely trusted government emergency-relief program and its mobile money partners in the very weeks it launched, and Togolese police used the arrests to warn the public that no Novissi or mobile money agent would ever require an upfront deposit to receive aid.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'medium',
+    sources: ['Police Nationale Togolaise (Direction Centrale de la Police Judiciaire)', 'Afrik.com', 'L-frii.com'],
+    sourceUrl: 'https://www.afrik.com/togo-la-police-apprehende-un-groupe-d-escrocs',
+    country: 'TG',
+    isHistorical: true,
+    firstRecorded: '2020-06-08',
+  },
+);
+
+International.push(
+  {
     name: 'Royal Bengal Logistics Trucking Investment Ponzi Scheme',
     slug: 'haiti-royal-bengal-logistics-trucking-ponzi-scheme',
     description: `A federal jury in the Southern District of Florida convicted Sanjay Singh, owner of the Coral Springs trucking firm Royal Bengal Logistics, Inc., on November 6, 2024, of wire fraud, money laundering, and conspiracy after prosecutors and the SEC showed he had run an elaborate Ponzi scheme through the company between 2020 and 2023. Singh sold contracts that promised investors an ownership stake in specific freight trucks and extremely high, steady interest payments, telling them the fleet was generating roughly $1 million a month and was about to expand to 200 trucks; in reality the trucking operation lost money, and new investors' cash was used to pay "returns" to earlier ones. Federal investigators found the scheme drew heavily on the Haitian-American community and ultimately collected more than $150 million from roughly 2,000 investors before it collapsed, with Singh diverting millions for a home renovation, a luxury vehicle, personal stock trading, and transfers to family overseas. He was sentenced on May 30, 2025 to 23 years in federal prison, and on February 9, 2026 a federal judge entered a $51,199,671 restitution judgment against him in favor of victims — a fraction of what was actually lost. The case is a reminder that a written contract and a real company name are not proof an investment is legitimate, especially when the promised returns are unusually high and steady regardless of market conditions.`,
