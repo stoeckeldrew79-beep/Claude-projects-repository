@@ -14855,3 +14855,16 @@ International.push(
     country: 'CG',
   },
 );
+
+International.push(
+  {
+    name: 'Fake LCDE and INS Recruitment Portal Scam',
+    slug: 'congo-brazzaville-fake-lcde-ins-recruitment-portal-scam',
+    description: `Fact-Check Congo reported on January 10, 2026 that, since the start of that month, fraudulent recruitment announcements circulating via the URL-shortening service tinyurl.com had been impersonating two real Congolese public institutions: La Congolaise des Eaux (LCDE), the national water utility, and the Institut National de la Statistique (INS). One fake link, styled to look like an LCDE hiring page, promised open positions at the water utility, while a second impersonated an INS call for census-taking agents; both directed applicants to enter personal information on the third-party site before they could "register." LCDE moved quickly to issue a press statement disavowing the announcement as "devoid of any foundation" and calling for public "vigilance" against fraud attempts, while the INS's director general, Steve Bertrand Mboko Ibara, confirmed to Fact-Check Congo directly that the supposed recruitment drive was fake, noting the institute's last public update predated the hoax and that the country's most recent general population census had already taken place in 2023. Fact-Check Congo noted that Congo's unemployment rate was estimated at 19.8% in 2024, a climate of job scarcity that fuels rapid, uncritical sharing of recruitment posts — including by well-meaning users who repost them believing they are helping job seekers. The outlet warned that this style of fake recruitment portal is especially dangerous because it harvests sensitive personal data, including full names, contact details, and in some versions banking information, that can then be reused for identity theft, further fraud, or extortion, and urged the public to verify any hiring announcement through an institution's own official website or channels rather than a shortened or third-party link, and to report suspicious postings to the relevant authorities and platforms.`,
+    categorySlug: 'employment-scams',
+    alertLevel: 'medium',
+    sources: ['Fact-Check Congo'],
+    sourceUrl: 'https://factcheck-congo.org/2026/01/10/faux-ni-la-lcde-ni-lins-ne-recrutent-pas-actuellement-au-congo/',
+    country: 'CG',
+  },
+);
