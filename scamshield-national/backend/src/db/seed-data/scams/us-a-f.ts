@@ -6937,3 +6937,17 @@ UsAF.push({
     isHistorical: true,
     firstRecorded: '2025-04-28',
 });
+
+UsAF.push({
+    name: 'Palo Verde Mobile Home Park Electricity and Habitability Settlement',
+    slug: 'arizona-palo-verde-mobile-home-park-settlement',
+    description: `Palo Verde Mobile Home Park, LLC, which operates a mobile home community in Tucson, left tenants without reliably functioning electricity for roughly three years, from about 2023 through 2026, according to an investigation by the Housing Justice Unit within the Arizona Attorney General's Consumer Protection and Advocacy Section. Tenants — many on fixed incomes and unable to simply relocate a mobile home they owned outright but rented land for — told investigators they went without air conditioning during dangerously hot Tucson summers because of electrical system failures the park's ownership did not repair, even as the company kept collecting lot rent. On June 15, 2026, Attorney General Kris Mayes announced a $795,000 settlement requiring the park's owners to pay $130,000 directly to affected tenants as restitution, $55,000 in civil penalties, and $585,000 toward actually repairing and replacing the park's failing electrical infrastructure, plus $25,000 in attorneys' fees. "All tenants deserve habitable homes, including the ability to use electricity for critical systems like air conditioning," Mayes said in announcing the resolution. The case is one of a growing number the Arizona Attorney General's Housing Justice Unit has pursued against mobile home park owners and property managers who let basic habitability systems fail while continuing to collect rent from residents who, unlike apartment tenants, cannot simply move out and take their home with them once conditions turn dangerous. Renters — especially mobile home lot tenants — who go without heat, water, or working electricity for an extended period should document every outage and complaint in writing with dates, contact their local housing code enforcement office, and report an unresponsive landlord or park owner to their state attorney general's consumer protection division, since a landlord's obligation to maintain habitable conditions does not go away just because a tenant owns the structure sitting on rented land.`,
+    categorySlug: 'rental-housing',
+    alertLevel: 'medium',
+    sources: ["Arizona Attorney General's Office (Kris Mayes)"],
+    sourceUrl: 'https://www.azag.gov/press-release/attorney-general-mayes-announces-795000-settlement-palo-verde-mobile-home-park-tucson',
+    country: 'US',
+    state: 'AZ',
+    isHistorical: true,
+    firstRecorded: '2026-06-15',
+});
