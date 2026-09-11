@@ -13831,3 +13831,16 @@ International.push(
     country: 'JE',
   },
 );
+
+International.push(
+  {
+    name: 'Cayman Islands Fake Landlord Rental Property Scam',
+    slug: 'cayman-islands-fake-landlord-rental-property-scam',
+    description: `On 3 October 2025, the Royal Cayman Islands Police Service (RCIPS) issued a public warning about a "concerning series" of fraudulent rental property schemes targeting prospective tenants on Grand Cayman. Scammers posing as landlords or property managers advertise apartments or houses at attractive prices using fake online listings on Facebook and ecayTrade, sometimes copying photographs from genuine advertisements, and communicate with prospective tenants solely through messaging apps or email while inventing excuses — a sick relative, an urgent trip off-island — to avoid meeting in person or showing the property. Victims are pressured to pay a security deposit or advance rent quickly to "reserve" the unit, often being told other people are also interested, and are asked to send the money through untraceable channels such as money transfer services, prepaid cards, or wire transfers, only to find afterward that the property was never actually available, does not exist, or was already legitimately occupied. RCIPS advised prospective tenants to verify property ownership documents before paying anything, always view a property in person, use secure and verifiable payment methods rather than wire transfers or prepaid cards, be suspicious of rents priced well below market, independently verify the identity of anyone claiming to be a landlord or agent, contact their bank immediately if they believe they have been scammed, and report suspicious rental listings to police at 949-4222.`,
+    categorySlug: 'rental-housing',
+    alertLevel: 'medium',
+    sources: ['Royal Cayman Islands Police Service (RCIPS)', 'Cayman Compass', 'Cayman News Service'],
+    sourceUrl: 'https://www.rcips.ky/police-warn-public-of-rental-property-scam-3-october',
+    country: 'KY',
+  },
+);
