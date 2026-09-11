@@ -7190,6 +7190,10 @@ NotoriousAF.push(
     slug: 'bk-boreyko-vemma-pyramid-scheme',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/FTC_headquarters.jpg?width=1200',
+    coverImageCredit: 'Photo: Postdlf, CC BY-SA 3.0 / GFDL, via Wikimedia Commons — the FTC headquarters in Washington, D.C., the agency that sued Vemma and Boreyko',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2016/12/vemma-agrees-ban-pyramid-scheme-practices-settle-ftc-charges',
     body: `Vemma Nutrition Company sold energy drinks and nutritional shakes through a network-marketing sales force, but what actually drove its growth in the early 2010s was a recruiting campaign aimed squarely at a demographic most MLMs hadn't bothered to court directly: college students. Under founder and CEO Benson K. "BK" Boreyko, Vemma's "Young People Revolution," or YPR, ran a slick promotional operation on and around campuses nationwide, complete with videos depicting young affiliates driving luxury cars, lounging on yachts, and living the kind of lifestyle the pitch implied was just a few recruits away.
 
