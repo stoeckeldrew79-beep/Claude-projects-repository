@@ -5444,3 +5444,16 @@ UsGM.push({
     isHistorical: true,
     firstRecorded: '2026-09-08',
 });
+
+UsGM.push({
+    name: 'Miles City "House Flipping" Investment Pyramid Scheme (Richard Brandt)',
+    slug: 'montana-miles-city-richard-brandt-house-flipping-pyramid-scheme',
+    description: `Richard Brandt of Miles City, Montana told acquaintances and fellow residents that he ran a real-estate investment business buying, remodeling, and reselling homes in Nebraska and Missouri, and recruited them to invest cash for a promised share of the profits. Between January 2011 and June 2015, prosecutors say Brandt instead ran the operation as a pyramid scheme, using new investors' money to pay off earlier ones and to cover his own expenses while locating fresh victims whenever an existing arrangement started to unravel, ultimately embezzling roughly $1.9 million from 18 people. The scheme went undetected for years until one victim, an elderly woman, was on the verge of being removed from her nursing home because Brandt had drained about $90,000 from her bank account; another victim, who had invested with Brandt to buy a house without stairs for himself and his mother, testified that his mother later fell down her own home's stairs and died, and that the stress of the loss contributed to his own heart attack. A Custer County jury convicted Brandt on six felony counts — theft by embezzlement, fraudulent practices, scheming to defraud, and running a pyramid promotional scheme, including an enhancement for exploiting elderly victims — and on May 1, 2017, Montana's 16th Judicial District Court Judge Michael Hayworth sentenced him to 60 years in the Montana State Prison with 20 years suspended, along with a restitution order to repay his victims. The case is a reminder that an investment pitched informally by someone in the community, promising profits from a specific project like flipping houses out of state, still needs to be checked against real evidence — a title, a purchase contract, an independent appraisal — rather than trust alone, and that a pyramid scheme can keep running for years by using each new investor's money to make the last one look legitimate.`,
+    categorySlug: 'ponzi-pyramid-schemes',
+    sources: ['Billings Gazette', 'KULR8', 'Custer County Attorney\'s Office'],
+    sourceUrl: 'https://billingsgazette.com/news/state-and-regional/montana/montana-man-gets-years-in-million-ponzi-scheme/article_ceecaf72-6b67-5dd3-a439-f9e4376acd6f.html',
+    country: 'US',
+    state: 'MT',
+    isHistorical: true,
+    firstRecorded: '2011-01-01',
+});
