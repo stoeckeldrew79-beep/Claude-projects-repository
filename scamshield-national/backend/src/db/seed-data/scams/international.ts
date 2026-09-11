@@ -12525,6 +12525,16 @@ International.push(
     sourceUrl: 'https://en.cibercuba.com/noticias/2024-08-08-u1-e199854-s27061-nid286508-alertan-crecientes-estafas-robar-saldo-telefonico',
     country: 'CU',
   },
+  {
+    name: 'Cuba Fake ETECSA International Recharge Website Scam',
+    slug: 'cuba-fake-etecsa-international-recharge-website-scam',
+    description: `In May 2025, Cuba's state telecommunications monopoly ETECSA renewed a public warning about fraudulent websites that clone its branding and messaging to sell "international recharges" — mobile phone top-ups that relatives abroad buy for family in Cuba — often advertising bonus perks like free nighttime data or unlimited-internet access that ETECSA's real promotions don't include. The fake sites collect payment through private phone numbers instead of any authorized ETECSA distributor, and customers are left with an ordinary balance top-up at best, or nothing at all, once the promised bonus never appears. ETECSA said a genuine recharge confirmation always arrives by SMS from the sender name "CUBACEL" in capital letters and cannot be replied to, so a confirmation text sent from a private number — Cuban or foreign — is a clear sign of fraud, and it urged customers to buy recharges only through its own official website or authorized distributors.`,
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'medium',
+    sources: ['ETECSA (Empresa de Telecomunicaciones de Cuba)', 'OnCubaNews', 'Periódico Cubano'],
+    sourceUrl: 'https://oncubanews.com/cuba/etecsa-reactiva-alerta-sobre-estafas-con-las-recargas-internacionales/',
+    country: 'CU',
+  },
 );
 
 International.push(
