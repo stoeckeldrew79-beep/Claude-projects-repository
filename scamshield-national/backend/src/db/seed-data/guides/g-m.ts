@@ -3564,6 +3564,10 @@ If you're buying tickets through Ticketmaster, Live Nation, or any similar platf
     slug: "luminis-health-2026-cyberattack-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "luminis-health-2026-data-breach"],
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Anne_Arundel_Medical_Center.jpg?width=1200",
+    coverImageCredit: "Photo: SlipperyDude, CC BY-SA 3.0, via Wikimedia Commons — Anne Arundel Medical Center in Annapolis, one of the two Luminis Health hospitals affected",
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: "https://www.hipaajournal.com/luminis-health-jeffrey-reuben-well-child-horizon-eye-care-data-breaches/",
     body: `Luminis Health, the nonprofit health system that runs Anne Arundel Medical Center in Annapolis and Doctors Community Medical Center in Lanham, first disclosed on September 1, 2026 that it was dealing with a cyberattack — though patients and community members in Annapolis told local reporters that hospital systems had already been down the day before. By the time the health system issued a fuller public statement on September 4, the picture was clear: the phone systems and the MyChart patient portal at both hospitals were offline, some appointments had to be rescheduled, and staff at Anne Arundel Medical Center were reverting to paper charts to keep treating patients while electronic records remained unreliable or inaccessible.
 
