@@ -4304,7 +4304,10 @@ NotoriousNS.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/usao-mdfl/pr/jury-finds-non-fungible-token-developer-guilty-defrauding-investors-and-laundering',
-    // no rights-cleared photo found — sourceUrl above serves as the "read the full story" link
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Macdill-main-gate.jpg?width=1200',
+    coverImageCredit: 'Photo: United States Air Force (Public Domain)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `In March 2022, at the height of "profile picture" NFT mania, two young men minted a pair of cartoon-ape collections on the Solana blockchain called "UndeadApes" and "Undead Lady Apes." Berman Jerry Nowlin Jr., 21, of Huntsville, Alabama, who went by "Repulse" and "Zayous" online, built the technical side of the project. Devin Alan Rhoden, in his mid-twenties and living in Pinellas Park, Florida, handled the marketing on Discord and X under the handles "Denny" and "Deviinz" — a side hustle he was running while serving as an active-duty senior airman and cyber analyst at MacDill Air Force Base. As hype built, the price of a single Undead Ape climbed as high as $360.
 
 The following month, Nowlin and Rhoden announced a third collection, "Undead Tombstone," backed by what federal prosecutors called exaggerated, misleading, and outright false claims about future partnerships with prominent businesses, how much capital would be reinvested into the project, and what utility NFT holders would eventually receive. They minted 632 Undead Tombstone tokens, collected roughly $135,000 in cryptocurrency from buyers, and then simply stopped — deleting their social media accounts and cutting off all further communication with the investors they'd just taken money from, the textbook "rug pull" in which a project's creators abandon it the moment new money stops flowing in. Across all three collections, prosecutors said, the two men took in nearly $400,000 from hundreds of victims around the world, then laundered the proceeds by "chain-hopping" — moving the funds from Solana to Ethereum through the Tornado Cash mixer to make them harder to trace.
