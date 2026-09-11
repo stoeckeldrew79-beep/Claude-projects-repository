@@ -2637,6 +2637,10 @@ NotoriousTZ.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26483',
+    // representative photo — replace with an exact match if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Downtown_Dallas_Skyline_with_shot_of_Hyatt_Regency_Dallas_and_the_Reunion_Tower.jpg?width=1200',
+    coverImageCredit: "Photo: Milestone2, CC BY-SA 3.0, via Wikimedia Commons — downtown Dallas skyline, representative of the fund's market",
+    coverImagePosition: 50,
     body: `Note: This entry describes a civil enforcement action. The SEC's complaint lays out the government's allegations only — Saumil Thakkar and Poorvesh Thakkar have not been criminally charged in connection with this fund, and no court has yet ruled on the SEC's claims.
 
 Saumil Thakkar and his brother Poorvesh Thakkar, Texas real estate developers, raised money for a fund called Pasmaa GP Investment Fund LLC by pitching investors on a portfolio of commercial and residential development projects in and around Dallas. According to a Securities and Exchange Commission complaint filed February 18, 2026 in the U.S. District Court for the Eastern District of Texas, the Thakkars — who controlled both the fund's manager, PASMAA GP Investment Fund Manager LLC, and its sponsor, Perfect Group Holdings LLC — raised more than $12 million from roughly 48 investors between December 2017 and September 2020, with a minimum buy-in of $50,000 each.
