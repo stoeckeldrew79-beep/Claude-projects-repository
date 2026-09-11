@@ -3955,6 +3955,10 @@ If you receive a letter from a medical debt collector, don't just pay the balanc
     slug: "rapid-ruling-mca-arbitration-lawsuit-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "rapid-ruling-mca-arbitration-lawsuit"],
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/28_Liberty_Street_001.jpg?width=1200",
+    coverImageCredit: "Photo: Kidfly182, CC BY-SA 4.0, via Wikimedia Commons — 28 Liberty Street, home of the NY Attorney General's office",
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: "https://ag.ny.gov/press-release/2026/attorney-general-james-sues-sham-arbitration-service-created-help-predatory",
     body: `On June 8, 2026, New York Attorney General Letitia James sued Rapid Ruling, an online arbitration platform, along with its two founders, Zachary Meyer and Andrew Sachs, alleging the company was never the neutral forum it presented itself as. According to the complaint, Rapid Ruling was created in 2019 in coordination with a merchant cash advance (MCA) company that helped write and edit the very arbitration rules the platform would later use to decide disputes — rules the lawsuit says were built to guarantee the lender's side would almost always win.
 
@@ -3971,6 +3975,10 @@ A merchant cash advance contract is worth reading in full, specifically for the 
     slug: "on-q-financial-data-breach-settlement-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "on-q-financial-data-breach"],
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Phoenix_skyline_Arizona_USA.jpg?width=1200",
+    coverImageCredit: "Photo: Bravo1 (public domain) — Phoenix, Arizona, where On Q Financial is based",
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: "https://www.classaction.org/news/1.25m-on-q-financial-settlement-wraps-up-lawsuit-over-2024-data-breach",
     body: `On Q Financial, an Arizona-based mortgage lender, experienced a data security incident on or around February 20, 2024 that exposed the names and Social Security numbers of 211,650 people who had applied for or held a mortgage through the company. More than two years later, on June 23, 2026, a federal court gave preliminary approval to a $1.25 million settlement resolving the class action lawsuit that followed, which accused the lender of failing to implement reasonable cybersecurity measures to protect the sensitive borrower information it collected.
 
