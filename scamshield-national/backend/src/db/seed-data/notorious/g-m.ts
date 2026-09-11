@@ -7818,6 +7818,10 @@ NotoriousGM.push(
     slug: 'henry-abdo-titanium-capital-currency-fund-ponzi-scheme',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    // representative photo — replace with an exact match if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Skyline_Miami.jpg?width=1200',
+    coverImageCredit: 'Photo: Michael Müller (GFDL/CC BY-SA 3.0) — Florida, where Abdo ran Titanium Capital LLC',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.sec.gov/newsroom/press-releases/2023-251',
     body: `Henry Abdo ran Titanium Capital LLC out of Florida, pitching investors on something he called the "Multi Currency Investment Fund" — a supposed proprietary currency-exchange operation that, according to Abdo, could generate extraordinary, steady profits by trading between world currencies. The math he offered prospective investors was the kind that should have ended the conversation immediately: returns of up to 102 percent compounded interest over a five-year investment. Instead, according to the SEC, Abdo backed the pitch with a further lie, telling investors the fund was registered with and overseen by the SEC when it was neither.
 
