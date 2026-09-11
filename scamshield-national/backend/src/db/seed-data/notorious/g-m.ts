@@ -7446,3 +7446,20 @@ Tacuri pleaded guilty to one count of conspiracy to commit wire fraud. In Octobe
 Forcount's pitch worked the way most guaranteed-return schemes do: a fixed, doubled payout in a fixed window, delivered by someone the investor already trusted from their own community rather than a stranger cold-calling out of nowhere. That combination — an unrealistic promise wrapped in the credibility of an in-group referral — is what let a scheme built on nothing keep drawing in new victims for as long as it did.`,
   },
 );
+
+NotoriousGM.push(
+  {
+    title: 'Le Anh Tuan and the Baller Ape Club NFT Rug Pull',
+    slug: 'le-anh-tuan-baller-ape-club-rug-pull',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/archives/opa/pr/justice-department-announces-enforcement-action-charging-six-individuals-cryptocurrency-fraud',
+    body: `In June 2022, "Baller Ape Club" launched as an NFT collection of roughly 5,000 cartoon ape illustrations, marketed the way most NFT projects of that era were: a slick website, an active social media presence, and promises of future perks and utility for anyone who bought in on launch day. Buyers paid in cryptocurrency for a chance to mint one of the apes, treating the purchase as both a collectible and an investment in a project that was supposed to keep building after the sale.
+
+According to the Justice Department, the project's creator, a Vietnamese national named Le Anh Tuan, had no intention of building anything. Within hours of the NFTs going on sale, Tuan and his co-conspirators executed what's known in crypto circles as a "rug pull" — abruptly shutting down the project, deleting its website, and cutting off the buyers who had just paid for it, according to the indictment. Federal prosecutors say the group collected approximately $2.6 million from investors before disappearing.
+
+To move the stolen funds, prosecutors allege Tuan and his associates used "chain-hopping," converting the cryptocurrency into other coin types and shuttling it across multiple blockchains through decentralized swap services designed specifically to make transactions harder to trace back to a single wallet or identity — the crypto-native equivalent of laundering cash through a series of shell companies.
+
+A federal grand jury in the Central District of California indicted Tuan on one count of conspiracy to commit wire fraud and one count of conspiracy to commit international money laundering, charges that carry a maximum sentence of 40 years in prison if he is convicted. As of the most recent public court record, Tuan has not been arrested and remains outside U.S. custody. The case is a reminder that an NFT project's polish — the artwork, the roadmap, the active Discord server — says nothing about whether the people behind it plan to still be reachable the day after the money changes hands.`,
+  },
+);
