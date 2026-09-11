@@ -2795,6 +2795,9 @@ The scandal was Germany's biggest football corruption case in decades and pushed
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
     sourceUrl: 'https://en.wikipedia.org/wiki/International_Boxing_Federation',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/US.PostOffice%26Courthouse.Newark.jpg?width=1200',
+    coverImageCredit: 'Djflem / Wikimedia Commons (CC0) — Frank R. Lautenberg U.S. Post Office and Courthouse, Newark, New Jersey, where the IBF bribery trial was held',
     body: `Robert W. Lee Sr. founded the International Boxing Federation in 1983, and for over a decade the organization's rankings carried real financial weight: a fighter's position in the IBF's top-15 lists could determine whether he got a title shot and the multi-million-dollar purse that came with it. That made the rankings themselves a commodity, and federal investigators eventually concluded that Lee had turned them into one — for a price.
 
 The FBI opened an investigation in 1996 after former heavyweight titleholder Michael Moorer tipped off agents that promoters were paying to move fighters up the IBF's ratings. The probe led to a sweeping 32-count federal racketeering indictment handed down in November 1999 against Lee, his son Robert Lee Jr. (who worked for the IBF as a "ratings chairman"), and associates Donald Brennan and Francisco Fernandez, alleging roughly $338,000 in bribes paid since 1983 to fix rankings across 10 of the sport's 15 weight classes.
@@ -3392,6 +3395,9 @@ NotoriousNS.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
     sourceUrl: 'https://en.wikipedia.org/wiki/Martin_A._Siegel',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/NYSE_Building.JPG?width=1200',
+    coverImageCredit: 'Andy C / Wikimedia Commons (CC BY-SA 3.0) — New York Stock Exchange building, Wall Street, where Siegel worked as an arbitrageur',
     body: `By the early 1980s, Martin Siegel was one of the most sought-after mergers-and-acquisitions bankers on Wall Street. As head of M&A at Kidder, Peabody & Co., he built a reputation defending companies against hostile takeovers — most famously advising Martin Marietta during its bruising 1982 battle with Bendix, a defense so aggressive it helped popularize the "Pac-Man" counter-tender-offer tactic — and financial press of the era openly described him as the reigning star of a new generation of takeover specialists, commanding a following among corporate boards that rivaled better-known names at bigger firms.
 
 In August 1983, Siegel met the arbitrageur Ivan Boesky at Manhattan's Harvard Club, where Boesky proposed a simple arrangement: early word of pending mergers, delivered before the public announcement, in exchange for a cut of the profits Boesky's fund would make trading on it. Siegel agreed, and by January 1984 the first payment — $150,000 in cash — was delivered by courier to Siegel at the Plaza Hotel. Over the next roughly three years, Siegel fed Boesky nonpublic details on a string of pending deals, including tips that helped Boesky make an estimated $28 million trading Carnation stock ahead of its takeover, collecting cash drops that grew more elaborate over time — including an $800,000 handoff via a Manhattan phone booth after Siegel demanded more money in early 1985. In February 1986 he left Kidder for an even more senior post as head of mergers at Drexel Burnham Lambert, still secretly on Boesky's payroll; by the time the arrangement ended, Siegel had personally collected roughly $700,000.
@@ -3410,6 +3416,9 @@ NotoriousNS.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/usao-edny/pr/founder-and-former-ceo-biscayne-capital-sentenced-10-years-prison-130-million-dollar',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Federal_Courthouse_Brooklyn.jpg?width=1200',
+    coverImageCredit: 'Beyond My Ken / Wikimedia Commons (CC BY-SA) — Theodore Roosevelt U.S. Courthouse, Brooklyn, where Cortes Ripalda was sentenced',
     body: `Roberto Gustavo Cortes Ripalda and Ernesto Heraclito Weisson Pazmino founded a Miami real-estate venture called South Bay Holdings around 2001, then in 2005 built a companion firm, Biscayne Capital, into what it marketed as boutique international wealth management. Rather than serving ordinary American clients, Biscayne Capital and a related principal, Buenos Aires-based Fernando Haberer Bergson, courted wealthy families across Ecuador, Venezuela, Argentina, and Brazil — clients with obvious reasons to want savings parked in dollar-denominated accounts outside their home countries' banks and currency controls — selling them promissory notes and structured investment products issued through subsidiaries registered in the Cayman Islands and the British Virgin Islands.
 
 Starting around 2013, prosecutors said, the firm rolled out its most aggressive product yet: "Liquidity Notes," pitched to clients as something close to a money-market account offering daily access to their cash, when in fact the notes were unsecured loans straight into the operators' hands, with no comparable liquid assets actually backing them. Many of the underlying South Bay real-estate projects the firm's various notes claimed to be secured by were exaggerated, already leveraged elsewhere, or didn't exist in the form investors were told. Between 2013 and the scheme's collapse in September 2018, Biscayne Capital and its principals collected an estimated $250 million to $350 million from clients, using new deposits to pay off earlier clients' interest and principal in the pattern of a classic Ponzi scheme, misappropriating at least $29.6 million from the Liquidity Note product alone, and paying themselves millions of dollars in the process.
@@ -3590,6 +3599,9 @@ NotoriousNS.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
     sourceUrl: 'https://law.justia.com/cases/federal/appellate-courts/F3/336/234/468842/',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Luzerne_County_Courthouse_flickr.jpg?width=1200',
+    coverImageCredit: 'bclinesmith / Wikimedia Commons (CC BY-SA 2.0) — Luzerne County Courthouse, Wilkes-Barre, Pennsylvania, where Leslie Fay was headquartered',
     body: `Paul Polishan was chief financial officer and senior vice president of The Leslie Fay Companies, a women's apparel maker built decades earlier by founder Fred Pomerantz and, by the early 1990s, one of the last major dressmakers still manufacturing largely in the United States rather than overseas. Polishan ran Leslie Fay's Wilkes-Barre, Pennsylvania accounting operation with an iron grip, and prosecutors later established that from the last quarter of 1991 through all of 1992 he directed a scheme to falsify the company's books — recording fictitious sales, understating expenses, and inflating inventory values — to make an apparel maker struggling through a recession-era slump look instead like a business consistently beating Wall Street's expectations.
 
 The fraud came apart from the inside. In January 1993, Leslie Fay controller Donald Kenia confessed to the company's own audit committee that he and more than a dozen subordinates had spent over a year falsifying invoices and ledger entries under pressure to keep hitting the earnings figures Polishan expected. The company's own subsequent investigation, detailed in a 369-page audit committee report, found the false entries had overstated Leslie Fay's pretax income by more than $75 million across 1990 through 1992 — years in which the company had reported steadily rising profits that, restated, showed far weaker results and, for 1992, an outright loss. Leslie Fay filed for Chapter 11 bankruptcy protection on April 5, 1993, weeks after the fraud became public, and would not emerge from restructuring as an independent public company again.
@@ -3607,6 +3619,9 @@ NotoriousNS.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
     sourceUrl: 'https://www.justice.gov/usao-edwi/pr/financial-advisor-sentenced-investment-fraud-scheme',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Federal_Building_and_US_Courthouse_Milwaukee.jpg?width=1200',
+    coverImageCredit: 'Carol M. Highsmith (public domain) — Federal Building and U.S. Courthouse, Milwaukee, where Starnes was prosecuted',
     body: `Robert C. Starnes ran Robert C. Starnes Financial Services out of Wauwatosa, Wisconsin, presenting himself to friends, friends of friends, and family members as a legitimate investment broker and retirement adviser. According to federal prosecutors in the Eastern District of Wisconsin, that presentation was false from the start: over the course of roughly fifteen years, from 2008 to 2023, Starnes persuaded more than a dozen people to hand him their retirement savings, and rather than investing any of it, simply deposited the checks into his own personal bank accounts at Wells Fargo and BMO Harris Bank and spent the money on his own expenses, including credit card bills and a $25,000 mortgage payment.
 
 To keep his victims from asking questions, prosecutors said Starnes sent them fabricated account statements — some carrying the logos of real investment firms, including DWS Investments and Barclays — showing their money steadily growing in value. None of it was real. Starnes had not, in the government's words, invested any funds on behalf of his victims at any point. Separately from the criminal case, Starnes had also worked as a registered representative at SA Stone Wealth Management, which fired him in May 2023 for violating firm policy on handling client funds; the Financial Industry Regulatory Authority (FINRA) later barred him from the securities industry after he refused to testify in connection with a customer complaint.
@@ -3821,6 +3836,9 @@ NotoriousNS.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
     sourceUrl: 'https://www.njoag.gov/ocean-county-lawyer-who-hosted-radio-show-on-elder-law-sentenced-to-10-years-in-state-prison-for-stealing-millions-from-elderly-clients/',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Ocean_County_Courthouse.jpg?width=1200',
+    coverImageCredit: 'James Welsh / Wikimedia Commons (CC BY-SA 3.0) — Ocean County Courthouse, Toms River, New Jersey, where Novy practiced law',
     body: `Robert Novy built a public reputation as a protector of the elderly: an Ocean County, New Jersey attorney who hosted "Inside the Law," a bi-monthly radio program on elder-law topics, dispensing advice on wills, trusts, and guardianship to an audience made up of exactly the kind of older adults he would later be convicted of robbing.
 
 According to the New Jersey Attorney General's Office, Novy used his law practice to gain sweeping control over the finances of elderly clients who had no close relatives keeping watch — becoming the named agent under powers of attorney, writing himself favorable terms into wills and trust documents, and positioning himself as the only person with visibility into his clients' financial affairs. Once he had that control, prosecutors said, Novy redirected annuities and life insurance policies into his own accounts and funneled the proceeds through his attorney trust and business accounts to obscure where the money had gone. Many of his victims were elderly, some with dementia, and several were already deceased by the time investigators reconstructed how their estates had been drained.
@@ -3838,6 +3856,9 @@ NotoriousNS.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.ssb.texas.gov/news-publications/texas-grounds-crypto-mining-investment-rocket-ship',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Texas_State_Capitol_building-front_left_front_oblique_view.JPG?width=1200',
+    coverImageCredit: 'Daniel Mayer / Wikimedia Commons (CC BY-SA 3.0) — Texas State Capitol, Austin, home of the Texas State Securities Board that halted the scheme',
     body: `A note before this one: everything below comes from a Texas state securities regulator's emergency order and subsequent news reporting on the contested administrative hearing that followed it. Robert Gray has denied wrongdoing, and as of this writing the hearing had not yet produced a ruling — none of it should be read as an adjudicated finding of fraud.
 
 Robert "Bobby" Gray, of McKinney, Texas, built TEXITcoin and an associated mining venture, MineTXC, around a pitch that promised passive daily returns for simply buying in. Sales materials, according to the Texas State Securities Board, told buyers that once they purchased a "Mining Package," they had a "seat on the rocket ship, and now can simply sit back and enjoy the ride." The packages sold for $995, $2,985, or $8,955 and were promoted through YouTube, Facebook, and X, along with radio and billboard advertising, sold through a multi-level marketing structure that paid participants commissions for recruiting additional buyers. By the time regulators intervened, according to news reporting on the case, the venture had taken in more than $147 million from tens of thousands of participants and paid out roughly $65 million in commissions, while TEXITcoin's own token price had fallen from a high above $6 to under $0.30.
@@ -3874,6 +3895,9 @@ NotoriousNS.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://securities.colorado.gov/press-release/press-release-recidivist-colorado-man-sentenced-to-eight-years-in-prison-for',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Colorado_State_Capitol_building.jpg?width=1200',
+    coverImageCredit: 'Quintin Soloviev / Wikimedia Commons (CC BY 4.0) — Colorado State Capitol, Denver, seat of the state securities regulator that prosecuted Kim',
     body: `Raymond Kim, of Centennial, Colorado, had already been through the state's securities-fraud process once by the time his second case began. In 2019, the Colorado Division of Securities investigated Kim for lying to and omitting material information from investors and misusing their money for personal expenses, and referred the case to the Colorado Attorney General's office for prosecution. Kim pleaded guilty in August 2020 to a class 3 felony count of securities fraud and was sentenced to economic probation — a form of supervision built around repaying victims rather than incarceration.
 
 According to the Colorado Division of Securities, Kim used that probation period to start a new scheme rather than comply with it. While still under the terms of his 2020 plea agreement, he began soliciting new investors at a fitness center in Centennial, offering convertible promissory notes and stock purchase agreements. Investigators say Kim made material misrepresentations and omissions to these investors just as he had in the first case, and collectively took in $820,000 from them, using some of the new money to pay earlier investors — the hallmark structure of a Ponzi scheme — while diverting the rest for his own use.
@@ -3902,6 +3926,9 @@ Javed's case is a reminder that a fraudulent investment doesn't need a headline-
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/usao-edpa/pr/gladwyne-investment-adviser-sentenced-over-eight-years-prison-defrauding-clients-more',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Exterior_view_of_James_A._Byrne_U.S._Courthouse_and_the_William_J._Green_Federal_Building,_Philadelphia,_Pennsylvania_LCCN2010718972.tif?width=1200',
+    coverImageCredit: 'Carol M. Highsmith (public domain) — James A. Byrne U.S. Courthouse, Philadelphia, where Mason was sentenced',
     body: `Scott Mason ran Rubicon Wealth Management LLC, an investment advisory firm based in Gladwyne, Pennsylvania, and used it to manage money for clients who, in many cases, were also his longtime friends and family members — the kind of relationship that normally makes a client feel safer, not more exposed. According to the U.S. Attorney's Office for the Eastern District of Pennsylvania, that trust is exactly what Mason exploited.
 
 Prosecutors say Mason diverted more than $17 million from thirteen Rubicon clients into entities he personally owned and controlled, often by forging clients' signatures on distribution forms or misrepresenting the transfers to them as bond investments. In one case, prosecutors say Mason had been misappropriating funds from a single victim since as far back as 2007, and partially repaid that victim over the years specifically to avoid detection — while still netting more than $6 million from that person alone. He used the diverted money to fund international travel, country club membership dues, credit card bills, and an ownership stake in a miniature golf course near the Jersey Shore. He also failed to report the fraud proceeds as income, creating a tax loss prosecutors estimated at roughly $3.2 million.
@@ -3919,6 +3946,9 @@ NotoriousNS.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.irs.gov/compliance/criminal-investigation/two-men-admit-pocketing-millions-in-donations-from-petco-park-and-snapdragon-stadium-meant-for-charity',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Petco_Park,_San_Diego.jpg?width=1200',
+    coverImageCredit: 'Bernard Gagnon / Wikimedia Commons (CC BY-SA 3.0) — Petco Park, San Diego, one of the two stadiums whose charity donations were stolen',
     body: `Note: Noly Hermoso Ilarde and Martin Jose Rebollo Jr. have both pleaded guilty, but publicly available reporting reviewed for this profile did not include the sentences ultimately imposed at their scheduled sentencing hearings, so those outcomes are not stated here.
 
 Noly Hermoso Ilarde, of San Diego, and Martin Jose Rebollo Jr., of Chula Vista, California, ran an outfit called Chula Vista Fast Pitch, which they presented to two major sports-venue concessionaires as a nonprofit supporting youth softball. According to the U.S. Attorney's Office for the Southern District of California, the two men applied for and won contracts to supply unpaid volunteers to staff concession stands at Petco Park, home of the San Diego Padres, and later at Snapdragon Stadium — in exchange for roughly 10 percent of concession sales being donated to their charity. It was a model real charities use to raise money at ballparks around the country. In this case, prosecutors say, the charity behind it did not actually exist as anything more than a name on paperwork.
@@ -3957,6 +3987,9 @@ NotoriousNS.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/usao-edtx/pr/conspirators-sentenced-engaging-multitude-fraud-schemes-including-romance-scams',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Sherman_July_2016_19_(Paul_Brown_Federal_Building).jpg?width=1200',
+    coverImageCredit: 'Michael Barera / Wikimedia Commons (CC BY-SA 4.0) — Paul Brown Federal Building, Sherman, Texas, home of the U.S. District Court for the Eastern District of Texas',
     body: `For years, according to federal prosecutors, Sandra Iribhogbe Popnen went by the nickname "General" inside a fraud conspiracy where the name doubled as a job description. Popnen, 50, of Plano, Texas, was part of a group that the U.S. Attorney's Office for the Eastern District of Texas says ran romance scams, business email compromise fraud, investment fraud, and unemployment insurance fraud simultaneously, extracting an estimated $17 million from at least 100 victims — individuals, companies, and government programs — across multiple countries in a conspiracy that prosecutors trace back to around January 2017.
 
 The romance-scam side of the operation followed a familiar shape: conspirators built fake identities on online dating platforms, cultivated relationships with victims — prosecutors say elderly and vulnerable people were deliberately targeted — and then introduced a financial emergency that only the victim's help could resolve. According to the government, money sent to fix that invented emergency was disguised, disbursed, and laundered through a network of bank accounts and moved to co-conspirators and businesses in Africa and Asia, alongside proceeds the group separately pulled in through business-email-compromise schemes impersonating real executives and fraudulent unemployment insurance claims filed under stolen identities.
@@ -4012,6 +4045,9 @@ NotoriousNS.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/usao-ma/pr/thirty-individuals-charged-global-insider-trading-scheme-netting-tens-millions-illicit',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/2017_Moakley_US_Courthouse_from_Central_Wharf.jpg?width=1200',
+    coverImageCredit: 'Beyond My Ken / Wikimedia Commons (CC BY-SA) — John Joseph Moakley U.S. Courthouse, Boston, where the case was charged',
     body: `Note: this case is at the charged stage. The individuals named below have been criminally indicted and civilly charged but not convicted, and are presumed innocent unless and until proven otherwise; the SEC's allegations are civil claims that have not been proven in court. The description below reflects the government's case rather than established facts.
 
 Nicolo Nourafchan spent roughly a decade, from 2013 to 2023, working as a mergers-and-acquisitions associate at a string of prominent law firms, including stints at Sidley Austin, Latham & Watkins, Cleary Gottlieb, and Goodwin Procter. According to a criminal indictment unsealed in May 2026 in the U.S. District Court for the District of Massachusetts and a parallel civil complaint filed by the Securities and Exchange Commission, Nourafchan used that access for something other than legal work: prosecutors allege he repeatedly opened confidential deal files — draft merger agreements, signing checklists, board presentations — for pending M&A transactions he wasn't even staffed on, then fed what he found to a Yale Law School classmate, Robert Yadgarov, and a wider network of relatives, friends, and associates who traded on it ahead of public announcements.
@@ -4068,6 +4104,9 @@ NotoriousNS.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/usao-sdny/pr/defendants-charged-over-200-million-water-vending-machine-ponzi-scheme-and-related',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Thurgood_Marshall_United_States_Courthouse_004.jpg?width=1200',
+    coverImageCredit: 'Kidfly182 / Wikimedia Commons (CC BY-SA 4.0) — Thurgood Marshall U.S. Courthouse, Manhattan, where the case was charged',
     body: `Ryan Wear ran Water Station Management LLC, a company that pitched itself to everyday investors as a straightforward small-business opportunity: buy a share of a coin- and card-operated purified water vending machine, typically for around $8,500, and collect a cut of the machine's revenue as passive income. The pitch was aimed heavily at retail investors, and prosecutors say Wear and his sales network specifically targeted military veterans through the small-business and franchise-investment circuit, framing the machines as a stable, tangible alternative to the stock market.
 
 According to the SEC and the U.S. Attorney's Office for the Southern District of New York, the tangible part was largely fiction. From September 2016 through September 2023, Wear and his companies are alleged to have raised more than $165 million by selling investment contracts for water machines that, in thousands of cases, either did not exist or had already been sold to other investors under the same promise. Starting in April 2022 and continuing through February 2024, Wear layered a second scheme on top of the first — "Water Station Notes" — raising more than $110 million through notes marketed as secured by water machines that, again, mostly weren't owned by the company or didn't exist at all. Combined, prosecutors say the two schemes raised more than $275 million from over 250 investors, with more than $60 million of that money diverted to Ponzi-like payments to earlier investors and to Wear's other ventures, including unrelated real estate purchases.
@@ -4087,6 +4126,9 @@ NotoriousNS.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-22694',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/John_Joseph_Moakley_United_States_Courthouse_(54960820858).jpg?width=1200',
+    coverImageCredit: 'ajay_suresh / Wikimedia Commons (CC BY 4.0) — John Joseph Moakley U.S. Courthouse, Boston, where the SEC case against Palladino was filed',
     body: `Steven Palladino was already a convicted swindler — he'd previously been accused of cheating his own 94-year-old aunt out of real estate — when he and his wife, Lori, set up Viking Financial Group, Inc. in West Roxbury, Massachusetts, in 2007, with their adult son handling the incorporation paperwork. Viking's pitch to investors was straightforward and, on paper, plausible: hand over your money, and Viking would use it to make short-term, high-interest "hard money" loans to real-estate developers and small businesses that couldn't get financing from a conventional bank. Investors were promised the return of their principal plus interest, sometimes described in double-digit annual terms, with the loans supposedly secured by first liens on the underlying properties.
 
 According to the SEC's complaint, that description bore little resemblance to what Viking actually did. Since at least April 2011, the company raised at least $5.5 million from roughly 30 investors, but made very few genuine loans — instead using new investors' money largely to pay off earlier investors, the classic rob-Peter-to-pay-Paul mechanics of a Ponzi scheme, while diverting substantial sums to the Palladino family's own lifestyle: cash withdrawals, gambling trips to Las Vegas, vacations, luxury vehicles, and private-school tuition. Massachusetts prosecutors, pursuing a parallel state criminal case, put the total taken from investors closer to $10 million and added a further detail: nearly $350,000 of investor money went toward getting Steven Palladino himself off probation stemming from that earlier case involving his elderly aunt — one fraud, in effect, funding the cleanup of another.
@@ -4106,6 +4148,9 @@ NotoriousNS.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/usao-sc/pr/california-man-receives-10-year-sentence-following-guilty-plea-south-carolina-fraud',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Strom_Thurmond_Federal_Building_and_United_States_Courthouse,_Assembly_Street_and_Laurel_Street,_Columbia,_SC.jpg?width=1200',
+    coverImageCredit: 'w_lemay / Wikimedia Commons (CC BY-SA 2.0) — Strom Thurmond Federal Building and U.S. Courthouse, Columbia, South Carolina, where Kohn was sentenced',
     body: `Scott Kohn ran Future Income Payments, LLC — formerly known as Pensions, Annuities and Settlements, LLC — out of Newport Beach, California, from April 2011 until the operation collapsed in April 2018. The pitch was aimed squarely at people with a guaranteed but limited monthly income: retirees and, disproportionately, military veterans drawing pensions or disability payments, who were often in financial distress and looking for a fast way to raise cash. Future Income Payments offered them a lump sum upfront in exchange for "selling" the rights to their future monthly pension or disability checks for a fixed number of years.
 
 Federal regulators said that structure was a deliberate legal fiction. Assigning away a veteran's disability payments is illegal, and federal pensions generally can't be sold outright, so Kohn's contracts were written as purchases of "structured cash flows" rather than loans — even though the arrangement functioned exactly like a loan, just one carrying effective annual interest rates as high as 240 percent, far beyond what usury laws would ever permit a lender to charge directly. To reach victims nationwide, Kohn built a network of hundreds of independent insurance agents and financial advisors who solicited clients on commission, many of them unaware of how the underlying deal was actually structured or funded.
@@ -4140,6 +4185,9 @@ NotoriousNS.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
     sourceUrl: 'https://www.justice.gov/archive/usao/co/news/2010/September10/9_15_10.html',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Alfred_A._Arraj_U.S._Courthouse_2023-04-21.jpg?width=1200',
+    coverImageCredit: 'Xnatedawgx / Wikimedia Commons (CC BY-SA 4.0) — Alfred A. Arraj U.S. Courthouse, Denver, where Merriman was prosecuted',
     body: `Shawn Merriman served as a bishop in his local congregation of The Church of Jesus Christ of Latter-day Saints in the Denver area — an unpaid, elected lay leadership position that gave him standing and trust well beyond his actual financial credentials. Through Market Street Advisors and a related web of entities, including Mountain Springs Partners, L.P. and a series of associated LLCs, Merriman used that trust to build a client base drawn overwhelmingly from his own church community and their extended circle of friends and family in Colorado and Utah.
 
 From roughly 1994 through February 2009, Merriman told investors he was trading their money in stocks and bonds and generating annual returns of 7 to 20 percent. According to prosecutors, there was little to no legitimate trading behind those promises. Instead, Merriman sent investors fabricated account statements showing gains and trades that never happened, using money from newer investors to make it look like a functioning investment business — a Ponzi scheme running, undetected, for roughly a decade and a half inside a single trusting community.
