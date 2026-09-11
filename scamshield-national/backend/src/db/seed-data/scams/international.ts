@@ -13725,6 +13725,19 @@ International.push(
 
 International.push(
   {
+    name: 'Fake U.S. Government Contract Scheme Defrauding Iraqi Companies',
+    slug: 'iraq-fake-us-government-contract-impersonation-scheme',
+    description: `The U.S. Department of Justice announced on November 21, 2019 that two U.S. citizens residing in Iraq, Riza Mohammad, 40, and Sabah Hasan Sachet, 48, had been charged in two separate indictments returned in the U.S. District Court for the District of Kansas over a scheme that defrauded companies doing business in Iraq out of millions of dollars. According to the indictments, Mohammad, Sachet, and their co-conspirators emailed prospective victim companies forged documents purporting to be genuine U.S. government contracts, then arranged in-person meetings at which the defendants impersonated U.S. government officials and presented falsified federal paperwork and seals to lend the scheme credibility. Companies were induced to sign the fraudulent contracts, under which they were to supply materials worth millions of dollars to the "U.S. government" in exchange for payment; the purported contracts were never real, and victim companies that provided materials and/or made payments to secure them were never paid. Mohammad and Sachet were each charged with one count of conspiracy to commit wire fraud, six counts of wire fraud, one count of false impersonation of a U.S. official, and one count of wrongful use of a U.S. government seal. The case illustrates a form of contract fraud aimed squarely at Iraqi businesses hoping to win lucrative U.S. government reconstruction and procurement work, where forged federal paperwork and an impersonated American official in front of them were enough to extract real goods, services, and money from victims who had no independent way to confirm the supposed contract directly with the U.S. government. Companies approached about a U.S. government contract are advised to verify it directly with the relevant U.S. agency or embassy through official channels, rather than relying on documents, seals, or in-person claims of authority presented by an intermediary.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['U.S. Department of Justice'],
+    sourceUrl: 'https://www.justice.gov/opa/pr/two-charged-scheme-impersonate-us-officials-and-defraud-iraqis',
+    country: 'IQ',
+  },
+);
+
+International.push(
+  {
     name: 'Michelet Charles Fake Social Media Rental Listing Scam',
     slug: 'haiti-michelet-charles-rental-listing-scam',
     description: `Haiti's Police Nationale, through its Southeastern Departmental Judicial Police Service (SDPJ-Sud-Est), arrested Michelet Charles on Friday, September 26, 2025, on fraud charges after he posed as a real estate agent and ran a rental-listing scheme through social media, according to reporting by Le Nouvelliste and Vant Bèf Info. During questioning, Charles admitted to posting fake advertisements on social media for houses available to rent or buy; once an interested party made contact, he directed them to transfer money to a private individual's bank account rather than any legitimate escrow or agency channel. In his last confirmed operation before his arrest, he admitted to collecting $3,500 in cash from a victim for a lease that did not exist, splitting the proceeds with an accomplice he presented to the victim as a property "negotiator." Police recovered multiple U.S. dollar bills and a 500-gourde note as evidence. The Police Nationale d'Haïti said the arrest reflects its ongoing effort to combat fraud schemes that erode public trust, and the case is a reminder to verify a listing agent's identity and never wire a deposit for a property before seeing it and its actual owner in person.`,
