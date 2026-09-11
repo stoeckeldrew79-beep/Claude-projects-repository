@@ -7171,3 +7171,15 @@ UsAF.push({
     country: 'US',
     state: 'FL',
 });
+
+UsAF.push({
+    name: 'Camarillo Stuffed Mailbox Check-Washing Ring (Jacobo & Landa)',
+    slug: 'california-camarillo-check-washing-mail-theft-ring',
+    description: `Camarillo detectives and the Ventura County Sheriff's Office arrested Alejandro Jacobo, 19, of Norwalk, and Juan Antonio Landa, 21, of Garden Grove, after tracing a check-washing scheme built around a simple trick: the pair stuffed a USPS collection box on Pickwick Drive with cardboard so it looked full, hoping — correctly — that customers would assume it was simply overdue for pickup and drop their outgoing mail in anyway rather than take it elsewhere. Jacobo and Landa then returned minutes later, retrieved the envelopes, and chemically "washed" any checks inside using common solvents that strip out the original payee name and dollar amount without damaging the paper, before rewriting both and depositing the altered checks into accounts they controlled. Investigators tied the pair to combined victim losses of more than $100,000 and arrested both on Tuesday, May 12, 2026, on charges of conspiracy, mail theft, and receiving stolen property; both were held on $75,000 bail each. The U.S. Postal Inspection Service, which assisted in the investigation, recommends depositing outgoing checks directly at a post office counter or through an interior mail slot rather than an outdoor collection box, writing checks with a gel pen (harder to chemically wash than standard ink), enrolling in USPS Informed Delivery to spot mail that never arrives, and contacting the bank immediately if an unauthorized or altered check turns up on a statement. A collection box that looks jammed or stuffed with debris is itself a warning sign worth reporting to USPIS rather than a reason to keep using it.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'medium',
+    sources: ['Ventura County Sheriff\'s Office', 'Hoodline', 'U.S. Postal Inspection Service'],
+    sourceUrl: 'https://hoodline.com/2026/05/camarillo-mailbox-sting-bags-two-la-area-suspects-in-six-figure-check-scam/',
+    country: 'US',
+    state: 'CA',
+});
