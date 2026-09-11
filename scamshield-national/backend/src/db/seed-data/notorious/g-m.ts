@@ -6468,6 +6468,10 @@ NotoriousGM.push(
     // Note: this case is still an active, unresolved SEC civil action as of this
     // writing, with no criminal charges filed — described with that hedge below.
     sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26301',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/NYSE facade.jpg?width=1200',
+    coverImageCredit: 'Photo: Ryan Schwark / Wikimedia Commons (CC0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Kenneth W. Alexander II, of the Dallas-Fort Worth area, controlled a trust called Vanguard Holdings Group Irrevocable Trust (VHG) that he and a second Texan, Robert D. Welsh, held out to investors as a highly profitable international bond-trading operation with billions of dollars in assets. According to a civil fraud complaint the Securities and Exchange Commission filed in April 2025, that description was fiction: the SEC alleges VHG had no material source of revenue at all, and that the "returns" investors received were simply money taken from other investors.
 
 Between roughly May 2021 and February 2024, the SEC says, Alexander and Welsh promised investors 12 guaranteed monthly payments of 3% to 6%, with their full principal returned after 14 months — terms marketed with the specific, confident language of a real fixed-income product rather than the vague promises typical of a scam. To make the pitch even more reassuring, the complaint alleges, the men offered investors supposed "pay order" protection instruments meant to convince them their principal was shielded from loss, on top of guaranteed monthly income. A third defendant, Caedrynn E. Conner, allegedly played a critical role in scaling the operation: prosecutors say he funneled more than $46 million into VHG through a separate entity he controlled, Benchmark Capital Holdings Irrevocable Trust, helping the scheme reach a total of at least $91 million raised from more than 200 investors before it collapsed.
