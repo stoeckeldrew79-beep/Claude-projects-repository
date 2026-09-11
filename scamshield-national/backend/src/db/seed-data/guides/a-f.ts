@@ -6888,6 +6888,10 @@ The practical lesson extends well past this one robot kit: any app a child uses 
     slug: "cobblestone-car-wash-colorado-auto-renewal-settlement-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "cobblestone-car-wash-colorado-settlement"],
+    // representative photo — replace with an exact match if found
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Colorado_State_Capitol,_Denver,_Colorado._(7725175188).jpg?width=1200",
+    coverImageCredit: "Boston Public Library / Wikimedia Commons / CC BY 2.0",
+    coverImagePosition: 50,
     sourceUrl: "https://coag.gov/press-releases/weiser-announces-settlement-with-cobblestone-car-wash-for-using-unfair-auto-renewal-practices/",
     body: `Cobblestone Car Wash operates more than 40 wash and detailing locations across Colorado, and like most car washes today, it makes most of its money not from the occasional drive-in customer but from members who sign up for a flat monthly fee and unlimited washes. That subscription model only works for the company if members forget to cancel — and on August 20, 2026, Colorado Attorney General Phil Weiser announced that Cobblestone had turned that ordinary business incentive into a pattern of state-law violations, agreeing to pay $1,353,465 in restitution to more than 70,000 current and former members.
 
