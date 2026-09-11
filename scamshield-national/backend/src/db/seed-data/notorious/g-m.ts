@@ -7660,3 +7660,20 @@ A federal jury in the Southern District of New York convicted Ray in April 2022 
 Ray's case is a stark illustration of how financial exploitation doesn't require a stock pitch or a fake investment fund — coercive control, sustained over years inside what looked from the outside like an ordinary friend group, extracted just as much money and did far graver harm than most of the schemes typically labeled a "scam."`,
   },
 );
+
+NotoriousGM.push(
+  {
+    title: 'Marc Harris and the Panama Offshore Empire That Was Rotten From the Start',
+    slug: 'marc-harris-panama-offshore-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://en.wikipedia.org/wiki/Marc_Harris',
+    body: `Marc Harris was an American-trained certified public accountant who moved to Panama in 1989 and built a group of companies known as the Harris Organisation into a full-service offshore empire, selling wealthy clients second passports, offshore trusts, shell companies, and "asset protection" structures out of a network of entities incorporated in the British Virgin Islands. By 1998, Harris was telling clients and reporters his organization managed roughly $1 billion in assets, resting on a base of only about $35 million in his own companies' actual capital — a gap that, on its own, should have raised questions about how much of that "assets under management" figure he genuinely controlled versus simply held on paper.
+
+In March 1998, offshore-finance journalist David Marchant published an investigation in his newsletter OffshoreAlert concluding that the Harris Organisation was, in substance, an insolvent Ponzi-style operation — not simply sheltering client money from taxes and creditors as advertised, but quietly using it to cover the group's own losses and Harris's personal spending. Harris sued Marchant for $30 million in libel over the reporting and lost; a subsequent appeal in 2000 failed as well, and the courtroom defeat did nothing to slow the criminal case building against him on a different front entirely.
+
+Federal investigators ultimately indicted Harris over a scheme separate from the alleged client theft Marchant had reported: laundering the proceeds of an illegal Freon-smuggling operation through Harris Organisation trust structures, run together with South Florida businessmen Aurelio and Joseph Vigna, to evade an estimated $6.2 million in federal excise taxes. Harris was arrested in Nicaragua in June 2003 and expelled to Miami. A jury convicted him on November 24, 2003, on 16 counts including conspiracy to defraud the IRS, money laundering, and tax evasion, and on May 21, 2004, U.S. District Judge William J. Zloch sentenced him to 204 months — 17 years — in federal prison, along with a $20.3 million fine. Harris was released in August 2016.
+
+The Harris case is a reminder that "offshore asset protection" sold on a promise of secrecy is, by design, a business built to be unaccountable: the same opacity marketed to clients as a shield against tax authorities and creditors is just as useful for hiding what the firm itself is doing with their money. Harris's downfall didn't end with his own sentencing, either — more than a decade later, clients who had used his structures to hide assets from the IRS were still being individually identified and prosecuted, a reminder that handing money to a fraudulent offshore promoter to dodge taxes carries its own separate legal exposure, regardless of whether the promoter running the scheme is ever caught.`,
+  },
+);
