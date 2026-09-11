@@ -7510,6 +7510,9 @@ A federal jury convicted Zamora-Quezada in January 2020, following a 25-day tria
 Sentencing dragged on for years after the verdict, delayed in part by disputes between prosecutors and the defense over exactly how many patients and how much financial loss the court should count in calculating his punishment — a dispute that took until May 2025 to resolve. He was ultimately sentenced to 10 years in federal prison and ordered to forfeit more than $28.2 million in assets traced to the scheme, including 13 real estate properties in the United States and Mexico, a private jet, and a Maserati GranTurismo, against a backdrop of $118 million in claims the government proved at sentencing were fraudulent.
 
 Zamora-Quezada's case is a reminder that health care fraud doesn't always look like a billing clerk padding invoices — it can start with the diagnosis itself, the one piece of the medical record patients are least equipped to second-guess, from a doctor whose white coat is doing the persuading a scammer's script would otherwise have to do.`,
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Rheumatoid_Arthritis_Hand.jpg?width=1200',
+    coverImageCredit: 'Photo: Amm0nium, CC BY-SA 4.0, via Wikimedia Commons — a hand affected by rheumatoid arthritis, the real disease Zamora-Quezada falsely diagnosed in thousands of patients',
   },
 );
 
