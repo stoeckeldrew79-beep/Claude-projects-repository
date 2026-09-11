@@ -13481,3 +13481,17 @@ International.push(
     country: 'BY',
   },
 );
+
+International.push(
+  {
+    name: 'MYGOLDREV Kinshasa Pyramid Scheme',
+    slug: 'drc-mygoldrev-kinshasa-pyramid-scheme',
+    description: `The Banque Centrale du Congo (BCC) publicly warned on August 5, 2020 that MYGOLDREV, a savings-collection outfit operating out of the Limete industrial district of Kinshasa, was an unlicensed and fraudulent scheme, and asked the Prime Minister's office to intervene to shut it down. MYGOLDREV's flagship "fractal" product promised investors a 100% return, but as with any pyramid scheme, payouts to earlier participants depended entirely on money brought in by newly recruited members rather than any real underlying investment. The BCC's warning flagged operational risk from the absence of any real internal controls or regulatory protection for depositors, along with money-laundering, cryptocurrency-volatility, and cyber-theft concerns. The Kinshasa/Matete Prosecutor General's office sealed MYGOLDREV's offices on October 27, 2020, but clients said the operators simply rebranded the business as MYCRYPTOREV and kept collecting money, this time demanding that holders of old accounts reinvest half their remaining balance and pay a further "activation fee" just to transfer into the new entity, with anyone who refused made to wait out a 90-day moratorium before any withdrawal was even considered. "We understood this was organized fraud," one client told reporters in January 2021, describing months of being unable to touch money the company held. Congolese news outlet Mbote separately reported that one Kinshasa trader took his own life after losing his savings to the scheme. On April 16, 2021, the Kinshasa/Matete Prosecutor General's office issued a search-and-arrest notice charging MYGOLDREV promoter Serge Kasanda Ntumba and three associates — Tutu Mawa Jean-Petty Salumu, Micheline Peke, and Mélanie Bahadi — with fraud under Article 98 of the Congolese Penal Code, though Kasanda Ntumba remained at large with no known address in Kinshasa. The case remains a cautionary example for Congolese savers of a pattern regulators warn about repeatedly: any local investment club promising a flat, guaranteed return of 100% has no legitimate way to generate it and is functioning as a pyramid, not a business.`,
+    categorySlug: 'ponzi-pyramid-schemes',
+    isHistorical: true,
+    firstRecorded: '2020-08-05',
+    sources: ['Banque Centrale du Congo (BCC)', 'Parquet Général de Kinshasa/Matete', 'Actualite.cd', 'Mbote.cd'],
+    sourceUrl: 'https://actualite.cd/2020/09/07/rdc-mygoldrev-est-une-escroquerie-selon-la-banque-centrale',
+    country: 'CD',
+  },
+);
