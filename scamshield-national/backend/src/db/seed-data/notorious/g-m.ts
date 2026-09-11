@@ -5995,6 +5995,9 @@ NotoriousGM.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://ago.mo.gov/attorney-general-hanaway-announces-charges-against-contractor-targeting-st-louis-tornado-victims/',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/EF3_House_Damage_in_Greater_Ville_STL_MO.jpg?width=1200',
+    coverImageCredit: 'Photo: National Weather Service St. Louis, Wikimedia Commons (public domain) — storm damage from the May 16, 2025 St. Louis-area tornado that Jacob Kaestner is accused of exploiting',
     body: `Note: this case is at the charging stage. Jacob Kaestner has been charged but not convicted, and the allegations described below reflect the government's case rather than proven facts.
 
 Jacob D. Kaestner, 43, of High Ridge, Missouri, ran JK Exteriors, a residential contracting business offering roofing, gutter, siding, and fencing repairs. According to the Missouri Attorney General's Office, Kaestner built much of his business around homeowners left vulnerable by two tornadoes that tore through the St. Louis area in 2025 — one on March 14 and a far more destructive one on May 16 — collecting upfront payments from storm-damage victims for repairs he then failed to deliver.
