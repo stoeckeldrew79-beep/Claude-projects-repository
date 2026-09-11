@@ -4539,6 +4539,10 @@ NotoriousGM.push(
     slug: 'kenneth-walton-ebay-shill-bidding-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/UC-Berkeley-010-campanile-way-from-sather-tower.jpg?width=1200',
+    coverImageCredit: 'Photo: Firstcultural, Wikimedia Commons (CC0) — Berkeley, California, where Walton claimed to have found the forged "Diebenkorn" at a garage sale',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     sourceUrl: 'https://plaintiffmagazine.com/recent-issues/item/taking-on-art-fraud',
     body: `Kenneth Walton was a Sacramento attorney at one of the city's larger law firms when an old Army friend, Ken Fetterman, introduced him to buying and reselling art on eBay in the site's early years, when online auctions were still new enough that most buyers had little way to verify a seller's claims. Walton's tactics escalated fast. Between 1998 and 2000, he and two collaborators — Fetterman and a third man, Scott Beach — built a scheme around dozens of fake eBay identities, using names like "golfpoorly," "big-fat-mamba-jamba," and "thriftstorebob" to bid on and sell paintings across more than 250 auctions, with prosecutors later concluding that a large share of them were fraudulent, either through shill bidding to inflate prices on real listings or by selling paintings falsely attributed to well-known artists.
 
@@ -5008,6 +5012,9 @@ NotoriousGM.push(
     slug: 'james-ibori-delta-state-money-laundering',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Southwark_Crown_Court_entrance.jpg?width=1200',
+    coverImageCredit: 'Photo: Christopher Hilton, Wikimedia Commons (CC BY-SA 2.0) — Southwark Crown Court, London, where Ibori pleaded guilty and was sentenced',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.hrw.org/news/2012/04/17/nigeria-uk-conviction-blow-against-corruption',
     body: `Before he became a governor, James Ibori was a supermarket cashier in London with two minor criminal convictions. In 1991 he was fined at Isleworth Crown Court for theft after letting his girlfriend walk out of the Wickes DIY store where he worked without paying for goods, and in 1992 he was convicted separately for possessing a stolen credit card that had run up roughly £1,000 in charges. He left Britain for Nigeria not long after, and within a decade he was governor of Delta State, one of the country's wealthiest, oil-producing regions.
 
@@ -5026,6 +5033,9 @@ NotoriousGM.push(
     slug: 'roger-levitt-fraud-community-service-sentencing-scandal',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Inner_london_crown_court_southwark_arms.jpg?width=1200',
+    coverImageCredit: 'Wikimedia Commons (public domain) — Southwark Crown Court, London, where Levitt was tried and sentenced',
+    coverImagePosition: 50,
     body: `Roger Levitt built the Levitt Group into one of Britain's most prominent independent financial advisory firms of the 1980s, trading through a subsidiary known as TLG Ltd and drawing a client roster that ran from mineworkers' pension funds to celebrities, including the novelist Frederick Forsyth. The Levitt Group collapsed in January 1990 owing an estimated £34 million, leaving thousands of policyholders and pension savers exposed just as Britain's wider personal-pension mis-selling scandal — in which commission-driven advisers had steered millions of people out of solid company pension schemes — was beginning to surface.
 
 Britain's Serious Fraud Office opened an investigation and eventually brought Levitt to trial at Southwark Crown Court on a sweeping indictment that began with 62 separate charges, later narrowed to 22 counts covering fraudulent trading, conspiracy, theft, obtaining funds by deception, and false accounting. Parliamentary records of the case show the core of the fraud: Levitt had presented the regulator then responsible for policing independent financial advisers, the Financial Intermediaries, Managers and Brokers Regulatory Association (FIMBRA), with falsified documents purporting to show more than £20.7 million in genuine advisory fees earned over an 18-month period — figures regulators relied on to judge whether the firm remained solvent enough to keep operating — and had sent false valuations to investors describing money that was not actually there.
@@ -5062,6 +5072,10 @@ Courtenay House's mechanics were unremarkable by Ponzi-scheme standards — fabr
     slug: 'goodman-goqo-ingede-mineral-holdings-ponzi-scheme',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Durban_City_Centre_(201291238).jpg?width=1200',
+    coverImageCredit: 'Photo: Chris Bloom, Wikimedia Commons (CC BY-SA 2.0) — Durban, South Africa, near where Goqo ran the Ingede scheme',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     sourceUrl: 'https://www.timeslive.co.za/news/south-africa/2025-09-26-ponzi-mastermind-goodman-goqo-sentenced-for-conning-thousands-out-of-r75m--15-years-later/',
     body: `Between 2009 and 2010, Nsikayomuzi Goodman Goqo ran an investment company called Ingede Mineral Holdings out of an office on Crooked Lane in Hillcrest, a suburb of Durban in South Africa's KwaZulu-Natal province. Goqo, an alumnus of the elite Michaelhouse boarding school, told prospective investors he was placing their money on the stock exchange and offering a guaranteed return of 30 percent every month for six months running — a rate that would have multiplied an investment several times over in half a year, and one no legitimate stock-market strategy could reliably deliver.
 
@@ -5103,6 +5117,10 @@ NotoriousGM.push(
     slug: 'myron-goodman-mordecai-weissman-opm-leasing-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/NASAComputerRoom7090.NARA.jpg?width=1200',
+    coverImageCredit: 'Photo: NASA / National Archives (public domain) — an IBM mainframe computer room, representative of the leased machines at the center of the O.P.M. fraud',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     body: `Mordecai Weissman and Myron Goodman were childhood friends who started a computer-leasing company above a Brooklyn sweet shop in 1970. O.P.M. Leasing Services borrowed money from banks and insurers to buy IBM mainframe computers, then leased the machines to blue-chip customers — among them Rockwell International, Merrill Lynch, Xerox, American Express, and General Motors — pledging the computers and the lease payments themselves as collateral for the loans that financed each purchase. The name officially stood for "Other People's Machines." Inside the industry, it was soon joked to really mean Other People's Money.
 
 Starting around 1972, Weissman and Goodman began forging and altering leases, pledging the same lease as collateral for multiple loans at once, inflating the value of real leases, and — in the scheme's largest iteration — fabricating leases for computers that Rockwell International had never actually agreed to rent and that, in many cases, did not exist at all. Between 1978 and February 1981, the forged Rockwell paperwork alone induced nineteen lending institutions to buy notes worth $190.4 million.
@@ -5122,6 +5140,10 @@ NotoriousGM.push(
     slug: 'gao-yudong-wotoken-crypto-ponzi-scheme',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/20230328_Skyline_of_Suzhou_High-speed_Rail_New_Town.jpg?width=1200',
+    coverImageCredit: 'Photo: Windmemories, Wikimedia Commons (CC BY-SA 4.0) — Jiangsu province, China, where WoToken\'s ringleaders were tried and convicted',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     body: `In August 2018, while a nearly identical Ponzi scheme called PlusToken was already luring hundreds of thousands of Chinese investors, a copycat platform called WoToken launched with its own token, the WOR, and the same basic pitch: hand over Bitcoin, Ethereum, or other cryptocurrency, and a proprietary trading algorithm would generate steady returns by exploiting price differences across global exchanges.
 
 There was no algorithm. WoToken was a multi-level marketing scheme dressed up as a crypto hedge fund, structured across 501 recruitment layers, in which existing members earned a cut for every new investor they signed up. By the time Chinese police shut it down in October 2019, the platform had registered 715,249 users and taken in a combined 46,050 bitcoin, roughly 2 million ether, 286 million tether, and smaller holdings of litecoin and EOS — cryptocurrency worth about 7.7 billion yuan, or $1.1 billion, at the time it was collected.
@@ -5190,6 +5212,10 @@ The case against Ho was notable for what it exposed about how bribery gets disgu
     slug: 'matthew-kluger-garrett-bauer-insider-trading-ring',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Martin_Luther_King_Jr._Federal_Courthouse,_Newark,_NJ,_USA.jpg?width=1200',
+    coverImageCredit: 'Photo: Carptrash, Wikimedia Commons (CC BY-SA 3.0) — the federal courthouse in Newark, New Jersey, where the case was prosecuted',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.justice.gov/archive/usao/nj/Press/files/Kluger,%20Matthew%20and%20Bauer,%20Garrett%20Sentencing%20News%20Release.html',
     body: `Matthew Kluger was a corporate mergers-and-acquisitions attorney who spent nearly two decades moving through some of the most prestigious law firms on Wall Street — Cravath, Swaine & Moore; Skadden, Arps, Slate, Meagher & Flom; and Wilson Sonsini Goodrich & Rosati among them — the kind of firms hired precisely because they can be trusted with a client's biggest secret: which company it is quietly planning to buy. Starting in 1994, prosecutors said, Kluger began selling that secret. Whenever a deal he was working on was still confidential, he passed word of the pending merger to Kenneth Robinson, a friend since childhood in New Jersey who had drifted between real estate and mortgage brokering in New York. Robinson, in turn, passed the tip to Garrett Bauer, a Wall Street stock trader who bought shares in the target company days or weeks before the deal became public and its price jumped.
 
