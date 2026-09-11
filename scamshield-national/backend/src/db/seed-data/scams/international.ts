@@ -13180,3 +13180,18 @@ International.push(
     country: 'KI',
   },
 );
+
+International.push(
+  {
+    name: 'Kiribati Fake Investment Scheme Warning to Elders',
+    slug: 'kiribati-fake-investment-scheme-elder-warning',
+    description: `Speaking at the Pacific Peace and Security Dialogue in June 2026, Kiribati's Minister for Women, Youth, Sport and Social Affairs, Ruth Cross-Kwansing, warned that online fraud has become a regional security issue reaching directly into i-Kiribati households, singling out older residents as a target: "Our elders are also quite vulnerable," she said, pointing to "fake investment schemes and other online deceptions" that "drain savings and undermine trust" within families and communities. Cross-Kwansing framed the threat as a byproduct of Kiribati's own geography — a nation spread across 21 inhabited islands over roughly 3.5 million square kilometres of ocean, where "information that can spread across social media is faster than any government vehicle" that could respond to it — meaning a convincing investment pitch can reach isolated island communities well before any warning from Tarawa does. Her remarks, delivered as part of a wider address on the human-security dimensions of the Pacific's Boe Declaration and Blue Pacific 2050 strategy, tied fake investment schemes into a broader pattern of online manipulation the minister said is also driving youth mental health harm and validating gender-based violence across the region. The warning reflects a wider United Nations Office on Drugs and Crime assessment, also issued in 2026, that scam operators displaced from crackdowns in Southeast Asia are increasingly looking to small Pacific Island states with weaker regulation and enforcement capacity as new territory, making unsolicited investment offers reaching Kiribati's elders and other residents worth treating with particular suspicion regardless of how official or lucrative they appear.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'medium',
+    sources: ['Islands Business', 'Pacific Islands News Association (PINA)'],
+    sourceUrl: 'https://islandsbusiness.com/news-break/kiribati-minister-warns-online-misinformation-distorts-pacific-youths-reality/',
+    country: 'KI',
+    isHistorical: true,
+    firstRecorded: '2026-06-17',
+  },
+);
