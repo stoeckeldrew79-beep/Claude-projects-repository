@@ -8323,3 +8323,20 @@ Wenz pleaded guilty to wire fraud conspiracy in April 2021. Kinmont was convicte
 The case is a useful gut-check for anyone who owns a timeshare and gets an unsolicited call claiming a buyer is ready and waiting: real estate transactions, timeshares included, are conventionally structured so that an agent or broker gets paid at closing, out of the sale proceeds — not months beforehand, out of the seller's own pocket, for a sale that hasn't happened yet. An upfront fee tied to a "guaranteed" buyer who somehow never quite closes, repeated across thousands of victims over five straight years, is close to the purest version of that red flag on record.`,
   },
 );
+
+NotoriousGM.push(
+  {
+    title: 'Michael Lauer: The Hedge Fund Manager the SEC Called "Egregious" and a Miami Jury Acquitted',
+    slug: 'michael-lauer-lancer-management-hedge-fund-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Michael Lauer ran a family of hedge funds — Lancer Offshore, Lancer Partners LP, and related vehicles — through his firm, Lancer Management Group, pitching investors a small- and micro-cap stock strategy that, on paper, delivered years of unusually consistent, strong returns. Between the late 1990s and 2003, Lauer raised more than $1.1 billion from investors drawn in by that track record.
+
+According to the SEC, the returns behind that record were manufactured rather than earned. From November 1999 through April 2003, Lauer took large, often controlling positions in seven thinly traded microcap stocks that made up a substantial share of the funds' reported holdings, then traded those stocks in ways the SEC said were designed to move their prices — effectively marking up his own portfolio's value whenever he needed the funds to look profitable. Investors reading their account statements had no way of knowing that much of the value behind their money existed largely because Lauer himself had set the price of the stock underneath it, and the SEC said he provided no legitimate basis at all for the valuations placed on the shell corporations that filled out the rest of the funds' holdings.
+
+The SEC sued Lauer, Lancer Management, and a set of related trusts in 2003, freezing assets and putting the funds into receivership. In September 2008, U.S. District Judge Kenneth A. Marra granted the SEC summary judgment, finding Lauer's conduct "egregious, pervasive, premeditated," and later ordered him to pay roughly $62 million in disgorgement plus prejudgment interest — a judgment the U.S. Court of Appeals for the Eleventh Circuit went on to affirm. Investors in Lancer's funds are estimated to have lost somewhere between $200 million and $500 million.
+
+A separate criminal prosecution reached a very different result. Federal prosecutors in Miami charged Lauer with wire fraud and conspiracy carrying a potential sentence of up to 25 years in prison, but on April 27, 2011, a jury acquitted him on all counts after deliberating more than three days. The split outcome — liable for securities fraud in civil court under a preponderance-of-the-evidence standard, but acquitted of the same underlying conduct by a criminal jury applying proof beyond a reasonable doubt — is a reminder that regulatory and criminal cases built on identical facts can land in opposite places, and that a federal judge calling a scheme "egregious, pervasive, and premeditated" does not automatically translate into a criminal conviction for the person found to have run it.`,
+    sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-20751',
+  },
+);
