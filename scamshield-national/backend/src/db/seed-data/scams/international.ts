@@ -10791,6 +10791,16 @@ International.push(
     sourceUrl: 'https://www.royalgazette.com/general/business/article/20260717/bma-sounds-warning-after-investment-opportunity-event/',
     country: 'BM',
   },
+  {
+    name: 'Bermuda Police Service Phone and WhatsApp Impersonation Scam',
+    slug: 'bermuda-police-service-phone-whatsapp-impersonation-scam',
+    description: `The Bermuda Police Service (BPS) has repeatedly warned residents, including in a March 2025 advisory following earlier alerts issued in October and December 2024, about fraudsters who call people directly and falsely claim to be BPS officers in order to extract personal and financial information. Some calls come through ordinary phone lines, while others arrive as WhatsApp voice or video calls from a profile that displays the BPS crest as its picture but is tied to a foreign number, including numbers with a Pakistani (+92) country code, rather than a genuine Bermuda line. Once a target answers, the caller claims to be investigating something on the target's behalf and asks for personal details and financial information, including bank account particulars, under the pretext of verifying identity or resolving a supposed police matter. Police stressed that genuine BPS officers do not conduct investigations or request sensitive personal and financial information over the phone or via WhatsApp; instead, a real officer will arrange an in-person appointment at a police station. The BPS advised anyone contacted this way to ask the caller for their name, badge number, and department so it can be verified, to refuse to provide any personal or banking information over the call, and if there is any doubt to hang up immediately and call the BPS directly on 211 to confirm whether the contact was legitimate.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Bermuda Police Service (BPS)', 'Bernews'],
+    sourceUrl: 'https://bernews.com/2025/03/scammers-impersonate-bermuda-police-service/',
+    country: 'BM',
+  },
 );
 
 International.push(
