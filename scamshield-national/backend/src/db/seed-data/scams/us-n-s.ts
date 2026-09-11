@@ -5012,3 +5012,15 @@ UsNS.push({
     isHistorical: true,
     firstRecorded: '2023-02-03',
 });
+
+UsNS.push({
+    name: 'Bronx "Milian Services" Fake Real Estate Broker Rental Scam (Juan Valoy)',
+    slug: 'new-york-manhattan-valoy-milian-services-rental-scam',
+    description: `Juan Valoy, 47, of the Bronx, posed as a licensed real estate broker on Facebook Marketplace and through word-of-mouth referrals, offering apartment tours across New York City — including in Washington Heights, Queens, and the Bronx — for units he neither owned nor had any landlord's permission to rent, according to Manhattan District Attorney Alvin Bragg's office. Between March and July 2025, Valoy personally solicited and accepted payments from prospective tenants, largely Spanish-speaking New Yorkers, in the form of cashier's checks made out to Milian Services Corp., a business he had registered himself, collecting money he described as application fees, security deposits, and first months' rent. When move-in dates arrived, Valoy delayed tenants with excuses about ongoing repairs or pest treatment before eventually cutting off all contact and keeping the money without ever handing over a key or a lease. Bragg's office charged Valoy with grand larceny after identifying at least three victims defrauded of roughly $25,000 combined, and he pleaded guilty in New York State Supreme Court on July 14, 2026 to one count of grand larceny in the third degree, with a promised sentence of two to four years in state prison at his September 9, 2026 sentencing. "New Yorkers trusted Juan Valoy to rent them apartments," Bragg said in announcing the plea. "He broke that trust by pocketing their money, leaving them without homes." Renters responding to an online listing should insist on meeting the purported broker or landlord in person and touring the actual unit before paying anything, verify a real estate broker's license through the New York Department of State's public license lookup, and pay only after signing a lease naming the true, verifiable property owner — never through a cashier's check or wire made out to a company whose registration hasn't been independently checked.`,
+    categorySlug: 'rental-housing',
+    alertLevel: 'high',
+    sources: ["Manhattan District Attorney's Office"],
+    sourceUrl: 'https://manhattanda.org/d-a-bragg-announces-guilty-plea-in-rental-scam-that-defrauded-multiple-victims-of-thousands-of-dollars/',
+    country: 'US',
+    state: 'NY',
+});
