@@ -7472,3 +7472,21 @@ A federal grand jury in the Central District of California indicted Tuan on one 
     coverImageCredit: 'Photo: DocFreeman24, CC BY-SA 4.0, via Wikimedia Commons — Edward R. Roybal Federal Building, Los Angeles, in the Central District of California where Tuan was indicted',
   },
 );
+NotoriousGM.push(
+  {
+    title: 'Mauricio Chavez and the $300 Million "Wealth Seminar" Scheme That Targeted Houston\'s Latino Community',
+    slug: 'mauricio-chavez-cryptofx-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.sec.gov/newsroom/press-releases/2024-35',
+    body: `Mauricio Chavez built CryptoFX LLC around a format that felt more like community outreach than an investment pitch: free, in-person "educational seminars," conducted in Spanish across the Houston area, teaching attendees how to build wealth by trading cryptocurrency and foreign exchange. According to the SEC, Chavez had no actual background, education, or training in investing or crypto assets — the seminars existed to build trust and funnel attendees toward handing him their money, not to teach a real skill.
+
+From May 2020 to October 2022, that formula pulled in more than $300 million from over 40,000 investors, the overwhelming majority of them Latino, across the United States and two other countries — making it one of the largest crypto-related frauds ever brought against a scheme targeting a specific ethnic community. Chavez and his co-principal, Giorgio Benvenuto, promised investors annual returns of 15 to 100 percent, positioning CryptoFX as a legitimate trading operation with real profits to share, when in fact there was no trading strategy generating anything close to those returns.
+
+The SEC's emergency complaint, filed September 19, 2022, detailed the mechanics on a smaller sample of the money: of roughly $12 million examined in detail, about $2.7 million went to pay fabricated "returns" to existing investors — a Ponzi scheme's defining move — while nearly $8 million was diverted to personal use, including close to $1.5 million Chavez spent on cars, jewelry, adult entertainment, and a house held in his wife's name. A federal court froze CryptoFX's assets the same day and later appointed a receiver to recover what remained for investors.
+
+The freeze didn't stop the network underneath Chavez. In February 2024, the SEC charged 17 additional individuals — recruiters and regional leaders spread across Texas, California, Louisiana, Illinois, and Florida — with continuing to solicit new investors even after the court's shutdown order. Some allegedly went further: Gabriel and Dulce Ochoa kept soliciting investments and, prosecutors said, Gabriel instructed victims to withdraw their SEC complaints, while Maria Saravia allegedly told investors outright that "the SEC's lawsuit was fake."
+
+CryptoFX shows how an affinity-fraud network can outlast the regulatory action meant to stop it: the same trusted, face-to-face relationships that recruited 40,000 investors in the first place were then used to keep them in the scheme, and even to talk some out of believing a real federal lawsuit had been filed at all. A recruiter who shares your language, your neighborhood, and your church is not thereby more trustworthy about where your money is actually going — and a court order freezing a company's assets doesn't automatically reach every person still working its rooms.`,
+  },
+);
