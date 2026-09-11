@@ -6518,6 +6518,10 @@ This is a distinct threat from the classic "mystery shopper" or overpayment-chec
     slug: "docketwise-immigration-case-management-breach-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "docketwise-2026-data-breach"],
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/2023_green_card_front.jpg?width=1200",
+    coverImageCredit: "Photo: U.S. Citizenship and Immigration Services (Public Domain)",
+    coverImagePosition: 50,
+    // representative photo — a U.S. green card, evoking the immigration case files DocketWise stores; replace with an exact match if found
     sourceUrl: "https://www.securityweek.com/docketwise-data-breach-impacts-143000/",
     body: `DocketWise is cloud-based case-management software used by immigration law firms across the country to track client cases, prepare government forms, and store the documents that go with them — a category of vendor most consumers have never heard of but whose systems often hold more sensitive material than the law firm's own front-office computers. DocketWise, now operated under 8am through its MyCase subsidiary, disclosed that in October 2025 it discovered an unauthorized actor had used valid, apparently stolen credentials to clone certain third-party partner code repositories, some of which fed into a data migration pipeline for the DocketWise application itself. The company later traced the initial intrusion back to September 1, 2025, but said the forensic work needed to determine exactly whose data had been copied wasn't complete until February 19, 2026 — meaning the compromise sat undetected or unscoped for roughly four to five months before anyone outside the intrusion knew the extent of it.
 

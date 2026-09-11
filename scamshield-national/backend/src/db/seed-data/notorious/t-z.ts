@@ -1603,6 +1603,10 @@ NotoriousTZ.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.cbc.ca/news/canada/montreal/cinar-sentencing-1.3647161',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Palais_de_Justice_de_Montreal_05.jpg?width=1200',
+    coverImageCredit: 'Photo: Jean Gagnon, Wikimedia Commons (CC BY-SA 3.0) — the Palais de justice de Montréal, where Ronald Weinberg was tried in the Cinar fraud case',
+    coverImagePosition: 50,
     body: `Ronald Weinberg and his wife, Micheline Charest, founded Cinar as a small film and television distribution company in 1976 and rebuilt it in Montreal in 1984 as a children's animation studio. Over the following decade and a half, Cinar became one of Canada's biggest entertainment-industry success stories, producing or co-producing beloved children's shows including "Arthur," "Caillou," "The Busy World of Richard Scarry," and "Wimzie's House," and trading publicly on both the Toronto and Nasdaq exchanges. Behind that reputation, Weinberg and Charest were running two separate frauds that would eventually be investigated, and punished, in two very different ways.
 
 The first scheme exploited Canadian content rules. To qualify for lucrative federal and provincial tax credits reserved for shows written and produced by Canadians, Cinar needed its scripts credited to Canadian writers — so, prosecutors and regulators later found, the company put the names of Canadian citizens who hadn't actually written the material on scripts that American writers had produced, including using a pseudonym, "Eric Alexandre," assembled from the names of Charest's sister and the couple's own sons. When the practice surfaced around 1999-2000, Quebec's securities regulator investigated, and in 2002 Weinberg and Charest each agreed to pay C$1 million in penalties and accepted five-year bans from serving as officers or directors of any Canadian public company, without admitting wrongdoing — a civil settlement, not a criminal conviction.
@@ -1619,6 +1623,10 @@ NotoriousTZ.push(
     author: "ScamShield Editorial",
     tags: ["notorious", "notorious-scammer"],
     sourceUrl: "https://www.cftc.gov/PressRoom/PressReleases/9264-26",
+    // representative photo — replace with a portrait if found
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Charles_R._Jonas_Federal_Building,_Charlotte_(Mecklenburg_County,_North_Carolina).jpg?width=1200",
+    coverImageCredit: "Photo: National Archives / Federal Judicial Center, Public Domain, via Wikimedia Commons — the Charles R. Jonas Federal Building in Charlotte, home of the Western District of North Carolina, where the CFTC's civil complaint against Trevor Vernon was filed",
+    coverImagePosition: 50,
     body: `Note: this case is a civil enforcement action. The Commodity Futures Trading Commission's complaint describes allegations only — Trevor Vernon has not been criminally charged, and neither he nor Argent Capital Management has been found liable by a court as of this writing.
 
 Trevor L. Vernon, of Franklin, North Carolina, ran a commodity pool called Argent Capital Partners, LP through his company, Argent Capital Management, LLC, soliciting money from friends, acquaintances, and other prospective participants by presenting himself as a successful trader. According to a civil complaint the CFTC filed July 7, 2026 in the U.S. District Court for the Western District of North Carolina, Vernon and his firm raised at least $14.8 million from more than 60 participants between March 2022 and February 2026, promising to invest the pooled money across equity index futures, options, cryptocurrency, real estate, and private companies.
@@ -1678,6 +1686,10 @@ NotoriousTZ.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/usao-sdny/pr/nft-startup-founder-charged-fraud',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Daniel_Patrick_Moynihan_U.S._Courthouse,_Manhattan,_New_York_(7237347688).jpg?width=1200',
+    coverImageCredit: 'Photo: Ken Lund, Wikimedia Commons (CC BY-SA 2.0) — the Daniel Patrick Moynihan U.S. Courthouse in Manhattan, where Taj Tarsha was indicted in the Southern District of New York',
+    coverImagePosition: 50,
     body: `Note: Taj Tarsha has been indicted, not convicted. The allegations below come from a federal indictment and describe the government's case; Tarsha's attorneys have publicly disputed them, and he is presumed innocent unless and until proven guilty in court.
 
 Taj Tarsha, 34, of Miami, founded Few and Far, an NFT and crypto startup that pitched itself as a platform for the future of digital collecting. Rather than selling stock in the traditional sense, Few and Far raised money by selling investors the rights to future "FAR" tokens through Simple Agreement for Future Tokens (SAFT) contracts — a structure common in crypto fundraising that promises a cryptocurrency token once a platform launches, in exchange for cash up front. By Tarsha's own public announcement in March 2023, the company had raised more than $10 million from investors this way.
@@ -1697,6 +1709,10 @@ NotoriousTZ.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
     sourceUrl: 'https://www.justice.gov/usao-edmi/pr/former-birmingham-art-dealer-sentenced-over-five-years-prison-defrauding-elderly',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Theodore_Levin_United_States_Courthouse_Detroit_MI.jpg?width=1200',
+    coverImageCredit: 'Photo: Andrew Jameson, Wikimedia Commons (CC BY-SA 3.0) — the Theodore Levin U.S. Courthouse in Detroit, where Wendy Halstead Beard was sentenced in the Eastern District of Michigan',
+    coverImagePosition: 50,
     body: `Wendy Halstead Beard ran a fine-art photography business out of Birmingham, Michigan, taking valuable prints — including works by photographers like Ansel Adams and Diane Arbus — on consignment from collectors who trusted her to sell the pieces on their behalf and pass along the proceeds, keeping only her agreed commission. Between March 2019 and October 2022, according to the U.S. Attorney's Office for the Eastern District of Michigan, Beard instead sold the photographs and kept the money for herself, all while telling the original owners a rotating cast of lies about why their prints, or their payments, hadn't materialized yet.
 
 What set Beard's fraud apart from an ordinary consignment scam was the lengths she went to keep it hidden. According to prosecutors, when one elderly collector pressed her for the return of roughly $900,000 worth of consigned artwork, Beard claimed she had suddenly required a double lung transplant, was hospitalized, and later unconscious on a ventilator — a fabrication she reinforced by creating fake email accounts impersonating an assistant, sending messages like one telling a victim that Beard "has been a little dicey but we are hoping they take the vent out." Investigators later confirmed through the United Network for Organ Sharing registry that Beard had never received, or been listed for, any organ transplant. Prosecutors said she used similarly invented excuses — claimed buyer interest that didn't exist, fake identities, medical crises — across her broader scheme, which the government said touched more than three dozen victims and involved several hundred photographs.

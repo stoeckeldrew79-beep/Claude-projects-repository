@@ -3359,6 +3359,10 @@ If you or a family member ever received services from NFI North or one of its pr
     slug: "provident-behavioral-health-2026-data-breach-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "provident-behavioral-health-2026-data-breach"],
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Counselling_session.jpg?width=1200",
+    coverImageCredit: "Photo: tiyowprasetyo (CC0)",
+    coverImagePosition: 50,
+    // representative photo — generic counseling session, not a Provident facility; replace with an exact match if found
     sourceUrl: "https://www.bhnet.org/80875/provident-behavioral-health-data-breach-exposes-ssns-medical-info/",
     body: `Provident Behavioral Health, a nonprofit mental health care provider founded in 1860 and based in St. Louis, Missouri, detected suspicious activity on its computer systems on April 3, 2026. The organization, which offers individual and family therapy, psychiatric care, crisis support, and specialized programs for children, adults, and older adults — including patients formerly served by Care and Counseling, a smaller mental health nonprofit that joined Provident in 2023 — isolated the affected systems and brought in a third-party cybersecurity firm to investigate. That forensic review determined an unauthorized party had accessed data stored on the compromised systems, and Provident subsequently confirmed the incident affected approximately 49,540 people, a mix of current and former patients of both Provident and the legacy Care and Counseling programs.
 
