@@ -6270,6 +6270,10 @@ NotoriousAF.push(
     slug: 'fontrell-baines-nuke-bizzle-edd-unemployment-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    // representative photo (case prosecuted by the U.S. Attorney's Office for the Central District of California) — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Los_Angeles_Federal_Courthouse_127_S_Broadway_dllu.jpg?width=1200',
+    coverImageCredit: 'Daniel L. Lu, CC BY-SA 4.0, via Wikimedia Commons',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.justice.gov/usao-cdca/pr/rapper-who-boasted-music-video-about-committing-covid-fraud-sentenced-over-6-years',
     body: `When Congress created Pandemic Unemployment Assistance under the CARES Act in the spring of 2020 — a provision meant to extend jobless benefits to gig workers, the self-employed, and other people who wouldn't normally qualify for unemployment insurance — California's Employment Development Department had to process an unprecedented flood of claims with few of the identity checks that would ordinarily catch fraud. Fontrell Antonio Baines, a 33-year-old rapper from Memphis performing under the name "Nuke Bizzle," treated the gap as an opportunity, and then did something almost no fraudster does: he filmed himself doing it.
 
