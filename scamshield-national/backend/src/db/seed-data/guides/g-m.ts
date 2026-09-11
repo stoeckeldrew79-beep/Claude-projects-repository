@@ -3979,6 +3979,9 @@ If you received a notice about this breach, file a claim before September 5, 202
     author: "ScamShield Editorial",
     tags: ["guide", "google-assistant-privacy-settlement"],
     sourceUrl: "https://topclassactions.com/lawsuit-settlements/closed-settlements/68m-google-assistant-privacy-class-action-settlement/",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Google_Home_with_Home_Hub_and_Home_Mini_on_table.jpg?width=1200",
+    coverImageCredit: "Photo: Y2kcrazyjoker4, CC BY-SA 4.0, via Wikimedia Commons — Google Home devices at the center of the lawsuit",
+    coverImagePosition: 50,
     body: `Google LLC and its parent, Alphabet Inc., agreed to pay $68 million to resolve In re Google Assistant Privacy Litigation (Case No. 5:19-cv-04286, U.S. District Court for the Northern District of California, before Judge Beth Labson Freeman), a consolidated class action alleging that Google Assistant-enabled devices recorded people's conversations even when nobody actually said a wake word like "Hey Google" or "OK Google."
 
 The lawsuit, filed in 2019, alleged that Google Assistant devices — including Google Home speakers, Nest Hub smart displays, and Pixel and other Android phones — could misfire on ordinary background noise or speech, a phenomenon plaintiffs called a "False Accept," and that once triggered this way, Google recorded the ensuing conversation without the user ever intending to activate the device. Plaintiffs further alleged Google wrongfully used, stored, and in some cases disclosed those recordings to third-party human reviewers to help improve its speech-recognition technology, without adequately disclosing that a false activation could capture and route a private conversation to a stranger for review. A federal judge allowed claims under the federal Wiretap Act, the California Invasion of Privacy Act, intrusion upon seclusion, breach of contract, and California's Unfair Competition Law to proceed. Google has not admitted wrongdoing but agreed to the $68 million settlement rather than continue litigating.
@@ -3995,6 +3998,10 @@ If you missed the claims deadline, it's still worth checking GoogleAssistantPriv
     author: "ScamShield Editorial",
     tags: ["guide", "guitar-center-wage-and-hour-settlement"],
     sourceUrl: "https://www.caemployeesettlementguitarcenter.com/",
+    // representative photo — replace with an exact match if found
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Guitar_Center_in_Houston.jpg?width=1200",
+    coverImageCredit: "Photo: BrianReading, CC BY-SA 4.0, via Wikimedia Commons — a Guitar Center store, the retailer named in the suit",
+    coverImagePosition: 50,
     body: `Guitar Center Stores, Inc. agreed to pay $2,418,495 to settle Seilhamer v. Guitar Center Stores, Inc. (Case No. 23STCV00544, Superior Court of Los Angeles County, California), a wage-and-hour class action brought by two former employees on behalf of the retailer's non-exempt California workforce — the hourly sales associates, lesson instructors, and store staff who keep Guitar Center's locations running.
 
 The lawsuit alleged Guitar Center violated California labor law in several overlapping ways: failing to pay overtime and minimum wages for all hours actually worked, failing to pay all wages owed at termination, denying legally required meal and rest breaks, issuing wage statements that didn't accurately itemize hours and pay, and failing to reimburse employees for business expenses incurred on the job, such as mileage or a personal phone used for work. A related claim sought penalties under California's Private Attorneys General Act (PAGA), which lets employees sue on the state's behalf over labor code violations and splits any recovery between the workers and the California Labor and Workforce Development Agency. Guitar Center has not admitted wrongdoing but agreed to the settlement to resolve the case.
@@ -4011,6 +4018,9 @@ Workers anywhere who suspect their employer isn't paying required overtime, mini
     author: "ScamShield Editorial",
     tags: ["guide", "harvard-medical-school-morgue-settlement"],
     sourceUrl: "https://www.thecrimson.com/article/2026/8/19/hms-morgue-settlement/",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Gordon_Hall_Harvard_Medical_School_Quadrangle.jpg?width=1200",
+    coverImageCredit: "Photo: EgorovaSvetlana, CC BY-SA 4.0, via Wikimedia Commons — Harvard Medical School's quad, home to the morgue",
+    coverImagePosition: 50,
     body: `Harvard University agreed in August 2026 to pay $53 million to settle roughly a dozen civil lawsuits brought by 47 relatives of people who had donated their bodies to Harvard Medical School's Anatomical Gift Program — the culmination of a scandal that began when federal prosecutors revealed the school's own morgue manager had been stealing and selling donated body parts for years. A Massachusetts Superior Court judge granted preliminary approval to the settlement in Suffolk Superior Court, with a final approval hearing scheduled for December 9, 2026.
 
 The underlying facts, laid out in a federal criminal case, are as grim as any covered here: Cedric Lodge, who managed the Harvard Medical School morgue, stole heads, brains, skin, bones, and other body parts from donated cadavers between 2018 and 2022 and brought them to his home in New Hampshire, where he sold them to buyers connected to a broader interstate network trafficking in stolen human remains. Lodge was indicted in 2023, fired by Harvard, and pleaded guilty to a single count of interstate transport of stolen human remains; he was sentenced to eight years in prison in December 2024. An initial class estimate put the number of affected donated cadavers at roughly 350 to 400. The civil lawsuits that followed accused Harvard of negligence, negligent hiring and supervision, breach of fiduciary duty, breach of contract, and intentional infliction of emotional distress, arguing the school failed to adequately oversee a program built entirely on people's trust that their bodies, willingly donated to medical education, would be treated with basic dignity.
@@ -4027,6 +4037,10 @@ If a family member's remains may have been affected by this scandal, watch for o
     author: "ScamShield Editorial",
     tags: ["guide", "levoit-vesync-hepa-settlement"],
     sourceUrl: "https://www.classaction.org/news/15m-levoit-air-purifier-settlement-wraps-up-lawsuit-over-hepa-claims",
+    // representative photo — replace with an exact match if found
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Air_Purifier_(Levoit_LV-H133)_(49318569587).jpg?width=1200",
+    coverImageCredit: "Photo: Home Air Quality Guides, CC BY-SA 2.0, via Wikimedia Commons — a Levoit air purifier, the product at issue",
+    coverImagePosition: 50,
     body: `Vesync (US) Corporation, the company behind the popular Levoit brand of home air purifiers, agreed to pay up to $15 million to resolve Sen et al. v. Vesync (US) Corporation (Index No. 510627/2026, Supreme Court of the State of New York), a class action alleging the company oversold what its filters could actually do.
 
 The lawsuit alleged Vesync marketed its Levoit Core and Levoit EverestAir air purifiers, along with their replacement filters, as containing "True HEPA," "HEPA," or "H13 True HEPA" filtration — language that implies compliance with the recognized HEPA standard of capturing at least 99.97 percent of airborne particles at 0.3 microns in size. According to the complaint, independent testing commissioned by plaintiffs' counsel found that the filters that shipped with the devices, and the replacement filters sold separately, did not actually meet that HEPA benchmark, despite the packaging and marketing claims. Vesync has not admitted wrongdoing but agreed to settle rather than continue litigating.
@@ -4043,6 +4057,10 @@ If you bought a Levoit Core or EverestAir air purifier or one of its replacement
     author: "ScamShield Editorial",
     tags: ["guide", "mercedes-benz-diesel-emissions-settlement"],
     sourceUrl: "https://oag.dc.gov/release/attorney-general-schwalb-announces-nearly-150",
+    // representative photo — replace with an exact match if found
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Mercedes-Benz_E_Class_W212_(2009_2013).jpg?width=1200",
+    coverImageCredit: "Photo: nakhon100, CC BY-SA 2.5, via Wikimedia Commons — a Mercedes-Benz E-Class, one model in the affected lineup",
+    coverImagePosition: 50,
     body: `Mercedes-Benz USA, LLC and its German parent, Mercedes-Benz Group AG (formerly Daimler AG), agreed in December 2025 to pay $149,673,750 to settle allegations from a coalition of 50 state attorneys general — 9 of whom led the settlement, with 41 more joining — that the automaker rigged certain diesel vehicles to cheat emissions testing. Mercedes says the deal resolves the last of its remaining U.S. diesel-emissions litigation, but maintains the underlying accusations are unfounded and denies liability.
 
 The states alleged that between 2008 and 2016, Mercedes equipped more than 211,000 diesel passenger cars and vans sold in the U.S. with software that recognized when a vehicle was undergoing an official emissions test and activated full pollution controls only under those conditions, while allowing nitrogen oxide emissions to run well above legal limits during ordinary, real-world driving. The affected vehicles include BlueTEC diesel models across the E-Class, GL-Class, GLE, GLK, ML, R-Class, and S-Class lines, along with Mercedes-Benz and Freightliner Sprinter diesel vans, all marketed to consumers as "clean diesel" options without disclosing the gap between test-bench and on-road emissions.
