@@ -3854,6 +3854,10 @@ Beyond the specific claim, the case is a reminder that a "cash price" advertised
     slug: "glenmark-generic-drug-price-fixing-settlement-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "glenmark-price-fixing-settlement"],
+    // representative photo — replace with an exact match if found
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Terbinafine_pills_(50987795957).png?width=1200",
+    coverImageCredit: "Photo: Ben Schumin (CC BY-SA 2.0) — generic prescription pills; not manufactured by Glenmark",
+    coverImagePosition: 50,
     sourceUrl: "https://www.njoag.gov/attorney-general-davenport-announces-29-6-million-multistate-settlement-with-glenmark-for-widespread-conspiracy-to-overcharge-patients-for-prescriptions-and-suppress-competition/",
     body: `Generic drugs make up roughly 90% of the prescriptions filled in the United States every year, sold on a basic promise: once a brand-name patent expires, competition among manufacturers is supposed to push prices down for everyone. On July 15-16, 2026, a bipartisan coalition of 48 states and territories announced that Glenmark Pharmaceuticals had agreed to pay $29.6 million to settle allegations that, for a decade, that promise was quietly rigged.
 
