@@ -13692,3 +13692,16 @@ International.push(
     country: 'HT',
   },
 );
+
+International.push(
+  {
+    name: 'Michelet Charles Fake Social Media Rental Listing Scam',
+    slug: 'haiti-michelet-charles-rental-listing-scam',
+    description: `Haiti's Police Nationale, through its Southeastern Departmental Judicial Police Service (SDPJ-Sud-Est), arrested Michelet Charles on Friday, September 26, 2025, on fraud charges after he posed as a real estate agent and ran a rental-listing scheme through social media, according to reporting by Le Nouvelliste and Vant Bèf Info. During questioning, Charles admitted to posting fake advertisements on social media for houses available to rent or buy; once an interested party made contact, he directed them to transfer money to a private individual's bank account rather than any legitimate escrow or agency channel. In his last confirmed operation before his arrest, he admitted to collecting $3,500 in cash from a victim for a lease that did not exist, splitting the proceeds with an accomplice he presented to the victim as a property "negotiator." Police recovered multiple U.S. dollar bills and a 500-gourde note as evidence. The Police Nationale d'Haïti said the arrest reflects its ongoing effort to combat fraud schemes that erode public trust, and the case is a reminder to verify a listing agent's identity and never wire a deposit for a property before seeing it and its actual owner in person.`,
+    categorySlug: 'rental-housing',
+    alertLevel: 'medium',
+    sources: ['Le Nouvelliste', 'Vant Bèf Info', "Police Nationale d'Haïti (PNH)"],
+    sourceUrl: 'https://lenouvelliste.com/article/260404/michelet-charles-arrete-pour-escroquerie-bancaire-et-immobiliere',
+    country: 'HT',
+  },
+);
