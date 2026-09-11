@@ -2775,6 +2775,10 @@ If your business has ever run a Google Ads campaign or been contacted by a Googl
     slug: `humanedge-2026-data-breach-guide`,
     author: `ScamShield Editorial`,
     tags: [`guide`, `humanedge-2026-data-breach`],
+    coverImage: `https://commons.wikimedia.org/wiki/Special:FilePath/Ruler_and_laptop_on_a_desk_(Unsplash).jpg?width=1200`,
+    coverImageCredit: `Photo: Oli Dale (CC0)`,
+    coverImagePosition: 50,
+    // representative photo — generic office desk, not HumanEdge's own office; replace with an exact match if found
     sourceUrl: `https://www.mass.gov/doc/2026-1485-humanedge-inc/download`,
     body: `HumanEdge, Inc., a staffing, direct-search, and freelance-placement firm based in White Plains, New York that has operated in the industry for more than 30 years, began notifying people in late August and early September 2026 that a cybersecurity incident earlier in the year had exposed their personal information, including Social Security numbers. According to the company's notification letters, HumanEdge detected unusual activity in its network environment on or around March 18, 2026. What followed was a long investigation: HumanEdge says it didn't complete its review of the affected files — and therefore didn't know whose information was involved or what exactly had been exposed — until August 13, 2026, nearly five months after the intrusion was first detected. The company reported the incident to the Vermont Attorney General's Office on September 2, 2026, and began mailing notification letters to affected individuals around September 1.
 
@@ -2826,6 +2830,10 @@ If you've ever had a Hot Topic, BoxLunch, or Torrid Rewards account, check your 
     slug: `hcf-management-2024-data-breach-guide`,
     author: `ScamShield Editorial`,
     tags: [`guide`, `hcf-management-2024-data-breach`],
+    coverImage: `https://commons.wikimedia.org/wiki/Special:FilePath/Humboldt_House_Rehabilitation_&_Nursing_Center_-_fmr_Niagara_Lutheran_Home_for_the_Invalid_Aged_-_Buffalo,_New_York_-_20230113.jpg?width=1200`,
+    coverImageCredit: `Photo: Andre Carrotflower (CC BY-SA 4.0)`,
+    coverImagePosition: 50,
+    // representative photo — generic nursing home, not an HCF Management facility; replace with an exact match if found
     sourceUrl: `https://www.hipaajournal.com/hcf-management-data-breach/`,
     body: `HCF Management, an Ohio-based operator of 31 skilled nursing, rehabilitation, and long-term care facilities across Ohio and Pennsylvania, disclosed in January 2025 that a ransomware attack the previous fall had exposed the personal and health information of nearly 58,000 residents. HCF says an unauthorized party first got into its network on September 17, 2024, but the intrusion wasn't detected until October 3, and it took until November 19 for investigators to confirm that files containing resident data had actually been copied off the network rather than merely accessed. Notification letters didn't go out to affected individuals until January 9, 2025 — roughly four months after the initial break-in. The Russian-speaking ransomware group RansomHub claimed responsibility and published an estimated 250 gigabytes of stolen files on its dark-web leak site after HCF did not meet its ransom demand.
 
@@ -2840,6 +2848,10 @@ HCF Management is offering complimentary identity theft protection services to i
     slug: `issaqueena-pediatric-dentistry-2025-data-breach-guide`,
     author: `ScamShield Editorial`,
     tags: [`guide`, `issaqueena-pediatric-dentistry-data-breach`],
+    coverImage: `https://commons.wikimedia.org/wiki/Special:FilePath/Dental_Chair.jpg?width=1200`,
+    coverImageCredit: `Photo: Nizil Shah (CC BY-SA 3.0)`,
+    coverImagePosition: 50,
+    // representative photo — generic dental chair, not Issaqueena's own office; replace with an exact match if found
     sourceUrl: `https://www.hipaajournal.com/three-healthcare-providers-ransomware-attacks/`,
     body: `Issaqueena Pediatric Dentistry & Orthodontics, a pediatric dental practice in Seneca, South Carolina, discovered that an unauthorized party had gotten into its computer network sometime between November 9 and 11, 2025. Investigators determined the intruder had been able to access certain files during that window, and on November 24, 2025 the ransomware group Interlock claimed responsibility on its dark-web leak site, saying it had exfiltrated roughly 118 gigabytes of data from the practice. Interlock ultimately posted that data for download on its leak site, the pattern that typically means the ransom demand was not paid.
 
@@ -2892,6 +2904,10 @@ If you've received a notice from Louis Vuitton about any of these incidents, the
     slug: `mon-general-hospital-data-breach-guide`,
     author: `ScamShield Editorial`,
     tags: [`guide`, `mon-general-hospital-data-breach`],
+    coverImage: `https://commons.wikimedia.org/wiki/Special:FilePath/Sgah-exterior-tower.jpg?width=1200`,
+    coverImageCredit: `Photo: Adventist HealthCare (CC0)`,
+    coverImagePosition: 50,
+    // representative photo — generic hospital exterior, not Mon General's own building; replace with an exact match if found
     sourceUrl: `https://www.wdtv.com/2026/07/31/mon-general-hospital-notifies-patients-phishing-attack-potential-data-breach/`,
     body: `Monongalia County General Hospital Company, the Morgantown, West Virginia hospital system known as Mon Health or Mon General, discovered on May 6, 2026 that it had a problem in its email system: a phishing attack had tricked staff into giving up login credentials, letting an unauthorized party into a limited number of employee mailboxes. The hospital says it moved the same day, terminating the unauthorized access and calling in an outside digital-forensics firm to figure out how far the intrusion had actually reached. That investigation, which wrapped up in late June 2026, found the breach stayed confined to email — the hospital's electronic health records system and other network systems were not affected.
 
@@ -2906,6 +2922,10 @@ Mon General is notifying the 2,173 affected patients by mail and offering two ye
     slug: `georgia-heritage-federal-credit-union-2026-data-breach-guide`,
     author: `ScamShield Editorial`,
     tags: [`guide`, `georgia-heritage-federal-credit-union-data-breach`],
+    coverImage: `https://commons.wikimedia.org/wiki/Special:FilePath/Bank_of_the_West_Los_Altos_branch_exterior.jpg?width=1200`,
+    coverImageCredit: `Photo: John McGehjee (CC0)`,
+    coverImagePosition: 50,
+    // representative photo — generic bank branch, not Georgia Heritage FCU's own building; replace with an exact match if found
     sourceUrl: `https://www.cutoday.info/Fresh-Today/Georgia-Heritage-FCU-Discloses-Data-Breach-Affecting-More-Than-43-000-Members`,
     body: `Georgia Heritage Federal Credit Union, a community-chartered credit union in Savannah, Georgia that serves roughly 15,000 members across Chatham, Effingham, and Bryan counties, disclosed in early 2026 that it had suffered a ransomware attack more than a year earlier. The credit union says the intrusion actually occurred on or about January 25, 2025, and was discovered on February 10, 2025, when it moved to secure its network and brought in a third-party cybersecurity firm to investigate. But the letters telling affected people what had happened didn't go out until January 15, 2026 — nearly eleven months after the credit union first knew something was wrong, and roughly a year after the attack itself. Georgia Heritage has said the long gap reflected the time it took a data-mining vendor to comb through the stolen files and determine exactly whose information, and what information, was actually inside them.
 
@@ -2961,6 +2981,10 @@ Because breach settlements reliably draw copycat scams, be skeptical of any call
     slug: `lifepoint-health-2026-vendor-data-breach-guide`,
     author: `ScamShield Editorial`,
     tags: [`guide`, `lifepoint-health-2026-vendor-data-breach`],
+    coverImage: `https://commons.wikimedia.org/wiki/Special:FilePath/Columbia_University_Medical_Center_Milstein_Hospital_Building_entrance.jpg?width=1200`,
+    coverImageCredit: `Photo: Beyond My Ken (CC BY-SA 4.0)`,
+    coverImagePosition: 50,
+    // representative photo — generic hospital entrance, not a LifePoint Health facility; replace with an exact match if found
     sourceUrl: `https://www.hipaajournal.com/data-breach-lifepoint-health-southwest-behavioral-nottingham-village/`,
     body: `LifePoint Health, a healthcare delivery network that operates more than 60 hospital campuses across 28 states along with over 30 rehabilitation and behavioral health hospitals and more than 170 acute rehabilitation units, discovered unauthorized activity inside its network on February 23, 2026. A forensic investigation traced the intrusion to a compromised user account, finding that an unauthorized third party had used it to gain limited access to certain internal databases on February 22, 2026 — access LifePoint says it contained within about 24 hours of discovery.
 
@@ -2996,6 +3020,10 @@ Anyone who suspects a KDDI-linked account has been misused can contact the relev
     slug: `highmark-companies-2026-data-breach-guide`,
     author: `ScamShield Editorial`,
     tags: [`guide`, `highmark-companies-2026-data-breach`],
+    coverImage: `https://commons.wikimedia.org/wiki/Special:FilePath/Boom_lift_crane_on_construction_site.jpg?width=1200`,
+    coverImageCredit: `Photo: CaptainHisDudeness (CC0)`,
+    coverImagePosition: 50,
+    // representative photo — generic construction site, not a Highmark Companies project; replace with an exact match if found
     sourceUrl: `https://highmarkcos.com/wp-content/uploads/2026/04/Highmark-Website-Notice37878108.2.pdf`,
     body: `Highmark Companies, a Savage, Minnesota-based construction and property-services group that operates under six brands — Highmark Builders, Exteriors by Highmark, Restorations by Highmark, Ruby and Suede, Christian Bros Cabinets, and Highmark Home Services — notified customers and employees in the spring of 2026 that a ransomware attack the previous fall had exposed a wide range of their personal and financial records. According to the company's own notice, it first became aware of unauthorized activity on its network on or about November 10, 2025, and roughly ten days later, on November 20, a data-extortion gang known as PLAY claimed responsibility for the intrusion on a dark-web leak site. Highmark Companies says it brought in outside cybersecurity professionals to investigate, and it took until March 30, 2026 — more than four months after the intrusion was first detected — to confirm exactly whose data was affected and what it included. Notification letters didn't go out until April 24, 2026, nearly five and a half months after the breach began.
 
@@ -3046,6 +3074,10 @@ If you've visited, worked for, volunteered with, or donated to LACMA, watch for 
     slug: `merced-union-high-school-district-2025-data-breach-guide`,
     author: `ScamShield Editorial`,
     tags: [`guide`, `merced-union-high-school-district-2025-data-breach`],
+    coverImage: `https://commons.wikimedia.org/wiki/Special:FilePath/School_Computer_Lab.jpg?width=1200`,
+    coverImageCredit: `Photo: HazelGHC (CC BY-SA 3.0)`,
+    coverImagePosition: 50,
+    // representative photo — generic school computer lab, not a Merced Union campus; replace with an exact match if found
     sourceUrl: `https://oag.ca.gov/system/files/CA_Notice_Letter_MUHSD_Final_Redacted.pdf`,
     body: `Merced Union High School District, which operates public high schools across Merced County, California, identified and responded to unauthorized activity on its network on August 12, 2025. According to the district's own notification letter, filed with the California Attorney General, it "immediately secured and remediated the compromise, engaged additional third-party experts, and commenced an investigation" — and notified law enforcement. Beyond that, the letter is notably thin on detail: it does not say how the intruder got in, how long they had access before being detected, or how many students, parents, and staff were affected. What it does confirm is that a third-party digital forensic review found personal information "in files subject to unauthorized activity."
 
@@ -3060,6 +3092,10 @@ If you're a parent, guardian, current student, or staff member connected to Merc
     slug: `may-trucking-company-2026-data-breach-guide`,
     author: `ScamShield Editorial`,
     tags: [`guide`, `may-trucking-company-2026-data-breach`],
+    coverImage: `https://commons.wikimedia.org/wiki/Special:FilePath/Certco_Trailer_Semi_Truck.jpg?width=1200`,
+    coverImageCredit: `Photo: Tony Webster (CC BY 2.0)`,
+    coverImagePosition: 50,
+    // representative photo — generic semi truck, not a May Trucking vehicle; replace with an exact match if found
     sourceUrl: `https://oag.ca.gov/system/files/May%20Trucking%20-%20Regulatory%20Report%20Letter%20%28CA%29_0.pdf`,
     body: `May Trucking Company, a long-haul freight carrier headquartered in Salem, Oregon, detected suspicious activity inside its network on June 21, 2026, and brought in independent cybersecurity specialists to investigate. The company's own notification letter, filed with the California Attorney General, says the investigation determined that files had been taken without authorization at the time the intrusion was discovered, and that on July 23, 2026 — about a month later — the company confirmed that some of the stolen files contained an individual's personal information. May Trucking then engaged a third-party vendor to send notification letters, dated August 13, 2026, roughly seven weeks after that confirmation and nearly two months after the intrusion itself.
 
@@ -3074,6 +3110,10 @@ If you currently work, formerly worked, or contracted for May Trucking Company, 
     slug: "knowledge-research-center-2026-data-breach-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "knowledge-research-center-2026-data-breach"],
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Researchers_in_laboratory.jpg?width=1200",
+    coverImageCredit: "Photo: Rhoda Baer / National Cancer Institute (public domain)",
+    coverImagePosition: 50,
+    // representative photo — generic clinical research lab, not Knowledge Research Center's own facility; replace with an exact match if found
     body: `Knowledge Research Center is a clinical research organization — the kind of company patients rarely deal with directly, but that a doctor's office or hospital may quietly share information with to check whether a patient is eligible for a clinical trial. In a notice dated September 2, 2026, the company told affected individuals that their personal information had been compromised not through a hack, but through a former employee.
 
 According to the notification letter, Knowledge Research Center determined on August 3, 2026 that a former employee had disclosed certain company files outside the organization in an unauthorized manner on July 8, 2026. The company says its investigation found no evidence that its internal network or systems were accessed by an outside attacker — this was a case of an insider taking data with them, not a break-in. The information involved could include a person's name, date of birth, gender, telephone number, email address, and, for some individuals, certain medical diagnoses. Knowledge Research Center says Social Security numbers and financial account information were not part of what was exposed, and it says it is not aware of any actual or attempted identity theft resulting from the incident so far. The company is offering affected individuals 12 months of free identity monitoring services through Kroll.
@@ -3088,6 +3128,10 @@ If you receive a notice from Knowledge Research Center, enroll in the free Kroll
     slug: "integrated-specialty-coverages-2026-data-breach-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "integrated-specialty-coverages-2026-data-breach"],
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Laptop_on_a_neat_desk_(Unsplash).jpg?width=1200",
+    coverImageCredit: "Photo: Norbert Levajsics (CC0)",
+    coverImagePosition: 50,
+    // representative photo — generic office desk, not Integrated Specialty Coverages' own office; replace with an exact match if found
     body: `Integrated Specialty Coverages, LLC (ISC) is an insurance program administrator — a company that designs and underwrites specialized insurance products, working behind the scenes with employers, insurance companies, and brokers rather than selling directly to the public. That's exactly why the breach ISC disclosed in an August 27, 2026 notification letter is a good illustration of a risk many people don't realize applies to them: your information may have landed with ISC simply because your employer, an insurer, or a broker submitted it on your behalf as part of an insurance application or claim, with no direct relationship between you and the company at all.
 
 According to the letter, ISC detected suspicious automated access activity tied to a single account on a third-party cloud platform the company uses for electronic document execution and management — the kind of service used to send and sign digital paperwork like insurance applications and claim forms. ISC's investigation determined that an unauthorized party accessed a single ISC workspace on that platform between June 8 and June 11, 2026, and downloaded certain files stored there. ISC says the incident was confined to that third-party vendor environment and that its own internal network and core systems were not compromised. The exposed files contained a name in combination with other personal information; ISC has said it has no evidence so far that the data has been misused, and it is offering affected individuals a complimentary membership in Experian's IdentityWorks credit and identity monitoring product. In its filing with California regulators, ISC said the incident affected 69 Rhode Island residents, among other states' residents whose information passed through the platform.
@@ -3102,6 +3146,10 @@ If you receive a notice from Integrated Specialty Coverages, enroll in the free 
     slug: "health-trust-fass-2025-data-breach-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "health-trust-fass-2025-data-breach"],
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Ruler_and_laptop_on_a_desk_(Unsplash).jpg?width=1200",
+    coverImageCredit: "Photo: Oli Dale (CC0)",
+    coverImagePosition: 50,
+    // representative photo — generic office desk, not Health Trust's own office; replace with an exact match if found
     sourceUrl: "https://oag.ca.gov/ecrime/databreach/reports/sb24-628727",
     body: `The Health Trust is a San Jose, California nonprofit operating foundation that has spent roughly three decades funding community health, food-security, and economic-opportunity programs across Silicon Valley. It doesn't hold patient records or run a hospital — but like many nonprofits, it relies on a smaller subsidiary, Financial Administrative Support Services (FASS), to handle its finance and accounting work, and it was FASS's systems that a ransomware gang broke into.
 
@@ -3116,6 +3164,10 @@ That delay is exactly why it's worth treating a notification letter as current i
     slug: "kern-psychiatric-health-wellness-2026-data-breach-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "kern-psychiatric-2026-data-breach"],
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Snoezelen_Room.jpg?width=1200",
+    coverImageCredit: "Photo: Daniel Forest (CC0)",
+    coverImagePosition: 50,
+    // representative photo — generic therapeutic/mental-health room, not Kern Psychiatric's own facility; replace with an exact match if found
     sourceUrl: "https://oag.ca.gov/ecrime/databreach/reports/sb24-628704",
     body: `Kern Psychiatric Health and Wellness Center, Inc. ("PWC") is a psychiatric and behavioral health practice in Bakersfield, California. Like many small medical practices, PWC doesn't run its own back-office computer systems — it outsources that work to a management company, Genesis Healthcare Management, and it was a break-in at Genesis that ended up exposing PWC patients' records.
 
@@ -3130,6 +3182,10 @@ That gap is exactly what makes post-breach phishing effective, and it's worth tr
     slug: "madera-community-hospital-2026-data-breach-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "madera-community-hospital-2026-data-breach"],
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/CMC_Hospital_building.jpg?width=1200",
+    coverImageCredit: "Photo: Benison P Baby (CC BY-SA 4.0)",
+    coverImagePosition: 50,
+    // representative photo — generic hospital building, not Madera Community Hospital's own; replace with an exact match if found
     body: `Madera Community Hospital, a not-for-profit hospital serving Madera County in California's Central Valley, notified more than 150,000 people in July 2026 that their personal, financial, and medical information had been stolen in a cyberattack — one that struck the hospital barely two months after it reopened following a two-year closure. Madera had shut its doors entirely in January 2023 after a financial crisis and bankruptcy filing left the county's only acute-care hospital unable to keep operating, forcing patients to drive or take longer ambulance rides to Fresno for care. A new owner, American Advanced Management, and a state-backed $57 million loan brought the hospital back to life in March 2025. Hackers got into its network that May, just as the hospital was still finding its footing again.
 
 According to the hospital, an unauthorized party accessed its systems for roughly two days in May 2025 and likely copied files out during that window. Working out exactly what had been taken and confirming accurate contact information for everyone affected took nearly a year: Madera received the results of its data review in April 2026 and didn't begin mailing notification letters until mid-July 2026, reporting to the U.S. Department of Health and Human Services that 150,810 individuals were affected. The exposed information varies by person but includes names, contact details, dates of birth, Social Security numbers, online account credentials, financial account information, treatment and health insurance data, and, for some patients, limited biometric information.
@@ -3146,6 +3202,10 @@ If you were a patient at Madera Community Hospital, at any point up to and inclu
     slug: "humboldt-merchant-services-ftc-settlement-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "humboldt-merchant-services-ftc-settlement"],
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Credit_card_terminal.jpg?width=1200",
+    coverImageCredit: "Photo: Izcool (public domain)",
+    coverImagePosition: 50,
+    // representative photo — generic card payment terminal, not Humboldt Merchant Services' own hardware; replace with an exact match if found
     body: `On September 8, 2026, the Federal Trade Commission announced a $12 million settlement with Humboldt Merchant Services, a Eureka, California-based payment processor that has spent more than three decades specializing in "high-risk" and "hard-to-place" merchants — businesses other processors won't touch. According to the FTC's complaint, that specialty came with a dark side: Humboldt opened and kept running payment accounts for more than 1,000 merchants the agency says were shell companies acting as fronts for consumer fraud, including the operation behind Legion Media, an unauthorized-billing scheme the FTC shut down in 2024 after it took in more than $200 million from consumers nationwide.
 
 The FTC's complaint lays out a payment processor that, in the agency's words, knew or "consciously avoided knowing" who it was really doing business with. Investigators say Humboldt processed more than $100 million through these sham merchant accounts between 2021 and 2023 alone, kept the accounts open even after they racked up chargeback rates almost ten times higher than what credit card networks consider excessive — a number that would normally get a merchant account shut down fast — and, rather than fixing the problem, allegedly placed some of these high-risk accounts under lower-risk bank identification numbers (BINs) to push more transactions through and dodge extra scrutiny. "Humboldt was processing payments for companies despite red flags indicating they were scamming consumers," said Katherine White, Deputy Director of the FTC's Bureau of Consumer Protection, in announcing the case. Under the proposed order, filed in the U.S. District Court for the Eastern District of Michigan, Humboldt is permanently banned from processing payments for shell companies, merchants already flagged on credit-card-network high-risk lists, merchants already facing law enforcement action, or e-commerce businesses whose only listed address is a third-party mailbox service.
@@ -3182,6 +3242,10 @@ There are concrete steps worth taking regardless of whether Kochava specifically
     slug: "illuminate-education-ftc-settlement-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "illuminate-education-ftc-settlement"],
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/School_Computer_Lab.jpg?width=1200",
+    coverImageCredit: "Photo: HazelGHC (CC BY-SA 3.0)",
+    coverImagePosition: 50,
+    // representative photo — generic school computer lab, not an Illuminate Education customer district; replace with an exact match if found
     sourceUrl: "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-gives-final-approval-order-against-illuminate-settling-allegations-it-failed-secure-students",
     body: `Illuminate Education, Inc., an education-technology company whose cloud-based platforms schools and districts nationwide use to track student grades, attendance, and behavioral and disciplinary records, is the subject of a final Federal Trade Commission order approved by a unanimous 2-0 Commission vote on June 5, 2026. The order resolves a complaint over a breach the FTC says traced directly back to security failures the company knew about and did not fix.
 
@@ -3196,6 +3260,10 @@ If your child's school uses Illuminate Education's products — often marketed u
     slug: "manchester-city-nissan-ftc-settlement-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "manchester-city-nissan-ftc-settlement"],
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Car_Dealer.jpg?width=1200",
+    coverImageCredit: "Photo: Buster Lang (CC BY-SA 4.0)",
+    coverImagePosition: 50,
+    // representative photo — generic car dealership, not Manchester City Nissan's own lot; replace with an exact match if found
     sourceUrl: "https://www.ftc.gov/news-events/news/press-releases/2026/08/ftc-connecticut-secure-4-million-settlement-manchester-city-nissan-over-deceptive-fees-allegations",
     body: `In August 2026, the Federal Trade Commission and the Connecticut Attorney General secured a $4 million settlement with Chase Nissan LLC, which does business as Manchester City Nissan, resolving a case first brought against the dealership in January 2024 over what regulators described as a systematic pattern of hidden and unauthorized fees charged to car buyers. The stipulated final order was filed in the U.S. District Court for the District of Connecticut and approved by a unanimous 2-0 Commission vote.
 
@@ -3230,6 +3298,10 @@ This case is a lawsuit, not a finalized settlement, so no penalty or consent ord
     slug: "kovack-financial-2026-data-breach-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "kovack-financial-2026-data-breach"],
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Ruler_and_laptop_on_a_desk_(Unsplash).jpg?width=1200",
+    coverImageCredit: "Photo: Oli Dale (CC0)",
+    coverImagePosition: 50,
+    // representative photo — generic office desk, not Kovack Financial's own office; replace with an exact match if found
     sourceUrl: "https://www.classaction.org/data-breach-lawsuits/kovack-financial-august-2026",
     body: `Kovack Financial, LLC, a Fort Lauderdale, Florida-based firm that operates as the corporate parent of broker-dealer Kovack Securities and registered investment advisor Kovack Advisors — the back-office infrastructure behind a nationwide network of independent financial advisors — began mailing data breach notification letters on August 10 and 11, 2026, telling clients that a hacker had been inside its network for nearly three weeks the year before. According to the company's own filings with state attorneys general, an unauthorized party accessed files on Kovack's systems between August 8 and August 27, 2025. Kovack says it noticed the suspicious activity almost immediately, around August 28, 2025, and secured its network at that point — but it then took nearly eleven more months, until July 16, 2026, for the company's investigation to actually determine whose personal information had been sitting in the files the intruder reached. Filings with the California, Massachusetts, Vermont, and Washington attorneys general put the confirmed total at 109,506 individuals nationwide, though the state-by-state breakdowns reported so far — 3,301 in Texas, 1,713 in Massachusetts, 657 in Washington, and 243 in Vermont — account for only a small fraction of that national number, since most affected people live in states with no reporting threshold low enough to require an individual state filing.
 
@@ -3244,6 +3316,10 @@ If you've received a letter from Kovack Financial, or your financial advisor ope
     slug: "handy-technologies-ftc-settlement-gig-worker-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "handy-technologies-ftc-settlement"],
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Janitor's_bucket_with_mop.jpg?width=1200",
+    coverImageCredit: "Photo: Husond (CC BY-SA 3.0)",
+    coverImagePosition: 50,
+    // representative photo — generic cleaning supplies, evoking the gig cleaning work at issue; replace with an exact match if found
     sourceUrl: "https://www.ftc.gov/news-events/news/press-releases/2025/01/ftc-new-york-attorney-general-take-action-against-handy-technologies-deceiving-workers-about",
     body: `On January 7, 2025, the Federal Trade Commission and the New York Attorney General sued Handy Technologies, Inc., the operator of a gig-economy app that connects independent workers with customers who need handyman, furniture-assembly, cleaning, and lawn-care jobs done, alleging the company built its entire pitch to workers on numbers almost nobody actually earned. Handy — which merged into home-services marketplace Angi in 2024 and now operates its jobs under the Angi Services brand — settled the case for $2.95 million, and the FTC finished mailing refund checks to affected workers in the summer of 2026, more than a year and a half after the original complaint.
 
