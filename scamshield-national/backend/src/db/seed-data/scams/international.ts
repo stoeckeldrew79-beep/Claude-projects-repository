@@ -11552,6 +11552,16 @@ International.push(
     sourceUrl: 'https://gabonmailinfos.com/faux-agents-cnss-dgcc-et-mairie-la-dgr-demantele-un-duo-darnaqueurs/',
     country: 'GA',
   },
+  {
+    name: 'Gabon Fake Eramet Comilog Job Offer Scam',
+    slug: 'gabon-eramet-comilog-fake-job-offer-scam',
+    description: `On September 5, 2025, Eramet Comilog, Gabon's major manganese-mining company, publicly warned job seekers about fraudsters distributing fake job postings under its name and visual identity across social media and messaging platforms. The fraudulent announcements, styled to look like genuine Comilog vacancy notices, circulated among applicants hoping to land a position at the company and, consistent with the pattern seen in similar impersonation scams targeting other major Gabonese employers, typically pressure candidates into paying "processing," "training," or "guarantee" fees to secure an interview or job placement that does not exist. Comilog stated it had identified "tentatives d'escroquerie liées à la diffusion de fausses offres d'emploi utilisant frauduleusement son nom" (fraud attempts involving the distribution of fake job offers fraudulently using its name) and declared that any recruitment announcement circulating outside its official channels was "totalement frauduleuse et dépourvue de toute validité" (entirely fraudulent and without any validity). The company directed applicants to verify openings only through its official recruitment channel and said it reserved the right to pursue legal action against those responsible for or complicit in the scheme. Comilog's warning came amid a broader wave of similar fake-recruitment scams impersonating other prominent employers operating in Gabon, including CECA-GADIS and Assala Gabon, reflecting a recurring tactic of exploiting jobseekers' desperation in a country with high youth unemployment.`,
+    categorySlug: 'employment-scams',
+    alertLevel: 'medium',
+    sources: ['Eramet Comilog', 'Gabonreview'],
+    sourceUrl: 'https://www.gabonreview.com/fausses-offres-demploi-eramet-comilog-alerte-et-rappelle-sa-procedure-officielle-de-recrutement/',
+    country: 'GA',
+  },
 );
 
 International.push(
