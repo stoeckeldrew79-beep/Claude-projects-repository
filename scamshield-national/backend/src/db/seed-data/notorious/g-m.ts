@@ -5766,6 +5766,9 @@ NotoriousGM.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/opa/pr/virginia-man-convicted-investor-and-bankruptcy-fraud-scheme',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Albert_V._Bryan_Federal_Courthouse_2019.jpg?width=1200',
+    coverImageCredit: 'Photo: Antony-22, Wikimedia Commons (CC BY-SA 4.0) — the Albert V. Bryan U.S. Courthouse in Alexandria, Virginia, where a jury convicted Jihoon Park',
     body: `Jihoon Park, a 52-year-old resident of Chantilly, Virginia, spent years positioning himself within his community as a trustworthy investment advisor, leaning on personal relationships and, according to federal prosecutors, claims tied to a past affiliation with a major financial institution. He told people he could put their life savings and retirement money into "safe investments with high returns." Instead, prosecutors say, he simply kept the money for himself — spending it on real estate and cryptocurrency rather than investing it on his victims' behalf. Losses to his victims topped $2.5 million.
 
 The fraud might have stayed a private financial dispute if not for what happened next. When one victim sued him to try to recover the money, prosecutors say Park transferred assets to his spouse and concealed millions of dollars in cryptocurrency holdings, then filed for personal bankruptcy — falsely declaring, under penalty of perjury, that he held a grand total of $0.34 in financial assets and no cryptocurrency at all. The bankruptcy filing amounted to a second fraud layered on top of the first, this one aimed directly at a federal court rather than at an individual investor.
