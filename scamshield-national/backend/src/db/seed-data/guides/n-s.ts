@@ -3415,6 +3415,10 @@ If you've ever been a patient at Downey, Good Samaritan, or Whittier Hospital, o
     slug: "renkim-corporation-2025-data-breach-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "renkim-corporation-2025-data-breach"],
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Southgate_Municipal_Complex_(Southgate,_MI).jpg?width=1200",
+    coverImageCredit: "Photo: Notorious4life, CC0, via Wikimedia Commons — the municipal complex in Southgate, Michigan, where Renkim Corporation is based",
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: "https://www.prnewswire.com/news-releases/renkim-notice-of-data-security-incident-302471143.html",
     body: `Renkim Corporation is not a name most people would recognize, because it isn't a company that deals with the public directly. Based in Southgate, Michigan, Renkim provides print, mail, text, and electronic-mail solutions to other businesses — the kind of vendor a hospital, health plan, or clinic hires to physically print and send patient statements, billing notices, and appointment reminders rather than building that infrastructure itself. That behind-the-scenes role is exactly what put patient data from Renkim's healthcare clients at risk when the company's own network was breached.
 
