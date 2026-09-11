@@ -2854,6 +2854,10 @@ Issaqueena said it secured its network, engaged outside cybersecurity specialist
     slug: "gravy-analytics-2025-location-data-breach-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "gravy-analytics-2025-data-breach"],
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Smartphone_Use.jpg?width=1200",
+    coverImageCredit: "Photo: Océanos y datos (CC0)",
+    coverImagePosition: 50,
+    // representative photo — generic smartphone use, evoking the apps that harvest location data; replace with an exact match if found
     body: `Gravy Analytics is a location data broker that, together with its subsidiary Venntel, collects precise GPS coordinates harvested from the software development kits embedded in ordinary smartphone apps — everything from dating and fitness apps to games and weather apps — and resells that location history to advertisers and, through Venntel, to U.S. government agencies including the FBI, DHS, and IRS. In early January 2025, Gravy discovered unauthorized access to its Amazon Web Services cloud storage, and within days a hacker began posting samples on a Russian-language cybercrime forum claiming to have stolen roughly 17 terabytes of the company's location data.
 
 The leaked samples reportedly included tens of millions of individual location data points, each tied to a mobile advertising ID rather than a name, but precise enough to show exactly where a specific phone — and the person carrying it — had been. Researchers who reviewed the data found location pings clustered around highly sensitive places: military bases and intelligence facilities worldwide, the White House, the Vatican, and gay dating and hookup apps whose users' movements could reveal their sexual orientation or gender identity in countries where that disclosure carries real danger. Because the data comes from the advertising pipelines built into ordinary apps, matching an advertising ID back to a real person is often possible simply by cross-referencing a phone's overnight location (usually a home address) with public records.
@@ -2937,6 +2941,10 @@ Travelers with questions about whether their information was affected should con
     slug: `globe-life-american-income-life-2024-data-breach-settlement-guide`,
     author: `ScamShield Editorial`,
     tags: [`guide`, `globe-life-american-income-life-data-breach-settlement`],
+    coverImage: `https://commons.wikimedia.org/wiki/Special:FilePath/Arlington_June_2020_5_(Globe_Life_Field).jpg?width=1200`,
+    coverImageCredit: `Photo: Michael Barera (CC BY-SA 4.0)`,
+    coverImagePosition: 50,
+    // representative photo — Globe Life Field, the Arlington, Texas stadium named for Globe Life, not the insurer's own office; replace with an exact match if found
     sourceUrl: `https://www.classaction.org/news/up-to-3.4m-american-income-life-insurance-globe-life-settlement-resolves-data-breach-class-action-lawsuit`,
     body: `Globe Life Inc., the McKinney, Texas-based insurance holding company that says it issues more life insurance policies than any other insurer in the country, disclosed in an October 2024 SEC filing that one of its subsidiaries had a data problem with an unusual origin story: on October 17, 2024, the company said it had received communications from an unknown party who claimed to have obtained sensitive company and customer data and was seeking a payment in exchange for not disclosing it. That extortion attempt led Globe Life to investigate, and the resulting inquiry traced unauthorized access to its systems back to on or around October 2, 2024, at its subsidiary American Income Life Insurance Company — a worksite-marketing insurer that sells supplemental life and health coverage largely through payroll deduction to union members, credit union customers, and other member associations.
 
@@ -3004,6 +3012,9 @@ Anyone who suspects their information from this breach has already been misused 
     slug: `meta-instagram-high-touch-support-breach-2026-guide`,
     author: `ScamShield Editorial`,
     tags: [`guide`, `meta-instagram-high-touch-support-breach-2026`],
+    coverImage: `https://commons.wikimedia.org/wiki/Special:FilePath/Meta_Platforms_Headquarters_Menlo_Park_California.jpg?width=1200`,
+    coverImageCredit: `Photo: LPS.1 (CC0)`,
+    coverImagePosition: 50,
     sourceUrl: `https://www.securityweek.com/meta-says-20000-instagram-accounts-hacked-via-ai-tool-abuse/`,
     body: `Meta disclosed to state attorneys general in June 2026 that a flaw in "High Touch Support" (HTS), an AI-assisted tool Instagram uses to help people recover locked or hacked accounts, had let outsiders take over accounts that were never actually locked or hacked in the first place. According to Meta's own account of the incident, the vulnerability was actively exploited starting April 17, 2026, and wasn't discovered until May 31, 2026 — more than six weeks during which attackers could abuse it. Meta reported the incident to the California, Maine, Nebraska, and Vermont attorneys general in early June and began notifying affected users on June 19, 2026. In total, Meta says 20,225 Instagram accounts were compromised, though it noted the true number could turn out to be lower once its review is complete.
 
@@ -3151,6 +3162,10 @@ The practical defense doesn't depend on knowing which processor is behind a give
     slug: "kochava-ftc-location-data-settlement-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "kochava-ftc-location-data-settlement"],
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Smartphone_Use.jpg?width=1200",
+    coverImageCredit: "Photo: Océanos y datos (CC0)",
+    coverImagePosition: 50,
+    // representative photo — generic smartphone use, evoking the apps whose location data Kochava resold; replace with an exact match if found
     body: `Kochava, an Idaho-based data broker, spent years buying and reselling something most of its customers never saw directly: a stream of precise location data pulled from hundreds of millions of mobile devices, tied back to advertising IDs that could in practice be traced to individual people. The Federal Trade Commission first sued the company in August 2022, alleging that Kochava's data products didn't just show general foot-traffic patterns — they could reveal a specific device's visits to a reproductive health clinic, a place of worship, a domestic violence shelter, or an addiction-treatment center, and then let a buyer follow that same device home. After nearly four years of litigation, including a partial dismissal that forced the FTC to refile a stronger complaint, the agency and Kochava's subsidiary Collective Data Solutions announced a settlement on February 27, 2026, finalized by a unanimous Commission vote on May 4, 2026 in the U.S. District Court for the District of Idaho.
 
 The FTC's core allegation was that Kochava sold this data with essentially no restriction on who could buy it or what they could do with it. According to the complaint, a customer with no special credentials could purchase a data feed, cross-reference a device's nightly location against public records, and unmask a real person's home address, workplace, and the sensitive places they visited in between — all without that person ever having agreed to anything more than clicking through an app's generic privacy policy, if that app disclosed the practice at all. The FTC argued this wasn't a hypothetical risk: precise, unmasked visits to a reproductive health clinic or a domestic violence shelter can expose a person to real-world harm, from harassment to violence, if the data ends up in the wrong hands, and a person has no practical way to know which of the dozens of apps on their phone are quietly feeding a location broker like Kochava in the background.
@@ -3197,6 +3212,10 @@ If you're buying a car, ask for an itemized, out-the-door price in writing befor
     slug: "hims-hers-ftc-lawsuit-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "hims-hers-ftc-lawsuit"],
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Taking_prescription.jpg?width=1200",
+    coverImageCredit: "Photo: Beendy234 (CC0)",
+    coverImagePosition: 50,
+    // representative photo — generic prescription medication, evoking the telehealth subscriptions at issue; replace with an exact match if found
     sourceUrl: "https://www.ftc.gov/news-events/news/press-releases/2026/07/ftc-states-act-against-hims-hers-deceptive-unlawful-privacy-practices",
     body: `On July 29, 2026, the Federal Trade Commission, joined by the attorneys general of California and Utah, sued telehealth company Hims & Hers Health, Inc. and several of its subsidiaries, alleging the company deceived customers about how it handled their sensitive medical information and about how its subscriptions and billing actually work. The lawsuit, filed in federal court, follows what the FTC says was a nearly three-year investigation; Hims & Hers has said it disagrees with the allegations and intends to fight the case.
 

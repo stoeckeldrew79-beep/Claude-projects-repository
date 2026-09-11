@@ -5908,6 +5908,10 @@ If you have ever had dental coverage through Delta Dental of Virginia, watch for
     slug: `fcc-one-to-one-consent-rule-vacated-guide`,
     author: `ScamShield Editorial`,
     tags: [`guide`, `fcc-one-to-one-consent-rule-vacated`],
+    coverImage: `https://commons.wikimedia.org/wiki/Special:FilePath/Cellphone_(Unsplash).jpg?width=1200`,
+    coverImageCredit: `Photo: Rodion Kutsaev (CC0)`,
+    coverImagePosition: 50,
+    // representative photo — generic phone, evoking the robocalls/robotexts at issue; replace with an exact match if found
     sourceUrl: `https://www.daypitney.com/eleventh-circuit-vacates-fccs-one-to-one-consent-rule`,
     body: `For more than a decade, one of the most common ways consumers ended up buried under robocalls and robotexts from businesses they'd never heard of traced back to a single checkbox on a "comparison shopping" website — the kind of page that promises to find you the best rate on a car loan, an auto warranty, or health insurance if you just fill in your name and phone number. Buried in the fine print beneath that form was often a single consent disclosure that, once checked, was treated as permission for dozens, sometimes hundreds, of unrelated sellers and lead-buying marketers to call or text the number submitted — a practice regulators and plaintiffs' lawyers came to call the "lead generator loophole." The Federal Communications Commission moved to close it in December 2023, adopting a "one-to-one consent" rule under the Telephone Consumer Protection Act that would have required a consumer's consent to cover exactly one seller at a time, with any resulting calls or texts required to stay "logically and topically related" to whatever the consumer had actually signed up for.
 
@@ -5922,6 +5926,10 @@ What the reversal means in practice is that the fine print on any site asking fo
     slug: `community-health-center-inc-connecticut-2025-data-breach-guide`,
     author: `ScamShield Editorial`,
     tags: [`guide`, `community-health-center-inc-connecticut-2025-data-breach`],
+    coverImage: `https://commons.wikimedia.org/wiki/Special:FilePath/Downtown_Middletown,_CT.jpg?width=1200`,
+    coverImageCredit: `Photo: Daniel Case (CC BY-SA 3.0)`,
+    coverImagePosition: 50,
+    // representative photo — downtown Middletown, Connecticut, where CHC is headquartered; replace with an exact match if found
     sourceUrl: `https://www.hipaajournal.com/community-health-center-data-breach/`,
     body: `Community Health Center, Inc. (CHC), a nonprofit healthcare provider headquartered in Middletown, Connecticut that operates dozens of clinics and is one of the largest federally qualified health centers in New England, disclosed in early February 2025 that a criminal hacker had broken into its computer network and copied out patient data. According to the timeline CHC later gave regulators, the unauthorized access actually began on October 14, 2024, but the organization didn't identify the intrusion until January 2, 2025 — a gap of more than two and a half months during which the intruder had unnoticed access to CHC's systems.
 
@@ -5957,6 +5965,9 @@ If you have a Cisco.com account, treat any unsolicited call, text, or email that
     slug: `ftc-social-media-scams-report-2026-guide`,
     author: `ScamShield Editorial`,
     tags: [`guide`, `ftc-social-media-scams-2026`],
+    coverImage: `https://commons.wikimedia.org/wiki/Special:FilePath/Social_Media_App_Icons_On_The_Screen_of_A_Smartphone.jpg?width=1200`,
+    coverImageCredit: `Photo: Mike MacKenzie (CC BY 2.0)`,
+    coverImagePosition: 50,
     sourceUrl: `https://www.ftc.gov/news-events/news/press-releases/2026/04/new-ftc-data-show-people-have-lost-billions-social-media-scams`,
     body: `In April 2026, the Federal Trade Commission released a new breakdown of consumer fraud reports showing just how dominant social media has become as a starting point for scams. In 2025, nearly 30 percent of people who told the FTC they'd lost money to a scam said it began on a social media platform — and the dollar figure behind that number was $2.1 billion, an eightfold increase from what the agency recorded in 2020. For the first time, the FTC's data shows a single platform, Facebook, generating more reported dollar losses on its own than phone text messages and email scams combined, with WhatsApp and Instagram rounding out the next two spots.
 
@@ -5990,6 +6001,10 @@ If you were a Frontier customer as of April 2024 and never received a breach not
     slug: `fiesta-insurance-franchise-corporation-2026-data-breach-guide`,
     author: `ScamShield Editorial`,
     tags: [`guide`, `fiesta-insurance-data-breach`],
+    coverImage: `https://commons.wikimedia.org/wiki/Special:FilePath/Star_Insurance_Agency,_Remerton.JPG?width=1200`,
+    coverImageCredit: `Photo: Michael Rivera (CC BY-SA 3.0)`,
+    coverImagePosition: 50,
+    // representative photo — generic small insurance agency storefront, not Fiesta Insurance; replace with an exact match if found
     sourceUrl: `https://www.insurancebusinessmag.com/us/news/cyber/fiesta-insurance-took-a-year-to-identify-breached-customer-data--report-583647.aspx`,
     body: `Fiesta Insurance Franchise Corporation, a Las Vegas-based franchisor that sells auto, home, renters, and commercial insurance alongside tax-preparation services through more than 220 storefront locations, discovered on June 9, 2025 that unauthorized activity had occurred somewhere inside its network. What happened next is the part that stands out: rather than working out quickly whose data was affected, the company spent more than a year sorting through the files an intruder had potentially accessed, only reaching a determination on June 26, 2026 — over 12 months after the intrusion was first detected. Notification letters didn't start going out to affected customers until July 13, 2026, more than 13 months after Fiesta first knew something was wrong.
 
@@ -6023,6 +6038,9 @@ Air France and KLM notified law enforcement and reported the incident to France'
     slug: `docusign-e-signature-phishing-scam-guide`,
     author: `ScamShield Editorial`,
     tags: [`guide`, `docusign-e-signature-phishing-scam`],
+    coverImage: `https://commons.wikimedia.org/wiki/Special:FilePath/DocuSignHeadquarters.jpg?width=1200`,
+    coverImageCredit: `Photo: Coolcaesar (CC BY-SA 4.0)`,
+    coverImagePosition: 50,
     sourceUrl: `https://blog.checkpoint.com/email-security/40000-phishing-emails-disguised-as-sharepoint-and-and-e-signing-services-a-new-wave-of-finance-themed-scams/`,
     body: `DocuSign has become one of the most impersonated brands in phishing precisely because it's become so ordinary: a lease, a loan document, an employment offer, a home closing, or a business contract routinely arrives as a "please review and sign" email these days, and almost nobody stops to question one more of them landing in their inbox. Security researchers at Check Point tracked exactly how far that trust gets abused when they identified a single campaign, running for about two weeks in December 2025, that sent more than 40,000 phishing emails impersonating DocuSign and Microsoft SharePoint e-signing notifications to roughly 6,100 organizations worldwide. The United States absorbed the overwhelming majority of the volume — more than 34,000 of the emails — with the rest spread across Europe, Canada, the Middle East, Asia, and Australia, hitting consulting, technology, and construction and real-estate firms hardest, alongside healthcare, finance, manufacturing, and government targets.
 
@@ -6072,6 +6090,10 @@ If you financed a vehicle through a dealership at any point in 2025, or receive 
     slug: `bridgepay-ransomware-attack-2026-guide`,
     author: `ScamShield Editorial`,
     tags: [`guide`, `bridgepay-ransomware-attack-2026`],
+    coverImage: `https://commons.wikimedia.org/wiki/Special:FilePath/Credit_card_terminal.jpg?width=1200`,
+    coverImageCredit: `Photo: Izcool (public domain)`,
+    coverImagePosition: 50,
+    // representative photo — generic card payment terminal, not BridgePay's own hardware; replace with an exact match if found
     sourceUrl: `https://therecord.media/payment-tech-provider-texas-florida-govs-ransomware-attack`,
     body: `BridgePay Network Solutions is not a household name, but the Florida-based company sits in the middle of an enormous number of everyday transactions: as a payment gateway processing roughly 40 million transactions a month, it handles the behind-the-scenes card processing for restaurants, retailers, and — critically — the online bill-pay portals of dozens of local governments and municipal utilities. On Friday, February 6, 2026, that infrastructure went dark. BridgePay's systems suffered a system-wide outage that the company confirmed days later was caused by a ransomware attack, and because so many unrelated businesses and city governments depended on the same gateway, the fallout showed up simultaneously in places that had no idea they shared a vendor.
 
@@ -6104,6 +6126,10 @@ If you've paid a bill by searching for the company's name online rather than typ
     slug: `elixir-medical-2026-data-breach-guide`,
     author: `ScamShield Editorial`,
     tags: [`guide`, `elixir-medical-2026-data-breach`],
+    coverImage: `https://commons.wikimedia.org/wiki/Special:FilePath/Clean_room.jpg?width=1200`,
+    coverImageCredit: `Photo: NASA Glenn Research Center (public domain)`,
+    coverImagePosition: 50,
+    // representative photo — generic cleanroom manufacturing environment, not Elixir Medical's own facility; replace with an exact match if found
     sourceUrl: `https://oag.ca.gov/ecrime/databreach/reports/sb24-629325`,
     body: `Elixir Medical Corporation, a privately held medical device company in Milpitas, California that develops technologies for treating coronary and peripheral artery disease, began notifying people in the fall of 2026 that a network intrusion months earlier had exposed sensitive personal information held in its human resources files. According to the notification letter Elixir filed with the California Attorney General's office, the company learned that an unauthorized party had accessed its computer network between July 20 and July 21, 2026. It then took roughly three weeks of investigation with outside forensic experts before Elixir determined, on August 11, 2026, that some of the files an intruder could have reached contained human resources records belonging to current and former employees and consultants, along with information tied to some of their beneficiaries and dependents.
 
@@ -6173,6 +6199,9 @@ Most people will never see an F5 logo and don't need to do anything about this b
     slug: `bennett-college-2026-data-breach-guide`,
     author: `ScamShield Editorial`,
     tags: [`guide`, `bennett-college-2026-data-breach`],
+    coverImage: `https://commons.wikimedia.org/wiki/Special:FilePath/Bennett_College_from_Gorrell.jpg?width=1200`,
+    coverImageCredit: `Photo: Nyttend (public domain)`,
+    coverImagePosition: 50,
     sourceUrl: `https://www.govtech.com/education/higher-ed/bennett-college-data-breach-affected-30-000-people`,
     body: `Bennett College, a small historically Black liberal-arts college for women in Greensboro, North Carolina, founded in 1873, disclosed that an unauthorized party had access to its computer network for nearly three weeks in late 2025. According to the college's notification, the intrusion ran from October 27 through November 15, 2025, and Bennett detected the disruption on November 15 — the same day the access window closed. The college says it responded immediately: it contacted law enforcement, engaged outside computer forensic specialists, isolated the affected systems, and worked to determine exactly whose information had been exposed. That review took the better part of a year. Bennett didn't begin mailing notification letters to affected individuals until August 27, 2026, and the stolen data had already turned up on a ransomware group's dark-web leak site months earlier, on December 6, 2025 — meaning the information was circulating in criminal circles well before the people it belonged to were told anything was wrong.
 
@@ -6187,6 +6216,10 @@ Bennett is offering affected individuals free credit monitoring and identity-pro
     slug: `demera-demera-cameron-cpa-firm-2026-data-breach-guide`,
     author: `ScamShield Editorial`,
     tags: [`guide`, `demera-demera-cameron-2026-data-breach`],
+    coverImage: `https://commons.wikimedia.org/wiki/Special:FilePath/Laptop_on_a_neat_desk_(Unsplash).jpg?width=1200`,
+    coverImageCredit: `Photo: Norbert Levajsics (CC0)`,
+    coverImagePosition: 50,
+    // representative photo — generic office desk, not DeMera DeMera Cameron's own office; replace with an exact match if found
     sourceUrl: `https://oag.ca.gov/ecrime/databreach/reports/sb24-629160`,
     body: `DeMera DeMera Cameron, LLP, a certified public accounting firm in Fresno, California with more than 80 years serving individual and business tax clients, first appeared in the news for the wrong reason on April 13, 2026, when the double-extortion ransomware group Akira listed the firm on its dark-web leak site and claimed to be holding roughly 260 gigabytes of stolen data — describing it as "a bit of personal data, financials, client financials (international ones), contracts and agreements, corporate confidential documents, NDAs and so on." At the time, the claim was just that: an unverified boast on a criminal forum, the kind security researchers see from ransomware gangs daily. Five months later, it stopped being unverified. In notification letters dated September 1, 2026 and filed with the California Attorney General and regulators in at least seven other states, DDC confirmed that it had detected suspicious activity on its network on or about March 27, 2026, that a forensic investigation found files had been downloaded from its systems without authorization, and that a review of those files — completed July 23, 2026 — confirmed clients' personal information was among what was taken.
 
@@ -6201,6 +6234,9 @@ If you're a current or former client of DeMera DeMera Cameron — or the parent 
     slug: `amgen-2026-data-breach-guide`,
     author: `ScamShield Editorial`,
     tags: [`guide`, `amgen-2026-data-breach`],
+    coverImage: `https://commons.wikimedia.org/wiki/Special:FilePath/Amgenheadquarters.jpg?width=1200`,
+    coverImageCredit: `Photo: Coolcaesar (CC BY-SA 3.0)`,
+    coverImagePosition: 50,
     sourceUrl: `https://www.hipaajournal.com/amgen-cyberattack-data-breach/`,
     body: `Amgen, the Thousand Oaks, California biopharmaceutical giant behind drugs like Enbrel, Otezla, and Repatha, disclosed to the SEC on July 29, 2026 that it had discovered unauthorized third-party access to Amgen systems and data held in cloud environments run by outside cloud service providers. The company says it first became aware of the intrusion on or about July 2, 2026, and by July 18 its investigation had confirmed that the intruder had actually obtained and copied files — not just accessed them — including patients' personal information and health information. As of the SEC filing and follow-up reporting, Amgen has not said publicly how the cloud environment was breached or named a threat actor, and it says it is still working to determine the full extent of what was taken, including whether confidential business information, intellectual property, and research and development data were exfiltrated alongside patient records.
 
@@ -6215,6 +6251,10 @@ If you've used an Amgen medication, participated in an Amgen-sponsored clinical 
     slug: `adapthealth-2026-data-breach-guide`,
     author: `ScamShield Editorial`,
     tags: [`guide`, `adapthealth-2026-data-breach`],
+    coverImage: `https://commons.wikimedia.org/wiki/Special:FilePath/Portable_Oxygen_Concentrator_by_Inogen.jpg?width=1200`,
+    coverImageCredit: `Photo: Oxystore (CC BY-SA 4.0)`,
+    coverImagePosition: 50,
+    // representative photo — generic home medical equipment, not AdaptHealth's own device; replace with an exact match if found
     sourceUrl: `https://www.theregister.com/security/2026/07/03/adapthealth-crooks-stole-our-passwords-patient-health-data/5266512`,
     body: `AdaptHealth, LLC, a Pennsylvania-based, publicly traded company (Nasdaq: AHCO) that is one of the largest suppliers of home medical equipment in the country — CPAP machines, oxygen concentrators, wheelchairs, and diabetes supplies delivered to patients' homes and billed through their insurance — told patients in mid-August 2026 that their information had been stolen in a cyberattack. According to AdaptHealth's own notification letter, an unauthorized third party used a social-engineering attack — tricking a person into handing over access rather than exploiting a technical flaw — to obtain the login credentials of a single company user account on June 5, 2026. AdaptHealth says it didn't learn of the intrusion until June 15, when the attacker actually contacted the company directly, a common extortion tactic in which criminals announce a theft themselves to pressure a victim into paying rather than leave it for outside researchers to discover. By June 27, AdaptHealth had determined the incident was serious enough to require a securities filing, disclosing it to the SEC as a material cybersecurity event. A group calling itself ShinyHunters listed AdaptHealth on its dark-web extortion site around the same time, though AdaptHealth itself has not confirmed that attribution.
 
@@ -6251,6 +6291,10 @@ If you've ever subscribed to Vogue, The New Yorker, GQ, Glamour, Vanity Fair, WI
     slug: `boston-healthcare-for-the-homeless-program-2026-data-breach-guide`,
     author: `ScamShield Editorial`,
     tags: [`guide`, `boston-healthcare-for-the-homeless-2026-data-breach`],
+    coverImage: `https://commons.wikimedia.org/wiki/Special:FilePath/Boston_city_skyline_(Unsplash).jpg?width=1200`,
+    coverImageCredit: `Photo: Alice Donovan Rouse (CC0)`,
+    coverImagePosition: 50,
+    // representative photo — Boston, where the program operates; replace with an exact match if found
     sourceUrl: `https://www.hipaajournal.com/boston-healthcare-homeless-program-mon-general-open-door-illinois-data-breaches/`,
     body: `Boston Health Care for the Homeless Program (BHCHP) is a nonprofit safety-net provider, not a typical hospital system — it delivers medical, dental, and behavioral health care at more than 80 sites across the city, including shelters, soup kitchens, day centers, street outreach vans, detox units, and clinics embedded inside three major teaching hospitals, to patients who often have no fixed address at all. On November 11, 2025, the organization noticed a disruption on its computer network. It took until June 8, 2026 — nearly seven months later — for BHCHP to complete its review and determine that an unauthorized third party had accessed the network and potentially viewed or obtained files containing sensitive patient and employee information. Notification letters didn't go out to affected individuals until August 7, 2026, roughly nine months after the disruption was first detected. Two patients and a former employee have since sued the organization, arguing they should have been told sooner.
 
@@ -6265,6 +6309,9 @@ If you or someone you know has received care through BHCHP — at any of its she
     slug: `foster-city-2026-ransomware-attack-guide`,
     author: `ScamShield Editorial`,
     tags: [`guide`, `foster-city-2026-ransomware-attack`],
+    coverImage: `https://commons.wikimedia.org/wiki/Special:FilePath/Foster_City_aerial_view,_February_2018.JPG?width=1200`,
+    coverImageCredit: `Photo: Pi.1415926535 (CC BY-SA 3.0)`,
+    coverImagePosition: 50,
     sourceUrl: `https://www.cbsnews.com/sanfrancisco/news/foster-city-cybersecurity-breach-plans-state-of-emergency/`,
     body: `In the early hours of March 19, 2026, staff in Foster City, California — a Bay Area city of roughly 33,000 people — discovered ransomware on the city's computer network and immediately began taking systems offline to contain it. What followed wasn't a quiet, behind-the-scenes cleanup: nearly every public-facing city service outside of police and 911 dispatch went dark for days, and by the following Monday, the city council had voted to formally declare a state of emergency so Foster City could access additional resources to respond. Cybersecurity experts quoted in coverage of the incident said a full return to normal operations after an attack like this one typically takes three to six weeks, even when the most critical services come back online sooner.
 
@@ -6279,6 +6326,10 @@ If you live in Foster City or do business with the city, change any password tie
     slug: `eyemart-express-2026-data-breach-guide`,
     author: `ScamShield Editorial`,
     tags: [`guide`, `eyemart-express-2026-data-breach`],
+    coverImage: `https://commons.wikimedia.org/wiki/Special:FilePath/Optical_photochromic_lenses.jpg?width=1200`,
+    coverImageCredit: `Photo: Albarubescens (CC BY-SA 4.0)`,
+    coverImagePosition: 50,
+    // representative photo — generic eyeglasses, not Eyemart Express's own product; replace with an exact match if found
     sourceUrl: `https://www.classaction.org/data-breach-lawsuits/eyemart-express-april-2026`,
     body: `Eyemart Express is one of the country's largest optical retailers, operating close to 250 stores across more than 40 states under names including Eyemart Express, Eyewear Express, Vision4Less, and Visionmart Express. On February 13, 2026, the company detected unauthorized activity on its computer network and determined that an intruder had briefly gained access the day before, on February 12, before the environment was secured and contained. Weeks later, on March 10, 2026, a ransomware group calling itself Payouts King posted a claim on the dark web that it had exfiltrated roughly 435 gigabytes of Eyemart Express's internal data and threatened to publish it if the company didn't negotiate.
 
@@ -6293,6 +6344,10 @@ If you're an Eyemart Express customer or a current or former employee, don't dis
     slug: `forrestall-cpas-2026-data-breach-guide`,
     author: `ScamShield Editorial`,
     tags: [`guide`, `forrestall-cpas-2026-data-breach`],
+    coverImage: `https://commons.wikimedia.org/wiki/Special:FilePath/Ruler_and_laptop_on_a_desk_(Unsplash).jpg?width=1200`,
+    coverImageCredit: `Photo: Oli Dale (CC0)`,
+    coverImagePosition: 50,
+    // representative photo — generic office desk, not Forrestall CPAs' own office; replace with an exact match if found
     sourceUrl: `https://www.fox5atlanta.com/news/personal-files-taken-buford-accounting-firm-data-breach`,
     body: `Forrestall CPAs LLC, a full-service accounting firm based in Buford, Georgia, in the Atlanta metro area, has notified clients that an unauthorized person got into its computer network and obtained files containing their personal information. The firm says the intrusion took place between December 22 and December 30, 2025. It took roughly seven months for Forrestall to pin down exactly what had been taken: the firm secured its systems, brought in a cybersecurity firm to investigate, and reported the incident to law enforcement, but notification letters didn't start going out to affected individuals until August 7, 2026, with a formal filing to the Texas Attorney General's office following on August 21.
 
@@ -6307,6 +6362,10 @@ Because Social Security numbers and financial account information were both expo
     slug: `first-advantage-2026-data-breach-guide`,
     author: `ScamShield Editorial`,
     tags: [`guide`, `first-advantage-2026-data-breach`],
+    coverImage: `https://commons.wikimedia.org/wiki/Special:FilePath/Jackson_Street_Bridge_and_Atlanta_Night_Skyline_(Unsplash).jpg?width=1200`,
+    coverImageCredit: `Photo: Joey Kyber (CC0)`,
+    coverImagePosition: 50,
+    // representative photo — Atlanta, where First Advantage is headquartered; replace with an exact match if found
     sourceUrl: `https://oag.ca.gov/ecrime/databreach/reports/sb24-625323`,
     body: `First Advantage Corporation is an Atlanta-based background-screening and identity-verification company that runs more than 200 million screens a year on behalf of employers, landlords, and other organizations doing pre-employment or tenant checks. On November 17, 2025, the company discovered that an unauthorized third party had used "sophisticated phishing" to gain access to a single employee's account within its Drug & Occupational Health Screening Unit. First Advantage's investigation traced the intrusion back to on or about November 13, 2025, and determined the intruder used that access to download the entire contents of the employee's email inbox. Notification letters didn't begin going out to affected individuals until April 21, 2026 — roughly five months later. Filings that followed with state regulators, including California on June 23, 2026, and a supplemental filing with the Texas Attorney General on July 23, 2026, put the confirmed toll at a total of at least 4,669 people nationwide, with the largest single share — several thousand people — in Texas.
 
@@ -6338,6 +6397,10 @@ If you do business with Cushman & Wakefield — as a client, tenant, landlord, b
     slug: "apollo-global-management-2026-data-breach-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "apollo-global-management-2026-data-breach"],
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Manhattan_-_9_West_57th_Street.JPG?width=1200",
+    coverImageCredit: "Photo: C.M. de Talleyrand-Périgord (CC BY-SA 4.0)",
+    coverImagePosition: 50,
+    // representative photo — entrance of the Solow Building at 9 West 57th Street, Apollo's headquarters address; replace with an exact match if found
     sourceUrl: "https://cyberscoop.com/apollo-discloses-data-breach-social-engineering-attack/",
     body: `Apollo Global Management, a New York-based private equity and asset-management firm that oversees roughly $1 trillion for pension funds, insurers, and other institutional clients, disclosed in late August 2026 that its subsidiary Apollo Management Holdings, L.P. had suffered a data breach — one that began not with a hacked server, but with a phone call. According to Apollo's notification to state regulators, an unauthorized party used social engineering to gain access to certain of the company's cloud platforms between July 6 and July 10, 2026. Apollo says it brought in outside forensic investigators after detecting the intrusion, and it wasn't until August 12, 2026 that the investigation confirmed personal information had actually been taken. The company began notifying the California, Massachusetts, and Vermont attorneys general on August 20 and mailed letters to affected individuals the next day, August 21. Apollo has not disclosed how many people were affected, or whether they are current employees, former employees, or contacts tied to Apollo-owned portfolio companies.
 
@@ -6354,6 +6417,9 @@ If you receive a letter from Apollo, or believe you may be a current or former e
     slug: "disney-ftc-coppa-settlement-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "disney-ftc-coppa-settlement"],
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Disney_studios_burbank_team_disney_building_buena_vista.jpg?width=1200",
+    coverImageCredit: "Photo: Junkyardsparkle (CC0)",
+    coverImagePosition: 50,
     sourceUrl: "https://www.ftc.gov/news-events/news/press-releases/2025/09/disney-pay-10-million-settle-ftc-allegations-company-enabled-unlawful-collection-childrens-personal",
     body: `The Federal Trade Commission announced in September 2025 that The Walt Disney Company would pay $10 million to settle allegations that it violated the Children's Online Privacy Protection Act (COPPA) Rule by letting personal data be collected from children under 13 who watched Disney's videos on YouTube — collection that happened because Disney itself mislabeled which of its own videos were made for kids. A federal court in the Central District of California approved the settlement order in December 2025, finalizing the penalty and a set of new compliance obligations.
 
@@ -6382,6 +6448,10 @@ If you or someone in your household ever contacted American Addiction Centers or
     slug: "eckert-seamans-2026-data-breach-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "eckert-seamans-2026-data-breach"],
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/USPS_15222_Pittsb_Grant_St_sun_jeh.jpg?width=1200",
+    coverImageCredit: "Photo: Jim Henderson (CC0)",
+    coverImagePosition: 50,
+    // representative photo — Grant Street in Pittsburgh, where Eckert Seamans is headquartered, not the firm's own building; replace with an exact match if found
     sourceUrl: "https://www.federmanlaw.com/blog/eckert-seamans-cherin-mellott-llc-data-breach-investigated-by-federman-sherwood/",
     body: `Eckert Seamans Cherin & Mellott, LLP, a full-service law firm headquartered in Pittsburgh with offices across roughly a dozen states, confirmed on August 17, 2026 that an unauthorized party had accessed files on its network. Following its investigation, the firm began mailing notification letters to affected individuals in early September 2026. It's the firm's second reportable data incident in about a year: in 2025 it disclosed a breach tied to its representation of Wheeling University that exposed personal information belonging to roughly 9,400 of the school's alumni, and was sued over it in a suit that was later voluntarily dismissed without prejudice.
 
@@ -6398,6 +6468,10 @@ Treat any unsolicited call, text, or email that cites this breach, a legal matte
     slug: "estee-lauder-2026-data-breach-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "estee-lauder-2026-data-breach"],
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/General_Motors_Building_at_5th_Avenue_and_59th_Street,_Manhattan.jpg?width=1200",
+    coverImageCredit: "Photo: Scalleja (CC BY-SA 2.0)",
+    coverImagePosition: 50,
+    // representative photo — the General Motors Building at 767 Fifth Avenue, Estée Lauder's actual corporate headquarters; replace with an exact match if found
     sourceUrl: "https://www.bleepingcomputer.com/news/security/est-e-lauder-discloses-data-breach-via-oracle-e-business-flaw/",
     body: `The Estée Lauder Companies, the New York-based cosmetics conglomerate behind brands including Clinique, MAC, and Origins, notified current and former employees on July 17, 2026 that an unauthorized party had broken into the company's Oracle E-Business Suite environment — the enterprise software it uses to run human resources — and stolen personal data. The intrusion itself happened almost a year earlier, on or around August 9, 2025, but Estée Lauder says it didn't confirm the access until June 19, 2026, meaning employees went nearly eleven months without knowing their HR records had been compromised.
 

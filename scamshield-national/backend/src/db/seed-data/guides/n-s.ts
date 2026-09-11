@@ -2852,6 +2852,10 @@ If you believe you've become a victim of identity theft connected to this breach
     slug: `reply-yes-job-text-scam-guide`,
     author: `ScamShield Editorial`,
     tags: [`guide`, `reply-yes-job-text-scam`],
+    coverImage: `https://commons.wikimedia.org/wiki/Special:FilePath/Man_on_a_smartphone_(Unsplash).jpg?width=1200`,
+    coverImageCredit: `Photo: Gilles Lambert (CC0)`,
+    coverImagePosition: 50,
+    // representative photo — generic phone/texting; replace with an exact match if found
     sourceUrl: `https://consumer.ftc.gov/consumer-alerts/2026/04/job-offer-text-probably-scam`,
     body: `In April 2026, the FTC issued a new consumer alert describing a job-recruitment text scam that skips the step most people have learned to be wary of. Instead of a suspicious link to click, the message — arriving by text, WhatsApp, or Telegram, and often dressed up with a professional-looking logo or graphic — simply asks the recipient to reply "YES" or "INTERESTED" to learn more about a vague remote opening, often described only as something like an "online assessor" position or a general "remote position," with a daily or weekly pay rate mentioned but few other real details.
 
@@ -2950,6 +2954,10 @@ STIIIZY is offering affected customers 12 months of complimentary credit monitor
     slug: `nova-scotia-power-2025-data-breach-guide`,
     author: `ScamShield Editorial`,
     tags: [`guide`, `nova-scotia-power-2025-data-breach`],
+    coverImage: `https://commons.wikimedia.org/wiki/Special:FilePath/Point_Aconi_Generating_Station_4.jpg?width=1200`,
+    coverImageCredit: `Photo: Ken Heaton (CC BY-SA 4.0)`,
+    coverImagePosition: 50,
+    // representative photo — Nova Scotia Power generating station, not company HQ office; replace with an exact match if found
     sourceUrl: `https://www.priv.gc.ca/en/opc-news/news-and-announcements/2026/nr-c_260325/`,
     body: `Nova Scotia Power, the Emera-owned utility that serves nearly all of Nova Scotia's electricity customers, disclosed in May 2025 that a cyberattack had compromised the personal information of hundreds of thousands of people. According to Canada's Office of the Privacy Commissioner, which opened a formal investigation after receiving customer complaints, the intrusion actually began weeks earlier than the company first realized: around March 19, 2025, a Nova Scotia Power employee visited a compromised website and clicked a malicious pop-up, letting an unauthorized third party install malware and quietly access the utility's systems. The company says it didn't discover the breach until April 25, 2025, and didn't begin notifying customers until mid-May. By the time the investigation concluded, the Privacy Commissioner's office put the toll at roughly 375,000 current customers and about 540,000 former customers — more than 900,000 people in a province of only around a million residents.
 
@@ -2964,6 +2972,10 @@ If you are or were a Nova Scotia Power customer, treat this as a live risk even 
     slug: `salt-typhoon-telecom-hack-guide`,
     author: `ScamShield Editorial`,
     tags: [`guide`, `salt-typhoon-telecom-hack`],
+    coverImage: `https://commons.wikimedia.org/wiki/Special:FilePath/Cell_tower_aerial.jpg?width=1200`,
+    coverImageCredit: `Photo: Wikideas1 (CC0)`,
+    coverImagePosition: 50,
+    // representative photo — generic cell tower, not a specific carrier's; replace with an exact match if found
     sourceUrl: `https://www.cisa.gov/news-events/news/enhanced-visibility-and-hardening-guidance-communications-infrastructure`,
     body: `Starting around the fall of 2024, U.S. investigators uncovered what CISA and the FBI would go on to call one of the most significant telecommunications hacks in American history: a Chinese state-sponsored espionage group tracked as Salt Typhoon, linked to China's Ministry of State Security, had quietly burrowed into the networks of AT&T, Verizon, T-Mobile, Lumen, Charter Communications, Consolidated Communications, Windstream, and satellite provider Viasat. Unlike a typical breach chasing credit card numbers, Salt Typhoon's operators were after something telecom carriers hold that almost no other company does: the routing and metadata systems that record who called whom, when, for how long, and from where — including, in some cases, the lawful-intercept systems carriers maintain to comply with U.S. court-ordered wiretap requests.
 
@@ -2996,6 +3008,10 @@ If you believe your identity has already been misused, start a recovery plan at 
     slug: "oneblood-2024-ransomware-data-breach-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "oneblood-2024-data-breach"],
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Blood_donation_(at_a_%22bloodmobile%22).JPG?width=1200",
+    coverImageCredit: "Photo: Vegasjon (CC BY-SA 4.0)",
+    coverImagePosition: 50,
+    // representative photo — blood donation at a bloodmobile, not OneBlood's own vehicle; replace with an exact match if found
     body: `OneBlood, a nonprofit blood collection organization that supplies roughly 250 hospitals across Florida, Georgia, North and South Carolina, and Alabama, disclosed on July 31, 2024 that it had been hit by a ransomware attack. OneBlood said it first detected suspicious activity in its network on July 28, and its investigation later determined that an intruder had access between July 14 and July 29, 2024, during which time files and folders were copied from the network without authorization.
 
 The attack's immediate effect had nothing to do with data at all: it knocked out the software OneBlood normally uses to collect, test, and label donated blood, forcing staff onto manual, paper-based processes and sharply cutting how much blood the organization could process at once. That slowdown was severe enough that OneBlood asked its hundreds of partner hospitals to activate their critical blood shortage protocols and postpone elective procedures where possible, and it put out an urgent public call for donations of all blood types to keep supplies from running out across the region it serves.
@@ -3010,6 +3026,10 @@ If you have ever donated blood, platelets, or plasma through OneBlood, or worked
     slug: `prospect-medical-holdings-data-breach-guide`,
     author: `ScamShield Editorial`,
     tags: [`guide`, `prospect-medical-holdings-data-breach`],
+    coverImage: `https://commons.wikimedia.org/wiki/Special:FilePath/Rhode_Island_Hospital_APC_building.jpg?width=1200`,
+    coverImageCredit: `Photo: Kenneth C. Zirkel (CC BY-SA 4.0)`,
+    coverImagePosition: 50,
+    // representative photo — generic hospital exterior in a state Prospect operated in, not one of its own facilities; replace with an exact match if found
     sourceUrl: `https://www.hipaajournal.com/medical-records-from-prospect-ransomware-attack-appear-on-dark-web/`,
     body: `Prospect Medical Holdings, a for-profit hospital operator that ran 17 hospitals and more than 166 outpatient clinics across California, Connecticut, Pennsylvania, Rhode Island, and Texas, was hit by a ransomware attack on August 3, 2023. The attack crippled operations across the company's facilities: hospitals diverted ambulances, canceled elective procedures, and reverted to paper charts and prescriptions for weeks while IT teams worked to rebuild systems from scratch. The ransomware gang Rhysida claimed responsibility on its dark-web leak site, demanding roughly 50 bitcoin — worth about $1.3 million at the time — to keep the stolen data from being published or sold.
 
@@ -3169,6 +3189,10 @@ If you're a Quontic Bank customer, whether or not you've received a letter, a fe
     slug: "okcupid-clarifai-photo-sharing-ftc-settlement-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "okcupid-clarifai-photo-sharing-ftc-settlement"],
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Man_on_a_smartphone_(Unsplash).jpg?width=1200",
+    coverImageCredit: "Photo: Gilles Lambert (CC0)",
+    coverImagePosition: 50,
+    // representative photo — generic smartphone use, not OkCupid's app specifically; replace with an exact match if found
     body: `OkCupid's privacy policy told users their information would be shared only "as indicated in this Privacy Policy" or with their consent. According to a Federal Trade Commission complaint resolved on March 30, 2026, that promise didn't survive contact with the company's own leadership: OkCupid, owned by Match Group, secretly handed nearly three million user photos, along with location and other personal information, to Clarifai, an artificial-intelligence startup that builds facial-recognition and image-analysis technology — a company OkCupid's own founders had personally invested in.
 
 The FTC's complaint describes a request that should have been an easy no. Clarifai had no service contract, business partnership, or corporate affiliation with OkCupid that would ordinarily justify access to user data; it simply asked for a large dataset of user photos to help train its image-recognition models, and OkCupid provided it — without a data-use agreement restricting what Clarifai could do with the images, without limiting further redistribution, and without ever telling the OkCupid users whose faces were now sitting in a third-party AI company's training data. The dating app's founders having a financial stake in Clarifai's success is, according to the FTC, precisely why the request got approved rather than refused.
@@ -3216,6 +3240,10 @@ If you're a member of a health plan or employee benefits program administered th
     slug: "rentgrow-ftc-settlement-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "rentgrow-ftc-settlement"],
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/AIMCO_apartment_exterior_pool.jpg?width=1200",
+    coverImageCredit: "Photo: Architecturist (CC BY-SA 3.0)",
+    coverImagePosition: 50,
+    // representative photo — generic apartment community, not a RentGrow client property; replace with an exact match if found
     sourceUrl: "https://www.ftc.gov/news-events/news/press-releases/2026/07/rentgrow-pay-225-million-settle-ftc-allegations-company-violated-fair-credit-reporting-act-ftc-act",
     body: `RentGrow, Inc., a Massachusetts-based company that sells the tenant-screening reports landlords and property managers use to decide whether to approve a rental application, agreed to pay $2.25 million on July 9, 2026 to settle Federal Trade Commission allegations that it violated the Fair Credit Reporting Act (FCRA) and the FTC Act. The FTC's complaint centered on the accuracy of the criminal-history and eviction information RentGrow compiled about millions of would-be renters — information a landlord often sees before the applicant ever gets to explain it.
 

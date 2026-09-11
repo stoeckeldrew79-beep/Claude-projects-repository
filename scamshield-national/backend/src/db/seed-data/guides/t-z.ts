@@ -1713,6 +1713,10 @@ If you have shopped with Toys "R" Us Canada, whether or not you've received a no
     slug: `trustage-cybersecurity-incident-2026-guide`,
     author: `ScamShield Editorial`,
     tags: [`guide`, `trustage-cybersecurity-incident`],
+    coverImage: `https://commons.wikimedia.org/wiki/Special:FilePath/Wisconsin_State_Capitol,_Capitol_Square,_Madison,_WI_(52733358972).jpg?width=1200`,
+    coverImageCredit: `Photo: Warren LeMay (CC BY-SA 2.0)`,
+    coverImagePosition: 50,
+    // representative photo — Madison, Wisconsin, where TruStage is headquartered; replace with an exact match if found
     sourceUrl: `https://www.trustage.com/outage`,
     body: `Most people have never heard of TruStage, even though millions of credit union members rely on it without realizing it. Formerly known as CUNA Mutual Group and headquartered in Madison, Wisconsin, TruStage sells the insurance and financial-services products that credit unions across the country routinely offer their members — GAP insurance on auto loans, mechanical repair coverage, payment protection that covers loan payments after a job loss or death, and life and disability policies bundled into a checking account or loan. On July 11, 2026, TruStage identified what it has described as "a particularly broad attack" on its network and systems and made the decision to proactively shut the network down to contain it, a step the company disclosed publicly on July 15, 2026.
 
@@ -1774,6 +1778,10 @@ If you're a current or former UCLA Health patient, watch your mail for a notific
     slug: `turner-construction-2026-data-breach-guide`,
     author: `ScamShield Editorial`,
     tags: [`guide`, `turner-construction-2026-data-breach`],
+    coverImage: `https://commons.wikimedia.org/wiki/Special:FilePath/Boom_lift_crane_on_construction_site.jpg?width=1200`,
+    coverImageCredit: `Photo: CaptainHisDudeness (CC0)`,
+    coverImagePosition: 50,
+    // representative photo — generic construction site, not a Turner Construction project; replace with an exact match if found
     sourceUrl: `https://www.constructiondive.com/news/turner-construction-data-breach-ssns-bank-accounts/828454/`,
     body: `Turner Construction Company, headquartered in New York and one of the largest construction-management firms in the United States — the kind of contractor that builds stadiums, hospitals, university buildings, and government and military facilities — confirmed on July 27, 2026 that files containing personal information had been accessed without authorization. According to the notification letter Turner filed with the California Attorney General's office, the unauthorized access to certain Turner systems took place between July 2 and July 15, 2026. Upon discovering the activity, the company says it moved to secure its systems, engaged outside cybersecurity and forensic experts, and notified federal law enforcement. Turner began mailing written notices on August 18, 2026, confirming the breach to more than six thousand California residents alone, with additional notifications going out to affected individuals in other states and in Canada.
 
@@ -1790,6 +1798,9 @@ If you're a current or former Turner Construction employee, watch your mail for 
     slug: `wilmerhale-law-firm-vishing-breach-2026-guide`,
     author: `ScamShield Editorial`,
     tags: [`guide`, `wilmerhale-law-firm-vishing-breach-2026`],
+    coverImage: `https://commons.wikimedia.org/wiki/Special:FilePath/WilmerHale's_DC_office.jpg?width=1200`,
+    coverImageCredit: `Photo: Arhamilton123 (CC BY-SA 4.0)`,
+    coverImagePosition: 50,
     sourceUrl: `https://www.bleepingcomputer.com/news/security/fbi-warns-of-luna-moth-extortion-attacks-targeting-law-firms/`,
     body: `Wilmer Cutler Pickering Hale and Dorr LLP — WilmerHale, one of the country's largest and best-known law firms — told regulators that on May 8, 2026, an employee disclosed sensitive information to someone who had misrepresented their identity. No hacking tool or malware was involved on that end; by the firm's own account, someone simply talked an employee into handing information over. WilmerHale says it didn't discover what had happened until June 25, 2026, and began mailing notification letters on July 10, 2026. Filings with state attorneys general put the toll at roughly 95,800 people, including 80,528 Texas residents, 14,496 South Carolina residents, and smaller numbers in Washington, Massachusetts, New Hampshire, and Vermont — with the exposed data including names, dates of birth, and Social Security numbers. WilmerHale maintains the intruder never directly accessed its computer systems, which is consistent with a breach that started as a successful con rather than a hack. A proposed class-action lawsuit was filed against the firm in federal court on July 14, 2026, and insurance trade press has since reported that WilmerHale paid at least $18 million to the extortion group behind the intrusion.
 
