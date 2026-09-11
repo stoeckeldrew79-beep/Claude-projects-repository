@@ -8086,3 +8086,20 @@ Campbell's scheme is a reminder that a real, years-old business with an actual p
     sourceUrl: 'https://www.justice.gov/usao-edca/pr/fresno-man-pleads-guilty-running-9-million-real-estate-ponzi-scheme',
   },
 );
+
+NotoriousAF.push(
+  {
+    title: 'Emmanuel Gyasi and the "Jessica Morris" Gold Bars Romance Scam',
+    slug: 'emmanuel-gyasi-jessica-morris-gold-bars-romance-scam',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    body: `Emmanuel Gyasi's scheme started the way most romance scams do: with a fictitious woman who didn't exist. Prosecutors say Gyasi and his co-conspirators built an online dating profile for "Jessica Morris," used it to strike up a romantic relationship with a victim, and then wove in a detail elaborate enough to sound almost plausible — Morris, the persona claimed, had just inherited gold bars worth $12 million, and needed help covering various fees to get the fortune released and sold.
+
+Getting a victim to believe a story like that usually takes more than one voice. According to federal prosecutors, the conspirators introduced a second fictitious character, "Steven Baggett," posing as Morris's lawyer, to lend the gold-bars story a layer of professional credibility and press the victim toward sending money. Between no later than March 2022 and at least July 2022, the victim wired a total of approximately $1.1 million to accounts the conspirators controlled, believing the money was funding fees tied to releasing a multimillion-dollar inheritance for the person they'd come to trust as a romantic partner.
+
+Gyasi's specific role, prosecutors said, was opening and controlling a bank account that the conspirators directed the victim to wire money into. While the victim was able to claw back some of what was sent, Gyasi and his co-conspirators still walked away with more than $750,000 of it. Gyasi, 29, of Ghana, was convicted of wire fraud and, in a case prosecuted out of the U.S. Attorney's Office for the Eastern District of Virginia, sentenced to two years in federal prison — a term announced March 6, 2026. The FBI's Washington Field Office investigated the case.
+
+Romance scams built around a sudden windfall — inherited gold, a frozen international account, a lottery win — work by giving the victim a reason the relationship needs money now, while the actual romantic relationship, real or fabricated, does the work of suppressing the skepticism a cold pitch would draw. A second persona playing a "lawyer" or other professional exists for the same reason a fake customer-service line exists in other scams: to make the ask sound like it's coming from an institution rather than from the person asking for the victim's trust.`,
+    sourceUrl: 'https://www.justice.gov/usao-edva/pr/ghanaian-national-sentenced-prison-two-years-1m-romance-scam',
+  },
+);
