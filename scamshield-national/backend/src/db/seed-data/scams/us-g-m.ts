@@ -5694,3 +5694,17 @@ UsGM.push({
     isHistorical: true,
     firstRecorded: '2020-01-24',
 });
+
+UsGM.push({
+    name: 'KLS Medical Services Medicaid Billing Fraud (Katricia Smith)',
+    slug: 'mississippi-kls-medical-services-medicaid-fraud-sentencing',
+    description: `Katricia Smith, the former owner of KLS Medical Services, LLC in DeSoto County, Mississippi, knowingly submitted false Medicaid claims for services she never actually provided throughout 2023 and 2024, according to the Mississippi Attorney General's Office. The scheme was uncovered by investigators with the Attorney General's Medicaid Fraud Control Unit working alongside the Mississippi Division of Medicaid's Program Integrity unit, and was one of 11 indictments Attorney General Lynn Fitch announced in June 2026 as Mississippi's contribution to that year's National Health Care Fraud Takedown, which together totaled more than $12.3 million in alleged fraud. Smith was convicted of one count of wire fraud, and on September 8, 2026, Madison County Circuit Court Judge Steve Ratcliff sentenced her to five years in the custody of the Mississippi Department of Corrections and ordered her to pay full restitution of $3,190,017.93 to the Mississippi Division of Medicaid. "I am committed to rooting out waste, fraud, and corruption, and holding the scammers, fraudsters, and grifters accountable," Fitch said in announcing the sentence, adding that the partnership between her Medicaid Fraud Control Unit and the Division of Medicaid "keeps a close eye on your taxpayer dollars, making sure they get to the Mississippians in need that they are meant to help." The case is a reminder that Medicaid fraud isn't limited to street-level scammers targeting individual beneficiaries — a licensed provider billing for care that was never delivered can drain far more from the program over a shorter period, and it typically surfaces through a claims-data audit rather than a single victim's complaint. Mississippi Medicaid recipients who notice an Explanation of Benefits listing a service, visit, or provider they don't recognize should report it to the Mississippi Attorney General's Medicaid Fraud Control Unit rather than assume it's a clerical error.`,
+    categorySlug: 'healthcare-fraud',
+    alertLevel: 'medium',
+    sources: ["Mississippi Attorney General's Office (Lynn Fitch)"],
+    sourceUrl: 'https://attorneygenerallynnfitch.com/2026/09/08/ag-fitch-secures-sentence-in-3-million-healthcare-fraud-scheme-september-8-2026/',
+    country: 'US',
+    state: 'MS',
+    isHistorical: true,
+    firstRecorded: '2026-09-08',
+});
