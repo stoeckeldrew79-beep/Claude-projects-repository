@@ -7811,3 +7811,37 @@ The fraud didn't stay contained to individual clients. A Minnesota-based investm
 Darrah pleaded guilty to one count of wire fraud, and on May 19, 2025, U.S. District Judge Otis D. Wright II sentenced her to 121 months in federal prison. A separate civil judgment in December 2024 held her liable for $2,416,511, including interest, on top of the SEC's asset freeze and injunction. Her case is a reminder that the professional designations meant to reassure clients — registered investment adviser, fiduciary, trustee — describe a legal relationship of trust, not a guarantee that the person holding those titles is entitled to it; family members of elderly investors are often in the best position to ask a second, independent professional to review any arrangement that hands one advisor this much unsupervised control.`,
   },
 );
+
+NotoriousGM.push(
+  {
+    title: 'Henry Abdo and Titanium Capital: The Fake Currency Fund That Promised 102 Percent Returns',
+    slug: 'henry-abdo-titanium-capital-currency-fund-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.sec.gov/newsroom/press-releases/2023-251',
+    body: `Henry Abdo ran Titanium Capital LLC out of Florida, pitching investors on something he called the "Multi Currency Investment Fund" — a supposed proprietary currency-exchange operation that, according to Abdo, could generate extraordinary, steady profits by trading between world currencies. The math he offered prospective investors was the kind that should have ended the conversation immediately: returns of up to 102 percent compounded interest over a five-year investment. Instead, according to the SEC, Abdo backed the pitch with a further lie, telling investors the fund was registered with and overseen by the SEC when it was neither.
+
+The SEC's complaint, filed in December 2023 in the Southern District of Florida, alleged that Abdo and Titanium had been running the scheme since at least 2014, ultimately raising more than $5.3 million from over 160 retail investors in the United States and abroad. Rather than trading currencies at any scale capable of producing the promised returns, the SEC said, Abdo and Titanium funneled virtually all of the money right back out: Ponzi-style payments to earlier investors to keep the operation looking legitimate, transfers to relatives named as relief defendants in the case, commissions to unregistered promoters — including a company representative, Carol Ann Barsh, separately charged for soliciting investors without being registered to do so — and personal spending on jewelry and casino trips.
+
+Federal prosecutors in the Southern District of Florida filed parallel criminal charges alongside the SEC's civil case, a pairing that shows up often in Ponzi prosecutions: the civil case moves to freeze assets and stop the bleeding for investors, while the criminal case pursues Abdo's liberty. On March 4, 2026, a federal judge granted the SEC's motion for summary judgment and entered final judgment against Abdo, permanently enjoining him from violating the antifraud provisions of the Securities Act and the Exchange Act and barring him from participating in the issuance, purchase, offer, or sale of any security except for his own personal account.
+
+A guaranteed 102 percent return over five years works out to roughly 15 percent a year, compounded — a number picked, most likely, because it sounds impressive without sounding impossible the way "double your money in a year" would. That's the trap in a lot of currency- and forex-branded pitches: the return is dressed up as merely aggressive rather than obviously fictional, which is exactly what makes it easier for investors to talk themselves into believing a claim no legitimate currency-trading operation could consistently deliver.`,
+  },
+);
+
+NotoriousGM.push(
+  {
+    title: 'Jeffrey Higgins: The Small-Town Investment Adviser Who Stole Client Stock for 17 Years',
+    slug: 'jeffrey-higgins-baker-city-oregon-investment-adviser-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-or/pr/baker-city-man-pleads-guilty-investment-fraud',
+    body: `Jeffrey Thomas Higgins worked as an investment adviser in Baker City, a small eastern Oregon town, from December 2007 through June 2024 — nearly seventeen years serving the same community. According to federal prosecutors, Higgins pitched clients on a plan that sounded conservative rather than speculative: he would buy stock shares for them at a steep discount to market price, an arrangement he marketed as "low-risk yet with a high return." What he actually did, prosecutors said, was buy the shares at ordinary market value using client money, then secretly sell those shares without the clients' knowledge or authorization and move the proceeds into his own bank account.
+
+Keeping seventeen years of theft hidden from clients who trusted him took ongoing effort. Higgins had genuine trade confirmations — the paperwork that would have shown clients their shares had been sold out from under them — rerouted to a post office box he controlled rather than to the clients themselves. In their place, he created fictitious annual account statements showing exaggerated profits, so that on paper, nothing looked wrong. At least fourteen investors were affected, with documented losses exceeding $1.6 million by the time the scheme was uncovered.
+
+The reckoning came in stages. FINRA permanently barred Higgins from the securities industry in July 2024, and the SEC filed a parallel civil complaint alleging the same core conduct: misappropriating client funds for his personal use. On June 2, 2026, Higgins pleaded guilty in the U.S. District Court for the District of Oregon to one count of investment adviser fraud, agreeing as part of the plea to pay more than $1.6 million in restitution to the clients he had stolen from. He faces a statutory maximum of five years in prison, a $10,000 fine, and three years of supervised release, with sentencing scheduled for December 7, 2026.
+
+Higgins's case is a reminder that an affinity for the familiar — a longtime local adviser in a town small enough that everyone knows everyone — can substitute for the kind of independent verification a client would otherwise insist on. Nearly two decades is a long time for fabricated account statements to go unchallenged, and it went unchallenged for that long in part because the trade confirmations that would have exposed it never reached the clients they belonged to; a second, independent copy of that paperwork, sent somewhere the adviser doesn't control, is one of the simplest checks an investor can insist on.`,
+  },
+);
