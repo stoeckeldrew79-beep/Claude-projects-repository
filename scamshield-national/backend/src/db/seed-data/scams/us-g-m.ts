@@ -5374,3 +5374,31 @@ UsGM.push({
     isHistorical: true,
     firstRecorded: '2019-01-01',
 });
+
+UsGM.push({
+    name: 'Macon Forged-Deed Stolen-Home Sales Scheme (Angela Spradley)',
+    slug: 'georgia-macon-spradley-forged-deed-stolen-home-scheme',
+    description: `Between September and December 2021, Angela Jessie Spradley forged deed transfers for five properties in Bibb County, Georgia, filing documents that falsely claimed she or LLCs she controlled had legitimately acquired homes she had no ownership interest in, then recorded the fabricated deeds directly at the Bibb County Clerk of Superior Court's office the same day. She went on to sell at least three of the stolen homes to an unsuspecting buyer for $7,500 apiece. The scheme first came to light when one of the actual owners discovered their second home had been stripped of its fixtures and had a realtor's lockbox hanging on the front door — a single complaint that Macon Judicial Circuit District Attorney Anita R. Howard's office, working with Assistant District Attorney Jeremy Johnson, used as the starting point for a full search of county property records, turning up four more victims who had no idea their homes had been targeted at all. A Bibb County grand jury indicted Spradley on 32 counts, including identity fraud, first-degree forgery, filing false documents, false swearing, making false statements, and theft by deception, and she was ultimately sentenced to five years in prison followed by 25 years of probation. "Your home is your safe haven. You never think someone's going to come along and try to take your actual home away from you," victim Melissa Sannes said after the sentencing. Georgia homeowners — especially anyone who owns a second property, an inherited home, or land they don't check on often — can register their parcels for free with the Georgia Superior Court Clerks' Cooperative Authority's property fraud alert service, which sends a notice the moment any new document is recorded against a monitored property, catching a forged deed before the scammer has time to sell or borrow against the home.`,
+    categorySlug: 'mortgage-foreclosure-scams',
+    alertLevel: 'medium',
+    sources: ["Macon Judicial Circuit District Attorney's Office", 'Atlanta News First', 'WGXA'],
+    sourceUrl: 'https://www.maconjudicialcircuitda.com/the-prosecutor-behind-the-paper-trail-deed-fraud/',
+    country: 'US',
+    state: 'GA',
+    isHistorical: true,
+    firstRecorded: '2021-09-01',
+});
+
+UsGM.push({
+    name: 'Butler Bank VP "Cattle-Buying" Investment Fraud (Craig Johnson)',
+    slug: 'missouri-butler-craig-johnson-cattle-investment-fraud',
+    description: `Craig Johnson, 45, of Butler, Missouri, worked as a vice president and loan officer at Community First Bank starting in 2022 while also serving as a pastor at a church in nearby El Dorado Springs until he was removed from that role in 2025. Beginning at least in 2024, Johnson began soliciting "investments" from individuals for cattle he claimed he would buy and quickly resell for a profit, in some cases personally arranging bank loans for the same people he was soliciting and having them deposit the loan proceeds into his own accounts. According to the U.S. Attorney's Office for the Western District of Missouri, Johnson never actually purchased any cattle with the money; instead, he moved the funds into a personal investment account where he repeatedly traded speculative small-cap and micro-cap securities, lost the money, and used newer victims' deposits to paper over the shortfalls left by earlier ones. As Johnson's loan officer, he personally arranged roughly 30 loans and lines of credit at Community First Bank totaling more than $4.4 million tied to the scheme, and in February 2026, to keep the fiction going, he forged a bill of sale claiming he had bought 850 cow-calf pairs for $2.8 million from a real livestock company in Utah; when investigators contacted the company, its owner confirmed no such sale had ever happened and that the signature on the document, while similar to his own, was not his. Combining money taken directly from individual victims with the losses to Community First Bank itself, prosecutors say the scheme totaled more than $9.3 million. Johnson pleaded guilty before U.S. District Judge Fernando J. Gaitan Jr. to wire fraud, bank fraud, aggravated identity theft, and making a false statement to a financial institution, with a sentencing date not yet scheduled. Anyone approached about investing in a short-term cattle purchase or resale deal — especially one pitched personally by a bank loan officer who could also arrange the financing for it — should independently contact any livestock company or seller named in the paperwork using contact information looked up on their own, rather than trusting a bill of sale or invoice handed over by the person asking for the investment, since a real livestock sale can be confirmed directly with the seller in a single phone call.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'medium',
+    sources: ["U.S. Attorney's Office for the Western District of Missouri"],
+    sourceUrl: 'https://www.justice.gov/usao-wdmo/pr/butler-missouri-bank-vice-president-and-former-pastor-pleads-guilty-financial-fraud',
+    country: 'US',
+    state: 'MO',
+    isHistorical: true,
+    firstRecorded: '2024-08-05',
+});
