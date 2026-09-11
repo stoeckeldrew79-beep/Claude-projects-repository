@@ -5024,3 +5024,15 @@ UsNS.push({
     country: 'US',
     state: 'NY',
 });
+
+UsNS.push({
+    name: 'Moskal-Reid Funeral Home Prepaid Services Fraud (Brittany Thomas)',
+    slug: 'pennsylvania-johnstown-moskal-reid-funeral-home-fraud',
+    description: `Brittany Thomas took over as funeral director of Moskal-Reid Funeral Home and Cremation Services in Johnstown, Pennsylvania after her father's death, then collected $31,749 from at least 14 consumers for cremation, death-notice, and death-certificate services that were never completed, according to a lawsuit Pennsylvania Attorney General Dave Sunday's office filed in Cambria County Court of Common Pleas on August 27, 2025. Some of the money came from families prepaying for their own eventual funerals, funds normally required to sit untouched until the service is actually needed, and one client was allegedly overcharged by $12,184 above what the arrangement called for. According to the complaint, Thomas neither performed the paid-for services nor issued refunds once families realized nothing had been done, and the funeral home was ultimately sold off in September 2023. The Pennsylvania Board of Funeral Directors separately revoked Moskal-Reid's establishment license and issued a cease-and-desist order barring both the business and Thomas from providing funeral services in the state. "Funeral directors are expected to offer comfort and dignified services, not cause further anguish," Sunday's office said in announcing the suit, which — brought by Chief Deputy Attorney General Jesse Harvey — seeks full restitution for the affected families, civil penalties and investigative costs, and a permanent bar preventing Thomas from ever working as a funeral director in Pennsylvania again. Anyone prepaying for funeral or cremation services should confirm in writing that the funds are placed into a state-regulated trust or insurance-funded account rather than the funeral home's own operating account, request an itemized receipt for every service paid for, and verify a funeral establishment's current license status through the Pennsylvania State Board of Funeral Directors before signing a prepaid contract.`,
+    categorySlug: 'insurance-fraud',
+    alertLevel: 'medium',
+    sources: ["Pennsylvania Office of Attorney General"],
+    sourceUrl: 'https://www.attorneygeneral.gov/taking-action/ag-sunday-files-suit-against-johnstown-woman-who-collected-costs-for-services-not-completed-after-taking-over-fathers-funeral-home/',
+    country: 'US',
+    state: 'PA',
+});
