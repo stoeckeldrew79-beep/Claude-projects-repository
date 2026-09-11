@@ -5318,6 +5318,10 @@ NotoriousGM.push(
     slug: 'prashanta-kumar-halder-nrb-global-bank-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Bangladesh_Bank_Main_Building.jpg?width=1200',
+    coverImageCredit: "Photo: Mrb Rafi, Wikimedia Commons (CC BY-SA 4.0) — Dhaka, Bangladesh, where Halder's financial institutions were based",
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     sourceUrl: 'https://en.wikipedia.org/wiki/Prashanta_Kumar_Halder',
     body: `Prashanta Kumar Halder, universally known in Bangladesh as PK Halder, trained as an engineer at the Bangladesh University of Engineering and Technology before adding an MBA and a CFA charter and rising steadily through the country's non-bank financial institutions — deputy managing director of Industrial and Infrastructure Development Finance Company by 2008, managing director of Reliance Finance Limited the following year, and by 2015 managing director of NRB Global Bank (later rebranded Global Islami Bank) while simultaneously chairing People's Leasing and Financial Services Limited, one of Bangladesh's largest non-bank lenders.
 
