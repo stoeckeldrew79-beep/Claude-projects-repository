@@ -7128,7 +7128,10 @@ NotoriousGM.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/usao-sdga/pr/florida-woman-sentenced-federal-prison-conspiracy-commit-mail-fraud',
-    // no verified rights-cleared photo found yet — see NotoriousCoverPhotos
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Exterior._U.S._Court_House,_Augusta,_Georgia_LCCN2014630052.tif?width=1200',
+    coverImageCredit: 'Photo: Carol M. Highsmith, public domain, via Wikimedia Commons — the U.S. Courthouse in Augusta, Georgia, in the Southern District of Georgia, where Galloway was sentenced',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Cheryl Galloway, 67, of Yulee, Florida, and her daughter, Ricki Johnson, 42, of Trenton, South Carolina, ran a pandemic-era fraud scheme that worked precisely because it exploited a system built for speed rather than verification. During the COVID-19 pandemic, states across the country stood up emergency unemployment insurance programs meant to get relief checks to laid-off workers as quickly as possible — and, according to federal prosecutors in the Southern District of Georgia, Galloway and Johnson spent roughly two years filing fraudulent claims through that same fast-moving system in at least 40 different states, falsely certifying in each one that they had been working and lost income there.
 
 The scheme required no elaborate technology, just persistence and volume: state after state, application after application, each one claiming a job loss that never happened in a place the applicants likely never worked. Some of the resulting benefits arrived as debit cards mailed directly to Galloway's address, giving investigators a paper trail connecting dozens of claims filed under different circumstances back to the same two women. Prosecutors say the pair collected roughly $480,000 in fraudulent benefits and attempted to obtain even more before the scheme was uncovered.
@@ -7145,7 +7148,9 @@ NotoriousGM.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/usao-edny/pr/former-national-basketball-association-players-current-player-agent-and-three-other',
-    // no verified rights-cleared photo found yet — see NotoriousCoverPhotos
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Malik_Beasley_Nuggets_(cropped).jpg?width=1200',
+    coverImageCredit: 'Photo: All-Pro Reels, CC BY-SA 2.0, via Wikimedia Commons — Malik Beasley, one of the defendants named in the scheme',
+    coverImagePosition: 50,
     body: `Note: this profile describes a pending federal criminal prosecution. Malik Beasley, Ed Davis, and their co-defendants have not been convicted of anything described below, an indictment is only a set of charges rather than proof of guilt, and all defendants are presumed innocent unless and until proven guilty at trial.
 
 By the time federal prosecutors in the Eastern District of New York unsealed charges against him in June 2026, Malik Beasley had already spent nine seasons in the NBA and earned close to $60 million in career salary. According to the indictment, that salary hadn't been enough to keep him ahead of his own gambling losses — and prosecutors say a group of associates saw that debt as a way in.
