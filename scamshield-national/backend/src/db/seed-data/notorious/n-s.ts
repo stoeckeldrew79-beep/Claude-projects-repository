@@ -4215,6 +4215,10 @@ NotoriousNS.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
     sourceUrl: 'https://www.justice.gov/archive/usao/waw/press/2011/may/miracle.html',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Seattle-_William_Kenzo_Nakamura_United_States_Court_House_front.jpg?width=1200',
+    coverImageCredit: 'Thayne Tuason, CC BY 4.0, via Wikimedia Commons',
+    coverImagePosition: 50,
     body: `Robert Miracle, of Bellevue, Washington, ran a group of companies — Laramie Petroleum Inc., MCube Petroleum Inc., and affiliated entities Diski LLC, Basilam LLC, and Halmahera-Rembang LLC — that he pitched to investors as vehicles for oil and gas field development in Indonesia and Malaysia. He told investors the overseas fields were producing and profitable, an assertion few of them were in any position to verify from the other side of the world, and one that turned out to be almost entirely false.
 
 Between September 2004 and October 2007, Miracle's companies took in roughly $65.3 million from investors. About $36.7 million of that went right back out the door as "dividends" and payments to lenders — the defining mechanic of a Ponzi scheme, in which money from newer investors funds payouts that make earlier investors believe the underlying business is real and thriving. What remained went to a mix of genuine, if limited, Indonesian drilling costs and Miracle's own spending, including a diamond ring later valued at more than $38,000 and a painting worth more than $27,000, both ultimately forfeited to the government.
