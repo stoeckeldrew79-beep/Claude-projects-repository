@@ -3959,6 +3959,10 @@ If you received a notice about this breach, the most useful steps now are ones t
     author: "ScamShield Editorial",
     tags: ["guide", "lucent-health-solutions-2023-data-breach"],
     sourceUrl: "https://www.classaction.org/news/lucent-health-solutions-settlement-resolves-class-action-lawsuit-over-october-2023-data-breach",
+    // representative photo — replace with an exact match if found
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Nashville,_TN_skyline.jpg?width=1200",
+    coverImageCredit: "Photo: Quintin Soloviev, CC BY 4.0, via Wikimedia Commons — Nashville skyline, where Lucent Health is based",
+    coverImagePosition: 50,
     body: `Lucent Health Solutions, LLC is a Nashville-based health plan administrator that manages benefits on behalf of self-insured employers — the kind of company whose name most plan members never see, even though it's quietly holding their health insurance information. On or around October 2, 2023, cybercriminals gained access to a corporate email account at Lucent Health, and a subsequent investigation found that the intrusion had exposed the personal and protected health information of roughly 37,000 people, including names, dates of birth, health insurance details, and other personally identifiable and protected health information.
 
 A proposed class action, Corralejo v. Lucent Health Solutions, LLC, followed, alleging the company failed to implement adequate cybersecurity measures to safeguard the sensitive data in its care. Rather than continue litigating, Lucent Health agreed to a settlement that received preliminary court approval on May 5, 2026, with a final approval hearing set for September 9, 2026. As is standard in settlements like this one, Lucent Health made no admission of wrongdoing.
