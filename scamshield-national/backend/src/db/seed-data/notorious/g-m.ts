@@ -8362,3 +8362,20 @@ Austin's case is a reminder that the "trusted bookkeeper" role — whether an em
     sourceUrl: 'https://www.justice.gov/usao-sdfl/pr/former-plantation-bookkeeper-sentenced-federal-prison-98-million-embezzlement-scheme',
   },
 );
+
+NotoriousGM.push(
+  {
+    title: 'Caleb Maddix, Ryan O\'Donnell, Thomas Lancer, and the Air AI Business Opportunity Scam',
+    slug: 'caleb-maddix-air-ai-business-opportunity-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2026/03/air-ai-its-owners-will-be-banned-marketing-business-opportunities-settle-ftc-charges-company-misled',
+    body: `Caleb Maddix built a public profile as a teenage "success" influencer and business coach years before he turned 22 — a persona built on the promise that hustle and confidence could substitute for experience. That persona became the public face of Air AI, a company he ran alongside Ryan O'Donnell and Thomas Lancer that pitched itself as a shortcut into the artificial-intelligence boom: an "AI-driven business opportunity" that, the trio told prospective buyers, could earn a small business owner as much as $250,000.
+
+According to a Federal Trade Commission complaint filed in August 2025 in the U.S. District Court for the District of Arizona, that promise was the hook for a sales operation running since at least February 2023. Air AI Technologies, Inc. and five affiliated companies — doing business under names including Air.ai and Scale 13 — charged small-business owners $25,000 to $100,000 in upfront license fees for what the FTC described as AI-powered software bundled with business-coaching support. In practice, the complaint alleges, the software was frequently glitchy or simply unavailable, the earnings claims bore no resemblance to what typical buyers actually made, and the "buy-back" and refund guarantees the company used to close reluctant buyers were misrepresented and rarely honored when customers tried to invoke them.
+
+Some small-business owners lost as much as $250,000 chasing the results Air AI had promised, the FTC said, with several ending up in debt rather than the profitable AI-powered business they had paid to build. On March 24, 2026, Maddix, O'Donnell, Lancer, and their companies settled the FTC's case, agreeing — without admitting or denying the underlying allegations — to a permanent ban from ever again marketing, promoting, or selling a business opportunity, along with restrictions on telemarketing claims and unsubstantiated earnings representations. The settlement included an $18 million monetary judgment that was largely suspended based on the defendants' documented inability to pay the full amount, with the operators required to pay $50,000 toward consumer redress instead. "Companies that market AI-related tools with false promises of unrealistic investment returns and guaranteed refunds harm hardworking small business owners and undermine legitimate business's adoption of AI," said Christopher Mufarrige, Director of the FTC's Bureau of Consumer Protection, in announcing the settlement.
+
+The Air AI case landed in the middle of a wave of "AI-washing" enforcement, where regulators have gone after companies that use the artificial-intelligence label to make an old sales pitch — pay a large upfront fee for a business opportunity that will supposedly make you rich — sound like access to cutting-edge technology instead. A business opportunity charging five- or six-figure license fees up front, built around an earnings promise that sounds too specific and too large to be a normal outcome, carries the same warning signs whether it's selling vending machines, a franchise, or an "AI-driven" software license — and under the FTC's Business Opportunity Rule, any seller is legally required to back its earnings claims with a written disclosure document, something the FTC's case found Air AI never actually provided.`,
+  },
+);
