@@ -2065,7 +2065,10 @@ NotoriousTZ.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/opa/pr/ukrainian-israeli-citizen-sentenced-multi-million-dollar-fake-brokerage-scheme',
-    // no rights-cleared photo found — sourceUrl above serves as the "read the full story" link
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Jackson_December_2018_02_(Mississippi_State_Capitol)_(cropped).jpg?width=1200',
+    coverImageCredit: 'Photo: Michael Barera, Wikimedia Commons (CC BY-SA 4.0) — Jackson, Mississippi, seat of the Southern District of Mississippi, where Yaroslav Shilkloper was sentenced',
+    coverImagePosition: 50,
     body: `Yaroslav Shilkloper, a dual citizen of Ukraine and Israel, ran his fraud through a set of companies built to sound like legitimate investment firms — K6 Investing, Neotron Holding Ltd., and Goldex Technology — that promised American victims high, steady returns on money placed through what looked like an ordinary online brokerage. Investors could log into a digital platform and watch what appeared to be real-time performance data on their holdings, numbers that tracked upward the way a real trading account's might. None of it was connected to an actual market. Victims' money was never invested at all; it went straight into accounts Shilkloper and his co-conspirators controlled.
 
 When investors tried to withdraw their supposed gains, the operation's second layer kicked in: some were simply blocked from cashing out, others were threatened with legal action for trying, and others still were talked into sending additional money before they'd be allowed to withdraw anything. Behind the scenes, prosecutors said, the more than $3 million taken from U.S. victims was laundered through a chain of bank accounts spanning Ukraine, Georgia, Hungary, Israel, the Czech Republic, and elsewhere — a deliberately international paper trail meant to put as many borders as possible between the American money and whoever was actually holding it.
@@ -2082,7 +2085,10 @@ NotoriousTZ.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/usao-ri/pr/two-defendants-plead-guilty-transnational-fraud-scheme-targeting-elderly-victims',
-    // no rights-cleared photo found — sourceUrl above serves as the "read the full story" link
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Federal_Building_(Providence,_Rhode_Island)_2017.jpg?width=1200',
+    coverImageCredit: 'Photo: Kenneth C. Zirkel, Wikimedia Commons (CC BY-SA 4.0) — the Federal Building and Courthouse in Providence, Rhode Island, where Fangzheng Wang and Cynthia Jia Sun were prosecuted',
+    coverImagePosition: 50,
     body: `The scheme started with a pop-up window designed to look like a security alert from a familiar technology company, warning that the victim's computer had been hacked or their bank account compromised. A phone number in the pop-up connected callers to operatives posing as bank fraud investigators or officials from the Federal Trade Commission and the Federal Reserve, who walked frightened, mostly elderly victims through a series of instructions to "protect" their money: wire funds, send cryptocurrency, or — in a twist that made the scheme harder to trace than a simple wire transfer — withdraw cash and convert it into gold bars that a government "courier" would then collect for safekeeping.
 
 Fangzheng Wang, 25, of Westborough, Massachusetts, and Cynthia Jia Sun, 25, of Houston, Texas, were two of eight people indicted in May 2025 in the District of Rhode Island for roles in that operation. Neither ran the call centers generating the fake alerts; prosecutors said their job was logistics — coordinating with co-conspirators to identify which victims had bought gold or set aside cash, then traveling in person to those victims' homes to physically pick up the cash and gold bars and move them on to other members of the conspiracy. By the time of the indictment, investigators had identified approximately 300 victims across at least 37 U.S. states and Canada, with confirmed losses exceeding $5 million and roughly $16 million more in suspected laundered proceeds traced through a single identified bank account.
