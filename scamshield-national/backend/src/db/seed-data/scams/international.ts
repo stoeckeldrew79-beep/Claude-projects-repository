@@ -13528,3 +13528,16 @@ International.push(
     country: 'CK',
   },
 );
+
+International.push(
+  {
+    name: 'Cook Islands Stolen Card / Fake Death Certificate Resort Refund Scam',
+    slug: 'cook-islands-stolen-card-fake-death-certificate-resort-refund-scam',
+    description: `Cook Islands News reported on September 3, 2026 that accommodation operators were being urged to verify unusual refund requests after a global scam surfaced targeting the reservation inboxes of Rarotonga resorts. Tata Crocombe, executive chairman of Aitutaki Lagoon Private Island Resort, The Rarotongan Beach Resort & Lagoonarium, and Sanctuary Rarotonga, flagged the pattern after it hit his own properties' booking inbox: fraudsters use a stolen credit card to make a real reservation, then follow up posing as the guest — or a grieving relative — with a fabricated death certificate or other document, asking staff to cancel the booking and refund the payment to a different account or card than the one originally charged. Because the original charge did go through, the request can look like a routine, sympathetic refund case rather than fraud, and if front-desk or reservations staff comply, the resort ends up wiring "clean" money to the scammer while the true cardholder later disputes the original stolen-card charge, leaving the business out the refunded amount as well. Operators were advised to treat any refund request tied to a cancellation story that can't be independently verified — and especially any request to send the refund to an account or card different from the one used to pay — as a red flag, to confirm such requests by calling the guest directly using contact details obtained independently of the email itself, and to route suspicious cases to their bank's fraud team before processing any refund.`,
+    categorySlug: 'business-email-compromise',
+    alertLevel: 'medium',
+    sources: ['Cook Islands News', 'Aitutaki Lagoon Private Island Resort', 'The Rarotongan Beach Resort & Lagoonarium', 'Sanctuary Rarotonga'],
+    sourceUrl: 'https://www.cookislandsnews.com/internal/national/tourism/business/accommodation-providers-warned-of-global-fake-death-certificate-scam/',
+    country: 'CK',
+  },
+);
