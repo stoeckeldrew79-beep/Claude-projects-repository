@@ -4072,6 +4072,10 @@ Pruthi pleaded guilty in January 2012 to charges including obtaining money by de
     slug: 'jessica-richman-zachary-apte-ubiome-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/San_Francisco_City_Hall.JPG?width=1200',
+    coverImageCredit: 'Photo: Sanfranman59, Wikimedia Commons (CC BY-SA 4.0) — San Francisco, where uBiome was headquartered',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     sourceUrl: 'https://www.justice.gov/usao-ndca/pr/ubiome-co-founders-charged-federal-securities-health-care-fraud-conspiracies',
     body: `Jessica Richman and Zachary Apte co-founded uBiome in San Francisco in 2012, pitching a genuinely novel idea: mail-order kits that let ordinary consumers sequence the bacteria in their own gut and get a report back on their microbiome. Richman, as CEO, and Apte, as chief scientific officer, rode the buzz around the emerging field to raise roughly $105 million from venture investors over the company's life, pushing its valuation to around $600 million by a 2018 funding round and landing Richman on lists of promising young founders to watch.
 
@@ -4199,6 +4203,10 @@ What followed was over a decade of delay — proceedings repeatedly split apart 
     slug: 'hardy-rodenstock-jefferson-wine-bottle-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Thomas_Jefferson's_Monticello.JPG?width=1200",
+    coverImageCredit: "Photo: Martin Falbisoner, Wikimedia Commons (CC BY-SA 3.0) — Monticello, Thomas Jefferson's Virginia home, whose meticulous purchase records helped expose the forged bottles",
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     sourceUrl: 'https://www.winespectator.com/articles/infamous-wine-merchant-hardy-rodenstock-dies-at-76',
     body: `Hardy Rodenstock — born Meinhard Görke in 1941, and previously known as a manager and publisher in the German pop and schlager music business — reinvented himself in the 1980s as the fine-wine world's most enviable connoisseur, a man with an uncanny gift for tracking down bottles no one else could find. In 1985 he unveiled his greatest discovery yet: a cache of 18th-century bottles, some engraved "Th.J." and a vintage year, that he said had turned up behind a bricked-up wall in a Paris cellar and had belonged to Thomas Jefferson himself. He would not say exactly where the cellar was, citing a promise of confidentiality to the property's owner — an explanation that, remarkably, satisfied the wine trade for the better part of two decades.
 
