@@ -10411,6 +10411,36 @@ International.push(
     sourceUrl: 'https://www.gazetaexpress.com/en/BQK-warns-citizens-about-fraudulent-SMS--save-your-financial-data/',
     country: 'XK',
   },
+  {
+    name: 'Fake "Traffic Fine" SMS Phishing Scam Impersonating Kosovo Police',
+    slug: 'kosovo-fake-traffic-fine-sms-phishing-scam',
+    description: `During the first week of January 2026, Kosovo citizens began reporting SMS messages impersonating the country's Traffic Authorities, claiming the recipient had committed a traffic violation and must pay a fine through an attached link or face "additional legal measures." The Kosovo Police issued a public warning on January 7, 2026, stating plainly that "the Kosovo Police have not sent any such messages" and that the texts contain fraudulent links intended to mislead the public; the force urged citizens not to click the links, not to provide personal or bank card information, not to make any payment through them, and to delete the messages immediately. Cybersecurity expert Kastriot Fetahaj described the campaign to Prishtina Insight as a classic case of "smishing" (SMS phishing), noting that the fraudulent links use words like "gov" or "ekosova" to look official even though the domain is not a genuine government one, and that the messages exploit urgency and the fear of legal consequences to push victims into acting before they stop to think. He warned that entering bank card details can lead to immediate unauthorized transactions, while entering personal identifiers can enable identity fraud, account takeovers, SIM-swap attacks, and repeat targeting — "once someone engages, they are often targeted again." Police noted this was not an isolated campaign: similar impersonation waves had already hit Kosovo in October 2025, when fake phishing emails circulated in the name of the Kosovo Police, and in December 2025, when fraudulent messages were sent in the name of the Post of Kosovo.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Kosovo Police', 'Prishtina Insight', 'Cybersecurity expert Kastriot Fetahaj'],
+    sourceUrl: 'https://prishtinainsight.com/kosovo-citizens-targeted-by-fake-traffic-fine-messages/',
+    country: 'XK',
+  },
+  {
+    name: 'Fake Crypto Investment Ads Using Impersonated Kosovo Public Figures',
+    slug: 'kosovo-fake-crypto-ads-impersonated-public-figures-scam',
+    description: `Fraudulent Facebook ad campaigns have repeatedly used the photos and names of well-known Kosovo public figures, without their knowledge or consent, to promote bogus cryptocurrency trading platforms. According to an analysis by the fact-checking platform Hibrid.info, reported on by Koha.net, the ads run through small, newly created Facebook pages with few followers and little to no posting history, and lead to fake "news" pages designed to mimic the look of credible media outlets; on these pages a fabricated interview claims the public figure earned large sums of money by investing in the promoted platform, and in at least one documented case the fake article claimed the person had been sued by the Central Bank of Kosovo (CBK) — an invented event meant to make the scam look more credible and urgent. The trail of these Kosovo-targeted platforms — including ones marketed under names such as "Nearest Edge," "Bitapp24," and "Immediate Codex" — leads back to page administrators located outside Kosovo, with near-identical campaigns running at the same time in Albania, North Macedonia, and other countries, each localized with that country's own celebrities. Once a victim reaches the fake platform, they are asked to hand over personal data to "trade" cryptocurrency, and the promised returns never materialize; independent reviews of the platforms cited in the reporting flagged low trust and transparency ratings. On May 3, 2024, the Kosovo Police issued a public communiqué warning citizens specifically about online investment fraud, explaining how the schemes are carried out and urging anyone victimized to report it at their nearest police station.`,
+    categorySlug: 'cryptocurrency-scams',
+    alertLevel: 'medium',
+    sources: ['Koha.net', 'Hibrid.info', 'Kosovo Police'],
+    sourceUrl: 'https://www.koha.net/en/arberi/si-funksionojne-kriptomashtrimet-me-figura-publike-ne-kosove',
+    country: 'XK',
+  },
+  {
+    name: '"Pension Association" Membership Fee Fraud Targeting Kosovo Pensioners',
+    slug: 'kosovo-pension-association-membership-fee-fraud',
+    description: `In May 2024, the Kosovo Police opened an investigation into a suspected fraud scheme targeting pensioners across the country. Pensioners organizing to demand compensation from the government for pension losses to inflation were being told that, in order to join the legal effort, they first had to become "members" of an association and pay a fee of three euros. A Kallxo Përnime television investigation, published on May 24, 2024, found pensioners confused about what exactly the payment was for; one pensioner interviewed, Ismet Hoti, said, "it seems to be an application for pension assistance, I have heard such from people, I do not know what it is." The Kosovo Police confirmed that, on May 13, 2024, the competent prosecutor had authorized an investigation into "possible fraud against the pensioners of the Republic of Kosovo," and by May 28 police said they had undertaken investigative actions into the suspected scheme. The case shows how scammers can exploit a real, sympathetic cause — elderly pensioners' genuine grievance over inflation-eroded pensions — to collect small, easy-to-overlook fees from a large number of victims under the guise of "membership" in an advocacy association.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'medium',
+    sources: ['Kosovo Police', 'Kallxo Përnime', 'Prishtina Insight'],
+    sourceUrl: 'https://prishtinainsight.com/kosovo-probes-alleged-pension-fraud-scheme-following-kallxo-com-investigation/',
+    country: 'XK',
+  },
 );
 
 International.push(
