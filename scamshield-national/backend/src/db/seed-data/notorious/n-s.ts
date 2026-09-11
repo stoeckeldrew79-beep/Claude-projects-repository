@@ -4773,6 +4773,10 @@ The case is one of a growing number of federal prosecutions targeting the courie
     slug: 'shamso-hassan-hanaan-yusuf-autism-medicaid-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Minneapolis_Federal_Courthouse_-_U.S._District_Court,_Minnesota_(43702329510).jpg?width=1200',
+    coverImageCredit: 'Photo: Tony Webster, CC BY 2.0, via Wikimedia Commons — the federal courthouse in Minneapolis, District of Minnesota',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found; defendants are presumed innocent pending trial
     sourceUrl: 'https://www.dhs.gov/news/2026/05/27/two-minnesota-residents-arrested-21-million-medicaid-fraud-scheme',
     body: `Note: Shamso Ahmed Hassan and Hanaan Mursal Yusuf have been indicted, not convicted. The description below reflects a federal indictment — allegations the government must still prove — and both defendants are presumed innocent unless and until a court finds otherwise.
 
