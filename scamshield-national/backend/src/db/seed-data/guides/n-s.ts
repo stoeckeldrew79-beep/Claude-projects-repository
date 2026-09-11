@@ -3759,6 +3759,10 @@ If you see an ad, video, or unsolicited message featuring a celebrity or financi
     slug: "student-loan-save-plan-repayment-scam-alert-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "student-loan-save-plan-scam-alert"],
+    // representative photo — replace with an exact match if found
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Lyndon_Baines_Johnson_Department_of_Education_Building.jpg?width=1200",
+    coverImageCredit: "Photo: Farragutful (CC BY-SA 4.0) — the U.S. Department of Education headquarters, which oversees the federal student loan programs scammers are exploiting",
+    coverImagePosition: 50,
     sourceUrl: "https://ag.ny.gov/press-release/2026/attorney-general-james-warns-new-yorkers-about-student-loan-scams",
     body: `New York Attorney General Letitia James issued a consumer alert on September 2, 2026, warning that scammers are exploiting the upheaval in federal student loan repayment to target borrowers with fake forgiveness and debt-relief offers. The alert points to two specific federal changes driving the confusion: the elimination of the SAVE (Saving on a Valuable Education) income-driven repayment plan, and the ongoing phase-out of other existing income-based repayment plans. Millions of borrowers who had enrolled in SAVE, or who were counting on an income-driven plan to keep their monthly payments manageable, have been left trying to figure out which repayment options still exist and what happens to their account next — exactly the kind of uncertainty scammers have reliably exploited after every past round of federal student loan policy change.
 
