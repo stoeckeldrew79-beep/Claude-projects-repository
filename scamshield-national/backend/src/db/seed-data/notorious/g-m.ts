@@ -7370,3 +7370,20 @@ Thomas pleaded guilty on October 26, 2018, in the U.S. District Court for the Di
 The Webster case is a fixture in FBI elder-fraud training precisely because of who ended up on the receiving end: lottery and sweepstakes scammers dial enormous, indiscriminate call lists with no way of knowing in advance who will answer, which meant a former head of both the FBI and CIA was, at the moment the phone rang, just as anonymous a target as anyone else in the directory. What protected the Websters wasn't a level of sophistication ordinary victims lack — it was the same advice federal agencies give everyone: a legitimate lottery never asks winners to pay upfront fees, and reporting a suspicious call immediately, rather than engaging with the caller, is what turned this particular scam attempt into a solved case.`,
   },
 );
+
+NotoriousGM.push(
+  {
+    title: 'Jerome and Shaun Cohen and the $135 Million EquityBuild Real Estate Ponzi Scheme',
+    slug: 'jerome-shaun-cohen-equitybuild-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-24237',
+    body: `EquityBuild, Inc. and its lending arm, EquityBuild Finance, LLC, pitched a straightforward-sounding real estate investment to people around the country starting in 2010: hand over money, and it would go toward buying, renovating, and managing income-producing apartment buildings and single-family homes on Chicago's South Side, secured by promissory notes and first-lien mortgages that made the investment sound as safe as a bank loan while promising annual returns of 12 to 20 percent. Father and son Jerome H. Cohen and Shaun D. Cohen ran the operation, eventually building a portfolio of 79 apartment buildings and 34 single-family homes — roughly 1,674 rental units in all — and raising more than $135 million from about 900 investors nationwide.
+
+According to the SEC, the pitch didn't match what was actually happening inside the business. The Cohens routinely inflated the value of the properties used to secure investors' notes and skimmed 15 to 30 percent off the top of each investment as undisclosed fees before a dollar ever reached a renovation or a mortgage payoff. The properties themselves frequently didn't generate anywhere near enough rental income to support the double-digit returns investors had been promised. Rather than disclose the shortfall, the SEC alleged, the Cohens kept the money moving the way a Ponzi scheme does: using newly raised funds to pay obligations owed to earlier investors, even as internally recorded video showed the two men acknowledging the businesses' financial distress to each other while they continued soliciting new money from the public.
+
+The SEC filed a civil fraud suit against Jerome Cohen, Shaun Cohen, and their companies in the U.S. District Court for the Northern District of Illinois on August 15, 2018. A federal judge issued a temporary restraining order two days later, freezing the defendants' assets and halting further fundraising, and appointed a receiver to take control of EquityBuild's sprawling property portfolio to preserve what could still be recovered for investors. The court later entered judgments against the Cohens totaling more than $6.5 million in disgorgement and civil penalties — roughly $3 million against Jerome and $3.5 million against Shaun — while the receiver spent years selling off the underlying buildings, many of them distressed, to return what proceeds it could to the roughly 900 people who had put money in.
+
+The EquityBuild case is a reminder that "secured by real estate" is only as protective as the appraisal and the paperwork behind it — a promissory note tied to an inflated property value, sold with fees the investor never sees itemized, can carry exactly the same underlying risk as an unsecured Ponzi scheme, dressed up in the language of hard assets and first-lien priority that makes it feel far safer than it actually is.`,
+  },
+);
