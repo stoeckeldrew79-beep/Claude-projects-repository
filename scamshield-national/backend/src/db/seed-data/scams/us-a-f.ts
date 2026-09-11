@@ -6581,3 +6581,27 @@ UsAF.push({
     country: 'US',
     state: 'FL',
 });
+
+UsAF.push({
+    name: 'Connecticut Chimney Sweep and Repair Scam',
+    slug: 'connecticut-chimney-sweep-repair-scam',
+    description: `The Connecticut Department of Consumer Protection and the Connecticut Fire Academy issued a joint consumer alert on November 3, 2025 warning residents about a wave of chimney cleaning and repair scams as heating season began, after DCP logged 48 complaints involving chimney-related services since the fall of 2024. Commissioner Bryan T. Cafferelli's office described door-to-door and cold-call solicitors who quote an unusually low price to get in the door, then declare once inside — or over the phone after a supposed "inspection" — that the chimney has a serious, invented structural problem or fire hazard requiring immediate, far more expensive repair work, using high-pressure tactics to push residents into paying before they can get a second opinion. Investigators flagged red flags including unsolicited calls placed from 800 numbers, work trucks bearing out-of-state license plates (most often from New York), refusal to provide a written, signed contract, and demands for payment in cash, by wire transfer, or on a prepaid card rather than by check or credit card that could later be disputed. Connecticut Fire Academy Director of Training P.J. Norwood tied the alert to real safety stakes, noting that chimney fires cause an estimated $125 million in property damage nationwide each year, even as the agencies emphasized that a legitimate chimney cleaning typically costs only $240 to $380. Before hiring anyone to clean or repair a chimney, Connecticut residents can verify a contractor's Home Improvement Contractor registration for free at eLicense.ct.gov, confirm any certification claim directly through the Chimney Safety Institute of America or the National Chimney Sweep Guild, and should insist on a written estimate and signed contract before any work begins or any money changes hands. Anyone who believes they were targeted or overcharged by a chimney service can file a complaint with the Department of Consumer Protection at dcp.complaints@ct.gov or through its website at ct.gov/DCP/complaints.`,
+    categorySlug: 'home-improvement-solar',
+    alertLevel: 'medium',
+    sources: ['Connecticut Department of Consumer Protection', 'Connecticut Fire Academy'],
+    sourceUrl: 'https://portal.ct.gov/dcp/news-releases-from-the-department-of-consumer-protection/2025-news-releases/get-your-chimney-cleaned-but-be-cautious-of-chimney-sweep-and-repair-scams',
+    country: 'US',
+    state: 'CT',
+});
+
+UsAF.push({
+    name: 'Central Florida Bounce House and Party Rental Deposit Scam',
+    slug: 'florida-bounce-house-party-rental-deposit-scam',
+    description: `Central Florida rental businesses and the Better Business Bureau serving Central Florida warned the public on September 25, 2025 about a wave of online bounce house and party rental scams that intensified as families booked entertainment for fall celebrations. Isaias Dingui, owner of Bounce N Around Rentals in St. Cloud, told WKMG News 6 that his legitimate rental company fields calls almost every week from families who paid a deposit to a business they found advertised on Facebook, only to have the bounce house, tables, or chairs never show up on the day of the event; in one case Dingui described, a customer was moments away from sending a $100 deposit to a fraudulent page before catching the warning signs. The scammers typically post professional-looking ads for inflatables and party equipment at prices well below competitors, communicate with customers exclusively through Facebook Messenger or other chat apps rather than a phone number, and insist on payment through methods like Zelle, Cash App, or a direct bank transfer, refusing to accept a credit card — the one payment method that would let a victim dispute the charge and recover their money. When the day of the event arrives, the "vendor" either goes silent or claims a sudden, invented emergency, and the deposit is gone along with any chance of finding a replacement rental on short notice. Gerry Mendiburt, director of investigations for the Better Business Bureau serving Central Florida, said imposter scams of this kind are a regular presence on the BBB's Scam Tracker, with the bureau fielding more than 800 imposter-scam reports statewide over the preceding year, including more than 500 in just the six months before the alert. The BBB recommends verifying a rental company's BBB profile and reviews before paying anything, confirming the business has a working phone number and a real, checkable street address, and paying only by credit card so a fraudulent charge can be disputed rather than by a peer-to-peer payment app that offers no buyer protection once the money is sent.`,
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'medium',
+    sources: ['Better Business Bureau (Central Florida)', 'WKMG News 6 / ClickOrlando'],
+    sourceUrl: 'https://www.clickorlando.com/news/local/2025/09/25/central-florida-business-warns-of-online-bound-house-rental-scams/',
+    country: 'US',
+    state: 'FL',
+});
