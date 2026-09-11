@@ -6707,3 +6707,20 @@ A federal grand jury in the Central District of California indicted Hay and Mayo
 The Hay and Mayo case is less notable for any single fraudulent project than for how many of them there were: nine named schemes run by the same two promoters over three years, each one following an identical script of hype, a roadmap that was never real, and a disappearance once the money landed. For an industry with no equivalent of a prospectus or an escrow requirement, that kind of repetition is what eventually turns a string of disappointed Discord communities into the Justice Department's biggest NFT prosecution to date.`,
   },
 );
+NotoriousGM.push(
+  {
+    title: 'Jason Harrington and the Forged Richard Hambleton Paintings He Sold as the Real Thing',
+    slug: 'jason-harrington-richard-hambleton-forged-art-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-sdca/pr/escondido-resident-sentenced-three-years-prison-selling-11-million-forged-art',
+    // no rights-cleared photo found — sourceUrl above serves as the "read the full story" link
+    body: `Richard Hambleton, the "Godfather of Street Art" whose shadowy silhouette paintings once hung alongside work by Jean-Michel Basquiat and Keith Haring, died in 2017 — homeless and largely broke, despite decades of gallery representation. Jason Harrington, of Escondido, California, spent 2018 through 2020 trading on the gap between the artist's fame and his poverty, manufacturing a market in fake Hambletons that the real artist was no longer alive to dispute.
+
+Harrington sold forged "Shadowman" paintings and other Hambleton-attributed works to at least 15 galleries and private collectors, backing each sale with fabricated provenance: letters purportedly written by people who had received the paintings directly from Hambleton, and photographs he digitally altered to make it look like his invented sellers had personally known the artist. When a buyer's due diligence threatened to catch up with him, prosecutors said Harrington arranged for accomplices to corroborate the false ownership history in person, adding a layer of live human confirmation to paperwork that wouldn't otherwise hold up. He also tried to sell a forged painting attributed to the artist Barkley Hendricks, posing as a gallery owner who claimed to have inherited it from an uncle — a story that fell apart when Hendricks' widow examined the piece and identified it as fake.
+
+Harrington pleaded guilty to federal wire fraud, admitting he had sold more than $1.1 million in forged artwork to victims who believed they were buying authentic pieces. On December 10, 2021, a federal judge in San Diego sentenced him to three years in federal prison and ordered him to pay the full $1.1 million in restitution. Acting U.S. Attorney Randy Grossman called it "a fitting sentence for a defendant who harmed investors, corrupted the integrity of the art market and damaged the historical-cultural record."
+
+The case is a reminder that a forger's biggest advantage is often simply timing: Hambleton's chaotic later life and posthumous reputation meant there was no living artist to look at a "newly discovered" Shadowman and say it wasn't his, and no comprehensive catalogue raisonné to check it against — a gap Harrington filled for two years with manufactured letters, doctored photographs, and paid corroboration, until a forged painting attributed to a different, still closely watched artist's estate finally caught up with him.`,
+  },
+);
