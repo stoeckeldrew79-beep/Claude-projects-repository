@@ -5001,3 +5001,22 @@ The case took over two years to resolve. On August 5, 2024, the court approved s
 FES worked by layering two frauds that reinforced each other: a credit-repair pitch that exploited people's urgent need to fix a real, painful problem, and a recruitment scheme that turned FES's own paying victims into its unpaid sales force. Both halves depended on the same federal law most operations like it violate without customers ever realizing it — the Credit Repair Organizations Act's flat ban on charging for credit repair before the work is done — a rule that exists precisely because people trying to rebuild damaged credit are among the easiest targets to convince that paying first is normal.`,
   },
 );
+
+NotoriousNS.push(
+  {
+    title: 'Sital Singh and the Gold-Bar "Handler" Ring That Drained Elderly Victims Across Ten States',
+    slug: 'sital-singh-gold-bar-handler-elder-fraud-ring',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-edmo/pr/five-sentenced-helping-overseas-scammers-defraud-elderly-victims',
+    body: `The call, according to federal prosecutors, always started the same way: someone claiming to be from a bank's fraud department or a tech-support desk told an elderly victim their accounts had been compromised, and that the only way to protect their life savings was to liquidate them immediately into gold bars or coins. It was a lie — but a convincing enough one, repeated across at least ten states, to fund a St. Louis-based operation that moved more than $9.3 million out of elderly Americans' accounts and into the hands of a domestic network built specifically to collect it in person.
+
+That network split the work into two roles. Dariona Lambert, 24, and Zhamoniq Stevens, 24, worked as couriers, driving to victims' homes across the country — in Tennessee, Wisconsin, Arizona, California, Florida, North Carolina, Pennsylvania, Ohio, and elsewhere — to physically collect the gold victims had been talked into buying. Sital Singh, 43, along with Chintankumar Parekh, 52, and Mehulkumar Darji, 42, acted as the ring's "handlers": they received the gold from the couriers, paid them in cash for each pickup, and laundered the proceeds back to the overseas organizers running the phone scripts. In one case cited by prosecutors, an 82-year-old victim alone lost approximately $250,000 this way, having been convinced to convert her retirement savings into gold and hand it to a stranger who arrived at her front door claiming to be a "government courier."
+
+The in-person handoff was the mechanism that made the scheme work, and also what eventually exposed it: unlike a wire transfer, a courier showing up at a specific address on a specific day leaves a trail — vehicles, license plates, and repeat visits to the same handlers — that investigators with the FBI and the U.S. Attorney's Office for the Eastern District of Missouri were able to follow back up the chain from individual victims to the handlers receiving the gold.
+
+All five defendants pleaded guilty. On March 12, 2026, U.S. District Judge Matthew T. Schelp sentenced Singh, Parekh, and Darji each to four years in federal prison; Singh was separately ordered to pay $6.6 million in restitution, and Parekh and Darji, both in the country unlawfully, face deportation after completing their sentences. Lambert received two years and Stevens 18 months for their roles as couriers. "Their crimes devastated their elderly victims by robbing them of their life savings," FBI Special Agent Chris Crocker said following the sentencing.
+
+Gold-bar liquidation scams like this one have become one of the fastest-growing variants of the broader "protect your savings" fraud script, precisely because gold is harder for banks to flag mid-transaction than a wire transfer and easier for a domestic network to convert back into untraceable cash once it changes hands. The FBI's standing guidance is unambiguous: no legitimate bank, government agency, or fraud investigator will ever instruct someone to convert their savings into gold or precious metals and hand it to a courier who shows up at their home. That in-person handoff is not a step in protecting an account — it is the theft itself, and anyone told to do it should hang up and independently verify the claim by calling their bank directly or reporting it to the FBI's Internet Crime Complaint Center at ic3.gov.`,
+  },
+);
