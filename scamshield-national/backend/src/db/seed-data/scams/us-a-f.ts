@@ -7428,3 +7428,17 @@ UsAF.push({
     isHistorical: true,
     firstRecorded: '2026-05-11',
 });
+
+UsAF.push({
+    name: 'Arizona State Board of Pharmacy Investigator Impersonation Scam',
+    slug: 'arizona-state-board-of-pharmacy-investigator-impersonation-scam',
+    description: `The Arizona State Board of Pharmacy's April 2026 licensee newsletter warned of a rising number of scam calls and letters after a wave of new licensee reports, describing one incident in detail: a caller used a spoofed caller ID matching the Board's real phone number, 602-771-2727, claimed to be a Board investigator, and told the pharmacist their phone was tapped and their emails were being monitored before patching in a second caller posing as an FBI agent to escalate the pressure. The same licensee separately received a letter carrying what looked like genuine Board letterhead, the official state seal, their own license number, and a forged signature from the Board's executive director falsely claiming their license had been suspended. The Board says common tells across these calls include a caller ID showing "AZ State Board of Pharmacy," a claim that the licensee is under investigation by the Board, DEA, FBI, or another agency, a warning not to tell anyone about the call "or else jeopardize the investigation," a request for a mobile number, a fake callback number, and — the clearest giveaway — a demand to pay a "fine" over the phone or by wire to avoid discipline, something the Board says its agents never do. The licensee in the newsletter's example avoided losing anything only because they called the Board directly and confirmed they were not actually under investigation; the Board asks anyone who gets a similar call to verify by phone at 602-771-2727, report a caller falsely claiming to represent DEA or FBI to those agencies' own extortion-scam reporting channels, and file a complaint with the FCC if the caller's number appeared to be the Board's own.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Arizona State Board of Pharmacy', 'National Association of Boards of Pharmacy (NABP)'],
+    sourceUrl: 'https://nabp.pharmacy/wp-content/uploads/2026/04/April-2026-Arizona-State-Newsletter.pdf',
+    country: 'US',
+    state: 'AZ',
+    isHistorical: true,
+    firstRecorded: '2026-04-01',
+});
