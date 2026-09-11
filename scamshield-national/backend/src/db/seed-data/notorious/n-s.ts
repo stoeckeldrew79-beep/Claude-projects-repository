@@ -4810,3 +4810,20 @@ Ndonwi pleaded guilty to conspiracy to commit wire fraud, and on July 24, 2025, 
 Online pet sales are a well-documented soft spot in ordinary consumer fraud protections: a puppy cannot be inspected before a wire transfer clears, a "seller" can vanish the moment payment lands, and a heartfelt story about a specific breed or a specific horse creates urgency that discourages the buyer from asking basic questions a legitimate breeder or seller would happily answer — a video call with the actual animal, a local pickup option, or payment through a platform that offers buyer protection instead of an irreversible wire or app transfer. The FTC and Better Business Bureau both maintain ongoing pet-scam advisories for exactly this reason: it remains one of the most commonly reported online purchase scams in the country.`,
   },
 );
+
+NotoriousNS.push(
+  {
+    title: 'Oluwafemi Michael Awoyemi and the $215 Million Hacked-Inbox Fraud Network',
+    slug: 'oluwafemi-awoyemi-business-email-compromise-network',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-ndoh/pr/25-defendants-convicted-international-215m-scam-targeted-1000-victims',
+    body: `Note: Oluwafemi Michael Awoyemi, Aruan Drake, and Peter Reed were convicted by a federal jury in April 2026; as of this writing they await sentencing, which will be set based on each defendant's individual role and conduct.
+
+Business email compromise fraud doesn't announce itself with a fake sweepstakes prize or a too-good-to-be-true investment pitch. It hides inside an email thread that looks exactly like the one a victim was already having — with their title company, their vendor, their own employer's payroll department — because the fraud network has, in fact, broken into a real inbox and been reading the real conversation for days or weeks before ever sending a message. Federal prosecutors in the Northern District of Ohio say that was the model behind a Nigerian-linked syndicate that stole roughly $215 million from more than 1,000 victims across 47 states and 19 countries.
+
+The operation's structure spread the work — and the risk — across a long roster of participants. Some members gained unauthorized access to victims' email accounts and monitored the traffic inside, learning enough about pending transactions, invoices, and business relationships to insert a convincing, perfectly timed request to redirect a payment to an account the conspiracy controlled. Others handled the laundering end, moving stolen funds through networks of bank accounts and mules before the theft could be traced or reversed. On April 24, 2026, a federal jury in Toledo convicted three of the operation's participants — Oluwafemi Michael Awoyemi, 40, of Romeoville, Illinois; Aruan Drake, 37, of Atlanta, Georgia; and Peter Reed, 35, of Oak Forest, Illinois — of wire fraud conspiracy, with Awoyemi and Drake also convicted of money laundering conspiracy. They were three of 25 defendants ultimately convicted in the broader investigation; the other 22 pleaded guilty rather than go to trial.
+
+A scheme this size, run by a network this large, depended less on any single victim being careless than on the sheer volume of business email traffic the conspiracy could quietly monitor and exploit — a reminder that any wire instruction arriving by email, even inside a familiar, ongoing thread with a real vendor or title company, is safer verified by a phone call to a number obtained independently, not one included in the email itself. By the time the FBI's Internet Crime Complaint Center or a bank's fraud department gets involved, a wire sent to the wrong account is often gone within hours; the safeguard that actually works has to happen before the transfer, not after.`,
+  },
+);
