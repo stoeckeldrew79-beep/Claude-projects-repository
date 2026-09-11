@@ -7676,6 +7676,10 @@ Before acting on any investment tip from a social media account, whether a well-
     slug: "chases-train-garage-model-train-preorder-scam-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "chases-train-garage-preorder-scam"],
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/2019_East_Texas_Model_Railroad_Club_Open_House_03_(HO-scale_layout).jpg?width=1200",
+    coverImageCredit: "Photo: Michael Barera, CC BY-SA 4.0, via Wikimedia Commons — HO-scale model railroad layout",
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: "https://www.ohioattorneygeneral.gov/Media/News-Releases/May-2026/Yost-Sues-Online-Seller-of-Model-Trains-for-Failur",
     body: `Model-train collectors know the drill: a manufacturer announces a limited run of a highly detailed, often expensive locomotive or rail car, and serious buyers preorder early because the run will sell out and the item may never be made again. That very ordinary hobbyist pattern — pay now, wait months, receive later — is exactly what Ohio Attorney General Dave Yost says a Brecksville seller named Chase D. Wheeler exploited through his online store, Chase's Train Garage, on social media and online marketplaces.
 
@@ -7690,6 +7694,10 @@ Before paying in full for any preordered collectible, look for independent revie
     slug: "doxim-data-breach-settlement-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "doxim-data-breach-settlement"],
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Data_Center_3_(UNC).jpg?width=1200",
+    coverImageCredit: "Photo: Ana Las Heras, CC BY-SA 4.0, via Wikimedia Commons — data center server room",
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: "https://www.classaction.org/news/5.5m-doxim-settlement-resolves-class-action-lawsuit-over-december-2023-data-breach",
     body: `Doxim, Inc. isn't a company most credit union members have ever heard of, but it's one many of them unknowingly do business with anyway: the company prepares and mails account statements and income tax forms on behalf of credit unions across the country, including Beacon Credit Union and Credit Union ONE among its clients. On or about December 30, 2023, Doxim says it "failed to safeguard confidential information pertaining to its credit union clients," resulting in a data breach that exposed members' names, addresses, financial account numbers, and Social Security numbers. A consolidated federal lawsuit followed — filed December 9, 2024 in the U.S. District Court for the Eastern District of Michigan (Case No. 2:24-cv-11550) — accusing Doxim of failing to implement reasonable cybersecurity safeguards to protect the sensitive member data credit unions had entrusted to it. Rather than litigate the claims, Doxim agreed to a $5.5 million settlement, with a final approval hearing scheduled for October 28, 2026 before Judge Terrence G. Berg.
 
