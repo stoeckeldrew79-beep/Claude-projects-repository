@@ -5334,6 +5334,9 @@ NotoriousGM.push(
     slug: 'lawrence-duprey-cl-financial-clico-collapse',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Port_of_Spain_Trinidad.jpg?width=1200',
     sourceUrl: 'https://en.wikipedia.org/wiki/CL_Financial',
     body: `Lawrence Duprey inherited Colonial Life Insurance Company (CLICO) from his uncle in the 1970s and built it into CL Financial, the largest privately held conglomerate in the English-speaking Caribbean — a sprawling group with interests in insurance, banking, energy, real estate, media, and manufacturing across more than thirty countries. At its center was CLICO's practice of selling short-term, high-yield "Executive Flexible Premium Annuity" contracts to ordinary savers across Trinidad and Tobago, Barbados, the Bahamas, and Guyana, promising guaranteed returns well above what any regulated bank could offer. Rather than holding the reserves an insurer is legally required to keep liquid and low-risk, CLICO funneled much of that money into illiquid, related-party ventures inside the CL Financial empire — real estate, a methanol plant, a Caribbean rum and spirits business — leaving the annuity book dependent on a steady stream of new deposits, the same underlying arithmetic as a Ponzi scheme, just dressed up as an insurance product.
 
