@@ -6979,6 +6979,9 @@ NotoriousAF.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/usao-wdwa/pr/texas-couple-indicted-psychic-fraud-scheme-allegedly-stealing-millions-vulnerable',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/William_Kenzo_Nakamura_United_States_Court_House.jpg?width=1200',
+    coverImageCredit: 'William Kenzo Nakamura U.S. Courthouse, Seattle (Western District of Washington), where the indictment was unsealed — photo by Another Believer, CC BY-SA 3.0, via Wikimedia Commons',
     body: `Note: Bridgette Evans and Vinnie Uwanawich have been indicted, not convicted. The description below reflects a federal indictment — allegations the government must still prove — and both defendants are presumed innocent unless and until a court finds otherwise.
 
 Bridgette Doreen Evans, 47, and her partner Vinnie John Uwanawich, 44, of Frisco, Texas, are accused of running a psychic-fraud operation that specifically hunted for people already in crisis. According to a federal indictment unsealed in the Western District of Washington, Evans advertised "psychic services" on social media under the alias "Jolene Travis," using posts crafted to reach people going through grief, divorce, heartbreak, or isolation — the exact emotional state, prosecutors say, that made her pitch land. Once a vulnerable person reached out, Evans told them their hardship wasn't ordinary bad luck; it was a curse, and only a "cleansing" she could perform would lift it.
