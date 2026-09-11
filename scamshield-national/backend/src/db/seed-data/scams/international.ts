@@ -13046,3 +13046,16 @@ International.push(
     country: 'AI',
   },
 );
+
+International.push(
+  {
+    name: 'Bank of Montserrat Phone Impersonation Scam',
+    slug: 'bank-of-montserrat-phone-impersonation-scam',
+    description: `The Bank of Montserrat — the island's only indigenous financial institution — issued a public warning in January 2026 after customers reported receiving fraudulent phone calls from people falsely claiming to represent the bank. The calls originated from the international number +92 323 416921 (a Pakistani country code, clearly external to Montserrat), with callers pressuring recipients to hand over card numbers, PINs, and other confidential banking details, and threatening that accounts would be closed if the person did not comply. The bank stated plainly that "these calls are NOT from the Bank of Montserrat" and that it "will never ask you to share your card number, PIN, or confidential banking information" by phone, calling the scheme exactly what it was: a scam built on manufactured urgency and fear of losing account access. Customers were told not to provide any information to callers claiming to be from the bank, to hang up and call the bank back directly using the number on its official website or their bank card to verify any claim, and to report incidents to the Royal Montserrat Police Service.`,
+    categorySlug: 'phishing',
+    alertLevel: 'high',
+    sources: ['Bank of Montserrat', 'ZJB Radio'],
+    sourceUrl: 'https://zjbradio.com/montserrats-only-indigenous-financial-institution-issues-warning-following-reports-of-attempted-scamming-here/',
+    country: 'MS',
+  },
+);
