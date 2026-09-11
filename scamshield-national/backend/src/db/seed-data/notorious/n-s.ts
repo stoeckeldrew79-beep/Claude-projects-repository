@@ -3470,6 +3470,9 @@ QBF's case is a reminder that a real financial license and a decade of quiet ope
     slug: 'roys-poyiadjis-lycourgos-kyprianou-aremissoft-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Roys_poyiadjis.jpg?width=1200',
+    coverImageCredit: 'Donna Poyiadjis, CC BY-SA 3.0, via Wikimedia Commons',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.sec.gov/news/press/2005-87.htm',
     body: `AremisSoft Corporation was an enterprise software company co-founded by Greek Cypriot businessmen Roys Poyiadjis and Lycourgos Kyprianou, who built it from a small Cyprus-based operation into a Nasdaq-listed firm with nominal U.S. headquarters in Edison, New Jersey and offices spanning London, Cyprus, and India. By early 2000, AremisSoft's stock had soared on the strength of what looked like a rapidly growing customer base and a string of acquisitions — a classic dot-com-era growth story that made both founders, on paper, extraordinarily wealthy.
 
