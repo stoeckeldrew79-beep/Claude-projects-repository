@@ -13700,3 +13700,16 @@ International.push(
     country: 'FM',
   },
 );
+
+International.push(
+  {
+    name: 'Haiti Humanitarian Parole Passport-Expediting Bribery Scheme',
+    slug: 'haiti-humanitarian-parole-passport-bribery-scheme',
+    description: `When the Biden administration's CHNV humanitarian parole program launched in January 2023, applicants from Haiti suddenly needed a valid passport to qualify, and daily passport applications in Haiti roughly tripled from about 1,500 to 5,000 as gang violence and political collapse following President Jovenel Moïse's July 2021 assassination had already left the government's own document-processing system barely functioning. Corrupt public administration officials and racketeers connected to them began charging Haitian applicants and their South Florida-based sponsors steep, illegitimate premiums, north of $1,000 against a standard passport fee of roughly $200, to push passports through ahead of everyone else, according to reporting by WLRN (South Florida's NPR affiliate) published October 19, 2023, and immigration advocates including Americans for Immigrant Justice and the Family Action Network Movement (FANM), who said victims often had to pay in multiple installments before ever receiving a real document. "It's almost like it's a kidnapping ransom. You are paying a bribe to someone who has an inside connection," said Paul Christian Namphy, FANM's lead organizer, describing how families desperate to reunite under the parole program had little choice but to pay. The scheme illustrates how a legitimate, free government process can be captured by insiders once demand spikes and institutional oversight is weak, leaving applicants unable to tell a bribe demanded by an actual official from a scam run by someone merely claiming a connection to one.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['WLRN (South Florida NPR affiliate)', 'Americans for Immigrant Justice', 'Family Action Network Movement (FANM)'],
+    sourceUrl: 'https://www.wlrn.org/immigration/2023-10-19/haitian-parole-passports-scam-south-florida-kidnapping-caribbean',
+    country: 'HT',
+  },
+);
