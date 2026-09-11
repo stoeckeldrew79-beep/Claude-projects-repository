@@ -3624,6 +3624,9 @@ The Sephora case is a useful reminder that "my data was sold" doesn't require a 
     slug: "sees-candies-2026-ransomware-breach-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "sees-candies-2026-data-breach"],
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/See's_Candies_South_Pasadena,_California.jpg?width=1200",
+    coverImageCredit: "Photo: TaurusEmerald (CC BY-SA 4.0) — a See's Candies retail store",
+    coverImagePosition: 50,
     sourceUrl: "https://www.prnewswire.com/news-releases/sees-candies-data-breach-edelson-lechtzin-llp-launches-investigation-into-exposure-of-personal-information-302870759.html",
     body: `See's Candies, the Berkshire Hathaway-owned chocolate and confectionery chain founded in 1921 and headquartered in South San Francisco, disclosed in 2026 that it had suffered a ransomware attack that compromised personal information belonging to customers and employees. According to the company's own account, an unauthorized party accessed portions of its network and encrypted files on a subset of its servers between April 11 and April 13, 2026; See's says it discovered the intrusion on April 12, in the middle of that window, and that the intruder had copied certain files before encrypting them. On April 30, 2026, the ransomware group known as Qilin claimed responsibility on its dark-web leak site, stating it had obtained data belonging to See's Candies and threatening to publish the full haul unless a company representative reached out to negotiate. See's Candies reported the incident to the California Attorney General's office on August 13, 2026 — roughly four months after discovery — and began notifying affected individuals directly around the same time.
 
