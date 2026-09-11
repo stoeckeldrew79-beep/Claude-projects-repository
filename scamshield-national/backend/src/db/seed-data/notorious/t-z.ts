@@ -2045,7 +2045,10 @@ NotoriousTZ.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/usao-ndga/pr/utah-man-who-operated-fraudulent-veteran-charities-sentenced-federal-prison',
-    // no rights-cleared photo found — sourceUrl above serves as the "read the full story" link
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Georgia_State_Capitol,_Atlanta,_West_view_20160716_1.jpg?width=1200',
+    coverImageCredit: 'Photo: DXR, Wikimedia Commons (CC BY-SA 4.0) — Atlanta, Georgia, where Travis Peterson was indicted in the Northern District of Georgia',
+    coverImagePosition: 50,
     body: `Travis Deloy Peterson, of Ephraim, Utah, spent nearly six years, from April 2012 to July 2018, registering one purported veterans' charity after another in Utah, Nevada, and Michigan — operations doing business under names like Veterans of America, Vehicles for Veterans, Saving Our Soldiers, Act of Valor, and Medal of Honor. None of them held actual tax-exempt status, a fact Peterson never disclosed to the people he called. Instead, prosecutors said, he blanketed the country with millions of robocalls asking people to donate cars, boats, real estate, and even timeshares, assuring every caller that the gift was tax-deductible and would benefit American veterans.
 
 It didn't. Peterson took the donated vehicles and property to auction, converted them to cash, and spent the proceeds on himself — including, according to court records, paying for online dating subscriptions and buying vehicles of his own. None of the money reached a veteran or a veterans' service organization at any point in the scheme. The Federal Trade Commission had already flagged Peterson's operations as part of "Operation Donate with Honor," a coordinated 2019 crackdown in which the FTC and more than 60 federal and state law enforcement partners took action against upwards of 100 organizations nationwide that used veterans' and military charities as cover for fraud.
