@@ -4077,6 +4077,10 @@ If you own or leased an eligible Mercedes-Benz or Sprinter BlueTEC diesel vehicl
     author: "ScamShield Editorial",
     tags: ["guide", "healthcare-services-group-2024-data-breach-settlement"],
     sourceUrl: "https://www.classaction.org/news/3m-healthcare-services-group-settlement-resolves-class-action-lawsuit-over-september-2024-data-breach",
+    // representative photo — replace with an exact match if found
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/James_A._Byrne_United_States_Courthouse.jpg?width=1200",
+    coverImageCredit: "Photo: Beyond My Ken, CC BY-SA 4.0, via Wikimedia Commons — the federal courthouse in Philadelphia, where the HCSG lawsuit was filed",
+    coverImagePosition: 50,
     body: `Healthcare Services Group, Inc. (HCSG), a Pennsylvania-based company that provides housekeeping, laundry, and dining services to long-term care facilities, nursing homes, and hospitals nationwide, agreed to pay $3 million to resolve Williamson, et al. v. Healthcare Services Group, Inc. (Case No. 2:25-cv-04908, U.S. District Court for the Eastern District of Pennsylvania), a class action alleging the company failed to protect employee and patient-adjacent data from a 2024 data breach. HCSG has not admitted wrongdoing but agreed to settle rather than continue litigating.
 
 HCSG detected suspicious activity on its network on October 7, 2024, and the resulting investigation traced the unauthorized access back to on or around September 27, 2024. By the time the intrusion was contained, files containing personal information had already been extracted, and HCSG's notification letters — which didn't go out until August 25, 2025, nearly a year after the breach occurred — put the number of affected people at 624,496. As a company that staffs housekeeping, laundry, and dining operations inside long-term care and hospital facilities rather than treating patients directly, HCSG's own systems still ended up holding a wide swath of sensitive records tied to the people whose facilities it services.
