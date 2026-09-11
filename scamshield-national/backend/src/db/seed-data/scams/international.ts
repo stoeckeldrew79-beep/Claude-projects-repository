@@ -10258,6 +10258,37 @@ International.push(
     sourceUrl: 'https://vbr.vu/news/anz-vanuatu-warns-customers-about-new-phishing-scam/',
     country: 'VU',
   },
+  {
+    name: 'HS Trading Pyramid Scheme',
+    slug: 'vanuatu-hs-trading-pyramid-scheme',
+    description: `In late 2006, a pyramid scheme known as HS Trading swept through Vanuatu, including the outer island of Tanna, drawing in local investors with a promoter known as Mr. Simon who claimed the scheme's funds were arriving from Singapore. Participants handed over sums ranging from VT20,000 to more than VT200,000 apiece on the promise of an outsized payout, with Simon telling his followers, "the money is now in Singapore and is on its way to us... I will personally see to it that each of you is paid." The scheme built toward a promised mass payday at Lamenu Stadium in Lenakel on January 1, 2007, but when the date arrived Simon announced delays rather than payouts, and the promised money never came. An elderly woman who had invested VT20,000 said afterward she was "obviously not happy," and a later Vanuatu Daily Post retrospective on the case summed up the toll: "millions lost, shops wrecked, and savings destroyed, no returns." The promoter died before facing any reckoning, and investigators were never able to recover victims' money. Vanuatu Daily Post has since cited HS Trading as the country's foundational pyramid-scheme case, noting a recurring pattern of copycat schemes — including fraudulent "banks" offering above-market interest rates and later Ponzi schemes marketed by word of mouth and on social media — that have continued to exploit poverty and financial desperation across the islands in the years since.`,
+    categorySlug: 'ponzi-pyramid-schemes',
+    sources: ['Vanuatu Daily Post'],
+    sourceUrl: 'https://www.dailypost.vu/features/scams-go-viral-in-poverty-stricken-vanuatu/article_9cf09ad0-3aed-538a-a62b-52b0ac6979d7.html',
+    country: 'VU',
+    isHistorical: true,
+    firstRecorded: '2006-12-01',
+  },
+  {
+    name: 'ANZ Online Banking Account-Takeover and Money-Mule Wire Fraud',
+    slug: 'vanuatu-anz-account-takeover-money-mule-scam',
+    description: `In late February 2016, ANZ Vanuatu customers told the Vanuatu Daily Post they had lost a combined total of more than VT2 million in what turned out to be a coordinated fraud: money was moved between ANZ Vanuatu accounts, consolidated into a handful of accounts, withdrawn, then wired via Western Union to recipients in Malaysia and Thailand. Investigation by the Daily Post traced the receiving accounts to at least two Ni-Vanuatu who had themselves been duped into acting as money mules. In a series of chats between January 27 and 29, 2016, someone calling himself Johnson Garrick Ross, posing as the "Director of Human Resources" of a company called Lina Interiors, recruited a young Ni-Vanuatu professional with the pitch, "Our company wants you to work with us as a representative between your country and our company. Your job is to receive payment with your bank account and then send to any location of our branch." When the recruit mentioned holding a Westpac account, the scammer specifically asked for an ANZ account instead, and several other ANZ holders were recruited the same way. Once the mule accounts were in place, ANZ accounts belonging to unrelated customers were drained through a series of VT80,000 transfers — an amount that sat right at the daily transfer limit on personal accounts. Air Safaris owner Matt Erceg lost $9,000 in three transactions from a US-dollar overdraft account and pressed both ANZ and the Daily Post for answers, eventually tracking down chat logs and Western Union receipts himself. ANZ told victims the transfers had gone through its internet banking system and that they would need to prove the bank's systems had failed before recompense could be considered; the bank ultimately returned half of Erceg's losses and gave partial recompense to some other victims after recovering funds from a mule account.`,
+    categorySlug: 'account-takeover',
+    alertLevel: 'high',
+    sources: ['Vanuatu Daily Post'],
+    sourceUrl: 'https://www.dailypost.vu/news/anatomy-of-an-internet-scam/article_f93b0c71-2ed7-56df-bdf0-bd30e0a25f7c.html',
+    country: 'VU',
+  },
+  {
+    name: 'Citizenship by Investment Program Agent Receipt Forgery',
+    slug: 'vanuatu-ciip-agent-receipt-forgery',
+    description: `In October 2025, Vanuatu's Citizenship Commission revealed that four designated agents under the Citizenship by Investment Program (CIIP) were under investigation for allegedly forging the official payment receipts that clients need to have their citizenship applications approved. Agents who collect an applicant's investment payment are supposed to lodge a genuine receipt from the Government Cashier, issued through the Ministry of Finance and Economic Management, as proof the money reached the government; Prime Minister Jotham Napat told Parliament during debate on the Citizenship (Amendment) Bill that one agent had been caught using a counterfeit receipt bearing the two-digit code "26," when all official government invoices for that period were coded "25." Citizenship Commission chairman Charles Maniel confirmed that search warrants had been issued for two of the four agents under investigation, with warrants for the remaining two still pending; one suspect, an Indian national operating under the name Vanuatu Sky, left the country before police could execute a search of his residence, and a Ni-Vanuatu citizen suspected of acting as an accomplice was barred from leaving Port Vila pending the investigation. The scheme put at risk citizenships that may have been granted to clients on the strength of fabricated proof of payment. Napat cited the case in pushing for amendments that would require all citizenship and Development Support Program agents to register with the Vanuatu Financial Services Commission as public companies and submit regular reports, and that would make the Citizenship Commission fully independent of ministerial or parliamentary interference — he separately raised concerns about MPs threatening Commission staff. The government told Parliament it has collected nearly VT13 billion in total through the CIIP and DSP programs, which at the time had 11 active CIIP agents and 59 DSP agents, of whom 14 were inactive.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'high',
+    sources: ['Vanuatu Daily Post'],
+    sourceUrl: 'https://www.dailypost.vu/news/four-citizenship-agents-under-investigation-for-fraud/article_6150c55c-88e7-5098-be9a-24b767d398d2.html',
+    country: 'VU',
+  },
 );
 
 International.push(
