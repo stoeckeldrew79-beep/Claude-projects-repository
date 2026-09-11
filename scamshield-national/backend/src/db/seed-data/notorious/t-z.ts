@@ -1730,6 +1730,10 @@ NotoriousTZ.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.njoag.gov/chief-executive-officer-of-technology-company-indicted-in-alleged-million-dollar-securities-fraud-ponzi-scheme/',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/2014-08-30_11_07_51_View_of_Mercer_County_Court_House_in_Trenton,_New_Jersey_from_the_east.JPG?width=1200',
+    coverImageCredit: 'Photo: Famartin, Wikimedia Commons (CC BY-SA 4.0) — the Mercer County Courthouse in Trenton, New Jersey, where Skyline Technologies was based and Xiao Hu was indicted',
+    coverImagePosition: 50,
     body: `Note: this case is at the indictment stage. Xiao Hu has been charged but not convicted, and the allegations described below reflect the government's case rather than proven facts.
 
 Xiao Hu — who also went by "Mark Hu" — was the founder and chief executive of Skyline Technologies USA LLC, a company based in Mercer County, New Jersey, when he began soliciting investors with claims that Skyline had developed proprietary, artificial-intelligence-driven trading products capable of delivering annual returns of 10 to 22 percent, according to a New Jersey state grand jury indictment. Between 2019 and 2023, he raised more than $1 million from at least six investors on the strength of those claims.
