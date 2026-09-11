@@ -7031,3 +7031,17 @@ UsAF.push({
     country: 'US',
     state: 'FL',
 });
+
+UsAF.push({
+    name: 'Lithia Motors Alaska Hidden Dealer Fee Settlement',
+    slug: 'alaska-lithia-motors-hidden-dealer-fee-settlement',
+    description: `Lithia Motors, Inc., through three Alaska dealerships — Lithia of Anchorage, Inc. (doing business as Lithia Chrysler Dodge Jeep Ram Fiat of Anchorage), Lithia of Wasilla, LLC, and Lithia of South Central AK, Inc. (doing business as Chevrolet of South Anchorage) — advertised vehicles online at one price and then charged buyers document and other dealer fees that were never disclosed in those advertisements, so customers who arrived ready to buy at the listed price ended up paying more once the undisclosed charges were added at the counter. The Alaska Attorney General's office, under Attorney General Stephen Cox, opened an investigation covering conduct dating back to January 3, 2019, and filed suit in Anchorage Superior Court alleging the practice violated Alaska's Unfair Trade Practices and Consumer Protection Act, which requires that an advertised price be the price a consumer actually pays absent fees disclosed up front. The case settled on December 29, 2025, with Lithia agreeing to pay a $300,000 civil penalty and to provide restitution to every affected Alaska customer who was charged an undisclosed fee above the advertised price since 2019; consumers seeking restitution must submit documented proof of purchase along with a notarized affidavit showing they relied on an advertisement listing a lower price than what they ultimately paid, with a claims window running 270 days from court approval of the settlement. "There is no excuse for a dealership in Alaska to charge its customers dealer fees that aren't" included in the advertised price, the Attorney General's office said in announcing the resolution. Alaska car shoppers are advised to get the full out-the-door price — including every dealer fee — in writing before agreeing to buy, to compare that figure against the price shown in the dealership's own online listing, and to report a dealer that adds undisclosed charges to the Alaska Attorney General's Consumer Protection Unit.`,
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'medium',
+    sources: ["Alaska Department of Law, Office of the Attorney General"],
+    sourceUrl: 'https://law.alaska.gov/press/releases/2025/122925-LithiaMotors.html',
+    country: 'US',
+    state: 'AK',
+    isHistorical: true,
+    firstRecorded: '2019-01-03',
+});
