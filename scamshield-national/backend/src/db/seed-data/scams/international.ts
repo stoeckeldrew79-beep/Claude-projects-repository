@@ -13508,3 +13508,16 @@ International.push(
     country: 'CD',
   },
 );
+
+International.push(
+  {
+    name: 'Fake DRC Ministry of Public Service Recruitment Portal',
+    slug: 'drc-fake-fonction-publique-recruitment-portal',
+    description: `Fact-checking outlet PesaCheck published a debunk on August 3, 2026 of a website circulating on social media that falsely presented itself as an official application portal for the Democratic Republic of Congo's Ministry of Public Service (Ministère de la Fonction Publique). Posts promoting the site claimed the ministry had "opened an application portal to recruit new employees for various positions in different ministries across all provinces of the country," a message engineered to appeal broadly to jobseekers nationwide regardless of where they lived. Candidates who clicked through were directed to a form asking for their first and last name, gender, age, email address, phone number, date of birth, and province of residence — enough personal data to enable follow-on identity theft or targeted phishing, even before any request for an "application fee" that these portals typically add once a target has already invested time filling out the form. PesaCheck found no announcement of such a recruitment drive on the Ministry's official channels and confirmed the site had no connection to the government, part of a broader pattern the outlet has documented of fraudulent portals impersonating Congolese public institutions — including separate fake recruitment sites posing as the World Health Organization's DRC office and the Direction Générale des Impôts (DRC's tax authority) — all built to farm applicants' personal information behind the promise of a coveted public-sector job. The recurring pattern underscores a standing rule for Congolese jobseekers: a legitimate Congolese government recruitment drive is announced only through the hiring ministry's own verified website or official social media accounts, never through a bare link shared on Facebook or WhatsApp with no matching notice on the ministry's own channels.`,
+    categorySlug: 'employment-scams',
+    alertLevel: 'medium',
+    sources: ['PesaCheck', 'Ministère de la Fonction Publique (DRC)'],
+    sourceUrl: 'https://pesacheck.org/canular-ce-site-web-pretendant-etre-le-portail-de-recrutement-du-ministere-congolais-de-la-fonction-publique-est-une-arnaque/',
+    country: 'CD',
+  },
+);
