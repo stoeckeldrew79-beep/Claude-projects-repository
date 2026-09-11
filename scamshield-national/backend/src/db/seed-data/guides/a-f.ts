@@ -6826,6 +6826,10 @@ This same playbook shows up well beyond one Pennsylvania dental office, and the 
     slug: "americana-liberty-three-nations-made-in-usa-flags-settlement-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "americana-liberty-ftc-settlement"],
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/American_flag.jpg?width=1200",
+    coverImageCredit: "Photo: Frydolin (Vít Luštinec), CC BY-SA 3.0, via Wikimedia Commons",
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: "https://www.ftc.gov/news-events/news/press-releases/2026/04/ftc-announces-made-usa-sweep-including-three-law-enforcement-actions-protect-american-consumers",
     body: `On March 13, 2026, with the country's 250th anniversary approaching, President Trump signed an executive order directing the FTC to sharpen its focus on companies that falsely claim their products are American-made. A month later, on April 14, 2026, the agency announced the first coordinated result of that push: a sweep of three law enforcement actions targeting "Made in the USA" claims, including a federal complaint against Americana Liberty LLC and Three Nations LLC — two companies that sold American flags, U.S. military flags, and other patriotic flag-display products with some of the most explicitly nationalist marketing language the FTC has cited in a case of this kind.
 
