@@ -5045,3 +5045,21 @@ Lucas's case is a reminder that "I've been part of this community for decades an
     coverImageCredit: 'Photo: Ken Lund, CC BY-SA 2.0, via Wikimedia Commons — the New Hampshire State House, Concord, where Lucas served as a state representative and later ran for governor',
   },
 );
+NotoriousNS.push(
+  {
+    title: "Paul Jorgensen: The Doximity Executive Who Sold Ahead of Two Bad Earnings Calls",
+    slug: 'paul-jorgensen-doximity-insider-trading',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26635',
+    body: `Paul W. Jorgensen spent years as Chief Revenue Officer of Doximity, Inc., the publicly traded digital platform used by a majority of U.S. physicians, a job that put him inside the company's numbers well before the rest of the market ever saw them. According to the Securities and Exchange Commission, that access became a trading edge on at least two separate occasions, timed to the two moments investors would have most wanted advance warning: the days just before Doximity told Wall Street its sales had come up short.
+
+The first trade came in August 2022. Ahead of a quarterly earnings call, and while aware that Doximity's sales were running below what the company was about to publicly disclose, Jorgensen sold 61,162 shares — avoiding losses he would otherwise have taken once the stock dropped on the news. Roughly a year later, in August 2023, he traded again ahead of another earnings call, this time knowing not just that sales were again falling short, but that the company's sales team was underperforming and that a reduction in force was being planned — details materially worse than what had leaked into the market yet. Across both trades, the SEC calculated his combined profits and avoided losses at approximately $2,532,775.
+
+The SEC's civil complaint, filed in the Southern District of New York in March 2026, charged Jorgensen with violating the antifraud provisions of the Securities Exchange Act along with a narrower but telling charge: failing to file the Section 16(a) disclosure reports that would have put his own stock sales on the public record in something close to real time, the same filings that routinely tip off regulators and short-sellers alike to executives trading around bad news. A parallel criminal case moved on its own track. Jorgensen pleaded guilty to securities fraud in January 2026, and in May 2026 a federal judge sentenced him to 26 months in prison and ordered forfeiture of the full $2,532,775 in profits and avoided losses.
+
+The SEC's civil case wrapped up afterward, on September 10, 2026, with a final judgment by consent: a permanent injunction, a permanent bar from ever again serving as an officer or director of a public company, and disgorgement of $2,532,775 plus prejudgment interest of $490,077.54 — offset by the forfeiture already paid in the criminal case, leaving Jorgensen owing the SEC the remaining $490,077.54 directly.
+
+What makes Jorgensen's case a clean illustration of how this category of fraud actually gets caught isn't the trading itself — corporate insiders sell stock all the time — but the pattern underneath it: two sales, a year apart, both landing in the narrow window before bad news the executive already knew was coming, each one avoiding a loss the rest of the market took on the chin. Trading surveillance built to flag exactly that timing pattern, combined with the disclosure filings insiders are required to make, is what turned a revenue chief's well-timed stock sales into a securities-fraud conviction rather than simply two lucky trades.`,
+  },
+);
