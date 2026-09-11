@@ -7490,3 +7490,22 @@ The freeze didn't stop the network underneath Chavez. In February 2024, the SEC 
 CryptoFX shows how an affinity-fraud network can outlast the regulatory action meant to stop it: the same trusted, face-to-face relationships that recruited 40,000 investors in the first place were then used to keep them in the scheme, and even to talk some out of believing a real federal lawsuit had been filed at all. A recruiter who shares your language, your neighborhood, and your church is not thereby more trustworthy about where your money is actually going — and a court order freezing a company's assets doesn't automatically reach every person still working its rooms.`,
   },
 );
+
+NotoriousGM.push(
+  {
+    title: 'Jorge Zamora-Quezada: The Rheumatologist Who Manufactured a Disease Epidemic for Profit',
+    slug: 'jorge-zamora-quezada-medicare-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/opa/pr/texas-doctor-who-falsely-diagnosed-patients-sentenced-10-years-imprisonment-118m-health-care',
+    body: `Jorge Zamora-Quezada was a practicing rheumatologist in Mission, Texas, in the Rio Grande Valley, who built a lucrative practice by diagnosing an extraordinary share of the patients who walked through his door with rheumatoid arthritis — a real, life-long autoimmune disease with no cure, and one whose treatment regimen of toxic medications and repeat infusions bills insurers and Medicare at a far higher rate than most routine care. Prosecutors said that out of tens of thousands of patients he saw over nearly two decades, he diagnosed roughly three out of every four with the disease, a rate wildly out of step with its actual prevalence in the general population.
+
+The false diagnoses were the engine of the fraud, not a side effect of it. Once a patient was labeled with rheumatoid arthritis, Zamora-Quezada could bill for a recurring cycle of medically unnecessary treatment: chemotherapy drugs used off-label as immunosuppressants, hours-long intravenous infusions, and repeat office visits, all justified by a diagnosis that in many cases had no basis in the patient's actual condition. Some of the misdiagnosed patients were as young as 13. The toxic medications caused real harm — strokes, jawbone necrosis, hair loss, and liver damage among them — inflicted on people who did not have the disease they were being treated for.
+
+A federal jury convicted Zamora-Quezada in January 2020, following a 25-day trial, on one count of conspiracy to commit health care fraud, seven counts of health care fraud, and one count of conspiracy to obstruct justice, in connection with a scheme prosecutors valued at $325 million in fraudulent billing. Evidence at trial also showed he pressured staff to falsify records and pushed back against employees who raised concerns about the diagnoses, treating internal skepticism as a threat to the practice's revenue rather than a signal to change course.
+
+Sentencing dragged on for years after the verdict, delayed in part by disputes between prosecutors and the defense over exactly how many patients and how much financial loss the court should count in calculating his punishment — a dispute that took until May 2025 to resolve. He was ultimately sentenced to 10 years in federal prison and ordered to forfeit more than $28.2 million in assets traced to the scheme, including 13 real estate properties in the United States and Mexico, a private jet, and a Maserati GranTurismo, against a backdrop of $118 million in claims the government proved at sentencing were fraudulent.
+
+Zamora-Quezada's case is a reminder that health care fraud doesn't always look like a billing clerk padding invoices — it can start with the diagnosis itself, the one piece of the medical record patients are least equipped to second-guess, from a doctor whose white coat is doing the persuading a scammer's script would otherwise have to do.`,
+  },
+);
