@@ -6644,7 +6644,10 @@ NotoriousGM.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/usao-sdny/pr/cryptocurrency-trader-sentenced-42-months',
-    // no rights-cleared photo found — sourceUrl above serves as the "read the full story" link
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Thurgood_Marshall_United_States_Courthouse_002.jpg?width=1200',
+    coverImageCredit: 'Kidfly182, CC BY-SA 4.0, via Wikimedia Commons',
+    coverImagePosition: 50,
     body: `Jeremy Spence built an online following under the handle "Coin Signals," posting cryptocurrency trading calls and, eventually, offering to trade investors' money for them directly. From around December 2017 through April 2019, the Bristol, Rhode Island man ran a set of pooled trading funds — including the "CS Mex Fund," which traded on the BitMEX exchange, along with a "CS Alt Fund" and a "CS Long Term Fund" — soliciting more than $5 million in bitcoin and ether from customers who believed they were investing alongside a trader with an unusually strong track record.
 
 That track record was largely fiction. Spence's actual trading racked up substantial losses, but rather than disclose them, he covered them up — misrepresenting both his profitability and how much money he genuinely had under management, and using new customers' deposits to pay out "profits" to earlier ones whenever they asked to withdraw. On January 28, 2018, he told his own chat group that his trading had generated a return of more than 148 percent over the previous month, a claim prosecutors would later say was false. The structure was a Ponzi scheme wearing the branding of a crypto trading signal service, and it held together only as long as enough new money kept arriving to cover the gap between what he'd actually made and what he'd told people he'd made.
