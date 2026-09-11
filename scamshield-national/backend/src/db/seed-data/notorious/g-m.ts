@@ -7719,6 +7719,10 @@ Rather than holding customer payments in trust, NPS and a web of affiliated comp
 The fraud ran from roughly 1992 until NPS collapsed in 2008, ensnaring more than 97,000 customers along with hundreds of funeral homes and financial institutions that had relied on NPS's trust and insurance arrangements being real. Untangling it took a multi-year joint investigation by the FBI, IRS Criminal Investigation, and insurance regulators in numerous states before the Department of Justice could bring charges. James Cassity was sentenced to 115 months in federal prison, Sutton to 84 months, Brent Cassity to 60 months, Wittner to 36 months, and Province to 18 months — combined sentences of more than 36 years — while Wulf, the only defendant who went to trial rather than pleading guilty, received 120 months. Courts ordered a combined $435 million in restitution toward total losses estimated at more than $450 million, making NPS the largest prepaid funeral fraud in U.S. history. "Honest and law-abiding citizens are fed up with the likes of those who use deceit," IRS-Criminal Investigation Special Agent Sybil Smith said when the final sentences were announced.
 
 The NPS case is a reminder of just how long a trust-fund fraud can run undetected when the people responsible for safeguarding the money — a company's own executives, its attorney, and even the independent adviser appointed by statute to watch over it — are the same people quietly emptying it, and how many ordinary families and small local funeral homes end up absorbing the loss once a fraud that size finally comes apart.`,
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Clayton,_Missouri_skyline_panoramic.jpg?width=1200',
+    coverImageCredit: 'Photo: David Ackerman / Wikimedia Commons / CC BY 2.0',
+    coverImagePosition: 50,
   },
 );
 
@@ -7736,5 +7740,9 @@ There was no liquidity pool. According to prosecutors, Rogue Liquidity had no re
 The scheme was investigated jointly by the Utah Division of Securities and the FBI's Salt Lake City Field Office, and Dalton pleaded guilty to securities fraud on September 30, 2024. On March 20, 2025, U.S. District Judge Jill N. Parrish sentenced him to 24 months in federal prison, three years of supervised release, and $1,553,806 in restitution to his victims. "[Dalton] exploited trust within the community for his own gain," Acting U.S. Attorney Felice John Viti said in announcing the sentence, a description that fit both how Dalton found his victims and how he kept them investing.
 
 Rogue Liquidity is a small-scale case by the standards of the biggest frauds in this collection, but it illustrates a pattern that recurs constantly at every scale: a "guaranteed, risk-free" return well above what any legitimate fund could reliably deliver, sold not through a stranger's pitch but through a friend, a former classmate, or a familiar face on social media — the personal relationship doing the persuading that the numbers alone never could.`,
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Utah_Lake_from_Saratoga_Springs_dyeclan.com_-_panoramio.jpg?width=1200',
+    coverImageCredit: 'Photo: The Dye Clan / Wikimedia Commons / CC BY-SA 3.0',
+    coverImagePosition: 50,
   },
 );
