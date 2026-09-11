@@ -13273,3 +13273,16 @@ International.push(
     firstRecorded: '2011-01-01',
   },
 );
+
+International.push(
+  {
+    name: 'Andorra Cryptocurrency Pyramid Scheme Arrest',
+    slug: 'andorra-cryptocurrency-pyramid-scheme-arrest',
+    description: `Policia d'Andorra announced on July 22, 2024 that it had arrested two men, aged 44 and 56 and described as business partners running an investment firm, on suspicion of operating a pyramid scheme built around cryptoassets worth close to €900,000. Police said the pair promised investors a high rate of return on crypto investments in order to attract as many participants as possible, then paid out those "returns" using money paid in by newer investors rather than any real trading or investment activity — the classic mechanic of a Ponzi scheme applied to digital assets. The scheme unravelled on Thursday, July 18, 2024, when a group of investors went in person to the company's offices to demand the profits they had been promised, and one of the two partners admitted on the spot that no underlying investments had ever been made. Police were called, arrested both men on suspicion of crimes against property, and searched the firm's offices along with the suspects' homes, seizing documents and computer equipment before the pair appeared before judicial authorities the following night. At the time of the arrest, formal complaints had been filed by three investors — two of them non-residents and one Andorran resident — but police said they believed the true number of people who had put money into the scheme was considerably higher and continued to investigate. The case illustrates how the promise of high, guaranteed cryptocurrency returns can mask an old-fashioned pyramid structure, and Andorran authorities urged anyone who invested with the firm, or who is offered similarly guaranteed high returns on crypto investments by an unregistered party, to verify any investment manager's registration with INAF (Andorra's financial regulator) and to file a police report rather than continuing to wait for promised payouts.`,
+    categorySlug: 'ponzi-pyramid-schemes',
+    alertLevel: 'high',
+    sources: ["Policia d'Andorra"],
+    sourceUrl: 'https://www.policia.ad/ca/noticies/salut-publica/2024/07/22/7548/la-policia-dete-dos-homes-com-a-presumptes-autors-d-una-estafa-piramidal-amb-criptoactius-quantificada-en-prop-de-900-000-euros/',
+    country: 'AD',
+  },
+);
