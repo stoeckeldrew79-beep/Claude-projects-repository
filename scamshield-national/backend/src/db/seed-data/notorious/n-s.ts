@@ -3905,6 +3905,10 @@ NotoriousNS.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
     sourceUrl: 'https://www.cftc.gov/PressRoom/PressReleases/8786-23',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Skyline_of_Tampa,_Florida_from_Bayshore_Blvd.jpg?width=1200',
+    coverImageCredit: 'Tampa Gator, Public Domain, via Wikimedia Commons',
+    coverImagePosition: 50,
     body: `Patrick Wonsey, of Riverview, Florida, ran a foreign-currency and binary-options trading business under the name One Bell & Associates, Inc., soliciting money from retail customers with promises of profitable trading in forex, binary options, metals, and digital assets. According to the U.S. Commodity Futures Trading Commission, Wonsey operated the business from at least January 2017 through September 2022, taking in a minimum of $3.4 million from more than 50 individuals.
 
 The CFTC's civil complaint, filed September 26, 2023 in the U.S. District Court for the Middle District of Florida, alleged that Wonsey misrepresented his trading success and the safety of customers' money, then misappropriated a substantial share of what he collected — roughly $2.7 million, the agency said — for purposes that had nothing to do with the trading he had promised. The complaint further alleged that Wonsey operated as an unregistered commodity pool operator and commingled customer funds with his own, leaving his customers with no independent way to verify what had actually happened to their money.
