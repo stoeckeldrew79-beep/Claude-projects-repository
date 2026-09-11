@@ -5603,6 +5603,20 @@ UsNS.push({
 });
 
 UsNS.push({
+    name: 'Puerto Rico DACO Deepfake Video Investment Scam (Domenech Impersonation)',
+    slug: 'puerto-rico-daco-domenech-deepfake-investment-video',
+    description: `A fabricated video circulating on a fake news page called "Bright Horizon Daily" used AI deepfake technology to recreate the voice, face, and expressions of Francisco Domenech, Secretary of the Governorship of Puerto Rico (La Fortaleza's chief of staff), simulating an episode of the real television interview program "Primera Pregunta" in which the manipulated Domenech falsely claims the Puerto Rico government guarantees profits of up to $12,000 through a minimal upfront investment. Puerto Rico's Secretary of the Department of Consumer Affairs (DACO), Hiram Torres Montalvo, issued a public alert on May 12, 2026 calling the video "completamente falso" (completely false) and "un esquema fraudulento diseñado para engañar a los consumidores mediante el uso indebido de herramientas de inteligencia artificial" (a fraudulent scheme designed to deceive consumers through the misuse of artificial intelligence tools), clarifying that the Puerto Rico government does not promote, endorse, or guarantee any investment scheme or promise of quick money. The case is distinct from an earlier, unrelated DACO alert about text messages using a still photo of Governor Jenniffer González to push a fake "Social Security account" investment pitch — this scheme instead used a fabricated video built to look like an actual broadcast interview, a more convincing format that makes the false endorsement harder to spot at a glance. DACO urged residents not to click links shared alongside videos like this one, never to share banking or personal information based on a viral video, to distrust any post promising guaranteed or easy returns regardless of who appears to be endorsing it, to verify claims only through official government accounts and credible news outlets rather than an unfamiliar page, and to report suspected fraud to DACO at confidencia@daco.pr.gov or through www.daco.pr.gov.`,
+    categorySlug: 'ai-deepfake-scams',
+    alertLevel: 'high',
+    sources: ['Puerto Rico Department of Consumer Affairs (DACO)', 'Telemundo Puerto Rico', 'Metro Puerto Rico'],
+    sourceUrl: 'https://www.telemundopr.com/noticias/puerto-rico-voto/alertan-sobre-fraude-con-ia-utilizando-la-imagen-de-francisco-domenech/2810460/',
+    country: 'US',
+    state: 'PR',
+    isHistorical: true,
+    firstRecorded: '2026-05-12',
+});
+
+UsNS.push({
     name: 'Puerto Rico Fake Court Citation Link Scam',
     slug: 'puerto-rico-fake-court-citation-link-scam',
     description: `Puerto Rico's Judicial Branch (Poder Judicial) warned residents on June 15, 2026 about text messages and emails impersonating the island's courts, telling recipients they have a pending traffic-fine hearing and must click an embedded link to "coordinate" a court date, citing a fabricated case number and invoking the name of a judge or police officer to look authentic. The messages threaten arrest, wage garnishment, and other legal consequences if the recipient doesn't act immediately, pressuring them into clicking through to a fraudulent page built to harvest personal information rather than schedule anything real. Administrative Director of the Courts Hon. Sigfrido Steidel Figueroa said plainly that "no legitimate judicial procedure requires payments by phone or unofficial electronic means, nor does it request personal information through these channels," and urged residents to treat any such message as fraudulent. Puerto Ricans who receive one of these texts or emails are advised not to click the link or provide any information, to avoid engaging with the sender at all, and to report the message and verify any claimed citation by contacting the Judicial Branch directly at 787-641-6600 or buzon@poderjudicial.pr rather than using any contact information supplied in the message itself.`,
