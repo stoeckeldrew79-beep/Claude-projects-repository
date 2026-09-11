@@ -3032,3 +3032,18 @@ UsTZ.push({
     isHistorical: true,
     firstRecorded: '2026-04-13',
 });
+
+
+UsTZ.push({
+    name: 'Convergent Outsourcing Deceptive "Settlement" Letters on Time-Barred Debt',
+    slug: 'washington-convergent-outsourcing-time-barred-debt-settlement-letters',
+    description: `Convergent Outsourcing, Inc., a Renton, Washington-based debt collector, sent Washington consumers letters offering a discounted "Settlement Offer" to resolve old debts that were actually past Washington's six-year statute of limitations and therefore legally unenforceable in court, without ever disclosing that the debt was too old to sue over. The letters set urgent, short deadlines — some as tight as 14 days — and used legal-sounding language implying Convergent could still take the consumer to court if they didn't pay, when in fact it could not. Washington Attorney General Bob Ferguson's office found the company sent 75,466 of these deceptive letters to Washington residents, and that at least 1,405 consumers paid based on them. Ferguson sued Convergent on June 25, 2020, alleging violations of the state Consumer Protection Act and Collection Agency Act, and the case settled on September 8, 2021: Convergent agreed to pay $1.6 million, funding full refunds with interest to every Washington consumer who paid on a time-barred "settlement," and accepted a nationwide injunction barring it from using the words "settle" or "settlement" when collecting debt outside the statute of limitations unless it also discloses that the debt is too old to be legally enforced in court. "Debt collection companies cannot use deception as a means to get around the law," Ferguson said announcing the case. Anyone contacted about an old debt they don't recognize or haven't paid on in years should ask the collector directly whether the statute of limitations has expired before sending any payment, since even a partial payment on a time-barred debt can restart the clock and revive a collector's ability to sue.`,
+    categorySlug: 'legal-debt-collection',
+    alertLevel: 'medium',
+    sources: ["Washington State Attorney General's Office"],
+    sourceUrl: 'https://www.atg.wa.gov/news/news-releases/ag-ferguson-sues-debt-collection-agency-deceptive-collection-letters-over-old',
+    country: 'US',
+    state: 'WA',
+    isHistorical: true,
+    firstRecorded: '2013-01-01',
+});
