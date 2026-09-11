@@ -7878,3 +7878,20 @@ Clark pleaded guilty on May 6, 2025, to conspiracy to commit wire fraud and wire
 Romance scams run at scale almost always need someone like Clark: a domestic participant willing to receive victims' wire transfers into ordinary-looking U.S. bank accounts and push the money onward, laundering it into a form the overseas operators can actually use. Prosecutors have increasingly targeted these domestic money movers as aggressively as the people writing the fake love letters, on the theory that the scheme collapses without someone on this end of the wire to catch the money.`,
   },
 );
+
+NotoriousAF.push(
+  {
+    title: 'David Hu and the Fake Trade-Finance Loans Behind a $120 Million Fraud',
+    slug: 'david-hu-iig-trade-finance-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-sdny/pr/former-managing-partner-manhattan-investment-advisory-firm-sentenced-12-years',
+    body: `David Hu co-founded International Investment Group (IIG), a Manhattan investment advisory firm built around an asset class most retail investors had never heard of: short-term trade finance, meaning loans to companies moving goods like commodities and consumer products through emerging markets. The niche was unglamorous but plausible-sounding, and it let IIG raise money from institutional funds as well as mutual funds marketed to ordinary investors. As IIG's managing partner and chief investment officer, Hu had final say over how the firm valued the loans sitting inside its flagship fund.
+
+Starting around October 2013, according to the SEC, Hu began overstating the value of loans that were underperforming or already in default, keeping the fund's reported returns looking healthy long after the underlying deals had soured. When the gap between the books and reality grew too large to manage quietly, prosecutors say Hu escalated: IIG staff fabricated documentation — including fake promissory notes and a forged credit agreement — to manufacture roughly $60 million in loans that did not actually exist, then sold interests in those fictitious loans to investors and used the proceeds to pay off earlier investors' redemption requests, a Ponzi-like structure layered on top of the mismarking.
+
+The fraud unwound over 2019 and 2020. The SEC charged IIG itself in November 2019 and revoked its investment-adviser registration soon after; IIG's own consent judgment required more than $35 million in disgorgement and interest. The SEC filed civil fraud charges against Hu personally in July 2020, and the U.S. Attorney's Office for the Southern District of New York brought parallel criminal charges covering more than a decade of conduct and over $120 million in investor harm. Hu pleaded guilty on January 28, 2021, to investment adviser fraud, securities fraud, and wire fraud. In April 2022, he was sentenced to 12 years in federal prison plus three years of supervised release, and agreed to forfeit tens of millions of dollars in proceeds traceable to the scheme.
+
+IIG's fraud survived for years in part because trade finance is exactly the kind of asset class few investors, or even many advisers, can independently verify — the underlying loans sit with foreign borrowers, are documented by paperwork investors never see directly, and can be marked at whatever value keeps a monthly statement looking steady. Hu's case is a reminder that an unfamiliar, illiquid corner of a fund's portfolio isn't automatically safer for being obscure; obscurity can just make it harder for anyone outside the fund to catch when the numbers stop being real.`,
+  },
+);
