@@ -7490,3 +7490,60 @@ The freeze didn't stop the network underneath Chavez. In February 2024, the SEC 
 CryptoFX shows how an affinity-fraud network can outlast the regulatory action meant to stop it: the same trusted, face-to-face relationships that recruited 40,000 investors in the first place were then used to keep them in the scheme, and even to talk some out of believing a real federal lawsuit had been filed at all. A recruiter who shares your language, your neighborhood, and your church is not thereby more trustworthy about where your money is actually going — and a court order freezing a company's assets doesn't automatically reach every person still working its rooms.`,
   },
 );
+
+NotoriousGM.push(
+  {
+    title: 'Jorge Zamora-Quezada: The Rheumatologist Who Manufactured a Disease Epidemic for Profit',
+    slug: 'jorge-zamora-quezada-medicare-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/opa/pr/texas-doctor-who-falsely-diagnosed-patients-sentenced-10-years-imprisonment-118m-health-care',
+    body: `Jorge Zamora-Quezada was a practicing rheumatologist in Mission, Texas, in the Rio Grande Valley, who built a lucrative practice by diagnosing an extraordinary share of the patients who walked through his door with rheumatoid arthritis — a real, life-long autoimmune disease with no cure, and one whose treatment regimen of toxic medications and repeat infusions bills insurers and Medicare at a far higher rate than most routine care. Prosecutors said that out of tens of thousands of patients he saw over nearly two decades, he diagnosed roughly three out of every four with the disease, a rate wildly out of step with its actual prevalence in the general population.
+
+The false diagnoses were the engine of the fraud, not a side effect of it. Once a patient was labeled with rheumatoid arthritis, Zamora-Quezada could bill for a recurring cycle of medically unnecessary treatment: chemotherapy drugs used off-label as immunosuppressants, hours-long intravenous infusions, and repeat office visits, all justified by a diagnosis that in many cases had no basis in the patient's actual condition. Some of the misdiagnosed patients were as young as 13. The toxic medications caused real harm — strokes, jawbone necrosis, hair loss, and liver damage among them — inflicted on people who did not have the disease they were being treated for.
+
+A federal jury convicted Zamora-Quezada in January 2020, following a 25-day trial, on one count of conspiracy to commit health care fraud, seven counts of health care fraud, and one count of conspiracy to obstruct justice, in connection with a scheme prosecutors valued at $325 million in fraudulent billing. Evidence at trial also showed he pressured staff to falsify records and pushed back against employees who raised concerns about the diagnoses, treating internal skepticism as a threat to the practice's revenue rather than a signal to change course.
+
+Sentencing dragged on for years after the verdict, delayed in part by disputes between prosecutors and the defense over exactly how many patients and how much financial loss the court should count in calculating his punishment — a dispute that took until May 2025 to resolve. He was ultimately sentenced to 10 years in federal prison and ordered to forfeit more than $28.2 million in assets traced to the scheme, including 13 real estate properties in the United States and Mexico, a private jet, and a Maserati GranTurismo, against a backdrop of $118 million in claims the government proved at sentencing were fraudulent.
+
+Zamora-Quezada's case is a reminder that health care fraud doesn't always look like a billing clerk padding invoices — it can start with the diagnosis itself, the one piece of the medical record patients are least equipped to second-guess, from a doctor whose white coat is doing the persuading a scammer's script would otherwise have to do.`,
+  },
+);
+
+NotoriousGM.push(
+  {
+    title: 'Gary Sorenson and Milowe Brost: The Calgary Gold Ponzi That Became Canada\'s Largest',
+    slug: 'gary-sorenson-milowe-brost-syndicated-gold-depository',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'international'],
+    sourceUrl: 'https://www.cbc.ca/news/canada/calgary/gary-sorenson-and-milowe-brost-get-12-years-in-prison-for-ponzi-scheme-1.3170551',
+    body: `Starting in 1999, two Calgary men, Gary Sorenson and Milowe Brost, began raising money through a company called Syndicated Gold Depository SA, pitching investors on what sounded like a straightforward commodities business: buying gold at a discount, refining it, and selling it on for a profit, with the arrangement described to investors as low-risk. Over the following decade the pair expanded the pitch through a web of related entities — Base Metals Corp., Bahama Resource Alliance, and Merendon Mining Corporation, which claimed extensive mining operations in Honduras — layering official-sounding corporate structure on top of a business that mostly wasn't doing what investors were told.
+
+The scheme drew in more than 3,000 investors across Canada and the United States, many of whom put in their savings, retirement funds, or home equity chasing the promised returns. Regulators and prosecutors later estimated the total taken from investors at between $100 million and $400 million, with Alberta securities regulators separately finding the pair responsible for a related $46 million fraud — figures that made it, by the time it collapsed, the largest Ponzi-type scheme in Canadian history. As with any Ponzi structure, the "profits" some investors saw were funded by the cash brought in by others, not by any functioning gold or mining business behind it.
+
+Canadian authorities charged Sorenson and Brost in 2009, but Sorenson had already left the country; he was arrested years later after being tracked down abroad, extending a prosecution that ultimately took more than seven years to reach trial. A Calgary jury convicted both men in 2016 on two counts each of fraud and theft, with Brost also convicted of money laundering. At sentencing, the court heard from hundreds of the scheme's victims about the toll of losing life savings and retirement funds, a process a judge later summarized as evidence of "life-wrecking" harm across the investor base.
+
+Sorenson and Brost were each sentenced in 2016 to 12 years in prison — a sentence prosecutors and victims alike considered barely proportionate to the scale of the fraud. They ultimately served only about two years of that term before being paroled, a gap between the headline sentence and the time actually served that became its own point of controversy among the victims who had waited years for the case to even go to trial.
+
+The Syndicated Gold Depository case shows how a plausible-sounding physical asset — gold, refined and resold — combined with international mining operations that were difficult for ordinary investors or even regulators to verify from Calgary, let a fraud grow for nearly a decade before collapsing, and how far a determined defendant can push out the clock on accountability simply by leaving the jurisdiction that wants to try him.`,
+  },
+);
+
+NotoriousGM.push(
+  {
+    title: 'Joseph Zada and the "Secret" London Trading Board That Never Existed',
+    slug: 'joseph-zada-oil-trading-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.fbi.gov/contact-us/field-offices/miami/news/press-releases/michigan-man-guilty-of-mail-fraud-in-50-million-ponzi-scheme',
+    body: `Joseph Zada, of Grosse Pointe Shores, Michigan, spent roughly a decade telling investors he had access to something no one else could get into: a secretive trading operation headquartered in London that generated outsized, consistent profits from oil and currency trading. From 1998 to 2009, that pitch pulled in tens of millions of dollars from a client list built largely on personal referrals and social connections rather than any advertising or public offering — the kind of quiet, word-of-mouth credibility that made the fraud harder for any one investor to independently check.
+
+Zada's victims included people with real money and real connections of their own: retired NHL star Sergei Fedorov, six-time Olympic dressage competitor Robert Dover, and a mix of professionals — a veterinarian, a jeweler, a pawnbroker — along with a group of Michigan firefighters who pooled money with him. None of it was actually invested in oil or currency trading through any London board, secret or otherwise. Zada spent the incoming money on a jet-set lifestyle instead, including mansions in Florida and Michigan, while telling investors their capital was compounding safely overseas.
+
+A federal jury in Florida convicted Zada in June 2015 on 15 counts of mail fraud, following a scheme prosecutors said cost victims more than $50 million. He was sentenced that November to 15 years in federal prison — a sentence reflecting both the scale of the fraud and the number of counts a jury had found proven beyond a reasonable doubt.
+
+Zada's case took an additional turn in 2020, when he was released early from federal custody to home confinement at his own mansion as part of the broader wave of COVID-era prison releases for older or medically vulnerable inmates — a detail that struck many of his victims as one more instance of Zada landing somewhere considerably softer than the consequences most fraud victims themselves absorbed.
+
+The "secret board in London" pitch worked precisely because it was unfalsifiable by design: investors had no way to verify an operation they were told, from the outset, they weren't allowed to see directly. That structure — access sold as a privilege, paired with an explanation for why ordinary due diligence wasn't possible — is one of the most durable tells in affinity fraud, whether the claimed secret is a trading desk, a gold vault, or an algorithm no one else is permitted to inspect.`,
+  },
+);
