@@ -6102,3 +6102,17 @@ UsGM.push({
     isHistorical: true,
     firstRecorded: '2025-04-09',
 });
+
+UsGM.push({
+    name: 'Idaho DOPL Occupational Licensing Impersonation Scam',
+    slug: 'idaho-dopl-occupational-licensing-impersonation-scam',
+    description: `Idaho's Division of Occupational and Professional Licenses (DOPL), which regulates more than 250,000 licensees across 44 boards and commissions ranging from cosmetology to contracting to healthcare, posted a fraud alert warning that scammers are contacting licensees by phone and email while posing as DOPL investigators or licensing-board representatives. The callers falsely claim the licensee is under investigation for illegal activity, threaten to suspend or revoke the license unless the matter is resolved immediately, sometimes invoke a supposed federal agency or law enforcement partner to add pressure, and ask for Social Security numbers, dates of birth, payment information, or other sensitive details — often citing the licensee's real, publicly searchable license number to sound credible, since license numbers are public record rather than a secret only the real agency would know. DOPL states plainly that "our office will never contact you first to request personal information," clarifying that any identifying details it asks for come only when a licensee contacts DOPL directly, and only to verify identity for the licensee's own protection. Idaho local news reported a fresh wave of these calls and messages in August 2026 prompting the agency to reissue the warning. Anyone contacted this way is advised not to respond to the unexpected call, text, or email, to avoid clicking any link or sharing personal information, and to instead verify directly by calling DOPL's main office at 208-334-3233 or checking a license's status at edopl.idaho.gov.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Idaho Division of Occupational and Professional Licenses (DOPL)', 'KIFI Local News 8'],
+    sourceUrl: 'https://dopl.idaho.gov/pressrelease/fraud-alert/',
+    country: 'US',
+    state: 'ID',
+    isHistorical: true,
+    firstRecorded: '2025-10-02',
+});
