@@ -3303,14 +3303,3 @@ UsTZ.push({
     country: 'US',
     state: 'VA',
 });
-
-UsTZ.push({
-    name: 'Vanity Business Award Solicitation Scam',
-    slug: 'vanity-business-award-scam',
-    description: `A small business owner receives an unsolicited email or letter announcing they've been selected to receive a local or industry "Best of" award — something like a "2026 Excellence Award" or "Best of [Their City]" honor — congratulating them on being chosen ahead of unnamed competitors and inviting them to "claim" the recognition. The message links to a professional-looking award website and offers an engraved plaque, a "media placement" press release, or a bundled "recognition package" for anywhere from about $150 to $1,500, payable before the award can actually be issued or displayed. In one documented case, Cambridge, Massachusetts shed builder Kevin Richard of Cambridge Craftsman was told by a site called HonorLocal.com that he'd won "Best Shed Maker of Cambridge" and was offered a $150 plaque or a $1,500 media package; he recognized the pitch as a scam and never paid, though the Better Business Bureau says its Scam Tracker has logged more than 1,300 reports mentioning the word "award" since 2015. The BBB's business-tip guide on these "vanity award" schemes lists the giveaway red flags: the business never applied or was nominated through any process it can identify, no real competitor comparison or judging ever took place, and — the clearest tell — "most legitimate awards do not come with costs to the recipient." Business owners are advised to ask who runs the award program and how winners are actually selected, to search the award name alongside the word "scam" or "complaint" before responding, to check the issuing organization's own BBB Business Profile, and to treat any unsolicited award email that requires payment to "claim" or "display" the honor as a sales pitch rather than genuine recognition.`,
-    categorySlug: 'lottery-sweepstakes-scams',
-    alertLevel: 'medium',
-    sources: ['Better Business Bureau (BBB)'],
-    sourceUrl: 'https://www.bbb.org/article/business/21031-bbb-tip-vanity-awards',
-    country: 'US',
-});
