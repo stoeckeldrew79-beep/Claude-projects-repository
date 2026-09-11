@@ -7574,6 +7574,10 @@ NotoriousAF.push(
     slug: 'dale-sanders-louisiana-pastor-church-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/KennerChurchBaptist1820.JPG?width=1200',
+    coverImageCredit: 'Photo: Infrogmation of New Orleans (CC BY 3.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.justice.gov/usao-edla/pr/pastor-found-guilty-jury-wire-fraud-access-device-fraud-and-obstruction-federal',
     body: `Dale Sanders, 56, of Kenner, Louisiana, led two congregations in the New Orleans area — Second New Guide Missionary Baptist Church in Metairie and Fifth African Baptist Church in New Orleans. From April 2020 to April 2024, prosecutors say, he treated both churches' bank accounts as his own personal fund, exploiting the trust and minimal financial oversight that came with his position as pastor.
 
