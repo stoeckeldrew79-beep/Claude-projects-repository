@@ -7325,3 +7325,22 @@ A federal jury convicted all four Grenons in July 2023 of conspiracy to defraud 
 The Genesis II Church case is a reminder that framing a product as a matter of religious practice or personal belief, rather than a medical claim, doesn't change what the product actually does to the body — and that a family willing to keep manufacturing and shipping a product after a federal court has specifically ordered them to stop is treating the legal system itself as just another obstacle to route around, the same instinct that lets any fraud outlast a single warning, lawsuit, or regulatory action.`,
   },
 );
+
+NotoriousGM.push(
+  {
+    title: 'Lee Price III and the $1.6 Million PPP Loan Spent on a Lamborghini',
+    slug: 'lee-price-iii-ppp-loan-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/archives/opa/pr/texas-man-sentenced-more-nine-years-covid-19-fraud-and-money-laundering-scheme',
+    body: `The Paycheck Protection Program was built for speed. In the spring of 2020, with businesses shutting down overnight and Congress racing to keep payrolls afloat, lenders were told to approve PPP loans on the strength of an applicant's own certifications, with limited time to verify payroll records, employee counts, or even whether a business actually existed before the pandemic. That speed saved millions of real jobs — and it also created an opening that thousands of people used to simply invent a business on paper and collect the money meant for someone else's employees. Lee Price III, of Houston, was one of them.
+
+Price submitted PPP loan applications to two different lenders on behalf of three entities he controlled — 713 Construction LLC, Price Enterprises Holdings LLC, and Price Logistic Services LLC — claiming each had employees and payroll expenses that, prosecutors said, did not exist as described. One application went further still: to support the fraudulent paperwork, Price used the name of a dead person. Altogether, the applications fraudulently obtained more than $1.6 million in PPP funds guaranteed by the Small Business Administration under the CARES Act.
+
+None of the money went to payroll. Price spent it on a Lamborghini Urus, a Ford F-350 pickup truck, a Rolex watch, and a payoff on a residential property loan, while also running through thousands of dollars at strip clubs and nightclubs around Houston — moving the fraudulently obtained funds through a chain of bank accounts along the way in a pattern prosecutors charged as money laundering on top of the underlying wire fraud.
+
+Price pleaded guilty in September 2021 to wire fraud and money laundering. On November 30, 2021, a federal judge sentenced him to 110 months — more than nine years — in federal prison, one of the longer sentences handed down in the nationwide wave of PPP fraud prosecutions that followed the program's rollout. Law enforcement was able to seize more than $700,000 of the stolen funds, recovering less than half of what Price had taken.
+
+The case became one of the more widely covered examples of COVID-relief fraud precisely because the mismatch was so stark: a program meant to keep real employees on real payrolls during a national emergency, diverted instead into a luxury SUV and a watch, memorialized in the kind of receipts and dealership records that made the fraud straightforward for investigators to trace once they went looking. A relief program engineered to move money quickly in a crisis will always be more vulnerable to exactly this kind of fabricated paperwork than a program with time to verify every claim before paying it out — which is why the enforcement side of PPP fraud, unlike the loans themselves, took years rather than days, and is still working through cases like this one long after the pandemic emergency that created the program has passed.`,
+  },
+);
