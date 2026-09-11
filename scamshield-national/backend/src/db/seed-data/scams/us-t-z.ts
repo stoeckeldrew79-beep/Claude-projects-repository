@@ -3014,3 +3014,17 @@ UsTZ.push({
     isHistorical: true,
     firstRecorded: '2020-06-01',
 });
+
+UsTZ.push({
+    name: 'LuLaRoe Pyramid Scheme Lawsuit (Washington)',
+    slug: 'washington-lularoe-pyramid-scheme-lawsuit',
+    description: `LuLaRoe, LLC, a multi-level marketing company that sold leggings and other clothing exclusively through a network of individual "fashion retailers," recruited more than 3,600 Washington residents between January 2014 and early 2019, with founders Mark and DeAnne Stidham and their family telling prospective retailers at promotional events that they could earn $15,000 to $20,000 a month — and in some pitches, up to $150,000 — while requiring new recruits to buy an initial inventory package priced between $500 and $5,000 that arrived as a random, uncontrollable assortment of styles and sizes. Washington Attorney General Bob Ferguson sued LuLaRoe and the Stidham family in King County Superior Court in January 2019, alleging the company operated an illegal pyramid scheme by structuring bonuses around continued merchandise purchases and new recruitment rather than actual sales to outside customers, and by running a deceptive refund program retailers nicknamed "LuLaMath" that was designed to deny the 90% buybacks LuLaRoe had promised retailers who wanted to leave the business. Court filings showed the company's own numbers bore out the imbalance: two of LuLaRoe's top retailers earned more than $5 million combined between 2016 and 2019, while roughly one-third of all Washington retailers lost money overall. The case settled on February 2, 2021, just weeks before trial was set to begin, with LuLaRoe agreeing to pay $4.75 million — $4 million of it earmarked as restitution to be split among roughly 3,000 Washington retailers who lost money or gave up other opportunities because of the company's misrepresentations, and the remainder reimbursing the Attorney General's Office's investigation and litigation costs. "LuLaRoe tricked Washingtonians into buying into its pyramid scheme with deceptive claims and false promises," Ferguson said announcing the settlement, which also requires LuLaRoe going forward to publish accurate, complete income disclosures, tie retailer bonuses to verified sales rather than purchases, offer a genuine 45-day full refund window to new retailers, and let departing retailers return unsold inventory. As with any multi-level marketing pitch, a prospective retailer should ask what percentage of the company's total revenue comes from sales to actual outside customers rather than from other retailers' own purchases, and should treat an inventory requirement paired with promises of high, easy income as a warning sign rather than a normal cost of doing business.`,
+    categorySlug: 'ponzi-pyramid-schemes',
+    alertLevel: 'medium',
+    sources: ["Washington State Attorney General's Office (Bob Ferguson)"],
+    sourceUrl: 'https://www.atg.wa.gov/news/news-releases/lularoe-pay-475-million-resolve-ag-ferguson-s-lawsuit-over-pyramid-scheme',
+    country: 'US',
+    state: 'WA',
+    isHistorical: true,
+    firstRecorded: '2019-01-01',
+});
