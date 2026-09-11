@@ -5471,6 +5471,10 @@ NotoriousAF.push(
     slug: 'christine-hunsicker-caastle-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Manhattan_Garment_District_by_Don_Ramey_Logan.jpg?width=1200',
+    coverImageCredit: "Photo: Don Ramey Logan, Wikimedia Commons (CC BY-SA 4.0) — Manhattan's Garment District, the fashion-industry hub CaaStle operated in",
     sourceUrl: 'https://www.justice.gov/usao-sdny/pr/founder-fashion-tech-company-caastle-sentenced-five-years-prison-300-million-fraud',
     body: `Christine Hunsicker had a genuinely accomplished résumé before any of this happened: a Princeton graduate who had served as COO of Drop.io and as president and COO of Right Media, an ad-exchange company sold to Yahoo! for $850 million. In 2011 she founded Gwynnie Bee, a plus-size clothing rental subscription service, which she later rebranded as CaaStle — a "Clothing as a Service" platform meant to license its rental-and-logistics infrastructure to other retail brands. Over the following years CaaStle raised hundreds of millions of dollars from investors on the strength of that pitch.
 
