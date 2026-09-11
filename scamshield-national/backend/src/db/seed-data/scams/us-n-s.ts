@@ -5839,3 +5839,15 @@ UsNS.push({
     country: 'US',
     state: 'NY',
 });
+
+UsNS.push({
+    name: 'Pennsylvania PennDOT Traffic Violation Text Scam',
+    slug: 'pennsylvania-penndot-traffic-violation-text-scam',
+    description: `Pennsylvania Attorney General Dave Sunday issued a consumer alert after residents reported text messages impersonating the Pennsylvania Department of Transportation (PennDOT) that threaten to report the recipient to a "DMV violation database," suspend their vehicle registration, suspend driving privileges for 30 days, or pursue prosecution over an unpaid traffic ticket unless a linked payment page is used right away. Several versions of the text even include the line "Do not click on the link or copy the link into your browser" — a false note of caution scammers insert specifically because it makes the message read like a legitimate compliance notice rather than a phishing attempt. "PennDOT does not send text messages about traffic violations or fines," Sunday said, confirming the messages have no connection to the real agency. The Attorney General's Office recommends deleting the text without clicking any link, reporting it as spam to your wireless carrier, and filing a complaint with the Bureau of Consumer Protection online, by calling 1-800-441-2555, or by emailing scams@attorneygeneral.gov with a screenshot of the message attached.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Pennsylvania Office of Attorney General'],
+    sourceUrl: 'https://www.attorneygeneral.gov/taking-action/ag-dave-sunday-warns-of-scam-texts-alleging-to-be-from-the-pennsylvania-department-of-transportation/',
+    country: 'US',
+    state: 'PA',
+});
