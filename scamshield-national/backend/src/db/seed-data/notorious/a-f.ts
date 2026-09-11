@@ -6223,8 +6223,8 @@ NotoriousAF.push(
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/opa/pr/florida-man-sentenced-after-fraudulently-obtaining-39-million-ppp-loans',
     // representative photo — replace with a portrait if found
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Miami_Skyline_2020.jpg?width=1200',
-    coverImageCredit: 'Photo: Chris6d, Wikimedia Commons (CC BY-SA 4.0) — Miami, where David Hines ran his PPP loan fraud',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Miami_skyline_from_the_ocean.jpg?width=1200',
+    coverImageCredit: 'Photo: Matthew T Rader, Wikimedia Commons (CC BY-SA 4.0) — Miami, where David Hines ran his PPP loan fraud',
     coverImagePosition: 50,
     body: `When Congress created the Paycheck Protection Program in the spring of 2020 to keep small businesses afloat during COVID-19 shutdowns, it prioritized speed over verification — loans were meant to reach struggling employers within days, not weeks, which meant lenders had little practical ability to check an applicant's claims before wiring the money. David Tyler Hines, a 29-year-old from Miami, treated that gap as an opportunity. Prosecutors said he submitted a series of PPP loan applications, seeking roughly $13.5 million in total across multiple companies he controlled, backed by fabricated IRS payroll tax forms claiming dozens of employees and monthly payrolls in the hundreds of thousands of dollars that didn't actually exist.
 
