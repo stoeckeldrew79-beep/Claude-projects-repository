@@ -12912,3 +12912,16 @@ International.push(
     country: 'GU',
   },
 );
+
+International.push(
+  {
+    name: 'Guam Power Authority "Pay Now or Be Disconnected" Phone Scam',
+    slug: 'guam-power-authority-pay-now-disconnection-phone-scam',
+    description: `The Guam Power Authority (GPA) and the Mariana Regional Fusion Center (MRFC), Guam's homeland-security intelligence-sharing office, issued a joint public advisory warning residents about callers impersonating GPA employees and demanding immediate phone payment to avoid having their electricity cut off. Customers reported receiving the calls from off-island numbers, including 888-864-1797 and 406-420-8348, as well as what appeared to be local numbers; the callers pressed for card or account information on the spot, relying on the fear of losing power to push people into paying before they could stop and verify the claim. GPA General Manager John M. Benavente stated in the advisory that "fraudulent telemarketers or scammers understand human nature, prey on our vulnerability, including the pressure to act immediately," and stressed that GPA employees do not initiate calls to customers demanding immediate telephone payment and never threaten same-day disconnection over the phone. The utility urged customers never to give payment or personal information to an unverified caller, to independently look up GPA's number rather than call back a number a caller provides, and to verify or pay only through GPA's own channels — the PayGPA.com website, the GPA mobile app, or its official Pay-By-Phone line at (671) 647-5787 — while reporting suspicious calls and any additional numbers used to the MRFC at mrfc@ghs.guam.gov. The pattern is a Guam-specific version of the utility-disconnection scam seen across the U.S. mainland, adapted to target an island grid with a single power provider and a customer base that has nowhere else to turn for electricity, which the scammers use as leverage to manufacture urgency.`,
+    categorySlug: 'utility-scams',
+    alertLevel: 'medium',
+    sources: ['Guam Power Authority (GPA)', 'Mariana Regional Fusion Center (MRFC) / Guam Homeland Security-Office of Civil Defense', 'Pacific Daily News (postguam.com)'],
+    sourceUrl: 'https://ghs.guam.gov/gpa-mrfc-monitor-suspected-phone-scam',
+    country: 'GU',
+  },
+);
