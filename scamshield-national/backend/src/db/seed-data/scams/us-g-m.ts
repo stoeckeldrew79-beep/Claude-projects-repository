@@ -5748,3 +5748,15 @@ UsGM.push({
     country: 'US',
     state: 'MI',
 });
+
+UsGM.push({
+    name: 'Greiner Funeral Home Pre-Need Funeral Fraud',
+    slug: 'greiner-funeral-home-terre-haute-indiana-pre-need-fraud',
+    description: `Gary Greiner ran Greiner Funeral Home in Terre Haute, Indiana for years, collecting "pre-need" payments from clients who paid in advance for their own future funeral arrangements — money Indiana law requires a funeral home to place into a trust or insurance policy rather than spend on current operations. When the Vigo County Coroner's Office and investigators searched the funeral home and a storage room Greiner used at Mount Pleasant Cemetery, they recovered 59 sets of cremated remains that had never been returned to the families who had already paid for services, evidence pointing to a business that kept collecting money for work it had stopped performing. The state's complaint alleges Greiner defrauded at least 147 clients of more than $550,000 in pre-need funds. He was booked into the Vigo County Jail on August 20, 2026 facing 37 charges, including corrupt business influence, fraud, and theft, and was released after posting a $510,000 cash bond; the Indiana Funeral and Cemetery Board separately revoked his funeral director's license, and a jury trial has been set for January 2027. "This has been a massive investigation," Vigo County Prosecutor Terry Modesitt said of the case. Anyone who has paid in advance for their own or a family member's funeral is advised to request written confirmation that the payment was placed into a state-regulated trust or a life insurance policy — not simply held by the funeral home itself — and to periodically confirm directly with that trustee or insurer that the funds are still there, since a pre-need contract offers little real protection once the money has already been spent by the business that took it.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'high',
+    sources: ["Vigo County Prosecutor's Office", 'Terre Haute Tribune-Star', 'WTHI-TV'],
+    sourceUrl: 'https://www.tribstar.com/news/local_news/dozens-of-charges-filed-greiner-arrested-in-alleged-funeral-home-fraud/article_85cadafc-0f8c-4a3f-983a-5a0a97e13cc1.html',
+    country: 'US',
+    state: 'IN',
+});
