@@ -3222,3 +3222,17 @@ UsTZ.push({
     country: 'US',
     state: 'WA',
 });
+
+UsTZ.push({
+    name: 'Registrar Agency Fake Government Business-Filing Renewal Notices',
+    slug: 'washington-registrar-agency-fake-business-filing-renewal-scam',
+    description: `Registrar Agency LLC sent more than 190,000 texts and emails to Washington small businesses styled to look like official notices from a government agency, complete with an image of the Washington State Capitol, telling recipients their required annual business filing was due and demanding $159.98 to "renew" it — roughly $100 more than the state's actual filing fee. More than two dozen businesses reported the solicitations to the Washington Attorney General's Office, saying they believed the messages came from a state agency rather than a private company with no official role in business filings. Attorney General Nick Brown's office sent Registrar a cease-and-desist letter in early 2024, after which the company stopped operating in Washington; on September 10, 2026, Brown announced a settlement requiring Registrar to pay more than $520,000, covering restitution for affected businesses through a claims process along with penalties and costs. The settlement permanently bars Registrar from sending deceptive government-styled solicitations for inflated filing fees to Washington businesses and from using the State Capitol image in future mailers. Business owners are advised that state filing agencies almost never solicit renewal payments by unsolicited text or email with a "pay now" link, and that any renewal notice should be checked directly against the fee listed on the Washington Secretary of State's own filing portal before paying.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ["Washington State Office of the Attorney General"],
+    sourceUrl: 'https://www.atg.wa.gov/news/news-releases/company-pay-more-520k-over-allegations-deceptive-solicitations-small-businesses',
+    country: 'US',
+    state: 'WA',
+    isHistorical: true,
+    firstRecorded: '2026-09-10',
+});
