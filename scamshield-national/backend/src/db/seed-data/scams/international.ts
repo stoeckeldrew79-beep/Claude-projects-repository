@@ -10855,6 +10855,16 @@ International.push(
     sourceUrl: 'https://grenadafiu.com/',
     country: 'GD',
   },
+  {
+    name: 'Grenada Facebook and Instagram Investment Scam Advertisements',
+    slug: 'grenada-facebook-instagram-investment-scam-advertisements',
+    description: `The Grenada National Cyber Security Incident Response Team (CSIRT-Gnd), part of the Ministry of Information and Communications Technology, issued an Investment Scams Advisory on February 18, 2026 warning that it had observed a sharp rise in fraudulent investment offers targeting Grenadians and residents of neighbouring islands through sponsored posts and advertisements on Facebook and Instagram, some of which were injected directly into legitimate content feeds rather than appearing as obvious ads. CSIRT-Gnd defined the pattern as a fake or misleading investment offer in which someone lies about or hides key facts to trick a target into handing over money, and listed a specific set of warning signs drawn from real reports: promises of unrealistic, guaranteed returns in an implausibly short window — the advisory cited the example wording "Invest $100 and get $5,000 in 24–48hrs" — alongside claims that the money can never be lost, quick assurances that funds are always accessible on demand, and a fast push to move the conversation off the social platform and onto WhatsApp or Telegram. Once a target had sent an initial amount, the advisory warned, promoters typically applied high-pressure tactics, demanding additional payments while sending screenshots as fabricated "proof" of growing balances, refused all voice or video calls, and could never produce legitimate business registration or licensing documentation when asked. CSIRT-Gnd urged the public never to send money, share copies of identification documents, or grant remote access to a device based on a social media investment pitch, and to independently verify any investment opportunity before committing funds, directing anyone with questions or a suspected scam to report it to the team via WhatsApp or Telegram at (473) 423-2478, by email, or through its official Facebook, Instagram, and X accounts.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'high',
+    sources: ['Grenada National Cyber Security Incident Response Team (CSIRT-Gnd)', 'NOW Grenada'],
+    sourceUrl: 'https://csirt.gov.gd/',
+    country: 'GD',
+  },
 );
 
 International.push(
