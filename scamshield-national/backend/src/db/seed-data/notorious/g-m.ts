@@ -6986,7 +6986,10 @@ NotoriousGM.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/usao-edtx/pr/texas-couple-sentenced-running-illegal-pyramid-scheme',
-    // no rights-cleared photo identified — sourceUrl above serves as the "read the full story" link
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Sherman_July_2016_48_(Paul_Brown_Federal_Building).jpg?width=1200',
+    coverImageCredit: 'Michael Barera, CC BY-SA 4.0, via Wikimedia Commons',
+    coverImagePosition: 50,
     body: `LaShonda Moore, 38, and Marlon Moore, 39, of Frisco, Texas, spent the height of the COVID-19 pandemic — from June 2020 to June 2021 — building an illegal chain-referral pyramid scheme they called "Blessings in No Time," or BINT. It used the decades-old "gifting circle" structure that consumer-protection regulators have been warning about for years, dressed up for a pandemic audience desperate for income: new participants were told to send a "blessing" payment of at least $1,400 to people who had already joined, in exchange for a promised 800% return — paid back eight-fold within weeks — plus a guaranteed refund if they were ever unsatisfied.
 
 None of that math worked, because it couldn't. A gifting pyramid pays early participants with money collected from later ones; it has no actual product, service, or investment generating the returns it promises, so its only way to keep paying out is to keep recruiting new payers faster than old ones cash out. The Moores marketed BINT through weekly livestream broadcasts to thousands of viewers at a time, framing the "blessing" payments as a way for people to help their own community during a period of widespread pandemic-era job loss — a framing prosecutors said was itself part of the deception, since the money flowed upward to the scheme's organizers rather than sideways to neighbors in need.
