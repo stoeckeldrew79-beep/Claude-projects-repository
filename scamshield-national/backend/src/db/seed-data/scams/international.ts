@@ -14842,3 +14842,16 @@ International.push(
     country: 'BZ',
   },
 );
+
+International.push(
+  {
+    name: `Republic of Congo "Omega Pro" Ponzi Investment Scheme`,
+    slug: 'congo-brazzaville-omega-pro-ponzi-investment-scheme',
+    description: `The Republic of Congo's Director General of National Financial Institutions, Jean-Pierre Nonault, held a press conference in Brazzaville on April 4, 2022, publicly declaring the online investment platform Omega Pro a fraudulent Ponzi or pyramid scheme, as reported by both Les Dépêches de Brazzaville (adiac-congo.com) and Le Journal de Brazza. Omega Pro, presenting itself as a Dubai-headquartered financial services firm, had been soliciting Congolese savers since 2018 by promising to triple their initial deposit within sixteen months, returns Nonault said were "nearly impossible to find anywhere on the planet." He stated plainly that the platform "does not constitute microfinance, is not registered in Congo, and the number of savers [affected] is unknown," and that it is "neither a bank, nor a microfinance institution, nor a recognized financial establishment" but rather a Ponzi-type scam that pays early participants with money collected from later ones until the scheme collapses. Authorities said a joint team combining the national financial institutions directorate and the national police had been formed to investigate and pursue arrests, and two local Omega Pro representatives, identified as Prince Bakaba and Beri Mayembo, were sought and subsequently arrested. Nonault urged the media to help educate the public about unregistered investment schemes and cautioned citizens to treat any platform promising guaranteed, far-above-market returns with serious skepticism, noting that thousands of savers across the world — and an unknown number in Congo — had already lost money to organizations posing as legitimate financial companies. The case became one of several Omega Pro fraud investigations opened internationally, including in France, Portugal, and Mexico, as regulators worldwide moved to warn the public that the platform had no authorization to offer investment services.`,
+    categorySlug: 'ponzi-pyramid-schemes',
+    alertLevel: 'high',
+    sources: ['Les Dépêches de Brazzaville (adiac-congo.com)', 'Le Journal de Brazza'],
+    sourceUrl: 'https://www.adiac-congo.com/content/epargne-la-plateforme-omega-pro-accusee-descroquerie-136577',
+    country: 'CG',
+  },
+);
