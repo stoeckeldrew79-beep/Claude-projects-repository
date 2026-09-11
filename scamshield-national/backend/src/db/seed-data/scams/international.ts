@@ -10802,6 +10802,36 @@ International.push(
     sourceUrl: 'https://bernews.com/2026/08/bps-issues-alert-whatsapp-ai-fraud/',
     country: 'BM',
   },
+  {
+    name: 'Bermuda Unregulated "Investment Opportunity" Seminar Scheme',
+    slug: 'bermuda-unregulated-investment-opportunity-seminar-scheme',
+    description: `The Bermuda Monetary Authority (BMA) issued a public warning in July 2026 after a capital-raising seminar was held at a hotel on the island, cautioning residents that the entities behind it were not licensed to conduct investment business in or from Bermuda. The event was hosted by a UK-based "capital introduction" firm on behalf of its UK-based client, and a fact sheet handed out to attendees advertised tiered, near-guaranteed monthly payments described as both "returns" and "interest" — 10 percent annually on a $10,000 investment, rising to 12 percent on $20,000, 15 percent on $50,000, and 18 percent on a $100,000 investment. The BMA said its review found the materials were not restricted to sophisticated or high-net-worth investors as securities offerings normally require, lacked a clear disclaimer stating it was not an offer or invitation to subscribe for any investment, and contained no risk disclosure at all despite promising returns far above market averages. Because Bermuda's economy is built around a large, genuinely regulated offshore insurance, reinsurance, and asset-management sector, fraudsters can exploit that reputation to make unlicensed pitches sound credible to residents and visitors alike. The Authority confirmed that neither the UK introducing firm nor its client was regulated in Bermuda or the United Kingdom, and urged anyone approached with a similar opportunity to check the BMA's public register of licensed entities and its warning list before committing any money, to be skeptical of returns significantly above market norms, and to obtain independent professional financial advice first.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'high',
+    sources: ['Bermuda Monetary Authority (BMA)', 'The Royal Gazette', 'Bernews'],
+    sourceUrl: 'https://www.royalgazette.com/general/business/article/20260717/bma-sounds-warning-after-investment-opportunity-event/',
+    country: 'BM',
+  },
+  {
+    name: 'Bermuda Police Service Phone and WhatsApp Impersonation Scam',
+    slug: 'bermuda-police-service-phone-whatsapp-impersonation-scam',
+    description: `The Bermuda Police Service (BPS) has repeatedly warned residents, including in a March 2025 advisory following earlier alerts issued in October and December 2024, about fraudsters who call people directly and falsely claim to be BPS officers in order to extract personal and financial information. Some calls come through ordinary phone lines, while others arrive as WhatsApp voice or video calls from a profile that displays the BPS crest as its picture but is tied to a foreign number, including numbers with a Pakistani (+92) country code, rather than a genuine Bermuda line. Once a target answers, the caller claims to be investigating something on the target's behalf and asks for personal details and financial information, including bank account particulars, under the pretext of verifying identity or resolving a supposed police matter. Police stressed that genuine BPS officers do not conduct investigations or request sensitive personal and financial information over the phone or via WhatsApp; instead, a real officer will arrange an in-person appointment at a police station. The BPS advised anyone contacted this way to ask the caller for their name, badge number, and department so it can be verified, to refuse to provide any personal or banking information over the call, and if there is any doubt to hang up immediately and call the BPS directly on 211 to confirm whether the contact was legitimate.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Bermuda Police Service (BPS)', 'Bernews'],
+    sourceUrl: 'https://bernews.com/2025/03/scammers-impersonate-bermuda-police-service/',
+    country: 'BM',
+  },
+  {
+    name: 'Bermuda Monetary Authority Fake "Certificate of Converting" Prize Scam',
+    slug: 'bermuda-monetary-authority-fake-certificate-of-converting-prize-scam',
+    description: `The Bermuda Monetary Authority (BMA) issued a fraud alert warning that criminals were circulating a forged document called a "Certificate of Converting" through targeted social media messages, using it to convince recipients that a large prize or payout was waiting for them. The fake certificate misappropriated the BMA's official name and logo as a watermark and carried a falsified approval purportedly signed by the Authority's Executive Chair, lending the fraud an air of regulatory legitimacy it did not have. The scheme is a classic advance-fee fraud: recipients who believed the certificate was genuine were told they needed to pay a "conversion fee" upfront before any of the promised prize winnings could be released to them, but no legitimate payout ever follows and the upfront payment is simply stolen. The BMA emphasized that it never charges members of the public a fee to release winnings, lottery payouts, or any other funds, and that a falsified approval combined with the misuse of a real institution's name or logo is a clear red flag for fraud. The Authority warned that anyone who engages with the individuals behind such a document, or sends them money, does so entirely at their own risk, and urged the public to verify any document claiming to originate from the BMA directly with the Authority before acting on it or making any payment.`,
+    categorySlug: 'lottery-sweepstakes-scams',
+    alertLevel: 'medium',
+    sources: ['Bermuda Monetary Authority (BMA)', 'Bernews'],
+    sourceUrl: 'https://www.bma.bm/news-and-press-releases/public-warning-fraud-alert',
+    country: 'BM',
+  },
 );
 
 International.push(
