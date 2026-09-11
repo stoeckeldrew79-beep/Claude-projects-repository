@@ -5348,3 +5348,16 @@ UsNS.push({
     isHistorical: true,
     firstRecorded: '2026-03-26',
 });
+
+UsNS.push({
+    name: 'Ghana-Based Romance Fraud and Money-Mule Ring (Adom, Aidoo, Adjei, Wasif)',
+    slug: 'ohio-ghana-romance-fraud-money-mule-ring',
+    description: `A Northern District of Ohio superseding indictment unsealed June 4, 2026 charged David Onyinye Abuanekwu, Dwayne Asafo Adjei, Nancy Adom, Eric Aidoo, and Nader Wasif with conspiracy to commit wire fraud and money laundering for their roles in a romance-fraud network that, from December 2017 through March 2024, built fake online identities to court elderly Americans on dating sites and social media before manipulating them into wiring money — and, in some cases, into unknowingly laundering stolen funds through their own bank accounts as "money mules" for the group. The FBI's Cleveland Division led the investigation, working with the FBI's legal attaché office in Accra and Ghanaian law enforcement to trace proceeds shared with co-conspirators in Ghana. Adom, of Akron and Columbus, Ohio, was sentenced to 71 months in federal prison and ordered to pay $1,079,559 in restitution; Aidoo, of Columbus, was sentenced to 71 months and ordered to pay $668,228; Adjei, a Ghanaian citizen, was sentenced to 71 months and ordered to pay $372,943; and Wasif, of Brentwood, Tennessee, was sentenced to 12 months for obstruction of justice and ordered to pay $172,644. Romance fraud increasingly recruits victims themselves as unwitting launderers of other victims' money — anyone asked by an online romantic interest to receive and forward funds, supposedly to help access an inheritance or close a business deal, should treat that request as a serious warning sign and refuse, since it can expose them to both financial loss and criminal liability of their own.`,
+    categorySlug: 'romance-scams',
+    sources: ["U.S. Attorney's Office, Northern District of Ohio", 'FBI Cleveland Division'],
+    sourceUrl: 'https://www.justice.gov/usao-ndoh/pr/ghanaian-nationals-indicted-romance-fraud-scams',
+    country: 'US',
+    state: 'OH',
+    isHistorical: true,
+    firstRecorded: '2017-12-01',
+});
