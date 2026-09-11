@@ -3367,3 +3367,17 @@ UsTZ.push({
     sourceUrl: 'https://www.bbb.org/all/social-media-scams/think-twice-before-buying-from-these-social-media-ads',
     country: 'US',
 });
+
+UsTZ.push({
+    name: 'Texas TREC and TALCB Phone Number Spoofing Scam',
+    slug: 'texas-trec-talcb-phone-number-spoofing-scam',
+    description: `The Texas Real Estate Commission (TREC) and the Texas Appraiser Licensing and Certification Board (TALCB) issued a joint alert on April 24, 2026 warning real estate agents, appraisers, and members of the public about scammers spoofing the agencies' caller ID to send fraudulent texts and make fraudulent calls. The messages falsely claim the recipient has committed a "safety" violation, and the calls press recipients to hand over Social Security numbers, credit card numbers, and bank account details under the threat of an urgent enforcement problem, all of it aimed at enabling identity theft or direct financial fraud rather than any real licensing matter. TREC and TALCB stressed that "the agency does not use text messages as a method of contact," that they never request a full Social Security number or similar sensitive data through unsolicited contact, and that any genuine enforcement communication comes by email — not a spoofed call or text demanding information immediately. Scammers have also been impersonating the agencies in Facebook comments, so the agencies' guidance extends to social media as well as phone and text. Anyone contacted this way is advised never to respond to the message, to report it as spam rather than engaging with it, and to hang up, delete, or flag it and then reach out to TREC or TALCB directly through the agencies' own published contact information rather than anything provided in the suspicious message.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Texas Real Estate Commission (TREC)', 'Texas Appraiser Licensing and Certification Board (TALCB)'],
+    sourceUrl: 'https://www.trec.texas.gov/article/alert-scammers-spoofing-trec-and-talcb-phone-numbers-fake-texts-calls',
+    country: 'US',
+    state: 'TX',
+    isHistorical: true,
+    firstRecorded: '2026-04-24',
+});
