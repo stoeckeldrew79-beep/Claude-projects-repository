@@ -10666,6 +10666,37 @@ International.push(
     sourceUrl: 'https://asiaplus.news/en/2026/01/09/national-bank-of-tajikistan-warns-about-fake-information-on-subsidized-loans/',
     country: 'TJ',
   },
+  {
+    name: 'Fake Traffic Police Extortion Scam on Dushanbe-Area Highways',
+    slug: 'tajikistan-fake-traffic-police-extortion-scam',
+    description: `Dushanbe police have repeatedly arrested men who put on traffic-police uniforms and stage fake patrols or checkpoints on roads around the capital to extort cash from drivers. In the most recent case, reported by Asia-Plus in December 2025, two Dushanbe residents, Abdujabbor Sharifzoda and Jumakhon Jurakhonov, were arrested by the Sino District Police Department after wearing official traffic-police uniforms and, in the department's words, "deceptively demand[ing] and collect[ing] various sums of money" from drivers under false pretenses; police said the arrest followed "a similar case in November," in which three men — Olim Nazarov, Karim Muin Hamzazoda and Shahrom Yatimov — fitted a rented Toyota Camry with a siren and flashing lights and patrolled roads toward Hisor at night, stopping drivers over invented traffic violations and taking 950 and 1,000 somoni in separate stops (one of which, per the Interior Ministry's Akhbor program, also involved the suspects sexually assaulting a woman they had detained). An earlier, unrelated case in March 2025 saw three men — Zarif Umarjon, Yoqub Abrorov and Mahlailloh Majidzoda — charged under Article 248 (robbery) of Tajikistan's Penal Code after posing as law-enforcement officers and using force to take 9,000 and 2,300 somoni from two citizens; police separately noted a prior case in which fake officers had demanded USD 10,000 from a Dushanbe resident using fabricated evidence of wrongdoing and were caught receiving a USD 4,900 installment. The Dushanbe Police Department has asked anyone targeted by impersonators to call its hotline, (+992) 018020202, warning that such impersonation "undermines the authority of law enforcement and erodes public trust."`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Dushanbe Police Department', 'Asia-Plus'],
+    sourceUrl: 'https://asiaplus.news/en/2025/12/09/fake-traffic-police-officers-arrested-in-dushanbe-for-extorting-money-from-drivers/',
+    country: 'TJ',
+  },
+  {
+    name: '"Garduna" Fake Czech Auto-Plant Job Recruitment Fraud',
+    slug: 'tajikistan-garduna-czech-auto-plant-job-fraud',
+    description: `Tajikistan's Agency for State Financial Control opened a criminal investigation into Garduna, a Dushanbe-based labor recruitment firm that RFE/RL's Tajik-language service, via its Gandhara desk, reported had defrauded roughly 200 Tajiks out of nearly USD 250,000 combined. Garduna charged each applicant an upfront "recruitment fee" of about USD 1,320 for a guaranteed job at Skoda automobile plants in the Czech Republic paying a promised USD 1,300 a month, with no qualifications required beyond a valid passport and payment. To build trust, the firm's director, Bakhtiyor Arabov, and his deputies, Tokhir Rustamov and Tous Hushkadamova, showed applicants fabricated employment contracts and real photographs of Skoda's dormitories, and arranged staged "interviews" with a Czech intermediary, 51-year-old Vaclav Skohoutil of Novy Bor, who worked through an outfit called Chekhovskaya. Departure dates promised for June/July 2018 slipped to October 2018 and then January 2019, and the jobs never materialized; Skohoutil could not be located after Garduna's leadership was detained in March 2019. RFE/RL found that more than half of the roughly 200 victims had taken out bank loans to cover the fee, leaving many in debt with neither a job nor a refund. The case remains a commonly cited example, in Tajik reporting on labor-migration fraud, of the pattern scammers use on jobseekers: convincing paperwork, a foreign "partner," and a large upfront fee for work that is never delivered.`,
+    categorySlug: 'employment-scams',
+    sources: ['RFE/RL Gandhara (Tajik Service)', 'Tajikistan Agency for State Financial Control and Anti-Corruption'],
+    sourceUrl: 'https://gandhara.rferl.org/a/fake-job-scam-preys-on-tajiks-by-guaranteeing-work-at-czech-auto-plants/29814557.html',
+    country: 'TJ',
+    isHistorical: true,
+    firstRecorded: '2018-06-01',
+  },
+  {
+    name: 'Fake Mobile-Operator "Service Upgrade" Verification-Code Phishing Scam',
+    slug: 'tajikistan-fake-mobile-operator-verification-code-phishing',
+    description: `Tajikistan's Communications Service, the state telecommunications regulator under the Government of the Republic of Tajikistan, issued a public warning in December 2025 after what its press service described as a rise in citizen complaints on social media about fraudulent phone calls and SMS messages from people claiming to be employees of mobile phone companies offering new services. According to the agency, the callers ask recipients to share "unlock codes" and links sent to them by SMS — the one-time verification codes carriers use to confirm account or SIM changes — under the pretext of activating some new service. The Communications Service reminded the public that any genuine offer relating to communications services is made only by the authorized government agency or licensed service companies, and only through official correspondence, confirmed phone numbers, and verified SMS messages, never by an unsolicited caller asking a customer to read back a code. Citizens who receive such calls or texts were told to refrain from sharing any code, link, or personal information, to verify the sender independently before responding, and to report suspected fraud to the official communications service or to law enforcement.`,
+    categorySlug: 'phishing',
+    alertLevel: 'medium',
+    sources: ['Communications Service under the Government of the Republic of Tajikistan', 'Avesta'],
+    sourceUrl: 'https://en.avesta.tj/2025/12/08/the-communications-service-warned-about-fraudulent-calls-and-sms-messages/',
+    country: 'TJ',
+  },
 );
 
 International.push(
