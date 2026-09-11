@@ -7087,7 +7087,10 @@ NotoriousGM.push(
     author: 'ScamShield Editorial',
     tags: ['notorious'],
     sourceUrl: 'https://www.justice.gov/usao-ndtx/pr/dallas-man-federally-indicted-his-role-alleged-precious-metals-scam-targeting-elderly',
-    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Dallas_City_Hall_1.jpg?width=1200',
+    coverImageCredit: 'Photo: Loadmaster (David R. Tribble), CC BY-SA 3.0, via Wikimedia Commons — Dallas City Hall, in the city where Moran\'s companies operated',
+    coverImagePosition: 50,
+    // representative photo — Dallas city hall, not a portrait; replace with a portrait if found
     body: `Note: The allegations below come from a federal grand jury indictment. Damien Moran has not been convicted of any crime, and the case remains pending as of this writing — nothing here should be read as an established finding of guilt.
 
 Damien Moran, 36, of the Dallas area, allegedly owned and operated several companies — including Bright Future Financial LLC, doing business as Oakhurst Metals, and Crown Bullion, Inc. — that pitched retirement-age customers on moving their savings into physical gold and silver. According to a federal indictment and a related civil action brought by the Commodity Futures Trading Commission and dozens of state regulators, the sales pitch relied on the same appeal precious-metals fraud has used for decades: gold and silver as a hedge against a volatile stock market and a currency losing value, sold as a safer place than a 401(k) or IRA for a retiree's nest egg.
@@ -7106,7 +7109,9 @@ NotoriousGM.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/usao-sdfl/pr/former-nfl-player-sentenced-federal-prison-covid-19-relief-fraud',
-    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Josh_bellamy.jpg?width=1200',
+    coverImageCredit: 'Photo: Jim Larrison, CC BY 2.0, via Wikimedia Commons',
+    coverImagePosition: 50,
     body: `Joshua Bellamy spent eight seasons in the NFL as a wide receiver for the Kansas City Chiefs, Chicago Bears, Washington Football Team, and New York Jets. By the spring of 2020, he was no longer on an active roster, and when Congress created the Paycheck Protection Program to keep small businesses and their employees afloat during the COVID-19 shutdowns, Bellamy turned to a company he controlled, Drip Entertainment LLC, to apply.
 
 According to the U.S. Attorney's Office for the Southern District of Florida, Drip Entertainment had few if any employees and little legitimate payroll to protect — but Bellamy's application, prosecutors said, claimed otherwise, and the loan was approved for $1.2 million. Rather than using the money to cover wages, as PPP loans required, prosecutors said Bellamy spent it on himself: more than $104,000 at luxury retailers including Dior and Gucci and at high-end jewelers, more than $62,000 during a trip to the Seminole Hard Rock Hotel & Casino, and more than $302,000 in cash withdrawals. He also paid roughly $311,000 to a co-conspirator, James Stote, prosecutors said, as a kickback for help preparing and submitting the fraudulent application. A separate defendant charged in a related PPP fraud, Yashica Bain of Miramar, Florida, was accused of using falsified payroll documents to fraudulently obtain a $415,232 PPP loan for a company called Microblading Brow Studio LLC and funneling personal expenses through it as though they were payroll.

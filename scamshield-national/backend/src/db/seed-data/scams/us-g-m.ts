@@ -5402,3 +5402,15 @@ UsGM.push({
     isHistorical: true,
     firstRecorded: '2024-08-05',
 });
+
+UsGM.push({
+    name: 'Kentucky Secretary of State Annual Report Mailer Scam',
+    slug: 'kentucky-secretary-of-state-annual-report-mailer-scam',
+    description: `Kentucky Secretary of State Michael G. Adams warned business owners in late March 2026 about official-looking letters, arriving as the state's January 1-to-June 30 annual report filing window closed in on its deadline, that offer to file the report on the recipient's behalf for a fee north of $160 in addition to the state's own $15 filing charge — pushing the total to roughly $175, an amount investigators believe is deliberately chosen because it mirrors what many Kentucky LLCs separately owe the Department of Revenue each year for the limited liability entity tax, making the padded charge look like a normal, expected cost of doing business rather than an unnecessary markup. "Don't get hustled. File your annual business report directly with the Secretary of State and pay only $15," Adams said in announcing the warning. The annual report itself is a routine requirement — confirming a business's registered agent and address are current — that every Kentucky business can file directly with the Secretary of State's office online or by mail for the standard $15 fee, with no third-party service needed at any price. Business owners who receive one of these mailers are advised to file directly through the Secretary of State rather than responding to the letter, to search their business on the Secretary of State's website to confirm a report was actually filed if they already paid a third party, to dispute the charge with their bank if no service was actually rendered, and to report the letter to local law enforcement.`,
+    categorySlug: 'government-impersonation',
+    country: 'US',
+    state: 'KY',
+    alertLevel: 'medium',
+    sources: ['Kentucky Secretary of State (Michael G. Adams)', 'NKyTribune'],
+    sourceUrl: 'https://www.sos.ky.gov/',
+});
