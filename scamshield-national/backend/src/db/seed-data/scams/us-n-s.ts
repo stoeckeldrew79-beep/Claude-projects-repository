@@ -5667,3 +5667,17 @@ UsNS.push({
     country: 'US',
     state: 'NC',
 });
+
+UsNS.push({
+    name: 'Nevada Government-Shutdown AI Impersonation Investment Scam',
+    slug: 'nevada-government-shutdown-ai-impersonation-investment-scam',
+    description: `As the 2025 federal government shutdown stretched on and Nevadans felt its effects on social services, Nevada Secretary of State Francisco "Cisco" Aguilar's office issued a consumer alert warning that scammers were exploiting the resulting anxiety with increasingly convincing impersonation schemes. "Scammers are always looking to take advantage of those in vulnerable situations — and as Nevadans feel the impacts of the federal government shutdown and changes to social services, we're urging the public to be on alert," Aguilar said. The office's Securities Division described fraudsters posing as government officials, law enforcement officers, and financial experts, increasingly relying on artificial intelligence to clone voices, generate fake videos, and convincingly impersonate trusted individuals or organizations — including friends and family members — in order to trick victims into sharing personal information, transferring money, or granting remote access to their devices under the pressure of an urgent, emotionally manipulative pitch. The alert urged Nevadans to independently verify that any communication claiming to be from a federal, state, or local agency is genuine by contacting that office directly using contact information found on its own website rather than any number or link the contact provided, to confirm a broker or investment adviser's credentials through FINRA's BrokerCheck or the SEC's Investment Adviser Public Disclosure database before sending money, and to independently confirm any urgent request from a "friend" or "family member" before transferring funds, since AI voice-cloning can now make an impostor's voice sound identical to someone the victim actually knows. Suspected investment fraud can be reported to the Nevada Secretary of State's Securities Division at (702) 486-2440.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'high',
+    sources: ['Nevada Secretary of State', 'KTNV Las Vegas'],
+    sourceUrl: 'https://www.nvsos.gov/Home/Components/News/News/3664/23',
+    country: 'US',
+    state: 'NV',
+    isHistorical: true,
+    firstRecorded: '2025-11-03',
+});
