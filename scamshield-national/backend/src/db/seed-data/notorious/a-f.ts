@@ -6222,6 +6222,10 @@ NotoriousAF.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/opa/pr/florida-man-sentenced-after-fraudulently-obtaining-39-million-ppp-loans',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Miami_Skyline_2020.jpg?width=1200',
+    coverImageCredit: 'Photo: Chris6d, Wikimedia Commons (CC BY-SA 4.0) — Miami, where David Hines ran his PPP loan fraud',
+    coverImagePosition: 50,
     body: `When Congress created the Paycheck Protection Program in the spring of 2020 to keep small businesses afloat during COVID-19 shutdowns, it prioritized speed over verification — loans were meant to reach struggling employers within days, not weeks, which meant lenders had little practical ability to check an applicant's claims before wiring the money. David Tyler Hines, a 29-year-old from Miami, treated that gap as an opportunity. Prosecutors said he submitted a series of PPP loan applications, seeking roughly $13.5 million in total across multiple companies he controlled, backed by fabricated IRS payroll tax forms claiming dozens of employees and monthly payrolls in the hundreds of thousands of dollars that didn't actually exist.
 
 Lenders approved and funded about $3.9 million of what Hines requested. Rather than paying any of the wages the applications described, he spent the money on himself: a 2020 Lamborghini Huracán bought for roughly $318,000, jewelry, extended stays at a luxury Miami Beach resort, memberships on dating websites, and two payments totaling $30,000 sent to his mother and falsely logged as legitimate business expenses. According to court filings, he also helped other people submit fraudulent PPP applications of their own, extending the scheme beyond his own companies.
