@@ -6968,3 +6968,22 @@ The SEC's complaint charges Boateng and Intercontinental Wealth Network with vio
 Affinity fraud like this endures precisely because it recruits its own sales force for free: a pastor, a fellow congregant, or a trusted member of an immigrant community vouching for an investment carries a kind of credibility no stranger's cold pitch could match, and it makes basic diligence — checking a fund's SEC registration, asking who actually holds and audits the money — feel almost like an accusation against someone the victim already trusts. A guaranteed, no-risk return, and vague talk of an "investment insurance" backstop that isn't a real, checkable financial product, are warning signs no amount of community trust should be allowed to override.`,
   },
 );
+
+NotoriousAF.push(
+  {
+    title: 'Bridgette Evans, "Jolene Travis," and the $2.5 Million Curse-Cleansing Psychic Scheme',
+    slug: 'bridgette-evans-jolene-travis-psychic-curse-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-wdwa/pr/texas-couple-indicted-psychic-fraud-scheme-allegedly-stealing-millions-vulnerable',
+    body: `Note: Bridgette Evans and Vinnie Uwanawich have been indicted, not convicted. The description below reflects a federal indictment — allegations the government must still prove — and both defendants are presumed innocent unless and until a court finds otherwise.
+
+Bridgette Doreen Evans, 47, and her partner Vinnie John Uwanawich, 44, of Frisco, Texas, are accused of running a psychic-fraud operation that specifically hunted for people already in crisis. According to a federal indictment unsealed in the Western District of Washington, Evans advertised "psychic services" on social media under the alias "Jolene Travis," using posts crafted to reach people going through grief, divorce, heartbreak, or isolation — the exact emotional state, prosecutors say, that made her pitch land. Once a vulnerable person reached out, Evans told them their hardship wasn't ordinary bad luck; it was a curse, and only a "cleansing" she could perform would lift it.
+
+The indictment alleges that cleansing came with an escalating price tag: victims were told to hand over cash, gold coins, and other assets, with Evans and Uwanawich occasionally returning a small partial refund to make the arrangement feel legitimate and keep the victim paying into it. Prosecutors say the couple stole at least $2.5 million from at least three victims between April 2021 and July 2024, including one Washington state victim who alone sent more than $2 million — liquidating savings, taking out loans, and even purchasing a vehicle for Evans along the way. This wasn't Evans's first time facing this accusation: the indictment notes she had prior convictions for psychic fraud in both Texas and Florida, and prosecutors allege she used aliases including Jolene Travis, Joy John, and Joy Paige specifically to keep her history from turning up when a new victim looked her up online.
+
+Evans and Uwanawich were indicted on conspiracy to commit wire and mail fraud, along with four substantive counts each of wire fraud and mail fraud, and made their initial appearance in the U.S. District Court for the Eastern District of Texas. Each count of conspiracy, wire fraud, and mail fraud carries a statutory maximum of 20 years in prison. As of this writing, no trial date had produced a verdict, and the specific dollar figures and details above remain the government's allegations rather than proven facts.
+
+Fraud built around curses, hexes, and spiritual "cleansings" survives because it reframes a financial transaction as a matter of fate rather than of money — someone convinced their suffering has a supernatural cause is far less likely to apply the ordinary skepticism they'd bring to a stranger simply asking for cash. A repeat offender's use of a new alias for every fresh set of victims, as prosecutors allege happened here, is also a reminder that a "recommendation," a glowing online presence, or a comforting first conversation is not a background check — genuine spiritual or religious guidance is never conditioned on liquidating savings, taking out loans, or surrendering credit cards to a stranger who says only they can lift a curse.`,
+  },
+);
