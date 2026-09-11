@@ -5212,6 +5212,10 @@ The case against Ho was notable for what it exposed about how bribery gets disgu
     slug: 'matthew-kluger-garrett-bauer-insider-trading-ring',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Martin_Luther_King_Jr._Federal_Courthouse,_Newark,_NJ,_USA.jpg?width=1200',
+    coverImageCredit: 'Photo: Carptrash, Wikimedia Commons (CC BY-SA 3.0) — the federal courthouse in Newark, New Jersey, where the case was prosecuted',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.justice.gov/archive/usao/nj/Press/files/Kluger,%20Matthew%20and%20Bauer,%20Garrett%20Sentencing%20News%20Release.html',
     body: `Matthew Kluger was a corporate mergers-and-acquisitions attorney who spent nearly two decades moving through some of the most prestigious law firms on Wall Street — Cravath, Swaine & Moore; Skadden, Arps, Slate, Meagher & Flom; and Wilson Sonsini Goodrich & Rosati among them — the kind of firms hired precisely because they can be trusted with a client's biggest secret: which company it is quietly planning to buy. Starting in 1994, prosecutors said, Kluger began selling that secret. Whenever a deal he was working on was still confidential, he passed word of the pending merger to Kenneth Robinson, a friend since childhood in New Jersey who had drifted between real estate and mortgage brokering in New York. Robinson, in turn, passed the tip to Garrett Bauer, a Wall Street stock trader who bought shares in the target company days or weeks before the deal became public and its price jumped.
 
