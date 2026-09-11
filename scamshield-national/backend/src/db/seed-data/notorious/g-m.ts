@@ -7752,6 +7752,10 @@ NotoriousGM.push(
     title: 'Michael and Amanda Griffis: The Realtors Behind "Blessings Thru Crypto"',
     slug: 'michael-amanda-griffis-blessings-thru-crypto-fraud',
     author: 'ScamShield Editorial',
+    // representative photo — replace with an exact match if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Downtown_Clarksville_TN.jpg?width=1200',
+    coverImageCredit: 'Photo: GatewayPolitics / Wikimedia Commons / CC BY-SA 4.0 — downtown Clarksville, Tennessee, where the Griffises worked as real estate agents',
+    coverImagePosition: 50,
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.cftc.gov/PressRoom/PressReleases/9133-25',
     body: `Michael and Amanda Griffis worked as real estate agents in Clarksville, Tennessee, running an independent brokerage called Exit Realty Screamin' Eagle. Starting around 2021, they began pitching people in their personal and professional network — friends, clients, fellow agents — on a side venture with a name meant to signal trustworthiness within their community: "Blessings Thru Crypto," sometimes styled "Blessings of God Thru Crypto."
