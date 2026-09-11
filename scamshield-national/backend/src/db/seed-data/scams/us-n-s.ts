@@ -5154,3 +5154,16 @@ UsNS.push({
     country: 'US',
     state: 'NE',
 });
+
+UsNS.push({
+    name: 'Puerto Rico Cell Phone Provider Verification-Code Takeover Scam',
+    slug: 'puerto-rico-cell-phone-provider-impersonation-scam',
+    description: `In December 2020, the U.S. Secret Service and the U.S. Attorney's Office for the District of Puerto Rico warned of a scheme in which callers falsely claiming to be customer service representatives of local cell phone providers offered customers a discount for enrolling in autopay through ATH Móvil, Puerto Rico's dominant mobile payment app, and told them the provider was upgrading its network from 3G to 5G. During the same call, the scammer triggered the provider's own real authentication system to send a one-time verification code to the victim's phone and asked the victim to read it back to "confirm their identity" — a step that actually handed the scammer the code needed to take over the account. Victims were then told to power off their phone so the "network update" could take effect, a window scammers used to change account settings, drain the linked ATH Móvil balance, or make fraudulent purchases while the victim had no service and no way to notice what was happening in real time. The Secret Service and prosecutors stressed that a real telecom customer service representative never needs a customer to read back a one-time verification code sent to their own device, since that code exists specifically to prove the account holder — not the caller — is the one authorizing a change; anyone asked to do this on an unsolicited call should hang up immediately and contact their provider directly using the number printed on a bill or found in the carrier's official app, never a number the caller supplies.`,
+    categorySlug: 'account-takeover',
+    sources: ['U.S. Secret Service', "U.S. Attorney's Office for the District of Puerto Rico"],
+    sourceUrl: 'https://www.justice.gov/usao-pr/pr/fraud-alert-scammers-claiming-be-representatives-cell-phone-providers',
+    country: 'US',
+    state: 'PR',
+    isHistorical: true,
+    firstRecorded: '2020-12-01',
+});
