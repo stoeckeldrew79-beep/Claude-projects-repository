@@ -5949,6 +5949,10 @@ NotoriousAF.push(
     slug: 'brian-haigler-mint-hill-real-estate-church-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    // representative photo (case prosecuted by the U.S. Attorney's Office for the Western District of North Carolina, Charlotte) — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Charles_R._Jonas_Federal_Building,_Charlotte_(Mecklenburg_County,_North_Carolina).jpg?width=1200',
+    coverImageCredit: 'U.S. National Archives, public domain, via Wikimedia Commons',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.justice.gov/usao-wdnc/pr/mint-hill-sentenced-investment-fraud-embezzlement-church-and-covid-19-relief-fraud',
     body: `Brian Shane Haigler worked as a real estate agent in Mint Hill, North Carolina, and in February 2019 he began recruiting friends and acquaintances into what he described as straightforward real estate investments: hand him money, and he would use it to purchase or improve specific properties, then pay investors a fixed return by an agreed date. According to the U.S. Attorney's Office for the Western District of North Carolina, that description was mostly fiction. Haigler used little, if any, of the money he raised for actual real estate — instead spending much of it on personal expenses or using it to pay earlier investors, the defining mechanic of a Ponzi scheme.
 
