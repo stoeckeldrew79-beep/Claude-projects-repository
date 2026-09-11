@@ -5565,3 +5565,15 @@ UsNS.push({
     country: 'US',
     state: 'OH',
 });
+
+UsNS.push({
+    name: 'Mayagüez Family Business Embezzlement (José Toro Colón)',
+    slug: 'puerto-rico-mayaguez-toro-colon-family-business-embezzlement',
+    description: `José A. Toro Colón, stepfather of the owner of two small Mayagüez, Puerto Rico businesses — YAMA Consulting Services and BUBALIS Administrative Solutions — used his position handling the companies' day-to-day finances to siphon off more than $342,000 between 2019 and 2022, according to Puerto Rico Department of Justice prosecutors. Investigators say Toro Colón wrote and cashed company checks for his own personal expenses, transferred company funds directly into his personal accounts, submitted duplicate reimbursement requests to both companies for the exact same expense, gave himself salary increases beyond what he was authorized to receive, paid himself unauthorized dividends and bonuses, and put family members on the payroll for jobs they never actually performed. The Department of Justice's Economic Crimes Division — working with police agent Omar D. Santos González and prosecutors Roxanne Rivera Carrión and Rosa L. Molina Pérez — filed eight counts of aggravated illegal appropriation and fraud against Toro Colón; a judge found probable cause to proceed, set bail at $8,000, and scheduled a preliminary hearing for February 3, 2026. The case illustrates how a family member handed informal control of a small business's books — writing checks, approving reimbursements, setting payroll — can quietly drain it for years before anyone outside the family reviews the underlying records, which is why any small business, family-run or not, should have someone other than the person managing daily finances periodically reconcile bank statements, payroll rolls, and reimbursement requests against actual invoices and hours worked.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'medium',
+    sources: ['Puerto Rico Department of Justice (Departamento de Justicia)'],
+    sourceUrl: 'https://www.justicia.pr.gov/justicia-radica-8-cargos-contra-hombre-imputado-de-fraude-y-apropiacion-ilegal-agravada-en-esquema-que-se-extendio-por-casi-una-decada-y-en-el-cual-se-apropio-de-casi-medio-millon-de-dolares/',
+    country: 'US',
+    state: 'PR',
+});
