@@ -5617,3 +5617,20 @@ The reckoning came on two fronts. In the parallel civil case, a federal judge or
     sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-22922',
   },
 );
+
+NotoriousNS.push(
+  {
+    title: "Patrick Ross, Buffy Redfish, and the $4.7 Million TERO Fee Diversion Scheme",
+    slug: 'patrick-ross-buffy-redfish-oglala-sioux-tribe-tero-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    body: `Buffy Redfish worked for the Oglala Sioux Tribe's Tribal Employment Rights Office (TERO), the office responsible for collecting fees that contractors doing business on the reservation are required to pay — money that was supposed to flow into the tribe's revenue department and, from there, fund services like emergency assistance, utility help, education, and medical aid for tribal members. Instead, according to federal prosecutors, Redfish used her position inside that office to divert the fee checks somewhere else entirely.
+
+Between around November 2017 and May 2024 (an earlier charging document put the start as far back as May 2017), Redfish is accused of routing TERO contractor fee checks meant for the tribe into a bank account that her co-defendant, Patrick Ross of Porcupine, South Dakota, had opened specifically for that purpose. The two then split the diverted money between themselves, prosecutors said, spending it on personal purchases including homes and vehicles — ordinary embezzlement mechanics made possible by the simple fact that one of the two people responsible for handling the tribe's fee revenue was also the person routing it into a private account. Investigators put the total diverted at $4.7 million.
+
+A federal grand jury charged Ross and Redfish with conspiracy to commit wire fraud, 22 counts of wire fraud, and 7 counts of money laundering; both initially pleaded not guilty in January 2025 before later reaching plea agreements. On August 24, 2026, U.S. District Judge Camela C. Theeler sentenced both Ross, 56, and Redfish to 78 months — six and a half years — in federal prison, along with three years of supervised release and restitution of $4.74 million. Ross was convicted of conspiracy to commit wire fraud, three counts of wire fraud, and three counts of money laundering.
+
+The case is a reminder that tribal government revenue offices handling contractor fees, grant money, and per-capita payments face the same embezzlement risk as any other organization that lets one person both collect money and control where it goes without independent oversight — a risk made worse, not better, by the fact that a tribal nation's revenue office often has fewer outside auditors checking its books than a comparably sized municipal or corporate finance department would. Nearly seven years passed between the start of the diversion and its exposure, time during which the services the diverted fees were meant to fund went underfunded for the tribal members who needed them.`,
+    sourceUrl: 'https://www.justice.gov/usao-sd/pr/porcupine-man-sentenced-more-6-years-federal-prison-wire-fraud-and-money-laundering',
+  },
+);
