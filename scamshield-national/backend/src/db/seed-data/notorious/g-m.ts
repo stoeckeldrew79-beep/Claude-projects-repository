@@ -8379,3 +8379,20 @@ Some small-business owners lost as much as $250,000 chasing the results Air AI h
 The Air AI case landed in the middle of a wave of "AI-washing" enforcement, where regulators have gone after companies that use the artificial-intelligence label to make an old sales pitch — pay a large upfront fee for a business opportunity that will supposedly make you rich — sound like access to cutting-edge technology instead. A business opportunity charging five- or six-figure license fees up front, built around an earnings promise that sounds too specific and too large to be a normal outcome, carries the same warning signs whether it's selling vending machines, a franchise, or an "AI-driven" software license — and under the FTC's Business Opportunity Rule, any seller is legally required to back its earnings claims with a written disclosure document, something the FTC's case found Air AI never actually provided.`,
   },
 );
+
+NotoriousGM.push(
+  {
+    title: 'Quannah Fields Harris and the Last Minute Cuts GI Bill Fraud Scheme',
+    slug: 'quannah-fields-harris-last-minute-cuts-va-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-wdtn/pr/memphis-woman-sentenced-8-years-federal-prison-defrauding-department-veterans-affairs',
+    body: `Quannah Fields Harris ran Last Minute Cuts School of Barbering and Cosmetology out of a storefront on South Third Street in downtown Memphis from 2014 to 2019, a state-licensed vocational school that gave her access to one of the federal government's most generous education benefits: the Post-9/11 GI Bill, which pays a veteran's tuition directly to the school and a separate monthly housing stipend to the veteran.
+
+According to the U.S. Attorney's Office for the Western District of Tennessee, Harris turned that arrangement into a years-long fraud by enrolling veterans who barely attended class, if they attended at all. Prosecutors said the school certified attendance and academic progress to the Department of Veterans Affairs for students who took few or no classes, sat no exams, and never earned the state barbering or cosmetology license the program was supposed to lead to — while the VA kept sending tuition payments to the school and housing stipends to the "students" on the strength of Harris's false paperwork. The scheme let Harris collect VA tuition funds for instruction that was, in large part, never actually delivered, ultimately costing the department more than $2.9 million.
+
+A federal jury convicted Harris on October 29, 2025, of conspiracy to defraud the United States and wire fraud, following an investigation by the VA's Office of Inspector General and IRS Criminal Investigation. On February 2, 2026, U.S. District Judge John T. Fowlkes Jr. sentenced her to 96 months — eight years — in federal prison and ordered her to pay $2,905,853.09 in restitution to the VA. "Victimizing the VA harms veterans and deserves significant punishment," U.S. Attorney D. Michael Dunavant said in announcing the sentence, adding that Harris would "spend every 'last minute' of her lengthy sentence in federal prison for her crimes against our nation's best."
+
+The Last Minute Cuts case is a reminder that GI Bill fraud doesn't always look like a scammer cold-calling a veteran directly — it can run through an accredited-looking school that veterans chose for themselves, trusting that a state-licensed program would actually deliver the training it billed the VA for. The VA pays tuition based largely on a school's own certification of attendance and progress, a system that depends on the institution being honest about what's actually happening in its classrooms, and years of falsified paperwork at Last Minute Cuts show how long a fraud built entirely on that trust can run before anyone checks whether the students behind the invoices ever showed up.`,
+  },
+);
