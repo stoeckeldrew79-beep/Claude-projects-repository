@@ -5770,3 +5770,17 @@ UsGM.push({
     country: 'US',
     state: 'IN',
 });
+
+UsGM.push({
+    name: 'Fake "Must Rehome" Online Pet Scam (Paige Harkema)',
+    slug: 'michigan-harkema-fake-rehoming-pet-scam',
+    description: `Paige Harkema, of Oshtemo Township, Michigan, posted a dog named "Toby" for adoption on RescueMe.org in May 2024 under the alias "Abby Stratiskii," using a fabricated story that she urgently needed to rehome him because an eviction notice had been issued over his barking. To make the listing convincing, Harkema gave the Michigan consumer who took the dog falsified veterinary and vaccination records. The Michigan Attorney General's Office investigated after a complaint, and on January 30, 2025, Attorney General Dana Nessel's office resolved the matter by filing an Assurance of Voluntary Compliance and Discontinuance in the 30th Judicial Circuit Court: Harkema agreed to pay $2,000 into a fund for consumers with substantiated claims, to stop falsifying veterinary records, to stay off RescueMe.org, to stop using aliases when selling goods or services to Michigan consumers, and accepted a 10-year ban on selling or offering companion animals for private adoption in the state. "Adopting a pet in need can be a rewarding experience, but always remember to be cautious, especially when adopting online," Nessel's office said in announcing the settlement. Before adopting a pet advertised online, ask to meet the animal and its current owner in person, get the name and phone number of the veterinary clinic on any health or vaccination record so it can be verified directly with that clinic, and treat a seller who cites a sudden crisis — an eviction, a move, an illness — to rush the transaction and discourage questions as a warning sign rather than a reason to hurry.`,
+    categorySlug: 'pet-sales-scams',
+    alertLevel: 'medium',
+    sources: ["Michigan Attorney General's Office (Dana Nessel)", 'WILX'],
+    sourceUrl: 'https://www.michigan.gov/ag/news/press-releases/2025/01/30/ag-nessel-settles-investigation-into-fraudulent-pet-adoption-scheme',
+    country: 'US',
+    state: 'MI',
+    isHistorical: true,
+    firstRecorded: '2024-05-01',
+});
