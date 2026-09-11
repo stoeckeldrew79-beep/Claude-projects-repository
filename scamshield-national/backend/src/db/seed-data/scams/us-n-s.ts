@@ -5345,3 +5345,17 @@ UsNS.push({
     isHistorical: true,
     firstRecorded: '2024-03-06',
 });
+
+UsNS.push({
+    name: 'Clear View Construction Pole Barn Fraud (Ryan Needels)',
+    slug: 'ohio-clear-view-construction-needels-pole-barn-fraud',
+    description: `Ryan C. Needels, of Marion, Ohio, ran his construction business, Clear View Construction, as a long-running fraud: from June 2021 through October 2022 he advertised pole barn, garage, and other construction projects on social media, collected large upfront deposits from customers, and then simply never built what he had been paid for, according to the Ohio Attorney General's Office. Nineteen victims testified at trial that Needels took substantial payments and then stopped responding, leaving them without the structures they paid for and often without enough money left to hire someone else to finish the job. A Delaware County jury convicted Needels on 47 felony counts — including engaging in a pattern of corrupt activity, telecommunications fraud, seven counts of money laundering, and 38 counts of theft — stemming from an indictment Attorney General Dave Yost's office originally filed in August 2023. Delaware County Common Pleas Judge Richard Frye sentenced Needels on March 26, 2026 to 17 to 22 years in prison and ordered him to pay $448,000 in restitution to his victims, calling him a "predator" who carried out "a pervasive and prolonged scheme." Anyone hiring a contractor for a large project should avoid paying the full cost upfront, insist on a written contract with a payment schedule tied to completed work rather than a lump sum before anything is built, and check a contractor's track record and any pending complaints with the Ohio Attorney General's Office before signing anything or handing over a deposit.`,
+    categorySlug: 'home-improvement-solar',
+    alertLevel: 'high',
+    sources: ["Ohio Attorney General's Office"],
+    sourceUrl: 'https://www.ohioattorneygeneral.gov/Media/News-Releases/March-2026/Pole-Barn-Contractor-to-Spend-17-Years-in-Prison-f',
+    country: 'US',
+    state: 'OH',
+    isHistorical: true,
+    firstRecorded: '2026-03-26',
+});

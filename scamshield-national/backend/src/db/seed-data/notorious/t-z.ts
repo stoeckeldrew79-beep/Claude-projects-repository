@@ -2351,3 +2351,21 @@ Goldstein's case stands out among financial-fraud prosecutions precisely because
     coverImageCredit: 'Photo: User:Legaleagle22, CC BY-SA 3.0, via Wikimedia Commons',
   },
 );
+NotoriousTZ.push(
+  {
+    title: "Trijya Vakil and Neeraj Visen: A $2,447 Insider Trade That Turned Into Lying to the FBI",
+    slug: 'trijya-vakil-neeraj-visen-kindred-biosciences-insider-trading',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26348',
+    body: `Trijya Vakil was a Senior Director of Product Innovation at Elanco Animal Health when, in April 2021, she was assigned to the company's due diligence team working on a pending acquisition target: Kindred Biosciences, a smaller pharmaceutical company. The assignment gave her confidential, market-moving information before the deal was ever announced — that Elanco intended to buy Kindred — and, according to the SEC, she acted on it in the smallest and largest ways a person can misuse inside information: she traded on it herself, and she told a friend.
+
+Vakil bought 500 shares of Kindred stock while she knew the acquisition was coming, netting about $2,447.50 once the deal was announced and the stock jumped roughly 46%. It's a small enough sum that, on its own, it might never have drawn scrutiny. But on June 15, 2021, with the announcement about a day or two away, Vakil told her friend Neeraj Visen, a licensing manager at a Florida university with no professional connection to either company, that the deal was imminent. Visen bought 38,000 shares on the tip and made roughly $109,437 when the news broke — a sum large enough, relative to a stranger's timing, to be the kind of trade compliance surveillance is built to catch.
+
+It was caught. When Elanco compiled a list of everyone who had traded Kindred stock in the run-up to the announcement — standard practice after a deal closes, and information the company was obligated to share with FINRA — Visen's name was on it. Asked directly whether she recognized anyone on that list, Vakil said she knew no one on it, a false statement that Elanco then unknowingly passed along to FINRA as part of its own compliance response. When federal investigators later asked Vakil about her own trading, she lied to the FBI as well, and, according to the SEC's complaint, when she learned the FBI intended to record a call between her and Visen, she asked him to corroborate the false account she had already given agents — turning a small insider trade into an active attempt to obstruct the investigation into it.
+
+The SEC filed civil insider-trading charges against both Vakil and Visen in the Southern District of New York in July 2025, alongside parallel criminal charges brought by federal prosecutors. Both pleaded guilty. The SEC's civil case concluded with a final judgment entered in September 2026, permanently barring both from serving as an officer or director of a public company and ordering each to pay a civil penalty of $54,718 — a figure many times larger than either of their original trading profits, reflecting that the penalty was calculated as much for the false statements and the attempted cover-up as for the trades themselves.
+
+Vakil and Visen's case is a useful corrective to the instinct that a small trade is a safe trade. Regulators don't only look at dollar amounts; they look at timing relative to a specific, confidential event, and a friend buying 38,000 shares of an obscure company two days before it's acquired is exactly the kind of pattern automated surveillance is designed to flag, regardless of how modest the tipster's own trade was. And once investigators come asking, lying to them — rather than simply admitting a bad decision — is what reliably turns a securities violation into something closer to obstruction of justice.`,
+  },
+);
