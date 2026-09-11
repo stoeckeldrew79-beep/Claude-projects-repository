@@ -13059,3 +13059,16 @@ International.push(
     country: 'MS',
   },
 );
+
+International.push(
+  {
+    name: 'Montserrat WhatsApp Account Takeover Scam',
+    slug: 'montserrat-whatsapp-account-takeover-scam',
+    description: `The Royal Montserrat Police Service (RMPS) issued a public advisory on October 11, 2024, after a spike in WhatsApp account hacking incidents on the island. In the scheme, scammers contact a target — often posing as a friend, a WhatsApp support representative, or through a message claiming to be a prize or contest — and trick them into reading out or forwarding the six-digit verification code WhatsApp texts to their phone when an account is being registered on a new device. Once the scammer has that code, they take over the victim's account, lock the real owner out, and then message the victim's own contacts pretending to be them, typically fabricating an urgent situation and asking for money to be sent right away — a request contacts are more likely to trust because it appears to come from someone they already know. The RMPS said "your safety is our top priority" and urged residents to stay vigilant, verify any unexpected request through a separate channel such as a phone call rather than replying within the same hijacked conversation, and never share a WhatsApp verification code with anyone, including someone claiming to be WhatsApp staff. The advisory also recommended enabling WhatsApp's two-step verification (a separate PIN required to re-register the account) as protection against this exact takeover method, and asked anyone targeted to report it to WhatsApp and to the RMPS at police@gov.ms or (664) 491-2555.`,
+    categorySlug: 'account-takeover',
+    alertLevel: 'high',
+    sources: ['Royal Montserrat Police Service (RMPS)', 'Montserrat Focus'],
+    sourceUrl: 'https://montserratfocus.com/police-warn-of-whatsapp-scams-targeting-montserrat-residents/',
+    country: 'MS',
+  },
+);
