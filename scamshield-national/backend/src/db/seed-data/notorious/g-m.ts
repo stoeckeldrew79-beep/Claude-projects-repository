@@ -6380,6 +6380,10 @@ Zhabilov's case is a reminder that a "family business" framing can be a fraud's 
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26585',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Columbus - Ohio Statehouse - 20220421132212.jpg?width=1200',
+    coverImageCredit: 'Photo: Riis2602 / Wikimedia Commons (CC BY-SA 4.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Michael W. Patterson is the CEO and chairman of Battle Motors, an Ohio manufacturer of electric and alternative-fuel heavy trucks — refuse trucks, snowplows, and other vocational vehicles built for municipal and commercial fleets. In 2023, Battle went looking for growth capital and arranged a $112.5 million convertible-debt offering with two outside institutional investors, the kind of deal that depends heavily on convincing sophisticated buyers the company's momentum is real.
 
 According to a Securities and Exchange Commission complaint filed July 10, 2026 in the U.S. District Court for the Northern District of Ohio, the momentum Battle and Patterson described to those investors wasn't real, or at least not nearly to the extent claimed. The company represented that it had already booked 115 purchase orders for electric vehicles worth roughly $30 million, all within a three-month window — when, the SEC says, Battle's actual firm orders at the time covered only eight vehicles, worth around $2 million. Battle and Patterson also told investors the company had a dealer network of 180 dealers across 320 locations; the SEC alleges the real network was less than a third that size, at 47 dealers across 156 locations. Both figures went directly to the two things investors in a young manufacturer care most about — proven demand and distribution reach — and both, according to the SEC, were substantially inflated at the moment investors were deciding whether to put in $112.5 million.
@@ -6437,6 +6441,10 @@ NotoriousGM.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
     sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-21245',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Chicago Skyline at Dusk.jpg?width=1200',
+    coverImageCredit: 'Photo: Matthew T Rader / Wikimedia Commons (CC BY-SA 4.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Gregory Bell ran Lancelot Investment Management out of the Chicago area, marketing a family of hedge funds to hundreds of institutional and individual investors as a diversified way to earn steady returns. Between 2002 and 2008, Lancelot's funds raised more than $2.62 billion. Rather than spreading that money across a genuinely diversified portfolio, Bell funneled the overwhelming majority of it — roughly $1.5 billion of about $1.8 billion in fund assets — into promissory notes issued by Petters Company Inc., the merchandise-financing arm of Minnesota businessman Thomas Petters. Petters told lenders like Lancelot that the notes funded purchases of consumer electronics later resold at a markup to big-box retailers; in reality, as federal prosecutors later proved, the underlying purchase orders were almost entirely fictitious, and Petters was running one of the largest Ponzi schemes in U.S. history behind them.
 
 Bell was not simply an unwitting middleman. According to the SEC's complaint, when Petters's scheme began to strain under its own weight, Bell participated in "round-trip" transactions with Petters's company: money wired out from Lancelot to Petters Company Inc. was immediately wired back, then represented to Lancelot's own investors as a legitimate note payment — concealing that Petters actually owed Lancelot's funds more than $130 million he had no way to pay. In the final months before the scheme collapsed, Bell and Lancelot withdrew more than $40 million in management and incentive fees from the funds, even as the notes underneath them were becoming worthless.
