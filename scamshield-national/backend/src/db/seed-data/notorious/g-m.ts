@@ -7575,5 +7575,8 @@ What caught them wasn't a tip or a whistleblower inside the firm — it was the 
 The SEC filed civil fraud charges against both men in August 2025 in the Eastern District of New York, alongside a parallel criminal case brought by the U.S. Attorney's Office for the same district. Zhen pleaded guilty in October 2025. Chen was convicted and, in mid-2026, sentenced to 27 months in federal prison. The SEC's civil case concluded with a final judgment entered September 8, 2026, ordering Chen to pay $1,828,442 in disgorgement plus $32,361 in prejudgment interest — an amount the judgment noted was already satisfied by the restitution and forfeiture ordered in his criminal case.
 
 The case is a reminder that insider-trading risk doesn't only sit inside the companies making the announcements — it sits with everyone downstream who touches the paperwork before the public does, from law firms and printers to the filing agents whose entire business model depends on being trusted with material nonpublic information they are never supposed to trade on themselves.`,
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Federal_Courthouse_Brooklyn.jpg?width=1200',
+    coverImageCredit: 'Photo: Beyond My Ken, CC BY-SA (GFDL), via Wikimedia Commons — the Theodore Roosevelt U.S. Courthouse in Brooklyn, in the Eastern District of New York where Chen and Zhen were prosecuted',
   },
 );
