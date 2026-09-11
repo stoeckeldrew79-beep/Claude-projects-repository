@@ -5325,6 +5325,10 @@ NotoriousNS.push(
     title: 'Nadine Wade and the Bronx Laundering Operation Behind an African Romance-Scam Network',
     slug: 'nadine-wade-romance-scam-money-laundering',
     author: 'ScamShield Editorial',
+    // representative photo — replace with an exact match if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/2021_Grand_Concourse,_Bronx,_NY.jpg?width=1200',
+    coverImageCredit: 'Photo: Downtowngal / Wikimedia Commons / CC BY-SA 4.0 — the Bronx, where Wade ran the laundering operation',
+    coverImagePosition: 50,
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.irs.gov/compliance/criminal-investigation/bronx-woman-sentenced-to-63-months-in-prison-for-laundering-over-2-million-for-african-romance-scammers',
     body: `Nadine Jazimne Wade, of the Bronx, ran what prosecutors described as a de facto clearing house for an international romance-scam ring based in Nigeria and South Africa, laundering more than $2 million in stolen funds from roughly 2016 through 2021. Wade wasn't the one building the fake relationships — that fell to overseas co-conspirators who posed on dating websites under invented personas including "Diego Francisco" and "Richard Francisco," cultivating romantic relationships with victims, many of them older men and women, before asking them to send money. Wade's job was to receive it and make it disappear into the ordinary financial system.
