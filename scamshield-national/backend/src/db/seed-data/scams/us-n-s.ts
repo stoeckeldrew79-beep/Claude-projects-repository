@@ -5361,3 +5361,16 @@ UsNS.push({
     isHistorical: true,
     firstRecorded: '2017-12-01',
 });
+
+UsNS.push({
+    name: 'A Private Professional Guardian Elder Exploitation Ring (April Parks)',
+    slug: 'nevada-april-parks-guardian-exploitation',
+    description: `April Parks ran A Private Professional Guardian, LLC, a Las Vegas business that worked with doctors and social workers to identify elderly Nevadans with significant assets and little nearby family oversight, then used Clark County's guardianship court — often without notifying the person's own relatives before a hearing — to have herself appointed their legal guardian, taking control of their finances, medical decisions, and property. Once appointed, Parks and her team would show up at a ward's home, remove them by force if necessary to an assisted-living facility, inventory and sell off their belongings and real estate, and cut off contact with family members who objected, in some cases threatening to call police on relatives who tried to visit; one elderly couple, Rennie and Rudy North, were held apart from their home for 22 months and returned to find most of their possessions and financial assets gone, while blind ward Herman "Bill" Mesloh was kept apart from his wife Kathy for six months. A Clark County grand jury indicted Parks, her office manager Mark Simmons, her husband Gary Neal Taylor, and her attorney Noel Palmer Simpson on a combined 270 felony counts in March 2017 — Nevada Attorney General Adam Laxalt called it "the most significant guardianship exploitation indictment in Nevada's history" — covering roughly 150 victims exploited between December 2011 and July 2016. Parks pleaded guilty in November 2018 to exploitation, theft, and perjury charges, and on January 4, 2019, District Judge Tierra Jones sentenced her to 16 to 40 years in prison and ordered more than $500,000 in restitution; Simmons received 7 to 18 years and Taylor 2 to 5 years. Clark County Public Guardian Karen Kelly summed up how Parks treated the elderly Nevadans under her control: "She didn't see them as people. They were paychecks." The case, later the subject of the documentary "The Guardians," drove reforms to Nevada's guardianship system requiring more notice to family before a guardianship hearing — but the underlying risk remains nationwide: anyone with an aging relative should ask a probate or elder-law attorney about less restrictive alternatives to a full guardianship, insist on advance notice of any guardianship petition filed against a family member, and request regular, independent accountings from any court-appointed guardian or conservator managing a relative's affairs.`,
+    categorySlug: 'public-benefits-fraud',
+    sources: ["Nevada Attorney General's Office", 'Las Vegas Review-Journal', 'KTNV'],
+    sourceUrl: 'https://ag.nv.gov/News/PR/2017/Attorney_General_Laxalt,_District_Attorney_Wolfson_and_Sheriff_Lombardo_announce_270-Count_Grand_Jury_Indictment_of_April_Parks_and_Co-defendants_for_Guardianship_Exploitation',
+    country: 'US',
+    state: 'NV',
+    isHistorical: true,
+    firstRecorded: '2011-12-01',
+});
