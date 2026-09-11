@@ -4157,6 +4157,9 @@ NotoriousNS.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.bankingdive.com/news/former-kansas-bank-ceo-shan-hanes-24-years-crypto-embezzlement-pig-butchering-scam/724849/',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Point_of_Rocks_(Morton_Co_KS)_at_sundown_2.JPG?width=1200',
+    coverImageCredit: 'Photo: Ammodramus, Wikimedia Commons (CC0) — Morton County, Kansas, home to Elkhart and the Heartland Tri-State Bank that Shan Hanes emptied',
     body: `Shan Hanes, 53, was the chief executive of Heartland Tri-State Bank, a small community bank in Elkhart, Kansas, near the Oklahoma panhandle — the kind of trusted, small-town banker whose word other people took as good as collateral. In 2023, Hanes was drawn into an online relationship with people who introduced him to what looked like a lucrative cryptocurrency investment opportunity, the setup behind what investigators call a "pig butchering" scam: scammers spend time building trust with a target before steering them toward a fake trading platform showing fabricated, ever-growing returns designed to encourage larger and larger deposits.
 
 Convinced the investment was genuine, Hanes did not risk his own money — he risked the bank's. Between May and July 2023, he initiated eleven wire transfers, ranging from $5,000 to $10.3 million each, sending a total of $47.1 million of Heartland Tri-State's own funds to cryptocurrency wallets controlled by the scammers. When the promised profits never materialized, prosecutors say Hanes didn't stop chasing the loss — according to news reporting on the case, he also drew in money from a local church, an investment club, and his own daughter's college savings account, pulling more people's trust and money into the hole the scam had opened.
