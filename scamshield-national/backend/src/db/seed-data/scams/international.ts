@@ -13901,3 +13901,16 @@ International.push(
     country: 'LI',
   },
 );
+
+International.push(
+  {
+    name: 'Lesotho Prestige Wealth, Lengau Society & Prime Aura Bogus Investment Schemes',
+    slug: 'lesotho-prestige-wealth-lengau-prime-aura-bogus-investment-schemes',
+    description: `The Central Bank of Lesotho (CBL) issued a public press release on June 25, 2026 (Ref: 25062026/1) warning against "a growing number of individuals and illegal investment platforms that promise unusually high returns or solicit deposits from potential investors." Alongside the already-notorious SGK Investment Scheme, the CBL specifically named three further unlicensed operators the public should not invest in: Prestige Wealth Investments, Lengau People Society, and the Prime Aura Platform. The bank said that, "in a desperate attempt to persuade the public to deposit funds and to defraud it," some of these schemes and their promoters had falsely claimed to hold a valid CBL license — a claim the CBL flatly denied, stating none of the named entities is licensed to take deposits or manage investments. These schemes follow a pattern common in Lesotho's recent wave of unlicensed investment fraud: promoters recruit through trusted community and family networks, sometimes styled as village- or society-based savings clubs, promising returns far above anything a licensed bank or fund could offer, before withdrawals slow, fees are demanded, or the operation quietly disappears with member deposits. The CBL urged the public, before handing over any money, to demand proof of a valid CBL license and to verify that license directly with the bank rather than relying on the promoter's own claims, and published a phone/WhatsApp line (+266 58880647) and its online registry of licensed financial institutions for anyone wanting to check a scheme before investing.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'high',
+    sources: ['Central Bank of Lesotho (CBL)', 'The Reporter Lesotho', 'Lesotho NewsDesk'],
+    sourceUrl: 'https://centralbank.org.ls/wp-content/uploads/ILLEGAL-INVESTMENT-PLATFORMS_240626_Press-Release.pdf',
+    country: 'LS',
+  },
+);
