@@ -12717,3 +12717,16 @@ International.push(
     sourceUrl: 'https://www.diariodepernambuco.com.br/noticia/vidaurbana/2024/11/policia-civil-indicia-dois-por-fraude-em-saques-do-bolsa-familia.html',
   },
 );
+
+International.push(
+  {
+    name: 'QNET Pyramid Scheme Trafficking Burkinabè Youth to Ghana',
+    slug: 'burkina-faso-qnet-pyramid-scheme-trafficking-to-ghana',
+    description: `QNET, a multi-level "direct selling" network offering products and services with, in Burkinabè officials' words, "promesses de gains irréalistes et flatteurs" (unrealistic and flattering profit promises), recruited young Burkinabè with false job and sporting-opportunity offers before pressuring them to buy into the pyramid structure and, in some cases, transporting them across the border into Ghana to keep recruiting. A joint communiqué dated July 10, 2024 and signed by Burkina Faso's ministers of commerce, territorial administration, and the economy banned all QNET sales activity nationwide "jusqu'à nouvel ordre" (until further notice), calling the network "une source d'escroquerie de la population" and setting up hotline numbers for the public to report continued violations. The ban did not stop the scheme: a January 2025 sweep detained roughly 160 people of several nationalities over a version of the fraud estimated to have caused 80 million CFA francs in losses, and in May 2025 a separate group of 22 young Burkinabè who had been moved into Ghana and effectively trapped there — one survivor said "we were forced to join a system we didn't understand; we had already paid" and could not leave — were recovered and repatriated, with nine suspected organizers, including Seydou Ido, Yousouf Zoungrana, and Lassina Démé, arrested and placed under judicial detention ahead of a trial set for June 17, 2025, over losses estimated at 33 million CFA francs. Consumer advocates point to the case as a reminder that a "job" or "opportunity" that requires paying money upfront to join, and that depends on constantly recruiting new members to keep the money flowing, is a pyramid scheme regardless of what products it claims to sell, and that Burkinabè nationals recruited this way have specifically ended up transported abroad and unable to leave once they arrive.`,
+    categorySlug: 'ponzi-pyramid-schemes',
+    alertLevel: 'high',
+    sources: ['Government of Burkina Faso (joint ministerial communiqué)', '24heures.bf', 'leFaso.net'],
+    sourceUrl: 'https://www.24heures.bf/burkina-faso-arnaque-via-qnet-9-personnes-arretees-et-placees-sous-mandat-de-depot/',
+    country: 'BF',
+  },
+);
