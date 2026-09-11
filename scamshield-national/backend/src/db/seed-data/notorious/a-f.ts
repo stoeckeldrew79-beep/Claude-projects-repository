@@ -7228,6 +7228,23 @@ Demara's story became a bestselling 1960 book by Robert Crichton and a 1961 film
 
 NotoriousAF.push(
   {
+    title: 'Dennis Bolze and the Day-Trading Ponzi Scheme That Ran on Fake Statements',
+    slug: 'dennis-bolze-centurion-asset-management-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://www.cftc.gov/PressRoom/PressReleases/5995-11',
+    body: `Dennis R. Bolze, operating out of Gatlinburg, Tennessee, told investors he would put their money into day-trading E-mini NASDAQ and S&P 500 futures contracts through his firms, Centurion Asset Management, Inc. and Advanced Trading Services, Inc. From roughly April 2002 through December 2008, more than 100 investors in the United States and Europe wired him a combined $20 million on that promise.
+
+There was no consistently profitable trading strategy behind it. Bolze ran a straightforward Ponzi scheme, using newly deposited investor funds to pay purported "returns" to earlier participants and issuing account statements that fabricated gains his commodity pool was never actually generating. The scheme unraveled alongside the 2008 financial crisis, when the flow of new money slowed and Bolze could no longer keep up the payments that had kept earlier investors satisfied and quiet.
+
+The Commodity Futures Trading Commission filed a civil enforcement action against Bolze and Centurion in March 2009. A federal court in the Eastern District of Tennessee issued a permanent injunction in July 2010 barring both from any commodity-related business, and in March 2011 ordered more than $49.7 million in total monetary sanctions — $13.1 million in restitution to defrauded investors and $36.7 million in civil penalties. On the criminal side, Bolze pleaded guilty to wire fraud and money laundering, and on August 26, 2010, U.S. District Judge Curtis L. Collier sentenced him to 327 months — 27 years and 3 months — in federal prison.
+
+Bolze's case is a reminder that a Ponzi scheme doesn't need a hedge-fund pedigree or a Wall Street address to run for six years and collect eight figures — a small commodity-trading outfit, a plausible-sounding strategy, and account statements that simply said what investors wanted to see were enough.`,
+  },
+);
+
+NotoriousAF.push(
+  {
     title: 'Ahmed Abdullahi Ghedi and the Fake St. Paul Meal Site That Billed for 3,000 Children a Day',
     slug: 'ahmed-abdullahi-ghedi-feeding-our-future-fraud',
     author: 'ScamShield Editorial',
