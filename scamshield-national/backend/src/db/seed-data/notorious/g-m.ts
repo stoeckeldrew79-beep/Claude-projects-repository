@@ -7247,6 +7247,10 @@ Marasigan's case is a reminder that a charity's cause doesn't have to be fake fo
     slug: 'john-kuhlmann-tech-support-fraud-money-transmitting',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Tallahassee_FL_US_courthouse01.jpg?width=1200',
+    coverImageCredit: 'Photo: Ebyabe, CC BY-SA 3.0, via Wikimedia Commons — the federal courthouse in Tallahassee, Northern District of Florida, which prosecuted the case',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     sourceUrl: 'https://www.secretservice.gov/newsroom/releases/2025/12/former-tallahassee-man-sentenced-computer-tech-support-fraud-scheme',
     body: `John Kuhlmann, 79, of Daytona Beach, Florida, wasn't the one calling elderly victims and telling them their computers were infected with viruses or that hackers had stolen their financial information — but according to federal prosecutors, his role was just as essential to a nationwide tech-support fraud scheme that took more than $3.5 million from over 300 elderly victims across the country.
 
