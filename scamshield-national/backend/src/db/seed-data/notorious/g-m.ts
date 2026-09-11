@@ -7973,3 +7973,20 @@ Schiwart pleaded guilty to wire fraud, and on September 10, 2025, U.S. District 
 The case is a reminder that a retirement account's security questions are only as strong as the personal information behind them: once a scammer has enough identifying detail to impersonate the account holder convincingly, a phone call to the right department can move a lifetime of savings in minutes, with no forged signature or fake statement required.`,
   },
 );
+
+NotoriousGM.push(
+  {
+    title: 'Lindsey Allison Kerns: The Home Health Care Owner Who Overbilled Two Elderly Clients Out of $1 Million',
+    slug: 'lindsey-kerns-home-care-coordinators-elder-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-wdnc/pr/home-health-care-provider-sentenced-prison-stealing-more-1-million-two-elderly-clients',
+    body: `Lindsey Allison Kerns, 39, of Mars Hill, North Carolina, owned and operated Home Care Coordinators, LLC, a home health care business serving Buncombe and Madison Counties. Beginning in December 2018, she took on two elderly clients — identified in court records only as S.A. and P.R., ages 86 and 90 — with P.R. suffering from dementia and S.A. acting as her close friend's power of attorney. Rather than send itemized invoices, Kerns simply told the women by phone each week what they owed, leaving them with no paper trail to check her math against.
+
+There was good reason she didn't want them checking. Kerns billed for services that were inflated or never performed, double-billed for work like cleaning and moving that either wasn't done or had already been covered by hours she'd billed elsewhere, and charged rates higher than what she and the clients had actually agreed to. Investigators later calculated that against roughly $377,000 in home care Kerns's clients had genuinely received, she had collected more than $1.46 million from them — an overcharge of $1,088,554.99. She spent it on trucks and ATVs, luxury clothing, and vacation rentals and hotel stays, while, prosecutors said, also lying to FBI and IRS investigators and fabricating business records once a grand jury subpoena arrived.
+
+Kerns pleaded guilty on February 9, 2022, to wire fraud and money laundering. Chief U.S. District Judge Martin Reidinger sentenced her to 45 months in federal prison plus three years of supervised release, and ordered her to pay the full $1,088,554.99 in restitution to her two victims.
+
+The case shows how a caregiving relationship can double as cover for financial exploitation: clients who trusted Kerns to manage their care simply took her word for what they owed her each week, and by the time anyone added it up, more than a million dollars had gone to her lifestyle instead of their care.`,
+  },
+);
