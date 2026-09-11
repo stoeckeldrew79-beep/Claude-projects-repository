@@ -8006,3 +8006,22 @@ Romance-fraud rings like this one succeed by outsourcing empathy: the "person" a
     sourceUrl: 'https://www.justice.gov/usao-ndoh/pr/ghanaian-nationals-indicted-romance-fraud-scams',
   },
 );
+
+NotoriousAF.push(
+  {
+    title: 'Cheryl Campos: The VFW Quartermaster Who Spent Veterans\' Money on Crystals',
+    slug: 'cheryl-campos-vfw-quartermaster-embezzlement',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    body: `Cheryl Elizabeth Campos, a U.S. Army veteran living in Dayton, Oregon, served as quartermaster of a Department of Oregon Veterans of Foreign Wars post — the officer trusted with the organization's bank accounts and books. It's an unpaid, honor-system role that exists because VFW posts, like most small nonprofits and civic organizations, run on the assumption that a fellow member entrusted with the checkbook is handling it in good faith, with minimal outside auditing to check that assumption.
+
+That trust was misplaced. According to the U.S. Attorney's Office for the District of Oregon, Campos used her access as quartermaster to transfer more than $1.7 million from the VFW's accounts into her own personal accounts between January 2022 and June 2024, then falsified financial documents, bank statements, and accounting records to keep the missing money from showing up when anyone looked at the books.
+
+What Campos did with the money is what made her case get national pickup beyond the usual embezzlement story: prosecutors said she spent it on hundreds of crystals, semi-precious rocks, marbles, stones, and statues, in addition to more ordinary personal expenses like credit card payments and a vehicle bought for a family member. A veterans' organization funded largely by member dues and small local fundraising — the kind of money meant for post upkeep, member support, and community events — was instead quietly drained by the one person whose job was to safeguard it.
+
+Campos pleaded guilty to wire fraud, and on July 8, 2025, U.S. District Judge Amy M. Baggio sentenced her to two years and one month in federal prison, followed by three years of supervised release, and ordered her to pay more than $1.78 million in restitution. At her sentencing, Campos told the judge she had "lost her way."
+
+Her case is a reminder that the organizations most vulnerable to embezzlement are often the ones that can least afford it: a local VFW post, unlike a large company, typically has no separate finance department, no external auditor, and no one whose job is exclusively to double-check the treasurer's math — just members who trust that the person handling the money is one of their own, and therefore above suspicion. That trust is exactly the control an embezzler in a position like Campos's is counting on.`,
+    sourceUrl: 'https://www.justice.gov/usao-or/pr/dayton-woman-sentenced-federal-prison-defrauding-veterans-organization',
+  },
+);
