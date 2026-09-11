@@ -7204,3 +7204,15 @@ UsAF.push({
     country: 'US',
     state: 'CA',
 });
+
+UsAF.push({
+    name: 'Alabama AI-Generated Cattle Social Media Livestock Scam',
+    slug: 'alabama-ai-generated-cattle-social-media-scam',
+    description: `The Alabama Department of Agriculture and Industries (ADAI) warned cattle buyers on September 3, 2026 about a growing pattern of fraudulent livestock listings on social media, in which scammers create fake profiles posing as legitimate cattle operations and advertise heifers for sale, sometimes using AI-generated photos of animals that do not actually exist. In several reported incidents, buyers who agreed to a deal and traveled to pick up their purchase discovered that the real operation whose name and photos had been used had no knowledge of the sale — and no cattle waiting for them. ADAI listed specific red flags that can expose an AI-generated animal photo: unnatural anatomy such as misshapen bodies, missing tails, uneven legs, distorted faces, or irregular ears and nostrils; warped, repeated, or unrealistic backgrounds like fencing, grass, or barns; an unnaturally "perfect" or overly polished look; blurry or uneven edges around the animal; the same image reused across multiple listings; a total absence of context photos showing the full herd, facilities, or handling areas; and no identifying marks such as brands, ear tags, or distinctive coloring that a real working operation would normally show. "Protecting our livestock producers and buyers is critical to keeping the integrity of our beef industry strong and resilient," Commissioner Rick Pate said in announcing the alert. ADAI recommends independently verifying a seller's identity and business legitimacy, requesting references from the operation, and treating any refusal to arrange an in-person viewing or answer specific questions about the herd as a warning sign before sending payment. Suspected livestock fraud can be reported to the Alabama Law Enforcement Agency's Rural Crimes Unit at 334-288-8328 or, where a payment or investment angle is involved, the Alabama Securities Commission at 334-242-2984.`,
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'medium',
+    sources: ['Alabama Department of Agriculture and Industries', 'Elmore-Autauga News'],
+    sourceUrl: 'https://agi.alabama.gov/2026/09/adai-warns-of-livestock-scam-on-social-media/',
+    country: 'US',
+    state: 'AL',
+});
