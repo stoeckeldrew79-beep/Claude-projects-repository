@@ -5915,3 +5915,15 @@ UsNS.push({
     isHistorical: true,
     firstRecorded: '2013-01-01',
 });
+
+UsNS.push({
+    name: 'Rock Line Equipment Fake Heavy Machinery Dealer Website',
+    slug: 'rock-line-equipment-fake-heavy-machinery-dealer-scam',
+    description: `Rock Line Equipment, also operating under the name Reliable Equipment Hub, built a professional-looking online storefront advertising tractors, excavators, and loaders at steep discounts, complete with brand-name listings, fabricated customer reviews, and warranty promises — but the Better Business Bureau found the business had no real inventory, no genuine physical location, and no actual connection to the legitimate Kansas dealers whose identities it borrowed to look credible. The site listed an address in Kansas City, Kansas that turned out not to exist, and falsely claimed a relationship with Skyland Industrial LLC, a real, unaffiliated Kansas equipment dealer, while a legitimate business called Road Builders also found its name used on fraudulent purchase agreements and began fielding confused calls from would-be buyers. Victims across the country wired money to "secure" heavy equipment that never arrived, with reported losses reaching about $51,000 by the time the BBB opened its investigation in April 2026; the registered website domain itself had only ever been paid for one year, set to expire in March 2027 — a telltale sign of a site built to be abandoned once the scheme ran its course. The BBB has referred the case to the Kansas Attorney General's Office and the Kansas City, Kansas Police Department, and warns that requests for payment by wire transfer only, prices listed far below market value, and a seller who goes silent once payment is sent are the clearest signs of a fraudulent equipment dealer. Anyone shopping for heavy equipment online should insist on inspecting the machinery in person or through a live video call before paying anything, verify a dealer's physical address independently rather than trusting the one listed on its own website, pay by credit card or another method that allows a dispute rather than a wire transfer, and search the business name alongside the word "scam" and check its BBB profile before sending money for equipment priced well below what comparable listings charge.`,
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'high',
+    sources: ['Better Business Bureau'],
+    sourceUrl: 'https://www.bbb.org/us/ks/kansas-city/profile/not-elsewhere-classified/rock-line-equipment-0714-1000081179',
+    country: 'US',
+    state: 'KS',
+});
