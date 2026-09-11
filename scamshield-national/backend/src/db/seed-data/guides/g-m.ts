@@ -3834,6 +3834,10 @@ For anyone dealing with medical debt right now, the practical path runs through 
     slug: "gs-labs-covid-testing-overcharge-settlement-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "gs-labs-covid-testing-settlement"],
+    // representative photo — replace with an exact match if found
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Baltimore_Convention_Center_Testing_Site_(50274582318).jpg?width=1200",
+    coverImageCredit: "Photo: Maryland GovPics (CC BY 2.0) — a walk-up COVID-19 testing site, the kind of pandemic-era operation at the center of the GS Labs settlement",
+    coverImagePosition: 50,
     sourceUrl: "https://www.atg.wa.gov/news/news-releases/gs-labs-settlement-provides-1m-restitution-washingtonians-regarding-covid-19",
     body: `On June 10, 2026, a bipartisan coalition of 18 states — led by Washington, Kansas, Minnesota, and Nebraska, and joined by Alabama, Arizona, Colorado, Illinois, Indiana, Iowa, Massachusetts, Missouri, New Jersey, North Dakota, Ohio, Oregon, Pennsylvania, and South Dakota — announced a settlement with GS Labs, a company that operated COVID-19 testing sites across the country during the pandemic. The settlement resolves a multistate investigation into how GS Labs priced and delivered its tests to patients between 2020 and 2022, at a time when most people had little ability to comparison-shop for testing and were often told, correctly or not, that they wouldn't owe anything out of pocket.
 
