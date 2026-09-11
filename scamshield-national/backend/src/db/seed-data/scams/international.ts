@@ -11156,6 +11156,16 @@ International.push(
     sourceUrl: 'https://www.nevispages.com/rscnpf-charges-trio-in-50-million-fraud-money-laundering-matter/',
     country: 'KN',
   },
+  {
+    name: 'St. Kitts and Nevis Social Media Job Search Scam',
+    slug: 'st-kitts-nevis-social-media-job-search-scam',
+    description: `The Financial Services Regulatory Commission (FSRC), the Royal St. Christopher and Nevis Police Force's White Collar Crime Unit (WCCU), and the Financial Intelligence Unit (FIU) issued a joint General Public Advisory on July 24, 2024 warning residents about job search scams circulating on social media, chiefly Facebook. The scams advertise work-from-home roles such as typing, correspondence preparation, or data entry at unusually high pay, contact applicants only through social media direct messages rather than by phone or in person, and tell them they have been "hired" without any interview or screening process. Victims are then asked to hand over banking details before ever receiving a real job offer, and in some versions are paid via wire transfer and instructed to forward part of the funds on to someone else through a money remitter — money that is, in fact, the proceeds of someone else's fraud. The advisory stressed "if it appears too good to be true, it usually is" and warned that using or moving funds obtained this way exposes the person, not just the scammer, to a money laundering charge under Section 4(1) of the Proceeds of Crime Act, since ignorance of the funds' origin is not a defense once a report is not made. Anyone contacted this way, or who has already received such funds, was urged to stop using the money and contact the WCCU immediately.`,
+    categorySlug: 'job-task-scams',
+    alertLevel: 'medium',
+    sources: ['Financial Services Regulatory Commission (FSRC)', 'Royal St. Christopher and Nevis Police Force White Collar Crime Unit (WCCU)', 'Financial Intelligence Unit (FIU)', 'WINN FM 98.9'],
+    sourceUrl: 'https://fsrc.kn/2-uncategorised/275-general-public-advisory',
+    country: 'KN',
+  },
 );
 
 International.push(
