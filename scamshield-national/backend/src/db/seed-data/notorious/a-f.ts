@@ -5606,6 +5606,10 @@ NotoriousAF.push(
     slug: "christian-rodriguez-peraza-timeshare-resale-fraud",
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Sunset_along_the_Malecon_-_Mazatlan_-_Sinaloa_-_Mexico_-_01.jpg?width=1200',
+    coverImageCredit: "Photo: Adam Jones, Wikimedia Commons (CC BY 4.0) — Mazatlán, Sinaloa, where Christian Rodriguez Peraza is from",
     sourceUrl: 'https://www.justice.gov/usao-wdtx/pr/foreign-nationals-indicted-and-federal-custody-alleged-40m-timeshare-fraud',
     body: `Note: this case is a federal indictment, not a conviction. The allegations below describe the government's case; none of the defendants named has been found guilty, and each is presumed innocent unless and until proven otherwise in court.
 
