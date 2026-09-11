@@ -6116,6 +6116,9 @@ If you've bought a Eurail or Interrail pass, or held a DiscoverEU pass, in the p
     slug: `f5-big-ip-nation-state-breach-guide`,
     author: `ScamShield Editorial`,
     tags: [`guide`, `f5-data-breach`],
+    coverImage: `https://commons.wikimedia.org/wiki/Special:FilePath/Seattle_-_F5_Tower_01.jpg?width=1200`,
+    coverImageCredit: `Photo: Joe Mabel, CC BY-SA 4.0, via Wikimedia Commons — F5 Tower in Seattle, F5's headquarters building`,
+    coverImagePosition: 50,
     sourceUrl: `https://www.cisa.gov/news-events/alerts/2025/10/15/cisa-directs-federal-agencies-mitigate-vulnerabilities-f5-devices`,
     body: `F5 is not a household name, but its BIG-IP product almost certainly touches your life anyway: it's the application-delivery and traffic-management hardware and software that sits at the network edge of a huge share of large banks, insurers, hospital systems, telecoms, and federal agencies, quietly routing and inspecting traffic before it ever reaches the servers behind it. On August 9, 2025, F5 detected that a sophisticated intruder had long-term, persistent access inside two of its most sensitive internal environments — the BIG-IP product development environment and an engineering knowledge-management platform — access that, by the time it was found, had reportedly gone undetected for roughly a year.
 
@@ -6188,6 +6191,10 @@ If you're a current or former AdaptHealth patient — or the parent of one — w
     slug: `conde-nast-2026-data-breach-guide`,
     author: `ScamShield Editorial`,
     tags: [`guide`, `conde-nast-2026-data-breach`],
+    // representative photo — replace with an exact match if found
+    coverImage: `https://commons.wikimedia.org/wiki/Special:FilePath/One_World_Trade_Center,_Manhattan,_New_York_(7237112760).jpg?width=1200`,
+    coverImageCredit: `Photo: Ken Lund, CC BY-SA 2.0, via Wikimedia Commons — One World Trade Center in Manhattan, home to Condé Nast's headquarters`,
+    coverImagePosition: 50,
     sourceUrl: `https://securityaffairs.com/198628/data-breach/conde-nast-data-of-32-8-million-users-offered-for-sale-after-wired-leak.html`,
     body: `Condé Nast, the publisher behind Vogue, The New Yorker, GQ, Glamour, Vanity Fair, WIRED, and a stable of other well-known magazine brands, hasn't confirmed a breach — but on September 7, 2026, a database of 32,815,767 unique records tied to its reader and subscriber accounts went up for sale on a Russian-language cybercrime forum for $15,000. The listing traces back to a smaller leak that surfaced in December 2025, when someone using the handle "Lovely" published roughly 2.36 million records specifically tied to WIRED and claimed to be sitting on around 40 million records from across Condé Nast's wider publishing operation, threatening to release the rest if the company didn't respond. The new listing appears to make good on that threat: security researchers found that about 2.36 million of the 32.8 million records line up almost exactly with the WIRED data published back in December, while the remaining 30.4 million are drawn from Condé Nast's other titles. Condé Nast has not publicly confirmed the breach or commented on the new listing as of this writing.
 
