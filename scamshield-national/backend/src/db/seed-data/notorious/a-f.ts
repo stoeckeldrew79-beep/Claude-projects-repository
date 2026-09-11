@@ -4715,6 +4715,10 @@ NotoriousAF.push(
     slug: 'ryan-brant-take-two-stock-options-backdating',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/New_York_County_Courthouse.jpg?width=1200',
+    coverImageCredit: 'Photo: Mike Peel, Wikimedia Commons (CC BY-SA 4.0) — the New York County Courthouse in Manhattan, where Ryan Brant pleaded guilty',
     sourceUrl: 'https://www.sec.gov/news/press/2007/2007-20.htm',
     body: `Ryan Brant founded Take-Two Interactive Software in 1993, while still in his early twenties, and built it into one of the video game industry's most successful publishers, eventually home to the Grand Theft Auto franchise. He served as the company's chief executive until February 2001 and remained its chairman for several more years, presiding over a period of rapid growth even as the company had already drawn SEC scrutiny once before, over a separate 2000 accounting matter involving how it booked game sales and returns.
 
@@ -4912,6 +4916,10 @@ Knapp was convicted of defrauding Western Savings of roughly $11 million and, on
     slug: 'andrew-bressman-ar-baron-boiler-room-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/New_York_City_Criminal_Court_(48126615687).jpg?width=1200',
+    coverImageCredit: 'Photo: Ajay Suresh, Wikimedia Commons (CC BY 2.0) — the New York City Criminal Court building, where Manhattan prosecutors charged the A.R. Baron case',
     sourceUrl: 'https://www.sec.gov/enforcement-litigation/administrative-proceedings/34-42103',
     body: `Andrew Bressman was president of A.R. Baron & Co., a New York brokerage that spent the first half of the 1990s running what regulators would later describe as a textbook boiler room: cold-calling investors to buy stock in small companies Baron itself had taken public, then using coercive in-house sales tactics to keep the share price from falling once the shares were sold. The SEC later found that Baron enforced a "no-net-sale" policy across three stock offerings it had manipulated — Professional Care Inc. in 1991, Health Professionals Inc. in 1992 and 1993, and Cypros Pharmaceutical Corp. in 1995 — under which brokers were required to refuse client sell orders unless they were matched by an equal buy order, propping up prices that had no real market support.
 
@@ -4926,6 +4934,10 @@ A.R. Baron's downfall also became a landmark in a different arena: after the fir
     slug: 'anthony-cuti-duane-reade-accounting-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Duane_Reade_Pharmacy_Storefront_(48206542307).jpg?width=1200',
+    coverImageCredit: 'Photo: Ajay Suresh, Wikimedia Commons (CC BY 2.0) — a Duane Reade storefront in Manhattan',
     sourceUrl: 'https://www.justice.gov/archive/usao/nys/pressreleases/August11/cutianthonysentencingpr.pdf',
     body: `Anthony Cuti spent the early 2000s as chairman and CEO of Duane Reade, the New York City drugstore chain, presenting Wall Street with a steady story of improving margins at a retailer that had struggled through the 1990s. Investors and analysts had reason to like what they saw: quarter after quarter, Duane Reade appeared to be hitting its earnings targets even as competitors in the crowded New York drugstore market fought for the same customers.
 
