@@ -6816,3 +6816,16 @@ UsAF.push({
     isHistorical: true,
     firstRecorded: '2006-04-17',
 });
+
+UsAF.push({
+    name: 'Billie Sol Estes Fertilizer Tank Fraud',
+    slug: 'billie-sol-estes-fertilizer-tank-fraud-1962',
+    description: `Billie Sol Estes, a fertilizer and farm-supply dealer in Pecos, Texas, persuaded local farmers to sign chattel mortgages on portable ammonia fertilizer tanks he claimed to own and lease to them, then used those mortgage notes as collateral to borrow money from banks and finance companies across West Texas, paying the farmers a cut of the proceeds for the use of their names and credit. Estes never came close to owning as many tanks as his paperwork claimed; when a lender wanted to physically verify the collateral, his employees moved the same few hundred real tanks between locations and swapped serial-number tags between inspections, making it look as if thousands more tanks existed than actually did. Pecos Independent and Enterprise editor Oscar Griffin Jr. broke the story in early 1962 after noticing how implausibly large Estes's fertilizer-tank business had grown, and the FBI arrested Estes on fraud and conspiracy charges within weeks; Griffin's reporting won the 1963 Pulitzer Prize for Local Reporting. Estes was convicted in 1963 on both federal and state charges tied to notes on roughly 34,000 fertilizer tanks — worth about $22 million — that were mostly nonexistent, and the scandal grew into a national political controversy after Estes's ties to Vice President Lyndon B. Johnson and other Kennedy administration officials became public. The case remains a textbook illustration of collateral fraud: a lender that never independently verifies physical collateral in person, rather than accepting the borrower's own photos or a borrower-chosen appraiser, has no real way to know whether the asset securing a loan actually exists.`,
+    categorySlug: 'investment-fraud',
+    sources: ['The Pulitzer Prizes', 'EBSCO Research Starters'],
+    sourceUrl: 'https://www.pulitzer.org/winners/oscar-griffin-jr',
+    country: 'US',
+    state: 'TX',
+    isHistorical: true,
+    firstRecorded: '1962-03-01',
+});
