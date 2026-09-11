@@ -5061,5 +5061,8 @@ The SEC's civil complaint, filed in the Southern District of New York in March 2
 The SEC's civil case wrapped up afterward, on September 10, 2026, with a final judgment by consent: a permanent injunction, a permanent bar from ever again serving as an officer or director of a public company, and disgorgement of $2,532,775 plus prejudgment interest of $490,077.54 — offset by the forfeiture already paid in the criminal case, leaving Jorgensen owing the SEC the remaining $490,077.54 directly.
 
 What makes Jorgensen's case a clean illustration of how this category of fraud actually gets caught isn't the trading itself — corporate insiders sell stock all the time — but the pattern underneath it: two sales, a year apart, both landing in the narrow window before bad news the executive already knew was coming, each one avoiding a loss the rest of the market took on the chin. Trading surveillance built to flag exactly that timing pattern, combined with the disclosure filings insiders are required to make, is what turned a revenue chief's well-timed stock sales into a securities-fraud conviction rather than simply two lucky trades.`,
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Thurgood_Marshall_United_States_Courthouse,_New_York.jpg?width=1200',
+    coverImageCredit: 'Photo: Mike Peel, CC BY-SA 4.0, via Wikimedia Commons — the Thurgood Marshall U.S. Courthouse, home of the Southern District of New York, where the SEC charged Jorgensen',
   },
 );
