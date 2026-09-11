@@ -13325,3 +13325,16 @@ International.push(
     country: 'AG',
   },
 );
+
+International.push(
+  {
+    name: 'Fake "Arrive Antigua" Travel Arrival Form Website Scam',
+    slug: 'antigua-barbuda-fake-arrive-antigua-travel-form-scam',
+    description: `Antigua News Room reported on January 19, 2026 that residents, accommodation providers, and other members of the tourism sector were being urged to warn incoming visitors about fraudulent websites impersonating Arrive Antigua, the government's official online pre-arrival registration form. Travelers searching online for the arrival form were instead being directed to lookalike third-party sites that closely mimic the real government page, where they were asked to upload personal photographs and pay a fee of up to US$100 per person to "complete" what the site presented as a mandatory entry requirement. In reality, most visitors to Antigua and Barbuda do not need a tourist visa or arrival fee at all, and the genuine Arrive Antigua form — available only at www.arriveantigua.com — is completed entirely free of charge; any site charging a fee to submit it, or requesting payment card details, is not the official government platform. Because travelers typically complete this step shortly before an unfamiliar trip and have no easy way to judge which result in a search engine is authentic, the fake sites are able to collect both a fraudulent payment and uploaded personal photographs and travel details before the visitor ever realizes anything is wrong. Authorities advised residents and tourism businesses to direct visitors specifically to www.arriveantigua.com, to caution that copycat sites may closely mimic official government branding and page design while charging unauthorized fees, and to treat any request for payment, a credit card number, or a personal photo upload beyond standard travel information as a clear sign a site is not the legitimate government portal.`,
+    categorySlug: 'travel-vacation-scams',
+    alertLevel: 'medium',
+    sources: ['Antigua News Room'],
+    sourceUrl: 'https://antiguanewsroom.com/fake-arrive-antigua-websites-target-travelers/',
+    country: 'AG',
+  },
+);
