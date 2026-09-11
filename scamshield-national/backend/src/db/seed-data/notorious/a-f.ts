@@ -5537,6 +5537,10 @@ NotoriousAF.push(
     slug: 'daniel-chu-tricolor-holdings-collateral-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Dallas_Texas_skyline_overlooking_the_Trinity_River_in_spring_2024.png?width=1200',
+    coverImageCredit: 'Photo: IcedCowboyCoffee, Wikimedia Commons (CC0) — Dallas, Texas, where Daniel Chu built Tricolor Holdings',
     sourceUrl: 'https://www.sec.gov/newsroom/press-releases/2026-77-sec-charges-former-executives-fraud-connection-19-billion-collapse-subprime-auto-lender-tricolor',
     body: `Note: this profile covers two different tracks of the same case. Jerome Kollar and Ameryn Seibold have pleaded guilty to criminal fraud charges and admitted their roles in the conduct described below. Daniel Chu and David Goodgame, by contrast, have been criminally indicted and separately named in a civil complaint by the Securities and Exchange Commission — allegations only, which neither man has been found guilty or liable of in court as of this writing, and both are presumed innocent unless and until proven otherwise.
 
