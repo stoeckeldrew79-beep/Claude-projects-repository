@@ -7014,3 +7014,17 @@ UsAF.push({
     isHistorical: true,
     firstRecorded: '2026-09-03',
 });
+
+UsAF.push({
+    name: 'Wilmington Financial Sextortion and Money Laundering Ring',
+    slug: 'delaware-wilmington-sextortion-money-laundering-ring',
+    description: `Sidi Diakite, Almamy Diaby, Abdul Aziz Sangare, and Abdoul Aziz Traore — all of Wilmington, Delaware — ran a financially motivated "sextortion" scheme with co-conspirators Hadja Kone, also of Wilmington, and Siaka Ouattara of Abidjan, Côte d'Ivoire, posing as young women online to contact thousands of potential victims across the United States, United Kingdom, and Canada, including minors. After building a rapport, the conspirators persuaded victims to expose themselves or engage in sexual activity over live video chat, secretly recorded the footage, and then threatened to send it to the victim's friends, family, and social media contacts unless they paid up, collecting payment through CashApp and Apple Pay. Operating from roughly May 2020 through December 2022, the scheme successfully extorted approximately $1.9 million and attempted to extort as much as $6.9 million more from victims who refused or couldn't pay. A superseding indictment naming the defendants was unsealed on September 5, 2024 in the U.S. District Court for the District of Delaware, before Judge Gregory B. Williams, charging conspiracy to commit cyberstalking and interstate threats, conspiracy to commit money laundering, and wire fraud, each carrying up to 20 years in prison; several defendants were arrested or self-surrendered in Delaware, while a Delaware man separately pleaded guilty to his role in the scheme. The FBI has reported a sharp nationwide rise in this style of financial sextortion, which has driven a number of teenage victims to suicide after being threatened with exposure. Anyone — especially a teenager — who is contacted online by a new romantic interest who quickly pushes for an explicit photo or video call should be skeptical of the request itself, should never send explicit images or video to someone met online no matter how the relationship has developed, and if already targeted should stop all contact, not pay, save the messages as evidence, and report it immediately to a trusted adult, local law enforcement, and the FBI's IC3.gov, since paying rarely stops the demands and reporting quickly gives investigators the best chance of finding the source.`,
+    categorySlug: 'sextortion',
+    alertLevel: 'critical',
+    sources: ['U.S. Department of Justice, Office of Public Affairs'],
+    sourceUrl: 'https://www.justice.gov/archives/opa/pr/four-delaware-men-charged-international-sextortion-and-money-laundering-scheme',
+    country: 'US',
+    state: 'DE',
+    isHistorical: true,
+    firstRecorded: '2020-05-01',
+});
