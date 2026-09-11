@@ -5384,6 +5384,9 @@ NotoriousGM.push(
     slug: 'tanvir-mahmud-hallmark-group-sonali-bank-scam',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/A_branch_of_Sonali_Bank,_Mirpur_Cantonment,_Dhaka,_2014.jpg?width=1200',
+    coverImageCredit: 'Photo: Aashaa, Wikimedia Commons (CC BY-SA 3.0) — a Sonali Bank branch in Dhaka, the state-owned lender Mahmud and Islam defrauded',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.thedailystar.net/news/bangladesh/crime-justice/news/hallmark-loan-scam-they-deserve-gallows-3570671',
     body: `Tanvir Mahmud was managing director of Hallmark Group, a Bangladeshi conglomerate with interests spanning garments, jute, and other light industry, when he and his wife, Hallmark chairman Jesmin Islam, orchestrated one of the largest bank frauds in the country's history through a single branch of Sonali Bank, Bangladesh's largest state-owned lender. Between roughly 2010 and 2012, Hallmark and a network of associated shell entities — including a nonexistent company called Max Spinning Mills — obtained loans from Sonali Bank's Ruposhi Bangla Hotel branch in Dhaka using forged export documents, fabricated inland bills, and fraudulent collateral, with bank officials at the branch approving disbursements that internal controls should never have allowed.
 
