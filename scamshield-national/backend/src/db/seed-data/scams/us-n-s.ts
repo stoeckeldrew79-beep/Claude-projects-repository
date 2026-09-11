@@ -5612,3 +5612,17 @@ UsNS.push({
     country: 'US',
     state: 'NM',
 });
+
+UsNS.push({
+    name: 'Puerto Rico Fake Court Citation Link Scam',
+    slug: 'puerto-rico-fake-court-citation-link-scam',
+    description: `Puerto Rico's Judicial Branch (Poder Judicial) warned residents on June 15, 2026 about text messages and emails impersonating the island's courts, telling recipients they have a pending traffic-fine hearing and must click an embedded link to "coordinate" a court date, citing a fabricated case number and invoking the name of a judge or police officer to look authentic. The messages threaten arrest, wage garnishment, and other legal consequences if the recipient doesn't act immediately, pressuring them into clicking through to a fraudulent page built to harvest personal information rather than schedule anything real. Administrative Director of the Courts Hon. Sigfrido Steidel Figueroa said plainly that "no legitimate judicial procedure requires payments by phone or unofficial electronic means, nor does it request personal information through these channels," and urged residents to treat any such message as fraudulent. Puerto Ricans who receive one of these texts or emails are advised not to click the link or provide any information, to avoid engaging with the sender at all, and to report the message and verify any claimed citation by contacting the Judicial Branch directly at 787-641-6600 or buzon@poderjudicial.pr rather than using any contact information supplied in the message itself.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Poder Judicial de Puerto Rico (Judicial Branch of Puerto Rico)'],
+    sourceUrl: 'https://poderjudicial.pr/poder-judicial-alerta-sobre-nueva-modalidad-de-fraude-en-el-que-realizan-citaciones-judiciales-falsas-a-traves-de-un-enlace-fraudulento/',
+    country: 'US',
+    state: 'PR',
+    isHistorical: true,
+    firstRecorded: '2026-06-15',
+});
