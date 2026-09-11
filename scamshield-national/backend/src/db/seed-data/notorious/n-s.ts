@@ -3895,6 +3895,9 @@ NotoriousNS.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://securities.colorado.gov/press-release/press-release-recidivist-colorado-man-sentenced-to-eight-years-in-prison-for',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Colorado_State_Capitol_building.jpg?width=1200',
+    coverImageCredit: 'Quintin Soloviev / Wikimedia Commons (CC BY 4.0) — Colorado State Capitol, Denver, seat of the state securities regulator that prosecuted Kim',
     body: `Raymond Kim, of Centennial, Colorado, had already been through the state's securities-fraud process once by the time his second case began. In 2019, the Colorado Division of Securities investigated Kim for lying to and omitting material information from investors and misusing their money for personal expenses, and referred the case to the Colorado Attorney General's office for prosecution. Kim pleaded guilty in August 2020 to a class 3 felony count of securities fraud and was sentenced to economic probation — a form of supervision built around repaying victims rather than incarceration.
 
 According to the Colorado Division of Securities, Kim used that probation period to start a new scheme rather than comply with it. While still under the terms of his 2020 plea agreement, he began soliciting new investors at a fitness center in Centennial, offering convertible promissory notes and stock purchase agreements. Investigators say Kim made material misrepresentations and omissions to these investors just as he had in the first case, and collectively took in $820,000 from them, using some of the new money to pay earlier investors — the hallmark structure of a Ponzi scheme — while diverting the rest for his own use.
