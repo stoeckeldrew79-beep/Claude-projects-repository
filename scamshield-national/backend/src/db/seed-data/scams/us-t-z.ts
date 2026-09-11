@@ -3170,3 +3170,15 @@ UsTZ.push({
     isHistorical: true,
     state: 'VA',
 });
+
+UsTZ.push({
+    name: 'Alpha Influence E-Commerce Investment Fraud (Kole Brimhall)',
+    slug: 'utah-orem-brimhall-alpha-influence-ecommerce-fraud',
+    description: `Kole Glen Brimhall, 27, of Orem, sold what he pitched as a passive, hands-off investment through his company, Alpha Influence, LLC: put money in, and Alpha Influence would run an e-commerce store on the investor's behalf, generating "consistent, predictable" monthly returns without the investor doing any of the work. From March 2020 to June 2022, Brimhall — acting as a team lead recruiting through Alpha Influence's own sales-agent network — sold these investment contracts to approximately 135 Utahns without ever registering as a securities agent, broker-dealer, or issuer-dealer with the state, as Utah law requires. What he didn't disclose was where the money actually went: rather than funding the stores investors believed they had a stake in, the majority of it flowed back into Alpha Influence and was distributed to sales agents, including Brimhall himself, as commissions, leaving only a small portion to actually service the promised stores. Brimhall pleaded guilty to securities fraud, and on May 6, 2025 a federal judge in Salt Lake City sentenced him to 12 months and one day in prison plus three years of supervised release, ordering him to forfeit $1,097,709.82 in commissions and pay $5,003,400 in restitution toward the roughly 500 Utahns the broader Alpha Influence scheme affected. Before investing in any "done-for-you" e-commerce store, dropshipping program, or similar passive-income pitch sold through a personal network or social media, Utahns can check whether the seller is actually registered to sell securities in the state through the Utah Division of Securities' free license lookup — a step Brimhall's investors had no way to pass, since he was never registered at all.`,
+    categorySlug: 'investment-fraud',
+    sources: ['Utah Department of Commerce, Division of Securities', "U.S. Attorney's Office for the District of Utah"],
+    sourceUrl: 'https://commerce.utah.gov/2025/05/06/news-release-utah-county-man-sentenced-to-prison-for-affinity-fraud-scheme-that-scammed-over-5m-from-alpha-influence-investors/',
+    country: 'US',
+    isHistorical: true,
+    state: 'UT',
+});
