@@ -6580,7 +6580,9 @@ NotoriousAF.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/usao-edny/pr/current-and-former-national-basketball-association-players-and-four-other-individuals',
-    // pending prosecution, no rights-cleared photo identified — sourceUrl above serves as the "read the full story" link
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Billups_coach_(cropped).jpg?width=1200',
+    coverImageCredit: 'Erik Drost, CC BY 2.0, via Wikimedia Commons',
+    coverImagePosition: 50,
     body: `Note: this profile describes pending federal criminal prosecutions. Chauncey Billups and Terry Rozier have each pleaded not guilty; an indictment is only a charge, not evidence of guilt, and both men are presumed innocent unless and until proven guilty at trial. As of this writing no trial has occurred, and jury selection has been pushed back to March 2027.
 
 On October 23, 2025, federal prosecutors in the Eastern District of New York unsealed two related but legally separate cases charging 34 people connected to the NBA, in what FBI Director Kash Patel called a "mind-boggling" criminal enterprise combining two different forms of cheating: mob-linked rigged poker games and insider-information sports betting. U.S. Attorney Joseph Nocella Jr. called it "one of the most brazen sports corruption schemes" his office had prosecuted.
