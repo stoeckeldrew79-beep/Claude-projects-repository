@@ -1778,6 +1778,10 @@ If you're a current or former UCLA Health patient, watch your mail for a notific
     slug: `turner-construction-2026-data-breach-guide`,
     author: `ScamShield Editorial`,
     tags: [`guide`, `turner-construction-2026-data-breach`],
+    coverImage: `https://commons.wikimedia.org/wiki/Special:FilePath/Boom_lift_crane_on_construction_site.jpg?width=1200`,
+    coverImageCredit: `Photo: CaptainHisDudeness (CC0)`,
+    coverImagePosition: 50,
+    // representative photo — generic construction site, not a Turner Construction project; replace with an exact match if found
     sourceUrl: `https://www.constructiondive.com/news/turner-construction-data-breach-ssns-bank-accounts/828454/`,
     body: `Turner Construction Company, headquartered in New York and one of the largest construction-management firms in the United States — the kind of contractor that builds stadiums, hospitals, university buildings, and government and military facilities — confirmed on July 27, 2026 that files containing personal information had been accessed without authorization. According to the notification letter Turner filed with the California Attorney General's office, the unauthorized access to certain Turner systems took place between July 2 and July 15, 2026. Upon discovering the activity, the company says it moved to secure its systems, engaged outside cybersecurity and forensic experts, and notified federal law enforcement. Turner began mailing written notices on August 18, 2026, confirming the breach to more than six thousand California residents alone, with additional notifications going out to affected individuals in other states and in Canada.
 
