@@ -2409,3 +2409,20 @@ Federal prosecutors eventually caught up with the criminal side of the scheme. G
 Gaffney's case is a study in how little a securities bar accomplishes on its own without ongoing enforcement behind it: a man the SEC had already permanently barred from penny-stock offerings and corporate leadership simply moved to a different structure — a private lending pitch instead of a stock offering — and kept going for years before newspaper ads soliciting "legal marijuana" loans drew fresh victims into the same basic fraud. A guaranteed fixed return, a hot industry used as a hook, and money routed through an unrelated small business rather than a verifiable fund are three separate warning signs that, together, describe almost exactly what VerdeGroup's investors were never shown.`,
   },
 );
+
+NotoriousTZ.push(
+  {
+    title: 'William and Chantal McCorkle: The Late-Night Infomercial Couple Behind a $30 Million Real Estate Fraud',
+    slug: 'william-chantal-mccorkle-infomercial-real-estate-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://law.justia.com/cases/federal/appellate-courts/F3/296/1284/559905/',
+    body: `William McCorkle and his wife Chantal built a business during the 1990s that ran almost entirely through late-night cable television: hour-long infomercials in which William, speaking from what he told viewers was his own life of foreclosed-property riches, offered to sell the audience videotapes and printed manuals teaching them how to buy foreclosed real estate for pennies on the dollar and resell it for a fortune. The McCorkles staged the infomercials in expensive homes, and around luxury cars and a helicopter bearing William's name — all of it leased specifically for filming rather than anything the couple actually owned — while a parade of enthusiastic "students" told the camera how the McCorkle course had changed their lives. Those testimonials came from paid actors, not real customers who had ever used the program.
+
+Thousands of viewers nationwide bought in, drawn by a pitch built almost entirely on borrowed credibility: expensive props standing in for real wealth, and scripted endorsements standing in for real results. Prosecutors said the McCorkles took in more than $30 million from consumers through the scheme, and rather than simply banking the proceeds in the ordinary course of business, the couple moved most of the money into an account in the Cayman Islands — the kind of offshore transfer that has little legitimate purpose for a company claiming to be a straightforward real estate education business.
+
+Federal prosecutors indicted the McCorkles along with two associates, Herman Venske and Brian Higgins, on charges including conspiracy to commit mail and wire fraud, money laundering, fraudulent use of credit cards, and use of a false Social Security number. William hired the famed defense attorney F. Lee Bailey to represent him, and the case went to a jury trial that ran roughly two months. On November 4, 1998, the jury convicted William and Chantal on the core fraud and money-laundering counts, and both were sentenced to more than 24 years in federal prison under the mandatory guidelines then in effect — among the harshest sentences ever handed down for an infomercial-based fraud. The Eleventh Circuit Court of Appeals later upheld the convictions. Chantal, who divorced William after the conviction, had her sentence reduced and was released in 2010; William's sentence was likewise reduced, and he was released in July 2014.
+
+The McCorkle case is a reminder that an infomercial's most persuasive evidence — the mansion, the car, the excited testimonial — is also the easiest part of the pitch to fake entirely: none of it has to be real, or even paid for by the person selling it, to convince a television audience that a stranger's promised riches are within reach for the price of a videotape.`,
+  },
+);

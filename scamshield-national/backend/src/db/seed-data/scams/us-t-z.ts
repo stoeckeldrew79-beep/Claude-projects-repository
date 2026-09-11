@@ -3098,3 +3098,15 @@ UsTZ.push({
     state: 'WA',
     isHistorical: true,
 });
+
+UsTZ.push({
+    name: 'Metropolis Parking Deceptive Fees and Fake-Bill Settlement',
+    slug: 'tennessee-metropolis-parking-deceptive-practices-settlement',
+    description: `Metropolis Technologies, Inc., a private company that operates paid parking lots across Nashville, Knoxville, and Memphis using license-plate-reader cameras instead of gates or ticket machines, misled Tennessee drivers about what they'd actually be charged, according to a years-long investigation by the Tennessee Attorney General's Office that grew out of more than 100 consumer complaints about unclear pricing and confusing signage. Investigators found Metropolis posted inaccurate or hard-to-find rate signs at lot entrances, hit drivers with surprise fees when its own license-plate-reader technology glitched, made it "nearly impossible" for customers to actually get a refund once they disputed a charge, and sent violation notices worded and formatted to look like an official government bill rather than a private company's invoice — ultimately drawing more than 300 total complaints. Attorney General Jonathan Skrmetti's office announced a settlement on January 12, 2026 requiring Metropolis to pay $8.75 million, split between consumer refunds and litigation costs and a $2.25 million "Tennessee Parking Program" giving eligible Tennessee residents up to $30 in free parking credit for stays between July 1, 2021 and January 6, 2026. "Tennesseans work hard for their money, and when they park they deserve a clear price up front and no shenanigans with bogus charges," Skrmetti said in announcing the resolution. Going forward, Metropolis must post clear, accurate rate signage at every lot entrance, send rate confirmations by text message at camera-equipped lots, honor a 15-minute grace period before any charge applies, stop language in its notices that could be mistaken for an official government bill, automatically refund charges caused by its own technology malfunctions, and never charge more than what's actually posted. Drivers using a camera-based parking lot should photograph the posted rate sign before leaving their car, keep any text or email confirmation of the rate charged, and treat a follow-up notice demanding an unexplained "violation" fee as worth disputing directly with the company and, if unresolved, reporting to the Tennessee Attorney General's Consumer Protection Division rather than paying automatically out of concern it might be an official government fine.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ["Tennessee Attorney General's Office"],
+    sourceUrl: 'https://www.tn.gov/attorneygeneral/news/2026/1/12/tennessee-attorney-general-secures-settlement-with-metropolis-parking-to-stop-deceptive-practices-and-provide-free-parking-program.html',
+    country: 'US',
+    state: 'TN',
+});
