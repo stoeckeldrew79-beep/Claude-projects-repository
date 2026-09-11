@@ -3172,3 +3172,15 @@ UsTZ.push({
     isHistorical: true,
     state: 'UT',
 });
+
+UsTZ.push({
+    name: 'Bremerton Mail Theft and Bank Fraud Ring (Vranic & Marquis)',
+    slug: 'washington-bremerton-vranic-marquis-mail-theft-bank-fraud',
+    description: `Emily Vranic, 34, and Heather Marquis, 37, both of Bremerton, Washington, ran a years-long identity-theft and bank-fraud operation that began around April 2019 and continued until their arrest in November 2024. The pair stole mail directly from victims' mailboxes, then used the personal documents and identifying information inside to activate victims' credit cards, open new lines of credit in their names, and gain outright access to their online bank accounts; in some cases they had new account paperwork mailed to a victim's real address, intercepted it before the victim ever saw it, and quietly redirected future statements to their own Bremerton residence so the fraud stayed invisible to the actual account holder for months at a time. Once inside an account, they ran up credit card debt, transferred funds to accounts they controlled, and even used compromised accounts to make mortgage payments; in one instance, after already draining $33,000 from a single account, they tried to push through an additional $35,000 transfer, and when the bank's fraud alert blocked it, repeatedly called back posing as the account holder to talk the bank into lifting the hold. Prosecutors said the scheme touched more than 250 victims and attempted to steal at least $330,000 over roughly three years, describing it as "a multi-dimensional, deliberate effort to defraud many people in many different ways." Marquis pleaded guilty in May 2026 and Vranic in June 2026; on September 3, 2026, a federal judge in the Western District of Washington sentenced Vranic to three years in prison and Marquis to 31 months, each followed by three years of supervised release, with Marquis ordered to forfeit $228,701 and Vranic's restitution amount to be set at a later hearing. The case is a reminder that stolen mail — not a hacked password — was the entire foundation the scheme was built on: checking a mailbox daily, using a locked postal box for anything financial, and signing up for free USPS Informed Delivery emails showing what's actually in transit can catch a redirected statement or a fraudulently opened account long before a scammer gets months of uninterrupted access to it.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'medium',
+    sources: ["U.S. Attorney's Office, Western District of Washington", 'MyNorthwest (KOMO Radio)', 'KIRO 7 News'],
+    sourceUrl: 'https://www.justice.gov/usao-wdwa/pr/bremerton-washington-couple-sentenced-prison-wide-ranging-id-theft-and-bank-fraud',
+    country: 'US',
+    state: 'WA',
+});
