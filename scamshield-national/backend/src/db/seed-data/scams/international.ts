@@ -11511,6 +11511,16 @@ International.push(
     sourceUrl: 'https://www.gabonreview.com/iphone-17-50e-anniversaire-tirage-au-sort-larnaque-dans-vos-messageries-qui-usurpe-cecado/',
     country: 'GA',
   },
+  {
+    name: 'Gabon BMI Investissement Bitcoin Ponzi Scheme',
+    slug: 'gabon-bmi-investissement-bitcoin-ponzi-scheme',
+    description: `On November 9, 2023, the Commission de Surveillance du Marché Financier de l'Afrique Centrale (COSUMAF), the financial market regulator for the six-nation CEMAC region including Gabon, issued a public alert against a Libreville-based outfit called BMI Investissement Gabon over an illegal public offering of cryptocurrency investments. Operating since 2022 and advertising mainly through Facebook, BMI Investissement solicited deposits from the public with promises of an 80% return on investment within a single hour, instructing investors to send funds via Airtel Money to a designated mobile number. Victims who transferred money and sent screenshots as proof of payment were initially in contact with representatives of the scheme, who then cut off communication once funds were collected, leaving investors with compromised mobile-money accounts and no return of their principal. COSUMAF stated that BMI Investissement Gabon did not appear on its list of entities authorized to offer digital-asset investment services to the public, declared its fundraising activity illegal, ordered the structure to cease the practice immediately, and referred the matter for judicial and administrative action. The regulator urged the public and investors to refrain from subscribing to BMI Investissement's offers pending the outcome of proceedings, and more broadly warned CEMAC residents to be wary of unlicensed platforms promising guaranteed short-term returns on cryptocurrency.`,
+    categorySlug: 'cryptocurrency-scams',
+    alertLevel: 'high',
+    sources: ["Commission de Surveillance du Marché Financier de l'Afrique Centrale (COSUMAF)", 'Gabonreview', 'Le Nouveau Gabon'],
+    sourceUrl: 'https://www.gabonreview.com/cryptomonnaie-la-cosumaf-alerte-sur-une-anarque-de-bmi-investissement-gabon/',
+    country: 'GA',
+  },
 );
 
 International.push(
