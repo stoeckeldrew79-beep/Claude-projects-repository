@@ -5846,3 +5846,15 @@ UsGM.push({
     country: 'US',
     state: 'MI',
 });
+
+UsGM.push({
+    name: 'Typhoon Sinlaku Storm-Related Scam Alert',
+    slug: 'guam-typhoon-sinlaku-storm-scam-alert',
+    description: `As Super Typhoon Sinlaku bore down on Guam in April 2026, the Mariana Regional Fusion Center (MRFC) — working through Guam Homeland Security/Office of Civil Defense's Joint Information Center — issued a public advisory warning that storm preparation and recovery periods are "prime times for criminal exploitation." The advisory flagged four scam patterns residents should expect as the storm approached and passed: price gouging on essential goods like fuel, water, batteries, and lumber, which becomes a crime the moment a State of Emergency is declared and prices are legally frozen; post-storm contractor fraud, in which unlicensed workers go door-to-door offering "fast-track" repairs or debris removal and demand cash upfront before finishing the job; government and utility impersonation, where scammers pose as FEMA, the Guam Power Authority (GPA), the Guam Waterworks Authority (GWA), or law enforcement to "inspect" storm-damaged property or demand a "service restoration fee," even though real government aid and damage inspections are always free; and robocalls or phishing texts inviting residents to click a link to "reserve your spot" for Typhoon Sinlaku relief, designed to steal personal data and multi-factor authentication codes. The MRFC also asked residents to report suspicious activity unconnected to a direct money demand — people using fake badges or unofficial vehicle placards to access restricted areas, unusual photography of power substations or water tanks, or attempts to enter "Authorized Personnel Only" zones at shelters — as potential precursors to theft or fraud rather than nuisances to ignore. Residents were urged to rely only on official channels — the National Weather Service, GHS/OCD, and Joint Region Marianas — for storm and recovery information rather than social media, and to report price gouging, suspicious contractors, or impersonators to the MRFC at (671) 475-0400 or mrfc@ghs.guam.gov.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Mariana Regional Fusion Center', 'Guam Homeland Security / Office of Civil Defense'],
+    sourceUrl: 'https://ghs.guam.gov/sites/default/files/jic_release_no._13_-_beware_of_scams_and_report_suspicious_activity.docx.pdf',
+    country: 'US',
+    state: 'GU',
+});
