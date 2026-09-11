@@ -12938,3 +12938,16 @@ International.push(
     country: 'GU',
   },
 );
+
+International.push(
+  {
+    name: 'Sint Maarten Fake Traffic Fine Text Message Scam',
+    slug: 'sint-maarten-fake-traffic-fine-text-message-scam',
+    description: `The Police Force of Sint Maarten (KPSM) issued a public alert on September 5, 2026, warning residents about a fraudulent text message circulating on the island that falsely claims to come from the Traffic Police over an unpaid traffic fine. The message links to a fake website built to impersonate the Public Prosecutor's Office (Openbaar Ministerie), and uses a false 48-hour payment deadline along with threats of additional penalties to pressure recipients into responding before they can stop and verify the claim. KPSM told the public directly: "Do not click on the link. Do not make any payment. Do not enter personal or banking information. Do not reply 'Ja' or otherwise respond to the message." The force recommended deleting the message immediately without engaging with it in any way — including not replying to opt out or dispute the fine, since any reply confirms the number is active and invites further targeting — and asked residents to share the warning with family, friends, and colleagues so fewer people fall for it. KPSM noted that genuine traffic fines in Sint Maarten are never collected by following a link in a text message, and anyone unsure whether a fine is real should contact the Traffic Police or the Public Prosecutor's Office directly using contact details they look up independently, rather than any number or link contained in the suspicious message itself.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Police Force of Sint Maarten (KPSM)', '721news.com'],
+    sourceUrl: 'https://www.721news.com/2026/09/kpsm-alert-fraudulent-traffic-fine-messages-circulating/',
+    country: 'SX',
+  },
+);
