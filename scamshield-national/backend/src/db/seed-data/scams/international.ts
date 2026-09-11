@@ -10790,6 +10790,21 @@ International.push(
 
 International.push(
   {
+    name: 'Togo Fake Crypto Seller "Exit and Reappear" Trading-Group Scam',
+    slug: 'togo-fake-crypto-seller-exit-reappear-trading-group-scam',
+    description: `On August 26, 2021, Togo's national police Bureau de Recherche et d'Investigation (BRI-DGPN) arrested 21 Nigerian nationals living across four houses in the Yokoè Agblégan neighborhood of Lomé, presenting them on August 31 as members of a Nigeria-based cybercriminal network specializing in cryptocurrency fraud. Investigators described a three-step method: members created fake profiles to infiltrate cryptocurrency and foreign-exchange buy-and-sell groups on social media (notably WhatsApp and Facebook), advertised digital currency for sale that they did not actually own, and then, once a victim sent payment through mobile money services such as Flooz or T-Money, immediately left the group and abandoned that identity before creating a new one to join a fresh group and repeat the scheme on new victims. Police said the network's recruiters and coordinators were based in Nigeria and trained and dispatched operatives to Togo and other countries across the West African sub-region, treating the region's active informal crypto-trading community as a rotating pool of targets. The case shows how the informal social-media groups many West Africans use to buy and sell cryptocurrency peer-to-peer have themselves become a hunting ground for organized fraud rings that exploit the trust built inside those communities and the difficulty of reversing a mobile money transfer once it is sent.`,
+    categorySlug: 'cryptocurrency-scams',
+    alertLevel: 'medium',
+    sources: ['Police Nationale Togolaise (BRI-DGPN)', 'KOACI', 'CIO Mag'],
+    sourceUrl: 'https://www.koaci.com/article/2021/08/31/togo/societe/togo-cyber-escroquerie-21-arrestations-et-mode-operatoire_153533.html',
+    country: 'TG',
+    isHistorical: true,
+    firstRecorded: '2021-08-26',
+  },
+);
+
+International.push(
+  {
     name: 'Royal Bengal Logistics Trucking Investment Ponzi Scheme',
     slug: 'haiti-royal-bengal-logistics-trucking-ponzi-scheme',
     description: `A federal jury in the Southern District of Florida convicted Sanjay Singh, owner of the Coral Springs trucking firm Royal Bengal Logistics, Inc., on November 6, 2024, of wire fraud, money laundering, and conspiracy after prosecutors and the SEC showed he had run an elaborate Ponzi scheme through the company between 2020 and 2023. Singh sold contracts that promised investors an ownership stake in specific freight trucks and extremely high, steady interest payments, telling them the fleet was generating roughly $1 million a month and was about to expand to 200 trucks; in reality the trucking operation lost money, and new investors' cash was used to pay "returns" to earlier ones. Federal investigators found the scheme drew heavily on the Haitian-American community and ultimately collected more than $150 million from roughly 2,000 investors before it collapsed, with Singh diverting millions for a home renovation, a luxury vehicle, personal stock trading, and transfers to family overseas. He was sentenced on May 30, 2025 to 23 years in federal prison, and on February 9, 2026 a federal judge entered a $51,199,671 restitution judgment against him in favor of victims — a fraction of what was actually lost. The case is a reminder that a written contract and a real company name are not proof an investment is legitimate, especially when the promised returns are unusually high and steady regardless of market conditions.`,
