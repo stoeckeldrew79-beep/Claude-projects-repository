@@ -6719,3 +6719,17 @@ UsAF.push({
     isHistorical: true,
     firstRecorded: '2024-12-11',
 });
+
+UsAF.push({
+    name: 'Gold Standard Moving Rebranded Broker Bait-and-Switch Scheme',
+    slug: 'florida-gold-standard-moving-rebranded-broker-scheme',
+    description: `Florida Attorney General Ashley Moody's office filed a lawsuit in Broward County on December 8, 2022 against Charles Gordon Abrams, Daniel J. Metz, and Rudolph Logan Rice, along with a web of moving-brokerage businesses the three operated as a single common enterprise under a rotating cast of names — including Gold Standard Moving and Storage, Executive Van Lines, Imperial Moving Group, National American Van Lines, Razor Van Lines, Simple Path Moving, Spartan Moving and Storage, United American Moving, and US Pro Moving and Logistics — alleging the group defrauded more than 400 Floridians. According to the complaint, the companies advertised professional, in-house moving crews and locked customers into a specific price before the move, but then handed the actual job off to unvetted third-party movers who often showed up in unmarked or rental trucks and pressured customers to accept a higher price on the spot, on moving day, once their belongings were already packed and effectively held hostage to the new terms. Customers who complained were told a refund was coming and then never received one, and the operation's habit of retiring one brand name whenever bad reviews and complaints piled up — only to relaunch nearly identical services under a fresh name — let it keep taking new customers who had no way to find its actual track record before booking. "Floridians deserve honest business practices, especially during the stressful process of relocating," Moody's office said in announcing the suit, which alleged violations of Florida's Deceptive and Unfair Trade Practices Act and sought restitution, civil penalties, and an injunction shutting the operation down. Anyone hiring a mover should look up the company's actual USDOT and MC registration numbers in the Federal Motor Carrier Safety Administration's SAFER database rather than trusting a name alone, check whether the same address, phone number, or owners turn up under a different company name with its own separate complaint history, get the full price in writing before moving day, and treat any demand for more money once a truck is already loaded as a red flag to refuse and report rather than pay.`,
+    categorySlug: 'home-improvement-solar',
+    alertLevel: 'medium',
+    sources: ["Florida Attorney General's Office (Ashley Moody)", 'WFTV'],
+    sourceUrl: 'https://www.myfloridalegal.com/newsrelease/ag-moody-acts-stop-massive-moving-scam',
+    country: 'US',
+    state: 'FL',
+    isHistorical: true,
+    firstRecorded: '2022-12-08',
+});
