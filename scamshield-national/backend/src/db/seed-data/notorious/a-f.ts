@@ -7742,6 +7742,10 @@ NotoriousAF.push(
     slug: 'betty-vinson-worldcom-accounting-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    // representative photo — replace with an exact match if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/JacksonMS_Downtown_Panorama.jpg?width=1200',
+    coverImageCredit: 'Photo: Christopher Meredith (CC BY 2.0) — Jackson, Mississippi, near Clinton, where WorldCom was headquartered',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-19776',
     body: `Betty Vinson spent nearly two decades as an accountant at WorldCom, rising to director of management reporting, before she became one of the central figures in the roughly $11 billion accounting fraud that sank the telecommunications giant into the largest corporate bankruptcy in U.S. history at the time. Unlike WorldCom's top executives, Vinson wasn't accused of designing the scheme — prosecutors and the SEC said she carried it out at the direction of others, reclassifying billions of dollars in ordinary operating expenses as capital expenditures so the company's reported earnings would keep matching the numbers Wall Street expected, even as WorldCom's real business slowed.
 
