@@ -7362,3 +7362,20 @@ The money that didn't go toward the underlying business went toward the lifestyl
 Ethical Forestry is a reminder that an environmentally-framed pitch carries its own kind of persuasive cover: a scheme that sounds like it's doing good in the world can make investors, and the friends and family they might otherwise ask for a second opinion, less inclined to scrutinize the financial mechanics underneath it. Real trees in the ground don't establish that a fund has set aside the money needed to maintain and eventually harvest them, and a pension transfer solicited by an unsolicited cold call — however well-intentioned the stated cause — is exactly the kind of decision that benefits most from being checked against a regulator's warnings before, not after, the money moves.`,
   },
 );
+
+NotoriousAF.push(
+  {
+    title: 'Chris Marco: The Perth "Private Placement" Fraud That Drew Australia\'s Longest ASIC-Linked Sentence',
+    slug: 'chris-marco-ams-holdings-perth-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2025-releases/25-255mr-perth-fraudster-chris-marco-sentenced-to-14-years-imprisonment/',
+    body: `Chris Marco ran an unregistered investment scheme out of Perth, Western Australia, through a company called AMS Holdings (WA) Pty Ltd, telling investors their money would go into "private placement programs" — a phrase used across the world by fraudsters to describe a supposedly exclusive, high-yield trading opportunity unavailable to ordinary retail investors. Between July 2013 and October 2018, according to the Australian Securities and Investments Commission (ASIC), Marco took in more than $34 million from people who trusted that characterization.
+
+There were no private placement programs. ASIC's investigation found that the payments Marco made back to investors, the ones that made the arrangement look like a genuinely performing investment, were simply their own money or money taken from other investors being returned to them — a straightforward Ponzi structure dressed in the vocabulary of institutional finance. Marco built relationships with his investors over extended periods before ever asking them to hand money over, a pattern investigators described as deliberate, patient trust-building rather than a rushed pitch.
+
+Marco was first charged in July 2022 with 50 counts of fraud under Western Australia's Criminal Code, following a four-year ASIC investigation. On September 4, 2025, a jury in the Supreme Court of Western Australia found him guilty on 43 counts relating to six investors and the $34,332,453 figure. Justice Whitby sentenced Marco to 14 years in prison, with parole eligibility not available until 2037 — the longest sentence an Australian court has handed down in a case stemming from an ASIC investigation. "This sentence reflects the seriousness of Mr Marco's fraud and the impact it had on investors," ASIC Deputy Chair Sarah Court said following the sentencing. Marco filed an appeal in November 2025.
+
+The AMS Holdings case illustrates a distinction that matters for anyone evaluating an unfamiliar investment opportunity: a scheme built slowly, through personal relationships and patience rather than high-pressure tactics, isn't inherently safer than one that pushes for an immediate decision — it's often just a more effective version of the same fraud, because the trust built over months or years is precisely what makes a victim less likely to ask the basic verification question that would have exposed it, namely whether the "private placement program" and the operator's registration to run it actually exist.`,
+  },
+);
