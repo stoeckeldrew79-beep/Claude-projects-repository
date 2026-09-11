@@ -13364,3 +13364,17 @@ International.push(
     country: 'BJ',
   },
 );
+
+International.push(
+  {
+    name: 'Fake France Travel Mission Offer Scam',
+    slug: 'benin-fake-france-travel-mission-offer-scam',
+    description: `Benin's Office Central de Répression de la Cybercriminalité (OCRC) arrested a 28-year-old rapper with numerous Facebook accounts in early July 2021 after tracing a long-running string of complaints to his home in Porto-Novo, where officers found him in possession of several mobile phones and SIM cards registered under false names — despite police having already blocked several of those numbers as far back as January 2021. Operating under a rotating cast of stolen identities, including the mayor of Bohicon and other Beninese mayors, a director general of the Police Républicaine, a police inspector, and a member of the presidential security detail, the suspect spent months contacting Beninese Facebook users with offers to travel to France on missions tied to supposed municipal decentralized-cooperation programs. Once a target showed interest, he moved the conversation to WhatsApp, asked for a scanned passport copy, and directed payment to a phone number for a self-described immigration police inspector to cover "dossier" fees — then, once that first payment went through, followed up with further requests, such as covering COVID-19 testing costs, before cutting contact; one victim alone reported sending him more than 200,000 CFA francs, and those who refused to pay further said the suspect turned to insults. Internet users who spotted the scheme without falling for it had already flagged it on social media in April 2021, and OCRC investigators eventually matched multiple victim complaints to identify and arrest him. At least twenty declared victims lost a combined total in the millions of CFA francs. He was presented to the prosecutor at the Cour de Répression des Infractions Économiques et du Terrorisme (CRIET), placed under a pretrial detention warrant, and held at Akpro-Missérété civil prison pending trial on digital- and penal-code offenses carrying up to seven years in prison. The OCRC noted it refers cyber-scammers of this kind to prosecutors every month and urged internet users to independently verify the real existence of anyone offering an online travel, job, or "mission" opportunity — through the free hotline 166 if needed — before ever sending money or identity documents.`,
+    categorySlug: 'travel-vacation-scams',
+    sources: ['Office Central de Répression de la Cybercriminalité (OCRC - Bénin)', 'SRTB'],
+    sourceUrl: 'https://srtb.bj/arnaque-en-ligne-au-benin-un-auteur-de-fausses-offres-de-voyage-sur-la-france-arrete/',
+    country: 'BJ',
+    isHistorical: true,
+    firstRecorded: '2021-07-01',
+  },
+);
