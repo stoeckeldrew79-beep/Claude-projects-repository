@@ -7357,3 +7357,15 @@ UsAF.push({
     country: 'US',
     state: 'FL',
 });
+
+UsAF.push({
+    name: 'California DRE Employee Impersonation Extortion Scam',
+    slug: 'california-dre-employee-impersonation-extortion-scam',
+    description: `The California Department of Real Estate issued a consumer alert on June 23, 2026 warning that scammers are calling both consumers and licensed real estate agents while falsely claiming to be DRE employees — a distinct scheme from agents having their name and photo stolen for fake listings, since here the callers impersonate the regulator itself. Posing as DRE staff, callers tell consumers in the middle of a home purchase or sale that the department is "attempting to resolve a commission dispute" on their transaction, or tell licensees that "pending disciplinary action" threatens their license, then rush the target with manufactured urgency, sometimes pushing the conversation to text messages, before demanding an advance fee paid by wire transfer or cash to make the supposed problem go away. The DRE states plainly that its initial contact on any real matter comes only by letter on DRE letterhead, never by an unsolicited phone call or text demanding money, and that any request for a wire transfer, cash payment, or advance fee tied to a "dispute" or "disciplinary" claim is a reliable sign of fraud. Anyone who receives a call like this is advised not to feel pressured into a quick decision, to verify independently by contacting the DRE directly through its own published contact information rather than a number the caller provides, and to confirm any concern about an actual transaction with their real estate agent before sending money.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['California Department of Real Estate (DRE)'],
+    sourceUrl: 'https://dre.ca.gov/Consumers/ConsumerAlerts/ConsumerAlert_2026_06_23_Phone_Scams_Targeting_Consumers_and_Licensees.html',
+    country: 'US',
+    state: 'CA',
+});
