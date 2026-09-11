@@ -6497,6 +6497,9 @@ NotoriousGM.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://coag.gov/press-releases/colorado-contractor-sentenced-fraud-environmental-crimes/',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Ralph_L._Carr_Colorado_Judicial_Center,_SW_corner.jpg?width=1200',
+    coverImageCredit: 'Xnatedawgx / Wikimedia Commons (CC BY-SA 4.0) — Ralph L. Carr Colorado Judicial Center, Denver, home of the Colorado Attorney General\'s office',
     body: `An 82-year-old Colorado woman owned a rental property in Arvada that had been damaged by fire, and she needed someone to handle the fire restoration and asbestos abatement work required before it could be lived in again. She hired Lance Slayton, paying him more than $70,000 to get the job done safely and legally. According to the Colorado Attorney General's office, Slayton did neither.
 
 Instead of licensed asbestos-abatement crews, prosecutors say Slayton put unlicensed laborers on the job, mishandled asbestos-containing hazardous material in the process, and never finished the work — leaving the elderly woman's property contaminated and unsafe, with the carcinogenic material improperly disturbed and workers and nearby residents put at risk of exposure. He had taken the money for the job without ever intending, or being able, to deliver it.
