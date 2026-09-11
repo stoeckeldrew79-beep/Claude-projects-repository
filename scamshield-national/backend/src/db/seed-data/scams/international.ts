@@ -12860,3 +12860,16 @@ International.push(
     country: 'AW',
   },
 );
+
+International.push(
+  {
+    name: 'Curaçao Fake Census Bureau Door-to-Door Impersonation Scam',
+    slug: 'curacao-fake-cbs-door-to-door-surveyor-scam',
+    description: `The Central Bureau of Statistics of Curaçao (Centraal Bureau voor de Statistiek, CBS) issued a public warning on March 16, 2026 after receiving reports of individuals going door-to-door on the island and falsely claiming to represent the bureau while conducting what they described as an official census or household survey. CBS said it currently has no door-to-door household survey underway or scheduled, making any such visit inherently suspect, and stressed that genuine CBS fieldwork is never a surprise: real surveys are always preceded by an official introduction letter explaining in advance which neighborhoods will be visited, over what period, and for what purpose, giving residents a way to confirm legitimacy before anyone knocks. The bureau warned that residents who let an impostor "surveyor" into their home or answer their questions risk handing over personal, household, or financial details to someone with no real connection to the government, and it published concrete steps for telling a genuine CBS employee from a fraudster: authentic staff carry an official identification badge displaying their name, the CBS logo, a photograph, the director's signature, and a QR code, and residents are entitled to ask for and closely inspect that badge before answering a single question or letting anyone inside. CBS urged anyone who is approached by a person claiming to work for the bureau, or who has doubts about a badge or a visit, to stop before answering and verify the visit directly with CBS by calling 724-1802 or messaging the bureau's WhatsApp line at 520-2227 rather than taking the visitor's word for it.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Central Bureau of Statistics, Curaçao (CBS)', 'Curaçao Chronicle'],
+    sourceUrl: 'https://www.curacaochronicle.com/post/unknown/cbs-warns-public-about-reports-of-fake-surveyors-going-door-to-door',
+    country: 'CW',
+  },
+);
