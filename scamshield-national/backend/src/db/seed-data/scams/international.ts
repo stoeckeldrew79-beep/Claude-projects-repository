@@ -13085,3 +13085,16 @@ International.push(
     country: 'MS',
   },
 );
+
+International.push(
+  {
+    name: 'Cocoro Hotel and Beluu Sea View Resort Online Scam Compounds (Koror)',
+    slug: 'palau-cocoro-beluu-hotel-scam-compounds-prince-group',
+    description: `In early January 2025, Palau's National Security Coordination Office (NSCO), Bureau of Immigration, and Bureau of Public Safety raided two Koror hotels, the Cocoro Hotel and the Beluu Sea View Resort, and found sophisticated online scam operations running so-called "pig-butchering" schemes that lure victims into fake online relationships, gambling sites, or investment come-ons before draining their money through rigged cryptocurrency platforms. Investigators detained roughly two dozen foreign nationals from China, Vietnam, and Malaysia who worked under Chinese-language nicknames such as "Shark" and "Little Hero," ran scripted Chinese-language pitches aimed largely at gambling and investment victims overseas, and — according to Palau's Ministry of Finance chief information security officer, Jay Hunter Anson — had been shielded by "insider access and protection" from prominent local figures. One of the two operations, based at the Cocoro Hotel, was generating at least $200,000 a month funneled offshore through the Tron cryptocurrency network and had reportedly run undetected for roughly two and a half years; local sponsors whose companies held the visas of the detained workers included Cocoro Hotel owner Vance Polycarp, a former board member of Palau's banking regulator, and former Palau vice president Elias Camsek Chin, who denied any knowing involvement. Because Palau, in Anson's words, still has "zero cybercrime laws or regulations," at least 12 of the detained workers could not be prosecuted locally and were instead deported. The case reached further in October 2025, when the U.S. Treasury's Office of Foreign Assets Control, acting jointly with the United Kingdom, sanctioned Palau-based hotelier Wang Guodan (also known as Rose Wang) along with two of her companies, Jing Pin Inc. and Aqua Pure Water Inc., for acting as a "transnational organized crime facilitator" who handled local administrative affairs for the Cambodia-based Prince Group and helped it obtain a lease on Palau's Ngerbelas Island — the same criminal network whose founder, Chen Zhi, was separately indicted by U.S. federal prosecutors for running forced-labor scam compounds across Southeast Asia. Consumer advocates note the case shows how a scam's real operators, and the country it is physically run from, are often invisible to the victim on the other end of a chat; anyone approached online about a "guaranteed" cryptocurrency or gambling opportunity by a new romantic or business contact should assume the platform may be run out of a trafficking-linked compound rather than a legitimate company, regardless of how polished it looks.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'critical',
+    sources: ['OCCRP (Organized Crime and Corruption Reporting Project)', 'Island Times', 'U.S. Department of the Treasury (OFAC)'],
+    sourceUrl: 'https://www.occrp.org/en/investigation/foreign-workers-local-sponsors-inside-palaus-hotel-scam-centers',
+    country: 'PW',
+  },
+);
