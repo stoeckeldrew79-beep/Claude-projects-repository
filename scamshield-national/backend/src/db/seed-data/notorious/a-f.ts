@@ -7410,3 +7410,20 @@ Quebec's own prosecution ran on a separate, slower track. The AMF charged Lacroi
 PlexCoin is a useful marker in the history of crypto fraud precisely because of how little separated it from an ordinary Ponzi pitch: the technology was new, but the promise — guaranteed, wildly outsized returns in an absurdly short window, from a token nobody outside the promoters could meaningfully evaluate — was the same one securities regulators have been chasing for a century. It became the first case regulators pointed to as proof that "it's on the blockchain" describes a technology, not a guarantee, and that an unregistered offering promising four-figure percentage returns in under a month is a securities violation whether it's sold on paper or through a website.`,
   },
 );
+
+NotoriousAF.push(
+  {
+    title: 'Denny Hecker: The Twin Cities Auto Mogul Who Hid a Fortune in Bankruptcy Court',
+    slug: 'denny-hecker-bankruptcy-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.fbi.gov/minneapolis/press-releases/2011/mp021111.htm',
+    body: `For years, Denny Hecker was one of the most recognizable businessmen in the Twin Cities — the face on the billboards for a sprawling group of roughly 26 car dealerships and a large vehicle-leasing operation, Rosedale Leasing Co., that together made him one of Minnesota's most prominent auto retailers. Behind the public image, Hecker had built his empire on debt, borrowing aggressively from Chrysler Financial and other lenders to keep expanding. When the 2008 financial crisis hit auto sales and credit dried up, that debt came due all at once, and the empire began to collapse.
+
+Hecker filed for personal bankruptcy in June 2009, listing debts of roughly $767 million against only about $18.5 million in assets — one of the largest personal bankruptcies in Minnesota history. Federal investigators and bankruptcy trustees soon concluded the gap wasn't just bad luck. Prosecutors said Hecker spent the run-up to his bankruptcy filing hiding assets and income from creditors and the court: funneling money through associates, creating a shell company to buy back his own belongings after they were auctioned off, and concealing insurance proceeds rather than disclosing them as required. Rather than scaling back, prosecutors said, he worked to keep a lavish lifestyle intact while telling the court and his creditors he had almost nothing left.
+
+The case dragged on for roughly two years as investigators kept uncovering new instances of concealment — "we were never done," one assistant U.S. attorney said afterward. "We just kept having to investigate him, over and over." Hecker eventually pleaded guilty to one count of conspiracy to commit wire fraud and one count of bankruptcy fraud. Under an initial plea agreement, prosecutors had been prepared to recommend a reduced sentence in exchange for his continued cooperation and truthful conduct, but Hecker's own actions after the plea — further dishonesty and additional misconduct — led prosecutors to conclude he hadn't held up his end of the bargain.
+
+On February 11, 2011, a federal judge in Minneapolis sentenced Hecker to 10 years in prison, the maximum available under his plea agreement, and ordered him to pay roughly $31 million in restitution, primarily to the auto-financing companies he had defrauded. The sentencing judge cited Hecker's pattern of lying to and concealing assets from the court as justifying the harshest sentence on the table. Hecker's rapid fall from local celebrity — car-dealership empire, high-profile divorce, tabloid-covered relationship with a Minneapolis TV meteorologist — to federal inmate made his case one of the most closely watched white-collar prosecutions in Minnesota history, and a frequently cited example of how bankruptcy fraud, unlike an investment Ponzi scheme, victimizes the very legal process meant to give a failed businessman a fair, honest fresh start.`,
+  },
+);
