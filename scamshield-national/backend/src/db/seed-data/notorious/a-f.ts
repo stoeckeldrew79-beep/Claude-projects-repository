@@ -6124,6 +6124,10 @@ NotoriousAF.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/archives/opa/pr/ceo-multibillion-dollar-software-company-indicted-decades-long-tax-evasion-and-wire-fraud',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Downtown_Houston_Skyline_Night.JPG?width=1200',
+    coverImageCredit: 'Photo: Bobby L. Warren, Wikimedia Commons (CC BY-SA 3.0) — Houston, where Robert Brockman lived and ran Reynolds and Reynolds',
+    coverImagePosition: 50,
     body: `Robert T. Brockman spent decades as the low-profile chairman and CEO of Reynolds and Reynolds, an Ohio-based company that sold software to car dealerships across the country — an unglamorous, workaday business that quietly made Brockman a private-jet-owning billionaire few outside the auto industry had ever heard of. That obscurity ended in October 2020, when federal prosecutors unveiled what they called the largest tax charge ever brought against an individual American: a decades-long scheme to hide roughly $2 billion in income from the IRS.
 
 According to the 39-count indictment returned by a federal grand jury in San Francisco, Brockman spent nearly two decades, from 2000 to 2018, concealing capital gains he earned through investments in private equity funds run by Vista Equity Partners behind a web of offshore entities registered in Bermuda and Nevis, then routing the untaxed proceeds into secret bank accounts in Bermuda and Switzerland. Prosecutors said he communicated with the associates who ran those offshore entities through a proprietary encrypted email system, using angling-themed code names — referring to himself as "Permit" — and that he directed evidence to be altered or destroyed once he suspected investigators were closing in. A separate set of charges in the same indictment accused him of a scheme, between 2008 and 2010, to manipulate roughly $67.8 million of Reynolds and Reynolds' own debt securities to conceal the company's declining financial performance from the investors holding that debt.
