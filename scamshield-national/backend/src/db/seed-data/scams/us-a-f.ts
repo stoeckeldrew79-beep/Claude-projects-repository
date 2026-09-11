@@ -6687,3 +6687,15 @@ UsAF.push({
     country: 'US',
     state: 'AK',
 });
+
+UsAF.push({
+    name: 'Montgomery "Jimmy" Bulger Elder Exploitation Fake-Investment Scheme',
+    slug: 'alabama-bulger-montgomery-elder-exploitation-investment-fraud',
+    description: `A Montgomery County, Alabama jury convicted James "Jimmy" Bulger on June 20, 2025 of stealing $8.4 million from an elderly victim over more than two years by posing as someone managing the man's money in profitable investments. According to Alabama Attorney General Steve Marshall's Special Prosecutions Division, which brought the case with help from the Alabama Home Builders Licensure Board, Bulger never actually invested the victim's money at all — he simply returned portions of the victim's own funds back to him, dressed up as investment "profits," to keep the elderly man believing the arrangement was real and convince him to hand over ever larger sums. Bulger spent the stolen money on luxury vehicles, designer goods, and the construction of an 8,000-square-foot mansion, and after he was indicted, prosecutors say he tried to get the victim to drop the case by offering him $1 million. The jury found him guilty of first-degree theft by deception, aggravated theft by deception, and first-degree financial exploitation of the elderly, each carrying two to twenty years in prison. "This wasn't a lapse in judgment, it was a calculated, predatory scheme," Attorney General Marshall said in announcing the conviction, which followed a six-day trial. Bulger's tactic — periodically paying a victim "returns" that are really just the victim's own money recycled back to them — is the same trick that makes classic Ponzi schemes feel credible even to a single target, and Alabamians managing money for an aging parent or relative should ask to see actual account statements from the outside brokerage or investment firm involved, not just a running tally or occasional check from the person managing the money, before believing an investment is real.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'high',
+    sources: ["Alabama Attorney General's Office"],
+    sourceUrl: 'https://www.alabamaag.gov/attorney-general-steve-marshall-announces-conviction-of-james-jimmy-bulger-for-8-4-million-theft-in-elder-exploitation-scheme/',
+    country: 'US',
+    state: 'AL',
+});
