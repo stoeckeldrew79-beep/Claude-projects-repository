@@ -6533,6 +6533,10 @@ NotoriousAF.push(
     slug: 'arsalan-rawjani-trade-with-ayasa-ponzi-scheme',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Earl_Cabell_Federal_Building,_cropped.jpg?width=1200',
+    coverImageCredit: 'Rapidfire, CC BY-SA 3.0, via Wikimedia Commons',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26391',
     // civil SEC case, no rights-cleared photo identified — sourceUrl serves as the "read the full story" link
     body: `Note: this case is a civil enforcement action. The Securities and Exchange Commission's complaint describes allegations only — Arsalan Rawjani has not been criminally charged, and neither he nor Trade with Ayasa has been found liable by a court as of this writing.
