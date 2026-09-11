@@ -5774,3 +5774,17 @@ UsGM.push({
     isHistorical: true,
     firstRecorded: '2024-05-01',
 });
+
+UsGM.push({
+    name: 'Chapman Forged-Will Estate Fraud',
+    slug: 'hawaii-chapman-forged-will-estate-fraud',
+    description: `Robert Earl Chapman, a disbarred Honolulu attorney who once specialized in estate planning and probate, is accused of using a forged will and codicil to steal roughly $750,000 that a deceased client's estate was supposed to pay out to three charities — Make-A-Wish Foundation, Elderhostel Inc., and the Portland State University Alumni Association — after opening a probate case in 2018 for a man who had actually died two years earlier. A Hawaii grand jury indicted Chapman, 75, in June 2025 on 22 felony counts, including eight counts of first-degree forgery, four counts of first-degree identity theft, seven counts of first-degree theft, and unauthorized possession of confidential personal information; that case is set for trial the week of October 26, 2026. Chapman had already been disbarred in January 2023 after resigning from the Hawaii State Bar Association over an unrelated incident in which he was found to have pasted a client's cut-and-pasted signature onto a power of attorney in an attempt to claim more than $2 million in abandoned property. The Hawaii Department of the Attorney General filed a second, separate estate-fraud case against Chapman in 2026, alleging he used another set of forged documents to unlawfully take approximately $40,000 from a different deceased person's estate; he was charged with first-degree theft and second-degree forgery and pleaded not guilty, with that trial scheduled for August 2026. Families and charities named as beneficiaries in a loved one's estate should request a certified copy of the actual filed will from the probate court directly rather than relying on a copy provided by the estate's attorney, and should promptly follow up if a promised distribution is delayed for months without a clear, court-documented explanation — an estate planning attorney's own credentials and license status can be verified through the Hawaii State Bar Association before trusting them with a family member's affairs.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'high',
+    sources: ['Hawaii Department of the Attorney General', 'Honolulu Civil Beat', 'Honolulu Star-Advertiser'],
+    sourceUrl: 'https://governor.hawaii.gov/newsroom/2026-33-department-of-the-attorney-general-charges-robert-chapman-in-second-estate-fraud-case/',
+    country: 'US',
+    state: 'HI',
+    isHistorical: true,
+    firstRecorded: '2018-01-01',
+});
