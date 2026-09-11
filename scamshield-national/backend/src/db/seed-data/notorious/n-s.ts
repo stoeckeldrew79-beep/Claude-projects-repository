@@ -5651,3 +5651,20 @@ Good's case is part of a recurring pattern in advisor fraud: the institution's n
     sourceUrl: 'https://www.justice.gov/usao-ednc/pr/former-morgan-stanley-financial-advisor-sentenced-over-7-years-prison-executing',
   },
 );
+
+NotoriousNS.push(
+  {
+    title: "Paul Ricky Mata and the Ameriprise Advisor Real Estate Retirement Fraud",
+    slug: 'paul-mata-ameriprise-advisor-real-estate-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    body: `Paul Ricky Mata spent more than 20 years affiliated with Ameriprise Financial before that relationship ended in 2009 — a fact he did not volunteer to the clients he kept taking on afterward. Operating through entities including Secured Capital and Logos Real Estate, Mata solicited investors, many of them church acquaintances and retirees, into what he described as government-backed tax liens and real estate deals promising annual returns of 5 to 10 percent.
+
+None of it held up to scrutiny. From August 2008 to September 2015, according to federal prosecutors, Mata concealed a disciplinary record that would have given any of his victims reason to walk away: regulatory actions by both Nevada and California securities regulators, a one-year suspension and $10,000 fine from FINRA, and a three-year suspension from the Certified Financial Planner Board for omitting material facts from client disclosures. Rather than investing client money as promised, prosecutors said, Mata diverted large sums to himself — including a $197,000 down payment on his own home and $370,000 moved directly into his personal accounts — while the retirement savings his victims had entrusted to him disappeared.
+
+Mata, then 58, of Upland and later Oceanside, California, pleaded guilty on July 19, 2021, to 17 felony counts: 11 counts of mail fraud, three counts of wire fraud, and three counts tied to a bankruptcy proceeding — making a false statement, concealing assets, and a false oath and accounts. On December 13, 2021, U.S. District Judge R. Gary Klausner sentenced him in the Central District of California to 168 months — 14 years — in federal prison, and ordered him to pay $12,560,385 in restitution, matching the total losses prosecutors attributed to the scheme.
+
+Mata's case is a reminder that a disciplinary record — a state suspension, a FINRA fine, a professional board sanction — is a matter of public record precisely so that a prospective client can check it before handing someone their retirement savings, and that a financial professional's total silence about that history is itself a warning sign worth treating as seriously as any promised rate of return.`,
+    sourceUrl: 'https://www.justice.gov/usao-cdca/pr/former-financial-advisor-sentenced-14-years-federal-prison-12-million-fraud-caused',
+  },
+);
