@@ -5139,3 +5139,17 @@ UsNS.push({
     isHistorical: true,
     firstRecorded: '2026-09-02',
 });
+
+UsNS.push({
+    name: 'Irvington-Roselle Park USPS Arrow-Key Check-Washing Scheme',
+    slug: 'new-jersey-irvington-roselle-park-check-washing-scheme',
+    description: `Leslie Blackwood, 25, of Irvington, and Verly Antenor, 24, of Roselle Park, New Jersey, used stolen USPS "arrow keys" — universal master keys capable of opening blue mail collection boxes across an entire ZIP code — to raid mailboxes in Livingston and Clifton, New Jersey between 2021 and 2022, targeting envelopes containing checks. According to federal prosecutors, the pair and unnamed accomplices then "washed" the stolen checks, chemically stripping out the original payee name and dollar amount and rewriting both before depositing the altered checks into bank accounts they controlled, a scheme that caused financial institutions a combined $670,313.46 in losses. Investigators found the conspirators referred to stolen checks in coded messages as "food," "grub," or "slips," and called the act of raiding a mailbox "fishing." Antenor pleaded guilty to conspiracy to steal mail before U.S. District Judge Esther Salas on July 16, 2026, and Blackwood entered the same plea on September 9, 2026; Antenor's sentencing is scheduled for December 17, 2026 and Blackwood's for February 16, 2027, with the mail-theft conspiracy charge carrying a maximum of five years in prison and a $250,000 fine. The scheme is part of a broader wave of arrow-key mail theft that has hit collection boxes across New Jersey and neighboring states in recent years. Residents can reduce their exposure by depositing outgoing checks directly inside a post office rather than a blue collection box, using a gel pen (harder to chemically wash) when writing one, enrolling in free Informed Delivery through USPS.com to spot mail that never arrives, and switching to electronic bill pay wherever the payee allows it so a paper check carrying a bank account number is never in a mailbox at all.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office, District of New Jersey"],
+    sourceUrl: 'https://www.justice.gov/usao-nj/pr/two-men-plead-guilty-stealing-checks-mail-livingston-and-clifton',
+    country: 'US',
+    state: 'NJ',
+    isHistorical: true,
+    firstRecorded: '2026-07-16',
+});
