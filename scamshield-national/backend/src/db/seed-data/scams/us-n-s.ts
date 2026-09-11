@@ -5719,3 +5719,17 @@ UsNS.push({
     isHistorical: true,
     firstRecorded: '2026-03-05',
 });
+
+UsNS.push({
+    name: 'ComfortZone Home Health Care Medicaid Kickback Scheme (Stephanie Mobley)',
+    slug: 'pennsylvania-comfortzone-mobley-medicaid-kickback-scheme',
+    description: `Stephanie Mobley, 54, of King of Prussia, owned ComfortZone Home Health Care, LLC, a Montgomery County home-care agency, and between 2020 and 2023 ran it as a $1.76 million Medicaid fraud operation, according to the Pennsylvania Office of Attorney General. Mobley approved kickback arrangements with referral sources, assigned phantom caregivers who never actually showed up to provide the in-home personal-care services Medicaid was billed for, and recruited some of her own clients to participate in the scheme, then submitted reimbursement claims for care that was never delivered. A two-year joint investigation by the Attorney General's Medicaid Fraud Control Section and the FBI ultimately implicated 20 defendants tied to the scheme, all but one of whom pleaded guilty. Mobley pleaded guilty to Medicaid fraud and theft by deception and was sentenced in August 2026 to 17 months to 10 years in state prison, along with an order to repay the full $1.76 million in restitution. "Those who exploit Medicaid programs as a means to fulfill personal greed will be held accountable," said Senior Deputy Attorney General Benjamin McKenna, who prosecuted the case. Families relying on Medicaid-funded home care are advised to keep their own log of which caregiver actually visited and when, compare it against any statement or explanation of benefits they receive, and report a mismatch — including a caregiver who is billed as visiting but never appears — to the state's Medicaid Fraud Control Section.`,
+    categorySlug: 'medicare-health-plans',
+    alertLevel: 'high',
+    sources: ['Pennsylvania Office of Attorney General', 'FBI'],
+    sourceUrl: 'https://www.attorneygeneral.gov/taking-action/former-owner-of-montgomery-county-based-home-care-agency-jailed-for-multi-million-dollar-medicaid-fraud-scheme/',
+    country: 'US',
+    state: 'PA',
+    isHistorical: true,
+    firstRecorded: '2026-08-20',
+});
