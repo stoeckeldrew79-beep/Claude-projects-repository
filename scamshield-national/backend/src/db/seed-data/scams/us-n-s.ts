@@ -5374,3 +5374,15 @@ UsNS.push({
     isHistorical: true,
     firstRecorded: '2011-12-01',
 });
+
+UsNS.push({
+    name: 'Adrian Lawrence Publishers Clearing House Sweepstakes Fraud',
+    slug: 'new-york-adrian-lawrence-publishers-clearing-house-sweepstakes-fraud',
+    description: `Adrian Lawrence, a Jamaican national who went by the alias "Mastermind," ran a years-long sweepstakes fraud scheme with co-conspirators that falsely told elderly victims they had won the real Publishers Clearing House sweepstakes, then told them they first had to send money to cover supposed taxes and processing fees before the prize could be released. Operating between October 2013 and April 2020, Lawrence and his associates collected more than $5.6 million from at least 50 victims whose average age was approximately 82, repeatedly calling back with new fees once a victim had already paid to keep the payments coming. The U.S. Attorney's Office for the Eastern District of New York extradited Lawrence from Jamaica to face a six-count indictment, and he pleaded guilty in December 2023 to conspiracy to commit wire and mail fraud; U.S. District Judge Joan M. Azrack sentenced him in a Central Islip, Long Island courtroom in July 2026 to 66 months in federal prison and ordered him to pay $5.4 million in restitution. The case is one of a string of extradited "Publishers Clearing House" sweepstakes prosecutions the Eastern District of New York and other U.S. Attorney's offices have brought against Jamaica-based fraud rings that specifically target elderly Americans by phone. The real Publishers Clearing House, like any legitimate sweepstakes, never requires a winner to pay any tax, fee, or "insurance" charge before releasing a prize and never calls in advance of an in-person prize patrol to announce a win — anyone who receives such a call should hang up immediately and, if an older relative mentions one, help them verify directly with PCH's own published customer service number before any money is sent.`,
+    categorySlug: 'lottery-sweepstakes-scams',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office, Eastern District of New York"],
+    sourceUrl: 'https://www.justice.gov/usao-edny/pr/jamaican-national-sentenced-66-months-prison-multi-million-dollar-sweepstakes-fraud',
+    country: 'US',
+    state: 'NY',
+});
