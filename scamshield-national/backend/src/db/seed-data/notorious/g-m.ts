@@ -7666,6 +7666,10 @@ NotoriousGM.push(
     title: 'Marc Harris and the Panama Offshore Empire That Was Rotten From the Start',
     slug: 'marc-harris-panama-offshore-fraud',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Panama_City_financial_district.jpg?width=1200',
+    coverImageCredit: 'Photo: Dronepicr (CC BY 3.0) — Panama City\'s financial district, where the Harris Organisation was based',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
     sourceUrl: 'https://en.wikipedia.org/wiki/Marc_Harris',
     body: `Marc Harris was an American-trained certified public accountant who moved to Panama in 1989 and built a group of companies known as the Harris Organisation into a full-service offshore empire, selling wealthy clients second passports, offshore trusts, shell companies, and "asset protection" structures out of a network of entities incorporated in the British Virgin Islands. By 1998, Harris was telling clients and reporters his organization managed roughly $1 billion in assets, resting on a base of only about $35 million in his own companies' actual capital — a gap that, on its own, should have raised questions about how much of that "assets under management" figure he genuinely controlled versus simply held on paper.
