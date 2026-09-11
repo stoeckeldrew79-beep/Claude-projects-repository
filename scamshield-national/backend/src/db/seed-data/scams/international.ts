@@ -14944,3 +14944,16 @@ International.push(
     country: 'CI',
   },
 );
+
+International.push(
+  {
+    name: 'Fake BEAC 100 Billion FCFA Project Financing Tender Scam',
+    slug: 'cameroon-fake-beac-project-financing-tender-scam',
+    description: `Fraudulent documents styled to look like official monetary-market tender notices from the Bank of Central African States (BEAC), the CEMAC region's central bank, have circulated on WhatsApp and social media announcing a fictitious 100 billion FCFA financing envelope for "sub-regional projects," with one condition attached: applicants must first pay a "personal contribution" equal to 1% of their project's cost to unlock the funding. A related, separately circulated fake communiqué announced an equally fictitious 50 billion FCFA fund supposedly earmarked to stimulate job creation and local economic activity, again spread through WhatsApp and social media to look institutional. BEAC Governor Yvon Sana Bangui publicly denounced the fake tender notice in February 2025, stating that "the BEAC is not at the origin of this false document, which is a crude imitation of monetary market tender notices" and clarifying that the central bank does not finance national or sub-regional projects in exchange for any financial counterpart from applicants, and that its monetary-market operations are open exclusively to licensed credit institutions within CEMAC — not to the general public or individual project promoters. The bank stated that its authentic communications are published only through its own official website and verified social media accounts, and separately, its national office in Yaoundé has had to warn the public not to hand damaged banknotes to informal street "changers" who charge an illegal commission, since BEAC exchanges damaged bills for their full face value free of charge at its own counters. Cameroonians and other CEMAC nationals are advised to treat any online announcement of BEAC project financing, grants, or "envelopes" that requires an upfront personal contribution or processing fee as fraudulent by default, and to verify any claim attributed to BEAC only through the bank's own official channels before sending money or personal information to anyone.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Cameroon Tribune', 'BEAC (Bank of Central African States)'],
+    sourceUrl: 'https://www.cameroon-tribune.cm/article.html/69109/fr.html/financement-de-projets-echange-de-billets-endommages-la-beac-denonce-reseaux-darnaque',
+    country: 'CM',
+  },
+);
