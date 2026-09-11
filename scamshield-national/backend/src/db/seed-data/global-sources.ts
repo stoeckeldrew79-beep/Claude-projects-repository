@@ -188,4 +188,31 @@ export const SEED_GLOBAL_SOURCES: SeedGlobalSource[] = [
       "Sweden's National Council for Crime Prevention. Publishes the annual \"Anmälda brott\" (reported crimes) statistics, including the bedrägeribrott (fraud crime) category, plus periodic reports estimating criminal proceeds from completed fraud.",
     data_type: 'annual_report',
   },
+  {
+    agency_name: 'CONDUSEF — Portal de Fraudes Financieros',
+    country: 'MX',
+    country_name: 'Mexico',
+    url: 'https://www.gob.mx/condusef/acciones-y-programas/portal-de-fraudes-financieros',
+    description:
+      "Mexico's National Commission for the Protection and Defense of Financial Services Users runs this public portal, where anyone can look up phone numbers, websites, and emails already reported as fraudulent and submit new reports themselves. It doesn't publish aggregate loss statistics; non-financial consumer fraud (fake stores, deceptive ads) is handled separately by PROFECO.",
+    data_type: 'public_stats',
+  },
+  {
+    agency_name: 'Consumidor.gov.br (Secretaria Nacional do Consumidor)',
+    country: 'BR',
+    country_name: 'Brazil',
+    url: 'https://www.consumidor.gov.br/pages/conteudo/publico/62',
+    description:
+      "Brazil's Ministry of Justice consumer secretariat (SENACON) runs this dispute-resolution platform, where consumers file complaints directly against participating companies. Its statistical panel and open-data exports — downloadable in bulk, with records dating back to 2014 — feed most public reporting on national consumer-fraud trends.",
+    data_type: 'open_dataset',
+  },
+  {
+    agency_name: 'National Police Agency — Cybercrime Fraud Statistics',
+    country: 'KR',
+    country_name: 'South Korea',
+    url: 'https://www.data.go.kr/data/15064572/fileData.do',
+    description:
+      "South Korea's National Police Agency publishes yearly cybercrime-fraud figures — broken down by category such as direct-transaction fraud, shopping-mall scams, and (as of 2024) cyber investment fraud and celebrity-impersonation fraud — as a downloadable CSV dataset on the national Public Data Portal, with an Open API also available to registered users.",
+    data_type: 'open_dataset',
+  },
 ];
