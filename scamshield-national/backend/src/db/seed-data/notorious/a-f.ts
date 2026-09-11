@@ -5866,6 +5866,10 @@ NotoriousAF.push(
     slug: 'edwin-lickiss-foundation-financial-group-ponzi',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Phillip_Burton_Federal_Building_%26_United_States_Courthouse.jpg?width=1200',
+    coverImageCredit: 'Marincyclist, CC BY-SA 4.0, via Wikimedia Commons',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.justice.gov/usao-ndca/pr/former-east-bay-financial-advisor-pleads-guilty-operating-long-running-95-million',
     body: `Edwin Emmett Lickiss Jr., 78, spent more than a quarter of a century running an investment scheme out of Danville and Alamo, California, in the East Bay outside San Francisco, according to the U.S. Attorney's Office for the Northern District of California and a parallel civil complaint filed by the Securities and Exchange Commission. From 1998 through September 2024, Lickiss issued promissory notes on the letterhead of a company he called Foundation Financial Group, telling investors their money would be placed into "exclusive," safe, tax-free bonds paying returns of more than 20 percent a year, and offering note interest rates ranging anywhere from 9 to 32 percent annually.
 
