@@ -5582,6 +5582,10 @@ NotoriousNS.push(
     slug: 'robert-adams-simtradepro-forex-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Port_of_Bandon_(Bandon,_Oregon).jpg?width=1200',
+    coverImageCredit: 'Photo: Visitor7, CC BY-SA 3.0, via Wikimedia Commons — the Port of Bandon, Oregon',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.cftc.gov/PressRoom/PressReleases/9148-25',
     body: `Robert Lee Adams held down a full-time job as an optometrist in Bandon, a small coastal town in Oregon, while running a side business that promised clients something his day job never could: extraordinary returns from trading leveraged foreign currency and precious metals. Adams had no formal training as a financial adviser and, according to court records, had previously been sanctioned in Wisconsin for offering financial advice without a license — a warning sign that didn't stop him from doing much the same thing in Oregon under two successive entities, Winning Investments LLC and later SimTradePro Inc.
 
