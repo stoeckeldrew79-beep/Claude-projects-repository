@@ -5610,3 +5610,17 @@ UsGM.push({
     isHistorical: true,
     firstRecorded: '2026-05-19',
 });
+
+UsGM.push({
+    name: 'Oxnard Insurance Agent Fake Certificate Scheme (Gonzalo Lorona)',
+    slug: 'california-oxnard-gonzalo-lorona-fake-insurance-certificates',
+    description: `Gonzalo Lorona, 58, a licensed insurance agent in Oxnard, California, collected premium payments from at least five youth and adult soccer league operators between 2018 and 2024, then, according to the California Department of Insurance, pocketed the cash instead of buying the general liability coverage the leagues believed they had, handing each of them a fraudulent certificate of insurance to keep up the appearance that a real policy was in force. Investigators identified 13 fake certificates tied to the scheme, totaling more than $10,000 in stolen premiums, and the fraud came to light only after a player died following a fight during a game and the Ventura County school district that hosted the match went to verify the league's coverage — discovering the certificate on file named a policy that did not actually exist. The Ventura County District Attorney's Office charged Lorona with 37 felony counts, including insurance fraud and grand theft, and the California Department of Insurance has moved to revoke his agent's license. The case shows that a certificate of insurance handed over by an agent or client is not proof of coverage by itself: any organization relying on another party's liability policy — a landlord accepting a tenant's certificate, a school district hosting a league's games, a venue booking an outside vendor — should independently confirm the policy is active by contacting the named insurance carrier directly, since a real insurer can verify a policy number in minutes, while a fabricated certificate only looks convincing until something actually goes wrong.`,
+    categorySlug: 'insurance-fraud',
+    alertLevel: 'high',
+    sources: ['California Department of Insurance'],
+    sourceUrl: 'https://www.insurance.ca.gov/0400-news/0100-press-releases/2026/release011-2026.cfm',
+    country: 'US',
+    state: 'CA',
+    isHistorical: true,
+    firstRecorded: '2026-02-01',
+});
