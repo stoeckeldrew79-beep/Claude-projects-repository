@@ -5073,6 +5073,9 @@ NotoriousNS.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.cftc.gov/PressRoom/PressReleases/7774-18',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Close-up_of_a_physical_Litecoin_coin_(51008893697).jpg?width=1200',
+    coverImageCredit: 'Photo: Ivan Radic, CC BY 2.0, via Wikimedia Commons — a physical Litecoin, one of the two cryptocurrencies (with bitcoin) at issue in CFTC v. McDonnell',
     body: `Patrick K. McDonnell ran a small operation out of Staten Island, New York, called CabbageTech Corp., doing business as "Coin Drop Markets." Between January and July 2017, at the height of the first big retail rush into bitcoin, McDonnell marketed paid memberships in a trading-advice group, promising subscribers real-time virtual-currency trading signals and telling some customers he would personally buy and trade bitcoin and litecoin on their behalf, with claimed returns as extravagant as 300 percent a week.
 
 None of it was real. According to the Commodity Futures Trading Commission's complaint, McDonnell never provided the promised trading advice, never made the promised trades, and simply kept the money customers sent him, cutting off communication once they asked for it back. It was, in the regulator's telling, a straightforward theft dressed up in the vocabulary of a trading club — but the case became far more consequential than its dollar amount suggested, because of a legal question nobody had definitively answered before: did the CFTC, an agency built to police commodities like oil, wheat, and financial futures, actually have authority to sue over fraud involving Bitcoin?
