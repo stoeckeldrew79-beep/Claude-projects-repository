@@ -5326,3 +5326,15 @@ UsGM.push({
     sourceUrl: 'https://www.justice.gov/opa/pr/united-states-files-false-claims-act-complaint-against-three-national-health-insurance',
     country: 'US',
 });
+
+UsGM.push({
+    name: 'Hawaii PayPal and Venmo Deceptive Protection Settlement',
+    slug: 'hawaii-paypal-venmo-deceptive-protection-settlement',
+    description: `The Hawaii Department of Commerce and Consumer Affairs' Office of Consumer Protection (OCP) announced on December 22, 2025 that it had settled a three-year-old lawsuit against PayPal, Inc. and PayPal Holdings, Inc. for $6 million, resolving allegations that the company deceived Hawaii consumers about how safe and accessible their money actually was on PayPal and its Venmo subsidiary. OCP's complaint, originally filed in December 2022, alleged PayPal advertised broad "Purchase Protection" coverage for goods-and-services payments made through Venmo using a reassuring shield icon, while quietly excluding large categories of transactions and burying the real eligibility limits in lengthy terms of service — leaving Hawaii consumers who paid a scammer through Venmo believing, wrongly, that the payment was covered. The complaint further alleged that PayPal froze many users' accounts over suspected fraud or a policy violation and then left them locked out of their own funds for weeks with no clear, timely way to appeal, and that Venmo's default public-facing transaction feed and profile settings exposed users' payment activity and contacts in ways that made them easier targets for scammers and identity thieves, despite PayPal's marketing claims about protecting users' financial privacy. PayPal denied all of OCP's allegations but agreed to the settlement to resolve the case. "Hawaii consumers depend on PayPal and Venmo for critical daily tasks like paying rent, receiving wages, and compensating child care providers," OCP Executive Director Mana Moriarty said in announcing the settlement. "This settlement is an important step forward in safeguarding the financial marketplace." The case is a reminder that a payment app's advertised "protection" badge or icon is a marketing claim, not a guarantee: before assuming a Venmo or PayPal payment is covered if something goes wrong, check the actual eligibility terms in the app's settings, keep transaction and profile visibility set to private rather than public, and if an account is ever frozen, request a written explanation and escalate through the app's official support before assuming the funds are simply gone. Hawaii consumers who believe a payment app has misrepresented its protections can file a complaint with OCP at cca.hawaii.gov/ocp or by calling 808-587-4272.`,
+    categorySlug: 'insurance-fraud',
+    alertLevel: 'medium',
+    sources: ["Hawaii Department of Commerce and Consumer Affairs, Office of Consumer Protection", 'Hawaii News Now'],
+    sourceUrl: 'https://cca.hawaii.gov/ocp/release-hawai%CA%BBi-office-of-consumer-protection-announces-6-million-settlement-with-paypal/',
+    country: 'US',
+    state: 'HI',
+});
