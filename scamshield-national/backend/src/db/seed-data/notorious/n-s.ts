@@ -4882,6 +4882,10 @@ NotoriousNS.push(
     slug: 'sam-ikkurty-jafia-crypto-ponzi-scheme',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Dirksen_United_States_Courthouse,_Chicago_Loop,_Chicago,_Illinois_(11004376983).jpg?width=1200',
+    coverImageCredit: 'Ken Lund / Wikimedia Commons / CC BY-SA 2.0',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.cftc.gov/PressRoom/PressReleases/8959-24',
     body: `Sam Ikkurty, an Oregon resident, marketed himself to investors he met at webinars and trade shows as a sophisticated cryptocurrency fund manager, soliciting money into a set of vehicles he controlled — Jafia LLC, Ikkurty Capital LLC (doing business as Rose City Income Fund I and Rose City Income Fund II), and Seneca Ventures LLC. He told investors their money was being professionally traded in crypto markets for steady, reliable returns, and later expanded the pitch to a supposed carbon-offset investment program built on the same promise of dependable profit. What he did not tell investors, according to the Commodity Futures Trading Commission, was that his own personal experience with cryptocurrency consisted of losing his own bitcoin holdings to a hack — the opposite of the trading expertise his pitch relied on.
 
