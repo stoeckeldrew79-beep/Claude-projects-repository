@@ -7542,3 +7542,24 @@ Shrem's case became one of the earliest and most closely watched examples of fed
     coverImagePosition: 50,
   },
 );
+
+NotoriousAF.push(
+  {
+    title: 'Brian Mitchell: The Banned Trader Who Kept Raising Money Anyway',
+    slug: 'brian-mitchell-banned-trader-young-pros-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-edmi/pr/suspended-ann-arbor-commodities-trader-pleads-guilty-multi-million-dollar-fraud-scheme',
+    body: `Brian Mitchell, of Ann Arbor, Michigan, was already a known name to futures regulators by the time he started raising real money from investors. The National Futures Association disciplined him in 2017, and in a 2021 settlement with the Commodity Futures Trading Commission covering violations from January 2018 to January 2019, he agreed to a three-year bar from soliciting or accepting funds for commodity futures trading. None of that stopped him from doing exactly that.
+
+Starting in February 2021 — squarely inside his CFTC suspension — Mitchell's friend Kevin Mack Jr. began pitching a Maryland investor on "REITs, crypto and trading" through a company the two men had formed, Young Pros Investment Group, promising 10% monthly returns and "guaranteed" principal. When the investor looked Mitchell up and found the 2017 NFA action, Mack assured her Mitchell wouldn't be the one handling her money. She wired $50,000 to Mack's personal Charles Schwab account anyway, under a contract stating her principal was "guaranteed and insured by Young Pros Investment Group, LLC." According to the Maryland Securities Commissioner, Mack then moved the funds through a chain of his own brokerage accounts before parking them in a TradeStation account opened in a third person's name — letting Mitchell trade it without his own name appearing on any paperwork, exactly the arrangement his suspension was meant to prevent.
+
+The account showed a paper profit of roughly $365,000 by the end of March 2021. By the end of April it had lost more than that, and by November 2021 — after starting the month above $600,000 — it held $685. Mitchell and Mack kept paying "interest" to investors out of new deposits in the meantime, then told everyone in November 2021 that the money had simply been lost in unprofitable trades.
+
+Two regulators eventually caught up with the scheme from two different directions. On February 26, 2025, after Mitchell and Mack failed to respond to a show-cause order, the Maryland Securities Commissioner issued a Final Order permanently barring both men from the securities and investment-advisory business in the state and assessing a $650,000 penalty, finding that at least 27 Maryland investors had put in $774,966 and were still owed $644,343.85. Nine months later, on November 21, 2025, the CFTC filed its own federal suit in the Eastern District of Michigan against Mitchell, Mack, and Young Pros Investment Group LLC, alleging the pool had defrauded roughly 33 participants nationwide out of about $1 million between December 2020 and May 2022 through false account statements and Ponzi-style payments; that civil case remains pending.
+
+What finally ended Mitchell's run was a criminal case. Prosecutors say that even after Young Pros collapsed, Mitchell kept soliciting investors through a second entity, My Nest Egg, still never disclosing the CFTC bar, and defrauded investors of more than $2.7 million in total before he was criminally charged. He pleaded guilty on June 16, 2026, to a single count of wire fraud, agreeing to pay the full $2.7 million in restitution, and faces up to 20 years in prison at sentencing, scheduled for October 7, 2026, before U.S. District Judge Laurie J. Michelson.
+
+Mitchell's case, running across a state final order, a pending federal civil suit, and now a federal criminal conviction spanning nearly five years, shows how long a trader a regulator has already publicly disciplined can keep finding new money under a new company name — as long as the people wiring it never think to check his record with the regulator that disciplined him the first time.`,
+  },
+);
