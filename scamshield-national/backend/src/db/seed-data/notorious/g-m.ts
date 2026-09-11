@@ -8267,6 +8267,10 @@ NotoriousGM.push(
     slug: 'john-brodacki-castle-hill-financial-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Massachusetts_State_House,_Boston,_Massachusetts.jpg?width=1200',
+    coverImageCredit: 'Photo: Christian David, CC BY-SA 4.0, via Wikimedia Commons — the Massachusetts State House in Boston',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26519',
     body: `John R. Brodacki III worked as an investment adviser in Massachusetts for roughly two decades, running his own firm, Castle Hill Financial Group, LLC. According to the Securities and Exchange Commission, Brodacki built a client base that skewed toward exactly the kind of people fiduciary rules exist to protect: from at least June 2018 through September 2025, the SEC alleges, he and Castle Hill targeted advisory clients who were elderly, retired, or seriously ill, telling them their money would be invested for their own benefit or the benefit of their relatives.
 
