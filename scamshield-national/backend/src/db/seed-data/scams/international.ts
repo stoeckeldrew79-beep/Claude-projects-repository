@@ -13823,3 +13823,16 @@ International.push(
     country: 'KY',
   },
 );
+
+International.push(
+  {
+    name: 'Cayman Islands Fraudulent Traffic Fine Text Message Scam',
+    slug: 'cayman-islands-fraudulent-traffic-fine-text-scam',
+    description: `On 18 August 2026, the Royal Cayman Islands Police Service (RCIPS) issued a public advisory warning of fraudulent text messages claiming to be from RCIPS or the "Cayman Islands National Security – Road Traffic Department," telling recipients they had an overdue traffic fine for an offence such as speeding and instructing them to click a link and pay immediately to avoid enforcement action. Recipients who clicked the link were taken to a fraudulent payment page with no connection to RCIPS or any Cayman Islands government entity, and those who entered payment details had money stolen by the fraudsters behind the scheme. Police said the messages were part of a wider international scam campaign, noting that the same technique had been reported in other jurisdictions and that some of the fraudulent texts sent to Cayman recipients were written in French, indicating a mass, untargeted phishing operation rather than one built specifically around local knowledge. RCIPS stressed that it and other Cayman Islands government agencies will never request payment of a fee through a text message, and urged anyone who received such a text to not click the link, not make any payment, and delete the message immediately; anyone who had already clicked the link and paid was told to contact their financial institution immediately and call 9-1-1 to report it to police.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Royal Cayman Islands Police Service (RCIPS)', 'Cayman Compass', 'Cayman News Service'],
+    sourceUrl: 'https://www.rcips.ky/public-advisory-police-warn-of-fraudulent-traffic-fine-text-messages-18-august',
+    country: 'KY',
+  },
+);
