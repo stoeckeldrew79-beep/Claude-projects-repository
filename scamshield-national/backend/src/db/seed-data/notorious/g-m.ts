@@ -7121,3 +7121,20 @@ Bellamy pleaded guilty in June 2021 to conspiracy to commit wire fraud. He was s
 Bellamy's case was one of a wave of PPP fraud prosecutions in which a program built for speed — designed to get emergency money to small businesses within days rather than the weeks a normal underwriting process would take — became an easy target for anyone willing to overstate a payroll that barely existed. The Small Business Administration and its lenders approved loans based largely on the applicant's own certifications rather than verified payroll records, a tradeoff that got money to legitimate businesses quickly but also let a defunct entertainment LLC walk away with over a million dollars in emergency relief funds that never reached a single employee's paycheck.`,
   },
 );
+NotoriousGM.push(
+  {
+    title: 'Cheryl Galloway and the Mother-Daughter Unemployment Fraud Ring That Filed Claims in 40 States',
+    slug: 'cheryl-galloway-multistate-unemployment-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-sdga/pr/florida-woman-sentenced-federal-prison-conspiracy-commit-mail-fraud',
+    // no verified rights-cleared photo found yet — see NotoriousCoverPhotos
+    body: `Cheryl Galloway, 67, of Yulee, Florida, and her daughter, Ricki Johnson, 42, of Trenton, South Carolina, ran a pandemic-era fraud scheme that worked precisely because it exploited a system built for speed rather than verification. During the COVID-19 pandemic, states across the country stood up emergency unemployment insurance programs meant to get relief checks to laid-off workers as quickly as possible — and, according to federal prosecutors in the Southern District of Georgia, Galloway and Johnson spent roughly two years filing fraudulent claims through that same fast-moving system in at least 40 different states, falsely certifying in each one that they had been working and lost income there.
+
+The scheme required no elaborate technology, just persistence and volume: state after state, application after application, each one claiming a job loss that never happened in a place the applicants likely never worked. Some of the resulting benefits arrived as debit cards mailed directly to Galloway's address, giving investigators a paper trail connecting dozens of claims filed under different circumstances back to the same two women. Prosecutors say the pair collected roughly $480,000 in fraudulent benefits and attempted to obtain even more before the scheme was uncovered.
+
+Johnson pleaded guilty to mail fraud and was sentenced first, in March 2026, to 54 months in prison, three years of supervised release, and $104,632 in restitution. Galloway went to trial instead, and a jury convicted her in June 2026 of conspiracy to commit mail fraud after a five-day trial. U.S. District Judge Dudley H. Bowen sentenced her on September 10, 2026, to 71 months in federal prison, followed by three years of supervised release, and ordered her to pay $454,624.20 in restitution along with forfeiture of $96,119.
+
+Galloway's case is a reminder that emergency relief programs designed to move money quickly, precisely because a crisis made speed more valuable than scrutiny, tend to get exploited by the same low-tech method regardless of the year or the program: file the same basic false claim in as many jurisdictions as possible before anyone cross-references the paperwork, and count on the sheer number of states processing pandemic claims simultaneously to buy enough time to collect before the pattern surfaces.`,
+  },
+);
