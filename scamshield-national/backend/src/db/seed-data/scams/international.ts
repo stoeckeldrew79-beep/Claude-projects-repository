@@ -11301,6 +11301,45 @@ International.push(
 
 International.push(
   {
+    name: 'Globix Cryptocurrency Exchange Collapse',
+    slug: 'gibraltar-globix-cryptocurrency-exchange-collapse',
+    description: `Investors in Gibraltar and the UK found themselves locked out of the cryptocurrency trading platform Globix in early 2022, after the exchange — operated by Miracle World Ventures Limited, a company registered in the British Virgin Islands — froze withdrawals amid the broader crypto-market downturn and never reopened. The Gibraltar Financial Services Commission (GFSC) issued a public consumer alert confirming that Miracle World Ventures Limited was not authorised to carry out any regulated financial services activity in or from Gibraltar, despite having built up a substantial local investor base that reportedly included a sitting member of the Gibraltar Parliament, King's Counsel, and other senior legal and political figures. Globix entered liquidation in 2023, and liquidators said they were chasing an estimated $40-42 million in missing digital assets scattered across a web of crypto wallets; in April 2023 the Gibraltar Supreme Court granted what lawyers described as a "first" for the jurisdiction — freezing orders compelling major exchanges including Binance, Crypto.com, Bitstamp, and Kraken to identify or lock wallets linked to the platform. Sole director Damian Carreras, who relocated to Barcelona as the scandal unfolded, and Moscow-born technology chief Pavel Sidorov, who moved to Alicante, were named in civil claims for misfeasance, fraudulent trading, and insolvent trading, faced contempt-of-court arrest warrants after repeatedly failing to appear before the Gibraltar courts, and were placed under a Royal Gibraltar Police criminal investigation. The case became one of Gibraltar's highest-profile financial scandals precisely because so many financially sophisticated, well-connected residents had entrusted savings to a crypto exchange holding no GFSC authorisation whatsoever — underscoring the regulator's standing advice to check its official Regulated Entities Register before investing with any firm, crypto or otherwise.`,
+    categorySlug: 'cryptocurrency-scams',
+    alertLevel: 'high',
+    sources: ['Gibraltar Financial Services Commission (GFSC)', 'Royal Gibraltar Police (RGP)', 'The Gibraltar Chronicle', 'GBC Gibraltar', 'Olive Press News Spain'],
+    sourceUrl: 'https://www.fsc.gi/news/consumer-alert-on-globix-platform-475',
+    country: 'GI',
+  },
+);
+
+International.push(
+  {
+    name: 'Gibraltar "Mystery Shopper" Phishing and Money-Mule Scam',
+    slug: 'gibraltar-mystery-shopper-phishing-money-mule-scam',
+    description: `In May 2021 the Royal Gibraltar Police's Economic Crime Unit revealed it was investigating a two-stage fraud that had already stolen funds from at least five Gibraltar bank accounts. In the first stage, victims were phished — tricked by fake bank emails or look-alike websites into handing over their online banking credentials — after which fraudsters transferred several thousand pounds out of the compromised accounts. In the second stage, the same fraudsters recruited unwitting "Mystery Shoppers" through fake job adverts posted on local Facebook groups including GibJobs, Gibwork, Unemployment Group Gibraltar, and Gibraltar Things for Sale, offering a fee in exchange for testing a retailer's customer service. Recruits who signed up had the stolen funds — typically several thousand pounds — deposited into their own bank accounts and were then instructed to spend a few hundred pounds on purchases such as online gift vouchers, before converting the remaining balance to cryptocurrency or wiring it to an overseas account, unknowingly laundering the proceeds of the phishing attack on the fraudsters' behalf. The fraudsters operated under a rotating set of aliases, including Anna Danikova, Claybel Quinones, Bobby Bennett, and Zoltan Füller, and the RGP warned that these names were likely to keep changing as the scheme continued. A police spokesman asked anyone who had taken part as a "Mystery Shopper" following a Facebook advertisement to come forward, adding the general warning that "if something looks too good to be true, it usually is," and urged residents to be wary both of unsolicited banking emails and of job offers that require handing over bank account access.`,
+    categorySlug: 'job-task-scams',
+    alertLevel: 'high',
+    sources: ['Royal Gibraltar Police (RGP)', 'The Gibraltar Chronicle', 'Olive Press News Spain'],
+    sourceUrl: 'https://www.police.gi/news/police-investigate-an-elaborate-scam-508',
+    country: 'GI',
+  },
+);
+
+International.push(
+  {
+    name: 'Gibraltar International Bank (GIB) SMS and Email Phishing Campaigns',
+    slug: 'gibraltar-international-bank-sms-email-phishing-campaigns',
+    description: `Gibraltar International Bank (GIB) and the Royal Gibraltar Police have repeatedly had to warn customers about waves of phishing attacks impersonating the bank. In one campaign, reported by GIB on September 29, 2021, fraudsters sent text messages reading "We have temporarily limited access to your BOI online due to failed login attempts, to re-authenticate visit: gibint-bank.net" — a look-alike domain designed to be mistaken for the bank's genuine site — aiming to harvest online banking logins from anyone who clicked through and entered their details. GIB stressed that it "would not request these details" by text message, and the Royal Gibraltar Police reminded the public that "banks will never ask for your account numbers or pin details" and urged people to always know who they are dealing with before handing over personal data. In a separate, similarly styled wave, fraudsters sent spoofed emails that appeared to come from GIB and directed recipients to cloned pages requesting their banking credentials; Detective Sergeant Jonathan Goodson of the RGP's Fraud Squad said "the bank would never ask you to click on a link and ask for personal information," and warned that "in most cases funds being taken by fraudsters will leave Gibraltar and it is not always easy to get these funds back." Both the bank and police urged GIB customers to independently verify any message claiming to be from the bank by phoning GIB directly on 200 13900 rather than using any link or number contained in the message itself, to report suspicious contact to the bank straight away, and to report confirmed fraud to police via www.police.gi or the Fraud Squad on 200 72500.`,
+    categorySlug: 'phishing',
+    alertLevel: 'high',
+    sources: ['Royal Gibraltar Police (RGP)', 'Gibraltar International Bank (GIB)', 'The Gibraltar Chronicle'],
+    sourceUrl: 'https://www.chronicle.gi/gibraltar-international-bank-warns-customers-of-another-mobile-scam/',
+    country: 'GI',
+  },
+);
+
+International.push(
+  {
     name: 'Guam "Hafa Adai Bingo" Children\'s Charity Diversion Scheme',
     slug: 'guam-hafa-adai-bingo-charity-diversion-scheme',
     description: `Between March 2015 and the end of 2021, operators of the Guam Shrine Club's Hafa Adai Bingo parlor in Tamuning collected roughly $34 million in gross bingo proceeds from players who believed their spending helped fund travel for sick children to Shriners Hospital for Children in Honolulu, when in fact only a small fraction of that money — about $140,000 over the period — ever reached the charity. Federal prosecutors said club leaders Jose Arthur D. Chan Jr. and his wife Christine C. Chan, along with associate Michael L. Marasigan, instead diverted and laundered more than $10.75 million of the proceeds for personal use while continuing to market the games under the Aloha Shriners' name. A jury convicted the three at trial, and on May 12-13, 2026, Chief Judge Frances Tydingco-Gatewood sentenced Art Chan to 60 months and Christine Chan to 70 months in federal prison; Marasigan, who had fled to the Philippines in 2025 after being granted court permission for medical travel, was sentenced in absentia on May 19, 2026 to 262 months, and the FBI has since offered a $150,000 reward for information leading to his capture. Four additional defendants who pleaded guilty received probation or time-served sentences. All three main defendants were ordered to pay $10,750,804 in joint and several restitution to the Aloha Shriners. The case, investigated by the FBI and IRS Criminal Investigation, is a reminder that a charity's name, decades of community trust, and a seemingly routine bingo night are no guarantee that donated or wagered money actually reaches the cause it claims to support.`,

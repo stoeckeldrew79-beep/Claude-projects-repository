@@ -5722,6 +5722,10 @@ NotoriousAF.push(
     slug: "anthonie-ruinard-legacy-investors-group-fraud",
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Sandra_Day_O%27Connor_United_States_Courthouse_-_Phoenix,_Arizona_(49343843277).jpg?width=1200',
+    coverImageCredit: 'Tony Webster, CC BY-SA 2.0, via Wikimedia Commons',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.justice.gov/usao-az/pr/arizona-man-sentenced-more-seven-years-defrauding-54-victims-investment-fraud-scheme',
     body: `Anthonie Ruinard Jr., of Chandler, Arizona, told the people he approached that he was a wildly successful investor — at one point claiming a net worth north of $470 million — running a company called Legacy Investors Group Inc. According to the U.S. Attorney's Office for the District of Arizona, between 2020 and March 2023 Ruinard used that persona to persuade at least 54 victim-investors to put money into supposed venture capital, private equity, and real estate deals, promising guaranteed monthly returns of roughly 5 to 6 percent.
 
@@ -6580,7 +6584,9 @@ NotoriousAF.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/usao-edny/pr/current-and-former-national-basketball-association-players-and-four-other-individuals',
-    // pending prosecution, no rights-cleared photo identified — sourceUrl above serves as the "read the full story" link
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Billups_coach_(cropped).jpg?width=1200',
+    coverImageCredit: 'Erik Drost, CC BY 2.0, via Wikimedia Commons',
+    coverImagePosition: 50,
     body: `Note: this profile describes pending federal criminal prosecutions. Chauncey Billups and Terry Rozier have each pleaded not guilty; an indictment is only a charge, not evidence of guilt, and both men are presumed innocent unless and until proven guilty at trial. As of this writing no trial has occurred, and jury selection has been pushed back to March 2027.
 
 On October 23, 2025, federal prosecutors in the Eastern District of New York unsealed two related but legally separate cases charging 34 people connected to the NBA, in what FBI Director Kash Patel called a "mind-boggling" criminal enterprise combining two different forms of cheating: mob-linked rigged poker games and insider-information sports betting. U.S. Attorney Joseph Nocella Jr. called it "one of the most brazen sports corruption schemes" his office had prosecuted.
@@ -6592,5 +6598,24 @@ The second case, "Operation Nothing But Bet," charged six defendants — includi
 Billups and Rozier were each released on bond — Billups on $5 million — after pleading not guilty, and both were placed on immediate administrative leave by the NBA. Their attorneys have pushed back hard: Rozier's lawyer, Jim Trusty, argued prosecutors wanted "a photo-op" and insisted "Terry is not a gambler," while Billups's attorney, Chris Heywood, said "men of integrity do not cheat and defraud others" and that his client would never risk "his Hall-of-Fame legacy, his reputation, and his freedom" over a card game. Elsewhere in the 31-defendant poker case, at least a dozen defendants have already pleaded guilty or are reportedly negotiating plea deals, even as Billups's own trial — originally set for November 2026 — was pushed back to jury selection on March 8, 2027, in Brooklyn federal court.
 
 Whatever the eventual verdicts, the case is already a study in how thoroughly organized crime adapted a centuries-old card-cheating racket to modern surveillance technology, and how far an athlete's own undisclosed injury has become a tradeable commodity in an era of legal, instantaneous betting on individual player statistics rather than just final scores.`,
+  },
+);
+NotoriousAF.push(
+  {
+    title: 'Elie Schwartz and the $62.8 Million CrowdStreet Real Estate Fraud',
+    slug: 'elie-schwartz-nightingale-properties-crowdstreet-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-ndga/pr/head-commercial-real-estate-investment-firm-sentenced-federal-prison-628-million-fraud',
+    // no rights-cleared photo identified — sourceUrl above serves as the "read the full story" link
+    body: `Elchonon "Elie" Schwartz ran Nightingale Properties, a New York commercial real estate investment firm, and raised money the way a growing share of real estate deals now do: through CrowdStreet, an online platform that connects individual investors directly with commercial property offerings, letting a firm raise millions from hundreds of strangers without ever meeting most of them in person.
+
+Between May 2022 and March 2023, Schwartz and Nightingale ran two offerings on CrowdStreet that told investors their money would go toward two specific, named deals: purchasing an interest in the Atlanta Financial Center, a Buckhead office complex, and recapitalizing a Miami Beach commercial property. More than 800 investors sent Schwartz roughly $62.8 million based on those representations, including about $54 million earmarked specifically for the Atlanta project, according to the Justice Department; the Securities and Exchange Commission's parallel civil complaint put the number at least 700 investors contributing more than $52 million.
+
+None of the money went where investors were told. Federal prosecutors said Schwartz instead used the funds to prop up other, failing Nightingale real estate projects that had nothing to do with the deals investors thought they were funding, made unprofitable trades in his own personal brokerage accounts, and spent investor money on personal luxuries including a penthouse condominium and watches. In one especially pointed piece of the SEC's complaint, Schwartz was accused of rerouting roughly $12 million meant for the Atlanta deal into his brokerage account to buy stock in First Republic Bank in March 2023 — a bet that collapsed days later when regulators seized the bank, wiping out the position along with the investor money behind it.
+
+Schwartz pleaded guilty on February 12, 2025, to one count of wire fraud in the Northern District of Georgia. On May 19, 2025, U.S. District Judge Steven D. Grimberg sentenced him to 87 months — just over seven years — in federal prison, followed by three years of supervised release, and ordered him to pay $45,079,485.03 in restitution to victims. The SEC's separate civil case against Schwartz and Nightingale Properties, seeking disgorgement and civil penalties, proceeded alongside the criminal prosecution.
+
+The case is a case study in how a real, named, physically existing building can still be the backdrop for a fraud: investors on platforms like CrowdStreet could look up the Atlanta Financial Center and the Miami Beach property themselves and confirm they were genuine assets, which was exactly the point — a verifiable underlying deal lent credibility to promises about how investor money would actually be used, when in fact the platform offered no way for investors to confirm that their specific dollars, once wired, ever reached the project the offering named.`,
   },
 );
