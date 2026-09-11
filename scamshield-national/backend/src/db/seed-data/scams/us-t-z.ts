@@ -3110,3 +3110,15 @@ UsTZ.push({
     country: 'US',
     state: 'TN',
 });
+
+UsTZ.push({
+    name: 'Phares Cemetery Prepaid Grave Marker Fraud',
+    slug: 'west-virginia-phares-cemetery-grave-marker-fraud',
+    description: `Jeffrey Phares, 65, of Fayetteville, West Virginia, owned and operated four cemeteries — Greenlawn Memorial Park in New Martinsville, Elkins Memorial Gardens in Elkins, Greenlawn Memorial Cemetery in Clarksburg, and Forest Lawn Memorial Gardens in Jane Lew — and took payment and design approval from grieving families ordering a grave marker or headstone for a loved one, then never delivered the marker while spending the money elsewhere. According to the U.S. Attorney's Office for the Northern District of West Virginia, investigators identified 225 victims who paid Phares more than $600,000 combined for markers that were never installed, with Phares repeatedly stringing customers along using fabricated excuses for the delay rather than admitting the order would never be fulfilled or refunding the payment. Phares pleaded guilty to wire fraud in March 2026, agreeing as part of his plea to turn over the documentation needed to calculate full restitution to his victims ahead of sentencing, which is scheduled for November 10, 2026 in federal court in Wheeling before U.S. District Judge John Preston Bailey; he faces up to 20 years in prison. Because a headstone or grave marker is typically paid for in full up front, at one of the most emotionally difficult times in a family's life, and the empty grave itself can go unnoticed for months before anyone realizes the marker was never ordered at all, families are advised to get a firm delivery date and refund terms in writing before paying a monument dealer or cemetery in full, to check a cemetery's or memorial company's complaint history with the West Virginia Attorney General's Consumer Protection Division before paying, and to pay by credit card rather than cash or check whenever possible so a non-delivered order can still be disputed months later.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office, Northern District of West Virginia", 'FBI'],
+    sourceUrl: 'https://www.justice.gov/usao-ndwv/pr/west-virginia-cemetery-owner-admits-fraud-involving-grave-markers',
+    country: 'US',
+    state: 'WV',
+});
