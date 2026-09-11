@@ -7698,5 +7698,9 @@ The SEC sued Schooler and Western in September 2012, winning an emergency asset 
 Schooler never paid it. Facing a separate SEC administrative proceeding in July 2016, he set sail from San Diego on his boat, the Entertainer, headed for French Polynesia. He reached Tahiti — and then vanished. The boat was later recovered, but Schooler was not; one of his own attorneys told the court he believed his client was dead, yet no death certificate was ever issued, and the U.S. State Department has continued to list him as missing rather than deceased. The unresolved question of whether Schooler is alive later produced an unusual coda in the courts: when his estate's executor took over the appeal, the Ninth Circuit vacated the civil penalty in light of his apparent death and sent the disgorgement award back for reconsideration under intervening Supreme Court precedent that had narrowed how far back the SEC can reach when calculating disgorgement.
 
 Schooler's case is a reminder that a final judgment, however large, is only as good as a regulator's ability to actually collect it — and that a promoter with enough advance warning of a losing legal outcome, and the means to leave the country, can turn even a $148 million verdict into an open question that outlives the case itself.`,
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Jacob_Weinberger_U.S._Courthouse,_San_Diego,_CA_Jun_03.jpg?width=1200',
+    coverImageCredit: 'Photo: General Services Administration / Wikimedia Commons / Public Domain',
+    coverImagePosition: 50,
   },
 );
