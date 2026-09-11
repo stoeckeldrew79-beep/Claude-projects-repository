@@ -2615,6 +2615,10 @@ NotoriousTZ.push(
     slug: 'david-voss-norval-morrisseau-forgery-ring',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Untitled_(Moose_with_Birds)_by_Norval_Morrisseau,_Art_Gallery_of_Nova_Scotia.jpg?width=1200',
+    coverImageCredit: 'Photo: Andre Carrotflower, CC BY-SA 2.0, via Wikimedia Commons — genuine Norval Morrisseau painting',
+    coverImagePosition: 50,
+    // representative photo — a genuine Morrisseau work, not one of the forged pieces
     body: `David John Voss ran what investigators called Canada's largest art fraud investigation out of Thunder Bay, Ontario, mass-producing fake paintings falsely attributed to Norval Morrisseau, the celebrated Anishinaabe artist and founder of the Woodlands School of Art who died in 2007. Between 1996 and 2019, according to an agreed statement of facts read in court, Voss developed what amounted to an assembly-line forgery process: he would sketch a painting's outline in pencil and mark each section with a letter code corresponding to a specific color, then pay other painters to fill in the "paint by numbers" template he had created — turning what should have been an individual artist's spiritual and cultural expression into a mass-manufactured commodity.
 
 The operation ran for more than two decades before a years-long investigation by the Thunder Bay Police Service and the Ontario Provincial Police caught up with it. In March 2023, eight people were charged in connection with the ring: Voss, Gary Lamont, Diane Marie Champagne, Linda Joy Tkachyk, and Benjamin Paul Morrisseau — the artist's own nephew — all of Thunder Bay, along with Jeffrey Gordon Cowan of Niagara-on-the-Lake, James White of Essa Township, and David P. Bremner of Locust Hill. Police seized more than 1,000 forged paintings in the course of the investigation, and the Morrisseau estate's executive director, Cory Dingle, told the court the estate faces at least $100 million in losses as a result of the fraud, with the artist's genuine work potentially taking decades to regain its market value.
