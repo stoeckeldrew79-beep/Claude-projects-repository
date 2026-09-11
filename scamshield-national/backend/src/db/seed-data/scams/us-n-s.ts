@@ -5540,3 +5540,16 @@ UsNS.push({
     country: 'US',
     state: 'PA',
 });
+
+UsNS.push({
+    name: 'Marcellus Shale Landman Mineral Rights Forgery Scheme',
+    slug: 'pennsylvania-marcellus-shale-mineral-rights-fraud',
+    description: `Derek A. Candelore and William J. Ray, working as landmen for Penn-Star Energy, LLC of Butler County, Pennsylvania, forged the signatures of roughly 40 Washington County property owners onto deeds purporting to transfer their mineral rights, then filed the fake deeds with the Washington County Recorder of Deeds using forged notary stamps and a set of shell companies the two men had created for the purpose. Between February 2010 and June 2012, Candelore and Ray set up post office boxes and bank accounts in the names of their bogus companies — which now appeared, on paper, to legitimately own the stolen mineral rights — and turned around and leased or sold those rights to real buyers, including local investors, out-of-state investment groups, and Range Resources, for a combined total the U.S. Attorney's Office for the Western District of Pennsylvania put at roughly $2.4 million. Range Resources' own diligence work helped uncover the fraud; Candelore, who also used the aliases "Dan Kun" and "Kevin Kelly," was indicted and later convicted at trial, while Ray pleaded guilty in September 2013 and agreed to forfeit $543,146. A federal judge sentenced Candelore to 40 months in prison and Ray to 20 months, with the court ordering roughly $2.4 million in combined restitution to the defrauded landowners. The scheme worked specifically because mineral rights severed from the surface land — common across Marcellus Shale country — can sit unmonitored for years with no obvious way for an owner to notice a forged deed has been filed against them; owners of severed mineral rights are advised to periodically check their county Recorder of Deeds for any transfer they did not authorize, and to treat with suspicion any landman or company presenting paperwork claiming to already hold rights the owner never actually signed away.`,
+    categorySlug: 'mortgage-foreclosure-scams',
+    sources: ["U.S. Attorney's Office for the Western District of Pennsylvania", 'NPR StateImpact Pennsylvania', 'Observer-Reporter'],
+    sourceUrl: 'https://stateimpact.npr.org/pennsylvania/2013/09/19/landman-pleads-guilty-to-marcellus-shale-mineral-rights-fraud',
+    country: 'US',
+    isHistorical: true,
+    firstRecorded: '2010-02-01',
+    state: 'PA',
+});
