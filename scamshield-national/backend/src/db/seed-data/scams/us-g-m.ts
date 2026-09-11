@@ -5568,3 +5568,17 @@ UsGM.push({
     isHistorical: true,
     firstRecorded: '2023-11-01',
 });
+
+UsGM.push({
+    name: 'Savory and Sons Funeral Home Fraud',
+    slug: 'missouri-savory-and-sons-funeral-home-fraud',
+    description: `Frank Savory IV ran Savory and Sons Funeral Home in Kansas City, Missouri through his company, S. Family Enterprise, LLC, continuing to sign funeral contracts and manage the business even after the home's only licensed funeral director suffered a stroke in 2025 and left — meaning Savory was operating and selling funeral services without a Missouri license required by law. According to a petition Missouri Attorney General Catherine Hanaway's office filed alongside a Jackson County grand jury indictment, families who paid Savory for services didn't always get what they were promised: one family paid $6,400 for a bronze headstone that was never delivered, preneed funeral contracts worth $46,400 skipped legally required disclosures, and one daughter spent months trying to recover her mother's cremated remains before Savory stopped responding to her altogether. The grand jury indicted Savory on charges including Financial Exploitation of a Disabled Person, Stealing, and Deceptive Business Practice, and the Missouri State Board of Embalmers and Funeral Directors separately revoked the funeral home's establishment license. On May 22, 2026, Jackson County Circuit Judge Charles H. McKenzie signed a default judgment permanently barring Savory and his company from working as a funeral director, owning or operating any funeral home, or working in any capacity for a business providing funeral, memorial, cremation, burial, or mortuary services, and ordered more than $30,500 in restitution to victims plus a $4,000 civil penalty to the state. "When a funeral home exploits grief with false promises, we will hold them responsible," Hanaway said in announcing the petition and indictment. Anyone arranging a funeral or preneed contract is advised to confirm a funeral home's current license directly with the Missouri Division of Professional Registration before paying anything, to get every promised item and service spelled out in the written contract, and to report a funeral home that won't return a loved one's remains or provide promised paperwork to the Missouri Attorney General's Consumer Protection Section at 800-392-8222 or ago.mo.gov.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'high',
+    sources: ["Missouri Attorney General's Office (Catherine Hanaway)", 'KCTV5', 'Jackson County Prosecutor\'s Office'],
+    sourceUrl: 'https://ago.mo.gov/attorney-general-hanaway-and-jackson-county-prosecutor-secure-indictment-against-kansas-city-funeral-home/',
+    country: 'US',
+    state: 'MO',
+    isHistorical: true,
+    firstRecorded: '2025-12-22',
+});
