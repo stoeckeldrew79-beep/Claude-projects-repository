@@ -5232,6 +5232,10 @@ The Kluger case illustrates a specific vulnerability at the center of corporate 
     slug: 'lim-oon-kuin-hin-leong-trading-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Jurong_Island,_Singapore_-_20110227-01.jpg?width=1200',
+    coverImageCredit: "Photo: Jacklee, Wikimedia Commons (CC BY-SA 3.0) — Jurong Island, Singapore's petrochemical and oil-trading hub",
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     sourceUrl: 'https://www.scmp.com/news/asia/southeast-asia/article/3287035/singapore-sentences-ok-lim-over-17-years-prison',
     body: `Lim Oon Kuin, widely known by his initials "O.K. Lim," arrived in Singapore from Fujian, China as a young man with little money and built Hin Leong Trading into one of Asia's largest independent oil trading companies, supplying fuel to ships and refineries across the region for more than five decades. By the 2010s, Hin Leong and its related companies were trading billions of dollars worth of oil a year, and Lim had become one of Singapore's wealthiest and most respected businessmen — the kind of "legendary" trader whose company banks extended enormous, largely unquestioned credit lines to finance cargoes of crude and refined products moving through the world's busiest bunkering port.
 
@@ -5314,6 +5318,10 @@ NotoriousGM.push(
     slug: 'prashanta-kumar-halder-nrb-global-bank-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Bangladesh_Bank_Main_Building.jpg?width=1200',
+    coverImageCredit: "Photo: Mrb Rafi, Wikimedia Commons (CC BY-SA 4.0) — Dhaka, Bangladesh, where Halder's financial institutions were based",
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     sourceUrl: 'https://en.wikipedia.org/wiki/Prashanta_Kumar_Halder',
     body: `Prashanta Kumar Halder, universally known in Bangladesh as PK Halder, trained as an engineer at the Bangladesh University of Engineering and Technology before adding an MBA and a CFA charter and rising steadily through the country's non-bank financial institutions — deputy managing director of Industrial and Infrastructure Development Finance Company by 2008, managing director of Reliance Finance Limited the following year, and by 2015 managing director of NRB Global Bank (later rebranded Global Islami Bank) while simultaneously chairing People's Leasing and Financial Services Limited, one of Bangladesh's largest non-bank lenders.
 
@@ -5355,6 +5363,10 @@ NotoriousGM.push(
     slug: 'victor-incendy-cascade-international-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Boca_Raton_-_48189741967.jpg?width=1200',
+    coverImageCredit: 'Photo: Paul Sableman, Wikimedia Commons (CC BY 2.0) — Boca Raton, Florida, where Cascade International was based',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     sourceUrl: 'https://www.bloomberg.com/news/articles/1995-06-04/incendy-faces-a-cascadeofcharges',
     body: `Victor Incendy, a Hungarian-born businessman, ran Cascade International out of Boca Raton, Florida, building it in the late 1980s into a publicly traded chain of women's clothing boutiques and cosmetics counters that Wall Street analysts treated as a genuine retail success story. Cascade's own securities filings and press materials described a rapidly growing national network of stores, at various points claiming hundreds of retail locations across the country; its stock climbed accordingly, at its peak trading above $11 a share and giving the company a market value of roughly $200 million.
 
@@ -5372,6 +5384,9 @@ NotoriousGM.push(
     slug: 'tanvir-mahmud-hallmark-group-sonali-bank-scam',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/A_branch_of_Sonali_Bank,_Mirpur_Cantonment,_Dhaka,_2014.jpg?width=1200',
+    coverImageCredit: 'Photo: Aashaa, Wikimedia Commons (CC BY-SA 3.0) — a Sonali Bank branch in Dhaka, the state-owned lender Mahmud and Islam defrauded',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.thedailystar.net/news/bangladesh/crime-justice/news/hallmark-loan-scam-they-deserve-gallows-3570671',
     body: `Tanvir Mahmud was managing director of Hallmark Group, a Bangladeshi conglomerate with interests spanning garments, jute, and other light industry, when he and his wife, Hallmark chairman Jesmin Islam, orchestrated one of the largest bank frauds in the country's history through a single branch of Sonali Bank, Bangladesh's largest state-owned lender. Between roughly 2010 and 2012, Hallmark and a network of associated shell entities — including a nonexistent company called Max Spinning Mills — obtained loans from Sonali Bank's Ruposhi Bangla Hotel branch in Dhaka using forged export documents, fabricated inland bills, and fraudulent collateral, with bank officials at the branch approving disbursements that internal controls should never have allowed.
 
@@ -5477,6 +5492,10 @@ NotoriousGM.push(
     slug: "jean-joseph-wells-real-estate-investment-fraud",
     author: "ScamShield Editorial",
     tags: ["notorious", "notorious-scammer"],
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/West_Palm_Beach_Skyline.jpg?width=1200",
+    coverImageCredit: "Wikimedia Commons (public domain) — West Palm Beach, Florida, near where Wells Real Estate Investment was based",
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     sourceUrl: "https://www.justice.gov/usao-sdfl/pr/convicted-felon-sentenced-20-years-prison-50-million-real-estate-fraud-scheme",
     body: `Jean Joseph, 55, of Boca Raton, Florida, was already a convicted fraudster serving a federal prison sentence when, prosecutors say, he kept right on running a second, much larger fraud scheme — directing it from behind bars with the help of his wife, Janalie Camille Bingham, 44, who also went by Janalie Camille Joseph.
 
@@ -5538,6 +5557,10 @@ NotoriousGM.push(
     slug: "matthew-shane-perkins-rentdue-capital-investment-fraud",
     author: "ScamShield Editorial",
     tags: ["notorious", "notorious-scammer"],
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/City_Hall_(St_George,_Utah).jpg?width=1200",
+    coverImageCredit: "Wikimedia Commons (CC BY-SA 3.0) — St. George, the seat of Washington County, Utah, where Perkins lived",
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     sourceUrl: "https://www.justice.gov/usao-ut/pr/southern-utah-man-admits-wire-fraud-89m-investment-scheme-over-200-victims",
     body: `Matthew Shane Perkins, of Washington County, Utah, presented himself to prospective investors as a "brilliant trader who consistently beat the market and rarely suffered losing days" — the kind of unbroken winning streak that should be a warning sign in itself, since no legitimate trading strategy avoids losses indefinitely. Between August 2023 and November 2025, according to the U.S. Attorney's Office for the District of Utah, that pitch helped Perkins and a business partner raise more than $89 million from over 200 investors nationwide.
 
@@ -5552,6 +5575,10 @@ The Perkins case is a reminder that a fund's reported performance is only as tru
     slug: "leigh-tesar-medicare-wound-care-fraud",
     author: "ScamShield Editorial",
     tags: ["notorious", "notorious-scammer"],
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Raymond_James_Stadium.JPG?width=1200",
+    coverImageCredit: "Photo: AHeneen, Wikimedia Commons (CC BY-SA 4.0) — Raymond James Stadium in Tampa, where prosecutors allege scheme proceeds paid for a luxury suite",
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found; case is at the indictment stage
     sourceUrl: "https://www.justice.gov/criminal/criminal-fraud/health-care-fraud-unit/2026-national-hcf-case-summaries",
     body: `Note: this case is at the indictment stage. The scheme described below reflects criminal charges brought by federal prosecutors — Leigh Tesar, Walter Presha Jr., and Koby Evans have not been convicted, and the allegations against them are, as a matter of law, unproven.
 
