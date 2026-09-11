@@ -7839,6 +7839,10 @@ NotoriousGM.push(
     slug: 'jeffrey-higgins-baker-city-oregon-investment-adviser-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    // representative photo — replace with an exact match if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Baker_City_Hall,_Baker_City,_Oregon.jpg?width=1200',
+    coverImageCredit: 'Photo: Ken Lund (CC BY-SA 2.0) — Baker City, Oregon, where Higgins worked as an investment adviser for nearly 17 years',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.justice.gov/usao-or/pr/baker-city-man-pleads-guilty-investment-fraud',
     body: `Jeffrey Thomas Higgins worked as an investment adviser in Baker City, a small eastern Oregon town, from December 2007 through June 2024 — nearly seventeen years serving the same community. According to federal prosecutors, Higgins pitched clients on a plan that sounded conservative rather than speculative: he would buy stock shares for them at a steep discount to market price, an arrangement he marketed as "low-risk yet with a high return." What he actually did, prosecutors said, was buy the shares at ordinary market value using client money, then secretly sell those shares without the clients' knowledge or authorization and move the proceeds into his own bank account.
 
