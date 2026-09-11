@@ -5788,3 +5788,15 @@ UsGM.push({
     isHistorical: true,
     firstRecorded: '2018-01-01',
 });
+
+UsGM.push({
+    name: 'St. Louis-Area AI Voice-Clone Fake Kidnapping Scam',
+    slug: 'missouri-ai-voice-clone-fake-kidnapping-scam',
+    description: `A St. Louis-area woman identified only as "Rachel" answered a call in which her own phone appeared to show her college-age daughter's name and photo, then heard what sounded exactly like her daughter's voice claiming to have caused a car accident and to have just been taken by someone. A man on the line then threatened to kill the "kidnapped" daughter and claimed to be watching Rachel's house, pressuring her over roughly 90 minutes to wire thousands of dollars to Mexico, feeding her step-by-step instructions on where and how to send it. Rachel only learned it was a hoax when her real daughter called her directly, safe the entire time. Wentzville, Missouri cybersecurity expert Ann Dickherber, who consulted on the case, said the clip needed to fake her daughter's voice convincingly could have been as short as ten seconds of audio pulled from something as ordinary as a social media video: "Less than 10 seconds of your voice is all I need to be able to make a clone of your voice that would fool anyone." The FBI, which reported $16.6 billion in cybercrime losses nationwide in 2024 alone, recommends that families agree in advance on a private code word to verify a real emergency over the phone, always try to reach the supposedly kidnapped relative directly on a different line before sending any money, and treat a demand for an immediate wire transfer — especially one paired with threats not to hang up or call anyone else — as a hallmark of the scam rather than a real crisis. Anyone who receives a call like this is urged to stay calm, avoid sharing additional personal details that could make a second attempt more convincing, and report the attempt to the FBI's Internet Crime Complaint Center at ic3.gov.`,
+    categorySlug: 'ai-deepfake-scams',
+    alertLevel: 'critical',
+    sources: ['KSDK (Gray Media)', 'FBI'],
+    sourceUrl: 'https://www.1011now.com/2026/03/05/mom-loses-thousands-fake-kidnapping-call-using-ai-clone-daughters-voice/',
+    country: 'US',
+    state: 'MO',
+});
