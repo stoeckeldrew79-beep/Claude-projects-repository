@@ -7169,6 +7169,10 @@ NotoriousAF.push(
     slug: 'burnlounge-pyramid-scheme-ftc-ruling',
     author: 'ScamShield Editorial',
     tags: ['notorious'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/East_fa%C3%A7ade,_James_R._Browning_U.S._Court_of_Appeals_Building,_San_Francisco,_California_LCCN2010719383.tif?width=1200',
+    coverImageCredit: 'Photo: Carol M. Highsmith, Library of Congress / Wikimedia Commons / Public Domain — the James R. Browning U.S. Court of Appeals Building in San Francisco, home of the Ninth Circuit, which affirmed the ruling against BurnLounge',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2014/06/us-appeals-court-affirms-ruling-favor-ftc-upholds-lower-court-order-against-burnlounge-pyramid',
     body: `BurnLounge, Inc. launched around 2005 with a pitch aimed squarely at the iTunes era: pay to become a "Mogul," and BurnLounge would set participants up with their own personalized online music store, where they could sell songs and other digital media to customers and earn a cut of every sale. Co-founders Juan Alexander Arnold and John Taylor, along with executive Rob DeBoer, built a network-marketing sales force around that pitch, recruiting participants who paid to join at different membership tiers and were, in turn, encouraged to recruit others into the same opportunity beneath them.
 
