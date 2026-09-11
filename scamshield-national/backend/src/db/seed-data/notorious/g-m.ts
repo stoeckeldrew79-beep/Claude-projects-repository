@@ -6900,6 +6900,9 @@ NotoriousGM.push(
     slug: 'ippei-mizuhara-ohtani-interpreter-bank-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Ippei_Mizuhara_(48035187472).jpg?width=1200',
+    coverImageCredit: 'Moto "Club4AG" Miwa, CC BY 2.0, via Wikimedia Commons',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.ice.gov/news/releases/former-major-league-baseball-interpreter-sentenced-57-months-imprisonment-following',
     // no rights-cleared photo identified — sourceUrl above serves as the "read the full story" link
     body: `For six years, Ippei Mizuhara was less an interpreter than an inseparable fixture in Shohei Ohtani's American life — translating the two-way baseball star's interviews, managing his schedule, and standing beside him at press conferences from Ohtani's 2018 rookie season with the Los Angeles Angels through his record $700 million contract with the Los Angeles Dodgers. That closeness, prosecutors later said, is exactly what let Mizuhara quietly drain nearly $17 million from Ohtani's own bank account over more than two years without his employer ever noticing.
