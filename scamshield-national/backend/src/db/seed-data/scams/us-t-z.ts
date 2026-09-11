@@ -2805,3 +2805,17 @@ UsTZ.push({
     country: 'US',
     state: 'WA',
 });
+
+UsTZ.push({
+    name: 'Traffic Monsoon "AdPack" Online Advertising Ponzi Scheme (Charles Scoville)',
+    slug: 'utah-traffic-monsoon-scoville-adpack-ponzi-scheme',
+    description: `Charles Scoville ran Traffic Monsoon, LLC out of Utah as what he marketed to customers as an online advertising business: for $50, a member bought a bundle called an "AdPack" that included traffic to their own website along with a promise Traffic Monsoon would pay a 10% return simply for clicking on other members' ads each day. Roughly 90% of the estimated 145,000 people who bought in lived outside the United States, drawn by the promise of steady payouts that required no real investment expertise, and the business took in more than $207 million in total. The U.S. Securities and Exchange Commission sued Scoville and Traffic Monsoon in July 2016, alleging the AdPack payouts were not funded by real advertising revenue at all but by money coming in from newer members — the defining structure of a Ponzi scheme — and obtained an emergency asset freeze and the appointment of a receiver that halted roughly $60 million in pending withdrawals mid-scheme. A federal judge in Utah found Traffic Monsoon was indeed an unlawful Ponzi scheme, and the Tenth Circuit Court of Appeals upheld the SEC's authority to pursue the case even against the large share of victims located abroad. The SEC obtained a default judgment against Scoville and Traffic Monsoon in January 2021 ordering nearly $5 million in disgorgement and civil penalties, on top of the assets already frozen and returned to investors through the court-appointed receivership. A federal grand jury separately indicted Scoville on wire and tax fraud charges tied to the scheme, though that criminal case was later dismissed by prosecutors. The case is a reminder that a "revenue-sharing" or "advertising" business promising a fixed daily or percentage return for a purchase, rather than actual sales of a real product or service to real customers, is describing a Ponzi scheme regardless of what it calls itself — a legitimate advertising company's revenue comes from advertisers paying for exposure, not from new members paying in to fund payouts to earlier ones.`,
+    categorySlug: 'ponzi-pyramid-schemes',
+    alertLevel: 'medium',
+    sources: ['U.S. Securities and Exchange Commission (SEC)', 'U.S. Court of Appeals for the Tenth Circuit'],
+    sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-23604',
+    country: 'US',
+    state: 'UT',
+    isHistorical: true,
+    firstRecorded: '2014-01-01',
+});

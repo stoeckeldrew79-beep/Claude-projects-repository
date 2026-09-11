@@ -5972,6 +5972,10 @@ NotoriousAF.push(
     slug: 'andrew-jacobus-kronus-finser-international-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Ft._Lauderdale,_FL,_Courthouse,_Broward_County,_11-21-2010_(10).JPG?width=1200',
+    coverImageCredit: 'Georgia Guercio, CC BY-SA 3.0, via Wikimedia Commons',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.justice.gov/usao-sdfl/pr/fort-lauderdale-financial-advisor-sentenced-20-years-94-million-international',
     body: `Andrew Hamilton Jacobus presented himself to prospective clients as an experienced, trustworthy financial advisor operating through two companies he controlled, Kronus Financial Corporation and Finser International Corporation. According to the U.S. Attorney's Office for the Southern District of Florida, that persona was the entire foundation of a fraud that ran for years and eventually drew in more than 150 investors across South Florida, Venezuela, and Spain — including lawyers, doctors, members of the Venezuelan Archdiocese, former employees, and even Jacobus's own family members.
 
