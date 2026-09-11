@@ -6227,6 +6227,10 @@ NotoriousGM.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/archives/opa/pr/operator-helix-darknet-cryptocurrency-mixer-sentenced-money-laundering-conspiracy-and',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/E. Barrett Prettyman U.S. Courthouse.JPG?width=1200',
+    coverImageCredit: 'Photo: AgnosticPreachersKid / Wikimedia Commons (CC BY-SA 3.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Larry Dean Harmon, of Akron, Ohio, ran a service on the dark web that solved a specific problem for a specific kind of customer: bitcoin, despite its reputation for anonymity, leaves a permanent public record of every transaction on its blockchain, which meant proceeds from drug sales and other crimes could in principle be traced back to their source. From 2014 to 2017, Harmon operated Helix, a bitcoin "mixer" or "tumbler" that took in customers' bitcoin, pooled and scrambled it together with bitcoin from many other sources, and sent back different coins to a destination of the customer's choosing — deliberately severing the trail investigators would otherwise be able to follow.
 
 Harmon built Helix to serve the dark web's biggest markets directly. He operated a companion darknet search engine called Grams to help customers find drug marketplaces and other illicit vendors in the first place, developed an application programming interface that let markets including AlphaBay — at the time the largest dark web marketplace in the world — integrate Helix directly into their own bitcoin withdrawal systems, and customized the service's features for compatibility with other major markets like Evolution and Cloud 9. Prosecutors said Helix processed at least 354,468 bitcoin on behalf of its customers — worth approximately $311 million at the time of the transactions — much of it traced directly to and from darknet drug markets, with Harmon keeping a percentage of every transaction as his fee.
@@ -6822,6 +6826,10 @@ NotoriousGM.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/usao-cdca/pr/beverly-hills-and-ventura-county-men-indicted-allegedly-running-nft-crypto-fraud',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Highsmithbeverlyhillscityhall.jpg?width=1200',
+    coverImageCredit: 'Photo: Carol M. Highsmith / Library of Congress (Public Domain)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     // no rights-cleared photo found — sourceUrl above serves as the "read the full story" link
     body: `Gabriel Hay, 23, of Beverly Hills, and Gavin Mayo, 23, of Thousand Oaks, California, spent from May 2021 to May 2024 sponsoring one non-fungible token or digital asset project after another — Vault of Gems, Faceless, Sinful Souls, Clout Coin, Dirty Dogs, Uncovered, MoonPortal, Squiggles, and Roost Coin among them — and, according to a federal indictment unsealed in December 2024, running the same play each time: promote the project with false and misleading statements about its potential, publish a "roadmap" of features and plans the sponsors never intended to deliver, then abandon it once investor money had come in. Prosecutors called it the largest NFT scheme the Justice Department has ever prosecuted, built on a pattern known in crypto circles as a "rug pull" — vanishing with investor funds the moment enough of them arrive.
 
