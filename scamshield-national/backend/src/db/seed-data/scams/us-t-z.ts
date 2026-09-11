@@ -3316,6 +3316,48 @@ UsTZ.push({
 });
 
 UsTZ.push({
+    name: 'Virgin Islands Fake Traffic Fine Text Scam',
+    slug: 'virgin-islands-fake-traffic-fine-text-scam',
+    description: `The Virgin Islands Police Department and the territory's Judicial Branch issued a joint warning in late August 2026 after fraudulent text messages began circulating that claim the recipient has an outstanding traffic violation and must pay a fine online immediately, using a fake link styled to look like the Judiciary's official payment portal. Some versions of the message go a step further, asking the recipient to reply "Y" to confirm before receiving the "citation details" — a reply that instead lets the scammer's system harvest device and contact data rather than presenting any real citation. Courts Administrator Regina Petersen stated plainly that "the Judicial Branch DOES NOT issue text or email traffic violation notifications to the public," making any such message illegitimate regardless of how official it looks. Residents are advised to delete the text without clicking any link or replying to it, and to confirm any actual outstanding citation only through the Judiciary's own "Pay Your Citation" portal at vicourts.org or by paying in person, never through a link supplied in an unsolicited text. Anyone who receives one of these messages can report it to VIPD at 340-778-2211 (St. Croix), 340-774-2211 (St. Thomas–St. John), or the Communications Department at 340-514-8006.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Virgin Islands Police Department', "V.I. Judicial Branch"],
+    sourceUrl: 'https://www.virginislandsdailynews.com/for_the_record/vipd-judicial-branch-warn-of-new-text-scam-on-traffic-fines/article_f04d6498-5970-4762-aebb-2ad149d959c3.html',
+    country: 'US',
+    state: 'VI',
+    isHistorical: true,
+    firstRecorded: '2026-08-29',
+});
+
+UsTZ.push({
+    name: 'WAPA Fake Vehicle Raffle Phone Scam',
+    slug: 'wapa-fake-vehicle-raffle-scam',
+    description: `The Virgin Islands Water and Power Authority (WAPA) warned customers on December 10, 2025 about callers falsely claiming to represent the utility who say the customer has been entered into a raffle for a vehicle and just needs to "confirm" personal or credit card information to complete the entry or claim the prize. WAPA does not run phone-in vehicle raffles and does not call customers asking them to provide financial information to participate in one, so any such call is an impersonation regardless of how much the caller ID or the caller's script matches the utility. The authority's guidance is direct: do not provide personal or credit card information over the phone, and hang up immediately if a caller claiming to be WAPA asks for it, since a real WAPA representative already has the account information needed for legitimate business and has no reason to ask a customer to read it back. WAPA asked customers to warn friends, family, and neighbors — particularly elderly customers who may be more likely to answer an unknown call and less likely to question a "you've won" pitch — since the scam spreads primarily through word of mouth reaching people before the utility's own warning does.`,
+    categorySlug: 'utility-scams',
+    alertLevel: 'medium',
+    sources: ['Virgin Islands Water and Power Authority (WAPA)'],
+    sourceUrl: 'https://stjohnsource.com/2025/12/10/scam-alert-wapa-warns-of-fake-raffle/',
+    country: 'US',
+    state: 'VI',
+    isHistorical: true,
+    firstRecorded: '2025-12-10',
+});
+
+UsTZ.push({
+    name: 'Virgin Islands Wireless Verification-Code Takeover Scam',
+    slug: 'virgin-islands-wireless-verification-code-scam',
+    description: `The Virgin Islands Police Department warned residents in July 2026 about callers who impersonate a wireless carrier's customer service or security department and, mid-call, trigger the carrier's own real one-time verification code to be sent to the victim's phone — then ask the victim to read that code aloud to "verify their identity" or "secure the account." Reading the code back actually hands the scammer the exact credential the carrier's system uses to prove the account holder is authorizing a change, letting the caller bypass account security, make unauthorized account changes, port the victim's number to a new device, and pull personal information tied to the account, which can cascade into further identity theft or financial fraud once the attacker controls the phone number. VIPD stressed that a legitimate wireless company representative never needs a customer to read back a one-time verification code, password, PIN, or other security credential over the phone, since that code exists specifically to authenticate the account holder rather than the person on the call. Anyone who receives such a call is advised to hang up immediately if asked for a verification code, contact the wireless provider directly through its official customer service line rather than any number the caller supplied, and monitor the account afterward for unauthorized changes; anyone who already read a code back to a caller should contact their provider right away to secure the account. Residents can report these calls to the VIPD Economic Crimes Unit at 340-774-3942, ext. 5618.`,
+    categorySlug: 'account-takeover',
+    alertLevel: 'high',
+    sources: ['Virgin Islands Police Department'],
+    sourceUrl: 'https://stjohnsource.com/2026/07/13/telephone-scam-targets-usvi-wireless-customers-vipd-warns/',
+    country: 'US',
+    state: 'VI',
+    isHistorical: true,
+    firstRecorded: '2026-07-13',
+});
+
+UsTZ.push({
     name: 'Fake Vinyl Record Storefront Scam',
     slug: 'vinyl-record-fake-storefront-scam',
     description: `As vinyl sales have kept climbing for nearly two decades running, a wave of fake record shops has followed the money straight into collectors' Instagram and Facebook feeds. The pitch is a polished-looking storefront advertising hard-to-find pressings, colored-vinyl variants, or brand-new box sets — sometimes major-label releases like a Rolling Stones or Beatles set — at prices well below what any legitimate retailer or pressing plant charges, paired with professional product photography lifted from real stores. A buyer who orders is often given a fake tracking number to keep them from disputing the charge too early, then finds the "shop" unreachable once the shipping window passes — email goes unanswered, the contact form bounces, and eventually the entire website disappears and reappears days later under a new name. The Better Business Bureau has logged reports of the same pattern under different storefront names; in one filed report, a Kentucky collector who ordered records after seeing a Facebook ad for a shop called Ithered Vinyl Records lost $80 when the order never arrived and the "business" turned out to have no verifiable history anywhere online. Because record collecting runs on scarcity and hype around limited pressings, the community itself has become a frontline defense — collectors on forums like Discogs and Reddit's vinyl communities actively compile and share lists of newly registered scam storefronts as they appear, often within days of the first complaints. The BBB recommends checking how recently a seller's domain was registered before buying, searching the store's name alongside the words "scam" or "complaint," looking for a real street address and working contact information rather than only a form, and paying by credit card — which allows a chargeback — rather than a debit card, payment app, or gift card, since a listing with no verifiable seller history and a price far under market value is the clearest sign the "record shop" behind it doesn't actually exist.`,
