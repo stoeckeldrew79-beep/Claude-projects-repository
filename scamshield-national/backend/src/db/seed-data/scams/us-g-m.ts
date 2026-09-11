@@ -5746,3 +5746,15 @@ UsGM.push({
     isHistorical: true,
     firstRecorded: '2025-07-28',
 });
+
+UsGM.push({
+    name: 'Chosen Kingdom Builders Fake Housing-Assistance Scheme',
+    slug: 'michigan-chosen-kingdom-builders-housing-assistance-scheme',
+    description: `Chosen Kingdom Builders, a Waterford, Michigan nonprofit run by its president Kwanzel Revon Howerton, told Southeast Michigan property owners it could supply substantial rental-assistance funding for the tenants it placed in their homes, luring at least four landlords into signing leases on that promise. Michigan Attorney General Dana Nessel's lawsuit, filed August 13, 2026 in Ingham County's 30th Circuit Court, alleges the assistance the nonprofit promised was never guaranteed — it was "speculative and conditioned on events to occur in the future, such as finding assistance from third parties" — but Chosen Kingdom Builders omitted that uncertainty when soliciting property owners, then fell behind on rent obligations it could not actually cover before moving on to sign up new landlords, racking up hundreds of thousands of dollars in unpaid rent and leaving tenants facing eviction once the arrears came due. The complaint also alleges the nonprofit operated without a required real estate license and rented out homes without proper inspections. Nessel is seeking injunctive relief under the Michigan Consumer Protection Act, removal of Howerton from the nonprofit's board, and the organization's dissolution. A landlord approached by an organization offering to place tenants in exchange for promised rental-assistance payments should get that funding commitment in writing from the actual funding source, not just the placing organization, before signing a lease, and should confirm the organization is a licensed real estate business if it is acting as one.`,
+    categorySlug: 'rental-housing',
+    alertLevel: 'medium',
+    sources: ["Michigan Attorney General's Office (Dana Nessel)", 'WDIV ClickOnDetroit'],
+    sourceUrl: 'https://www.michigan.gov/ag/news/press-releases/2026/08/13/ag-nessel-files-lawsuit-against-oakland-county-housing-assistance-nonprofit',
+    country: 'US',
+    state: 'MI',
+});
