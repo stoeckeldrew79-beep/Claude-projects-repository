@@ -6578,3 +6578,54 @@ Morizono pleaded guilty in March 2025 to 34 counts, including conspiracy to comm
 The Jeff Funding case shows how a single operator can stack several distinct frauds into one pipeline, each one feeding the next: fabricated identity-theft reports launder a person's credit file, a cleaner credit file unlocks larger loans to steal, a straw buyer turns a stolen loan into a physical house, and a pandemic relief program becomes just one more account to draw down. Seventeen convictions later, the sentencing judge's own assessment of Morizono's conduct — "deeply troubling and absolutely corrupt" — could just as easily describe the model itself.`,
   },
 );
+NotoriousGM.push(
+  {
+    title: 'Meelad Dezfooli: The Henderson Man Who Turned $11 Million in PPP Fraud Into 25 Nevada Properties',
+    slug: 'meelad-dezfooli-ppp-loan-fraud-nevada-properties',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-nv/pr/nevada-man-sentenced-over-11m-covid-19-relief-fraud-and-money-laundering-scheme',
+    // no rights-cleared photo found — sourceUrl above serves as the "read the full story" link
+    body: `Meelad Dezfooli, of Henderson, Nevada, submitted three fraudulent Paycheck Protection Program loan applications for businesses he owned, backing each one with false tax records, fabricated payroll documents, and grossly inflated employee counts designed to maximize the amount lenders would approve. Federal prosecutors said the applications worked: banks funded the loans based on paperwork that bore little relationship to the businesses' real operations, and Dezfooli walked away with more than $11 million in pandemic relief funds intended for employers struggling to keep workers on payroll.
+
+Rather than spend the money on the payroll the applications claimed to support, prosecutors said Dezfooli set about laundering it through real estate on a remarkable scale — using aliases including "James Dez" and a fictitious entity called "Holdings Trust" to purchase approximately 25 properties across Nevada, obscuring his own name from the paper trail on each deal. He funneled additional proceeds into a personal investment account, bought luxury vehicles, and gambled extensively at Las Vegas casinos, all while, according to prosecutors, continuing to sell off properties bought with the stolen funds even after the fraud had already drawn law enforcement scrutiny.
+
+A federal jury convicted Dezfooli in September 2024 on ten counts, including bank fraud, money laundering, and engaging in transactions with criminally derived property. He was sentenced in August 2025 to more than 15 years in federal prison, to be followed by five years of supervised release, and ordered to pay $11,793,064.15 in restitution and to forfeit $11,231,186.52, along with two vehicles and five of the properties he had acquired with the fraud proceeds. Announcing the sentence, the Justice Department's Criminal Division said Dezfooli had stolen taxpayer funds to finance luxury purchases and gambling, while IRS Criminal Investigation called the case a reminder of how seriously federal investigators pursue Paycheck Protection Program fraud years after the loans themselves were issued.
+
+Dezfooli's case is a study in what pandemic-relief fraud looks like once the money has to go somewhere: rather than disappearing into a single extravagant purchase, $11 million spread itself across two dozen ordinary-looking property deeds, each one registered to a name that wasn't his, which is exactly the kind of laundering that depends on nobody ever adding up the full picture — until a federal investigation does precisely that.`,
+  },
+);
+NotoriousGM.push(
+  {
+    title: 'Michael Irwin, Lisa Frank, and the Car-Donation Charity That Gave Cancer Patients Three-Tenths of One Percent',
+    slug: 'michael-irwin-lisa-frank-kars-r-us-charity-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2025/09/ftc-19-states-act-stop-deceptive-cancer-charity-fundraising-scheme',
+    // no rights-cleared photo found — sourceUrl above serves as the "read the full story" link
+    body: `Kars-R-Us.com, Inc. built a national car-donation business on a simple pitch, repeated for years across English- and Spanish-language television, radio, and online ads: donate your old vehicle, and the proceeds would help fund free and low-cost breast cancer screenings through its charity partner, the United Breast Cancer Foundation. Between 2017 and 2022, more than 84,000 donors handed over their vehicles believing exactly that. According to a complaint the Federal Trade Commission and 19 states filed in September 2025, Kars raised $45.5 million from those donations — and directed just $126,815 of it, roughly 0.28 percent, to actual breast cancer screening services.
+
+The rest of the money, regulators said, went everywhere except where the ads promised: $34.9 million flowed to Kars, its operators, and the vendors who ran its fundraising machine, while the charitable purpose that had persuaded donors to give away a car in the first place received what amounted to a rounding error. Michael Irwin served as Kars's president and co-owner until 2022; Lisa Frank took over as the company's sole owner and current president. Both were named personally in the FTC's complaint, filed in the U.S. District Court for the Central District of California with 22 agencies from 19 states joining the case.
+
+Under the settlement, Kars, Irwin, and Frank face a combined monetary judgment of $3,882,091 — a figure regulators said reflects only a fraction of the money actually misdirected, and one that will be largely suspended given the defendants' documented inability to pay in full, aside from $550,000 earmarked for donation to a charity with a genuine breast-cancer mission. Irwin was permanently banned from fundraising or providing fundraising services to anyone, directly or indirectly; Frank and Kars were barred from misrepresenting how donated funds are used and required to substantiate any future charitable claims, with the full judgment becoming immediately due if either violates the terms. "This case should send a strong message to fundraisers that the FTC will take action if they misrepresent the truth," said Christopher Mufarrige, director of the FTC's Bureau of Consumer Protection.
+
+The Kars-R-Us case is a reminder that a charity scam doesn't need a fake charity to work — United Breast Cancer Foundation is a real, existing organization, which made the pitch easier to believe and harder for a skeptical donor to fact-check with a quick search. What made the arrangement a fraud, according to regulators, wasn't the charity's name but the arithmetic behind it: a fundraising operation that keeps 99.7 cents of every charitable dollar for itself is not a car-donation program with high overhead, it is a business that uses a cause donors care about as the entire product.`,
+  },
+);
+NotoriousGM.push(
+  {
+    title: 'John Spiller, Jakob Mears, and the Billion-Robocall Ring That Broke the FCC\'s Fine Record',
+    slug: 'john-spiller-jakob-mears-rising-eagle-robocall-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.fcc.gov/document/fcc-fines-telemarketer-225-million-spoofed-robocalls',
+    // no rights-cleared photo found — sourceUrl above serves as the "read the full story" link
+    body: `John C. Spiller II and Jakob A. Mears ran a Texas-based telemarketing operation, doing business as Rising Eagle Capital Group and JSquared Telecom, that the FCC said placed approximately one billion robocalls to consumers across the United States and Canada during just the first four and a half months of 2019. The calls pitched health insurance, opening with a recorded message claiming lower-priced plans were available from recognizable insurers including Aetna, Cigna, and UnitedHealthcare. Anyone who pressed a button for more information was routed instead to call centers selling unrelated, no-name short-term health plans that had nothing to do with the brands named in the pitch.
+
+To keep the calls connecting despite growing consumer wariness of unknown numbers, Spiller and Mears's operation relied on "neighbor spoofing," faking caller ID information — the FCC identified at least 60 caller IDs used that belonged to other people or were entirely unassigned — so recipients would see a number that looked local and pick up. Spiller later admitted to the industry-run USTelecom Traceback Group that he knowingly placed calls to numbers on the National Do Not Call Registry, telling investigators he believed targeting those consumers was simply more profitable. The Federal Communications Commission proposed a fine against the pair in June 2020 and formally adopted a $225,000,000 Forfeiture Order in March 2021 — at the time, and still, the largest penalty the FCC has ever imposed for robocall violations, eclipsing the $120 million fine it had levied against timeshare robocaller Adrian Abramovich three years earlier. Rising Eagle petitioned for reconsideration; the FCC denied the petition and reaffirmed the full $225 million fine in June 2023.
+
+The FCC's fine ran alongside a separate lawsuit Texas Attorney General Ken Paxton filed in June 2020, joined by attorneys general in Arkansas, Indiana, Michigan, Missouri, North Carolina, North Dakota, and Ohio, accusing Spiller, Mears, and their companies of violating the federal Telephone Consumer Protection Act, the Telemarketing Sales Rule, and state consumer-protection laws. "Robocalls, especially those that spoof Caller ID information and violate specific do-not-call lists, are a blatant invasion of privacy," Paxton said in announcing the multistate action. That case concluded in March 2023 with a Texas federal court entering monetary judgments against Spiller and Mears totaling $244,658,640, alongside a permanent injunction banning both men for life from initiating or facilitating robocalls, working for any company that makes them, or engaging in telemarketing of any kind — with the judgment, like the FTC's in similar cases, largely suspended given the defendants' inability to pay the full amount.
+
+Spiller and Mears's case shows how a robocall operation reaches a billion calls in months, not years: by selling access rather than a product. Rising Eagle wasn't itself the health-insurance seller taking consumers' money — it was a lead-generation vendor, paid to fill call centers with warm transfers, which meant its only real product was volume, and volume was exactly what neighbor-spoofed caller IDs and a Do Not Call list treated as a target list, rather than a legal boundary, were built to deliver.`,
+  },
+);
