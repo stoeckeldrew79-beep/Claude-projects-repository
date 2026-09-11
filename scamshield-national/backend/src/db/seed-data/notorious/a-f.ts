@@ -5825,6 +5825,10 @@ NotoriousAF.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://manhattanda.org/d-a-bragg-announces-guilty-plea-in-multi-million-dollar-investment-fraud-scheme/',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/100_Centre_Street_Criminal_Courts_Building.jpg?width=1200',
+    coverImageCredit: 'Beyond My Ken, CC BY-SA 4.0, via Wikimedia Commons',
+    coverImagePosition: 50,
     body: `Alan Burak, 41, of New York, founded an investment firm called Never Alone Capital, LLC, and spent years leaning on personal relationships — with friends, family members, and people who trusted him for financial advice — to solicit money he claimed was being professionally invested. According to the Manhattan District Attorney's Office, between April 2018 and May 2023 Burak told investors Never Alone Capital had been operating profitably since 2006, claimed to be managing as much as $157 million in assets under management, and represented that he held securities licenses he did not actually have. In one pitch, he promised a 50 percent return within three months.
 
 In reality, prosecutors said, the total amount investors ever gave Burak was roughly $5 million, and he diverted more than $4 million of it to personal expenses rather than any legitimate investment activity. To keep victims sending money, Burak generated fabricated weekly and monthly "Account and Activity Statements" that falsely showed their balances steadily growing. The Securities and Exchange Commission filed a parallel civil fraud action against Burak in February 2025 over the same scheme, and prosecutors' filings referenced a July 2022 recording in which Burak told an associate that he was "fake," that he did not have a real business, and that he was taking their money — an admission that did not stop him from soliciting new investors for close to another year afterward.
