@@ -7721,6 +7721,10 @@ NotoriousAF.push(
     slug: 'aaron-beam-healthsouth-accounting-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    // representative photo — replace with an exact match if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Birmingham_Skyline,_Alabama_(27864996195).jpg?width=1200',
+    coverImageCredit: 'Photo: Tony Webster (CC BY-SA 2.0) — Birmingham, Alabama, where HealthSouth was headquartered',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.justice.gov/archive/opa/pr/2003/April/03_crm_255.htm',
     body: `Aaron Beam helped Richard Scrushy found HealthSouth out of a single-room office in 1984 and served as the company's first chief financial officer as it grew into the country's largest chain of rehabilitation hospitals. According to Beam's own later account and federal prosecutors, the trouble started in 1996, when HealthSouth's quarterly earnings began falling short of the numbers Scrushy had already promised Wall Street analysts. Rather than report the shortfall, Beam has said, Scrushy directed him to "fix the numbers" so the company's reported results matched the forecast instead of the business it actually ran.
 
