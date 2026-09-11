@@ -2247,3 +2247,20 @@ Because Joe Giudice had never completed the process of becoming a U.S. citizen d
 The Giudices' case is a reminder that a bankruptcy filing is a sworn representation to a federal court, not a formality — and that the falsehoods prosecutors say fueled the case weren't limited to routine paperwork: concealing a genuinely new source of income, even one being broadcast on national television at the very moment it was denied under oath, is exactly the kind of concrete, checkable fact that can turn a civil bankruptcy into a federal criminal prosecution.`,
   },
 );
+
+NotoriousTZ.push(
+  {
+    title: 'Venkateswara Chagamreddy and the Fake-Federal-Officer Gold Courier Scam',
+    slug: 'venkateswara-chagamreddy-gold-courier-elder-scam',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-ndok/pr/indian-citizen-united-states-student-visa-sentenced-defrauding-vietnam-veteran',
+    body: `Venkateswara Chagamreddy, an Indian national living in San Antonio, Texas, on a student visa, was the in-person collector for a scam that reached a 79-year-old Vietnam veteran in rural Delaware County, Oklahoma, through a chain of impersonation built specifically to feel official. In August 2025, according to the U.S. Attorney's Office for the Northern District of Oklahoma, the victim received a call to what he believed was Microsoft technical support, warning him that criminal activity had been detected on his computer. A second caller then identified himself as a federal officer, provided a fabricated badge number, and told the victim his identity had been stolen and used to commit federal crimes — and that to protect what remained of his money, he needed to liquidate it into gold for safekeeping.
+
+Once the victim was convinced, prosecutors say the conspiracy directed him by text message and photograph on exactly how to convert his savings into gold, then dispatched Chagamreddy to collect it in person. The scheme escalated once its operators learned the victim had roughly $1 million in retirement accounts beyond the money he'd already handed over: they pushed him to withdraw far more, at one point demanding $200,000 to $500,000, using a fabricated story about needing to cover hotel costs in Hong Kong. Delaware County sheriff's deputies arrested Chagamreddy at the scheduled pickup, recovering $500 in cash, a cell phone, and 23 ounces of gold from his vehicle. Investigators later connected him to at least two more victims elsewhere in the country: an 87-year-old woman in North Carolina, relieved of 29 ounces of gold, and a 75-year-old woman in Andale, Kansas, who lost 23 ounces.
+
+A jury convicted Chagamreddy of conspiracy to commit wire fraud in April 2026. U.S. District Judge John D. Russell sentenced him to 30 months in federal prison, to be followed by three years of supervised release, and ordered him to pay $99,496 in restitution. Because Chagamreddy is not a U.S. citizen, his felony conviction is expected to trigger removal proceedings once his sentence is served.
+
+Chagamreddy's role illustrates how tech-support and government-impersonation scams increasingly split labor across a network of specialists: a caller poses as Microsoft, a second poses as a federal agent to add a veneer of legal authority, and a low-level courier — often, as here, someone with limited standing to lose and everything to gain from a cash payment — shows up to physically collect the converted assets, insulating the operation's higher-level organizers from ever being in the same room as a victim. No legitimate federal officer, law enforcement agency, or tech company will ever instruct someone to withdraw money, convert it into gold or gift cards, and hand it to a courier who arrives at their door; that instruction is, on its own, proof of a scam regardless of how convincing the badge number or caller ID looks.`,
+  },
+);
