@@ -13338,3 +13338,16 @@ International.push(
     country: 'AG',
   },
 );
+
+International.push(
+  {
+    name: 'Fake Governor-General Social Media Impersonation Scam',
+    slug: 'antigua-barbuda-fake-governor-general-social-media-scam',
+    description: `The Office of the Governor-General of Antigua and Barbuda issued a public notice, reported by the Antigua Observer and Antigua News Room in September 2021, warning that at least two residents had already been defrauded of thousands of dollars by a person or persons creating fake Facebook Messenger and Instagram accounts that impersonate His Excellency Sir Rodney Williams, the Governor-General. The fraudulent accounts use versions of the Governor-General's name and title along with at least one genuine photograph of him to appear authentic, then contact targets directly to request money — with some of the fake accounts claiming to be collecting funds on the Governor-General's behalf for United Nations-affiliated entities or promising a greater financial return in exchange for an upfront payment. The Office noted that the only valid Facebook page for the Governor-General is "Governor-General Antigua Barbuda," and that any other page or account using his name or image to request funds, however convincing the photo or title, is not genuine. Because a request appearing to come from the country's head of state carries an unusual degree of authority and urgency, victims have sent money without pausing to verify the claim through any official channel. The Office of the Governor-General asked members of the public never to send money to anyone purporting to be the Governor-General or acting on his behalf on social media, and to direct any query about a request claiming to come from him to the Office directly by email before responding or sending any funds.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Office of the Governor-General of Antigua and Barbuda', 'Antigua Observer Newspaper', 'Antigua News Room'],
+    sourceUrl: 'https://antiguanewsroom.com/two-people-scammed-of-thousands-by-person-pretending-to-be-governor-general/',
+    country: 'AG',
+  },
+);
