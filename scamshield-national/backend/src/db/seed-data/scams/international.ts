@@ -12834,3 +12834,16 @@ International.push(
     country: 'AW',
   },
 );
+
+International.push(
+  {
+    name: 'Aruba Notary-Impersonation Email Fraud Targeting Real Estate Buyers',
+    slug: 'aruba-notary-impersonation-email-fraud-real-estate',
+    description: `The Antilliaanse Arubaanse Notariële Vereniging (AANV), the professional association of Aruba's notaries, issued a warning around May 26, 2025, after multiple prospective real estate buyers on the island were targeted by criminals impersonating notaries by email. In the scheme, fraudsters send convincing payment instructions — styled to look like they come from a notary's office handling a property closing — directing the buyer to wire funds for the purchase to a foreign bank account controlled by the criminals rather than the legitimate escrow or client account. The AANV said some victims received these fraudulent payment demands even before they had made any real contact with an actual notary office, and that the messages were typically sent from free webmail addresses such as Gmail rather than a notary's genuine business domain, though they otherwise closely mimicked the format of legitimate closing correspondence. The association stated plainly that "multiple buyers have already become victims of these practices" and stressed there is no indication that any notary office's own systems or client data were hacked or breached — the fraud instead relies on impersonation and timing, inserting a fake instruction into the buyer's expectation that payment details will arrive by email at some point in the transaction. The AANV urged anyone who receives a payment instruction or is uncertain whether an email is genuinely from their notary to call the notary's office directly, using a phone number they look up independently rather than one listed in the suspicious email, before transferring any money, and asked real estate agents, appraisers, and other professionals involved in Aruban property transactions to warn clients about the scheme and report suspicious messages to both the notary's office and the police.`,
+    categorySlug: 'business-email-compromise',
+    alertLevel: 'high',
+    sources: ['Antilliaanse Arubaanse Notariële Vereniging (AANV)', 'Aruba.nu'],
+    sourceUrl: 'https://www.aruba.nu/nieuws/nieuws-op-aruba-algemeen/58184/notarisfraude-treft-kopers-vastgoed-op-aruba',
+    country: 'AW',
+  },
+);
