@@ -4329,7 +4329,6 @@ The pop-ups were the hook; the "technicians" on the other end of the phone numbe
 Leyva was arrested in 2019 and pleaded guilty to conspiracy to commit wire fraud. On January 21, 2022, a federal judge in the Southern District of New York sentenced her to 100 months — more than eight years — in prison, and ordered her to forfeit $4,679,586.93 and pay $2,707,882.91 in restitution to victims. Other members of the ring, including a former bank branch manager who helped launder the proceeds and a co-defendant who was extradited from India, were separately charged and sentenced in the same investigation.
 
 Tech-support scams built around a fake virus warning remain one of the most common fraud formats reported to the FTC and FBI's Internet Crime Complaint Center years after Leyva's ring was broken up, precisely because the pitch requires no research on the victim at all — just a pop-up designed to trigger panic before the reader has time to think, and a phone number ready to "help."`,
-    sourceUrl: 'https://www.justice.gov/usao-sdny/pr/las-vegas-woman-sentenced-prison-10-million-tech-support-fraud-scheme-exploited-elderly',
   },
 );
 
