@@ -4241,6 +4241,10 @@ NotoriousAF.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://en.wikipedia.org/wiki/Murder_of_Abraham_Shakespeare',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Skyline_of_Tampa,_Florida_from_Bayshore_Blvd.jpg?width=1200',
+    coverImageCredit: 'Tampa Gator, Public Domain, via Wikimedia Commons',
+    coverImagePosition: 50,
     body: `Abraham Shakespeare, a warehouse worker in Polk County, Florida, won a $30 million Florida Lotto jackpot on November 15, 2006, and took the lump-sum payout of roughly $17 million. He bought a home in a gated community but otherwise lived modestly, and locally he quickly became known as an easy target: friends, relatives, and strangers alike showed up asking for money, and Shakespeare — who struggled to read — had no formal financial advisor or legal structure protecting what was left of his winnings.
 
 In October 2008, a woman named Dorice "Dee Dee" Moore introduced herself to Shakespeare, telling him she was writing a book about people trying to take advantage of a lottery winner. Over the following months she made herself indispensable, positioning herself as the one person looking out for his interests while everyone else circled his money. In early 2009 she formed a company, Abraham Shakespeare LLC, giving herself control of its accounts, and withdrew roughly $1 million that she used to buy herself a Hummer, a Chevrolet Corvette, and a truck. On January 9, 2009, Shakespeare signed a quitclaim deed transferring his $1.1 million house to another Moore-controlled entity, American Medical Professionals LLC; Moore later claimed she had paid $655,000 for the property, but no evidence of any such payment was ever produced.
@@ -5718,6 +5722,10 @@ NotoriousAF.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://oag.ca.gov/news/press-releases/attorney-general-bonta-announces-18-year-prison-sentence-defendant-investment',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/California_State_Capitol,_June_2019.jpg?width=1200',
+    coverImageCredit: 'Frank Schulenburg, CC BY-SA 4.0, via Wikimedia Commons',
+    coverImagePosition: 50,
     body: `From May 2008 through December 2013, Alma Perez raised money from a small circle of victims through two companies she controlled, Grand Trine LLC and Kings Funding Source LLC, according to the California Department of Justice. Her pitch, prosecutors said, was the same reassurance that has drawn retirees into fraudulent investments for generations: their principal was "guaranteed" and not at risk, and they could count on steady monthly returns on top of it. Five victims put in money on that promise, drawing on retirement savings and inheritance funds — exactly the kind of money people can least afford to lose and are least likely to risk without believing it is safe.
 
 There was no safe, guaranteed investment behind the promise. According to the California Attorney General's Office, Perez used the money she took in to pay for her own five different credit cards, groceries, clothing, utilities, and dining, along with cash withdrawals — and she used a portion of it to make "Ponzi" payments to earlier victims, dressed up as investment returns, to keep the scheme looking legitimate to the people who had already put money in. In one instance, prosecutors said, Perez went further than simply misdirecting new deposits: she forged a disbursement request against a victim's annuity policy and diverted those funds into a bank account she used for her own spending. In total, the five known victims lost more than $735,000.
@@ -5794,6 +5802,10 @@ NotoriousAF.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.aol.com/articles/ohio-securities-regulators-issue-cease-164114000.html',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Ohio_Statehouse_exterior_01.jpg?width=1200',
+    coverImageCredit: 'Ɱ, CC BY-SA 4.0, via Wikimedia Commons',
+    coverImagePosition: 50,
     body: `Note: this is a civil administrative enforcement action. The Ohio Division of Securities' cease-and-desist order describes findings from the Division's own investigation — Clarence Shaw has not been criminally charged in connection with this matter, and the order became final only because neither he nor his company filed a timely appeal, not through a trial on the merits.
 
 Clarence Shaw registered Syntax Financial Group LLC with the Ohio Secretary of State in March 2021, operating out of an office suite on Columbus's northwest side. According to a cease-and-desist order the Ohio Division of Securities issued on March 30, 2026, Shaw used a webinar in May 2021 to pitch investors on funding programs promising outsized, short-term returns — in one case telling a Georgia investor identified in the order only as "D.K." that a $5,000 investment would return $10,000 within a 90-day campaign, and in another describing an annual return of roughly 30 percent.
@@ -5813,6 +5825,10 @@ NotoriousAF.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://manhattanda.org/d-a-bragg-announces-guilty-plea-in-multi-million-dollar-investment-fraud-scheme/',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/100_Centre_Street_Criminal_Courts_Building.jpg?width=1200',
+    coverImageCredit: 'Beyond My Ken, CC BY-SA 4.0, via Wikimedia Commons',
+    coverImagePosition: 50,
     body: `Alan Burak, 41, of New York, founded an investment firm called Never Alone Capital, LLC, and spent years leaning on personal relationships — with friends, family members, and people who trusted him for financial advice — to solicit money he claimed was being professionally invested. According to the Manhattan District Attorney's Office, between April 2018 and May 2023 Burak told investors Never Alone Capital had been operating profitably since 2006, claimed to be managing as much as $157 million in assets under management, and represented that he held securities licenses he did not actually have. In one pitch, he promised a 50 percent return within three months.
 
 In reality, prosecutors said, the total amount investors ever gave Burak was roughly $5 million, and he diverted more than $4 million of it to personal expenses rather than any legitimate investment activity. To keep victims sending money, Burak generated fabricated weekly and monthly "Account and Activity Statements" that falsely showed their balances steadily growing. The Securities and Exchange Commission filed a parallel civil fraud action against Burak in February 2025 over the same scheme, and prosecutors' filings referenced a July 2022 recording in which Burak told an associate that he was "fake," that he did not have a real business, and that he was taking their money — an admission that did not stop him from soliciting new investors for close to another year afterward.
@@ -5829,6 +5845,10 @@ NotoriousAF.push(
     slug: 'carrie-lynn-grant-junior-achievement-embezzlement',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Ronald_Dellums_Federal_Building.jpg?width=1200',
+    coverImageCredit: 'V Smoothe, CC BY 2.0, via Wikimedia Commons',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.justice.gov/usao-ndca/pr/east-bay-woman-sentenced-more-two-years-prison-embezzling-over-16-million-charity',
     body: `Carrie Lynn Grant, 62, of Pleasant Hill, California, spent years working her way up inside Junior Achievement of Northern California, a Walnut Creek-based nonprofit whose entire mission is preparing young people for the "real world" of work and money — teaching schoolkids budgeting, entrepreneurship, and financial literacy through in-classroom programs. Grant started as an administrative assistant and was eventually entrusted with the charity's finances as its finance manager, a position that put her in direct control of the bank accounts and books of the organization whose job was to teach other people's children not to be careless with money.
 
@@ -5846,6 +5866,10 @@ NotoriousAF.push(
     slug: 'edwin-lickiss-foundation-financial-group-ponzi',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Phillip_Burton_Federal_Building_%26_United_States_Courthouse.jpg?width=1200',
+    coverImageCredit: 'Marincyclist, CC BY-SA 4.0, via Wikimedia Commons',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.justice.gov/usao-ndca/pr/former-east-bay-financial-advisor-pleads-guilty-operating-long-running-95-million',
     body: `Edwin Emmett Lickiss Jr., 78, spent more than a quarter of a century running an investment scheme out of Danville and Alamo, California, in the East Bay outside San Francisco, according to the U.S. Attorney's Office for the Northern District of California and a parallel civil complaint filed by the Securities and Exchange Commission. From 1998 through September 2024, Lickiss issued promissory notes on the letterhead of a company he called Foundation Financial Group, telling investors their money would be placed into "exclusive," safe, tax-free bonds paying returns of more than 20 percent a year, and offering note interest rates ranging anywhere from 9 to 32 percent annually.
 

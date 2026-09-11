@@ -6969,3 +6969,37 @@ Marksberry settled first, in August 2025. The remaining defendants reached final
 The Growth Cave settlement is a civil resolution, not a criminal conviction — nobody involved was charged with a crime, and the defendants settled without admitting wrongdoing, as is standard in FTC consumer-protection cases. What makes it notable is how visibly the FTC tied the penalty to the defendants' own lifestyle: rather than a purely paper judgment, the order named the specific luxury assets — the house, the Rolls-Royce, the Ferrari — that had been purchased with money the agency said came from consumers who bought a business opportunity that didn't deliver one.`,
   },
 );
+NotoriousGM.push(
+  {
+    title: 'LaShonda and Marlon Moore: The "Blessings in No Time" Pyramid Scheme That Took $30 Million From 10,000 People',
+    slug: 'lashonda-marlon-moore-bint-pyramid-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-edtx/pr/texas-couple-sentenced-running-illegal-pyramid-scheme',
+    // no rights-cleared photo identified — sourceUrl above serves as the "read the full story" link
+    body: `LaShonda Moore, 38, and Marlon Moore, 39, of Frisco, Texas, spent the height of the COVID-19 pandemic — from June 2020 to June 2021 — building an illegal chain-referral pyramid scheme they called "Blessings in No Time," or BINT. It used the decades-old "gifting circle" structure that consumer-protection regulators have been warning about for years, dressed up for a pandemic audience desperate for income: new participants were told to send a "blessing" payment of at least $1,400 to people who had already joined, in exchange for a promised 800% return — paid back eight-fold within weeks — plus a guaranteed refund if they were ever unsatisfied.
+
+None of that math worked, because it couldn't. A gifting pyramid pays early participants with money collected from later ones; it has no actual product, service, or investment generating the returns it promises, so its only way to keep paying out is to keep recruiting new payers faster than old ones cash out. The Moores marketed BINT through weekly livestream broadcasts to thousands of viewers at a time, framing the "blessing" payments as a way for people to help their own community during a period of widespread pandemic-era job loss — a framing prosecutors said was itself part of the deception, since the money flowed upward to the scheme's organizers rather than sideways to neighbors in need.
+
+By the time it collapsed, BINT had taken in more than $30 million from over 10,000 people nationwide. A federal jury convicted the Moores in January 2026 on charges of conspiracy, wire fraud, and money laundering. On June 9, 2026, U.S. District Judge Amos L. Mazzant III sentenced each of them to 40 years in federal prison and ordered them to pay more than $4.3 million in restitution, plus three years of supervised release to follow their prison terms.
+
+The BINT case is a reminder that a pyramid scheme doesn't need cryptocurrency, a foreign call center, or a sophisticated trading algorithm to reach tens of thousands of victims — a livestream, a familiar word like "blessing," and a pandemic-sized dose of financial desperation were enough to move $30 million through a structure with no product at all.`,
+  },
+);
+NotoriousGM.push(
+  {
+    title: 'Karen Northcutt and the $826,000 She Stole From a Charity That Builds Houses for the Homeless',
+    slug: 'karen-northcutt-habitat-for-humanity-embezzlement',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.yavapaiaz.gov/files/sharedassets/public/v/1/resident-services/law-and-justice/documents/womanconvictedofembezzlement.pdf',
+    // no rights-cleared photo identified — sourceUrl above serves as the "read the full story" link
+    body: `Karen Northcutt, 62, of Dewey, Arizona, ran Prescott Area Habitat for Humanity as its executive director — a position of trust at a nonprofit whose entire mission is building affordable homes for families who couldn't otherwise afford one. According to the Yavapai County Attorney's Office, she spent years quietly diverting the organization's money into her own life instead: paying her mortgage and utility bills from the charity's bank accounts, renovating her home, buying vehicles, withdrawing more than $100,000 in cash, and opening an unauthorized credit card in the organization's name that she then charged roughly $187,000 on.
+
+The theft came to light in February 2024, after an anonymous tip to the Habitat for Humanity board prompted an investigation. A forensic accountant who reviewed the organization's books put the total loss at approximately $826,000. Prosecutors said Northcutt did not simply take the money quietly — she also tampered with physical evidence and trafficked in stolen property in the course of covering her tracks, conduct that added charges well beyond a simple theft case.
+
+A Yavapai County jury convicted Northcutt in May 2026 on seven felony counts: fraudulent schemes and artifices, theft, aggravated taking of identity, tampering with physical evidence, trafficking in stolen property, and first-degree money laundering. Sentencing came down hard: on August 3, 2026, a Yavapai County Superior Court judge sentenced her to 62.5 years in prison, a term that reflected not just the scale of the theft but what prosecutors described as a lifetime pattern of criminal conduct — the case was Northcutt's third fraud-related conviction in 32 years. "Ms. Northcutt's conviction sends a clear message that no one is above the law," Yavapai County Attorney Dennis McGrane said.
+
+The case is a stark illustration of why nonprofit boards are urged to build in financial oversight that doesn't depend on trusting the executive director — segregated duties, independent bank reconciliation, and outside audits — precisely because the person best positioned to steal from a small charity is often the same person the board has come to trust the most. Northcutt held the keys to the organization's finances for years before a single anonymous tip, rather than any routine check, finally exposed what she had been doing with them.`,
+  },
+);

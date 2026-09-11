@@ -4517,3 +4517,22 @@ Rather than simply spending the stolen money, Khatiwada moved it into financial 
 The case is a textbook illustration of vendor fraud: not a single dramatic theft but a shell company designed to look like an ordinary, unremarkable line item on a corporate ledger, billing modestly enough and regularly enough to blend into the routine flow of payments a large company processes every month — a structure that let the scheme run for nearly four years precisely because no single invoice, on its own, looked worth questioning.`,
   },
 );
+NotoriousNS.push(
+  {
+    title: 'Ryan Fitzgibbons and the $775,000 He Stole From Two Connecticut Charities He Was Hired to Run',
+    slug: 'ryan-fitzgibbons-connecticut-nonprofit-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-ct/pr/killingly-man-admits-stealing-775k-nonprofits-windham-and-middlefield',
+    // no rights-cleared photo identified — sourceUrl above serves as the "read the full story" link
+    body: `Note: Ryan Fitzgibbons pleaded guilty to wire fraud, so his guilt on that charge is not in dispute. But as of this writing he has not yet been sentenced — a hearing is scheduled for December 2, 2026 — so the prison term described below as a statutory maximum is not a settled final sentence.
+
+Ryan Fitzgibbons, 44, of Killingly, Connecticut, spent nearly two years as executive director of Holy Family Home & Shelter (HFHS) in Windham, a charity that provides emergency and temporary housing to people facing homelessness. Between November 2021 and June 2023, federal prosecutors say, he embezzled approximately $734,683 from the shelter by transferring money directly from its bank accounts into his own, making unauthorized debit card purchases and ATM withdrawals, and writing shelter checks to himself and to "cash." To keep the board from noticing, he gave them falsified financial and donation reports that concealed the gap the thefts were leaving in the shelter's accounts. He was fired in September 2023 once the discrepancies surfaced.
+
+Rather than face consequences and stop, Fitzgibbons moved on. In April 2024 — seven months after his firing from HFHS — he was hired as executive director of Durham Middlefield Youth & Family Services (DMYFS), a nonprofit focused on community health and family-support programs in a different part of the state. Over the following four months, prosecutors say, he used DMYFS's bank account to make nearly $40,800 in unauthorized personal purchases, mislabeling the charges in the organization's books as "marketing," "wages," and "software" to make them look like legitimate expenses.
+
+Fitzgibbons pleaded guilty in September 2026 to wire fraud and agreed to pay back $775,452.21 across both nonprofits. He faces a statutory maximum of 20 years in federal prison at his sentencing, currently set for December 2, 2026, and was released on a $100,000 bond in the meantime.
+
+The case is a reminder that a firing is not the same thing as a warning that reaches the next employer: nothing stopped Fitzgibbons from being hired to run a second charity's finances just months after the first one caught him stealing from it, because nonprofit board vacancies are often filled quickly, reference checks don't always surface an internal termination that never became a criminal charge until later, and the two organizations had no reason to know about each other's hiring decisions at all.`,
+  },
+);
