@@ -2951,3 +2951,17 @@ UsTZ.push({
     isHistorical: true,
     firstRecorded: '2021-05-11',
 });
+
+UsTZ.push({
+    name: 'New York Attorney General Lawsuit Against Zelle Operator Early Warning Services',
+    slug: 'zelle-early-warning-services-fraud-lawsuit-new-york',
+    description: `Early Warning Services, LLC (EWS) — the fintech company jointly owned by JPMorgan Chase, Bank of America, Wells Fargo, Capital One, and other major banks that built and operates Zelle — designed the payment network, according to a lawsuit New York Attorney General Letitia James filed on August 13, 2025, without the fraud safeguards its own member banks had identified as available and necessary as early as 2019, prioritizing rapid growth in Zelle's user base over building in real protection against scammers. The complaint alleges more than $1 billion moved out of New Yorkers' and other Americans' accounts to fraudsters on the Zelle network between 2017 and 2023 through two recurring patterns: account takeovers, where a scammer who has already obtained a victim's login credentials uses Zelle to drain the account directly, and impersonation scams, where a caller posing as a bank's fraud department, a utility, or a government agency talks a victim into "verifying" a payment or sending money to a fraudulent account — in one example cited in the complaint, a New York consumer lost $1,476.89 after a caller impersonating Con Edison's billing department walked them through a Zelle payment to a fake "Coned Billing" account. James's office also alleges EWS failed to adequately enforce its own anti-fraud rules against the partner banks using the network, letting the same scam accounts cycle through the system with little consequence. The lawsuit seeks restitution and damages for affected New York consumers along with a court order requiring EWS to build in the safeguards it has so far avoided. Anyone contacted by a caller claiming to be from a bank, utility, or government office who asks them to send or "verify" money through Zelle should hang up and call the institution back directly using a number they already have on file — a real Zelle transfer, unlike a credit card charge, is treated like cash and is typically not reversible once sent.`,
+    categorySlug: 'account-takeover',
+    alertLevel: 'high',
+    sources: ['New York Attorney General (Letitia James)'],
+    sourceUrl: 'https://ag.ny.gov/press-release/2025/attorney-general-james-sues-company-behind-zelle-enabling-widespread-fraud',
+    country: 'US',
+    state: 'NY',
+    isHistorical: true,
+    firstRecorded: '2025-08-13',
+});
