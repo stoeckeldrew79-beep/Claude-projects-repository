@@ -7221,6 +7221,8 @@ That was not an isolated stunt. Under other assumed names, Demara taught psychol
 What eventually made Demara impossible to keep hiding was fame rather than law enforcement. A January 1952 LIFE magazine profile of "the Great Impostor" ran his photograph nationally, and old acquaintances and former employers began recognizing him at his newest post each time the story recirculated, forcing him to move on again and again. He did serve real prison time — 18 months in a Naval disciplinary barracks for an earlier desertion under a different alias, and a separate six-month sentence tied to one of his forged-credential teaching jobs — but most of his impersonations ended not in criminal charges but simply in quiet dismissal once someone worked out who he actually was.
 
 Demara's story became a bestselling 1960 book by Robert Crichton and a 1961 film starring Tony Curtis, and later inspired television characters from M*A*S*H to The Pretender. He spent his final years working, under his own name, as a chaplain at a hospital in Anaheim, California, counseling patients until his death in 1982 — a legitimate calling, colleagues there said, that he was good at. His case is a reminder that credential fraud does not require forging a diploma or hacking a database; for most of the 20th century, it required only confidence, a good memory, and institutions willing to take a compelling résumé at its word rather than verify it against the people and schools it claimed to come from.`,
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Ferdinand_Waldo_Demara_in_1951_Navy_photo.jpg?width=1200',
+    coverImageCredit: 'Photo: Royal Canadian Navy, official 1951 photo (Public Domain), via Wikimedia Commons',
   },
 );
 
