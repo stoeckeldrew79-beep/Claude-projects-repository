@@ -5234,3 +5234,17 @@ UsNS.push({
     isHistorical: true,
     firstRecorded: '2025-01-31',
 });
+
+UsNS.push({
+    name: 'The Painting Co. Kitchen and Bathroom Remodeling Fraud',
+    slug: 'ohio-painting-co-dwight-artrip-remodeling-fraud',
+    description: `Dwight W. Artrip ran The Painting Co. Inc. — also doing business as TPC and "The Preferred Contractor" — out of Baltimore, Ohio, a company that despite its name mostly took on kitchen and bathroom remodeling jobs, and Ohio Attorney General Dave Yost's office says Artrip collected large upfront payments from homeowners and then either let the work sit unstarted for months or delivered substandard results once he finally showed up. The Attorney General's office received at least a dozen direct complaints, and found still more through the Better Business Bureau, adding up to roughly $11,900 in combined losses; consumers described Artrip demanding additional money before finishing a job he'd already been paid for, making false statements about refunds he never actually issued, and never giving them the written notice of their right to cancel that Ohio's Home Solicitation Sales Act requires for a deal made at a customer's home. Yost's office filed suit against Artrip and The Painting Co. in Fairfield County Court of Common Pleas on March 21, 2025, alleging violations of Ohio's Consumer Sales Practices Act and the Home Solicitation Sales Act. "Ohioans deserve contractors who show up, follow through and do the job right — not one who provides an endless cycle of excuses, delays and disappearing acts," Yost said in announcing the suit. Before hiring any remodeling contractor, Ohio homeowners should check the company's complaint history with the Ohio Attorney General's Office, get a detailed written contract spelling out a start and completion date before paying anything, avoid paying the full price upfront, and confirm they were given the legally required written notice of cancellation rights for any contract signed in their home — and can report a similar pattern of stalled or abandoned remodeling work to the Attorney General's Office at OhioProtects.org or 800-282-0515.`,
+    categorySlug: 'home-improvement-solar',
+    alertLevel: 'medium',
+    sources: ["Ohio Attorney General's Office (Dave Yost)"],
+    sourceUrl: 'https://www.ohioattorneygeneral.gov/media/news-releases/march-2025/ag-yost-sues-company-for-allegedly-defrauding-home',
+    country: 'US',
+    state: 'OH',
+    isHistorical: true,
+    firstRecorded: '2025-03-21',
+});
