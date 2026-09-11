@@ -14039,3 +14039,16 @@ International.push(
     country: 'MR',
   },
 );
+
+International.push(
+  {
+    name: 'Niger Fake Marriage and Hajj Pilgrimage Fraud Ring',
+    slug: 'niger-fake-marriage-hajj-pilgrimage-fraud-ring',
+    description: `Niger's Interregional Judicial Police Service (SIRPJ) in Zinder dismantled a fraud ring in June 2025 that had operated for at least five years, targeting Nigerien expatriates in Saudi Arabia and their relatives back home with fake marriage proposals bundled with promises of an arranged Hajj pilgrimage. Posing as travel agents and marriage brokers, the six suspects — five Nigeriens and one Nigerian national, all between 60 and 65 years old — built trust with victims found through WhatsApp groups before asking for money and personal documents to arrange the wedding and the pilgrimage trip. Investigators said the roles were divided: some members identified and groomed victims, others forged identity papers and passports, and the Nigeria-based member supplied fraudulent Saudi visas. Police opened the investigation after a complaint filed May 4, 2025, and arrested the six suspects across multiple locations between June 7 and June 12, seizing eleven phones, motorcycles, forged documents, bank cards, and civil registry papers belonging to presumed victims. At least five victims came forward to confirm losses, but the SIRPJ said the network's five-year run and cross-border reach into Nigeria made it likely that the true number of people defrauded, in Niger and abroad, was far higher.`,
+    categorySlug: 'travel-vacation-scams',
+    alertLevel: 'high',
+    sources: ['Service Interrégional de Police Judiciaire (SIRPJ), Zinder, Niger', 'ActuNiger'],
+    sourceUrl: 'https://actuniger.com/faits-divers/21076-ils-promettaient-mariage-et-voyage-a-la-mecque-la-police-demasque-une-escroquerie-vieille-de-5-ans-a-zinder.html',
+    country: 'NE',
+  },
+);
