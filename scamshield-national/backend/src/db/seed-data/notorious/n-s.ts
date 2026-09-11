@@ -3937,6 +3937,9 @@ NotoriousNS.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.irs.gov/compliance/criminal-investigation/two-men-admit-pocketing-millions-in-donations-from-petco-park-and-snapdragon-stadium-meant-for-charity',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Petco_Park,_San_Diego.jpg?width=1200',
+    coverImageCredit: 'Bernard Gagnon / Wikimedia Commons (CC BY-SA 3.0) — Petco Park, San Diego, one of the two stadiums whose charity donations were stolen',
     body: `Note: Noly Hermoso Ilarde and Martin Jose Rebollo Jr. have both pleaded guilty, but publicly available reporting reviewed for this profile did not include the sentences ultimately imposed at their scheduled sentencing hearings, so those outcomes are not stated here.
 
 Noly Hermoso Ilarde, of San Diego, and Martin Jose Rebollo Jr., of Chula Vista, California, ran an outfit called Chula Vista Fast Pitch, which they presented to two major sports-venue concessionaires as a nonprofit supporting youth softball. According to the U.S. Attorney's Office for the Southern District of California, the two men applied for and won contracts to supply unpaid volunteers to staff concession stands at Petco Park, home of the San Diego Padres, and later at Snapdragon Stadium — in exchange for roughly 10 percent of concession sales being donated to their charity. It was a model real charities use to raise money at ballparks around the country. In this case, prosecutors say, the charity behind it did not actually exist as anything more than a name on paperwork.
