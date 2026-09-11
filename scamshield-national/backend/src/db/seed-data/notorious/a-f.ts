@@ -6109,6 +6109,10 @@ NotoriousAF.push(
     slug: 'dawn-bennett-djb-holdings-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/US_District_Court_Maryland_Southern_Division_Greenbelt.jpg?width=1200',
+    coverImageCredit: 'U.S. District Court for the District of Maryland, public domain, via Wikimedia Commons',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.justice.gov/usao-md/pr/former-financial-advisor-sentenced-20-years-federal-prison-her-conviction-17-federal',
     body: `Dawn Bennett built a public reputation as a Washington-area financial expert years before federal prosecutors identified her as a fraudster. She ran an SEC-registered investment advisory firm, Bennett Group Financial Services, and hosted a nationally syndicated radio program, "Financial Myth-Busting," on which she dispensed investing advice to a loyal audience of listeners. In 2013 she founded a second venture, DJB Holdings LLC, doing business online as DJBennett.com — an e-commerce retailer of high-end women's sportswear that she began promoting heavily on her own show.
 
