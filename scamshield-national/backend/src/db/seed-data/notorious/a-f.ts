@@ -6833,7 +6833,10 @@ NotoriousAF.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/usao-ndtx/pr/slync-founder-sentenced-20-years-federal-prison-fraud',
-    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/N517DW_Gulfstream_G550_Private_(28960674064).jpg?width=1200',
+    coverImageCredit: 'Photo: James (Cheltenham, UK), CC BY-SA 2.0, via Wikimedia Commons — a Gulfstream G550, the model of private jet Kirchner bought with diverted investor funds',
+    coverImagePosition: 50,
+    // representative photo — a Gulfstream G550 like the one Kirchner purchased, not a portrait; replace with a portrait if found
     body: `Chris Kirchner founded Slync in 2017, building it into a supply-chain logistics software startup that told investors it was solving a real problem: getting shipping companies, freight forwarders, and their customers off spreadsheets and phone calls and onto one shared digital platform. The pitch worked. By early 2021, Slync had raised nearly $70 million from venture investors, including a $60 million Series B round led by Goldman Sachs Growth that valued the company at roughly $240 million.
 
 According to federal prosecutors in the Northern District of Texas, Kirchner treated that investor money as his own well before the ink on the funding round was dry. Between April 2020 and March 2022, he initiated close to 100 wire transfers moving money out of Slync's Silicon Valley Bank account, including one transfer of $20 million directly into his personal checking account — money he described to private bankers as "a distribution from my company," even though Slync's board had never authorized any such distribution. Prosecutors said he also fraudulently obtained an additional roughly $850,000 from investors for a Series C funding round that was never actually completed. In total, Kirchner was accused of diverting nearly $25 million in investor funds for personal use.
