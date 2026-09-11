@@ -7914,6 +7914,10 @@ NotoriousAF.push(
     slug: 'deepal-wannakuwatte-latex-glove-ponzi-scheme',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Sacramento,_California_skyline.jpg?width=1200',
+    coverImageCredit: 'Photo: Quintin Soloviev, CC BY 4.0, via Wikimedia Commons — Sacramento, California, where Wannakuwatte ran his companies and owned the Sacramento Capitals tennis team',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.justice.gov/usao-edca/pr/former-owner-sacramento-capitals-tennis-team-sentenced-20-years-prison-fraud-scheme',
     body: `Deepal Wannakuwatte was a familiar face in Sacramento business and sports circles — owner of the Sacramento Capitals, a professional World TeamTennis franchise, and head of a pair of companies, International Manufacturing Group (IMG) and RelyAid Global Health Care, that he told investors were quietly becoming one of the country's biggest suppliers of medical-grade latex gloves. For more than a decade, that reputation was enough to keep money flowing in.
 
