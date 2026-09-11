@@ -6670,6 +6670,9 @@ Ascent is offering affected individuals a complimentary membership in Experian's
     slug: "concord-hospital-tracking-pixel-settlement-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "concord-hospital-tracking-pixel-settlement"],
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Concord_Hospital_Memorial_Building.jpg?width=1200",
+    coverImageCredit: "Photo: Austin102, CC BY-SA 4.0, via Wikimedia Commons — the Memorial Building on the Concord Hospital campus",
+    coverImagePosition: 50,
     sourceUrl: "https://www.classaction.org/news/800k-concord-hospital-settlement-resolves-lawsuit-over-alleged-disclosure-of-patient-info",
     body: `Concord Hospital, the main medical center serving New Hampshire's state capital and operated together with Capital Region Healthcare Corporation, is the defendant in a case that involves no hacker, no ransomware gang, and no stolen password. According to a lawsuit filed May 27, 2025 in New Hampshire — Branson v. Concord Hospital, Inc. — the hospital's own website was quietly sharing patient information with outside advertising companies, through code the hospital itself had installed.
 
