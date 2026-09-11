@@ -6969,3 +6969,20 @@ Marksberry settled first, in August 2025. The remaining defendants reached final
 The Growth Cave settlement is a civil resolution, not a criminal conviction — nobody involved was charged with a crime, and the defendants settled without admitting wrongdoing, as is standard in FTC consumer-protection cases. What makes it notable is how visibly the FTC tied the penalty to the defendants' own lifestyle: rather than a purely paper judgment, the order named the specific luxury assets — the house, the Rolls-Royce, the Ferrari — that had been purchased with money the agency said came from consumers who bought a business opportunity that didn't deliver one.`,
   },
 );
+NotoriousGM.push(
+  {
+    title: 'LaShonda and Marlon Moore: The "Blessings in No Time" Pyramid Scheme That Took $30 Million From 10,000 People',
+    slug: 'lashonda-marlon-moore-bint-pyramid-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-edtx/pr/texas-couple-sentenced-running-illegal-pyramid-scheme',
+    // no rights-cleared photo identified — sourceUrl above serves as the "read the full story" link
+    body: `LaShonda Moore, 38, and Marlon Moore, 39, of Frisco, Texas, spent the height of the COVID-19 pandemic — from June 2020 to June 2021 — building an illegal chain-referral pyramid scheme they called "Blessings in No Time," or BINT. It used the decades-old "gifting circle" structure that consumer-protection regulators have been warning about for years, dressed up for a pandemic audience desperate for income: new participants were told to send a "blessing" payment of at least $1,400 to people who had already joined, in exchange for a promised 800% return — paid back eight-fold within weeks — plus a guaranteed refund if they were ever unsatisfied.
+
+None of that math worked, because it couldn't. A gifting pyramid pays early participants with money collected from later ones; it has no actual product, service, or investment generating the returns it promises, so its only way to keep paying out is to keep recruiting new payers faster than old ones cash out. The Moores marketed BINT through weekly livestream broadcasts to thousands of viewers at a time, framing the "blessing" payments as a way for people to help their own community during a period of widespread pandemic-era job loss — a framing prosecutors said was itself part of the deception, since the money flowed upward to the scheme's organizers rather than sideways to neighbors in need.
+
+By the time it collapsed, BINT had taken in more than $30 million from over 10,000 people nationwide. A federal jury convicted the Moores in January 2026 on charges of conspiracy, wire fraud, and money laundering. On June 9, 2026, U.S. District Judge Amos L. Mazzant III sentenced each of them to 40 years in federal prison and ordered them to pay more than $4.3 million in restitution, plus three years of supervised release to follow their prison terms.
+
+The BINT case is a reminder that a pyramid scheme doesn't need cryptocurrency, a foreign call center, or a sophisticated trading algorithm to reach tens of thousands of victims — a livestream, a familiar word like "blessing," and a pandemic-sized dose of financial desperation were enough to move $30 million through a structure with no product at all.`,
+  },
+);
