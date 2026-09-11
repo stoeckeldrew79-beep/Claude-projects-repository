@@ -5112,6 +5112,10 @@ NotoriousNS.push(
     title: 'Stephan Katmarian and the Crypto Token "Backed" by a Mine Peblik Never Owned',
     slug: 'stephan-katmarian-peblik-token-fraud',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Mississauga_city_hall_2005.jpg?width=1200',
+    coverImageCredit: 'Photo: Mb1000 (CC BY-SA 1.0) — Mississauga, Ontario, where Katmarian is based',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.osc.ca/en/news-events/news/stephan-katmarian-be-jailed-following-fraud-conviction',
     body: `Stephan Katmarian, of Mississauga, Ontario, was the executive director, managing director, and board chair of Peblik Inc., a company that sold investors convertible notes tied to a cryptocurrency called the Peblik Token. The token itself was never actually launched. What made the pitch distinctive — and, according to Ontario securities regulators, fraudulent — was the specific claim used to give it credibility: Peblik told investors the token's value was backed by the Thierry Mine, an inactive copper mine in Northern Ontario.
