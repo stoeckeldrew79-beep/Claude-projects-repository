@@ -5825,6 +5825,9 @@ NotoriousGM.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/usao-ndtx/pr/five-federally-indicted-alleged-220-million-nationwide-cattle-fraud-scheme-one',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Eldon_B_Mahon_Courthouse_1.jpg?width=1200',
+    coverImageCredit: 'Turn685 / Wikimedia Commons (CC BY-SA 3.0) — Eldon B. Mahon U.S. Courthouse, Fort Worth, Texas, where the case was indicted',
     body: `Note: this case involves both a guilty plea and pending charges. Jed Wood has pleaded guilty to one count of wire fraud; Joshua Link, Tia Link, Taylor Bang, and Royana Thomas have been indicted but, as of this writing, have not been convicted, and the allegations against them described below reflect the government's case rather than proven facts.
 
 Agridime LLC, headquartered in Fort Worth, Texas, marketed itself as a way for ordinary people to invest directly in the cattle business: a customer could buy a contract tied to a specific, individually identified animal, which Agridime would raise on real ranches and eventually sell for meat, splitting the resulting profit with the investor. Agricultural trade press later nicknamed it the "ghost herd" scheme, because — according to a federal indictment — the company never purchased anywhere near enough actual cattle to back the volume of contracts it was selling.
