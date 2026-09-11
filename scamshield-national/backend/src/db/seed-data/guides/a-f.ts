@@ -1105,6 +1105,10 @@ Protect yourself by reverse image searching profile photos, asking specific and 
     slug: 'abu-trica-ai-romance-scam-prosecution-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'abu-trica-romance-scam-prosecution'],
+    // representative photo — replace with an exact match if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Carl_B._Stokes_United_States_Courthouse,_Cleveland,_OH_(28669542817).jpg?width=1200',
+    coverImageCredit: 'Warren LeMay / Wikimedia Commons / CC0',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.whio.com/news/local/ghanaian-social-media-influencer-accused-scamming-elderly-ohioans/RSNTDLIF6NBXPICAE75MPEJNMM/',
     body: `On July 9, 2026, federal prosecutors in the Northern District of Ohio took custody of Frederick Kumi, a 31-year-old Ghanaian social-media influencer better known online as Abu Trica, following his extradition from Ghana. Kumi had been arrested there on December 11, 2025, after U.S. authorities accused him of running a romance-fraud network that prosecutors say defrauded more than 80 elderly Americans of over $8 million between 2023 and 2025 — one strand of a broader Ohio-based investigation that, across several related indictments, has charged at least five people with using fake online personas to build romantic relationships with older Americans and then draining their savings.
 
