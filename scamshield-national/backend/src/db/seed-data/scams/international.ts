@@ -12977,3 +12977,16 @@ International.push(
     country: 'SX',
   },
 );
+
+International.push(
+  {
+    name: 'Anguilla National Commercial Bank Remote-Access Phishing Scam',
+    slug: 'anguilla-national-commercial-bank-remote-access-phishing-scam',
+    description: `The National Commercial Bank of Anguilla (NCBA) issued a public warning on February 20, 2025 alerting customers that fraudsters were contacting them by phone and online while posing as bank staff, in an effort to talk account holders into granting remote access to their computers or mobile phones. Once a victim installs remote-access software or shares a one-time code at the caller's direction, the criminals gain the ability to see and control the device directly, letting them reach online banking sessions, saved passwords, and other sensitive information without ever needing to breach the bank's own systems. NCBA stressed that it "will never request remote access to a customer's device or ask for sensitive banking details, including card PINs," making any such request — however official-sounding the caller is or however urgent the pretext — a reliable sign of fraud rather than a legitimate bank procedure. The bank urged anyone contacted this way to hang up and call NCBA directly using the number on the back of their card or on an official statement, rather than a number or link supplied by the caller, and to never install remote-access apps or read aloud a one-time passcode to someone who called them unprompted. Customers who believed they had been targeted or had already granted access were told to contact NCBA immediately at service@ncbal.com and to report the incident to the Royal Anguilla Police Force at (264) 497-2333 or 497-5333, or anonymously through www.gov.ai/911.`,
+    categorySlug: 'tech-support-scams',
+    alertLevel: 'high',
+    sources: ['National Commercial Bank of Anguilla (NCBA)', 'Anguilla Focus News'],
+    sourceUrl: 'https://anguillafocus.com/national-commercial-bank-of-anguilla-warns-customers-of-phishing-scam/',
+    country: 'AI',
+  },
+);
