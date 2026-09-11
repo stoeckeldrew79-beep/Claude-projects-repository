@@ -8030,6 +8030,10 @@ NotoriousGM.push(
     slug: 'marcia-joseph-brooklyn-nonprofit-fiscal-officer-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Brooklyn_Borough_Hall.jpg?width=1200',
+    coverImageCredit: 'Photo: Louis Waweru (CC BY-SA 3.0) — Brooklyn, where the nonprofit Joseph embezzled from was based and where she was sentenced',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.justice.gov/usao-edny/pr/former-fiscal-officer-brooklyn-charity-sentenced-21-months-imprisonment-embezzlement',
     body: `Marcia Joseph worked as the fiscal officer of a Brooklyn-based nonprofit that provided employment and education services, including work tied to a New York City Department of Education program that placed students living in homeless shelters into job training. That role put her in charge of approving and processing the organization's invoices — control she used, over nearly seventeen years, to steal more than $2.3 million from the charity she was paid to help run.
 
