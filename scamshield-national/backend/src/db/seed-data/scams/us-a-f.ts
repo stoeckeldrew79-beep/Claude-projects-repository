@@ -7019,3 +7019,15 @@ UsAF.push({
     country: 'US',
     state: 'AL',
 });
+
+UsAF.push({
+    name: 'St. Johns County In-Home Caregiver Financial Exploitation (Maryjean Small)',
+    slug: 'florida-st-johns-county-caregiver-financial-exploitation-maryjean-small',
+    description: `Maryjean "Mary" Victoria Small, 26, worked as an in-home caregiver for a 92-year-old St. Johns County, Florida woman with significant vision impairment through the agency Concierge Care, from January 2025 through July 2026, and investigators say she used that access and the victim's inability to clearly see documents to systematically drain her finances. According to the St. Johns County Sheriff's Office, Small deposited 63 unauthorized checks totaling $82,238.71 into her own VyStar Credit Union account, made an unauthorized $70,000 transfer from the victim's savings, moved another $35,000 after falsely telling the victim she was running low on money, and attempted a further $70,000 transfer that failed; she also added the victim's debit and credit cards to her own Uber account, ordering Uber Eats deliveries to her home, used the cards for purchases at Family Dollar and Marshalls, created an online banking profile in the victim's name using an email address the victim never set up, and physically guided the victim's hand to sign fraudulent checks while telling her they were for legitimate bills. Investigators calculated the total loss at $180,321.73. Small was arrested on August 17, 2026 and booked into the St. Johns County jail on $340,000 bond, facing seven felony charges including exploitation of an elderly person exceeding $50,000, theft from a person 65 or older, illegal use of credit cards, uttering a false check, and fraudulent use of identification. Families relying on an in-home caregiver for a relative with vision loss or cognitive decline are advised to arrange for a sighted, independent relative to review bank and credit card statements every month rather than trusting the caregiver's account of finances, to never let a caregiver hold or use the client's payment cards or banking apps unsupervised, and to report suspected caregiver exploitation to local law enforcement or Florida's Department of Elder Affairs abuse hotline at 1-800-96-ABUSE.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'high',
+    sources: ["St. Johns County Sheriff's Office", 'WJXT News4JAX'],
+    sourceUrl: 'https://www.news4jax.com/news/local/2026/08/20/caregiver-accused-of-stealing-180k-from-92-year-old-st-johns-county-woman/',
+    country: 'US',
+    state: 'FL',
+});
