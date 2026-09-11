@@ -2372,3 +2372,20 @@ Vakil and Visen's case is a useful corrective to the instinct that a small trade
     coverImageCredit: 'Photo: Donatingpictures, CC BY-SA 4.0, via Wikimedia Commons — the New York Stock Exchange; Vakil and Visen were charged with insider trading of Kindred Biosciences stock',
   },
 );
+
+NotoriousTZ.push(
+  {
+    title: 'Willie Botha and the Sharemax Property Syndications That Left a Pretoria Mall Half-Built',
+    slug: 'willie-botha-sharemax-property-syndication-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://businesstech.co.za/news/property/793913/the-r3-5-billion-ghost-shopping-mall-in-pretoria-which-is-completely-empty/',
+    body: `Willie Botha founded Sharemax Investments in South Africa in 1999, built around a pitch that sounded like ordinary property investing rather than anything exotic. Sharemax converted large commercial buildings into what it called a "retail" investment product, selling ordinary investors — many of them pensioners — direct shareholdings in single-purpose companies that each owned one shopping centre, marketed as debt-free property generating steady rental income. Over the following decade, roughly 40,000 investors poured close to R5 billion into more than 50 separate Sharemax property syndications.
+
+The largest and most visible of those projects was The Villa, a shopping centre under construction east of Pretoria that alone drew in an estimated R1.5 billion from thousands of retail investors after construction began in January 2009. What the marketing brochures didn't make clear was how thin the underlying finances actually were: rather than rental income from completed, tenanted buildings covering the returns promised to investors, later Sharemax syndications were increasingly used to help fund earlier ones — the same use-new-money-to-pay-old-investors mechanism that South Africa's own former financial advisory ombud later said publicly some Sharemax projects "functioned like."
+
+The scheme came apart in September 2010, when South Africa's Reserve Bank ruled that Sharemax's entire funding model violated the country's Banks Act and ordered public funds repaid — a directive that, combined with pending winding-up applications against the company, triggered a collapse across its projects almost immediately. The Villa was left roughly 75 percent complete and has sat empty and unfinished for more than fifteen years since, a physical monument to money that never turned into a working shopping centre. South Africa's elite Hawks police unit investigated potential fraud, but the National Prosecuting Authority ultimately declined to bring any criminal case over the collapse — including one prosecution effort covering 18,600 investors and R4.6 billion in losses that the NPA dropped entirely, leaving no Sharemax director, including Botha, ever criminally convicted over the scheme.
+
+Sharemax is a useful case precisely because it shows how far a scheme can run without a single conviction ever being secured: a regulator's own finding that the funding model was illegal, a shopping centre sitting half-built and empty for a decade and a half, and tens of thousands of retirees out billions of rand were, on their own, not enough to produce a criminal case that stuck. It's a reminder that a scheme's scale and its documented harm to victims don't automatically translate into accountability for the people who ran it — regulatory findings and civil rulings against a scheme are not the same thing as someone actually paying a criminal price for it.`,
+  },
+);
