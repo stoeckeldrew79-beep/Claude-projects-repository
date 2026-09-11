@@ -4934,6 +4934,10 @@ A.R. Baron's downfall also became a landmark in a different arena: after the fir
     slug: 'anthony-cuti-duane-reade-accounting-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Duane_Reade_Pharmacy_Storefront_(48206542307).jpg?width=1200',
+    coverImageCredit: 'Photo: Ajay Suresh, Wikimedia Commons (CC BY 2.0) — a Duane Reade storefront in Manhattan',
     sourceUrl: 'https://www.justice.gov/archive/usao/nys/pressreleases/August11/cutianthonysentencingpr.pdf',
     body: `Anthony Cuti spent the early 2000s as chairman and CEO of Duane Reade, the New York City drugstore chain, presenting Wall Street with a steady story of improving margins at a retailer that had struggled through the 1990s. Investors and analysts had reason to like what they saw: quarter after quarter, Duane Reade appeared to be hitting its earnings targets even as competitors in the crowded New York drugstore market fought for the same customers.
 
