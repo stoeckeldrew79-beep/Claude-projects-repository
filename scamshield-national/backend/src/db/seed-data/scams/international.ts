@@ -12239,6 +12239,26 @@ International.push(
     sourceUrl: 'https://8am.media/eng/fraud-in-the-name-of-aid-deceptive-messages-that-deepen-poverty/',
     country: 'AF',
   },
+  {
+    name: 'Afghanistan Fake Visa and Scholarship Migration Scams',
+    slug: 'afghanistan-fake-visa-scholarship-migration-scam',
+    description: `Since the Taliban's return to power in August 2021, Afghans desperate to leave the country have been targeted by a wave of fake visa, scholarship, and smuggling offers spread through Facebook, Twitter, Instagram, and TikTok, promising "legal migration" to Russia, Europe, Turkey, or elsewhere with no advance payment, or fully funded foreign scholarships. Victims who respond are asked for fees that rose sharply after the takeover — from roughly $1,000-$2,000 to $2,000-$10,000 per supposed scholarship or visa placement, according to Samim Ahmadi, an Afghanistan-based project manager for the International Centre for Migration Policy Development (ICMPD), a Vienna-based intergovernmental migration organization. Some who pay are simply never contacted again; others pay smugglers to be moved abroad and end up stranded in a third country with none of the promised onward travel or support. ICMPD told The New Humanitarian it spends significant staff time reporting fake pages and websites to Meta and TikTok, but new ones reappear as fast as old ones are removed, and university students in cities such as Mazar-e Sharif are described as particularly frequent targets.`,
+    categorySlug: 'employment-scams',
+    alertLevel: 'high',
+    sources: ['The New Humanitarian', 'International Centre for Migration Policy Development (ICMPD)'],
+    sourceUrl: 'https://www.thenewhumanitarian.org/news-feature/2022/10/24/Visas-smuggling-Afghan-refugees-scams-Facebook-TikTok',
+    country: 'AF',
+  },
+  {
+    name: 'Afghanistan "MetaMax" Crypto Ponzi App Scam',
+    slug: 'afghanistan-metamax-crypto-ponzi-app-scam',
+    description: `In the summer of 2024, more than 10,000 people in Afghanistan lost money to "MetaMax," a fraudulent smartphone investment app that offered seven purchasable package tiers, from $30 to several thousand dollars, and promised users could double their money within a month simply by watching ads and leaving ratings. The scheme collapsed within months: the app and its website disappeared without paying out, after the Philippines Securities and Exchange Commission had already issued a public advisory in June 2024 warning that MetaMax was not a registered company and was likely operating a Ponzi scheme. Afghan victims, some of whom sold cars or jewelry to invest their savings, deposited funds in USDT through informal local cryptocurrency exchange networks — one 22-year-old university student, identified only as Habib, said he lost $1,000 when the platform "suddenly stopped working, and the website no longer existed." According to the independent outlet Middle East Uncovered, the fallout also fed into the Taliban's subsequent crackdown on cryptocurrency exchanges, after Taliban officials pressured a local exchange operator linked to MetaMax deposits to personally cover customers' losses.`,
+    categorySlug: 'cryptocurrency-scams',
+    alertLevel: 'high',
+    sources: ['Middle East Uncovered (Ideas Beyond Borders)', 'Philippines Securities and Exchange Commission (SEC)'],
+    sourceUrl: 'https://www.themiddleeastuncovered.com/p/the-making-of-afghanistans-shadow',
+    country: 'AF',
+  },
 );
 
 International.push(
