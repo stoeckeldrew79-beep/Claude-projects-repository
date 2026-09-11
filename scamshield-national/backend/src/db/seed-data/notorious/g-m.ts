@@ -6143,6 +6143,9 @@ NotoriousGM.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/usao-dc/pr/singaporean-ringleader-245-million-cryptocurrency-racketeering-enterprise-pleads-guilty',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/E._Barrett_Prettyman_U.S._Courthouse.JPG?width=1200',
+    coverImageCredit: 'AgnosticPreachersKid / Wikimedia Commons (CC BY-SA 3.0) — E. Barrett Prettyman U.S. Courthouse, Washington, D.C., where the case was prosecuted',
     body: `On August 18, 2024, a longtime cryptocurrency investor in Washington, D.C. got a call from someone claiming to be Google support, warning that his account had faced repeated break-in attempts. A second caller followed, posing as staff from the Gemini crypto exchange, warning of malware on his device. Talked through a sequence of "security" steps by the callers — who were watching his screen the whole time — the victim ended up granting access to his Google Drive and revealing verification codes that let the callers into wallets holding more than 4,100 Bitcoin, worth over $240 million at the time.
 
 According to the U.S. Attorney's Office for the District of Columbia, the operation behind that theft was run by Malone Lam, a 22-year-old Singaporean citizen living in Miami who went by online aliases including "Anne Hathaway," "$$$," and "King Greavy." Lam had built his crew through online gaming circles, recruiting participants across California, Connecticut, New York, and Florida to make the deceptive calls, launder the proceeds through cryptocurrency mixers, "peel chains," and pass-through wallets, and convert the stolen funds into cash. Prosecutors say the D.C. theft was the largest single haul in a broader racketeering enterprise, involving multiple victims and additional thefts, that totaled more than $245 million.
