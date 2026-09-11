@@ -4048,6 +4048,10 @@ NotoriousNS.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.ssb.texas.gov/news-publications/texas-state-securities-board-enters-emergency-order-against-southlake-real-estate',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Southlake_Town_Square_(6181958881).jpg?width=1200',
+    coverImageCredit: 'Southlake Texas (Flickr), CC BY 2.0, via Wikimedia Commons',
+    coverImagePosition: 50,
     body: `Note: this entry describes allegations contained in a Texas State Securities Board emergency cease-and-desist order, not a criminal conviction or a finding proven in court. The order's allegations have not been adjudicated, and the underlying investigation is described by the TSSB as ongoing.
 
 Shiloh Boone Lasater and Tie Glenn Lasater ran Lasater Capital, LLC, a Southlake, Texas-based firm marketing a real estate investment vehicle called Lasater RE Fund 14, pitched to investors as a diversified play on multi-family and other real estate assets. According to an emergency cease-and-desist order the Texas State Securities Board entered on June 9, 2026, the fund was targeting roughly $10 million in commitments and had already raised approximately $5.6 million from more than 50 investors by promoting quarterly distributions, equity appreciation, and returns as high as 20 percent.
