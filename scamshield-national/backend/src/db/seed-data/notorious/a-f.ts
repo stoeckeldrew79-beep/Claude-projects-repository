@@ -7584,3 +7584,20 @@ When federal investigators began looking into the missing funds, Sanders didn't 
 Church fraud cases like this one exploit a specific kind of trust that's hard to replicate anywhere else: congregants who give money assuming a pastor's financial conduct is subject to the same oversight as any other position handling other people's funds, when in many small congregations it isn't. The same authority that let Sanders lead a congregation's spiritual life gave him largely unchecked access to its bank accounts — a reminder that even institutions built on trust benefit from basic financial controls, like requiring more than one signature on transfers and someone outside leadership reviewing the statements.`,
   },
 );
+
+NotoriousAF.push(
+  {
+    title: 'Elizabeth Gutfahr: The County Treasurer Who Embezzled $38.7 Million Through Fake Companies',
+    slug: 'elizabeth-gutfahr-santa-cruz-county-treasurer-embezzlement',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-az/pr/former-santa-cruz-county-treasurer-sentenced-10-years-prison-stealing-over-38-million',
+    body: `Elizabeth Gutfahr was an elected official — the Treasurer of Santa Cruz County, Arizona, a small border county whose government relied on her to safeguard its public funds. From 2012 through 2024, prosecutors say, she instead treated the county's accounts as her personal bank.
+
+According to the U.S. Attorney's Office for the District of Arizona, Gutfahr created shell companies that performed no legitimate business and then wired county money to accounts opened in their names — roughly 187 fraudulent wire transfers in all. The county's own controls were supposed to require two-person approval on transfers of that kind; Gutfahr got around that requirement by using a subordinate employee's security token to authorize her own transfers, and she covered her tracks by falsifying accounting records, cash reconciliation records, and investment account reports so the missing millions wouldn't show up in the county's books. She also never reported the stolen money as income on her taxes.
+
+Gutfahr used the roughly $38.7 million to buy real estate, renovate her family's ranch, fund her cattle business, and purchase at least 20 vehicles — a lifestyle built entirely on money that belonged to a rural county government. She pleaded guilty to embezzlement by a public official, money laundering, and tax evasion, and on June 23, 2025, U.S. District Judge Rosemary C. Márquez sentenced her to 120 months in federal prison, to be followed by three years of supervised release. She was also ordered to pay approximately $51.8 million in restitution to Santa Cruz County and the U.S. Treasury — a figure larger than the theft itself once interest, taxes, and investigative costs are factored in.
+
+Gutfahr's case is a reminder that internal controls only work if they're actually enforced rather than merely written down: a county with a two-approval rule on the books was still defrauded for twelve straight years, because the one person the rule was meant to check was also the person with practical access to bypass it. IRS Criminal Investigation and the FBI investigated the case, which took over a decade of public trust and turned it into a private fortune before anyone outside Gutfahr's office noticed.`,
+  },
+);

@@ -14245,3 +14245,16 @@ International.push(
     country: 'RU',
   },
 );
+
+International.push(
+  {
+    name: 'Operação Pensionista €4 Million Social Security Fraud',
+    slug: 'sao-tome-operacao-pensionista-social-security-fraud',
+    description: `Téla Nón reported that São Tomé and Príncipe's Ministério Público (Public Prosecutor's Office), backed by the Judicial Police and National Police, carried out roughly a dozen coordinated searches of homes and businesses across São Tomé island on March 25, 2025, in an operation codenamed "Operação Pensionista" targeting the diversion of nearly €4 million in credits belonging to the Instituto Nacional de Segurança Social (INSS), the national social security institute that manages pension contributions. Three men were detained and constituted as arguidos (formal suspects) on charges of qualified breach of trust, computer fraud, and money laundering, among them an employee of BISTP (Banco Internacional de São Tomé e Príncipe), the country's largest commercial bank, whose access is alleged to have been used to move the diverted funds. Searches — which extended to a downtown restaurant, "A Tentadora," and to the studios of a television station, Santola TV — recovered roughly a dozen high-end vehicles, gold jewelry, watches valued between €300 and €5,000 apiece, and large amounts of cash in both dobras and euros, with the seized broadcasting equipment alone estimated at around €1 million; all three suspects were remanded to preventive custody at the central prison to await formal questioning. INSS director Gilmar Benguela publicly pushed back the next day, insisting that "no Social Security employee was arrested or constituted as an arguido" and that contributions remained under institutional control, while BISTP itself declined to comment on its employee's detention. Attorney General Kelve Nobre de Carvalho later confirmed, speaking in Lisbon where Portugal's Public Prosecutor's Office and judicial police were assisting the investigation, that further seizures of diverted assets remained possible as the case continued. The case shows how funds meant to support São Tomé's pensioners were allegedly siphoned off through insider access to the banking and social-security systems rather than through a scheme pitched directly to individual savers, and why the country has been pushing to build up its financial-crime investigative capacity.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'medium',
+    sources: ['Téla Nón', 'RTP'],
+    sourceUrl: 'https://www.telanon.info/destaques/2025/03/25/47837/operacao-pensionista-fez-3-detidos-apreendeu-carros-topo-de-gama-ouro-e-muito-dinheiro/',
+    country: 'ST',
+  },
+);
