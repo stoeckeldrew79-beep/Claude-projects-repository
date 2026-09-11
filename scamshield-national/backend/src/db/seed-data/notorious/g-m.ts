@@ -7279,3 +7279,22 @@ A federal jury convicted Jonathan Markovich of eight counts of health care fraud
 The Markovich case is a stark example of a pattern regulators and prosecutors have flagged repeatedly in the addiction treatment industry: a "sober home" or detox facility's financial incentive is to maximize billable days of treatment, which is the exact opposite of a patient's interest in actually getting well and being discharged. When operators control both the supply of drugs a patient is exposed to and the clinical decision about when that patient is ready to leave, that conflict of interest can turn a facility meant to treat addiction into one of the things sustaining it — a risk that makes verifying a treatment center's licensing, ownership, and any prior enforcement history worth doing before entrusting it with a family member's care.`,
   },
 );
+
+NotoriousGM.push(
+  {
+    title: 'Michael Bostock and the Largest GI Bill Fraud Scheme Ever Prosecuted',
+    slug: 'michael-bostock-california-technical-academy-gi-bill-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/archives/opa/pr/ceo-education-company-sentenced-causing-nearly-105m-losses-department-veterans-affairs',
+    body: `The Post-9/11 GI Bill pays a veteran's tuition and a monthly housing allowance directly, on the strength of one basic assumption: that the veteran is actually enrolled, actually attending class, and actually making progress toward a credential. Michael Bostock built a business around making that assumption false at scale. Bostock, of Nampa, Idaho, founded and ran California Technical Academy (CTA), a Department of Veterans Affairs-approved technical training school with locations near Los Angeles and San Diego.
+
+From January 2012 through June 2022, according to the Justice Department, Bostock and two co-conspirators — his brother Eric Bostock and fellow CTA employee Philip Abod — made false and fraudulent representations to the VA about veterans' enrollment, class attendance, and grades, and falsified completion records to make it look as though enrolled veterans had finished their programs when in fact they had not. When VA auditors called to verify a veteran's enrollment or attendance, prosecutors said, the calls were often answered on burner phones controlled by the conspirators themselves, who simply posed as the students in question rather than let auditors reach anyone who could contradict the school's paperwork.
+
+The scale of what that deception unlocked was enormous. Over the decade the scheme ran, CTA collected more than $32 million in tuition payments tied to nearly 1,800 enrolled veterans, while those same veterans received more than $72 million in VA education-related benefits — housing allowances and other payments calculated based on enrollment and attendance records the school had fabricated. Altogether, prosecutors calculated the scheme cost the VA nearly $105 million, the largest loss ever attributed to a single Post-9/11 GI Bill fraud case.
+
+Bostock pleaded guilty in September 2022. In June 2023, he was sentenced to five years in federal prison for his role as the scheme's architect. Eric Bostock was sentenced to one year and a day, and Philip Abod received the same sentence along with an order to pay $3.4 million in restitution to the VA.
+
+The CTA case is a reminder that education-benefit fraud harms two distinct sets of victims at once: American taxpayers, who fund the GI Bill, and the veterans themselves, many of whom walked away with a credential from a school later exposed as having fabricated their academic records — a mark on their educational history that followed them even though the fraud was the school's doing, not theirs. A VA-approved school and a real physical campus are not, on their own, proof that a program is delivering what it claims; a veteran considering any school can independently verify accreditation, graduation rates, and any pending VA or state investigations before enrolling benefits that, once spent on a fraudulent program, are difficult or impossible to recover.`,
+  },
+);
