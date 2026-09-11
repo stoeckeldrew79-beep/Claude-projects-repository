@@ -3588,6 +3588,10 @@ NotoriousNS.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
     sourceUrl: 'https://en.wikipedia.org/wiki/Sakvithi_Ranasinghe',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Colombo_Skyline_Jan_2022.jpg?width=1200',
+    coverImageCredit: 'XKillSwitchXxx, CC BY-SA 4.0, via Wikimedia Commons',
+    coverImagePosition: 50,
     body: `Sakvithi Ranasinghe — born Abhaya Ranasinghe Arachchilage Chandana Weerakumara in 1972 in Battaramulla, near Colombo — became one of Sri Lanka's most recognizable public figures not through finance but through English-language tutoring, building a television and advertising presence around English classes for students desperate to improve their job prospects, marketed under the slogan "I was born to teach." That fame became his business model. In 2003, at the height of his popularity as a tutor, he founded S.R. Property Sharing Investment (Private) Limited, an unlicensed finance company that took deposits from the public in exchange for the promise of attractive dividends, and later added Sakvithi Constructions, which claimed to sell land and property but in several cases relied on counterfeit deeds for land it did not actually own or have the right to sell.
 
 Depositors handed Ranasinghe their savings largely because they already trusted him as a familiar face from television rather than because anyone had vetted S.R. Property Sharing as a licensed deposit-taking institution — it was not one. By the time Sri Lanka's Central Bank moved against the operation on September 26, 2008, investigators calculated that Ranasinghe had taken in more than 1 billion rupees (roughly $8.5 million at the time) from 2,135 depositors, funds that court proceedings later showed had gone toward a personal lifestyle that included heavy gambling losses at casinos including the MGM Grand, Bellagio, and Bally's in Las Vegas rather than toward any property investment that could actually pay depositors back.
