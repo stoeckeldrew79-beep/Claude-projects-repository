@@ -5206,3 +5206,31 @@ UsNS.push({
     isHistorical: true,
     firstRecorded: '2025-11-20',
 });
+
+UsNS.push({
+    name: '1StopBedrooms Furniture Cancellation and Non-Delivery Fraud',
+    slug: 'new-york-1stopbedrooms-furniture-fraud',
+    description: `Payless Furniture, Inc., doing business as 1StopBedrooms out of Midwood, Brooklyn, sold furniture online with promises of fast delivery and "30-day hassle-free returns," but New York Attorney General Letitia James's office found the company routinely let deliveries slip for months, shipped damaged pieces with no real path to a refund or exchange, and charged cancellation and "restocking" fees it never clearly disclosed up front — a 15% restocking charge plus $2.25 per pound in return shipping on orders customers canceled or that were excessively delayed. Some customers who canceled an undelivered order received only a partial refund; others got nothing back at all. After the Attorney General's office received hundreds of complaints, it sued the company, and on April 14, 2026 announced a resolution requiring 1StopBedrooms to pay up to $350,000 — full restitution to affected consumers plus a $75,000 penalty and $2,000 in costs to the state — and to rewrite its advertising and cancellation practices going forward. Anyone ordering large furniture pieces online is advised to read the actual return and cancellation policy in full before paying, rather than relying on marketing language like "hassle-free returns," to pay by credit card so a non-delivered or damaged order can still be disputed with the card issuer, and to check a retailer's complaint history with the New York Attorney General's office before placing a large order.`,
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'medium',
+    sources: ["New York Attorney General's Office (Letitia James)"],
+    sourceUrl: 'https://ag.ny.gov/press-release/2026/attorney-general-james-secures-350000-brooklyn-furniture-store-cheating',
+    country: 'US',
+    state: 'NY',
+    isHistorical: true,
+    firstRecorded: '2026-04-14',
+});
+
+UsNS.push({
+    name: 'Harrison Township Cemetery Association Gravestone Non-Delivery Scheme',
+    slug: 'ohio-gravestone-delivery-fraud',
+    description: `Trevor Bush and the Harrison Township Cemetery Association, which operates a Dayton-area burial ground under the name Greencastle Cemetery, took large upfront payments from grieving families for grave markers and headstones, then left the stones undelivered for months past the dates customers were promised — with some orders still unfulfilled even after the promised delivery window had long since passed. Ohio Attorney General Dave Yost's office says complaints kept accumulating even as customers were repeatedly told their marker was only a few more months out, and on January 31, 2025, Yost filed suit against Bush and the cemetery association in Montgomery County Common Pleas Court, alleging the pattern of unfulfilled headstone contracts violated Ohio's Consumer Sales Practices Act. The lawsuit seeks restitution for the affected families, civil penalties, and injunctive relief to stop further sales until existing orders are honored. Because a grave marker is typically paid for in a single lump sum well before the stone is actually carved and installed, and is arranged at one of the most emotionally difficult times in a family's life, Yost's office recommends checking a monument dealer's or cemetery's complaint history with the Ohio Attorney General before paying in full, getting a firm delivery date and cancellation terms in writing, and paying by credit card rather than cash or check so a non-delivered order can still be disputed months later. Ohioans who believe they were affected by this or a similar non-delivery scheme can file a complaint at OhioProtects.org or by calling 800-282-0515.`,
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'medium',
+    sources: ['Ohio Attorney General (Dave Yost)'],
+    sourceUrl: 'https://ohioattorneygeneral.gov/Media/News-Releases/January-2025',
+    country: 'US',
+    state: 'OH',
+    isHistorical: true,
+    firstRecorded: '2025-01-31',
+});
