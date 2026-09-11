@@ -7403,3 +7403,14 @@ UsAF.push({
     country: 'US',
     state: 'CA',
 });
+
+UsAF.push({
+    name: 'Fake USPTO Trademark Renewal and Monitoring Notice Scam',
+    slug: 'fake-uspto-trademark-renewal-notice-scam',
+    description: `Businesses and individuals who have filed a trademark application or own a registered mark receive official-looking letters, emails, or invoices from entities with names like "World Trademark Registry," "Patent and Trademark Bureau," or "Trademark Renewal Service" — none of them real USPTO divisions — that mimic government letterhead and seals and demand immediate, often inflated, payment to "renew," "monitor," or "protect" the mark, or falsely warn that another company is about to register the same trademark unless the recipient pays right away. The letters are built entirely from the mark's real, publicly searchable USPTO filing details — its serial number, filing date, and owner's name and address, pulled straight from the agency's own database — which is what makes a mass-mailed form letter feel personally addressed and urgent. Some versions go further, mailing a fake "Trademark Trial and Appeal Board" notice claiming money is owed even though the TTAB never awards or demands monetary damages, or emailing from a lookalike domain such as one ending in "uspto-trademark.live" rather than the government's actual @uspto.gov address. The USPTO's own scam-prevention warning tells trademark owners to check any listed fee against its official trademark fee schedule, confirm an application or registration's real status for free through its Trademark Status and Document Retrieval (TSDR) system, and verify any supposed TTAB filing through the agency's own TTAB Inquiry System before paying anything or replying — and to never share a USPTO.gov account password with anyone who calls or emails asking for it. Suspicious notices can be forwarded to TMScams@uspto.gov and reported to the FTC at ReportFraud.ftc.gov.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['U.S. Patent and Trademark Office (USPTO)'],
+    sourceUrl: 'https://www.uspto.gov/subscription-center/2025/protect-yourself-scammers',
+    country: 'US',
+});
