@@ -7601,3 +7601,20 @@ Gutfahr used the roughly $38.7 million to buy real estate, renovate her family's
 Gutfahr's case is a reminder that internal controls only work if they're actually enforced rather than merely written down: a county with a two-approval rule on the books was still defrauded for twelve straight years, because the one person the rule was meant to check was also the person with practical access to bypass it. IRS Criminal Investigation and the FBI investigated the case, which took over a decade of public trust and turned it into a private fortune before anyone outside Gutfahr's office noticed.`,
   },
 );
+
+NotoriousAF.push(
+  {
+    title: 'Frank Whittaker and Christine Ellsworth: A Father-Daughter Power of Attorney Scheme',
+    slug: 'frank-whittaker-christine-ellsworth-power-of-attorney-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://ag.ny.gov/press-release/2025/attorney-general-james-announces-conviction-and-sentencing-father-and-daughter',
+    body: `Frank Whittaker, of Kingston, New York, first got close to his elderly neighbor in Ulster County by helping her out around the house — mowing her lawn, running errands, the kind of small favors that build trust with an isolated older person over time. According to New York Attorney General Letitia James, that trust eventually turned into legal authority: the woman, 92 years old, named Whittaker her power of attorney, giving him control over her finances, and named his daughter, Christine Ellsworth, as successor power of attorney behind him.
+
+From July 2021 through August 2022, Whittaker used that authority to write unauthorized checks and transfer funds directly out of the victim's bank and investment accounts, moving the money into his own account. Investigators said the stolen funds — more than $230,000 in total — went toward a $57,500 GMC Sierra pickup truck, jewelry, and a stream of restaurant, retail, and casino spending, none of it for the woman whose life savings were paying for it.
+
+New York State Police's Financial Crimes Unit and the Attorney General's Office investigated the case, and both Whittaker and Ellsworth were charged in August 2024 with Grand Larceny in the Second Degree. Whittaker pleaded guilty that November to Grand Larceny in the Third Degree, and Ellsworth pleaded guilty to Petit Larceny. Whittaker was sentenced to five years of probation and ordered to pay $192,000 in restitution — a figure that includes roughly $92,000 investigators managed to seize from his bank account before it could be spent — while Ellsworth received three years of probation and was barred from working in elder care.
+
+The case shows how a power of attorney, a document meant to help someone who can no longer manage their own affairs, can instead become the mechanism that empties their accounts once it's handed to the wrong person — and how naming a successor power of attorney can extend that risk to a second person even before the first one is finished acting. Adult children and other relatives of elderly people who grant this kind of authority to a neighbor or new acquaintance are often the ones best positioned to ask for regular, independent statements showing where the money is actually going.`,
+  },
+);
