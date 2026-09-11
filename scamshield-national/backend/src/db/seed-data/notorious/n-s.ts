@@ -4717,7 +4717,10 @@ NotoriousNS.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/opa/pr/nurse-practitioner-sentenced-87-months-prison-12m-medicare-fraud',
-    // no verified rights-cleared photo found yet — see NotoriousCoverPhotos
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Hale_Boggs_Federal_Building-Courthouse,_New_Orleans,_Louisiana_LCCN2014630190.tif?width=1200',
+    coverImageCredit: 'Photo: Carol M. Highsmith, public domain, via Wikimedia Commons — the Hale Boggs Federal Building, home of the Eastern District of Louisiana, where Lawson Baker was tried',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Scharmaine Lawson Baker, 59, of Fulshear, Texas, was a licensed nurse practitioner and enrolled Medicare provider who, for about a year, put her signature on medical orders she had no real basis to write. From October 2018 to October 2019, working as an independent contractor for a company that marketed itself as a telehealth provider, Lawson Baker signed off on hundreds of orders for expensive cancer genetic tests after phone calls with patients that prosecutors said typically lasted less than 30 seconds — and often without examining the patient at all.
 
 The genetic tests she ordered were not incidental add-ons to legitimate checkups; in some cases they made no clinical sense whatsoever. Evidence at trial showed Lawson Baker ordering ovarian and cervical cancer screening tests for male patients, a detail prosecutors used to argue she was not exercising medical judgment but simply approving whatever the telehealth company's marketing operation sent her way in exchange for payment. A recorded call played at trial captured a telehealth company phone operator telling her she'd be "rolling in money" for signing the orders, and Lawson Baker responding, "Honey, I am not complaining."
