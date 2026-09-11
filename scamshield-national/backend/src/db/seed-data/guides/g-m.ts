@@ -3816,6 +3816,10 @@ If you or someone you know was affected by Helene, or by any storm since, a few 
     slug: "medical-debt-credit-report-rule-vacated-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "medical-debt-credit-report-rule-vacated"],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/A_patient_exam_room_at_an_urgent_care_clinic_and_doctor%E2%80%99s_office_in_North_Carolina,_United_States_06.jpg?width=1200',
+    coverImageCredit: 'Photo: Harrison Keely (CC BY 4.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: "https://www.bhfs.com/insight/federal-court-vacates-cfpbs-medical-debt-rule-finds-fcra-preempts-state-laws/",
     body: `For a brief window, it looked like medical debt was about to disappear from credit reports nationwide. On January 7, 2025, the Consumer Financial Protection Bureau finalized a rule under Regulation V that would have barred lenders from considering medical information in credit decisions and prohibited credit reporting agencies from including medical debt on consumer credit reports at all, regardless of amount. The rule never took effect. Credit unions and debt-collection industry groups sued to block it, and on July 11, 2025, the U.S. District Court for the Eastern District of Texas vacated the entire rule in Cornerstone Credit Union League v. CFPB — not after a contested fight, but on a joint request from the industry plaintiffs and the CFPB itself, which under new leadership took the unusual step of asking the court to throw out its own predecessor's rule. The court agreed with both sides that the rule exceeded the CFPB's statutory authority and conflicted with the Fair Credit Reporting Act, which explicitly permits reporting agencies to include properly coded medical debt on a credit report.
 
