@@ -6488,3 +6488,60 @@ A federal grand jury in the District of Massachusetts charged thirteen individua
 The grandparent scam is one of the oldest tricks in the elder-fraud playbook precisely because it exploits a parent's or grandparent's instinct to act first and verify later, and the two-role "opener/closer" structure Castanos Garcia's operation used is built to compress that instinct into a single phone call before anyone has time to hang up and dial the grandchild directly. What made this case unusual wasn't the script — it was the scale of the infrastructure behind it, a multinational operation with defined job roles, a dedicated laundering arm, and enough victims across enough states that piecing together the full picture took a federal investigation running from a 2024 indictment through extraditions, guilty pleas, and sentencings still unfolding two years later.`,
   },
 );
+NotoriousAF.push(
+  {
+    title: 'Arsalan Rawjani and the $18 Million "Trade with Ayasa" Ponzi Scheme That Preyed on North Texas\'s Ismaili Community',
+    slug: 'arsalan-rawjani-trade-with-ayasa-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26391',
+    // civil SEC case, no rights-cleared photo identified — sourceUrl serves as the "read the full story" link
+    body: `Note: this case is a civil enforcement action. The Securities and Exchange Commission's complaint describes allegations only — Arsalan Rawjani has not been criminally charged, and neither he nor Trade with Ayasa has been found liable by a court as of this writing.
+
+Arsalan A. Rawjani was, by the SEC's account, an active and respected member of the Ismaili Muslim community in North Texas, the kind of insider whose standing inside a close religious and cultural network made his investment pitch land differently than a cold call from a stranger ever could. Starting in 2021, Rawjani held himself out to fellow community members as a skilled options trader and solicited money for a company he ran called Trade with Ayasa, LLC — registered at various points in Texas, Wyoming, and Nevada — promising a guaranteed monthly dividend of three to five percent, funded, he said, by profits from pooling investor money into options contracts.
+
+According to the SEC's civil complaint, filed September 5, 2025 in the U.S. District Court for the Northern District of Texas, the trading barely happened. Of the roughly $18 million Rawjani is alleged to have raised from investors between 2021 and 2024, the complaint says only about $1 million was ever deposited into a brokerage account and actually used to trade options — nowhere near enough to generate the fixed, above-market returns investors were promised month after month. The dividends kept arriving anyway, the SEC alleges, paid out of newer investors' deposits in the classic mechanics of a Ponzi scheme, while Rawjani personally withdrew roughly $4.3 million from Trade with Ayasa's main account between April 2021 and March 2024.
+
+The scheme collapsed in late 2023 and into early 2024, when the guaranteed monthly payments simply stopped arriving and investors — many of whom had trusted Rawjani specifically because of his standing inside their own community — were left trying to reconstruct where their money had gone. The SEC's complaint charges Rawjani and Trade with Ayasa with violating the antifraud provisions of the Securities Act and the Securities Exchange Act, along with the registration requirements governing securities offerings, and seeks a permanent injunction, disgorgement of ill-gotten gains with prejudgment interest, and civil monetary penalties. As of this writing the case remains in active litigation, with none of the allegations yet tested at trial.
+
+Affinity fraud like the scheme described in the SEC's complaint depends on a specific and durable vulnerability: the more tightly knit and trust-based a community is, the less its members tend to demand the kind of paperwork, audited statements, or independent verification they might insist on from an outside broker. A guaranteed fixed monthly return, regardless of what options markets are actually doing that month, is a claim no legitimate trading operation can honestly make — a fact that outside due diligence might catch quickly, but that shared faith, language, and community standing can make invisible for years.`,
+  },
+);
+NotoriousAF.push(
+  {
+    title: 'Frederick Kumi, the AI-Generated "Girlfriends," and an $8 Million Romance Fraud Indictment',
+    slug: 'frederick-kumi-abu-trica-ai-romance-scam',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-ndoh/pr/ghanaian-national-extradited-us-face-accusations-using-romance-fraud-schemes-take-8',
+    // criminal case pending trial as of writing — no rights-cleared photo identified, sourceUrl serves as the "read the full story" link
+    body: `Note: this case is a pending criminal prosecution. An indictment is only a charge, not evidence of guilt, and the defendants are presumed innocent unless and until proven guilty at trial. As of this writing, jury selection in the case had just begun and no verdict had been reached.
+
+To his followers in Ghana, Frederick Kumi was a 31-year-old social media entrepreneur from Swedru who went by the online handle "Abu Trica." According to a federal indictment unsealed in the Northern District of Ohio, that public persona sat alongside a very different one: prosecutors allege that between April 2023 and November 2025, Kumi — using the aliases Emmanuel Kojo Baah Obeng and Abu Trica — led a criminal network, together with co-defendant Daniel Yussif (also known as "Denteni" and "Slab"), that used artificial intelligence tools to fabricate entirely fictitious romantic partners and deploy them against more than 80 elderly Americans, extracting more than $8 million.
+
+What distinguishes the scheme described in the indictment from an ordinary romance scam, prosecutors say, is the technology behind the deception. Rather than relying solely on scripted messages and borrowed photographs, Kumi is accused of using AI-driven video and image tools to build and sustain convincing fake female personas capable of engaging victims — many of them widows and divorcees found through online dating sites and social media — in what felt like a real, ongoing relationship rather than a text exchange with a stranger. Once trust was established, the indictment alleges, victims were drawn in with fabricated stories, including claims of gold or diamond inheritances that required the victim's help to access, and were then instructed to wire money to bank accounts controlled by members of the conspiracy.
+
+Kumi was arrested in Ghana on December 11, 2025, following an investigation by the FBI's Cleveland Division, and was extradited to the United States on July 9, 2026, to face a federal grand jury indictment charging him with conspiracy to commit wire fraud and money laundering conspiracy — charges that together carry a statutory maximum of 20 years in prison. He pleaded not guilty at his arraignment before U.S. District Judge John R. Adams, and the court set a jury trial for September 8, 2026, with Assistant U.S. Attorney Brian M. McDonough prosecuting the case for the Northern District of Ohio.
+
+The Abu Trica case sits at an uncomfortable frontier for elder-fraud investigators: generative AI tools that were, until recently, expensive and technically demanding are now cheap and simple enough for a scam network to use them not just to write more convincing messages, but to manufacture the sustained illusion of an actual person — a voice, a face, a relationship maintained in real time over months. If the government's allegations hold up at trial, the case offers a preview of how much harder the oldest trick in the fraud playbook, a stranger claiming to love you, may become to spot once the stranger is not a person typing from a script but a synthetic performance built to survive a video call.`,
+  },
+);
+NotoriousAF.push(
+  {
+    title: 'Eric Zhu and the "Locked Liquidity" That Wasn\'t: A $553,000 Crypto Rug Pull',
+    slug: 'eric-zhu-game-coin-gme-rug-pull',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26223',
+    // civil SEC settlement, no rights-cleared photo identified — sourceUrl serves as the "read the full story" link
+    body: `Note: this case is a civil SEC settlement. Eric Zhu settled the SEC's charges without admitting or denying the allegations, and the case involves no criminal conviction.
+
+Game Coin, LLC was a small Louisiana venture founded in August 2021 by two people whose primary business, according to the SEC's complaint, was landscaping rather than software — an ordinary-enough origin story for a company that set out to build a website where amateur athletes could create and sell their own digital trading cards. To handle the technical side of launching a companion crypto token called GME, the founders brought in Eric Zhu, a freelance blockchain engineer based in New York, to write the code that would create the token and bring it to market.
+
+GME was sold to the public in June 2021 through a decentralized exchange called PancakeSwap, using a mechanism common across the crypto industry: a "liquidity pool," where anyone can deposit a pair of crypto assets — in this case GME and Binance Coin — to enable other users to trade between them, and in exchange receives "LP tokens" representing a claim on that pooled liquidity. Game Coin's founders assured prospective buyers in public social media posts that the project's liquidity was "locked," industry shorthand meaning the LP tokens were held in a way that prevented insiders from withdrawing the pooled assets and abandoning the project — the exact maneuver known in crypto slang as a "rug pull."
+
+According to the SEC's complaint, filed January 16, 2025 in the U.S. District Court for the Middle District of Louisiana, that promise wasn't true for all of the LP tokens. A portion of them, generated as part of how GME's sale was structured, ended up sitting in a blockchain address under Zhu's exclusive control — and rather than locking or returning them, Zhu kept them fully usable and, months after the launch, used them to withdraw GME and Binance Coin from the liquidity pool for himself, misappropriating crypto assets the SEC valued at approximately $553,000 and triggering roughly a 12 percent drop in GME's price as the pool he had drained lost the ability to support the token's value.
+
+Zhu settled the SEC's charges — that he violated the antifraud provisions of the Securities Act and the Securities Exchange Act — without admitting or denying the allegations, agreeing to pay $672,992 in disgorgement and prejudgment interest plus a $150,000 civil penalty, for a total of roughly $823,000, along with a permanent injunction against future violations, subject to court approval. Unlike Game Coin's founders, who were accused of misrepresenting the project's basic safeguards, Zhu's alleged fraud came from a position most investors never think to scrutinize: not the people making public promises about a token, but the engineer with backend access to the mechanism meant to keep those promises honest. "Locked liquidity" is a claim retail crypto buyers generally have no independent way to verify — it lives in code and permissions controlled by people they've never met — which is exactly what let one member of a small team quietly hold the keys to a lock everyone else believed was already shut.`,
+  },
+);

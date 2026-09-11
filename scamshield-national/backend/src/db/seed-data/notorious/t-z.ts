@@ -1797,6 +1797,10 @@ NotoriousTZ.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
     sourceUrl: 'https://ncua.gov/news/enforcement-actions/administrative-orders/2021/administrative-order-matter-trevon-gross',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Thurgood_Marshall_United_States_Court_House.jpg?width=1200',
+    coverImageCredit: 'Photo: Federal Judicial Center / National Archives, Public Domain, via Wikimedia Commons — the Thurgood Marshall U.S. Courthouse in Manhattan, where Trevon Gross was convicted',
+    coverImagePosition: 50,
     body: `Trevon Gross was the pastor of HOPE Cathedral in Jackson, New Jersey, and also chairman and CEO of a small, federally insured credit union tied to his congregation, Helping Other People Excel Federal Credit Union (HOPE FCU), which served mostly low-income members in the area. In 2014, that dual role made him a target for Anthony Murgio, a Florida man who was looking to buy control of a small credit union to give an unlicensed Bitcoin exchange called Coin.mx a federally insured institution to hide behind.
 
 Prosecutors said Murgio and an associate, software engineer Yuri Lebedev, paid Gross more than $150,000 in bribes — funneled partly as "donations" to his church and partly as direct payments — in exchange for using his position atop HOPE FCU's board to hand them effective control of the credit union. When federal examiners from the National Credit Union Administration came asking questions about the sudden change in control, Gross conspired with Murgio to make false statements and obstruct the examination rather than disclose what had actually happened.
@@ -1814,6 +1818,10 @@ NotoriousTZ.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
     sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-22487',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Hatfield_Federal_Courthouse_from_North_-_Portland,_Oregon.JPG?width=1200',
+    coverImageCredit: 'Photo: M.O. Stevens, Wikimedia Commons (CC BY-SA 4.0) — the Mark O. Hatfield U.S. Courthouse in Portland, where Yusaf Jawed was prosecuted',
+    coverImagePosition: 50,
     body: `Yusaf Jawed ran Grifphon Asset Management and a related stable of funds, including one called the Alpha Qualified Fund, out of Portland, Oregon, marketing to investors across the Pacific Northwest and beyond. His pitch leaned on consistency rather than excitement: marketing materials claimed the funds delivered double-digit returns year after year, even in years the S&P 500 index was falling — a claim that should have read as implausible rather than reassuring.
 
 None of it held up. According to the SEC, Jawed diverted investor money into accounts he personally controlled, sent out fabricated account statements showing gains that never happened, and — when investors grew anxious about their money — staged a sham buyout of the funds to make it look like an orderly, voluntary exit rather than a fraud in progress. Underneath the fabricated paperwork was a straightforward Ponzi structure: money from new investors paid off earlier ones. An outside attorney, Robert Custis, was separately charged by the SEC for helping relay the falsified statements to investors.
@@ -1831,6 +1839,10 @@ NotoriousTZ.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/usao-ednc/pr/greenville-man-sentenced-over-five-years-prison-ponzi-scheme',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Pitt_County_Courthouse.JPG?width=1200',
+    coverImageCredit: 'Photo: Tradewinds, Wikimedia Commons (CC BY-SA 3.0) — the Pitt County Courthouse in Greenville, North Carolina, where Willard Timothy Sutton ran his car-lot Ponzi scheme',
+    coverImagePosition: 50,
     body: `Willard Timothy Sutton, known around Greenville, North Carolina as "Tim," was a familiar and trusted face well before anyone thought to ask where his investment returns were actually coming from. He ran Greenville Auto World, LLC (GAW), a "buy here, pay here" used car dealership that sold vehicles to customers with weak credit and financed the loans itself — a real, ordinary small business. He was also the leader of the Tim Sutton Trio, a locally known gospel group, and that standing in Pitt County's church community became the recruiting engine for a second business almost nobody outside his inner circle understood: selling investors a stake in GAW's in-house auto loans.
 
 Starting around 2019, Sutton told investors their money was being used to fund and service those buy-here-pay-here loan contracts, and that steady interest and principal payments from car buyers would keep their returns coming. According to federal prosecutors, that wasn't what was actually happening. Sutton sold the same underlying loan contracts to more than one investor at a time without telling either of them, forged customers' signatures on paperwork to manufacture loans that didn't exist, and handed over falsified vehicle title documents to back up the fiction — while using newly raised investor money to keep paying off earlier investors, the standard structure of a Ponzi scheme dressed up as a legitimate car lot's financing arm.
@@ -1848,6 +1860,10 @@ NotoriousTZ.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/usao-wdnc/pr/charlotte-man-sentenced-more-five-years-prison-defrauding-investor-ponzi-scheme',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Charlotte_Skyline_2011_-_Ricky_W.jpg?width=1200',
+    coverImageCredit: 'Photo: Riction, Wikimedia Commons (CC BY-SA 3.0) — Charlotte, North Carolina, where Wynn Charlebois ran his investment fraud',
+    coverImagePosition: 50,
     body: `Wynn A.D. Charlebois presented himself around Charlotte, North Carolina as a self-styled business consultant with a résumé that included time at a legitimate hedge fund — credentials he leaned on heavily to persuade acquaintances that handing him their savings was a safe bet. Starting around 2015, he used a rotating cast of entities he owned and controlled, including WC Private LLC, Wilcox Hybrid, and Damon Investments, to solicit money for what he described as risk-free investments, subscription agreements, and short-term loans, promising returns that made the pitches sound conservative rather than speculative.
 
 The money wasn't going where Charlebois said it was. According to federal prosecutors, he used new investor funds to make Ponzi-style payments to earlier investors and to cover his own personal expenses, rather than putting the money into any real investment. His pool of victims skewed toward people primed to trust him on reputation alone rather than paperwork: more than 40 victims nationwide, prosecutors said, including friends, family, fellow church members, military veterans, and retirees — several of them already in or nearing retirement when they handed over money they could not afford to lose.
@@ -1865,6 +1881,10 @@ NotoriousTZ.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/opa/pr/fraudster-who-sold-personal-information-over-7-million-elderly-americans-jamaican-scammers',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Historic_Catawba_County_Courthouse_-_Newton,_NC.jpg?width=1200',
+    coverImageCredit: 'Photo: Upstateherd, Wikimedia Commons (CC BY-SA 3.0) — the historic Catawba County Courthouse near Hickory, North Carolina, where Troy Murray ran his lead-list business',
+    coverImagePosition: 50,
     body: `Most people prosecuted in lottery-scam cases are the ones on the phone, telling an elderly victim they've won a prize and just need to pay a "fee" to collect it. Troy Murray, 57, of Hickory, North Carolina, never made those calls himself. Instead, from 2016 through 2023, prosecutors say he built and ran the supply chain that made thousands of other people's calls possible — compiling and selling "lead lists" of elderly Americans' names, phone numbers, and home addresses, and in some cases their ages and email addresses too, directly to lottery-fraud operators in Jamaica.
 
 Murray's business ran at real commercial scale: at roughly $500 per list of 100 to 300 names, he sold at least 22,000 lists over the life of the scheme, covering the personal information of more than seven million elderly Americans in total. He operated under the pseudonym "Steve Dixon" in his dealings with Jamaican buyers, and when banks and wire-transfer companies began cutting off payments tied to lottery-fraud proceeds, he adapted rather than stopped — switching to prepaid gift cards as payment to keep the money moving around the financial system's fraud controls.
