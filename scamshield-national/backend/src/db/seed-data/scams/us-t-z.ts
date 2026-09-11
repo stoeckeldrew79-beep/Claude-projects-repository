@@ -2819,3 +2819,15 @@ UsTZ.push({
     isHistorical: true,
     firstRecorded: '2014-01-01',
 });
+
+UsTZ.push({
+    name: 'Lone Star Pups Puppy-Origin and Health-Guarantee Investigation',
+    slug: 'texas-caldwell-lone-star-pups-puppy-investigation',
+    description: `Texas Attorney General Ken Paxton opened an investigation on July 29, 2026 into Lone Star Pups, LLC, a Caldwell, Texas-based online business that sells doodle and other designer-breed puppies nationwide, alleging the company misled consumers about where its puppies actually come from and the veterinary care behind them. Lone Star Pups markets itself as working exclusively with reputable, hands-on breeders, but records reviewed by investigators show some of its puppies' pre-purchase veterinary exams were conducted in Holmes County, Ohio, a region widely associated with large-scale commercial dog-breeding operations rather than the small, personally-vetted breeders the marketing implies. The company also advertises that 99% of its breeding dogs are "OFA certified," a reference to hip, elbow, and other health screenings from the Orthopedic Foundation for Animals, but an undercover review found some dogs had completed only part of the testing the full certification requires. Perhaps most consequential to buyers is the company's marketed "10 Year Health Guarantee," presented as a warranty standing behind every puppy sold: the fine print actually caps coverage for major hereditary conditions — including cancer, pancreatitis, autoimmune disease, diabetes, intestinal disease, and seizures — at just three years from the puppy's birth date, leaving buyers responsible for the costliest, most common inherited health problems for the guarantee's remaining seven years. Paxton's office issued a Civil Investigative Demand compelling Lone Star Pups to produce records on its breeder relationships, veterinary practices, and marketing claims, and is examining potential violations of the Texas Deceptive Trade Practices Act. Anyone buying a puppy online, especially through a company promising a long-term health guarantee, should ask for the breeder's name and location directly, independently verify any claimed health certification through the certifying organization's own public database rather than the seller's summary of it, and read a "guarantee" in full before paying a deposit, since a headline coverage period can conceal much shorter real-world limits buried in the contract's later pages.`,
+    categorySlug: 'pet-sales-scams',
+    alertLevel: 'medium',
+    sources: ["Texas Office of the Attorney General"],
+    sourceUrl: 'https://www.texasattorneygeneral.gov/news/releases/attorney-general-ken-paxton-investigates-puppy-mill-ensure-puppies-being-sold-texas-receive-top-tier',
+    country: 'US',
+    state: 'TX',
+});
