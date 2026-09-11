@@ -6928,3 +6928,21 @@ Jin pleaded guilty on January 29, 2025, to conspiracy to commit wire fraud and c
 Jin's case is a reminder that a pandemic-era relief system built to move money quickly to laid-off workers was also, by design, a system that trusted the identity behind each claim more than it verified it — a vulnerability that let identity thieves, shell "PPE businesses," and an international money-laundering pipeline sit quietly behind thousands of individually unremarkable unemployment claims until the total reached nine figures.`,
   },
 );
+NotoriousAF.push(
+  {
+    title: 'Albert Saniger and the Shopping App That Called Human Workers "AI"',
+    slug: 'albert-saniger-nate-ai-washing-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-sdny/pr/tech-ceo-charged-artificial-intelligence-investment-fraud-scheme',
+    body: `Note: this profile describes a pending federal criminal prosecution. Albert Saniger has pleaded not guilty and has not been convicted of anything described below; an indictment is only a set of charges rather than proof of guilt, and he is presumed innocent unless and until proven guilty at trial.
+
+Albert Saniger — legally Alberto Saniger Mantinan — founded the e-commerce startup Nate, Inc. around a pitch tailored to the generative-AI investment boom of the late 2010s and early 2020s: a shopping app that used proprietary artificial intelligence to complete online purchases on a user's behalf, automatically selecting product options and entering payment details with little to no human involvement. Prosecutors say that pitch, repeated to venture capital investors across Nate's Seed and Series A funding rounds, was the product Saniger sold to raise more than $42 million — and that it wasn't true.
+
+According to a criminal complaint filed by the U.S. Attorney's Office for the Southern District of New York and a parallel civil complaint from the Securities and Exchange Commission, both unsealed April 9, 2025, Nate's actual "automation rate" — the share of purchases its software completed without a human touching them — was effectively zero percent between spring 2019 and December 2022. Behind the app, prosecutors say, Nate employed hundreds of contract "purchasing assistants" working out of a call center in the Philippines who manually read each order and keyed it in themselves, function that had nothing to do with the AI Saniger was describing to his investors and to much of his own staff. The SEC's complaint alleges Saniger went further than simply overstating the technology: he restricted employees' access to Nate's internal dashboards and told some staff the true automation figures were a closely guarded trade secret, allegedly to keep the gap between the pitch and the product from becoming common knowledge inside the company itself.
+
+Saniger was charged with one count of securities fraud and one count of wire fraud, each carrying a statutory maximum of 20 years in prison; the SEC's civil case, filed the same day in the U.S. District Court for the Southern District of New York, seeks disgorgement, civil penalties, and an officer-and-director bar. He entered a plea of not guilty in December 2025 and was released on a $250,000 bond that permits him to live in Spain subject to travel restrictions. Legal commentators have flagged the case as the first criminal prosecution built squarely on "AI-washing" — the practice of a company marketing itself as AI-powered to attract investment when the underlying work is substantially done by people. As of this writing, no trial date has produced a verdict and the charges remain allegations.
+
+Nate's case is a preview of a fraud pattern regulators expect to see more of as "AI-powered" becomes one of the most valuable phrases a startup can put in a pitch deck: a claimed automation rate, unlike a claimed profit margin, is nearly impossible for an outside investor to verify without access to the company's own backend — which is exactly the access Saniger is accused of restricting even to some of his own employees. Investors evaluating any startup's AI claims have reason to ask not just what the software is supposed to do, but for concrete, independently checkable evidence of how much of the actual work it performs today.`,
+  },
+);
