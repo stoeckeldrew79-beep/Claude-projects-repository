@@ -6653,7 +6653,10 @@ NotoriousAF.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/usao-ndoh/pr/ghanaian-national-extradited-us-face-accusations-using-romance-fraud-schemes-take-8',
-    // criminal case pending trial as of writing — no rights-cleared photo identified, sourceUrl serves as the "read the full story" link
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Howard_M._Metzenbaum_U.S._Courthouse,_Cleveland,_OH_(27732082407).jpg?width=1200',
+    coverImageCredit: 'Warren LeMay, CC0, via Wikimedia Commons',
+    coverImagePosition: 50,
     body: `Note: this case is a pending criminal prosecution. An indictment is only a charge, not evidence of guilt, and the defendants are presumed innocent unless and until proven guilty at trial. As of this writing, jury selection in the case had just begun and no verdict had been reached.
 
 To his followers in Ghana, Frederick Kumi was a 31-year-old social media entrepreneur from Swedru who went by the online handle "Abu Trica." According to a federal indictment unsealed in the Northern District of Ohio, that public persona sat alongside a very different one: prosecutors allege that between April 2023 and November 2025, Kumi — using the aliases Emmanuel Kojo Baah Obeng and Abu Trica — led a criminal network, together with co-defendant Daniel Yussif (also known as "Denteni" and "Slab"), that used artificial intelligence tools to fabricate entirely fictitious romantic partners and deploy them against more than 80 elderly Americans, extracting more than $8 million.
