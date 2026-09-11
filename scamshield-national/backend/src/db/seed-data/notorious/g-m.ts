@@ -7189,6 +7189,9 @@ NotoriousGM.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.fca.org.uk/news/press-releases/john-burford-sentenced-prison-investment-fraud',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Inner_london_crown_court_southwark.jpg?width=1200',
+    coverImageCredit: 'Southwark Crown Court, London, where Burford was sentenced — public domain, via Wikimedia Commons',
     body: `John Charles Burford, of Mansfield, Nottinghamshire, built a public persona as a market veteran through self-published articles, blogs, and a trading book, presenting himself as an unusually skilled technical trader with a proprietary method — what he branded "tramline" trading — for reading price charts. Through his company, Financial Trading Strategies Limited, where he was sole director, he turned that reputation into a paid subscription business: daily trade alerts and access to three self-named investment funds, marketed on the company's website to a following he had spent years building through his own writing.
 
 There was a problem the UK's Financial Conduct Authority says Burford never disclosed to a single subscriber: he was never authorised by the FCA to manage other people's money or offer investment advice in the first place. Between 2016 and 2021, the FCA found, Burford collected roughly £1 million from more than 100 investors, repeatedly telling them the funds were performing well and concealing the trading losses that were actually piling up underneath the confident updates he sent subscribers. Rather than being reinvested or returned, a share of the money instead went toward property purchases and Burford's own living expenses.
