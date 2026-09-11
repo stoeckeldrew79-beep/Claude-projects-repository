@@ -7447,6 +7447,9 @@ Juan Tacuri, of Greenacres, Florida, became one of the scheme's most successful 
 Tacuri pleaded guilty to one count of conspiracy to commit wire fraud. In October 2024, U.S. District Judge Analisa Torres of the Southern District of New York sentenced him to the statutory maximum of 240 months — 20 years — in federal prison, followed by one year of supervised release. The court also ordered him to forfeit $3,610,718.67 along with a Florida home he had purchased in part with victim funds, and to pay at least that same amount in restitution to the people he defrauded.
 
 Forcount's pitch worked the way most guaranteed-return schemes do: a fixed, doubled payout in a fixed window, delivered by someone the investor already trusted from their own community rather than a stranger cold-calling out of nowhere. That combination — an unrealistic promise wrapped in the credibility of an in-group referral — is what let a scheme built on nothing keep drawing in new victims for as long as it did.`,
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Thurgood_Marshall_United_States_Courthouse_007.jpg?width=1200',
+    coverImageCredit: 'Photo: Kidfly182, CC BY 4.0, via Wikimedia Commons — Thurgood Marshall United States Courthouse, Southern District of New York, where Tacuri was sentenced',
   },
 );
 
