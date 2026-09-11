@@ -5061,3 +5061,27 @@ UsNS.push({
     isHistorical: true,
     firstRecorded: '2021-12-16',
 });
+
+UsNS.push({
+    name: 'Holly Christina Photography Wedding Deposit Fraud (Ayscue)',
+    slug: 'north-carolina-holly-christina-photography-wedding-fraud',
+    description: `North Carolina Attorney General Jeff Jackson sued Raleigh-based Holly Christina Photography and its owners, married couple Holly Christina Scott Ayscue and Christopher Owen Ayscue, in North Carolina Superior Court on February 24, 2026, alleging the business systematically defrauded engaged couples out of thousands of dollars each. According to the complaint, the Ayscues used a hard-sell "almost fully booked, only one date left" pitch to rush couples into signing on the spot for $5,000-to-$7,000 wedding photo-and-video packages, when in reality the business was routinely double-, triple-, and in some cases quintuple-booking the same wedding date; when a couple's day arrived, they might get no photographer at all, a last-minute substitute they never agreed to, or, in many cases, simply never receive their edited photos or raw footage afterward. By the time the suit was filed the Department of Justice had already logged 166 complaints and roughly $750,000 in losses; within months that grew to 217 complaints and nearly $1 million as more affected couples came forward. Superior Court Judge Bryan Collins Jr. granted the state a preliminary injunction freezing the company's assets, barring the Ayscues from operating any consumer-facing business while the case proceeds, and ordering them to deliver every outstanding edited and unedited photo and video to paying couples within 30 days — an order the Attorney General's office said in September 2026 still had not been fully honored, prompting a motion for default judgment. Couples booking a wedding vendor who insist on full payment far in advance, use urgency ("only one spot left") to rush a signature, or can't produce a written contract spelling out a specific delivery date and refund terms should treat those as red flags, and can check a photography or videography business's complaint history with the North Carolina Attorney General's Consumer Protection Division before paying a deposit.`,
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'high',
+    sources: ['North Carolina Department of Justice (Attorney General Jeff Jackson)', 'WRAL'],
+    sourceUrl: 'https://ncdoj.gov/attorney-general-jeff-jackson-gets-preliminary-injunction-in-lawsuit-against-holly-christina-wedding-photographers/',
+    country: 'US',
+    state: 'NC',
+});
+
+UsNS.push({
+    name: '1-800-Flowers "Celebrations Passport" Deceptive Auto-Renewal Settlement',
+    slug: 'new-york-1-800-flowers-celebrations-passport-settlement',
+    description: `New York Attorney General Letitia James announced on July 22, 2026 that 1-800-Flowers.com, Inc. would pay $375,000 to resolve an investigation into how the company enrolled customers in its "Celebrations Passport" program, a recurring $14.99-to-$29.99-a-year membership advertised as waiving delivery and service fees on future orders. The investigation found that 1-800-Flowers failed to clearly disclose, at the point of purchase, that a customer was being signed up for an automatically-renewing paid subscription rather than simply getting a one-time discount or free shipping on the order in front of them; it also failed to provide the plain-language subscription acknowledgment New York law requires and did not notify members before their membership renewed and charged their card again the following year. As a result, many customers only discovered the recurring charge on a credit card statement well after the fact, for a membership benefit — waived fees on flower and gift orders — they may never have used again. Under the settlement, 1-800-Flowers must pay the $375,000 penalty, obtain clear affirmative consent before enrolling anyone in Celebrations Passport or any similar recurring program, send a proper subscription acknowledgment disclosing how to cancel, and give advance notice before every renewal charge. Before agreeing to a "free shipping" or "member discount" add-on at online checkout, shoppers should look for the actual recurring price and renewal terms rather than assuming a one-time discount, check for it as a separate line item before completing the order, and review card statements for a small annual charge from a retailer they may have ordered from only once.`,
+    categorySlug: 'subscription-traps',
+    alertLevel: 'medium',
+    sources: ["New York Attorney General's Office (Letitia James)"],
+    sourceUrl: 'https://ag.ny.gov/press-release/2026/attorney-general-james-secures-375000-1-800-flowers-deceiving-consumers-about',
+    country: 'US',
+    state: 'NY',
+});
