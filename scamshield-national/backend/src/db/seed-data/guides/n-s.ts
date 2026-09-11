@@ -3396,6 +3396,9 @@ New York's Division of Consumer Protection and Acting Superintendent of Financia
     slug: "pih-health-2024-ransomware-data-breach-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "pih-health-2024-data-breach"],
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/PIH_Health_Downey_Hospital.jpg?width=1200",
+    coverImageCredit: "Photo: Eric Staudenmaier, via PIH Health / Wikimedia Commons, CC BY-SA 4.0 — PIH Health's Downey Hospital campus",
+    coverImagePosition: 50,
     sourceUrl: "https://www.hipaajournal.com/pih-health-data-breach-ransomware/",
     body: `PIH Health, a nonprofit healthcare network that runs Downey Hospital, Good Samaritan Hospital, and Whittier Hospital along with urgent care clinics, home health and hospice services, and physicians' offices across Orange County and the San Gabriel Valley in California, detected a ransomware attack on its network on December 1, 2024. A forensic investigation later traced the intruder's actual access back further, finding the attacker had been inside PIH Health's systems from November 14 through December 23, 2024 — meaning the ransomware deployment that got noticed was the tail end of a five-week intrusion, not the start of one. No ransomware gang publicly claimed responsibility or listed PIH Health on a dark-web leak site, which is itself unusual for a breach this size and means outside researchers have had little independent way to verify exactly what was taken beyond what the health system itself has confirmed.
 
@@ -3412,6 +3415,10 @@ If you've ever been a patient at Downey, Good Samaritan, or Whittier Hospital, o
     slug: "renkim-corporation-2025-data-breach-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "renkim-corporation-2025-data-breach"],
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Southgate_Municipal_Complex_(Southgate,_MI).jpg?width=1200",
+    coverImageCredit: "Photo: Notorious4life, CC0, via Wikimedia Commons — the municipal complex in Southgate, Michigan, where Renkim Corporation is based",
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: "https://www.prnewswire.com/news-releases/renkim-notice-of-data-security-incident-302471143.html",
     body: `Renkim Corporation is not a name most people would recognize, because it isn't a company that deals with the public directly. Based in Southgate, Michigan, Renkim provides print, mail, text, and electronic-mail solutions to other businesses — the kind of vendor a hospital, health plan, or clinic hires to physically print and send patient statements, billing notices, and appointment reminders rather than building that infrastructure itself. That behind-the-scenes role is exactly what put patient data from Renkim's healthcare clients at risk when the company's own network was breached.
 

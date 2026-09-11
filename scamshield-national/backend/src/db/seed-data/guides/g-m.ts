@@ -3448,6 +3448,10 @@ Anyone who suspects their identity has already been misused can start a free rec
     slug: "locatesmarter-calprivacy-data-broker-settlement-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "locatesmarter-calprivacy-data-broker-settlement"],
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/California_State_Capitol_from_Capitol_Mall_-_Sacramento_(26429122855).jpg?width=1200",
+    coverImageCredit: "Photo: Tony Webster, CC BY-SA 2.0, via Wikimedia Commons — the California State Capitol in Sacramento, home to CalPrivacy, the agency that brought this settlement",
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     body: `On August 11, 2026, the California Privacy Protection Agency (CalPrivacy) announced a settlement with LocateSmarter LLC, an Iowa-based data broker that sells personal information — names, dates of birth, Social Security numbers, addresses, phone numbers, employment details, driver's license data, and litigation records — through online lookup tools and data-licensing products. The case is the agency's first-ever enforcement decision to combine California's Delete Act, which requires data brokers to register with the state, with the broader California Consumer Privacy Act (CCPA), and it targets a practice that consumer advocates had flagged as a quiet way of discouraging people from exercising privacy rights the law otherwise guarantees them.
 
 CalPrivacy's investigation found that LocateSmarter failed to register as a data broker for 2025 as the Delete Act requires, and separately, that its opt-out process for consumers who wanted their data removed demanded far more than necessary: a full name, the last four digits of a Social Security number, and a mailing address, before the company would even process the request. The agency concluded that requiring a partial Social Security number to opt out of having your own data sold violates the CCPA's data-minimization principle and could reasonably intimidate consumers away from exercising a right the law is supposed to make easy. CalPrivacy also noted that only a tiny fraction of LocateSmarter's California customer base — a state of nearly 40 million people — had ever successfully submitted an opt-out, a gap the agency treated as evidence the process itself was the problem.
@@ -3462,6 +3466,10 @@ The pattern both cases expose matters well beyond these two companies: a "people
     slug: "legends-hospitality-2024-2025-data-breach-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "legends-hospitality-2024-2025-data-breach"],
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Yankee_Stadium_001.JPG?width=1200",
+    coverImageCredit: "Photo: Gryffindor, CC BY-SA 3.0, via Wikimedia Commons — Yankee Stadium, one of the venues where Legends Hospitality runs concessions and retail operations",
+    coverImagePosition: 50,
+    // representative photo — one of the venues Legends operates at, not Legends' own offices; replace with an exact match if found
     sourceUrl: "https://www.classaction.org/news/812900-legends-hospitality-settlement-ends-class-action-lawsuit-over-data-breaches",
     body: `Legends Hospitality is not a company most people can name, even though many have handed it a credit card without realizing it. Co-founded in 2008 by the ownership groups behind the New York Yankees and Dallas Cowboys, Legends runs the food and beverage stands, premium club service, retail merchandise, and ticket-sales operations behind the scenes at more than 300 stadiums, arenas, and attractions, including SoFi Stadium, Allegiant Stadium, AT&T Stadium, Yankee Stadium, and the One World Observatory — a roughly $2 billion-a-year business built on being invisible to the fans and employees who interact with its systems every game day.
 

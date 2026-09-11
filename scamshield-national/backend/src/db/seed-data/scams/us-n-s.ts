@@ -5097,3 +5097,17 @@ UsNS.push({
     country: 'US',
     state: 'PA',
 });
+
+UsNS.push({
+    name: 'Burke Décor Non-Delivery Furniture Scheme',
+    slug: 'ohio-burke-decor-furniture-nondelivery-lawsuit',
+    description: `Boardman, Ohio-based Burke Décor sold high-end furniture, lighting, and home décor online at BurkeDecor.com and through storefronts in Boardman and Los Angeles, taking full payment upfront for orders that, according to Ohio Attorney General Dave Yost's office, then went undelivered for months or were never delivered at all, with customers who asked for a refund frequently met with silence, excuses, or store credit instead of their money back. After the number of consumer complaints kept growing even though Yost's office had already been working directly with the company to resolve individual cases — 256 disputes remained open despite that effort — Yost filed suit in Mahoning County Common Pleas Court on March 19, 2025, citing more than 350 consumer complaints and estimated losses topping $380,000, and alleging violations of Ohio's Consumer Sales Practices Act for nondelivery, slow delivery, and refusing refunds or make-goods. "Consumers paid for high-end furnishings, but ended up with only frustration," Yost said in announcing the suit. "My office gave this company the opportunity to make this right, but empty promises don't fill homes." The suit sought a permanent injunction barring further deceptive sales, civil penalties of up to $25,000 per violation, and full refunds for affected customers; court records show the case was resolved by settlement in early 2026 without becoming clear on the public docket whether customers actually received refunds as a result. Before paying in full for a large furniture or home-décor order from an online retailer, buyers should check a company's Better Business Bureau file and the state Attorney General's own complaint history, pay by credit card rather than a debit card or bank transfer so a non-delivered order can be disputed with the card issuer, and be wary of a company that responds to a delivery complaint with store credit or a new promise rather than an actual refund timeline.`,
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'medium',
+    sources: ['Ohio Attorney General (Dave Yost)', 'Business of Home', 'WKBN'],
+    sourceUrl: 'https://www.ohioattorneygeneral.gov/Media/News-Releases/March-2025/Yost-Sues-Home-Decor-Retailer-Over-$380K-in-Allege',
+    country: 'US',
+    state: 'OH',
+    isHistorical: true,
+    firstRecorded: '2025-03-19',
+});

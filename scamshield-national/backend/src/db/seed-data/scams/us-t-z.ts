@@ -2867,3 +2867,17 @@ UsTZ.push({
     isHistorical: true,
     firstRecorded: '2021-03-05',
 });
+
+UsTZ.push({
+    name: 'Fort Worth "Judge DFW" Custom Home Construction Fraud (Christopher and Raquelle Judge)',
+    slug: 'texas-fort-worth-judge-dfw-custom-home-fraud',
+    description: `Christopher Judge, 35, and his wife Raquelle Judge, 36, ran Judge DFW LLC out of Fort Worth, marketing custom home construction, architecture, and interior design services across six North Texas counties with below-market bids designed to win the job over legitimate competitors — with Christopher Judge, according to prosecutors, also misrepresenting himself as a licensed architect to add to the pitch's credibility. From roughly August 2020 through January 2023, the couple collected payments from more than 40 homeowners across at least 24 separate projects, then abandoned the work partway through or never substantively started it, leaving families with half-built or untouched home projects and no way to recover the money already paid. The U.S. Attorney's Office for the Northern District of Texas calculated total victim losses at approximately $4.2 million. Christopher and Raquelle Judge pleaded guilty to conspiracy to commit wire fraud, and on September 1, 2026, a federal judge sentenced Christopher Judge to six and a half years in prison plus two years of supervised release, and Raquelle Judge to one month in prison plus three years of supervised release — with the court allowing Raquelle to serve her sentence first given the couple's four children — and ordered them to pay a combined $2.8 million in restitution. "Fraudsters who exploit hard-working families in the Northern District of Texas will face serious consequences," U.S. Attorney Ryan Raybould said in announcing the sentences. Texas homeowners hiring a custom builder, architect, or designer should independently verify any claimed license through the Texas Board of Architectural Examiners or the relevant state licensing board before signing a contract, get a payment schedule tied to specific, inspected construction milestones rather than paying a large sum upfront, and treat a bid substantially below every other contractor's as a reason for more scrutiny, not less.`,
+    categorySlug: 'home-improvement-solar',
+    alertLevel: 'medium',
+    sources: ["U.S. Attorney's Office for the Northern District of Texas", 'FOX 4 Dallas-Fort Worth', 'WBAP'],
+    sourceUrl: 'https://www.justice.gov/usao-ndtx/pr/husband-and-wife-sentenced-fraud-conspiracy-involving-more-4-million-unfinished-custom',
+    country: 'US',
+    state: 'TX',
+    isHistorical: true,
+    firstRecorded: '2020-08-01',
+});
