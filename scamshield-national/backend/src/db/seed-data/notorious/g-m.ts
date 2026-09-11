@@ -7169,7 +7169,10 @@ NotoriousGM.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/usao-az/pr/hacker-sentenced-30-months-sim-swapping-conspiracy-resulting-theft-nearly-1-million',
-    // no verified rights-cleared photo found yet — see NotoriousCoverPhotos
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Sandra_Day_O%27Connor_Courthouse.jpg?width=1200',
+    coverImageCredit: 'Photo: U.S. Department of Justice, public domain, via Wikimedia Commons — the Sandra Day O\'Connor U.S. Courthouse in Phoenix (District of Arizona), where Persad was sentenced',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Jordan Dave Persad was 20 years old and living in Orlando, Florida, when federal prosecutors say he and a group of co-conspirators found a way around the security measure millions of people rely on without thinking twice about it: the text-message code that confirms a login really is you. Between March 2021 and September 2022, according to the U.S. Attorney's Office for the District of Arizona, the group ran a "SIM-swapping" operation — hacking into victims' email accounts, then using that access and social engineering to convince cell carriers to transfer, or "swap," a victim's phone number onto a SIM card the conspirators controlled.
 
 Once a victim's number was hijacked, the scheme practically ran itself: any text-message verification code meant to confirm a password reset or a login attempt on that person's cryptocurrency exchange or wallet account now arrived on a phone in the conspirators' hands instead of the victim's own device. Prosecutors said the group used that access to break into online cryptocurrency accounts belonging to dozens of victims across the country, including one Arizona resident who lost roughly $30,000, stealing close to $1 million in crypto assets in total before splitting the proceeds among themselves. Persad personally kept around $475,000 of the group's haul.
