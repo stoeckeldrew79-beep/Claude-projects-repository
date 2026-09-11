@@ -2392,4 +2392,20 @@ Sharemax is a useful case precisely because it shows how far a scheme can run wi
     coverImageCredit: 'Photo: R4vi / Wikimedia Commons / CC BY-SA 2.0',
     coverImagePosition: 50,
   },
+  {
+    title: 'Thomas Gaffney: The Barred Stock Promoter Who Funded His Pizza Parlor With a Marijuana-Investment Fraud',
+    slug: 'thomas-gaffney-verdegroup-investment-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-mdfl/pr/melbourne-man-sentenced-five-years-investment-fraud-scheme',
+    body: `Thomas Gaffney was already a securities-law recidivist by the time he launched his biggest fraud. In 2013, the SEC sued him over a penny-stock scheme involving Health Sciences Group, Inc. that prosecutors described as built on illicit kickbacks disguised behind phony agreements; a federal court permanently barred him from participating in penny-stock offerings and from ever again serving as an officer or director of a publicly registered company. That bar didn't stop him — it just changed what he sold next.
+
+Starting around January 2018, Gaffney and an associate, Lisa Gordon, began soliciting investors through advertisements placed in local and national newspapers around the country, offering a very specific pitch: private loans to fund businesses in the legal marijuana industry — cultivation, ancillary technologies, and pharmaceuticals — through a company called VerdeGroup Investment Partners, Inc., paying a guaranteed 12 percent annual return. Cannabis investing was, at the time, a genuinely hot and confusing enough sector that a plausible-sounding "private lending" angle didn't need much polish to attract people looking for a way into it without buying volatile cannabis stocks directly.
+
+According to the SEC's civil complaint, the pitch was fiction from the start. VerdeGroup raised more than $600,000 from over two dozen investors between January 2018 and July 2019, and the complaint alleges Gaffney and Gordon misrepresented how the money would be used, invented business partners VerdeGroup didn't actually have, and dangled a planned initial public offering that was never real. To keep his own name off the paperwork — a real concern for a man already under a federal bar — Gaffney directed investors to wire their money to a third-party account, which then funneled it into an account belonging to Tommy's Pizza, a pizza parlor Gaffney operated with his wife, Cynthia Gaffney, who was named as a relief defendant in the SEC's case along with the restaurant itself. Investor money paid for jewelry, travel, and the pizza business — everything except marijuana-industry loans.
+
+Federal prosecutors eventually caught up with the criminal side of the scheme. Gaffney pleaded guilty on January 23, 2025 to conspiracy to commit wire fraud, and U.S. District Judge John C. Antoon II sentenced him to five years in federal prison, along with an order of forfeiture of $487,750 — the amount prosecutors calculated he personally obtained from the conspiracy. The SEC's parallel civil case held Gaffney and VerdeGroup jointly and severally liable for disgorgement of $467,110 plus prejudgment interest.
+
+Gaffney's case is a study in how little a securities bar accomplishes on its own without ongoing enforcement behind it: a man the SEC had already permanently barred from penny-stock offerings and corporate leadership simply moved to a different structure — a private lending pitch instead of a stock offering — and kept going for years before newspaper ads soliciting "legal marijuana" loans drew fresh victims into the same basic fraud. A guaranteed fixed return, a hot industry used as a hook, and money routed through an unrelated small business rather than a verifiable fund are three separate warning signs that, together, describe almost exactly what VerdeGroup's investors were never shown.`,
+  },
 );
