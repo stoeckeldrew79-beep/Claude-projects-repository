@@ -5851,3 +5851,15 @@ UsNS.push({
     country: 'US',
     state: 'PA',
 });
+
+UsNS.push({
+    name: 'New Jersey Division of Taxation Refund Text Scam',
+    slug: 'new-jersey-division-of-taxation-refund-text-scam',
+    description: `New Jersey's Division of Taxation warns that scam text messages are circulating that impersonate the agency and reference a pending tax refund, a payment due, or an account issue, urging recipients to click a link to "verify your bank information," check a refund, or make a payment. The linked pages are built to look like official Division of Taxation pages but are designed to harvest bank account numbers and other financial details; the Division states it will never contact taxpayers out of the blue by text to ask for Social Security numbers, bank account details, or payment by gift card or cryptocurrency. The alert lands amid a broader wave of near-identical smishing campaigns impersonating state revenue agencies that surfaced across multiple states starting in the fall of 2025. New Jersey residents who receive one of these texts are told not to respond, click any link, or provide personal information, and to forward the message to 7726 (SPAM) to report it to their wireless carrier before deleting it.`,
+    categorySlug: 'tax-scams',
+    alertLevel: 'medium',
+    sources: ['New Jersey Division of Taxation'],
+    sourceUrl: 'https://www.nj.gov/treasury/taxation/scamalert.shtml',
+    country: 'US',
+    state: 'NJ',
+});
