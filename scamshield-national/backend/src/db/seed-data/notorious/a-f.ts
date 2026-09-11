@@ -7283,5 +7283,8 @@ There was no payday-lending operation capable of generating anything close to th
 The SEC sued Sky Group and Betancourt civilly in September 2021, freezing assets and eventually barring him from serving as an officer or director of a public company. Criminal charges followed years later: a federal grand jury indicted Betancourt on September 12, 2024, and the case was unsealed after he was arrested reentering the United States on November 14, 2024, charging him with conspiracy to commit mail and wire fraud and substantive wire fraud, exposing him to a maximum of 140 years in prison. Betancourt pleaded guilty on May 21, 2025, and on August 14, 2025, U.S. District Judge Darrin P. Gayles sentenced him to 87 months in federal prison, to be followed by three years of supervised release.
 
 Sky Group's appeal wasn't a flashy new asset class — it was an old-fashioned lending business, run in Spanish, by someone who understood exactly which community's trust and financial anxieties he was positioned to exploit. That combination, more than any specific promise about payday-loan interest rates, is what let a $66 million fraud recruit 600 investors one referral at a time before regulators ever caught up to it.`,
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Federal_Courthouse_in_Miami.jpg?width=1200',
+    coverImageCredit: 'Photo: Miami92 (Public Domain), via Wikimedia Commons — federal courthouse in Miami, in the Southern District of Florida where Betancourt was prosecuted and sentenced',
   },
 );
