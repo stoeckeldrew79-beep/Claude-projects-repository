@@ -5211,6 +5211,20 @@ UsNS.push({
 });
 
 UsNS.push({
+    name: 'Mizen Funeral Home Crowdfunded Investment Fraud',
+    slug: 'new-hampshire-mizen-funeral-home-crowdfunding-investment-fraud',
+    description: `Aaron Mizen raised about $54,500 from 123 investors across the country through unsecured promissory notes sold on the Mainvest crowdfunding platform to finance a planned funeral home he set up as Mizen Funeral Home and Cremation Services, LLC. According to a September 23, 2025 order from the New Hampshire Bureau of Securities Regulation, the offering told investors their money would be returned if it didn't reach $75,000 by a February 2020 deadline — but when that deadline passed, Mizen simply extended it and lowered the funding target instead, without telling investors their original terms had been abandoned. The marketing had also emphasized a specific Bedford, New Hampshire location with detailed demographic and competitive claims, a plan Mizen quietly dropped by spring 2020 without notifying anyone who had already invested, and it never disclosed that Mizen had filed for Chapter 13 bankruptcy in 2018 even as it promoted his "over 20 years of experience" in the funeral business. The Bureau's order permanently bars Mizen and the company from selling securities in New Hampshire and imposes $104,500 in combined restitution, civil penalties, and investigation costs — none of which had been paid back to investors as of the order. Crowdfunding platforms like Mainvest carry none of the vetting of a registered brokerage account; before putting money into a small-business offering, check whether your state's securities regulator has any enforcement history on the company or its principal, and treat a funding deadline that keeps quietly slipping as a serious warning sign rather than routine delay.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'medium',
+    sources: ['New Hampshire Bureau of Securities Regulation'],
+    sourceUrl: 'https://www.sos.nh.gov/sites/g/files/ehbemt561/files/inline-documents/sonh/09-23-25-aaron-mizen-c-2023-0004.pdf',
+    country: 'US',
+    state: 'NH',
+    isHistorical: true,
+    firstRecorded: '2019-11-01',
+});
+
+UsNS.push({
     name: 'Harrison Township Cemetery Association Gravestone Non-Delivery Scheme',
     slug: 'ohio-gravestone-delivery-fraud',
     description: `Trevor Bush and the Harrison Township Cemetery Association, which operates a Dayton-area burial ground under the name Greencastle Cemetery, took large upfront payments from grieving families for grave markers and headstones, then left the stones undelivered for months past the dates customers were promised — with some orders still unfulfilled even after the promised delivery window had long since passed. Ohio Attorney General Dave Yost's office says complaints kept accumulating even as customers were repeatedly told their marker was only a few more months out, and on January 31, 2025, Yost filed suit against Bush and the cemetery association in Montgomery County Common Pleas Court, alleging the pattern of unfulfilled headstone contracts violated Ohio's Consumer Sales Practices Act. The lawsuit seeks restitution for the affected families, civil penalties, and injunctive relief to stop further sales until existing orders are honored. Because a grave marker is typically paid for in a single lump sum well before the stone is actually carved and installed, and is arranged at one of the most emotionally difficult times in a family's life, Yost's office recommends checking a monument dealer's or cemetery's complaint history with the Ohio Attorney General before paying in full, getting a firm delivery date and cancellation terms in writing, and paying by credit card rather than cash or check so a non-delivered order can still be disputed months later. Ohioans who believe they were affected by this or a similar non-delivery scheme can file a complaint at OhioProtects.org or by calling 800-282-0515.`,
