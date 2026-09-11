@@ -7450,5 +7450,9 @@ No such lending or real estate operation existed at anywhere near the scale need
 The Utah Attorney General's Office and Division of Securities built a case that led to Randall pleading guilty in 2016 to four counts of securities fraud and one count of engaging in a pattern of unlawful activity, all second-degree felonies, with fifteen additional charges dismissed as part of the plea. On February 6, 2017, Third District Court Judge Mark Kouris sentenced him to 9 to 30 years in the Utah State Prison — three consecutive terms of 3 to 15 years, plus additional concurrent terms — calling it one of the most damaging white-collar cases the state had ever prosecuted. "Dee Randall is one of the most damaging white-collar cases our Division of Securities has ever investigated," said Francine A. Giani, then executive director of the Utah Department of Commerce, when the sentence was announced. Victims described losing retirement savings, homes, and the ability to pay for medical care as a result of the scheme.
 
 The Randall case is a reminder that an affinity fraud doesn't need a shared religion, ethnicity, or social club to work — a licensed professional's own client roster, built over years of legitimate business, can be just as effective a hunting ground, because the trust a victim extends to their own insurance agent is exactly the trust a Ponzi scheme depends on to keep new money coming in the door.`,
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Scott_M._Matheson_Courthouse_(1).jpg?width=1200',
+    coverImageCredit: 'Photo: Tamanoeconomico / Wikimedia Commons / CC BY-SA 4.0',
+    coverImagePosition: 50,
   },
 );
