@@ -4755,6 +4755,10 @@ Truglia's case shows how a single hijacked phone number can unravel an entire fi
     slug: 'raj-chauhan-monarch-sachdev-gold-bar-courier-scam',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Thomas_Eagleton_courthouse.jpg?width=1200',
+    coverImageCredit: 'Photo: Johnhochi, CC BY-SA 4.0, via Wikimedia Commons — the federal courthouse in St. Louis, Eastern District of Missouri, which brought the indictment',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found; defendants are presumed innocent pending trial
     sourceUrl: 'https://www.justice.gov/usao-edmo/pr/three-accused-defrauding-elderly-gold-bar-scam',
     body: `Note: Raj Chauhan, Monarch Sachdev, and Elon Harper have been indicted, not convicted. The description below reflects a federal indictment and related detention filings — allegations the government must still prove — and all three defendants are presumed innocent unless and until a court finds otherwise.
 
@@ -4769,6 +4773,10 @@ The case is one of a growing number of federal prosecutions targeting the courie
     slug: 'shamso-hassan-hanaan-yusuf-autism-medicaid-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Minneapolis_Federal_Courthouse_-_U.S._District_Court,_Minnesota_(43702329510).jpg?width=1200',
+    coverImageCredit: 'Photo: Tony Webster, CC BY 2.0, via Wikimedia Commons — the federal courthouse in Minneapolis, District of Minnesota',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found; defendants are presumed innocent pending trial
     sourceUrl: 'https://www.dhs.gov/news/2026/05/27/two-minnesota-residents-arrested-21-million-medicaid-fraud-scheme',
     body: `Note: Shamso Ahmed Hassan and Hanaan Mursal Yusuf have been indicted, not convicted. The description below reflects a federal indictment — allegations the government must still prove — and both defendants are presumed innocent unless and until a court finds otherwise.
 
@@ -4788,6 +4796,10 @@ NotoriousNS.push(
     slug: 'anomah-ndonwi-pet-selling-fraud-scheme',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/US_District_Court_Maryland_Southern_Division_Greenbelt.jpg?width=1200',
+    coverImageCredit: 'Public domain (U.S. federal government work), via Wikimedia Commons — the U.S. District Court for Maryland, Southern Division, in Greenbelt',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     sourceUrl: 'https://www.justice.gov/usao-md/pr/maryland-man-sentenced-connection-pet-selling-fraud-scheme',
     body: `Anomah Ndonwi, 32, of Chillum, Maryland, ran a fraud built on a category of purchase that is uniquely hard to inspect before paying: an animal, or a shipment of meat, that a buyer has only ever seen in a photo. Between September 2019 and December 2022, according to the U.S. Attorney's Office for the District of Maryland, Ndonwi and his co-conspirators advertised dogs, horses, and other pets for sale through fraudulent websites, collecting payment through wire transfers and electronic payment apps from buyers across the country who never received an animal or a refund. A parallel version of the scheme targeted businesses rather than individual pet buyers, advertising meat and other agricultural products for sale to buyers overseas who paid for shipments that never arrived.
 

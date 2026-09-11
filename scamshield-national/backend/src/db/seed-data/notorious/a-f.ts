@@ -7034,3 +7034,22 @@ A federal jury convicted Darden in October 2024 on charges of wire fraud, money 
 Darden's fraud worked by borrowing credibility rather than earning it: a fabricated list of famous names and household brands, none of whom had agreed to anything, was enough to make a fake acquisition sound plausible to a victim who had every reason to want the story to be true. A claimed partnership with a well-known person or company is a two-minute phone call or email away from being confirmed directly with that person or company's own representatives — verification that, in this case, several witnesses only performed for the first time on a witness stand, after the money was already gone.`,
   },
 );
+
+NotoriousAF.push(
+  {
+    title: 'David Lam: The Social Security Insider Who Sold Dead Men\'s Identities',
+    slug: 'david-lam-social-security-employee-identity-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-sdtx/pr/social-security-employee-sentenced-multimillion-dollar-fraud-and-identity-theft-scheme',
+    body: `Most identity-theft schemes depend on stealing information from outside a system that is supposed to guard it. David Lam's depended on the opposite: he was inside it. Lam, 46, of Pearland, Texas, worked as an operations supervisor and claims specialist at the Social Security Administration's field office in Houston — a job that gave him direct, authorized access to exactly the kind of records that make a survivor-benefits application look legitimate.
+
+According to the U.S. Attorney's Office for the Southern District of Texas, Lam used that access to pull the names, dates of birth, dates of death, and Social Security numbers of men who had recently died, then handed those stolen identities to a network of co-conspirators — typically women with children of their own — so they could file fraudulent survivor benefit claims. The applications falsely listed the dead men as the children's fathers or stepfathers, even though prosecutors say the women had no actual connection to any of them and the deceased men had not fathered the children in question. With Lam working the case from the inside, the fraudulent paperwork moved through the same system real, legitimate survivor claims do.
+
+Lam didn't just supply the identities; prosecutors say he instructed his co-conspirators to split the resulting benefit payments with him, and the women transferred his cut through everyday peer-to-payment apps — Zelle, Cash App, and Chime — the same tools people use to split a dinner bill, making the payments blend into the ordinary flow of digital transfers rather than stand out as kickbacks. The scheme ran through dozens of fraudulent applications before investigators caught up with it.
+
+Lam pleaded guilty on June 5, 2025, to conspiracy to steal government funds and aggravated identity theft. On February 9, 2026, U.S. District Judge Sim Lake sentenced him to 84 months — seven years — in federal prison, to be followed immediately by three years of supervised release, and ordered him to pay $3,346,280 in restitution.
+
+The Lam case is a reminder that an insider with legitimate system access is often a fraud scheme's most valuable asset, not its riskiest one: every safeguard built to stop an outsider from impersonating a deceased person's family member is worth nothing against an employee who can pull the dead man's own government record and hand it directly to someone ready to use it. It is also a reminder that survivor benefits, like any benefit tied to a claimed family relationship, rest on a paper trail — a father's name on a claim form — that a records clerk with the right access can fabricate as easily as an identity thief with a stolen wallet.`,
+  },
+);
