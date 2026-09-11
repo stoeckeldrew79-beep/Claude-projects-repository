@@ -5861,6 +5861,9 @@ NotoriousGM.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
     sourceUrl: 'https://ssb.texas.gov/news-publications/time-out-joseph-seth-foster-oil-and-gas-investment-scheme-halted',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Midland,_TX_skyline_(cropped).jpg?width=1200',
+    coverImageCredit: 'Photo: Quintin Soloviev, Wikimedia Commons (CC BY 4.0) — Midland, Texas, the West Texas oil-and-gas hub where Joseph Seth Foster sold his fraudulent drilling investment',
     body: `Joseph Seth Foster was a licensed securities agent working out of Lubbock, Texas, when he began soliciting investors for what he described as an oil-and-gas drilling opportunity. According to the Texas State Securities Board (TSSB), four investors put in almost $400,000 combined to buy into the venture — money Foster was supposed to use to acquire drilling rights and get wells producing.
 
 He never did. A TSSB financial examiner who reviewed the venture's records testified at trial that investor money was instead used for purposes that had nothing to do with oil or gas exploration, including purchases of antiques and jewelry and a trip to Paris, France. Evidence presented at trial also showed that Foster never actually acquired the rights to drill the lease he had raised the investment money for in the first place — meaning the venture investors were told they were funding did not exist in any form capable of producing a return.
