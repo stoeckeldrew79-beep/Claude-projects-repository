@@ -5775,3 +5775,17 @@ UsNS.push({
     isHistorical: true,
     firstRecorded: '2026-02-24',
 });
+
+UsNS.push({
+    name: 'Puerto Rico TikTok Luxury Property Rental Deposit Scam',
+    slug: 'puerto-rico-daco-tiktok-luxury-rental-deposit-scam',
+    description: `Puerto Rico's Department of Consumer Affairs (DACO) issued a public alert on July 18, 2026 warning about fraudulent TikTok videos advertising luxury homes for rent in exclusive developments in the municipalities of Dorado, Gurabo, and Humacao at prices far below what those neighborhoods actually command — around $600 a month for properties that would normally rent for many times that. The accounts behind the videos hide their identities behind generic avatar profile pictures rather than a real name or a licensed brokerage, and once a prospective renter expresses interest, they're asked to send an advance deposit of at least $300 to "process" the rental — a rental that never materializes, since DACO says the listings don't come from any authorized real estate broker. "El precio que anuncian busca captar la atención de la víctima, luego piden $300 por adelantado para 'procesar' el caso. Esto es un esquema, no es real" ("The price they advertise is meant to grab the victim's attention, then they ask for $300 upfront to 'process' the case. This is a scheme, it isn't real"), DACO Secretary Hiram Torres Montalvo said in announcing the alert, noting the department regulates real estate professionals under Puerto Rico's Law 10-1994. Anyone considering a rental found through a TikTok video or other social media post is advised to verify that the person advertising it is a licensed real estate broker before sending any money, to be skeptical of a rental price that undercuts comparable listings in the same neighborhood by a wide margin, and to insist on an in-person or live-video tour of the actual unit before wiring a deposit to someone who has only shown a promotional video. Suspected rental scams can be reported to DACO through its "DACO a tu favor" social media accounts or at www.daco.pr.gov.`,
+    categorySlug: 'rental-housing',
+    alertLevel: 'medium',
+    sources: ['Puerto Rico Department of Consumer Affairs (DACO)', 'NotiCel', 'Telemundo Puerto Rico'],
+    sourceUrl: 'https://noticel.com/noticias/20260718/daco-alerta-sobre-esquema-de-alquileres-de-propiedades-de-lujo/',
+    country: 'US',
+    state: 'PR',
+    isHistorical: true,
+    firstRecorded: '2026-07-18',
+});
