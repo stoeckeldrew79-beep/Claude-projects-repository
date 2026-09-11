@@ -8430,6 +8430,18 @@ The RAD Diversified case shows how a nontraded REIT — a structure that, unlike
 
 NotoriousGM.push(
   {
+    title: "David Kushner and the La Mancha Funding Scheme That Preyed on NFL Players",
+    slug: "david-kushner-la-mancha-funding-nfl-fraud",
+    author: "ScamShield Editorial",
+    tags: ["notorious", "notorious-scammer"],
+    body:
+      "Note: this is a civil SEC enforcement action. The complaint describes allegations only — David Kushner has not been found liable by a court as of this writing, and the allegations below reflect the SEC's case rather than any judicial finding.\n\nDavid Kushner, of Boca Raton, Florida, was the president and sole owner of La Mancha Funding Corp., an advisory firm he used to pitch a niche but plausible-sounding investment: short-term loans to sports agents and professional athletes, including current and former NFL players, who often need bridge financing between contract payouts. Through a series of private LLC offerings, Kushner and La Mancha raised approximately $10.5 million from investors who were told their money would fund those loans and be repaid, with interest, once the athletes' payments came through.\n\nAccording to the Securities and Exchange Commission's complaint, filed November 21, 2024, that wasn't what happened to a substantial share of the money. The SEC alleges Kushner and La Mancha made material misrepresentations to investors about how their funds would actually be used, secretly collected hundreds of thousands of dollars in undisclosed \"fees\" for themselves, and misappropriated close to $1.5 million in loan repayments that should have flowed back to investors. In total, the SEC says nearly two dozen investors lost roughly $2.1 million to the scheme. Rather than reaching investors, the money allegedly went toward Kushner's own credit card bills, college tuition, country club dues, a luxury vacation, a Mercedes-Benz, and a rental home in the Hamptons.\n\nThe SEC's complaint, filed in the U.S. District Court for the Southern District of New York, charges Kushner and La Mancha with violating the antifraud provisions of the Securities Act of 1933, the Securities Exchange Act of 1934, and the Investment Advisers Act of 1940, with parallel criminal charges filed by the New York County District Attorney's Office. \"Kushner lied to investors and simply stole the money that would have given them at least some of the investment returns he had promised,\" said Sheldon L. Pollock, Associate Director of the SEC's New York Regional Office, in announcing the case. The SEC is seeking a permanent injunction, disgorgement with prejudgment interest, civil penalties, and an officer-and-director bar against Kushner.\n\nProfessional athletes are a recurring target for this kind of pitch because the underlying need — short-term cash before a large, delayed payout — is genuinely real for many of them, which is exactly what makes a confident-sounding \"private lending fund\" built around that need easy to believe without independently verifying that the loans, the repayments, and the fee structure actually work the way the promoter describes. A fund manager unwilling to produce audited financials or an independent accounting of exactly where loan repayments went is asking investors to trust a story rather than a paper trail — the same gap the SEC says Kushner exploited for years before regulators caught up with him.",
+    sourceUrl: "https://www.sec.gov/newsroom/press-releases/2024-183",
+  },
+);
+
+NotoriousGM.push(
+  {
     title: "Jason Johnson and the Financial Adviser Who Managed Nothing",
     slug: "jason-johnson-cranston-fake-financial-adviser-fraud",
     author: "ScamShield Editorial",
