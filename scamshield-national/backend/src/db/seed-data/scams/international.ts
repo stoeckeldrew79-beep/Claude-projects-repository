@@ -13299,3 +13299,16 @@ International.push(
     country: 'AD',
   },
 );
+
+International.push(
+  {
+    name: 'Andorra CASS Social Security Reimbursement Phishing Scam',
+    slug: 'andorra-cass-social-security-reimbursement-phishing-scam',
+    description: `CASS, the Caixa Andorrana de Seguretat Social (Andorra's social security fund), issued a public warning on July 8, 2026 about fraudulent emails impersonating the agency and telling recipients they have a pending healthcare reimbursement waiting to be processed. The emails urge the recipient to click a link to claim the refund immediately, and that link leads to a counterfeit website, built to resemble an official CASS page, which asks the victim to enter credit card details and other personal information supposedly needed to complete the "immediate payment." In reality no such transfer is ever made — the page exists solely to harvest the card numbers and personal data entered, which the scammers can then use to make fraudulent charges. CASS stressed in its warning that it "never requests banking details by email" and never sends links asking members to manage a payment or refund that way — any genuine reimbursement is handled entirely through the agency's own member portal or in person, never by clicking a link in an unsolicited email. The agency advised anyone who received such a message to delete it without clicking the link, to never enter card or banking information on a site reached that way, and to contact CASS directly through its official phone line or in-person offices to confirm whether any reimbursement is genuinely pending before acting on any email claiming one is.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Caixa Andorrana de Seguretat Social (CASS)', 'Alto.ad'],
+    sourceUrl: 'https://www.alto.ad/business/2026/07/andorra-cass-phishing-scam-bank-details',
+    country: 'AD',
+  },
+);
