@@ -7721,3 +7721,20 @@ The fraud ran from roughly 1992 until NPS collapsed in 2008, ensnaring more than
 The NPS case is a reminder of just how long a trust-fund fraud can run undetected when the people responsible for safeguarding the money — a company's own executives, its attorney, and even the independent adviser appointed by statute to watch over it — are the same people quietly emptying it, and how many ordinary families and small local funeral homes end up absorbing the loss once a fraud that size finally comes apart.`,
   },
 );
+
+NotoriousGM.push(
+  {
+    title: 'Jacob Dalton and the "Rogue Liquidity" Fund That Promised Friends 60% Risk-Free Returns',
+    slug: 'jacob-dalton-rogue-liquidity-securities-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-ut/pr/utah-county-man-sentenced-24-months-prison-after-running-16m-affinity-fraud-scheme',
+    body: `Jacob Welch Dalton, of Saratoga Springs, Utah, didn't build his investor base through cold calls or seminars — he built it through his own social circle, soliciting people he knew personally or connected with on social media to invest in his company, Rogue Liquidity, LLC. He described it as an investment liquidity fund that pooled investor money and offered a guaranteed, risk-free return on principal of up to 60 percent, a figure that should have been an obvious warning sign to anyone comparing it to what an actual liquidity fund could plausibly generate.
+
+There was no liquidity pool. According to prosecutors, Rogue Liquidity had no real trading operation capable of producing the returns Dalton promised, and investor money went almost entirely toward Dalton's own personal use rather than any pooled investment strategy. To keep the money coming in and keep existing investors from asking hard questions, Dalton created falsified account documents and fictitious investor track records, sending them to victims electronically and describing gains that didn't exist. Between October 2022 and December 2023, he collected money from roughly 45 investors this way.
+
+The scheme was investigated jointly by the Utah Division of Securities and the FBI's Salt Lake City Field Office, and Dalton pleaded guilty to securities fraud on September 30, 2024. On March 20, 2025, U.S. District Judge Jill N. Parrish sentenced him to 24 months in federal prison, three years of supervised release, and $1,553,806 in restitution to his victims. "[Dalton] exploited trust within the community for his own gain," Acting U.S. Attorney Felice John Viti said in announcing the sentence, a description that fit both how Dalton found his victims and how he kept them investing.
+
+Rogue Liquidity is a small-scale case by the standards of the biggest frauds in this collection, but it illustrates a pattern that recurs constantly at every scale: a "guaranteed, risk-free" return well above what any legitimate fund could reliably deliver, sold not through a stranger's pitch but through a friend, a former classmate, or a familiar face on social media — the personal relationship doing the persuading that the numbers alone never could.`,
+  },
+);
