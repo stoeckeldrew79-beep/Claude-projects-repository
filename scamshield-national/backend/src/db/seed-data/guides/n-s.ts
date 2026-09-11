@@ -3837,6 +3837,10 @@ Anyone who believes they're receiving unwanted telemarketing texts or calls in v
     slug: "nanobit-coinw6-sec-relationship-investment-scam-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "nanobit-coinw6-sec-relationship-investment-scam"],
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Bitcoins.jpg?width=1200",
+    coverImageCredit: "Photo: Jorge Franganillo (CC BY 2.0)",
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26576",
     body: `On September 17, 2024, the Securities and Exchange Commission filed two complaints charging five entities and three individuals over fake crypto asset trading platforms called NanoBit and CoinW6, in what the agency described as its first enforcement actions targeting "relationship investment scams" — schemes built not around a fake product, but around a fake relationship the victim is manipulated into trusting first. Nearly two years later, on June 16, 2026, a federal court in the Eastern District of New York entered a final default judgment against six of the NanoBit defendants after none of them ever showed up to answer the charges, ordering them to pay a combined $5.5 million-plus in disgorgement, interest, and penalties and permanently barring them from the securities industry — a judgment that closes the legal case while doing little to get any actual money back to the people who lost it.
 

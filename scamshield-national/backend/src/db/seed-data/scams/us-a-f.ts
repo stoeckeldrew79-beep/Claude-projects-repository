@@ -7207,3 +7207,27 @@ UsAF.push({
     country: 'US',
     state: 'OH',
 });
+
+UsAF.push({
+    name: 'Colorado Front Range Lottery Scratch Ticket Theft Ring (Richard McBee)',
+    slug: 'colorado-front-range-lottery-scratch-ticket-theft-ring',
+    description: `Richard McBee ran a scheme across Colorado's Front Range between August 2023 and November 2024, carrying out at least 45 separate thefts of high-value scratch-off lottery tickets from single-clerk gas stations and convenience stores. According to the Colorado Attorney General's Office, McBee or an accomplice would first distract the lone clerk on duty with a staged pretext — buying a propane tank, reporting a credit card stuck in a pump, or spilling gasoline — then slip behind the counter while the clerk's attention was elsewhere and pull tickets directly from the scratch-ticket dispenser. Rather than redeeming the stolen tickets at the store they were taken from, McBee drove to a different retailer within hours, often before store staff had even noticed anything missing, to scratch and cash in winners from the stolen batch — a pattern that let the scheme run for more than a year before it was caught. The Colorado Lottery's own Investigation Unit, working with the Attorney General's Special Prosecutions Unit and local police departments along the Front Range, tied McBee and three accomplices — Adam Pacheco, Tawny McCurry, and David Goetken — to more than $150,000 in combined stolen ticket value and prize winnings before a grand jury indicted the group on April 28, 2025; McBee alone faces four class 4 felony counts, while Pacheco, McCurry, and Goetken each face a single felony theft count. Retailers who sell lottery tickets are advised to keep the scratch-ticket dispenser locked and out of customer reach, avoid leaving both the register and the dispenser unattended during any in-person distraction, and reconcile ticket inventory against sales receipts on a regular schedule rather than only after a problem is reported, since this kind of theft is built to go unnoticed for as long as possible.`,
+    categorySlug: 'lottery-sweepstakes-scams',
+    alertLevel: 'medium',
+    sources: ['Colorado Attorney General\'s Office', 'Colorado Lottery'],
+    sourceUrl: 'https://coag.gov/press-releases/four-charged-stealing-lottery-scratch-tickets-retailers-colorado-4-28-25/',
+    country: 'US',
+    state: 'CO',
+});
+
+UsAF.push({
+    name: 'Graystone Assisted Living Medicaid Fraud (Amie Sanneh)',
+    slug: 'alaska-graystone-assisted-living-medicaid-fraud',
+    description: `Amie Sanneh, 72, owner of Graystone Assisted Living Home in Anchorage, and her niece Sainabou Faal, 46, who administered the facility, were charged on June 17, 2026 with scheme to defraud, first-degree theft, and four counts of medical assistance fraud after Alaska's Medicaid Fraud Control Unit found the home had billed the state's Medicaid program more than $1.1 million between 2022 and 2025 for services it could not document. Investigators say Graystone and its owners were unable to produce any records at all for a substantial share of the billed services, and that many of the records they did turn over were incomplete — the kind of documentation Medicaid requires before it will pay a claim for a resident's care. The Alaska Department of Law's Medicaid Fraud Control Unit began examining the Anchorage group home in 2025 after a tip from another state agency investigating suspected neglect connected to the death of one of its residents, and the charges were announced June 23, 2026 as part of a coordinated statewide sweep that charged 15 defendants across five separate cases totaling roughly $1.83 million in alleged fraudulent Medicaid billing, itself part of the nationwide 2026 National Health Care Fraud Takedown. "Protecting the integrity of Alaska's Medicaid program is critical to ensuring that taxpayer-funded resources remain available for Alaskans who genuinely need medical and long-term care services," Deputy Attorney General Angie Kemp said in announcing the charges. Families placing a relative in an assisted living or group home are advised to ask to see the facility's care documentation directly, verify the home's license status with the Alaska Department of Health, and report suspected neglect or billing irregularities to Alaska's Medicaid Fraud Control Unit at (907) 269-6279 rather than assuming a licensed-looking facility is being run and billed honestly.`,
+    categorySlug: 'medicare-health-plans',
+    alertLevel: 'medium',
+    sources: ['Alaska Department of Law', 'Alaska\'s News Source', 'Anchorage Daily News'],
+    sourceUrl: 'https://law.alaska.gov/press/releases/2026/062426-Medicaid.html',
+    country: 'US',
+    state: 'AK',
+});
