@@ -4369,7 +4369,10 @@ NotoriousNS.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.fcc.gov/document/fcc-assesses-nearly-300m-forfeiture-unlawful-robocalls',
-    // no rights-cleared photo found — sourceUrl above serves as the "read the full story" link
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/FCC HQ.jpg?width=1200',
+    coverImageCredit: 'Photo: Ser Amantio di Nicolao / Wikimedia Commons (CC BY 3.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Roy M. Cox Jr. and Aaron Michael Jones were already supposed to be out of the telemarketing business. Years earlier, the FTC had sued Cox over an illegal robocall operation selling credit-card rate reductions and home security systems using spoofed caller-ID names like "CARD SERVICES," and in February 2013 a federal court entered a settlement permanently banning him from telemarketing — a $1.1 million civil penalty was even written into the order, suspended only because Cox claimed he could not pay it. Jones had separately been hit with his own lifetime telemarketing ban following actions by the FTC and the State of Texas. Neither ban stopped either man from going right back into the business that got them banned in the first place.
 
 Operating through a company called Sumco Panama and a web of domestic and foreign entities — Virtual Telecom, Davis Telecom, Geist Telecom, Fugle Telecom, Tech Direct, Mobi Telecom, and Posting Express among them, with international pieces registered in Panama and Hungary — Cox and Jones built a robocalling operation that the FCC would later call the largest it had ever investigated. Over just a three-month span in early 2021, the operation placed more than 5 billion pre-recorded calls to more than 500 million phone numbers, using more than a million different spoofed caller-ID numbers to disguise where the calls were actually coming from. Anyone who pressed 1 was connected to a "warranty specialist" pitching an extended or reinstated auto warranty — a product pitch built entirely around getting past caller ID and the National Do Not Call Registry rather than around any car the callers actually owned.
