@@ -5306,3 +5306,17 @@ UsNS.push({
     isHistorical: true,
     firstRecorded: '2026-04-13',
 });
+
+UsNS.push({
+    name: 'SDNY Bank Insider Account Takeover Ring (Noel, Stephenson, Brown)',
+    slug: 'new-york-sdny-bank-insider-account-takeover-ring',
+    description: `Darren Stephenson, 41, of Valley Stream, New York, used his job at a bank to feed sensitive customer account and identifying information to two co-conspirators, Catora Noel, 42, and Imani-Kai Brown, both of Brooklyn, who used it to fraudulently take over victims' bank accounts, according to federal prosecutors in the Southern District of New York. Running the scheme from at least July 2022 through September 2024, the group placed recorded calls to the bank impersonating customers — supplying a victim's real name, personal identifying information, and debit card number — and asked that a new or replacement debit card be mailed to an address the defendants could access, or intercepted cards straight out of victims' own mailboxes; once a card was in hand, Noel is accused of visiting bank branches in person and calling in by phone to request wire transfers, teller withdrawals, and ATM withdrawals from the compromised accounts. Altogether, prosecutors say the ring stole more than $1.6 million from dozens of victims before FBI New York, working under the Bureau's Operation Riptide campaign against cyber-enabled financial crime, traced the scheme back to Stephenson's bank access. Noel and Stephenson were arrested in Brooklyn and presented before a U.S. Magistrate Judge in Manhattan federal court, while Brown was arrested separately in Miami; each defendant faces a charge of bank fraud conspiracy, carrying up to 30 years in prison, and aggravated identity theft, which carries a mandatory two-year sentence to run consecutively to any other sentence, with Noel facing an additional access device fraud charge. The U.S. Attorney's Office said the case shows "this insider scheme has been disrupted," noting that Stephenson had exploited his own employer's trust to feed the operation. All three defendants are presumed innocent unless and until proven guilty. The case is a reminder that an unexpected "your new card is on the way" text or a replacement debit card that shows up unrequested is worth confirming directly with the bank using a number printed on an old card or a statement — never a number supplied in any message — since a bank employee's own system access can be the actual point of compromise behind an account takeover, not just an outside hacker.`,
+    categorySlug: 'account-takeover',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office, Southern District of New York", 'FBI New York'],
+    sourceUrl: 'https://www.justice.gov/usao-sdny/pr/identity-theft-ring-including-former-bank-employee-charged-posing-bank-customers-and',
+    country: 'US',
+    state: 'NY',
+    isHistorical: true,
+    firstRecorded: '2026-07-30',
+});
