@@ -12959,3 +12959,42 @@ International.push(
     country: 'GU',
   },
 );
+
+International.push(
+  {
+    name: 'Sint Maarten Fake Traffic Fine Text Message Scam',
+    slug: 'sint-maarten-fake-traffic-fine-text-message-scam',
+    description: `The Police Force of Sint Maarten (KPSM) issued a public alert on September 5, 2026, warning residents about a fraudulent text message circulating on the island that falsely claims to come from the Traffic Police over an unpaid traffic fine. The message links to a fake website built to impersonate the Public Prosecutor's Office (Openbaar Ministerie), and uses a false 48-hour payment deadline along with threats of additional penalties to pressure recipients into responding before they can stop and verify the claim. KPSM told the public directly: "Do not click on the link. Do not make any payment. Do not enter personal or banking information. Do not reply 'Ja' or otherwise respond to the message." The force recommended deleting the message immediately without engaging with it in any way — including not replying to opt out or dispute the fine, since any reply confirms the number is active and invites further targeting — and asked residents to share the warning with family, friends, and colleagues so fewer people fall for it. KPSM noted that genuine traffic fines in Sint Maarten are never collected by following a link in a text message, and anyone unsure whether a fine is real should contact the Traffic Police or the Public Prosecutor's Office directly using contact details they look up independently, rather than any number or link contained in the suspicious message itself.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Police Force of Sint Maarten (KPSM)', '721news.com'],
+    sourceUrl: 'https://www.721news.com/2026/09/kpsm-alert-fraudulent-traffic-fine-messages-circulating/',
+    country: 'SX',
+  },
+);
+
+International.push(
+  {
+    name: 'SZV Business Email Compromise Attack on Sint Maarten',
+    slug: 'sint-maarten-szv-business-email-compromise-attack',
+    description: `Social & Health Insurances SZV, the government body that runs Sint Maarten's social security and health insurance programs, disclosed on March 12, 2019, that it had been targeted by a business email compromise (BEC) scheme in which fraudsters impersonated company insiders by email to request and get approval for outgoing wire transfers. SZV said the attack "was of such a sophisticated nature that protocol was not breached" on its end, meaning the fraudulent requests looked enough like genuine internal correspondence that normal review did not flag them before money moved. In response, SZV said it had tightened its ICT security and banking protocols, added manual verification checks on transfers — extending how long payments take to process — filed a police report, and reached out to the FBI and other international agencies for assistance, while also working with its bank to try to recover the diverted funds. SZV noted that BEC schemes of this kind, long common against businesses and government bodies in the United States, the Netherlands, and the United Kingdom, "now seems to be targeting the Caribbean region more aggressively," and that other local and regional organizations had been targeted in similar ways. The case is a reminder that BEC scams do not rely on hacking a network — they rely on a convincing email that looks like it came from a real colleague or vendor asking for a routine-seeming transfer — so any request to change payment details, rush a wire, or approve a transfer outside normal channels should be verified by phone with a known, independently-looked-up number before funds are sent, even when the email itself shows no obvious red flags.`,
+    categorySlug: 'business-email-compromise',
+    alertLevel: 'high',
+    sources: ['Social & Health Insurances SZV', '721news.com', 'Federal Bureau of Investigation (FBI)'],
+    sourceUrl: 'https://www.721news.com/2019/03/szv-investigates-phishing-scam/',
+    country: 'SX',
+  },
+);
+
+International.push(
+  {
+    name: 'Windward Islands Bank Insider Account-Draining Fraud',
+    slug: 'sint-maarten-windward-islands-bank-insider-fraud',
+    description: `The Police Force of Sint Maarten (KPSM) confirmed on February 24, 2026 that it had arrested a Windward Islands Bank (WIB) employee and a second suspect, her boyfriend, in a fraud investigation into customer accounts being drained from the inside. Investigators said the employee used her access at the bank to move funds — including transfers of up to $15,000 at a time — out of customer accounts to accomplices, with money then channeled onward to the boyfriend, who was arrested in St. Maarten while driving a stolen vehicle alongside another woman also suspected of receiving diverted funds. Police spokesman Joe Josepha said KPSM was "conducting a very broad investigation" and that several customer accounts had already been frozen as the probe widened, but declined to give further specifics while the case was active; WIB itself declined to comment publicly or offer customers any reassurance. The case drew added alarm because, according to reporting on an International Monetary Fund transparency assessment requested by the Central Bank of Curaçao and Sint Maarten, banks on Sint Maarten — including WIB — do not carry insurance that protects customers against losses from this kind of internal fraud, leaving affected depositors with far less certainty of being made whole than customers of banks in jurisdictions with deposit or fraud insurance. Consumer advocates urged Sint Maarten bank customers to check statements and online or mobile banking activity regularly rather than assuming unauthorized transfers will be caught internally, and to report any unrecognized transaction to their bank and to KPSM's Fraud Department immediately, since recovery of funds already moved by an insider is far from guaranteed on an island where no fraud-insurance backstop currently exists.`,
+    categorySlug: 'account-takeover',
+    alertLevel: 'high',
+    sources: ['St. Martin News Network (SMN News)', 'Police Force of Sint Maarten (KPSM)', 'International Monetary Fund (IMF)'],
+    sourceUrl: 'https://smn-news.com/index.php/st-maarten-st-martin-news/50059-sint-maarten-police-arrest-two-in-fraud-investigation-amid-wib-scandal.html',
+    country: 'SX',
+  },
+);

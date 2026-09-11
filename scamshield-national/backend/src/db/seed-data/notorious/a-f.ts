@@ -4031,7 +4031,9 @@ Contemporary accounts estimated Price had swindled roughly £200,000 from the Ba
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://en.wikipedia.org/wiki/Dan_Tan',
-    // no rights-cleared photo found — sourceUrl above serves as the "read the full story" link
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Supreme_Court_Building_behind_Parliament_House,_Singapore_-_20100803.jpg?width=1200',
+    coverImageCredit: 'Supreme Court Building, Singapore, by Smuconlaw (CC BY-SA 3.0, Wikimedia Commons)',
     body: `Tan Seet Eng, known internationally as Dan Tan, is a Singaporean businessman who never completed secondary school but rose, according to years of investigation by Interpol, Europol and prosecutors across three continents, to become the alleged mastermind of what officials repeatedly described as the world's largest and most aggressive football match-fixing syndicate. Unlike the operatives who traveled the world bribing players and referees on his network's behalf, Tan was said to run the operation from a comfortable distance in Singapore — and, remarkably, has never been convicted of a single match-fixing offense anywhere.
 
 Tan's history with sports betting predates the syndicate that made him infamous. In the early 1990s he served under a year in jail for illegal horse-racing and football bookmaking, and in 1994 he fled Singapore after losing an estimated $1.5 million on World Cup betting, later returning to repay the debt in installments. By the early 2010s he was a director of Singapore-registered companies, including one called Exclusive Sports Pte Ltd, that investigators would later allege served as fronts for a fixing operation stretching from Asia into Europe, Africa and Latin America.
@@ -6203,6 +6205,9 @@ NotoriousAF.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://krebsonsecurity.com/2020/10/promising-infusions-of-cash-fake-investor-john-bernard-walked-away-with-30m/',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/The_Royal_Courts_of_Justice.jpg?width=1200',
+    coverImageCredit: 'Royal Courts of Justice, London, by Mike Peel (www.mikepeel.net) (CC BY-SA 4.0, Wikimedia Commons)',
     body: `Long before he became "John Bernard," John Clifton Davies was already a convicted fraudster with a habit of reinventing himself. For roughly six years, Davies ran a series of U.K. companies that claimed to offer insolvency and debt-restructuring services to financially struggling businesses, then simply took what money those clients had left. Charged with fraud in October 2013, he skipped bail and fled the country; a British court convicted him in absentia in March 2015 on eleven counts of fraud and one count of dishonestly obtaining services, tied to losses of more than £780,000, and sentenced him to eight years in prison he has never served. Separately, and years earlier, Davies had been investigated over the death of his third wife during their honeymoon in India — an inquiry that ended with no charges against him.
 
 Rather than lie low, Davies resurfaced as "John Bernard," the persona of a semi-retired, Swiss-based technology billionaire supposedly eager to pour millions into promising startups. Operating through an entity he called "The Private Office of John Bernard," he approached cash-hungry tech companies — and, on at least one documented occasion, a Norwegian green-shipping venture — with offers of multimillion-dollar investment, contingent on the target first paying tens of thousands of dollars in upfront "due diligence" fees. Those fees were verified by a firm called The Inside Knowledge, ostensibly an independent advisory hired to vet the deal, but in fact secretly owned and controlled by Davies himself.
