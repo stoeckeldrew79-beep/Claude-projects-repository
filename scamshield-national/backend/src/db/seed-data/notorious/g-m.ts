@@ -7587,6 +7587,9 @@ NotoriousGM.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.cftc.gov/PressRoom/PressReleases/9213-26',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/CFTC_headquarters,_Lafayette_Center.jpg?width=1200',
+    coverImageCredit: 'Photo: Dclemens1971, CC BY 4.0, via Wikimedia Commons — CFTC headquarters in Washington, D.C., the agency that brought the case against Fortini',
     body: `John Fortini was an executive at Algo Capital LLC, a Florida-based operation that pooled customer money and funneled it to a separate outfit called Traders Domain FX Ltd. for trading, on the pitch that Traders Domain ran a proprietary algorithm capable of generating steady returns in the foreign-exchange market. According to the Commodity Futures Trading Commission, that pitch survived well past the point where Fortini had reason to know it wasn't true.
 
 By the CFTC's account, Traders Domain wasn't actually trading customer funds the way it claimed, at least as far back as October 2021. Then, in the fall of 2022, customer withdrawal requests started going unfulfilled — a classic warning sign that money coming in was covering redemptions rather than sitting in live trading positions. Fortini kept assuring customers they could get their money out anyway, according to the CFTC, even as he was aware some withdrawal requests weren't being honored. He also failed to tell customers that Traders Domain had landed on the CFTC's own Registration Deficient List, a public flag meant to warn exactly the customers he was still soliciting.
