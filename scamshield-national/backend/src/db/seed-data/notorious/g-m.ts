@@ -7554,5 +7554,8 @@ A federal jury in Florida convicted Zada in June 2015 on 15 counts of mail fraud
 Zada's case took an additional turn in 2020, when he was released early from federal custody to home confinement at his own mansion as part of the broader wave of COVID-era prison releases for older or medically vulnerable inmates — a detail that struck many of his victims as one more instance of Zada landing somewhere considerably softer than the consequences most fraud victims themselves absorbed.
 
 The "secret board in London" pitch worked precisely because it was unfalsifiable by design: investors had no way to verify an operation they were told, from the outset, they weren't allowed to see directly. That structure — access sold as a privilege, paired with an explanation for why ordinary due diligence wasn't possible — is one of the most durable tells in affinity fraud, whether the claimed secret is a trading desk, a gold vault, or an algorithm no one else is permitted to inspect.`,
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Grosse_Pointe_Shores_City_Hall.jpg?width=1200',
+    coverImageCredit: 'Photo: Notorious4life (CC0), via Wikimedia Commons — Grosse Pointe Shores, Michigan, where Zada lived and ran his fraud',
   },
 );
