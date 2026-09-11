@@ -7470,6 +7470,10 @@ The scheme unraveled only because his own investors got suspicious when he faile
 The civil case did not end the matter. Federal prosecutors separately charged Giovannetti with wire fraud, and after years of proceedings, U.S. District Judge Paul G. Byron sentenced him to five years and three months in federal prison, along with $663,975.61 in restitution matching the CFTC's earlier figure — a rare case where the criminal and civil tracks of the same fraud converged on the same dollar amount owed to the same victims.
 
 Giovannetti's case is a reminder that a doctored account statement is one of the simplest and most durable tools in a fraudster's kit: a pooled trading scheme lets an operator show victims whatever number keeps them from asking to see the actual brokerage account, and a familiar, real market like S&P 500 futures makes the invented profits sound plausible precisely because the underlying instrument is one investors have actually heard of. Anyone asked to pool money into a trading account they can't independently verify — through a broker-dealer's own statements, not numbers the fund manager types up personally — is being asked to trust a story rather than see the trade.`,
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Lake_Eola_and_Orlando_Skyline_seen_in_2024.jpg?width=1200',
+    coverImageCredit: 'Photo: JER3L1337 / Wikimedia Commons / CC BY 4.0',
+    coverImagePosition: 50,
   },
 );
 
