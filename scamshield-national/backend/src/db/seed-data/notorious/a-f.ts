@@ -7106,6 +7106,10 @@ NotoriousAF.push(
     slug: 'ash-narayan-rgt-capital-athlete-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Earl_Cabell_Federal_Building,_cropped.jpg?width=1200',
+    coverImageCredit: 'Photo: Rapidfire / Xnatedawgx, CC BY-SA 3.0, via Wikimedia Commons — the Earle Cabell Federal Building in Dallas, where the SEC filed its fraud case against Narayan',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.justice.gov/usao-cdca/pr/ex-financial-advisor-sentenced-more-3-years-prison-defrauding-professional-athlete',
     body: `Ash Narayan worked as a managing director out of the Irvine, California office of RGT Capital Management, building a client roster around a specific niche: professional athletes navigating the short, unusually front-loaded earning careers unique to pro sports. His clients included San Francisco Giants pitcher Jake Peavy, then-Denver Broncos quarterback Mark Sanchez, and retired Houston Astros pitcher Roy Oswalt — high earners who, like most professional athletes, had only a handful of years to make money that needed to last the rest of their lives, and who were trusting Narayan to manage it conservatively.
 
