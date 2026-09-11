@@ -2629,3 +2629,22 @@ The Morrisseau forgery ring shows how a market built on an artist's reputation r
     sourceUrl: 'https://www.cbc.ca/news/canada/thunder-bay/david-john-voss-sentencing-hearing-1.7314191',
   },
 );
+
+NotoriousTZ.push(
+  {
+    title: 'Saumil Thakkar, Poorvesh Thakkar, and the Pasmaa Real Estate Fund Fraud',
+    slug: 'saumil-thakkar-pasmaa-real-estate-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26483',
+    body: `Note: This entry describes a civil enforcement action. The SEC's complaint lays out the government's allegations only — Saumil Thakkar and Poorvesh Thakkar have not been criminally charged in connection with this fund, and no court has yet ruled on the SEC's claims.
+
+Saumil Thakkar and his brother Poorvesh Thakkar, Texas real estate developers, raised money for a fund called Pasmaa GP Investment Fund LLC by pitching investors on a portfolio of commercial and residential development projects in and around Dallas. According to a Securities and Exchange Commission complaint filed February 18, 2026 in the U.S. District Court for the Eastern District of Texas, the Thakkars — who controlled both the fund's manager, PASMAA GP Investment Fund Manager LLC, and its sponsor, Perfect Group Holdings LLC — raised more than $12 million from roughly 48 investors between December 2017 and September 2020, with a minimum buy-in of $50,000 each.
+
+The complaint alleges the pitch relied on fabricated documents and misrepresented facts about the fund's actual holdings. Investors were told the fund had Dallas's Park Plaza Tower under contract to purchase, the SEC says, when in reality the Thakkars' offer on the building had already been rejected. At another project, Mustang Square in Plano, the complaint alleges the brothers overstated the land acquisition cost by more than $1 million and falsely claimed the development was already pre-leased when it had no tenants lined up at all. Despite offering documents that told investors no management fees would be charged, the SEC alleges the Thakkars funneled at least $2.2 million out of the fund through affiliated companies as undisclosed fees, and that Saumil Thakkar told investors he would personally put in $3.5 million of his own money when he ultimately invested less than half that amount.
+
+The SEC's complaint charges the Thakkar brothers and their companies with violating the antifraud provisions of the federal securities laws, and seeks permanent injunctions, disgorgement of ill-gotten gains, civil penalties, and an order barring the brothers from ever again issuing securities. It was not Poorvesh Thakkar's first brush with securities regulators: he had previously paid a $16,000 penalty in a 2016 case tied to audit fraud at his father's accounting firm. As of this writing, the case remains in litigation and the allegations against the Thakkars are unproven.
+
+The Pasmaa case follows a familiar shape in real estate offering fraud: a fund built around one flagship property that sounds prestigious enough to sell the rest of the portfolio — Park Plaza Tower is a well-known high-rise near downtown Dallas — with no independent way for an investor to confirm the deal was ever real. A signed purchase contract, a leasing report, or a construction-cost estimate produced entirely by the people raising the money is not verification; it's marketing material, and the SEC's complaint alleges investors had no way to know the tower deal behind their investment had already fallen through by the time they wrote their checks.`,
+  },
+);
