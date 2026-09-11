@@ -10486,6 +10486,39 @@ International.push(
 
 International.push(
   {
+    name: 'Fake Sierra Leone Commercial Bank Impersonation Scam',
+    slug: 'sierra-leone-slcb-bank-impersonation-scam',
+    description: `On June 7, 2024, Sierra Leone Commercial Bank (SLCB) — the country's first entirely indigenous bank, wholly owned by the government and known as "The People's Bank" — issued a public press release warning customers about a rise in scammers impersonating SLCB representatives to defraud the public. The bank said fraudsters were contacting people through phone calls, emails, text messages, and social media platforms, "adept at creating convincing and deceptive communications" that promised loan approvals, financial opportunities, or prizes in exchange for personal or financial information such as account numbers, PINs, and passwords. SLCB stressed that it "will never engage in unsolicited communications asking for personal or financial information" and urged customers to independently verify any contact claiming to represent the bank by calling official customer service lines rather than any number supplied by the caller, since "if something sounds too good to be true it probably is." The bank said it was working with law enforcement to investigate the fraudulent use of its brand and asked anyone targeted by such scams to report the incident to local police and to SLCB's Customer Service Department directly.`,
+    categorySlug: 'phishing',
+    alertLevel: 'medium',
+    sources: ['Sierra Leone Commercial Bank (SLCB)'],
+    sourceUrl: 'https://www.slcb.com/media/singlemedia.php?bid=12',
+    country: 'SL',
+  },
+  {
+    name: 'Fake "Motherland City" Affordable-Housing Investment Scheme (EAP Group of Companies)',
+    slug: 'sierra-leone-eap-group-motherland-city-housing-scam',
+    description: `Starting in early 2023, Sierra Leone's Anti-Corruption Commission (ACC), working alongside the Central Intelligence and Security Agency and the Financial Intelligence Unit, opened an investigation into the EAP Group of Companies over its "Motherland City" project, an affordable-homeownership scheme in York, Western Area Rural District that had already collected deposit payments from prospective homeowners. A preliminary ACC investigation found that the company's founder — who the Commission said used multiple names and passports in different countries — had "a wretched criminal history in West Africa and other parts of the world," and that Nigeria's Economic & Financial Crimes Commission had filed a request for the Anti-Corruption Commission to hand him over for trial. In a Press Release dated March 8, 2023, the ACC urged members of the public with information on the company or its founder to come forward, explicitly warning that the scheme resembled the Wealth Builders Network, a micro-finance firm whose earlier get-rich-quick scam had "squandered Billions of Leones from impoverished persons," including small business owners and hustlers, before it collapsed roughly a decade earlier. The ACC credited its early investigation and public communication with helping prevent Sierra Leoneans from losing further money to the EAP scheme.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'high',
+    sources: ['Anti-Corruption Commission of Sierra Leone (ACC-SL)'],
+    sourceUrl: 'https://www.anticorruption.gov.sl/blog/anti-corruption-commission-sl-news-room-1/post/the-eap-group-of-companies-the-motherland-city-scam-how-the-anti-corruption-commission-saved-the-country-from-a-situation-similar-to-the-wealth-builders-saga-994',
+    country: 'SL',
+  },
+  {
+    name: 'Fake Mobile Money Prize and Promotion Scam Targeting Orange Money Customers',
+    slug: 'sierra-leone-orange-money-fake-prize-promotion-scam',
+    description: `On August 13, 2026, Orange Sierra Leone launched a dedicated Scam Alert Tool at the Orange Digital Center in Freetown, an event that regulators and company officials used to detail a rising wave of mobile-money fraud in the country. Gerard Cole, Head of Compliance at Orange Money, said fraudsters "have been using the names of respected institutions and authorities to gain the confidence of victims" and increasingly invent stories about large sums of money "allegedly won through mobile promotions or competitions," then manipulate victims into handing over personal information or sending money to claim the fictitious prize. Cole said reported fraud cases had increased in Sierra Leone from January 2026 onward, while cautioning that the true scale is likely far greater because many victims do not know where or how to report fraud, and noted that "one mobile phone, one SIM card and the required information" is often all a scammer needs to carry out the scheme. Orange Sierra Leone CEO Aicha Toure said the company would "never ask customers to disclose their passwords, PINs or personal security codes," while the Financial Intelligence Agency's Director General, David N. Borbor, urged the public to verify information before sending money, saying "we must deter, detect and defeat fraudsters."`,
+    categorySlug: 'lottery-sweepstakes-scams',
+    alertLevel: 'high',
+    sources: ['Orange Sierra Leone', 'City Hunter Newspaper'],
+    sourceUrl: 'https://sierraleonenews.wordpress.com/2026/08/13/verify-before-you-send-orange-sierra-leone-launches-new-scam-alert-tool-to-protect-customers-and-financial-system/',
+    country: 'SL',
+  },
+);
+
+International.push(
+  {
     name: 'Lonestar Cell MTN SIM Swap Account Takeover Fraud (Liberia)',
     slug: 'liberia-lonestar-cell-mtn-sim-swap-fraud',
     description: `A confidential report obtained by The Liberian Investigator and submitted to Liberia's National Security Agency documented a sharp rise in SIM-swap attacks against high-profile individuals and businesses in Liberia, with the Lonestar Cell MTN mobile app singled out for weak security protocols and lax subscriber-verification processes that let attackers get a victim's number reassigned to a SIM card they control. Once the swap succeeds, the attacker receives the one-time passcodes and SMS alerts used for two-factor authentication, letting them hijack financial accounts and social media profiles while the real subscriber's phone goes dead. The Liberia Telecommunications Authority (LTA) has separately fined Orange Liberia after a customer's SIM was reassigned to a third party without her consent in February 2024, cutting off her service and letting the attacker lock her out of linked accounts, underscoring that the vulnerability spans multiple carriers as mobile-money adoption in the country continues to grow rapidly. The report recommends that telecom operators temporarily suspend self-service SIM-swap features until stronger multi-factor or biometric verification is in place, build fraud-detection systems that flag suspicious swap requests, and run public-awareness campaigns, while urging subscribers to move away from SMS-based two-factor authentication toward app-based authenticators and to treat any sudden, unexplained loss of phone signal as a possible sign of an in-progress SIM swap.`,
