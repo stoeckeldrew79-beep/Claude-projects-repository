@@ -5742,6 +5742,10 @@ Ruinard's fraud case is a reminder that a fabricated net worth and a rotating se
     slug: "brooklynn-chandler-willy-texas-financial-advisory-ponzi",
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/John_H._Wood_Jr._Federal_Courthouse.jpg?width=1200',
+    coverImageCredit: 'Toohool, CC BY-SA 4.0, via Wikimedia Commons',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.justice.gov/usao-wdtx/pr/former-financial-advisor-pleads-guilty-10-counts-investment-fraud-scheme',
     body: `Brooklynn Chandler Willy, 46, of San Antonio, ran an investment advisory business through two entities she controlled — Queen B Advisors LLC, doing business as Texas Financial Advisory, and Chandler Capital Holdings — that presented her to clients as a trustworthy financial guide, including through a locally broadcast radio program. According to the U.S. Attorney's Office for the Western District of Texas, that trust was misplaced: Willy admitted to misappropriating millions of dollars of client money for her own use, forging client signatures, and making Ponzi-style payments to earlier investors using money raised from newer ones to keep the scheme going.
 
