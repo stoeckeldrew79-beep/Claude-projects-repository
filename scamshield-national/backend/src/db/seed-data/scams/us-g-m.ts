@@ -5912,3 +5912,15 @@ UsGM.push({
     country: 'US',
     state: 'MI',
 });
+
+UsGM.push({
+    name: 'Georgia Fake Farm Equipment Dealership Scam',
+    slug: 'georgia-fake-farm-equipment-dealership-scam',
+    description: `The Georgia Department of Agriculture's Law Enforcement Division warned farmers on July 9, 2026 about a sophisticated wave of online scams in which criminals use artificial intelligence and other advanced technology to imitate legitimate farm equipment dealerships, building convincing fake websites, advertisements, emails, and other communications designed to deceive buyers shopping for tractors and other agricultural equipment. A buyer typically finds equipment listed online at an attractive price, then is contacted by someone posing as a dealership representative over the phone or by text and instructed to wire funds or send an electronic payment to complete the purchase — after which the equipment either never existed or is never delivered, and the money is effectively unrecoverable. "The safest approach is to personally visit the dealership, put your own eyes on the equipment, and complete the purchase in person," Georgia Agriculture Commissioner Tyler J Harper said in announcing the alert. The department recommends independently looking up and calling a dealership's own phone number rather than one provided in an ad or text, discussing any large purchase with your financial institution before transferring funds, avoiding wire transfers to unfamiliar accounts in favor of secure payment methods like a cashier's check, and visiting the dealership and inspecting the equipment in person before paying. Suspected fraud can be reported to local law enforcement or the Georgia Department of Agriculture's Law Enforcement Division.`,
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'medium',
+    sources: ['Georgia Department of Agriculture'],
+    sourceUrl: 'https://www.agr.georgia.gov/pr/georgia-department-agriculture-warns-farmers-sophisticated-online-farm-equipment-scams',
+    country: 'US',
+    state: 'GA',
+});
