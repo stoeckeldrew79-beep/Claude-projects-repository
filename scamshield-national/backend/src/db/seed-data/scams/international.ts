@@ -13849,3 +13849,16 @@ International.push(
     country: 'LI',
   },
 );
+
+International.push(
+  {
+    name: 'Liechtenstein "Love Scam" Romance Fraud',
+    slug: 'liechtenstein-love-scam-romance-fraud',
+    description: `The Liechtenstein national police (Landespolizei) issued a public warning in March 2025 after several residents lost a combined total in the hundreds of thousands of Swiss francs to online romance fraud, known locally as "Love Scam." Police described a consistent pattern: contact is made through social media or a dating platform, and an organized criminal group — often working in rotation so the same persona is maintained around the clock — builds what feels like a genuine romantic relationship over weeks, always finding a reason a planned in-person meeting cannot happen. Once the victim is, in the words of the Landespolizei, "emotionally heavily involved," the supposed partner describes being stranded abroad and unable to access their own funds, and asks for money to cover a medical emergency, electronics, a visa, or a plane ticket to finally meet — sometimes with a promise of repayment that never comes. Victims spanned both men and women, mostly in the second half of life, and police said the true number of cases was almost certainly higher than what was reported, since many victims are too embarrassed to come forward. The Landespolizei urged the public to never send money, gift cards, or valuables to someone they have only met online, to treat a partner who always has an excuse for not meeting in person as a serious warning sign, and to reach out to police or a trusted person early if something about an online relationship feels wrong.`,
+    categorySlug: 'romance-scams',
+    alertLevel: 'high',
+    sources: ['Landespolizei des Fürstentums Liechtenstein', 'watson.ch', 'VOL.AT'],
+    sourceUrl: 'https://www.landespolizei.li/detail/vp/1184/grosser-finanzieller-schaden-durch-love-scam',
+    country: 'LI',
+  },
+);
