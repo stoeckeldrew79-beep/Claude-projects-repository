@@ -4017,6 +4017,10 @@ Affected individuals in the European Union can raise concerns with Denmark's dat
     slug: "spruce-power-connecticut-solar-servicing-settlement-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "spruce-power-solar-servicing-settlement"],
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Suburban_rooftop_solar_power_generation_in_Canberra,_Australia.jpg?width=1200",
+    coverImageCredit: "Photo: Benlisquare, CC BY-SA 4.0, via Wikimedia Commons — rooftop solar panels",
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: "https://portal.ct.gov/ag/press-releases/2026-press-releases/attorney-general-tong-announces-new-developments-to-hold-solar-industry-accountable",
     body: `A lot of homeowners who signed a solar lease or power-purchase agreement years ago have, without ever agreeing to it themselves, ended up as customers of a completely different company than the one they originally signed with. That's exactly what Connecticut Attorney General William Tong's office says happened to homeowners whose contracts were acquired by Spruce Power 3, LLC — and on March 17, 2026, Tong announced Spruce Power would pay $100,000 to settle an investigation into how it handled that transition, while simultaneously opening a new investigation into a second solar servicing company, SunStrong Management LLC, over a strikingly similar pattern.
 
@@ -4031,6 +4035,10 @@ If your solar contract has changed hands, start by confirming who currently owns
     slug: "pork-price-fixing-settlement-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "pork-price-fixing-settlement"],
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Toledo_Public_Market_Meat_Stall.jpg?width=1200",
+    coverImageCredit: "Photo: QueenCityCebu, CC BY-SA 4.0, via Wikimedia Commons — public market meat stall",
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: "https://www.claimdepot.com/settlements/over-charged-for-pork-2",
     body: `A consolidated antitrust lawsuit that's been working through federal court in Minnesota since 2018 has produced a settlement that touches an unusually ordinary purchase: raw pork bought at a grocery store. In In re: Pork Antitrust Litigation (Consumer Indirect Purchaser Plaintiffs), Case No. 0:18-cv-1776 in the U.S. District Court for the District of Minnesota, consumers accused five of the country's largest pork producers — Tyson Foods, Clemens Food Group, Hormel Foods, Seaboard Foods, and Triumph Foods — along with the data firm Agri Stats, of conspiring to inflate and stabilize pork prices nationwide by coordinating production cuts, sharing detailed sales data through Agri Stats, and limiting how much pork reached the market. None of the companies has admitted wrongdoing, but five of them have now agreed to pay a combined $117.065 million to resolve the claims: Tyson $85 million, Clemens $13.5 million, Seaboard $10 million, Hormel $4.465 million, and Triumph $4.1 million. Agri Stats agreed to reform certain business practices rather than pay money.
 
