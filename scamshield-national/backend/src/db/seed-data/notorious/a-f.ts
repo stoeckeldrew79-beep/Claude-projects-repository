@@ -5995,6 +5995,10 @@ NotoriousAF.push(
     slug: 'donald-rodgers-three-bridges-trading-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    // representative photo (case prosecuted by the U.S. Attorney's Office for the Western District of Tennessee, Memphis) — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Federal_Building_Main_St_Memphis_TN_05.jpg?width=1200',
+    coverImageCredit: 'Thomas R Machnitzki, CC BY 3.0, via Wikimedia Commons',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.justice.gov/usao-wdtn/pr/collierville-commodity-trader-sentenced-51-months-2000000-investment-fraud-scheme',
     body: `Donald Wray Rodgers, of Collierville, Tennessee, ran a commodity pool called Three Bridges Trading Fund, LLC, pitching it to acquaintances and investors around the country as a successful futures-trading fund under his management. Between January and November 2022, he raised at least $2 million from more than 50 participants in multiple states based on that pitch, according to the U.S. Attorney's Office for the Western District of Tennessee and a related civil complaint filed by the Commodity Futures Trading Commission.
 
