@@ -10600,6 +10600,16 @@ International.push(
     sourceUrl: 'https://www.nation.sc/articles/12069/cbs-warns-public-to-be-more-vigilant-as-latest-scam-surfaces-via-whatsapp',
     country: 'SC',
   },
+  {
+    name: 'Seychelles Bankers Association Money Mule Recruitment Scam',
+    slug: 'seychelles-bankers-association-money-mule-scam',
+    description: `The Seychelles Bankers Association (SBA) issued repeated public warnings in 2021 and 2022 about a "mule account scam" in which fraudsters, operating largely from West African countries, contact Seychellois through Facebook and other social media with offers of financial assistance or well-paid opportunities. A local accomplice — sometimes an expatriate or a Seychellois resident recruited without fully understanding the scheme — vouches for the stranger to build the victim's trust, after which the victim is persuaded to hand over their debit card and PIN, which are then posted abroad, commonly to Benin, and used to move the proceeds of unrelated fraud through the victim's own Seychelles bank account. In a January 2022 update, the SBA said more than SCR20 million had been lost to scams targeting Seychellois since 1993, with mule account fraud alone accounting for at least SCR200,000 of recorded losses, alongside comparable amounts lost to fake "loan activation fee" scams and Facebook romance scams targeting single women with promises of marriage. SBA representative Philip Moustache urged the public to treat unsolicited financial offers with suspicion — "If it's too good to be true, beware!" — and stressed that only institutions registered with and supervised by the Central Bank of Seychelles may lawfully offer loans or financial products, so any such offer arriving through a Facebook post or message should be treated as fraudulent. The SBA advises anyone approached this way never to share bank card details or PINs, and to report the approach to their bank and to Seychelles' Financial Intelligence Unit.`,
+    categorySlug: 'employment-scams',
+    alertLevel: 'high',
+    sources: ['Seychelles Bankers Association', 'Seychelles Nation'],
+    sourceUrl: 'https://www.nation.sc/articles/12080/more-than-r20-million-lost-in-scams',
+    country: 'SC',
+  },
 );
 
 International.push(
