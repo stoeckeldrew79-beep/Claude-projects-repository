@@ -3085,3 +3085,16 @@ UsTZ.push({
     isHistorical: true,
     firstRecorded: '2020-01-01',
 });
+
+UsTZ.push({
+    name: 'Local Records Office Deed-Copy Mail Scam (LA Investors, LLC)',
+    slug: 'washington-local-records-office-deed-copy-mail-scam',
+    description: `Bellflower, California-based LA Investors, LLC, doing business as "Local Records Office," mailed Washington homeowners official-looking notices shortly after they bought property, using bold formatting, urgent deadlines, and government-style language to imply the recipient was required to buy an $89 "Certified Copy of Grant Deed" from the company. In reality, a certified copy of a deed typically costs only a few dollars through the county recorder's or auditor's office, and many counties make deeds available online for free. The Washington Attorney General's Office sued LA Investors under the state Consumer Protection Act, and Thurston County Superior Court Judge Mary Sue Wilson granted summary judgment against the company on February 12, 2016, finding it had violated the Act at least 256,998 times by sending the deceptive mailers. The court went on to order LA Investors to pay more than $3.6 million: $856,981 in restitution to affected homeowners, $2,569,980 in civil penalties, and $176,806 to cover the state's litigation costs. "These fraudsters sought to line their pockets by selling government documents at a ridiculous mark-up," said Washington Attorney General Bob Ferguson. "Today, they are being held accountable — victims will get their money back and these scammers will pay a substantial penalty." Anyone who receives an urgent notice offering to sell a copy of a deed, property survey, or similar public record for a fee should contact their county recorder's or auditor's office directly rather than paying the mailer — a genuine county copy is inexpensive, and no real government agency demands payment for a public record through a private mailing.`,
+    categorySlug: 'mortgage-foreclosure-scams',
+    alertLevel: 'medium',
+    sources: ["Washington State Attorney General's Office"],
+    sourceUrl: 'https://www.atg.wa.gov/news/news-releases/company-scamming-homeowners-ordered-pay-36m-after-ag-lawsuit',
+    country: 'US',
+    state: 'WA',
+    isHistorical: true,
+});
