@@ -8145,6 +8145,18 @@ NotoriousAF.push(
 
 NotoriousAF.push(
   {
+    title: "Daniel Elie Bouaziz and the Worth Avenue Galleries Selling Forged Basquiats and Warhols",
+    slug: "daniel-elie-bouaziz-worth-avenue-art-fraud",
+    author: "ScamShield Editorial",
+    tags: ["notorious", "notorious-scammer"],
+    body:
+      "Daniel Elie Bouaziz, a French citizen born in Algeria, ran two galleries on one of the most prestigious shopping streets in the country — Danieli Fine Art and Galerie Danieli, both on Worth Avenue in Palm Beach, Florida — selling what he told buyers were authentic, original works by blue-chip contemporary artists including Jean-Michel Basquiat, Andy Warhol, Banksy, and Roy Lichtenstein. According to federal prosecutors, the actual source of Bouaziz's inventory was considerably less glamorous: cheap reproductions and prints bought on online auction sites, which he then dressed up with forged signatures and fabricated provenance before marking the prices up by orders of magnitude.\n\nThe scale of the markup was the case's most striking detail. Investigators found Bouaziz had a fake Basquiat painting listed for sale at $12 million that he had bought as a $495 print. On October 25, 2021, he sold a customer a set of pieces he claimed were authentic, artist-signed Andy Warhol works for between $75,000 and $240,000 each, collecting a $200,000 down payment that he deposited and then moved through other accounts he controlled — the transaction that ultimately became the centerpiece of the government's money-laundering case against him.\n\nBouaziz made his initial federal court appearance on May 27, 2022, charged with mail fraud, wire fraud, and money laundering. He pleaded guilty in February 2023 to laundering money derived from the counterfeit-art scheme, and prosecutors dropped sixteen additional fraud and embezzlement-related counts as part of the plea agreement. On May 30, 2023, U.S. District Judge Aileen M. Cannon sentenced him, then 69, to 27 months in federal prison, followed by three years of supervised release, along with a $15,000 fine and a restitution hearing to determine what he owed his victims. U.S. Attorney Markenzy Lapointe announced the sentencing alongside IRS Criminal Investigation and FBI officials who had built the case.\n\nBouaziz's galleries carried the trappings that are supposed to reassure a buyer — a prestigious Worth Avenue address, gallery branding, and confident claims of authenticity — none of which substitute for the paper trail a genuine blue-chip artwork actually carries: a documented chain of ownership, an authentication from the artist's foundation or a recognized expert, and a price that bears some relationship to the piece's real, independently verifiable origin. A $12 million asking price built on a $495 print is an extreme case, but the underlying vulnerability — a buyer trusting a dealer's word over independent authentication — is the same one that lets far smaller art frauds succeed every year.",
+    sourceUrl: "https://www.justice.gov/usao-sdfl/pr/palm-beach-art-dealer-sentenced-federal-prison-laundering-money-art-fraud-scheme",
+  },
+);
+
+NotoriousAF.push(
+  {
     title: "Alec Dierna, John Engler, and the $8 Million 'Merchandise You Never Ordered' Mail Scheme",
     slug: "alec-dierna-john-engler-unordered-merchandise-mail-fraud",
     author: "ScamShield Editorial",
