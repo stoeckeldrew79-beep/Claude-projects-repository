@@ -13940,3 +13940,16 @@ International.push(
     country: 'LS',
   },
 );
+
+International.push(
+  {
+    name: 'Fake Casino "VIP Room" Investment Scam (Macau)',
+    slug: 'macau-fake-casino-vip-room-investment-scam',
+    description: `Macau's Judiciary Police (PJ) arrested a Hong Kong couple — Luo, a 69-year-old man, and Yang, a 48-year-old woman — at the Border Gate on January 14, 2026, after a non-resident investor they had cultivated over several years of Macau visits lost a net HKD24 million in a fabricated casino "VIP room" investment scheme. The pair claimed their Hong Kong-registered company held the rights to operate a VIP gaming room at a NAPE-district casino and promised the victim monthly returns of 3 percent, backing up the pitch with forged documents bearing the casino's name, company seals, and signatures, and arranging site visits where the victim met people posed as casino staff to reinforce the illusion of a real partnership. The victim first deposited RMB8.4 million and, encouraged by roughly HKD4 million paid out early on as purported "returns," went on to contribute more than HKD28 million in total before payments stopped in April 2024 and the suspects refused further withdrawal requests, prompting a police report in November 2024. PJ spokesman Leng Kam Lon said investigators found no business ties between the suspects' company and any Macau casino, and identified the supporting paperwork as forged through inconsistencies in its formatting and fonts. VIP gaming rooms are typically operated under formal junket or concession agreements that outsiders cannot simply buy into, and the PJ's Anti-Fraud Coordination Centre urges anyone offered a stake in one to verify the arrangement directly with the licensed casino operator — never through documents or introductions supplied only by the person soliciting the investment.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'high',
+    sources: ['Macau Daily Times', 'Judiciary Police of Macau (PJ)'],
+    sourceUrl: 'https://macaudailytimes.com.mo/hong-kong-duo-detained-in-casino-vip-room-scam.html',
+    country: 'MO',
+  },
+);
