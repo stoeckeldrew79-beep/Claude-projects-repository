@@ -3584,6 +3584,10 @@ If you're a Luminis Health patient, don't wait for a breach notification letter 
     slug: "growth-cave-business-opportunity-credit-repair-settlement-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "growth-cave-ftc-settlement"],
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/ApexBuildingHighsmith.jpg?width=1200",
+    coverImageCredit: "Photo: Carol M. Highsmith, public domain, via Wikimedia Commons — the FTC's headquarters (Apex Building) in Washington, D.C., which brought the case",
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: "https://www.ftc.gov/news-events/news/press-releases/2026/01/ftc-secures-settlement-banning-growth-cave-defendants-marketing-selling-business-opportunities",
     body: `A YouTube ad promises that anyone can build a "digital education" side business generating $20,000 to $50,000 a month in passive income, with no experience required. Click through, and a sequence of follow-up videos and emails builds toward a "free strategy call" with a real person — who, according to the Federal Trade Commission, told prospective customers they'd start making money within four to six weeks of signing up. That pitch, and the company behind it, is what the FTC and California's Department of Financial Protection and Innovation sued to shut down in March 2025: Growth Cave, LLC, an online business-coaching operation the agencies say took in nearly $50 million from consumers through a tangle of escalating "opportunities" that rarely delivered anything close to what was promised.
 
