@@ -4906,6 +4906,10 @@ Boi Gordo shows how a fraud can borrow credibility from two directions at once �
     slug: 'charles-knapp-trafalgar-holdings-savings-loan-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Edward_R._Roybal_Federal_Building_and_United_States_Courthouse_(Los_Angeles).JPG?width=1200',
+    coverImageCredit: 'Alexis Doine, CC0, via Wikimedia Commons',
+    coverImagePosition: 50,
     sourceUrl: 'https://en.wikipedia.org/wiki/American_Savings_and_Loan',
     body: `Charles W. Knapp took over a small, struggling Stockton, California thrift in the 1970s and rebuilt it as American Savings & Loan, riding the same wave of savings-and-loan deregulation that reshaped the industry in the early 1980s. Under Knapp, American Savings grew explosively, reaching roughly $30 billion in assets and becoming one of the largest thrifts in the country — built substantially on the same high-risk real estate lending and speculative investments that would sink much of the industry within the decade.
 
