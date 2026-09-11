@@ -7245,3 +7245,22 @@ Ghedi's case illustrates how a fraud built on a real, well-intentioned emergency
     coverImageCredit: 'Photo: Chad Davis, CC BY 2.0, via Wikimedia Commons — Warren E. Burger Federal Building, St. Paul, where the Feeding Our Future case was prosecuted',
   },
 );
+
+NotoriousAF.push(
+  {
+    title: 'David Mobley and the Maricopa Hedge Funds That Existed Mostly on Paper',
+    slug: 'david-mobley-maricopa-hedge-fund-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-18150',
+    body: `David W. Mobley Sr. told investors he had been trading his own account at Merrill Lynch since age 13, and by the 1990s he had turned that story into a hedge fund empire run out of Naples, Florida. His vehicles — Maricopa Investment Fund, Maricopa Index Hedge Fund, Maricopa Financial Corporation, and Ensign Trading Corporation, among others — promised investors annual returns of roughly 50 to 51 percent, net of a 30 percent management fee Mobley kept for himself. When investors or their advisers asked for independent verification, Mobley told them an audit risked exposing his proprietary trading strategies and declined to allow one — a red flag investors accepted as a mark of sophistication rather than a warning sign.
+
+There was little behind the numbers to verify in the first place. According to the Securities and Exchange Commission, Mobley sent investors monthly account statements that simply invented their balances and returns, at one point claiming to have $450 million under management when the funds actually held roughly $33 million. Of the more than $120 million investors had entrusted to him since 1993, Mobley diverted large sums into his own ventures — a mortgage company, a golf club, a research firm, a cigar lounge, and a stadium project, most of which failed — and quietly funneled another $3.5 million to charities without telling the people whose money it actually was.
+
+The rest funded a lifestyle built entirely on other people's savings. Mobley paid himself a $1 million salary plus a $2 million bonus in January 2000 alone, bought a $98,000 Porsche and a $40,000 diamond ring for his wife, and acquired a string of real estate — an $864,000 home and a $1 million lot in Naples, homes for his sister and daughter, and a $1.7 million vacation property in Vail, Colorado, purchased the same year his scheme collapsed.
+
+The SEC filed an emergency enforcement action in the Southern District of New York on February 23, 2000, freezing Mobley's assets and those of his funds; the CFTC filed a parallel action the same day. Mobley did not fight the underlying facts — he confessed to the fraud. A separate criminal case brought by the U.S. Attorney's Office for the Middle District of Florida followed, and in July 2001 Mobley pleaded guilty to eight felony counts. He was sentenced to seventeen and a half years in federal prison and ordered to pay $76.2 million in restitution. The SEC's civil case concluded in May 2003 with a settlement permanently barring him from the securities and investment advisory business.
+
+Mobley's fund never had anything close to the assets, or the track record, it claimed — and for seven years, nobody with the standing to demand a real audit did. His case is a reminder that "we don't allow outside audits, because our edge is proprietary" is not a sign of a manager protecting a genuine advantage; among fraud examiners, it is one of the oldest and most reliable indicators that there is nothing behind the curtain worth protecting.`,
+  },
+);
