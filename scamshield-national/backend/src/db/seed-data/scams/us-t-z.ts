@@ -3146,3 +3146,15 @@ UsTZ.push({
     country: 'US',
     state: 'TX',
 });
+
+UsTZ.push({
+    name: 'Cumby "Service Dog" Breeder Fraud (Kristine Hicks)',
+    slug: 'texas-hopkins-county-dog-breeder-fraud-kristine-hicks',
+    description: `Kristine Michelle Hicks, 51, of Cumby in Hopkins County, Texas, advertised German Shepherd puppies online and on social media between June 2024 and December 2025 as healthy, purebred, and suitable for service work, charging buyers thousands of dollars above a typical price for animals she falsely described — including to a disabled veteran who paid roughly $2,500 for a dog marketed as service-ready that turned out to be aggressive and had to be muzzled after biting him, including on his face. The investigation began in December 2025 after a video surfaced appearing to show Hicks tying a German Shepherd to a tree and shooting it three times; a search of her property in January 2026 turned up approximately 88 dogs living in mud-filled pens with rusted, often-empty food and water containers, many suffering open wounds, parasites, and severe infections, with the average dog scoring 2.6 out of 9 on a body-condition scale investigators described as near-emaciated. A federal grand jury in the Eastern District of Texas indicted Hicks on March 23, 2026 on one count of operating as an unlicensed animal dealer under the Animal Welfare Act and four counts of wire fraud, exposing her to up to 20 years in federal prison. Anyone buying a puppy advertised as purebred or trained for service work should ask to see the breeder's USDA license if required, insist on visiting the animal at the property where it was actually raised rather than meeting only at a public location, and get any health, lineage, or training claims in writing before paying — since, as this case shows, an online ad and a low-resolution photo can hide conditions a buyer would never accept if they saw them in person first.`,
+    categorySlug: 'pet-sales-scams',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office, Eastern District of Texas", 'NBC 5 Dallas-Fort Worth (KXAS)'],
+    sourceUrl: 'https://www.justice.gov/usao-edtx/pr/deplorable-conditions-and-deceptive-business-practices-lead-federal-charges-under',
+    country: 'US',
+    state: 'TX',
+});
