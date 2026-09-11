@@ -7343,6 +7343,10 @@ This same pattern — an unexpected call about a bill, manufactured urgency, and
     slug: "attyx-sunco-free-roof-solar-fraud-lawsuit-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "attyx-sunco-solar-fraud-lawsuit"],
+    // representative photo — replace with an exact match if found
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Rooftop_Solar_Panels.jpg?width=1200",
+    coverImageCredit: "Photo: EY418 / Marc J. Harary, City Architectural Photography (CC BY-SA 4.0) — rooftop solar panels in Brooklyn, New York, where Attyx sold thousands of residential installations",
+    coverImagePosition: 50,
     sourceUrl: "https://ag.ny.gov/press-release/2026/attorney-general-james-sues-home-solar-power-company-and-lenders-cheating-new",
     body: `On March 17, 2026, New York Attorney General Letitia James sued Attyx LLC and Attyx New York LLC — the company formerly known as SUNco, and marketed at various times as SUNco Capital, SUNco Solar, SUNco Roofing and Solar, Attyx Roofing, and New York Roofing — along with its co-founders and co-CEOs, Grant Young and Benson Payne, and its lending partners, Solar Mosaic LLC and WebBank, accusing them of cheating thousands of New York homeowners out of an estimated $275 million. The lawsuit, filed in New York County Supreme Court, describes a sales operation that installed more than 4,500 residential solar systems in the New York City area by leading with a pitch that had almost nothing to do with solar power at all: the promise of a free roof.
 
@@ -7359,6 +7363,10 @@ Before agreeing to any solar deal that comes bundled with a "free" roof, HVAC sy
     slug: "apollomd-2025-ransomware-data-breach-settlement-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "apollomd-2025-data-breach-settlement"],
+    // representative photo — replace with an exact match if found
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Midtown_Atlanta_Skyline.jpg?width=1200",
+    coverImageCredit: "Photo: Atlantacitizen, Wikimedia Commons (CC BY-SA 3.0) — Atlanta, Georgia, where ApolloMD is headquartered",
+    coverImagePosition: 50,
     sourceUrl: "https://www.hipaajournal.com/apollomd-data-breach-settlement/",
     body: `ApolloMD Business Services provides physician staffing and practice-management services — emergency medicine, hospital medicine, and related specialties — to hospitals and healthcare facilities across the country, which means most of the patients affected by its 2025 data breach had likely never heard of the company before a notification letter arrived. On or around May 22, 2025, ApolloMD detected a ransomware attack on its network; the Qilin ransomware gang, a prolific extortion operation that has claimed dozens of healthcare-sector victims, took credit for the intrusion. Investigators determined the attackers had accessed and likely copied files over a roughly two-day window, May 22 through May 23, 2025.
 
