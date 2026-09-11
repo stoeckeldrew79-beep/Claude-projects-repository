@@ -30,7 +30,13 @@ async function seedArticles(articles: SeedArticle[], label: string) {
       `INSERT INTO articles (title, slug, body, author, tags, source_url, cover_image, cover_image_credit, cover_image_position, published, published_at)
        VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, true, NOW())
        ON CONFLICT (slug) DO UPDATE SET
-         source_url = COALESCE(EXCLUDED.source_url, articles.source_url),
+         -- The Admin panel's cover-photo form edits source_url in the same
+         -- save action as cover_image (it's the "no photo yet" fallback
+         -- link) — so once that save has locked the row, a manually-set
+         -- source_url must survive reseeding the same way the photo does,
+         -- instead of being silently overwritten back to seed.ts's value.
+         source_url = CASE WHEN articles.cover_image_locked THEN COALESCE(articles.source_url, EXCLUDED.source_url)
+                            ELSE COALESCE(EXCLUDED.source_url, articles.source_url) END,
          -- A manually curated photo (set via the Admin panel) is locked
          -- and must survive reseeding — see migration 019. Only an
          -- unlocked row takes seed.ts's photo fields.
