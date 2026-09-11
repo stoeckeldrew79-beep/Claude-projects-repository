@@ -7567,3 +7567,20 @@ What finally ended Mitchell's run was a criminal case. Prosecutors say that even
 Mitchell's case, running across a state final order, a pending federal civil suit, and now a federal criminal conviction spanning nearly five years, shows how long a trader a regulator has already publicly disciplined can keep finding new money under a new company name — as long as the people wiring it never think to check his record with the regulator that disciplined him the first time.`,
   },
 );
+
+NotoriousAF.push(
+  {
+    title: 'Dale Sanders: The Pastor Who Drained Two Congregations to Fund a Gambling Habit',
+    slug: 'dale-sanders-louisiana-pastor-church-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-edla/pr/pastor-found-guilty-jury-wire-fraud-access-device-fraud-and-obstruction-federal',
+    body: `Dale Sanders, 56, of Kenner, Louisiana, led two congregations in the New Orleans area — Second New Guide Missionary Baptist Church in Metairie and Fifth African Baptist Church in New Orleans. From April 2020 to April 2024, prosecutors say, he treated both churches' bank accounts as his own personal fund, exploiting the trust and minimal financial oversight that came with his position as pastor.
+
+According to the U.S. Attorney's Office for the Eastern District of Louisiana, Sanders transferred church funds from the churches' bank accounts into accounts he personally controlled and misused a church debit card to pay for goods and services with no connection to church business. The stolen money — more than $340,000 in total — went toward his own gambling activity, meals, and everyday living expenses, money that congregants had given believing it would support their churches rather than their pastor's personal spending.
+
+When federal investigators began looking into the missing funds, Sanders didn't simply stay quiet — prosecutors say he actively tried to derail the investigation by sending a fabricated document in response to a federal grand jury subpoena. That decision added a separate obstruction charge on top of the underlying fraud. Following a five-day jury trial, Sanders was convicted in July 2026 on all 25 counts against him: 15 counts of wire fraud, 11 counts of access device fraud, and one count of obstructing a federal investigation. He faces up to 20 years in prison at sentencing, along with restitution and fines.
+
+Church fraud cases like this one exploit a specific kind of trust that's hard to replicate anywhere else: congregants who give money assuming a pastor's financial conduct is subject to the same oversight as any other position handling other people's funds, when in many small congregations it isn't. The same authority that let Sanders lead a congregation's spiritual life gave him largely unchecked access to its bank accounts — a reminder that even institutions built on trust benefit from basic financial controls, like requiring more than one signature on transfers and someone outside leadership reviewing the statements.`,
+  },
+);

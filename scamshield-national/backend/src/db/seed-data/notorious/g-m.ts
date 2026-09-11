@@ -7769,3 +7769,20 @@ The CFTC sued the Griffises in July 2023. The case ended in a consent order ente
 Blessings Thru Crypto worked because it borrowed credibility from two sources at once: the Griffises' standing as known, licensed real estate agents in their own community, and religious language that framed an unregistered commodity pool as something closer to a shared act of faith than a financial product that could fail. Neither the license nor the language had anything to do with whether the underlying trading was real, and by the time investors learned it wasn't, most of their money had already left the country.`,
   },
 );
+
+NotoriousGM.push(
+  {
+    title: 'Jeffery Gentry: The $43 Million Fake Tractor Contracts Scheme',
+    slug: 'jeffery-gentry-white-county-tractor-supply-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-mdtn/pr/white-county-business-owner-sentenced-three-years-prison-43-million-investment-scheme',
+    body: `Jeffery Lynn Gentry owned and ran two small businesses in Sparta, Tennessee — Gentry Brothers Tractor Supply and, later, a used-car lot called Gentry Auto. To the more than 50 people who eventually invested with him, most of them fellow White County residents including customers, friends, and family, he was a known local face, not a stranger pitching a stock tip out of nowhere.
+
+Starting in 2012 and continuing through mid-December 2016, Gentry told investors he was bidding on and winning lucrative state contracts to supply farm equipment, and that their money would fund the equipment purchases needed to fulfill those contracts, in exchange for high returns. According to the U.S. Attorney's Office for the Middle District of Tennessee, none of it was real: Gentry knew there were no state contracts and that no equipment had been, or ever would be, purchased with investor money. Over roughly four years he raised approximately $43 million this way, while diverting investor funds into real estate purchases, vehicles, and his own lifestyle, including bankrolling the separate used-car business.
+
+The scheme caused documented losses of more than $10 million once it collapsed. Gentry was charged in July 2017 with wire fraud and money laundering and pleaded guilty the following month. U.S. District Judge Aleta A. Trauger sentenced him to 36 months in federal prison, followed by three years of supervised release, and ordered him to pay $10,410,672.74 in restitution. The U.S. Marshals Service later auctioned off real estate and other assets seized from Gentry to help repay victims.
+
+Gentry's case follows a familiar pattern in smaller-town investment fraud: the pitch didn't rely on complexity, just on a business owner's existing local reputation standing in for due diligence. Investors who had bought tractors from Gentry, or knew him as a neighbor, treated that history as proof his investment claims were true — when a state contract, like any specific factual claim behind an investment pitch, is something a would-be investor can actually verify independently before wiring money, rather than taking a familiar face's word for it.`,
+  },
+);
