@@ -6944,3 +6944,17 @@ UsAF.push({
     isHistorical: true,
     firstRecorded: '2024-05-16',
 });
+
+UsAF.push({
+    name: 'Harbor Freight and Luxury Retailer Identity Theft Mill (Limas, Nicklas, Nicklas)',
+    slug: 'california-harbor-freight-identity-theft-mill-retail-crime',
+    description: `Anthony Limas, Johnny Nicklas, and Steve Randy Nicklas ran an identity theft operation that California Attorney General Rob Bonta's office says spanned seven counties — Los Angeles, Orange, San Bernardino, Riverside, Alameda, San Mateo, and Santa Clara — using stolen personal information to open store credit accounts at high-end retailers, including Signet Jewelers locations, and at Harbor Freight Tools stores, then maxing out those credit lines on merchandise the trio never intended to pay for. Between March and July 2023, prosecutors say the group applied for store credit in the names of at least 13 identified victims, walking out with more than $100,000 in stolen merchandise before the scheme was traced back to them; the investigation began after a corporate fraud investigator at Signet Jewelers flagged a pattern of suspicious credit applications and referred it to law enforcement. Working with Homeland Security Investigations, the Santa Maria Police Department, the Los Angeles County Sheriff's Department, the California Highway Patrol, and the Westminster Police Department, the California Department of Justice filed a 34-count felony complaint against the three men on April 28, 2025, charging organized retail theft, grand theft, and identity theft. "I am committed to using the full force of the California Department of Justice to fight organized retail crime both in the field and in the courtroom," Bonta said in announcing the charges. The case illustrates how organized retail crime and identity theft increasingly run on the same infrastructure: a stolen name, birthdate, and Social Security number is enough to open store-branded credit in a victim's name at the counter, so anyone who receives a card, statement, or collection notice for a store account they never opened should freeze their credit with all three national bureaus immediately and report it to the retailer's fraud department as well as the California Department of Justice's Organized Retail Crime tip line at oag.ca.gov/bi/retail-crime.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'medium',
+    sources: ["California Department of Justice (Attorney General Rob Bonta)"],
+    sourceUrl: 'https://oag.ca.gov/news/press-releases/attorney-general-bonta-dismantles-active-identity-theft-mill-and-organized',
+    country: 'US',
+    state: 'CA',
+    isHistorical: true,
+    firstRecorded: '2025-04-28',
+});
