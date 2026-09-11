@@ -6951,3 +6951,17 @@ UsAF.push({
     isHistorical: true,
     firstRecorded: '2026-06-15',
 });
+
+UsAF.push({
+    name: 'Vemma Nutrition "Young People Revolution" Pyramid Scheme Settlement',
+    slug: 'arizona-vemma-nutrition-pyramid-scheme-ftc-settlement',
+    description: `Vemma Nutrition Company, a Tempe, Arizona-based multi-level marketer of energy drinks and nutritional shakes, ran a recruiting campaign called the "Young People Revolution" that specifically targeted college students and other young adults, using promotional materials and events that surrounded young affiliates with luxury cars, yachts, and other displays of wealth to sell the idea of Vemma as a profitable alternative to a traditional job. The Federal Trade Commission sued Vemma, its holding company, CEO Benson K. Boreyko, and top affiliate Tom Alkazin on August 17, 2015, alleging the company operated as an illegal pyramid scheme by paying affiliates primarily for recruiting new participants and requiring them to buy product to qualify for bonuses, rather than compensating them based on sales to real, non-participant customers — a structure the FTC said guaranteed the large majority of affiliates would lose money once travel, event, and inventory costs were counted, even as recruiting materials promised the "American Dream." A federal judge in Phoenix granted the FTC's request for a temporary restraining order on August 21, 2015, freezing Vemma's assets and appointing a receiver, effectively shutting the company down while the case proceeded; a jury later found Vemma liable, and the parties reached a final settlement approved by the court on December 15, 2016. The settlement imposed a $238 million judgment against the Vemma companies and Boreyko, largely suspended based on inability to pay upon surrender of specified assets and a $470,136 payment, plus a $6.7 million judgment against the Alkazins, and permanently barred Vemma from paying affiliates for recruiting, from requiring product purchases to qualify for compensation, and from making deceptive income or health claims, while the FTC separately mailed refund checks totaling more than $2.2 million to affected participants. The case remains a leading example of how the FTC distinguishes a lawful direct-sales business from an illegal pyramid scheme: a plan is illegal if most of the money paid out to participants traces back to recruitment and required purchases rather than actual product sales to people outside the business, and anyone recruited into a multi-level marketing opportunity — especially one that emphasizes lifestyle and recruiting bonuses over selling an actual product to outside customers — should ask what percentage of the company's revenue comes from sales to non-participants before investing any money or time.`,
+    categorySlug: 'ponzi-pyramid-schemes',
+    alertLevel: 'medium',
+    sources: ['Federal Trade Commission', "U.S. District Court for the District of Arizona"],
+    sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2016/12/vemma-agrees-ban-pyramid-scheme-practices-settle-ftc-charges',
+    country: 'US',
+    state: 'AZ',
+    isHistorical: true,
+    firstRecorded: '2015-08-17',
+});
