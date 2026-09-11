@@ -4899,3 +4899,15 @@ UsNS.push({
     country: 'US',
     state: 'RI',
 });
+
+UsNS.push({
+    name: 'South Dakota "Locayt" Rental Property Viewing-Fee Scam',
+    slug: 'south-dakota-locayt-rental-viewing-fee-scam',
+    description: `The Better Business Bureau serving the Midwest Plains warned South Dakota renters in September 2025 about Locayt, a rental-listing operation registered with the state under the name National Property Services LLC, after logging more than 60 formal scam reports and over 600 consumer inquiries tied to the company since it began operating in South Dakota in September 2023. The pattern the BBB documented is simple: a renter finds an attractive listing, often priced noticeably below market, and is charged a $49 "property viewing fee" before being allowed to tour the unit or move forward with an application. Once the fee is paid, communication from the company stops entirely — no scheduled tour, no follow-up, and no refund — and some would-be renters who tried showing up at the listed address anyway learned from the actual property owner that the home had never been for rent through Locayt at all. The BBB, which had opened its own investigation into the company by August 2025, gave Locayt/National Property Services an F rating for failing to respond to the complaints filed against it. "You pay a fee to look at their properties, and then they ghost you and you don't hear anything else from them, which is a big red flag," South Dakota BBB Vice President Jessie Schmidt said. Because a legitimate landlord or property manager typically doesn't charge a fee just to view a unit — application and screening fees, when they exist, are usually paid after a tour and only if the renter chooses to apply — South Dakotans are advised to independently verify that a listed property is actually for rent by searching the address or contacting the county assessor's office before paying anything, to be skeptical of below-market rents advertised with an unusually fast payment demand, and to check a rental company's complaint history at bbb.org/scamtracker before sending any fee.`,
+    categorySlug: 'rental-housing',
+    alertLevel: 'medium',
+    sources: ['Better Business Bureau (Midwest Plains)', 'Dakota News Now'],
+    sourceUrl: 'https://www.dakotanewsnow.com/2025/09/17/bbb-warns-south-dakotans-about-rental-scams-involving-locayt/',
+    country: 'US',
+    state: 'SD',
+});
