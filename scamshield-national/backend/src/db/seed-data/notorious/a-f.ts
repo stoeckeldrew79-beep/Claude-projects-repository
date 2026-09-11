@@ -5032,6 +5032,10 @@ NotoriousAF.push(
     slug: 'chris-faulkner-breitling-energy-frack-master-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    // representative photo (case prosecuted by the U.S. Attorney's Office for the Northern District of Texas) — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Earl_Cabell_Federal_Building,_cropped.jpg?width=1200',
+    coverImageCredit: 'Rapidfire, CC BY-SA 3.0, via Wikimedia Commons',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.justice.gov/usao-ndtx/pr/so-called-frack-master-sentenced-15-years-federal-prison',
     body: `Chris Faulkner built a public persona around a nickname he gave himself: the "Frack Master." As CEO of Dallas-based Breitling Oil and Gas Corporation and its successor, Breitling Energy Corporation, he cultivated the image of a leading authority on hydraulic fracturing — writing op-eds, giving television interviews, and appearing at industry conferences as the fracking boom's telegenic spokesman. That persona became the sales pitch: it lent an air of technical credibility to an oil-and-gas investment operation that, according to U.S. regulators and prosecutors, was largely a fraud.
 
