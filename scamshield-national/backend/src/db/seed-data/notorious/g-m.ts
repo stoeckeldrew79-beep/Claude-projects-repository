@@ -5808,6 +5808,10 @@ NotoriousGM.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
     sourceUrl: 'https://ag.ny.gov/press-release/2026/attorney-general-james-announces-sentencing-madison-county-tax-preparer-who',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Madison County Courthouse.JPG?width=1200',
+    coverImageCredit: 'Photo: A P Wood / Wikimedia Commons (CC BY-SA 3.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Miles Burton Marshall was a tax preparer in Hamilton, a small town in New York's Madison County, when he began soliciting his own clients — people who already trusted him with their financial paperwork every year — to invest in something he called the "Eight Percent Fund." He told them their money would go primarily into real estate investments and promised a guaranteed 8 percent annual return, a pitch he kept running, according to the New York Attorney General's Office, from the early 1990s until the scheme finally collapsed in March 2023.
 
 There was no real estate portfolio generating anything close to those returns. Instead, prosecutors say, Marshall paid earlier investors with money raised from newer ones — the defining mechanic of a Ponzi scheme — while also siphoning off client funds to prop up his other business ventures and to pay for his own travel, shopping trips, and restaurant visits. What made the fraud unusual was less its structure than its duration: Marshall kept it running for roughly three decades in a small, tight-knit rural community, eventually drawing in 988 investors across Madison County and neighboring counties who collectively lost more than $50 million in principal.
@@ -6362,6 +6366,10 @@ Likhtenstein's case is a textbook example of affinity fraud layered on top of a 
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26144',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/U.S. Securities and Exchange Commission headquarters.JPG?width=1200',
+    coverImageCredit: 'Photo: AgnosticPreachersKid / Wikimedia Commons (CC BY-SA 3.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Harry Zhabilov was the chief executive and chief science officer of Enzolytics, Inc., a small, publicly traded Delaware biotech whose stock traded for pennies a share. According to a complaint the Securities and Exchange Commission filed in the Southern District of New York on September 30, 2024, Zhabilov was also the center of what the SEC calls a "control group" — himself alongside Billy Ray Jr., Charles Dilluvio, and Stephen Apolant — that secretly built up large blocks of Enzolytics stock while concealing from the market that they controlled the company. That concealment mattered: stock held by a company's own affiliates and insiders carries resale restrictions specifically designed to stop insiders from quietly dumping shares on the public, and the SEC alleges the group's real purpose in hiding its control was to get around those restrictions and sell freely into a retail market that had no idea who was really behind the shares hitting the market. The SEC says the scheme generated approximately $92 million in illicit proceeds over its life, funded in part by a stock promotion campaign the group ran to drum up buying interest at the same time they were selling.
 
 The scheme reached into Zhabilov's own family. The SEC's complaint alleges that his daughter, Dannie Zhabilov — then a college student — was brought in as a vehicle for moving stock: she was awarded a contract for supposed "biology-related analytical work" that paid her not in cash but in 462 million shares of Enzolytics stock, and she and her father are alleged to have created false documents and made misrepresentations to the company's transfer agent in order to have 231 million of those shares reissued without the standard restrictive legend — the paperwork step that would otherwise have kept them from being freely tradable. From there, according to the complaint, millions of shares moved through another defendant, Jonathan Farber, who sold them through an entity called Wexford Industries Ltd., with additional entities named as defendants — Camelot Nevada Trust, Seacor Capital, Inc., and Sky-Direct LLC — and two more, NY Farms Group, Inc. and Equity Markets ADV LLC, named as relief defendants that received scheme proceeds without being accused of fraud themselves.
@@ -6376,6 +6384,10 @@ Zhabilov's case is a reminder that a "family business" framing can be a fraud's 
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26585',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Columbus - Ohio Statehouse - 20220421132212.jpg?width=1200',
+    coverImageCredit: 'Photo: Riis2602 / Wikimedia Commons (CC BY-SA 4.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Michael W. Patterson is the CEO and chairman of Battle Motors, an Ohio manufacturer of electric and alternative-fuel heavy trucks — refuse trucks, snowplows, and other vocational vehicles built for municipal and commercial fleets. In 2023, Battle went looking for growth capital and arranged a $112.5 million convertible-debt offering with two outside institutional investors, the kind of deal that depends heavily on convincing sophisticated buyers the company's momentum is real.
 
 According to a Securities and Exchange Commission complaint filed July 10, 2026 in the U.S. District Court for the Northern District of Ohio, the momentum Battle and Patterson described to those investors wasn't real, or at least not nearly to the extent claimed. The company represented that it had already booked 115 purchase orders for electric vehicles worth roughly $30 million, all within a three-month window — when, the SEC says, Battle's actual firm orders at the time covered only eight vehicles, worth around $2 million. Battle and Patterson also told investors the company had a dealer network of 180 dealers across 320 locations; the SEC alleges the real network was less than a third that size, at 47 dealers across 156 locations. Both figures went directly to the two things investors in a young manufacturer care most about — proven demand and distribution reach — and both, according to the SEC, were substantially inflated at the moment investors were deciding whether to put in $112.5 million.
@@ -6433,6 +6445,10 @@ NotoriousGM.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
     sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-21245',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Chicago Skyline at Dusk.jpg?width=1200',
+    coverImageCredit: 'Photo: Matthew T Rader / Wikimedia Commons (CC BY-SA 4.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Gregory Bell ran Lancelot Investment Management out of the Chicago area, marketing a family of hedge funds to hundreds of institutional and individual investors as a diversified way to earn steady returns. Between 2002 and 2008, Lancelot's funds raised more than $2.62 billion. Rather than spreading that money across a genuinely diversified portfolio, Bell funneled the overwhelming majority of it — roughly $1.5 billion of about $1.8 billion in fund assets — into promissory notes issued by Petters Company Inc., the merchandise-financing arm of Minnesota businessman Thomas Petters. Petters told lenders like Lancelot that the notes funded purchases of consumer electronics later resold at a markup to big-box retailers; in reality, as federal prosecutors later proved, the underlying purchase orders were almost entirely fictitious, and Petters was running one of the largest Ponzi schemes in U.S. history behind them.
 
 Bell was not simply an unwitting middleman. According to the SEC's complaint, when Petters's scheme began to strain under its own weight, Bell participated in "round-trip" transactions with Petters's company: money wired out from Lancelot to Petters Company Inc. was immediately wired back, then represented to Lancelot's own investors as a legitimate note payment — concealing that Petters actually owed Lancelot's funds more than $130 million he had no way to pay. In the final months before the scheme collapsed, Bell and Lancelot withdrew more than $40 million in management and incentive fees from the funds, even as the notes underneath them were becoming worthless.
@@ -6452,6 +6468,10 @@ NotoriousGM.push(
     // Note: this case is still an active, unresolved SEC civil action as of this
     // writing, with no criminal charges filed — described with that hedge below.
     sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26301',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/NYSE facade.jpg?width=1200',
+    coverImageCredit: 'Photo: Ryan Schwark / Wikimedia Commons (CC0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Kenneth W. Alexander II, of the Dallas-Fort Worth area, controlled a trust called Vanguard Holdings Group Irrevocable Trust (VHG) that he and a second Texan, Robert D. Welsh, held out to investors as a highly profitable international bond-trading operation with billions of dollars in assets. According to a civil fraud complaint the Securities and Exchange Commission filed in April 2025, that description was fiction: the SEC alleges VHG had no material source of revenue at all, and that the "returns" investors received were simply money taken from other investors.
 
 Between roughly May 2021 and February 2024, the SEC says, Alexander and Welsh promised investors 12 guaranteed monthly payments of 3% to 6%, with their full principal returned after 14 months — terms marketed with the specific, confident language of a real fixed-income product rather than the vague promises typical of a scam. To make the pitch even more reassuring, the complaint alleges, the men offered investors supposed "pay order" protection instruments meant to convince them their principal was shielded from loss, on top of guaranteed monthly income. A third defendant, Caedrynn E. Conner, allegedly played a critical role in scaling the operation: prosecutors say he funneled more than $46 million into VHG through a separate entity he controlled, Benchmark Capital Holdings Irrevocable Trust, helping the scheme reach a total of at least $91 million raised from more than 200 investors before it collapsed.
