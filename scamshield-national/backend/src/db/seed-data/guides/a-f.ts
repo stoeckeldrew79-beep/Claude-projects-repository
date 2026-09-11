@@ -7303,6 +7303,10 @@ If your child uses Character.AI, Replika, or any similar AI companion app, treat
     slug: "atlanta-romance-scam-money-laundering-2026-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "atlanta-romance-scam-money-laundering-2026"],
+    // representative photo — replace with an exact match if found
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Downtown_Atlanta_skyline,_Georgia_Tech.jpg?width=1200",
+    coverImageCredit: "Photo: JJonahJackalope (CC BY-SA 4.0) — downtown Atlanta, where Adesayo laundered money stolen from romance-scam victims",
+    coverImagePosition: 50,
     sourceUrl: "https://www.secretservice.gov/newsroom/releases/2026/08/atlanta-man-convicted-laundering-over-27-million-stolen-victims-online",
     body: `On August 8, 2026, a federal jury in Atlanta convicted Babajide Adesayo, 41, of Douglasville, Georgia, on all 18 counts he faced after an eight-day trial — two counts of conspiracy to commit money laundering and sixteen counts of transactional money laundering. Adesayo wasn't the person sweet-talking victims online; he was something arguably just as essential to the scheme's success and far less visible: the domestic link in a chain that moved stolen money out of the country before victims or their banks could catch up to it.
 
