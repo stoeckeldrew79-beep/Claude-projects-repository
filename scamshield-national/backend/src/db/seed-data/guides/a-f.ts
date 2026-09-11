@@ -7099,6 +7099,10 @@ Anyone unsure whether they're part of this settlement can check directly at the 
     slug: 'american-vehicle-protection-ftc-refund-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'american-vehicle-protection-settlement'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Auto_Repair_shop.jpg?width=1200',
+    coverImageCredit: 'Photo: Jorge Royan (CC BY-SA 3.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.ftc.gov/enforcement/refunds/american-vehicle-protection-refunds',
     body: `Extended car warranty robocalls have been one of the single most-complained-about categories of unwanted call to the FTC's Do Not Call registry for years, and in February 2022 the agency put a name and a dollar figure to one of the operations behind them. The FTC sued American Vehicle Protection Corp. and a network of related companies and individuals in federal court, alleging the group had called hundreds of thousands of consumers nationwide with illegal, deceptive telemarketing pitches for expensive "extended automobile warranties" — and had taken in more than $6 million from consumers over the preceding four years doing it. The case has continued paying refunds back out well into 2026, with the FTC mailing another 9,074 checks totaling more than $186,000 as recently as June of that year.
 
