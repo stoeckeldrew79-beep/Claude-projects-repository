@@ -5897,3 +5897,16 @@ UsGM.push({
     state: 'MS',
 });
 
+UsGM.push({
+    name: 'Junction City, Kansas Caretaker Collector Coin Theft (Amanda Rutherford)',
+    slug: 'kansas-junction-city-caretaker-collector-coin-theft',
+    description: `Amanda Rutherford, 46, of Junction City, Kansas, lived on the property of an elderly married couple in their eighties and told others she served as their caretaker. In 2022, the Dickinson County Sheriff's Office learned that firearms and more than $400,000 worth of collector coins had gone missing from the couple's farmhouse. The case sat unsolved until early 2024, when investigators got a tip that Rutherford had sold gold and silver coins to a jewelry store in Clay County, Missouri, receiving checks totaling $100,000. After confirming the sale, deputies served a search warrant on her vehicle just after she cashed those checks, recovering newly purchased merchandise, bundled cash, and more of the couple's coins. Court records showed Rutherford had also sold coins to at least three additional pawn shops between October 2023 and March 2024; she claimed the victims had authorized the sales and agreed to split the proceeds, which they denied. Rutherford was convicted of interstate transportation of stolen property, and U.S. District Judge Greg Kays sentenced her to six years in federal prison followed by three years of supervised release, ordering $165,381.59 in restitution to the elderly couple. The case illustrates how an informal, unlicensed caregiving arrangement — without a background check, a written agreement, or anyone else keeping an eye on a homebound couple's property — can give a trusted-seeming helper years of unsupervised access to valuables; families relying on an informal caretaker for an aging relative are advised to inventory and periodically check high-value items like coin or gun collections, and to loop in a separate relative or friend who isn't dependent on the caretaker for a second set of eyes.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'medium',
+    sources: ['U.S. Attorney\'s Office for the Western District of Missouri', 'Dickinson County, Kansas Sheriff\'s Office', 'KCTV5'],
+    sourceUrl: 'https://www.justice.gov/usao-wdmo/pr/kansas-woman-sentenced-stealing-elderly-victims',
+    country: 'US',
+    state: 'KS',
+    isHistorical: true,
+    firstRecorded: '2022-01-01',
+});
