@@ -7472,3 +7472,22 @@ The civil case did not end the matter. Federal prosecutors separately charged Gi
 Giovannetti's case is a reminder that a doctored account statement is one of the simplest and most durable tools in a fraudster's kit: a pooled trading scheme lets an operator show victims whatever number keeps them from asking to see the actual brokerage account, and a familiar, real market like S&P 500 futures makes the invented profits sound plausible precisely because the underlying instrument is one investors have actually heard of. Anyone asked to pool money into a trading account they can't independently verify — through a broker-dealer's own statements, not numbers the fund manager types up personally — is being asked to trust a story rather than see the trade.`,
   },
 );
+
+NotoriousAF.push(
+  {
+    title: 'Abraxas Discala and the $300 Million CodeSmart Pump-and-Dump',
+    slug: 'abraxas-discala-codesmart-pump-and-dump',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://www.justice.gov/usao-edny/pr/former-finance-executive-sentenced-138-months-prison-orchestrating-massive-market',
+    body: `Abraxas "A.J." Discala ran OmniView Capital Advisors LLC, a small finance firm that gave him a foothold among microcap companies looking for capital — and, prosecutors said, a platform for one of the largest stock-manipulation schemes brought by federal authorities in years. Working with a rotating circle of brokers, executives, and a stock promoter, Discala targeted thinly traded penny stocks that could be moved with a relatively small amount of coordinated buying, then cashed out once the price had climbed.
+
+His clearest target was CodeSmart Holdings Inc., a company that went public through a reverse merger in May 2013. Discala and his co-conspirators acquired roughly 3 million restricted CodeSmart shares and improperly sold them into the market as though the trading restriction didn't apply, flooding public trading with stock that wasn't supposed to be freely tradable yet. Two registered brokers, Matthew Bell and Craig Josephberg, funneled their own brokerage clients' money — in some cases retirement savings — into CodeSmart purchases, while a fifth conspirator, Ira Shapiro, put out press releases touting the company that prosecutors said were materially misleading. During the first pump, between May and August 2013, CodeSmart's share price rose from $1.77 to a high of $6.94 before crashing back to $2.19 once the group dumped its position — the defining rhythm of a pump-and-dump, repeated on this and three other public companies to build a scheme prosecutors valued at roughly $300 million in inflated market capitalization.
+
+The most damning detail to emerge at trial was what Bell and Josephberg were doing in their own accounts at the very moment they were recommending CodeSmart to customers: during the first pump-and-dump alone, Discala and his co-conspirators sold approximately 800,000 CodeSmart shares in their personal accounts at essentially the same time Bell and Josephberg were buying a nearly identical quantity in their clients' accounts — brokers unloading a stock into the very customers who trusted them to act in those customers' interest. Investor losses in CodeSmart alone totaled at least $50 million.
+
+A federal jury convicted Discala in May 2018 of securities and wire fraud conspiracy, securities fraud, and wire fraud, and in December 2021 he was sentenced to 138 months — eleven and a half years — in federal prison, along with forfeiture of nearly $2.5 million. Josephberg pleaded guilty in March 2018 and was later sentenced to 36 months and ordered to pay more than $16 million in restitution; Bell pleaded guilty as well, and Shapiro and Wexler faced their own charges in the same indictment.
+
+The CodeSmart case is a reminder that a pump-and-dump doesn't require anonymous internet chat rooms or offshore shell companies to work — it can run through licensed, regulated stockbrokers who are legally obligated to act in their clients' interest, quietly selling the very same stock they're steering client money into, confident that the trade confirmations their customers receive will never reveal what's happening in the broker's own account at the same time.`,
+  },
+);
