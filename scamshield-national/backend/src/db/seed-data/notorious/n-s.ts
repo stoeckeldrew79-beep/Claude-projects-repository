@@ -5092,6 +5092,9 @@ NotoriousNS.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
     sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-22138',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Koss_PortaPro.jpg?width=1200',
+    coverImageCredit: 'Photo: Malcohol, CC BY-SA 3.0, via Wikimedia Commons — a Koss PortaPro, a product of Koss Corporation, the company Sachdeva embezzled from',
     body: `Sujata "Sue" Sachdeva was Koss Corporation's vice president of finance and principal accounting officer — the executive in charge of the Milwaukee headphone maker's books — a position of trust that put her in direct control of the company's wire transfers with almost no one checking her work. According to the SEC, she used that access across fiscal years 2005 through 2009 to steal more than $30 million from the company, funding a lifestyle of furs, designer clothing, and jewelry that eventually filled a storage unit and consumed a house.
 
 The mechanics were almost embarrassingly simple for a fraud of its size. Sachdeva initiated and authorized wire transfers totaling roughly $16.3 million directly from Koss's bank accounts to her personal creditors, and separately arranged for cashier's checks worth about $15.5 million made out to credit card companies and other payees to cover her spending. In fiscal 2009 alone, the SEC said, she siphoned off approximately $8.5 million — a startling fraction of the $41.7 million in sales Koss reported that year. She didn't work alone: senior accountant Julie Mulvaney helped falsify the financial records and account reconciliations needed to keep the missing millions from ever showing up as missing.
