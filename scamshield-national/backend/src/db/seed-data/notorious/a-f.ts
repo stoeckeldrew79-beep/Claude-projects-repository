@@ -6866,3 +6866,20 @@ Cleggett pleaded guilty in December 2024 to two counts of wire fraud conspiracy,
 Cleggett's case shows how a single legitimate-sounding business — a sober home network genuinely housing real clients in addiction recovery — can also double as the funding source and cover story for entirely unrelated frauds against a family trust, a state energy program, mortgage lenders, and a federal disaster-relief fund, all running at the same time, each one surfacing only because investigators examining one scheme kept finding the next.`,
   },
 );
+NotoriousAF.push(
+  {
+    title: 'Julius Csurgo and the Swiss Shell Company Behind a $35 Million Pump-and-Dump Ring',
+    slug: 'julius-csurgo-blacklight-pump-and-dump-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-sdny/pr/international-stock-manipulator-sentenced-27-months',
+    // no verified rights-cleared photo found yet — see NotoriousCoverPhotos
+    body: `Julius Csurgo, a 71-year-old dual citizen of Canada and Hungary living in Toronto, spent years quietly running one of the oldest tricks in securities fraud at a scale that eventually drew in nine other defendants scattered across six countries. According to federal prosecutors in the Southern District of New York, Csurgo used an entity he controlled, Antevorta Capital Partners, Ltd., to gain secret controlling stakes in thinly traded "penny stocks," then hid his ownership by parceling his shares out to a network of nominee entities through a Swiss corporation called Blacklight, S.A. — obscuring, from regulators and ordinary investors alike, who was actually calling the shots behind the stock.
+
+With his real ownership concealed, Csurgo and his co-conspirators funded promotional campaigns touting the companies to retail investors, talking up their prospects without ever disclosing that the people doing the touting already controlled large blocks of stock and intended to sell into whatever buying interest the hype created. Prosecutors say the conspiracy, which also involved a co-defendant named Anthony Korculanic, ran pump-and-dump schemes across at least 19 U.S.-based issuers, generating roughly $35 million in illicit proceeds as artificially inflated share prices let Csurgo's network cash out before the stocks collapsed back to their real value. The scheme was part of a broader pattern federal prosecutors described when they unsealed indictments in April 2022 charging ten defendants — residents of Canada, the United Kingdom, Bulgaria, Spain, Monaco, Turkey, and the Bahamas — in a series of interlocking international stock-manipulation rings, with the SEC separately describing a related web of penny-stock schemes spanning three continents and roughly $194 million in fraudulent trading.
+
+Csurgo pleaded guilty on May 27, 2026, to securities fraud in connection with the 19-issuer scheme. On September 4, 2026, U.S. District Judge Ronnie Abrams sentenced him to 27 months in federal prison, to be followed by one year of supervised release, and ordered him to forfeit approximately $9.6 million in proceeds traced to the fraud. Korculanic was separately sentenced in the same court to 20 months for his role in the same conspiracy.
+
+Csurgo's case is a reminder that a pump-and-dump doesn't require a boiler room full of cold-callers anymore — it requires hidden ownership, a nominee structure sophisticated enough to survive a first glance from a compliance officer, and a promotional campaign convincing enough that retail investors never think to ask who actually controls the float they're buying into. Running that structure through a Swiss corporation and nominees on multiple continents bought Csurgo years of operation before the case that finally caught him needed ten defendants and three separate indictments to fully describe it.`,
+  },
+);
