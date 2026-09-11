@@ -2522,3 +2522,20 @@ Taneja pleaded guilty in November 2008 in the U.S. District Court for the Easter
 Taneja's case is a reminder that affinity and fraud aren't opposites — they're frequently the same mechanism. A lender or adviser who is already a trusted, visible member of a close community starts every transaction with a credibility a stranger would have to earn, and that head start is exactly what let a mortgage broker quietly sell the same loan to more than one buyer for years before four separate financial institutions ever compared notes.`,
   },
 );
+
+NotoriousTZ.push(
+  {
+    title: 'William Sadleir: The Fake Ad Executive Who Helped Con a $75 Million Hollywood Investment Fund',
+    slug: 'william-sadleir-aviron-pictures-blackrock-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-sdny/pr/hollywood-executive-and-former-white-house-staffer-sentenced-six-years-prison',
+    body: `William Sadleir founded and ran Aviron Pictures, an independent film production and distribution company whose releases included "Kidnap," "A Private War," and "Serenity." To finance the business, Aviron secured investment from a BlackRock-managed fund, the BlackRock Multi-Sector Income Trust, which ultimately put roughly $75 million into the company — money meant to fund Aviron's film slate and, specifically, its advertising and marketing spend.
+
+Prosecutors said Sadleir misappropriated more than $25 million of that investment for his own use, including buying a $14 million Beverly Hills mansion, by telling BlackRock the money was going toward "prepaid media credits" — advance purchases of advertising inventory — that didn't actually exist as represented. To keep the fund from questioning where the money had gone, Sadleir invented a fictitious advertising executive named "Amanda Stevens" and impersonated her in email correspondence with BlackRock. Separately, he forged a BlackRock fund manager's signature to sell off more than $3 million in assets that were supposed to remain pledged as collateral securing the fund's loans to Aviron.
+
+Sadleir pleaded guilty in January 2022 to two counts of wire fraud. U.S. District Judge Paul A. Engelmayer sentenced him in the Southern District of New York that September to six years in federal prison, three years of supervised release, and $31,597,000 in forfeiture and restitution. In a separate case, Sadleir was also convicted for fraudulently obtaining $1.7 million in Paycheck Protection Program loans for Aviron entities in 2020 — applying for pandemic relief funds for a business he was actively defrauding into insolvency — and was sentenced to an additional 41 months and ordered to pay $282,566 in restitution on those charges.
+
+Sadleir's fraud stands out for going a step beyond falsifying his own numbers: he manufactured an entire fictitious third party, complete with a name and an email address, to make an investor's questions about missing money feel answered rather than raise the questions the investor should have kept asking. It's a reminder that verifying a counterparty actually exists is as important as verifying the figures in an account statement.`,
+  },
+);
