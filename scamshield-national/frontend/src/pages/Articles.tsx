@@ -4,6 +4,7 @@ import { useArticles } from '../hooks/useArticles';
 import type { Article } from '../types';
 import { useDocumentMeta } from '../hooks/useDocumentMeta';
 import { NotoriousCoverArt } from '../components/NotoriousCoverArt';
+import { CoverImage } from '../components/CoverImage';
 import { BlurFade } from '../components/magicui/blur-fade';
 
 function excerpt(text: string, length = 160): string {
@@ -129,11 +130,12 @@ export default function Articles() {
             >
               <div className="h-40 sm:h-48 overflow-hidden">
                 {article.cover_image ? (
-                  <img
+                  <CoverImage
                     src={article.cover_image}
                     alt={article.title}
+                    slug={article.slug}
+                    position={article.cover_image_position ?? 50}
                     className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
-                    style={{ objectPosition: `50% ${article.cover_image_position ?? 50}%` }}
                   />
                 ) : (
                   <NotoriousCoverArt slug={article.slug} className="h-full transition-transform duration-500 group-hover:scale-105" />

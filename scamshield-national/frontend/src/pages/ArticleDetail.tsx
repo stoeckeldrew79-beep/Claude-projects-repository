@@ -2,6 +2,7 @@ import { Link, useParams } from 'react-router-dom';
 import { useArticle } from '../hooks/useArticles';
 import { useDocumentMeta } from '../hooks/useDocumentMeta';
 import { NotoriousCoverArt } from '../components/NotoriousCoverArt';
+import { CoverImage } from '../components/CoverImage';
 
 // Strips the handful of markdown/HTML-ish characters a plain-text body
 // might carry, just enough for a clean <meta description> excerpt.
@@ -34,11 +35,13 @@ export default function ArticleDetail() {
       {article.author && <p className="text-sm text-slate-500 mt-1">By {article.author}</p>}
       {article.cover_image ? (
         <div className="mt-6">
-          <img
+          <CoverImage
             src={article.cover_image}
             alt={article.title}
+            slug={article.slug}
+            position={article.cover_image_position}
             className="rounded-lg w-full h-56 object-cover"
-            style={{ objectPosition: `50% ${article.cover_image_position}%` }}
+            priority
           />
           {article.cover_image_credit && (
             <p className="mt-1 text-xs text-slate-400 text-right">{article.cover_image_credit}</p>

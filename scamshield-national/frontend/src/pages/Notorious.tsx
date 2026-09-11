@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { useArticles } from '../hooks/useArticles';
 import { useDocumentMeta } from '../hooks/useDocumentMeta';
 import { NotoriousCoverArt } from '../components/NotoriousCoverArt';
+import { CoverImage } from '../components/CoverImage';
 import { BlurFade } from '../components/magicui/blur-fade';
 
 function excerpt(text: string, length = 180): string {
@@ -52,11 +53,12 @@ export default function Notorious() {
             >
               <div className="h-56 overflow-hidden">
                 {article.cover_image ? (
-                  <img
+                  <CoverImage
                     src={article.cover_image}
                     alt={article.title}
+                    slug={article.slug}
+                    position={article.cover_image_position}
                     className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
-                    style={{ objectPosition: `50% ${article.cover_image_position}%` }}
                   />
                 ) : (
                   <NotoriousCoverArt slug={article.slug} className="h-full transition-transform duration-500 group-hover:scale-105" />
