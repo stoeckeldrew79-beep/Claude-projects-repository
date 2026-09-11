@@ -5648,3 +5648,17 @@ UsGM.push({
     isHistorical: true,
     firstRecorded: '2026-05-12',
 });
+
+UsGM.push({
+    name: 'Savers "Value Village" Charitable-Donation Deception Settlement',
+    slug: 'minnesota-savers-value-village-charity-donation-deception',
+    description: `Savers, Inc., the for-profit company behind the Value Village thrift-store chain, told Minnesota shoppers and donors that their used clothing and household items were helping the charities Savers partnered with — but Minnesota Attorney General Lori Swanson's office found many consumers believed a third or more of an item's sale price went to charity, when in reality no portion of most sales did, and donations of furniture, jewelry, and televisions in particular generated no payment to charity at all. Swanson sued Savers in Hennepin County District Court in May 2015, alleging the company's marketing and donation-bin signage created a false impression of direct charitable benefit while Savers itself, not the charities, kept the resale proceeds. The case settled the following month: under the June 2015 agreement, Savers paid $1.8 million to compensate its six Minnesota charity partners for fundraising disrupted by the dispute, agreed to register with the Attorney General's office as a professional fundraiser and file its charity contracts for public review, and committed to clearly disclosing in stores and on donation bins that it is a for-profit business along with the actual amount it pays a charity per donation, while stopping the solicitation of goods like furniture and electronics that paid the charity nothing. Value Village and Savers Value Village continue to operate donation-based thrift stores nationwide, and the underlying question — how much of a for-profit thrift retailer's proceeds actually reach the charity whose name is on the donation bin — remains one consumers have to ask directly rather than assume. Anyone donating goods or shopping at a store implying a charitable benefit should ask the retailer what specific dollar amount or percentage goes to its charity partner, since a familiar nonprofit's name on a sign is not proof that a meaningful share of the money actually reaches it.`,
+    categorySlug: 'charity-scams',
+    alertLevel: 'medium',
+    sources: ["Minnesota Attorney General's Office (Lori Swanson)", 'Star Tribune', 'MPR News'],
+    sourceUrl: 'https://www.startribune.com/savers-stores-settles-minnesota-attorney-general-lawsuit-will-modify-donations-practices/309832081',
+    country: 'US',
+    state: 'MN',
+    isHistorical: true,
+    firstRecorded: '2015-06-25',
+});

@@ -7223,3 +7223,20 @@ What eventually made Demara impossible to keep hiding was fame rather than law e
 Demara's story became a bestselling 1960 book by Robert Crichton and a 1961 film starring Tony Curtis, and later inspired television characters from M*A*S*H to The Pretender. He spent his final years working, under his own name, as a chaplain at a hospital in Anaheim, California, counseling patients until his death in 1982 — a legitimate calling, colleagues there said, that he was good at. His case is a reminder that credential fraud does not require forging a diploma or hacking a database; for most of the 20th century, it required only confidence, a good memory, and institutions willing to take a compelling résumé at its word rather than verify it against the people and schools it claimed to come from.`,
   },
 );
+
+NotoriousAF.push(
+  {
+    title: 'Ahmed Abdullahi Ghedi and the Fake St. Paul Meal Site That Billed for 3,000 Children a Day',
+    slug: 'ahmed-abdullahi-ghedi-feeding-our-future-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.fbi.gov/contact-us/field-offices/minneapolis/news/three-defendants-in-feeding-our-future-fraud-scheme-sentenced-to-total-of-155-months-imprisonment',
+    body: `The Feeding Our Future fraud was, in the Justice Department's own description, the largest pandemic-relief fraud scheme ever prosecuted in the United States — a nonprofit "sponsor" organization that funneled federal child-nutrition money to more than 250 purported meal sites across Minnesota, many of them fictitious. Ahmed Abdullahi Ghedi, of Minneapolis, ran one of them.
+
+From 2020 to 2022, Ghedi claimed to operate a child nutrition site in St. Paul, and told the state agency administering the federal reimbursement program that he and his co-conspirators were serving meals to between 2,000 and 3,000 children a day, seven days a week — a volume that, if real, would have made his single site one of the largest child-feeding operations in the state. Prosecutors said the claims were fabricated almost entirely, built on falsified attendance rosters and meal counts submitted through Feeding Our Future rather than any comparable number of actual children fed. In total, Ghedi and his co-conspirators caused a loss of $7.2 million to the federal Child Nutrition Programs through the fraudulent claims his site submitted.
+
+Ghedi pleaded guilty to one count of wire fraud and one count of money laundering. On August 26, 2026, U.S. District Judge Nancy E. Brasel of the District of Minnesota sentenced him to 65 months in federal prison and ordered him to pay $2,862,451 in restitution. He was sentenced the same day as co-defendant Abdihakim Ali Ahmed, who received 54 months and was ordered to pay $2,242,590 in restitution for his own role in the scheme, and a day before co-defendant Ahmed Sharif Omar-Hashim — who went by the alias "Salah Donyale" — received 36 months. Ghedi, Ahmed, and Omar-Hashim were, respectively, the 24th, 25th, and 26th defendants sentenced in connection with the broader Feeding Our Future prosecution, which has by now worked its way through dozens of separate meal-site operators, brokers, and Feeding Our Future employees who approved the fraudulent claims in exchange for kickbacks.
+
+Ghedi's case illustrates how a fraud built on a real, well-intentioned emergency program can be run at street level by dozens of separate, individually prosecutable operators rather than a single mastermind. The organization's founder, Aimee Bock, drew national attention as the face of the scandal, but the $240 million-plus in total losses was assembled site by site, each one submitting its own inflated meal counts to a state agency whose pandemic-era waivers had suspended the routine site visits and income verification that, in normal times, would have caught a claim of 3,000 daily meals at a single unremarkable address well before it reached seven figures.`,
+  },
+);
