@@ -6023,6 +6023,10 @@ NotoriousGM.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/usao-edny/pr/long-island-investment-advisors-convicted-defrauding-clients-out-millions-dollars',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Federal Courthouse Brooklyn.jpg?width=1200',
+    coverImageCredit: 'Photo: Beyond My Ken / Wikimedia Commons (CC BY-SA 4.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Note: Adam and Daniel Kaplan were convicted by a federal jury in November 2025; as of this writing they have not yet been sentenced, and their attorneys have said they maintain their innocence and intend to appeal. A conviction is not final until any appeal is resolved, so the outcome described below reflects the jury's verdict rather than a closed case.
 
 Adam Kaplan and Daniel Kaplan, 36-year-old twin brothers from Great Neck, New York, worked as investment advisers at IHT Wealth Management, an advisory firm with hundreds of clients on Long Island. According to the U.S. Attorney's Office for the Eastern District of New York, from May 2018 through July 2021 the brothers used that position to defraud roughly 100 clients — including elderly and mentally disabled individuals, as well as friends and family members of existing clients — out of more than $10 million.
@@ -6171,6 +6175,10 @@ The theft's starting point is the real lesson: no legitimate security team at Go
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/usao-ndga/pr/reality-tv-star-sentenced-ppp-fraud-and-operating-multimillion-dollar-ponzi-scheme',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Richard Russell Federal Building.jpg?width=1200',
+    coverImageCredit: 'Photo: DukeArcTerex / Wikimedia Commons (CC BY 3.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Maurice Fayne, known to VH1 "Love & Hip Hop: Atlanta" viewers as a cast member and to Georgia prosecutors by his self-given nickname "Arkansas Mo," ran a trucking company called Flame Trucking out of Dacula, Georgia. From 2013 through 2020, prosecutors said, Fayne raised money from more than 20 investors by telling them their funds would go toward operating and growing the trucking business. Instead, he used it to pay his own personal debts and fund what court filings called an "extravagant lifestyle" — on one occasion spending $5 million at an Oklahoma casino — a Ponzi-style arrangement that depended on money from newer participants to keep the appearance of a real, functioning business going.
 
 When the federal Paycheck Protection Program launched in the early weeks of the COVID-19 pandemic to help small businesses keep employees on payroll, Fayne saw another funding source rather than a lifeline for real workers. In April 2020, he applied for a $3.7 million PPP loan for Flame Trucking, falsely claiming the company had 107 employees and average monthly payroll of $1,490,200 — figures prosecutors said were fabricated to qualify for far more money than the business's real payroll could have justified.
@@ -6823,6 +6831,10 @@ NotoriousGM.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/usao-sdca/pr/escondido-resident-sentenced-three-years-prison-selling-11-million-forged-art',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/San Diego, 2016 - 302.jpg?width=1200',
+    coverImageCredit: 'Photo: Another Believer / Wikimedia Commons (CC BY-SA 4.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     // no rights-cleared photo found — sourceUrl above serves as the "read the full story" link
     body: `Richard Hambleton, the "Godfather of Street Art" whose shadowy silhouette paintings once hung alongside work by Jean-Michel Basquiat and Keith Haring, died in 2017 — homeless and largely broke, despite decades of gallery representation. Jason Harrington, of Escondido, California, spent 2018 through 2020 trading on the gap between the artist's fame and his poverty, manufacturing a market in fake Hambletons that the real artist was no longer alive to dispute.
 
