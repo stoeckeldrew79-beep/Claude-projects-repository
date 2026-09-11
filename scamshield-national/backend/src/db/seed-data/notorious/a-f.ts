@@ -5514,6 +5514,10 @@ NotoriousAF.push(
     slug: 'brian-sewell-fake-credentials-investment-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/St_George_Utah_from_east_1.jpg?width=1200',
+    coverImageCredit: 'Photo: Stan Shebs, Wikimedia Commons (CC BY-SA 3.0) — St. George, Utah, in the Washington County area where Brian Garry Sewell operated',
     sourceUrl: 'https://www.justice.gov/usao-ut/pr/southern-utah-man-sentenced-three-years-prison-wire-fraud-cost-investors-millions',
     body: `Brian Garry Sewell, 54, of Washington County in southern Utah, built a reputation as a Bitcoin trader through an outfit he called the American Bitcoin Academy — a reputation prosecutors say rested partly on a résumé he invented. According to the U.S. Attorney's Office for the District of Utah, Sewell told prospective investors he held degrees from Johns Hopkins University and Stanford University, credentials that would have made him one of the more academically decorated crypto traders around. His actual highest level of education, prosecutors say, was a GED.
 
@@ -5533,6 +5537,10 @@ NotoriousAF.push(
     slug: 'daniel-chu-tricolor-holdings-collateral-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Dallas_Texas_skyline_overlooking_the_Trinity_River_in_spring_2024.png?width=1200',
+    coverImageCredit: 'Photo: IcedCowboyCoffee, Wikimedia Commons (CC0) — Dallas, Texas, where Daniel Chu built Tricolor Holdings',
     sourceUrl: 'https://www.sec.gov/newsroom/press-releases/2026-77-sec-charges-former-executives-fraud-connection-19-billion-collapse-subprime-auto-lender-tricolor',
     body: `Note: this profile covers two different tracks of the same case. Jerome Kollar and Ameryn Seibold have pleaded guilty to criminal fraud charges and admitted their roles in the conduct described below. Daniel Chu and David Goodgame, by contrast, have been criminally indicted and separately named in a civil complaint by the Securities and Exchange Commission — allegations only, which neither man has been found guilty or liable of in court as of this writing, and both are presumed innocent unless and until proven otherwise.
 
@@ -5554,6 +5562,10 @@ NotoriousAF.push(
     slug: 'eric-munson-adit-ventures-pre-ipo-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Federal_Hall_August_2017_01.jpg?width=1200',
+    coverImageCredit: "Photo: Arild Vågen, Wikimedia Commons (CC BY-SA 4.0) — Federal Hall on Wall Street, near Eric Munson's New York investment adviser business",
     sourceUrl: 'https://www.sec.gov/newsroom/press-releases/2026-73-sec-charges-private-fund-adviser-adit-ventures-management-its-ceo-affiliated-general-partners',
     body: `Note: this is a civil SEC enforcement action, resolved by consent rather than by trial. Eric Munson and the Adit Ventures entities have consented to a judgment, subject to court approval, without admitting or denying the SEC's allegations — a common resolution that settles the case but does not amount to a court finding that the underlying conduct occurred as described.
 
@@ -5573,6 +5585,10 @@ NotoriousAF.push(
     slug: "daniel-damato-counterfeit-sports-memorabilia-fraud",
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Oracle_Park_from_China_Basin_Park.jpg?width=1200',
+    coverImageCredit: "Photo: Lexi Mattick, Wikimedia Commons (CC BY 4.0) — Oracle Park in San Francisco, home of the Giants, Willie Mays's team",
     sourceUrl: 'https://www.justice.gov/usao-ndca/pr/concord-man-who-sold-fraudulent-sports-memorabilia-pleads-guilty-wire-fraud',
     body: `Daniel Damato, 40, of Concord, California, worked as a sports memorabilia dealer, buying and selling the kind of game-used artifacts that let collectors own a physical piece of a favorite player's career — items whose value rests almost entirely on provenance, since a bat or jersey is worth vastly more if it can be tied to a specific legendary player and moment than if it's simply old sports equipment. Between 2022 and 2024, according to the U.S. Attorney's Office for the Northern District of California, Damato manufactured that provenance rather than verifying it, doctoring items and inventing false histories to make ordinary pieces look like museum-grade collectibles.
 

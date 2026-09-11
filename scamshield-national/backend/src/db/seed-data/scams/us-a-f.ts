@@ -6628,3 +6628,14 @@ UsAF.push({
     sourceUrl: 'https://topclassactions.com/lawsuit-settlements/money/loans/carecredit-loans-with-high-interest-rates-offered-at-vulnerable-moments-class-action-claims/',
     country: 'US',
 });
+
+UsAF.push({
+    name: 'Cleo AI Cash Advance App Deceptive Subscription Scheme',
+    slug: 'cleo-ai-cash-advance-subscription-deception',
+    description: `Cleo AI, Inc. operates a personal-finance chatbot app that markets itself as a fast, friendly way to get a cash advance between paychecks, but the Federal Trade Commission alleged in a complaint filed March 27, 2025 in the U.S. District Court for the Southern District of New York that Cleo's core pitches were false. The FTC said Cleo's ads promised consumers access to "hundreds of dollars" in advances, but almost no one actually received anything close to the advertised amounts — many were approved for far smaller sums than the marketing implied. Cleo also advertised "same-day" or "instant" cash, but the complaint alleges consumers who paid an extra expedite fee often still waited up to 24 hours, and one consumer quoted in the FTC's filing said: "I just subscribed and paid for IMMEDIATE 35 dollars. Now it says up to 24 hrs." Beyond the advance itself, Cleo's app enrolled users in a recurring monthly subscription, and the FTC alleges the company made canceling it deliberately difficult: consumers said they were charged the fee again and again despite repeated cancellation requests, and in some cases were told they could not cancel until they had first repaid any outstanding cash advance — trapping people who needed the money most in a cycle of continued billing. One consumer told the FTC, "I need my money right now to pay my rent...I would never have used Cleo if I thought I'd be in this situation." Cleo agreed to a settlement, announced by the FTC, requiring it to pay $17 million for consumer refunds, stop misrepresenting advance amounts, speed, and fees, get consumers' express informed consent before charging a subscription, and provide a simple way to cancel. The case is a reminder that "cash advance" apps are still consumer debt products: before signing up for one, check the actual advance amount and any expedite fee against what the ad promises, read the cancellation terms before the first charge hits, and never accept "you have to pay off your balance first" as a legitimate reason to be denied a cancellation you are entitled to under the app's own terms.`,
+    categorySlug: 'subscription-traps',
+    alertLevel: 'medium',
+    sources: ['Federal Trade Commission (FTC)'],
+    sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2025/03/cash-advance-company-cleo-ai-agrees-pay-17-million-result-ftc-lawsuit-charging-it-deceives-consumers',
+    country: 'US',
+});

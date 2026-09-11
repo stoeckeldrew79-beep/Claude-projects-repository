@@ -5313,3 +5313,15 @@ UsGM.push({
     country: 'US',
     state: 'MO',
 });
+
+UsGM.push({
+    name: 'Global Circulation Inc. Phantom Debt Collection Scheme (Kenneth Redon III)',
+    slug: 'global-circulation-phantom-debt-collector-scam',
+    description: `Global Circulation, Inc. (GCI), an Atlanta, Georgia debt collector run by owner Kenneth Redon III, operated under a rotating set of company names — including Consumer Impact Recovery, Total Consumer Solutions, and Total Mediation Solutions — to contact consumers about debts that, according to the Federal Trade Commission, either did not exist or were legally uncollectible. The FTC's complaint, filed in the U.S. District Court for the Northern District of Georgia, alleged that GCI and Redon threatened targets with arrest, wage garnishment, and lawsuits to pressure payment, harassed victims' family members, and falsely claimed affiliation with specific real lenders to make the debts sound legitimate — a violation of the FTC's Impersonation Rule — while also failing to identify themselves as debt collectors as required under the Fair Debt Collection Practices Act, and improperly obtaining consumers' financial account information in violation of the Gramm-Leach-Bliley Act. The FTC says the operation collected more than $7.6 million from consumers this way. A federal judge granted the FTC's request for a temporary restraining order in November 2024, halting GCI's operations and ordering its assets turned over to a court-appointed receiver. On May 1, 2025, the FTC announced an amended complaint and a proposed order permanently banning GCI and Redon from the debt collection and debt brokering business entirely, along with a monetary judgment of $9,684,338 — largely suspended based on Redon's demonstrated inability to pay, but immediately due in full if he is later found to have misrepresented his finances to the court. FTC Bureau of Consumer Protection Director Christopher Mufarrige said, "Using intimidation and threats of jail time to coerce consumers into paying debts that they don't owe is beyond the pale." No one can be jailed in the United States simply for owing an unpaid consumer debt, and a real debt collector is legally required to identify itself as a debt collector and, on request, provide written validation of a debt's amount and origin. Anyone contacted by a collector who refuses to provide that validation, threatens arrest, or calls family members and coworkers about the debt should stop engaging, ask for everything in writing, and report the contact to the FTC at reportfraud.ftc.gov and their state attorney general's consumer protection office.`,
+    categorySlug: 'legal-debt-collection',
+    alertLevel: 'high',
+    sources: ['Federal Trade Commission (FTC)'],
+    sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2025/05/ftc-ban-debt-collector-who-allegedly-coerced-consumers-paying-debt-they-didnt-owe',
+    country: 'US',
+    state: 'GA',
+});
