@@ -14000,3 +14000,16 @@ International.push(
     country: 'MO',
   },
 );
+
+International.push(
+  {
+    name: 'Cheikh Ridha Real Estate Ponzi Scheme',
+    slug: 'mauritania-cheikh-ridha-real-estate-ponzi-scheme',
+    description: `Mauritanian religious scholar Cheikh Ridha Mohamed Nagi Said, nicknamed the "Mauritanian Madoff" in local press, was identified by Cridem, Le Calame, and Le360 Afrique as the figure behind what Mauritanian media described as the country's largest fraud, a real-estate-based Ponzi scheme run out of Nouakchott starting around 2012. Trading on his religious standing, Cheikh Ridha and five brokers (samsaras), mostly relatives holding permanent powers of attorney, offered to buy victims' land, homes, cars, and other property at prices well above market value, paying only a small cash deposit upfront and promising the remaining balance later on credit. Before that balance ever came due, the same property was quietly resold in full to a new buyer at ordinary market rates, and the proceeds funded the deposits offered to the next round of sellers — a Ponzi structure that required an ever-growing pool of victims to keep paying out. Reporting put the number of affected families at roughly 8,900 and the value of lost property and assets at approximately 70 billion old Mauritanian ouguiya (roughly $200 million). Victims, many of them women, formed a collective and held near-daily protests outside the presidency and courts, while Mauritanian courts for years declined to accept formal complaints and police repeatedly dispersed the demonstrations, fueling a widespread belief that Cheikh Ridha was protected by figures close to the government of then-president Mohamed Ould Abdel Aziz. He was finally brought in for questioning by Mauritania's anti-corruption police in November 2020; reporting at the time noted no conviction had followed.`,
+    categorySlug: 'ponzi-pyramid-schemes',
+    alertLevel: 'high',
+    sources: ['Cridem', 'Le360 Afrique'],
+    sourceUrl: 'https://cridem.org/C_Info.php?article=720821',
+    country: 'MR',
+  },
+);
