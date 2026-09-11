@@ -3466,6 +3466,10 @@ Skowron's case is a reminder that insider trading in the hedge fund world doesn'
     slug: 'roman-shpakov-qbf-russia-investment-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Тверской_суд_1.jpg?width=1200',
+    coverImageCredit: 'AlexChirkin, CC0, via Wikimedia Commons',
+    coverImagePosition: 50,
     sourceUrl: 'https://en.wikipedia.org/wiki/QBF_fraud_case',
     body: `Roman Valerievich Shpakov founded QB Finance, later rebranded QBF, in Moscow in 2008, and by 2009 had secured the licenses that let it operate as a registered securities broker and portfolio manager under Russian financial law. The wrapper of legitimacy mattered: QBF didn't pitch itself as an obvious pyramid scheme but as a professional asset-management firm, promising clients annual returns of 15 to 20 percent from diversified trading — high enough to be attractive, but not so implausible that it triggered the skepticism a "double your money" pitch would have.
 
