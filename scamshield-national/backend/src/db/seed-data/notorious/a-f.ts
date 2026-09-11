@@ -7859,3 +7859,22 @@ Vagnozzi settled the SEC's Par Funding case in February 2022, agreeing to pay $5
 Vagnozzi's case is a reminder that a familiar voice on the radio, or a free steak dinner at a nice restaurant, isn't a credential — it's a marketing budget. The trust his audience extended to him was built through repetition and hospitality, not licensing or disclosure, and it was enough to move hundreds of millions of dollars into a lender whose finances, and whose co-founder's criminal past, his own listeners were never told about.`,
   },
 );
+
+NotoriousAF.push(
+  {
+    title: 'Felix Clark and the "Gold Held in Ghana" Con That Targeted Widowed, Elderly Daters',
+    slug: 'felix-clark-ghana-gold-romance-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-nj/pr/texas-man-and-his-romantic-partner-sentenced-prison-their-roles-harming-elderly-victims',
+    body: `Felix Clark, 37, of Royse City, Texas — who also went by the aliases "Joseph Moore" and "Stanley Smith" — didn't create the fake romantic personas that anchored this scheme. That work was done by co-conspirators based in Ghana, who trawled online dating sites using invented identities to strike up relationships with mostly elderly victims, several of them recently widowed, sometimes going so far as to talk about marriage before ever asking for money. Clark's role was what made the fraud collectible: receiving the wire transfers victims sent and moving the money out of the country before anyone could claw it back.
+
+The pitch behind the romance was a version of an old advance-fee con dressed in a modern currency: victims were told that a large quantity of gold was being held for them in Ghana, and that a tax or release fee had to be paid before it could be shipped or sold. Believing they were clearing the last hurdle to a fortune — or helping the partner they'd been messaging for months — victims wired money to accounts Clark controlled, sometimes under still more fake names, and Clark then routed it overseas to his Ghana-based co-conspirators. His romantic partner, Esther Amppiaw, 34, also of Royse City, ran an unlicensed money-transmitting business between January 2022 and June 2023 that moved a further $317,290 in fraud proceeds.
+
+The scheme prosecutors documented ran from roughly October 2021 through September 2022, while Clark was living in Delray Beach, Florida; he ultimately admitted responsibility for $501,071 in victim losses. When federal agents executed a search warrant as the investigation closed in, Clark didn't simply stop — he arranged for a falsified death certificate and funeral notice in an attempt to make investigators believe he was no longer alive, an obstruction attempt federal prosecutors cited separately from the underlying fraud counts.
+
+Clark pleaded guilty on May 6, 2025, to conspiracy to commit wire fraud and wire fraud, and was sentenced on January 15, 2026, in the District of New Jersey to 60 months in federal prison and three years of supervised release. Amppiaw pleaded guilty on May 23, 2025, to operating an unlicensed money transmitting business and was sentenced on January 7, 2026, to 18 months in prison and two years of supervised release.
+
+Romance scams run at scale almost always need someone like Clark: a domestic participant willing to receive victims' wire transfers into ordinary-looking U.S. bank accounts and push the money onward, laundering it into a form the overseas operators can actually use. Prosecutors have increasingly targeted these domestic money movers as aggressively as the people writing the fake love letters, on the theory that the scheme collapses without someone on this end of the wire to catch the money.`,
+  },
+);

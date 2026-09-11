@@ -2560,3 +2560,22 @@ The case went to a jury trial rather than a plea, and in December 2024 Pruitt wa
 Pruitt's case is a reminder that the most damaging elder fraud often requires no deception of a bank or a stranger at all — only a legitimate-looking legal document and a relative willing to use it. A victim with dementia may not recognize what's happening to her own accounts, and redirecting the mail is often the only "cover-up" a family-member fraudster needs, since the person best positioned to notice the theft is the one it was designed to keep in the dark.`,
   },
 );
+
+NotoriousTZ.push(
+  {
+    title: 'Theresa Szwast: The Nonprofit CEO Who Skipped Her Own Audits for 17 Years',
+    slug: 'theresa-szwast-niss-nonprofit-embezzlement',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-sdin/pr/former-nonprofit-ceo-heads-federal-prison-33-months-2-million-embezzlement-scheme',
+    body: `Theresa Szwast, of Fishers, Indiana, spent from 2005 to 2022 as chief executive of the National Independent Statistical Service (NISS), an Indianapolis-based nonprofit — a run long enough, and a position trusted enough, that she was left effectively unsupervised over the organization's banking and accounting the entire time.
+
+From September 2005 through May 2022, Szwast used that access to move NISS's money into her own life: transferring organization funds to pay off personal credit card balances and, over the years, writing roughly 219 checks to herself directly from the nonprofit's accounts. She kept the scheme from surfacing in part by not doing what NISS's own governance called for — contracting with an independent certified public accountant to perform the annual audits that might have caught the pattern years earlier — and by giving her board falsified financial statements and audit representations in their place.
+
+The stolen money funded an upgraded personal lifestyle rather than any single dramatic purchase: golf equipment, wine, and travel that included a trip to Hawaii, all on top of an annual salary of roughly $188,000. By the time it was uncovered, Szwast had taken nearly $2.2 million from the nonprofit over 17 years. A separate civil case moved faster than the criminal one: after Szwast failed to properly respond, Marion Superior Court entered a 2024 default judgment awarding NISS roughly $1.3 million in treble damages.
+
+Federal prosecutors originally charged Szwast with 11 counts of wire fraud; she pleaded guilty to one count in May 2025. In December 2025, she was sentenced in the Southern District of Indiana to 33 months in federal prison, two years of supervised release, a $5,000 fine, and restitution of $2,172,679.87.
+
+Szwast's case underscores how much an organization's financial controls can exist only on paper: a nonprofit whose bylaws required annual independent audits went 17 years without anyone actually enforcing that requirement against the one person with the most to lose from it happening, and the missing safeguard, not any particular act of concealment, is what let the theft run as long as it did.`,
+  },
+);

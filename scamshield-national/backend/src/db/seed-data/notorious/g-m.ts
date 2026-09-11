@@ -8023,3 +8023,22 @@ The Hardin County Sheriff's Office opened an investigation in May 2023 after sus
 The dollar amount here is small next to many of the fraud cases on this site, but the harm it measures isn't: a family paid a stranger to care for their bedridden, dying relative, and that stranger spent the money meant for her basic needs at a casino instead — a reminder that vetting a caregiver's background and monitoring account activity matters just as much when the sums involved are modest as when they're in the millions.`,
   },
 );
+
+NotoriousGM.push(
+  {
+    title: 'Marcia Joseph and the Fake Company She Used to Bill a Brooklyn Nonprofit for 17 Years',
+    slug: 'marcia-joseph-brooklyn-nonprofit-fiscal-officer-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-edny/pr/former-fiscal-officer-brooklyn-charity-sentenced-21-months-imprisonment-embezzlement',
+    body: `Marcia Joseph worked as the fiscal officer of a Brooklyn-based nonprofit that provided employment and education services, including work tied to a New York City Department of Education program that placed students living in homeless shelters into job training. That role put her in charge of approving and processing the organization's invoices — control she used, over nearly seventeen years, to steal more than $2.3 million from the charity she was paid to help run.
+
+Joseph's method didn't rely on hacking or forged bank statements; it relied on a company that didn't exist doing work that was never performed. She set up a shell entity under her own control and generated more than 500 fictitious invoices billing the nonprofit for services supposedly delivered under the DOE shelter-based job training program. Because Joseph herself sat in the fiscal officer's seat approving payments, the fake invoices moved through the organization's books largely unquestioned, funneling a total of $2,339,700 to her shell company over the life of the scheme.
+
+The stolen money paid for an ordinary, if expensive, personal life: mortgage payments, credit card bills, car expenses, and luxury shopping, all quietly subsidized by an organization whose actual mission was helping homeless students get into the workforce.
+
+Joseph pleaded guilty to wire fraud in January 2024. In September 2025, U.S. District Judge Eric N. Vitaliano sentenced her in the Eastern District of New York to 21 months in prison and ordered $2.3 million in restitution and forfeiture — a fraud that outlasted nearly two decades of the organization's own financial oversight.
+
+Joseph's case is a plain illustration of why basic vendor-verification controls exist: a nonprofit's board or an independent auditor checking that a paid vendor is a real company doing real work, rather than trusting the same employee who approves the invoices to also be the one who wrote them, is often the only thing standing between a functioning accounts-payable process and a seventeen-year embezzlement.`,
+  },
+);
