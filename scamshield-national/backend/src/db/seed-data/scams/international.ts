@@ -11135,6 +11135,16 @@ International.push(
     sourceUrl: 'https://www.manxradio.com/news/isle-of-man-news/financial-regulator-warns-public-about-fraudulent-website-claiming-isle-of-man-links/',
     country: 'IM',
   },
+  {
+    name: 'Isle of Man Today Impersonation Fake Government Compensation Scam',
+    slug: 'isle-of-man-today-impersonation-fake-government-compensation-scam',
+    description: `Isle of Man Today warned residents in December 2024 about fraudulent Facebook posts that stole its name, branding, and article layout to promote a fake Manx government compensation scheme. The posts used a genuine photograph of Chief Minister Alfred Cannan alongside images of banknotes under a headline inviting readers to "click on your age" — offering different age brackets from 35-44 up to 65+ — to find out what compensation they were supposedly owed from the government. Clicking through led victims to an overseas call centre rather than any genuine Manx government or Isle of Man Today page. The publication's editor said the outlet's "name, branding and imagery have been stolen and is being used to try and fool unsuspecting readers into parting with their money," and noted it was a repeat problem: a similar scam the previous month had used a fabricated interview with the Chief Minister carrying fake Isle of Man Today branding. The posts were reported to Facebook and to the Cyber Security Centre for the Isle of Man, and residents were reminded that Isle of Man Today does not run compensation schemes and that any such offer seen on social media should be treated as fraudulent and reported rather than clicked.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Isle of Man Today', 'Cyber Security Centre for the Isle of Man'],
+    sourceUrl: 'https://www.iomtoday.co.im/news/fresh-warning-as-new-facebook-scam-appears-to-show-connection-to-isle-of-man-today-745349',
+    country: 'IM',
+  },
 );
 
 International.push(
