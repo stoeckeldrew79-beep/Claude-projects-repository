@@ -2892,6 +2892,10 @@ Orrstown Bank is offering affected individuals 24 months of complimentary credit
     slug: `one-medical-seniors-2026-data-breach-guide`,
     author: `ScamShield Editorial`,
     tags: [`guide`, `one-medical-seniors-2026-data-breach`],
+    coverImage: `https://commons.wikimedia.org/wiki/Special:FilePath/Sgah-exterior-tower.jpg?width=1200`,
+    coverImageCredit: `Photo: Adventist HealthCare (CC0)`,
+    coverImagePosition: 50,
+    // representative photo — generic medical clinic exterior, not a One Medical facility; replace with an exact match if found
     sourceUrl: `https://www.hipaajournal.com/one-medical-data-breach/`,
     body: `One Medical, the primary-care provider Amazon acquired in 2023 for close to $4 billion, disclosed in the summer of 2026 that hackers had broken into a third-party file storage system holding archived records for patients of One Medical Seniors — the senior-focused clinics originally built by Iora Health before One Medical acquired that company in 2021. According to the company, unauthorized access to the system occurred between June 8 and June 11, 2026, and was discovered on June 13, at which point One Medical says it immediately secured the system, revoked all user access, and rotated employee credentials. The company has stressed that the exposure was limited to this one legacy storage platform and did not touch its current electronic medical record system or any of its other clinics or services.
 
@@ -2908,6 +2912,10 @@ If you or a family member was ever a patient at One Medical Seniors or its prede
     slug: "pioneer-international-2026-checkout-skimmer-guide",
     author: 'ScamShield Editorial',
     tags: ['guide', 'pioneer-international-2026-data-breach'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Credit_card_terminal.jpg?width=1200',
+    coverImageCredit: 'Photo: Izcool (public domain)',
+    coverImagePosition: 50,
+    // representative photo — generic card payment, evoking the checkout skimmer at issue; replace with an exact match if found
     sourceUrl: 'https://www.mass.gov/doc/2026-1476-pioneer-international-inc/download',
     body: `Pioneer International isn't a name most consumers would recognize, and that's exactly the point of this breach: it's a West Sacramento, California-based distributor that bills itself as the leading supplier of Heine, Keeler, Welch Allyn, and Volk diagnostic instruments — the handheld scopes and screening tools used in eye exams — to ophthalmology and optometry students and practicing clinicians through its online store, pioneerstudent.com. Anyone who ordered exam equipment through that site over several weeks in the summer of 2026 was potentially exposed to a quiet, invisible piece of malicious code sitting on the page where they typed in their card number.
 
@@ -2922,6 +2930,10 @@ This kind of attack is a reminder that a website can look completely normal — 
     slug: `proliance-surgeons-data-breach-settlement-guide`,
     author: `ScamShield Editorial`,
     tags: [`guide`, `proliance-surgeons-data-breach-settlement`],
+    coverImage: `https://commons.wikimedia.org/wiki/Special:FilePath/Rhode_Island_Hospital_APC_building.jpg?width=1200`,
+    coverImageCredit: `Photo: Kenneth C. Zirkel (CC BY-SA 4.0)`,
+    coverImagePosition: 50,
+    // representative photo — generic ambulatory surgical building, not a Proliance Surgeons facility; replace with an exact match if found
     sourceUrl: `https://www.hipaajournal.com/proliance-surgeons-sued-over-ransomware-attack-and-data-breach/`,
     body: `Proliance Surgeons, a Seattle-based surgical group with roughly 100 clinic locations across Washington state, agreed in 2026 to pay $4.45 million to settle class-action litigation over a ransomware attack and data breach that had been quietly unfolding since early 2023. The underlying breach itself is a case study in how slowly a healthcare organization can move even after it knows something is wrong: hackers first gained access to Proliance's network and removed files containing patient data on February 11, 2023, but a third-party forensic investigation didn't confirm what had happened until May 24, 2023, and Proliance didn't begin mailing notification letters to the 437,392 people affected until November 21, 2023 — 283 days after the intrusion, more than nine months during which patients had no way of knowing their information was already in a criminal's hands.
 
@@ -2992,6 +3004,9 @@ Because there's no individual notification to wait for, the practical response f
     slug: `nobu-restaurant-group-2026-data-breach-guide`,
     author: `ScamShield Editorial`,
     tags: [`guide`, `nobu-restaurant-group-2026-data-breach`],
+    coverImage: `https://commons.wikimedia.org/wiki/Special:FilePath/Nobu,_Malibu_(28_April_2008).jpg?width=1200`,
+    coverImageCredit: `Photo: Kettlechips1 (public domain)`,
+    coverImagePosition: 50,
     sourceUrl: `https://oag.ca.gov/system/files/Nobu%20Restaurant%20Group%20Holding%20Company,%20LLC%20-%20Notice%20of%20Data%20Event%20-%20CA_0.pdf`,
     body: `Nobu Restaurant Group, the fine-dining chain and hospitality brand co-founded by chef Nobu Matsuhisa with locations across the United States and around the world, disclosed a data breach in April 2026 tied to an intrusion that had happened months earlier. The company said an unauthorized third party accessed certain systems on its network, with data possibly viewed or taken between October 6 and October 7, 2025. On November 5, 2025, the ransomware group Akira posted a claim on its dark-web leak site saying it had stolen roughly 71 gigabytes of data from Nobu's internal network, including "employee and owner information such as passports, driver licenses, Social Security numbers, detailed financials, confidential files and more." Nobu formally notified state regulators, including the California and Texas Attorneys General, on April 17, 2026 — more than five months after Akira's initial claim.
 
@@ -3101,6 +3116,10 @@ SoFi has set up a dedicated support line for affected members at 844-820-7634. A
     slug: `polam-federal-credit-union-2026-data-breach-guide`,
     author: `ScamShield Editorial`,
     tags: [`guide`, `polam-federal-credit-union-2026-data-breach`],
+    coverImage: `https://commons.wikimedia.org/wiki/Special:FilePath/Bank_of_the_West_Los_Altos_branch_exterior.jpg?width=1200`,
+    coverImageCredit: `Photo: John McGehjee (CC0)`,
+    coverImagePosition: 50,
+    // representative photo — generic bank branch, not POLAM FCU's own building; replace with an exact match if found
     sourceUrl: `https://www.globenewswire.com/news-release/2026/08/28/3352478/0/en/polam-federal-credit-union-data-breach-edelson-lechtzin-llp-launches-investigation-into-exposure-of-personal-information.html`,
     body: `POLAM Federal Credit Union, a small Los Angeles institution chartered in 1969 to serve Southern California's Polish American community, disclosed a data breach with a different origin than most of the intrusions covered here: no outside hacker, no ransomware gang, no phishing email. According to the credit union's own notification, POLAM learned on or about May 20, 2025 that a former employee had illegally accessed and obtained specific documents from its systems. POLAM brought in third-party cybersecurity professionals to investigate, and the breach was ultimately reported to the California Attorney General on August 21, 2026 — some fifteen months after it was first discovered, with notification letters to affected members going out around the same time.
 
@@ -3117,6 +3136,10 @@ Regardless of what POLAM confirms, place a free security freeze on your credit f
     slug: `new-york-city-regional-center-2026-data-breach-guide`,
     author: `ScamShield Editorial`,
     tags: [`guide`, `new-york-city-regional-center-2026-data-breach`],
+    coverImage: `https://commons.wikimedia.org/wiki/Special:FilePath/NYC_Manhattan_Skyline.JPG?width=1200`,
+    coverImageCredit: `Photo: Lesekreis (CC0)`,
+    coverImagePosition: 50,
+    // representative photo — New York City, where the firm is based; replace with an exact match if found
     sourceUrl: `https://www.federmanlaw.com/blog/new-york-city-regional-center-llc-data-breach-investigated-by-federman-sherwood/`,
     body: `New York City Regional Center, LLC (NYCRC) is one of the country's oldest and largest federally designated "regional centers" under the EB-5 Immigrant Investor Program — the immigration category that lets a foreign national obtain U.S. permanent residency in exchange for a six- or seven-figure investment in a qualifying commercial project. Since USCIS designated it in 2008, NYCRC says it has helped direct more than $1.5 billion in foreign investment capital into real estate and infrastructure projects across Brooklyn, Queens, Manhattan, and the Bronx. On August 5, 2026, NYCRC notified the California, Massachusetts, and New Hampshire attorneys general that it had suffered a cybersecurity incident compromising personal information the firm held. Citing Massachusetts notification-law requirements, NYCRC did not disclose when the breach occurred, when it was discovered, how the attacker got in, or whether a specific threat actor has claimed responsibility — leaving affected individuals with confirmation that their data was taken but no explanation of how.
 
@@ -3131,6 +3154,10 @@ If you've submitted an EB-5 investment or immigration petition through NYCRC —
     slug: `ontrac-final-mile-2026-data-breach-guide`,
     author: `ScamShield Editorial`,
     tags: [`guide`, `ontrac-final-mile-2026-data-breach`],
+    coverImage: `https://commons.wikimedia.org/wiki/Special:FilePath/DHL_Courier_Van.jpg?width=1200`,
+    coverImageCredit: `Photo: Elisha Muwanguzi (CC BY-SA 4.0)`,
+    coverImagePosition: 50,
+    // representative photo — generic courier delivery van, not an OnTrac vehicle; replace with an exact match if found
     sourceUrl: `https://www.scworld.com/brief/ontrac-parcel-delivery-company-reports-customer-data-breach`,
     body: `OnTrac Final Mile — the trade name of LaserShip, Inc., a last-mile package delivery company that operates dozens of sorting and delivery facilities across roughly 30 states and Washington, D.C. on behalf of major retailers and shippers — has notified regulators and customers of its second network intrusion in less than a year. OnTrac detected suspicious activity on its corporate computer network on March 23, 2026, and an investigation with outside cybersecurity specialists determined that an unauthorized party had accessed certain files between March 20 and March 22, 2026. The company reported the incident to the California Attorney General and began sending notification letters to affected individuals on July 22, 2026 — roughly four months after the intrusion was detected. OnTrac has said it is not aware of any fraud or public posting of the stolen data resulting from the incident, and that no ransomware group had claimed responsibility as of the notification.
 
@@ -3145,6 +3172,10 @@ If you've had deliveries handled by OnTrac Final Mile — including packages shi
     slug: `paylogix-2026-data-breach-guide`,
     author: `ScamShield Editorial`,
     tags: [`guide`, `paylogix-2026-data-breach`],
+    coverImage: `https://commons.wikimedia.org/wiki/Special:FilePath/Laptop_on_a_neat_desk_(Unsplash).jpg?width=1200`,
+    coverImageCredit: `Photo: Norbert Levajsics (CC0)`,
+    coverImagePosition: 50,
+    // representative photo — generic office desk, not Paylogix's own office; replace with an exact match if found
     sourceUrl: `https://therecord.media/paylogix-cyberattack-akira-ransomware`,
     body: `Paylogix, LLC, a New York-based insurance technology company that handles premium billing and employee-benefits administration on behalf of insurance carriers, brokers, and the employers that offer coverage through them, has told regulators and affected individuals that a network intrusion in late 2025 exposed a wide range of sensitive personal and financial information. The company says an unauthorized party accessed its network and copied files between November 13 and 18, 2025. Paylogix contained the intrusion, notified law enforcement, and brought in outside forensic specialists, but it did not notify its insurance-carrier customers of the incident until around July 20, 2026 — roughly eight months later — with individual notification letters to affected people following only in August 2026.
 
@@ -3161,6 +3192,10 @@ If you receive a letter from Paylogix, or you know your employer or insurance be
     slug: `silver-summit-medical-2026-data-breach-guide`,
     author: `ScamShield Editorial`,
     tags: [`guide`, `silver-summit-medical-2026-data-breach`],
+    coverImage: `https://commons.wikimedia.org/wiki/Special:FilePath/CMC_Hospital_building.jpg?width=1200`,
+    coverImageCredit: `Photo: Benison P Baby (CC BY-SA 4.0)`,
+    coverImagePosition: 50,
+    // representative photo — generic hospital/medical building, not Silver Summit Medical's own; replace with an exact match if found
     sourceUrl: `https://www.claimdepot.com/data-breach/silver-summit-medical-2026`,
     body: `Silver Summit Medical Corp., a Bakersfield, California medical practice operating under the names Digestive Disease Center and Heart Vascular & Leg Center, has notified patients that their personal and health information was exposed — not because Silver Summit's own network was broken into, but because a third-party vendor the practice shared patient data with was. According to the practice's notification, the vendor's systems were accessed without authorization sometime during a four-day window between November 27 and November 30, 2025. Silver Summit itself says it wasn't made aware of the incident until roughly eight months later, on or about July 20, 2026, and it reported the breach to the California Attorney General on August 19, 2026, the same date notification letters went out to affected patients.
 
@@ -3175,6 +3210,10 @@ Because this breach combines a Social Security number, driver's license number, 
     slug: "quontic-bank-2026-data-breach-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "quontic-bank-2026-data-breach"],
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Bank_of_the_West_Los_Altos_branch_exterior.jpg?width=1200",
+    coverImageCredit: "Photo: John McGehjee (CC0)",
+    coverImagePosition: 50,
+    // representative photo — generic bank branch, not Quontic's own (digital-only) presence; replace with an exact match if found
     body: `Quontic Bank Acquisition Corp., a New York-based digital bank known for its online-only accounts, began notifying customers in July 2026 of a data security incident with an unusual cause: no outside hacker, no ransomware gang, no phishing email. According to the bank's notification letter, filed with the California Attorney General's office, Quontic became aware on May 28, 2026 that two former employees had retained certain customer records after leaving the company. The bank says it has been working with law enforcement to investigate, has found no evidence that the retained information was used to commit identity theft or fraud, and is notifying affected customers "out of an abundance of caution." Notification letters went out starting July 16, 2026, with the exact categories of information involved varying from customer to customer.
 
 It's worth understanding why this counts as a data breach at all, even without a hack. Banks, like most large organizations, give employees broad access to customer files as part of doing their jobs — account records, personal details, financial history. That access is supposed to end the moment someone leaves the company: accounts get deactivated, devices get returned or wiped, and any copies of customer data an employee made along the way are supposed to be accounted for and destroyed. When that offboarding process breaks down, the result is functionally the same as a breach — customer data sitting somewhere the company no longer controls — even though no one broke in from the outside. It's a quieter, less dramatic failure mode than a ransomware attack, but not a lesser one: information retained by a departed employee can sit unprotected for months or years before anyone notices, and there's no way for the bank, or its customers, to know for certain what happened to it in the meantime.
@@ -3226,6 +3265,10 @@ If you've stayed at, gambled at, or joined the players club at a Station Casinos
     slug: "quantum-health-2026-data-breach-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "quantum-health-2026-data-breach"],
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Ruler_and_laptop_on_a_desk_(Unsplash).jpg?width=1200",
+    coverImageCredit: "Photo: Oli Dale (CC0)",
+    coverImagePosition: 50,
+    // representative photo — generic office desk, not Quantum Health's own office; replace with an exact match if found
     sourceUrl: "https://www.hipaajournal.com/quantum-health-precision-imaging-centers-heart-america-data-breaches/",
     body: `Quantum Health, a Dublin, Ohio-based "healthcare navigation" company that helps large, self-insured employers coordinate their employees' medical benefits and claims, disclosed in the summer of 2026 that a cyberattack had exposed a substantial trove of members' personal and health information. The intrusion began with a vishing (voice phishing) call: on May 29, 2026, an attacker phoned a Quantum Health employee and talked them into handing over network access. From that call until June 1, 2026, the unauthorized party moved through Quantum Health's systems and copied out files before the company detected a service outage affecting both its internal and customer-facing platforms, which is what led investigators to discover the intrusion. No hacking group has publicly claimed responsibility, though the tactics — a social-engineering phone call used to obtain employee credentials rather than a technical exploit — echo the playbook associated with the ShinyHunters extortion crew's healthcare-sector attacks.
 
@@ -3258,6 +3301,10 @@ Under the settlement, RentGrow is barred from continuing the practices at issue 
     slug: "quatrro-business-support-services-2026-data-breach-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "quatrro-business-support-services-2026-data-breach"],
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Laptop_on_a_neat_desk_(Unsplash).jpg?width=1200",
+    coverImageCredit: "Photo: Norbert Levajsics (CC0)",
+    coverImagePosition: 50,
+    // representative photo — generic office desk, not Quatrro's own office; replace with an exact match if found
     sourceUrl: "https://oag.ca.gov/ecrime/databreach/reports/sb24-629483",
     body: `Quatrro Business Support Services, Inc., a Georgia-based outsourcing firm that handles finance, accounting, HR, and IT services for businesses nationwide and now does business under the name ContinuServe, has been notifying individuals since March 23, 2026 that an unauthorized third party got into its systems and accessed files containing their personal information. According to the company's own filings, the intrusion took place between November 11 and November 19, 2025, but wasn't discovered until February 25, 2026 — more than three months after it began. Quatrro has continued filing with additional state regulators in the months since, including a filing reported to California's Attorney General on September 9, 2026, months after the initial notifications went out, a pattern that suggests the company kept identifying more affected people well after its first wave of letters.
 
@@ -3272,6 +3319,10 @@ If you've received a letter from Quatrro Business Support Services or ContinuSer
     slug: "new-american-funding-2025-data-breach-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "new-american-funding-2025-data-breach"],
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Suburban_neighborhood_(Unsplash).jpg?width=1200",
+    coverImageCredit: "Photo: Serg Bataiev (CC0)",
+    coverImagePosition: 50,
+    // representative photo — generic suburban housing, evoking the mortgage borrowers at issue; replace with an exact match if found
     sourceUrl: "https://nationalmortgageprofessional.com/news/new-american-funding-reports-data-breach-linked-vendor",
     body: `New American Funding (NAF), a top-25 U.S. mortgage lender based in Tustin, California, learned on June 6, 2025 that a company it used to arrange notary services for loan closings, Mobile Notary Zone (MNZ), had experienced unauthorized access to its systems. NAF has said its own network was not breached directly — the exposure ran entirely through the vendor. The company's internal review concluded around June 26, 2025, and NAF began notifying state attorneys general starting July 11, 2025.
 
@@ -3288,6 +3339,10 @@ Watch your bank and financial accounts for unfamiliar activity in the months ahe
     slug: "nfi-north-2026-data-breach-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "nfi-north-2026-data-breach"],
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Occupational_Therapy_session.jpg?width=1200",
+    coverImageCredit: "Photo: sabreguy29 (CC BY 2.0)",
+    coverImagePosition: 50,
+    // representative photo — generic therapy session, not an NFI North facility; replace with an exact match if found
     sourceUrl: "https://www.hipaajournal.com/nfi-north-nephrology-associates-data-breaches/",
     body: `NFI North, Inc., a nonprofit human-services organization based in Contoocook, New Hampshire that provides mental health, behavioral health, and educational support services across New Hampshire and Maine, has notified the U.S. Department of Health and Human Services' Office for Civil Rights that a network intrusion exposed the personal and health information of 49,540 people. The organization first detected suspicious activity on its network on or around September 6, 2025, but the forensic investigation needed to determine exactly whose files an unauthorized party had accessed didn't wrap up until July 6, 2026 — roughly ten months later — with the HHS disclosure filing finalized on August 9, 2026 and notification letters going out to affected individuals starting August 5, 2026.
 
