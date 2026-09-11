@@ -5012,6 +5012,9 @@ NotoriousGM.push(
     slug: 'james-ibori-delta-state-money-laundering',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Southwark_Crown_Court_entrance.jpg?width=1200',
+    coverImageCredit: 'Photo: Christopher Hilton, Wikimedia Commons (CC BY-SA 2.0) — Southwark Crown Court, London, where Ibori pleaded guilty and was sentenced',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.hrw.org/news/2012/04/17/nigeria-uk-conviction-blow-against-corruption',
     body: `Before he became a governor, James Ibori was a supermarket cashier in London with two minor criminal convictions. In 1991 he was fined at Isleworth Crown Court for theft after letting his girlfriend walk out of the Wickes DIY store where he worked without paying for goods, and in 1992 he was convicted separately for possessing a stolen credit card that had run up roughly £1,000 in charges. He left Britain for Nigeria not long after, and within a decade he was governor of Delta State, one of the country's wealthiest, oil-producing regions.
 
