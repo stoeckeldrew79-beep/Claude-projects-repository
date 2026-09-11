@@ -5650,6 +5650,10 @@ NotoriousAF.push(
     slug: "brent-kovar-profit-connect-ai-crypto-ponzi",
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Las_Vegas_Strip_from_Resorts_World_February_2023_HDR_1.jpg?width=1200',
+    coverImageCredit: 'Photo: King of Hearts, Wikimedia Commons (CC BY-SA 4.0) — the Las Vegas Strip, where Brent Kovar ran Profit Connect',
     sourceUrl: 'https://www.justice.gov/usao-nv/pr/jury-convicts-las-vegas-business-owner-cryptocurrency-ponzi-scheme',
     body: `From late 2017 through July 2021, Las Vegas businessman Brent Kovar ran a cryptocurrency investment company called Profit Connect, pitching investors on what sounded like the cutting edge of crypto mining: proprietary artificial intelligence software running on a supercomputer that mined digital currency and verified transactions around the clock. He promised fixed annual returns of 15% to 30%, backed the pitch with a 100% money-back guarantee, told investors the company held hundreds of millions of dollars in cryptocurrency reserves, and — according to federal prosecutors — falsely claimed their money was insured by the Federal Deposit Insurance Corporation, an agency that has never insured cryptocurrency investments of any kind.
 
