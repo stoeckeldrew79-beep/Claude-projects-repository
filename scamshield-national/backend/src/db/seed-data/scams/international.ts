@@ -13351,3 +13351,16 @@ International.push(
     country: 'AG',
   },
 );
+
+International.push(
+  {
+    name: 'Fake Police Officer Sextortion and Impersonation Ring (Adjohoun)',
+    slug: 'benin-fake-police-officer-sextortion-adjohoun',
+    description: `Benin's Police Républicaine and the Centre National d'Investigations Numériques (CNIN) announced the arrest of a 27-year-old tile layer from Abato on Tuesday, June 16, 2026, after officers from the Adjohoun district police station traced a wave of impersonation and extortion complaints in the Ouémé valley back to him. The investigation began when commissariats in Dangbo, Azowlissé, Adjohoun, and Affamé each logged complaints describing the same pattern: a man falsely presenting himself as an officer of the Police Républicaine pressured and threatened victims into handing over large sums of money. Careful cross-referencing of those complaints let investigators locate and arrest the suspect at his home in Abato, and a search of his mobile phones afterward revealed the true scope of his network — including a separate sextortion operation in which he used intimate and compromising photos and videos to blackmail victims, both inside Benin and abroad, and numerous photographs of himself wearing official-looking Police Républicaine and Beninese Armed Forces uniforms that he used to build credibility and intimidate his targets. Given the case's technological and cross-border dimensions, it was transferred to the CNIN, whose specialists are now analyzing the seized devices to trace financial flows, identify additional victims, and determine whether the suspect had accomplices. He faces charges of impersonating a public official, cybercrime, and sextortion. Authorities urged anyone contacted by someone claiming to be a police or military officer demanding money, or threatened with the release of private images or video, to refuse payment, preserve the messages as evidence, and report the contact to the Police Républicaine or the CNIN rather than negotiating directly with the blackmailer.`,
+    categorySlug: 'sextortion',
+    alertLevel: 'high',
+    sources: ['Police Républicaine du Bénin', "Centre National d'Investigations Numériques (CNIN - Bénin)", 'Bénin Web TV'],
+    sourceUrl: 'https://beninwebtv.bj/benin-un-faux-policier-arrete-pour-sextorsion-et-usurpation-de-fonction-a-adjohoun/',
+    country: 'BJ',
+  },
+);
