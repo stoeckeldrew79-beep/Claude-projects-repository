@@ -1611,6 +1611,9 @@ If you order from any delivery app, check the full order total — including eve
     slug: 'grubhub-2026-shinyhunters-data-breach-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'grubhub-2026-data-breach'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Grubhub_2025_logo.svg?width=1200',
+    coverImageCredit: 'Grubhub Inc. / Wikimedia Commons / Public Domain (logo)',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.bleepingcomputer.com/news/security/grubhub-confirms-hackers-stole-data-in-recent-security-breach/',
     body: `Grubhub, the Chicago-based food-delivery platform used by tens of millions of diners, drivers, and restaurants across the country, has now confirmed two separate data breaches in less than a year — and the second traces directly back to one of the largest supply-chain hacking campaigns of 2025. Together, the two incidents are a useful case study in how a single stolen credential can keep generating new victims long after the original break-in is old news.
 
