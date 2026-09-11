@@ -5210,4 +5210,20 @@ The Royal Bengal Logistics case is a reminder that an investment doesn't need cr
     coverImageCredit: 'Photo: Thomas Schilling / Wikimedia Commons / CC BY-SA 4.0',
     coverImagePosition: 50,
   },
+  {
+    title: 'Sung "Lawrence" Hong: The Seattle-Area Con Man Who Defrauded a Church Family, Went to Prison, and Started Over',
+    slug: 'sung-hong-hyun-joo-hong-pishon-holdings-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-wdwa/pr/couple-sentenced-lengthy-prison-terms-127-million-affinity-investment-fraud',
+    body: `Sung Hong, who went by "Lawrence" or "Laurence," had already been caught defrauding people once before he built his biggest scheme. In the mid-2000s, he cheated a Kirkland, Washington neighbor out of $800,000 and separately defrauded a family he had met at a Bellevue church — the same religious-community targeting pattern he would return to later — and was sentenced in 2007 to nearly three years in federal prison, ordered to pay more than $925,000 in restitution to his victims.
+
+He did not stay out of the business. In 2010, almost immediately after completing that sentence, Hong launched a new investment operation with his wife, Hyun Joo Hong, who went by "Grace." Together they ran a hedge fund called Pishon Holdings — named, prosecutors noted, after a river described in the Book of Genesis — and told prospective investors that "Laurence" privately managed money for wealthy Korean families and that "Grace" held a Series 65 securities license and had previously worked at a major international investment firm. Neither claim was true. The couple built their client base largely by presenting themselves at religious conferences and soliciting fellow members of religious organizations, the same affinity-fraud playbook that had worked for Hong once already, now run at a larger scale and, this time, concealing his own prior fraud conviction from the new investors he was recruiting.
+
+From 2010 until their arrest in June 2017, the Hongs took in $12.7 million from more than 55 clients through Pishon Holdings and separately managed accounts, according to federal prosecutors and a parallel civil action from the Commodity Futures Trading Commission. Some of the money was genuinely traded, and lost; the rest went to personal spending, including a 45-foot yacht, a Maserati, a Lamborghini, and $12,000-a-month rent on a 9,000-square-foot mansion in Clyde Hill, an upscale Seattle suburb. The human cost fell hardest on the ordinary investors who trusted him: one California church invested $1 million and lost roughly $300,000 on a single trade, and one retired couple lost $100,000 of a $180,000 retirement account within a year.
+
+Both Hongs pleaded guilty to conspiracy and wire fraud charges. In October 2018, U.S. District Judge Thomas S. Zilly sentenced Sung Hong to 15 years in federal prison and Hyun Joo Hong to six years, telling Sung Hong directly, "You are one of those con men who will never be able to stop conning people." The CFTC's parallel case against the couple and Pishon Holding LLC resulted in more than $1 million in restitution and penalties on top of the criminal case's consequences.
+
+Hong's case is a reminder that a completed prison sentence and a restitution order don't automatically stop a fraudster who has already shown regulators exactly how he operates — the same affinity-fraud tactic, the same religious-community targeting, and even a company name drawn from scripture reappeared within roughly three years of his release, this time defrauding more than fifty times as many victims as his first conviction covered. A judge's blunt assessment after the second scheme collapsed was, in hindsight, also the clearest warning anyone could have offered the investors who trusted him the second time: a con man caught once has shown you what he's capable of, not necessarily that he's finished.`,
+  },
 );
