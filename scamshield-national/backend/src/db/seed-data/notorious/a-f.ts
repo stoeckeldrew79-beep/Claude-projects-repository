@@ -3974,7 +3974,9 @@ More than two decades after İmarbank's collapse, Cem Uzan still lives openly in
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
     sourceUrl: 'https://www.nbcnews.com/news/us-news/michigan-art-dealer-gets-three-years-prison-selling-fake-paintings-n722076',
-    // no rights-cleared photo found — sourceUrl above serves as the "read the full story" link
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Macomb_County_Building.jpg?width=1200',
     body: `Eric Spoutz, an art dealer from Mount Clemens, Michigan, spent roughly a decade selling paintings he attributed to major American modern artists — Willem de Kooning, Franz Kline, Joan Mitchell, and others — that he had in fact created or acquired as blanks and then dressed up with fabricated paperwork. His real skill wasn't brushwork; it was paper. Prosecutors said Spoutz built elaborate, internally consistent provenance files for each piece — forged bills of sale, invented correspondence from galleries and law firms, and fictitious inheritance stories — designed to survive a buyer's due diligence rather than just a glance.
 
 One invented backstory captured how far he was willing to go: Spoutz told a Connecticut auction house that he had inherited a group of Joan Mitchell pastels from a collector who died in 1976, when in reality that collector's entire estate had been bequeathed to Dartmouth College decades earlier and was never in Spoutz's hands at all. He gave shifting explanations for other pieces — a private-collection purchase here, a family inheritance there — and, after a memorabilia-watching blog accused him of hawking forgeries on eBay in 2005, began operating under aliases including "Robert Chad Smith," "John Goodman," and "James Sinclair" to keep selling.
