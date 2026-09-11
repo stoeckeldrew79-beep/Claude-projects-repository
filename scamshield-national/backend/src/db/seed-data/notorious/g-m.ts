@@ -7302,3 +7302,22 @@ Bostock pleaded guilty in September 2022. In June 2023, he was sentenced to five
 The CTA case is a reminder that education-benefit fraud harms two distinct sets of victims at once: American taxpayers, who fund the GI Bill, and the veterans themselves, many of whom walked away with a credential from a school later exposed as having fabricated their academic records — a mark on their educational history that followed them even though the fraud was the school's doing, not theirs. A VA-approved school and a real physical campus are not, on their own, proof that a program is delivering what it claims; a veteran considering any school can independently verify accreditation, graduation rates, and any pending VA or state investigations before enrolling benefits that, once spent on a fraudulent program, are difficult or impossible to recover.`,
   },
 );
+
+NotoriousGM.push(
+  {
+    title: 'Mark Grenon and the "Miracle" Bleach Cure Sold Through an Online Church',
+    slug: 'mark-grenon-genesis-ii-church-mms-bleach-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/doj-press-releases-involving-fda-oci/leaders-genesis-ii-church-health-and-healing-who-sold-toxic-bleach-fake-miracle-cure-covid-19-and',
+    body: `Mark Grenon and his sons Jonathan, Jordan, and Joseph ran an outfit they called the "Genesis II Church of Health and Healing" out of Bradenton, Florida, built around a product they named Miracle Mineral Solution, or MMS. Stripped of the branding, MMS was sodium chlorite mixed with water that, once ingested, became chlorine dioxide — a bleaching agent used industrially to treat wastewater and bleach textiles and paper pulp, not something meant to go in the human body.
+
+For years before COVID-19, the Grenons marketed MMS through their self-declared "church" as a cure-all for cancer, autism, multiple sclerosis, Alzheimer's, and HIV/AIDS, using the language of religious ministry — describing customers as "members" and sales as "donations" — as a deliberate attempt to place their product outside the reach of FDA regulation. When the pandemic began in early 2020, they simply added COVID-19 to the list of diseases MMS supposedly cured, marketing it directly to a public desperate for any kind of protection against a new and frightening virus, despite the FDA never approving MMS for any medical use and warning for years that drinking it could cause severe vomiting, diarrhea, and life-threatening dehydration.
+
+The FDA and FTC obtained a federal injunction against the Grenons in April 2020, ordering them to stop making and selling MMS. According to prosecutors, they simply ignored it, continuing to manufacture and ship the product — investigators later found a rundown backyard shed in Bradenton containing nearly 10,000 pounds of sodium chlorite powder along with thousands of bottles of finished MMS. Federal agents arrested the family in July 2020 on contempt charges for violating the court order; Mark Grenon fled to Colombia and was extradited back to the United States in 2021 to face trial alongside his sons.
+
+A federal jury convicted all four Grenons in July 2023 of conspiracy to defraud the United States by distributing an unapproved and misbranded drug; Jonathan and Jordan were also convicted of criminal contempt for defying the injunction. In October 2023, a federal judge sentenced Jonathan and Jordan Grenon to 151 months — more than 12 and a half years — in prison, while Mark and Joseph Grenon each received five years, the statutory maximum for the fraud count alone. Prosecutors said the family had taken in roughly $1 million selling the product before their arrest.
+
+The Genesis II Church case is a reminder that framing a product as a matter of religious practice or personal belief, rather than a medical claim, doesn't change what the product actually does to the body — and that a family willing to keep manufacturing and shipping a product after a federal court has specifically ordered them to stop is treating the legal system itself as just another obstacle to route around, the same instinct that lets any fraud outlast a single warning, lawsuit, or regulatory action.`,
+  },
+);
