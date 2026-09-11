@@ -7262,5 +7262,8 @@ The rest funded a lifestyle built entirely on other people's savings. Mobley pai
 The SEC filed an emergency enforcement action in the Southern District of New York on February 23, 2000, freezing Mobley's assets and those of his funds; the CFTC filed a parallel action the same day. Mobley did not fight the underlying facts — he confessed to the fraud. A separate criminal case brought by the U.S. Attorney's Office for the Middle District of Florida followed, and in July 2001 Mobley pleaded guilty to eight felony counts. He was sentenced to seventeen and a half years in federal prison and ordered to pay $76.2 million in restitution. The SEC's civil case concluded in May 2003 with a settlement permanently barring him from the securities and investment advisory business.
 
 Mobley's fund never had anything close to the assets, or the track record, it claimed — and for seven years, nobody with the standing to demand a real audit did. His case is a reminder that "we don't allow outside audits, because our edge is proprietary" is not a sign of a manager protecting a genuine advantage; among fraud examiners, it is one of the oldest and most reliable indicators that there is nothing behind the curtain worth protecting.`,
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/U.S._Securities_and_Exchange_Commission_headquarters.JPG?width=1200',
+    coverImageCredit: 'Photo: AgnosticPreachersKid, CC BY-SA 3.0, via Wikimedia Commons — SEC headquarters, which filed the emergency enforcement action against Mobley',
   },
 );
