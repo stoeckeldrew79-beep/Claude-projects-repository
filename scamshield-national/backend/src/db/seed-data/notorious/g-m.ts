@@ -8286,3 +8286,20 @@ Pyeatt pleaded guilty in the U.S. District Court for the Eastern District of Mis
 Caregiver theft like this is one of the hardest forms of elder and disabled-adult financial exploitation to catch precisely because it doesn't require breaking in anywhere — the victim hands over the card himself, to someone he has invited into his home and daily life to help him. Families arranging in-home care for an aging or disabled relative can blunt this risk with tools that don't depend on trust alone: setting up real-time text or email alerts for every debit transaction, giving a separate family member read-only online access to the account, or capping the card's daily withdrawal and purchase limits to what groceries and errands actually cost — so that a pattern like 20 transactions a month becoming 330 gets flagged automatically, long before a life savings account quietly empties out.`,
   },
 );
+
+NotoriousGM.push(
+  {
+    title: 'Jess Kinmont and John Wenz Jr.: The Timeshare Resale Company That Never Sold a Single Timeshare',
+    slug: 'jess-kinmont-john-wenz-pro-timeshare-resales-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-ndga/pr/owners-timeshare-resale-company-sentenced-federal-prison-defrauding-over-8000-victims',
+    body: `Timeshares are notoriously hard to sell — the resale market is thin, prices are a fraction of what owners originally paid, and plenty of owners just want out. Jess Kinmont and John P. Wenz Jr. built a business in Florida squarely around that frustration: from January 2012 to December 2016, their company, Pro Timeshare Resales, cold-called timeshare owners nationwide and told them a buyer or renter was already lined up, sometimes naming a specific closing date to make the pitch feel concrete and urgent.
+
+There was no buyer. According to federal prosecutors, Pro Timeshare Resales charged owners upfront fees of up to $2,500 to secure the supposed sale, then came back for additional "closing cost" fees once owners were already invested in the deal going through — and in five full years of operation, the company never actually sold or rented a single timeshare interest. Owners who asked for their money back once the promised closing fell through were routinely denied or simply ignored. Investigators tracing the scheme's scale found it had reached more than 8,000 victims nationwide, many of them elderly, for total losses exceeding $18 million; a 2018 federal seizure tied to the pair recovered $2.055 million in cash along with two homes, vehicles, and jewelry.
+
+Wenz pleaded guilty to wire fraud conspiracy in April 2021. Kinmont was convicted as well, and on October 12, 2023, Chief U.S. District Judge Timothy C. Batten Sr. of the Northern District of Georgia sentenced Kinmont, then 57, to seven years in federal prison followed by three years of supervised release, plus $11,699,376 in restitution; Wenz received three years and ten months in prison, also followed by three years of supervised release, and was ordered to pay nearly $5 million in restitution. Both men were permanently banned from ever working in the timeshare resale or telemarketing industries again.
+
+The case is a useful gut-check for anyone who owns a timeshare and gets an unsolicited call claiming a buyer is ready and waiting: real estate transactions, timeshares included, are conventionally structured so that an agent or broker gets paid at closing, out of the sale proceeds — not months beforehand, out of the seller's own pocket, for a sale that hasn't happened yet. An upfront fee tied to a "guaranteed" buyer who somehow never quite closes, repeated across thousands of victims over five straight years, is close to the purest version of that red flag on record.`,
+  },
+);
