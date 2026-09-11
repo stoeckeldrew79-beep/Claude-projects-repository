@@ -5629,3 +5629,15 @@ UsNS.push({
     isHistorical: true,
     firstRecorded: '2026-06-15',
 });
+
+UsNS.push({
+    name: 'New York Immigration Services Scam Targeting TPS Holders',
+    slug: 'new-york-tps-immigration-services-scam',
+    description: `New York Attorney General Letitia James issued a consumer alert on July 6, 2026 warning that fraudulent immigration service providers are targeting Haitian and Syrian New Yorkers holding Temporary Protected Status (TPS), after the U.S. Supreme Court's June 25, 2026 decision in Mullin v. Doe authorized the federal government to terminate TPS for hundreds of thousands of Haitian and Syrian immigrants and left affected families anxious to find help fast. According to the alert, scammers exploiting that anxiety falsely claim affiliation with legitimate immigration organizations, build fake websites and social media pages impersonating government agencies, and pose as "notarios" — a term that signals real legal authority in many Latin American and Caribbean legal systems but confers none to practice immigration law in the United States — while conducting business almost exclusively through messaging apps like WhatsApp to stay off the radar. These fraudulent operators demand urgent wire transfers or online payments, guarantee specific immigration outcomes no legitimate attorney or accredited representative can promise, and have clients sign incomplete forms rather than reviewed, translated documents. James's office urges New Yorkers seeking immigration help to confirm that anyone offering it is either a licensed attorney in good standing or a representative formally accredited by the Department of Justice, to request translated documents and a qualified interpreter when needed, to verify any claimed government communication only through official channels rather than a link or number in the outreach itself, to review every document in full before signing anything, and to walk away from any provider who demands payment urgently or guarantees a specific result. New Yorkers who believe they have encountered a fraudulent immigration services provider can contact the Attorney General's Office of New Americans hotline at 1-800-566-7636.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ["New York Attorney General's Office"],
+    sourceUrl: 'https://ag.ny.gov/press-release/2026/attorney-general-james-warns-against-immigration-services-scams-and-provides',
+    country: 'US',
+    state: 'NY',
+});
