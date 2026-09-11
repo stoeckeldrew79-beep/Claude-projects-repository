@@ -3386,6 +3386,10 @@ NotoriousNS.push(
     slug: 'ramil-ventura-palafox-pgi-global-bitcoin-ponzi',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Albert_V._Bryan_Federal_Courthouse_2019.jpg?width=1200',
+    coverImageCredit: 'Antony-22, CC BY-SA 4.0, via Wikimedia Commons',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.justice.gov/usao-edva/pr/praetorian-group-international-ceo-sentenced-20-years-prison-200m-bitcoin-ponzi-scheme',
     body: `Ramil Ventura Palafox, a dual citizen of the United States and the Philippines, built Praetorian Group International — branded to investors as PGI Global — around a simple pitch: hand over cash or bitcoin, and Palafox's supposed high-volume bitcoin trading operation would pay daily returns of 0.5 to 3 percent, an annualized rate so high it should have been an immediate red flag. Instead, between December 2019 and October 2021, more than 90,000 investors around the world put over $201 million into PGI, including roughly $30.3 million in ordinary currency and more than 8,198 bitcoin worth over $171 million at the time it was deposited.
 
