@@ -4697,7 +4697,10 @@ NotoriousNS.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/usao-sdny/pr/owner-physical-rehabilitation-company-sentenced-38-months-prison-20-million-fraud',
-    // no verified rights-cleared photo found yet — see NotoriousCoverPhotos
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/U.S._District_Court_-_Southern_District_of_New_York_(48129021526).jpg?width=1200',
+    coverImageCredit: 'Photo: Ajay Suresh, CC BY 2.0, via Wikimedia Commons — the Daniel Patrick Moynihan U.S. Courthouse, Southern District of New York, where Sklar was sentenced',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Nosson Sklar, also known as Nathan Sklar, owned and ran a company operating a series of physical rehabilitation facilities around New York City. Between at least January 2020 and July 2024, according to federal prosecutors in the Southern District of New York, Sklar submitted, or had others submit, more than $20 million in claims to health care benefit programs for medical services — asserting in the paperwork that the treatments had been personally rendered by a specific physician affiliated with his company.
 
 That physician, prosecutors said, had done no such thing. He did not perform the billed services, did not work with Sklar's rehabilitation company during the period in question, and had never authorized Sklar to submit claims under his name at all. Sklar billed the insurance programs anyway, using the physician's credentials to make the claims look like legitimate, physician-supervised care rather than services that were never rendered as described or, in many cases, rendered by someone with no license to bill for them. Of the more than $20 million in claims Sklar submitted over the four-year span, health benefit programs actually paid out roughly $12.4 million before investigators uncovered the fraud.
