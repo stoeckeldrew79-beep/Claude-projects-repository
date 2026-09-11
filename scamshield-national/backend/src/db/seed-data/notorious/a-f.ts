@@ -5722,6 +5722,10 @@ NotoriousAF.push(
     slug: "anthonie-ruinard-legacy-investors-group-fraud",
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Sandra_Day_O%27Connor_United_States_Courthouse_-_Phoenix,_Arizona_(49343843277).jpg?width=1200',
+    coverImageCredit: 'Tony Webster, CC BY-SA 2.0, via Wikimedia Commons',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.justice.gov/usao-az/pr/arizona-man-sentenced-more-seven-years-defrauding-54-victims-investment-fraud-scheme',
     body: `Anthonie Ruinard Jr., of Chandler, Arizona, told the people he approached that he was a wildly successful investor — at one point claiming a net worth north of $470 million — running a company called Legacy Investors Group Inc. According to the U.S. Attorney's Office for the District of Arizona, between 2020 and March 2023 Ruinard used that persona to persuade at least 54 victim-investors to put money into supposed venture capital, private equity, and real estate deals, promising guaranteed monthly returns of roughly 5 to 6 percent.
 
