@@ -5454,6 +5454,10 @@ NotoriousNS.push(
     slug: 'neal-goyal-caldera-blue-horizon-ponzi-scheme',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/The_Magnificent_Mile,_Michigan_Avenue,_Chicago,_Illinois_(11004383704).jpg?width=1200',
+    coverImageCredit: "Photo: Ken Lund, CC BY-SA 2.0, via Wikimedia Commons — Michigan Avenue in Chicago, where Goyal kept the office outfitted with prop computer monitors",
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.sec.gov/newsroom/press-releases/2014-108',
     body: `Neal Goyal ran a pair of unregistered investment advisory firms out of Chicago — Blue Horizon Asset Management and Caldera Advisors, later reorganized as Caldera Investment Group — through which he raised more than $11.4 million from at least 35 investors, many of them friends and family, across four private funds he told them followed a "long-short" trading strategy in the stock market.
 
