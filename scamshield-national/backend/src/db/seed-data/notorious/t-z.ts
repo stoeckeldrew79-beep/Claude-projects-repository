@@ -2112,7 +2112,10 @@ NotoriousTZ.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-sues-stop-sprawling-enterprise-operating-unlawful-subscription-schemes',
-    // no rights-cleared photo identified — sourceUrl above serves as the "read the full story" link
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Phillip_Burton_Federal_Building_%26_United_States_Courthouse.jpg?width=1200',
+    coverImageCredit: 'Marincyclist, CC BY-SA 4.0, via Wikimedia Commons',
+    coverImagePosition: 50,
     body: `Note: The allegations below come from a Federal Trade Commission civil complaint filed in June 2026. Nobody named has been convicted of a crime, and as of this writing the case is an active, unresolved lawsuit — a court has issued a temporary restraining order and asset freeze while litigation continues, but the underlying claims have not been proven in court.
 
 Genesis Tech was, by most outward measures, a legitimate success story: a Kyiv-founded technology company started in 2008 that grew into a roughly billion-dollar operation with more than 25 subsidiary products, over a billion cumulative app downloads, and partnerships with major platforms including Google and Facebook. The FTC's complaint, filed in the U.S. District Court for the Northern District of California, alleges that underneath that legitimate footprint, founder-CEOs Vladimir Mnogoletny and Vasily Ulianov built a portfolio of consumer apps — including the fitness and diet apps MadMuscles, Harna, and Unimeal; the mental-health app Wisey, which the FTC says falsely implied it could diagnose and treat ADHD; the document tools PDF Guru and PDF Master; the fashion app Lumi; and the horoscope app Nebula — that shared a common playbook for turning a free trial into a recurring charge customers didn't expect and couldn't easily escape.

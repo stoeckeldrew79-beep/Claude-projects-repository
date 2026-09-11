@@ -6236,6 +6236,10 @@ Helix's business model depended on a myth its own customers wanted to believe: t
     slug: 'michael-scronic-scronic-macro-fund-ponzi-scheme',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/White_Plains_Federal_Courthouse.gif?width=1200',
+    coverImageCredit: 'U.S. Government (U.S. Marshals Service), Public Domain, via Wikimedia Commons',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.justice.gov/usao-sdny/pr/former-hedge-fund-manager-sentenced-96-months-prison-ponzi-scheme-case',
     body: `Michael Scronic didn't run his hedge fund out of a Manhattan tower. He ran it out of Pound Ridge, a small, affluent town in Westchester County, New York, raising money almost entirely from people he already knew — neighbors, friends, and members of his own family, including his mother. Starting around 2010, Scronic solicited at least 42 of them to invest in the Scronic Macro Fund, an unregistered vehicle he told investors traded options on major stock indexes using a disciplined, risk-managed strategy with a long track record of steady gains.
 
@@ -6554,6 +6558,10 @@ NotoriousGM.push(
   {
     title: 'Miteshkumar Patel: The Chicago Runner-Network Manager Who Laundered a Fear-Based Phone Scam',
     slug: 'miteshkumar-patel-irs-scam-runner-network',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Dirksen_United_States_Courthouse,_Chicago_Loop,_Chicago,_Illinois_(11004248426).jpg?width=1200',
+    coverImageCredit: 'Ken Lund, CC BY-SA 2.0, via Wikimedia Commons',
+    coverImagePosition: 50,
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     body: `The India-based call center scam that impersonated the IRS and U.S. Citizenship and Immigration Services needed more than telecallers reading a fear script — it needed people in the United States who could turn each victim's payment into cash before anyone caught on. Miteshkumar Patel ran that half of the operation. Based in Illinois, he managed a Chicago crew of "runners" who liquidated and laundered the proceeds of a telefraud conspiracy that, prosecutors said, ran from roughly 2013 to 2016 and defrauded thousands of victims across the country.
@@ -6640,7 +6648,10 @@ NotoriousGM.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/usao-sdny/pr/cryptocurrency-trader-sentenced-42-months',
-    // no rights-cleared photo found — sourceUrl above serves as the "read the full story" link
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Thurgood_Marshall_United_States_Courthouse_002.jpg?width=1200',
+    coverImageCredit: 'Kidfly182, CC BY-SA 4.0, via Wikimedia Commons',
+    coverImagePosition: 50,
     body: `Jeremy Spence built an online following under the handle "Coin Signals," posting cryptocurrency trading calls and, eventually, offering to trade investors' money for them directly. From around December 2017 through April 2019, the Bristol, Rhode Island man ran a set of pooled trading funds — including the "CS Mex Fund," which traded on the BitMEX exchange, along with a "CS Alt Fund" and a "CS Long Term Fund" — soliciting more than $5 million in bitcoin and ether from customers who believed they were investing alongside a trader with an unusually strong track record.
 
 That track record was largely fiction. Spence's actual trading racked up substantial losses, but rather than disclose them, he covered them up — misrepresenting both his profitability and how much money he genuinely had under management, and using new customers' deposits to pay out "profits" to earlier ones whenever they asked to withdraw. On January 28, 2018, he told his own chat group that his trading had generated a return of more than 148 percent over the previous month, a claim prosecutors would later say was false. The structure was a Ponzi scheme wearing the branding of a crypto trading signal service, and it held together only as long as enough new money kept arriving to cover the gap between what he'd actually made and what he'd told people he'd made.
@@ -6676,7 +6687,10 @@ Kimoto served about twelve years of that sentence before President Trump commute
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/opa/pr/florida-men-sentenced-prison-348m-health-care-fraud-scheme-targeting-medicare-beneficiaries',
-    // no rights-cleared photo found — sourceUrl above serves as the "read the full story" link
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Federal_Courthouse_in_Miami.jpg?width=1200',
+    coverImageCredit: 'Miami92, Public Domain, via Wikimedia Commons',
+    coverImagePosition: 50,
     body: `Kenneth Charles Kessler III, 43, of Miami, and Michael Andrew Gomez, 43, of Miramar, Florida, ran a fraud that depended less on any single clever lie than on sheer administrative churn. Between them, prosecutors say, they owned and operated seven separate durable medical equipment (DME) supply companies across Florida — not because the business needed seven companies to function, but because Medicare kept catching on and suspending payments to whichever one had gotten too much unwanted attention. When one shell stopped getting paid, the next one, freshly incorporated and unconnected on paper, simply picked up the billing.
 
 The underlying product was orthotic braces — back, knee, shoulder, and wrist supports that Medicare will pay for when a doctor determines a patient actually needs one. Kessler and Gomez's companies instead paid illegal kickbacks and bribes to obtain doctors' signatures on orders for beneficiaries who had never been meaningfully examined for the braces at all, then used those fraudulent orders to ship braces nationwide to Medicare recipients who, in many cases, had neither requested nor needed them and sometimes never opened the box. Each shipment generated a billable claim regardless of whether the patient wanted the equipment, and the volume of unnecessary claims run through the two men's network of companies over the life of the scheme reached approximately $34.8 million billed to Medicare.
@@ -6691,7 +6705,10 @@ The case is a small-scale illustration of a pattern federal health care fraud in
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/opa/pr/co-founder-paycheck-protection-program-lender-service-provider-sentenced-63m-covid-19-relief',
-    // no rights-cleared photo found — sourceUrl above serves as the "read the full story" link
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Sandra_Day_O%27Connor_U.S._Federal_Courthouse,_Phoenix,_Arizona.jpg?width=1200',
+    coverImageCredit: 'Tony Webster, CC BY 2.0, via Wikimedia Commons',
+    coverImagePosition: 50,
     body: `Stephanie Hockridge spent years as a television news anchor at ABC15 in Phoenix before she and her husband, Nathan Reis, co-founded Blueacorn in April 2020 — a fintech company built to process Paycheck Protection Program loan applications for small businesses shut out of the traditional banking system during the pandemic. Blueacorn grew explosively: a 2022 congressional inquiry found the company collected close to $1 billion in taxpayer-funded processing fees for its work, and prosecutors say Hockridge and Reis personally transferred roughly $300 million of that out to themselves as owners. The company that was supposed to be a conduit for emergency small-business relief became, according to federal prosecutors, a fee-generating machine its own founders were willing to feed with fraud.
 
 Blueacorn's alleged scheme centered on a service the company marketed internally as "VIPPP" — personalized help getting a PPP application approved. Prosecutors said Hockridge, Reis, and co-conspirators, including a man named Jimmy Flores, recruited referral agents to coach applicants on submitting loan requests backed by fabricated payroll records, falsified tax documents, and doctored bank statements, inflating the loan amounts (and the percentage-based fees Blueacorn collected) well beyond what the underlying businesses could support. The fraudulent applications processed through the scheme totaled more than $63 million in PPP loans that should never have been approved.
@@ -6749,7 +6766,10 @@ Hospice fraud is easy to overlook next to flashier scams because the billing its
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/usao-edny/pr/seven-defendants-sentenced-prison-their-participation-transnational-telemarketing-2',
-    // no rights-cleared photo found — sourceUrl above serves as the "read the full story" link
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Federal_Courthouse_Brooklyn.jpg?width=1200',
+    coverImageCredit: 'Beyond My Ken, CC BY-SA 4.0, via Wikimedia Commons',
+    coverImagePosition: 50,
     body: `The call always came with the same false emergency: your bank account has been compromised, hackers are already inside it, and the only way to keep your money safe is to send it — right now, by check or money order — to an address that will hold it securely until the danger passes. Between January 2022 and December 2023, co-conspirators operating out of India placed that call to dozens of victims across the United States, many of them elderly, and federal prosecutors in the Eastern District of New York say the scheme extracted more than $12 million from people who believed they were protecting their savings rather than mailing them away.
 
 Yveler Marcellus was the operation's collection point on the U.S. side. The checks and money orders victims mailed in a panic landed at addresses in the Eastern District of New York that Marcellus and a crew of six co-conspirators — Felix Marcial, Asheem Henry, George Mims, Rahmel Thompson, Daquan Mitchell, and Tatiana Williams — controlled, where the group deposited the funds into personal and shell bank accounts, split a share among themselves, and wired the remainder back to the conspirators in India who had made the original calls. It was, in effect, a domestic laundering franchise built specifically to receive and clean the proceeds of a fear-based script that never had to change because it kept working.
@@ -6804,7 +6824,10 @@ NotoriousGM.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2025/09/ftc-19-states-act-stop-deceptive-cancer-charity-fundraising-scheme',
-    // no rights-cleared photo found — sourceUrl above serves as the "read the full story" link
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/U.S._Court_House,_Los_Angeles.JPG?width=1200',
+    coverImageCredit: 'Los Angeles (Wikimedia Commons user), CC BY-SA 3.0, via Wikimedia Commons',
+    coverImagePosition: 50,
     body: `Kars-R-Us.com, Inc. built a national car-donation business on a simple pitch, repeated for years across English- and Spanish-language television, radio, and online ads: donate your old vehicle, and the proceeds would help fund free and low-cost breast cancer screenings through its charity partner, the United Breast Cancer Foundation. Between 2017 and 2022, more than 84,000 donors handed over their vehicles believing exactly that. According to a complaint the Federal Trade Commission and 19 states filed in September 2025, Kars raised $45.5 million from those donations — and directed just $126,815 of it, roughly 0.28 percent, to actual breast cancer screening services.
 
 The rest of the money, regulators said, went everywhere except where the ads promised: $34.9 million flowed to Kars, its operators, and the vendors who ran its fundraising machine, while the charitable purpose that had persuaded donors to give away a car in the first place received what amounted to a rounding error. Michael Irwin served as Kars's president and co-owner until 2022; Lisa Frank took over as the company's sole owner and current president. Both were named personally in the FTC's complaint, filed in the U.S. District Court for the Central District of California with 22 agencies from 19 states joining the case.
@@ -6900,6 +6923,9 @@ NotoriousGM.push(
     slug: 'ippei-mizuhara-ohtani-interpreter-bank-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Ippei_Mizuhara_(48035187472).jpg?width=1200',
+    coverImageCredit: 'Moto "Club4AG" Miwa, CC BY 2.0, via Wikimedia Commons',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.ice.gov/news/releases/former-major-league-baseball-interpreter-sentenced-57-months-imprisonment-following',
     // no rights-cleared photo identified — sourceUrl above serves as the "read the full story" link
     body: `For six years, Ippei Mizuhara was less an interpreter than an inseparable fixture in Shohei Ohtani's American life — translating the two-way baseball star's interviews, managing his schedule, and standing beside him at press conferences from Ohtani's 2018 rookie season with the Los Angeles Angels through his record $700 million contract with the Los Angeles Dodgers. That closeness, prosecutors later said, is exactly what let Mizuhara quietly drain nearly $17 million from Ohtani's own bank account over more than two years without his employer ever noticing.
@@ -6918,7 +6944,10 @@ NotoriousGM.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/usao-az/pr/arizona-man-charged-defrauding-least-150-victims-cryptocurrency-investment-scheme',
-    // no rights-cleared photo identified — sourceUrl above serves as the "read the full story" link
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Downtown_Phoenix_Skyline_(6974043971).jpg?width=1200',
+    coverImageCredit: 'Alan Stark, CC BY-SA 2.0, via Wikimedia Commons',
+    coverImagePosition: 50,
     body: `Note: Jeremie Andrew Sowerby has pleaded guilty and admitted the conduct described below as part of a plea agreement resolving three separate federal cases, but as of this writing he has not yet been sentenced — a hearing is scheduled for October 14, 2026 — so the prison term he ultimately receives is not yet known.
 
 Jeremie Andrew Sowerby, 48, of Fountain Hills, Arizona, didn't run one long-running scheme so much as a rotating sequence of them, each built around cryptocurrency's changing fashions and each launched under new company names once the last one stopped bringing in fresh money. According to the U.S. Attorney's Office for the District of Arizona, his fraud ran from 2017 through 2023 under a long list of entities that included Now Mining, VIP Mining, Millennium Technologies, Dunamis Global Technologies, SOFTEK LLC, Justice Capital, Stealth Capital, FX Primary, Phoenix Ultra, Limitless Trading, Block Mint, Block X, Digital Mint, 888 Management, Kannabiz Koin, Kannabiz Monkeez, My Blockchain Life, My Block X, and We Sell Miners.
@@ -6937,7 +6966,10 @@ NotoriousGM.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2026/01/ftc-secures-settlement-banning-growth-cave-defendants-marketing-selling-business-opportunities',
-    // no rights-cleared photo identified — sourceUrl above serves as the "read the full story" link
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/San_Fernando_Valley_panorama.jpg?width=1200',
+    coverImageCredit: 'Tom Adams, CC BY-SA 2.0, via Wikimedia Commons',
+    coverImagePosition: 50,
     body: `Growth Cave marketed itself as a business-coaching program that could teach ordinary people, through paid courses and coaching packages, how to build a profitable online marketing agency or start their own business — the kind of "flip this skill into a business" pitch that has become a mainstay of social-media advertising. Co-CEOs Lucas Lee-Tyson and Osmany Batte ran it alongside an affiliated credit-repair operation, marketed through related entities including LLT Research and Apex Mind, that promised to fix consumers' credit scores.
 
 The Federal Trade Commission sued Growth Cave, Lee-Tyson, Batte, operations manager Jordan Marksberry, and several related corporate entities in February 2025, alleging the defendants used deceptive earnings claims to sell business opportunities and credit-repair services that consistently failed to deliver what was promised, and that consumers who tried to get refunds or support ran into a wall of unresponsiveness. The FTC put the total consumer harm at close to $50 million.
@@ -6954,7 +6986,10 @@ NotoriousGM.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/usao-edtx/pr/texas-couple-sentenced-running-illegal-pyramid-scheme',
-    // no rights-cleared photo identified — sourceUrl above serves as the "read the full story" link
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Sherman_July_2016_48_(Paul_Brown_Federal_Building).jpg?width=1200',
+    coverImageCredit: 'Michael Barera, CC BY-SA 4.0, via Wikimedia Commons',
+    coverImagePosition: 50,
     body: `LaShonda Moore, 38, and Marlon Moore, 39, of Frisco, Texas, spent the height of the COVID-19 pandemic — from June 2020 to June 2021 — building an illegal chain-referral pyramid scheme they called "Blessings in No Time," or BINT. It used the decades-old "gifting circle" structure that consumer-protection regulators have been warning about for years, dressed up for a pandemic audience desperate for income: new participants were told to send a "blessing" payment of at least $1,400 to people who had already joined, in exchange for a promised 800% return — paid back eight-fold within weeks — plus a guaranteed refund if they were ever unsatisfied.
 
 None of that math worked, because it couldn't. A gifting pyramid pays early participants with money collected from later ones; it has no actual product, service, or investment generating the returns it promises, so its only way to keep paying out is to keep recruiting new payers faster than old ones cash out. The Moores marketed BINT through weekly livestream broadcasts to thousands of viewers at a time, framing the "blessing" payments as a way for people to help their own community during a period of widespread pandemic-era job loss — a framing prosecutors said was itself part of the deception, since the money flowed upward to the scheme's organizers rather than sideways to neighbors in need.
@@ -6971,7 +7006,10 @@ NotoriousGM.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.yavapaiaz.gov/files/sharedassets/public/v/1/resident-services/law-and-justice/documents/womanconvictedofembezzlement.pdf',
-    // no rights-cleared photo identified — sourceUrl above serves as the "read the full story" link
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Yavapai_County_Courthouse_-_Prescott,_AZ.jpg?width=1200',
+    coverImageCredit: 'Upstateherd, CC BY-SA 4.0, via Wikimedia Commons',
+    coverImagePosition: 50,
     body: `Karen Northcutt, 62, of Dewey, Arizona, ran Prescott Area Habitat for Humanity as its executive director — a position of trust at a nonprofit whose entire mission is building affordable homes for families who couldn't otherwise afford one. According to the Yavapai County Attorney's Office, she spent years quietly diverting the organization's money into her own life instead: paying her mortgage and utility bills from the charity's bank accounts, renovating her home, buying vehicles, withdrawing more than $100,000 in cash, and opening an unauthorized credit card in the organization's name that she then charged roughly $187,000 on.
 
 The theft came to light in February 2024, after an anonymous tip to the Habitat for Humanity board prompted an investigation. A forensic accountant who reviewed the organization's books put the total loss at approximately $826,000. Prosecutors said Northcutt did not simply take the money quietly — she also tampered with physical evidence and trafficked in stolen property in the course of covering her tracks, conduct that added charges well beyond a simple theft case.
