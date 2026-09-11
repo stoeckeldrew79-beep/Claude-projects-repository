@@ -5153,6 +5153,9 @@ Coscia's prosecution mattered less for its dollar figure — modest by Wall Stre
     slug: 'patrick-ho-china-energy-fund-committee-bribery-scheme',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Hong_Kong_cityscape_highlights-_International_Finance_Centre,_Central_District._Hong_Kong,_China,_East_Asia-3.jpg?width=1200',
     sourceUrl: 'https://www.justice.gov/usao-sdny/pr/patrick-ho-former-head-organization-backed-chinese-energy-conglomerate-sentenced-3',
     body: `Patrick Ho Chi-ping was a Harvard-trained ophthalmologist who served as Hong Kong's Secretary for Home Affairs from 2002 to 2007. After leaving government, he became secretary general of the China Energy Fund Committee, a Hong Kong- and Virginia-based nongovernmental organization that held special consultative status at the United Nations — a credential that gave Ho access to heads of state and diplomats around the world. What made the NGO possible was money: it was funded entirely by CEFC China Energy, a multibillion-dollar Shanghai conglomerate that used Ho's diplomatic connections to chase oil and business deals across Africa, and prosecutors would later show that Ho used the NGO's charitable cover to deliver the bribes that closed them.
 
