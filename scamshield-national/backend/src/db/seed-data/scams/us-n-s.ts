@@ -5641,3 +5641,15 @@ UsNS.push({
     country: 'US',
     state: 'NY',
 });
+
+UsNS.push({
+    name: 'Chattanooga Woman\'s Fake Property Deed and Stolen-Identity Scheme (Alicia England)',
+    slug: 'north-carolina-charlotte-alicia-england-fake-property-deed-identity-theft',
+    description: `Alicia England, 33, of Chattanooga, Tennessee, stole the identities of victims — some living, some deceased — and used their personal identifying information to open fraudulent bank accounts, file fake deeds transferring ownership of homes she had no connection to, and enter into real estate sales for properties she did not actually own. Between October 2022 and August 2024, according to the U.S. Attorney's Office for the Western District of North Carolina, England forged notaries' signatures on some of the fraudulent deeds and used fake identification documents to carry out others, then advertised the stolen properties for sale or attempted sale through outlets including Facebook Marketplace. The scheme ultimately touched at least 19 properties valued at more than $1.4 million, including four homes in the Charlotte area, with unsuspecting buyers and the real property owners — or, in some cases, the families of deceased owners — left to untangle the fraudulent paperwork after the fact. England pleaded guilty to wire fraud and aggravated identity theft and was sentenced in July 2026 to 75 months in federal prison followed by two years of supervised release, with the court ordering more than $300,000 in restitution. Because this scheme worked specifically by targeting properties whose owners were out of state, deceased, or otherwise unlikely to notice a listing appear on a home they weren't actively watching, North Carolina property owners — especially those who inherited a home, own a vacant lot, or hold property for a relative who has since died — are advised to periodically search their own name and the property's address in their county Register of Deeds' public records for any document they didn't file, and to register for a free property-fraud alert service where their county offers one, since a fraudulent deed can be recorded and a sale can close before the rightful owner or their heirs ever find out.`,
+    categorySlug: 'mortgage-foreclosure-scams',
+    alertLevel: 'medium',
+    sources: ["U.S. Attorney's Office, Western District of North Carolina", 'WVLT', 'Queen City News (WCCB)'],
+    sourceUrl: 'https://www.justice.gov/usao-wdnc/pr/tennessee-woman-sentenced-prison-fraud-scheme-involving-14-million-fake-property-deeds',
+    country: 'US',
+    state: 'NC',
+});
