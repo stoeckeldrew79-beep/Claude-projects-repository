@@ -5845,6 +5845,10 @@ NotoriousAF.push(
     slug: 'carrie-lynn-grant-junior-achievement-embezzlement',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Ronald_Dellums_Federal_Building.jpg?width=1200',
+    coverImageCredit: 'V Smoothe, CC BY 2.0, via Wikimedia Commons',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.justice.gov/usao-ndca/pr/east-bay-woman-sentenced-more-two-years-prison-embezzling-over-16-million-charity',
     body: `Carrie Lynn Grant, 62, of Pleasant Hill, California, spent years working her way up inside Junior Achievement of Northern California, a Walnut Creek-based nonprofit whose entire mission is preparing young people for the "real world" of work and money — teaching schoolkids budgeting, entrepreneurship, and financial literacy through in-classroom programs. Grant started as an administrative assistant and was eventually entrusted with the charity's finances as its finance manager, a position that put her in direct control of the bank accounts and books of the organization whose job was to teach other people's children not to be careless with money.
 
