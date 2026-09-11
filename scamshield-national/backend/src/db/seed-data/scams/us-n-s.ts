@@ -4947,3 +4947,15 @@ UsNS.push({
     country: 'US',
     state: 'NY',
 });
+
+UsNS.push({
+    name: 'Oregon Fake Attorney Impersonation Wire Fraud',
+    slug: 'oregon-fake-attorney-impersonation-wire-fraud',
+    description: `Oregon's Department of Justice Consumer Hotline warned residents on August 28, 2025 about a wave of increasingly sophisticated scams built around impersonating real attorneys to move victims' money by wire. In one case, a woman met a man on the dating app Hinge who represented himself as a licensed attorney offering investment services; believing him, she wired funds expecting investment returns that never came. In a second, more damaging case, scammers gained unauthorized access to both a real estate attorney's email account and the attorney's own client's email account during an active transaction, then used that access to impersonate the client and send the attorney falsified wiring instructions while separately impersonating the attorney to cancel a scheduled call the client might otherwise have used to catch the fraud — a coordinated compromise that cost the client more than $700,000, with the FBI still investigating and recovery uncertain. "Scams are becoming increasingly sophisticated, predatory, and cruel," Oregon Attorney General Dan Rayfield said in announcing the warning. "This is a reminder to practice extreme caution when it comes to money." The Department of Justice urged anyone contacted about an investment opportunity by someone met online, and anyone involved in a real estate or legal transaction expecting a wire, to confirm any attorney's license directly with the Oregon State Bar and to verify wiring instructions by calling a phone number obtained independently — never one provided in the email itself — before sending money, since an email thread that appears to come from a known attorney or client can be the product of a compromised account rather than a lie the sender is telling. Anyone who has already wired funds under these circumstances should contact their bank immediately, file a report with the FBI's Internet Crime Complaint Center at ic3.gov, and notify the Oregon State Bar if the impersonated party was a licensed attorney.`,
+    categorySlug: 'business-email-compromise',
+    alertLevel: 'critical',
+    sources: ['Oregon Department of Justice'],
+    sourceUrl: 'https://www.doj.state.or.us/media-home/news-media-releases/oregon-doj-consumer-hotline-warns-of-new-scam-impersonating-oregon-attorneys/',
+    country: 'US',
+    state: 'OR',
+});

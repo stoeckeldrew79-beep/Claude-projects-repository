@@ -6675,3 +6675,15 @@ UsAF.push({
     country: 'US',
     state: 'NC',
 });
+
+UsAF.push({
+    name: 'Alaska Motor Home Rental Reservation Fraud (Peter Harkovitch)',
+    slug: 'alaska-motor-home-inc-reservation-fraud-harkovitch',
+    description: `Alaska Motor Home Inc. and its owner, Peter Harkovitch, abruptly stopped operating in June 2024 without refunding or honoring the RV rental reservations that travelers had already paid for to see the state — the latest violation in a business the Alaska Department of Law had already sued once before, resulting in a 2019 consent judgment the company went on to repeatedly breach. In one case cited by investigators, Harkovitch forged a customer's signature on a document used to defeat that customer's own credit card chargeback dispute, and separately made an unauthorized $7,500 charge to another customer's card. The Alaska Attorney General's Consumer Protection Unit secured a judgment on August 13, 2026 ordering $183,000 in civil penalties plus $50,409.86 in consumer restitution, and barring Harkovitch from owning or operating any Alaska business until he appears before the Anchorage Superior Court and demonstrates the business will operate legally and direct its proceeds toward paying down what he owes; he is currently incarcerated in Florida after separately pleading guilty to aggravated battery and battery of a law enforcement officer. "Unscrupulous businesses have no place in the State of Alaska," Acting Attorney General Mills said in announcing the judgment. "And nobody's dream of an Alaskan vacation should be turned into a nightmare." Travelers booking an RV, cabin, or tour rental — especially with a smaller, independent operator — should pay by credit card rather than debit, wire, or cash, keep every booking confirmation and payment receipt, and check a company's standing and any prior consumer-protection judgments with the state attorney general's office before sending a deposit for a trip still months away.`,
+    categorySlug: 'travel-vacation-scams',
+    alertLevel: 'medium',
+    sources: ['Alaska Department of Law'],
+    sourceUrl: 'https://law.alaska.gov/press/releases/2026/081326-Harkovitch.html',
+    country: 'US',
+    state: 'AK',
+});

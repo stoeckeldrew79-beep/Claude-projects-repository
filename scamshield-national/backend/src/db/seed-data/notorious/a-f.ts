@@ -5688,6 +5688,10 @@ NotoriousAF.push(
     slug: "antonio-franklin-milwaukee-disability-benefits-fraud",
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Federal_Building_and_US_Courthouse_Milwaukee.jpg?width=1200',
+    coverImageCredit: 'Carol M. Highsmith, public domain, via Wikimedia Commons',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.justice.gov/usao-edwi/pr/milwaukee-county-man-sentenced-18-months-federal-prison-wire-fraud-involving',
     body: `Government disability and benefit programs generally run on an honor system at the edges: applicants self-report their income, assets, and bank accounts, and the agency verifies what it can rather than auditing every recipient's finances line by line. Antonio Franklin, 47, of Milwaukee County, Wisconsin, exploited that gap for more than five years, according to the U.S. Attorney's Office for the Eastern District of Wisconsin. From January 2020 through March 2025, prosecutors said, Franklin was receiving Title XVI disability benefits from the Social Security Administration, a Wisconsin Supplemental Security Income payment from the state's Department of Health Services, and benefits through Wisconsin's IRIS long-term care program — three separate need-based programs, each of which required him to disclose his financial resources to remain eligible.
 
@@ -5760,6 +5764,10 @@ Willy's case shows how an affinity-style fraud can operate on two levels at once
     slug: "douglas-dalton-petiq-insider-trading",
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/James_A._McClure_Federal_Bldg_%26_U.S._Courthouse.JPG?width=1200',
+    coverImageCredit: 'Matthew Harrison Smith, CC BY-SA 3.0, via Wikimedia Commons',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.justice.gov/usao-id/pr/arkansas-man-pleads-guilty-insider-trading',
     body: `Douglas Dalton, 48, of Bentonville, Arkansas, and Michael Smith, the then-president and chief operating officer of Eagle, Idaho-based pet health company PetIQ, Inc., were close personal friends — the kind of relationship that gave Dalton access to information no outside investor could have had. According to the U.S. Attorney's Office for the District of Idaho and a parallel SEC enforcement action, Smith called Dalton on July 26, 2024, and disclosed that PetIQ was about to be acquired by private equity firm Bansk Group LP at approximately $31 per share — material, nonpublic information about a deal that had not yet been announced.
 
@@ -6016,6 +6024,10 @@ Hallinan's case is a reminder that predatory lending doesn't have to hide in a b
     slug: 'andy-bowdoin-adsurfdaily-autosurf-ponzi-scheme',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    // representative photo (Bowdoin pleaded guilty in the U.S. District Court for the District of Columbia) — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/E._Barrett_Prettyman_Federal_Courthouse,_DC.jpg?width=1200',
+    coverImageCredit: 'AgnosticPreachersKid, CC BY-SA 3.0, via Wikimedia Commons',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.justice.gov/doj/case/us-v-thomas-anderson-bowdoin-jr-aka-andy-bowdoin',
     body: `Thomas Anderson Bowdoin Jr., who went by Andy Bowdoin, ran a Quincy, Florida-based company called AdSurfDaily, Inc. that presented itself as an online advertising business but was, underneath, a Ponzi scheme wearing a dot-com costume. Members paid to "purchase advertising" and, in exchange, clicked through a rotating carousel of banner ads on an "ASD rotator" a set number of times a day. For that modest effort, ASD promised to return 125% — initially 150% — of whatever a member had put in, plus commissions for recruiting new members.
 
@@ -6097,6 +6109,10 @@ NotoriousAF.push(
     slug: 'dawn-bennett-djb-holdings-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/US_District_Court_Maryland_Southern_Division_Greenbelt.jpg?width=1200',
+    coverImageCredit: 'U.S. District Court for the District of Maryland, public domain, via Wikimedia Commons',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.justice.gov/usao-md/pr/former-financial-advisor-sentenced-20-years-federal-prison-her-conviction-17-federal',
     body: `Dawn Bennett built a public reputation as a Washington-area financial expert years before federal prosecutors identified her as a fraudster. She ran an SEC-registered investment advisory firm, Bennett Group Financial Services, and hosted a nationally syndicated radio program, "Financial Myth-Busting," on which she dispensed investing advice to a loyal audience of listeners. In 2013 she founded a second venture, DJB Holdings LLC, doing business online as DJBennett.com — an e-commerce retailer of high-end women's sportswear that she began promoting heavily on her own show.
 
