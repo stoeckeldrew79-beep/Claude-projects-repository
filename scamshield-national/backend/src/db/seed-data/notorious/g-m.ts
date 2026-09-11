@@ -8107,3 +8107,20 @@ Bivona's case is a reminder that "access" is one of the most effective words in 
     sourceUrl: 'https://www.sec.gov/newsroom/press-releases/2016-57',
   },
 );
+
+NotoriousGM.push(
+  {
+    title: 'Jeffrey Ikahn, Safeguard Metals, and the $68 Million Silver Coin Scheme That Scared Retirees Off Their Own Savings',
+    slug: 'jeffrey-ikahn-safeguard-metals-precious-metals-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    body: `Jeffrey Ikahn — who also went by the names Jeffrey Santulan and Jeffrey Hill — ran Safeguard Metals LLC out of a small leased office in Woodland Hills, California, while marketing the company to prospective clients as a full-service investment firm with offices in London, New York, and Beverly Hills, a roster of prominent employees, and some $11 billion in assets under management. None of that description was true; it was a persona built to make a boiler-room coin-selling operation sound like an established international investment house.
+
+According to the CFTC and a coalition of thirty state securities and financial regulators, Safeguard's sales agents worked from scripts — some written by Ikahn himself — designed to frighten current and prospective retirees into liquidating their retirement accounts. The pitches warned, falsely, that the stock market was about to crash and that an "unpublicized" new law would soon freeze savers' 401(k)s and IRAs, urging them to move their money into physical silver coins before it was too late. From October 2017 through at least July 2021, the scheme took in roughly $68 million from about 450 people, the large majority of it retirement savings from older investors. Safeguard and Ikahn told investors the markup on the coins they were buying ranged from 4 to 33 percent; regulators found the real average markup was closer to 64 percent — meaning a substantial share of every retiree's life savings that went into Safeguard's coins was gone the moment the sale closed, regardless of what silver itself later did.
+
+The CFTC and state regulators first reached a $68 million consent order with Safeguard and Ikahn in 2023, and after further litigation, the U.S. District Court for the Central District of California entered a final judgment on September 30, 2025, ordering Safeguard and Ikahn to pay $25.6 million in restitution to victims and an equal $25.6 million civil monetary penalty — over $51 million in total sanctions, with thirty state regulators joining the CFTC in the action.
+
+Ikahn's scheme illustrates a recruiting tactic that shows up again and again in precious-metals fraud aimed at older savers: rather than promise an unrealistic return, it manufactures fear of an ordinary, federally insured retirement account and offers a "safe haven" instead — a pitch that skips past the question of whether the return makes sense and goes straight to convincing the mark that doing nothing is the dangerous choice.`,
+    sourceUrl: 'https://www.cftc.gov/PressRoom/PressReleases/9139-25',
+  },
+);
