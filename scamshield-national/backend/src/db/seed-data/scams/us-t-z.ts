@@ -2871,3 +2871,17 @@ UsTZ.push({
     isHistorical: true,
     firstRecorded: '2020-08-01',
 });
+
+UsTZ.push({
+    name: 'Fredericksburg Doctor Genetic Testing and Brace Medicare Fraud',
+    slug: 'texas-fredericksburg-doctor-genetic-testing-brace-medicare-fraud',
+    description: `Dr. David M. Young, 61, of Fredericksburg, Texas, signed thousands of prescriptions and medical records certifying that Medicare beneficiaries needed orthotic braces and cancer genetic tests, when in reality he had never examined or even spoken with the vast majority of the more than 13,000 patients whose names appeared on the paperwork — some of them undercover agents posing as patients as part of the investigation. The fraudulent prescriptions, generated largely through telemarketing and telemedicine referral networks rather than any real doctor-patient relationship, were used to bill Medicare and other government health care programs more than $70 million. An investigation by Texas Attorney General Ken Paxton's Medicaid Fraud Control Unit — working alongside the U.S. Department of Health and Human Services' Office of Inspector General and prosecuted by the DOJ Health Care Strike Force in Dallas — led to Young's conviction, and in early 2025 he was sentenced to 10 years in federal prison and ordered to pay $26,622,522 in restitution. "Medicaid fraud steals hundreds of millions from taxpayers," Paxton said in announcing the outcome, noting his office's Medicaid Fraud Control Unit has recovered nearly $990 million for Texas taxpayers since 2020. The case illustrates how a single complicit physician can serve as the rubber stamp an entire fraudulent equipment and testing network needs: a "doctor's order" is often all a durable-medical-equipment supplier or testing lab needs to bill Medicare, regardless of whether an actual exam ever took place. Medicare beneficiaries are urged to review the Medicare Summary Notice mailed after any claim and to question or report any brace, genetic test, or other item billed in their name that they don't recall ordering from, or being examined by, their own treating physician.`,
+    categorySlug: 'healthcare-fraud',
+    alertLevel: 'medium',
+    sources: ["Texas Attorney General's Office (Ken Paxton)", 'U.S. Department of Health and Human Services Office of Inspector General'],
+    sourceUrl: 'https://www.texasattorneygeneral.gov/news/releases/attorney-general-ken-paxtons-investigation-leads-10-year-prison-sentence-and-over-26-million-0',
+    country: 'US',
+    state: 'TX',
+    isHistorical: true,
+    firstRecorded: '2025-03-03',
+});
