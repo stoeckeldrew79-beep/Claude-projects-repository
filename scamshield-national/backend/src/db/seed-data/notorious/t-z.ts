@@ -2173,6 +2173,10 @@ NotoriousTZ.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/usao-sd/pr/sioux-falls-crypto-investor-indicted-wire-fraud-money-laundering-bank-fraud-and',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Sioux_Falls_Federal_Building_1.jpg?width=1200',
+    coverImageCredit: 'Photo: Jon Platek, CC BY-SA 3.0, via Wikimedia Commons — the U.S. Courthouse and Federal Building in Sioux Falls, South Dakota, where Wiener was indicted',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Note: Benjamin Paul Wiener has been indicted, not convicted. He pleaded not guilty to every count against him, and a trial was scheduled for September 15, 2026. The allegations below reflect a federal indictment — the government's case — rather than any judicial finding of guilt.
 
 Benjamin Paul Wiener, 43, of Sioux Falls, South Dakota, built a cluster of similarly named companies — Benaiah Capital LLC, Benaiah Holdings, Inc., Benaiah Digital Fixed Income LP, Benaiah Digital LP, Benaiah Management Company, Inc., Benaiah Enterprises, LLC, along with Aslan Management, LLC and an entity called Runway Four10 — that, according to a federal indictment, he used to solicit money and cryptocurrency from investors across South Dakota, Minnesota, and the surrounding region.
