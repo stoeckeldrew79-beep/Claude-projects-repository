@@ -13515,3 +13515,16 @@ International.push(
     firstRecorded: '1998-04-23',
   },
 );
+
+International.push(
+  {
+    name: 'Fake "Crown Water Resort" Cook Islands Job Scam',
+    slug: 'cook-islands-fake-crown-water-resort-job-scam',
+    description: `Recruiters operating out of India built a fraudulent website, crownwaterresort.com, advertising a non-existent luxury property called "Crown Water Resort" supposedly located in Arorangi, Cook Islands, and used it through early 2024 to target overseas jobseekers with openings for front-office staff, kitchen workers, security guards, and housekeeping roles. Applicants who responded were told they had been hired and asked to pay an upfront employment fee of roughly US$280 to secure the position, with further fees promised once that first payment cleared — a job never materialized. Crown Beach Resort and Spa, a genuine Arorangi-based property whose name the fake site closely echoed, issued a public statement on April 11, 2024 clarifying "This hotel is not real, and we are NOT in partnership with them in any way whatsoever" after jobseekers began contacting the real resort asking about positions it had never advertised. The scam was reported more widely on April 19, 2024, with Cook Islands Tourism Industry Council president Liana Scott, Cook Islands Tourism chief executive Karla Eggelton, and the Cook Islands Financial Intelligence Unit's Maru Willie all weighing in publicly on the fraud. Officials urged anyone offered a Cook Islands hospitality job through an unsolicited online listing to verify the employer by contacting the named property directly through its own official website or phone number — not through any contact details supplied by the recruiter — and to treat a request for an upfront "employment fee" as a clear sign the offer is fraudulent.`,
+    categorySlug: 'employment-scams',
+    alertLevel: 'medium',
+    sources: ['Cook Islands Tourism Industry Council', 'Cook Islands Tourism', 'Cook Islands Financial Intelligence Unit (CIFIU)', 'Cook Islands News', 'Islands Business'],
+    sourceUrl: 'https://islandsbusiness.com/news-break/cook-islands-scam/',
+    country: 'CK',
+  },
+);
