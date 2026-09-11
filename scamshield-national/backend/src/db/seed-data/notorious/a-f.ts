@@ -5115,6 +5115,10 @@ NotoriousAF.push(
     slug: 'terrence-chalk-dr-cash-church-ponzi-scheme',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Skyline_of_Orlando,_9_Feb_2017.jpg?width=1200',
+    coverImageCredit: 'Photo: Artystyk386, Wikimedia Commons (CC BY-SA 4.0) — Orlando, Florida, where Terrence Chalk built his "Dr. Cash" client base',
     sourceUrl: 'https://www.justice.gov/usao-sdny/pr/serial-fraudster-dr-cash-sentenced-three-years-prison-running-ponzi-scheme',
     body: `Terrence Chalk had already been convicted once of federal fraud, in 2006, by the time he started building a new investment business a decade later in Orlando, Florida. Rather than use his own name — which an internet search would have tied directly to that earlier conviction — federal prosecutors in the Southern District of New York said Chalk rebranded himself "Dr. Cash," presenting himself as a financial guru with a system for building wealth, and built his client base by holding "wealth seminars" pitched at Black churches, promising to reveal the "hidden secrets of the wealthy."
 
@@ -5134,6 +5138,10 @@ NotoriousAF.push(
     slug: 'travis-ford-wolf-capital-crypto-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Tulsa_skyline_aerial,_April_2023.jpg?width=1200',
+    coverImageCredit: 'Photo: Nils Huenerfuerst, Wikimedia Commons (CC BY-SA 4.0) — Tulsa, Oklahoma, near Travis Ford\'s Glenpool base',
     sourceUrl: 'https://www.justice.gov/opa/pr/cryptocurrency-investment-firm-founder-sentenced-five-years-prison-defrauding-investors-94m',
     body: `Travis Ford, of Glenpool, Oklahoma, was the CEO, co-founder, and head trader of Wolf Capital Crypto Trading LLC, a cryptocurrency investment firm he built around a pitch that should have been a warning sign on its own: consistent daily returns of 1% to 2%, which compounded out to roughly 547% a year. Between January and August 2023, prosecutors with the Justice Department's Criminal Division said, that promise drew in approximately 2,800 investors who collectively put in $9.4 million.
 
@@ -5151,6 +5159,10 @@ NotoriousAF.push(
     slug: 'christopher-delgado-goliath-ventures-crypto-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/High-rises_in_Orlando,_Florida_from_Lake_Eola_(May_2023).jpg?width=1200',
+    coverImageCredit: 'Photo: Benoît Prieur, Wikimedia Commons (CC0) — Orlando, Florida, near Christopher Delgado\'s Apopka base',
     sourceUrl: 'https://www.justice.gov/usao-mdfl/pr/goliath-ventures-ceo-pleads-guilty-cryptocurrency-fraud-scheme-conspiracy',
     body: `Christopher Alexander Delgado, 34, of Apopka, Florida, ran Goliath Ventures — a company he had rebranded from its earlier name, Gen-Z Venture Firm — around a pitch built for the crypto era: hand Goliath your money, and it would deploy it into cryptocurrency "liquidity pools," the pools that let traders swap crypto assets on platforms like Uniswap, in exchange for a share of the trading fees. Delgado told investors Goliath would pass most of that yield back to them as guaranteed monthly returns of 3 to 10 percent, along with a promise to return their principal on request. Between January 2023 and January 2026, prosecutors said, that pitch drew in victims through personal referrals, professional marketing materials, luxury events, and charitable sponsorships.
 
@@ -5459,6 +5471,10 @@ NotoriousAF.push(
     slug: 'christine-hunsicker-caastle-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Manhattan_Garment_District_by_Don_Ramey_Logan.jpg?width=1200',
+    coverImageCredit: "Photo: Don Ramey Logan, Wikimedia Commons (CC BY-SA 4.0) — Manhattan's Garment District, the fashion-industry hub CaaStle operated in",
     sourceUrl: 'https://www.justice.gov/usao-sdny/pr/founder-fashion-tech-company-caastle-sentenced-five-years-prison-300-million-fraud',
     body: `Christine Hunsicker had a genuinely accomplished résumé before any of this happened: a Princeton graduate who had served as COO of Drop.io and as president and COO of Right Media, an ad-exchange company sold to Yahoo! for $850 million. In 2011 she founded Gwynnie Bee, a plus-size clothing rental subscription service, which she later rebranded as CaaStle — a "Clothing as a Service" platform meant to license its rental-and-logistics infrastructure to other retail brands. Over the following years CaaStle raised hundreds of millions of dollars from investors on the strength of that pitch.
 
@@ -5475,6 +5491,10 @@ NotoriousAF.push(
     slug: 'edwin-brant-frost-first-liberty-ponzi-scheme',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Coweta_County_Courthouse,_Newnan,_GA,_US.jpg?width=1200',
+    coverImageCredit: 'Photo: Jud McCranie, Wikimedia Commons (CC BY-SA 4.0) — the Coweta County Courthouse in Newnan, Georgia, Edwin Brant Frost IV\'s hometown',
     sourceUrl: 'https://www.justice.gov/usao-ndga/pr/first-liberty-president-charged-multi-million-dollar-ponzi-scheme',
     body: `Note: Edwin Brant Frost IV pleaded guilty to one federal criminal count in May 2026, so his guilt on that charge is not in dispute. But as of this writing, the specific sentence a judge ultimately imposed at his August 2026 sentencing hearing could not be confirmed through published reporting, so it is described below as scheduled rather than as a settled outcome.
 
