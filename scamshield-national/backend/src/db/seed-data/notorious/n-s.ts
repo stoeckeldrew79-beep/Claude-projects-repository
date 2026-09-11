@@ -5596,3 +5596,20 @@ The Commodity Futures Trading Commission filed a civil fraud complaint against A
 Adams's case is a reminder that a fraudster's day job can be the very thing that makes a side-hustle investment pitch feel safe: a respected local professional with a stable, unrelated career doesn't fit most people's mental picture of a con artist, which is exactly why a prior licensing sanction in another state and a total absence of financial-industry credentials weren't enough, on their own, to stop 155 people — many of them retirees — from handing him their money.`,
   },
 );
+
+NotoriousNS.push(
+  {
+    title: "Roy Dixon Jr.: The Atlanta Financier Who Bribed His Way Into Detroit's Pension Funds",
+    slug: 'roy-dixon-jr-detroit-pension-fund-bribery',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    body: `Roy Dixon Jr. founded Onyx Capital Advisors and pitched it to public pension funds as a way to diversify retirement money into stable, income-producing private companies. In 2006 and 2007, he persuaded two City of Detroit pension funds and a City of Pontiac, Michigan, pension fund to invest a combined $23.8 million in Onyx's newly formed private-equity fund — retirement money for police officers, firefighters, and other municipal employees, entrusted to a firm with no meaningful track record, on the strength of Dixon's pitch and, prosecutors later said, cash paid quietly to the people deciding whether to approve it.
+
+According to the SEC, Onyx never invested the money the way it told pension trustees it would. Rather than the diversified Midwest manufacturing portfolio Onyx had described, nearly $16 million of the pension funds' money ended up in Second Chance Motors, a used-car dealership serving credit-challenged buyers in Georgia that was controlled by Dixon's business partner, Michael A. Farr — a former NFL wide receiver for the Detroit Lions. Dixon and Onyx separately pulled more than $2.06 million out of the fund disguised as "excess" and "advance" management fees, while Farr helped divert roughly another $1.05 million from the fund's supposed investments in his own companies.
+
+Keeping the pension money flowing took more than a plausible pitch. Federal prosecutors said Dixon bribed Detroit City Treasurer Jeffrey Beasley, who sat on both Detroit pension boards, with cash and a family vacation to Turks and Caicos in exchange for favorable treatment of Onyx's investment proposals; altogether, prosecutors tied Dixon to more than $244,000 in bribes paid to officials with influence over the funds. The FBI indicted Dixon in 2012 on embezzlement and bribery charges tied to more than $3 million in direct theft from the Detroit and Pontiac funds. Rather than face trial in 2014 alongside Beasley and other City Hall insiders, Dixon pleaded guilty and agreed to cooperate, becoming a key prosecution witness in Detroit's wider pension-corruption scandal.
+
+The reckoning came on two fronts. In the parallel civil case, a federal judge ordered Dixon and Onyx to pay $3.1 million in civil penalties and $3.1 million in disgorgement, and ordered Farr to pay $1 million in penalties and $2.3 million in disgorgement — the Onyx deal alone was said to have cost the pension funds upward of $23 million, part of a wider web of self-dealing investments investigators eventually tied to roughly $95 million in total pension losses. When a federal judge handed down Dixon's sentence in 2015 — three years in federal prison — he reportedly cried out "Oh, Jesus!" and stumbled into the courtroom lectern. Dixon's case is a reminder that a pension fund's due diligence is only as good as the people sitting on its board: when the trustee responsible for vetting an investment is himself being paid to approve it, no amount of paperwork protects the retirees whose money is actually at stake. The same dynamic — a gatekeeper quietly compensated by the party seeking their approval — shows up anywhere a decision-maker meant to protect other people's money has a private financial stake in saying yes.`,
+    sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-22922',
+  },
+);
