@@ -11189,6 +11189,19 @@ International.push(
 
 International.push(
   {
+    name: 'Anguilla "Broker Option" Fake Registered-Address Forex Scheme',
+    slug: 'anguilla-broker-option-fake-registered-address-forex-scheme',
+    description: `The Anguilla Financial Services Commission (the "Commission") issued an Investor Alert on September 11, 2015 warning that an outfit trading as Broker Option (also styled BrokerOption, Brokeroption and brokeroption) "is not licensed, nor has it ever been licensed, by the Commission to carry on business or manage or administer their affairs in or from within Anguilla." The scheme's website listed an Anguilla address to appear properly based and regulated in the jurisdiction, but the Commission investigated and found that address actually belonged to two licensed Anguilla company managers who had no knowledge of, or professional relationship with, Broker Option whatsoever — meaning the operators had simply attached a real Anguilla firm's legitimate address to their operation without permission to borrow its credibility. The Commission further confirmed that the Anguilla Commercial Registry had no record of Broker Option existing as a company at all, so the entity had neither a genuine physical presence nor any legal registration in Anguilla despite what its marketing implied. The alert pointed prospective investors to the Commission's earlier December 11, 2014 Investor Alert on "Unregulated Investment Business" for a fuller discussion of the risks of dealing with unlicensed forex and binary options operators, and advised that anyone who believed they had been victimized by Broker Option or a similar forex or binary options scheme should contact the financial crime authorities in their own jurisdiction, since an unlicensed offshore operator gives victims little practical recourse once funds have been sent.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'high',
+    sources: ['Anguilla Financial Services Commission (FSC)'],
+    sourceUrl: 'https://www.fsc.org.ai/documents/Publications/Investor%20Alerts/Investor%20Alert%20-%20Broker%20Option.pdf',
+    country: 'AI',
+  },
+);
+
+International.push(
+  {
     name: `Curaçao Unlicensed "Curaçao Forex" Investment Platform`,
     slug: 'curacao-unlicensed-curacao-forex-investment-platform',
     description: `The Centrale Bank van Curaçao en Sint Maarten (CBCS) issued a public warning on May 18, 2026 about an outfit calling itself "Curaçao Forex," which had been promoting investment opportunities to the public through local newspapers and other advertising channels. The CBCS said the platform is not licensed, registered, or supervised by the central bank to offer any financial or investment services, despite trading on the territory's name to appear credible. The bank warned that investing with an unauthorized entity like this can result in the total loss of funds with little or no realistic chance of recovering the money afterward, since unlicensed providers fall outside the consumer protections and oversight that come with genuine regulation. The CBCS listed red flags shared by "Curaçao Forex" and similar schemes: promises of guaranteed or unusually high returns, so-called "exclusive" or time-limited opportunities, offers that seem too good to be true, and pressure to transfer money quickly. The advisory urged anyone approached with an investment pitch to verify the provider's licensing status through the CBCS's official Register of Supervised Institutions before signing any agreement or sending funds.`,
