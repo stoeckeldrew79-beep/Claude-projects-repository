@@ -6733,3 +6733,17 @@ UsAF.push({
     isHistorical: true,
     firstRecorded: '2022-12-08',
 });
+
+UsAF.push({
+    name: "Carol Ann Feist In-Law Impersonation Bank Fraud (Montana)",
+    slug: 'carol-ann-feist-montana-in-law-bank-impersonation-fraud',
+    description: `Carol Ann Feist, 57, of Whitehall, Montana, called a US Bank customer service line on October 26, 2021 and impersonated her own elderly mother-in-law, using personal identifying information she already had access to as a family member to convince the bank representative she was speaking with the real account holder. Once the representative was satisfied, Feist directed a $134,000 wire transfer — her in-laws' entire life savings — out of their Bismarck, North Dakota checking account and into a title company in Helena, Montana, to use as the down payment on a home she was buying for herself in Whitehall. She had laid the groundwork earlier by forging her father-in-law's signature as a co-borrower on the property's closing documents, alongside a fraudulent North Dakota notary stamp, so the purchase would appear to have his backing even though he never knew about or approved any of it. Feist pleaded guilty to bank fraud and aggravated identity theft, and on April 13, 2023, was sentenced in the District of North Dakota to 65 months in federal prison, three years of supervised release, and full restitution of the $134,000 taken from her mother-in-law and father-in-law. The case is a reminder that elder financial exploitation often comes from inside the family rather than a stranger on the phone, and that a bank representative satisfied by identifying details alone can be fooled by someone who already has close access to an older relative's personal information — families concerned about an aging relative's accounts can ask their bank about adding fraud alerts, transaction notifications, or a trusted-contact designation that flags unusual large transfers before they go through.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'medium',
+    sources: ['U.S. Department of Justice — District of North Dakota'],
+    sourceUrl: 'https://www.justice.gov/usao-nd/pr/montana-woman-sentenced-federal-prison-stealing-134000-her-elderly-mother-law-and-father',
+    country: 'US',
+    state: 'MT',
+    isHistorical: true,
+    firstRecorded: '2023-04-13',
+});
