@@ -11018,6 +11018,36 @@ International.push(
     sourceUrl: 'https://www.waterkant.net/suriname/2026/06/09/politie-waarschuwt-voor-facebook-oplichters-slachtoffers-betalen-maar-krijgen-niets-geleverd/',
     country: 'SR',
   },
+  {
+    name: 'Suriname Fake Traffic Fine SMS Phishing Scam',
+    slug: 'suriname-fake-traffic-fine-sms-phishing-scam',
+    description: `The Suriname Police Corps (Korps Politie Suriname) issued a public warning on August 4, 2026 about a fake SMS message spreading rapidly across the country, telling recipients they had committed a traffic violation and could view — and pay — the alleged fine by clicking a link included in the text. The message was crafted to look official, exploiting the public's familiarity with digital traffic-fine notices, but police stated explicitly that the message "niet van haar afkomstig is of van e-Government Suriname" (did not come from the Police Corps or from e-Government Suriname, the government's digital services agency). Investigators described the scheme as a likely form of phishing, in which the embedded link is meant to trick recipients into handing over personal or financial information rather than showing any real traffic citation. Because the message spread virally, often forwarded by well-meaning recipients trying to warn friends and family, it reached a large number of households in a very short time. Police urged anyone who received the message not to open the link under any circumstances, to delete the message immediately, and not to forward it to others, since each forward extended the scam's reach. The Police Corps reiterated that any genuine notice about a traffic violation would never be delivered through an unsolicited SMS containing a payment link.`,
+    categorySlug: 'phishing',
+    alertLevel: 'high',
+    sources: ['Korps Politie Suriname (Suriname Police Corps)', 'Dagblad Suriname'],
+    sourceUrl: 'https://politie.sr/wees-u-alert-voor-valse-verkeersboete-die-viraal-gaat-mogelijk-sprake-van-scamming/',
+    country: 'SR',
+  },
+  {
+    name: 'Suriname WhatsApp Samsung Lottery Scam',
+    slug: 'suriname-whatsapp-samsung-lottery-scam',
+    description: `Suriname's national Computer Security Incident Response Team, DNV CSIRT (part of the Directoraat Nationale Veiligheid), issued a warning on August 21, 2022, later updated in September 2022, about a sharp rise in WhatsApp fraud in which residents received unsolicited messages from unknown numbers claiming they had won a Samsung-branded lottery prize worth "$800.000" plus a new Samsung Galaxy S10E+ smartphone. To "release" the winnings, targets were instructed to buy Steam gift cards or mobile game top-up vouchers and send the redemption codes to the sender, after which the scammer vanished with the value of the cards and no prize was ever delivered. CSIRT explained that receiving such a message does not mean a victim's own account was hacked; rather, scammers harvest phone numbers from public sources and message them essentially at random, so any Surinamese WhatsApp user could be targeted regardless of their own security habits. The agency noted that many of these messages carry the hallmarks of a largely automated, poorly translated operation — disjointed sentence construction and language errors consistent with machine translation — and encouraged the public to treat that as a red flag. CSIRT said Surinamese victims had already lost significant sums to the scheme and pointed to arrests of perpetrators abroad as evidence it was being run as an organized, cross-border operation. Residents were urged to report any such message through CSIRT's own reporting portal at csirt.sr/meldpunt so numbers could be tracked and blocked before more people were targeted.`,
+    categorySlug: 'lottery-sweepstakes-scams',
+    alertLevel: 'high',
+    sources: ['DNV CSIRT (Suriname Computer Security Incident Response Team)', 'Waterkant'],
+    sourceUrl: 'https://csirt.sr/stevige-groei-van-oplichting-via-whatsapp-ook-in-suriname/',
+    country: 'SR',
+  },
+  {
+    name: 'Suriname "Wallet" Pyramid Investment Scheme',
+    slug: 'suriname-wallet-pyramid-investment-scheme',
+    description: `The Centrale Bank van Suriname (Central Bank of Suriname, CBvS), following an earlier warning from the Suriname Police in July 2020, issued its own communiqué in September 2020 about a pyramid scheme operating under the name "Wallet." Participants handed money directly to a single organizer in exchange for a promised outsized payout — in the example CBvS cited, a deposit of 400 SRD was promised a return of 22,400 SRD — and were encouraged to recruit friends and family to join, boosting their own eventual payout. The Central Bank stated plainly that it is not possible to earn money quickly or easily in an honest way, warning that arrangements like Wallet inevitably collapse once new recruitment can no longer keep pace with the payouts owed to earlier participants, leaving the great majority of participants with a total loss. Because schemes like Wallet typically operate outside any licensed financial institution and often outside Suriname's own jurisdiction, CBvS cautioned that victims have very little realistic legal recourse to recover their money once the scheme folds. The Bank described the warning as one in a recurring series it has had to issue over the years, as similar pyramid and Ponzi-style "investment" offers keep resurfacing under new names, and it urged the public to treat any offer promising rapid, guaranteed multiplication of money as a serious warning sign rather than a real opportunity.`,
+    categorySlug: 'ponzi-pyramid-schemes',
+    alertLevel: 'medium',
+    sources: ['Centrale Bank van Suriname (Central Bank of Suriname)', 'Korps Politie Suriname (Suriname Police Corps)', 'Waterkant'],
+    sourceUrl: 'https://www.waterkant.net/suriname/2020/09/02/centrale-bank-van-suriname-waarschuwt-voor-piramidespel-wallet/',
+    country: 'SR',
+  },
 );
 
 International.push(
