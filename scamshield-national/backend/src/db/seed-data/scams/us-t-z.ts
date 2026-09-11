@@ -3264,3 +3264,17 @@ UsTZ.push({
     isHistorical: true,
     firstRecorded: '2026-06-16',
 });
+
+UsTZ.push({
+    name: 'Texas Workforce Commission Fake "Employment Records" Portal Scam',
+    slug: 'texas-twc-fake-employment-records-portal-scam',
+    description: `A phishing email circulating in late October 2025, with the subject line "Follow-Up: Submission of Employment Records – Action Required by Oct 27, 2025," targets Texas employers rather than individual claimants — a departure from the unemployment-fraud scams typically aimed at benefit recipients. The email demands that the business submit employment separation records for every employee going back to 2015, then links to a fake portal built to mimic the Texas Workforce Commission's real Employer Benefits Services (EBS) application, aiming to harvest years of former employees' personal and separation data in a single upload rather than targeting people one at a time. TWC confirmed the email is not from the agency and the linked portal is not a valid TWC webpage, warning employers not to upload any files to it. The agency noted two reliable tells: TWC only emails employers from addresses ending in "@twc.texas.gov" or "@public.govdelivery.com," and it corresponds with employers in English only, never Spanish, so a Spanish-language version of this or any similar notice is automatically fraudulent. Employers unsure whether a notice is genuine are directed to search "Scams" on twc.texas.gov and check the "Valid Notices Sent to TWC Customers" section, or to submit an external contact request through TWC's site to verify before responding to any unexpected request for employee records.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Texas Workforce Commission'],
+    sourceUrl: 'https://www.twc.texas.gov/sites/default/files/fdcm/docs/10-29-2025-govdelivery-employmentrecords-scam-twc.docx',
+    country: 'US',
+    state: 'TX',
+    isHistorical: true,
+    firstRecorded: '2025-10-29',
+});
