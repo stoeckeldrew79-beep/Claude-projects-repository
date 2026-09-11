@@ -6947,6 +6947,9 @@ If you are a current or former Dollar Tree or Family Dollar employee who receive
     slug: "dutch-national-police-2024-data-breach-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "dutch-national-police-2024-data-breach"],
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Logo_of_the_Dutch_National_Police.svg?width=1200",
+    coverImageCredit: "Rijksoverheid (Government of the Netherlands) / Wikimedia Commons / CC0 — the official logo of the Dutch National Police (Politie)",
+    coverImagePosition: 50,
     sourceUrl: "https://therecord.media/dutch-police-state-actor-breach",
     body: `The Netherlands' national police force, the Politie, disclosed on September 26, 2024 that hackers had broken into a police IT system and made off with a large batch of personal data belonging to officers across the country. Justice and Security Minister David van Weel briefed the Dutch Parliament on the incident, and within days Dutch authorities said they considered it "highly likely" that a state actor — a hacking group working on behalf of a foreign government — was responsible, rather than a criminal gang looking to sell the data or extort the force.
 
