@@ -3364,6 +3364,10 @@ NotoriousNS.push(
     slug: 'donald-sheelen-regina-company-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/New_Jersey_State_House_north_panorama.jpg?width=1200',
+    coverImageCredit: 'Niagara, CC BY-SA 3.0, via Wikimedia Commons',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.upi.com/Archives/1989/02/08/Top-Regina-officers-admit-false-financial-statements/3396602917200/',
     body: `Regina had been making vacuum cleaners in Rahway, New Jersey, for decades by the time Donald D. Sheelen took over as chairman, chief executive, and president in the 1980s, but under his leadership it briefly became a Wall Street growth story. The 1986 launch of the Housekeeper upright, backed by heavy network television advertising, was marketed as the turnaround product that would make Regina a major national vacuum brand again, and investors bought the story: Regina's stock climbed as high as $27.50 a share by July 1988 on the strength of financial statements showing the company swinging to real profitability.
 
