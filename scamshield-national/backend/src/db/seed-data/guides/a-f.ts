@@ -6928,6 +6928,9 @@ If you've ever had a debt — a credit card, a phone bill, a medical balance, a 
     slug: "dollar-tree-zeroed-in-2023-data-breach-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "dollar-tree-zeroed-in-2023-data-breach"],
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Dollar_Tree_Store_Waterbury_CT_(14368757583).jpg?width=1200",
+    coverImageCredit: "Photo: Mike Mozart, CC BY 2.0, via Wikimedia Commons — a Dollar Tree store",
+    coverImagePosition: 50,
     sourceUrl: "https://www.bleepingcomputer.com/news/security/dollar-tree-hit-by-third-party-data-breach-impacting-2-million-people/",
     body: `Dollar Tree and its subsidiary Family Dollar began sending breach notification letters in late November 2023 to nearly 2 million current and former employees — but the intrusion that exposed their information never touched a Dollar Tree or Family Dollar computer at all. The breach happened at Zeroed-In Technologies, a much smaller company most of those employees had never heard of: a workforce-analytics vendor that Dollar Tree hired to crunch HR data like staffing levels, turnover, and compensation trends. Zeroed-In told Dollar Tree that unauthorized access to its systems occurred between August 7 and 8, 2023, but it took roughly three and a half months for the vendor to determine exactly whose data had been exposed and notify the retailer — the kind of lag that is common, and consistently frustrating for victims, in breaches involving a third-party data processor rather than a company's own network.
 
