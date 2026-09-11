@@ -7612,3 +7612,20 @@ Both men were convicted of conspiracy to commit money laundering. Senior U.S. Di
 The rideshare-courier layer of this scheme is precisely the piece that grandparent scams depend on and that families rarely think to warn each other about: the caller supplies the fear and the false identity, but someone still has to physically collect the cash and get it out of the country, and increasingly that job goes not to a specialized "money mule" but to an app-summoned driver who has no idea what's in the envelope or bag they're handling. For families of elderly relatives, the practical takeaway prosecutors keep repeating is the same one at the center of this case: verify a distressed relative's identity independently, by calling them back on a known number, before any cash changes hands with a stranger at the door — rideshare driver included.`,
   },
 );
+
+NotoriousGM.push(
+  {
+    title: "George Levin and the Fake Legal Settlements That Fed Scott Rothstein's Ponzi Scheme",
+    slug: 'george-levin-banyon-rothstein-feeder-fund-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://www.sec.gov/newsroom/press-releases/2012-2012-100htm',
+    body: `George Levin, a Fort Lauderdale businessman, was by the SEC's account the single largest source of outside money that flowed into disbarred attorney Scott Rothstein's $1.2 billion Ponzi scheme — one of the largest in Florida history. Levin didn't run the underlying fraud, but the feeder operation he built around it raised more than $157 million from 173 investors in less than two years, and without it Rothstein's scheme would have run out of fuel far sooner than it did.
+
+Levin's pitch, sold through his company and later through Banyon Income Fund LP, formed with co-defendant Frank Preve in 2009, was that investors were buying discounted structured legal settlements from Rothstein's prominent law firm — paying less than face value now in exchange for the full settlement payout later, with Banyon pocketing the spread. In reality, prosecutors and the SEC later established, the settlements didn't exist: there were no real plaintiffs, no real defendants, and no real underlying legal claims. Levin and Preve told investors they had safeguards in place to verify each settlement before purchasing it, but the SEC found they frequently bought in without ever seeing the supporting legal documents, and continued raising fresh money into 2009 even as Rothstein had already stopped paying out on many earlier investments.
+
+The whole arrangement collapsed in October 2009 when Rothstein's fraud came apart and he fled briefly to Morocco before returning to face charges; he was later sentenced to 50 years in federal prison. The SEC filed civil fraud charges against Levin and Preve in May 2012, seeking disgorgement, penalties, and a permanent injunction against future securities violations. A federal jury subsequently found Levin liable for fraud in connection with the money he raised.
+
+Levin's case illustrates a recurring feature of large Ponzi schemes: they rarely run on the fraudster's own charisma alone. Rothstein needed feeder networks like Banyon to keep new money arriving faster than old investors demanded payouts, and the people running those networks — even when they insist they were themselves deceived — can end up legally and financially responsible for the money they funneled into a fraud they were supposed to be vetting.`,
+  },
+);
