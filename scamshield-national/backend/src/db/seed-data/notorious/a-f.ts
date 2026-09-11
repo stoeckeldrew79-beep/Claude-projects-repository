@@ -6997,6 +6997,10 @@ Fraud built around curses, hexes, and spiritual "cleansings" survives because it
     slug: 'alexander-baldonado-medicare-kickback-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Federal_Courthouse_Brooklyn.jpg?width=1200',
+    coverImageCredit: 'Photo: Beyond My Ken, CC BY-SA 4.0, via Wikimedia Commons — the federal courthouse in Brooklyn, home of the Eastern District of New York',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     sourceUrl: 'https://www.justice.gov/opa/pr/doctor-sentenced-seven-years-prison-24m-medicare-fraud',
     body: `Alexander Baldonado, M.D., 69, of Queens, New York, was a licensed physician whose signature was worth money to the people running fraudulent medical billing schemes — not for any care he provided, but simply because a doctor's order is what turns a lab test or a piece of medical equipment into something Medicare will pay for. Federal prosecutors say Baldonado sold that signature for cash, again and again, over years.
 
@@ -7014,6 +7018,10 @@ NotoriousAF.push(
     slug: 'calvin-darden-jr-dwight-howard-atlanta-dream-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Thurgood_Marshall_United_States_Courthouse,_New_York.jpg?width=1200',
+    coverImageCredit: 'Photo: Mike Peel (mikepeel.net), CC BY-SA 4.0, via Wikimedia Commons — the Manhattan federal courthouse where Darden was tried and sentenced',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     sourceUrl: 'https://www.justice.gov/usao-sdny/pr/atlanta-man-sentenced-151-months-prison-defrauding-former-nba-players',
     body: `Calvin Darden Jr., of Atlanta, pitched former NBA All-Star Dwight Howard on a chance to become the first Black majority owner of a WNBA franchise: an opportunity, Darden said, to buy the Atlanta Dream. To make the deal look real, prosecutors say Darden put together a glossy "Vision Plan" claiming that Tyler Perry, Issa Rae, Naomi Osaka, Aflac, and Starbucks had all agreed to serve as advisors to the team or sponsor it once Howard took ownership — a roster of boldface names designed to make a fake acquisition feel like an inevitability rather than a pitch worth independently checking.
 
