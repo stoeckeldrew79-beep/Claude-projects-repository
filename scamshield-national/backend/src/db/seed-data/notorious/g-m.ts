@@ -6110,6 +6110,9 @@ NotoriousGM.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
     sourceUrl: 'https://www.justice.gov/usao-edmi/pr/ponzi-scheme-fraudster-sentenced-11-years-prison-embezzling-over-4-million',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Theodore_Levin_United_States_Courthouse_Detroit_MI.jpg?width=1200',
+    coverImageCredit: 'Andrew Jameson / Wikimedia Commons (CC BY-SA 3.0) — Theodore Levin U.S. Courthouse, Detroit, where Accettola was sentenced',
     body: `Gino Accettola, of Shelby Township in Macomb County, Michigan, was already a familiar name to prosecutors by the time federal investigators caught up with his final scheme. Court records show Accettola had been convicted of fraud-related crimes sixteen separate times between 1991 and 2019 — a criminal history that makes his last case less a single isolated fraud than the closing chapter of a decades-long pattern.
 
 Between 2014 and 2016, Accettola solicited investments from friends and acquaintances by promising abnormally high, short-term returns, telling them their money would fund commercial construction projects in Michigan and Florida. According to the U.S. Attorney's Office for the Eastern District of Michigan, many of those projects simply didn't exist. In one instance, Accettola claimed he was personally friends with the managing partner of a real Michigan manufacturing company and that investor money would support a facility the company was building — a company he in fact had no connection to and a managing partner he had never met. To keep the story convincing, prosecutors said Accettola fabricated emails, contracts, and payout schedules made to look as though they came from the company, its managing partner, and other employees who had no idea their names were being used.
