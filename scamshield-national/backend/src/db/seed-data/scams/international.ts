@@ -13580,3 +13580,16 @@ International.push(
     country: 'FM',
   },
 );
+
+International.push(
+  {
+    name: 'FSM Department of Finance Employee Charged in Unauthorized Check Scheme',
+    slug: 'fsm-finance-administration-employee-fraud-charges',
+    description: `The FSM Government announced on May 1, 2023 that on March 24, 2023 it had filed criminal charges in the FSM Supreme Court against Sylvia Edward, an employee of the national Department of Finance & Administration in Palikir, Pohnpei, for conflict of interest under Title 11, Section 512, theft under Title 11, Section 602, money laundering under Title 11, Section 918, and unauthorized possession or removal of property. At her initial appearance the same day, Edward waived a reading of the charges and her rights, and the court set an unsecured appearance bond of $50,000 with pretrial conditions that included surrendering her passport with no right to seek a new one, a prohibition on leaving Pohnpei State without the Supreme Court's permission, a bar on accessing any bank account or negotiating any check or other financial instrument without prior court approval, and a bar on communicating with any Department of Finance & Administration employee or potential witness except through her attorney. The FSM Government's announcement said the Executive Branch would make no further public comment on the matter until the criminal case concluded, and that Edward, as in any criminal proceeding, is presumed innocent until proven guilty beyond a reasonable doubt. The case illustrates a fraud pattern consumer-protection advocates warn about wherever government or company disbursement systems rely on one insider's trust: an employee with the standing to originate payment requests is positioned to route public or organizational funds to themselves or associates by manipulating the routine approval process from the inside, a risk mitigated by segregating who can request, approve, and issue payments and by independently auditing disbursements rather than relying on the requester's own paperwork.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'medium',
+    sources: ['FSM Government (gov.fm)', 'National Department of Education (NDOE), FSM'],
+    sourceUrl: 'https://gov.fm/fsm-government-charges-department-of-finance-administration-employee-with-conflict-of-interest-theft-money-laundering-unauthorized-possession-or-removal-of-property/',
+    country: 'FM',
+  },
+);
