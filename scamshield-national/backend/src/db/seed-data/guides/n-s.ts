@@ -3915,6 +3915,10 @@ Precious metals pitched as an IRA or retirement investment are a recurring patte
     slug: "peabody-properties-data-breach-settlement-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "peabody-properties-data-breach-settlement"],
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Triple-decker_porches_on_Rosseter_Street,_Dorchester,_July_2013.JPG?width=1200",
+    coverImageCredit: "Photo: Pi.1415926535, CC BY-SA 4.0, via Wikimedia Commons — a New England triple-decker apartment house",
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: "https://www.mass.gov/news/ag-campbell-reaches-795000-settlement-with-property-management-company-for-failing-to-protect-the-personal-information-of-thousands-of-massachusetts-residents",
     body: `Peabody Properties, Inc., a Braintree-based firm that manages more than 15,000 residential units across New England, New Jersey, and Florida — with a business built substantially around affordable and subsidized housing — agreed in August 2025 to pay $795,000 to settle allegations brought by Massachusetts Attorney General Andrea Joy Campbell that it failed to protect residents' personal information and then sat on the news when things went wrong. The settlement, filed as a consent judgment pending court approval, resolves claims under the Massachusetts Consumer Protection Act and the state's Data Security Law.
 
@@ -3931,6 +3935,10 @@ The case is a reminder that a data breach's damage isn't limited to the initial 
     slug: "renton-collections-medical-debt-settlement-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "renton-collections-medical-debt-settlement"],
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Washington_State_Capitol_with_Mount_Rainier.jpg?width=1200",
+    coverImageCredit: "Photo: Nils Huenerfuerst, CC BY 4.0, via Wikimedia Commons — the Washington State Capitol",
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: "https://www.atg.wa.gov/news/news-releases/renton-collections-provide-washingtonians-15-million-medical-debt-relief-settle",
     body: `A medical bill sent to collections rarely comes with much explanation — often just a balance owed and a demand for payment. Washington state law says that's not good enough: since 2019, debt collectors pursuing medical debt in the state have been required to tell consumers, in their very first written notice, that they have the right to request an itemized statement showing exactly what they're being asked to pay for. On April 13, 2026, Washington Attorney General Nick Brown's office announced a consent decree with Renton Collections, Inc. (RCI) resolving a lawsuit alleging the company spent years not telling roughly 400,000 Washingtonians that right even existed.
 

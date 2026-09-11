@@ -8132,3 +8132,20 @@ Ikahn's scheme illustrates a recruiting tactic that shows up again and again in 
     sourceUrl: 'https://www.cftc.gov/PressRoom/PressReleases/9139-25',
   },
 );
+
+NotoriousGM.push(
+  {
+    title: 'James Ossie\'s CRE Capital: A Guaranteed 10%-in-30-Days Currency Ponzi Scheme',
+    slug: 'james-ossie-cre-capital-currency-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    body: `James G. Ossie ran CRE Capital Corporation out of Alpharetta, Georgia, pitching what he called "30-Day Currency Trading Contracts" — an investment program that guaranteed investors a 10% return within thirty days, backed, he told them, by a "large, defensive reserve fund" CRE had set aside specifically to cover redemptions and promised profits even when a given month's trades didn't pan out. He also claimed the program had been reviewed by an outside auditor who'd confirmed it wasn't a fraud, the kind of manufactured credibility that made a guarantee which should have raised red flags on its own look instead like a rare, low-risk opportunity in the foreign exchange market.
+
+From around April 2008 into January 2009, CRE and Ossie raised at least $25 million from more than 120 investors on that pitch. There was no consistent trading profit behind the returns; the SEC later found CRE was paying investors' guaranteed 10% out of money coming in from newer investors, classic Ponzi mechanics dressed up as a currency-arbitrage strategy. The scheme collapsed once new money couldn't keep pace with existing obligations, and the SEC moved to freeze CRE's and Ossie's assets on January 15, 2009. Ossie didn't respect the freeze: he sold a BMW 750 for $51,000 and attempted to move $45,000 into an account controlled by his wife, prompting the SEC to file a contempt application against him weeks later.
+
+A federal grand jury indicted Ossie on ten counts of wire fraud, and he pleaded guilty to the underlying conduct. On July 30, 2009, U.S. District Judge William S. Duffey Jr. sentenced him in the Northern District of Georgia to 82 months in federal prison and ordered him to pay more than $18.7 million in criminal restitution. The civil side of the case closed out more than a year later: a December 2010 consent order required CRE to pay $5.7 million in restitution and a $15.2 million civil penalty, and Ossie personally to pay a $4.8 million penalty, on top of permanent bans on trading and registering with regulators.
+
+Ossie's case is a reminder that a guarantee is itself the tell in an investment pitch — no legitimate currency-trading strategy can promise a fixed 10% return in exactly thirty days regardless of market conditions, and the "reserve fund" he pointed to as reassurance was never anything more than the next round of victims' deposits.`,
+    sourceUrl: 'https://www.cftc.gov/PressRoom/PressReleases/5948-10',
+  },
+);
