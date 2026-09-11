@@ -5303,6 +5303,10 @@ NotoriousNS.push(
     slug: 'ronnie-gene-wilson-atlantic-bullion-coin-silver-ponzi',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    // representative photo — replace with an exact match if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/1000oz.silver.bullion.bar.underneath.jpg?width=1200',
+    coverImageCredit: 'Photo: Unit 5 (CC BY-SA 3.0) — silver bullion bars, the asset Wilson\'s clients believed they owned',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.cftc.gov/PressRoom/PressReleases/6275-12',
     body: `Ronnie Gene Wilson ran Atlantic Bullion & Coin out of Easley, South Carolina, a small precious-metals dealership that, on paper, offered a simple and conservative pitch: send Wilson money, and he would use it to buy physical silver bullion on the client's behalf, holding it safely at a depository in Delaware until the client wanted to sell or take delivery. A former Anderson County councilman with deep roots in the community, Wilson drew investors largely through personal relationships, and kept the pitch running for more than a decade, from as early as 2001 through March 2012.
 
@@ -5313,5 +5317,22 @@ Wilson pleaded guilty to two counts of mail fraud, and on November 13, 2012, U.S
 More than a decade later, Wilson's case took an unexpected turn: he was among the people whose sentences President Biden commuted in a broad round of clemency issued in the final weeks of his administration in January 2025. For the investors Wilson defrauded — many of them elderly, some of them, like his own brother and daughter, family — the commutation cut short a sentence a judge had handed down specifically because she saw those victims as deserving of extra protection.
 
 Atlantic Bullion's silver never had to physically not exist for the fraud to work — it only had to be unverifiable to the people who had paid for it. A depository statement a client never independently confirms, for a metal a client never personally holds, is functionally identical to a fabricated one; the entire scheme rested on investors trusting a monthly piece of paper over a phone call to the depository that would have unraveled it in minutes.`,
+  },
+);
+
+NotoriousNS.push(
+  {
+    title: 'Nadine Wade and the Bronx Laundering Operation Behind an African Romance-Scam Network',
+    slug: 'nadine-wade-romance-scam-money-laundering',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.irs.gov/compliance/criminal-investigation/bronx-woman-sentenced-to-63-months-in-prison-for-laundering-over-2-million-for-african-romance-scammers',
+    body: `Nadine Jazimne Wade, of the Bronx, ran what prosecutors described as a de facto clearing house for an international romance-scam ring based in Nigeria and South Africa, laundering more than $2 million in stolen funds from roughly 2016 through 2021. Wade wasn't the one building the fake relationships — that fell to overseas co-conspirators who posed on dating websites under invented personas including "Diego Francisco" and "Richard Francisco," cultivating romantic relationships with victims, many of them older men and women, before asking them to send money. Wade's job was to receive it and make it disappear into the ordinary financial system.
+
+To do that, Wade controlled more than 18 different U.S. bank accounts, funneling scam proceeds through them and through a shell company she had set up called Royal Treasure Chest LLC, which purported to sell women's clothing and accessories — a plausible-looking retail front that gave incoming wire transfers and checks from victims a legitimate-seeming business reason to exist. Deposits across her accounts totaled more than $2 million, nearly all of it traced back to romance-fraud victims who believed they were sending money to someone who loved them.
+
+Wade did not plead guilty. Prosecutors in the Southern District of New York took the case to trial, and after a two-week proceeding before U.S. District Judge Katherine Polk Failla, a jury convicted her of money laundering and bank fraud charges in December 2023. She was sentenced to 63 months in federal prison plus three years of supervised release, and ordered to pay $1,772,618 in restitution along with forfeiture of $2,261,791. Announcing the sentence, then-U.S. Attorney Jay Clayton said Wade "used lies and deception to launder over two million dollars for scam artists in Nigeria and South Africa," money "stolen from vulnerable elderly men and women as part of a cruel romance scam."
+
+Romance scams are frequently discussed as a story about the person on the other end of the chat window, but Wade's case is a reminder that the money has to go somewhere real once a victim wires it — and that the U.S.-based accounts and shell companies receiving it are themselves a prosecutable, and often more findable, link in the chain than an overseas scammer using a fake name and a stolen photo.`,
   },
 );
