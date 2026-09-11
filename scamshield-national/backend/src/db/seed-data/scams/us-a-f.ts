@@ -6699,3 +6699,16 @@ UsAF.push({
     country: 'US',
     state: 'AL',
 });
+
+
+UsAF.push({
+    name: 'Arizona Sober Living Home Medicaid Fraud Scheme',
+    slug: 'arizona-sober-living-home-medicaid-fraud-scheme',
+    description: `Starting around 2019 and accelerating once Arizona relaxed pandemic-era restrictions on remote and telehealth billing, operators across the state opened "sober living" homes that recruited people struggling with addiction — disproportionately Native Americans, including many recruited directly off reservations and out of homeless shelters in other states with promises of free housing and treatment — and used their identities to bill the Arizona Health Care Cost Containment System (AHCCCS), the state's Medicaid program, for intensive behavioral health services that were reduced, watered down, or never provided at all. Investigators with Arizona Attorney General Kris Mayes' Office found that instead of receiving real treatment, residents were often given easy access to the same drugs and alcohol they had come to recover from, kept enrolled and billable for as long as possible, and shuffled between facilities once one home's billing was flagged; state officials say at least 40 people died in these homes, and AHCCCS estimates roughly $2.8 billion in fraudulent billing flowed through the scheme since 2019. In one resolved case, a Maricopa County Superior Court judge ordered L & L Investments, LLC — which had expanded its fraudulent billing model into Arizona from Nevada and also worked as a paid "consultant" helping other operators replicate it — to pay $34,236,207.52 in restitution and fines on May 12, 2025 after its felony conviction for defrauding AHCCCS's behavioral health program. "This wasn't just theft from the state — it was exploitation of vulnerable Arizonans seeking help in recovery," Attorney General Mayes said in announcing the judgment. More than 120 individuals and entities have been criminally charged statewide as of mid-2026, with roughly 200 more cases still under active investigation, and Mayes' office has separately distributed a $6 million grant program to tribal nations to help identify and house displaced victims. Families of someone in addiction treatment should independently verify that a sober living home or "behavioral health" provider is actually licensed by the Arizona Department of Health Services and enrolled with AHCCCS, should be able to reach the resident directly and confirm they are receiving real, scheduled counseling or medical care rather than just a bed, and should be suspicious of any facility that recruited the person from out of state, discourages contact with family, or moves residents between locations without explanation.`,
+    categorySlug: 'healthcare-fraud',
+    alertLevel: 'critical',
+    sources: ["Arizona Attorney General's Office", 'AHCCCS Office of Inspector General'],
+    sourceUrl: 'https://www.azag.gov/press-release/attorney-general-mayes-secures-over-34-million-fines-and-restitution-company',
+    country: 'US',
+    state: 'AZ',
+});

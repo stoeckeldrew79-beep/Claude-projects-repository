@@ -12920,3 +12920,42 @@ International.push(
     country: 'CW',
   },
 );
+
+International.push(
+  {
+    name: 'Guam Advance-Fee "Multimillion-Dollar Inheritance" Scam Ring',
+    slug: 'guam-advance-fee-multimillion-dollar-inheritance-scam-ring',
+    description: `Between roughly 2016 and 2021, a multi-state and international ring of at least seven conspirators defrauded about 60 victims — nearly all of them on Guam — out of a combined $2.6 million by convincing them they were about to receive a share of a multimillion-dollar inheritance, provided they first paid a series of "processing," "legal," "tax," and other release fees. Federal prosecutors said two Guam women, Teresa Adamos Pereda and Sally Cruz Roberto, served as local recruiters and points of contact, drawing in family members, coworkers, and fellow congregants from St. Paul Christian Church and St. Paul Christian School alumni circles, while Nigerian nationals Okechukwu F. Iwuji and Jide Abimbola (also using the aliases Mark Long, Grang Long, Greg Long, and Luke Joshua) and others directed the scheme from off-island, and Monique Jones and Mekayda D. Jones helped launder the proceeds through bank accounts in Texas. Victims who balked or asked questions were told additional "final" fees were required before funds already deemed theirs could be released — money that, in reality, never existed. The District Court of Guam handed down a string of sentences: Pereda, who alone defrauded at least 36 victims including relatives and church acquaintances from January 2016 to November 2019, received eight years in federal prison; Monique Jones was sentenced to 48 months on wire fraud and money-laundering conspiracy counts; Iwuji received 45 months; Roberto received 33 months; and Abimbola pleaded guilty to conspiracy to commit wire fraud, with additional co-defendants extradited from Texas and Georgia to face trial. The case shows how an inheritance scam can hide behind a trusted local face — a relative, coworker, or fellow parishioner — recruited specifically because victims would never suspect someone from their own community and congregation.`,
+    categorySlug: 'lottery-sweepstakes-scams',
+    alertLevel: 'high',
+    sources: ['U.S. Attorney\'s Office, Districts of Guam and the Northern Mariana Islands', 'Pacific Daily News (postguam.com)', 'KUAM News', 'Pacific Island Times'],
+    sourceUrl: 'https://www.postguam.com/news/local/man-admits-role-in-inheritance-scam-that-defrauded-dozens-on-guam/article_6a52f974-5721-11ec-96e4-7feff78c1663.html',
+    country: 'GU',
+  },
+);
+
+International.push(
+  {
+    name: 'Guam Power Authority "Pay Now or Be Disconnected" Phone Scam',
+    slug: 'guam-power-authority-pay-now-disconnection-phone-scam',
+    description: `The Guam Power Authority (GPA) and the Mariana Regional Fusion Center (MRFC), Guam's homeland-security intelligence-sharing office, issued a joint public advisory warning residents about callers impersonating GPA employees and demanding immediate phone payment to avoid having their electricity cut off. Customers reported receiving the calls from off-island numbers, including 888-864-1797 and 406-420-8348, as well as what appeared to be local numbers; the callers pressed for card or account information on the spot, relying on the fear of losing power to push people into paying before they could stop and verify the claim. GPA General Manager John M. Benavente stated in the advisory that "fraudulent telemarketers or scammers understand human nature, prey on our vulnerability, including the pressure to act immediately," and stressed that GPA employees do not initiate calls to customers demanding immediate telephone payment and never threaten same-day disconnection over the phone. The utility urged customers never to give payment or personal information to an unverified caller, to independently look up GPA's number rather than call back a number a caller provides, and to verify or pay only through GPA's own channels — the PayGPA.com website, the GPA mobile app, or its official Pay-By-Phone line at (671) 647-5787 — while reporting suspicious calls and any additional numbers used to the MRFC at mrfc@ghs.guam.gov. The pattern is a Guam-specific version of the utility-disconnection scam seen across the U.S. mainland, adapted to target an island grid with a single power provider and a customer base that has nowhere else to turn for electricity, which the scammers use as leverage to manufacture urgency.`,
+    categorySlug: 'utility-scams',
+    alertLevel: 'medium',
+    sources: ['Guam Power Authority (GPA)', 'Mariana Regional Fusion Center (MRFC) / Guam Homeland Security-Office of Civil Defense', 'Pacific Daily News (postguam.com)'],
+    sourceUrl: 'https://ghs.guam.gov/gpa-mrfc-monitor-suspected-phone-scam',
+    country: 'GU',
+  },
+);
+
+International.push(
+  {
+    name: 'Guam-Based "Ichioka Ventures" Bitcoin Investment Feeder Scheme',
+    slug: 'guam-ichioka-ventures-bitcoin-investment-feeder-scheme',
+    description: `From January 2020 to April 2021, Julien Abat Weymouth, 32, of Dededo, Guam, ran an unlicensed cryptocurrency money-transmitting business that fed local investors' cash and Bitcoin into a fraudulent operation called "Ichioka Ventures," run off-island by William Ichioka. Weymouth solicited cash and cryptocurrency from clients and investors on Guam by guaranteeing them a set percentage return, then transmitted the funds — ultimately worth approximately $5,517,323.48 — to Ichioka for purported investment, keeping any returns above the guaranteed rate for himself as an undisclosed fee. He operated without registering as a money-services business with FinCEN or complying with federal anti-money-laundering rules, and prosecutors said he also knowingly accepted funds from people engaged in other illegal activity. Ichioka, prosecuted separately in the Northern District of California, was separately convicted for running the underlying scheme as a Ponzi-style operation that used new investors' money to create the appearance of returns while victimizing more than 100 people — including friends and family — who believed they were funding legitimate cryptocurrency trades; he was sentenced to four years in federal prison and ordered to pay a $5 million fine. Following a joint investigation by the U.S. Secret Service and the Guam Police Department, Weymouth was sentenced in the District Court of Guam to 30 months in federal prison and three years of supervised release, with the court ordering forfeiture of more than 200 Bitcoin (worth over $8 million at the time), six vehicles, and $127,000 held in a bank account. The case illustrates how a trusted local "broker" — someone investors could meet in person on Guam — can be the critical link that lends false legitimacy to a Ponzi scheme actually being run by a stranger thousands of miles away.`,
+    categorySlug: 'cryptocurrency-scams',
+    alertLevel: 'high',
+    sources: ['U.S. Secret Service', 'U.S. Attorney\'s Office, Districts of Guam and the Northern Mariana Islands', 'Guam Police Department', 'Pacific Daily News (postguam.com)', 'KUAM News', 'Pacific Island Times'],
+    sourceUrl: 'https://www.secretservice.gov/newsroom/releases/2024/01/guam-cryptocurrency-broker-sentenced-30-months-federal-prison-55-million',
+    country: 'GU',
+  },
+);

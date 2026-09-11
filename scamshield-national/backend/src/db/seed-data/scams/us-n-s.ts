@@ -4995,3 +4995,16 @@ UsNS.push({
     country: 'US',
     state: 'PA',
 });
+
+
+UsNS.push({
+    name: 'North Carolina Hurricane Helene FEMA Impersonation Scam',
+    slug: 'north-carolina-hurricane-helene-fema-impersonation-scam',
+    description: `In the weeks after Hurricane Helene devastated Western North Carolina in late September 2024, the North Carolina Department of Justice began fielding reports of scammers posing as FEMA housing inspectors and other disaster-relief officials — some showing up in person at storm-damaged homes, others calling or texting — who asked survivors applying for federal disaster assistance to hand over bank account numbers, Social Security numbers, or an upfront "processing fee" before a grant could supposedly be released. Some callers spoofed their caller ID to display what looked like a legitimate FEMA or local government phone number, and other messages arrived as texts or emails with the kind of spelling errors, generic greetings, and non-official web addresses that don't appear in real federal disaster correspondence. North Carolina Attorney General Josh Stein's office stressed in a consumer alert issued November 1, 2024 that real FEMA inspectors never charge a fee to process an application, inspect damage, or approve assistance, and never ask for a survivor's bank account or Social Security number over an unsolicited call, text, or doorstep visit. "Federal and local disaster workers do not solicit or accept money," the alert states. "Do not believe anyone who asks you for payment in return for a disaster grant." Federal prosecutors in the Western District of North Carolina separately charged multiple people criminally in the aftermath of Helene for filing false FEMA claims for damage that never occurred, showing the fraud around a major disaster runs in both directions — against survivors and against the relief funds meant for them. Anyone contacted about Helene assistance, or contacted after any future disaster, should hang up and call FEMA or the NC Division of Emergency Management directly using a number they look up independently rather than one the caller provides, should never give financial or Social Security information to an unverified caller or visitor, and can report suspected fraud to the NC Attorney General's Consumer Protection Division at 1-877-5-NO-SCAM or to the FEMA Disaster Fraud Hotline.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ["North Carolina Department of Justice (Attorney General's Office)"],
+    sourceUrl: 'https://ncdoj.gov/consumer-alert-keep-an-eye-out-for-fake-state-and-federal-assistance-programs/',
+    country: 'US',
+    state: 'NC',
+});
