@@ -4232,6 +4232,9 @@ NotoriousNS.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/usao-sdga/pr/georgia-man-who-used-covid-relief-funds-buy-pokemon-card-sentenced-prison',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/U.S._Post_Office_and_Court_House,_Augusta_(Richmond_County,_Georgia).jpg?width=1200',
+    coverImageCredit: 'Photo: Federal Judicial Center, Wikimedia Commons (public domain) — a U.S. courthouse in the Southern District of Georgia, where Vinath Oudomsine was prosecuted',
     body: `The CARES Act's Economic Injury Disaster Loan program was built for speed. As the pandemic shut down businesses across the country in 2020, Congress and the Small Business Administration streamlined the application process so struggling business owners could get relief funds within days rather than months — a design choice that also meant far less verification than a normal SBA loan would require before money went out the door. Vinath Oudomsine, of Dublin, Georgia, found that gap and used it.
 
 In August 2020, Oudomsine applied for an EIDL loan on behalf of an "entertainment services" business he claimed to operate, telling the SBA it had ten employees and had generated $235,000 in revenue in the twelve months before the pandemic. Based on those representations, the SBA deposited $85,000 into his bank account. Prosecutors said no such business existed at anywhere near the scale he described.
