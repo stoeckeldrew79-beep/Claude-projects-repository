@@ -3342,6 +3342,10 @@ NotoriousNS.push(
     slug: 'elvis-ogiekpolor-romance-scam-money-laundering',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Downtown_Atlanta_skyline_panorama.jpg?width=1200',
+    coverImageCredit: 'London looks, CC BY 2.0, via Wikimedia Commons',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.justice.gov/usao-ndga/pr/georgia-man-who-laundered-millions-romance-scams-business-email-compromises-and-other',
     body: `Elvis Eghosa Ogiekpolor lived in Norcross, Georgia, when federal prosecutors say he built one of the more elaborate money-laundering operations to come out of the wave of online romance and business email compromise fraud that swept the United States in the late 2010s. Between October 2018 and August 2020, Ogiekpolor opened, and directed others to open, more than 50 fraudulent business bank accounts under roughly a dozen shell companies — accounts that existed for one purpose: to receive money that other scammers had already talked victims out of.
 
