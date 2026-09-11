@@ -7064,6 +7064,10 @@ NotoriousAF.push(
     slug: 'dhruv-mangukiya-elder-fraud-money-laundering-ring',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Federal_Courthouse,_Austin,_TX_IMG_6339.JPG?width=1200',
+    coverImageCredit: 'Billy Hathorn / Wikimedia Commons / CC BY-SA 3.0',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.justice.gov/usao-wdtx/pr/indian-national-sentenced-austin-role-multi-million-dollar-elder-fraud-scheme',
     body: `Dhruv Rajeshbhai Mangukiya came to the United States on a student visa. According to the U.S. Attorney's Office for the Western District of Texas, he spent part of that time running the money-laundering end of a scheme built around a single, well-worn lie: that the elderly person on the other end of the phone was in serious legal trouble and needed to act immediately to fix it.
 
