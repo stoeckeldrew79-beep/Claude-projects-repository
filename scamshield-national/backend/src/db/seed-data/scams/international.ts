@@ -13927,3 +13927,16 @@ International.push(
     country: 'LS',
   },
 );
+
+International.push(
+  {
+    name: 'Lesotho Fake "Mercury" Sale & Staged Police Robbery Scam',
+    slug: 'lesotho-fake-mercury-sale-staged-police-robbery-scam',
+    description: `The Lesotho Times reported in late November 2025 on a fraud and robbery case out of Leribe that exposed how deeply a commodity-fraud scheme there had reached into the local police force. A 49-year-old woman, Ntebaleng Chaka of Hlotse Lisemeng 1, was accused of luring a Mosotho woman working in South Africa, 'Mammethe Maphokoane, with an offer to help her source "mercury" — a substance peddled in a long-running Southern African fraud built on the false belief that mercury (sometimes called "red mercury") is an extremely valuable, hard-to-obtain commodity used in everything from gold processing to alleged occult or military applications. Having agreed a price and arranged a meeting to complete the purchase, Maphokoane was confronted at the meeting place by uniformed police officers who stormed in, assaulted her, and demanded money at gunpoint while appearing to conduct a legitimate arrest. It later emerged the officers were not enforcing the law at all but were active participants in Chaka's scheme, and the "arrest" was staged purely to rob the victim of M5,000. Chaka was charged with robbery and fraud and appeared before Magistrate Thoora Semela in the Leribe Magistrate Court, with prosecutor Advocate Tholang Lepheane telling the court the victim had approached Chaka "seeking help in finding someone who could supply mercury"; the two implicated police officers were also arrested, though had not yet been formally arraigned at the time of reporting. The case is a reminder that offers to sell "mercury," "red mercury," or similarly mythologized substances are a long-established fraud, not a real commodity market, and that a uniform is no guarantee the person wearing it is acting lawfully — genuine police conduct can be verified by asking for identification and a case or badge number and confirming it at a police station before any money changes hands.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Lesotho Times'],
+    sourceUrl: 'https://lestimes.com/leribe-police-in-fraud-and-robbery-scandal/',
+    country: 'LS',
+  },
+);
