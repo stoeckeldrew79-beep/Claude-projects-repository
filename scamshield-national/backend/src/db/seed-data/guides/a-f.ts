@@ -7080,6 +7080,9 @@ If you believe you lost money at a Bitcoin Depot kiosk or any crypto ATM, report
     slug: 'att-data-throttling-ftc-refund-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'att-data-throttling-refund'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/AT%26T_Store,_Griffin.JPG?width=1200',
+    coverImageCredit: 'Photo: Michael Rivera (CC BY-SA 3.0) — an AT&T retail store',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.ftc.gov/enforcement/refunds/att-data-throttling-refunds',
     body: `In August 2026, the Federal Trade Commission started sending Zelle payments to former AT&T wireless customers who were owed a refund from a case that's now more than a decade old. The deposits land directly in a recipient's bank account with a note referencing the settlement, and they're going specifically to people the FTC had already tried to pay once, by mailed check or PayPal, who never cashed the check or accepted the payment the first time around. It's the latest chapter in one of the longest-running consumer refund efforts in the agency's history — a reminder that a settlement announced in the news years ago can still be actively distributing money long after most people have stopped paying attention to it.
 
