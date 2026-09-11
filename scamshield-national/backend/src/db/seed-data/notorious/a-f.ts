@@ -4792,6 +4792,9 @@ NotoriousAF.push(
     slug: 'alejandro-andrade-venezuela-treasurer-bribery',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Skyline_Caracas.jpg?width=1200',
     sourceUrl: 'https://www.justice.gov/opa/pr/former-venezuelan-national-treasurer-sentenced-10-years-prison-money-laundering-conspiracy',
     body: `Alejandro Andrade served as Venezuela's National Treasurer for roughly four years starting in 2007, under President Hugo Chávez, a position that put him in charge of deciding which currency brokers got access to the country's tightly controlled foreign-exchange system. Venezuela's currency controls meant that only officially sanctioned transactions could convert bolívars into dollars at the government's official rate, and Andrade's office effectively decided who got to be on the sanctioned list — turning that gatekeeping power into something brokers were willing to pay enormous sums for.
 
