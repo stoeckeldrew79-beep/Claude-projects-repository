@@ -4827,3 +4827,22 @@ The operation's structure spread the work — and the risk — across a long ros
 A scheme this size, run by a network this large, depended less on any single victim being careless than on the sheer volume of business email traffic the conspiracy could quietly monitor and exploit — a reminder that any wire instruction arriving by email, even inside a familiar, ongoing thread with a real vendor or title company, is safer verified by a phone call to a number obtained independently, not one included in the email itself. By the time the FBI's Internet Crime Complaint Center or a bank's fraud department gets involved, a wire sent to the wrong account is often gone within hours; the safeguard that actually works has to happen before the transfer, not after.`,
   },
 );
+
+NotoriousNS.push(
+  {
+    title: 'Norman Schmidt and the $56 Million Scheme That Bought a Colorado Castle',
+    slug: 'norman-schmidt-redstone-castle-investment-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/archive/usao/co/news/2008/April08/4_29_08.html',
+    body: `Between 1999 and 2003, Norman Eugene Schmidt of Denver, Colorado, ran a "high-yield" investment program through a rotating cast of shell entities — Reserve Foundation Trust, Smitty's Investments, Capital Holdings, Monarch Capital Holdings, and Fast Track among them — that promised investors returns nearly impossible to take at face value: gains of 2 to 400 percent per month, described as fully insured, risk-free, and kept in a "nondepleting account" that would never lose principal. Real financial products don't guarantee anything close to those numbers, because no legitimate investment can.
+
+Schmidt built a recruiting network of insurance agents and acquaintances, paying them monthly "override" commissions to bring in new investors, and kept the money flowing with phony account statements that showed balances climbing exactly as promised. He also told investors, according to prosecutors, not to discuss any concerns they had about the investment with police — an instruction that, in hindsight, was as clear a warning sign as the impossible returns themselves. None of the money was actually invested in anything generating real returns; new investors' deposits paid the "returns" owed to earlier ones, the standard Ponzi structure, while Schmidt and his co-conspirators diverted tens of millions of dollars to themselves.
+
+Investigators say the group spent the proceeds on eight NASCAR race cars and, most memorably, Redstone Castle — a 42-room, early-1900s sandstone mansion in Redstone, Colorado, originally built by a coal-and-steel baron, which the scheme's operators purchased for roughly $5 million and used partly as a hospitality venue to court new investors with a setting that projected exactly the kind of old-money legitimacy their promised returns implied.
+
+Schmidt, his wife Jannice, and several co-defendants were indicted in March 2004. A jury convicted Norman Schmidt on 37 felony counts, including conspiracy, mail fraud, wire fraud, securities fraud, and money laundering; his codefendant Charles Franklin Lewis was convicted on 10 felony counts, and George Alan Weed and Michael Duane Smith were convicted on related fraud counts. On April 29, 2008, a federal judge sentenced Schmidt — then 72 — to 330 years in prison and ordered $38.4 million forfeited; his wife received nine years, while Weed and Smith received shorter sentences reflecting their lesser roles. Investigators calculated the scheme had taken in roughly $56 million from victims across the country.
+
+The Redstone Castle case is a reminder that a guaranteed monthly return in double or triple digits is not an aggressive investment strategy — it is a mathematical impossibility, since no real asset class has ever sustained anything close to those numbers over time. A legitimate financial adviser can explain exactly how a promised return would be generated and point to a regulated, independently verifiable fund; an operation that instead offers a lavish historic property as proof of its success, and tells investors not to talk to law enforcement about their doubts, is showing two of the clearest tells a Ponzi scheme can give off.`,
+  },
+);
