@@ -2245,6 +2245,10 @@ The VGW case is worth knowing even if you've never heard of Chumba, Global Poker
     slug: "temu-inform-consumers-act-settlement-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "temu-inform-consumers-act-settlement"],
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/The_Apex_Building,_headquarters_of_the_Federal_Trade_Commission,_on_Constitution_Avenue_and_7th_Streets_in_Washington,_D.C.jpg?width=1200",
+    coverImageCredit: "Photo: Harrison Keely, CC BY 4.0, via Wikimedia Commons — the Apex Building, headquarters of the Federal Trade Commission, which referred this first-ever INFORM Consumers Act enforcement action against Temu",
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: "https://www.ftc.gov/news-events/news/press-releases/2025/09/online-marketplace-temu-pay-2-million-penalty-alleged-inform-act-violations",
     body: `On September 5, 2025, the Department of Justice, acting on a referral from the Federal Trade Commission, sued Whaleco Inc. — the company behind the online marketplace Temu — in the U.S. District Court for the District of Massachusetts, and the court entered a stipulated order days later requiring Temu to pay a $2 million civil penalty. The case was the first-ever enforcement action brought under the INFORM Consumers Act, a 2023 federal law aimed at exactly the kind of shopping most people already do without a second thought: buying something from a stranger's storefront on a giant online marketplace.
 
