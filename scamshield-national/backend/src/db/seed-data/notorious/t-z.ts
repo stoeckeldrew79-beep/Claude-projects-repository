@@ -1797,6 +1797,10 @@ NotoriousTZ.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
     sourceUrl: 'https://ncua.gov/news/enforcement-actions/administrative-orders/2021/administrative-order-matter-trevon-gross',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Thurgood_Marshall_United_States_Court_House.jpg?width=1200',
+    coverImageCredit: 'Photo: Federal Judicial Center / National Archives, Public Domain, via Wikimedia Commons — the Thurgood Marshall U.S. Courthouse in Manhattan, where Trevon Gross was convicted',
+    coverImagePosition: 50,
     body: `Trevon Gross was the pastor of HOPE Cathedral in Jackson, New Jersey, and also chairman and CEO of a small, federally insured credit union tied to his congregation, Helping Other People Excel Federal Credit Union (HOPE FCU), which served mostly low-income members in the area. In 2014, that dual role made him a target for Anthony Murgio, a Florida man who was looking to buy control of a small credit union to give an unlicensed Bitcoin exchange called Coin.mx a federally insured institution to hide behind.
 
 Prosecutors said Murgio and an associate, software engineer Yuri Lebedev, paid Gross more than $150,000 in bribes — funneled partly as "donations" to his church and partly as direct payments — in exchange for using his position atop HOPE FCU's board to hand them effective control of the credit union. When federal examiners from the National Credit Union Administration came asking questions about the sudden change in control, Gross conspired with Murgio to make false statements and obstruct the examination rather than disclose what had actually happened.
