@@ -5350,3 +5350,17 @@ UsGM.push({
     country: 'US',
     state: 'MT',
 });
+
+UsGM.push({
+    name: 'MV Realty 40-Year "Homeowner Benefit Agreement" Title-Lien Scheme',
+    slug: 'idaho-mv-realty-homeowner-benefit-agreement-title-lien-scheme',
+    description: `MV Realty PBC offered Idaho homeowners a few hundred dollars in cash upfront in exchange for signing what it called a "Homeowner Benefit Agreement," but the multi-page contract a notary produced at the signing — written in dense legal language most homeowners never fully read — actually bound them for 40 years to use MV Realty as their listing agent if they ever sold or refinanced the property, automatically transferred the obligation to their heirs if they died first, and imposed a penalty equal to 3% of the home's value for using a different real estate agent instead. Unlike an ordinary listing agreement, MV Realty recorded these contracts directly against the property's title at county recorders' offices across Idaho, functioning as a lien that could block a homeowner from refinancing or selling through any other agent without first paying the penalty. Idaho Attorney General Raúl Labrador sued the company under Idaho's Consumer Protection Act, and in a consent judgment entered in Ada County District Court and announced November 5, 2025, secured an order voiding every Idaho Homeowner Benefit Agreement as though it never existed, requiring MV Realty to file the paperwork needed to strike the liens from every affected homeowner's title at the relevant county recorder's office, and banning the company and its founding officers — Anthony Mitchell, David Manchester, and Amanda Zachman — from residential real estate work in Idaho for five years. "These agreements were nothing more than a scheme," Labrador said, calling the small upfront payment "a Trojan horse for a decades-long financial trap." MV Realty faced similar enforcement actions and consumer lawsuits from attorneys general in several other states, including Colorado, California, Florida, Pennsylvania, and Ohio, before filing for bankruptcy. Homeowners should be highly skeptical of any offer of "free" cash in exchange for signing a long-term contract with a real estate company, should never sign a real estate document a notary asks them to sign on the spot without first having an independent attorney review it, and can check whether a mystery lien or agreement has been recorded against their own property for free through their county recorder's office.`,
+    categorySlug: 'mortgage-foreclosure-scams',
+    alertLevel: 'medium',
+    sources: ["Idaho Office of the Attorney General"],
+    sourceUrl: 'https://www.ag.idaho.gov/newsroom/attorney-general-labrador-wins-relief-for-idaho-homeowners-trapped-in-predatory-contracts/',
+    country: 'US',
+    state: 'ID',
+    isHistorical: true,
+    firstRecorded: '2019-01-01',
+});
