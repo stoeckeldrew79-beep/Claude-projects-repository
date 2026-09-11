@@ -7893,6 +7893,10 @@ NotoriousAF.push(
     slug: 'david-hu-iig-trade-finance-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Thurgood_Marshall_United_States_Courthouse_007.jpg?width=1200',
+    coverImageCredit: 'Photo: Kidfly182, CC BY 4.0, via Wikimedia Commons — the Thurgood Marshall U.S. Courthouse in Manhattan, home of the Southern District of New York, where the SEC and prosecutors pursued the case against Hu',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.justice.gov/usao-sdny/pr/former-managing-partner-manhattan-investment-advisory-firm-sentenced-12-years',
     body: `David Hu co-founded International Investment Group (IIG), a Manhattan investment advisory firm built around an asset class most retail investors had never heard of: short-term trade finance, meaning loans to companies moving goods like commodities and consumer products through emerging markets. The niche was unglamorous but plausible-sounding, and it let IIG raise money from institutional funds as well as mutual funds marketed to ordinary investors. As IIG's managing partner and chief investment officer, Hu had final say over how the firm valued the loans sitting inside its flagship fund.
 
@@ -7910,6 +7914,10 @@ NotoriousAF.push(
     slug: 'deepal-wannakuwatte-latex-glove-ponzi-scheme',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Sacramento,_California_skyline.jpg?width=1200',
+    coverImageCredit: 'Photo: Quintin Soloviev, CC BY 4.0, via Wikimedia Commons — Sacramento, California, where Wannakuwatte ran his companies and owned the Sacramento Capitals tennis team',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.justice.gov/usao-edca/pr/former-owner-sacramento-capitals-tennis-team-sentenced-20-years-prison-fraud-scheme',
     body: `Deepal Wannakuwatte was a familiar face in Sacramento business and sports circles — owner of the Sacramento Capitals, a professional World TeamTennis franchise, and head of a pair of companies, International Manufacturing Group (IMG) and RelyAid Global Health Care, that he told investors were quietly becoming one of the country's biggest suppliers of medical-grade latex gloves. For more than a decade, that reputation was enough to keep money flowing in.
 
