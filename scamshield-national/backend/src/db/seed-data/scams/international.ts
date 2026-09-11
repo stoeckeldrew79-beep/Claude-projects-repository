@@ -13748,3 +13748,16 @@ International.push(
     country: 'HT',
   },
 );
+
+International.push(
+  {
+    name: 'Iraqi Securities Commission Warning on Unlicensed Investment Platforms',
+    slug: 'iraq-securities-commission-unlicensed-investment-warning',
+    description: `Iraq's Securities Commission (ISC) issued a public warning on September 8, 2026 cautioning investors against a growing number of unlicensed entities offering investment services with no lawful authorization to do so. ISC Chairman Faisal al-Haimas said fraudulent operators are adopting trade names, professionally built websites, and social media pages to present themselves as authorized financial or investment institutions, luring victims with promises of unusually high, fast returns that a genuinely regulated firm could not realistically offer. The Commission flagged several specific warning signs common to these schemes: requests to transfer investment funds into a personal bank account or an unfamiliar electronic or cryptocurrency wallet rather than a licensed institutional account, demands for upfront payment before any investment activity begins, and promises of guaranteed or unrealistic returns. Al-Haimas urged the public to verify an entity's legal and regulatory status — confirming it is actually licensed by the ISC — before depositing any money or entering an investment relationship, and to report suspected unlicensed investment or financial activity to the relevant authorities rather than engage further. The warning follows a documented rise in unlicensed WhatsApp- and Telegram-based "trading" and investment schemes across Iraq, reported by outlets including Shafaq News, in which anonymous accounts advertise "guaranteed" profits and job opportunities, pay small initial sums to build trust, then pressure victims into paying escalating "guarantee fees" and recruiting others before the platform disappears with their money — a pattern that echoes the earlier Kirkuk-based "Unimart" scheme, marketed with slogans like "change your life," which collapsed and left dozens of victims, many displaced youth, stripped of their savings. Iraq's Securities Commission maintains that verifying a firm's license before transferring any money remains the most reliable protection against these unlicensed investment schemes.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'high',
+    sources: ['Iraqi Securities Commission (ISC)', 'Iraq Business News', 'Shafaq News'],
+    sourceUrl: 'https://www.iraq-businessnews.com/2026/09/08/isc-cautions-investors-over-fraudulent-financial-entities/',
+    country: 'IQ',
+  },
+);
