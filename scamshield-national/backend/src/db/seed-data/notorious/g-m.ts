@@ -7286,6 +7286,10 @@ NotoriousGM.push(
     slug: 'michael-bostock-california-technical-academy-gi-bill-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Veterans_Administration_Building_-_Washington,_D.C.jpg?width=1200',
+    coverImageCredit: 'Photo: APK, CC BY-SA 4.0, via Wikimedia Commons — the Department of Veterans Affairs headquarters, the agency Bostock defrauded',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     sourceUrl: 'https://www.justice.gov/archives/opa/pr/ceo-education-company-sentenced-causing-nearly-105m-losses-department-veterans-affairs',
     body: `The Post-9/11 GI Bill pays a veteran's tuition and a monthly housing allowance directly, on the strength of one basic assumption: that the veteran is actually enrolled, actually attending class, and actually making progress toward a credential. Michael Bostock built a business around making that assumption false at scale. Bostock, of Nampa, Idaho, founded and ran California Technical Academy (CTA), a Department of Veterans Affairs-approved technical training school with locations near Los Angeles and San Diego.
 
