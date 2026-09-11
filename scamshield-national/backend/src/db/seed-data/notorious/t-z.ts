@@ -2208,3 +2208,19 @@ A federal indictment charged eight defendants in the racketeering enterprise; si
 Grandparent scams endure because they are engineered to short-circuit exactly the kind of verification a victim would normally perform: a claimed emergency, a demand for secrecy, and an artificial deadline are designed to make hanging up and calling another family member feel like an unaffordable risk rather than an obvious precaution. Ingram's case adds a second layer worth remembering — a scam's callers are often only half the operation, and the money mules who show up in person to collect cash or wire transfers are just as central, and just as criminally liable, as the person who made the phone ring in the first place. No legitimate bail, medical bill, or legal fee is ever paid by handing cash to a stranger who arrives at the door or by wiring money to an account with no connection to the courthouse or hospital supposedly involved.`,
   },
 );
+NotoriousTZ.push(
+  {
+    title: 'Tavoy Farquharson and the Mailed Lottery Scam That Told Elderly Victims to Pay to Collect',
+    slug: 'tavoy-farquharson-jamaica-lottery-mail-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-md/pr/jamaican-national-sentenced-federal-prison-role-lottery-fraud-scheme',
+    body: `Tavoy Farquharson, 34, a Jamaican national, spent more than three years as part of a conspiracy built on one of the oldest confidence tricks in the book, adapted to run through the U.S. mail at scale. Beginning in October 2020 and continuing through at least January 2024, according to the U.S. Attorney's Office for the District of Maryland, Farquharson and his co-conspirators contacted victims across the country and told them they had won a lottery or sweepstakes — genuine-sounding good news that, prosecutors say, existed only to set up the real ask that followed.
+
+Once a victim believed they'd won, the conspirators told them they first needed to pay supposed taxes and processing fees before their winnings could be released — money that, prosecutors say, simply went to the conspiracy rather than covering any real government obligation. The scheme specifically targeted elderly Americans, a population prosecutors and consumer advocates note is disproportionately vulnerable to sweepstakes fraud precisely because a surprise windfall is a harder story to walk away from than one that starts by asking for money outright. Farquharson worked alongside at least three other participants in the conspiracy — brothers Dwayne Henry and Wayne Henry of Landover Hills, Maryland, and fellow Jamaican national Nickoy Campbell — all of whom separately pleaded guilty to the same charge of conspiracy to commit mail fraud.
+
+The court found that victims lost more than $3.5 million to the scheme overall, with Farquharson personally receiving more than $700,000 of that total. U.S. District Judge Brendan A. Hurson sentenced Farquharson on March 23, 2026, to 40 months in federal prison, to be followed by two years of supervised release, and ordered him to pay $3,962,826 in restitution — a figure that, unlike the amount he personally pocketed, reflects the full scale of harm the conspiracy caused across its list of victims.
+
+Lottery and sweepstakes fraud persists because it inverts the usual warning signs of a scam: instead of a stranger asking for money upfront, the victim is told they've already won something and simply need to clear a small administrative hurdle to collect it. No legitimate lottery, sweepstakes, or prize drawing — state-run or otherwise — ever requires a winner to pay taxes, fees, or "processing costs" in advance in order to receive a prize; genuine winnings are paid out with any taxes withheld directly from the payment itself, never collected separately beforehand by mail, wire, or gift card.`,
+  },
+);
