@@ -8227,3 +8227,15 @@ NotoriousAF.push(
     sourceUrl: "https://www.justice.gov/usao-mdal/pr/second-superseding-indictment-adds-defendant-and-charges-southern-poverty-law-center",
   },
 );
+
+NotoriousAF.push(
+  {
+    title: "Sherwayne Bellinfantie, 'Ice Man,' and the Romance-and-Lottery Scheme That Took $469,000 from an Arizona Widow",
+    slug: "sherwayne-bellinfantie-ice-man-romance-lottery-scheme",
+    author: "ScamShield Editorial",
+    tags: ["notorious", "notorious-scammer"],
+    body:
+      "From December 2015 through January 2019, an elderly Arizona resident believed she had found two pieces of unlikely good fortune at once: a new romance, and a winning lottery ticket. According to federal prosecutors, both were fictions engineered by Sherwayne Benjamin Bellinfantie, a Jamaican national who went by the nickname \"Ice Man,\" and a network of co-conspirators working the two scams together as a single, mutually reinforcing con.\n\nThe romance came first. Bellinfantie and a co-conspirator courted the 85-year-old victim by phone, building the kind of trust a stranger asking for money never gets, reinforced with flowers and love notes sent to her home. Once that relationship was established, the pitch shifted: she was told she had won a lottery prize and a new vehicle, and that claiming them would require paying fees and taxes upfront — the same advance-fee mechanic behind decades of sweepstakes fraud, made more effective here because the person asking for the money was someone she believed loved her. Over more than three years, prosecutors say, she sent a total of approximately $469,302.\n\nA federal grand jury in the District of Arizona indicted Bellinfantie in March 2022, but he was in Jamaica and stayed there for years afterward. He was finally extradited to the United States on June 12, 2025, and on May 20, 2026, he pleaded guilty to one count of conspiracy to commit mail and wire fraud. As part of his plea, he agreed to pay the full $469,302 in restitution. His sentencing hearing was scheduled for August 18, 2026; as of this writing, the outcome of that hearing had not appeared in available court reporting.\n\nCombining a romance scam with a lottery scam is a deliberate pairing, not a coincidence: the romance supplies the trust that keeps a victim paying fee after fee without asking too many questions, while the lottery hook supplies a concrete, escalating reason for each new payment. A real sweepstakes or lottery never requires a winner to pay taxes or fees in advance to collect a prize — those are deducted from the winnings themselves — and a same-day online relationship with someone who consistently has a reason not to meet in person, and eventually needs money, is one of the most consistent patterns in elder financial fraud.",
+    sourceUrl: "https://www.justice.gov/usao-az/pr/jamaican-national-extradited-united-states-pleads-guilty-lottery-and-romance-scheme",
+  },
+);
