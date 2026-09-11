@@ -7956,3 +7956,20 @@ In February 2023, McGonigle pleaded guilty to one count of investment adviser fr
 McGonigle's case is a reminder that a financial adviser's fraud doesn't always require a fake investment product or a fabricated prospectus — sometimes it only requires access to accounts that are already real, a client too impaired to notice a withdrawal, and a willingness to pick up the phone and pretend, convincingly enough, to be someone else.`,
   },
 );
+
+NotoriousGM.push(
+  {
+    title: "Joanne Schiwart: Wiring Away an Elderly Victim's Retirement Account by Impersonating Her",
+    slug: 'joanne-schiwart-elder-retirement-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-edtx/pr/jefferson-county-woman-sentenced-10-years-federal-prison-defrauding-elderly-victim-out',
+    body: `Joanne Schiwart, 28, of Port Arthur, Texas, didn't need to hack anything to drain an elderly victim's retirement savings — she just needed enough of the victim's personal information to sound convincing on the phone. Over roughly a year, Schiwart repeatedly called the investment company that held the victim's retirement accounts, used stolen personally identifying information to pass the company's identity checks, and had herself mistaken for the account holder on the other end of the line.
+
+Posing as the victim, Schiwart directed the company to wire money out of the accounts and into channels she controlled. By the time the scheme was uncovered, she had moved more than $1.4 million out of the victim's retirement savings. She spent the proceeds on multiple vehicles — some for herself, others handed out as gifts to other people — rather than anything resembling a legitimate investment.
+
+Schiwart pleaded guilty to wire fraud, and on September 10, 2025, U.S. District Judge Marcia A. Crone sentenced her to 120 months — a full decade — in federal prison, along with an order to pay $1,464,761.47 in restitution to her victim. The FBI investigated the case, which was prosecuted by the U.S. Attorney's Office for the Eastern District of Texas.
+
+The case is a reminder that a retirement account's security questions are only as strong as the personal information behind them: once a scammer has enough identifying detail to impersonate the account holder convincingly, a phone call to the right department can move a lifetime of savings in minutes, with no forged signature or fake statement required.`,
+  },
+);
