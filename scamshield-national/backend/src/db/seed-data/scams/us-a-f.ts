@@ -7245,3 +7245,15 @@ UsAF.push({
     country: 'US',
     state: 'AK',
 });
+
+UsAF.push({
+    name: 'Heritage Village Assisted Living Elder Abuse Settlement (Langendoen)',
+    slug: 'arizona-heritage-village-assisted-living-elder-abuse-settlement',
+    description: `Arizona Attorney General Kris Mayes announced a settlement on January 22, 2026 permanently barring Gary and Tracy Langendoen — California real estate investors who owned and operated Heritage Village Assisted Living in Mesa — and any company they control from ever again providing health care services or holding an ownership or management interest in a business serving vulnerable adults in Arizona. The Attorney General's complaint, later amended to add racketeering claims, alleged the Langendoens let the facility deteriorate into dangerous conditions that violated Arizona's Consumer Fraud Act and Adult Protective Services Act, including violent attacks and sexual assaults by residents against other residents and the death of one resident killed by a roommate, while the facility filed at least six license applications with the Arizona Department of Health Services between October 2022 and August 2023 that investigators say were forged. The case became notable enough that in April 2024 Mayes' office placed Heritage Village into court-ordered receivership — the first time an Arizona attorney general had used that authority since 1989 — before new owners took over the facility in February 2025. Under the settlement, reached without an admission of wrongdoing, the Langendoens must pay $100,000 in civil penalties to the state's consumer protection revolving fund and cooperate with discovery in related litigation. "Although Heritage Village is gone forever, the facility itself is still going strong under new management," Mayes' office said, adding that no further consumer complaints had been filed since the ownership change. Families evaluating an assisted living or group home for a relative are advised to check a facility's license status and inspection history directly with the Arizona Department of Health Services before signing an admission agreement, to visit unannounced, to ask to see care and financial records for a resident's account, and to report suspected abuse, neglect, or billing irregularities to the Arizona Attorney General's Office.`,
+    categorySlug: 'healthcare-fraud',
+    alertLevel: 'high',
+    sources: ["Arizona Attorney General's Office (Kris Mayes)", '12News', 'AZFamily'],
+    sourceUrl: 'https://www.azag.gov/press-release/attorney-general-mayes-announces-heritage-village-assisted-living-owners-barred',
+    country: 'US',
+    state: 'AZ',
+});
