@@ -2167,6 +2167,10 @@ No legitimate bank, law enforcement agency, or federal regulator will ever instr
     slug: "xcast-labs-ftc-robocall-settlement-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "xcast-labs-ftc-robocall-settlement"],
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Call_center.jpg?width=1200",
+    coverImageCredit: "Photo: Abmpublicidad (CC BY-SA 4.0)",
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: "https://www.ftc.gov/news-events/news/press-releases/2024/01/xcast-labs-will-be-banned-supporting-illegal-telemarketing-practices-settle-ftc-charges-it-assisted",
     body: `On January 2, 2024, the Federal Trade Commission and the Department of Justice announced a settlement with XCast Labs, Inc., a Los Angeles-based Voice over Internet Protocol (VoIP) provider, resolving charges that the company knowingly funneled hundreds of millions of illegal robocalls through its network. The case is less about a single scam than about the plumbing that scam calls travel through: XCast wasn't accused of running the scams itself, but of being the wholesale phone-service gatekeeper that let scammers place mass volumes of illegal calls onto the traditional phone network in the first place.
 
