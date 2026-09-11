@@ -5479,3 +5479,15 @@ UsNS.push({
     isHistorical: true,
     firstRecorded: '2025-12-18',
 });
+
+UsNS.push({
+    name: 'Prime Petroleum Group Fake Fuel-Trading Ponzi Scheme (Shahid Javed)',
+    slug: 'new-jersey-javed-prime-petroleum-fuel-trading-ponzi-scheme',
+    description: `Shahid Javed, 41, of Old Bridge, New Jersey, spent from March 2018 through May 2023 raising roughly $7.7 million from investors nationwide by promising outsized returns on fuel-trading and oil-refinery investments that, according to the New Jersey Attorney General's Office, existed mostly on paper. Javed first raised about $640,000 under the banner of East Coast Energy Partners for supposed jet-fuel purchases, then formed two more companies, Prime Petroleum Group LLC and Petro Traders Group LLC, impersonating fictitious employees over the phone and email to lend the operation false scale while soliciting new investors with promised returns of up to 50 percent, plus recovery of their full principal, tied to fuel transactions and an ownership stake in a Texas oil refinery. Rather than actually trading fuel, Javed ran a Ponzi scheme, using roughly $1 million of new investors' money to pay "returns" to earlier ones so the operation would keep attracting fresh deposits, while diverting the rest toward personal expenses including a Bentley, a house, a boat, and payments to his own creditors. Javed pleaded guilty on April 15, 2026 before Superior Court Judge Ralph E. Amirata in Morris County to two counts of second-degree securities fraud and one count of second-degree theft by deception, and on June 18, 2026 was sentenced to seven years in state prison and ordered to pay $250,000 in restitution. "This case represents our continuing effort to ensure that individuals who engage in securities fraud...are held accountable in New Jersey," Attorney General Jennifer Davenport said in announcing the sentencing. Anyone approached with an investment tied to a commodity-trading or energy company they cannot independently verify is advised to check both the person and the offering directly through the New Jersey Bureau of Securities or the SEC's EDGAR and Investment Adviser Public Disclosure databases before wiring any money, since a promised fixed return well above market rates — paid out consistently no matter what fuel or oil prices are actually doing — is itself the clearest sign the "trading profits" are being funded by other investors' deposits rather than real activity.`,
+    categorySlug: 'ponzi-pyramid-schemes',
+    alertLevel: 'high',
+    sources: ["New Jersey Office of the Attorney General"],
+    sourceUrl: 'https://www.njoag.gov/middlesex-county-man-sentenced-to-seven-years-in-state-prison-for-running-a-7-7-million-securities-fraud-scheme-involving-fake-fuel-companies/',
+    country: 'US',
+    state: 'NJ',
+});
