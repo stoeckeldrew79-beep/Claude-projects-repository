@@ -5848,3 +5848,15 @@ UsGM.push({
     country: 'US',
     state: 'GU',
 });
+
+UsGM.push({
+    name: 'Skin Beaute Med Spa Counterfeit Botox Scheme (Rebecca Fadanelli)',
+    slug: 'massachusetts-skin-beaute-counterfeit-botox-scheme',
+    description: `Rebecca Fadanelli, 40, of Stoughton, Massachusetts, ran Skin Beaute Med Spa locations in Randolph and South Easton where, between March 2021 and June 2024, she performed roughly 2,700 cosmetic injection procedures on more than 900 clients and collected more than $1 million — despite holding only an aesthetician's license, with no authorization to perform injections of any kind. Fadanelli told clients she was a licensed nurse using authentic, FDA-approved Botox and dermal fillers; in reality, prosecutors say, she imported counterfeit botulinum toxin and filler products from China and Brazil and injected them using bacteriostatic water that in some instances carried bacterial contamination. Multiple clients suffered severe complications as a result, including hospitalizations lasting weeks, facial paralysis and drooping, double vision and other vision problems lasting up to three months, infections, and hard lumps that required surgical removal and left lasting scars. U.S. Attorney Leah Foley's office said the scheme was "not a mistake or a one-time lapse in judgment," and on September 2, 2026, a federal judge sentenced Fadanelli to 46 months in prison, two years of supervised release, and $1 million in restitution and forfeiture. Anyone considering a Botox or filler injection should verify the specific person doing the injecting — not just the business's name or storefront — directly with the Massachusetts Board of Registration in Medicine or the relevant nursing board before booking an appointment, since a provider's own claim to be a licensed nurse or medical professional should never be taken at face value.`,
+    categorySlug: 'healthcare-fraud',
+    alertLevel: 'medium',
+    sources: ['U.S. Attorney\'s Office, District of Massachusetts', 'Boston.com'],
+    sourceUrl: 'https://www.justice.gov/usao-ma/pr/med-spa-owner-sentenced-46-months-prison-performing-thousands-counterfeit-botox-and',
+    country: 'US',
+    state: 'MA',
+});
