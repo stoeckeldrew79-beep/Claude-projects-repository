@@ -4863,3 +4863,15 @@ UsNS.push({
     country: 'US',
     state: 'NC',
 });
+
+UsNS.push({
+    name: 'Tenants Counsel Network Predatory Eviction-Defense Law Firm (NYC)',
+    slug: 'nyc-tenants-counsel-network-eviction-law-firm-scam',
+    description: `New York Attorney General Letitia James announced on May 21, 2026 that her office had shut down Tenants Counsel Network (TCN), a Manhattan law firm led by Founding Partner Aryeh Weber, after an investigation opened in May 2024 found the firm preyed on New York City tenants facing eviction rather than helping them. According to the Attorney General's office, TCN obtained lists of pending eviction cases from court records and sent more than 35,569 solicitation letters to tenants, over 1,100 of which were signed by an attorney who did not actually exist at the firm, falsely presenting TCN as staffed with experienced eviction lawyers ready to fight for them. TCN's "client managers" — not attorneys — then pressured tenants who called in, misrepresenting the firm's staff size and falsely promising subsidized or low-cost services, and prevented prospective clients from speaking to an actual lawyer before signing a binding retainer agreement that locked them into a recurring monthly subscription fee. Once enrolled, investigators found, TCN frequently failed to show up to tenants' own eviction-court hearings and provided minimal to no communication about the status of their case, all while tenants kept paying — leaving them exposed to default judgments and lockouts in the exact proceedings they had paid TCN to defend. "Housing is a stabilizing force for New York families, and this law firm preyed on New Yorkers who stood to lose it," Attorney General James said in announcing the settlement. Under the agreement, TCN and Weber must dissolve the firm by July 31, 2026, refund $172,257 to former clients — some individual refunds exceeding $3,000 — and pay $35,000 in combined state penalties. New York City tenants facing eviction are entitled to free legal representation through the city's Right to Counsel program regardless of income in many Housing Court cases, and anyone soliciting a paid retainer after scraping an eviction filing from court records should be treated with real suspicion: ask to speak directly with the attorney who will appear in court before signing anything, verify a lawyer's license through the New York State Unified Court System's attorney registration search, and contact the NYC Office of Civil Justice or Housing Court Answers before paying an upfront or subscription fee for eviction defense.`,
+    categorySlug: 'rental-housing',
+    alertLevel: 'high',
+    sources: ["New York Attorney General's Office"],
+    sourceUrl: 'https://ag.ny.gov/press-release/2026/attorney-general-james-shuts-down-predatory-law-firm-targeted-new-york-city',
+    country: 'US',
+    state: 'NY',
+});
