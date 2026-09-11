@@ -12990,3 +12990,16 @@ International.push(
     country: 'AI',
   },
 );
+
+International.push(
+  {
+    name: 'Anguilla "Coinoval" Fake Company Registration Investment Scam',
+    slug: 'anguilla-coinoval-fake-company-registration-scam',
+    description: `The Financial Intelligence Unit of Anguilla (FIU) issued a Public Service Advisory on Investment Fraud on September 15, 2020, warning that persons were soliciting investments while presenting fraudulent incorporation documents for a purported company called "Coinoval," complete with a fabricated registration number (2484484) designed to make it look properly formed under Anguilla law. The FIU confirmed that "the alleged company is not legally registered nor has it ever been registered with the Commercial Registry of Anguilla," meaning Coinoval had no legal existence in the jurisdiction at all despite the paperwork being shown to prospective investors. The advisory pointed to the scheme as an example of how fraudsters exploit Anguilla's reputation as an offshore company-formation jurisdiction, manufacturing a plausible-looking registration to lend an investment pitch a legitimacy it does not have, and it noted the scheme also solicited payment in Bitcoin and other cryptocurrency, a payment method that leaves victims with little ability to reverse a transfer once it is sent. The FIU urged anyone approached with an investment opportunity tied to an Anguilla-registered entity to independently verify that registration directly with Anguilla's Commercial Registry before sending money, to be wary of any deal requiring payment in cryptocurrency without proper due diligence, and to treat guarantees of a high return or a quick doubling of invested funds as a warning sign rather than a selling point. Anyone contacted by someone representing Coinoval, or presented with similar unverified Anguilla incorporation documents, was told to report it immediately to the FIU at 1 (264) 497-5696 or mlra@gov.ai.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'high',
+    sources: ['Financial Intelligence Unit, Anguilla'],
+    sourceUrl: 'https://www.fiu.gov.ai/notices/advisories',
+    country: 'AI',
+  },
+);
