@@ -2207,6 +2207,10 @@ The practical defense has to evolve along with the tactic. Treat a new romantic 
     slug: "vector-security-2024-data-breach-settlement-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "vector-security-2024-data-breach-settlement"],
+    // representative photo — replace with an exact match if found
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Downtown_Pittsburgh_from_Duquesne_Incline_in_the_morning.jpg?width=1200",
+    coverImageCredit: "Photo: Dllu (CC BY-SA 4.0) — downtown Pittsburgh, Pennsylvania, where Vector Security is headquartered",
+    coverImagePosition: 50,
     sourceUrl: "https://www.classaction.org/news/vector-security-settlement-wraps-up-lawsuit-over-december-2024-data-breach",
     body: `Vector Security, a Pittsburgh-based home and business alarm and monitoring company, detected a targeted cyberattack on its own computer network in December 2024, with the intrusion beginning as early as mid-December that year. A forensic investigation determined that an unauthorized party had accessed files containing sensitive personal information the company had on hand for current and former employees, customers, and other individuals it did business with. Vector Security didn't publish its breach notice until August 4, 2025, roughly eight months after the intrusion began, and filed notification with state regulators including the Maine Attorney General's office; according to those filings, approximately 30,282 people were affected.
 
