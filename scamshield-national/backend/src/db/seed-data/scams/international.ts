@@ -11410,6 +11410,36 @@ International.push(
     sourceUrl: 'https://www.tcipolice.tc/scammers-be-scamming-dont-take-the-bait/',
     country: 'TC',
   },
+  {
+    name: 'Turks and Caicos AI-Generated Deepfake Government Impersonation Scam',
+    slug: 'turks-and-caicos-ai-generated-deepfake-government-impersonation-scam',
+    description: `The Office of the Premier and Public Policy warned the public on April 9, 2025 about a rise in fraudulent social media accounts using AI-generated images and video clips to impersonate the Premier, Cabinet Ministers, former government officials, and senior government executives of the Turks and Caicos Islands. According to the warning, the synthetic content is built around false narratives and fabricated news stories designed as clickbait to provoke an emotional reaction and drive clicks, with some posts disguised to look like legitimate local outlets such as TC Weekly News in order to appear authentic. The government stressed that this false content does not originate from any official government account or spokesperson and is being deployed by scammers to lure residents into clicking malicious links that can lead to further fraud or data theft. The public was urged to verify any story involving government officials only through trusted, official government channels and recognized media sources, to avoid clicking suspicious links or sharing the fabricated posts further, to report the fake accounts and posts directly to the social media platform where they appear, and to warn family members and community groups about the scheme.`,
+    categorySlug: 'ai-deepfake-scams',
+    alertLevel: 'medium',
+    sources: ['Office of the Premier and Public Policy (Turks and Caicos Islands Government)', 'Magnetic Media'],
+    sourceUrl: 'https://magneticmediatv.com/2025/04/rise-in-ai-generated-image-scams-targeting-the-public-with-false-government-stories/',
+    country: 'TC',
+  },
+  {
+    name: 'Turks and Caicos Compromised Email Wire Transfer Fraud Targeting Law Firms and Banks',
+    slug: 'turks-and-caicos-compromised-email-wire-transfer-fraud-law-firms-banks',
+    description: `The Royal Turks and Caicos Islands Police Force's Financial Crime Unit issued a warning to local banks, financial institutions, and law firms about a wire fraud scheme built around compromised client email accounts. In the scheme, fraudsters gain access to a client's email account and, posing as that client, send the institution instructions to wire funds or liquidate holdings. Because the request appears to come from the client's own genuine email address, the institution processes the transfer, and the fraud is only discovered afterward when the real client denies ever authorizing it. Police identified several red flags that should prompt extra verification: emailed requests for detailed account balance or holdings information, instructions to transfer funds to an unfamiliar jurisdiction, unusual urgency attached to a transfer request, and multiple liquidation or withdrawal requests submitted in a short period. Institutions were advised to independently verify any email transfer instruction by telephoning the client directly using a number already on file, to set threshold amounts that trigger mandatory verbal verification, and to ask clients to supply an alternate, pre-agreed email address to be used to confirm large or unusual transfer requests. Suspected cases should be reported to the Financial Crime Unit.`,
+    categorySlug: 'business-email-compromise',
+    alertLevel: 'high',
+    sources: ['Royal Turks and Caicos Islands Police Force', 'Financial Crime Unit (RTCIPF)'],
+    sourceUrl: 'https://www.tcipolice.tc/email-wire-fraud-warning/',
+    country: 'TC',
+  },
+  {
+    name: 'Turks and Caicos Facebook "Work at Home Program" Employment Scam',
+    slug: 'turks-and-caicos-facebook-work-at-home-program-employment-scam',
+    description: `The Financial Crimes Unit of the Royal Turks and Caicos Islands Police Force warned the public about a fraudulent "Facebook Work at Home Program" being advertised on social media ahead of the holiday shopping season, when demand for extra income is highest. The advertisements promise that participants can earn thousands of dollars a month working from home, and interested victims are asked only to submit their name and email address for an "availability check." Once a victim responds, they are offered a "Facebook Millionaire kit" for a token fee of around four dollars, which in reality authorizes a recurring charge of roughly ninety-four dollars a month billed to the victim's credit card for continued access to the program, with no genuine job or income ever materializing. Police reminded the public of the classic warning sign that "if it sounds too good to be true, it probably is," and advised residents never to send money or share financial or credit card details with unknown or unverified parties, to seek independent financial advice before committing to any work-from-home offer, to ignore high-pressure marketing claiming only "limited positions available," and to verify any legitimate opportunity directly with the purported company using officially published contact details rather than links or numbers supplied in the advertisement.`,
+    categorySlug: 'employment-scams',
+    alertLevel: 'medium',
+    sources: ['Royal Turks and Caicos Islands Police Force', 'Financial Crimes Unit (RTCIPF)'],
+    sourceUrl: 'https://www.tcipolice.tc/beware-of-online-scam/',
+    country: 'TC',
+  },
 );
 
 International.push(
