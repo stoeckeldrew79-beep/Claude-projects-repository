@@ -11536,6 +11536,36 @@ International.push(
     sourceUrl: 'https://usvidoj.com/v-i-attorney-general-files-lawsuit-against-meta-to-protect-children-and-combat-widespread-online-fraud/',
     country: 'VI',
   },
+  {
+    name: 'US Virgin Islands DLCA Fraudulent Fee Collection Scheme',
+    slug: 'us-virgin-islands-dlca-fraudulent-fee-collection-scheme',
+    description: `The V.I. Department of Licensing and Consumer Affairs (DLCA) warned businesses in August 2026 after receiving reports of one or more individuals falsely posing as DLCA officials and approaching businesses in person to collect licensing fees, penalties, or other payments, including during purported inspections. DLCA Commissioner Nathalie Hodge stressed that department employees never collect cash, checks, credit card information, or other payment on-site while visiting a business — all fees must be paid through an official DLCA office or another payment method the department has authorized in advance. DLCA said it was working with law enforcement to investigate the reports and urged any business approached by someone demanding payment on the department's behalf to decline, ask for identification, avoid further engagement, and report the encounter immediately so investigators can identify those responsible before more businesses are targeted. Reports can be made to DLCA at (340) 727-7226 on St. Croix or (340) 771-7226 on St. Thomas.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Virgin Islands Department of Licensing and Consumer Affairs (DLCA)', 'St. Thomas Source', 'St. John Source'],
+    sourceUrl: 'https://stthomassource.com/content/2026/08/07/dlca-warns-businesses-of-fraudulent-fee-collection-scheme/',
+    country: 'VI',
+  },
+  {
+    name: 'US Virgin Islands VIPD Traffic Violation Text Message Scam',
+    slug: 'us-virgin-islands-vipd-traffic-violation-text-message-scam',
+    description: `The Virgin Islands Police Department (VIPD) issued a public warning in late August 2026 about fraudulent text messages circulating territory-wide that falsely claim the recipient has an outstanding traffic violation and must pay a fine online, typically by following a link included in the message. VIPD confirmed the messages "are not connected to the department or any legitimate government agency in the U.S. Virgin Islands" and that neither VIPD nor the territory's judicial branch sends payment-demand texts of this kind. Anyone who receives one is urged not to click any link, not to reply, and not to enter personal or financial information, and to delete the message immediately. Residents who receive the text or have questions can contact VIPD at (340) 778-2211 on St. Croix, (340) 774-2211 on St. Thomas and St. John, or the VIPD Communications Department at (340) 514-8006.`,
+    categorySlug: 'phishing',
+    alertLevel: 'medium',
+    sources: ['Virgin Islands Police Department (VIPD)', 'St. John Source', 'Virgin Islands News Online'],
+    sourceUrl: 'https://www.virginislandsnewsonline.com/en/news/usvi-vipd-warns-of-traffic-fine-text-targeting-vi-residents-/',
+    country: 'VI',
+  },
+  {
+    name: 'US Virgin Islands VIPD Wireless Account Verification Code Scam',
+    slug: 'us-virgin-islands-vipd-wireless-verification-code-scam',
+    description: `The Virgin Islands Police Department warned in July 2026 about a telephone scam targeting USVI wireless customers in which callers impersonate a phone carrier's customer service or security department. During the call, the scammer triggers a legitimate one-time verification code to be sent to the victim's phone and then talks the victim into reading that code back over the line. Once obtained, the code lets the scammer bypass the account's security, make unauthorized changes, transfer the victim's phone number to a device they control, and access stored personal information — steps that can enable further identity theft or financial fraud. VIPD reminded residents that legitimate wireless company representatives will never ask a customer to read back a one-time verification code, password, or PIN over the phone, and that anyone who has shared a code should contact their wireless provider immediately to secure the account. Questions can be directed to the VIPD Economic Crimes Unit at (340) 774-3942, ext. 5618.`,
+    categorySlug: 'account-takeover',
+    alertLevel: 'high',
+    sources: ['Virgin Islands Police Department (VIPD)', 'St. John Source'],
+    sourceUrl: 'https://stjohnsource.com/2026/07/13/telephone-scam-targets-usvi-wireless-customers-vipd-warns/',
+    country: 'VI',
+  },
 );
 
 International.push(
