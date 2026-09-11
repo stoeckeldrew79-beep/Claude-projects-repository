@@ -7343,6 +7343,10 @@ This same pattern — an unexpected call about a bill, manufactured urgency, and
     slug: "attyx-sunco-free-roof-solar-fraud-lawsuit-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "attyx-sunco-solar-fraud-lawsuit"],
+    // representative photo — replace with an exact match if found
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Rooftop_Solar_Panels.jpg?width=1200",
+    coverImageCredit: "Photo: EY418 / Marc J. Harary, City Architectural Photography (CC BY-SA 4.0) — rooftop solar panels in Brooklyn, New York, where Attyx sold thousands of residential installations",
+    coverImagePosition: 50,
     sourceUrl: "https://ag.ny.gov/press-release/2026/attorney-general-james-sues-home-solar-power-company-and-lenders-cheating-new",
     body: `On March 17, 2026, New York Attorney General Letitia James sued Attyx LLC and Attyx New York LLC — the company formerly known as SUNco, and marketed at various times as SUNco Capital, SUNco Solar, SUNco Roofing and Solar, Attyx Roofing, and New York Roofing — along with its co-founders and co-CEOs, Grant Young and Benson Payne, and its lending partners, Solar Mosaic LLC and WebBank, accusing them of cheating thousands of New York homeowners out of an estimated $275 million. The lawsuit, filed in New York County Supreme Court, describes a sales operation that installed more than 4,500 residential solar systems in the New York City area by leading with a pitch that had almost nothing to do with solar power at all: the promise of a free roof.
 
