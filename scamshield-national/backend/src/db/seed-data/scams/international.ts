@@ -10781,6 +10781,16 @@ International.push(
     sourceUrl: 'https://bernews.com/2026/08/bps-issues-alert-whatsapp-ai-fraud/',
     country: 'BM',
   },
+  {
+    name: 'Bermuda Unregulated "Investment Opportunity" Seminar Scheme',
+    slug: 'bermuda-unregulated-investment-opportunity-seminar-scheme',
+    description: `The Bermuda Monetary Authority (BMA) issued a public warning in July 2026 after a capital-raising seminar was held at a hotel on the island, cautioning residents that the entities behind it were not licensed to conduct investment business in or from Bermuda. The event was hosted by a UK-based "capital introduction" firm on behalf of its UK-based client, and a fact sheet handed out to attendees advertised tiered, near-guaranteed monthly payments described as both "returns" and "interest" — 10 percent annually on a $10,000 investment, rising to 12 percent on $20,000, 15 percent on $50,000, and 18 percent on a $100,000 investment. The BMA said its review found the materials were not restricted to sophisticated or high-net-worth investors as securities offerings normally require, lacked a clear disclaimer stating it was not an offer or invitation to subscribe for any investment, and contained no risk disclosure at all despite promising returns far above market averages. Because Bermuda's economy is built around a large, genuinely regulated offshore insurance, reinsurance, and asset-management sector, fraudsters can exploit that reputation to make unlicensed pitches sound credible to residents and visitors alike. The Authority confirmed that neither the UK introducing firm nor its client was regulated in Bermuda or the United Kingdom, and urged anyone approached with a similar opportunity to check the BMA's public register of licensed entities and its warning list before committing any money, to be skeptical of returns significantly above market norms, and to obtain independent professional financial advice first.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'high',
+    sources: ['Bermuda Monetary Authority (BMA)', 'The Royal Gazette', 'Bernews'],
+    sourceUrl: 'https://www.royalgazette.com/general/business/article/20260717/bma-sounds-warning-after-investment-opportunity-event/',
+    country: 'BM',
+  },
 );
 
 International.push(
