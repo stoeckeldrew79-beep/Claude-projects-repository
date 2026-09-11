@@ -5645,6 +5645,9 @@ NotoriousNS.push(
     slug: 'shawn-good-morgan-stanley-ponzi-scheme',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Morgan_Stanley_Building_NY.jpg?width=1200',
+    coverImageCredit: "Photo: Icc1977, CC BY-SA 4.0, via Wikimedia Commons — Morgan Stanley's headquarters, his former employer",
+    coverImagePosition: 50,
     body: `Shawn Edward Good spent a decade as a registered representative and investment advisor for Morgan Stanley Smith Barney in Wilmington, North Carolina — a position that put him in direct contact with business clients looking for somewhere to park money. From 2012 to February 2022, according to federal prosecutors, Good used that access to run a Ponzi scheme built around investments that never existed as described: purported real estate projects and tax-free municipal bonds, pitched as low-risk opportunities paying returns of 6 to 10 percent over three- or six-month terms.
 
 The mechanics prosecutors described went beyond simply pocketing new deposits. Good is accused of using liquid asset lines of credit secured against clients' own investment and retirement accounts — a legitimate lending tool at Morgan Stanley — to generate cash that he then diverted into personal bank accounts, effectively borrowing against victims' real holdings to fund payouts and personal spending without their knowledge. In total, the scheme took in more than $7.2 million from at least a dozen clients before it collapsed.
@@ -5662,6 +5665,9 @@ NotoriousNS.push(
     slug: 'paul-mata-ameriprise-advisor-real-estate-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Ameriprise_Financial_Center_Minneapolis_1.jpg?width=1200',
+    coverImageCredit: "Photo: AlexiusHoratius, CC BY-SA 3.0, via Wikimedia Commons — Ameriprise's headquarters, his former employer",
+    coverImagePosition: 50,
     body: `Paul Ricky Mata spent more than 20 years affiliated with Ameriprise Financial before that relationship ended in 2009 — a fact he did not volunteer to the clients he kept taking on afterward. Operating through entities including Secured Capital and Logos Real Estate, Mata solicited investors, many of them church acquaintances and retirees, into what he described as government-backed tax liens and real estate deals promising annual returns of 5 to 10 percent.
 
 None of it held up to scrutiny. From August 2008 to September 2015, according to federal prosecutors, Mata concealed a disciplinary record that would have given any of his victims reason to walk away: regulatory actions by both Nevada and California securities regulators, a one-year suspension and $10,000 fine from FINRA, and a three-year suspension from the Certified Financial Planner Board for omitting material facts from client disclosures. Rather than investing client money as promised, prosecutors said, Mata diverted large sums to himself — including a $197,000 down payment on his own home and $370,000 moved directly into his personal accounts — while the retirement savings his victims had entrusted to him disappeared.
