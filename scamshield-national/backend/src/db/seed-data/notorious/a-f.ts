@@ -7127,6 +7127,10 @@ NotoriousAF.push(
     slug: 'brandon-frere-ameritech-financial-student-loan-scam',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Phillip_Burton_Federal_Building.jpg?width=1200',
+    coverImageCredit: 'Photo: Sam Wheeler (Swsail), CC BY-SA 3.0, via Wikimedia Commons — the Phillip Burton Federal Building in San Francisco, home of the Northern District of California court that prosecuted Frere',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.justice.gov/usao-ndca/pr/sonoma-county-ceo-sentenced-three-and-half-years-prison-charges-stemming-multi-million',
     body: `Brandon Frere ran a cluster of student loan "debt relief" companies out of Rohnert Park, California — Ameritech Financial, American Financial Benefits Center, and Financial Education Benefits Center among them — that mailed millions of federal student loan borrowers personalized letters designed to look like official notices. The letters told recipients they had been identified as eligible for programs that would permanently lower their monthly payments to a fixed amount or forgive their loans outright, and urged them to call and enroll.
 
