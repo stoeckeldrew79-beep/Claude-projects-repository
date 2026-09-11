@@ -8105,6 +8105,10 @@ NotoriousAF.push(
     slug: 'emmanuel-gyasi-jessica-morris-gold-bars-romance-scam',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    // representative photo — replace with an exact match if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Gold_bullion_bars.jpg?width=1200',
+    coverImageCredit: 'Photo: Stevebidmead, CC0, via Wikimedia Commons — gold bars, representative of the inheritance in the scam pitch',
+    coverImagePosition: 50,
     body: `Emmanuel Gyasi's scheme started the way most romance scams do: with a fictitious woman who didn't exist. Prosecutors say Gyasi and his co-conspirators built an online dating profile for "Jessica Morris," used it to strike up a romantic relationship with a victim, and then wove in a detail elaborate enough to sound almost plausible — Morris, the persona claimed, had just inherited gold bars worth $12 million, and needed help covering various fees to get the fortune released and sold.
 
 Getting a victim to believe a story like that usually takes more than one voice. According to federal prosecutors, the conspirators introduced a second fictitious character, "Steven Baggett," posing as Morris's lawyer, to lend the gold-bars story a layer of professional credibility and press the victim toward sending money. Between no later than March 2022 and at least July 2022, the victim wired a total of approximately $1.1 million to accounts the conspirators controlled, believing the money was funding fees tied to releasing a multimillion-dollar inheritance for the person they'd come to trust as a romantic partner.
@@ -8122,6 +8126,9 @@ NotoriousAF.push(
     slug: 'charles-nwadavid-nec-bullion-romance-scam-money-laundering',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/2017_Moakley_US_Courthouse_from_Boston_Harbor.jpg?width=1200',
+    coverImageCredit: 'Photo: Beyond My Ken, CC BY-SA 4.0, via Wikimedia Commons — the Boston federal courthouse where he was sentenced',
+    coverImagePosition: 50,
     body: `Charles Uchenna Nwadavid ran a company in Nigeria called Nec Bullion, but the money that mattered most to his case didn't come from bullion trading. Between around 2016 and September 2019, according to federal prosecutors, Nwadavid took part in a romance scam operation built on fabricated online dating profiles — fake personas that struck up relationships with victims, many of them older women in Massachusetts, and then spun stories about inheritances or medical emergencies to get them sending money.
 
 At least six victims lost more than $2.5 million to the scheme, prosecutors said, with one Massachusetts victim used, apparently without full awareness of the scam's true nature, as an intermediary who received funds from other victims before passing them along. From there, the money moved through cryptocurrency platforms like LocalBitcoins into digital wallets prosecutors say Nwadavid controlled — a laundering step that converted stolen cash into a form that was both harder to trace and easier to move across borders.
