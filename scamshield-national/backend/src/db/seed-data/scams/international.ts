@@ -11210,6 +11210,19 @@ International.push(
 
 International.push(
   {
+    name: 'Anguilla "Broker Option" Fake Registered-Address Forex Scheme',
+    slug: 'anguilla-broker-option-fake-registered-address-forex-scheme',
+    description: `The Anguilla Financial Services Commission (the "Commission") issued an Investor Alert on September 11, 2015 warning that an outfit trading as Broker Option (also styled BrokerOption, Brokeroption and brokeroption) "is not licensed, nor has it ever been licensed, by the Commission to carry on business or manage or administer their affairs in or from within Anguilla." The scheme's website listed an Anguilla address to appear properly based and regulated in the jurisdiction, but the Commission investigated and found that address actually belonged to two licensed Anguilla company managers who had no knowledge of, or professional relationship with, Broker Option whatsoever — meaning the operators had simply attached a real Anguilla firm's legitimate address to their operation without permission to borrow its credibility. The Commission further confirmed that the Anguilla Commercial Registry had no record of Broker Option existing as a company at all, so the entity had neither a genuine physical presence nor any legal registration in Anguilla despite what its marketing implied. The alert pointed prospective investors to the Commission's earlier December 11, 2014 Investor Alert on "Unregulated Investment Business" for a fuller discussion of the risks of dealing with unlicensed forex and binary options operators, and advised that anyone who believed they had been victimized by Broker Option or a similar forex or binary options scheme should contact the financial crime authorities in their own jurisdiction, since an unlicensed offshore operator gives victims little practical recourse once funds have been sent.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'high',
+    sources: ['Anguilla Financial Services Commission (FSC)'],
+    sourceUrl: 'https://www.fsc.org.ai/documents/Publications/Investor%20Alerts/Investor%20Alert%20-%20Broker%20Option.pdf',
+    country: 'AI',
+  },
+);
+
+International.push(
+  {
     name: `Curaçao Unlicensed "Curaçao Forex" Investment Platform`,
     slug: 'curacao-unlicensed-curacao-forex-investment-platform',
     description: `The Centrale Bank van Curaçao en Sint Maarten (CBCS) issued a public warning on May 18, 2026 about an outfit calling itself "Curaçao Forex," which had been promoting investment opportunities to the public through local newspapers and other advertising channels. The CBCS said the platform is not licensed, registered, or supervised by the central bank to offer any financial or investment services, despite trading on the territory's name to appear credible. The bank warned that investing with an unauthorized entity like this can result in the total loss of funds with little or no realistic chance of recovering the money afterward, since unlicensed providers fall outside the consumer protections and oversight that come with genuine regulation. The CBCS listed red flags shared by "Curaçao Forex" and similar schemes: promises of guaranteed or unusually high returns, so-called "exclusive" or time-limited opportunities, offers that seem too good to be true, and pressure to transfer money quickly. The advisory urged anyone approached with an investment pitch to verify the provider's licensing status through the CBCS's official Register of Supervised Institutions before signing any agreement or sending funds.`,
@@ -12996,5 +13009,31 @@ International.push(
     sources: ['St. Martin News Network (SMN News)', 'Police Force of Sint Maarten (KPSM)', 'International Monetary Fund (IMF)'],
     sourceUrl: 'https://smn-news.com/index.php/st-maarten-st-martin-news/50059-sint-maarten-police-arrest-two-in-fraud-investigation-amid-wib-scandal.html',
     country: 'SX',
+  },
+);
+
+International.push(
+  {
+    name: 'Anguilla National Commercial Bank Remote-Access Phishing Scam',
+    slug: 'anguilla-national-commercial-bank-remote-access-phishing-scam',
+    description: `The National Commercial Bank of Anguilla (NCBA) issued a public warning on February 20, 2025 alerting customers that fraudsters were contacting them by phone and online while posing as bank staff, in an effort to talk account holders into granting remote access to their computers or mobile phones. Once a victim installs remote-access software or shares a one-time code at the caller's direction, the criminals gain the ability to see and control the device directly, letting them reach online banking sessions, saved passwords, and other sensitive information without ever needing to breach the bank's own systems. NCBA stressed that it "will never request remote access to a customer's device or ask for sensitive banking details, including card PINs," making any such request — however official-sounding the caller is or however urgent the pretext — a reliable sign of fraud rather than a legitimate bank procedure. The bank urged anyone contacted this way to hang up and call NCBA directly using the number on the back of their card or on an official statement, rather than a number or link supplied by the caller, and to never install remote-access apps or read aloud a one-time passcode to someone who called them unprompted. Customers who believed they had been targeted or had already granted access were told to contact NCBA immediately at service@ncbal.com and to report the incident to the Royal Anguilla Police Force at (264) 497-2333 or 497-5333, or anonymously through www.gov.ai/911.`,
+    categorySlug: 'tech-support-scams',
+    alertLevel: 'high',
+    sources: ['National Commercial Bank of Anguilla (NCBA)', 'Anguilla Focus News'],
+    sourceUrl: 'https://anguillafocus.com/national-commercial-bank-of-anguilla-warns-customers-of-phishing-scam/',
+    country: 'AI',
+  },
+);
+
+International.push(
+  {
+    name: 'Anguilla "Coinoval" Fake Company Registration Investment Scam',
+    slug: 'anguilla-coinoval-fake-company-registration-scam',
+    description: `The Financial Intelligence Unit of Anguilla (FIU) issued a Public Service Advisory on Investment Fraud on September 15, 2020, warning that persons were soliciting investments while presenting fraudulent incorporation documents for a purported company called "Coinoval," complete with a fabricated registration number (2484484) designed to make it look properly formed under Anguilla law. The FIU confirmed that "the alleged company is not legally registered nor has it ever been registered with the Commercial Registry of Anguilla," meaning Coinoval had no legal existence in the jurisdiction at all despite the paperwork being shown to prospective investors. The advisory pointed to the scheme as an example of how fraudsters exploit Anguilla's reputation as an offshore company-formation jurisdiction, manufacturing a plausible-looking registration to lend an investment pitch a legitimacy it does not have, and it noted the scheme also solicited payment in Bitcoin and other cryptocurrency, a payment method that leaves victims with little ability to reverse a transfer once it is sent. The FIU urged anyone approached with an investment opportunity tied to an Anguilla-registered entity to independently verify that registration directly with Anguilla's Commercial Registry before sending money, to be wary of any deal requiring payment in cryptocurrency without proper due diligence, and to treat guarantees of a high return or a quick doubling of invested funds as a warning sign rather than a selling point. Anyone contacted by someone representing Coinoval, or presented with similar unverified Anguilla incorporation documents, was told to report it immediately to the FIU at 1 (264) 497-5696 or mlra@gov.ai.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'high',
+    sources: ['Financial Intelligence Unit, Anguilla'],
+    sourceUrl: 'https://www.fiu.gov.ai/notices/advisories',
+    country: 'AI',
   },
 );
