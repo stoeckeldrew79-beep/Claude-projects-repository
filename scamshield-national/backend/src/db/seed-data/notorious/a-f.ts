@@ -7516,6 +7516,10 @@ Prosecutors said Antonucci was simultaneously looting the bank he ran: causing i
 Antonucci pleaded guilty in October 2010, under a cooperation agreement, to fraud on TARP, securities fraud, self-dealing, bank bribery, and embezzlement of bank funds — becoming the first person convicted of trying to defraud the TARP bailout program. U.S. District Judge Naomi Reice Buchwald calculated the total harm from his conduct at roughly $54 million and, in August 2015, sentenced him to 30 months in prison, ordering $54.6 million in restitution and forfeiture of $11.2 million; without his cooperation, she noted, sentencing guidelines would have called for at least 20 years. A co-defendant and former senior vice president at the bank, Matthew Morris, was separately sentenced to a year and a day.
 
 Antonucci's case is a reminder that a crisis-era rescue program is still just a set of paperwork requirements to satisfy — and that a bank executive already comfortable embezzling from his own institution and taking bribes from its customers saw little difference between defrauding private investors and defrauding the federal government's own emergency lifeline.`,
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Thurgood_Marshall_United_States_Courthouse_004.jpg?width=1200',
+    coverImageCredit: 'Photo: Kidfly182 / Wikimedia Commons / CC BY-SA 4.0',
+    coverImagePosition: 50,
   },
 );
 
