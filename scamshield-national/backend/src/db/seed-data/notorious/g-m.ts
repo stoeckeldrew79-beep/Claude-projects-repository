@@ -5658,6 +5658,9 @@ Medicare Advantage brace fraud follows a pattern regulators have flagged for yea
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/usao-edny/pr/former-nypd-officer-turned-forex-investor-sentenced-36-months-prison-wire-fraud-scheme',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Downtown_Brooklyn_Skyline_2023.jpg?width=1200',
+    coverImageCredit: 'Photo: FluffballsM&Ms, Wikimedia Commons (CC0) — Brooklyn, home of the Eastern District of New York courthouse where Jason Rodriguez was prosecuted',
     body: `Jason Rodriguez spent years as a New York City police officer before reinventing himself as a foreign-exchange fund manager — a transition that, prosecutors say, was built on a fabricated safety net that never actually existed. In 2020, Rodriguez founded Technical Trading Team LLC, a forex-focused investment fund, and together with a business partner, Edwin Carrion, who handled the fund's back-office operations and investor contracts, raised more than $4 million from over 20 individual investors, many of them friends, family, and personal contacts.
 
 According to the U.S. Attorney's Office for the Eastern District of New York, Rodriguez and Carrion promised investors annual returns of 18 to 24 percent and described Technical Trading Team as a safe, carefully hedged investment. Central to that pitch was a "loss reserve account" — a pool of money the two men said was set aside, untouched, specifically to reimburse investors if the fund's trades lost money. Prosecutors say no such account ever existed. Instead, as Rodriguez's trading racked up losses, he and Carrion continued soliciting new investor money while misrepresenting the fund's performance, and roughly $3.5 million of the $4.8 million investors had put in was never returned to them.
