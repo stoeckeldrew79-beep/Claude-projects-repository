@@ -5331,3 +5331,17 @@ UsNS.push({
     isHistorical: true,
     firstRecorded: '2026-07-30',
 });
+
+UsNS.push({
+    name: 'Tampa Duo\'s In-Person Courier Grandparent Scam (Northern Ohio)',
+    slug: 'ohio-pla-palmer-grandparent-scam-courier-network',
+    description: `John Tyler Pla, 25, and Johnny Lee Palmer, 26, both of Tampa, Florida, ran a "grandparent scam" that targeted elderly victims across Northern Ohio cities — including Brecksville, Parma, Gates Mills, Lorain, Mansfield, Fairview Park, Westlake, and Mentor — over a five-week stretch from July 20 to August 28, 2020, according to the U.S. Attorney's Office for the Northern District of Ohio. Other members of the scheme placed the initial calls, posing as a grandchild or an attorney representing one, and told victims a relative had been arrested and urgently needed cash for bail; once a victim agreed to help, the scheme arranged for a purported "courier" to collect the money in person, and it was Pla or Palmer who actually traveled to the victim's home to pick up the cash rather than relying on a wire transfer or gift cards that might raise suspicion at a store counter. U.S. District Judge Pamela A. Barker sentenced Pla to 37 months in federal prison and Palmer to 33 months on March 6, 2024, and ordered both to pay $383,932 in restitution to the victims they defrauded. Anyone who receives a call claiming a family member has been arrested and needs money sent through a courier, gift cards, or a wire transfer should hang up and independently call that relative directly on a number already saved in their phone — a real bail or legal process never requires cash handed to a stranger at the door, and a scammer's insistence on secrecy and speed exists specifically to prevent that kind of verification.`,
+    categorySlug: 'grandparent-scams',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office, Northern District of Ohio"],
+    sourceUrl: 'https://www.justice.gov/usao-ndoh/pr/two-florida-men-sentenced-running-grandparent-scam-northern-ohio',
+    country: 'US',
+    state: 'OH',
+    isHistorical: true,
+    firstRecorded: '2024-03-06',
+});
