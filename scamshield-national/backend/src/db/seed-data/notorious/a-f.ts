@@ -4715,6 +4715,10 @@ NotoriousAF.push(
     slug: 'ryan-brant-take-two-stock-options-backdating',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/New_York_County_Courthouse.jpg?width=1200',
+    coverImageCredit: 'Photo: Mike Peel, Wikimedia Commons (CC BY-SA 4.0) — the New York County Courthouse in Manhattan, where Ryan Brant pleaded guilty',
     sourceUrl: 'https://www.sec.gov/news/press/2007/2007-20.htm',
     body: `Ryan Brant founded Take-Two Interactive Software in 1993, while still in his early twenties, and built it into one of the video game industry's most successful publishers, eventually home to the Grand Theft Auto franchise. He served as the company's chief executive until February 2001 and remained its chairman for several more years, presiding over a period of rapid growth even as the company had already drawn SEC scrutiny once before, over a separate 2000 accounting matter involving how it booked game sales and returns.
 
