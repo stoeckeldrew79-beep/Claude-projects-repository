@@ -5492,6 +5492,10 @@ NotoriousGM.push(
     slug: "jean-joseph-wells-real-estate-investment-fraud",
     author: "ScamShield Editorial",
     tags: ["notorious", "notorious-scammer"],
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/West_Palm_Beach_Skyline.jpg?width=1200",
+    coverImageCredit: "Wikimedia Commons (public domain) — West Palm Beach, Florida, near where Wells Real Estate Investment was based",
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     sourceUrl: "https://www.justice.gov/usao-sdfl/pr/convicted-felon-sentenced-20-years-prison-50-million-real-estate-fraud-scheme",
     body: `Jean Joseph, 55, of Boca Raton, Florida, was already a convicted fraudster serving a federal prison sentence when, prosecutors say, he kept right on running a second, much larger fraud scheme — directing it from behind bars with the help of his wife, Janalie Camille Bingham, 44, who also went by Janalie Camille Joseph.
 
