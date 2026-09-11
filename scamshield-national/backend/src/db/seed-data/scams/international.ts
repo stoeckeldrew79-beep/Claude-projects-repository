@@ -13474,3 +13474,16 @@ International.push(
     country: 'CD',
   },
 );
+
+International.push(
+  {
+    name: 'Fake FRIVAO War-Reparations Fee Scam in Tshopo',
+    slug: 'drc-frivao-war-reparations-fee-scam-tshopo',
+    description: `Dismas Kitenge Senga, interim board president of FRIVAO — the Congolese fund set up to pay out the roughly $325 million the International Court of Justice ordered Uganda to pay the DRC in reparations for the 1998–2003 war — publicly warned on March 27, 2026 that a network of impostors was defrauding war victims across Tshopo province, centered on the provincial capital Kisangani. According to FRIVAO, people presenting themselves as intermediaries close to the fund or to local civil society were demanding payments of between 5,000 and 30,000 Congolese francs from victims, under two pretexts: supposedly covering costs to organize Kitenge's own arrival and reception in Kisangani, and issuing "new identification cards" the scammers claimed were mandatory to remain eligible for future compensation payouts. Kitenge said FRIVAO had no involvement whatsoever in either activity, described the perpetrators as "a network of criminals" preying on a vulnerable population still waiting on reparations more than two decades after the underlying conflict, and stressed that no individual, costly procedure is ever required of victims to register with the fund or assert their rights — any request for payment tied to registration or an identification card is, by definition, fraudulent. The warning came as FRIVAO was already working to rebuild public trust after unrelated reporting by Congolese watchdog CREFDL had raised separate allegations of mismanagement and financial irregularities around locally funded projects in Kisangani, a backdrop that made victims especially susceptible to being told a new round of paperwork or fees was required. Congolese authorities were alerted and asked to identify and arrest those responsible, and civil society groups urged residents to report anyone soliciting payment in FRIVAO's name directly to the fund or to local law enforcement rather than paying.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Fonds de Réparation et d\'Indemnisation des Victimes des activités illicites de l\'Ouganda en RDC (FRIVAO)', 'Radio Okapi', 'mediacongo.net', 'Congo Quotidien'],
+    sourceUrl: 'https://www.radiookapi.net/2026/03/28/actualite/societe/tshopo-alerte-une-escroquerie-visant-les-victimes-de-guerre-le-frivao',
+    country: 'CD',
+  },
+);
