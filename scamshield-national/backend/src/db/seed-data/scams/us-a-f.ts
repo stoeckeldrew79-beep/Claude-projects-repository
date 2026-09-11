@@ -7120,3 +7120,15 @@ UsAF.push({
     isHistorical: true,
     firstRecorded: '2022-01-01',
 });
+
+UsAF.push({
+    name: 'Franklin County, Kentucky Deputy Impersonation $235,000 Scam Attempt',
+    slug: 'franklin-county-kentucky-deputy-impersonation-235k-scam',
+    description: `The Franklin County, Kentucky Sheriff's Office warned residents in August 2026 about callers falsely claiming to be sheriff's deputies and pressuring people over supposed bench warrants, unpaid fines, or missed jury duty — stressing that its deputies never call demanding money over the phone to resolve a warrant, a fine, or a jury-duty obligation, and advising anyone who gets such a call to hang up and block the number. Weeks later, on September 3, 2026, Franklin County Sheriff's Office detectives arrested Rehankumar D. Mekvan after an investigation stopped him from taking roughly $235,000 from a Franklin County resident, marking the third scam interception and arrest the office's detectives have made in recent years. Mekvan was charged with engaging in organized crime, impersonating a peace officer, attempted theft by deception, obscuring the identity of a machine involving $10,000 or more, and tampering with physical evidence. "I am extremely proud of our detectives and the outstanding work they continue to do to protect the citizens of Franklin County," Sheriff Dwayne Depp said in announcing the arrest, adding that residents who receive a suspicious call demanding money should not provide personal or financial information and should not send money. The case is a reminder that a caller who claims to be law enforcement and threatens arrest over a missed court date or jury summons unless payment is made immediately is never a real deputy — a legitimate warrant or fine is handled in person or by mail through the court, never resolved over the phone with a payment to the caller.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ["Franklin County, Kentucky Sheriff's Office", 'WKYT', 'LEX 18'],
+    sourceUrl: 'https://www.wkyt.com/2026/09/09/man-arrested-franklin-county-connection-scam-investigation/',
+    country: 'US',
+    state: 'KY',
+});
