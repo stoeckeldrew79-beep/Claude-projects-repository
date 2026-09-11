@@ -6596,3 +6596,22 @@ Billups and Rozier were each released on bond — Billups on $5 million — afte
 Whatever the eventual verdicts, the case is already a study in how thoroughly organized crime adapted a centuries-old card-cheating racket to modern surveillance technology, and how far an athlete's own undisclosed injury has become a tradeable commodity in an era of legal, instantaneous betting on individual player statistics rather than just final scores.`,
   },
 );
+NotoriousAF.push(
+  {
+    title: 'Elie Schwartz and the $62.8 Million CrowdStreet Real Estate Fraud',
+    slug: 'elie-schwartz-nightingale-properties-crowdstreet-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-ndga/pr/head-commercial-real-estate-investment-firm-sentenced-federal-prison-628-million-fraud',
+    // no rights-cleared photo identified — sourceUrl above serves as the "read the full story" link
+    body: `Elchonon "Elie" Schwartz ran Nightingale Properties, a New York commercial real estate investment firm, and raised money the way a growing share of real estate deals now do: through CrowdStreet, an online platform that connects individual investors directly with commercial property offerings, letting a firm raise millions from hundreds of strangers without ever meeting most of them in person.
+
+Between May 2022 and March 2023, Schwartz and Nightingale ran two offerings on CrowdStreet that told investors their money would go toward two specific, named deals: purchasing an interest in the Atlanta Financial Center, a Buckhead office complex, and recapitalizing a Miami Beach commercial property. More than 800 investors sent Schwartz roughly $62.8 million based on those representations, including about $54 million earmarked specifically for the Atlanta project, according to the Justice Department; the Securities and Exchange Commission's parallel civil complaint put the number at least 700 investors contributing more than $52 million.
+
+None of the money went where investors were told. Federal prosecutors said Schwartz instead used the funds to prop up other, failing Nightingale real estate projects that had nothing to do with the deals investors thought they were funding, made unprofitable trades in his own personal brokerage accounts, and spent investor money on personal luxuries including a penthouse condominium and watches. In one especially pointed piece of the SEC's complaint, Schwartz was accused of rerouting roughly $12 million meant for the Atlanta deal into his brokerage account to buy stock in First Republic Bank in March 2023 — a bet that collapsed days later when regulators seized the bank, wiping out the position along with the investor money behind it.
+
+Schwartz pleaded guilty on February 12, 2025, to one count of wire fraud in the Northern District of Georgia. On May 19, 2025, U.S. District Judge Steven D. Grimberg sentenced him to 87 months — just over seven years — in federal prison, followed by three years of supervised release, and ordered him to pay $45,079,485.03 in restitution to victims. The SEC's separate civil case against Schwartz and Nightingale Properties, seeking disgorgement and civil penalties, proceeded alongside the criminal prosecution.
+
+The case is a case study in how a real, named, physically existing building can still be the backdrop for a fraud: investors on platforms like CrowdStreet could look up the Atlanta Financial Center and the Miami Beach property themselves and confirm they were genuine assets, which was exactly the point — a verifiable underlying deal lent credibility to promises about how investor money would actually be used, when in fact the platform offered no way for investors to confirm that their specific dollars, once wired, ever reached the project the offering named.`,
+  },
+);
