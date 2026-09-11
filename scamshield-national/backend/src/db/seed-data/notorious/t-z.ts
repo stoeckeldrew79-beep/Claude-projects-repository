@@ -1839,6 +1839,10 @@ NotoriousTZ.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/usao-ednc/pr/greenville-man-sentenced-over-five-years-prison-ponzi-scheme',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Pitt_County_Courthouse.JPG?width=1200',
+    coverImageCredit: 'Photo: Tradewinds, Wikimedia Commons (CC BY-SA 3.0) — the Pitt County Courthouse in Greenville, North Carolina, where Willard Timothy Sutton ran his car-lot Ponzi scheme',
+    coverImagePosition: 50,
     body: `Willard Timothy Sutton, known around Greenville, North Carolina as "Tim," was a familiar and trusted face well before anyone thought to ask where his investment returns were actually coming from. He ran Greenville Auto World, LLC (GAW), a "buy here, pay here" used car dealership that sold vehicles to customers with weak credit and financed the loans itself — a real, ordinary small business. He was also the leader of the Tim Sutton Trio, a locally known gospel group, and that standing in Pitt County's church community became the recruiting engine for a second business almost nobody outside his inner circle understood: selling investors a stake in GAW's in-house auto loans.
 
 Starting around 2019, Sutton told investors their money was being used to fund and service those buy-here-pay-here loan contracts, and that steady interest and principal payments from car buyers would keep their returns coming. According to federal prosecutors, that wasn't what was actually happening. Sutton sold the same underlying loan contracts to more than one investor at a time without telling either of them, forged customers' signatures on paperwork to manufacture loans that didn't exist, and handed over falsified vehicle title documents to back up the fiction — while using newly raised investor money to keep paying off earlier investors, the standard structure of a Ponzi scheme dressed up as a legitimate car lot's financing arm.
