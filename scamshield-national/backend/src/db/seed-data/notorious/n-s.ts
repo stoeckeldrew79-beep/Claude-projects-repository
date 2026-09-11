@@ -5431,6 +5431,10 @@ NotoriousNS.push(
     slug: 'richard-opoku-agyemang-cincinnati-romance-fraud-laundering',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Cincinnati_skyline.jpg?width=1200',
+    coverImageCredit: 'Photo: Gabba (Public domain) — Cincinnati, where Agyemang lived and laundered the romance-fraud proceeds',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.justice.gov/usao-sdoh/pr/cincinnati-man-sentenced-prison-laundering-proceeds-romance-fraud-conspiracy-scammed',
     body: `Richard Opoku Agyemang, 41, of Cincinnati, wasn't the one writing the messages that convinced dozens of victims they'd found love. That work fell to co-conspirators in Ghana, who used stolen photographs and fabricated identities to build fake profiles on dating websites and target people specifically chosen for their vulnerability: the elderly, and those who had recently lost a spouse and were looking for connection again.
 
