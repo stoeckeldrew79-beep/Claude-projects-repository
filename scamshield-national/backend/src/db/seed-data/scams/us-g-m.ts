@@ -5722,3 +5722,17 @@ UsGM.push({
     isHistorical: true,
     firstRecorded: '2026-06-18',
 });
+
+UsGM.push({
+    name: 'Slidell "Medicaid Millionaire" Benefits Fraud (Candace Taylor)',
+    slug: 'louisiana-candace-taylor-medicaid-lamborghini-fraud',
+    description: `Candace M. Taylor, 35, of Slidell, Louisiana, first applied for Medicaid in May 2019 under the name "Candace Sailor," reporting a bi-weekly income of $1,900 and no dependents — but by 2020, while still enrolled and reporting no income to the program, her bank accounts show deposits of nearly $481,000, more than $325,000 of it from businesses she owned, according to Louisiana Attorney General Liz Murrill's Louisiana Bureau of Investigation. Investigators say that between January 2020 and December 2024, Taylor's businesses generated more than $9.5 million in revenue while she remained on Medicaid, with her spending during that stretch including six-figure cashier's checks for property purchases, cosmetic surgery, high-end jewelry, and a $100,000 wire transfer toward a 2022 Lamborghini Urus. Two months after that purchase, in 2024, Taylor renewed her Medicaid benefits by reporting just $2,000 in monthly income and not disclosing that she owned any businesses at all. Louisiana Bureau of Investigation agents arrested Taylor on July 28, 2025 on a charge of government benefits fraud, and she was booked into East Baton Rouge Parish Prison. Medicaid eligibility is based on a household's actual, current income, which recipients are required to report accurately and update whenever it changes; Louisiana residents who suspect someone is fraudulently receiving Medicaid, SNAP, or other public benefits while concealing income or assets can report it to the Attorney General's Medicaid Fraud Control Unit or the Louisiana Department of Health's fraud reporting line.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'medium',
+    sources: ["Louisiana Attorney General's Office", 'WAFB'],
+    sourceUrl: 'https://www.wafb.com/2025/07/29/woman-arrested-after-buying-lamborghini-while-getting-medicaid-benefits-authorities-say/',
+    country: 'US',
+    state: 'LA',
+    isHistorical: true,
+    firstRecorded: '2025-07-28',
+});
