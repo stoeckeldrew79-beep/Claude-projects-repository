@@ -3236,3 +3236,17 @@ UsTZ.push({
     isHistorical: true,
     firstRecorded: '2026-09-10',
 });
+
+UsTZ.push({
+    name: 'Vermont 3SquaresVT "Locked EBT Card" Scam',
+    slug: 'vermont-3squaresvt-locked-ebt-card-scam',
+    description: `Scammers are calling and texting Vermont recipients of 3SquaresVT — the state's name for SNAP, or food stamp, benefits — falsely claiming the recipient's EBT card has been "locked" or that their food and nutrition benefits have been stopped, and instructing them to call back and provide personal information to "verify their eligibility" and restore access. The Vermont Attorney General's Consumer Assistance Program (CAP), part of the Office of the Attorney General, issued a scam alert on November 14, 2025 warning that "government officials will never text or call clients to request this information," and that anyone who receives such a message should not respond and should never give their EBT card number to an unknown caller. CAP noted the scam spiked again in the following months, prompting Attorney General Charity Clark's office to flag SNAP/3SquaresVT impersonation as a new addition to its list of Top 10 Scams of 2025, released in January 2026. Because EBT benefits, unlike a stolen credit card, generally cannot be reversed or replaced once drained, Vermont's Department for Children and Families Economic Services Division stresses that any legitimate contact about a 3SquaresVT case comes only through its own listed numbers — 802-215-3243 for texts and 1-800-933-3405 for calls — never from an unfamiliar number demanding immediate verification. Anyone who receives a suspicious call or text about their EBT card is advised to hang up immediately, contact Economic Services directly using a number looked up independently, and report the scam to the Attorney General's Consumer Assistance Program at 800-649-2424 or AGO.CAP@vermont.gov.`,
+    categorySlug: 'public-benefits-fraud',
+    country: 'US',
+    state: 'VT',
+    alertLevel: 'high',
+    sources: ["Vermont Attorney General's Office (Consumer Assistance Program)", 'Vermont Department for Children and Families'],
+    sourceUrl: 'https://blog.uvm.edu/cap/scam-alert-calls-targeting-3squaresvt-households/',
+    isHistorical: true,
+    firstRecorded: '2025-11-14',
+});
