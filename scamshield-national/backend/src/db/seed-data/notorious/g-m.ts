@@ -8097,6 +8097,10 @@ NotoriousGM.push(
     slug: 'john-bivona-saddle-river-advisors-pre-ipo-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/NASDAQ,_Times_Square_-_panoramio.jpg?width=1200',
+    coverImageCredit: 'Photo: Vesna Middelkoop, CC BY-SA 3.0, via Wikimedia Commons — the NASDAQ MarketSite, Times Square',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     body: `John V. Bivona ran Saddle River Advisors LLC and a related firm, SRA Management Associates, out of New Jersey, pitching investors on something that sounded like a golden ticket in the years before the biggest tech IPOs of the 2010s: access to pre-IPO shares of companies like Twitter, Dropbox, Box, Square, Bloom Energy, and Palantir Technologies, ordinarily off-limits to anyone who wasn't already a well-connected insider or venture investor. Bivona positioned his funds as the vehicle that could get ordinary investors into those deals before the rest of the public ever had the chance.
 
 According to the SEC, that access was real in only some of the underlying holdings, and the accounting behind it was not real at all. The agency alleged that Bivona and his firms misappropriated at least $5.7 million of investor money, using cash raised for one fund to pay off earlier investors in another, prop up struggling funds, and cover family-related expenses — a Ponzi-like structure hidden underneath the legitimate-sounding language of pre-IPO share access. Investors had been promised annual financial statements for their funds; the SEC said none were ever prepared, leaving investors with no independent way to check what had actually happened to their money. The SEC also alleged that Bivona steered a substantial share of the diverted funds to his nephew, Frank Mazzola, who had previously been barred from the securities industry in an earlier SEC enforcement action and was not supposed to be handling investor money at all.
@@ -8114,6 +8118,10 @@ NotoriousGM.push(
     slug: 'jeffrey-ikahn-safeguard-metals-precious-metals-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/American_Silver_Eagle,_obverse,_2004.png?width=1200',
+    coverImageCredit: 'Photo: U.S. Mint / ReneeWrites, CC BY 4.0, via Wikimedia Commons — an American Silver Eagle coin',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     body: `Jeffrey Ikahn — who also went by the names Jeffrey Santulan and Jeffrey Hill — ran Safeguard Metals LLC out of a small leased office in Woodland Hills, California, while marketing the company to prospective clients as a full-service investment firm with offices in London, New York, and Beverly Hills, a roster of prominent employees, and some $11 billion in assets under management. None of that description was true; it was a persona built to make a boiler-room coin-selling operation sound like an established international investment house.
 
 According to the CFTC and a coalition of thirty state securities and financial regulators, Safeguard's sales agents worked from scripts — some written by Ikahn himself — designed to frighten current and prospective retirees into liquidating their retirement accounts. The pitches warned, falsely, that the stock market was about to crash and that an "unpublicized" new law would soon freeze savers' 401(k)s and IRAs, urging them to move their money into physical silver coins before it was too late. From October 2017 through at least July 2021, the scheme took in roughly $68 million from about 450 people, the large majority of it retirement savings from older investors. Safeguard and Ikahn told investors the markup on the coins they were buying ranged from 4 to 33 percent; regulators found the real average markup was closer to 64 percent — meaning a substantial share of every retiree's life savings that went into Safeguard's coins was gone the moment the sale closed, regardless of what silver itself later did.
