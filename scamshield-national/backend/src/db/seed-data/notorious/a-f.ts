@@ -5562,6 +5562,10 @@ NotoriousAF.push(
     slug: 'eric-munson-adit-ventures-pre-ipo-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Federal_Hall_August_2017_01.jpg?width=1200',
+    coverImageCredit: "Photo: Arild Vågen, Wikimedia Commons (CC BY-SA 4.0) — Federal Hall on Wall Street, near Eric Munson's New York investment adviser business",
     sourceUrl: 'https://www.sec.gov/newsroom/press-releases/2026-73-sec-charges-private-fund-adviser-adit-ventures-management-its-ceo-affiliated-general-partners',
     body: `Note: this is a civil SEC enforcement action, resolved by consent rather than by trial. Eric Munson and the Adit Ventures entities have consented to a judgment, subject to court approval, without admitting or denying the SEC's allegations — a common resolution that settles the case but does not amount to a court finding that the underlying conduct occurred as described.
 
