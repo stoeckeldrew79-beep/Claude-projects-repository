@@ -3391,6 +3391,10 @@ If you use Match, Tinder, Hinge, Plenty of Fish, or any other dating platform, t
     slug: "meta-multistate-child-safety-settlement-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "meta-child-safety-settlement"],
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Meta_Platforms_Headquarters_Menlo_Park_California.jpg?width=1200",
+    coverImageCredit: "Photo: LPS.1 (CC0)",
+    coverImagePosition: 50,
+    // representative photo — Meta's Menlo Park headquarters, not tied to the specific settlement announcement; replace with an exact match if found
     sourceUrl: "https://oag.dc.gov/release/attorney-general-schwalb-announces-meta-will-pay",
     body: `On August 26, 2026, Meta Platforms agreed to pay up to $17.1 billion and overhaul how Instagram and Facebook work for teenagers, settling a multistate lawsuit that a bipartisan coalition of attorneys general first filed in October 2023. The states accused Meta of designing its platforms to be intentionally addictive to children, of knowing from its own internal research that features like infinite scroll, autoplay, and public "like" counts were linked to anxiety, depression, and poor sleep in teen users, and of publicly denying or downplaying those harms for years while continuing to market the platforms to minors. Forty-seven states, the District of Columbia, and several U.S. territories joined the settlement; Texas negotiated its own separate $1 billion deal with Meta, Florida's attorney general rejected the group settlement outright and continues to pursue its own case, and New Mexico had already won an earlier lawsuit against the company on its own.
 
