@@ -2781,3 +2781,15 @@ UsTZ.push({
     country: 'US',
     state: 'TX',
 });
+
+UsTZ.push({
+    name: 'Texas Fake Auto Insurance Card Scam',
+    slug: 'texas-fake-auto-insurance-card-scam',
+    description: `The Texas Department of Insurance issued a fraud alert on July 27, 2026, warning that unlicensed sellers are increasingly advertising steeply discounted auto insurance on social media and messaging apps, collecting payment, and handing buyers a counterfeit insurance ID card — sometimes mimicking a real, well-known carrier's branding — for a policy that was never actually purchased with any insurance company. TDI Fraud Unit investigators Capt. Kevin Lemon and Capt. Tyler Hampton said the operators pocket the money outright, leaving drivers completely uninsured and unaware until they are stopped by police or, worse, in an accident and try to file a claim. The scale of the problem has grown sharply: fraud reports to TDI rose from 38 in 2023 to 126 in 2025, a 231% increase, with another 37 reports filed in just the first three months of 2026. A KXAS/NBC 5 Dallas-Fort Worth investigation profiled Ann Nguyen, a State Farm agent in Arlington who says she now regularly fields calls from confused customers holding fraudulent State Farm-branded cards they bought from someone else, and Raul Manzano, a Minnesota driver who paid $1,500 cash for what he believed was six months of coverage through an informal referral, only to be criminally charged with possession of a fictitious insurance document after a traffic stop revealed the policy never existed. TDI's Mistie Hinote urges drivers not to be rushed by a "great deal today" pitched over social media, since legitimate insurers do not sell that way, and to be especially wary of any seller who asks for cash or payment through a personal account or third-party payment app rather than a company channel. Before paying for a policy, confirm the seller is licensed in Texas through TDI's Help Line at 800-252-3439 or the department's online agent lookup, and independently call the named insurance company directly to verify a policy is actually active — using the number on the insurer's official website, not one provided by the seller — rather than trusting an ID card alone.`,
+    categorySlug: 'insurance-fraud',
+    alertLevel: 'high',
+    sources: ['Texas Department of Insurance', 'NBC 5 Dallas-Fort Worth (KXAS)'],
+    sourceUrl: 'https://www.tdi.texas.gov/news/2026/tdi07272026.html',
+    country: 'US',
+    state: 'TX',
+});
