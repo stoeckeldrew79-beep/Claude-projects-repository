@@ -13098,3 +13098,16 @@ International.push(
     country: 'PW',
   },
 );
+
+International.push(
+  {
+    name: 'Online Romance Scams Surging Among Elderly Palauans',
+    slug: 'palau-online-romance-scams-elderly-victims',
+    description: `In a report published May 5, 2026, Island Times detailed a rising wave of online "friendship" and romance scams targeting Palau's senior citizens, with victims persuaded to send thousands of dollars to strangers they had never met in person. In one case, an elderly woman living on Social Security lost more than $10,000 after months of daily messaging with an online contact who never appeared on video and eventually asked for money to cover a fabricated emergency; her niece, who discovered the losses, said her aunt "really believes this to be real" even after the scam was explained to her, and other victims interviewed said shame kept them from telling their own families, let alone reporting the loss to police. Officials said the pattern typically begins with a friend request on Facebook, Instagram, Snapchat, or WhatsApp from a stranger posing as a romantic prospect, an old friend, or a successful businessperson overseas, followed by weeks or months of frequent messaging meant to build trust before the scammer introduces a fabricated emergency, business opportunity, or financial "reward" and asks for money by bank transfer or remittance service; once funds leave Palau, both the money and the scammer disappear. Palau's Financial Intelligence Unit is leading awareness efforts alongside the Bureau of Public Safety and the Office of the Special Prosecutor, but authorities acknowledge that because these schemes are run from overseas, the odds of recovering lost funds or identifying an offender are low even when a victim does report the loss to the Bureau of Public Safety at 488-2412 or the Office of the Special Prosecutor at 767-3291 or www.palauosp.org. Officials are urging residents, especially elderly relatives who may be less familiar with the pattern, to be suspicious of any online-only relationship that quickly turns romantic or financially generous, to never send money to someone they have not met in person, and to talk with family before wiring funds to an unfamiliar overseas contact.`,
+    categorySlug: 'romance-scams',
+    alertLevel: 'high',
+    sources: ['Island Times', 'Palau Financial Intelligence Unit', 'Bureau of Public Safety (Palau)'],
+    sourceUrl: 'https://islandtimes.org/online-romance-scams-surge-in-palau-targeting-elderly-victims/',
+    country: 'PW',
+  },
+);
