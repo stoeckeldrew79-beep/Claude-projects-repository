@@ -6236,6 +6236,10 @@ Helix's business model depended on a myth its own customers wanted to believe: t
     slug: 'michael-scronic-scronic-macro-fund-ponzi-scheme',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/White_Plains_Federal_Courthouse.gif?width=1200',
+    coverImageCredit: 'U.S. Government (U.S. Marshals Service), Public Domain, via Wikimedia Commons',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.justice.gov/usao-sdny/pr/former-hedge-fund-manager-sentenced-96-months-prison-ponzi-scheme-case',
     body: `Michael Scronic didn't run his hedge fund out of a Manhattan tower. He ran it out of Pound Ridge, a small, affluent town in Westchester County, New York, raising money almost entirely from people he already knew — neighbors, friends, and members of his own family, including his mother. Starting around 2010, Scronic solicited at least 42 of them to invest in the Scronic Macro Fund, an unregistered vehicle he told investors traded options on major stock indexes using a disciplined, risk-managed strategy with a long track record of steady gains.
 
