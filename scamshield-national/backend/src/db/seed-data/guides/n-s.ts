@@ -3719,6 +3719,10 @@ Because this breach exposed both financial identifiers and specific medical hist
     slug: "realpage-doj-algorithmic-rent-pricing-settlement-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "realpage-doj-algorithmic-rent-pricing-settlement"],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Modern_apartment_building_(Unsplash).jpg?width=1200',
+    coverImageCredit: 'Photo: Grant Lemons (CC0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: "https://www.propublica.org/article/doj-realpage-settlement-rental-price-fixing-case",
     body: `Most renters have never heard of RealPage, a Texas-based software company, even though its pricing tools have quietly touched millions of leases across the country. RealPage sells revenue-management software, marketed under names like YieldStar and AI Revenue Management, that landlords feed with their own occupancy and pricing data in exchange for a recommended rent for each unit. ProPublica's 2022 investigation into the software first revealed the problem: RealPage's algorithm didn't just analyze each landlord's own numbers in isolation — it pooled nonpublic, competitively sensitive pricing and occupancy data from competing landlords in the same market and used it to generate synchronized rent recommendations, a practice legal experts described at the time as resembling cartel-like behavior, just run through software instead of a smoke-filled room.
 
