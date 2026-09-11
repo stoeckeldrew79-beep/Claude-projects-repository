@@ -6714,3 +6714,15 @@ UsAF.push({
     isHistorical: true,
     firstRecorded: '2024-05-01',
 });
+
+UsAF.push({
+    name: 'VetLink Solutions Veterans Disability Claims Fee Scheme',
+    slug: 'arizona-vetlink-solutions-veterans-disability-claims-settlement',
+    description: `From 2019 through 2024, Surprise, Arizona-based White Tanks Group LLC, doing business nationwide as VetLink Solutions, advertised that it could guide veterans through the U.S. Department of Veterans Affairs disability benefits claims process and secure them unrealistically large increases in their monthly payments. Arizona Attorney General Kris Mayes' office alleged the company implied it could perform work only VA-accredited representatives are legally authorized to provide, then charged veterans thousands of dollars — in some cases as much as $12,000 — through a prohibited contingency-fee structure tied to any resulting increase in a veteran's disability rating, all despite VetLink having already received two separate cease-and-desist letters from the VA over the practice. Mayes' office sued under the Arizona Consumer Fraud Act, and on May 21, 2026 announced a consent judgment in Maricopa County Superior Court requiring VetLink Solutions and its principals to pay nearly $2 million: $1.2 million earmarked as restitution for affected veterans, $700,000 in civil penalties directed to the state's Consumer Protection-Consumer Fraud Revolving Fund, and $50,000 covering attorneys' fees and investigative costs. The company did not admit wrongdoing but agreed to stop misrepresenting the services it is entitled to provide. Eligible veterans are being notified by postcard from a court-appointed claims administrator; the Attorney General's office says anyone who believes they paid VetLink for VA claims help and hasn't received notice within several weeks should check www.azag.gov for the administrator's contact information. Federal law requires that anyone charging a veteran for help preparing, presenting, or prosecuting a VA disability claim be individually VA-accredited, and the VA itself, along with Veterans Service Organizations like the VFW and American Legion, provides that same help for free — veterans can confirm a person or company's accreditation status at va.gov before signing anything or agreeing to hand over a share of a future benefits increase.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'medium',
+    sources: ["Arizona Attorney General's Office"],
+    sourceUrl: 'https://www.azag.gov/press-release/attorney-general-mayes-announces-nearly-2-million-settlement-protect-veterans',
+    country: 'US',
+    state: 'AZ',
+});
