@@ -4466,7 +4466,10 @@ NotoriousNS.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2024/06/ftc-action-leads-sweepstakes-ban-three-individuals-who-ran-massive-scheme-cost-consumers-millions',
-    // no rights-cleared photo found — sourceUrl above serves as the "read the full story" link
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/The Apex Building, headquarters of the Federal Trade Commission, on Constitution Avenue and 7th Streets in Washington, D.C.jpg?width=1200',
+    coverImageCredit: 'Photo: Harrison Keely / Wikimedia Commons (CC BY 4.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `For years, personalized-looking letters arrived in mailboxes across the United States, Australia, Canada, France, Germany, Japan, and the United Kingdom carrying a version of the same message: you have already won more than $2 million, guaranteed, and all you need to do to collect it is mail back $20 to $30 within the next ten days. Behind the letters, the FTC alleged in a complaint filed in May 2015 in the Southern District of Florida, was a network of eleven shell companies — among them Mail Tree Inc., Spin Mail Inc., and Masterpiece Marketing LLC, doing business under names like Affiliated Opportunities Group and National Directory Center — run by Matthew Pisoni, Marcus Pradel, John Leon, and Victor Ramirez.
 
 The letters were personalized enough to feel real and vague enough to survive a lawyer's read: buried in small print at the bottom was language revealing that the companies had merely compiled reports on public sweepstakes, not actually awarded any prizes themselves. The artificial ten-day deadlines and "guaranteed" language were built to push recipients into mailing a fee before they had time to research the company sending it. By the time the FTC won a temporary restraining order shutting the operation down in May 2015, it had collected more than $28 million from consumers who never received the winnings they'd been promised. The U.S. Attorney's Office for the Southern District of Florida arrested four individuals tied to the scheme that same month, running a parallel criminal track alongside the FTC's civil case.
