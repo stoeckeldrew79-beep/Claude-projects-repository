@@ -6652,6 +6652,10 @@ If you've paid a bill online in the past few years, it's worth checking whether 
     slug: "ascent-global-logistics-2026-data-breach-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "ascent-global-logistics-2026-data-breach"],
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Welcome_to_Belleville_Michigan.jpg?width=1200",
+    coverImageCredit: "Photo: PeRshGo, CC BY-SA 3.0, via Wikimedia Commons — Belleville, Michigan, where Ascent Global Logistics is headquartered",
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     body: `Ascent Global Logistics, a privately held global logistics and freight transportation company headquartered in Belleville, Michigan, began notifying individuals in August 2026 that a compromised employee email account had exposed a strikingly broad range of personal information. According to the company's breach notification filed with the Massachusetts Office of Consumer Affairs and Business Regulation, an unauthorized third party gained access to a single employee's Microsoft account and downloaded files from it between May 8 and May 9, 2026. Ascent says it didn't discover the suspicious activity until May 22 — nearly two weeks later — and then spent the following months reviewing exactly what those downloaded files contained before notification letters started going out on August 21.
 
 What makes this breach worth understanding, beyond its size, is how it happened: no network-wide intrusion, no ransomware encrypting servers, just one employee's email inbox falling into the wrong hands. That's often all it takes at a company like Ascent, where an employee handling freight billing, claims, or human-resources correspondence can have years of file attachments sitting in their mailbox — invoices, driver records, customer paperwork, insurance claims — accumulated from routine business rather than deliberately consolidated anywhere. When an attacker compromises that one account, typically through a phishing email or credential-stuffing against a reused password, they inherit whatever sensitive material happened to pass through it over time, which is exactly why the exposed data here reads like a grab bag: names, Social Security numbers, driver's license numbers, financial account information, credit or debit card numbers, and medical records.
@@ -6666,6 +6670,9 @@ Ascent is offering affected individuals a complimentary membership in Experian's
     slug: "concord-hospital-tracking-pixel-settlement-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "concord-hospital-tracking-pixel-settlement"],
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Concord_Hospital_Memorial_Building.jpg?width=1200",
+    coverImageCredit: "Photo: Austin102, CC BY-SA 4.0, via Wikimedia Commons — the Memorial Building on the Concord Hospital campus",
+    coverImagePosition: 50,
     sourceUrl: "https://www.classaction.org/news/800k-concord-hospital-settlement-resolves-lawsuit-over-alleged-disclosure-of-patient-info",
     body: `Concord Hospital, the main medical center serving New Hampshire's state capital and operated together with Capital Region Healthcare Corporation, is the defendant in a case that involves no hacker, no ransomware gang, and no stolen password. According to a lawsuit filed May 27, 2025 in New Hampshire — Branson v. Concord Hospital, Inc. — the hospital's own website was quietly sharing patient information with outside advertising companies, through code the hospital itself had installed.
 
