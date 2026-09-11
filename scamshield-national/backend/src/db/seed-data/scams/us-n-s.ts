@@ -5125,3 +5125,17 @@ UsNS.push({
     isHistorical: true,
     firstRecorded: '2026-06-08',
 });
+
+UsNS.push({
+    name: 'Nassau County "Involved in a Crime Overseas" Impersonation Scam',
+    slug: 'new-york-nassau-county-tierigeli-crime-overseas-impersonation-scam',
+    description: `A 70-year-old Nassau County, New York woman received a phone call from someone falsely claiming she was implicated in a criminal case in India and that she needed to withdraw and transfer money right away to resolve the matter. Over the following month, between June 29 and July 27, 2026, she wired and withdrew a combined $919,200 to the callers, who kept the pressure on with follow-up calls demanding more. On September 1, 2026 the scammers escalated further, telling her to convert an additional $300,000 into gold bars and coins and hand them over — but this time she contacted the Nassau County Police Department instead, and detectives from the Fraud and Forgery Section identified and arrested Fnu Tierigeli, 32, of Queens, in Hicksville on September 2, 2026, before any of that second payment could be collected. Tierigeli was charged with attempted grand larceny in the second degree and was due to be arraigned at First District Court in Hempstead. The case follows a pattern investigators around the country have flagged with growing frequency: a caller claims the victim's identity or bank account is linked to a crime — often overseas — and that the only way to "prove innocence" or avoid prosecution is to liquidate savings into cash, wire transfers, or precious metals and hand them to a person who arrives to collect. No real law enforcement agency, foreign or domestic, resolves a criminal investigation by directing someone to withdraw their savings and hand them to a courier or wire them to a stranger, and anyone who receives a call like this should hang up and contact their local police department directly — in Nassau County, the Fraud and Forgery Section can be reached at (516) 573-2815 — rather than acting on instructions from the caller.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Nassau County Police Department', 'Long Island Press'],
+    sourceUrl: 'https://www.longislandpress.com/2026/09/03/woman-scammed-1-mil-arrested/',
+    country: 'US',
+    state: 'NY',
+    isHistorical: true,
+    firstRecorded: '2026-09-02',
+});

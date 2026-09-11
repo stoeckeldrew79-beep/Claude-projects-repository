@@ -5454,3 +5454,30 @@ UsGM.push({
     isHistorical: true,
     firstRecorded: '2026-09-08',
 });
+
+UsGM.push({
+    name: 'Miles City "House Flipping" Investment Pyramid Scheme (Richard Brandt)',
+    slug: 'montana-miles-city-richard-brandt-house-flipping-pyramid-scheme',
+    description: `Richard Brandt of Miles City, Montana told acquaintances and fellow residents that he ran a real-estate investment business buying, remodeling, and reselling homes in Nebraska and Missouri, and recruited them to invest cash for a promised share of the profits. Between January 2011 and June 2015, prosecutors say Brandt instead ran the operation as a pyramid scheme, using new investors' money to pay off earlier ones and to cover his own expenses while locating fresh victims whenever an existing arrangement started to unravel, ultimately embezzling roughly $1.9 million from 18 people. The scheme went undetected for years until one victim, an elderly woman, was on the verge of being removed from her nursing home because Brandt had drained about $90,000 from her bank account; another victim, who had invested with Brandt to buy a house without stairs for himself and his mother, testified that his mother later fell down her own home's stairs and died, and that the stress of the loss contributed to his own heart attack. A Custer County jury convicted Brandt on six felony counts — theft by embezzlement, fraudulent practices, scheming to defraud, and running a pyramid promotional scheme, including an enhancement for exploiting elderly victims — and on May 1, 2017, Montana's 16th Judicial District Court Judge Michael Hayworth sentenced him to 60 years in the Montana State Prison with 20 years suspended, along with a restitution order to repay his victims. The case is a reminder that an investment pitched informally by someone in the community, promising profits from a specific project like flipping houses out of state, still needs to be checked against real evidence — a title, a purchase contract, an independent appraisal — rather than trust alone, and that a pyramid scheme can keep running for years by using each new investor's money to make the last one look legitimate.`,
+    categorySlug: 'ponzi-pyramid-schemes',
+    sources: ['Billings Gazette', 'KULR8', 'Custer County Attorney\'s Office'],
+    sourceUrl: 'https://billingsgazette.com/news/state-and-regional/montana/montana-man-gets-years-in-million-ponzi-scheme/article_ceecaf72-6b67-5dd3-a439-f9e4376acd6f.html',
+    country: 'US',
+    state: 'MT',
+    isHistorical: true,
+    firstRecorded: '2011-01-01',
+});
+
+UsGM.push({
+    name: 'Mississippi Out-of-State ACA Marketplace Agent License Fraud',
+    slug: 'mississippi-out-of-state-aca-marketplace-agent-license-fraud',
+    description: `The Mississippi Insurance Department revoked the licenses of 59 insurance producers after the U.S. Centers for Medicare & Medicaid Services and a health insurance carrier alerted the department that agents who had applied for Mississippi resident producer licenses to sell Affordable Care Act marketplace health plans were not actually Mississippi residents at all — investigators found most of them actually lived in Florida. Applying for a resident license under a false address lets an agent avoid the additional requirements and oversight non-resident licensing can carry, and the department's investigation also turned up agents with undisclosed criminal records that should have been reported on their license applications but weren't. All 59 were summoned to a hearing on July 20, 2026 to respond to the allegations; none showed up, and Mississippi Insurance Commissioner Mike Chaney's department revoked every one of their licenses. "The evidence is clear, these agents don't live in Mississippi. They applied for a license here under false pretenses," Chaney said. "To put it simply, they lied, and lying on the application, misrepresenting the facts, leads to losing your license." The department said it is working with the Mississippi Attorney General's Office on the revocations and any related cases, that other states' insurance regulators are reviewing the same agents' licenses, and that criminal prosecutions may follow. The case is part of a broader, nationwide problem with agents who fraudulently enroll or switch consumers between ACA marketplace health plans to collect commissions — often without the consumer's knowledge — which can leave a policyholder owing back subsidies, losing coverage with their actual doctors, or facing an unexpected tax bill; anyone who did not personally choose or authorize a change to their marketplace health plan should check their enrollment directly at healthcare.gov or through the Mississippi Insurance Department and report an unauthorized agent to MID's Consumer Services Division.`,
+    categorySlug: 'insurance-fraud',
+    alertLevel: 'high',
+    sources: ['Mississippi Insurance Department', 'Insurance Journal', 'WLOX'],
+    sourceUrl: 'https://www.mid.ms.gov/mid-revokes-the-licenses-of-59-insurance-agents-for-fraud/',
+    country: 'US',
+    state: 'MS',
+    isHistorical: true,
+    firstRecorded: '2026-07-20',
+});
