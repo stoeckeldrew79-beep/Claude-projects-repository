@@ -14829,3 +14829,16 @@ International.push(
     country: 'BZ',
   },
 );
+
+International.push(
+  {
+    name: 'Fake Loans2Go Facebook Page Advance-Fee Loan Scam',
+    slug: 'belize-fake-loans2go-facebook-advance-fee-loan-scam',
+    description: `In early September 2026, a Belmopan man told police and local media he had lost $300 after scammers impersonated Loans2Go, a real Belize City lending company, through a fake Facebook page bearing its name. Believing the message was tied to a $10,000 loan application his father-in-law had recently made with the real company, the man received an email on September 2 claiming his own $10,000 loan had been approved and instructing him to deposit $300 into a named Atlantic Bank account before the funds would be released; he made the transfer online, and about an hour later received a follow-up email demanding a further $500 before disbursement. The second demand raised his suspicion, so he contacted Loans2Go directly and was told the company had no record of any such application and never directs customers to pay money into a personal bank account to receive a loan. Loans2Go confirmed to police that the application had actually been submitted through the counterfeit Facebook page rather than its own channels, and the company reported the fraudulent page to both the Financial Intelligence Unit and the social media platform while the victim's bank attempted to halt his transfer. The case illustrates a classic advance-fee loan pattern adapted to Belize's social-media marketplace: scammers clone a real, trusted local lender's branding, dangle a large loan approval, and demand an upfront "release" payment that only grows once the victim pays, all before any loan is ever actually disbursed. Consumers are advised to apply for loans only through a lender's verified official page or office, and to treat any request for advance payment before a loan is paid out as a sure sign of fraud.`,
+    categorySlug: 'debt-relief-scams',
+    alertLevel: 'high',
+    sources: ['Breaking Belize News', 'Belize Live News'],
+    sourceUrl: 'https://belizelivenews.com/2026/09/07/fake-loan-approval-email-leads-to-300-transfer-in-online-scam/',
+    country: 'BZ',
+  },
+);
