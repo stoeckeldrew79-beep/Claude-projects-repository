@@ -2965,3 +2965,15 @@ UsTZ.push({
     isHistorical: true,
     firstRecorded: '2025-08-13',
 });
+
+UsTZ.push({
+    name: 'Full Contact Concrete Unfinished-Project Contractor Fraud (Brandon Johnson)',
+    slug: 'wyoming-casper-full-contact-concrete-contractor-fraud',
+    description: `Brandon Johnson operated Full Contact Concrete, LLC, a residential and commercial concrete contracting business based in Casper, Wyoming. The Wyoming Attorney General's Consumer Protection and Antitrust Unit investigated the company after finding a pattern in Natrona County: Johnson collected payment from homeowners for concrete projects — driveways, walkways, and stamped-concrete patios — then started the work and failed to finish it, leaving customers who had already paid substantial deposits with a torn-up yard and no completed job. Public complaint records for the company describe the pattern in more detail: one Casper customer who signed a $18,300 proposal to replace a stamped-concrete walkway and patio, paying a $9,150 deposit in May 2023, said the old patio was torn out and rebar installed over a year later, with the project still incomplete after repeated calls, texts, and emails asking when the crew would return. The Wyoming Attorney General's office resolved its investigation with a settlement requiring Johnson to pay full restitution to the consumers affected, listed among the office's published record of resolved consumer protection matters. Homeowners hiring any contractor for a large concrete, remodeling, or construction job are advised against paying a large deposit before work begins, should ask for a written contract that ties payments to specific completed project milestones rather than an upfront lump sum, and can check a contractor's history with the Wyoming Attorney General's Consumer Protection and Antitrust Unit before signing anything.`,
+    categorySlug: 'home-improvement-solar',
+    alertLevel: 'medium',
+    sources: ["Wyoming Attorney General's Office (Consumer Protection and Antitrust Unit)"],
+    sourceUrl: 'https://attorneygeneral.wyo.gov/law-office-division/consumer-protection-and-antitrust-unit/resolved-matters',
+    country: 'US',
+    state: 'WY',
+});
