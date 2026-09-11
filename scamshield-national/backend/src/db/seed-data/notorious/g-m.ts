@@ -5363,6 +5363,10 @@ NotoriousGM.push(
     slug: 'victor-incendy-cascade-international-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Boca_Raton_-_48189741967.jpg?width=1200',
+    coverImageCredit: 'Photo: Paul Sableman, Wikimedia Commons (CC BY 2.0) — Boca Raton, Florida, where Cascade International was based',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     sourceUrl: 'https://www.bloomberg.com/news/articles/1995-06-04/incendy-faces-a-cascadeofcharges',
     body: `Victor Incendy, a Hungarian-born businessman, ran Cascade International out of Boca Raton, Florida, building it in the late 1980s into a publicly traded chain of women's clothing boutiques and cosmetics counters that Wall Street analysts treated as a genuine retail success story. Cascade's own securities filings and press materials described a rapidly growing national network of stores, at various points claiming hundreds of retail locations across the country; its stock climbed accordingly, at its peak trading above $11 a share and giving the company a market value of roughly $200 million.
 
