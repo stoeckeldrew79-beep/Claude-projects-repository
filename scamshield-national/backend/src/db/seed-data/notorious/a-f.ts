@@ -7930,3 +7930,20 @@ The scheme collapsed in February 2014, when Wannakuwatte was arrested on bank fr
 Wannakuwatte's case is a reminder that a visible, expensive asset — a pro sports team, a courtside seat, a name in the program — can function as an investment pitch all by itself: it tells potential investors "someone this successful must be telling the truth" without anyone needing to check a single underlying contract. Owning something everyone can see is a cheap way to manufacture the credibility a fabricated business plan can't earn on its own.`,
   },
 );
+
+NotoriousAF.push(
+  {
+    title: 'Danielle Painter and a Decade of "Professional Services" That Were Really Personal Shopping',
+    slug: 'danielle-painter-new-plymouth-idaho-city-clerk-embezzlement',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    body: `Danielle Painter worked for the small city of New Plymouth, Idaho, from 2012 to 2023, rising to city clerk and treasurer — the employee trusted with recording the city's charges and issuing its electronic payments. That access, combined with years in the role and no one double-checking her entries, gave her the tools to quietly steal from the city she worked for over most of a decade.
+
+Starting in 2017, according to federal prosecutors, Painter began using city-issued credit cards to pay for retail shopping, restaurant meals, clothing, travel, utility bills, rent, and medical expenses that had nothing to do with running the city. To keep the spending from standing out in New Plymouth's books, she used her own authority over the accounting system to relabel many of the personal charges as "professional services" — a vague enough category that it didn't invite the scrutiny a line item like "clothing" or "rent" would have drawn. Over roughly six years, the falsified entries let her divert a total of $196,947.87 in city funds.
+
+The scheme eventually surfaced, and Painter was charged with wire fraud. She pleaded guilty in 2025, and in December 2025, U.S. District Judge Amanda K. Brailsford sentenced her to 15 months in federal prison, followed by three years of supervised release, and ordered her to repay the full $196,947 she had stolen.
+
+New Plymouth's case is a small-town version of a pattern that shows up at every scale of embezzlement, from city halls to Fortune 500 companies: the person who both spends the money and codes the books gets to decide how the spending looks on paper. A false receipt or a mislabeled category doesn't have to fool a forensic auditor — it only has to survive whatever light review a small city with limited staff and no dedicated internal-controls office actually performs, and for six years, "professional services" was label enough.`,
+    sourceUrl: 'https://www.justice.gov/usao-id/pr/former-city-clerk-treasurer-sentenced-prison-stealing-over-196000-city-new-plymouth',
+  },
+);
