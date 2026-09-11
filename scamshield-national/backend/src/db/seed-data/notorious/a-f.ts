@@ -7455,4 +7455,20 @@ The Randall case is a reminder that an affinity fraud doesn't need a shared reli
     coverImageCredit: 'Photo: Tamanoeconomico / Wikimedia Commons / CC BY-SA 4.0',
     coverImagePosition: 50,
   },
+  {
+    title: 'Dante Giovannetti: The Orlando Trader Who Faked Tens of Millions in Futures Profits for a $700,000 Pool',
+    slug: 'dante-giovannetti-emini-experts-futures-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-mdfl/pr/orlando-man-sentenced-more-5-years-federal-prison-investment-fraud',
+    body: `Dante S. Giovannetti ran two Orlando-based firms, Emini Experts, LLC and Capital Trading Concepts LLC, built around a specific and narrow promise: send him money, and he would pool it with other investors' funds and trade E-mini S&P 500 futures contracts on their behalf, drawing on trading experience he claimed had already produced strong, consistent profits. It was a pitch aimed at a real, well-understood market rather than an exotic or invented one, which made it easier for investors to believe the results he showed them were simply the product of skill.
+
+None of it was real. According to the Commodity Futures Trading Commission and federal prosecutors, Giovannetti solicited roughly $700,000 from investors he told would see their money placed into a pooled trading account, then never traded it as promised — using significant portions of the funds for his own personal benefit instead. To keep investors from asking questions, he sent them account statements he had doctored to show tens of millions of dollars in fictitious trading profits from S&P 500 futures, numbers with no relationship whatsoever to what was actually happening to their money.
+
+The scheme unraveled only because his own investors got suspicious when he failed to return their money and complained to the National Futures Association, which opened an emergency examination of one of Giovannetti's companies on October 14, 2014. That regulatory inquiry led to a CFTC civil enforcement action: in June 2016, a federal judge in the Middle District of Florida entered an order against Giovannetti, Emini Experts, Capital Trading Concepts, and a relief defendant, Capital Futures LLC, requiring $663,975 in restitution to defrauded customers, a $1,991,926 civil monetary penalty, an additional $140,000 joint penalty, and $143,358 in disgorgement from the relief defendant — a combined recovery of more than $2.9 million — along with a permanent injunction barring Giovannetti from registering with the CFTC or engaging in any commodity-related activity again.
+
+The civil case did not end the matter. Federal prosecutors separately charged Giovannetti with wire fraud, and after years of proceedings, U.S. District Judge Paul G. Byron sentenced him to five years and three months in federal prison, along with $663,975.61 in restitution matching the CFTC's earlier figure — a rare case where the criminal and civil tracks of the same fraud converged on the same dollar amount owed to the same victims.
+
+Giovannetti's case is a reminder that a doctored account statement is one of the simplest and most durable tools in a fraudster's kit: a pooled trading scheme lets an operator show victims whatever number keeps them from asking to see the actual brokerage account, and a familiar, real market like S&P 500 futures makes the invented profits sound plausible precisely because the underlying instrument is one investors have actually heard of. Anyone asked to pool money into a trading account they can't independently verify — through a broker-dealer's own statements, not numbers the fund manager types up personally — is being asked to trust a story rather than see the trade.`,
+  },
 );
