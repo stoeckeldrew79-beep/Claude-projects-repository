@@ -5624,6 +5624,10 @@ NotoriousNS.push(
     slug: 'patrick-ross-buffy-redfish-oglala-sioux-tribe-tero-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Pine_Ridge_Reservation,_South_Dakota_-_No_hunting_or_fishing_without_tribal_license.png?width=1200',
+    coverImageCredit: 'Photo: Indianertosset, CC BY-SA 3.0, via Wikimedia Commons — Pine Ridge Reservation, South Dakota',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     body: `Buffy Redfish worked for the Oglala Sioux Tribe's Tribal Employment Rights Office (TERO), the office responsible for collecting fees that contractors doing business on the reservation are required to pay — money that was supposed to flow into the tribe's revenue department and, from there, fund services like emergency assistance, utility help, education, and medical aid for tribal members. Instead, according to federal prosecutors, Redfish used her position inside that office to divert the fee checks somewhere else entirely.
 
 Between around November 2017 and May 2024 (an earlier charging document put the start as far back as May 2017), Redfish is accused of routing TERO contractor fee checks meant for the tribe into a bank account that her co-defendant, Patrick Ross of Porcupine, South Dakota, had opened specifically for that purpose. The two then split the diverted money between themselves, prosecutors said, spending it on personal purchases including homes and vehicles — ordinary embezzlement mechanics made possible by the simple fact that one of the two people responsible for handling the tribe's fee revenue was also the person routing it into a private account. Investigators put the total diverted at $4.7 million.
