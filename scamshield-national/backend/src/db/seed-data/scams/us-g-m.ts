@@ -5430,3 +5430,17 @@ UsGM.push({
     isHistorical: true,
     firstRecorded: '2026-07-29',
 });
+
+UsGM.push({
+    name: 'Midwest Auto Recycling Mileage and Location Misrepresentation Fraud',
+    slug: 'midwest-auto-recycling-mileage-fraud',
+    description: `Midwest Auto Recycling LLC and its owner, Alfred Talyansky, ran at least ten different websites — including Engine and Transmission World, Quality Used Engines, and Engine Shopper — all selling used and remanufactured engines and transmissions out of a single warehouse in Cudahy, Wisconsin, while the sites falsely claimed to operate out of Kansas, Oklahoma, and Missouri to make the business look like a sprawling nationwide network of salvage yards rather than one Wisconsin operation. A Milwaukee County jury found in November 2025 that the defendants misrepresented the mileage on the parts they sold in roughly 9.3 million online sales quotes, with the used engines and transmissions actually carrying, on average, more than 88,000 miles beyond what customers were quoted before they paid — on top of false claims about having the "largest nationwide used inventory" and that every part was "tested, visually inspected and cleaned." The Wisconsin Department of Justice and the Department of Agriculture, Trade and Consumer Protection, which first sued in 2017 after years of consumer complaints, secured a $48 million judgment in September 2026: more than $1.2 million in restitution to 472 identified consumers, over $400,000 to cover the state's investigation and prosecution costs, and more than $47 million in forfeitures and civil penalties, along with a permanent injunction barring the defendants from misrepresenting mileage, inventory size, testing claims, or business location going forward. Shoppers buying used auto parts online should be skeptical of a "nationwide" seller whose listed locations don't match any address they can independently verify, should ask for the actual mileage and condition history in writing before paying, and can check a Wisconsin business's complaint record through DATCP's Bureau of Consumer Protection before sending payment for parts that will ship from an unconfirmed location.`,
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'medium',
+    sources: ['Wisconsin Department of Justice', 'Wisconsin Department of Agriculture, Trade and Consumer Protection (DATCP)'],
+    sourceUrl: 'https://datcp.wi.gov/Pages/Programs_Services/ConsumerProtection.aspx',
+    country: 'US',
+    state: 'WI',
+    isHistorical: true,
+    firstRecorded: '2026-09-08',
+});
