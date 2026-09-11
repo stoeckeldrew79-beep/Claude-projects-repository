@@ -6905,7 +6905,9 @@ NotoriousGM.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.pbs.org/newshour/nation/jontay-porter-pleads-guilty-in-case-tied-to-gambling-scandal-that-tanked-his-nba-career',
-    // no rights-cleared photo identified — sourceUrl above serves as the "read the full story" link
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Scotiabank_Arena_-_2018_(cropped).jpg?width=1200',
+    coverImageCredit: 'Scotiabank Arena, Toronto — home of the Toronto Raptors, by Paperfire (CC BY-SA 4.0, Wikimedia Commons)',
     body: `Note: Jontay Porter pleaded guilty to one federal count, so his guilt on that charge is not in dispute. His sentencing hearing was postponed multiple times, and as of this writing the specific sentence a judge ultimately imposed could not be confirmed through verifiable reporting, so it is described below as pending rather than as a settled outcome. A widely circulated social-media claim that Porter received a 20-year sentence traces to a single unverified post rather than any court record or mainstream news report and should not be treated as fact.
 
 Jontay Porter, a center for the Toronto Raptors and the younger brother of NBA veteran Michael Porter Jr., turned confidential information about his own health into a betting product. According to federal prosecutors in the Eastern District of New York, Porter — while carrying his own gambling debts — told an associate, Long Phi "Bruce" Pham, that he intended to leave games early on January 26, 2024, and again on March 20, 2024, citing injury or illness, so that Pham and other bettors could place "under" prop bets on his statistics before he ever stepped off the court. On the March 20 game alone, one co-conspirator's bets netted more than $1.3 million, with Pham, Porter, and a third conspirator each expecting roughly a quarter of the winnings and a fourth man, Timothy McCormack, cut in for 4 percent.
