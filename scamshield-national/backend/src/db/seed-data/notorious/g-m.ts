@@ -4949,6 +4949,9 @@ NotoriousGM.push(
     slug: 'interbolsa-ortiz-jaramillo-colombia-collapse',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Edificio_bolsa_de_valore_de_Colombia.jpg?width=1200',
     sourceUrl: 'https://www.elespectador.com/judicial/condenan-a-juan-carlos-ortiz-y-tomas-jaramillo-por-descalabro-de-interbolsa-article-629673/',
     body: `InterBolsa was Colombia's largest brokerage house, handling more than a third of all transactions on the Colombian stock market before it collapsed in November 2012 in what remains the biggest brokerage failure in the country's history. Inside the firm, Juan Carlos Ortiz and Tomás Jaramillo Botero — son of InterBolsa's founder and former president, Rodrigo Jaramillo — ran an investment vehicle called the Premium Fund, which prosecutors later showed was less a fund than a mechanism for moving client money wherever the two men needed it to go.
 
