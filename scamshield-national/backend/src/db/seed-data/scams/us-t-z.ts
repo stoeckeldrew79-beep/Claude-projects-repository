@@ -2793,3 +2793,15 @@ UsTZ.push({
     country: 'US',
     state: 'TX',
 });
+
+UsTZ.push({
+    name: 'Southwest Washington Publishers Clearing House Lottery Scam (Roshard Carty)',
+    slug: 'washington-carty-publishers-clearing-house-lottery-scam',
+    description: `Roshard Andrew Carty, a 34-year-old Jamaican citizen, was sentenced on May 14, 2026 in U.S. District Court in Tacoma to three years in federal prison for a lottery scam that cost a 73-year-old southwest Washington woman more than $600,000 and, ultimately, her home. Starting in 2020, Carty contacted the victim posing as a Publishers Clearing House employee, telling her she had won $22 million and a car, and that she needed to pay "taxes and fees" before the winnings could be released; he warned her the FBI was monitoring the call and told her not to tell anyone, then directed her to send cash by FedEx to a rotating cast of couriers around the country who forwarded it on to him. When she balked, he claimed the money had gone missing or been stolen and demanded more, eventually pressuring her into taking out a loan against her home and then selling the home outright to keep paying; between August 2020 and February 2024 she sent him more than $600,000 and, according to prosecutors, contacted her thousands of times through different phone numbers and messaging apps, at one point sending unwanted tow trucks and pizza deliveries to her address when she tried to cut off contact. Carty was arrested in Jamaica on August 21, 2025, extradited to face charges, and pleaded guilty to wire fraud in February 2026. "This defendant was relentless in defrauding a vulnerable victim," First Assistant U.S. Attorney Neil Floyd said in announcing the sentence. "He stole the money she was counting on to survive in retirement." A real sweepstakes never requires a winner to pay any fee, tax, or "processing cost" before releasing a prize, and anyone told to keep a supposed winning notification secret, or to send money by cash, wire, or a private courier rather than through a traceable, verifiable channel, should treat that instruction itself as proof of a scam.`,
+    categorySlug: 'lottery-sweepstakes-scams',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office, Western District of Washington", 'FOX 13 Seattle'],
+    sourceUrl: 'https://www.justice.gov/usao-wdwa/pr/jamaican-national-sentenced-prison-lottery-scam-devastated-southwest-washington',
+    country: 'US',
+    state: 'WA',
+});
