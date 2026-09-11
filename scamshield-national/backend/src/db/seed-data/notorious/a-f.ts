@@ -7762,6 +7762,10 @@ NotoriousAF.push(
     title: 'Francisco Illarramendi and the Michael Kenwood Hedge Fund Ponzi Scheme',
     slug: 'francisco-illarramendi-michael-kenwood-ponzi-scheme',
     author: 'ScamShield Editorial',
+    // representative photo — replace with an exact match if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Stamford_Skyline.jpg?width=1200',
+    coverImageCredit: 'Photo: JonathanVictor / Wikimedia Commons / CC BY-SA 4.0 — Stamford, Connecticut, where the Michael Kenwood Group was headquartered',
+    coverImagePosition: 50,
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-21875',
     body: `Francisco Illarramendi, a dual U.S.-Venezuelan citizen who lived in New Canaan and later Stamford, Connecticut, built a group of investment firms — Michael Kenwood Capital Management, LLC and related entities operating under the umbrella Michael Kenwood Group, LLC — that managed hedge funds on behalf of institutional clients. His biggest client by far was a pension fund tied to Petróleos de Venezuela, S.A. (PDVSA), the Venezuelan state oil company: at its peak, that single pension fund supplied roughly 90 percent of the money in the funds Illarramendi ran.
