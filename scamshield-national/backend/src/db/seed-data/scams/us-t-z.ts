@@ -2853,3 +2853,17 @@ UsTZ.push({
     country: 'US',
     state: 'WA',
 });
+
+UsTZ.push({
+    name: 'Navient Deceptive Co-Signer Release and Payment-Processing Ruling',
+    slug: 'washington-navient-student-loan-servicing-consumer-protection-violation',
+    description: `Washington Attorney General Bob Ferguson sued Navient, then the country's largest student loan servicer, alleging its handling of private student loans violated the state Consumer Protection Act, and on March 5, 2021 King County Superior Court Judge Veronica Galván ruled in the state's favor — the first time any judge, in a case brought by a state attorney general or federal consumer agency, found that Navient had broken the law in how it serviced student loans. The court found Navient advertised a "co-signer release" feature meant to let a borrower's family member or friend get their name off a loan once the borrower proved they could handle payments alone, but then applied undisclosed, arbitrary barriers that caused the large majority of applicants to be rejected — without ever telling co-signers in advance how unlikely release actually was. Investigators also found Navient penalized borrowers who paid ahead of schedule: a borrower with a $100 monthly bill who sent in $300 at once did not get credited for three consecutive on-time payments toward release eligibility, even though the loan remained fully current, effectively punishing the exact kind of extra payment a borrower makes to get out of debt faster. Following the ruling, Navient reached a January 13, 2022 settlement paying Washington state nearly $45 million: about 1,400 Washington borrowers received full cancellation of delinquent private loan balances, averaging roughly $25,000 each, and about 8,900 more received individual restitution payments of $260 to $500, on top of injunctive terms governing how Navient discloses co-signer release terms and forbearance options going forward. Anyone with a private student loan carrying a co-signer should get the specific release requirements in writing before assuming a feature advertised in general marketing will actually apply to their account, and should confirm in writing, in advance, how a servicer will credit any payment made above the minimum amount due. Washington borrowers with student loan servicing problems can contact the state's Student Loan Advocate at loanadvocate@wsac.wa.gov.`,
+    categorySlug: 'student-loan-education',
+    alertLevel: 'medium',
+    sources: ["Washington State Office of the Attorney General (Bob Ferguson)"],
+    sourceUrl: 'https://www.atg.wa.gov/news/news-releases/ag-ferguson-judge-rules-national-student-loan-servicer-navient-broke-law',
+    country: 'US',
+    state: 'WA',
+    isHistorical: true,
+    firstRecorded: '2021-03-05',
+});
