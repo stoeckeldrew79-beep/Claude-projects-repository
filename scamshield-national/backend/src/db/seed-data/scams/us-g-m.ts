@@ -5924,3 +5924,15 @@ UsGM.push({
     country: 'US',
     state: 'GA',
 });
+
+UsGM.push({
+    name: 'Diamondhead Physician\'s Office Bookkeeper Embezzlement (Bobbie Jean Margiotta)',
+    slug: 'mississippi-diamondhead-margiotta-bookkeeper-wire-fraud',
+    description: `Bobbie Jean Margiotta, 65, of Diamondhead, Mississippi, worked as the bookkeeper for a physician's practice in Hancock County, and over the course of nearly seven years used her access to the practice's finances to steal $928,988.37 from the doctor and his related companies, funneling the stolen money through interstate wire transfers. The U.S. Attorney's Office for the Southern District of Mississippi announced in June 2026 that Margiotta had been sentenced to 57 months — four years and nine months — in federal prison for wire fraud, and ordered to pay the full $928,988.37 back in restitution; the FBI investigated the case. As with similar bookkeeper-embezzlement cases nationwide, the scheme was able to run for years precisely because Margiotta was the trusted insider managing the practice's day-to-day accounts, with no one outside her role regularly reconciling the books against actual bank activity. Small medical practices and other businesses that hand day-to-day bookkeeping, billing, and account access to a single trusted employee are advised to have an owner or a second, independent person periodically reconcile bank and credit card statements directly against invoices and payroll records, require dual authorization on outgoing wires and large checks, and treat a bookkeeper who resists a routine external review as a red flag rather than simply someone being territorial about "their" books.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'medium',
+    sources: ["U.S. Attorney's Office for the Southern District of Mississippi", 'WJTV'],
+    sourceUrl: 'https://www.justice.gov/usao-sdms/pr/mississippi-woman-sentenced-57-months-prison-wire-fraud',
+    country: 'US',
+    state: 'MS',
+});
