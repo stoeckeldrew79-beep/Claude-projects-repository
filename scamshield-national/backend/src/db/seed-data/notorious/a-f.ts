@@ -6913,7 +6913,10 @@ NotoriousAF.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://oig.dol.gov/public/Press%20Releases/OIG-Press-Release-050826.htm',
-    // no verified rights-cleared photo found yet — see NotoriousCoverPhotos
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Federal_Building_U.S._Court_House,_Harrisburg,_PA_2017-11-17.jpg?width=1200',
+    coverImageCredit: 'Photo: Xnatedawgx, CC BY-SA 4.0, via Wikimedia Commons — the federal courthouse in Harrisburg, PA (Middle District of Pennsylvania), where Jin was sentenced',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Bruce Jin, 61, of Los Angeles, built his role in a nationwide pandemic-unemployment fraud conspiracy around a simple piece of paperwork theater: agreements that made it look, on the surface, like he was running a legitimate business selling masks and other COVID-19 personal protective equipment. According to the U.S. Attorney's Office for the Middle District of Pennsylvania, that manufactured business identity was the cover Jin and two Los Angeles-based coconspirators, Brian R. Cleland, 72, and Carlos A. Grijalva, 60, needed to plug into a much larger, partly China-based fraud network targeting state unemployment compensation systems.
 
 The scheme's engine, prosecutors said, was industrial-scale identity theft: coconspirators, including some based in China, opened thousands of bank accounts across the United States using the stolen personal identifying information of real people, then filed a flood of fraudulent unemployment claims in their names with state agencies in Pennsylvania, Virginia, Florida, and elsewhere — states whose pandemic-era systems, built for speed rather than scrutiny, approved and paid many of the claims before anyone could verify a legitimate job loss had actually occurred. Jin's own companies, Ample International and Jin Commerce, received more than $12 million of those fraudulently obtained unemployment funds funneled through the identity theft victims' accounts.
