@@ -5136,6 +5136,9 @@ Rather than face a retrial, McDermott pleaded guilty to insider trading and was 
     slug: 'michael-coscia-panther-energy-spoofing-conviction',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Chicago_Board_of_Trade_Building,_Chicago,_Illinois_(11004312754).jpg?width=1200',
     sourceUrl: 'https://www.justice.gov/usao-ndil/pr/high-frequency-trader-sentenced-three-years-prison-disrupting-futures-market-first',
     body: `Michael Coscia ran Panther Energy Trading LLC, a small high-frequency trading firm he founded in New Jersey, and in the summer of 2011 he built a custom trading program to exploit a specific weakness in electronic futures markets: other traders' algorithms reacted to the size of orders sitting in the market, not just to trades that actually executed. Coscia's software would place a large order on one side of the market — for corn, soybeans, and other commodities on the Chicago Mercantile Exchange, and for Brent crude and gasoil on ICE Futures Europe in London — designed to trick other participants into moving the price, then cancel that large order within milliseconds, before it could ever be filled, while a much smaller order on the opposite side executed at the artificially moved price. Regulators would later estimate the scheme, run over about two and a half months, generated roughly $1.4 million in illegitimate profit.
 
