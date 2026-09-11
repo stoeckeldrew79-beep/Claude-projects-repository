@@ -8246,6 +8246,10 @@ NotoriousGM.push(
     slug: 'james-trankle-fake-charity-check-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Blank_check.jpg?width=1200',
+    coverImageCredit: 'Photo: Mario Lurig, CC0, via Wikimedia Commons — a blank personal bank check',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.justice.gov/usao-dc/pr/maryland-man-sentenced-five-years-scheme-bilked-benevolent-donors-charitable',
     body: `James Trankle, of Churchton, Maryland, and a co-defendant, Stephen Sibert, spent from 2013 to 2018 registering a string of charities with Washington, D.C.'s Department of Consumer and Regulatory Affairs under names built to sound both sympathetic and legitimate: the Disabled and Paralyzed Veterans Fund, the National Breast Cancer Awareness Fund, and the Children's Leukemia of America Fund. None of them, prosecutors said, functioned as real charities at all.
 
