@@ -6773,6 +6773,9 @@ NotoriousAF.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/usao-cdca/pr/founder-citron-research-found-guilty-scheming-manipulate-stock-market-media-campaigns',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Edward_R._Roybal_Federal_Building_and_United_States_Courthouse_(Los_Angeles).JPG?width=1200',
+    coverImageCredit: 'Photo: Alexis Doine, CC0, via Wikimedia Commons — the Edward R. Roybal Federal Building and U.S. Courthouse in Los Angeles, part of the Central District of California where Left was tried and convicted',
+    coverImagePosition: 50,
     // representative photo — replace with a portrait if found
     body: `Andrew Left, 56, of Boca Raton, Florida, spent more than two decades building one of the most recognizable brands in short selling. He launched Citron Research in the early 2000s — originally as StockLemon.com — to publish reports arguing that specific public companies were overvalued or outright fraudulent, and became a fixture on CNBC, Fox Business, and Bloomberg Television whenever a stock he'd targeted moved. His reports on companies including Valeant Pharmaceuticals, Shopify, the Chinese firm Longtop Financial, and the e-commerce company Jumia were credited, at various points, with wiping out billions in market value and cementing his reputation as one of the market's most feared activist short sellers — a reputation built entirely on the premise that Citron's public calls reflected Left's genuine, independently-formed view of a stock's prospects.
 
