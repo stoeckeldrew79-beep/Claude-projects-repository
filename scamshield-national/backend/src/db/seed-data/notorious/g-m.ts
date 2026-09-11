@@ -6676,7 +6676,10 @@ Kimoto served about twelve years of that sentence before President Trump commute
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/opa/pr/florida-men-sentenced-prison-348m-health-care-fraud-scheme-targeting-medicare-beneficiaries',
-    // no rights-cleared photo found — sourceUrl above serves as the "read the full story" link
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Federal_Courthouse_in_Miami.jpg?width=1200',
+    coverImageCredit: 'Miami92, Public Domain, via Wikimedia Commons',
+    coverImagePosition: 50,
     body: `Kenneth Charles Kessler III, 43, of Miami, and Michael Andrew Gomez, 43, of Miramar, Florida, ran a fraud that depended less on any single clever lie than on sheer administrative churn. Between them, prosecutors say, they owned and operated seven separate durable medical equipment (DME) supply companies across Florida — not because the business needed seven companies to function, but because Medicare kept catching on and suspending payments to whichever one had gotten too much unwanted attention. When one shell stopped getting paid, the next one, freshly incorporated and unconnected on paper, simply picked up the billing.
 
 The underlying product was orthotic braces — back, knee, shoulder, and wrist supports that Medicare will pay for when a doctor determines a patient actually needs one. Kessler and Gomez's companies instead paid illegal kickbacks and bribes to obtain doctors' signatures on orders for beneficiaries who had never been meaningfully examined for the braces at all, then used those fraudulent orders to ship braces nationwide to Medicare recipients who, in many cases, had neither requested nor needed them and sometimes never opened the box. Each shipment generated a billable claim regardless of whether the patient wanted the equipment, and the volume of unnecessary claims run through the two men's network of companies over the life of the scheme reached approximately $34.8 million billed to Medicare.
