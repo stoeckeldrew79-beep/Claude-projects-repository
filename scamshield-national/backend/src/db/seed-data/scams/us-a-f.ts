@@ -6747,3 +6747,17 @@ UsAF.push({
     isHistorical: true,
     firstRecorded: '2023-04-13',
 });
+
+UsAF.push({
+    name: 'Ekwelle and Berinyuy Malvern Fake Puppy Sales Scheme (Arkansas)',
+    slug: 'ekwelle-berinyuy-arkansas-malvern-puppy-scam',
+    description: `Thierry Assoueesoh Ekwelle and Helda Verla Berinyuy, neighbors and fellow students in Malvern, Arkansas, built a network of websites advertising purebred, AKC-registered puppies — French Bulldogs, Boxers, Toy Poodles, English Bulldogs, and other breeds — that did not actually exist, taking payment from buyers across the country who believed they were purchasing a real dog. After collecting an initial purchase price, the pair called victims posing as airline or shipping officials and piled on additional "fees" for pet insurance, special crates, and COVID-19 handling requirements before the promised puppy ever arrived — which it never did, since there was no puppy to ship. Between roughly 2017 and November 2020, the scheme took in more than $160,000 combined across the full run of the operation, with a federal indictment covering 153 victims and $110,691.50 in losses from the August 2018–November 2020 stretch alone, funneled through Western Union and Walmart money transfers under a rotating set of aliases. Ekwelle, a naturalized U.S. citizen, pleaded guilty to one count of wire fraud in August 2022 and was sentenced to one month in prison, three years of supervised release, and $105,609 in restitution; Berinyuy was also criminally charged but has been a federal fugitive with her whereabouts unknown. Arkansas Attorney General Tim Griffin's office separately sued both under the Arkansas Deceptive Trade Practices Act, seeking civil penalties of up to $10,000 per violation, and a Pulaski County circuit judge ruled in July 2026 that the state's evidence was sufficient to send that case to trial over Ekwelle's objection. Anyone buying a puppy sight-unseen online should insist on a live video call with the actual animal before paying anything, be suspicious of any seller who calls later demanding more money for "shipping insurance" or emergency fees before delivery, and pay by credit card rather than wire transfer or a cash-transfer app so a fraudulent purchase can potentially be disputed.`,
+    categorySlug: 'pet-sales-scams',
+    alertLevel: 'medium',
+    sources: ["Arkansas Attorney General's Office (Tim Griffin)", 'U.S. Department of Justice — Eastern District of Arkansas', 'Arkansas Democrat-Gazette'],
+    sourceUrl: 'https://arkansasag.gov/news-alerts/news-releases/',
+    country: 'US',
+    state: 'AR',
+    isHistorical: true,
+    firstRecorded: '2021-05-04',
+});
