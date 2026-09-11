@@ -2187,6 +2187,10 @@ For consumers, the practical lesson doesn't change even when the enforcement tar
     slug: "taiwan-ai-voice-cloning-romance-scam-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "ai-voice-cloning-romance-scam"],
+    // representative photo — replace with an exact match if found
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Taipei,_Taiwan_CBD_Skyline.jpg?width=1200",
+    coverImageCredit: "Photo: Heeheemalu, Wikimedia Commons (CC BY-SA 4.0) — Taipei, Taiwan, where prosecutors indicted the 57 members of the fraud ring",
+    coverImagePosition: 50,
     sourceUrl: "https://focustaiwan.tw/society/202609020019",
     body: `On September 2, 2026, prosecutors in Taipei indicted 57 people accused of running one of Taiwan's largest documented romance-scam operations, a ring that used AI voice-altering software to disguise male scammers as women in phone calls and used those fabricated identities to defraud more than 20,000 victims out of at least NT$900 million (roughly US$28.3 million) since 2022. Prosecutors identified a married couple, Huang Chien-hao and Hsu Hsiang-chi, as the operation's leaders and requested prison sentences of 25 and 18 years respectively; the remaining 55 defendants filled out an organization prosecutors described as running less like a criminal gang and more like a company, with dedicated departments and a defined workflow for turning a stranger's loneliness into a recurring source of income.
 
