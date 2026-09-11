@@ -5596,3 +5596,17 @@ UsGM.push({
     isHistorical: true,
     firstRecorded: '2025-01-17',
 });
+
+UsGM.push({
+    name: 'Straight Line Remodeling Contractor Deposit Fraud (Kansas)',
+    slug: 'kansas-straight-line-remodeling-contractor-fraud',
+    description: `Rodney Rippe operated Straight Line Remodeling, LLC out of Ellis County, Kansas, contracting with homeowners since at least 2023 for residential remodeling and construction projects, collecting substantial advance payments and deposits, and then — according to a lawsuit the Kansas Attorney General's office filed in Ellis County District Court in December 2025 — failing to complete the promised work or refund the money at all. The office identified at least eight households left with abandoned projects, and on May 19, 2026, Attorney General Kris Kobach announced a consent judgment holding Rippe personally liable for more than $1 million in restitution owed to those eight customers, with individual claims ranging from about $13,000 to $417,000, plus an additional $20,000 to cover the state's investigative costs. The judgment permanently bars Rippe from operating, directly or indirectly, any business in Kansas — including through third parties, family members, shell entities, or a successor company — closing off the option of simply reopening under a different name. "We will shut you down, we will ban you from doing business here, and we will ensure that you cannot escape remedies owed to victims," Kobach said in announcing the judgment. Homeowners hiring a remodeling or construction contractor are advised to avoid paying a large deposit before work begins, insist on a written contract tying payments to specific completed and inspected milestones, and check a contractor's complaint history with the Kansas Attorney General's Consumer Protection Division at www.ag.ks.gov or 1-800-432-2310 before signing anything.`,
+    categorySlug: 'home-improvement-solar',
+    alertLevel: 'high',
+    sources: ['Kansas Attorney General (Kris Kobach)', 'KWCH'],
+    sourceUrl: 'https://www.kwch.com/2026/05/20/ellis-county-contractor-banned-business-kansas-ordered-pay-back-more-than-1m/',
+    country: 'US',
+    state: 'KS',
+    isHistorical: true,
+    firstRecorded: '2026-05-19',
+});
