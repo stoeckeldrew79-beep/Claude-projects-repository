@@ -3545,6 +3545,10 @@ Aequitas is a case study in how a fraud can hide inside assets that are entirely
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
     sourceUrl: 'https://en.wikipedia.org/wiki/Double_Shah',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Gateway_to_wazirabad.jpg?width=1200',
+    coverImageCredit: 'Manofsteelsupes, CC BY-SA 4.0, via Wikimedia Commons',
+    coverImagePosition: 50,
     body: `Sibtul Hasan Shah taught science at a school in Wazirabad, a working-class city in Pakistan's Punjab province, until 2005, when a trip to Dubai seems to have given him both the capital and the idea to quit teaching for good. Back home, he began approaching former colleagues and neighbors with a proposition that would have sounded absurd from a stranger but landed differently coming from a familiar face: hand him their savings, and in just 15 days he would hand them back double.
 
 The pitch worked because it was, for a while, true — for the first depositors. Shah paid the earliest participants exactly what he promised, funded entirely by the money flowing in from the next wave of depositors drawn in by word of mouth and by neighbors who had already been paid. As the scheme grew, the payout window stretched to 70 days to keep the arithmetic from collapsing too quickly, and Shah's operation, which people came to call simply "Double Shah," spread out from Wazirabad into the surrounding Punjab districts of Gujranwala, Gujrat, Sialkot, and Hafizabad, eventually taking in a reported 40 billion Pakistani rupees from thousands of investors, many of them teachers, shopkeepers, and other members of the same lower-middle-class communities Shah himself came from.
