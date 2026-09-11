@@ -6050,6 +6050,10 @@ NotoriousGM.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://ag.ny.gov/press-release/2025/attorney-general-james-secures-prison-sentence-serial-health-care-fraudster',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/New York State Capitol Building.jpg?width=1200',
+    coverImageCredit: 'Photo: Ascrodin / Wikimedia Commons (CC0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Imran Shams had already lost the right to bill Medicaid by the time he built his biggest scheme. His first health care fraud conviction, dating back to 1990, had gotten him permanently banned from billing Medicaid as a provider. Rather than treat that ban as the end of his career in false claims, according to the office of New York Attorney General Letitia James, Shams treated it as a problem to route around: he would simply own his next clinic in secret, through other people's names.
 
 That clinic was Multi-Specialty, a medical facility in New York that, per the Attorney General's office, paid Medicaid recipients kickbacks of $20 to $50 to come in for evaluations and diagnostic tests they didn't need — tests that were often administered by untrained individuals recruited to dress and act like medical professionals. Licensed providers connected to the scheme then billed Medicaid and Medicaid managed care organizations for those unnecessary or entirely fictitious services, extracting more than $7 million from a program meant to pay only for care patients actually needed.
@@ -6782,6 +6786,10 @@ The scheme's cruelty was in its design: it didn't promise victims a windfall, th
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/usao-sdtx/pr/ringleader-sentenced-multimillion-dollar-fraud-operation-which-saddled-victims',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Houston Downtown Skyline 2010.JPG?width=1200',
+    coverImageCredit: 'Photo: Ed Uthman / Wikimedia Commons (CC BY 3.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     // no rights-cleared photo found — sourceUrl above serves as the "read the full story" link
     body: `Steven Tetsuya Morizono, of Mission Viejo, California, operated for years under the alias "Jeff Lucian," running a company called Jeff Funding that presented itself as a legitimate lender and credit-repair outfit tied to a cluster of homes in Spring, Texas. Beginning in 2017, prosecutors said, Morizono built a nationwide fraud conspiracy out of several distinct scams layered on top of one another — falsified loan applications, shell companies, straw buyers, and fraudulent credit-repair services — that by the time investigators finished unwinding it had produced convictions against 17 people.
 
