@@ -5975,6 +5975,9 @@ Miller's case is a reminder that Utah, like every state, runs a securities divis
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://securities.colorado.gov/press-release/press-release-colorado-court-sentences-convicted-scammer-jazzmen-la-vone-gaskins-to',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/AdamsCountyCourthouse.JPG?width=1200',
+    coverImageCredit: 'Photo: Bpvideo, Wikimedia Commons (CC BY-SA 3.0) — the historic Adams County Courthouse building in Brighton, Colorado, the county seat where an Adams County District Court judge sentenced Jazzmen La-Vone Gaskins',
     body: `Jazzmen La-Vone Gaskins solicited a Colorado investor through JG Capital Finance Corporation, a company he controlled, offering promissory notes with an unusually high, guaranteed rate of interest along with a promise that the investor's principal would be repaid in full. According to the Colorado Division of Securities, Gaskins took in more than $100,000 from at least one Colorado investor through the scheme, promises that were never backed by any real underlying investment activity.
 
 A Colorado state grand jury indicted Gaskins on securities fraud charges on August 14, 2025. He pleaded guilty in 2026 to one count of securities fraud, and on July 15, 2026, an Adams County District Court judge sentenced him to nine years of incarceration followed by three years of parole supervision, along with an order to pay $116,675 in restitution to his victim. The court ordered the Colorado sentence to run concurrently with a separate federal sentence Gaskins was already serving.
