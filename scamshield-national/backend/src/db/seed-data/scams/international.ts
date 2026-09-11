@@ -13072,3 +13072,16 @@ International.push(
     country: 'MS',
   },
 );
+
+International.push(
+  {
+    name: 'Montserrat Fake Government Free Courses Ad Scam',
+    slug: 'montserrat-fake-government-free-courses-ad-scam',
+    description: `The Learning and Development Division of Montserrat's Human Resources Management Unit issued a public warning on September 26, 2024, after a false advertisement began circulating on social media claiming the Government of Montserrat was offering free courses starting that October, with a link inviting people to register on a third-party website. The Division stated plainly that "this advertisement is completely false and persons are advised not to register or sign-up for any courses on Montserrat through this platform," warning residents against clicking the link or entering any personal information on the linked site, which had no connection to any genuine government training programme. The warning clarified that legitimate government-run training and course offerings are only ever announced through official channels — the Government Information Unit, the Office of the Deputy Governor, and the Human Resources Management Unit's own verified social media pages — and that any similar-looking offer appearing elsewhere should be treated as suspect until confirmed through one of those sources. Residents with questions about genuine government training opportunities were directed to contact the Learning and Development Division directly at hrmu@gov.ms or (664) 491-2365 rather than engage with the third-party site.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Human Resources Management Unit, Government of Montserrat', 'Montserrat Focus'],
+    sourceUrl: 'https://montserratfocus.com/public-warned-to-ignore-fake-ads-offering-free-govt-courses/',
+    country: 'MS',
+  },
+);
