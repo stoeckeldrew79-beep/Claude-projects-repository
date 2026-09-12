@@ -6855,3 +6855,17 @@ UsNS.push({
     isHistorical: true,
     firstRecorded: '2005-01-01',
 });
+
+UsNS.push({
+    name: 'Puerto Rico Department of Labor Unemployment Kickback Scheme (Luz Garay-Osorio)',
+    slug: 'puerto-rico-garay-osorio-department-of-labor-kickback-scheme',
+    description: `A federal grand jury in the District of Puerto Rico indicted eight women on December 17, 2025 over a scheme to fraudulently obtain approximately $619,923 in unemployment compensation from the Puerto Rico Department of Labor (PRDOL) and funnel kickbacks back to a PRDOL employee. Defendant Luz Garay-Osorio used her position as a PRDOL interviewer to alter records in the department's own system, making family members eligible for regular unemployment benefits, Pandemic Unemployment Assistance, and Disaster Unemployment Assistance, filing fraudulent claims, fabricating work history, and making the monetary determinations needed to approve the payments herself. According to the indictment, seven co-conspirators — Glenda Garay-Osorio, Tatiana Skerrett-Garay, Ariana Skerrett-Garay, Dayanara Aquino-Garay, Nashaly Vega-Garay, Almarys De Jesús-Garay, and Mariela Cabrera-Vistel — collected fraudulent benefits ranging from roughly $13,800 to $107,291 apiece and then transferred a share back to Luz Garay-Osorio's own bank account, including one defendant who arranged for 18 money orders totaling $17,500 to be deposited into it; in total, prosecutors say Garay-Osorio personally received about $142,507 in kickback payments on top of her own $13,308 cut of the fraudulent benefits. "These defendants engaged in a scheme to defraud the Puerto Rico Department of Labor by using an employee's position of trust to file numerous fraudulent unemployment insurance claims when they were not entitled to such benefits," said U.S. Attorney W. Stephen Muldrow, whose office noted Garay-Osorio was terminated by PRDOL once the scheme surfaced and is the ninth Commonwealth employee charged in a federal corruption case since 2024. Garay-Osorio faces charges including honest-services mail fraud, money laundering, and aggravated identity theft, all of which the indictment describes as allegations the defendants are presumed innocent of unless proven guilty at trial. The case shows how a single caseworker's system access can be used to approve unqualified relatives for benefits and then quietly collect a cut of what they receive — anyone who suspects a public employee is steering benefits to friends or family, or notices unexplained activity on their own unemployment claim, can report it to the U.S. Department of Labor's Office of Inspector General or the FBI's San Juan Field Office at (787) 987-6500.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'medium',
+    sources: ["U.S. Attorney's Office, District of Puerto Rico", 'U.S. Department of Labor Office of Inspector General', 'El Nuevo Día'],
+    sourceUrl: 'https://oig.dol.gov/public/Press%20Releases/Puerto%20Rico%20Department%20of%20Labor%20Employee%20and%20Seven%20Others%20Indicted%20in%20Public%20Corruption%20Unemploy.pdf',
+    country: 'US',
+    state: 'PR',
+    isHistorical: true,
+    firstRecorded: '2025-12-17',
+});

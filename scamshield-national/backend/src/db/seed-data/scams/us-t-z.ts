@@ -3823,3 +3823,17 @@ UsTZ.push({
     isHistorical: true,
     firstRecorded: '2020-01-01',
 });
+
+UsTZ.push({
+    name: 'St. Thomas Prefabricated Home Deposit Fraud (Anson Gallaway)',
+    slug: 'virgin-islands-gallaway-prefab-home-deposit-fraud',
+    description: `Anson Gallaway, of Estate Frydendal, St. Thomas, ran GHL Home Innovations LLC and, between February 2020 and December 2021, collected payments from twelve individuals or families across St. Thomas and St. Croix for the construction of prefabricated homes he never delivered on. According to V.I. Attorney General Gordon C. Rhea, the payments ranged from just over $1,000 to more than $150,000 per family, adding up to a total loss of $656,911.51, with Gallaway simply failing to fulfill the contractual obligations he'd been paid for. Gallaway pleaded guilty on April 30, 2025 to Obtaining Money by False Pretense in V.I. Superior Court; before his plea he had already repaid nearly $100,000 in restitution, and paid an additional $120,000 before his sentencing hearing. On July 21, 2025, Judge Ernest E. Morris sentenced Gallaway to five years' probation, leaving him responsible for the remaining $439,911.51 in restitution, to be paid in monthly installments of at least $4,000 that are distributed to the victims quarterly. The case is a reminder that a prefab or modular home builder taking a deposit — especially one covering more than a small fraction of the total contract price — should be paying it into an escrow or draw-schedule arrangement tied to actual construction milestones rather than handing over the bulk of the money up front; a buyer can verify a contractor's standing and check for prior complaints with the V.I. Department of Licensing and Consumer Affairs before signing, and should be wary of any builder who wants the full amount, or the largest share of it, before a foundation is even poured.`,
+    categorySlug: 'home-improvement-solar',
+    alertLevel: 'medium',
+    sources: ['U.S. Virgin Islands Department of Justice', 'Office of the Attorney General of the Virgin Islands'],
+    sourceUrl: 'https://usvidoj.com/anson-gallaway-pleads-guilty-sentenced-in-pre-fab-housing-fraud-case/',
+    country: 'US',
+    state: 'VI',
+    isHistorical: true,
+    firstRecorded: '2020-02-01',
+});
