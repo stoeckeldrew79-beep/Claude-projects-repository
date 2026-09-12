@@ -3879,3 +3879,17 @@ UsTZ.push({
     isHistorical: true,
     firstRecorded: '2026-03-18',
 });
+
+UsTZ.push({
+    name: 'Paroled Murderer\'s Romance-Fraud Exploitation of an Elderly Widow (Frank Powell)',
+    slug: 'utah-powell-elder-romance-fraud-scheme',
+    description: `Frank Gene Powell, 51, of Hurricane, Utah — who had served nearly 30 years in Utah state prison for a 1987 murder before being paroled — began targeting an 80-year-old widow with diminished mental capacity in Washington, Utah, in March 2019, telling her he intended to marry her while conspiring with associates, including his actual girlfriend, to drain her finances. Powell used the fake romance and a related home-repair scheme to take control of the woman's money, ultimately taking nearly $274,000 and having her deed over a family cabin near Kolob Canyon, spending some of the proceeds on a 2019 GMC Sierra pickup truck. After investigators closed in, Powell destroyed records, concealed evidence, and tampered with a witness in an effort to cover up the scheme. He was arrested in California in the fall of 2019 and pleaded guilty in March 2020 to conspiracy to commit wire fraud, money laundering, two counts of destruction of records in a federal investigation, concealment of a document to impair an official proceeding, and tampering with a witness. U.S. District Judge David Nuffer sentenced Powell in St. George to 10 years in federal prison and ordered him to pay $273,849.20 in restitution to his victim. "Powell is a career criminal who has fended off decades of rehabilitative attempts in the Utah state criminal justice system," said then-U.S. Attorney for Utah John Huber — and from prison, Powell had written to the woman, "I pray that is not true and when you get this all worked out we are still getting married and you love me," using the fabricated relationship to the end. The case is a stark example of romance fraud aimed at an isolated, cognitively vulnerable older adult rather than an online stranger, and adult protective services agencies urge families of elderly relatives with a new, unusually attentive romantic interest — especially one who discourages contact with family or begins asking about finances, property, or estate documents — to involve a trusted family member or attorney before any money, property, or legal documents change hands.`,
+    categorySlug: 'romance-scams',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office, District of Utah", 'KSL.com'],
+    sourceUrl: 'https://www.ksl.com/article/46758398/convicted-utah-murderer-going-back-to-prison-for-targeting-80-year-old-widow-in-romance-fraud-case',
+    country: 'US',
+    state: 'UT',
+    isHistorical: true,
+    firstRecorded: '2019-03-01',
+});

@@ -8070,3 +8070,17 @@ UsAF.push({
     isHistorical: true,
     firstRecorded: '2026-06-10',
 });
+
+UsAF.push({
+    name: 'Service Federal Credit Union Remote-Employee Elder Wire Fraud (Tyra Brown)',
+    slug: 'arkansas-brown-service-federal-credit-union-elder-wire-fraud',
+    description: `Tyra Brown, 27, of Benton, Arkansas, worked as a remote customer service representative for Service Federal Credit Union, a Portsmouth, New Hampshire-based credit union, from December 31, 2021 through May 19, 2023 — a job that gave her direct access to members' personal identifying information, security questions and answers, and account balances. According to the U.S. Attorney's Office for the Eastern District of Arkansas, Brown used that access to target at least 10 elderly credit union members, initiating unauthorized wire transfers, electronic debits, and Zelle payments that redirected their money into accounts she controlled, stealing $301,674.89 outright and attempting to take a total of $428,526.85 before the credit union caught the pattern and referred the case to the FBI. Brown pleaded guilty on January 23, 2025 to one count of wire fraud, and on April 24, 2025, U.S. District Judge Brian S. Miller sentenced her in the Eastern District of Arkansas to 36 months in federal prison plus three years of supervised release. "The defendant deliberately abused her position of trust and chose to target elderly account holders," said the U.S. Attorney's Office, while the FBI's Acting Special Agent in Charge James Crowley said Brown "had no compunction about swindling elderly victims." The case is a reminder that a financial institution's own employees can be a source of fraud risk independent of any outside scam call or phishing email — members who notice an unfamiliar Zelle transfer, wire, or electronic debit on their account should report it to their institution immediately and ask specifically whether the transaction was employee-initiated, since insider fraud like this can otherwise go undetected until a member happens to review a statement closely.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office, Eastern District of Arkansas", 'Federal Bureau of Investigation'],
+    sourceUrl: 'https://www.mysaline.com/tyra-brown-wire-fraud-credit-union/',
+    country: 'US',
+    state: 'AR',
+    isHistorical: true,
+    firstRecorded: '2021-12-31',
+});

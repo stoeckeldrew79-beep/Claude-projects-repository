@@ -6923,3 +6923,17 @@ UsNS.push({
     isHistorical: true,
     firstRecorded: '2023-04-19',
 });
+
+UsNS.push({
+    name: 'MJF Capital Ponzi Scheme and TikTok Creator Cyberstalking (Michael French)',
+    slug: 'south-carolina-french-mjf-ponzi-scheme-cyberstalking',
+    description: `Michael J. French, 42, of Pendleton, South Carolina, ran an investment scheme through his companies MJF Holdings, LLC and MJF Capital, LLC, offering promissory notes that promised investors a guaranteed 12% annual return. Beginning in March 2019, French raised roughly $13 million from more than 400 investors across the country, but rather than generating real returns, he paid earlier investors with new investors' money in a classic Ponzi structure while personally spending lavishly on luxury vehicles, real estate, boats, and — prosecutors said — as much as $40,000 a day supporting two TikTok content creators. When the two women stopped communicating with him, French turned to harassment, using burner phones and fake email accounts to threaten them, falsely claiming to be a trained sniper who had killed people and that police could not protect them; he showed up unannounced at one woman's home, forcing her to hide in a locked vehicle in the garage with her two-year-old child while she called 911, and was ultimately arrested following a standoff in which he barricaded himself in a hotel room with a firearm before FBI hostage negotiators talked him out. French pleaded guilty in February 2025 to charges including wire fraud and cyberstalking, and on August 28, 2025, U.S. Chief District Judge Timothy M. Cain sentenced him in the District of South Carolina to 156 months (13 years) in federal prison plus three years of supervised release, ordering him to pay $14.75 million in restitution. "French built his scheme on lies, stealing millions from hard-working investors to fund luxury cars and real estate," said U.S. Attorney Bryan Stirling. The case underscores that an unusually consistent, guaranteed double-digit return offered through a promissory note from a company with no public track record is a hallmark of a Ponzi scheme — investors should verify any investment offering and the person selling it through the SEC's EDGAR database and FINRA's BrokerCheck before wiring money, since a fund's own marketing materials are not independent proof it exists or performs as promised.`,
+    categorySlug: 'ponzi-pyramid-schemes',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office, District of South Carolina", 'Federal Bureau of Investigation', 'Post and Courier'],
+    sourceUrl: 'https://www.postandcourier.com/greenville/news/sc-ponzi-scheme-stalking-tiktok/article_1e03a0a7-367a-4005-a769-fd7d3347e286.html',
+    country: 'US',
+    state: 'SC',
+    isHistorical: true,
+    firstRecorded: '2019-03-01',
+});

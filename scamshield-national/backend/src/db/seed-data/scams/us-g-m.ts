@@ -7022,3 +7022,17 @@ UsGM.push({
     isHistorical: true,
     firstRecorded: '2020-01-01',
 });
+
+UsGM.push({
+    name: 'Google, Apple, and Bank "Account Hacked" Tech-Support Fraud (Kartik Saini)',
+    slug: 'illinois-saini-tech-support-fraud-scheme',
+    description: `Kartik Saini, 33, ran a computer tech-support fraud scheme that called and messaged victims in 2020 and 2021, having members of the group impersonate employees of Google, Apple, Citibank, and other well-known companies to tell victims their bank accounts or computers had been hacked. Once a victim panicked, Saini and his co-conspirators instructed them to move their money to "safekeeping" by wiring funds or converting cash to gift cards or cryptocurrency — money that in reality went straight to the scheme. According to the U.S. Attorney's Office for the Northern District of Illinois, the group defrauded four victims of $1.2 million total, including $746,000 taken from a Chicago woman that prosecutors said made up "a large portion of her retirement savings." Saini was arrested at John F. Kennedy International Airport in New York on August 26, 2024 as he arrived on a flight from India, and pleaded guilty in federal court in Chicago in March 2026 to one count of wire fraud. On June 25, 2026, U.S. District Judge John Robert Blakey sentenced him to six years and one month in federal prison. The case follows the standard tech-support playbook the FBI and FTC warn about nationally: a real company like Google, Apple, or a bank will never call or message out of nowhere to say an account has been hacked and then instruct the account holder to move money into gift cards, cryptocurrency, or a new account for "safekeeping" — that instruction is itself the scam, and anyone who receives it should hang up and contact the company directly using a phone number they look up independently, never one provided by the caller.`,
+    categorySlug: 'tech-support-scams',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office, Northern District of Illinois", 'Chicago Sun-Times'],
+    sourceUrl: 'https://chicago.suntimes.com/crime/2026/07/07/man-sentenced-to-6-years-in-1-2-million-tech-help-fraud-scheme',
+    country: 'US',
+    state: 'IL',
+    isHistorical: true,
+    firstRecorded: '2020-01-01',
+});
