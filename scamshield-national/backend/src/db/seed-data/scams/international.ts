@@ -16025,3 +16025,46 @@ International.push(
     country: 'BE',
   },
 );
+
+International.push(
+  {
+    name: 'Fake Traffic Fine SMS/WhatsApp "GovPay" Phishing Scam',
+    slug: 'sri-lanka-fake-traffic-fine-govpay-phishing-scam',
+    description: `Sri Lanka Police and the Sri Lanka Computer Emergency Readiness Team (SLCERT) issued public warnings in late May 2026 about a wave of fraudulent SMS and WhatsApp messages sent to motorists using spoofed or unfamiliar numbers, falsely claiming that a traffic camera had captured the recipient committing a traffic offence. The messages carry a link to a fake website deliberately built to closely resemble the government's genuine "GovPay" online payment platform, the official channel through which real traffic fines are settled, and instruct the recipient to pay the supposed fine immediately through the page. Anyone who proceeds to "pay" is asked to enter sensitive financial details — credit or debit card numbers, one-time passcodes, and National Identity Card information — which the fraudulent site captures and passes straight to the scammers rather than any government system. The Police Media Division and SLCERT stressed that a genuine traffic fine is only ever issued after a police officer has formally provided the motorist with a physical ticket, and that GovPay payments should be made only in response to that official notification, not a link received cold over SMS or WhatsApp; the public was urged not to click unsolicited links claiming to relate to a traffic violation and to verify any such notice directly with police before entering any payment or personal information.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Sri Lanka Police Media Division', 'Sri Lanka Computer Emergency Readiness Team (SLCERT)'],
+    sourceUrl: 'https://www.newswire.lk/2026/05/27/police-warn-of-fake-traffic-fine-sms-scam-targeting-motorists/',
+    country: 'LK',
+  },
+  {
+    name: 'Instagram-to-WhatsApp Sextortion Scam',
+    slug: 'sri-lanka-instagram-whatsapp-sextortion-scam',
+    description: `Sri Lanka's Computer Emergency Readiness Team (SLCERT) warned on August 4, 2026 of a rapidly rising number of sextortion cases in which fraudsters, typically posing as young women, make first contact with male targets through Instagram and spend several days building trust before pushing the conversation onto WhatsApp for a video call. During or after the call, the victim is pressured into appearing naked or engaging in sexually suggestive exchanges, which the scammer secretly records or screenshots; some perpetrators add the victim's siblings or other relatives as friends on social media beforehand specifically so they can threaten to send the material to family members for extra leverage once the extortion begins. Initial demands are typically small, in the range of Rs. 5,000 to Rs. 10,000, but SLCERT said these escalate through repeated follow-up payments into the hundreds of thousands of rupees as the scammer continues threatening exposure even after money has already changed hands. SLCERT said preliminary evidence pointed to many of the accounts being operated from India, with payments in cases recorded in April 2026 directed to Indian bank accounts, though more recent cases showed signs of Sri Lankan involvement as well, with proceeds increasingly funneled into local accounts. The agency's advisory urges people to verify the identity of new online contacts before any private conversation, never to share intimate images or video, to stop paying once a demand is made since payment does not end the threats, and to seek help immediately by reporting the account and contacting SLCERT or police rather than handling it alone.`,
+    categorySlug: 'sextortion',
+    alertLevel: 'high',
+    sources: ['Sri Lanka Computer Emergency Readiness Team (SLCERT)'],
+    sourceUrl: 'https://www.newswire.lk/2026/08/04/slcert-warns-of-rise-in-sextortion-scams-targeting-social-media-users/',
+    country: 'LK',
+  },
+  {
+    name: 'Fake "Online Lover" Romance Scam Targeting Women',
+    slug: 'sri-lanka-fake-lover-romance-scam-women',
+    description: `Sri Lanka Police's Media Division issued a public warning on June 21, 2026 after receiving reports from multiple parts of the country of women being targeted through social media and other online platforms by people posing as romantic partners. Police said the pattern typically begins with a stranger befriending a woman online and building an emotional relationship over time, sometimes progressing to a promise of marriage, before the "partner" begins extracting money, jewelry, or other valuables from her; police also described more severe cases in which victims were given intoxicating substances and rendered unconscious before being sexually abused or robbed, with the statement noting some such schemes had escalated as far as murder. The Media Division said "reports have been received from various parts of the country regarding cases where women were befriended online, manipulated and subsequently subjected to sexual abuse or cheated out of money and valuables," and advised women never to send money, jewelry, or valuables to an online-only contact, never to share intimate photos, videos, or sensitive personal details with people they have not met in person, and to be cautious of suspicious calls, messages, or invitations to meet a stranger arranged through social media. Police asked anyone affected to report incidents to their nearest police station or the Children and Women Bureau, or to call the 118, 119, 107, or 109 hotlines.`,
+    categorySlug: 'romance-scams',
+    alertLevel: 'high',
+    sources: ['Sri Lanka Police Media Division'],
+    sourceUrl: 'https://www.newswire.lk/2026/06/21/sri-lanka-police-warn-of-fake-lover-scams-targeting-women/',
+    country: 'LK',
+  },
+  {
+    name: 'Fake "IT/Customer Service Job Abroad" Trafficking into Myanmar Scam Compounds',
+    slug: 'sri-lanka-fake-it-job-myanmar-scam-compound-trafficking',
+    description: `Sri Lankan job seekers, particularly young men and recent graduates, have been targeted by recruiters advertising well-paid IT and customer-service positions abroad that turn out to be a front for trafficking victims into forced labor inside Southeast Asian cyber-scam compounds. In one documented case, the International Organization for Migration (IOM), working with Sri Lanka's Ministry of Foreign Affairs, its embassies in Thailand and Myanmar, and the Ministry of Defence-led National Anti-Human Trafficking Taskforce, safely repatriated 20 Sri Lankan men from Myanmar in the early hours of September 6, 2024, after they had been lured with the promise of legitimate jobs and then coerced into carrying out online scam operations from inside a criminal-run compound. The U.S. State Department's 2025 Trafficking in Persons Report separately documented that Sri Lankan graduates and young men have been deceived by fraudulent job offers into traveling to Laos, Myanmar, and Cambodia, where they were held and forced to perpetrate online fraud against people in other countries, including impersonation scams, romance scams, and financial fraud, with escape difficult given confiscated documents and compound security. Sri Lanka's Criminal Investigation Department opened at least 24 anti-trafficking investigations covering 61 suspects in 2025 tied to this recruitment pipeline. IOM Sri Lanka's then-Chief of Mission, Kristin Parco, said "human trafficking requires a multi-pronged approach involving public awareness, government capacity building, and timely information dissemination," and authorities have urged anyone offered an unusually lucrative IT, customer-service, or "data entry" job abroad arranged informally through social media to independently verify the employer and agency are licensed with Sri Lanka's Bureau of Foreign Employment before traveling, and to be highly suspicious of any arrangement that involves surrendering a passport on arrival.`,
+    categorySlug: 'employment-scams',
+    alertLevel: 'critical',
+    sources: ['International Organization for Migration (IOM) Sri Lanka', 'U.S. Department of State (Trafficking in Persons Report)', 'Sri Lanka Criminal Investigation Department (CID)'],
+    sourceUrl: 'https://srilanka.iom.int/news/20-sri-lankan-migrants-trafficked-myanmar-cyber-scamming-repatriated-government-sri-lanka-iom-support',
+    country: 'LK',
+  },
+);
