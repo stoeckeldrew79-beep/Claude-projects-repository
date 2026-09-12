@@ -7496,3 +7496,17 @@ UsAF.push({
     isHistorical: true,
     firstRecorded: '2025-04-01',
 });
+
+UsAF.push({
+    name: 'Florida "State License Benefits Association" Engineer Phishing Calls',
+    slug: 'florida-state-license-benefits-association-engineer-phishing-scam',
+    description: `The Florida Board of Professional Engineers (FBPE) has warned licensees about unsolicited calls from a group identifying itself as the "State License Benefits Association," which falsely claims there are new "changes in benefits" being offered to engineers by the State of Florida. Unlike the license-suspension threats other licensing-board impersonation scams rely on, this pitch works the opposite angle — dangling a supposed government benefit rather than a supposed penalty — before the caller tries to collect personal information and directs the engineer to a website to upload documents, a step that can hand over enough identifying material for identity theft or account takeover. FBPE states plainly, "We have no knowledge of changes that would provide state benefits for engineers," and that it has no affiliation whatsoever with the caller or the "State License Benefits Association." The Board's alert, first posted in July 2024 and still current as of its most recent update, advises any engineer who receives one of these calls not to provide personal information or upload any documents, and to report the call to the Federal Trade Commission at reportfraud.ftc.gov and register a complaint with the National Do Not Call Registry at donotcall.gov. As with any unsolicited call claiming to involve a professional license, the safest step is to hang up and contact FBPE directly using the phone number listed on its own website rather than anything the caller provides.`,
+    categorySlug: 'phishing',
+    alertLevel: 'medium',
+    sources: ['Florida Board of Professional Engineers'],
+    sourceUrl: 'https://fbpe.org/spam-phone-calls-regarding-engineer-benefits/',
+    country: 'US',
+    state: 'FL',
+    isHistorical: true,
+    firstRecorded: '2024-07-12',
+});
