@@ -4154,6 +4154,9 @@ You can review the company's own notice at insightinhealth.com/notice-of-data-ev
     slug: "gotham-steel-granite-stone-bell-howell-cookware-settlement-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "gotham-steel-granite-stone-bell-howell-cookware-settlement"],
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Diamond_surface_nonstick_frying_pan.jpg?width=1200",
+    coverImageCredit: "Photo: Diamond diamond diamond, CC BY-SA 4.0, via Wikimedia Commons — a non-stick frying pan like those in the settlement",
+    coverImagePosition: 50,
     sourceUrl: "https://openclassactions.com/settlements/false-advertising/gotham-steel-granite-stone-bell-howell-cookware-settlement.php",
     body: `E. Mishan & Sons, Inc. (better known by its As-Seen-On-TV brands, including Gotham Steel, Granite Stone, and Bell & Howell) agreed to settle Fouse et al. v. E. Mishan & Sons, Inc. (Case No. CVRI2505343, Superior Court of California, County of Riverside), a class action alleging the company's marketing promised more than its cookware actually delivered. The lawsuit centered on packaging and advertising that described the ceramic-coated pots and pans as "Healthy, Non-Toxic Ceramic Cookware & Bakeware" and simply "Non-toxic" — language that, according to the complaint, didn't square with independent testing finding undisclosed chromium, nickel, lead, cadmium, and PFAS-family compounds (PFOA, PTFE, and PFOS among them) in the products. The complaint is careful to note it isn't claiming anyone was physically injured by using the cookware — the case is about the gap between the "non-toxic" promise on the box and what was actually in the pan, not about a documented health harm.
 
@@ -4168,6 +4171,9 @@ If you bought Gotham Steel, Granite Stone, or Bell & Howell cookware in Californ
     slug: "lands-end-2024-data-breach-settlement-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "lands-end-2024-data-breach-settlement"],
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Lands'_End®_Headquarters_-_panoramio.jpg?width=1200",
+    coverImageCredit: "Photo: Corey Coyle, CC BY 3.0, via Wikimedia Commons — the Lands' End headquarters in Dodgeville, Wisconsin",
+    coverImagePosition: 50,
     sourceUrl: "https://www.classaction.org/news/lands-end-settlement-resolves-class-action-lawsuit-over-december-2024-data-breach",
     body: `Lands' End, the Wisconsin-based clothing retailer known for its catalog and workwear lines, detected suspicious activity on part of its corporate network on or around December 6, 2024. A forensic investigation confirmed that an unauthorized outsider had accessed and copied files containing sensitive personal information — but the review of exactly whose data was involved took a long time to finish: Lands' End didn't complete its internal review until August 3, 2025, nearly eight months after the intrusion was first detected, and filed notice with state regulators on August 14, 2025, mailing letters to affected individuals the next day. Court documents put the number of people affected at approximately 10,060 — current and former Lands' End employees and, in some cases, their dependents, rather than the company's retail customers.
 
@@ -4182,6 +4188,10 @@ A passport number alongside a Social Security number, driver's license number, a
     slug: "modernizing-medicine-2025-data-breach-settlement-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "modernizing-medicine-2025-data-breach-settlement"],
+    // representative photo — replace with an exact match if found
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Computer_hacking.jpg?width=1200",
+    coverImageCredit: "Photo: wwward0, CC BY-SA 3.0, via Wikimedia Commons — a depiction of computer hacking, the kind behind the breach",
+    coverImagePosition: 50,
     sourceUrl: "https://www.classaction.org/news/nearly-3m-modernizing-medicine-settlement-resolves-data-breach-lawsuit-over-2025-cyber-incident",
     body: `Modernizing Medicine, known by its brand ModMed, is a Boca Raton, Florida-based healthcare software company that sells cloud-based electronic medical record systems to specialty practices around the country — the kind of behind-the-scenes vendor whose name most patients never learn, even though it's holding their actual medical charts. Over July 9 and 10, 2025, a threat actor gained unauthorized access to servers ModMed used on behalf of its podiatry practice clients and copied sensitive information before the intrusion was detected. ModMed began notifying the affected practices on September 19, 2025 and mailed breach notices directly to patients on October 17; a January 2026 release from the Department of Health and Human Services put the final number of people affected at 198,795.
 
