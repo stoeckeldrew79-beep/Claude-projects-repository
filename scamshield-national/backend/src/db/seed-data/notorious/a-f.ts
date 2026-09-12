@@ -8405,3 +8405,26 @@ A FOREX trading claim is, for most investors, close to unverifiable — currency
     sourceUrl: 'https://www.fbi.gov/contact-us/field-offices/detroit/news/fbi-detroit-announces-darren-anthony-robinson-added-to-fbis-most-wanted-fraudsters-list',
   },
 );
+
+// No rights-cleared photo of Burns has surfaced (he has been a fugitive
+// since 2020; the FBI's own wanted-poster image is not on Wikimedia
+// Commons) — sourceUrl below serves as the "read the full story" link
+// instead of a generic photo.
+NotoriousAF.push(
+  {
+    title: 'Christopher W. Burns: The Georgia Financial Adviser Who Vanished the Day Before Handing Documents to the SEC',
+    slug: 'christopher-w-burns-dynamic-money-fugitive-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    body: `Christopher W. Burns built a public profile in the Atlanta area as a financial adviser and radio personality, running Investus Advisers LLC under the name Dynamic Money and hosting a self-titled radio show that doubled as marketing for his firm. Starting around early 2017, prosecutors say, Burns began steering clients and radio listeners into promissory notes issued by two other companies he controlled, Investus Financial LLC and Peer Connect LLC, pitched as a "peer-to-peer" lending program that funneled investor money to small businesses in need of capital. Burns told investors the notes were backed by collateral, personally guaranteed them against loss, and described the investment as carrying little to no risk.
+
+According to the Securities and Exchange Commission, none of that was true. The collateral and brokerage accounts Burns pointed to as backing the notes either didn't exist or were worth far less than he claimed, and the "peer-to-peer" lending program itself was largely a fiction. By the time the scheme unwound, Burns had sold more than $10 million in promissory notes to roughly 90 investors across Georgia, North Carolina, and Florida. Rather than funding small-business loans, prosecutors say the money paid off earlier investors Ponzi-style and covered Burns's own expenses, including a lake house, vehicles, and the radio airtime that kept bringing in new investors.
+
+The SEC filed civil fraud charges against Burns, his companies, and his then-wife Meredith Burns as a relief defendant on November 12, 2020, in the U.S. District Court for the Northern District of Georgia, winning a temporary restraining order and asset freeze. Burns never answered those charges in person. On September 24, 2020 — the day before he was due to turn over documents to the SEC — he vanished from his home in Berkeley Lake, Georgia; his car later turned up abandoned in nearby Dunwoody with three cashier's checks totaling roughly $78,000 inside it. A federal grand jury in the Northern District of Georgia indicted him on April 11, 2023, on 10 counts of wire fraud, two counts of mail fraud, and four counts of money laundering. With Burns still missing, a federal judge later entered a default judgment against him and his companies for more than $12 million, including a $652,629 civil penalty; Meredith Burns, who was not charged criminally, agreed to disgorge $320,000. "He betrayed investors and stole their savings with promises of safe investments that would yield high rates of return," then-U.S. Attorney Ryan Buchanan said of the case.
+
+On June 4, 2026, the FBI put Burns on the inaugural roster of its Most Wanted Fraudsters list, offering a reward of up to $150,000 for information leading to his arrest and conviction. The bureau describes him as roughly 6 feet 2 inches tall and 240 pounds, with a tattoo of three interlaced black triangles on his left forearm. As of this writing, nearly six years after he disappeared, Burns has not been located.
+
+Burns's pitch worked because it borrowed the trust-building tools of legitimate finance — a licensed advisory firm, a public radio presence, personally signed guarantees — to sell a lending program that, according to regulators, never actually made the loans it described. A promissory note backed by collateral is only as safe as the collateral is real, and Burns's decision to disappear the day his firm was due to produce records for the SEC is its own kind of answer to whether that collateral would have held up to a look.`,
+    sourceUrl: 'https://www.justice.gov/usao-ndga/pr/fugitive-financial-advisor-indicted-10-million-investment-fraud-scheme',
+  },
+);
