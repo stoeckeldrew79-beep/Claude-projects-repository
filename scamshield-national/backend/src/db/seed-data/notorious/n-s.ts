@@ -5891,3 +5891,26 @@ NRIA's pitch worked because it borrowed the vocabulary of institutional finance 
     sourceUrl: 'https://www.fbi.gov/contact-us/field-offices/newark/news/fbi-newark-adds-rey-e-grabato-ii-to-most-wanted-fraudsters-list',
   },
 );
+
+// No rights-cleared photo of Rodney Dean Allen has surfaced (he has been
+// missing since 2017; the FBI's own wanted-poster image, taken in 2011, is
+// not on Wikimedia Commons) — sourceUrl below serves as the "read the full
+// story" link instead of a generic photo.
+NotoriousNS.push(
+  {
+    title: 'Rodney Dean Allen: The Boise Broker Who Vanished Near the Snake River Owing Clients $7.3 Million',
+    slug: 'rodney-dean-allen-ka-investments-missing-broker-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    body: `Rodney Dean Allen owned and ran KA Investments, LLC, a small brokerage in Boise, Idaho, that gave him control over other people's savings and, for a while, their trust. Federal prosecutors say that starting around 2016 he began sending clients monthly account statements that simply didn't reflect what was happening to their money — one statement dated December 6, 2016, told a client their account was up 1.903% for the period; in reality, prosecutors say, that account had lost 36.01%. Allen also told clients he was taking a 14% to 18% commission out of their investment profits, when in fact, according to the indictment, he was pulling money out of their accounts for his own use regardless of whether the accounts had made or lost money at all.
+
+The Idaho Department of Finance opened a civil case against Allen and KA Investments in January 2018, and a federal grand jury in the District of Idaho returned a wire fraud indictment against him on January 10, 2018, with a judge issuing an arrest warrant the same day. By then, prosecutors say, Allen's scheme had taken roughly $7.3 million from his clients between 2016 and 2017. Neither the indictment nor the civil case ever caught up with him in person: Allen was already gone.
+
+Allen was reported missing on April 20, 2017 — months before charges were filed — after his truck was found abandoned in a remote area near the Snake River. Idaho law enforcement searched the surrounding area repeatedly between April and September 2017, including with cadaver dogs, and found no trace of him. Whether Allen fled the fraud he'd built, staged his own disappearance, or met with real harm in a remote stretch of Idaho has never been resolved; he has not been seen, and no body has ever been recovered.
+
+The FBI, which had offered a modest $10,000 reward for information on Allen for years, put him on the inaugural roster of its new Most Wanted Fraudsters list when the program launched on June 4, 2026, raising the reward to $150,000 for information leading to his arrest and conviction. The bureau describes Allen, now in his mid-70s, as a white male with gray hair and brown eyes, about 6 feet tall and 185 pounds, who has also gone by the alias "Rod Dean" — and it warns that he may be armed and has a history of suicidal statements, should anyone encounter him.
+
+A brokerage statement is one of the few financial documents most people never learn to question — it arrives, it shows a number, and the number is trusted because a licensed professional's name is on it. Allen's clients had no way to know their "gains" were fabricated line by line unless they cross-checked his figures against the underlying accounts themselves, which is precisely the kind of verification a trusted adviser is supposed to make unnecessary. Nine years after his disappearance, the money he's accused of taking, and the man himself, both remain missing.`,
+    sourceUrl: 'https://www.justice.gov/usao-id/pr/missing-securities-broker-indicted',
+  },
+);
