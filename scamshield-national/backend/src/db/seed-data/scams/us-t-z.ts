@@ -3586,3 +3586,17 @@ UsTZ.push({
     isHistorical: true,
     firstRecorded: '2026-02-21',
 });
+
+UsTZ.push({
+    name: 'Former Senator Wayne James Fireburn Research Grant Embezzlement Scheme',
+    slug: 'virgin-islands-james-fireburn-grant-embezzlement',
+    description: `Wayne A.G. James served as a member of the Legislature of the Virgin Islands from January 2009 through January 2011, and starting in April 2009 he began requesting legislative funds to pay for research into the 1878 Fireburn, the labor uprising on St. Croix against exploitative post-slavery labor conditions, which he said required trips to consult historical records held in Denmark's national archives. James used some of the money for genuine research at first, but prosecutors said that by 2010 he had escalated to fabricating entire invoices and simply pocketing the funds the Legislature disbursed, ultimately causing the Legislature to pay him more than $90,000, of which he diverted roughly $70,000 for his own use — including to help fund his unsuccessful re-election campaign — while his actual legislative salary was separately being garnished under a tax levy of more than $197,000. A federal grand jury indicted James in October 2015, and after a warrant issued for his arrest he was located in Italy in 2016 and extradited to the Virgin Islands to face trial. A jury in the District Court of the Virgin Islands convicted him on August 16, 2018 of two counts of wire fraud and one count of theft of federal program funds, and the court sentenced him on January 17, 2019 to three concurrent 30-month prison terms, three years of supervised release, and $77,963.51 in restitution. The case shows how an elected official with signing authority over a legislative research or travel budget can turn a legitimate-sounding line item into a personal fund simply by submitting invoices for research trips that never happened, since a legislature's own internal disbursement process is not automatically an independent check on whether the underlying work was actually done; residents who notice a legislator or agency head requesting repeated reimbursements for travel or research with no public output to show for it can raise the concern with the Virgin Islands Office of the Inspector General rather than assume an approved voucher means the money was spent as described.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'medium',
+    sources: ['U.S. Department of Justice, District of the Virgin Islands', 'St. Thomas Source'],
+    sourceUrl: 'https://www.justice.gov/usao-vi/pr/former-senator-wayne-james-found-guilty-wire-fraud-and-embezzlement-government-funds',
+    country: 'US',
+    state: 'VI',
+    isHistorical: true,
+    firstRecorded: '2009-04-01',
+});

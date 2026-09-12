@@ -7838,3 +7838,17 @@ UsAF.push({
     isHistorical: true,
     firstRecorded: '2011-04-01',
 });
+
+UsAF.push({
+    name: "U'una'i Legal Services Corporation Federal Grant Theft Scheme (Julie and Andrea Matau)",
+    slug: 'american-samoa-ulsc-legal-aid-grant-theft-matau',
+    description: `U'una'i Legal Services Corporation (ULSC) was, from roughly 1998 to 2007, the only nonprofit in American Samoa providing free legal help to victims of domestic violence, dating violence, stalking, and sexual abuse, as well as the territory's only source of civil legal aid for low-income residents facing adoptions, divorces, and custody disputes — work funded almost entirely through federal grants. A federal grand jury in the Northern District of California indicted Julie Matau, ULSC's grant administrator, and her daughter Andrea Matau, a legal assistant at the organization, on December 16, 2010, on a 20-count indictment charging conspiracy to commit mail and wire fraud, theft of federal grant funds, false statements, falsification of records, and 17 substantive counts of mail and wire fraud, in a scheme that diverted nearly $160,000 of the federal money meant to fund the nonprofit's legal-aid work. Both women pleaded guilty on December 21, 2011; Julie Matau, then 48, was sentenced to 12 months and one day in federal prison, and Andrea Matau, then 27, received 12 months of probation including six months of home detention, with the court ordering them to pay $159,763 in restitution jointly and severally. A separate ULSC official, former acting executive director David Wagner, pleaded guilty to stealing an additional $31,292 from the organization between approximately November 2005 and December 2006. The case is a particularly damaging version of grant fraud: money Congress appropriated to help American Samoa's domestic-violence and sexual-abuse survivors obtain legal representation was instead diverted by the very staff trusted to administer it, and the organization did not survive the scandal. Board members, funders, and community members overseeing any small nonprofit that handles federal grant money should insist on outside financial review rather than letting a single grant administrator control both the books and the disbursements, and can report suspected diversion of federal funds to the relevant agency's Office of Inspector General.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'medium',
+    sources: ['U.S. Department of Justice, Office of Public Affairs', 'Federal Bureau of Investigation, Honolulu Division', 'Samoa News'],
+    sourceUrl: 'https://www.justice.gov/opa/pr/former-grant-administrator-and-legal-assistant-american-samoa-non-profit-legal-aid-0',
+    country: 'US',
+    state: 'AS',
+    isHistorical: true,
+    firstRecorded: '2010-12-16',
+});
