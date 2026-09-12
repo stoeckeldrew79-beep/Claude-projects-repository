@@ -15261,3 +15261,55 @@ International.push(
     country: 'CM',
   },
 );
+
+International.push(
+  {
+    name: 'Fake Overseas Job and Visa Fraud Ring (Punjab, Pakistan)',
+    slug: 'pakistan-fake-overseas-job-visa-fraud-punjab',
+    description: `In raids across Bahawalpur, Bahawalnagar, Multan, and Lodhran on June 14, 2025, Pakistan's Federal Investigation Agency (FIA) arrested three suspects — Abid Hussain, Hira Noor, and Ajmal — accused of running a fraudulent overseas-recruitment operation that collected large sums from jobseekers for positions that were never real. Investigators said Abid Hussain took Rs 800,000 (about $2,800) from one victim for a promised job in Saudi Arabia, Hira Noor collected Rs 2.9 million (about $10,150) from another for supposed employment in Europe, and Ajmal charged Rs 400,000 (about $1,400) to arrange a job in Dubai; all three went into hiding once they failed to deliver the visas, tickets, or work they had promised. The arrests were part of a wider FIA crackdown on fake "recruiting agents" — individuals and unlicensed agencies who advertise fast, guaranteed jobs in the Gulf, Europe, or elsewhere abroad, collect large upfront fees, and then either vanish, supply forged visas that get victims deported or detained on arrival, or funnel recruits toward trafficking-linked scam-labor compounds in Southeast Asia. Pakistan's Bureau of Emigration and Overseas Employment (BE&OE) has separately published public notices naming unlicensed operators known to be defrauding jobseekers and stresses that only agents holding a valid Overseas Employment Promoter (OEP) license — verifiable through BE&OE's own online registry — are authorized to recruit workers for jobs abroad. Pakistani authorities' advice to jobseekers is to verify any overseas job offer and its recruiting agency directly through BE&OE before paying a single rupee or handing over a passport, to treat an offer that seems unusually fast, cheap, or guaranteed as a red flag, and never to make full payment in cash to an individual agent with no registered, licensed office.`,
+    categorySlug: 'employment-scams',
+    country: 'PK',
+    alertLevel: 'high',
+    sources: ['Federal Investigation Agency (FIA)', 'Arab News Pakistan', 'Associated Press of Pakistan (APP)'],
+    sourceUrl: 'https://www.arabnews.pk/pakistan/pakistan-arrests-suspects-in-visa-fraud-targeting-job-seekers-hoping-to-reach-gulf-europe-2604481',
+  },
+);
+
+International.push(
+  {
+    name: '"Your Account Has Been Blocked" Easypaisa/JazzCash OTP Takeover Scam',
+    slug: 'pakistan-easypaisa-jazzcash-account-blocked-otp-scam',
+    description: `Pakistan's Federal Investigation Agency (FIA) Cyber Crime Wing issued a public advisory on January 25, 2021 describing a fraud that has only grown more common on Pakistan's two largest mobile-wallet services, Easypaisa and JazzCash: a caller or text message from an unfamiliar number tells the account holder that their wallet has been blocked or suspended, often citing a vague "security review," and offers to restore it immediately — but only after the victim reads back the 4-to-6-digit verification code that arrives by SMS moments later. That code is not a restoration code at all; it is the real one-time password Easypaisa or JazzCash sends to authorize a login or transaction, and reading it to the caller hands over everything needed to take over the account and drain its balance before the victim realizes anything is wrong. The FIA's advisory states plainly that account owners should "not share their account info as well as any passwords including pin codes and OTPs on calls from unknown numbers," since no legitimate telecom or mobile-wallet employee will ever ask a customer to read back a one-time code. A related and increasingly serious version of the same fraud begins with a SIM swap: using a victim's stolen CNIC number and other personal details, a fraudster visits a mobile operator's franchise or customer-service center posing as the account holder and talks staff into issuing a duplicate SIM for the victim's number, silently cutting off the real owner's service; every OTP that follows then routes straight to the fraudster's phone, letting them reset banking and mobile-wallet passwords and empty linked accounts within minutes. Telecom-security guidance in Pakistan recommends that mobile-wallet and bank customers request a SIM-lock from their operator, which blocks a duplicate SIM from being issued without the account holder's own biometric verification in person, and treat any unsolicited call or text about a "blocked" account as fraudulent unless it is verified independently by calling the number printed on the back of a card or in the official app — never a number or link supplied by the caller or message itself.`,
+    categorySlug: 'account-takeover',
+    country: 'PK',
+    alertLevel: 'high',
+    sources: ['Federal Investigation Agency (FIA) — Cyber Crime Wing', 'TechJuice'],
+    sourceUrl: 'https://www.techjuice.pk/fia-warns-citizens-of-an-easypaisa-jazzcash-fraud/',
+  },
+);
+
+International.push(
+  {
+    name: 'Fake Discounted Hajj and Umrah Package Fraud (Khyber Pakhtunkhwa, Pakistan)',
+    slug: 'pakistan-fake-discounted-hajj-umrah-package-fraud',
+    description: `Pakistan's National Accountability Bureau opened an investigation in 2017 into a Hazara-region fraud ring that had spent years selling steeply discounted Hajj and Umrah pilgrimage packages that never existed, a case that FIA Hazara Circle Deputy Director Sardarullah Babar later said had drawn roughly 100 complainants seeking arrest of the perpetrators and recovery of their money. The alleged ringleader, Shahnaz Bibi of Banda Lal Khan in Mansehra district, took payment from pilgrims across the Hazara and Rawalpindi areas between 2017 and 2023 for pilgrimage packages priced well below what a legitimate Hajj or Umrah operator could offer, then failed to deliver visas, travel, or accommodation while stringing victims along. Two criminal cases were registered against her (No. 50 of 2017 and No. 20 of 2018) before she petitioned the Peshawar High Court's Abbottabad bench for relief; she was arrested by a joint FIA-police team on September 5, 2024 only after the court lifted the status-quo order that had been protecting her from arrest. The case reflects a long-running pattern of unlicensed Hajj/Umrah agents in Pakistan taking large upfront payments and disappearing, which is why Pakistan's Ministry of Religious Affairs and Interfaith Harmony now publishes and regularly updates an official list of certified Umrah tour operators — 113 companies for the 2024-25 season — and advises pilgrims to independently verify any agency's registration on the ministry's own website, pay only through traceable bank transfers rather than cash, and obtain a signed agreement and receipt before handing over any money, treating a below-market Hajj or Umrah price from an agent who cannot be verified on the ministry's list as the clearest sign of fraud.`,
+    categorySlug: 'travel-vacation-scams',
+    country: 'PK',
+    alertLevel: 'high',
+    sources: ['Federal Investigation Agency (FIA)', 'The News International', 'Ministry of Religious Affairs and Interfaith Harmony (Pakistan)'],
+    sourceUrl: 'https://www.thenews.com.pk/print/1227366-woman-held-for-haj-and-umrah-scam',
+  },
+);
+
+International.push(
+  {
+    name: 'Fake FBR Tax Refund and Penalty SMS/Email Phishing Scam',
+    slug: 'pakistan-fbr-tax-refund-penalty-sms-phishing-scam',
+    description: `Pakistan's Federal Board of Revenue (FBR) maintains a standing public warning about fraudulent SMS messages and emails "crafted to appear as if they have been sent from a legitimate organization" — meaning FBR itself — that tell the recipient they owe an unpaid tax penalty or are due a refund, and instruct them to call a specific mobile number or click a link to resolve it. Anyone who calls the number or follows the link is walked through providing exactly the information a tax authority never needs over the phone: bank account numbers, usernames, passwords, and PINs, which the scammers then use to access and drain the victim's bank account directly. FBR's advisory states unambiguously that it "does not send SMS to the Taxpayers requesting for calling on specific number and ask for PIN numbers, passwords or similar access information," and that its official website never asks for bank login details or provides a bank link of any kind. The messages typically use a shortened link or a domain designed to look like an official government address at a glance, banking on the recipient's fear of a tax penalty or hope of a refund to short-circuit normal skepticism. FBR strictly advises taxpayers never to call a number given in such a message, never to disclose banking information in response to an unsolicited SMS or email, and to verify any claimed tax liability or refund only through FBR's own official IRIS portal or by visiting a regional tax office directly, rather than through any contact method the message itself supplies.`,
+    categorySlug: 'tax-scams',
+    country: 'PK',
+    alertLevel: 'medium',
+    sources: ['Federal Board of Revenue (FBR)'],
+    sourceUrl: 'https://www.fbr.gov.pk/beware-fradulant-sms/152600',
+  },
+);
