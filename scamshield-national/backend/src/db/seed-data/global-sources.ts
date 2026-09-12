@@ -503,4 +503,31 @@ export const SEED_GLOBAL_SOURCES: SeedGlobalSource[] = [
       "Albania's national cybersecurity authority (Autoriteti Kombëtar për Sigurinë Kibernetike), the country's designated CSIRT, runs public phishing- and incident-reporting channels and displays a running homepage tally of its activity — 1,247 incidents reported and 1,189 resolved in its 2025 figures — alongside audit and certification counts. It also publishes periodic annual reports, though the most recent full public edition on file dates to 2022.",
     data_type: 'public_stats',
   },
+  {
+    agency_name: 'Government Computer Emergency Response Team (CERT.AM)',
+    country: 'AM',
+    country_name: 'Armenia',
+    url: 'https://cert.gov.am/en/',
+    description:
+      "Armenia's official government CERT accepts public reports of phishing messages, ransomware, DDoS attacks, and other cyber incidents through a web form, email, and phone, and coordinates with law enforcement on investigations. It has no public statistics page of its own; a separate, non-governmental CERT.AM run by the Internet Society of Armenia also operates alongside it.",
+    data_type: 'public_stats',
+  },
+  {
+    agency_name: 'Coordination Center for Cybersecurity (CERT-KG)',
+    country: 'KG',
+    country_name: 'Kyrgyzstan',
+    url: 'https://cert.gov.kg/',
+    description:
+      "Kyrgyzstan's national CERT, run by the Coordination Center for Cybersecurity under the State Committee for National Security, maintains a public cyberthreat database and accepts citizen reports of data breaches and cyberattacks through its own web form, alongside phishing-awareness and cyberhygiene guidance. It does not publish aggregate incident or fraud statistics.",
+    data_type: 'public_stats',
+  },
+  {
+    agency_name: 'National Computer Emergency Response Team (CERT.BY)',
+    country: 'BY',
+    country_name: 'Belarus',
+    url: 'https://cert.by/?lang=en',
+    description:
+      "Belarus's national computer emergency response team monitors the country's internet segment for malware and network attacks and accepts public reports of phishing emails, malicious code, and suspicious activity by web form, email, and phone. It publishes incident write-ups and threat analyses but no aggregate statistics of its own; periodic national fraud-loss figures are instead released separately by the Ministry of Internal Affairs through press briefings.",
+    data_type: 'public_stats',
+  },
 ];
