@@ -16905,3 +16905,46 @@ International.push(
     country: 'NA',
   },
 );
+
+International.push(
+  {
+    name: 'Fake "Traficom/Suomi.fi Tax Letter" SMS Phishing Scam',
+    slug: 'finland-traficom-suomifi-tax-letter-phishing-scam',
+    description: `Finland's Transport and Communications Agency (Traficom) issued a public alert on November 6, 2025, warning that criminals are sending text messages falsely claiming the recipient has received a letter via the official Suomi.fi Messages service, signed in the name of "Liikenne- ja viestintävirasto Traficom, Verotus" (Traficom, Taxation) to invoke the authority of Finland's tax administration alongside Traficom's own. The messages link to fraudulent websites built to steal online banking credentials "for all Finnish banks," and Traficom stressed that neither Traficom nor Suomi.fi Messages ever sends a clickable link by text message or WhatsApp; the alert noted that phishing scams of this type cost Finnish consumers "tens of millions of euros" every year. The pattern is not new: Finnish police told Yle that in September 2024 alone, an earlier wave of messages impersonating Traficom over unpaid vehicle-related fines cost victims more than €560,000, with 39 individual criminal reports and 6 more from companies filed that month. Chief Inspector Sakari Tuominen explained that after a victim enters their credentials on the fake site, criminals either log in and drain the account directly or telephone the victim posing as a bank employee to request a one-time verification code, warning that "if the victim gives the scammer the right code, the criminal can potentially clean out their account." Traficom's advice: never log into online banking through a link in a text message, type the bank's own web address directly into the browser instead, and remember that a legitimate authority will never ask for banking credentials or one-time codes by phone or SMS.`,
+    categorySlug: 'phishing',
+    country: 'FI',
+    alertLevel: 'high',
+    sources: ['Traficom (Finnish Transport and Communications Agency)', 'Yle News', 'Finnish Police'],
+    sourceUrl: 'https://www.traficom.fi/en/news/scam-messages-sent-name-traficom-and-suomifi-messages',
+  },
+  {
+    name: 'Fake "My Kanta Pages" Health Portal Phishing Scam',
+    slug: 'finland-my-kanta-pages-health-portal-phishing-scam',
+    description: `Finland's National Cyber Security Centre (NCSC-FI, part of Traficom) reported receiving numerous complaints in February 2024 about text messages sent in the name of "MyKanta" — the national My Kanta Pages portal where Finns view their prescriptions and health records — falsely urging recipients to update their personal information by a stated deadline to keep using the service, with a link leading to a convincing fake site that asks for online banking credentials rather than any real Kanta login. The campaign is a long-running one: Kela (Finland's Social Insurance Institution), the police, and NCSC-FI first warned jointly in September 2021 that criminals were luring victims to fake My Kanta Pages and bank websites through search-engine ads and results — with Bing and Google search results identified as the most common route to the fake site — and Kanta.fi has since repeated the warning as the impersonation campaign resurfaced in subsequent waves, noting the scam has particularly targeted people aged 60 and older. Once a victim enters their banking credentials on the fraudulent page, criminals gain access to the real online bank account and can steal the funds in it. Kela and Kanta Services state plainly that they "will never contact users by email or text message to ask for their information," and the advised precaution is to always reach My Kanta Pages by typing kanta.fi directly into the browser or using a bookmarked link — never through a link in an email, text message, or search-engine result — and to contact NCSC-FI and the police immediately if credentials have already been entered on a suspicious site.`,
+    categorySlug: 'phishing',
+    country: 'FI',
+    alertLevel: 'medium',
+    sources: ['National Cyber Security Centre Finland (NCSC-FI)', 'Kanta.fi', 'Social Insurance Institution of Finland (Kela)'],
+    sourceUrl: 'https://www.kanta.fi/en/current-issues/phishing-attacks-using-the-my-kanta-pages-name-continue',
+  },
+  {
+    name: 'Fake Posti Parcel Delivery Fee SMS Scam',
+    slug: 'finland-posti-fake-parcel-delivery-fee-scam',
+    description: `Posti, Finland's national postal operator, maintains a standing public notice — most recently updated April 23 and still current as of a November 2024 wave documented by security firm F-Secure — warning that criminals are sending SMS and email messages under Posti's name and logo claiming the recipient has a parcel awaiting delivery or already in transit that requires payment of "a few euros" before it can be released. The message links to a fraudulent site designed purely to phish the recipient's payment card details rather than to collect any real shipping fee, and Posti confirms it never asks customers to pay an unexpected fee by text-message link to receive a parcel. F-Secure's November 2024 review found the same wave of SMS impersonation hitting several other trusted Finnish institutions at once — including Traficom, the Finnish Tax Administration (Vero), the OmaKanta health portal, and healthcare provider Terveystalo — with scammers making subtle alterations such as swapping the letter "O" for a zero in an organization's name to slip past spam filters. Posti's guidance: never click a link in an unsolicited delivery text, track any parcel only through the OmaPosti app or posti.fi directly, and if card details have already been entered on a fake site, contact the bank immediately to block the card and then report the incident to the police.`,
+    categorySlug: 'package-delivery-scams',
+    country: 'FI',
+    alertLevel: 'medium',
+    sources: ['Posti Group', 'F-Secure'],
+    sourceUrl: 'https://www.posti.com/en/news-and-releases/posti-is-being-used-as-a-fake-sender-of-phishing-messages-ignore-such-messages-and-do-not-click-on-any-suspicious-links-also-see-the-instructions-issued-by-the-police-updated-on-april-23',
+  },
+  {
+    name: 'Fake Job Offer Scam Impersonating TE Services (Employment Services)',
+    slug: 'finland-te-services-fake-job-offer-scam',
+    description: `Job Market Finland (Työmarkkinatori), the online platform operated by Finland's public Employment and Economic Development (TE) Services, issued a warning on July 4, 2025, about scam messages circulating in the name of Employment Services that dangle unusually attractive job offers and then direct the recipient to continue the "application" over WhatsApp or an unofficial, unlisted email address rather than through Job Market Finland's own site. The warning lists the same red flags Finland's other employment-scam alerts point to: a sender address or phone number that does not match any official Employment Services channel, an offer that pays unusually well for very little apparent work, and pressure to move the conversation onto WhatsApp or another messaging app rather than continuing through legitimate channels. Job Market Finland advises recipients not to reply to such messages, not to open any attached links or files, and to verify a suspicious job offer by contacting Employment Services directly through its official website or by phone rather than through any contact details supplied in the message itself.`,
+    categorySlug: 'employment-scams',
+    country: 'FI',
+    alertLevel: 'medium',
+    sources: ['Job Market Finland (Työmarkkinatori) / TE Services'],
+    sourceUrl: 'https://tyomarkkinatori.fi/en/news/varoitus_huijausviesteista_tyollisyyspalveluiden_nimissa',
+  },
+);
