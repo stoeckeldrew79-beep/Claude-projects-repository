@@ -18016,3 +18016,46 @@ International.push(
     firstRecorded: '2025-02-12',
   },
 );
+
+International.push(
+  {
+    name: 'U-Vistract "100% Monthly Return" Pyramid Scheme',
+    slug: 'png-u-vistract-noah-musingku-pyramid-scheme',
+    description: `Beginning in the late 1990s amid Bougainville's decade-long civil war, a Bougainvillean man named Noah Musingku launched a scheme called U-Vistract out of Port Moresby, promoting it as a "bank for Bougainvilleans" and promising investors an extraordinary 100 percent return every month — a pitch that fed off both the region's push for financial independence from Papua New Guinea and the prosperity-gospel Pentecostal faith common across Melanesia. Musingku paid early investors real money to build credibility and momentum, and at its peak the scheme had drawn in roughly 70,000 Papua New Guineans, spreading to the Solomon Islands and Fiji and even attracting church groups in Australia, before Australia's Securities and Investments Commission compelled him to return money to the Australian investors and PNG authorities began closing in; The Diplomat reported that U-Vistract "defrauded millions of dollars from people in PNG, the Solomon Islands, and Fiji." Musingku evaded PNG police, fleeing first to the Solomon Islands and then to his home village of Tonu in southern Bougainville, where since the early 2000s he has styled himself "King David Peii II," ruler of a self-declared kingdom protected by a militia trained by former Fiji army officers; in April 2006 the Autonomous Bougainville Government publicly urged people to stop believing his promises of an imminent payout, and in March 2019 the United Nations told Bougainvilleans it does not recognize his self-proclaimed kingdom either. Anyone offered a guaranteed monthly return anywhere near 100 percent — whether through U-Vistract itself, one of the many copycat "fast money" schemes it inspired in PNG, or a new investment altogether — is advised to treat the promise as a certain sign of fraud, since no legitimate investment can sustainably pay anything close to that rate, and to verify any investment opportunity with the Bank of Papua New Guinea or the Securities Commission of Papua New Guinea before handing over money.`,
+    categorySlug: 'ponzi-pyramid-schemes',
+    alertLevel: 'high',
+    sources: ['The Diplomat', 'RNZ Pacific'],
+    sourceUrl: 'https://thediplomat.com/2021/01/musingku-bougainvilles-royal-pyramid-scheme-problem/',
+    country: 'PG',
+  },
+  {
+    name: 'Fake PALM and RSE Labour Mobility "Agent" Scam',
+    slug: 'png-palm-rse-labour-mobility-fake-agent-scam',
+    description: `Papua New Guinea's Labour Mobility Unit (LMU), the Department of Treasury office that coordinates the country's access to Australia's Pacific Australia Labour Mobility (PALM) scheme and New Zealand's Recognised Seasonal Employer (RSE) scheme, warns applicants on its own official worker portal to "beware of scams," stating plainly that "there are no fees to join the PALM scheme or RSE scheme," that "there are no labour mobility agents in PNG," and that workers "must never pay money or give gifts to anyone" to take part. The pattern is not new: as far back as September 2006, the Australian High Commission in Port Moresby publicly warned Papua New Guineans not to pay money to "con men" who falsely claimed they could organize seasonal agricultural work for them in Australia, at a time when no visas were even being issued for such a scheme yet. The LMU says the only payments a genuine applicant ever makes are for a passport, birth certificate or National ID card, police clearance, and medical screening — paid directly to the issuing office or clinic, never to a so-called "agent" — and that applications go only through a local recruitment hub run by a recruitment coordinator, not through any private intermediary who promises to secure a placement for a fee or a gift. Anyone approached by someone offering to arrange or guarantee a PALM or RSE placement in exchange for cash or a gift is advised to refuse, verify the offer directly with their district's recruitment hub or the LMU, and report the person to police, since a genuine PNG or Australian government labour mobility program never charges an applicant simply to apply.`,
+    categorySlug: 'employment-scams',
+    alertLevel: 'high',
+    sources: ['Labour Mobility Unit, Department of Treasury (Papua New Guinea)', 'RNZ Pacific'],
+    sourceUrl: 'https://labourmobilitypng.com/workers',
+    country: 'PG',
+  },
+  {
+    name: 'Fake Overseas Scholarship Human-Trafficking Scheme',
+    slug: 'png-fake-scholarship-human-trafficking-scheme',
+    description: `Between March 2021 and July 2023, a 56-year-old dual Australian-Nigerian citizen based primarily in Papua New Guinea, Binta Abubakar, is alleged to have brought 15 Papua New Guinean nationals — aged from 19 to their mid-30s — to Australia by offering them fully funded educational scholarships, only for the group to be forced onto Queensland farms instead of receiving any education. The Australian Federal Police allege that on arrival she had the victims sign legal documents obligating them to repay undisclosed costs for tuition, airfares, visas, insurance, and legal fees, plunging them into inflated debt, then had them work off that "debt" on farms, sometimes in breach of their visa conditions, while she collected and withheld their wages; police further allege some victims were housed in "oppressive conditions," including shipping containers, and that when they resisted she threatened to report them to immigration for deportation and intimidated their families back in PNG. The AFP arrested Abubakar at Brisbane Airport on June 11, 2025 as she arrived on a flight from PNG, and charged her with 31 offences — four counts of trafficking in persons, 14 counts of deceptive recruiting for labour or services, and 13 counts of engaging in debt bondage conduct — with the trafficking counts alone carrying a maximum penalty of 12 years' imprisonment; she appeared before the Brisbane Magistrates Court the same day and was granted conditional bail to reappear on September 19, 2025. AFP Detective Superintendent Adrian Telfer said victims of debt bondage "can be lured to Australia with a promise of a dream career or free education," and Papua New Guineans considering any offer of an overseas scholarship or job placement are advised to verify it directly with the receiving institution or a recognized government program before signing any document or traveling, and to treat any requirement to repay undisclosed costs after arrival as a certain sign of exploitation.`,
+    categorySlug: 'student-loan-education',
+    alertLevel: 'critical',
+    sources: ['Australian Federal Police (AFP)', 'ABC News'],
+    sourceUrl: 'https://www.afp.gov.au/news-centre/media-release/dual-australian-and-nigerian-citizen-charged-human-trafficking-after',
+    country: 'PG',
+  },
+  {
+    name: 'AI-Generated Deepfake Celebrity Giveaway Scam',
+    slug: 'png-ai-deepfake-celebrity-giveaway-scam',
+    description: `Jennifer Baing, a former Papua New Guinea television host who built a large social media following promoting traditional food and agriculture, discovered that scammers had used artificial intelligence to manipulate real photos taken from her accounts into fake images — including one showing her in revealing lingerie — and were circulating separate AI-generated pictures of her supposedly handing out cash to promote fake Facebook giveaways that asked people to send money for a chance to win. Baing said she had identified almost 100 Facebook accounts using her name and photos, some cloning her profile outright and others built entirely around the fabricated giveaway images, and that the harm went beyond her reputation: "I'm concerned about my safety as well because if that person's really scammed someone out of a lot of money, they're going to come after me." She said she had repeatedly reported the fake accounts to Facebook but that they remained online. Her case surfaced publicly in a July 21, 2026 report as Papua New Guinea's government prepared amendments to its Cybercrime Code Act — to be introduced when parliament resumes in November 2026 — that would specifically criminalize AI-generated sexually explicit material, fraudulent voice cloning, and digital impersonation; PNG police Assistant Commissioner Hodges Ette said cybercrime complaints, including AI-generated deepfakes, have risen sharply, but that the national Cybercrime Unit has just seven officers to cover a country of about 10 million people. Anyone who sees a public figure's photo or video being used on social media to promote a cash giveaway, prize, or investment opportunity is advised to treat it as fraudulent regardless of how convincing the image looks, to verify any such promotion only through the person's own confirmed official account, and to never send money to claim a prize or giveaway payout.`,
+    categorySlug: 'ai-deepfake-scams',
+    alertLevel: 'high',
+    sources: ['RNZ Pacific', 'ABC News'],
+    sourceUrl: 'https://www.rnz.co.nz/news/pacific/759286/papua-new-guinea-moves-to-outlaw-ai-deepfakes-as-victims-call-for-more-protection',
+    country: 'PG',
+  },
+);
