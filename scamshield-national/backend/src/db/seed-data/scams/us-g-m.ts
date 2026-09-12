@@ -6896,3 +6896,17 @@ UsGM.push({
     isHistorical: true,
     firstRecorded: '2014-01-01',
 });
+
+UsGM.push({
+    name: 'Portage Cable and Satellite Telemarketing Fraud (Irfan Gill)',
+    slug: 'michigan-portage-gill-telemarketing-cable-satellite-fraud',
+    description: `Irfan Gill, 63, of Portage, Michigan, partnered with a call center in Pakistan that, from June 2018 through March 2022, called more than 1,500 mostly elderly Americans posing as their cable or satellite TV provider and offered a discounted "upgrade" or subscription deal, sometimes threatening that service would be cut off if the victim didn't act. Callers directed victims to mail checks and money orders to post office boxes Gill kept in Portage; Gill then deposited the payments into bank accounts opened under a rotating cast of fake business names — including Cable Upgrade, D Network, D Tech, Direct Network, Dish, Dish Upgrade, and Sky Satellite — that had no connection to any real cable or satellite provider, wired a cut to the Pakistan-based callers, and kept the rest. No upgrade or discount was ever actually provided. Gill was convicted at trial of seven counts of mail fraud and eleven counts of money laundering, and on November 15, 2024 a federal judge sentenced him to eight years in prison and ordered him to pay $561,980.27 in restitution; prosecutors separately noted he had fraudulently obtained a Paycheck Protection Program loan of more than $20,000 for one of the fake companies during the pandemic. A real cable or satellite provider's billing and retention offers come through the account a customer already has with that company, never through a caller asking for payment by mail to a P.O. box under an unfamiliar company name; anyone offered a "loyalty discount" or "upgrade" this way should hang up and call the number on their own bill to check the account directly.`,
+    categorySlug: 'utility-scams',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office, Western District of Michigan", 'WDIV ClickOnDetroit'],
+    sourceUrl: 'https://www.clickondetroit.com/news/local/2024/11/18/michigan-man-gets-8-years-in-prison-for-telemarketing-fraud-must-pay-560k-in-restitution/',
+    country: 'US',
+    state: 'MI',
+    isHistorical: true,
+    firstRecorded: '2018-06-01',
+});
