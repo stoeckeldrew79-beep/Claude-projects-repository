@@ -6910,3 +6910,17 @@ UsGM.push({
     isHistorical: true,
     firstRecorded: '2018-06-01',
 });
+
+UsGM.push({
+    name: 'Korean Air Lines Guam Office Manager Embezzlement (Sung Peel Hwang)',
+    slug: 'guam-korean-air-lines-hwang-embezzlement-bank-fraud',
+    description: `Sung Peel Hwang, a 39-year-old naturalized U.S. citizen originally from South Korea, worked as an administrator in the Korean Air Lines (KAL) office at Guam International Airport, where his duties included reporting the airline's passenger counts to the Guam International Airport Authority (GIAA), paying the Passenger Facility Charge (PFC) KAL owed on those passengers, and serving as a co-signatory on KAL Guam's business checking account at the Bank of Guam. From September 2015 through December 2018, Hwang used that access two ways at once: he underreported KAL's actual passenger numbers to GIAA so the airline paid less PFC than it legally owed and kept the difference, and, separately, he moved company funds through the KAL Guam checking account into his own personal account, ultimately depositing more than $3.5 million in KAL funds into accounts he controlled and diverting over $600,000 of that to his own personal use. A federal grand jury indicted Hwang on bank fraud and money laundering charges, and he was sentenced to 41 months in federal prison and five years of supervised release, and ordered to pay $615,271.51 in restitution. U.S. Attorney Shawn N. Anderson said plainly that "Hwang cheated his employer and GIAA out of a substantial sum of money." The case is a reminder that an employee trusted with both a company's regulatory reporting and its bank account signing authority can defraud two different parties — the airport authority collecting a public fee and the company itself — through the very same access, and that any business that lets one administrator both file a regulatory report and control the checkbook it feeds into should have a second person independently reconcile the two rather than trust one employee's numbers on both ends.`,
+    categorySlug: 'business-email-compromise',
+    alertLevel: 'medium',
+    sources: ["U.S. Attorney's Office, District of Guam and the Northern Mariana Islands", 'Marianas Variety', 'Internal Revenue Service Criminal Investigation'],
+    sourceUrl: 'https://www.mvariety.com/news/regional_world/former-korean-air-lines-guam-office-manager-sentenced-to-41-months-imprisonment-for-bank-fraud/article_4d5eaae8-0c41-11ef-ba5d-3b18264c745f.html',
+    country: 'US',
+    state: 'GU',
+    isHistorical: true,
+    firstRecorded: '2015-09-01',
+});
