@@ -8712,3 +8712,24 @@ Levitt's scheme is a reminder that a promissory note routed through a company an
     sourceUrl: 'https://flofr.gov/enforcement/case-updates/case-details/fort-myers-man-sentenced-to-five-years-in-prison-for-promissory-note-scam',
   },
 );
+
+NotoriousAF.push(
+  {
+    title: "Fabrisio Arias and the Costa Rica Call Center's Fake IRS Refund Overages",
+    slug: 'fabrisio-arias-costa-rica-refund-overage-money-laundering',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/San_Diego,_2016_-_302.jpg?width=1200',
+    coverImageCredit: 'Photo: Another Believer, Wikimedia Commons (CC BY-SA 4.0) — the federal courthouse in San Diego, where Fabrisio Arias was prosecuted',
+    coverImagePosition: 50,
+    body: `Fabrisio Arias, 46, of Fontana, California, was the U.S.-based end of a fraud that started with a phone call from Costa Rica. According to the U.S. Attorney's Office for the Southern District of California, co-conspirators working out of a Costa Rican call center placed unsolicited calls to elderly Americans using spoofed caller ID, told them they had won a sweepstakes prize, and said a tax or processing fee had to be paid before the winnings could be released — a version of the sweepstakes lie that has been run by call centers in that country for years, with a large enough case volume that the Justice Department's Elder Justice Initiative treats it as a recurring pattern rather than an isolated scheme.
+
+Arias's role was to receive the money once a victim had been convinced to send it. Prosecutors say victims mailed or wired payments to his home in Fontana, and Arias then moved the proceeds through his own U.S. bank accounts, at times under false names, before sending the bulk of it on to the Costa Rica-based organizers — laundering roughly $237,000 of the more than $395,000 the scheme took in while keeping approximately $157,000 for himself. Between November 2020 and September 2022, the conspiracy defrauded at least 22 identified victims this way.
+
+Arias pleaded guilty to conspiracy charges arising from the scheme, and on February 8, 2025, U.S. District Judge Jinsook Ohta sentenced him to 41 months in federal prison and ordered him to pay $395,536.05 in restitution to his victims. U.S. Attorney Tara McGrath's office, which prosecuted the case with the U.S. Postal Inspection Service investigating, credited the Justice Department's Elder Justice Initiative for its role in the case. "If it seems too good to be true, it probably is," McGrath said in announcing the sentence — a warning aimed less at the fee itself than at the entire premise underneath it, since no legitimate sweepstakes ever requires a winner to pay before collecting a prize.
+
+Arias never spoke to a single victim by phone; his entire function in the scheme was domestic — a mailing address and a set of bank accounts that let money raised by a false promise made from another country land somewhere a Costa Rican organizer couldn't easily reach on his own. That division of labor is what U.S. money-laundering and mail-fraud statutes are built to reach: prosecutors did not need to extradite anyone to hold the American half of an overseas call center's operation accountable for what it collected.`,
+    sourceUrl: 'https://www.justice.gov/usao-sdca/pr/man-sentenced-sweepstakes-scam-targeting-elderly',
+  },
+);
