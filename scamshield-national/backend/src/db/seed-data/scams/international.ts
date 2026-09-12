@@ -8456,6 +8456,54 @@ The individual case sits inside a much larger enforcement problem: after the 202
     country: "HR",
   },
   {
+    name: "BitLucky Cryptocurrency Trading Fraud (Rijeka)",
+    slug: "croatia-bitlucky-cryptocurrency-trading-fraud",
+    description:
+      "Rijeka-based cryptocurrency trading firm BitLucky, run by director Luka Burazer together with procurist Eugen Travalja and company secretary Vedrana Golušin, took in investor money between March 26, 2018 and May 31, 2023 under contracts that promised both the guaranteed return of the full principal and a fixed additional profit on demand, in what Croatian prosecutors and media have since called the largest cryptocurrency fraud in the country's history. Investors handed over cash, bank transfers, and cryptocurrency sent directly to company-controlled digital wallets on the understanding that BitLucky would trade the funds on their behalf, but according to the indictment the defendants instead used much of the money for their own purposes, occasionally returning partial payments to individual investors to keep the scheme's reputation intact while continuing to take in new deposits. When clients began asking for their promised withdrawals and were refused or stalled, dozens filed criminal complaints, and police arrested Burazer, Travalja, and Golušin in November 2023, seizing computers, cold wallets, and financial records from company premises and residential addresses. The Rijeka Municipal State Attorney's Office filed a formal indictment against the trio on February 18, 2025, alleging at least 220 identified victims and damages of at least €4.6 million. The case illustrates a recurring pattern in unregulated crypto-investment schemes: a minimum buy-in requirement, a contractually promised fixed return regardless of market conditions, and small \"proof of life\" payouts to early or vocal investors, all used to keep new money flowing in long after a scheme has stopped generating any real trading profit.",
+    categorySlug: "cryptocurrency-scams",
+    alertLevel: "critical",
+    sources: ["Rijeka Municipal State Attorney's Office","tportal","Novi list"],
+    sourceUrl: "https://www.tportal.hr/crna-kronika/clanak/optuznica-zbog-najvece-kriptoprijevare-u-hrvatskoj-trojac-izvukao-4-6-milijuna-eura-20250218",
+    country: "HR",
+    firstRecorded: "2023-11-15",
+  },
+  {
+    name: "Fake HANFA/ECB \"Fund Release Fee\" Letter Scam (Horizons 28)",
+    slug: "croatia-hanfa-ecb-fake-letter-fund-release-fee-scam",
+    description:
+      "Croatia's Financial Services Supervisory Agency (HANFA) issued a public warning on July 24, 2025, about forged letters circulating in the name of HANFA itself, the European Central Bank, and an entity impersonating Croatia's national payment institution FINA, all used to squeeze further payments out of people who had already invested through the fraudulent online trading platform Horizons 28. The letters, printed on convincing letterhead and carrying falsified signatures of actual sitting HANFA Board members, tell recipients that their invested funds and any profit shown on their account are being held pending payment of a supposed \"tax,\" \"insurance,\" or release \"fee,\" typically demanded on a tight, artificially urgent deadline and referencing the victim's own IBAN to make the letter appear personally verified. HANFA confirmed the correspondence is entirely fraudulent, noting that none of the impersonated institutions has any role in releasing funds from a private trading account and that genuine regulatory correspondence never demands a payment as a condition of returning an investor's own money. The agency said this recovery-fee pattern recurs constantly under different platform names and letterheads, and pointed victims to its own public register of licensed intermediaries, its investor-warning list of unauthorized platforms, and its consumer hotline, urging anyone who receives such a letter to independently verify it by phone with HANFA before paying anything, since a second round of losses to a fake \"regulator\" chasing recovery of a first, already-lost investment is one of the most common follow-on frauds practiced against Croatian investors.",
+    categorySlug: "government-impersonation",
+    alertLevel: "high",
+    sources: ["Hrvatska agencija za nadzor financijskih usluga (HANFA)"],
+    sourceUrl: "https://www.hanfa.hr/consumers/warnings/hanfa-warns-of-the-use-of-fraudulent-letters-from-hanfa-and-other-institutions-in-investment-scams/",
+    country: "HR",
+    firstRecorded: "2025-07-24",
+  },
+  {
+    name: "Dubrovnik \"American Servicewoman\" Inheritance Romance Scam",
+    slug: "croatia-dubrovnik-american-servicewoman-inheritance-romance-scam",
+    description:
+      "The Dubrovnik-Neretva Police Administration confirmed in early 2023 that a 57-year-old local man had reported losing €4,650 after being drawn into an online romance with a social-media profile claiming to be an American woman stationed with her military father in Syria. After weeks of intensifying messages, the woman told the victim she planned to travel to Croatia to \"legalize their relationship,\" then announced that her father had been killed in the conflict and had left behind USD 200,000 that she wanted transferred into the victim's own bank account for safekeeping — with his agreement secured, the conversation was handed off to a supposed \"agent\" tasked with physically bringing the inheritance into Croatia. That agent twice told the victim he first needed to cover customs clearance costs on the incoming cash, and the man wired a combined €4,650 before the same agent asked for a third such payment, at which point he realized he had been defrauded and went to police rather than paying again. Investigators say the handoff from a romantic contact to a second, more businesslike \"agent\" or \"lawyer\" character who introduces a fee before any money can move is one of the most consistent structural markers of this style of fraud, and note that no legitimate courier, bank, or customs process ever requires the recipient of an inheritance or gift to pay a fee out of pocket before the funds arrive.",
+    categorySlug: "romance-scams",
+    alertLevel: "medium",
+    sources: ["Dubrovnik-Neretva Police Administration","Total Croatia News"],
+    sourceUrl: "https://total-croatia-news.com/lifestyle/internet-scams/",
+    country: "HR",
+    firstRecorded: "2023-02-01",
+  },
+  {
+    name: "Fake Croatian National Bank (HNB) Euro Exchange Phone Scam",
+    slug: "croatia-hnb-fake-bank-euro-exchange-phone-scam",
+    description:
+      "The Croatian National Bank (Hrvatska narodna banka, HNB) issued a public warning on February 17, 2025, after receiving reports that fraudsters were phoning citizens, mostly older residents, and falsely claiming to call on behalf of the central bank. The callers asked victims about their income and offered to exchange leftover Croatian kuna banknotes for euros, or told them that euro banknotes issued before 2020 were being phased out and needed to be replaced, in both cases working toward getting a victim to hand over cash or personal financial details, sometimes by proposing an in-person \"verification\" visit to the victim's home. HNB stated flatly that it never contacts citizens by phone to verify personal data or arranges home visits to exchange currency, and that every euro banknote already in circulation, regardless of its printing date, remains fully valid legal tender with no series ever withdrawn or requiring exchange. The bank's statement came just over two years after Croatia's January 2023 changeover from the kuna to the euro, a transition period during which residents grew accustomed to genuine currency-exchange announcements and instructions from banks and post offices, leaving many primed to trust a caller who invokes that same changeover process even years after it concluded. HNB urged anyone contacted this way to hang up and report the call to police, and stressed that no bank, least of all the central bank itself, needs to phone a customer to tell them their money is no longer valid.",
+    categorySlug: "government-impersonation",
+    alertLevel: "medium",
+    sources: ["Hrvatska narodna banka (HNB)"],
+    sourceUrl: "https://www.hnb.hr/en/-/cnb-warns-of-fraud-attempts",
+    country: "HR",
+    firstRecorded: "2025-02-17",
+  },
+  {
     name: "Kampala Fake Gold Refinery Fraud",
     slug: "uganda-kampala-fake-gold-refinery-fraud",
     description:
