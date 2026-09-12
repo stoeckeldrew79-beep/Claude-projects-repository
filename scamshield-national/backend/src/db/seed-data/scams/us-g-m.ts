@@ -5958,3 +5958,211 @@ UsGM.push({
     country: 'US',
     state: 'MD',
 });
+
+UsGM.push({
+    name: 'Houston Immigration Attorney Client-Fund and Fake Case-Number Fraud',
+    slug: 'houston-immigration-attorney-fake-case-number-fraud',
+    description: `Alla Nowowiejski, 44, a licensed Houston immigration attorney, was arrested and indicted on federal mail fraud and false-statement charges after Harris County Constable Precinct 1 detectives determined that more than 100 clients had been victimized by her practice. Prosecutors allege clients paid Nowowiejski to prepare and file work-visa petitions and immigration-status adjustment applications, but she often submitted only partial paperwork — or none at all — while feeding clients fabricated case reference numbers tied to unrelated, real immigration matters so they would believe their applications were actively being processed with U.S. Citizenship and Immigration Services. In at least one instance detailed in the indictment, she also had clients submit medical records to USCIS that were not actually required and that contained materially false statements. The scheme first surfaced publicly in a 2023 civil lawsuit filed by an employer, Audubon Engineering Operations, after Nowowiejski failed to properly handle immigration cases for five of its employees and did not respond to the suit, resulting in a default judgment against her; the federal criminal case followed after Harris County Constable Alan Rosen's office fielded a wave of additional complaints. She made her initial federal court appearance on September 9, 2026, and faces up to 20 years in prison and a $250,000 fine if convicted. Constable Rosen urged any additional victims, regardless of immigration status, to contact his office at 713-755-5200. Because a real attorney's license does not guarantee a case is actually being worked, clients who paid for immigration filings are advised to independently confirm any case or receipt number directly through USCIS's own case-status tool at uscis.gov rather than trusting a number or screenshot supplied by the attorney, and to request copies of every document filed on their behalf.`,
+    categorySlug: 'legal-debt-collection',
+    country: 'US',
+    state: 'TX',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office for the Southern District of Texas", 'Harris County Constable Precinct 1', 'ABC13 Houston'],
+    sourceUrl: 'https://www.justice.gov/usao-sdtx/pr/immigration-attorney-arrested-alleged-fraud-scheme',
+});
+
+UsGM.push({
+    name: 'Missouri Case.net Court-Records Spoofing Malware Scam',
+    slug: 'missouri-casenet-spoofing-malware-scam',
+    description: `The Supreme Court of Missouri warned attorneys and the public on March 18, 2026 about a cluster of fraudulent websites — including casenetmo.us, mo-casenet.us, casenetmo.net, mo-case.net, and casenetmonet.website3.me — built to mimic the appearance and name of Case.net, the state judiciary's real, free online court-records lookup system. Anyone who lands on one of the spoofed sites and tries to search for a case is confronted with a fake virus-detection warning designed either to scare the visitor into calling a bogus "support" number or to serve actual malware to their device, rather than any real Missouri case information. Beth Riggert, the Missouri Supreme Court's communications counsel, said "the public is urged not to use this website, as attempting to do so may produce a message warning a virus has been detected," and the court referred the matter to law enforcement while asking anyone who encounters one of the lookalike sites to report it to the State Courts Administrator's Help Desk. Because the fake domains are close misspellings or variations of the real casenet.courts.mo.gov address and can surface through ordinary search-engine results, Missourians and out-of-state attorneys searching for a Missouri case should type or bookmark the official courts.mo.gov domain directly rather than clicking a search result or a link shared by someone else, and should treat any "virus detected" pop-up on a court-records site as a sign the page itself is fraudulent.`,
+    categorySlug: 'government-impersonation',
+    country: 'US',
+    state: 'MO',
+    alertLevel: 'medium',
+    sources: ['Missouri Supreme Court', 'Missouri Lawyers Media'],
+    sourceUrl: 'https://molawyersmedia.com/2026/03/19/missouri-court-casenet-spoof-scam-warning/',
+});
+
+UsGM.push({
+    name: 'New Iberia Staged Garbage Truck Crash Insurance Fraud Ring',
+    slug: 'louisiana-new-iberia-staged-garbage-truck-crash-insurance-fraud',
+    description: `Four New Iberia, Louisiana residents — Rayshonte Oppenheimer, 29, Briannie Butler, 32, Passion Keal, 24, and Quandalyn Bernard, 33 — were arrested after the Louisiana State Police Insurance Fraud/Auto Theft Unit determined they had submitted false statements during the claims process following a 2025 crash involving a Pelican Waste & Debris garbage truck, seeking a payout investigators say could have totaled approximately $4 million had the claims succeeded. The investigation opened after a criminal referral from Timber Creek Insurance Services and the Louisiana Department of Insurance's Fraud Division, which flagged the claims as suspicious before any money went out. Investigators obtained arrest warrants for all four between April 30 and May 1, 2026, charging each with felony automobile insurance fraud; all four were arrested or turned themselves in and were booked into the Iberia Parish Jail. Louisiana State Police noted in announcing the arrests on May 26, 2026 that "insurance fraud is a serious criminal offense that increases costs for consumers and businesses throughout the state," since inflated or fabricated claims like this one ultimately raise premiums for every policyholder even when, as here, the fraud is caught before a payout is made. The case is a reminder that a legitimate crash claim is built on documented, verifiable injuries and damage tied to the actual collision, and that insurers and state fraud investigators routinely cross-check claimants' statements, medical records, and damage estimates against the specifics of a reported crash — inconsistencies of the kind that unraveled this scheme are what insurance fraud units are specifically trained to catch. Anyone with information about suspected insurance fraud in Louisiana can report it to the Louisiana Department of Insurance's Fraud Division.`,
+    categorySlug: 'insurance-fraud',
+    country: 'US',
+    state: 'LA',
+    alertLevel: 'medium',
+    sources: ['Louisiana State Police', 'Louisiana Department of Insurance'],
+    sourceUrl: 'https://lsp.org/community-outreach/news/four-arrested-in-multi-million-dollar-insurance-fraud-scheme/',
+    isHistorical: true,
+    firstRecorded: '2026-05-26',
+});
+
+UsGM.push({
+    name: 'C4D Contract-for-Deed Scheme Targeting Somali Muslim Homebuyers',
+    slug: 'minnesota-c4d-somali-muslim-contract-for-deed-scheme',
+    description: `Minnesota Attorney General Keith Ellison sued St. Cloud-based C4D, LLC and Five Points Properties, LLC, along with co-owners Travis Benoit and Steven Legatt, in Hennepin County District Court on September 11, 2026, alleging the companies deliberately marketed predatory "contracts for deed" to Minnesota's roughly 80,000-strong Somali Muslim community by falsely presenting the arrangement as interest-free financing compliant with Islamic prohibitions on interest. Under a contract for deed, a buyer makes payments directly to the seller without receiving legal title until the full price is paid off — and the complaint alleges C4D exploited that structure by first buying homes with conventional mortgages, then reselling the same properties the same day at dramatically inflated prices, in one example flipping a $399,900 home for $931,950, a $532,050 same-day markup. To build trust, the companies allegedly used a Somali community liaison to recruit buyers and collect payments, featured a local imam and a Somali singer in their marketing, and promoted the company's donations toward a mosque and a charter school. Buyers were left facing balloon payments as high as $77,475 a year or a final payment of $220,000 on a $541,200 contract; more than two-thirds of C4D's roughly 74 customers ended up applying for COVID-era homeowner assistance — five times the rate of other Minnesota contract-for-deed companies — and the contracts failed at roughly 20 times the national foreclosure rate. The Attorney General's office described contracts for deed generally as "poor man's mortgages that combine the obligations of homeownership with the disadvantages of renting," and the lawsuit seeks restitution for affected buyers along with civil penalties and injunctive relief. Minnesota law gives contract-for-deed buyers who did not receive the legally required disclosures the right to cancel the purchase and receive a full refund within five days of signing, and prospective buyers are advised to have any contract-for-deed offer independently reviewed by a housing counselor or attorney before signing, regardless of how the financing is described or who is vouching for the seller.`,
+    categorySlug: 'mortgage-foreclosure-scams',
+    country: 'US',
+    state: 'MN',
+    alertLevel: 'high',
+    sources: ["Minnesota Attorney General's Office", 'Hoodline'],
+    sourceUrl: 'https://hoodline.com/2026/09/minnesota-ag-sues-st-cloud-firm-over-contracts-that-targeted-somali-muslims/',
+    isHistorical: true,
+    firstRecorded: '2026-09-11',
+});
+
+UsGM.push({
+    name: 'Indiana "Back2Work" Unemployment Bonus Text Scam',
+    slug: 'indiana-back2work-dwd-text-scam',
+    description: `Text messages impersonating the Indiana Department of Workforce Development (DWD) tell recipients they're eligible for a $3,800 payment for returning to work, through a program the messages call "Back2Work," and claim the money will be direct deposited as soon as the recipient clicks an included link. The texts arrive from an out-of-state area code but contain a link designed to look like it leads to an official State of Indiana page, and clicking it risks installing malware that can expose the personal information stored on the recipient's device. The Better Business Bureau serving Central and Northern Indiana and the Indiana Department of Workforce Development both issued public warnings confirming the "Back 2 Work" program does not exist and that DWD never contacts residents by text message at all — legitimate identity verification for a claim only happens through the state's ID.me portal. "If you receive a text from the Indiana Dept of Workforce Development do not click" the link, BBB spokeswoman Jennifer Adamany said, advising recipients to delete the message immediately rather than reply, since responding confirms to scammers that the number is active. Anyone who receives the text is encouraged to avoid clicking any link, delete it without replying, and report it to BBB Scam Tracker at BBB.org/ScamTracker or to the FTC at ReportFraud.ftc.gov.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'medium',
+    sources: ['Better Business Bureau', 'Indiana Department of Workforce Development'],
+    sourceUrl: 'https://www.wrtv.com/news/wrtv-investigates/new-twist-on-dept-of-workforce-development-text-message-scam',
+    country: 'US',
+    state: 'IN',
+});
+
+UsGM.push({
+    name: 'Minnesota Department of Revenue Tax Refund Text Scam',
+    slug: 'minnesota-department-of-revenue-tax-refund-text-scam',
+    description: `The Minnesota Department of Revenue issued a public warning on September 17, 2025 about fraudulent text messages impersonating the department, which tell recipients "Your refund request has been processed and approved. Please provide accurate payment information by [DATE]..." followed by a link to a fake site designed to capture bank account or card details before a fabricated deadline. The department confirmed the messages are not from Revenue and stressed that its own systems and taxpayer data remain secure — any real text message a taxpayer receives from the department is purely informational or a two-factor login code for its e-Services portal, and will never ask a recipient to click a link to claim a refund or make a payment. Minnesota's Attorney General's office has separately warned about impersonation scams targeting the state's unemployment insurance applicants using the same playbook: a message claims an account has been "de-activated" and directs the recipient to call a number and hand over debit card numbers and PINs to "reactivate" it, even though the state's unemployment insurance program never contacts claimants by text or social media at all. Minnesotans who receive a suspicious refund text are advised not to click the link, to delete the message and report it as spam, and to contact their bank immediately if they already entered information; questions about a real refund's status can be confirmed only by logging into the department's own website directly, not through a message.`,
+    categorySlug: 'tax-scams',
+    alertLevel: 'medium',
+    sources: ['Minnesota Department of Revenue'],
+    sourceUrl: 'https://www.revenue.state.mn.us/press-release/2025-09-17/department-revenue-warns-text-message-scam-impacting-minnesotans',
+    country: 'US',
+    state: 'MN',
+    isHistorical: true,
+    firstRecorded: '2025-09-17',
+});
+
+UsGM.push({
+    name: 'Kansas Department of Revenue Fake Traffic Ticket Text Scam',
+    slug: 'kansas-department-of-revenue-fake-traffic-ticket-text-scam',
+    description: `The Kansas Department of Revenue (KDOR) issued a warning on March 6, 2026 about text messages impersonating the department that claim the recipient has an outstanding traffic violation ticket, cite a fabricated legal reference — "rule 16C-16.003" — and demand payment by a set deadline, in this instance March 7, 2026, threatening that failure to pay will result in driver's license suspension, vehicle registration suspension, further legal action, and damage to the recipient's credit. "This is a scam and anyone who received it should delete the text without responding or clicking on any links," the department said. KDOR's own fraud-alert page describes a related family of impersonation calls and texts in which a caller claims the recipient owes back taxes and threatens that police are "ready to come to your residence or work and arrest you" unless payment is made immediately on a cash card, and separately warns that some texts falsely claim an unpaid toll is owed even though the Department of Revenue does not collect tolls. KDOR states it will never threaten a resident with police or jail over the phone or demand payment by cash card, and that any real notice about a driver's license, vehicle registration, or tax balance arrives by mail. Kansans who receive one of these messages are advised to delete it without clicking any link, to verify any claimed balance by contacting KDOR directly at (785) 296-3671 or through its own website, and to report the scam at ReportFraud.ks.gov.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Kansas Department of Revenue', 'KWCH'],
+    sourceUrl: 'https://www.kwch.com/2026/03/06/kansas-department-revenue-issues-warning-regarding-text-scam/',
+    country: 'US',
+    state: 'KS',
+    isHistorical: true,
+    firstRecorded: '2026-03-06',
+});
+
+UsGM.push({
+    name: 'Kalshi "Prediction Market" Unlicensed Gambling Scheme',
+    slug: 'kalshi-prediction-market-unlicensed-gambling-scheme',
+    description: `New York Governor Kathy Hochul and Attorney General Letitia James announced on July 31, 2026 that the state had sued KalshiEX LLC, operator of the "prediction market" app Kalshi, alleging it runs an illegal, unlicensed gambling operation disguised behind the label "trading" rather than betting. The lawsuit, filed in Manhattan state court, followed an Office of the Attorney General investigation finding that Kalshi lets users wager real money on the outcome of sports games, elections, and other future events without the state gambling license, age verification, or problem-gambling safeguards New York law requires of licensed sportsbooks — including access by users as young as 18, three years below the state's 21-and-over minimum for mobile sports betting. Kalshi has marketed itself since expanding into sports "trading" in 2025 as a federally regulated financial exchange legally available in all 50 states because it operates under the Commodity Futures Trading Commission rather than as a state-licensed sportsbook, a framing James rejected directly: "No matter what they call themselves, prediction markets like Kalshi are gambling platforms, plain and simple." Hochul added that Kalshi "has chosen to ignore New York's gaming laws, which exist to protect consumers, prevent problematic gambling, deliver funding for critical public services, and ensure that every company plays by the rules." The lawsuit asks the court to order Kalshi to forfeit its illegal gains, pay restitution to affected New York consumers, and pay a penalty equal to three times those gains; New York is one of several states, along with a growing number of tribal gaming regulators, taking similar legal action against Kalshi and comparable platforms like Polymarket, which runs on cryptocurrency rather than a bank-linked account and carries the same lack of licensed consumer protections. Anyone using a prediction-market app is advised to first confirm through the New York State Gaming Commission whether the platform is actually licensed to offer sports wagering in New York, to treat a "prediction market" or "event contract" framing as marketing rather than proof the product isn't gambling, and to report a suspected illegal gambling operation to the Attorney General's Office online at ag.ny.gov or by calling 1-800-771-7755.`,
+    categorySlug: 'lottery-sweepstakes-scams',
+    alertLevel: 'medium',
+    sources: ['New York Office of the Attorney General', 'Office of Governor Kathy Hochul'],
+    sourceUrl: 'https://ag.ny.gov/press-release/2026/governor-hochul-and-attorney-general-james-announce-new-york-has-sued-kalshi',
+    country: 'US',
+    state: 'NY',
+    isHistorical: true,
+    firstRecorded: '2026-07-31',
+});
+
+UsGM.push({
+    name: 'Milan-Cortina 2026 Winter Olympics Ticket and Travel Scam',
+    slug: 'milan-cortina-2026-olympics-travel-scam',
+    description: `Ahead of the February 2026 Winter Olympics in Milan and Cortina d'Ampezzo, Italy, the FTC issued a consumer alert on January 9, 2026 warning American travelers about three scams converging on the Games. Unauthorized resellers advertised Olympic tickets on social media, marketplace sites, and lookalike storefronts even though tickets are sold only through the official Milano Cortina 2026 organizing committee's own site, with brokers on unofficial channels reportedly marking tickets up as much as 600% above face value; security researchers separately identified close to 20 fraudulent websites mimicking the official Olympic merchandise store's exact template, down to the same promotional video and background music. Fraudulent websites impersonating the U.S. Department of State or Italian consular services charged inflated fees for a visa or expedited passport processing that a U.S. citizen visiting Italy for under 90 days doesn't actually need. And vacation-rental scams duplicated real Milan- and Cortina-area listings under a different contact email, reposted stolen listing photos on an unaffiliated platform, or advertised a property that didn't actually exist or was never available for the dates offered. The FTC's advice: buy tickets only through the official milanocortina2026.org domain and its hospitality site, verify any vacation rental by independently searching its address and photos before sending a deposit, confirm passport and visa requirements directly through the State Department's own travel.state.gov site rather than a search ad or unsolicited email, and pay by credit card wherever possible for the fraud-dispute protection it offers over a wire transfer or cash payment. The same pattern — unauthorized ticket resale, cloned official storefronts, and duplicated rental listings — recurs around any major international event and is worth watching for ahead of future Games or tournaments held abroad.`,
+    categorySlug: 'travel-vacation-scams',
+    alertLevel: 'medium',
+    sources: ['Federal Trade Commission (FTC)'],
+    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2026/01/traveling-olympics-italy-heres-how-avoid-scam',
+    country: 'US',
+});
+
+UsGM.push({
+    name: 'Guam Department of Revenue and Taxation WhatsApp Impersonation Scam',
+    slug: 'guam-drt-whatsapp-impersonation-scam',
+    description: `Guam's Department of Revenue and Taxation (DRT) warned taxpayers on August 18, 2026 about a scammer contacting residents over WhatsApp from the number 671-707-0559, falsely claiming to be a former DRT official in an attempt to extract personal information and money. DRT stated plainly that "the department does not contact taxpayers via WhatsApp, or any other instant messaging application," and that it has no off-island number used for taxpayer contact — a legitimate notice from the agency arrives by postal mail, and any phone or email contact from an actual employee comes only from the department's own published office numbers and email addresses. Guam residents who receive a message like this are advised not to send money or personal information, to verify any claimed DRT matter by calling the department directly at 671-635-1835 or 671-635-1836, and to report the attempt by emailing pinadmin@revtax.guam.gov.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Guam Department of Revenue and Taxation', 'Isla Public Radio (KPRG)'],
+    sourceUrl: 'https://www.islapublic.org/news/2026-08-18/rev-and-tax-warns-about-scam-using-whatsapp-to-contact-taxpayers',
+    country: 'US',
+    state: 'GU',
+});
+
+UsGM.push({
+    name: 'Homework Helper Extortion Scam',
+    slug: 'homework-helper-extortion-scam',
+    description: `A student — often a college freshman or a high schooler under pressure from a hard class — finds an online "tutor" or homework-help service through a search ad or social media post advertising help completing an assignment rather than teaching the material, and pays a few hundred dollars upfront for help with a math, coding, or other technical assignment. Instead of delivering finished work, the "tutor" comes back demanding more money, sometimes claiming the assignment required extra "research" or a higher tier of service, and when the student balks or can't pay, the scammer threatens to email the student's school and report them for academic cheating — a threat calibrated to work specifically because the student can't report the scam without admitting what they hired someone to do. The Better Business Bureau, which first documented the pattern in a July 2024 scam alert, says victims describe paying the scammer "1,000s of dollars so they dont screw their future" rather than risk expulsion over a professor finding out. The scheme resurfaces every fall: Wisconsin's BBB flagged it again in a September 2026 back-to-school advisory listing "exam prep" services that "threaten to report [students] for cheating to their institution" as one of the season's most common scams, often blended with fake SAT/ACT test-prep outreach that already has a student's name and school to sound credible. The BBB advises getting any tutoring help through a school's own tutoring center or a personal referral with real, checkable references, agreeing on the full scope and total price in writing before any work begins, and treating a "pay more or we tell your school" message as an empty threat to report to BBB Scam Tracker rather than one worth paying to silence.`,
+    categorySlug: 'student-loan-education',
+    alertLevel: 'medium',
+    sources: ['Better Business Bureau (BBB)'],
+    sourceUrl: 'https://www.bbb.org/article/news-releases/24032-bbb-scam-alert-students-hire-homework-help-and-end-up-in-extortion-con',
+    country: 'US',
+});
+
+UsGM.push({
+    name: 'Miami Fine Art Gallery Forged Warhol Authentication Scheme',
+    slug: 'miami-fine-art-gallery-forged-warhol-authentication-scheme',
+    description: `Leslie Roberts, the owner of Miami Fine Art Gallery on Commodore Plaza in Coconut Grove, Florida, sold buyers artwork he represented as genuine Andy Warhol pieces, backing up the claim with fabricated invoices stating he had purchased the works directly from the Andy Warhol Foundation for the Visual Arts and with in-person "authentication" visits staged to look like an independent expert review. According to a federal factual proffer, Roberts paid Carlos Miguel Rodriguez Melendez $5,500 to pose as an employee of a New York auction house, printing him business cards reading "Warhol Art Appraisal Authenticator"; Rodriguez and a colleague would visit a buyer's home dressed in black outfits and white gloves, inspect the piece with theatrical care, and falsely certify it as an authentic Warhol, even though — as the proffer states — "Rodriguez was never employed by" the auction house Roberts had invented the connection to. One family, the Perlmans, sued Roberts in Miami-Dade County in August 2024 alleging they paid $6 million for a forged Warhol after he posed as a Warhol Foundation representative; the FBI raided Miami Fine Art Gallery on April 9, 2025 and arrested Roberts and Rodriguez on federal wire fraud conspiracy and money-laundering charges, with prosecutors also documenting $240,000 in transfers from the gallery's account to Roberts' personal account. Rodriguez pleaded guilty in June 2025 and was sentenced in September 2025 to one year of probation and $5,000 in restitution; Roberts, who remained free on a $250,000 bond while his own case proceeded, has denied wrongdoing through his attorney. It was not Roberts' first brush with art fraud — he served time in the 1980s for looting a relative's stock portfolio, was permanently enjoined in 2010 after selling fake work by artist Romero Britto, and was convicted again in 2015 for selling forged paintings by Peter Max — a pattern that shows a dealer's polished reputation, gallery storefront, and claimed industry pedigree are no substitute for independent verification. Buyers of high-value art or collectibles should confirm authenticity directly with the artist's foundation or estate using contact information they look up themselves, insist on independent authentication from a source they select rather than one the seller provides or arranges, and treat a dealer's own invoice, stamp, or in-house "authenticator" as no proof at all.`,
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'medium',
+    sources: ['U.S. Attorney\'s Office, Southern District of Florida', 'Miami New Times'],
+    sourceUrl: 'https://www.justice.gov/usao-sdfl/pr/coconut-grove-fine-art-dealer-indicted-federal-case-charged-wire-fraud-conspiracy-and',
+    country: 'US',
+    state: 'FL',
+    isHistorical: true,
+    firstRecorded: '2025-04-09',
+});
+
+UsGM.push({
+    name: 'Idaho DOPL Occupational Licensing Impersonation Scam',
+    slug: 'idaho-dopl-occupational-licensing-impersonation-scam',
+    description: `Idaho's Division of Occupational and Professional Licenses (DOPL), which regulates more than 250,000 licensees across 44 boards and commissions ranging from cosmetology to contracting to healthcare, posted a fraud alert warning that scammers are contacting licensees by phone and email while posing as DOPL investigators or licensing-board representatives. The callers falsely claim the licensee is under investigation for illegal activity, threaten to suspend or revoke the license unless the matter is resolved immediately, sometimes invoke a supposed federal agency or law enforcement partner to add pressure, and ask for Social Security numbers, dates of birth, payment information, or other sensitive details — often citing the licensee's real, publicly searchable license number to sound credible, since license numbers are public record rather than a secret only the real agency would know. DOPL states plainly that "our office will never contact you first to request personal information," clarifying that any identifying details it asks for come only when a licensee contacts DOPL directly, and only to verify identity for the licensee's own protection. Idaho local news reported a fresh wave of these calls and messages in August 2026 prompting the agency to reissue the warning. Anyone contacted this way is advised not to respond to the unexpected call, text, or email, to avoid clicking any link or sharing personal information, and to instead verify directly by calling DOPL's main office at 208-334-3233 or checking a license's status at edopl.idaho.gov.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Idaho Division of Occupational and Professional Licenses (DOPL)', 'KIFI Local News 8'],
+    sourceUrl: 'https://dopl.idaho.gov/pressrelease/fraud-alert/',
+    country: 'US',
+    state: 'ID',
+    isHistorical: true,
+    firstRecorded: '2025-10-02',
+});
+
+UsGM.push({
+    name: 'Malcolm Walker Fake College Football Recruiter Scam',
+    slug: 'malcolm-walker-fake-college-football-recruiter-scam',
+    description: `Malcolm Walker, 39, told families of high school football players across Georgia that he had connections to college coaches and recruiters and could arrange campus visits and face time with programs their sons were hoping to play for, then collected payment for travel and other expenses tied to trips that never happened. One victim, Phyllip Becoats, said he paid Walker roughly $1,023 for a promised trip to meet coaches and recruiters at the University of Colorado; Walker canceled it at the last minute, spent about six months making excuses for why it couldn't be rescheduled, and never returned the money. Gainesville Police arrested Walker on a theft-by-deception charge after Becoats filed a report, and once the arrest became public, police said reports poured in from other families and coaches around the state describing the same pattern — money taken for travel or "recruiting" services tied to a scholarship opportunity that was never real, with investigators estimating Walker had taken in at least tens of thousands of dollars combined. "He talks the talk, but, unfortunately, that's all he's got going for him. He's just stealing these people's money," Gainesville Police Lieutenant Kevin Holbrook said. A separate case months later in York County, Virginia accused a Malcolm Xavier Walker of taking $20,000 from another family under the same false promise of securing their son a college football scholarship, suggesting the scheme followed him across state lines. Families being approached by someone claiming private access to college coaches or recruiters — rather than working through the athlete's own high school coach and the NCAA's own recruiting calendar and rules — should be skeptical of anyone charging an upfront fee for a "guaranteed" campus visit or coach introduction, verify any claimed connection to a specific program by contacting that program's athletic department directly, and pay only by a method that can be disputed if a promised trip or introduction never materializes.`,
+    categorySlug: 'employment-scams',
+    alertLevel: 'medium',
+    sources: ['FOX 5 Atlanta'],
+    sourceUrl: 'https://www.fox5atlanta.com/news/georgia-high-school-athlete-scam-arrest-malcolm-walker',
+    country: 'US',
+    state: 'GA',
+    isHistorical: true,
+    firstRecorded: '2025-01-01',
+});
+
+UsGM.push({
+    name: 'Google Business Profile Negative Review Extortion Scam',
+    slug: 'google-negative-review-extortion-scam',
+    description: `Starting in 2025, small business owners across the country began reporting a coordinated extortion scheme built around their Google Business Profile listings: a business's previously solid star rating collapses within hours as a burst of a dozen or more fabricated one-star reviews appear at once, each describing specific but invented complaints, and shortly afterward the owner is contacted — usually through WhatsApp or another third-party messaging app, frequently from a number based in Pakistan or Bangladesh — with an offer to remove the fake reviews for a fee, along with a threat to add even more if the demand isn't paid. Los Angeles contractor Natalia Piper's previously spotless 5.0-star rating fell to 3.5 after 20 fake negative reviews hit her listing at once; she paid $250 across two payments trying to make them disappear, but the messages only stopped once she removed her cellphone number from her online listings, and Google eventually took the fake reviews down on its own. Paying rarely ends the scheme — it signals to the extortionist that the business owner is willing to pay, which tends to invite a repeat attack rather than resolve the first one. Google announced a dedicated reporting form for review-extortion attempts on November 7, 2025, alongside automated detection that can pause new reviews on a profile and alert the owner when it spots a sudden spike in spam reviews, and it advises business owners never to pay and instead to screenshot the fake reviews and any extortion messages before reporting the attack directly through Google's extortion-reporting form. This is a distinct scheme from a company suppressing its own negative reviews or buying fake positive ones — here, the business itself is the extortion victim, targeted by outside actors weaponizing its public review score against it.`,
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'high',
+    sources: ['Google', 'ConsumerAffairs'],
+    sourceUrl: 'https://blog.google/products-and-platforms/products/maps/new-ways-were-protecting-businesses-on-maps/',
+    country: 'US',
+    isHistorical: true,
+    firstRecorded: '2025-09-11',
+});
+
+UsGM.push({
+    name: 'IRS-Lookalike EIN Application Website Scam',
+    slug: 'irs-ein-lookalike-website-scam',
+    description: `Third-party websites with names like irs-ein.org, irs-ein-tax-id-number.com, and other domains that work "IRS" or "EIN" directly into their address copy the agency's seal, colors, and fonts, and even borrow the name of the IRS's own free "EIN Assistant" tool, to look like an official government portal for new business owners applying for an Employer Identification Number — a document any business, nonprofit, or trust can actually get directly from IRS.gov in a few minutes at no charge at all. After collecting a filer's name, address, Social Security number, and credit card number, these sites charge anywhere from about $79 to $300 to "process" the free federal form, and the Better Business Bureau has fielded complaints against sites including irs-ein.org describing consumers who paid and handed over personal information only to receive a fake or garbled EIN that a bank or state agency later rejected. The FTC issued a formal warning to the operators of these sites on April 1, 2025, and the BBB followed with its own consumer alert later that month, both stressing that the real IRS never charges anything for an EIN and that its only legitimate application tool lives on irs.gov. New business owners applying for an EIN are advised to type irs.gov directly into the browser's address bar rather than clicking a search ad or an emailed link, to confirm the address bar actually reads a genuine .gov domain before entering any personal or payment information, and to treat any EIN website that asks for a credit card number as a red flag on its own, since the real application has no fee to pay in the first place.`,
+    categorySlug: 'tax-scams',
+    alertLevel: 'medium',
+    sources: ['Federal Trade Commission', 'Better Business Bureau'],
+    sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2025/04/ftc-warns-operators-websites-charge-employer-identification-number-claim-affiliation-irs',
+    country: 'US',
+    isHistorical: true,
+    firstRecorded: '2025-04-01',
+});

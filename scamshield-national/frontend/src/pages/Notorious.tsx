@@ -5,8 +5,8 @@ import { useArticleCount, useInfiniteArticles } from '../hooks/useArticles';
 import { useInfiniteScroll } from '../hooks/useInfiniteScroll';
 import { useDocumentMeta } from '../hooks/useDocumentMeta';
 import { NotoriousCoverArt } from '../components/NotoriousCoverArt';
+import { CoverImage } from '../components/CoverImage';
 import { BlurFade } from '../components/magicui/blur-fade';
-import { coverImageSrc, coverImageSrcSet, COVER_SIZES } from '../utils/coverImage';
 
 // Cards fade in with a slight stagger, but the stagger has to reset. Keyed
 // to the running index it grew without limit — card 300 waited 15 seconds
@@ -111,18 +111,16 @@ export default function Notorious() {
             >
               <div className="h-56 overflow-hidden bg-slate-100">
                 {article.cover_image ? (
-                  <img
-                    src={coverImageSrc(article.cover_image, 500)}
-                    srcSet={coverImageSrcSet(article.cover_image)}
-                    sizes={COVER_SIZES}
+                  <CoverImage
+                    src={article.cover_image}
+                    alt={article.title}
+                    slug={article.slug}
+                    position={article.cover_image_position}
                     // The first few are above the fold and worth fetching at
                     // once; the rest would otherwise all download together and
                     // queue the ones being scrolled to behind the ones behind.
-                    loading={i < 4 ? 'eager' : 'lazy'}
-                    decoding="async"
-                    alt={article.title}
+                    priority={i < 4}
                     className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
-                    style={{ objectPosition: `50% ${article.cover_image_position}%` }}
                   />
                 ) : (
                   <NotoriousCoverArt slug={article.slug} className="h-full transition-transform duration-500 group-hover:scale-105" />

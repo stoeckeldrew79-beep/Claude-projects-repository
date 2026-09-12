@@ -7326,3 +7326,221 @@ UsAF.push({
     country: 'US',
     state: 'CT',
 });
+
+UsAF.push({
+    name: 'Florida "Cut Your Debit Card" Bank Impersonation Scam',
+    slug: 'florida-indian-river-cut-debit-card-bank-impersonation-scam',
+    description: `The Indian River County Sheriff's Office warned Florida residents on August 8, 2026 about a bank-impersonation scam in which a caller claiming to be from the victim's bank's fraud department says fraudulent charges have just been attempted on the account, citing legitimate-sounding banking details to build credibility. Rather than asking for a card number over the phone, the caller instructs the victim to physically cut their debit card in half because it has supposedly been compromised, then arranges for someone to come to the victim's home shortly afterward to collect the destroyed card — a courier pickup that lets the scammer walk away with a card whose chip and magnetic stripe can still be read and exploited despite looking "cut up," while also creating a false sense that the problem has already been resolved. "STOP. HANG UP. CALL YOUR BANK DIRECTLY," the Sheriff's Office said in its alert, stressing that a real bank never sends a representative to a home to collect a card, whether intact or destroyed, and never asks a customer to hand over a card, PIN, or account information to an unsolicited caller. Residents are advised to hang up immediately on any such call and phone their bank back using the number printed on the card or a statement, never one supplied during the call, and to report the scam to IRCSO along with any doorbell or surveillance footage of the person who arrives to collect the card.`,
+    categorySlug: 'account-takeover',
+    alertLevel: 'critical',
+    sources: ["Indian River County Sheriff's Office", 'CBS12'],
+    sourceUrl: 'https://cbs12.com/news/local/ircso-warns-of-bank-impersonation-scam-targeting-residents-august-8-2026',
+    country: 'US',
+    state: 'FL',
+    isHistorical: true,
+    firstRecorded: '2026-08-08',
+});
+
+UsAF.push({
+    name: 'Freelance Creative Professional Third-Party-Forwarding Overpayment Scam',
+    slug: 'freelance-creative-professional-overpayment-scam',
+    description: `The Better Business Bureau serving Abilene and the Big Country issued a scam alert on July 15, 2026 warning photographers, videographers, graphic designers, and other creative freelancers about an overpayment scheme that dresses itself up as a normal part of the job. A fake "client" — posing as a magazine publisher, marketing firm, or brand seeking someone for a fashion editorial, promotional campaign, or event — reaches out with a professional-looking contract and an unusually generous rate, then sends payment that comes in higher than the agreed fee. Rather than asking the freelancer to simply wire back the difference, the scammer instructs them to forward the extra amount on to a supposed third-party vendor the shoot requires, such as a modeling agency, makeup artist, stylist, or event coordinator — a step that mimics how freelancers legitimately pay subcontractors out of a client advance, making the request far less suspicious than a bare "send back the overage" ask. By the time the original payment is flagged as fraudulent or the check bounces, the freelancer is out the full amount they forwarded and, in some cases, liable to their bank for the difference. BBB President and CEO Britni Casady's office listed red flags including unsolicited offers promising unusually high pay, pressure to forward money before the original payment has fully cleared, contracts with inconsistent details or grammar errors, and a client who avoids any real-time phone or video conversation. Freelancers are advised to never forward money from a client payment on to a third party, to independently verify a hiring company before accepting an assignment, and to wait until a payment has fully cleared their bank — not just posted as pending — before spending or transferring any of it.`,
+    categorySlug: 'fake-check-overpayment',
+    alertLevel: 'medium',
+    sources: ['Better Business Bureau (Abilene & the Big Country)', 'KTXS ABC'],
+    sourceUrl: 'https://ktxs.com/news/local/bbb-warns-creative-professionals-of-overpayment-scam-targeting-freelancers',
+    country: 'US',
+    isHistorical: true,
+    firstRecorded: '2026-07-15',
+});
+
+UsAF.push({
+    name: 'Freelance Platform Impostor-Worker Deposit Scam',
+    slug: 'freelance-platform-impostor-worker-deposit-scam',
+    description: `The Better Business Bureau warned businesses hiring on freelance marketplaces like Upwork, Fiverr, and Freelancer.com about scammers who create fake freelancer profiles using photos, resumes, and portfolios lifted from real working professionals, then undercut the going rate to win jobs quickly — a professional web developer's typical hourly rate, for example, listed at a fraction of that price. After a company pays an agreed deposit through the platform's payment system to start the work, the "freelancer" either disappears without delivering anything or completes only a small fraction of the job before demanding a far larger sum to continue or hand over finished files. In one case documented on BBB Scam Tracker, a client who hired a Fiverr freelancer for a $2,000 project and paid $1,000 upfront through Payoneer was told, after minimal work had been delivered, that an additional $12,000 was now required — and when the client refused and sought a refund, the freelance platform's dispute process sided with the freelancer rather than the client. The BBB advises businesses to research the standard rate for a role before hiring — a web developer offering $25 an hour, well under typical market pricing, is itself a warning sign — to require a live video call before paying anything to confirm the person is who their profile claims to be, to cross-reference a freelancer's name, photo, and portfolio against LinkedIn and other professional sites to check for a stolen identity, and to report a suspicious profile to the platform's trust-and-safety team rather than simply moving on once burned, since an unreported fake profile stays live to target the next business that searches for a freelancer.`,
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'medium',
+    sources: ['Better Business Bureau (BBB)'],
+    sourceUrl: 'https://www.bbb.org/article/scams/22645-bbb-scam-alert-hiring-freelance-help-watch-out-for-impostors',
+    country: 'US',
+    isHistorical: true,
+    firstRecorded: '2024-12-19',
+});
+
+UsAF.push({
+    name: 'Florida Department of Revenue Tax Refund Text Scam',
+    slug: 'florida-department-of-revenue-tax-refund-text-scam',
+    description: `County Clerk of Court offices across Florida — including Lake, Manatee, and Sumter counties — have issued matching public warnings about text messages and emails impersonating the Florida Department of Revenue (DOR) that tell recipients a tax refund has been "processed and approved" and ask them to click a link to submit banking information before the funds are supposedly forfeited. The messages typically originate from international phone numbers, reference deadlines or refund laws that do not actually exist, and route victims to a fake page built to harvest bank account numbers, debit card details, or Social Security numbers, which are then sold on criminal markets or used to drain the victim's accounts. The DOR states flatly that it "does not send text messages about tax refunds" and that any legitimate department correspondence about a refund arrives by mail, not by an unsolicited text or email link. The pattern is not unique to Florida — Colorado, Minnesota, Nebraska, and Delaware have each issued nearly identical warnings about scammers impersonating their own state revenue departments with the same "approved refund" lure. Floridians who receive one of these messages are advised not to click any link or reply, to verify a refund status only by logging into the DOR's own website directly, and to report the scam to the Florida Attorney General's Office at MyFloridaLegal.com or 1-866-9NO-SCAM, the Florida Department of Agriculture and Consumer Services, or the FTC at ReportFraud.ftc.gov; anyone who already entered financial information should contact their bank immediately.`,
+    categorySlug: 'tax-scams',
+    alertLevel: 'medium',
+    sources: ['Florida Department of Revenue', 'Florida Office of the Attorney General', 'Lake County Clerk of the Circuit Court & Comptroller'],
+    sourceUrl: 'https://www.lakecountyclerkfl.gov/scam-alert-florida-department-of-revenue-tax-refund/',
+    country: 'US',
+    state: 'FL',
+});
+
+UsAF.push({
+    name: 'California DRE Employee Impersonation Extortion Scam',
+    slug: 'california-dre-employee-impersonation-extortion-scam',
+    description: `The California Department of Real Estate issued a consumer alert on June 23, 2026 warning that scammers are calling both consumers and licensed real estate agents while falsely claiming to be DRE employees — a distinct scheme from agents having their name and photo stolen for fake listings, since here the callers impersonate the regulator itself. Posing as DRE staff, callers tell consumers in the middle of a home purchase or sale that the department is "attempting to resolve a commission dispute" on their transaction, or tell licensees that "pending disciplinary action" threatens their license, then rush the target with manufactured urgency, sometimes pushing the conversation to text messages, before demanding an advance fee paid by wire transfer or cash to make the supposed problem go away. The DRE states plainly that its initial contact on any real matter comes only by letter on DRE letterhead, never by an unsolicited phone call or text demanding money, and that any request for a wire transfer, cash payment, or advance fee tied to a "dispute" or "disciplinary" claim is a reliable sign of fraud. Anyone who receives a call like this is advised not to feel pressured into a quick decision, to verify independently by contacting the DRE directly through its own published contact information rather than a number the caller provides, and to confirm any concern about an actual transaction with their real estate agent before sending money.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['California Department of Real Estate (DRE)'],
+    sourceUrl: 'https://dre.ca.gov/Consumers/ConsumerAlerts/ConsumerAlert_2026_06_23_Phone_Scams_Targeting_Consumers_and_Licensees.html',
+    country: 'US',
+    state: 'CA',
+});
+
+UsAF.push({
+    name: 'DEA Agent Impersonation Scam Targeting Licensed Nurses',
+    slug: 'dea-agent-nursing-board-impersonation-extortion-scam',
+    description: `Scammers posing as U.S. Drug Enforcement Administration agents or state board investigators are calling licensed healthcare professionals — nurses first and most heavily, but the same script has also hit physicians, dentists, and respiratory care practitioners — falsely claiming the target's license is under investigation for illegal drug trafficking and is about to be suspended. The Medical Board of California's own fraud alert describes callers who spoof the Board's real toll-free number so it displays correctly on caller ID, then email or fax a fabricated "Notice of Suspension" carrying the board's letterhead and logo along with an "Agreement for the Bond and Protocols" demanding a $25,000 payment framed as a bond to keep practicing while the (nonexistent) investigation proceeds, and requiring the victim to keep the call confidential rather than checking with anyone else. Nursing boards have reported the identical playbook nationwide well into 2026: the North Dakota Board of Nursing warned licensees on July 7, 2026 about hostile-toned, spoofed calls claiming urgent action was needed to stop a license suspension, and the Kentucky Board of Nursing issued its own warning in May 2026 about callers using board-adjacent phone numbers and threats of a missed court date or a pending investigation to extract personal information and payment. Every board involved says the same thing: staff and investigators never call demanding money, bank account information, or immediate payment to resolve a licensing matter, and a real investigation is never kept secret from the licensee's own verification. Anyone who gets a call like this should hang up, independently verify their license status through the board's own online verification portal, and report the call directly to the board using a phone number looked up separately — never one the caller supplies — rather than to any "investigator" on the line.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Medical Board of California', 'California Board of Registered Nursing', 'North Dakota Board of Nursing', 'Kentucky Board of Nursing'],
+    sourceUrl: 'https://www.mbc.ca.gov/News/Fake-DEA-Agents.aspx',
+    country: 'US',
+});
+
+UsAF.push({
+    name: 'Fake Rental Listings Targeting Military PCS Moves',
+    slug: 'fake-rental-listing-military-pcs-move-scam',
+    description: `The FTC issued a consumer alert on July 13, 2026 focused specifically on how rental-listing scams prey on service members during a Permanent Change of Station (PCS) move, a situation that combines a hard relocation deadline, a search often conducted entirely online from the current duty station, and unfamiliarity with the new area — exactly the conditions that make a family less likely to insist on seeing a property in person before paying. Scammers invent listings for homes that aren't actually for rent, or steal real photos from a legitimate listing and repost them elsewhere at a below-market price, then make up an excuse — deployment, an out-of-state landlord, a property manager who's "unavailable" — for why an in-person tour isn't possible right now. Once a family is hooked, the "landlord" pushes payment through a gift card, cryptocurrency, or a wire transfer service like Western Union or MoneyGram, methods the FTC notes are difficult or impossible to reverse once money is sent. To verify a listing before paying anything, the FTC recommends searching the property's address online to check whether the same home is listed elsewhere under a different price or landlord's name, insisting on an in-person tour or having a trusted local contact view the property directly, and contacting the new duty station's relocation or housing referral office, which can confirm whether a property or landlord is legitimate and flag known scams in the area. Anyone who loses money to a fake listing during a PCS move should file a report at ReportFraud.ftc.gov and with their state attorney general's office.`,
+    categorySlug: 'rental-housing',
+    alertLevel: 'medium',
+    sources: ['Federal Trade Commission (FTC)'],
+    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2026/07/how-spot-fake-rental-listings-during-military-move',
+    country: 'US',
+});
+
+UsAF.push({
+    name: 'California "Ballot Now" Unofficial Ballot-Status Text Scam',
+    slug: 'california-ballot-now-text-scam',
+    description: `California Secretary of State Shirley N. Weber, Ph.D. issued a consumer notice on October 29, 2025 warning voters about an unofficial text messaging service called "Ballot Now" that is "not in any way affiliated with the California Office of the Secretary of State." The service sends voters inaccurate texts that lead them to believe their returned vote-by-mail ballot has not been received or processed by their county elections office, an alarming and false claim that has generated numerous voter reports to the Secretary of State's office. Ballot Now's operators have not publicly identified themselves, and reporters who have tried to contact the service for comment have gotten no response. Secretary Weber urged Californians to trust only information from her office or their county registrar of voters, and to check a ballot's actual status through the state's own free "Where's My Ballot?" tracking tool at WheresMyBallot.sos.ca.gov or at voterstatus.sos.ca.gov, both of which give automatic updates when a mail ballot is sent, received, and counted. Voters who get an unsolicited text about their ballot status from a source other than these official tools are advised to ignore it and verify directly with the state or their county elections office rather than responding to the message or clicking any link it contains.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['California Secretary of State'],
+    sourceUrl: 'https://www.sos.ca.gov/administration/news-releases-and-advisories/2025-news-releases-and-advisories/california-secretary-state-shirley-n-weber-phd-sets-record-straight-about-unofficial-text-messages-ballot-now',
+    country: 'US',
+    state: 'CA',
+});
+
+UsAF.push({
+    name: 'Fake USPTO Trademark Renewal and Monitoring Notice Scam',
+    slug: 'fake-uspto-trademark-renewal-notice-scam',
+    description: `Businesses and individuals who have filed a trademark application or own a registered mark receive official-looking letters, emails, or invoices from entities with names like "World Trademark Registry," "Patent and Trademark Bureau," or "Trademark Renewal Service" — none of them real USPTO divisions — that mimic government letterhead and seals and demand immediate, often inflated, payment to "renew," "monitor," or "protect" the mark, or falsely warn that another company is about to register the same trademark unless the recipient pays right away. The letters are built entirely from the mark's real, publicly searchable USPTO filing details — its serial number, filing date, and owner's name and address, pulled straight from the agency's own database — which is what makes a mass-mailed form letter feel personally addressed and urgent. Some versions go further, mailing a fake "Trademark Trial and Appeal Board" notice claiming money is owed even though the TTAB never awards or demands monetary damages, or emailing from a lookalike domain such as one ending in "uspto-trademark.live" rather than the government's actual @uspto.gov address. The USPTO's own scam-prevention warning tells trademark owners to check any listed fee against its official trademark fee schedule, confirm an application or registration's real status for free through its Trademark Status and Document Retrieval (TSDR) system, and verify any supposed TTAB filing through the agency's own TTAB Inquiry System before paying anything or replying — and to never share a USPTO.gov account password with anyone who calls or emails asking for it. Suspicious notices can be forwarded to TMScams@uspto.gov and reported to the FTC at ReportFraud.ftc.gov.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['U.S. Patent and Trademark Office (USPTO)'],
+    sourceUrl: 'https://www.uspto.gov/subscription-center/2025/protect-yourself-scammers',
+    country: 'US',
+});
+
+UsAF.push({
+    name: 'Arkansas Department of Agriculture Fraudulent Payment Email Scam',
+    slug: 'arkansas-department-of-agriculture-fraudulent-payment-email-scam',
+    description: `The Arkansas Department of Agriculture warned the public on May 11, 2026 about fraudulent emails circulating from people falsely claiming to represent the department, using the agency's name to send payment requests and other suspicious messages to businesses and individuals the department deals with. Officials pointed to one reliable tell: a genuine email from the Arkansas Department of Agriculture will always come from an address ending in "arkansas.gov," so a message about an invoice, fee, or account matter arriving from any other domain is not really from the agency no matter how convincing the letterhead or signature looks. The department's guidance is to review the sender's full email address before responding to anything, to contact the department directly through a known number rather than one supplied in the message if the sender's name isn't recognized, and to never click a suspicious link, download an unexpected attachment, or send payment or financial information until the message's legitimacy has been confirmed. Arkansans who receive one of these emails are asked to report it to the department at Agri.Info@arkansas.gov or 501-225-1598 before deleting it.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Arkansas Department of Agriculture'],
+    sourceUrl: 'https://www.agriculture.arkansas.gov/',
+    country: 'US',
+    state: 'AR',
+    isHistorical: true,
+    firstRecorded: '2026-05-11',
+});
+
+UsAF.push({
+    name: 'Arizona State Board of Pharmacy Investigator Impersonation Scam',
+    slug: 'arizona-state-board-of-pharmacy-investigator-impersonation-scam',
+    description: `The Arizona State Board of Pharmacy's April 2026 licensee newsletter warned of a rising number of scam calls and letters after a wave of new licensee reports, describing one incident in detail: a caller used a spoofed caller ID matching the Board's real phone number, 602-771-2727, claimed to be a Board investigator, and told the pharmacist their phone was tapped and their emails were being monitored before patching in a second caller posing as an FBI agent to escalate the pressure. The same licensee separately received a letter carrying what looked like genuine Board letterhead, the official state seal, their own license number, and a forged signature from the Board's executive director falsely claiming their license had been suspended. The Board says common tells across these calls include a caller ID showing "AZ State Board of Pharmacy," a claim that the licensee is under investigation by the Board, DEA, FBI, or another agency, a warning not to tell anyone about the call "or else jeopardize the investigation," a request for a mobile number, a fake callback number, and — the clearest giveaway — a demand to pay a "fine" over the phone or by wire to avoid discipline, something the Board says its agents never do. The licensee in the newsletter's example avoided losing anything only because they called the Board directly and confirmed they were not actually under investigation; the Board asks anyone who gets a similar call to verify by phone at 602-771-2727, report a caller falsely claiming to represent DEA or FBI to those agencies' own extortion-scam reporting channels, and file a complaint with the FCC if the caller's number appeared to be the Board's own.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Arizona State Board of Pharmacy', 'National Association of Boards of Pharmacy (NABP)'],
+    sourceUrl: 'https://nabp.pharmacy/wp-content/uploads/2026/04/April-2026-Arizona-State-Newsletter.pdf',
+    country: 'US',
+    state: 'AZ',
+    isHistorical: true,
+    firstRecorded: '2026-04-01',
+});
+
+UsAF.push({
+    name: 'American Samoa Government and Bank Phishing Impersonation',
+    slug: 'american-samoa-government-bank-phishing-impersonation',
+    description: `The Office of the Attorney General of American Samoa, through its Consumer Protection Bureau, issued a public advisory on February 2, 2026 warning residents about a persistent stream of phishing emails, texts, and phone calls impersonating banks and government agencies to steal sensitive personal information. The advisory describes phishing broadly as "a deceptive scheme in which individuals or groups impersonate legitimate organizations" through email, text message, or phone call for the purpose of identity theft and financial fraud, and flags high-pressure tactics and false urgency as the common thread that pushes a recipient into acting before double-checking who is really contacting them. The Attorney General's office was direct about the core rule: "No legitimate government agency or reputable business will ever reach out to you unexpectedly to demand sensitive personal information or payment." Residents are advised to scrutinize sender details rather than trust a display name, avoid clicking links or opening attachments in an unsolicited message, type a website address directly into the browser instead of following a link, and report suspicious messages to their IT support or the Department of Homeland Security rather than replying to or forwarding them. The Consumer Protection Bureau, which enforces American Samoa's consumer-protection laws and handles fraud and identity-theft complaints from territory residents, is the point of contact for reporting a suspected phishing attempt originating in or targeting American Samoa.`,
+    categorySlug: 'phishing',
+    alertLevel: 'medium',
+    sources: ['Office of the Attorney General of American Samoa — Consumer Protection Bureau', 'Samoa News'],
+    sourceUrl: 'https://www.samoanews.com/local-news/ongoing-risk-phishing-scams-and-what-you-can-do-protect-yourself',
+    country: 'US',
+    state: 'AS',
+    isHistorical: true,
+    firstRecorded: '2026-02-02',
+});
+
+UsAF.push({
+    name: 'Fantasy Football "Charity League" Unpaid-Winnings Scam',
+    slug: 'fantasy-football-charity-league-unpaid-winnings-scam',
+    description: `The Missouri Attorney General's Office confirmed in early July 2026 that it opened an investigation into ESPN NFL draft analyst Matt Miller after complaints piled up on Reddit and social media alleging he ran dozens of "charity" fantasy football leagues and paid scouting camps for years without ever delivering the winnings, refunds, or promised charitable donations participants paid for. According to reporting that first surfaced the allegations, at least seven people described paying entry fees — with some league buy-ins as high as $500, collected through apps like Venmo, Cash App, and PayPal — for leagues Miller ran as commissioner, only to find him unreachable when it came time to collect a payout or confirm where the "charity" portion of the pot actually went; the fantasy platform Sleeper showed an account tied to Miller had been commissioner of 91 separate leagues in the 2025 season alone, and more than 40 additional people came forward with similar complaints once the story spread. Attorney General Catherine Hanaway said her office received 26 formal complaints from Missourians describing the same pattern — paying for a camp, a bet, or a league entry and getting "no product," or "minimal product," delivered in return — and called the case "kind of lengthy" specifically because of the sheer number of transactions involved, adding "there's certainly a lot of smoke, and I would bet there's some fire in this case." The episode is a reminder that a high-profile personality's public reputation is not a substitute for real safeguards on a private fantasy-sports pot: a legitimate commissioner should be able to show an escrow arrangement, a clear payout schedule, and — for any league marketed as benefiting a charity — the charity's own name so a donation can be independently verified, and a commissioner who goes quiet as soon as it's time to pay out is reason enough to stop sending money and file a complaint with a state attorney general's consumer protection division.`,
+    categorySlug: 'lottery-sweepstakes-scams',
+    alertLevel: 'medium',
+    sources: ['Missouri Attorney General\'s Office', 'KY3 News'],
+    sourceUrl: 'https://www.ky3.com/2026/07/15/missouri-ag-shares-what-led-investigation-into-espn-analyst-matt-miller/',
+    country: 'US',
+    state: 'MO',
+    isHistorical: true,
+    firstRecorded: '2026-07-02',
+});
+
+UsAF.push({
+    name: 'Fake "Loan Application In Progress" Text Scam',
+    slug: 'fake-loan-application-in-progress-text-scam',
+    description:
+      'A text message claims you already have a loan application in progress — even though you never applied — stating you\'re "preapproved" for a specific dollar amount and using urgency language like "this is the last step" to push an immediate reply. The message asks you to text back "YES" to continue, then requests a Social Security number or bank account number to "finish" the application, information a real lender already has on file and would never need collected this way. The FTC warned in a January 2026 consumer alert that there is no real loan and no real application behind these texts, only an attempt to harvest enough personal information for identity theft or account takeover. Delete the message without replying or clicking any link — even replying "STOP" confirms to the sender that a real person reads texts at that number — and report it using your phone\'s spam-reporting feature or by forwarding it to 7726 (SPAM).',
+    categorySlug: 'phishing',
+    alertLevel: 'medium',
+    sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2026/01/can-you-spot-fake-loan-text-scam',
+    country: 'US',
+});
+
+UsAF.push({
+    name: 'Florida Forged Professional Engineer Seal Freelance-Marketplace Scheme',
+    slug: 'florida-forged-engineer-seal-freelance-marketplace-scheme',
+    description: `The Florida Board of Professional Engineers has been warning licensees since at least its April 2025 newsletter about a growing wave of credentials forgery in which fraudsters lift a real, licensed engineer's name and PE license number — both public information — and advertise "engineering" services on freelance marketplaces including Fiverr, Freelancer, Guru, PeoplePerHour, and Upwork, then sell stamped drawings or reports the named engineer never actually prepared or reviewed. In some cases the Board has found a deceased engineer's credentials exploited for years after their death, since nothing about a routine license lookup flags that the named holder has died, while other schemes simply reuse an old, legitimately signed and sealed document — sometimes retained by a former employer or colleague — by lifting its signature and seal information onto entirely new, unrelated plans. "The risk of credentials forgery is growing, and as a licensed Professional Engineer, you should be proactive," the Board's alert states, urging engineers to monitor freelance sites for unauthorized use of their name or license number, keep physical and digital seals secured, and avoid circulating unprotected digital copies of signed and sealed documents that could later be lifted and reused. The Nebraska Board of Engineers and Architects has documented the identical national pattern and, citing "an increase in the unauthorized and fraudulent use of professional seals" through online freelance marketplaces, went as far as removing individual license numbers from its own public licensee lookup so scammers can no longer harvest them there, directing anyone who needs to verify a specific engineer or architect to contact the Board's office directly instead. A property owner, contractor, or building official relying on stamped engineering plans obtained through an unusually cheap freelance listing — or from someone unwilling to meet, provide direct contact information, or produce an unaltered original seal — should verify the engineer's identity and license status directly with the state board before relying on the work for anything affecting public safety; Florida licensees who suspect their credentials have been misused can reach the Board's investigator, Wendy Anderson, at (850) 521-0500 ext. 119, or report the forgery at ic3.gov.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'high',
+    sources: ['Florida Board of Professional Engineers', 'Nebraska Board of Engineers and Architects'],
+    sourceUrl: 'https://fbpe.org/credentials-forgery-continues-to-be-a-problem-for-florida-pes/',
+    country: 'US',
+    state: 'FL',
+    isHistorical: true,
+    firstRecorded: '2025-04-01',
+});
+
+UsAF.push({
+    name: 'Florida "State License Benefits Association" Engineer Phishing Calls',
+    slug: 'florida-state-license-benefits-association-engineer-phishing-scam',
+    description: `The Florida Board of Professional Engineers (FBPE) has warned licensees about unsolicited calls from a group identifying itself as the "State License Benefits Association," which falsely claims there are new "changes in benefits" being offered to engineers by the State of Florida. Unlike the license-suspension threats other licensing-board impersonation scams rely on, this pitch works the opposite angle — dangling a supposed government benefit rather than a supposed penalty — before the caller tries to collect personal information and directs the engineer to a website to upload documents, a step that can hand over enough identifying material for identity theft or account takeover. FBPE states plainly, "We have no knowledge of changes that would provide state benefits for engineers," and that it has no affiliation whatsoever with the caller or the "State License Benefits Association." The Board's alert, first posted in July 2024 and still current as of its most recent update, advises any engineer who receives one of these calls not to provide personal information or upload any documents, and to report the call to the Federal Trade Commission at reportfraud.ftc.gov and register a complaint with the National Do Not Call Registry at donotcall.gov. As with any unsolicited call claiming to involve a professional license, the safest step is to hang up and contact FBPE directly using the phone number listed on its own website rather than anything the caller provides.`,
+    categorySlug: 'phishing',
+    alertLevel: 'medium',
+    sources: ['Florida Board of Professional Engineers'],
+    sourceUrl: 'https://fbpe.org/spam-phone-calls-regarding-engineer-benefits/',
+    country: 'US',
+    state: 'FL',
+    isHistorical: true,
+    firstRecorded: '2024-07-12',
+});
+
+UsAF.push({
+    name: 'Fake ADA "Tester" Demand Letter Extortion Network',
+    slug: 'fake-ada-tester-demand-letter-extortion-network',
+    description: `An $80 million federal class-action lawsuit filed in April 2025 in the U.S. District Court in Portland accuses a network of lawyers of running a nationwide extortion scheme built around the Americans with Disabilities Act, using paid "fake testers" who never actually visited the businesses they claimed were inaccessible. According to the complaint, Memphis, Tennessee law firms Wade Law and Wampler, Carroll, Wilson & Sanderson, working with Portland attorney Jessica Lee Molligan and a network of lawyers across more than 15 states, ran an "error-riddled" electronic database to mass-produce thousands of cookie-cutter demand letters and file hundreds of lawsuits alleging disability-access violations between January 2022 and 2025, targeting more than 4,000 small businesses nationwide. Court filings describe how paid participants, including wheelchair user Connor Slevin, were given a list of businesses to visit, told not to bother checking for real accessibility problems because "that work had already been done," paid roughly $200 per stop to buy a small item and upload the receipt, and asked to sign over "blanket power of attorney" letting the lawyers negotiate settlements in their name; another participant in Oregon was paid $200 per business at a rate of about three a month, while a third man in St. Louis had his name attached to 45 separate ADA lawsuits. Many targeted businesses paid out tens of thousands of dollars rather than risk a costly lawsuit — one Beaverton, Oregon business owner paid $22,000 for parking lot improvements after receiving a demand letter. A legitimate ADA access complaint comes from someone who has actually visited the property and can describe specific barriers encountered, rather than a form letter generated from a database; a business that receives a demand letter threatening an ADA lawsuit should check court records for whether a case has actually been filed, confirm the sending attorney is licensed and in good standing through the relevant state bar's lookup tool, and consult its own attorney before paying anything toward a "settlement."`,
+    categorySlug: 'legal-debt-collection',
+    alertLevel: 'medium',
+    sources: ['Oregon Business'],
+    sourceUrl: 'https://oregonbusiness.com/portland-businesses-file-80m-class-action-complaint-over-blitz-of-bad-faith-ada-complaints/',
+    country: 'US',
+    isHistorical: true,
+    firstRecorded: '2022-01-01',
+});

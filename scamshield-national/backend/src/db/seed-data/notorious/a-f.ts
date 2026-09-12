@@ -5681,27 +5681,6 @@ Profit Connect's pitch worked precisely because "AI" and "crypto mining" are cla
 
 NotoriousAF.push(
   {
-    title: "David Thomas Gilchrist and the Property Tax Lien Investments That Didn't Exist",
-    slug: "david-gilchrist-property-tax-lien-fraud",
-    author: 'ScamShield Editorial',
-    tags: ['notorious', 'notorious-scammer'],
-    // representative photo (case prosecuted by the U.S. Attorney's Office for the Northern District of Texas) — replace with a portrait if found
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Earl_Cabell_Federal_Building,_cropped.jpg?width=1200',
-    coverImageCredit: 'Rapidfire, CC BY-SA 3.0, via Wikimedia Commons',
-    coverImagePosition: 50,
-    sourceUrl: 'https://www.justice.gov/usao-ndtx/pr/grand-prairie-attorney-arrested-ponzi-scheme-and-obstructing-sec-investigation',
-    body: `David Thomas Gilchrist is a 70-year-old attorney from Grand Prairie, Texas whom federal prosecutors accuse of using his professional standing to draw roughly 20 people into what he described as partnerships to buy Texas property tax liens — a real, if niche, investment vehicle, since local governments do sell delinquent tax debt at auction and a buyer can profit from the interest homeowners eventually pay to redeem it. According to a criminal complaint unsealed in September 2026, Gilchrist collected approximately $1.45 million from investors between April 2023 and January 2026, but prosecutors allege that no such tax liens were purchased with most of that money. He allegedly commingled investor funds with his own, spent a portion of it personally, and used incoming money to make roughly $789,000 in payments back to earlier investors — the same new-investors-pay-old-investors structure that defines a Ponzi scheme.
-
-The allegations extend beyond the underlying investment fraud. Prosecutors say that once the SEC opened a civil investigation into his conduct, Gilchrist forged documents using notary stamps and signatures he was not authorized to use, and separately urged a witness and her husband to "take a vacation" to Mexico in the days before they were scheduled to testify — conduct that forms the basis of a witness tampering charge layered on top of the fraud allegations.
-
-Gilchrist was arrested and charged by criminal complaint on September 1, 2026 with wire fraud, aggravated identity theft, and witness tampering, and made an initial appearance before a federal magistrate judge shortly afterward; the SEC separately filed a parallel civil securities-fraud case against him. As of this writing, the criminal case is pending, Gilchrist has not been convicted of any charge, and — as with any criminal complaint — the allegations against him are accusations federal prosecutors will have to prove in court rather than established facts. If convicted, he would face a potential maximum of 20 years in prison on the wire fraud and witness tampering counts, plus a mandatory consecutive two-year sentence on the identity theft charge.
-
-Property tax lien investing is a legitimate, if specialized, corner of the market in states that auction delinquent tax debt, which is exactly what prosecutors say made it a convincing wrapper here: a pitch built around a real financial instrument is far harder for a prospective investor to wave off as too-good-to-be-true than a pitch built around something that obviously doesn't exist. Investors approached about a niche asset class few people understand in detail have the same recourse available in any unfamiliar investment: verify independently, through public county auction records, that the specific liens being described were actually purchased, rather than relying on the promoter's own account statements.`,
-  },
-);
-
-NotoriousAF.push(
-  {
     title: "Antonio Franklin and the Hidden Bank Account Behind a Milwaukee Disability Benefits Fraud",
     slug: "antonio-franklin-milwaukee-disability-benefits-fraud",
     author: 'ScamShield Editorial',
@@ -7949,5 +7928,414 @@ The scheme eventually surfaced, and Painter was charged with wire fraud. She ple
 
 New Plymouth's case is a small-town version of a pattern that shows up at every scale of embezzlement, from city halls to Fortune 500 companies: the person who both spends the money and codes the books gets to decide how the spending looks on paper. A false receipt or a mislabeled category doesn't have to fool a forensic auditor — it only has to survive whatever light review a small city with limited staff and no dedicated internal-controls office actually performs, and for six years, "professional services" was label enough.`,
     sourceUrl: 'https://www.justice.gov/usao-id/pr/former-city-clerk-treasurer-sentenced-prison-stealing-over-196000-city-new-plymouth',
+  },
+);
+
+NotoriousAF.push(
+  {
+    title: "David Myers: The WorldCom Controller Who Told His Own Accountants to Keep Faking the Books",
+    slug: 'david-myers-worldcom-controller-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Thurgood_Marshall_United_States_Courthouse_008.jpg?width=1200',
+    coverImageCredit: 'Photo: Kidfly182, CC BY 4.0, via Wikimedia Commons — Thurgood Marshall U.S. Courthouse, Manhattan',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
+    body: `David Myers spent years climbing the ranks at WorldCom before becoming the company's controller — the executive responsible for its day-to-day accounting — during the same period that CFO Scott Sullivan and other senior finance staff were hiding a widening gap between the telecom giant's real financial performance and the earnings Wall Street expected it to report.
+
+Beginning in 2000, according to federal prosecutors and the SEC, Myers directed subordinates, including accountants Betty Vinson and Troy Normand, to reclassify billions of dollars of ordinary "line cost" expenses — payments WorldCom was already making to lease network capacity from other carriers — as capital expenditures instead. Capital spending gets depreciated over years rather than counted against a single quarter's earnings, so booking routine operating costs that way let WorldCom report profits its actual cash flow didn't support. Myers signed off on the entries and passed the pressure down the chain, telling Vinson and Normand to keep making the adjustments even after they came to him directly and said they believed what they were being asked to do was wrong.
+
+The fraud, which eventually totaled roughly $11 billion in improperly accounted-for expenses, unraveled in June 2002 after WorldCom's internal audit department caught the capitalized entries during a routine review. Myers was the first WorldCom executive to plead guilty, admitting in September 2002 — a month before Vinson — to conspiracy, securities fraud, and filing false statements with regulators. He went on to become one of the government's most important cooperating witnesses, testifying in detail against CEO Bernard Ebbers at Ebbers's 2005 criminal trial about how pressure to hit earnings targets flowed down from Sullivan and Ebbers, through him, and into the entries his own accountants actually typed into the books.
+
+On August 17, 2005, U.S. District Judge Barbara Jones sentenced Myers to one year and one day in prison, calling his cooperation "extraordinary" and noting that the SEC had taken the unusual step of writing the court to praise it — a harsher sentence than the accountants below him received, but far lighter than what Ebbers and Sullivan ultimately faced. WorldCom's collapse into what was then the largest corporate bankruptcy in U.S. history, with roughly $107 billion in assets, cost thousands of employees their jobs and wiped out shareholders and pension funds that had trusted the company's reported numbers. Myers's case captures a pattern that shows up across a lot of corporate fraud: the people who actually type the fraudulent figures into the ledger are rarely the ones who profit most from the fraud, but they're very often the ones a prosecutor can most easily prove knew exactly what they were doing.`,
+    sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-17753',
+  },
+);
+
+NotoriousAF.push(
+  {
+    title: 'Evangelos Drosos: The Accountant Who Ran a Ponzi Scheme on His Own Clients',
+    slug: 'evangelos-drosos-bergen-county-accountant-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Glen_Rock,_NJ_(557511189).jpg?width=1200',
+    coverImageCredit: 'Photo: Beatrice Murch, CC BY-SA 2.0, via Wikimedia Commons — Glen Rock, New Jersey',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
+    body: `Evangelos Drosos built his career as a working accountant in Glen Rock, New Jersey — the kind of credentialed, familiar professional whose word people take on faith when it comes to their money. Starting in 2013, according to the U.S. Attorney's Office for the District of New Jersey, Drosos used several businesses he controlled to solicit funds from clients and other investors, telling them he would manage their money through legitimate investment strategies.
+
+He didn't. Prosecutors say Drosos never actually invested the money as described, instead commingling client deposits across his various accounts and using the cash to make payments to earlier investors that looked like investment returns — the defining structure of a Ponzi scheme — while diverting a substantial share into his own life, including vacations, a luxury vehicle, and real estate. Over roughly twelve years, Drosos caused victims to send him more than $10 million.
+
+The scheme ran out of room in June 2024, when Drosos no longer had enough new money coming in to keep paying out the old. Rather than let the shortfall surface, he turned to check-kiting: writing checks that exceeded what was actually sitting in his accounts, then rapidly depositing and withdrawing funds between different banks to keep the bad checks from bouncing before he could cover them. It bought time, not solvency. By the time the fraud came apart, it had cost victims an aggregate of more than $3 million — the gap between the roughly $10 million Drosos took in and the returns and repayments he'd managed to pay back out before the music stopped.
+
+On February 19, 2026, Drosos pleaded guilty to three counts of wire fraud, one count of bank fraud, and failing to file an income tax return, admitting that he had also skipped filing at least one year of his own personal returns while the scheme was running.
+
+Drosos's fraud wasn't dressed up in cryptocurrency or some novel financial instrument — it ran on an accountant's professional credibility and the ordinary habit of assuming that the person managing your money is actually doing what they say they're doing with it. A license or a professional title is a reason to start trusting someone; it was never meant to be a substitute for checking where the money in your account statement actually went.`,
+    sourceUrl: 'https://www.justice.gov/usao-nj/pr/bergen-county-accountant-admits-defrauding-investors-through-multi-million-dollar-ponzi',
+  },
+);
+
+NotoriousAF.push(
+  {
+    title: 'Anna Amponsah and the Ghana-to-Ohio Romance Fraud Ring That Targeted Older Americans',
+    slug: 'anna-amponsah-ghana-romance-fraud-ring',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Columbus-ohio-skyline-panorama.jpg?width=1200',
+    coverImageCredit: 'Photo: Derek Jensen (Tysto), public domain, via Wikimedia Commons — Columbus, Ohio skyline',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
+    body: `From roughly July 2024 to April 2026, a network of conspirators operating between Ghana and Columbus, Ohio, ran a coordinated romance-fraud operation aimed at older Americans, according to the U.S. Attorney's Office for the Northern District of Ohio. Members of the ring built fake identities on dating websites and social media, cultivated close, often romantic relationships with victims over weeks or months, and then used fabricated stories — emergencies, business opportunities, the kinds of crises a trusted partner is supposed to help with — to get those victims to wire money to accounts the conspirators controlled.
+
+Anna Amponsah, 35, of Columbus, was one of the defendants charged in the case, United States v. Otuo Amponsah, et al. She pleaded guilty to conspiracy to commit wire fraud and money laundering conspiracy, admitting her role in helping move and launder the proceeds victims sent in — the less visible half of a romance scam, where money wired by a heartbroken victim has to be converted, routed through accounts, and dispersed quickly enough to stay ahead of a bank's fraud alerts or a victim's second thoughts.
+
+A federal judge sentenced Amponsah to 108 months — nine years — in prison, three years of supervised release, and restitution of $1,444,639. She wasn't sentenced alone: co-defendant Otuo Amponsah, 34, also of Columbus, received the same 108-month term along with $3,324,675 in restitution; Portia Joe was sentenced to 51 months and ordered to pay more than $2 million; and Dwayne Asafo Adjei and Hannah Adom each received 71-month sentences. Prosecutors said that, across the conspiracy, nine defendants were ultimately sentenced to a combined roughly 50 years in federal prison.
+
+The case was investigated by the FBI's Cleveland Division with assistance from the Justice Department's Office of International Affairs — a reminder that a romance scam prosecuted in an Ohio courtroom often depends on cross-border cooperation, since the people crafting the fake profiles, the people managing the relationships, and the people laundering the wired money can all be working from different countries, coordinating a single fraud aimed at a victim who believes they're talking to one person.
+
+Romance-fraud rings like this one succeed by outsourcing empathy: the "person" a victim falls for is a constructed persona, but the patience, reassurance, and manufactured urgency that keep the money moving over weeks or months are real labor, performed on a schedule, by real people working for a cut of the proceeds. Multi-year sentences for the money-movers and relationship-builders alike reflect how seriously prosecutors now treat every layer of that labor — not just whoever typed the final message — as part of the fraud.`,
+    sourceUrl: 'https://www.justice.gov/usao-ndoh/pr/ghanaian-nationals-indicted-romance-fraud-scams',
+  },
+);
+
+NotoriousAF.push(
+  {
+    title: 'Cheryl Campos: The VFW Quartermaster Who Spent Veterans\' Money on Crystals',
+    slug: 'cheryl-campos-vfw-quartermaster-embezzlement',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Quartz_crystals_(12250418364).jpg?width=1200',
+    coverImageCredit: 'Photo: James E. Petts, CC BY-SA 2.0, via Wikimedia Commons — quartz crystals',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
+    body: `Cheryl Elizabeth Campos, a U.S. Army veteran living in Dayton, Oregon, served as quartermaster of a Department of Oregon Veterans of Foreign Wars post — the officer trusted with the organization's bank accounts and books. It's an unpaid, honor-system role that exists because VFW posts, like most small nonprofits and civic organizations, run on the assumption that a fellow member entrusted with the checkbook is handling it in good faith, with minimal outside auditing to check that assumption.
+
+That trust was misplaced. According to the U.S. Attorney's Office for the District of Oregon, Campos used her access as quartermaster to transfer more than $1.7 million from the VFW's accounts into her own personal accounts between January 2022 and June 2024, then falsified financial documents, bank statements, and accounting records to keep the missing money from showing up when anyone looked at the books.
+
+What Campos did with the money is what made her case get national pickup beyond the usual embezzlement story: prosecutors said she spent it on hundreds of crystals, semi-precious rocks, marbles, stones, and statues, in addition to more ordinary personal expenses like credit card payments and a vehicle bought for a family member. A veterans' organization funded largely by member dues and small local fundraising — the kind of money meant for post upkeep, member support, and community events — was instead quietly drained by the one person whose job was to safeguard it.
+
+Campos pleaded guilty to wire fraud, and on July 8, 2025, U.S. District Judge Amy M. Baggio sentenced her to two years and one month in federal prison, followed by three years of supervised release, and ordered her to pay more than $1.78 million in restitution. At her sentencing, Campos told the judge she had "lost her way."
+
+Her case is a reminder that the organizations most vulnerable to embezzlement are often the ones that can least afford it: a local VFW post, unlike a large company, typically has no separate finance department, no external auditor, and no one whose job is exclusively to double-check the treasurer's math — just members who trust that the person handling the money is one of their own, and therefore above suspicion. That trust is exactly the control an embezzler in a position like Campos's is counting on.`,
+    sourceUrl: 'https://www.justice.gov/usao-or/pr/dayton-woman-sentenced-federal-prison-defrauding-veterans-organization',
+  },
+{
+    title: 'Adam Gentile: The Office Manager Who Ran the Same $7.8 Million Payroll Scam at Two Different Medical Practices',
+    slug: 'adam-gentile-medical-practice-payroll-embezzlement',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Doctor_office_waiting_room.jpg?width=1200',
+    coverImageCredit: 'Photo: Kurt Kaiser, CC0, via Wikimedia Commons — representative medical office waiting room',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
+    body: `Adam Gentile was hired in 2014 as an administrative assistant at a medical practice near Boston and was soon promoted to office manager, a role that gave him sole responsibility for processing the practice's payroll. Starting around 2015 and continuing through November 2020, prosecutors say Gentile used that access to quietly issue himself extra paychecks — sometimes labeling them "bonuses" in the practice's books — funneling roughly $4.5 million out of his employer over five years while the fabricated payments sat disguised among the practice's normal payroll records.
+
+Rather than stop after leaving that job, Gentile took the same playbook to a second employer. Hired in 2021 as office manager at another medical practice, again with sole control over payroll, he ran a nearly identical scheme from April 2021 through May 2024, issuing himself unauthorized payroll payments recorded as bonuses and diverting roughly $3.3 million more. Between the two practices, prosecutors say Gentile used the stolen money to pay down personal credit card balances, fund home improvements on his property in Hudson, Massachusetts, and bankroll a side business — ordinary-looking spending that never showed up as suspicious because it wasn't running through the victim companies' own accounts, just money that had already left them.
+
+Federal prosecutors in Massachusetts charged Gentile in December 2025 with wire fraud, and he pleaded guilty in early 2026 to three counts. On August 27, 2026, U.S. District Judge Margaret R. Guzman sentenced him to four years in federal prison followed by four years of supervised release, ordering him to pay restitution of roughly $3.8 million and $3.3 million to his two former employers and to forfeit $7.8 million in ill-gotten gains — the FBI's Boston field office investigated the case alongside local police.
+
+Gentile's case is a reminder that a single point of failure doesn't stop being dangerous just because it moves to a new address: giving one employee sole, unchecked control over payroll — with no second signature, no outside review of who's actually on the payroll — is a control gap that follows whoever holds the job, not the company that first failed to catch it. Two different medical practices, years apart, handed the same kind of unsupervised authority to the same person and got the same result both times.`,
+    sourceUrl: 'https://www.justice.gov/usao-ma/pr/sudbury-man-sentenced-four-years-prison-78-million-embezzlement-scheme',
+  },
+{
+    title: 'David Thomas Gilchrist: The Texas Attorney Accused of Forging Deeds and Framing an Innocent Woman to Hide His Ponzi Scheme',
+    slug: 'david-gilchrist-grand-prairie-attorney-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Grand_Prairie_May_2019_10_(Grand_Prairie_City_Hall).jpg?width=1200',
+    coverImageCredit: 'Photo: Michael Barera, CC BY-SA 4.0, via Wikimedia Commons — Grand Prairie, Texas City Hall',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
+    body: `David Thomas Gilchrist had been a licensed Texas attorney since 1983 when, according to federal prosecutors, he began pitching investors in Grand Prairie on an opportunity built around property tax liens — buying up delinquent tax debt secured by real estate, then collecting steep statutory interest or the underlying property if the debt went unpaid. Between April 2023 and January 2026, prosecutors say Gilchrist collected approximately $1.45 million from investors this way (the SEC's parallel civil case puts the figure at more than $1.85 million), returning only around $789,000 — a shortfall prosecutors allege he papered over using forged quitclaim deeds bearing unauthorized notary stamps and signatures, making liens and properties that didn't actually back the investments look real on paper.
+
+What makes the case unusual is what prosecutors say Gilchrist did once the SEC and investors started asking questions. Rather than simply stop, he allegedly built a cover story around a real person who had nothing to do with the scheme: a green-card holder identified in court filings by the initials R.A., whom Gilchrist falsely cast as an undocumented intermediary supposedly central to the transactions — a fabrication prosecutors say he also fed directly to federal regulators investigating him. When that story risked unraveling, prosecutors allege Gilchrist told R.A.'s husband that the FBI was looking for him and pressured the couple to leave the country on a "vacation" to Mexico rather than be available to speak with investigators.
+
+Gilchrist was arrested on August 31, 2026, and made his initial court appearance on September 4, 2026, charged by criminal complaint with wire fraud, aggravated identity theft, and witness tampering — charges that, if he is convicted, could carry up to 20 years on the fraud count alone, a mandatory consecutive two years for aggravated identity theft, and up to 20 more for witness tampering. "Gilchrist allegedly forged documents, lied to federal regulators and tried to intimidate witnesses to cover his tracks," said U.S. Attorney Ryan Raybould. As of this writing, Gilchrist has not been convicted, and the charges against him remain allegations that he is entitled to contest in court.
+
+If the allegations hold up, Gilchrist's case illustrates a pattern investigators see again and again once a fraud starts to be discovered: the cover-up — forged records, lies to regulators, and pressure on a bystander to disappear — often ends up generating criminal exposure just as serious as the original scheme, layering identity theft and obstruction charges on top of whatever the underlying investment fraud would have carried on its own.`,
+    sourceUrl: 'https://www.justice.gov/usao-ndtx/pr/grand-prairie-attorney-arrested-ponzi-scheme-and-obstructing-sec-investigation',
+  },
+);
+
+NotoriousAF.push(
+  {
+    title: 'Matthew Campbell and the Preferred Property $9 Million Real Estate Ponzi Scheme',
+    slug: 'matthew-campbell-preferred-property-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Downtown_Fresno_Skyline.jpg?width=1200',
+    coverImageCredit: 'Photo: JMora24, CC BY-SA 4.0, via Wikimedia Commons — downtown Fresno, California skyline',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
+    body: `Matthew Campbell, 43, of Fresno, California, had run two real estate investment companies, Preferred Property LLC and Ampez Rehab Investments LLC, since 2012, pitching investors on a business that bought, renovated, and resold houses. Starting in 2018, according to federal prosecutors, the legitimate parts of that business stopped being enough, and Campbell began telling investors things that weren't true — about the companies' finances, about how their money was being used, and about the "guaranteed returns" and distributions he promised them.
+
+Between January 2018 and October 2025, prosecutors say, Campbell raised more than $9.1 million from over 40 investors this way. At least $2.3 million of what came in from newer investors went straight back out to pay off earlier ones — the defining mechanic of a Ponzi scheme — while the rest was diverted to purposes that had nothing to do with the real estate deals investors thought they were funding. "Each investor believed Campbell's claim that his legitimate real estate business could offer guaranteed returns, not knowing those promises were impossible to fulfill," said Brian Tosh, Special Agent in Charge of the FBI's Sacramento Field Office, in announcing the case.
+
+Campbell pleaded guilty to wire fraud on February 9, 2026, in the U.S. District Court for the Eastern District of California. On August 24, 2026, U.S. District Judge Jennifer L. Thurston sentenced him to 52 months in federal prison. A hearing to determine the exact restitution owed to his victims was set for October 22, 2026 — a date that, as of this writing, had not yet occurred, leaving the final dollar figure undetermined. The case was investigated by the FBI and prosecuted by Assistant U.S. Attorneys Cody S. Chapple and Arelis M. Clemente.
+
+Campbell's scheme is a reminder that a real, years-old business with an actual product — in this case, real houses bought and renovated — doesn't make an investment safe by itself. A "guaranteed return" is not a feature any legitimate real estate operation can honestly offer, since renovation costs, resale timelines, and local housing markets are inherently unpredictable; a promoter who removes that risk from the pitch entirely is usually removing it from the marketing material only, not from the underlying business.`,
+    sourceUrl: 'https://www.justice.gov/usao-edca/pr/fresno-man-pleads-guilty-running-9-million-real-estate-ponzi-scheme',
+  },
+);
+
+NotoriousAF.push(
+  {
+    title: 'Emmanuel Gyasi and the "Jessica Morris" Gold Bars Romance Scam',
+    slug: 'emmanuel-gyasi-jessica-morris-gold-bars-romance-scam',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    // representative photo — replace with an exact match if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Gold_bullion_bars.jpg?width=1200',
+    coverImageCredit: 'Photo: Stevebidmead, CC0, via Wikimedia Commons — gold bars, representative of the inheritance in the scam pitch',
+    coverImagePosition: 50,
+    body: `Emmanuel Gyasi's scheme started the way most romance scams do: with a fictitious woman who didn't exist. Prosecutors say Gyasi and his co-conspirators built an online dating profile for "Jessica Morris," used it to strike up a romantic relationship with a victim, and then wove in a detail elaborate enough to sound almost plausible — Morris, the persona claimed, had just inherited gold bars worth $12 million, and needed help covering various fees to get the fortune released and sold.
+
+Getting a victim to believe a story like that usually takes more than one voice. According to federal prosecutors, the conspirators introduced a second fictitious character, "Steven Baggett," posing as Morris's lawyer, to lend the gold-bars story a layer of professional credibility and press the victim toward sending money. Between no later than March 2022 and at least July 2022, the victim wired a total of approximately $1.1 million to accounts the conspirators controlled, believing the money was funding fees tied to releasing a multimillion-dollar inheritance for the person they'd come to trust as a romantic partner.
+
+Gyasi's specific role, prosecutors said, was opening and controlling a bank account that the conspirators directed the victim to wire money into. While the victim was able to claw back some of what was sent, Gyasi and his co-conspirators still walked away with more than $750,000 of it. Gyasi, 29, of Ghana, was convicted of wire fraud and, in a case prosecuted out of the U.S. Attorney's Office for the Eastern District of Virginia, sentenced to two years in federal prison — a term announced March 6, 2026. The FBI's Washington Field Office investigated the case.
+
+Romance scams built around a sudden windfall — inherited gold, a frozen international account, a lottery win — work by giving the victim a reason the relationship needs money now, while the actual romantic relationship, real or fabricated, does the work of suppressing the skepticism a cold pitch would draw. A second persona playing a "lawyer" or other professional exists for the same reason a fake customer-service line exists in other scams: to make the ask sound like it's coming from an institution rather than from the person asking for the victim's trust.`,
+    sourceUrl: 'https://www.justice.gov/usao-edva/pr/ghanaian-national-sentenced-prison-two-years-1m-romance-scam',
+  },
+);
+
+NotoriousAF.push(
+  {
+    title: 'Charles Uchenna Nwadavid and the Nec Bullion Romance Scam Money-Laundering Ring',
+    slug: 'charles-nwadavid-nec-bullion-romance-scam-money-laundering',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/2017_Moakley_US_Courthouse_from_Boston_Harbor.jpg?width=1200',
+    coverImageCredit: 'Photo: Beyond My Ken, CC BY-SA 4.0, via Wikimedia Commons — the Boston federal courthouse where he was sentenced',
+    coverImagePosition: 50,
+    body: `Charles Uchenna Nwadavid ran a company in Nigeria called Nec Bullion, but the money that mattered most to his case didn't come from bullion trading. Between around 2016 and September 2019, according to federal prosecutors, Nwadavid took part in a romance scam operation built on fabricated online dating profiles — fake personas that struck up relationships with victims, many of them older women in Massachusetts, and then spun stories about inheritances or medical emergencies to get them sending money.
+
+At least six victims lost more than $2.5 million to the scheme, prosecutors said, with one Massachusetts victim used, apparently without full awareness of the scam's true nature, as an intermediary who received funds from other victims before passing them along. From there, the money moved through cryptocurrency platforms like LocalBitcoins into digital wallets prosecutors say Nwadavid controlled — a laundering step that converted stolen cash into a form that was both harder to trace and easier to move across borders.
+
+Nwadavid, 35, of Abuja, Nigeria, was arrested in April 2025 after arriving at Dallas-Fort Worth International Airport on a flight from the United Kingdom. He pleaded guilty in June 2025 to mail fraud, money laundering, and aiding and abetting money laundering. On September 24, 2025, U.S. District Judge Leo T. Sorokin sentenced him in federal court in Boston to two years in prison, followed by one year of supervised release, and ordered him to pay $2,724,810.41 in restitution to his victims. As a foreign national, Nwadavid is subject to deportation once his sentence is complete.
+
+The case illustrates how a legitimate-sounding business name — a "bullion" company with an actual product line — can double as a laundering vehicle for money that never touched gold or silver at all, and how cryptocurrency exchanges that don't rigorously verify who's behind an account become a convenient last stop for funds a scammer needs to get out of the traceable banking system quickly.`,
+    sourceUrl: 'https://www.justice.gov/usao-ma/pr/nigerian-national-sentenced-two-years-prison-romance-scam-and-money-laundering-scheme',
+  },
+);
+
+NotoriousAF.push(
+  {
+    title: "Angela Aquino and the $1 Million New York City Public Advocate Campaign Finance Fraud",
+    slug: "angela-aquino-nyc-public-advocate-campaign-finance-fraud",
+    author: "ScamShield Editorial",
+    tags: ["notorious", "notorious-scammer"],
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Federal_Courthouse_Brooklyn.jpg?width=1200",
+    coverImageCredit: "Photo: Beyond My Ken, CC BY-SA 4.0, via Wikimedia Commons — the Brooklyn federal courthouse where she pleaded guilty",
+    coverImagePosition: 50,
+    body:
+      "New York City runs one of the country's most generous public campaign-finance systems: small contributions from city residents are matched with public money at up to an 8-to-1 ratio, a structure designed to let candidates without wealthy donor networks compete by building a genuine base of small-dollar support. Angela Aquino, a 2025 candidate for New York City Public Advocate, is accused of trying to manufacture that base instead of earning it.\n\nAccording to federal prosecutors, Aquino cycled money through her own bank account, associates' accounts, and her campaign committee's account to obscure where it had actually come from, then submitted contribution cards to the city's Campaign Finance Board bearing fabricated donor information for contributions that didn't happen the way she reported them. Part of the funding trail, prosecutors said, ran through more than $130,000 that arrived in Aquino's personal account from the Philippines in the first months of 2025, including a $34,000 loan from a contact there — money with no place in a program built specifically to reward small, verifiable, New York City-resident donations. Aquino is also accused of spending campaign committee funds on personal expenses, including her own apartment rent, while falsely telling the Campaign Finance Board the payments were legitimate campaign costs, and of giving false statements to federal agents about her landlord's supposed involvement in her campaign finances. In total, prosecutors say the scheme sought to draw down roughly $1 million in public matching funds.\n\nAquino, 47, pleaded guilty on August 20, 2026, to one count of wire fraud before U.S. Magistrate Judge Vera Scanlon in federal court in Brooklyn, and faces up to 20 years in prison at sentencing. \"Her brazen efforts threaten the integrity of our local democratic processes,\" said U.S. Attorney Joseph Nocella, Jr. for the Eastern District of New York in announcing the plea, while New York City Department of Investigation Commissioner Jocelyn Strauber said New Yorkers \"deserve a baseline of integrity from candidates.\" The case was investigated by the FBI's New York Field Office and the city's Department of Investigation.\n\nA matching-funds program built to amplify grassroots donors only works if the contribution records feeding it are real; a candidate willing to fabricate donor cards and route outside cash through her own accounts doesn't just cheat other candidates competing for the same limited public dollars, she turns a program designed to make elections more small-donor-friendly into a direct multiplier on money that was never a real donation to begin with.",
+    sourceUrl: "https://www.justice.gov/usao-edny/pr/candidate-new-york-city-public-advocate-pleads-guilty-wire-fraud",
+  },
+);
+
+NotoriousAF.push(
+  {
+    title: "Justinas Butkus and the Mutual Funds That Never Existed",
+    slug: "justinas-butkus-tbo-gray-capital-fake-mutual-funds",
+    author: "ScamShield Editorial",
+    tags: ["notorious", "notorious-scammer"],
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Thurgood_Marshall_United_States_Courthouse_002.jpg?width=1200",
+    coverImageCredit: "Photo: Kidfly182, CC BY-SA 4.0, via Wikimedia Commons — the Manhattan federal courthouse where the SEC case was filed",
+    coverImagePosition: 50,
+    body:
+      "Note: this is a civil SEC enforcement action. The complaint describes allegations only — Justinas Butkus has not been criminally charged in connection with this scheme, and neither he nor his companies has been found liable by a court as of this writing.\n\nJustinas Butkus, a Lithuanian national, built two investment firms, TBO Capital Group and Gray Capital Group, around a product that sounds mundane precisely because mutual funds are one of the most familiar, most regulated investment vehicles ordinary people buy — which made it an effective disguise for something that didn't actually exist. Operating in part under the alias \"Darius Karpavicius,\" Butkus and two companies he owned and controlled, HMC Trading LLC and HMC Management LLC, built professional-looking websites, issued press releases, and ran internet advertisements starting in late 2021 offering investors shares in TBO Capital and Gray Capital mutual funds. The materials claimed the funds were run by industry professionals with decades of experience and had racked up years of high-yield returns.\n\nAccording to the Securities and Exchange Commission's complaint, filed February 27, 2025 in the U.S. District Court for the Southern District of New York, none of it was real: the funds themselves were fictitious, the managers whose biographies appeared on TBO Capital's and Gray Capital's marketing materials did not exist, and no investor money was ever actually placed into any fund. Despite that, the pitch worked well enough to raise approximately $4.1 million from 64 investors. Butkus used roughly $3.6 million of it — the bulk of what came in — on himself, the SEC says, spending it on groceries, restaurants, hotels, clothes, cash withdrawals, and cryptocurrency purchases; a company he controlled called DK Auto LLC was named as a relief defendant in the case. The SEC had originally filed a version of the case in January 2024, which was dismissed without prejudice, before refiling the complaint in February 2025 with the fuller allegations described here.\n\nThe SEC's complaint charges Butkus, HMC Trading, and HMC Management with violating the registration and antifraud provisions of the federal securities laws, and seeks permanent injunctions, disgorgement, and civil penalties. \"Butkus' conduct was egregious: He went to great lengths to defraud unsuspecting investors using sophisticated websites,\" said Samuel Waldon, Acting Director of the SEC's Division of Enforcement, in announcing the case. As of this writing, the litigation remains pending.\n\nA mutual fund is one of the most heavily regulated products in American finance — real ones are registered with the SEC, file public prospectuses, and disclose their actual managers and holdings, all searchable for free through the SEC's EDGAR database. Butkus's fictitious funds carried none of that paperwork, only a website and a press release built to look like it, which is precisely the gap a prospective investor can close by checking a fund's registration before, rather than after, wiring money to buy into it.",
+    sourceUrl: "https://www.sec.gov/newsroom/press-releases/2025-46",
+  },
+);
+
+NotoriousAF.push(
+  {
+    title: "Daniel Elie Bouaziz and the Worth Avenue Galleries Selling Forged Basquiats and Warhols",
+    slug: "daniel-elie-bouaziz-worth-avenue-art-fraud",
+    author: "ScamShield Editorial",
+    tags: ["notorious", "notorious-scammer"],
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Worth_Avenue_Clock_Tower_Palm_Beach_Florida.jpg?width=1200",
+    coverImageCredit: "Photo: MVASCO, CC BY-SA 3.0, via Wikimedia Commons — Worth Avenue in Palm Beach, where his galleries operated",
+    coverImagePosition: 50,
+    body:
+      "Daniel Elie Bouaziz, a French citizen born in Algeria, ran two galleries on one of the most prestigious shopping streets in the country — Danieli Fine Art and Galerie Danieli, both on Worth Avenue in Palm Beach, Florida — selling what he told buyers were authentic, original works by blue-chip contemporary artists including Jean-Michel Basquiat, Andy Warhol, Banksy, and Roy Lichtenstein. According to federal prosecutors, the actual source of Bouaziz's inventory was considerably less glamorous: cheap reproductions and prints bought on online auction sites, which he then dressed up with forged signatures and fabricated provenance before marking the prices up by orders of magnitude.\n\nThe scale of the markup was the case's most striking detail. Investigators found Bouaziz had a fake Basquiat painting listed for sale at $12 million that he had bought as a $495 print. On October 25, 2021, he sold a customer a set of pieces he claimed were authentic, artist-signed Andy Warhol works for between $75,000 and $240,000 each, collecting a $200,000 down payment that he deposited and then moved through other accounts he controlled — the transaction that ultimately became the centerpiece of the government's money-laundering case against him.\n\nBouaziz made his initial federal court appearance on May 27, 2022, charged with mail fraud, wire fraud, and money laundering. He pleaded guilty in February 2023 to laundering money derived from the counterfeit-art scheme, and prosecutors dropped sixteen additional fraud and embezzlement-related counts as part of the plea agreement. On May 30, 2023, U.S. District Judge Aileen M. Cannon sentenced him, then 69, to 27 months in federal prison, followed by three years of supervised release, along with a $15,000 fine and a restitution hearing to determine what he owed his victims. U.S. Attorney Markenzy Lapointe announced the sentencing alongside IRS Criminal Investigation and FBI officials who had built the case.\n\nBouaziz's galleries carried the trappings that are supposed to reassure a buyer — a prestigious Worth Avenue address, gallery branding, and confident claims of authenticity — none of which substitute for the paper trail a genuine blue-chip artwork actually carries: a documented chain of ownership, an authentication from the artist's foundation or a recognized expert, and a price that bears some relationship to the piece's real, independently verifiable origin. A $12 million asking price built on a $495 print is an extreme case, but the underlying vulnerability — a buyer trusting a dealer's word over independent authentication — is the same one that lets far smaller art frauds succeed every year.",
+    sourceUrl: "https://www.justice.gov/usao-sdfl/pr/palm-beach-art-dealer-sentenced-federal-prison-laundering-money-art-fraud-scheme",
+  },
+);
+
+NotoriousAF.push(
+  {
+    title: "Alec Dierna, John Engler, and the $8 Million 'Merchandise You Never Ordered' Mail Scheme",
+    slug: "alec-dierna-john-engler-unordered-merchandise-mail-fraud",
+    author: "ScamShield Editorial",
+    tags: ["notorious", "notorious-scammer"],
+    // representative photo — replace with an exact match if found
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/United_States_Postal_Inspection_Service_car.jpg?width=1200",
+    coverImageCredit: "Photo: cliff1066, CC BY 2.0, via Wikimedia Commons — a Postal Inspection Service vehicle; USPIS investigated the case",
+    coverImagePosition: 50,
+    body:
+      "The scam Alec Dierna and John Engler ran didn't rely on a phone call, a fake romance, or a too-good-to-be-true investment pitch — it relied on something much simpler: an invoice that looked routine enough for a busy accounts-payable clerk to pay without checking it too closely. Between August 2020 and July 2022, Dierna, 32, and Engler, 40, both of Boca Raton, Florida, along with five co-defendants, mailed what looked like ordinary bills to tens of thousands of companies across the country under invented business names, including Office Outlet, America's Best, United Chemicals, and Hi-Tech Industrial.\n\nThe mailers were designed to convince recipients they had already ordered and received products from these companies and simply owed payment — a variation on the decades-old \"unordered merchandise\" scam, exploiting the fact that a mid-sized company's accounts-payable department processes far more invoices than any one person can independently verify against a purchase order. Several thousand victim companies paid up rather than question the bill, and prosecutors say the scheme collected $8,010,543.50 from businesses across the country before it was shut down. The mailers were sent from operations based in Florida, California, and Rochester, New York, and one of the entities involved, Five Star Warehouse, LLC, was itself charged and pleaded guilty as a corporate defendant.\n\nDierna and Engler pleaded guilty on September 1, 2026, to conspiracy to commit mail fraud before U.S. District Judge Meredith A. Vacca in the Western District of New York, a charge carrying a maximum of 20 years in prison and a $250,000 fine. They are scheduled to be sentenced on February 10, 2027. U.S. Attorney Michael DiGiacomo credited the FBI, IRS Criminal Investigation, and the U.S. Postal Inspection Service with the investigation, and Assistant U.S. Attorneys Melissa M. Marangola and Kyle P. Rossi handled the prosecution.\n\nUnordered-merchandise billing is one of the oldest business-to-business frauds on record precisely because it targets a structural weak point rather than an individual's gullibility: a large company's invoice-processing pipeline is built for speed, not forensic verification, and a bill that looks routine, arrives on official-looking letterhead, and asks for a modest, easy-to-approve amount is far more likely to get paid than questioned. Federal law actually treats unordered merchandise as a gift the recipient owes nothing for — but that protection only helps a business that recognizes the bill as fraudulent in the first place.",
+    sourceUrl: "https://www.justice.gov/usao-wdny/pr/two-florida-men-plead-guilty-multi-million-dollar-fraud-scheme-stretched-across-country",
+  },
+);
+
+NotoriousAF.push(
+  {
+    title: "Leondo Davenport, Jonathan Ballew, and the Dohn Community High School Kickback Scheme",
+    slug: "leondo-davenport-jonathan-ballew-dohn-charter-school-fraud",
+    author: "ScamShield Editorial",
+    tags: ["notorious", "notorious-scammer"],
+    // representative photo — replace with an exact match if found
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Potter_Stewart_US_Federal_Courthouse,_Cincinnati,_OH_(33345461118).jpg?width=1200",
+    coverImageCredit: "Photo: Warren LeMay, CC0, via Wikimedia Commons — the Potter Stewart U.S. Courthouse in Cincinnati, home of the Southern District of Ohio",
+    coverImagePosition: 50,
+    body:
+      "Note: this case is a pending federal indictment. The allegations below are the government's, and as of this writing neither Leondo Davenport nor Jonathan Ballew has been convicted or found liable by a court.\n\nLeondo Ramone Davenport served as superintendent of Dohn Community High School, a Cincinnati charter school, from 2015 to 2019, then continued overseeing its operations and finances from 2019 through 2024 through an LLC he controlled, Cincinnati Charter School Collaborative. According to federal prosecutors, that continued access is what let him turn the school's own vendor-payment process into a personal revenue stream, with help from a business partner two states away.\n\nJonathan Larry Ballew, of Phoenix, Arizona, incorporated a string of companies — Core Educational Services, Capital School Services, Progressive Tech Solutions, and Elite Development Resources — nominally offering the school educational services, staffing, technology, and construction work. Prosecutors say Davenport authorized Dohn to pay more than $8 million to Ballew's companies between 2021 and 2024 for work that was never performed or was billed at inflated prices, including one stretch in which Capital School Services alone submitted $1.4 million in fraudulent invoices by May 2024. In return, the indictment alleges, Ballew kicked more than $4 million of that money back to Davenport, including $350,000 tied to a project on Gilbert Avenue.\n\nWhere the money went is what drew national attention to an otherwise familiar contractor-kickback scheme: prosecutors say Davenport bought a 2021 Rolls-Royce for $149,990 and Ballew a 2022 Bentley Continental for $67,222, and the two men split the cost of a $30,000-a-month vacation rental near Miami under a two-year agreement signed in October 2023. Dohn Community High School, which had operated since 2001, closed in March 2025, citing financial problems — leaving families like that of parent Toshia Harris, who had four children enrolled there, struggling afterward just to track down their kids' transcripts.\n\nA federal grand jury indicted Davenport, 50, and Ballew, 62, on September 3, 2026, following an investigation the FBI's Cincinnati field office opened after a tip to the Ohio Auditor's Office in the fall of 2024. Both men face eight counts, including wire fraud and engaging in monetary transactions in criminally derived property, exposing each of them to as much as 40 years in prison if convicted. \"Fraud against the government is fraud against every taxpayer, and we are all victims of these schemes,\" U.S. Attorney Dominick S. Gerace II said in announcing the charges.\n\nCommunity and charter schools depend on the same kind of trust every institution running on public funds does: a superintendent with authority to approve vendor invoices, and a state auditing system that can only catch fraud after a tip sends it looking. When the person approving the payments and the people receiving them are working together, an invoice for work that was never done can move through the system exactly like a legitimate one — until, as in this case, someone outside the arrangement finally asks where $8 million actually went.",
+    sourceUrl: "https://www.justice.gov/usao-sdoh/pr/grand-jury-indicts-former-community-school-superintendent-business-partner-8-million",
+  },
+);
+
+NotoriousAF.push(
+  {
+    title: "James Bradford and the VA Caregiver Benefits He Claimed While Running Multimillion-Dollar Federal Contracts",
+    slug: "james-bradford-va-caregiver-benefit-fraud",
+    author: "ScamShield Editorial",
+    tags: ["notorious", "notorious-scammer"],
+    // representative photo — replace with an exact match if found
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Colmery-O'Neil_VA_Medical_Center,_Topeka,_KS.jpg?width=1200",
+    coverImageCredit: "Photo: Jcakp, CC BY-SA 4.0, via Wikimedia Commons — the VA medical center in Topeka, Kansas, where Bradford's fraudulent claim originated",
+    coverImagePosition: 50,
+    body:
+      "Note: James Bradford was convicted by a federal jury on the charges described below; as of this writing, he has not yet been sentenced.\n\nJames Bradford, 49, an Army veteran living in Junction City, Kansas, took part in a Department of Veterans Affairs program built on a simple premise: veterans too disabled to manage their own daily lives can qualify a family member or another caregiver for monthly payments in exchange for that care. From August 2014 through July 2023, according to federal prosecutors, Bradford and his caregiver told the VA's Program of Comprehensive Assistance for Family Caregivers that Bradford could not manage his own medication, organize his own finances, or arrange his own transportation — claims serious enough to qualify the caregiver for ongoing monthly payments funded by taxpayers.\n\nWhat prosecutors say those statements left out was Bradford's day job. From May 2016 until 2025, Bradford worked as a project manager for the U.S. General Services Administration in Topeka, where his duties reportedly included overseeing multimillion-dollar contracts between GSA and its vendors — a level of professional responsibility that sits uneasily next to a caregiver application describing someone unable to manage his own medication schedule or bank account. Over nearly a decade, prosecutors say, Bradford collected more than $170,000 in caregiver benefit payments he was not entitled to receive.\n\nA federal jury in the District of Kansas convicted Bradford in August 2026 on one count of conspiracy to defraud the government and one count of theft of public money, property, or records; sentencing had not yet been scheduled as of this writing. \"Safeguarding benefits for veterans is a priority, and our investigators work diligently to ensure that VA's programs are not exploited for financial gain by fraudulent actors,\" said Gregory Billingsley, Special Agent in Charge at the VA Office of Inspector General, in announcing the conviction. GSA-OIG Special Agent in Charge Jorge Richardson added, \"Fraud against a program designed to provide essential care to veterans is unacceptable.\"\n\nThe VA's family caregiver program exists because some veterans genuinely cannot manage daily life without help, and the payments it provides are real support for real caregiving work. What investigators say caught up with Bradford wasn't a gap in the program's paperwork — it was the same kind of cross-check that catches a lot of benefits fraud: comparing what someone tells one government program about their own capabilities against what a different government program's own employment and contracting records already show about the same person.",
+    sourceUrl: "https://www.justice.gov/usao-ks/pr/jury-convicts-army-veteran-embellishing-health-issues-defraud-va",
+  },
+);
+
+NotoriousAF.push(
+  {
+    title: "Heidi Beirich and the Southern Poverty Law Center Informant-Payment Fraud Case",
+    slug: "heidi-beirich-southern-poverty-law-center-fraud",
+    author: "ScamShield Editorial",
+    tags: ["notorious", "notorious-scammer"],
+    // representative photo — replace with a portrait if found
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Frank_M_Johnson_Federal_Building_03.jpg?width=1200",
+    coverImageCredit: "Photo: Chris Pruitt, CC BY-SA 3.0, via Wikimedia Commons — the federal building in Montgomery, Alabama, where the case is being prosecuted",
+    coverImagePosition: 50,
+    body:
+      "Note: this entry describes pending federal indictments. Neither the Southern Poverty Law Center nor Heidi Beirich has been convicted of the charges described below, and both are presumed innocent unless and until proven guilty in court.\n\nThe Southern Poverty Law Center built its national reputation, and decades of donor trust, on tracking and exposing hate groups — the Ku Klux Klan, neo-Nazi organizations, and other violent extremist movements. In April 2026, a federal grand jury in the Middle District of Alabama indicted the organization itself on eleven counts, including wire fraud, false statements to a federally insured bank, and conspiracy to commit money laundering, alleging that between 2014 and 2023 the SPLC funneled roughly $3 million in tax-exempt donations to confidential informants embedded inside the groups it claimed to be dismantling — while telling its donors and its bank something different about where the money was going. The SPLC pleaded not guilty and has continued operating throughout the litigation.\n\nOn August 11, 2026, a second superseding indictment added the case's first individual defendant: Heidi Beirich, 59, who ran the SPLC's Intelligence Project — the unit responsible for tracking hate groups — until she left the organization in 2019. Prosecutors allege Beirich oversaw the payments to informants, and that the total funneled through a rotating cast of shell entities with names like Center Investigative Agency, Fox Photography, North West Technologies, Tech Writers Group, and Rare Books Warehouse grew to more than $4 million between 2007 and 2023. Some of that money, prosecutors allege, paid for the trappings of the very extremism the SPLC said it was fighting, including Ku Klux Klan robes and materials for a cross-burning ceremony.\n\nThe indictment against Beirich adds a personal dimension prosecutors say complicated her oversight of the arrangement: she is accused of having a romantic relationship with one paid informant, sharing a bank account with him, and receiving roughly $140,000 in SPLC donor money that flowed through that joint account between 2015 and 2021. Beirich is charged with wire fraud conspiracy, conspiracy to submit false statements to a federally insured bank, and conspiracy to commit concealment money laundering. She made her initial appearance in Riverside, California, was released on her own recognizance, and was ordered to surrender her passport and appear in Alabama. \"This is exactly what we said would happen in a case like this,\" Attorney General Todd Blanche said in announcing the charges. Beirich's attorney, Michael Proctor, countered that the prosecution amounted to punishing the work itself: \"She has dedicated her life to fighting the KKK, neo-Nazi groups, extremists... It is not just ironic, but terrible, that for this work she's been indicted.\"\n\nWatchdog groups, journalists, and law enforcement agencies routinely and legitimately pay sources embedded inside dangerous organizations for information — that practice is not, by itself, what turns into fraud. What prosecutors allege crossed the line in this case is the gap between what the SPLC told its donors and its bank the money was for, laundered through a chain of shell company names invented to obscure the real purpose of the payments, and what the organization was actually doing with it. Whether that gap amounts to criminal fraud, as opposed to a legitimate investigative practice described imprecisely to outsiders, is now a question for a federal jury in Alabama to decide.",
+    sourceUrl: "https://www.justice.gov/usao-mdal/pr/second-superseding-indictment-adds-defendant-and-charges-southern-poverty-law-center",
+  },
+);
+
+NotoriousAF.push(
+  {
+    title: "Sherwayne Bellinfantie, 'Ice Man,' and the Romance-and-Lottery Scheme That Took $469,000 from an Arizona Widow",
+    slug: "sherwayne-bellinfantie-ice-man-romance-lottery-scheme",
+    author: "ScamShield Editorial",
+    tags: ["notorious", "notorious-scammer"],
+    // representative photo — replace with an exact match if found
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Sandra_Day_O'Connor_United_States_Courthouse_-_Phoenix,_Arizona_(49343843277).jpg?width=1200",
+    coverImageCredit: "Photo: Tony Webster, CC BY-SA 2.0, via Wikimedia Commons — the Phoenix federal courthouse where Bellinfantie was indicted",
+    coverImagePosition: 50,
+    body:
+      "From December 2015 through January 2019, an elderly Arizona resident believed she had found two pieces of unlikely good fortune at once: a new romance, and a winning lottery ticket. According to federal prosecutors, both were fictions engineered by Sherwayne Benjamin Bellinfantie, a Jamaican national who went by the nickname \"Ice Man,\" and a network of co-conspirators working the two scams together as a single, mutually reinforcing con.\n\nThe romance came first. Bellinfantie and a co-conspirator courted the 85-year-old victim by phone, building the kind of trust a stranger asking for money never gets, reinforced with flowers and love notes sent to her home. Once that relationship was established, the pitch shifted: she was told she had won a lottery prize and a new vehicle, and that claiming them would require paying fees and taxes upfront — the same advance-fee mechanic behind decades of sweepstakes fraud, made more effective here because the person asking for the money was someone she believed loved her. Over more than three years, prosecutors say, she sent a total of approximately $469,302.\n\nA federal grand jury in the District of Arizona indicted Bellinfantie in March 2022, but he was in Jamaica and stayed there for years afterward. He was finally extradited to the United States on June 12, 2025, and on May 20, 2026, he pleaded guilty to one count of conspiracy to commit mail and wire fraud. As part of his plea, he agreed to pay the full $469,302 in restitution. His sentencing hearing was scheduled for August 18, 2026; as of this writing, the outcome of that hearing had not appeared in available court reporting.\n\nCombining a romance scam with a lottery scam is a deliberate pairing, not a coincidence: the romance supplies the trust that keeps a victim paying fee after fee without asking too many questions, while the lottery hook supplies a concrete, escalating reason for each new payment. A real sweepstakes or lottery never requires a winner to pay taxes or fees in advance to collect a prize — those are deducted from the winnings themselves — and a same-day online relationship with someone who consistently has a reason not to meet in person, and eventually needs money, is one of the most consistent patterns in elder financial fraud.",
+    sourceUrl: "https://www.justice.gov/usao-az/pr/jamaican-national-extradited-united-states-pleads-guilty-lottery-and-romance-scheme",
+  },
+);
+
+NotoriousAF.push(
+  {
+    title: "Andrea Bradley-Baskin: The Sitting Judge Charged with Looting the Wards Her Father's Law Firm Was Paid to Protect",
+    slug: "andrea-bradley-baskin-wayne-county-guardianship-fraud",
+    author: "ScamShield Editorial",
+    tags: ["notorious", "notorious-scammer"],
+    // representative photo — replace with an exact match if found
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Coleman_A._Young_Municipal_Center_2025.jpg?width=1200",
+    coverImageCredit: "Photo: WMrapids, CC0, via Wikimedia Commons — the Detroit building housing the Wayne County Probate Court",
+    coverImagePosition: 50,
+    body:
+      "Note: this entry describes a pending federal indictment. None of the defendants described below has been convicted, and each is presumed innocent unless and until proven guilty in court.\n\nGuardianship is one of the more quietly powerful roles the legal system hands out: a court appoints someone to manage the money, property, and daily affairs of a person the court has found incapable of managing them alone, on the trust that the appointee will act only in that person's interest. In Wayne County, Michigan, prosecutors say a small, interconnected group of people spent years treating that trust as a revenue stream instead. Nancy Williams owned Guardian and Associates, an agency the Wayne County Probate Court had appointed as fiduciary for incapacitated wards in more than 1,000 cases. Attorney Avery Bradley and his daughter, fellow attorney Andrea Bradley-Baskin, ran a law firm that regularly represented Guardian and Associates — and regularly practiced — in that same probate court. Bradley-Baskin now sits as a judge on Michigan's 36th District Court.\n\nA federal indictment unsealed in January 2026 charges Williams, Avery Bradley, Bradley-Baskin, and Dwight Rashad, who operated group homes and residential facilities for elderly and incapacitated people, with conspiring to systematically embezzle funds that belonged to wards and their estates. Among the specific transactions prosecutors cite: Bradley-Baskin allegedly used $70,000 in ward funds to buy an ownership stake in a bar, and separately used embezzled estate money to finance a two-year lease on a Ford Expedition for herself. Bradley, Williams, and Rashad are accused of misappropriating roughly $203,000 from a single ward's legal settlement. And Williams is accused of having Guardian and Associates pay Rashad rent for wards who were not actually living in his facilities — payments for care that, on paper, was being provided to people who weren't there.\n\nAll four defendants face a charge of conspiracy to commit wire fraud. Bradley additionally faces a substantive wire fraud count; Bradley, Bradley-Baskin, and Rashad each face multiple money laundering counts; and Bradley-Baskin alone faces a charge of making a false statement to a federal law enforcement agent. The case was investigated jointly by IRS Criminal Investigation and the FBI. \"This state judge and her cronies allegedly abused that high honor for personal gain by preying on the needy protected by the court,\" said U.S. Attorney Jerome F. Gorgon Jr. in announcing the charges.\n\nA probate guardianship system depends on an unusually thin layer of outside checking: a judge approves a guardian's appointment, the guardian reports back to that same court, and the wards themselves — by definition — have been found legally unable to object on their own behalf. When the guardian, the guardian's lawyers, and eventually a judge who once appeared before that same court all move in the same small professional circle, the review meant to catch self-dealing can end up staffed by the very people it's supposed to be checking. Family members and advocates for a ward under a similar arrangement can request an independent accounting of the estate through the probate court — a right that exists precisely because a guardian's own paperwork, standing alone, is not verification that a ward's money went where it was supposed to.",
+    sourceUrl: "https://www.justice.gov/usao-edmi/pr/sitting-judge-and-three-others-charged-scheme-steal-hundreds-thousands-dollars",
+  },
+);
+
+NotoriousAF.push(
+  {
+    title: "Donald Danks and the Loop Industries Insider Stock Scheme That Netted Him $4 Million",
+    slug: "donald-danks-loop-industries-securities-fraud",
+    author: "ScamShield Editorial",
+    tags: ["notorious", "notorious-scammer"],
+    // representative photo — replace with an exact match if found
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/San_Diego,_2016_-_302.jpg?width=1200",
+    coverImageCredit: "Photo: Another Believer, CC BY-SA 4.0, via Wikimedia Commons — the San Diego federal courthouse where Danks was tried",
+    coverImagePosition: 50,
+    body:
+      "Donald Danks helped bring Loop Industries, Inc. — a company pitching a technology to recycle plastic into virgin-quality PET resin — to the public markets, working with associates to reverse-merge it into a publicly traded shell company and later serving on its board of directors and audit committee. That position gave him years of access to nonpublic information about the company, which federal prosecutors say he used to enrich himself while telling investors something very different about his own trading.\n\nAccording to prosecutors, Danks and a former associate secretly created and controlled Ventanas Capital LLC, a shell company they used to hold and sell hundreds of thousands of shares of Loop stock without disclosing that Danks was the real party behind it — going so far as to invent fictitious Ventanas employees to help obscure his role. While soliciting outside investors to purchase more than $100 million worth of Loop stock, at times directing them to buy specific volumes at specific prices, Danks publicly represented that he was buying shares himself, even as he was quietly selling them through Ventanas to help finance his and his associate's lifestyle. Although securities rules required him to disclose his control and trading of Loop stock, prosecutors say he never disclosed the sales made through Ventanas. In total, Danks profited more than $4 million from the scheme.\n\nWhen the SEC and FBI opened an investigation, prosecutors say Danks escalated rather than stopped. He and his associate fabricated and backdated promissory notes to make Ventanas's stock holdings look like the product of ordinary loans made years earlier; trial evidence showed the documents were actually all prepared around the same time, after the investigation had already begun. Danks then testified about those backdated notes during his first trial without disclosing when they were really created, and separately encouraged his associate to repeat his false account of who controlled their shell company — conduct that added witness tampering, obstruction of justice, and perjury charges on top of the original securities fraud counts. That first trial ended in a mistrial.\n\nOn September 9, 2026, following a two-week retrial in the U.S. District Court for the Southern District of California, a federal jury in San Diego convicted Danks, of Irvine, California, of conspiracy to commit securities fraud, witness tampering, obstruction of justice, and perjury. As of this writing, he had not yet been sentenced. Danks had first been indicted in November 2022 alongside Canadian resident David Stephens, fellow Californian Jonathan Destler, and stock promoter Robert Lazerus over the same Loop Industries scheme, in a case federal prosecutors described as an international pump-and-dump and money-laundering operation.\n\nDanks's case shows how a corporate insider's access can outlive the official role that created it: he kept trading on nonpublic Loop information for years after leaving day-to-day involvement with the company, using a shell company purpose-built to erase his own fingerprints from the trades. And once regulators started asking questions, the same instinct that drove the original fraud — controlling the story rather than telling the truth about it — is what turned a securities case into one that also included witness tampering and perjury.",
+    sourceUrl: "https://finchannel.com/former-director-of-nasdaq-company-convicted-of-securities-fraud/134915/crime/2026/09/",
+  },
+);
+
+NotoriousAF.push(
+  {
+    title: "Sherif Elmasri and the $20.7 Million New Jersey Pharmacy Kickback Ring",
+    slug: "sherif-elmasri-nj-pharmacy-kickback-scheme",
+    author: "ScamShield Editorial",
+    tags: ["notorious", "notorious-scammer"],
+    // representative photo — replace with an exact match if found
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/MonmouthCountyCourtHouse.jpg?width=1200",
+    coverImageCredit: "Photo: KForce, CC BY-SA 3.0, via Wikimedia Commons — the Monmouth County Courthouse in Freehold, NJ, near the pharmacy scheme",
+    coverImagePosition: 50,
+    body:
+      "Sherif Elmasri owned pharmacies in Monmouth County, New Jersey, and built a version of a familiar health care fraud around a simple exchange: cash for prescriptions. According to federal prosecutors, from October 2022 through November 2025, Elmasri paid a rotating group of doctors, nurse practitioners, and office staff to steer patients toward specific high-reimbursement medications he selected — regardless of whether the patients medically needed them — so his pharmacies could bill Medicare and Medicaid for the resulting prescriptions.\n\nThe scheme ran through several different points in the prescribing chain, prosecutors say. Dr. Boris Veysman, 48, an emergency medicine physician in Freehold, accepted payments from Elmasri in exchange for writing prescriptions for patients Elmasri referred to him, at times without examining them at all. Advanced practice nurses Nikki Steidle, 53, of Toms River, and Ashlee Maixner, 39, of Lakehurst, were each charged with accepting illegal kickbacks for issuing prescriptions the same way. At a Jersey City neurology practice, office manager Janet Tadros, 59, of Union City, took roughly $3,000 a week in cash between December 2023 and November 2025 in exchange for routing medically unnecessary prescriptions to Elmasri's pharmacies — prescriptions prosecutors say were sometimes issued without the patient ever being evaluated, or even without the prescribing provider's knowledge. Separately, Stephanie Cupo, 45, of South Plainfield, submitted false prior-authorization information, using another provider's DEA registration number without permission, to help get the prescriptions approved for payment. Prosecutors say the full scheme cost Medicare and Medicaid approximately $20.7 million.\n\nElmasri, Veysman, Cupo, and Tadros have each pleaded guilty to charges including conspiracy to commit health care fraud and violating the federal Anti-Kickback Statute; Veysman, Steidle, and Maixner were also charged with conspiring to unlawfully distribute controlled substances by issuing prescriptions without properly evaluating patients. Maixner has pleaded not guilty, and as of this writing the charges against her remain allegations a court has not resolved. The U.S. Attorney's Office for the District of New Jersey, under U.S. Attorney Robert Frazer, announced the charges in 2026.\n\nA kickback scheme like this one works by corrupting the two safeguards a prescription is supposed to represent: a provider's independent medical judgment about what a patient actually needs, and a pharmacy's role as a neutral party filling that judgment rather than shaping it. When the pharmacy owner is the one selecting which medications get prescribed and paying prescribers directly for volume, the resulting paperwork can look identical to legitimate care for years — the fraud typically only becomes visible once someone compares how much of a specific, expensive drug is flowing through one small group of providers against how many patients could plausibly need it.",
+    sourceUrl: "https://www.rlsmedia.com/article/six-charged-206m-medicare-medicaid-kickback-nj",
+  },
+);
+
+NotoriousAF.push(
+  {
+    title: "Shamarri Tache Brooks and the 'Sauce Book' Stolen Check Business",
+    slug: "shamarri-brooks-sauce-book-check-fraud",
+    author: "ScamShield Editorial",
+    tags: ["notorious", "notorious-scammer"],
+    // representative photo — replace with an exact match if found
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/USPS_mailboxes.jpg?width=1200",
+    coverImageCredit: "Photo: EraserGirl, CC BY 2.0, via Wikimedia Commons — USPS mail collection boxes, the kind targeted in the stolen-check scheme",
+    coverImagePosition: 50,
+    body:
+      "Shamarri Tache Brooks, who performed and marketed himself online as a rapper under the name Juney Knotzz, built a fraud business out of stolen mail. According to federal prosecutors in the Northern District of Georgia, from at least January 2022 through November 2025, Brooks recruited people over social media to serve as \"depository\" accountholders, then altered checks stolen from the U.S. mail to list those recruits as the payees before depositing the checks at ATMs around the Atlanta area — often while wearing a balaclava-style mask branded with the phrase \"No Free Sauce.\"\n\nBrooks didn't stop at running the scheme himself. He turned the mechanics of check fraud into a product, selling a collection of instructional tutorials under the brand \"Sauce Book,\" or \"SB,\" and separately selling images of the stolen checks themselves — marketed as \"slips\" — to other aspiring fraudsters. Prosecutors say Brooks and his associates stole checks with a combined face value of $6,574,288, though law enforcement recovered many of the physical checks from Brooks's own home before he could negotiate them, limiting the actual loss to victims.\n\nBrooks, 34, of Stone Mountain, Georgia, pleaded guilty on May 7, 2026, to bank fraud and aggravated identity theft, and was sentenced on August 27, 2026, to six years in federal prison followed by five years of supervised release. \"In addition to personally committing bank fraud, Brooks brazenly marketed and sold fraud tutorials and trafficked thousands of stolen checks worth millions of dollars,\" said U.S. Attorney Theodore S. Hertzberg. \"Thankfully, Brooks's ineptitude matched his boldness — his efforts to negotiate the checks failed, sparing his victims from any known loss. ... Although Brooks sought to teach his followers how to commit fraud, the real lesson here is that crime does not pay. We will catch you, and you will go to prison — even if your scheme is unsuccessful.\" The case was investigated jointly by the FBI, the FDIC's Office of Inspector General, the U.S. Secret Service, and the U.S. Postal Service's Office of Inspector General — a reflection of how many different federal agencies a single check-fraud operation touches once it moves through the mail, the banking system, and social media all at once.\n\nBrooks's case is a reminder that check fraud has become a franchisable business model rather than a one-off crime: a social media following lets someone like Brooks recruit an entire supply chain — mail thieves, accountholders willing to launder deposits, and paying students eager to learn the technique — without ever meeting most of them in person. The countermeasures law enforcement recommends are almost entirely about interrupting checks at the mailbox: picking up mail promptly, filing a USPS Hold Mail request while traveling, signing up for Informed Delivery to see what's actually coming, and enrolling in positive pay protections with your bank — because once a stolen check reaches someone selling tutorials on how to alter and deposit it, the fraud is already several steps ahead of most individual victims' ability to catch it.",
+    sourceUrl: "https://www.justice.gov/usao-ndga/pr/convicted-felon-fraud-promoter-sentenced-federal-prison-scheme-involving-65-million",
+  },
+);
+
+NotoriousAF.push(
+  {
+    title: "Fred Wagenhals, Robert Wiley, and the Banned Executive AMMO Inc. Told Auditors Had Quit",
+    slug: "fred-wagenhals-robert-wiley-christopher-larson-ammo-fraud",
+    author: "ScamShield Editorial",
+    tags: ["notorious", "notorious-scammer"],
+    // representative photo — replace with an exact match if found
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Nasdaq_MarketSite_(51494550508).jpg?width=1200",
+    coverImageCredit: "Photo: ajay_suresh, CC BY 2.0, via Wikimedia Commons — the Nasdaq MarketSite, where AMMO Inc. was publicly listed",
+    coverImagePosition: 50,
+    body:
+      "Note: this entry describes an SEC civil complaint filed December 15, 2025. None of the three defendants named below has been found liable, and the case remains in litigation as of this writing.\n\nFred Wagenhals and Christopher Larson co-founded AMMO, Inc. in 2016 and built it into a Nasdaq-listed ammunition manufacturer that, in May 2021, closed a $240 million acquisition of GunBroker.com, the largest online firearms marketplace — the biggest deal in the company's history. What investors weren't told, according to the SEC, was that one of the two men who built AMMO wasn't supposed to be running a public company at all: in a settlement of an earlier, unrelated SEC fraud case, Larson had consented in June 2020 to a federal court judgment barring him for five years from acting as an officer or director of any public company, and the SEC separately suspended him from practicing before it as an accountant.\n\nRather than have Larson step back, the SEC's complaint alleges that CEO Wagenhals and CFO Robert Wiley spent the next two-plus years hiding that he never left. In August 2020, after AMMO's outside auditor learned Larson was still working there, Wagenhals told the auditor \"Chris quit,\" and he and Wiley signed a management representation letter falsely certifying that Larson was \"not employed by the Company and he will not return as an employee.\" According to the complaint, that was fiction: emails show Larson continuing to review press releases, join lender calls, and give investment bankers direction on financing the same week the letter was signed, and text messages show Wiley and an in-house attorney discussing how to \"create a paper trail\" and even drafting a backdated separation agreement so the story would hold up with auditors — one internal message described the goal as covering the company \"until they are fired,\" referring to the audit firm. When AMMO switched to a new auditor in 2021, the SEC says Wagenhals and Wiley told that firm Larson had been \"terminated and rehired in an operational capacity\" and was \"no longer involved in the financial function\" — even as Larson was, by the SEC's account, leading the GunBroker.com negotiations and drawing an executive-level paycheck throughout, and was in fact AMMO's second- or third-highest-paid executive in three of the four years at issue.\n\nThe SEC also accuses Larson of using his undisclosed influence to steer money to himself and his family: AMMO paid $25 million to a Wisconsin construction company owned by Larson's brother to build a new manufacturing facility, funneled a payment obligation through a shell company tied to Larson's wife and father-in-law, and paid a credit-card processor that, unknown to AMMO, kicked back roughly $815,000 to a company Larson controlled. None of those related-party dealings, the SEC says, were disclosed in AMMO's public filings at the time. AMMO restated three years of financial statements in May 2025 after an internal investigation, disclosed the related-party transactions and Larson's true role for the first time, and later renamed itself Outdoor Holding Company.\n\nThe SEC's complaint, filed in the U.S. District Court for the District of Arizona, seeks permanent injunctions, officer-and-director bars, and civil penalties against all three men, disgorgement of Larson's gains, and reimbursement from Wagenhals and Wiley of bonuses and stock profits under the Sarbanes-Oxley Act's clawback provision. As of this writing, no criminal charges have been publicly reported, and Wagenhals, Wiley, and Larson have not filed a public response to the SEC's allegations.\n\nAn officer-and-director bar is only as effective as a company's willingness to actually enforce it, and this case turns on the SEC's allegation that the two executives who signed AMMO's public filings spent years manufacturing paperwork specifically designed to make an enforced ban look honored on paper while the banned executive kept running large parts of the business behind it.",
+    sourceUrl: "https://www.sec.gov/files/litigation/complaints/2025/comp26446.pdf",
+  },
+);
+
+NotoriousAF.push(
+  {
+    title: "Alexander Brola and the Credit Glory Network's $200 Million Fake Credit Repair Scheme",
+    slug: "alexander-brola-credit-glory-credit-repair-fraud",
+    author: "ScamShield Editorial",
+    tags: ["notorious", "notorious-scammer"],
+    // representative photo — replace with an exact match if found
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/FTC_headquarters.jpg?width=1200",
+    coverImageCredit: "Photo: Postdlf, CC BY-SA 3.0, via Wikimedia Commons — FTC headquarters, the agency that sued Credit Glory's network",
+    coverImagePosition: 50,
+    body:
+      "Note: this entry describes a civil complaint the FTC filed August 10, 2026. A federal court has granted a temporary restraining order halting the operation, but none of the individuals named below has been found liable, and the allegations are the government's, not a proven judgment.\n\nSince at least 2016, Alexander Brola ran Credit Glory LLC — incorporated at various points in three different states — as the flagship brand of a much larger network the FTC says was built specifically to look like more than seventeen separate, unrelated businesses. Alongside Brola, the FTC named four other principals, Liam Emery, Marko Petkovic, Joshua Curtis, and David Naylor, and a sprawling list of affiliated entities carrying names like Credit Sage, Joy Credit Software, Clerk Credit Systems, Standard Scores, Credit Cop, Glorious Credit, and Joyful Credit — a naming pattern the complaint says was designed to make consumers feel like they were dealing with an independent, specialized service each time, rather than the same operation cycling through a new shingle.\n\nAccording to the FTC's complaint, filed in the U.S. District Court for the District of Arizona, the network found customers largely through paid Google search ads, deliberately targeting vulnerable consumers, including military servicemembers, with promises to erase negative marks and quickly raise credit scores. The pitch to a caller typically started small: telemarketers said they needed to charge a single dollar to \"verify\" the consumer's identity or pull a credit report. That token charge opened the door to the real business model — hundreds of dollars in upfront fees collected before any credit-repair work was performed, a practice the Credit Repair Organizations Act specifically bans because it lets an operator get paid whether or not the promised results ever materialize. On top of the illegal upfront fees, the FTC alleges the defendants imposed recurring monthly charges consumers hadn't clearly agreed to, impersonated debt collectors and original creditors when contacting consumers about their own accounts, and filed false identity-theft reports on the federal government's own IdentityTheft.gov portal — without the consumers' knowledge — using fabricated claims that legitimate debts were the result of identity theft, in an attempt to get real, accurate negative items erased from credit files under false pretenses.\n\nThe FTC estimates the network extracted nearly $200 million from consumers over roughly a decade using these tactics. \"Using paid Google search ads to target and deceive vulnerable consumers, including military servicemembers, through falsely promising to improve their credit is egregious behavior that will not be tolerated by the FTC,\" said Christopher Mufarrige, Director of the FTC's Bureau of Consumer Protection, in announcing the case. The court granted the FTC's request for a temporary restraining order freezing the defendants' assets and halting the operation while the case proceeds; the FTC is seeking a permanent injunction, consumer redress, and disgorgement of the money the defendants took in.\n\nCredit repair is one of the few consumer-facing industries where federal law draws an unusually bright line — no upfront fee, ever, before the promised results are delivered — precisely because the entire pitch trades on a consumer's desperation to fix something that's actively hurting them financially right now. A company that asks for even one dollar before doing any work, dresses that request up as routine \"verification,\" and then operates through more than a dozen interchangeable brand names is showing, in its own structure, that the point was never to build one trustworthy credit-repair business; it was to make sure that when regulators or reviewers caught up to one name, a dozen others were already running the same fee schedule under a different sign.",
+    sourceUrl: "https://www.ftc.gov/news-events/news/press-releases/2026/08/ftc-stops-sprawling-credit-repair-scheme-scammed-consumers-out-nearly-200-million",
   },
 );

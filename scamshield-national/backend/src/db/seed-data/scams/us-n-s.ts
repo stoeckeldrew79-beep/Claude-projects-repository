@@ -5758,3 +5758,194 @@ UsNS.push({
     isHistorical: true,
     firstRecorded: '2026-03-16',
 });
+
+UsNS.push({
+    name: 'VGW "Sweeps Coin" Illegal Online Sweepstakes Casino Settlement',
+    slug: 'new-york-vgw-sweepstakes-casino-settlement',
+    description: `VGW Holdings Pty. Ltd. and its affiliates ran three online sweepstakes-casino platforms — Chumba Casino, Global Poker, and Luckyland Slots — that let New Yorkers play traditional casino-style games using virtual "sweeps coins" the company marketed as free promotional currency but that an Attorney General investigation found players actually bought, receiving roughly one coin for every dollar spent, the same way a player buys chips at a real casino. Those coins could then be redeemed for cash or prizes, meaning the platforms offered real-money gambling outside any state licensing, regulatory audit, or oversight, leaving players — some of whom lost tens of thousands of dollars — with no recourse if the games were unfair. Attorney General Letitia James issued a cease-and-desist letter in June 2025 that halted VGW's virtual-coin gambling operations in New York, and Governor Kathy Hochul signed a law formally banning sweepstakes casinos statewide in December 2025. On September 9, 2026, James announced VGW agreed to pay $8 million in disgorgement, penalties, and costs to resolve the state's claims. New Yorkers are advised that a platform describing its currency as "free" or a "promotional sweepstakes" is not proof the underlying game is legal or regulated — if coins purchased with real money can be cashed out for money or prizes, it functions as gambling regardless of what it is called, and unlicensed online casino-style sites operating in New York can be reported to the Attorney General's office.`,
+    categorySlug: 'lottery-sweepstakes-scams',
+    alertLevel: 'medium',
+    sources: ["New York Attorney General's Office (Letitia James)"],
+    sourceUrl: 'https://ag.ny.gov/press-release/2026/attorney-general-james-secures-8-million-leading-operator-illegal-online',
+    country: 'US',
+    state: 'NY',
+    isHistorical: true,
+    firstRecorded: '2026-09-09',
+});
+
+UsNS.push({
+    name: 'Holly Christina Photography Wedding Deposit and No-Show Scheme',
+    slug: 'north-carolina-holly-christina-photography-wedding-scheme',
+    description: `Holly Christina Photography, run by Holly Christina Scott Ayscue and Christopher Owen Ayscue out of the Raleigh area, took deposits and full advance payments from engaged couples across North Carolina for wedding photography and videography packages, then routinely failed to deliver — sending unapproved substitute photographers, double- and triple-booking more than 60 wedding dates (in some cases five weddings scheduled at once), pressuring couples with false "last spot available" urgency, and abruptly shutting down on January 25, 2026, leaving at least 24 couples with weddings booked within 90 days and no photographer or refund. Attorney General Jeff Jackson sued the company and its owners on February 24, 2026, when the state had already logged 166 complaints and about $750,000 in losses; he said the business "left engaged couples and newlyweds stranded without a wedding photographer, without refunds, and without memories from one of the most important days of their lives." By May 2026, complaints had grown to 228 and losses to roughly $1 million, and a Superior Court judge granted a preliminary injunction freezing the company's assets, barring it from doing further business in North Carolina, and ordering the defendants to turn over every unedited and edited photo and video within 30 days. When the defendants did not fully comply, Jackson filed a motion for default judgment on September 2, 2026, seeking nearly $600,000 in consumer restitution and over $1.1 million in civil penalties. Couples booking a wedding vendor are advised to avoid paying the full balance far in advance, to get delivery timelines and backup-photographer terms in writing, and to pay by credit card rather than by cash app or wire transfer so a disputed charge can potentially be reversed.`,
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'medium',
+    sources: ["North Carolina Department of Justice (Attorney General Jeff Jackson)", 'WRAL'],
+    sourceUrl: 'https://ncdoj.gov/attorney-general-jeff-jackson-asks-judge-for-default-judgment-in-holly-christina-photography-case/',
+    country: 'US',
+    state: 'NC',
+    isHistorical: true,
+    firstRecorded: '2026-02-24',
+});
+
+UsNS.push({
+    name: 'Puerto Rico TikTok Luxury Property Rental Deposit Scam',
+    slug: 'puerto-rico-daco-tiktok-luxury-rental-deposit-scam',
+    description: `Puerto Rico's Department of Consumer Affairs (DACO) issued a public alert on July 18, 2026 warning about fraudulent TikTok videos advertising luxury homes for rent in exclusive developments in the municipalities of Dorado, Gurabo, and Humacao at prices far below what those neighborhoods actually command — around $600 a month for properties that would normally rent for many times that. The accounts behind the videos hide their identities behind generic avatar profile pictures rather than a real name or a licensed brokerage, and once a prospective renter expresses interest, they're asked to send an advance deposit of at least $300 to "process" the rental — a rental that never materializes, since DACO says the listings don't come from any authorized real estate broker. "El precio que anuncian busca captar la atención de la víctima, luego piden $300 por adelantado para 'procesar' el caso. Esto es un esquema, no es real" ("The price they advertise is meant to grab the victim's attention, then they ask for $300 upfront to 'process' the case. This is a scheme, it isn't real"), DACO Secretary Hiram Torres Montalvo said in announcing the alert, noting the department regulates real estate professionals under Puerto Rico's Law 10-1994. Anyone considering a rental found through a TikTok video or other social media post is advised to verify that the person advertising it is a licensed real estate broker before sending any money, to be skeptical of a rental price that undercuts comparable listings in the same neighborhood by a wide margin, and to insist on an in-person or live-video tour of the actual unit before wiring a deposit to someone who has only shown a promotional video. Suspected rental scams can be reported to DACO through its "DACO a tu favor" social media accounts or at www.daco.pr.gov.`,
+    categorySlug: 'rental-housing',
+    alertLevel: 'medium',
+    sources: ['Puerto Rico Department of Consumer Affairs (DACO)', 'NotiCel', 'Telemundo Puerto Rico'],
+    sourceUrl: 'https://noticel.com/noticias/20260718/daco-alerta-sobre-esquema-de-alquileres-de-propiedades-de-lujo/',
+    country: 'US',
+    state: 'PR',
+    isHistorical: true,
+    firstRecorded: '2026-07-18',
+});
+
+UsNS.push({
+    name: 'New York AI-Powered Tax Season Scam Alert',
+    slug: 'new-york-ai-powered-tax-season-scam-alert',
+    description: `New York Attorney General Letitia James issued a consumer alert on April 1, 2026 warning that "scammers are increasingly using sophisticated AI programs to create more deceptive schemes this tax season," detailing four AI-driven tactics her office had identified. Fraudsters now generate deepfake videos of government officials or celebrities appearing to promote fake tax incentives or deductions; send phishing emails written by AI that are personalized enough to overcome the typo- and grammar-based detection tips consumers used to rely on, disguised as tax notices or preparation offers; use AI voice-cloning to replicate the voice of an IRS official or a taxpayer's own tax preparer on a call, pairing it with a spoofed caller ID and references to real, recent transactions to sound convincing while demanding payment or personal information; and exploit Google's AI Overview search feature, which can surface a fraudulent contact number or link alongside otherwise-legitimate tax information for someone searching for help. The alert also flagged more familiar tax-season schemes still active alongside the AI-driven ones: fake debt collectors demanding payment through gift cards, cryptocurrency, or prepaid cards; false claims that a legitimate refund was sent in error and must be repaid; deceptive "free" tax preparation offers that carry hidden fees; and predatory preparers charging excessive fees or steering clients into high-interest refund-anticipation loans. James advised New Yorkers to independently verify any unexpected tax-related call, email, or video before responding, use free resources like IRS Free File or a VITA site rather than an unfamiliar "free" offer, check a preparer's credentials through the Better Business Bureau, and remember that no legitimate government agency threatens arrest or demands payment through gift cards, cryptocurrency, or wire transfer; suspected scams can be reported to her office at 1-800-771-7755.`,
+    categorySlug: 'ai-deepfake-scams',
+    alertLevel: 'high',
+    sources: ["New York Attorney General's Office (Letitia James)"],
+    sourceUrl: 'https://ag.ny.gov/press-release/2026/attorney-general-james-offers-tips-protect-consumers-fraud-during-tax-season',
+    country: 'US',
+    state: 'NY',
+    isHistorical: true,
+    firstRecorded: '2026-04-01',
+});
+
+UsNS.push({
+    name: 'Nevada Wildfire Unlicensed Contractor and Insurance-Splitting Scam',
+    slug: 'nevada-wildfire-unlicensed-contractor-insurance-scam',
+    description: `After the Bug, Stallion, and Hawk fires burned through the Horizon Hills area near Reno in early September 2026, the Nevada State Contractors Board (NSCB) warned residents that unlicensed contractors were already showing up at fire-damaged homes offering cleanup and rebuilding work. NSCB investigator Fred Schoenfeldt said the operators typically demand payment up front, then either disappear without finishing the job or complete it with poor workmanship, leaving homeowners to pay again for a licensed contractor to redo the work. Schoenfeldt said the callers "will get the money, as much money as they can up front. They won't complete the job or if they work on the job, it is poor workmanship." The Board also flagged a related insurance-fraud variant in which an unlicensed operator offers to bill the homeowner's insurance company an inflated amount for the repair and then split the extra money with the homeowner — a scheme that itself constitutes insurance fraud and can leave the homeowner facing a denied claim or criminal exposure alongside a botched repair. Red flags NSCB urged fire victims to watch for include a contractor who cannot produce a valid Nevada contractor's license (or who has only a general business license), one who insists on full payment before work begins, and one who won't put the job in a written contract. Nevada homeowners are advised to verify any contractor's license status directly through the Nevada State Contractors Board at nvcontractorsboard.com before signing anything or handing over a deposit, and to report suspected unlicensed contracting to the Board rather than paying to make the problem go away.`,
+    categorySlug: 'home-improvement-solar',
+    alertLevel: 'high',
+    sources: ['Nevada State Contractors Board', 'KOLO 8 News Now'],
+    sourceUrl: 'https://www.kolotv.com/2026/09/09/unscrupulous-contractors-expected-appear-after-bug-stallion-hawk-fires/',
+    country: 'US',
+    state: 'NV',
+});
+
+UsNS.push({
+    name: 'North Carolina Voter Registration Drive Worker Impersonation Scheme',
+    slug: 'north-carolina-voter-registration-drive-impersonation-scheme',
+    description: `The North Carolina State Board of Elections announced on February 13, 2026 that it was investigating reports of misconduct by voter registration drive workers in at least seven counties — Brunswick, Buncombe, Chowan, Haywood, Nash, Scotland, and Wake — including workers who went door-to-door falsely claiming to be county or state election officials. Investigators say some workers told voters they needed to "re-register" to remain eligible to vote in upcoming elections, which is false: a registered voter does not need to re-register unless they have moved to a new county. Other complaints involve registration applications submitted with missing or inaccurate information, such as wrong dates of birth or incorrect voter ID numbers, that can cause real problems for the voters whose names are on them. "The State Board will investigate all credible allegations of voter registration fraud," said State Board Executive Director Sam Hayes, noting that falsified or mishandled forms "can cause problems for innocent voters" who may not learn there was an issue until they try to cast a ballot. The State Board advises North Carolinians approached by a registration drive worker to ask for identification and verify the worker's affiliation before providing any personal information, to submit a completed registration form directly to the county board of elections rather than handing it back to the canvasser, and to check their own registration status anytime using the State Board's online Voter Search tool. Suspected misconduct can be reported to the State Board's Investigations Division at (919) 814-0700 or investigations.sboe@ncsbe.gov, or through an Election Law Complaint Form filed with the State Board.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['North Carolina State Board of Elections'],
+    sourceUrl: 'https://www.ncsbe.gov/news/press-releases/2026/02/13/state-board-investigating-reports-misconduct-voter-registration-drive-workers',
+    country: 'US',
+    state: 'NC',
+});
+
+UsNS.push({
+    name: 'New York Child Care Licensor Impersonation Scam',
+    slug: 'new-york-child-care-licensor-impersonation-scam',
+    description: `New York's Office of Children and Family Services (OCFS) warns that licensed and registered child care programs are being contacted by individuals falsely claiming to be OCFS or state Department of Health employees. In one recurring version, the caller gives the provider the real name of their actual assigned licensor or registrar — information that makes the call sound credible — then says the purpose of the contact is to schedule the provider for a vaccine appointment, supplying a fabricated "password" to use when booking it and asking for personal information to add the provider to a vaccination list; providers who don't comply are sometimes threatened with having their program shut down. Related contacts have the caller claim to be scheduling a compliance inspection or asking a provider to confirm case information, then pressing for a Social Security number, and other callers have simply offered free supplies while name-dropping the program's actual regulator to sound legitimate. OCFS states plainly that neither it nor the Department of Health calls child care programs to schedule vaccinations or hand out free supplies, and that no caller should be given personal information unless a provider has independently confirmed the caller is their actual licensor or registrar, ideally by hanging up and calling the regional office back using a number looked up separately rather than one the caller provides. New York child care operators who receive one of these calls are directed to report it to their regional OCFS office rather than acting on any instructions given during the call.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['New York State Office of Children and Family Services (OCFS)', 'Child Care Solutions (Syracuse Regional Child Care Resource & Referral Agency)'],
+    sourceUrl: 'https://ocfs.ny.gov/programs/childcare/news/scams.php',
+    country: 'US',
+    state: 'NY',
+});
+
+UsNS.push({
+    name: 'Pennsylvania PennDOT Traffic Violation Text Scam',
+    slug: 'pennsylvania-penndot-traffic-violation-text-scam',
+    description: `Pennsylvania Attorney General Dave Sunday issued a consumer alert after residents reported text messages impersonating the Pennsylvania Department of Transportation (PennDOT) that threaten to report the recipient to a "DMV violation database," suspend their vehicle registration, suspend driving privileges for 30 days, or pursue prosecution over an unpaid traffic ticket unless a linked payment page is used right away. Several versions of the text even include the line "Do not click on the link or copy the link into your browser" — a false note of caution scammers insert specifically because it makes the message read like a legitimate compliance notice rather than a phishing attempt. "PennDOT does not send text messages about traffic violations or fines," Sunday said, confirming the messages have no connection to the real agency. The Attorney General's Office recommends deleting the text without clicking any link, reporting it as spam to your wireless carrier, and filing a complaint with the Bureau of Consumer Protection online, by calling 1-800-441-2555, or by emailing scams@attorneygeneral.gov with a screenshot of the message attached.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Pennsylvania Office of Attorney General'],
+    sourceUrl: 'https://www.attorneygeneral.gov/taking-action/ag-dave-sunday-warns-of-scam-texts-alleging-to-be-from-the-pennsylvania-department-of-transportation/',
+    country: 'US',
+    state: 'PA',
+});
+
+UsNS.push({
+    name: 'New Jersey Division of Taxation Refund Text Scam',
+    slug: 'new-jersey-division-of-taxation-refund-text-scam',
+    description: `New Jersey's Division of Taxation warns that scam text messages are circulating that impersonate the agency and reference a pending tax refund, a payment due, or an account issue, urging recipients to click a link to "verify your bank information," check a refund, or make a payment. The linked pages are built to look like official Division of Taxation pages but are designed to harvest bank account numbers and other financial details; the Division states it will never contact taxpayers out of the blue by text to ask for Social Security numbers, bank account details, or payment by gift card or cryptocurrency. The alert lands amid a broader wave of near-identical smishing campaigns impersonating state revenue agencies that surfaced across multiple states starting in the fall of 2025. New Jersey residents who receive one of these texts are told not to respond, click any link, or provide personal information, and to forward the message to 7726 (SPAM) to report it to their wireless carrier before deleting it.`,
+    categorySlug: 'tax-scams',
+    alertLevel: 'medium',
+    sources: ['New Jersey Division of Taxation'],
+    sourceUrl: 'https://www.nj.gov/treasury/taxation/scamalert.shtml',
+    country: 'US',
+    state: 'NJ',
+});
+
+UsNS.push({
+    name: 'Sora AI Video App Copycat Scam',
+    slug: 'sora-ai-video-app-copycat-scam',
+    description: `When OpenAI launched its invite-only Sora app for AI-generated video on September 30, 2025, demand outran the limited number of invite codes almost immediately — and within days, more than a dozen unrelated apps using "Sora" or "Sora 2" branding and near-identical icons appeared in Apple's App Store to capture the overflow of searches from people who couldn't get in the front door. A TechCrunch investigation published October 9, 2025 found these copycats had drawn roughly 300,000 combined installs, more than 80,000 of them after OpenAI's own launch, and had collectively pulled in over $160,000 in revenue; the single largest impostor, listed as "Sora 2 – AI Video Generator," accounted for more than 50,000 installs on its own. Rather than providing real access to OpenAI's video model, the copycats functioned as bait: some charged a subscription before delivering anything resembling the advertised AI video generation, while a parallel wave of "invite code" sellers and cloned Sora login sites circulated on social media, which OpenAI's own moderators publicly warned were phishing risks after some users who entered their credentials on a fake site lost control of their real OpenAI account. Security researchers have since documented the same clone-and-capture pattern hitting other suddenly viral AI apps, with thousands of near-identical ChatGPT and DALL-E impostors found across the Apple and Google app stores using copied names, logos, and app-store descriptions to ride a real product's launch buzz. Anyone downloading a newly hyped AI app should install it only from the verified developer account linked on the real company's own website or official announcement, check the app's publisher name and review history rather than trusting its icon or ranking in search results, and never enter an OpenAI, Google, or other account password on a third-party site offering to sell or "unlock" an invite code.`,
+    categorySlug: 'ai-deepfake-scams',
+    alertLevel: 'medium',
+    sources: ['TechCrunch'],
+    sourceUrl: 'https://techcrunch.com/2025/10/09/sora-copycats-flooded-apples-app-store-and-some-still-remain/',
+    country: 'US',
+});
+
+UsNS.push({
+    name: 'Northern Mariana Islands Supreme Court Clerk Spoofed Jury Duty Call',
+    slug: 'northern-mariana-islands-supreme-court-clerk-jury-duty-call-scam',
+    description: `The Northern Mariana Islands Judiciary warned the public on October 22, 2025 about callers falsely claiming to represent the Supreme Court Clerk's Office, with some of the reported calls reaching people in the continental United States rather than only on Saipan. The scammers use caller ID spoofing so the call display shows the Judiciary's real phone number, then tell the recipient they missed jury duty or owe money on a nonexistent traffic citation and must report to the Clerk's Office immediately or pay a fee right away to avoid arrest. Recipients who engage are pressured to pay using prepaid debit cards, gift cards, wire transfers, cryptocurrency, or a payment app, or to hand over a Social Security number and bank or card details to "resolve" the fabricated case. The Judiciary stated plainly that it "does not call, email, or text to demand payment or personal information for court-related matters," and recommended hanging up immediately without answering any questions, never trusting caller ID (since it can be spoofed to show a real court number), deleting suspicious texts or emails without clicking any link, and verifying any claimed court matter only by calling the Judiciary directly using a number looked up independently rather than one the caller provides. Anyone who feels physically threatened during one of these calls is told to contact 911, and suspected scam calls can be reported to the CNMI Department of Public Safety, the FTC, or the FBI's Internet Crime Complaint Center (IC3).`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Northern Mariana Islands Judiciary'],
+    sourceUrl: 'https://www.nmijudiciary.gov/news/northern-mariana-islands-judiciary-warns-public-about-scam-calls',
+    country: 'US',
+    state: 'MP',
+    isHistorical: true,
+    firstRecorded: '2025-10-22',
+});
+
+UsNS.push({
+    name: 'PowerSchool Breach Child Identity Theft and Repeat District Extortion',
+    slug: 'powerschool-breach-child-identity-theft-district-extortion',
+    description: `A hacker exploited a single stolen credential to break into PowerSchool, the student-information system used by thousands of K-12 districts across the U.S. and Canada, stealing records on roughly 60 million students and 10 million teachers — names, phone numbers, Social Security numbers, home addresses, and in many cases medical histories and other health data tied to individual students. PowerSchool received a $2.85 million Bitcoin ransom demand on December 28, 2024 and paid it, believing the deal would keep the data from being released, but that did not end the exposure: by May 2025, the same stolen dataset was being used to extort individual school districts directly, with attackers sending district administrators samples of their own students' records as proof the threat was real and demanding a second, separate payment despite PowerSchool's ransom already having been paid. Matthew D. Lane, a then-19-year-old Assumption University student from Sterling, Massachusetts, pleaded guilty to cyber extortion conspiracy, cyber extortion, unauthorized access to protected computers, and aggravated identity theft, admitting he also tried to extort a U.S. telecommunications company for $200,000 using a separate stolen dataset; a federal judge sentenced him on October 14, 2025 to four years in prison, three years of supervised release, a $25,000 fine, and $14,075,540.58 in restitution. Because a child's Social Security number has no credit history attached to it, stolen student data like this can be used to open fraudulent credit accounts that go undetected for years — often not discovered until the child applies for their first credit card, car loan, or student loan as a young adult. South Carolina's Department of Consumer Affairs, whose alert warned that "scam artists follow the headlines," urged parents statewide to contact Experian, TransUnion, and Equifax directly to check whether a credit file already exists in their child's name — since minors typically shouldn't have one at all — and to place a free protective consumer freeze on that file if their state offers it. Parents of any student whose school district uses PowerSchool or a similar system should take that step regardless of which state they live in, watch for follow-up phishing emails or calls that cite real details from their child's school record to sound legitimate, and treat any unsolicited message referencing the breach as a reason to verify independently through the school district or PowerSchool's own notifications rather than by replying or clicking a link.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'high',
+    sources: ['U.S. Department of Justice', 'South Carolina Department of Consumer Affairs'],
+    sourceUrl: 'https://www.justice.gov/usao-ma/pr/worcester-college-student-sentenced-four-years-prison-cyber-extortions',
+    country: 'US',
+    isHistorical: true,
+    firstRecorded: '2024-12-28',
+});
+
+UsNS.push({
+    name: 'Structured Settlement Buyout "Independent Advice" Scheme',
+    slug: 'structured-settlement-buyout-independent-advice-scheme',
+    description: `Structured settlement buyout companies advertise "cash now" for the future payments someone is owed under a court-approved settlement — typically from a personal injury or wrongful-death case — offering a lump sum in exchange for signing away the right to years or decades of scheduled payments. Every state's Structured Settlement Protection Act requires a judge to approve any such transfer, and most require the seller to first receive independent professional advice about whether the deal is actually in their interest, a safeguard meant to protect people from being talked into trading away guaranteed future income for far less than it's worth. Access Funding LLC, headquartered in Chevy Chase, Maryland, defeated that safeguard by steering consumers to an attorney, Charles Smith, who was held out as independent but was in fact paid directly by Access Funding itself — a conflict of interest the company never disclosed. Between 2013 and 2015, according to the Consumer Financial Protection Bureau, Access Funding obtained the rights to nearly $18 million in future structured settlement payments from about 100 Maryland residents, offering roughly 30% of the present value of those payments; more than 70% of the sellers were victims of childhood lead-paint poisoning, a population the company's own executives referred to internally as "lead-paint virgins" when discussing prime targets who were financially desperate and, in some cases, cognitively impaired. The CFPB sued Access Funding and executives Lee Jundanian and Raffi Boghosian in the U.S. District Court for the District of Maryland in November 2016; a stipulated final judgment entered December 17, 2021 ordered $40,000 in disgorgement and a $10,000 civil penalty, and permanently barred the defendants from referring consumers to any individual or for-profit entity offering "independent" advice on a structured settlement sale. Anyone approached about selling structured settlement payments should get their own attorney or financial advisor — one they found and are paying themselves, not one recommended or paid for by the buyout company — before signing anything, and should ask a court-appointed advisor directly whether they have any financial relationship with the company making the offer.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'medium',
+    sources: ['Consumer Financial Protection Bureau'],
+    sourceUrl: 'https://www.consumerfinance.gov/about-us/newsroom/cfpb-takes-action-against-access-funding-and-its-leadership-for-misleading-consumers-with-structured-settlements/',
+    country: 'US',
+    state: 'MD',
+    isHistorical: true,
+    firstRecorded: '2013-01-01',
+});
+
+UsNS.push({
+    name: 'Rock Line Equipment Fake Heavy Machinery Dealer Website',
+    slug: 'rock-line-equipment-fake-heavy-machinery-dealer-scam',
+    description: `Rock Line Equipment, also operating under the name Reliable Equipment Hub, built a professional-looking online storefront advertising tractors, excavators, and loaders at steep discounts, complete with brand-name listings, fabricated customer reviews, and warranty promises — but the Better Business Bureau found the business had no real inventory, no genuine physical location, and no actual connection to the legitimate Kansas dealers whose identities it borrowed to look credible. The site listed an address in Kansas City, Kansas that turned out not to exist, and falsely claimed a relationship with Skyland Industrial LLC, a real, unaffiliated Kansas equipment dealer, while a legitimate business called Road Builders also found its name used on fraudulent purchase agreements and began fielding confused calls from would-be buyers. Victims across the country wired money to "secure" heavy equipment that never arrived, with reported losses reaching about $51,000 by the time the BBB opened its investigation in April 2026; the registered website domain itself had only ever been paid for one year, set to expire in March 2027 — a telltale sign of a site built to be abandoned once the scheme ran its course. The BBB has referred the case to the Kansas Attorney General's Office and the Kansas City, Kansas Police Department, and warns that requests for payment by wire transfer only, prices listed far below market value, and a seller who goes silent once payment is sent are the clearest signs of a fraudulent equipment dealer. Anyone shopping for heavy equipment online should insist on inspecting the machinery in person or through a live video call before paying anything, verify a dealer's physical address independently rather than trusting the one listed on its own website, pay by credit card or another method that allows a dispute rather than a wire transfer, and search the business name alongside the word "scam" and check its BBB profile before sending money for equipment priced well below what comparable listings charge.`,
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'high',
+    sources: ['Better Business Bureau'],
+    sourceUrl: 'https://www.bbb.org/us/ks/kansas-city/profile/not-elsewhere-classified/rock-line-equipment-0714-1000081179',
+    country: 'US',
+    state: 'KS',
+});
+
+UsNS.push({
+    name: 'Perplexity Comet Browser Fake Download and Malvertising Scam',
+    slug: 'perplexity-comet-browser-fake-download-scam',
+    description: `When Perplexity launched its AI-powered Comet browser in July 2025, threat actors moved almost immediately to exploit the launch buzz rather than wait for the real product to reach every interested user. A threat-intelligence report published October 23, 2025 by BforeAI identified a cluster of typosquatted domains — including perplexitycomet-ai.com, aicometbrowser.com, cometai.net, cometai.app, cometailab.com, cometai.site, cometaibrowser.com, and cometbrowser.net — registered across GoDaddy, Namecheap, Dynadot, Hostinger, REG.RU, and other registrars specifically to imitate the browser's name, hosting fake download pages, SEO-poisoned results targeting searches like "comet browser download," and in some cases installers bundled with malware rather than the real software. Separately, on the eve of Comet's iOS release, Perplexity's own CEO, Aravind Srinivas, warned on social media on October 17, 2025 that "the Comet app currently on iOS App Store is fake and spam and not from Perplexity," after a fraudulent listing appeared under the real product's name before the legitimate app had shipped. Because AI tools launch quickly, roll out to new platforms in stages, and get breathless tech-press coverage, the gap between an announcement and a company's own official release on a given platform creates a window where a copycat download page, app-store listing, or paid search ad can capture users searching for the product by name who have no way yet to compare it against the real thing. Anyone trying a newly launched AI app or browser should get it only from the link on the company's own official website or verified account, check that an app's publisher name matches the real company rather than trusting its icon or search ranking, and avoid downloading installers from ads, forum posts, or any domain that merely contains the product's name rather than the company's own domain.`,
+    categorySlug: 'ai-deepfake-scams',
+    alertLevel: 'medium',
+    sources: ['BforeAI', 'Business Standard'],
+    sourceUrl: 'https://bfore.ai/report/malicious-activity-surrounding-perplexity-comet-browser-launch-threat-research/',
+    country: 'US',
+});

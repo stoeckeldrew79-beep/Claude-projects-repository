@@ -6,8 +6,8 @@ import { useInfiniteScroll } from '../hooks/useInfiniteScroll';
 import type { Article } from '../types';
 import { useDocumentMeta } from '../hooks/useDocumentMeta';
 import { NotoriousCoverArt } from '../components/NotoriousCoverArt';
+import { CoverImage } from '../components/CoverImage';
 import { BlurFade } from '../components/magicui/blur-fade';
-import { coverImageSrc, coverImageSrcSet, COVER_SIZES } from '../utils/coverImage';
 
 function excerpt(text: string, length = 160): string {
   const plain = text.replace(/[#*_`]/g, '').replace(/\s+/g, ' ').trim();
@@ -195,18 +195,16 @@ export default function Articles() {
             >
               <div className="h-40 sm:h-48 overflow-hidden bg-slate-100">
                 {article.cover_image ? (
-                  <img
-                    src={coverImageSrc(article.cover_image, 500)}
-                    srcSet={coverImageSrcSet(article.cover_image)}
-                    sizes={COVER_SIZES}
+                  <CoverImage
+                    src={article.cover_image}
+                    alt={article.title}
+                    slug={article.slug}
+                    position={article.cover_image_position ?? 50}
                     // The first few are above the fold and worth fetching at
                     // once; the rest would otherwise all download together and
                     // queue the ones being scrolled to behind the ones behind.
-                    loading={i < 4 ? 'eager' : 'lazy'}
-                    decoding="async"
-                    alt={article.title}
+                    priority={i < 4}
                     className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
-                    style={{ objectPosition: `50% ${article.cover_image_position ?? 50}%` }}
                   />
                 ) : (
                   <NotoriousCoverArt slug={article.slug} className="h-full transition-transform duration-500 group-hover:scale-105" />

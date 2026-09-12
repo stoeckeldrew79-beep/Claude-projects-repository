@@ -8225,6 +8225,10 @@ NotoriousGM.push(
     slug: 'gregory-anderson-womens-cancer-fund-charity-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Photo_of_Pink_ribbon.jpg?width=1200',
+    coverImageCredit: 'Photo: Monash University, CC BY-SA 4.0, via Wikimedia Commons — a pink ribbon, the cancer-awareness symbol',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2024/03/ftc-10-states-take-action-against-operator-sham-cancer-charity-deceiving-donors',
     body: `Gregory B. Anderson ran Cancer Recovery Foundation International, Inc., a nonprofit that did business under a name designed to pull at heartstrings: the Women's Cancer Fund. Telemarketers working the phones on the charity's behalf told prospective donors their gifts would "help save lives" and go "directly" toward basic living expenses — rent, groceries, utilities — for women undergoing cancer treatment, with some callers claiming as much as half of every donation would reach survivors directly.
 
@@ -8242,6 +8246,10 @@ NotoriousGM.push(
     slug: 'james-trankle-fake-charity-check-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Blank_check.jpg?width=1200',
+    coverImageCredit: 'Photo: Mario Lurig, CC0, via Wikimedia Commons — a blank personal bank check',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.justice.gov/usao-dc/pr/maryland-man-sentenced-five-years-scheme-bilked-benevolent-donors-charitable',
     body: `James Trankle, of Churchton, Maryland, and a co-defendant, Stephen Sibert, spent from 2013 to 2018 registering a string of charities with Washington, D.C.'s Department of Consumer and Regulatory Affairs under names built to sound both sympathetic and legitimate: the Disabled and Paralyzed Veterans Fund, the National Breast Cancer Awareness Fund, and the Children's Leukemia of America Fund. None of them, prosecutors said, functioned as real charities at all.
 
@@ -8250,5 +8258,325 @@ The pair mailed solicitations to potential donors nationwide, asking recipients 
 Trankle and Sibert then used the banking and routing information printed on those same 1,600-plus donor checks to manufacture a second layer of fraud: more than 700 unauthorized counterfeit checks, drawn against the donors' own accounts and payable to the fraudulent charities, which the pair deposited and spent on personal expenses. That counterfeiting scheme brought in well over $150,000 more, pushing the total scheme's take toward $200,000 — meaning that people who thought they'd made a one-time donation to a veterans' or cancer charity had unknowingly handed over the information needed to keep being victimized long after their check cleared.
 
 A federal jury in the District of Columbia convicted Trankle in May 2023 of conspiracy to commit mail and bank fraud along with five substantive counts of bank fraud. U.S. District Judge Trevor N. McFadden sentenced him that December to 60 months in federal prison, followed by five years of supervised release, and ordered $204,561 in restitution alongside forfeiture of $135,327. Trankle's scheme is a reminder that a charitable check carries more risk than the amount written on its face: the same account and routing numbers that let a legitimate charity deposit a gift can, in the hands of a fraudster, be reused to print entirely new checks against a donor's account — a second theft made possible only because the first one, disguised as generosity, was trusted enough to go unquestioned.`,
+  },
+);
+
+NotoriousGM.push(
+  {
+    title: "John R. Brodacki III and the Castle Hill Clients Who Were Elderly, Sick, and Trusting",
+    slug: 'john-brodacki-castle-hill-financial-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Massachusetts_State_House,_Boston,_Massachusetts.jpg?width=1200',
+    coverImageCredit: 'Photo: Christian David, CC BY-SA 4.0, via Wikimedia Commons — the Massachusetts State House in Boston',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
+    sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26519',
+    body: `John R. Brodacki III worked as an investment adviser in Massachusetts for roughly two decades, running his own firm, Castle Hill Financial Group, LLC. According to the Securities and Exchange Commission, Brodacki built a client base that skewed toward exactly the kind of people fiduciary rules exist to protect: from at least June 2018 through September 2025, the SEC alleges, he and Castle Hill targeted advisory clients who were elderly, retired, or seriously ill, telling them their money would be invested for their own benefit or the benefit of their relatives.
+
+The SEC's complaint says that isn't what happened to it. Of at least 18 advisory clients, Brodacki and Castle Hill allegedly misappropriated approximately $1.68 million — spending client funds on Brodacki's own lifestyle, including lavish meals, membership fees at exclusive social clubs, tuition, and travel, while also funneling client money to other advisory clients and to Brodacki's own family members rather than investing it as promised. Using one client's funds to make payments connected to another client, instead of the investments each was told they were funding, is the same rob-Peter-to-pay-Paul mechanic that defines a Ponzi scheme, even on the comparatively small, one-adviser scale the SEC describes here.
+
+The case took an unusual turn before it was even filed. Brodacki died around March 23, 2026, and the SEC filed its civil complaint in the U.S. District Court for the District of Massachusetts on April 2, 2026 — naming his estate, rather than Brodacki himself, as a defendant alongside Castle Hill Financial Group. The complaint charges violations of Sections 206(1) and 206(2) of the Investment Advisers Act of 1940, the core anti-fraud provisions governing the fiduciary duty an adviser owes a client, and seeks disgorgement with prejudgment interest from both the estate and Castle Hill, plus a civil penalty and permanent injunction against the firm. Castle Hill itself had already been involuntarily dissolved by the Commonwealth of Massachusetts as of December 31, 2025. Because Brodacki died before the SEC's allegations were tested in court, and because this is a civil action rather than a criminal prosecution, what's described here remains an allegation the estate has not been found liable for — but it illustrates a genuine gap in investor protection: when a fraud's architect dies, a case against what he left behind can still proceed, even though he himself will never answer for it in any courtroom.
+
+Brodacki's alleged victims are a reminder of why regulators treat elderly and seriously ill clients as a specially protected class: a scheme that quietly diverts a fraction of a client's account for seven years can go undetected for exactly as long as nobody outside the relationship is checking the statements — which is precisely the population least likely, because of age, illness, or trust in a longtime adviser, to be checking closely themselves. Anyone managing a parent's or relative's investment accounts should ask for, and actually read, the underlying account statements from the custodian directly — not just an adviser's own summary — since a summary is exactly what a scheme like this one depends on going unquestioned.`,
+  },
+);
+
+NotoriousGM.push(
+  {
+    title: 'Loretta Pyeatt and the Grocery-Money Debit Card That Drained a Disabled Veteran\'s Savings',
+    slug: 'loretta-pyeatt-dent-county-caregiver-theft',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Dent_County_Courthouse,_Salem,_Missouri.jpg?width=1200',
+    coverImageCredit: 'Photo: Steveewatkins, CC BY-SA 4.0, via Wikimedia Commons — the Dent County Courthouse in Salem, Missouri',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
+    sourceUrl: 'https://www.justice.gov/usao-edmo/pr/dent-county-caregiver-admits-stealing-client',
+    body: `In rural Dent County, Missouri, a man living on Social Security retirement and Veterans Affairs disability benefits hired Loretta Pyeatt, 52, as an in-home caregiver starting around July 2023. Part of the arrangement was ordinary and sensible: he gave her his debit cards so she could run errands and buy groceries on his behalf, a convenience thousands of families extend to caregivers every day.
+
+According to federal prosecutors, Pyeatt turned that convenience into a two-year drain on the man's life savings. Before she started working for him, his account showed a normal pattern of 20 to 30 debit transactions a month; after she took over the shopping, that number ballooned to as many as 330 transactions in a single month, as she allegedly used the cards for cash withdrawals and purchases that had nothing to do with groceries. When Pyeatt began, the victim had at least $232,026 in his account on top of his monthly benefit payments; by July 2025, prosecutors say, the balance had fallen to less than $5,600.
+
+Pyeatt pleaded guilty in the U.S. District Court for the Eastern District of Missouri in St. Louis to one count of fraud in connection with access devices, admitting she had stolen at least $321,000 from her client between July 2023 and September 2025. The charge carries a maximum penalty of 15 years in prison and a $250,000 fine; as of this writing, her sentencing is scheduled for December 9, 2026.
+
+Caregiver theft like this is one of the hardest forms of elder and disabled-adult financial exploitation to catch precisely because it doesn't require breaking in anywhere — the victim hands over the card himself, to someone he has invited into his home and daily life to help him. Families arranging in-home care for an aging or disabled relative can blunt this risk with tools that don't depend on trust alone: setting up real-time text or email alerts for every debit transaction, giving a separate family member read-only online access to the account, or capping the card's daily withdrawal and purchase limits to what groceries and errands actually cost — so that a pattern like 20 transactions a month becoming 330 gets flagged automatically, long before a life savings account quietly empties out.`,
+  },
+);
+
+NotoriousGM.push(
+  {
+    title: 'Jess Kinmont and John Wenz Jr.: The Timeshare Resale Company That Never Sold a Single Timeshare',
+    slug: 'jess-kinmont-john-wenz-pro-timeshare-resales-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Condo_building_at_310_2nd_St_S,_Jacksonville_Beach,_Florida,_2019-03-07-4412.jpg?width=1200',
+    coverImageCredit: 'Photo: Tim Kiser, CC BY-SA 4.0, via Wikimedia Commons — a Florida condominium building',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
+    sourceUrl: 'https://www.justice.gov/usao-ndga/pr/owners-timeshare-resale-company-sentenced-federal-prison-defrauding-over-8000-victims',
+    body: `Timeshares are notoriously hard to sell — the resale market is thin, prices are a fraction of what owners originally paid, and plenty of owners just want out. Jess Kinmont and John P. Wenz Jr. built a business in Florida squarely around that frustration: from January 2012 to December 2016, their company, Pro Timeshare Resales, cold-called timeshare owners nationwide and told them a buyer or renter was already lined up, sometimes naming a specific closing date to make the pitch feel concrete and urgent.
+
+There was no buyer. According to federal prosecutors, Pro Timeshare Resales charged owners upfront fees of up to $2,500 to secure the supposed sale, then came back for additional "closing cost" fees once owners were already invested in the deal going through — and in five full years of operation, the company never actually sold or rented a single timeshare interest. Owners who asked for their money back once the promised closing fell through were routinely denied or simply ignored. Investigators tracing the scheme's scale found it had reached more than 8,000 victims nationwide, many of them elderly, for total losses exceeding $18 million; a 2018 federal seizure tied to the pair recovered $2.055 million in cash along with two homes, vehicles, and jewelry.
+
+Wenz pleaded guilty to wire fraud conspiracy in April 2021. Kinmont was convicted as well, and on October 12, 2023, Chief U.S. District Judge Timothy C. Batten Sr. of the Northern District of Georgia sentenced Kinmont, then 57, to seven years in federal prison followed by three years of supervised release, plus $11,699,376 in restitution; Wenz received three years and ten months in prison, also followed by three years of supervised release, and was ordered to pay nearly $5 million in restitution. Both men were permanently banned from ever working in the timeshare resale or telemarketing industries again.
+
+The case is a useful gut-check for anyone who owns a timeshare and gets an unsolicited call claiming a buyer is ready and waiting: real estate transactions, timeshares included, are conventionally structured so that an agent or broker gets paid at closing, out of the sale proceeds — not months beforehand, out of the seller's own pocket, for a sale that hasn't happened yet. An upfront fee tied to a "guaranteed" buyer who somehow never quite closes, repeated across thousands of victims over five straight years, is close to the purest version of that red flag on record.`,
+  },
+);
+
+NotoriousGM.push(
+  {
+    title: 'Michael Lauer: The Hedge Fund Manager the SEC Called "Egregious" and a Miami Jury Acquitted',
+    slug: 'michael-lauer-lancer-management-hedge-fund-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/James_Lawrence_King_Federal_Justice_Building.jpg?width=1200',
+    coverImageCredit: 'Photo: Carol Bean, CC BY-SA 3.0, via Wikimedia Commons — federal courthouse, Miami',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
+    body: `Michael Lauer ran a family of hedge funds — Lancer Offshore, Lancer Partners LP, and related vehicles — through his firm, Lancer Management Group, pitching investors a small- and micro-cap stock strategy that, on paper, delivered years of unusually consistent, strong returns. Between the late 1990s and 2003, Lauer raised more than $1.1 billion from investors drawn in by that track record.
+
+According to the SEC, the returns behind that record were manufactured rather than earned. From November 1999 through April 2003, Lauer took large, often controlling positions in seven thinly traded microcap stocks that made up a substantial share of the funds' reported holdings, then traded those stocks in ways the SEC said were designed to move their prices — effectively marking up his own portfolio's value whenever he needed the funds to look profitable. Investors reading their account statements had no way of knowing that much of the value behind their money existed largely because Lauer himself had set the price of the stock underneath it, and the SEC said he provided no legitimate basis at all for the valuations placed on the shell corporations that filled out the rest of the funds' holdings.
+
+The SEC sued Lauer, Lancer Management, and a set of related trusts in 2003, freezing assets and putting the funds into receivership. In September 2008, U.S. District Judge Kenneth A. Marra granted the SEC summary judgment, finding Lauer's conduct "egregious, pervasive, premeditated," and later ordered him to pay roughly $62 million in disgorgement plus prejudgment interest — a judgment the U.S. Court of Appeals for the Eleventh Circuit went on to affirm. Investors in Lancer's funds are estimated to have lost somewhere between $200 million and $500 million.
+
+A separate criminal prosecution reached a very different result. Federal prosecutors in Miami charged Lauer with wire fraud and conspiracy carrying a potential sentence of up to 25 years in prison, but on April 27, 2011, a jury acquitted him on all counts after deliberating more than three days. The split outcome — liable for securities fraud in civil court under a preponderance-of-the-evidence standard, but acquitted of the same underlying conduct by a criminal jury applying proof beyond a reasonable doubt — is a reminder that regulatory and criminal cases built on identical facts can land in opposite places, and that a federal judge calling a scheme "egregious, pervasive, and premeditated" does not automatically translate into a criminal conviction for the person found to have run it.`,
+    sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-20751',
+  },
+{
+    title: 'Hava Yfrah Austin: The Bookkeeper Whose $9.8 Million Embezzlement Fed a Casino Gambling Habit',
+    slug: 'hava-yfrah-austin-plantation-bookkeeper-gambling-embezzlement',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Plantation_Preserve_Golf_Course_%26_Club_in_July_2024.jpg?width=1200',
+    coverImageCredit: 'Photo: Gatorfan252525, CC BY-SA 4.0, via Wikimedia Commons — Plantation, Florida',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
+    body: `Hava Yfrah Austin owned and ran Accounting Solutions Today, P.A., a bookkeeping and tax-preparation business in Plantation, Florida, and for years served as the long-time outside bookkeeper for one client company in particular — a role that gave her signature authority over that company's own bank accounts, the same trusted access an in-house employee would have.
+
+From 2018 through April 2024, according to federal prosecutors, Austin used that authority to siphon roughly $9.8 million out of her client's accounts, concealing the theft by falsifying accounting entries and inventing fake vendor names so the missing money appeared, on paper, to be ordinary business expenses rather than payments to herself. Prosecutors said she funneled much of what she stole into gambling — betting it away at local casinos and on online gaming platforms — and then compounded the fraud by failing to report the stolen income on her own tax returns, later pleading guilty to filing a false income tax return alongside a wire fraud charge.
+
+Austin was sentenced on September 19, 2025, by Chief U.S. District Judge Cecilia M. Altonaga to 51 months in federal prison, along with forfeiture and restitution tied to the nearly $10 million she took. "This defendant betrayed the trust placed in her, stole nearly $10 million, and gambled it away," said U.S. Attorney Jason A. Reding Quiñones. IRS Criminal Investigation led the probe, and Assistant U.S. Attorneys Jon Juenger and Nicole Grosnoff prosecuted the case.
+
+Austin's case is a reminder that the "trusted bookkeeper" role — whether an employee or, as here, an outside contractor with standing access to a client's accounts — is one of the highest-value embezzlement positions precisely because it combines the authority to move money with the authority to record how that movement gets described in the books. A business that hands one person both jobs, with no separate set of eyes reconciling the bank statements against the ledger, has no way to catch the gap until, as in Austin's case, it has grown into eight figures.`,
+    sourceUrl: 'https://www.justice.gov/usao-sdfl/pr/former-plantation-bookkeeper-sentenced-federal-prison-98-million-embezzlement-scheme',
+  },
+);
+
+NotoriousGM.push(
+  {
+    title: 'Caleb Maddix, Ryan O\'Donnell, Thomas Lancer, and the Air AI Business Opportunity Scam',
+    slug: 'caleb-maddix-air-ai-business-opportunity-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2026/03/air-ai-its-owners-will-be-banned-marketing-business-opportunities-settle-ftc-charges-company-misled',
+    // representative photo — replace with an exact match if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/FTC_headquarters.jpg?width=1200',
+    coverImageCredit: 'Photo: Postdlf, CC BY-SA 3.0, via Wikimedia Commons — FTC headquarters, which brought the Air AI case',
+    coverImagePosition: 50,
+    body: `Caleb Maddix built a public profile as a teenage "success" influencer and business coach years before he turned 22 — a persona built on the promise that hustle and confidence could substitute for experience. That persona became the public face of Air AI, a company he ran alongside Ryan O'Donnell and Thomas Lancer that pitched itself as a shortcut into the artificial-intelligence boom: an "AI-driven business opportunity" that, the trio told prospective buyers, could earn a small business owner as much as $250,000.
+
+According to a Federal Trade Commission complaint filed in August 2025 in the U.S. District Court for the District of Arizona, that promise was the hook for a sales operation running since at least February 2023. Air AI Technologies, Inc. and five affiliated companies — doing business under names including Air.ai and Scale 13 — charged small-business owners $25,000 to $100,000 in upfront license fees for what the FTC described as AI-powered software bundled with business-coaching support. In practice, the complaint alleges, the software was frequently glitchy or simply unavailable, the earnings claims bore no resemblance to what typical buyers actually made, and the "buy-back" and refund guarantees the company used to close reluctant buyers were misrepresented and rarely honored when customers tried to invoke them.
+
+Some small-business owners lost as much as $250,000 chasing the results Air AI had promised, the FTC said, with several ending up in debt rather than the profitable AI-powered business they had paid to build. On March 24, 2026, Maddix, O'Donnell, Lancer, and their companies settled the FTC's case, agreeing — without admitting or denying the underlying allegations — to a permanent ban from ever again marketing, promoting, or selling a business opportunity, along with restrictions on telemarketing claims and unsubstantiated earnings representations. The settlement included an $18 million monetary judgment that was largely suspended based on the defendants' documented inability to pay the full amount, with the operators required to pay $50,000 toward consumer redress instead. "Companies that market AI-related tools with false promises of unrealistic investment returns and guaranteed refunds harm hardworking small business owners and undermine legitimate business's adoption of AI," said Christopher Mufarrige, Director of the FTC's Bureau of Consumer Protection, in announcing the settlement.
+
+The Air AI case landed in the middle of a wave of "AI-washing" enforcement, where regulators have gone after companies that use the artificial-intelligence label to make an old sales pitch — pay a large upfront fee for a business opportunity that will supposedly make you rich — sound like access to cutting-edge technology instead. A business opportunity charging five- or six-figure license fees up front, built around an earnings promise that sounds too specific and too large to be a normal outcome, carries the same warning signs whether it's selling vending machines, a franchise, or an "AI-driven" software license — and under the FTC's Business Opportunity Rule, any seller is legally required to back its earnings claims with a written disclosure document, something the FTC's case found Air AI never actually provided.`,
+  },
+);
+
+NotoriousGM.push(
+  {
+    title: 'Quannah Fields Harris and the Last Minute Cuts GI Bill Fraud Scheme',
+    slug: 'quannah-fields-harris-last-minute-cuts-va-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-wdtn/pr/memphis-woman-sentenced-8-years-federal-prison-defrauding-department-veterans-affairs',
+    // representative photo — replace with an exact match if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Barbershop_haircutting_session_(51210140096).jpg?width=1200',
+    coverImageCredit: 'Photo: Hair Spies, CC BY 2.0, via Wikimedia Commons — representative barbershop photo, not the actual school',
+    coverImagePosition: 50,
+    body: `Quannah Fields Harris ran Last Minute Cuts School of Barbering and Cosmetology out of a storefront on South Third Street in downtown Memphis from 2014 to 2019, a state-licensed vocational school that gave her access to one of the federal government's most generous education benefits: the Post-9/11 GI Bill, which pays a veteran's tuition directly to the school and a separate monthly housing stipend to the veteran.
+
+According to the U.S. Attorney's Office for the Western District of Tennessee, Harris turned that arrangement into a years-long fraud by enrolling veterans who barely attended class, if they attended at all. Prosecutors said the school certified attendance and academic progress to the Department of Veterans Affairs for students who took few or no classes, sat no exams, and never earned the state barbering or cosmetology license the program was supposed to lead to — while the VA kept sending tuition payments to the school and housing stipends to the "students" on the strength of Harris's false paperwork. The scheme let Harris collect VA tuition funds for instruction that was, in large part, never actually delivered, ultimately costing the department more than $2.9 million.
+
+A federal jury convicted Harris on October 29, 2025, of conspiracy to defraud the United States and wire fraud, following an investigation by the VA's Office of Inspector General and IRS Criminal Investigation. On February 2, 2026, U.S. District Judge John T. Fowlkes Jr. sentenced her to 96 months — eight years — in federal prison and ordered her to pay $2,905,853.09 in restitution to the VA. "Victimizing the VA harms veterans and deserves significant punishment," U.S. Attorney D. Michael Dunavant said in announcing the sentence, adding that Harris would "spend every 'last minute' of her lengthy sentence in federal prison for her crimes against our nation's best."
+
+The Last Minute Cuts case is a reminder that GI Bill fraud doesn't always look like a scammer cold-calling a veteran directly — it can run through an accredited-looking school that veterans chose for themselves, trusting that a state-licensed program would actually deliver the training it billed the VA for. The VA pays tuition based largely on a school's own certification of attendance and progress, a system that depends on the institution being honest about what's actually happening in its classrooms, and years of falsified paperwork at Last Minute Cuts show how long a fraud built entirely on that trust can run before anyone checks whether the students behind the invoices ever showed up.`,
+  },
+);
+
+NotoriousGM.push(
+  {
+    title: 'Brandon "Dutch" Mendenhall, Amy Vaughn, and the RAD Diversified REIT Collapse',
+    slug: 'brandon-dutch-mendenhall-rad-diversified-reit-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26596',
+    // representative photo — replace with an exact match if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/U.S._Securities_and_Exchange_Commission_headquarters.JPG?width=1200',
+    coverImageCredit: 'Photo: AgnosticPreachersKid, CC BY-SA 3.0, via Wikimedia Commons — SEC headquarters, which filed the complaint',
+    coverImagePosition: 50,
+    body: `Note: This entry describes a pending civil fraud complaint and a separate pending criminal indictment. The SEC's complaint and the mail fraud indictment against Brandon Mendenhall lay out the government's allegations only — neither defendant has been found liable or guilty by a court as of this writing, and Mendenhall is entitled to a presumption of innocence in the criminal case.
+
+Brandon "Dutch" Mendenhall and Amy Vaughn built RAD Diversified REIT into a fast-growing draw for small investors, marketing the Port Richey, Florida-based nontraded real estate investment trust through aggressive social media campaigns, in-person seminars, and appeals to Christian values and patriotism, alongside a promise that ordinary people could get into commercial real estate the way institutional investors do. Between November 2019 and March 2024, according to a Securities and Exchange Commission complaint filed July 29, 2026 in the U.S. District Court for the Middle District of Florida, the pair raised at least $152 million from more than 5,500 retail investors — many of whom, the SEC alleges, were encouraged to fund their investment by taking out home-equity loans, draining retirement accounts, cashing in life insurance policies, or charging the purchase to credit cards.
+
+The SEC's complaint alleges Mendenhall and Vaughn misrepresented RAD Diversified's profitability, the valuation of its shares, and how easily investors could get their money back, even as the company was reportedly losing roughly $20 million a year by 2022 and facing more than 160 foreclosure actions on its properties totaling nearly $50 million between 2022 and 2024. Investors were also steered toward a $50,000 "RADD Inner Circle" membership that raised a further $16.5 million through joint-venture investments. Rather than deploying the bulk of that money into real estate, the SEC alleges, Mendenhall and Vaughn diverted roughly $54 million to an affiliated company called The Seminar Solution LLC, then personally misappropriated nearly $5 million between them — Mendenhall's withdrawals reportedly included about $691,000 paid toward his own IRS tax bill, $75,000 for a nanny, and thousands more spent at nightclubs, gun ranges, and luxury jewelers, while Vaughn's included nearly $300,000 in taxes and more than $747,000 in charges at high-end fashion retailers and nightclubs.
+
+RAD Diversified froze investor redemptions in February 2024 and filed for Chapter 11 bankruptcy protection in March 2026. Separately from the SEC's civil case, a federal grand jury indicted Mendenhall in May 2026 on a criminal count of mail fraud tied to allegedly falsifying his own mortgage-application income; he was released on an unsecured $20,000 bond after surrendering his passport and faces up to 20 years in prison if convicted on that count. The SEC's civil complaint seeks permanent injunctions, disgorgement, and civil penalties against both Mendenhall and Vaughn, along with return of the nearly $5 million routed to The Seminar Solution, which is named as a relief defendant. "Defendants' conduct has caused financial hardship to thousands of investors nationwide and has jeopardized many of their retirement savings," the SEC said in announcing the case.
+
+The RAD Diversified case shows how a nontraded REIT — a structure that, unlike a publicly traded REIT, has no daily market price and no easy way for an investor to independently check what their shares are actually worth — can keep raising money from small investors for years after the underlying properties stop generating enough income to support it, as long as the marketing keeps outrunning the balance sheet.`,
+  },
+);
+
+NotoriousGM.push(
+  {
+    title: "David Kushner and the La Mancha Funding Scheme That Preyed on NFL Players",
+    slug: "david-kushner-la-mancha-funding-nfl-fraud",
+    author: "ScamShield Editorial",
+    tags: ["notorious", "notorious-scammer"],
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Thurgood_Marshall_United_States_Courthouse_004.jpg?width=1200",
+    coverImageCredit: "Photo: Kidfly182, CC BY-SA 4.0, via Wikimedia Commons — the Manhattan federal courthouse where the SEC filed its case",
+    coverImagePosition: 50,
+    body:
+      "Note: this is a civil SEC enforcement action. The complaint describes allegations only — David Kushner has not been found liable by a court as of this writing, and the allegations below reflect the SEC's case rather than any judicial finding.\n\nDavid Kushner, of Boca Raton, Florida, was the president and sole owner of La Mancha Funding Corp., an advisory firm he used to pitch a niche but plausible-sounding investment: short-term loans to sports agents and professional athletes, including current and former NFL players, who often need bridge financing between contract payouts. Through a series of private LLC offerings, Kushner and La Mancha raised approximately $10.5 million from investors who were told their money would fund those loans and be repaid, with interest, once the athletes' payments came through.\n\nAccording to the Securities and Exchange Commission's complaint, filed November 21, 2024, that wasn't what happened to a substantial share of the money. The SEC alleges Kushner and La Mancha made material misrepresentations to investors about how their funds would actually be used, secretly collected hundreds of thousands of dollars in undisclosed \"fees\" for themselves, and misappropriated close to $1.5 million in loan repayments that should have flowed back to investors. In total, the SEC says nearly two dozen investors lost roughly $2.1 million to the scheme. Rather than reaching investors, the money allegedly went toward Kushner's own credit card bills, college tuition, country club dues, a luxury vacation, a Mercedes-Benz, and a rental home in the Hamptons.\n\nThe SEC's complaint, filed in the U.S. District Court for the Southern District of New York, charges Kushner and La Mancha with violating the antifraud provisions of the Securities Act of 1933, the Securities Exchange Act of 1934, and the Investment Advisers Act of 1940, with parallel criminal charges filed by the New York County District Attorney's Office. \"Kushner lied to investors and simply stole the money that would have given them at least some of the investment returns he had promised,\" said Sheldon L. Pollock, Associate Director of the SEC's New York Regional Office, in announcing the case. The SEC is seeking a permanent injunction, disgorgement with prejudgment interest, civil penalties, and an officer-and-director bar against Kushner.\n\nProfessional athletes are a recurring target for this kind of pitch because the underlying need — short-term cash before a large, delayed payout — is genuinely real for many of them, which is exactly what makes a confident-sounding \"private lending fund\" built around that need easy to believe without independently verifying that the loans, the repayments, and the fee structure actually work the way the promoter describes. A fund manager unwilling to produce audited financials or an independent accounting of exactly where loan repayments went is asking investors to trust a story rather than a paper trail — the same gap the SEC says Kushner exploited for years before regulators caught up with him.",
+    sourceUrl: "https://www.sec.gov/newsroom/press-releases/2024-183",
+  },
+);
+
+NotoriousGM.push(
+  {
+    title: "Jason Johnson and the Financial Adviser Who Managed Nothing",
+    slug: "jason-johnson-cranston-fake-financial-adviser-fraud",
+    author: "ScamShield Editorial",
+    tags: ["notorious", "notorious-scammer"],
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Pastore_Federal_Building,_front.jpg?width=1200",
+    coverImageCredit: "Photo: U.S. General Services Administration, Public Domain, via Wikimedia Commons — the federal courthouse in Providence, Rhode Island",
+    coverImagePosition: 50,
+    body:
+      "Jason Johnson, of Cranston, Rhode Island, introduced himself to a Massachusetts couple in 2017 the way a legitimate financial adviser would: he told them he managed more than $10 million in assets across more than 20 client relationships, and that he could get them steady annuity returns of 6 to 10 percent a year through his company, W.S. Solutions LLC. None of it was true. Johnson wasn't a licensed financial adviser managing a real client book — according to federal prosecutors, he was simply collecting money from people who trusted the title he'd given himself.\n\nThe couple wired Johnson roughly $140,000 to invest on their behalf. Rather than placing the money anywhere close to what he'd promised, prosecutors said Johnson diverted most of it into two bank accounts under his own control and spent it on personal expenses. When the couple tried to check on their investment, Johnson stopped responding to their inquiries — a common inflection point in affinity and solicitation frauds, where a fraudster who cannot produce real account statements simply goes quiet rather than admit the money is gone. W.S. Solutions LLC was dissolved by the time investigators caught up with the scheme.\n\nA federal grand jury indicted Johnson, 53, in March 2025, and he pleaded guilty to one count of wire fraud in the U.S. District Court for the District of Rhode Island. He was scheduled to be sentenced on August 27, 2025. Investigators noted that Johnson had no registration as an investment adviser or broker at any point during his dealings with the couple — a status any prospective client can check for free through FINRA's BrokerCheck or the SEC's Investment Adviser Public Disclosure database before wiring a dollar.\n\nJohnson's case follows a pattern regulators see constantly in smaller-scale investment fraud: no complex trading strategy, no offshore shell companies, just a confident self-description — \"financial adviser,\" \"$10 million under management\" — that a victim has no independent way to verify beyond taking the person's word for it. A real adviser's registration, licensing, and disciplinary history are public record precisely so a prospective client doesn't have to rely on that word alone.",
+    sourceUrl: "https://www.justice.gov/usao-ri/pr/cranston-man-posing-financial-adviser-pleads-guilty-wire-fraud",
+  },
+);
+
+NotoriousGM.push(
+  {
+    title: "DeAngelo Jackson-Portwood and the $7.7 Million Fraud Ring That Filed 1,000 Stolen-Identity Unemployment Claims",
+    slug: "deangelo-jackson-portwood-pandemic-fraud-ring",
+    author: "ScamShield Editorial",
+    tags: ["notorious", "notorious-scammer"],
+    // representative photo — replace with an exact match if found
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Theodore_Levin_U.S._Courthouse_2025.jpg?width=1200",
+    coverImageCredit: "Photo: Antony-22, CC BY-SA 4.0, via Wikimedia Commons — the Detroit federal courthouse where the case was prosecuted",
+    coverImagePosition: 50,
+    body:
+      "When the CARES Act flooded state workforce agencies with pandemic unemployment money in 2020, it also created an opening for fraud at a scale few of those agencies were equipped to screen for. Between early 2020 and May 2021, prosecutors say, DeAngelo Jackson-Portwood of Detroit ran a scheme that exploited that opening from two directions at once, using other people's stolen identities to loot unemployment programs across the country while separately fabricating businesses to collect federal small-business relief.\n\nOn the unemployment side, Jackson-Portwood and seven co-conspirators — Anton Greenwood and Christopher Lindsay of Detroit, Adartha Tillman of Roseville, Maurice Brown-Portwood of Clinton Township, Taurean Davis of Detroit, and brothers Tyrone and Timothy Boyle of Los Angeles — obtained victims' names and Social Security numbers without their knowledge and used them to file more than 1,000 fraudulent claims for pandemic unemployment assistance across 17 states and the territory of Guam, collecting more than $5.6 million, with Michigan and California workforce agencies absorbing most of the loss. On the business-relief side, the group filed roughly 600 fraudulent applications for Paycheck Protection Program loans and Economic Injury Disaster Loans, in some cases for businesses that did not exist at all, and in others misrepresenting who was actually applying — bringing in more than $2 million more.\n\nAll eight defendants pleaded guilty to wire fraud and identity theft offenses before U.S. District Judge Judith E. Levy in the Eastern District of Michigan. As the scheme's ringleader, Jackson-Portwood, 42, received the longest sentence of the group: 61 months — just over five years — in federal prison. His co-conspirators received a range of sentences reflecting their roles, from Greenwood's 42 months and Tillman's 40 months down to probation for the two Boyle brothers. Collectively, the eight were ordered to pay $7,703,549 in restitution to the Small Business Administration and the state workforce agencies whose programs they drained.\n\nThe scheme worked because pandemic relief programs were built for speed rather than verification — money needed to reach real, desperate applicants within days, not after the weeks or months a thorough identity check would normally take, and fraudsters like Jackson-Portwood's group treated that design tradeoff as an invitation. The victims of the identity theft half of the scheme often did not find out their names had been used until they were denied their own legitimate unemployment benefits, or received a tax form for income they never received — a downstream harm that can take months to untangle even after the fraud itself has been stopped.",
+    sourceUrl: "https://www.justice.gov/usao-edmi/pr/last-eight-defendants-sentenced-77-million-pandemic-fraud-scheme",
+  },
+);
+
+NotoriousGM.push(
+  {
+    title: "Kimberly Goodwin and the AFGE Local 2419 Union Embezzlement Scheme",
+    slug: "kimberly-goodwin-afge-local-2419-embezzlement",
+    author: "ScamShield Editorial",
+    tags: ["notorious", "notorious-scammer"],
+    // representative photo — replace with an exact match if found
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/NIH_building_1_(5).jpg?width=1200",
+    coverImageCredit: "Photo: National Cancer Institute, Public Domain, via Wikimedia Commons — NIH's Bethesda campus, source of the embezzled settlement funds",
+    coverImagePosition: 50,
+    body:
+      "Kimberly Goodwin led American Federation of Government Employees Local 2419, a union representing federal employees in the Washington, D.C. area, as its president from January 2017 to August 2019. During her tenure, the union settled a series of grievance lawsuits against the National Institutes of Health on behalf of its members, and NIH paid roughly $1 million into the local's bank account to resolve them — money that belonged to the union and, by extension, to the dues-paying members it represented.\n\nGoodwin never gave up her signatory authority over that account, even after her presidency ended in August 2019. According to federal prosecutors, she used that continued access between 2019 and 2022 to move approximately $1 million out of the union's account and into a consulting company she owned, through a series of bank and wire transfers and cash withdrawals, for services her company either never performed or billed at values far exceeding whatever work was actually done. While she controlled the account, prosecutors said, she also spent union money directly on personal purchases, including a $7,400 massage chair.\n\nA federal jury in Greenbelt, Maryland convicted Goodwin, 54, of Bowie, Maryland, on August 31, 2026, of one count of wire fraud conspiracy and eight counts of money laundering. Her co-conspirator, Kelleigh Williams, the local's secretary-treasurer, had already been convicted in 2025 of wire fraud conspiracy for her part in the scheme. By the time the fraud came to light, AFGE Local 2419 had run out of money and entered receivership in 2022, leaving the members whose own grievance settlements had funded the account without the union apparatus that money was meant to support. \"Goodwin was a union leader entrusted to safeguard finances and represent the interests of dues-paying members, but instead led a scheme to steal from them,\" said Assistant Attorney General A. Tysen Duva in announcing the conviction.\n\nA labor union runs on a version of the trust any membership organization depends on: officers control shared funds on behalf of people who mostly aren't positioned to audit every transaction themselves. Goodwin's scheme relied on one narrow, easily overlooked gap in that system — a former president who retained bank-account signatory authority long after the position that justified it had ended — paired with a consulting arrangement routed to her own company, exactly the kind of related-party transaction an internal financial control is supposed to catch before the money moves, not after it's gone.",
+    sourceUrl: "https://www.justice.gov/opa/pr/maryland-union-leader-convicted-defrauding-union-enrich-herself",
+  },
+);
+
+NotoriousGM.push(
+  {
+    title: "Maksim Grinberg and the EyePic Clinics That Billed Medicaid for Eye Surgeries That Never Happened",
+    slug: "maksim-grinberg-eyepic-medicaid-fraud",
+    author: "ScamShield Editorial",
+    tags: ["notorious", "notorious-scammer"],
+    // representative photo — replace with an exact match if found
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Brooklyn_Supreme_Court_sun_winter_jeh.jpg?width=1200",
+    coverImageCredit: "Photo: Jim.henderson, CC0, via Wikimedia Commons — the Kings County Supreme Court in Brooklyn, where Grinberg was indicted",
+    coverImagePosition: 50,
+    body:
+      "Note: this entry describes a pending indictment. Maksim Grinberg has not been convicted, and the allegations below are the government's; he is presumed innocent unless and until proven guilty in court.\n\nMaksim Grinberg is not a doctor, a nurse, or any kind of licensed medical professional. According to the New York Attorney General's office, that didn't stop him from building a network of eye care clinics across Manhattan and Brooklyn — operating under the brand name EyePic through eight separate companies, including Family Eye Care Ophthalmology, 9th Street Vision Care, Parkslope Eye Care, Flatbush Eye Care, Graham Eye Care, Harlem Eye Care, and MGBK Management — set up in the names of real, licensed doctors so the clinics could bill Medicaid as though those doctors were the ones running them.\n\nProsecutors say the billing itself was largely fictional. From January 2024 through July 2025, Grinberg allegedly instructed his staff to submit thousands of claims to three Medicaid managed care organizations — Fidelis Care New York, Healthfirst, and Molina Healthcare of New York — falsely stating that four different doctors had performed surgeries to remove scar tissue from patients' eyelid linings due to infection. According to the indictment, those claims relied on the credentials of doctors who, prosecutors allege, had little or no real involvement in the specific procedures billed under their names. In total, prosecutors allege the scheme took more than $9 million from New York's Medicaid program.\n\nNew York Attorney General Letitia James and State Comptroller Thomas DiNapoli announced Grinberg's arrest and a 15-count indictment on June 24, 2026, charging him and his companies with Grand Larceny in the First Degree, Health Care Fraud in the First Degree, Scheme to Defraud in the First Degree, and Falsifying Business Records in the First Degree, among other counts, in Kings County Supreme Court. Prosecutors say the proceeds paid for a mansion in New Jersey, a fleet that included an Audi, a Bentley, a Porsche, and a Lamborghini, jewelry, and rent on a penthouse — and, separately, restitution Grinberg still owed stemming from a 2017 bank fraud conviction. If convicted on the top count, he faces eight and a third to 25 years in prison. \"Scammers who steal from Medicaid are corrupting our health care system and taking funds meant to support our state's most vulnerable residents,\" Attorney General James said in announcing the charges.\n\nA billing scheme built around real doctors' names, rather than invented ones, is harder for insurers to catch precisely because a claims reviewer's verification usually stops at confirming the named provider is real and licensed — the system isn't built to confirm that doctor personally performed each specific procedure billed under their credentials. That gap, prosecutors say, is what let Grinberg, who holds no medical license of his own, run a billing operation built around volume rather than patient care for a year and a half before investigators caught up with it.",
+    sourceUrl: "https://ag.ny.gov/press-release/2026/attorney-general-james-and-comptroller-dinapoli-announce-takedown-9-million",
+  },
+);
+
+NotoriousGM.push(
+  {
+    title: "Leo Govoni, John Witeck, and the $100 Million Theft From Special Needs Trusts",
+    slug: "leo-govoni-john-witeck-special-needs-trust-fraud",
+    author: "ScamShield Editorial",
+    tags: ["notorious", "notorious-scammer"],
+    // representative photo — replace with an exact match if found
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Tampa_FL_US_crths01.jpg?width=1200",
+    coverImageCredit: "Photo: Ebyabe, CC BY-SA 3.0, via Wikimedia Commons — the Sam M. Gibbons U.S. Courthouse in Tampa, near where CSNT was based",
+    coverImagePosition: 50,
+    body:
+      "Note: this entry describes a pending federal indictment. Leo Joseph Govoni and John Leo Witeck have pleaded not guilty, and neither has been convicted; the allegations below are the government's.\n\nLeo Joseph Govoni, 67, of Clearwater, Florida, co-founded the Center for Special Needs Trust Administration (CSNT) around 2000, building it into one of the largest administrators of special needs trusts in the country. CSNT managed pooled trust accounts holding settlement money, court awards, inheritances, and other funds belonging to people with disabilities — money held in trust rather than paid directly to beneficiaries specifically so they could keep receiving Medicaid and Supplemental Security Income benefits that a lump sum in their own name would otherwise disqualify them from. By February 2024, CSNT was administering more than 2,100 individual trusts nationwide holding roughly $200 million in combined assets. John Leo Witeck, 60, of Tampa, worked at CSNT as its accountant.\n\nAccording to a federal indictment unsealed June 25, 2025 in the U.S. District Court for the Middle District of Florida, Govoni and Witeck spent nearly 15 years — from around June 2009 through May 2025 — treating those trust accounts, in prosecutors' words, as a personal slush fund. The indictment accuses the two men of stealing and misappropriating more than $100 million in client-beneficiary money, funneling it toward real estate purchases, private jet travel, and financing a brewery, among other personal spending, while sending beneficiaries and their families falsified account statements showing balances that no longer existed. Prosecutors say Govoni separately carried out a roughly $3 million mortgage-refinancing fraud and laundered $205,054 through a home equity line of credit.\n\nThe theft came to light in February 2024, when CSNT filed for bankruptcy and disclosed that more than $100 million meant for its disabled and vulnerable beneficiaries was missing from its trust accounts — money some families had set aside for decades specifically because a special needs trust was supposed to be safer than holding the funds themselves. Govoni and Witeck were indicted on one count of conspiracy to commit wire and mail fraud, three counts of mail fraud, six counts of wire fraud, and one count of conspiracy to commit money laundering; Govoni faces additional counts of bank fraud, an illegal monetary transaction, and making a false statement in CSNT's bankruptcy filing. Both men pleaded not guilty. Witeck was released pending trial under supervision; Govoni was ordered detained. A jury trial was calendared for the June 2026 term; as of this writing, no verdict had been publicly reported.\n\nCSNT's core purpose was to be the safeguard between a vulnerable beneficiary and the outside world — money held by a neutral administrator specifically so a disabled person's own family wouldn't have to manage a lump sum themselves while also protecting their public benefits. That structure depends entirely on the administrator's own integrity, because the beneficiaries CSNT served were, in most cases, the people least equipped to independently audit where their trust balance actually stood; a falsified account statement handed to a family already trusting the institution to handle exactly this kind of oversight for them can go unquestioned for years, which prosecutors say is exactly how a shortfall of this size accumulated for nearly a decade and a half before anyone outside the organization caught it.",
+    sourceUrl: "https://www.justice.gov/opa/pr/florida-nonprofit-founder-and-accountant-charged-stealing-over-100m-special-needs-victims",
+  },
+);
+
+NotoriousGM.push(
+  {
+    title: "Daylyn Harris, Chelsea Johnson, and the Lahaina Wildfire FEMA Fraud",
+    slug: "daylyn-harris-chelsea-johnson-lahaina-fema-fraud",
+    author: "ScamShield Editorial",
+    tags: ["notorious", "notorious-scammer"],
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Maui_community_of_Lahaina_burned_by_wildfire_-_53119394726.jpg?width=1200",
+    coverImageCredit: "Photo: State Farm, CC BY 2.0, via Wikimedia Commons — the Lahaina, Hawaii wildfire aftermath that Harris falsely claimed to have survived",
+    coverImagePosition: 50,
+    body:
+      "When wildfires tore through Lahaina, Hawaii, in August 2023, and again through the Pacific Palisades neighborhood of Los Angeles in January 2025, the federal disaster declarations that followed opened up FEMA assistance to residents who had lost homes, income, and property. Daylyn Harris, 35, of Honolulu, and Chelsea Johnson treated that disaster relief pipeline as something to exploit rather than a program for actual survivors, according to prosecutors with the U.S. Attorney's Office for the District of Hawaii.\n\nHarris falsely claimed he had lived in Lahaina at the time of the wildfire and had lost his housing, income, and property, and incurred medical bills — none of which, prosecutors say, were true. To support the fabricated claim, Johnson posed as Harris's landlord in Maui, corroborating a rental history that never existed. The two then flipped roles for the Pacific Palisades disaster: Johnson filed her own false claim asserting she had lived in, and lost property in, the fire zone. Together, prosecutors say, the pair fraudulently obtained more than $60,000 in FEMA disaster assistance meant for people who had actually lost their homes.\n\nHarris's conduct didn't stop once he was caught. After pleading guilty to conspiracy to commit wire fraud, he submitted fabricated flight records to the court in an attempt to rebut allegations that he had violated the conditions of his pretrial release — conduct that added a separate obstruction of justice conviction on top of the underlying fraud. On June 5, 2026, Harris was sentenced to 24 months in federal prison followed by five years of supervised release, and ordered to pay $60,458 in restitution to FEMA. Johnson, who pleaded guilty separately, was sentenced to four months in prison. \"Harris stole from the public to satisfy his own greed,\" said U.S. Attorney Ken Sorenson, at a time when federal disaster resources were desperately needed by people who had actually lost everything in the fires. The case was investigated by the Department of Homeland Security's Office of Inspector General.\n\nDisaster relief fraud is a particular kind of theft because the money it drains doesn't come from an insurer's balance sheet or a bank's reserve fund — it comes from a finite pool of taxpayer-funded relief that real survivors, documented and otherwise, are simultaneously trying to draw from in the aftermath of the same disaster. A fabricated lease, a friend posing as a landlord, and a false claim of lost income are all forms of documentation FEMA has to process at some degree of good-faith speed precisely because disaster victims need help quickly — the same urgency that makes the program valuable to real victims is what let Harris and Johnson's false claims move through before anyone checked whether either of them had ever actually lived in the disaster zone at all.",
+    sourceUrl: "https://www.justice.gov/usao-hi/pr/man-sentenced-2-years-prison-submitting-fraudulent-fema-claims-lahaina-and-california",
+  },
+);
+
+NotoriousGM.push(
+  {
+    title: "Mordechai Ferder and the $1 Billion Diamond Fraud Behind Lugano Diamonds",
+    slug: "mordechai-ferder-lugano-diamonds-fraud",
+    author: "ScamShield Editorial",
+    tags: ["notorious", "notorious-scammer"],
+    // representative photo — replace with an exact match if found
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Vintage_diamond_engagement_ring.jpg?width=1200",
+    coverImageCredit: "Photo: CatherineLewis1976, CC BY-SA 4.0, via Wikimedia Commons — a diamond ring, the kind of stone Lugano Diamonds sold",
+    coverImagePosition: 50,
+    body:
+      "Note: this entry describes a civil SEC complaint filed August 31, 2026. Mordechai Ferder has not been criminally charged, has denied wrongdoing through his attorney, and no court has ruled on the SEC's allegations as of this writing.\n\nMordechai Ferder founded Lugano Diamonds & Jewelry, Inc., a Newport Beach, California luxury jeweler that built a reputation selling rare colored diamonds and custom jewelry to a wealthy clientele. In 2021, publicly traded holding company Compass Diversified Holdings (CODI) bought a 60% stake in Lugano in a deal valuing the business at $256 million, paying roughly $104 million in cash at closing; Ferder kept a 40% stake and stayed on as Lugano's CEO, giving a small private jeweler a direct line into public capital markets through its new parent's SEC filings.\n\nAccording to the SEC's complaint, filed in the U.S. District Court for the Central District of California, Ferder spent the years between 2021 and 2025 selling investors on a specific kind of deal: hand over money earmarked for a particular diamond, and Ferder or Lugano would acquire that stone, locate a buyer for it, or transform it into a finished piece of jewelry that would be worth more than the initial investment. The SEC alleges that in many cases the underlying diamonds were never actually acquired at all — the investment contracts described stones that simply didn't exist in Lugano's inventory — and that when earlier investors expected to be paid out, Ferder funded those payments not from diamond sales but from money raised from newer investors, the same recycling mechanism at the center of a Ponzi scheme. To keep the fiction going on Lugano's own books, the complaint says Ferder directed the company to record incoming investor money as ordinary revenue rather than as a liability, and to disguise repayments to investors as ordinary inventory purchases from a vendor — accounting sleight of hand that, the SEC alleges, caused Lugano and its public parent CODI to report more than $1 billion in fictitious revenue over the life of the scheme.\n\nThe fraud came to light following an internal investigation that led Ferder to resign as Lugano's CEO on May 7, 2025. CODI subsequently told investors its previously issued 2024 financial statements could no longer be relied upon, restated the value of the net assets it had acquired in the 2021 deal from $179 million down to just $5 million, and wiped out more than 85% of the revenue it had reported from Lugano since the acquisition. Lugano filed for bankruptcy in November 2025. The SEC's complaint charges Ferder and an entity he controlled, Simba IL Holdings LLC, with violating the antifraud and books-and-records provisions of the federal securities laws, names Ferder's wife in her capacity as trustee of several family trusts as a relief defendant over proceeds traced to the fraud, and seeks a permanent injunction, disgorgement with prejudgment interest, civil penalties, and an officer-and-director bar against Ferder. Ferder's attorney has said his client has not been contacted by the FBI or the Justice Department and denies any criminal conduct, framing him instead as a scapegoat for problems at the company.\n\nThe Lugano case is a reminder that a public parent company's audited financial statements are only as reliable as the private acquisition sitting inside them: CODI was a real, exchange-listed holding company filing real quarterly reports, but the revenue figures underneath those reports depended entirely on a subsidiary's own founder accurately describing which diamonds his company actually owned — an assertion that, unlike a public stock price, had no independent market to check it against until the money already promised to earlier investors stopped showing up.",
+    sourceUrl: "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26625",
+  },
+);
+
+NotoriousGM.push(
+  {
+    title: "Ilit Raz and the Fabricated Fortune 500 Clients Behind Joonko's 'AI Washing' Fraud",
+    slug: "ilit-raz-joonko-ai-washing-fraud",
+    author: "ScamShield Editorial",
+    tags: ["notorious", "notorious-scammer"],
+    // representative photo — replace with an exact match if found
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Daniel_Patrick_Moynihan_U.S._Courthouse,_Manhattan,_New_York_(7237347688).jpg?width=1200",
+    coverImageCredit: "Photo: Ken Lund, CC BY-SA 2.0, via Wikimedia Commons — the Manhattan federal courthouse where Raz pleaded guilty",
+    coverImagePosition: 50,
+    body:
+      "Ilit Raz founded Joonko Diversity, Inc. as an AI-powered recruiting startup built around a pitch tailored to the corporate diversity push of the early 2020s: software that used artificial intelligence to identify diverse, underrepresented job candidates and match them with employers trying to hit their own DEI hiring goals. As Joonko's CEO, Raz told investors the technology was already working in the market — a claim that, according to the Securities and Exchange Commission and federal prosecutors, was substantially fabricated.\n\nAccording to the SEC's civil complaint, filed June 11, 2024 in the U.S. District Court for the Southern District of New York, Raz told investors Joonko had signed more than 100 customers, including multiple Fortune 500 companies, backed the claim with fabricated customer testimonials, and said the company had already earned more than $1 million in revenue while its platform was actively matching over 100,000 job candidates — figures prosecutors say bore little resemblance to Joonko's actual, far smaller customer base. When at least one investor grew suspicious enough to start asking questions, the complaint alleges Raz didn't come clean; instead, she provided forged bank statements and fabricated contracts designed to make the fictional customer relationships and revenue look real under scrutiny. Raz raised at least $21 million from investors relying on these misrepresentations, according to the SEC, with some reporting citing a total closer to $27 million once related fundraising is included.\n\nThe U.S. Attorney's Office for the Southern District of New York filed parallel criminal charges against Raz for securities fraud and wire fraud. On September 11, 2026, Raz pleaded guilty to securities fraud before U.S. District Judge Alvin K. Hellerstein, admitting to lying to investors about Joonko's customers, revenue, and platform usage and to fabricating documents to cover up the deception. As of this writing, sentencing had not yet been scheduled, and the SEC's separate civil case — which seeks a permanent injunction, disgorgement, civil penalties, and an officer-and-director bar — remains pending against her.\n\nJoonko's case became an early, high-profile example of what regulators have started calling \"AI washing\": inflating or inventing a startup's actual use of artificial intelligence, and the customer traction supposedly proving that AI works, to make an ordinary fundraising pitch sound like access to an unstoppable trend. The technology label did the same work a forged bank statement did — both were tools for making a claim look more credible than the underlying reality could support — and Raz's response to a suspicious investor, manufacturing fake paperwork rather than admitting the numbers were smaller than advertised, is what turned an inflated pitch deck into a securities fraud charge.",
+    sourceUrl: "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26020",
+  },
+);
+
+NotoriousGM.push(
+  {
+    title: "Philip Galles and the Tyche Asset Management Ponzi Scheme",
+    slug: "philip-galles-tyche-asset-management-ponzi",
+    author: "ScamShield Editorial",
+    tags: ["notorious", "notorious-scammer"],
+    body:
+      "Philip Galles, 59, of Chicago, presented himself to prospective clients as a commodities trader with a rare, proven edge — a firm called Tyche Asset Management that he claimed used proprietary trading strategies to generate extraordinary annual returns exceeding 100 percent. To one contact who turned out to be an undercover agent, Galles went even further, claiming Tyche had achieved a 336 percent annual return, had raised more than $2 billion in just 60 days, and was backed by a Kuwaiti sovereign wealth fund and a professional sports team owner. None of it was true.\n\nAccording to federal prosecutors in the District of New Jersey, Galles made virtually no legitimate investments with the money he collected. Instead, he ran Tyche like a textbook Ponzi scheme, using new investors' money to pay off earlier ones while diverting a substantial share of it to his own lifestyle — high-end clothing, rent on a luxury apartment, and luxury automobiles. The scheme caused more than $4 million in losses to more than a dozen victims who believed they were funding a sophisticated commodities trading operation rather than Galles's personal expenses.\n\nGalles pleaded guilty to wire fraud and commodities fraud. On February 5, 2026, U.S. District Judge Esther Salas sentenced him in Newark federal court to 151 months — more than 12 years — in prison, followed by five years of supervised release, and ordered him to pay more than $4 million in restitution to his victims.\n\nGalles's fabrications followed a familiar escalation: the version of the pitch aimed at ordinary investors promised merely extraordinary returns, while the version he reserved for a contact he believed could bring in serious institutional money invoked a sovereign wealth fund and a professional sports team owner by way of implied validation — claims specific and prestigious enough to discourage casual questioning, and fabricated precisely because neither backer could easily be checked by the retail investors Tyche was actually taking money from. A trading track record advertised in the hundreds of percent, and institutional backing that cannot be independently confirmed with the institution itself, are the same warning signs regulators flag in Ponzi scheme after Ponzi scheme, regardless of how the pitch dresses up the underlying claim.",
+    sourceUrl: "https://www.justice.gov/usao-nj/pr/former-commodities-trader-sentenced-151-months-engaging-multi-mullion-dollar-wire-and",
   },
 );

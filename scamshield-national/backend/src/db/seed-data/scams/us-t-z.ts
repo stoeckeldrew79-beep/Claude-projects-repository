@@ -3232,3 +3232,200 @@ UsTZ.push({
     country: 'US',
     state: 'WA',
 });
+
+UsTZ.push({
+    name: 'Registrar Agency Fake Government Business-Filing Renewal Notices',
+    slug: 'washington-registrar-agency-fake-business-filing-renewal-scam',
+    description: `Registrar Agency LLC sent more than 190,000 texts and emails to Washington small businesses styled to look like official notices from a government agency, complete with an image of the Washington State Capitol, telling recipients their required annual business filing was due and demanding $159.98 to "renew" it — roughly $100 more than the state's actual filing fee. More than two dozen businesses reported the solicitations to the Washington Attorney General's Office, saying they believed the messages came from a state agency rather than a private company with no official role in business filings. Attorney General Nick Brown's office sent Registrar a cease-and-desist letter in early 2024, after which the company stopped operating in Washington; on September 10, 2026, Brown announced a settlement requiring Registrar to pay more than $520,000, covering restitution for affected businesses through a claims process along with penalties and costs. The settlement permanently bars Registrar from sending deceptive government-styled solicitations for inflated filing fees to Washington businesses and from using the State Capitol image in future mailers. Business owners are advised that state filing agencies almost never solicit renewal payments by unsolicited text or email with a "pay now" link, and that any renewal notice should be checked directly against the fee listed on the Washington Secretary of State's own filing portal before paying.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ["Washington State Office of the Attorney General"],
+    sourceUrl: 'https://www.atg.wa.gov/news/news-releases/company-pay-more-520k-over-allegations-deceptive-solicitations-small-businesses',
+    country: 'US',
+    state: 'WA',
+    isHistorical: true,
+    firstRecorded: '2026-09-10',
+});
+
+UsTZ.push({
+    name: 'Vermont 3SquaresVT "Locked EBT Card" Scam',
+    slug: 'vermont-3squaresvt-locked-ebt-card-scam',
+    description: `Scammers are calling and texting Vermont recipients of 3SquaresVT — the state's name for SNAP, or food stamp, benefits — falsely claiming the recipient's EBT card has been "locked" or that their food and nutrition benefits have been stopped, and instructing them to call back and provide personal information to "verify their eligibility" and restore access. The Vermont Attorney General's Consumer Assistance Program (CAP), part of the Office of the Attorney General, issued a scam alert on November 14, 2025 warning that "government officials will never text or call clients to request this information," and that anyone who receives such a message should not respond and should never give their EBT card number to an unknown caller. CAP noted the scam spiked again in the following months, prompting Attorney General Charity Clark's office to flag SNAP/3SquaresVT impersonation as a new addition to its list of Top 10 Scams of 2025, released in January 2026. Because EBT benefits, unlike a stolen credit card, generally cannot be reversed or replaced once drained, Vermont's Department for Children and Families Economic Services Division stresses that any legitimate contact about a 3SquaresVT case comes only through its own listed numbers — 802-215-3243 for texts and 1-800-933-3405 for calls — never from an unfamiliar number demanding immediate verification. Anyone who receives a suspicious call or text about their EBT card is advised to hang up immediately, contact Economic Services directly using a number looked up independently, and report the scam to the Attorney General's Consumer Assistance Program at 800-649-2424 or AGO.CAP@vermont.gov.`,
+    categorySlug: 'public-benefits-fraud',
+    country: 'US',
+    state: 'VT',
+    alertLevel: 'high',
+    sources: ["Vermont Attorney General's Office (Consumer Assistance Program)", 'Vermont Department for Children and Families'],
+    sourceUrl: 'https://blog.uvm.edu/cap/scam-alert-calls-targeting-3squaresvt-households/',
+    isHistorical: true,
+    firstRecorded: '2025-11-14',
+});
+
+UsTZ.push({
+    name: 'Spokane Development Services Fake Permit Invoice Email Scam',
+    slug: 'washington-spokane-development-services-permit-invoice-scam',
+    description: `The City of Spokane's Development Services Center (DSC) warned residents and contractors on June 16, 2026 about fraudulent emails that falsely appear to come from City staff regarding permit, planning, or development applications and demand payment by wire transfer. The scam emails use the names of actual City employees, reference real project addresses and permit applications pulled from the public record, and include invoices formatted to look like a genuine outstanding balance — but they arrive from a non-official address rather than one ending in the City's real "@spokanecity.org" domain, a distinction easy to miss if a recipient checks only the display name rather than the full sender address. The City stated flatly that it "will never request payment through emailed wire transfer instructions," and urged anyone who receives one of these emails not to click any link, open any attachment, or send payment or financial information in response. Recipients are advised to verify the sender's full email address before doing anything else, to contact the Development Services Center directly at (509) 625-6300 to confirm whether any invoice is legitimate before paying it, and to forward suspicious emails to the DSC's Permit Team at PermitTeam@spokanecity.org and then delete them.`,
+    categorySlug: 'government-impersonation',
+    country: 'US',
+    state: 'WA',
+    alertLevel: 'medium',
+    sources: ['City of Spokane, Washington'],
+    sourceUrl: 'https://my.spokanecity.org/news/releases/2026/06/16/beware-of-fake-city-of-spokane-development-and-permit-invoices/',
+    isHistorical: true,
+    firstRecorded: '2026-06-16',
+});
+
+UsTZ.push({
+    name: 'Texas Workforce Commission Fake "Employment Records" Portal Scam',
+    slug: 'texas-twc-fake-employment-records-portal-scam',
+    description: `A phishing email circulating in late October 2025, with the subject line "Follow-Up: Submission of Employment Records – Action Required by Oct 27, 2025," targets Texas employers rather than individual claimants — a departure from the unemployment-fraud scams typically aimed at benefit recipients. The email demands that the business submit employment separation records for every employee going back to 2015, then links to a fake portal built to mimic the Texas Workforce Commission's real Employer Benefits Services (EBS) application, aiming to harvest years of former employees' personal and separation data in a single upload rather than targeting people one at a time. TWC confirmed the email is not from the agency and the linked portal is not a valid TWC webpage, warning employers not to upload any files to it. The agency noted two reliable tells: TWC only emails employers from addresses ending in "@twc.texas.gov" or "@public.govdelivery.com," and it corresponds with employers in English only, never Spanish, so a Spanish-language version of this or any similar notice is automatically fraudulent. Employers unsure whether a notice is genuine are directed to search "Scams" on twc.texas.gov and check the "Valid Notices Sent to TWC Customers" section, or to submit an external contact request through TWC's site to verify before responding to any unexpected request for employee records.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Texas Workforce Commission'],
+    sourceUrl: 'https://www.twc.texas.gov/sites/default/files/fdcm/docs/10-29-2025-govdelivery-employmentrecords-scam-twc.docx',
+    country: 'US',
+    state: 'TX',
+    isHistorical: true,
+    firstRecorded: '2025-10-29',
+});
+
+UsTZ.push({
+    name: 'Walmart Spark Driver Deceptive Earnings Claims',
+    slug: 'walmart-spark-driver-deceptive-earnings-claims',
+    description: `The Federal Trade Commission announced on February 26, 2026 that Walmart had agreed to a $100 million judgment to resolve allegations that it misrepresented how much people could earn delivering orders through its Spark Driver gig platform. According to the FTC, Walmart advertised the app to prospective drivers with earnings figures built on inflated estimates of tips, base pay, and incentive bonuses that didn't reflect what most drivers actually took home once the platform's own pay structure and fee deductions were applied — luring people into buying gas, insurance, and vehicle maintenance against income that, in practice, fell well short of what was promised. Unlike a scam run by a fraudulent third party, the FTC's complaint targeted the platform operator itself for the earnings claims used to recruit its own gig workforce, alleging violations of the FTC Act's prohibition on deceptive advertising. The settlement requires Walmart to pay restitution directly to affected drivers and to fund a claims process for drivers who never received tips or incentive pay they were owed under the app's own stated terms, while barring the company from making unsubstantiated earnings claims to recruit gig drivers going forward. The FTC advises anyone considering gig delivery or rideshare work to ask the platform for a written breakdown of how advertised pay figures are calculated before accepting shifts, to research other drivers' actual reported earnings and complaints rather than relying on an app's own marketing, and to file a report at ReportFraud.ftc.gov if a platform's real payouts don't match what was advertised to recruit them.`,
+    categorySlug: 'employment-scams',
+    alertLevel: 'medium',
+    sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2026/02/ftc-helps-walmart-spark-drivers-and-other-gig-workers-heres-how',
+    country: 'US',
+    isHistorical: true,
+    firstRecorded: '2026-02-26',
+});
+
+UsTZ.push({
+    name: 'Virginia Tax Refund Text Scam',
+    slug: 'virginia-tax-refund-text-scam',
+    description: `Virginia Tax issued a consumer alert after scammers began sending text messages that pose as the agency and claim a taxpayer's refund "will be permanently void" unless the recipient clicks a link and provides payment information right away. The manufactured deadline is meant to push recipients into acting before they stop to question the message; anyone who clicks through and enters bank or card details risks having that information stolen and used for further fraud. Virginia Tax states directly that it "will not ask for personal information or demand payment through a text message" and that it will never send a text containing a link or a demand for immediate action, so a message doing either is not really from the agency no matter how official it looks. Residents who receive one of these texts are advised not to click any link or reply, to report and delete the message, and to call Virginia Tax directly using a number looked up independently — not one provided in the text — if they want to confirm whether a refund notice is genuine.`,
+    categorySlug: 'tax-scams',
+    alertLevel: 'medium',
+    sources: ['Virginia Department of Taxation'],
+    sourceUrl: 'https://www.tax.virginia.gov/news/be-alert-text-scams',
+    country: 'US',
+    state: 'VA',
+});
+
+UsTZ.push({
+    name: 'Vanity Business Award Solicitation Scam',
+    slug: 'vanity-business-award-scam',
+    description: `A small business owner receives an unsolicited email or letter announcing they've been selected to receive a local or industry "Best of" award — something like a "2026 Excellence Award" or "Best of [Their City]" honor — congratulating them on being chosen ahead of unnamed competitors and inviting them to "claim" the recognition. The message links to a professional-looking award website and offers an engraved plaque, a "media placement" press release, or a bundled "recognition package" for anywhere from about $150 to $1,500, payable before the award can actually be issued or displayed. In one documented case, Cambridge, Massachusetts shed builder Kevin Richard of Cambridge Craftsman was told by a site called HonorLocal.com that he'd won "Best Shed Maker of Cambridge" and was offered a $150 plaque or a $1,500 media package; he recognized the pitch as a scam and never paid, though the Better Business Bureau says its Scam Tracker has logged more than 1,300 reports mentioning the word "award" since 2015. The BBB's business-tip guide on these "vanity award" schemes lists the giveaway red flags: the business never applied or was nominated through any process it can identify, no real competitor comparison or judging ever took place, and — the clearest tell — "most legitimate awards do not come with costs to the recipient." Business owners are advised to ask who runs the award program and how winners are actually selected, to search the award name alongside the word "scam" or "complaint" before responding, to check the issuing organization's own BBB Business Profile, and to treat any unsolicited award email that requires payment to "claim" or "display" the honor as a sales pitch rather than genuine recognition.`,
+    categorySlug: 'lottery-sweepstakes-scams',
+    alertLevel: 'medium',
+    sources: ['Better Business Bureau (BBB)'],
+    sourceUrl: 'https://www.bbb.org/article/business/21031-bbb-tip-vanity-awards',
+    country: 'US',
+});
+
+UsTZ.push({
+    name: 'Virgin Islands Fake Traffic Fine Text Scam',
+    slug: 'virgin-islands-fake-traffic-fine-text-scam',
+    description: `The Virgin Islands Police Department and the territory's Judicial Branch issued a joint warning in late August 2026 after fraudulent text messages began circulating that claim the recipient has an outstanding traffic violation and must pay a fine online immediately, using a fake link styled to look like the Judiciary's official payment portal. Some versions of the message go a step further, asking the recipient to reply "Y" to confirm before receiving the "citation details" — a reply that instead lets the scammer's system harvest device and contact data rather than presenting any real citation. Courts Administrator Regina Petersen stated plainly that "the Judicial Branch DOES NOT issue text or email traffic violation notifications to the public," making any such message illegitimate regardless of how official it looks. Residents are advised to delete the text without clicking any link or replying to it, and to confirm any actual outstanding citation only through the Judiciary's own "Pay Your Citation" portal at vicourts.org or by paying in person, never through a link supplied in an unsolicited text. Anyone who receives one of these messages can report it to VIPD at 340-778-2211 (St. Croix), 340-774-2211 (St. Thomas–St. John), or the Communications Department at 340-514-8006.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Virgin Islands Police Department', "V.I. Judicial Branch"],
+    sourceUrl: 'https://www.virginislandsdailynews.com/for_the_record/vipd-judicial-branch-warn-of-new-text-scam-on-traffic-fines/article_f04d6498-5970-4762-aebb-2ad149d959c3.html',
+    country: 'US',
+    state: 'VI',
+    isHistorical: true,
+    firstRecorded: '2026-08-29',
+});
+
+UsTZ.push({
+    name: 'WAPA Fake Vehicle Raffle Phone Scam',
+    slug: 'wapa-fake-vehicle-raffle-scam',
+    description: `The Virgin Islands Water and Power Authority (WAPA) warned customers on December 10, 2025 about callers falsely claiming to represent the utility who say the customer has been entered into a raffle for a vehicle and just needs to "confirm" personal or credit card information to complete the entry or claim the prize. WAPA does not run phone-in vehicle raffles and does not call customers asking them to provide financial information to participate in one, so any such call is an impersonation regardless of how much the caller ID or the caller's script matches the utility. The authority's guidance is direct: do not provide personal or credit card information over the phone, and hang up immediately if a caller claiming to be WAPA asks for it, since a real WAPA representative already has the account information needed for legitimate business and has no reason to ask a customer to read it back. WAPA asked customers to warn friends, family, and neighbors — particularly elderly customers who may be more likely to answer an unknown call and less likely to question a "you've won" pitch — since the scam spreads primarily through word of mouth reaching people before the utility's own warning does.`,
+    categorySlug: 'utility-scams',
+    alertLevel: 'medium',
+    sources: ['Virgin Islands Water and Power Authority (WAPA)'],
+    sourceUrl: 'https://stjohnsource.com/2025/12/10/scam-alert-wapa-warns-of-fake-raffle/',
+    country: 'US',
+    state: 'VI',
+    isHistorical: true,
+    firstRecorded: '2025-12-10',
+});
+
+UsTZ.push({
+    name: 'Virgin Islands Wireless Verification-Code Takeover Scam',
+    slug: 'virgin-islands-wireless-verification-code-scam',
+    description: `The Virgin Islands Police Department warned residents in July 2026 about callers who impersonate a wireless carrier's customer service or security department and, mid-call, trigger the carrier's own real one-time verification code to be sent to the victim's phone — then ask the victim to read that code aloud to "verify their identity" or "secure the account." Reading the code back actually hands the scammer the exact credential the carrier's system uses to prove the account holder is authorizing a change, letting the caller bypass account security, make unauthorized account changes, port the victim's number to a new device, and pull personal information tied to the account, which can cascade into further identity theft or financial fraud once the attacker controls the phone number. VIPD stressed that a legitimate wireless company representative never needs a customer to read back a one-time verification code, password, PIN, or other security credential over the phone, since that code exists specifically to authenticate the account holder rather than the person on the call. Anyone who receives such a call is advised to hang up immediately if asked for a verification code, contact the wireless provider directly through its official customer service line rather than any number the caller supplied, and monitor the account afterward for unauthorized changes; anyone who already read a code back to a caller should contact their provider right away to secure the account. Residents can report these calls to the VIPD Economic Crimes Unit at 340-774-3942, ext. 5618.`,
+    categorySlug: 'account-takeover',
+    alertLevel: 'high',
+    sources: ['Virgin Islands Police Department'],
+    sourceUrl: 'https://stjohnsource.com/2026/07/13/telephone-scam-targets-usvi-wireless-customers-vipd-warns/',
+    country: 'US',
+    state: 'VI',
+    isHistorical: true,
+    firstRecorded: '2026-07-13',
+});
+
+UsTZ.push({
+    name: 'Fake Vinyl Record Storefront Scam',
+    slug: 'vinyl-record-fake-storefront-scam',
+    description: `As vinyl sales have kept climbing for nearly two decades running, a wave of fake record shops has followed the money straight into collectors' Instagram and Facebook feeds. The pitch is a polished-looking storefront advertising hard-to-find pressings, colored-vinyl variants, or brand-new box sets — sometimes major-label releases like a Rolling Stones or Beatles set — at prices well below what any legitimate retailer or pressing plant charges, paired with professional product photography lifted from real stores. A buyer who orders is often given a fake tracking number to keep them from disputing the charge too early, then finds the "shop" unreachable once the shipping window passes — email goes unanswered, the contact form bounces, and eventually the entire website disappears and reappears days later under a new name. The Better Business Bureau has logged reports of the same pattern under different storefront names; in one filed report, a Kentucky collector who ordered records after seeing a Facebook ad for a shop called Ithered Vinyl Records lost $80 when the order never arrived and the "business" turned out to have no verifiable history anywhere online. Because record collecting runs on scarcity and hype around limited pressings, the community itself has become a frontline defense — collectors on forums like Discogs and Reddit's vinyl communities actively compile and share lists of newly registered scam storefronts as they appear, often within days of the first complaints. The BBB recommends checking how recently a seller's domain was registered before buying, searching the store's name alongside the words "scam" or "complaint," looking for a real street address and working contact information rather than only a form, and paying by credit card — which allows a chargeback — rather than a debit card, payment app, or gift card, since a listing with no verifiable seller history and a price far under market value is the clearest sign the "record shop" behind it doesn't actually exist.`,
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'medium',
+    sources: ['Better Business Bureau (BBB)'],
+    sourceUrl: 'https://www.bbb.org/all/social-media-scams/think-twice-before-buying-from-these-social-media-ads',
+    country: 'US',
+});
+
+UsTZ.push({
+    name: 'Texas TREC and TALCB Phone Number Spoofing Scam',
+    slug: 'texas-trec-talcb-phone-number-spoofing-scam',
+    description: `The Texas Real Estate Commission (TREC) and the Texas Appraiser Licensing and Certification Board (TALCB) issued a joint alert on April 24, 2026 warning real estate agents, appraisers, and members of the public about scammers spoofing the agencies' caller ID to send fraudulent texts and make fraudulent calls. The messages falsely claim the recipient has committed a "safety" violation, and the calls press recipients to hand over Social Security numbers, credit card numbers, and bank account details under the threat of an urgent enforcement problem, all of it aimed at enabling identity theft or direct financial fraud rather than any real licensing matter. TREC and TALCB stressed that "the agency does not use text messages as a method of contact," that they never request a full Social Security number or similar sensitive data through unsolicited contact, and that any genuine enforcement communication comes by email — not a spoofed call or text demanding information immediately. Scammers have also been impersonating the agencies in Facebook comments, so the agencies' guidance extends to social media as well as phone and text. Anyone contacted this way is advised never to respond to the message, to report it as spam rather than engaging with it, and to hang up, delete, or flag it and then reach out to TREC or TALCB directly through the agencies' own published contact information rather than anything provided in the suspicious message.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Texas Real Estate Commission (TREC)', 'Texas Appraiser Licensing and Certification Board (TALCB)'],
+    sourceUrl: 'https://www.trec.texas.gov/article/alert-scammers-spoofing-trec-and-talcb-phone-numbers-fake-texts-calls',
+    country: 'US',
+    state: 'TX',
+    isHistorical: true,
+    firstRecorded: '2026-04-24',
+});
+
+UsTZ.push({
+    name: 'Virginia Board of Veterinary Medicine "DHP Enforcement" Phone Impersonation Scam',
+    slug: 'virginia-board-of-veterinary-medicine-phone-impersonation-scam',
+    description: `The Virginia Department of Health Professions (DHP) — the umbrella agency that oversees the Board of Veterinary Medicine along with Virginia's other health regulatory boards, from nursing and dentistry to funeral directors and embalmers — posted a scam alert on March 21, 2025 warning veterinarians and other licensed healthcare professionals about fraudulent phone calls from people claiming to represent a DHP licensing board or another agency such as the DEA. The callers threaten the licensee with arrest or license suspension and demand personal information or an immediate fine, often "spoofing" DHP's or a board's real phone number or email address so caller ID appears legitimate. DHP stressed that it "will never request fines or fees via wire transfer" and will never demand a Social Security number, date of birth, or bank or credit card account number over the phone — any real disciplinary action is preceded by mailed or hand-delivered notice, never a same-call demand for money. A veterinarian or other licensee who gets a suspicious call is advised to hang up and verify it directly with DHP at (804) 367-4691 or enfcomplaints@dhp.virginia.gov, and can report the attempt to the Virginia State Police at 877-4VA-TIPS, the Virginia Fusion Center at fusion.vsp.virginia.gov/sar/, or the FTC at reportfraud.ftc.gov. DHP's alert separately flagged that the DEA has issued its own nationwide warning about callers impersonating DEA agents, a related scheme licensees should watch for using the same never-pay-by-phone rule.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Virginia Department of Health Professions (DHP)', 'Virginia Board of Veterinary Medicine'],
+    sourceUrl: 'https://www.dhp.virginia.gov/Boards/VetMed/VetMedHomepageItems/News/Content-395222-en.html',
+    country: 'US',
+    state: 'VA',
+    isHistorical: true,
+    firstRecorded: '2025-03-21',
+});
+
+UsTZ.push({
+    name: 'Team Travel Source "Stay-to-Play" Youth Sports Housing Fee Scheme',
+    slug: 'team-travel-source-stay-to-play-youth-sports-scheme',
+    description: `A class-action lawsuit filed May 20, 2026 in the U.S. District Court for the Western District of Kentucky accuses Team Travel Source — operated by The Complete Plan, Inc. — of using "Stay-to-Play" hotel-booking policies to squeeze extra fees out of parents of youth athletes competing in club and travel-league tournaments. According to the complaint, Russell et al. v. The Complete Plan, Inc., tournament organizers working with Team Travel Source tell parents their child's team cannot compete unless a block of hotel rooms is booked through the company's own platform, then layer on an undisclosed nightly "housing fee" added to every reservation regardless of which hotel is chosen, on top of room rates that the suit says often run higher than the same room booked directly with the hotel or through an ordinary travel site. The lawsuit further alleges that despite advertising a "Lowest Rate Guarantee," Team Travel Source refuses to honor it when parents find a lower price for the identical room, undermining the one protection the mandatory booking policy is supposed to offer in exchange for taking away a family's choice of where to stay. "The cost of youth sports has skyrocketed in recent years, and Stay-to-Play policies like the one imposed by Team Travel Source are thinly veiled money-grabs from parents," said Karen Dahlberg O'Connell, a partner at Almeida Law Group, one of three firms representing plaintiffs from Kentucky, California, New York, Oklahoma, Virginia, Massachusetts, and Illinois. Parents whose child's team requires booking through a specific travel or housing platform to compete should ask the tournament organizer directly whether that requirement is actually written into the tournament's rules or is being imposed by the housing vendor itself, compare the total quoted price — including any per-night "housing" or resort-style fee — against the same room booked directly with the hotel, and get any "lowest rate" promise in writing before assuming it will be honored.`,
+    categorySlug: 'travel-vacation-scams',
+    alertLevel: 'medium',
+    sources: ['Almeida Law Group', 'PR Newswire'],
+    sourceUrl: 'https://www.prnewswire.com/news-releases/almeida-law-group-represents-parents-suing-team-travel-source-over-stay-to-play-junk-fee-302777991.html',
+    country: 'US',
+    isHistorical: true,
+    firstRecorded: '2026-05-20',
+});
+
+UsTZ.push({
+    name: 'Zelle "Business Account Upgrade Fee" Marketplace Seller Scam',
+    slug: 'zelle-business-account-upgrade-fee-scam',
+    description: `A buyer negotiating to purchase a big-ticket item on Facebook Marketplace or a similar site insists on paying through Zelle, Cash App, or Venmo, then tells the seller they sent the money from a "business account." The seller receives a fake email spoofed to look like it came from the payment app, stating that the funds are waiting but that the seller must first pay a one-time fee — commonly around $300 — to "upgrade" their own account to business status before the transfer can be released. The buyer, playing along, claims to have already covered that fee on the seller's behalf and sends a doctored screenshot or fabricated confirmation as proof, then pressures the seller to immediately refund the "advanced" amount by app or wire. No money was ever actually sent: once the seller pays the refund, they discover their own account balance never moved, and the buyer disappears having pocketed the refund outright. The Better Business Bureau warns that Zelle, Cash App, and Venmo never charge a fee to upgrade an account or to release a pending payment, that the same "upgrade fee" pretext has spread across all three apps, and that a seller should verify any payment claim only by logging directly into their own account or app — never by trusting an emailed notice or a screenshot a buyer forwards — and should confirm any stated account policy directly with the payment app's own customer service before paying anything.`,
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'medium',
+    sources: ['Better Business Bureau (BBB)'],
+    sourceUrl: 'https://www.bbb.org/article/scams/27212-scam-alert-how-to-spot-shady-buyers-on-facebook-marketplace',
+    country: 'US',
+});
