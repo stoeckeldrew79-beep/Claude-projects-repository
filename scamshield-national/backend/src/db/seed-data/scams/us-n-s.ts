@@ -5927,3 +5927,14 @@ UsNS.push({
     country: 'US',
     state: 'KS',
 });
+
+UsNS.push({
+    name: 'Perplexity Comet Browser Fake Download and Malvertising Scam',
+    slug: 'perplexity-comet-browser-fake-download-scam',
+    description: `When Perplexity launched its AI-powered Comet browser in July 2025, threat actors moved almost immediately to exploit the launch buzz rather than wait for the real product to reach every interested user. A threat-intelligence report published October 23, 2025 by BforeAI identified a cluster of typosquatted domains — including perplexitycomet-ai.com, aicometbrowser.com, cometai.net, cometai.app, cometailab.com, cometai.site, cometaibrowser.com, and cometbrowser.net — registered across GoDaddy, Namecheap, Dynadot, Hostinger, REG.RU, and other registrars specifically to imitate the browser's name, hosting fake download pages, SEO-poisoned results targeting searches like "comet browser download," and in some cases installers bundled with malware rather than the real software. Separately, on the eve of Comet's iOS release, Perplexity's own CEO, Aravind Srinivas, warned on social media on October 17, 2025 that "the Comet app currently on iOS App Store is fake and spam and not from Perplexity," after a fraudulent listing appeared under the real product's name before the legitimate app had shipped. Because AI tools launch quickly, roll out to new platforms in stages, and get breathless tech-press coverage, the gap between an announcement and a company's own official release on a given platform creates a window where a copycat download page, app-store listing, or paid search ad can capture users searching for the product by name who have no way yet to compare it against the real thing. Anyone trying a newly launched AI app or browser should get it only from the link on the company's own official website or verified account, check that an app's publisher name matches the real company rather than trusting its icon or search ranking, and avoid downloading installers from ads, forum posts, or any domain that merely contains the product's name rather than the company's own domain.`,
+    categorySlug: 'ai-deepfake-scams',
+    alertLevel: 'medium',
+    sources: ['BforeAI', 'Business Standard'],
+    sourceUrl: 'https://bfore.ai/report/malicious-activity-surrounding-perplexity-comet-browser-launch-threat-research/',
+    country: 'US',
+});

@@ -7470,3 +7470,15 @@ UsAF.push({
     isHistorical: true,
     firstRecorded: '2026-07-02',
 });
+
+UsAF.push({
+    name: 'Fake "Loan Application In Progress" Text Scam',
+    slug: 'fake-loan-application-in-progress-text-scam',
+    description:
+      'A text message claims you already have a loan application in progress — even though you never applied — stating you\'re "preapproved" for a specific dollar amount and using urgency language like "this is the last step" to push an immediate reply. The message asks you to text back "YES" to continue, then requests a Social Security number or bank account number to "finish" the application, information a real lender already has on file and would never need collected this way. The FTC warned in a January 2026 consumer alert that there is no real loan and no real application behind these texts, only an attempt to harvest enough personal information for identity theft or account takeover. Delete the message without replying or clicking any link — even replying "STOP" confirms to the sender that a real person reads texts at that number — and report it using your phone\'s spam-reporting feature or by forwarding it to 7726 (SPAM).',
+    categorySlug: 'phishing',
+    alertLevel: 'medium',
+    sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2026/01/can-you-spot-fake-loan-text-scam',
+    country: 'US',
+});
