@@ -3851,3 +3851,17 @@ UsTZ.push({
     isHistorical: true,
     firstRecorded: '2016-03-01',
 });
+
+UsTZ.push({
+    name: 'Tyson & Tyson Law Firm Client Trust and PPP Embezzlement (Todd Chapman)',
+    slug: 'west-virginia-huntington-chapman-tyson-law-firm-trust-embezzlement',
+    description: `Todd Chapman, 58, of Huntington, West Virginia, spent roughly 30 years as office manager of the now-defunct Tyson & Tyson Law Firm, a role that gave him day-to-day control over the firm's operating and client trust accounts. After becoming the firm's sole account owner in 2015, Chapman began writing unauthorized checks from those accounts to himself, forging signatures and fabricating documents — including phony employment contracts — to cover the diversions. Prosecutors say he embezzled at least $409,000 from the estates of three deceased firm clients, $100,000 a minor client was supposed to receive upon turning 18, and $15,838.84 of an initial $20,000 settlement deposit for another minor client injured as an infant, along with $13,686.21 skimmed from a Paycheck Protection Program loan the firm legitimately received during the COVID-19 pandemic. From 2016 to 2022, Chapman concealed the scheme by falsifying financial records, and when clients and investigators started asking questions about missing funds, he made false statements under oath in civil lawsuits filed by former clients and misled federal agents investigating the losses. Chapman pleaded guilty to bank fraud, and on February 26, 2026, a federal judge in the Southern District of West Virginia sentenced him to 51 months in prison, five years of supervised release, and ordered him to pay $602,362.97 in restitution. The case is a reminder that a law firm's client trust account is legally required to hold only client money — including funds set aside for minors and estates — and that anyone with money sitting in a trust account for an extended period, especially a settlement owed to a minor or an estate distribution, can and should ask the firm for a written accounting or contact the West Virginia Office of Disciplinary Counsel directly if payment is delayed or a firm becomes evasive about funds it is holding.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'high',
+    sources: ['WCHS-TV', 'WV MetroNews'],
+    sourceUrl: 'https://wchstv.com/news/local/huntington-man-sentenced-to-prison-for-embezzling-600k-from-law-firm',
+    country: 'US',
+    state: 'WV',
+    isHistorical: true,
+    firstRecorded: '2015-01-01',
+});

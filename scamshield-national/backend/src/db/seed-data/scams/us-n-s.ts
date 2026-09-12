@@ -6895,3 +6895,17 @@ UsNS.push({
     country: 'US',
     state: 'ND',
 });
+
+UsNS.push({
+    name: 'Portland "Fix and Flip" Ponzi-Like Real Estate Fraud (Christensen and Matic)',
+    slug: 'oregon-christensen-matic-fix-and-flip-ponzi-real-estate-fraud',
+    description: `Robert D. Christensen, 56, of Sherwood, and Anthony M. Matic, 56, of Damascus, ran a group of Portland-area entities — including Foresee Inc., The Commission PDX LLC, The Policy PDX LLC, and Innings 150 LLC — that solicited money from individual investors by promising to buy and renovate undervalued residential properties, rent them out for income, and refinance them to cash out the added value. From January 2019 through June 2023, the pair sold unregistered promissory notes offering interest as high as 8% to 15% and, in some cases, large lump-sum payouts within just 30 to 90 days — but the Securities and Exchange Commission says the returns paid to earlier investors actually came from money raised from newer ones, the defining feature of a Ponzi scheme, while personal spending on vacations and casino trips diverted investor funds further from the real estate deals they were told they were funding. When new investor money slowed, Christensen and Matic turned to commercial lenders, submitting loan applications containing false financial information to keep the operation afloat. In total, the scheme took more than $11 million from individual investors and defrauded commercial lenders of over $7 million, for combined losses of roughly $18 million. A federal grand jury indicted the pair in August 2024 on 21 counts including conspiracy to commit wire fraud, wire fraud, and money laundering; Matic pleaded guilty in March 2025 and Christensen followed in May 2025. On April 29, 2026, a judge in the District of Oregon sentenced Christensen to 63 months in federal prison and Matic to 33 months, each followed by three years of supervised release. The case is a reminder that a "fix and flip" investment promising a fixed high return with a quick payout timeline, funded through a promissory note rather than a registered security, is a classic Ponzi warning sign — investors can verify whether an offering or its promoter is registered for free through the SEC's EDGAR database or Investor.gov before wiring money into any real estate fund.`,
+    categorySlug: 'ponzi-pyramid-schemes',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office, District of Oregon", 'U.S. Securities and Exchange Commission', 'KOIN'],
+    sourceUrl: 'https://www.justice.gov/usao-or/pr/owners-local-real-estate-investment-company-sentenced-federal-prison-role-fraud',
+    country: 'US',
+    state: 'OR',
+    isHistorical: true,
+    firstRecorded: '2019-01-01',
+});
