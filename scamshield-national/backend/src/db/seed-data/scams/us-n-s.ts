@@ -6584,3 +6584,17 @@ UsNS.push({
     isHistorical: true,
     firstRecorded: '2026-04-20',
 });
+
+UsNS.push({
+    name: 'Rio Arriba County US Marshal Impersonation Cash Courier Scam (Mahendra Darbar)',
+    slug: 'new-mexico-rio-arriba-darbar-marshal-impersonation-cash-scam',
+    description: `A 71-year-old man in La Mesilla, New Mexico received a call from someone claiming to be a U.S. marshal investigating a money-laundering and identity-theft case tied to his Social Security number, who told him he would need to pay more than $70,000 or go to jail. Believing the threat, the victim handed a courier a package containing more than $73,000 in cash — but he then told Rio Arriba County Sheriff's deputies what had happened, and Deputy Matthew Jacobs saw "a unique opportunity to catch the scammers" by coaxing the same courier back for a second, staged pickup of $57,000, this time packed with wooden blocks and newspaper instead of cash. When the courier arrived to collect the fake package on December 15, 2024, deputies arrested him and identified him as Mahendra Darbar, a 27-year-old Indian national living in Enola, Pennsylvania, charging him with two second-degree felony counts of fraud. Darbar told investigators he was working as a paid courier for a man he knew only as "RR," flying to different states to collect cash packages from victims and funnel the money to his boss through ATM deposits, and Deputy Jacobs said the investigation had potentially connected Darbar to similar pickups in at least six other states, including Pennsylvania, New Jersey, Ohio, Maryland, Florida, and North Carolina. Darbar was released from the Rio Arriba County jail on a $5,000 bond, with a court order barring him from leaving New Mexico and flagging him as a flight risk. The case illustrates a pattern investigators nationwide are increasingly seeing: a caller claiming federal law-enforcement authority invents a fabricated crime tied to the victim's own identity, manufactures a "fine" to avoid arrest, and sends a courier to physically collect cash rather than asking for a wire transfer or gift cards — a method that can feel more believable precisely because it avoids the red flags associated with typical scams. No real U.S. marshal, FBI agent, or other federal official will ever demand cash in person to resolve a criminal investigation, and anyone contacted this way should hang up and verify the claim by calling the actual agency's local field office using a number looked up independently.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ["Rio Arriba County Sheriff's Office", 'KRQE', 'Santa Fe New Mexican'],
+    sourceUrl: 'https://www.krqe.com/news/crime/rio-arriba-sheriffs-office-deputies-arrest-suspected-scammer-who-showed-up-at-victims-home/',
+    country: 'US',
+    state: 'NM',
+    isHistorical: true,
+    firstRecorded: '2024-12-15',
+});

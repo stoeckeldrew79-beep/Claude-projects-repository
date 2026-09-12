@@ -6704,3 +6704,17 @@ UsGM.push({
     isHistorical: true,
     firstRecorded: '2026-06-24',
 });
+
+UsGM.push({
+    name: 'Ewa Beach "Escrow Trust Refund" Tax Fraud Conspiracy (Braumuller-Hawver and Hawver)',
+    slug: 'hawaii-ewa-beach-escrow-trust-refund-tax-fraud',
+    description: `Beverly Braumuller-Hawver and her husband Scott Hawver, of Ewa Beach, Hawaii, paid a tax-return promoter a series of fees between February 2015 and November 2018 for paperwork built around a scheme promoters marketed as an "Escrow Trust Refund" — the couple filed an amended federal return attaching a fabricated IRS Form 1099-MISC falsely claiming a mortgage company had paid Hawver $749,163 in income and withheld $424,163 of it in federal taxes, a filing that tricked the IRS into issuing a $192,845 refund check. After depositing the Treasury check, they transferred $170,000 into Braumuller-Hawver's music business, BeverlyB Music LLC, paid other co-conspirators more than $70,000, and wired $22,000 to buy precious metals; when the IRS moved to claw the money back, they filed frivolous U.S. Tax Court petitions and joined multiple meritless civil RICO lawsuits against IRS employees to obstruct recovery. A federal jury convicted both defendants of conspiracy to defraud the IRS in March 2026, with Braumuller-Hawver also convicted of filing a false tax return and money laundering, and Chief District Judge Derrick K. Watson sentenced Braumuller-Hawver to 24 months and Hawver to 16 months in federal prison on September 9, 2026, ordering the pair to jointly pay $182,438.37 in restitution. The Hawaii case was one piece of a nationwide "Escrow Trust Refund" conspiracy that drew in more than 200 participants across at least 19 states; the promoter who recruited Hawaii participants and marketed the program, Rosemarie Lastimado-Dradi, was separately sentenced to nine years in prison in January 2026 after taking a 25 to 40 percent cut of each fraudulent refund. The case is a reminder that a "too good to be true" tax refund built on a fabricated 1099 and an "escrow trust" story is not a legal loophole but a felony, and that fighting an IRS clawback with frivolous lawsuits against the agency's own employees only adds obstruction on top of the original fraud.`,
+    categorySlug: 'tax-scams',
+    alertLevel: 'medium',
+    sources: ['U.S. Department of Justice, Office of Public Affairs', 'Maui Now', 'The Washington Times'],
+    sourceUrl: 'https://www.justice.gov/opa/pr/hawaii-couple-sentenced-prison-roles-nationwide-tax-refund-fraud-conspiracy',
+    country: 'US',
+    state: 'HI',
+    isHistorical: true,
+    firstRecorded: '2026-09-09',
+});
