@@ -6680,3 +6680,17 @@ UsNS.push({
     isHistorical: true,
     firstRecorded: '2014-12-24',
 });
+
+UsNS.push({
+    name: 'Houston Cash-Courier Romance Fraud Ring Defrauding Rhode Island Seniors (Dominique Golden)',
+    slug: 'rhode-island-dominique-golden-romance-fraud-ring',
+    description: `Dominique Golden, of Houston, Texas, played a specific role in a romance-fraud conspiracy prosecuted out of the District of Rhode Island: after other conspirators built online relationships with victims — including Rhode Island seniors — through internet and app-based messaging, cultivated their trust, and then invented an urgent reason the victim needed to send money, it was Golden who received it. She obtained fraudulent identification under multiple aliases, formed businesses in her own name and those aliases, and opened numerous bank accounts to receive and launder the wired and mailed payments, personally collecting and depositing $1,263,822.54 of the more than $2.5 million the conspiracy took from victims between February and December 2018. Golden pleaded guilty on September 1, 2022 to conspiracy to commit mail fraud and conspiracy to commit wire fraud, and was sentenced to 78 months in federal prison followed by three years of supervised release, along with an order to pay the full $1,263,822.54 in restitution; she also forfeited a 2018 Bentley Bentayga, a 2017 Mercedes E-Class, two Rolex watches, gold chains, three firearms, and cash and money orders seized from her home. The case shows how a romance scam's money-laundering side is often handled by a separate specialist who never talks to the victim at all — someone whose job is simply to make a wired payment disappear into a maze of business and personal accounts — so a bank asking unusual questions about a wire transfer to an account or business you've never heard of is trying to catch exactly this kind of hand-off, and a request from an online partner to wire money to a name that doesn't match anyone you've actually met in person should be refused regardless of the story attached to it.`,
+    categorySlug: 'romance-scams',
+    alertLevel: 'medium',
+    sources: ["U.S. Attorney's Office, District of Rhode Island"],
+    sourceUrl: 'https://www.justice.gov/usao-ri/pr/texas-woman-sentenced-romance-fraud-scams-defrauded-seniors-more-26-million',
+    country: 'US',
+    state: 'RI',
+    isHistorical: true,
+    firstRecorded: '2018-02-04',
+});

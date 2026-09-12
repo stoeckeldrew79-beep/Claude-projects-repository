@@ -7950,3 +7950,29 @@ UsAF.push({
     isHistorical: true,
     firstRecorded: '2022-01-01',
 });
+
+UsAF.push({
+    name: 'Delaware DMV Unpaid Traffic Violation Text Scam',
+    slug: 'delaware-dmv-unpaid-traffic-violation-text-scam',
+    description: `The Delaware Division of Motor Vehicles issued a public warning on June 3, 2025 after a wave of fraudulent text messages hit residents claiming they had an outstanding traffic violation and needed to click a link to pay it by a set deadline or face suspension of their vehicle registration and driving privileges. The texts route to a fake payment page built to harvest card numbers and other personal information, and are timed to arrive alongside a similar wave of messages impersonating E-ZPass Delaware over unpaid tolls. DMV Director Amy Anthony said flatly, "Please, no matter who the message is from, don't click on a link to initiate a payment," stressing that the DMV and E-ZPass Delaware never contact customers by email or text to demand payment. Delawareans who receive one of these messages are advised not to click any link or reply, to check the status of any real registration or citation directly through a MyDMV account at dmv.de.gov or by calling (302) 744-2500, and to report the message to the FTC at reportfraud.ftc.gov or the FBI's Internet Crime Complaint Center at ic3.gov. Anyone who already clicked a link and entered payment information should contact their bank or card issuer immediately to dispute unauthorized charges and monitor the account closely afterward.`,
+    categorySlug: 'phishing',
+    alertLevel: 'medium',
+    sources: ['Delaware Division of Motor Vehicles'],
+    sourceUrl: 'https://news.delaware.gov/2025/06/03/dmv-scam-alert/',
+    country: 'US',
+    state: 'DE',
+});
+
+UsAF.push({
+    name: 'Minds Cornerstone and Gemini Project Connecticut Medicaid Counseling Fraud (Ramon Apellaniz)',
+    slug: 'connecticut-apellaniz-medicaid-counseling-fraud',
+    description: `Ramon Apellaniz, 40, of Middletown, Connecticut, had already been convicted at the state level once for running a Newington counseling business, The Gemini Project, LLC, that billed Medicaid for services provided by unlicensed staff and for sessions that were never held — but between November 2021 and January 2025, while that earlier case was still working through the courts, Apellaniz and co-conspirator Suhail Aponte ran the same pattern again through a second company, Minds Cornerstone LLC (doing business as Minds Cornerstone Behavior Therapy Services), submitting fraudulent claims that cost the Connecticut Department of Social Services approximately $1,876,617. Apellaniz pleaded guilty on May 16, 2025 before U.S. District Judge Stefan R. Underhill in Bridgeport to one count of conspiracy to commit health care fraud, and on November 3, 2025 was sentenced to 78 months in federal prison followed by two years of supervised release, along with an order to pay more than $1.8 million in restitution to Connecticut Medicaid; Aponte pleaded guilty separately on April 30, 2025 and was scheduled for sentencing in 2026. The case is a reminder that a provider's Medicaid billing history is a matter of public record — Connecticut maintains an online license lookup — so anyone referred to a mental-health or behavioral counseling practice can and should confirm the specific clinician seeing them is actually licensed before assuming a Medicaid-billed visit is legitimate, and should review any Explanation of Benefits notice for counseling sessions or providers they don't recognize.`,
+    categorySlug: 'healthcare-fraud',
+    alertLevel: 'medium',
+    sources: ["U.S. Attorney's Office, District of Connecticut", 'Middletown Patch'],
+    sourceUrl: 'https://www.justice.gov/usao-ct/pr/middletown-man-admits-role-scheme-defrauded-connecticuts-medicaid-program-more-18',
+    country: 'US',
+    state: 'CT',
+    isHistorical: true,
+    firstRecorded: '2021-11-01',
+});

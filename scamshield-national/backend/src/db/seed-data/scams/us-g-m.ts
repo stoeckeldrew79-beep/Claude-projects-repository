@@ -6830,3 +6830,15 @@ UsGM.push({
     isHistorical: true,
     firstRecorded: '2017-01-01',
 });
+
+UsGM.push({
+    name: 'Bolivar County Tax Preparer Fabricated Refund Scheme (Slexcia Neal)',
+    slug: 'mississippi-bolivar-county-slexcia-neal-tax-fraud',
+    description: `Slexcia Neal ran a cash-fee tax-preparation business out of Cleveland and Merigold, Mississippi, in Bolivar County, where local taxpayers brought her their W-2s and other records each filing season expecting an accurate return. According to the U.S. Attorney's Office for the Northern District of Mississippi and IRS Criminal Investigation, Neal instead padded the returns she filed on clients' behalf with false information that lowered their reported income and inflated their refunds — without her clients' knowledge that the numbers on the return she actually submitted to the IRS didn't match their real income. She pleaded guilty to three counts of filing fraudulent tax returns, and on January 29, 2025, Chief U.S. District Judge Debra Brown sentenced her to 18 months in prison on each count, to be followed by a year of supervised probation, and ordered her to pay more than $1.96 million in restitution to the IRS; she was also permanently barred from preparing tax returns for anyone else again. U.S. Attorney Clay Joyner said "the defendant filed false tax returns to defraud the Treasury, and she must now go to prison," while IRS-CI Assistant Special Agent in Charge Lisa Fontanette called the case a reminder that "IRS Criminal Investigation special agents are diligently investigating" unscrupulous preparers. A padded refund can look like a win in the moment, but the taxpayer whose name is on the return — not the preparer — is the one the IRS holds responsible for its accuracy, so anyone using a paid preparer should ask for a complete copy of the return actually transmitted to the IRS and check it against their own pay stubs and W-2s before assuming an unusually large refund is a sign of a good preparer rather than a fabricated one.`,
+    categorySlug: 'tax-scams',
+    alertLevel: 'medium',
+    sources: ["U.S. Attorney's Office, Northern District of Mississippi", 'IRS Criminal Investigation'],
+    sourceUrl: 'https://www.justice.gov/usao-ndms/pr/tax-preparer-sentenced-18-months-serve-and-196-million-restitution',
+    country: 'US',
+    state: 'MS',
+});
