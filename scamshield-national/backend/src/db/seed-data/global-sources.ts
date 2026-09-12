@@ -530,4 +530,13 @@ export const SEED_GLOBAL_SOURCES: SeedGlobalSource[] = [
       "Belarus's national computer emergency response team monitors the country's internet segment for malware and network attacks and accepts public reports of phishing emails, malicious code, and suspicious activity by web form, email, and phone. It publishes incident write-ups and threat analyses but no aggregate statistics of its own; periodic national fraud-loss figures are instead released separately by the Ministry of Internal Affairs through press briefings.",
     data_type: 'public_stats',
   },
+  {
+    agency_name: 'Landespolizei Liechtenstein — Jahresbericht',
+    country: 'LI',
+    country_name: 'Liechtenstein',
+    url: 'https://www.landespolizei.li/ueber-uns/jahresberichte',
+    description:
+      "The Principality of Liechtenstein's national police publishes a detailed annual report (Jahresbericht) with a full crime-statistics breakdown, including a dedicated Betrug/Untreue (fraud/breach of trust) offense category — 184 recorded cases in the 2021 edition — alongside year-on-year comparisons and clearance rates, archived on this page back to 2009.",
+    data_type: 'annual_report',
+  },
 ];
