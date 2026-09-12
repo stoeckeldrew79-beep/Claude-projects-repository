@@ -16518,3 +16518,46 @@ International.push(
     sourceUrl: 'https://www.ynetnews.com/business/article/rkmxfr7ygx',
   },
 );
+
+International.push(
+  {
+    name: 'Fake Bank-Official Calls Over Social Media Apps Impersonating the RBF',
+    slug: 'fiji-fake-bank-official-social-media-call-scam',
+    description: `The Reserve Bank of Fiji (RBF) issued a public warning on May 8, 2026 after receiving reports of fraudulent phone calls, placed through social media messaging apps, in which callers posed as staff of local commercial banks and misused the Reserve Bank's own name and logo to look official. The callers told targets their bank account required urgent action — commonly framing it as a card that needed to be replaced — and, under that pretext, pressed for photo identification, account details, and card information. The RBF stated plainly that it "will not be requesting personal information via social media apps" and that it "will not accept responsibility for unauthorised use of its logo," urging the public to "be vigilant and do not provide personal information including account details, card information, or identification documents to illegitimate persons." The warning reflects a pattern regulators across the Pacific have flagged repeatedly: a central bank does not phone individual customers to fix a card or verify an account, and any call, however official-sounding or well-branded, that asks for identification or card details should be treated as a scam and verified only by contacting the bank directly through a number obtained independently, not one supplied by the caller.`,
+    categorySlug: 'account-takeover',
+    country: 'FJ',
+    alertLevel: 'high',
+    sources: ['Reserve Bank of Fiji', 'Fiji Sun'],
+    sourceUrl: 'https://fijisun.com.fj/news/nation/reserve-bank-warns-public-over-fake-banking-calls-on-social-media-apps',
+  },
+  {
+    name: 'Fake Fiji Police Cybercrime Unit Officer Vishing Scam',
+    slug: 'fiji-fake-cybercrime-unit-officer-vishing-scam',
+    description: `The Consumer Council of Fiji issued a public warning after documenting a case in which a woman received a phone call from someone claiming to be an officer of the Fiji Police Force's Cybercrime Unit, who told her that her mobile number had mistakenly been placed on a watch list and that she needed to supply personal details to have it removed; he then sent her a link and instructed her to click it. The same caller rang back shortly afterward, this time claiming her bank account had been blocked, and under the guise of helping "unblock" it, talked her into handing over her online banking login credentials — which he then used to drain the account of all its funds. The fraudsters did not stop there: they also hijacked the victim's Facebook account and used it to message her friends and contacts asking for money to be sent via mobile wallet, extending the fraud into her own social network. Council CEO Seema Shandil called the case "truly frightening and concerning," saying "scammers in Fiji have become so bold and fearless," and stressed that impersonating a person in authority is "a common tactic used by scammers all across the world" precisely because it discourages a target from questioning the request. The Council's guidance is direct: genuine authorities, including the Fiji Police Force and its Cybercrime Unit, will never request login credentials, banking details, or other personal information over the phone or ask a member of the public to click a link, and any call claiming otherwise should be hung up on and reported rather than acted on.`,
+    categorySlug: 'account-takeover',
+    country: 'FJ',
+    alertLevel: 'critical',
+    sources: ['Consumer Council of Fiji', 'Scoop News (NZ)'],
+    sourceUrl: 'https://consumersfiji.org/press-release/warning-issued-on-scam-calls-impersonating-cybercrime-unit/',
+  },
+  {
+    name: 'SFC Vibe "Click-to-Earn" Online Task Investment Scam',
+    slug: 'fiji-sfc-vibe-click-to-earn-investment-scam',
+    description: `The Consumer Council of Fiji issued a fresh warning on March 10, 2026 that a platform calling itself "SFC Vibe," marketed online as a legitimate global business offering easy earnings for simple online tasks such as clicking buttons on a website, is in fact a fraudulent scheme built on the same collect-a-fee, promise-a-return model that has repeatedly hit Fijian consumers. Participants are asked to pay an upfront subscription fee to join, after which the platform promises a stream of income for completing trivial tasks — a structure that, as with earlier schemes the Council has tracked, generates income for organizers primarily from new sign-up fees rather than from any genuine underlying business activity. Council CEO Seema Shandil warned Fijians directly that "if generating wealth were that simple, everyone would be doing it," while Finance Minister Esrom Immanuel added that "the desire for quick and easy cash often blinds individuals to reality, leading to total financial ruin" — a warning delivered against the backdrop of earlier Fiji-targeted platforms such as the "eBayShop" scheme, which the Council says has already cost thousands of Fijians a combined total in the millions of dollars. The Council's advice for SFC Vibe mirrors its standing guidance on any online "earn easy money" offer: treat a subscription fee required before any money can be earned as a red flag, verify a platform's legitimacy before paying anything into it, and report suspected schemes to the Council's toll-free consumer helpline on 155 or by email to complaints@consumersfiji.org.`,
+    categorySlug: 'job-task-scams',
+    country: 'FJ',
+    alertLevel: 'high',
+    sources: ['Consumer Council of Fiji'],
+    sourceUrl: 'https://consumersfiji.org/press-release/sfc-vibe-scam-persists-in-fiji/',
+  },
+  {
+    name: 'Fake Consumer Council Chair Identity Investment Scheme',
+    slug: 'fiji-fake-consumer-council-chair-investment-scheme',
+    description: `The Consumer Council of Fiji issued an "urgent scam alert" on August 26, 2025 after discovering that fraudsters had built fake social media posts and profiles using the name, photo, and video clips of the Council's own Board Chair, Mereseini Baleilevuka, to promote a "get-rich-quick" investment scheme to the Fijian public. The fabricated posts presented Baleilevuka as personally endorsing the scheme, lending it a credibility it had no right to, since a sitting consumer-protection board chair endorsing a private investment offer on social media would itself be a glaring conflict of the role — precisely the kind of borrowed authority scammers rely on to get a target to lower their guard. Baleilevuka responded directly in the Council's statement: "Do not be fooled by these criminals using my name and face. I would never endorse such a scheme." Council CEO Seema Shandil called the impersonation "an alarming new low" and "a ruthless attempt to steal from ordinary Fijians," and the Council urged the public never to send money or share banking details based on an online post or ad promising unrealistic returns, however credible the person shown appears to be, and to verify any purported endorsement directly with the person or organization named before acting on it — reporting suspicious posts to the National Consumer Helpline on 155 or complaints@consumersfiji.org.`,
+    categorySlug: 'investment-fraud',
+    country: 'FJ',
+    alertLevel: 'high',
+    sources: ['Consumer Council of Fiji'],
+    sourceUrl: 'https://consumersfiji.org/press-release/urgent-scam-alert-fraudsters-fake-consumer-council-chairs-identity-in-get-rich-quick-scheme/',
+  },
+);
