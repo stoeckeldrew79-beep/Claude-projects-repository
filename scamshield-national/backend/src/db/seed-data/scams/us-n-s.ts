@@ -6210,3 +6210,31 @@ UsNS.push({
     isHistorical: true,
     firstRecorded: '2022-05-25',
 });
+
+UsNS.push({
+    name: 'Saipan CW-1 Visa "Guaranteed Job" Worker Exploitation Scheme (Angel Paras Cruz Jr.)',
+    slug: 'northern-mariana-islands-cw1-visa-worker-exploitation-cruz',
+    description: `Angel Paras Cruz Jr., an 82-year-old Saipan business owner, used the CNMI-Only Transitional Worker (CW-1) visa program — the guest-worker system unique to the Commonwealth of the Northern Mariana Islands, which ties a recruited worker's legal status directly to a single CNMI employer — to bring six workers from the Philippines to Saipan between August 2023 and January 2024, according to the U.S. Attorney's Office for the District of the Northern Mariana Islands. Prosecutors said Cruz gave USCIS and the U.S. Department of Labor false information about the wages, work hours, compensation, and job duties the workers would actually receive, then, once they had arrived, forced them into unpaid overtime including nights and weekends, required them to live in degrading conditions, and confiscated their passports. Cruz pleaded guilty to visa fraud, and in a press release issued June 29, 2026, USCIS and the U.S. Attorney's Office announced he had been sentenced to one year of home detention, three years of probation, a $15,000 fine, and $28,273.31 in restitution to his victims, in a case prosecuted by Assistant U.S. Attorney Garth R. Backe. The case illustrates a recruitment risk specific to the CNMI's separate CW-1 program: because a CW-1 worker's ability to stay in the country legally depends on that one employer, prosecutors say Cruz relied on the threat of losing that status to keep his workers from leaving or reporting the unpaid overtime and confiscated passports. Workers recruited for a CW-1 job in the CNMI, or their family members back home, can verify an employer's labor certification directly with the CNMI Department of Labor or the U.S. Department of Labor's Office of Foreign Labor Certification before paying any recruitment fee or traveling, and should treat an employer confiscating a passport as an immediate red flag rather than a normal condition of the job.`,
+    categorySlug: 'employment-scams',
+    alertLevel: 'high',
+    sources: ['U.S. Citizenship and Immigration Services (USCIS)', "U.S. Attorney's Office, District of the Northern Mariana Islands"],
+    sourceUrl: 'https://www.uscis.gov/newsroom/news-releases/man-sentenced-to-one-year-home-detention-for-visa-fraud',
+    country: 'US',
+    state: 'MP',
+    isHistorical: true,
+    firstRecorded: '2023-08-01',
+});
+
+UsNS.push({
+    name: 'Saipan "Guaranteed Green Card" Bangladeshi Labor Recruitment Fraud (Rahman, Islam and Phan)',
+    slug: 'northern-mariana-islands-bangladesh-green-card-recruitment-fraud',
+    description: `Muksedur Rahman, Mohammad Rafiqul Islam, and David Trung Quoc Phan ran a recruitment scheme promising Bangladeshi men well-paying jobs in the United States along with employment-based green cards, collecting more than $10,000 from each of at least five victims and funneling the money through family bank accounts in Bangladesh, according to the U.S. Attorney's Office for the Districts of Guam and the Northern Mariana Islands. The recruits were reportedly coached to deny paying any fee if asked about it during their visa interviews at the U.S. Embassy in Dhaka, and when they finally arrived in Saipan in April 2016 on fraudulently obtained visas, the jobs they had paid for did not exist. A federal jury convicted all three men on October 18, 2017 of mail fraud, fraud in foreign labor contracting, and visa fraud, and Senior U.S. District Judge John C. Coughenour, sitting by designation in the District of the Northern Mariana Islands, sentenced Rahman to 48 months in prison and Islam to 18 months — ordering the two of them to jointly pay $188,426 in restitution and both to be deported once their sentences were served — while Phan, who was not ordered to pay restitution, received 8 months. The case is a reminder that a recruiter offering a guaranteed U.S. green card or work visa in exchange for an upfront fee, particularly one who coaches applicants to lie to consular officers about the arrangement, is running a scheme rather than a legitimate placement service, since no lawful path to a green card is sold this way; prospective workers can verify a real CNMI job offer and its visa category directly with the CNMI Department of Labor or U.S. Citizenship and Immigration Services before paying anyone a recruitment fee.`,
+    categorySlug: 'employment-scams',
+    alertLevel: 'high',
+    sources: ['Saipan Tribune', "U.S. Attorney's Office, Districts of Guam and the Northern Mariana Islands"],
+    sourceUrl: 'https://www.saipantribune.com/index.php/3-get-prison-terms-labor-scam-case/',
+    country: 'US',
+    state: 'MP',
+    isHistorical: true,
+    firstRecorded: '2016-04-01',
+});

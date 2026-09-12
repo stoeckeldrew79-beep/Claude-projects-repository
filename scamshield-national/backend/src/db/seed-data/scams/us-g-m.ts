@@ -6491,3 +6491,17 @@ UsGM.push({
     country: 'US',
     state: 'MS',
 });
+
+UsGM.push({
+    name: 'Guam Legislature Official Seal WhatsApp Phishing Scam',
+    slug: 'guam-legislature-official-seal-whatsapp-phishing-scam',
+    description: `The Guam Legislature warned the public on December 24, 2022 that its official seal was being used, without authorization, in a phishing scam circulating on WhatsApp. According to Legislature executive director Carlo Branch, the legislative branch had been contacted by Guam Homeland Security and the Mariana Regional Fusion Center about a scheme that combined the Legislature's seal with the logo of another organization to convince WhatsApp users their account had been selected for a "promotional program," directing them to follow further instructions to claim their winnings. In a press release, the Legislature's Management Information Systems Department stated plainly, "the Guam Legislature does not participate in any social media activity related to contests or giveaways, nor will the Guam Legislature seek your personal information via social media," and said it was working with Guam Homeland Security to identify who was behind the scheme. The case is a reminder that a scam message can borrow a real government body's seal or logo to look official without that agency's knowledge or involvement — a legitimate Guam government office does not run surprise WhatsApp giveaways or ask winners to submit personal information through a messaging app, so any message claiming otherwise, however official it looks, should be reported to the Mariana Regional Fusion Center at (671) 475-0400 rather than acted on.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['The Guam Daily Post', 'Guam Legislature', 'Mariana Regional Fusion Center'],
+    sourceUrl: 'https://www.postguam.com/news/local/legislature-warns-about-social-media-scam-using-official-seal/article_fd6456e2-81c1-11ed-b290-2b9d8baffb66.html',
+    country: 'US',
+    state: 'GU',
+    isHistorical: true,
+    firstRecorded: '2022-12-24',
+});

@@ -7740,3 +7740,17 @@ UsAF.push({
     isHistorical: true,
     firstRecorded: '2014-05-01',
 });
+
+UsAF.push({
+    name: 'American Samoa Power Authority Fake Sweepstakes Check Scam',
+    slug: 'american-samoa-power-authority-fake-sweepstakes-check-scam',
+    description: `The American Samoa Power Authority (ASPA) warned the public on June 19, 2013 that its name was being used, without its knowledge, on fraudulent sweepstakes and lottery checks mailed to people on the U.S. mainland by a company calling itself Apple Instant Payment Incorporated (also operating as Union Disbursement), based in Ontario, Canada. Recipients received a letter claiming they had won a sweepstakes or lottery drawing, along with a check — one for as much as $45,000 — issued in their name against ASPA and a purported ANZ Amerika Samoa Bank account, with instructions to call an off-island phone number and provide personal information to claim the rest of their winnings. Banks and individuals on the mainland began contacting ASPA directly to verify whether the checks were genuine, prompting the utility to confirm publicly that it had never issued them and to work with ANZ Bank and Bank of Hawai'i to keep the fraudulent checks from being processed against its accounts. The FBI separately confirmed the sender "is not a legitimate business," calling it "a fake corporate name used by con-men to cheat people out of their money in an old-fashioned lottery scam." The case shows how scammers can borrow a real but relatively obscure government utility's name to make a fake prize check look more official to recipients far away who have no easy way to check with the utility directly — anyone who gets an unsolicited "winning" check from an unfamiliar sweepstakes, especially one drawn against a government agency or utility, should contact that agency directly using a phone number they look up independently, not one printed on the letter, before depositing the check or providing any personal information.`,
+    categorySlug: 'fake-check-overpayment',
+    alertLevel: 'medium',
+    sources: ['Samoa News', 'Radio New Zealand (RNZ) Pacific', 'Federal Bureau of Investigation'],
+    sourceUrl: 'https://www.samoanews.com/fbi-warns-public-about-latest-lottery-scam',
+    country: 'US',
+    state: 'AS',
+    isHistorical: true,
+    firstRecorded: '2013-06-19',
+});
