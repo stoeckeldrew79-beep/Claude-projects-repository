@@ -3893,3 +3893,17 @@ UsTZ.push({
     isHistorical: true,
     firstRecorded: '2019-03-01',
 });
+
+UsTZ.push({
+    name: 'HomeOptions Predatory 20-Year Listing and Lien Scheme',
+    slug: 'california-homeoptions-predatory-listing-lien-scheme',
+    description: `HomeOptions, an Oakland-based real estate company, offered financially vulnerable California homeowners an upfront payment of a few hundred to a couple thousand dollars in exchange for signing a contract making HomeOptions their exclusive listing agent for the next 20 years — then, according to California Attorney General Rob Bonta's office, deceptively recorded liens against the homeowners' properties under those unlawful contracts, which then blocked or complicated any future sale or refinance until the homeowner paid HomeOptions tens of thousands of dollars in illegal fees to remove the lien. The Attorney General's investigation found the company misrepresented the nature of its agreements, buried unlawful breach and early-termination penalty terms in the fine print, and violated California's Real Estate Law along with state and federal telemarketing and lending laws, ultimately affecting more than 500 California homeowners. Attorney General Bonta announced a settlement on April 4, 2025, requiring HomeOptions and its CEO to terminate every lien and contract still outstanding in California and pay over $570,000 combined in victim restitution and civil penalties. "HomeOptions' business practices can be summed up in one word: predatory," Bonta said in announcing the settlement. "This settlement holds the company accountable and provides immediate relief to California homeowners." The case is a reminder that any offer of quick cash in exchange for signing away exclusive rights to your home for years — whether a real estate listing agreement, a solar lease, or a similar long-term contract — deserves an independent read by a real estate attorney before signing, and that a homeowner who discovers an unexpected lien on their property title can search their county recorder's office records and report a suspected unlawful lien to the California Attorney General's Consumer Protection Section.`,
+    categorySlug: 'mortgage-foreclosure-scams',
+    alertLevel: 'high',
+    sources: ["California Attorney General's Office"],
+    sourceUrl: 'https://oag.ca.gov/news/press-releases/attorney-general-bonta-announces-settlement-california-based-homeoptions-over',
+    country: 'US',
+    state: 'CA',
+    isHistorical: true,
+    firstRecorded: '2025-04-04',
+});

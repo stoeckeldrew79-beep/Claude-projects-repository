@@ -6937,3 +6937,17 @@ UsNS.push({
     isHistorical: true,
     firstRecorded: '2019-03-01',
 });
+
+UsNS.push({
+    name: 'McHenry "Iron Condor" Investment Fraud (Ronald Pallek)',
+    slug: 'illinois-mchenry-pallek-iron-condor-investment-fraud',
+    description: `Ronald Pallek of McHenry, Illinois spent years convincing friends, friends of friends, and family members to give him money to invest, promising he could double their money using an options-trading "iron condor" strategy even though he knew he had never actually been able to generate those returns. Between February 2021 and September 2023, Pallek raised roughly $1.54 million from investors and, according to federal prosecutors, defrauded more than 100 people across Illinois and Wisconsin of over $1.6 million total, sending victims falsified earnings statements and making Ponzi-style payments to earlier investors with money from newer ones to keep the scheme going, while using investor funds to cover his own mortgage and car payments and to gamble. Pallek was sentenced in the U.S. District Court for the Eastern District of Wisconsin to 48 months in federal prison followed by three years of supervised release, and ordered to pay $1,679,250 in restitution to his victims. The case is a reminder that a strategy promising to reliably "double your money" through options trading — iron condors included — carries real, well-documented risk of loss even in the hands of a licensed professional, and that anyone offered a guaranteed high return through informal channels like friends or family should ask for independent, verifiable account statements from a real brokerage and check the person's registration status through FINRA's BrokerCheck or the SEC's Investment Adviser Public Disclosure database before handing over money.`,
+    categorySlug: 'ponzi-pyramid-schemes',
+    alertLevel: 'high',
+    sources: ["Internal Revenue Service Criminal Investigation", 'U.S. Attorney\'s Office, Eastern District of Wisconsin'],
+    sourceUrl: 'https://biztimes.com/illinois-man-sentenced-to-prison-after-defrauding-investors-in-wisconsin-illinois/',
+    country: 'US',
+    state: 'IL',
+    isHistorical: true,
+    firstRecorded: '2021-02-01',
+});
