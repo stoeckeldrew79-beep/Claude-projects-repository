@@ -8014,6 +8014,50 @@ The individual case sits inside a much larger enforcement problem: after the 202
     country: "HU",
   },
   {
+    name: "Ukrainian-Run AnyDesk Remote-Access Bank Fraud Ring",
+    slug: "hungary-anydesk-ukrainian-remote-access-bank-fraud-ring",
+    description:
+      "Hungary's Pest County Police Headquarters (Pest Megyei Rendőr-főkapitányság) announced on December 20, 2024 that it had dismantled a fraud ring that sent Hungarian bank customers fake notifications and emails posing as their own bank, warning of suspicious account activity and prompting the recipient to resolve it by installing the remote-access program AnyDesk — software that then gave the fraudsters direct, hands-on control of the victim's device and online banking session, letting them authorize transfers themselves rather than waiting for a victim to hand over a password. Police said the operation was coordinated by a 24-year-old Ukrainian man running the scheme from Montenegro together with a 26-year-old Hungarian accomplice who handled the financial side, and that it had defrauded more than 30 victims of a combined 330 million forints (roughly €800,000), with the single largest theft — 70 million forints (about €170,000) — drained from one account in a single transaction. The stolen money was moved through a network of straw-man bank accounts recruited to receive the transfers and converted into cryptocurrency to frustrate tracing before being split among the organizers; police said they identified and questioned 23 additional people who had opened accounts or otherwise helped launder the proceeds. The Ukrainian organizer was arrested in Austria and extradited to Hungary, where he and his Hungarian co-defendant face prosecution for commercial-scale fraud and money laundering of particularly high value. Pest County police point to the same warning behind nearly every AnyDesk-based fraud: a genuine bank employee will never ask a customer to install remote-access software in response to an unsolicited text or email, and anyone who receives such a message should contact their bank directly using the number printed on their card, never a number or link the message itself provides.",
+    categorySlug: "account-takeover",
+    alertLevel: "critical",
+    sources: ["Pest County Police Headquarters (Pest Megyei Rendőr-főkapitányság)", "Daily News Hungary"],
+    sourceUrl: "https://dailynewshungary.com/ukrainian-cyber-criminal-hungary/",
+    country: "HU",
+  },
+  {
+    name: "Hajdú-Bihar Ukrainian Crypto-Investment Courier Fraud",
+    slug: "hungary-hajdu-bihar-ukrainian-crypto-courier-fraud",
+    description:
+      "On May 29, 2025, Hungary's Ministry of Interior — represented by parliamentary state secretary Bence Retvári — and the national police detailed the results of an investigation into a web of Ukrainian-run online fraud operations that had by then produced 169 identified suspects, including organizers already subject to international arrest warrants, coordinators, and operators of money-laundering networks that moved stolen funds through Hungarian intermediaries. Investigators described several distinct scam patterns running through the same underlying network across different counties: fake call centers impersonating bank employees, phishing schemes targeting sellers on online marketplaces, and fraudulent cryptocurrency investment pitches. In one of the cases publicized alongside the announcement, a man in Hajdú-Bihar County was persuaded by Ukraine-based fraudsters, who first made contact by email, to put 103 million forints (roughly €255,000) into a bogus cryptocurrency investment; rather than have the money wired electronically, the scheme's organizers sent a courier to collect the cash from the victim in person. Police set a trap for the handover and arrested the courier — a Ukrainian man who had traveled from Warsaw to collect the money for a fee of 300 euros. The Ministry's message to the public was that a cold email or message from an unfamiliar sender pitching a cryptocurrency investment, followed by any request to hand cash to a courier rather than use a bank's own transfer system, is itself a hallmark of fraud — a legitimate investment is never sold through pressure to hand over physical cash before a bank or family member can be consulted.",
+    categorySlug: "cryptocurrency-scams",
+    alertLevel: "high",
+    sources: ["Hungarian Ministry of Interior", "hirado.hu", "Index"],
+    sourceUrl: "https://hirado.hu/belfold/cikk/2025/05/29/kriptovalutaval-kereskedo-ukran-csalokat-fogott-el-a-rendorseg-az-ugyben-a-belugyminiszterium-is-megszolalt",
+    country: "HU",
+  },
+  {
+    name: "Fake Automated Crypto Trading \"Robot\" Portfolio Fraud",
+    slug: "hungary-fake-automated-crypto-trading-robot-fraud",
+    description:
+      "On October 16, 2023, Hungarian police announced the arrests, a week earlier, of the operators of a Budapest-registered company that had marketed itself to Hungarian investors as offering automated cryptocurrency portfolio management through a proprietary trading \"robot\" the company claimed had never once closed a trading day at a loss. Investors were told a minimum stake of 300 Tether (USDT) could grow into as much as 1,000,000 USDT within 36 months; police said the company had no trading software of any kind and never traded on investors' behalf at all, instead simply moving client deposits into company and personal accounts. Investigators identified 14 victims whose confirmed deposits totaled more than 66 million forints (roughly €170,000), tracing more than 100 million forints in total transactions through the scheme's accounts, of which some 95 million forints had already been laundered through a 20-year-old relative of one of the operators before the ring was broken up. Police arrested three adults behind the scheme — a 59-year-old man from Balatonalmádi and two women, aged 41 and 29, from Érd and Apc — along with the 29-year-old's 20-year-old relative, who handled the laundering, and a court ordered pretrial detention for the case's principal suspects while the wider investigation into additional victims continued. The case illustrates a recurring pattern in crypto-investment fraud: a platform's claim that an automated system has \"never lost\" is itself the warning sign, since no trading strategy — automated or otherwise — can guarantee a profit on every single trading day, and any offer built on that promise should be verified against real, independently audited trading results rather than taken on the platform's own word.",
+    categorySlug: "cryptocurrency-scams",
+    alertLevel: "high",
+    sources: ["Hungarian National Police (Rendőrség)"],
+    sourceUrl: "https://www.police.hu/hu/hirek-es-informaciok/legfrissebb-hireink/matrix-projekt/kriptovalutas-portfolio-igeretevel-100",
+    country: "HU",
+  },
+  {
+    name: "Győr Fake Gold Bar Investment Fraud Ring",
+    slug: "hungary-gyor-fake-gold-bar-investment-fraud",
+    description:
+      "On February 5, 2026, Hungary's National Bureau of Investigation of the Rapid Response and Special Police Service (KR-NNI) announced — jointly with the FBI's Newark, New Jersey field office — the arrests of three Hungarian men from Győr accused of running an online counterfeit-gold investment scheme that primarily targeted American buyers. Operating web shops built on commercial storefront platforms under brand names including Goldamac, Emaar Gold, and Emaar Bullion, the group advertised gold bars from well-known manufacturers at prices well below the world market rate, then shipped bars made of copper and zinc containing only about 1% actual gold in their place. Investigators say the scheme was run by 20-year-old P. Márk as ringleader, with 19-year-old L. Artúr managing the social media advertising and 25-year-old R. Dávid handling packaging and international shipping; police tied the group to 442 separate fraudulent shipments and put the resulting damage at roughly 216 million forints (about €535,000), with individual victims' losses ranging from 500,000 to 5,000,000 forints and some buyers paying as much as $4,000 for a single fake bar. The investigation traces back to a customs officer with Hungary's National Tax and Customs Administration (NAV) at Budapest's Liszt Ferenc International Airport, who flagged a suspicious outbound parcel listing the Hungarian State Treasury as its sender that, when opened, was found to contain gold bars. The FBI's Newark Joint Organized Crime Task Force, whose own parallel investigation had by then identified roughly 400 victims in New Jersey and elsewhere in the U.S. with losses exceeding $1.5 million, worked with Hungarian investigators to trace the operation back to Győr; P. Márk was arrested at Budapest Airport on January 29, 2026 as he returned from Dubai, L. Artúr was arrested the same day in Budapest, and R. Dávid was arrested in Győr on January 30, 2026 as he arrived from Thailand. All three face 442 counts of commercial-scale fraud; P. Márk and L. Artúr remain in pretrial detention, while R. Dávid was released to await trial. The case is a reminder that a bargain price on bullion sold outside an established, accredited dealer is itself a warning sign — genuine gold bars carry serial numbers and an assay certificate that can be verified independently, and any deal demanding payment before that verification is completed should be treated as fraudulent.",
+    categorySlug: "investment-fraud",
+    alertLevel: "high",
+    sources: ["Hungarian National Bureau of Investigation (KR-NNI)", "FBI Newark Field Office", "Telex"],
+    sourceUrl: "https://telex.hu/belfold/2026/02/05/hamis-aranylapok-harom-magyar-fbi-nyomozok-csalas",
+    country: "HU",
+  },
+  {
     name: "Bab Darna Fictitious Real Estate Development Fraud",
     slug: "morocco-bab-darna-real-estate-fraud",
     description:
