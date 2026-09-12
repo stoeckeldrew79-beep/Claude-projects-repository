@@ -9197,3 +9197,22 @@ The HSBC case became a lasting reference point in the "too big to jail" debate t
     sourceUrl: 'https://www.icij.org/investigations/fincen-files/hsbc-moved-vast-sums-of-dirty-money-after-paying-record-laundering-fine/',
   },
 );
+
+NotoriousGM.push(
+  {
+    title: "Manuel Fernández de Sousa-Faro and the €2 Billion Pescanova Hid From Its Own Books",
+    slug: 'manuel-fernandez-de-sousa-pescanova-accounting-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Manuel Fernández de Sousa-Faro took over as president of Pescanova in 1980 from his father, José Fernández López, who had founded the company in 1960 and built the world's first at-sea fish-freezing vessel a year later. Under the son's leadership, Pescanova grew into one of the largest seafood companies on Earth — publicly listed on Spain's stock exchange, employing roughly 10,500 people, and operating more than 100 fishing vessels and some 50 aquaculture farms across more than 20 countries, including Namibia, Mozambique, and Angola. For half a century it was a genuine industrial success story and a point of national pride in Spain, which made what investigators eventually found inside its books all the more startling.
+
+Behind the public numbers, Pescanova had built a web of more than 100 subsidiaries and related companies in which the parent deliberately held less than 50% of the equity — just enough to keep their debts off Pescanova's consolidated balance sheet under Spanish accounting rules, even as the parent continued to guarantee and effectively control them. Investigators later found that Pescanova had also used the names and financial data of former customers, and of companies it had never actually done business with, to apply for additional bank credit lines, manufacturing a paper trail of trade activity that didn't exist to keep financing flowing. In its 2012 accounts, the company officially declared roughly €1.5 billion in net debt alongside a modest profit; investigators later determined the real net debt was closer to €3.7 billion — more than €2 billion hidden — while the business had actually lost money that year.
+
+The concealment fell apart in February 2013, when Pescanova was forced to disclose to Spain's securities regulator, the CNMV, that its debt was far higher than its own published accounts showed. Trading in its shares was suspended, Fernández de Sousa resigned as chief executive, and the company filed for court-supervised insolvency protection in April 2013 — one of the largest corporate bankruptcies in Spanish history, and one that investigators later found several senior executives, including Fernández de Sousa himself, had gotten ahead of by selling personal shareholdings in the weeks before the fraud became public. Pescanova's creditor banks eventually took control of the wreckage, restructuring it into a new company, Nueva Pescanova, that still operates today under different ownership.
+
+Spain's National Court, the Audiencia Nacional, convicted Fernández de Sousa in October 2020 of continuous fraud and falsifying the company's financial and commercial records, sentencing him to eight years in prison; eleven other former Pescanova executives received lesser terms ranging from six months to three and a half years for their roles in the scheme. Spain's Supreme Court later trimmed his sentence to six years on appeal while upholding the core finding that he had manipulated Pescanova's accounts to keep attracting investors and credit the real business could no longer support. After exhausting his appeals, Fernández de Sousa voluntarily entered Madrid's Soto del Real prison in April 2023 to begin serving the term — a full decade after the fraud he had overseen first came to light.
+
+Pescanova is a reminder that hiding debt doesn't always require one dramatic lie: sometimes it only takes dozens of subsidiaries kept just below a 50% ownership threshold and a filing cabinet of fabricated customer records, applied patiently over years, to make one of the world's largest seafood companies look solvent long after it no longer was.`,
+    sourceUrl: 'https://www.salmonbusiness.com/former-pescanova-president-jailed-for-8-years-over-fraud/',
+  },
+);

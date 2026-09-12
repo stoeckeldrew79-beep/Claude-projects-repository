@@ -2817,3 +2817,20 @@ The Vanguard Holdings Group case follows a structure familiar from decades of pr
     sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26301',
   },
 );
+
+NotoriousTZ.push(
+  {
+    title: 'Tai Lopez, Alex Mehr, and the $112 Million "RadioShack Comeback" Ponzi Scheme',
+    slug: 'tai-lopez-alex-mehr-retail-ecommerce-ventures-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    body: `Tai Lopez built a career, and tens of millions of social-media followers, on a single viral advertisement: a 2015 video shot in front of a rented Lamborghini in his garage, promising viewers he could teach them the "67 steps" to wealth and knowledge for $67 a month. Long before that, he had worked in General Electric's financial-services arm and built a string of online dating websites — the kind of background he leaned on in 2019, when he and Alex Mehr, a co-founder of the dating app Zoosk, launched Retail Ecommerce Ventures (REV), built on a simple pitch: buy the trademarks and inventory of bankrupt, once-familiar retail brands out of Chapter 11 for pennies on the dollar, then relaunch them as online-only stores.
+
+Between 2020 and 2022, REV acquired RadioShack, Pier 1 Imports, Dressbarn, Modell's Sporting Goods, Linens 'n Things, and several other distressed brands, and Lopez and Mehr used their large online followings to raise roughly $112 million from hundreds of investors for the venture, according to the Securities and Exchange Commission. The SEC's complaint alleges investors were told the brands were "on fire" and generating strong cash flow, when in reality none of REV's portfolio companies was ever profitable — and that rather than disclose that, Lopez, Mehr, and REV's chief operating officer, Maya Burkenroad (also Lopez's cousin), kept the fundraising machine running by shuffling at least $5.9 million between the separate legal entities investors had put money into and using new investors' cash to make "Ponzi-like payments" to earlier ones, while diverting at least $16.1 million of investor money for Lopez's and Mehr's personal use.
+
+The SEC filed its civil complaint in federal court on September 25, 2025, charging all three defendants with violating the antifraud provisions of the federal securities laws. As of mid-2026, court filings describe the parties as engaged in active settlement negotiations — with the SEC reportedly closing in on terms with Mehr and Burkenroad while still finalizing an agreement with Lopez — and the FBI has separately opened a criminal investigation into the same conduct. None of the three has been convicted of any crime, and a civil settlement, if reached, would typically involve no admission of wrongdoing.
+
+The REV case is a reminder that a Ponzi scheme doesn't require a fictional company or product: REV really did buy RadioShack, and really did relaunch Pier 1 and Linens 'n Things as online stores that generated genuine, admiring press coverage of their "comebacks." The fraud alleged here isn't that the businesses were fake — it's that the people behind them are accused of telling investors those businesses were profitable when they weren't, and using each new round of fundraising to paper over the shortfall from the last one.`,
+    sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26413',
+  },
+);
