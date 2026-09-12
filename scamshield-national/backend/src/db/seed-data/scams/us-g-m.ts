@@ -6952,3 +6952,31 @@ UsGM.push({
     isHistorical: true,
     firstRecorded: '2019-01-01',
 });
+
+UsGM.push({
+    name: 'Evanston IT Businessman\'s $55 Million Bank and PPP Fraud (Rahul Shah)',
+    slug: 'illinois-evanston-rahul-shah-bank-ppp-fraud',
+    description: `Rahul Shah, 56, of Evanston, Illinois, the owner and operator of several information-technology companies in the Chicago area, fraudulently obtained more than $55 million in commercial loans and lines of credit from federally insured financial institutions by submitting falsified bank statements that inflated deposits, falsified balance sheets that overstated revenue, and fabricated audited financial statements carrying forged signatures, then defaulted on at least one line of credit and one loan after spending the proceeds. Shah separately applied for a $441,138 Paycheck Protection Program loan guaranteed by the U.S. Small Business Administration, submitting fraudulent IRS Forms 941 that overstated his company's quarterly payroll and listing the names and taxpayer-identification numbers of individuals he knew had never actually been paid by the company — a comparison with the company's real tax filings showed it had reported far lower payroll to tax authorities than it claimed to the PPP lender. A jury convicted Shah in July 2025 of seven counts of bank fraud, five counts of making false statements to a financial institution, two counts of money laundering, and two counts of aggravated identity theft, and he was sentenced on January 14, 2026 to six years in prison, two years of supervised release, and $23,226,005 in restitution. "The defendant orchestrated a massive scheme to fraudulently obtain over $55 million in commercial loans and lines of credit from federally insured financial institutions and exploit the Paycheck Protection Program," said Assistant Attorney General A. Tysen Duva of the Justice Department's Criminal Division, while U.S. Attorney Andrew S. Boutros for the Northern District of Illinois called the case's "duration, brazenness, and magnitude" a reflection of "the defendant's determination and greed." The case is a reminder that a PPP or SBA-guaranteed loan application built on payroll records that don't match what a business actually reported to tax authorities remains prosecutable years after the pandemic-era programs closed, and that using a real person's name and Social Security number on a loan application they never consented to is aggravated identity theft on top of the underlying fraud.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'medium',
+    sources: ["U.S. Department of Justice, Criminal Division", "U.S. Attorney's Office, Northern District of Illinois", 'U.S. Small Business Administration Office of Inspector General'],
+    sourceUrl: 'https://legacy.sba.gov/article/2026/01/15/chicago-businessman-sentenced-role-bank-fraud-pandemic-relief-fraud-schemes',
+    country: 'US',
+    state: 'IL',
+    isHistorical: true,
+    firstRecorded: '2025-07-01',
+});
+
+UsGM.push({
+    name: 'Guam $2.6 Million Advance-Fee Inheritance Scam (Roberto, Jones, Jones and Iwuji)',
+    slug: 'guam-advance-fee-inheritance-scam-roberto-jones-iwuji',
+    description: `Four defendants were sentenced in the District Court of Guam for running an advance-fee "inheritance" scheme that, according to U.S. Attorney Shawn N. Anderson, preyed on 60 victims, "nearly all of whom live in Guam," inducing them to pay bogus fees and expenses supposedly required to unlock a multimillion-dollar inheritance before any of the promised funds would ever be released — netting the conspiracy roughly $2.6 million. Sally Cruz Roberto, of Santa Rita, Guam, used her own bank account to wire $1,030,990 in victim funds to co-conspirators' stateside accounts and was sentenced to 33 months in prison on 38 counts of wire fraud plus conspiracy; Monique Jones and Mekayda D. Jones maintained bank accounts under shell corporations to receive, withdraw, and transfer victim money to other conspirators in the United States and Nigeria, keeping at least 10 percent of what passed through their accounts, and received 48-month and 36-month prison terms respectively. Okechukwu F. Iwuji, a Nigerian citizen previously residing in Orlando, Florida, obtained at least $475,710 from Roberto and other co-conspirators and forwarded some of it to third-party Nigerian bank accounts; U.S. District Judge John C. Coughenour sentenced him to 45 months in prison. "This sentence should make the public aware that these types of advanced fees, associated with inheritance scams, will be investigated by the Federal Bureau of Investigation and prosecuted to the fullest extent of the law," said FBI Special Agent in Charge Steven Merrill, adding the Bureau's standard warning: "If it is too good to be true, it probably is." The investigation, led by the FBI's Guam Resident Agency with help from field offices in Dallas and Atlanta, Homeland Security Investigations in Orlando, the U.S. Secret Service, and the Guam Police Department, illustrates how a promised inheritance windfall is used to justify a string of escalating "processing," "tax," or "release" fees — a legitimate inheritance or estate distribution never requires the recipient to first wire money to unrelated individuals or shell companies to collect it, and anyone told this can report it to the FBI at 1-800-CALL-FBI or tips.fbi.gov.`,
+    categorySlug: 'lottery-sweepstakes-scams',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office for the Districts of Guam and the Northern Mariana Islands", 'Federal Bureau of Investigation', 'Pacific Island Times'],
+    sourceUrl: 'https://www.pacificislandtimes.com/post/inheritance-scammers-raked-in-2-6-million-from-60-victims-on-guam',
+    country: 'US',
+    state: 'GU',
+    isHistorical: true,
+    firstRecorded: '2023-08-15',
+});
