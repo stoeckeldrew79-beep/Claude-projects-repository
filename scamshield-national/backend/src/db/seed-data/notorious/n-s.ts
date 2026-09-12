@@ -6382,3 +6382,41 @@ Sextant Capital is a case study in how a fund can hide a concentrated, self-deal
     sourceUrl: 'https://globalnews.ca/news/252345/osc-orders-otto-spork-to-pay-1m-fine-6-35m-disgorgement-and-350000-in-costs/',
   },
 );
+
+NotoriousNS.push(
+  {
+    title: 'Lance Ryan, Jimmie McNicholl, and the BlackfortFX Scheme That Preyed on Christchurch\'s Earthquake Payouts',
+    slug: 'lance-ryan-blackfortfx-christchurch-forex-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'international'],
+    body: `Christchurch, New Zealand was still rebuilding from the devastating 2010 and 2011 earthquakes when a company calling itself BlackfortFX began pitching local residents on foreign exchange trading. Many of the roughly 900 people who eventually invested were putting in money they had only recently received from the Earthquake Commission — insurance payouts meant to help them repair or rebuild their homes — drawn in by the promise of steady trading profits and by commissions the scheme paid to existing investors who brought in friends and neighbours. Between 2014 and 2015, BlackfortFX, operated through a company called Arena Capital Limited, took in roughly $8.3 million.
+
+There was no forex trading behind any of it. BlackfortFX's public face was Jimmie McNicholl, Arena Capital's sole shareholder and director, who the Serious Fraud Office (SFO) said obtained the company's registration as a financial services provider by deception — a registration that let BlackfortFX present itself to prospective investors as a properly licensed operation under New Zealand law, when no such legitimacy actually applied to what it was doing with their money. Behind McNicholl, prosecutors identified Lance Ryan, also known as Lance Jared Thompson, as the person who actually ran the scheme, generating fabricated account statements showing invented trading profits and using forged and falsified documents to keep the fiction going as investors' real money disappeared.
+
+The scheme collapsed in 2015, and receivers called in to unwind it found the company holding only a few hundred thousand dollars against millions owed back to investors — enough of a shortfall that clients who had been paid more than they put in were pursued to return the difference. The SFO filed charges in October 2016, and both men eventually pleaded guilty: McNicholl in May 2018 to obtaining the financial services provider registration by deception, and Ryan to a wider set of charges including obtaining by deception, false accounting, forgery, and theft by a person in a special relationship.
+
+At sentencing in the Christchurch District Court on July 3, 2018, the two men's outcomes diverged sharply along the lines of what each had actually done. Ryan, whom the court found had cynically manipulated vulnerable and trusting investors, was sentenced to seven years and six months in prison with a minimum non-parole period of three years and nine months. McNicholl, the registered director who lent the operation its veneer of legitimacy but was found to have played a lesser role in running it, received eleven months of home detention and was ordered to pay $50,000 in reparation.
+
+BlackfortFX is a reminder that a financial services provider registration is a record that a company has filed paperwork, not proof that regulators have verified what it actually does with client money — and that fraud aimed at a community recovering from a shared disaster can use the very money meant to help people rebuild as its funding source, spreading person to person through the same networks of trust that communities lean on most after a crisis.`,
+    sourceUrl: 'https://www.sfo.govt.nz/media-cases/media-releases/guilty-plea-in-sfo-prosecution-of-fictitious-forex-brokerage',
+  },
+);
+
+NotoriousNS.push(
+  {
+    title: 'David Sharpe, Natasha Sharpe, and the $2 Billion Bridging Finance Collapse',
+    slug: 'david-natasha-sharpe-bridging-finance-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'international'],
+    body: `Bridging Finance Inc. was, at its peak, one of the largest private lenders in Canada, run out of Toronto by husband-and-wife team David Sharpe, its CEO, and Natasha Sharpe, its chief investment officer. Launched in 2012 with backing from the Coco family (owners of Coco Paving), Bridging built a business of short-term, high-interest loans to borrowers considered too risky for a bank, packaged into funds marketed to more than 26,000 retail and institutional investors as a steady, diversified alternative to conventional fixed income. By early 2021, Bridging managed roughly $2.1 billion.
+
+Ontario's Capital Markets Tribunal later found that David Sharpe, Natasha Sharpe, and chief compliance officer Andrew Mushore ran or participated in a series of undisclosed related-party deals that funneled investor money back to the people running the fund. In one transaction, an incoming part-owner named Gary Ng bought a 50% stake in Bridging for $50 million — funded in part by a $32 million loan out of one of Bridging's own credit funds — after which Ng paid the Sharpes a further $1 million. In another, the tribunal found David Sharpe used forged borrower signatures to disguise the true source of $40 million in client money used to buy out a partner's stake in a related fund. A separate borrower connected to Alberta rail developer Sean McCoshen funnelled a total of roughly $19.5 million to David Sharpe personally, largely routed through personal accounts, after Bridging funded loans to McCoshen's companies.
+
+Bridging collapsed into court-ordered receivership on April 30, 2021, with PwC appointed as receiver and the Sharpes terminated within days. The eventual toll was severe: of the roughly $2.1 billion Bridging had managed, investors are estimated to have lost around $1.3 billion, one of the largest collapses of an investment fund in Canadian history, with the receiver's recovery efforts still ongoing years later.
+
+On October 29, 2024, the Capital Markets Tribunal ruled that David Sharpe, Natasha Sharpe, and Mushore had committed fraud, citing the undisclosed related-party transactions, misleading disclosures to investors and regulators, document forgery, and attempts to intimidate former employees and business associates during the investigation. In its June 2025 sanctions decision, the tribunal permanently banned David Sharpe from Ontario's capital markets and ordered him to pay a $3.6 million administrative penalty and disgorge more than $18 million; Natasha Sharpe was ordered to disgorge $750,000 individually and a further $2 million jointly with David; and Mushore, found to have indirectly participated in the misconduct, was banned for ten years and fined $50,000 — combined sanctions exceeding $27 million.
+
+Bridging's collapse illustrates how a private credit fund's biggest vulnerability isn't always its loan book — it's the related-party deals sitting off to the side of it, where the same people setting a fund's valuations and choosing its borrowers can also be the ones quietly profiting from the transactions those choices create. A fixed, above-market return backed by "diversified" private loans is only as trustworthy as the disclosure behind it, and forged signatures on loan paperwork can keep that arrangement hidden from auditors and investors alike for years.`,
+    sourceUrl: 'https://www.capitalmarketstribunal.ca/en/proceedings/decisions-in-brief/decision-brief-bridging-finance-inc-enforcement-proceeding-sanctions-and-costs-june-17-2025',
+  },
+);

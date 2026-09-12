@@ -8149,3 +8149,17 @@ UsAF.push({
     country: 'US',
     state: 'FL',
 });
+
+UsAF.push({
+    name: 'Aspiration Partners $248 Million Investor and Lender Fraud (Joseph Sanberg)',
+    slug: 'california-sanberg-aspiration-partners-investor-lender-fraud',
+    description: `Joseph Sanberg, an Orange County, California investor and co-founder of the Los Angeles-based "green banking" fintech Aspiration, ran a five-year scheme beginning in 2020 to defraud lenders and investors of more than $248 million. In 2020 and 2021, Sanberg and fellow Aspiration board member Ibrahim AlHusseini fraudulently obtained $145 million in loans from two lenders by pledging Sanberg's Aspiration stock as collateral, after falsifying AlHusseini's bank and brokerage statements to inflate his assets by tens of millions of dollars. Beginning in 2021, Sanberg also concealed from investors that he personally was the source of millions of dollars in supposed "revenue" that Aspiration reported from sham customers, and circulated a fabricated letter purporting to be from Aspiration's audit committee claiming the company held $250 million in cash and equivalents when it actually had less than $1 million on hand. Aspiration eventually defaulted on its loans twice while Sanberg continued soliciting new investors through 2025. He was arrested in March 2025 and pleaded guilty in October 2025 to two counts of wire fraud; on June 1, 2026, U.S. District Judge Stephen V. Wilson of the Central District of California sentenced him to 14 years in federal prison, with a restitution hearing set for July 2026. The case shows why an investor evaluating a fast-growing startup's finances should ask for audited statements delivered directly from the audit firm — not a letter or document the company's own founder hands over — since a fabricated cash balance is often the easiest place for a fraud like this to hide.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office, Central District of California", 'TechCrunch'],
+    sourceUrl: 'https://techcrunch.com/2025/08/22/aspiration-co-founder-to-plead-guilty-to-248m-fraud-scheme',
+    country: 'US',
+    state: 'CA',
+    isHistorical: true,
+    firstRecorded: '2020-01-01',
+});
