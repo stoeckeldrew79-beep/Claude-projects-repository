@@ -9177,6 +9177,50 @@ The individual case sits inside a much larger enforcement problem: after the 202
     country: 'KZ',
   },
   {
+    name: 'Deepfake Banker Video Investment Scam',
+    slug: 'kazakhstan-deepfake-banker-investment-scam',
+    description:
+      'Scammers ran social media ads featuring an AI-generated deepfake video of a well-known Kazakhstani banking executive — his manipulated image, voice, and facial expressions used to promote an unlicensed offshore trading platform. A young investor who saw the ad transferred $1,200 to the platform in April 2026; after his account showed paper profits, operators demanded further "guarantee," "commission," and "technical" fees before he could withdraw anything. When he refused to pay more, he was hit with coordinated harassment calls and messages several times a day. A financial-consultant review of the case found the platform held no license to serve retail investors in Kazakhstan, consistent with warnings the National Bank of Kazakhstan had already issued about fraud schemes relying on psychological pressure.',
+    categorySlug: 'ai-deepfake-scams',
+    alertLevel: 'high',
+    sources: ['Zakon.kz', 'National Bank of Kazakhstan'],
+    sourceUrl: 'https://www.zakon.kz/finansy/6519881-poteryal-1200-dollarov-izza-dipfeyka-novaya-skhema-moshennikov-v-kazakhstane.html',
+    country: 'KZ',
+  },
+{
+    name: 'Fake Court Summons Phishing Scam',
+    slug: 'kazakhstan-fake-court-summons-phishing-scam',
+    description:
+      'Fraudsters posing as government and court officials send Kazakhstani residents messages over social media and messaging apps claiming a fine is owed or a court summons has been issued against them. The messages push recipients to click a link to "settle the matter," leading to a counterfeit portal designed to look like an official government site. The fake page harvests the visitor\'s IIN (national ID number), bank card details, and one-time SMS codes — enough for the scammers to access the victim\'s accounts directly. Police in Abai Region, who issued the public warning, stressed that real court summonses are never delivered by link and that legitimate agencies never request such data this way.',
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Abai Region Police Department', 'Azattyq Ruhy'],
+    sourceUrl: 'https://rus.azattyq-ruhy.kz/news/106124-povestki-v-sud-kazakhstantsev-predupredili-o-novoi-skheme-moshennichestva',
+    country: 'KZ',
+  },
+{
+    name: 'Fake Telecom "Discount Offer" Remote-Access Vishing Scam',
+    slug: 'kazakhstan-fake-telecom-operator-vishing-scam',
+    description:
+      'A caller impersonating a representative of Kazakhstan\'s national telecom operator offered a resident of Astana\'s Saraishyq district a "30% discount on additional TV channels." Following the caller\'s instructions to "activate" the offer, the victim was talked into granting remote access to their phone, which briefly locked the device and let the scammer reach into the victim\'s bank deposit account. The Astana Prosecutor\'s Office announced in April 2026 that 20 million tenge (roughly $43,000) was stolen from the account, and opened a criminal fraud case under Article 190, Part 4 of Kazakhstan\'s Criminal Code. Prosecutors noted the case fit a broader pattern of callers impersonating banks, police, and utility companies to gain remote control of victims\' devices.',
+    categorySlug: 'tech-support-scams',
+    alertLevel: 'high',
+    sources: ['Astana Prosecutor\'s Office', 'Zakon.kz'],
+    sourceUrl: 'https://www.zakon.kz/sobytiia/6513514-novaya-skhema-moshennichestva-zvonok-ot-operatora-svyazi-stoil-kazakhstantsu-20-mln-tenge.html',
+    country: 'KZ',
+  },
+{
+    name: 'Fake "eGov" Employee Loan-Fraud Impersonation Scam',
+    slug: 'kazakhstan-egov-impersonation-loan-scam',
+    description:
+      'Scammers call victims claiming to work for eGov (Kazakhstan\'s e-government portal) and tell them a digital signature (EDS) has been fraudulently issued in their name. A second "accomplice" then joins the call claiming loans have already been taken out under the victim\'s identity at several banks at once, and pressures them to wire money to a "safe account" to head off the fraudulent debt. Kazakhstan\'s Prosecutor General\'s Office documented 30 instances of the scheme in August 2026 alone; in one case, a resident of Taraz transferred more than 2 million tenge after being told loans had been opened in her name across seven banks. Authorities reiterated that no government employee will ever ask for a money transfer, a loan application, or SMS/password/EDS codes over the phone.',
+    categorySlug: 'identity-theft',
+    alertLevel: 'high',
+    sources: ['Prosecutor General\'s Office of Kazakhstan', 'Bizmedia.kz'],
+    sourceUrl: 'https://bizmedia.kz/2026-09-10-moshenniki-v-kazahstane-stali-predstavlyatsya-sotrudnikami-egov/',
+    country: 'KZ',
+  },
+{
     name: 'Fake Online Storefront Scams on Instagram and Marketplaces',
     slug: 'kazakhstan-fake-online-storefront-scams',
     description: `Fake online storefronts are among the most common fraud schemes reported to Kazakhstan's Anti-Fraud Center, which has logged more than 80,000 fraud cases since its July 2024 launch. Scammers set up storefronts on Instagram, WhatsApp, and online marketplaces advertising goods at attractive prices or soliciting money for a cause, then take payment and either ship nothing or vanish once enough orders come in; the Center has found that 68% of all recipients of these fraudulent payments are individual people rather than registered businesses, since routing money to a personal account or e-wallet is harder for banks to flag and freeze in time. Fraud volume in this category climbs every autumn as online shopping activity increases nationwide, and one case tracked by the Center involved a fake Hajj pilgrimage fundraising page that collected roughly 100 million tenge from Kazakhstani citizens hoping to fund their pilgrimage before the organizers disappeared with the money. Since its launch, the Anti-Fraud Center has preserved 1.9 billion tenge in suspect accounts before it could be withdrawn, frozen a further 400 million tenge pending return to victims, and already returned 461 million tenge to people it defrauded. Consumers are advised to pay only through a marketplace's built-in escrow or buyer-protection system rather than a direct bank transfer or e-wallet request from the seller, to be especially wary of storefronts and fundraisers that appear suddenly in the run-up to a holiday or pilgrimage season, and to report suspicious sellers to the Anti-Fraud Center rather than simply blocking them.`,
