@@ -15556,3 +15556,46 @@ International.push(
     country: 'CD',
   },
 );
+
+International.push(
+  {
+    name: 'Fake Prosecutor/Police "FETÖ Investigation" Phone Impersonation Scam',
+    slug: 'turkey-fake-prosecutor-police-feto-impersonation-scam',
+    description: `Turkey's Emniyet Genel Müdürlüğü (EGM, the national police) warns that fraud rings routinely call citizens claiming to be prosecutors, police officers, soldiers, or other public officials, telling victims their phone line is "being used by a terrorist organization" or that their name has come up in a terrorism investigation, and demanding cash, gold, or a bank transfer to make the supposed problem disappear — sometimes reinforcing the con by having an accomplice send an unrelated police unit to the victim's neighborhood so the threat feels real. TRT Haber reported a case from Menteşe district in Muğla province in which a retired worker, Feriştah Özdemir, received a call on September 11, 2024 from a man identifying himself as a prosecutor who told her "your name is involved in a FETÖ investigation; you must send us 3 million lira to resolve this," and who successfully collected the full 3 million lira from her before Muğla police traced the funds to a cryptocurrency wallet and opened a manhunt, under the Muğla Chief Public Prosecutor's Office, for a suspect identified as Salim Ö. The EGM's standing public guidance is unambiguous on the point that makes the scam detectable every time: prosecutors, police officers, and other public officials never call to ask a citizen for money, gold, or a bank transfer, and never conduct a legitimate investigation or "clearance procedure" over the phone — anyone who receives such a call is advised to hang up and report it immediately to the police emergency line (155) rather than engage with the caller at all.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['T.C. İçişleri Bakanlığı Emniyet Genel Müdürlüğü (EGM)', 'TRT Haber'],
+    sourceUrl: 'https://www.trthaber.com/haber/turkiye/kendini-savci-olarak-tanitti-emekli-isciyi-3-milyon-lira-dolandirdi-878145.html',
+    country: 'TR',
+  },
+  {
+    name: '"Evde Paketleme İşi" Work-From-Home Packaging Job Deposit Scam',
+    slug: 'turkey-evde-paketleme-work-from-home-job-scam',
+    description: `Turkish consumer-complaint platform Şikayetvar recorded more than 33,000 complaints tied to work-from-home "packaging job" scams, a wave Cumhuriyet, DHA, and other outlets reported on as it accelerated through 2025. The ads, spread mainly through Instagram and Facebook pages built to look like legitimate small businesses, promise tasks such as soap packaging, hair-clip assembly, or garment wrapping under slogans like "10,000 TL haftalık kazanç" ("10,000 lira weekly earnings"), "devlet destekli paketleme işi" ("state-supported packaging work"), and "ev hanımlarına özel gelir fırsatı" ("special income opportunity for housewives"), deliberately targeting housewives, retirees, and other people looking for flexible income. Applicants are directed to a slick-looking registration form that collects their T.C. kimlik (national ID) number, home address, and IBAN bank details, after which they're told their application has been "approved" and asked to pay an initial kapora (deposit) of roughly 550 lira before materials are shipped; once that's paid, new charges for "cargo fees," "insurance," "tax," and additional deposits follow, with total demands documented as high as 4,752 lira, and Şikayetvar's data shows victims who balk at paying further being threatened with invented cancellation penalties ranging from 15,000 to 300,000 lira. No packaging materials or payment for completed work ever arrive. Because a genuine employer never asks a new hire to pay an escalating series of fees before receiving paid work, and never needs a worker's IBAN or national ID number simply to send a work-from-home starter kit, consumers are advised to treat any packaging or assembly "job" that requires an upfront deposit as fraudulent regardless of how professional its Instagram or Facebook page looks.`,
+    categorySlug: 'employment-scams',
+    alertLevel: 'high',
+    sources: ['Şikayetvar', 'Cumhuriyet', 'DHA (Demirören Haber Ajansı)'],
+    sourceUrl: 'https://www.cumhuriyet.com.tr/turkiye/sikayetvar-acikladi-evde-ek-is-vaadiyle-dolandiricilik-33-binden-2333114',
+    country: 'TR',
+  },
+  {
+    name: '"Dava/İcra" Fake Lawsuit and Debt-Enforcement SMS Phishing Scam',
+    slug: 'turkey-dava-icra-sms-lawsuit-debt-phishing-scam',
+    description: `Data that Turkish consumer-complaint platform Şikayetvar released publicly, and that Sözcü, Cumhuriyet, and DHA all covered, shows complaints about "dava/icra" (lawsuit/enforcement) SMS phishing messages rising from just 75 in 2023 to 855 in 2024 and then to 8,798 in the first nine months of 2025 alone — a 929% year-over-year jump, with the sharpest single-month increases arriving in June and July 2025. The texts use deliberately intimidating legal language, such as "icra başlatılacaktır" ("enforcement proceedings will be initiated") or "arabuluculuk dosyanızın son günü" ("this is the final day of your mediation file"), and press the recipient to call back a supplied number or click an embedded link. Victims interviewed for the reporting described being told they owed more than 10,000 lira for merchandise they never ordered, being offered an artificial "discount" to make the problem disappear — one message reportedly demanded exactly 2,800 lira to "close the file" — and being pressured, often with a raised, threatening tone from a caller posing as a lawyer or bailiff and citing forged case documents, into transferring money immediately through their mobile banking app, with reported payments as high as 12,000, 20,000, and 45,000 lira. Because a real lawsuit, enforcement order (icra), or mediation proceeding in Turkey is delivered through the official UYAP e-Devlet notification system or formal postal service — never through an unsolicited SMS with a callback number or clickable link — recipients are advised never to call the number in such a text or click its link, and instead to check their own e-Devlet account directly for any genuine legal notice.`,
+    categorySlug: 'legal-debt-collection',
+    alertLevel: 'high',
+    sources: ['Şikayetvar', 'Sözcü', 'Cumhuriyet', 'DHA (Demirören Haber Ajansı)'],
+    sourceUrl: 'https://www.sozcu.com.tr/dava-ve-icra-sms-dolandiriciligina-yonelik-sikayetler-yuzde-929-artti-p232241',
+    country: 'TR',
+  },
+  {
+    name: '"GhostPairing" WhatsApp Linked-Device Account Takeover Scam',
+    slug: 'turkey-whatsapp-ghostpairing-account-takeover-scam',
+    description: `Sözcü Gazetesi and Turkish tech outlet Webtekno reported on a WhatsApp account-takeover technique researchers dubbed "GhostPairing" ("Hayalet Eşleştirme"), which spread to Turkey after emerging internationally and specifically targets iPhone owners running iOS versions older than 16.7.12, which contain a security flaw the attack exploits. The victim receives a message that appears to come from someone they know, often claiming to show a photo of them, with a link that actually leads to a fake Facebook login page asking for their phone number; submitting it lets the attacker use WhatsApp's own linked-device (companion) pairing feature to connect the victim's account to a device the attacker controls — without ever needing the six-digit SMS verification code that protects against the more familiar SIM-swap style of WhatsApp takeover — giving the attacker real-time access to the victim's messages, photos, videos, and voice notes. Once in control, the attacker messages people in the victim's own contact list with urgent-sounding pretexts such as "telefonumu kırdım, acil yeni cihaz almam lazım" ("I broke my phone, I urgently need to buy a new one") or a request to cover a cash-on-delivery cargo payment, then selects "delete for me" on the sent messages so the real account owner never sees the fraudulent requests going out under their name. Sözcü documented a case in the Büyük Cami neighborhood of Keşan, Edirne province, where a resident identified as R.Ç. reported to police that their WhatsApp account had been taken over and used to solicit money from relatives, prompting a police investigation; Turkish police responded publicly by warning citizens that "size tanıdığınız birinden mesaj gelmiş olması, o kişinin gerçekten o parayı istediği anlamına gelmez" ("a message appearing to come from someone you know doesn't mean that person is really asking for that money"), and advised keeping iOS fully updated and verifying any unusual money request from a contact through a separate phone call before sending anything.`,
+    categorySlug: 'account-takeover',
+    alertLevel: 'high',
+    sources: ['Sözcü', 'Webtekno'],
+    sourceUrl: 'https://www.sozcu.com.tr/dunya-genelinde-whatsapp-hesaplari-gece-yarisi-ele-gecirildi-sinsi-tehlike-turkiye-ye-sicradi-p357029',
+    country: 'TR',
+  },
+);
