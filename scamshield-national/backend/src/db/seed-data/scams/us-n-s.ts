@@ -6001,3 +6001,29 @@ UsNS.push({
     state: 'SD',
     firstRecorded: '2024-03-08',
 });
+
+UsNS.push({
+    name: 'Oklahoma PIKEPASS Unpaid-Toll Smishing Scam',
+    slug: 'oklahoma-pikepass-toll-smishing-scam',
+    description: `The Oklahoma Turnpike Authority (OTA) issued an escalating series of warnings culminating April 24, 2025 about a nationwide smishing wave hitting Oklahomans especially hard, in which text messages impersonating PIKEPASS claim the recipient owes unpaid tolls and must click a link to pay, often threatening vehicle impoundment or court action that the OTA has no authority to carry out. The scam nearly overwhelmed the agency's real customer service operation: OTA's call center, which normally handles about 8,000 calls a day, fielded more than 20,000 calls in a matter of weeks from Oklahomans trying to verify whether the texts were real, while the agency's IT security team worked with tolling authorities nationally to identify and take down 264 scam websites, deactivating 146 of them in a single week. "Opening the text is no harm to anybody, but if you click the link and upload your financial information, then these bad parties will have that information," said OTA Executive Director Joe Echelle, adding flatly that "the Turnpike Authority doesn't have the ability to impound any vehicles or anything like that." OTA spokeswoman Lisa Shearer-Salim noted the texts largely target phone numbers at random — many aren't even tied to an actual PIKEPASS or PlatePay account — and that a genuine OTA collection notice only goes out by mail or email after an account is more than 120 days overdue and five invoices have already gone unanswered, never by a same-day text demanding immediate payment. Oklahomans who get one of these texts should not click the link, and can instead check any toll balance directly by logging into their PIKEPASS account or looking up their license plate at PlatePay.com, or by calling PIKEPASS customer service at 1-800-745-3727, and can report the text to their carrier by forwarding it to 7726 (SPAM) and to the FBI's Internet Crime Complaint Center at ic3.gov.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Oklahoma Turnpike Authority', 'News 9', 'KFOR'],
+    sourceUrl: 'https://www.news9.com/story/6809ba102f8b87ee2ebeb706/oklahoma-turnpike-authority-warns-of-smishing-text-scams-targeting-oklahomans',
+    country: 'US',
+    state: 'OK',
+    firstRecorded: '2025-04-24',
+});
+
+UsNS.push({
+    name: 'Oregon Construction Contractors Board Impersonation Scam',
+    slug: 'oregon-ccb-contractor-license-impersonation-scam',
+    description: `Oregon's Construction Contractors Board (CCB) has warned licensed contractors about a pair of impersonation schemes using its name, including an email phishing wave flagged by the Associated General Contractors of Oregon-Columbia Chapter on October 30, 2024. In that version, contractors receive an unsolicited email claiming to be from CCB and asking them to click a button to "review and sign a document" through DocuSign — a red flag on its own, since the CCB says plainly that it "does not currently use Docusign software that allows documents to be signed electronically" and never sends document-signing requests by email. A companion phone version has a caller with an out-of-state number claiming to be a CCB representative who tells a contractor their license is about to expire and asks for a credit card number over the phone to process the renewal on the spot; the CCB says it will not ask for payment information by phone, email, or text message under any circumstances. The Board has also logged a related check-overpayment scheme in which an out-of-state "customer" hires a contractor for work on a newly purchased home, sends a check for more than the agreed deposit, and asks for the difference wired back immediately — only for the original check to bounce after the contractor has already sent real money. CCB advises contractors who get an unexpected email or call like this to look for the usual signs of a fake — spelling and grammar errors, a sender address that doesn't match on close inspection, blurry or wrong logos, and pressure to act immediately — and to call the agency directly at 503-378-4621 to confirm whether a communication is genuine before clicking a link, signing anything, or providing payment or account information.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Oregon Construction Contractors Board', 'Associated General Contractors of Oregon-Columbia Chapter'],
+    sourceUrl: 'https://www.oregon.gov/ccb/Pages/ScamAlert.aspx',
+    country: 'US',
+    state: 'OR',
+    firstRecorded: '2024-10-30',
+});
