@@ -8428,3 +8428,25 @@ Burns's pitch worked because it borrowed the trust-building tools of legitimate 
     sourceUrl: 'https://www.justice.gov/usao-ndga/pr/fugitive-financial-advisor-indicted-10-million-investment-fraud-scheme',
   },
 );
+
+// No rights-cleared photo of Cohen has surfaced — he is a private individual
+// with no Wikimedia Commons portrait or public-domain mugshot located, so
+// sourceUrl serves as the "read the full story" link instead of a photo.
+NotoriousAF.push(
+  {
+    title: 'Darryl Cohen and the $5 Million Life-Insurance Markup Scheme That Targeted His Own NBA Clients',
+    slug: 'darryl-cohen-nba-players-life-settlement-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    body: `Darryl Matthew Cohen spent years building the kind of resume that makes a financial adviser easy to trust: twelve years at Wells Fargo, a stint at Merrill Lynch, and from June 2015 to April 2021, a position as a broker and investment adviser at Morgan Stanley. Through that role he built a client roster that included professional athletes, and between October 2017 and April 2020, prosecutors say, he used the fiduciary trust three NBA players — Jrue Holiday, Chandler Parsons, and Courtney Lee — placed in him to steer them into one of the more obscure corners of the insurance market: viatical life settlements, in which investors buy an existing life insurance policy from someone else, typically at a discount, and collect the death benefit when the original policyholder dies.
+
+According to the Securities and Exchange Commission and federal prosecutors in the Southern District of New York, there was nothing discounted about what Cohen's clients received. He steered the three players into settlement purchases marked up 222 percent, 310 percent, and 244 percent above what the policies had actually cost, without disclosing that the transactions were controlled by Brian Gilder, an independent financial planner and accountant Cohen had personally encouraged his clients to use for tax preparation. A law firm connected to the deals took in roughly $4.5 million from the markups; Gilder was separately charged and pleaded guilty to wire fraud conspiracy for his role. All told, the inflated policies cost the three athletes more than $5 million above what the underlying settlements were worth.
+
+The SEC's parallel civil complaint, filed March 23, 2023, laid out where more than $1 million of that money actually went once it reached Cohen: roughly $500,000 was diverted from two players' accounts under the guise of charitable donations to "Beast Basketball," a nonprofit tied to his son's basketball program, with about $238,000 of that sum used instead to build a private athletic training facility in the backyard of Cohen's own home. Additional client funds went to paying off his personal credit card balance and covering transfers to a romantic partner, on top of the money Gilder and the connected law firm kept for themselves — a level of personal enrichment his SEC complaint alleged Cohen concealed from clients who believed he was simply managing their money and their taxes.
+
+Cohen went to trial in Manhattan federal court, and after a five-week trial before U.S. District Judge Vernon S. Broderick, a jury convicted him on March 4, 2026 of one count of wire fraud and one count of investment adviser fraud; jurors deadlocked on a separate conspiracy count. "Financial advisor Darryl Cohen built trust with successful pro athletes, then betrayed it, stealing their money to fund personal luxuries, including a state-of-the-art gym in his own backyard," said U.S. Attorney Jay Clayton in announcing the verdict. Cohen, 52, of Chatsworth, California, faces up to 20 years in prison on the wire fraud count and up to five years on the investment adviser fraud count; as of this writing, no sentencing date has been set, so his actual punishment remains undetermined.
+
+Cohen's case is a reminder that a fiduciary relationship cuts both ways: the same trust that lets an adviser recommend an accountant, a tax preparer, or an investment structure to a client is exactly what lets a dishonest adviser route that client into a deal the client has no way of pricing on their own. A viatical settlement is an asset few investors — professional athletes with demanding, unrelated careers very much included — have any independent way to value, which is precisely why the SEC alleges Cohen and Gilder chose it: a 300 percent markup is much easier to hide inside an unfamiliar asset class than inside a stock price anyone can look up.`,
+    sourceUrl: 'https://www.justice.gov/usao-sdny/pr/financial-advisor-convicted-scheme-defraud-professional-basketball-players',
+  },
+);
