@@ -5845,3 +5845,26 @@ Ver's case is a reminder that expatriation is a tax event, not an exit from one:
     sourceUrl: 'https://www.irs.gov/compliance/criminal-investigation/roger-ver-admits-to-misconduct-and-enters-into-deferred-prosecution-agreement',
   },
 );
+
+// No rights-cleared photo of Simsek has surfaced (he is a fugitive believed
+// to be living in Turkey; the FBI's own wanted-poster image is not on
+// Wikimedia Commons) — sourceUrl below serves as the "read the full story"
+// link instead of a generic photo.
+NotoriousNS.push(
+  {
+    title: "Onur Simsek: Fake 'Made in the USA' Parts for Navy Aircraft Carriers and Army Tanks",
+    slug: 'onur-simsek-defense-procurement-fraud-fugitive',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    body: `Between April 2019 and February 2022, federal prosecutors say Onur Simsek and a small group of co-conspirators ran a scheme that let counterfeit-origin military components work their way into some of the U.S. armed forces' most sensitive equipment. Their vehicle was Mason Engineering Parts LLC, a company registered in Orlando, Florida, that presented itself to the Department of Defense as a vetted, ISO 9001-certified domestic manufacturer — and, prosecutors say, falsely claimed Woman-Owned Small Business status to help win federal contracts set aside for exactly that kind of company.
+
+The parts Mason Engineering supplied on those Pentagon contracts were not made in the United States at all. Prosecutors say Simsek and co-defendant Yuksel Senbol had the components manufactured in Turkey — using sensitive, export-controlled U.S. technical drawings — then shipped and repackaged to look like compliant domestic production before being delivered as certified, conforming parts for the Navy's Nimitz- and Ford-class aircraft carriers, Navy submarines, Marine Corps armored vehicles, and the Army's M1 Abrams tanks.
+
+It was not Simsek's first time running this playbook. He had already been debarred from federal contracting in 2018 after a conviction for a nearly identical procurement-fraud scheme in the Southern District of Florida. A federal grand jury in the Middle District of Florida charged him with eight felony counts, including conspiracy to defraud the United States, conspiracy to commit wire fraud, wire fraud, conspiracy to commit money laundering, money laundering, and violations of the Arms Export Control Act and the Export Control Reform Act, and a judge there issued an arrest warrant for him in October 2023. Believed to be living in Turkey, he has not been taken into custody. Senbol was less fortunate, pleading guilty and, in October 2024, being sentenced to 15 months in federal prison and ordered to forfeit $275,430.90.
+
+On September 3, 2026, the FBI took the unusual step of adding Simsek — a foreign national living outside U.S. reach — to its Most Wanted Fraudsters list, a roster created just months earlier specifically to publicize federal fraud fugitives, offering a $150,000 reward for information leading to his arrest. GSA Administrator Edward C. Forst, whose agency's inspector general helped build the case, said Simsek's "alleged procurement fraud deprived taxpayers of value" and "denied honest businesses fair opportunity." An FBI Tampa agent working the case put the stakes in blunter terms: a scheme like this, if it had gone undetected, "could have seriously compromised our national security."
+
+Consumer fraud usually asks its victims to trust a stranger's word about a return, a diagnosis, or a company's balance sheet; this case asked the U.S. military supply chain to trust a certification stamp instead. A "Made in USA, ISO 9001-certified" label on a part destined for a submarine or an aircraft carrier is supposed to be one of the most rigorously audited claims in government contracting — and Simsek's scheme, run by someone already caught and formally barred from the system once before, is a reminder that a determined fraudster can still find a way back in simply by putting a different company's name on the paperwork.`,
+    sourceUrl: 'https://www.gsa.gov/about-gsa/newsroom/news-releases/gsa-applauds-unprecedented-addition-of-suspected-procurement-fraudster-to-fbi-09032026',
+  },
+);
