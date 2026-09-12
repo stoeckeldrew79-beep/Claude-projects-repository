@@ -5975,3 +5975,29 @@ UsNS.push({
     state: 'NE',
     firstRecorded: '2025-11-11',
 });
+
+UsNS.push({
+    name: 'North Dakota Board of Nursing License-Suspension Impersonation Scam',
+    slug: 'north-dakota-board-of-nursing-impersonation-scam',
+    description: `The North Dakota Board of Nursing (NDBON) warned licensees on July 7, 2026 about scam phone calls from people falsely claiming to be Board staff or law enforcement, using spoofed caller ID that displays NDBON's own phone number to make the calls look genuine. The callers, whose tone the Board describes as sometimes hostile, tell nurses that some specific action must be taken immediately to prevent their nursing license from being suspended, then press for personal information over the phone. NDBON says the pattern mirrors similar scam calls that have recently targeted licensees of other professional boards, and stresses it does not conduct license enforcement this way. Nurses contacted like this are advised not to give any personal information to a caller they don't already know or trust, to independently check their license status through NDBON's Nurse Portal or public Verification Portal rather than take the caller's word for it, and to call the Board directly at 701-751-3000 or email contactus@ndbon.org to confirm whether a call was legitimate before responding to any demand.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ["North Dakota Board of Nursing"],
+    sourceUrl: 'https://ndbon.org/2026/07/scam-alert/',
+    country: 'US',
+    state: 'ND',
+    firstRecorded: '2026-07-07',
+});
+
+UsNS.push({
+    name: 'South Dakota Health Licensing Board Impersonation Scam',
+    slug: 'south-dakota-department-of-health-licensing-impersonation-scam',
+    description: `The South Dakota Department of Health warned licensed healthcare practitioners on March 8, 2024 about scam phone calls impersonating the Department and the state's professional healthcare licensing boards. Callers falsely tell a nurse, physician, or other licensee that they are in breach of licensing rules, laws, or regulations, then use fabricated urgency — often demanding a response in fewer than 20 days and warning against seeking legal advice first — to pressure the practitioner into making a payment or handing over personal information, passwords, or a Social Security number. The Department noted the callers often already have real, publicly available details about the licensee's name and credentials, drawn from license lookups, social media, or professional directories, which makes the calls sound more credible than a random cold call would. Legitimate licensing action in South Dakota is never handled through a same-call demand for money — real disciplinary notices come with a legally protected response window rather than an artificial deadline — so a call fitting this pattern should be treated as fraudulent regardless of how much accurate personal detail the caller already has. Healthcare practitioners who receive one of these calls are urged not to click links or download attachments the caller sends, to independently verify their license status directly with their licensing board using contact information looked up on their own, and to report the contact to the South Dakota Attorney General's Consumer Protection Division at 1-800-300-1986 or consumer.sd.gov.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['South Dakota Department of Health'],
+    sourceUrl: 'https://doh.sd.gov/press-releases/south-dakota-department-of-health-warns-of-scam-phone-calls-impersonating-state-regulators/',
+    country: 'US',
+    state: 'SD',
+    firstRecorded: '2024-03-08',
+});

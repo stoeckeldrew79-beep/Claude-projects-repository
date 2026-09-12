@@ -3429,3 +3429,29 @@ UsTZ.push({
     sourceUrl: 'https://www.bbb.org/article/scams/27212-scam-alert-how-to-spot-shady-buyers-on-facebook-marketplace',
     country: 'US',
 });
+
+UsTZ.push({
+    name: 'West Virginia PSC $250 Utility Relief Impersonation Scam',
+    slug: 'west-virginia-psc-utility-relief-impersonation-scam',
+    description: `The West Virginia Public Service Commission (PSC) warned residents on November 7, 2024 after a Boone County woman lost money to a caller who falsely claimed to work for the Commission and offered her a nonexistent PSC program paying $250 a month for six months to help reduce her utility bills. The caller asked for her debit card number and bank account information to "enroll" her in the program, and she provided it before realizing the call was fraudulent — the individual had no connection to the PSC. PSC Chairman Charlotte R. Lane said flatly that "Public Service Commission employees do not contact utility customers to advise them of utility relief programs" and that "a PSC employee would never ask a customer for his or her financial or banking information," adding that anyone who gets a call like this "should hang up and call your local law-enforcement agency." The PSC does not administer bill-relief payments to individual customers by phone, and any real utility assistance program in West Virginia is applied for directly through the utility or the state's Low-Income Energy Assistance Program, never enrolled over an unsolicited call asking for banking details. West Virginians who receive a similar call are urged to hang up without providing any information and report it to local law enforcement or the West Virginia Attorney General's Consumer Protection Division at 1-800-368-8808.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['West Virginia Public Service Commission', 'WV MetroNews'],
+    sourceUrl: 'https://wvmetronews.com/2024/11/07/public-service-commission-warns-of-telephone-scam-with-suspects-posing-as-psc-employees/',
+    country: 'US',
+    state: 'WV',
+    firstRecorded: '2024-11-07',
+});
+
+UsTZ.push({
+    name: 'West Virginia Lookalike State-Website Phishing Campaign',
+    slug: 'west-virginia-lookalike-state-website-phishing-scam',
+    description: `The West Virginia Department of Homeland Security warned residents in late December 2025 about a phishing campaign using lookalike web addresses designed to impersonate official West Virginia state government websites and trick people into handing over passwords, Social Security numbers, banking details, and other sensitive information. The fake sites and the unsolicited emails or texts that link to them mimic real state pages closely enough to pass a quick glance, with the clearest tells being extra words, added dashes, misspellings, or unusual domain endings tacked onto what should be a wv.gov address. Because the campaign targets state services broadly rather than one agency, officials say the safest habit is to never trust a link in an unexpected email or text at all: type wv.gov directly into a browser, then navigate from there, and if a message claims to be from a specific state agency, look up that agency's number independently through wv.gov rather than calling a number the message provides. West Virginians are also advised to use strong, unique passwords with two-factor authentication where it's offered and to keep device software and antivirus protection current, and can report a suspected phishing site or message to the West Virginia Fusion Center or their local law enforcement agency.`,
+    categorySlug: 'phishing',
+    alertLevel: 'medium',
+    sources: ['West Virginia Department of Homeland Security', 'WVVA News'],
+    sourceUrl: 'https://www.wvva.com/2025/12/31/state-warns-phishing-campaign-impersonating-west-virginia-agencies/',
+    country: 'US',
+    state: 'WV',
+    firstRecorded: '2025-12-31',
+});
