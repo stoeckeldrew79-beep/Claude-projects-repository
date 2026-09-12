@@ -15313,3 +15313,55 @@ International.push(
     sourceUrl: 'https://www.fbr.gov.pk/beware-fradulant-sms/152600',
   },
 );
+
+International.push(
+  {
+    name: 'Jeonse "Gap Investment" Rental Deposit Fraud',
+    slug: 'south-korea-jeonse-gap-investment-deposit-fraud',
+    description: `Under South Korea's jeonse system, a tenant pays the landlord a single lump-sum deposit — typically 70 to 90 percent of the home's sale value — instead of monthly rent, and gets the full amount back when the two-year lease ends. "Gap investment" fraud exploits that structure: an operator buys up villas or officetels by paying only the small cash "gap" between the sale price and the existing tenant's deposit, effectively using the next tenant's own deposit money to fund the purchase, while building no reserve or equity to ever repay it. South Korea's National Police Agency confirmed that one such operator, a man in his 40s known in the press as the "villa king," bought 1,139 villas and officetels this way starting in 2020 before he was found dead in a Seoul hotel room on October 12, 2022; nearly 400 tenants nationwide lost their deposits when he died, including a 29-year-old who had paid 200 million won ($154,000), and courts seized his remaining properties over 6.2 billion won in unpaid property taxes before victims could be repaid. A second operator known as the "villa god" and two accomplices were separately arrested for collecting 4.37 billion won in deposits across roughly 3,500 units using the same gap-investment structure. The scale of the problem has kept growing rather than fading: the government's Special Act on Support for Jeonse Fraud Victims, enacted June 1, 2023 to let a public housing corporation buy up affected units at auction on victims' behalf, has been extended twice — most recently through May 2027 — because, in the Ministry of Land, Infrastructure and Transport's own words, "fraudulent cases are continuing to occur" with prevention systems still inadequate; roughly 38,000 victims had been officially recognized under the law as of March 2026. A further amendment passed April 23, 2026 added a "minimum guarantee" covering one-third of an unrecovered deposit through public funds and shielded victims' deposit claims from being wiped out by a landlord's bankruptcy, after a 30-year-old victim who lost a 100 million won deposit in 2023 told lawmakers, "a deposit is not just money but like a home, and with support at the 30 percent level, it is difficult to fully regain the life that was lost." Prospective jeonse tenants are advised to check a property's full registered-rights history (deunggibu) for existing liens before signing, to confirm the gap between the asking deposit and recent sale prices in the building is not unusually small, and to buy deposit-return guarantee insurance through the state-run Korea Housing & Urban Guarantee Corporation (HUG) before handing over a deposit.`,
+    categorySlug: 'rental-housing',
+    country: 'KR',
+    alertLevel: 'high',
+    sources: ['The Korea Herald', 'The Korea Times', 'Kyunghyang Shinmun (English Edition)', 'National Police Agency (Korea)', 'Ministry of Land, Infrastructure and Transport (Korea)'],
+    sourceUrl: 'https://www.khan.co.kr/en/article/202604240604007/',
+  },
+);
+
+International.push(
+  {
+    name: '"Leading Room" (Riding-bang) Fake Stock-Tip Investment Scam',
+    slug: 'south-korea-leading-room-stock-tip-investment-scam',
+    description: `A "leading room" (리딩방, riding-bang) is a paid KakaoTalk open-chat, Telegram, or Naver Band group in which a self-proclaimed stock or crypto "expert" recruits members — often by posting a link in the comments under a real, legitimate stock-market YouTuber's video — with free "stock education" and screenshots of huge past gains. Once inside, members are steered onto a securities app the organizers control, which displays a fabricated balance climbing steadily upward as "decoy" members in the chat post their own fake profits to build pressure to invest more; when a victim finally tries to withdraw, the platform invents a "tax," "security deposit," or membership upgrade fee that must be paid first, and a second wave of scammers posing as recovery lawyers or brokers then targets the same victims a second time. Seoul Metropolitan Police Agency's Financial Crime Investigation Unit announced in mid-2026 that it had detained nine members of one such ring — led by a suspect believed to be Chinese who was deported after being caught — who ran a call center out of a hotel in Sihanoukville, Cambodia, with four Korean-staffed teams operating from February 2024 to February 2026; the group lured victims, including doctors and tax accountants, with promises of 600 percent returns on "AI-recommended" stocks and defrauded 59 identified victims of about 9.9 billion won, with police securing a court order to freeze 273 million won of the proceeds before trial. That single case sits inside a much larger national pattern: Financial Supervisory Service and police data tracked roughly 1.83 trillion won in "leading room"-type investment-fraud losses across nearly 20,000 cases from September 2023 through the first half of 2026 alone, including 710.4 billion won in 2024 and 658.1 billion won in 2025. Regulators advise anyone approached in an unsolicited investment chat group to verify that the person claiming to be an adviser is actually registered with the Financial Supervisory Service — checkable through the FSS's own consumer portal or its 1332 hotline — before paying any fee, and to treat a demand for an extra "tax" or "deposit" before a withdrawal will be released as certain proof of fraud, since no licensed securities firm in Korea ever requires one.`,
+    categorySlug: 'investment-fraud',
+    country: 'KR',
+    alertLevel: 'critical',
+    sources: ['Seoul Metropolitan Police Agency', 'The Asia Business Daily', 'Financial Supervisory Service (Korea)'],
+    sourceUrl: 'https://www.asiae.co.kr/en/article/2026061100210520965',
+  },
+);
+
+International.push(
+  {
+    name: '"Mom, My Phone Screen Broke" Family Impersonation Smishing',
+    slug: 'south-korea-broken-phone-family-impersonation-smishing',
+    description: `A text arrives from an unknown number claiming to be the recipient's son or daughter, explaining that their phone screen broke or was lost and this is their "new number," and asking to be added as a contact or moved into a KakaoTalk chat — after which the conversation turns to an urgent request for money, banking details, or a link to install an app to "verify" identity or receive a document. A South Korean fraud-prevention firm, Infinigru Corp., analyzed 40,876 such messages sent to 1,856 victims between December 8, 2025 and July 14, 2026, and found the impersonation had become alarmingly precise: among 1,801 victims over 40, scammers correctly used the family title "Mom" or "Dad" 95.3 percent of the time, rising to 97 percent for people in their 70s, and in 30 cases used the victim's actual child's real name — leading 29 of those recipients to keep chatting and 11 to install a malicious app. Victims aged 50 and older made up about 94 percent of the total, messages were concentrated between 10 a.m. and 2 p.m. specifically to catch parents while their real children were likely to be at work or school and unreachable to contradict the story, and the median time from the first message to a demand for money or personal data was just 26 minutes. Investigators suspect scammers are pulling real names and phone numbers from recent large-scale data breaches to make the impersonation convincing, and the numbers themselves are used briefly and discarded — 818 of 1,160 phone numbers identified in the scheme were used for only a single day. "People must not immediately trust texts or phone calls mentioning personal details," Konkuk University police science professor Lee Woong-hyuk told reporters. Recipients are advised to call their child back only at the phone number already saved in their contacts — never a new number supplied in the message itself — before sending any money, personal information, or installing any app the text directs them to.`,
+    categorySlug: 'family-emergency-scams',
+    country: 'KR',
+    alertLevel: 'high',
+    sources: ['The Korea Times', 'Infinigru Corp.'],
+    sourceUrl: 'https://www.koreatimes.co.kr/southkorea/law-crime/20260807/smishing-scams-targeting-older-people-use-real-names-family-ties',
+  },
+);
+
+International.push(
+  {
+    name: '"Buy Gift Cards to Get a Loan" Voice Phishing Scam',
+    slug: 'south-korea-gift-card-loan-voice-phishing-scam',
+    description: `A caller posing as a bank or savings-bank loan officer tells someone with a weak credit history that they can still qualify for a fast, low-interest loan — but first they need to build a "usage history" that proves they can be trusted to repay, by buying several rounds of department-store or convenience-store gift certificates and reporting the redemption codes back to the caller. There is no loan. In a related version of the same pitch, the caller instead tells the victim to hand over their own physical bankbook and bank card so the "loan" can be processed; either way, the account or the codes are then used as a deposit channel for money other, unrelated voice-phishing victims have already been tricked into wiring, which is converted into gift-card balances, cashed out, swapped into cryptocurrency, and sent overseas to the scheme's organizers. South Korea's Financial Supervisory Service issued a public consumer alert about the gift-card version on August 9, 2026, stating flatly that "any claim that buying gift cards will get you a loan is 100% phishing," and the Korea Financial Intelligence Unit reported suspending transactions on 4,935 accounts suspected of involvement in phishing schemes between late June and early August 2026 alone. This is simply the newest twist on "loan-pretext" (대출빙자) voice phishing, one of the National Police Agency's oldest tracked fraud categories: it accounted for 600.3 billion won in police-recorded losses in 2021 alone, a figure that had fallen to a still-substantial 269.4 billion won by 2025 only because government-impersonation scripts overtook it as criminals' preferred approach in the meantime. Financial regulators stress that no bank or licensed lender in Korea will ever ask a loan applicant to purchase gift cards or surrender their own bank card or bankbook to "prove" creditworthiness, and that handing a bankbook or card to a stranger is itself a criminal violation of Korea's Electronic Financial Transactions Act — meaning a victim who complies risks being investigated as a money-mule participant rather than treated as a victim.`,
+    categorySlug: 'debt-relief-scams',
+    country: 'KR',
+    alertLevel: 'high',
+    sources: ['Financial Supervisory Service (Korea)', 'Seoul Economic Daily', 'Korea Financial Intelligence Unit (KoFIU)'],
+    sourceUrl: 'https://en.sedaily.com/finance/2026/08/09/buy-gift-cards-for-a-loan-new-voice-phishing-scam-spreads',
+  },
+);
