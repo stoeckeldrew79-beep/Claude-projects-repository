@@ -6064,3 +6064,29 @@ UsNS.push({
     state: 'NH',
     firstRecorded: '2026-08-19',
 });
+
+UsNS.push({
+    name: 'Rhode Island Misleading Insurance "Restore Eligibility" Roof Marketing Scam',
+    slug: 'rhode-island-dbr-misleading-insurance-roof-marketing-scam',
+    description: `Rhode Island's Department of Business Regulation (DBR) Insurance Division issued a consumer alert in October 2025 warning property owners about misleading marketing material designed to look like it comes from their own insurance company. The mailers and notices claim certain repairs must be made to the home or the policy will face a premium surcharge, cancellation, non-renewal, or a "high risk" classification, then offer a free property or roof inspection report and a referral to a "certified contractor" who can supposedly "restore eligibility" for coverage. DBR states plainly that this is likely a scam or a lead generator for a roofing or home-improvement company rather than a genuine communication from any insurer, since real insurance companies handle underwriting and inspection requirements directly with a policyholder rather than through a mailed flyer pushing a specific contractor referral. The division advises Rhode Islanders who receive one of these notices to contact their actual insurance agent or company directly using the number on their policy or bill rather than any number printed on the notice, to read the fine print carefully for any disclaimer that the mailing is not from the insurer, to ask detailed questions of anyone who cold-calls about a required inspection, and to report suspected cases to the DBR Insurance Division at dbr.insurance@dbr.ri.gov or 401-462-9520.`,
+    categorySlug: 'insurance-fraud',
+    alertLevel: 'medium',
+    sources: ['Rhode Island Department of Business Regulation, Insurance Division'],
+    sourceUrl: 'https://dbr.ri.gov/sites/g/files/xkgbur696/files/2025-10/Marketing%20Scam.pdf',
+    country: 'US',
+    state: 'RI',
+    firstRecorded: '2025-10-01',
+});
+
+UsNS.push({
+    name: 'Rhode Island Fake Home-Buyer Zoom Malware Scam',
+    slug: 'rhode-island-realtors-fake-buyer-zoom-malware-scam',
+    description: `RI REALTORS® warned Rhode Island real estate agents in October 2025 about a new email scam in which fraudsters pose as an interested buyer to get an agent onto a malicious video call. The email references a specific listing the agent has posted and reads much like a genuine inquiry — one example opened with "I saw your home listing at [address] and it really caught my eye! I'd love to learn a bit more" — before asking to set up a Zoom meeting to discuss details like HOA fees or recent upgrades. Once the agent joins the link, a pop-up falsely claims their Zoom software needs an update; clicking to download it instead installs malware disguised as the update file. RI REALTORS® stressed that "those files are NOT from zoom" and told members not to click on them under any circumstance. The warning followed two other fraudulent-email schemes reported to the association within the same stretch of 2025: a fake internal email offering members a free piano, and a phony "secure message" purporting to carry the association president's annual report. Agents who receive an unsolicited buyer inquiry that pushes toward an outside video-call link are advised to verify the sender's identity through a known, separate channel before joining, to close out of any call that prompts a software download, to confirm a sender's display name actually matches their email address, and to report suspected scams to the FBI's Internet Crime Complaint Center (ic3.gov) or the U.S. Secret Service's Providence office at 401-331-6456.`,
+    categorySlug: 'phishing',
+    alertLevel: 'medium',
+    sources: ['RI REALTORS®'],
+    sourceUrl: 'https://www.rirealtors.org/news/2025/10/22/news/watch-out-for-new-buyer-scam/',
+    country: 'US',
+    state: 'RI',
+    firstRecorded: '2025-10-22',
+});
