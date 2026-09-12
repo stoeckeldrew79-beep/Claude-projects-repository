@@ -6519,3 +6519,17 @@ UsGM.push({
     isHistorical: true,
     firstRecorded: '2021-06-18',
 });
+
+UsGM.push({
+    name: 'Guam Medical Transport Medically-Unnecessary Ambulance Billing Fraud',
+    slug: 'guam-medical-transport-medicare-ambulance-fraud',
+    description: `Clifford P. Shoemake and Kimberly Clyde "Casey" Conner, co-owners of Guam Medical Transport (GMT), ran what the Department of Justice called one of the largest single Medicare ambulance fraud cases it has ever prosecuted, submitting claims to Medicare and TRICARE from approximately March 2010 to March 2014 for ambulance transports of dialysis patients that were never medically necessary in the first place. To qualify for ambulance reimbursement, a Medicare patient generally has to be bed-confined or otherwise unable to travel safely by any other means — but investigators found GMT was transporting dialysis patients who could walk, and that Shoemake and Conner instructed employees to strip out any reference to a patient's ability to walk from GMT's own internal records so the paperwork would support the claims instead of contradicting them. The pair also used the fraud proceeds to pay for personal vacations, their own residences, and personal income taxes while booking those expenses on GMT's books as legitimate business costs. Shoemake and Conner pleaded guilty on October 29, 2019, and U.S. District Judge Frances Tydingco-Gatewood sentenced Shoemake, 63, to 71 months and Conner, 60, of Saipan, to 63 months in federal prison on June 30, 2020, ordering them to pay $10,884,964.49 in restitution — the scheme's full loss to Medicare and TRICARE. The case illustrates a fraud pattern where the "victim" on paper is a federal insurance program, but the false documentation runs through the actual patient's own name and medical record: anyone who uses ambulance transport for regular dialysis or other recurring medical trips should read what a transport company has them or a family member sign, and should question a service that asks them to state they can't walk or move on their own when that isn't true, since that signature is what such a scheme uses to justify billing Medicare for transport the patient didn't actually need.`,
+    categorySlug: 'healthcare-fraud',
+    alertLevel: 'medium',
+    sources: ["U.S. Department of Justice, District of Guam and the Northern Mariana Islands", 'EMS1'],
+    sourceUrl: 'https://www.ems1.com/legal/articles/2-ambulance-company-owners-sentenced-in-108m-medicare-fraud-kJHvsHYLslUGmbl4/',
+    country: 'US',
+    state: 'GU',
+    isHistorical: true,
+    firstRecorded: '2020-06-30',
+});

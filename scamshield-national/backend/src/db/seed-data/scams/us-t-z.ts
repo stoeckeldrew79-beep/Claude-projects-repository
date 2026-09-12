@@ -3558,3 +3558,17 @@ UsTZ.push({
     isHistorical: true,
     firstRecorded: '2026-08-19',
 });
+
+UsTZ.push({
+    name: 'Virgin Islands Department of Human Services Medicaid and SNAP Insider Fraud Scheme',
+    slug: 'virgin-islands-dhs-medicaid-snap-insider-fraud-scheme',
+    description: `A 20-month investigation by the U.S. Virgin Islands Department of Justice led to the arrest of 11 people on January 28, 2026, in a scheme prosecutors say cost the territory more than $309,000 in unlawfully disbursed Medicaid and food-stamp benefits. Six of the defendants — Shantenysha Victor-Davis, Doenyka Lewis, Shanoya Hendrickson, and Kenera Sheneal Frederick from the Department of Human Services' Medical Assistance Program (Medicaid/MAP), and Lisa Minelli Montanez and Clarissa Nuñez from its Supplemental Nutrition Assistance Program (SNAP) office, allegedly used their government login access to misuse the department's own computer systems, altering or overriding the eligibility safeguards built into the benefits system to push through disbursements the applicants didn't actually qualify for. The remaining five defendants — relatives and associates of the DHS employees, including Nuñez's mother Carmen Saldana-Nuñez, Hendrickson's mother Karen Blyden, Frederick's mother Sharon Henry, Victor-Davis's husband Akim Davis, and Montanez's child's father Shane Gaston — are accused of being on the receiving end of the fraudulently approved benefits. All 11 were charged with Medicaid fraud, accessing a computer for a fraudulent purpose, and making fraudulent claims against the government, with the five DHS employees facing an additional embezzlement/falsification-of-public-records count; all pleaded not guilty at their January 29, 2026 arraignment before Magistrate Judge Yolan Brow-Ross. Attorney General Gordon Rhea said "we will not tolerate the corruption of vital public programs by those entrusted to administer them," calling the alleged conduct "a deliberate betrayal of duty and a direct attack on the integrity of the Medicaid & SNAP programs." The case shows that a benefits program's eligibility screening is only as trustworthy as the employees who can override it — residents who suspect a caseworker is approving benefits for friends or relatives who don't qualify, or notice unexplained changes to their own Medicaid or SNAP case, can report it to the V.I. Department of Justice rather than assuming an insider with legitimate system access can't also be committing fraud.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'medium',
+    sources: ['U.S. Virgin Islands Department of Justice', 'St. Thomas Source', 'WTJX'],
+    sourceUrl: 'https://usvidoj.com/v-i-attorney-general-rhea-announces-arrests-of-dhs-medicaid-and-food-stamp-snap-program-employees-and-others/',
+    country: 'US',
+    state: 'VI',
+    isHistorical: true,
+    firstRecorded: '2026-01-28',
+});
