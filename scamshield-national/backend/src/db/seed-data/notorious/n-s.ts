@@ -5914,3 +5914,45 @@ A brokerage statement is one of the few financial documents most people never le
     sourceUrl: 'https://www.justice.gov/usao-id/pr/missing-securities-broker-indicted',
   },
 );
+
+// No rights-cleared photo of Sevindik Huseynov has surfaced — no Wikimedia
+// Commons portrait exists and no mugshot has been publicly released as of
+// this writing — sourceUrl below serves as the "read the full story" link
+// instead of a generic photo.
+NotoriousNS.push(
+  {
+    title: 'Sevindik Huseynov and the $137 Million Fake Medicare Brace Company',
+    slug: 'sevindik-huseynov-vonyes-medicare-advantage-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    body: `Sevindik Huseynov, a 48-year-old citizen of Azerbaijan who was living in Sunnyvale, California, incorporated a durable medical equipment company called Vonyes Inc. on January 15, 2025, listing himself as its CEO, CFO, secretary, and sole director. According to federal prosecutors, Vonyes never actually supplied medical equipment to anyone. Instead, over roughly five months, Huseynov used the company as a billing vehicle aimed squarely at Medicare Advantage, the privately administered version of Medicare that covers more than half of the program's beneficiaries.
+
+Between January and June 2025, prosecutors say, Huseynov submitted more than 7,200 claims to at least eight separate Medicare Advantage Organizations, seeking reimbursement for knee braces, back braces, wrist braces, and other orthotic equipment that beneficiaries had never ordered and no doctor had ever prescribed. The claims sought more than $137 million in total. Most were rejected or never paid out — but not all of them: insurers actually sent Vonyes roughly $2.8 million in reimbursement checks before the scheme was caught. Huseynov deposited those checks into Vonyes bank accounts he controlled, then wired the bulk of the money to accounts in Hong Kong, according to prosecutors and the U.S. Department of Health and Human Services Office of Inspector General.
+
+Huseynov was arrested in June 2025, and a federal grand jury in the Northern District of California indicted him that September. On September 9, 2026, he pleaded guilty to three counts of health care fraud. Each count carries a statutory maximum of 10 years in prison and a $250,000 fine, and he remains in federal custody pending sentencing, scheduled for February 2, 2027, before U.S. District Judge Noel Wise in San Jose. The case was investigated by HHS-OIG and the FBI as part of the broader, ongoing federal crackdown on Medicare Advantage billing fraud.
+
+Vonyes never had to fool a single doctor or patient to generate $137 million in claims — it only had to exist on paper long enough to bill eight different insurers before any one of them connected the dots. That is the specific vulnerability durable-medical-equipment fraud exploits: a freshly incorporated company with a bank account and a National Provider Identifier can submit claims for braces no one asked for, and the claims look, on the page, identical to a legitimate supplier's paperwork until someone checks whether the equipment was ever actually needed, prescribed, or delivered.`,
+    sourceUrl: 'https://www.oig.hhs.gov/fraud/enforcement/foreign-national-pleads-guilty-to-health-care-fraud-scheme-targeting-medicare-advantage-programs/',
+  },
+);
+
+// No rights-cleared photo of Sheryl Williams Stapleton has surfaced — her
+// Wikipedia article carries no image and no matching file exists on
+// Wikimedia Commons as of this writing — sourceUrl below serves as the
+// "read the full story" link instead of a generic photo.
+NotoriousNS.push(
+  {
+    title: 'Sheryl Williams Stapleton and the New Mexico Classroom Robotics Kickback Scheme',
+    slug: 'sheryl-williams-stapleton-robotics-management-kickback-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    body: `Sheryl Williams Stapleton spent more than two decades in the New Mexico House of Representatives, rising to House Majority Leader and becoming the first African-American woman elected to the state legislature, while simultaneously working as a career-technical-education administrator for Albuquerque Public Schools (APS). Federal prosecutors say that dual role gave her something a typical fraudster never gets: influence over which vendor got paid with the very funds she also had a hand in appropriating.
+
+From July 2013 through June 2020, according to the U.S. Attorney's Office for the District of New Mexico, Stapleton steered APS payments — funded in part by state and federal Perkins career-and-technical-education money — to Robotics Management Learning Systems, a Washington, D.C.-based company owned by Joseph Johnson that sold career-tech software branded as CyberQuest. In exchange, prosecutors say, Johnson's company funneled kickbacks back to Stapleton: 234 separate checks totaling $1,152,506 that she deposited into accounts under her own control, part of a scheme prosecutors say diverted more than $2 million in public education funding overall.
+
+The FBI executed search warrants at Stapleton's home, her business, and APS on July 27, 2021; she resigned her House seat three days later and was fired by APS the following month. New Mexico prosecutors charged her with 28 state counts in September 2021, and a federal grand jury indicted both Stapleton and Johnson in March 2024. Both went to trial rather than pleading guilty. On August 14, 2026, a federal jury in Albuquerque convicted Stapleton on all 31 felony counts she faced — bribery, mail fraud, money laundering, conspiracy to commit money laundering, and conspiracy to defraud the United States, along with three additional counts of fraud and false statements for failing to report the kickback income on her personal tax returns. Johnson was convicted on 28 felony counts. U.S. District Judge James O. Browning is expected to sentence both within 90 days of the verdict, meaning neither defendant's actual prison term was yet known as of this writing; New Mexico's state Department of Justice said after the verdict that it would separately evaluate next steps in the still-pending state case.
+
+Stapleton's case is a reminder that the same public office that lets a lawmaker do good for a school district can just as easily let her direct that district's money toward a vendor paying her personally — and that the two roles, legislator and school administrator, that made her a powerful advocate for career-technical education were the identical roles a kickback scheme needed her to hold. Nearly seven years of checks moving from a D.C. software vendor into a sitting state legislator's own accounts went uninterrupted for exactly as long as nobody outside the arrangement was reconciling what the software company was actually being paid for against what New Mexico students were actually receiving.`,
+    sourceUrl: 'https://www.abqjournal.com/news/sheryl-williams-stapleton-found-guilty-on-all-counts/3102684',
+  },
+);
