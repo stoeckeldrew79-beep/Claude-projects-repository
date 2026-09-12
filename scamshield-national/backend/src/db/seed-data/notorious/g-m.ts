@@ -9431,3 +9431,20 @@ The GetFinancial network illustrates a structural feature common to cross-border
     sourceUrl: 'https://www.timesofisrael.com/german-prosecutors-take-aim-at-israelis-behind-77-million-euro-fraud-ring/',
   },
 );
+
+NotoriousGM.push(
+  {
+    title: 'Stéphane Gagnon and the "Unlock My RSP" Scheme That Preyed on Locked-In Retirement Savings',
+    slug: 'stephane-gagnon-unlock-my-rsp-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'international'],
+    body: `In Canada, money held in a locked-in retirement account (a LIRA) generally can't be withdrawn early — that restriction exists specifically to protect retirement savings from being cashed out and spent prematurely. Stéphane Gagnon, operating out of Ottawa, Ontario, built a business around promising to get around it anyway. Through a company he controlled, 8565287 Canada Inc., doing business under names including "Unlock My RSP," "SMAP Financial Service," "the Loan Shop," and "the Finance Company," Gagnon told prospective clients he could help them access their locked-in funds early if they invested through him first.
+
+Between August 2015 and May 2021, according to the Ontario Securities Commission, more than 300 investors across Canada sent Gagnon over $20 million on the strength of that pitch. Rather than using the money to unlock retirement accounts as promised, Gagnon diverted a substantial portion of it to other purposes. To keep the scheme running, he also forged letters purporting to be from lawyers in order to maintain his business relationship with a trust company holding some of the investors' deposited funds — manufacturing paper credibility to keep the deposits flowing even as the underlying promise went unfulfilled.
+
+A warrant was issued for Gagnon's arrest, but he evaded Canadian authorities for two years before Interpol tracked him to Bali, Indonesia, where local police arrested him in 2023 and he was returned to face trial. He was convicted at the Superior Court of Justice in Toronto on one count of fraud over $5,000 and one count of using a forged document, and on July 23, 2025, was sentenced to five years in prison, less time already served, and ordered to pay more than $7.75 million in restitution — with additional jail time hanging over him if the fine goes unpaid.
+
+Gagnon's scheme worked by offering a way around a rule that exists to protect people from themselves: locked-in retirement accounts are locked precisely so that savers can't easily raid them early, whether prompted by their own impulse or someone else's persuasion. A pitch that promises to unlock money a regulator has deliberately made hard to reach is, by itself, worth treating as a red flag — the greater the friction a financial safeguard was designed to create, the more suspicious anyone should be of someone offering to remove it for a fee.`,
+    sourceUrl: 'https://www.osc.ca/en/news-events/news/stephane-gagnon-sentenced-five-years-and-ordered-pay-over-775-million',
+  },
+);
