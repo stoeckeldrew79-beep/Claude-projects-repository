@@ -16690,3 +16690,46 @@ International.push(
     country: 'MN',
   },
 );
+
+International.push(
+  {
+    name: 'Fake Skatteetaten Tax-Refund Phone and Phishing Scam',
+    slug: 'norway-skatteetaten-tax-refund-vipps-phone-scam',
+    description: `Norway's tax authority Skatteetaten warned on March 11, 2026, as annual tax returns ("skattemeldingen") went out to millions of Norwegians, that fraudsters were impersonating the agency through phone calls, emails, and text messages timed to arrive alongside the genuine tax season. In a tactic Skatteetaten said was new that year, some victims received phone calls instructing them to pay an alleged outstanding tax debt ("restskatt") directly through the mobile payment app Vipps. Other victims received fake emails and SMS messages containing links to counterfeit websites imitating skatteetaten.no, some promoted through purchased search-engine ads, designed to harvest bank details or login credentials under the guise of registering tax information or claiming a refund. Ragna Fossen, Skatteetaten's head of security and preparedness, stated plainly that "Skatteetaten sends aldri lenker uoppfordret på e-post eller SMS" (Skatteetaten never sends unsolicited links by email or SMS) and that the agency never calls to demand payment via Vipps. The warning cited data from the Norwegian Center for Information Security (NorSIS) showing more than 170,000 Norwegian adults had experienced actual identity misuse in the preceding year, with a further 340,000 facing attempted identity theft. Skatteetaten's advice is to never click a link in an unsolicited tax-related email or text message, to type skatteetaten.no directly into a browser instead, to verify the sender's actual email address before trusting any message, to avoid opening attachments from unknown senders, and to report suspected scam attempts through svindel.no.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Skatteetaten (Norwegian Tax Administration)', 'VG', 'NTB'],
+    sourceUrl: 'https://www.skatteetaten.no/en/press/nyhetsrommet/skattemeldingen-er-pa-vei.-skatteetaten-advarer-mot-svindel/',
+    country: 'NO',
+  },
+  {
+    name: 'Spoofed Foreign-Number Cold Calls Impersonating the US FTC',
+    slug: 'norway-nkom-spoofed-foreign-number-ftc-impersonation-scam',
+    description: `Norway's national telecom regulator Nkom (Nasjonal kommunikasjonsmyndighet) published a summer fraud-trends warning on July 9, 2025 after Norwegian mobile operators, working through an industry expert group, had made it nearly impossible for scammers to spoof genuine Norwegian phone numbers. Nkom anti-fraud specialist Johannes Vallesverd said scammers had responded by switching to stolen foreign phone numbers instead, with Nkom specifically tracking calls that spoofed Swedish numbers while the caller falsely claimed to represent the United States Federal Trade Commission (FTC) — an approach designed purely to make an unfamiliar international-looking call seem credible enough to answer. Nkom flagged this as one of three scam trends to watch that summer alongside SMS phishing ("smishing") messages impersonating government agencies that press recipients to click a link "as quickly as possible," and a wave of hijacked Facebook and Instagram accounts used either to request money from the real owner's friends and family or to hold the account for ransom. Nkom's advice is to treat any call from an unexpected or foreign number claiming to represent a government agency — Norwegian or otherwise — with immediate suspicion, to never act on urgency created by a text message link, and to follow a "stop, think, check" rule: hang up or ignore the message, then independently verify the claimed agency through a number or website looked up separately rather than one supplied by the caller.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Nkom (Norwegian Communications Authority)', 'NTB'],
+    sourceUrl: 'https://nkom.no/aktuelt/svindeltrender-i-sommer',
+    country: 'NO',
+  },
+  {
+    name: 'In-Store Apple Gift Card Scam Targeting Elderly Norwegians',
+    slug: 'norway-ost-politidistrikt-apple-gift-card-elderly-scam',
+    description: `Øst politidistrikt (Eastern Police District) issued a public warning on April 11, 2025 after documenting a pattern in which fraudsters — commonly posing as a bank employee, a police officer, or another authority figure over the phone — convince victims, disproportionately elderly people, to go to an ordinary grocery or convenience store and buy Apple gift cards, sometimes in repeated trips for larger and larger amounts. The scammer then talks the victim through scratching off the back of each card and reading out the redemption code, at which point the money is unrecoverable: gift-card codes require no identification to redeem, move instantly, and cannot be traced or reversed by a bank the way a card payment or transfer can. Police Superintendent Gunnar Foseid said the district had documented cases in which victims were defrauded of up to 700,000 kroner through repeated gift-card purchases, and the warning specifically asked staff at ordinary retail chains to pay closer attention when a customer purchases large quantities of gift cards and to consider gently asking who the cards are for, since a frontline cashier's question has repeatedly been the only thing standing between a victim and a scammer during these calls. Norwegians are advised that no bank, police officer, tax office, or other legitimate authority will ever ask for payment, a fine, or a "security deposit" in the form of a gift card, and that anyone asked to do so — especially while still on the phone with the person making the request — should hang up and independently verify the claim before buying or redeeming anything.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'critical',
+    sources: ['Øst politidistrikt', 'EUB (Eidsvoll Ullensaker Blad)'],
+    sourceUrl: 'https://www.eub.no/politiet-slar-alarm-om-trend-personer-har-blitt-svindlet-for-opp-mot-700-000-pa-denne-maten/s/5-136-674251',
+    country: 'NO',
+  },
+  {
+    name: 'Fake Investment Ads Misusing Norges Bank Investment Management CEO’s Image',
+    slug: 'norway-finans-norge-nicolai-tangen-fake-investment-ad-scam',
+    description: `Finance industry body Finans Norge (Finance Norway), whose members include most Norwegian banks, published a warning on September 4, 2025 naming three fraud methods its member banks were seeing recur heavily after the summer, one of which used the misappropriated image and name of Nicolai Tangen, chief executive of Norges Bank Investment Management (the manager of Norway's sovereign wealth fund), in fabricated investment advertisements circulated on Meta platforms. The ads falsely suggested Tangen personally endorsed a cryptocurrency or stock-trading opportunity promising guaranteed returns, a tactic designed to borrow the credibility of one of Norway's best-known financial figures to lend legitimacy to what is, in reality, an investment-fraud pitch with no connection to Tangen or the fund he runs. Finans Norge's Consumer Policy Director Gry Nergård said "after summer, we see particularly three methods recurring at banks that we want to warn against," identifying the Tangen-image investment ads alongside romance scams that build a relationship over weeks or months on dating apps before requesting emergency money, and Apple gift-card fraud that frequently targets elderly victims and is sometimes combined with a romance scam or an authority-figure impersonation. Citing Finanstilsynet (the Financial Supervisory Authority of Norway) figures, Finans Norge noted Norwegian bank customers lost 1.2 billion kroner to fraud in 2024. Consumers are advised that a celebrity's or public figure's face appearing in a social-media investment ad is not proof of endorsement — genuine public figures do not personally promote guaranteed-return crypto or stock schemes through Meta ads — and that any such offer should be independently verified directly with the person's actual employer before a single krone is invested.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'high',
+    sources: ['Finans Norge (Finance Norway)', 'Finanstilsynet'],
+    sourceUrl: 'https://www.finansnorge.no/artikler/2025/09/nye-svindeltrender-dette-advarer-bankene-mot-na/',
+    country: 'NO',
+  },
+);
