@@ -368,4 +368,13 @@ export const SEED_GLOBAL_SOURCES: SeedGlobalSource[] = [
       "Argentina's specialized cybercrime unit within the Ministerio Público Fiscal (national Public Prosecutor's Office). Its annual management report tallies computer-crime reports submitted by the public — 34,468 in 2024, a 21.1% year-on-year rise — broken down by category; online fraud ('fraude en línea') is consistently the largest, accounting for 63% of all reports.",
     data_type: 'annual_report',
   },
+  {
+    agency_name: 'Israel National Cyber Directorate (INCD) — 119 CERT',
+    country: 'IL',
+    country_name: 'Israel',
+    url: 'https://www.gov.il/en/pages/2025report',
+    description:
+      "Israel's national cybersecurity agency, reporting to the Prime Minister's Office, runs the 24/7 119 hotline as the country's Computer Emergency Response Centre. Its annual summary report tallies the incident and scam reports the hotline handles — 26,500 in the 2025 edition, up 55% year-on-year, with phishing the single largest category at 52% — alongside alerts issued and organizations proactively notified of active attacks.",
+    data_type: 'annual_report',
+  },
 ];
