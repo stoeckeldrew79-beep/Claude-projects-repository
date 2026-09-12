@@ -8186,3 +8186,29 @@ UsAF.push({
     sourceUrl: 'https://www.microsoft.com/en-us/security/blog/2026/03/19/when-tax-season-becomes-cyberattack-season-phishing-and-malware-campaigns-using-tax-related-lures/',
     country: 'US',
 });
+
+UsAF.push({
+    name: "DC Housing Authority Voucher-Fee Scam on Social Media",
+    slug: "dc-housing-authority-voucher-fee-scam-on-social-media",
+    description:
+      "Fraudsters are creating social media accounts that claim to administer the District of Columbia Housing Authority's housing voucher programs and asking District residents to pay a fee to get a voucher or be pulled from a waiting list. DCHA and other legitimate housing authorities never charge a fee for a housing voucher, so any demand for payment is a clear sign of fraud. A related version circulates paper flyers and social media posts directing residents to a fake Housing Choice Voucher Program website built to harvest personal information, which can then be used to open accounts in the victim's name. DCHA has warned about similar flyers targeting residents of the city's subsidized housing in the past. Never pay a fee or submit personal data to any voucher offer you find on social media; contact DCHA directly through its official channels to verify your waiting list status.",
+    categorySlug: "public-benefits-fraud",
+    alertLevel: "high",
+    sources: ["District of Columbia Housing Authority (DCHA) consumer alert, December 2025","DCHA companion alert on fake websites and social media posts"],
+    sourceUrl: "https://www.dchousing.org/wordpress/beware-of-housing-voucher-scam-on-social-media/",
+    country: "US",
+    state: "DC",
+});
+
+UsAF.push({
+    name: "DC DMV Impersonation: Fake Overdue Parking Violation Notices",
+    slug: "dc-dmv-impersonation-fake-overdue-parking-violation-notices",
+    description:
+      "Scammers are impersonating the District of Columbia Department of Motor Vehicles to collect payment for parking tickets that do not exist. Residents of the Washington, DC metropolitan area have received phishing emails with the subject line \"Notice of Overdue Parking Violation(s)\" that mimic official DC ticket correspondence and push recipients to pay through an embedded link instead of the District's real ticket-payment system. DC DMV has also warned about a text message version and has stated plainly that the agency does not send such texts, part of a broader multistate wave of threatening messages about unpaid tickets and tolls designed to steal money and personal information. Do not click links in these messages or reply to them. Check any ticket you are unsure about directly at dmv.dc.gov or by phone using a number you look up yourself.",
+    categorySlug: "government-impersonation",
+    alertLevel: "high",
+    sources: ["DC Department of Motor Vehicles official press release","DC DMV official social media channel warnings"],
+    sourceUrl: "https://dmv.dc.gov/release/be-aware-dc-parking-tickets-scam",
+    country: "US",
+    state: "DC",
+});

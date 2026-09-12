@@ -7105,3 +7105,16 @@ UsNS.push({
     isHistorical: true,
     firstRecorded: '2022-08-01',
 });
+
+UsNS.push({
+    name: "StubHub Deceptive Junk-Fee Pricing Targeting District Consumers",
+    slug: "stubhub-deceptive-junk-fee-pricing-targeting-district-consumers",
+    description:
+      "DC Attorney General Brian L. Schwalb has sued StubHub, Inc., the online ticket exchange and resale platform, over what his office calls a junk-fee scheme that deceived District consumers for years. According to the Office of the Attorney General, the platform lures buyers in by advertising a deceptively low ticket price, then adds mandatory fees late in the checkout process so the amount actually charged substantially exceeds the advertised price. The lawsuit was brought under the District's consumer protection law on behalf of DC residents; since January 2023 OAG has obtained nearly $80 million through enforcement actions and settlements for DC consumers. When buying event tickets online, click through to the final payment screen and compare the total against the advertised price before entering card details. If you were overcharged, file a complaint with the DC Office of Consumer Protection.",
+    categorySlug: "online-shopping-scams",
+    alertLevel: "medium",
+    sources: ["Office of the Attorney General for the District of Columbia press release","OAG Office of Consumer Protection"],
+    sourceUrl: "https://oag.dc.gov/release/attorney-general-schwalb-sues-stubhub-deceptive",
+    country: "US",
+    state: "DC",
+});
