@@ -9005,3 +9005,32 @@ Santarelli's pitch worked because it addressed the specific anxieties of income-
     sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26420',
   },
 );
+
+// Pennetta's criminal wire fraud case ended in a guilty plea and a completed
+// sentencing (prison term, restitution, and forfeiture), confirmed across
+// multiple independent published reports of the SDNY case; the DOJ's own
+// press releases on the case could not be directly retrieved while writing
+// this entry. The SEC's parallel civil case was resolved by consent as to
+// liability, with the exact disgorgement, interest, and penalty amounts
+// left for the court to determine later — so that portion is not yet final.
+NotoriousGM.push(
+  {
+    title: 'Giovanni Pennetta and the Anduril Shares Sestante Capital Never Actually Held',
+    slug: 'giovanni-pennetta-sestante-capital-anduril-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Thurgood_Marshall_United_States_Courthouse_002.jpg?width=1200',
+    coverImageCredit: 'Photo: Kidfly182, Wikimedia Commons (CC BY-SA 4.0) — the Thurgood Marshall U.S. Courthouse in Manhattan, home of the Southern District of New York, where Pennetta was prosecuted',
+    coverImagePosition: 50,
+    body: `Giovanni Pennetta ran Sestante Capital LLC, a Manhattan investment adviser, through which he managed a fund called NextGenTech Investments LLC. His pitch to prospective investors centered on one of the most sought-after names in pre-IPO investing: Anduril Industries, the defense-technology company then valued at roughly $30 billion. Pennetta told investors that he or entities he controlled owned, or had guaranteed access to, close to three million Anduril shares, and that putting money into NextGenTech was a way to buy in before any future public listing. Between February 2021 and December 2025, according to the Securities and Exchange Commission, at least six investors wired him more than $10.5 million on the strength of that promise.
+
+None of it bought a single share. According to the SEC's civil complaint, filed June 22, 2026 in the U.S. District Court for the Southern District of New York, neither Pennetta nor his companies ever owned or had access to Anduril stock, and no investor funds were ever used to purchase any. Instead, the SEC says Pennetta misappropriated more than $6.2 million of what came in — over $4.25 million moved to his personal accounts and a family trust, roughly $1.96 million recycled to repay an earlier investor from an unrelated deal, and the remainder spent on vacations, luxury fashion purchases, and ATM withdrawals. The complaint traces specific transfers: a $3 million wire from one investor on February 28, 2023, was followed the same day by $160,000 moved into Pennetta's own account; roughly $2.9 million wired by a second investor between December 2024 and February 2025 was followed by about $877,000 diverted within three weeks; and a $3 million wire from a third investor in April 2025 was followed within five days by more than $1 million moved into Pennetta's personal account.
+
+Federal prosecutors in the Southern District of New York charged Pennetta with wire fraud, and he was arrested at JFK International Airport in December 2025. He pleaded guilty on March 5, 2026, before U.S. District Judge Jed S. Rakoff, and on June 9, 2026, Rakoff sentenced him to four years in federal prison, ordering him to pay $11,928,266.25 in restitution and to forfeit $12,546,279.86 representing the proceeds of the scheme.
+
+The SEC's parallel civil case resolved the same summer: Pennetta consented, without admitting or denying the agency's findings, to a permanent injunction against future securities-law violations and a bar from participating in the issuance, purchase, or sale of any security other than for his own personal account, with the exact disgorgement, prejudgment interest, and civil penalty amounts left for the court to set at a later date.
+
+Pre-IPO access is one of the harder investment pitches for an outside investor to check, precisely because there's no ticker to look up and no market maker to call — only the word of whoever claims to hold the allocation. Pennetta's version of that pitch held together for nearly five years and across at least six investors before a fund that had supposedly been buying into one of the country's most closely watched private companies turned out never to have purchased a share of it at all.`,
+    sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26572',
+  },
+);
