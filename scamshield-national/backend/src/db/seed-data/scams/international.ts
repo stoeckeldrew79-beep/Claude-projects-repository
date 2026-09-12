@@ -17361,3 +17361,46 @@ International.push(
     firstRecorded: '2026-02-24',
   },
 );
+
+International.push(
+  {
+    name: 'Lebanon "Frozen Dollars" Cash-Swap Fraud Gang',
+    slug: 'lebanon-frozen-dollars-cash-swap-fraud-scam',
+    description: `Playing on years of Lebanese banks informally restricting access to US-dollar accounts, a fraud gang lured victims by claiming to have "frozen dollars" for sale — a plausible-sounding pitch in a country where trading restricted for unrestricted ("fresh") dollars at a discount is a real and common practice. Rather than complete any real currency exchange, the pair arranged in-person meetings with victims and stole their cash outright through deception once the meeting was under way. Lebanon's Internal Security Forces arrested the two suspects, identified as B.D. (born 1999) and M.D. (born 1994), on October 30, 2025 in the Dahr El-Wahsh area while they were driving a dark-blue Nissan; B.D. was already wanted on eleven separate judicial warrants covering armed robbery, theft, forming a kidnapping gang, fraud, illegal weapons possession, and shooting, while M.D. had a prior conviction for drug use and promoting counterfeit currency. During questioning the pair confessed to an earlier theft of USD 3,500 from a money-transfer shop in Aley on July 5, 2025. The ISF stated plainly that "there is no such thing as 'frozen dollars'" being offered for sale this way and that any such offer is purely a fraudulent scheme, urging the public never to hand over cash to a stranger promising a discounted currency exchange outside a licensed money-transfer business or bank.`,
+    categorySlug: 'fake-check-overpayment',
+    alertLevel: 'high',
+    sources: ['Internal Security Forces of Lebanon (ISF)'],
+    sourceUrl: 'https://isf.gov.lb/news/arrest-of-a-fraud-gang/',
+    country: 'LB',
+  },
+  {
+    name: 'Fake Ministry of Economy Tax Inspector Extortion Scam',
+    slug: 'lebanon-fake-ministry-economy-tax-inspector-scam',
+    description: `A woman identified by Lebanon's Internal Security Forces as J.M.A.N. (born 1970, Lebanese) allegedly posed as an inspector from the Ministry of Economy and Trade and approached the owners of private businesses and companies around Tripoli in person, telling them they owed an "annual tax" and demanding payment on the spot; she is also accused of running the identical script by telephone against other business owners who never met her face to face. The ISF's Tripoli Judicial Detachment arrested her and, in an announcement dated August 5, 2026, publicly circulated her photograph, asking anyone who recognizes her or believes they were victimized by the same scheme to come forward so it can pursue further legal action against her. The case fits a recurring pattern flagged by Lebanese authorities in which a fraudster invokes the authority of a real government ministry to pressure a business owner into an immediate cash payment, counting on the victim being unwilling to risk a supposed penalty by first checking the claim with the ministry itself; officials advise any business asked for an on-the-spot "tax" or "fine" payment by a self-identified inspector to ask for official identification and a written notice, and to verify the visit independently with the relevant ministry before paying anything.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Internal Security Forces of Lebanon (ISF)'],
+    sourceUrl: 'https://isf.gov.lb/news/circulation-of-the-photograph-of-a-female-detainee-suspected-of-fraud-and-impersonation-have-you-been-a-victim-of-her-acts/',
+    country: 'LB',
+  },
+  {
+    name: 'WhatsApp Account Hijacking via Fake Group-Invitation Links',
+    slug: 'lebanon-whatsapp-fake-group-invitation-hijacking-scam',
+    description: `Lebanon's Internal Security Forces warned on April 23, 2026 of a scam chain that spreads by first hijacking one WhatsApp account and then using it to hijack the next: once a fraudster controls a victim's account, they send that person's own contacts a fake "group invitation" link that looks like it comes from a trusted friend or relative. Anyone who taps the link lands on a fraudulent page asking them to enter or share the one-time verification code (OTP) WhatsApp just texted to their phone; handing over that code lets the scammer register the victim's number on their own device and take complete control of the account, locking the real owner out. The newly hijacked account is then used to message its contacts, frequently asking them for money transfers through Lebanon's money-transfer networks while impersonating the account holder, and to send out the same poisoned group-invitation link to keep the chain going. The ISF urged the public to never click a group-invitation link without first confirming it with the sender through a separate channel, to never share a WhatsApp verification code with anyone under any circumstances, to call a contact directly to confirm any unexpected money request before sending funds, and to turn on WhatsApp's own two-step verification (Settings > Account > Two-Step Verification) as an added layer of protection against this kind of takeover.`,
+    categorySlug: 'account-takeover',
+    alertLevel: 'high',
+    sources: ['Internal Security Forces of Lebanon (ISF)'],
+    sourceUrl: 'https://isf.gov.lb/ar/news/%D9%82%D9%88%D9%89-%D8%A7%D9%84%D8%A3%D9%85%D9%86-%D8%AA%D8%AD%D8%B0%D9%91%D8%B1-%D9%85%D9%86-%D8%A7%D8%AE%D8%AA%D8%B1%D8%A7%D9%82-%D8%AA%D8%B7%D8%A8%D9%8A%D9%82-%D9%88%D8%A7%D8%AA%D8%B3%D8%A7%D8%A8/',
+    country: 'LB',
+  },
+  {
+    name: 'LGB Bank Phishing and Smishing Impersonation Warning',
+    slug: 'lebanon-lgb-bank-phishing-smishing-scam',
+    description: `Lebanon & Gulf Bank (LGB Bank) has publicly warned its customers about fraudulent emails, text messages, and WhatsApp messages designed to look like official communications from the bank, using pretexts such as "We've identified fraudulent activity on your account, you are requested to validate the attached invoice immediately" or "Update your online account credentials within 48 hours or your account will be closed or cancelled," pressuring recipients into clicking a link and entering their banking credentials, one-time passwords, or card details on a convincing fake page. The bank also flagged a voice-call ("vishing") version of the same scheme, in which fraudsters phone customers pretending to be LGB staff and ask directly for account information or one-time passcodes. LGB Bank states plainly that it will never request a password, OTP, full card PIN, or other sensitive account detail by email, SMS, WhatsApp, or social media, and that any message asking for one — no matter how convincing the branding — should be treated as fraudulent regardless of the channel it arrives through. Customers who believe they have received a fraudulent message or been victimized are directed to contact the bank's 24/7 call center immediately rather than replying to the message or clicking anything inside it.`,
+    categorySlug: 'phishing',
+    alertLevel: 'high',
+    sources: ['Lebanon & Gulf Bank (LGB Bank)'],
+    sourceUrl: 'https://www.lgbbank.com/en/page/418/',
+    country: 'LB',
+  },
+);
