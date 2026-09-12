@@ -3600,3 +3600,17 @@ UsTZ.push({
     isHistorical: true,
     firstRecorded: '2009-04-01',
 });
+
+UsTZ.push({
+    name: 'St. Croix Law Firm Payroll Embezzlement Scheme (Nicole Morales)',
+    slug: 'virgin-islands-nicole-morales-payroll-embezzlement',
+    description: `Nicole Morales worked as office manager for the St. Croix law firm Nichols, Newman, Logan, Grey, and Lockwood, P.C., where her duties included running payroll through the firm's account at Banco Popular using QuickBooks accounting software. Starting in December 2015, prosecutors said, Morales began quietly inflating her own payroll figures in QuickBooks and wiring the extra, unauthorized amounts out of the firm's Banco Popular account into three separate personal bank accounts she controlled — then, before her employer ever reviewed the books, changing the numbers back down to her correct salary and generating clean-looking payroll reports for the partners to approve, hiding the theft inside routine paperwork they had every reason to trust. She kept the scheme running for roughly eight years, ultimately diverting $372,496.34 from her employer before a federal grand jury indicted her in November 2023 on 153 counts of wire fraud. Morales pleaded guilty in November 2024 to three of those counts, and Judge Wilma A. Lewis of the District Court of the Virgin Islands sentenced her in March 2025 to 16 months in federal prison, ordering her to pay the full $372,496.34 back in restitution along with a $300 special assessment. The case is a reminder that a single employee who both processes payroll and can independently edit the accounting software's own records afterward has the means to hide a long-running theft from the very reports meant to catch it; small businesses and firms that let one person control both ends of payroll — entering the numbers and later "correcting" them — can add a basic safeguard by having a second person, ideally someone with no payroll access, periodically compare bank withdrawals against the payroll reports actually presented for approval.`,
+    categorySlug: 'business-email-compromise',
+    alertLevel: 'medium',
+    sources: ['U.S. Department of Justice, District of the Virgin Islands', 'St. Croix Source'],
+    sourceUrl: 'https://www.justice.gov/usao-vi/pr/st-croix-woman-sentenced-37200000-embezzlement-scheme',
+    country: 'US',
+    state: 'VI',
+    isHistorical: true,
+    firstRecorded: '2015-12-01',
+});

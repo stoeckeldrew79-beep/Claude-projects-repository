@@ -6310,6 +6310,20 @@ UsNS.push({
 });
 
 UsNS.push({
+    name: 'Puerto Rico Fake Government-Seal Business Loan Ad Scam',
+    slug: 'puerto-rico-daco-fake-government-seal-business-loan-scam',
+    description: `Puerto Rico's Department of Consumer Affairs (DACO) warned on June 19, 2026 about a fraudulent advertisement circulating on social media that borrows official imagery of the Puerto Rico government — including its seal — to promote a supposed financing program offering business loans of up to $250,000, paired with a link that collects the applicant's personal and financial information. DACO Secretary Hiram Torres Montalvo stated plainly that "ninguna agencia del Gobierno de Puerto Rico promueve programas de financiamiento a través de anuncios en redes sociales de esta naturaleza, ni solicita información financiera confidencial a través de enlaces no oficiales" ("no agency of the Puerto Rico government promotes financing programs through social media ads of this kind, nor does it request confidential financial information through unofficial links"), and the agency said the tactic follows a familiar pattern: borrowing a government seal and an urgent-sounding offer to build enough instant trust that a small-business owner clicks through and hands over information before stopping to verify the offer is real. DACO advised business owners who see a similar ad, or who believe they submitted information to one, to report it directly to the agency rather than click through or reply, and to treat any loan or grant offer that arrives as a social media ad — rather than through an application the business owner initiated on a verified .pr.gov site — as a reason to verify with DACO or the relevant agency directly before providing any financial details.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Departamento de Asuntos del Consumidor de Puerto Rico (DACO)', 'Metro Puerto Rico'],
+    sourceUrl: 'https://www.metro.pr/noticias/2026/06/19/daco-alerta-sobre-anuncio-fraudulento-que-utiliza-imagen-oficial-del-gobierno-para-promover-prestamos-comerciales/',
+    country: 'US',
+    state: 'PR',
+    isHistorical: true,
+    firstRecorded: '2026-06-19',
+});
+
+UsNS.push({
     name: 'Commonwealth Medicaid Agency CMS Audit Fax Phishing Alert',
     slug: 'northern-mariana-islands-medicaid-agency-cms-fax-phishing-scheme',
     description: `The Commonwealth Medicaid Agency (CMA), which administers Medicaid for the Commonwealth of the Northern Mariana Islands, posted a fraud alert to its Medicaid Information Center warning healthcare providers about a phishing scheme built around forged faxes: "The Commonwealth Medicaid Agency (CMA) alerts all providers of a phishing scam involving fraudulent fax requests falsely claiming to be from Centers for Medicare & Medicaid Services (CMS)." The faxes ask a provider's office to fax back patients' medical records under the pretense that the practice is the subject of a Medicare audit — mirroring a wider CMS-impersonation fax scheme that the Centers for Medicare & Medicaid Services and the American Hospital Association separately warned about in mid-2025, in which real CMS letterhead and audit language are copied to make the request look routine. CMS does not initiate audits by requesting medical records over fax, and a provider who simply faxes back a patient's chart in response is handing an unverified requester protected health information that can be used for identity theft, fraudulent billing in the patient's name, or resold on top of the practice's own compromised fax number. CMA's guidance to CNMI providers is not to respond to the fax, to verify any claimed Medicare audit only by contacting CMA directly at (670) 664-4880 or through official CMS channels, and to confirm a Medical Review Contractor's identity independently before releasing any patient records by fax, mail, or email.`,
@@ -6361,4 +6375,18 @@ UsNS.push({
     state: 'MP',
     isHistorical: true,
     firstRecorded: '2021-10-01',
+});
+
+UsNS.push({
+    name: 'A&A Enterprises CW-1 Visa "Pay-to-Stay" Manpower Scheme (Alejandro Tumandao Nario)',
+    slug: 'northern-mariana-islands-aa-enterprises-cw1-visa-fee-scheme-nario',
+    description: `Alejandro Tumandao Nario and a business partner incorporated A&A Enterprises, a Saipan manpower agency, in January 2019, and prosecutors said Nario then used the business to run an unlawful scheme built around the CNMI-Only Transitional Worker (CW-1) visa program — the guest-worker system unique to the Commonwealth of the Northern Mariana Islands that ties a foreign worker's legal status to a single sponsoring employer. Nario and his staff submitted CW-1 petitions to U.S. Citizenship and Immigration Services for at least 99 foreign workers, collecting $1,500 to $2,000 from each one up front for the visa itself, but instead of employing the workers directly the way a CW-1 sponsor is required to, he left them to find their own jobs on Saipan in construction, groundskeeping, and housekeeping while continuing to bill each worker a $194 fee every two weeks just to keep their sponsored status current — a recurring "rent" on legal presence in the CNMI that had nothing to do with actual work performed for A&A Enterprises. Nario pleaded guilty to visa fraud, and Chief Judge Ramona V. Manglona of the U.S. District Court for the Northern Mariana Islands sentenced him on February 4, 2022 to 21 months in federal prison, three years of supervised release, and a $7,000 fine; an accountant for the agency was separately sentenced to 18 months in federal prison for her role in the scheme. The case shows a distinct abuse of the CW-1 program's employer-tied structure: because a worker's ability to legally remain in the CNMI depends entirely on the sponsoring company staying in good standing, a manpower agency can turn that dependency into an ongoing toll rather than a real job, collecting fees from workers who have every incentive to keep paying and stay quiet rather than risk losing their status. Workers recruited for a CW-1-sponsored job, or their families back home, can verify directly with the CNMI Department of Labor or U.S. Citizenship and Immigration Services that a "sponsor" collecting recurring fees after arrival is actually providing the employment the visa petition described, rather than simply charging for continued paperwork.`,
+    categorySlug: 'employment-scams',
+    alertLevel: 'medium',
+    sources: ["U.S. Attorney's Office, Districts of Guam and the Northern Mariana Islands", 'Marianas Variety News & Views'],
+    sourceUrl: 'https://www.justice.gov/usao-gu/pr/president-manpower-agency-northern-mariana-islands-sentenced-visa-fraud-scheme',
+    country: 'US',
+    state: 'MP',
+    isHistorical: true,
+    firstRecorded: '2019-01-01',
 });

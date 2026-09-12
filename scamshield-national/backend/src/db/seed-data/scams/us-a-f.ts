@@ -7852,3 +7852,17 @@ UsAF.push({
     isHistorical: true,
     firstRecorded: '2010-12-16',
 });
+
+UsAF.push({
+    name: 'Pepe Anetipa American Samoa Tax Refund Fraud Scheme',
+    slug: 'american-samoa-anetipa-false-tax-refund-scheme',
+    description: `Pepe Anetipa, an American Samoan woman then living in Anchorage, Alaska, was arrested in Washington State on December 2, 2014 and arraigned in federal court in Anchorage on December 18, 2014 on a 28-count indictment charging her with making false, fictitious, and fraudulent claims against the government — a scheme built on the fact that most American Samoa residents are not required to file federal income tax returns at all, since the territory has its own tax authority, and so generally do not qualify for U.S. refundable credits the way stateside taxpayers do. Prosecutors said Anetipa got around that by taking real wage information off American Samoa residents' Form W-2AS wage statements and copying it onto ordinary Form W-2 wage statements, swapping each filer's actual Pago Pago address for a fabricated one in Texas or Alaska so the return would read as though the person lived stateside and qualified for credits they had no right to claim; for tax year 2011 alone, the 28 falsified returns she filed on behalf of American Samoa residents sought at least $202,859 in refunds, and federal prosecutors said her broader scheme, which stretched across multiple tax years, aimed to draw more than $2 million out of the U.S. Treasury in total. Anetipa pleaded guilty to all 28 counts, and U.S. District Judge Sharon Gleason sentenced her on February 4, 2016 to 30 months in prison and three years of supervised release, ordering $202,859 in restitution — the amount tied to the specific counts of conviction — and 40 hours of community service that the judge recommended Anetipa spend educating others in American Samoa about the illegality of tax schemes like hers. The case is a near-mirror of a second, unrelated American Samoa tax-refund scheme prosecuted in the same federal district years later, underscoring that the same basic trick — a preparer telling an American Samoa resident they qualify for a large stateside refund by quietly listing a mainland address they've never lived at — has defrauded the territory's residents more than once; anyone in American Samoa offered an unusually large federal refund through a preparer who asks to use an address other than their real one should refuse and can report the preparer to the IRS using Form 14157 rather than assume a bigger check is simply good fortune.`,
+    categorySlug: 'tax-scams',
+    alertLevel: 'medium',
+    sources: ['U.S. Department of Justice, District of Alaska', 'Alaska\'s News Source'],
+    sourceUrl: 'https://www.justice.gov/usao-ak/pr/washington-woman-sentenced-2-million-fraud-scheme',
+    country: 'US',
+    state: 'AS',
+    isHistorical: true,
+    firstRecorded: '2011-01-01',
+});
