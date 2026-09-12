@@ -6759,3 +6759,15 @@ UsNS.push({
     isHistorical: true,
     firstRecorded: '2014-01-01',
 });
+
+UsNS.push({
+    name: 'Guaynabo PPP and EIDL Fraud Ring Leader (Manfred Pentzke Lemus)',
+    slug: 'puerto-rico-pentzke-lemus-ppp-eidl-fraud-ring',
+    description: `Manfred A. Pentzke Lemus, 40, of Guaynabo, Puerto Rico — known to associates as "Man," "Contable," and "El Gestor" — organized and led a scheme to defraud the U.S. Small Business Administration and Oriental Bank by exploiting the Paycheck Protection Program (PPP) and Economic Injury Disaster Loan (EIDL) programs Congress created to help small businesses survive the pandemic. Prosecutors said Pentzke coordinated the preparation of hundreds of PPP and EIDL applications for people he recruited, inserting fictitious payroll figures, fabricated tax forms, and other false financial data to qualify applicants for loans they weren't entitled to, then collected kickback payments from the recruits that he disguised as legitimate business transactions. The scheme resulted in 223 fraudulent PPP loans totaling $5,915,290.33 in disbursements, plus an additional $3,105,300 in fraudulently obtained EIDL funds, with Pentzke personally pocketing roughly $486,277.70 in kickbacks. U.S. District Judge Aida M. Delgado-Colón sentenced Pentzke on January 28, 2026 to 97 months — over eight years — in federal prison, along with forfeiture of $488,674.28 and restitution of $2,185,519.85. U.S. Attorney W. Stephen Muldrow was direct about what the fraud actually cost: "These funds were intended to support businesses and workers during a national crisis, not to enrich individuals through fraud." The case is a reminder that a "consultant" or "gestor" who offers to prepare a pandemic-relief or small-business loan application in exchange for a cut of the proceeds is asking the applicant to co-sign fraud committed in their own business's name; anyone approached with an offer to inflate payroll or income figures on a government loan application should refuse, and can report a suspicious loan preparer to the SBA Office of Inspector General.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'medium',
+    sources: ['Internal Revenue Service Criminal Investigation', "U.S. Attorney's Office, District of Puerto Rico"],
+    sourceUrl: 'https://www.irs.gov/compliance/criminal-investigation/orchestrator-of-multi-million-dollar-covid-19-fraud-scheme-sentenced-to-97-months-in-federal-prison',
+    country: 'US',
+    state: 'PR',
+});

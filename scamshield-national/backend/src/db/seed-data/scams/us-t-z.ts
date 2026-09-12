@@ -3767,3 +3767,17 @@ UsTZ.push({
     isHistorical: true,
     firstRecorded: '2007-01-01',
 });
+
+UsTZ.push({
+    name: 'Virgin Islands DSPR Commissioner Security-Camera Contract Bribery Scheme (Calvert White and Benjamin Hendricks)',
+    slug: 'virgin-islands-white-hendricks-dspr-security-camera-bribery-scheme',
+    description: `Calvert White, then commissioner of the Virgin Islands Department of Sports, Parks and Recreation (DSPR), and Benjamin Hendricks, 63, a St. Thomas contractor who owned the maintenance company A Clean Environment, ran a bribery scheme built around a $1.6 million DSPR contract to install security cameras at the department's properties. According to trial evidence, Hendricks approached government contractor David Whitaker — owner of Mon Ethos Pro Support and, unknown to Hendricks, already cooperating with the FBI in a separate territorial corruption probe — at the 2023 Crucian Christmas Festival and told him White could steer the camera contract to Whitaker's company in exchange for a $16,000 bribe, roughly 1% of the contract's value; a $5,000 installment was wired from Whitaker to Hendricks and passed on to White about three months later. A federal jury convicted both men on July 25, 2025 of honest-services wire fraud and bribery concerning programs receiving federal funds after a week-long trial, and U.S. District Judge Mark Kearney sentenced White on January 23, 2026 to five years in federal prison — well below the roughly 12 years prosecutors had recommended — and Hendricks to five years and eight months, ordering White to forfeit $5,000 and Hendricks to pay a $5,000 fine, on top of a requirement that White speak to youth groups four times a year and wear GPS monitoring until his March 2, 2026 self-surrender date. Kearney was blunt about how little it took to corrupt a government contract of that size, telling White at sentencing, "What is so concerning about this crime is how easy it was for you to do this." Whitaker — the same cooperating contractor whose Mon Ethos company also surfaces in the territory's separate pandemic-relief bribery case against former OMB Director Jenifer O'Neal — shows how one contractor's willingness to pay bribes, and later cooperate with the FBI, helped federal investigators uncover corruption reaching more than one Virgin Islands government agency; residents and contractors asked to pay a bribe, kickback, or "processing fee" to a government official in exchange for a contract can report it confidentially to the FBI or the DOJ's National Center for Disaster Fraud rather than treat it as the ordinary cost of doing business with the territory.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office, District of the Virgin Islands", 'Virgin Islands Daily News', 'V.I. Consortium'],
+    sourceUrl: 'https://www.virginislandsdailynews.com/news/judge-sentences-white-to-five-years-in-prison-for-bribery-hendricks-gets-nearly-six/article_baf6d7f6-c4d9-44dd-b033-5181b3aebe76.html',
+    country: 'US',
+    state: 'VI',
+    isHistorical: true,
+    firstRecorded: '2023-12-01',
+});
