@@ -386,4 +386,13 @@ export const SEED_GLOBAL_SOURCES: SeedGlobalSource[] = [
       "Vietnam's Authority of Information Security, under the Ministry of Information and Communications, runs the National Cyber Security Center (NCSC), which operates a public online-fraud warning and reporting channel and maintains a national database of fraudulent websites. The Ministry periodically publishes national tallies drawn from these reports — over 220,000 online fraud reports were logged in the first ten months of 2024 alone, most tied to banking and financial scams.",
     data_type: 'public_stats',
   },
+  {
+    agency_name: 'Sri Lanka Computer Emergency Readiness Team (Sri Lanka CERT)',
+    country: 'LK',
+    country_name: 'Sri Lanka',
+    url: 'https://cert.gov.lk/',
+    description:
+      "Sri Lanka's national cybersecurity incident-response agency, established in 2006. It accepts public reports of cybersecurity incidents through its own incident-reporting portal — routing financial-fraud and scam-specific reports there rather than through its general email — and its homepage tracks a running tally of reported incidents by category, including phishing, ransomware, and DDoS.",
+    data_type: 'public_stats',
+  },
 ];
