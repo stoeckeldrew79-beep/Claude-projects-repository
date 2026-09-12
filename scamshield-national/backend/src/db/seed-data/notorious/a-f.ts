@@ -8497,6 +8497,29 @@ The free-riding scheme is a reminder that a feature built for a legitimate purpo
   },
 );
 
+// No rights-cleared photo of Chris or Isis Terry has surfaced on Wikimedia
+// Commons or elsewhere; the FTC is a civil regulator with no mugshot to
+// draw on — sourceUrl below serves as the "read the full story" link
+// instead of a generic photo.
+NotoriousAF.push(
+  {
+    title: 'Chris and Isis Terry and the $1.2 Billion IM Mastery Academy Trading Scheme',
+    slug: 'chris-isis-terry-im-mastery-academy-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    body: `Note: the Federal Trade Commission's case against Chris and Isis Terry was a civil action, not a criminal prosecution, and it ended in a settlement in which the defendants neither admitted nor denied the FTC's allegations. What follows describes the government's claims and the terms the Terrys agreed to resolve them, not a judicial finding that the underlying conduct occurred as alleged.
+
+Christopher "Chris" Terry, a former Amway sales manager, launched iMarketsLive in 2013 with his wife, Isis Terry (then Isis De La Torre), selling monthly-subscription training on trading foreign exchange and cryptocurrency markets. Over the following decade the company rebranded repeatedly — to IM Mastery Academy, then IM Academy, then IYOVIA — while keeping the same core structure: members paid roughly $145 to $400 a month for trading courses and could have that fee waived, or earn commissions, by recruiting other members beneath them. According to the Federal Trade Commission, that recruitment layer generated more than $1.2 billion in worldwide sales since 2018, funneled to the Terrys and a small circle of top distributors while the great majority of paying members got little in return.
+
+The FTC and the Nevada Attorney General's office sued IM Mastery Academy/IYOVIA, the Terrys, and four other officers and top salespeople — Jason Brown, Alex Morton, Matthew Rosa, and Brandon Boyd — on May 1, 2025, in the U.S. District Court for the District of Nevada. The complaint alleged the company marketed itself to young people, including college students recruited through campus social media pages, with promises of retiring in their 20s and earning money "in minutes" or "in your sleep," while the "trainers" running the courses were, in the FTC's words, "often nothing more than salespeople" without formal credentials or a verifiable trading record. "The breadth of this scam is remarkable," said Christopher Mufarrige, Director of the FTC's Bureau of Consumer Protection, in announcing the case. Citing the company's own numbers, the FTC said 60 percent of paying customers stopped within a month and 90 percent were gone within six — a churn rate the agency said was inconsistent with a program actually teaching people to trade profitably.
+
+A federal judge granted a preliminary injunction on August 21, 2025, freezing the defendants' ability to keep making unsubstantiated earnings claims and installing a court-appointed monitor over the business while the case proceeded. Four of the officer-level defendants settled first, agreeing in August and September 2025 to a combined $2.5 million and $10.5 million in FTC judgments. The Terrys held out until May 15, 2026, when they and IM Mastery Academy's corporate entities agreed to a $795.8 million monetary judgment, almost entirely suspended in favor of surrendering roughly $90 million in assets: eight homes in New York, Nevada, Florida, and Dubai; thirteen undeveloped home lots near Las Vegas; nineteen vehicles including a Bentley and a Rolls-Royce; a yacht; and jewelry including a 15-carat diamond ring and watches from Richard Mille, Bulgari, and Rolex. "Today's action reflects the Federal Trade Commission's steadfast commitment to protecting our markets and consumers from deceptive schemes that take advantage of Americans seeking legitimate financial opportunities," Mufarrige said of the final settlement.
+
+IM Mastery Academy's run predates its American reckoning by years: the CFTC had already fined the company $150,000 in 2018 for trading on customers' behalf without registering as a broker, and regulators in Spain, Belgium, Luxembourg, and Poland separately warned about, banned, or prosecuted its recruiters over the following years, according to reporting compiled on the company's Wikipedia page. What the FTC's 2025-2026 case adds isn't a new kind of scheme — recruitment-funded commissions dressed up as an education business is a familiar MLM structure — but a scale rarely seen outside cases involving actual investment fraud: a business that took in over a billion dollars while, on the FTC's own account, nine in ten paying customers quit within six months of the "education" they'd signed up for.`,
+    sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2025/05/ftc-state-nevada-take-action-against-im-mastery-academy-deceiving-consumers',
+  },
+);
+
 NotoriousAF.push(
   {
     title: 'Amit Ahuja, Kapil Gulati, and Priyanshu Walia: The Pop-Up "Virus Alert" Ring That Took Millions From Over 1,000 Victims',
