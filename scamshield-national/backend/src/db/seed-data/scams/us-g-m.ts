@@ -6116,3 +6116,17 @@ UsGM.push({
     isHistorical: true,
     firstRecorded: '2025-10-02',
 });
+
+UsGM.push({
+    name: 'Malcolm Walker Fake College Football Recruiter Scam',
+    slug: 'malcolm-walker-fake-college-football-recruiter-scam',
+    description: `Malcolm Walker, 39, told families of high school football players across Georgia that he had connections to college coaches and recruiters and could arrange campus visits and face time with programs their sons were hoping to play for, then collected payment for travel and other expenses tied to trips that never happened. One victim, Phyllip Becoats, said he paid Walker roughly $1,023 for a promised trip to meet coaches and recruiters at the University of Colorado; Walker canceled it at the last minute, spent about six months making excuses for why it couldn't be rescheduled, and never returned the money. Gainesville Police arrested Walker on a theft-by-deception charge after Becoats filed a report, and once the arrest became public, police said reports poured in from other families and coaches around the state describing the same pattern — money taken for travel or "recruiting" services tied to a scholarship opportunity that was never real, with investigators estimating Walker had taken in at least tens of thousands of dollars combined. "He talks the talk, but, unfortunately, that's all he's got going for him. He's just stealing these people's money," Gainesville Police Lieutenant Kevin Holbrook said. A separate case months later in York County, Virginia accused a Malcolm Xavier Walker of taking $20,000 from another family under the same false promise of securing their son a college football scholarship, suggesting the scheme followed him across state lines. Families being approached by someone claiming private access to college coaches or recruiters — rather than working through the athlete's own high school coach and the NCAA's own recruiting calendar and rules — should be skeptical of anyone charging an upfront fee for a "guaranteed" campus visit or coach introduction, verify any claimed connection to a specific program by contacting that program's athletic department directly, and pay only by a method that can be disputed if a promised trip or introduction never materializes.`,
+    categorySlug: 'employment-scams',
+    alertLevel: 'medium',
+    sources: ['FOX 5 Atlanta'],
+    sourceUrl: 'https://www.fox5atlanta.com/news/georgia-high-school-athlete-scam-arrest-malcolm-walker',
+    country: 'US',
+    state: 'GA',
+    isHistorical: true,
+    firstRecorded: '2025-01-01',
+});

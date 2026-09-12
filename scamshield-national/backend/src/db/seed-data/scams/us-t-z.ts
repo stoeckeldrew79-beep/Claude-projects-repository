@@ -3395,3 +3395,16 @@ UsTZ.push({
     isHistorical: true,
     firstRecorded: '2025-03-21',
 });
+
+UsTZ.push({
+    name: 'Team Travel Source "Stay-to-Play" Youth Sports Housing Fee Scheme',
+    slug: 'team-travel-source-stay-to-play-youth-sports-scheme',
+    description: `A class-action lawsuit filed May 20, 2026 in the U.S. District Court for the Western District of Kentucky accuses Team Travel Source — operated by The Complete Plan, Inc. — of using "Stay-to-Play" hotel-booking policies to squeeze extra fees out of parents of youth athletes competing in club and travel-league tournaments. According to the complaint, Russell et al. v. The Complete Plan, Inc., tournament organizers working with Team Travel Source tell parents their child's team cannot compete unless a block of hotel rooms is booked through the company's own platform, then layer on an undisclosed nightly "housing fee" added to every reservation regardless of which hotel is chosen, on top of room rates that the suit says often run higher than the same room booked directly with the hotel or through an ordinary travel site. The lawsuit further alleges that despite advertising a "Lowest Rate Guarantee," Team Travel Source refuses to honor it when parents find a lower price for the identical room, undermining the one protection the mandatory booking policy is supposed to offer in exchange for taking away a family's choice of where to stay. "The cost of youth sports has skyrocketed in recent years, and Stay-to-Play policies like the one imposed by Team Travel Source are thinly veiled money-grabs from parents," said Karen Dahlberg O'Connell, a partner at Almeida Law Group, one of three firms representing plaintiffs from Kentucky, California, New York, Oklahoma, Virginia, Massachusetts, and Illinois. Parents whose child's team requires booking through a specific travel or housing platform to compete should ask the tournament organizer directly whether that requirement is actually written into the tournament's rules or is being imposed by the housing vendor itself, compare the total quoted price — including any per-night "housing" or resort-style fee — against the same room booked directly with the hotel, and get any "lowest rate" promise in writing before assuming it will be honored.`,
+    categorySlug: 'travel-vacation-scams',
+    alertLevel: 'medium',
+    sources: ['Almeida Law Group', 'PR Newswire'],
+    sourceUrl: 'https://www.prnewswire.com/news-releases/almeida-law-group-represents-parents-suing-team-travel-source-over-stay-to-play-junk-fee-302777991.html',
+    country: 'US',
+    isHistorical: true,
+    firstRecorded: '2026-05-20',
+});
