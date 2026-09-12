@@ -7036,3 +7036,17 @@ UsGM.push({
     isHistorical: true,
     firstRecorded: '2020-01-01',
 });
+
+UsGM.push({
+    name: 'Polk County Bank-Employee Data Trafficking and Elder Fraud Ring',
+    slug: 'florida-polk-county-bank-employee-data-trafficking-elder-fraud-ring',
+    description: `Three long-tenured employees at a Maryland bank — 65-year-old Barbara Frazee and 57-year-old Camala Shafer, both with more than 35 years at the bank, and 32-year-old Antonio Penn, a five-year employee — used their access to senior customers' account records to steal names, dates of birth, Social Security numbers, and account details, then sold that information over an encrypted messaging app to a wider ring that used it to open unauthorized accounts and drain victims' money. Florida Attorney General James Uthmeier's Office of Statewide Prosecution, working with the Polk County Sheriff's Office and the Florida Department of Law Enforcement, announced charges on July 23, 2025 against eight members of the ring — Frazee, Shafer, and Penn along with Michael Nevarez, Roshado Durrant, and Kevin Clayton of Lakeland, Florida, Hassan Phillips of Maryland, and Okeroghene Akushe of Missouri — after a multi-state investigation with Maryland State Police, Virginia State Police, an Allegany County, Maryland sheriff's office, and a Florissant, Missouri police department found the ring had stolen $8.8 million from 235 victims, most of them elderly. Investigators said the group transferred stolen funds into accounts opened in victims' names or their own, then split the money among themselves or spent it directly, with charges including racketeering, RICO conspiracy, organized fraud, grand theft, identity theft, and unlawful use of a communication device. "This wasn't some small-time scam, this was a well-organized fraud ring stealing millions from innocent victims across the country," said Polk County Sheriff Grady Judd. The case is a reminder that a bank's own employees can be the source of a data breach independent of any phishing email or scam call, and that customers — especially older account holders — should review statements closely for any unfamiliar transfer or new account and report it to their bank and to the Florida Attorney General's Office of Statewide Prosecution immediately, since insider data theft like this can otherwise go undetected for months.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'critical',
+    sources: ["Florida Attorney General's Office", 'Polk County Sheriff\'s Office', 'FOX 35 Orlando'],
+    sourceUrl: 'https://www.fox35orlando.com/news/sheriff-grady-judd-8-charged-multi-state-8-8-million-bank-fraud-racketeering-scheme-targeting-elderly',
+    country: 'US',
+    state: 'FL',
+    isHistorical: true,
+    firstRecorded: '2025-07-23',
+});

@@ -8084,3 +8084,17 @@ UsAF.push({
     isHistorical: true,
     firstRecorded: '2021-12-31',
 });
+
+UsAF.push({
+    name: 'Southlake "Good Faith Account" Business Loan Advance-Fee Fraud (William Thomas Engle)',
+    slug: 'texas-southlake-engle-good-faith-account-loan-fraud',
+    description: `William Thomas Engle, 68, a former attorney from Southlake, Texas, told small-business owners he could secure them multi-million-dollar loans if they first deposited money into what he called "Good Faith Accounts," assuring clients the funds would stay safely on deposit and be returned in full regardless of whether the loan ever closed. Between 2020 and 2022, according to the U.S. Attorney's Office for the Northern District of Texas, Engle sent victims fabricated bank statements showing these accounts held their money intact, when in reality no such secure accounts existed; clients transferred more than $8 million toward loans that were never funded, and Engle spent the money on a yacht, vehicles, jewelry, and other luxury purchases instead. Engle was charged in September 2025 with wire fraud, conspiracy to commit wire fraud, and transactional money laundering, and after two days of trial testimony from several of his victims in January 2026, he pleaded guilty to one count of wire fraud. U.S. District Judge Mark T. Pittman sentenced him on July 31, 2026 to 108 months (nine years) in federal prison and ordered him to pay $8,274,980 in restitution, along with forfeiture of a Jeep Wrangler and jewelry purchased with victims' money. "These victims were working to build their futures, and instead of the promised support, Engle fed them repeated lies and forged documents while siphoning off millions from them to fuel his own greed," said U.S. Attorney Ryan Raybould. The case is a reminder that a legitimate lender never requires a borrower to park a large "good faith" or collateral deposit with the loan broker itself before funding — that money should go only to a regulated financial institution, if anywhere at all — and that a would-be borrower can verify a loan broker's licensing and any complaints against them through the Texas Office of Consumer Credit Commissioner before wiring a deposit.`,
+    categorySlug: 'debt-relief-scams',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office, Northern District of Texas", 'CBS Texas'],
+    sourceUrl: 'https://www.cbsnews.com/texas/news/southlake-loan-fraud-william-thomas-engle-sentenced-108-months/',
+    country: 'US',
+    state: 'TX',
+    isHistorical: true,
+    firstRecorded: '2020-01-01',
+});
