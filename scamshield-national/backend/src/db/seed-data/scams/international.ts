@@ -15862,3 +15862,38 @@ International.push(
     sourceUrl: 'https://www.chiangraitimes.com/news/chiang-mai-couple-arrested-over-human-slavery/',
   },
 );
+
+International.push(
+{
+    name: 'ZondaCrypto Collapse Deepfake "Fund Recovery" Scam (Poland)',
+    slug: 'poland-zondacrypto-deepfake-fund-recovery-scam',
+    description: `Poland's largest cryptocurrency exchange, zondacrypto, collapsed in April 2026 after an investigation found roughly 99% of its bitcoin reserves had vanished, freezing withdrawals for its users; the Regional Prosecutor's Office in Katowice opened a fraud and money-laundering investigation (case 2003-2.Ds.14.2026) on April 17, 2026, with initial estimated damages of at least 350 million złoty and climbing as more victims came forward. Complicating any recovery, the exchange's predecessor company, BitBay, was founded by Sylwester Suszek, who is reported to hold the private keys to roughly 4,500 bitcoin — worth several hundred million dollars — and has been missing since March 2022. Within days, Poland's Central Bureau for Combating Cybercrime (CBZC) identified a second wave of fraud layered directly on top of the first: criminals scraping zondacrypto's own user forums and breached or public data for victims' contact details, then reaching out by email, SMS, messaging apps, and social media posing as lawyers, prosecutors, or recovery specialists offering "immediate recovery of lost funds" or "comprehensive legal representation" for an upfront fee. To sell the pitch, the scammers built and circulated deepfake videos using AI-generated likenesses and synthetic voices of purported financial experts vouching for the recovery service, spreading the clips through social media, video platforms, and fabricated news sites. In its April 23, 2026 warning, CBZC — joined by the Ministry of Digital Affairs, CSIRT NASK, and CSIRT KNF — stressed that no prosecutor or police unit ever contacts victims to demand payment toward recovering stolen funds, and told anyone affected by the zondacrypto collapse to preserve their transaction history, screenshots, and correspondence and report only through an official police station or prosecutor's office, never through a contact that reached out to them first.`,
+    categorySlug: 'ai-deepfake-scams',
+    country: 'PL',
+    alertLevel: 'high',
+    firstRecorded: '2026-04-23',
+    sources: ['Centralne Biuro Zwalczania Cyberprzestępczości (CBZC), Polish Police', 'Prokuratura Regionalna w Katowicach', 'CSIRT NASK', 'CSIRT KNF'],
+    sourceUrl: 'https://cbzc.policja.gov.pl/bzc/aktualnosci/897,Ostrzezenie-dla-osob-pokrzywdzonych-w-sprawie-ZondaCrypto.html',
+  },
+{
+    name: '"Fałszywy Kurier" Fake Courier SMS Smishing Campaign (Poland)',
+    slug: 'poland-falszywy-kurier-sms-smishing-scam',
+    description: `Poland's banking-sector cybersecurity education campaign, "Bankowcy dla CyberEdukacji" — a joint initiative of the Polish Banking Association (ZBP), the Warsaw Institute of Banking Foundation, the Banking Cybersecurity Center, the Polish Police, and member banks — issued a public warning on February 19, 2026 about a recurring wave of "fałszywy kurier" (fake courier) SMS and email messages impersonating Poczta Polska and private courier firms. The messages tell the recipient that a parcel is waiting but cannot be delivered without a small extra payment — a customs fee, a redelivery charge, or a "few złoty" shipping shortfall — timed to land when online shopping volume, and the number of people genuinely expecting a delivery, is highest. Anyone who taps the included link reaches a page cloned to resemble a real courier or payment-operator site and is asked to enter payment card details, online-banking login credentials, or a one-time SMS authorization code, which criminals then use to drain the linked bank account rather than to collect the trivial fee described in the message; some versions instead push a fake tracking app that grants remote access to the phone's banking apps once installed. CERT Polska logged a fresh spike in the pattern in a September 3, 2026 advisory (Komunikat 160/2026), describing it as the same fraud "returning" in a new run of messages, and continues to treat it as one of the most persistent smishing formats in the country because it exploits an experience — waiting on a parcel — that is now part of nearly everyone's routine. Polish authorities advise never tapping a link in an unsolicited delivery text, checking a shipment's status only through a courier's own official app or website, and reporting suspicious messages by forwarding them free of charge to the number 8080 or through the "Bezpieczna łączność" (Safe Connectivity) service in the government's mObywatel app.`,
+    categorySlug: 'package-delivery-scams',
+    country: 'PL',
+    alertLevel: 'high',
+    sources: ['Związek Banków Polskich (ZBP) — Bankowcy dla CyberEdukacji', 'Polish National Police (Policja.pl)', 'CERT Polska / NASK'],
+    sourceUrl: 'https://policja.pl/pol/aktualnosci/273514,Bankowcy-dla-CyberEdukacji-Uwazaj-na-Falszywego-Kuriera.html',
+  },
+{
+    name: '"Facebook Messenger Suitor" Romance Scam (Zabrze, Poland)',
+    slug: 'poland-zabrze-facebook-messenger-romance-scam',
+    description: `In early April 2026, a 60-year-old woman from Zabrze, in southern Poland, was contacted on Facebook Messenger by a man presenting himself as a Belgian national; over the following days he built what she believed was a genuine romantic connection before beginning to ask for money — first to cover a travel or customs cost keeping him from visiting her, then further sums under related pretexts — and she sent him a total of six transfers before he cut off contact, for a total loss of 44,000 złoty. Zabrze's municipal police, who took her report, described the case as a textbook romance scam and noted that a request for money to cover a customs fee, courier charge, or travel expense from someone known only online is close to a certain sign of fraud. The case fits a pattern Poland's Central Bureau for Combating Cybercrime (CBZC) has repeatedly warned about nationally, including in a July 24, 2026 public alert: fraudsters build fake dating and social-media profiles around stolen photographs and invented, sympathetic careers — posing as doctors, soldiers, business owners, ship's officers, or engineers working abroad — declare love and talk about a shared future unusually quickly, consistently avoid video calls or in-person meetings, and eventually manufacture a medical, legal, customs, or travel emergency that only the victim's money can resolve, sometimes asking specifically for a BLIK code, a cryptocurrency transfer, or gift cards rather than a traceable bank wire. CBZC's standing advice is to never send money to someone met only online, to independently verify a partner's claimed identity and photos, to treat an unwillingness to video call as a major warning sign, and to talk to a trusted friend or family member before acting on any online partner's financial request, since money sent abroad this way is extremely difficult to recover.`,
+    categorySlug: 'romance-scams',
+    country: 'PL',
+    alertLevel: 'medium',
+    firstRecorded: '2026-04-01',
+    sources: ['Zabrze Municipal Police Command', 'TVS (Telewizja Silesia)', 'Centralne Biuro Zwalczania Cyberprzestępczości (CBZC), Polish Police'],
+    sourceUrl: 'https://tvs.pl/informacje/oszustwo-romantyczne-zabrze-messenger-44tys',
+  },
+);
