@@ -6182,3 +6182,17 @@ UsNS.push({
     isHistorical: true,
     firstRecorded: '2026-09-10',
 });
+
+UsNS.push({
+    name: 'Puerto Rico Suspended-License Orthopedist Medicaid and Medicare Billing Fraud',
+    slug: 'puerto-rico-wilson-orthopaedics-suspended-license-medicaid-fraud',
+    description: `Puerto Rico's Medical Licensing and Discipline Board suspended orthopedist Jorge Rodríguez Wilson's license in a resolution issued February 28, 2025 and notified March 4, 2025, over findings of gross malpractice, failure to report criminal convictions, and false statements made during license-renewal proceedings, Board president Roberto Pérez Nieves confirmed. Prosecutors allege that instead of stopping practice, Rodríguez Wilson continued treating, diagnosing, and billing patients through his corporation, Wilson Orthopaedics and Rehabilitation Center, from the suspension date through January 31, 2026 — submitting an estimated $1,590,058.21 in claims to Medicaid, Medicare, and commercial insurers under a license that was no longer valid, resulting in roughly $935,559.67 actually paid out to his accounts. Puerto Rico's Department of Justice filed 81 criminal charges against Rodríguez Wilson himself — including illegal practice of medicine, fraud, misappropriation of public funds, and unauthorized dispensing of controlled substances — along with 64 charges against his corporation and 28 against office administrator Javier Ortiz Hernández, with combined bail set at $109,000 and a preliminary hearing held June 29, 2026. The case is a reminder that a suspended or revoked medical license doesn't necessarily stop a provider from continuing to see patients and bill insurance until the fraud is caught — patients in Puerto Rico can verify a physician's current license status directly through the Medical Licensing and Discipline Board before starting or continuing treatment, particularly if a provider's practice details or billing patterns seem inconsistent with normal care.`,
+    categorySlug: 'healthcare-fraud',
+    alertLevel: 'high',
+    sources: ['Puerto Rico Medical Licensing and Discipline Board', 'Puerto Rico Department of Justice', 'Metro Puerto Rico', 'NotiCel'],
+    sourceUrl: 'https://www.metro.pr/noticias/2026/06/24/ortopeda-acusado-de-fraude-no-tenia-licencia-desde-2025-asegura-presidente-junta-de-licenciamiento-y-disciplina-medica/',
+    country: 'US',
+    state: 'PR',
+    isHistorical: true,
+    firstRecorded: '2025-02-28',
+});
