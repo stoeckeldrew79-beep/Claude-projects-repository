@@ -6049,3 +6049,27 @@ Austin's case is a reminder that the fraud in "stealing clients" isn't just the 
     sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26631',
   },
 );
+
+// This is a civil securities-enforcement matter resolved by consent order —
+// Jackson neither admitted nor denied the Maryland Securities Commissioner's
+// findings. No criminal charges have been reported, and no rights-cleared
+// photo of Jackson has surfaced, so sourceUrl serves as the "read the full
+// story" link instead of a photo.
+NotoriousNS.push(
+  {
+    title: 'Otis Jackson and the Park Heights Affordable Housing Program That Existed Only on Paper',
+    slug: 'otis-jackson-sito-capital-affordable-housing-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    body: `Otis H. Jackson pitched himself to Maryland investors as a community developer with a real plan to fix a real problem: a "Social and Economic Development Program" that would build and renovate low- and moderate-income housing in Baltimore's Park Heights neighborhood and the blocks around it. Operating through two companies he controlled, SITO Capital, LLC and Social Solutions Advisors, LLC, both based in Davidsonville, Maryland, Jackson told prospective investors he had partnered with nonprofit organizations, private lenders, and local government to make it happen, and that the properties described in his offering materials were already owned by his companies.
+
+According to a Consent Order issued by the Maryland Securities Commissioner, none of that was true in the way Jackson described it. Between 2019 and 2024, Jackson sold at least 17 Maryland investors promissory notes — structured as six-to-twelve-month "investment contracts" — raising at least $610,000 across at least 26 separate transactions, neither Jackson nor his companies ever having registered as a broker-dealer, agent, or investment adviser in Maryland or anywhere else. The notes guaranteed return of principal plus profits ranging from 15 to 50 percent; one investor, identified in the order only by the initials "SB," was personally promised a 75 percent return on a $65,000 investment. Jackson told investors his program had "private equity investors" and support from Baltimore City government — the order found neither existed. At least one property his materials described as owned by his companies had in fact been sold at a City of Baltimore tax auction back in 2018, years before he kept citing it to new investors.
+
+Jackson was the sole signatory on the bank accounts holding investor money, and the order lays out where it actually went: more than $100,000 toward his own mortgage, at least $340,000 transferred to his personal Capital One account, along with cash withdrawals, dining, and transportation. When investor "SB" pressed for his money back, Jackson didn't return it — he issued an "Extension" agreement tacking on more promised interest, and separately used a later payment from SB to pay off an earlier investor, "TM," the classic Ponzi mechanic of using new money to quiet old complaints. As recently as November 2024, with SB's original $65,000 still unpaid, Jackson began soliciting the same investor for a new venture called "TOCIFU," claiming a business relationship with South Sudan's Ministry of Petroleum — including, according to the order, with an individual on the U.S. government's Specially Designated Nationals sanctions list — and possible projects such as building a "mini refinery" with a stated budget of "$30 to $150 Million." SB took out a $1,000 cash advance on a credit card to send Jackson for the new deal; he was never repaid on either investment.
+
+The Securities Division of the Maryland Attorney General's Office found that Jackson and his companies violated the anti-fraud and registration provisions of the Maryland Securities Act. On April 15, 2026, Maryland Securities Commissioner Melanie Senter Lubin signed a Consent Order — Securities Docket No. 2025-0111 — permanently barring Jackson, SITO Capital, and Social Solutions Advisors from the securities and investment advisory business in Maryland, in any capacity, for or on behalf of anyone else. Without admitting or denying the Commissioner's findings, Jackson and his companies agreed to a $562,500 civil penalty, reduced dollar-for-dollar by restitution paid to investors, payable in an initial $20,000 followed by $20,000 quarterly installments until paid in full. "Marylanders deserve to invest with confidence, free from fraud and deception," said Attorney General Anthony Brown, announcing the settlement. "My Office will continue to pursue unregistered securities schemes and ensure that those harmed receive the restitution they are owed."
+
+Jackson's case is a reminder that an affinity-adjacent pitch built around a real neighborhood and a real social cause can be just as hollow as any offshore Ponzi scheme — the properties, the city partnerships, and the nonprofit relationships he cited were specific and checkable, and no investor apparently checked them, right up until Jackson was still running a brand-new pitch on a victim he already owed money to.`,
+    sourceUrl: 'https://oag.maryland.gov/News/pages/Attorney-General-Brown-Secures-$562,000-Settlement-for-Investors-Defrauded-in-Fake-Affordable-Housing-Scheme--.aspx',
+  },
+);
