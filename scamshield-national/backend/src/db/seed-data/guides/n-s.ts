@@ -4095,6 +4095,9 @@ If you have or previously had a student loan serviced by Nelnet, Edfinancial, or
     slug: "state-farm-arkansas-total-loss-settlement-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "state-farm-arkansas-total-loss-settlement"],
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Wrecked_car_interior_showing_damage_and_debris_in_salvage_yard.jpg?width=1200",
+    coverImageCredit: "Photo: Shixart1985, CC BY 2.0, via Wikimedia Commons — a wrecked car in a salvage yard, like those State Farm totaled",
+    coverImagePosition: 50,
     sourceUrl: "https://topclassactions.com/lawsuit-settlements/lawsuit-news/state-farm-settlement-over-totaled-car-payouts-receives-preliminary-approval/",
     body: `When an insurer declares a car a total loss, it doesn't pay to fix it — it pays the vehicle's "actual cash value," typically calculated using a third-party valuation report that estimates what comparable cars are selling for nearby. A lawsuit filed by Arkansas policyholder Rose Chadwick in November 2021 argued that State Farm was quietly thumbing the scale on that calculation: her case, Chadwick v. State Farm Mutual Automobile Insurance Co. (Case No. 4:21-cv-01161, U.S. District Court for the Eastern District of Arkansas), alleged that valuation reports State Farm relied on from Audatex applied a "typical negotiation adjustment" that reduced the listed price of comparable vehicles by roughly 9% before calculating what a policyholder's totaled car was worth — an adjustment the suit said didn't reflect real-world used-car pricing, since online listings already price in the haggling room a buyer might negotiate down.
 
