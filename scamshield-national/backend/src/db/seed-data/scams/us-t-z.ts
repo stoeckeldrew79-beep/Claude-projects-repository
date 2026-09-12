@@ -3781,3 +3781,17 @@ UsTZ.push({
     isHistorical: true,
     firstRecorded: '2023-12-01',
 });
+
+UsTZ.push({
+    name: 'Virgin Islands Housing Finance Authority Lumber Kickback Scheme (Darin Richardson)',
+    slug: 'virgin-islands-richardson-vihfa-lumber-kickback-scheme',
+    description: `Darin Richardson, the former Chief Operating Officer of the Virgin Islands Housing Finance Authority (VIHFA), was sentenced on March 27, 2026 to 36 months in prison — six months federal, followed by 30 months consecutive under territorial law — after being convicted of bank fraud, money laundering, making false statements, and criminal conflict of interest in a scheme built around a VIHFA lumber-storage contract tied to Hurricane Irma and Maria disaster recovery. According to the evidence at trial, Richardson solicited $107,000 from Morris Anselmi, the managing partner of contractor Island Services Group (ISG), under the pretense that the money was an investment in a mobile food-court business Richardson claimed to be starting; he instead used the funds to buy property at a U.S. Marshals Service auction. In exchange, Richardson steered VIHFA's contract for storing and managing donated lumber shipped to the territory for post-hurricane rebuilding to Anselmi's company, then repeatedly approved increases to that contract's value — from an initial $3 million to nearly $4.5 million — despite testimony that much of the lumber purchased under the inflated agreement was ultimately left to rot in the open air rather than reaching any actual rebuilding project. At sentencing, U.S. District Judge Mark Kearney told Richardson his more lasting punishment was becoming "a federal felon for the rest of your life," and HUD's Office of Inspector General noted that "an officer corruptly awarding disaster clean-up contracts violates, at minimum, HUD rules on oversight." Richardson's co-defendants, Davidson Charlemagne — a Department of Education maintenance director — and his wife Sasha Charlemagne, were separately charged with government-program fraud, wire fraud, and money-laundering conspiracy over their own alleged role in the same lumber contract, including timesheets showing Sasha Charlemagne paid as a warehouse manager for a trucking company with no record of ever employing her; their case remained pending as of this writing. The case is a reminder that disaster-recovery contracts awarded and modified by a single insider with little outside oversight are a recurring target for kickback schemes — residents who see recovery materials sitting unused for years after a contract was supposedly funded to use them have grounds to ask the awarding agency, or the DOJ's National Center for Disaster Fraud, exactly where the money went.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'high',
+    sources: ['Virgin Islands Daily News', 'HUD Office of Inspector General', 'V.I. Consortium'],
+    sourceUrl: 'https://www.virginislandsdailynews.com/news/darin-richardson-sentenced-to-three-years-in-prison/article_1fd9861a-0920-432e-a4de-08ba1a034a47.html',
+    country: 'US',
+    state: 'VI',
+    isHistorical: true,
+    firstRecorded: '2017-09-01',
+});
