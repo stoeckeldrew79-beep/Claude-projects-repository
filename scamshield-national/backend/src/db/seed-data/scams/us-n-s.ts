@@ -6694,3 +6694,17 @@ UsNS.push({
     isHistorical: true,
     firstRecorded: '2018-02-04',
 });
+
+UsNS.push({
+    name: 'Union City Fake Financial Adviser Elderly Investment Fraud (Antonio Petrosino)',
+    slug: 'new-jersey-union-city-petrosino-elderly-investment-fraud',
+    description: `Antonio Petrosino, also known as Anthony Petrosino, 60, of Union City, New Jersey, held himself out as a financial services professional and, from January 2016 through November 2024, induced at least four elderly victims living in Paramus, Wyckoff, Westwood, and Hoboken to hand over investment funds, mortgage payments, and other money he claimed he would place into brokerage accounts and other investment products. He never did; instead, according to federal prosecutors, he gave at least one elderly victim falsified account statements showing hundreds of thousands of dollars sitting in investment accounts in her name that in reality held nothing, while he spent the roughly $1.1 million he took from victims on gambling, credit card bills, and rent on his own luxury apartment. Petrosino pleaded guilty on March 25, 2026, to wire fraud, which carries a statutory maximum of 20 years in prison and a fine of $250,000 or twice the gain or loss from the offense, with sentencing scheduled for August 5, 2026. Anyone entrusting retirement or investment money to an individual adviser — especially one who is a friend, neighbor, or fellow congregant rather than someone found through an established firm — should verify that person's registration through FINRA BrokerCheck or the SEC's Investment Adviser Public Disclosure database, and should insist on receiving official statements directly from the actual custodian bank or brokerage rather than a document the "adviser" prints and hands over personally.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office, District of New Jersey", 'NJ 101.5'],
+    sourceUrl: 'https://nj1015.com/investment-fraud-union-city/',
+    country: 'US',
+    state: 'NJ',
+    isHistorical: true,
+    firstRecorded: '2016-01-01',
+});

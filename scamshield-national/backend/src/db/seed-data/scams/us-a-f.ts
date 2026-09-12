@@ -7976,3 +7976,15 @@ UsAF.push({
     isHistorical: true,
     firstRecorded: '2021-11-01',
 });
+
+UsAF.push({
+    name: 'Litchfield Park "Laptop Farm" North Korean IT Worker Identity Theft Scheme (Christina Chapman)',
+    slug: 'arizona-chapman-laptop-farm-north-korean-it-worker-fraud',
+    description: `Christina Marie Chapman, 50, of Litchfield Park, Arizona, ran a "laptop farm" out of her own home on behalf of North Korean IT operatives who used stolen and borrowed American identities to get hired remotely into IT and software jobs at more than 300 U.S. companies, including Fortune 500 corporations, a major national TV network, an aerospace manufacturer, an American car maker, and a luxury retail chain. Chapman received the company-issued laptops those employers shipped to what they believed was their new hire's U.S. address, kept them running in her house so the workers appeared to be logged in from American soil, forged payroll and identity paperwork using stolen identities of 68 real Americans, and collected paychecks into her own accounts before moving the money overseas; a search of her home in October 2023 turned up more than 90 laptops, and she was found to have shipped 49 devices abroad, including to a Chinese city on the North Korean border. The scheme generated more than $17 million in revenue that the Justice Department says could benefit North Korea's sanctioned weapons programs, and two North Korean IT workers tied to the operation went as far as attempting to get hired at U.S. government agencies. Chapman pleaded guilty in February 2025 to conspiracy to commit wire fraud and aggravated identity theft, and on July 24, 2025 was sentenced to 102 months (8.5 years) in federal prison. The case is now a template other "remote job" recruiters copy on a smaller scale, offering ordinary Americans cash to simply "receive and forward packages" or "host company equipment" from home; anyone offered paid work that consists only of accepting a stranger's shipments, logging into a computer on someone else's behalf, or lending their name and Social Security number to a job they will never actually perform should recognize it as a request to become an unwitting identity-theft and money-laundering front, not a legitimate remote position.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office, District of Columbia", 'FOX 10 Phoenix', 'CNN'],
+    sourceUrl: 'https://www.fox10phoenix.com/news/christina-chapman-new-details-arizona-woman-sentenced-scheme-involving-north-korea',
+    country: 'US',
+    state: 'AZ',
+});
