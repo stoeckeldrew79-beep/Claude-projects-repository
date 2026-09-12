@@ -7922,3 +7922,17 @@ UsAF.push({
     isHistorical: true,
     firstRecorded: '2018-10-24',
 });
+
+UsAF.push({
+    name: 'Alaska Permanent Fund Dividend myAlaska Account-Takeover Fraud (Adepoju Salako)',
+    slug: 'alaska-salako-pfd-myalaska-account-takeover-fraud',
+    description: `Adepoju Babatunde Salako, 33, of Philadelphia, Pennsylvania — a man who had never set foot in Alaska — gained unauthorized access to seven Alaskans' myAlaska online accounts, the portal residents use to apply for the state's annual Permanent Fund Dividend, and in January and February 2022 changed each account's registered email address to one he controlled and swapped in bank routing and account numbers that would send the PFD payments to accounts he controlled instead. To make six of the seven applications look like they were coming from inside Alaska, Salako routed his connection through a Virtual Private Network; the seventh slipped up and traced back to a Philadelphia IP address tied to his own personal email account. The scheme targeted $22,988 in dividend money — $3,284 per victim — but the Alaska Department of Revenue's Permanent Fund Dividend Division caught all seven applications as fraudulent and denied them before a single payment went out. A federal grand jury in the District of Alaska charged Salako with seven counts of wire fraud, and he signed a plea agreement in September 2025; on May 22, 2026, he was sentenced to 18 months in federal prison, to run concurrently with an unrelated federal sentence out of Colorado, where he had already been ordered to serve six and a half years and pay more than $2.5 million in restitution for a separate CARES Act pandemic-relief fraud and international money-laundering scheme. Assistant U.S. Attorney Ainsley McNerney said Salako "spent considerable time planning and perpetrating his scheme to defraud the Alaska PFD," and that even an unsuccessful attempt to steal from the fund "will not be tolerated." The case, investigated by the FBI's Anchorage Field Office and the Alaska Department of Revenue's Criminal Investigations Unit, shows that a PFD application requires no in-person Alaska presence to attack — only a compromised myAlaska login — so Alaskans should use a unique, strong password on their myAlaska account, enable any available account-alert or two-factor option, and watch for an unexpected email-address or bank-account change notice on their PFD application as a sign someone else may be inside the account.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'medium',
+    sources: ["U.S. Attorney's Office for the District of Alaska", 'Alaska Public Media'],
+    sourceUrl: 'https://alaskapublic.org/news/2025-10-01/charges-pennsylvania-man-tried-to-steal-alaskans-permanent-fund-dividends',
+    country: 'US',
+    state: 'AK',
+    isHistorical: true,
+    firstRecorded: '2022-01-01',
+});
