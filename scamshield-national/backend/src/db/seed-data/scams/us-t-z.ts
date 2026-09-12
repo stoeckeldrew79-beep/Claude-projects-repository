@@ -3614,3 +3614,17 @@ UsTZ.push({
     isHistorical: true,
     firstRecorded: '2015-12-01',
 });
+
+UsTZ.push({
+    name: 'St. Croix Unlicensed Contractor Renovation Fraud (Tyler Peworchik)',
+    slug: 'virgin-islands-tyler-peworchik-unlicensed-contractor-fraud',
+    description: `The Virgin Islands Police Department's Economic Crimes Unit opened an investigation on January 23, 2026 after a St. Croix homeowner reported being defrauded by Tyler Peworchik, who was operating in the territory as a contractor without a valid business license. Investigators found Peworchik had agreed to arrange flooring renovation, electrical work, and fence completion through subcontractors, and on that basis induced the victim to issue 35 separate checks totaling more than $181,000 — but rather than paying the subcontractors as represented, he deposited the money into his own business account and never had the promised work completed, leaving the homeowner out the full amount with an unfinished renovation. Peworchik, 40, surrendered on June 23, 2026 at the Wilbur H. Francis Command Police Station, where he was served an arrest warrant charging him with Obtaining Money by False Pretenses, Grand Larceny, Embezzlement by Fiduciaries, and unauthorized access to computers for a fraudulent purpose; unable to post the $35,000 bail set in the case, he was remanded to the John A. Bell Adult Correction Facility pending his Advice of Rights hearing in the Superior Court of the Virgin Islands. The case illustrates why a homeowner should confirm a contractor's business license directly with the V.I. Department of Licensing and Consumer Affairs before signing a renovation contract or handing over any payment, and should insist on paying subcontractors directly, or verifying with them that they were actually paid, rather than trusting a general contractor's word that money passed through to the people doing the work — a suspected case of contractor fraud can be reported to VIPD's Economic Crimes Unit.`,
+    categorySlug: 'home-improvement-solar',
+    alertLevel: 'high',
+    sources: ['Virgin Islands Police Department', 'St. Thomas Source', 'Virgin Islands Daily News'],
+    sourceUrl: 'https://vipd.vi.gov/news/economic-crimes-unit-investigation-led-to-arrest-of-contractor-for-fraud/',
+    country: 'US',
+    state: 'VI',
+    isHistorical: true,
+    firstRecorded: '2026-01-23',
+});

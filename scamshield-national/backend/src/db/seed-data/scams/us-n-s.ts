@@ -6404,3 +6404,31 @@ UsNS.push({
     isHistorical: true,
     firstRecorded: '2023-11-03',
 });
+
+UsNS.push({
+    name: 'Northern Mariana Islands Judiciary Jury-Duty Arrest-Threat Scam Calls',
+    slug: 'northern-mariana-islands-judiciary-jury-duty-scam-calls',
+    description: `The Commonwealth of the Northern Mariana Islands Judiciary issued a public warning on October 22, 2025 after residents reported a wave of scam calls in which callers falsely identify themselves as staff of the Supreme Court Clerk's Office and use a spoofed caller ID that displays the Judiciary's real phone number to look legitimate. The callers tell recipients they missed jury duty or have an unpaid traffic citation and must report to the Clerk's Office immediately or pay a fee on the spot to avoid arrest, then press for payment through prepaid debit cards, gift cards, wire transfers, cryptocurrency, or a payment app — methods no real court accepts — and in some versions ask for a Social Security number or bank and card details on the same call. The Judiciary stated plainly that "the Northern Mariana Islands Judiciary does not call, email, or text to demand payment or personal information for court-related matters," making any such demand, however official the caller ID looks, proof the call is fraudulent rather than a real court communication. Residents who feel physically threatened during one of these calls are advised to call 911, and anyone targeted can report the call to the CNMI Department of Public Safety, file a complaint with the Federal Trade Commission or the FBI's Internet Crime Complaint Center (IC3.gov), and independently verify any claimed court matter by contacting the Judiciary directly through nmijudiciary.gov rather than a number or instructions the caller supplies.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Commonwealth of the Northern Mariana Islands Judiciary'],
+    sourceUrl: 'https://www.nmijudiciary.gov/news/northern-mariana-islands-judiciary-warns-public-about-scam-calls',
+    country: 'US',
+    state: 'MP',
+    isHistorical: true,
+    firstRecorded: '2025-10-22',
+});
+
+UsNS.push({
+    name: 'Carolina, Puerto Rico In-Person Bank Card Impersonation Attempt (Sánchez Reyes and Ortiz Valentín)',
+    slug: 'puerto-rico-carolina-bank-card-impersonation-attempt',
+    description: `Puerto Rico's Department of Justice announced on September 10, 2026 that two people had been charged after a 69-year-old man in Carolina was targeted in a two-step bank impersonation scheme: Jesiel Sánchez Reyes, 28, first called the victim claiming his Visa debit card had been cloned, and then, following Sánchez Reyes's instructions, Sacheliz Cristal Ortiz Valentín, 20, went in person to the victim's home posing as an employee of his financial institution to collect the "compromised" card directly from him. The victim grew suspicious mid-scheme, alerted police while keeping the callers on the line, and the handoff never happened — Justice Secretary Lourdes Gómez Torres said the victim's decision to alert authorities while continuing to engage with the suspects "allowed intervention before the scheme succeeded." Carolina Fiscal's Office prosecutor Melitza Osorio Santiago charged each defendant with attempted financial exploitation of an elderly person under Article 127-C of Puerto Rico's Penal Code; Ortiz Valentín had bail set at $5,000 with electronic monitoring, while Sánchez Reyes, charged in absentia, had bail set at $10,000 pending arrest, with a preliminary hearing scheduled for September 23, 2026. The case is a reminder that a real bank never sends an employee to a customer's home to physically retrieve a debit or credit card over the phone's claim that it has been "cloned" — a legitimate compromised-card replacement is handled by freezing the account and mailing a new card, not by a courier collecting the old one in person — and anyone who gets a call like this should hang up and call the number on the back of their own card, or, as the Carolina victim did, alert police immediately rather than let the caller stay on the line.`,
+    categorySlug: 'account-takeover',
+    alertLevel: 'high',
+    sources: ['Puerto Rico Department of Justice', 'Metro Puerto Rico', 'Foro Noticioso Puerto Rico'],
+    sourceUrl: 'https://www.metro.pr/noticias/2026/09/10/dos-personas-enfrentan-cargos-por-intento-de-explotacion-financiera-a-adulto-mayor-en-carolina',
+    country: 'US',
+    state: 'PR',
+    isHistorical: true,
+    firstRecorded: '2026-09-10',
+});
