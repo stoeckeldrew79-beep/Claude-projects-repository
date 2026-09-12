@@ -15940,3 +15940,46 @@ International.push(
     country: 'KE',
   },
 );
+
+International.push(
+  {
+    name: 'Fake Card Stop "Fraud Alert" AI-Voice Vishing Calls',
+    slug: 'belgium-cardstop-ai-voice-vishing-scam',
+    description: `Belgium's Centre for Cybersecurity Belgium (CCB) and the financial-sector federation Febelfin have both flagged a fast-growing wave of "vishing" calls in which fraudsters impersonate Card Stop — the country's central card-blocking service — or a bank's own fraud department, sometimes opening with a fully automated, AI-generated voice message. VRT NWS investigative journalist Tim Verheyden tested one such call in reporting published March 11, 2025, and found that a robocall falsely claimed a fraudulent transfer of €2,700 had just gone out from his account and invited him to press a key to dispute it; when he did, a human "agent" came on the line who — despite Verheyden giving a false name — already knew exactly which transaction he was supposedly disputing, a level of detail meant to make the story sound credible. The caller then talked him toward installing remote-access software such as AnyDesk or TeamViewer under the pretext of running a "security check," which, if completed, hands the fraudster live control of the victim's device and online banking session. Katrien Eggers of the Centre for Cybersecurity Belgium said victims are often targeted "in the late evening or on weekends, when it's harder to consult friends, family, or bank staff" before acting. Febelfin renewed the warning on February 27, 2026, stating that vishing is "on the rise" and that such calls — sometimes spoofed to display a genuine-looking Belgian number — pressure targets to read out a PIN or card-reader response code, approve a payment through the itsme app, transfer funds to a supposed "safe account," or install remote-access software; the federation stressed that Card Stop never places outbound calls on its own initiative to warn customers about fraud. Anyone receiving such a call is advised to hang up immediately and call their bank or Card Stop back only on the number printed on their own card (078 170 170), never a number given by the caller.`,
+    categorySlug: 'phishing',
+    alertLevel: 'high',
+    sources: ['VRT NWS', 'Febelfin', 'Centre for Cybersecurity Belgium (CCB)'],
+    sourceUrl: 'https://febelfin.be/en/press-room/fraude-veiligheid/vishing-telephone-fraud-on-the-rise',
+    country: 'BE',
+  },
+  {
+    name: 'Fake "Hi Mum/Hi Dad" WhatsApp Family Emergency Scam',
+    slug: 'belgium-hi-mom-whatsapp-family-scam',
+    description: `Belgium's Federal Police issued a public-awareness warning grouping together two of the country's most-reported "smishing" scams under the heading "'Hallo mama' of een niet-bezorgd pakje: trap niet in de 'smishing'-val" ("'Hi Mum' or an undelivered parcel: don't fall into the smishing trap"). In the family-impersonation version, a message arrives on WhatsApp from a number the recipient doesn't recognize, opening with "Hi Mum" or "Hi Dad" and a claim that the sender's phone was lost, broken, or stolen and that this is their temporary new number. Once the target replies, the conversation quickly turns to an urgent, time-pressured request — a bill that must be paid immediately, a bank transfer to a new account because "my banking app isn't working on this phone," or a verification code the "child" needs relayed back to them — timed to land at a moment when the real relative is hard to reach and a worried parent has little time to double-check. Security researchers at Bitdefender, which has tracked the scam's spread across Europe, note that the operators typically run large numbers of near-identical conversations at once and move to a payment request as soon as any target engages at all. Belgian Federal Police and Safeonweb, the national online-safety awareness service, advise never sending money or a verification code on the strength of a WhatsApp message alone: the story should be verified by phoning the family member on their previously known number before anything is paid, and suspicious messages should be reported through Safeonweb rather than answered.`,
+    categorySlug: 'family-emergency-scams',
+    alertLevel: 'high',
+    sources: ['Federal Police (Belgium)', 'Bitdefender (Hotforsecurity)', 'Safeonweb'],
+    sourceUrl: 'https://www.politie.be/5998/nl/nieuws/hallo-mama-een-niet-bezorgd-pakje-trap-niet-de-smishing-val',
+    country: 'BE',
+  },
+  {
+    name: 'Fake bpost Parcel Redelivery and Customs-Fee Smishing',
+    slug: 'belgium-fake-parcel-redelivery-customs-fee-scam',
+    description: `The same Federal Police advisory warns that the country's most common text-message scam remains a fake parcel-delivery notice sent in the name of bpost or a private carrier such as Mondial Relay, Chronopost, DHL, or PostNL. One current variant tells the recipient their package "didn't fit in the mailbox" or needs a new delivery date and links to a page — cited by police as one example, infoconsignes.com — that convincingly copies the real carrier's branding before asking for an email address and payment-card details to cover a supposedly outstanding shipping fee. A physical-mail variant works the same way on paper: a printed note left in the mailbox, styled to look like it's from bpost, DHL, or PostNL, claims the parcel is being held at customs and that a fee — cited in Belgian reporting as around €18 — is due, with a QR code leading to the same kind of fake payment page instead of a real courier or customs system. bpost's own phishing page states plainly that it will "never ask you to pay for your parcel while it's in transit" and never requests personal information by email or SMS, and recommends checking any delivery notice against the official My bpost app — where a genuine notification will also appear — before clicking any link. Both Federal Police and Safeonweb ask anyone who receives one of these messages to avoid clicking through, to forward the text to abuse@bpost.be or report a suspicious letter or QR code to Safeonweb, and to never enter card details on a page reached from an unsolicited delivery text.`,
+    categorySlug: 'package-delivery-scams',
+    alertLevel: 'medium',
+    sources: ['Federal Police (Belgium)', 'bpost', 'Safeonweb'],
+    sourceUrl: 'https://www.bpost.be/en/phishing',
+    country: 'BE',
+  },
+  {
+    name: 'Fake Buyer/Seller "Payment Confirmation" Marketplace Fraud (2dehands, Vinted)',
+    slug: 'belgium-marketplace-fake-buyer-seller-scam',
+    description: `Belgium's federal economy ministry, FOD Economie, reported on May 7, 2026 that its ConsumerConnect reporting service logged 8,342 reports of fraud and non-delivery in online sales during 2025 alone, part of an overall 33,035 reports of misleading practices, fraud, and deception — a 17 percent jump over 2024 — making online buying and selling the single most-reported category of consumer fraud the ministry tracked that year. ConsumerConnect's own guidance describes the two mirror-image scams driving these reports on second-hand marketplaces such as 2dehands and Vinted: in one, a "seller" lists an item at an unusually attractive price and, once a buyer agrees to pay by bank transfer or Western Union, disappears along with every trace of the fake account; in the other, a "buyer" contacts a genuine seller, offers to have the item picked up through a delivery company's own payment system, and sends what looks like an official payment-confirmation link — which is in fact a phishing page designed to capture the seller's own online-banking login rather than pay them anything at all. Testaankoop/Test-Achats, the Belgian consumer organization, reported in February 2026 that complaints specifically about Vinted had spiked sharply that month, dominated by buyer-protection claims that went unhonored, packages that never arrived, and counterfeit goods received in place of what was advertised. FOD Economie's advice is to never follow a "payment received" or "confirm your delivery" link sent through a marketplace chat — logging into the real platform or banking app directly is the only safe way to check a transaction — and to report suspected fraud to Card Stop (078 170 170), the seller's own bank, and via verdacht@safeonweb.be.`,
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'high',
+    sources: ['FOD Economie (Belgian Federal Public Service Economy)', 'Testaankoop / Test-Achats'],
+    sourceUrl: 'https://consumerconnect.be/nl/themas/consumentenbedrog/verdacht/online/2dehands',
+    country: 'BE',
+  },
+);
