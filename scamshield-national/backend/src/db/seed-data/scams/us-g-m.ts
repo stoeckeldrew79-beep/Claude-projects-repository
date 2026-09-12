@@ -6130,3 +6130,29 @@ UsGM.push({
     isHistorical: true,
     firstRecorded: '2025-01-01',
 });
+
+UsGM.push({
+    name: 'Google Business Profile Negative Review Extortion Scam',
+    slug: 'google-negative-review-extortion-scam',
+    description: `Starting in 2025, small business owners across the country began reporting a coordinated extortion scheme built around their Google Business Profile listings: a business's previously solid star rating collapses within hours as a burst of a dozen or more fabricated one-star reviews appear at once, each describing specific but invented complaints, and shortly afterward the owner is contacted — usually through WhatsApp or another third-party messaging app, frequently from a number based in Pakistan or Bangladesh — with an offer to remove the fake reviews for a fee, along with a threat to add even more if the demand isn't paid. Los Angeles contractor Natalia Piper's previously spotless 5.0-star rating fell to 3.5 after 20 fake negative reviews hit her listing at once; she paid $250 across two payments trying to make them disappear, but the messages only stopped once she removed her cellphone number from her online listings, and Google eventually took the fake reviews down on its own. Paying rarely ends the scheme — it signals to the extortionist that the business owner is willing to pay, which tends to invite a repeat attack rather than resolve the first one. Google announced a dedicated reporting form for review-extortion attempts on November 7, 2025, alongside automated detection that can pause new reviews on a profile and alert the owner when it spots a sudden spike in spam reviews, and it advises business owners never to pay and instead to screenshot the fake reviews and any extortion messages before reporting the attack directly through Google's extortion-reporting form. This is a distinct scheme from a company suppressing its own negative reviews or buying fake positive ones — here, the business itself is the extortion victim, targeted by outside actors weaponizing its public review score against it.`,
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'high',
+    sources: ['Google', 'ConsumerAffairs'],
+    sourceUrl: 'https://blog.google/products-and-platforms/products/maps/new-ways-were-protecting-businesses-on-maps/',
+    country: 'US',
+    isHistorical: true,
+    firstRecorded: '2025-09-11',
+});
+
+UsGM.push({
+    name: 'IRS-Lookalike EIN Application Website Scam',
+    slug: 'irs-ein-lookalike-website-scam',
+    description: `Third-party websites with names like irs-ein.org, irs-ein-tax-id-number.com, and other domains that work "IRS" or "EIN" directly into their address copy the agency's seal, colors, and fonts, and even borrow the name of the IRS's own free "EIN Assistant" tool, to look like an official government portal for new business owners applying for an Employer Identification Number — a document any business, nonprofit, or trust can actually get directly from IRS.gov in a few minutes at no charge at all. After collecting a filer's name, address, Social Security number, and credit card number, these sites charge anywhere from about $79 to $300 to "process" the free federal form, and the Better Business Bureau has fielded complaints against sites including irs-ein.org describing consumers who paid and handed over personal information only to receive a fake or garbled EIN that a bank or state agency later rejected. The FTC issued a formal warning to the operators of these sites on April 1, 2025, and the BBB followed with its own consumer alert later that month, both stressing that the real IRS never charges anything for an EIN and that its only legitimate application tool lives on irs.gov. New business owners applying for an EIN are advised to type irs.gov directly into the browser's address bar rather than clicking a search ad or an emailed link, to confirm the address bar actually reads a genuine .gov domain before entering any personal or payment information, and to treat any EIN website that asks for a credit card number as a red flag on its own, since the real application has no fee to pay in the first place.`,
+    categorySlug: 'tax-scams',
+    alertLevel: 'medium',
+    sources: ['Federal Trade Commission', 'Better Business Bureau'],
+    sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2025/04/ftc-warns-operators-websites-charge-employer-identification-number-claim-affiliation-irs',
+    country: 'US',
+    isHistorical: true,
+    firstRecorded: '2025-04-01',
+});
