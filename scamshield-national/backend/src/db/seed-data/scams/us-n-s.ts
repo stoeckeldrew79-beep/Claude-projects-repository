@@ -6051,3 +6051,16 @@ UsNS.push({
     country: 'US',
     state: 'SC',
 });
+
+UsNS.push({
+    name: 'FBI Agent Impersonation "Illegal Gun Purchase" Scam Costs Granite Staters $1.7 Million',
+    slug: 'new-hampshire-fbi-agent-impersonation-illegal-gun-purchase-scam',
+    description: `The FBI's Boston Division has warned that a phone scam impersonating federal agents has cost New Hampshire residents approximately $1.7 million across nearly 150 victims, part of roughly $29 million lost across New England as of August 2026. The scam opens with a call, often displaying a spoofed FBI Boston phone number, from someone posing as a bank or financial institution representative who tells the victim their personal information was used to open an account and purchase illegal firearms. The call is then transferred to a second scammer posing as an FBI agent — complete with a fabricated name and badge number — who pressures the victim to move the conversation onto an encrypted messaging app, then uses threats tied to the fake gun-purchase investigation to extract money, Social Security numbers, or bank account information. "Real FBI agents will never call or email private citizens to demand payment or personal information, threaten arrest, or ask to speak on an encrypted app," said Ted Docks, special agent in charge of the FBI's Boston Division. Anyone who receives a call like this is advised to hang up immediately, independently look up and call the FBI's real Boston field office to verify any claim, and report the attempt to the FBI's Internet Crime Complaint Center at ic3.gov.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['FBI Boston Division', 'Keene Sentinel'],
+    sourceUrl: 'https://www.fbi.gov/contact-us/field-offices/boston/news/fbi-boston-warns-of-new-agent-impersonation-scam-spoofing-fbis-phone-number-before-urging-victims-to-switch-to-encrypted-application',
+    country: 'US',
+    state: 'NH',
+    firstRecorded: '2026-08-19',
+});

@@ -7557,3 +7557,27 @@ UsAF.push({
     state: 'CO',
     firstRecorded: '2025-06-04',
 });
+
+UsAF.push({
+    name: 'Fayetteville "Slipstream Creative" $6.1 Million Pandemic Loan Fraud (Welch and Youngblood)',
+    slug: 'arkansas-fayetteville-slipstream-creative-pandemic-loan-fraud',
+    description: `Fawaad Welch and Julia Youngblood ran Slipstream Creative, LLC, a Fayetteville, Arkansas advertising and marketing company, when they used it between May 2020 and October 2021 to defraud three separate pandemic-relief loan programs — the Small Business Administration's 7(a) program, its Economic Injury Disaster Loan (EIDL) program, and the Main Street Lending Program — out of more than $6.1 million by submitting false statements about the business's assets, liabilities, and how the borrowed money would be used, according to the U.S. Attorney's Office for the Western District of Arkansas. Within months of Slipstream Creative receiving $1.5 million in EIDL "working capital" funds, Welch transferred $1.3 million of it into the couple's personal bank account and used $445,000 of the loan proceeds to buy a home in Florida. Welch and Youngblood, both 41 and by then living in Florida, waived indictment and pleaded guilty in April 2025 — Welch to wire fraud and Youngblood to misprision of a felony — before U.S. District Judge Timothy L. Brooks. In August 2025, Welch was sentenced to eight years and one month in federal prison and Youngblood to one year and three months, and both were ordered to pay $6,131,511.16 in restitution. The case is a reminder that pandemic-relief loan fraud prosecutions did not end when the programs closed: the SBA's file on a business loan — including who actually controlled the account the money landed in — remains available to investigators years after the funds were disbursed and spent.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'medium',
+    sources: ["U.S. Attorney's Office for the Western District of Arkansas", 'Northwest Arkansas Democrat-Gazette'],
+    sourceUrl: 'https://www.justice.gov/usao-wdar/pr/florida-couple-sentenced-more-nine-years-combined-prison-scheming-defraud-pandemic',
+    country: 'US',
+    state: 'AR',
+});
+
+UsAF.push({
+    name: 'Skyline Healthcare Nursing Home Owner Medicaid Fraud and Tax Evasion (Joseph Schwartz)',
+    slug: 'arkansas-skyline-healthcare-schwartz-medicaid-fraud-tax-evasion',
+    description: `Joseph Schwartz, 72, of New York, was the principal owner and president of Skyline Healthcare, LLC, a company that operated multiple nursing homes across Arkansas, when, according to the Arkansas Attorney General's Medicaid Fraud Control Unit, he submitted false information to manipulate the Medicaid payment rates those facilities received. At the same time, Schwartz deducted payroll taxes from his nursing home employees' paychecks but failed to remit those withholdings to state tax authorities, and let facility expenses as basic as groceries and insurance premiums go unpaid. Schwartz pleaded guilty on April 30, 2025 to one count of Medicaid fraud, a Class B felony, and one count of attempting to evade or defeat tax, a Class C felony, and was sentenced the same day to 12 months in the Arkansas Department of Correction with an additional 48 months suspended imposition of sentence, plus a $2,000 fine and $1,801,620.53 in restitution. "Schwartz didn't just take advantage of our vulnerable population, he also preyed on Arkansans who worked in his facilities," Attorney General Tim Griffin said in announcing the conviction. The case illustrates that Medicaid fraud by a nursing home operator doesn't only inflate what a state program pays — the same scheme can mask a facility quietly skimping on the payroll withholdings, food, and insurance a resident's care actually depends on, which is why residents' families noticing unpaid vendors, missed paychecks, or declining conditions at a facility should treat it as a signal worth reporting to the state's Medicaid Fraud Control Unit, not just to the facility's own management.`,
+    categorySlug: 'healthcare-fraud',
+    alertLevel: 'medium',
+    sources: ['Arkansas Attorney General', 'Arkansas Medicaid Fraud Control Unit'],
+    sourceUrl: 'https://arkansasag.gov/news-release/new-york-man-convicted-of-medicaid-fraud-and-tax-evasion-will-pay-1-8-million-in-restitution/',
+    country: 'US',
+    state: 'AR',
+});
