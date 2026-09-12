@@ -1421,4 +1421,58 @@ export const SEED_GLOBAL_SOURCES: SeedGlobalSource[] = [
       "The DRC's postal and telecommunications regulator takes consumer complaints through an online form and a 155 call-center line, and publishes a Consumer Bulletin plus annual sector performance reports covering billing disputes and telecom fraud.",
     data_type: 'public_stats',
   },
+  {
+    agency_name: 'Czech Trade Inspection Authority (Česká obchodní inspekce)',
+    country: 'CZ',
+    country_name: 'Czechia',
+    url: 'https://coi.gov.cz/en/for-consumers/',
+    description:
+      "Czechia's market-surveillance authority handles consumer complaints and free alternative dispute resolution over goods and services, and publishes annual reports summarizing its inspection findings and enforcement activity.",
+    data_type: 'annual_report',
+  },
+  {
+    agency_name: 'Autorité de Régulation des Communications Électroniques et de la Poste (ARCEP Bénin)',
+    country: 'BJ',
+    country_name: 'Benin',
+    url: 'https://arcep.bj/',
+    description:
+      "Benin's telecom and postal regulator is the legally designated body for handling consumer complaints about electronic communications and postal services, publishing its complaint-filing channels (hotline, single-window, email) and consumer-rights guidance publicly.",
+    data_type: 'public_stats',
+  },
+  {
+    agency_name: 'Autorité de Réglementation des Communications Électroniques et des Postes (ARCEP Togo)',
+    country: 'TG',
+    country_name: 'Togo',
+    url: 'https://arcep.tg/consommateurs/protection-des-consommateurs/',
+    description:
+      "Togo's telecom and postal regulator handles consumer complaints against operators, including mobile-money and fraud-impersonation scams, and publishes periodic figures on complaint volumes and resolution rates broken down by operator.",
+    data_type: 'public_stats',
+  },
+  {
+    agency_name: 'Agence de Régulation et de Contrôle des Télécommunications (ARCT)',
+    country: 'BI',
+    country_name: 'Burundi',
+    url: 'https://arct.gov.bi/',
+    description:
+      "Burundi's telecommunications regulator is legally tasked with protecting service users and resolving disputes between operators and subscribers, publishing market-observatory statistics and annual reports on its site.",
+    data_type: 'public_stats',
+  },
+  {
+    agency_name: 'Financial Intelligence Agency of Liberia (FIA)',
+    country: 'LR',
+    country_name: 'Liberia',
+    url: 'https://www.fialiberia.gov.lr/',
+    description:
+      "Liberia's financial intelligence unit receives suspicious-transaction reports tied to fraud, money laundering, and other financial crime, and publishes periodic national and sector risk-assessment reports plus a public strategic plan.",
+    data_type: 'annual_report',
+  },
+  {
+    agency_name: 'Myanmar Financial Intelligence Unit (MFIU)',
+    country: 'MM',
+    country_name: 'Myanmar',
+    url: 'https://mfiu.gov.mm/en/about-mfiu',
+    description:
+      "Myanmar's financial intelligence unit receives and analyzes suspicious-transaction reports related to money laundering and fraud, publishing annual reports, statistics, and typology studies of financial-crime patterns.",
+    data_type: 'annual_report',
+  },
 ];
