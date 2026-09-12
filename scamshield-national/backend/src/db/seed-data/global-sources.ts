@@ -278,4 +278,85 @@ export const SEED_GLOBAL_SOURCES: SeedGlobalSource[] = [
       'Finland has no single dedicated scam-reporting portal — victims report to the police — but Statistics Finland publishes fraud and payment-card-fraud victim counts, broken down by age group, as part of its quarterly-and-annual "Offences and coercive measures" statistics sourced from police records.',
     data_type: 'annual_report',
   },
+  {
+    agency_name: 'Anti-Deception Coordination Centre (ADCC)',
+    country: 'HK',
+    country_name: 'Hong Kong',
+    url: 'https://www.adcc.gov.hk/en-hk/statistic.html',
+    description:
+      "The Hong Kong Police Force's dedicated anti-scam unit, under the Commercial Crime Bureau, operating since 2017 alongside the 24-hour Anti-Scam Helpline 18222. Publishes periodic statistics — case counts, monetary losses, and year-over-year changes — broken down by scam type (e-shopping, online investment, employment scams, phishing, telephone deception, and more).",
+    data_type: 'public_stats',
+  },
+  {
+    agency_name: 'National Police Agency — 165 Anti-Fraud Hotline',
+    country: 'TW',
+    country_name: 'Taiwan',
+    url: 'https://www.npa.gov.tw/ch/app/data/view?module=wg055&id=2213&serno=7fea48ff-5e04-4488-bf86-cab18412d282',
+    description:
+      "Taiwan's National Police Agency, Ministry of the Interior, runs the nationwide 165 Anti-Fraud Hotline and website for reporting scams. The NPA's statistics division separately publishes detailed crime-statistics tables, including fraud case counts, updated regularly and downloadable as PDF and spreadsheet files.",
+    data_type: 'public_stats',
+  },
+  {
+    agency_name: 'Anti-Online Scam Operation Center (AOC 1441)',
+    country: 'TH',
+    country_name: 'Thailand',
+    url: 'https://mdes.go.th/mission/detail/9122-Anti-Online-Scam-Operation-Center--AOC1441-',
+    description:
+      "A one-stop government center under Thailand's Ministry of Digital Economy and Society, run jointly with the Royal Thai Police, the Anti-Money Laundering Office, the Bank of Thailand, and telecom regulator NBTC. Operating the 1441 hotline since November 2023, it publishes operational figures — reports received, suspicious accounts suspended, and losses prevented — plus regular rundowns of the most common scam types.",
+    data_type: 'public_stats',
+  },
+  {
+    agency_name: 'CAI Virtual — Observatorio del Cibercrimen (DIJIN, Policía Nacional)',
+    country: 'CO',
+    country_name: 'Colombia',
+    url: 'https://caivirtual.policia.gov.co/observatorio',
+    description:
+      "Run by DIJIN, the Colombian National Police's criminal investigation directorate, CAI Virtual is the country's official portal for reporting cybercrime, including online fraud. Its Cybercrime Observatory publishes weekly threat bulletins and an annual cybercrime balance report ('Balance anual del cibercrimen') with case trends and figures.",
+    data_type: 'annual_report',
+  },
+  {
+    agency_name: 'Servicio Nacional del Consumidor (SERNAC)',
+    country: 'CL',
+    country_name: 'Chile',
+    url: 'https://www.sernac.cl/portal/619/w3-propertyvalue-20973.html',
+    description:
+      "Chile's National Consumer Service publishes research and complaint data on financial-market fraud, including a technical report analyzing payment-fraud typologies and periodic complaint-volume figures. Fraud-related complaints to SERNAC rose sharply after a 2024 law (Ley 21.673) shifted more liability for unauthorized transactions onto financial institutions.",
+    data_type: 'public_stats',
+  },
+  {
+    agency_name: 'Indonesia Anti-Scam Centre (IASC) — OJK',
+    country: 'ID',
+    country_name: 'Indonesia',
+    url: 'https://iasc.ojk.go.id/',
+    description:
+      "A public reporting portal run by Indonesia's Financial Services Authority (OJK) through its Satgas PASTI illegal-finance task force, launched in November 2024 to fast-track victims' fraud reports to banks and payment providers for rapid account freezing. OJK periodically releases aggregate figures on reports received, accounts blocked, and funds recovered through its press releases.",
+    data_type: 'public_stats',
+  },
+  {
+    agency_name: 'Adli Sicil ve İstatistik Genel Müdürlüğü — Adalet İstatistikleri',
+    country: 'TR',
+    country_name: 'Turkey',
+    url: 'https://adlisicil.adalet.gov.tr/Home/SayfaDetay/adalet-istatistikleri-yayin-arsivi',
+    description:
+      "Turkey's Ministry of Justice Directorate General of Judicial Records and Statistics publishes an annual \"Adalet İstatistikleri\" (Justice Statistics) report, in Turkish and English, covering prosecutorial case counts by offense — including dolandırıcılık (fraud), which recorded the sharpest year-on-year rise of any offense category in the 2024 edition.",
+    data_type: 'annual_report',
+  },
+  {
+    agency_name: 'National Scam Response Centre (NSRC) — NFCC',
+    country: 'MY',
+    country_name: 'Malaysia',
+    url: 'https://nfcc.jpm.gov.my/index.php/ms/nsrc',
+    description:
+      "Malaysia's National Anti-Financial Crime Centre (NFCC) coordinates the NSRC, a rapid-response hotline (997) run jointly with the Royal Malaysia Police, Bank Negara Malaysia, and communications regulator MCMC, to freeze funds from online financial scams. NFCC has no standing statistics page of its own; aggregate figures on calls handled and funds frozen are instead released periodically through the Ministry of Finance and national media (Bernama).",
+    data_type: 'public_stats',
+  },
+  {
+    agency_name: 'Økokrim (National Authority for Investigation and Prosecution of Economic and Environmental Crime)',
+    country: 'NO',
+    country_name: 'Norway',
+    url: 'https://www.okokrim.no/rapport-om-bedragerier.6399019-411472.html',
+    description:
+      "Norway's national economic-crime authority, part of the police and prosecution service, publishes a periodically updated fraud-threat report analyzing scam types — investment fraud, romance scams, director/invoice fraud — and issues press statements with year-on-year police-reported fraud figures; fraud has consistently made up over 80% of all recorded economic-crime reports in recent years.",
+    data_type: 'public_stats',
+  },
 ];
