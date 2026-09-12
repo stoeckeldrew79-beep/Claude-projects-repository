@@ -8715,6 +8715,51 @@ The individual case sits inside a much larger enforcement problem: after the 202
     country: "LV",
   },
   {
+    name: "Latvijas Krājbanka Collapse and Antonov Embezzlement Case",
+    slug: "latvia-krajbanka-collapse-antonov-embezzlement",
+    description:
+      "On November 21, 2011, Latvia's Financial and Capital Market Commission (FKTK) ordered Latvijas Krājbanka — the country's oldest commercial bank — to suspend all financial services after discovering a large shortage of client assets, and the Riga Regional Court declared the bank insolvent on December 23, 2011, with its banking license annulled the following May. The collapse was tied directly to the bank's Russian co-owner, Vladimir Antonov, and its president, Ivars Priedītis: investigators found the board had approved large loans to offshore companies believed to be controlled by Antonov, moving assets out of the bank with no reasonable expectation the loans would ever be repaid, and both men were charged with embezzling EUR 27 million along with abuse of power. Latvijas Krājbanka's failure was closely linked to the same year's collapse of its parent, Lithuanian lender Snoras Bank — also owned by Antonov, who fled first to the UK and then to Russia as Lithuanian prosecutors pursued him — after a hole of up to €1 billion was found in that group's finances. The criminal case took a decade to resolve: launched in 2011 and sent to trial in 2014, it ran through 55 hearings before the Riga City Vidzeme District Court convicted Antonov and Priedītis on all charges on August 19, 2021, sentencing Antonov to six years in prison and Priedītis to five, seizing both men's property, and ordering recovery of more than EUR 27 million for the bank's losses. As Latvia's oldest bank, Krājbanka's failure shocked ordinary depositors who had trusted its decades of apparent stability despite years of press scrutiny of Antonov's business dealings — a reminder that a bank's age and reputation are no substitute for its regulator's own findings on asset quality, which supervisory authorities like the FKTK publish and update as problems emerge.",
+    categorySlug: "investment-fraud",
+    sources: ["Latvian Public Broadcasting (LSM.lv)", "Financial and Capital Market Commission (FKTK)", "The Baltic Times"],
+    sourceUrl: "https://eng.lsm.lv/article/economy/banks/former-latvijas-krajbanka-board-members-get-prison-sentence.a417642/",
+    country: "LV",
+    isHistorical: true,
+    firstRecorded: "2011-11-21",
+  },
+  {
+    name: "\"False Employer\" Job-Offer Bank Account Takeover Scheme",
+    slug: "latvia-false-employer-job-offer-account-takeover",
+    description:
+      "Latvian Radio reported on July 12, 2023 that State Police and major banks were warning about a fraud scheme, not previously common in Latvia, in which criminals pose as employers rather than the more familiar fake tax-agency letters or courier text messages. The fraudsters search job-listing portals and social networks for people who have posted their own ads looking for work, then contact them pretending to represent a large, real company with a vacancy on offer — on condition that the applicant first open a new bank account, which the fraudsters say is needed for the job. Once the account is open, the criminals work to persuade the victim to hand over its access data; Citadele Bank's head of retail, Jānis Mūrnieks, said the bank had identified a pattern of cases where money from several different lenders was credited into a single customer's account in this way, meaning the victim's account was being used, unknowingly, to receive and move fraudulently obtained loan funds. As soon as fraudsters gain access, they replace all of the account's saved contact details, cutting the bank off from the real customer and forcing staff to do what Mūrnieks called \"detective work\" just to track the victim down; the fraudsters themselves communicate mainly by phone and are often not physically in Latvia at all. State Police spokeswoman Gita Gžibovska urged residents to check any such job offer carefully and never disclose information that would let someone else access a bank account, and to contact their bank first and then the police the moment they suspect they have encountered this or any other fraud scheme.",
+    categorySlug: "employment-scams",
+    alertLevel: "high",
+    sources: ["Latvian Radio (Latvijas Radio)", "Latvian Public Broadcasting (LSM.lv)", "State Police (Valsts policija)"],
+    sourceUrl: "https://eng.lsm.lv/article/society/crime/12.07.2023-latvian-authorities-warn-about-false-employer-fraud-scheme.a516183/",
+    country: "LV",
+  },
+  {
+    name: "Fake Police, Bank, and Mobile-Operator Courier Fraud in Līvāni and Preiļi",
+    slug: "latvia-livani-preili-police-courier-fraud",
+    description:
+      "Latvia's State Police reported on September 13, 2024 that two women in the Līvāni and Preiļi municipalities had lost a combined EUR 17,525.40 to fraudsters impersonating officials over the phone, and reminded the public that neither the State Police nor any other law-enforcement agency will ever call to ask for money. Between August 26 and September 6, 2024, a woman in Līvāni received a series of calls from fraudsters who presented themselves in turn as a mobile-network representative, a bank representative, and a State Police employee, gradually building her trust over the conversations; following their instructions, she withdrew funds from her bank account and handed them to a courier, for a total loss of EUR 8,800. In a separate case in Preiļi, a fraudster posing as a State Police officer persuaded a woman to transfer EUR 7,800 to a bank account he specified and to make a further purchase abroad worth EUR 925.40, for a total loss of EUR 8,725.40. Police opened two criminal proceedings over the incidents on charges of obtaining property through abuse of trust or deception, an offense carrying up to three years' imprisonment, and urged the public to hang up immediately on any such call, to never disclose bank access codes over the phone, and to warn elderly relatives specifically about the scheme, since both victims in this case were targeted through a slow-building, multi-call con rather than a single high-pressure demand.",
+    categorySlug: "government-impersonation",
+    alertLevel: "high",
+    sources: ["State Police (Valsts policija)", "Latvian Public Broadcasting (LSM.lv)"],
+    sourceUrl: "https://eng.lsm.lv/article/society/crime/13.09.2024-scammers-pretending-to-be-police-active-again-in-latvia.a568675/",
+    country: "LV",
+  },
+  {
+    name: "Facebook \"Psychic\" Curse-Removal Fraud",
+    slug: "latvia-facebook-psychic-curse-removal-fraud",
+    description:
+      "Latvia's State Police reported on August 18, 2026 that two women had together transferred more than EUR 150,000 to fraudsters after responding to advertisements for psychic services on Facebook. In one case, the self-described \"psychic\" offered psychological help along with a ritual to lift a curse; in the other, she promised a magical ritual that would sort out the victim's personal life. Over an extended period of ongoing communication with the fraudsters, the two women transferred and handed over EUR 118,000 and EUR 39,000 respectively — in one instance not only wiring money to bank accounts but also, on the fraudsters' instructions, placing cash inside a parcel locker and handing it over to a courier. Only after the promised rituals produced no results did the victims try to reach the \"psychics\" again, receiving no further reply, at which point they went to police; the State Police opened criminal proceedings on charges of large-scale fraud, an offense carrying two to ten years' imprisonment with possible confiscation of property. The case illustrates how a scam can be dressed up entirely outside the usual bank, government, or delivery-company disguises: an unsolicited social-media ad offering to lift a curse or fix a personal crisis for an escalating series of payments is, regardless of the spiritual framing, the same advance-fee structure investigators warn about in every other guise, and no legitimate service can make a specific promise about someone's personal life or luck in exchange for money sent to a stranger.",
+    categorySlug: "romance-scams",
+    alertLevel: "high",
+    sources: ["State Police (Valsts policija)", "Latvian Public Broadcasting (LSM.lv)"],
+    sourceUrl: "https://eng.lsm.lv/article/society/crime/19.08.2026-psychics-scam-two-women-for-over-150-thousand-euros-in-latvia.a659405/",
+    country: "LV",
+  },
+  {
     name: "Antony Linton Stewart Jamaica-Based Lottery Fraud Ring",
     slug: "jamaica-antony-stewart-lottery-fraud-ring-charlotte",
     description:
