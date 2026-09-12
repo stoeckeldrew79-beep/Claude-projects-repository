@@ -6606,3 +6606,17 @@ UsGM.push({
     isHistorical: true,
     firstRecorded: '2025-08-11',
 });
+
+UsGM.push({
+    name: 'Guam In-Home Caregiver Elder Financial Exploitation (Sinora John)',
+    slug: 'guam-sinora-john-caregiver-elder-financial-exploitation',
+    description: `An 81-year-old Guam woman who had been left bedridden after breaking her femur and suffering other fractures in April 2025 hired Sinora John, 42, to help with her daily care — an arrangement that gave John routine access to the woman's debit card and PIN. Police say that over the roughly 16 months that followed, John used that access to make repeated unauthorized ATM withdrawals, at times taking out as much as $900 in a single day, spending most of it on bingo. The victim did not discover the activity until August 15, 2026, when she retrieved her mail for the first time in more than a year and found bank statements showing withdrawals she had never made; bank records later confirmed total unauthorized withdrawals of $50,366.89. When confronted, John admitted to police that she knew the PIN and had used the card without permission for her own expenses, apologized, and offered to repay the money in installments. She was charged with elder financial exploitation — a felony that carries up to 20 years in prison under Guam law — along with identity theft and fraudulent use of a credit card, and was released on a $10,000 personal recognizance bond; she had no prior criminal record. The case illustrates how elder financial exploitation in Guam, as elsewhere, most often comes not from an anonymous scam call but from someone a vulnerable, homebound senior has come to depend on and trust for daily care, and how a lengthy gap in a victim's own mail or bank-statement review — here, more than a year — can let a caregiver's unauthorized withdrawals compound for months before anyone notices. Families with an elderly relative who relies on an in-home caregiver, especially one recovering from an injury that limits their ability to track their own finances, should arrange for a separate, uninvolved family member or a bank to review account statements regularly rather than leaving that oversight solely to the caregiver.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'medium',
+    sources: ['The Guam Daily Post (postguam.com)', 'The Daily Hodl'],
+    sourceUrl: 'https://dailyhodl.com/2026/08/27/over-50000-allegedly-drained-from-bedridden-elderly-womans-accounts-by-caretaker/',
+    country: 'US',
+    state: 'GU',
+    isHistorical: true,
+    firstRecorded: '2026-08-15',
+});
