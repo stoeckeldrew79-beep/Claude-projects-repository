@@ -8656,6 +8656,57 @@ The individual case sits inside a much larger enforcement problem: after the 202
     country: "JM",
   },
   {
+    name: "Nickoy Campbell Landover Hills Lottery Fraud Conspiracy",
+    slug: "jamaica-nickoy-campbell-landover-hills-lottery-fraud",
+    description:
+      "From at least October 2020 through February 2024, Nickoy Campbell, a Jamaican national, and co-conspirators including Landover Hills, Maryland brothers Wayne Henry and Dwayne Henry, ran a mail- and phone-based lottery fraud scheme that contacted victims and convinced them they had won millions of dollars in a lottery or sweepstakes, then told them they first had to send money to cover taxes and fees before the winnings could be released. According to the U.S. Attorney's Office for the District of Maryland, the conspiracy caused more than ten victims — several of them elderly people who lost much of their life savings — to send over $3 million in payments by wire transfer, gift card, cash, and other methods, with Campbell personally receiving more than $500,000 of the proceeds; the broader scheme he was charged alongside was tied to more than $9.5 million taken from victims nationwide. Campbell pleaded guilty to conspiracy to commit mail fraud, and on March 10, 2026, U.S. District Judge Brendan A. Hurson sentenced him to 42 months in federal prison plus three years of supervised release and ordered him to pay $3,074,765.28 in restitution; three co-conspirators had separately pleaded guilty and were awaiting sentencing at the time. U.S. Attorney Kelly O. Hayes pointed to the case in urging anyone contacted about lottery or sweepstakes winnings to remember that legitimate prizes never require the winner to pay taxes or fees in advance, and to report such calls to the National Elder Fraud Hotline rather than sending money.",
+    categorySlug: "lottery-sweepstakes-scams",
+    alertLevel: "high",
+    sources: ["U.S. Attorney's Office for the District of Maryland","Fox45 Baltimore (WBFF)","U.S. Immigration and Customs Enforcement (ICE)"],
+    sourceUrl: "https://foxbaltimore.com/news/local/maryland-lottery-fraud-scheme-jamaican-national-sentenced-prison",
+    country: "JM",
+    isHistorical: true,
+    firstRecorded: "2020-10-01",
+  },
+  {
+    name: "Jordan Trought International Sweepstakes Fraud Scheme",
+    slug: "jamaica-jordan-trought-sweepstakes-fraud-scheme",
+    description:
+      "From at least 2015 through 2025, Jordan Trought, a Jamaican national, ran his share of a sprawling sweepstakes fraud operation whose callers — using common American-sounding names — telephoned or texted mostly elderly victims across the United States to tell them they had won cash prizes and luxury cars from well-known sweepstakes companies, then said the winnings could not be released until the victim first paid supposed taxes or processing fees. Once a victim paid, the callers kept inventing further costs and pressed for additional payments by check, money order, cash, wire transfer, Zelle, and Venmo, and in some cases gained direct access to victims' bank accounts to transfer money out themselves; prosecutors with the U.S. Attorney's Office for the Southern District of New York said the funds were routed to associates and to a car business Trought operated in Jamaica. The scheme is estimated to have taken more than $9 million from over 200 elderly victims overall, with Trought personally tied to more than $6 million of that loss from over 100 of those victims. Trought pleaded guilty on June 1, 2026, to conspiracy charges tied to the scheme. \"Trought and his co-conspirators allegedly exploited trust, age, and hope for profit, including by taking control of victims' bank accounts,\" U.S. Attorney Jay Clayton said of the case, underscoring investigators' warning that no legitimate sweepstakes ever asks a winner to pay a fee or hand over banking access before releasing a prize.",
+    categorySlug: "lottery-sweepstakes-scams",
+    alertLevel: "high",
+    sources: ["U.S. Attorney's Office for the Southern District of New York","Internal Revenue Service Criminal Investigation (IRS-CI)"],
+    sourceUrl: "https://www.irs.gov/compliance/criminal-investigation/jamaican-national-pleads-guilty-to-role-in-international-sweepstakes-scam-that-stole-more-than-9-million-from-elderly-victims",
+    country: "JM",
+    isHistorical: true,
+    firstRecorded: "2015-01-01",
+  },
+  {
+    name: "Troy Williams Montego Bay Lottery Scam Network",
+    slug: "jamaica-troy-williams-montego-bay-lottery-scam-network",
+    description:
+      "A federal grand jury in Pittsburgh indicted seven people on December 18, 2023 — Jason Plummer, Troy Williams, and Tajay Singh of Jamaica, Tashane Murray and Daneil Reid of Florida, Clevon McKenzie of New York, and Gyzezll Byfield of Connecticut — on fraud and money-laundering charges over a lottery scam that used forged government documents to convince elderly victims across Western Pennsylvania and other states that they had won a multimillion-dollar sweepstakes and needed to pay upfront taxes and fees to collect it, with the U.S. Attorney's Office for the Western District of Pennsylvania putting confirmed losses at more than $2.8 million. Williams, 41, of Montego Bay, was found to have conspired in the scheme from approximately January 2019 to October 2023, with money from victims laundered through networks of money mules and bank accounts back to Jamaica; he was ultimately convicted of federal wire fraud and money laundering and, on July 21, 2026, was sentenced in federal court to 78 months in prison, with U.S. Attorney Troy Rivetti announcing the sentence. The investigation drew on the FBI, U.S. Postal Inspection Service, Homeland Security Investigations, the U.S. Marshals Service, and Jamaica's own Constabulary Force and National Intelligence Bureau, reflecting how deeply lottery-scam call centers in western Jamaica are woven into fraud aimed at American seniors — and prosecutors again stressed that a real sweepstakes never requires a winner to pay money upfront, no matter how official the paperwork used to demand it looks.",
+    categorySlug: "lottery-sweepstakes-scams",
+    alertLevel: "high",
+    sources: ["U.S. Attorney's Office for the Western District of Pennsylvania","WPXI Pittsburgh","Casino.org"],
+    sourceUrl: "https://www.wpxi.com/news/local/7-people-facing-federal-charges-connection-scam-targeting-elderly-western-pennsylvanians/RTJS5SVNHFGYLM4QYTXHSTNZMI/",
+    country: "JM",
+    isHistorical: true,
+    firstRecorded: "2019-01-01",
+  },
+  {
+    name: "Cash Plus Limited Ponzi Collapse",
+    slug: "jamaica-cash-plus-carlos-hill-ponzi-collapse",
+    description:
+      "Cash Plus Limited, an unregulated Jamaican \"investment club\" founded by Carlos Hill in 2002, drew in tens of thousands of ordinary Jamaicans by promising returns of up to 120 percent a year, paid out monthly at a rate of roughly 10 percent — a scale of return no legitimate business could sustain from real earnings. The scheme unraveled in early 2008 after Jamaica's Financial Services Commission demanded disclosure of its assets and finances; Hill announced a repayment schedule for mid-April 2008 but on April 9 admitted he could not source the money, and Cash Plus collapsed owing more than J$10 billion to over 40,000 investors, with the Office of the Government Trustee later calculating total claims at closer to J$19 billion. Hill was arrested on April 10, 2008, and in October 2009 was charged with 15 counts of fraudulently inducing people to invest, but the criminal case dragged on for nearly eight years through repeated adjournments as witnesses could not be located or refused to appear; on May 24, 2017, prosecutor Adley Duncan told the court the Crown could offer no evidence because essential witnesses had failed to show up, and Justice Chester Stamp directed the jury to return a formal verdict of not guilty, leaving Hill legally cleared and investors without either their money or a judicial finding of fraud. Cash Plus remains one of Jamaica's largest and most-cited financial collapses, and consumer advocates have pointed to it for years afterward as a warning that a fixed, above-market return with no clear underlying business — and no meaningful regulatory oversight — is a hallmark of a Ponzi scheme rather than a real investment, regardless of how many years it appears to pay out before collapsing.",
+    categorySlug: "ponzi-pyramid-schemes",
+    sources: ["Jamaica Gleaner","Jamaica Observer","Jamaica Star"],
+    sourceUrl: "http://past.jamaica-gleaner.com/article/news/20170524/cash-plus-boss-carlos-hill-walks-free-fraud-case-collapses",
+    country: "JM",
+    isHistorical: true,
+    firstRecorded: "2002-01-01",
+  },
+  {
     name: "Kuwait Ministry of Commerce Raffle Draw Manipulation Scheme",
     slug: "kuwait-raffle-draw-manipulation-scheme",
     description:
