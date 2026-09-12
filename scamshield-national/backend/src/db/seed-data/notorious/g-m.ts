@@ -8625,3 +8625,25 @@ Fabricating an account statement is common enough in investment fraud that regul
     sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26562',
   },
 );
+
+// No rights-cleared photo of Lusher has surfaced — searches of Wikimedia
+// Commons and news coverage turned up no mugshot or portrait, so this entry
+// relies on sourceUrl as the "read the full story" link instead of a photo.
+NotoriousGM.push(
+  {
+    title: 'Arsen Lusher and the Trucking Company That Ran on Doctored Bank Statements',
+    slug: 'arsen-lusher-trucking-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    body: `Arsen Lusher, 49, of Millstone, New Jersey, pitched investors on a business that sounded almost boring in its plausibility: a trucking company that already had contracts to make deliveries and installations for multiple large retailers, and just needed capital to buy more trucks. Investors who put money in, Lusher and his associates promised in signed written agreements, would see returns of 30 to 40 percent within one to two years — extraordinary for an ordinary logistics business, but not so extraordinary that it announced itself as fantasy the way a crypto or forex pitch might have.
+
+The trucking business investors were funding barely existed. According to the U.S. Attorney's Office for the Southern District of New York, Lusher's company had done less than $300,000 of actual work for a single large retailer, nowhere near the multi-contract operation he described to prospective investors. From at least 2017 through February 2021, prosecutors say Lusher and his associates raised roughly $40 million in investor money this way, from more than 20 victims, and ran it as a Ponzi scheme — using later investors' money to pay "returns" to earlier ones rather than buying the trucks the money was supposedly for. While the scheme ran, Lusher lived what prosecutors described as a lavish lifestyle, gambling away millions of dollars and shopping for luxury goods from brands including Louis Vuitton and Hermès.
+
+As the scheme began to collapse in late 2020 and early 2021, Lusher didn't stop soliciting money — he escalated the deception. Prosecutors say he doctored bank statements and altered bank emails to make account balances look 140 to more than 3,000 times larger than they actually were, in one instance changing a real balance of $8,767.26 to a fabricated $1,228,767.26 before sending it to a victim to keep them from asking questions or withdrawing funds. He also filed a falsified tax return in December 2020 as part of the broader effort to keep the operation's finances looking legitimate.
+
+Lusher was charged by criminal complaint with wire fraud and aggravated identity theft, and pleaded guilty on August 18, 2025 to one count of wire fraud. On April 24, 2026, U.S. District Judge Dale E. Ho sentenced him to 42 months in federal prison, followed by three years of supervised release, and ordered him to forfeit $8,740,440 and pay the same amount in restitution — the net losses investigators calculated after accounting for the Ponzi payments recycled back to earlier victims. "Lusher lied to victims about the nature of his business to line his own pockets," said then–U.S. Attorney Jay Clayton in announcing the sentence, adding a warning aimed at future investors: "A good rule of thumb for investors: no audit, no investment."
+
+Lusher's case is a reminder that a fraud doesn't need an exotic asset class to work — a small, real business with an inflated description of its own client list can be just as effective a lure as a fictional cryptocurrency, precisely because it sounds mundane enough not to trigger skepticism. And when a struggling scheme starts sending account statements with numbers that have jumped by a factor of a thousand overnight, that jump is not good news arriving early — it is usually the last thing an operator tries before investors start asking to see their money.`,
+    sourceUrl: 'https://www.irs.gov/compliance/criminal-investigation/new-jersey-man-sentenced-to-42-months-for-9-million-fraud',
+  },
+);
