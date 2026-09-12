@@ -6980,3 +6980,17 @@ UsGM.push({
     isHistorical: true,
     firstRecorded: '2023-08-15',
 });
+
+UsGM.push({
+    name: 'Winslow Bookkeeper Embezzlement (Sarah Nale)',
+    slug: 'maine-winslow-nale-bookkeeper-embezzlement',
+    description: `Sarah Nale, 49, of Winslow, Maine, worked for years as the sole bookkeeper shared by two connected Waterville-area businesses — a realty trust and a professional services firm — with unsupervised control over both entities' checkbooks. Between March 2012 and September 2022, Nale wrote large checks from the realty trust to the professional services firm and then wrote further checks to herself from that firm for amounts she was not owed, all while keeping a falsified checkbook ledger that made the fraudulent checks appear to be payments to legitimate vendors or her ordinary salary — a decade-long scheme that ultimately diverted $816,584.74. Following an investigation by the FBI and the Waterville Police Department, Nale pleaded guilty to wire fraud on August 5, 2024, and U.S. District Judge Stacey D. Neumann sentenced her on November 19, 2024 to nine months in federal prison followed by nine months of home confinement and two years of supervised release, along with more than $816,000 in restitution. The scheme went undetected for a decade specifically because Nale was the only person with day-to-day visibility into either business's books — a reminder that any small business or firm relying on a single bookkeeper across two or more related entities should have an outside accountant periodically reconcile the ledger against actual bank statements and vendor confirmations, rather than trusting the bookkeeper's own records at face value.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'medium',
+    sources: ["U.S. Attorney's Office, District of Maine", 'Federal Bureau of Investigation', 'WABI-TV'],
+    sourceUrl: 'https://www.wabi.tv/2024/11/19/winslow-woman-sentenced-wire-fraud-scheme/',
+    country: 'US',
+    state: 'ME',
+    isHistorical: true,
+    firstRecorded: '2012-03-01',
+});

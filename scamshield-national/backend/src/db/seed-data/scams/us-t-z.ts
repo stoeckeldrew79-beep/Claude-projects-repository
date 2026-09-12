@@ -3837,3 +3837,17 @@ UsTZ.push({
     isHistorical: true,
     firstRecorded: '2020-02-01',
 });
+
+UsTZ.push({
+    name: 'Burlington-Area ATM Counterfeit Debit Card Ring (Baaklini)',
+    slug: 'vermont-burlington-quebec-atm-counterfeit-debit-card-ring',
+    description: `At various times between March and October 2016, four Quebec residents — Mathieu Baaklini, 22, of Laval, along with Safwan Bensalma and Brandon Lo, also of Laval, and Nicolau Manfredi of Montreal — crossed the border into Vermont carrying stolen account numbers taken from mostly European and Canadian cardholders, encoded onto the magnetic stripes of ordinary gift cards to turn them into counterfeit ATM cards, then used NBT Bank and other ATMs in Burlington and Essex to withdraw cash advances before driving back to Canada. Agents later traced roughly $54,000 in fraudulent withdrawals to NBT Bank alone during a single stretch in August 2016, and estimated the ring's total activity could have reached as much as $250,000 across more than 70 financial institutions before the group was stopped at the Highgate Springs Port of Entry, where agents recovered a card-reading device, about 378 pre-loaded gift cards, and $33,000 in cash. Baaklini, identified as the group's leader, was sentenced in U.S. District Court in Rutland to 24 months in prison, three years of supervised release, and $99,448 in restitution; Bensalma, Lo, and Manfredi were each sentenced to time served and ordered to pay $10,000 in restitution. Assistant U.S. Attorney Kevin J. Doyle prosecuted the case, which was investigated by Homeland Security Investigations and U.S. Customs and Border Protection. The scheme is a reminder that a counterfeit card doesn't need to look like a real bank card to work at an ATM — any card with a compromised account number re-encoded onto its magnetic stripe, including an ordinary gift card, can be used to drain a stranger's account — and consumers should watch their own bank and card statements for unfamiliar cash-advance withdrawals, particularly from ATMs in cities they've never visited.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'medium',
+    sources: ["U.S. Attorney's Office, District of Vermont", 'VTDigger', 'U.S. Immigration and Customs Enforcement'],
+    sourceUrl: 'https://vtdigger.org/2017/12/28/canadian-ring-sentenced-phony-atm-card-fraud-vermont/',
+    country: 'US',
+    state: 'VT',
+    isHistorical: true,
+    firstRecorded: '2016-03-01',
+});
