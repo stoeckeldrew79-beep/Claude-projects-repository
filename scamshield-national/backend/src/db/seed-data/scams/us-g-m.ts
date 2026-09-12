@@ -6550,3 +6550,31 @@ UsGM.push({
     isHistorical: true,
     firstRecorded: '2024-11-19',
 });
+
+UsGM.push({
+    name: 'Guam Department of Revenue and Taxation IRS Stimulus Text Scam',
+    slug: 'guam-drt-irs-stimulus-text-scam',
+    description: `The Guam Department of Revenue and Taxation (DRT) warned residents on January 24, 2025 about a wave of fraudulent text messages impersonating the Internal Revenue Service that tell recipients they qualify for a $1,400 Economic Impact Payment — the same figure attached to a real, one-time IRS payment the agency had just finished sending at the end of 2024 to taxpayers who never claimed a 2021 Recovery Rebate Credit — and instruct them to click an embedded link to claim it. The links in the fraudulent messages are subtly altered to imitate a legitimate IRS or government web address and are built to harvest personal and financial information from anyone who follows them and enters their details. DRT Director Marie Lizama was blunt in warning residents against the scheme: "Do not let con artists use you for their financial gain, or to glean your personal information." The department stressed a key fact that undercuts the entire pitch: DRT itself is not issuing any Economic Impact Payments, since the federal government's last round of stimulus payments went out back in 2021, and confirmed it never initiates contact with taxpayers by text message to request sensitive information, bank account details, or updates on a refund's status. The real IRS overwhelmingly reaches taxpayers about legitimate issues by mailed letter, not by unsolicited text, so anyone receiving a text about an unclaimed stimulus payment should treat the "$1,400" figure as bait rather than confirmation the message is real. Guam residents who receive one of these texts are advised not to click the link, not to reply with any personal or financial information, and to contact DRT's Call Center at 671-635-1840, 1841, or 7651, or email pinadmin@revtax.guam.gov, with questions about their actual tax or refund status rather than trusting anything the text itself claims.`,
+    categorySlug: 'tax-scams',
+    alertLevel: 'medium',
+    sources: ['Department of Revenue and Taxation, Government of Guam', 'The Guam Daily Post (postguam.com)'],
+    sourceUrl: 'https://www.postguam.com/news/local/guam-residents-targeted-by-new-irs-text-scam/article_ee7b8752-da09-11ef-9691-ab6e11672bb9.html',
+    country: 'US',
+    state: 'GU',
+    isHistorical: true,
+    firstRecorded: '2025-01-24',
+});
+
+UsGM.push({
+    name: 'Guam Homeland Security Fake Prize, Amazon Order, and Flagged-SSN Phone Scam Alert',
+    slug: 'guam-ghs-ocd-prize-amazon-flagged-ssn-scam-alert',
+    description: `The Offices of Guam Homeland Security and Civil Defense (GHS/OCD), working with the Mariana Regional Fusion Center (MRFC), issued a consumer advisory on October 26, 2023 after fielding a spike in reports of local phone numbers receiving suspicious calls and text messages from a mix of local, domestic, and unfamiliar international area codes. The advisory grouped the complaints into several recurring scripts: callers falsely claiming the recipient placed a large Amazon order for electronics they never bought and must "confirm" or cancel it by sharing account details; fraudulent notices claiming the recipient has won a cash prize from a publisher's sweepstakes or lottery that can only be released after paying a "processing fee" or providing banking information; callers posing as government officials who claim the recipient's Social Security number has been "flagged" for suspicious activity and threaten enforcement action unless personal information is verified immediately; and offers to lower a credit card's interest rate, settle debt, or help pay a medical bill, each engineered to extract account numbers or an upfront fee. GHS/OCD noted that criminals increasingly use caller-ID spoofing technology to make these calls display a local Guam number or a legitimate-looking toll-free number even when the call actually originates overseas, so a familiar-looking number on the screen is not proof the caller is who they claim to be. The advisory's guidance was to never call back an unknown or suspicious number, to search online for the caller's name or number alongside terms like "scam" or "complaint" before responding, to avoid wiring money or sending gift cards under any circumstance, and to talk to a trusted family member or friend before acting on any unsolicited financial request. Residents who receive one of these calls or texts are asked to report it to the Mariana Regional Fusion Center at (671) 475-0400 or mrfc@ghs.guam.gov, including the date and time of contact, the caller ID and any callback number given, and the specific instructions the caller provided.`,
+    categorySlug: 'lottery-sweepstakes-scams',
+    alertLevel: 'medium',
+    sources: ['Guam Homeland Security and Civil Defense (GHS/OCD)', 'Mariana Regional Fusion Center', 'KUAM News'],
+    sourceUrl: 'https://ghs.guam.gov/community-advised-refrain-interacting-scam-messages-1',
+    country: 'US',
+    state: 'GU',
+    isHistorical: true,
+    firstRecorded: '2023-10-26',
+});

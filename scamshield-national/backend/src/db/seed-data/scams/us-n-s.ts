@@ -6390,3 +6390,17 @@ UsNS.push({
     isHistorical: true,
     firstRecorded: '2019-01-01',
 });
+
+UsNS.push({
+    name: 'U.S. Postal Inspection Service Package-Tracking Smishing Alert for Guam and Saipan',
+    slug: 'northern-mariana-islands-uspis-package-smishing-alert',
+    description: `The U.S. Postal Inspection Service (USPIS) issued a public warning on November 3, 2023 after fraud complaints from Guam and Saipan rose sharply over a wave of unsolicited text messages impersonating the U.S. Postal Service. The texts falsely claim a USPS delivery is being held pending some action from the recipient — commonly a supposedly unpaid redelivery fee or an address confirmation — and include a link that leads to a fake USPS-branded page built to harvest personally identifiable information, including usernames, passwords, Social Security numbers, dates of birth, and payment card numbers, a tactic USPIS calls "smishing" (SMS phishing). Once a victim enters this information, it can be sold or used directly for identity theft and further financial fraud, and simply tapping the link can also expose a phone to malware. USPIS's advisory reminded residents across the CNMI and Guam that the real Postal Service does not send unsolicited texts demanding payment or personal information to release a package, and that a legitimate delivery issue is tracked through informed-delivery notifications set up directly with USPS or a tracking number the sender already provided — never through a surprise text with an unfamiliar link. Anyone who receives one of these messages is advised to delete it without clicking the link, and, to report it, to take a screenshot including the sender's phone number and forward the details — name, date received, whether the link was clicked, what information (if any) was shared, and any monetary loss — to spam@uspis.gov, or to contact the Postal Inspection Service directly at (877) 876-2455 or uspis.gov; suspected fraud can also be reported to the Federal Trade Commission at ftc.gov/complaint or the FBI's Internet Crime Complaint Center at ic3.gov/complaint.`,
+    categorySlug: 'package-delivery-scams',
+    alertLevel: 'medium',
+    sources: ['U.S. Postal Inspection Service', 'The Guam Daily Post (postguam.com)'],
+    sourceUrl: 'https://www.postguam.com/news/local/postal-inspection-service-warns-against-smishing-scams-as-complaints-rise-in-guam-and-saipan/article_a58412f8-79e3-11ee-8aa3-c7b43c998599.html',
+    country: 'US',
+    state: 'MP',
+    isHistorical: true,
+    firstRecorded: '2023-11-03',
+});

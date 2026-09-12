@@ -2769,3 +2769,25 @@ Camarda's case is a reminder that "safe" and "conservative" are marketing words,
     sourceUrl: "https://www.justice.gov/usao-edny/pr/long-island-investment-advisor-pleads-guilty-160-million-investment-fraud",
   },
 );
+
+// This is a civil consumer-protection matter resolved by consent judgment,
+// with no individual principal of White Tanks Group named in the public
+// record and no criminal charges reported — the company itself is the
+// subject here. No rights-cleared photo exists, so sourceUrl links to the
+// Attorney General's settlement page instead.
+NotoriousTZ.push(
+  {
+    title: 'VetLink Solutions and the Veterans Disability Claims the VA Told It Twice to Stop Filing',
+    slug: 'vetlink-solutions-veterans-disability-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious'],
+    body: `White Tanks Group LLC, doing business as VetLink Solutions, built a nationwide advertising business around a real and painful problem: veterans who believe the VA has under-rated their service-connected disability, and who don't know how to fight for a higher rating on their own. From approximately January 2019 through March 13, 2024, according to the Arizona Attorney General's Office, VetLink advertised that it could guide veterans through the disability-benefits claims process and deliver "unrealistic increases in benefits" — without disclosing that only accredited Veterans Service Organizations and VA-accredited representatives are legally authorized to charge for that kind of claims assistance in the first place, and that federal law generally bars charging a contingency fee tied to how much a veteran's benefits go up.
+
+VetLink charged them anyway. The Arizona Attorney General's lawsuit alleged the company used a contingency-fee structure explicitly built around a veteran's increased disability payments, with some individual fees reaching as high as $12,000. The U.S. Department of Veterans Affairs sent VetLink two separate cease-and-desist letters over its practices; according to the Attorney General's office, the company kept operating and kept charging veterans regardless, until it finally ceased operations on its own in 2024.
+
+Arizona Attorney General Kris Mayes sued VetLink and its principals under the state's Consumer Fraud Act, and the case was resolved by a Consent Judgment filed in Maricopa County Superior Court and entered by the court in June 2026. Under its terms, VetLink paid $1.2 million into a consumer restitution fund for eligible veterans who paid the company's consulting fees between January 2019 and March 13, 2024, plus $700,000 in civil penalties directed to Arizona's Consumer Protection–Consumer Fraud Revolving Fund and $50,000 toward the state's attorneys' fees and costs — a total of nearly $1.95 million. The judgment permanently bars VetLink and its principals from misleading consumers about any affiliation with the VA, or about their authority to prepare, present, or prosecute VA benefits claims, unless they actually hold VA accreditation. "Veterans deserve trusted assistance — not deceptive sales tactics," Mayes said in announcing the settlement. "My office will continue to hold accountable anyone who tries to take advantage of our veterans." A claims administrator has been distributing restitution to affected veterans directly, with any funds left over after Arizona claims sent to eligible veterans in other states.
+
+VetLink's case is a reminder that a company doesn't need to invent a fake product to defraud people — it can take a service that legitimate, free, VA-accredited advocates already provide, dress it up as premium expertise, and charge disabled veterans thousands of dollars for something the law says they should never have had to pay for at all. Two direct warnings from the federal agency whose rules the company was violating weren't enough to stop it; it took a state attorney general's lawsuit and a court judgment to do that.`,
+    sourceUrl: 'https://www.azag.gov/vetlink',
+  },
+);
