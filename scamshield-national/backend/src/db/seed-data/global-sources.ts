@@ -836,4 +836,58 @@ export const SEED_GLOBAL_SOURCES: SeedGlobalSource[] = [
       "Zambia's dual-mandate competition and consumer-protection commission investigates consumer complaints and unfair trading practices, and publishes an annual report on its enforcement, complaint-resolution, and consumer-education activity.",
     data_type: 'annual_report',
   },
+  {
+    agency_name: 'Commission de Surveillance du Secteur Financier (CSSF) — Warnings',
+    country: 'LU',
+    country_name: 'Luxembourg',
+    url: 'https://www.cssf.lu/en/warnings/',
+    description:
+      "Luxembourg's financial-sector regulator maintains a continuously updated, publicly searchable list of warnings against unauthorised entities and suspected investment or financial fraud, alongside a register of legitimately licensed firms that the public can check a suspicious company or website against.",
+    data_type: 'public_stats',
+  },
+  {
+    agency_name: 'Trinidad and Tobago Cyber Security Incident Response Team (TT-CSIRT)',
+    country: 'TT',
+    country_name: 'Trinidad and Tobago',
+    url: 'https://ttcsirt.gov.tt/statistics/',
+    description:
+      "Trinidad and Tobago's national CSIRT, under the Ministry of National Security, takes public reports of cyber incidents including phishing and online fraud, and publishes a statistics page breaking down officially reported incidents by category and year (91 incidents reported in 2025, nearly 70% phishing and business email compromise).",
+    data_type: 'public_stats',
+  },
+  {
+    agency_name: 'Financial Investigations Division (FID)',
+    country: 'JM',
+    country_name: 'Jamaica',
+    url: 'https://www.fid.gov.jm/publications/reports/',
+    description:
+      "Jamaica's Financial Investigations Division, under the Ministry of Finance and the Public Service, investigates money laundering, tax, and other financial crimes, and publishes a series of yearly annual reports plus typology reports describing emerging fraud patterns such as refund and chargeback fraud.",
+    data_type: 'annual_report',
+  },
+  {
+    agency_name: 'Dirección de Atención y Asistencia al Consumidor (DIACO)',
+    country: 'GT',
+    country_name: 'Guatemala',
+    url: 'https://diaco.gob.gt/',
+    description:
+      "Guatemala's national consumer-protection agency, part of the Ministry of Economy, takes consumer complaints online, by phone, and in person, and publishes a statistical report ('Reporte Estadístico') on complaint volume alongside consumer alerts about scams and fraudulent practices.",
+    data_type: 'public_stats',
+  },
+  {
+    agency_name: 'Defensoría del Consumidor',
+    country: 'SV',
+    country_name: 'El Salvador',
+    url: 'https://www.defensoria.gob.sv/',
+    description:
+      "El Salvador's national consumer-protection ombudsman investigates consumer complaints and fraud against consumers, and regularly publishes case-volume and recovery figures — over 24,000 annual complaints and millions of dollars recovered for consumers in recent reporting periods.",
+    data_type: 'public_stats',
+  },
+  {
+    agency_name: 'Namibia Financial Institutions Supervisory Authority (NAMFISA)',
+    country: 'NA',
+    country_name: 'Namibia',
+    url: 'https://www.namfisa.com.na/',
+    description:
+      "Namibia's non-banking financial-sector regulator publishes yearly annual reports and quarterly statistical bulletins that include consumer-complaint figures by sector (insurance, pension funds, micro-lending), and issues public notices warning consumers about specific scams targeting financial-services customers.",
+    data_type: 'annual_report',
+  },
 ];
