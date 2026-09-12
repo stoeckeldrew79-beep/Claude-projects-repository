@@ -2172,7 +2172,7 @@ If you've been treated at an oncology or specialty clinic, or if your care invol
   },
   {
     title: "The Heights Finance Data Breach: When a Loan Company's Cloud Storage Exposed Over a Million Borrowers' Social Security Numbers",
-    slug: "heights-finance-2026-data-breach-guide",
+    slug: "heights-finance-2026-data-breach-social-security-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "heights-finance-2026-data-breach"],
     body: `Heights Finance is a consumer installment loan company that has operated across the South and Midwest since 1953, running more than 400 branch offices in eleven states — Alabama, Georgia, Illinois, Indiana, Kentucky, Missouri, Oklahoma, South Carolina, Tennessee, Texas, and Wisconsin — that make small personal loans to borrowers who often lack easy access to a traditional bank or credit union. That customer base is part of what makes the company's 2026 data breach worth paying attention to even if you've never heard the Heights Finance name: it specifically serves people with thinner credit files, for whom a stolen Social Security number can do outsized damage precisely because they have less existing credit history to help them catch fraud early.
