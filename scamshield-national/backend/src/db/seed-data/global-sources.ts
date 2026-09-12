@@ -1376,4 +1376,49 @@ export const SEED_GLOBAL_SOURCES: SeedGlobalSource[] = [
       "Venezuela's national regulator for fair prices and socioeconomic rights conducts inspections against speculation, hoarding, and commercial fraud, and operates a public complaints portal (denuncias.sundde.gob.ve) alongside a toll-free citizen hotline.",
     data_type: 'public_stats',
   },
+  {
+    agency_name: 'Ethiopian Capital Market Authority (ECMA)',
+    country: 'ET',
+    country_name: 'Ethiopia',
+    url: 'https://ecma.gov.et/complaint/',
+    description:
+      "Ethiopia's capital-markets regulator, set up in 2021 alongside the country's first securities exchange, runs an online complaint portal for reporting market manipulation, insider trading, and fraudulent investment schemes, and publishes public warnings on unlicensed investment scams.",
+    data_type: 'public_stats',
+  },
+  {
+    agency_name: 'Iraq Securities Commission (ISC)',
+    country: 'IQ',
+    country_name: 'Iraq',
+    url: 'https://www.isc.gov.iq/en/reports/yearly',
+    description:
+      "Iraq's independent capital-markets regulator publishes yearly and quarterly reports on Iraq Stock Exchange trading activity and its own enforcement work, alongside public warnings about unlicensed firms and investment scams targeting Iraqi investors.",
+    data_type: 'annual_report',
+  },
+  {
+    agency_name: 'Bhutan InfoComm and Media Authority (BICMA)',
+    country: 'BT',
+    country_name: 'Bhutan',
+    url: 'https://www.bicma.gov.bt/',
+    description:
+      "Bhutan's converged telecom and media regulator takes public complaints through an online ICT complaint form and, in response to a rise in digital fraud, has tightened SIM-registration rules and directed operators to block scam-linked mobile numbers.",
+    data_type: 'public_stats',
+  },
+  {
+    agency_name: "Central Bank of Sudan — Banks' Customers Protection Section",
+    country: 'SD',
+    country_name: 'Sudan',
+    url: 'https://cbos.gov.sd/en/content/customer-service-0',
+    description:
+      "Sudan's central bank runs a dedicated section that receives and resolves bank customers' complaints, including disputes over fraud and unauthorized transactions, and separately issues public warnings against unlicensed financial apps and platforms.",
+    data_type: 'public_stats',
+  },
+  {
+    agency_name: 'Autorité de Régulation de la Poste et des Télécommunications du Congo (ARPTC)',
+    country: 'CD',
+    country_name: 'Democratic Republic of the Congo',
+    url: 'https://arptc.gouv.cd/',
+    description:
+      "The DRC's postal and telecommunications regulator takes consumer complaints through an online form and a 155 call-center line, and publishes a Consumer Bulletin plus annual sector performance reports covering billing disputes and telecom fraud.",
+    data_type: 'public_stats',
+  },
 ];
