@@ -3628,3 +3628,17 @@ UsTZ.push({
     isHistorical: true,
     firstRecorded: '2026-01-23',
 });
+
+UsTZ.push({
+    name: 'St. Croix Elder Debit Card Financial Exploitation (Cavell Dickenson)',
+    slug: 'virgin-islands-dickenson-debit-card-financial-exploitation',
+    description: `The Virgin Islands Police Department's Economic Crimes Unit on St. Croix opened an investigation on August 20, 2025 after a complainant reported that Cavell N. Dickenson, then 63, had taken two of the complainant's Visa debit cards and, on several separate occasions, used them to make purchases and cash withdrawals the complainant never authorized, for Dickenson's own benefit. Investigators put the total loss at $21,496.00. VIPD detectives served Dickenson with an arrest warrant on May 6, 2026, charging her with Obtaining Money by False Pretense, Grand Larceny, Fraudulent Use of a Credit Card, Access to a Computer for Fraudulent Purposes, and Financial Exploitation of an Elderly Person or Dependent Adult — the last charge reflecting investigators' finding that the victim qualified for that heightened protection under territory law. Bail was set at $20,000; Dickenson posted the ten-percent cash alternative of $2,000 and was released pending her Advice of Rights hearing. VIPD did not publicly disclose how Dickenson came to have physical possession of the victim's cards, but the elder-exploitation charge underscores a pattern seen across similar cases: someone who has been given or gained routine access to a vulnerable person's physical debit card can keep making unauthorized charges for months before the account holder, or a family member reviewing statements, notices the drain. Families of an elderly or dependent relative can guard against this by keeping a second, independent person checking monthly card and bank statements, and by reporting unauthorized card use to VIPD's Economic Crimes Unit — (340) 774-3942 on St. Thomas or (340) 778-1001 on St. Croix — as soon as it is discovered rather than assuming a relative or caregiver with the card has permission to use it.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'medium',
+    sources: ['Virgin Islands Police Department (VIPD)', 'St. Thomas Source', 'St. John Source'],
+    sourceUrl: 'https://vipd.vi.gov/news/economic-crimes-investigation-led-to-arrest-of-63-year-old-woman-in-21k-debit-card-fraud-case/',
+    country: 'US',
+    state: 'VI',
+    isHistorical: true,
+    firstRecorded: '2025-08-20',
+});
