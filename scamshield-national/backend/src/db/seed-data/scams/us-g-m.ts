@@ -6648,3 +6648,45 @@ UsGM.push({
     isHistorical: true,
     firstRecorded: '2024-12-18',
 });
+
+UsGM.push({
+    name: 'Ludlow Bank Manager Embezzlement Scheme (Reagan France)',
+    slug: 'kentucky-ludlow-reagan-france-bank-manager-embezzlement',
+    description: `Reagan France, 36, the branch manager of Home Savings Bank in Ludlow, Kentucky and a former two-term Bromley City Council member, agreed to plead guilty on September 11, 2026 to bank fraud, theft by a bank employee, and aggravated identity theft after admitting she embezzled roughly $335,182.42 from more than 20 customer accounts — including two nonprofit organizations where she personally volunteered — between at least 2022 and 2024. According to the plea agreement filed in U.S. District Court for the Eastern District of Kentucky, France exploited her access as branch manager by logging in under another bank employee's credentials and creating forged cash-withdrawal slips, then shuffling money between customer accounts to disguise the thefts as ordinary transactions rather than moving stolen funds directly to herself. She agreed to pay at least $250,000 in restitution — offset by roughly $173,712.81 already recovered — plus a $76,287.19 forfeiture judgment, and her sentencing, set for January 13, 2027, will include a mandatory two-year prison term for the aggravated identity theft charge that must run consecutively to any other sentence. "When a bank employee paid to protect customers' money instead uses their position to steal from them, meaningful accountability is necessary," said Kentucky Attorney General Russell Coleman, whose office partnered with U.S. Attorney Jason Parman's on the case; Parman added that "financial crimes committed from a position of trust will be investigated and prosecuted, and those who exploit that trust for personal gain will be held accountable." The case underscores that account statements should be checked regularly even when a bank employee is trusted or personally known — France's access to customer PINs, credentials, and account numbers as a manager was itself what made concealing the embezzlement across dozens of accounts possible for roughly two years, including from nonprofits she volunteered for that had every reason to trust her.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'medium',
+    sources: ["Kentucky Attorney General's Office", 'U.S. Attorney\'s Office, Eastern District of Kentucky', 'NKyTribune'],
+    sourceUrl: 'https://nkytribune.com/2026/09/attorney-general-coleman-u-s-attorney-parman-announce-guilty-plea-by-nky-ludlow-bank-manager/',
+    country: 'US',
+    state: 'KY',
+    isHistorical: true,
+    firstRecorded: '2026-09-11',
+});
+
+UsGM.push({
+    name: 'Shepherdsville Private Trading Platform Investment Fraud (Stacy Allen Taylor)',
+    slug: 'kentucky-shepherdsville-stacy-allen-taylor-trading-platform-fraud',
+    description: `Stacy Allen Taylor, 59, of Shepherdsville, Kentucky, was sentenced on August 11, 2026 to nine years in federal prison after pleading guilty to conspiracy to commit wire fraud, two counts of wire fraud, and four counts of engaging in monetary transactions involving criminally derived property exceeding $10,000, in connection with an international scheme that defrauded more than 40 victims out of over $23.6 million. Taylor and his co-conspirators told victims their money would be pooled into a limited-access "private trading platform" that could generate outsized returns unavailable to ordinary investors, with individual victims typically persuaded to put in between roughly $1 million and $2 million apiece; most lost their entire investment, and the U.S. Attorney's Office for the Western District of Kentucky said the case was a continuation of Taylor's fraud history — he had previously served about 45 months in federal prison after a 2014 guilty plea for running an illegal online pharmacy that unlawfully distributed controlled prescription drugs and generated more than $790,000 in illegal proceeds. Prosecutors described Taylor as a repeat offender whose renewed fraud caused significant harm to dozens of victims, and the court ordered him to pay restitution in addition to the nine-year sentence. The case is a reminder that a "private" or "exclusive" trading platform closed off from ordinary public markets is itself a red flag rather than a mark of legitimacy — a real investment adviser or broker-dealer can be verified through SEC or FINRA's public registration databases, and any platform that claims to be too exclusive for that kind of independent verification should be treated as a likely fraud regardless of how large or credible-seeming the other investors appear to be.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office, Western District of Kentucky", 'WDRB', 'WAVE 3 News'],
+    sourceUrl: 'https://www.justice.gov/usao-wdky/pr/shepherdsville-man-sentenced-9-years-federal-prison-multi-million-dollar-investment',
+    country: 'US',
+    state: 'KY',
+    isHistorical: true,
+    firstRecorded: '2026-08-11',
+});
+
+UsGM.push({
+    name: 'Maine Department of Corrections Fraudulent Supply Order Kickback Scheme (Gerald Merrill and Melanie High)',
+    slug: 'maine-department-of-corrections-merrill-high-kickback-scheme',
+    description: `Gerald Merrill, 64, of Abbot, Maine, spent nearly a decade — from March 2014 through July 2023 — as deputy superintendent and business manager for Mountain View Correctional Facility in Charleston and Downeast Correctional Facility in Machiasport, using a state credit card to run up close to $2.4 million in purchases from businesses controlled by Melanie High, 70, of Fort Lauderdale, Florida. Many of the items were billed as "special order" maintenance and facility supplies that were either never delivered at all or charged at deliberately inflated prices, and High funneled more than $500,000 of the proceeds back to Merrill as kickbacks. Both were charged with theft by unauthorized taking and bribery; High pleaded guilty first, on November 3, 2025, and Merrill followed on March 16, 2026. A Penobscot County Superior Court judge sentenced Merrill on May 12, 2026 to 10 years in prison with all but 5 years suspended, plus 3 years of probation and $502,130 in restitution to the Maine Department of Corrections; High was sentenced on June 8, 2026 to 6 months in prison and 2 years of probation, and ordered to pay $100,000 in restitution, of which she had already repaid $25,000. At sentencing, High told the court, "I'm truly sorry. I take full responsibility for my actions and I regret the decisions I have made." The scheme ran undetected for years in part because the same official who approved the purchases also controlled the paperwork verifying they were needed and received — a reminder that public agencies handling significant procurement spending need delivery verification and invoice review performed by someone other than the employee who initiates and approves the purchase, and that a "special order" designation used to justify prices or products that can't easily be checked against a normal catalog is itself worth independent scrutiny.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'medium',
+    sources: ['Maine Department of Corrections', 'Bangor Daily News', 'Portland Press Herald'],
+    sourceUrl: 'https://www.wabi.tv/2026/05/12/former-corrections-administrator-sentenced-theft-bribery/',
+    country: 'US',
+    state: 'ME',
+    isHistorical: true,
+    firstRecorded: '2026-05-12',
+});
