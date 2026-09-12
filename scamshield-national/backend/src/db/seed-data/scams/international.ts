@@ -16948,3 +16948,46 @@ International.push(
     sourceUrl: 'https://tyomarkkinatori.fi/en/news/varoitus_huijausviesteista_tyollisyyspalveluiden_nimissa',
   },
 );
+
+International.push(
+  {
+    name: 'Fake Central Bank "500,000 GNF a Day" Recruitment Scam',
+    slug: 'guinea-bcrg-fake-recruitment-ad-scam',
+    description: `Fraudulent job advertisements bearing the logo of the Banque Centrale de la République de Guinée (BCRG) began circulating widely on social media in June 2026, dangling a daily wage of 500,000 Guinean francs (roughly US$55-60) for a position that required no diploma and no prior experience, with "recruitment" conducted entirely through WhatsApp rather than any formal application process. The BCRG issued a public communiqué dated Conakry, June 29, 2026, stating flatly that "Aucune offre d'emploi de ce type n'a été publiée par la Banque Centrale" ("No job offer of this kind has been published by the Central Bank"), and warned the public that the campaign was a case of identity theft carried out purely to defraud jobseekers. The bank explained that its genuine recruitment notices appear exclusively on its own official website, www.bcrg-guinee.org, and through major national media outlets, and that it never hires through WhatsApp or private messaging of any kind. The BCRG urged anyone who encountered the fake ad to ignore it entirely, never share identification documents, phone numbers, or bank account details with the people behind it, and never send any money, while warning that it would pursue legal action against those responsible for misusing its name and image.`,
+    categorySlug: 'employment-scams',
+    alertLevel: 'high',
+    sources: ['Banque Centrale de la République de Guinée (BCRG)', 'Bambouguinée'],
+    sourceUrl: 'https://bambouguinee.com/2026/06/29/attention-fausse-offre-demploi-bcrg-a-500-000-gnf-par-jour-la-banque-centrale-de-guinee-met-en-garde-contre-une-arnaque/',
+    country: 'GN',
+  },
+  {
+    name: '"LKY"/McGivern Crypto-Trading Ponzi Platform Scam',
+    slug: 'guinea-lky-mcgivern-crypto-ponzi-scam',
+    description: `Hundreds of Guineans lost money through a wave of online crypto-trading platforms — including one called LKY, also marketed as LuckyCoin, and another called McGivern, which stopped operating on August 10, 2026 — that promoted themselves through WhatsApp, Telegram, and Facebook with promises of rapid, high investment returns. Victims described placing anywhere from a few hundred to several thousand euros' worth of Guinean francs into the platforms; one investor said he placed more than 10 million Guinean francs (roughly €1,000) only to be told the platform now demanded an additional $1,000 in "verification fees" before his funds could be unlocked — money that, once sent, does not free up the original deposit either. The Banque Centrale de la République de Guinée (BCRG) responded with a communiqué dated August 6, 2026 stating that crypto-assets such as Bitcoin are "not legal currency" in Guinea and are "neither regulated nor guaranteed by the Central Bank or any public authority," and that it has granted no licence or authorization to any company, entity, or individual to collect public funds or offer cryptocurrency investment or trading services in the country, calling such activity "absolute illegality." The bank said some of the schemes bear the hallmarks of Ponzi structures, in which "early investors are paid using money from new subscribers" until the flow of new money dries up and the scheme collapses, leaving later investors with nothing. The BCRG issued firm instructions to Orange Money and other electronic-money and payment-service operators to identify, block, and report accounts used to move funds tied to this fraud, and referred the matter to judicial authorities, while urging the public never to transfer money to an unapproved investment scheme and to verify that any platform soliciting deposits actually holds BCRG authorization first.`,
+    categorySlug: 'cryptocurrency-scams',
+    alertLevel: 'critical',
+    sources: ['Banque Centrale de la République de Guinée (BCRG)', 'Cryptoast', 'Guineenews'],
+    sourceUrl: 'https://cryptoast.fr/guinee-arnaque-crypto-centaines-victimes/',
+    country: 'GN',
+  },
+  {
+    name: 'Dabompa "QNet Infinity"-Style Investment Ring Raid',
+    slug: 'guinea-dabompa-qnet-style-investment-ring-raid',
+    description: `Guinea's Compagnie d'intervention de la Police aux frontières (CIPAF), backed by the Brigade de sécurité et d'intervention de la police (BSIP), raided a suspected fraudulent investment network operating out of Dabompa Plateau 1 in the Tombolia commune on Monday, July 27, 2026, arresting 57 people, including two suspected ring leaders. The operation was triggered after a single victim came forward to report the scheme, and police said the group's method of operation "présente des similitudes avec celui de QNet Infinity" (shows similarities with that of QNet Infinity) — a multi-level marketing operation already tied to earlier fraud cases in Guinea, where recruits are drawn in with promises of large returns for enrolling others rather than for any genuine product or service. Searches turned up payment registers, bank cards, travel documents, computers, a vehicle, and three motorcycles, all seized as evidence. The case was referred to the prosecutor's office, with suspects facing potential charges of fraud and complicity in fraud, and the investigation continuing to identify additional victims and any remaining organizers. Guinean authorities' standing advice on this style of scheme is to treat any "investment" opportunity that pays members mainly for recruiting new participants — rather than from the sale of a real product — as a pyramid scheme bound to collapse, and to report suspected recruitment of this kind to the police rather than paying an entry fee to join.`,
+    categorySlug: 'ponzi-pyramid-schemes',
+    alertLevel: 'high',
+    sources: ['Guineesignal', 'Police nationale de Guinée'],
+    sourceUrl: 'https://www.guineesignal.com/2026/07/29/guinee-la-police-nationale-frappe-un-presume-reseau-dinvestissement-frauduleux/',
+    country: 'GN',
+  },
+  {
+    name: '"Hadja Nanie" Hajj Pilgrimage Advance-Fee Scam',
+    slug: 'guinea-hadja-nanie-hajj-pilgrimage-advance-fee-scam',
+    description: `Hadja Fatoumata Domanie (also rendered Domani) Konaté, known as "Hadja Nanie," posed as the owner of the Nora Voyage travel agency and defrauded 416 Guineans seeking to perform the 2025 Hajj to Mecca, collecting payments in cash and by bank transfer into her personal account — with victims typically paying around 40 million Guinean francs each — before their promised pilgrimage never materialized. Investigators say Konaté told them she had been introduced by an associate named Issa Camara to a man named Sékou Camara, who claimed he was arranging travel to Mecca for relatives of "Hadja," the mother of President Mamadi Doumbouya, and that of each victim's payment roughly 20 million francs was passed on to this supposed presidential connection, 10 million went to intermediaries, and 10 million was kept by Konaté herself; under questioning she denied any actual family tie to the president or his mother, saying she had been shown documents bearing the presidential seal that led her to believe the arrangement was genuine. The scale of the fraud first surfaced when the Nora Voyage agency itself filed a complaint on May 16, 2025 over 2,685,000,000 Guinean francs in unpaid travel costs tied to 59 of the pilgrims. Police arrested Konaté on May 28, 2025, recovering 380 victims' passports in the process, while Issa Camara remains a fugitive and two additional female accomplices were also taken into custody. The scandal reached the presidency itself: President Doumbouya ultimately committed to fund a fully subsidized 2026 Hajj trip for all 416 victims of the 2025 fraud, who were confirmed to depart for Mecca in 2026. Guineans planning pilgrimage travel are advised to book only through licensed, verifiable travel agencies, to be skeptical of any intermediary claiming a personal connection to government officials or their families as a reason to pay in advance, and to report any pilgrimage offer that pressures large upfront cash payments to the National Police rather than a personal or agency bank account.`,
+    categorySlug: 'travel-vacation-scams',
+    alertLevel: 'critical',
+    sources: ['Guineenews', 'Africaguinee', 'Bambouguinée', 'Guinee360'],
+    sourceUrl: 'https://www.africaguinee.com/hadj-2025-fin-de-cavale-pour-la-presumee-arnaqueuse-de-plus-de-400-pelerins/',
+    country: 'GN',
+  },
+);
