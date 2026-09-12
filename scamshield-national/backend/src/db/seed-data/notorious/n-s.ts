@@ -6310,3 +6310,22 @@ Total losses across Storm's client base have been estimated at more than $3 bill
     sourceUrl: 'https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2020-releases/20-074mr-federal-court-confirms-storm-financial-directors-breached-duties/',
   },
 );
+
+NotoriousNS.push(
+  {
+    title: 'Nathans Finance: The Prospectus That Called a Failing Loan Book "Diversified"',
+    slug: 'nathans-finance-vtl-prospectus-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical', 'international'],
+    body: `Nathans Finance NZ Ltd was the in-house finance arm of Vending Technologies Limited (VTL), a New Zealand vending-machine manufacturer, and it raised money from the public through debentures to help fund VTL's operations and growth. Like dozens of other New Zealand finance companies in the mid-2000s, Nathans marketed itself to ordinary retail investors as a straightforward, comparatively safe place to put savings, offering better returns than a bank term deposit in exchange for lending Nathans the money directly.
+
+The problem was what that money was actually being lent to. In its December 2006 prospectus and investment statement, and again in a March 2007 prospectus extension certificate, Nathans' directors told investors the company had "no bad debts," maintained "adequate liquidity," and held a "diversified" loan book managed under robust lending policies. In reality, a large and growing share of Nathans' lending was concentrated in loans to its own struggling parent company, VTL — the kind of related-party concentration that is close to the opposite of diversification, and exactly the risk a prospectus is supposed to disclose rather than paper over.
+
+Nathans collapsed into receivership in August 2007, owing 7,082 investors a combined $174 million. New Zealand's Financial Markets Authority and the Crown prosecuted four of the company's directors under section 58 of the Securities Act for making untrue statements in a registered prospectus. After a 12-week trial in the High Court at Auckland, a jury convicted chairman Kenneth Roger Moses, along with directors Mervyn Doolan and Donald Young, on five charges each in July 2011; a fourth director, John Hotchin, had already pleaded guilty earlier that year and agreed to testify against his former colleagues.
+
+Sentencing in September 2011 reflected the court's view of each man's role: Doolan received two years and four months in prison plus $150,000 in reparation, Moses two years and two months plus $425,000 in reparation, Young — treated as the least culpable and given credit for cooperation and remorse — nine months' home detention, 300 hours of community work, and $310,000 in reparation, and Hotchin, whose guilty plea and testimony against the others earned him the most lenient outcome, 11 months' home detention, 200 hours of community service, and a $200,000 fine. The Court of Appeal dismissed Moses' and Doolan's sentence appeals that September.
+
+Nathans was one of more than a dozen New Zealand finance companies that collapsed in the same few years, but its prosecution turned on a narrower and more specific failure than simple bad lending: the words directors put in a prospectus. "No bad debts," "adequate liquidity," and "diversified" are exactly the reassurances a cautious investor looks for before handing over their savings, and Nathans' case established that when those words are false, the directors who signed off on them — not just the company that later failed — can be held personally and criminally responsible for what investors were told.`,
+    sourceUrl: 'https://www.interest.co.nz/news/54263/three-nathans-finance-directors-found-guilty-under-securities-act-misleading-comments',
+  },
+);
