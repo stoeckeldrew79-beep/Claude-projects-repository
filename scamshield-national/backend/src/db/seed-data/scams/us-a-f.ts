@@ -8098,3 +8098,28 @@ UsAF.push({
     isHistorical: true,
     firstRecorded: '2020-01-01',
 });
+
+UsAF.push({
+    name: 'California "Casino Conman" Cannabis Investment Fraud Scheme (Keinyatey Chambers)',
+    slug: 'california-casino-conman-chambers-cannabis-investment-fraud',
+    description: `Keinyatey Deboros Chambers, 49, of Sacramento, spent more than eight years approaching patrons at bars and casinos across the Sacramento area with a pitch to invest in a purported cannabis business, promising outsized returns on money he claimed would go toward licensing, cultivation, and dispensary operations. Prosecutors say that between December 2017 and March 2026, Chambers instead spent victims' money on his own gambling and personal expenses, used a portion of new investors' funds to pay off earlier ones so the scheme would keep looking legitimate, and pressured investors who grew suspicious or asked for their money back to put in more or recruit friends and family instead — ultimately taking more than $500,000 from victims. A joint investigation by the California Department of Justice and the FBI led to Chambers' arrest, and in May 2026 he was indicted on charges including wire fraud and grand theft; he is presumed innocent unless and until proven guilty in court. "Those who exploit the trust of innocent people to enrich themselves will face the full consequences of the law," said California Attorney General Rob Bonta in announcing the arrest. Casino floors and neighborhood bars are recurring hunting grounds for affinity-style investment pitches precisely because an in-person conversation with a friendly regular feels more trustworthy than a cold call or online ad; anyone approached by a fellow patron with an unregistered cannabis, real estate, or crypto "investment opportunity" should independently verify the business actually exists and that whoever is soliciting money is licensed to sell securities through the California Department of Financial Protection and Innovation before handing over a dollar.`,
+    categorySlug: 'investment-fraud',
+    sources: ["California Department of Justice, Office of the Attorney General", 'KTLA'],
+    sourceUrl: 'https://oag.ca.gov/news/press-releases/attorney-general-bonta-announces-arrest-sacramento-casino-conman',
+    country: 'US',
+    state: 'CA',
+});
+
+UsAF.push({
+    name: 'DC Northwest Senior Financial Exploitation and Arson (Peter Dorney)',
+    slug: 'dc-northwest-dorney-senior-exploitation-arson',
+    description: `Peter R. Dorney, 42, cultivated relationships with elderly neighbors in the Gateway Georgetown Apartments in Northwest Washington, D.C. and then turned on them in early 2021. On February 4, 2021, prosecutors say Dorney used a key he had obtained to let himself into a 94-year-old neighbor's apartment and deliberately set a fire there using an open flame, causing more than $1,000 in damage to the walls, furniture, and papers inside. Separately, between March and April 2021, Dorney made more than 70 unauthorized charges on an 80-year-old victim's credit card, totaling over $4,600, without her knowledge or permission. The Office of the Attorney General for the District of Columbia and the U.S. Attorney's Office for the District of Columbia jointly prosecuted the case; Dorney pleaded guilty in April 2022 to felony destruction of property for the arson and felony fraud for the credit-card scheme, and on December 9, 2022 the Honorable James A. Crowell IV of the D.C. Superior Court sentenced him to eight years in prison followed by three years of supervised release — prosecutors noted Dorney had accumulated 56 prior arrests and 28 convictions across six jurisdictions. "Peter Dorney preyed on older District residents — he befriended vulnerable seniors, gained their trust, and then betrayed them by destroying their property and stealing their money," then-Attorney General Karl Racine said in announcing the sentence. Families of elderly DC residents living alone should be wary of a new "friend" or acquaintance who becomes unusually attentive and gains access to a home or financial information, and should limit who is given a spare key or knowledge of banking details to people who have been known and trusted for years, not months.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'medium',
+    sources: ['Office of the Attorney General for the District of Columbia', "U.S. Attorney's Office, District of Columbia"],
+    sourceUrl: 'https://oag.dc.gov/release/ag-racine-announces-man-sentenced-8-years-prison',
+    country: 'US',
+    state: 'DC',
+    isHistorical: true,
+    firstRecorded: '2021-02-04',
+});

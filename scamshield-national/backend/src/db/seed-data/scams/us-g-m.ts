@@ -7050,3 +7050,17 @@ UsGM.push({
     isHistorical: true,
     firstRecorded: '2025-07-23',
 });
+
+UsGM.push({
+    name: 'Illinois "Free Lunch Seminar" Investment Adviser Fraud (Lucita Zamoras)',
+    slug: 'illinois-niles-zamoras-investment-adviser-fraud',
+    description: `Lucita Zamoras, a Niles, Illinois woman originally from the Philippines, held herself out for nearly a decade as a retirement-planning financial adviser even though she was never registered with the Securities and Exchange Commission or any state regulator to sell securities or provide investment advice. Beginning in 2009 and continuing through 2018, Zamoras met many of her clients at free lunch investment seminars and specifically targeted first-generation immigrants from the Filipino community in and around Chicago, using her own shared background to build the kind of trust that let her collect their retirement savings; she promised low-risk annual returns of 3 to 5 percent, but according to prosecutors and the SEC never actually invested the money on their behalf. Instead, Zamoras spent at least a dozen victims' combined $2.5 million on personal and business expenses, including gambling debts, payroll, credit card bills, airline tickets, car payments, and utilities, and used a portion of newer victims' money to keep older investors paid off in a Ponzi-style arrangement that helped conceal the fraud for years. U.S. District Judge Manish Shah in the Northern District of Illinois sentenced Zamoras to four and a half years in federal prison plus two years of supervised release, and ordered her to pay $3.14 million in restitution to her victims. Anyone offering "safe," guaranteed retirement returns through a free lunch or dinner seminar should be independently checked through FINRA's BrokerCheck or the SEC's Investment Adviser Public Disclosure database before any money changes hands — sharing an ethnic, immigrant, or community background with the person pitching the investment is a trust signal scammers exploit deliberately, not a substitute for verifying a license.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office, Northern District of Illinois", 'U.S. Securities and Exchange Commission'],
+    sourceUrl: 'https://www.securitieslaw.com/blog/former-illinois-financial-advisor-sentenced-to-prison-for-swindling-elderly-clients/',
+    country: 'US',
+    state: 'IL',
+    isHistorical: true,
+    firstRecorded: '2009-01-01',
+});

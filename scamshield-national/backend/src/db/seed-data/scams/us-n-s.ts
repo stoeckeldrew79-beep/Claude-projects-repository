@@ -6951,3 +6951,17 @@ UsNS.push({
     isHistorical: true,
     firstRecorded: '2021-02-01',
 });
+
+UsNS.push({
+    name: 'New Hampshire "Higgins Equity Partners" Investment Adviser Fraud (Richard Higgins)',
+    slug: 'new-hampshire-stratham-higgins-investment-adviser-fraud',
+    description: `Richard M. Higgins of Stratham, New Hampshire ran an investment advisory business called Higgins Capital Management and, beginning in late 2006, solicited investors to put money into a pooled limited partnership he created called Higgins Equity Partners, telling them he would serve as general partner and invest their funds on their behalf. Instead of depositing investor money into the limited partnership's own brokerage account as promised, Higgins routed roughly $395,574 into an account held in his personal company's name that he alone controlled, making false and misleading statements to investors to keep the scheme running through August 2007. New Hampshire's Bureau of Securities Regulation and the Attorney General's Office investigated the case; Higgins pleaded guilty to one felony count of engaging in a course of conduct involving a scheme to defraud in connection with the purchase and sale of securities and one felony count of operating as an investment adviser through a fraudulent course of business. A Merrimack County Superior Court judge sentenced him in August 2015 to 5 to 14 years in state prison and ordered him to pay $624,771 in restitution to his named victims; separately, Higgins consented to a Bureau of Securities Regulation order requiring roughly $370,000 in additional victim restitution, $125,000 in administrative penalties, and a permanent ban from New Hampshire's securities industry. The case shows why a "general partner" managing a pooled investment fund should never be the same person who controls the bank or brokerage account holding investors' money — a legitimate fund uses an independent, unaffiliated custodian, and an investor should insist on account statements coming directly from that custodian rather than only from the fund's own manager.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'medium',
+    sources: ['New Hampshire Department of Justice, Bureau of Securities Regulation'],
+    sourceUrl: 'https://rexsecuritieslaw.com/richard-higgans-of-stratham-new-hampshire-sentenced-for-securities-fraud/',
+    country: 'US',
+    state: 'NH',
+    isHistorical: true,
+    firstRecorded: '2006-11-01',
+});
