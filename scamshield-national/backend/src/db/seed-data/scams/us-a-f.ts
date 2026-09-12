@@ -7632,3 +7632,15 @@ UsAF.push({
     state: 'DE',
     firstRecorded: '2025-10-16',
 });
+
+UsAF.push({
+    name: 'Connecticut eLicense Phishing Scam',
+    slug: 'connecticut-elicense-phishing-scam',
+    description: `Connecticut's Department of Consumer Protection warned holders of any state-issued license, permit, or registration managed through the state's eLicense system that scammers posing as government officials were sending emails asking recipients to "verify" information on their credential. The messages threaten that the license will be revoked if the recipient does not respond within 24 hours, and include a link to a convincing fake sign-in page designed to steal the victim's eLicense username and password. The tell is in the details: the address the message actually comes from does not match the sender name shown and does not end in a real .gov domain, and the link does not lead to a genuine ct.gov address (a real one always shows "ct.gov" immediately before the first slash). DCP notes that it would never revoke a license without a formal hearing, so no legitimate email can put a credential at risk on a 24-hour deadline. Anyone who already clicked through and entered their credentials is advised to change their eLicense password immediately, along with any other account using the same password, and to report the attempt through DCP's complaint portal at ct.gov/DCP.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Connecticut Department of Consumer Protection'],
+    sourceUrl: 'https://portal.ct.gov/dcp/news-releases-from-the-department-of-consumer-protection/2024-news-releases/new-phishing-scam-targets-elicense-users',
+    country: 'US',
+    state: 'CT',
+});
