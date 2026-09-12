@@ -5757,3 +5757,15 @@ NotoriousNS.push(
     sourceUrl: "https://www.justice.gov/usao-wdtx/pr/former-san-antonio-attorney-todd-prins-sentenced-federal-prison-24-million-wire-fraud",
   },
 );
+
+NotoriousNS.push(
+  {
+    title: "Charles Richardson and the Heinz Endowments Embezzlement",
+    slug: "charles-richardson-heinz-endowments-embezzlement",
+    author: "ScamShield Editorial",
+    tags: ["notorious", "notorious-scammer"],
+    body:
+      "Charles Richardson spent a decade as the information technology manager at The Heinz Endowments, the Pittsburgh-based philanthropic foundation built on the Heinz family fortune, with roughly $2.2 billion in assets. His job included maintaining the foundation's servers and approving invoices from outside technology vendors — authority he used, according to federal prosecutors, to invent a vendor of his own.\n\nBeginning in 2014, Richardson registered a company called Ops Unlimited as an approved Heinz Endowments vendor, then spent the next eight years submitting fraudulent invoices against it and approving his own payments. Prosecutors say he used the nearly $1 million he stole to fund international travel, home renovations, and premium liquor. When foundation leadership began asking questions in 2023, Richardson allegedly deleted thousands of emails and damaged IT equipment in an effort to erase the trail — conduct that added money laundering charges on top of the underlying wire fraud.\n\nRichardson, 45, of Pittsburgh, was placed on administrative leave in October 2023 and fired that December after an internal investigation. The Heinz Endowments sued him in June 2024, and a federal grand jury indicted him in June 2025 on five counts of wire fraud and four counts of money laundering. He pleaded guilty in February 2026 to a single wire fraud count, and on September 8, 2026, U.S. District Judge Christy Criswell Wiegand sentenced him to one year and one day in federal prison — well below the 27-to-33-month range called for under federal sentencing guidelines — along with $977,977 in restitution, split between the FDIC and the foundation itself. By the time of sentencing, Richardson had already paid roughly $250,000 toward that total by liquidating his retirement accounts and selling his home.\n\nAn organization's own IT manager occupies an unusually powerful blind spot: the person responsible for keeping the servers and vendor systems running is often the same person best positioned to know exactly how closely anyone else is watching the vendor list, and best equipped to erase the evidence once someone starts to look. Richardson's fraud worked for eight years not because Ops Unlimited was a particularly convincing shell company, but because the person approving its invoices was also the one nobody else at the foundation had reason to double-check.",
+    sourceUrl: "https://www.justice.gov/usao-wdpa/pr/former-foundation-it-manager-sentenced-prison-embezzling-nearly-1-million-employer",
+  },
+);
