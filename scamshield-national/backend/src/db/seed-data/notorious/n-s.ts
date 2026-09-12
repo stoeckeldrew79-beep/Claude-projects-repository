@@ -6233,3 +6233,22 @@ Soapy Smith's Skagway operation is a reminder that organized confidence rackets 
     sourceUrl: 'https://www.nps.gov/klgo/learn/historyculture/jeffsmithsparlor.htm',
   },
 );
+
+NotoriousNS.push(
+  {
+    title: 'Barry Silbert, Genesis, and the $1.1 Billion IOU That Hid a Crypto Lender\'s Losses',
+    slug: 'barry-silbert-genesis-gemini-earn-dcg-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    body: `In February 2021, crypto exchange Gemini Trust Company — run by twins Cameron and Tyler Winklevoss — launched "Gemini Earn," a program letting retail customers lend their crypto to Genesis Global Capital in exchange for interest, which Gemini marketed to customers as a vetted, low-risk way to put idle crypto to work. Genesis, in turn, was a subsidiary of Digital Currency Group (DCG), the crypto conglomerate run by founder and CEO Barry Silbert. According to a lawsuit later filed by New York Attorney General Letitia James, the "vetting" behind that low-risk pitch didn't hold up: Genesis's loan book was concentrated in a small number of large, risky borrowers, and at one point in 2022 Sam Bankman-Fried's trading firm Alameda Research alone accounted for roughly 60% of Genesis's outstanding loans.
+
+Genesis's borrowers began collapsing that year. The lawsuit alleges Genesis lost more than $1.1 billion when Terra/Luna imploded and Three Arrows Capital defaulted in mid-2022, and that Gemini's own risk team had downgraded Genesis internally from investment-grade to "junk" by February 2022 — without telling Earn customers, who kept being told the product was safe. Rather than disclose the hole in Genesis's balance sheet, the complaint alleges DCG and Genesis papered over it with a $1.1 billion promissory note, carrying an unusually low roughly 1% annual interest rate over a ten-year term, that let Genesis book a receivable from its own parent company in place of recognizing the loss — an accounting maneuver that, prosecutors say, let Genesis keep presenting itself as solvent to Earn depositors, other lenders, and its own auditors while it took in fresh deposits from customers who had no way to know the company was already underwater.
+
+The arrangement held until November 2022, when FTX's collapse triggered a wider liquidity crunch across crypto lending; Genesis halted Earn withdrawals on November 16, 2022, and filed for Chapter 11 bankruptcy on January 19, 2023. By the Attorney General's count, more than 230,000 investors — including at least 29,000 New Yorkers — had over $1.1 billion in Gemini Earn deposits frozen, on top of billions more owed to Genesis's direct institutional lenders. James sued Gemini, Genesis, and DCG in October 2023 alleging fraud under New York's Martin Act, and expanded the case in February 2024 to add Silbert personally and Genesis's former CEO Soichiro Moro, raising the alleged investor harm to roughly $3 billion.
+
+Genesis and Gemini settled rather than fight the case: Genesis agreed in May 2024 to a $2 billion settlement funding recoveries for defrauded investors through its bankruptcy, and Gemini agreed in June 2024 to return roughly $50 million more to Earn customers and accept a permanent ban from operating any crypto lending program in New York. DCG, Silbert, and Moro chose to fight instead, and as of this writing the case against them remains in active, unresolved litigation — a state court judge denied most of their motion to dismiss the Attorney General's fraud claims in April 2025, and a related federal securities class action against Silbert and DCG was allowed to proceed by a Connecticut district court in 2026. The allegations against DCG, Silbert, and Moro are, as of this writing, unproven.
+
+Whatever the outcome for Silbert individually, the Genesis collapse shows how an intercompany IOU can substitute for actually absorbing a loss — for months, a promissory note from a parent company let a crypto lender's books say it was solvent while, prosecutors allege, everyone at the top already knew the money to make Earn customers whole simply wasn't there anymore.`,
+    sourceUrl: 'https://ag.ny.gov/press-release/2023/attorney-general-james-sues-cryptocurrency-companies-gemini-genesis-and-dcg',
+  },
+);

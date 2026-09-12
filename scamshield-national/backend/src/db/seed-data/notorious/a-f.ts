@@ -8776,3 +8776,41 @@ Bonnesen's case sits in useful contrast with the Danske Bank Estonia scandal tha
     sourceUrl: 'https://www.thelocal.com/20260421/swedens-supreme-court-clears-former-swedbank-ceo-of-swindling',
   },
 );
+
+NotoriousAF.push(
+  {
+    title: "Bruno Crastes and the H2O Asset Management Bonds Nobody Could Sell",
+    slug: 'bruno-crastes-h2o-asset-management-windhorst-bonds',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    body: `Bruno Crastes co-founded H2O Asset Management in London in 2010, spinning the firm out of French bank Natixis's asset-management arm, which kept a large minority stake and marketed H2O's funds through its own distribution network. Under Crastes as chief executive and Vincent Chailley as chief investment officer, H2O built a reputation as one of Europe's standout bond and macro managers, its flagship UCITS funds — sold to ordinary retail investors across France and beyond as liquid, dealt-daily products — pulling in billions of euros on the strength of consistently strong returns.
+
+What investors in those funds didn't know was how much of their money had been steered somewhere UCITS rules were built to keep it out of. From as early as 2015, H2O put a large and growing share of several funds' assets into privately placed, thinly traded bonds tied to German financier Lars Windhorst and his holding company, Tennor Holding — investments France's securities regulator, the Autorité des Marchés Financiers (AMF), later found weren't rated, weren't reliably valuable, and in some funds exceeded the 10% cap on exposure to a single issuer's debt that retail bond funds are required to observe precisely so that one bad bet can't sink the whole fund.
+
+The exposure came to light in June 2019, when a Financial Times investigation detailed the scale of H2O's Windhorst-linked holdings, an asset class about as far from "liquid, listed bonds" as a retail fund can hold. Investors pulled billions of euros within weeks. The AMF eventually forced H2O's hand: in August 2020, regulators required the firm to split the illiquid Tennor-linked bonds out of its funds into separate side pockets, walling off that portion of investors' money from the daily-dealing fund around it — money that, for many investors, then stayed frozen for years while the side pockets slowly wound down.
+
+The AMF's Enforcement Committee ruled on the underlying conduct on December 30, 2022, fining H2O AM LLP €75 million with a public reprimand, fining Crastes €15 million and banning him from managing funds for five years, and fining Chailley €3 million with a reprimand — sanctions built on findings that the Tennor bonds lacked adequate liquidity and valuation data and breached the funds' own concentration limits. Crastes and Chailley challenged the decision all the way to France's highest administrative court, the Conseil d'État, which dismissed their appeals in full on June 13, 2025, closing off any further challenge in France.
+
+Britain's Financial Conduct Authority, which separately regulated the London-based H2O AM LLP, went further in its own August 2024 final notice: it found H2O had failed to properly vet the Windhorst investments for years, that H2O staff had received more than 50 undisclosed instances of hospitality from Windhorst — including the use of a superyacht and a private jet — and that H2O had given the regulator false and misleading information, including fabricated meeting records, during the investigation. Rather than impose a fine the firm might not have been able to pay without further hurting investors, the FCA required H2O to hand over €250 million directly to affected investors and waive €320 million in future management fees. Between the two regulators' findings, the H2O case shows how a fund can market itself on liquidity and daily access while quietly building a concentrated bet on one financier's illiquid paper — and how long that gap can stay hidden when the people meant to be checking it are, by the regulator's own account, also the ones accepting the yacht trips.`,
+    sourceUrl: 'https://www.amf-france.org/en/news-publications/news-releases/enforcement-committee-news-releases/amf-enforcement-committee-fines-british-company-h2o-am-llp-and-two-its-executives-time-facts-several',
+  },
+);
+
+NotoriousAF.push(
+  {
+    title: 'Stewart Ford and Keydata\'s £475 Million in "Death Bonds"',
+    slug: 'stewart-ford-keydata-death-bonds-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    body: `Stewart Ford founded Keydata Investment Services in 2001, and within a few years built it into one of Britain's largest distributors of structured retail investment products, sold to ordinary savers through a network of independent financial advisers and marketed heavily for tax-free ISA accounts. Starting in 2005, Keydata's flagship offering was a series of bonds issued by a Luxembourg company called SLS Capital SA, pitched to advisers and their retiree clients as a relatively low-risk, income-producing investment. The underlying asset was less reassuring than the pitch: pools of second-hand U.S. life insurance policies, known as "life settlements," which paid out only when the original policyholders died — a return that depended on people dying roughly on actuarial schedule, and that shrank steadily as the fees layered on top of the structure ate into it. Keydata sold roughly £475 million of these products to somewhere in the region of 30,000 UK investors before the business collapsed.
+
+In 2006, Ford quietly built a near-identical structure, Lifemark SA, which — unlike SLS — was beneficially owned by Ford himself through a chain of offshore entities, and increasingly took over as the vehicle Keydata's products were funneled through. Over the following three years, the UK's Financial Conduct Authority later found, companies controlled by Ford extracted roughly £73.3 million in fees out of the Lifemark structure — fees that a tribunal would later describe as paid for services either "unrelated" to the product or "no services whatsoever" — without ever disclosing to investors, the advisers selling the bonds, or the regulator that Ford himself sat on the other side of the fees coming out of their investment.
+
+By 2008 and into 2009, the underlying life-settlement portfolios were falling well short of the returns Keydata had projected, as the policyholders behind them lived longer than the models assumed and the fee drag compounded the shortfall. A tribunal later found that Ford and Keydata's sales director, Mark Owen, knew the products were failing and concealed it rather than disclose it — continuing to sell the bonds and reassure advisers and investors that everything was on track. The Financial Services Authority forced Keydata into administration on June 8, 2009, freezing what was left of investors' money for years while administrators tried to recover value from the underlying life settlements.
+
+The regulatory reckoning took nearly a decade to finish. After Ford contested the FCA's initial findings, the Upper Tribunal ruled on November 6, 2018, upholding the case against him and increasing his penalty to £76 million — still the largest fine the FCA has ever imposed on an individual — alongside a lifetime ban from any role in regulated financial services, formalized in a final notice dated January 16, 2019. Owen was fined £3,240,787 and banned alongside him; Keydata's former compliance officer, Peter Johnson, was separately banned and would have been fined £200,000 had the FCA not found he could not pay it. The tribunal's judgment was blunt about the pattern it found: "a constant theme is the deliberate and calculated concealment by Mr. Ford of material information."
+
+Keydata's collapse is a reminder that a conflict of interest doesn't need to be exotic to work for years: a second company quietly owned by the same person selling a product, sitting between investors and their money and collecting fees the investors never see broken out, can drain a fund's returns long before anyone discloses who's actually being paid on the other end of the trade.`,
+    sourceUrl: 'https://www.fca.org.uk/news/press-releases/upper-tribunal-upholds-fca-decision-fine-and-ban-former-keydata-executives',
+  },
+);
