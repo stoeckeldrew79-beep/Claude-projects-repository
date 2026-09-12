@@ -665,4 +665,58 @@ export const SEED_GLOBAL_SOURCES: SeedGlobalSource[] = [
       "Saudi Arabia's Ministry of Commerce investigates commercial-fraud and deceptive-practice complaints filed through its Balagh Tejari app and 1900 hotline, publishing enforcement actions and violator names rather than a formal annual report or open dataset.",
     data_type: 'public_stats',
   },
+  {
+    agency_name: 'Autoridad de Protección al Consumidor y Defensa de la Competencia (ACODECO)',
+    country: 'PA',
+    country_name: 'Panama',
+    url: 'https://www.acodeco.gob.pa/',
+    description:
+      "Panama's consumer protection and antitrust authority runs a public complaints dashboard ('Tablero de Quejas') that publishes monthly counts of formal denuncias and in-person quejas, resolution rates, and the businesses drawing the most complaints.",
+    data_type: 'public_stats',
+  },
+  {
+    agency_name: 'Instituto Nacional de Protección de los Derechos del Consumidor (Pro Consumidor)',
+    country: 'DO',
+    country_name: 'Dominican Republic',
+    url: 'https://proconsumidor.gob.do/',
+    description:
+      "The Dominican Republic's national consumer-rights institute investigates fraud and deceptive-practice complaints and publishes an annual institutional report ('Memoria Institucional') covering complaint volumes, inspections, and sanctions.",
+    data_type: 'annual_report',
+  },
+  {
+    agency_name: 'Consumer Protection and Anti-Commercial Fraud Department — Ministry of Commerce and Industry',
+    country: 'QA',
+    country_name: 'Qatar',
+    url: 'https://www.moci.gov.qa/en/about-the-ministry/departments/departments-under-the-assistant-deputy-of-consumer-affairs/the-consumer-protection-and-combating-commercial-fraud/',
+    description:
+      "Qatar's Ministry of Commerce and Industry department for consumer protection and combating commercial fraud investigates complaints, samples suspicious goods, and publishes enforcement actions and consumer-awareness findings rather than a consolidated dataset.",
+    data_type: 'public_stats',
+  },
+  {
+    agency_name: "Consumer's Ombudsman (Synigoros tou Katanaloti)",
+    country: 'GR',
+    country_name: 'Greece',
+    url: 'https://www.synigoroskatanaloti.gr/en',
+    description:
+      "Greece's independent consumer-mediation authority resolves disputes between consumers and businesses, including fraud and deceptive-practice complaints, and publishes an annual report on case volumes and mediation outcomes.",
+    data_type: 'annual_report',
+  },
+  {
+    agency_name: 'Consumer Agency (Neytendastofa)',
+    country: 'IS',
+    country_name: 'Iceland',
+    url: 'https://www.neytendastofa.is/english/the-consumer-agency/',
+    description:
+      "Iceland's independent consumer-protection and market-surveillance agency handles complaints about unfair and fraudulent commercial practices, publishing a yearly report on its enforcement activity and market oversight.",
+    data_type: 'annual_report',
+  },
+  {
+    agency_name: 'Consumer Protection Directorate — Ministry of Industry and Trade',
+    country: 'MA',
+    country_name: 'Morocco',
+    url: 'https://www.mcinet.gov.ma/en/content/consumer-protection',
+    description:
+      "Morocco's national consumer-protection directorate runs the khidmat-almostahlik.ma complaint portal and coordinates provincial market-surveillance commissions, publishing yearly figures on complaints handled, points of sale inspected, and infractions recorded — nearly 2,600 complaints and 300,000 inspections reported for 2024.",
+    data_type: 'public_stats',
+  },
 ];
