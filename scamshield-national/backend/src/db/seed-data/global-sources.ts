@@ -1178,4 +1178,121 @@ export const SEED_GLOBAL_SOURCES: SeedGlobalSource[] = [
       "San Marino's independent data protection authority handles public complaints about misuse of personal data — including fraudulent impersonation and unlawful processing — and publishes its formal proceedings and decisions organized by year.",
     data_type: 'public_stats',
   },
+  {
+    agency_name: 'Consumer Affairs Office (Ministry of Legal Affairs, Labour and Consumer Affairs)',
+    country: 'GD',
+    country_name: 'Grenada',
+    url: 'https://llca.gov.gd/consumer/',
+    description:
+      "Grenada's Consumer Affairs Office investigates and mediates consumer complaints under the Consumer Protection Act 2018, and has publicly reported its complaint volumes alongside advisories warning residents about active internet and investment scams.",
+    data_type: 'public_stats',
+  },
+  {
+    agency_name: 'Domestic Trade and Consumer Affairs Division',
+    country: 'VC',
+    country_name: 'Saint Vincent and the Grenadines',
+    url: 'https://foreign.gov.vc/foreign/index.php/commerce-a-consumer-affairs',
+    description:
+      "Saint Vincent and the Grenadines' Domestic Trade and Consumer Affairs Division is the government's central agency for enforcing the Consumer Protection Act and publishes consumer-rights guidance on the Ministry of Foreign Affairs, Commerce, and Consumer Affairs site.",
+    data_type: 'public_stats',
+  },
+  {
+    agency_name: 'Consumer Affairs Department (Ministry of International Trade, Industry, Commerce and Consumer Affairs)',
+    country: 'KN',
+    country_name: 'Saint Kitts and Nevis',
+    url: 'https://miticca.gov.kn/consumer-affairs/',
+    description:
+      "Saint Kitts and Nevis' Consumer Affairs Department processes, investigates, and mediates written consumer complaints under the Consumer Protection Act 2003, publishing its complaint-handling procedures and contact channels on the ministry's official site.",
+    data_type: 'public_stats',
+  },
+  {
+    agency_name: 'Prices and Consumer Affairs Division',
+    country: 'AG',
+    country_name: 'Antigua and Barbuda',
+    url: 'https://consumeraffairs.gov.ag/',
+    description:
+      "Antigua and Barbuda's Prices and Consumer Affairs Division investigates consumer complaints and queries, and publishes consumer-rights, pricing, and fair-trading guidance on its official government site.",
+    data_type: 'public_stats',
+  },
+  {
+    agency_name: 'Consumer Protection Commission',
+    country: 'ZW',
+    country_name: 'Zimbabwe',
+    url: 'https://cpc.org.zw/',
+    description:
+      "Zimbabwe's statutory Consumer Protection Commission, established under the Consumer Protection Act (Chapter 14:44), investigates and mediates complaints about deceptive, misleading, unfair, or fraudulent trade conduct and publishes its governing acts and departmental activity.",
+    data_type: 'public_stats',
+  },
+  {
+    agency_name: 'Fair Trading Commission',
+    country: 'SC',
+    country_name: 'Seychelles',
+    url: 'https://ftc.gov.sc/',
+    description:
+      "Seychelles' Fair Trading Commission investigates consumer complaints and competition violations under the Fair Trading Act 2022, and has publicly reported year-over-year complaint-volume statistics, including a reported 42% drop in complaints in 2019.",
+    data_type: 'public_stats',
+  },
+  {
+    agency_name: 'Competition and Fair Trading Commission (CFTC)',
+    country: 'MW',
+    country_name: 'Malawi',
+    url: 'https://www.cftc.mw/',
+    description:
+      "Malawi's Competition and Fair Trading Commission accepts free-of-charge complaints about unfair trading practices and consumer-rights violations, publishing its complaint procedures and enforcement mandate on its official site.",
+    data_type: 'public_stats',
+  },
+  {
+    agency_name: 'Eswatini Competition Commission',
+    country: 'SZ',
+    country_name: 'Eswatini',
+    url: 'https://www.compco.co.sz/',
+    description:
+      "Eswatini's Competition Commission, established under the Competition Act 2007, protects consumer welfare against unfair trading practices and anti-competitive conduct and publishes its enforcement mandate and activities.",
+    data_type: 'public_stats',
+  },
+  {
+    agency_name: 'Office National de Lutte contre la Fraude et la Corruption (OFNAC)',
+    country: 'SN',
+    country_name: 'Senegal',
+    url: 'https://ofnac.sn/',
+    description:
+      "Senegal's independent anti-fraud and anti-corruption authority accepts confidential public complaints reporting suspected fraud and corruption, and publishes a detailed annual activity report (Rapport d'activités) with case-handling statistics.",
+    data_type: 'annual_report',
+  },
+  {
+    agency_name: 'National Authority for Trade and Consumer Protection (Nemzeti Kereskedelmi és Fogyasztóvédelmi Hatóság)',
+    country: 'HU',
+    country_name: 'Hungary',
+    url: 'https://nkfh.gov.hu/en',
+    description:
+      "Hungary's national market-surveillance and consumer protection authority conducts inspection sweeps of traders — covering food safety, product safety, and pricing — and publishes the resulting enforcement statistics, such as violation rates found and fines issued, in regular public reports.",
+    data_type: 'public_stats',
+  },
+  {
+    agency_name: 'Central Information System for Consumer Protection (potrosac.me)',
+    country: 'ME',
+    country_name: 'Montenegro',
+    url: 'https://www.potrosac.me/',
+    description:
+      "Montenegro's EU-funded national consumer protection portal, run with the Ministry of Economy's Directorate for Consumer Protection, lets citizens submit consumer complaints online and publishes consumer-rights, product-safety, and pricing-transparency information.",
+    data_type: 'public_stats',
+  },
+  {
+    agency_name: 'Gambia Competition and Consumer Protection Commission (GCCPC)',
+    country: 'GM',
+    country_name: 'Gambia',
+    url: 'https://gcc.gm/',
+    description:
+      "The Gambia Competition and Consumer Protection Commission enforces the Consumer Protection Act 2014, handles consumer complaints referred to its Tribunal, and publishes market-surveillance and annual reports through its Media Center.",
+    data_type: 'annual_report',
+  },
+  {
+    agency_name: 'Direction de la Protection des Consommateurs (DPC), Ministère du Commerce',
+    country: 'MG',
+    country_name: 'Madagascar',
+    url: 'https://www.pic.commerce.mg/fr/direction-de-la-protection-des-consommateurs-dpc',
+    description:
+      "Madagascar's Ministry of Commerce consumer protection directorate is responsible for consumer protection and fraud/counterfeiting prevention nationwide, and publishes its mandate and complaint contact channels on the government's official trade information portal.",
+    data_type: 'public_stats',
+  },
 ];
