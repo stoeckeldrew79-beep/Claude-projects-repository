@@ -6578,3 +6578,31 @@ UsGM.push({
     isHistorical: true,
     firstRecorded: '2023-10-26',
 });
+
+UsGM.push({
+    name: 'Guam Department of Revenue and Taxation E-Z Pass Toll Text Scam',
+    slug: 'guam-drt-ez-pass-toll-text-scam',
+    description: `The Guam Department of Revenue and Taxation (DRT) warned residents on April 28, 2025 about fraudulent text messages claiming to come from "E-Z Pass Lane," a toll-collection brand used on mainland U.S. highways, that tell recipients they owe an unpaid toll fee and must pay immediately through a link in the message. The scam text is a clumsy import of a smishing campaign that has circulated nationwide targeting mainland drivers, but it makes no sense on Guam at all: the island has no toll roads, no electronic toll lanes, and no fee for using any of its roadways, so a "Guam E-Z Pass" bill cannot legitimately exist in the first place. DRT stated plainly that it "does not communicate with its consumers and taxpayers over text message, nor does it ever demand fees and transaction payment" that way, and clarified that all of its real online transactions run only through its own official portals — guamtax.com, myguamtax.com, myid.guam.gov, and pay.guam.gov — never through a link texted to a resident's phone. The department's guidance was to ignore and delete the message without clicking the embedded link, since doing so risks landing on a cloned payment page built to harvest a card number and other personal details for a toll that was never owed. Residents with questions about the text or their actual tax and account status are asked to contact DRT's Call Center directly at (671) 635-1840, 1841, or 7651, or by email at pinadmin@revtax.guam.gov, rather than responding to anything in the text itself.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Department of Revenue and Taxation, Government of Guam', 'The Guam Daily Post (postguam.com)'],
+    sourceUrl: 'https://www.postguam.com/news/local/e-z-pass-scam-targets-guam-residents/article_73667cf3-1062-417d-95d3-addfeb5e9579.html',
+    country: 'US',
+    state: 'GU',
+    isHistorical: true,
+    firstRecorded: '2025-04-28',
+});
+
+UsGM.push({
+    name: 'Guam Department of Labor Facebook Grant Scam',
+    slug: 'guam-department-of-labor-facebook-grant-scam',
+    description: `The Guam Department of Labor (GDOL) warned the public on August 11, 2025 about fraudulent posts circulating on Facebook that falsely offer individual "Department of Labor grants," using GDOL's name, Guam's location, or similar wording to look like an official government assistance program. The posts come from unofficial pages or individuals impersonating government representatives rather than from any real GDOL account, and are designed to draw in residents looking for financial help by promising grant money that GDOL does not actually distribute to individuals through social media. GDOL Director David Dell'Isola was direct in the department's warning: "This is a scam. The Guam Department of Labor does not offer any kind of individual grant assistance through Facebook," adding, "These messages are not coming from our office, and we urge the public to be vigilant and avoid providing any personal information." Anyone who engages with one of these posts risks handing over personal or financial details to people with no real connection to GDOL and no actual grant to give. Residents who spot one of these posts are urged to report it to the Office of the Attorney General's Consumer Protection Division at 671-475-2720, especially if they were contacted directly or asked to provide sensitive information, and to confirm any real GDOL program only through the department's verified website at dol.guam.gov or by calling GDOL directly at 671-475-7000/1.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Guam Department of Labor', 'The Guam Daily Post (postguam.com)'],
+    sourceUrl: 'https://www.postguam.com/news/local/gdol-warns-of-facebook-grant-scam/article_4202ddab-c13c-4cba-94be-821727eec9a6.html',
+    country: 'US',
+    state: 'GU',
+    isHistorical: true,
+    firstRecorded: '2025-08-11',
+});
