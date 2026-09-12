@@ -6334,3 +6334,31 @@ UsNS.push({
     isHistorical: true,
     firstRecorded: '2023-12-15',
 });
+
+UsNS.push({
+    name: 'Saipan Fraudulent "Registry" Work Permit Scheme (Venerando Aquino Martin)',
+    slug: 'northern-mariana-islands-work-permit-fraud-martin',
+    description: `Venerando Aquino Martin, a 56-year-old Philippine national living on Saipan, was sentenced on May 27, 2026 in the U.S. District Court for the Northern Mariana Islands to 18 months in federal prison for visa fraud after running a scheme in which he charged applicants thousands of dollars to prepare and file fraudulent Form I-765 applications for Employment Authorization Documents. Between September 23, 2023 and April 9, 2025, Martin submitted approximately 242 applications falsely claiming his clients qualified under the Immigration and Nationality Act's "Registry" provision, which allows only people who have lived in the United States continuously since before January 1, 1972 to seek permanent residency and a work permit while their case is pending — despite records showing that many of his applicants, including Martin himself, first entered the country decades after that cutoff date, with some not even born by 1972. The fraud went undetected long enough for U.S. Citizenship and Immigration Services to unlawfully issue 66 Employment Authorization Documents, which undocumented workers then used to obtain jobs across the CNMI, until a USCIS officer in Guam noticed a pattern across Martin's filings and referred the case to the agency's Fraud Detection and National Security Directorate; all 66 work permits were subsequently revoked and deportation proceedings began against the workers who had relied on them. The case was investigated by Homeland Security Investigations in Saipan and prosecuted by the U.S. Attorney's Office for the Districts of Guam and the Northern Mariana Islands, with Martin also ordered to serve one year of supervised release and pay a $200 mandatory assessment. It is a reminder that a "visa fixer" who promises a guaranteed work permit through an obscure legal provision, in exchange for a substantial fee, can be selling a document that gets revoked the moment an immigration officer actually checks the applicant's real entry date — leaving the worker who paid for it facing removal rather than the job security they were promised; anyone offered a guaranteed EAD that doesn't match their real immigration history should refuse and can report the offer to USCIS through its online tip form rather than assume a filed application is automatically a valid one.`,
+    categorySlug: 'employment-scams',
+    alertLevel: 'medium',
+    sources: ['U.S. Citizenship and Immigration Services (USCIS)', 'U.S. Department of Justice, Districts of Guam and the Northern Mariana Islands'],
+    sourceUrl: 'https://www.uscis.gov/newsroom/news-releases/uscis-screening-and-vetting-efforts-lead-to-18-month-sentencing-of-illegal-alien-in-fraud-case',
+    country: 'US',
+    state: 'MP',
+    isHistorical: true,
+    firstRecorded: '2023-09-23',
+});
+
+UsNS.push({
+    name: 'CNMI Public School System "Ghost Purchase" Procurement Fraud Scheme (Adlawan and Butalid)',
+    slug: 'northern-mariana-islands-pss-ghost-purchase-procurement-fraud',
+    description: `Clarissa Adlawan, 55, a lawful permanent resident from the Philippines, and her daughter Giselle Butalid, 34, a naturalized U.S. citizen, ran a procurement fraud and money-laundering scheme against the CNMI Public School System (PSS) from October 2021 through August 2022 using a company called One Legacy LLC. Butalid worked inside PSS with direct access to the procurement process and used that position to steer payments to One Legacy for educational materials that were never actually ordered or delivered — so-called "ghost purchases" — then forged supporting documents to hide both the fact that the goods didn't exist and that a PSS employee had a financial stake in the vendor being paid. Individual fraudulent payments included $50,000 and $52,500 billed for online learning materials that were never purchased and a single $113,020 payment, contributing to a total of $548,788 that Adlawan and Butalid were ultimately ordered to repay in restitution. Investigators with IRS Criminal Investigation, the U.S. Department of the Interior's Office of Inspector General, the FBI, and the CNMI Office of the Public Auditor traced the stolen money to repeated luxury trips to the Philippines — with cash withdrawals ranging from roughly $10,000 to $65,000 per trip — and to the construction of a nine-room house, with two Philippine properties ultimately ordered forfeited. Adlawan was sentenced on May 6, 2026 to 48 months in federal prison and Butalid to 18 months, each with three years of supervised release and 100 hours of community service. "Funds that would have otherwise been used for the benefit of our communities' children instead went to finance the dream house," IRS-CI Special Agent Carrie Nordyke said in announcing the sentences. The case shows how a school system's procurement process can be quietly captured by an employee with approval authority who directs public money to a vendor she or a relative secretly controls; parents, teachers, and vendors who notice a school purchase order for goods that never arrived, or a PSS employee steering business toward a company connected to their own family, can report it to the CNMI Office of the Public Auditor rather than assume a signed purchase order is proof the materials were actually delivered.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'medium',
+    sources: ['U.S. Department of the Interior, Office of Inspector General', 'IRS Criminal Investigation'],
+    sourceUrl: 'https://www.doioig.gov/node/10266',
+    country: 'US',
+    state: 'MP',
+    isHistorical: true,
+    firstRecorded: '2021-10-01',
+});
