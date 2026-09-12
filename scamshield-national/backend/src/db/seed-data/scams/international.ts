@@ -16819,3 +16819,46 @@ International.push(
     country: 'SN',
   },
 );
+
+International.push(
+  {
+    name: 'PNC Digital Scam Surge Alert: Phishing, Fake Investment Returns, and Bogus Job Offers',
+    slug: 'guatemala-pnc-digital-scam-surge-alert-2026',
+    description: `Guatemala's Policía Nacional Civil (PNC), through its Interior Ministry cybercrime unit, issued a public warning on August 10, 2026 over a sharp rise in digital fraud, citing Public Ministry figures showing electronic-crime complaints climbing from 1,292 in 2019 to 14,871 in 2025, with a further 7,925 electronic-fraud reports already filed in just the first half of 2026. Officials described phishing carried out through fraudulent links, spoofed identities, and malicious QR codes as the most common method, but said Ponzi-style investment pitches cause the greatest financial losses; investigators illustrated the pattern with the pitch scammers actually use — "invierta Q100 y le dicen que en tres días tendrá Q200," paying early participants with money collected from new recruits until the scheme becomes unsustainable and the operators disappear with whatever remains. A second recurring lure identified by the PNC's cybercrime unit offers supposed remote work paying "Q200 (unos $25) o Q300 (unos $35) trabajando media hora al día," asking only for a cellphone and a bank account to get started — details that in reality let fraudsters harvest the victim's financial access rather than pay any wage. Karen Ortiz, Guatemala's Interior Ministry Vice Minister of Information Technology and Communications, said that "el 90% de la información que buscan los ciberdelincuentes es financiera: dinero, datos bancarios, tarjetas y acceso a la banca virtual" (90% of the information cybercriminals seek is financial: money, banking data, cards, and virtual banking access). Authorities also flagged fake notifications of packages supposedly sent by relatives abroad as another common WhatsApp-based lure. The PNC advises Guatemalans not to open links from unknown senders, never share one-time verification codes, enable two-step verification on WhatsApp, confirm any money request directly with the person involved through a separately verified channel, limit personal information shared on social media, and avoid scanning QR codes from untrusted sources.`,
+    categorySlug: 'phishing',
+    alertLevel: 'high',
+    sources: ['Policía Nacional Civil (PNC) de Guatemala', 'Ministerio de Gobernación de Guatemala', 'Infobae'],
+    sourceUrl: 'https://www.infobae.com/guatemala/2026/08/12/la-policia-nacional-civil-de-guatemala-alerta-por-un-aumento-de-estafas-digitales/',
+    country: 'GT',
+  },
+  {
+    name: 'Fake State Land Adjudication "Gestor" and Forged Property-Title Scams',
+    slug: 'guatemala-fake-state-land-adjudication-scam',
+    description: `Guatemala's Unidad para el Desarrollo de Vivienda Popular (Udevipo), under the Ministry of Communications, Infrastructure and Housing, issued a public warning on August 8, 2026 about scammers posing as "gestores" (intermediaries) who offer to sell state-owned land plots or promise to speed up the official adjudication process in exchange for cash payments or personal documents. The agency said none of its actual staff are authorized to collect money that way, and that demands for cash or deposits into a personal bank account, rather than an official receipt through authorized state channels, are a clear red flag; it also warned that some of the land being offered sits on space legally reserved for parks, schools, or sports fields and can never be lawfully converted to private property regardless of what a "gestor" promises. Udevipo held a community information session in Carmen del Monte, in the municipality of Villa Nueva, to walk residents through the real social and technical studies a legitimate land adjudication requires, and urged anyone approached about state land to verify the offer directly with Udevipo, the Public Ministry, or the PNC before handing over money or documents. The pattern the alert describes played out concretely weeks later: on September 3, 2026, PNC officers from Comisaría 71 in Santa Cruz del Quiché arrested Gertrudes "N," 63, on three outstanding warrants issued in April and June 2026 for material forgery, ideological forgery, and fraud, after she allegedly advertised land parcels for sale on social media and presented buyers with documentation designed to look like proof of ownership; once purchasers had paid and taken possession, the properties' real legal owners would then come forward. Guatemalans considering any land purchase or state land-adjudication offer are advised to verify ownership documents and any official's authority directly with Udevipo, the relevant land registry, or the PNC before paying anything.`,
+    categorySlug: 'rental-housing',
+    alertLevel: 'high',
+    sources: ['Unidad para el Desarrollo de Vivienda Popular (Udevipo)', 'Policía Nacional Civil (PNC) de Guatemala', 'Infobae', 'La Hora'],
+    sourceUrl: 'https://www.infobae.com/guatemala/2026/08/09/autoridades-en-guatemala-alertan-sobre-estafas-con-terrenos-estatales-y-falsos-tramites-de-adjudicacion/',
+    country: 'GT',
+  },
+  {
+    name: 'Fraudulent World Cup 2026 Resale Tickets Sold via Viagogo',
+    slug: 'guatemala-world-cup-2026-viagogo-ticket-scam',
+    description: `A Guatemalan football fan traveled to Miami with his two children specifically to watch Brazil play Scotland at Hard Rock Stadium during the 2026 World Cup, after buying what he believed were three legitimate tickets through the third-party resale platform Viagogo for $1,300 each — $3,900 in total, on top of flights and hotel costs that brought his full outlay to roughly $4,300. When the family arrived at the stadium gate on match day, the tickets were rejected as invalid and the group was denied entry. "Llegó el día, viajamos desde Guatemala a Miami solo para ver este partido. Me hicieron hacer un gasto de viaje, de hotel. Privé a mis hijos de la experiencia de ver un partido del Mundial para que me vengan a defraudar de esta forma," the fan said afterward, describing how the fraud cost his children the experience he had traveled to give them. His case, reported June 25, 2026, illustrates the risk FIFA and consumer advocates have repeatedly warned about around the tournament: tickets bought through resale marketplaces or third-party sellers rather than FIFA's own official ticketing channel carry no guarantee of validity, and buyers who pay a premium for a high-demand match on a secondary platform can arrive to find their tickets simply do not work. Fans are advised to purchase World Cup tickets only through FIFA's official ticketing website or authorized partners, and to treat any third-party resale offer for a sold-out or high-demand match as a significant fraud risk.`,
+    categorySlug: 'travel-vacation-scams',
+    alertLevel: 'high',
+    sources: ['Emisoras Unidas'],
+    sourceUrl: 'https://emisorasunidas.com/universo-futbol/2026/06/25/guatemalteco-denuncia-estafa-tras-viajar-a-miami-para-ver-a-brasil/',
+    country: 'GT',
+  },
+  {
+    name: '"Double Your Money" White-Goods Investment Ponzi Scheme Run via Telegram',
+    slug: 'guatemala-telegram-double-your-investment-ponzi-scheme',
+    description: `Guatemala's Policía Nacional Civil, through Comisaría 74, arrested Edy "N," 24, on the night of May 31, 2026 at a farm in Santa Bárbara, in the municipality of Pastores, Sacatepéquez, on an arrest warrant issued by a Huehuetenango court charging him with estafa propia (simple fraud). Investigators say Edy "N" contacted prospective victims through the Telegram messaging app offering what he described as investment opportunities in línea blanca — household appliances — and promised to double whatever capital a victim deposited with him. His 21-year-old partner, Jacqueline "N," had been arrested earlier on the same type of fraud charge, on May 2, 2026, in the Concepción canton of San Lorenzo El Tejar, also within Pastores, Sacatepéquez. Because the scheme relied on direct-message solicitation through Telegram promising guaranteed, unrealistic doubling of an investment in a short timeframe rather than any real appliance-resale business, it follows the same collapsing structure as other Ponzi schemes flagged by Guatemalan authorities: early participants can be paid from money collected from those who join later, but the arrangement is mathematically unsustainable once new deposits stop arriving. Guatemalans are advised to treat any unsolicited investment pitch received through Telegram or other messaging apps — especially one promising to double an investment in days — as a likely fraud, and to verify any investment opportunity independently rather than sending money to a contact met only online.`,
+    categorySlug: 'ponzi-pyramid-schemes',
+    alertLevel: 'high',
+    sources: ['Policía Nacional Civil (PNC) de Guatemala', 'Prensa Libre'],
+    sourceUrl: 'https://www.prensalibre.com/guatemala/justicia/asi-operaba-el-supuesto-esquema-de-inversion-con-el-que-capturado-enganaba-a-sus-victimas-breaking/',
+    country: 'GT',
+  },
+);
