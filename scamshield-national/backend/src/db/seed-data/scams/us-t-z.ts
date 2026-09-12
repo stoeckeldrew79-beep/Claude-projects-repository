@@ -3809,3 +3809,17 @@ UsTZ.push({
     isHistorical: true,
     firstRecorded: '2019-05-01',
 });
+
+UsTZ.push({
+    name: 'Jefferson County Power-of-Attorney Elder Fraud (Samuel Bunner)',
+    slug: 'west-virginia-jefferson-bunner-power-of-attorney-elder-fraud',
+    description: `Samuel Kristofer Bunner, then of Ranson, West Virginia, befriended an elderly Charles Town, West Virginia man with dementia while the two worked together at the local American Legion post, using that friendship to make himself useful — driving the victim to medical appointments and accompanying him to a law firm, where the victim named Bunner his Power of Attorney and a signatory on his financial accounts. Over the following two years, according to the U.S. Attorney's Office for the Northern District of West Virginia, Bunner sold the victim's real estate, emptied his investment and bank accounts, and opened credit cards in the victim's name, funneling roughly $1.9 million into homes, campers, vehicles, and other personal purchases for himself and his wife as the victim's own health and finances collapsed. Bunner pleaded guilty in February 2024 to bank fraud and aggravated identity theft, and was sentenced on June 10, 2024 to 121 months — just over ten years — in federal prison, five years of supervised release, and $1,906,229 in restitution, which investigators acknowledged the victim will likely never fully recover. The case is a reminder that naming someone Power of Attorney hands over real, largely unsupervised control over every account it covers: anyone granting POA to a friend, caregiver, or acquaintance — not just a family member — should have a second trusted person or an elder-law attorney independently review account statements on a regular basis, since a POA holder who is also the only person watching the accounts can drain them for months or years before anyone else notices.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office, Northern District of West Virginia", 'WDTV', 'Internal Revenue Service Criminal Investigation'],
+    sourceUrl: 'https://www.wdtv.com/2023/05/23/florida-man-indicted-stealing-millions-elderly-west-virginia-man/',
+    country: 'US',
+    state: 'WV',
+    isHistorical: true,
+    firstRecorded: '2020-01-01',
+});

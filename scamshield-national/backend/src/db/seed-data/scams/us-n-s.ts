@@ -6827,3 +6827,31 @@ UsNS.push({
     isHistorical: true,
     firstRecorded: '2014-01-01',
 });
+
+UsNS.push({
+    name: 'Rutherford County Relative Elder Financial Exploitation (Jill Black Turner)',
+    slug: 'tennessee-rutherford-turner-elder-financial-exploitation',
+    description: `Jill Black Turner, 60, exploited her position as a relative of an elderly victim living at a Murfreesboro, Tennessee care facility, using that trust to steal from him over the course of a year. After Adult Protective Services made a referral in August 2024, Tennessee Bureau of Investigation agents found that between July 2023 and July 2024 Turner had stolen property and cash belonging to the victim, run unauthorized purchases through his checking account, and forged his signature on at least one check. A Rutherford County grand jury indicted Turner on January 6, 2025 on one count each of Financial Exploitation of an Elderly/Vulnerable Adult, Theft of Property between $60,000 and $250,000, and Criminal Simulation, and Rutherford County Sheriff's Office deputies arrested her on January 13, 2025, holding her on a $20,000 bond. The case is a common pattern in elder financial exploitation: the person with unsupervised access to an older relative's finances is often a family member rather than a stranger, which is exactly why it can go undetected for a year or more — anyone with a relative in long-term care should keep an independent eye on that person's bank and credit card statements even when another family member has taken on day-to-day responsibility for their care, and should treat a caregiving relative's resistance to that kind of outside review as a warning sign rather than an inconvenience.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'high',
+    sources: ['Tennessee Bureau of Investigation', 'Rutherford County Sheriff\'s Office'],
+    sourceUrl: 'https://tbinewsroom.com/2025/01/17/lascassas-woman-charged-with-stealing-from-vulnerable-adult/',
+    country: 'US',
+    state: 'TN',
+    isHistorical: true,
+    firstRecorded: '2023-07-01',
+});
+
+UsNS.push({
+    name: 'Uniontown Pre-Need Funeral Insurance Fraud (Stephen Kezmarsky)',
+    slug: 'pennsylvania-uniontown-kezmarsky-preneed-funeral-fraud',
+    description: `Stephen Kezmarsky III, owner of Kezmarsky Funeral Home in Uniontown, Fayette County, Pennsylvania, spent roughly a dozen years collecting "pre-need" funeral policy payments from elderly clients who wanted to arrange and pay for their own funerals in advance, then simply never submitted the completed policies to the insurer, Homesteaders Life Company. Instead, according to the Pennsylvania Attorney General's Office, Kezmarsky deposited the money into his personal and business accounts and spent it on travel, food, liquor, and airfare, leaving families to discover — often only when a loved one died — that no funded policy actually existed and that Kezmarsky would respond to their questions with excuses rather than a funeral. Investigators ultimately tied more than $500,000 in stolen pre-need payments to the scheme; separately, when authorities searched a storage unit connected to Kezmarsky, they found boxes of cremated remains, some unlabeled, leading to additional charges of abuse of a corpse and tampering with records. Kezmarsky pleaded guilty in October 2019 to Theft by Deception, Theft by Failure to Make Required Disposition of Funds, Forgery, and Insurance Fraud, and was sentenced in February 2020 to four to eight years in state prison, twenty years of probation, and $555,000 in restitution. Anyone considering a pre-need funeral plan should pay the insurance company or a state-regulated pre-need trust directly rather than handing cash to the funeral home itself, and should ask the insurer directly to confirm a policy is actually in force rather than simply trusting a receipt from the funeral director who sold it.`,
+    categorySlug: 'insurance-fraud',
+    alertLevel: 'high',
+    sources: ['Pennsylvania Office of Attorney General', 'CBS News Pittsburgh', 'TribLIVE'],
+    sourceUrl: 'https://www.cbsnews.com/pittsburgh/news/uniontown-funeral-director-stephen-kezmarsky-theft-sentencing',
+    country: 'US',
+    state: 'PA',
+    isHistorical: true,
+    firstRecorded: '2005-01-01',
+});
