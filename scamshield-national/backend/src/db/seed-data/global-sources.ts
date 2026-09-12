@@ -773,4 +773,67 @@ export const SEED_GLOBAL_SOURCES: SeedGlobalSource[] = [
       "Uruguay's national consumer-defense unit handles consumer complaints, sanctions non-compliant businesses, and publishes a yearly statistical report on inquiries and complaints handled — Informe estadístico — going back to 2020.",
     data_type: 'annual_report',
   },
+  {
+    agency_name: 'Commission for Consumer Protection (KZP)',
+    country: 'BG',
+    country_name: 'Bulgaria',
+    url: 'https://www.kzp.bg/en',
+    description:
+      "Bulgaria's national market-surveillance and consumer-protection body handles consumer complaints and signals and publishes a legally required annual report (Годишен доклад) on its enforcement activity, sanctions, and complaint volumes.",
+    data_type: 'annual_report',
+  },
+  {
+    agency_name: 'Slovak Trade Inspection (SOI)',
+    country: 'SK',
+    country_name: 'Slovakia',
+    url: 'https://www.soi.sk/en/SOI.soi',
+    description:
+      "Slovakia's state market-surveillance authority for consumer protection investigates trader complaints and product-safety violations, and publishes a yearly Výročná správa (annual report) detailing inspection counts, submissions received, and sanctions imposed.",
+    data_type: 'annual_report',
+  },
+  {
+    agency_name: 'Consumer Rights Protection Centre (PTAC)',
+    country: 'LV',
+    country_name: 'Latvia',
+    url: 'https://www.ptac.gov.lv/en',
+    description:
+      "Latvia's national consumer-rights authority, operating under the Ministry of Economics, handles consumer complaints and publishes ongoing statistics on complaint and consultation volumes by sector, including financial services and travel.",
+    data_type: 'public_stats',
+  },
+  {
+    agency_name: 'Consumer Protection Service — Ministry of Energy, Commerce and Industry',
+    country: 'CY',
+    country_name: 'Cyprus',
+    url: 'https://consumer.gov.cy/en/',
+    description:
+      "Cyprus's government consumer-protection department investigates unfair commercial practices and product-safety complaints, and publishes a statistics section covering complaint activity alongside RAPEX hazardous-product recall notices.",
+    data_type: 'public_stats',
+  },
+  {
+    agency_name: 'Public Authority for Consumer Protection (PACP)',
+    country: 'OM',
+    country_name: 'Oman',
+    url: 'https://gov.om/en/consumer-protection-authority',
+    description:
+      "Oman's national consumer-protection authority investigates fraud, price violations, and counterfeiting complaints, and publishes periodic statistics on complaints, reports, violations, and seized goods.",
+    data_type: 'public_stats',
+  },
+  {
+    agency_name: 'Competition and Consumer Authority (CCA)',
+    country: 'BW',
+    country_name: 'Botswana',
+    url: 'https://www.cca.co.bw/',
+    description:
+      "Botswana's competition and consumer-protection regulator investigates unfair business practices and consumer complaints, and publishes a legally required annual report covering its enforcement and complaint-handling activity.",
+    data_type: 'annual_report',
+  },
+  {
+    agency_name: 'Competition and Consumer Protection Commission (CCPC)',
+    country: 'ZM',
+    country_name: 'Zambia',
+    url: 'https://www.ccpc.org.zm/',
+    description:
+      "Zambia's dual-mandate competition and consumer-protection commission investigates consumer complaints and unfair trading practices, and publishes an annual report on its enforcement, complaint-resolution, and consumer-education activity.",
+    data_type: 'annual_report',
+  },
 ];
