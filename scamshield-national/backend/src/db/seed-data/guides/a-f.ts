@@ -8017,6 +8017,10 @@ The case is a useful reminder that a credit report doesn't just fail by being ha
     slug: "american-vision-partners-2023-data-breach-settlement-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "american-vision-partners-2023-data-breach-settlement"],
+    // representative photo — replace with an exact match if found
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/US_Navy_060526-N-3532C-058_U.S._Navy_Ophthalmologist,_Cdr._Jason_Ross,_conducts_an_eye_exam_for_a_local_resident_aboard_Military_Sealift_Command_hospital_ship_USNS_Mercy.jpg?width=1200",
+    coverImageCredit: "Photo: U.S. Navy, Public Domain, via Wikimedia Commons — a routine eye exam, the kind of care the clinics provide",
+    coverImagePosition: 50,
     sourceUrl: "https://www.classaction.org/news/1.75m-american-vision-partners-settlement-ends-data-breach-lawsuit-over-2023-incident",
     body: `American Vision Partners is a Phoenix-based practice management company that runs eye-care and ophthalmology clinics across Arizona, Nevada, New Mexico, and Colorado under a collection of local brand names most patients wouldn't necessarily connect to one another. The company identified suspicious activity in its computer systems on November 14, 2023, and a forensic investigation confirmed around December 6, 2023 that an unauthorized third party had accessed certain systems and copied files containing patient information. As is common with practice-management breaches, the disclosed scope grew over time: American Vision Partners' own regulatory filing put the total at roughly 2.35 million people, though the HHS Office for Civil Rights breach portal was later updated to a slightly smaller 2,264,157, and the resulting class action defines its core class around approximately 1.6 million affected Americans.
 
@@ -8031,6 +8035,9 @@ A Social Security number paired with a real name, date of birth, and detailed cl
     slug: "bestway-above-ground-pools-2026-settlement-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "bestway-above-ground-pools-settlement"],
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Above_ground_pool.jpg?width=1200",
+    coverImageCredit: "Photo: Jonathan Hogue, Public Domain, via Wikimedia Commons — an above-ground pool, the type recalled over the hazard",
+    coverImagePosition: 50,
     sourceUrl: "https://www.classaction.org/news/15m-bestway-settlement-resolves-class-action-lawsuit-over-recalled-above-ground-pools",
     body: `On July 21, 2025, the U.S. Consumer Product Safety Commission and Health Canada announced a joint recall of roughly 5 million above-ground pools, 48 inches or taller, sold by three manufacturers — Bestway, Intex, and Polygroup — since 2002. The hazard wasn't a manufacturing flaw inside the pool itself but a strap running along the outside of the pool's vertical support legs, meant to hold the structure together, that the CPSC found could double as a foothold: a small child could use it to climb up and into the pool even after a parent had removed the ladder specifically to keep them out. The recall notice tied the defect to nine reported child drowning deaths between 2007 and 2022, all involving children between 22 months and 3 years old, in California, Texas, Florida, Michigan, Wisconsin, and Missouri. Bestway, Intex, and Polygroup offered affected owners a free repair kit — a ground-level rope system to replace the external strap — but a separate class action targeted Bestway specifically over the years its pools were sold with the hazard already built in.
 
