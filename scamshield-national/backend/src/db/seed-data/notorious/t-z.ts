@@ -2798,3 +2798,22 @@ Yang, 37, pleaded guilty on March 18, 2026, to grand larceny in the third degree
     sourceUrl: 'https://queensda.org/bayside-woman-sentenced-for-pig-butchering-scam-that-targeted-victims-from-across-the-country-2-5-million-in-restitution-secured/',
   },
 );
+
+NotoriousTZ.push(
+  {
+    title: 'The Vanguard Holdings Group "Bond Trading" Ponzi Scheme',
+    slug: 'vanguard-holdings-group-bond-trading-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    body: `Starting around May 2021, Dallas-Fort Worth residents Kenneth W. Alexander II and Robert D. Welsh began raising money through a trust Alexander controlled called the Vanguard Holdings Group Irrevocable Trust, or VHG. According to a civil fraud complaint the Securities and Exchange Commission filed in April 2025, Alexander and Welsh told investors that VHG ran a highly profitable international bond-trading business with billions of dollars in assets, and offered a pitch built to sound both generous and safe at once: twelve guaranteed monthly payments of between 3 and 6 percent, with the full principal returned after fourteen months. To make that promise feel even more secure, the SEC says the pair also sold a supposed "pay order" instrument, marketed as a form of protection against losing the underlying investment — protection the SEC alleges was as illusory as the bond-trading business it was meant to insure.
+
+A third Dallas-Fort Worth resident, Caedrynn E. Conner, ran a parallel arm of the scheme through his own vehicle, the Benchmark Capital Holdings Irrevocable Trust. Rather than trade bonds himself, Conner is accused of funneling more than $46 million of the money he raised from his own investors directly into VHG, using a nearly identical guaranteed-return pitch to bring in new money that, per the SEC's complaint, ultimately financed payouts to earlier investors in classic Ponzi fashion. Between May 2021 and February 2024, the scheme raised at least $91 million from more than 200 investors, the SEC says, all funneled into an operation with no material legitimate source of revenue behind it.
+
+Instead of profits from bond trading that the SEC alleges never happened, the "guaranteed" monthly payments investors received were, according to the complaint, simply later investors' money being recycled back out as returns — the defining mechanic of a Ponzi scheme, dressed up with the vocabulary of institutional finance. The SEC's complaint alleges that Alexander and Conner personally misappropriated millions of dollars of investor money, including Conner's use of scheme funds to buy a $5 million home.
+
+The SEC filed its civil complaint in the U.S. District Court for the Eastern District of Texas on April 29, 2025, charging Alexander, Welsh, and Conner with violating the registration and antifraud provisions of the federal securities laws, and is seeking permanent injunctions, disgorgement of ill-gotten gains with prejudgment interest, and civil penalties against all three. "We remain unwavering in our commitment to hold individuals accountable for defrauding investors," said Sam Waldon, then the SEC's Acting Director of Enforcement, in announcing the case. As of this writing the litigation is ongoing, with no finding of liability yet entered against any of the three defendants.
+
+The Vanguard Holdings Group case follows a structure familiar from decades of promissory-note Ponzi schemes: a headline promise vague enough to defy easy verification — "international bond trading" — paired with fixed, above-market monthly returns and a secondary "protection" product designed to make a skeptical investor feel doubly covered. Layering a second trust, Conner's Benchmark, on top of the first let the scheme reach a wider pool of investors while keeping each layer one step removed from having to explain, in any real detail, where the underlying trading actually happened — a structure regulators say let it run for nearly three years and reach more than 200 investors before it was ever tested by a real redemption request it couldn't pay.`,
+    sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26301',
+  },
+);
