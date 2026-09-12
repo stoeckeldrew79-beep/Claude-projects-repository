@@ -6965,3 +6965,17 @@ UsNS.push({
     isHistorical: true,
     firstRecorded: '2006-11-01',
 });
+
+UsNS.push({
+    name: 'San Antonio DJE Real Estate Fund $69.5 Million Investor Fraud (Devin Ward Elder)',
+    slug: 'texas-san-antonio-elder-dje-real-estate-fraud',
+    description: `Devin Ward Elder, 47, founder and CEO of the San Antonio-based real estate investment firm DJE Texas Management Group LLC, fraudulently raised more than $69.5 million from approximately 345 investors across 17 real estate offerings between January 2023 and March 2025. Elder told investors he would personally "co-invest" his own money alongside theirs and promised high returns with low risk on projects that included multifamily apartments, industrial flex-space, land, and commercial buildings, as well as a general "Income Fund." In reality, Elder used roughly $8.8 million contributed by newer investors to make "interest" and "principal" payments to earlier investors, presenting the payments as legitimate investment returns rather than disclosing that the money actually came from other investors. In March 2025, Elder halted the payments and told investors his businesses were in financial difficulty, that several projects would not be completed, and that they should expect to lose a large share of what they had put in. He was charged with one count of wire fraud on January 28, 2026, and pleaded guilty on February 17, 2026, agreeing as part of his plea to pay $66 million in restitution; he faces up to 20 years in federal prison at sentencing, scheduled for the week of June 2, 2026. The case is a reminder that a fund manager's promise to "co-invest" alongside clients means little without independent proof — ask to see the manager's own capital contribution documented in the fund's official records rather than only stated in a pitch deck, and be wary of any real estate fund that keeps raising money from new investors to pay returns to earlier ones.`,
+    categorySlug: 'ponzi-pyramid-schemes',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office, Western District of Texas", 'FOX 7 Austin'],
+    sourceUrl: 'https://www.fox7austin.com/news/san-antonio-ceo-pleads-guilty-69-5m-real-estate-ponzi-scheme',
+    country: 'US',
+    state: 'TX',
+    isHistorical: true,
+    firstRecorded: '2023-01-01',
+});

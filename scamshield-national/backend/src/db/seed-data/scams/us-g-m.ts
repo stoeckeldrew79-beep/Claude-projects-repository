@@ -7078,3 +7078,17 @@ UsGM.push({
     isHistorical: true,
     firstRecorded: '2012-01-01',
 });
+
+UsGM.push({
+    name: 'Illinois COVID-Relief Loan Fraud and Luxury Car Forfeiture (Francesco Distefano)',
+    slug: 'illinois-addison-distefano-covid-relief-fraud-luxury-cars',
+    description: `Francesco Distefano, 29, of Addison, Illinois, and co-defendant Sargis Urumieh of Glendale, California, exploited the federal Paycheck Protection Program (PPP) and Economic Injury Disaster Loan (EIDL) program during 2020 and 2021, submitting applications for two companies where Urumieh served as a corporate officer as well as for a technology company Distefano personally owned and controlled. The applications contained false statements about the companies' number of employees, gross revenues, and payroll expenses, ultimately causing a loss to the federal government of more than $3.3 million. While collecting the COVID-relief loan proceeds and continuing to work for his technology company, Distefano separately filed for and fraudulently collected more than $37,500 in Illinois unemployment benefits under his own name and a relative's name. Prosecutors say he spent the fraud proceeds on a Lamborghini Huracan, a Maserati Ghibli, a Land Rover Evoque SE, and a Porsche 911 — all four vehicles were seized by law enforcement and forfeited to the government. Distefano pleaded guilty to wire fraud, and on March 23, 2026, U.S. District Judge Jeremy C. Daniel of the Northern District of Illinois sentenced him to 78 months (six and a half years) in federal prison. The case is a reminder that pandemic-era relief fraud didn't end when the programs did — the government continues to pursue these cases and their forfeitures years later, and inflating payroll or revenue figures on a PPP or EIDL application leaves an applicant exposed to prosecution long after the loan was funded.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'medium',
+    sources: ['Internal Revenue Service Criminal Investigation', "U.S. Attorney's Office, Northern District of Illinois"],
+    sourceUrl: 'https://www.irs.gov/compliance/criminal-investigation/federal-judge-sentences-suburban-chicago-man-to-six-and-a-half-years-in-prison-for-3-point-3-million-covid-relief-fraud',
+    country: 'US',
+    state: 'IL',
+    isHistorical: true,
+    firstRecorded: '2020-01-01',
+});

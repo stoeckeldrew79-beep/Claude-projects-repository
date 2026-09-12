@@ -3919,3 +3919,17 @@ UsTZ.push({
     country: 'US',
     state: 'TX',
 });
+
+UsTZ.push({
+    name: 'Tamarac-Based Medicare Orthotic Brace Fraud and Money Laundering Scheme (Scamarone, Mendez, and Vazquez)',
+    slug: 'florida-tamarac-scamarone-mendez-vazquez-brace-fraud',
+    description: `Marco Scamarone, 34, and Renee Vazquez, 33, both of Tamarac, and Jose Mendez, 34, of Coral Springs, owned and operated two durable medical equipment (DME) companies — Braces and Orthotics LLC, nominally based in the Eastern District of Virginia, and Stone Oak Durable Medical Equipment LLC, based in South Florida. Between January 2022 and February 2023, the two companies submitted approximately $6.9 million in false claims to Medicare for orthotic braces that beneficiaries neither needed nor were eligible to receive, paying illegal kickbacks and bribes to an offshore marketing company in exchange for patient referrals and fraudulent doctors' orders authorizing the equipment. The three defendants then laundered more than $2.2 million of the fraud proceeds through a series of shell companies they and their associates controlled. All three pleaded guilty in December 2025, and on June 1, 2026 were sentenced in the U.S. District Court for the Southern District of Florida — Mendez to 78 months, Scamarone to 70 months, and Vazquez to 60 months in federal prison, with Scamarone and Mendez ordered to forfeit more than $2.2 million and pay over $3 million in restitution, and Vazquez ordered to forfeit more than $1.7 million and pay over $2.2 million in restitution. Medicare beneficiaries who receive an orthotic brace or other durable medical equipment they never requested from their own doctor should check the Medicare Summary Notice mailed after any claim and report unfamiliar billing, since an unsolicited shipment is often the first sign that a beneficiary's Medicare number is being used to bill for equipment they never asked for and never received.`,
+    categorySlug: 'medicare-health-plans',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office, Southern District of Florida", 'NBC6 South Florida'],
+    sourceUrl: 'https://www.nbcmiami.com/news/local/south-florida-men-sentenced-in-2-2m-medicare-fraud-and-money-laundering-scheme/3815932/',
+    country: 'US',
+    state: 'FL',
+    isHistorical: true,
+    firstRecorded: '2022-01-01',
+});
