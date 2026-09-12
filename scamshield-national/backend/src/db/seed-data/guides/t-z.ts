@@ -2435,6 +2435,10 @@ A W-2 and direct-deposit information together are an unusually potent combinatio
     slug: "tinder-age-discrimination-settlement-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "tinder-age-discrimination-settlement"],
+    // representative photo — replace with an exact match if found
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Stanley_Mosk_Courthouse-1.jpg?width=1200",
+    coverImageCredit: "Photo: Visitor7, CC BY-SA 3.0, via Wikimedia Commons — the Los Angeles courthouse where the age-discrimination case was filed",
+    coverImagePosition: 50,
     sourceUrl: "https://www.classaction.org/news/60.5m-tinder-settlement-resolves-class-action-lawsuit-over-alleged-age-discrimination",
     body: `Long before Tinder became the subject of a class action, its pricing already had a quirk baked in: when the dating app introduced its paid Tinder Plus subscription, it charged users under 30 one price and users 30 and older roughly double for the exact same features. Tinder user Allen Candelore sued over the practice in 2015, and his case, Candelore v. Tinder, Inc. (California Superior Court, Case No. BC583162), argued that charging people more for a subscription purely because of their age violated California's Unruh Civil Rights Act, which bars businesses from discriminating against customers based on age and other protected characteristics, as well as the state's Unfair Competition Law.
 
