@@ -6214,3 +6214,22 @@ P&R is a reminder that a fraud doesn't need an exotic financial instrument to re
     sourceUrl: 'http://www.xinhuanet.com/english/2019-02/07/c_137805349.htm',
   },
 );
+
+NotoriousNS.push(
+  {
+    title: 'Jefferson "Soapy" Smith and the Klondike Con Empire That Ended in a Wharf Shootout',
+    slug: 'soapy-smith-skagway-klondike-con-empire',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Jefferson Randolph Smith II was born in Georgia in 1860 and drifted west as a young man, working cattle drives in Texas before discovering he could make far more money running confidence games on the boomtowns of the American frontier. He got his lasting nickname in Denver, Colorado, in the 1880s from a street con known as the "prize soap racket": Smith would sell ordinary bars of soap from a stand for a few dollars each, loudly announcing that some bars had $50 or $100 bills wrapped inside, while a planted accomplice in the crowd would "win" one of the marked bars to whip up buying frenzy among onlookers who never won anything at all. He refined similar schemes — rigged card games, fake lotteries, a staged "petrified man" exhibit in the silver-mining town of Creede, Colorado — into an organized racket, building networks of shills, corrupt lawmen, and lookouts wherever he operated.
+
+In 1897 the Klondike Gold Rush turned the tiny Alaskan port of Skagway into a chaotic gateway town, as tens of thousands of prospectors passed through on their way to the Yukon goldfields carrying cash and gold dust for outfitting supplies. Smith arrived that year and by May 1898 had set up his base of operations, a saloon and gambling hall on Sixth Avenue that came to be known as Jeff Smith's Parlor. From there he ran a network of rigged card and dice games, a fraudulent telegraph office that charged prospectors to send messages over wires that didn't actually connect anywhere beyond the building, and phony information and employment bureaus, all aimed at separating gold-rush stampeders from their stakes before they ever reached the goldfields.
+
+Smith's operation grew brazen enough that Skagway's law-abiding residents organized a vigilance committee, popularly known as the Committee of 101, to drive him and his gang out of town; Smith responded by recruiting his own loyalists into a rival "Committee of 303." The breaking point came after members of Smith's gang robbed a miner named John Douglas Stewart of roughly $2,600 in gold dust in a rigged game of three-card monte. When the vigilance committee demanded the gold back and Smith refused, they called a meeting on a company-owned dock in Skagway known as the Juneau Wharf. Smith arrived on July 8, 1898, carrying a rifle, and was stopped from entering by one of the committee's armed guards, city engineer Frank Reid. A gunfight broke out between the two men: Reid shot Smith dead on the spot, while Smith's shots left Reid mortally wounded; Reid died of his injuries twelve days later. Overnight, Skagway's vigilantes rounded up dozens of Smith's remaining associates and expelled them from town, effectively ending the operation for good — no court ever tried Smith, since he was killed before any case against him could be brought.
+
+Smith was buried outside what was then Skagway's city limits, since the graveyard's caretakers initially refused him a plot inside; his grave remains a stop on Skagway tours today, and the National Park Service now operates Jeff Smith's Parlor itself as a museum within Klondike Gold Rush National Historical Park, preserving the building from which he ran his three-month reign over the town.
+
+Soapy Smith's Skagway operation is a reminder that organized confidence rackets are as old as the boomtowns that attract fast money and thin law enforcement, and that many of the manipulation techniques still used in modern scams — a planted "winner" to draw a crowd, a fabricated air of legitimacy, an environment the con artist fully controls — were already refined into a business model more than a century before wire transfers and cryptocurrency gave fraud new tools to work with. It's also a case study in what happens when formal law enforcement is too weak or too compromised to act: rather than face a courtroom, Smith met his end in a gunfight brought on by the very citizens his schemes had targeted.`,
+    sourceUrl: 'https://www.nps.gov/klgo/learn/historyculture/jeffsmithsparlor.htm',
+  },
+);
