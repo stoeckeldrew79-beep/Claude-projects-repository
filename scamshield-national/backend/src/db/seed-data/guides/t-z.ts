@@ -161,23 +161,6 @@ If you receive a call like this, the single most useful thing you can do is try 
 If you believe you're being targeted, call 911 and ask that the FBI be notified, and never wire money based on a phone threat alone without verifying first. You can also file a report with the FBI's Internet Crime Complaint Center at IC3.gov, including the phone numbers involved, any messages or photos sent, and details of any payment already made.`,
   },
 {
-    title: 'Unpaid Toll Text Scams: The Overdue Charge You Never Actually Owe',
-    slug: 'unpaid-toll-text-scams',
-    author: 'ScamShield Editorial',
-    tags: ['guide', 'toll-text-scams'],
-    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2024/05/text-about-overdue-toll-charges-probably-scam',
-    body: `A text arrives claiming to be from a state tolling agency — EZ-Pass, SunPass, FasTrak, and TxTag are among the most commonly impersonated — warning of a small overdue toll balance, often just $11 or $12, and threatening a $50 late fee or even registration suspension if it isn't paid immediately through a link in the message. The link leads to a page designed to look like the real toll agency's site, asking for a name, address, driver's license number, and credit card details to "settle" a charge that was never actually owed.
-
-The FTC has confirmed these toll texts are now the fastest-growing form of government impersonation fraud in the country, helping drive a 40% jump in imposter-scam reports and pushing total imposter fraud losses to $3.5 billion in 2025 alone. The scam works at scale because it's cheap to blast out to random phone numbers, and enough recipients actually do have a toll account somewhere that the premise lands as plausible rather than obviously fake.
-
-The FTC has identified some clear tells that separate these texts from anything a real tolling agency would send: recipients in states with no toll roads at all — Arizona, Louisiana, and Wisconsin among them — have reported getting the exact same message, and many of the fraudulent links route through phone numbers and web domains registered overseas rather than by the toll agency actually named in the text. Most fundamentally, real tolling agencies send unpaid-balance notices by physical mail, not by text message or email — a text demanding immediate payment for a toll is, by itself, the clearest sign something is wrong.
-
-If a toll text like this arrives, the FTC's advice is to not click the link or respond, and instead check the account directly by typing the toll agency's own web address into a browser or calling a phone number found independently — never one provided in the text itself. Suspicious texts can be reported by forwarding them to 7726 (SPAM) or through your phone's built-in "report junk" option, and should be deleted once reported.`,
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/E-ZPass_Transponder_(G4_Style).jpg?width=1200',
-    coverImageCredit: 'Photo: Mikeettm (CC BY-SA 3.0)',
-    coverImagePosition: 50,
-  },
-{
     title: 'Wedding Vendor Scams: When the Photographer or Venue You Booked Never Shows',
     slug: 'wedding-vendor-scams',
     author: 'ScamShield Editorial',
