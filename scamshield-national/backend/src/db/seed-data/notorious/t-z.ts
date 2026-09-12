@@ -2870,3 +2870,22 @@ The BHI Trust case is a reminder that a Ponzi scheme doesn't need an offshore ad
     sourceUrl: 'https://mg.co.za/news/2024-05-28-bhi-trust-convicted-fraudster-craig-warriner-sentenced-to-25-years/',
   },
 );
+
+NotoriousTZ.push(
+  {
+    title: 'Toby Whittaker and the £75 Million Store First Pension Storage-Pod Scheme',
+    slug: 'toby-whittaker-store-first-pension-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'international'],
+    body: `Note: this profile describes a pending UK criminal prosecution. Toby Whittaker and his co-defendants have been charged but not yet tried, and a charge is only an accusation, not evidence of guilt. All defendants are presumed innocent unless and until proven guilty at trial, and Whittaker's legal team has said he "vehemently denies any wrongdoing" and intends to contest the case in full.
+
+Toby Whittaker was the Lancashire-based owner of Store First, a company that sold self-storage units across sites in England and Scotland as an investment product rather than simply a place to store belongings. Between 2011 and 2014, Store First and firms working alongside it persuaded more than 1,900 people to transfer money out of their pensions into self-invested personal pensions (SIPPs) specifically so it could be used to buy storage units, on the promise that each unit would be leased back long-term and generate a steady rental income — pitched, in effect, as a pension-friendly alternative to a conventional annuity or fund.
+
+Britain's Serious Fraud Office alleges that the pitch didn't match reality. According to the charges, marketing materials promised guaranteed returns and claimed storage units were ready to rent out immediately, when in fact the SFO says many were not, and investors were not warned that upfront cash incentives offered to sweeten the deal could leave them exposed to unexpected tax liabilities. Altogether, roughly £75 million in pension savings was funnelled into the scheme. The SFO opened its investigation, later designated Operation Hazel, in 2016, and the case took nine years to reach criminal charges — a gap that reflects how document-heavy and jurisdictionally complex a pension-fraud investigation spanning thousands of individual SIPP transfers can be to build to a prosecutable standard.
+
+On July 24, 2025, the SFO announced it had charged six individuals connected to Store First: Whittaker, Stephen Michael Talbot, Stuart Grehan (also known as Stuart Chapman-Clark), Terence Wright, and Emma Hawkins (also known as Emma Grehan) each face charges of conspiracy to defraud, with Talbot and a sixth defendant additionally charged with money laundering, and Talbot and Grehan further charged under the Perjury Act. All six appeared before Westminster Magistrates' Court on August 21, 2025, the formal first step toward a Crown Court trial that has not yet been scheduled to conclude.
+
+The Store First case is a reminder that a pension transfer is one of the highest-stakes financial decisions most people make precisely because it's often irreversible, and that an investment marketed as an alternative to a boring, regulated pension fund deserves more scrutiny for being unusual, not less — especially when the promised return depends on an asset, like a storage unit that may or may not yet be built or tenanted, that an ordinary saver has no easy way to inspect or verify themselves.`,
+    sourceUrl: 'https://www.gov.uk/government/news/sfo-charges-six-in-complex-pension-fraud-investigation',
+  },
+);
