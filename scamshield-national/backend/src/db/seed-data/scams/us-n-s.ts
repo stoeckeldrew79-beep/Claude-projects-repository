@@ -6746,3 +6746,16 @@ UsNS.push({
     country: 'US',
     state: 'PA',
 });
+
+UsNS.push({
+    name: 'Platinum Partners $1 Billion Hedge Fund Bond Fraud',
+    slug: 'new-york-platinum-partners-nordlicht-black-elk-bond-fraud',
+    description: `Platinum Partners, a New York City hedge fund manager that oversaw as much as $1.7 billion in assets at its peak, was accused by the SEC and federal prosecutors in Brooklyn of running a scheme built to hide a mounting liquidity crisis from investors rather than admit the fund's flagship strategy was failing. Founder and chief investment officer Mark Nordlicht and co-chief investment officer David Levy secretly had Platinum-affiliated entities buy up roughly $98 million of the $150 million in outstanding bonds of Black Elk Energy Offshore Operations, an oil company Platinum already held a large stake in, then used that hidden bond position to rig a 2014 vote of Black Elk's bondholders so that proceeds from a $70 million sale of Black Elk's assets flowed to Platinum insiders instead of being distributed to Black Elk's genuine bondholders ahead of Black Elk's 2015 bankruptcy. The SEC separately charged Nordlicht, Platinum, and several other executives in December 2016 with a broader scheme to overstate the value of Platinum's largest holdings and use preferential redemptions and misleading statements to attract new investor money while the fund was quietly running out of cash. A federal jury convicted Nordlicht and Levy of securities fraud and conspiracy in July 2019; after years of appeals — including a trial judge's rare decision to overturn the verdict, later reinstated by the Second Circuit and left standing by the Supreme Court — Nordlicht was sentenced in 2024 to six months of home confinement and a $5,000 fine, while Levy received a sentence of time served and a matching fine before President Trump granted him a full pardon in January 2026. The case illustrates that a hedge fund's ability to keep meeting redemption requests on schedule proves nothing about its underlying solvency; anyone evaluating a private fund should ask for independently audited financials and confirm asset valuations with a source other than the fund manager itself.`,
+    categorySlug: 'investment-fraud',
+    sources: ['U.S. Securities and Exchange Commission', "U.S. Attorney's Office, Eastern District of New York"],
+    sourceUrl: 'https://www.sec.gov/newsroom/press-releases/2016-267',
+    country: 'US',
+    state: 'NY',
+    isHistorical: true,
+    firstRecorded: '2014-01-01',
+});

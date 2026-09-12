@@ -9216,3 +9216,34 @@ Pescanova is a reminder that hiding debt doesn't always require one dramatic lie
     sourceUrl: 'https://www.salmonbusiness.com/former-pescanova-president-jailed-for-8-years-over-fraud/',
   },
 );
+
+NotoriousGM.push(
+  {
+    title: 'Peter Kambolin and the Cherry-Picking Scheme Hidden Inside a Legitimate Trading Firm',
+    slug: 'peter-kambolin-systematic-alpha-cherry-picking-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    body: `Peter Kambolin ran Systematic Alpha Management LLC, a Florida-based firm registered with the Commodity Futures Trading Commission as both a commodity trading advisor and a commodity pool operator. Unlike many of the schemes in this collection, Systematic Alpha wasn't a front for a fake business — it operated at least two real commodity pools that genuinely traded exchange-listed cryptocurrency and foreign-exchange futures, exactly as advertised to the investors who put money into them.
+
+The fraud was in how the trades got divided up. From January 2019 to November 2021, Kambolin also traded proprietary accounts belonging to himself and his firm side-by-side with the pools' accounts, and at the end of each trading day allocated that day's trades between them — a practice regulators call "cherry-picking." Investigators found that Kambolin consistently steered the day's profitable trades into his own and his firm's proprietary accounts while assigning the losing or less-profitable trades to the pools funded by outside investors, quietly capturing the strategy's real performance for himself while participants absorbed the downside of a trading system that, on paper, they were supposed to be sharing equally.
+
+In September 2023, the Justice Department's Fraud Section criminally charged Kambolin with one count of conspiracy to commit commodities fraud. He pleaded guilty, and in January 2024 was sentenced to two years in prison followed by 18 months of home confinement, and ordered to pay $1.63 million in criminal forfeiture and $1.2 million in restitution. The CFTC pursued a parallel civil case, and on September 17, 2025, the U.S. District Court for the Southern District of Florida entered a consent order requiring Systematic Alpha, Kambolin, and Jersey City Partners LLC — a separate Kambolin-owned firm that had received some of the diverted profits — to pay a combined $2.8 million in restitution and disgorgement, permanently barring Kambolin from CFTC registration and from personally trading commodities for six years.
+
+Cherry-picking cases like Kambolin's are a reminder that "did the fund actually trade what it said it would" is a different question from "did every investor get a fair share of how it did." A legitimately operating trading strategy, run through real markets with real trades, can still be turned into a fraud simply by deciding, trade by trade and after the fact, who gets the winners and who gets stuck with the losers.`,
+    sourceUrl: 'https://www.cftc.gov/PressRoom/PressReleases/9127-25',
+  },
+  {
+    title: 'Francius Marganda and the $24.5 Million Ponzi Scheme Built on Fake Loan Programs',
+    slug: 'francius-marganda-easy-transfer-global-transfer-ponzi',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'international'],
+    body: `Francius Marganda, an Indonesian national living in New York on an overstayed visa, spent two years — from May 2019 to May 2021 — running a Ponzi scheme built around two supposed short-term, high-interest loan programs he called Easy Transfer and Global Transfer. He marketed them heavily within the Indonesian-American community, presenting himself as a trustworthy fellow countryman and promising participants returns as high as 200 percent or more.
+
+There was no real lending business behind either program. Investigators identified 237 victims, ranging in age from 24 to 84, spread across at least 31 U.S. states, Washington D.C., Indonesia, and Malaysia, who together put in more than $24.5 million. Marganda paid earlier participants using money brought in by later ones, and diverted a substantial share of the total for himself, spending it on real estate and luxury goods, until the scheme collapsed in May 2021 when payments to investors stopped.
+
+Rather than face his victims, Marganda fled the United States on a fraudulent Indonesian passport. He was tracked down and extradited from Singapore in November 2023 to face federal charges, then pleaded guilty to securities fraud in July 2024. On April 3, 2025, U.S. District Judge Dora L. Irizarry sentenced him to 18 years in prison and ordered him to pay $8.5 million in restitution and forfeit an additional $7.5 million.
+
+The case illustrates how affinity fraud crosses borders as easily as its victims do: Marganda built trust by targeting people who shared his own immigrant community and language, ran the scheme from inside the United States while overstaying a visa, and very nearly escaped accountability entirely by fleeing back overseas — undone in the end not by anything that happened in a courtroom, but by an international manhunt and extradition effort that took more than two years to bring him back.`,
+    sourceUrl: 'https://www.irs.gov/compliance/criminal-investigation/leader-of-international-ponzi-scheme-targeting-indonesian-american-community-sentenced-to-18-years-in-prison',
+  },
+);

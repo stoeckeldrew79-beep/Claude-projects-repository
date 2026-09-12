@@ -8002,3 +8002,29 @@ UsAF.push({
     isHistorical: true,
     firstRecorded: '2022-06-01',
 });
+
+UsAF.push({
+    name: 'Zach Avery $650 Million Fake Movie-Licensing Ponzi Scheme',
+    slug: 'california-zach-avery-1inmm-movie-licensing-ponzi-scheme',
+    description: `Zachary Horwitz, a little-known Los Angeles actor who went by the screen name Zach Avery, told investors for more than five years that his company, 1inMM Capital LLC, bought the rights to obscure foreign and independent films and then resold streaming licenses to HBO and Netflix at a markup — an investment backed by six- to twelve-month promissory notes promising returns of 25 to 45 percent. Neither streaming platform had ever done business with Horwitz or his company; the license agreements, distribution contracts, and even email chains he showed investors, including several of his own closest college friends, were fabricated, with forged signatures standing in for real Netflix and HBO executives. Operating out of his home in the Beverlywood neighborhood of Los Angeles, Horwitz used more than $650 million raised from investors between 2014 and 2019 to pay off earlier lenders in classic Ponzi fashion while funding a lifestyle that included a multimillion-dollar house, private jet travel, and Las Vegas trips. He pleaded guilty to securities fraud in October 2021, and on February 16, 2022, U.S. District Judge Mark C. Scarsi sentenced him to 20 years in federal prison and ordered him to pay $230.3 million in restitution to the roughly 200 investors he defrauded. The case is a reminder that a real, verifiable distribution agreement with a specific streaming platform — not a promised relationship or a document the borrower supplies himself — is the only way to confirm a media-licensing investment is actually backed by anything at all.`,
+    categorySlug: 'ponzi-pyramid-schemes',
+    sources: ["U.S. Attorney's Office, Central District of California"],
+    sourceUrl: 'https://www.justice.gov/usao-cdca/pr/la-man-sentenced-20-years-federal-prison-650-million-ponzi-scheme-falsely-claimed',
+    country: 'US',
+    state: 'CA',
+    isHistorical: true,
+    firstRecorded: '2014-01-01',
+});
+
+UsAF.push({
+    name: 'Gina Champion-Cain $400 Million Liquor License Loan Ponzi Scheme',
+    slug: 'california-gina-champion-cain-ani-development-ponzi-scheme',
+    description: `Gina Champion-Cain, a well-known San Diego restaurateur and businesswoman, ran what federal prosecutors called the largest known Ponzi scheme in the history of the Southern District of California through her company, ANI Development LLC, from 2012 until the fraud was halted in 2019. She told investors their money would fund short-term, high-interest bridge loans to people trying to buy California liquor licenses — a genuine but slow-moving process that made a private lender's quick cash a plausible-sounding business — but no such loan program ever actually existed at the scale she claimed; Champion-Cain instead used new investors' money to repay earlier ones while diverting tens of millions of dollars to prop up her failing restaurant businesses and fund a lifestyle that included homes, jewelry, and season tickets to the Padres and Chargers. Nearly 500 investors poured more than $372 million into the scheme before it collapsed, and when the SEC and FBI began investigating in 2019, Champion-Cain and an associate fabricated documents and coached a witness in an attempt to obstruct the investigation. She pleaded guilty to securities fraud, conspiracy, and obstruction of justice, and on March 31, 2021, U.S. District Judge Larry Alan Burns sentenced her to 15 years in federal prison — the statutory maximum, and more than prosecutors themselves had recommended. Because California's liquor-license transfer process is genuinely slow and paperwork-heavy, it made a convincing backdrop for a fraudulent bridge-loan pitch; anyone offered a private lending opportunity tied to a specific regulatory process should verify the underlying transaction directly with the licensing agency involved, not take the promoter's word for it.`,
+    categorySlug: 'ponzi-pyramid-schemes',
+    sources: ["U.S. Attorney's Office, Southern District of California"],
+    sourceUrl: 'https://www.justice.gov/usao-sdca/pr/san-diego-business-leader-gina-champion-cain-sentenced-15-years-massive-ponzi-scheme',
+    country: 'US',
+    state: 'CA',
+    isHistorical: true,
+    firstRecorded: '2012-01-01',
+});
