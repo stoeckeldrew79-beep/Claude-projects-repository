@@ -8560,3 +8560,15 @@ NotoriousGM.push(
     sourceUrl: "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26020",
   },
 );
+
+NotoriousGM.push(
+  {
+    title: "Philip Galles and the Tyche Asset Management Ponzi Scheme",
+    slug: "philip-galles-tyche-asset-management-ponzi",
+    author: "ScamShield Editorial",
+    tags: ["notorious", "notorious-scammer"],
+    body:
+      "Philip Galles, 59, of Chicago, presented himself to prospective clients as a commodities trader with a rare, proven edge — a firm called Tyche Asset Management that he claimed used proprietary trading strategies to generate extraordinary annual returns exceeding 100 percent. To one contact who turned out to be an undercover agent, Galles went even further, claiming Tyche had achieved a 336 percent annual return, had raised more than $2 billion in just 60 days, and was backed by a Kuwaiti sovereign wealth fund and a professional sports team owner. None of it was true.\n\nAccording to federal prosecutors in the District of New Jersey, Galles made virtually no legitimate investments with the money he collected. Instead, he ran Tyche like a textbook Ponzi scheme, using new investors' money to pay off earlier ones while diverting a substantial share of it to his own lifestyle — high-end clothing, rent on a luxury apartment, and luxury automobiles. The scheme caused more than $4 million in losses to more than a dozen victims who believed they were funding a sophisticated commodities trading operation rather than Galles's personal expenses.\n\nGalles pleaded guilty to wire fraud and commodities fraud. On February 5, 2026, U.S. District Judge Esther Salas sentenced him in Newark federal court to 151 months — more than 12 years — in prison, followed by five years of supervised release, and ordered him to pay more than $4 million in restitution to his victims.\n\nGalles's fabrications followed a familiar escalation: the version of the pitch aimed at ordinary investors promised merely extraordinary returns, while the version he reserved for a contact he believed could bring in serious institutional money invoked a sovereign wealth fund and a professional sports team owner by way of implied validation — claims specific and prestigious enough to discourage casual questioning, and fabricated precisely because neither backer could easily be checked by the retail investors Tyche was actually taking money from. A trading track record advertised in the hundreds of percent, and institutional backing that cannot be independently confirmed with the institution itself, are the same warning signs regulators flag in Ponzi scheme after Ponzi scheme, regardless of how the pitch dresses up the underlying claim.",
+    sourceUrl: "https://www.justice.gov/usao-nj/pr/former-commodities-trader-sentenced-151-months-engaging-multi-mullion-dollar-wire-and",
+  },
+);
