@@ -7581,3 +7581,29 @@ UsAF.push({
     country: 'US',
     state: 'AR',
 });
+
+UsAF.push({
+    name: 'Fictitious "Alabama Department of Vehicles" Traffic-Citation Phishing Text Scam',
+    slug: 'alabama-fictitious-dmv-traffic-citation-phishing-text-scam',
+    description: `The Alabama Law Enforcement Agency warned residents on June 6, 2025 about a nationwide phishing campaign that had begun specifically targeting Alabamians with text messages claiming to be from the "Alabama Department of Vehicles" — an agency that does not exist anywhere in Alabama's government. The texts allege an unpaid traffic citation and threaten to suspend the recipient's driving privileges for 30 days and cancel their vehicle registration unless they click an included link within a short deadline, a link that leads to a spoofed payment page built to harvest card numbers and personal information. ALEA Secretary Hal Taylor said scammers "are trying to create a false sense of urgency by threatening you and your driving privileges," adding that "our Agency will never contact you this way." ALEA emphasized the jurisdictional tell that exposes the scam: in Alabama, driver licensing is handled by ALEA's own Driver License Division, vehicle registration by the Alabama Department of Revenue, and license plates by county probate offices — no single "Department of Vehicles" issues citations or collects fines by text. Recipients are advised to delete the message without clicking any link, and to report it to the FTC at reportfraud.ftc.gov or the FBI's Internet Crime Complaint Center at ic3.gov.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Alabama Law Enforcement Agency', 'Alabama Department of Revenue'],
+    sourceUrl: 'https://www.alea.gov/news/alea-warns-alabamians-nationwide-phishing-scam-impersonating-alabama-dmv',
+    country: 'US',
+    state: 'AL',
+    firstRecorded: '2025-06-06',
+});
+
+UsAF.push({
+    name: 'Alabama Board of Medical Examiners Online Physician-Impersonation Scam',
+    slug: 'alabama-board-of-medical-examiners-online-physician-impersonation-scam',
+    description: `The Alabama Board of Medical Examiners and Medical Licensure Commission warned the public in September 2026 after investigating a report from a woman who had been messaging online with someone presenting as a licensed Alabama physician, only to grow suspicious and ask the Board to verify the credential. Investigators found the account was built on a convincing but entirely fabricated identity — authentic-looking photos, claims of appearances on medical publication covers, and images staged to look like a real clinical setting — and confirmed that no one licensed to practice medicine in Alabama matched the persona, with questions even raised about whether the underlying photos depicted the actual person running the account. Impersonating a licensed physician is a felony under Alabama law, though as of the Board's announcement no criminal charges had yet been filed while the investigation continued. The case follows a pattern the Board has flagged repeatedly in prior alerts, in which fraudsters borrow a medical credential's built-in trust — sometimes to solicit money or personal information directly, sometimes, as here, simply to sustain a fabricated online relationship — and it is a reminder that a claimed medical license can be checked for free before a consumer takes anything told to them at face value: Alabama's Board maintains a public Licensee Search tool that confirms whether a name is currently licensed to practice medicine in the state.`,
+    categorySlug: 'healthcare-fraud',
+    alertLevel: 'medium',
+    sources: ['Alabama Board of Medical Examiners & Medical Licensure Commission', 'WBRC'],
+    sourceUrl: 'https://www.albme.gov/',
+    country: 'US',
+    state: 'AL',
+    firstRecorded: '2026-09-08',
+});
