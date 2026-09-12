@@ -6634,3 +6634,17 @@ UsGM.push({
     isHistorical: true,
     firstRecorded: '2026-08-15',
 });
+
+UsGM.push({
+    name: 'Alfred, Maine Fake Deposit Repayment Scam (Meng Chen, Wen Chen, Weijie Yan)',
+    slug: 'maine-alfred-fake-deposit-repayment-scam',
+    description: `An 82-year-old Alfred, Maine man clicked what looked like a PayPal link and was told money had accidentally been deposited into his account that he now needed to pay back — but the "deposit" was fake: the scammers had used information harvested through the phishing link to view his real bank account and simply move his own money from one of his accounts to another, making it look on screen as though a windfall had landed there. Believing he owed the money back, the man handed over $50,000 in cash to three men — Meng Chen, 50, of Staten Island, New York; Wen Chen, 23; and Weijie Yan, 21, both of New York — as an initial installment toward the $100,000 they told him he had to repay, with a second $50,000 handoff arranged for the following Tuesday. Instead of the victim, the three men were met that day by York County Sheriff's Office deputies, who arrested them on December 18, 2024 and charged all three with theft by deception; Meng Chen was held on $100,000 bail and the other two on $150,000 bail each. The case shows how a single phishing link can give scammers enough visibility into a real account to fabricate a convincing "accidental deposit" entirely out of the victim's own money, with no actual bank error involved — anyone told they've received a deposit by mistake and must repay it in cash should contact their bank directly through its official number before handing money to anyone, since a legitimate bank error is corrected by the bank itself, not resolved by a stranger collecting cash in person.`,
+    categorySlug: 'fake-check-overpayment',
+    alertLevel: 'high',
+    sources: ['York County Sheriff\'s Office', 'Bangor Daily News', 'NewsCenter Maine'],
+    sourceUrl: 'https://www.bangordailynews.com/2024/12/18/york/york-police-courts/3-charged-scam-maine-man-for-100k/',
+    country: 'US',
+    state: 'ME',
+    isHistorical: true,
+    firstRecorded: '2024-12-18',
+});
