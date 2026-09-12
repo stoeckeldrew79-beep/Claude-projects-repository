@@ -8865,3 +8865,31 @@ The ForexNPower case is a reminder that a scheme built on language and community
     sourceUrl: 'https://www.cftc.gov/PressRoom/PressReleases/9195-26',
   },
 );
+
+// This is a civil administrative matter resolved by consent order against
+// four settling individuals. Founder Joseph Redden declined to settle and
+// instead faces an order to show cause that remains unresolved as of this
+// writing — no finding of liability has been made against him, which the
+// body notes explicitly. No booking photo or rights-cleared portrait exists
+// for any of the five men, so sourceUrl links to the Attorney General's
+// announcement instead of a photo.
+NotoriousGM.push(
+  {
+    title: 'Middle Class United and the Four Insiders Who Turned $500 "Memberships" Into Salaries',
+    slug: 'middle-class-united-cooperative-investment-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious'],
+    body: `Note: Four individuals in this case — Spencer Lutgring, Joseph Madden, Jeremy Powell, and Jarod Wetzel — settled with the Maryland Securities Division by consent order. A fifth, founder Joseph Redden, declined to settle; the Division instead issued an order to show cause against him, which merely opens an enforcement proceeding and gives him a chance to respond. No hearing officer has found Redden liable for anything as of this writing, and the account below reflects that his portion of the matter remains allegations only.
+
+Joseph Redden built an online persona around the idea of being an "Older Millennial" offering ordinary people a way into wealth-building tools Wall Street normally reserves for the wealthy. In TikTok and YouTube videos, according to Maryland's Securities Division, Redden told viewers that federal accreditation rules kept the middle class locked out of hedge funds — and pitched an alternative he was building just for them. When he realized that actually calling it a hedge fund would trigger the regulatory oversight he wanted to avoid, he rebranded the same pitch as a "cooperative" instead.
+
+As Redden's videos gained traction, four other men — Spencer Lutgring and Jarod Wetzel of Lehi, Utah, Jeremy Powell of nearby Draper, Utah, and Joseph Madden of Ocean Springs, Mississippi — joined the effort, and together the group incorporated Middle Class United, Incorporated (MCU) in Maryland as a tax-exempt non-stock corporation. In May 2024, after months of promoting the idea of "memberships" in a "housing cooperative," MCU launched its offering: $500 per membership, with proceeds promised to fund real estate investments and, in part, charitable donations. More than 6,500 people nationwide bought in.
+
+Maryland law is specific about what a housing cooperative actually has to be: an entity that gives its members real shares in the corporation plus a genuine possessory interest — a lease or occupancy right — in actual real property. According to the Securities Division, MCU never owned or had the capital to acquire anything close to enough real property to give 6,500 members that kind of stake. Instead, investor money was split between a managed brokerage account holding a mutual fund and an ordinary checking account, and Lutgring, Madden, Powell, and Wetzel regularly moved money out of the checking account without getting the investor approval that MCU's own promotional materials had promised members would have over every financial decision. The money went toward administrative expenses and the settling parties' own salaries; the Division found no funds were ever donated to charity, despite that being part of the original pitch. Redden served as MCU's Treasurer until around December 2024, when he did not seek re-election. In substance, the Division concluded, MCU operated exactly like any other pooled investment vehicle — just without the registration and oversight the law requires for one.
+
+"By using social media to sell false promises and then pocket their clients' money, Middle Class United preyed on investors who just wanted to build themselves a more secure financial future," said Maryland Attorney General Anthony G. Brown, announcing the May 22, 2026 settlement. "This settlement makes clear that our Office will hold accountable anyone who uses deceptive schemes to exploit Marylanders' financial hopes." Under the consent order, Lutgring, Madden, Powell, and Wetzel agreed to pay a combined $50,000 civil penalty to the Securities Division, and investors are being repaid $414 per membership — more than an 80 percent pro rata share of their original $500 — out of the funds remaining in MCU's two accounts. Redden's separate order to show cause puts him at risk of a $5,000 civil penalty for each violation of the Securities Act the Division can prove, but that number, and any finding against him at all, awaits the hearing he is entitled to.
+
+Middle Class United's pitch is a reminder that "cooperative" and "membership" are just words on a webpage until an issuer actually structures the underlying deal to match them — a real housing cooperative gives members an actual stake in actual property, and a company that can't or won't do that has just renamed an unregistered investment pool. Redden's own rebranding decision, made specifically to sidestep the oversight a hedge fund would have required, is the tell: regulation exists to make sure the entity asking for your $500 can actually deliver what its videos promise, and a name change is not a substitute for that.`,
+    sourceUrl: 'https://oag.maryland.gov/News/pages/Attorney-General-Brown-Announces-Settlement-with-Middle-Class-United,-Inc-for-Nationwide-Social-Media-Investment-Scheme-.aspx',
+  },
+);
