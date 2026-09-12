@@ -962,4 +962,58 @@ export const SEED_GLOBAL_SOURCES: SeedGlobalSource[] = [
       "Honduras's national consumer-protection directorate, under the Secretariat of Economic Development, takes consumer complaints via a free hotline, WhatsApp, and an online platform, and publishes regular price-monitoring reports on basic goods alongside its enforcement activity.",
     data_type: 'public_stats',
   },
+  {
+    agency_name: 'Rwanda Investigation Bureau (RIB)',
+    country: 'RW',
+    country_name: 'Rwanda',
+    url: 'https://www.rib.gov.rw/',
+    description:
+      "Rwanda's national crime-investigation authority operates public toll-free lines for reporting fraud and other offenses, and its crime figures — including fraud and forgery case counts — are released periodically through parliamentary briefings and national statistics publications rather than a standalone dataset.",
+    data_type: 'public_stats',
+  },
+  {
+    agency_name: 'Electronic and Cyber Crime Combating Department — Ministry of Interior',
+    country: 'KW',
+    country_name: 'Kuwait',
+    url: 'https://www.moi.gov.kw/main/sections/cyber-crime?culture=en',
+    description:
+      "Kuwait's Ministry of Interior unit investigates reports of online fraud, phishing, and financial scams submitted through its hotline and WhatsApp line, with case counts and funds-recovered figures disclosed through official statements and state media rather than a published report or dataset.",
+    data_type: 'public_stats',
+  },
+  {
+    agency_name: 'Central Bank of Bahrain — Consumer Protection',
+    country: 'BH',
+    country_name: 'Bahrain',
+    url: 'https://www.cbb.gov.bh/consumer-information/',
+    description:
+      "Bahrain's central bank reviews consumer complaints against licensed banks and financial institutions, requires licensees to file quarterly complaint summaries, and reports on consumer-protection activity within its annual report.",
+    data_type: 'annual_report',
+  },
+  {
+    agency_name: 'Consumer Protection Competition and Fraud Repression Directorate-General (CCF)',
+    country: 'KH',
+    country_name: 'Cambodia',
+    url: 'https://www.ccfdg.gov.kh/en/',
+    description:
+      "Cambodia's national authority for consumer protection, competition, and fraud repression accepts consumer complaints through its website and investigates deceptive commercial practices, publishing enforcement actions and market-surveillance updates rather than a consolidated dataset.",
+    data_type: 'public_stats',
+  },
+  {
+    agency_name: 'Portal do Consumidor — Instituto Nacional das Comunicações de Moçambique (INCM)',
+    country: 'MZ',
+    country_name: 'Mozambique',
+    url: 'https://consumidor.incm.gov.mz/',
+    description:
+      "Mozambique's communications regulator runs a public portal for filing complaints about telecommunications and postal fraud and service issues, and publishes an annual Consumer Defense report alongside a statistical archive of sector data.",
+    data_type: 'annual_report',
+  },
+  {
+    agency_name: 'Dirección General de Protección de los Derechos de las Personas Consumidoras y Usuarias (DIPRODEC)',
+    country: 'NI',
+    country_name: 'Nicaragua',
+    url: 'https://www.mific.gob.ni/Inicio/Fomento/DIPRODEC/Atenci%C3%B3n-Ciudadana',
+    description:
+      "Nicaragua's national consumer-protection directorate, under the Ministry of Development, Industry and Trade, investigates consumer complaints and denuncias against businesses and reports its enforcement and asset-recovery figures publicly rather than through a formal dataset.",
+    data_type: 'public_stats',
+  },
 ];
