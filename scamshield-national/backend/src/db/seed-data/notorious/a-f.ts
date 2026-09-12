@@ -8536,3 +8536,22 @@ The mechanics of the scheme are the same warning signs consumer-protection agenc
     sourceUrl: 'https://www.justice.gov/usao-md/pr/man-pleads-guilty-charges-connected-role-technical-support-fraud-scheme',
   },
 );
+
+NotoriousAF.push(
+  {
+    title: 'Charles T. Lawrence Jr. and the Fake Swedish Trust That Promised 25-to-100% Weekly Returns',
+    slug: 'charles-lawrence-landes-prive-investment-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    body: `Charles T. Lawrence Jr. had once been a legitimately licensed securities professional, holding Series 7, 55, and 63 licenses from 1996 to 2006. By 2020, according to federal prosecutors, he had built a new pitch around a piece of foreign corporate paperwork that no longer meant anything: he began telling prospective investors he was the managing director of Landes and Compagnie Trust Privé KB, describing it as a Swedish trust — even though, prosecutors say, the entity was already defunct by the time he started using its name. Operating through a family of similarly branded vehicles, including Landes Trust and an American LLC called Landes Privé, LLC that he personally controlled, Lawrence offered investors a spot in a "trading program" he said would produce weekly returns of 25 to 100 percent, with their principal fully segregated and safe from risk.
+
+To make the pitch spread beyond people Lawrence could reach directly, he recruited "finders" — people who located prospective investors and were paid a fee for each one who signed on, adding a layer of trusted, word-of-mouth referral that a cold pitch from a stranger could never match. Investors who wired money were given access to a web portal Lawrence had built specifically to show account activity — fabricated activity, according to prosecutors, reflecting the extraordinary gains he had promised rather than anything happening in an actual trading account. Nearly $5 million moved from victims across the United States and abroad into accounts Lawrence controlled; prosecutors said none of it went anywhere near real trading.
+
+Instead, according to the government, Lawrence spent investor money on himself: lavish vacations, private jet travel, hundreds of thousands of dollars in luxury retail purchases, a 10.8-carat diamond ring from Cartier, and a $91,000 Range Rover. A federal grand jury in the Eastern District of Wisconsin indicted Lawrence, and the Securities and Exchange Commission filed a parallel civil complaint on May 1, 2023, charging him with violating the antifraud provisions of the Securities Act of 1933 and the Securities Exchange Act of 1934. Lawrence pleaded guilty under a plea agreement reached June 3, 2024.
+
+On October 10, 2024, U.S. District Judge Lynn Adelman sentenced Lawrence, then 50, of Northport, New York, to 54 months in federal prison, ordered him to pay $4,030,263.51 in restitution, and required forfeiture of the Cartier ring and the Range Rover. Assistant U.S. Attorneys Julie F. Stewart and Farris Martini prosecuted the case. At sentencing, Judge Adelman was blunt about what the "trading program" had actually been, calling it "a scam from the very beginning," saying Lawrence's "lies were brazen," and citing the scheme's sophistication and Lawrence's motive of plain greed as aggravating factors. The SEC's parallel civil case concluded on February 23, 2026, when the U.S. District Court for the Eastern District of Wisconsin entered a final consent judgment holding Lawrence liable, jointly with relief defendant Landes Privé, LLC, for $3,588,713 in disgorgement plus $402,534 in prejudgment interest — a judgment the SEC noted would be treated as satisfied by the restitution Lawrence already owed under his criminal sentence.
+
+Lawrence's case is a reminder that a fraud doesn't need cryptocurrency or a classic Ponzi payout structure to work — sometimes it only needs a defunct foreign trust's name, a fabricated account portal showing numbers no real trading desk could produce, and a securities license from two decades earlier that most victims never thought to check had long since lapsed. Weekly returns of 25 to 100 percent with no risk to principal describe a mathematical impossibility no legitimate trading program could ever deliver — and nearly $5 million moved through exactly that promise before regulators caught up with it.`,
+    sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26492',
+  },
+);
