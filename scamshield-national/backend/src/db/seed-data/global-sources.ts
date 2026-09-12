@@ -890,4 +890,76 @@ export const SEED_GLOBAL_SOURCES: SeedGlobalSource[] = [
       "Namibia's non-banking financial-sector regulator publishes yearly annual reports and quarterly statistical bulletins that include consumer-complaint figures by sector (insurance, pension funds, micro-lending), and issues public notices warning consumers about specific scams targeting financial-services customers.",
     data_type: 'annual_report',
   },
+  {
+    agency_name: 'State Inspectorate of the Republic of Croatia — Market Inspection Sector',
+    country: 'HR',
+    country_name: 'Croatia',
+    url: 'https://dirh.gov.hr/o-drzavnom-inspektoratu/trzisna-inspekcija/85',
+    description:
+      "Croatia's State Inspectorate investigates consumer complaints against traders and unfair commercial practices through its Market Inspection Sector, and regularly publishes figures on inspection activity — over 2,000 supervisory actions in a single reporting period in 2025 alone.",
+    data_type: 'public_stats',
+  },
+  {
+    agency_name: 'Ministry of Trade, Tourism and Telecommunications — Consumer Protection Sector',
+    country: 'RS',
+    country_name: 'Serbia',
+    url: 'https://mtt.gov.rs/sektori/sektor-za-zastitu-potrosaca/?0=lat',
+    description:
+      "Serbia's national consumer-protection authority sets consumer-protection policy, oversees registered consumer associations, and publishes an annual National Consumer Complaints Registry report summarizing complaint volumes handled nationwide.",
+    data_type: 'annual_report',
+  },
+  {
+    agency_name: 'Ombudsman Institution for Consumer Protection in Bosnia and Herzegovina',
+    country: 'BA',
+    country_name: 'Bosnia and Herzegovina',
+    url: 'https://ozp.gov.ba',
+    description:
+      "Bosnia and Herzegovina's independent consumer-protection ombudsman investigates consumer complaints and unfair trading practices nationwide, and publishes annual work reports and periodic special reports on its enforcement activity.",
+    data_type: 'annual_report',
+  },
+  {
+    agency_name: 'State Inspectorate for Non-Food Products Supervision and Consumer Protection (ISSPNPC)',
+    country: 'MD',
+    country_name: 'Moldova',
+    url: 'https://consumator.gov.md/ro',
+    description:
+      "Moldova's state consumer-protection and market-surveillance inspectorate handles consumer complaints and publishes periodic activity reports with complaint-volume figures — 1,275 petitions and complaints logged in the first half of 2026 alone, a 77.8% year-on-year increase.",
+    data_type: 'public_stats',
+  },
+  {
+    agency_name: 'Secretaría de Defensa del Consumidor y el Usuario (SEDECO)',
+    country: 'PY',
+    country_name: 'Paraguay',
+    url: 'https://sedeco.gov.py/',
+    description:
+      "Paraguay's national consumer-protection secretariat handles consumer complaints, maintains a public registry of sanctioned infractors, and publishes periodic transparency reports on complaint and inquiry volumes and amounts recovered for consumers.",
+    data_type: 'public_stats',
+  },
+  {
+    agency_name: 'Independent Consumer and Competition Commission (ICCC)',
+    country: 'PG',
+    country_name: 'Papua New Guinea',
+    url: 'https://iccc.gov.pg/',
+    description:
+      "Papua New Guinea's independent consumer and competition regulator enforces consumer-protection law, investigates complaints, and publishes an annual report plus quarterly newsletters covering its enforcement actions and market oversight.",
+    data_type: 'annual_report',
+  },
+  {
+    agency_name: 'National Bank of Georgia — Consumer Rights Protection Division',
+    country: 'GE',
+    country_name: 'Georgia',
+    url: 'https://nbg.gov.ge/en/page/consumer-protection',
+    description:
+      "Georgia's central bank operates a dedicated Consumer Rights Protection Division that accepts and reviews complaints against financial-service providers under national consumer-finance legislation and publishes complaint statistics through its online portal.",
+    data_type: 'public_stats',
+  },
+  {
+    agency_name: 'Dirección General de Protección al Consumidor (DGPC)',
+    country: 'HN',
+    country_name: 'Honduras',
+    url: 'https://sde.gob.hn/proteccion-al-consumidor/',
+    description:
+      "Honduras's national consumer-protection directorate, under the Secretariat of Economic Development, takes consumer complaints via a free hotline, WhatsApp, and an online platform, and publishes regular price-monitoring reports on basic goods alongside its enforcement activity.",
+    data_type: 'public_stats',
+  },
 ];
