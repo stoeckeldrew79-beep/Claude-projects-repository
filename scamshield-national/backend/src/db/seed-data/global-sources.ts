@@ -1016,4 +1016,67 @@ export const SEED_GLOBAL_SOURCES: SeedGlobalSource[] = [
       "Nicaragua's national consumer-protection directorate, under the Ministry of Development, Industry and Trade, investigates consumer complaints and denuncias against businesses and reports its enforcement and asset-recovery figures publicly rather than through a formal dataset.",
     data_type: 'public_stats',
   },
+  {
+    agency_name: 'Uganda Communications Commission — Cybersecurity Reports',
+    country: 'UG',
+    country_name: 'Uganda',
+    url: 'https://www.ucc.co.ug/cybersecurity-reports/',
+    description:
+      "Uganda's telecom and broadcasting regulator publishes periodic Cyber Security Posture reports covering threats, incidents, and vulnerabilities affecting the national communications sector, alongside its CERT.UG/CC incident-response function.",
+    data_type: 'annual_report',
+  },
+  {
+    agency_name: 'Tanzania Communications Regulatory Authority (TCRA)',
+    country: 'TZ',
+    country_name: 'Tanzania',
+    url: 'https://www.tcra.go.tz/',
+    description:
+      "Tanzania's communications regulator operates a dedicated consumer-complaints line for telecom and postal service issues, including fraud, and publishes quarterly Communication Statistics reports covering sector performance and complaint handling.",
+    data_type: 'public_stats',
+  },
+  {
+    agency_name: 'National Bank of Kazakhstan — Anti-Fraud Center',
+    country: 'KZ',
+    country_name: 'Kazakhstan',
+    url: 'https://nationalbank.kz/en/news/informacionnye-soobshcheniya',
+    description:
+      "Kazakhstan's central bank operates a real-time Anti-Fraud Center linking banks, mobile operators, and law enforcement to detect and block fraudulent payment transactions, and periodically discloses incident counts and blocked-funds figures through public statements on its news page rather than a standing dataset.",
+    data_type: 'public_stats',
+  },
+  {
+    agency_name: 'Competition and Consumer Affairs Commission (CCAC)',
+    country: 'GY',
+    country_name: 'Guyana',
+    url: 'https://ccac.gov.gy/',
+    description:
+      "Guyana's national consumer-protection and competition authority investigates consumer complaints, including fraud and unfair trade practices, and publishes complaint-volume and category statistics through its website and public reporting.",
+    data_type: 'public_stats',
+  },
+  {
+    agency_name: 'BruCERT (Brunei Computer Emergency Response Team)',
+    country: 'BN',
+    country_name: 'Brunei',
+    url: 'https://www.brucert.org.bn/',
+    description:
+      "Brunei's national CERT, under Cyber Security Brunei, accepts public incident reports for online fraud and other cyber incidents and publishes National Cyber Incident Statistics alongside security alerts and advisories.",
+    data_type: 'public_stats',
+  },
+  {
+    agency_name: 'Maldives Monetary Authority (MMA)',
+    country: 'MV',
+    country_name: 'Maldives',
+    url: 'https://www.mma.gov.mv/',
+    description:
+      "Maldives' central bank regulates financial institutions and handles escalated consumer complaints against banks and other licensees, publishing its consumer-protection and financial-sector activity within its annual report.",
+    data_type: 'annual_report',
+  },
+  {
+    agency_name: 'Utilities Regulation and Competition Authority (URCA)',
+    country: 'BS',
+    country_name: 'Bahamas',
+    url: 'https://urcabahamas.bs/urcapublications/',
+    description:
+      "The Bahamas' telecommunications and electricity regulator enforces Consumer Protection Regulations covering complaint handling by licensed operators and publishes its annual report and sector publications, including consumer-complaint compliance data, on its website.",
+    data_type: 'annual_report',
+  },
 ];
