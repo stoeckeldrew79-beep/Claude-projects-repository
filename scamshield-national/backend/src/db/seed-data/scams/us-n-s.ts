@@ -5977,6 +5977,20 @@ UsNS.push({
 });
 
 UsNS.push({
+    name: 'Dodge County Sheriff FOP Lodge Treasurer Embezzlement (Dustin Weitzel)',
+    slug: 'nebraska-dodge-county-sheriff-weitzel-fop-embezzlement',
+    description: `Dustin Weitzel, 46, of Fremont, has served with the Dodge County Sheriff's Office since 1999 and was elected Dodge County Sheriff, while also serving as treasurer of the county's Fraternal Order of Police Lodge 17 from at least 2018 to 2023. According to U.S. Attorney Lesley A. Woods, Weitzel used his position as treasurer to make 84 unauthorized transfers from the Lodge's account at First State Bank into his own personal accounts at RVR Bank between April 2018 and February 2022, siphoning off $45,500 in fellow officers' dues and fraternal funds — many of the transfers timed specifically to cover overdrafts in his own personal accounts. Weitzel was charged by information with one count of wire fraud and pleaded guilty on July 6, 2026, admitting to the transfers when interviewed; he has since repaid $40,750.01 of the money taken. He is scheduled to be sentenced by Chief U.S. District Judge Robert F. Rossiter Jr. on October 1, 2026, facing a maximum of 20 years in prison and a $250,000 fine, and agreed as part of his plea to surrender his law enforcement certification before sentencing. The case is a reminder that embezzlement from a club, union, or fraternal organization's treasury often goes undetected for years because members trust a fellow officer or longtime colleague to handle the books without independent oversight — any dues-collecting organization can reduce that risk by requiring a second signature on transfers above a set amount and having someone other than the treasurer review bank statements regularly.`,
+    categorySlug: 'business-email-compromise',
+    alertLevel: 'medium',
+    sources: ["U.S. Attorney's Office, District of Nebraska", 'WOWT', 'Omaha World-Herald'],
+    sourceUrl: 'https://www.justice.gov/usao-ne/pr/dodge-county-sheriff-charged-and-pleads-guilty-wire-fraud',
+    country: 'US',
+    state: 'NE',
+    isHistorical: true,
+    firstRecorded: '2018-04-01',
+});
+
+UsNS.push({
     name: 'North Dakota Board of Nursing License-Suspension Impersonation Scam',
     slug: 'north-dakota-board-of-nursing-impersonation-scam',
     description: `The North Dakota Board of Nursing (NDBON) warned licensees on July 7, 2026 about scam phone calls from people falsely claiming to be Board staff or law enforcement, using spoofed caller ID that displays NDBON's own phone number to make the calls look genuine. The callers, whose tone the Board describes as sometimes hostile, tell nurses that some specific action must be taken immediately to prevent their nursing license from being suspended, then press for personal information over the phone. NDBON says the pattern mirrors similar scam calls that have recently targeted licensees of other professional boards, and stresses it does not conduct license enforcement this way. Nurses contacted like this are advised not to give any personal information to a caller they don't already know or trust, to independently check their license status through NDBON's Nurse Portal or public Verification Portal rather than take the caller's word for it, and to call the Board directly at 701-751-3000 or email contactus@ndbon.org to confirm whether a call was legitimate before responding to any demand.`,
@@ -6459,4 +6473,18 @@ UsNS.push({
     state: 'PR',
     isHistorical: true,
     firstRecorded: '2026-09-08',
+});
+
+UsNS.push({
+    name: 'Puerto Rico "Operation Eslabón" Stolen-Card Traffic-Fine Fraud Ring',
+    slug: 'puerto-rico-operation-eslabon-traffic-fine-fraud',
+    description: `Puerto Rico's Department of Justice, working with the Puerto Rico Police Bureau, the Department of Transportation and Public Works (DTOP), and the Department of the Treasury, announced criminal charges on August 18, 2026 against 33 people accused of running or using a paid service that made unpaid traffic fines and license suspensions disappear by paying them off with stolen credit card numbers rather than the driver's own money. Under the scheme, prosecutors say, drivers who owed fines gave a middleman their driver's license information and paid a fee to have the debt "resolved," and the middleman then entered someone else's stolen credit card into DTOP's and AutoExpreso's own online payment systems to cover the fine and generate a legitimate-looking zero-balance certification — with investigators identifying more than 100 fraudulent transactions totaling $308,573.13 charged to cardholders who never authorized any of it. Dubbed "Operation Eslabón" ("Operation Link"), the case resulted in 135 total criminal charges: 71 counts of fraud and 64 counts of illegal appropriation of public funds, carrying maximum fixed sentences of 8 years for fraud and 15 years for illegal appropriation, with bail set across the 33 defendants totaling $1,231,000. Puerto Rico Secretary of Justice Lourdes Gómez Torres said of the defendants, "Quienes pretendan beneficiarse ilegalmente de los fondos de los contribuyentes de Puerto Rico sepan que los vamos a identificar" ("Those who seek to illegally benefit from the funds of Puerto Rico's taxpayers should know that we will identify them"). The case is a reminder that a fixer who offers to "clear" a traffic fine, driver's license suspension, or unpaid toll for a fee — rather than directing a driver to DTOP's or AutoExpreso's own official payment channels — is most likely funding that service with someone else's stolen card, exposing the driver who paid for it to a fraud investigation of their own; any DTOP or AutoExpreso balance should be checked and paid only through the agencies' own verified website, app, or office.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'high',
+    sources: ['Departamento de Justicia de Puerto Rico', 'NotiCel'],
+    sourceUrl: 'https://noticel.com/en/noticias/20260818/presentan-mas-de-130-cargos-contra-33-personas-por-esquema-de-fraude-en-pago-de-multas/',
+    country: 'US',
+    state: 'PR',
+    isHistorical: true,
+    firstRecorded: '2021-06-01',
 });
