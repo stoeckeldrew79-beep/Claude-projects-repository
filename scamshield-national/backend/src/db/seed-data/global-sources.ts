@@ -1124,4 +1124,58 @@ export const SEED_GLOBAL_SOURCES: SeedGlobalSource[] = [
       "Suriname's central bank periodically issues public press releases (persberichten) warning citizens about unlicensed investment offers, Ponzi and pyramid schemes, and fraudulent use of the Bank's own name and logo.",
     data_type: 'public_stats',
   },
+  {
+    agency_name: 'Central Bank of Solomon Islands (CBSI)',
+    country: 'SB',
+    country_name: 'Solomon Islands',
+    url: 'https://www.cbsi.com.sb/article/press-release-no1225-public-warning-money-mule-scam-targeting-local-bank-account-holders',
+    description:
+      "Solomon Islands' central bank periodically issues public press-release warnings on active fraud patterns — most recently a money-mule scheme recruiting local account holders — alongside earlier alerts on email prize scams and a fake Facebook account impersonating its Governor.",
+    data_type: 'public_stats',
+  },
+  {
+    agency_name: 'National Reserve Bank of Tonga',
+    country: 'TO',
+    country_name: 'Tonga',
+    url: 'https://www.reservebank.to/index.php/news/public-warning-protect-yourself-from-ponzi-and-pyramid-and-investment-schemes',
+    description:
+      "Tonga's central bank publishes public warning notices about Ponzi, pyramid, and social-media investment schemes targeting Tongan communities, including a joint 2026 alert issued with New Zealand's Financial Markets Authority over a cross-border crypto investment scam.",
+    data_type: 'public_stats',
+  },
+  {
+    agency_name: 'Bank of Mauritius — Scam Alerts',
+    country: 'MU',
+    country_name: 'Mauritius',
+    url: 'https://www.bom.mu/media/scam-alerts',
+    description:
+      "Mauritius' central bank maintains a running public Scam Alerts page warning of active fraud schemes, and separately operates an online Fraud/Scam Reporting form — anonymous submissions accepted — covering phishing, identity fraud, and investment scams.",
+    data_type: 'public_stats',
+  },
+  {
+    agency_name: 'Financial Intelligence Authority (FIA) Saint Lucia',
+    country: 'LC',
+    country_name: 'Saint Lucia',
+    url: 'https://www.slufia.com/news',
+    description:
+      "Saint Lucia's financial intelligence unit publishes public warning notices about fraudulent investment schemes and unauthorized financial solicitations — including a 2026 alert on the 'CARICOM Invest' scheme — often jointly with the island's Financial Services Regulatory Authority and Consumer Affairs Department.",
+    data_type: 'public_stats',
+  },
+  {
+    agency_name: "UIFAND (Unitat d'Intel·ligència Financera d'Andorra)",
+    country: 'AD',
+    country_name: 'Andorra',
+    url: 'https://www.uifand.ad/ca',
+    description:
+      "Andorra's financial intelligence unit publishes an annual activity report (Memòria d'Activitats) with statistics on suspicious-transaction reports and anti-money-laundering enforcement going back 15 years, and posts current-year figures on its site.",
+    data_type: 'annual_report',
+  },
+  {
+    agency_name: 'Autorità Garante per la Protezione dei Dati Personali (San Marino Data Protection Authority)',
+    country: 'SM',
+    country_name: 'San Marino',
+    url: 'https://www.garanteprivacy.sm/pub1/garante/en',
+    description:
+      "San Marino's independent data protection authority handles public complaints about misuse of personal data — including fraudulent impersonation and unlawful processing — and publishes its formal proceedings and decisions organized by year.",
+    data_type: 'public_stats',
+  },
 ];
