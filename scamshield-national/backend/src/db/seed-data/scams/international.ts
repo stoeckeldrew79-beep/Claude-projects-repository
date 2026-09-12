@@ -16647,3 +16647,46 @@ International.push(
     sourceUrl: 'https://restofworld.org/2023/malawi-kwacha-scam-sim-card/',
   },
 );
+
+International.push(
+  {
+    name: 'Fake "Ministry of Health COVID-19 Survey" Bank-Details Phishing Scam',
+    slug: 'mongolia-fake-ministry-of-health-covid-survey-phishing-scam',
+    description: `A woman contacted Bat-Amgalan Ulziisaikhan, a resident of Sukhbaatar province in eastern Mongolia who works for the country's social insurance department, through Facebook Messenger, telling him "you were infected with the coronavirus before" and that "the Ministry of Health is surveying people." Believing he was helping with a legitimate government health survey, Bat-Amgalan filled it out, after which he received a follow-up message instructing him to "click the link and provide your bank account details" and promising "you will receive money as incentive for your participation in the survey." He complied, and it was only after friends began calling to ask "are you in money trouble? What happened to you?" that he realized his identity and banking information had been stolen and used against him. Global Press Journal reported the case as part of a broader pattern in Mongolia, where criminologist and Mongolian Bar Association criminal justice committee head Oyunbold Ganchuluun says scammers commonly study a target's real relationships and circumstances — in this case, the genuine memory of a past COVID-19 infection — to make a fraudulent request for banking details feel routine and official. The country's National Police Agency recorded a more than 50% jump in scam complaints between 2021 and 2022 alone, with electronic fraud cases rising from just 17 in 2015 to 6,759 in the first ten months of 2022. Consumers are advised that no legitimate health ministry survey ever requires bank account details or a "participation incentive" payment link, and that any such request arriving through a private social-media message — even one that references real personal history — should be treated as fraud and reported rather than acted on.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Global Press Journal', 'Mongolian National Police Agency'],
+    sourceUrl: 'https://globalpressjournal.com/asia/mongolia/scams-skyrocket-mongolia-goes-online/',
+    country: 'MN',
+  },
+  {
+    name: 'Foreign-Run "Weekly Dividend" Investment Ponzi Scheme',
+    slug: 'mongolia-foreign-investment-ponzi-scheme-weekly-dividends-scam',
+    description: `After already losing money to a Facebook loan scam, Sainaa Tserenjigmed, a brickmaking-factory worker in Dalanzadgad, Umnugovi province, was encouraged by an acquaintance to put up her property as collateral and borrow 5 million Mongolian togrogs (about $1,465) to invest in an online scheme that promised weekly dividend payments and a profit on her principal. As instructed by the scheme's organizer, she ordered two Visa cards so she could receive the promised payments "from abroad," but when she eventually called to ask about her dividends, she was told the operation — described in news reports as run by someone from another country — had "gone bankrupt." When Sainaa pressed further about recovering her original investment, the organizer replied, "my mom died, and I am very busy. Lots of people were scammed with hundreds of millions. Five million is nothing." Ashamed and, in her words, too "compassionate" to pursue it, she never filed a police report over this second loss, even though she had reported an earlier scam; Global Press Journal, which documented her case, notes that criminologist Oyunbold Ganchuluun believes the true number of Mongolian fraud cases is likely well over 10,000 a year — far above official figures — precisely because so many victims of smaller-sounding losses stay silent out of embarrassment. Consumers are advised to treat any online "investment" promising guaranteed weekly dividends, especially one that requires opening new bank cards to receive foreign payments, as a probable Ponzi scheme, and to report losses to police even when the amount feels too small or embarrassing to mention, since under-reporting is itself what lets these schemes keep operating.`,
+    categorySlug: 'ponzi-pyramid-schemes',
+    alertLevel: 'high',
+    sources: ['Global Press Journal', 'Mongolian National Police Agency'],
+    sourceUrl: 'https://globalpressjournal.com/asia/mongolia/scams-skyrocket-mongolia-goes-online/',
+    country: 'MN',
+  },
+  {
+    name: 'Online Romance "Stuck Parcel Release Fee" Scam',
+    slug: 'mongolia-online-romance-stuck-parcel-fee-scam',
+    description: `Munkhtuya Batchuluun was courted online for two months by a man who claimed to be from the United States and told her elaborate stories of having inherited great wealth, promising he would soon travel to Mongolia to marry her. To make the relationship feel real, he sent her photos purporting to show the many packages and gifts he was sending her — but a few days later came the pivot common to this scam pattern: a message claiming the parcel had gotten "stuck somewhere" and that she, as the recipient, needed to pay a release fee before it could be delivered. Munkhtuya transferred $130 (about 440,000 Mongolian togrogs) to cover the supposed fee, after which her online boyfriend cut off contact and blocked her. She never reported the loss to police, telling Global Press Journal she "was ashamed of contacting" them — a reluctance that Mongolian Bar Association criminal justice committee head Oyunbold Ganchuluun says is common, since stigma around being defrauded keeps many victims from coming forward and leaves official fraud statistics far below the real total. Anyone in an online relationship who is asked to pay a customs, courier, or "release" fee for a gift or parcel supposedly sent by their partner is advised to recognize this as a scam regardless of how convincing the photos or backstory appear, since a real courier company bills the sender or collects duties directly on delivery — it never requires the recipient to wire money to release a personal gift.`,
+    categorySlug: 'romance-scams',
+    alertLevel: 'high',
+    sources: ['Global Press Journal', 'Mongolian National Police Agency'],
+    sourceUrl: 'https://globalpressjournal.com/asia/mongolia/scams-skyrocket-mongolia-goes-online/',
+    country: 'MN',
+  },
+  {
+    name: 'COVID-19 Face Mask Online Shopping Fraud',
+    slug: 'mongolia-covid-face-mask-online-shopping-fraud',
+    description: `As mask prices spiked during the early COVID-19 pandemic, Mongolia's Police Department warned on March 25, 2020 that fraudsters were exploiting the shortage by posting online advertisements offering protective face masks in bulk at attractive prices, then disappearing with the payment once a buyer transferred money and never shipping any product. In one case detailed by police, a man lost 8.4 million Mongolian togrogs after wiring funds to a seller in China who never delivered the masks; in a separate case, two people together transferred 117 million togrogs to a German bank account for masks that also never arrived. Police said they were investigating 25 separate cases of coronavirus-related fraud and misinformation alongside the mask-order complaints, reflecting how quickly scammers pivoted to exploit pandemic-driven shortages and panic buying. Mongolia's Police Department advised the public to thoroughly check the websites or social media pages of any seller before ordering scarce goods online, particularly during a shortage, and to be especially wary of upfront wire transfers to sellers or bank accounts based overseas, since a buyer who pays before verifying a seller's legitimacy has little recourse once the money crosses a border and the account or contact disappears.`,
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'medium',
+    sources: ["Mongolia's Police Department", 'MONTSAME News Agency'],
+    sourceUrl: 'https://montsame.mn/en/read/220094',
+    country: 'MN',
+  },
+);
