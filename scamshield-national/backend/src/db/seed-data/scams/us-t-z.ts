@@ -3408,3 +3408,14 @@ UsTZ.push({
     isHistorical: true,
     firstRecorded: '2026-05-20',
 });
+
+UsTZ.push({
+    name: 'Zelle "Business Account Upgrade Fee" Marketplace Seller Scam',
+    slug: 'zelle-business-account-upgrade-fee-scam',
+    description: `A buyer negotiating to purchase a big-ticket item on Facebook Marketplace or a similar site insists on paying through Zelle, Cash App, or Venmo, then tells the seller they sent the money from a "business account." The seller receives a fake email spoofed to look like it came from the payment app, stating that the funds are waiting but that the seller must first pay a one-time fee — commonly around $300 — to "upgrade" their own account to business status before the transfer can be released. The buyer, playing along, claims to have already covered that fee on the seller's behalf and sends a doctored screenshot or fabricated confirmation as proof, then pressures the seller to immediately refund the "advanced" amount by app or wire. No money was ever actually sent: once the seller pays the refund, they discover their own account balance never moved, and the buyer disappears having pocketed the refund outright. The Better Business Bureau warns that Zelle, Cash App, and Venmo never charge a fee to upgrade an account or to release a pending payment, that the same "upgrade fee" pretext has spread across all three apps, and that a seller should verify any payment claim only by logging directly into their own account or app — never by trusting an emailed notice or a screenshot a buyer forwards — and should confirm any stated account policy directly with the payment app's own customer service before paying anything.`,
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'medium',
+    sources: ['Better Business Bureau (BBB)'],
+    sourceUrl: 'https://www.bbb.org/article/scams/27212-scam-alert-how-to-spot-shady-buyers-on-facebook-marketplace',
+    country: 'US',
+});
