@@ -1502,4 +1502,40 @@ export const SEED_GLOBAL_SOURCES: SeedGlobalSource[] = [
       "Tajikistan's central bank operates a dedicated division for financial-services consumer protection, issuing public warnings about fraud schemes (such as fake subsidized-loan offers) and publishing periodic finance reports and typological research on financial-crime patterns.",
     data_type: 'annual_report',
   },
+  {
+    agency_name: 'Central Bank of Lesotho — Financial Consumer Protection Division',
+    country: 'LS',
+    country_name: 'Lesotho',
+    url: 'https://centralbank.org.ls/complaints-handling-procedure/',
+    description:
+      "Lesotho's central bank runs a dedicated Financial Consumer Protection Division, created in 2018 and given statutory power under the Financial Consumer Protection Act 2022, which investigates unresolved complaints against licensed banks and other financial service providers and publishes its formal complaints-handling procedure for the public.",
+    data_type: 'public_stats',
+  },
+  {
+    agency_name: 'Bank of Sierra Leone — Financial Consumer Protection',
+    country: 'SL',
+    country_name: 'Sierra Leone',
+    url: 'https://bsl.gov.sl/Public_Notices_and_Adverts.html',
+    description:
+      "Sierra Leone's central bank enforces its 2022 Financial Consumer Protection Guidelines against regulated banks and financial institutions, and posts public notices on its official site — including fraud alerts such as a fake-lottery scam warning — for consumers to check before acting on suspicious offers.",
+    data_type: 'public_stats',
+  },
+  {
+    agency_name: 'Autorité de Régulation des Communications Électroniques et de la Poste (ARCEP)',
+    country: 'NE',
+    country_name: 'Niger',
+    url: 'https://arcep.ne/qualite-services-telecoms/',
+    description:
+      "Niger's telecom and postal regulator operates a formal online complaint-filing channel for subscribers, covering operator disputes and service fraud, and publishes a regularly updated open dataset of network quality-of-service indicators broken down by region and mobile operator.",
+    data_type: 'open_dataset',
+  },
+  {
+    agency_name: 'Banco Central de São Tomé e Príncipe — Apoio ao Consumidor',
+    country: 'ST',
+    country_name: 'São Tomé and Príncipe',
+    url: 'https://bcstp.st/Reclamacoes',
+    description:
+      "São Tomé and Príncipe's central bank runs a Consumer Support (Apoio ao Consumidor) service under its behavioural-supervision department, operating a public online complaint form through which the public can report grievances — including suspected fraud — against the banks, insurers, and exchange houses it supervises.",
+    data_type: 'public_stats',
+  },
 ];
