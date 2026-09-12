@@ -5992,3 +5992,21 @@ McNeil's case is a reminder that a Ponzi scheme doesn't need a hedge fund's poli
     sourceUrl: 'https://www.attorneygeneral.gov/taking-action/montgomery-county-man-charged-with-duping-dozens-of-investors-in-3-8m-ponzi-scheme/',
   },
 );
+NotoriousNS.push(
+  {
+    title: 'Paul Parmar and the $212 Million Fake-Subsidiary Fraud That Sank Constellation Healthcare',
+    slug: 'paul-parmar-constellation-healthcare-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    body: `Parmjit "Paul" Parmar built a career in healthcare revenue-cycle management before becoming chairman and chief executive of Constellation Healthcare Technologies, Inc., a Houston-based company that handled billing and collections for medical providers and traded publicly on the London Stock Exchange's Alternative Investment Market. By 2017, Parmar was working with two of his top lieutenants — chief financial officer Sotirios "Sam" Zaharis and company secretary and director Ravi Chivukula — to persuade an outside investment firm and a consortium of banks to help fund a deal taking Constellation private. According to federal prosecutors, the numbers behind that deal were largely invented.
+
+From May 2015 through September 2017, prosecutors say Parmar, Zaharis, and Chivukula inflated Constellation's value to more than $300 million by fabricating financial statements for subsidiary companies the firm claimed to have acquired for upwards of $62 million but never actually purchased, altering bank records to make the company's cash position look stronger than it was, and manufacturing customer records to simulate revenue Constellation wasn't actually earning. The fabricated picture worked: a private investment firm contributed roughly $82.5 million, and a consortium of banks and other lenders added another $130 million, bringing the deal's total outside financing to about $212.5 million.
+
+The scheme came apart in September 2017, when it was uncovered internally and Parmar and his co-conspirators were removed from the company. Constellation Healthcare Technologies collapsed into bankruptcy on March 16, 2018, wiping out the value the fabricated books had propped up. The Securities and Exchange Commission filed civil fraud charges against all three men in May 2018, and the U.S. Attorney's Office for the District of New Jersey brought parallel criminal charges the same month, accusing Parmar, Zaharis, and Chivukula of conspiracy to commit securities fraud, securities fraud, and wire fraud.
+
+Parmar pleaded guilty on May 7, 2025, to one count of conspiracy to commit securities fraud before U.S. District Judge Madeline Cox Arleo in Newark. On May 5, 2026, Judge Arleo sentenced him — then 55 and living in Colts Neck, New Jersey — to five years in federal prison and three years of supervised release, and ordered him to pay more than $125 million in restitution to the scheme's victims. Zaharis and Chivukula have not been apprehended since being charged in 2018 and, according to published reporting on the case, remain fugitives; neither has stood trial, and as of this writing the allegations against them are unproven in court and both are entitled to a presumption of innocence.
+
+What makes the Constellation case notable isn't a lone con artist working retirees by phone — it's that fabricated bank statements and invented subsidiary acquisitions were convincing enough to move $212.5 million out of sophisticated institutional investors and a consortium of banks, the kind of counterparties with in-house diligence teams and outside auditors. Forged primary documents, presented with the combined authority of a sitting CEO, CFO, and company secretary all telling the same story, can defeat exactly the kind of scrutiny that's supposed to catch a fraud before the money moves — and two of the three men who told that story have yet to face a courtroom for it.`,
+    sourceUrl: 'https://www.justice.gov/usao-nj/pr/former-ceo-healthcare-company-sentenced-five-years-prison-his-role-212-million',
+  },
+);

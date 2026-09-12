@@ -8742,3 +8742,23 @@ The case is a reminder of how much weight a professional license can carry in a 
     sourceUrl: 'https://www.justice.gov/usao-ndtx/pr/grand-prairie-attorney-arrested-ponzi-scheme-and-obstructing-sec-investigation',
   },
 );
+NotoriousGM.push(
+  {
+    title: 'Linh Thuy Le, Trong Hoang Luu, and the $27 Million "Corporate Capitalization Loan" Sold Through Southern California\'s Vietnamese Community',
+    slug: 'linh-le-trong-luu-inventis-ventures-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    body: `Note: this entry describes pending federal criminal charges and a parallel SEC civil complaint. Neither Linh Thuy Le nor Trong Hoang Luu has been convicted or found liable by a court as of this writing, and both are entitled to a presumption of innocence unless and until that changes.
+
+Linh Thuy Le and her husband, Trong Hoang Luu, ran Inventis Ventures out of Tustin, California — Le as chief executive, Luu as chief financial officer — marketing what they called an invite-only "Corporate Capitalization Loan Program" to friends, relatives, and acquaintances, largely by word of mouth through Southern California's Vietnamese and Latino immigrant communities and, according to the SEC, to investors as far away as Illinois.
+
+The pitch, prosecutors say, was a fixed 12-month loan contract requiring a minimum $5,000 investment, paying 15% interest every month — a 360% annualized return — with full principal returned at the end of the term. Between March 2022 and early 2024, Le and Luu raised roughly $27.5 million from about 1,400 investors, according to the U.S. Attorney's Office for the Central District of California, with the SEC's parallel civil complaint putting the figure at "at least $26.6 million" raised from at least 1,400 people.
+
+None of it worked the way investors were told, according to both agencies. Le and Luu are accused of paying the promised "interest" to earlier investors largely out of money coming in from newer ones — the same recruit-to-pay-the-last-round mechanics behind every Ponzi scheme — while diverting a substantial share of the money to their own use, including two mansions in Yorba Linda and a waterfront condominium in Huntington Beach, referral commissions paid to the acquaintances who brought in new investors, and payments to unrelated business ventures the couple controlled; local reporting on the case put the amount the couple personally pocketed at roughly $7.4 million. A federal grand jury indicted Le and Luu on September 17, 2025, on sixteen counts of wire fraud and two counts of money laundering, and they were arrested on October 15, 2025 — the same day the SEC filed its parallel civil fraud complaint in the U.S. District Court for the Central District of California — before being released on bond pending trial.
+
+As of this writing, the criminal case remains pending in the Central District of California, and neither the wire fraud and money laundering charges nor the SEC's civil allegations have been resolved by trial, plea, or judgment.
+
+The Inventis pitch followed a familiar affinity-fraud playbook: a too-good-to-verify guaranteed return, framed as an exclusive opportunity extended only to people already inside a trusted circle, spread hand-to-hand rather than through any advertising a regulator might flag. Recruiting through relatives and community members who personally vouch for an investment — rather than through a broker or a prospectus — is precisely what let the scheme reach roughly 1,400 people without the ordinary red flags of a cold-call sales pitch ever coming up, and it's why affinity fraud aimed at close-knit immigrant communities keeps recurring: the same trust that binds a community together is also what a fraud built inside it can quietly spend.`,
+    sourceUrl: 'https://www.justice.gov/usao-cdca/case/us-v-linh-le-and-trong-lu',
+  },
+);
