@@ -17594,3 +17594,54 @@ International.push(
     firstRecorded: "2026-05-30",
   },
 );
+
+International.push(
+  {
+    name: "The Mozambique \"Tuna Bonds\" Hidden Debt Scandal",
+    slug: "mozambique-tuna-bonds-hidden-debt-scandal",
+    description:
+      "Between 2013 and 2014, three Mozambican state-owned companies — Proindicus, Empresa Moçambicana de Atum (EMATUM), and Mozambique Asset Management (MAM) — borrowed roughly $2 billion arranged by Credit Suisse and Russia's VTB Bank, publicly presented as financing a coastal-security fleet and a tuna-fishing industry built with equipment supplied by the Abu Dhabi-based shipbuilder Privinvest. The loans were secretly backed by sovereign guarantees that Mozambique's finance ministry signed without the parliamentary approval the country's constitution required, and were never disclosed to the International Monetary Fund or to donor governments already providing Mozambique's budget support. When journalists and creditors exposed the hidden guarantees in April 2016, the IMF and Western donors immediately suspended aid, the metical currency collapsed, and Mozambique defaulted on the debt in 2017. A subsequent independent audit by Kroll found the projects had been massively overbilled and that more than $700 million could not be accounted for, with at least $200 million of the loan proceeds diverted into bribes and kickbacks paid to Mozambican officials and the Credit Suisse bankers who arranged the deals. Economists have since estimated the scandal cost Mozambique more than a decade of economic growth and pushed roughly two million more people into poverty.",
+    categorySlug: "investment-fraud",
+    sources: ["Corruption Tracker (case study)", "International Monetary Fund", "Kroll independent audit"],
+    sourceUrl: "https://corruption-tracker.org/case/mozambique-hidden-debt-scandal",
+    country: "MZ",
+    isHistorical: true,
+    firstRecorded: "2013-01-01",
+  },
+  {
+    name: "Credit Suisse's $475 Million Mozambique Bond Fraud Settlement",
+    slug: "credit-suisse-mozambique-bond-fraud-settlement-2021",
+    description:
+      "On October 19, 2021, Credit Suisse admitted to defrauding investors in connection with the Mozambique \"tuna bonds\" loans and agreed to pay nearly $475 million in a coordinated settlement with the U.S. Department of Justice, the U.S. Securities and Exchange Commission, and the UK Financial Conduct Authority. The bank pleaded guilty to one count of conspiracy to commit wire fraud and paid a $175 million criminal fine to the DOJ, nearly $100 million to the SEC, and more than $200 million to the FCA, and separately agreed to forgive $200 million of the debt still owed by Mozambique. Prosecutors found that Credit Suisse's offering materials for the EMATUM bonds hid the underlying corruption, misrepresented how loan proceeds would be used, and concealed kickback payments made to its own investment bankers — Andrew Pearse, Surjan Singh, and Detelina Subeva — who separately pleaded guilty in U.S. federal court to conspiring to launder money and accepting bribes from Privinvest in exchange for arranging the loans on favorable terms. Russia's VTB Capital separately paid $6.4 million to resolve related SEC charges.",
+    categorySlug: "investment-fraud",
+    sources: ["U.S. Securities and Exchange Commission", "U.S. Department of Justice"],
+    sourceUrl: "https://www.sec.gov/newsroom/press-releases/2021-213",
+    country: "MZ",
+    isHistorical: true,
+    firstRecorded: "2021-10-19",
+  },
+  {
+    name: "Manuel Chang's Conviction in the Mozambique \"Tuna Bonds\" Case",
+    slug: "manuel-chang-mozambique-tuna-bonds-conviction",
+    description:
+      "Manuel Chang, Mozambique's finance minister from 2005 to 2015, was convicted by a federal jury in Brooklyn on August 8, 2024, of conspiracy to commit wire fraud and conspiracy to commit money laundering for his role in the \"tuna bonds\" scheme. Prosecutors showed that Chang personally signed the sovereign guarantees backing the Proindicus, EMATUM, and MAM loans on the government's behalf without the parliamentary approval Mozambican law required, concealing more than $2 billion in debt from the public and from international lenders, in exchange for roughly $7 million in bribes funneled to him by the shipbuilder Privinvest. Chang was arrested in South Africa in December 2018 and spent nearly five years fighting an extradition battle — during which South African courts had to choose between competing U.S. and Mozambican extradition requests — before finally being extradited to the U.S. in 2023 to stand trial. On January 21, 2025, U.S. District Judge Nicholas Garaufis sentenced Chang to 102 months (8 years, 6 months) in federal prison and ordered him to forfeit the $7 million he had personally received in bribes.",
+    categorySlug: "investment-fraud",
+    sources: ["Organized Crime and Corruption Reporting Project (OCCRP)", "U.S. Department of Justice, Eastern District of New York"],
+    sourceUrl: "https://www.occrp.org/en/news/ex-mozambique-finance-minister-sentenced-in-2b-tuna-bonds-fraud-scheme",
+    country: "MZ",
+    isHistorical: true,
+    firstRecorded: "2024-08-08",
+  },
+  {
+    name: "London High Court's $1.9 Billion Judgment Against Privinvest",
+    slug: "privinvest-mozambique-london-high-court-judgment-2024",
+    description:
+      "Mozambique sued the Privinvest shipbuilding group and its late founder Iskandar Safa in London's Commercial Court, seeking roughly $3.1 billion in damages over the bribes Privinvest was found to have paid Mozambican officials and Credit Suisse bankers to secure the inflated Proindicus, EMATUM, and MAM supply contracts underlying the \"tuna bonds\" loans. In a judgment handed down in July 2024, Justice Robin Knowles ruled substantially in Mozambique's favor, finding Privinvest liable for bribery and ordering it to pay the government approximately $1.9 billion in damages — one of the largest civil fraud recoveries a sovereign state has ever won in the English courts. Privinvest sought permission to appeal, but in May 2026 the Court of Appeal dismissed the appeal after Privinvest's corporate entities failed to comply with the security-for-costs conditions the court had imposed at Mozambique's request, making Justice Knowles' July 2024 judgment final and leaving Privinvest also liable for the costs of the failed appeal.",
+    categorySlug: "investment-fraud",
+    sources: ["Club of Mozambique", "Peters & Peters (Mozambique's litigation counsel)"],
+    sourceUrl: "https://clubofmozambique.com/news/privinvest-appeal-against-mozambique-in-debt-case-dismissed/",
+    country: "MZ",
+    isHistorical: true,
+    firstRecorded: "2024-07-01",
+  },
+);
