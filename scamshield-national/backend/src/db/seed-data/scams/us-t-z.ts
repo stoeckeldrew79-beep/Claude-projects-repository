@@ -3381,3 +3381,17 @@ UsTZ.push({
     isHistorical: true,
     firstRecorded: '2026-04-24',
 });
+
+UsTZ.push({
+    name: 'Virginia Board of Veterinary Medicine "DHP Enforcement" Phone Impersonation Scam',
+    slug: 'virginia-board-of-veterinary-medicine-phone-impersonation-scam',
+    description: `The Virginia Department of Health Professions (DHP) — the umbrella agency that oversees the Board of Veterinary Medicine along with Virginia's other health regulatory boards, from nursing and dentistry to funeral directors and embalmers — posted a scam alert on March 21, 2025 warning veterinarians and other licensed healthcare professionals about fraudulent phone calls from people claiming to represent a DHP licensing board or another agency such as the DEA. The callers threaten the licensee with arrest or license suspension and demand personal information or an immediate fine, often "spoofing" DHP's or a board's real phone number or email address so caller ID appears legitimate. DHP stressed that it "will never request fines or fees via wire transfer" and will never demand a Social Security number, date of birth, or bank or credit card account number over the phone — any real disciplinary action is preceded by mailed or hand-delivered notice, never a same-call demand for money. A veterinarian or other licensee who gets a suspicious call is advised to hang up and verify it directly with DHP at (804) 367-4691 or enfcomplaints@dhp.virginia.gov, and can report the attempt to the Virginia State Police at 877-4VA-TIPS, the Virginia Fusion Center at fusion.vsp.virginia.gov/sar/, or the FTC at reportfraud.ftc.gov. DHP's alert separately flagged that the DEA has issued its own nationwide warning about callers impersonating DEA agents, a related scheme licensees should watch for using the same never-pay-by-phone rule.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Virginia Department of Health Professions (DHP)', 'Virginia Board of Veterinary Medicine'],
+    sourceUrl: 'https://www.dhp.virginia.gov/Boards/VetMed/VetMedHomepageItems/News/Content-395222-en.html',
+    country: 'US',
+    state: 'VA',
+    isHistorical: true,
+    firstRecorded: '2025-03-21',
+});
