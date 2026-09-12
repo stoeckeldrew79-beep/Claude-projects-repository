@@ -6771,3 +6771,31 @@ UsNS.push({
     country: 'US',
     state: 'PR',
 });
+
+UsNS.push({
+    name: 'Puerto Rico Evertec Data Breach Consumer Fraud Alert',
+    slug: 'puerto-rico-evertec-data-breach-consumer-fraud-alert',
+    description: `Evertec, the Puerto Rico-based payment-processing company that handles transactions for numerous banks and financial institutions on the island — including major players like Oriental Bank, FirstBank, and Banco Popular — disclosed on June 10, 2026 that it had suffered a cybersecurity incident involving unauthorized access to data tied to some of the financial institutions and clients it services. The exposed information included cardholders' names, credit and debit card numbers, expiration dates, and dates of birth, though Evertec said passwords, PINs, and card security codes were not among the compromised data. DACO Secretary Hiram J. Torres Montalvo announced that the department's Consumer Fraud Detection Unit was actively monitoring the incident and had opened direct communication with Evertec executives, coordinating with the Puerto Rico Innovation and Technology Service (PRITS) and the Puerto Rico Bankers Association to assess the risk to consumers; Torres Montalvo said "cybersecurity is a matter of great relevance for Puerto Rican consumers" and that his office was committed to ensuring "any possible risk for consumers is addressed quickly and effectively." Evertec offered affected customers two years of complimentary credit and identity-monitoring service through Experian, and officials urged consumers to review their bank and credit card statements closely for unfamiliar charges, avoid sharing account information by phone, email, or text in response to any message about the breach, and verify the authenticity of any breach notification directly with their own bank rather than through a link or number the message itself provides — since a real breach becomes an opening for a second wave of scammers impersonating the bank or Evertec itself to "verify" account details that a legitimate notification would never ask for.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'high',
+    sources: ['Puerto Rico Department of Consumer Affairs (DACO)', 'El Nuevo Día', 'WIPR'],
+    sourceUrl: 'https://www.elnuevodia.com/english/business/story/daco-is-monitoring-the-evertec-cybersecurity-incident/',
+    country: 'US',
+    state: 'PR',
+    isHistorical: true,
+    firstRecorded: '2026-06-10',
+});
+
+UsNS.push({
+    name: 'Imperial Pacific International Saipan Casino Labor and Money-Laundering Scheme',
+    slug: 'northern-mariana-islands-imperial-pacific-labor-money-laundering-indictment',
+    description: `A federal grand jury returned a 71-count superseding indictment, unsealed August 4, 2020, against three executives tied to the construction of Imperial Pacific International's unfinished Imperial Palace casino resort on Saipan: Liwen "Peter" Wu, a senior executive of Imperial Pacific International and Worldwide Asia Engineering; Jianmin Xu, another senior IPI executive; and Yan Shi, a project supervisor for contractor MCC International Saipan. The indictment — the product of a joint investigation by the FBI, ICE, IRS Criminal Investigation, and the U.S. Department of Labor — charges the three with racketeering conspiracy, conspiracy to harbor illegal aliens, 32 counts of harboring illegal aliens, 32 counts of unlawfully employing aliens, and five counts of international promotional money laundering, alleging they staffed the casino's construction almost entirely with workers brought in from China rather than through the CNMI's CW-1 program for legally admissible foreign labor, and that more than $24 million was transferred into the United States to sustain the scheme. All three defendants were outside U.S. jurisdiction when the indictment was unsealed and, as of this writing, none has been arrested or extradited to face the charges, which remain pending. The case sits alongside a separate, still-unresolved federal forfeiture action targeting more than $310,000 seized from Bank of Saipan accounts tied to a related wire fraud and money-laundering probe that also examined the CNMI governor's office, illustrating how a marquee development project can double as a vehicle for large-scale labor and financial crimes years before any criminal case against the people who ran it is actually resolved; CNMI workers recruited for construction or hospitality jobs tied to a major project should verify that the employer is petitioning for a legitimate CW-1 or other authorized visa category before accepting a position or paying any recruitment fee, since illegal placement leaves a worker with no real immigration status and no enforceable claim to wages if the arrangement collapses.`,
+    categorySlug: 'employment-scams',
+    alertLevel: 'high',
+    sources: ['U.S. Department of Justice', 'U.S. Immigration and Customs Enforcement', 'Indo-Pacific Defense Forum'],
+    sourceUrl: 'https://ipdefenseforum.com/2020/08/imperial-pacific-international-and-mcc-international-saipan-executives-indicted-on-u-s-federal-charges/',
+    country: 'US',
+    state: 'MP',
+    isHistorical: true,
+    firstRecorded: '2019-08-01',
+});

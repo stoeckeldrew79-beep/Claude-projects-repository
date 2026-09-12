@@ -8042,3 +8042,17 @@ UsAF.push({
     isHistorical: true,
     firstRecorded: '2012-01-01',
 });
+
+UsAF.push({
+    name: 'American Samoa PX Cash-Deposit Embezzlement Scheme (Sophia Esau)',
+    slug: 'american-samoa-esau-aafes-px-cash-deposit-embezzlement',
+    description: `Sophia Esau, an employee of the Army and Air Force Exchange Service (AAFES) Post Exchange store in Tafuna, American Samoa, was charged in October 2025 with 50 criminal counts — 25 counts of theft and 25 counts of embezzlement — after an internal investigation found she had been diverting the store's daily cash deposits since March 2023. Prosecutors say Esau, who oversaw the PX's cash deposits, pocketed cash into her personal backpack instead of taking it to the bank, then ran a rolling "deposit manipulation scheme" that used funds from later deposits — along with recycled, original deposit slips from earlier dates — to paper over the missing amounts and delay detection for more than two years. As the shortfall grew, Esau borrowed roughly $15,000 to $20,000 against her 401(k) and a Navy Federal loan to replenish missing funds, and when investigators closed in she fabricated a story that her vehicle had been broken into and cash stolen from it, while separately discarding real deposit slips and seven customer checks totaling $1,684.87 in a dumpster. When presented with a stop order barring her from leaving the island on October 22, 2025, Esau acknowledged the wrongdoing; the total loss to AAFES was calculated at $117,228.63, and she was released on $80,000 bail pending trial. Esau said the scheme began amid financial hardship tied to a family member's illness, spending an initial $9,000 to $10,000 on personal expenses before the diversions continued for years — a reminder that embezzlement from a cash-handling position often starts small and escalates precisely because a trusted employee can keep covering the gap with the next day's receipts; businesses and government offices in the territory that rely on a single employee to reconcile and deposit cash without independent verification are exposed to exactly this kind of slow-building loss until an audit or a whistleblower catches it.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'medium',
+    sources: ['Samoa News'],
+    sourceUrl: 'https://www.samoanews.com/local-news/former-px-employee-faces-50-criminal-charges-stealing-and-embezzlement',
+    country: 'US',
+    state: 'AS',
+    isHistorical: true,
+    firstRecorded: '2023-03-01',
+});
