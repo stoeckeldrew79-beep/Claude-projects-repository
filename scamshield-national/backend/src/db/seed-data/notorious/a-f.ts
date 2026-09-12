@@ -8339,3 +8339,25 @@ NotoriousAF.push(
     sourceUrl: "https://www.ftc.gov/news-events/news/press-releases/2026/08/ftc-stops-sprawling-credit-repair-scheme-scammed-consumers-out-nearly-200-million",
   },
 );
+
+// No rights-cleared photo of Fritsch has surfaced (he is a fugitive; the FBI's
+// own wanted-poster image is not on Wikimedia Commons) — sourceUrl below
+// serves as the "read the full story" link instead of a generic photo.
+NotoriousAF.push(
+  {
+    title: 'Bernhard Eugen Fritsch: The Tech CEO Who Fled to Mexico, Then Munich, Rather Than Face Sentencing',
+    slug: 'bernhard-eugen-fritsch-starclub-fugitive-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    body: `Bernhard Eugen Fritsch spent years running StarClub Inc., a Santa Monica, California technology company he pitched to investors as building an app that would let celebrities and social media influencers monetize their brand endorsements and share advertising revenue with the people who posted them — a plausible-sounding idea during the boom years of the creator economy, and one that drew in tens of millions of dollars from investors who believed they were funding a working product.
+
+According to federal prosecutors, the money didn't go where investors were told it was going. Rather than building the app, Fritsch is accused of diverting investor funds into a personal lifestyle that included a McLaren and a Rolls-Royce, upgrades to a yacht, and renovations to his Malibu mansion near Carbon Beach. A jury in Los Angeles federal court convicted him in April 2025 of one count of wire fraud, in a case investigators say defrauded investors of more than $20 million.
+
+Fritsch never showed up to learn his sentence. Free ahead of sentencing, he fled the United States for Los Mochis, in the Mexican state of Sinaloa, in June 2025. Mexican authorities detained him there in September 2025 after finding him carrying false identification — but he slipped away again, flying to Munich, Germany, on October 6, 2025. On October 20, 2025, a federal judge sentenced him in absentia to 15 years in prison, a $35,000 fine, and $26,806,901 in restitution — a figure that grew past the original $20 million estimate once the full accounting of victims was complete. His girlfriend, Lucinda Jane Weist Manera, later pleaded guilty to acting as an accessory after the fact for helping him disappear.
+
+With Fritsch, now 65, believed to be hiding in or near Munich, the FBI added him to its newly created Most Wanted Fraudsters list and issued wanted posters in both English and German, offering up to $150,000 for information leading to his arrest. FBI Assistant Director Patrick Grandy said the bureau would "unrelentingly seek his whereabouts."
+
+A wire fraud conviction is usually the end of a case like this one; here it was only the moment Fritsch decided to become someone else's problem. StarClub's pitch relied on a story familiar to any investor watching the creator economy grow — a platform formalizing the revenue-sharing that influencers and their audiences were already inventing informally — and the specific luxuries prosecutors say the money actually bought are almost beside the point next to the harder lesson: a guilty verdict doesn't collect a dollar or serve a day of a sentence by itself, and a defendant with the means to travel internationally can simply not be there when the bill comes due.`,
+    sourceUrl: 'https://abc7.com/post/malibu-man-bernhard-eugen-fritsch-fbis-most-wanted-list-allegedly-conned-investors-20-million/19789742/',
+  },
+);
