@@ -1565,4 +1565,31 @@ export const SEED_GLOBAL_SOURCES: SeedGlobalSource[] = [
       "Gabon's telecom and postal regulator is charged with ensuring fair treatment of consumers and sanctioning operator violations, and publishes quarterly downloadable market dashboards (tableaux de bord) tracking mobile, fixed, and internet service indicators as an open dataset.",
     data_type: 'open_dataset',
   },
+  {
+    agency_name: 'Palestine Capital Market Authority (PCMA)',
+    country: 'PS',
+    country_name: 'Palestine',
+    url: 'https://www.pcma.ps/en/annual-reports/',
+    description:
+      "Palestine's regulator of non-banking financial markets — securities, insurance, and lending — issues public warnings against unlicensed forex platforms and organized investment-fraud schemes, accepts investor complaints through its Diwan channel or the Committee for the Resolution of Securities Disputes, and publishes a full archive of annual reports covering its market-conduct oversight.",
+    data_type: 'annual_report',
+  },
+  {
+    agency_name: 'Financial Services Unit (FSU)',
+    country: 'DM',
+    country_name: 'Dominica',
+    url: 'https://www.fsu.gov.dm/news',
+    description:
+      "Dominica's sole regulator of non-bank financial services — credit unions, insurance, offshore banks, and money services businesses — maintains a searchable registry of authorised entities and publishes news alerts that function as its fraud advisories, including 2025 warnings on unauthorized use of the term 'crypto bank' and license revocations for non-compliant money-service providers.",
+    data_type: 'public_stats',
+  },
+  {
+    agency_name: 'Banque Centrale des Comores (BCC)',
+    country: 'KM',
+    country_name: 'Comoros',
+    url: 'https://banque-comores.km/categorie/select/publications',
+    description:
+      "Comoros' central bank publishes a statutory Rapport Annuel alongside dated public vigilance notices on its official publications page — including a 2023 communiqué naming fake offshore banks falsely claiming authorization through a bogus 'Comoros International Banking Authority' and a 2024 alert on illegal investment offers.",
+    data_type: 'annual_report',
+  },
 ];
