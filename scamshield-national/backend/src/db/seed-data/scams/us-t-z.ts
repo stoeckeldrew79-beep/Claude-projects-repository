@@ -3572,3 +3572,17 @@ UsTZ.push({
     isHistorical: true,
     firstRecorded: '2026-01-28',
 });
+
+UsTZ.push({
+    name: "St. Thomas Businessman's $888,500 Counterfeit Check Fraud Scheme (Brett McClafferty)",
+    slug: 'virgin-islands-mcclafferty-counterfeit-check-fraud-scheme',
+    description: `The Virgin Islands Police Department's Economic Crime Unit arrested St. Thomas businessman Brett "Mac" McClafferty on February 21, 2026, closing out a 20-month investigation that began in June 2024 after Banco Popular de Puerto Rico filed a fraud complaint against him. According to VIPD, between January and June 2024 McClafferty deposited counterfeit and fictitious checks drawn on entities based in the British Virgin Islands into his business and personal bank accounts, then issued his own bank drafts from a Discover account against the inflated balances before the underlying deposits were caught as forged or reversed for insufficient funds; investigators ultimately traced twelve fraudulent transactions totaling roughly $888,500 run through the scheme, with Banco Popular confirming a direct loss of more than $80,000 after several of the counterfeit checks were flagged before McClafferty could withdraw against them. An arrest warrant was issued by Judge Julie S. Todman on December 30, 2025 with bail set at $150,000, and VIPD's Economic Crime Unit executed it at McClafferty's St. Joseph & Rosendahl residence with assistance from the department's Special Operations and Criminal Investigation Bureaus, the U.S. Postal Inspection Service, and the FBI. He was charged with grand larceny, passing or possessing forged bills, obtaining money by false pretenses, making and passing fictitious bills and notes, and drawing and delivering worthless checks, and has publicly denied wrongdoing. The case illustrates how a "check-kiting" style scheme can run for months by exploiting the lag between when a bank credits a deposited check and when it actually clears against the issuing institution — an out-of-territory or foreign-drawn check can look like real, spendable funds well before it bounces. Businesses and individuals who accept large checks drawn on unfamiliar banks, especially ones based outside the territory, should wait for a check to fully clear before drawing against the funds or issuing their own payment against that balance, and can report suspected check fraud to VIPD's Economic Crime Unit at (340) 774-3942 (St. Thomas) or (340) 778-1001 (St. Croix).`,
+    categorySlug: 'fake-check-overpayment',
+    alertLevel: 'medium',
+    sources: ['Virgin Islands Police Department', 'St. Thomas Source'],
+    sourceUrl: 'https://vipd.vi.gov/news/vipd-economic-crime-unit-arrests-suspect-in-888500-fraud-investigation/',
+    country: 'US',
+    state: 'VI',
+    isHistorical: true,
+    firstRecorded: '2026-02-21',
+});

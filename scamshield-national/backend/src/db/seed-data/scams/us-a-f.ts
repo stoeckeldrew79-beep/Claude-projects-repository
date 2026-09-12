@@ -7810,3 +7810,31 @@ UsAF.push({
     isHistorical: true,
     firstRecorded: '2011-11-18',
 });
+
+UsAF.push({
+    name: 'Lyndon B. Johnson Tropical Medical Center AFLAC Hospital-Records Fraud Scheme',
+    slug: 'american-samoa-aflac-hospital-records-fraud-scheme',
+    description: `The U.S. Department of Justice unsealed two federal indictments on April 30, 2003 charging eight American Samoa residents with conspiring to defraud AFLAC, the Columbus, Georgia-based supplemental health insurer, by manufacturing fake hospitalization claims under policies that pay a fixed dollar amount whenever a policyholder is admitted. Prosecutors said the scheme's inside access came from two record clerks at LBJ Tropical Medical Center, American Samoa's only hospital: Tausiga Ofoia and Ateliana Teo allegedly pulled real patients' hospital admission records, "whited out" the genuine patient's name and identifying information, and typed in their own names or those of co-conspirators before the altered records were submitted to AFLAC to trigger a payout, with the proceeds then split among the ring. A 25-count indictment returned by a federal grand jury in the Middle District of Georgia — AFLAC's home turf — charged Ofoia, Teo, Tagiilima Shimasaki Fruean, Anevili Semeatu, Iosefo Filipo Toilolo, Kilepoa Tuitama, and Ivan Faofetai Tuliau with conspiracy and mail fraud in a scheme prosecutors valued at roughly $200,000, while a separate nine-count indictment charged Irata Finuaga, an insurance brokerage employee accused of running a similar name-substitution scheme on intercepted claims, with mail fraud in an additional $80,000 scheme. All eight were arrested in American Samoa and flown to Honolulu to face the charges, in a case the Justice Department's Criminal Division prosecuted following an FBI investigation out of its Honolulu field office. The scheme worked specifically because a hospital's own admission paperwork is the document an insurer trusts most; it is a reminder that access to genuine records is itself something worth protecting, and that a supplemental insurer processing a claim rarely has an independent way to catch a substituted name unless the hospital or a tipster flags it first. Anyone who suspects a health-record employee is altering hospitalization documentation, or notices an insurance claim filed in their name for treatment they never received, can report it to the insurer's fraud unit and to the FBI rather than assume hospital paperwork is automatically reliable.`,
+    categorySlug: 'insurance-fraud',
+    alertLevel: 'medium',
+    sources: ['U.S. Department of Justice, Criminal Division'],
+    sourceUrl: 'https://www.justice.gov/archive/opa/pr/2003/April/03_crm_261.htm',
+    country: 'US',
+    state: 'AS',
+    isHistorical: true,
+    firstRecorded: '2003-04-30',
+});
+
+UsAF.push({
+    name: "Tacoma Woman's Theft of American Samoa Relatives' Identities for Welfare Fraud (Lauofo)",
+    slug: 'american-samoa-lauofo-relatives-identity-theft-welfare-fraud',
+    description: `Iliganoa Theresa Lauofo, a Tacoma, Washington resident originally from American Samoa, was sentenced on November 17, 2020 in U.S. District Court in Seattle to 27 months in prison after admitting to a seven-year public-assistance fraud scheme that relied on stealing the identities of family members and children who actually lived in American Samoa and in independent Samoa. Beginning in April 2011 and continuing through December 2018, Lauofo applied for Washington state food, childcare, and income assistance by falsely claiming her husband did not live with the household and by submitting forged supporting letters; to inflate the payments further, she claimed 13 minor children as living in her home when they in fact resided with relatives in American Samoa and Samoa, using those children's real names, dates of birth, and Social Security numbers without their families' knowledge. Prosecutors said she also used stolen identities — including that of her own deceased ex-husband, opened three years after his death — to open bank and credit accounts, and that in March 2018, while working as a U.S. Postal Service letter carrier, she stole and deposited two checks from mail on her own delivery route before destroying more than 200 pieces of mail the following month to help cover her tracks. In all, Lauofo was ordered to pay $276,639 in restitution, covering $222,294 in overpaid benefits, more than $35,000 in undeserved tax credits and refunds, and over $10,000 lost through the fraudulent bank and credit accounts; U.S. District Judge Richard A. Jones told her at sentencing, "You told a persistent and protracted series of lies." The case is a pointed reminder for American Samoa families that a relative living stateside can misuse a child's or elder's name, birth date, and Social Security number in a benefits application the family never sees or signs, since the fraud is committed entirely on the mainland side of the paperwork; anyone in American Samoa who learns a relative elsewhere has listed their children as household dependents without permission, or who is contacted by a mainland benefits agency about an application they never filed, should treat it as identity theft and report it to the Social Security Administration's Office of Inspector General and the benefits-granting state agency directly.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'medium',
+    sources: ['U.S. Department of Justice, Western District of Washington', 'Samoa News'],
+    sourceUrl: 'https://www.justice.gov/usao-wdwa/pr/tacoma-woman-sentenced-27-months-prison-7-year-public-assistance-fraud-scheme',
+    country: 'US',
+    state: 'AS',
+    isHistorical: true,
+    firstRecorded: '2011-04-01',
+});
