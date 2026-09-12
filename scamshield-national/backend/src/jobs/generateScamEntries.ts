@@ -356,7 +356,19 @@ async function main() {
   }
   if (!accepted.length) return;
 
-  // 4. Append to the right shard, preserving the existing formatting.
+  // 4. Append to the right shard as `Var.push({...});` blocks — the shards
+  // stopped being one big array literal a while back (six routines editing
+  // the same array made every addition a merge conflict), so each file is
+  // now its initial array followed by a long tail of individual .push()
+  // calls. There is no reliable "array end" to splice before any more; the
+  // only insertion point every shard actually supports is its own end.
+  const SHARD_VAR: Record<string, string> = {
+    'us-a-f': 'UsAF',
+    'us-g-m': 'UsGM',
+    'us-n-s': 'UsNS',
+    'us-t-z': 'UsTZ',
+    international: 'International',
+  };
   const byShard = new Map<string, Entry[]>();
   for (const e of accepted) {
     const s = shardFor(e);
@@ -364,8 +376,8 @@ async function main() {
   }
   for (const [shard, entries] of byShard) {
     const file = path.join(SHARD_DIR, `${shard}.ts`);
-    const src = fs.readFileSync(file, 'utf8');
-    const literal = entries
+    const varName = SHARD_VAR[shard];
+    const blocks = entries
       .map((e) => {
         const lines = [
           `    name: ${JSON.stringify(e.name)},`,
@@ -379,12 +391,10 @@ async function main() {
           `    country: ${JSON.stringify(e.country)},`,
         ];
         if (e.state) lines.push(`    state: ${JSON.stringify(e.state)},`);
-        return `  {\n${lines.join('\n')}\n  },`;
+        return `\n${varName}.push({\n${lines.join('\n')}\n});\n`;
       })
-      .join('\n');
-    const marker = src.lastIndexOf('\n];');
-    if (marker === -1) { console.error(`generateScamEntries: could not find the array end in ${shard}.ts — skipped`); continue; }
-    fs.writeFileSync(file, src.slice(0, marker + 1) + literal + src.slice(marker + 1));
+      .join('');
+    fs.appendFileSync(file, blocks);
     console.log(`  wrote ${entries.length} entr${entries.length === 1 ? 'y' : 'ies'} to scams/${shard}.ts`);
   }
   console.log('\ngenerateScamEntries: run `npx tsc --noEmit` and `npm run seed` before committing.');
