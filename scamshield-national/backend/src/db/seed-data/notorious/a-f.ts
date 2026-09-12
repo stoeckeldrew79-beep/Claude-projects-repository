@@ -9032,3 +9032,22 @@ Five Star's case became one of the clearer illustrations, alongside contemporari
     sourceUrl: 'https://www.sfo.govt.nz/media-cases/media-releases/guilty-plea-to-sfo-charges-in-five-star-finance-investigation',
   },
 );
+
+NotoriousAF.push(
+  {
+    title: 'David Ames and the Harlequin Group: A £226 Million "Giant Ponzi Scheme" Sold as Caribbean Resorts',
+    slug: 'david-ames-harlequin-group-caribbean-resort-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'international'],
+    body: `David Ames built the Harlequin Group into one of the UK's most aggressively marketed off-plan property investment brands, pitching thousands of British savers on the dream of owning a slice of a luxury Caribbean resort. Between 2010 and 2015, Harlequin persuaded more than 8,000 investors — many of them holding Self-Invested Personal Pensions and unfamiliar with high-risk investing — to put a combined £226 million into resort developments planned for St Vincent and the Grenadines, St Lucia, and Barbados, with the company's flagship project at Buccament Bay used as the centerpiece of its sales pitch.
+
+The properties investors paid for were, for the most part, never built. Of roughly 9,000 units marketed to buyers, only a small fraction were ever completed, and the Serious Fraud Office's investigation found that Harlequin had no genuine, sustainable funding model behind its promises at all: new investor money was needed simply to keep the enterprise afloat and pay earlier investors' returns, the textbook structure of a Ponzi scheme, while Ames personally extracted roughly £6.2 million for his family's benefit through the Harlequin Group. Around 99% of investors ultimately received no return on the money they had put in.
+
+The scheme's collapse in 2013 left investors — many elderly and inexperienced, some forced to remortgage their homes or delay retirement to cover the shortfall — chasing a company that could not deliver what it had sold. The Serious Fraud Office charged Ames with fraud by abuse of position, and a jury convicted him at Southwark Crown Court on August 3, 2022. Sentencing him on September 30, 2022, Judge Hehir told Ames, "You are a menace to anybody unfortunate enough to do business with you," and imposed a 12-year prison sentence along with a 15-year disqualification from acting as a company director. Ames's appeal against both the conviction and the sentence was dismissed by the Court of Appeal in December 2023.
+
+Confiscating the proceeds proved to be its own separate fight: the SFO's asset-recovery team spent years tracing money Ames had moved into land in Thailand, luxury property in Dubai, hidden bank accounts, and gifts transferred to family members, before finally securing a £283,321 confiscation order following a contested hearing at Southwark Crown Court — its first recovery against Ames, announced in February 2026, more than a decade after Harlequin first collapsed.
+
+Harlequin shows how an off-plan property pitch can borrow the emotional appeal of a dream retirement — a private island resort, a guaranteed rental income, a tangible asset rather than a paper one — to move pension money into a scheme that was, underneath the marketing, paying old investors with new investors' cash. And the decade-long gap between Ames's 2013 collapse and the SFO's first modest recovery order in 2026 is its own lesson: a criminal conviction can take years to secure, and even after it lands, chasing down money a fraudster has spent years hiding across multiple countries can take years more, with victims often waiting the longest of anyone in the process.`,
+    sourceUrl: 'https://www.gov.uk/government/news/sfo-set-to-secure-280000-from-convicted-fraudster-david-ames',
+  },
+);
