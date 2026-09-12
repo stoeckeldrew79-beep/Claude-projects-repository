@@ -16475,3 +16475,46 @@ International.push(
     sourceUrl: 'https://static.anaf.ro/static/3/Anaf/20260417122739_com_387%20avertizare%20vishing.pdf',
   },
 );
+
+International.push(
+  {
+    name: 'Fake Israel Post Delivery-Tracking Phishing Site',
+    slug: 'israel-fake-post-office-tracking-phishing-site',
+    description: `Israel's National Cyber Directorate warned on March 4, 2026 of "a wave of phishing messages circulated over the past 24 hours to users across the country, impersonating official Israel Post communications." The fraudulent messages linked to a website built to closely mimic the real Israel Post site, displaying a fake shipment-tracking page that claimed a delivery attempt had failed and pressed the visitor to confirm or update their address — a pretext the Directorate said was designed to steal "personal information or payment details." According to the Directorate, the fake page captured whatever a visitor typed into it in real time rather than only once a form was submitted, meaning someone could have had their information exposed to the attackers even without clicking any final "send" button. Israel Post delivery-failure notices are one of the most reliably clicked phishing lures precisely because so many recipients really are waiting on a package, and the Directorate's guidance was to treat any unsolicited delivery-problem text or email with suspicion, never enter personal or card details through a link inside one, and check a supposed delivery issue only through Israel Post's own official site typed in directly.`,
+    categorySlug: 'package-delivery-scams',
+    country: 'IL',
+    alertLevel: 'high',
+    sources: ['Israel National Cyber Directorate', 'Ynetnews', 'Israel National News (Arutz Sheva)'],
+    sourceUrl: 'https://www.ynetnews.com/article/dslav7dgi',
+  },
+  {
+    name: 'Fake IDF Home Front Command "Shelter App" SMS Phishing',
+    slug: 'israel-fake-home-front-command-shelter-app-sms',
+    description: `Israel's National Cyber Directorate issued an alert on the morning of March 19, 2026 — during a period of missile and rocket fire from Iran and Hezbollah that was sending millions of Israelis into bomb shelters night after night — warning that fraudulent SMS messages were circulating that impersonated the IDF Home Front Command. The texts offered a link to download an app billed as a tool for use while "staying in bomb shelters," but the link actually led to a malicious site that the Directorate said "may be used to steal personal information and identification details, or to damage the phone." The Directorate stressed that the real Home Front Command does not distribute app-download links by text message, and noted this was not an isolated incident — it had issued a near-identical warning on March 1, 2026 over a separate wave of fake "app update" messages using the same wartime anxiety as cover. Officials urged recipients never to click links in unsolicited messages claiming to be from the Home Front Command and to obtain any genuine shelter or alert app only through official government channels, since a scam that exploits the fear of an incoming rocket attack relies on people acting before they stop to check who actually sent the message.`,
+    categorySlug: 'government-impersonation',
+    country: 'IL',
+    alertLevel: 'critical',
+    sources: ['Israel National Cyber Directorate', 'The Times of Israel'],
+    sourceUrl: 'https://www.timesofisrael.com/authorities-warn-israelis-of-phishing-attempt-in-fake-home-front-command-messages/',
+  },
+  {
+    name: 'AI Deepfake Pump-and-Dump Scam Using Ostin Technology Group (OST) Stock',
+    slug: 'israel-deepfake-ost-stock-pump-and-dump-scam',
+    description: `Beginning in April 2025, a coordinated fraud campaign used AI-generated deepfake video to promote a real NASDAQ-listed company, Ostin Technology Group Co. Ltd. (ticker OST), to Israeli investors. The videos put fabricated words in the mouths of real, prominent Israeli figures — including business journalist Guy Rolnik, tech entrepreneur Eyal Waldman, businesswoman Shari Arison, and businessman Tamir Mandovsky — and, most strikingly, depicted Bank of Israel Governor Amir Yaron endorsing the stock, alongside deepfaked international celebrities including Elon Musk, Mark Zuckerberg, Gal Gadot, and Noa Kirel; some versions were localized with Russian subtitles aimed at Israel's Russian-speaking population. The campaign ran through paid Facebook and Instagram promotion tools, then funneled targets into direct WhatsApp contact with people posing as financial experts and into fake WhatsApp "investor groups," and onto external websites built with fabricated trading dashboards and invented market data designed to make the stock look like a can't-miss opportunity. OST's share price climbed through April before it "plummeted, at one point trading for as low as $0.17, down nearly 93%" in early July 2025, wiping out the paper gains the campaign had manufactured; two individual victims interviewed afterward reported losses of 250,000 and 150,000 shekels respectively. Jonathan Ben-Horin, director of Israel's Safe Internet Helpline, said Facebook and Instagram had "only removed individual posts while the scams keep coming in waves," calling the platforms' response piecemeal rather than a fix for the underlying advertising tools the scammers were exploiting. The case is a reminder that a celebrity or official appearing to "endorse" an individual stock in a video is not evidence of anything real — sitting central bank governors do not personally endorse individual stocks — and that any investment pitch reaching a target through a WhatsApp group or an unsolicited social-media ad should be verified independently before any money is sent.`,
+    categorySlug: 'ai-deepfake-scams',
+    country: 'IL',
+    alertLevel: 'high',
+    sources: ['Ynetnews', 'Safe Internet Helpline (Israeli Internet Association)', 'AI Incident Database'],
+    sourceUrl: 'https://www.ynetnews.com/business/article/hkzaj8krll',
+  },
+  {
+    name: 'Fake "Bituach Leumi" National Insurance Institute Phishing Texts',
+    slug: 'israel-fake-bituach-leumi-national-insurance-phishing',
+    description: `Israel's National Insurance Institute (Bituach Leumi) issued a public warning after fraudsters began sending fake text messages impersonating the agency, telling recipients that "unusual activity" had been detected on their account or that they had unclaimed benefits waiting, with each message carrying a link to a spoofed website built to look like the genuine Bituach Leumi site. The Institute said it was not the source of the messages, that the link led to a cloned page designed to harvest personal information and bank account details, and that visitors should check any Bituach Leumi web address before entering anything, since a genuine National Insurance Institute page will always end in the government domain ".gov.il" — anything else is a scam. The warning came amid a broader wave of smishing texts hitting Israeli phone numbers that also impersonated banks, delivery companies, and toll operators, all built around the same "unusual activity" or unclaimed-money hook designed to get a recipient clicking before they think to question who actually sent it. The Institute's advice echoed the standard guidance for this kind of message: never click a link in an unsolicited text claiming to be from a bank or government body, and reach the real institution only by typing its known address directly into a browser or calling its official phone number, since, as the Institute put it, official institutions will never ask a person to submit passwords or sensitive information through a link sent by text message.`,
+    categorySlug: 'public-benefits-fraud',
+    country: 'IL',
+    alertLevel: 'high',
+    sources: ['National Insurance Institute of Israel (Bituach Leumi)', 'Ynetnews'],
+    sourceUrl: 'https://www.ynetnews.com/business/article/rkmxfr7ygx',
+  },
+);
