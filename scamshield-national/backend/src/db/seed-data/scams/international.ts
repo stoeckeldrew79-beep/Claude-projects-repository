@@ -16776,3 +16776,46 @@ International.push(
     country: 'GR',
   },
 );
+
+International.push(
+  {
+    name: 'Fake "Fonds d\'Investissement Agricole" Government Grant Scam',
+    slug: 'senegal-fake-fonds-investissement-agricole-scam',
+    description: `A fraudulent "call for projects" notice circulated on Senegalese social media in early September 2026 under the name "Fonds d'Investissement Agricole" (Agricultural Investment Fund), claiming the government was distributing a 130-billion-CFA-franc fund directly to individuals, with grants ranging from 5 million to 500 million CFA francs available to anyone who applied. Senegal's Ministry of Agriculture, Food Sovereignty and Livestock (MASAE) issued a formal statement on September 5, 2026 denying the document's authenticity outright, explaining that the real 130-billion-CFA-franc figure cited in the fake notice is in fact the state's actual agricultural campaign budget — money earmarked for subsidized seeds, fertilizer, and mechanization support distributed through official channels, not cash grants handed out to individual applicants who apply online. The ministry warned citizens not to pay any sum of money or "dossier fee" in response to the notice and to verify any supposed agricultural funding opportunity only through its official website, agriculture.gouv.sn, rather than a shared social media post or an unfamiliar link. The episode fits a broader pattern flagged by Senegalese authorities in which scammers borrow a real, large government budget figure to lend a fabricated program instant credibility, then exploit farmers' and jobseekers' hope for a life-changing grant to collect upfront "processing" payments for financing that does not exist.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Ministère de l\'Agriculture, de la Souveraineté alimentaire et de l\'Élevage (MASAE)', 'Senego'],
+    sourceUrl: 'https://senego.com/faux-appel-a-projets-agricoles-le-masae-dement-et-met-en-garde-contre-larnaque_2000055.html',
+    country: 'SN',
+  },
+  {
+    name: 'Fake Company Identity Business Email Compromise Against Banque Islamique du Sénégal',
+    slug: 'senegal-bis-fake-company-identity-bec-fraud',
+    description: `Senegal's cybercrime unit, the Division Spéciale de Cybercriminalité (DSC), disrupted a business-email-compromise scheme in early April 2026 before it could drain 57,630,000 CFA francs from Banque Islamique du Sénégal (BIS). Investigators say the fraud ring cloned the digital identity of a real company, "Nouvelle Vision du Sénégal," by registering a look-alike email address built to mimic the firm's genuine correspondence, then backed the impersonation with a fabricated paper trail of forged invoices, purchase orders, and bank statements. Posing as the company, the fraudsters requested a transfer supposedly to pay another firm, "GCEM Sénégal," for heavy construction equipment, directing the funds to a beneficiary account the ring controlled at an Orabank branch. The DSC's real-time monitoring of the transaction flagged the destination account as suspicious before any money moved, and on April 3, 2026 investigators arrested a suspect at Orabank's Almadies branch as he attempted to access the account; several individuals have since been referred to the Dakar High Court prosecutor, with the investigation continuing to identify accomplices believed to be operating outside Senegal. The case illustrates why any request to change payment details or urgently wire funds for a supplier invoice — even one that arrives with seemingly legitimate letterhead, invoices, and bank statements — should be verified by calling the counterparty on a phone number obtained independently, not one included in the email or documents themselves, before any transfer is authorized.`,
+    categorySlug: 'business-email-compromise',
+    alertLevel: 'high',
+    sources: ['Division Spéciale de Cybercriminalité (DSC) du Sénégal', 'Le Soleil'],
+    sourceUrl: 'https://fr.allafrica.com/stories/202604090651.html',
+    country: 'SN',
+  },
+  {
+    name: '"Senevisa.com" Fraudulent Visa-Issuance Website',
+    slug: 'senegal-senevisa-fraudulent-visa-website-scam',
+    description: `Senegal's Ministry of African Integration, Foreign Affairs and Senegalese Abroad issued a public alert on April 16, 2026 warning that a website calling itself "Senevisa.com" had been set up by a network of forgers to illegally sell entry and residence visas for Senegal. The site charged applicants payments in exchange for supposed visa processing and approval, misleading both foreigners hoping to travel to Senegal and members of the Senegalese diaspora seeking documents for relatives, none of whom ever received a valid visa in return. On discovering the platform, the ministry opened a judicial investigation and formally requested that the fraudulent site be shut down immediately to prevent further victims. In its statement, the ministry stressed a fact many applicants would not otherwise know: the issuance of visas for Senegal is the exclusive responsibility of Senegal's own diplomatic and consular missions abroad, current procedures do not require any "dossier fee," and any future change to that process would be announced publicly through official channels rather than a privately run website. Anyone seeking a Senegalese visa is advised to apply only directly through a Senegalese embassy or consulate and to treat any third-party website offering to sell or expedite a Senegal visa for a fee as fraudulent.`,
+    categorySlug: 'travel-vacation-scams',
+    alertLevel: 'high',
+    sources: ['Ministère de l\'Intégration africaine, des Affaires étrangères et des Sénégalais de l\'Extérieur', 'Le Soleil'],
+    sourceUrl: 'https://lesoleil.sn/actualites/societe-fait-divers/alerte-aux-faux-visas-une-plateforme-frauduleuse-demantelee-par-les-autorites-senegalaises/',
+    country: 'SN',
+  },
+  {
+    name: 'Coordinated Overnight ATM Cyberheist Against UBA Sénégal Customers',
+    slug: 'senegal-uba-atm-cyberheist',
+    description: `Over the night of January 30-31, 2026, criminals who had gained unauthorized access to UBA Sénégal's information systems carried out roughly 3,421 fraudulent ATM withdrawals across Dakar, Thiès, and Kaolack, draining an estimated 1.143 billion CFA francs from the accounts of 91 customers in only a few hours. Investigators found the intrusion was not confined to Senegal: coordinated fraudulent withdrawals using cloned card data struck UBA branches in nine other African countries at roughly the same time, including Côte d'Ivoire, Mali, and Kenya, pointing to a transnational network capable of compromising the bank's systems and executing synchronized cash-outs before the fraud could be detected and blocked. Senegal's Division des Investigations Criminelles arrested two suspects attempting to leave the country shortly after the heist, and the wider investigation has since led to a total of four arrests, including a postal-service employee accused of helping process cards used in the fraudulent withdrawals; those detained face charges including criminal association, organized fraud, and money laundering, while authorities in Senegal and the other affected countries continue working to trace the full network responsible. The case underscores that even withdrawals made with what looks like a legitimate bank card at a real ATM can be the product of a system-level breach entirely outside a customer's control, and it is a reminder to monitor bank accounts closely for unrecognized withdrawals and report any suspicious activity to the bank immediately so affected cards can be blocked.`,
+    categorySlug: 'account-takeover',
+    alertLevel: 'critical',
+    sources: ['UBA Sénégal', 'Seneweb', 'Le Soleil'],
+    sourceUrl: 'https://www.seneweb.com/en/news/Societe/1143-milliard-fcfa-voles-a-uba-dix-pays-touches-pirates-reperes-au-senegal-graves-revelations-sur-le-casse-du-siecle_n_489022.html',
+    country: 'SN',
+  },
+);
