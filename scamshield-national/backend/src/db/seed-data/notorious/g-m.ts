@@ -9057,6 +9057,23 @@ A point-of-sale lending model built around trusting third-party merchants to get
   },
 );
 
+NotoriousGM.push(
+  {
+    title: 'Genneva Gold: The RM7 Billion Malaysian Gold Buyback Scheme That Took a Decade to Convict',
+    slug: 'genneva-gold-malaysia-buyback-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    body: `Genneva Malaysia Sdn Bhd, formed in 2002 with shareholders including Marcus Yee Yuen Seng and Ng Poh Weng, spent the following decade marketing what it called a Shariah-compliant gold investment: customers would "sell" gold bars to Genneva at 20-25% above the prevailing market price, with the company promising to buy the gold back later while paying a "gift" — Genneva avoided the word "interest," to keep the product looking religiously compliant — worth roughly 24% a year, plus additional referral payments to consultants who recruited more customers underneath them. At its peak the scheme, marketed heavily through investment seminars and word of mouth in Malaysia's Muslim community, pulled in tens of thousands of ordinary savers looking for a return that sounded both generous and safe, backed by a physical commodity rather than a company's stock or a stranger's promise.
+
+There was no way the arithmetic behind that pitch could work as a legitimate business. Buying gold above market price and later returning it with a 24% annual bonus is only sustainable if new customer deposits keep flowing in faster than existing customers cash out — the same structural flaw as any Ponzi scheme, dressed in gold bars instead of stock certificates. Malaysia's central bank, Bank Negara Malaysia, and police raided Genneva's operations on October 1, 2012, along with related companies, on suspicion of illegal deposit-taking and money laundering, freezing what by then amounted to a small fraction of what the scheme had collected: parliamentary figures later put total deposits somewhere between roughly RM4 billion and RM7 billion, drawn from an estimated 35,000 to 50,000 investors.
+
+The criminal case took nearly eight years to reach a verdict. On August 4, 2020, the Kuala Lumpur High Court convicted Genneva Malaysia Sdn Bhd and eight individuals connected to the company — including Yee, Ng, and fellow directors Philip Lim Jit Meng, Tan Liang Keat, Lim Kah Heng, Chiew Soo Ling, Ahmad Khairuddin Ilias, and Yao Kee Boon — of money laundering and illegal deposit-taking under the Banking and Financial Institutions Act 1984. The court sentenced the individual defendants to prison terms ranging from three to nine years and fined them between RM1 million and RM4 million each, while ordering the company itself to pay a RM450 million fine and two related entities, Success Attitude Sdn Bhd and Ng Advantage Sdn Bhd, to pay RM8 million and RM101 million respectively — combined penalties exceeding RM1.3 billion.
+
+Even after conviction, recovering money for the roughly 35,000 people who had trusted Genneva with their savings remained a slow, separate fight through the civil courts; as late as January 2026, more than a decade after the raid, Malaysian courts were still ordering the company and its directors to pay specific restitution amounts to individual investors, including the estate of one elderly victim who had campaigned publicly for repayment before her own death. The case shows how a scheme built around gold — a commodity people trust instinctively because it feels immune to the kind of fraud that plagues paper investments — can still be run as an ordinary Ponzi scheme underneath, and how the years-long gap between a regulatory raid and a final criminal conviction, let alone actual restitution, can leave victims waiting most of a decade to see whether the system that shut the fraud down would also get any of their money back.`,
+    sourceUrl: 'https://theedgemalaysia.com/article/justice-served-%E2%80%94-now-%E2%80%94-countrys-biggest-gold-scam',
+  },
+);
+
 // No rights-cleared photo of Whitney or Parrish was located; the DOJ and
 // SEC filings cited in sourceUrl are the primary sources for every fact
 // below.
