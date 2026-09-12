@@ -8962,3 +8962,46 @@ Ferrum Capital's pitch worked for as long as it did because it had a plausible-s
     sourceUrl: 'https://www.ssb.texas.gov/news-publications/federal-jury-convicts-joshua-allen-and-michael-cox-multimillion-dollar-investment',
   },
 );
+
+// Completed criminal case: guilty plea, prison sentence, and restitution
+// order (N.D. Cal.), with a parallel SEC civil action. No booking photo or
+// other rights-cleared image of Dodson was located, so sourceUrl links to
+// the U.S. Attorney's Office's announcement of the sentencing.
+NotoriousGM.push(
+  {
+    title: 'Joey Stanton Dodson and the Citadel Energy $15.6 Million Ponzi Scheme',
+    slug: 'joey-stanton-dodson-citadel-energy-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    body: `Joey Stanton Dodson positioned himself as the well-connected executive chairman and managing partner of Citadel Energy Partners, an operation pitched to investors as providing fluid-management services to oil and gas companies through three affiliated limited partnerships. Between November 2012 and May 2015, according to the U.S. Attorney's Office for the Northern District of California, Dodson used that platform to raise more than $15.6 million from over 50 investors — money he controlled directly, since he ran the partnerships' bank accounts and was the one deciding what investors were told about how it was being used.
+
+Much of what he told them wasn't true. Prosecutors said Dodson made materially false and misleading representations and omissions about the intended use of investor funds, the status of a private-equity firm's supposed acquisition of the business, and his own compensation. Rather than deploying the money as described, Dodson misappropriated at least $1.3 million of it for personal expenses and to make payments to earlier investors in a separate, unrelated venture called Duke Equity — using new Citadel money to paper over problems in a different scheme entirely. When the misappropriation came to light, the three Citadel limited partnerships were placed into bankruptcy, and investors lost their entire principal.
+
+Dodson pleaded guilty on June 14, 2022, to a single federal count of wire fraud. On January 25, 2023, a federal judge in the Northern District of California sentenced him to five years in prison, followed by three years of supervised release, and ordered him to pay $15,636,392 in restitution — effectively the full amount investors had put in. The U.S. Securities and Exchange Commission separately brought a parallel civil fraud action against Dodson over the same conduct.
+
+Citadel Energy's collapse follows a familiar shape for reputation-based fraud in a niche industry: a plausible-sounding real business run by someone with an insider's title and vocabulary, funding requests investors had no independent way to verify, and a second, entirely separate scheme quietly propped up with the first one's money once the numbers stopped working. Investors who trusted Dodson's title and his familiarity with the oil-and-gas business had no way of knowing the funds supposedly bridging their own partnership's timing gaps were actually plugging a hole in an unrelated fund.`,
+    sourceUrl: 'https://www.justice.gov/usao-ndca/pr/former-energy-company-executive-sentenced-five-years-prison-15-million-investment',
+  },
+);
+
+// SEC civil action resolved by consent judgment on liability; a parallel
+// criminal wire fraud case ended in a guilty plea, per the SEC's own
+// litigation release, though the sentence imposed at the scheduled August
+// 2026 hearing could not be confirmed through published reporting as of
+// this writing. No rights-cleared photo of Santarelli was located.
+NotoriousGM.push(
+  {
+    title: 'Marco Santarelli and the Norada Capital Ponzi Scheme',
+    slug: 'marco-santarelli-norada-capital-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    body: `Marco Santarelli built a public profile in real estate investing circles as a frequent podcast and webinar host, and used that visibility to promote Norada Capital Management, LLC, a Wyoming-registered fund he owned and ran by himself out of Laguna Niguel, California. From June 2020 through June 2024, according to a Securities and Exchange Commission complaint, Santarelli used Norada to raise tens of millions of dollars from hundreds of investors nationwide by selling unsecured promissory notes paying 12% to 17% a year — with a 5% bonus for larger investments — while telling investors the notes offered "capital preservation," were "IRA friendly," and carried a chance of losing principal he estimated at "less than 2%."
+
+None of that reflected what Norada actually held. The SEC's complaint says Norada's portfolio was loaded with volatile, speculative bets: intellectual property bought out of retailers' bankruptcies, a stake in stage-production financing, roughly $5 million in cryptocurrency Santarelli kept in his own name rather than the fund's, and a $90 million debt-financed purchase of "Mastermind" business-seminar companies that never generated the returns Norada needed to cover what it owed investors. By November 2022, debt payments on that seminar-company deal had outpaced what Norada was earning, and the fund began paying investor "returns" out of new investors' money — Ponzi-like payments the SEC says Santarelli never disclosed. Instead, in August 2023, with Norada already unable to cover its obligations, he began offering an additional 5% bonus to attract still more money, raising another $54 million between August 2023 and the fund's collapse in June 2024. In total, the SEC says Norada used more than $18 million of investor funds to make Ponzi-like payments between 2020 and 2024.
+
+Norada suspended payments in June 2024, told investors their notes were being converted to equity, and shut down entirely in early 2025 — a collapse that, according to news accounts of the U.S. Attorney's Office's criminal complaint, cost more than 500 investors roughly $62.5 million in total. Prosecutors in the Central District of California charged Santarelli, 56, with one count of wire fraud in September 2025; he pleaded guilty in that parallel criminal case, and on November 19, 2025, the SEC announced Santarelli had also consented — without admitting or denying the SEC's allegations — to a final civil judgment permanently barring him from future securities-law violations, with the exact penalty, disgorgement, and prejudgment-interest amounts left for the court to determine on the SEC's later motion. Sentencing in the criminal case was scheduled for August 2026; the prison term the court actually imposed there could not be confirmed through published reporting as of this writing.
+
+Santarelli's pitch worked because it addressed the specific anxieties of income-focused and retirement-age investors directly — fixed monthly income, IRA compatibility, an explicit (and false) reassurance about the odds of losing principal — while the fund quietly financed an unrelated business-seminar acquisition that had nothing to do with the "stable, high-yield" story investors were told. The gap between what Norada actually held and what its promissory notes promised became unpayable only once an even higher-yield round of notes was needed just to keep servicing the last one.`,
+    sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26420',
+  },
+);
