@@ -7092,3 +7092,15 @@ UsGM.push({
     isHistorical: true,
     firstRecorded: '2020-01-01',
 });
+
+UsGM.push({
+    name: 'Chicago-Area Inheritance and Romance Scam Ring (Ibekie, Aniukwu, and Gosha)',
+    slug: 'illinois-oswego-ibekie-aniukwu-inheritance-romance-scam-ring',
+    description: `Anthony Emeka Ibekie, 59, of Oswego, Illinois, and Samuel Aniukwu, 50, of Romeoville, Illinois — both Nigerian nationals — ran a years-long fraud operation out of the Chicago suburbs with the help of Jennifer Gosha, 52, of Oak Park, a U.S. citizen, that combined three separate scam schemes to steal at least $3.5 million from victims nationwide. In the inheritance scam, the group used aliases to contact victims and falsely tell them they were owed a substantial inheritance that required an upfront payment to release; in the romance scam, they built fake relationships with victims they met through dating platforms including Match.com and OKCupid and social media, then convinced them to wire money to accounts the group controlled; and in a business email compromise scheme, they targeted corporate email accounts to redirect legitimate business payments. Investigators who searched Aniukwu's home found forged letters purporting to be from "Standard Charter Financial Group" used to convince victims their inheritance claims were legitimate. Following a federal jury trial, Ibekie was convicted on all 14 counts against him — wire fraud, mail fraud, money laundering, making false statements to a bank, and passport fraud — and U.S. District Judge Steven C. Seeger of the Northern District of Illinois sentenced him to 20 years in federal prison. Aniukwu pleaded guilty to wire fraud and money laundering and was sentenced on November 8, 2024 to 10 years in prison, while Gosha pleaded guilty to wire fraud and making false statements to a federal agent. "These types of scams are particularly insidious because they prey on the vulnerable and can cause significant financial and emotional harm," said HSI Chicago Special Agent in Charge Sean Fitzgerald, whose office led the investigation with the IRS Criminal Investigation and U.S. Postal Inspection Service. Anyone contacted out of the blue about an unclaimed inheritance, or asked by an online romantic interest to wire money or accept and forward funds on their behalf, should independently verify the story — a real inheritance never requires the heir to pay a fee upfront, and a real romantic partner never needs their money moved through someone else's bank account.`,
+    categorySlug: 'romance-scams',
+    alertLevel: 'high',
+    sources: ['U.S. Immigration and Customs Enforcement, Homeland Security Investigations', "U.S. Attorney's Office, Northern District of Illinois", 'Chicago Sun-Times'],
+    sourceUrl: 'https://www.ice.gov/news/releases/hsi-chicago-investigation-lands-2-chicago-area-residents-federal-prison-conducting',
+    country: 'US',
+    state: 'IL',
+});

@@ -8163,3 +8163,15 @@ UsAF.push({
     isHistorical: true,
     firstRecorded: '2020-01-01',
 });
+
+UsAF.push({
+    name: 'San Gabriel Valley $36.9 Million Global Crypto Investment Scam Money Launderer (Shengsheng He)',
+    slug: 'california-la-puente-he-crypto-investment-scam-money-laundering',
+    description: `Shengsheng He, 39, of La Puente, California, pleaded guilty on April 10, 2025 to conspiracy to operate an unlicensed money transmitting business for his role in an international "pig butchering" investment fraud ring that stole more than $36.9 million from victims across the United States. According to the U.S. Attorney's Office for the Central District of California, co-conspirators operating scam centers in Cambodia contacted unsuspecting Americans through unsolicited text messages, social media, and online dating platforms, cultivated trust over weeks or months, and then steered them toward a fake digital-asset trading platform that displayed fabricated profits to encourage larger and larger deposits. He was a co-owner of Axis Digital Limited, a Bahamas-registered shell company that held an account at Deltec Bank & Trust used to receive victims' wire transfers and move the laundered proceeds through the U.S. financial system before the money disappeared overseas, helping the ring evade banks' fraud-detection systems. On September 8, 2025, He was sentenced in the Central District of California to 51 months in federal prison and ordered to pay $26,867,242 in restitution. "The public should always remember to be vigilant and wary of strangers marketing promising investment opportunities," said then-Acting U.S. Attorney Bill Essayli, while the Justice Department's then-Acting Assistant Attorney General Matthew R. Galeotti said He "was part of a group preying on American investors." The case was investigated by the Secret Service's Global Investigative Operations Center, Homeland Security Investigations, and Customs and Border Protection. Anyone who meets someone online — through a dating app or an unsolicited social media message — who eventually steers the conversation toward a "can't miss" cryptocurrency trading opportunity should treat that pivot itself as the warning sign, since a genuine romantic or social contact has no reason to also be a currency-trading expert eager to manage your money.`,
+    categorySlug: 'cryptocurrency-scams',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office, Central District of California", 'Hoodline'],
+    sourceUrl: 'https://hoodline.com/2025/09/san-gabriel-valley-man-sentenced-to-over-4-years-for-role-in-36-9-million-international-digital-asset-scam/',
+    country: 'US',
+    state: 'CA',
+});

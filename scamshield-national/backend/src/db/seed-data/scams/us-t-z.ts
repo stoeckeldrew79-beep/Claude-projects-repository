@@ -3933,3 +3933,15 @@ UsTZ.push({
     isHistorical: true,
     firstRecorded: '2022-01-01',
 });
+
+UsTZ.push({
+    name: 'Central Texas Federal-Agent Impersonation Gold Courier Scheme (Dhruv Mangukiya)',
+    slug: 'texas-mangukiya-federal-agent-gold-courier-money-laundering',
+    description: `Dhruv Rajeshbhai Mangukiya, 21, an Indian national living in the U.S. on a student visa, was a money-laundering courier for a ring that called elderly victims across Texas impersonating federal officials or corporate fraud investigators. A Granite Shoals victim was told his identity had been stolen and linked to a drug cartel investigation and, believing he was helping the U.S. Treasury Department clear his name, withdrew $180,000 in cash and gold; a Fort Worth victim was told by a caller posing as an Amazon fraud representative that her Social Security number had been compromised and withdrew $30,000. In both cases and others like them nationwide, victims were instructed to convert their savings into cash or gold bars and hand it to a courier sent to "safeguard" it. Mangukiya recruited additional couriers, including co-conspirator Kishan Rajeshkumar Patel, personally received cash and gold from victims, and kept roughly 2 percent of the proceeds that passed through his hands. He was arrested at his New Jersey residence on December 5, 2024, where agents found about $73,422 in cash and equipment investigators said was used to print fake identification documents. Mangukiya pleaded guilty on June 16, 2025 to conspiracy to commit money laundering, and on November 15, 2025, U.S. District Judge Robert Pitman of the Western District of Texas sentenced him to 97 months in federal prison and ordered him to pay $2,515,780 in restitution; Patel was separately sentenced to 63 months after pleading guilty in March 2025. Assistant U.S. Attorney Keith Henneke prosecuted the case for the U.S. Attorney's Office for the Western District of Texas, with the FBI, Granite Shoals Police Department, and Fort Worth Police Department investigating. No genuine government agency or company fraud department will ever instruct someone to liquidate their savings into cash or gold and hand it to a courier who shows up at their home — that instruction is itself proof of a scam, and the right response is to hang up and call the agency or company back using a number looked up independently, not one the caller provides.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'critical',
+    sources: ["U.S. Attorney's Office, Western District of Texas", 'CBS Austin'],
+    sourceUrl: 'https://cbsaustin.com/news/local/man-sentenced-to-over-8-years-for-defrauding-elderly-across-texas',
+    country: 'US',
+    state: 'TX',
+});
