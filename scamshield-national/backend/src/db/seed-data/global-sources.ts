@@ -1475,4 +1475,31 @@ export const SEED_GLOBAL_SOURCES: SeedGlobalSource[] = [
       "Myanmar's financial intelligence unit receives and analyzes suspicious-transaction reports related to money laundering and fraud, publishing annual reports, statistics, and typology studies of financial-crime patterns.",
     data_type: 'annual_report',
   },
+  {
+    agency_name: 'Bank of Russia — Service for Consumer Rights Protection and Financial Services Accessibility Assurance',
+    country: 'RU',
+    country_name: 'Russia',
+    url: 'https://www.cbr.ru/protection_rights/',
+    description:
+      "The Central Bank of Russia's consumer-protection division handles complaints against financial organizations (including fraud, hidden fees, and misrepresentation) and publishes regular comparative statistics on complaint volumes by financial-market sector.",
+    data_type: 'public_stats',
+  },
+  {
+    agency_name: 'Autorité de Régulation de la Poste et des Communications Électroniques (ARPCE)',
+    country: 'DZ',
+    country_name: 'Algeria',
+    url: 'https://www.arpce.dz/fr/doc/raa',
+    description:
+      "Algeria's post and telecom regulator handles subscriber complaints against operators, including fraud-impersonation and billing disputes, and publishes a full archive of annual reports covering market oversight and complaint-handling activity.",
+    data_type: 'annual_report',
+  },
+  {
+    agency_name: 'National Bank of Tajikistan — Consumer Rights Protection Division',
+    country: 'TJ',
+    country_name: 'Tajikistan',
+    url: 'https://www.nbt.tj/protection/en/',
+    description:
+      "Tajikistan's central bank operates a dedicated division for financial-services consumer protection, issuing public warnings about fraud schemes (such as fake subsidized-loan offers) and publishing periodic finance reports and typological research on financial-crime patterns.",
+    data_type: 'annual_report',
+  },
 ];
