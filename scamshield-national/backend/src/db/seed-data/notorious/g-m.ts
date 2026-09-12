@@ -8843,3 +8843,25 @@ Lewis's case did not end with his sentence. On November 13, 2025, President Dona
     sourceUrl: 'https://www.sec.gov/newsroom/press-releases/2023-138',
   },
 );
+
+// No rights-cleared photo of Won or Kang has surfaced — no booking photo
+// or Wikimedia Commons portrait exists for either man, so sourceUrl serves
+// as the "read the full story" link instead of a photo.
+NotoriousGM.push(
+  {
+    title: 'John Won and Tae Hung Kang: The ForexNPower Scheme That Took a Decade to Fully Unwind',
+    slug: 'john-won-tae-hung-kang-forexnpower-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    body: `John Won and Tae Hung "Kevin" Kang ran a Queens, New York foreign-exchange trading operation called ForexNPower, marketed through two corporate shells — Safety Capital Management Inc. and GNS Capital Inc. — that they used to solicit customers almost entirely from New York City's Korean-American community. According to federal regulators and prosecutors, Won and Kang bought ads in Korean-language newspapers, ran spots on Korean-language radio, and held recruitment seminars in Queens, all pitching the same claim: ForexNPower had a "secret algorithmic trading method" that guaranteed investors 10 percent returns every month with no risk of loss.
+
+There was no such method. Between roughly 2010 and December 2013, prosecutors say, customer accounts at ForexNPower suffered substantial losses rather than the promised gains, while Won and Kang separately induced investors to buy stock in their companies by misrepresenting how the money would be used — then diverted much of it, including toward the very advertising that recruited more victims. The Commodity Futures Trading Commission filed a civil enforcement action against Safety Capital, GNS, Won, Kang, and a third defendant, Sungmi Kang, on September 25, 2015, alleging the group had fraudulently solicited more than $1.5 million from investors who, the case would later find, were largely dependent on the defendants' Korean-language pitch because they had no independent way to verify it.
+
+A parallel criminal case took years longer to resolve. Kang pleaded guilty to securities fraud conspiracy in March 2021 and was sentenced that December to two years in prison. Won instead went to trial, and a federal jury in the Eastern District of New York convicted him in November 2021 on all five counts against him — securities fraud, conspiracy to commit wire fraud, conspiracy to commit money laundering, and substantive securities fraud. On September 16, 2022, U.S. District Judge Raymond J. Dearie sentenced Won to a year and a day in prison and ordered him to pay $842,076.81 in restitution. "John Won and Kevin Kang shamelessly defrauded members of the Korean-American community in our district out of their nest eggs and life savings," then-U.S. Attorney Breon Peace said in announcing the sentence.
+
+The civil case outlived both prison terms. Kang resolved his portion by consent order in August 2022; the court entered summary judgment against Won in September 2024; and it wasn't until March 13, 2026 — more than ten and a half years after the CFTC first sued — that the U.S. District Court for the Eastern District of New York entered a default judgment against the corporate shells themselves, Safety Capital and GNS, which had never appeared to defend the case. The judgment ordered $835,058 in restitution, joint and several with Won and Kang, plus civil penalties of $1,441,143 against Safety Capital and $186,102 against GNS — more than $2.4 million in all, which the court noted was triple the defendants' unlawful gains. In its findings, the court wrote that the defendants "deliberately exploited their access to a vulnerable community — Korean-language speakers in Queens" who were "totally reliant on [the] defendants to protect and manage their investments."
+
+The ForexNPower case is a reminder that a scheme built on language and community trust doesn't just make victims easier to find — it can make the case against the people running it drag on for years after the fraud itself ends. Won and Kang had each already served their prison sentences by the time the companies they used to run the scheme were finally held civilly liable in 2026; for the investors who lost money starting as early as 2010, "restitution ordered" arrived only after a wait longer than the scheme itself had lasted.`,
+    sourceUrl: 'https://www.cftc.gov/PressRoom/PressReleases/9195-26',
+  },
+);
