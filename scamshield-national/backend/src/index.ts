@@ -15,6 +15,7 @@ import stateAgSourcesRoutes from './routes/stateAgSources';
 import alertCandidatesRoutes from './routes/alertCandidates';
 import statsRoutes from './routes/stats';
 import dailyNewsRoutes from './routes/dailyNews';
+import statesRoutes from './routes/states';
 import { publicApiLimiter } from './middleware/rateLimit';
 
 process.on('unhandledRejection', (reason) => {
@@ -52,6 +53,7 @@ v1.use('/state-ag-sources', stateAgSourcesRoutes);
 v1.use('/alert-candidates', alertCandidatesRoutes);
 v1.use('/stats', statsRoutes);
 v1.use('/daily-news', dailyNewsRoutes);
+v1.use('/states', statesRoutes);
 
 app.use('/v1', v1);
 

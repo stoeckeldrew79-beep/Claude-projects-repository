@@ -58,3 +58,13 @@ export const US_STATE_NAMES: Record<string, string> = {
 export function stateName(code: string): string {
   return US_STATE_NAMES[code] ?? code;
 }
+
+// Public state URLs are /states/florida, not /states/FL — readable, and what
+// someone searching actually types. Derived from the same name table the
+// backend derives it from (state_ag_sources.state_name), so the two agree.
+export function stateSlug(code: string): string {
+  return stateName(code)
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-|-$/g, '');
+}

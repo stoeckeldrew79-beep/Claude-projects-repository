@@ -3604,7 +3604,18 @@ export const UsNS: SeedScam[] = [
     country: 'US',
     state: 'MO',
   },
-];
+  {
+    name: "Predatory Home Solar Sales Targeting DC Wards 4, 5, 7, and 8",
+    slug: "predatory-home-solar-sales-targeting-dc-wards-4-5-7-and-8",
+    description:
+      "The DC Attorney General has warned residents about high-pressure and predatory sales and financing tactics in the residential solar industry. With federal residential solar tax credits ending at the close of 2025, salespeople are using the expiring credit as an urgency hook to rush homeowners into signing system purchases and long-term loans. OAG says it learned that solar companies were specifically targeting residents of Wards 4, 5, 7, and 8, including low- and moderate-income homeowners, seniors, and residents who do not speak English as a first language. Never sign a solar contract or loan on the spot; get the full cost in writing, compare at least two other quotes, and have someone you trust review the loan terms. If you were pressured or misled, file a complaint with the OAG Office of Consumer Protection.",
+    categorySlug: "home-improvement-solar",
+    alertLevel: "high",
+    sources: ["Office of the Attorney General for the District of Columbia (OAG)"],
+    sourceUrl: "https://oag.dc.gov/release/attorney-general-schwalb-warns-dc-residents-about",
+    country: "US",
+    state: "DC",
+  },];
 
 UsNS.push({
     name: 'Pennsylvania "MyChart" Patient Portal Phishing Scam',

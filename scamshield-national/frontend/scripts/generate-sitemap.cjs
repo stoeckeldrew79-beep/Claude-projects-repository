@@ -12,7 +12,7 @@ const SITE_URL = process.env.SITE_URL ?? 'https://scamshieldnational.com';
 const API_BASE_URL = process.env.API_BASE_URL ?? process.env.VITE_API_BASE_URL ?? 'http://localhost:3000/v1';
 const OUT_PATH = path.join(__dirname, '..', 'dist', 'sitemap.xml');
 
-const STATIC_PATHS = ['/', '/todays-scams', '/database', '/articles', '/notorious', '/global-map', '/global-sources', '/statistics', '/report', '/subscribe'];
+const STATIC_PATHS = ['/', '/todays-scams', '/database', '/articles', '/notorious', '/global-map', '/global-sources', '/state-attorneys-general', '/statistics', '/report', '/subscribe'];
 
 function urlEntry(loc, lastmod) {
   return `  <url>\n    <loc>${loc}</loc>${lastmod ? `\n    <lastmod>${lastmod}</lastmod>` : ''}\n  </url>`;
@@ -37,6 +37,14 @@ async function main() {
     const articles = await fetchAll('/articles');
     for (const article of articles) {
       entries.push(urlEntry(`${SITE_URL}/articles/${article.slug}`, article.published_at?.slice(0, 10)));
+    }
+
+    // All 51 jurisdictions. Coverage is deliberately even — every state
+    // carries its verified AG office plus its own documented entries — so
+    // there is no thin subset to hold back from the sitemap.
+    const states = await fetchAll('/states');
+    for (const state of states) {
+      entries.push(urlEntry(`${SITE_URL}/states/${state.slug}`));
     }
   } catch (err) {
     console.warn(`sitemap: couldn't reach API at ${API_BASE_URL}, writing static pages only (${err.message})`);

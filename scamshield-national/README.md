@@ -138,6 +138,57 @@ npm run dev                 # http://localhost:5173
 ```
 </details>
 
+## Running it hands-off on Windows
+
+Double-click `setup-auto-updates.bat` **once**, from the folder you actually
+run the site out of. It registers three scheduled tasks:
+
+| Task | Every | What it does |
+| --- | --- | --- |
+| ScamShield National Auto-Update | 30 min | `auto-update.bat` — pulls new content from GitHub, migrates, reseeds, refreshes the news scans |
+| ScamShield National Keep Running | 5 min | `keep-running.ps1` — starts Docker, the backend, and the frontend if any of them isn't listening |
+| ScamShield National Start On Logon | at logon | the same keep-alive, so the site is up shortly after a reboot |
+
+Together these mean the site updates itself and restarts itself: new entries
+appear on refresh without anyone running `git pull`, and a reboot, a crash, or
+a closed terminal window can't leave it down.
+
+Both scripts are safe to run repeatedly. The keep-alive starts only what is
+not already listening, so it never gives you two copies of a server.
+
+**If the site ever stops updating**, check the task's last result first:
+
+```
+schtasks /query /tn "ScamShield National Auto-Update" /fo LIST /v | findstr /C:"Last Result"
+```
+
+`0` is success. Two codes seen in practice:
+
+`-2147023829` (`0x8007042B`, `ERROR_PROCESS_ABORTED`) means the task launched
+something and that process was killed instantly. This is what Windows Script
+Host being blocked looks like — the task reports a failure having done nothing
+at all, with no log line written. Everything is launched through PowerShell
+rather than `.vbs` for exactly this reason.
+
+`-2147020576` (`0x800710E0`, "the operator or administrator has
+refused the request") means Windows fired the task and then refused to run it —
+almost always because `schtasks` registers tasks with "don't start on battery
+power" switched on by default, which is silently fatal on a laptop. Re-running
+`setup-auto-updates.bat` clears it: the script now applies
+`AllowStartIfOnBatteries`, `DontStopIfGoingOnBatteries` and `StartWhenAvailable`
+(so runs missed while asleep are caught up rather than dropped) after
+registering each task.
+
+The other usual cause is that a task is still
+registered against a *different copy* of the repository — a scheduled task
+keeps pointing wherever it was first created, so editing the scripts here
+doesn't move it. Re-running `setup-auto-updates.bat` from the correct folder
+re-points all three. It prints each task's status and last result when it
+finishes; `Last Result: 0` means the last run succeeded.
+
+Logs land next to the scripts and are gitignored: `auto-update-log.txt` and
+`keep-running-log.txt`.
+
 ## Scheduling AI-drafted articles
 
 `npm run draft-articles` is a one-shot script, not a long-running process — schedule it with
@@ -196,6 +247,41 @@ Example crontab entry for a daily 6am run:
 
 Like `draft-articles`, nothing here reaches a real subscriber automatically — every candidate
 sits in the admin review queue until approved.
+
+## Content generation (Anthropic API)
+
+`npm run generate-scams` researches real, currently-reported scams and appends them to the
+seed shards. It bills the Anthropic API directly (`ANTHROPIC_API_KEY`), so it keeps running
+when a Claude subscription's weekly allowance is spent. **It writes nothing without
+`--apply`** — the default is a dry run that prints what it would add, including the raw
+research findings.
+
+`SCAMSHIELD_TARGET` chooses what a run goes after:
+
+| Value | Targets |
+| --- | --- |
+| unset | Mixed: mostly US-national, roughly a third international |
+| `state` | The US state with the fewest documented entries |
+| `us` | US-national |
+| `international` | The non-US country with the fewest entries |
+
+State mode is what grows the per-state pages. It picks its target from the corpus at run
+time rather than a stored rotation cursor, so a missed or failed run costs nothing and
+coverage self-levels — the thinnest state is always next. Every entry it accepts must carry
+that state; an untagged nationwide scam is rejected rather than written, because writing it
+would grow the corpus while leaving the state exactly as thin as it was.
+
+```
+# See what a state run would add, without writing or spending on a write
+SCAMSHIELD_TARGET=state npm run generate-scams
+
+# Actually write it
+SCAMSHIELD_TARGET=state npm run generate-scams -- --apply
+```
+
+Both schedules run in GitHub Actions (`.github/workflows/generate-scam-entries.yml` for the
+national run, `generate-state-scam-entries.yml` for the state run). They share a concurrency
+group so they never race each other's push to `main`, and each typechecks before committing.
 
 ## Public phone number
 

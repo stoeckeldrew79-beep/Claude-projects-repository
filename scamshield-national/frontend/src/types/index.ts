@@ -84,6 +84,10 @@ export interface Article {
   created_at: string;
 }
 
+// What the admin cover-photo panel lists. Article bodies are long and it
+// never renders one, so the panel asks the API to leave them out.
+export type ArticleSummary = Omit<Article, 'body' | 'author' | 'scam_id' | 'published' | 'created_at'>;
+
 export interface GlobalStat {
   id: string;
   source_id: string;
@@ -141,6 +145,13 @@ export interface DailyNewsStateCount {
   ag_count: number;
 }
 
+// Documented scams per state. Same shape minus ag_count, which is a property
+// of an alert's source and has no meaning for a database entry.
+export interface ScamStateCount {
+  state: string;
+  total: number;
+}
+
 export type SubscriptionTier = 'free' | 'basic' | 'pro' | 'family' | 'business';
 
 export interface User {
@@ -152,4 +163,30 @@ export interface User {
   subscription_tier: SubscriptionTier;
   sms_opt_in: boolean;
   email_opt_in: boolean;
+}
+
+export interface StateSummary {
+  state: string;
+  state_name: string;
+  slug: string;
+  scam_count: number;
+  news_count: number;
+}
+
+export interface StateCategoryCount {
+  name: string;
+  slug: string;
+  count: number;
+}
+
+// One state's page data: its Attorney General's consumer-protection office
+// (all 51 verified in state_ag_sources) plus what the database holds for it.
+export interface StateDetail extends StateSummary {
+  agency_name: string;
+  consumer_protection_url: string;
+  reports_url: string | null;
+  has_published_reports: boolean;
+  description: string;
+  ag_news_count: number;
+  categories: StateCategoryCount[];
 }

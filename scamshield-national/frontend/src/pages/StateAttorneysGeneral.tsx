@@ -1,14 +1,21 @@
 import { useMemo, useState } from 'react';
+import { Link } from 'react-router-dom';
 import { useDocumentMeta } from '../hooks/useDocumentMeta';
 import { useStateAgSources } from '../hooks/useStateAgSources';
 import { StateAgSource } from '../types';
+import { stateSlug } from '../utils/usStates';
 
 function StateCard({ source }: { source: StateAgSource }) {
   return (
     <div className="rounded-lg border border-slate-200 p-5">
       <div className="flex items-start justify-between gap-3">
         <div>
-          <p className="text-xs font-semibold tracking-wide text-slate-400 uppercase">{source.state_name}</p>
+          <Link
+            to={`/states/${stateSlug(source.state)}`}
+            className="text-xs font-semibold tracking-wide text-slate-400 uppercase hover:text-red-700"
+          >
+            {source.state_name}
+          </Link>
           <h2 className="mt-0.5 font-semibold text-slate-900">{source.agency_name}</h2>
         </div>
         <span
@@ -21,6 +28,9 @@ function StateCard({ source }: { source: StateAgSource }) {
       </div>
       <p className="mt-2 text-sm text-slate-600">{source.description}</p>
       <div className="mt-2 flex flex-col gap-1">
+        <Link to={`/states/${stateSlug(source.state)}`} className="text-sm font-semibold text-red-700 underline">
+          {source.state_name} scam activity →
+        </Link>
         <a href={source.consumer_protection_url} target="_blank" rel="noreferrer" className="text-sm text-red-700 underline">
           Consumer protection office →
         </a>

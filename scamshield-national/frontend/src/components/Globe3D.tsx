@@ -7,27 +7,17 @@ import type { Topology, GeometryCollection } from 'topojson-specification';
 import worldTopology from 'world-atlas/countries-110m.json';
 import { CountryCount } from '../services/globe';
 import { countryName } from '../utils/countries';
+import { COUNTRIES } from '../utils/countryData';
 
-// Approximate country centroids for the small set of countries the site
-// currently has data for (see utils/countries.ts). Not a full geo
-// database — extend this alongside COUNTRY_NAMES as real international
-// data grows, rather than pre-building coverage for countries with zero
-// records.
-const COUNTRY_COORDS: Record<string, { lat: number; lon: number }> = {
-  US: { lat: 39.8, lon: -98.6 },
-  CA: { lat: 56.1, lon: -106.3 },
-  GB: { lat: 55.0, lon: -3.4 },
-  AU: { lat: -25.3, lon: 133.8 },
-  NZ: { lat: -41.0, lon: 174.0 },
-  IE: { lat: 53.4, lon: -8.2 },
-  SG: { lat: 1.35, lon: 103.8 },
-  DE: { lat: 51.2, lon: 10.4 },
-  JP: { lat: 36.2, lon: 138.3 },
-  NL: { lat: 52.1, lon: 5.3 },
-  IN: { lat: 22.0, lon: 79.0 },
-  FR: { lat: 46.6, lon: 2.2 },
-  SE: { lat: 62.0, lon: 15.0 },
-};
+// Marker positions come from the generated ISO table (utils/countryData.ts),
+// which covers every country rather than the ones someone remembered to add.
+// A country missing from it cannot be drawn at all: it still appears in the
+// legend with its count but never on the sphere, which is how 97 of 110
+// countries came to be invisible — and then 15 more within hours of that
+// being fixed by hand.
+const COUNTRY_COORDS: Record<string, { lat: number; lon: number }> = Object.fromEntries(
+  Object.entries(COUNTRIES).map(([code, info]) => [code, { lat: info.lat, lon: info.lon }])
+);
 
 function latLonToVector3(lat: number, lon: number, radius: number): THREE.Vector3 {
   const phi = (90 - lat) * (Math.PI / 180);

@@ -1,24 +1,14 @@
-// Small fixed set matching what /report currently collects. Not a full
-// ISO-3166 list — extend as real international data actually comes in,
-// rather than pre-building selectors for countries with zero records.
-export const COUNTRY_NAMES: Record<string, string> = {
-  US: 'United States',
-  CA: 'Canada',
-  GB: 'United Kingdom',
-  AU: 'Australia',
-  NZ: 'New Zealand',
-  IE: 'Ireland',
-  SG: 'Singapore',
-  DE: 'Germany',
-  JP: 'Japan',
-  NL: 'Netherlands',
-  IN: 'India',
-  FR: 'France',
-  SE: 'Sweden',
-  OTHER: 'Other',
-};
+import { COUNTRIES } from './countryData';
 
+// Names come from the generated ISO table rather than a hand-kept list, so a
+// country the content routines add overnight is named the moment it appears.
 export function countryName(code: string | null | undefined): string {
   if (!code) return 'Unknown';
-  return COUNTRY_NAMES[code] ?? code;
+  if (code === 'OTHER') return 'Other';
+  return COUNTRIES[code]?.name ?? code;
 }
+
+// Kept for callers that want the whole map; prefer countryName().
+export const COUNTRY_NAMES: Record<string, string> = Object.fromEntries(
+  Object.entries(COUNTRIES).map(([code, info]) => [code, info.name])
+);

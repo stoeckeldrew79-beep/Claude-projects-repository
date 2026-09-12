@@ -2,9 +2,11 @@ import { FormEvent, useState } from 'react';
 import { useMutation, useQueryClient } from '@tanstack/react-query';
 import { createArticle, createScam, updateArticleCoverImage } from '../services/admin';
 import { useDocumentMeta } from '../hooks/useDocumentMeta';
-import { useArticles } from '../hooks/useArticles';
+import { useAllArticleSummaries } from '../hooks/useArticles';
 import { AlertLevel } from '../types';
 import { useAuthStore } from '../store/useAuthStore';
+import { coverImageSrc } from '../utils/coverImage';
+import { roleFromToken } from '../utils/tokenRole';
 import { NotoriousCoverArt } from '../components/NotoriousCoverArt';
 import {
   useCreateFiling,
@@ -199,7 +201,7 @@ function ArticleForm() {
 function ArticleCoverPhotos({ tag, heading, subject }: { tag: string; heading: string; subject: string }) {
   const user = useAuthStore((s) => s.user);
   const queryClient = useQueryClient();
-  const { data: articles, isLoading } = useArticles(tag);
+  const { data: articles, isLoading } = useAllArticleSummaries(tag);
   const [urlDrafts, setUrlDrafts] = useState<Record<string, string>>({});
   const [creditDrafts, setCreditDrafts] = useState<Record<string, string>>({});
   const [sourceDrafts, setSourceDrafts] = useState<Record<string, string>>({});
@@ -236,6 +238,7 @@ function ArticleCoverPhotos({ tag, heading, subject }: { tag: string; heading: s
         box, so use the focal point slider to pick which part of the photo stays visible (0 = top, 100 = bottom).
       </p>
       {isLoading && <p className="mt-3 text-sm text-slate-500">Loading…</p>}
+      {articles && <p className="mt-2 text-xs text-slate-400">{articles.length} {subject}s</p>}
       <div className="mt-4 space-y-4">
         {articles?.map((article) => {
           const urlDraft = urlDrafts[article.id] ?? article.cover_image ?? '';
@@ -246,9 +249,18 @@ function ArticleCoverPhotos({ tag, heading, subject }: { tag: string; heading: s
             <div key={article.id} className="flex items-center gap-3">
               <div className="h-12 w-16 shrink-0 overflow-hidden rounded border border-slate-200">
                 {article.cover_image ? (
+                  // Sized and lazy, both of which this panel needs more than
+                  // any other page does: it lists every article at once - over
+                  // 1,700 of them - and asked each for the stored 1200px-wide
+                  // copy to fill a 64x48 box. That is a wall of simultaneous
+                  // full-size requests to one host, which throttles, and the
+                  // ones that lose the race render as blank boxes that look
+                  // exactly like a missing photo.
                   <img
-                    src={article.cover_image}
+                    src={coverImageSrc(article.cover_image, 128)}
                     alt=""
+                    loading="lazy"
+                    decoding="async"
                     className="h-full w-full object-cover"
                     style={{ objectPosition: `50% ${positionDraft}%` }}
                   />
@@ -312,7 +324,14 @@ function ArticleCoverPhotos({ tag, heading, subject }: { tag: string; heading: s
           );
         })}
       </div>
-      {mutation.isError && <p className="mt-2 text-xs text-red-700">Couldn't save — check you're signed in as an admin.</p>}
+      {mutation.isError && (
+        <p className="mt-2 text-xs text-red-700">
+          Couldn't save.{' '}
+          {(mutation.error as { response?: { status?: number } })?.response?.status === 403
+            ? 'The server rejected it as not-an-admin — sign out and back in to refresh your login token.'
+            : 'Check the backend is running and you are signed in.'}
+        </p>
+      )}
     </div>
   );
 }
@@ -914,9 +933,28 @@ function GlobalSourcesPanel() {
 export default function Admin() {
   useDocumentMeta({ title: 'Admin', description: 'ScamShield National admin panel.', noindex: true });
 
+  // The role lives in the token, not the user object, so the page used to
+  // render every panel for any signed-in account and let each save fail with
+  // one line of red text. A token issued before ADMIN_EMAILS was set stays
+  // non-admin for its full 7 days, which is a long time to spend wondering
+  // why nothing saves.
+  const token = useAuthStore((s) => s.token);
+  const isAdmin = roleFromToken(token) === 'admin';
+
   return (
     <div className="max-w-3xl mx-auto px-4 py-10">
       <h1 className="text-2xl font-bold text-slate-900 mb-2">Admin</h1>
+      {token && !isAdmin && (
+        <div className="mb-6 rounded-lg border border-amber-300 bg-amber-50 p-4">
+          <p className="text-sm font-semibold text-amber-900">You're signed in, but not as an admin.</p>
+          <p className="mt-1 text-sm text-amber-800">
+            Everything below will load, and every save will be rejected. Your role is written into the login
+            token when you sign in, so a token issued before your email was added to{' '}
+            <code className="rounded bg-amber-100 px-1 py-0.5 text-xs">ADMIN_EMAILS</code> stays non-admin until
+            it is replaced. <strong>Sign out and sign back in</strong> to get a new one.
+          </p>
+        </div>
+      )}
       <p className="text-slate-600 mb-6">
         Scam data entry, report review, and article publishing. Requires an admin-role account (see backend{' '}
         <code className="text-xs bg-slate-100 px-1 py-0.5 rounded">ADMIN_EMAILS</code>).

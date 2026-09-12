@@ -1,5 +1,5 @@
 import { api } from './api';
-import { Category, Scam } from '../types';
+import { Category, Scam, ScamStateCount } from '../types';
 
 // Must match the backend's default pageSize in listScams (backend/src/models/scams.ts).
 export const PAGE_SIZE = 20;
@@ -38,5 +38,10 @@ export async function fetchScamBySlug(slug: string) {
 
 export async function fetchCategories() {
   const { data } = await api.get<{ data: Category[] }>('/categories');
+  return data.data;
+}
+
+export async function fetchScamStates() {
+  const { data } = await api.get<{ data: ScamStateCount[] }>('/scams/states');
   return data.data;
 }

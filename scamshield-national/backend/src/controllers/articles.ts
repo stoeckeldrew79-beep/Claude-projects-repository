@@ -19,6 +19,44 @@ const UPDATABLE_ARTICLE_FIELDS = [
   'published_at',
 ] as const;
 
+// The fields the admin cover-photo panel needs. It never renders body, and
+// article bodies are long enough that sending 600+ of them to list a photo
+// URL is the difference between a page that loads and one that does not.
+const BRIEF_COLUMNS =
+  'a.id, a.title, a.slug, a.tags, a.cover_image, a.cover_image_credit, a.cover_image_position, a.source_url, a.published_at';
+
+const DEFAULT_LIMIT = 200;
+const MAX_LIMIT = 500;
+
+// How many articles carry a tag. The list endpoint pages, so it can never
+// report a total, and a collection's size is worth stating plainly: 699
+// profiles is the point of the collection, not a detail of it.
+export const count = asyncHandler<AuthedRequest>(async (req, res) => {
+  const tag = req.query.tag as string | undefined;
+  const values: unknown[] = [];
+  const conditions = ['published = true'];
+  if (tag) {
+    values.push(tag);
+    conditions.push(`$${values.length} = ANY(tags)`);
+  }
+  // Must match list()'s filter exactly. A count that ignores the search would
+  // reserve space for articles the list will never return, leaving a page of
+  // placeholders below the results that never fill in.
+  const q = typeof req.query.q === 'string' ? req.query.q.trim() : '';
+  if (q) {
+    values.push(`%${q}%`);
+    const like = `$${values.length}`;
+    conditions.push(
+      `(title ILIKE ${like} OR body ILIKE ${like} OR author ILIKE ${like} OR array_to_string(tags, ' ') ILIKE ${like})`
+    );
+  }
+  const { rows } = await pool.query<{ count: string }>(
+    `SELECT COUNT(*)::text AS count FROM articles WHERE ${conditions.join(' AND ')}`,
+    values
+  );
+  res.json({ data: { count: Number(rows[0]?.count ?? 0) } });
+});
+
 export const list = asyncHandler<AuthedRequest>(async (req, res) => {
   const tag = req.query.tag as string | undefined;
   const conditions = ['a.published = true'];
@@ -29,12 +67,51 @@ export const list = asyncHandler<AuthedRequest>(async (req, res) => {
     conditions.push(`$${values.length} = ANY(a.tags)`);
   }
 
+  // This was a bare LIMIT 200 with no way to reach past it, which silently
+  // hid every article beyond the 200 most recent — 464 of the 664 notorious
+  // profiles could not be edited in admin at all. Callers page instead.
+  // Searching has to happen here, not in the browser. The page loads a
+  // window at a time, so a client-side filter can only ever match what has
+  // already scrolled into view and would silently miss the rest.
+  const q = typeof req.query.q === 'string' ? req.query.q.trim() : '';
+  if (q) {
+    values.push(`%${q}%`);
+    const like = `$${values.length}`;
+    conditions.push(
+      `(a.title ILIKE ${like} OR a.body ILIKE ${like} OR a.author ILIKE ${like} OR array_to_string(a.tags, ' ') ILIKE ${like})`
+    );
+  }
+
+  const requested = Number(req.query.limit);
+  const limit = Number.isFinite(requested) && requested > 0 ? Math.min(requested, MAX_LIMIT) : DEFAULT_LIMIT;
+  const parsedOffset = Number(req.query.offset);
+  const offset = Number.isFinite(parsedOffset) && parsedOffset > 0 ? Math.floor(parsedOffset) : 0;
+
+  values.push(limit, offset);
+  const limitParam = `$${values.length - 1}`;
+  const offsetParam = `$${values.length}`;
+
+  const columns = req.query.brief === '1' ? BRIEF_COLUMNS : 'a.*';
+
+  // Notorious leads with profiles that have a real photo and pushes the ones
+  // still awaiting the photo hunt to the back. That used to be a client-side
+  // sort over the whole collection, which stops working once the page loads
+  // in windows: each window would sort only within itself and the grid would
+  // alternate photo and no-photo blocks as the reader scrolled.
+  const order =
+    req.query.sort === 'photos-first'
+      ? '(a.cover_image IS NULL), a.published_at DESC NULLS LAST, a.id'
+      : 'a.published_at DESC NULLS LAST, a.id';
+
   const { rows } = await pool.query(
-    `SELECT a.*, s.slug AS scam_slug
+    `SELECT ${columns}, s.slug AS scam_slug
      FROM articles a
      LEFT JOIN scams s ON s.id = a.scam_id
      WHERE ${conditions.join(' AND ')}
-     ORDER BY a.published_at DESC LIMIT 200`,
+     -- published_at ties are common (a seeded batch shares a timestamp), so
+     -- id breaks them: without a total order, paging can repeat or skip rows.
+     ORDER BY ${order}
+     LIMIT ${limitParam} OFFSET ${offsetParam}`,
     values
   );
   res.json({ data: rows });

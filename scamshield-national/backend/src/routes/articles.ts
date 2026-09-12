@@ -5,6 +5,8 @@ import { requireAuth, requireRole } from '../middleware/auth';
 const router = Router();
 
 router.get('/drafts', requireAuth, requireRole('admin'), articlesController.listDrafts);
+// Before '/:slug', or the slug route swallows it.
+router.get('/count', articlesController.count);
 router.get('/', articlesController.list);
 router.get('/:slug', articlesController.getBySlug);
 router.post('/', requireAuth, requireRole('admin'), articlesController.create);

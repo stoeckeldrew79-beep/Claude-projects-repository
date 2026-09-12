@@ -28,6 +28,15 @@ export const countries = asyncHandler<AuthedRequest>(async (_req, res) => {
   res.json({ data: countries });
 });
 
+// Documented scams per US state. The state map was built on daily_scam_news,
+// a rolling 30-day window, so most of the map read as "no data" while the
+// database held entries for all 51 states. A state with no alert this month
+// is quiet, not uncovered, and shading it the same as one with nothing
+// misrepresents the coverage.
+export const states = asyncHandler<AuthedRequest>(async (_req, res) => {
+  res.json({ data: await ScamsModel.countsByState() });
+});
+
 export const byCountry = asyncHandler<AuthedRequest>(async (_req, res) => {
   const counts = await ScamsModel.countsByCountry();
   res.json({ data: counts });

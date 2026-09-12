@@ -1,9 +1,11 @@
-import { lazy, Suspense } from 'react';
+import { lazy, Suspense, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useCountsByCountry } from '../hooks/useGlobe';
 import { useDailyNewsStates } from '../hooks/useDailyNews';
+import { useScamStates } from '../hooks/useScams';
 import { useDocumentMeta } from '../hooks/useDocumentMeta';
 import { GlobalActivityTicker } from '../components/GlobalActivityTicker';
+import { stateSlug } from '../utils/usStates';
 
 // Code-split: three.js only loads when someone visits this page, not on
 // every page load.
@@ -23,14 +25,31 @@ export default function GlobalMap() {
   const navigate = useNavigate();
   const { data, isLoading, isError } = useCountsByCountry();
   const { data: stateCounts } = useDailyNewsStates();
+  const { data: scamStateCounts } = useScamStates();
+
+  // Documented scams lead: the map's first job is answering "do you cover my
+  // state", and on the live-alert data alone two thirds of the map read as
+  // "no data" while the database held entries for all 51.
+  const [stateView, setStateView] = useState<'documented' | 'alerts'>('documented');
+  const activeStateCounts = stateView === 'documented' ? scamStateCounts : stateCounts;
+  // The section used to render only when the active view had rows, so one
+  // failing request took the whole map off the page with nothing said. Either
+  // view having data is enough to show the section; an empty active view
+  // explains itself below.
+  const hasAnyStateData = Boolean(scamStateCounts?.length || stateCounts?.length);
   const totalReports = data?.reduce((sum, d) => sum + d.count, 0) ?? 0;
 
   function handleCountryClick(country: string) {
     navigate(`/database?country=${encodeURIComponent(country)}`);
   }
 
+  // Documented coverage now has a destination of its own — the state page,
+  // which carries that state's AG office and live alerts alongside its
+  // entries, rather than a filtered slice of the national database. The
+  // alerts view still lands on the live feed, which is what it counts.
   function handleStateClick(code: string) {
-    navigate(`/todays-scams?state=${encodeURIComponent(code)}`);
+    const to = stateView === 'documented' ? `/states/${stateSlug(code)}` : `/todays-scams?state=${encodeURIComponent(code)}`;
+    navigate(to);
   }
 
   return (
@@ -64,24 +83,74 @@ export default function GlobalMap() {
         <p className="mt-4 text-sm text-slate-500">{totalReports} total reports across {data.length} countries.</p>
       )}
 
-      {stateCounts && stateCounts.length > 0 && (
+      {hasAnyStateData && (
         <section className="mt-12">
-          <h2 className="text-2xl font-bold text-slate-900">Alerts by US state</h2>
-          <p className="mt-2 max-w-2xl text-slate-600">
-            Live scam alerts from the last 30 days, tied to the state they were issued in — including alerts
-            published directly by state Attorneys General. Click a state to read them. Shading shows how many
-            alerts each state has recorded, not how risky the state is.
-          </p>
-          <div className="mt-6 rounded-xl border border-slate-200 bg-[#0f1a2b] p-6">
-            <Suspense
-              fallback={<div className="h-[420px] flex items-center justify-center text-slate-400 text-sm">Loading map…</div>}
-            >
-              <UsStateMap counts={stateCounts} onStateClick={handleStateClick} />
-            </Suspense>
+          <h2 className="text-2xl font-bold text-slate-900">Scams by US state</h2>
+
+          {/* Two genuinely different questions, so two views rather than one
+              compromise. Coverage answers "is my state in this database" and
+              is complete; live alerts answer "what is happening now" and are
+              sparse by nature — a state with no alert this month is quiet,
+              not uncovered. */}
+          <div className="mt-4 inline-flex rounded-lg border border-slate-300 p-1">
+            {(
+              [
+                ['documented', 'Documented scams'],
+                ['alerts', 'Live alerts · 30 days'],
+              ] as const
+            ).map(([value, label]) => (
+              <button
+                key={value}
+                type="button"
+                onClick={() => setStateView(value)}
+                className={`rounded-md px-3 py-1.5 text-sm font-medium ${
+                  stateView === value ? 'bg-slate-900 text-white' : 'text-slate-600 hover:text-slate-900'
+                }`}
+              >
+                {label}
+              </button>
+            ))}
           </div>
+
+          <p className="mt-3 max-w-2xl text-slate-600">
+            {stateView === 'documented'
+              ? 'Every scam in the database tied to a specific state — a state agency impersonation, a state AG alert, a state-run benefit program. Click a state to browse them. Shading shows how many entries each state has, not how risky it is.'
+              : 'Scam alerts from the last 30 days, tied to the state they were issued in, including alerts published directly by state Attorneys General. Click a state to read them. A quiet month is not the same as no coverage — switch to documented scams for the full picture.'}
+          </p>
+
+          <div className="mt-6 rounded-xl border border-slate-200 bg-[#0f1a2b] p-6">
+            {activeStateCounts && activeStateCounts.length > 0 ? (
+              <Suspense
+                fallback={<div className="h-[420px] flex items-center justify-center text-slate-400 text-sm">Loading map…</div>}
+              >
+                <UsStateMap
+                  counts={activeStateCounts}
+                  onStateClick={handleStateClick}
+                  unit={stateView === 'documented' ? { singular: 'scam', plural: 'scams' } : { singular: 'alert', plural: 'alerts' }}
+                />
+              </Suspense>
+            ) : (
+              <div className="flex h-[420px] items-center justify-center px-6 text-center text-sm text-slate-400">
+                {stateView === 'documented'
+                  ? 'No state data came back for documented scams. The other view may still have data.'
+                  : 'No alerts recorded in the last 30 days. Switch to documented scams for the full picture.'}
+              </div>
+            )}
+          </div>
+
           <p className="mt-4 text-sm text-slate-500">
-            {stateCounts.reduce((sum, s) => sum + s.total, 0)} alerts across {stateCounts.length} states,{' '}
-            {stateCounts.reduce((sum, s) => sum + s.ag_count, 0)} published directly by a state Attorney General.
+            {!activeStateCounts?.length ? null : stateView === 'documented' ? (
+              <>
+                {activeStateCounts.reduce((sum, s) => sum + s.total, 0).toLocaleString()} documented scams across{' '}
+                {activeStateCounts.length} states and territories.
+              </>
+            ) : (
+              <>
+                {activeStateCounts.reduce((sum, s) => sum + s.total, 0)} alerts across {activeStateCounts.length} states,{' '}
+                {(stateCounts ?? []).reduce((sum, s) => sum + s.ag_count, 0)} published directly by a state Attorney
+                General.
+              </>
+            )}
           </p>
         </section>
       )}
