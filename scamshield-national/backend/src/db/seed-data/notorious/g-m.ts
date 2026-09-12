@@ -9338,3 +9338,20 @@ Patel's case shows how a real, operating business — a textile factory with rea
     sourceUrl: 'https://www.mynewsdesk.com/uk/hm-revenue-customs-hmrc/pressreleases/carousel-tax-fraudster-loses-90-pounds-million-property-empire-3401619',
   },
 );
+
+NotoriousGM.push(
+  {
+    title: 'The Kubus Scheme: South Africa\'s R140 Million Pyramid Built on Rotten Milk',
+    slug: 'kubus-scheme-adriaan-nieuwoudt-milk-pyramid',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical', 'international'],
+    body: `Adriaan Nieuwoudt said he got the idea from his grandmother, who used a homemade fermented milk culture as a skincare treatment. In the early 1980s he turned it into "Kubus," a South African investment scheme built around an "activator" starter kit costing around R500: buyers mixed it with milk, let it ferment for a week, dried the resulting culture into powder, and mailed it back to Nieuwoudt's operation in the small Northern Cape town of Garies. In return, participants were paid around R10 per envelope, or up to R100 a week for steady producers — enough to recoup the initial R500 outlay within about five weeks, after which every payment looked like pure profit for doing almost nothing.
+
+It was, underneath the fermentation, a straightforward pyramid. Nieuwoudt told participants he needed enormous quantities of the dried powder to manufacture an exclusive skincare cream, but when regulators eventually inspected his facilities they found sheds full of rotten, unused culture, and evidence that dried product mailed in by one batch of participants was simply reground and resold as "new" starter kits to the next. The payouts weren't funded by a growing skincare business — they were funded by the R500 kit fees of each new wave of recruits, which is exactly why the scheme depended on constant recruitment to survive and collapsed once new signups couldn't keep pace with existing obligations. By the time it fell apart, an estimated R140 million had flowed through Kubus.
+
+The legal aftermath was as unusual as the scheme itself. South African authorities determined that Kubus functioned as an illegal lottery, but existing law hadn't clearly anticipated a pyramid scheme dressed up as a home-fermentation business, so the government passed retrospective legislation specifically to criminalize what Nieuwoudt had done and to order participants who'd profited to repay their gains. Nieuwoudt himself was never imprisoned over Kubus specifically — but his career as a fraudster didn't end there. In the 1990s he was convicted of unlawful diamond dealing and theft and sentenced to eight years, and a later diamond-smuggling conviction added a ten-year sentence on top of it, before he went on to pitch further ventures in kaolin mining and Orange River tourism development.
+
+Kubus is remembered in South Africa as one of the country's earliest and strangest mass-market pyramid schemes, and it illustrates a structural point that holds regardless of the product wrapped around it: when a scheme's payouts depend on recruiting the next round of participants rather than on selling anything of real, standalone value — whether that's a cryptocurrency token, a multi-level marketing product, or a jar of fermented milk culture — the mechanism is the same Ponzi arithmetic, and it fails the same way once recruitment can no longer outpace what's owed.`,
+    sourceUrl: 'https://www.citizen.co.za/news/kubus-milk-scheme-gold-for-crook-dust-for-victims/',
+  },
+);
