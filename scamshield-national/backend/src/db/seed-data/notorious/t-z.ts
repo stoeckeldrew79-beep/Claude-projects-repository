@@ -2906,3 +2906,20 @@ Tadrus's case is a textbook illustration of affinity fraud updated with a modern
     sourceUrl: 'https://www.irs.gov/compliance/criminal-investigation/founder-of-purported-artificial-intelligence-powered-hedge-fund-sentenced-to-30-months-in-prison',
   },
 );
+
+NotoriousTZ.push(
+  {
+    title: 'Thomas and Aroha Tuira and the Ponzi Scheme That Traded on Trust in a Māori Community',
+    slug: 'thomas-aroha-tuira-christchurch-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'international'],
+    body: `Thomas Alexander Kokouri Tuira, known as Alex Tuira, and his wife Aroha Awhinanui Tuira presented themselves to friends, whānau, and acquaintances around Christchurch, New Zealand, as experienced, well-connected investors who could put people's money to work and deliver steady returns. Thomas reinforced the image with claims of personal connections to high-profile figures, including basketball legend Michael Jordan and motivational speaker Tony Robbins — the kind of name-dropping meant to signal access and credibility to people who had no way to check it.
+
+Between May 2014 and May 2021, the couple took in roughly $3.9 million New Zealand dollars from more than 55 investors across 106 separate transactions, according to New Zealand's Serious Fraud Office. The pair primarily targeted Māori communities, leaning on close personal relationships and whakawhanaungatanga — the relational trust and sense of obligation that comes with shared community ties — with many of their victims having little prior investment experience and no independent way to verify what, if anything, was actually being done with their money. In reality, the Tuiras did not invest the funds or run any real investment business; they operated a Ponzi-type arrangement, using money from newer investors to pay obligations to earlier ones, while directing a share of the funds to their own personal spending.
+
+Both pleaded guilty to two representative charges of obtaining by deception. At the Christchurch High Court on December 11, 2025, Thomas Tuira was sentenced to six years and four months in prison, with a minimum period of imprisonment requiring him to serve 45 percent of that sentence before becoming eligible for parole; Aroha Tuira was sentenced to five years and two months. SFO Director Karen Chang said of the case that "Ponzi schemes cause deep and lasting harm to victims, many of whom lose not only their money but also their trust in others."
+
+The Tuira case illustrates why affinity fraud can be so much harder for victims to see coming than a scheme run by strangers: when the person asking for money shares your community, your relationships, and your sense of mutual obligation, the social cost of asking hard questions or demanding proof feels far higher than it would with an anonymous broker — and that reluctance to scrutinize a trusted insider is precisely what schemes built on personal or cultural ties are designed to exploit.`,
+    sourceUrl: 'https://www.sfo.govt.nz/media-cases/media-releases/husband-and-wife-sentenced-in-sfo-ponzi-scheme-case-involving-almost-4-million',
+  },
+);
