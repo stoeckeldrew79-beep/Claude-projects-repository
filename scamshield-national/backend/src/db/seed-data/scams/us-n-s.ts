@@ -5949,3 +5949,29 @@ UsNS.push({
     sourceUrl: 'https://bfore.ai/report/malicious-activity-surrounding-perplexity-comet-browser-launch-threat-research/',
     country: 'US',
 });
+
+UsNS.push({
+    name: 'OPPD Spoofed-Number Overdue Bill Phone Scam',
+    slug: 'nebraska-oppd-spoofed-number-overdue-bill-scam',
+    description: `Omaha Public Power District (OPPD) warned customers on August 26, 2025 of a surge in scam calls, texts, and robocalls after receiving 53 reports in that month alone — callers use spoofing technology so the caller ID shows a local number or one that looks like it belongs to OPPD itself, then falsely claim the customer's account is "past due" or that they owe money for a meter or other equipment, demanding immediate payment to avoid disconnection. Some versions use a recorded robocall message designed to sound like an authentic utility notice, while others follow up with a text containing a suspicious link or QR code, or even attempt an in-person visit. OPPD was blunt about the pattern: "NONE of these calls or texts demanding immediate payment are from the utility. Our call center representatives would never cold-call a customer with such demands." The scam works because a spoofed caller ID showing a familiar local number, combined with the real anxiety of a possible power shutoff, pushes customers to act before they can verify the claim. OPPD customers who receive an unexpected call or text about an overdue bill should hang up or ignore it and call OPPD directly at 402-536-4131 (or 1-877-536-4131 outside the Omaha calling area) using the number on a past bill — never one provided by the caller — before making any payment.`,
+    categorySlug: 'utility-scams',
+    alertLevel: 'medium',
+    sources: ['Omaha Public Power District (OPPD)'],
+    sourceUrl: 'https://www.oppd.com/news-resources/news-releases/2025/august/don-t-be-fooled-by-phone-scammers-claiming-to-be-oppd/',
+    country: 'US',
+    state: 'NE',
+    firstRecorded: '2025-08-26',
+});
+
+UsNS.push({
+    name: 'Fake OPPD Meter-Installer Door-to-Door Scam',
+    slug: 'nebraska-oppd-fake-meter-installer-door-scam',
+    description: `Omaha Public Power District (OPPD) warned customers on November 11, 2025 after a person claiming to be an OPPD employee showed up at a customer's door saying he was there to install a new meter, then turned aggressive and demanded to be let inside when the resident asked to see identification — he eventually left without gaining entry. OPPD believes scammers are timing this pitch to piggyback on the utility's real, ongoing rollout of Advanced Metering Infrastructure (AMI) meters, since a wave of legitimate meter-replacement work in a neighborhood makes an uninvited "meter installer" at the door sound far more plausible than it otherwise would. OPPD stressed that legitimate employees carry visible ID badges and that customers should never let anyone into their home to work on a meter without confirming their identity first, saying residents should "always call OPPD at 402-536-4131 within the Omaha calling area or 1-877-536-4131 outside of the calling area, to verify the authenticity of the worker" before allowing any access. Anyone who has a real OPPD meter upgrade scheduled should still independently verify an installer's identity through OPPD's customer service line rather than taking a uniform, ID badge, or work order alone as proof, since a legitimate rollout in progress is exactly what makes this impersonation easier to pull off.`,
+    categorySlug: 'utility-scams',
+    alertLevel: 'medium',
+    sources: ['Omaha Public Power District (OPPD)'],
+    sourceUrl: 'https://www.oppd.com/news-resources/news-releases/2025/november/oppd-warns-of-potential-employee-impersonation-scam/',
+    country: 'US',
+    state: 'NE',
+    firstRecorded: '2025-11-11',
+});

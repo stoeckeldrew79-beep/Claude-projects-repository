@@ -6222,3 +6222,29 @@ UsGM.push({
     isHistorical: true,
     firstRecorded: '2026-07-20',
 });
+
+UsGM.push({
+    name: 'Fraudulent IDFPR Licensee Email Scam',
+    slug: 'illinois-idfpr-spoofed-licensee-email-scam',
+    description: `The Illinois Department of Financial and Professional Regulation (IDFPR) warned licensees on July 25, 2026 about fraudulent emails designed to look like they come from the Department or its staff. The messages falsely claim that documents — often framed as requiring the licensee's signature, or tied to a disciplinary matter — have been sent to the recipient, and ask them to reply confirming receipt or click a link to "review" or "access" the supposed secure files. The emails borrow real IDFPR branding, logos, and website links to look credible, sometimes appearing to come from a named "Administrative and Finance Coordinator," but the contact information and links are not IDFPR's. This is not an isolated incident: IDFPR has issued similar warnings to chiropractors, nurses, social workers, and other license holders in past waves of the same scheme, each time confirming it does not direct licensees to review disciplinary or licensing documents through unsolicited email links. Any Illinois professional who holds a state license — from a cosmetologist to a physician to a real estate broker — should treat an unexpected email about their license, a pending signature, or a disciplinary file as suspicious by default: verify it by calling IDFPR directly or checking the license lookup on idfpr.illinois.gov rather than clicking through, and report anything questionable to the Department at FPR.Comms@illinois.gov instead of replying to the sender.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Illinois Department of Financial and Professional Regulation (IDFPR)', 'Illinois Chiropractic Society'],
+    sourceUrl: 'https://ilchiro.org/idfpr-warns-illinois-licensees-about-spoofing-email-scam/',
+    country: 'US',
+    state: 'IL',
+    firstRecorded: '2026-07-25',
+});
+
+UsGM.push({
+    name: 'Fake BOLIM/DEA License Investigation Call',
+    slug: 'maine-bolim-dea-license-investigation-call-scam',
+    description: `The Maine Board of Licensure in Medicine (BOLIM) has repeatedly warned physicians and physician assistants — most recently in its fall 2025 newsletter — that it continues to receive reports of licensees being called by scammers who identify themselves as being from BOLIM itself, or from the DEA acting "in connection with" BOLIM. The callers sound official and lean on fear: they typically claim the licensee's DEA registration or medical license is under investigation for a controlled-substance or prescribing violation, and press for personal information — date of birth, Social Security number, home address — or a payment to resolve the supposed problem before it escalates. BOLIM stresses that money sent to these callers is not recoverable and that it does not resolve licensing or DEA matters over an inbound phone call. Because Maine has issued the same warning repeatedly without the calls stopping, physicians and other Maine license holders should treat any call claiming to be from a licensing board or the DEA about an active investigation as presumptively fraudulent, decline to share any personal information on the call, hang up, and call BOLIM back using the number on its official website — not a callback number the caller provides — to check whether any real inquiry exists.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Maine Board of Licensure in Medicine (BOLIM)'],
+    sourceUrl: 'https://www.maine.gov/md/about/newsletter/Fall2025',
+    country: 'US',
+    state: 'ME',
+    firstRecorded: '2025-11-25',
+});
