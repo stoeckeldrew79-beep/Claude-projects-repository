@@ -6842,3 +6842,29 @@ UsGM.push({
     country: 'US',
     state: 'MS',
 });
+
+UsGM.push({
+    name: 'Springfield "Summit Group" Retirement Fund Embezzlement (Bob Hunter)',
+    slug: 'missouri-springfield-hunter-summit-group-retirement-fraud',
+    description: `Bob Hunter, 72, worked in the Springfield, Missouri area as an independent investment and retirement professional, promoting Supplemental Executive Retirement Plans (SERPs) and operating two entities, The Summit Group of Missouri Incorporated and Master Trust Under the Summit Group of Missouri, to hold client money. From 2011 through at least March 2025, instead of investing clients' retirement funds into the plans he sold them, Hunter used the money for personal expenses such as hotel stays and credit card payments, and made "lulling payments" to some investors using other investors' money to make the scheme look legitimate and delay anyone reporting it to law enforcement. Clients only discovered the fraud after realizing that the account statements Hunter had been sending them, which showed retirement funds that never actually existed, didn't match reality; in total, $373,230.50 in intended retirement savings was embezzled. Hunter pleaded guilty before U.S. Magistrate Judge David P. Rush to one count of wire fraud, carrying up to 20 years in federal prison, and one count of money laundering, carrying up to 10 years, with both counts also carrying fines of up to $250,000. Because a SERP or similar private retirement arrangement sold by an individual isn't a federally insured 401(k) or pension, anyone offered one should verify the promoter's registration with the Missouri Securities Division and insist on account statements that come directly from an independent, named custodian rather than only from the person who sold them the plan.`,
+    categorySlug: 'ponzi-pyramid-schemes',
+    alertLevel: 'medium',
+    sources: ["U.S. Attorney's Office, Western District of Missouri", 'KY3'],
+    sourceUrl: 'https://www.ky3.com/2026/06/11/springfield-investment-professional-pleads-guilty-wire-fraud-money-laundering/',
+    country: 'US',
+    state: 'MO',
+    isHistorical: true,
+    firstRecorded: '2011-01-01',
+});
+
+UsGM.push({
+    name: 'LaGrange Thrift Savings Plan Call-Center Insider Account Theft (Tekia Peay)',
+    slug: 'georgia-lagrange-peay-tsp-insider-account-fraud',
+    description: `Tekia Sade Peay, 31, of LaGrange, Georgia, worked for a call center that handled recordkeeping services for the federal government's Thrift Savings Plan (TSP), the retirement savings program for federal employees and members of the military. Prosecutors say Peay used her insider knowledge of the call center's procedures and access systems to gain unauthorized entry into other people's online TSP accounts without their consent, deliberately targeting elderly account holders and the accounts of people who had already died, then worked with a co-conspirator to alter account details and request fraudulent disbursements sent to bank accounts they controlled. The FBI opened an investigation after receiving reports of the fraudulent transactions in August 2023; Peay was ultimately convicted of conspiracy, wire fraud, money laundering, and aggravated identity theft after attempting to steal $76,544.03 and successfully diverting $21,508.32, which she was ordered to repay in full. On February 11, 2026, she was sentenced to 51 months in federal prison, with no possibility of parole, followed by three years of supervised release. Federal employees, retirees, and the families of deceased federal workers should enable every available multi-factor authentication and login-alert option on their TSP account at TSP.gov, watch for any email or mail notice of a change to their address or direct-deposit bank information they didn't request, and periodically check a deceased relative's TSP account rather than assuming it goes untouched once its owner has died.`,
+    categorySlug: 'account-takeover',
+    alertLevel: 'high',
+    sources: ['FDIC Office of Inspector General', 'Federal Bureau of Investigation (FBI)'],
+    sourceUrl: 'https://www.fdicoig.gov/news/investigations-press-releases/georgia-resident-sentenced-scheme-steal-federal-employees',
+    country: 'US',
+    state: 'GA',
+});
