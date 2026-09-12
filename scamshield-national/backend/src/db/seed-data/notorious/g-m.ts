@@ -9374,3 +9374,60 @@ The Sterling case has already become a reference point in Australia's long-runni
     sourceUrl: 'https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2023-releases/23-294mr-charges-laid-following-asic-s-investigation-into-the-sterling-income-trust/',
   },
 );
+
+NotoriousGM.push(
+  {
+    title: 'Ben Jayaweera: The Brisbane Adviser Who Called an Abalone Farm a "Diversified" Super Fund',
+    slug: 'ben-jayaweera-growth-plus-abalone-fund-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'international'],
+    body: `Ben Jayaweera was a Brisbane-based financial adviser and director of Growth Plus Financial Group Pty Ltd who, between August 2013 and November 2015, persuaded clients to move their self-managed superannuation fund savings into something he called the Australian Diversified Sector Investment Fund, or ADSIF. As the name promised, Jayaweera described the fund to clients as a spread of holdings across aquaculture, agriculture, property and cash — the kind of genuinely diversified, low-correlation mix a cautious retiree might reasonably want their retirement savings sitting in.
+
+In reality, ADSIF held nothing of the sort. According to Australia's corporate regulator, ASIC, the fund's assets consisted of loans to Jayaweera's own corporate entities, which used the money to fund a single abalone farming venture — not remotely diversified, and not disclosed to clients as the concentrated, related-party bet it actually was. To get clients' retirement savings into the fund at all, Jayaweera also arranged for their self-managed super fund balances to be transferred directly into his own corporate accounts, without the authorisation his clients believed they were giving. Twelve former clients lost a combined $5,958,870.
+
+A jury first convicted Jayaweera on six counts of fraud after a trial in September and October 2019. That conviction didn't stand: an appeal was allowed in 2022 and a retrial was ordered. Rather than narrowing the case against him, the retrial expanded it — in August 2024, a Brisbane District Court jury found Jayaweera guilty on 28 counts of fraud under section 408C(1)(e) of Queensland's Criminal Code.
+
+Sentencing on August 26, 2024, reflected the scale and duration of the deception. The judge described Jayaweera's conduct as "brazen, gross, and callous," found he had shown no remorse, and characterised the offending as "deliberate, sophisticated and systematic," sentencing him to 12 years in prison with eligibility for parole after six years; 977 days already spent in pre-sentence custody were credited against the term.
+
+Jayaweera's case is a reminder that the word "diversified" in a fund's marketing is a claim, not a fact — one a self-managed super fund member has every right to see verified, holding by holding, before signing over years of retirement savings to an adviser who also happens to control every entity the money is flowing into. It's also a reminder that a botched first trial doesn't mean a fraud goes unpunished forever: when Jayaweera's case was finally retried on its full merits, the result was a longer sentence, not a lesser one.`,
+    sourceUrl: 'https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2024-releases/24-188mr-former-brisbane-financial-adviser-ben-jayaweera-sentenced-to-12-years-imprisonment-for-fraud-at-retrial/',
+  },
+);
+
+NotoriousGM.push(
+  {
+    title: "Mark McCabe and the Foreign Exchange Trading Accounts That Didn't Exist",
+    slug: 'mark-mccabe-guevara-capital-forex-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'international'],
+    body: `Mark Francis McCabe, of Roseville in Sydney, was the sole director of two companies, Guevara Capital Access Pty Ltd and Online Trading Capital Pty Ltd, through which he told clients he could provide access to funded foreign exchange trading accounts — capital-backed accounts clients could trade to generate returns, with McCabe positioned as the person who arranged the underlying access.
+
+Between January 2015 and April 2021, according to Australia's corporate regulator, ASIC, McCabe instead provided clients with accounts that were incapable of ever generating a real return, because they were non-functional "test" accounts rather than the funded, live-trading accounts he had promised. He used clients' money for his own expenses in the meantime — rent, private school fees, and credit card purchases among them — rather than putting it anywhere near a genuine trading account. Eight people lost a combined $940,350: seven clients of his two companies, plus one further individual victim.
+
+Following an ASIC investigation and prosecution by the Commonwealth Director of Public Prosecutions, McCabe pleaded guilty on September 13, 2024, to three counts of dishonestly obtaining a financial advantage by deception under section 192E(1)(b) of the New South Wales Crimes Act 1900, with four further offences taken into account at sentencing.
+
+The Downing Centre District Court in Sydney sentenced McCabe on May 16, 2025, to four years and three months in prison, with a non-parole period of two years and six months.
+
+McCabe's case turns on a detail that's easy for a hopeful investor to skip past: a genuine funded trading account should be independently verifiable with the actual broker or liquidity provider holding the capital, not just through statements or a dashboard supplied by the person who sold the "access." A test account and a live funded account can look identical on screen for as long as the person controlling the login wants them to — the difference only becomes obvious the moment someone tries to withdraw money that was never really there.`,
+    sourceUrl: 'https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2025-releases/25-083mr-former-financial-services-director-mark-mccabe-sentenced-for-fraud-offences/',
+  },
+);
+
+NotoriousGM.push(
+  {
+    title: "The GetFinancial Ring: Germany's Fake Cybertrading Network",
+    slug: 'getfinancial-ring-cybertrading-fraud-germany',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'international'],
+    body: `Between 2015 and 2021, a network of call centers spread across Israel, Georgia, Armenia and Moldova ran at least ten fake online trading platforms aimed at retail investors in Germany and across Europe — among them GetFinancial, SolidCFD, ProCapitalMarkets, MyCoinBanking, Coinsbanking, GainFinTech, ProfitsTrade and AccepTrade. Each was marketed as a digital platform for trading binary options, contracts for difference, forex or cryptocurrency, complete with an account dashboard showing customers their balance supposedly growing in real time.
+
+None of it was real. Germany's Central Cybercrime Unit for Bavaria (Zentralstelle Cybercrime Bayern), investigating alongside the Upper Palatinate criminal police, found that customer deposits were never invested anywhere — "the trading platform visible to the customer is as much a deception as the alleged customer account," as prosecutors put it — with the money instead funding the call centers' operations and the operators' own enrichment. GetFinancial alone took in at least €16 million from customers; across all ten linked platforms, prosecutors put the combined damage at a minimum of €74.5 million, drawn from tens of thousands of investors.
+
+The men prosecutors identified as running the operation — Israeli nationals Nadav Gover, his father Yaakov "Kobi" Gover, and Yuri Dashevsky, along with Ukrainian-Israeli national Vadim Tsysaruk and Russian national Anna Sokolova — were arrested in 2021 across Slovenia, Italy and Israel, and extradited to Germany at the Bavarian cybercrime unit's request to face trial before the Landgericht Regensburg, the regional court in Regensburg.
+
+All pleaded guilty to commercial, gang-related fraud. On April 6, 2023, the Regensburg court sentenced Nadav Gover to five years and nine months in prison plus a €10.1 million fine, Dashevsky to four years and nine months plus a €1.9 million fine, and Kobi Gover to four years and two months plus a €37,200 fine, while Sokolova received 40 months and Tsysaruk 30 months. Bavarian prosecutors have continued pursuing further suspects tied to the same network in the years since, filing additional charges as more operators were located and extradited.
+
+The GetFinancial network illustrates a structural feature common to cross-border binary-options and CFD fraud: spreading call centers, IT development and money flows across several countries specifically to make any single national police force's job harder, and building fabricated trading dashboards that are visually indistinguishable from a real broker's platform precisely because there is no real broker underneath them to compare against. It took a dedicated cybercrime prosecution unit and extraditions from three separate countries just to get the first five operators into a German courtroom — a measure of how much cross-border coordination a case like this demands, and how many similar operations likely never face that level of pursuit.`,
+    sourceUrl: 'https://www.timesofisrael.com/german-prosecutors-take-aim-at-israelis-behind-77-million-euro-fraud-ring/',
+  },
+);
