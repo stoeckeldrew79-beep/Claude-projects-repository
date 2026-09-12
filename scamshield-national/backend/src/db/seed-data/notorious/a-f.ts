@@ -8977,3 +8977,41 @@ CBEX is a reminder that a scam doesn't need to invent new tricks to cause new da
     sourceUrl: 'https://sec.gov.ng/enforcements/keep-track-of-enforcement-updates/cbexcrypto-bridge-exchange-super-technology-st-technologies-international-ltd/',
   },
 );
+
+NotoriousAF.push(
+  {
+    title: 'Arck LLP: The £50 Million Property Scheme Propped Up With Forged Bank Statements',
+    slug: 'arck-llp-richard-clay-kathryn-clark-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical', 'international'],
+    body: `Arck LLP was a small, unregulated UK investment marketing firm run out of Nottingham by Richard Clay, with his partner Kathryn Clark handling much of the firm's paperwork and investor-facing communication. Between 2006 and 2011, Arck marketed a series of overseas property developments — including schemes called Estrela Santiago, Paradise Beach, and Joyston — to roughly 700 investors, promising high fixed returns "with no risk to capital." Because Arck itself was not authorised to give financial advice, the investments were routed to the public through regulated independent financial advisers, and much of the money was funnelled into the schemes via HD Sipp, a self-invested personal pension provider, so that ordinary savers ended up holding what they believed was a low-risk slice of their retirement pot inside overseas holiday-home developments that barely existed on the ground.
+
+There was no real property empire behind the promised returns. According to the Serious Fraud Office, Clay used investor money to fund his own lavish lifestyle and to plug the losses of other failed ventures he was separately running, rather than to build or complete the developments Arck had sold. When concerned investors began asking questions about where their money had gone and why promised payments were late, Clark created forged bank statements designed to show healthy account balances and reassure them that their investments remained safe — paperwork that existed only to buy the scheme more time.
+
+The fraud finally came apart when HD Sipp collapsed into liquidation in June 2014, exposing the underlying investments as worthless and triggering losses of roughly £50 million for the hundreds of investors who had trusted Arck's pitch. The Serious Fraud Office, which had opened its investigation into Arck in 2012 after the scheme's practices first drew scrutiny, brought fraud and forgery charges against Clay and Clark.
+
+In October 2015, Clay was sentenced to 10 years in prison — the SFO's investigation found he had personally taken roughly £4.87 million out of the scheme — and was later banned from acting as a company director for 15 years. Clark received a two-year suspended sentence after the court heard evidence that she had been subject to sustained "emotional manipulation" by Clay throughout their relationship, alongside a 14-year directorship ban of her own. Confiscation proceedings concluded in 2016 with orders against the pair totaling just over £562,000 — a small fraction of what investors had actually lost, and a reminder of how much harder recovering stolen money is than proving it was stolen in the first place.
+
+Arck illustrates two separate failure points that let a fraud like this survive for five years: an unregulated marketing firm used regulated financial advisers and a pension wrapper as borrowed credibility to reach ordinary savers who would never have dealt with it directly, and forged bank statements were enough to quiet the exact investors whose suspicion should have ended the scheme years earlier. The gap between the £50 million investors lost and the roughly half a million pounds ultimately clawed back is also its own lesson: a criminal conviction settles who was responsible, but it rarely settles how much of the money victims will ever see again.`,
+    sourceUrl: 'https://international-adviser.com/arck-advisers-pay-gbp562k-following-gbp50m-fraud/',
+  },
+);
+
+NotoriousAF.push(
+  {
+    title: 'Capital + Merchant Finance: The New Zealand Lender Whose Directors Stole From Their Own Collapse',
+    slug: 'capital-merchant-finance-nicholls-douglas-tallentire',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical', 'international'],
+    body: `Capital + Merchant Finance was one of dozens of New Zealand finance companies that raised money from the public through debentures — effectively unsecured loans from ordinary savers — and used it to fund mortgage and commercial property lending. Founded in 2002 by Neal Nicholls and Wayne Douglas, who owned and controlled the company, Capital + Merchant built a base of roughly 7,500 debenture holders drawn in by advertised returns that looked only modestly better than a bank term deposit, and correspondingly safe.
+
+What set Capital + Merchant apart from finance companies that failed through ordinary bad lending was what its own directors did with investors' money while the company was still operating. Between 2004 and 2006, in what investigators called the "Clyde" and "Numeria" transactions, Nicholls and Douglas directed roughly $15.9 million through dealings that breached the restrictions in the company's trust deed and personally benefited trusts they controlled — money diverted, in effect, from the debenture holders who thought it was funding loans, into vehicles that benefited the two men running the company. The Serious Fraud Office separately identified a further $14.4 million in undisclosed related-party lending. Owen Tallentire, who served as chief executive and later as a director, was convicted alongside them for his role in the Clyde transactions.
+
+Capital + Merchant collapsed into receivership in November 2007, near the start of a wave of New Zealand finance company failures that the global financial crisis would soon turn into a flood, owing debenture holders roughly $167 million; the company was placed into liquidation in December 2009. Unlike many of the finance companies that failed around the same time — where the cause was simply reckless or incompetent lending rather than theft — the Serious Fraud Office's investigation concluded that Capital + Merchant's directors had used the company as a vehicle to enrich themselves directly.
+
+A jury convicted Nicholls and Douglas of theft by a person in a special relationship in July 2012, with Tallentire convicted on related charges, and in August 2012 a judge sentenced Nicholls and Douglas to seven and a half years in prison each — among the longest sentences handed to any New Zealand finance company director — and Tallentire to five years. The following year, separate guilty pleas to related Financial Markets Authority charges under the Securities Act added further prison time on top of the original sentences, with the Court of Appeal describing the underlying conduct as "theft on a grand scale."
+
+Capital + Merchant is a reminder that a company's public collapse and its investors' real losses can have two entirely different causes that look identical from the outside: sometimes a lender simply made bad loans and ran out of money, and sometimes the people running it diverted the money before the company ever got the chance to fail on its own. New Zealand's finance-company collapse of the late 2000s produced plenty of both, and only a criminal investigation — not the receivership itself — was able to tell investors which kind of failure had actually cost them their savings.`,
+    sourceUrl: 'https://www.sfo.govt.nz/media-cases/media-releases/capital-merchant-directors-imprisoned-following-convictions',
+  },
+);
