@@ -3959,3 +3959,17 @@ UsTZ.push({
     country: 'US',
     state: 'TX',
 });
+
+UsTZ.push({
+    name: 'UTEP Financial Aid Refund Phishing Account-Takeover Scam',
+    slug: 'texas-utep-financial-aid-refund-phishing-scam',
+    description: `Starting around August 2024 and continuing into 2025, cybercriminals sent phishing emails impersonating the University of Texas at El Paso, often invoking urgent-sounding claims about canceled classes or funding problems, to trick students into entering their student-portal login credentials on fake pages. Once inside a real account, the attackers changed the direct-deposit bank information on file so a student's own already-approved financial aid refund — money the student was legitimately owed — was routed straight into the scammer's account instead. UTEP student Alejandra Velez, an online master's student, checked her account on January 21, 2025 expecting to find a $5,672 loan disbursement for rent and household bills; it had vanished, and she was locked out of her UTEP login entirely. The FBI's El Paso Field Office reported that more than 100 UTEP students had come forward seeking help since August 2024. UTEP maintained its own systems were not breached and placed responsibility on the phishing itself, while acknowledging the pattern reflects a nationwide wave: Georgia Tech's Bursar, IT, and Financial Aid offices issued a nearly identical warning on January 7, 2025, and UC Irvine flagged an active campaign against its own students in December 2025. FBI Special Agent Jeanette Harper advised students to slow down on any "urgent" financial-aid email, hover over sender addresses before clicking, and never enter credentials anywhere except by typing a school's official web address directly. Students should also periodically check that their direct-deposit information on file with the bursar's or financial aid office hasn't been changed without their knowledge, and report suspected account compromise immediately to their school's IT security office and to the FBI at ic3.gov.`,
+    categorySlug: 'account-takeover',
+    alertLevel: 'high',
+    sources: ['El Paso Matters', 'Government Technology (GovTech)', 'Georgia Institute of Technology Office of Information Technology'],
+    sourceUrl: 'https://elpasomatters.org/2025/02/24/utep-student-loan-phishing-scam-fbi-investigation/',
+    country: 'US',
+    state: 'TX',
+    isHistorical: true,
+    firstRecorded: '2024-08-01',
+});
