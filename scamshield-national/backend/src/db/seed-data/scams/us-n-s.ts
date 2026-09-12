@@ -7021,3 +7021,45 @@ UsNS.push({
     isHistorical: true,
     firstRecorded: '2017-10-01',
 });
+
+UsNS.push({
+    name: 'South Dakota Texas Flood Charity Donation Scam Warning',
+    slug: 'south-dakota-texas-flood-charity-donation-scam-warning',
+    description: `South Dakota Attorney General Marty Jackley issued a consumer alert on July 9, 2025, warning state residents to be cautious about donation solicitations following the deadly Texas flash floods that occurred over the Fourth of July weekend. Jackley's office said scammers routinely exploit high-profile natural disasters within days of the event, setting up fake charity websites, social media fundraisers, and crowdfunding pages, or spoofing the names of real relief organizations, to collect donations that never reach flood victims. The alert cautioned South Dakotans to be especially wary of solicitations that arrive by unsolicited text or email containing a donation link, of any charity that "springs up" immediately after a disaster with no track record, and of high-pressure pitches that demand an immediate decision. Jackley's office advised verifying a charity's legitimacy before giving — checking it against independent charity-rating databases such as Charity Navigator or the BBB Wise Giving Alliance, confirming its exact legal name (since scammers often use names nearly identical to well-known charities), and asking for an organization's IRS tax-exempt determination — and recommended giving directly to established, well-known relief organizations like the American Red Cross rather than following a link in a text or social media post. Consumers were also told never to donate using gift cards, wire transfers, or cryptocurrency, since legitimate charities do not request payment that way and such transactions are nearly impossible to reverse or trace once sent. Anyone who suspects they encountered a fraudulent charity solicitation, in connection with the Texas floods or any other disaster, was urged to report it to the South Dakota Attorney General's Consumer Protection Division at 1-800-300-1986 or consumer.sd.gov before sending any money.`,
+    categorySlug: 'charity-scams',
+    alertLevel: 'medium',
+    sources: ["South Dakota Attorney General's Office", 'Mitchell Now'],
+    sourceUrl: 'https://mitchellnow.com/news/236632-ag-jackley-warns-of-scam-risks-tied-to-texas-flood-donations',
+    country: 'US',
+    state: 'SD',
+    isHistorical: true,
+    firstRecorded: '2025-07-09',
+});
+
+UsNS.push({
+    name: 'Hughes County Jury Duty Bitcoin Extortion Scam',
+    slug: 'south-dakota-hughes-county-jury-duty-bitcoin-scam',
+    description: `In late July 2025, a Hughes County, South Dakota resident received a phone call from someone claiming to be with the Hughes County Sheriff's Office, telling them they had failed to appear for jury duty and would be arrested unless they immediately paid an outstanding fine. Unlike scam texts that simply link to a fraudulent payment page, this caller kept the victim on the phone and directed them to pay the "fine" using bitcoin and wire transfers, ultimately extracting $22,000 before the victim realized they had been defrauded. South Dakota Attorney General Marty Jackley publicized the case on August 1, 2025, stating plainly, "Law enforcement doesn't work that way, neither does the court system, and so this is a jury duty scam," and noting that no real court or sheriff's office will ever call to demand instant payment by cryptocurrency or wire transfer to avoid arrest for missed jury duty or an unpaid ticket. Jackley's office said it also continued to receive reports of a related text-message version of the scam impersonating the South Dakota Department of Transportation, threatening license suspension or jail time over supposedly unpaid traffic tickets. Officials advised anyone who receives such a call or text to hang up or delete it immediately, never send money or cryptocurrency in response to an urgent legal threat, and instead contact the local clerk of courts directly using an independently verified phone number to check on any actual jury summons or citation. South Dakotans targeted by this scam are urged to report it to local law enforcement or the Attorney General's Consumer Protection Division at 1-800-300-1986.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ["South Dakota Attorney General's Office", 'KOTA Territory News'],
+    sourceUrl: 'https://www.kotatv.com/2025/08/02/jackley-warning-about-phone-scams-including-one-that-cost-south-dakotan-22000/',
+    country: 'US',
+    state: 'SD',
+    isHistorical: true,
+    firstRecorded: '2025-08-01',
+});
+
+UsNS.push({
+    name: 'Sioux Falls Apple Security Pop-Up Money-Laundering Scam',
+    slug: 'south-dakota-sioux-falls-apple-security-popup-scam',
+    description: `In early May 2024, a 68-year-old Sioux Falls woman received a pop-up alert on her iPad formatted to look like a legitimate "Apple Security" warning, listing a phone number to call about a supposed problem with her device. Calling the number connected her through a series of people, ending with someone claiming to be a federal agent who accused her of being under investigation for money laundering. Convinced she needed to cooperate to clear her name and protect her funds, the woman withdrew $58,000 in cash from her bank on the callers' instructions and was coached to tell bank staff she was withdrawing the money to buy a car or furniture so tellers would not flag the unusual withdrawal as suspicious. South Dakota Attorney General Marty Jackley's office publicized the case as a warning, with Jackley calling it "a classic type of scam that preys on the elderly," explaining that "the scammer confuses the person, threatens legal action and promises the money will be returned to them. All of it is a lie." Sioux Falls Police Public Information Officer Sam Clemens said recovering the money would be "a really steep hill to climb" and that scammers "use fear and a sense of urgency" to keep victims from stopping to think or consult anyone else. Officials urged residents to remember that neither Apple nor any real law-enforcement agency will ever contact someone through a computer pop-up, demand cash withdrawals to "prove innocence," or instruct a bank customer to lie to tellers about the purpose of a withdrawal — anyone who sees such a pop-up should not call the listed number, and anyone contacted this way should hang up and verify any claimed problem by contacting Apple or their bank directly through numbers they look up independently, ideally after talking it over with a trusted family member first.`,
+    categorySlug: 'tech-support-scams',
+    alertLevel: 'high',
+    sources: ["South Dakota Attorney General's Office", 'Sioux Falls Police Department', 'KXRB'],
+    sourceUrl: 'https://kxrb.com/holy-buckets-sioux-falls-woman-loses-a-whopping-58k-in-new-scam/',
+    country: 'US',
+    state: 'SD',
+    isHistorical: true,
+    firstRecorded: '2024-05-07',
+});
