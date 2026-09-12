@@ -3468,3 +3468,29 @@ UsTZ.push({
     state: 'UT',
     firstRecorded: '2024-11-27',
 });
+
+UsTZ.push({
+    name: 'Fake SafeTN App Toll and License Suspension Texts',
+    slug: 'tennessee-safetn-app-impersonation-toll-scam',
+    description: `The Tennessee Office of Homeland Security warned the public on April 28, 2025 about fraudulent text messages impersonating SafeTN, the state's own mobile app for reporting suspicious activity to authorities, falsely claiming the recipient owes overdue toll fees and threatening that their driver's license will be suspended unless they pay immediately through a link. Some versions of the message direct recipients to a fake website built to closely resemble the real Tennessee Department of Safety and Homeland Security site, collecting payment card details and personal information once a victim clicks through. "SafeTN is a trusted tool for reporting suspicious activity — not for collecting payments or issuing threats," said Gregory Mays, Deputy Commissioner of the Tennessee Office of Homeland Security, underscoring that the app's real function has nothing to do with tolls, fines, or license status at all, which makes any text claiming otherwise an automatic red flag. The scam is a Tennessee-specific twist on the "unpaid toll" smishing wave that has circulated nationally under many different state and toll-agency names, but this version specifically borrows the credibility of a real state-branded safety app to make the threat feel more official. Tennesseans who receive a text like this are advised to never click the link, use their phone's "report junk" feature and then delete the message, and report it to the FTC at reportfraud.ftc.gov or to the Tennessee Attorney General's Division of Consumer Affairs at tn.gov/consumer rather than to any number or link supplied in the text itself.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Tennessee Office of Homeland Security', 'Tennessee Department of Safety and Homeland Security'],
+    sourceUrl: 'https://www.tn.gov/safety/news/2025/4/28/tennessee-office-of-homeland-security-warns-public-about-scam-messages-impersonating-safetn-app.html',
+    country: 'US',
+    state: 'TN',
+    firstRecorded: '2025-04-28',
+});
+
+UsTZ.push({
+    name: 'Vermont DMV "Notice of Statutory Enforcement" Text Scam',
+    slug: 'vermont-dmv-notice-of-statutory-enforcement-text-scam',
+    description: `The Vermont Department of Motor Vehicles has repeatedly warned drivers, most recently in a March 2026 alert following an earlier round of warnings dating back to January 2025, about waves of text messages impersonating the DMV and VTrans that claim the recipient has an unresolved traffic matter — sometimes styled as a "Notice of Statutory Enforcement" — and threaten license suspension, registration cancellation, a referral to collections, or credit-score damage unless a fine is paid within 24 to 48 hours through a link. Some versions instruct the recipient to reply "Y" or press and hold a link to "activate" a payment portal, a tactic designed to confirm the phone number is active for future scam attempts as much as to collect a payment. The Vermont DMV's alert makes a point that should make every version of this scam easy to dismiss on its face: Vermont has no toll roads at all, so any message referencing an unpaid Vermont toll is automatically fraudulent regardless of how official it looks, and even the traffic-fine and registration versions never come from the state by text — real DMV correspondence arrives by mail or through links that end in dmv.vermont.gov or mydmv.vermont.gov, never an unfamiliar shortened domain. Vermonters who receive one of these texts are advised not to click any link or reply in any way, including replying "STOP," and to instead call the DMV directly at 802-828-2000 to confirm their license and registration status if they have any doubt.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Vermont Department of Motor Vehicles', 'WCAX'],
+    sourceUrl: 'https://dmv.vermont.gov/news/beware-of-scams-fraudulent-messages-targeting-vermont-drivers',
+    country: 'US',
+    state: 'VT',
+    firstRecorded: '2025-01-01',
+});

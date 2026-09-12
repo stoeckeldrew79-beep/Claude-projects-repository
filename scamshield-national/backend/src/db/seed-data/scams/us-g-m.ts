@@ -6312,3 +6312,29 @@ UsGM.push({
     state: 'LA',
     firstRecorded: '2026-09-08',
 });
+
+UsGM.push({
+    name: 'Idaho Medicare Phone Scam Targeting Seniors',
+    slug: 'idaho-medicare-phone-scam-seniors',
+    description: `Idaho Attorney General Raúl Labrador warned seniors on June 10, 2026 about a surge of phone scams in which callers claim a victim's Medicare card has expired, been lost, or needs "verification," using spoofed local caller ID and polished, professional-sounding scripts to extract the target's Medicare number, Social Security number, or date of birth. Once scammers have that information, they can bill Medicare directly for services, equipment, or supplies the victim never received — a form of fraud that both drains the victim's benefits and adds to the billions in improper payments Medicare absorbs nationally each year. "No one from Medicare will ever call you to ask for your number," Labrador said, urging anyone who receives such a call to hang up immediately and call 1-800-MEDICARE directly to check their account rather than trust anything the caller provided. The alert followed a broader pattern the Attorney General's office has tracked closely: Idahoans filed 3,081 fraud complaints in 2024 alone, with reported losses exceeding $63 million, and seniors remain the most frequently targeted group. Idaho seniors are advised to never give a Medicare, Social Security, or bank number to an unsolicited caller under any circumstance, to hang up and call 1-800-MEDICARE using the number printed on their own Medicare card, and to report suspected scam calls at ReportScamsIdaho.com or to local law enforcement.`,
+    categorySlug: 'medicare-health-plans',
+    alertLevel: 'high',
+    sources: ["Idaho Office of the Attorney General (Raúl Labrador)", 'KTVB', "Coeur d'Alene Press"],
+    sourceUrl: 'https://www.ag.idaho.gov/newsroom/ag-labrador-warns-idaho-seniors-about-medicare-phone-scams/',
+    country: 'US',
+    state: 'ID',
+    firstRecorded: '2026-06-10',
+});
+
+UsGM.push({
+    name: 'Idaho ITD "Overdue Traffic Fine" DMV Text Scam',
+    slug: 'idaho-itd-overdue-traffic-fine-dmv-text-scam',
+    description: `The Idaho Transportation Department has repeatedly warned residents about recurring waves of smishing texts impersonating the Idaho DMV, with a fresh wave flagged on March 24, 2026 claiming the recipient has an outstanding traffic fine that must be paid online or an overdue vehicle registration, and pushing a link to a lookalike payment page designed to harvest card numbers rather than route to any real state system. The scam has evolved over multiple rounds since Attorney General Raúl Labrador's office first raised the alarm in June 2025, each time using slightly different wording — a "final notice," a threatened license suspension, a registration hold — but relying on the same basic mechanic of urgency plus an unfamiliar link. "If the link does not END in a dot gov address, it's a scam," said Idaho DMV Administrator Lisa McClellan, pointing to the single most reliable tell: any legitimate Idaho DMV service runs through www.dmv.idaho.gov, never a shortened or unfamiliar domain sent by text. The recurring nature of the scam — new waves hitting the state every few months even after repeated public warnings — reflects how cheap it is for scammers to blast the same script to a fresh batch of phone numbers each time, regardless of how many previous rounds got reported. Idahoans who receive one of these texts are advised not to click the link or reply, to report the message to their mobile carrier by forwarding it to 7726 ("SPAM"), delete it, and verify any real registration or licensing question directly through www.dmv.idaho.gov rather than a link received by text.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Idaho Transportation Department', 'Idaho Office of the Attorney General'],
+    sourceUrl: 'https://itd.idaho.gov/news/another-wave-of-scam-text-messages-impersonating-idaho-dmv/',
+    country: 'US',
+    state: 'ID',
+    firstRecorded: '2025-06-05',
+});
