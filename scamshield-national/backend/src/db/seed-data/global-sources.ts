@@ -404,4 +404,76 @@ export const SEED_GLOBAL_SOURCES: SeedGlobalSource[] = [
       "Ghana's cybersecurity regulator, established under the Cybersecurity Act, 2020. It runs CERT-GH and a 24-hour incident-reporting point of contact (call or text 292) for cybercrime, including online fraud. The CSA has no standing statistics page of its own; instead it periodically discloses national fraud-incident figures through press briefings and its National Cyber Security Awareness Month campaign — reporting, for example, that online fraud accounted for 47% of the 3,876 incidents it logged nationally in the first seven months of 2026.",
     data_type: 'public_stats',
   },
+  {
+    agency_name: 'Directoratul Național de Securitate Cibernetică (DNSC)',
+    country: 'RO',
+    country_name: 'Romania',
+    url: 'https://www.dnsc.ro/',
+    description:
+      "Romania's national cybersecurity directorate runs PNRISC, the National Platform for Reporting Cybersecurity Incidents, where individuals and organizations report phishing and other online fraud (also reachable via the 1911 hotline), and maintains a public Blacklist of domains identified as fraudulent. DNSC's annual activity report tallies incidents handled, with phishing consistently the leading category.",
+    data_type: 'annual_report',
+  },
+  {
+    agency_name: 'Internal Security Forces — Cybercrime and Intellectual Property Bureau',
+    country: 'LB',
+    country_name: 'Lebanon',
+    url: 'https://isf.gov.lb/internet-security-awareness/',
+    description:
+      "Lebanon's national police cybercrime unit investigates online fraud, blackmail, and other cyber-enabled crime, reachable via a dedicated phone line (01/293293) or the ISF's own anonymous online complaints form. It publishes case-specific news alerts about active fraud rings and impersonation scams rather than aggregate statistics.",
+    data_type: 'public_stats',
+  },
+  {
+    agency_name: 'Agence Nationale de la Cybersécurité (ANCS) — tunCERT',
+    country: 'TN',
+    country_name: 'Tunisia',
+    url: 'https://www.ancs.tn/fr/tuncert',
+    description:
+      "Tunisia's National Cybersecurity Agency runs tunCERT, a free incident-response service for citizens and businesses that accepts incident reports by email and phone and provides direct on-site help to individuals reporting compromised computers or online fraud; it does not publish a public statistics page of its own.",
+    data_type: 'public_stats',
+  },
+  {
+    agency_name: 'Consumer Council of Fiji',
+    country: 'FJ',
+    country_name: 'Fiji',
+    url: 'https://consumersfiji.org/',
+    description:
+      "Fiji's independent statutory consumer watchdog, established under the Consumer Council of Fiji Act 1976, takes scam complaints through its Alternative Dispute Resolution & Consumer Advisory Division and its mobile app. It periodically publishes press releases with scam-complaint counts and financial-loss figures — 113 complaints and over $82,000 in reported losses between September 2024 and September 2025 in its most recent release.",
+    data_type: 'public_stats',
+  },
+  {
+    agency_name: 'Rigspolitiet — It-relateret økonomisk kriminalitet (NC3)',
+    country: 'DK',
+    country_name: 'Denmark',
+    url: 'https://politi.dk/aktuelt/statistik/it-relateret-oekonomisk-kriminalitet',
+    description:
+      "Denmark's National Police publishes an annual report on IT-related economic crime, compiled by the National Cyber Crime Center (NC3) from fraud reports filed by citizens and businesses — 35,258 reports in the 2023 edition, a 30% year-on-year rise — alongside standalone reports on dating (romance) fraud and sextortion.",
+    data_type: 'annual_report',
+  },
+  {
+    agency_name: 'MKD-CIRT (National Center for Computer Incident Response)',
+    country: 'MK',
+    country_name: 'North Macedonia',
+    url: 'https://mkd-cirt.mk/',
+    description:
+      "North Macedonia's national CERT, operating under the Agency for Electronic Communications, is the country's official point of contact for cyber incidents including phishing and online-fraud campaigns. It accepts public reports through a web form, email, and phone, and issues threat alerts and awareness guidance rather than a periodic statistics report.",
+    data_type: 'public_stats',
+  },
+  {
+    agency_name: 'UZCERT',
+    country: 'UZ',
+    country_name: 'Uzbekistan',
+    url: 'https://uzcert.uz/en/',
+    description:
+      "Uzbekistan's national cybersecurity incident-response service publishes running yearly tallies on its site — including phishing sites blocked and cyberattacks eliminated (82 and over 67 million respectively in its 2025 figures) — and accepts incident and fraud reports from the public by email, phone, or web form.",
+    data_type: 'public_stats',
+  },
+  {
+    agency_name: 'CERT.GOV.AZ (Computer Emergency Response Center)',
+    country: 'AZ',
+    country_name: 'Azerbaijan',
+    url: 'https://cert.gov.az/en',
+    description:
+      "Azerbaijan's Computer Emergency Response Center, run by the State Service for Special Communication and Information Security, issues public warnings about fraudulent domains impersonating services like the myGov portal and ASAN Pay, runs a blacklist lookup tool for suspicious websites, and takes citizen incident reports through the site's own Report Incident form.",
+    data_type: 'public_stats',
+  },
 ];
