@@ -3740,3 +3740,17 @@ UsTZ.push({
     isHistorical: true,
     firstRecorded: '2021-01-01',
 });
+
+UsTZ.push({
+    name: 'Spokane "MAC Blockchain Solutions" Crypto Investment Fraud (Michael McElhiney)',
+    slug: 'washington-spokane-mcelhiney-mac-blockchain-crypto-fraud',
+    description: `Between March 4, 2021 and September 10, 2022, Michael Joseph McElhiney, 38, of Spokane, Washington, told prospective investors he and unnamed business partners ran a successful cryptocurrency fund called MAC Blockchain Solutions that invested in Ethereum staking and cryptocurrency liquidity pools, and used a fabricated platform called Coin.FYI to display fake account balances that made it look like investors' money was steadily growing. McElhiney recruited victims in person rather than online — soliciting Uber drivers he met while riding in their cars, women he met through dating apps, and other people he connected with while playing the video game Call of Duty under the username "Bing Bong" — and told investors they could withdraw their funds at any time. When investors actually tried to withdraw money, McElhiney stalled them with fabricated excuses like security breaches or payment-processing problems, while in reality he had diverted the roughly $350,000 he'd collected to personal gambling, cash, rare art, and precious metals rather than any real cryptocurrency investment. He pleaded guilty to operating the scheme, and on December 11, 2024, U.S. District Judge Thomas O. Rice sentenced him to 41 months in federal prison, 3 years of supervised release, and $326,119.95 in restitution, ordering him remanded into custody immediately following the hearing. A cryptocurrency fund that reports steady gains through its own dashboard rather than a recognized, independently auditable exchange or custodian is showing you exactly what a scammer wants you to see; anyone approached about a crypto investment opportunity by someone they know socially — a rideshare driver, a dating-app match, or a fellow online gamer — rather than through a registered investment professional should verify the fund manager's registration with the Washington State Department of Financial Institutions Securities Division before sending any money, and should be able to withdraw at least a small test amount before committing more.`,
+    categorySlug: 'cryptocurrency-scams',
+    alertLevel: 'medium',
+    sources: ["U.S. Attorney's Office, Eastern District of Washington", 'KHQ (Spokane)'],
+    sourceUrl: 'https://www.khq.com/news/spokane-man-sentenced-for-stealing-350-000-in-cryptocurrency-investment-scheme/article_7525aeae-b859-11ef-8a58-5f60ecfcc551.html',
+    country: 'US',
+    state: 'WA',
+    isHistorical: true,
+    firstRecorded: '2021-03-04',
+});

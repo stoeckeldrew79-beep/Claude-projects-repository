@@ -6708,3 +6708,17 @@ UsNS.push({
     isHistorical: true,
     firstRecorded: '2016-01-01',
 });
+
+UsNS.push({
+    name: 'Cincinnati Romance-Fraud Money-Laundering Ring (Richard Opoku Agyemang)',
+    slug: 'ohio-cincinnati-agyemang-romance-fraud-laundering',
+    description: `Starting in June 2020, Richard Opoku Agyemang, 41, of Cincinnati, partnered with overseas conspirators in Ghana who built fake dating-site profiles using stolen photos and fabricated identities, targeting elderly and recently bereaved people looking for companionship online and cultivating relationships before inventing medical emergencies or other urgent needs for money. Agyemang's role was to open American bank accounts that could receive the wire transfers and deposits victims sent, then move the money out of the country; dozens of victims across the scheme lost more than $2 million combined, with some describing having to sell their homes and vehicles, cash in life insurance policies and 401(k) accounts, and max out credit cards to keep sending money. One transaction specifically tied to Agyemang's guilty plea involved laundering $32,000 in fraud proceeds in 2022. He was charged federally in April 2024, pleaded guilty in September 2025 to conspiracy to commit money laundering, and was sentenced on March 10, 2026 to more than three years in federal prison; the court ordered him to pay nearly $1.4 million in restitution to identified victims, plus roughly $20,800 to the Small Business Administration after investigators found he had separately used a fraudulently obtained Paycheck Protection Program loan for personal expenses. Anyone building a relationship with someone met only online, particularly one that has never included an in-person meeting, should be highly skeptical of any request to wire money into an account or business they cannot independently verify, and should ask a bank teller or a trusted family member to review the situation before sending funds tied to a medical emergency or investment opportunity raised by an online partner.`,
+    categorySlug: 'romance-scams',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office, Southern District of Ohio", 'FOX19 (Cincinnati)'],
+    sourceUrl: 'https://www.fox19.com/2026/03/10/cincinnati-man-sentenced-international-laundering-romance-scam/',
+    country: 'US',
+    state: 'OH',
+    isHistorical: true,
+    firstRecorded: '2020-06-01',
+});
