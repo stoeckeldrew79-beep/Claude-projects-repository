@@ -6790,6 +6790,34 @@ UsGM.push({
 });
 
 UsGM.push({
+    name: 'Eagle Vendor Invoice Fraud and Tax Evasion (Miles Elletson)',
+    slug: 'idaho-eagle-elletson-vendor-invoice-fraud',
+    description: `Miles Elletson, 55, of Eagle, Idaho, held a position of trust at Alloway Electric, a Garden City contracting company, that let him sign checks on the business's behalf — and between June 2017 and December 2020 he used that authority to defraud his own employer. Elletson entered false work-order entries and submitted fraudulent invoices claiming that a company he secretly controlled, Advanced Purchasing Services LLC, had performed work or supplied materials for Alloway Electric, then signed off on the checks issued to pay those fake invoices himself, diverting approximately $478,013 from the business over the four-year span. He also filed false federal tax returns that concealed the income, shorting the IRS $161,354. Elletson pleaded guilty on June 11, 2025 to wire fraud and filing false tax returns, and on April 18, 2026, Senior U.S. District Judge B. Lynn Winmill sentenced him to 52 months in federal prison and two years of supervised release, ordering him to pay $161,354 in restitution to the IRS. The case is a reminder that vendor fraud doesn't require an outside hacker or a spoofed email — an employee with check-signing authority can invent a paper vendor entirely on their own — so a business can guard against it by requiring a second, independent employee to approve any new vendor added to its accounts-payable system and by periodically matching invoices from smaller or newer suppliers against goods actually delivered or work actually completed.`,
+    categorySlug: 'business-email-compromise',
+    alertLevel: 'medium',
+    sources: ["U.S. Attorney's Office, District of Idaho", 'East Idaho News'],
+    sourceUrl: 'https://www.eastidahonews.com/2026/04/eagle-man-sentenced-for-defrauding-garden-city-business-irs/',
+    country: 'US',
+    state: 'ID',
+    isHistorical: true,
+    firstRecorded: '2017-06-01',
+});
+
+UsGM.push({
+    name: 'Mount Rainier Fake Pit Bull Puppy Sales Scheme (Fonjeck Eric Azoh)',
+    slug: 'maryland-mount-rainier-azoh-puppy-scam',
+    description: `Between January 2019 and October 2020, Fonjeck Eric Azoh, 42, of Mount Rainier, Maryland, advertised pit bull puppies for sale on various pet-sale and classifieds websites, agreeing to ship dogs to buyers around the country that he never actually had or intended to provide. He directed victims to send payment through money-transfer services, which he then collected in person at retail locations, and once a victim had paid, he would frequently come back asking for more money to cover supposed "unanticipated expenses," like higher transportation costs for an animal that was never going to arrive. Azoh generated at least $158,000 in money transfers from more than 100 victims before he was caught. He pleaded guilty to wire fraud in August 2021, and in November 2021 was sentenced to 30 months in federal prison, ordered to pay $158,000 in restitution, and required to forfeit $67,000 already seized from him by law enforcement plus an additional $92,000 forfeiture money judgment. Anyone buying a puppy advertised online, especially a specific breed at a price that seems low, should insist on a video call to see the actual puppy and the actual seller before paying anything, should never send money through a wire transfer or money-transfer service to someone they have not met, and should treat a request for extra money after the first payment — framed as an unexpected shipping, crating, or insurance fee — as a sign the "puppy" never existed in the first place.`,
+    categorySlug: 'pet-sales-scams',
+    alertLevel: 'medium',
+    sources: ["U.S. Attorney's Office for the District of Columbia", 'WTOP News'],
+    sourceUrl: 'https://wtop.com/prince-georges-county/2021/11/prince-georges-co-man-sentenced-in-158k-pit-bull-scam/',
+    country: 'US',
+    state: 'MD',
+    isHistorical: true,
+    firstRecorded: '2019-01-01',
+});
+
+UsGM.push({
     name: "Butte Guardian's Embezzlement of a Blind Ward's Life Savings (Debra Roeber)",
     slug: 'montana-butte-debra-roeber-guardian-embezzlement',
     description: `Debra Gean Roeber, of Butte, Montana, was appointed guardian and conservator for an elderly, blind woman — identified in court records only as Jane Doe — who was unable to care for herself or manage her own finances without help. From January 2017 until June 2020, Roeber used that court-granted authority to steal $661,549 from her ward's accounts, spending the money on construction projects at lake property she owned at Canyon Ferry, vehicles, furniture, and a pontoon boat, along with straight cash withdrawals — none of it authorized by or for the benefit of the woman she was supposed to be protecting. Investigators said Roeber admitted she lied "a lot" to Doe, who has since died, to keep the theft from being discovered. Roeber pleaded guilty in April 2022 to wire fraud and money laundering, and on August 10, 2022, U.S. District Judge Dana L. Christensen sentenced her to one year and one day in federal prison, followed by three years of supervised release, and ordered her to pay the full $661,549 back in restitution. "Our office and our law enforcement partners will not tolerate elder abuse, and we will be steadfast in our commitment to protect our most vulnerable friends and neighbors," said then-U.S. Attorney Jesse Laslovich, whose office prosecuted the case with the FBI and IRS Criminal Investigation. A court-appointed guardianship is meant to protect someone who cannot protect themselves, so family members, friends, or a bank that handles accounts for a ward under guardianship should ask the court how to request a copy of the guardian's required periodic accounting, and should treat a guardian's reluctance to produce bank statements or receipts as a reason to raise concerns with the court directly rather than waiting for a problem to surface on its own.`,
