@@ -6115,3 +6115,31 @@ UsNS.push({
     state: 'NV',
     firstRecorded: '2026-06-10',
 });
+
+UsNS.push({
+    name: 'New Jersey "Almax Financial Solution" Fake Recovery Website Impersonating a Broker-Dealer',
+    slug: 'new-jersey-almax-financial-solution-broker-dealer-recovery-scam',
+    description: `The New Jersey Bureau of Securities ordered the operators of almaxfinancialsolution.com to cease and desist on July 1, 2024, after finding the site was impersonating a real, New Jersey-registered broker-dealer as part of an "asset recovery" scheme aimed squarely at people who had already lost money in a prior investment scam. The site held itself out as a "recovery intelligence firm" able to help victims get their money back, borrowing the legitimate firm's actual New Jersey address while also listing fabricated additional office addresses in New Jersey and the United Kingdom, and featured fake client testimonials paired with stock photos attached to invented names to look established and trustworthy. Once a prior scam victim made contact, the operators pressured them to send further payments in cryptocurrency to cover supposed "recovery" costs — compounding the original loss with a second one. Bureau of Securities Chief Elizabeth M. Harris said "this case illustrates the lengths to which scammers will go to trick investors into throwing good money after bad to recoup their losses." The domain had previously been administratively suspended in April 2023 for abusive registration practices before being reregistered, and it went inactive after April 1, 2024, but the Bureau's order warns the same recovery-scam playbook — impersonating a real, checkable financial firm to re-target known fraud victims — can resurface under a new name and web address. Anyone approached with an unsolicited offer to recover money lost to a prior scam is advised to independently verify any firm's identity and registration through the SEC's or FINRA's BrokerCheck tools or by calling the New Jersey Bureau of Securities directly at 1-866-I-INVEST (1-866-446-8378) before paying anything or sharing further financial information.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'high',
+    sources: ['New Jersey Bureau of Securities', 'New Jersey Office of the Attorney General'],
+    sourceUrl: 'https://www.njoag.gov/nj-bureau-of-securities-orders-website-to-cease-and-desist-impersonating-a-broker-dealer-in-internet-investment-recovery-scheme/',
+    country: 'US',
+    state: 'NJ',
+    isHistorical: true,
+    firstRecorded: '2024-07-01',
+});
+
+UsNS.push({
+    name: 'New Jersey Deed Fraud and Seller-Impersonation Property Theft Scheme',
+    slug: 'new-jersey-sci-deed-fraud-seller-impersonation-scheme',
+    description: `The New Jersey State Commission of Investigation (SCI) delivered a report to Governor Mikie Sherrill and the Legislature on September 10, 2026 warning that deed fraud is a fast-growing, under-addressed threat to New Jersey property owners. In this scheme, a fraudster impersonates a property's real owner — often using a forged notarization, a stolen identity, or a remote closing conducted entirely by email and video call — to transfer title and record a new deed in a different name, frequently targeting vacant land, rental property, or homes belonging to an owner who lives out of state or has recently died, so the theft goes unnoticed until a tax bill, foreclosure notice, or buyer shows up. The FBI identified at least 135 reported New Jersey incidents between 2020 and early March 2026, the second-highest total of any state behind Florida, with cases concentrated in Sussex, Bergen, Cape May, and Ocean counties; the SCI, drawing on interviews with all 21 county clerks' and prosecutors' offices along with real estate agents, title professionals, and victims, said the true number is very likely higher than what gets formally reported. Because New Jersey's current recording system mostly just notifies an owner after a fraudulent deed has already been filed, the SCI report recommends stricter identity verification for real estate agents, notaries, and attorneys handling property transfers, a voluntary property title-freeze system modeled on credit freezes, county-level property-alert notifications, and expedited court procedures so victims can undo a fraudulent transfer before the property is resold or mortgaged out from under them. Property owners — especially those who own land or a home they don't visit or check on regularly — are advised to sign up for their county clerk's property-fraud alert service where one exists and to treat any unexpected notice, tax bill, or contact about their property as a reason to check the deed record directly with the county clerk's office.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'high',
+    sources: ['New Jersey State Commission of Investigation', 'New Jersey Monitor', 'New Jersey Globe'],
+    sourceUrl: 'https://www.nj.gov/sci/',
+    country: 'US',
+    state: 'NJ',
+    isHistorical: true,
+    firstRecorded: '2026-09-10',
+});
