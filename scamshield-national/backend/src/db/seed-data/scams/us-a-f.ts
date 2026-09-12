@@ -7482,3 +7482,17 @@ UsAF.push({
     sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2026/01/can-you-spot-fake-loan-text-scam',
     country: 'US',
 });
+
+UsAF.push({
+    name: 'Florida Forged Professional Engineer Seal Freelance-Marketplace Scheme',
+    slug: 'florida-forged-engineer-seal-freelance-marketplace-scheme',
+    description: `The Florida Board of Professional Engineers has been warning licensees since at least its April 2025 newsletter about a growing wave of credentials forgery in which fraudsters lift a real, licensed engineer's name and PE license number — both public information — and advertise "engineering" services on freelance marketplaces including Fiverr, Freelancer, Guru, PeoplePerHour, and Upwork, then sell stamped drawings or reports the named engineer never actually prepared or reviewed. In some cases the Board has found a deceased engineer's credentials exploited for years after their death, since nothing about a routine license lookup flags that the named holder has died, while other schemes simply reuse an old, legitimately signed and sealed document — sometimes retained by a former employer or colleague — by lifting its signature and seal information onto entirely new, unrelated plans. "The risk of credentials forgery is growing, and as a licensed Professional Engineer, you should be proactive," the Board's alert states, urging engineers to monitor freelance sites for unauthorized use of their name or license number, keep physical and digital seals secured, and avoid circulating unprotected digital copies of signed and sealed documents that could later be lifted and reused. The Nebraska Board of Engineers and Architects has documented the identical national pattern and, citing "an increase in the unauthorized and fraudulent use of professional seals" through online freelance marketplaces, went as far as removing individual license numbers from its own public licensee lookup so scammers can no longer harvest them there, directing anyone who needs to verify a specific engineer or architect to contact the Board's office directly instead. A property owner, contractor, or building official relying on stamped engineering plans obtained through an unusually cheap freelance listing — or from someone unwilling to meet, provide direct contact information, or produce an unaltered original seal — should verify the engineer's identity and license status directly with the state board before relying on the work for anything affecting public safety; Florida licensees who suspect their credentials have been misused can reach the Board's investigator, Wendy Anderson, at (850) 521-0500 ext. 119, or report the forgery at ic3.gov.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'high',
+    sources: ['Florida Board of Professional Engineers', 'Nebraska Board of Engineers and Architects'],
+    sourceUrl: 'https://fbpe.org/credentials-forgery-continues-to-be-a-problem-for-florida-pes/',
+    country: 'US',
+    state: 'FL',
+    isHistorical: true,
+    firstRecorded: '2025-04-01',
+});
