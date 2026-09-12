@@ -6353,19 +6353,6 @@ UsGM.push({
 });
 
 UsGM.push({
-    name: 'Maryland Judiciary Fake Court Summons Toll-Violation Text Scam',
-    slug: 'maryland-judiciary-fake-court-summons-toll-text-scam',
-    description: `The Maryland Judiciary issued a consumer warning on February 26, 2026 about text messages impersonating a "Maryland Court Summons" over an unpaid toll violation, complete with a fabricated court date and time, a QR code, and the names of real Baltimore-area courthouses — including the Wabash, Hargrove, Hubbard, and Eastside district court buildings and the old Civil Courthouse at 501 East Fayette Street — to make the fake notice look authentic. The messages threaten recipients with "the issuance of a bench warrant, additional fines and court action" if they fail to appear, then direct them to click a link or scan the QR code to pay online, a mechanism designed to harvest payment information rather than resolve any real case. Maryland court officials stated flatly that "Maryland courts do not send texts requesting payment or personal information via text, telephone, or email," and that no legitimate summons is ever delivered by text message regardless of how official the court names or QR code appear. Anyone who receives a message like this is advised not to click the link or scan the code, not to provide any payment or personal information, and to verify any genuine court matter by contacting their local district or circuit court office directly, or by calling the Attorney General's Consumer Protection Division hotline at 410-528-8662 or toll-free at 888-743-0023.`,
-    categorySlug: 'government-impersonation',
-    alertLevel: 'high',
-    sources: ['Maryland Judiciary', 'FOX45 Baltimore (WBFF)'],
-    sourceUrl: 'https://foxbaltimore.com/news/local/maryland-judiciary-warns-text-scam-toll-violations-directs-recipients-court-baltimore',
-    country: 'US',
-    state: 'MD',
-    firstRecorded: '2026-02-26',
-});
-
-UsGM.push({
     name: 'Pepco Fake In-Home Electrical-Emergency Repair Scam',
     slug: 'maryland-pepco-in-home-electrical-emergency-scam',
     description: `The Prince George's County Police Department's Financial Crimes Unit warned residents on April 2, 2026 about scammers posing as Pepco employees who show up unannounced at homes — typically targeting elderly residents — claiming "an alarm or system alert has detected a dangerous electrical issue" that requires immediate repair. Once let inside, the impostors convince the homeowner that serious, urgent electrical work is needed and press them to write a check on the spot for repairs that are never actually performed. Police tallied one 2025 case with an $18,500 loss and three reports so far in 2026, including one completed theft of $8,300 and two attempts that were stopped before money changed hands. Pepco itself rejected the premise of the scam outright, telling reporters, "No, we would never ask to come into a customer's home... If there's any emergent work... that is typically done... on the curb, not in a customer's home." The same unit also flagged a related "carrier scam" impersonating federal agents that pushed victims toward cash withdrawals or cryptocurrency ATMs, with three reports totaling more than $105,000 in losses in the month before the alert. Residents are advised to never let an unannounced utility worker inside without independently verifying their identity by calling Pepco directly, to never hand over cash, checks, gift cards, or cryptocurrency to someone who shows up at the door, and to report suspicious visits to Prince George's County Police at 301-516-1464 or to Crime Solvers at 1-866-411-TIPS.`,
