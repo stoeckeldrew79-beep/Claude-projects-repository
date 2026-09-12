@@ -6027,3 +6027,25 @@ On May 18, 2026, Giri — by then 31 — was sentenced to nine years in federal 
     sourceUrl: 'https://www.justice.gov/opa/pr/ohio-investment-manager-sentenced-nine-years-10m-cryptocurrency-ponzi-scheme',
   },
 );
+
+// No rights-cleared photo of Austin has surfaced — this is a settled civil
+// SEC matter with no booking photo or Wikimedia Commons portrait available,
+// so sourceUrl serves as the "read the full story" link instead of a photo.
+NotoriousNS.push(
+  {
+    title: 'Parker Terrill Austin: The Advisor Who Stole Client Files and Lied About Why His Old Firm Fired Him',
+    slug: 'parker-terrill-austin-embarcadero-capital-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    body: `Note: this is a settled civil SEC enforcement action. Austin and Embarcadero consented to final judgments without admitting or denying the SEC's allegations, and the conduct described below reflects the government's complaint rather than a criminal conviction or a court's factual findings after trial.
+
+Parker Terrill Austin worked as an investment adviser at a California firm while, according to the Securities and Exchange Commission, secretly planning to leave and start a competing advisory business of his own. Before he went, the SEC's complaint alleges, Austin forwarded his own clients' nonpublic personal information — names, account balances, addresses, phone numbers, email addresses, and the fees they were charged — from his work email to his personal account, and at least once passed that information along to his future business partner. The complaint further alleges that while still at his old firm, Austin breached his fiduciary duty to at least one client by placing that client's money into investments the client had specifically told him not to make.
+
+Austin was terminated, and shortly afterward launched his own registered investment advisory firm, Embarcadero Capital Advisors, Inc. According to the SEC, he then used the client data he had taken to solicit his former firm's customers to follow him to Embarcadero — and, in Embarcadero's public-facing website and in the disclosure filings the firm was required to make with the SEC, misrepresented both his disciplinary history and the true circumstances of his termination from his previous employer.
+
+The SEC filed civil fraud charges against Austin and Embarcadero in the U.S. District Court for the Central District of California, alleging violations of the antifraud provisions of the Investment Advisers Act of 1940 and Regulation S-P's restrictions on disclosing clients' nonpublic personal information. On August 19, 2026, the court entered final judgments against both defendants, who consented without admitting or denying the allegations. Austin was ordered to pay a $118,225 civil penalty and barred for three years from acting as a broker, dealer, or investment adviser; Embarcadero was ordered to pay $25,000 in disgorgement plus $2,505.06 in prejudgment interest and a separate $120,000 civil penalty, along with a permanent injunction against future violations.
+
+Austin's case is a reminder that the fraud in "stealing clients" isn't just the data taken on the way out the door — it's what a departing adviser tells the people he's recruiting once he's gone. Taking a client list is a data-handling violation; telling prospective clients a sanitized version of why your last firm let you go, in the same filings regulators rely on to vet an adviser's fitness, is what turns a departure into the kind of securities fraud the SEC will still be litigating years later.`,
+    sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26631',
+  },
+);
