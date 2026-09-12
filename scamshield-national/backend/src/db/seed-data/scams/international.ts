@@ -17404,3 +17404,46 @@ International.push(
     country: 'LB',
   },
 );
+
+International.push(
+  {
+    name: 'Fake "Diia" App Phishing Site',
+    slug: 'ukraine-fake-diia-app-phishing-site',
+    description: `Ukraine's official "Diia" digital-government portal and app — used by millions of Ukrainians for identity documents, tax filings, and other state services — was impersonated by a fraudulent website built with a domain designed to look like the real diia.gov.ua address. The fake site told visitors their browser needed to download a Diia application directly from the page, a request that runs directly against how the genuine service actually works, since the real Diia app is distributed only through the official App Store and Google Play listings and the only authentic web address is diia.gov.ua. Anyone who followed the prompt and installed the fake application risked handing over the kind of personal and document data Diia legitimately holds. The Diia development team discovered and publicized the scheme through its own Telegram channel on June 8, 2026, stating the malicious resource had already been blocked, and urged Ukrainians to install the app only from official marketplaces, to type the diia.gov.ua address in manually rather than following a link, and to treat any "install from browser" prompt claiming to be Diia as fraudulent.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Diia (Ukraine state digital services)', 'UNN (Ukrainian National News)'],
+    sourceUrl: 'https://unn.ua/en/news/scammers-disguise-themselves-as-diia-ukrainians-warned-of-new-phishing-scheme',
+    country: 'UA',
+  },
+  {
+    name: 'Nova Poshta "Fake Audit Error" Phishing Email Scam',
+    slug: 'ukraine-nova-poshta-fake-audit-phishing-scam',
+    description: `Ukraine's largest private delivery operator, Nova Poshta, warned customers and business clients on July 23, 2026 about a phishing campaign sending emails made to look like official Nova Poshta correspondence, falsely claiming an audit had turned up reporting discrepancies and warning the recipient could face a tax inspection unless they acted immediately. The messages pressure recipients to open an attachment supposedly needed to "correct" the invented errors, relying on the threat of a tax audit to make people click before thinking it through — the kind of urgency researchers say is the campaign's core tactic, with the company noting the criminals "write about invented audit errors, apply pressure through urgency and demand opening attachments to make corrections." Nova Poshta said its cybersecurity team was working to shut the campaign down and coordinating with internet service providers to limit the fraudsters' reach, and advised recipients to check the sender's actual email address against Nova Poshta's real domains, never open an unexpected attachment or link, change their password and enable two-factor authentication if they believe they clicked through, and mark any such message as spam and delete it rather than replying.`,
+    categorySlug: 'phishing',
+    alertLevel: 'high',
+    sources: ['Nova Poshta', 'LB.ua'],
+    sourceUrl: 'https://lb.ua/society/2026/07/23/753972_noviy_poshti_poperedili_pro.html',
+    country: 'UA',
+  },
+  {
+    name: '"Drone Pyramid" Fake Military-Drone Advance-Payment Scheme',
+    slug: 'ukraine-drone-pyramid-fake-military-drone-scam',
+    description: `An organized fraud ring advertised drones for sale to volunteers, soldiers, and charitable and public organizations trying to equip units of the Armed Forces of Ukraine, pricing the drones 20-25% below market rate to draw in buyers and fulfilling a handful of early orders to build trust before taking payment for further orders and never delivering. Ukraine's National Police announced on February 15, 2024 that the scheme had drawn in 92 victims from across the country, who collectively transferred over 45 million hryvnia (roughly $1.1 million) by cash, bank card, cryptocurrency wallet, and business-account transfers, in exchange for more than 600 drones of various types that were never delivered. Investigators said the two women running the operation laundered the proceeds through fictitious purchases of auto parts, textiles, and tourist services that were never actually received, and that the pair had a documented history of exploiting wartime hardship for fraud, having previously sold non-existent Starlink satellite-internet terminals during blackouts and fake fuel vouchers during Ukraine's 2023 fuel crisis. Police carried out seven searches across Kyiv, Odesa, and Volyn oblasts, seizing roughly 4.5 million hryvnia in assets and freezing a further 28.6 million hryvnia in linked accounts, with the suspects facing organized-fraud charges under Article 190 of Ukraine's Criminal Code carrying up to 12 years in prison. Authorities urge anyone crowdfunding military equipment to buy only from sellers who can be independently verified, to be wary of any offer priced conspicuously below market rate, and to avoid paying in full for large orders from an unverified seller regardless of how urgent the cause feels.`,
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'high',
+    sources: ['National Police of Ukraine', 'Ukrinform'],
+    sourceUrl: 'https://www.ukrinform.ua/rubric-society/3827809-pravoohoronci-vikrili-sahraiv-aki-vimanili-45-miljoniv-pid-privodom-prodazu-droniv-dla-zsu.html',
+    country: 'UA',
+  },
+  {
+    name: 'Ukraine-Based Fake Discount Storefront Phishing Ring',
+    slug: 'ukraine-fake-discount-storefront-phishing-ring',
+    description: `A criminal group operating out of Ukraine built more than 100 fake e-commerce websites offering popular products at steep, below-market discounts to shoppers across France, Spain, Poland, Czechia, Portugal, and other European Union countries, then used the payment-card details victims entered to complete their "orders" to drain their bank accounts directly, rather than ever shipping any goods. The operation ran two call centers, in Vinnytsia and Lviv, staffing them with operators whose job was to talk hesitant visitors into completing a purchase on the fraudulent sites. Ukraine's Cyber Police, working with law enforcement in Czechia, announced the takedown on March 31, 2023, reporting that the ring had defrauded more than 1,000 victims out of a combined 160 million hryvnia (about $4.33 million). Officers carried out more than 30 searches, arresting two suspected organizers in Ukraine while ten further affiliates were detained across the EU, and seized mobile phones, SIM cards, and computer equipment as evidence; those charged face up to 12 years in prison. The case illustrates a pattern consumer advocates warn about broadly: an unfamiliar online storefront advertising name-brand goods at prices far below what any legitimate retailer offers is a red flag, and shoppers should stick to well-established retailers or verify a new site's legitimacy — checking for a real street address, reviews outside the site itself, and secure payment options — before entering card details.`,
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'high',
+    sources: ['Cyber Police of Ukraine', 'The Hacker News'],
+    sourceUrl: 'https://thehackernews.com/2023/03/cyber-police-of-ukraine-busted-phishing.html',
+    country: 'UA',
+  },
+);
