@@ -3532,3 +3532,15 @@ UsTZ.push({
     state: 'WI',
     firstRecorded: '2026-02-11',
 });
+
+UsTZ.push({
+    name: 'Virginia DPOR "License Benefits" Phone Scam',
+    slug: 'virginia-dpor-license-benefits-phone-scam',
+    description: `The Virginia Department of Professional and Occupational Regulation (DPOR), which licenses professions ranging from contractors and real estate agents to cosmetologists and asbestos workers, warns that scammers are placing frequent calls to licensees offering supposed "license benefits" tied to their DPOR license. DPOR states unambiguously that it "will never call you with such an offer," and lists it alongside a broader pattern of fraud attempts the agency has cataloged, including emails impersonating DPOR staff that ask a recipient to sign or confirm receipt of a document, a spoofed DocuSign message purporting to come from DPOR's Board for Contractors, and other messages dangling grant funding or claiming to deliver a "secure message." The fraudulent emails typically arrive from ordinary consumer addresses — Gmail or Yahoo accounts — rather than DPOR's real "@dpor.virginia.gov" domain, and both the calls and emails can feel personal because a licensee's name, license number, and mailing address are all a matter of public record. DPOR advises any licensee contacted this way to hang up on the call or ignore the email, then reach the relevant board directly using a phone number looked up independently — never one supplied in the suspicious contact itself — and to ask for the caller's name, supervisor, and any case number before providing information; suspected fraud can be reported to DPOR at (804) 367-2956 or to the FTC at ReportFraud.ftc.gov.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Virginia Department of Professional and Occupational Regulation (DPOR)'],
+    sourceUrl: 'https://www.dpor.virginia.gov/Fraud',
+    country: 'US',
+    state: 'VA',
+});

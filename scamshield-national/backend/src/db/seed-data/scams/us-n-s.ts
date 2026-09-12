@@ -6090,3 +6090,28 @@ UsNS.push({
     state: 'RI',
     firstRecorded: '2025-10-22',
 });
+
+UsNS.push({
+    name: 'Nevada Dental Board License-Suspension Impersonation Scam',
+    slug: 'nevada-dental-board-license-suspension-impersonation-scam',
+    description: `The Nevada State Board of Dental Examiners warns dentists, dental hygienists, and dental assistants about scammers who impersonate Board staff, law enforcement, or other government officials to extort money from licensees. The callers, who reach targets by phone using a spoofed number designed to look like it's coming from the Board, or by email, text message, or letter, typically already have accurate personal details — the licensee's name, address, license number, and National Provider Identifier — which makes the contact feel credible. They falsely claim the licensee is "under investigation" or that their license faces immediate suspension or revocation, threatening arrest, professional discipline, or public action unless the person responds right away, then demand payment by wire transfer, gift card, prepaid card, or cryptocurrency, or ask outright for banking information, a Social Security number, or a date of birth. The Board states plainly that it will "never indicate to you that your license has already been suspended or revoked" over an unsolicited call and "would never ask for immediate payment," noting that any genuine notice of an investigation or disciplinary action arrives first as a written letter, not a phone call demanding money on the spot. Licensees who receive a contact like this are advised to hang up, verify their license status independently through the Board's own records, and report the attempt using the Board's fraud and scam contact form or the FBI's Internet Crime Complaint Center at ic3.gov.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Nevada State Board of Dental Examiners'],
+    sourceUrl: 'https://www.dental.nv.gov/licensee-resources--faqs/fraud--scam-alert/',
+    country: 'US',
+    state: 'NV',
+});
+
+UsNS.push({
+    name: 'Nevada DPBH Fake Prescription Investigation Call Scam',
+    slug: 'nevada-dpbh-fake-prescription-investigation-call-scam',
+    description: `The Nevada Division of Public and Behavioral Health (DPBH) warned in June 2026 about an ongoing series of phone calls in which scammers spoof caller ID to appear as DPBH employees and falsely tell whoever answers that their name was used to obtain a prescription in another state. The caller then pressures the target to visit an office in person, file a police report, or speak with a second caller posing as a law enforcement officer, using that manufactured urgency to try to extract payment or sensitive personal and medical information; the calls have reached both individual Nevadans and organizations that partner with DPBH, on both landlines and cell phones. DPBH Deputy Administrator Julia Peek said flatly that "DPBH will never contact our constituents through an unsolicited phone call to discuss personal benefit status, confirm prescription activity, or threaten to file a police report," and the agency confirmed it never transfers a caller to law enforcement over the phone. Nevadans who receive one of these calls are advised to hang up immediately rather than engage, and anyone who believes they may already have shared information with a caller is urged to contact local law enforcement directly.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Nevada Division of Public and Behavioral Health (DPBH)'],
+    sourceUrl: 'https://www.kolotv.com/2026/06/10/dpbh-warns-suspicious-calls-regarding-medical-information/',
+    country: 'US',
+    state: 'NV',
+    firstRecorded: '2026-06-10',
+});
