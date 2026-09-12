@@ -8647,3 +8647,28 @@ Lusher's case is a reminder that a fraud doesn't need an exotic asset class to w
     sourceUrl: 'https://www.irs.gov/compliance/criminal-investigation/new-jersey-man-sentenced-to-42-months-for-9-million-fraud',
   },
 );
+
+// Note: this profile describes pending federal criminal charges; Satary is
+// presumed innocent unless and until convicted. No rights-cleared photo has
+// surfaced — the FBI's Most Wanted Fraudsters poster and DOJ's photos of his
+// return to the U.S. are not published on Wikimedia Commons under a license
+// this collection can use, so sourceUrl serves as the "read the full story"
+// link instead of a photo.
+NotoriousGM.push(
+  {
+    title: 'Khalid Satary and the $547 Million Genetic-Testing Fraud That Took the FBI Three Years to Run Down',
+    slug: 'khalid-satary-medicare-genetic-testing-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    body: `Note: Khalid Satary faces pending federal criminal charges. An indictment is an accusation, not evidence of guilt, and he is presumed innocent unless and until convicted.
+
+From 2016 through 2019, prosecutors say, Khalid Ahmed Satary owned and operated a rotating network of diagnostic testing laboratories across the United States that billed Medicare for expensive, medically unnecessary cancer genetic tests — reimbursed by the program at $10,000 to $20,000 per sample. According to the Department of Justice, Satary built the pipeline of test samples by conspiring with dozens of patient recruiters, telemarketing call centers, and telemedicine companies, which used deceptive marketing campaigns and illegal kickbacks and bribes paid to doctors and recruiters to get Medicare beneficiaries — many of them elderly — to agree to genetic testing they did not need and, in many cases, never asked for. Prosecutors say the scheme ultimately billed Medicare more than $547 million, one of the largest health care fraud cases the Department has ever charged.
+
+A federal grand jury in the Eastern District of Louisiana indicted Satary in 2019, and he was released on bond while the case proceeded, despite the government's objections. That release didn't stop the alleged fraud: prosecutors say Satary, though barred from health care work as a bond condition, continued directing fraudulent Medicare billing through Houston-area laboratories operating under new names even after he was charged. He failed to appear for a court hearing in December 2022, and a federal judge issued a warrant for his arrest; from that point, Satary spent more than three years as a fugitive, with the government seizing 16 bank accounts and restraining real estate tied to the case in his absence.
+
+On June 4, 2026, the FBI added Satary to its newly created Most Wanted Fraudsters list, offering a reward of up to $150,000 for information leading to his capture. Fewer than seven weeks later, on July 20, 2026, he was arrested in the Middle East and found carrying a fake Mexican passport under an assumed identity; he was transferred to U.S. custody and made his initial appearance in the Eastern District of Virginia on July 21, 2026. He faces charges of conspiracy to commit health care fraud and wire fraud, health care fraud, conspiracy to defraud the United States and to pay and receive illegal health care kickbacks and bribes, and conspiracy to commit money laundering, carrying a combined statutory maximum of decades in prison. "This defendant allegedly orchestrated a massive fraud scheme that preyed on thousands of elderly patients," Acting Deputy Attorney General Todd Blanche said in announcing the arrest, adding a message aimed at anyone else who skips a court date: "we will find and prosecute you, no matter where you are." FBI Director Kash Patel called Satary "another subject who exploited a program dedicated to helping our most vulnerable and instead stole for himself." As of this writing, the case is pending trial and no plea has been entered.
+
+Satary's case is a reminder that an indictment and even a bond release are not the end of a fraud investigation — prosecutors allege he kept the same scheme running under new laboratory names while formally barred from the industry, and that a missed court date can turn a pending federal case into a multi-year, multi-continent manhunt. The FBI's Most Wanted Fraudsters list, created in 2026 specifically to publicize fraud fugitives, exists because of cases like this one: a defendant with the means and the motive to simply not come back for sentencing.`,
+    sourceUrl: 'https://www.justice.gov/opa/pr/notorious-fugitive-arrested-connection-547-million-medicare-fraud-scheme',
+  },
+);
