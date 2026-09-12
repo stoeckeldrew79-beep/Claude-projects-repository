@@ -377,4 +377,13 @@ export const SEED_GLOBAL_SOURCES: SeedGlobalSource[] = [
       "Israel's national cybersecurity agency, reporting to the Prime Minister's Office, runs the 24/7 119 hotline as the country's Computer Emergency Response Centre. Its annual summary report tallies the incident and scam reports the hotline handles — 26,500 in the 2025 edition, up 55% year-on-year, with phishing the single largest category at 52% — alongside alerts issued and organizations proactively notified of active attacks.",
     data_type: 'annual_report',
   },
+  {
+    agency_name: 'Authority of Information Security (NCSC) — Ministry of Information and Communications',
+    country: 'VN',
+    country_name: 'Vietnam',
+    url: 'https://beta-en.mic.gov.vn/over-220000-reports-of-online-fraud-received-in-vietnams-banking-sector-197241030085335181.htm',
+    description:
+      "Vietnam's Authority of Information Security, under the Ministry of Information and Communications, runs the National Cyber Security Center (NCSC), which operates a public online-fraud warning and reporting channel and maintains a national database of fraudulent websites. The Ministry periodically publishes national tallies drawn from these reports — over 220,000 online fraud reports were logged in the first ten months of 2024 alone, most tied to banking and financial scams.",
+    data_type: 'public_stats',
+  },
 ];
