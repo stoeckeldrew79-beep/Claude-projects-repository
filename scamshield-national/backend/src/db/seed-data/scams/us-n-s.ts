@@ -6238,3 +6238,31 @@ UsNS.push({
     isHistorical: true,
     firstRecorded: '2016-04-01',
 });
+
+UsNS.push({
+    name: 'Saipan "Yuki" Bitcoin Affinity Fraud Targeting Older Women (Sze Man Yu Inos)',
+    slug: 'northern-mariana-islands-bitcoin-affinity-fraud-inos',
+    description: `Sze Man Yu Inos, a 30-year-old Saipan woman known as "Yuki," ran a bitcoin-investment affinity-fraud scheme from November 2020 to January 2022 that, according to U.S. Attorney Shawn N. Anderson's office, began by targeting older women in Saipan and Guam before expanding to victims in Washington and California. Inos told victims she came from a wealthy family in mainland China and had made a fortune trading bitcoin, then spent months cultivating personal, almost familial relationships with her targets — the FBI said she frequently told them, "You are like my mom" — before using that trust to solicit money for supposed bitcoin investments that existed only as a pretext to take their funds. A federal jury convicted her of wire fraud, and the U.S. District Court for the Northern Mariana Islands sentenced her on April 23, 2026 to 71 months in federal prison, three years of supervised release, and 100 hours of community service, along with $769,355.67 in restitution and a separate $684,848.34 criminal forfeiture money judgment; prosecutors noted she kept running scams even after being charged. "Criminals engaged in affinity fraud prey on our willingness to trust others," U.S. Attorney Anderson said in the Justice Department's announcement. "This defendant chose to target older women across multiple jurisdictions, resulting in substantial financial losses. She continued her scams while this case was pending. The punishment imposed by the Court is well-deserved." The case is a reminder that a personal, even maternal-feeling relationship built in person over months — rather than through a dating app — is not evidence that a bitcoin "opportunity" is real: anyone asked to invest through a personal contact who claims outsized crypto-trading success should still demand independent, verifiable proof of where the money is actually going, such as a wallet address and transaction history they can check themselves, before sending anything.`,
+    categorySlug: 'cryptocurrency-scams',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office, Districts of Guam and the Northern Mariana Islands", 'FBI Honolulu Field Office', 'The Block'],
+    sourceUrl: 'https://www.justice.gov/usao-gu/pr/saipan-woman-sentenced-71-months-federal-prison-wire-fraud-scheme-targeting-multiple',
+    country: 'US',
+    state: 'MP',
+    isHistorical: true,
+    firstRecorded: '2020-11-01',
+});
+
+UsNS.push({
+    name: 'CNMI Bar Association Dues and Fee Diversion Scheme (Peonie Cabrera)',
+    slug: 'northern-mariana-islands-bar-association-dues-fraud-cabrera',
+    description: `Peonie Cabrera served as Executive Director of the Commonwealth of the Northern Mariana Islands Bar Association (also called the Northern Marianas Bar Association) starting in January 2019, a position of trust that gave her access to the CNMI Bar's operating, trust, and savings accounts along with members' annual dues and course-fee payments. According to the plea agreement she signed, Cabrera diverted CNMI Bar and members' funds for her own use through several separate channels between 2019 and 2023: on roughly 30 occasions she presented fraudulent payroll documents and paychecks for board members to sign, drawn on the Bar's Bank of Hawaii operating account and made payable to herself; she falsified a document to gain unauthorized signatory access to the Bar's Bank of Guam savings account and withdrew cash from it on about 13 occasions; and she redirected members' annual dues, course fees, and other payments — roughly 132 payments through a personal PayPal account, 86 through a personal Swipe Simple account, and four course-fee payments through a personal Square account — so that money members believed they were paying to the CNMI Bar instead went into accounts Cabrera personally controlled. Cabrera pleaded guilty before a federal magistrate judge in June 2024 to two counts of bank fraud and two counts of wire fraud, admitting to diverting between $150,000 and $250,000 total. District Court for the NMI Designated Judge Frances Tydingco-Gatewood sentenced her on December 10, 2024 to 18 months in prison on each count (to run concurrently), five years of supervised release, and $249,706.18 in restitution. The case is a reminder that a professional association's own staff can be the source of fraud against its members: dues, course fees, and other payments to a bar association, licensing board, or similar membership organization should only ever go to the organization's own published, board-verified payment channels, and a member asked to pay through an unfamiliar personal-sounding payment app should raise it directly with the organization's board rather than assume it's routine.`,
+    categorySlug: 'business-email-compromise',
+    alertLevel: 'medium',
+    sources: ['Marianas Variety News & Views', "U.S. Attorney's Office, Districts of Guam and the Northern Mariana Islands"],
+    sourceUrl: 'https://www.mvariety.com/news/local/former-cnmi-bar-official-gets-18-months-for-bank-fraud-wire-fraud/article_b43f9130-bbac-11ef-874b-13efc26fa938.html',
+    country: 'US',
+    state: 'MP',
+    isHistorical: true,
+    firstRecorded: '2019-04-04',
+});
