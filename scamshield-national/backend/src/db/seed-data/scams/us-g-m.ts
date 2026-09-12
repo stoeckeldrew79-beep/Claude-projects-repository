@@ -6718,3 +6718,17 @@ UsGM.push({
     isHistorical: true,
     firstRecorded: '2026-09-09',
 });
+
+UsGM.push({
+    name: 'Guam OTECH Payroll and Invoice Phishing Email Alert',
+    slug: 'guam-otech-payroll-invoice-phishing-alert',
+    description: `The Offices of Guam Homeland Security and Civil Defense (GHS/OCD), working with the Mariana Regional Fusion Center (MRFC) and Guam's Office of Technology (OTECH), issued a public advisory on February 13, 2026 warning residents and government employees about a wave of phishing emails built around workplace-sounding pretexts rather than the prize and lottery calls the office had warned about previously. The emails masquerade as internal IT requests, payroll update notices, and urgent "unpaid invoice" alerts, and rely on manufactured panic to get a recipient to click before thinking — sample lines the advisory flagged included "Your account will be deactivated in 1 hour" and "Unauthorized login attempt — click here now." OTECH stressed in the advisory that "OTECH will never ask you to provide your password or MFA codes via email or chat," making any message that does so, regardless of how official its formatting looks, an immediate red flag. The advisory's guidance was to verify the actual sender address rather than just the display name, to read a message's tone for artificial urgency before acting on it, to preview a link's real destination by hovering over it rather than clicking, and to use the "Report Phishing" button built into most email clients and then delete the message rather than replying to it. Residents and government employees who receive one of these emails are asked to report it to the Mariana Regional Fusion Center at (671) 475-0400 or mrfc@ghs.guam.gov, or to consult OTECH's own guidance at otech.guam.gov, rather than clicking through to verify the claim themselves.`,
+    categorySlug: 'phishing',
+    alertLevel: 'medium',
+    sources: ['Guam Homeland Security/Office of Civil Defense (GHS/OCD)', 'Mariana Regional Fusion Center (MRFC)', 'Office of Technology (OTECH), Government of Guam'],
+    sourceUrl: 'https://ghs.guam.gov/be-cautious-phishing-attempts-and-scam-messages',
+    country: 'US',
+    state: 'GU',
+    isHistorical: true,
+    firstRecorded: '2026-02-13',
+});

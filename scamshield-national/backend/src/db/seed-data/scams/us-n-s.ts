@@ -6626,3 +6626,17 @@ UsNS.push({
     isHistorical: true,
     firstRecorded: '2025-04-11',
 });
+
+UsNS.push({
+    name: 'Puerto Rico Hacienda Bribery and Dual Pandemic-Benefit Fraud Scheme (Nomar Mimbs-Machiavelo)',
+    slug: 'puerto-rico-mimbs-machiavelo-hacienda-bribery-pandemic-benefit-fraud',
+    description: `Nomar J. Mimbs-Machiavelo ran two separate pandemic-relief fraud schemes in Puerto Rico, according to federal prosecutors. From June through July 2020, he applied twice for Pandemic Unemployment Assistance (PUA) benefits using false Social Security numbers, illegally collecting approximately $18,114. Then, between January and May 2021, he conspired with employees of the Puerto Rico Department of Treasury (Hacienda) to obtain privileged access to taxpayer records in the agency's Unified Internal Revenue System, paying bribes that included cash and free meals in exchange for the compromised access. Using taxpayer credentials the bribed Hacienda employees altered on his behalf, Mimbs-Machiavelo submitted fraudulent applications to the Business Interruption Grant (BIG) program, a U.S. Treasury Coronavirus Relief Fund initiative meant for eligible small businesses, causing Hacienda to disburse roughly $492,045 to bank accounts tied to the scheme, with about $148,000 of that traced directly to the compromised credentials. He was arrested on May 23, 2023, and pleaded guilty on April 3, 2025 to conspiracy to defraud the United States and theft of government property; U.S. District Judge Silvia Carreño-Coll sentenced him on April 27, 2026 to 18 months in prison and ordered $219,159 in restitution — $18,114 to the Puerto Rico Department of Labor and Human Resources for the PUA fraud and $201,045 to the Puerto Rico Treasury Department for the BIG grant scheme. The Social Security Administration's Office of Inspector General investigated the case with the FBI, the U.S. Department of Labor's Office of Inspector General, the U.S. Postal Inspection Service, and the Puerto Rico Police Department. The case illustrates how a pandemic relief program's fraud risk isn't limited to outside applicants lying on a form — it also depends on the integrity of the government employees who control access to the taxpayer data used to verify those applications, and a bribe as small as a free meal can be the point of failure that lets someone bypass verification entirely and drain hundreds of thousands of dollars meant for small businesses that actually needed the help.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'medium',
+    sources: ['Social Security Administration Office of the Inspector General', "U.S. Attorney's Office, District of Puerto Rico", 'NotiUno'],
+    sourceUrl: 'https://oig.ssa.gov/news-releases/2026-04-27-individual-sentenced-to-18-months-in-prison-for-conspiracy-to-defraud-the-united-states-and-theft-of-government-property/',
+    country: 'US',
+    state: 'PR',
+    isHistorical: true,
+    firstRecorded: '2026-04-27',
+});
