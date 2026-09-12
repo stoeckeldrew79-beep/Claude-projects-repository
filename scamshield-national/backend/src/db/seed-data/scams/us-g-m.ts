@@ -6166,3 +6166,59 @@ UsGM.push({
     isHistorical: true,
     firstRecorded: '2025-04-01',
 });
+
+UsGM.push({
+    name: 'Government of Guam Retirement Fund Phishing and Wire Fraud',
+    slug: 'guam-retirement-fund-phishing-wire-fraud',
+    description: `The Government of Guam Retirement Fund's own FY2024 audited financial statements, released through Guam's Office of Public Accountability, disclosed that during the fiscal year ended September 30, 2024, a GGRF employee's email account was compromised by a hacker via phishing, and the hacker used that access to send fraudulent "change of contact instructions" that resulted in unauthorized payments going out of the fund. Of the $378,000 in unauthorized payments, GGRF recovered only $69,000; the remaining $309,000 was booked as a loss under miscellaneous expenses, and the fund's independent auditors flagged that the fraudulent transactions had occurred outside normal business hours, including on weekends, a pattern that went unnoticed until after the money was gone. GGRF has been in communication with the local office of the FBI, but the audit noted no additional recoveries had been made as of its release. Despite the loss, auditors still gave GGRF's financial statements a clean opinion — its 19th consecutive year without a finding of material weakness in internal controls — a reminder that a passing audit opinion on an organization's books is not the same as proof that a single compromised inbox can't still cost real money. GGRF, along with its bank and information-technology provider, has since added additional layers of security to guard against a repeat. Unlike a classic business-email-compromise scam that tricks an outside victim into wiring money to a fraudster directly, this incident shows how one compromised internal email account was enough to redirect payments the fund believed were still going where they always had. Any organization that processes recurring outgoing payments — a pension fund, a government agency, or a private business — should require a callback to a known, independently verified phone number before honoring any emailed request to change payment or contact instructions on file, since an email alone, even from what looks like a legitimate internal account, is not a safe channel to authorize that kind of change.`,
+    categorySlug: 'business-email-compromise',
+    alertLevel: 'medium',
+    sources: ['Government of Guam Retirement Fund (FY2024 Audited Financial Statements)', 'Office of Public Accountability (OPA) — Guam', 'KUAM News'],
+    sourceUrl: 'https://www.opaguam.org/financial-audits/opa-has-released-government-guam-retirement-funds-fund-fy-2024-financial-statements',
+    country: 'US',
+    state: 'GU',
+    isHistorical: true,
+    firstRecorded: '2025-07-06',
+});
+
+UsGM.push({
+    name: "Guam Pandemic Unemployment Assistance Insider Fraud Conspiracy",
+    slug: 'guam-pua-insider-fraud-conspiracy',
+    description: `A federal grand jury in the District Court of Guam indicted seven people on June 26, 2025 — including two Guam Department of Labor (GDOL) employees and several relatives and associates of Lt. Gov. Josh Tenorio — over an alleged conspiracy to fraudulently obtain approximately $1.9 million in Pandemic Unemployment Assistance (PUA) benefits between July 2020 and September 2021. According to the indictment, Tenorio's sister Charissa Tenorio, her partner Frankie Rosalin, Rosalin's mother Tina Sanchez, and Winnie Jo Santos — all connected to a landscaping business, Comfort Cuts and Ground Maintenance LLC — had employees fill out PUA applications falsely claiming they had been laid off or furloughed, even though Comfort Cuts kept the same workers on the job and simply stopped paying them regular wages, treating their pandemic unemployment checks as payment for continued work instead. Matthew Topasna, romantically linked to the lieutenant governor, is accused of running the identical scheme through his food-truck business, Haute Dog & Company, including for at least one applicant who had already left Guam for college. The scheme's inside access came from Kathleen Peredo, GDOL's PUA program manager, and GDOL staffer Marlene Pinaula, who are accused of using their ability to view, modify, and approve applications in the agency's HireGuam system to push the fraudulent claims through, hold the resulting benefit checks back from the mail, and hand-deliver them directly to the conspirators, who then directed recipients to turn over half or more of each payment in cash. The seven defendants face conspiracy to commit wire fraud, nine counts of wire fraud, conspiracy to commit mail fraud, eighteen counts of mail fraud, federal program theft, money laundering, and two counts of witness tampering; a superseding indictment in November 2025 added fifteen additional money-laundering counts and a new money-laundering conspiracy charge. The case is a reminder that public-benefits fraud isn't only committed by outside scammers phishing for account numbers — it can also come from the inside, when someone with legitimate administrative access to a benefits system uses it to push through applications for friends, relatives, or business associates; anyone who suspects an employer is pressuring workers to file for unemployment while continuing to work, or knows of a government employee approving benefits for people they have a personal relationship with, can report it to the FBI or the U.S. Department of Labor's Office of Inspector General.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'medium',
+    sources: ['The Guam Daily Post (postguam.com)', 'KUAM News'],
+    sourceUrl: 'https://www.postguam.com/news/local/7-indicted-in-pua-fraud-conspiracy/article_8b81437f-cd53-4729-8610-dcf73953cc84.html',
+    country: 'US',
+    state: 'GU',
+    isHistorical: true,
+    firstRecorded: '2025-06-26',
+});
+
+UsGM.push({
+    name: 'Territorial Bank of American Samoa ATM Cash-Trapping Scam',
+    slug: 'american-samoa-tbas-atm-cash-trapping-scam',
+    description: `The Territorial Bank of American Samoa (TBAS) confirmed in early January 2026 that a cash-trapping device had been found on one of its ATMs at the Laufou Shopping Center in Nu'uuli, after customers began describing the same experience on social media: a withdrawal that produced a receipt showing a successful transaction, but no cash actually came out of the machine. In a cash-trapping scheme, someone fits the machine's cash-dispenser slot with a sleeve of tape or a similar adhesive lining so bills are pulled partway out but never fully released to the customer; the machine still records the withdrawal as successful, and the customer — assuming a malfunction — typically walks away rather than reporting it on the spot, leaving the trapped cash for the person who planted the device to retrieve afterward. TBAS President Owen Perry confirmed the bank's awareness of the issue, saying "upon learning about the issue, the bank quickly contacted the Department of Public Safety and is cooperating fully while conducting an internal review." The bank is urging any customer who experiences a failed or incomplete withdrawal, or who notices anything unusual about an ATM's card slot or cash dispenser — tape, a loose panel, or an attachment that doesn't look original to the machine — to contact TBAS immediately rather than leaving the ATM and assuming the money is simply lost, since reporting a suspected trap before leaving the machine is what gives the bank a chance to recover the cash and identify who planted the device. Customers who do walk away from an ATM that appeared to fail should still call their bank right away, since a legitimate failed withdrawal is reversible on the bank's end while cash removed by a trap is not recovered through any normal dispute process.`,
+    categorySlug: 'account-takeover',
+    alertLevel: 'medium',
+    sources: ['Samoa News'],
+    sourceUrl: 'https://www.samoanews.com/local-news/cash-trapping-scam-discovered-local-bank-atm',
+    country: 'US',
+    state: 'AS',
+    isHistorical: true,
+    firstRecorded: '2026-01-05',
+});
+
+UsGM.push({
+    name: 'HUD Suspends Virgin Islands Housing Finance Authority Funding Over Fraud',
+    slug: 'virgin-islands-housing-finance-authority-hud-fraud-suspension',
+    description: `The U.S. Department of Housing and Urban Development announced on July 20, 2026 that it was immediately suspending all funding to the Virgin Islands Housing Finance Authority (VIHFA) after finding what it described as a pattern of fraud and financial mismanagement in the territory's use of federal disaster-recovery money. HUD said VIHFA had received $1.9 billion in Community Development Block Grant Disaster Recovery funding following the 2017 hurricanes, but nearly a decade later had spent less than a third of it — with only 2% of its Single-Family Rental Rehabilitation projects and none of its Single and Multifamily Housing projects completed — while separately seeking $6.2 million in reimbursement for disaster costs FEMA had already paid. HUD's Office of Inspector General had rated VIHFA's fraud-risk management processes "at or below the lowest desired goal state," and the agency's announcement cited false certifications VIHFA had submitted claiming it had an effective compliance program in place, evidence of administrative kickbacks, and the prior federal conviction of VIHFA's former Chief Operating Officer for fraud, money laundering, and criminal conflict of interest, who is currently serving a federal prison sentence. "Virgin Islands Housing Finance Authority officials cannot be allowed to prioritize kickbacks over helping families recover from disasters," HUD Secretary Scott Turner said in announcing the suspension, which HUD is pursuing in coordination with the White House Task Force to Eliminate Fraud. For Virgin Islands residents who have been waiting years for a disaster-recovery-funded home repair, rental rehabilitation, or new housing unit that VIHFA was supposed to deliver, the case is a reason for real skepticism toward any unsolicited call, text, or door-to-door contact claiming to speed up a stalled VIHFA application, offer to "release" delayed disaster-recovery funds for a fee, or ask for personal or banking information to move a housing case forward — HUD and VIHFA do not require payment to process a disaster-recovery housing application, and residents with questions about the status of an existing case should contact VIHFA directly through its official phone lines rather than a number provided by an unsolicited caller.`,
+    categorySlug: 'rental-housing',
+    alertLevel: 'medium',
+    sources: ['U.S. Department of Housing and Urban Development (HUD)'],
+    sourceUrl: 'https://www.hud.gov/news/hud-no-26-054',
+    country: 'US',
+    state: 'VI',
+    isHistorical: true,
+    firstRecorded: '2026-07-20',
+});
