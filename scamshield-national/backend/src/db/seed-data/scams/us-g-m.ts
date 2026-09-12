@@ -6248,3 +6248,29 @@ UsGM.push({
     state: 'ME',
     firstRecorded: '2025-11-25',
 });
+
+UsGM.push({
+    name: 'Hawaiian Electric QR-Code and Fake Work-Order Disconnection Scam',
+    slug: 'hawaii-heco-qr-code-fake-work-order-scam',
+    description: `Hawaiian Electric (HECO) warned customers on July 2, 2025 about a wave of scam calls concentrated on Oʻahu, after at least ten business customers reported the pattern since mid-June and two restaurant owners each lost more than $2,000 after paying through a fraudulent QR code. The calls come from a spoofed local number using the 458 area code prefix — when traced, one led to an unrelated utility's recording in New York — and the caller threatens to shut off electricity within the hour unless an overdue bill is paid immediately, sometimes providing a fake "work order" number and directing the customer to call a separate 800 number where a second scammer posing as a "field technician" demands payment for a supposed repair. Victims are pressured to scan a QR code on the spot, or to pay by gift card, wire transfer, prepaid debit card, or cryptocurrency, with some scammers even asking to meet in person to collect cash. "Scammers are constantly updating their arsenal, so it's critical for all customers to stay alert," said Hawaiian Electric Vice President of Customer Service Brendan Bailey. Hawaiian Electric stressed it never threatens immediate disconnection over the phone, never demands payment through a QR code, gift cards, or cryptocurrency, and always gives at least five days' notice by mail before any disconnection — so a customer who gets an urgent same-day shutoff call should hang up and call Hawaiian Electric directly using the number on a past bill, rather than any number or QR code the caller provides, and can report a suspected scam at hawaiianelectric.com/reportfraud.`,
+    categorySlug: 'utility-scams',
+    alertLevel: 'high',
+    sources: ['Hawaiian Electric', 'Maui Now'],
+    sourceUrl: 'https://mauinow.com/2025/07/02/hawaiian-electric-warns-of-scammers-using-qr-codes/',
+    country: 'US',
+    state: 'HI',
+    firstRecorded: '2025-07-02',
+});
+
+UsGM.push({
+    name: "Fake \"Hawaiʻi EBT Customer Service Line\" Phishing Robocall",
+    slug: 'hawaii-ebt-customer-service-line-phishing-scam',
+    description: `The Hawaii Department of Human Services (DHS) issued a statewide SNAP/financial fraud alert on May 27, 2024 after residents — reports concentrated in the urban Honolulu area of Oʻahu — began receiving automated phone calls from the number 1-866-264-2925 that open with the greeting "Welcome to the Hawaiʻi EBT Customer Service Line" before prompting the caller to key in their full 16-digit EBT card number. The number has no connection to Hawaii's actual EBT program, and anyone who enters their card number risks having their SNAP or cash-assistance benefits drained through card cloning shortly afterward. DHS reminded residents that no legitimate government agency will ever call, text, or email asking for a card number or PIN, and urged EBT cardholders to hang up immediately on any call matching this pattern rather than calling the number back. Cardholders were advised to check their account activity regularly, use a PIN other than an easily guessed number, change it periodically, and use the free Cardholder Portal at www.ebtEDGE.com or its mobile app to freeze and unfreeze their card and block out-of-state or online transactions. Anyone whose benefits are stolen through skimming, cloning, or a scam like this one can request replacement benefits by calling 1-855-643-1643 and selecting the option for reporting stolen benefits, or by visiting a local DHS processing center to file a Report of Stolen Electronic Benefits (Form DHS 1009) with supporting documentation.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'high',
+    sources: ['Hawaii Department of Human Services', 'Maui News'],
+    sourceUrl: 'https://www.mauinews.com/news/local-news/2024/05/department-of-human-services-issues-snap-financial-fraud-alert/',
+    country: 'US',
+    state: 'HI',
+    firstRecorded: '2024-05-27',
+});
