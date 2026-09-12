@@ -9304,3 +9304,20 @@ The Tingo case illustrates how a Nasdaq or OTC listing, SEC-filed financial stat
     sourceUrl: 'https://www.justice.gov/usao-sdny/pr/founder-and-former-ceo-tingo-companies-charged-securities-fraud',
   },
 );
+
+NotoriousGM.push(
+  {
+    title: 'Maxwell Odum and the N213 Billion MBA Forex Ponzi Scheme That Vanished Overnight',
+    slug: 'maxwell-odum-mba-forex-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'international'],
+    body: `Maxwell Chizi Odum ran MBA Trading and Capital Investment Limited, a Lagos-based outfit better known to the tens of thousands of Nigerians who put money into it as MBA Forex. Odum marketed the company as a forex-trading and training operation and told investors he could turn their deposits into fixed monthly returns of 15 to 20 percent by trading currency markets on their behalf — a rate of return that, compounded even briefly, would have made MBA Forex one of the most successful trading operations in the world had it been real. Nigeria's Securities and Exchange Commission later confirmed MBA Forex had never been licensed to collect public investment funds at all.
+
+The money was real even if the returns were not. Nigeria's Central Bank found that 125,397 investors had deposited roughly N171 billion into MBA Forex accounts, while other estimates that include additional linked entities put the total closer to N213 billion (at the time worth roughly $500 million) taken from well over 100,000 Nigerians. On December 22, 2020, the company told investors it was closing its offices for the holiday season — an ordinary, unremarkable announcement that turned out to be the last anyone heard from it. MBA Forex never reopened, Odum stopped responding to investors, and by early 2021 protesters were gathering outside the Economic and Financial Crimes Commission's headquarters in Abuja demanding an investigation.
+
+The EFCC formally declared Odum a wanted fugitive on December 8, 2021, publishing his photograph and accusing him of conspiracy, obtaining money by false pretenses, and money laundering to the tune of N213 billion. He has not been located since, and as of 2025 investigators were still working through the wreckage of the wider MBA Forex network, arraigning associated company directors on related fraud charges running into the billions of naira in separate prosecutions — a sign of how many hands and how many linked entities it took to move that much money through a single unlicensed operation.
+
+The MBA Forex case illustrates how quickly a Ponzi scheme can disappear once the flow of new deposits stops: unlike many collapses that unwind slowly amid missed payments and mounting investor complaints, MBA Forex's operator simply stopped communicating, and a company that had spent years building trust with more than a hundred thousand ordinary savers vanished behind a routine holiday-closure notice, leaving regulators years of unwinding still ahead of them.`,
+    sourceUrl: 'https://www.legit.ng/business-economy/money/1446905-n213bn-fraud-efcc-declares-popular-forex-firm-boss-wanted-releases-photo/',
+  },
+);

@@ -8922,3 +8922,20 @@ The Infinus case is a reminder that a Ponzi scheme doesn't need to promise extra
     sourceUrl: 'https://www.handelsblatt.com/english/punishing-greed-jail-time-for-german-ponzi-schemers-in-the-infinus-scam/23582684.html',
   },
 );
+
+NotoriousAF.push(
+  {
+    title: 'Bill Papas and the $500 Million "Audacious" Fraud That Sank Three Global Banks',
+    slug: 'bill-papas-forum-finance-bank-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'international'],
+    body: `Bill Papas ran Forum Finance and Forum Group Financial Services, Sydney-based equipment-finance businesses that, on paper, connected banks looking to lend against real assets with small and medium-sized businesses that needed to finance equipment like printers, photocopiers, and industrial waste digesters. Banks including Westpac in Australia and New Zealand, Sumitomo Mitsui Banking Corporation (SMBC), and Societe Generale would fund the purchase of the equipment and collect the ongoing lease payments Forum arranged and served — a straightforward, well-established form of asset finance that had operated in various forms for decades.
+
+The equipment did not exist. According to findings later made by Australia's Federal Court, Papas and Forum Finance fabricated invoices, lease agreements, and supporting paperwork for equipment purchases that were never real, then used a stream of Forum's own money — dressed up as lease repayments — to keep the arrangements looking legitimate to the banks funding them. The scheme ran from around August 2018 until June 2021, when the fraud finally came to light after a customer inquiry about loan headroom prompted a closer look at Westpac's own records, and the con unraveled. Between them, Westpac Australia (roughly $341 million), Westpac New Zealand (NZ$58 million), SMBC ($113 million), and Societe Generale ($9 million) had funded close to $500 million in financing against equipment that had never left the invoice it was printed on.
+
+Papas fled Australia for his native Greece as the fraud was being uncovered in June 2021, and has not returned or contested the civil proceedings brought against him in person. Liquidators and forensic accountants for the banks traced more than 110,000 transactions across upward of 150 bank accounts tied to Forum entities and Papas associates, alleging the diverted funds bankrolled property purchases and a lavish lifestyle rather than any real equipment-leasing business. On October 11, 2024, Federal Court Justice Elizabeth Cheeseman handed down judgment finding the fraud "audacious" and "comprehensively established," naming Papas its principal architect and finding that several associates — including Vincenzo Tesoriero, Moussa Bouchahine, and Papas's partner Louisa Agostino — had knowingly participated in or benefited from it. A separate warrant for contempt of court has since been issued over Papas's failure to appear, and as of 2025 liquidators had recovered only an estimated $50 to $100 million of the roughly $500 million lost, with Papas still living openly in Greece and Westpac pursuing his assets there.
+
+The Forum Finance case is a reminder that sophisticated institutional lenders can be defrauded by a scheme built on nothing more exotic than paperwork: no exotic derivative, no offshore shell structure, just fabricated invoices for equipment that was never built, sold to banks whose own diligence processes were designed around a world where borrowers mostly tell the truth about what they're financing.`,
+    sourceUrl: 'https://www.indailyqld.com.au/news/archive/2024/10/11/the-man-tho-helped-westpac-pull-off-audacious-500m-theft',
+  },
+);
