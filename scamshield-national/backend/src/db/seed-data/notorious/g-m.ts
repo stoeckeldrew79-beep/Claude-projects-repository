@@ -9056,3 +9056,25 @@ A point-of-sale lending model built around trusting third-party merchants to get
     sourceUrl: 'https://www.texasattorneygeneral.gov/news/releases/attorney-general-ken-paxton-secures-millions-victims-fraudulent-loan-scheme-targeted-senior-citizens',
   },
 );
+
+// No rights-cleared photo of Whitney or Parrish was located; the DOJ and
+// SEC filings cited in sourceUrl are the primary sources for every fact
+// below.
+NotoriousGM.push(
+  {
+    title: "Kent Whitney, David Parrish, and the $33 Million 'Church for the Healthy Self' Ponzi Scheme",
+    slug: 'kent-whitney-church-for-the-healthy-self-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    body: `Kent R.E. Whitney was released from federal prison in June 2014 after serving a 44-month sentence for defrauding roughly ten investors out of more than $600,000 through a bogus commodity pool — a scheme built on falsified account statements and Ponzi-style payments that a federal jury and the Commodity Futures Trading Commission had already unwound years earlier. Three months after his release, he started a new operation in the same mold, just larger: The Church for the Healthy Self, a Texas corporation doing business as CHS Trust out of a strip mall in the Little Saigon section of Westminster, California.
+
+According to the Securities and Exchange Commission and federal prosecutors, CHS was a church in name only. From September 2014 through April 2019, Whitney and representatives acting on his direction marketed CHS Trust to the Vietnamese-American communities of Orange County, San Jose, and Chicago through Vietnamese-language radio and television commercials and live seminars, promising a guaranteed, tax-deductible annual return of at least 12 percent on money that would supposedly be placed in reinsurance investments and options trading, "safe" and insured against loss the way an FDIC or SIPC account would be. In November 2018, Whitney recruited a friend who had helped run his earlier commodity-pool fraud, David Lee Parrish, to serve as CHS's co-pastor and as the named CEO and director of CHS Trust; the SEC later found that Parrish told investors CHS's traders "had not lost money in 15 years" and that CHS was audited by KPMG, while concealing from those same investors that Whitney had a federal fraud conviction at all.
+
+Little of the money investors sent ever reached a trading account. The SEC's complaint, filed March 13, 2019 in the U.S. District Court for the Central District of California, alleged that Whitney and Parrish used new investors' money to make Ponzi payments to earlier ones and diverted millions of dollars more to their own credit card bills, student loans, mortgage payments, jewelry, and home-staging services. The SEC obtained a temporary restraining order and asset freeze the day after filing, and the FBI separately seized CHS Trust's main bank account on suspicion of wire fraud and money laundering; a court-appointed receiver later recovered about $4.3 million of what investors had put in, a fraction of the total.
+
+Whitney pleaded guilty in November 2020 to a two-count criminal information charging mail fraud and filing a false federal income tax return — the tax count covering a 2018 return that reported income of $17,539 when prosecutors say his actual income that year, most of it skimmed from the CHS fraud, was at least $452,872. On September 24, 2021, U.S. District Judge Josephine L. Staton sentenced Whitney to 168 months — 14 years — in federal prison and ordered him to pay $22,662,668 in restitution, calling the CHS operation a fraud that took in more than $33 million between 2014 and 2019. Parrish pleaded guilty to a single count of conspiracy and was sentenced on November 5, 2021 to 12 months and a day in prison, three years of supervised release, and $166,574.10 in restitution; the SEC separately barred him from the securities industry in 2022 based on the civil judgment entered against him.
+
+The case kept generating enforcement action years after Whitney was sentenced. On April 7, 2026, the SEC barred Vean P. Nguyen, a CHS salesperson who had sold the fraudulent investments and collected commissions on them without ever being a registered broker, from associating with any broker-dealer or investment adviser — a sanction built on a civil consent judgment entered against her on June 2, 2025 in the same underlying SEC case. Whitney's church never operated as anything but a name and a strip-mall storefront, but the pull of "guaranteed and insured" returns marketed in a familiar language to a specific community proved durable enough to keep drawing fresh victims for nearly five years, and to keep drawing SEC settlements for years after the man who started it went to prison.`,
+    sourceUrl: 'https://www.justice.gov/usao-cdca/pr/ex-pastor-orange-county-church-sentenced-14-years-federal-prison-orchestrating-33',
+  },
+);
