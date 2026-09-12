@@ -6432,3 +6432,17 @@ UsNS.push({
     isHistorical: true,
     firstRecorded: '2026-09-10',
 });
+
+UsNS.push({
+    name: 'Puerto Rico Hacienda Tax-Debt Bribery Scheme (Relta-Lebrón and Muriel-Falero)',
+    slug: 'puerto-rico-hacienda-tax-debt-bribery-scheme',
+    description: `A federal grand jury in the District of Puerto Rico returned an indictment on October 23, 2025 — with arrests following on October 29, 2025 — charging 26 defendants, including two Puerto Rico Department of Treasury (Hacienda) employees, ten other individuals, and fourteen companies, in a wire fraud and bribery conspiracy that prosecutors said cost Hacienda more than $3.5 million between November 2021 and April 2025. According to the indictment, the two Hacienda employees, Javier Relta-Lebrón and Harry E. Muriel-Falero, accepted payments from co-defendants in exchange for submitting false tax records that eliminated or reduced tax debts across at least 24 personal and corporate accounts, coordinating the scheme with an intermediary identified in court papers only as "Person A" over WhatsApp and Apple iMessage. Relta-Lebrón is accused of altering tax records, creating false taxpayer credits, and reducing or eliminating sales-and-use tax (IVU) that commercial retail establishments owed, while Muriel-Falero is accused of preparing and submitting false individual tax filings that manufactured tax credits and wiped out personal income-tax debts for his co-defendants. U.S. Attorney W. Stephen Muldrow, announcing the charges alongside the FBI, said "public corruption, at every level of government, causes a substantial and incalculable harm to the public," adding that "the Justice Department will continue to aggressively enforce federal fraud and corruption laws," and encouraged anyone else who took part in the scheme to come forward as the investigation continues. Each defendant faces wire fraud and wire fraud conspiracy charges carrying up to 20 years in prison. The case shows that a tax authority's own employees can be the weak point in a system meant to catch fraud rather than commit it — a business or individual approached by an insider offering to make a real tax debt disappear for a fee should recognize that offer itself as the crime, since a legitimate reduction or resolution of a Hacienda tax debt goes through the agency's own formal appeals and payment-plan channels, not a side arrangement with an employee.`,
+    categorySlug: 'tax-scams',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office, District of Puerto Rico", 'Federal Bureau of Investigation', 'Just The News', 'NotiCel'],
+    sourceUrl: 'https://www.justice.gov/usao-pr/pr/twenty-six-individuals-and-companies-indicted-puerto-rico-tax-debt-scheme-involving-over',
+    country: 'US',
+    state: 'PR',
+    isHistorical: true,
+    firstRecorded: '2025-10-23',
+});

@@ -7866,3 +7866,17 @@ UsAF.push({
     isHistorical: true,
     firstRecorded: '2011-01-01',
 });
+
+UsAF.push({
+    name: 'Dorothy Elia American Samoa NASAC Embezzlement Scheme',
+    slug: 'american-samoa-elia-nasac-embezzlement-scheme',
+    description: `Dorothy Elia, then 37, worked for the Native American Samoa Advisory Council (NASAC) with access to the organization's account at ANZ Amerika Samoa Bank, and between January and October 2016 she ordered a series of unauthorized checks against that account and diverted the funds so they were paid directly to herself rather than to NASAC. She ultimately admitted to misappropriating $36,000 — the government's own plea agreement never pinned down a specific restitution figure, so the Trial Division of the High Court of American Samoa relied on Elia's own admission to set the loss amount at sentencing. Elia's family had already repaid $24,000 of the total, apparently drawn from plantation income, by the time Presiding Judge Kruse sentenced her on March 1, 2019, sitting with Chief Associate Judge Mamea Sala Jr. and Associate Judge Su'apaia J. Pereira; Judge Kruse was blunt in weighing her account of the theft, telling her in court, "I want an indication of something realistic. I don't want to hear a 'fagogo' anymore" — using the Samoan word for a folktale to reject an implausible version of events. The court imposed a seven-year prison sentence with execution suspended in favor of seven years' probation, conditioned on 28 months of detention at the Territorial Correctional Facility — six months to begin immediately, credited for time already served awaiting sentencing, followed by a 90-day release to seek employment and then the remaining detention time — along with a $2,000 fine covered by her existing bond and an order to repay the outstanding $12,000 balance. Assistant Attorney General Laura Garvey prosecuted the case and Public Defender Michael White represented Elia. The case shows how an employee with signing or check-ordering authority over a small nonprofit's bank account can quietly redirect payments to themselves for months before anyone reviewing the books catches on; organizations that let one person both initiate and approve payments from an account can add a basic safeguard by having a second, independent signer or a periodic outside review of canceled checks against the organization's own records.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'medium',
+    sources: ['Samoa News', 'Trial Division of the High Court of American Samoa'],
+    sourceUrl: 'https://www.samoanews.com/local-news/woman-convicted-embezzlement-make-restitution-and-serve-jail-time',
+    country: 'US',
+    state: 'AS',
+    isHistorical: true,
+    firstRecorded: '2016-01-01',
+});
