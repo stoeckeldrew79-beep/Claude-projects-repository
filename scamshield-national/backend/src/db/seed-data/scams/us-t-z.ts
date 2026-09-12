@@ -3865,3 +3865,17 @@ UsTZ.push({
     isHistorical: true,
     firstRecorded: '2015-01-01',
 });
+
+UsTZ.push({
+    name: 'Fraudulent Social Security Card Fee Websites Targeting Virgin Islands Residents',
+    slug: 'virgin-islands-social-security-card-fee-scam-warning',
+    description: `Delegate to Congress Stacey Plaskett issued a public warning on March 18, 2026 alerting U.S. Virgin Islands residents to a wave of fraudulent websites, social media accounts, and direct messages charging fees for Social Security card services the federal government actually provides free of charge — including first-time card applications, replacement cards, and name changes. The warning followed a national alert from the Social Security Administration's Office of the Inspector General describing scammers who build convincing but fake SSA-branded sites and then collect Social Security numbers, birthdates, and credit card information from anyone who tries to pay the phony fee. "Scammers are actively targeting communities throughout the country with false claims about Social Security card fees," Plaskett said in the release. Residents were urged to pause before responding to any unsolicited message or website claiming to help with a Social Security card and to go directly to the SSA's own website or call its toll-free line at 1-800-772-1213 instead, since a real my Social Security account handles first-time applications, replacements, and name changes at no cost. Anyone who has already paid one of these sites or shared personal information with one is urged to report it to the Social Security Administration's Office of the Inspector General or the Federal Trade Commission, since getting that information to investigators quickly improves the odds of limiting identity-theft fallout from a stolen Social Security number and payment details.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Office of Congresswoman Stacey Plaskett', 'Social Security Administration Office of the Inspector General', 'The Virgin Islands Consortium'],
+    sourceUrl: 'https://viconsortium.com/vi-community_center/virgin-islands-warning-issued-as-fraudulent-sites-target-people-seeking-social-security-cards',
+    country: 'US',
+    state: 'VI',
+    isHistorical: true,
+    firstRecorded: '2026-03-18',
+});

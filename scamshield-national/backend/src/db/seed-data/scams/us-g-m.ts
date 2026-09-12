@@ -7008,3 +7008,17 @@ UsGM.push({
     isHistorical: true,
     firstRecorded: '2026-04-01',
 });
+
+UsGM.push({
+    name: 'Unlicensed Bitcoin Exchange Funneling Money Into Ichioka Ventures Ponzi Scheme (Julien Weymouth)',
+    slug: 'guam-weymouth-bitcoin-exchange-ichioka-ventures-ponzi-scheme',
+    description: `Julien Abat Weymouth, 32, of Dededo, Guam, ran an unlicensed cryptocurrency exchange out of Guam from January 2020 to April 2021, taking cash and cryptocurrency from local clients and promising to invest it for guaranteed returns through a trading partner he described as legitimate. According to the U.S. Attorney's Office for the Districts of Guam and the Northern Mariana Islands, Weymouth funneled at least $5,517,323.48 of that money into "Ichioka Ventures," a California-based investment scheme run by William Ichioka that was in reality a Ponzi scheme paying earlier investors with money raised from newer ones — Ichioka was prosecuted separately in the Northern District of California and admitted to defrauding more than 100 investors of tens of millions of dollars before the scheme collapsed. Weymouth never registered his exchange with the Financial Crimes Enforcement Network or complied with federal money-transmitter licensing and anti-money-laundering requirements, a crime on its own regardless of whether the underlying investment he was funneling client money into was legitimate. He pleaded guilty to operating an unlicensed money-transmitting business, and on January 29, 2024, was sentenced in the U.S. District Court for the Districts of Guam and the Northern Mariana Islands to 30 months in federal prison and three years of supervised release, with the court ordering forfeiture of more than 200 Bitcoin worth over $8 million, six vehicles, and $127,000 seized from a bank account. "Cryptocurrencies are often used to facilitate fraudulent activity," said U.S. Attorney Shawn N. Anderson. "These financial assets do not guarantee anonymity, as generally perceived by criminals." The case is a reminder that an unregistered "broker" or exchange handling cash-to-crypto conversions is itself a red flag independent of what the underlying investment promises — a request to hand cash or cryptocurrency to an individual promising guaranteed returns through an unnamed trading partner, rather than through a registered, licensed exchange or broker-dealer, should be checked against FinCEN's money-services-business registrant search before any money changes hands.`,
+    categorySlug: 'cryptocurrency-scams',
+    alertLevel: 'high',
+    sources: ['U.S. Secret Service', "U.S. Attorney's Office, Districts of Guam and the Northern Mariana Islands"],
+    sourceUrl: 'https://www.secretservice.gov/newsroom/releases/2024/01/guam-cryptocurrency-broker-sentenced-30-months-federal-prison-55-million',
+    country: 'US',
+    state: 'GU',
+    isHistorical: true,
+    firstRecorded: '2020-01-01',
+});

@@ -6909,3 +6909,17 @@ UsNS.push({
     isHistorical: true,
     firstRecorded: '2019-01-01',
 });
+
+UsNS.push({
+    name: 'DACO Coinbase Impersonation Phishing Email Scam',
+    slug: 'puerto-rico-daco-coinbase-impersonation-phishing-scam',
+    description: `Puerto Rico's Department of Consumer Affairs (DACO) warned residents on April 19, 2023 about a phishing email impersonating the cryptocurrency exchange Coinbase, complete with the company's official logo, that falsely tells recipients they have received a $421 deposit and must click a link to access the funds. The link leads to a fake website built to look exactly like Coinbase's real platform, and DACO said that simply clicking it can let the people behind the scheme access data stored on the victim's phone, tablet, or computer — compromising personal information on the device even before any login credentials are typed in. The agency noted that while some email spam filters catch these messages, many still land directly in a recipient's inbox, and said the surest way to spot the fraud is checking the sender's actual email address, since a legitimate Coinbase email will only ever come from an address ending in "@coinbase.com," and that anyone who has never made a Coinbase transaction should disregard the message outright no matter how official it looks. DACO asked residents who receive one of these emails to report it through the agency's social media accounts — Facebook, Instagram, and X/Twitter as "DACO a tu favor" — or through its website, www.daco.pr.gov, rather than clicking the link to "check" the claimed deposit, since interacting with the link at all is what exposes the device.`,
+    categorySlug: 'phishing',
+    alertLevel: 'medium',
+    sources: ['Departamento de Asuntos del Consumidor (DACO)', 'Metro Puerto Rico'],
+    sourceUrl: 'https://www.metro.pr/noticias/2023/04/19/advierten-sobre-esquema-de-fraude-en-coinbase/',
+    country: 'US',
+    state: 'PR',
+    isHistorical: true,
+    firstRecorded: '2023-04-19',
+});
