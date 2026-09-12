@@ -476,4 +476,31 @@ export const SEED_GLOBAL_SOURCES: SeedGlobalSource[] = [
       "Azerbaijan's Computer Emergency Response Center, run by the State Service for Special Communication and Information Security, issues public warnings about fraudulent domains impersonating services like the myGov portal and ASAN Pay, runs a blacklist lookup tool for suspicious websites, and takes citizen incident reports through the site's own Report Incident form.",
     data_type: 'public_stats',
   },
+  {
+    agency_name: 'Autoridad de Supervisión del Sistema Financiero (ASFI)',
+    country: 'BO',
+    country_name: 'Bolivia',
+    url: 'https://www.asfi.gob.bo/pagina-de-comunicados',
+    description:
+      "Bolivia's financial system regulator, operating since 1928, publishes a regularly updated public alerts page naming specific fraudulent platforms and schemes it has detected impersonating banks or offering irregular investments (recent examples include fake trading platforms and unauthorized Telegram investment offers). It also takes written complaints about suspected unlicensed financial activity through its regional offices and a toll-free hotline, but does not publish aggregate fraud-loss statistics.",
+    data_type: 'public_stats',
+  },
+  {
+    agency_name: 'National Police Agency — Crime Statistics',
+    country: 'MN',
+    country_name: 'Mongolia',
+    url: 'https://police.gov.mn/as/article/3',
+    description:
+      "Mongolia's National Police Agency publishes monthly and year-to-date crime and violation statistics, including a standing fraud ('залилах') case count on its homepage — 11,829 registered fraud cases in the first eight months of 2026 alone, the single largest crime category the agency tracks. A companion open dataset of registered criminal cases is also published via Mongolia's national open-data portal (opendata.gov.mn).",
+    data_type: 'public_stats',
+  },
+  {
+    agency_name: 'National Cyber Security Authority (AKSK)',
+    country: 'AL',
+    country_name: 'Albania',
+    url: 'https://aksk.gov.al/en/home-2/',
+    description:
+      "Albania's national cybersecurity authority (Autoriteti Kombëtar për Sigurinë Kibernetike), the country's designated CSIRT, runs public phishing- and incident-reporting channels and displays a running homepage tally of its activity — 1,247 incidents reported and 1,189 resolved in its 2025 figures — alongside audit and certification counts. It also publishes periodic annual reports, though the most recent full public edition on file dates to 2022.",
+    data_type: 'public_stats',
+  },
 ];
