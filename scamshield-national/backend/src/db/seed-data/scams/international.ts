@@ -15447,3 +15447,36 @@ International.push(
     sourceUrl: 'https://www.channelstv.com/2026/02/24/naptip-facilitates-safe-rescue-return-of-23-nigerians-from-southeast-asia/',
   },
 );
+
+International.push(
+  {
+    name: 'Rezaayat Khodro Taravat Novin (RTN) Car Pre-Sale Ponzi Scheme',
+    slug: 'iran-rtn-car-presale-ponzi-scheme',
+    description: `Starting in 2013 in Qazvin province, Rezaayat Khodro Taravat Novin (RTN) advertised passenger cars for pre-order at prices well below the market rate, then expanded into real-estate and general investment plans, all built on a Ponzi-style structure in which money from new customers was used to pay off — or partially satisfy — earlier ones rather than to actually source vehicles. Iran's judiciary said the scheme drew more than 28,000 formal complainants and involved sums equivalent to roughly $350 million at current exchange rates, while only around 4% of customers who paid in ever received a car. Company owner Mohammad Reza Ghaffari and 27 associates were prosecuted for "large-scale disruption of the country's economic system," and after the Supreme Court upheld a death sentence against Ghaffari in August 2025 and he failed to make good on restitution to victims, he was executed by hanging on December 7, 2025. Iranian authorities have separately warned that unlicensed pre-sale schemes are a recurring hazard beyond this single case: in 2023 the Central Bank of Iran froze roughly 96 trillion rials (about $2 billion) tied up in a separate car pre-sale program over fears it, too, could turn into a scam, reflecting how chronic new-car shortages and price controls keep making "pay now, wait months or years for a car" offers attractive bait for fraud. Consumers are advised to treat any offer of a vehicle, property, or investment substantially below market price that requires full payment far in advance as a high-risk proposition, and to verify that a dealer or investment company is properly licensed before handing over money.`,
+    categorySlug: 'ponzi-pyramid-schemes',
+    alertLevel: 'high',
+    sources: ['Iran Judiciary (Mizan News Agency)', 'Agence France-Presse (AFP)', 'The Times of Israel'],
+    sourceUrl: 'https://www.timesofisrael.com/iran-hangs-man-convicted-in-massive-car-buying-scam-case/',
+    country: 'IR',
+  },
+  {
+    name: 'Kourosh Company iPhone Pre-Payment Ponzi Scheme',
+    slug: 'iran-kourosh-iphone-ponzi-scheme',
+    description: `Marketing itself as "Iran's largest phone repair company," Kourosh advertised iPhone 13 handsets at roughly 200 million rials (about $360) — far below prevailing prices after Iran's government banned the import of newer iPhone 14 and 15 models and pushed buyers toward a scarce secondary market — provided customers paid the full amount upfront and waited several weeks for delivery. Celebrities promoted the offer online, and the fact that some early customers really did receive a phone helped fuel a wider rush of new sign-ups, a pattern authorities later described as Ponzi-like: a steady stream of new prepayments was needed to keep fulfilling older ones. The company took in an estimated 20 trillion rials (about $35 million) within a few months before collapsing in February 2024, at which point most customers who had paid received nothing. Its 27-year-old CEO, Amirhossein Sharifian, fled to Turkey with the proceeds and remained at large, while at least one associate was arrested, two others were sought, and police said celebrities who had promoted the company would also face investigation. Consumers are advised to be especially wary of steep-discount pre-payment offers for goods made artificially scarce by sanctions or import bans, since that same scarcity is what scammers rely on to make an implausible deal look merely lucky.`,
+    categorySlug: 'ponzi-pyramid-schemes',
+    alertLevel: 'high',
+    sources: ['Al Jazeera', 'The Christian Science Monitor'],
+    sourceUrl: 'https://www.aljazeera.com/news/2024/2/18/arrests-after-irans-iphone-ban-paves-way-for-multimillion-dollar-scam',
+    country: 'IR',
+  },
+  {
+    name: '"deVixor" Fake Discount Car-Sale Banking Malware',
+    slug: 'iran-devixor-fake-car-sale-banking-malware',
+    description: `Since at least October 2025, an Android malware campaign researchers call "deVixor" has been distributed through fraudulent websites made to look like legitimate Iranian automotive dealers, advertising heavily discounted vehicles to lure visitors into downloading a malicious APK file outside Google Play. Once installed, the app harvests incoming SMS messages to capture one-time passcodes, account balances, and card numbers, and uses a WebView-based JavaScript injection technique to silently redirect victims into what looks like their own bank's login page and capture their credentials there — targeting more than 25 named Iranian banks and payment platforms, including Bank Melli Iran, Bank Mellat, Bank Tejarat, Bank Sepah, and Post Bank Iran, plus cryptocurrency exchanges such as Ramzinex, Tabdeal, Exir, and AbanTether. On top of banking fraud, deVixor can also lock the device behind a ransomware overlay demanding a cryptocurrency payment before the victim can use it again. Cyble Research and Intelligence Labs, which analyzed more than 700 malware samples tied to the campaign, said with "high confidence" that it is a centrally maintained, Telegram-administered criminal operation under continuous development rather than a one-off attack, with new variants and targeted institutions still being added as of its research. Consumers are advised never to install an app to view a car listing or "deal," to download banking and shopping apps only from official app stores, and to treat any car-sale website that pushes a direct APK download as a strong warning sign.`,
+    categorySlug: 'phishing',
+    alertLevel: 'critical',
+    sources: ['Cyble Research and Intelligence Labs (CRIL)', 'The Cyber Express'],
+    sourceUrl: 'https://cyble.com/blog/devixor-an-evolving-android-banking-rat-with-ransomware-capabilities-targeting-iran/',
+    country: 'IR',
+  },
+);
