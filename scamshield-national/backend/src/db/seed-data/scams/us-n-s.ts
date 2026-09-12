@@ -6196,3 +6196,17 @@ UsNS.push({
     isHistorical: true,
     firstRecorded: '2025-02-28',
 });
+
+UsNS.push({
+    name: 'CNMI Deceptive Business-Compliance Solicitation Scam',
+    slug: 'northern-mariana-islands-deceptive-solicitation-scam',
+    description: `The CNMI Office of the Attorney General issued a consumer alert on May 25, 2022 warning newly registered business owners about companies sending official-looking mail that poses as a government agency to demand payment for paperwork that is actually free or available far more cheaply from the real government office. Attorney General Edward Manibusan named two companies behind the mailers, CA Certificate Service, LLC and Labor Poster Compliance LLC, which target newly registered CNMI businesses with letters demanding payment for items like a "Certificate of Status" or mandatory workplace posters — documents a business can get free or at a fraction of the price directly from the Department of Commerce or the Department of Labor. The letters and envelopes are designed to imitate genuine government mail and create a false sense urgency, pressuring the business owner to fill out an enclosed form and send payment before checking whether the request is even legitimate. The Office of the Attorney General's guidance is to never send money in response to a mailed demand for business paperwork without first verifying the sender independently, and to report a suspected deceptive solicitation to the Office of the Consumer Counsel by email at consumer_counsel@cnmioag.org, in person at the Civil Division on Capital Hill (Monday through Friday, 7:30 a.m. to 4:30 p.m.), or by phone to the Investigative Division hotline at 237-7627 or the main office at 670-237-7500.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Commonwealth of the Northern Mariana Islands Office of the Attorney General'],
+    sourceUrl: 'https://www.cnmioag.org/consumer-alert-avoid-deceptive-solicitation-scams/',
+    country: 'US',
+    state: 'MP',
+    isHistorical: true,
+    firstRecorded: '2022-05-25',
+});

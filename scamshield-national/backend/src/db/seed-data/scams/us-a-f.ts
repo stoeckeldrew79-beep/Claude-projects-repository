@@ -7712,3 +7712,31 @@ UsAF.push({
     isHistorical: true,
     firstRecorded: '2025-10-14',
 });
+
+UsAF.push({
+    name: 'Vaitogi "Guaranteed Green Card" Labor Recruitment Fraud',
+    slug: 'american-samoa-vietnamese-labor-recruitment-fraud-scheme',
+    description: `An investigation opened by the American Samoa Attorney General's Office in March 2025, after a human-trafficking tip, led to criminal charges against a married couple who prosecutors say ran a pay-to-immigrate recruitment scheme out of Michael, Inc., a Vaitogi-village business incorporated June 14, 2023 that operated a print shop, sewing shop, barber shop, spa, salon, and restaurant. According to court filings, owners Thi My Linh My Le and Lanh Huu Dang recruited Vietnamese nationals with promises of relocation to the United States, lawful immigration status (including green cards), and employment or education opportunities, collecting 170 to 370 million Vietnamese dong — roughly $6,500 to more than $14,000 — from each recruit before they ever left Vietnam, then demanding an additional $4,500 on arrival. Victims entered American Samoa on October 10, 2023 using temporary permits valid for only 30 days; once there, prosecutors allege their passports were confiscated, they were forced into unpaid labor at the couple's businesses, and were threatened with deportation if they didn't comply, with victim statements describing 15 to 20 Vietnamese nationals housed together at the Vaitogi residence. Two U.S. nationals were also implicated — one who worked at the territory's Immigration Office at Pago Pago International Airport and another who had formally sponsored one of the Vietnamese recruits — underscoring how a recruitment fraud like this can rely on an inside contact at the very office meant to screen for it. Le was charged with two counts of human trafficking, two counts of conspiracy to commit human trafficking, human trafficking of a minor, and two counts of conspiracy to commit human trafficking of a minor; Dang was charged with two counts of conspiracy to commit human trafficking, conspiracy to commit human trafficking of a minor, and third-degree assault tied to a December 23, 2025 incident. Both were held without bail, with a preliminary examination held in American Samoa District Court on September 8, 2026. Anyone approached by a recruiter who guarantees a U.S. green card, visa, or job in exchange for an upfront payment — especially one who demands more money after arrival or confiscates a passport "for safekeeping" — should treat it as a red flag regardless of how legitimate the recruiter's paperwork or business looks, since no legitimate immigration path is sold this way; suspected cases can be reported to the American Samoa Attorney General's Office or the National Human Trafficking Hotline at 1-888-373-7888.`,
+    categorySlug: 'employment-scams',
+    alertLevel: 'critical',
+    sources: ['Samoa News', 'American Samoa Attorney General’s Office'],
+    sourceUrl: 'https://www.samoanews.com/local-news/criminal-allegations-human-trafficking-dating-back-2024-filed',
+    country: 'US',
+    state: 'AS',
+    isHistorical: true,
+    firstRecorded: '2023-10-10',
+});
+
+UsAF.push({
+    name: 'Corina Ifopo Fraudulent American Samoa Tax Refund Scheme',
+    slug: 'american-samoa-ifopo-fraudulent-tax-refund-scheme',
+    description: `Beginning in May 2014 and continuing through February 2016, American Samoa resident Corina F. Ifopo ran a scheme filing approximately 200 fraudulent federal income tax returns on behalf of other American Samoa residents, seeking more than $1 million in refunds the filers were not entitled to. Because American Samoa residents generally do not qualify for U.S. refundable credits the way stateside taxpayers do, Ifopo's returns falsely claimed the filers actually lived in the United States — including Alaska — and padded the claims further with false dependents, false withholding amounts, and earned income tax credit claims that didn't apply to them. The IRS's fraud detection center flagged the pattern after noticing the returns shared telltale commonalities, including a fictional post office box tied to Ifopo, with resulting refund proceeds funneled through her own bank accounts. She was arrested in Honolulu in July 2017 and pleaded guilty on December 12, 2017 to 28 counts of making false claims to a government agency; Chief U.S. District Judge Timothy M. Burgess of the District of Alaska — where the case was prosecuted because Ifopo's returns claimed the filers lived there — sentenced her on April 4, 2018 to two years in prison followed by three years of supervised release. The case is a reminder that a tax preparer offering unusually large refunds by claiming a filer lives somewhere they don't, or by adding dependents, withholdings, or credits the filer doesn't recognize, is committing fraud in the filer's name — anyone whose preparer suggests inflating a return should refuse, review the full return line-by-line before signing it, and report a suspect preparer to the IRS using Form 14157 rather than assuming a bigger refund is simply good luck.`,
+    categorySlug: 'tax-scams',
+    alertLevel: 'medium',
+    sources: ['U.S. Department of Justice, District of Alaska', 'Alaska’s News Source'],
+    sourceUrl: 'https://www.justice.gov/usao-ak/pr/woman-american-samoa-sentenced-filing-approximately-200-fraudulent-tax-returns-behalf',
+    country: 'US',
+    state: 'AS',
+    isHistorical: true,
+    firstRecorded: '2014-05-01',
+});
