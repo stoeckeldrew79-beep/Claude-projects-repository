@@ -6488,3 +6488,45 @@ UsNS.push({
     isHistorical: true,
     firstRecorded: '2021-06-01',
 });
+
+UsNS.push({
+    name: 'North Dakota Illegal Robocall Shutdown (John Spiller and Jakob Mears)',
+    slug: 'north-dakota-spiller-mears-robocall-shutdown',
+    description: `Texas-based telemarketers John Caldwell Spiller II and Jakob Mears, operating through Rising Eagle Capital Group LLC, JSquared Telecom LLC, and a related Cayman Islands entity, ran a robocall operation that blasted billions of illegal, spoofed calls nationwide pitching extended car warranties, health insurance, and other products — with North Dakotans alone receiving millions of the calls during 2019 and 2020, including calls to numbers on the state's own Do Not Call list. North Dakota Attorney General Drew Wrigley announced on March 6, 2023 that his office had secured judgments against Spiller and Mears, permanently banning both men from initiating robocalls or working with any telemarketing company again, alongside combined monetary judgments of $244,658,640 — though largely uncollectible given the defendants' inability to pay, Wrigley's office treated the permanent operating ban as the case's real enforcement teeth. Eight state attorneys general worked together on the coordinated settlements, and North Dakota's action followed related cases against alleged co-conspirators, including Florida-based Scott Shapiro, Michael Theron Smith Jr., and Health Advisors of America, Inc. "These calls hammer our landlines and cell phones, invading our peace and enjoyment, and constantly interrupt and annoy us," Wrigley said of the operation. Because caller ID can be spoofed to display an ordinary-looking local or toll-free number regardless of who is actually calling, North Dakotans are advised not to trust a call's displayed number, to hang up on unsolicited robocalls pitching a warranty, insurance plan, or other product, and to register any active line with the National Do Not Call Registry, then report continued illegal robocalls to the North Dakota Attorney General's Consumer Protection Division.`,
+    categorySlug: 'insurance-fraud',
+    alertLevel: 'medium',
+    sources: ['North Dakota Attorney General\'s Office', 'KX News'],
+    sourceUrl: 'https://attorneygeneral.nd.gov/wrigley-shuts-down-john-spiller-and-jacob-mears-for-making-millions-of-illegal-robocalls-in-north-dakota-2/',
+    country: 'US',
+    state: 'ND',
+    isHistorical: true,
+    firstRecorded: '2023-03-06',
+});
+
+UsNS.push({
+    name: 'Oklahoma Attorney General Impersonation "You\'ve Won Money" Scam',
+    slug: 'oklahoma-attorney-general-impersonation-prize-scam',
+    description: `Oklahomans began reporting calls from people falsely claiming to work for Attorney General Gentner Drummond's office, telling recipients they had won money and would need to pay a fee to collect their winnings — calls that came from a 918 area code, from "unknown" caller IDs, and in at least one report, from a number spoofed to display the Attorney General's office's own real phone number. Drummond's office issued a public warning about the scheme, with Drummond stating plainly, "The Attorney General's office exists to protect consumers, not to scam them out of money," and adding that the office "never demand[s] payment over the phone." No financial losses had been reported to the office as of the warning, but officials stressed that a spoofed caller ID proves nothing about who is actually calling, and that any legitimate prize or government payment never requires the recipient to first send money, whether by wire transfer, gift card, cryptocurrency, or payment app, to "release" it. Oklahomans who receive such a call are advised to hang up without engaging, independently look up the Attorney General's office's real number rather than calling back a number left by the caller, and file a report with the Oklahoma Attorney General's Consumer Protection Unit or the Federal Trade Commission.`,
+    categorySlug: 'lottery-sweepstakes-scams',
+    alertLevel: 'medium',
+    sources: ["Oklahoma Attorney General's Office (Gentner Drummond)", 'Oklahoma City Free Press'],
+    sourceUrl: 'https://freepressokc.com/press-release-new-scam-targets-oklahomans-claims-to-be-with-ags-office/',
+    country: 'US',
+    state: 'OK',
+    isHistorical: true,
+    firstRecorded: '2024-04-16',
+});
+
+UsNS.push({
+    name: 'Oregon Interstate EBT Skimming Ring for Black-Market Baby Formula',
+    slug: 'oregon-ebt-skimming-baby-formula-black-market-ring',
+    description: `From August 2023 through October 2024, a 17-person organization used skimming devices to steal Electronic Benefit Transfer (EBT) account credentials from Oregon SNAP recipients, then used the hijacked accounts to bulk-purchase more than 120,000 pounds of SNAP-eligible goods — mainly infant formula and energy drinks — from grocery stores and curbside-pickup orders across Oregon, Washington, and California, before transporting the goods to California to resell on the black market. Federal prosecutors said the scheme diverted $2.4 million in fraudulent SNAP purchases before all 17 defendants, including Ramirez Dumitru, Giovanni Spirea, and Santa-Madalina Costache, were arrested and arraigned in federal court in Oregon, Washington, and California on October 24-25, 2024, facing conspiracy charges brought by the U.S. Attorney's Office for the District of Oregon. "Every dollar stolen is a dollar that could have fed a child in need," said Homeland Security Investigations Special Agent in Charge Robert Hammer, whose agency worked the case alongside the USDA Office of Inspector General, the U.S. Marshals Service, and multiple local police departments across the three states. U.S. Attorney Natalie Wight said the group "targeted a program that ensures access to healthy and affordable groceries for low-income and food insecure individuals and families." The case is a reminder that EBT card skimming doesn't just empty an individual victim's account — it can fund an organized resale operation moving stolen benefits across state lines — and that SNAP recipients should regularly check their EBT balance and transaction history through Oregon's official ebtEDGE system, inspect card readers for signs of tampering before swiping, and report unfamiliar transactions to the Oregon Department of Human Services right away.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office, District of Oregon", 'Hoodline', 'KGW'],
+    sourceUrl: 'https://www.justice.gov/usao-or/pr/17-people-indicted-conspiring-steal-more-24-million-snap-benefits',
+    country: 'US',
+    state: 'OR',
+    isHistorical: true,
+    firstRecorded: '2024-10-24',
+});
