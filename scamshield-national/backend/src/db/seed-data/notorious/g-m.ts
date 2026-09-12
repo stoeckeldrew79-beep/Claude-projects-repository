@@ -9270,3 +9270,37 @@ If the allegations are proven, the ALAMMC case will be a reminder that a fraud d
     sourceUrl: 'https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-131mr-property-developer-david-mcwilliams-charged-over-10-million-fraud-scheme/',
   },
 );
+
+NotoriousGM.push(
+  {
+    title: 'James Mawhinney and Mayfair 101: A "Tourism Mecca" Pitch That Left $211 Million Unpaid',
+    slug: 'james-mawhinney-mayfair-101-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'international'],
+    body: `James Mawhinney built the Mayfair 101 Group into one of Australia's most aggressively advertised alternative-investment brands, selling products with names like M+ Fixed Income Notes, M Core Fixed Income Notes, and the IPO Wealth Fund to retail investors searching online for a place to park their savings. Marketing material and sponsored search advertising for the debenture products explicitly compared them to bank term deposits, describing them as carrying no default risk and promising full repayment of principal at maturity — a pitch aimed squarely at cautious savers rather than risk-tolerant speculators, at a time when actual term-deposit rates had fallen to historic lows.
+
+According to Australia's Securities and Investments Commission, that comparison was false: the M Core Notes were not secured the way the marketing claimed, the group's flagship IPO Wealth Fund was an unregistered managed investment scheme rather than a regulated product, and the underlying investments could not support the promised returns. Money continued flowing in even as the group's ability to redeem investors deteriorated; when the Federal Court ordered M101 Nominees wound up in January 2021, roughly $211 million remained owed to nearly 500 investors, much of it never recovered. ASIC separately alleged that Mawhinney misrepresented to the trustee of the IPO Wealth Fund that the fund owned two Italian companies, Poveglia S.R.L. and Retta S.R.L, in order to justify the fund's stated value — allegations that led to his arrest in April 2024 on four counts of dishonest conduct in the operation of a financial services business, each carrying a maximum penalty of 15 years' imprisonment.
+
+Civil proceedings moved on a separate, faster track. In December 2021 the Federal Court ordered Mayfair 101 Group entities to pay a combined $30 million penalty for misleading and deceptive marketing, and in April 2021 Mawhinney was banned from fundraising and promoting financial products for 20 years — a ban a Full Federal Court later set aside on procedural grounds in 2022, sending the question back for a fresh hearing while interim restraints stayed in place. That rehearing concluded in July 2025, when the Federal Court found Mawhinney had been involved in the Mayfair 101 Group's contraventions, and in September 2025 the court imposed fresh 15-year injunctions barring him from raising or soliciting investor funds or advertising financial products, with Justice Button citing his "cavalier attitude to compliance." Combined with the interim orders in place since August 2020, Mawhinney has now been under some form of court-ordered restraint for roughly two decades' worth of overlapping bans, while the underlying dishonest-conduct criminal charges remain before the courts.
+
+The Mayfair 101 saga is a reminder that a regulator winning a civil penalty or a marketing injunction doesn't necessarily end an operator's ability to keep raising money — it took a second, criminal-track investigation, years after the first civil case, to allege the kind of specific, deliberate deception needed to put an individual at real risk of prison, and in the meantime hundreds of investors were left holding a $211 million shortfall regardless of which legal process eventually runs its course.`,
+    sourceUrl: 'https://www.asic.gov.au/about-asic/asic-investigations-and-enforcement/enforcement-activities/mayfair-101',
+  },
+);
+
+NotoriousGM.push(
+  {
+    title: 'Dozy Mmobuosi and the $461.7 Million in Cash That Turned Out to Be Less Than $50',
+    slug: 'dozy-mmobuosi-tingo-group-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'international'],
+    body: `Dozy Mmobuosi presented himself as a Nigerian tech billionaire, the founder of a fast-growing agri-fintech empire built around Tingo Mobile, a mobile-money and agricultural-services platform he claimed served millions of smallholder farmers across Nigeria. He used that story to take three related companies — Tingo Group Inc., Agri-Fintech Holdings Inc., and Tingo International Holdings Inc. — onto U.S. markets, filing financial statements with the Securities and Exchange Commission that portrayed the businesses as flush with cash and rapidly expanding revenue. It was, on paper, a rare African success story reaching Wall Street.
+
+According to the SEC's December 2023 complaint, the paper was largely fiction. Tingo Mobile's own financial filings claimed the company held $461.7 million in cash and cash equivalents in Nigerian bank accounts as of a 2023 reporting date; when investigators actually checked those accounts, the SEC alleges they held less than $50 combined. The complaint describes a broader pattern of fabricated customer relationships and inflated business metrics used to make Tingo's operations look profitable and cash-rich when the underlying commercial activity did not exist at anywhere near the scale claimed, and alleges Mmobuosi personally siphoned company money into luxury cars, private jet travel, and an unsuccessful attempt to buy an English Premier League football club.
+
+The SEC obtained emergency relief freezing assets and filed suit in the Southern District of New York, and prosecutors followed with parallel criminal charges: an indictment unsealed on January 2, 2024, charged Mmobuosi with conspiracy, securities fraud, and making false filings with the SEC, exposing him to a maximum sentence of 45 years if convicted. Mmobuosi, who had returned to Nigeria before the charges were unsealed, publicly dismissed the allegations as unfounded and has not appeared in a U.S. court to answer them; the Justice Department continues to list him as a fugitive. With no defendant present to contest the civil case, a federal judge in Manhattan entered a default judgment in September 2024 ordering Mmobuosi and his companies to pay $250 million in disgorgement and penalties — a judgment that, absent his arrest or extradition, exists mostly on paper against a man U.S. authorities have no ability to compel to pay it.
+
+The Tingo case illustrates how a Nasdaq or OTC listing, SEC-filed financial statements, and a widely covered growth story can still be built on numbers nobody outside the company ever independently verified — and how, when the fraud is discovered, distance and jurisdiction can matter as much as evidence: a $250 million judgment and a 45-year maximum sentence carry real weight in court, but very little at all against a defendant who never has to set foot in the country that issued them.`,
+    sourceUrl: 'https://www.justice.gov/usao-sdny/pr/founder-and-former-ceo-tingo-companies-charged-securities-fraud',
+  },
+);

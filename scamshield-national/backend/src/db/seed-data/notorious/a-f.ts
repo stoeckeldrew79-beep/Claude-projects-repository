@@ -8905,3 +8905,20 @@ Lickiss's case is a reminder that the most durable frauds aren't always the bigg
     sourceUrl: 'https://www.irs.gov/compliance/criminal-investigation/former-east-bay-financial-advisor-pleads-guilty-to-operating-a-long-running-9-point-5-million-ponzi-scheme',
   },
 );
+
+NotoriousAF.push(
+  {
+    title: 'Jörg Biehl and the Infinus Group: Germany\'s €300 Million "Profit Participation" Ponzi Scheme',
+    slug: 'jorg-biehl-infinus-group-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'international'],
+    body: `Jörg Biehl built the Infinus Group out of Dresden into a sprawling network of roughly 20 companies selling what German finance calls "Genussrechte" — profit-participation rights — along with subordinated bonds, marketed to ordinary savers as a safe, steady alternative to a bank deposit at a time when German interest rates had fallen close to zero. Sales agents told investors their money would be deployed into real estate, renewable energy, and other income-generating businesses within the group, paying fixed annual returns that made the products look far more like a term deposit than the unsecured, high-risk instruments they actually were.
+
+Prosecutors in Dresden alleged that Infinus operated as a classic pyramid from early on: the returns paid to existing investors came not from the underlying businesses' profits, which were nowhere near sufficient to cover them, but from the capital brought in by new investors — the same structural pattern German investigators later invoked to describe the fraud in what became one of the country's largest post-financial-crisis white-collar trials. Balance sheets and disclosure documents were falsified to conceal the shortfall, and around €30 million of investor money was allegedly funneled into offshore accounts in the Caribbean, Liechtenstein, and Latvia that has never been recovered. Investors that trial evidence and press reporting focused on had put more than €300 million into the specific instruments at issue, out of a wider group of some 50,000 people who had invested up to roughly €2 billion across all 22 Infinus companies over the scheme's life.
+
+The criminal trial, one of the largest ever heard by the Dresden Regional Court's commercial chamber, ran for years before reaching a verdict. On July 9, 2018, the court convicted Biehl of commercial gang fraud and investment fraud and sentenced him to eight years in prison. Four co-defendants, senior managers within the Infinus companies, received sentences ranging from five years and four months to six years and ten months, and a further employee was convicted of aiding and abetting and given four and a half years — a rare instance of an entire management tier of a Ponzi scheme being held criminally accountable rather than just its founder.
+
+The Infinus case is a reminder that a Ponzi scheme doesn't need to promise extraordinary returns to work at enormous scale — it needs only to promise a return that beats a savings account by enough to matter, wrapped in the technical-sounding language of "profit participation rights" that made tens of thousands of ordinary German savers comfortable treating an unsecured bet on an opaque corporate group as something close to a guaranteed deposit.`,
+    sourceUrl: 'https://www.handelsblatt.com/english/punishing-greed-jail-time-for-german-ponzi-schemers-in-the-infinus-scam/23582684.html',
+  },
+);
