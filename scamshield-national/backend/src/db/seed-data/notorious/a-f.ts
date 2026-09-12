@@ -8450,3 +8450,28 @@ Cohen's case is a reminder that a fiduciary relationship cuts both ways: the sam
     sourceUrl: 'https://www.justice.gov/usao-sdny/pr/financial-advisor-convicted-scheme-defraud-professional-basketball-players',
   },
 );
+
+// No rights-cleared photo of Sarabia has surfaced — a search of Wikimedia
+// Commons and standard news-photo sources turned up no portrait, mugshot,
+// or court photo, so sourceUrl serves as the "read the full story" link
+// instead of a photo.
+NotoriousAF.push(
+  {
+    title: 'Francisco Javier Sarabia and the "Bonanza Global" Hedge Fund That Never Traded a Dollar',
+    slug: 'francisco-javier-sarabia-bonanza-global-solutions-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    body: `Note: this is a settled civil SEC enforcement action. Sarabia consented to the entry of a final judgment without admitting or denying the SEC's allegations, and the allegations described below reflect the government's complaint rather than a criminal conviction or a court's factual findings after trial.
+
+Francisco Javier Sarabia, 60, of Tustin, California — who also used the name Jose Luis Perez-Garate — presented himself to prospective investors as the "President and Founder of Bonanza Global Solutions," a company he and a business partner, Paz Sanchez-Majano, registered in California in February 2022 and ran out of an office in Beverly Hills. On its website and in YouTube videos, Bonanza Global pitched itself as a hedge fund and private equity firm that would pool investor money into stock trading, foreign-currency trading, petroleum, and other ventures, paying fixed returns of 10 to 15 percent or more per month. To make the pitch feel safer, Sarabia told investors Bonanza maintained an "80 percent money-back guarantee," a $10 million "safety net" fully insuring their principal, and a full refund in the event of a death in an investor's immediate family.
+
+According to a civil complaint the Securities and Exchange Commission filed September 8, 2026 in the U.S. District Court for the Central District of California, none of it was true. Bonanza Global generated no revenue of its own; nearly every dollar in its bank accounts came from new investors, and none of the money was ever placed into stock trading, foreign currency, or the life-settlement policies Bonanza claimed would back its guarantees. From February 2022 through March 2023, the SEC says, Sarabia and Sanchez-Majano raised more than $5 million from over 350 investors across California, Rhode Island, and Texas by selling unregistered promissory notes — deliberately targeting Spanish-speaking and Filipino communities through Spanish-language presentations at the Beverly Hills office, bilingual brochures, a planned corporate office in Mexico City, a Filipino-community-organized conference in San Francisco, and an investor event held in the Philippines in June 2022. Bonanza also ran a multi-level referral program, paying existing investors a 10 percent commission — plus a further 5 percent "second level" bonus — for recruiting friends and family into the fund.
+
+The SEC alleges Sanchez-Majano misused roughly $3.5 million of the $5 million raised, while Sarabia personally misappropriated at least $825,000, spending investor money on Gucci, Dolce & Gabbana, and Versace purchases and on gambling trips, high-end hotels, and nightclubs in Las Vegas. Some of the incoming cash was recycled into Ponzi-style payments to earlier investors to keep the operation looking legitimate. By December 2022, Bonanza had stopped paying the returns it owed; Sarabia told investors in Spanish that they would be paid "before the end of the year," and when 2022 came and went without payment, Bonanza launched a new website in June 2023 promising to resume payouts — collecting investors' account information there even though, the SEC says, the fund's bank accounts already sat at a negative balance.
+
+The complaint also notes that Sarabia had run a similar scheme before: in 2012, California prosecutors charged him and Sanchez-Majano with securities fraud, and in July 2014 both pleaded guilty to grand theft under California Penal Code Section 487(a), were sentenced to four years in prison, and were ordered to pay more than $1 million in restitution to their earlier victims — a history the SEC says Sarabia never disclosed to a single Bonanza Global investor. Washington state's Department of Financial Institutions separately found in a January 2024 order that Bonanza had sold unregistered securities to Washington residents and ordered the company, Sarabia, and Sanchez-Majano to cease and desist and pay fines. Sarabia has agreed to settle the SEC's case by consenting to a permanent injunction and paying disgorgement of $825,000 plus prejudgment interest of $215,137, subject to court approval; the settlement does not resolve whether he faces any separate criminal charges.
+
+Sarabia's case is a study in how quickly an affinity-fraud promoter can rebuild after a first conviction: a decade after pleading guilty to grand theft and serving prison time for defrauding investors once, he was back running the same playbook — a hedge fund with no traders, a guarantee with no funds behind it, and a "safety net" that, when investors finally asked for their money, caught no one at all.`,
+    sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26633',
+  },
+);
