@@ -9034,3 +9034,25 @@ Pre-IPO access is one of the harder investment pitches for an outside investor t
     sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26572',
   },
 );
+
+// A multistate consumer-protection settlement against the company itself;
+// no individual GreenSky executive was named or charged, and no
+// rights-cleared photo of the company or a relevant office was located.
+NotoriousGM.push(
+  {
+    title: 'GreenSky and the Home-Improvement Loans Seniors With Dementia Never Approved',
+    slug: 'greensky-predatory-home-improvement-loan-settlement',
+    author: 'ScamShield Editorial',
+    tags: ['notorious'],
+    body: `GreenSky is a financial technology company that doesn't lend money to consumers directly — it sits between a contractor and a bank, letting home-improvement companies (and, for years, health-care providers) offer customers point-of-sale financing on the spot, for loans that could run as high as $25,000 at interest rates up to 25% APR. That business model depends entirely on trusting the merchants GreenSky authorizes to originate loans in its name, since the merchant, not GreenSky, is usually the one sitting across the table from the customer when the loan paperwork gets signed.
+
+According to a multistate investigation led by the Texas Attorney General's Office, that trust broke down for years. Texans and consumers in several other states reported that loans were issued in their names without their knowledge, that loan terms were misrepresented to them, and that elderly individuals — including people suffering from dementia — were specifically targeted by merchants and pressured into loan agreements they had not legally consented to. Consumers also told investigators that GreenSky failed to cancel loans even after they made valid cancellation requests, and that some were held financially responsible for home-improvement loans despite the fact that no work had ever been performed.
+
+It was not the first time regulators had found the same underlying failure. In a July 2021 consent order, the Consumer Financial Protection Bureau found that GreenSky had received at least 6,000 consumer complaints between 2014 and 2019 from people who said they never authorized the loan applications submitted in their names, and that the company's origination and servicing program was structured in a way that let those unauthorized loans through; the CFPB ordered GreenSky to refund or cancel up to $9 million in affected loans and pay a $2.5 million civil penalty. Goldman Sachs bought GreenSky in a deal that closed in March 2022 and sold it in March 2024 to a consortium led by Sixth Street, and it was under that new ownership that the multistate investigation into the same category of complaint — merchants originating loans consumers never approved — came to a head.
+
+Attorney General Ken Paxton announced the resulting settlement, joined by the attorneys general of Georgia, Florida, Alabama, Alaska, and the District of Columbia, on May 28, 2026. GreenSky Holdings, LLC and GreenSky, LLC agreed to pay a total of $10 million: roughly $6.5 million earmarked for consumer restitution, a $575,000 civil penalty, and about $2.9 million reimbursing the states for their attorneys' fees and investigative costs. Beyond the money, the agreement requires GreenSky to adopt heightened protections specifically for senior citizens and disabled consumers and to file yearly compliance reports with the participating attorneys general offices. "GreenSky broke the law, and now the company is being held accountable for taking advantage of consumers," Paxton said in announcing the settlement.
+
+A point-of-sale lending model built around trusting third-party merchants to get a borrower's authorization right is only as reliable as the incentive those merchants have to get it right — and a merchant paid on the sale, not the loan's long-term performance, has every reason to sign a customer up for financing regardless of whether that customer fully understood, or ever agreed to, what they were signing. GreenSky's 2021 federal settlement was supposed to fix exactly that gap in its verification process; the states' 2026 case alleges the same failure, with the same vulnerable population bearing the cost, kept recurring for years afterward.`,
+    sourceUrl: 'https://www.texasattorneygeneral.gov/news/releases/attorney-general-ken-paxton-secures-millions-victims-fraudulent-loan-scheme-targeted-senior-citizens',
+  },
+);
