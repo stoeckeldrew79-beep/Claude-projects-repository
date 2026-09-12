@@ -7782,3 +7782,31 @@ UsAF.push({
     isHistorical: true,
     firstRecorded: '2015-07-20',
 });
+
+UsAF.push({
+    name: 'Evelyn Langford American Samoa Tsunami-Recovery Grant Bribery Scheme',
+    slug: 'american-samoa-langford-tsunami-recovery-grant-bribery',
+    description: `Evelyn Langford, Director of the Department of Human Resources for the Government of American Samoa (ASG), was charged with partial oversight of a $24.8 million U.S. Department of Labor National Emergency Grant awarded to the territory to fund recovery jobs after the devastating September 2009 tsunami. In February 2012, ASG signed a service contract steering roughly $4.7 million of that disaster-recovery grant to the Native Hawaiian Holding Company Inc. (NHHC) to develop a call-center industry in American Samoa, a contract Langford signed on the government's behalf alongside NHHC representative Quin Rudin; prosecutors said Rudin then paid Langford $10,000 in April 2012 and a further $250,000 in May 2012, after which she took favorable official action on NHHC's behalf in administering the grant. Langford pleaded guilty on March 20, 2015 in the Northern District of California to one count of wire fraud and one count of bribery, and was sentenced in June 2015 to 22 months in prison and ordered to pay $260,000 in restitution; ASG separately recovered only a fraction of the NEG funds NHHC was found to have misused. The case shows how a disaster-recovery grant meant to put tsunami survivors back to work can instead be diverted through kickbacks paid to the single official controlling which contractor gets the money — a risk that isn't unique to American Samoa but is especially acute in a small territory where a handful of officials can control an entire federal grant's disbursement; residents and contractors who suspect a government employee is steering a disaster-relief or emergency-grant contract in exchange for payment can report it to the FBI or the U.S. Department of Labor's Office of Inspector General rather than assume a signed government contract is, by itself, proof the money was awarded fairly.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'medium',
+    sources: ['U.S. Department of Justice, Northern District of California', 'Radio New Zealand (RNZ) Pacific'],
+    sourceUrl: 'https://www.justice.gov/usao-ndca/pr/former-american-samoa-government-official-sentenced-22-months-prison',
+    country: 'US',
+    state: 'AS',
+    isHistorical: true,
+    firstRecorded: '2012-04-01',
+});
+
+UsAF.push({
+    name: "Mine Pase American Samoa Special Services Commission AmeriCorps Grant Theft",
+    slug: 'american-samoa-pase-americorps-grant-theft',
+    description: `Mine S. Pase served as executive director of the American Samoa Special Services Commission from March 2001 to October 2010, a period in which the commission and its programs received a total of $9.4 million in AmeriCorps grant funds from the Corporation for National and Community Service to run community-service programs across the territory. According to her plea agreement, Pase arranged for herself, commissioners, commission staff, and their relatives to receive $325,408 in federal grant money they were not lawfully entitled to, including $109,532 billed as reimbursement for official business trips that were never actually taken and $78,889 charged to the grant for vacation trips to Apia, in nearby independent Samoa, disguised as legitimate program travel. Pase pleaded guilty on November 18, 2011 in the U.S. District Court for the District of Columbia to a one-count criminal information charging conspiracy to commit theft of federal funds, and U.S. District Judge Reggie B. Walton sentenced her in March 2012 to 14 months in prison, three years of supervised release, and $325,408 in restitution — the full amount she admitted diverting. The case is a reminder that a federal grant awarded to a small territorial agency can be treated as a personal travel budget by an executive with unchecked signing authority over it, particularly when the same person who approves an expense is also the one submitting and benefiting from it; any AmeriCorps grantee, board member, or community member who notices a nonprofit's federal grant funds being used for travel or expenses that don't match the program's actual activities can report suspected fraud directly to the AmeriCorps Office of Inspector General rather than assume an executive director's expense reports are automatically legitimate.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'medium',
+    sources: ['U.S. Department of Justice, Office of Public Affairs', 'Samoa News'],
+    sourceUrl: 'https://www.justice.gov/archives/opa/pr/former-executive-director-american-samoa-special-services-commission-sentenced-14-months',
+    country: 'US',
+    state: 'AS',
+    isHistorical: true,
+    firstRecorded: '2011-11-18',
+});
