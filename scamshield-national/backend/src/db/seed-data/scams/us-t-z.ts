@@ -3795,3 +3795,17 @@ UsTZ.push({
     isHistorical: true,
     firstRecorded: '2017-09-01',
 });
+
+UsTZ.push({
+    name: 'St. Thomas Jailhouse Impersonation Fraud Scheme (Yamini Potter)',
+    slug: 'virgin-islands-potter-jailhouse-impersonation-fraud-scheme',
+    description: `Yamini Potter, a St. Thomas man previously convicted of impersonating an FBI agent, ran a fraud scheme from behind bars, using his Virgin Islands Bureau of Corrections phone privileges between May 2019 and October 23, 2020 to call at least three victims — including a former doctor — while posing as senior territorial and federal officials to collect money for a lawsuit that did not exist. Federal prosecutors say Potter impersonated Virgin Islands Attorney General Denise George on 78 separate calls, former Lieutenant Governor Osbert Potter (falsely claiming to be his son) on 47 calls, former U.S. District Judge Curtis Gomez on nine calls, and U.S. Magistrate Judge Ruth Miller on four calls, telling victims he could help them pursue a multimillion-dollar judgment against the United States and, in one case, recover a victim's revoked medical license — collecting $120,650 in supposed legal fees along the way, even though investigators found no such lawsuit anywhere in the federal court system. Potter was charged with wire fraud, impersonating a federal judge, obstruction of justice, acting in an assumed character under Virgin Islands law, and grand larceny, and pleaded guilty in May 2021 to wire fraud and witness tampering/obstruction of justice; prosecutors noted that incarceration hadn't stopped him from running the same scheme through the very phone system meant to let inmates call family. A Virgin Islands federal judge sentenced Potter in March 2022 to 33 months in prison and ordered him to pay the full $120,650 in restitution to his victims. The case is a reminder that a caller claiming to be a judge, attorney general, or other senior official offering to pursue a lawsuit on someone's behalf — especially one who calls repeatedly demanding money for "legal fees" — should be verified by contacting that official's actual office directly, since a real government attorney does not solicit payment over the phone toward a case they can't otherwise produce a docket number for.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ["U.S. Attorney's Office, District of the Virgin Islands", 'St. Thomas Source'],
+    sourceUrl: 'https://www.justice.gov/usao-vi/pr/convicted-impersonator-pleads-guilty-wire-fraud-involving-elderly-victims-and-obstruction',
+    country: 'US',
+    state: 'VI',
+    isHistorical: true,
+    firstRecorded: '2019-05-01',
+});

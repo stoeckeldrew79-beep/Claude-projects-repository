@@ -6924,3 +6924,17 @@ UsGM.push({
     isHistorical: true,
     firstRecorded: '2015-09-01',
 });
+
+UsGM.push({
+    name: "Kailua Man's Yacht and Home-Equity Fraud Against Elderly Californian (John Tamahere McCabe)",
+    slug: 'hawaii-mccabe-yacht-home-equity-elder-fraud',
+    description: `John Tamahere McCabe, 42, of Kailua, Hawaii, spent nearly seven years — from July 2017 to January 2024 — defrauding a 79-year-old California man out of roughly $1.8 million through two separate schemes built on the victim's trust. McCabe first offered to sell the victim's yacht on his behalf, then used fabricated transfer documents to sign the vessel over to himself and pocketed the sale proceeds instead of passing them along; separately, he persuaded the elderly victim to place his roughly $1 million Irvine, California home into a limited liability company that McCabe controlled, then took out $1 million in loans secured against the property in the LLC's name, spent the borrowed money, and defaulted — triggering a foreclosure that left the victim homeless. Because the victim and the property were in California, the case was prosecuted by the U.S. Attorney's Office for the Central District of California; federal prosecutors there, working with the FBI and the Irvine Police Department, secured McCabe's conviction and a four-year federal prison sentence, along with a restitution order of $1,814,000 to the victim. The case is a reminder that handing someone — even someone personally trusted — legal control of an asset, whether through a power of attorney, an LLC, or a simple handshake agreement to sell something on your behalf, creates a real opportunity to borrow against or sell that asset without your knowledge until a bill or foreclosure notice arrives; anyone placing a home or other major asset into another person's name or a jointly controlled entity should keep independent, direct account access and periodically check public property and lien records rather than relying on the other party's word that nothing has changed.`,
+    categorySlug: 'mortgage-foreclosure-scams',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office, Central District of California", 'Hawaii News Now'],
+    sourceUrl: 'https://www.hawaiinewsnow.com/2026/01/29/hawaii-man-sentenced-after-defrauding-elderly-man-out-nearly-2-million/',
+    country: 'US',
+    state: 'HI',
+    isHistorical: true,
+    firstRecorded: '2017-07-01',
+});
