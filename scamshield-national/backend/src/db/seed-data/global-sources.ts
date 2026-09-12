@@ -539,4 +539,76 @@ export const SEED_GLOBAL_SOURCES: SeedGlobalSource[] = [
       "The Principality of Liechtenstein's national police publishes a detailed annual report (Jahresbericht) with a full crime-statistics breakdown, including a dedicated Betrug/Untreue (fraud/breach of trust) offense category — 184 recorded cases in the 2021 edition — alongside year-on-year comparisons and clearance rates, archived on this page back to 2009.",
     data_type: 'annual_report',
   },
+  {
+    agency_name: 'Economic and Financial Crimes Commission (EFCC)',
+    country: 'NG',
+    country_name: 'Nigeria',
+    url: 'https://www.efcc.gov.ng/',
+    description:
+      "Nigeria's principal anti-graft law enforcement agency investigates and prosecutes advance-fee fraud (\"419\") schemes, cybercrime, and money laundering, publishing case news, conviction announcements, and public scam-pattern advisories (its \"Red Alert\" series) on its website rather than a single consolidated annual report or dataset.",
+    data_type: 'public_stats',
+  },
+  {
+    agency_name: 'National Cyber Crime Investigation Agency (NCCIA)',
+    country: 'PK',
+    country_name: 'Pakistan',
+    url: 'https://www.nccia.gov.pk/',
+    description:
+      "Pakistan's federal cybercrime authority — successor to the FIA's Cyber Crime Wing (NR3C) — investigates online fraud, phishing, and digital harassment reported through its portal and helpline; complaint volumes, case breakdowns, and conviction figures are compiled into an annual report presented to parliament.",
+    data_type: 'annual_report',
+  },
+  {
+    agency_name: 'PNP Anti-Cybercrime Group (ACG)',
+    country: 'PH',
+    country_name: 'Philippines',
+    url: 'https://acg.pnp.gov.ph/',
+    description:
+      "The Philippine National Police's dedicated cybercrime unit investigates online scams, identity theft, and other ICT-enabled offenses reported through its eComplaint portal and hotline, and releases case-volume figures through press statements rather than a standalone public report or dataset.",
+    data_type: 'public_stats',
+  },
+  {
+    agency_name: 'National Consumer Commission (NCC)',
+    country: 'ZA',
+    country_name: 'South Africa',
+    url: 'https://thencc.org.za/',
+    description:
+      "Established under the Consumer Protection Act, South Africa's national consumer regulator investigates complaints against suppliers — including fraudulent and deceptive marketing practices — filed through its online e-Services portal, and reports on enforcement outcomes through its own communications rather than a routine open dataset.",
+    data_type: 'public_stats',
+  },
+  {
+    agency_name: 'National KE-CIRT/CC (Communications Authority of Kenya)',
+    country: 'KE',
+    country_name: 'Kenya',
+    url: 'https://www.ke-cirt.go.ke/',
+    description:
+      "Kenya's national Computer Incident Response Team, run by the Communications Authority, accepts public reports of phishing, mobile-money fraud, and other cyber incidents, and publishes detailed quarterly cybersecurity reports with incident-volume statistics.",
+    data_type: 'public_stats',
+  },
+  {
+    agency_name: 'Cyber Police Department of Ukraine',
+    country: 'UA',
+    country_name: 'Ukraine',
+    url: 'https://cyberpolice.gov.ua/',
+    description:
+      "Ukraine's national police cybercrime unit accepts public reports of phishing, malware, and online fraud through its website, and publishes case write-ups and threat advisories in its news section rather than a consolidated report or downloadable dataset.",
+    data_type: 'public_stats',
+  },
+  {
+    agency_name: 'eCrime (UAE Ministry of Interior / Abu Dhabi Police)',
+    country: 'AE',
+    country_name: 'United Arab Emirates',
+    url: 'https://www.ecrime.ae/',
+    description:
+      "The UAE's federal online platform for reporting cybercrime — including digital fraud, extortion, and identity theft — lets residents and visitors file complaints, including anonymously, directly with police; it functions as a reporting channel rather than a source of published statistics or an open dataset.",
+    data_type: 'public_stats',
+  },
+  {
+    agency_name: 'Consumer Protection Agency (CPA)',
+    country: 'EG',
+    country_name: 'Egypt',
+    url: 'https://cpa.gov.eg/en-us/',
+    description:
+      "Egypt's Ministry of Trade and Industry-affiliated consumer protection body investigates complaints about fraudulent and deceptive commercial practices filed through its hotline and online complaint form, publishing consumer advisories rather than a formal annual report or open dataset.",
+    data_type: 'public_stats',
+  },
 ];
