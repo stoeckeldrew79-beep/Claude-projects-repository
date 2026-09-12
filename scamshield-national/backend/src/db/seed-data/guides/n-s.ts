@@ -4410,6 +4410,23 @@ Before putting money into any private fund — real estate-backed or otherwise �
 );
 
 GuidesNS.push({
+  title: 'Social Security Fairness Act Scams: How Fraudsters Are Exploiting a Real $17 Billion Payout',
+  slug: 'social-security-fairness-act-retroactive-payment-scams',
+  author: 'ScamShield Editorial',
+  tags: ['guide', 'social-security-fairness-act', 'government-imposter-scams'],
+  sourceUrl: 'https://www.gobankingrates.com/retirement/social-security/targeted-by-security-fairness-act-scam-how-to-report-social-security-fraud/',
+  body: `The Social Security Fairness Act, signed into law on January 5, 2025, repealed two provisions — the Windfall Elimination Provision (WEP) and the Government Pension Offset (GPO) — that had reduced or eliminated Social Security benefits for roughly 3.2 million people who also received a pension from work not covered by Social Security, including many teachers, firefighters, police officers, and other public-sector employees. Because the repeal was retroactive to January 2024, the Social Security Administration didn't just raise these beneficiaries' future monthly checks — it also owed most of them a one-time lump-sum payment covering the gap. The agency moved fast: by early July 2025, it had issued more than 3.1 million retroactive payments totaling over $17 billion, averaging around $6,710 per person, months ahead of its original schedule.
+
+A payout that large, that specific, and that widely reported was always going to draw scammers, and it did almost immediately. The Social Security Administration's Office of the Inspector General (OIG) warned the public to watch for Fairness Act-themed scams as part of its sixth annual "Slam the Scam" awareness day in March 2025. The pattern is a variation on classic government-imposter fraud dressed up in newly relevant language: a call, text, email, or letter claims to be from the SSA, references the real retroactive payment by name, and says the recipient's payment is "on hold," "pending verification," or ready to be released — but only after they confirm their Social Security number, bank account and routing numbers, or Medicare details, sometimes through a link to a convincing fake SSA login page. Some versions go further and claim a fee or "processing charge" must be paid, by gift card, wire transfer, or cryptocurrency, before the lump sum can be deposited.
+
+What makes this scam effective is that the underlying event is completely real. Anyone who taught school, worked as a firefighter, or served in another public-sector job affected by WEP or GPO has likely heard about the Fairness Act payments from a news story, a union newsletter, or a coworker who already received one — which makes an unexpected call referencing "your retroactive payment" sound plausible rather than out of the blue. Scammers lean on that familiarity and on urgency, pushing recipients to act immediately rather than pause to verify, exactly when the promise of a $6,000-plus check makes people least likely to want to risk missing it.
+
+The Social Security Administration has been direct about the actual mechanics: it does not require any recipient to pay a fee, "unlock" a payment, or confirm banking information over the phone, by text, or by email to receive money owed to them, including a Fairness Act retroactive payment. Retroactive payments and adjusted monthly benefits are calculated and issued automatically by the SSA based on records it already has; nothing about the process requires a beneficiary to click a link or read out a bank account number to a caller. Any contact demanding payment, threatening a benefit suspension, or asking for sensitive information to "process" a payment already announced publicly should be treated as fraudulent regardless of how official the caller ID or letterhead looks — caller ID and letterhead are both trivially easy to spoof.
+
+If you're expecting or have questions about a Fairness Act adjustment, check your status directly through a "my Social Security" account at ssa.gov, or call the SSA's main line at 1-800-772-1213 using a number you looked up yourself rather than one provided by the person who contacted you. If you receive a suspicious call, text, or email referencing this payment, do not click any links or provide information, and report it to the SSA Office of the Inspector General at oig.ssa.gov, which tracks these reports specifically to identify and shut down active scam campaigns targeting the program.`,
+});
+
+GuidesNS.push({
   title: "Spear-Phishing Tax Preparers: How a Fake \"New Client\" Email Can Expose an Entire Firm's Data",
   slug: 'spear-phishing-tax-preparers-new-client-scam-guide',
   author: 'ScamShield Editorial',
