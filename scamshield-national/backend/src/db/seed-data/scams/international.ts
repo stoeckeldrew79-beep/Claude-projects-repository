@@ -12726,6 +12726,26 @@ International.push(
     sourceUrl: 'https://nbdominica.com/statement-on-spam-emails/',
     country: 'DM',
   },
+  {
+    name: 'Fraudulent Stablecoin Impersonating the Eastern Caribbean Central Bank',
+    slug: 'dominica-eccb-fraudulent-stablecoin-impersonation',
+    description: `The Eastern Caribbean Central Bank, the monetary authority for Dominica and seven other currency-union members, warned that a crypto token being promoted as a stablecoin on the Solana blockchain was fraudulently using the ECCB's official logo in its online promotions to look like an authentic, bank-backed digital currency. The ECCB said the representation is false, that it does not currently operate any digital currency or stablecoin in any market — its own DCash pilot had already concluded in January 2024 — and that it was working with the relevant authorities to stop the misuse of its name and branding. The bank cautioned residents to research carefully before joining online crypto token ventures, which it said are frequently used as vehicles for "rug pull" schemes, where promoters inflate a token's price before selling off their own holdings, and "pump and dump" schemes run the same way by coordinated holders, leaving later participants holding worthless coins with little chance of recovering their money.`,
+    categorySlug: 'cryptocurrency-scams',
+    alertLevel: 'medium',
+    sources: ['Eastern Caribbean Central Bank (ECCB)'],
+    sourceUrl: 'https://www.eccb-centralbank.org/news/eccb-warns-of-fraudulent-stablecoin',
+    country: 'DM',
+  },
+  {
+    name: 'Creators Alliance Pyramid Scheme & AI Voice-Cloning Fraud Warning',
+    slug: 'dominica-creators-alliance-pyramid-ai-voice-cloning-warning',
+    description: `The Eastern Caribbean Central Bank and the CEO of the Eastern Caribbean Securities Regulatory Commission (ECSRC), which oversees investor protection across Dominica and the rest of the currency union, publicly warned residents about the Creators Alliance financial fraud case, a pyramid scheme that unfolded across several member countries in which participants were encouraged to invest money and recruit others into the programme while their funds were converted to cryptocurrency and passed on to the scheme's owners. The regulator listed the red flags of such schemes — returns promised with little or no risk, pressure to recruit new participants, and programmes not authorised by any securities regulator — and noted that trust in a scheme is not established just because a family member or friend recommended it. The warning also flagged a newer danger: scammers increasingly using artificial intelligence to clone the voices and images of people a victim knows and trusts in order to convince them to hand over money, and it directed anyone who loses money to a financial scam to report it to the police, their national Financial Intelligence Unit, or the ECSRC's own complaint form.`,
+    categorySlug: 'ponzi-pyramid-schemes',
+    alertLevel: 'medium',
+    sources: ['Eastern Caribbean Central Bank (ECCB)', 'Eastern Caribbean Securities Regulatory Commission (ECSRC)'],
+    sourceUrl: 'https://www.eccb-centralbank.org/news/eccb-advises-citizens-and-residents-to-protect-themselves-against-financial-scams',
+    country: 'DM',
+  },
 );
 
 International.push(
