@@ -16474,14 +16474,4 @@ International.push(
     sources: ['Agenția Națională de Administrare Fiscală (ANAF) – Direcția Generală Antifraudă Fiscală'],
     sourceUrl: 'https://static.anaf.ro/static/3/Anaf/20260417122739_com_387%20avertizare%20vishing.pdf',
   },
-  {
-    name: 'Fake Traffic-Fine SMS and Forged Police-Document WhatsApp Scam',
-    slug: 'romania-fake-traffic-fine-sms-forged-police-document-scam',
-    description: `The Romanian Police issued a public warning on August 2, 2026 about an SMS and messaging-app scam impersonating "Poliția Română" itself, warning residents not to pay any traffic fine received this way. The scheme opens with a text message or WhatsApp notification claiming the recipient committed a speeding violation and must pay a fine within a very short deadline, with the message threatening forced debt collection, a frozen bank account, or a blocked vehicle inspection or registration renewal if the recipient does not act immediately — pressure tactics designed to push a payment through an embedded link before the recipient stops to check the claim. Police describe a related and more aggressive variant that starts with a phone call in which the caller poses as a police officer, tells the victim they are implicated in a financial-fraud investigation or that a loan has been taken out in their name, and then sends over WhatsApp falsified documents carrying the letterhead and official insignia of Romanian state institutions to manufacture the appearance of a genuine investigation and push the victim into a panicked, immediate reaction. Authorities identify this as a variant of the internationally recognized "government impersonation scam" pattern and stress that any obligation to the state should be checked only through Romania's official payment portal, ghiseul.ro, typed directly into a browser rather than reached through any link sent by text or message, and that a genuine fine or investigation notice is never sent as an SMS with a payment link attached. Residents are told to watch for suspicious domain extensions such as .cc, .top, or .vip mimicking legitimate government sites, never to enter card numbers, passwords, or personal data through a link received this way, and — if any details were already entered — to contact their bank immediately to block the card and watch for unauthorized transactions.`,
-    categorySlug: 'government-impersonation',
-    country: 'RO',
-    alertLevel: 'high',
-    sources: ['Poliția Română', 'Găzarul', 'Realitatea.NET'],
-    sourceUrl: 'https://gazarul.ro/2026/08/02/alerta-nu-platiti-amenzile-primite-prin-sms-politia-romana-avertizeaza-asupra-unei-noi-escrocherii-online/',
-  },
 );
