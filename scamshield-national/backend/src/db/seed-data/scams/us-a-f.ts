@@ -7754,3 +7754,17 @@ UsAF.push({
     isHistorical: true,
     firstRecorded: '2013-06-19',
 });
+
+UsAF.push({
+    name: 'American Samoa Department of Education Phishing Job-Offer Scam',
+    slug: 'american-samoa-department-education-phishing-job-scam',
+    description: `The American Samoa Department of Education (ASDOE) warned its staff on August 4, 2026 about a wave of phishing emails targeting employee accounts using fake job opportunities as bait, cautioning that the messages are "cleverly crafted to trick individuals into revealing sensitive information, such as login credentials, passwords, and personal details." The warning came about a month after American Samoa's Office of the Attorney General, through its Consumer Protection Bureau, had separately alerted the wider territory to the same broader phishing pattern in February 2026, and ASDOE's own notice specifically flags job-offer-themed messages as the bait its staff are seeing, aimed at extracting login credentials, passwords, Social Security numbers, and banking details from Department of Education email accounts. Compromising a government employee's login is more valuable to a scammer than compromising an ordinary personal account, since a hijacked ASDOE account can be used to send further phishing messages that look legitimate to other employees, students' families, or vendors who already trust department email. ASDOE's guidance to staff is to remain skeptical of any unsolicited job-offer email, never click a link or open an attachment in one, never reply to or forward it to the sender, report it as spam or phishing instead, contact the department's technology office immediately if login credentials were ever entered on a suspicious page, and turn on multi-factor authentication so a stolen password alone isn't enough to take over an account. The same caution applies to any American Samoa resident who receives a promising, unsolicited job offer by email: verify the employer directly through a phone number or website looked up independently before providing any personal information, since a legitimate job offer will not depend on responding within the message itself.`,
+    categorySlug: 'phishing',
+    alertLevel: 'medium',
+    sources: ['American Samoa Department of Education', 'Office of the Attorney General of American Samoa — Consumer Protection Bureau', 'Samoa News'],
+    sourceUrl: 'https://www.samoanews.com/local-news/doe-staff-warned-about-danger-unsolicited-emails',
+    country: 'US',
+    state: 'AS',
+    isHistorical: true,
+    firstRecorded: '2026-08-04',
+});

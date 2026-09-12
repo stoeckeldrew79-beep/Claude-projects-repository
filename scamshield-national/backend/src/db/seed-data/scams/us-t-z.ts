@@ -3544,3 +3544,17 @@ UsTZ.push({
     country: 'US',
     state: 'VA',
 });
+
+UsTZ.push({
+    name: 'Virgin Islands Property and Procurement Email Impersonation Scam',
+    slug: 'virgin-islands-property-procurement-email-impersonation-scam',
+    description: `The U.S. Virgin Islands Department of Property and Procurement (DPP) issued an urgent public notice on August 19, 2026 warning that fraudsters were impersonating its Procurement Division staff using the lookalike email domain "@vi-gov.us," which DPP states plainly "is not an official email domain used by the Government of the Virgin Islands." The fraudulent emails, sent to vendors and members of the public who deal with the department, ask recipients to "send funds, purchase gift cards, transfer money, provide banking information, or make payments" — the same kind of request a real government procurement or vendor-payment email might plausibly make, which is what makes the lookalike domain effective. DPP's notice instructs anyone who receives one of these emails not to respond, click any links, open attachments, or share sensitive information, and to preserve the message for review rather than deleting it outright. Anyone unsure whether a communication claiming to be from DPP is genuine is told to verify it directly with the department's St. Thomas office at 340-774-0828 or its St. Croix office at 340-773-1561, Monday through Friday from 8:00 a.m. to 5:00 p.m., rather than replying to the email or calling a number the email itself provides. Because "@vi-gov.us" closely resembles the territory government's real "@vi.gov" addresses, checking a sender's exact domain character-by-character — not just the display name — is the fastest way to catch this particular impersonation before responding to any request for money, gift cards, or banking details.`,
+    categorySlug: 'business-email-compromise',
+    alertLevel: 'medium',
+    sources: ['Virgin Islands Department of Property and Procurement'],
+    sourceUrl: 'https://dpp.vi.gov/re-urgent-notice-regarding-suspicious-emails/',
+    country: 'US',
+    state: 'VI',
+    isHistorical: true,
+    firstRecorded: '2026-08-19',
+});
