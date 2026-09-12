@@ -16296,3 +16296,66 @@ International.push(
     firstRecorded: "2026-07-08",
   },
 );
+
+International.push(
+  {
+    name: "Fake Speeding Fine SMS Scam Impersonating Romanian Police",
+    slug: "romania-fake-police-traffic-fine-sms-scam",
+    description:
+      "Romania's General Inspectorate of the Police (IGPR) issued a public warning on August 2, 2026 after receiving a growing number of reports about SMS and messaging-app texts falsely claiming to come from the Romanian Police over an unpaid speeding fine. The messages create urgency with short payment deadlines and threats of added penalties, frozen bank accounts, or a blocked vehicle inspection, and include a link to a fraudulent page built to imitate Ghiseul.ro, the state's real online payment portal, where victims are prompted to enter card details to \"settle\" the supposed fine. IGPR stated plainly that \"instituțiile statului nu transmit amenzi prin SMS sau prin aplicații de mesagerie\" (state institutions do not send fines via SMS or messaging apps), and said the fraud campaign works specifically because it \"exploatează încrederea publicului în instituțiile statului\" (exploits public trust in state institutions). Police urged anyone contacted this way to never click the link in the message, to check any claimed fine only by typing www.ghiseul.ro directly into a browser rather than following a supplied link, to inspect a linked domain for suspicious extensions such as .cc, .top, or .vip before entering any information, to never enter card or personal data on a page reached through a text message, and to contact their bank immediately and report the message to police if they have already done so.",
+    categorySlug: "government-impersonation",
+    alertLevel: "high",
+    sources: ["Inspectoratul General al Poliției Române (IGPR)", "Agerpres"],
+    sourceUrl:
+      "https://agerpres.ro/social/2026/08/02/igpr-avertizeaza-asupra-unei-noi-fraude-online-in-care-este-folosita-identitatea-politiei-romane--1581510",
+    country: "RO",
+    firstRecorded: "2026-08-02",
+  },
+  {
+    name: "Fake Police Call and BNR Bank-Transfer Scam",
+    slug: "romania-fake-police-bnr-transfer-scam",
+    description:
+      "Romania's National Directorate for Cybersecurity (DNSC), together with the Romanian Police, warned on April 3, 2026 of a multi-stage fraud scenario built around impersonating both law enforcement and the National Bank of Romania (BNR). The scheme opens with a phone call from someone posing as a police officer, who tells the victim that someone else has been applying for bank loans in their name; to make the claim believable, the caller supplies fabricated details about a supposed suspect and presents forged documents such as fake police identification or a court summons, then warns the victim that a home search will take place within days. The victim is then transferred to a second fraudster posing as a representative of a bank or of the BNR itself, who guides the victim into taking out real loans and moving the funds — often by directing the victim to withdraw and deposit the money at a cryptocurrency ATM — supposedly to \"protect\" the money from the fraudulent loans. DNSC stated that, contrary to the story victims are told, \"banii ajung direct în posesia atacatorilor\" (the money goes directly into the attackers' possession) rather than to any real institution. The agencies urged citizens to treat any unsolicited call claiming loans are being taken out in their name as suspect, to never act on instructions to withdraw savings, take out a loan, or send money to a cryptocurrency ATM based on a phone call, and to verify any such claim only by contacting their bank or local police station directly through numbers they look up independently.",
+    categorySlug: "government-impersonation",
+    alertLevel: "high",
+    sources: [
+      "Directoratul Național de Securitate Cibernetică (DNSC)",
+      "Poliția Română",
+      "Agenția de presă Rador",
+    ],
+    sourceUrl:
+      "https://www.rador.ro/2026/04/03/dnsc-atrage-atentia-asupra-unui-nou-scenariu-folosit-de-infractori-pentru-frauda-de-tip-transfer-de-bani-catre-bnr/",
+    country: "RO",
+    firstRecorded: "2026-04-03",
+  },
+  {
+    name: "Fake Vehicle Listing and Compromised Merchant-Account Ring",
+    slug: "romania-fake-vehicle-listings-merchant-account-fraud-ring",
+    description:
+      "DIICOT, Romania's Directorate for Investigation of Organized Crime and Terrorism, announced on July 8, 2026 the takedown of an organized fraud ring based in Râmnicu Vâlcea that had operated since at least September 2025. According to prosecutors, the group posted more than 5,000 fake product listings — mainly vehicles — on German online marketplaces, in part by taking over at least 422 previously legitimate merchant accounts so their fraudulent ads would carry an existing seller's trusted history and reviews. Buyers who paid for goods that were never delivered had their money funneled through a network of roughly 110 bank accounts the group controlled across Romania, Germany, Spain, and the United Kingdom, structured to move funds quickly and complicate tracing. Investigators identified at least 30 victims with confirmed losses exceeding €800,000, and separately calculated that damages from the operation totaled at least €1.351 million over a single seven-month stretch between October 2025 and April 2026. The operation, carried out with German authorities, involved 12 searches and resulted in 8 arrests, including two suspects held for extradition under European arrest warrants, alongside the seizure of around €60,000 and 38,000 lei in cash, gold bars, forged identity documents, and more than €1 million in frozen assets. The case is a reminder that a seller's account history and positive reviews are not proof of legitimacy, since a real, previously trustworthy account can be hijacked and repurposed for fraud — buyers should be wary of vehicles or other high-value goods priced well below market rate and should use a marketplace's built-in buyer protection and escrow rather than wiring payment directly.",
+    categorySlug: "online-shopping-scams",
+    alertLevel: "high",
+    sources: ["Directorate for Investigation of Organized Crime and Terrorism (DIICOT)", "Mediafax"],
+    sourceUrl:
+      "https://www.mediafax.ro/stirile-zilei/peste-5000-de-anunturi-false-in-online-au-fost-gasite-de-diicot-30-de-victime-prejudiciate-cu-peste-800-000-euro-23769016",
+    country: "RO",
+    firstRecorded: "2026-07-08",
+  },
+  {
+    name: "Fake FAN Courier Delivery-Fee SMS and WhatsApp Phishing",
+    slug: "romania-fake-fan-courier-delivery-sms-phishing",
+    description:
+      "Bitdefender data cited by Romania's National Directorate for Cybersecurity (DNSC) found that more than one million Romanians were targeted in March 2026 alone by fraudulent SMS and WhatsApp messages sent in the name of FAN Courier, one of the country's largest delivery companies, prompting DNSC and FAN Courier to jointly launch an awareness campaign called \"Exercițiul anti-repezeală\" (the Anti-Haste Exercise) on September 10, 2026. The messages claim a package cannot be delivered because of an incomplete address, ask the recipient to choose a pickup locker, or demand an urgent \"storage\" or redelivery fee, using sender names and web addresses that subtly swap letters for numbers to mimic FAN Courier's real branding; the embedded link leads to a cloned page built to harvest card details, personal information, or hijack the victim's WhatsApp account. FAN Courier's marketing director, Adriana Manu, said the scheme works because \"attackers exploit the concrete context: people awaiting packages don't want to lose their delivery,\" while DNSC communications manager Mihai Rotariu said \"patience is the best weapon against online fraud\" and that pausing to examine a link before clicking prevents most such fraud. The campaign urges recipients to verify a delivery only through the courier's own app or website using their real tracking (AWB) number, to scrutinize sender names and domains for altered characters before clicking, to treat any message demanding urgent payment or a verification code as suspect, and to report suspicious messages to cyber.security@fancourier.ro or to DNSC via pnrisc.dnsc.ro or the 1911 hotline.",
+    categorySlug: "package-delivery-scams",
+    alertLevel: "high",
+    sources: [
+      "Directoratul Național de Securitate Cibernetică (DNSC)",
+      "FAN Courier",
+      "Bitdefender",
+    ],
+    sourceUrl:
+      "https://www.economistul.ro/comunicat/campanie-antifrauda-fan-courier-si-dnsc-lanseaza-exercitiul-anti-repezeala-impotriva-mesajelor-suspecte-105544/",
+    country: "RO",
+    firstRecorded: "2026-09-10",
+  },
+);
