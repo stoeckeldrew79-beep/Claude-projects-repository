@@ -4055,6 +4055,10 @@ Consumers who want to verify a settlement notice referencing this case, or who s
     slug: "summit-medical-group-2024-data-breach-settlement-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "summit-medical-group-2024-data-breach-settlement"],
+    // representative photo — replace with an exact match if found
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Stethoscope-2.jpg?width=1200",
+    coverImageCredit: "Photo: HujiStat, Public Domain, via Wikimedia Commons — representative photo of a stethoscope",
+    coverImagePosition: 50,
     sourceUrl: "https://www.classaction.org/news/summit-medical-group-settlement-resolves-lawsuit-over-2024-data-breach",
     body: `Summit Medical Group, PLLC is a large primary and specialty care network serving patients across Middle Tennessee, the kind of everyday healthcare provider whose systems hold years of visit history for entire families even though most patients never think about where that data is actually stored. In September 2024, the network discovered unauthorized access to its network. A resulting class action, Harris, et al. v. Summit Medical Group, PLLC (Case No. 2-119-25, filed July 9, 2025, in Tennessee state court), alleged the practice failed to protect current and former patients' and employees' confidential information from the intrusion. Summit has not admitted wrongdoing but agreed to settle rather than continue litigating, and the court granted preliminary approval on July 28, 2026.
 
@@ -4071,6 +4075,10 @@ If you're a current or former Summit Medical Group patient or employee and recei
     slug: "nelnet-2022-data-breach-settlement-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "nelnet-2022-data-breach-settlement"],
+    // representative photo — replace with an exact match if found
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Graduation-cap-g6c3c0e4d0_1920.jpg?width=1200",
+    coverImageCredit: "Photo: McElspeth, CC0, via Wikimedia Commons — representative photo of a graduation cap",
+    coverImagePosition: 50,
     sourceUrl: "https://www.classaction.org/news/10m-nelnet-settlement-resolves-class-action-lawsuit-over-june-2022-data-breach",
     body: `Nelnet Servicing, LLC, one of the country's largest student loan servicers, disclosed in August 2022 that it had found unauthorized access to its systems dating back to June 2022 — but many of the borrowers ultimately affected had never dealt with Nelnet directly. According to the settlement, Nelnet provides the underlying technology platform that two other loan organizations, Edfinancial Services and the Oklahoma Student Loan Authority (OSLA), use to service their own borrowers' accounts, and the breach exposed data belonging to those OSLA and Edfinancial borrowers as well as Nelnet's own. A consolidated class action, In re: Data Security Cases Against Nelnet Servicing, LLC (Case No. 4:22-cv-03191, U.S. District Court for the District of Nebraska), alleged Nelnet, Edfinancial, and OSLA failed to implement security measures adequate to protect that data. The defendants deny wrongdoing but agreed to a $10 million settlement rather than continue litigating, and U.S. District Judge John M. Gerrard entered final judgment approving it in May 2026, calling the deal "fair, reasonable, and adequate."
 
