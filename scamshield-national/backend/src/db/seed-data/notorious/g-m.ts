@@ -8603,3 +8603,25 @@ The Dimitrions' fraud followed a pattern familiar to foreclosure-rescue scams: a
     sourceUrl: 'https://www.splcenter.org/resources/reports/looking-little-brother/',
   },
 );
+
+// No rights-cleared photo of Myers has surfaced — this is a pending 2026
+// case with no mugshot on Wikimedia Commons. sourceUrl below serves as
+// the "read the full story" link instead of a generic photo.
+NotoriousGM.push(
+  {
+    title: "John Sterling Myers and the Fake Father-in-Law's Fortune Behind Sterling Capital",
+    slug: 'john-sterling-myers-sterling-capital-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    body: `Note: this entry describes a pending federal indictment and a parallel civil complaint. John Sterling Myers has not been convicted of any crime and has not been found liable in the SEC's civil case, and the allegations below are unproven as of this writing.
+
+John Sterling Myers ran Sterling Capital, LLC and Sterling Capital Management, LLC out of a home office in Chicago, marketing them as investment advisory firms and pooling client money into a fund called Sterling Capital Investments, LLC. Starting in January 2022, according to the Securities and Exchange Commission, Myers courted investors by touting several years of prior Wall Street experience as an analyst and associate, then sent them quarterly account statements claiming annual returns of 16 to 54 percent — consistently beating the S&P 500 — through a strategy built on short-dated options trades.
+
+The trades were real; the returns were not. The SEC alleges Myers's options positions actually lost money, and rather than disclose that, he fabricated the statements clients saw. When the fund's primary brokerage account was closed in March 2024, prosecutors say Myers began routing new investor money through his personal accounts instead, using it to pay earlier investors — the Ponzi-scheme mechanic of paying old obligations with new deposits — while continuing to solicit more. To keep the fund's reported value from collapsing on paper, the SEC alleges Myers padded its books with assets that had nothing to do with any options fund: his father-in-law's retirement accounts, a house, and a piece of land, all counted as if they belonged to Sterling Capital, on top of purely hypothetical future earnings booked as if the fund had already made the money. He also withheld the tax forms investors were legally owed; separately, on his own personal returns, he reported trading losses of more than $890,000 in 2023 and over $1 million in 2024 — numbers that directly contradicted the double-digit gains his own investors were being told about. When investors eventually asked to withdraw their money, Myers allegedly told them it was "inaccessible due to government actions."
+
+By the time regulators moved, Myers had raised roughly $4 million from at least 28 investors across five states, including a husband and wife in Michigan; more than $3.6 million of it was gone, at least $1.8 million had gone directly into Myers's own accounts, only about $398,000 had ever been returned to investors, and the fund's remaining accounts held less than $350. The SEC filed a civil fraud complaint against Myers and his two companies on June 5, 2026 in the U.S. District Court for the Northern District of Illinois, alleging violations of the securities laws' antifraud provisions and seeking a permanent injunction, disgorgement, and civil penalties. A federal grand jury separately indicted Myers on four counts of wire fraud, each carrying a maximum of 20 years in prison, and he was arraigned before U.S. District Judge Edmond E. Chang in Chicago. As of this writing, the criminal and civil cases both remain pending.
+
+Fabricating an account statement is common enough in investment fraud that regulators warn about it constantly, but padding a fund's reported assets with a relative's actual retirement savings — money Myers's father-in-law presumably still believed was his own — is a more specific kind of deception: it borrows a real person's real net worth to make a fictional fund look solvent to people who have no way to check whose money is actually backing it. And the gap between what Myers told his investors (double-digit annual gains) and what he told the IRS about his own trading (six-figure annual losses) is the kind of contradiction that doesn't survive a side-by-side look — which is exactly why fabricated performance figures are built to be shown only to people who never get to compare notes.`,
+    sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26562',
+  },
+);
