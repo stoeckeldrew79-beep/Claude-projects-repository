@@ -7924,6 +7924,10 @@ Anyone with questions about a FloatMe refund payment can contact the refund admi
     slug: "amazon-returns-policy-settlement-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "amazon-returns-policy-settlement"],
+    // representative photo — replace with an exact match if found
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Amazon_Box_(Picture_1).JPG?width=1200",
+    coverImageCredit: "Photo: Matthew Paul Argall, CC BY-SA 3.0, via Wikimedia Commons — representative photo of an Amazon shipping box",
+    coverImagePosition: 50,
     sourceUrl: "https://www.classaction.org/news/amazon-to-pay-309.5m-to-end-class-action-lawsuit-over-return-policies",
     body: `Sending something back to Amazon is supposed to be the easy part of online shopping — print a label, drop off the box, and get your money back. A consolidated federal class action, In re: Amazon.com, Inc. Return Policy Litigation (Case No. 2:23-cv-01372, U.S. District Court for the Western District of Washington, before Judge Jamal N. Whitehead), alleged that for a huge number of customers over nearly a decade, that promise didn't hold: Amazon marketed "free, no-hassle returns" while, according to the complaint, routinely failing to process refunds within the 30 days its own policies promised, sometimes not issuing a refund at all, issuing an incorrect amount, or — in a pattern several plaintiffs specifically described — re-charging a customer's card for an item they had already returned and been refunded for once. Amazon has not admitted wrongdoing but agreed to resolve the case rather than continue litigating, and a federal judge in Seattle granted preliminary approval to the settlement on August 18, 2026.
 
