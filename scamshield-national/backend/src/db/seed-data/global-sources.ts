@@ -359,4 +359,13 @@ export const SEED_GLOBAL_SOURCES: SeedGlobalSource[] = [
       "Norway's national economic-crime authority, part of the police and prosecution service, publishes a periodically updated fraud-threat report analyzing scam types — investment fraud, romance scams, director/invoice fraud — and issues press statements with year-on-year police-reported fraud figures; fraud has consistently made up over 80% of all recorded economic-crime reports in recent years.",
     data_type: 'public_stats',
   },
+  {
+    agency_name: 'Unidad Fiscal Especializada en Ciberdelincuencia (UFECI)',
+    country: 'AR',
+    country_name: 'Argentina',
+    url: 'https://www.fiscales.gob.ar/ciberdelincuencia/la-unidad-fiscal-especializada-en-ciberdelincuencia-informa-que-en-2024-se-registro-un-aumento-interanual-del-211-en-la-cantidad-de-reportes-de-delitos-informaticos/',
+    description:
+      "Argentina's specialized cybercrime unit within the Ministerio Público Fiscal (national Public Prosecutor's Office). Its annual management report tallies computer-crime reports submitted by the public — 34,468 in 2024, a 21.1% year-on-year rise — broken down by category; online fraud ('fraude en línea') is consistently the largest, accounting for 63% of all reports.",
+    data_type: 'annual_report',
+  },
 ];
