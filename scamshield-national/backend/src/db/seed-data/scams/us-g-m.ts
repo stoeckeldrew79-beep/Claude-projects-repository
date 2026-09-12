@@ -6690,3 +6690,17 @@ UsGM.push({
     isHistorical: true,
     firstRecorded: '2026-05-12',
 });
+
+UsGM.push({
+    name: 'Chicago Fraudulent Utility Account Scheme (David Brown)',
+    slug: 'illinois-brown-fraudulent-utility-account-scheme',
+    description: `David W. Brown, 56, of Chicago, ran an operation offering to arrange electricity and natural gas service for residential and commercial properties across the Chicago area in exchange for a fee, typically $50 to $150 collected from the property owner or tenant every few months. Rather than putting those customers through a real utility application, Brown opened new accounts directly with the utilities using false customer names and fabricated identifying information, deceiving Commonwealth Edison, Nicor Gas, and People's Gas into activating service with no genuine, creditworthy customer behind the account. From 2017 through 2024, prosecutors said the scheme caused the three utilities to provide at least $8.5 million in electricity and gas service — spread across more than 2,000 residential and commercial properties in the Chicago area — that was never actually paid for. Brown pleaded guilty to one count of wire fraud in July 2025, and on June 24, 2026, U.S. District Judge LaShonda A. Hunt sentenced him to 92 months — nearly eight years — in federal prison and ordered him to pay the full $8.5 million in restitution to the three utility companies. The scheme is a reminder that utility fraud can look, from a customer's side, like a helpful shortcut around a deposit or credit check rather than an obvious scam — but a paid "fixer" who arranges power or gas service outside a utility's own application process, using someone else's name or invented identifying details, is committing fraud the utility eventually traces back, with the losses ultimately absorbed into costs charged to paying customers; real service should always be opened directly with the utility under the actual resident's own name.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'medium',
+    sources: ["U.S. Attorney's Office, Northern District of Illinois", 'FOX 32 Chicago', 'Law360'],
+    sourceUrl: 'https://www.justice.gov/usao-ndil/pr/chicago-man-sentenced-nearly-eight-years-prison-fraudulently-arranging-utility',
+    country: 'US',
+    state: 'IL',
+    isHistorical: true,
+    firstRecorded: '2026-06-24',
+});

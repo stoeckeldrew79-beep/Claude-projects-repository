@@ -3656,3 +3656,17 @@ UsTZ.push({
     isHistorical: true,
     firstRecorded: '2026-06-11',
 });
+
+UsTZ.push({
+    name: 'Martinsburg Office Manager\'s Payroll and Invoice Fraud (Brittaney Hall)',
+    slug: 'west-virginia-hall-martinsburg-payroll-invoice-fraud',
+    description: `Brittaney Allura Hall, 37, of Martinsburg, West Virginia, worked as office manager and accountant for a small Eastern Panhandle business, a position that gave her direct control over the company's payroll system, bank accounts, and vendor invoices. Prosecutors said Hall used that access to inflate her own payroll reimbursements and sales commissions beyond what she was actually owed, write company checks to herself without authorization, and create invoices for work or goods that were never actually provided, generating payments that ultimately came back to her rather than any real vendor. The scheme drained nearly $300,000 from her employer before it was discovered; Hall admitted to the fraud in a February 2026 guilty plea to wire fraud in the U.S. District Court for the Northern District of West Virginia, and was sentenced in late August 2026 to 46 months in federal prison, with an order to pay $258,143.51 in restitution. The case illustrates why a single trusted employee who both initiates financial transactions and controls the invoices and payroll records used to justify them can hide sustained theft for a long time — small businesses can reduce that risk by having a second person, or the owner personally, periodically compare bank and card statements against actual vendor contracts and posted employee pay rates rather than relying solely on the bookkeeper's own reports.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'low',
+    sources: ["U.S. Attorney's Office, Northern District of West Virginia", 'WTRF', 'Tri-State Alert'],
+    sourceUrl: 'https://www.justice.gov/usao-ndwv/pr/berkeley-county-woman-sentenced-defrauding-small-business-out-nearly-300000',
+    country: 'US',
+    state: 'WV',
+    isHistorical: true,
+    firstRecorded: '2026-08-28',
+});

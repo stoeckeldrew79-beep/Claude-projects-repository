@@ -6530,3 +6530,15 @@ UsNS.push({
     isHistorical: true,
     firstRecorded: '2024-10-24',
 });
+
+UsNS.push({
+    name: 'Pine Ridge Emergency Youth Shelter Fraud (Fire Thunder and Gallego)',
+    slug: 'south-dakota-fire-thunder-gallego-emergency-youth-shelter-fraud',
+    description: `Tracie Renay Gallego, 51, worked as the administrative assistant for the Oglala Sioux Tribe's Emergency Youth Shelter (EYS) on the Pine Ridge Reservation, a role responsible for submitting vouchers to the tribe for payment to EYS vendors and for reimbursement checks the State of South Dakota owed the tribe for social services the shelter provided to youth. Between November 2022 and November 2024, federal prosecutors allege, Gallego and her husband, Patrick Fire Thunder, also 51, obtained the resulting checks — meant for EYS vendors or as state reimbursement to the tribe — deposited them into Fire Thunder's personal bank account, and transferred the money into other accounts for their own use rather than the shelter's. A federal grand jury indicted the Pine Ridge couple in July 2026 on one count of conspiracy to commit wire fraud, 14 counts of wire fraud, one count of larceny, and one count of embezzlement and theft from an Indian tribal organization; both have pleaded not guilty, and the case is pending trial in the U.S. District Court for the District of South Dakota, where a conviction on all counts would carry up to 20 years in prison and a $250,000 fine. The U.S. Attorney's Office cited the case as part of a broader pattern of embezzlement uncovered in South Dakota tribal programs, where a single employee who both submits vendor vouchers and can access the resulting checks has the means to divert years of payments meant for vulnerable youth programs before anyone outside that role notices — a risk tribal and nonprofit programs handling vendor payments can reduce by requiring a second, independent employee to confirm that a check cut for a vendor invoice was actually deposited into that vendor's own account rather than a staff member's.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'medium',
+    sources: ["U.S. Attorney's Office, District of South Dakota", 'Dakota News Now', 'KOTA Territory News'],
+    sourceUrl: 'https://www.justice.gov/usao-sd/pr/pine-ridge-couple-indicted-fraud-larceny-and-embezzlement-oglala-sioux-tribe',
+    country: 'US',
+    state: 'SD',
+});
