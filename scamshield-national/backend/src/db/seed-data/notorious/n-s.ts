@@ -6365,3 +6365,20 @@ The Poonian case shows how a pump-and-dump scheme's second act can matter as muc
     sourceUrl: 'https://decisions.scc-csc.ca/scc-csc/scc-csc/en/item/20555/index.do',
   },
 );
+
+NotoriousNS.push(
+  {
+    title: 'Otto Spork: The Hedge Fund Manager Who Sold Investors on Melting Icelandic Glaciers',
+    slug: 'otto-spork-sextant-capital-glacier-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical', 'international'],
+    body: `Otto Spork was a former dentist and TSX trader in Toronto when he founded Sextant Capital Management Inc. in 2006, launching a Canadian fund and two offshore siblings that together raised more than $80 million from roughly 250 Canadian and offshore investors. Sextant marketed itself as a sophisticated, diversified hedge fund, but by 2007 more than 90% of the funds' assets — far above the 20% single-issuer concentration limit the funds themselves disclosed to investors — were sunk into a single obscure bet: Iceland Glacier Products SA, a startup with no revenue that planned to bottle and sell melted glacier water, and which Spork himself effectively controlled.
+
+Because Iceland Glacier Products had no market price of its own, its value inside Sextant's books was whatever Spork's team said it was. An Ontario Securities Commission panel later found that between July 2007 and December 2008, Spork, Sextant vice president Konstantinos "Dino" Ekonomidis (his brother-in-law), and officer/director Natalie Spork (his daughter) repeatedly and knowingly inflated IGP's valuation on the funds' books, at one point telling investors the Canadian fund had gained 730% over two and a half years. The inflated valuations did two things at once: they made a nearly worthless, revenue-free startup look like a blockbuster investment, and they generated performance and management fees — totaling nearly $7 million — calculated as a percentage of a fund value that didn't actually exist. Investigators also found roughly $4 million had been funneled out of the funds as undisclosed "loans" that were used for personal benefit rather than fund business.
+
+The OSC panel ruled on May 17, 2011 that Spork, Sextant Capital Management, and Sextant Capital GP had committed fraud contrary to Ontario's Securities Act, with Ekonomidis and Natalie Spork found to have breached their duties to investors. In its 2012 sanctions decision, the panel ordered Otto Spork to pay a $1 million administrative penalty, disgorge $6.35 million, and cover $350,000 in investigation costs; Ekonomidis was ordered to pay $250,000 in penalties plus $250,000 in disgorgement, and Natalie Spork $50,000 in penalties plus $140,000 in disgorgement — on top of permanent bans from Ontario's capital markets. Spork, Ekonomidis, and Natalie Spork appealed, but Ontario's Divisional Court dismissed the appeal in full on May 5, 2014, upholding both the fraud finding and the sanctions.
+
+Sextant Capital is a case study in how a fund can hide a concentrated, self-dealt bet behind the ordinary machinery of hedge fund reporting: because the fund's flagship asset had no independent market to check its price against, the manager who controlled that asset was free to set its value at whatever number made his own fees — and his fund's advertised returns — look best, right up until regulators forced the books open.`,
+    sourceUrl: 'https://globalnews.ca/news/252345/osc-orders-otto-spork-to-pay-1m-fine-6-35m-disgorgement-and-350000-in-costs/',
+  },
+);

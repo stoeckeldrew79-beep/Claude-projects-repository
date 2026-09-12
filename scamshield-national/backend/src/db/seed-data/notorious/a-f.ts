@@ -9015,3 +9015,20 @@ Capital + Merchant is a reminder that a company's public collapse and its invest
     sourceUrl: 'https://www.sfo.govt.nz/media-cases/media-releases/capital-merchant-directors-imprisoned-following-convictions',
   },
 );
+
+NotoriousAF.push(
+  {
+    title: 'Five Star Consumer Finance: The New Zealand Lender That Funneled Depositors\' Money to Its Own Directors',
+    slug: 'five-star-consumer-finance-kirk-macdonald-bowden',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical', 'international'],
+    body: `Five Star Consumer Finance Limited was one of the wave of New Zealand finance companies that took in money from ordinary depositors through debentures and promised interest rates, then lent it out again — supposedly to a diversified base of third-party borrowers. Its directors, Marcus MacDonald, Nicholas Kirk, and Anthony Walpole Bowden, ran the company alongside key manager Neill Williams, and between 2003 and 2007 they used their control of the lending decisions to direct roughly $43 million of investor funds into loans benefiting entities the directors themselves owned or controlled — related-party lending that breached the restrictions set out in the company's own trust deed.
+
+New Zealand's Serious Fraud Office, which investigated the case as part of the country's broader finance-company collapse in the mid-to-late 2000s, described the related-party loans as "cunningly conceived" arrangements designed to move investor money to the directors' own benefit while the company continued presenting itself to depositors as a conventional consumer finance lender. Five Star Consumer Finance was placed in receivership on August 29, 2007, owing investors approximately $46 million, most of which was never recovered.
+
+The SFO charged the directors with theft by a person in a special relationship under section 220 of the Crimes Act 1961, a charge carrying up to seven years in prison. Kirk and MacDonald pleaded guilty and were sentenced in November 2010 to two years eight months and two years three months in prison respectively — among the first finance-company directors in New Zealand's collapse-era wave to be jailed rather than merely fined or banned. Bowden received nine months' home detention plus 100 hours of community work, and Williams, who was not formally a director but held a senior management role, pleaded guilty to two theft charges in June 2013.
+
+Five Star's case became one of the clearer illustrations, alongside contemporaries like Capital + Merchant and Bridgecorp, of the difference New Zealand's finance-company reckoning eventually drew between failure and theft: a lender that goes under because loans go bad is a business failure, but a lender whose own directors are quietly steering investor money into their own related companies is something else, and it took the Serious Fraud Office's investigation — not the receivership itself — to establish which one Five Star's depositors had actually been the victims of.`,
+    sourceUrl: 'https://www.sfo.govt.nz/media-cases/media-releases/guilty-plea-to-sfo-charges-in-five-star-finance-investigation',
+  },
+);
