@@ -6308,3 +6308,29 @@ UsNS.push({
     isHistorical: true,
     firstRecorded: '2025-03-26',
 });
+
+UsNS.push({
+    name: 'Commonwealth Medicaid Agency CMS Audit Fax Phishing Alert',
+    slug: 'northern-mariana-islands-medicaid-agency-cms-fax-phishing-scheme',
+    description: `The Commonwealth Medicaid Agency (CMA), which administers Medicaid for the Commonwealth of the Northern Mariana Islands, posted a fraud alert to its Medicaid Information Center warning healthcare providers about a phishing scheme built around forged faxes: "The Commonwealth Medicaid Agency (CMA) alerts all providers of a phishing scam involving fraudulent fax requests falsely claiming to be from Centers for Medicare & Medicaid Services (CMS)." The faxes ask a provider's office to fax back patients' medical records under the pretense that the practice is the subject of a Medicare audit — mirroring a wider CMS-impersonation fax scheme that the Centers for Medicare & Medicaid Services and the American Hospital Association separately warned about in mid-2025, in which real CMS letterhead and audit language are copied to make the request look routine. CMS does not initiate audits by requesting medical records over fax, and a provider who simply faxes back a patient's chart in response is handing an unverified requester protected health information that can be used for identity theft, fraudulent billing in the patient's name, or resold on top of the practice's own compromised fax number. CMA's guidance to CNMI providers is not to respond to the fax, to verify any claimed Medicare audit only by contacting CMA directly at (670) 664-4880 or through official CMS channels, and to confirm a Medical Review Contractor's identity independently before releasing any patient records by fax, mail, or email.`,
+    categorySlug: 'phishing',
+    alertLevel: 'medium',
+    sources: ['Commonwealth Medicaid Agency (CNMI)', 'American Hospital Association'],
+    sourceUrl: 'https://www.cnmimedicaid.org/medicaid-information-center',
+    country: 'US',
+    state: 'MP',
+});
+
+UsNS.push({
+    name: 'CNMI Bureau of Motor Vehicles Fraudulent Driver\'s License Scheme (Leon Guerrero and Li)',
+    slug: 'northern-mariana-islands-bmv-drivers-license-fraud-scheme',
+    description: `Juana Cabrera Leon Guerrero, then chief of the CNMI Bureau of Motor Vehicles (BMV), used her position and access to the agency's own licensing system to produce fraudulent CNMI driver's licenses for foreign nationals who lacked lawful immigration status, working with Yongde Li — a citizen of the People's Republic of China who went by "Ivan" — who acted as a street-level broker finding and vetting customers. According to the U.S. Attorney's Office, customers paid the broker up to $1,700 for a new fraudulent license and $300 for a fraudulent renewal, without ever taking the written or road test the BMV's real licensing process requires. Leon Guerrero and Li were each convicted of Conspiracy to Produce an Identification Document following prosecution in the U.S. District Court for the Northern Mariana Islands, with Li also convicted of Conspiracy to Commit Bank Fraud. On December 15, 2023, the court sentenced Leon Guerrero, 58, to 60 months in prison plus a $15,000 fine and three years of supervised release, and sentenced Li, 50, to 10 months in prison, 50 hours of community service in lieu of a fine, and five years of supervised release. The case is a reminder that a CNMI driver's license or ID card obtained through a broker or "connection" rather than the BMV's own testing and application process is not a shortcut — it is a federally prosecuted crime that leaves the holder carrying an invalid, revocable document and exposed to prosecution alongside the officials and brokers who sold it; anyone offered a CNMI license, renewal, or ID without the standard test — for a fee paid to a person rather than to the BMV directly — should refuse and can report the offer to the CNMI Department of Public Safety or the FBI.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'medium',
+    sources: ['U.S. Department of Justice, Districts of Guam and the Northern Mariana Islands', 'Marianas Variety News & Views'],
+    sourceUrl: 'https://www.justice.gov/usao-gu/pr/bureau-motor-vehicle-chief-and-prc-citizen-sentenced-federal-prison-cnmi-drivers-license',
+    country: 'US',
+    state: 'MP',
+    isHistorical: true,
+    firstRecorded: '2023-12-15',
+});
