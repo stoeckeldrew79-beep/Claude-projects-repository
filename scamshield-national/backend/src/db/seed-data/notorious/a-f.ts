@@ -8848,3 +8848,22 @@ The gap between the roughly £19 million investors actually put in and the rough
     sourceUrl: 'https://www.fca.org.uk/news/press-releases/guy-flintham-sentenced-6-years-fraud-over-unauthorised-investment-scheme',
   },
 );
+
+NotoriousAF.push(
+  {
+    title: 'Rodney Forrest and the Chairman\'s Unlocked Computer Behind a $3 Million Insider-Trading Scheme',
+    slug: 'rodney-forrest-platinum-asset-management-insider-trading',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'international'],
+    body: `Rodney Forrest ran an unlicensed operation he called Sublime Asset Management, but the trade that landed him in prison had nothing to do with any strategy of his own. On August 23, 2024, Forrest walked into the unattended office of Michael Cole, the chairman of ASX-listed investment group Regal Partners Limited, and used his phone to photograph a confidential pitch deck sitting on Cole's computer — one laying out Regal Partners' plan to acquire fellow fund manager Platinum Asset Management.
+
+Forrest spent the following weeks turning those photographs into a trading position, spread across more than one name to keep it from looking like a single large bet. Between August 29 and September 10, 2024, he personally bought $2.69 million worth of Platinum shares. He then procured two other individuals, and an entity called Jatam Investments, to buy a further $457,000 or so of Platinum stock between September 9 and 16 — all of it, according to Australia's securities regulator ASIC, timed off information no other investor in the market had access to.
+
+Forrest didn't just trade on the secret — he also tried to profit from breaking it. Around September 2 he contacted a journalist to flag what he called a "very solid" story, and by September 10 had shared explicit details of the takeover plan. The story ran after the market closed on September 16, and the next morning Regal Partners' bid for Platinum became public; Platinum's share price jumped roughly 12.5 percent on the news. Forrest sold his personal holding between September 18 and 20 for a profit of $309,572, and the Jatam-held shares a few days later for a further $45,846.
+
+ASIC's market surveillance systems flagged the unusual pattern of trading within days of the announcement, well before any of the parties involved suspected they were under scrutiny. Investigators executed a search warrant at Forrest's home on November 7, 2024, and he was charged and pleaded guilty at Sydney's Downing Centre Local Court in 2025. On January 23, 2026, Justice Robert Bromwich of the Federal Court of Australia sentenced Forrest to six years in prison — five years for the insider trading itself plus a cumulative twelve months for procuring others to trade on his behalf — with a three-year non-parole period, and ordered forfeiture of the $309,571.84 he had personally profited. "Mr Forrest went from crime to jail time in just over a year," ASIC Chair Joe Longo said, "underscoring ASIC's determination to fast-track criminal cases." On appeal, the Full Federal Court found on May 22, 2026 that the original sentencing judge had misapplied one narrow legal principle — treating Forrest's initial false denials to ASIC investigators as an aggravating factor on the seriousness of the offending itself, rather than confining that consideration to his later plea and remorse — and re-sentenced him to five years and three months, while explicitly affirming that the underlying conduct remained serious. His three-year non-parole period was unchanged.
+
+Forrest's case is a reminder that insider trading doesn't require a sophisticated hack or a corrupted insider feeding him documents over months — an unattended computer and a phone camera were enough to start it. What ended it just as quickly was the same infrastructure that makes stock exchanges function at all: an automated surveillance system built to notice exactly the kind of coincidence Forrest created, a large, well-timed position taken by unconnected accounts in the days just before news nobody was supposed to know yet moved a stock price by double digits.`,
+    sourceUrl: 'https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-007mr-fund-manager-sentenced-to-6-years-jail-in-3-million-platinum-asset-management-insider-trading-case/',
+  },
+);
