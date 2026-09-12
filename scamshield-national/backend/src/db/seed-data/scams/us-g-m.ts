@@ -6533,3 +6533,31 @@ UsGM.push({
     isHistorical: true,
     firstRecorded: '2020-06-30',
 });
+
+UsGM.push({
+    name: 'Guam Department of Revenue and Taxation Facebook Driver\'s License Scam',
+    slug: 'guam-revenue-taxation-drivers-license-facebook-scam',
+    description: `The Department of Revenue and Taxation (DRT) — Guam's sole authorized source for driver's licenses and identification cards — has twice had to warn residents about a fraudulent Facebook page that uses a photo of DRT's own Barrigada building and describes itself as "100% legit & registered" while falsely promising that visitors can get a Guam driver's license without taking the written or road test the licensing process legally requires. The page first drew a public warning in mid-2025 and resurfaced again in June 2026, prompting DRT to repeat its guidance in blunt terms: "Residents are warned against falling for this scam. Report and delete this Facebook page if you come across it." DRT stressed that the Driver's License Examination Branch is Guam's only legitimate path to a license, that the written test, accumulated road hours, and road test are required steps that cannot be waived by a fee or a form filled out on social media, and that residents should work only with DRT itself or an authorized driving school. A page offering to skip those requirements is not a shortcut — anyone who pays or hands over personal information to such a page risks losing money, having their identity used elsewhere, and still not holding a valid, legally recognized license, since DRT confirmed no such waiver process exists.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Department of Revenue and Taxation, Government of Guam', 'KUAM News'],
+    sourceUrl: 'https://www.islapublic.org/news/2026-06-25/rev-and-tax-warns-guam-residents-against-drivers-license-scam-appearing-on-facebook',
+    country: 'US',
+    state: 'GU',
+    isHistorical: true,
+    firstRecorded: '2025-07-22',
+});
+
+UsGM.push({
+    name: 'Guam Customs and Quarantine Agency Forged Tax Certificate Prize Scam',
+    slug: 'guam-customs-quarantine-agency-forged-tax-certificate-scam',
+    description: `The Guam Customs and Quarantine Agency (GCQA) issued a scam advisory after two fraudulent documents bearing its name began circulating on social media. The first is a fake "tax compliance certificate," carrying the Guam seal, GCQA branding, and a forged signature of Governor Lou Leon Guerrero, that tells the recipient they must pay a significant sum in taxes and fees before they can collect a prize — an advance-fee scheme dressed up as a government clearance step rather than a sweepstakes request. The second is an unofficial notice titled "Declaration of Cash Negotiable Instrument of Over USD $10,000 or Equivalent," which borrows real language from actual federal currency-reporting rules (moving more than $10,000 into or out of Guam is legal but must be declared to GCQA) to make an unrelated demand look like standard customs paperwork. GCQA was direct in its advisory: "We want to make clear that such documents are not sanctioned, approved, or endorsed by the Guam Customs and Quarantine Agency," and urged the public to "exercise caution and refrain from relying on any materials that have not been officially released through our recognized channels." A forged seal and a real official's copied signature do not make a demand for upfront "taxes" or "fees" legitimate — GCQA does not conduct its business through unsolicited social media documents, and residents who receive one are advised to disregard it and report it to the Office of the Attorney General's Consumer Protection Division at (671) 475-2705 or gcd@oag.guam.org.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Guam Customs and Quarantine Agency', 'The Guam Daily Post (postguam.com)', 'Office of the Attorney General of Guam'],
+    sourceUrl: 'https://www.postguam.com/news/local/customs-issues-scam-advisory/article_850af2f0-a618-11ef-a60b-83807411482f.html',
+    country: 'US',
+    state: 'GU',
+    isHistorical: true,
+    firstRecorded: '2024-11-19',
+});
