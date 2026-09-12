@@ -16161,3 +16161,47 @@ International.push(
     country: 'MY',
   },
 );
+
+International.push(
+  {
+    name: '"Pozor, volá bankéř!" Bank and Police Impersonation Vishing Scam',
+    slug: 'czech-bank-police-impersonation-vishing-scam',
+    description: `The Police of the Czech Republic maintain a standing public warning — "Pozor, volá bankéř!" ("Watch out, the banker is calling!") — about a vishing (voice-phishing) pattern their own cybercrime unit describes as one of the most damaging currently active against Czech residents. Callers use spoofing technology to display a genuine-looking bank, police, or Czech National Bank phone number, then tell the victim their account or payment card has been compromised and that money must be moved to a "secure account" or withdrawn in cash for a courier "to protect it" from the very fraud the caller invented. In some documented variants a second call, purportedly from a police officer, follows to falsely confirm the "hack" and pressure a transfer. Police data published on the force's own cybercrime portal shows victims of these fraudulent phone calls are disproportionately female (over 80 percent) and that the average loss per victim exceeds 700,000 Czech crowns (roughly $30,000) — among the highest per-victim losses of any fraud type the force tracks. The pattern is not hypothetical: a joint Czech-Ukrainian investigation coordinated through Eurojust and Europol dismantled one such vishing network in April 2023, arresting ten suspects (six in Ukraine, four in the Czech Republic) who ran the calls from a Ukrainian call center and were found responsible for more than €8 million (195 million CZK) stolen from Czech victims alone, part of a scheme investigators said had defrauded victims across Europe out of tens of millions of euros in total. Police stress that no genuine bank, police officer, or central bank employee will ever ask a customer to move money to a different account or withdraw cash for a stranger to protect it, and urge anyone receiving such a call to hang up and call the institution back on a number they look up independently, never one given by the caller.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'critical',
+    sources: ['Police of the Czech Republic (Policie ČR)', 'Eurojust', 'Europol'],
+    sourceUrl: 'https://policie.gov.cz/kyberkriminalita/podvodne-telefonaty',
+    country: 'CZ',
+  },
+  {
+    name: 'Fake E-shop Cash-on-Delivery ("Dobírka") Package Scam',
+    slug: 'czech-cash-on-delivery-fake-eshop-scam',
+    description: `Czech courier company PPL, one of the country's largest parcel carriers, publishes a standing consumer warning about a scam built around "dobírka" — cash-on-delivery — the payment method still widely used for online shopping in the Czech Republic. Fraudsters set up unverified, short-lived e-shops (or, in a related variant identified by Czech police, post listings on classifieds and marketplace sites such as Bazoš) advertising goods at attractive prices, and either take an order and dispatch a COD package or send one entirely unsolicited to a real name and address harvested from a data leak or a previous purchase. The recipient pays the courier on delivery expecting the ordered item, only to open a box containing goods of far lower value than promised, the wrong item entirely, or just packing filler included solely "to make the package look credible," by which point the fake e-shop's website and contact details have already gone dark. PPL states plainly that a legitimate courier company will never ask for bank card details by SMS link to "release" or "clear" a parcel — a tactic used in a related twist on the scam — and recommends checking an unfamiliar e-shop against the Czech Trade Inspection Authority's (ČOI) list of flagged risky online stores, verifying customer reviews independently, and, if cash on delivery is already lost to a scam, reporting the case to the Police of the Czech Republic, since only law enforcement, not the courier, can intervene to halt a COD payment already in progress.`,
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'high',
+    sources: ['PPL CZ', 'Czech Trade Inspection Authority (ČOI)'],
+    sourceUrl: 'https://www.ppl.cz/en/w/cash-on-delivery-scams',
+    country: 'CZ',
+  },
+  {
+    name: 'Fake Celebrity-Endorsed Crypto and Investment Platform Scam',
+    slug: 'czech-celebrity-deepfake-crypto-investment-scam',
+    description: `Investment fraud has become the fastest-growing category of online crime targeting people in the Czech Republic, driven largely by fake trading platforms promoted through social media ads built around fabricated celebrity endorsements. Cybersecurity firm ESET's threat report found that reported investment fraud in Czechia surged by more than 335 percent between June and November 2024 alone, and Czech Police data cited alongside it shows investment-related fraud now accounts for roughly 10.5 percent of all recorded internet crime in the country — one of the largest single categories. The scheme typically begins with a social media advertisement or fake news article showing a deepfaked video or doctored quote from a well-known public figure appearing to endorse a "guaranteed" cryptocurrency or AI-driven trading platform; a victim who fills out an interest form is called back by someone posing as an "account manager," who requests a small initial payment to activate the account and pushes the victim to install a cryptocurrency wallet app to "invest" further, with fabricated on-screen profits used to pressure larger and larger deposits before the platform and the money both disappear. The surge coincides with genuine mainstream interest in crypto in the country — an Eset-commissioned poll found 45 percent of Czech respondents intend to buy cryptocurrency in the future — a combination authorities say makes the population an especially attractive target. Czech Police advise treating any investment opportunity promoted through a celebrity video ad or an unsolicited social media message as a probable scam, verifying any trading platform's registration with the Czech National Bank before depositing funds, and never installing a wallet or trading app at the direction of someone who called after an online form submission.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'critical',
+    firstRecorded: '2024-06-01',
+    sources: ['ESET', 'Police of the Czech Republic (Policie ČR)', 'Expats.cz'],
+    sourceUrl: 'https://www.expats.cz/czech-news/article/czechia-continues-to-ride-crypto-wave-despite-high-fraud-risks-1',
+    country: 'CZ',
+  },
+  {
+    name: 'Fake Nephew/Grandchild "Family Emergency" Gold and Cash Theft Scam',
+    slug: 'czech-fake-nephew-grandchild-gold-theft-scam',
+    description: `The Police of the Czech Republic describe scams built on the fake "grandchild" (or nephew) legend as, in the words of Radka Drexlerová, deputy director of the force's Criminal Police and Investigation Office, "among the most frequent prevention topics of the Czech Police" over the long term — and the pattern remains active and costly. Fraudsters call an elderly victim, typically on a landline, opening with a line such as "Hi grandma, guess who's calling?" to trick the victim into supplying the real grandchild's or nephew's name themselves, then invent an urgent crisis — a car accident, a medical emergency, an arrest requiring bail — that only an immediate transfer of cash, gold, or jewelry can resolve, often with a courier sent to collect valuables in person when the victim has no funds on hand. In one of the most costly documented cases, police in Prague's third district said that on the evening of September 2, 2026, a caller posing as the nephew of an 88- and 89-year-old married couple invented a fatal motorcycle accident requiring urgent bail money; when the victims said they had no cash, the caller talked them into handing 2.9 kilograms of investment gold bars — worth roughly 4.8 million Czech crowns (about $200,000) — to a person posing as a courier on a street in Prague 3, and police later found the bars had been cut into small pieces to make them harder to trace. A similar international case saw a gang dismantled by Czech and German police after posing as false grandchildren to defraud around 20 pensioners in both countries of cash and jewelry worth more than 7.5 million CZK. Police urge anyone receiving such a call to never volunteer a relative's name, to hang up and call that relative directly on an already-known number to verify the story, and to treat any request to hand cash, gold, or jewelry to an unfamiliar "courier" as a certain scam.`,
+    categorySlug: 'grandparent-scams',
+    alertLevel: 'critical',
+    sources: ['Police of the Czech Republic (Policie ČR)', 'Blesk.cz', 'Poznatsvet.cz'],
+    sourceUrl: 'https://www.blesk.cz/clanek/regiony-praha-praha-krimi/847539/vydaval-se-za-synovce-a-seniory-okradl-o-zlato-prisli-o-4-8-milionu.html',
+    country: 'CZ',
+  },
+);
