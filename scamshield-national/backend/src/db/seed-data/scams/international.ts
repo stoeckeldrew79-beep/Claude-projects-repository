@@ -16604,3 +16604,46 @@ International.push(
     sourceUrl: 'https://diariocriminal.sapo.pt/burla-com-criptomoedas-faz-duas-vitimas-perderem-138-mil-euros-psp-deixa-alerta/',
   },
 );
+
+International.push(
+  {
+    name: 'Fake NGO "Electricity Connection Registration Fee" Scam (Zomba)',
+    slug: 'malawi-zomba-fake-ngo-electricity-registration-scam',
+    description: `Two people posing as employees of an organisation calling itself the "Mtukula Pakhomo Project" went village to village around Lambulira in Traditional Authority Chikowi, near Zomba, telling residents that Malawi's national electricity utility was about to extend power lines to their area and that each household simply needed to pay a K5,000 "registration fee" to be added to the connection list. Acting on that promise, 244 households across 36 villages paid the fee, handing the pair a combined K1.2 million before residents grew suspicious that no real registration or construction work was following the payments and reported the scheme to police. Zomba Police arrested the two suspects, identified as 42-year-old Evance Mlekere and 36-year-old Inness Chimombo, on September 3, 2026, with Assistant Public Relations Officer Andrew Mwale confirming that "the suspects told the households that the money was for registration to have electricity connected to their homes." The case fits a broader pattern flagged by Malawi's power utility ESCOM and police in Lilongwe and Zomba of individuals impersonating utility staff or NGO representatives to charge villagers upfront "connection" or "registration" fees that a legitimate electrification project never requires directly from residents. Anyone approached about a new electricity connection is advised to verify the project independently with ESCOM's own offices or hotline before paying anyone claiming to collect registration money door to door, since a real rural electrification scheme is coordinated through the utility and local government, not cash collected by unidentified visitors.`,
+    categorySlug: 'utility-scams',
+    country: 'MW',
+    alertLevel: 'high',
+    sources: ['Zomba Police (Malawi Police Service)', 'Face of Malawi'],
+    sourceUrl: 'https://www.faceofmalawi.com/2026/09/04/two-arrested-in-zomba-over-alleged-k1-2-million-electricity-scam/',
+  },
+  {
+    name: 'Fake Government Job Interviews and Forged MSCE Certificate Ring (Lilongwe)',
+    slug: 'malawi-lilongwe-fake-government-job-msce-certificate-scam',
+    description: `A group of eight people ran a scheme in Lilongwe advertising fake vacancies across various government ministries — including positions such as messengers, soldiers, health surveillance assistants, and drivers — then charged hopeful applicants between K230,000 and K600,000 each to secure a supposed spot. For applicants who lacked the qualifications the advertised jobs required, the group went a step further and issued forged Malawi School Certificate of Education (MSCE) papers so the candidate would appear to meet the requirements. The operation was run out of Royal Gardens in Area 18, where the group staged what looked like genuine job interviews to keep the deception convincing, until Lingadzi Police, acting on a tip-off, raided the location on May 13, 2026 and arrested all eight suspects, recovering fake offer letters and forged certificates on the scene. Lingadzi Police Publicist Maria Kumwenda confirmed that "the suspects were advertising fake job openings in various ministries" using forged documents to impersonate government hiring authority. The case is one of a recurring pattern of employment fraud in Malawi, where a Limbe man was separately convicted and given a three-year jail term in 2025 for a similar scheme targeting government job seekers. Jobseekers are advised to apply for public-sector vacancies only through the Public Service Commission's or a ministry's own official recruitment channels, to treat any recruiter who demands an upfront fee to "secure" an interview or position as certain fraud, and to verify any job offer or certificate requirement directly with the hiring ministry before paying anyone or handing over personal documents.`,
+    categorySlug: 'employment-scams',
+    country: 'MW',
+    alertLevel: 'high',
+    sources: ['Lingadzi Police (Malawi Police Service)', 'Face of Malawi', 'Malawi24'],
+    sourceUrl: 'https://www.faceofmalawi.com/2026/05/13/eight-arrested-in-lilongwe-over-fake-government-jobs-scam/',
+  },
+  {
+    name: 'Fake Mobile Money Payment Screenshot Scam Against Sellers (Lilongwe)',
+    slug: 'malawi-lilongwe-fake-mobile-money-screenshot-seller-scam',
+    description: `A 25-year-old Lilongwe woman, identified as Judith Phiri, placed a series of orders for household goods — including cooking pots — from a local businesswoman, and after each order sent the seller a screenshot that appeared to show a successful mobile-money transfer confirming payment had gone through. The seller handed over the goods based on the screenshot alone rather than checking her own account balance, and the trick worked three separate times, netting Phiri a combined K363,000 in merchandise, before the businesswoman discovered no money had actually landed in her account and reported the fraud to police. Lilongwe Police arrested Phiri, and Deputy Public Relations Officer Khumbo Sanyiwa confirmed that "all the items allegedly obtained through the fake transactions have been recovered." The scheme reflects a wider pattern regulators and consumer advocates have flagged in Malawi's cash-light, mobile-money-dependent retail economy, where a doctored or fabricated transaction screenshot can look identical to a real one at a glance, making it easy for a buyer to walk away with goods before a seller confirms the funds have actually arrived. Sellers accepting mobile money as payment are advised to always independently check their own account balance or a genuine SMS confirmation from their own provider — never a screenshot supplied by the buyer — before releasing any goods, since a transfer confirmation shown on someone else's phone can be edited or entirely fabricated.`,
+    categorySlug: 'online-shopping-scams',
+    country: 'MW',
+    alertLevel: 'medium',
+    sources: ['Lilongwe Police (Malawi Police Service)', 'Malawi24'],
+    sourceUrl: 'https://malawi24.com/2026/09/02/fake-screenshots-real-goods-lilongwe-woman-nabbed-over-k363000-scam/',
+  },
+  {
+    name: 'SIM-Swap Mobile Money Account Takeover Fraud',
+    slug: 'malawi-sim-swap-mobile-money-account-takeover-fraud',
+    description: `Fraudsters in Malawi have exploited the SIM-replacement process at mobile network operators to hijack a victim's phone number onto a SIM card the fraudster controls, then use that number to reach into the same person's mobile-money wallet and, in many cases, bank accounts linked to it via SMS-based verification, draining the funds before the real owner notices anything is wrong. An investigation published by Rest of World in January 2023 found the pattern widespread enough that Malawi Police Service spokesperson Peter Kalaya said "every month, our police stations record different cases of this nature," estimating roughly 120 million Malawian kwacha (about $117,000) was being stolen through mobile-money fraud schemes, SIM swaps chief among them, every month nationwide; in one November 2022 case in Lilongwe, fraudsters used swapped SIMs to steal 3 million kwacha (about $2,920) from two victims. A related variant does not even require a SIM swap: fraudsters posing as customers present a merchant with a fabricated transaction-confirmation message claiming payment has already been sent, as happened to mobile-money merchant Tapiwa Mussa, who lost 270,000 kwacha (about $265) in stock after accepting a fake confirmation at face value. Malawi Communications Regulatory Authority director general Daud Suleman warned that unchecked fraud of this kind threatens public trust in the country's digital-payment adoption, while Consumers Association of Malawi executive director John Kapito pointed to weak laws and inconsistent enforcement as a continuing obstacle; four suspects, including a telecom company employee, were arrested in Zomba in connection with SIM-swap fraud. In response, mobile network operator TNM has required a matching ID and photo before processing any SIM-replacement request, while Airtel Malawi has run customer radio-awareness campaigns; consumers are advised to set an unpredictable mobile-money PIN, register a SIM-swap alert with their network where available, treat any unexpected loss of phone signal as a possible warning sign of an in-progress SIM swap, and, as a merchant, verify a payment by checking their own account balance directly rather than trusting a confirmation message shown on a customer's phone.`,
+    categorySlug: 'account-takeover',
+    country: 'MW',
+    alertLevel: 'high',
+    sources: ['Rest of World', 'Malawi Police Service', 'Malawi Communications Regulatory Authority (MACRA)', 'Consumers Association of Malawi'],
+    sourceUrl: 'https://restofworld.org/2023/malawi-kwacha-scam-sim-card/',
+  },
+);
