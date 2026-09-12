@@ -2834,3 +2834,20 @@ The REV case is a reminder that a Ponzi scheme doesn't require a fictional compa
     sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26413',
   },
 );
+
+NotoriousTZ.push(
+  {
+    title: 'Anthony Torre and the Derby Property Deal That Never Existed',
+    slug: 'anthony-torre-superannuation-theft-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'international'],
+    body: `Anthony Paul Torre worked as a financial adviser in Perth, Western Australia, building the kind of long-running personal relationships with clients that the job depends on — several of the people he later stole from considered him a friend, not just an adviser. Between March 2010 and January 2015, Torre encouraged clients to move money out of their savings and superannuation accounts and into "projects" he said he was personally putting together, including a property proposal in the remote Kimberley town of Derby that, investigators later found, never actually eventuated.
+
+There was no property deal to fund. Torre had direct, unsupervised access to his clients' accounts, and used that access to take their money for himself while telling them it was being invested. To keep the arrangement looking legitimate for as long as possible, he paid some clients regular "interest" on their supposed investment — money that, per Australia's corporate regulator ASIC, actually came from other clients' funds rather than any real return, the same recycling mechanic that keeps a Ponzi scheme afloat between the moments a victim asks for their money back. His victims included three couples, one individual, and one company; one couple in their sixties lost $500,000, and a man in his sixties had $150,000 taken, out of a total of $1,030,000 stolen across the five-year scheme.
+
+ASIC charged Torre in June 2022 with five counts of stealing and eight counts of fraud under Western Australia's Criminal Code. He pleaded guilty on January 28, 2025 — the day his trial was due to begin — to a reduced set of three counts of stealing and two counts of fraud covering the full $1.03 million. Sentencing was adjourned several times before Judge John Prior of the District Court of Western Australia handed down his decision in January 2026: six years' imprisonment with a four-year non-parole period, backdated to January 29, 2025 so that Torre received credit for the year he had already spent in custody since his guilty plea. "This was a gross breach of trust," Judge Prior told him, finding the offending was driven by "a combination of greed, incompetence and arrogance." Torre was also automatically disqualified from managing corporations for five years as a result of the conviction.
+
+Torre's case is a reminder that the professional relationship a financial adviser builds with a client — the trust, the years of familiarity, the sense that this is someone looking out for you rather than a stranger — is exactly what makes it possible for a real theft to go undetected for the better part of a decade. A vague "project" that never produces a prospectus, a contract, or a completion date is worth questioning regardless of how long you've known the person proposing it, and regular "interest" payments prove only that money is moving, not that it was ever actually invested anywhere at all.`,
+    sourceUrl: 'https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-005mr-former-financial-advisor-anthony-torre-sentenced-to-six-years-imprisonment-for-fraud-and-stealing/',
+  },
+);

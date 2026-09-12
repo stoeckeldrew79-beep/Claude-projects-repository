@@ -9247,3 +9247,26 @@ The case illustrates how affinity fraud crosses borders as easily as its victims
     sourceUrl: 'https://www.irs.gov/compliance/criminal-investigation/leader-of-international-ponzi-scheme-targeting-indonesian-american-community-sentenced-to-18-years-in-prison',
   },
 );
+
+// David McWilliams has been criminally charged and the matter is before an
+// Australian court; as of this writing he has not entered a plea and has
+// not been convicted. The allegations below are drawn from ASIC's charges
+// and related court filings and remain to be tested at trial.
+NotoriousGM.push(
+  {
+    title: 'David McWilliams and the $90 Million Disability-Housing Fund That Allegedly Bought an Aston Martin Instead',
+    slug: 'david-mcwilliams-alammc-disability-housing-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'international'],
+    body: `Note: David McWilliams has been criminally charged and the case is before the courts; he has not been convicted, and everything below describes allegations that remain to be proven at trial.
+
+David McWilliams was a director of the ALAMMC group of companies, a Gold Coast property development business that pitched a genuinely compelling investment story: Specialist Disability Accommodation, or SDA, purpose-built housing for people with high support needs whose rent is backed by Australia's National Disability Insurance Scheme. Between July 2021 and October 2023, ALAMMC raised more than $90 million from over 500 investors across six planned SDA projects in Queensland and Western Australia, offering a pitch that combined a social good — housing for people the NDIS was designed to support — with a funding source that sounded about as safe as a government payment could be.
+
+According to Australia's Securities and Investments Commission, only one of the six projects ever began construction, and none was completed. ASIC alleges that of the money raised, $10,138,587 was diverted to purposes that had nothing to do with disability housing: an Aston Martin, cryptocurrency, a pub in the regional South Australian city of Whyalla, an investment in a Seychelles-based litigation funder, and a luxury high-rise apartment in Surfers Paradise that ASIC says was for McWilliams's wife. The investigation that uncovered the alleged diversions started almost by accident — it began in July 2024 after Queensland's Office of Liquor and Gaming Regulation flagged concerns that McWilliams was gambling large sums of money at The Star casino, prompting ASIC to open an inquiry that escalated into urgent civil proceedings by September 2024.
+
+The Federal Court froze McWilliams's assets and barred him from leaving Australia in September 2024, and receivers were later appointed over ALAMMC Developments and twelve related entities to try to recover money for investors, with related companies wound up by October 2025. On June 22, 2026, ASIC laid 13 criminal charges against McWilliams — seven counts of dishonestly causing detriment, five of dishonest application of another person's property, and one of making a false or misleading statement about a financial product — and he appeared before the Southport Magistrates Court, facing a maximum of 20 years in prison if convicted. Separately, McWilliams and his wife, Laura Fullarton, faced criminal contempt proceedings over alleged breaches of the asset-freezing order, with a hearing concluding in June 2026 and judgment reserved; as of this writing the criminal fraud matter remains before the court, with a mention listed for September 21, 2026.
+
+If the allegations are proven, the ALAMMC case will be a reminder that a fraud doesn't need a fake cause to exploit — the NDIS is a real government program supporting real people with disabilities, and SDA housing is a real, needed asset class investors were right to find appealing. What ASIC alleges happened here is that the money that was supposed to build it went somewhere else entirely, and it took a casino regulator's unrelated tip, not any disclosure to investors, to start the inquiry that eventually froze what was left of it.`,
+    sourceUrl: 'https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-131mr-property-developer-david-mcwilliams-charged-over-10-million-fraud-scheme/',
+  },
+);
