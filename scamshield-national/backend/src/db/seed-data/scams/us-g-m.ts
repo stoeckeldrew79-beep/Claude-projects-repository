@@ -6994,3 +6994,17 @@ UsGM.push({
     isHistorical: true,
     firstRecorded: '2012-03-01',
 });
+
+UsGM.push({
+    name: 'St. Clair County Tax Preparer False-Return Fraud Scheme (Dormeshia Haire)',
+    slug: 'illinois-st-clair-county-haire-false-tax-return-fraud',
+    description: `Dormeshia A. Haire, 38, ran a tax-preparation business in St. Clair County, Illinois, where she filed hundreds of returns for clients over several years — but federal prosecutors say many of those returns were built on lies designed to inflate refunds Haire's clients were never entitled to receive. According to the indictment, Haire fabricated businesses her clients never owned and inflated the business losses on their returns, generating bogus deductions that produced larger refunds than the clients' actual finances supported, while separately underreporting her own income and falsifying her personal expenses. The scheme left her clients collectively owing more than $600,000 to the IRS and another $48,000 to the State of Illinois once the false claims were unwound — debts the clients themselves became responsible for, on top of whatever refund money they had already spent. Haire pleaded guilty in April 2026 to one count of false statements on a tax return, one count of wire fraud, and three counts of aiding and abetting the filing of false and fraudulent returns; a federal judge in the Southern District of Illinois sentenced her to 37 months in prison and ordered her to pay more than $700,000 in restitution. The case illustrates why a preparer who promises unusually large refunds, or who reports a business or losses a client doesn't recognize on their own return, should prompt questions before signing — taxpayers are legally responsible for what's on a return even when someone else prepared it, and anyone who suspects their preparer inflated deductions or invented income sources can request a full copy of their filed return and report suspected preparer fraud to the IRS using Form 14157.`,
+    categorySlug: 'tax-scams',
+    alertLevel: 'medium',
+    sources: ["U.S. Attorney's Office, Southern District of Illinois", 'Internal Revenue Service Criminal Investigation'],
+    sourceUrl: 'https://www.justice.gov/usao-sdil/pr/st-clair-county-tax-preparer-sentenced-37-month-imprisonment-and-ordered-pay-over-3',
+    country: 'US',
+    state: 'IL',
+    isHistorical: true,
+    firstRecorded: '2026-04-01',
+});

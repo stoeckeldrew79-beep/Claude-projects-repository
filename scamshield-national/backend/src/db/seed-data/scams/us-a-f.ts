@@ -8056,3 +8056,17 @@ UsAF.push({
     isHistorical: true,
     firstRecorded: '2023-03-01',
 });
+
+UsAF.push({
+    name: 'GS Labs COVID-19 Testing Deceptive Pricing Settlement',
+    slug: 'colorado-gs-labs-covid-testing-deceptive-pricing-settlement',
+    description: `GS Labs, a COVID-19 rapid-testing company founded by the medical diagnostics firm 88Med, advertised "limited to no wait times," same-day appointments, and "no out-of-pocket expenses" to attract customers to its testing sites — but Colorado Attorney General Phil Weiser's office found the company routinely broke those promises while quietly padding its bottom line at consumers' expense. Investigators found GS Labs charged a $380 cash price per test, and as much as $1,000 for multi-panel tests, in order to extract inflated reimbursements from insurers, while separately tacking on an undisclosed $49 "administrative fee" per test even as its marketing promised no out-of-pocket costs; the company also guaranteed results within three days, but hundreds of thousands of customers nationwide waited more than a week without being offered any compensation for the broken promise. Weiser's office joined a coalition of attorneys general from Colorado, Alabama, Arizona, Illinois, Indiana, Iowa, Kansas, Massachusetts, Minnesota, Missouri, Nebraska, New Jersey, North Dakota, Ohio, Oregon, Pennsylvania, South Dakota, and Washington in a settlement announced June 10, 2026, after GS Labs had already stopped offering COVID-19 rapid testing. The company agreed to pay $4.87 million total, including $3.6 million earmarked for consumer restitution — available to affected customers who file a claim through a verification process on the company's website — and $1.25 million split among the participating states, with Colorado's share set at $23,601; going forward, GS Labs is barred from charging undisclosed administrative fees, pricing above prevailing market rates, or charging customers for results that arrive later than promised if it resumes testing services. The case is a reminder that "no out-of-pocket cost" advertising for a medical service can still come with hidden fees buried in the fine print, and that anyone who paid for rapid testing, or any other health service, and was charged fees never disclosed upfront can file a complaint with the Colorado Attorney General's Consumer Protection Section even after the company has stopped operating.`,
+    categorySlug: 'healthcare-fraud',
+    alertLevel: 'medium',
+    sources: ["Colorado Attorney General's Office", 'Multistate Attorneys General Coalition'],
+    sourceUrl: 'https://coag.gov/press-releases/attorney-general-weiser-announces-settlement-with-former-covid-19-test-distributor-after-company-used-false-advertising-overcharged-coloradans/',
+    country: 'US',
+    state: 'CO',
+    isHistorical: true,
+    firstRecorded: '2026-06-10',
+});
