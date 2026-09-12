@@ -6010,3 +6010,20 @@ What makes the Constellation case notable isn't a lone con artist working retire
     sourceUrl: 'https://www.justice.gov/usao-nj/pr/former-ceo-healthcare-company-sentenced-five-years-prison-his-role-212-million',
   },
 );
+
+NotoriousNS.push(
+  {
+    title: 'Rathnakishore Giri, the Bitcoin "Expert" Who Ran a $12 Million Crypto Ponzi Scheme From His Parents\' Ohio Home',
+    slug: 'rathnakishore-giri-crypto-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    body: `Starting around March 2019, Rathnakishore Giri of New Albany, Ohio presented himself to friends, family, and members of the local Columbus-area Indian-American community as a skilled cryptocurrency and Bitcoin-derivatives trader running two investment vehicles, NBD Eidetic Capital, LLC and SR Private Equity, LLC. According to the Commodity Futures Trading Commission, Giri promised investors "lucrative returns" with no risk to their principal, guaranteed their money back regardless of how his trading performed, and pointed to a track record of past success that the CFTC says never actually existed.
+
+The CFTC's civil complaint, filed August 12, 2022 in the U.S. District Court for the Southern District of Ohio, alleges Giri and his companies fraudulently solicited more than $12 million in cash and at least 10 bitcoins from more than 150 customers. Rather than trading that money as promised, the CFTC says Giri simply spent it — on private jets, yacht rentals, an extravagant vacation home, a luxury car, and expensive clothing — while running the operation as a Ponzi scheme, using new investors' contributions to make redemption payments to earlier ones and keep the fund looking solvent. The CFTC also named Giri's parents, Giri Subramani and Loka Pavani Giri, as relief defendants, alleging they received scheme funds to which they had no legitimate claim.
+
+The Justice Department brought a parallel criminal case, indicting Giri in November 2022 on five counts of wire fraud in the same Ohio federal court. He pleaded guilty in October 2024 to one count of wire fraud, admitting he had raised more than $10 million from investors and used incoming funds from new victims to cover the returns and redemptions owed to earlier ones. According to an amended plea agreement described by prosecutors, Giri didn't stop once he was caught: while free on pretrial release and awaiting sentencing, he continued soliciting money from cryptocurrency investors, defrauding additional victims in the process.
+
+On May 18, 2026, Giri — by then 31 — was sentenced to nine years in federal prison and three years of supervised release. The case was investigated by the FBI's Cincinnati Field Office and prosecuted by the Justice Department's Criminal Division, Fraud Section, working alongside the CFTC's parallel civil enforcement action. Giri's case is a reminder that "guaranteed" returns from a self-styled crypto expert are a red flag regardless of who's making the promise — a next-door neighbor or a member of your own community can run the same no-real-trading Ponzi structure as a stranger, and continuing to solicit new victims after admitting guilt in open court shows just how far that kind of confidence scheme can outrun any single warning sign.`,
+    sourceUrl: 'https://www.justice.gov/opa/pr/ohio-investment-manager-sentenced-nine-years-10m-cryptocurrency-ponzi-scheme',
+  },
+);
