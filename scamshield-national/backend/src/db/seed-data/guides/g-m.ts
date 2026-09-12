@@ -4096,6 +4096,10 @@ If you worked for HCSG, or received care at a long-term care facility, nursing h
     slug: "international-shoppes-data-breach-settlement-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "international-shoppes-data-breach-settlement"],
+    // representative photo — replace with an exact match if found
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/JFK_Terminal_4_June_2019_departures.jpg?width=1200",
+    coverImageCredit: "Photo: Mybirthday647, CC0, via Wikimedia Commons — the departures hall at JFK Terminal 4, home to International Shoppes",
+    coverImagePosition: 50,
     sourceUrl: "https://www.classaction.org/news/international-shoppes-class-action-settlement-ends-litigation-over-2023-cyberattack",
     body: `International Shoppes, LLC and its affiliate Diplomatic Duty Free Shops of New York, Inc. run duty-free and specialty retail counters inside some of the country's busiest airports, including Terminal 4 at New York's JFK, Washington Dulles, Baltimore/Washington International, Bradley International in Connecticut, and George Bush Intercontinental in Houston — the kind of business a traveler hands a passport or boarding pass to without necessarily thinking of it as a company that holds personal data long-term. In November 2023, the company suffered a cyberattack that it discovered the following month, December 2023. A resulting class action, Lazar v. International Shoppes, LLC (Index No. 623891/2025, Supreme Court of the State of New York, Nassau County), alleged the retailer failed to implement reasonable cybersecurity measures to protect that data. International Shoppes has not admitted wrongdoing but agreed to settle, and the court granted preliminary approval on July 14, 2026.
 
@@ -4112,6 +4116,10 @@ If you shopped at an International Shoppes or Diplomatic Duty Free Shops of New 
     slug: "lake-consumer-products-mg217-benzene-settlement-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "mg217-benzene-shampoo-settlement"],
+    // representative photo — replace with an exact match if found
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Head_%26_Shoulders_shampoo_bottle.jpg?width=1200",
+    coverImageCredit: "Photo: רנדום, CC BY-SA 3.0, via Wikimedia Commons — representative medicated shampoo bottle, not the MG217 product itself",
+    coverImagePosition: 50,
     sourceUrl: "https://www.classaction.org/news/1.2m-lake-consumer-products-settlement-resolves-class-action-suit-over-alleged-benzene-contamination-in-shampoo",
     body: `MG217 is a drugstore-shelf name for coal tar shampoo, a decades-old over-the-counter treatment people with psoriasis or stubborn dandruff use because coal tar itself is a recognized, effective active ingredient for slowing skin-cell turnover and easing scaling and itching. A class action, Pineda v. Lake Consumer Products, Inc. (Case No. 5:24-cv-1074, filed March 12, 2024), alleged that the very ingredient that makes coal tar shampoo work also carries an unadvertised risk: benzene, a chemical the complaint describes as a known carcinogen, allegedly present in Lake's MG217 products at levels the lawsuit says weren't properly controlled or disclosed, in violation of current Good Manufacturing Practices and state consumer-protection laws. Lake Consumer Products has not admitted wrongdoing but agreed to a $1.2 million settlement rather than continue litigating, and the court granted preliminary approval on June 25, 2026.
 
@@ -4126,6 +4134,10 @@ If you bought any of the three covered MG217 shampoos since 2021, you don't need
     slug: "lakeview-loan-servicing-2021-data-breach-settlement-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "lakeview-loan-servicing-2021-data-breach-settlement"],
+    // representative photo — replace with an exact match if found
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Home_for_Sale_Sign_in_Eugene,_Oregon.jpg?width=1200",
+    coverImageCredit: "Photo: Rick Obst, CC BY 4.0, via Wikimedia Commons — representative photo of a U.S. home for-sale sign",
+    coverImagePosition: 50,
     sourceUrl: "https://www.classaction.org/news/26m-lakeview-loan-servicing-settlement-ends-class-action-lawsuit-over-october-2021-data-breach",
     body: `Lakeview Loan Servicing, described in court filings as the second-largest mortgage servicer in the country, along with affiliated servicers Pingora Loan Servicing and Community Loan Servicing — entities that operate under investment manager Bayview Asset Management — agreed to a $26 million settlement resolving a class action over a data breach that began on or around October 11, 2021. The consolidated case, In re Lakeview Loan Servicing Data Breach Litigation (Case No. 1:22-cv-20955-GAYLES, U.S. District Court for the Southern District of Florida), along with a related California state-court case, alleged the companies could have prevented the intrusion through reasonable cybersecurity measures and failed to. The defendants deny wrongdoing but agreed to settle rather than continue litigating; the court granted preliminary approval on February 4, 2026, with a final approval hearing held July 2, 2026.
 
