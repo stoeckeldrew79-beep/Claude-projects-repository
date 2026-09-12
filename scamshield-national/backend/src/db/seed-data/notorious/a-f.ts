@@ -8361,3 +8361,24 @@ A wire fraud conviction is usually the end of a case like this one; here it was 
     sourceUrl: 'https://abc7.com/post/malibu-man-bernhard-eugen-fritsch-fbis-most-wanted-list-allegedly-conned-investors-20-million/19789742/',
   },
 );
+
+// No rights-cleared photo of Bedi has surfaced (he was a fugitive at the time
+// of writing, recently returned to U.S. custody; no Wikipedia page or
+// Wikimedia Commons file exists for him) — sourceUrl below serves as the
+// "read the full story" link instead of a generic photo.
+NotoriousAF.push(
+  {
+    title: 'Manjit Singh Bedi: The Tacoma Grocer Who Fled to India Rather Than Face SNAP Fraud Charges',
+    slug: 'manjit-singh-bedi-snap-benefits-fraud-fugitive',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    body: `Manjit Singh Bedi, a 65-year-old naturalized U.S. citizen born in India, owned and ran the Asian Grocery Store in Tacoma, Washington, which became authorized in February 2024 to accept Supplemental Nutrition Assistance Program (SNAP) benefits through customers' Electronic Benefit Transfer (EBT) cards. Federal prosecutors say that authorization became the engine of a fraud rather than a way to sell groceries: starting the following month and continuing through June 2025, Bedi allegedly ran a "SNAP trafficking" scheme in which he would swipe a customer's EBT card for $200, hand the customer $100 in cash, and keep the other $100 for himself — with no groceries ever changing hands. Prosecutors say the scheme funneled at least $600,000 in SNAP benefits away from the food-assistance program and into Bedi's pocket.
+
+A federal grand jury in the U.S. District Court for the Western District of Washington indicted Bedi in 2026 on multiple counts of wire fraud and SNAP benefits fraud. He appeared in federal court in Tacoma and pleaded not guilty before a magistrate judge, who released him on conditions that included surrendering his passport and remaining in Washington state pending trial. Instead, prosecutors say, Bedi drove across the border into Canada and made his way to India, his country of birth. A federal arrest warrant was issued on May 21, 2026, after he was charged with violating those release conditions.
+
+On June 4, 2026, the FBI launched its Most Wanted Fraudsters list — a new public roster, separate from the bureau's decades-old Ten Most Wanted Fugitives list, created specifically to publicize fraud fugitives — and added Bedi to it, offering a reward of up to $150,000 for information leading to his arrest and conviction. FBI Seattle Special Agent in Charge W. Mike Herrington said at the time that "these benefits are meant to allow people in a vulnerable state to feed themselves and get proper nutrition," underscoring that the money Bedi is accused of diverting was intended for low-income households, not grocery-store profit. Working with authorities in India, the FBI tracked Bedi to the Punjab region and took him into custody there; the bureau announced the arrest on September 8, 2026, making him the fifth fugitive captured under the Most Wanted Fraudsters initiative in the three months since its launch. As of this writing, U.S. authorities are working to extradite him to face the pending charges, which he has not yet answered at trial.
+
+SNAP trafficking schemes like the one Bedi is accused of running exploit a straightforward mismatch: EBT cards are built to move money for food, not cash, but a cooperating merchant with a working card reader can turn that restriction into a discount racket — recipients get a fraction of their benefits in cash they can spend on anything, and the merchant pockets the rest by billing the program for food that was never sold. It is a quiet, low-tech version of fraud that depends entirely on a small business being trusted with a federal payment system, and on nobody checking whether the "groceries" being billed ever left the shelves.`,
+    sourceUrl: 'https://www.fbi.gov/contact-us/field-offices/seattle/news/manjit-singh-bedi-wanted-for-snap-benefits-fraud-in-tacoma-wa-added-to-fbis-most-wanted-fraudsters-list',
+  },
+);
