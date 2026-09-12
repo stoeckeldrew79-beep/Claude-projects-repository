@@ -16402,3 +16402,46 @@ International.push(
     sourceUrl: 'https://www.guyanastandard.com/2022/01/14/gtt-warns-against-scammers/',
   },
 );
+
+International.push(
+  {
+    name: 'Rental-Inquiry Crypto Romance Scam (HK$31 Million Loss)',
+    slug: 'hong-kong-rental-inquiry-crypto-romance-scam',
+    description: `Hong Kong police disclosed in early 2026 that a woman in her 50s had lost HK$31 million in an online romance scam that began, unusually, when she posted a rental advertisement for her own property on a listings platform. A stranger replied posing as a prospective tenant, and after a round of ordinary logistics messages the conversation moved to WhatsApp, where the "tenant" gradually shifted the tone toward a romantic relationship, building weeks of trust before ever mentioning money. Once that trust was established, the scammer steered the woman toward cryptocurrency, sending her links to trading websites he claimed could generate strong returns; she transferred funds repeatedly — to unfamiliar personal bank accounts and crypto wallets rather than any exchange in her own name — watching a fabricated balance climb on-screen until her losses reached HK$31 million, the largest single loss recorded among the more than 1,000 romance-scam cases police logged that year, itself an 8.2% rise in case count from 1,010 the year before. Police said the case fits a wider pattern in which everyday, low-suspicion contact points — a rental inquiry, a marketplace sale, a shared hobby group — are used to open a conversation specifically because they invite a reply, unlike a cold message from a stranger, and urged residents to run any request to move money or "invest" through a personal contact — even a long and seemingly genuine one — against the police Scameter/Scameter+ tool before transferring anything, since a real romantic partner does not require a rental viewer or online date to fund a cryptocurrency account.`,
+    categorySlug: 'romance-scams',
+    country: 'HK',
+    alertLevel: 'high',
+    sources: ['Hong Kong Police Force', 'The Standard (Hong Kong)'],
+    sourceUrl: 'https://www.thestandard.com.hk/news/article/325661/Property-ad-leads-to-31m-crypto-romance-scam',
+  },
+  {
+    name: 'Fake Restaurant/Bakery Job-Offer Deposit Scam Ring (HK$73 Million, 114 Arrests)',
+    slug: 'hong-kong-fake-job-offer-deposit-scam-ring',
+    description: `Hong Kong police announced on June 21, 2024 the results of an 18-day crackdown, running from June 3 to June 20, on a fraud syndicate that had spent roughly three months posting fake job vacancies for restaurants, bakeries, and karaoke lounges on social media and recruitment sites. Once a jobseeker responded, the fraudsters — sometimes impersonating a real business's actual staff, and in at least one documented instance cold-calling a competing outlet to obtain a real manager's name so the caller could cite it for authenticity — invented a shifting set of reasons why the applicant needed to pay first: an "administrative fee," a uniform or training deposit, or a cash "surety" against future stock or till losses, with individual payments ranging from a token sum up to tens of thousands of Hong Kong dollars. Officers from the force's technology and financial crime units, including Inspector Ng Chak-kui of the Wong Tai Sin squad, said the syndicate had taken a combined HK$73 million (about US$9.4 million) from 163 residents, with individual losses ranging from HK$1,000 to HK$20 million; the operation ended with 114 arrests, including four suspects identified as key organizers. Police tied the case to a broader 42.6% year-on-year jump in deception cases and repeated the standing advice that a real employer never requires a cash payment, deposit, or "surety" before or during onboarding — any job offer that does should be treated as fraudulent regardless of how convincingly the recruiter cites a real business's name or staff.`,
+    categorySlug: 'employment-scams',
+    country: 'HK',
+    alertLevel: 'high',
+    sources: ['Hong Kong Police Force', 'South China Morning Post'],
+    sourceUrl: 'https://www.scmp.com/news/hong-kong/law-and-crime/article/3267502/hong-kong-police-arrest-114-over-scamming-163-people-out-hk73-million',
+  },
+  {
+    name: '"Clicking Task" Job Scam Wave',
+    slug: 'hong-kong-clicking-task-job-scam-wave',
+    description: `Hong Kong police figures published in early 2026 showed 4,095 online job-scam cases in 2025, a 6.3% rise from the year before, with roughly 90% of those cases traced to a single recurring format known locally as "task fraud" or "clicking tasks" — a continuation of a trend that had already spiked 92% in the first months of 2025 alone. The scam typically opens with a Facebook or Instagram ad promising easy commission for simple online work; anyone who responds is directed to register on a purpose-built website or app and complete small starter "tasks" — liking posts, submitting simple product reviews, or clicking through listings — that pay out small, genuine commissions within minutes, establishing trust before the platform pushes users toward "VIP" or bulk task packages that require the worker to first deposit their own money, on the promise that both the deposit and a commission will be returned instantly. In the largest documented case from that period, a 50-year-old investment manager registered with one such platform after seeing an online ad, was talked through escalating deposit rounds by operators posing as customer-service staff, and ultimately transferred HK$6.14 million plus roughly HK$130,000 in cryptocurrency before losing contact with the platform entirely when he tried to withdraw. Hong Kong police warn that any job that pays a "commission" only after the worker first sends money — rather than being paid for completed, verifiable work — is a task scam regardless of how small the first few payouts are, and advise verifying any recruiter or platform, and checking any bank or crypto-wallet address before transferring, through the police Scameter/Scameter+ tool before sending a first deposit.`,
+    categorySlug: 'job-task-scams',
+    country: 'HK',
+    alertLevel: 'high',
+    sources: ['Hong Kong Police Force', 'The Standard (Hong Kong)'],
+    sourceUrl: 'https://www.thestandard.com.hk/news/article/324893/Job-scams-climb-63pc-to-4095-with-most-linked-to-task-fraud',
+  },
+  {
+    name: 'Fake HKCERT "Scam Asset Recovery Program" Re-Victimization Scam',
+    slug: 'hong-kong-fake-hkcert-recovery-program-scam',
+    description: `The Hong Kong Computer Emergency Response Team Coordination Centre (HKCERT), operated by the Hong Kong Productivity Council, warned the public on May 27, 2025 of a "recovery scam" built specifically around people who had already lost money to an earlier fraud. HKCERT said the scammers appeared to be working from leaked or purchased lists of prior scam victims, since the approach opened with a first fraudster contacting the victim over WhatsApp, Facebook, or Telegram, claiming to be a fellow victim of the same original scam and organizing other victims to jointly seek help — a claim made credible by the caller already knowing the victim's name, phone number, and the exact amount previously lost. Days later, that same contact would announce a breakthrough: a way to trace and recover the stolen funds, and an invitation into a WhatsApp group branded as a "Scam Asset Recovery Program," where a second scammer posing as a technical expert from HKCERT — in some versions claiming to be acting under an appointment from the Hong Kong Monetary Authority — offered to retrieve the lost money in exchange for the victim's bank account details, passwords, or an upfront "verification" payment, defrauding the same person a second time. HKCERT stated plainly that it does not contact scam victims to offer fund-recovery services of any kind, that it never operates through unsolicited WhatsApp, Facebook, or Telegram messages, and that neither it nor any genuine agency will ever ask for banking passwords or a payment to "release" recovered funds; the warning came alongside a parallel alert about fake websites cloned to look like the Hong Kong Police Force's own Anti-Deception Coordination Centre (ADCC), which likewise advertised fabricated success stories about recovering funds lost more than a month earlier. Anyone contacted after a scam with an offer to recover the lost money is advised to verify the claim only through the ADCC's official site, adcc.gov.hk, or the police Anti-Scam Helpline 18222, never through contact details supplied by the person making the offer.`,
+    categorySlug: 'government-impersonation',
+    country: 'HK',
+    alertLevel: 'high',
+    sources: ['Hong Kong Computer Emergency Response Team Coordination Centre (HKCERT)', 'Hong Kong Productivity Council (HKPC)'],
+    sourceUrl: 'https://www.hkpc.org/en/about-us/media-centre/media-message/2025/hkcert-recovery-scam-prevention',
+  },
+);
