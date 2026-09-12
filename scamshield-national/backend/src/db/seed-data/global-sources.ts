@@ -1592,4 +1592,76 @@ export const SEED_GLOBAL_SOURCES: SeedGlobalSource[] = [
       "Comoros' central bank publishes a statutory Rapport Annuel alongside dated public vigilance notices on its official publications page — including a 2023 communiqué naming fake offshore banks falsely claiming authorization through a bogus 'Comoros International Banking Authority' and a 2024 alert on illegal investment offers.",
     data_type: 'annual_report',
   },
+  {
+    agency_name: 'ASIF — Supervisory and Financial Information Authority',
+    country: 'VA',
+    country_name: 'Vatican City',
+    url: 'https://www.asif.va/ENG/Rap_Annuali.aspx',
+    description:
+      "The Holy See and Vatican City State's financial supervisory and intelligence authority (formerly AIF) publishes a statutory annual report with non-confidential statistics on suspicious-activity reports and anti-money-laundering enforcement covering the Institute for the Works of Religion (the 'Vatican Bank') and other supervised entities.",
+    data_type: 'annual_report',
+  },
+  {
+    agency_name: "ARPCE — L'Info du Consommateur",
+    country: 'CG',
+    country_name: 'Congo-Brazzaville',
+    url: 'http://linfoduconsommateur.arpce.cg/',
+    description:
+      "The Republic of Congo's postal and electronic communications regulator (ARPCE) runs a dedicated consumer-information site publishing a quarterly Observatoire des Plaintes des Consommateurs, breaking down complaint volumes by category (mobile telephony, financial services) and by operator.",
+    data_type: 'public_stats',
+  },
+  {
+    agency_name: 'ORTEL (Órgano Regulador de las Telecomunicaciones)',
+    country: 'GQ',
+    country_name: 'Equatorial Guinea',
+    url: 'https://ortelge.com/observatorio/memoria-anual/',
+    description:
+      "Equatorial Guinea's telecommunications regulator operates a dedicated user-protection department that mediates complaints between operators and subscribers, and publishes a yearly Memoria Anual covering sector performance, market oversight, and regulatory enforcement.",
+    data_type: 'annual_report',
+  },
+  {
+    agency_name: 'ARCEP Tchad (Autorité de Régulation des Communications Électroniques et des Postes)',
+    country: 'TD',
+    country_name: 'Chad',
+    url: 'https://arcep.td/rapports_annuels.html',
+    description:
+      "Chad's telecom and postal regulator publishes annual reports and an online observatory of dashboards tracking mobile, fixed-line, internet, and postal service indicators, and has publicly ordered operators to compensate consumers after service-outage complaints.",
+    data_type: 'annual_report',
+  },
+  {
+    agency_name: 'COBAC (Commission Bancaire de l\'Afrique Centrale)',
+    country: 'CF',
+    country_name: 'Central African Republic',
+    url: 'https://www.beac.int/supervision-bancaire/publications/',
+    description:
+      "The Central African Republic has no standalone national banking-consumer-protection body; oversight falls to COBAC, the CEMAC-wide banking supervisor it shares with Cameroon, Chad, Congo, Equatorial Guinea, and Gabon. COBAC created a dedicated consumer-protection unit in 2024 to process complaints against supervised banks and microfinance institutions, and publishes an annual report with sector-wide banking and prudential-enforcement statistics covering the country.",
+    data_type: 'annual_report',
+  },
+  {
+    agency_name: 'ARN (Autoridade Reguladora Nacional das Tecnologias de Informação e Comunicação)',
+    country: 'GW',
+    country_name: 'Guinea-Bissau',
+    url: 'https://arn.gw/relatorios-anuais/',
+    description:
+      "Guinea-Bissau's telecom and ICT regulator publishes annual reports and quarterly market-observatory bulletins on operator performance, and distributes a public consumer guide explaining subscriber rights and how to file a service complaint.",
+    data_type: 'annual_report',
+  },
+  {
+    agency_name: 'Banque Centrale de Djibouti (BCD)',
+    country: 'DJ',
+    country_name: 'Djibouti',
+    url: 'https://banque-centrale.dj/rapports-annuel-de-la-banque/',
+    description:
+      "Djibouti's central bank publishes annual reports covering banking supervision and financial-sector stability — including a dedicated banking-supervision report — for the credit institutions, microfinance bodies, and exchange agents it oversees nationwide.",
+    data_type: 'annual_report',
+  },
+  {
+    agency_name: 'Bank of South Sudan — Division of Consumer Protection',
+    country: 'SS',
+    country_name: 'South Sudan',
+    url: 'https://boss.gov.ss/supervision-regulation/',
+    description:
+      "South Sudan's central bank maintains a dedicated Consumer Protection Division within its Non-Bank Financial Institutions department, publicly listing customer complaint handling, consumer-rights enforcement, and fair-practice monitoring as its core functions over financial-sector complaints.",
+    data_type: 'public_stats',
+  },
 ];
