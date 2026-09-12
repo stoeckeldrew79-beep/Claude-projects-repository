@@ -7944,6 +7944,10 @@ If you've returned a physical item to Amazon since September 2017 and suspect yo
     slug: "costa-del-mar-repair-fees-settlement-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "costa-del-mar-repair-fees-settlement"],
+    // representative photo — replace with an exact match if found
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Sunglasses%26Pen.jpeg?width=1200",
+    coverImageCredit: "Photo: Filip Maljkovic, Public Domain, via Wikimedia Commons — sunglasses, the product at the center of the repair-fee lawsuit",
+    coverImagePosition: 50,
     sourceUrl: "https://www.classaction.org/news/23.9m-costa-del-mar-settlement-wraps-up-lawsuit-over-sunglasses-repair-fees",
     body: `Costa Del Mar has long marketed a simple promise to sunglasses owners: if your Costas ever get scratched, cracked, or broken, the company will repair or replace them for a "nominal fee." A class action, Reed, IV v. Costa Del Mar, Inc. (Case No. 6:19-cv-1751-RBD-LHP, U.S. District Court for the Middle District of Florida, Orlando Division, filed April 3, 2019), alleged that promise didn't match reality — that Costa routinely charged customers far more than a nominal amount to fix damaged frames or lenses, in violation of Florida's Deceptive and Unfair Trade Practices Act. Costa has not admitted wrongdoing but agreed to a $23.9 million settlement rather than continue litigating a case that had already run more than six years, and the court granted preliminary approval on July 31, 2026.
 
@@ -7960,6 +7964,10 @@ If you've paid Costa Del Mar more than $11.95 to repair or replace a pair of sun
     slug: "american-consumer-credit-counseling-2025-data-breach-settlement-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "accc-2025-data-breach-settlement"],
+    // representative photo — replace with an exact match if found
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Cybersecurity.png?width=1200",
+    coverImageCredit: "Photo: jaydeep_ (Pixabay), CC0, via Wikimedia Commons — a padlock over a circuit board, representing the data breach",
+    coverImagePosition: 50,
     sourceUrl: "https://www.classaction.org/news/american-consumer-credit-counseling-settlement-ends-class-action-lawsuit-over-january-2025-data-breach",
     body: `American Consumer Credit Counseling (ACCC) is a nonprofit credit-counseling agency based in Newton, Massachusetts, that has helped people nationwide manage debt, set up debt-management plans, and get free budgeting and credit education by phone and online since 1991 — the kind of organization someone turns to specifically because they're already dealing with financial stress. ACCC disclosed that unauthorized access to employee email accounts between January 27 and February 18, 2025 exposed sensitive information belonging to its own clients, identifying roughly 11,611 people whose data was affected.
 
@@ -7974,6 +7982,10 @@ There's a particular sting to this kind of breach: people who reached out to a c
     slug: "brevard-skin-cancer-center-2025-data-breach-settlement-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "brevard-skin-cancer-center-2025-data-breach-settlement"],
+    // representative photo — replace with an exact match if found
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Dermatoscope1.JPG?width=1200",
+    coverImageCredit: "Photo: Frank33, CC BY-SA 3.0, via Wikimedia Commons — a dermatoscope, the kind of tool used at the breached dermatology practice",
+    coverImagePosition: 50,
     sourceUrl: "https://www.classaction.org/news/brevard-skin-and-cancer-center-settlement-ends-class-action-lawsuit-over-2025-data-breach",
     body: `DRS Roberts & Bryan, P.A., which does business as Brevard Skin & Cancer Center, is a dermatology and skin-cancer treatment practice serving Brevard County, Florida. The practice disclosed a targeted cyberattack that occurred in September 2025, and notification letters went out to current and former patients whose information may have been compromised. A lawsuit followed on August 28, 2026, and the case moved to a settlement quickly after that.
 
@@ -7988,6 +8000,9 @@ This settlement is a useful reminder that a data breach lawsuit isn't only somet
     slug: "equifax-duplicate-collection-account-settlement-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "equifax-duplicate-reporting-settlement"],
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Equifax_HQ.jpg?width=1200",
+    coverImageCredit: "Photo: Tyler Lahti, CC BY-SA 4.0, via Wikimedia Commons — the Equifax headquarters building in Atlanta",
+    coverImagePosition: 50,
     sourceUrl: "https://www.consumeraffairs.com/news/equifax-agrees-to-22-million-settlement-over-duplicate-collection-accounts-080326.html",
     body: `Equifax's 2017 breach and 2019 FTC settlement involved hackers stealing data outright. A separate, much smaller case resolved in 2026 involves no hacker at all — just an alleged error in how Equifax's own systems reported debt. Lead plaintiff Charmayne Bradberry says a $305 collection account showed up twice on her Equifax credit report, making her look like she owed more and had more delinquent accounts than she actually did, and that the resulting drop in her credit score contributed to a mortgage denial. Her case, Bradberry v. Equifax Information Services, LLC (Case No. 1:22-cv-04754-MLB, U.S. District Court for the Northern District of Georgia), alleged Equifax violated the Fair Credit Reporting Act's requirement that credit bureaus follow "reasonable procedures to assure maximum possible accuracy" by reporting the same collection account more than once on certain consumer files.
 
@@ -7996,5 +8011,19 @@ The scale of the problem became clear through Equifax's own past outreach: the s
 Under the $2.2 million settlement, eligible class members could claim up to $600 in cash — the exact amount depends on how many valid claims are filed — by attesting, under penalty of perjury, that they were harmed by the duplicate reporting. Every class member also automatically receives six months of Equifax Complete credit monitoring regardless of whether they filed a cash claim. The deadline to submit a claim or to exclude yourself from the settlement was September 1, 2026, with a final approval hearing scheduled for October 6, 2026.
 
 The case is a useful reminder that a credit report doesn't just fail by being hacked — it can fail by being wrong, in ways that are just as damaging to a mortgage or loan application. A single delinquent debt sometimes gets reported more than once because an original creditor and a debt collector (or two different collectors after a debt is resold) each furnish it separately, or because of a data-matching error at the bureau itself, and the result is a file that makes someone look more delinquent than they are. The Fair Credit Reporting Act already gives every consumer the right to dispute an inaccurate item directly with a credit bureau, for free, at any time — a right that exists independently of any class action settlement. If you received a Duplicate Reporting Letter from Equifax in 2022 and never acted on this settlement, contact the settlement administrator to ask whether anything can still be done even though the claim deadline has passed. Whether or not you were part of this case, it's worth pulling your free credit reports at AnnualCreditReport.com periodically and checking for any account — collection or otherwise — that appears more than once, and disputing it directly with Equifax, Experian, or TransUnion if you find one. Treat any unsolicited call, text, or email referencing an "Equifax settlement check" or asking you to "verify" personal information to receive a payment as a probable scam, and report it to the FTC at ReportFraud.ftc.gov.`,
+  },
+  {
+    title: "The American Vision Partners Data Breach Settlement: $1.75 Million After a 2023 Hack Exposed 1.6 Million Eye Patients' Records",
+    slug: "american-vision-partners-2023-data-breach-settlement-guide",
+    author: "ScamShield Editorial",
+    tags: ["guide", "american-vision-partners-2023-data-breach-settlement"],
+    sourceUrl: "https://www.classaction.org/news/1.75m-american-vision-partners-settlement-ends-data-breach-lawsuit-over-2023-incident",
+    body: `American Vision Partners is a Phoenix-based practice management company that runs eye-care and ophthalmology clinics across Arizona, Nevada, New Mexico, and Colorado under a collection of local brand names most patients wouldn't necessarily connect to one another. The company identified suspicious activity in its computer systems on November 14, 2023, and a forensic investigation confirmed around December 6, 2023 that an unauthorized third party had accessed certain systems and copied files containing patient information. As is common with practice-management breaches, the disclosed scope grew over time: American Vision Partners' own regulatory filing put the total at roughly 2.35 million people, though the HHS Office for Civil Rights breach portal was later updated to a slightly smaller 2,264,157, and the resulting class action defines its core class around approximately 1.6 million affected Americans.
+
+According to the breach notifications and subsequent litigation, the exposed information included patients' names, contact information, dates of birth, medical information, clinical records, and medications, with a subset of roughly 258,070 individuals also having their Social Security numbers compromised. The lawsuit, Hulewat et al. v. Medical Management Resource Group LLC et al. (Case No. 2:24-cv-00377, U.S. District Court for the District of Arizona), alleged the company failed to implement reasonable cybersecurity safeguards adequate to protect the sensitive patient data it was entrusted with, bringing claims for negligence and related state-law violations. American Vision Partners denies wrongdoing but agreed to resolve the case with a $1.75 million settlement fund, which received preliminary court approval on June 30, 2026.
+
+The settlement draws a meaningful line between two groups. The roughly 258,070 people whose Social Security numbers were exposed make up a "damages subclass" eligible to claim up to $3,000 in reimbursement for documented out-of-pocket losses tied to the breach — such as fraud, identity theft, or professional fees spent resolving it — or a pro rata cash payment with no proof required, with the exact amount depending on how many valid claims are filed. Beyond the money, American Vision Partners agreed to put more than $2.7 million into cybersecurity improvements, including appointing a chief information security officer and forming a cybersecurity steering committee — commitments a settlement can extract even when the cash fund itself is modest relative to the number of people affected.
+
+A Social Security number paired with a real name, date of birth, and detailed clinical record is a durable combination: unlike a credit card number, none of it can simply be canceled and reissued, and the medical detail specifically opens the door to medical identity theft, where someone uses a patient's identity to obtain treatment, equipment, or prescriptions in their name. If you received a notice from American Vision Partners or one of its affiliated eye-care practices, check whether you fall into the Social Security number subclass and file a claim before the November 12, 2026 deadline at AmericanVisionSettlement.com. Whether or not your Social Security number was involved, place a free security freeze with Equifax, Experian, and TransUnion if you haven't already, and review your insurance Explanation of Benefits statements for any visit, device, or prescription you don't recognize. Treat any unsolicited call, text, or email that references this breach, a "settlement payment," or your eye-care provider and asks you to confirm personal or medical information as a probable scam — file a claim only through the official settlement site named in your notice. Suspected identity theft can be reported at IdentityTheft.gov, and phishing attempts referencing this breach can be reported to the FTC at ReportFraud.ftc.gov.`,
   },
 ];
