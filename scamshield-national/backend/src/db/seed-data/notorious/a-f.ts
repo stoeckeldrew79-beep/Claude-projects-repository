@@ -8581,3 +8581,29 @@ Publishing.com's case is a reminder that a "no questions asked" guarantee is onl
     sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2026/07/ftc-approves-final-order-against-publishingcom-settling-allegations-it-misled-consumers',
   },
 );
+
+// This is an FTC consumer-protection matter resolved by a stipulated final
+// order in federal court, not a criminal case — Doxo, Shivers, and Parks
+// settled without admitting or denying the FTC's allegations. No
+// rights-cleared photo of either co-founder was found, so sourceUrl links
+// to the FTC's own settlement announcement instead of a photo.
+NotoriousAF.push(
+  {
+    title: "Doxo, Steve Shivers, and Roger Parks: The Bill-Pay App That Bought Your Biller's Name in Search Ads",
+    slug: 'doxo-steve-shivers-roger-parks-bill-pay-junk-fees',
+    author: 'ScamShield Editorial',
+    tags: ['notorious'],
+    body: `Note: Doxo, Inc., CEO Steve Shivers, and Vice President Roger Parks settled the FTC's civil complaint through a stipulated final order. Under the FTC's standard practice for such settlements, they neither admitted nor denied the agency's allegations, though the order has the force of law now that a federal judge has signed it.
+
+Doxo, Inc., founded in Bellevue, Washington in 2008, built an online bill-payment platform that let customers pay utility bills, car loans, medical bills, and other recurring charges through a single app rather than visiting each biller's own website. The business depended on one thing above all: getting in front of a consumer at the exact moment they searched online for a company they already owed money to.
+
+According to a Federal Trade Commission complaint filed April 25, 2024, in the U.S. District Court for the Western District of Washington, Doxo got in front of those consumers by making them think it was the biller. The company bought search-engine ads that appeared when someone searched for their actual biller's name — ads whose headlines featured the biller's own name rather than Doxo's — and built landing pages that prominently displayed the biller's name and sometimes its logo. In fact, the FTC alleged, fewer than two percent of the companies listed in Doxo's "network" had ever authorized Doxo to accept payments on their behalf. Once a consumer had entered their billing information believing they'd reached the biller directly, Doxo revealed an extra "delivery fee" only at the final payment screen, disclosed in greyed-out fine print, and — until it changed the practice in February 2024, after learning of the FTC's forthcoming complaint — pre-checked a box that enrolled the consumer in a recurring subscription plan the moment they clicked to read the terms of service.
+
+The complaint also described a structural problem with how Doxo actually paid the bills it collected money for: even though the company charged a consumer's card or bank account immediately, it often paid the underlying biller by printing and mailing a paper check, which could take days or weeks to arrive. The FTC said this gap between "Doxo has your money" and "your biller has been paid" left consumers with utilities shut off, and car and health insurance lapsed, over bills they believed — and had already been charged for — as paid on time. The complaint alleged that Doxo, Shivers, and Parks had known about the pattern for years, citing tens of thousands of consumer complaints, complaints from hundreds of billers, and a 2021 incident in which employees at a major search engine internally flagged Doxo's own ads as "super misleading" — none of which, the FTC said, led the company to change the fundamental structure of its advertising.
+
+The FTC voted 2-0 to authorize the complaint, charging violations of the FTC Act, the Restore Online Shoppers' Confidence Act, and the Gramm-Leach-Bliley Act. On August 17, 2026, the FTC announced a stipulated final order resolving the case: Doxo, Shivers, and Parks agreed to pay $2.1 million for consumer redress and to a set of permanent restrictions barring them from using a biller's name or logo in a way that misrepresents an affiliation, from misrepresenting the total cost or fees of using the platform, and from enrolling consumers in recurring charges without clear disclosure and express informed consent. "Misleading search text ads thwart consumers' pursuit of information and undermine the integrity of the marketplace," said Christopher Mufarrige, Director of the FTC's Bureau of Consumer Protection, in announcing the settlement.
+
+Doxo's case is a reminder that a fee doesn't need to be hidden behind a fake product to cause real harm — it can ride along on top of a genuine, useful-sounding service, collected by a middleman a consumer never meant to pay in the first place. Searching for "[your utility company] pay bill" and clicking the first result that has the right name in the headline feels like reaching the company directly; the FTC's case against Doxo is a reminder that the safest way to pay a bill online is typing the biller's own web address directly into the browser, rather than trusting that a search ad's headline means what it appears to say.`,
+    sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2026/08/bill-payment-firm-doxo-pay-21-million-settle-ftc-allegations-it-deceived-consumers-charged-them-add',
+  },
+);
