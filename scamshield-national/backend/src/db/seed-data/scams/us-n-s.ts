@@ -6640,3 +6640,29 @@ UsNS.push({
     isHistorical: true,
     firstRecorded: '2026-04-27',
 });
+
+UsNS.push({
+    name: 'Epping Home-Improvement "Ponzi-Style" Deposit Fraud (Southers Construction)',
+    slug: 'new-hampshire-southers-construction-deposit-fraud',
+    description: `The New Hampshire Attorney General's Office filed a civil complaint against Southers Construction, Inc. of Epping and its owner, Ricky Southers, alleging that on at least 17 occasions the company signed home-improvement contracts, collected customer deposits, and then performed little or no work while spending the money on other expenses and other customers' unfinished jobs — an arrangement the complaint described as "something akin to a Ponzi scheme" that had bilked customers out of more than $500,000. Investigators said Southers spent company funds on personal items including custom knives and a $7,000 golf simulator rather than the work he had been paid to do, and salespeople misrepresented job status and the company's capabilities to keep new deposits coming in. A Rockingham Superior Court judge granted a preliminary injunction on May 28, 2024 barring Southers Construction from accepting any new deposit or prepayment until a customer has attested in writing that the previously paid-for work was actually completed; the state separately sought $170,000 in civil penalties. Southers was later charged criminally, including with violating that injunction, and a Rockingham County jury convicted him on August 13, 2026 of felony theft by unauthorized taking — tied to more than $60,000 taken from a single client in May 2024 — along with three Class A misdemeanors for continuing to violate the court's injunction. Before paying any contractor a deposit, New Hampshire homeowners are advised to check for pending Consumer Protection Act complaints or injunctions against the business with the Attorney General's Office, to get a written, dated completion timeline in the contract, and to treat a contractor's request for a large upfront deposit with no verifiable completed jobs as a warning sign rather than routine business practice.`,
+    categorySlug: 'home-improvement-solar',
+    alertLevel: 'high',
+    sources: ['New Hampshire Department of Justice', 'NH Business Review', 'Business NH Magazine'],
+    sourceUrl: 'https://www.businessnhmagazine.com/article/epping-contractor-accused-of-running-lsquoponzi-schemersquo-convicted',
+    country: 'US',
+    state: 'NH',
+});
+
+UsNS.push({
+    name: 'Portland Fictitious $100 Million Inheritance Advance-Fee Fraud (Ronnie Stevens & Tina Ephrem)',
+    slug: 'oregon-stevens-ephrem-fictitious-inheritance-fraud',
+    description: `Starting in September 2016, Ronnie Stevens befriended a 76-year-old Portland man by posing as a vehicle broker, then pitched him on an investment opportunity built around a fictitious woman named "Tammy Ward," whom Stevens claimed stood to inherit more than $100 million from her recently deceased father but needed upfront money to cover fees and legal costs to release the estate — promising the victim a substantial share of the inheritance once it came through. Over roughly the next two years, Stevens (making more than 5,000 outgoing calls to keep the story alive) and his wife, Tina Ephrem, extracted approximately $1.6 million from the victim and his wife through repeated payments toward the ever-delayed "release" of the nonexistent estate, spending the money on rent, utilities, restaurants, cigars, retail purchases, and trips to Las Vegas, Hawaii, Anaheim, and Oregon's own Spirit Mountain Lodge. A federal grand jury indicted the Portland couple on six counts of wire fraud on January 8, 2019, and they were arrested three days later; following a jury trial, Stevens was sentenced to 71 months in federal prison and Ephrem to 60 months, both with three years of supervised release, in a case the U.S. Attorney's Office for the District of Oregon brought as part of a broader crackdown on fraud targeting elderly victims. "Tammy Ward" never existed, and no legitimate inheritance, estate, or lottery windfall requires the supposed beneficiary's friend or associate to keep advancing cash to a third party to "release" it — anyone told a large sum is waiting behind one more fee should treat that request itself as the fraud, especially when it comes from someone who has spent months building a personal relationship first.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'medium',
+    sources: ["U.S. Attorney's Office for the District of Oregon", 'KATU'],
+    sourceUrl: 'https://katu.com/news/local/portland-couple-sentenced-to-federal-prison-for-stealing-16m-from-elderly-couple',
+    country: 'US',
+    state: 'OR',
+    isHistorical: true,
+    firstRecorded: '2019-01-08',
+});

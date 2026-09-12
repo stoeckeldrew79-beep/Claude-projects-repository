@@ -6732,3 +6732,17 @@ UsGM.push({
     isHistorical: true,
     firstRecorded: '2026-02-13',
 });
+
+UsGM.push({
+    name: '"Larry Pham" Catfish Romance Scam Extradited from the UK (Daniel Chima Inweregbu)',
+    slug: 'louisiana-inweregbu-larry-pham-romance-scam',
+    description: `Between July 2017 and December 2018, Daniel Chima Inweregbu, a 40-year-old Nigerian citizen, and his co-conspirators created profiles on social media and online dating sites using the alias "Larry Pham," posing as a middle-aged Canadian-Vietnamese man, to attract American women looking for companionship. Once a woman responded, the conspirators cultivated a romantic relationship by message and email until she was emotionally attached to "Larry Pham," then asked her to send money for a series of fabricated reasons into domestic U.S. bank accounts the group controlled — a scheme the U.S. Attorney's Office for the Eastern District of Louisiana said caused more than $405,000 in actual and intended losses to at least four identified victims. Inweregbu was arrested years later while traveling from Nigeria through the United Kingdom and was extradited to New Orleans in July 2025; he pleaded guilty on August 21, 2025 to conspiracy to commit mail and wire fraud, mail fraud through use of an assumed name, and conspiracy to commit money laundering. U.S. District Judge Nanette Jolivette Brown sentenced him on December 11, 2025 to 33 months in federal prison, three years of supervised release, and $166,400 in restitution to his victims. The case is a reminder that a romantic interest met online who never appears on a video call, gives inconsistent identity details, or asks that money be wired to an account under a name other than their own is following a known catfishing playbook — before sending money to anyone met only online, reverse-search their photos and verify their identity independently, and never wire funds or purchase gift cards for someone you have not met in person.`,
+    categorySlug: 'romance-scams',
+    alertLevel: 'medium',
+    sources: ["U.S. Attorney's Office for the Eastern District of Louisiana"],
+    sourceUrl: 'https://www.lindaikejisblog.com/2025/12/nigerian-man-sentenced-to-33-months-imprisonment-for-years-long-romance-scam-victimizing-multiple-united-states-citizens.html',
+    country: 'US',
+    state: 'LA',
+    isHistorical: true,
+    firstRecorded: '2018-12-16',
+});

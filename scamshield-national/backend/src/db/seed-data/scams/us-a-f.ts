@@ -7908,3 +7908,17 @@ UsAF.push({
     isHistorical: true,
     firstRecorded: '2026-09-01',
 });
+
+UsAF.push({
+    name: 'Little Rock IRS Impersonation Wire-Fraud Ring "Top Runner" (Angel Chapotin Carrillo)',
+    slug: 'arkansas-carrillo-irs-impersonation-wire-fraud-ring',
+    description: `Between March 2015 and May 2016, a wire-fraud conspiracy prosecuted out of federal court in Little Rock had callers pose as IRS agents and tell victims nationwide they owed back taxes or penalties and faced immediate arrest unless they paid within hours, instructing them to wire the money through Walmart-2-Walmart or MoneyGram services to satisfy the fabricated "violations." Angel Chapotin Carrillo, a 43-year-old Cuban national living in Miami, was identified as one of the ring's "top runners" — the people who used at least 20 false identities to actually collect the wired payments — and personally took in more than $1.3 million of the roughly $9 million the ten-defendant conspiracy extracted from about 750 victims across 18 states. U.S. District Judge Kristine Baker sentenced Carrillo in Little Rock on October 24, 2018 to six years in federal prison and ordered him to pay $1.3 million in restitution, one of several sentences handed down as prosecutors worked through the ring's runners and organizers. The case shows how a threatening phone call demanding wired payment is often just the first link in a larger identity-driven collection network spread across several states — the IRS's own guidance is that it will never initiate contact by phone demanding immediate payment, never demand a specific payment method like a retail money transfer, and never threaten immediate arrest for nonpayment, so any call fitting that pattern should be hung up on rather than answered with a wire transfer.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ["U.S. Attorney's Office for the Eastern District of Arkansas", 'Arkansas Democrat-Gazette'],
+    sourceUrl: 'https://www.arkansasonline.com/news/2018/oct/24/irs-scammer-given-6-years-20181024/',
+    country: 'US',
+    state: 'AR',
+    isHistorical: true,
+    firstRecorded: '2018-10-24',
+});
