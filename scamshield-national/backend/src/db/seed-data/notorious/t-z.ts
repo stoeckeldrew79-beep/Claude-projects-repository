@@ -2753,23 +2753,6 @@ NotoriousTZ.push(
   },
 );
 
-NotoriousTZ.push(
-  {
-    title: "Vincent Camarda, the Long Island Advisor Who Sank $138 Million Into a Mining Bet and His Son's Coffee Shop",
-    slug: "vincent-camarda-ag-morgan-financial-fraud",
-    author: "ScamShield Editorial",
-    tags: ["notorious", "notorious-scammer"],
-    body: `Vincent J. Camarda spent roughly 30 years as a registered investment adviser on Long Island, eventually running his own firm, A.G. Morgan Financial Advisors, LLC, out of Massapequa, New York. According to the Securities and Exchange Commission, that decades-long reputation is exactly what he used to move hundreds of millions of dollars of his own clients' money into investments that were nothing like what he told them they were buying.
-
-The SEC's civil complaint, filed April 3, 2026 in the U.S. District Court for the Eastern District of New York, alleges that from June 2020 through December 2023, Camarda and A.G. Morgan's then-chief compliance officer, James E. McArthur, persuaded more than 431 advisory clients — many of them elderly and financially unsophisticated — to move money out of their existing accounts and into promissory notes issued by five private equity funds the two men had created and controlled. Marketing materials and pitches described the funds as "safe," "low risk," and "conservative." In reality, according to the SEC, four of the five funds put the entirety of investor money into a single high-risk mining venture, and the fifth fund invested exclusively in a drive-thru coffee startup, Buzz'd Express Coffee, that happened to be owned by Camarda's own son. Both ventures ultimately defaulted. The SEC's complaint also alleges Camarda personally diverted roughly $1 million of client money into his own bank account and that he and McArthur collected millions of dollars in compensation and fees from the funds without adequately disclosing the conflict of interest inherent in steering client money into investments they personally profited from.
-
-The Justice Department brought a parallel criminal case in the same district. On April 3, 2026, Camarda — then 62, of Amityville, New York — pleaded guilty before U.S. District Judge Nusrat Choudhury to securities fraud and investment adviser fraud, admitting that at least $138 million of client money went into the scheme and that clients were left with roughly $123 million in unreturned principal. Announcing the plea, U.S. Attorney for the Eastern District of New York Joseph Nocella Jr. said, "This defendant used a series of lies to lure clients, including elderly and other vulnerable individuals, into investing with him, all while enriching himself." Prosecutors said Camarda used diverted and undisclosed fee money — at least $2.97 million by one accounting — to pay for plastic surgery, jewelry, travel, luxury items, and personal credit card bills. He faces up to 20 years in prison at sentencing, along with restitution of more than $160,022,836.81 and forfeiture of $6,639,498.17; a sentencing date had not been set as of this writing. McArthur was charged civilly by the SEC alongside Camarda and A.G. Morgan Financial Advisors, LLC itself; the SEC's case against him remains pending.
-
-Camarda's case is a reminder that "safe" and "conservative" are marketing words, not guarantees, and that the person making those promises can be someone who has held a real securities license and a real local reputation for three decades — the SEC's own complaint says his clients trusted him precisely because of that track record, right up until nearly all of their money went into one mining bet and one relative's coffee shop instead of the diversified, low-risk portfolio they thought they'd signed up for.`,
-    sourceUrl: "https://www.justice.gov/usao-edny/pr/long-island-investment-advisor-pleads-guilty-160-million-investment-fraud",
-  },
-);
-
 // This is a civil consumer-protection matter resolved by consent judgment,
 // with no individual principal of White Tanks Group named in the public
 // record and no criminal charges reported — the company itself is the
