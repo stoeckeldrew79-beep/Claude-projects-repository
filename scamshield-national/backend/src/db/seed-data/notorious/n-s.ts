@@ -5974,3 +5974,21 @@ The First Brands case is a reminder that the collateral behind a loan is only as
     sourceUrl: 'https://www.justice.gov/usao-sdny/pr/first-brands-executives-charged-multibillion-dollar-fraud',
   },
 );
+NotoriousNS.push(
+  {
+    title: 'Richard McNeil and the Norristown Ponzi Scheme That Bilked 50 Investors Out of $3.8 Million',
+    slug: 'richard-mcneil-norristown-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    body: `Note: this case is a pending criminal prosecution. Richard L. McNeil has been charged but not convicted, and the allegations below are drawn from the Pennsylvania Attorney General's charging announcement and contemporaneous news coverage rather than from any court finding of guilt. All defendants are presumed innocent until and unless proven guilty.
+
+Richard L. McNeil, 59, of Norriton Township in Montgomery County, Pennsylvania, spent years soliciting money from people around him with a pitch that will sound familiar to anyone who has read about a Ponzi scheme before: hand over your savings, and he would place it into unspecified "various investment opportunities" that would pay steady monthly interest, with the full principal returned at the end of the term. According to the Pennsylvania Office of Attorney General, that promise wasn't backed by any real investment activity at all — McNeil simply did not invest the money he collected.
+
+An investigation by the Pennsylvania State Police, working with the Attorney General's Financial Crime Section, found that McNeil raised more than $3.8 million from at least 50 investors. Some of the money coming in from newer investors went to pay the "returns" owed to earlier ones — enough to keep the enterprise looking legitimate for a time — while more than $1.8 million remains unpaid to investors who never got their promised interest or their principal back. Several victims sustained six-figure losses, with multiple people losing more than $200,000 each.
+
+The Pennsylvania State Police filed charges against McNeil on June 26, 2026, and he turned himself in three days later, on June 29, when he was arraigned and released on a $250,000 unsecured bond. He faces felony counts of theft by deception and dealing in proceeds of unlawful activity, along with violations of the Pennsylvania Securities Act. "This defendant duped dozens of people into investing substantial funds — victims who believed they were to see monthly gains, but instead were left with depleted bank accounts and unanswered pleas for their money," said Pennsylvania Attorney General Dave Sunday in announcing the charges. "Investment fraud is obviously devastating to victims, and we will work hard to recover restitution as part of this prosecution." A preliminary hearing was scheduled for August 3, 2026; as of this writing, no trial date or plea has been publicly reported.
+
+McNeil's case is a reminder that a Ponzi scheme doesn't need a hedge fund's polish or a Wall Street pedigree to work — it needs only a plausible-sounding promise of steady, no-drama monthly income, delivered to people who already trust the person making it. Fifty investors and $3.8 million is a fraction of the size of the billion-dollar schemes that make national headlines, but the underlying mechanics, and the damage to each individual victim's savings, are identical: money moving from new investors to old ones as long as it can, run by someone with no actual investment behind any of it.`,
+    sourceUrl: 'https://www.attorneygeneral.gov/taking-action/montgomery-county-man-charged-with-duping-dozens-of-investors-in-3-8m-ponzi-scheme/',
+  },
+);
