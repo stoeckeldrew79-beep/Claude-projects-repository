@@ -16862,3 +16862,46 @@ International.push(
     country: 'GT',
   },
 );
+
+International.push(
+  {
+    name: 'Wealth Management Solutions Currency-Trading Ponzi Scheme',
+    slug: 'namibia-wealth-management-solutions-ponzi-scheme',
+    description: `Hanjo Schlabitz ran Windhoek-based investment firm Wealth Management Solutions (WMS) by taking in client money on two tracks — a money-market fund promising steady returns of roughly 7% a year, and a foreign-exchange trading fund promising far higher returns of up to 20% — but when the foreign-exchange investments failed and the money behind them disappeared, Schlabitz quietly used incoming money-market fund deposits to keep paying out the FX investors, a Ponzi-style pattern of using one group's principal to cover another group's promised returns rather than any real trading profit. The scheme unraveled into a liquidation process in which, as of a July 14, 2026 report, 87 individuals and two organisations had come forward as creditors, with confirmed losses of N$250 million and the liquidator's own estimate putting total losses as high as N$350 million once all claims are accounted for. The collapse has also drawn scrutiny onto Namibia's financial regulator: former Namfisa CEO Rainer Ritter said bluntly that "Namfisa did not do their job," while Namfisa itself said it could not comment on any supervisory action while the investigation remains open, and opposition shadow finance minister Michael Mwashindange called for Namfisa to move to more risk-based supervision with regular inspections of licensed financial advisers. Namibians are advised to independently verify that any investment adviser or fund is currently licensed with Namfisa before handing over money, to be skeptical of any fund that promises materially higher returns than ordinary money-market rates, and to ask pointed questions about how a "high-yield" fund actually generates its returns rather than accepting a steady payout history alone as proof the investment is genuine.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'critical',
+    sources: ['The Namibian', 'Namibia Financial Institutions Supervisory Authority (Namfisa)'],
+    sourceUrl: 'https://www.namibian.com.na/namfisa-investigates-firm-over-n250-million-losses/',
+    country: 'NA',
+  },
+  {
+    name: 'Bribery Scam Targeting Namibian Police Recruitment Applicants',
+    slug: 'namibia-fake-police-recruitment-bribery-scam',
+    description: `Amid a genuine, high-demand Namibian Police Force (NamPol) recruitment drive that had drawn some 40,000 applications nationwide and was working through English-proficiency tests, medical exams, physical fitness assessments, and fingerprint verification before a planned October 2026 intake, NamPol's Head of Public Relations, Deputy Commissioner Pretunilla Kauna Shikwambi, announced on August 20, 2026 that the force was investigating reports of individuals — including, allegedly, police officers themselves — soliciting money, gifts, or other favors from applicants in exchange for a guaranteed spot in the intake. This followed an earlier warning Shikwambi issued on June 24, 2026 after a completely fabricated recruitment advert for "1,750" police positions circulated on social media, unconnected to NamPol's real process, which had already closed applications on May 13, 2026. Shikwambi stated plainly that "no payment, gift, or any other form of consideration is required at any stage of the recruitment process," that this holds true even for applicants who ultimately are not selected, and that "no one whatsoever, not even police officers are authorized to solicit money or promise employment in exchange for payment," calling any such conduct fraudulent and demanding it be reported immediately. Applicants who are asked for payment or gifts by anyone claiming to control recruitment outcomes are advised to refuse and report the person directly to Deputy Commissioner Shikwambi or to the Police Conduct Investigation Directorate at their region's Police Regional Headquarters, and to treat any recruitment advert not confirmed through NamPol's own official channels as fake.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Namibian Police Force (NamPol)', 'Namib Times', 'Informanté'],
+    sourceUrl: 'https://www.namibtimes.net/nampol-cautions-public-against-recruitment-scams/',
+    country: 'NA',
+  },
+  {
+    name: 'Forged Bank Proof-of-Payment Scam Used to Collect Goods',
+    slug: 'namibia-forged-proof-of-payment-goods-scam',
+    description: `A 51-year-old man, Charles Poenie Toko, was arrested in Windhoek and appeared in the Windhoek Magistrate's Court on March 28, 2026, accused of presenting a forged bank payment confirmation to a local company to walk away with a shipment of car parts the fake document made it look like he had already paid for — with the goods then collected using a rented truck — and authorities say he allegedly attempted the identical trick against the very same business a second time. Toko was granted bail of N$3,000 and is due back in court on June 8, 2026. The Windhoek City Police, publicizing the case, urged businesses and members of the public to verify all payments and proof-of-payment documents directly with their own bank before releasing any goods to a buyer, rather than trusting a printed slip, screenshot, or emailed confirmation at face value, and asked anyone with information on similar incidents to contact the Windhoek City Police Service at 061 302 302, by SMS to 4444, or at their nearest police station.`,
+    categorySlug: 'fake-check-overpayment',
+    alertLevel: 'high',
+    sources: ['Windhoek City Police', 'Informanté'],
+    sourceUrl: 'https://informante.web.na/?p=392343',
+    country: 'NA',
+  },
+  {
+    name: 'Fake "Rental Finder" Deposit Scam on Social Media',
+    slug: 'namibia-social-media-rental-finder-deposit-scam',
+    description: `As Windhoek's housing crunch pushes rents for a backyard room or shared space to between N$3,500 and N$5,500 a month and a small bachelor flat above N$6,500, self-styled "rental finders" have proliferated on Facebook and other social media, posing as agents who can secure a tenant a place to live and creating false urgency — "first come, first served" — to pressure quick decisions. Victims are asked to pay a deposit or viewing fee for a property that turns out not to exist or was never actually available, after which the "finder" either disappears or strings the victim along with excuses rather than ever returning the money; individual losses documented in reporting on the pattern ranged from N$1,500 to N$11,000, and one accused operator, identified as Vanessa Kaundje, is alleged to have defrauded tenants of more than N$50,000 combined. Detective Chief Inspector Oliver Hendrik of the Khomas region's Crime Investigations Division, discussing the trend on May 18, 2026, said "our citizens should stop paying in advance for services they have not seen" and urged prospective tenants to have police help verify a property's physical address and the identity of its landlord before handing over any cash, while Namibia Estate Agents Board manager Festus Unengu noted that only agents actually registered with the Board give defrauded tenants access to the Board's fidelity fund protection — protection an unregistered "rental finder" cannot offer. Renters are advised to never pay a deposit or viewing fee before physically seeing a property and confirming who legally owns or manages it, to be suspicious of any "finder" pushing an immediate decision, and to check with police or the Estate Agents Board before transferring money to someone found only through a social media post.`,
+    categorySlug: 'rental-housing',
+    alertLevel: 'high',
+    sources: ['The Namibian', 'Namibia Estate Agents Board', 'Namibian Police Force (NamPol)'],
+    sourceUrl: 'https://www.namibian.com.na/social-media-rental-finder-scams-on-the-rise-in-namibia-police-warn/',
+    country: 'NA',
+  },
+);
