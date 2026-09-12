@@ -8668,3 +8668,47 @@ Tech support scams like this one work by manufacturing a moment of panic and the
     sourceUrl: 'https://www.texasattorneygeneral.gov/news/releases/ag-paxton-obtains-restitution-texans-victimized-computer-tech-support-scam',
   },
 );
+
+// No rights-cleared photo of McBride was located. Primary sources: the
+// Florida Attorney General's June 4, 2025 press release on the conviction
+// (sourceUrl), FDLE's October 24, 2018 arrest release, and the Florida
+// Office of Financial Regulation's "Case Updates" page, which records the
+// September 19, 2025 sentencing (flofr.gov/enforcement/case-updates).
+NotoriousAF.push(
+  {
+    title: 'Bernard McBride Jr. and the Gold Mine That Was Never His to Sell',
+    slug: 'bernard-mcbride-tutela-mining-gold-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    body: `Bernard Joseph McBride Jr., of Sarasota, Florida, told prospective investors that his company, Tutela Mining, Inc., owned and operated a working gold mine in California, and offered them the chance to invest for guaranteed returns paid out in either gold or cash. According to Florida's Attorney General, bank records and trial testimony later showed the mine didn't exist in any form McBride controlled — he never owned or operated a gold-mining operation at all.
+
+The Florida Office of Financial Regulation opened the case in 2014 after receiving a victim complaint, then investigated jointly with the Florida Department of Law Enforcement and the Attorney General's Office of Statewide Prosecution. Investigators found that McBride sold his company's stake in the supposed mine through convertible promissory notes (CPNs), pushed on prospective buyers — mostly senior citizens in Florida, South Carolina, Tennessee, and Virginia — through the kind of high-pressure sales tactics the CPN structure is built for: a West Palm Beach telemarketing company McBride employed hit victims with a steady stream of phone calls and emails urging them to make an initial purchase, then buy more. By the time FDLE arrested McBride in October 2018 on four counts of grand theft, investigators had traced $281,224.41 in note sales into his personal bank accounts. The fuller case that went to trial put McBride's total take at more than $575,000.
+
+The money didn't fund a mine. According to the Attorney General's office, it paid McBride and family members who held no-show jobs at Tutela Mining, and covered personal expenses that included his stepdaughter's wedding. A jury found McBride guilty on one count of grand theft over $100,000 and two counts of grand theft between $20,000 and $100,000, exposing him to as much as 60 years in state prison. "My office is ensuring that criminals can't get away with defrauding Florida's seniors," Attorney General James Uthmeier said in announcing the conviction, crediting Chief Assistant Statewide Prosecutor Jonathan Bridges and Senior Assistant Statewide Prosecutor Joshua Dockus. On September 19, 2025, McBride was sentenced to five years in prison and ordered to pay $245,800 in restitution to his victims.
+
+A gold mine is, in principle, one of the easier investment claims to check: mining claims are recorded with federal and state land agencies, and an operation actually pulling gold out of the ground leaves records of production, permits, and equipment that a real owner can produce on request. None of McBride's victims appear to have asked to see any of it before signing over their retirement savings for a company that turned out to exist only on paper.`,
+    sourceUrl: 'https://www.myfloridalegal.com/newsrelease/attorney-general-james-uthmeier-secures-conviction-fraudster-who-targeted-seniors',
+  },
+);
+
+// No rights-cleared photo of Levitt was located. Primary source: the
+// Florida Office of Financial Regulation's case-details page for this
+// matter (sourceUrl), which is the sole cited investigative record for
+// the scheme mechanics, agencies involved, and the November 18, 2025
+// sentencing.
+NotoriousAF.push(
+  {
+    title: "Eric Levitt and the Promissory Notes Gulf Coast Settlements Never Told Its Investor About",
+    slug: 'eric-levitt-gulf-coast-settlements-promissory-note-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    body: `Eric Levitt managed Gulf Coast Settlements LLC, a Fort Myers, Florida company, when he executed a series of promissory notes that routed an investor's own money back to his company — without that investor ever knowing the notes existed or agreeing to them, according to the Florida Office of Financial Regulation. Levitt told the investor to expect monthly returns of eight to nine percent, a payout structure common to the promissory-note schemes regulators see most often, since a fixed monthly percentage is easy to promise and hard for an investor to verify against real underlying assets.
+
+The payments worked for a while, then stopped. When the investor started asking questions, Levitt didn't just go quiet — the OFR says he had already set up a fraudulent email address in the victim's own name and used it to intercept the investment firm's correspondence, keeping the paper trail that might have exposed the scheme away from the person it belonged to. That kind of concealment only works for as long as a victim doesn't independently reach out to the financial institution directly, in a channel the person actually controls.
+
+The Florida Office of Financial Regulation was the sole investigative agency on the case; the Florida Department of Financial Services' Criminal Investigations Division executed the arrest warrant, and Levitt was booked into the Lee County Jail on December 10, 2024. The Lee County State Attorney's Office prosecuted the case. Levitt pleaded guilty, and on November 18, 2025, he was sentenced to five years in prison, to be followed by twenty years of probation, and ordered to pay more than $570,000 in restitution to his victim.
+
+Levitt's scheme is a reminder that a promissory note routed through a company an investor already does business with doesn't need a fake identity or a fictitious business to work — it needs only that the investor never sees the paperwork with proceeds payable to someone else, and that any correspondence questioning it never actually reaches them. Once Levitt controlled the inbox the truth would have arrived in, he controlled how long the fraud could keep running.`,
+    sourceUrl: 'https://flofr.gov/enforcement/case-updates/case-details/fort-myers-man-sentenced-to-five-years-in-prison-for-promissory-note-scam',
+  },
+);
