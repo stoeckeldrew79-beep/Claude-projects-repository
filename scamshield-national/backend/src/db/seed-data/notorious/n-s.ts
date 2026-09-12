@@ -6128,3 +6128,28 @@ Rippe's case is a reminder that a home-improvement contract paid for with a larg
     sourceUrl: 'https://www.ag.ks.gov/Home/Components/News/News/326/1292',
   },
 );
+
+// Note: Stephen Swensen died before he could be criminally charged, so this
+// case was resolved entirely through civil SEC litigation. No rights-cleared
+// photo of Swensen has surfaced, so sourceUrl links to the SEC's litigation
+// release announcing the final judgment against his widow.
+NotoriousNS.push(
+  {
+    title: 'Stephen Swensen, Crew Capital, and the $29 Million Ponzi Scheme That Outlived Him',
+    slug: 'stephen-swensen-crew-capital-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    body: `Note: Stephen Swensen died before the Securities and Exchange Commission filed its case, so no criminal charges were ever brought against him. The matter was resolved entirely as a civil SEC enforcement action — a complaint against his estate and his company, and a separate settled judgment against his widow, who the SEC did not accuse of any wrongdoing herself.
+
+Stephen Romney Swensen, of Kaysville, Utah, spent more than a decade running Crew Capital Group, LLC, an investment vehicle he told prospective investors was co-managed by a reputable outside firm and could reliably pay a minimum 5% annual return, with upside of up to 10% if the S&P 500 performed well. From 2011 until his death on June 6, 2022, according to the SEC, Swensen used that pitch to raise more than $29 million from more than 50 investors — money he told them was being professionally invested in securities.
+
+It wasn't. The SEC's complaint alleges Crew Capital never actually invested in securities at all. Instead, Swensen is accused of misappropriating essentially all of the money investors sent him: using new investors' funds to make Ponzi-style payments to earlier ones so the fund could keep appearing to perform, while diverting a substantial share to his own and his family's personal expenses, including real estate, vehicles, and multiple private aircraft.
+
+The SEC filed its civil complaint on October 14, 2022, in the U.S. District Court for the District of Utah (Case No. 1:22-cv-00135), naming Swensen's estate and Crew Capital Group as defendants and charging them with violating the antifraud provisions of Section 17(a) of the Securities Act of 1933 and Section 10(b) of the Securities Exchange Act of 1934 and its Rule 10b-5. Because Swensen was already dead, the case could only proceed as a civil matter against what he left behind — his estate, his company, and several relief defendants the SEC said had received investor money without having done anything wrong themselves: his widow, Wendy Swensen; Saria C. Rodriguez; and entities including WS Family IP, LLC, Wingman, LLC, and Swensen Capital, LLC. A court-appointed receiver, Chad S. Pehrson, took control of the remaining assets to sort out what could still be recovered for victims.
+
+On July 31, 2025, the SEC obtained a settled final judgment against Wendy Swensen, who agreed to give up the money she had received as a result of her husband's fraud even though the agency never alleged she participated in it. The judgment totaled $3,839,009: $3,626,138 in disgorged investor funds, $41,279 in prejudgment interest, and $171,592 representing interest she had earned on that money while the case was pending. Under the judgment's terms, the entire amount is to be distributed to the investors Swensen defrauded through the receiver.
+
+Swensen's case is a reminder that a fraud's architect dying doesn't make the money he took disappear along with him — a civil action against an estate, a company, and the people who ended up holding investor funds can still claw back real dollars for victims, even when the one person who could have faced criminal charges is no longer alive to answer for what he did. It's also a reminder of how thin the line can be between a legitimate spouse and an unwitting beneficiary of fraud: the SEC never accused Wendy Swensen of wrongdoing, only of having received money that was never rightfully her husband's to give her in the first place.`,
+    sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26377',
+  },
+);
