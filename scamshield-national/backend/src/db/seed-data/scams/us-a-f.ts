@@ -7988,3 +7988,17 @@ UsAF.push({
     country: 'US',
     state: 'AZ',
 });
+
+UsAF.push({
+    name: 'Fidelity and Spectrum Impersonation Elder Fraud (Otiz Swinton Jr.)',
+    slug: 'florida-hillsborough-swinton-elder-crypto-fraud',
+    description: `Between June 2022 and April 2025, Otiz Swinton Jr. repeatedly contacted a 95-year-old Hillsborough County, Florida man by falsely claiming the victim's Fidelity investment account had been compromised, then mailed him a flash drive and a cell phone so Swinton could access the victim's computer remotely. Swinton walked the victim through setting up a cryptocurrency wallet and used the remote access to move money from the victim's account into his own, while separately writing and depositing checks drawn on the victim's bank account — carrying out much of the scheme from inside prison, where he was already serving a sentence for an unrelated offense. Within weeks of his release in March 2025, Swinton targeted a second victim, a 97-year-old Hillsborough County woman, this time impersonating a Spectrum employee to obtain her personal and banking information over the phone and make unauthorized purchases and transfers. The Florida Attorney General's Office of Statewide Prosecution Cyber Fraud Enforcement Unit, working with the Hillsborough County Sheriff's Office after a complaint from the first victim, secured convictions on two counts of criminal use of the personal identification of a person 60 or older, two counts of exploitation of a person 65 or older, two counts of organized fraud, one count of fraudulent use of a credit card, and five counts of uttering a forged instrument; Swinton was sentenced to 21.6 years in prison, the longest sentence the unit has secured since it was created in 2023. No real brokerage, bank, or cable/internet provider will ever ask a customer to install remote-access software or move money into a cryptocurrency wallet to "protect" a compromised account; anyone told this should hang up and call the company back using the number printed on an account statement, not one the caller provides.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'critical',
+    sources: ["Florida Attorney General's Office (James Uthmeier)", "Hillsborough County Sheriff's Office"],
+    sourceUrl: 'https://www.myfloridalegal.com/newsrelease/attorney-general-james-uthmeier-secures-21-year-prison-sentence-crypto-criminal-who',
+    country: 'US',
+    state: 'FL',
+    isHistorical: true,
+    firstRecorded: '2022-06-01',
+});

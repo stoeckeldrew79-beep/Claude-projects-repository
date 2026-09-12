@@ -6722,3 +6722,27 @@ UsNS.push({
     isHistorical: true,
     firstRecorded: '2020-06-01',
 });
+
+UsNS.push({
+    name: 'Charlotte-Based International Tech Support Fraud Scheme (Nachiket Banwari)',
+    slug: 'north-carolina-charlotte-banwari-tech-support-fraud',
+    description: `Nachiket Banwari, of Charlotte, North Carolina, worked for Capstone Technologies, a company that generated deceptive pop-up ads designed to freeze a victim's web browser and display a fake warning that their computer was infected with a virus, then directed them to call a support number. Those calls were routed — through a call-routing platform called TrackDrive, built by Colorado Springs-based conspirator Richard Paul Nolan, and leads brokered by Massachusetts-based Hunter G. Mello — to call centers in India, where operators posing as Microsoft technicians talked victims, many of them elderly, into paying hundreds or thousands of dollars for tech support on computers that were never actually infected. Banwari personally received a 3% cut of Capstone's pop-up revenue, totaling $222,334, in a scheme prosecutors said generated tens of millions of dollars and caused victim losses estimated between $19 million and $26 million nationwide. Following a U.S. Attorney's Office investigation out of the Western District of North Carolina, Banwari was sentenced to 30 months in federal prison, Mello to 40 months, and Nolan to 24 months, each with three years of supervised release, and the three were ordered to collectively forfeit more than $3.7 million. No legitimate antivirus program or operating system displays a pop-up warning with a phone number to call; anyone confronted with a browser window claiming their computer is infected should close it — using the task manager if the browser won't respond — restart the computer, and never call a number a pop-up provides or grant remote access to anyone who does.`,
+    categorySlug: 'tech-support-scams',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office, Western District of North Carolina", 'WSOC-TV'],
+    sourceUrl: 'https://www.wsoctv.com/news/local/nc-man-2-others-charged-multi-million-dollar-wire-fraud-scheme/D4G7NNIXORDZ5HQBR4PFX2MKRU/',
+    country: 'US',
+    state: 'NC',
+});
+
+UsNS.push({
+    name: 'Cumberland County Staged Auto-Accident Insurance Fraud Ring',
+    slug: 'pennsylvania-cumberland-county-staged-auto-insurance-fraud',
+    description: `Kwa'rai Samuel, Kevin Hartung, and Lori Retus used stolen identities and fabricated personal information to open auto insurance policies, then filed claims for vehicle accidents and damage that never actually happened, collecting more than $300,000 in fraudulent payouts across 21 successful claims out of 42 submitted. The Pennsylvania Office of Attorney General's investigation led to guilty pleas from all three; Samuel, 25, was sentenced to 5 to 10 years in state prison, Hartung, 46, received 2 to 5 years, and Retus, 51, was sentenced to four years of probation with the first six months on house arrest, with the trio ordered to jointly pay $300,988 in restitution. Announcing the final sentencing on April 23, 2025, Attorney General Dave Sunday said the scheme "targeted unsuspecting residents" and drives up costs for everyone else through higher premiums. Fabricated auto claims like this one are typically uncovered when the timing or details of a supposed accident don't hold up to scrutiny — a reminder that insurers routinely cross-check a policy's start date, a driver's account of an incident, and supporting documentation before paying a claim, and that anyone asked to lend their name or personal information to someone else's insurance application should refuse, since a policy taken out fraudulently in their name can expose them to the same investigation.`,
+    categorySlug: 'insurance-fraud',
+    alertLevel: 'medium',
+    sources: ["Pennsylvania Office of Attorney General"],
+    sourceUrl: 'https://www.attorneygeneral.gov/taking-action/final-defendant-sentenced-in-cumberland-county-based-300k-auto-insurance-scam/',
+    country: 'US',
+    state: 'PA',
+});
