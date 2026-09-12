@@ -16245,3 +16245,54 @@ International.push(
     firstRecorded: "2026-06-10",
   },
 );
+
+International.push(
+  {
+    name: "Fake NBKR Employee \"Tunduk Portal Hacked\" Loan Impersonation Scam",
+    slug: "kyrgyzstan-tunduk-portal-hack-loan-impersonation-scam",
+    description:
+      "Fraudsters posing as employees of the National Bank of the Kyrgyz Republic (NBKR) contact victims through messenger apps such as WhatsApp and Telegram, sending fabricated documents bearing the NBKR's own logo to look official, and tell the victim that their account on Tunduk — the country's state electronic services portal used for identity verification, benefits, and other government services — has been hacked and their personal data leaked. Building on that manufactured alarm, the caller adds that a loan has already been fraudulently issued in the victim's name using the leaked data, and that the only way to prevent further damage is to transfer their own money to a \"safe account\" the caller controls, supposedly to shield it while the breach is investigated. The National Bank of the Kyrgyz Republic confirmed on June 10, 2026 that \"such messages are indeed sent by scammers,\" stating plainly that it does not contact citizens about Tunduk security issues over messaging apps and urging the public \"not to trust such notifications, not to transfer money to unfamiliar individuals, and to avoid sharing confirmation codes, passwords, and bank card information.\" Anyone who receives such a message is advised to end contact immediately without responding to the claimed hack, to never move money to an account a caller describes as \"safe,\" and to report the message to their own bank or to law enforcement rather than trying to resolve it directly with the caller.",
+    categorySlug: "government-impersonation",
+    alertLevel: "high",
+    sources: ["National Bank of the Kyrgyz Republic (NBKR)", "Open.kg"],
+    sourceUrl: "https://open.kg/en/news/economy/102669-nacbank-preduprezhdaet-soobschenija-o-vzlome-tunduk-rassylajut-moshenniki.html",
+    country: "KG",
+    firstRecorded: "2026-06-10",
+  },
+  {
+    name: "AI Deepfake Voice-and-Video Loved-One and Bank Impersonation Scam",
+    slug: "kyrgyzstan-ai-deepfake-loved-one-bank-scam",
+    description:
+      "The National Bank of the Kyrgyz Republic warned on February 7, 2025 of a fraud scheme built on deepfake technology, in which criminals clone the voice and, in some cases, the video image of someone the victim actually knows and trusts — a relative, friend, or acquaintance — using real names, photos, and mannerisms lifted from the person's own social media or messaging accounts to make the impersonation convincing. The fake \"relative\" calls or messages the victim claiming a banking problem has come up, such as an unauthorized loan taken out in their name or a threat that funds are about to be withdrawn from their account, and shortly afterward a second fraudster calls posing as a National Bank or law-enforcement official who \"confirms\" the fabricated problem is real and instructs the victim to move their money into a so-called safe account to protect it. Because the initial contact appears to come from a genuinely familiar voice or face rather than a stranger, victims are far more likely to accept the follow-up call from the fake official without question. The National Bank urged citizens to \"not trust such calls and messages, even if they seem credible,\" and to verify any claimed emergency by calling the relative back directly on a number already saved in their own phone rather than one provided during the suspicious call, to contact their bank only through its official channels, and to never share personal data, bank card details, or SMS verification codes with anyone who calls unprompted.",
+    categorySlug: "ai-deepfake-scams",
+    alertLevel: "high",
+    sources: ["National Bank of the Kyrgyz Republic (NBKR)", "24.kg"],
+    sourceUrl: "https://24.kg/english/319302__New_deepfake_fraud_scheme_emerges_in_Kyrgyzstan/",
+    country: "KG",
+    firstRecorded: "2025-02-07",
+  },
+  {
+    name: "Fake Customs Official WhatsApp/Telegram Impersonation Scam",
+    slug: "kyrgyzstan-fake-customs-official-impersonation-scam",
+    description:
+      "The State Customs Service of Kyrgyzstan warned on July 30, 2026 that telephone fraud impersonating its officers had become more frequent, describing a scheme in which criminals create fake accounts on WhatsApp and Telegram using the real names and photographs of actual, identifiable customs officials to make contact with victims look legitimate. Once in touch, the impersonators invent a pretext — a fabricated problem with the victim's pension account or a supposed customs inspection — and spend time building trust in conversation before pivoting to a financial demand, ultimately asking the victim to transfer money to what they describe as a \"reserve\" or \"special\" account. The Customs Service stated flatly that \"customs officials do not ask for money transfers\" and that it \"does not request bank card details, confirmation codes, or passwords,\" adding that the same fraudulent pattern has also been used by criminals posing as commercial bank representatives and National Bank officials. Citizens contacted this way are advised to end the conversation immediately without sharing any personal or banking information, to verify any claimed pension or inspection issue only by calling the agency's own published number rather than one supplied by the caller, and to warn elderly relatives specifically, since older account holders have been disproportionately targeted by this and similar official-impersonation schemes.",
+    categorySlug: "government-impersonation",
+    alertLevel: "medium",
+    sources: ["State Customs Service of the Kyrgyz Republic", "Open.kg"],
+    sourceUrl: "https://open.kg/en/news/exclusive/113055-tamozhnja-kyrgyzstana-preduprezhdaet-uchastilis-sluchai-telefonnogo-moshennichestva.html",
+    country: "KG",
+    firstRecorded: "2026-07-30",
+  },
+  {
+    name: "Fake Overseas Car Import, Investment, and Job-Placement Advance-Fee Scam",
+    slug: "kyrgyzstan-fake-car-import-investment-advance-fee-scam",
+    description:
+      "The Ministry of Internal Affairs of Kyrgyzstan warned on July 8, 2026 of an escalating pattern of advance-fee fraud in which criminals contact people through social media and messaging apps offering to arrange one of three things: a used car imported and delivered from abroad at an unusually attractive price, a stake in a foreign investment project promising high returns, or help securing a job placement, sometimes packaging themselves as an all-purpose \"intermediary\" for financial transactions generally. The ministry described the pattern plainly: \"they promise favorable conditions when purchasing cars, assistance in financial transactions, and help with employment,\" and once a victim wires the money requested to secure the car, the investment slot, or the job, the fraudster cuts off contact and neither the goods, the investment, nor the job ever materializes. Officials noted the scheme has proliferated alongside a broader rise in online fraud complaints nationwide during 2026 and urged citizens to avoid sending money to unfamiliar individuals or businesses they have not independently verified, to be especially wary of unsolicited offers that arrive through social media rather than a licensed dealership, registered investment firm, or accredited recruitment agency, and to thoroughly check a seller's or intermediary's documentation, business registration, and reputation before making any payment, since funds sent to secure a below-market deal are, in this pattern, essentially unrecoverable once transferred.",
+    categorySlug: "online-shopping-scams",
+    alertLevel: "medium",
+    sources: ["Ministry of Internal Affairs of the Kyrgyz Republic", "Open.kg"],
+    sourceUrl: "https://open.kg/en/news/exclusive/108623-mvd-preduprezhdaet-ob-uchastivshihsja-shemah-moshennichestva-s-dostavkoj-avto.html",
+    country: "KG",
+    firstRecorded: "2026-07-08",
+  },
+);
