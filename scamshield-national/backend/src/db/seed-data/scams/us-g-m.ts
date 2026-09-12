@@ -6338,3 +6338,68 @@ UsGM.push({
     state: 'ID',
     firstRecorded: '2025-06-05',
 });
+
+UsGM.push({
+    name: 'DriveEzMD/E-ZPass Fake Toll Text Message Scam',
+    slug: 'maryland-driveezmd-ezpass-toll-text-scam',
+    description: `The Maryland Transportation Authority (MDTA) has repeatedly warned drivers about a smishing wave impersonating DriveEzMD or E-ZPass, with a fresh alert on July 23, 2025 flagging text messages such as "EZ Pass Alert: You owe $12.75 in unpaid tolls. Resolve now to avoid penalties" that link to a lookalike payment page built to steal card numbers and login credentials rather than resolve any real toll balance. Maryland Attorney General Anthony Brown separately warned that the messages, sent under the DriveEzMD or E-ZPass name, are part of a broader regional pattern the Maryland Transportation Authority says it never actually generates by text — MDTA stated plainly that it does not contact customers by text about payments or personal information, no matter how specific or urgent the message looks. Just clicking the embedded link can expose a phone to malware even before any information is entered, and the small, precise dollar amount in each message is designed to seem too trivial to question. Drivers who receive one of these texts are advised not to click the link, to verify any actual toll balance only through DriveEzMD.com, by calling 1-888-321-6824, or by visiting an E-ZPass Customer Service Center in person, and to remember MDTA's own guidance: "When in doubt, throw it out."`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Maryland Transportation Authority (MDTA)', "Maryland Attorney General's Office (Anthony Brown)", 'MDOT News Blog'],
+    sourceUrl: 'https://blog.mdot.maryland.gov/myth-vs-fact-driveezmd-smishing-scams-edition/',
+    country: 'US',
+    state: 'MD',
+    firstRecorded: '2024-05-28',
+});
+
+UsGM.push({
+    name: 'Maryland Judiciary Fake Court Summons Toll-Violation Text Scam',
+    slug: 'maryland-judiciary-fake-court-summons-toll-text-scam',
+    description: `The Maryland Judiciary issued a consumer warning on February 26, 2026 about text messages impersonating a "Maryland Court Summons" over an unpaid toll violation, complete with a fabricated court date and time, a QR code, and the names of real Baltimore-area courthouses — including the Wabash, Hargrove, Hubbard, and Eastside district court buildings and the old Civil Courthouse at 501 East Fayette Street — to make the fake notice look authentic. The messages threaten recipients with "the issuance of a bench warrant, additional fines and court action" if they fail to appear, then direct them to click a link or scan the QR code to pay online, a mechanism designed to harvest payment information rather than resolve any real case. Maryland court officials stated flatly that "Maryland courts do not send texts requesting payment or personal information via text, telephone, or email," and that no legitimate summons is ever delivered by text message regardless of how official the court names or QR code appear. Anyone who receives a message like this is advised not to click the link or scan the code, not to provide any payment or personal information, and to verify any genuine court matter by contacting their local district or circuit court office directly, or by calling the Attorney General's Consumer Protection Division hotline at 410-528-8662 or toll-free at 888-743-0023.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Maryland Judiciary', 'FOX45 Baltimore (WBFF)'],
+    sourceUrl: 'https://foxbaltimore.com/news/local/maryland-judiciary-warns-text-scam-toll-violations-directs-recipients-court-baltimore',
+    country: 'US',
+    state: 'MD',
+    firstRecorded: '2026-02-26',
+});
+
+UsGM.push({
+    name: 'Pepco Fake In-Home Electrical-Emergency Repair Scam',
+    slug: 'maryland-pepco-in-home-electrical-emergency-scam',
+    description: `The Prince George's County Police Department's Financial Crimes Unit warned residents on April 2, 2026 about scammers posing as Pepco employees who show up unannounced at homes — typically targeting elderly residents — claiming "an alarm or system alert has detected a dangerous electrical issue" that requires immediate repair. Once let inside, the impostors convince the homeowner that serious, urgent electrical work is needed and press them to write a check on the spot for repairs that are never actually performed. Police tallied one 2025 case with an $18,500 loss and three reports so far in 2026, including one completed theft of $8,300 and two attempts that were stopped before money changed hands. Pepco itself rejected the premise of the scam outright, telling reporters, "No, we would never ask to come into a customer's home... If there's any emergent work... that is typically done... on the curb, not in a customer's home." The same unit also flagged a related "carrier scam" impersonating federal agents that pushed victims toward cash withdrawals or cryptocurrency ATMs, with three reports totaling more than $105,000 in losses in the month before the alert. Residents are advised to never let an unannounced utility worker inside without independently verifying their identity by calling Pepco directly, to never hand over cash, checks, gift cards, or cryptocurrency to someone who shows up at the door, and to report suspicious visits to Prince George's County Police at 301-516-1464 or to Crime Solvers at 1-866-411-TIPS.`,
+    categorySlug: 'utility-scams',
+    alertLevel: 'high',
+    sources: ["Prince George's County Police Department", 'WTOP News'],
+    sourceUrl: 'https://wtop.com/crime/2026/04/scammers-pose-as-pepco-workers-steal-thousands-police-say/',
+    country: 'US',
+    state: 'MD',
+    firstRecorded: '2026-04-02',
+});
+
+UsGM.push({
+    name: 'INDOT/BMV Fake Unpaid Toll and Traffic Violation Text Scam',
+    slug: 'indiana-indot-bmv-toll-traffic-violation-text-scam',
+    description: `The Indiana Department of Transportation (INDOT) first warned Hoosiers about a wave of toll-related smishing texts on March 24, 2025, part of a nationwide pattern the FBI says generated more than 2,000 complaints by April 2024 alone; the fraudulent messages claim a "final notice" for unpaid tolls and threaten additional fines, late fees, vehicle registration suspension, vehicle impoundment, or further legal action unless the recipient clicks a link and pays immediately. INDOT was blunt about the fakes: "INDOT does not and will not notify drivers of unpaid tolls via text message." The scam evolved further by October 29, 2025, when the Indiana Bureau of Motor Vehicles issued its own alert after the texts began mimicking the BMV's actual mobile website design and improperly citing Indiana Code to demand payment for supposed traffic violations, with Attorney General Todd Rokita separately sounding the alarm on the same wave. The BMV confirmed it "does not send SMS text messages about outstanding penalties" and that the fees described in the messages are not ones it actually collects. Both agencies advise Hoosiers to ignore the messages, never click the embedded links, delete the texts immediately, and check any real registration or citation status only through the BMV's own site at in.gov/bmv or the consumer alerts page at in.gov/bmv/resources/consumer-scam-alerts, and to report incidents to the FBI's Internet Crime Complaint Center at ic3.gov.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Indiana Department of Transportation (INDOT)', 'Indiana Bureau of Motor Vehicles', "Indiana Attorney General's Office (Todd Rokita)"],
+    sourceUrl: 'https://www.in.gov/bmv/files/pr-scam-texts-10-29-25.pdf',
+    country: 'US',
+    state: 'IN',
+    firstRecorded: '2024-04-12',
+});
+
+UsGM.push({
+    name: 'Minnesota DVS Fake "Final Notice" Traffic Ticket Text Scam',
+    slug: 'minnesota-dvs-final-notice-traffic-ticket-text-scam',
+    description: `The Minnesota Department of Public Safety's Driver and Vehicle Services (DVS) division warned residents on June 4, 2025 about a surge of text messages impersonating the agency with a fake "Minnesota Department of Vehicles (DMV) Final Notice," falsely claiming the recipient has an outstanding traffic ticket and threatening to suspend vehicle registration and driving privileges for 30 days if a specific deadline passes without payment. Some Minnesotans reported receiving multiple messages in a row, each one escalating its threatening language to pressure a quick payment through the link provided. DVS was direct in its response: "We've received reports of scam texts requesting payment that claim to be from us. We will never send a text asking for money or saying money is due." The agency also noted the scam frequently misnames itself — Minnesota's licensing agency is DVS, not "DMV" — which can be a useful tell alongside unfamiliar links and a foreign or out-of-state sending number. Minnesotans who receive one of these texts are advised not to respond or click any link, to delete the message, and to confirm any real registration, license, or citation status directly through the state's own site at drive.mn.gov rather than anything sent by text.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Minnesota Department of Public Safety, Driver and Vehicle Services (DVS)', 'KSTP-TV', 'Star Tribune'],
+    sourceUrl: 'https://dps.mn.gov/news/dvs/fake-messages-imitating-dvs-target-mnns',
+    country: 'US',
+    state: 'MN',
+    firstRecorded: '2025-06-04',
+});
