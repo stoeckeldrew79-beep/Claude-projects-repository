@@ -6788,3 +6788,17 @@ UsGM.push({
     isHistorical: true,
     firstRecorded: '2020-06-01',
 });
+
+UsGM.push({
+    name: "Butte Guardian's Embezzlement of a Blind Ward's Life Savings (Debra Roeber)",
+    slug: 'montana-butte-debra-roeber-guardian-embezzlement',
+    description: `Debra Gean Roeber, of Butte, Montana, was appointed guardian and conservator for an elderly, blind woman — identified in court records only as Jane Doe — who was unable to care for herself or manage her own finances without help. From January 2017 until June 2020, Roeber used that court-granted authority to steal $661,549 from her ward's accounts, spending the money on construction projects at lake property she owned at Canyon Ferry, vehicles, furniture, and a pontoon boat, along with straight cash withdrawals — none of it authorized by or for the benefit of the woman she was supposed to be protecting. Investigators said Roeber admitted she lied "a lot" to Doe, who has since died, to keep the theft from being discovered. Roeber pleaded guilty in April 2022 to wire fraud and money laundering, and on August 10, 2022, U.S. District Judge Dana L. Christensen sentenced her to one year and one day in federal prison, followed by three years of supervised release, and ordered her to pay the full $661,549 back in restitution. "Our office and our law enforcement partners will not tolerate elder abuse, and we will be steadfast in our commitment to protect our most vulnerable friends and neighbors," said then-U.S. Attorney Jesse Laslovich, whose office prosecuted the case with the FBI and IRS Criminal Investigation. A court-appointed guardianship is meant to protect someone who cannot protect themselves, so family members, friends, or a bank that handles accounts for a ward under guardianship should ask the court how to request a copy of the guardian's required periodic accounting, and should treat a guardian's reluctance to produce bank statements or receipts as a reason to raise concerns with the court directly rather than waiting for a problem to surface on its own.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'medium',
+    sources: ['IRS Criminal Investigation', "U.S. Attorney's Office for the District of Montana"],
+    sourceUrl: 'https://www.irs.gov/compliance/criminal-investigation/butte-woman-sentenced-to-prison-for-stealing-more-than-600000-dollars-from-elderly-blind-victim-under-her-guardianship',
+    country: 'US',
+    state: 'MT',
+    isHistorical: true,
+    firstRecorded: '2017-01-01',
+});

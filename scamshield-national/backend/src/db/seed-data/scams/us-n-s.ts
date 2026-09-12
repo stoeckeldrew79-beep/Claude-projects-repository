@@ -6666,3 +6666,17 @@ UsNS.push({
     isHistorical: true,
     firstRecorded: '2019-01-08',
 });
+
+UsNS.push({
+    name: 'Reno Valley Retirement Center Business Manager Theft (Angela Fischer)',
+    slug: 'nevada-reno-angela-fischer-retirement-center-theft',
+    description: `Angela Fischer worked as business manager at the Reno Valley Retirement Center, where 83-year-old resident Bobby Flood, who had dementia, had agreed to let her help manage his finances. Fischer used that access to change the password on Flood's online banking account so she alone could get into it, then between December 24, 2014 and June 3, 2016 fraudulently obtained $190,231.26 from his accounts — sending roughly 37 checks to herself and shifting money between his savings and checking accounts to hide what she was taking, all while also setting up automatic payments from his account to cover his rent at the facility so nothing would look obviously wrong. She kept withdrawing from Flood's account even after the retirement center fired her in June 2015. Reno Police originally arrested Fischer on 39 state charges, but the case was later moved to federal court, where it was charged as a single count of mail fraud — federal law has no elder-abuse sentencing enhancement the way Nevada's state charges did. Fischer pleaded guilty, and U.S. District Judge Miranda M. Du sentenced her to nearly three years in federal prison, three years of supervised release, and ordered her to repay the full $190,231.26 in restitution. The case shows how a caregiving or facility employee who is handed day-to-day access to a resident's online banking can lock a family or the resident themselves out of visibility into the account entirely; families of a resident who relies on facility staff for bill-paying help should ask the facility what independent, resident- or family-controlled oversight exists over that access, and should periodically request a bank statement directly from the financial institution rather than relying solely on the person managing the account to report it accurately.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'medium',
+    sources: ['KOLO 8 News Now (Reno)', 'News 4 - KRNV (Reno)'],
+    sourceUrl: 'https://mynews4.com/on-your-side/ask-joe/ask-joe-what-happened-to-woman-who-stole-elderly-mans-life-savings',
+    country: 'US',
+    state: 'NV',
+    isHistorical: true,
+    firstRecorded: '2014-12-24',
+});

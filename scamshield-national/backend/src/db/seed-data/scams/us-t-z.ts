@@ -3712,3 +3712,17 @@ UsTZ.push({
     isHistorical: true,
     firstRecorded: '2012-09-12',
 });
+
+UsTZ.push({
+    name: 'Fairfax County Custom-Home Contractor Fraud (Richard Tadlock)',
+    slug: 'virginia-fairfax-richard-tadlock-custom-home-contractor-fraud',
+    description: `Richard Craig Tadlock, 76, presented himself to Fairfax County, Virginia families in 2021 and 2022 as an experienced, high-end custom-home builder, contracting with six families to build them houses at a price and timeline prosecutors say he already knew was impossible. Families drew money down on their home construction loans to pay him as work supposedly progressed, but Tadlock either abandoned the projects partway through or, in some cases, never started construction at all, taking in roughly $1.2 million for work that was never completed. A grand jury indicted him on six felony counts — one count of obtaining money by false pretenses and five counts of advance-pay larceny for failure to perform construction — and prosecutors argued at trial that the Fairfax cases fit a decades-long pattern, with allegations against Tadlock going back to the 1990s across at least four different companies and several states, in which he would win over unsuspecting families with his credentials as a builder before abandoning their projects. Following his conviction, Fairfax County Circuit Court Judge John Tran sentenced Tadlock on September 10, 2026 to 12 years in prison, five years of supervised probation, and restitution of nearly $2 million to his victims; families who testified at sentencing described having to hire a second contractor at their own expense just to finish or repair what Tadlock had left behind. Before paying a custom-home builder for work not yet done, Virginia homeowners can check a contractor's license status and complaint history through the Department of Professional and Occupational Regulation, ask for and verify references from recently completed projects rather than older ones, and tie every loan draw to an independent inspector's sign-off on the specific work actually completed, not simply the builder's own progress claims.`,
+    categorySlug: 'home-improvement-solar',
+    alertLevel: 'medium',
+    sources: ['WUSA9', 'News Directory 3'],
+    sourceUrl: 'https://www.newsdirectory3.com/virginia-contractor-richard-tadlock-sentenced-to-12-years-for-construction-fraud/',
+    country: 'US',
+    state: 'VA',
+    isHistorical: true,
+    firstRecorded: '2021-01-01',
+});
