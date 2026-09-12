@@ -7063,3 +7063,45 @@ UsNS.push({
     isHistorical: true,
     firstRecorded: '2024-05-07',
 });
+
+UsNS.push({
+    name: 'Nebraska Traffic Fine QR Code Text Scam',
+    slug: 'nebraska-traffic-fine-qr-code-text-scam',
+    description: `On April 5, 2026, the Nebraska Judicial Branch and law enforcement agencies including the Lancaster County Sheriff's Office warned residents statewide about a fast-spreading text-message scam claiming the recipient has an unpaid traffic fine that has been referred to "court enforcement," listing escalating penalties if the recipient does not act immediately. The message embeds a QR code and urges the recipient to scan it to pay online, a tactic designed to slip past mobile spam-link filters that increasingly catch texts with plain URLs, while still leading anyone who scans it to a fraudulent payment page built to harvest credit card numbers and personal information. The Nebraska Judicial Branch stated plainly that "Nebraska courts do NOT send out automated text messages when traffic fines are due," and the Lancaster County Sheriff's Office urged residents to "not scan the QR code, make any payments or provide any personal information to the scammers." Officials note that any legitimate Nebraska traffic fine can be paid only in person at the courthouse or through the state's own online portal at ne.gov/go/paycourts, and that a payment link or QR code arriving by unsolicited text should be treated as fraudulent regardless of how official the message looks or how urgent its deadline sounds. Residents who receive this text are advised to delete it without scanning the code or clicking anything, and to verify any supposed traffic fine directly with their local county court using a phone number looked up independently rather than one provided in the message.`,
+    categorySlug: 'qr-code-scams',
+    alertLevel: 'medium',
+    sources: ['Nebraska Judicial Branch', "Lancaster County Sheriff's Office", '1011 NOW (KOLN/KGIN)'],
+    sourceUrl: 'https://nebraskajudicial.gov/administration/media-releases/new-traffic-fine-scam-targets-nebraskans',
+    country: 'US',
+    state: 'NE',
+    isHistorical: true,
+    firstRecorded: '2026-04-05',
+});
+
+UsNS.push({
+    name: 'Omaha COVID-19 Relief Program Identity Theft Fraud Ring',
+    slug: 'nebraska-omaha-covid-relief-program-identity-theft-fraud',
+    description: `Brian T. Smith, 52, and Myria K. Phaisan, 50, both of Omaha, conspired with a still-at-large co-defendant, Syed Hussain, to defraud multiple COVID-19 pandemic relief programs — including the federal Housing Assistance Fund, Emergency Rental Assistance, and Paycheck Protection Program loans — according to the U.S. Attorney's Office for the District of Nebraska. Prosecutors said the group registered internet domain names that were near-identical misspellings or variations of real mortgage companies and financial institutions, using the lookalike sites along with stolen personal identifying information to submit fraudulent relief-fund applications in other people's names. Hussain, who remains a fugitive, was separately charged with wire fraud, identity theft, misuse of a Social Security number, and aggravated identity theft for his role obtaining and using victims' personal information to support the applications. Senior U.S. District Judge Joseph F. Bataillon sentenced Smith on May 18, 2026 to 27 months in federal prison plus three years of supervised release and ordered him to pay more than $455,000 in restitution; Phaisan was sentenced on May 26, 2026 to five years of supervised release with no prison time and ordered to pay more than $228,000 in restitution. The case shows how pandemic-era relief programs remain a target for identity-based fraud years after their creation, and how a lender domain name just one letter or word off from a real one can lend a fraudulent application a false air of legitimacy. Consumers who receive unexpected notices, collection letters, or credit-report entries referencing a rental-assistance or PPP loan they never applied for should treat it as a possible sign of identity theft, request a copy of the loan file from the lender named, place a fraud alert or credit freeze with the three credit bureaus, and report it to the FTC at IdentityTheft.gov and to the Nebraska Attorney General's office.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office, District of Nebraska", 'WOWT'],
+    sourceUrl: 'https://www.wowt.com/2026/05/31/omaha-man-woman-sentenced-federal-court-part-wire-fraud-scheme/',
+    country: 'US',
+    state: 'NE',
+    isHistorical: true,
+    firstRecorded: '2020-01-01',
+});
+
+UsNS.push({
+    name: 'Dorm2Dorm Deceptive College Moving and Storage Scheme',
+    slug: 'new-york-dorm2dorm-deceptive-moving-storage-scheme',
+    description: `Dorm2Dorm LLC marketed itself to NYC-area college students — including many at NYU — as a two-in-one moving-and-storage service: it would pick up a student's belongings before summer break or study-abroad and deliver them back to a dorm at the start of the semester, advertising an "elite" package with a 90-minute delivery window and a false 25% "instant rebate." In practice, the city's Department of Consumer and Worker Protection (DCWP) found the company routinely missed pickup and delivery windows, misplaced items, and returned belongings damaged. One documented case: NYU sophomore Sebastián Prats-Fernández scheduled delivery to his dorm for August 27, 2022 during his university-assigned move-in window; instead he waited days with no explanation beyond a vague text from the company's CEO, finally receiving his boxes — including a sentimental letter from his mother — four days late and at the wrong address. After opening an investigation in September 2022 and reviewing complaints from students and the Better Business Bureau, DCWP sued Dorm2Dorm on March 6, 2023, charging it with at least 1,200 violations of NYC consumer protection law. In April 2024, a New York County Supreme Court ruled for the city, ordering Dorm2Dorm to pay nearly $3.8 million in civil penalties and consumer restitution and to stop its illegal practices — but DCWP noted the company kept advertising the same services afterward. DCWP Commissioner Vilda Vera Mayuga said, "College students, like many people targeted by predatory businesses, are vulnerable consumers, often living alone for the first time." Before paying any moving-and-storage company for dorm move-in or summer storage, get a written contract specifying exact pickup/delivery windows and an itemized, photographed inventory, and never pay in full upfront for a premium tier or a "rebate" that requires an initial payment — a student left without clothes, bedding, or books during the first week of classes has little leverage to get a refund. Complaints can be filed with NYC DCWP at 311 or nyc.gov/dcwp.`,
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'high',
+    sources: ['New York City Department of Consumer and Worker Protection (DCWP)', 'Washington Square News (NYU)'],
+    sourceUrl: 'https://www.nyc.gov/site/dca/news/024-24/take-stress-out-summer-department-consumer-worker-protection-provides-end-school',
+    country: 'US',
+    state: 'NY',
+    isHistorical: true,
+    firstRecorded: '2022-08-01',
+});
