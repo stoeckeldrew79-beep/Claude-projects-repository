@@ -6938,3 +6938,17 @@ UsGM.push({
     isHistorical: true,
     firstRecorded: '2017-07-01',
 });
+
+UsGM.push({
+    name: 'Radcliff Fake Veterans Charity Fraud (C & P Garage)',
+    slug: 'kentucky-radcliff-c-p-garage-veterans-charity-fraud',
+    description: `Carlos Fernandez, 65, and Patricia Parrott, 60, both of Radcliff, Kentucky, ran an organization called C & P Garage that presented itself since 2019 as an all-volunteer group using private donations to help veterans and their families, but the Kentucky Attorney General's Office found the operation was built on two layers of deception. First, C & P Garage's staff called themselves "VA Claim Consultants" and told veterans they could help them access federal benefits, even though the U.S. Department of Veterans Affairs had never accredited anyone connected to the organization to do that kind of work. Second, the "volunteers" running the group were secretly being paid, and investigators say much of the more than $125,000 that flowed through the organization went to gambling and restaurant meals rather than to the veterans it claimed to serve. Attorney General Russell Coleman's office obtained a civil court order in August 2025 shutting the organization down for misusing funds and misrepresenting its relationship with the VA, and a Hardin County grand jury followed in November 2025 with criminal indictments charging both Fernandez and Parrott with Theft by Unlawful Taking of more than $10,000, a Class C felony. Veterans and family members approached by anyone offering to help file a VA claim for a fee, or asked to donate to a small, unfamiliar veterans' charity, can verify a claims agent's actual VA accreditation for free through the VA's own accredited-representative search before paying or donating anything, since a legitimate accredited VA claims agent or attorney is barred by federal law from charging most veterans for help with an initial claim in the first place.`,
+    categorySlug: 'charity-scams',
+    alertLevel: 'high',
+    sources: ['Kentucky Office of the Attorney General', 'WBKO', 'WDRB'],
+    sourceUrl: 'https://www.wbko.com/2025/11/15/hardin-county-business-owners-indicted-taking-advantage-veterans/',
+    country: 'US',
+    state: 'KY',
+    isHistorical: true,
+    firstRecorded: '2019-01-01',
+});
