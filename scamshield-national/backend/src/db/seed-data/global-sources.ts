@@ -1295,4 +1295,85 @@ export const SEED_GLOBAL_SOURCES: SeedGlobalSource[] = [
       "Madagascar's Ministry of Commerce consumer protection directorate is responsible for consumer protection and fraud/counterfeiting prevention nationwide, and publishes its mandate and complaint contact channels on the government's official trade information portal.",
     data_type: 'public_stats',
   },
+  {
+    agency_name: 'State Administration for Market Regulation — 12315 Complaint Platform',
+    country: 'CN',
+    country_name: 'China',
+    url: 'https://www.samr.gov.cn/xw/zj/art/2023/art_738aa9b7d22b4939b11ab34e78b4763e.html',
+    description:
+      "China's national market regulator runs the 12315 hotline and online platform for consumer complaints and fraud reports, and publishes aggregate annual figures — such as the 23.8 million complaints handled and 5.55 billion yuan recovered for consumers reported around World Consumer Rights Day (March 15) — each year.",
+    data_type: 'annual_report',
+  },
+  {
+    agency_name: 'Superintendencia de Competencia Económica (SCE)',
+    country: 'EC',
+    country_name: 'Ecuador',
+    url: 'https://www.sce.gob.ec/sitio/',
+    description:
+      "Ecuador's antitrust and market-power regulator — formerly the Superintendencia de Control del Poder de Mercado (SCPM) — investigates and sanctions anticompetitive, collusive, and unfair trade practices, accepts public complaints (denuncias) through its regional offices, and publishes its case resolutions.",
+    data_type: 'public_stats',
+  },
+  {
+    agency_name: "Autorité de Régulation des Télécommunications/TIC de Côte d'Ivoire (ARTCI)",
+    country: 'CI',
+    country_name: "Côte d'Ivoire",
+    url: 'https://www.artci.ci/',
+    description:
+      "Côte d'Ivoire's telecommunications regulator operates a consumer complaints platform (consommateurs.artci.ci) covering telecom, mobile money, internet, and personal-data disputes — including fraud-related complaints — working alongside the national cybercrime-fighting platform (PLCC), which alone logged over 12,000 complaints in 2024.",
+    data_type: 'public_stats',
+  },
+  {
+    agency_name: 'Vanuatu Financial Services Commission (VFSC) — Public Notices',
+    country: 'VU',
+    country_name: 'Vanuatu',
+    url: 'https://www.vfsc.vu/public-notices/',
+    description:
+      "Vanuatu's financial services regulator maintains a running Public Notices page warning of unlicensed and fraudulent entities impersonating VFSC-registered financial dealers, alongside license-revocation notices and alerts about fake look-alike regulator websites.",
+    data_type: 'public_stats',
+  },
+  {
+    agency_name: 'Office of the Public Auditor',
+    country: 'PW',
+    country_name: 'Palau',
+    url: 'https://www.palauopa.org/fraud.php',
+    description:
+      "Palau's independent Office of the Public Auditor accepts confidential public reports of fraud, corruption, theft, and abuse of government resources by phone or online form, and publishes Annual, Performance, and Peer Review Reports on its findings.",
+    data_type: 'annual_report',
+  },
+  {
+    agency_name: 'Direction Générale du Commerce, de la Consommation et de la Concurrence (DGCC)',
+    country: 'ML',
+    country_name: 'Mali',
+    url: 'https://dgcc.ml/Site_DGCC/Site_DGCC/protection',
+    description:
+      "Mali's national consumer protection authority, under the Ministry of Industry and Commerce, runs continuous market inspections against fraud, adulteration, and abusive commercial practices covering food, fuel, and medicines, and operates a dedicated online complaint-filing portal.",
+    data_type: 'public_stats',
+  },
+  {
+    agency_name: 'Agência de Regulação Multissectorial da Economia (ARME)',
+    country: 'CV',
+    country_name: 'Cabo Verde',
+    url: 'https://www.arme.cv/',
+    description:
+      "Cabo Verde's multi-sector economic regulator oversees consumer protection across the communications, postal, fuel, electricity, water, and transport sectors it regulates, publishing sector statistics and operating a dedicated Consumer Portal for complaints.",
+    data_type: 'public_stats',
+  },
+  {
+    agency_name: 'Ministry of Industry, Entrepreneurship, Trade and Innovation (MINTI) — Department for Consumer Protection',
+    country: 'XK',
+    country_name: 'Kosovo',
+    url: 'https://minti.rks-gov.net/',
+    description:
+      "Kosovo's Department for Consumer Protection, housed within the Ministry of Industry, Entrepreneurship, Trade and Innovation, is the government authority responsible for handling consumer complaints and enforcing consumer-protection law nationwide.",
+    data_type: 'public_stats',
+  },
+  {
+    agency_name: 'Superintendencia Nacional para la Defensa de los Derechos Socioeconómicos (SUNDDE)',
+    country: 'VE',
+    country_name: 'Venezuela',
+    url: 'https://www.sundde.gob.ve/',
+    description:
+      "Venezuela's national regulator for fair prices and socioeconomic rights conducts inspections against speculation, hoarding, and commercial fraud, and operates a public complaints portal (denuncias.sundde.gob.ve) alongside a toll-free citizen hotline.",
+    data_type: 'public_stats',
+  },
 ];
