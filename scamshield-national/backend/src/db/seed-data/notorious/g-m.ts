@@ -8580,3 +8580,26 @@ NotoriousGM.push(
     sourceUrl: "https://www.justice.gov/usao-nj/pr/former-commodities-trader-sentenced-151-months-engaging-multi-mullion-dollar-wire-and",
   },
 );
+
+// No rights-cleared photo of the Dimitrions has surfaced (both have been
+// fugitives since 2010; the FBI's own wanted-poster images are not on
+// Wikimedia Commons) — sourceUrl below serves as the "read the full story"
+// link instead of a generic photo.
+NotoriousGM.push(
+  {
+    title: 'John and Julieanne Dimitrion: The Hawaii Mortgage-Rescue Fraudsters Who Fled on a Fake Medical Flight',
+    slug: 'john-julieanne-dimitrion-mortgage-alliance-fugitive-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    body: `John Michael Dimitrion and his wife, Julieanne Baldueza Dimitrion, ran Mortgage Alliance, a Honolulu-area company that marketed itself to Oahu homeowners facing foreclosure as a lifeline: sign a property over to the Dimitrions' company, and they would sell it, pay off the underlying mortgage, invest the leftover equity on the homeowner's behalf, and help repair the family's credit in the meantime. Between 2005 and 2007, prosecutors say, the Dimitrions used that pitch and a network of straw transactions to fraudulently obtain roughly $1.3 million in new loans against distressed properties — and rather than protecting the equity of the homeowners who had trusted them, kept it. Reporting on the case has identified at least five Oahu families who lost their homes; one victim, Laura Christo, was left out roughly $250,000. The couple spent the proceeds on a lifestyle that included a home on Hawaii Loa Ridge and matching Maserati sports cars.
+
+A federal grand jury indicted the Dimitrions in February 2009 on conspiracy to commit mail fraud, wire fraud, money laundering, and making false statements on loan applications. Both pleaded guilty in April 2009 — John to the full set of charges, exposing him to a maximum of 45 years in prison, and Julieanne to all but the wire fraud count. They were due to be sentenced in the U.S. District Court in Honolulu on July 6, 2010. Neither showed up.
+
+What happened instead, according to a Southern Poverty Law Center investigation, was one of the more elaborate fugitive escapes on record. On December 3, 2010, John Dimitrion boarded a privately chartered jet from Honolulu disguised as an epileptic patient in need of mainland medical treatment, wheeled aboard on a gurney wired to fake monitoring equipment while Julieanne posed as his nurse. The flight had been arranged by the Republic for the united States of America (RuSA), at the time the country's largest and most organized sovereign-citizen group, after its president, James Timothy Turner, struck up an online correspondence with John Dimitrion and began referring to him as "Little Brother." After landing in Utah, the couple made their way to a mobile home on the shore of Lake Eufaula in South Alabama, roughly 50 miles from Turner's own home in Ozark — trading a Hawaii mansion for a lakeside trailer within reach of the network that had helped them disappear.
+
+U.S. District Judge Susan Oki Mollway issued federal arrest warrants for both defendants for failing to appear at sentencing, and the FBI added them to its wanted rosters, at one point offering a $10,000 reward that did nothing to produce their capture. Investigators said in 2014 that the couple was still believed to be using burner phones and internet calling services to stay in contact with family in Hawaii. Their case was profiled on CNBC's "American Greed: The Fugitives" in 2012, and on June 4, 2026 — nearly 16 years after they vanished — the FBI placed both Dimitrions on the inaugural roster of its Most Wanted Fraudsters list, raising the reward to up to $150,000 for information leading to each of their arrests. Retired FBI Special Agent Tom Simon, who worked the case for years, put it bluntly: "They have been better at evading the FBI than I was at catching them." As of this writing, both remain at large.
+
+The Dimitrions' fraud followed a pattern familiar to foreclosure-rescue scams: a homeowner already in financial distress hands over legal control of their most valuable asset to someone promising to manage the crisis for them, on the theory that professional help is better than facing the bank alone. What makes their case unusual is what came after the guilty plea — a disappearance elaborate enough to require a fake illness, a chartered jet, and an entire ideological network willing to hide two mortgage fraudsters simply because one of them had made a personal connection with its leader. Sixteen years is a long time for a $1.3 million fraud to stay unresolved, and it is a measure of how far a fugitive can get when the escape itself is planned as carefully as the fraud was.`,
+    sourceUrl: 'https://www.splcenter.org/resources/reports/looking-little-brother/',
+  },
+);
