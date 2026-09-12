@@ -8733,3 +8733,27 @@ Arias never spoke to a single victim by phone; his entire function in the scheme
     sourceUrl: 'https://www.justice.gov/usao-sdca/pr/man-sentenced-sweepstakes-scam-targeting-elderly',
   },
 );
+
+// No rights-cleared photo of Smith, Shafer, or Garis was located. Facts
+// verified against the stipulated final order in FTC v. Smith, et al.,
+// No. 2:23-cv-04848-GAM (E.D. Pa.), Document 44, filed and signed by
+// Hon. Gerald A. McHugh on September 13, 2024 (read directly, not via a
+// secondary summary), plus the FTC's own December 2023, August 2024, and
+// September 2024 press releases for the underlying complaint allegations
+// and the Smith/Shafer settlement figures.
+NotoriousAF.push(
+  {
+    title: '"Blueprint to Wealth": The Business Opportunity Scheme the FTC Called a Blueprint for Fraud',
+    slug: 'blueprint-to-wealth-ftc-business-opportunity-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    body: `Samuel James Smith, Robert William Shafer, and Charles Joseph Garis Jr. sold a promise familiar to anyone who has seen a "start your own online business" ad: pay an upfront fee, get a turnkey business built and run for you, and start collecting income within days. According to the Federal Trade Commission, the program they sold under names including "Blueprint to Wealth" had no real underlying business at all — its members' only realistic path to income was recruiting the next member, the defining structure of a pyramid scheme rather than a business opportunity.
+
+The three men split the work. Smith, doing business as "Weblio" and "Weblio Squeeze," ran the scheme's online back end — the site, and the goods and services members were actually delivered. Shafer and Garis worked the recruiting side, using robocalls, live telemarketing calls, and social media ads to pull in new members from at least 2018 onward. The FTC's complaint quotes the pitch directly: prospects were promised they could "start earning $3,500 weekly within 3-10 days," backed by fabricated testimonials — one robocalled voice claiming "I actually make $50,000 each month." Membership itself cost $3,000 to as much as $21,000, plus additional "administrative fees," and in at least one recorded call Garis told a senior citizen she could "get out of debt quicker" by signing up.
+
+The FTC sued Smith, Shafer, Garis, and Garis's company, Business Revolution Group Inc., in the U.S. District Court for the Eastern District of Pennsylvania in December 2023, and a federal judge froze their assets the following month. All three settled without going to trial. Smith consented to a $7.5 million judgment in June 2024; Shafer was later held jointly and severally liable for that same $7.5 million. Garis and Business Revolution Group were separately ordered to pay $567,313.81 — a stipulated order Judge Gerald A. McHugh signed on September 13, 2024, requiring an immediate $100,000 payment along with the full contents of several bank and cryptocurrency accounts, with the remainder suspended based on sworn, FTC-verified financial statements showing the men couldn't pay more. All three are permanently banned from telemarketing and from selling any "money-making method" or investment opportunity for the rest of their lives.
+
+The suspended judgment is the ordinary outcome in FTC cases against operators who took in real money but no longer have it: the agency collects what it can verify a defendant actually has, in exchange for a lifetime ban and a judgment that snaps back to full size — with interest — the moment they're caught lying about their finances or hiding an asset. It's a weaker deterrent than prison, but it's also the reason so few network-marketing "opportunity" pitches survive first contact with a regulator who checks the math before checking the box.`,
+    sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2023/12/ftc-acts-stop-sprawling-business-opportunity-scheme-took-millions-consumers',
+  },
+);
