@@ -9051,3 +9051,22 @@ Harlequin shows how an off-plan property pitch can borrow the emotional appeal o
     sourceUrl: 'https://www.gov.uk/government/news/sfo-set-to-secure-280000-from-convicted-fraudster-david-ames',
   },
 );
+
+NotoriousAF.push(
+  {
+    title: 'Anthony Constantinou and the £70 Million CWM Fraud He Skipped Bail to Escape',
+    slug: 'anthony-constantinou-cwm-fx-forex-ponzi-fugitive',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'international'],
+    body: `Anthony Constantinou ran a City of London foreign-exchange trading operation, branded largely as Capital World Markets (CWM), out of an office in Heron Tower on Bishopsgate. From late 2013 through March 2015, CWM's "Managed Account" product promised investors returns of around 5% a month — more than 60% a year — on what it described as risk-free foreign exchange trading, with a minimum investment starting at £50,000 and later rising to £100,000. Hundreds of people signed up, and prosecutors later calculated that the scheme took in approximately £70 million.
+
+None of the promised trading was real. According to the Crown Prosecution Service, CWM and its related companies never invested anywhere near the sums they claimed in the FX markets; the "returns" paid to investors came directly out of other investors' deposits, while a substantial share of what was left went to Constantinou personally and to expensive image-building — sponsorship deals, a Range Rover, and a CWM-branded luxury motorbike among the purchases prosecutors later pointed to — all designed to make CWM look successful enough to keep new money flowing in.
+
+The operation came apart when City of London Police raided CWM's offices in March 2015, arresting more than a dozen people and shutting down the trading platform. It took until 2023 for the case to reach trial at Southwark Crown Court, and Constantinou did not stay for the verdict: he skipped bail and disappeared partway through proceedings. The jury convicted him in his absence on May 22, 2023, on one count of fraud by false representation, two counts of fraudulent trading, and four counts of money laundering, and on June 9, 2023, a judge sentenced the absent Constantinou to 14 years in prison and disqualified him from acting as a company director for 25 years.
+
+Constantinou has never been found, but the case against his money kept moving without him. On June 19, 2025, Southwark Crown Court determined his total criminal benefit from the fraud at £97,900,873.41 and ordered him to repay £64 million within three months, with a further 14 years in prison to follow if he doesn't. Two months later, in August 2025, City of London Police secured an Interpol Silver Notice — used to help trace and seize a fugitive's assets held abroad — on top of the Red Notice already out for his arrest. Adrian Foster, the CPS's Chief Crown Prosecutor for its Proceeds of Crime Division, called it "a callous scam targeting members of the public," adding that "many people lost their hard-earned money because of Constantinou's greed and false promises in this fake investment scheme."
+
+More than three years after his conviction, Constantinou remains a fugitive somewhere beyond the UK's reach. His case is a reminder that a justice system can still convict, sentence, and financially dismantle a fraudster who was never in the room to hear the verdict — proving that a scheme was fraudulent and clawing back what it stole doesn't actually require catching the person who ran it, even if putting him in a cell still does.`,
+    sourceUrl: 'https://www.cps.gov.uk/cps/news/former-boss-city-london-foreign-exchange-company-has-been-ordered-pay-back-ps64-million',
+  },
+);
