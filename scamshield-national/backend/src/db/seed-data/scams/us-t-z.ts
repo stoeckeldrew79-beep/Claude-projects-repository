@@ -3698,3 +3698,17 @@ UsTZ.push({
     isHistorical: true,
     firstRecorded: '2026-02-10',
 });
+
+UsTZ.push({
+    name: "Grandpa's Shop Unlicensed Contractor Fraud (Luke Christensen)",
+    slug: 'wyoming-grandpas-shop-luke-christensen-contractor-fraud',
+    description: `Grandpa's Shop LLC, a Cheyenne handyman and home-improvement business owned by Luke Christensen, operated from September 12, 2012 through November 2018, taking payment from Wyoming homeowners for contracting jobs and then, according to the Wyoming Attorney General's Consumer Protection and Antitrust Unit, leaving many of those homes unfinished and in a state of disrepair — work performed without required permits was repeatedly "red tagged" by city inspectors, forcing consumers to pay a second contractor just to finish or fix what Christensen had left behind. The City of Cheyenne revoked Grandpa's Shop's contractor's license in July 2017, but Christensen kept the business running and kept taking on new jobs regardless. The Attorney General's office sued under the Wyoming Consumer Protection Act, and a consent judgment filed in Laramie County District Court on December 5, 2019 barred Christensen from working in the home-improvement field for five years unless he is a direct employee of an already-licensed contractor, and from owning or operating a home-improvement business at all until he repays more than $80,000 to the consumers he defrauded — at a minimum of $3,000 per quarter, a repayment period expected to stretch roughly seven years, with civil penalties that can exceed $100,000 if he falls behind. Before paying any contractor for home-improvement work, Wyoming homeowners can check whether that business's license is current and see whether it has been the subject of a consumer complaint or Attorney General action by searching the Consumer Protection and Antitrust Unit's published case records, and should be wary of any contractor who wants a large payment up front for a job that has not yet been permitted or inspected.`,
+    categorySlug: 'home-improvement-solar',
+    alertLevel: 'medium',
+    sources: ["Wyoming Attorney General's Office", 'Wyoming Tribune Eagle'],
+    sourceUrl: 'https://www.wyomingnews.com/news/local_news/ag-releases-consent-judgment-with-grandpa-s-shop-owner/article_41be16e2-dcfd-5c7f-b254-4844e1e44569.html',
+    country: 'US',
+    state: 'WY',
+    isHistorical: true,
+    firstRecorded: '2012-09-12',
+});

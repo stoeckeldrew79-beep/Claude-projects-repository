@@ -6746,3 +6746,45 @@ UsGM.push({
     isHistorical: true,
     firstRecorded: '2018-12-16',
 });
+
+UsGM.push({
+    name: 'Fishers "Harvard Lawyer" Unregistered Securities Ponzi Scheme (Darrin Blaine)',
+    slug: 'indiana-fishers-darrin-blaine-ponzi-scheme',
+    description: `Darrin W. Blaine, a Fishers, Indiana resident and Harvard Law School graduate, held himself out to investors as a seller of securities through the companies Akamai Physics Inc., Porrima Photonix Inc., and Laser Tech Investment Club, despite never registering with the Indiana Securities Division as state law requires of anyone selling securities. Indiana Attorney General Todd Rokita's office alleges Blaine bilked eight Indiana investors out of approximately $680,000, diverting the money to cover his own personal lifestyle expenses rather than the investments he pitched, with New Mexico residents Allen R. Geiger and Marguerite Kimball-King and their companies named as co-defendants in the scheme. Blaine was arrested on October 12, 2023 and charged by the Hamilton County prosecutor with six felony counts of securities violations, one felony count of money laundering, and one felony count of corrupt business influence. Days later, Hamilton Superior Court Judge David Najjar granted Rokita's request for a temporary restraining order and appointed a receiver, James Ammeen, to take control of assets tied to the scheme ahead of a November 2023 injunction hearing, an effort to preserve what remained for restitution to victims. "It's sickening to see alleged criminal manipulators maliciously abuse the trust of hard-working Hoosiers," Rokita said in announcing the action. Before wiring money into any investment opportunity — even one pitched by someone with an impressive resume like a Harvard Law degree — investors can and should verify that both the seller and the security itself are actually registered with the Indiana Securities Division, since credentials in an unrelated field are not a substitute for the licensing the law requires of anyone selling securities.`,
+    categorySlug: 'ponzi-pyramid-schemes',
+    alertLevel: 'medium',
+    sources: ["Indiana Attorney General's Office", 'The Reporter (Hamilton County, Ind.)'],
+    sourceUrl: 'https://readthereporter.com/rokita-team-tear-down-massive-ponzi-scheme-in-hamilton-county/',
+    country: 'US',
+    state: 'IN',
+    isHistorical: true,
+    firstRecorded: '2023-10-12',
+});
+
+UsGM.push({
+    name: '"We Push for Peace" Nonprofit Embezzlement (Trahern Pollard and Jaclyn McGuigan)',
+    slug: 'minnesota-we-push-for-peace-nonprofit-embezzlement',
+    description: `We Push for Peace, a Minneapolis nonprofit that presented itself as a violence-interruption and community-safety organization, is accused by Minnesota Attorney General Keith Ellison of letting former executive director Trahern Pollard and board chair Jaclyn McGuigan siphon off more than $6.5 million in charitable assets for their own benefit. Ellison's lawsuit, filed in Hennepin County District Court on May 8, 2026, alleges more than $6 million of that total personally benefited Pollard, who spent nonprofit funds on Las Vegas trips, luxury cars, his own child-support payments, and propping up his for-profit liquor store and car dealership businesses — all while the nonprofit had no functioning board of directors, held no annual meetings, and lacked any financial safeguards that might have caught the diversions. The complaint alleges Pollard and McGuigan, who maintained a personal relationship, gave false statements to investigators to disguise the spending, at one point describing a child-support payment as an "overhead expense" and a $35,000 payment to Pollard's friends as "Chicago Payroll," and that shortly after the Attorney General's office opened its investigation, Pollard founded a for-profit company with a nearly identical name to the nonprofit and began diverting its contracts and revenue-generating work there, hollowing out the charity's ability to keep providing the public-safety services it was funded for. "We Push for Peace's former leaders betrayed their basic duties to the nonprofit and communities they were supposed to serve," Ellison said. "Instead of helping the community, they helped themselves to millions of dollars that should have gone into the community." Donors who want to support a cause like violence prevention can check a Minnesota charity's registration, governance, and spending history through the Attorney General's Charities Division online database before giving, since a nonprofit with no published board members or annual meetings is a warning sign worth checking before, not after, money changes hands.`,
+    categorySlug: 'charity-scams',
+    alertLevel: 'medium',
+    sources: ["Minnesota Attorney General's Office"],
+    sourceUrl: 'https://www.ag.state.mn.us/Office/Communications/2026/05/08_WePushForPeace.asp',
+    country: 'US',
+    state: 'MN',
+    isHistorical: true,
+    firstRecorded: '2026-05-08',
+});
+
+UsGM.push({
+    name: 'Remain in Control LLC "High-Yield Investment" Ponzi Scheme (Alcides Roman)',
+    slug: 'kansas-overland-park-alcides-roman-remain-in-control-ponzi-scheme',
+    description: `Alcides Roman, 66, of Lebanon, Tennessee, operated a company called Remain in Control LLC and used it to solicit victims — including an investor in Overland Park, Kansas — into what he described as high-yield investment programs promising attractive, above-market returns. Starting in June 2020, the Kansas victim wired multiple payments into Roman's company bank account after being told the money would be invested; according to the U.S. Attorney's Office for the District of Kansas, Roman never actually invested any of it, instead leaving the funds in accounts he controlled and using the money to cover his own personal living expenses, buy vehicles and land, and send payments to other companies, while paying "returns" to investors that were, in fact, simply a portion of that same victim's own principal or another victim's money — the defining structure of a Ponzi scheme. The fraud eventually reached victims in Kansas, New York, Texas, and Canada, with a total known loss of $1,977,857.88 identified so far. Roman pleaded guilty to one count of wire fraud and was sentenced on July 18, 2025 to 71 months in federal prison; it was not his first fraud conviction — he was previously found guilty in 2013 of defrauding individuals seeking business loans in Louisiana out of $340,000. Before wiring money into any investment opportunity promising unusually high, consistent returns, investors should verify that both the person and the investment itself are registered with the state securities regulator or the SEC, and should be especially wary of a solicitation from someone whose prior business or legal history cannot be independently verified — a "returns" payment arriving on schedule is not, by itself, evidence that real money is actually being invested anywhere.`,
+    categorySlug: 'ponzi-pyramid-schemes',
+    alertLevel: 'medium',
+    sources: ["U.S. Attorney's Office, District of Kansas", 'KCTV5'],
+    sourceUrl: 'https://www.kctv5.com/2025/07/18/tennessee-man-sentenced-prison-ponzi-scheme-that-defrauded-kansans-out-19m/',
+    country: 'US',
+    state: 'KS',
+    isHistorical: true,
+    firstRecorded: '2020-06-01',
+});
