@@ -8831,3 +8831,20 @@ Crédit Lyonnais's Executive Life affair is a reminder that a bright-line owners
     sourceUrl: 'https://www.federalreserve.gov/boarddocs/press/enforcement/2003/20031218/default.htm',
   },
 );
+
+NotoriousAF.push(
+  {
+    title: 'Guy Flintham and the £19 Million Fake Trading Scheme Behind a Fleet of Sports Cars',
+    slug: 'guy-flintham-unauthorised-investment-scheme-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'international'],
+    body: `Guy Flintham, from Blackburn, Lancashire, ran an unauthorised investment scheme built on a single false claim: that he was a skilled, successful trader who could reliably generate strong returns for the people who invested with him. Between January 2016 and November 2021, that pitch persuaded more than 240 investors to hand over roughly £19 million — money Flintham was never licensed by Britain's Financial Conduct Authority to manage in the first place.
+
+Flintham kept the money flowing by sending investors fabricated trading statements showing healthy, consistent profits. In reality, the UK's Financial Conduct Authority found that only about £1.14 million of the £19 million raised was ever actually placed into genuine trading accounts. Roughly £10 million was paid back out to investors as supposed "profits" that in fact came from other investors' capital or their own money being recycled back to them — a Ponzi-style structure layered underneath the trading story. Flintham personally spent more than £1 million of investor money on cars, jewelry, designer goods, and personalized number plates.
+
+The FCA brought criminal charges, and Flintham pleaded guilty on 19 February 2024 to fraud by false representation under the Fraud Act 2006 and to carrying on regulated investment activity without authorisation under the Financial Services and Markets Act 2000. On 26 April 2024, a judge at Southwark Crown Court sentenced him to six years in prison. In January 2025, following separate confiscation proceedings, the court determined that Flintham's total criminal benefit from the fraud came to nearly £23.9 million and ordered him to pay a confiscation order of £5,963,376.15 within three months or serve a further two years in prison in default, with the recovered funds earmarked for return to his identified victims.
+
+The gap between the roughly £19 million investors actually put in and the roughly £6 million ultimately available to confiscate is typical of unauthorised investment fraud: FCA authorisation exists specifically to give investors a backstop — oversight, capital requirements, compensation schemes — that an unauthorised operation like Flintham's never had. By the time the scheme unraveled, most of what he had taken in had already been spent, paid out to earlier investors as fake profits, or was otherwise gone, leaving victims to recover only a fraction of what they lost.`,
+    sourceUrl: 'https://www.fca.org.uk/news/press-releases/guy-flintham-sentenced-6-years-fraud-over-unauthorised-investment-scheme',
+  },
+);
