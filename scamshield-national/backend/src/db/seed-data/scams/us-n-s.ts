@@ -6598,3 +6598,31 @@ UsNS.push({
     isHistorical: true,
     firstRecorded: '2024-12-15',
 });
+
+UsNS.push({
+    name: 'Rapid City "Infinity Auctions" Fake Online Vehicle Auction Site',
+    slug: 'south-dakota-infinity-auctions-fake-vehicle-scam',
+    description: `A website at auctionsinfinity.com, branded "Infinity Auctions," listed a Rapid City, South Dakota address and advertised cars, trucks, RVs, and heavy equipment through what looked like live online auctions and "Buy Now" listings priced well below market with countdown timers to create urgency — but investigators with the Better Business Bureau of the Midwest Plains found the business does not actually operate at that address, and the site has no connection to the real, unrelated South Dakota auction company that also does business as Infinity Auctions and legitimately sells through the HiBid platform. A reverse-image search of the fake site's listing photos found they had been lifted from other, legitimate auction websites — in one case, a vehicle pictured as available for sale had actually already sold through a real auction two years earlier. After a buyer "won" a listing or placed an order, the site pressured them to wire full payment plus an additional delivery fee before any inspection or verification could take place, and the vehicle never arrived. The BBB said it received reports from three consumers, two of whom lost a combined $48,000 — one wired $23,400 and the other $24,570 — and it reported the site to the South Dakota Attorney General's Office and asked the Rapid City Police Department to open an investigation, advising affected buyers to file a police report directly. Anyone shopping for a vehicle or heavy equipment through an online "auction" site should reverse-image-search the listing photos before bidding, independently verify the seller's physical address rather than trusting the one listed on the site, and treat any request to wire payment and a separate delivery fee before ever seeing or inspecting the item in person as a decisive red flag, regardless of how legitimate the site's branding or countdown-timer urgency looks.`,
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'medium',
+    sources: ['Better Business Bureau of the Midwest Plains', 'KOTA Territory News'],
+    sourceUrl: 'https://www.kotatv.com/2026/07/07/scam-auction-website-uses-fake-south-dakota-address-bbb-says/',
+    country: 'US',
+    state: 'SD',
+    isHistorical: true,
+    firstRecorded: '2026-07-07',
+});
+
+UsNS.push({
+    name: 'North Dakota Cryptocurrency Kiosk Fraud and the HB 1447 Crackdown',
+    slug: 'north-dakota-crypto-kiosk-fraud-hb1447',
+    description: `FBI data show North Dakotans lost nearly $6 million to cryptocurrency scams in 2023, and state fraud investigators increasingly trace those losses to one specific mechanism: a caller posing as law enforcement, a bank fraud department, or a relative in a manufactured emergency convinces the victim that the only way to pay a "fine," resolve a fabricated legal problem, or protect their savings is to withdraw cash and feed it directly into a cryptocurrency kiosk — a transaction that, once confirmed on the blockchain, cannot be reversed or clawed back the way a wire transfer sometimes can. Testifying before North Dakota lawmakers, Jacob Rued, a fraud investigator at First Western Bank in Minot, said victims' trust in the machines is itself part of the problem: "Their trust in the kiosk is often based on false idea that because this kiosk is real, it must be vetted." State Representative Ben Koppelman, R-West Fargo, described the pattern driving the legislation: "They suggest depositing it in this kiosk and, of course, it goes to the fraudster's account and it's tough to get that money back." In response, the North Dakota Legislature passed House Bill 1447, which Governor Kelly Armstrong signed into law on April 11, 2025 with support from AARP North Dakota, banks, and law enforcement over the objection of kiosk operators; the law requires virtual-currency kiosk operators doing business in the state to hold a money-transmitter license, post fraud warnings on the machines, cap individual daily transactions at $2,000, and issue printed transaction receipts so law enforcement has a paper trail to work with after a scam is reported. North Dakota's new licensing and disclosure requirements do not stop the underlying scam script, so anyone contacted by phone or text claiming to be a government agency, a bank, or a relative in crisis who insists the only way to pay is to deposit cash into a bitcoin or cryptocurrency kiosk should hang up and independently verify the claim through a number they look up themselves, since no legitimate agency, bank, or family emergency is ever resolved by a kiosk deposit.`,
+    categorySlug: 'cryptocurrency-scams',
+    alertLevel: 'high',
+    sources: ['North Dakota Legislative Assembly', 'AARP North Dakota', 'KFGO'],
+    sourceUrl: 'https://ndlegis.gov/assembly/69-2025/regular/bill-overview/bo1447.html',
+    country: 'US',
+    state: 'ND',
+    isHistorical: true,
+    firstRecorded: '2025-04-11',
+});
