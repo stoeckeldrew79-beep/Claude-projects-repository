@@ -8762,3 +8762,50 @@ The Inventis pitch followed a familiar affinity-fraud playbook: a too-good-to-ve
     sourceUrl: 'https://www.justice.gov/usao-cdca/case/us-v-linh-le-and-trong-lu',
   },
 );
+
+// No rights-cleared photo of John Boston has surfaced — this is a New
+// Jersey state prosecution with no arrest booking photo released, and
+// searches of Wikimedia Commons and news coverage turned up nothing
+// under a license this collection can use, so sourceUrl serves as the
+// "read the full story" link instead of a photo.
+NotoriousGM.push(
+  {
+    title: 'John Boston and the Power of Attorney That Drained a 90-Year-Old Client\'s Inheritance',
+    slug: 'john-boston-verona-elder-financial-exploitation',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    body: `John Boston, of Verona, New Jersey, was a registered financial adviser when he agreed, by signed contract, to help manage the affairs of an elderly woman who had just inherited substantial assets from her late brother. According to the New Jersey Attorney General's Office, Boston never told his employer he had taken her on, never obtained the firm's authorization to do so, and never registered her as a client the way the Financial Industry Regulatory Authority requires — meaning the one institutional check that might have flagged what came next never had a chance to.
+
+In June 2017, Boston obtained a durable financial power of attorney from the woman, who was then 90 years old. New Jersey prosecutors say that instead of managing her assets and protecting her long-term financial stability, as the arrangement called for, Boston used the authority to divert money from her accounts through a series of ATM withdrawals, bank transfers, and other transactions, ultimately taking more than $300,000 and depleting her accounts in less than two years. Evidence presented at trial showed he also failed to meet her financial obligations, neglected her care, and later began diverting her Social Security benefits for his own use. An initial 2023 indictment, based on the investigation to that point, had charged him in connection with more than $75,000 taken from her; the fuller $300,000 figure emerged only once the case went to trial.
+
+The case reached prosecutors by way of the Office of the Long-Term Care Ombudsman, which referred it to the Medicaid Fraud Control Unit inside the state Office of the Insurance Fraud Prosecutor. A state grand jury indicted Boston in October 2023 on one count of second-degree theft and one count of second-degree theft by failure to make required disposition. He went to trial in Essex County Superior Court before Judge Patrick J. Arre, and a jury convicted him on both counts following a six-day trial in May 2026. Boston had already resigned from the securities industry in 2019 and had not been registered in New Jersey since.
+
+Attorney General Jennifer Davenport announced the conviction on June 15, 2026, coinciding with World Elder Abuse Awareness Day. "For many older New Jerseyans, making ends meet is challenging enough without worrying about being exploited by a trusted financial adviser," Davenport said. "This conviction demonstrates our commitment to holding accountable those who abuse positions of trust for personal gain and exploit vulnerable residents." Acting Insurance Fraud Prosecutor Bernard J. Cooney, whose office's Medicaid Fraud Control Unit investigated the case, added that "cases like this demonstrate the devastating impact financial exploitation can have on older adults and their families." Boston was scheduled to be sentenced on July 21, 2026; New Jersey's second-degree theft statute carries a term of five to ten years in state prison and a fine of up to $150,000. As of this writing, no sentencing outcome has been publicly reported.
+
+A durable power of attorney is designed to let someone act on a person's behalf precisely when they can no longer easily watch their own accounts — which is what makes it dangerous in the wrong hands, since the same authority that lets a trusted adviser pay a client's bills also lets an untrustworthy one empty the account paying them. FINRA's client-registration requirement exists as an outside check on exactly that risk: an employer who knows a broker has taken on a new client is in a position to notice irregular activity a family member three states away might miss for years. Boston's case shows what happens when an adviser simply skips that step — the same silence that let him avoid his employer's oversight in 2017 is what let the theft run, undetected by anyone but the victim, until an ombudsman's referral finally brought it to a prosecutor's desk.`,
+    sourceUrl: 'https://www.njoag.gov/ag-davenport-announces-criminal-conviction-in-elder-financial-exploitation-case-highlights-ongoing-efforts-to-prevent-elder-abuse-as-new-jersey-observes-world-elder-abuse-awareness-day/',
+  },
+);
+
+// No rights-cleared photo of Jose Bello has surfaced — this is a
+// days-old federal case with no booking photo published on Wikimedia
+// Commons, so sourceUrl serves as the "read the full story" link
+// instead of a photo.
+NotoriousGM.push(
+  {
+    title: 'Jose Bello and the "Gator Lending" Ponzi Scheme That Ran on Facebook and Discord',
+    slug: 'jose-bello-gator-lending-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    body: `Note: this entry describes a pending federal criminal case. Jose Bello has been charged by criminal complaint, not convicted, and is presumed innocent unless and until a court finds otherwise.
+
+Jose Bello, 38, of Florida, recruited investors the way a lot of small, informal schemes do now: through friends and family, and through posts and messages on Facebook and Discord. According to the U.S. Attorney's Office for the District of Massachusetts, Bello pitched what he called "private lending," "hard-money lending," or — in his own terminology — "gator lending": short-term, high-return loans that he said funded real estate deals or storm-damage repairs, with promised returns ranging from 15 percent up to a flatly implausible 100 percent. Between January 2023 and October 2024, prosecutors say, roughly 600 investors signed some 4,100 separate loan agreements, in amounts as small as $100 and as large as $50,000, putting a combined $5.7 million into Bello's hands.
+
+None of it went toward the real estate financing or storm recovery Bello described, according to the criminal complaint. Prosecutors allege the descriptions of specific investment opportunities he gave investors were fabricated, and that he used incoming money to pay "returns" to earlier investors — the defining mechanic of a Ponzi scheme — while personally spending investor funds on gambling and vacations. He also told investors their payouts would come "in cash to avoid Uncle Sam," a pitch prosecutors say was less a tax-planning tip than a way to keep the payments off any paper trail. By the time the scheme collapsed, investors had lost at least $1.8 million of what they put in.
+
+FBI agents arrested Bello at his home in April 2026, and he made an initial appearance in the Southern District of Florida before being arraigned in federal court in Boston, where the case was filed. He faces four counts of wire fraud, each carrying a statutory maximum of 20 years in prison, three years of supervised release, and a fine of up to $250,000 or twice the gross gain or loss from the offense, whichever is greater. "Bello allegedly used variations on 'gator lending' and other terms to disguise a straightforward fraud," the U.S. Attorney's Office for the District of Massachusetts said in announcing the charges, with then-U.S. Attorney Leah B. Foley and FBI Boston Special Agent in Charge Ted E. Docks crediting the investigation. As of this writing, the case remains pending and no plea has been entered.
+
+Bello's alleged scheme is a reminder that a Ponzi scheme doesn't need a slick website or a registered fund to work — 4,100 separate agreements averaging under $1,400 apiece suggests a pitch built for volume, spread person to person through the same social platforms where a friend's recommendation carries more weight than a prospectus ever could. A promised return of "up to 100 percent," paid in cash specifically to keep it off the books, is not a generous lender's offer; it is, prosecutors say, the language of someone who never intended to show investors a real accounting of where their money went.`,
+    sourceUrl: 'https://www.justice.gov/usao-ma/pr/florida-man-charged-running-multi-state-ponzi-scheme',
+  },
+);
