@@ -15480,3 +15480,46 @@ International.push(
     country: 'IR',
   },
 );
+
+International.push(
+  {
+    name: '"Rapid Cash" Predatory Loan App Photo-Blackmail Scam',
+    slug: 'bangladesh-rapid-cash-loan-app-blackmail-scam',
+    description: `The Cyber Crime Wing of Bangladesh Police's Anti-Terrorism Unit (ATU) arrested 26 people, including call-centre director Mohiuddin Mahi, during a raid on a house on Sonargaon Janapath Road in Uttara, Dhaka, over a fraud ring built around an unlicensed lending app called "Rapid Cash." The gang, whose alleged masterminds were two Chinese nationals who remained at large, advertised small loans of around Tk 30,000 and required applicants to install the app, which harvested the phone's contact list along with photos and National ID card details submitted during "verification." After a small amount of cash was sent to the borrower, the gang demanded repayment plus interest far above what was agreed, and threatened — if the victim refused or couldn't pay — to circulate doctored explicit images built from the harvested photos to the borrower's own contact list on Facebook and other platforms. The investigation was opened after a victim filed a complaint at Boalia Police Station in Rajshahi, and the ATU traced it back to the Uttara call centre. Rapid Cash is one of a wider family of unlicensed "instant loan" apps and Facebook pages — others include Money, PopKash, CashNow, Drutoloan, Fast Loan, Shathi Loan, and Quickloan — that Bangladesh Bank has publicly stated are illegal lenders, and that in a separate widely reported case operating as the Facebook page "Ashar Alo Foundation" convinced a Dhaka homemaker to pay a Tk 450 "application fee" and then a Tk 1 lakh "refundable security deposit" toward a promised Tk 5 lakh loan, after which the page stopped responding and kept her money. Consumers are advised never to install a lending app that is not tied to a bank or a Bangladesh Bank-licensed microfinance institution, never to submit NID photos or a copy of their contacts to get a loan, and to treat any "deposit before disbursement" demand as a hallmark of fraud.`,
+    categorySlug: 'debt-relief-scams',
+    country: 'BD',
+    alertLevel: 'critical',
+    sources: ['The Business Standard', 'Anti-Terrorism Unit (ATU), Bangladesh Police', 'The Daily Star', 'Bangladesh Bank'],
+    sourceUrl: 'https://www.tbsnews.net/bangladesh/crime/26-arrested-swindling-and-exploiting-personal-data-loan-app-rapid-cash-633618',
+  },
+  {
+    name: 'Fake Overseas-Job Appointment-Letter Visa Fraud',
+    slug: 'bangladesh-fake-appointment-letter-overseas-job-visa-fraud',
+    description: `Every year more than half a million Bangladeshis travel abroad for work — Saudi Arabia alone received 612,418 Bangladeshi workers in a recent 12-month period — and Bangladesh's own embassy officials estimate that roughly one in ten is defrauded somewhere in the process by recruiting agents and the middlemen who supply them with visas and appointment letters. In the most common version, a Saudi national deposits a refundable fee of around 2,000 riyals to sponsor a work visa without any real intention of employing anyone, then sells that visa to a Bangladeshi recruiting agency, which pairs it with a fabricated appointment letter describing a well-paid position — factory technician or similar — that does not exist. Migrants who pay Tk 350,000 to 380,000 (roughly $4,000-4,500) for the placement arrive to find themselves assigned to menial work such as day labor or masonry instead, on a residency permit that in some cases expires within three months, tipping them into undocumented status through no fault of their own. A separate government investigation into placements in the UAE found 6,938 workers had been registered against appointment letters covering only 2,960 actual positions, and identified evidence of fraud against nine officials of the Bureau of Manpower, Employment and Training (BMET) — Bangladesh's own migration regulator — none of whom were prosecuted, with officials citing the sheer volume of registrations as the reason thorough verification wasn't done. BMET has moved to let migrants and their families file, upload evidence for, and track fraud complaints online, but migration researchers say formally lodged complaints (more than 1,100 in just the first half of 2023) still undercount the real scale of the problem because many defrauded workers never report it. Prospective migrant workers are advised to verify both the recruiting agency's BMET license and the specific job order number directly with BMET before paying any fee, and to be especially wary of "free visa" arrangements obtained through relatives or informal brokers rather than a licensed agency.`,
+    categorySlug: 'employment-scams',
+    country: 'BD',
+    alertLevel: 'high',
+    sources: ['Prothom Alo', 'Bureau of Manpower, Employment and Training (BMET)', 'The Business Standard'],
+    sourceUrl: 'https://en.prothomalo.com/bangladesh/ya4xfctnf7',
+  },
+  {
+    name: 'Lottery-Win Advance-Fee Mobile Money Scam',
+    slug: 'bangladesh-lottery-prize-advance-fee-bkash-scam',
+    description: `Rakib Mia, who runs a tea stall at Aliabad Bazar in Nabinagar municipality, Brahmanbaria, received a text message claiming he had won Tk 800,000 in a lottery and instructing him to send a Tk 85,000 "processing fee" via bKash to release it, with the caller promising Tk 95,000 would be sent back to him immediately and the remainder to follow that Friday. Believing the promise, Rakib sent Tk 65,000 across several transfers to the numbers he was given before a bKash agent, growing suspicious as he prepared to send still more, questioned him and prompted him to stop; by the time he tried to reach the numbers again, they had all been switched off. Rakib's case, reported by Prothom Alo, is one of many built on the same pattern that bKash's own fraud-prevention guidance continues to warn customers about as an active threat: an unsolicited call or SMS claiming a prize, lottery win, or gift has been "reserved" for the recipient, followed by a request to send money via mobile financial services before the winnings can supposedly be released. Because no legitimate lottery, telecom promotion, or government program in Bangladesh ever requires a winner to pay a fee before receiving a prize, consumers are advised to treat any such request as fraud, and to verify independently — never through a number or link supplied in the message itself — before sending anything.`,
+    categorySlug: 'lottery-sweepstakes-scams',
+    country: 'BD',
+    alertLevel: 'medium',
+    sources: ['Prothom Alo', 'bKash Limited'],
+    sourceUrl: 'https://en.prothomalo.com/bangladesh/Brahmanbaria-tea-seller-loses-Tk-65-000-in-Bkash',
+  },
+  {
+    name: 'Fake Facebook "Discount Shop" Advance-Payment Scam',
+    slug: 'bangladesh-fake-facebook-shop-advance-payment-scam',
+    description: `Fraud rings across Bangladesh have repeatedly built Facebook pages that impersonate well-known retailers to sell products — mobile phones, air conditioners, children's toys, and more — at implausibly steep discounts, requiring full or partial payment up front through mobile financial services before anything ships. In one case investigated by the Detective Branch (DB) of Dhaka Metropolitan Police, a ring ran pages with names deliberately mimicking the e-commerce platform Daraz — including "Daraz Online," "Daraz Online 71," "Daraz Online Shop," "Daraz Express," and "Daraz Online BD" — and had already sold low-quality or non-existent goods to more than 200 customers before DB arrested six people accused of running them: Rocky Biswas, Hekmat Ali, Kacibur Rahman, Shimul Mandal, Anichur Rahman Sheikh, and Mazharul Islam. The pattern is a durable one — years later, Bangladeshi outlets were still documenting near-identical campaigns advertising deep discounts on branded electronics and appliances, with the pages going inactive and their contact numbers disconnected once enough customers began complaining that their advance payments produced nothing. Because a genuine retailer's official page is verified, keeps a consistent sales history, and provides a real, reachable business address and phone number, shoppers are advised to check for those signs — and to be especially wary of any Facebook shop offering an unusually large discount that insists on advance payment via bKash or Nagad before delivery.`,
+    categorySlug: 'online-shopping-scams',
+    country: 'BD',
+    alertLevel: 'high',
+    sources: ['The Business Standard', 'The Financial Express', 'Detective Branch (DB), Dhaka Metropolitan Police'],
+    sourceUrl: 'https://www.tbsnews.net/bangladesh/crime/online-scammers-con-shoppers-fake-daraz-fb-pages-171730',
+  },
+);
