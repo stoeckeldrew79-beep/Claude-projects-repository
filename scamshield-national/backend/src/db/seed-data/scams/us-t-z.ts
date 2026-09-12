@@ -3684,3 +3684,17 @@ UsTZ.push({
     isHistorical: true,
     firstRecorded: '2026-05-19',
 });
+
+UsTZ.push({
+    name: 'Plainfield, Vermont Self-Employment Concealment SSDI Fraud (John Cozza)',
+    slug: 'vermont-plainfield-cozza-ssdi-fraud',
+    description: `John Cozza, 64, of Plainfield, Vermont, applied for Social Security Disability Insurance (SSDI) benefits in March 2021 and told the Social Security Administration he had not been self-employed in 2020 or at any point up to the date of his application. According to the U.S. Attorney's Office for the District of Vermont, that statement was false: Cozza had actually been running two businesses, J.C. Handy Man Services and Black Bear Building Services, continuously from 2019 through at least 2023, advertising both on social media and to customers the whole time he was collecting disability payments premised on being unable to work. Investigators with the Social Security Administration's Office of Inspector General built the case in part from Cozza's own advertising and social media posts promoting his handyman and building services, which contradicted the "not self-employed" answer on his benefits application and continued long after he began receiving payments. As a result of the false statement, Cozza obtained $68,323.20 in SSDI benefits he was not entitled to. He pleaded guilty, and on February 10, 2026, Chief U.S. District Judge Christina Reiss sentenced him to two years of probation and ordered him to repay the full $68,323.20 in restitution to the Social Security Administration. The case is a reminder that a disability claim isn't a one-time determination — the Social Security Administration continues to check a recipient's public-facing business activity and social media presence for signs of ongoing work, and a beneficiary who starts or keeps running a business after approval is required to report that change rather than assume the agency won't notice; anyone who suspects SSDI or SSI fraud can report it confidentially to the SSA Office of Inspector General at oig.ssa.gov or 1-800-269-0271.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'low',
+    sources: ["U.S. Attorney's Office, District of Vermont", 'Social Security Administration Office of Inspector General', 'Vermont Business Magazine'],
+    sourceUrl: 'https://www.justice.gov/usao-vt/pr/plainfield-vermont-man-sentenced-2-years-probation-social-security-disability-fraud',
+    country: 'US',
+    state: 'VT',
+    isHistorical: true,
+    firstRecorded: '2026-02-10',
+});

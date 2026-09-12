@@ -6556,3 +6556,31 @@ UsNS.push({
     country: 'US',
     state: 'SD',
 });
+
+UsNS.push({
+    name: 'Shelby County TennCare Fake-Nurse Impersonation Scheme (Lamonica Robinson Netter)',
+    slug: 'tennessee-shelby-county-netter-fake-nurse-tenncare-fraud',
+    description: `The Tennessee Health Facilities Commission referred Lamonica Robinson Netter, 37, of Shelby County, to the Tennessee Bureau of Investigation's Medicaid Fraud Control Division in September 2025 after officials suspected she had been impersonating a nurse. Investigators say that from 2023 through September 2025, Netter used multiple nurse license numbers that were not lawfully hers to apply for and obtain more than ten separate nursing positions across the state, working and billing as a licensed nurse without holding a valid license of her own. A Shelby County grand jury indicted her on May 7, 2026 on one count of TennCare fraud, one count of theft of property valued between $60,000 and $250,000, and two counts of impersonation of a licensed professional; she was arrested and booked into the Shelby County jail the next day on a $50,000 bond. The case was announced alongside several other TennCare fraud arrests and indictments TBI brought that same week as part of a statewide Medicaid fraud crackdown, underscoring that license-number fraud is a distinct threat from ordinary billing fraud: a person impersonating a nurse with someone else's or an invented credential is not just stealing Medicaid dollars but delivering unsupervised patient care with no verified training behind it. Healthcare employers and facilities are urged to verify a nursing applicant's license directly through the Tennessee Department of Health's license verification lookup at verify.tn.gov rather than relying on a number or certificate the applicant provides, and patients or coworkers who suspect a caregiver is not actually licensed can report it to TBI's Medicaid Fraud Control Division.`,
+    categorySlug: 'healthcare-fraud',
+    alertLevel: 'high',
+    sources: ['Tennessee Bureau of Investigation', 'Action News 5 (Memphis)', 'WBBJ-TV'],
+    sourceUrl: 'https://tbinewsroom.com/2026/06/24/tbi-charges-three-individuals-following-doj-healthcare-fraud-takedown/',
+    country: 'US',
+    state: 'TN',
+    isHistorical: true,
+    firstRecorded: '2026-05-07',
+});
+
+UsNS.push({
+    name: 'Pacolet Valero Clerk Scratch-Off Lottery Ticket Theft Ring (Christina Deann West)',
+    slug: 'south-carolina-pacolet-west-lottery-ticket-theft',
+    description: `Christina Deann West, 40, worked as a clerk at a Valero convenience store on South Pine Street in Pacolet, in Union County, South Carolina, a job that gave her routine access to the store's South Carolina Education Lottery scratch-off ticket dispenser. After the Education Lottery flagged a discrepancy and asked the South Carolina Law Enforcement Division (SLED) to investigate, surveillance footage from March 29, 2026 showed West taking scratch-off tickets from the dispenser and passing them along without the store ever being paid for them. SLED arrested West on April 20, 2026 and charged her with intent to defraud and counterfeiting game tickets, a violation that under South Carolina law can carry up to a $50,000 fine and five years in prison; she was booked into the Spartanburg County Detention Center, and the 7th Circuit Solicitor's Office is prosecuting the case. West's arrest was one of several SLED brought in 2026 after the Education Lottery referred a wave of similar retailer-side ticket schemes: in Dorchester County, Malachi Jamal Quesenberry and Trae Malik Yates were separately charged with conspiracy to commit lottery fraud, while in Richland and Lexington Counties, Jessica V. Crum faced five counts of intent to defraud and counterfeiting game tickets for allegedly passing unpaid-for tickets between store locations. The pattern in these cases is consistent: a retail employee with hands-on access to a scratch-off ticket dispenser removes tickets without paying the store for them and either cashes in winners themselves or passes them to an accomplice to redeem, a scheme that can go undetected until the Lottery's own sales-versus-inventory reconciliation catches a store coming up short. The South Carolina Education Lottery encourages retailers to reconcile scratch-off ticket inventory against register sales regularly rather than only when a shortage becomes obvious, and the public can report suspected lottery retailer fraud directly to SLED or the Education Lottery's security division.`,
+    categorySlug: 'lottery-sweepstakes-scams',
+    alertLevel: 'medium',
+    sources: ['South Carolina Law Enforcement Division (SLED)', 'FOX Carolina', 'WLTX'],
+    sourceUrl: 'https://www.foxcarolina.com/2026/04/22/upstate-woman-charged-lottery-fraud-investigation-sled-says/',
+    country: 'US',
+    state: 'SC',
+    isHistorical: true,
+    firstRecorded: '2026-04-20',
+});
