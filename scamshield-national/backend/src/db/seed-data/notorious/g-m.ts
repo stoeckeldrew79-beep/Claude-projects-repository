@@ -9505,3 +9505,23 @@ The case did not stay settled for long. On August 21, 2026, the New South Wales 
     sourceUrl: 'https://www.nzherald.co.nz/nz/mark-bryers-and-the-collapse-of-the-blue-chip-empire/SRF5QNJZQO5DUCYIPY7SJYVIJE/',
   },
 );
+
+NotoriousGM.push(
+  {
+    title: 'Barry Kloogh: The Dunedin Financial Adviser Who Stole From Clients for 25 Years',
+    slug: 'barry-kloogh-dunedin-ponzi-scheme-new-zealand',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'international'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Dunedin_Law_Courts.FZ200.jpg?width=1200',
+    coverImageCredit: 'Photo: Bernard Spragg (CC0, public domain) — the Dunedin Law Courts, where Barry Kloogh was sentenced',
+    coverImagePosition: 50,
+    body: `Barry Kloogh spent decades as a familiar, trusted financial adviser in Dunedin, New Zealand, operating through companies including Financial Planning Limited — trading as Breathe Financial — and Impact Enterprises Limited, of which he was sole director and shareholder. By May 2019, when New Zealand's Serious Fraud Office (SFO) opened an investigation into his businesses, Kloogh had roughly 2,000 active clients who believed he was investing their money on their behalf. Instead, according to the SFO, he had spent much of his career running a Ponzi scheme underneath the advisory business, using newly invested client money to pay off other clients who asked for their funds back rather than ever actually investing it as promised.
+
+The scheme's true scale went back further than most of his clients ever suspected — by his own account, Kloogh had been stealing from clients for around 25 years, roughly 70% of his professional life. The SFO's prosecution centered on a minimum of $15.7 million taken from 81 known victims, drawn from across his much larger client base, and Kloogh pleaded guilty to 11 charges including false accounting, false statements by promoters, theft by a person in a special relationship, obtaining by deception, and multiple counts of forgery. The victims named in court included retirees, a woman whose husband was defrauded of $712,000 while he was dying of cancer, and families providing for disabled children — the ordinary, trusting clientele of a small-city financial adviser rather than sophisticated investors who might have known to ask harder questions.
+
+At sentencing in the Dunedin District Court on July 31, 2020, Judge Michael Crosbie told Kloogh, "Your life has been built on a lie, every cent you have spent was stolen from someone else," and sentenced him to eight years and ten months in prison, with a minimum non-parole period of five years and four months. The judge also ordered $5 million in reparation, while acknowledging victims were unlikely to ever see meaningful recovery given Kloogh's age and prospects. On appeal that December, the High Court upheld the prison sentence but quashed the reparation order, with Justice Rachel Dunningham finding the amount unrealistic given Kloogh's actual financial resources — leaving his victims with a criminal conviction but effectively no path to repayment.
+
+Kloogh has come up for parole repeatedly in the years since, and been turned down each time. At hearings in 2025, the Parole Board found he still lacked genuine insight into what had caused his quarter-century of offending, telling him at one hearing, "you created this situation, no-one else." His case is a reminder that the length of time a fraud has been running is not, on its own, any kind of reassurance — a scheme that has quietly paid out for two decades has simply had two decades to build the trust of the community around it, and the same small-town familiarity that made Kloogh's clients comfortable handing him their retirement savings was exactly what let the underlying theft go undetected for so long.`,
+    sourceUrl: 'https://www.sfo.govt.nz/media-cases/media-releases/barry-kloogh-gets-lengthy-jail-term-for-15-7-million-fraud',
+  },
+);

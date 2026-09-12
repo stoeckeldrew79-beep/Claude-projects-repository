@@ -9086,3 +9086,23 @@ Balsam AG is a reminder that a Ponzi scheme doesn't need investors, brokerage st
     sourceUrl: 'https://de.wikipedia.org/wiki/Balsam_AG',
   },
 );
+
+NotoriousAF.push(
+  {
+    title: 'David Clarkson: The "Controlling Mind" Who Recycled One Failing Fraud Into a Bigger One',
+    slug: 'david-clarkson-sable-international-equitable-law-capital-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'international'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Southwark_Crown_Court.jpg?width=1200',
+    coverImageCredit: 'Photo: Christopher Hilton, Wikimedia Commons (CC BY-SA 2.0) — Southwark Crown Court, where David Clarkson and his co-defendants were sentenced',
+    coverImagePosition: 50,
+    body: `Equitable Law Capital (ELC) pitched itself to British investors as a specialist litigation-funding business, promising high fixed returns from money it claimed was bankrolling other people's legal claims — a plausible-sounding niche few retail investors would know enough to independently check. It was generating essentially none of the returns it claimed. When ELC began to fail, the same people behind it didn't wind it down and walk away; they set up a second company, Sable International Ltd, and used it to open a new £3.5 million bond scheme offering fixed 7% returns, raising fresh money that let the whole operation keep running under a different name.
+
+David Clarkson, 70, of Blackburn, never held a formal directorship at either company, but prosecutors described him at trial as the "controlling mind" and shadow director behind both schemes — the one actually calling the shots while others held the titles. Neither ELC nor Sable generated meaningful returns from litigation funding or bonds; instead, money from newer investors was used to pay obligations to earlier ones, while a share of it was funnelled to a front company Clarkson controlled in the Seychelles and Switzerland to launder the proceeds and fund the group's own lifestyles. To make the schemes look legitimate, Clarkson and his associates misrepresented an association with FCA-regulated firms, borrowing the reputation of genuine financial regulation for companies that had no real business the regulator had ever approved. One of those associates, solicitor Mark Fallon, used a newly set-up law firm to help launder the stolen money — while separately submitting an authorisation application to the Solicitors Regulation Authority in May 2016 that concealed more than £1 million in funding his firm had secretly received from Sable.
+
+Both ELC and Sable collapsed into administration and voluntary liquidation at the end of 2016, by which point City of London Police calculated the two schemes had taken a combined £6 million from more than 150 victims, ranging in age from 60 to 90, with the largest individual loss reaching £250,000. Following a six-month trial at Southwark Crown Court, Clarkson was sentenced on Tuesday, July 22, 2025, to seven and a half years in prison after pleading guilty to conspiracy to defraud, money laundering, and perverting the course of justice. His co-defendants received sentences reflecting their own roles: Lillian Milner, convicted after trial of conspiracy to defraud and money laundering, received five and a half years; Fallon, convicted of the same offences, four and a half years; Anthony Flaton five years; Graham Milner three and a half years for money laundering; and Paul Clarkson a 20-month suspended sentence with 180 hours of unpaid work. City of London Police and bank staff together recovered more than £2 million of the stolen funds for victims. "These fraudsters stole life savings from hundreds, abusing trusted positions out of pure greed," said Detective Constable Jay Smith of City of London Police.
+
+Clarkson's case is a reminder that a fraud collapsing doesn't necessarily mean it's over — sometimes it just means the people running it are looking for a new name to raise money under, using the very investors chasing their last set of losses as the seed capital for the next scheme. And "regulated" is a word a fraudster can simply borrow: claiming an association with FCA-authorised firms cost Clarkson's group nothing to say and did real work convincing victims a scheme was safer than it actually was, precisely because most people have no easy way to check a company's regulatory status beyond taking its word for it.`,
+    sourceUrl: 'https://www.cityoflondon.police.uk/news/city-of-london/news/2025/july/fraud-gang-jailed-over-6-million-fake-investment-schemes/',
+  },
+);
