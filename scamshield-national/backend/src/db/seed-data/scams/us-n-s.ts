@@ -6518,6 +6518,20 @@ UsNS.push({
 });
 
 UsNS.push({
+    name: 'InterBank Kingfisher Loan Officer Identity-Theft Fraud (Timothy Abercrombie)',
+    slug: 'oklahoma-interbank-kingfisher-loan-officer-identity-theft-fraud',
+    description: `Timothy Abercrombie, of Dover, Oklahoma, worked from May 2019 through February 2024 as a vice president and loan officer at InterBank's Kingfisher, Oklahoma branch, a role that gave him access to customers' personal identifying information. According to the U.S. Attorney's Office for the Western District of Oklahoma, Abercrombie used that access to prepare fraudulent loan applications in customers' names without their knowledge or consent, then — once the loans were approved — deposited the proceeds into checking accounts he controlled that had also been opened in the customers' names, ultimately defrauding InterBank out of $883,075.66. He was charged by information with one count of bank fraud on April 1, 2025 and pleaded guilty on May 15, 2025; on March 3, 2026, he was sentenced in federal court to 18 months in prison and ordered to pay $874,893.39 in restitution. The case shows that identity-based loan fraud isn't limited to outside scammers phishing for a Social Security number — a trusted bank employee with legitimate system access to customer files can originate and fund fraudulent loans entirely on their own, without the account holder ever seeing a suspicious email or call. Bank customers who notice an unfamiliar loan, account, or hard credit inquiry on their credit report should report it to their bank's fraud department and to the Oklahoma Attorney General's Consumer Protection Unit even when nothing about their own online or phone activity looked unusual.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'medium',
+    sources: ["U.S. Attorney's Office for the Western District of Oklahoma", 'KOKH-TV FOX 25 (Oklahoma City)', 'Kingfisher Times & Free Press'],
+    sourceUrl: 'https://www.justice.gov/usao-wdok/pr/dover-man-sentenced-federal-prison-after-defrauding-bank-out-more-800000',
+    country: 'US',
+    state: 'OK',
+    isHistorical: true,
+    firstRecorded: '2019-05-01',
+});
+
+UsNS.push({
     name: 'Oregon Interstate EBT Skimming Ring for Black-Market Baby Formula',
     slug: 'oregon-ebt-skimming-baby-formula-black-market-ring',
     description: `From August 2023 through October 2024, a 17-person organization used skimming devices to steal Electronic Benefit Transfer (EBT) account credentials from Oregon SNAP recipients, then used the hijacked accounts to bulk-purchase more than 120,000 pounds of SNAP-eligible goods — mainly infant formula and energy drinks — from grocery stores and curbside-pickup orders across Oregon, Washington, and California, before transporting the goods to California to resell on the black market. Federal prosecutors said the scheme diverted $2.4 million in fraudulent SNAP purchases before all 17 defendants, including Ramirez Dumitru, Giovanni Spirea, and Santa-Madalina Costache, were arrested and arraigned in federal court in Oregon, Washington, and California on October 24-25, 2024, facing conspiracy charges brought by the U.S. Attorney's Office for the District of Oregon. "Every dollar stolen is a dollar that could have fed a child in need," said Homeland Security Investigations Special Agent in Charge Robert Hammer, whose agency worked the case alongside the USDA Office of Inspector General, the U.S. Marshals Service, and multiple local police departments across the three states. U.S. Attorney Natalie Wight said the group "targeted a program that ensures access to healthy and affordable groceries for low-income and food insecure individuals and families." The case is a reminder that EBT card skimming doesn't just empty an individual victim's account — it can fund an organized resale operation moving stolen benefits across state lines — and that SNAP recipients should regularly check their EBT balance and transaction history through Oregon's official ebtEDGE system, inspect card readers for signs of tampering before swiping, and report unfamiliar transactions to the Oregon Department of Human Services right away.`,
