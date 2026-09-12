@@ -8382,3 +8382,26 @@ SNAP trafficking schemes like the one Bedi is accused of running exploit a strai
     sourceUrl: 'https://www.fbi.gov/contact-us/field-offices/seattle/news/manjit-singh-bedi-wanted-for-snap-benefits-fraud-in-tacoma-wa-added-to-fbis-most-wanted-fraudsters-list',
   },
 );
+
+// No rights-cleared photo of Robinson has surfaced (he is a fugitive
+// believed to be traveling internationally; the FBI's own wanted-poster
+// image is not on Wikimedia Commons) — sourceUrl below serves as the
+// "read the full story" link instead of a generic photo.
+NotoriousAF.push(
+  {
+    title: 'Darren Anthony Robinson: The Forex Fraudster Who Cut His GPS Tether and Vanished with $100 Million',
+    slug: 'darren-anthony-robinson-qyu-holdings-ponzi-fugitive',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    body: `Darren Anthony Robinson founded and ran QYU Holdings, a company he told investors was based in Panama and the Cayman Islands and operated as a professional foreign-currency, or FOREX, trading firm. QYU's marketing materials made a specific, striking claim: that a $100,000 investment made in 2014 would have grown to more than $2 million by 2021, without a single losing month along the way — a performance record that, according to federal prosecutors, existed only on paper.
+
+Between roughly 2015 and 2022, prosecutors say Robinson raised an estimated $100 million from investors in the United States, Canada, Panama, and other countries, including dozens of Michigan residents who collectively put in tens of millions of dollars, with more than $70 million in wire transfers later documented by investigators. Rather than trading currency as advertised, the government alleges Robinson ran a Ponzi-style operation: money from new investors went to pay distributions to earlier ones, cover QYU's own operating costs, and personally enrich Robinson, while investors received account statements built on fabricated trading data. During a voluntary interview with the FBI on June 20, 2023, Robinson admitted the representations made to QYU's investors were false and that he had created fictitious FOREX trading records to support them, according to the criminal complaint.
+
+Robinson did not stay to face the consequences of that admission. Free on conditions that included wearing a GPS monitor, he cut the tether and fled the country in November 2023. A federal grand jury in the Eastern District of Michigan indicted him in January 2024 on 11 counts of wire fraud and one count of money laundering, and a federal arrest warrant was issued in Detroit on January 11, 2024 — charges carrying up to 20 years in prison on each wire fraud count and up to 10 years on the money-laundering count.
+
+The FBI's Detroit field office added Robinson, 56, to its Most Wanted Fraudsters list on August 13, 2026, offering a reward of up to $150,000 for information leading to his arrest and conviction. Investigators believe that since fleeing he has traveled through Florida, Atlanta, and California, and on to Central and South America, Europe, Asia, Panama, the United Arab Emirates, and Colombia. "Behind those numbers are real people — retirees, moms and dads trying to pay for college, business owners," FBI Detroit Special Agent in Charge Jennifer Runyan said in announcing the addition. IRS Criminal Investigation's Robert Kuczynski was blunter: "Financial fraud of this magnitude has ruined countless lives. He failed to be accountable by becoming a fugitive."
+
+A FOREX trading claim is, for most investors, close to unverifiable — currency markets move constantly, trade confidentially, and produce statements only the operator controls, which is exactly why "no losing month in seven years" should read as a warning rather than a selling point. Robinson's case adds one more wrinkle common to this new generation of FBI fugitives: an admission on the record, made voluntarily and before charges were even filed, wasn't enough on its own to keep him in the country long enough to answer for it.`,
+    sourceUrl: 'https://www.fbi.gov/contact-us/field-offices/detroit/news/fbi-detroit-announces-darren-anthony-robinson-added-to-fbis-most-wanted-fraudsters-list',
+  },
+);

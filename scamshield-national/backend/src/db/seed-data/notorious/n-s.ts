@@ -5868,3 +5868,26 @@ Consumer fraud usually asks its victims to trust a stranger's word about a retur
     sourceUrl: 'https://www.gsa.gov/about-gsa/newsroom/news-releases/gsa-applauds-unprecedented-addition-of-suspected-procurement-fraudster-to-fbi-09032026',
   },
 );
+
+// No rights-cleared photo of Grabato has surfaced (he is a fugitive believed
+// to be living in the Philippines; the FBI's own wanted-poster image is not
+// on Wikimedia Commons) — sourceUrl below serves as the "read the full
+// story" link instead of a generic photo.
+NotoriousNS.push(
+  {
+    title: 'Rey E. Grabato II: The Real Estate Chief Who Vanished to the Philippines Before a $650 Million Ponzi Scheme Collapsed',
+    slug: 'rey-grabato-nria-ponzi-scheme-fugitive',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    body: `Rey E. Grabato II founded National Realty Investment Advisors (NRIA), a Secaucus, New Jersey firm, and built it into what its own marketing described as one of the nation's leading specialists in "institutional-caliber" private real estate investment management. As president and majority owner, Grabato sold everyday investors on notes and fund interests tied to NRIA's development projects, with promised annual returns of up to 20% — a pitch that, according to the Securities and Exchange Commission, drew in roughly 2,000 investors nationwide, including hundreds in New Jersey.
+
+The SEC and federal prosecutors say the fund behind those promises wasn't what investors were told it was. Grabato and other NRIA executives allegedly misrepresented the value and performance of the investment fund, then used inflated valuations and new investors' money to keep paying distributions to earlier investors, cover business expenses, and fund executives' personal spending — including, prosecutors say, payments to reputation-management firms to keep negative coverage out of view. From February 2018 through January 2022, the scheme raised more than $630 million in securities that were never registered with regulators. Roughly 382 of the investors were retirees who collectively put in more than $94 million of their savings. "Payments were being made from the investors' own funds," rather than from real profits, SEC Associate Regional Director Thomas P. Smith Jr. said in announcing the case. Separately, prosecutors allege Grabato spent years working to keep NRIA from paying roughly $26 million in federal taxes it owed.
+
+Grabato resigned as NRIA's CEO in April 2022; the company filed for bankruptcy two months later. On October 13, 2022, the SEC filed civil fraud charges against NRIA and four of its principals — Grabato, Daniel Coley O'Brien, Thomas Nicholas Salzano, and Arthur S. Scutaro — while federal prosecutors in New Jersey unsealed related criminal charges. A federal arrest warrant for Grabato, charging him with conspiracy to commit securities fraud, securities fraud, conspiracy to commit wire fraud, wire fraud, and conspiracy to defraud the United States over taxes, was issued the day before, on October 12, 2022. Salzano, described by prosecutors as NRIA's "shadow CEO," was later convicted and sentenced in November 2024 to 12 years in prison and ordered to pay more than $507 million in restitution; Scutaro pleaded guilty to a conspiracy charge. Grabato never faced either court. Investigators believe he fled to the Philippines, his father's home country — his father and mother have each served as mayor of the Iloilo municipality of Mina — and he has since been tied to at least two aliases, Rey Encarnacion Grabato II and Rey Li Encarnacion Grabato.
+
+On August 13, 2026, the FBI's Newark field office added Grabato, now in his mid-40s, to the bureau's Most Wanted Fraudsters list, offering a reward of up to $150,000 for information leading to his arrest and conviction. As of this writing he remains at large, with the FBI saying he has ties to the Philippines and may still be living there.
+
+NRIA's pitch worked because it borrowed the vocabulary of institutional finance — "institutional-caliber," audited-sounding fund structures, a real portfolio of real construction projects — to sell what regulators say was, underneath, an ordinary Ponzi mechanic: new investors' cash paying old investors' returns. Real estate is a slower, less liquid asset than the stocks or currencies most fraud schemes claim to trade, which made it harder for any single investor to check NRIA's numbers against reality — and easier for nearly 400 retirees to hand over their savings to a fund whose namesake founder had already arranged his own exit before it collapsed.`,
+    sourceUrl: 'https://www.fbi.gov/contact-us/field-offices/newark/news/fbi-newark-adds-rey-e-grabato-ii-to-most-wanted-fraudsters-list',
+  },
+);
