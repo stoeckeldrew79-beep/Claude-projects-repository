@@ -6505,3 +6505,17 @@ UsGM.push({
     isHistorical: true,
     firstRecorded: '2022-12-24',
 });
+
+UsGM.push({
+    name: 'Guam Attorney General Consumer Protection Division Social Media Impersonation',
+    slug: 'guam-attorney-general-consumer-protection-social-media-impersonation',
+    description: `The Office of the Attorney General of Guam warned residents on June 18, 2021 after its Consumer Protection Division received several reports of fraudulent social media profiles and posts, on local online sites and platforms like Facebook, made by people trolling those sites while posing as Consumer Protection staffers and reaching out to residents directly. The scammers, contacting people who had posted about selling goods or seeking a business license, asked targets to hand over business license permits and other personal information under the guise of an official review. Deputy Attorney General of the Consumer Protection Division Fred Nishihira was direct in the AG's press release: "Consumer protection employees will NEVER ask for personal information over social media platforms or online shopping sites, including information about business license permits." Because the division's real caseworkers only ever reach out about a complaint a resident has already filed, and never solicit license or personal information cold through a social media comment or direct message, any unsolicited outreach claiming to be from Consumer Protection on Facebook or a local buy-sell-trade group should be treated as fraudulent regardless of how official the profile name or photo looks. Residents are urged to refrain from sharing personal or business information in these exchanges and to report suspicious profiles or messages to consumerprotection@oagguam.org or (671) 475-2720, including photos or screenshots of the impersonating account when possible.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Office of the Attorney General of Guam — Consumer Protection Division', 'The Guam Daily Post'],
+    sourceUrl: 'https://www.postguam.com/news/ag-warns-residents-not-to-be-fooled-by-scammers-trolling-social-media-posing-as-consumer/article_8a84dfd4-cfed-11eb-bc7c-437d8fe837da.html',
+    country: 'US',
+    state: 'GU',
+    isHistorical: true,
+    firstRecorded: '2021-06-18',
+});

@@ -6266,3 +6266,31 @@ UsNS.push({
     isHistorical: true,
     firstRecorded: '2019-04-04',
 });
+
+UsNS.push({
+    name: 'Tinian EB-5 Casino-Resort Investment Fraud (Meng and Siu)',
+    slug: 'northern-mariana-islands-tinian-eb5-casino-investment-fraud',
+    description: `More than 20 Chinese investors filed an 81-page fraud lawsuit in New York State Supreme Court in July 2025 over a planned 300-room luxury casino-resort on Tinian in the Commonwealth of the Northern Mariana Islands that, a decade after it was pitched, has produced no casino, no hotel, and not a single EB-5 investor visa. The suit names Xianjun Meng — managing director of the American Northern Marianas Regional Center (ANMRC) and CEO of Bridge Investment Group LLC — along with his wife, Silvia Siu (also known as Xiao Bing), and two New York attorneys, Jin An and Samuel Newbold; Meng and Siu are also principals of Canbo International Group Ltd., a Hong Kong-based immigration consultancy that plaintiffs say recruited them. Investors allege they were misled into believing the CNMI project's designation as a federal EB-5 regional center guaranteed both the development and their path to a green card, and each investor paid a $500,000 Class B Unit investment plus a $45,000 administrative fee and a $10,000 legal fee — combining for roughly $12.1 million invested — based on promises that the funds would build the resort and "touted government backing and project viability" using misleading construction renderings. The complaint accuses the defendants of fraud, breach of fiduciary duty, and negligent misrepresentation, and seeks restitution, damages, and the removal of Meng and Siu from control of the American Northern Marianas Economic Development Fund, LLC (ANMEDF), which holds the investors' money. The case illustrates a distinct risk of the EB-5 program in the CNMI: the commonwealth's federal immigration status makes it eligible to host an EB-5 regional center the same as any U.S. state, but a prospective investor evaluating a Marianas-based project should independently verify a regional center's actual construction progress and permitting status — not just its federal EB-5 designation — before wiring six figures toward a visa that a stalled or fabricated project can never actually deliver.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'high',
+    sources: ['Marianas Variety News & Views', 'IMI Daily'],
+    sourceUrl: 'https://www.mvariety.com/news/local/failed-tinian-casino-project-sparks-13-4m-lawsuit/article_16f15f79-9a44-44ee-97e0-751cb5f2359a.html',
+    country: 'US',
+    state: 'MP',
+    isHistorical: true,
+    firstRecorded: '2025-07-01',
+});
+
+UsNS.push({
+    name: 'Puerto Rico AutoExpreso Fake Toll Text Scam',
+    slug: 'puerto-rico-autoexpreso-toll-text-scam',
+    description: `Puerto Rico's Department of Transportation and Public Works (DTOP) warned AutoExpreso users on March 26, 2025 about fraudulent text messages claiming they owe a small unpaid toll — commonly a $6.99 charge — and providing a link to "resolve" it by entering payment and personal information. DTOP was unambiguous that the messages are fake: "AutoExpreso no envía mensajes solicitando pagos ni información personal" ("AutoExpreso does not send messages requesting payments or personal information"), and the agency's real text alerts are limited strictly to notifying a driver that their prepaid toll balance is low or insufficient — never a request to click a link and pay a specific fine. The scam mirrors the same unpaid-toll smishing wave that has hit E-ZPass, SunPass, and dozens of other U.S. toll agencies, adapted here with AutoExpreso's own branding and a small, plausible-sounding dollar amount designed to make paying feel easier than questioning the message. DTOP's guidance is to ignore any such text rather than reply or click through, never enter payment or personal information into a link received by text, and check an account's real balance or any legitimate charge only through the official AutoExpreso app, autoexpreso.com, or its customer service line — not through any link a text message provides, regardless of how urgent or small the claimed toll appears.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Departamento de Transportación y Obras Públicas (DTOP)', 'Telemundo Puerto Rico', 'Metro Puerto Rico'],
+    sourceUrl: 'https://www.telemundopr.com/noticias/puerto-rico/dtop-alerta-sobre-fraude-con-mensajes-falsos-de-autoexpreso1/2702803/',
+    country: 'US',
+    state: 'PR',
+    isHistorical: true,
+    firstRecorded: '2025-03-26',
+});
