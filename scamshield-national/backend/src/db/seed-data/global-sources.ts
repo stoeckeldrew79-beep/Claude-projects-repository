@@ -719,4 +719,58 @@ export const SEED_GLOBAL_SOURCES: SeedGlobalSource[] = [
       "Morocco's national consumer-protection directorate runs the khidmat-almostahlik.ma complaint portal and coordinates provincial market-surveillance commissions, publishing yearly figures on complaints handled, points of sale inspected, and infractions recorded — nearly 2,600 complaints and 300,000 inspections reported for 2024.",
     data_type: 'public_stats',
   },
+  {
+    agency_name: 'Malta Competition and Consumer Affairs Authority (MCCAA)',
+    country: 'MT',
+    country_name: 'Malta',
+    url: 'https://mccaa.org.mt/',
+    description:
+      "Malta's national competition and consumer-affairs regulator handles consumer complaints through its Complaints and Conciliation Directorate and publishes an annual report covering complaint volumes, mediation outcomes, and market-surveillance activity.",
+    data_type: 'annual_report',
+  },
+  {
+    agency_name: 'Consumer Protection and Technical Regulatory Authority (TTJA)',
+    country: 'EE',
+    country_name: 'Estonia',
+    url: 'https://www.ttja.ee/en',
+    description:
+      "Estonia's consumer-protection authority operates the Consumer Disputes Committee, which resolves several thousand consumer-versus-trader disputes a year and publishes case-outcome statistics on its site rather than a single consolidated report.",
+    data_type: 'public_stats',
+  },
+  {
+    agency_name: 'State Consumer Rights Protection Authority (VVTAT)',
+    country: 'LT',
+    country_name: 'Lithuania',
+    url: 'https://vvtat.lrv.lt/en/',
+    description:
+      "Lithuania's national consumer-rights enforcement and market-surveillance body, and the country's main alternative dispute resolution authority, publishes complaint-volume and case-nature statistics on a six-month and annual basis.",
+    data_type: 'public_stats',
+  },
+  {
+    agency_name: 'Market Inspectorate of the Republic of Slovenia',
+    country: 'SI',
+    country_name: 'Slovenia',
+    url: 'https://www.gov.si/en/state-authorities/bodies-within-ministries/market-inspectorate/',
+    description:
+      "Slovenia's market-surveillance and consumer-protection inspectorate investigates unfair commercial practices and consumer complaints, and is legally required to publish an annual report of its inspection and enforcement activity each year.",
+    data_type: 'annual_report',
+  },
+  {
+    agency_name: 'National Consumer Commission (Comisión Nacional del Consumidor) — Ministry of Economy, Industry and Commerce',
+    country: 'CR',
+    country_name: 'Costa Rica',
+    url: 'https://www.consumo.go.cr/',
+    description:
+      "Costa Rica's consumer-protection commission and its Consumer Support Directorate, both under MEIC, adjudicate consumer complaints — chiefly warranty and contract-breach disputes — and the ministry publishes complaint-volume figures that have climbed from roughly 2,500 a year in 2010 to nearly 6,000 in recent years.",
+    data_type: 'public_stats',
+  },
+  {
+    agency_name: 'Consumer Defense Unit (Unidad Defensa del Consumidor) — Ministry of Economy and Finance',
+    country: 'UY',
+    country_name: 'Uruguay',
+    url: 'https://www.gub.uy/ministerio-economia-finanzas/unidad-defensa-consumidor',
+    description:
+      "Uruguay's national consumer-defense unit handles consumer complaints, sanctions non-compliant businesses, and publishes a yearly statistical report on inquiries and complaints handled — Informe estadístico — going back to 2020.",
+    data_type: 'annual_report',
+  },
 ];
