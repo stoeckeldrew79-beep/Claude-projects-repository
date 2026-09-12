@@ -7510,3 +7510,16 @@ UsAF.push({
     isHistorical: true,
     firstRecorded: '2024-07-12',
 });
+
+UsAF.push({
+    name: 'Fake ADA "Tester" Demand Letter Extortion Network',
+    slug: 'fake-ada-tester-demand-letter-extortion-network',
+    description: `An $80 million federal class-action lawsuit filed in April 2025 in the U.S. District Court in Portland accuses a network of lawyers of running a nationwide extortion scheme built around the Americans with Disabilities Act, using paid "fake testers" who never actually visited the businesses they claimed were inaccessible. According to the complaint, Memphis, Tennessee law firms Wade Law and Wampler, Carroll, Wilson & Sanderson, working with Portland attorney Jessica Lee Molligan and a network of lawyers across more than 15 states, ran an "error-riddled" electronic database to mass-produce thousands of cookie-cutter demand letters and file hundreds of lawsuits alleging disability-access violations between January 2022 and 2025, targeting more than 4,000 small businesses nationwide. Court filings describe how paid participants, including wheelchair user Connor Slevin, were given a list of businesses to visit, told not to bother checking for real accessibility problems because "that work had already been done," paid roughly $200 per stop to buy a small item and upload the receipt, and asked to sign over "blanket power of attorney" letting the lawyers negotiate settlements in their name; another participant in Oregon was paid $200 per business at a rate of about three a month, while a third man in St. Louis had his name attached to 45 separate ADA lawsuits. Many targeted businesses paid out tens of thousands of dollars rather than risk a costly lawsuit — one Beaverton, Oregon business owner paid $22,000 for parking lot improvements after receiving a demand letter. A legitimate ADA access complaint comes from someone who has actually visited the property and can describe specific barriers encountered, rather than a form letter generated from a database; a business that receives a demand letter threatening an ADA lawsuit should check court records for whether a case has actually been filed, confirm the sending attorney is licensed and in good standing through the relevant state bar's lookup tool, and consult its own attorney before paying anything toward a "settlement."`,
+    categorySlug: 'legal-debt-collection',
+    alertLevel: 'medium',
+    sources: ['Oregon Business'],
+    sourceUrl: 'https://oregonbusiness.com/portland-businesses-file-80m-class-action-complaint-over-blitz-of-bad-faith-ada-complaints/',
+    country: 'US',
+    isHistorical: true,
+    firstRecorded: '2022-01-01',
+});
