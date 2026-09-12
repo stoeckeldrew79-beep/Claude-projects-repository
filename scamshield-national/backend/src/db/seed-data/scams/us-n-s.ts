@@ -6131,6 +6131,45 @@ UsNS.push({
 });
 
 UsNS.push({
+    name: 'Ohio BMV Fake Parking Ticket Text Scam',
+    slug: 'ohio-bmv-fake-parking-ticket-text-scam',
+    description: `Starting in June 2025, Ohio drivers across the state began receiving unsolicited text messages, many sent from foreign phone numbers, claiming to be from the "Ohio Department of Vehicles" over an unpaid parking ticket and warning that the recipient's driver's license would be suspended unless the fine was paid immediately through a link in the message. The fabricated agency name is itself a giveaway, since Ohio's actual titling and licensing agency is the Bureau of Motor Vehicles (BMV), not a "Department of Vehicles," and some versions of the message asked recipients to scan a QR code instead of clicking a link. Ohio BMV Registrar Charlie Norman told residents in an official bulletin, "Do not click any links, do not scan the QR code, and immediately delete the text," adding plainly that "Ohio BMV will never send you a text demanding payment or requesting your personal information." The scam was reported by television stations across the state, including in Columbus, Cleveland, Toledo, and Dayton, indicating a coordinated mass-texting campaign rather than a series of isolated incidents, and Ohio's state auditor separately urged residents to stay vigilant as the BMV issued its warning. Anyone who receives a similar text is advised to delete it without clicking anything and to report it to the FTC at reportfraud.ftc.gov; a real BMV fine or suspension notice is never sent by unsolicited text with a payment link attached.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Ohio Bureau of Motor Vehicles', 'News 5 Cleveland (WEWS)'],
+    sourceUrl: 'https://www.news5cleveland.com/money/consumer/dont-waste-your-money/ohio-bmv-warns-of-text-message-scam',
+    country: 'US',
+    state: 'OH',
+    firstRecorded: '2025-06-11',
+});
+
+UsNS.push({
+    name: 'North Carolina Fake Tax Refund "Permanent Forfeiture" Text Scam',
+    slug: 'north-carolina-dor-tax-refund-permanent-forfeiture-text-scam',
+    description: `On February 26, 2026, the North Carolina Department of Revenue (NCDOR) issued a consumer alert warning that fraudulent text messages impersonating the agency were circulating statewide, referencing a state tax refund but conspicuously omitting basic verifying details a genuine notice would include, such as the specific tax year or refund amount at issue. The texts direct recipients to click an embedded link and "confirm" or enter payment and banking information, and threaten that failing to do so will result in the "permanent forfeiture" of the refund — invented, high-pressure language designed to override the recipient's normal skepticism about clicking a link in an unsolicited text. NCDOR stated flatly that "the NCDOR does not communicate about tax refunds through text messages," making any such text a scam regardless of how official it looks, and advised taxpayers to delete the message immediately without clicking any link, since doing so risks both identity theft and direct financial loss. Anyone wanting to check on a real North Carolina refund is directed to do so only through the department's own "Where's My Refund" tool at ncdor.gov, never through a link supplied in a text message.`,
+    categorySlug: 'tax-scams',
+    alertLevel: 'medium',
+    sources: ['North Carolina Department of Revenue'],
+    sourceUrl: 'https://www.wwaytv3.com/ncdor-warns-taxpayers-about-fraudulent-state-refund-text-message-scam/',
+    country: 'US',
+    state: 'NC',
+    firstRecorded: '2026-02-26',
+});
+
+UsNS.push({
+    name: 'North Carolina State Highway Patrol Fake Traffic Citation Text Scam',
+    slug: 'north-carolina-highway-patrol-fake-traffic-citation-text-scam',
+    description: `In May 2026, the North Carolina State Highway Patrol (NCSHP) publicly warned drivers about text messages impersonating the agency that claim the recipient committed an "alleged traffic violation" and direct them to resolve it by paying through an unofficial link. The messages are designed to look like they come directly from Highway Patrol, exploiting the fact that a real citation and a certified-mail court notice look nothing alike to most drivers, and pressure recipients into paying before they have time to check whether the citation is genuine. NCSHP stated directly that it "will never request payment by text message or direct you to unofficial links for citation resolutions," and urged anyone who receives a message like this "not to respond or click any links," deleting it instead. The scam is distinct from North Carolina's separate fake-DMV-notice and fake-toll-violation text campaigns in that it specifically impersonates the state's law-enforcement agency rather than the licensing agency or a tolling authority, but the underlying advice is the same: a real traffic citation in North Carolina is issued in person or by mail, never resolved by clicking a payment link sent by text.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['North Carolina State Highway Patrol'],
+    sourceUrl: 'https://www.wect.com/2026/05/07/north-carolina-highway-patrol-alerts-public-text-scam/',
+    country: 'US',
+    state: 'NC',
+    firstRecorded: '2026-05-07',
+});
+
+UsNS.push({
     name: 'New Jersey Deed Fraud and Seller-Impersonation Property Theft Scheme',
     slug: 'new-jersey-sci-deed-fraud-seller-impersonation-scheme',
     description: `The New Jersey State Commission of Investigation (SCI) delivered a report to Governor Mikie Sherrill and the Legislature on September 10, 2026 warning that deed fraud is a fast-growing, under-addressed threat to New Jersey property owners. In this scheme, a fraudster impersonates a property's real owner — often using a forged notarization, a stolen identity, or a remote closing conducted entirely by email and video call — to transfer title and record a new deed in a different name, frequently targeting vacant land, rental property, or homes belonging to an owner who lives out of state or has recently died, so the theft goes unnoticed until a tax bill, foreclosure notice, or buyer shows up. The FBI identified at least 135 reported New Jersey incidents between 2020 and early March 2026, the second-highest total of any state behind Florida, with cases concentrated in Sussex, Bergen, Cape May, and Ocean counties; the SCI, drawing on interviews with all 21 county clerks' and prosecutors' offices along with real estate agents, title professionals, and victims, said the true number is very likely higher than what gets formally reported. Because New Jersey's current recording system mostly just notifies an owner after a fraudulent deed has already been filed, the SCI report recommends stricter identity verification for real estate agents, notaries, and attorneys handling property transfers, a voluntary property title-freeze system modeled on credit freezes, county-level property-alert notifications, and expedited court procedures so victims can undo a fraudulent transfer before the property is resold or mortgaged out from under them. Property owners — especially those who own land or a home they don't visit or check on regularly — are advised to sign up for their county clerk's property-fraud alert service where one exists and to treat any unexpected notice, tax bill, or contact about their property as a reason to check the deed record directly with the county clerk's office.`,
