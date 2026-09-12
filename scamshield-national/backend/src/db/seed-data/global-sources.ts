@@ -395,4 +395,13 @@ export const SEED_GLOBAL_SOURCES: SeedGlobalSource[] = [
       "Sri Lanka's national cybersecurity incident-response agency, established in 2006. It accepts public reports of cybersecurity incidents through its own incident-reporting portal — routing financial-fraud and scam-specific reports there rather than through its general email — and its homepage tracks a running tally of reported incidents by category, including phishing, ransomware, and DDoS.",
     data_type: 'public_stats',
   },
+  {
+    agency_name: 'Cyber Security Authority (CSA) — CERT-GH',
+    country: 'GH',
+    country_name: 'Ghana',
+    url: 'https://www.csa.gov.gh/',
+    description:
+      "Ghana's cybersecurity regulator, established under the Cybersecurity Act, 2020. It runs CERT-GH and a 24-hour incident-reporting point of contact (call or text 292) for cybercrime, including online fraud. The CSA has no standing statistics page of its own; instead it periodically discloses national fraud-incident figures through press briefings and its National Cyber Security Awareness Month campaign — reporting, for example, that online fraud accounted for 47% of the 3,876 incidents it logged nationally in the first seven months of 2026.",
+    data_type: 'public_stats',
+  },
 ];
