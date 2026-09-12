@@ -3519,3 +3519,16 @@ UsTZ.push({
     state: 'WY',
     firstRecorded: '2025-06-11',
 });
+
+UsTZ.push({
+    name: 'Wisconsin "Dating or Defrauding" Relationship Investment Scam',
+    slug: 'wisconsin-dfi-dating-or-defrauding-relationship-investment-scam',
+    description: `The Wisconsin Department of Financial Institutions (DFI) issued a consumer alert on February 11, 2026, ahead of Valentine's Day, warning residents about relationship investment scams that the agency says cost Americans an estimated $10 billion a year nationwide. DFI joined a national "Dating Or Defrauding?" awareness campaign led by the Commodity Futures Trading Commission (CFTC) after scammers increasingly build fake romantic or friendly relationships through dating apps and social media, then pivot the conversation to a supposed expertise in cryptocurrency trading and an offer to help the victim invest, ultimately funneling money into fraudulent trading platforms the criminals control. "Scammers often exploit emotional vulnerability and the desire for companionship," said DFI Securities Administrator Leslie Van Buskirk. CFTC Chairman Michael Selig added that "foreign criminals are exploiting dating apps, social media, messaging platforms, and artificial intelligence to steal money from American citizens." DFI Securities Attorney Supervisor Robin Jacobs offered a simple gut-check: "Always remember to pause before committing to anything. If something seems too good to be true, it probably is." Warning signs highlighted by the alert include an online contact who avoids meeting in person, quickly pushes the conversation onto an encrypted messaging app, claims special skill in crypto trading, and offers to place trades or manage an investment on the victim's behalf. Wisconsin residents contacted this way are urged to independently verify any platform before sending money, never to invest based solely on a new online relationship's advice, and to report suspected cases to DFI's Division of Securities at (608) 266-2139 or DFIDLSecuritiesEnforcement@dfi.wisconsin.gov, as well as to the FBI's Internet Crime Complaint Center at ic3.gov.`,
+    categorySlug: 'romance-scams',
+    alertLevel: 'medium',
+    sources: ['Wisconsin Department of Financial Institutions (DFI)', 'Commodity Futures Trading Commission (CFTC)'],
+    sourceUrl: 'https://dfi.wi.gov/Pages/About/NewsEvents/NewsReleases/20260211RomanceInvestmentScams.aspx',
+    country: 'US',
+    state: 'WI',
+    firstRecorded: '2026-02-11',
+});
