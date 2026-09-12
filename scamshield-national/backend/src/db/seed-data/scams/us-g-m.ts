@@ -6868,3 +6868,31 @@ UsGM.push({
     country: 'US',
     state: 'GA',
 });
+
+UsGM.push({
+    name: 'Georgia Prison Arrest-Warrant Cash-Bond Scam Targeting Iowans',
+    slug: 'iowa-georgia-prison-arrest-warrant-cash-bond-scam',
+    description: `From March 2022 through April 2024, Russell Weatherspoon ran a nationwide arrest-warrant scam from inside a Georgia state prison, using a smartphone smuggled to him by drone drop into the prison yard to direct a crew of callers — Karl Dieudonne, Demonte Brazil, and Gregory Scorza — who spoofed law-enforcement phone numbers and invoked the names of real local officers and legal jargon to convince victims a warrant had been issued for their arrest, typically for missing jury duty or a court date, and that they would be taken into custody unless they immediately posted a cash "bond." Two of the scheme's Iowa victims were hit hard: Brazil and Scorza together collected $15,600 from a Johnson County resident, and Brazil separately extracted $5,000 from a Pottawattamie County woman by posing as law enforcement over the phone, with local charges in that case later dismissed once the U.S. Attorney's Office for the Southern District of Iowa took over federal prosecution of the wider conspiracy. Following the federal investigation, Weatherspoon was sentenced in April 2025 to 130 months in federal prison, Dieudonne to 36 months in May 2025, Brazil to 51 months in May 2025, and Scorza to 72 months in September 2025, with a fifth alleged participant still at large when the sentences were announced. No real court, sheriff's office, or law enforcement agency will ever call to demand an immediate cash payment to avoid arrest for a missed court date or jury summons; anyone who gets such a call should hang up and call the courthouse or sheriff's office back using a number they look up independently, never one the caller provides, before sending anything.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office, Southern District of Iowa", 'KCRG'],
+    sourceUrl: 'https://www.kcrg.com/2025/09/18/georgia-inmates-sentenced-running-scam-out-prison-targeting-iowans/',
+    country: 'US',
+    state: 'IA',
+    isHistorical: true,
+    firstRecorded: '2022-03-01',
+});
+
+UsGM.push({
+    name: 'Worcester Money-Laundering Ring Behind a $3 Million Romance Scam (Quaye and Sepetu)',
+    slug: 'massachusetts-worcester-quaye-sepetu-romance-scam-laundering',
+    description: `Between 2014 and 2019, Maryann Schirmer was courted online by a profile calling itself "Shawn Walker" — in reality a persona built by Samuel Ansah, who cultivated the relationship over years before inventing a string of investment opportunities and personal financial emergencies to keep her sending money, eventually more than $3 million in total. Nafis Quaye and Sunna Sepetu, a Worcester, Massachusetts couple, ran the laundering side of the operation: court records show Quaye directed friends and family to open shell-company bank accounts in their own names, including one called "Logitech" that alone took in $827,000 of Schirmer's money, then withdrew roughly $246,000 to $249,000 in cash across various accounts, while Sepetu personally withdrew more than $62,000 and spent about $32,000 of the stolen funds. A federal jury in Concord, New Hampshire convicted both of conspiracy to commit money laundering after an eight-day trial; Quaye was sentenced to 60 months in federal prison and ordered to pay $3,287,220 in restitution, while Sepetu received 12 months and one day — well below the federal guidelines range of 63 to 78 months — and was ordered to pay $921,020. Both convictions, and Sepetu's below-guidelines sentence, were affirmed on appeal by the U.S. Court of Appeals for the First Circuit in May 2026. As in most romance-scam laundering operations, the person who actually spoke with the victim was never the one who received her wire transfers, so anyone asked by an online partner to send money to a business or person they've never independently verified — especially one with a generic name unconnected to anything about the relationship — should treat that mismatch as a reason to stop and confirm the recipient's real identity before sending anything.`,
+    categorySlug: 'romance-scams',
+    alertLevel: 'medium',
+    sources: ['U.S. Court of Appeals for the First Circuit', "U.S. Attorney's Office, District of New Hampshire"],
+    sourceUrl: 'https://caselaw.findlaw.com/court/us-1st-circuit/27551.html',
+    country: 'US',
+    state: 'MA',
+    isHistorical: true,
+    firstRecorded: '2014-01-01',
+});
