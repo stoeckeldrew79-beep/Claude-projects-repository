@@ -6073,3 +6073,24 @@ Jackson's case is a reminder that an affinity-adjacent pitch built around a real
     sourceUrl: 'https://oag.maryland.gov/News/pages/Attorney-General-Brown-Secures-$562,000-Settlement-for-Investors-Defrauded-in-Fake-Affordable-Housing-Scheme--.aspx',
   },
 );
+
+// No rights-cleared photo of Desselle has surfaced, so sourceUrl links to
+// the HHS-OIG summary of the DOJ press release announcing the sentence.
+NotoriousNS.push(
+  {
+    title: 'Robert Desselle and the Grocery-Store Pipeline Behind an $11.5 Million Genetic Testing Kickback Scheme',
+    slug: 'robert-desselle-genetic-testing-kickback-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    body: `Robert Desselle was not a doctor, a lab technician, or anyone else with a medical credential — he was a marketer, and according to federal prosecutors, that was exactly the role his part of a Medicare genetic-testing fraud scheme required. Desselle paid other marketers, none of them medical professionals either, to approach Medicare beneficiaries in grocery store parking lots, pharmacies, and car dealerships and talk them into taking genetic tests using deceptive pitches about what the tests could reveal and who was paying for them.
+
+Getting a beneficiary to agree to a cheek swab was only half of what the scheme needed. Medicare claims for genetic testing require a doctor's order certifying the test is medically necessary, so prosecutors say Desselle bribed a telemedicine company to supply exactly that: signed physician orders for beneficiaries the ordering doctors had never examined and, in many cases, never spoken to. With a signed order attached, the completed test kits went out to clinical laboratories, which paid Desselle and his co-conspirators kickbacks for every referral that came through his pipeline.
+
+From June 2018 to December 2020, according to court documents, Desselle and his co-conspirators caused those laboratories to bill Medicare $11.5 million for the resulting tests. Medicare actually paid out $4.5 million on those claims, and Desselle personally earned more than $2.1 million from the scheme.
+
+Desselle, 47, pleaded guilty in February 2025 to conspiracy to defraud the United States and to pay and receive health care kickbacks. On September 19, 2025, he was sentenced in federal court in Tampa, Florida, to 57 months in prison and ordered to pay $4.5 million in restitution — matching what Medicare actually lost — along with forfeiture of the more than $2.1 million prosecutors say he personally kept. The Department of Health and Human Services' Office of Inspector General investigated the case, which was prosecuted as part of the Justice Department's Health Care Fraud Strike Force Program, an initiative that has charged more than 5,800 defendants nationwide since 2007 in schemes that have collectively billed federal health programs and private insurers more than $30 billion.
+
+Desselle's role shows how little of a genetic-testing fraud pipeline actually needs to touch a real medical setting to move real money: a recruiter working a parking lot, a bribed telemedicine service willing to sign orders sight unseen, and a lab willing to bill Medicare for whatever paperwork shows up at its door. Nobody in that chain needed to determine whether a single beneficiary's cancer risk actually called for the test — the kickback only required that the paperwork be complete.`,
+    sourceUrl: 'https://oig.hhs.gov/fraud/enforcement/marketer-sentenced-for-115m-genetic-testing-fraud-and-kickback-scheme',
+  },
+);
