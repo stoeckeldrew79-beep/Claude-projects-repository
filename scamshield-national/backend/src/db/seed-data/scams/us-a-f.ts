@@ -7544,3 +7544,16 @@ UsAF.push({
     isHistorical: true,
     firstRecorded: '2022-01-01',
 });
+
+UsAF.push({
+    name: 'Colorado DMV Unpaid Ticket Text Scam',
+    slug: 'colorado-dmv-unpaid-ticket-text-scam',
+    description: `The Colorado Division of Motor Vehicles issued an urgent warning on June 4, 2025 after a wave of fraudulent text messages and emails swept the state impersonating the DMV, falsely claiming the recipient had an unpaid traffic ticket or vehicle violation and threatening consequences the agency has no authority to impose on its own: criminal prosecution, suspension of vehicle registration, and revocation of driving privileges. The messages include a link to a fake payment page built to harvest personal and financial information, with the invented legal threats designed to pressure recipients into clicking before they think to verify the claim independently. The DMV stressed it does not initiate contact this way to demand payment or threaten legal consequences by text or email, but the scam proved durable — it resurfaced strongly enough that Colorado news outlets and local agencies issued renewed warnings about the same text wave into 2026. Coloradans who receive one of these messages are advised not to click any link, not to reply (which only confirms to the scammer that the number is active), and not to share personal or financial information — instead, verify any supposed ticket or violation directly by calling the DMV at (303) 205-5600 or visiting dmv.colorado.gov, and report the message to the FBI's Internet Crime Complaint Center at ic3.gov or the FTC at reportfraud.ftc.gov.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Colorado Department of Revenue – Division of Motor Vehicles', 'CBS Colorado (KCNC)'],
+    sourceUrl: 'https://dmv.colorado.gov/press-release/colorado-dmv-issues-urgent-warning-on-new-text-scam-threatening-prosecution-and',
+    country: 'US',
+    state: 'CO',
+    firstRecorded: '2025-06-04',
+});

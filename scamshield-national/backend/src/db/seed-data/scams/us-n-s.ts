@@ -6027,3 +6027,27 @@ UsNS.push({
     state: 'OR',
     firstRecorded: '2024-10-30',
 });
+
+UsNS.push({
+    name: 'New Mexico Medical Board Cloned Phone Number and Fake Letter Scam',
+    slug: 'new-mexico-medical-board-cloned-phone-number-letter-scam',
+    description: `The New Mexico Medical Board (NMMB) has warned physicians, employers, and healthcare organizations about scammers who have cloned the Board's real telephone number, 505-476-7220, so that caller ID displays a legitimate NMMB line even though the call is fraudulent. In these calls, men have contacted physicians' employers asking for information about specific doctors — the kind of inquiry an employer might otherwise treat as routine precisely because the number on the screen matches the Board's own. A related scheme uses physical letters formatted with what appears to be a replica of the Board's official logo, sent directly to practitioners requesting patient information. The Board has stressed it will not seek physician or patient information this way, and instructs anyone who receives such a call or letter to contact the Board's own offices directly — using a number looked up independently, never one provided by the caller or printed on the suspicious letter — before releasing any information about a physician or a patient.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['New Mexico Medical Board'],
+    sourceUrl: 'https://www.nmmb.state.nm.us/urgent-scam-warning/',
+    country: 'US',
+    state: 'NM',
+});
+
+UsNS.push({
+    name: 'South Carolina Board of Pharmacy Fake Investigator Extortion Call Scam',
+    slug: 'south-carolina-board-of-pharmacy-fake-investigator-scam',
+    description: `The South Carolina Board of Pharmacy has warned licensed pharmacists about scam artists posing as Board staff or investigators who call claiming the pharmacist is under investigation and demanding immediate payment. The callers spoof caller ID so the call appears to come from the Board's real number, (803) 896-4500, lending false credibility to threats meant to pressure a pharmacist into paying on the spot rather than checking with the Board directly. The Board states plainly that it will never call a pharmacist to demand money or any form of payment related to an investigation, and separately warns that some callers instead claim to be agents of the Drug Enforcement Administration. Pharmacists who receive one of these calls are advised to refuse the demand for payment, never disclose personal information such as a Social Security number, date of birth, or credit card number, and report the call — to the Board itself at 1-803-896-4700 or contact.pharmacy@llr.sc.gov if the caller claimed to be Board staff, to the DEA's Internet Crime Complaint Center reporting form if the caller claimed to be a DEA agent, or to the FCC's Consumer Complaint form if the spoofed number displayed was the Board's own.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['South Carolina Board of Pharmacy (LLR)'],
+    sourceUrl: 'https://llr.sc.gov/bop/News/2025/Fake%20Pharmacy%20Board%20Representative%20Scam.pdf',
+    country: 'US',
+    state: 'SC',
+});
