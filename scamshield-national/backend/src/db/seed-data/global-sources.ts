@@ -1079,4 +1079,49 @@ export const SEED_GLOBAL_SOURCES: SeedGlobalSource[] = [
       "The Bahamas' telecommunications and electricity regulator enforces Consumer Protection Regulations covering complaint handling by licensed operators and publishes its annual report and sector publications, including consumer-complaint compliance data, on its website.",
     data_type: 'annual_report',
   },
+  {
+    agency_name: 'Financial Intelligence Unit Belize (FIU-Belize)',
+    country: 'BZ',
+    country_name: 'Belize',
+    url: 'https://fiubelize.org/',
+    description:
+      "Belize's central financial-crime authority accepts anonymous public reports of fraud and other financial crime through a secure voluntary-disclosure web form, issues scam-alert bulletins, and publishes annual reports on its enforcement and analysis activity.",
+    data_type: 'annual_report',
+  },
+  {
+    agency_name: 'Financial Services Commission (FSC)',
+    country: 'BB',
+    country_name: 'Barbados',
+    url: 'https://www.fsc.gov.bb/',
+    description:
+      "Barbados' non-bank financial-sector regulator accepts consumer complaints, tips, and referrals about regulated entities through its Tips, Complaints & Referrals portal and publishes an annual report covering its supervisory and complaint-handling activity. (Note: the country's other consumer authority, the Fair Trading Commission at ftc.gov.bb, is currently offline.)",
+    data_type: 'annual_report',
+  },
+  {
+    agency_name: 'Central Bank of Samoa',
+    country: 'WS',
+    country_name: 'Samoa',
+    url: 'https://cbs.gov.ws/news/central-bank-of-samoa-warns-public-of-rising-scams',
+    description:
+      "Samoa's central bank runs a public scams page and issues press releases disclosing aggregate figures from financial institutions' suspicious-activity reports — e.g. that 70% of all such reports in FY2024/25, and 60% so far in FY2025/26, were scam-related.",
+    data_type: 'public_stats',
+  },
+  {
+    agency_name: 'National Agency for Information and Communication Technologies (ANTIC)',
+    country: 'CM',
+    country_name: 'Cameroon',
+    url: 'https://www.antic.cm/index.php/fr/cybersecurite/cybercriminalite/283-la-cybercriminalite.html',
+    description:
+      "Cameroon's national cybersecurity agency monitors online fraud, phishing, and impersonation targeting citizens and institutions, and discloses yearly figures through its cybercrime bilan and security-alert bulletins — including over 32,500 judicial requisitions and thousands of fraudulent-account takedowns reported for 2025.",
+    data_type: 'public_stats',
+  },
+  {
+    agency_name: 'Centrale Bank van Suriname (Central Bank of Suriname)',
+    country: 'SR',
+    country_name: 'Suriname',
+    url: 'https://www.cbvs.sr/',
+    description:
+      "Suriname's central bank periodically issues public press releases (persberichten) warning citizens about unlicensed investment offers, Ponzi and pyramid schemes, and fraudulent use of the Bank's own name and logo.",
+    data_type: 'public_stats',
+  },
 ];
