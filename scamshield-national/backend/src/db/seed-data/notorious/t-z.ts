@@ -2851,3 +2851,22 @@ Torre's case is a reminder that the professional relationship a financial advise
     sourceUrl: 'https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-005mr-former-financial-advisor-anthony-torre-sentenced-to-six-years-imprisonment-for-fraud-and-stealing/',
   },
 );
+
+NotoriousTZ.push(
+  {
+    title: 'Craig Warriner and the BHI Trust: South Africa\'s "Bernie Madoff" and His Billion-Rand Ponzi Scheme',
+    slug: 'craig-warriner-bhi-trust-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'international'],
+    body: `Craig Warriner was a co-trustee of the BHI Trust, a South African investment vehicle that told investors their money was being traded in JSE-listed securities and money-market instruments — ordinary, verifiable asset classes rather than anything exotic. Running for well over a decade, BHI attracted more than 200 investors, many of them pensioners who put in their life savings on the strength of Warriner's steady, above-market returns and the trust's low-key, unglamorous investment pitch.
+
+The trading was mostly fiction. A forensic investigation later found that Warriner had collected roughly R2.9 billion in investments since January 2020 alone, but that less than a fifth of that money was ever actually deployed into real JSE securities or money-market positions. The rest was used the way every Ponzi scheme uses new money: to pay "returns" to investors who wanted to withdraw, manufacturing years of consistent, believable statements while the trust's real trading book never came close to justifying them.
+
+The scheme collapsed from the inside rather than being caught from the outside. In mid-October 2023, Warriner turned himself in to South Africa's Financial Sector Conduct Authority (FSCA) and police, confessing that he had managed the trust "irresponsibly." BHI Trust was placed into liquidation, and as liquidators worked through the records, confirmed investor losses reached at least R1.6 billion — a figure liquidators warned would likely keep climbing as more claims were assessed, with total claims against the trust later reported well above R2.9 billion.
+
+Warriner was charged with 206 counts of fraud and one count of contravening the Financial Advisory and Intermediary Services Act for running an investment scheme without a licence. He entered a plea and sentence agreement with the state, and on May 27, 2024, the Palm Ridge Specialised Commercial Crimes Court in Johannesburg sentenced him to an effective 25 years in prison — five years longer than the 20-year term both the prosecution and defence had jointly proposed, with the court finding the scale and duration of the betrayal warranted the harsher sentence. South African media dubbed him "the Madoff of South Africa" in its aftermath.
+
+The BHI Trust case is a reminder that a Ponzi scheme doesn't need an offshore address or a complicated financial instrument to survive for more than a decade — it needs only enough real activity to make the paperwork look plausible. BHI genuinely traded JSE shares and money-market instruments; it simply traded a small fraction of what it claimed to, and for years that fraction was enough to keep the returns flowing and the questions from being asked.`,
+    sourceUrl: 'https://mg.co.za/news/2024-05-28-bhi-trust-convicted-fraudster-craig-warriner-sentenced-to-25-years/',
+  },
+);
