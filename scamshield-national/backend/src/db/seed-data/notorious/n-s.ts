@@ -6252,3 +6252,42 @@ Whatever the outcome for Silbert individually, the Genesis collapse shows how an
     sourceUrl: 'https://ag.ny.gov/press-release/2023/attorney-general-james-sues-cryptocurrency-companies-gemini-genesis-and-dcg',
   },
 );
+
+// Smethurst was charged and convicted in Germany; the sourceUrl below is
+// news reporting (REFIRE) rather than a court filing, since German court
+// records aren't published online the way U.S. federal filings are.
+NotoriousNS.push(
+  {
+    title: 'Charles Smethurst and the Dolphin Trust / German Property Group Scheme That Took in $1.5 Billion',
+    slug: 'charles-smethurst-dolphin-trust-german-property-group-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    body: `Charles Smethurst, a British-German businessman, founded Dolphin Capital GmbH in Hanover, Germany, in 2008, renaming it Dolphin Trust in 2014 and German Property Group (GPG) in 2019. The pitch was built around a real and appealing niche: buying rundown but architecturally protected "listed" buildings across Germany, renovating them into apartments, and passing the proceeds — plus a valuable tax break Germany offers for restoring registered historic properties — on to investors who put up the capital. Marketed heavily to retirees and pension savers in the UK and Ireland through independent financial advisers, and later to investors across Russia, South Korea, and France, the scheme promised fixed returns of up to 15% and eventually drew in an estimated €1.3 to €1.5 billion (roughly $1.4 to $1.6 billion) from as many as 25,000 investors across some 75 separate property-development entities.
+
+According to Germany's insolvency administrator and the Hanover public prosecutor's office, the business stopped functioning as an actual property developer well before it collapsed. By around 2018, new money coming in from investors was being used to plug funding gaps in older, already-troubled projects rather than to complete the renovations those investors had actually paid for — the textbook structure of a Ponzi scheme, run underneath what looked, from the outside, like an ordinary real-estate development company. Of the 75 planned projects, only about 20 were ever completed and sold. When GPG finally filed for insolvency in July 2020, administrators found that somewhere between 150 and 200 of its project entities had stopped filing financial reports altogether, with at least 700 sets of annual accounts missing, and an estimated €800 million of investor money unaccounted for.
+
+In October 2024, the Hanover public prosecutor's office charged Smethurst with 27 counts of commercial fraud tied to more than €56 million in specific investor losses, and the case was tried before the Hildesheim Regional Court. Rather than contest all 27 counts, Smethurst pleaded guilty in a plea agreement covering four of them, including defrauding the French investment fund Horizon AM of €56 million. In June 2025, the court sentenced him to six years and eleven months in prison — but declined to order restitution to the victims named in those counts, ruling that prosecutors had not proven Smethurst personally diverted the money for his own use, as opposed to it having been lost within the collapsing structure of the business itself. It was not Smethurst's first fraud conviction: he had already served a prison term for fraud between 2000 and 2003, years before he founded Dolphin Capital.
+
+Smethurst's sentence resolved only a fraction of the case — the €56 million in the four counts he admitted to is a small slice of the roughly €800 million investigators say remains unaccounted for, and thousands of the scheme's investors, including retirees who put pension savings into what they believed was a conservative, asset-backed German property investment, are still pursuing separate civil recovery actions through liquidators in Ireland and the UK years after the collapse. The case is a reminder that a Ponzi scheme doesn't require a fictitious product any more than P&R's shipping containers or Bre-X's gold did: Dolphin Trust really did renovate some historic German buildings, and that genuine activity, visible to any investor who wanted proof the company was real, provided cover for a much larger shortfall building up behind the scenes.`,
+    sourceUrl: 'https://www.refire-online.com/investment/restitution-denied-to-victims-as-smethurst-faces-jail-for-gpg-fraud/',
+  },
+);
+
+NotoriousNS.push(
+  {
+    title: 'Adam Rundle, Robinvest, and the Fake Financial Advisor Who Stole $1.5 Million With a Borrowed Identity',
+    slug: 'adam-rundle-robinvest-safe-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    body: `Note: this case is a civil complaint the SEC filed on September 10, 2026. Adam Rundle has not been criminally charged or convicted, and the allegations below reflect the SEC's complaint, not a court finding of liability.
+
+According to the Securities and Exchange Commission, Adam B. Rundle, then a Maryland resident, approached a prospective investor while impersonating a licensed securities professional — using another real person's name and credentials rather than his own — to sell what he described as a safe, guaranteed way to grow their money. The security he pitched was a Simple Agreement for Future Equity, or SAFE, a form of contract startups commonly use to raise early-stage funding in exchange for a future ownership stake, issued through Robinvest, LLC, a company Rundle created and personally controlled. Rundle told the investor the SAFE guaranteed the return of their full principal plus 4% compounded annual interest — a promise dressed in the language of a routine, low-risk fixed-income product.
+
+The SEC's complaint alleges that between November 2021 and January 2024, the investor sent Rundle roughly $1.5 million believing it was being invested through Robinvest on the terms Rundle had described, while trusting the credentials of the securities professional Rundle claimed to be. None of it went toward any legitimate investment on the investor's behalf. Instead, according to the complaint, Rundle misappropriated the entire sum and used it to buy cryptocurrency for himself — a bet that did not pay off, and by the time the SEC filed suit, the funds were gone.
+
+The SEC filed its civil complaint in the U.S. District Court for the District of Maryland on September 10, 2026, charging Rundle with violating the antifraud provisions of Section 17(a) of the Securities Act of 1933 and Section 10(b) of the Securities Exchange Act of 1934 and Rule 10b-5 thereunder. The Commission is seeking a permanent injunction, disgorgement of the misappropriated funds with prejudgment interest, and civil monetary penalties; as of this writing, the case remains in active litigation with no judgment yet entered.
+
+Rundle's case shows how little machinery an offering fraud actually needs when the victim never has an independent way to check who they're really dealing with: a borrowed name and credentials stood in for the due diligence the investor might otherwise have done, an unremarkable-sounding acronym (SAFE) and a modest, believable interest rate stood in for a real investment structure, and a single wire transfer was enough to turn $1.5 million into a bet on cryptocurrency the investor never agreed to and never knew about until it was already lost.`,
+    sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26637',
+  },
+);
