@@ -7644,3 +7644,16 @@ UsAF.push({
     country: 'US',
     state: 'CT',
 });
+
+UsAF.push({
+    name: 'Alaska Housing Finance Corporation Fake Typhoon Halong Disaster-Relief Scam',
+    slug: 'alaska-ahfc-typhoon-halong-fake-disaster-relief-scam',
+    description: `After the remnants of Typhoon Halong caused catastrophic flooding across Western Alaska in October 2025, the Alaska Housing Finance Corporation (AHFC) warned survivors on November 22, 2025 that scammers were creating fake AHFC social media accounts and look-alike assistance pages, then privately messaging storm survivors to say they had been "selected" for disaster "grant money," "special payouts," or "housing funds." The scammers, sometimes using stolen AHFC logos or staff photos, direct survivors to unofficial websites or forms and ask for an upfront fee along with bank account numbers, Social Security numbers, and other personal information before any funds are supposedly released. AHFC CEO Bryan Butcher said "we know survivors are vulnerable during recovery, and scammers are taking advantage of that urgency," stressing that "no one should face deception during a time of loss," and the corporation emphasized that it never uses private social media messages or a third-party individual to offer disaster relief or emergency funds. FEMA separately warned that other Halong-related scams were circulating, including callers and door-to-door visitors falsely posing as FEMA inspectors or insurance adjusters, and reminded survivors that genuine FEMA employees always carry a photo ID badge and never charge a fee for an inspection or any other disaster assistance. Typhoon Halong survivors seeking real help are directed to AlaskaHousingDisasterRelief.us, FEMA's DisasterAssistance.gov, or the State of Alaska's Individual Assistance Program at ready.alaska.gov, and anyone contacted by a suspected impostor can report it to AHFC at newsdesk@ahfc.us or the U.S. Department of Justice's Disaster Fraud Hotline at 866-720-5721.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Alaska Housing Finance Corporation', 'Alaska Public Media / FEMA'],
+    sourceUrl: 'https://www.ahfc.us/blog/posts/beware-social-media-scams-and-fake-ahfc-accounts',
+    country: 'US',
+    state: 'AK',
+    firstRecorded: '2025-11-22',
+});
