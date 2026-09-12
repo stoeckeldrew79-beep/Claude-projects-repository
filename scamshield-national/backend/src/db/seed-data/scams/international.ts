@@ -15365,3 +15365,55 @@ International.push(
     sourceUrl: 'https://en.sedaily.com/finance/2026/08/09/buy-gift-cards-for-a-loan-new-voice-phishing-scam-spreads',
   },
 );
+
+International.push(
+  {
+    name: 'SIM-Swap Bank Account Takeover Fraud (Nigeria)',
+    slug: 'nigeria-sim-swap-bank-account-takeover-fraud',
+    description: `Fraudsters use forged identification, bribed telecom outlet staff, or social-engineered "customer care" calls to convince a mobile network to reissue a victim's phone number onto a SIM card the fraudster controls, often after first phishing the victim's bank login details or Bank Verification Number (BVN). Once the number is swapped, the fraudster receives the one-time passcodes and transaction alerts a bank sends to "verify" a transfer, letting them clean out the victim's account while the victim's own phone silently loses service. The Nigerian Communications Commission (NCC) has stated that Nigerians lost an estimated ₦12.5 billion to telecom-related financial crime, much of it via recycled, churned, and swapped SIM numbers, between 2019 and 2023 alone, and the problem has kept growing as banking and telecom identity systems remained disconnected from each other. In response, the Central Bank of Nigeria and the NCC signed a memorandum of understanding in Abuja in April 2026 establishing the Telecoms Identity Risk Management System (TIRMS), a shared platform letting banks check, at the moment of a transaction, whether the phone number involved has recently been swapped, reassigned, flagged as suspicious, or gone inactive before authorizing a payment. The NCC has also proposed requiring telecom operators to notify a subscriber at least 14 days before their line is churned to a new SIM and to submit churn data within seven days, giving banks and customers more warning before a hijacked number can be used to drain an account. Regulators advise Nigerians to set a unique transaction PIN with their bank rather than relying solely on SMS one-time passcodes, to contact their bank and network operator immediately if their phone unexpectedly loses signal for no clear reason, and to never share a BVN, NIN, or one-time passcode with anyone claiming to be calling from a bank or telecom provider.`,
+    categorySlug: 'account-takeover',
+    country: 'NG',
+    alertLevel: 'critical',
+    sources: ['Central Bank of Nigeria (CBN)', 'Nigerian Communications Commission (NCC)', 'Vanguard (Nigeria)'],
+    sourceUrl: 'https://www.vanguardngr.com/2026/03/ncc-unveils-telecoms-identity-risk-platform-to-tackle-fraud-boost-digital-trust/',
+  },
+);
+
+International.push(
+  {
+    name: 'Fake "Credit Alert" / Flash-Fund App Payment Scam',
+    slug: 'nigeria-fake-credit-alert-flash-fund-scam',
+    description: `A buyer at a market stall, POS (point-of-sale) cash agent, or online seller is shown what looks like a legitimate bank credit-alert SMS, a screenshot of a completed transfer, or a phone screen mid-"transaction" claiming a payment has just landed — timed for a busy moment so the trader hands over cash, goods, or a POS withdrawal before checking their own account. In reality no money has moved: fraudsters use manipulated screenshots, doctored transaction receipts, or purpose-built "flash fund" and "flash alert" apps that generate a fake but convincing-looking bank notification on the fraudster's own phone, complete with a real-looking sender name, account number, amount, and reference code. The Central Bank of Nigeria has repeatedly warned that a text message, screenshot, email, WhatsApp notification, or receipt shown by a customer is never proof that a transfer has actually cleared, and that merchants — especially POS operators and traders who handle frequent transfers and are often targeted precisely because a fraudulent handover is discovered only after the customer has already left with the goods or cash — should log into their own banking app or check their settlement report directly rather than trusting anything displayed on the payer's device. Nigerian banks including GTBank, Access Bank, and Zenith Bank have issued near-identical customer notices reinforcing the same rule after the tactic spread widely on social media and among informal traders. The CBN's core advice is unchanged: never release goods, cash, or services until the money is confirmed present in your own account balance or transaction history, verified through your own secure banking channel rather than any message, app screen, or receipt the other party shows you.`,
+    categorySlug: 'fake-check-overpayment',
+    country: 'NG',
+    alertLevel: 'high',
+    sources: ['Central Bank of Nigeria (CBN)', 'Legit.ng', 'Pulse Nigeria'],
+    sourceUrl: 'https://www.legit.ng/business-economy/money/1723846-fake-bank-alerts-how-nigerians-detect-avoid-payment-scams-2026/',
+  },
+);
+
+International.push(
+  {
+    name: 'Predatory Loan-App Contact-List Blackmail and Shaming',
+    slug: 'nigeria-predatory-loan-app-blackmail-scam',
+    description: `Dozens of digital lending apps marketed to Nigerians as fast, no-collateral loans require, as a condition of approval, blanket access to the borrower's phone contacts, photos, and gallery — access the apps then use not to assess creditworthiness but to punish even minor or disputed late payments. When a repayment is missed, operators have sent mass text messages, WhatsApp broadcasts, and calls to the borrower's family, employer, and entire contact list, sometimes altering a borrower's photo into a humiliating "wanted" or "debtor" flyer and threatening to send it to everyone the victim knows unless they pay immediately, regardless of the amount actually owed. To address the practice, Nigeria's Federal Competition and Consumer Protection Commission (FCCPC) introduced the Digital, Electronic, Online and Non-Traditional Lending (DEON) Regulations, which took effect July 21, 2025 and flatly ban lenders from accessing a borrower's contact list or using contacts, photos, or other personal data for debt recovery, alongside mandatory FCCPC registration and disclosure of all fees and interest rates before disbursement. After a January 5, 2026 compliance deadline lapsed, the FCCPC announced it had blacklisted 45 loan apps — including WeCredit, Hen Credit Loan App, and Cash Door App — for continuing to operate without registering or complying with the new rules, warning that non-compliant lenders face delisting from app stores, fines of up to ₦100 million, and possible prosecution, while a further 103 apps run by unregistered companies were placed on a watchlist for the same treatment. The FCCPC urges anyone contacted this way to stop engaging with the lender directly, save evidence of the threats, and report the app to the Commission, since accessing a borrower's contacts and using them to shame or threaten that borrower is now itself a regulatory violation regardless of whether the underlying debt is genuine.`,
+    categorySlug: 'legal-debt-collection',
+    country: 'NG',
+    alertLevel: 'high',
+    sources: ['Federal Competition and Consumer Protection Commission (FCCPC)', 'Legit.ng'],
+    sourceUrl: 'https://www.legit.ng/nigeria/1691590-federal-government-updates-nigerians-list-46-illegal-loan-apps-2026/',
+  },
+);
+
+International.push(
+  {
+    name: 'Fake Overseas "IT Job" Trafficking Into Southeast Asian Scam Compounds',
+    slug: 'nigeria-overseas-job-scam-southeast-asia-trafficking',
+    description: `Recruiters posing as legitimate employers or educational sponsors approach young, tech-literate Nigerian graduates on social media with offers of well-paid IT support, digital marketing, customer service, or cryptocurrency-trading jobs in Thailand — sometimes framed as scholarships — specifically targeting applicants for their intelligence, computer skills, and a "clean" background, with flights and visas arranged by the recruiter. On arrival, victims' passports are confiscated and they are moved across the border into Myanmar, Laos, or Cambodia and held in guarded compounds, where they are trained in scripts and coached to run romance scams, cryptocurrency "pig-butchering" fraud, and fake investment schemes against victims in the United States, United Kingdom, Canada, and elsewhere in Africa, with some victims also pressed into service as translators once a language was learned. Nigeria's National Agency for the Prohibition of Trafficking in Persons (NAPTIP) said victims described being housed under armed guard, beaten or otherwise tortured for failing to meet fraud quotas, and coerced into further cybercrime rather than paid the salary they were promised. Working with the British High Commission in Abuja and the Nigerian Embassy in Bangkok, NAPTIP announced in February 2026 that it had rescued and repatriated 23 trafficked Nigerians from a cyber-scam syndicate straddling Thailand and Myanmar, part of a wider count of 156 Nigerian trafficking victims the agency said it rescued between January and July 2026 alone; NAPTIP has separately warned that human trafficking into the region's "digital fraud factories" is displacing older forms of trafficking as recruiters exploit graduate unemployment and the promise of foreign IT work. The agency's advice mirrors that given by other countries whose citizens have been targeted the same way: treat any overseas job offer that requires surrendering your passport on arrival, cannot be verified with a real registered employer, or is vague about the actual work involved as a probable trafficking pipeline, and verify any recruiter or "study abroad" agency directly with NAPTIP before paying any fee or traveling.`,
+    categorySlug: 'employment-scams',
+    country: 'NG',
+    alertLevel: 'critical',
+    sources: ['National Agency for the Prohibition of Trafficking in Persons (NAPTIP)', 'Vanguard (Nigeria)', 'Channels Television'],
+    sourceUrl: 'https://www.channelstv.com/2026/02/24/naptip-facilitates-safe-rescue-return-of-23-nigerians-from-southeast-asia/',
+  },
+);
