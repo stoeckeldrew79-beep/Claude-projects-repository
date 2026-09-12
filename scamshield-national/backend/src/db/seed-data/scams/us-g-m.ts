@@ -6453,3 +6453,41 @@ UsGM.push({
     country: 'US',
     state: 'KS',
 });
+
+UsGM.push({
+    name: 'Georgia Board of Dentistry License-Suspension Impersonation Scam',
+    slug: 'georgia-dental-board-license-suspension-impersonation-scam',
+    description: `The Georgia Board of Dentistry warned licensees in March 2026 of a wave of fraudulent calls, emails, and letters in which scammers impersonate Board staff, law enforcement, or federal agents to extort dentists and dental hygienists. The callers spoof caller ID to display "Georgia Board of Dentistry" or another government agency, then claim the licensee is under investigation for invented infractions such as Medicaid fraud, over-prescribing opioids, or continuing-education violations, backing the claim with a fabricated case number or a forged document to look legitimate. Some callers have specifically spoofed the Board's own phone number, (404) 651-8000, while posing as its Office of Investigations, and demand a DEA registration number, Social Security number, or banking information, or immediate payment to avoid arrest or license suspension. The Board states flatly that it "will never ask for personal or financial information by phone," does not threaten arrest or immediate license suspension over a call, and that all genuine Board communication arrives in writing and can be independently verified. Licensees who receive a suspicious call are told not to provide any personal or license information over the phone or by email, to hang up, and to verify the contact directly with the Board before responding, and to report the attempt to the FTC, the FBI's Internet Crime Complaint Center, the DEA's Diversion Control Division, or the Georgia Board of Dentistry itself.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Georgia Board of Dentistry', 'Georgia Dental Association'],
+    sourceUrl: 'https://gbd.georgia.gov/press-releases/2026-03-04/scam-alert-dentists-and-dental-hygienists',
+    country: 'US',
+    state: 'GA',
+    firstRecorded: '2026-03-04',
+});
+
+UsGM.push({
+    name: 'Missouri Courts Fake Traffic Ticket and Toll Violation Text Scam',
+    slug: 'missouri-courts-fake-traffic-ticket-toll-violation-text-scam',
+    description: `The Missouri Supreme Court and the Jackson County Circuit Court (16th Judicial Circuit) warned residents in April 2026 about a wave of smishing texts claiming the recipient has an "outstanding traffic violation" and must appear for a hearing, in some versions specifically naming the Jackson County Courthouse. The more sophisticated versions attach an image of a fake court document titled "Notice of Hearing – Toll Violation," complete with a fabricated case or citation number, a hearing date and time, and the forged signature and seal of a court clerk who does not exist, alongside a QR code the message urges the recipient to scan to "pay" the balance immediately. The Missouri Supreme Court stated plainly that "the court and court officials named in the text do not exist, the case numbers and citation numbers are not real and the link provided does not go to an official government website," and that Missouri courts do not contact people by text message about traffic citations at all. Anyone wanting to check whether they actually have an open traffic case is directed to look it up directly through Case.net or the Plead and Pay system at the official courts.mo.gov domain rather than scanning a code or clicking a link from an unsolicited text, and to report the message to local law enforcement instead of responding to it.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Missouri Supreme Court', 'Jackson County Circuit Court', 'Missouri Lawyers Media'],
+    sourceUrl: 'https://molawyersmedia.com/2026/04/06/missouri-court-scam-texts-fake-traffic-violations/',
+    country: 'US',
+    state: 'MO',
+    firstRecorded: '2026-04-06',
+});
+
+UsGM.push({
+    name: 'Mississippi Fake "Driver Service Bureau" DMV Text Scam',
+    slug: 'mississippi-fake-dmv-driver-service-bureau-text-scam',
+    description: `Mississippians across the state have received scam text messages claiming to be from the "Driver Service Bureau" and warning that unpaid fines mean the recipient's driver's license will be suspended, their vehicle registration canceled, or immediate payment is required through a link in the message. The Mississippi Department of Public Safety (MDPS), which actually oversees driver licensing through its Driver Service Bureau, says the surest sign the text is fake is that it describes an agency that doesn't work that way in a state that doesn't have the vehicle bureaucracy the message implies: Mississippi has no Department of Motor Vehicles and no toll roads, and MDPS Commissioner Sean Tindell has noted that "the first clue the text is fake is that Mississippi doesn't even have a DMV." MDPS confirmed that neither the department nor the Driver Service Bureau sends text messages requesting payment or personal information, and that any real notice about a license or registration issue arrives by mail, not text. Residents who get one of these messages are advised not to click any link, not to pay anything, and not to reply with any personal information, but instead to delete the text and report it as spam through their mobile carrier or to the Mississippi Department of Public Safety at dps.ms.gov.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Mississippi Department of Public Safety (MDPS)', 'WLOX'],
+    sourceUrl: 'https://www.wlox.com/2026/03/13/scam-alert-no-mississippi-doesnt-have-dmv-yes-that-text-is-scam/',
+    country: 'US',
+    state: 'MS',
+});
