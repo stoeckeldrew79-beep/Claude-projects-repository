@@ -8607,3 +8607,33 @@ Doxo's case is a reminder that a fee doesn't need to be hidden behind a fake pro
     sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2026/08/bill-payment-firm-doxo-pay-21-million-settle-ftc-allegations-it-deceived-consumers-charged-them-add',
   },
 );
+
+// No rights-cleared photo of any defendant was located. The SEC's civil
+// complaint (filed Jan. 31, 2025, No. 1:25-cv-00549, E.D.N.Y.) is the
+// primary source for the scheme mechanics, entity names, dates, ages, and
+// dollar figures below; the parallel criminal case, US v. Cangialosi et
+// al., No. 24-CR-363 (E.D.N.Y.), is corroborated via that complaint's own
+// reference to the indictment plus multiple independent news outlets'
+// reporting on the guilty pleas (the DOJ's own press releases on the pleas
+// returned a bot-check wall to automated fetching, so this profile relies
+// on the SEC filing directly for scheme facts and on cross-corroborated
+// secondary reporting for plea dates, forfeiture amounts, and the judge's
+// name).
+NotoriousAF.push(
+  {
+    title: "John Cangialosi, Peter Girgis, and Gene Sarabella: The Barred Brokers Behind the $70 Million \"Max Infinity\" Pre-IPO Fraud",
+    slug: 'cangialosi-girgis-sarabella-max-infinity-pre-ipo-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    body: `By 2021, John S. Cangialosi, Jr. and Peter N. Girgis had spent 23 and roughly 20 years, respectively, as licensed securities brokers — careers that had also produced multiple customer complaints, several FINRA suspensions apiece, and stints at eight different broker-dealers each, four of which FINRA had since expelled. According to a complaint the Securities and Exchange Commission filed January 31, 2025, in the Eastern District of New York, rather than leave the industry when regulators caught up with them, the two men built a new operation designed so their names would never have to appear on it, and put a third man with no securities license or financial-industry experience of any kind, Gene "Jerry" Sarabella, then 37, forward as its public face.
+
+That operation was Max Infinity Fund. Sarabella incorporated the management company, Max Infinity Management LLC, in New York in May 2021, and the fund itself, a Delaware entity with ten separate investment "series" (Max 1 through Max 8, plus 1A and 1B), was formed that July — at or near the time, the SEC's complaint says, that Cangialosi and Girgis each agreed to FINRA suspensions. Sarabella was held out publicly as Max Infinity's owner, president, and investment adviser; the complaint calls Cangialosi and Girgis, who kept their names off every offering document, the fund's true "Max Principals." When Girgis's own suspension ended in October 2022, the three organized a nearly identical follow-on, Elder Fund — formed nine days later, per the complaint — splitting ownership of its management company 40 percent Cangialosi, 40 percent Girgis, 20 percent Sarabella.
+
+Operating out of boiler rooms in New York City between July 2021 and April 2023, the SEC alleges, the Max Principals hired unregistered sales agents — including team leaders Enrico "Ed" Carini, then 39, of Staten Island, and Caner "John" Otar, then 38, of Brooklyn — who cold-called thousands of prospective investors, many of them senior citizens, with scripts built on a specific set of lies: that Max Infinity and Elder Fund charged no upfront fees, that investors could expect "quick profits" of 200 percent or more with little to no risk, that the funds had an established track record picking pre-IPO winners, that the underlying shares were held "in house," and that investor money sat safely in escrow until the company behind it actually went public. None of it was true, the SEC says. The funds had never registered with the SEC, had no track record, and in some cases didn't hold the pre-IPO shares directly at all — the Max Principals had instead bought into a separate, similarly unregistered fund that claimed to hold them. Investor principal was funneled into commingled bank accounts the Max Principals controlled, priced to investors with an undisclosed markup of 45 percent to more than 100 percent above what the funds themselves had paid, and used to fund sales commissions plus a network of largely dormant "relief defendant" shell companies — JCang1 Corp., Girgis Consulting, and Put Them on the Books Marketing among them — that existed mainly to receive investor money and cover personal spending on cars, jewelry, and vacations. Of all the private companies the funds claimed a stake in, only one ever actually went public, and that IPO left fund investors with a loss. In total, the SEC's complaint puts the amount raised at more than $70 million from over 550 investors nationwide.
+
+A parallel criminal case tracked the same conduct. A federal grand jury in Brooklyn indicted Cangialosi, Girgis, Sarabella, Carini, and Otar on September 10, 2024, on conspiracy to commit securities fraud, conspiracy to commit wire fraud, securities fraud, investment adviser fraud, and money laundering conspiracy. Carini pleaded guilty on August 26, 2025, to conspiracy to commit securities fraud and investment adviser fraud, agreeing to forfeit more than $430,000 including several luxury watches; Otar pleaded guilty the day before, on August 25, 2025, to conspiracy to commit securities fraud. Cangialosi, Girgis, and Sarabella held out until days before their scheduled January 12, 2026, trial date, then pleaded guilty in Brooklyn federal court before U.S. District Judge Carol Bagley Amon to every count of the indictment. Carini faces up to 10 years in prison at sentencing and Otar up to 5; Cangialosi, Girgis, and Sarabella each face a statutory maximum of 60 years. The SEC's civil case remains pending as to remedies, and separately seeks disgorgement, civil penalties, and permanent bars from serving as an officer or director of a public company against Cangialosi, Girgis, and Sarabella by name.
+
+This case is a reminder that a securities-industry bar or suspension only protects the investors who think to look for it. FINRA's disciplinary records are public and searchable by anyone before wiring money to a "fund," but Max Infinity and Elder Fund were built from day one so the two men actually running them never had to sign an offering document — leaving a person with no license, no track record, and no disciplinary history at all to put his name on the funds in their place.`,
+    sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26233',
+  },
+);
