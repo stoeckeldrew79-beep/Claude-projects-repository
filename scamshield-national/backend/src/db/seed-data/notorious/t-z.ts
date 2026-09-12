@@ -2731,18 +2731,6 @@ NotoriousTZ.push(
 
 NotoriousTZ.push(
   {
-    title: "Tyler Bossetti: The Ohio \"Finfluencer\" Whose $23 Million Real Estate Ponzi Scheme Ran on Facebook and YouTube",
-    slug: "tyler-bossetti-boss-lifestyle-ponzi-scheme",
-    author: "ScamShield Editorial",
-    tags: ["notorious", "notorious-scammer"],
-    body:
-      "Tyler Bossetti, 31, of Columbus, Ohio, built a public following on Facebook and YouTube as a real estate \"finfluencer\" — a social-media personality selling followers on his own apparent success as an investor — and used that platform to promote Boss Lifestyle LLC, which pitched short-term real estate deals promising outsized, \"risk-free\" returns of 30 percent or more. Between 2019 and 2023, according to federal prosecutors, the pitch drew more than $23 million from investors across the United States and abroad.\n\nAccording to the U.S. Attorney's Office for the Southern District of Ohio, Boss Lifestyle was not actually generating anything close to the returns Bossetti promised. Instead, prosecutors said, he ran a classic Ponzi structure, using money from newer investors to make payments to earlier ones that looked like real investment returns, while personally spending investor funds on rent for a downtown Columbus condominium, travel, a $150,000 Mercedes-Benz SUV, and cryptocurrency purchases that had nothing to do with the real estate deals investors believed they were funding. To help sustain the illusion at tax time, Bossetti issued roughly fourteen false IRS Form 1099-INT statements reporting interest income that investors had never actually earned.\n\nBossetti pleaded guilty in June 2025 to wire fraud and aiding in the filing of a false tax return. On April 10, 2026, U.S. District Judge Algenon L. Marbley sentenced him to 72 months in federal prison and ordered him to pay $12.5 million in restitution to victims, who prosecutors said lost more than $11 million of the roughly $23 million they had put in. \"We will not tolerate fraud — whether committed against the government or private citizens,\" U.S. Attorney Dominick S. Gerace II said in announcing the sentence.\n\nBossetti's case is a reminder that a finfluencer's visible lifestyle is not evidence of the returns being advertised — the same condominium, travel, and Mercedes he used to project success on social media were, prosecutors say, being paid for with the very investor money that lifestyle was meant to attract, and the 30-percent \"risk-free\" return itself was the clearest sign the real estate deals behind it didn't exist.",
-    sourceUrl: "https://www.justice.gov/usao-sdoh/pr/social-media-influencer-sentenced-6-years-prison-20-million-ponzi-scheme-tax-fraud",
-  },
-);
-
-NotoriousTZ.push(
-  {
     title: "Theodore Miller: The \"Wolf of West Virginia\" Whose Real Estate Empire Ran on Other People's Money",
     slug: "theodore-miller-wolf-of-west-virginia-fraud",
     author: "ScamShield Editorial",
