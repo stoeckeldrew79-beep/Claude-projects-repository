@@ -3754,3 +3754,16 @@ UsTZ.push({
     isHistorical: true,
     firstRecorded: '2021-03-04',
 });
+
+UsTZ.push({
+    name: 'Life Partners Holdings Life-Settlement Disclosure Fraud',
+    slug: 'texas-life-partners-holdings-viatical-settlement-fraud',
+    description: `Life Partners Holdings, a Nasdaq-listed company based in Waco, Texas, was for years the largest broker of life settlements in the country — a business where investors buy fractional interests in other people's life insurance policies, betting the insured will die within a life-expectancy estimate the company itself supplies, at which point the policy pays out and investors collect. The SEC charged the company and three top executives — chairman and CEO Brian Pardo, general counsel R. Scott Peden, and CFO David Martin — in a complaint filed in Waco federal court in January 2012, alleging that Life Partners systematically and knowingly underestimated the life expectancies it used to price these investments from 2007 through 2011, relying on a doctor with no actuarial training to generate the estimates, which let the company recognize revenue and collect fees years before it legitimately could, while Pardo and Peden separately sold a combined roughly $11.8 million of their own company stock without disclosing the practice to the investing public. A federal jury in Fort Worth found Pardo personally liable for fraud, and in December 2014 U.S. District Judge James Nowlin entered a final judgment ordering Life Partners, Pardo, and Peden to pay a combined $46.8 million in disgorgement and civil penalties; the company filed for bankruptcy the same month. More than 22,000 investors nationwide held life-settlement interests through Life Partners by the time the fraud came to light, illustrating that a life-expectancy estimate is only as reliable as the qualifications of whoever calculated it — any life-settlement pitch should be checked against an independent, credentialed actuarial estimate before money changes hands, not the seller's own in-house number.`,
+    categorySlug: 'investment-fraud',
+    sources: ['U.S. Securities and Exchange Commission'],
+    sourceUrl: 'https://www.sec.gov/litigation/litreleases/lr-22219',
+    country: 'US',
+    state: 'TX',
+    isHistorical: true,
+    firstRecorded: '2007-01-01',
+});
