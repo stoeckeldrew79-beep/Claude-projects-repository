@@ -15523,3 +15523,36 @@ International.push(
     sourceUrl: 'https://www.tbsnews.net/bangladesh/crime/online-scammers-con-shoppers-fake-daraz-fb-pages-171730',
   },
 );
+
+International.push(
+  {
+    name: 'WhatsApp "Tontine" Recruitment Pyramid Scheme',
+    slug: 'drc-whatsapp-tontine-recruitment-pyramid-scheme',
+    description: `Kinshasa residents have been drawn in growing numbers into so-called "tontines" run through WhatsApp groups — a digital twist on the traditional rotating savings circle, in which members contribute a set amount with the promise of eventually receiving a much larger payout in return. Unlike a genuine tontine among people who know and trust each other, these online versions frequently structure payout eligibility around recruitment rather than a simple rotation: one widely advertised offer required a member to stake $80 for a promised $600 return, but only released the money once the member had brought in two new paying participants, an arrangement that functions as a pyramid rather than a savings pool. Congolese outlet HabariRDC documented the case of Esther Tonda, a 22-year-old unemployed woman who joined a group promising 80,000 Congolese francs in exchange for a 10,000-franc stake, only to lose her money after she was unable to recruit the required new members and the group's administrator refused to reimburse her. "I continue to regret my money, being unemployed, it's difficult to support the loss of such a sum," she said. The report noted numerous similar complaints across other Kinshasa WhatsApp tontine groups, with disputes over unpaid-out contributions sometimes escalating into threats between members once an administrator stopped responding. Because these groups operate entirely through informal mobile-money transfers between strangers with no registered organizer, no legal oversight, and no recourse once an administrator disappears or a recruitment quota goes unmet, residents are advised to treat any online "tontine" that requires recruiting new paying members before a payout is released as a pyramid scheme rather than a legitimate savings circle.`,
+    categorySlug: 'ponzi-pyramid-schemes',
+    alertLevel: 'medium',
+    sources: ['HabariRDC'],
+    sourceUrl: 'https://habarirdc.net/tontine-whatsappkinshasa-argent-cotisation/',
+    country: 'CD',
+  },
+  {
+    name: 'Fake Orange Money Mass-Recruitment Facebook Scam',
+    slug: 'drc-fake-orange-money-mass-recruitment-facebook-scam',
+    description: `A Facebook post circulating from February 24, 2024 falsely claimed that Orange Money was conducting a mass recruitment drive across the Democratic Republic of Congo, listing around 80 open positions under specific job titles to lend the notice an air of authenticity and draw in jobseekers nationwide. Fact-checking service PesaCheck investigated the claim and confirmed with Orange's own telecommunications staff that no such recruitment existed: Mimy Solange Furaha, an HR manager for Orange in Grand Kivu, stated plainly that "cette offre d'emploi est fausse" ("this job offer is false") and said that any genuine Orange RDC vacancy is posted exclusively on the company's own official Facebook, Twitter/X, and LinkedIn channels rather than through a shared, unverified post. PesaCheck published its debunk on March 18, 2024, noting the scheme fit a broader, recurring pattern of fabricated corporate and government recruitment drives that have repeatedly targeted Congolese jobseekers on Facebook — schemes that typically harvest applicants' personal details, and in many documented variants also collect an upfront "processing" or "registration" fee, before the promised job never materializes. PesaCheck and Orange RDC advise jobseekers to disregard any hiring announcement for Orange Money or Orange RDC that appears only on a personal account or an unofficial page, and to confirm any vacancy directly through the company's verified social media accounts before providing any personal information or paying any fee.`,
+    categorySlug: 'employment-scams',
+    alertLevel: 'medium',
+    sources: ['PesaCheck', 'Orange RDC'],
+    sourceUrl: 'https://pesacheck.org/faux-cette-campagne-de-recrutement-massif-dorange-money-en-rdc-est-fausse/',
+    country: 'CD',
+  },
+  {
+    name: 'Kinshasa Rental "Commissionnaire" Deposit and Fake-Listing Scam',
+    slug: 'drc-kinshasa-rental-commissionnaire-deposit-scam',
+    description: `Renting a home in Kinshasa runs almost entirely through informal, unlicensed brokers known locally as "commissionnaires," and Congolese outlet Congo Quotidien reported on August 4, 2026 that the complete absence of any regulation over this profession — anyone can start working as a commissionnaire overnight, with no vetting or oversight — has left tenants exposed to a recurring pattern of fraud layered on top of the brokers' already-inflated commissions. Prospective renters are shown attractive video tours of available houses, but residents describe arriving to find, in the words of one Lemba resident quoted in the report, that "les vidéos montrent de belles maisons, mais elles sont différentes ou déjà louées" ("the videos show nice houses, but they're different or already rented"). In other cases documented in the report, a renter who paid a broker a visit or "site" fee — one victim near the Bongolo roundabout paid $10 for exactly this — found the broker's phone simply went unanswered afterward, with no visit, no refund, and no way to identify or locate the person who took the money. Tenants also described being charged undisclosed "displacement" fees on top of the advertised rent, with brokers' commission structures giving them a direct financial incentive to inflate asking prices — one tenant said a house that cost $150 two years earlier was now being quoted at $250 to $300 with no improvements made to it. Because Kinshasa's rental brokerage market currently has no licensing body, no standard contract requirement, and no agency a defrauded tenant can complain to, prospective renters are advised to insist on visiting a property in person before paying any fee, to avoid paying a "site visit" or "reservation" fee to a broker they cannot otherwise verify, and to get any deposit or fee arrangement in writing with the actual property owner rather than relying on the broker's word alone.`,
+    categorySlug: 'rental-housing',
+    alertLevel: 'medium',
+    sources: ['Congo Quotidien'],
+    sourceUrl: 'https://www.congoquotidien.com/2026/08/04/hausse-loyers-kinshasa-commissionnaires/',
+    country: 'CD',
+  },
+);
