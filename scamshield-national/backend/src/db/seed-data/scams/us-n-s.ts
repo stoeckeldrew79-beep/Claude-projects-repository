@@ -6799,3 +6799,31 @@ UsNS.push({
     isHistorical: true,
     firstRecorded: '2019-08-01',
 });
+
+UsNS.push({
+    name: 'Hickman Investment Adviser $45 Million Bank Fraud Scheme (Jesse Hill and Aaron Marshbanks)',
+    slug: 'nebraska-hill-marshbanks-bank-fraud-scheme',
+    description: `Jesse Hill, a Hickman, Nebraska investment adviser who ran First SOJO Capital Group after previously operating the hedge fund JT Equity Trading, helped Lincoln businessman Aaron Marshbanks obtain roughly $45 million in loans from at least 19 banks and savings and loan institutions across Nebraska and western Iowa between November 2020 and Marshbanks' death in November 2022, by producing fabricated financial statements that falsely showed investment accounts under Hill's management as collateral for loans Marshbanks said he needed for real estate ventures. In reality, prosecutors say, the loan proceeds were used to cover mounting investment losses and pay off earlier fraudulent loans, while Marshbanks and Hill personally spent millions on luxury purchases including a vacation villa and a shared interest in a multimillion-dollar Pilatus turboprop aircraft. Hill pleaded guilty on June 16, 2025 to one count of conspiracy to commit bank fraud and agreed to forfeit his interest in those assets along with funds in a Charles Schwab account; U.S. District Judge Susan Bazis sentenced him on October 30, 2025 to five years in federal prison, calling his conduct "deliberate and calculated," and on January 9, 2026 ordered him to pay more than $37 million in restitution to the defrauded lenders, structured as $100 a month or 5% of his gross wages after release — a schedule that would take tens of thousands of years to satisfy in full. The case is a reminder that a loan applicant's collateral is only as real as the lender independently verifies: a bank asked to accept an investment account as security for a multimillion-dollar loan should confirm the account's actual holdings and balance directly with the custodian named on the statement, rather than relying on documents the borrower's own financial adviser hands over.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office, District of Nebraska", '1011 NOW (KOLN/KGIN)', 'Nebraska Examiner'],
+    sourceUrl: 'https://www.1011now.com/2026/01/11/financial-adviser-who-help-swindle-banks-ordered-pay-37-million-restitution/',
+    country: 'US',
+    state: 'NE',
+    isHistorical: true,
+    firstRecorded: '2020-11-01',
+});
+
+UsNS.push({
+    name: 'Personal Money Management Company $24 Million Ponzi Scheme (John Lopez)',
+    slug: 'new-mexico-lopez-pmmco-ponzi-scheme',
+    description: `John Lopez, 74, an Arizona man, ran Personal Money Management Company (PMMCO) as a Ponzi scheme from 2014 to 2022, telling more than 100 investors — many of them in Northern New Mexico — that he had developed a proprietary trading algorithm generating annual returns of 10% to 42% by investing their money in stocks and bonds. In reality, prosecutors said, Lopez used roughly $16 million of the $24 million he collected to buy precious metals for himself and paid out $6.1 million to earlier investors purely to keep the illusion of legitimate returns alive, all while telling clients their combined accounts held $39 million — far more than the money actually on hand. When federal agents seized PMMCO's assets in November 2021, they recovered less than $15 million, and roughly $3 million of the precious metals Lopez had bought was never fully recovered, but Lopez kept soliciting new investors and sending out fabricated account statements even after the seizure became public. Lopez was convicted in the U.S. District Court for the District of New Mexico and sentenced to 30 years in federal prison plus three years of supervised release, along with a forfeiture order of $24,065,636.20. The case shows that a promised annual return in the double digits — let alone Lopez's claimed 10% to 42% — from a manager who won't point investors to an independently verifiable custodian holding the actual securities is a Ponzi scheme's classic signature: any investor asked to trust a "proprietary algorithm's" returns should insist on account statements from an independent, regulated custodian bank or brokerage, not merely the manager's own printed summary.`,
+    categorySlug: 'ponzi-pyramid-schemes',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office, District of New Mexico", 'KOB4', 'Los Alamos Daily Post'],
+    sourceUrl: 'https://www.kob.com/news/top-news/man-who-defrauded-new-mexicans-must-pay-24m-back-and-serve-prison-time/',
+    country: 'US',
+    state: 'NM',
+    isHistorical: true,
+    firstRecorded: '2014-01-01',
+});
