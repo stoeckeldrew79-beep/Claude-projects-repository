@@ -6979,3 +6979,17 @@ UsNS.push({
     isHistorical: true,
     firstRecorded: '2023-01-01',
 });
+
+UsNS.push({
+    name: 'Brooklyn Adult Day Care $64 Million Medicaid Kickback Scheme (Zakia Khan)',
+    slug: 'new-york-brooklyn-khan-adult-daycare-medicaid-kickback-scheme',
+    description: `Zakia Khan, 55, owned and operated two Brooklyn social adult day care centers — Happy Family Social Adult Day Care Center Inc. and Family Social Adult Day Care Center Inc. — along with a home health fiscal intermediary called Responsible Care Staffing Inc. From approximately October 2017 through July 2024, Khan and her co-conspirators paid cash kickbacks and bribes to Medicaid recipients to induce them to enroll in adult day care and home care services, then had them sign attendance sheets and other paperwork for services that were never actually provided, using a shell company called Tanwee Services Inc. to launder the proceeds and generate additional cash for more kickbacks. The scheme, which prosecutors say billed Medicaid approximately $64 million, was uncovered as part of a broader investigation that led to the indictment of seven other defendants in October 2024. Khan pleaded guilty in August 2025 to conspiracy to commit health care fraud and conspiracy to defraud the United States and pay health care kickbacks; on September 10, 2026, U.S. District Judge Natasha C. Merle of the Eastern District of New York sentenced her to 76 months in federal prison, ordered her to pay more than $56 million in restitution, and ordered forfeiture of $5 million in fraud proceeds, including two real estate properties, cash, and gold jewelry seized from her home. The U.S. Attorney's Office for the Eastern District of New York said the sentencing "sends a strong message of deterrence" and that prosecutors "will vigorously prosecute corrupt health care owners and operators." The case was investigated by HHS-OIG, Homeland Security Investigations, and the NYPD. Medicaid recipients who are offered cash to sign up for a day program or in-home care service — especially one that never actually shows up to provide the care — are being used as cover for a billing fraud scheme, and should report the offer to their state Medicaid fraud control unit rather than accept the money.`,
+    categorySlug: 'medicare-health-plans',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office, Eastern District of New York", 'U.S. Department of Health and Human Services, Office of Inspector General'],
+    sourceUrl: 'https://oig.hhs.gov/fraud/enforcement/brooklyn-adult-daycare-owner-sentenced-to-76-months-in-prison-for-leadership-role-in-68-million-medicaid-fraud-scheme/',
+    country: 'US',
+    state: 'NY',
+    isHistorical: true,
+    firstRecorded: '2017-10-01',
+});
