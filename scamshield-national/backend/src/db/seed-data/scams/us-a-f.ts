@@ -8175,3 +8175,14 @@ UsAF.push({
     country: 'US',
     state: 'CA',
 });
+
+UsAF.push({
+    name: 'IRS "Transcript Viewer" Malware Campaign Targeting Tax Preparers',
+    slug: 'irs-transcript-viewer-tax-preparer-malware-scam',
+    description: `During the 2026 tax season, Microsoft's threat intelligence team identified a campaign that went well beyond a typical phishing email: it targeted tax professionals directly with a fake tool posing as IRS software. Starting around February 10, 2026, malicious emails reached more than 29,000 users across roughly 10,000 organizations, almost entirely (95%) in the United States, concentrated on accountants and tax preparers rather than individual taxpayers. The email urged the recipient to download and run a file named "TranscriptViewer5.1.exe," presented as a tool for pulling a client's IRS account transcript — something preparers legitimately request often. Running it instead installed ScreenConnect, a legitimate remote-support program repurposed as a remote access trojan, giving the attacker hands-on control of the preparer's computer and, through it, every client file, Social Security number, and prior return stored on the machine. The campaign abused Cloudflare's own bot-detection service to block automated security scanners from analyzing the file, letting it slip past many mail filters. A related campaign the same season abused the legitimate event-marketing service Eventbrite to send an email titled "IR-2026-216" claiming a "Cryptocurrency Tax Form 1099 is Ready," riding on Eventbrite's trusted sending domain and asking recipients to copy and paste a web address (irs-doc[.]com or gov-irs216[.]net) rather than click a link, specifically to evade link-scanning filters. The IRS has never sent transcripts through a downloadable executable or demanded a copied-and-pasted link for a tax form. Tax preparers should never run an unsolicited executable claiming to be an IRS tool, should pull transcripts only through the IRS's own e-Services portal, and clients should ask their preparer directly whether any 2026 tax-season email or notice they received actually came from the firm.`,
+    categorySlug: 'tax-scams',
+    alertLevel: 'critical',
+    sources: ['Microsoft Threat Intelligence', 'Microsoft Security Blog'],
+    sourceUrl: 'https://www.microsoft.com/en-us/security/blog/2026/03/19/when-tax-season-becomes-cyberattack-season-phishing-and-malware-campaigns-using-tax-related-lures/',
+    country: 'US',
+});
