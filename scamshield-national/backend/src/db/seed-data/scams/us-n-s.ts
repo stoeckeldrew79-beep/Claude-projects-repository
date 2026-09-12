@@ -6446,3 +6446,17 @@ UsNS.push({
     isHistorical: true,
     firstRecorded: '2025-10-23',
 });
+
+UsNS.push({
+    name: 'Puerto Rico Hacienda Employee Tax-Debt Bribery Scheme (Alexander Ortiz-Robles)',
+    slug: 'puerto-rico-hacienda-ortiz-robles-bribery-tax-debt-scheme',
+    description: `Alexander Ortiz-Robles worked as an employee of the Puerto Rico Department of Treasury (Hacienda) from June 2020 until October 2025, a job that gave him access to PRITAS and SURI, the agency's internal systems for viewing and modifying what individual taxpayers and businesses owe. Federal prosecutors say Ortiz-Robles used that access to submit false information that erased or reduced tax debts in exchange for bribes funneled to him through third-party "gestores," who separately charged their own clients a fee for illegally lowering what those clients owed the government. Court records detail four specific bribe payments: $15,500 in July 2022, $20,000 in December 2023, $60,000 in November 2024, and $6,000 in April 2025, with prosecutors attributing a total loss to the Puerto Rico Treasury of approximately $6,772,578 to his conduct. Ortiz-Robles was charged by information rather than grand jury indictment and pleaded guilty on September 8, 2026 to a single count of conspiracy to commit bribery; he is scheduled to be sentenced by U.S. District Judge Gina R. Méndez-Miró on January 15, 2027. The U.S. Attorney's Office for the District of Puerto Rico said Ortiz-Robles is the third Hacienda employee to plead guilty within three months to a bribery or fraud scheme built around manipulating tax debts, part of a broader FBI-investigated pattern in which combined losses attributed to Hacienda employees, the gestores who recruited clients, and the individuals and companies whose debts were erased now exceed $14 million — a separate set of defendants and losses from an earlier October 2025 indictment charging two other Hacienda employees in a related tax-debt bribery scheme. The case is a reminder that a gestor or tax preparer who claims they can make a real Hacienda tax debt disappear through a personal connection inside the agency, rather than through the agency's own established payment-plan or appeals process, is not offering a service — they are recruiting a taxpayer into a federal bribery conspiracy that carries prison time for everyone involved, not just the government employee taking the payoff.`,
+    categorySlug: 'tax-scams',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office, District of Puerto Rico", 'San Juan Daily Star', 'NotiCel'],
+    sourceUrl: 'https://www.sanjuandailystar.com/post/treasury-dept-employee-pleads-guilty-to-accepting-bribes-to-erase-tax-debts',
+    country: 'US',
+    state: 'PR',
+    isHistorical: true,
+    firstRecorded: '2026-09-08',
+});

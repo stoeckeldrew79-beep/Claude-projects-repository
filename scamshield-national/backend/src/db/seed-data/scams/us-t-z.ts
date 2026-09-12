@@ -3642,3 +3642,17 @@ UsTZ.push({
     isHistorical: true,
     firstRecorded: '2025-08-20',
 });
+
+UsTZ.push({
+    name: 'Virgin Islands OMB Director Pandemic-Relief Bribery Scheme (Jenifer O\'Neal)',
+    slug: 'virgin-islands-oneal-omb-mon-ethos-bribery-scheme',
+    description: `Jenifer O'Neal, the former director of the U.S. Virgin Islands Office of Management and Budget, was convicted by a federal jury on December 11, 2025 of honest-services wire fraud, bribery concerning programs receiving federal funds, and money laundering, in a public-corruption case built around a government contractor called Mon Ethos Pro Support and the flow of federal COVID-19 pandemic relief funds through it. Prosecutors showed that O'Neal, as the territory's chief budget official, approved a $216,000 invoice for the Virgin Islands Police Department that included a $70,000 amount inflated above the actual cost of the work, then months later accepted a $17,730 lease payment for her own coffee shop, Java Grande, at Yacht Haven Grande, along with luxury items including a pair of Christian Louboutin shoes and a Louis Vuitton handbag — benefits prosecutors tied directly to her approval of the inflated invoice. Evidence at trial included a text from Mon Ethos contractor David Whitaker, who was cooperating with the FBI, warning a co-conspirator that then-VIPD Commissioner Ray Martinez "may never speak to us again" if he didn't receive his $70,000 cut, and a message in which O'Neal responded "lol" to a request tied to the scheme. U.S. District Judge Mark Kearney sentenced O'Neal on June 11, 2026 to seven years (84 months) in federal prison and three years of supervised release, along with a $50,000 fine, $17,730 in forfeiture, and restitution of $34,345.39 owed jointly with Martinez, telling her in court that "she was bought off for a lease payment, a pair of shoes and a purse." Martinez was separately sentenced to 10 years in prison, and Whitaker, who testified for the government, received 22 months and was ordered to pay $600,000 in restitution. The case shows that corruption tied to disaster and pandemic relief funds in the territory isn't limited to outside fraudsters filing fake individual claims — the Virgin Islands' own budget director accepted comparatively modest personal payoffs, a coffee-shop lease payment and designer accessories, in exchange for approving a six-figure inflated invoice, underscoring why residents and watchdog groups should treat any unusually large or vaguely justified invoice tied to federal relief funding as worth requesting documentation for, and why suspected misuse of federal disaster or pandemic funds should be reported to the DOJ's National Center for Disaster Fraud.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office, District of the Virgin Islands", 'Virgin Islands Daily News', 'V.I. Consortium'],
+    sourceUrl: 'https://www.virginislandsdailynews.com/news/ex-omb-chief-gets-7-years-in-prison-for-bribery-fraud/article_c0bae8e4-8dfb-4201-a0f3-6636aef94a3a.html',
+    country: 'US',
+    state: 'VI',
+    isHistorical: true,
+    firstRecorded: '2026-06-11',
+});
