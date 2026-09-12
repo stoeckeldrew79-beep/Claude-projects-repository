@@ -16561,3 +16561,46 @@ International.push(
     sourceUrl: 'https://consumersfiji.org/press-release/urgent-scam-alert-fraudsters-fake-consumer-council-chairs-identity-in-get-rich-quick-scheme/',
   },
 );
+
+International.push(
+  {
+    name: 'Portugal Fake Car Accident and Card-Swap Scam Targeting Older Drivers',
+    slug: 'portugal-fake-accident-card-swap-scam-elderly-drivers',
+    description: `Portugal's Guarda Nacional Republicana (GNR) issued a public alert on August 28, 2026 over a rising scam in which fraudsters stage a fake traffic collision to extract money and bank cards from drivers, most often ones over 60. The scheme typically starts as a target leaves a parking area: the fraudsters follow in a vehicle already marked with old scratches or a broken mirror, cut them off or signal them to stop, and insist a collision has just occurred. To sell the story, the group — sometimes including a woman or children to look more sympathetic and less threatening — pressures the driver to settle up immediately and avoid "the hassle" of calling police or an insurer. In the scheme's more advanced form, the GNR says fraudsters carry a portable card-payment terminal, watch the victim key in their PIN while supposedly paying for the "damage," then swap the real card for a visually identical decoy in the confusion, leaving the victim to discover only later that their own account has been drained through withdrawals made with the stolen card and captured PIN. The GNR recorded 30 such cases between January and June 2026 — a 15.4% jump over the 26 cases in the same period of 2025 — for combined losses of €72,540, already approaching the full-year 2025 total of €77,480 across 59 cases and including one single loss of €15,450; Faro district led with six occurrences, ahead of Lisbon, Porto, Viseu, and Beja. The GNR says the choice of drivers over 60 is deliberate, exploiting fear of legal trouble, emotional pressure from feeling at fault, and lower familiarity with electronic payment security, and its advice is direct: never make an on-the-spot payment after a suspected collision, never hand over a bank card or reveal a PIN to the other driver, photograph the vehicles and any damage, exchange only insurance and identification details, contact your own insurer to formally report any real accident, and alert the nearest GNR post immediately if a stop feels staged rather than genuine.`,
+    categorySlug: 'account-takeover',
+    country: 'PT',
+    alertLevel: 'high',
+    sources: ['Guarda Nacional Republicana (GNR)', 'Diário de Notícias', 'Postal (postal.pt)'],
+    sourceUrl: 'https://www.dn.pt/sociedade/gnr-alerta-para-burlas-de-falsos-acidentes-prejuzos-para-vtimas-j-superam-72-mil-euros',
+  },
+  {
+    name: 'Fake Ministry of Health "Overdue Payment" SMS Scam',
+    slug: 'portugal-fake-ministry-of-health-sms-payment-scam',
+    description: `DECO PROteste, Portugal's leading consumer-protection association, warned the public in a report published April 2, 2026 about a wave of smishing text messages that impersonate the country's Ministry of Health (Ministério da Saúde) to extort payment from recipients. The messages use number-spoofing so they appear in the same conversation thread as genuine ministry or health-service texts, then claim the recipient has an outstanding, overdue amount and must settle it before a short deadline, providing a Multibanco payment reference tied to entity number "21800" — a number DECO PROteste says does not belong to the Ministry of Health at all and has already turned up attached to earlier, unrelated fraud campaigns. The Ministry of Health has confirmed publicly that it does not send payment demands by SMS and never requests personal or banking data through a text message or an external link, and DECO PROteste notes that SMS as a technology has no universal system for verifying a sender's real identity, which is precisely what lets fraudsters make a text look like it is continuing an official conversation. The advice to consumers is to never click a link or pay a Multibanco reference arriving in an unsolicited text claiming to be from a government body, to delete the message, and — if there is any doubt about a supposedly overdue health-related payment — to confirm it independently by contacting their local health unit or calling the National Health Service's SNS24 line rather than replying to the text or using any number or link it contains.`,
+    categorySlug: 'government-impersonation',
+    country: 'PT',
+    alertLevel: 'medium',
+    sources: ['DECO PROteste', 'Ministério da Saúde (Portugal)', 'Marketeer'],
+    sourceUrl: 'https://marketeer.sapo.pt/alerta-burlas-via-sms-em-nome-do-ministerio-da-saude-exigem-pagamentos-fraudulentos/',
+  },
+  {
+    name: 'Counterfeit FIFA World Cup 2026 Sticker Album Scam',
+    slug: 'portugal-world-cup-2026-sticker-album-scam',
+    description: `With demand surging ahead of the 2026 FIFA World Cup, Portugal's Polícia de Segurança Pública (PSP) and Guarda Nacional Republicana (GNR) issued a joint public alert in June 2026 warning that the craze for Panini-style sticker albums and packets was being exploited by sellers offering counterfeit product through online marketplaces, social media, and informal in-person sales. Listings advertise sticker boxes at prices well below what genuine packs cost, pressure buyers into paying immediately — often before any product is shown — and, when anything is actually delivered, it frequently turns out to be counterfeit: stickers printed on visibly inferior paper, missing the holograms and official security seals found on genuine product, or simply never delivered at all after payment is sent. The two forces jointly listed the warning signs buyers should watch for — steep discounts that are hard to explain, sellers who insist on upfront payment through informal channels, poor print and paper quality, and the absence of any official holographic seal — and urged consumers to check a seller's reputation and listing history, inspect any product photos closely for these authenticity markers before paying, and favor secure payment methods that allow a dispute or chargeback over direct bank transfers or informal mobile-payment requests, which offer no way to recover money once a counterfeit or non-existent item has been paid for.`,
+    categorySlug: 'online-shopping-scams',
+    country: 'PT',
+    alertLevel: 'medium',
+    sources: ['PSP (Polícia de Segurança Pública)', 'GNR (Guarda Nacional Republicana)', 'CNN Portugal', 'Executive Digest'],
+    sourceUrl: 'https://cnnportugal.iol.pt/mundial2026/mundial-2026/febre-dos-cromos-do-mundial-2026-psp-alerta-para-burlas',
+  },
+  {
+    name: 'Celebrity-Endorsed Cryptocurrency Investment Scam (Caldas da Rainha)',
+    slug: 'portugal-caldas-da-rainha-celebrity-crypto-investment-scam',
+    description: `The Polícia de Segurança Pública (PSP) issued a consumer alert after registering two complaints on June 20, 2026 from victims in Caldas da Rainha who together lost €138,000 — €130,000 from one victim and €8,000 from the other — to a fraudulent cryptocurrency-investment operation. The scheme began with social media advertisements that used the images or names of sports celebrities to promote what looked like an accessible, high-return investment opportunity; clicking through led victims to a platform where they entered personal details, after which people posing as investment managers phoned them directly, promised "elevated profits and personalized monitoring," and talked them into making a series of bank transfers they believed were being placed into high-yield crypto assets. In some cases the fake managers went further and asked victims to install remote-access software on their devices, giving the fraudsters direct control of the computer under the guise of helping manage the "investment." The PSP's advice to the public is to treat any promise of high, guaranteed returns as a red flag, never invest under time pressure from a phone caller, independently verify that any investment platform or manager is actually authorized by Portugal's competent financial authorities, never grant a stranger remote access to a computer or phone, refuse to transfer money to an account in someone else's name, and seek independent financial advice before committing funds — noting pointedly that cryptocurrency "has no legal tender status in Portugal nor is guaranteed by any national or European authority."`,
+    categorySlug: 'cryptocurrency-scams',
+    country: 'PT',
+    alertLevel: 'high',
+    sources: ['PSP (Polícia de Segurança Pública)', 'Diário Criminal'],
+    sourceUrl: 'https://diariocriminal.sapo.pt/burla-com-criptomoedas-faz-duas-vitimas-perderem-138-mil-euros-psp-deixa-alerta/',
+  },
+);
