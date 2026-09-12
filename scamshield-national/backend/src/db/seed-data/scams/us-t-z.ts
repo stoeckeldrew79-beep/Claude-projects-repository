@@ -3494,3 +3494,28 @@ UsTZ.push({
     state: 'VT',
     firstRecorded: '2025-01-01',
 });
+
+UsTZ.push({
+    name: 'Wyoming State Board of Nursing License-Investigation Impersonation Scam',
+    slug: 'wyoming-state-board-of-nursing-license-investigation-impersonation-scam',
+    description: `The Wyoming State Board of Nursing has issued a recurring string of fraud alerts — most recently in July 2026, and before that in October 2025, August 2025, February 2025, August 2024, May 2024, and October 2023 — warning licensees about fraudulent calls claiming their nursing license is under investigation or at risk of suspension. The scam mirrors a pattern reported nationally against boards of nursing: a caller who has already obtained the nurse's name and license number claims to represent the state board, alleges a disciplinary complaint or criminal referral, and demands an immediate payment, sometimes with caller ID spoofed to display the board's actual published phone number to make the threat feel credible. WSBN stresses that it does not conduct real investigations this way — legitimate license inquiries from the board are handled through email and its official compliance line, never through a cold call demanding money to make a suspension go away. The board directs any nurse who receives one of these calls to hang up without providing information, confirm their license status directly through nursys.com or by calling WSBN at (307) 777-7601, and report the call to the board's compliance office at bon-wsbncompliance@wyo.gov.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Wyoming State Board of Nursing'],
+    sourceUrl: 'https://wsbn.wyo.gov/announcements',
+    country: 'US',
+    state: 'WY',
+});
+
+UsTZ.push({
+    name: 'WYDOT "Unpaid Toll and Citation" Text Scam',
+    slug: 'wyoming-wydot-unpaid-toll-citation-text-scam',
+    description: `The Wyoming Department of Transportation has repeatedly warned residents, including in a March 2026 alert following an earlier wave reported by CyberWyoming in June 2025, about text messages impersonating WYDOT or a fictitious "Wyoming DMV" that claim an unpaid toll or traffic citation and threaten license and registration suspension, added fines, or legal action unless the recipient clicks a link and pays immediately. The texts direct victims to a spoofed website built to look like WYDOT's own site. WYDOT's alert makes the scam easy to dismiss on the facts alone: Wyoming has no toll roads at all, so any message referencing an unpaid Wyoming toll is automatically fraudulent, and traffic citations in Wyoming are handled through the court system rather than WYDOT, which offers no way to pay a citation online. The scam texts are sent using Wyoming area codes specifically to look locally credible, according to CyberWyoming security expert Natalie Demple, and WYDOT public affairs officer Doug McGee said the agency has fielded panicked calls from residents who clicked before realizing the message wasn't real. Wyoming lost more per capita to online scams in 2024 than all but two other states, and WYDOT asks anyone who receives one of these texts not to click the link, to verify any citation directly with the issuing court, and to report the message to the FTC at reportfraud.ftc.gov.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Wyoming Department of Transportation', 'CyberWyoming', 'Cowboy State Daily'],
+    sourceUrl: 'https://www.dot.state.wy.us/home/news_info/scam-watch.html',
+    country: 'US',
+    state: 'WY',
+    firstRecorded: '2025-06-11',
+});
