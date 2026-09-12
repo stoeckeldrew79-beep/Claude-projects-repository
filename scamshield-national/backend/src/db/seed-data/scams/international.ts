@@ -10519,6 +10519,36 @@ International.push(
     sourceUrl: 'https://www.tsa-algerie.com/e-commerce-en-algerie-mefiez-vous-de-ces-2-arnaques-frequentes/',
     country: 'DZ',
   },
+  {
+    name: 'Fake "Free Trip" Tourist Allowance Scam',
+    slug: 'algeria-tourist-allowance-free-trip-scam',
+    description: `After the Banque d'Algérie raised the personal tourist foreign-currency allowance to €750 per trip, travel agencies began advertising supposedly "free" seven-day organized trips abroad, open to anyone with a valid passport who is over 19, with no cost to the traveler. The catch, flagged by consumer group APOCE, is that these packages are built to exploit the traveler's own personal currency allocation: APOCE president Mustapha Zebdi noted that some agencies had carried out the foreign-currency exchange "without the presence of the interested parties," meaning a third party used a customer's personal exchange right without them actually being there for it. The Banque d'Algérie stepped in with a public reminder that "the right of exchange granted for trips abroad is strictly personal and cannot in any way be transferred or used by a third party," warning that anyone who lets an agency or another person use their allowance this way risks having it suspended for five years and can face criminal prosecution under Algeria's foreign-exchange and anti-money-laundering laws. Consumer advocates advise travelers to be wary of any "free trip" offer tied to handing over passport details or allowance rights to an agency, to complete any currency exchange in person at an authorized bank, and to verify a travel agency's accreditation before booking.`,
+    categorySlug: 'travel-vacation-scams',
+    alertLevel: 'medium',
+    sources: ['Banque d’Algérie', 'APOCE (Association algérienne de protection et d’orientation du consommateur et de son environnement)', 'Le Jeune Indépendant'],
+    sourceUrl: 'https://www.jeune-independant.net/allocation-touristique-gare-a-larnaque/',
+    country: 'DZ',
+  },
+  {
+    name: 'AADL 3 Public Housing Applicant Scam',
+    slug: 'algeria-aadl3-housing-applicant-scam',
+    description: `As applicants in Algeria's AADL 3 public rent-to-own housing program approached their payment deadlines, fraudsters moved into Facebook groups and social media discussions dedicated to the program to target them. Posing as "official intermediaries" of AADL (Agence nationale de l'amélioration et du développement du logement) with false claims of personal connections inside the administration, scammers offered two main hooks: loans at attractive rates to help applicants cover their installment, or promises to speed up or secure an applicant's file in exchange for an advance "deposit" or copies of sensitive personal documents. Once the money is transferred or the documents handed over, the supposed intermediary disappears without providing anything. AADL responded publicly that "no financial transaction is demanded by its services without passing through official channels," stressing that its digital platform is the only legitimate way to make payments related to the program, and consumer protection group APOCE separately issued its own alerts about the schemes. With thousands of applicants under financial pressure to meet deadlines, authorities and AADL urge anyone contacted by a self-described AADL intermediary to ignore them, to make every payment only through the official AADL platform, and never to share personal documents or pay a deposit to a private individual claiming to speed up a housing file.`,
+    categorySlug: 'rental-housing',
+    alertLevel: 'high',
+    sources: ['AADL (Agence nationale de l’amélioration et du développement du logement)', 'APOCE (Association algérienne de protection et d’orientation du consommateur et de son environnement)', 'Observ’Algérie'],
+    sourceUrl: 'https://observalgerie.com/2025/12/13/societe/aadl-3-les-postulants-cibles-des-arnaqueurs/',
+    country: 'DZ',
+  },
+  {
+    name: 'Fraudulent Schengen Visa Intermediary Scam',
+    slug: 'algeria-schengen-visa-fraud-intermediary-scam',
+    description: `The European Union Delegation to Algeria and the Schengen member states represented in Algeria issued a joint public alert over "a concerning rise in fraudulent or falsified documents" submitted with Schengen visa applications from Algeria. The scheme centers on unofficial, unaccredited intermediaries who advertise help with visa processing and appointment bookings — services that are supposed to be free or handled only through officially designated providers — and charge applicants for them. In the more damaging cases, these intermediaries insert forged supporting documents, such as fake bank statements, employment certificates, or invitation letters, into an applicant's file "without the applicant's knowledge." The joint statement stressed that a visa applicant remains fully and personally responsible for everything in their file regardless of who assembled it, so discovering a forged document can mean losing eligibility to enter any Schengen country, not just the one applied to, and can expose the applicant to criminal liability alongside whoever fabricated the document. The warning followed a string of networks dismantled by Algerian authorities for selling forged Schengen visa files and hacking and reselling visa-appointment slots on the black market. The EU Delegation and Schengen states advise applicants to use only the officially designated visa service providers, to personally review every document in their file before it is submitted, and to treat any unaccredited "consultant" offering to fast-track a visa or guarantee an appointment as a red flag.`,
+    categorySlug: 'travel-vacation-scams',
+    alertLevel: 'high',
+    sources: ['Délégation de l’Union européenne en Algérie', 'États Schengen représentés en Algérie', 'Observ’Algérie'],
+    sourceUrl: 'https://algier.diplo.de/dz-fr/service/05-visaeinreise/2601002-2601002',
+    country: 'DZ',
+  },
 );
 
 International.push(
