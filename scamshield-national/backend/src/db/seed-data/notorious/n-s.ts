@@ -6291,3 +6291,22 @@ Rundle's case shows how little machinery an offering fraud actually needs when t
     sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26637',
   },
 );
+
+NotoriousNS.push(
+  {
+    title: 'Storm Financial and the "Double Gearing" Collapse That Wiped Out Thousands of Australian Retirees',
+    slug: 'storm-financial-double-gearing-collapse',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'international'],
+    body: `Emmanuel and Julie Cassimatis founded Storm Financial in Townsville, Queensland, in 1994 and built it over the following decade and a half into one of Australia's largest financial-planning networks, serving roughly 14,000 clients through branches across the country by 2008. Storm's signature product wasn't an exotic instrument or an offshore fund — it was a strategy the firm called "double gearing," marketed to ordinary retirees and pre-retirees as a reliable path to a comfortable retirement.
+
+Under the model, clients borrowed against the equity in their homes and then took out a further margin loan — often arranged through Macquarie Bank, the Commonwealth Bank of Australia, or the Bank of Queensland — to buy units in index funds, frequently through a Storm-badged fund product. As the value of those geared investments rose, Storm encouraged clients to take out additional "step" loans against the paper gains and reinvest again, compounding both the potential upside and the leverage. The advice was delivered as a one-size-fits-all formula rather than tailored to each client's age, risk tolerance, or capacity to absorb a downturn — a detail that later became central to the regulatory case against Storm's directors.
+
+When the global financial crisis hit in late 2008, margin calls came due on a scale the model had never been built to withstand. Storm told clients not to panic and that markets would recover, while the banks providing the margin loans sold down clients' geared portfolios to cover the shortfalls. By the time the dust settled, many clients — a large share of them retirees who had geared their family homes to invest — held sharemarket portfolios worth a fraction of what they had borrowed, with debts exceeding what remained of their assets. Storm Financial went into voluntary administration on January 26, 2009, and was later liquidated, leaving thousands of clients holding the losing side of a leveraged strategy a licensed adviser had told them was safe.
+
+The regulatory reckoning took over a decade. In August 2016, the Federal Court found that Emmanuel and Julie Cassimatis had breached their duties as directors of Storm's financial-services licensee by failing to ensure the advice given to clients was appropriate to their circumstances — a finding upheld on appeal, with the High Court refusing special leave to appeal further in August 2020. In penalty proceedings, the pair were ordered to pay $70,000 each, finally settled in March 2021, more than a decade after Storm collapsed. Separately, Australia's corporate regulator, ASIC, pursued the banks that had funded and profited alongside Storm's advice: the Commonwealth Bank ultimately provided compensation totaling roughly $268 million across an earlier resolution scheme and a 2012 ASIC-brokered settlement, Macquarie Bank paid $82.5 million, and the Bank of Queensland paid roughly $17 million — each settlement implicitly recognizing that the lenders bore some share of responsibility for financing a strategy regulators eventually judged unsuitable for a mass-market retiree client base.
+
+Total losses across Storm's client base have been estimated at more than $3 billion. The collapse became one of the case studies cited by the parliamentary inquiry that shaped Australia's subsequent Future of Financial Advice reforms, and it remains a reference point in Australian financial regulation for a specific failure mode: a strategy built from entirely legal products — index funds and margin loans are legitimate, ordinary financial instruments — can still amount to a fraud on suitability when it is marketed indiscriminately, sold as a fixed formula rather than individualized advice, and geared to a level that leaves no room for the kind of downturn markets produce roughly once a decade.`,
+    sourceUrl: 'https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2020-releases/20-074mr-federal-court-confirms-storm-financial-directors-breached-duties/',
+  },
+);
