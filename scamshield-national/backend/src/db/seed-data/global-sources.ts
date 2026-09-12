@@ -1538,4 +1538,31 @@ export const SEED_GLOBAL_SOURCES: SeedGlobalSource[] = [
       "São Tomé and Príncipe's central bank runs a Consumer Support (Apoio ao Consumidor) service under its behavioural-supervision department, operating a public online complaint form through which the public can report grievances — including suspected fraud — against the banks, insurers, and exchange houses it supervises.",
     data_type: 'public_stats',
   },
+  {
+    agency_name: 'Autorité Monégasque de Sécurité Financière (AMSF)',
+    country: 'MC',
+    country_name: 'Monaco',
+    url: 'https://amsf.mc/a-propos/rapports-d-activite',
+    description:
+      "Monaco's independent financial-security authority, created under Law No. 1.362 to combat money laundering, terrorist financing, and corruption, operates a mandatory suspicious-transaction reporting channel (goAML) for regulated professionals and publishes a statutory annual activity report detailing its supervision, sanctions, and suspicious-transaction-reporting figures.",
+    data_type: 'annual_report',
+  },
+  {
+    agency_name: "Autorité Supérieure de Contrôle d'État et de Lutte contre la Corruption (ASCE-LC)",
+    country: 'BF',
+    country_name: 'Burkina Faso',
+    url: 'https://www.asce-lc.bf/denoncez-un-fait/',
+    description:
+      "Burkina Faso's supreme anti-corruption and state-oversight authority operates a public denunciation channel — toll-free hotline, email, and online form — for citizens to report corruption and related fraud, and publishes a general annual activity report detailing its audits, financial-loss findings, and sanctions.",
+    data_type: 'annual_report',
+  },
+  {
+    agency_name: 'Autorité de Régulation des Communications Électroniques et des Postes (ARCEP Gabon)',
+    country: 'GA',
+    country_name: 'Gabon',
+    url: 'https://www.arcep.ga/pages/detail_observatoire/3',
+    description:
+      "Gabon's telecom and postal regulator is charged with ensuring fair treatment of consumers and sanctioning operator violations, and publishes quarterly downloadable market dashboards (tableaux de bord) tracking mobile, fixed, and internet service indicators as an open dataset.",
+    data_type: 'open_dataset',
+  },
 ];
