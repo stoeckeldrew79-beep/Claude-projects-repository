@@ -6329,3 +6329,20 @@ Nathans was one of more than a dozen New Zealand finance companies that collapse
     sourceUrl: 'https://www.interest.co.nz/news/54263/three-nathans-finance-directors-found-guilty-under-securities-act-misleading-comments',
   },
 );
+
+NotoriousNS.push(
+  {
+    title: 'Andrew Skeene, Omari Bowers, and the £37 Million "Amazon-Saving" Teak Plantation Fraud',
+    slug: 'andrew-skeene-global-forestry-investments-teak-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'international'],
+    body: `Global Forestry Investments, run by directors Andrew Skeene and Omari Bowers out of offices in London, Dubai, Abu Dhabi, and São Paulo, sold retail investors plots in three teak tree plantations in Brazil — marketed under names like Belem Sky, Para Sky, and Para Grosso Sky — pitched not just as a financial investment but as an ethical one, framed as protecting the Amazon rainforest and supporting local communities while paying annual returns of 10 to 20 percent. For a minimum investment of around £5,000, buyers were told they owned a specific, managed plot of real trees that would eventually be harvested for profit.
+
+The UK's Serious Fraud Office, working with Brazil's Ministério Público Federal, found the underlying operation didn't match the pitch. Investigators traced an "intricate web of money transfers, forged documents and invented identities" behind the plantations, and established that roughly £13 million of the roughly £37 million raised from more than 2,000 investors was diverted directly into Skeene and Bowers's personal accounts rather than into the trees, land, or management the marketing described. Most investors who received any return at all saw it stop after the first year, well before any teak could plausibly have matured enough to generate the income they'd been promised.
+
+The SFO opened its investigation in February 2015 and charged Skeene and Bowers in July 2019 with conspiracy to defraud, using forged instruments, and misconduct in the course of winding up the company. Following a trial at Southwark Crown Court, a jury convicted both men on May 31, 2022, and on June 14, 2022, each was sentenced to 11 years in prison and disqualified from acting as a company director for ten years. Both men appealed, and on January 21, 2025 the Court of Appeal upheld their convictions and sentences in full, closing out a case that had by then run for a decade from first investigation to final appeal.
+
+Global Forestry Investments shows how an "ethical investing" label can do the opposite of what it promises: rather than inviting extra scrutiny, a scheme framed around saving the rainforest and helping local communities gave skeptical questions an easy answer — that doubting the returns meant doubting the cause — right up until forensic accountants traced where more than a third of the money had actually gone.`,
+    sourceUrl: 'https://www.occrp.org/en/news/uk-court-convicts-two-for-fraudulent-green-investment-scheme',
+  },
+);

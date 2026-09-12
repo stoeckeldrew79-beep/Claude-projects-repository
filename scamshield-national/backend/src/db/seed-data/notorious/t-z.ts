@@ -2889,3 +2889,20 @@ The Store First case is a reminder that a pension transfer is one of the highest
     sourceUrl: 'https://www.gov.uk/government/news/sfo-charges-six-in-complex-pension-fraud-investigation',
   },
 );
+
+NotoriousTZ.push(
+  {
+    title: 'Mina Tadrus and the "AI-Powered" Hedge Fund That Targeted His Own Church Community',
+    slug: 'mina-tadrus-ai-hedge-fund-coptic-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    body: `Mina Tadrus was a FINRA-registered stockbroker in Tampa, Florida, when he founded Tadrus Capital LLC in June 2020 and began pitching it as an artificial intelligence-driven hedge fund — one that used algorithmic trading models to generate returns he described as effectively guaranteed and "recession-proof." He pitched interests in the fund's affiliated limited partnership to people who had every reason to trust him: family, friends, and fellow members of the Egyptian-American Coptic Christian community he belonged to, a group bound by close social and religious ties that made a personal recommendation carry far more weight than a prospectus ever could.
+
+Between September 2020 and July 2023, at least 31 investors put more than $5.7 million into Tadrus Capital on the strength of that pitch. According to the Securities and Exchange Commission and federal prosecutors in Brooklyn, almost none of it went where he said it would: less than one percent of investor funds was ever used for legitimate trading, and none of that trading involved the AI-based strategy Tadrus had advertised. Instead, he used roughly $1.7 million of investor money to pay other investors their promised "returns" in classic Ponzi fashion, and spent the rest on himself, his employees, and his own personal expenses.
+
+Tadrus pleaded guilty in February 2025 to investment adviser fraud in the U.S. District Court for the Eastern District of New York. On August 18, 2025, Judge Hector Gonzalez sentenced him to 30 months in prison and ordered him to pay $4,224,850 in restitution to his victims. In a parallel civil action, the SEC secured a final consent judgment against Tadrus in December 2025 permanently barring him from the securities industry and ordering more than $4.1 million in disgorgement and interest.
+
+Tadrus's case is a textbook illustration of affinity fraud updated with a modern hook: the AI branding gave a decades-old lie — trust me, my system beats the market — a fresh coat of technological credibility, while the real engine of trust was never the algorithm at all. It was the fact that the person asking for the money sat in the same pews, attended the same family gatherings, and shared the same community as the people he was defrauding.`,
+    sourceUrl: 'https://www.irs.gov/compliance/criminal-investigation/founder-of-purported-artificial-intelligence-powered-hedge-fund-sentenced-to-30-months-in-prison',
+  },
+);
