@@ -2216,26 +2216,6 @@ Warning signs include an unexpected arrest or detention during a routine stop, a
 File a report at IdentityTheft.gov to get the FTC's step-by-step recovery plan and a personal Identity Theft Report, which carries legal weight when dealing with courts, employers, and background-check companies. Carry a copy of the arresting agency's clearance letter or the court's finding of factual innocence at all times once you have one, since a future traffic stop or background check can otherwise resurface the same error, and check whether your state runs an identity theft "passport" or victim registry program — several states offer one specifically so a victim of criminal identity theft has a fast, standard way to prove the record isn't theirs.`,
   },
 {
-    title: 'Fake Travel Booking Websites: When the Flight or Hotel Deal You Found Isn\'t Real',
-    slug: 'fake-travel-booking-website-scam-guide',
-    author: 'ScamShield Editorial',
-    tags: ['guide', 'travel-booking-scam'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Departures_board_at_Miami_Airport_in_Florida,_US.jpg?width=1200',
-    coverImageCredit: 'Photo: Bobby Hidy (CC BY-SA 2.0)',
-    coverImagePosition: 50,
-    // representative photo — replace with an exact match if found
-    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2025/06/how-avoid-travel-website-scams',
-    body: `Someone searches for a flight, a hotel room, or a vacation package and clicks a paid search ad or a link from social media advertising a deal that beats every other result. The site looks like a normal booking platform — airline-style branding, a countdown clock, a seat map, a "confirm your reservation" button — and the purchase goes through cleanly, card number and all, ending with a confirmation number and an email receipt that looks entirely routine. The problem surfaces later: at the airport counter, the airline has never heard of the reservation, or at hotel check-in, there's no room held under that name, or the promised booking simply never gets flagged as real because the site collected payment and never actually made one.
-
-The FTC has flagged a specific, growing version of this: scammers buying paid search ads that impersonate well-known airlines and travel companies directly, so that searching for a real carrier's name turns up a scam site sitting right next to, or even above, the legitimate one. A second common pattern runs through legitimate-looking third-party hotel and flight aggregator sites that don't outright steal the payment but use deceptive design to make people think they're booking directly with the hotel or airline — building in hidden service fees well above the advertised price, quietly stripping out the ability to change or cancel a reservation that the actual hotel or airline would normally allow, or reserving a room category that doesn't match what was shown at checkout. Both versions exploit the same reality: travel booking already involves handing a stranger's website a card number for something that won't be verified — a room, a seat — until the trip actually happens.
-
-Because payment clears immediately, the scam has already succeeded well before the trip that would expose it, and a victim can be out the full cost of airfare or lodging with no reservation to show for it and, often, a booking site that stops responding to email the moment a dispute is raised. Some of these operations run for months as functioning-looking businesses, taking real payments for real-sounding confirmation numbers, before shutting down and reopening under a new name and domain once complaints and chargebacks catch up to them.
-
-Red flags include a deal noticeably cheaper than anything showing up on the airline's or hotel's own site for the same dates, a site reached through a search ad or unsolicited social media post rather than a direct search for the company by name, pressure to book immediately through a countdown timer or "only 1 room left" messaging, and payment requests by wire transfer, cryptocurrency, or gift card rather than a standard credit card. A URL that's close to but not exactly the real company's domain — extra words, a different extension, or a slightly misspelled brand name — is one of the most reliable tells, since a scam site depends on looking like the real one at a glance rather than surviving close inspection.
-
-Book directly through the airline's or hotel's own official site or app whenever possible, and before using an unfamiliar third-party booking site, search the company's name alongside words like "scam," "review," or "complaint" to see what other travelers have run into. Pay by credit card rather than debit, wire, or gift card, since a credit card carries dispute rights a store-credit-style transfer doesn't. Confirm a reservation directly with the airline or hotel using contact information looked up independently — not a number or link from the confirmation email itself — well before the trip, so a fake booking can still be caught and rebooked in time. Report suspected travel booking scams to the FTC at ReportFraud.ftc.gov.`,
-  },
-{
     title: 'Fake Military Draft Texts: The Selective Service Scam That Preys on Fear of Arrest',
     slug: 'fake-military-draft-text-scam-guide',
     author: 'ScamShield Editorial',
