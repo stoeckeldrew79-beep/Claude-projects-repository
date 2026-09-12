@@ -3455,3 +3455,16 @@ UsTZ.push({
     state: 'WV',
     firstRecorded: '2025-12-31',
 });
+
+UsTZ.push({
+    name: 'Utah DOPL "Chief Investigation Officer" Impersonation Calls',
+    slug: 'utah-dopl-chief-investigation-officer-impersonation-scam',
+    description: `The Utah Division of Professional Licensing (DOPL) issued a media advisory on November 27, 2024 warning licensed professionals — healthcare workers were the first to report it, though officials said targeting could spread to other license types — about phone calls from someone spoofing DOPL's number and falsely claiming to hold a title such as "Chief Investigation Officer." In one case detailed by DOPL, the caller told a licensee their credentials had been temporarily suspended because of an "ongoing FBI investigation" into illicit drug trafficking, warned them not to discuss the call with anyone, refused to hang up, and directed them to a nearby UPS store to receive further "instructions" by fax. DOPL confirmed the callers have no affiliation with the division and that no investigation of this kind was underway, and stressed that the agency does not threaten licensees with immediate suspension over the phone or direct them to a retail store for fax instructions. Licensees who receive a call like this are advised to hang up, avoid volunteering any personal or license information, and verify their license status directly with DOPL at 801-530-6628 rather than through any number or instructions given by the caller.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Utah Division of Professional Licensing', 'Utah Department of Commerce'],
+    sourceUrl: 'https://commerce.utah.gov/dopl/announcements-scammers/',
+    country: 'US',
+    state: 'UT',
+    firstRecorded: '2024-11-27',
+});

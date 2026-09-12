@@ -6274,3 +6274,41 @@ UsGM.push({
     state: 'HI',
     firstRecorded: '2024-05-27',
 });
+
+UsGM.push({
+    name: 'Kentucky Board of Nursing Investigator Impersonation Calls',
+    slug: 'kentucky-board-of-nursing-investigator-impersonation-scam',
+    description: `The Kentucky Board of Nursing (KBN) warned the public on May 6, 2026 about scam phone calls in which callers spoof caller ID to display a legitimate-looking agency number and then claim to be board investigators or law enforcement, telling the person their nursing license is under investigation or that they missed a court date. Callers may cite publicly available details — such as a license number or a past address — to sound credible, and some versions of the call have referenced drugs or packages allegedly linked to the recipient's identity before pressuring them to "verify" credit card or other financial information over the phone. KBN emphasized that when it actually opens an investigation, it never notifies a licensee by phone call; a real complaint is only communicated through a mailed written notice. Anyone who receives a call like this is advised to give no information, end the call, and contact KBN directly at 502-429-3300 to confirm whether their license is actually under any investigation, or to contact the relevant law enforcement agency directly if the caller claims to be an officer.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Kentucky Board of Nursing', 'WKYT'],
+    sourceUrl: 'https://kbn.ky.gov/Pages/index.aspx',
+    country: 'US',
+    state: 'KY',
+    firstRecorded: '2026-05-06',
+});
+
+UsGM.push({
+    name: 'Louisiana Board of Pharmacy Staff Impersonation Calls',
+    slug: 'louisiana-board-of-pharmacy-impersonation-scam',
+    description: `The Louisiana Board of Pharmacy has warned pharmacies, pharmacists, and pharmacy technicians across the state about callers who impersonate board staff or the National Association of Boards of Pharmacy (NABP) to pressure credential holders into handing over personal information. The calls use caller ID spoofing so the display shows what looks like the Board's own telephone number or NABP's official number, then the caller solicits personally identifiable information from whoever answers, sometimes under the guise of resolving a license or credentialing problem. The Board has posted warnings on multiple pages of its official site stating plainly that a familiar number on caller ID does not confirm who is actually calling, and that neither Board staff nor NABP will ever call to demand personal information or payment of any kind by phone. Pharmacy staff who receive such a call are advised to give out no information, hang up, and verify any claimed issue by contacting the Board directly through the phone number or contact form listed on its official website rather than any number supplied by the caller.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Louisiana Board of Pharmacy'],
+    sourceUrl: 'https://www.pharmacy.la.gov/page/917',
+    country: 'US',
+    state: 'LA',
+});
+
+UsGM.push({
+    name: 'Louisiana Contractors Board Fraudulent Email Scam',
+    slug: 'louisiana-contractors-board-fraudulent-email-scam',
+    description: `The Louisiana State Licensing Board for Contractors (LSLBC) issued a security alert on September 8, 2026 warning license holders about fraudulent emails impersonating the Board, some of which arrive appearing to be sent through third-party document or payment services such as E-Sign or Transfer XL rather than directly from the agency. The LSLBC stressed that it will only ever send email from an official .gov address and that it accepts payment exclusively through its own online licensing portal — never through a link or attachment forwarded in an email, and never through an outside e-signature or funds-transfer service. Contractors who receive a message claiming to be from the Board that does not come from a .gov sender, or that asks them to sign a document or send payment through a third-party site, are advised to delete it immediately without clicking any links and to confirm any real licensing action directly through the LSLBC's official website or by calling the Board.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Louisiana State Licensing Board for Contractors'],
+    sourceUrl: 'https://lslbc.gov/',
+    country: 'US',
+    state: 'LA',
+    firstRecorded: '2026-09-08',
+});
