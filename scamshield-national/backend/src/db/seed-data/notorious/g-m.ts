@@ -8672,3 +8672,26 @@ Satary's case is a reminder that an indictment and even a bond release are not t
     sourceUrl: 'https://www.justice.gov/opa/pr/notorious-fugitive-arrested-connection-547-million-medicare-fraud-scheme',
   },
 );
+
+// No rights-cleared photo of Cannon-Grant has surfaced on Wikimedia Commons
+// — news outlets have photos of her, but none are published there under a
+// license this collection can use — so sourceUrl serves as the "read the
+// full story" link instead of a photo.
+NotoriousGM.push(
+  {
+    title: 'Monica Cannon-Grant: The "Bostonian of the Year" Who Stole From Her Own Anti-Violence Charity',
+    slug: 'monica-cannon-grant-violence-in-boston-nonprofit-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    body: `Monica Cannon-Grant founded Violence in Boston in 2017, an anti-violence nonprofit that grew into a genuine civic presence in the city: it collected donations from ordinary residents, from the Suffolk County District Attorney's office, and from the City of Boston itself. Cannon-Grant's own public profile grew alongside it. After she organized large 2020 protests in Boston following the murder of George Floyd, Boston Globe Magazine named her its "Bostonian of the Year," and the Boston Celtics gave her a "Heroes Among Us" award the same year — recognition that made her one of the city's most visible community organizers.
+
+According to federal prosecutors, that visibility ran well ahead of what Violence in Boston's books could support. From 2017 through 2020, Cannon-Grant and her then-husband, VIB co-founder Clark Grant, took donations earmarked for the nonprofit's anti-violence mission and spent a substantial share of them on themselves — including vacations and rent payments unrelated to the charity's work. Separately, when the COVID-19 pandemic hit, Violence in Boston received roughly $53,977 from the Boston Resiliency Fund; prosecutors said Cannon-Grant diverted about $30,000 of that relief money through cash withdrawals and personal expenses, including payments on her auto loan and car insurance. In May 2021, she obtained $12,600 in rental assistance from Boston's Office of Housing Stability for a $4,200-a-month apartment in East Boston by misrepresenting her household income, and prosecutors said she, Clark Grant, and one of her sons collected more than $145,000 in pandemic unemployment benefits while all three were actually employed. On top of the fraud itself, she filed false tax returns for 2017 and 2018 that omitted tens of thousands of dollars in salary and consulting income from VIB, and simply failed to file returns at all for 2019 and 2020.
+
+A federal grand jury originally indicted Cannon-Grant and Clark Grant in March 2022, and a superseding indictment in 2023 expanded the case to 27 counts; Clark Grant's portion of the case was dismissed after he died in a motorcycle crash in Easton, Massachusetts, in March 2023. Cannon-Grant herself pleaded guilty on September 22, 2025, to 18 of the 27 counts: three counts of wire fraud conspiracy, ten counts of wire fraud, one count of mail fraud, and two counts each of filing false tax returns and failing to file tax returns.
+
+On January 29, 2026, a federal judge sentenced Cannon-Grant to four years of probation, six months of home confinement, 100 hours of community service, and $106,003 in restitution. Two months later, on March 24, 2026, U.S. District Judge Angel Kelley separately ordered her to forfeit $224,063, representing the roughly $180,000 in diverted donations plus the fraudulently obtained rental assistance and unemployment benefits. "Fraud disguised as activism or charity is still fraud," said U.S. Attorney Leah B. Foley in announcing the case.
+
+Cannon-Grant's case is a reminder that a charity's legitimacy in the public eye — awards, City Hall partnerships, a founder's name attached to a moment of real civic urgency — says nothing about whether the money moving through it actually reaches the mission donors think they're funding. The same visibility that made Violence in Boston an easy nonprofit to trust with a donation is what let its founder collect money from individuals, a district attorney's office, and the city itself, all at the same time she was also collecting pandemic benefits she wasn't entitled to on the side.`,
+    sourceUrl: 'https://www.irs.gov/compliance/criminal-investigation/former-director-of-boston-nonprofit-pleads-guilty-to-fraud-charges',
+  },
+);
