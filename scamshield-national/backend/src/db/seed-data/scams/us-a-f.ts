@@ -7894,3 +7894,17 @@ UsAF.push({
     isHistorical: true,
     firstRecorded: '2016-01-01',
 });
+
+UsAF.push({
+    name: 'DC Metropolitan Police Impersonation Phone Scam',
+    slug: 'dc-mpd-phone-impersonation-outstanding-fine-scam',
+    description: `The Metropolitan Police Department issued a public scam alert on September 1, 2026 warning District residents about a wave of phone calls in which criminals impersonate MPD officers and use caller ID spoofing to display an actual government phone number, falsely telling residents they have an outstanding fine and must resolve it immediately or face arrest. The callers pressure victims into downloading a specific app, sharing personal identifying details, and providing credit card information to "pay" the supposed fine, escalating to threats of immediate arrest for anyone who hesitates or pushes back. MPD stated plainly that "the Metropolitan Police Department will never solicit anyone for monetary funds, bank information, or social security numbers," meaning any such demand — however legitimate the caller ID looks — is itself proof the call is fraudulent rather than a real police communication. The department advised residents not to give in to pressure tactics, to verify any claimed fine or warrant independently through DC Courts rather than trusting the caller, to never share financial information or wire money to an unknown party over the phone, and to warn family members and friends, particularly older relatives, about the scheme so it can't catch them off guard. DC residents targeted by this scam can report it to MPD's Financial and Cyber Crimes Unit at (202) 727-4159 or mpd.fcc@dc.gov, verify an actual warrant or court matter directly with DC Courts at (202) 879-1010, and file a fraud complaint with the Justice Department at justice.gov/criminal/criminal-fraud/report-fraud.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Metropolitan Police Department (Washington, DC)'],
+    sourceUrl: 'https://mpdc.dc.gov/release/scam-alert-police-warn-residents-phone-scams',
+    country: 'US',
+    state: 'DC',
+    isHistorical: true,
+    firstRecorded: '2026-09-01',
+});
