@@ -2774,3 +2774,27 @@ VetLink's case is a reminder that a company doesn't need to invent a fake produc
     sourceUrl: 'https://www.azag.gov/vetlink',
   },
 );
+
+// No rights-cleared photo of Yang was located; the Queens DA's press
+// releases (charging and sentencing) are the primary source for every
+// fact below.
+NotoriousTZ.push(
+  {
+    title: 'Tiffany Yang and the "Spread Ex" Pig Butchering Scam Run Out of a Flushing Condo',
+    slug: 'tiffany-yang-spread-ex-pig-butchering-scam',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    body: `In March 2023, a man began chatting online with someone who introduced herself as "Lily List." The conversation started on Facebook Messenger, and after several days the two moved it to WhatsApp — a switch to an end-to-end encrypted app that, according to the Queens District Attorney's Office, is a recurring feature of these schemes because it puts the conversation beyond easy reach of later investigation. Eventually, "Lily List" told him about a financial opportunity on a trading platform called Spread Ex Ltd., with a website that looked like a legitimate trading site and a URL close enough to a real financial and betting-services company, Spread Ex, to pass a casual glance.
+
+He wired money to what he believed was his own Spread Ex Ltd. account — 13 wire transfers between March 2023 and February 2024, totaling $1,086,244 — and for a while, the fraudulent website showed him exactly what he wanted to see: an account balance that kept growing. When he tried to withdraw his money, he couldn't. Soon after, the website disappeared entirely.
+
+Investigators traced one of his wire transfers to a JPMorgan Chase account tied to a specific address: Apartment 2B at 153-53 77th Avenue in Flushing. A records search turned up at least 97 Chase accounts registered to businesses at that same apartment — nail salons, a foot spa, a bar, names like Jian Ma Foot Spa 2 Inc., Chen Graceful Nails, Inc., and Chen the Bronx Bar Inc. — many of which had received wire transfers that were later recalled or flagged as fraudulent by the senders. Deed records from the New York City Department of Finance showed the condo's registered owner was Tiffany Yang, and an IP address used to log into one of the shell companies' Chase accounts traced back to her home in Bayside, Queens.
+
+On October 2, 2025, detectives from the District Attorney's Detective Bureau and the NYPD executed a search warrant at Yang's home. They found her inside, along with an unloaded .45-caliber pistol, numerous bank receipts, cashier's and business checks, debit cards, forged U.S. visas, and multiple Chinese and U.S. passports. Yang, then 35, was arrested on the weapons charge that day and re-arrested on October 7, 2025, on grand larceny charges; Queens District Attorney Melinda Katz announced a 27-count criminal complaint accusing her of stealing roughly $2.1 million from 17 victims nationwide through the "Lily List" and Spread Ex scheme, with charges including first-degree grand larceny, first-degree criminal possession of stolen property, and scheme to defraud.
+
+Yang, 37, pleaded guilty on March 18, 2026, to grand larceny in the third degree before Queens Supreme Court Justice Leigh Cheng. On April 15, 2026, Cheng sentenced her to 120 days in jail and ordered $1,328,286.67 in restitution, along with forfeiture of $1,171,710.33 in cash already held in the District Attorney's Office escrow account and forfeiture of seized luxury handbags and watches, to be auctioned with the proceeds going to victims. By April 9, restitution had been paid in full, and the DA's office said the combined recovery — restitution plus forfeited cash and property — came to $2.5 million for the 13 victims the plea agreement covered. "These so-called pig butchering scams are exploitative and profoundly harmful," Katz said in announcing the sentence. "The defendant participated in a predatory scheme that targeted victims across the United States and carefully cultivated their trust before luring them into fraudulent investment opportunities and stealing their money."
+
+"Pig butchering" describes the shape of Yang's case precisely: the "Lily List" persona spent days building an ordinary-seeming online friendship before ever mentioning money, then let a fake trading dashboard show fabricated, steadily climbing gains for months — exactly long enough to convince a victim to keep wiring more before he ever tried to take money out. The 97 Chase accounts registered to small businesses at Yang's own condo did the less visible work of the scheme: turning wire transfers a bank might otherwise flag as suspicious into deposits that looked, on paper, like ordinary payments to nail salons and restaurants.`,
+    sourceUrl: 'https://queensda.org/bayside-woman-sentenced-for-pig-butchering-scam-that-targeted-victims-from-across-the-country-2-5-million-in-restitution-secured/',
+  },
+);
