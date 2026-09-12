@@ -17446,4 +17446,52 @@ International.push(
     sourceUrl: 'https://thehackernews.com/2023/03/cyber-police-of-ukraine-busted-phishing.html',
     country: 'UA',
   },
+  {
+    name: "Operation Serengeti 2.0 Zambia Crypto Investment Fraud Bust",
+    slug: "zambia-operation-serengeti-crypto-investment-fraud",
+    description:
+      "Between June and August 2025, INTERPOL's Operation Serengeti 2.0 — a coordinated crackdown spanning 18 African countries plus the United Kingdom — uncovered a single online investment fraud scheme operating in Zambia that had already drawn in an estimated 65,000 victims and taken roughly $300 million from them. Announcing the results on August 22, 2025, INTERPOL said the scheme lured victims with heavy online advertising promising high-yield cryptocurrency investment returns, then walked them through downloading a series of proprietary apps engineered to look and function like a legitimate financial-technology platform rather than routing any of their money through a real, independently verifiable exchange. Zambian authorities arrested 15 people in connection with the scheme and seized the domains, mobile numbers, and bank accounts used to move victims' money, with investigators saying work was continuing to trace the operation's international collaborators. Across the whole of Operation Serengeti 2.0, INTERPOL-coordinated action arrested more than 1,200 suspected cybercriminals continent-wide and recovered a combined $97.4 million, but the Zambian case stood out even within that total as one of the single largest individual schemes uncovered — a reminder that an app with a polished dashboard showing rising \"returns\" is no evidence that any real trading, or any real company, exists behind it.",
+    categorySlug: "cryptocurrency-scams",
+    sources: ["INTERPOL", "crypto.news"],
+    sourceUrl: "https://www.interpol.int/en/News-and-Events/News/2025/African-authorities-dismantle-massive-cybercrime-and-fraud-networks-recover-millions",
+    country: "ZM",
+    isHistorical: true,
+    firstRecorded: "2025-06-01",
+  },
+  {
+    name: "Southern Province MTN Mobile Money PIN-Reset Fraud Ring",
+    slug: "zambia-southern-province-mobile-money-pin-reset-fraud",
+    description:
+      "A joint team from the Zambia Police Service and the Zambia Information and Communications Technology Authority (ZICTA) broke up a fraud ring operating out of Monze and Choma in Southern Province that combined several scams under one roof: unauthorized resets of victims' MTN Mobile Money PIN codes to drain their wallets, taking payment for phones and other goods advertised on Facebook Marketplace that were never delivered, and running a fake internet-data reseller called \"Connectify Broad Band Limited\" that was also used to hack social media and mobile banking accounts. Two of the five suspects arrested, Miyoba Chisanga, 25, and Dawson Sibande, 27, both of Monze, were employees of Top Image, a company contracted to manage SIM card replacement in areas where MTN Zambia does not have a direct presence — a position investigators said the pair used to reset victims' mobile money PINs directly. The other three suspects, Ignatius Samasumo Pesuka, 22, of Choma, Samuel Kasonkomona, 21, and Boniface Mahepo, 32, were arrested in connection with the Facebook goods and fake-network-provider schemes. Police, who announced the arrests on September 30, 2022, recovered four cell phones, a laptop, two desktop computers, eight ATM Visa cards, two National Registration Cards, and 28 SIM cards, and charged the group with theft, unauthorized access to data, obtaining money by false pretenses, making documents without authority, and personation. The case shows how a SIM swap needs no hacking skill at all when an insider at a telecom's own registered replacement agent can reissue a victim's number on request — mobile money users can only partly guard against this by treating any unexpected \"SIM deactivated\" or PIN-reset prompt as a probable takeover attempt and confirming directly with their provider rather than through any number that contacted them first.",
+    categorySlug: "account-takeover",
+    sources: ["Zambia Police Service", "Zambia Information and Communications Technology Authority (ZICTA)", "The Maravi Post"],
+    sourceUrl: "https://www.maravipost.com/zambia-police-five-over-mobile-money-fraud/",
+    country: "ZM",
+    isHistorical: true,
+    firstRecorded: "2022-09-01",
+  },
+  {
+    name: "ACC K90,000 Teacher Recruitment Bribery Job Scam",
+    slug: "zambia-acc-teacher-recruitment-job-scam",
+    description:
+      "Zambia's Anti-Corruption Commission (ACC) arrested Charles Mubita, 30, a teacher at Robert Dean Secondary School in Kamwala South, Lusaka, after he allegedly turned a real government job opening into a scheme to sell it: prosecutors say that between June 1 and June 15, 2026, Mubita told a job seeker he could secure a teaching post under the Ministry of Education for the complainant's sister in exchange for K90,000, an amount he raised from an initial K50,000 to a further K40,000 once the first payment had already changed hands. The complainant instead reported him to the ACC, which set up a trap operation on June 12, 2026 in which officers watched Mubita collect a K5,000 installment toward the outstanding balance before arresting him and charging him with one count of corrupt practices by a public officer, contrary to Section 19(1) of Zambia's Anti-Corruption Act, Chapter 91 of the Laws of Zambia. Announcing the arrest on June 17, 2026, ACC acting Head of Corporate Communications Chilufya Chisanga reminded the public that recruitment into the civil service, including teaching positions, \"is done through a transparent and merit-based process\" run by the Teaching Service Commission and related authorities, and stated plainly that no money is ever required to secure a government teaching job, urging anyone asked to pay for one to report the demand to law enforcement immediately rather than pay it.",
+    categorySlug: "employment-scams",
+    sources: ["Zambia Anti-Corruption Commission (ACC)", "Zambia Monitor"],
+    sourceUrl: "https://www.zambiamonitor.com/anti-corruption-agency-nabs-lusaka-teacher-over-alleged-k90000-job-scam/",
+    country: "ZM",
+    isHistorical: true,
+    firstRecorded: "2026-06-01",
+  },
+  {
+    name: "Deputy Ambassador Tom Michelo Investor Swindle",
+    slug: "zambia-deputy-ambassador-tom-michelo-investor-swindle",
+    description:
+      "In late May 2026, Zambia's Drug Enforcement Commission (DEC) arrested Tom Michelo, then serving as the country's Deputy Ambassador to Ethiopia, over allegations that he solicited and received US$500,000 from an Ethiopia-based Chinese company by promising to bring the company into Zambia and arrange unspecified business dealings there — an arrangement DEC investigators say he never actually delivered on, with reporting on the case indicating the conduct itself predated his diplomatic appointment. DEC Director General Nason Banda confirmed the arrest, and President Hakainde Hichilema responded first by suspending Michelo from his post pending investigation and then, once a case had been formally established against him, recalling him from Ethiopia with immediate effect and removing him from the position entirely. Michelo was charged with abuse of authority of office and swindling. The case illustrates a pattern DEC has warned about repeatedly: someone trading on real or claimed government standing to promise a foreign company access, connections, or arrangements inside the country in exchange for an upfront personal payment, when no legitimate government facilitation of a private business deal ever requires money paid directly to the official arranging it — a red flag investors and would-be partners are advised to treat as disqualifying on its own, regardless of how senior the person asking happens to be.",
+    categorySlug: "investment-fraud",
+    sources: ["Zambia Drug Enforcement Commission (DEC)", "News Diggers!", "Lusaka Times"],
+    sourceUrl: "https://diggers.news/local/2026/05/30/hh-fires-deputy-ambassador-to-ethiopia-as-dec-arrests-him-for-swindling-chinese-investors/",
+    country: "ZM",
+    isHistorical: true,
+    firstRecorded: "2026-05-30",
+  },
 );
