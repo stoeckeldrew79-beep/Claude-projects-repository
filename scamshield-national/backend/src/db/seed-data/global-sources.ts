@@ -611,4 +611,58 @@ export const SEED_GLOBAL_SOURCES: SeedGlobalSource[] = [
       "Egypt's Ministry of Trade and Industry-affiliated consumer protection body investigates complaints about fraudulent and deceptive commercial practices filed through its hotline and online complaint form, publishing consumer advisories rather than a formal annual report or open dataset.",
     data_type: 'public_stats',
   },
+  {
+    agency_name: 'Directorate of National Consumer Rights Protection (DNCRP)',
+    country: 'BD',
+    country_name: 'Bangladesh',
+    url: 'https://dncrp.gov.bd/',
+    description:
+      "Bangladesh's quasi-judicial consumer-rights body, established under the Consumer Rights Protection Act 2009, investigates complaints of fraudulent and deceptive business practices filed through its National Consumer Complaint Center hotline (16121) and online portal, publishing case-disposal figures rather than a formal annual report or open dataset.",
+    data_type: 'public_stats',
+  },
+  {
+    agency_name: 'Instituto Nacional de Defensa de la Competencia y de la Protección de la Propiedad Intelectual (INDECOPI)',
+    country: 'PE',
+    country_name: 'Peru',
+    url: 'https://www.gob.pe/indecopi',
+    description:
+      "Peru's national consumer-protection and competition authority accepts consumer complaints — including fraud and deceptive commercial practices — through its Citizen Service portal and consumidor.gob.pe, and publishes periodic bulletins and reports on complaint volumes and enforcement actions.",
+    data_type: 'public_stats',
+  },
+  {
+    agency_name: 'Cyber Bureau, Nepal Police',
+    country: 'NP',
+    country_name: 'Nepal',
+    url: 'https://cyberbureau.nepalpolice.gov.np/',
+    description:
+      "Nepal Police's dedicated cybercrime investigation unit accepts public reports of online fraud, financial scams, and other cyber offenses through its website and hotline, with case statistics released through its parent agency's press releases rather than a standalone report or dataset.",
+    data_type: 'public_stats',
+  },
+  {
+    agency_name: 'Centre for Cybersecurity Belgium (CCB) — Safeonweb',
+    country: 'BE',
+    country_name: 'Belgium',
+    url: 'https://ccb.belgium.be/',
+    description:
+      "Belgium's national cybersecurity authority runs Safeonweb, the public reporting platform where citizens forward suspected phishing and scam messages to suspicious@safeonweb.be; the CCB periodically publishes figures on messages received and threats blocked, including nearly 10 million suspicious alerts logged in 2025.",
+    data_type: 'public_stats',
+  },
+  {
+    agency_name: 'Cybercrime Unit, Public Security Directorate (PSD)',
+    country: 'JO',
+    country_name: 'Jordan',
+    url: 'https://www.psd.gov.jo/',
+    description:
+      "Jordan's national police cybercrime unit, within the Public Security Directorate's Criminal Investigation Department, investigates online fraud and scam reports filed via the emergency line (911) or in person, and issues public warnings and case updates through its own and national media channels rather than a consolidated report or dataset.",
+    data_type: 'public_stats',
+  },
+  {
+    agency_name: 'Consumer Protection Department — Ministry of Commerce',
+    country: 'SA',
+    country_name: 'Saudi Arabia',
+    url: 'https://mc.gov.sa/en/About/Departments/cp/pages/default.aspx',
+    description:
+      "Saudi Arabia's Ministry of Commerce investigates commercial-fraud and deceptive-practice complaints filed through its Balagh Tejari app and 1900 hotline, publishing enforcement actions and violator names rather than a formal annual report or open dataset.",
+    data_type: 'public_stats',
+  },
 ];
