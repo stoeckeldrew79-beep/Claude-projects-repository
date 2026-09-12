@@ -6869,3 +6869,29 @@ UsNS.push({
     isHistorical: true,
     firstRecorded: '2025-12-17',
 });
+
+UsNS.push({
+    name: 'Broken Arrow Employee-Owned Business Fictitious-Vendor Fraud (Ritter and Mills)',
+    slug: 'oklahoma-broken-arrow-ritter-mills-fictitious-vendor-fraud',
+    description: `Brad William Ritter, an executive at an employee-owned business in Broken Arrow, Oklahoma, used his position beginning in at least 2018 to approve and submit invoices from a company set up in the name of Toby Le Mills, also of Broken Arrow, billing his own employer for services Mills's company never actually performed. The two men split the proceeds for years before the scheme was uncovered in January 2022, by which point the fake invoices had generated $3,797,500 in fraudulent payments from the company. Ritter and Mills each pleaded guilty on April 3, 2024 to one count of conspiracy to commit wire fraud in the U.S. District Court for the Eastern District of Oklahoma, and were sentenced on May 27, 2025 — Ritter to 41 months in federal prison and Mills to 33 months. The court ordered $3,797,500 in restitution, entered a money judgment against Mills for $1,059,958, and ordered forfeiture from Ritter of $697,863.67 already seized plus a further $2,029,678.33 forfeiture money judgment. The case shows how an employee with authority over both a company's vendor list and its invoice approvals can invent a vendor and bill an employer for years before anyone notices — a business should require that any new vendor be independently verified (a real business address, a phone number answered by someone other than the employee who proposed the vendor, and a check against the Oklahoma Secretary of State's business-entity database) before its invoices are approved, especially when the same employee both selects the vendor and signs off on paying it.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'medium',
+    sources: ['Internal Revenue Service Criminal Investigation', "U.S. Attorney's Office, Eastern District of Oklahoma"],
+    sourceUrl: 'https://www.irs.gov/compliance/criminal-investigation/broken-arrow-residents-sentenced-for-massive-fraud-scheme',
+    country: 'US',
+    state: 'OK',
+    isHistorical: true,
+    firstRecorded: '2018-01-01',
+});
+
+UsNS.push({
+    name: 'Bismarck Sweepstakes "Unlock the Prize" Fraud (Edwards, Brown, Esperance and Anderson)',
+    slug: 'north-dakota-bismarck-sweepstakes-prize-unlock-fraud',
+    description: `Bismarck police say four Florida residents — Kimanie Edwards, Venton Brown, Jean Esperance, and Marcel Anderson — targeted a Bismarck resident who was already receiving help from Vulnerable Adult Protective Services, telling the victim they had won a sweepstakes prize and then directing a series of payments toward supposed fees needed to "unlock" the winnings. According to a police affidavit, the scheme cost the victim nearly $60,000 in direct payments, with the total financial exposure tied to the scam potentially reaching as much as $300,000 once related transactions are accounted for. Arrest warrants have been issued for all four out-of-state suspects on charges of being accomplices to theft, a felony punishable by up to 20 years in prison under North Dakota law. The case follows a pattern common to prize and sweepstakes scams aimed at older or vulnerable adults: a genuine prize never requires the winner to pay a fee, tax, or "unlocking" cost before receiving it, and family members or caseworkers involved in an older adult's care should treat any request to wire money or buy gift cards to claim a prize as an immediate red flag, verifying with the adult's bank and local police before any payment goes out.`,
+    categorySlug: 'lottery-sweepstakes-scams',
+    alertLevel: 'high',
+    sources: ['Bismarck Police Department', 'Bismarck Tribune'],
+    sourceUrl: 'https://bismarcktribune.com/news/local/bismarck/warrants-issued-in-scam-that-might-have-cost-bismarck-resident/article_1dac13f1-94cd-5246-9738-5f513ddc8d3d.html',
+    country: 'US',
+    state: 'ND',
+});
