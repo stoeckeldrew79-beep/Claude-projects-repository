@@ -9321,3 +9321,20 @@ The MBA Forex case illustrates how quickly a Ponzi scheme can disappear once the
     sourceUrl: 'https://www.legit.ng/business-economy/money/1446905-n213bn-fraud-efcc-declares-popular-forex-firm-boss-wanted-releases-photo/',
   },
 );
+
+NotoriousGM.push(
+  {
+    title: "Arif Patel and the £97 Million Carousel Fraud That He's Still Running From",
+    slug: 'arif-patel-faisaltex-carousel-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'international'],
+    body: `Arif Patel ran Faisaltex Ltd, a sock and textile manufacturing business based in Preston, England, that on paper looked like an ordinary northern English clothing exporter. Underneath, HM Revenue and Customs says Patel used the company and a web of associated firms to run one of Britain's largest-ever "carousel" VAT frauds — a scheme in which goods are passed in a circular chain between shell companies, generating false export and import paperwork at each step so the ringleaders can submit fabricated VAT-repayment claims to HMRC for tax that was never actually paid on the underlying trade. Patel's gang used the technique against false exports of textiles and mobile phones, attempting to steal £97 million from British taxpayers. In parallel, the same organisation imported and distributed counterfeit designer clothing that would have been worth roughly £50 million had it been genuine.
+
+The investigation, run jointly by HMRC and Lancashire Police, eventually identified more than two dozen people involved in the operation. Patel travelled to Dubai in July 2011 and did not return to the United Kingdom, remaining there as the case against him and his network proceeded without him. A 14-week trial at Chester Crown Court concluded in April 2023 with Patel and his Dubai-based associate Mohamed Jaffar Ali convicted in their absence of fraud and money laundering offences, receiving a combined 31 years' imprisonment neither man has yet served. Separately, across five earlier trials held between 2011 and 2014, 24 other members of the network were convicted and sentenced to a combined total of more than 116 years in prison — one of the largest single tally of prison time HMRC has ever secured from one investigation.
+
+Patel used the proceeds to build a property empire spread across Preston, London, Morocco, the United Arab Emirates, Saudi Arabia, and Turkey, routed through offshore companies and bank accounts designed to obscure where the money had originally come from. On August 28, 2025, more than two years after his conviction, a judge at Chester Crown Court made a confiscation order requiring Patel to hand over £90,503,211 in available assets, including the sale of his restrained properties and a Ferrari 575 Superamerica, with the recovered funds earmarked for UK public services. As of that order, Patel remained a fugitive, still believed to be living in Dubai and still unpaid on a nine-figure debt to the British state.
+
+Patel's case shows how a real, operating business — a textile factory with real premises, real staff, and real export paperwork — can be used as the engine for a fraud that dwarfs the legitimate business hiding it, and how a conviction and a nine-figure confiscation order can still mean very little in practice when the person they're aimed at has already put himself beyond a court's reach. More than 14 years after he first left for Dubai, Britain's ability to actually collect what Arif Patel owes still depends on a country with no obligation to send him back.`,
+    sourceUrl: 'https://www.mynewsdesk.com/uk/hm-revenue-customs-hmrc/pressreleases/carousel-tax-fraudster-loses-90-pounds-million-property-empire-3401619',
+  },
+);
