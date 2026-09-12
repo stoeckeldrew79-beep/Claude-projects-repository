@@ -3973,3 +3973,17 @@ UsTZ.push({
     isHistorical: true,
     firstRecorded: '2024-08-01',
 });
+
+UsTZ.push({
+    name: "Lake Sammamish Restaurant Owner's $515,000 Elder Financial Exploitation Scheme (Richard Radcliffe)",
+    slug: 'washington-radcliffe-lake-sammamish-elder-exploitation-scheme',
+    description: `Richard Dale Radcliffe, 62, the former owner of a restaurant near Lake Sammamish, Washington, befriended an elderly widow with no surviving family who lived near the restaurant and who was suffering cognitive decline. According to the Internal Revenue Service and the U.S. Attorney's Office for the Western District of Washington, Radcliffe arranged for an associate to become her power of attorney while he personally retained access to and control over her bank accounts, and had himself named as a beneficiary of her will. He then convinced the power-of-attorney holder to liquidate more than $800,000 from the woman's retirement account, using the proceeds to buy himself a home in North Carolina under the false claim that he was owed reimbursement for expenses, ultimately embezzling $515,000 of her money for real estate, gambling, and travel. After the victim died, Radcliffe attempted to collect on her life insurance policy by impersonating her deceased spouse. He also failed to report $437,000 of the embezzled funds as income on his 2021 tax return, leaving $124,000 owed to the IRS. Radcliffe pleaded guilty on November 12, 2025 to wire fraud and filing a false tax return, and on March 10, 2026, U.S. District Judge Lauren King sentenced him to 30 months in prison — below the 46 months prosecutors requested — plus three years of supervised release, a $20,000 fine, forfeiture of the $515,000 he took, and $124,000 in restitution to the IRS. Judge King told Radcliffe he had "exploited her for your gain to the tune of half a million dollars." The case, investigated by IRS Criminal Investigation, the FBI, the King County Sheriff's Office, and Washington State Adult Protective Services, illustrates a slower-moving and harder-to-spot form of elder financial exploitation than a one-time scam call: a trusted "friend" who gradually inserts himself into an isolated senior's financial and legal affairs, arranges a power of attorney he doesn't hold himself but still controls, and drains accounts over years rather than days. Family members, neighbors, or bank staff who notice an elderly person with no close family suddenly relying heavily on one unrelated "friend" for financial decisions, or a new power of attorney or beneficiary change benefiting someone outside the family, should contact Adult Protective Services or the person's bank fraud department to ask questions before major assets are moved.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office, Western District of Washington", 'IRS Criminal Investigation', 'KIRO 7 News'],
+    sourceUrl: 'https://www.irs.gov/compliance/criminal-investigation/former-restauranteur-sentenced-to-30-months-in-prison-for-defrauding-elderly-victim',
+    country: 'US',
+    state: 'WA',
+    isHistorical: true,
+    firstRecorded: '2021-01-01',
+});

@@ -7118,3 +7118,17 @@ UsNS.push({
     country: "US",
     state: "DC",
 });
+
+UsNS.push({
+    name: 'Bronx Man\'s AI Voice-Cloned "Grandchild" Bail Scam Across New Hampshire (Oumar Diallo)',
+    slug: 'new-hampshire-diallo-ai-voice-clone-grandparent-bail-scam',
+    description: `Oumar Diallo, then 22, of the Bronx, New York, pleaded guilty to six charges — including theft by deception and receiving stolen property — across three separate cases tied to a cross-country "grandparent" bail scam that hit victims in Bedford, New Boston, Lyndeborough, Keene, Jaffrey, and other New Hampshire communities in early 2024, as well as victims in Maine, Massachusetts, Nevada, and California, taking in more than $200,000 total. In the scam's core script, an older victim received a phone call in which a voice claiming to be their grandchild said they had been arrested after a serious car accident and needed bail money sent immediately, often adding pressure not to tell other family members. A New Boston, New Hampshire victim who lost $24,000 told investigators the caller's voice sounded so much like her actual grandson that she suspected the callers had used AI voice-cloning technology to imitate him rather than simply having someone fake a similar voice — two victims were scammed out of $24,000 each and a third lost $20,000. Diallo's role was to act as the network's courier, traveling to New Hampshire towns to personally collect the cash victims believed they were using to post bail, and a photograph of his car taken during one pickup became the pivotal piece of evidence that let investigators track him down and arrest him in Redondo Beach, California on April 27, 2024. Hillsborough County Superior Court Judge William Delker sentenced Diallo to four to eight years in state prison, crediting 390 days already served pretrial and allowing 21 months of the sentence to be suspended if Diallo completes educational requirements including earning a GED, along with a restitution order and a no-contact order covering all victims. Families can blunt this scam regardless of how convincing the caller's voice sounds by agreeing in advance on a private verification phrase only real family members would know, and by always hanging up and calling the relative back directly at a known phone number — or another family member — before sending any bail money, especially through an in-person cash pickup rather than an official court or bail-bond payment channel.`,
+    categorySlug: 'family-emergency-scams',
+    alertLevel: 'high',
+    sources: ['My Keene Now', 'Union Leader (Manchester, NH)'],
+    sourceUrl: 'https://mykeenenow.com/news/219912-guilty-plea-in-cross-country-scam-that-targeted-monadnock-region-residents/',
+    country: 'US',
+    state: 'NH',
+    isHistorical: true,
+    firstRecorded: '2024-01-01',
+});

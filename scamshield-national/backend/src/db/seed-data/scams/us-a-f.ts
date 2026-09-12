@@ -8212,3 +8212,17 @@ UsAF.push({
     country: "US",
     state: "DC",
 });
+
+UsAF.push({
+    name: 'Dothan Tax Preparer $2.1 Million Fraudulent Refund Scheme (Carlotta Lampley)',
+    slug: 'alabama-dothan-lampley-tax-preparer-fraud-scheme',
+    description: `Carlotta Elaine Lampley, 41, ran a tax preparation business in Dothan, Alabama starting in 2015, and for tax years 2020 through 2025 prepared and filed false federal tax returns both for paying clients and for herself, according to the U.S. Attorney's Office for the Middle District of Alabama. Investigators say Lampley fabricated business income and inflated profits on client returns to generate larger, fraud-driven refunds, then routinely withheld her preparation fee directly from the refund before passing along what was left — a structure that let her control the numbers at every step while clients had little way to check the return's accuracy themselves. Prosecutors said the total tax loss from the scheme reached roughly $2.1 million, and that Lampley did not stop after being indicted in September 2025: while free on bond and under an explicit court order not to commit further crimes, she kept preparing and filing more false returns. She was sentenced on September 10, 2026 to 57 months (four years, nine months) in federal prison, to be followed by three years of supervised release, and ordered to pay $314,247 in restitution — $251,332 tied to client returns and $62,915 for her own fraudulent personal filings. U.S. Attorney Thomas Govan said, "What makes this case particularly troubling is that the defendant did not change her ways after being indicted." The case is a reminder that a tax preparer who guarantees an unusually large refund, calculates fees as a percentage of that refund, or won't provide a copy of the return before filing is exhibiting classic warning signs; taxpayers should choose preparers registered with the IRS (verifiable through the IRS Directory of Federal Tax Return Preparers), review the full return and confirm any bank routing and account numbers before it is filed, and make sure a refund is deposited to their own account rather than the preparer's.`,
+    categorySlug: 'tax-scams',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office, Middle District of Alabama", 'WTVY'],
+    sourceUrl: 'https://www.wtvy.com/2026/09/11/dothan-tax-specialist-sentenced-federal-prison-time-21m-fraud-scheme/',
+    country: 'US',
+    state: 'AL',
+    isHistorical: true,
+    firstRecorded: '2020-01-01',
+});

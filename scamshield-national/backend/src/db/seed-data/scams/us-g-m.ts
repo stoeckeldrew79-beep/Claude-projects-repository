@@ -7118,3 +7118,17 @@ UsGM.push({
     country: 'US',
     state: 'IL',
 });
+
+UsGM.push({
+    name: 'Fake DoorDash "Support" Call Drains Brooklyn Park Driver\'s Earnings (Donna Olheiser)',
+    slug: 'minnesota-doordash-fake-support-call-olheiser-account-drained',
+    description: `Donna Olheiser, a DoorDash driver in Brooklyn Park, Minnesota, was in the middle of picking up an order in June 2026 when the order suddenly canceled and her phone rang with a caller claiming to be DoorDash support following up on the problem. Believing she was talking to the platform's own staff, Olheiser gave the caller a verification code that had been sent to her phone — the same kind of one-time code DoorDash's real systems use to confirm account changes. She continued making deliveries for the rest of her shift, only to discover afterward that her account had been locked, more than $400 in earnings and savings had been drained out of it, and she had been deactivated as a driver entirely. Local police who reviewed her case told FOX 9 that drivers and other gig workers should "never give secondary identification codes over the phone, no matter who is calling," since no legitimate platform support call needs a driver to read back a verification code to resolve an order issue. DoorDash said it had referred Olheiser's case to its critical investigations team, but as of the report she had not gotten her money back or her driver account restored. The scheme reflects a broader, increasingly common pattern of scammers impersonating "Dasher support," Uber, or other gig-platform support lines by phone specifically to phish the one-time codes that unlock account and payout access — a driver on any delivery or rideshare platform should end an unexpected support call, open the app directly, and contact the platform only through its official in-app help channel before sharing any code or account detail.`,
+    categorySlug: 'account-takeover',
+    alertLevel: 'medium',
+    sources: ['FOX 9 Minneapolis-St. Paul', 'DoorDash'],
+    sourceUrl: 'https://www.fox9.com/news/doordash-scam-minnesota-drivers-lose-hundreds-fake-support-calls',
+    country: 'US',
+    state: 'MN',
+    isHistorical: true,
+    firstRecorded: '2026-06-01',
+});
