@@ -16205,3 +16205,43 @@ International.push(
     country: 'CZ',
   },
 );
+
+International.push(
+  {
+    name: "\"A.K. Group\" Tbilisi Call-Center Fake Crypto and Forex Investment Fraud",
+    slug: "georgia-ak-group-tbilisi-crypto-investment-call-center-fraud",
+    description:
+      "An investigation published March 5, 2025 by OCCRP, Georgian outlet Studio Monitor, and more than 30 partner newsrooms as part of the \"Scam Empire\" series exposed a Tbilisi-registered telemarketing firm, A.K. Group, that ran a boiler-room-style investment fraud from May 2022 to February 2025, taking in more than $35.3 million from over 6,100 victims worldwide. Agents working under fabricated identities and armed with forged photo IDs and passport scans posed as British, French, or Spanish financial advisers, luring victims through social media ads for fake trading platforms with names like \"Golden Currencies\" into depositing money that was supposedly being invested in cryptocurrency, stocks, or forex; onscreen balances were manipulated to show steady gains and encourage larger deposits, while any real withdrawal request was delayed, blocked, or ignored. Reporters identified the firm's registered owner, Meri Shotadze, who worked under the alias \"Kseniya Koen\" and enforced aggressive sales scripts, and Akaki Kevkhishvili, who investigators said was the network's de facto operator and personally extracted more than $130,000, while leaked recordings captured one top-earning agent — using the alias \"Mary Roberts\" and pulling in more than $20,000 a month — mocking a victim who threatened to call police: \"You are so laughy. You are so stupid. Even if you call the police of Canada ... you will never find my real passport.\" Confirmed victims spanned Canada, Estonia, Spain, and Norway, among other countries, and the exposé noted that one of A.K. Group's call centers operated for years just 500 meters from the headquarters of Georgia's State Security Service — a detail that took on new weight after prosecutors arrested the agency's former head, Grigol Liluashvili, on December 23, 2025 on charges of taking roughly $1.365 million in bribes to protect scam call-center networks between 2021 and 2023. The case is a reminder that a cold-called \"financial adviser\" cannot be verified by their claimed nationality or a scanned ID card, that a trading dashboard showing rising balances proves nothing about whether real money is actually being invested, and that any platform that stalls a withdrawal after accepting new deposits should be treated as a fraud already in progress.",
+    categorySlug: "investment-fraud",
+    alertLevel: "critical",
+    sources: ["OCCRP", "Studio Monitor (Georgia)"],
+    sourceUrl: "https://www.occrp.org/en/project/scam-empire/diamonds-dior-and-dubai-vacations-the-luxurious-lives-of-georgias-call-center-scammers",
+    country: "GE",
+    firstRecorded: "2022-05-01",
+  },
+  {
+    name: "Tbilisi Call-Center Network Defrauding European Investors via Fake Trading Platforms",
+    slug: "georgia-tbilisi-call-center-european-investor-fraud-network",
+    description:
+      "Georgia's Prosecutor General's Office announced on November 10, 2022 that, working with authorities in seven other countries, it had raided five call centers spread across Tbilisi and other Georgian cities that were defrauding investors — chiefly in Germany — through fake online trading platforms. Callers posed as representatives of ostensibly legitimate brokerages and persuaded targets to open accounts and deposit funds meant to be invested in securities, commodities, currencies, and cryptocurrencies; once money arrived, it was routed into accounts held by shell companies and then transferred on to Georgia-based accounts, nominally as payment for \"services rendered,\" separating victims' money from any real trading activity. Investigators traced roughly €9.49 million, $716,642, and £218,000 in laundered proceeds to the network from 2021 alone, and the coordinated raids led to hundreds of phones, computers, and documents being seized along with cash, and the arrest of at least one foreign national accused of running part of the operation; both Georgian and Israeli citizens were identified among the participants. The Prosecutor General's Office said the searches targeted \"so-called call centers\" operating under the guise of ordinary telemarketing businesses, a structure that has repeatedly resurfaced in later Georgian call-center cases, including the 2025 \"Scam Empire\" exposé of the unrelated A.K. Group network. The case illustrates that an unsolicited call inviting a deposit into an online trading account — however professionally the caller presents themselves — should be checked against the customer's own national financial regulator's list of licensed brokers before any money moves, since funds routed to a call center are, by design, already disconnected from any real investment.",
+    categorySlug: "investment-fraud",
+    alertLevel: "high",
+    sources: ["Prosecutor General's Office of Georgia", "JAMnews"],
+    sourceUrl: "https://jam-news.net/call-center-fraud-international-criminal-scheme-uncovered-in-georgia/",
+    country: "GE",
+    isHistorical: true,
+    firstRecorded: "2021-01-01",
+  },
+  {
+    name: "WhatsApp \"Hijacked Contact\" and Bank-Impersonation Phishing Scam",
+    slug: "georgia-whatsapp-hijacked-contact-bank-phishing-scam",
+    description:
+      "The Banking Association of Georgia issued a public warning on June 10, 2026 about two fraud schemes it said were spreading rapidly among the country's bank customers. In the first, criminals send messages over WhatsApp or similar apps while posing as an acquaintance or relative of the recipient — typically using an already-compromised account or a cloned profile photo and name — either asking the victim to make a payment on the \"relative's\" behalf or directing them to a counterfeit website that requests bank card numbers or other personal details. In the second, fraudulent emails made to look as though they come from a Georgian bank tell recipients they must \"update\" identification information to comply with new regulatory requirements, a pretext used to harvest banking credentials and personal data directly. The Association stated plainly that \"banks never request confidential data through websites or messages\" and urged customers to verify any such request only through a bank's official app or a phone number printed on their card, never a link or number supplied in the message itself, and advised enabling two-factor authentication, keeping device software updated, and immediately blocking a card and changing passwords if information has already been entered on a suspicious site. The pattern mirrors a wave of separate warnings the National Bank of Georgia has issued since 2023 about fraudsters impersonating banking institutions over messaging apps, underscoring that a message that appears to come from a known contact's account is no guarantee the person typing it is who they claim to be.",
+    categorySlug: "phishing",
+    alertLevel: "medium",
+    sources: ["Banking Association of Georgia", "Georgia Today"],
+    sourceUrl: "https://georgiatoday.ge/banking-association-of-georgia-warns-of-rising-phishing-and-messaging-scams/",
+    country: "GE",
+    firstRecorded: "2026-06-10",
+  },
+);
