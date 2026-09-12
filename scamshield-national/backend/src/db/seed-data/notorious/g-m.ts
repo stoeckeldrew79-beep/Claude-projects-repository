@@ -8902,6 +8902,48 @@ Middle Class United's pitch is a reminder that "cooperative" and "membership" ar
 // here only briefly to avoid duplicating that profile. No booking photo or
 // other rights-cleared image of Allen or Cox was found, so sourceUrl links
 // to the Texas State Securities Board's announcement of the verdict.
+// Criminal conspiracy case with a guilty plea and completed sentencing
+// (Western District of Washington). No booking photo or other
+// rights-cleared image of Auyeung was located, so sourceUrl links to the
+// U.S. Attorney's Office press release instead.
+NotoriousGM.push(
+  {
+    title: 'Geoffrey Auyeung and the 81 Bank Accounts Built for a Fake Oil Storage Deal',
+    slug: 'geoffrey-auyeung-oil-storage-money-laundering',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    body: `Geoffrey K. Auyeung, 47, of Newcastle, Washington, didn't run the investment scam that stole tens of millions of dollars from victims around the world — according to prosecutors, his job was making sure the money coming out of it disappeared. Between August 2022 and August 2024, Auyeung set up at least nine shell entities, including Sea Forest International LLC, Apex Oil and Gas Trading LLC, and Navigator Energy Logistics LLC, and used them to open at least 81 bank accounts at 24 different financial institutions plus 19 accounts on eight cryptocurrency exchanges. Victims who wired money into those accounts believed they were funding legitimate escrow arrangements tied to oil tank storage space in Rotterdam, Netherlands, or Houston, Texas, with attractive rental returns promised on the back end. There was no oil storage deal. According to the Justice Department, Auyeung's accounts took in $97.1 million in wire transfers and deposits over the scheme's run, of which investigators traced at least $24.7 million directly to defrauded investors, before he rapidly moved the funds onward — converting much of it into Bitcoin, Ethereum, Tether, and USD Coin through exchanges including Coinbase, Gemini, and BitStamp, and ultimately routing cryptocurrency to Binance accounts controlled by co-conspirators in Nigeria and Russia.
+
+Auyeung wasn't a passive pass-through, prosecutors said — he collected at least $4,078,348 in commissions for laundering the money, keeping a percentage as it passed through his network of accounts. He was arrested on a criminal complaint on August 12, 2024, and a federal grand jury indicted him later that month. According to the U.S. Attorney's Office, that didn't end his involvement: First Assistant U.S. Attorney Neil Floyd said that "even after he was indicted and arrested, Auyeung spent 16 months secretly still communicating with his co-conspirators," using his wife's bank accounts to launder an additional $400,000 in fraud proceeds between his indictment and December 2025.
+
+Auyeung pleaded guilty in February 2026 to one count of conspiracy to commit money laundering in the U.S. District Court for the Western District of Washington in Seattle. On June 9, 2026, U.S. District Judge John C. Coughenour sentenced him to five years in federal prison, telling him the sentence was driven by "the scope and magnitude of this fraud." Judge Coughenour also ordered $24,707,031 in restitution and roughly $10 million in forfeiture, including about $2.3 million in cash and funds seized at his arrest, a forfeited Audi SQ8, and his agreement not to contest civil forfeiture of a further $7.1 million seized from cryptocurrency wallets. "Mr. Auyeung took advantage of investors who thought they were invest[ing] in the oil and gas industry," said Acting HSI Seattle Special Agent in Charge April Miller. "Not just Americans, but people all around the world." The case was investigated by Homeland Security Investigations' Seattle field office and IRS Criminal Investigation.
+
+Auyeung's case is a reminder that the person who takes a victim's wire transfer is rarely the same person who dreamed up the pitch, and that a scheme built entirely on shell companies and a rotating cast of 81 bank accounts across two dozen institutions can move nearly $100 million before a single account gets flagged — the paperwork of legitimacy, in a case like this, is the entire product.`,
+    sourceUrl: 'https://www.ice.gov/news/releases/hsi-seattle-irs-ci-investigation-leads-5-year-sentence-washington-man-convicted',
+  },
+);
+
+// Criminal conspiracy case with a guilty plea and completed sentencing
+// (Central District of California). No booking photo or other
+// rights-cleared image of Su was located, so sourceUrl links to the
+// Secret Service's announcement of the sentencing.
+NotoriousGM.push(
+  {
+    title: 'Jingliang Su and the Cambodia Pipeline That Turned Stolen Crypto Into Tether',
+    slug: 'jingliang-su-cambodia-crypto-scam-laundering',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    body: `Jingliang Su was one link in a longer chain: a member of an international network that ran fake cryptocurrency trading platforms out of scam centers in Cambodia and used them to defraud 174 Americans of more than $36.9 million. According to the U.S. Attorney's Office for the Central District of California, the network's front end worked the way most "pig butchering" schemes do — contacting victims through social media, dating apps, and unsolicited texts, building a relationship or friendship over weeks or months, and eventually steering them toward a slick, convincing crypto-trading website that showed their "investment" growing. The trading platforms and the profits they displayed were fabricated; the only real money movement was victims' deposits flowing out.
+
+Su's role was on the back end, moving that money once it arrived. Prosecutors said victim funds were first funneled from U.S. bank accounts controlled by the conspiracy through shell companies, then consolidated into a single account at Deltec Bank in the Bahamas. From there, Su and his co-conspirators directed the bank to convert the funds into the stablecoin Tether (USDT) and transfer the converted cryptocurrency to a digital wallet controlled in Cambodia, where it was distributed onward to the leaders of the scam centers running the actual fraud. Su pleaded guilty in June 2025 to one count of conspiracy to operate an unlicensed money transmitting business.
+
+On January 27, 2026, U.S. District Judge R. Gary Klausner sentenced Su to 46 months in federal prison and ordered him to pay $26,867,242.44 in restitution. He was one of at least nine defendants charged in the network; co-conspirators Jose Somarriba and ShengSheng He received separate sentences of 36 and 51 months. "This defendant and his co-conspirators scammed 174 Americans out of their hard-earned money," said Acting Assistant Attorney General A. Tysen Duva. "In the digital age, criminals have found new ways to weaponize the internet for fraud." First Assistant U.S. Attorney Bill Essayli added, "New investment opportunities may sound intriguing, but they have a dark side: attracting criminals who, in this case, stole then laundered tens of millions" of dollars from victims.
+
+Su's case shows how thoroughly the pig-butchering economy has industrialized: a dedicated recruiting front, a dedicated banking-and-conversion layer routed through an offshore bank and a stablecoin, and a dedicated distribution network back to the scam centers doing the actual talking to victims — with a specific individual, in Su, whose entire job in the operation was making sure Americans' stolen dollars came out the other side as untraceable crypto.`,
+    sourceUrl: 'https://www.secretservice.gov/newsroom/releases/2026/01/chinese-national-sentenced-prison-role-crypto-scam-targeting-americans',
+  },
+);
+
 NotoriousGM.push(
   {
     title: 'Joshua Allen and Michael Cox and the Ferrum Capital Notes That Needed "Jesus Coming Back" to Fail',
