@@ -7607,3 +7607,28 @@ UsAF.push({
     state: 'AL',
     firstRecorded: '2026-09-08',
 });
+
+UsAF.push({
+    name: 'Delaware Division of Professional Regulation Investigator Impersonation Scam',
+    slug: 'delaware-dpr-investigator-impersonation-call-scam',
+    description: `Delaware's Division of Professional Regulation (DPR), which licenses professions ranging from cosmetology to real estate to healthcare, has been running an ongoing scam alert warning licensees that they may receive a phone call from someone impersonating a DPR investigator, a board member, or another government agency official. The calls sometimes come from a random cell number and sometimes spoof the Division's own main line, (302) 744-4500, so it displays correctly on caller ID, and they lean on the fact that a licensee facing a genuine complaint would want to resolve it right away, pressuring the target to act before checking whether any real investigation exists. DPR is explicit that it processes all licensing payments online through its own DELPROS portal only, and that a legitimate investigator never calls asking for money directly. Anyone who gets a call like this is advised to hang up, never call back the number that phoned them, and instead verify independently — either through DELPROS or by calling the Division's Investigative Unit directly — whether a complaint has actually been filed against their license, and to report a suspected attempt to the FTC at 1-877-382-8357.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Delaware Division of Professional Regulation'],
+    sourceUrl: 'https://dpr.delaware.gov/scam-alert-information/',
+    country: 'US',
+    state: 'DE',
+});
+
+UsAF.push({
+    name: 'Newark "Fresh Delaware" Fake Marijuana Delivery Scam',
+    slug: 'delaware-fresh-delaware-marijuana-delivery-impersonation-scam',
+    description: `The Delaware Division of Alcohol & Tobacco Enforcement (DATE) issued a scam alert on October 16, 2025 after fraudsters began circulating counterfeit business cards and flyers around Newark and the University of Delaware campus, falsely presenting themselves as "Fresh Delaware," a real, state-licensed marijuana dispensary, and offering home delivery to students and residents. The offer itself is a tell: Delaware's licensed recreational marijuana retailers are not permitted to deliver product at all, since only medical marijuana can legally be delivered, and only to a registered qualifying patient, so any adult-use "delivery service" cannot be coming from a legitimately licensed dispensary. Beyond the risk of paying for a product that never arrives, DATE warned that whatever does get delivered under this scheme has bypassed every one of Delaware's mandatory safety tests, meaning it could contain mold, pesticides, or heavy metals with no lab results to catch it. DATE's Marijuana Enforcement Unit asked anyone with information about the operation to contact Cpl. Tristin Burris directly, and advised that anyone looking to buy recreational marijuana in Delaware first confirm a seller's license through the state's own official adult-use marketplace listing rather than trusting a flyer or business card handed out on the street.`,
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'medium',
+    sources: ['Delaware Division of Alcohol & Tobacco Enforcement'],
+    sourceUrl: 'https://news.delaware.gov/2025/10/16/scam-operation-impersonating-marijuana-dispensary/',
+    country: 'US',
+    state: 'DE',
+    firstRecorded: '2025-10-16',
+});

@@ -6390,3 +6390,16 @@ UsGM.push({
     state: 'MN',
     firstRecorded: '2025-06-04',
 });
+
+UsGM.push({
+    name: 'Montana DLI "Bridget Hawkins" Code-Enforcement Phishing Email Scam',
+    slug: 'montana-dli-bridget-hawkins-code-enforcement-phishing-scam',
+    description: `The Montana Department of Labor & Industry (DLI) warned residents and businesses on February 10, 2026 about a phishing campaign in which fraudsters impersonate DLI officials — using invented names such as "Bridget Hawkins" — in emails made to look like they come from the department's Building Codes Program. The messages reference a "code enforcement notice," ask the recipient to confirm receipt of an attached document, and press them to sign and return it, dressing the pitch up with an official-looking signature block, DLI-style contact details, and department logos. The tell is in the sending address: the emails actually originate from lookalike domains, including variations of "disseminare.com," rather than a genuine @mt.gov or @dli.mt.gov address. DLI said it received a cluster of reports from across the state within just a few days of the campaign surfacing, and stressed that any real code-enforcement or licensing communication from the department will always come from its own .mt.gov domain. Recipients are advised not to reply, click any link, or open the attachment, to delete the email, to verify anything DLI-related directly by calling (406) 841-2056 or visiting the department's own website, and to report the message to Montana's Office of Consumer Protection at (406) 444-4500 or 1-800-481-6896.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Montana Department of Labor & Industry'],
+    sourceUrl: 'https://news.dli.mt.gov/News/2026/02/scam-warning',
+    country: 'US',
+    state: 'MT',
+    firstRecorded: '2026-02-10',
+});
