@@ -6405,6 +6405,44 @@ UsGM.push({
 });
 
 UsGM.push({
+    name: 'Iowa Alliant Energy Utility Disconnection Threat Scam',
+    slug: 'iowa-alliant-energy-disconnection-threat-scam',
+    description: `Alliant Energy, one of Iowa's largest electric and natural gas utilities, warns that scammers are calling its Iowa customers, sometimes spoofing caller ID to display the company's own name or automated phone menu, and threatening to cut off service within the hour unless payment is made immediately. The callers pressure customers to buy prepaid debit or Green Dot cards and read off the card numbers over the phone, or in some versions ask for payment by email — both channels Alliant says it never uses. In several reported cases scammers gave customers a callback number that itself spoofed Alliant's own automated customer-service system, so hanging up and redialing that number did not expose the fraud. Alliant and the Iowa Attorney General's office confirm the utility only warns of disconnection in writing before any real shutoff for nonpayment, never demands instant payment by phone to avoid it, and never asks for prepaid cards or payment by email; a customer who gets a call like this should hang up and reach Alliant directly at its published number, 1-800-ALLIANT (800-255-4268), rather than any number the caller provides.`,
+    categorySlug: 'utility-scams',
+    alertLevel: 'high',
+    sources: ['Alliant Energy', "Iowa Attorney General's Office"],
+    sourceUrl: 'https://www.iowaattorneygeneral.gov/for-consumers/general-consumer-information/phone-scams/utility-phone-scams',
+    country: 'US',
+    state: 'IA',
+});
+
+UsGM.push({
+    name: 'Iowa Secretary of State Forged Surety Letter Scam (World Trade Coal)',
+    slug: 'iowa-secretary-of-state-forged-surety-letter-scam',
+    description: `Iowa Secretary of State Paul Pate issued a public warning on April 10, 2025 after a business calling itself World Trade Coal (WTC) began soliciting investments from Iowans using a fraudulent "letter of surety" that copied Pate's actual signature and the official seal of the Iowa Secretary of State's office to make the pitch look government-backed. "While this certificate displays my signature and our seal, it is counterfeit and has not been approved or issued by my office," Pate said, adding that his office had received a number of complaints from affected Iowans and referred them for investigation. The scheme illustrates a pattern con artists use nationwide, borrowing the credibility of a real state office's seal and signature to vouch for an investment the office has no actual role in, and Pate noted that genuine communications from the Secretary of State's office always include real contact information that a recipient can independently verify. Iowans approached with any document bearing a state seal or official's signature backing an investment or business deal should verify it directly with the Secretary of State's office rather than trusting the document itself, and should independently research any company before entering a partnership or wiring money.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Iowa Secretary of State'],
+    sourceUrl: 'https://sos.iowa.gov/news-resources/iowa-secretary-state-warns-fraudulent-business-targeting-iowans',
+    country: 'US',
+    state: 'IA',
+    firstRecorded: '2025-04-10',
+});
+
+UsGM.push({
+    name: 'Massachusetts BHPL Investigator Impersonation Extortion Scheme',
+    slug: 'massachusetts-bhpl-investigator-impersonation-extortion-scam',
+    description: `The Massachusetts Bureau of Health Professions Licensure (BHPL), which oversees licensing boards for nurses, physicians, pharmacists, and other health professionals, warned licensees in December 2024 of an ongoing extortion scheme in which callers impersonate BHPL investigators alongside DEA agents, DEA investigators, Massachusetts Drug Control Unit investigators, and FBI agents. The calls, texts, or letters falsely claim the licensee is under investigation and that their license is suspended or in jeopardy, sometimes telling the target the call is being recorded on a "secure line" to add pressure, before demanding sensitive information such as an NPI number, DEA registration number, or bank details. BHPL says it will never call a licensee by phone to demand money, that a real investigator may call only to schedule an interview or request documents, and that any actual board action like a suspension or revocation is always sent in writing to the licensee's address of record — never delivered as a surprise phone threat. Licensees who get a suspicious call are told to hang up and call BHPL directly at 617-973-0800 to confirm whether it was legitimate, and to report the attempt to the FBI's Boston Field Office at 857-386-2000 or the DEA's duty line at 571-362-8487.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Massachusetts Bureau of Health Professions Licensure (BHPL)'],
+    sourceUrl: 'https://www.mass.gov/news/bhpl-warns-of-increase-of-scam-calls-0',
+    country: 'US',
+    state: 'MA',
+    firstRecorded: '2024-12-01',
+});
+
+UsGM.push({
     name: 'Kansas Real Estate Commission Vacant Land and Farmland Fake-Seller Scam',
     slug: 'kansas-real-estate-commission-vacant-land-fake-seller-scam',
     description: `The Kansas Real Estate Commission (KREC) issued a bulletin warning Kansans, real estate licensees, and title companies about a sophisticated fraud scheme in which criminals identify vacant lots and unoccupied farmland, then impersonate the true owner using fake identification documents bearing that owner's real name to sell property they do not own. KREC compliance staff member Wendy Alkire told KSNT News the scheme can be "expensive or impossible to recover from" once a sale closes, because the fraud is often invisible until the money is already gone. KREC's advisory lists warning signs specific to how these deals get pushed through: a "seller" who avoids putting up a for-sale sign, insists on communicating only by email or text, claims to be living out of state or out of the country, pushes for an all-cash deal, and pressures the buyer or agent toward a rushed remote closing with a remote online notary rather than an in-person signing. The pattern mirrors a nationwide identity-theft scheme the FBI warned about in June 2026, in which fraudsters research county property records to target land owned free-and-clear, then use forged IDs, spoofed emails, and VoIP phone numbers to pose as the owner directly to real estate agents and title companies. KREC urges any Kansas real estate professional handling a vacant-land or farmland listing to independently verify the seller's identity and ownership through the closing/title company before a contract is signed, to be suspicious of any seller who cannot meet in person or via video, and to report suspected land fraud to the FBI at ic3.gov as well as to the Kansas Real Estate Commission.`,
