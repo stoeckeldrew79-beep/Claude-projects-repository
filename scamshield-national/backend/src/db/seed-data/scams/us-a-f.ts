@@ -7670,3 +7670,45 @@ UsAF.push({
     state: 'AK',
     firstRecorded: '2025-11-22',
 });
+
+UsAF.push({
+    name: 'DC Health Professional License Fee Extortion Scam',
+    slug: 'dc-health-professional-license-fee-scam',
+    description: `DC Health warned on August 7, 2024 that scammers were impersonating DC Health representatives and other government officials by phone, email, and fax to target the District's licensed health professionals — nurses, physicians, and other practitioners — falsely claiming the recipient's professional license, registration, or certification is under investigation or facing suspension. The callers replicate legitimate DC Health phone numbers through caller-ID spoofing and use outdated or copied agency letterhead on faxed and emailed documents to make the threat look official, then demand money to resolve the supposed licensing problem. DC Health stated plainly that it "will never contact you with a request for money" and urged anyone contacted this way not to share a credit card number, Social Security number, or other financial or personal information. Health professionals who receive a suspicious licensing call, email, or fax are advised to hang up or disregard it and instead call DC Health's Health Regulation and Licensing Administration directly at (202) 724-8800 or healthregulation@dc.gov to confirm whether any real inquiry exists, and can report the attempt to the FTC at consumer.ftc.gov.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['DC Health (District of Columbia Department of Health)'],
+    sourceUrl: 'https://dchealth.dc.gov/release/dc-health-warns-health-professional-license-scam',
+    country: 'US',
+    state: 'DC',
+    isHistorical: true,
+    firstRecorded: '2024-08-07',
+});
+
+UsAF.push({
+    name: 'DC Office of Zoning Fake Invoice Phishing Scam',
+    slug: 'dc-office-of-zoning-fake-invoice-phishing-scam',
+    description: `The DC Office of Zoning (DCOZ) issued a scam alert on December 10, 2025 warning applicants who had recently filed a Board of Zoning Adjustment case that fraudsters were sending phishing emails impersonating the agency. The scammers pull real, publicly available details from an applicant's own zoning case — the case number, property address, and applicant name — and use them to make a fake email look like a genuine DCOZ communication, often claiming the application has been "accepted" or requires urgent action and instructing the recipient to pay a fee immediately by wire transfer, cryptocurrency, or a peer-to-peer payment app. DCOZ said that "official communications from DCOZ will always come from a verified .dc.gov email address" and stressed that "DCOZ will never ask for the payment of fees through a bank wire," while the FBI separately warned that "criminals are impersonating local government planning and zoning officials across the United States to solicit fraudulent payments" — the same scheme has hit applicants in other cities' planning departments, not just DC's. Anyone who has an open zoning, permitting, or planning case and receives an unexpected email demanding payment should verify it by calling the agency directly at a number they look up independently — DCOZ can be reached at (202) 727-6311 or dcoz@dc.gov — rather than replying to the email or using any contact information it provides, and should never wire money, send cryptocurrency, or click a link in such a message.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['DC Office of Zoning (DCOZ)', 'FBI Internet Crime Complaint Center (IC3)'],
+    sourceUrl: 'https://dcoz.dc.gov/release/scam-alert-phishing-and-fake-invoice-emails-impersonating-dcoz',
+    country: 'US',
+    state: 'DC',
+    isHistorical: true,
+    firstRecorded: '2025-12-10',
+});
+
+UsAF.push({
+    name: 'DC Office of Tax and Revenue Banking-Update Text Scam',
+    slug: 'dc-office-of-tax-and-revenue-banking-info-text-scam',
+    description: `The DC Office of Tax and Revenue (OTR) warned taxpayers on October 14, 2025 about text messages circulating that falsely claim to be from OTR and ask the recipient to update their banking information, typically through a link included in the message. OTR confirmed the texts are fraudulent and said flatly that it "will never send unsolicited text messages asking for personal information," making any such message from "OTR" a scam regardless of how official it looks or what it claims about a refund, payment, or account issue. Recipients are advised not to reply to the text, not to click any link it contains, and to delete it from their device rather than engaging with the sender in any way; anyone unsure whether a tax notice is genuine can confirm it directly with OTR Customer Service at (202) 727-4829 or by logging into their account at MyTax.DC.gov rather than through any link a text message provides.`,
+    categorySlug: 'tax-scams',
+    alertLevel: 'medium',
+    sources: ['DC Office of Tax and Revenue (OTR)'],
+    sourceUrl: 'https://mytaxdc.wordpress.com/2025/10/14/text-message-scam-alert/',
+    country: 'US',
+    state: 'DC',
+    isHistorical: true,
+    firstRecorded: '2025-10-14',
+});
