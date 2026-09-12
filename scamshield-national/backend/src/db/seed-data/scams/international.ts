@@ -16991,3 +16991,46 @@ International.push(
     country: 'GN',
   },
 );
+
+International.push(
+  {
+    name: 'Fake Brazilian Federal Police "Safekeeping" Video-Call Fraud Syndicate',
+    slug: 'eswatini-fake-brazilian-federal-police-safekeeping-fraud-syndicate',
+    description: `A transnational fraud syndicate operating out of Eswatini built an entire fake law-enforcement set inside the Castle Hotel in Mbabane, which investigators identified as the operation's principal command centre, complete with counterfeit Brazilian Federal Police uniforms, a bulletproof vest, radios, badges, and signage convincing enough to pass for a real holding facility. Posing as Brazilian Federal Police officers on video calls, the fraudsters convinced roughly 40 Brazilian citizens that they were suspects or victims in a criminal investigation, then pressured them into signing fraudulent "confidentiality agreements" and transferring their money for supposed "safekeeping" — funds that were then stolen outright. Investigators say the syndicate pooled the proceeds and converted them into cryptocurrency, chiefly USDT, before routing the funds through financial institutions in Abu Dhabi and the United States and finally back into Eswatini. Coordinated raids across Mbabane and Ezulwini in early 2026 led to 82 arrests and the seizure of 240 electronic devices, foreign currency, and the fake police station itself, with an INTERPOL Operational Support Team deployed at Eswatini's request to carry out forensic analysis of the seized devices given the scale of digital evidence involved. INTERPOL announced the results on July 9, 2026 as part of Operation First Light 2026, a global crackdown on social-engineering scams and associated money laundering that ran from January 15 to April 30, 2026 across 97 countries and led to more than 5,800 arrests and roughly USD 293 million intercepted worldwide. The case underscores that a call or video call from someone claiming to be foreign police is never a legitimate reason to transfer money for "safekeeping" — genuine law enforcement does not ask suspects or witnesses to wire funds to be held on their behalf, and anyone contacted this way should hang up and verify independently through the foreign agency's official channels before taking any action.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'critical',
+    sources: ['INTERPOL', 'iGaming Business', 'Gambling Insider'],
+    sourceUrl: 'https://www.interpol.int/en/News-and-Events/News/2026/Over-5-800-arrests-USD-293-million-intercepted-in-global-fraud-bust',
+    country: 'SZ',
+  },
+  {
+    name: '"Facata" Scam Evolves Into Fake Police WhatsApp Impersonation',
+    slug: 'eswatini-facata-fake-police-whatsapp-impersonation',
+    description: `Fraudsters behind Eswatini's long-running "Facata" mobile-money scam have adopted a new tactic: rather than only posing as banks or relatives, they now impersonate the police themselves, contacting victims through unauthorized phone numbers and WhatsApp accounts decorated with fake police insignia, and in some cases spoofing their caller ID to display "Royal Eswatini Police Services" on caller-ID apps like Truecaller. Sounding convincing, the fake "officers" tell victims they are investigating suspicious Facata numbers or offering to help block a fraudulent transaction, using that pretext to manipulate victims into handing over bank details, PINs, and one-time passwords (OTPs) — the same information a genuine Facata theft needs to empty an account. The Royal Eswatini Police Service (REPS) issued a public warning stating plainly that it operates only one official WhatsApp number, +268 7999 1000, connected directly to the police emergency system, and that "any other number claiming to represent the police is fraudulent," adding that officers will never request banking details, PINs, OTPs, or money transfers over a call or messaging platform. The warning comes against a backdrop of Facata-related mobile money and e-wallet fraud that accounted for E7.3 million in losses and 1,176 reported cases between September 2024 and September 2025 alone, making it the most frequently reported cyber-related crime in the country. Members of the public are urged to hang up on any call or WhatsApp message claiming to be from police that asks for financial details, to verify only through the official +268 7999 1000 number or by calling 999, 9999, or 112, and to report suspected impersonation to the nearest police station.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Royal Eswatini Police Service (REPS)', 'Eswatini Observer'],
+    sourceUrl: 'https://www.eswatiniobserver.com/new-tactic-in-facata-scam-uncovered/',
+    country: 'SZ',
+  },
+  {
+    name: 'Fake Government Tender and Royal Contract Broker Fraud Syndicate',
+    slug: 'eswatini-fake-tender-royal-contract-broker-fraud-syndicate',
+    description: `A syndicate operating in the Manzini area defrauded victims of roughly E1.4 million by falsely claiming the ability to secure government tenders, royal contracts, and other lucrative business deals, leaning on invoked names of royalty and other influential figures to make the offers sound credible. In one case dated September 2025, the accused misled a victim named Gibson Dlamini about a catering tender to supply Mpaka Railway employees, extracting E515,596; in another dated July 2025, they defrauded a victim named Lokucala Khumalo with the promise of a tender to build staff housing at the Phuzumoya Oil Reserves, obtaining a further E318,000. Two additional suspects, Emmanuel Thulane Mhlanga, 51, of Ngculwini, and Nhlanhla Lucky Dlamini, 39, of Moneni, were brought before the Manzini Magistrates Court, bringing the total number of people arrested in the case to three; between them the two newly charged suspects alone are accused of obtaining E942,461.88 from their targets. The accused face eighteen counts in total, including theft by false pretences and charges under the Money Laundering and Financing of Terrorism (Prevention) Act of 2011. The case illustrates a recurring pattern in Eswatini fraud: scammers who claim insider access to government tenders or contracts tied to chiefs, royalty, or state institutions in order to collect large upfront sums from business owners hoping to win real work. Anyone approached with an offer to "secure" a tender or contract in exchange for payment to a broker or intermediary is advised to verify the opportunity directly with the government department, parastatal, or company named — never through the person offering to arrange it — and to report suspected tender fraud to the police rather than paying an intermediary.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Times of Eswatini', 'Manzini Magistrates Court'],
+    sourceUrl: 'https://www.times.co.sz/news/readmore.php?bhsadjgfoh=2+more+arrested+in+E1.4m+tender+scam+syndicate&yiphi=2500&bvhdgsj=News',
+    country: 'SZ',
+  },
+  {
+    name: '"Chief-in-Waiting" Installation Fraud',
+    slug: 'eswatini-chief-in-waiting-installation-fraud',
+    description: `A 65-year-old woman from the Ka-Shali area was defrauded of E360,000 over roughly two years, between 2024 and 2025, by a man who convinced her he was about to be installed as the area's next chief and that once installed he would receive substantial funds and reward her with a share of it. The man repeatedly asked the victim for money, claiming it was needed to cover "traditional attire, cattle and other materials required for his installation," and she kept paying in the belief that a much larger payout was coming once the installation went ahead. It was only after nearly two years of payments, with no installation ever taking place, that the woman realized she had been deceived and reported the matter to Manzini Police on July 9, 2026; no arrest had been announced as the investigation continued. The Royal Eswatini Police Service urged "members of the public to remain vigilant when dealing with financial matters and to exercise caution before sending money," a warning that applies broadly to any promise of a future windfall — a chieftaincy installation, an inheritance, or a large contract — that requires the victim to pay smaller sums up front in expectation of a much bigger payout later. Anyone approached with a similar promise is advised to independently verify a person's claimed traditional or official status through the relevant chiefdom or authority before handing over any money, and to be especially wary when a request for funds stretches on for months or years without the promised event ever occurring.`,
+    categorySlug: 'lottery-sweepstakes-scams',
+    alertLevel: 'medium',
+    sources: ['Royal Eswatini Police Service (REPS)', 'Eswatini Positive News'],
+    sourceUrl: 'https://eswatinipositivenews.online/woman-conned-of-e360-000-by-chief-in-waiting/',
+    country: 'SZ',
+  },
+);
