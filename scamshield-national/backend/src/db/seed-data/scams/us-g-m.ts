@@ -7064,3 +7064,17 @@ UsGM.push({
     isHistorical: true,
     firstRecorded: '2009-01-01',
 });
+
+UsGM.push({
+    name: 'CCASP and AmeriCorps VISTA Grant Fraud Scheme (Barbara Harris)',
+    slug: 'illinois-harris-ccasp-vista-grant-fraud-scheme',
+    description: `Barbara Harris, 55, of South Holland, Illinois, served as executive director of the Center for Community Academic Success Partnerships (CCASP), a South Holland nonprofit that received Illinois State Board of Education grants under the federal 21st Century Community Learning Centers program to run after-school programs at local schools. From 2012 through 2017, prosecutors say Harris and a co-conspirator, fellow CCASP executive Tony Bell of Matteson, submitted grant applications that inflated the organization's projected annual expenses and falsely claimed five outside subcontractors would provide services to the program, when in reality some of those "subcontractors" were shell entities Harris and Bell controlled themselves and none of the five ever did any real work. The pair opened fraudulent bank accounts to receive the resulting grant payments, then converted checks to cash and money orders, funneling more than $437,000 into Bell's personal credit card payments alone, for a total loss to the grant program of about $1.8 million. Separately, from 2021 to 2023, while serving as co-executive director of a second nonprofit, South Suburban Community Services, Harris obtained federal approval for eleven AmeriCorps VISTA members while misrepresenting what those members would actually be doing, causing a further $98,699 loss to the AmeriCorps program. Harris pleaded guilty to wire fraud, and on March 20, 2026, U.S. District Judge Andrea R. Wood of the Northern District of Illinois sentenced her to 12 months in federal prison for the combined $1.9 million in fraud; Bell's sentencing was scheduled for August 2026. The case is a reminder that a nonprofit's grant-funded "subcontractors" are worth checking independently — a grant maker, auditor, or concerned board member can ask to see proof that a listed subcontractor is a real, separately operated organization actually performing the billed work, rather than relying on the applicant's own paperwork.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'medium',
+    sources: ['Internal Revenue Service Criminal Investigation', "U.S. Attorney's Office, Northern District of Illinois", 'Chicago Sun-Times'],
+    sourceUrl: 'https://www.irs.gov/compliance/criminal-investigation/former-executive-of-chicago-area-non-profit-sentenced-to-prison-for-1-point-9-million-fraud-schemes',
+    country: 'US',
+    state: 'IL',
+    isHistorical: true,
+    firstRecorded: '2012-01-01',
+});

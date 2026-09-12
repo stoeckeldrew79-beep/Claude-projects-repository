@@ -3907,3 +3907,15 @@ UsTZ.push({
     isHistorical: true,
     firstRecorded: '2025-04-04',
 });
+
+UsTZ.push({
+    name: 'Houston-Area Romance Scam Ring (Darlington Akporugo and Jasmin Sood)',
+    slug: 'texas-akporugo-sood-houston-romance-scam-ring',
+    description: `Darlington Akporugo, 47, and his wife Jasmin Sood, also known as Jaslynn Washington, 37, ran a long-running romance scam based in the Houston area that reached victims from Chicago to Kentucky, deliberately targeting older women, including several widows, through fake online relationships built over social media. Akporugo cultivated romantic relationships with victims, then convinced them to send money into bank accounts he controlled, while Sood created fraudulent businesses and bank accounts under aliases and, according to prosecutors, used disguises when depositing the stolen funds in person. At sentencing, one victim testified she had been coerced into buying the couple a luxury vehicle and paying to rent them a mansion — the same vehicle and home federal agents found the couple living in and driving when they were arrested. The scheme identified more than 25 victims and caused losses of $3,123,073. Akporugo pleaded guilty to conspiracy to commit wire fraud and wire fraud in February 2025, and Sood pleaded guilty to the same charges in December 2024; on June 26, 2025, U.S. District Judge Charles Eskridge sentenced Akporugo to 188 months and Sood to 121 months in federal prison, with both ordered to serve three years of supervised release afterward and to pay the full $3,123,073 in restitution. U.S. Attorney Nicholas J. Ganjei's office, which prosecuted the case, said the couple targeted retirees and older victims because they were less likely to have someone reviewing their day-to-day finances. Anyone in an online relationship who is asked to send money, open an account, or make a large purchase on a partner's behalf — especially a partner never met in person — should treat the request itself as a warning sign and cut off contact rather than assume the relationship will eventually pay them back.`,
+    categorySlug: 'romance-scams',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office for the Southern District of Texas", 'ABC13 Houston'],
+    sourceUrl: 'https://abc13.com/post/houston-area-couple-sentenced-3-million-romance-scheme-targeted-mostly-older-women-federal-officials-say/16853888/',
+    country: 'US',
+    state: 'TX',
+});

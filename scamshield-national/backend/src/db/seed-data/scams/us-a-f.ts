@@ -8123,3 +8123,29 @@ UsAF.push({
     isHistorical: true,
     firstRecorded: '2021-02-04',
 });
+
+UsAF.push({
+    name: 'Paramount "Heartbreakingly Evil" Grandparent Scam RICO Sentencing (Jack Owuor)',
+    slug: 'california-owuor-paramount-grandparent-scam-rico',
+    description: `Jack Owuor, 25, of Paramount, California, admitted he was one of eight members of a nationwide "grandparent scam" racketeering conspiracy that, from November 2019 through October 2020, called elderly Americans across the country claiming a grandchild had just been arrested or badly hurt in a car accident and urgently needed cash for bail, medical bills, or to head off additional criminal charges. Victims were told not to tell any other family member so no one could call the grandchild directly and expose the story, then sent money by mail, wire transfer, or in-person cash pickup — including at least ten elderly victims in San Diego County alone who lost more than $300,000 combined. The conspiracy took more than $2 million from over 70 victims nationwide before the network was broken up, laundering the stolen funds through its members after collection. Owuor pleaded guilty in March 2022 to conspiracy to commit racketeering; on August 19, 2022, U.S. District Judge Cathy Ann Bencivengo sentenced him to 46 months in federal prison, telling the courtroom the scheme was "heartbreakingly evil." Co-conspirators including Timothy Ingram of North Hollywood were separately convicted and sentenced in the same case, prosecuted by the U.S. Attorney's Office for the Southern District of California. Because this scam depends entirely on urgency and secrecy, prosecutors urge anyone who receives a call like this to hang up and call the grandchild — or another family member — directly at a number already saved in their phone before sending a single dollar, no matter how convincing or insistent the caller sounds.`,
+    categorySlug: 'grandparent-scams',
+    alertLevel: 'medium',
+    sources: ["U.S. Attorney's Office for the Southern District of California", 'Patch'],
+    sourceUrl: 'https://patch.com/california/los-angeles/paramount-man-who-pleaded-guilty-grandparent-scam-conspiracy-sentenced-prison',
+    country: 'US',
+    state: 'CA',
+    isHistorical: true,
+    firstRecorded: '2019-11-01',
+});
+
+UsAF.push({
+    name: 'Kessler and Gomez $34.8 Million Medicare Orthotic Brace Fraud Scheme',
+    slug: 'florida-kessler-gomez-orthotic-brace-medicare-fraud-scheme',
+    description: `Kenneth Charles Kessler III, 43, of Miami, and Michael Andrew Gomez, 43, of Miramar, owned and operated seven durable medical equipment (DME) supply companies across Florida that submitted millions of dollars in false claims to Medicare for orthotic braces that beneficiaries neither requested nor needed. According to the Justice Department, Kessler and Gomez paid illegal kickbacks and bribes to obtain fraudulent doctors' orders authorizing the braces, then used those orders to ship equipment to Medicare beneficiaries nationwide and bill Medicare for it; when one of their companies was hit with a Medicare payment suspension, the pair simply shifted the fraudulent billing to another of their seven DME companies to keep the scheme running, ultimately billing Medicare $34.8 million. Kessler personally profited more than $1.4 million and Gomez more than $2.3 million from the scheme. Both men pleaded guilty in May 2026 to one count of conspiracy to commit health care fraud, and were sentenced in the U.S. District Court for the Southern District of Florida — Kessler to 33 months and Gomez to 24 months in federal prison. "These fraudsters billed Medicare $34.8 million for braces that patients didn't need and didn't request — and now they're paying the price," said Assistant Attorney General Colin M. McDonald of the Justice Department's National Fraud Enforcement Division, while U.S. Attorney Jason A. Reding Quiñones for the Southern District of Florida said the pair "built a $34.8 million scheme around medically unnecessary braces, fraudulent doctors' orders, and illegal kickbacks." The FBI's Miami Field Office and HHS-OIG investigated the case. Medicare beneficiaries who receive an orthotic brace, foot bath, or similar equipment they never requested from their own treating physician should review the Medicare Summary Notice mailed after any claim and report unfamiliar billing to Medicare's fraud line, since a shipped item is often the only sign a beneficiary's name and Medicare number are being used to bill for equipment they never asked for.`,
+    categorySlug: 'medicare-health-plans',
+    alertLevel: 'high',
+    sources: ['U.S. Department of Justice, Office of Public Affairs', "U.S. Attorney's Office for the Southern District of Florida"],
+    sourceUrl: 'https://www.justice.gov/opa/pr/florida-men-sentenced-prison-348m-health-care-fraud-scheme-targeting-medicare-beneficiaries',
+    country: 'US',
+    state: 'FL',
+});
