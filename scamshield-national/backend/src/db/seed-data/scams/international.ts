@@ -16733,3 +16733,46 @@ International.push(
     country: 'NO',
   },
 );
+
+International.push(
+  {
+    name: 'AI Voice-Cloning Layered Onto Fake Utility-Technician Home Invasion Calls',
+    slug: 'greece-ai-voice-cloning-hedno-callback-scam',
+    description: `The Hellenic Police warned on August 14, 2026 that criminals had begun layering artificial intelligence voice-cloning onto an existing home-invasion pretext, adding a new and harder-to-detect stage to a scam pattern that had already been dismantled in several forms around the country. In the updated version, a first caller poses as a mobile phone company representative and draws the victim into a conversation long enough to record a short sample of their voice. A second caller then phones a relative elsewhere in the same household, this time posing as an employee of HEDNO (the Hellenic Electricity Distribution Network Operator) and claiming there is a dangerous electrical fault that requires letting a "technician" into the home. To overcome any hesitation, the second caller plays what sounds like the first family member's own voice in the background, generated or altered with AI, encouraging the relative to cooperate and follow the callers' instructions. Police said the number of cases recorded so far remains limited but stressed that public awareness is essential precisely because the method is new, urging people to warn elderly relatives and minors in particular that even a voice that sounds completely familiar on the phone may have been artificially generated. Anyone receiving such a call is advised to end it immediately, never open the door to an unannounced "technician," and independently call the relative supposedly heard in the background on a separate line to confirm they are safe before acting on anything said during the call.`,
+    categorySlug: 'ai-deepfake-scams',
+    alertLevel: 'high',
+    sources: ['Hellenic Police (ΕΛ.ΑΣ.)', 'To Vima'],
+    sourceUrl: 'https://www.tovima.com/society/ai-phone-scams-in-greece-can-mimic-relatives-voices/',
+    country: 'GR',
+  },
+  {
+    name: 'Fake Traffic-Fine SMS and Look-Alike astynomia.gr Phishing Sites',
+    slug: 'greece-fake-traffic-fine-sms-phishing-website-scam',
+    description: `The Hellenic Police issued a series of warnings through 2026 about an evolving SMS phishing campaign built around fake traffic-violation notices. In one wave, officers warned on June 26, 2026 that a fraudulent site at the domain astynomiiia.cc had been built to closely resemble the force's genuine astynomia.gr website, deceiving visitors into entering personal details and bank card numbers under the pretense of paying a speeding fine, with police stating plainly that "the only official website of the Hellenic Police is www.astynomia.gr" and that the copycat domain "does not belong to them and has no connection whatsoever to their official online services." By August 12, 2026, police were warning of a more polished version of the same underlying scheme: text messages linking to fake sites that display a fabricated vehicle speed, speed limit, violation date, penalty points, and fine amount to look convincing, with the newest twist offering a supposed 50% discount if the "fine" is paid within a short deadline — a false urgency designed to push recipients into paying before they stop to check anything. Earlier versions of the SMS were riddled with spelling and grammatical errors that gave them away, but police noted the newer messages are far more professionally written. The Hellenic Police's core advice has stayed the same throughout: officers state that gov.gr does not send SMS links for the payment of traffic fines, and anyone receiving such a message should not click the link, should not enter any personal or card details, and should delete the message and report it rather than act on any discount deadline.`,
+    categorySlug: 'phishing',
+    alertLevel: 'high',
+    sources: ['Hellenic Police (ΕΛ.ΑΣ.)', 'To Vima', 'Parapolitika English'],
+    sourceUrl: 'https://en.parapolitika.gr/greece/239542/greek-police-warn-of-fake-website-stealing-personal-and-banking-data/',
+    country: 'GR',
+  },
+  {
+    name: 'New National ID Card SMS Scam Threatening Fines and Cancelled Appointments',
+    slug: 'greece-new-id-card-sms-fine-threat-scam',
+    description: `As Greece rolled out its new national identity card, authorities warned on September 6, 2026 of fraudulent SMS messages exploiting the transition in two distinct ways. In the first version, a text falsely claims the recipient never completed their new ID card application and threatens a fine unless they click an embedded link to resolve it. In the second, the sender poses as the Hellenic Police itself, claiming a problem with the recipient's ID renewal appointment and warning that it will be cancelled unless the recipient follows a link to "confirm" their details. Both versions rely on the same pressure tactic: an official-sounding threat tied to a real, ongoing national rollout that many recipients would have no independent way to verify on the spot, pushing them toward a link before stopping to check whether the message is genuine. Authorities said that some recipients who followed the links had money taken from their accounts, and stressed that the state does not request sensitive personal data through SMS messages of any kind. The public was advised to ignore and delete any text message linking a new ID card application or appointment to a fine or cancellation threat, and to check the status of a genuine ID card application only through official government channels rather than any link supplied in an unsolicited text.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Greek authorities', 'PoliceNET of Greece', 'Zarpa News'],
+    sourceUrl: 'https://www.policenet.gr/article/apati-me-tis-nees-taytotites-ta-sms-poy-apeiloyn-me-prostimo',
+    country: 'GR',
+  },
+  {
+    name: 'Fake "Accountant" Doorstep Scam Over a Supposed Tax or Insurance Refund',
+    slug: 'greece-fake-accountant-tax-refund-jewelry-scam',
+    description: `The Hellenic Police issued public guidance on September 24, 2025 describing a confidence scam in which fraudsters telephone victims — typically on a landline — posing as an accountant or an associate of an accounting office connected to the victim or one of their relatives. The caller tells the victim that a relative is owed a substantial refund from an insurance fund or the tax authority, but that releasing it requires the household's cash and jewelry to first be "declared" or "photographed" for the paperwork, sometimes adding a threat that a tax penalty will follow if the victim does not cooperate. Because the pretext borrows the mundane, paperwork-heavy feel of a real tax or insurance refund rather than an obvious windfall, and because it is framed as helping a relative rather than the victim directly, it has proven effective at getting cash and valuables handed over to an accomplice who arrives to collect them. The Hellenic Police's advice is to never trust an unknown caller's claimed identity, never disclose what cash or valuables are kept in the home, and never hand belongings to someone claiming to be an accountant's associate; anyone told a relative is involved should hang up and call that relative back on a separate phone line to confirm the story directly, since the original caller may still be able to hear the conversation if the same line is used, and any such approach should be reported to police immediately rather than acted on.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Hellenic Police (ΕΛ.ΑΣ.)', 'ERT News'],
+    sourceUrl: 'https://www.ertnews.gr/roi-idiseon/apates-me-dithen-logistes-xrisimes-odigies-gia-tous-polites-apo-tin-astynomia/',
+    country: 'GR',
+  },
+);
