@@ -7768,3 +7768,17 @@ UsAF.push({
     isHistorical: true,
     firstRecorded: '2026-08-04',
 });
+
+UsAF.push({
+    name: "Luatua Ta'afua American Samoa Retirement Fund Fictitious-Vendor Embezzlement",
+    slug: 'american-samoa-asgerf-luatua-fictitious-vendor-embezzlement',
+    description: `Luatua Filisouaiga Ta'afua, then the executive director of the American Samoa Government Employees' Retirement Fund (ASGERF), came under investigation after an ASGERF employee alerted the fund's board chairman, Fanene Scanlan, to a string of questionable vendor payments bearing Ta'afua's signature. Governor Lolo Matalasi Moliga directed the Department of Public Safety to investigate on July 20, 2015, and an independent forensic audit by David Asay of Squire & Company, covering the fund's 2013 to 2015 fiscal years, concluded Ta'afua had set up at least three fictitious companies — Hardcore Cleaning Service, Star Company, and Filiga Electric Company, none registered with the Department of Commerce and none performing any real work for ASGERF — then issued the fund's own checks to them and routed the proceeds back to himself, including seven Filiga Electric checks totaling $3,095 cut between January 8 and June 16, 2015, and payments to Star Company that used board chairman Fanene's rubber-stamp signature without his authorization to get around ASGERF's own two-signature rule for checks over $250. Investigators put the total misappropriated at roughly $112,000, and prosecutors charged Ta'afua with 28 felony counts — 14 counts of stealing and 14 of embezzlement — each carrying up to seven years in prison. The case dragged on for years: it was dismissed without prejudice in February 2019 after the government's key witness needed medical treatment off-island, then re-filed in August 2020, when Ta'afua appeared before Acting Associate Justice Elvis P. Patea and had bail set at $35,000. The scheme is a reminder that a fiduciary who controls both the vendor list and the checkbook can invent a "vendor" out of nothing — real invoices come from real, licensed businesses that can be independently verified with the territory's Department of Commerce, and any organization's own two-signature control on large checks is only as strong as its enforcement against an authorized signer using someone else's stamp or signature without asking.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'medium',
+    sources: ['Samoa News', 'Radio New Zealand (RNZ) Pacific'],
+    sourceUrl: 'https://www.samoanews.com/local-news/govt-re-files-criminal-case-against-retirement-funds-former-executive-director',
+    country: 'US',
+    state: 'AS',
+    isHistorical: true,
+    firstRecorded: '2015-07-20',
+});
