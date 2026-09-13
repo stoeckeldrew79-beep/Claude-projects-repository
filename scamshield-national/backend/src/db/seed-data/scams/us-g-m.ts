@@ -7284,3 +7284,17 @@ UsGM.push({
     isHistorical: true,
     firstRecorded: '2021-01-01',
 });
+
+UsGM.push({
+    name: 'Missoula AI Voice-Clone Fake Kidnapping Call (Kris Sampson)',
+    slug: 'montana-missoula-sampson-ai-voice-clone-kidnapping-scam',
+    description: `Kris Sampson, a Missoula, Montana mother working from home, answered a call on January 21, 2026 that showed her adult daughter's real phone number, ringtone, and caller-ID photo — details a spoofing tool can copy exactly — and heard what sounded like her daughter sobbing before a man got on the line and threatened to kill and sexually assault her unless Sampson followed his instructions and warned her not to call police. "There's no doubt it was her voice. So immediately, I think you go into a parent fear response," Sampson said, describing how she kept the caller talking for 15 to 20 minutes while her sister called 911 on another line and family members in Helena raced to confirm her daughter's whereabouts; they found her safe at her workplace, and the calls stopped once the ruse fell apart. A detective who reviewed the case told local reporters that scammers now pull short audio clips from a target's voicemail greeting or social media videos and run them through AI cloning tools that need only a few seconds of real speech to produce a convincing fake, then pair that cloned voice with spoofed caller ID and personal details scraped from the same social media accounts to make a virtual-kidnapping or family-emergency call sound unmistakably real. "If I had known they could spoof her phone, I would have hung up," Sampson said afterward; her family has since agreed on a private verification code word to use on any future emergency call. Montana households can adopt the same safeguard — a code word not posted anywhere online that a panicked caller claiming to be a relative would have no way to know — and should hang up and call the relative back directly on a number already saved in their phone before sending money or giving out information, no matter how convincing the voice on the line sounds.`,
+    categorySlug: 'ai-deepfake-scams',
+    alertLevel: 'critical',
+    sources: ['NBC Montana (KECI)', 'CNBC'],
+    sourceUrl: 'https://nbcmontana.com/news/local/missoula-mom-warns-of-ai-kidnapping-scam-that-faked-daughters-voice',
+    country: 'US',
+    state: 'MT',
+    isHistorical: true,
+    firstRecorded: '2026-01-21',
+});

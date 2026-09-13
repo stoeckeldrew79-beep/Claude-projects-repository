@@ -4041,3 +4041,17 @@ UsTZ.push({
     isHistorical: true,
     firstRecorded: '2021-03-01',
 });
+
+UsTZ.push({
+    name: 'Charlotte, Vermont Man\'s $1 Million Fake Ledger Support Crypto Theft (Gene Duckett)',
+    slug: 'vermont-charlotte-duckett-fake-ledger-support-crypto-theft',
+    description: `Gene Duckett, of Charlotte, Vermont, got a call one Friday night in March 2025 from a man who identified himself as "Benjamin" and said he was calling from Ledger, the company that makes the hardware wallet Duckett used to store his cryptocurrency, warning that his funds were in danger of being stolen. The caller walked Duckett through a "security" process built entirely around trust: first providing him a code, then having a second caller reference that same code back to him minutes later to prove they were legitimate, which made Duckett comfortable enough to follow a link to a website and type in his 24-word recovery seed phrase to "secure" his wallet. A third caller then phoned to say something had "gone wrong," and when Duckett checked his XRP Ledger wallet himself, every bit of it was gone — a loss he later put at $1,038,000. "It was $1,038,000. That's how much it was worth. It is a lot of money," Duckett said. A cybersecurity expert who reviewed the case, Eithan Raviv of Lionsgate Network, noted that Ledger has disclosed at least two data breaches over the years that exposed customer contact information, which is the most likely way scammers obtained Duckett's name and phone number in the first place and could reference his real hardware wallet by name to sound credible. Ledger states flatly that it will never call customers by phone and will never, under any circumstances, ask for a 24-word recovery phrase; anyone who gets an unsolicited call, even one referencing accurate account details or a "verification code" the caller already seems to know, should hang up and contact the wallet maker only through the contact information on its own official website, and should remember that no legitimate crypto company or wallet update ever requires typing a recovery seed phrase into any web page.`,
+    categorySlug: 'cryptocurrency-scams',
+    alertLevel: 'critical',
+    sources: ['WCAX-TV', 'Lionsgate Network'],
+    sourceUrl: 'https://www.wcax.com/2026/01/22/charlotte-man-loses-more-than-1-million-cryptocurrency-phone-scam/',
+    country: 'US',
+    state: 'VT',
+    isHistorical: true,
+    firstRecorded: '2025-03-01',
+});

@@ -7210,3 +7210,17 @@ UsNS.push({
     country: 'US',
     state: 'OR',
 });
+
+UsNS.push({
+    name: 'North Dakota "Product Boosting" Task-Based Job Scam Wave',
+    slug: 'north-dakota-product-boosting-task-scam-wave',
+    description: `The Better Business Bureau reported that North Dakota consumers filed 26 employment-scam reports in 2025, with 19 of them starting as an unsolicited text message rather than a job-board posting — part of a nationwide surge the BBB says has made task-based "job" scams one of its most-reported categories nationally, trailing only cryptocurrency scams. The pitch typically arrives by text or a messaging app offering easy pay for "product boosting" or "app optimization" work — liking videos, rating products, or completing simple in-app tasks — and directs the target to a slick-looking platform that shows a running balance of "earnings" climbing with every task completed. "Scammers are following the headlines. They're following the trends. They know that our emotions are running high related to the economy," said Bao Vang, the BBB's vice president of communications, describing how the scheme exploits real anxiety about finding flexible income. Once a target tries to withdraw the balance, the platform demands the worker first deposit their own money — usually by cryptocurrency — to "unlock" the withdrawal, cover a supposed tax, or fix a fabricated "negative balance," and every payment only triggers a new fee rather than releasing any real money, since the entire balance was fictional from the start; nationally, the median loss to this exact scheme was reported at $2,300 per victim in 2025, with some individual losses reaching into six figures. Anyone offered payment for simple online "tasks" through an unsolicited text should treat it as a red flag on its own, and should never send money, cryptocurrency, or a "verification deposit" to unlock earnings from a job they were never actually interviewed for — a legitimate employer pays a worker, and never asks to be paid first.`,
+    categorySlug: 'job-task-scams',
+    alertLevel: 'medium',
+    sources: ['Better Business Bureau', 'InForum (Fargo, Moorhead and West Fargo)'],
+    sourceUrl: 'https://www.inforum.com/news/north-dakota/fake-job-offers-rank-among-top-scams-reported-to-bbb',
+    country: 'US',
+    state: 'ND',
+    isHistorical: true,
+    firstRecorded: '2025-09-24',
+});
