@@ -7280,3 +7280,17 @@ UsNS.push({
     isHistorical: true,
     firstRecorded: '2026-09-13',
 });
+
+UsNS.push({
+    name: 'TrueAccord "Rent-a-Tribe" Payday Loan Debt Collection Scheme',
+    slug: 'pennsylvania-trueaccord-tribal-lending-debt-collection-scheme',
+    description: `TrueAccord Corp., a Kansas-based debt collector, pursued Pennsylvania consumers over "payday loans" originated by lenders that claimed affiliation with a Native American tribe specifically to invoke sovereign immunity from state interest-rate caps — an arrangement regulators call "rent-a-tribe" lending, in which the tribe's role is largely nominal while non-tribal operators actually run the loan business behind it. Pennsylvania's Attorney General alleged TrueAccord misrepresented the legal enforceability of these debts to state residents, pursuing collection on loans that were not valid or enforceable under Pennsylvania law in the first place. Attorney General Dave Sunday announced a settlement on June 24, 2025 under the state's Loan Interest and Protection Law, Consumer Discount Company Act, and Fair Credit Extension Uniformity Act: TrueAccord paid $23,400 in restitution — split among roughly 234 affected Pennsylvanians with no claim required — plus a $5,000 civil penalty, and agreed to stop collecting on tribal-lending debts owed by Pennsylvania residents going forward. The scheme is distinct from fake debt collectors or phony lawsuit threats: the debt collector was real, but the underlying loan's legal validity rested on a sovereign-immunity claim regulators found to be a shell. Pennsylvania residents contacted about a "tribal" payday loan should ask directly whether the original lender claimed tribal affiliation, and can check with the state Attorney General's Office whether that loan is legally enforceable before paying anything toward it.`,
+    categorySlug: 'legal-debt-collection',
+    alertLevel: 'medium',
+    sources: ['Pennsylvania Office of Attorney General'],
+    sourceUrl: 'https://www.attorneygeneral.gov/taking-action/ag-sunday-announces-settlement-regarding-tribal-lending-scheme-hundreds-of-impacted-pennsylvanians-eligible-for-restitution/',
+    country: 'US',
+    state: 'PA',
+    isHistorical: true,
+    firstRecorded: '2025-06-24',
+});
