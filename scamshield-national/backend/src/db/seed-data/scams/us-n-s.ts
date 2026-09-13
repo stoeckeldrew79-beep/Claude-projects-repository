@@ -7308,3 +7308,16 @@ UsNS.push({
     isHistorical: true,
     firstRecorded: '2024-07-08',
 });
+
+UsNS.push({
+    name: 'Polymarket Paid-Influencer Fake Winning-Bet Scheme',
+    slug: 'polymarket-fake-influencer-winning-bets-scheme',
+    description: `A Wall Street Journal investigation found that prediction-market platform Polymarket paid dozens of mostly college-aged social media creators between $2,000 and $3,000 a month to film themselves appearing to win big on the platform, using password-protected replica websites — including at least one lookalike domain — to stage fake trades rather than risking any real money. Across 1,105 videos posted between December 2025 and mid-May 2026 and viewed more than 140 million times combined on TikTok, YouTube, and Instagram, the creators showcased roughly $1.9 million in bets that were never actually placed, including 118 videos celebrating close to $900,000 in fabricated winnings that, had the trades been real, would have instead lost more than $166,000. The campaign specifically targeted U.S. viewers even though Polymarket has been barred from serving American users since a 2022 CFTC settlement, luring people into depositing real money while chasing the false impression of easy, near-guaranteed wins that the influencers never actually achieved. Anyone considering a "prediction market" or trading app promoted through an influencer's video showing large, effortless winnings should treat that footage as unverified marketing rather than proof of real returns, check independently whether the platform is legally permitted to operate in the U.S., and remember that a password-protected demo site controlled by the platform itself can make a staged trade look indistinguishable from a real one.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'medium',
+    sources: ['Wall Street Journal', 'Tech Startups'],
+    sourceUrl: 'https://techstartups.com/2026/07/03/polymarket-paid-influencers-to-fake-winning-bets-in-140-million-view-marketing-campaign-wsj-investigation-finds/',
+    country: 'US',
+    isHistorical: false,
+    firstRecorded: '2025-12-01',
+});
