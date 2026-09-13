@@ -18342,3 +18342,54 @@ International.push(
     firstRecorded: '2025-11-07',
   },
 );
+
+International.push(
+  {
+    name: 'Evaldas Rimasauskas $122 Million Facebook and Google BEC Scheme',
+    slug: 'lithuania-rimasauskas-facebook-google-bec-scheme',
+    description:
+      'Evaldas Rimasauskas, a Lithuanian national from Vilnius, ran one of the largest business email compromise schemes ever prosecuted in the United States: between 2013 and 2015 he registered a company in Latvia under a name nearly identical to Quanta Computer, a real Taiwan-based hardware manufacturer that both Facebook and Google used as a genuine supplier, then had forged invoices, contracts, and corporate letters — complete with fabricated signatures from Quanta executives — sent from lookalike email domains to trick employees at both companies into wiring payments for equipment that was never actually purchased. The ploy worked: prosecutors say Rimasauskas and his network collected nearly $99 million from Facebook and over $23 million from Google, laundering the funds through a chain of bank accounts in Latvia, Cyprus, Slovakia, Hungary, Hong Kong, and Lithuania before investigators could freeze what was left. Lithuanian police arrested Rimasauskas in March 2017 and he was extradited to the Southern District of New York that August; he pleaded guilty to a single count of wire fraud on March 25, 2019, and on December 19, 2019 a federal judge sentenced him to five years in prison plus two years of supervised release, ordering him to forfeit nearly $50 million and pay more than $26 million in restitution — Google recovered all of its stolen money, and Facebook recovered most of its. The case remains one of the clearest illustrations that even the world\'s largest technology companies can be defrauded by a well-forged invoice: any request to change a known supplier\'s payment details or wire funds to a new account should be confirmed by phone, using a number obtained independently rather than one listed on the email or invoice itself, before a single payment goes out.',
+    categorySlug: 'business-email-compromise',
+    alertLevel: 'high',
+    sources: ['U.S. Department of Justice — Southern District of New York', 'CyberScoop'],
+    sourceUrl: 'https://www.justice.gov/usao-sdny/pr/lithuanian-man-sentenced-5-years-prison-theft-over-120-million-fraudulent-business',
+    country: 'LT',
+    isHistorical: true,
+    firstRecorded: '2019-03-25',
+  },
+  {
+    name: 'Fraudulent "Jobs in Lithuania" Scheme Targeting Sri Lankan Workers',
+    slug: 'lithuania-fake-jobs-sri-lankan-workers-scam',
+    description:
+      'In July 2026, Lithuania\'s Honorary Consulate in Sri Lanka issued a public warning after fielding a wave of complaints from Sri Lankans who had been approached by individuals and unlicensed agents falsely claiming they could arrange real jobs in Lithuania. According to Kanchana Kodituwakku, the Consulate\'s Director of Public Relations, the office had "received several complaints and inquiries regarding such false promises," in which fraudsters told prospective workers they could travel to Lithuania on a tourist visa and sort out employment once they arrived — a path with no basis in Lithuanian immigration law — while collecting placement fees, travel costs, or "processing" payments upfront. The Consulate said that "anyone demanding money while promising to arrange jobs through such means could be attempting to commit fraud," and urged Sri Lankans seeking work abroad to go only through employment agencies registered with the Sri Lanka Bureau of Foreign Employment (SLBFE) and licensed to place workers in Lithuania specifically, verifying any job offer, visa route, or recruiter directly with the Lithuanian embassy or SLBFE before paying anything. The core warning sign is the tourist-visa route itself: a legitimate job offer in Lithuania comes with a proper work permit and visa arranged before travel, never a promise to sort out the paperwork after arriving on a tourist visa, and no genuine licensed recruiter asks a candidate to pay upfront for the privilege of being placed in a job.',
+    categorySlug: 'employment-scams',
+    alertLevel: 'medium',
+    sources: ['The Island (Sri Lanka)', 'Lanka Newspapers'],
+    sourceUrl: 'https://island.lk/lithuania-warns-lankans-against-falling-into-job-offer-scams/',
+    country: 'LT',
+  },
+  {
+    name: 'Fake "Bank of Lithuania" Emails Demanding Tax and Deposit Payments',
+    slug: 'lithuania-fake-bank-of-lithuania-phishing-emails',
+    description:
+      'The Bank of Lithuania, the country\'s central bank and financial regulator, has repeatedly had its name used in phishing emails it never sent. In one wave, scammers used the Bank of Lithuania\'s name together with a fake address, info@lithuanianbank.eu, to email companies and organizations asking them to open an attached document and confirm receipt of the letter — even though the Bank of Lithuania\'s only real domain is lb.lt and it uses no "lithuanianbank.eu" address. In a separate, ongoing pattern the Bank has flagged, fraudsters email foreign citizens claiming to be from the Bank of Lithuania or its employees, telling the recipient that a payment has already been received on their behalf and instructing them to submit a "deposit declaration" and pay taxes on that income or on a pension before the funds can be released. The Bank has stated plainly that it does not send such letters, does not open accounts or provide payment services to individual customers, and never asks anyone to declare or pay taxes or pension contributions by email, urging anyone who receives one of these messages to delete it without opening any attachment or link, avoid replying or providing information, and report the email to their own country\'s police or financial-crime investigation service. As with any message claiming to be from a central bank or financial regulator, the safest response to an unexpected email about a "payment," "deposit declaration," or tax owed is to go directly to the institution\'s own official website — never a link or address supplied in the email itself — to check whether the message is genuine.',
+    categorySlug: 'phishing',
+    alertLevel: 'medium',
+    sources: ['Bank of Lithuania (Lietuvos bankas)'],
+    sourceUrl: 'https://www.lb.lt/en/news/fraud-alert-scam-emails-allegedly-sent-by-the-bank-of-lithuania',
+    country: 'LT',
+  },
+  {
+    name: '"Labas, Mama" New-Number SMS Family Scam',
+    slug: 'lithuania-labas-mama-new-number-sms-scam',
+    description:
+      'On November 17, 2023, telecom operator Telia\'s Digital Progress Center warned that Lithuania had recorded its first cases of the "Labas, mama" ("Hi, Mum") text scam already well known in other countries. The pattern opens with an SMS or messaging-app text, claiming to be from the recipient\'s son or daughter, saying their phone was lost, broken, or stolen and that this new number should be saved as theirs going forward. Cybersecurity expert Darius Povilaitis explained that once a target has saved the number and replied even briefly, "the criminal is granted broad potential profit opportunities" — the conversation can then move, over hours or days, to a request for money to cover an emergency, a loan repayment, or a charity donation, or to a request for banking details or identification numbers under a more elaborate pretext. Because the message plays on genuine parental concern and the plausible, everyday explanation of a broken phone, targets frequently save the new number and engage before realizing anything is wrong, at which point the scammer can steer the conversation without the recipient\'s usual skepticism toward an unfamiliar number. The scam had already cost victims in the United Kingdom roughly £500,000 in a single year by the time it reached Lithuania, with real losses believed to run considerably higher since embarrassed victims often do not report them. The advice from Telia\'s cybersecurity team is simple: never save or reply to a number based solely on a text claiming a family member\'s phone changed — call the relative\'s old, known number first to confirm they are safe, and only update contact details once that call confirms the story is genuine.',
+    categorySlug: 'family-emergency-scams',
+    alertLevel: 'medium',
+    sources: ['LRT (Lithuanian National Radio and Television)', 'Telia Lietuva — Digital Progress Center'],
+    sourceUrl: 'https://www.lrt.lt/naujienos/mokslas-ir-it/11/2127030/labas-mama-atakos-grizo-nauju-formatu-sukciai-praso-issisaugoti-nauja-vaiko-telefono-numeri',
+    country: 'LT',
+    isHistorical: true,
+    firstRecorded: '2023-11-17',
+  },
+);
