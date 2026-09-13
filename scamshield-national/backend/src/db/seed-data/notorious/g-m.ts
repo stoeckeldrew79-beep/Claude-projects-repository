@@ -9703,6 +9703,10 @@ NotoriousGM.push({
     slug: 'brett-lemieux-mister-mancave-counterfeit-memorabilia',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Andre_Dawson_signed_baseball.jpg?width=1200',
+    coverImageCredit: 'Photo: Amin Eshaiker (CC BY-SA 3.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Brett Lemieux, a 45-year-old collectibles dealer from Westfield, Indiana, ran a sports memorabilia business called Mister Mancave that, by his own account, became one of the largest counterfeiting operations the hobby has ever seen. Rather than forging signatures by hand the way earlier autograph rings had, Lemieux's scheme centered on faking the layer of the industry built specifically to stop fraud: the holographic authentication stickers and certificates of authenticity issued by companies like Fanatics, Panini, Tri-Star, James Spence Authentics, Mill Creek Sports, and GT Marketing. An item bearing one of those counterfeit holograms looked, to an ordinary buyer, exactly as trustworthy as a genuinely authenticated one.
 
 On July 16, 2025, Lemieux posted a roughly 1,200-word confession to the private Facebook group "Autographs 101," describing a scheme he said had run for about two decades and named several alleged co-conspirators. He claimed Mister Mancave had sold more than four million counterfeit items and topped $350 million in sales, and that warehouses tied to the operation held $500 to $700 million more in counterfeit merchandise. He estimated that as much as 95 percent of memorabilia in circulation under the names of stars like Patrick Mahomes and Aaron Judge, and large volumes tied to Kobe Bryant and Tom Brady, had passed through operations like his rather than being genuinely signed.
