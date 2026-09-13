@@ -7354,3 +7354,17 @@ UsGM.push({
     isHistorical: true,
     firstRecorded: '2014-06-01',
 });
+
+UsGM.push({
+    name: 'Illinois AI Face-Swapped "Found Your Dog" Reward Scam',
+    slug: 'illinois-ai-face-swap-lost-pet-reward-scam',
+    description: `After Illinois residents posted "lost dog" alerts to social media in early July 2025, a scammer used AI face-swapping tools to lift the missing dog's face from the owner's own photo and paste it onto a different dog's body, then messaged the owner claiming to have found the pet and demanding a partial reward payment upfront before revealing a pickup address. In at least one case, the owner caught the fake because the paws in the doctored photo didn't match his dog's distinctive markings even though the face looked identical. The Better Business Bureau serving Greater Missouri and Southern Illinois issued guidance afterward warning that scammers "know animals are like family" and specifically exploit that emotional vulnerability, cautioning pet owners never to send money before physically confirming custody of the animal. The scheme is distinct from older lost-pet scams that rely on a spoofed shelter or veterinary phone number and a fabricated story about an injured animal needing emergency care — this version fabricates visual "proof" of the actual missing pet using AI image editing, making it far more convincing to a distressed owner scanning social media for any lead. Anyone contacted by someone claiming to have found a lost pet should insist on a live video call or in-person meeting to confirm the animal before sending any money, and should examine any photo "proof" for inconsistencies in markings, collar, or surroundings that don't match verified details about the actual pet.`,
+    categorySlug: 'ai-deepfake-scams',
+    alertLevel: 'medium',
+    sources: ['Better Business Bureau serving Greater Missouri and Southern Illinois', 'First Alert 4 (KMOV)'],
+    sourceUrl: 'https://www.firstalert4.com/2025/07/08/scam-alert-face-swapped-dog-photos-used-lost-pet-reward-money-scam/',
+    country: 'US',
+    state: 'IL',
+    isHistorical: true,
+    firstRecorded: '2025-07-08',
+});
