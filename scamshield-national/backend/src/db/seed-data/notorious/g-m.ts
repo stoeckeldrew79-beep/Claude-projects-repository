@@ -9525,3 +9525,42 @@ Kloogh has come up for parole repeatedly in the years since, and been turned dow
     sourceUrl: 'https://www.sfo.govt.nz/media-cases/media-releases/barry-kloogh-gets-lengthy-jail-term-for-15-7-million-fraud',
   },
 );
+
+NotoriousGM.push(
+  {
+    title: 'Cobus Geldenhuis: Debarred in South Africa in 2009, He Kept Running a Ponzi Scheme for Another Decade',
+    slug: 'cobus-geldenhuis-classic-financial-services-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'international'],
+    body: `Jacobus Stephanus "Cobus" Geldenhuis was already a known name to South Africa's financial regulator years before his biggest fraud began. In 2009 he was debarred from acting as a financial adviser after an earlier employer, Fugio Financial Services, had its licence suspended over findings that he had forged client signatures and misused client funds; in 2013 he was separately ordered to repay R927,000 to two clients. That 2009 debarment was never lifted — and, prosecutors and regulators say, it never actually stopped him. Operating through a company called Classic Financial Services (Pty) Ltd out of Kempton Park, near Johannesburg, Geldenhuis kept marketing himself to the public as a financial adviser for another decade.
+
+Between January 2019 and May 2023, South Africa's Financial Sector Conduct Authority (FSCA) found, Classic Financial Services collected roughly R617 million from about 1,120 investors who believed Geldenhuis was investing their money in shares on their behalf. He wasn't. The FSCA's investigation concluded he was running a Ponzi scheme, paying some investors what looked like returns using other investors' capital while using a substantial share of the money for himself — investigators later traced tens of millions of rand to gambling alone. The FSCA issued a public warning against Geldenhuis and Classic Financial Services in October 2022, after a complaint from an investor named Nico Retief helped trigger the formal investigation. By the time regulators moved to freeze the company's bank accounts in May 2023, only a small fraction of the money — a few tens of millions of rand — remained; South Africa's High Court in Pretoria placed Classic Financial Services into final liquidation on May 30, 2023.
+
+In December 2023, the FSCA imposed a R143 million administrative penalty on Geldenhuis and debarred him from providing financial services for 20 years, on top of the debarment already outstanding since 2009. The regulator referred the matter to South Africa's criminal justice authorities, and the National Prosecuting Authority opened a criminal case at Kempton Park police station in July 2023 — but more than a year later the docket remained with police, with no charges yet brought, and Geldenhuis has not paid any of the R143 million penalty or agreed to a payment plan.
+
+Regulatory sanctions and an open police docket did not end his career, either. Financial-services trade press in South Africa has since reported that Geldenhuis was found operating in 2024 through a separate authorised financial services provider, Pecunia Systems, registered in the name of his son, and separately using the alias "Pieter Pretorius" through an entity called Gorilla Unit Special Ops — allegations Geldenhuis has denied. He lost a leg below the knee in a motorcycle accident in October 2024, but reporting on the case suggests that has not slowed the new fraud allegations following him.
+
+Geldenhuis's case is a reminder of how thin a debarment can be without enforcement behind it: a regulator can strip someone of the right to call themselves a financial adviser, but unless that prohibition is actively checked and policed, nothing stops a determined operator from simply opening a new company under a name investors have no way of connecting to a fourteen-year-old warning — and, on the evidence gathered by South African journalists, from doing it again even after being caught and fined the second time.`,
+    sourceUrl: 'https://www.moonstone.co.za/still-scheming-cobus-geldenhuis-caught-in-new-fraud-allegations-despite-debarment/',
+  },
+);
+
+NotoriousGM.push(
+  {
+    title: 'Raheel Mirza, Cameron Vickers, and the "Bespoke Markets Group" Binary Options Fraud',
+    slug: 'bespoke-markets-group-binary-options-fraud-fca',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'international'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Inner_london_crown_court_southwark.jpg?width=1200',
+    coverImageCredit: 'Southwark Crown Court, London, where the case was tried and sentenced — public domain, via Wikimedia Commons',
+    coverImagePosition: 50,
+    body: `Bespoke Markets Group, or BMG, presented itself to the British public as a London investment firm specializing in binary options — a form of fixed-odds financial betting where a trade simply pays out or doesn't, with nothing in between. Between June 2016 and January 2020, Cameron Vickers, Raheel Mirza, Opeyemi Solaja, and Reuben Akpojaro cold-called members of the public under a rotating cast of pseudonyms, persuading roughly 120 UK investors to hand over a combined £1.2 million to be traded on their behalf. According to the UK's Financial Conduct Authority (FCA), which brought the prosecution, none of it was genuinely invested — the money was instead shared among the men to fund their own lifestyles.
+
+The case went to an eight-week trial at Southwark Crown Court, and on April 3, 2023, a jury convicted Vickers, Mirza, and Solaja of conspiracy to defraud. Mirza was separately convicted of perverting the course of justice. Akpojaro was acquitted of conspiracy to defraud and money laundering but convicted of the lesser offence of carrying on a regulated activity — offering binary options investments — without FCA authorisation. Sentencing followed on April 6, 2023, for the first three defendants and May 22, 2023, for Akpojaro: Vickers received seven and a half years, Solaja — found to have personally received the largest share of investors' money — also seven and a half years, and Mirza eight years for the fraud plus a consecutive eighteen months for perverting the course of justice, a total of nine and a half years. Akpojaro was given a six-month sentence suspended for twelve months alongside 150 hours of community service. Sentencing them, the judge told the group that BMG "was no more than a money-making machine, which operated to transfer as much of its unfortunate customers' money into [the defendants'] pockets as possible."
+
+The case did not end with sentencing. The FCA pursued confiscation proceedings against all four men afterward, and in a decision announced in May 2025 — with a further update that August covering Akpojaro, whose own confiscation hearing had been adjourned — the regulator secured a combined £305,284 from Vickers, Mirza, and Solaja, described by the FCA as effectively all their remaining traceable assets. The FCA said the confiscated funds would be returned to the scheme's investors.
+
+BMG is a straightforward illustration of a persistent cold-calling fraud pattern: a firm with a plausible-sounding name and a real-sounding product (binary options were, briefly, a genuinely regulated retail product in parts of Europe before UK and EU regulators banned their sale to retail consumers in 2018-2019) cold-calling members of the public who had no relationship with the firm and no way to verify, from the call alone, that the person on the other end of the line was using a fake name and had no FCA authorisation to take their money at all. More than five years after the fraud ended and two years after conviction, UK authorities were still working through the confiscation process — a reminder that securing a conviction and actually recovering money for victims from convicted fraudsters can be two very different, and very differently timed, fights.`,
+    sourceUrl: 'https://www.fca.org.uk/news/press-releases/three-individuals-convicted-and-sentenced-combined-24-and-half-years-all-or-nothing-investment-fraud',
+  },
+);
