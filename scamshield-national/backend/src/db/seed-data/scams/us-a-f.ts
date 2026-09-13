@@ -8240,3 +8240,15 @@ UsAF.push({
     isHistorical: true,
     firstRecorded: '2016-01-01',
 });
+
+UsAF.push({
+    name: 'Georgia Inmate\'s Prison-Run Extortion of a Delaware Woman (Asaad Amir Hasuan)',
+    slug: 'delaware-hasuan-prison-extortion-scheme',
+    description: `While incarcerated in Georgia from September 2021 through at least May 2024, Asaad Amir Hasuan — who also goes by Dante Fredrick — ran a fraud and extortion operation from behind bars targeting the family and friends of his fellow inmates, according to a federal indictment unsealed in the U.S. District Court for the District of Delaware. Prosecutors say Hasuan built trust with relatives desperate to help an incarcerated loved one by falsely promising he could arrange legal assistance, physical protection inside the facility, or lucrative investment opportunities, then induced them to wire money or hand over property. One Delaware woman was defrauded of money and property valued at more than $3.5 million over the course of the scheme, while three additional victims — a New Jersey woman and a Georgia man and woman, each with a relative behind bars — lost a combined $375,000. When victims hesitated or pushed back, prosecutors say Hasuan escalated to explicit threats, in one instance texting a victim "This blood is on your hands." A superseding indictment charged Hasuan and eight Georgia residents accused of serving as money-laundering "mules" with conspiracy to commit money laundering, eight counts of money laundering, wire fraud, and attempted Hobbs Act extortion; Hasuan has pleaded not guilty, and the FBI's Baltimore Field Office has asked anyone with information about additional victims to come forward. The case is a reminder that a call or letter from someone claiming special influence over an inmate's case — offering to get witnesses to recant, arrange protection, or multiply money through an "investment" — should be treated as suspect regardless of how convincing or urgent it sounds, since no legitimate attorney, protective arrangement, or investment is ever brokered by a fellow prisoner demanding secrecy and escalating cash payments.`,
+    categorySlug: 'family-emergency-scams',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office for the District of Delaware", 'WHYY', 'WDEL'],
+    sourceUrl: 'https://www.justice.gov/usao-de/pr/georgia-residents-charged-conspiracy-commit-money-laundering-money-laundering-wire-fraud',
+    country: 'US',
+    state: 'DE',
+});

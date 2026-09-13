@@ -7146,3 +7146,15 @@ UsGM.push({
     isHistorical: true,
     firstRecorded: '2019-01-01',
 });
+
+UsGM.push({
+    name: 'Nationwide Dating-Profile Romance Scam Reaching Iowa (Naabanyin Aniagyei-Cobbold)',
+    slug: 'iowa-aniagyei-cobbold-nationwide-romance-scam',
+    description: `Naabanyin Aniagyei-Cobbold, a Connecticut man, played a central role in a romance-scam conspiracy that created fake profiles on internet dating sites and social media to build online relationships with victims across the country before asking them for money, including a victim in the Southern District of Iowa who alone sent him more than $400,000. Aniagyei-Cobbold used a shell company he controlled, Alpha Distributions LLC, to receive and move victims' payments, and prosecutors say he took in more than $1.5 million from victims nationwide over the course of the scheme — while, in a detail prosecutors highlighted at sentencing, also writing and starring in a music video titled "S.C.A.M." with lyrics about receiving "scam money" and "laundering it up." A federal jury convicted him of wire fraud and money laundering offenses, and on March 5, 2026, the U.S. District Court for the Southern District of Iowa sentenced Aniagyei-Cobbold to nine years in federal prison and ordered him to pay $1,554,442.46 in restitution to his victims. The case illustrates how a romance scam's victims are rarely confined to one state: a scammer can run dozens of fake dating profiles simultaneously from anywhere, and a single victim's wire transfer can be laundered through a shell company's bank account before ever being traced back to a real person. Anyone who has never met an online romantic interest in person should be skeptical of any request for money, a wire transfer, or a payment routed through an unfamiliar business name, and can verify a suspected profile is fake by doing a reverse image search on the person's photos before the relationship goes any further.`,
+    categorySlug: 'romance-scams',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office for the Southern District of Iowa", 'KIMT', 'Connecticut Post'],
+    sourceUrl: 'https://www.justice.gov/usao-sdia/pr/connecticut-man-sentenced-nine-years-imprisonment-participating-nationwide-romance',
+    country: 'US',
+    state: 'IA',
+});

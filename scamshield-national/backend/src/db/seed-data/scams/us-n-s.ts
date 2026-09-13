@@ -7144,3 +7144,17 @@ UsNS.push({
     country: 'US',
     state: 'SC',
 });
+
+UsNS.push({
+    name: 'East Providence Bank Employee\'s Theft From a Dementia Patient (Carlos Bras)',
+    slug: 'rhode-island-bras-bank-employee-elder-identity-theft',
+    description: `Carlos Bras, 41, of East Providence, Rhode Island, worked at a Santander Bank branch and used that access to loot the account of a 78-year-old customer with dementia who lived in an assisted-living facility and had a court-appointed conservator. Beginning around May 2023, prosecutors say Bras enabled online banking access to the victim's account without authorization, ordered new checks sent to addresses he controlled, and obtained a debit card for his own use, then accessed the account roughly 88 times between April and July 2023 to make unauthorized transfers — including to his wife's own bank account and multiple wire transfers to a bank account in Portugal. When an internal bank investigator questioned him, Bras falsely claimed his wife worked as a real estate agent in Portugal and that the wires were part of a legitimate property purchase. He pleaded guilty in the U.S. District Court for the District of Rhode Island to mail fraud and aggravated identity theft, admitting to stealing more than $125,000 from the victim, and faces up to 32 years in prison at a sentencing hearing scheduled for September 15, 2026. The case is a reminder that a bank employee's legitimate system access can itself become the tool of elder financial exploitation — families with an aging relative in assisted living should periodically review that person's bank and credit card statements themselves, watch for unexplained address or contact-information changes on an account, and ask the bank directly whether a conservator or trusted contact can be added to receive alerts on unusual account activity.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office for the District of Rhode Island", 'WPRI', 'Providence Business News'],
+    sourceUrl: 'https://www.justice.gov/usao-ri/pr/former-bank-employee-admits-stealing-more-125000-elderly-customer-dementia',
+    country: 'US',
+    state: 'RI',
+    isHistorical: true,
+    firstRecorded: '2023-04-01',
+});
