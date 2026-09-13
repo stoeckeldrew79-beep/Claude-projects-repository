@@ -8305,3 +8305,17 @@ UsAF.push({
     isHistorical: true,
     firstRecorded: '2024-06-04',
 });
+
+UsAF.push({
+    name: 'American Samoa Joins 42-State Coalition Against Meta Investment-Scam Ads',
+    slug: 'american-samoa-meta-investment-scam-ads-coalition-letter',
+    description: `On June 11, 2025, a bipartisan coalition of 42 state and territory attorneys general — led by Connecticut's William Tong, New Hampshire's John Formella, New York's Letitia James, and Pennsylvania's Dave Sunday, and including American Samoa's Attorney General — sent a joint letter to Meta Platforms demanding the company fix ad-review practices that let fraudulent investment advertisements run unchecked on Facebook and WhatsApp. The letter described a recurring pattern: deceptive ads that lure users into fake investment groups by impersonating well-known financial figures and celebrities, luring victims with promises of guaranteed, outsized returns and then walking them into handing over money through a fraudulent trading platform or crypto wallet that was never going to pay out. The coalition wrote that these scams cause not just "the loss of potentially life-changing money, but also significant psychological and social consequences" for victims, and called on Meta to strengthen its vetting of advertisers running investment-related ads, increase human review of those ads rather than relying solely on automated screening, and — if it cannot implement more effective safeguards — stop running investment advertisements as a category altogether, stating bluntly, "If Meta is unable to implement a more effective process, then it should just stop running investment advertisements as a category." American Samoa residents, like users everywhere on Facebook and WhatsApp, should treat any investment ad featuring a celebrity, news anchor, or financial personality's face or voice as inherently suspect by default — these are frequently deepfaked or lifted without consent specifically to borrow a real public figure's credibility — and should never send money or personal financial information to an "investment opportunity" first encountered through a social media ad, verifying any such offer independently through the actual company or figure being referenced before ever engaging with it.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'medium',
+    sources: ['National Association of Attorneys General (NAAG)'],
+    sourceUrl: 'https://www.naag.org/press-releases/42-state-and-territory-attorneys-general-urge-meta-to-take-action-against-investment-scam-ads/',
+    country: 'US',
+    state: 'AS',
+    isHistorical: true,
+    firstRecorded: '2025-06-11',
+});

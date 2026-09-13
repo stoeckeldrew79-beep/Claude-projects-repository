@@ -7224,3 +7224,17 @@ UsNS.push({
     isHistorical: true,
     firstRecorded: '2025-09-24',
 });
+
+UsNS.push({
+    name: 'CNMI Attorney General COVID-19 Fake Vaccine and Test Kit Scam Alert',
+    slug: 'northern-mariana-islands-covid19-fake-vaccine-test-kit-scam-alert',
+    description: `CNMI Attorney General Edward Manibusan issued a consumer alert on April 6, 2020 warning Commonwealth residents that fraudsters were exploiting early pandemic fear on multiple fronts at once. The alert described emails impersonating the CDC and WHO carrying malicious attachments or linking to fake coronavirus-tracking-map websites built to install malware and harvest personal data, alongside robocalls and text messages pushing bogus COVID-19 "treatments," work-from-home schemes, and links disguised as pandemic tracking tools. Separately, the alert flagged sellers marketing nonexistent vaccines, unapproved home test kits, and miracle treatments — stating plainly that "no vaccines, pills, potions, lotions, medications" yet existed to cure or prevent the coronavirus — as well as unknown individuals going door to door offering to sell medical kits or vaccines or perform in-home testing and "sanitization" services, and fraudulent charities soliciting donations that would never reach any real relief effort. Manibusan's office advised residents to carefully check a website's URL before entering any personal information, never open attachments or click links in unsolicited messages, hang up on robocalls without pressing any number to "opt out," research any seller online before buying anything pandemic-related, pay by credit card rather than debit card, wire transfer, or gift card, never donate to a charity through wire transfer or another untraceable method, and contact local law enforcement about any unknown person going door to door offering pandemic-related products or services. The same pattern — a health emergency used to sell fake protection or fake cures while a look-alike government email or website harvests personal data — has recurred in the CNMI with each subsequent public-health scare.`,
+    categorySlug: 'healthcare-fraud',
+    alertLevel: 'medium',
+    sources: ['Commonwealth of the Northern Mariana Islands Office of the Attorney General'],
+    sourceUrl: 'https://www.cnmioag.org/ag-issues-alert-of-covid-19-scams/',
+    country: 'US',
+    state: 'MP',
+    isHistorical: true,
+    firstRecorded: '2020-04-06',
+});
