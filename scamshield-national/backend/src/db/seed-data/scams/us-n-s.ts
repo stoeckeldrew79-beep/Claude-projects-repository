@@ -7294,3 +7294,17 @@ UsNS.push({
     isHistorical: true,
     firstRecorded: '2025-06-24',
 });
+
+UsNS.push({
+    name: 'Riverhead "Government Forfeited" Roadside Auction Sign Scam',
+    slug: 'riverhead-government-forfeiture-roadside-auction-sign-scam',
+    description: `Illegal roadside bandit signs appeared around Riverhead, New York advertising a "government forfeited" property auction featuring luxury automobiles, fine art, and precious gems — but never disclosing an auction location. Calling the phone number listed on the signs connected to a voicemail box for "the auction department" of an entity called Dominion Auctions, whose business domain had been registered only months earlier and which had no New York State business registration or Suffolk County business certificate on file. Riverhead Police Department pulled the illegal signs from roadways in July 2024 and warned residents not to call the number, treating it as a scheme designed to harvest money or personal information from people drawn in by the promise of steeply discounted seized government property. The scheme is a physical-signage variant of the decades-old fake "government auction" listing scam, more commonly run through websites or classified ads. Anyone who sees a similar roadside sign advertising a government or forfeiture auction should independently verify the seller's business registration with the county clerk's office before calling any number posted on the sign, and can report the sign itself to local police as illegal roadside advertising.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Riverhead Police Department', 'RiverheadLOCAL'],
+    sourceUrl: 'https://riverheadlocal.com/2024/07/08/cops-warn-against-auction-scam/',
+    country: 'US',
+    state: 'NY',
+    isHistorical: true,
+    firstRecorded: '2024-07-08',
+});
