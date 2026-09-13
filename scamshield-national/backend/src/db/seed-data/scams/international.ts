@@ -18548,3 +18548,48 @@ International.push(
     firstRecorded: '2024-11-20',
   },
 );
+
+International.push(
+  {
+    name: 'DistributeX Crypto "Clicking Task" Recruitment Scam',
+    slug: 'montenegro-distributex-crypto-clicking-task-scam',
+    description: `Vijesti first reported in late March 2026 on "DistributeX," a scheme recruiting Montenegrin citizens through WhatsApp groups with the promise of easy income from a cryptocurrency platform: new members paid an entry fee of around €256 to unlock a set of daily "tasks" — as little as five clicks on a proprietary platform — that supposedly generated commissions, with advancement to higher VIP tiers requiring further payments of roughly €265 and then €800 plus the recruitment of six to eight new members underneath them. The organizers operated under the name of a registered NGO, "DistribucijaX," and held motivational events — including one at a Budva hotel where participants received certificates and applauded speeches about the platform's success — even as complaints were mounting that promised payouts were not being made. Montenegro's Police Administration confirmed by August 2026 that citizens in Herceg Novi, Nikšić, Budva, and Danilovgrad had filed criminal complaints, saying reporting citizens stated they had been deceived by the platform's representatives after paying in through "voluntary" deposits and completing tasks that were never actually compensated; criminal charges for financial fraud were filed against three named organizers — Goran Trifunović, Smiljana Obradović, and Marko Đokvučić — with more than 3,000 Montenegrin citizens estimated to have joined the scheme and millions of euros collected through crypto payments and cash handed over at local offices before the WhatsApp group was shut down at the end of August 2026. Malta's Financial Services Authority, whose jurisdiction the platform had implied a connection to, stated plainly that "no legal entity operates under the name DistributeX on Malta, nor is any individual licensed by MFSA to provide financial services" — underscoring that no regulator anywhere had approved the scheme. Citizens should treat any WhatsApp-recruited "task platform" that requires an upfront crypto payment and rewards recruiting new members over actually completing paid work as a pyramid scheme, regardless of NGO registration or public certificate ceremonies used to make it look credible.`,
+    categorySlug: 'job-task-scams',
+    alertLevel: 'critical',
+    sources: ['Vijesti', 'Radio-Televizija Nikšić (RTNK)', 'Telegraf.rs', 'Malta Financial Services Authority (MFSA)'],
+    sourceUrl: 'https://rtnk.me/drustvo/od-aplauza-do-prijava-za-milionsku-prevaru/',
+    country: 'ME',
+  },
+  {
+    name: '"Injured Relative" Landline Emergency Fraud Wave',
+    slug: 'montenegro-injured-relative-landline-emergency-fraud',
+    description: `Montenegro's Police Directorate issued a public warning in late September 2025 after a wave of fraudulent phone calls hit fixed-line telephones in Nikšić and Podgorica, targeting mostly elderly residents who still rely on landlines. Callers falsely identifying themselves as doctors, hospital staff, or other officials tell the person who answers that a close relative — often a son, daughter, or grandchild — has just been seriously injured, typically in a traffic accident, and that money is needed immediately to cover emergency treatment or an operation, with some versions of the call demanding gold or other valuables instead of cash. Police traced a number of the calls to foreign numbers, including some linked to the Czech Republic, and said the specialized high-tech crime unit had been mobilized to investigate; Ivan Pekić, an honorary representative of the International Police Cooperation network in Montenegro, said modern criminals "are not caught using methods from the last century" and that police were treating the wave as organized, cross-border activity. As of the police warning, no confirmed financial losses to the scheme had been reported in Montenegro, credited in part to the public alert reaching residents before the callers could complete a transfer, but the calls were said to still be ongoing in the affected cities. Police urged anyone receiving such a call to hang up and independently verify the relative's safety by phoning them or another family member directly, to never send money, gold, or other valuables based solely on a caller's claim, and to report any such call to police immediately rather than acting on panic.`,
+    categorySlug: 'family-emergency-scams',
+    alertLevel: 'high',
+    sources: ['Police Directorate of Montenegro (Uprava policije)', 'Kurir.rs', 'Radio-Televizija Nikšić (RTNK)'],
+    sourceUrl: 'https://www.kurir.rs/region/crna-gora/9787797/gradjanima-crne-gore-upuceni-pozivi-na-fikne-telefone-u-cilju-prevare-i-prikupljanja-novca',
+    country: 'ME',
+  },
+  {
+    name: 'Terraform Labs "Do Kwon" Fugitive Crypto Fraud Arrest',
+    slug: 'montenegro-do-kwon-terraform-fugitive-arrest',
+    description: `On March 23, 2023, Montenegrin police arrested Terraform Labs co-founder Do Kwon at Podgorica Airport as he attempted to board a private flight to Dubai carrying a forged Costa Rican passport, with a separate set of forged Belgian passports found in his luggage alongside a business associate. Montenegro's Interior Minister at the time, Filip Adžić, announced the arrest directly, saying "the former cryptocurrency king who is behind losses of over $40 billion has been apprehended at the Podgorica airport with forged documents" — a reference to the collapse of Kwon's TerraUSD and Luna cryptocurrencies in May 2022, which wiped out roughly $40 billion in value and inflicted losses on retail investors worldwide, including in Europe. Kwon and his associate were each sentenced to four months in a Montenegrin prison for passport forgery, after which a lengthy legal battle played out over whether he would be extradited to South Korea or the United States; Montenegro's Supreme Court ruled in September 2024 that either country could receive him, the Constitutional Court rejected his final appeal on December 24, 2024, and the Justice Minister approved extradition to the United States three days later, citing "the gravity of the criminal acts, the order of submission of the extradition requests, and the citizenship of the person in question." Montenegrin authorities handed Kwon over to FBI agents on December 31, 2024, and he pleaded guilty in a New York federal court in August 2025 to conspiracy and wire fraud; on December 11, 2025, U.S. District Judge Paul Engelmayer sentenced him to 15 years in prison, calling his crimes "a fraud of epic generational scale." The case stands as a reminder that a project's size, media buzz, or a founder's public confidence are no guarantee against fraud — and that a scheme promising algorithmically "guaranteed" stable returns on a cryptocurrency can collapse and erase billions of dollars in savings within days, exactly as Terra/Luna did.`,
+    categorySlug: 'cryptocurrency-scams',
+    alertLevel: 'critical',
+    sources: ['Montenegro Ministry of Interior', 'U.S. Department of Justice (SDNY)', 'CNN', 'Radio Free Europe/Radio Liberty (RFE/RL)'],
+    sourceUrl: 'https://www.rferl.org/a/montenegro-crypto-kwon-korea-extradition-terraform-sec/33255262.html',
+    country: 'ME',
+    isHistorical: true,
+    firstRecorded: '2023-03-23',
+  },
+  {
+    name: 'Fake Employment Bureau Job Ad Impersonation Scam',
+    slug: 'montenegro-fake-employment-bureau-job-ads-scam',
+    description: `Montenegro's Employment Bureau (Zavod za zapošljavanje Crne Gore) issued a public warning around early May 2026 after fake job advertisements began circulating on social media using the Bureau's official name and logo to look like genuine, government-backed job postings. The Bureau said the postings have no connection whatsoever to the actual institution and exist to collect either citizens' personal data or money, typically dangling the promise of fast, high pay for work requiring no experience — a red flag the Bureau said should immediately raise suspicion regardless of how official the ad's branding looks. The warning specifically cautioned jobseekers never to share personal information through links attached to such ads and never to pay any fee described as a "registration" or "training" cost in order to access a job opening, since the genuine Employment Bureau does not charge jobseekers for either. The Bureau asked anyone who spots one of these fraudulent ads to report it so the posting can be taken down before more jobseekers are misled, and urged the public to verify any job opportunity claiming an affiliation with the Bureau exclusively through the institution's own official channels before providing any information or payment.`,
+    categorySlug: 'employment-scams',
+    alertLevel: 'medium',
+    sources: ['Employment Bureau of Montenegro (Zavod za zapošljavanje Crne Gore)', 'Mladi Nikšića'],
+    sourceUrl: 'https://mladiniksica.me/lazni-oglasi-za-posao-zloupotrebljavaju-ime-zavoda-za-zaposljavanje/',
+    country: 'ME',
+  },
+);
