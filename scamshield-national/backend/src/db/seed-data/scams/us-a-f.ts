@@ -8278,3 +8278,16 @@ UsAF.push({
     isHistorical: true,
     firstRecorded: '2025-05-21',
 });
+
+UsAF.push({
+    name: 'East Haven Breast-Imaging Manager\'s $1 Million Romance-to-Crypto Loss (Jackie Crenshaw)',
+    slug: 'connecticut-east-haven-crenshaw-romance-crypto-loss',
+    description: `Jackie Crenshaw, a 61-year-old breast imaging manager from East Haven, Connecticut, met a man calling himself "Brandon" on an online dating site, and over months of daily communication — including gifts and food deliveries sent to her home — he built the kind of trust that made his next suggestion feel safe: investing in a cryptocurrency opportunity he said was earning him steady returns. Fake account statements showing the investment growing convinced Crenshaw to put in more, eventually borrowing against her retirement account and taking out a home loan to keep pace with "Brandon's" requests, including one transaction built around a $100,000 check that her own bank initially verified as good. She had lost nearly $1 million before an anonymous caller tipped off police roughly a year later, finally exposing "Brandon" as fictitious and the platform as fraudulent. Connecticut Attorney General William Tong and AARP Connecticut featured Crenshaw's story in a statewide public service announcement launched January 2, 2026 and aired for 16 weeks on Connecticut television and radio, pairing it with FBI data showing adults 60 and older filed more than 147,000 fraud complaints in 2024 totaling $4.86 billion in losses, including $389 million lost specifically to romance scams. A romantic contact met only online who introduces a "can't miss" investment — especially cryptocurrency — is a red flag regardless of how genuine the relationship otherwise feels, and even a bank confirming a check as good is no guarantee it won't bounce days later once fully processed; anyone approached this way can call Connecticut's Elder Justice Hotline at 860-808-5555 or the AARP Fraud Watch Network Helpline at 877-908-3360 before sending money.`,
+    categorySlug: 'romance-scams',
+    alertLevel: 'critical',
+    sources: ["Connecticut Office of the Attorney General (William Tong)", 'AARP Connecticut'],
+    sourceUrl: 'https://portal.ct.gov/ag/press-releases/2026-press-releases/attorney-general-tong-and-aarp-launch-psa-combatting-online-exploitation-of-older-adults',
+    country: 'US',
+    state: 'CT',
+    isHistorical: true,
+});
