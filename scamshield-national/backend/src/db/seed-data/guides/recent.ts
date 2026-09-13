@@ -748,6 +748,9 @@ GuidesRecent.push({
     slug: "revolut-2026-spoofed-government-request-breach-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "revolut-2026-data-breach"],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/London_Revolut.jpg?width=1200',
+    coverImageCredit: 'Boubloub, CC0, via Wikimedia Commons',
+    coverImagePosition: 50,
     body: `In September 2026, the digital bank Revolut confirmed that customer data had been exposed after the company acted on a request that looked exactly like a legitimate ask from a government agency — but wasn't. According to Revolut and outside reporting, an unauthorized party sent a request to the company from what appeared to be an official government email domain, and that request carried valid-looking domain authentication credentials, the kind of technical signal companies normally rely on to confirm a message really did come from where it claims to. Revolut has said it fulfilled the request "under the reasonable belief that it was an authentic government agency request." It wasn't, and by the time anyone realized that, a set of sensitive customer records had already gone out the door.
 
 The data exposed reads like a near-complete identity-verification file: full names, dates of birth, occupations, home addresses, government-issued identity documents, and the "verification selfies" customers submit to prove they're really who their ID says they are, along with IBANs, account-opening dates, and — notably — cryptocurrency records including Bitcoin wallet reference numbers, withdrawal records, and complete transaction histories. Revolut said customer funds themselves were never at risk and that biometric facial-recognition data specifically was not part of what went out, distinguishing that from the verification selfies, which were. The company has not said publicly how many customers were affected, though outside researchers who reviewed the incident have suggested it may have been narrowly targeted at a smaller group of higher-net-worth account holders rather than Revolut's customer base broadly.
@@ -765,6 +768,10 @@ GuidesRecent.push({
     slug: "mcbs-medical-billing-2025-data-breach-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "mcbs-2025-data-breach"],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Atlanta_Downtown_Skyline.jpg?width=1200',
+    coverImageCredit: 'Photo: Anish Patel (CC BY-SA 4.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     body: `Medical Computer Business Services, or MCBS, is an Atlanta-based revenue-cycle-management company: the kind of behind-the-scenes vendor that handles billing, coding, accounts receivable, and other administrative work for hospitals and healthcare practices so those providers don't have to run it in-house. That's exactly why most of the people affected by its data breach have likely never done business with MCBS directly, or even heard the name, despite the company holding some of their most sensitive medical and financial records on behalf of their own doctor's office or hospital. Between September 22 and 26, 2025, an unauthorized party gained access to MCBS's network. The PEAR ransomware group — a gang that emerged in mid-2025 and has since listed more than 100 alleged victims on its dark-web leak site — claimed responsibility and said it had exfiltrated roughly 3 terabytes of data.
 
 According to MCBS's breach notice, the files an attacker could have accessed included patients' names, home addresses, Social Security numbers, dates of birth, health insurance information, and medical information. Separately, the intrusion also touched the company's own business records: financials, HR and business-operations documents, vendor data, payment details, and internal emails. The federal Department of Health and Human Services' breach tracker lists the total at 1,261,464 individuals, making this one of the largest healthcare-sector breaches disclosed in 2026.
