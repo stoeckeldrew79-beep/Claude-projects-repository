@@ -18293,3 +18293,52 @@ International.push(
     country: 'SK',
   },
 );
+International.push(
+  {
+    name: 'Wavemaler "YouTube Subscription" WhatsApp Task-Scam',
+    slug: 'morocco-wavemaler-youtube-subscription-whatsapp-task-scam',
+    description:
+      'Starting around September 29, 2023, a wave of WhatsApp messages swept across Morocco from an account calling itself "Wavemaler Maroc-Global Media Agency," offering people 4 dirhams for every YouTube channel they subscribed to. Business daily Médias24 documented how the scheme escalated the classic advance-fee "task scam" pattern: after paying out small, genuine sums for the first few subscriptions to build trust, the operators shifted victims into a "deposit-to-earn" phase, asking them to transfer 200 dirhams at a time in exchange for a promised 260-dirham payout. One victim who filed a complaint at the Kénitra court of first instance on October 3, 2023 documented losing 4,880 dirhams this way before payments stopped and the group vanished. An independent cybersecurity researcher, Amine Ghzal, said he was contacted by roughly 50 people who believed they had been caught up in the same scheme, of whom about 20 went on to file formal complaints with the King\'s Prosecutor, while Médias24 reported that the national police cybercrime division was looking into the case. Many victims described feeling too embarrassed to report a scam that started with a real, if tiny, payout — a reminder that a legitimate task or referral offer never needs its participants to send money first in order to "unlock" a bigger return.',
+    categorySlug: 'job-task-scams',
+    alertLevel: 'high',
+    sources: ['Médias24'],
+    sourceUrl: 'https://medias24.com/2023/10/24/ce-que-lon-sait-de-la-vague-nationale-darnaques-sur-whatsapp/',
+    country: 'MA',
+    firstRecorded: '2023-09-29',
+  },
+  {
+    name: 'Oued Zem Sextortion Ring Targeting Gulf and Israeli Nationals',
+    slug: 'morocco-oued-zem-sextortion-ring-gulf-israeli-nationals',
+    description:
+      'On January 28-29, 2024, Moroccan judicial police arrested three suspects, aged 28 to 35, who ran a sextortion network operating out of the town of Oued Zem. According to Le360 and La Vie Éco, the ringleader hijacked victims\' social media and messaging accounts, lured them into video calls, and recorded them in compromising positions, then threatened to publish the footage unless they paid — demanding money in both cash and cryptocurrency. A married couple among the arrested suspects ran money-transfer agencies in the nearby town of Benguérir that laundered the extorted funds passed along by victims, in exchange for a cut of the proceeds. Investigators said the network\'s targets were overwhelmingly foreign nationals from Gulf states and Israel, a pattern police in the region have linked to at least one earlier tragedy: coverage of similar Oued Zem-based sextortion cases has cited a young Kuwaiti victim who died by suicide after extortionists carried out their threat and sent his intimate videos to his family once he stopped paying. Police seized phones containing digital evidence of the extortion operation, a vehicle, and cash suspected to be criminal proceeds, and placed all three suspects in custody pending further investigation into additional victims and possible accomplices.',
+    categorySlug: 'sextortion',
+    alertLevel: 'critical',
+    sources: ['Le360', 'La Vie Éco'],
+    sourceUrl: 'https://fr.le360.ma/societe/sextorsion-un-nouveau-reseau-criminel-demantele-a-oued-zem_AG2JHUITCBETFJ2EIGE6RGTE4Q/',
+    country: 'MA',
+    firstRecorded: '2024-01-28',
+  },
+  {
+    name: 'Marrakech "Military Doctor" Facebook Marriage-Fraud Scheme',
+    slug: 'morocco-marrakech-fake-military-doctor-facebook-marriage-scam',
+    description:
+      'A 45-year-old woman from Marrakech spent years posing as a man on Facebook to defraud young women seeking marriage, according to Le360. She altered her appearance and adopted two fabricated personas — first a military doctor, later an airline pilot — and pursued relationships with women online before asking for money. One victim, courted under the "military doctor" identity, was persuaded to send roughly 30,000 dirhams while the fake fiancé claimed to be waiting on an annual work bonus; a second victim, targeted under the "pilot" persona, transferred 18,000 dirhams to cover supposedly urgent paperwork for an overseas work assignment. The deception unraveled when one victim discovered her online fiancé was, in fact, a woman. The Criminal Chamber of the Rabat Court of Appeal convicted her of fraud in October 2025 and, on April 9, 2026, upheld a sentence of 18 months in prison plus a 5,000-dirham fine, ordering her to pay a combined 55,000 dirhams in damages to her two identified victims; investigators noted she was already wanted on four separate search warrants for similar schemes targeting women in Marrakech, Settat, and Rabat. The case underscores that a romantic interest met only online, who cannot appear on a video call or meet in person, and who eventually asks for money to cover a bonus, travel document, or other "temporary" expense, should be treated as a probable scam regardless of how convincing the backstory sounds.',
+    categorySlug: 'romance-scams',
+    alertLevel: 'high',
+    sources: ['Le360'],
+    sourceUrl: 'https://fr.le360.ma/societe/faux-medecin-faux-pilote-une-femme-se-fait-passer-pour-un-homme-et-escroque-plusieurs-victimes_DSLMKVXTJRG2VP7I243GKLTP7U/',
+    country: 'MA',
+  },
+  {
+    name: 'AI Deepfake "Attijariwafa Bank" CEO Investment Video',
+    slug: 'morocco-attijariwafa-bank-ai-deepfake-ceo-investment-scam',
+    description:
+      'On November 7, 2025, Attijariwafa Bank — Morocco\'s largest private bank — issued a public warning after a fabricated video began circulating online and across social media, formatted to imitate a national news report and built around an AI-generated likeness of the bank\'s real chairman and CEO, Mohamed El Kettani, without his knowledge or consent. The video steered viewers toward a counterfeit investment platform falsely presented as affiliated with the bank and promising, in the bank\'s words, "unrealistic profits." Attijariwafa Bank said in its statement that it "does not operate or endorse any investment platform or related initiative," called the unauthorized use of its chairman\'s likeness and branding "an attack on the bank\'s identity," and said it would pursue "all necessary legal action" against those responsible. The warning came amid a broader wave of similar fraud documented by Moroccan outlets through 2026, in which scammers spread fake investment offers via WhatsApp and Telegram using real banks\' logos, branch details, and staff names, and increasingly relied on AI to clone the voices or faces of senior bank executives to make the pitches look authentic. Moroccan banks have consistently urged customers to remember that no legitimate bank promotes investment schemes through unsolicited social-media videos, and that any offer traced back through a messaging app rather than an official banking channel should be treated as fraudulent.',
+    categorySlug: 'ai-deepfake-scams',
+    alertLevel: 'high',
+    sources: ['Hespress', 'Morocco World News'],
+    sourceUrl: 'https://www.moroccoworldnews.com/2025/11/266949/attijariwafa-bank-warns-against-fake-ai-generated-video-using-ceos-image/',
+    country: 'MA',
+    firstRecorded: '2025-11-07',
+  },
+);
