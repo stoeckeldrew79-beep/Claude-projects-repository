@@ -3987,3 +3987,17 @@ UsTZ.push({
     isHistorical: true,
     firstRecorded: '2021-01-01',
 });
+
+UsTZ.push({
+    name: 'Provo Widow-Targeting Romance Scam Ring (Nelly Idowu)',
+    slug: 'utah-provo-idowu-romance-scam-money-laundering',
+    description: `From 2017 to 2019, Nelly Idowu, 39, of Provo, Utah, and three co-conspirators — Emmanuel Osaigbovo Adesotu, Nnamdi Joel Chukwu, and Julius Omene Fredrick — ran an online romance scheme that built fake dating profiles specifically to target widowed and divorced women over 65, cultivating what victims believed were real relationships before each "partner" developed a sudden, urgent financial need and asked for money. Idowu's role centered on money laundering: moving and disguising proceeds from a scheme that took more than $6 million from victims over its two-year run. A federal jury convicted Idowu of one count of money laundering conspiracy and two counts of money laundering, and she was sentenced to six years in federal prison followed by three years of supervised release; her co-defendants, who each pleaded guilty to money laundering conspiracy, received sentences ranging from one year (Chukwu) to 46 months (Fredrick), with Adesotu sentenced to three years. All four defendants were ordered to pay $6,444,787.16 in restitution jointly to their victims. The case illustrates why an online romantic interest's sudden request for money — however emotionally convincing the relationship has felt — should be treated as a red flag regardless of the reason given, and why older adults who are widowed or divorced, and often managing finances alone for the first time, should loop in an adult child or trusted friend before sending money to anyone they have only ever met online.`,
+    categorySlug: 'romance-scams',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office, District of Utah", 'KSL', 'ABC4 Utah'],
+    sourceUrl: 'https://www.ksl.com/article/50861485/provo-woman-sentenced-6-years-in-prison-for-6-million-online-romance-scam',
+    country: 'US',
+    state: 'UT',
+    isHistorical: true,
+    firstRecorded: '2017-01-01',
+});

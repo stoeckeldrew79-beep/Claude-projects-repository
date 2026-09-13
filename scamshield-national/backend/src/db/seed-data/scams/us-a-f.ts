@@ -8226,3 +8226,17 @@ UsAF.push({
     isHistorical: true,
     firstRecorded: '2020-01-01',
 });
+
+UsAF.push({
+    name: 'Connecticut Tax Preparer\'s Fabricated Charitable-Deduction Scheme (Diana Miller-Lloyd)',
+    slug: 'connecticut-miller-lloyd-tax-preparer-fraud',
+    description: `Diana Miller-Lloyd, 45 — who also used the names "Diana Rabin" and "Diana Lloyd" — ran a Connecticut tax-preparation business, first as Lloyd Forensic & Accounting Services and later as Lloyd Forenzique & Accounting Services Corporation, operating out of Windsor starting in 2017, then Branford in 2019, and Guilford in 2021, before eventually moving to Port Orange, Florida. For tax years 2016 through 2021, prosecutors say she routinely padded clients' federal returns — many belonging to people earning more than $500,000 a year — with fabricated and inflated charitable-contribution deductions they never actually made, generating roughly $1,062,293 in fraudulent refunds and improper tax reductions and costing the IRS an estimated $472,913. Miller-Lloyd pleaded guilty on October 1, 2025 to two counts of aiding and assisting in the preparation of false and fraudulent income tax returns, and on April 15, 2026 was sentenced to 18 months in federal prison plus a year of supervised release and ordered to pay $467,717 in restitution; she was due to report to prison July 13, having been free on a $25,000 bond until then. The U.S. Attorney's Office for the District of Connecticut noted Miller-Lloyd had a prior 2010 New York conviction for grand larceny tied to preparing false tax returns, meaning she kept preparing fraudulent returns for years even after an earlier conviction for the identical conduct. Anyone whose return shows a charitable deduction, business loss, or credit they don't recognize is entitled to see and understand every line of it before it's filed — a preparer who won't explain a deduction in plain terms, or discourages a client from reviewing the full return before it goes out, is doing exactly what let this scheme run undetected by any single client for years.`,
+    categorySlug: 'tax-scams',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office, District of Connecticut", 'CPA Practice Advisor'],
+    sourceUrl: 'https://www.cpapracticeadvisor.com/2026/04/15/ex-connecticut-tax-preparer-gets-18-month-prison-sentence-for-filing-1-06m-in-false-returns/181697/',
+    country: 'US',
+    state: 'CT',
+    isHistorical: true,
+    firstRecorded: '2016-01-01',
+});
