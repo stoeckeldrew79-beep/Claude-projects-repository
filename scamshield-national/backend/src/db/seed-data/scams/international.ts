@@ -18636,3 +18636,67 @@ International.push(
     country: 'OM',
   },
 );
+
+International.push(
+  {
+    name: '"Cash Grab" Letter-of-Credit Scam Diverts Nearly $1 Billion in Fuel, Food, and Medicine Funds',
+    slug: 'south-sudan-cash-grab-letter-of-credit-scam',
+    description: `The Sentry, a Washington-based investigative and policy organization co-founded by actor George Clooney, published a report titled "Cash Grab: How a Billion-Dollar Letters-of-Credit Scam Robbed South Sudan of Fuel, Food, and Medicine" documenting how a 2012 government program meant to ease a severe hard-currency shortage was instead systematically looted. Facing a shortage of U.S. dollars needed to import basic necessities, South Sudan's government arranged nearly $1 billion in letter-of-credit (LC) facilities from Qatar National Bank (roughly $793 million) and Kenya's CfC Stanbic Bank (roughly $200 million), under which local traders could deposit South Sudanese pounds with a domestic bank and receive a dollar-denominated LC to pay foreign suppliers for fuel, food, and medicine. The Sentry's investigation found that banks approving the LCs did not require proof that goods had actually been delivered, and that recipients — including companies that existed only on paper, with no employees or operations — routinely never imported anything at all. Instead, The Sentry documented hundreds of millions of dollars transferred into accounts in Kenya and Uganda linked to the same individuals allocated the LCs or their close associates, including people connected to President Salva Kiir, then-Central Bank governor Kornelio Koriom Ngu, and senior military officials, who then resold the dollars on the black market at rates far above the official exchange rate for personal profit. The scheme ran from 2012 through 2015, diverting hundreds of millions of dollars intended for famine relief and medical supplies while South Sudan's own currency collapsed and shortages of fuel and medicine worsened; Qatar National Bank later pursued international arbitration in 2020 over the unrepaid facility. The Sentry's report is based on a multi-year investigation involving interviews with former officials and traders, and reviews of corporate registries, banking, and government records.`,
+    categorySlug: 'investment-fraud',
+    sources: ['The Sentry', 'Global Trade Review (GTR)'],
+    sourceUrl: 'https://thesentry.org/reports/cash-grab/',
+    country: 'SS',
+    isHistorical: true,
+    firstRecorded: '2012-01-01',
+  },
+  {
+    name: '"Oil for Roads" $2.2 Billion Infrastructure Diversion Scheme',
+    slug: 'south-sudan-oil-for-roads-infrastructure-diversion-scheme',
+    description: `The United Nations Commission on Human Rights in South Sudan published a 101-page report, "Plundering a Nation: How Rampant Corruption Unleashed a Human Rights Crisis in South Sudan," on September 16-17, 2025, following a two-year investigation, detailing how the government's "Oil for Roads" program — an off-budget scheme launched to convert crude-oil revenue directly into infrastructure — was used to funnel roughly $2.2 billion to a small network of politically connected companies between 2021 and 2024. The Commission found that companies linked to Benjamin Bol Mel, a businessman who was appointed the country's vice president in February 2025, received an estimated $1.7 billion in payments for road-construction contracts of which less than $500 million in actual roads were ever delivered, with the firms consuming as much as 60 percent of government contracts in some years despite building over 90 percent less infrastructure than they were paid for. The Commission described the country as having been "captured by a predatory elite that has institutionalised the systematic looting of the nation's wealth for private gain," noting that the diverted funds went missing while nearly two-thirds of South Sudan's roughly 12 million people faced severe food insecurity and the national economy contracted from about $12 billion in gross domestic product in 2011 to roughly $5.4 billion in 2024. Investigators said the arrangement operated as a patronage network in which contracts were awarded without competitive bidding or verification that promised construction work had actually been completed, allowing oil wealth that should have funded public infrastructure and services to instead be converted into private wealth for a small circle of officials and their business associates.`,
+    categorySlug: 'investment-fraud',
+    sources: ['United Nations Commission on Human Rights in South Sudan (OHCHR)', 'OilPrice.com', 'Health Policy Watch'],
+    sourceUrl: 'https://www.ohchr.org/en/press-releases/2025/09/south-sudan-un-inquirys-report-details-how-systemic-government-corruption',
+    country: 'SS',
+    isHistorical: true,
+    firstRecorded: '2021-01-01',
+  },
+);
+
+International.push(
+  {
+    name: 'M-Pesa Agent Registration Fraud Network Dismantled in Nampula',
+    slug: 'mozambique-mpesa-agent-registration-fraud-nampula',
+    description: `Club of Mozambique reported that Vodacom's M-Pesa mobile-money service uncovered and dismantled a fraud network operating through its own agent-registration system in Nampula province, in the northern neighborhoods of Namicopo and Carrupeia, leading to 28 people being detained for questioning by May 2024. Investigators found that registration agents and SIM-card sellers were exploiting weak identity checks by reusing a single person's identification document to open multiple fraudulent M-Pesa accounts and register duplicate SIM cards, rather than each account being tied to its own genuinely verified customer. The scheme surfaced through Vodacom's anti-money-laundering and counter-terrorist-financing monitoring, which flagged the unusual pattern of repeated registrations tracing back to identical documents. Mozambican authorities have separately classified the country's electronic-money sector as carrying a "high" money-laundering and terrorist-financing threat level, citing its heavy use in regions with limited formal banking infrastructure where mobile-money agents often provide the only accessible financial access point, making agent-level identity fraud especially difficult for ordinary customers and banks to detect. The case illustrates how mobile-money fraud in Mozambique is not limited to phishing texts sent to individual customers, but can also originate upstream, inside the agent network responsible for verifying who is actually opening each account.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'medium',
+    sources: ['Club of Mozambique', 'Telecompaper'],
+    sourceUrl: 'https://clubofmozambique.com/news/mozambique-e-money-scam-network-dismantled-in-north-28-detained/',
+    country: 'MZ',
+  },
+);
+
+International.push(
+  {
+    name: 'Fake UNICEF Recruitment, Training, and Scholarship Scam',
+    slug: 'sudan-fake-unicef-recruitment-scholarship-scam',
+    description: `UNICEF Sudan issued a public alert warning that it was "aware and concerned" about numerous fraudulent recruitment notices circulating via WhatsApp, email, fake websites, and social media, soliciting money from the public in Sudan in exchange for supposed UNICEF jobs, training opportunities, scholarships, and contracts. The alert explained that these fraudulent messages often carry the UNICEF logo and appear to come from official-looking email addresses or websites, or are sent by individuals or groups using the word "UNICEF" in their name, making them difficult for jobseekers to distinguish from genuine correspondence at a glance. UNICEF Sudan stated plainly that the agency does not accept job applications, cover letters, or CVs by email, that all genuine vacancies are posted only on UNICEF's official global and country vacancy pages with applications submitted online, and that UNICEF "does not charge a fee at any stage of the recruitment process" — including application, interview, travel, processing, or training fees — and will never request banking information from an applicant. The advisory asked members of the public who receive a suspicious job, training, or scholarship offer referencing UNICEF to report it to UNICEF directly or to local authorities rather than respond or send any payment or personal financial details, noting that similar fraudulent "UNICEF" recruitment schemes using the organization's name and branding have recurred repeatedly across African countries.`,
+    categorySlug: 'employment-scams',
+    alertLevel: 'medium',
+    sources: ['UNICEF Sudan'],
+    sourceUrl: 'https://www.unicef.org/sudan/unicef-alert-be-aware-fraudulent-posts',
+    country: 'SD',
+  },
+);
+
+International.push(
+  {
+    name: 'Cross-Border Fake Bank Page Fraud Network Laundering Nearly LYD 10 Million',
+    slug: 'libya-cross-border-fake-bank-page-fraud-network',
+    description: `The Libya Observer reported on June 26, 2026 that Libya's Financial Crimes Enforcement Agency had dismantled an organized cross-border criminal network accused of targeting Libyan bank customers through sophisticated online fraud schemes that exploited electronic financial systems and multiple digital platforms to deceive victims, laundering nearly LYD 10 million through various financial and digital channels to conceal the money's origin. Investigators arrested the network's main suspect, who was referred to the Public Order Prosecution, and identified a key accomplice — an Egyptian national allegedly responsible for creating and managing fake online pages used to lure and deceive bank customers — while tracing the network's international financial connections to France, Germany, and Dubai. The case adds to a pattern of organized fraud rings built around impersonating Libyan banks online that Libyan authorities have targeted in separate operations, but distinguishes itself by the scale of the laundering involved and its documented cross-border financial trail spanning multiple countries, underscoring that fake bank-affiliated pages used to harvest customer trust and financial details are often just the visible front end of larger international money-laundering operations rather than standalone local scams.`,
+    categorySlug: 'phishing',
+    alertLevel: 'high',
+    sources: ['The Libya Observer'],
+    sourceUrl: 'https://libyaobserver.ly/inbrief/libya-dismantles-cross-border-fraud-network-targeting-bank-customers',
+    country: 'LY',
+  },
+);
