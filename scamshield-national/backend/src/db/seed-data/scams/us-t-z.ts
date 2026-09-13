@@ -4001,3 +4001,15 @@ UsTZ.push({
     isHistorical: true,
     firstRecorded: '2017-01-01',
 });
+
+UsTZ.push({
+    name: 'Virgin Islands Medicaid Behavioral-Health Billing Fraud (RTS Services Unlimited 11)',
+    slug: 'virgin-islands-rts-services-medicaid-behavioral-health-fraud',
+    description: `The Virgin Islands Department of Justice's Medicaid Fraud Control Unit filed a False Claims Act lawsuit on June 23, 2026 against RTS Services Unlimited 11, LLC and three individuals — Melinda Richards, Ashley Doway, and Duane Robinson — accusing them of billing the territory's Medicaid program for children's after-school and summer enrichment programs by falsely recharacterizing them as reimbursable psychotherapy, hypnotherapy, and behavioral health services. According to the complaint, ordinary activities like homework help, tutoring, snacks, and transportation for children with behavioral and mental health needs were billed instead as clinical therapy sessions, even though RTS staff lacked the Virgin Islands licenses required to independently provide, supervise, or bill for that kind of care. Between January 2020 and January 2026, RTS submitted claims to the Virgin Islands Medicaid Program totaling approximately $3,912,551.57 and was actually paid approximately $408,410.90 before the scheme was uncovered. Attorney General Gordon C. Rhea said children and families relying on Medicaid-funded behavioral health services deserve treatment "by qualified clinicians," and the lawsuit seeks damages, restitution, civil penalties, and disgorgement of the improperly obtained funds under the Virgin Islands False Claims Act. The case illustrates how a Medicaid billing scheme can hide behind a legitimate-sounding children's program name — parents whose child is enrolled in a Medicaid-billed behavioral health or therapy program can ask the provider directly whether the staff working with their child hold the required Virgin Islands clinical license, and can report suspected billing fraud to the V.I. Department of Justice's Medicaid Fraud Control Unit.`,
+    categorySlug: 'healthcare-fraud',
+    alertLevel: 'medium',
+    sources: ["Virgin Islands Department of Justice, Medicaid Fraud Control Unit"],
+    sourceUrl: 'https://usvidoj.com/medicaid-fraud-control-unit-files-false-claims-act-lawsuit-against-rts-services-unlimited-11-llc-melinda-richards-ashley-doway-and-duane-robinson/',
+    country: 'US',
+    state: 'VI',
+});
