@@ -7340,3 +7340,17 @@ UsGM.push({
     isHistorical: true,
     firstRecorded: '2025-12-12',
 });
+
+UsGM.push({
+    name: 'Hmong Tebchaws "New Homeland" Affinity Fraud (Seng Xiong)',
+    slug: 'minnesota-seng-xiong-hmong-homeland-affinity-fraud',
+    description: `Seng Xiong of Maplewood, Minnesota ran an organization called "Hmong Tebchaws" — Hmong for "Hmong Country" — from mid-2014 through March 2016, falsely claiming U.S. and international backing to establish a sovereign Hmong homeland in Southeast Asia. He solicited $3,000 to $5,000 "founder" deposits, or ongoing $20 monthly payments, from more than 400 Hmong people across the country, many of them elderly, promising each contributor a future house, 10 acres of land, and free healthcare and education once the homeland was established — though no such land, government recognition, or backing ever existed. Xiong was convicted at trial in January 2017 of wire and mail fraud and was sentenced to 87 months in federal prison along with $1.2 million in restitution, out of roughly $1.7 million he had collected. Unlike the guaranteed-return pitches behind most investment fraud, this scheme exploited ethnic-community identity and a fabricated nation-building promise rather than a financial return, targeting people through trust built within their own community. Anyone approached with a similar pitch — a "founding member" fee tied to a new homeland, community fund, or ethnic-heritage project promising land or government benefits — should independently verify any claimed government or international backing before paying anything, and should be especially wary when a fundraiser leans on shared ethnic or community identity to discourage outside scrutiny.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'medium',
+    sources: ['U.S. Secret Service', 'Minnesota Public Radio'],
+    sourceUrl: 'https://www.secretservice.gov/press/releases/2017/01/seng-xiong-convicted-after-trial-defrauding-hmong-elders',
+    country: 'US',
+    state: 'MN',
+    isHistorical: true,
+    firstRecorded: '2014-06-01',
+});
