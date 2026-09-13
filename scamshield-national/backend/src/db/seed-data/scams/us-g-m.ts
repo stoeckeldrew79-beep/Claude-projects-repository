@@ -7270,3 +7270,17 @@ UsGM.push({
     isHistorical: true,
     firstRecorded: '2021-02-22',
 });
+
+UsGM.push({
+    name: 'Sellersburg "ChuliTodo" Ghost Tax Preparer Fraud (Anita Marie Rodriguez Perez)',
+    slug: 'indiana-sellersburg-chulitodo-rodriguez-perez-tax-fraud',
+    description: `Anita Marie Rodriguez Perez owned and operated ChuliTodo, a tax preparation business in Clark County, Indiana, where from 2021 through 2023 she prepared and filed roughly 463 false federal tax returns on behalf of clients. According to the IRS Criminal Investigation division, Rodriguez Perez fabricated Schedule C forms claiming clients operated businesses that had suffered significant losses, and separately inflated Schedule A itemized deductions for medical and dental expenses her clients never actually incurred, generating illegitimate refunds that caused an estimated $1,575,250 in tax loss to the IRS. She pleaded guilty to five counts of aiding and assisting in the preparation of false and fraudulent tax returns, and on November 19, 2025, U.S. District Judge Sarah Evans Barker sentenced her to 18 months in federal prison followed by two years of supervised release, along with $1,954,673.30 in restitution. "Tax fraud undermines the integrity of our financial system and unfairly shifts the burden onto honest taxpayers," said Tom Wheeler, U.S. Attorney for the Southern District of Indiana. Because the client whose name is on a fraudulent return — not the preparer — is the one the IRS holds responsible for repaying any refund obtained through false claims, taxpayers should ask a paid preparer to walk through exactly which deductions and business losses are being claimed, confirm the preparer signs the return and includes a valid Preparer Tax Identification Number, and be wary of any preparer whose fee is based on a percentage of the refund, since that structure rewards inflating the numbers.`,
+    categorySlug: 'tax-scams',
+    alertLevel: 'high',
+    sources: ['Internal Revenue Service Criminal Investigation', "U.S. Attorney's Office, Southern District of Indiana"],
+    sourceUrl: 'https://www.irs.gov/compliance/criminal-investigation/sellersburg-tax-preparer-sentenced-to-federal-prison-for-filing-more-than-460-false-returns',
+    country: 'US',
+    state: 'IN',
+    isHistorical: true,
+    firstRecorded: '2021-01-01',
+});

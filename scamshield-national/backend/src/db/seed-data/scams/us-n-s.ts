@@ -7198,3 +7198,15 @@ UsNS.push({
     isHistorical: true,
     firstRecorded: '2016-01-01',
 });
+
+UsNS.push({
+    name: 'Oregon Timeshare Resale Scam Using Stolen Real-Estate-Licensee Identities',
+    slug: 'oregon-timeshare-resale-licensee-identity-theft-scam',
+    description: `The Oregon Department of Justice warns that resellers cold-call or mail existing timeshare owners — often reached through public county property records — claiming to already have a buyer lined up or a broker interested in taking the timeshare off their hands for a "hefty profit." Oregon regulators note that many timeshares actually lose resale value over time, pointing to one example of a unit that originally sold for $20,000 but might fetch as little as $3,000 on the resale market depending on conditions, meaning any reseller promising a big payday on a unit like that is very likely lying. In cases the Oregon Real Estate Agency has investigated, scammers went a step further and used the names and license numbers of real, legitimately licensed Oregon real estate agents and companies without their knowledge, borrowing that stolen credibility to convince owners the offer was legitimate before collecting an upfront "transfer" or "closing" fee and disappearing. Warning signs the DOJ flags include unsolicited contact out of nowhere, a request to wire money for fees before any sale closes, and pressure to sign over the deed without using a licensed escrow company to handle the transaction. Anyone contacted about reselling a timeshare should independently look up the named agent or company through the Oregon Real Estate Agency's own license lookup — not a phone number or link the caller provides — and can check a company's complaint history through Oregon's Consumer Complaint Database before paying anything or signing a deed transfer.`,
+    categorySlug: 'timeshare-scams',
+    alertLevel: 'medium',
+    sources: ['Oregon Department of Justice', 'Oregon Real Estate Agency'],
+    sourceUrl: 'https://www.doj.state.or.us/consumer-protection/sales-scams-fraud/timeshares/',
+    country: 'US',
+    state: 'OR',
+});

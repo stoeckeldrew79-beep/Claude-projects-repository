@@ -4027,3 +4027,17 @@ UsTZ.push({
     isHistorical: true,
     firstRecorded: '2018-01-01',
 });
+
+UsTZ.push({
+    name: 'Montgomery County, Tennessee Caregiver\'s Bitcoin-ATM Elder Exploitation (Kathey Nance)',
+    slug: 'tennessee-montgomery-nance-caregiver-bitcoin-atm-exploitation',
+    description: `Kathey Nance, 67, worked as a caregiver for an elderly woman in Montgomery County, Tennessee, and used that position to repeatedly drive her client to the bank for large cash withdrawals between March 2021 and February 2022, taking more than $116,000 for herself in the process — continuing the trips even after the victim's daughter directly told her to stop. Investigators say Nance laundered a portion of the stolen cash through a cryptocurrency ATM and separately used the victim's and the victim's daughter's personal identifying information to open unauthorized financial accounts. A Montgomery County grand jury indicted Nance on April 4, 2023, and she was arrested on April 18, 2023, charged with caregiver neglect of an elderly adult and identity theft, held on a $25,000 bond. The case shows how a crypto ATM's appeal to scammers — a cash deposit that can't be clawed back or reversed once the transaction confirms — makes it just as useful for laundering money a trusted caregiver has already stolen as it is for a stranger's phone scam; family members who notice a caregiver making frequent unexplained bank or ATM trips with an elderly relative, especially after being asked to stop, should contact Adult Protective Services or local law enforcement directly rather than confronting the caregiver alone, and can ask the bank to flag or restrict further withdrawals while the concern is investigated.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'high',
+    sources: ['Fox News', 'Montgomery County, Tennessee District Attorney\'s Office'],
+    sourceUrl: 'https://www.foxnews.com/us/tennessee-caregiver-accused-driving-elderly-client-bank-taking-100k',
+    country: 'US',
+    state: 'TN',
+    isHistorical: true,
+    firstRecorded: '2021-03-01',
+});
