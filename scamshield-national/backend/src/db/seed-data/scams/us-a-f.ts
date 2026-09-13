@@ -8291,3 +8291,17 @@ UsAF.push({
     state: 'CT',
     isHistorical: true,
 });
+
+UsAF.push({
+    name: 'Greeley Uber Driver Fake "Alcohol Complaint" Account-Takeover Scam (Leo Jodoin)',
+    slug: 'colorado-greeley-jodoin-uber-account-takeover-scam',
+    description: `Leo Jodoin, a Greeley, Colorado man who drives for Uber and volunteers delivering for Meals on Wheels, received a ride request that was canceled the instant he accepted it, followed almost immediately by a phone call from someone claiming to be Uber Support. The caller told Jodoin a passenger had just complained about erratic driving and the smell of alcohol in his vehicle, and that Uber needed to verify his account before his access could be restored; over the following days the caller walked him through linking his debit card and bank account directly to what he believed was his own Uber driver app. Instead of restoring anything, the scammers used that access to drain $388 in earnings Jodoin had accumulated during the fraud, and Uber's system separately flagged his account for having "duplicate profiles" and deactivated it, leaving him locked out and without his own vehicle's ride-earnings until Denver7 Investigates got involved. "They took $388 and a little bit of change, which is not a lot in the grand scheme of things, but it's money that I earned," Jodoin said. Uber told Denver7 it takes fraud seriously, maintains anti-fraud systems, and will never ask a driver for a password or verification code by phone, text, or email; after the investigation, the company refunded Jodoin and reactivated his account. Denver7 found the same pattern hitting other Colorado drivers, including a Morrison woman targeted the same way, and reported it is happening to rideshare and delivery drivers nationwide: a canceled-ride call followed by a fabricated passenger complaint is the setup, and the real goal is getting the driver to link a bank account or read back a verification code to an account the scammer, not the driver, actually controls. Drivers who get an unsolicited call about a rider complaint should hang up and reach the platform only through its official app or website, never provide a login code read to them over the phone, and never link a new bank account to their account at a caller's direction.`,
+    categorySlug: 'account-takeover',
+    alertLevel: 'medium',
+    sources: ['Denver7 Investigates (KMGH)'],
+    sourceUrl: 'https://www.denver7.com/news/investigations/greeley-man-warns-of-scam-targeting-uber-drivers',
+    country: 'US',
+    state: 'CO',
+    isHistorical: true,
+    firstRecorded: '2024-06-04',
+});
