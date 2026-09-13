@@ -553,9 +553,8 @@ If you're an SK Telecom subscriber, confirm the carrier's USIM protection servic
     slug: "kt-femtocell-2025-data-breach-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "kt-femtocell-2025-data-breach"],
-    // representative photo — replace with an exact match if found
-    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Seoul_(175734251).jpeg?width=1200",
-    coverImageCredit: "Photo: Joon Kyu Park, CC BY-SA 3.0, via Wikimedia Commons — the Seoul skyline; KT Corporation is headquartered in Seoul",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/KT_Corp_2D_logo.svg?width=1200",
+    coverImageCredit: "KT Corporation logo (PD-textlogo, via Wikimedia Commons)",
     coverImagePosition: 50,
     body: `KT Corporation, South Korea's oldest and largest fixed-line and mobile carrier (marketed to consumers as Olleh), was hit by a very different kind of telecom intrusion than the malware-driven breaches that make most headlines. Rather than hacking into KT's servers directly, attackers got hold of a lost KT femtocell — a small cellular signal-booster device carriers issue to boost indoor coverage — pulled the authentication certificate off its hardware, and used it to build their own rogue femtocell that KT's network accepted as legitimate company equipment. That cloned device let the attackers quietly intercept the mobile traffic of any nearby phone that connected to it, undetected from October 8, 2024 until September 5, 2025 — eleven months — and KT only found out after a customer complained about unauthorized charges.
 
