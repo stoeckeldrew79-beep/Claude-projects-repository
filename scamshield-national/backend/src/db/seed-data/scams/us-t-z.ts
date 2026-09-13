@@ -4055,3 +4055,17 @@ UsTZ.push({
     isHistorical: true,
     firstRecorded: '2025-03-01',
 });
+
+UsTZ.push({
+    name: 'Virgin Islands Coronavirus Stimulus-Payment Tax Scam Warning',
+    slug: 'virgin-islands-coronavirus-stimulus-tax-scam-warning',
+    description: `As the first round of federal Economic Impact Payments was announced in April 2020, the U.S. Attorney's Office for the District of the Virgin Islands, IRS Criminal Investigation (led by Special Agent in Charge Michael J. De Palma), the Virgin Islands Bureau of Internal Revenue (Director Joel A. Lee), and then-Attorney General Denise N. George jointly warned Virgin Islands taxpayers on April 16, 2020 that fraudsters were already exploiting confusion over the new payments. Officials described callers posing as IRS or government representatives who asked victims to "verify" bank account, debit card, or PayPal information before a payment could be released — something the IRS and BIR never actually do — as well as texts and emails promising a faster payment in exchange for personal information or a click on an embedded link, and bogus paper checks for odd amounts, especially ones with cents, that came with instructions to call a number or visit a website to "verify" the check before depositing it. The alert clarified that real stimulus checks would simply arrive by mail at the address on file from a taxpayer's 2018 return, with no fee, phone call, or website visit required to receive one, and urged residents to hang up on suspicious callers, delete the texts and emails without clicking anything, and never hand over banking details to anyone claiming a payment depends on it. Virgin Islanders who encountered one of these schemes were directed to the National Center for Disaster Fraud Hotline at 866-720-5721 or disaster@leo.gov, and the same playbook — a caller or text claiming a benefit payment requires "verification" of financial details first — has resurfaced with each subsequent round of federal relief, tax rebate, or unemployment payments since.`,
+    categorySlug: 'tax-scams',
+    alertLevel: 'medium',
+    sources: ["U.S. Attorney's Office for the District of the Virgin Islands", 'IRS Criminal Investigation', 'Virgin Islands Bureau of Internal Revenue', 'Virgin Islands Consortium'],
+    sourceUrl: 'https://viconsortium.com/vi-crime/virgin-islands-territorys-u-s-attorneys-office-irs-criminal-investigation-unit-b-i-r-and-others-warn-taxpayers-to-be-on-alert-for-scams-related-to-coronavirus-economic-impact-payments',
+    country: 'US',
+    state: 'VI',
+    isHistorical: true,
+    firstRecorded: '2020-04-16',
+});

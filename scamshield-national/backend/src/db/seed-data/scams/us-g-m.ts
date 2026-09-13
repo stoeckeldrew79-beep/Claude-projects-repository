@@ -7298,3 +7298,17 @@ UsGM.push({
     isHistorical: true,
     firstRecorded: '2026-01-21',
 });
+
+UsGM.push({
+    name: 'Docomo Pacific AI Voice-Cloning Elder Scam Alert (Guam)',
+    slug: 'guam-docomo-pacific-ai-voice-cloning-elder-scam-alert',
+    description: `Christine Baleto, president and CEO of Guam telecommunications carrier Docomo Pacific, went public in March 2025 about a call her own mother received from someone claiming to be a federal agent, who said he had found her identification and other personal documents inside a vehicle that also contained drugs, then pressed her to "verify" her personal information over the phone or have agents sent to her home; Baleto's mother did not comply. "This public service announcement hit close to home because my mother received a call intended to steal her identity," Baleto said in releasing a company-wide PSA warning Guam residents, particularly the elderly, about a wave of scams that increasingly use artificial intelligence to clone the voices of a target's own family members from short clips scraped off social media, then use that cloned voice on a phone call to convince a senior their relative is in distress and needs money sent immediately, typically through gift cards or another hard-to-trace method. Docomo Pacific's warning came amid the indictment of 25 Canadian nationals accused of orchestrating a coordinated scam operation targeting elderly victims across more than 40 U.S. states and territories, underscoring that Guam's remote location offers no protection from a scam infrastructure built to work by phone against victims anywhere. Local officials and Docomo Pacific urged residents who receive an urgent, emotional call claiming to be a family member or law enforcement to resist any pressure to act immediately, hang up and call that family member back directly on a number already saved in their phone, and never share personal information, send money, or purchase gift cards based on a single unverified phone call, no matter how convincing the voice sounds.`,
+    categorySlug: 'ai-deepfake-scams',
+    alertLevel: 'high',
+    sources: ['Docomo Pacific', 'Post Guam (The Guam Daily Post)'],
+    sourceUrl: 'https://www.postguam.com/news/local/ceo-s-mother-targeted-ai-scammers-prey-on-guam-s-elderly/article_3b81f3a2-ffca-11ef-ab17-e7efdc62292f.html',
+    country: 'US',
+    state: 'GU',
+    isHistorical: true,
+    firstRecorded: '2025-03-13',
+});
