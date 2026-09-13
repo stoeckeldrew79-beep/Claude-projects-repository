@@ -7132,3 +7132,17 @@ UsGM.push({
     isHistorical: true,
     firstRecorded: '2026-06-01',
 });
+
+UsGM.push({
+    name: 'Revere, Massachusetts Rideshare Account Fraud Ring (Thiago De Souza Prado)',
+    slug: 'massachusetts-revere-de-souza-prado-rideshare-account-fraud',
+    description: `Starting in 2019, Thiago De Souza Prado, 39, of Revere, Massachusetts, bought stolen Massachusetts driver's licenses and Social Security numbers on the darknet and used them to create more than 50 fraudulent driver accounts on Uber and Lyft — accounts that passed the platforms' own criminal-background, sex-offender-registry, and driving-record checks under someone else's stolen identity. Prado drove under some of the fake accounts himself and rented others out to people who could not pass a background check on their own, collected referral bonuses by using his fraudulent accounts to "refer" his other fraudulent accounts as new drivers, and worked with co-conspirators on a spoofing app that faked GPS data to generate "ghost rides" reported as longer, and paid out more, than any trip actually given — with the resulting payments routed through bank accounts opened in the identity-theft victims' own names. A federal jury convicted Prado in September 2023 of conspiracy to commit wire fraud, three counts of wire fraud, and three counts of aggravated identity theft; he was one of 18 people charged in the scheme, which also led to related nationwide charges against 14 Brazilian nationals. On December 19, 2023, he was sentenced to five years and ten months in federal prison, three years of supervised release, and a $50,000 fine. "What Thiago De Souza Prado and this crew did is truly egregious," said Jodi Cohen, Special Agent in Charge of the FBI's Boston Division. "They stole the identities of unsuspecting consumers, violated customers' privacy, and potentially compromised public safety by putting unqualified drivers behind the wheel of these rideshare and food delivery services which millions of people rely on." The case is a reminder that the driver profile a rideshare or delivery app shows a customer — complete with a name, photo, and a passed background check — is not a guarantee of who is actually behind the wheel, and that anyone whose Social Security number or driver's license has been exposed in a data breach should watch for an unexpected 1099 tax form reporting gig-platform income they never earned, a telltale sign their identity was used to open a fraudulent driver account.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'high',
+    sources: ['FBI Boston Field Office', "U.S. Attorney's Office, District of Rhode Island", 'NBC Boston'],
+    sourceUrl: 'https://www.nbcboston.com/news/local/revere-man-sentenced-in-nationwide-rideshare-and-delivery-fraud-scheme/3223588/',
+    country: 'US',
+    state: 'MA',
+    isHistorical: true,
+    firstRecorded: '2019-01-01',
+});

@@ -7132,3 +7132,15 @@ UsNS.push({
     isHistorical: true,
     firstRecorded: '2024-01-01',
 });
+
+UsNS.push({
+    name: "South Carolina's $18.5 Million Crypto ATM Scam Surge",
+    slug: 'south-carolina-crypto-atm-scam-surge-2025',
+    description: `South Carolinians reported losing $18.5 million to scams involving cryptocurrency ATMs between January and November 2025, according to the South Carolina Department of Consumer Affairs (SCDCA) — part of a national surge the FBI tied to $247 million in crypto-ATM losses in 2024 alone, with victims over age 60 accounting for 86% of those national losses. In a case SCDCA cited as typical, Louis Vellia Jr. lost $10,000 in October 2024 after getting a fraudulent email claiming unauthorized Bitcoin purchases had been made on his PayPal account; through a coordinated series of phone and online contacts, scammers directed him to withdraw cash from his bank and feed it into a cryptocurrency ATM at a local convenience store, where it converted to digital currency almost instantly and moved overseas beyond any realistic hope of recovery. SCDCA Administrator Carri Grube Lybarker said "it's like sending cash that you won't be able to get back," and the agency is pushing state lawmakers in the 2026 legislative session to add safeguards for South Carolina's crypto kiosks, including mandatory state licensing, a $1,000 daily transaction cap, and required transaction receipts to help trace fraud after the fact. Common pretexts luring South Carolinians to a crypto ATM include a fake bank fraud alert, a claimed missed jury summons, and a fabricated romance or investment relationship that suddenly needs an urgent cash infusion; no legitimate bank, court, or government agency will ever direct someone to resolve a problem by feeding cash into a cryptocurrency kiosk, and anyone told to do so should hang up and independently verify the claim before withdrawing a single dollar.`,
+    categorySlug: 'cryptocurrency-scams',
+    alertLevel: 'high',
+    sources: ['South Carolina Department of Consumer Affairs (SCDCA)', 'AARP'],
+    sourceUrl: 'https://www.aarp.org/states/south-carolina/crypto-atm-fraud-prevention/',
+    country: 'US',
+    state: 'SC',
+});
