@@ -6420,3 +6420,20 @@ Bridging's collapse illustrates how a private credit fund's biggest vulnerabilit
     sourceUrl: 'https://www.capitalmarketstribunal.ca/en/proceedings/decisions-in-brief/decision-brief-bridging-finance-inc-enforcement-proceeding-sanctions-and-costs-june-17-2025',
   },
 );
+
+NotoriousNS.push(
+  {
+    title: 'Michael Steele and the Biggera Waters Development That Funded a House, University Fees, and a Gambling Habit',
+    slug: 'michael-steele-biggera-waters-superannuation-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'international'],
+    body: `Michael David Steele was a property developer on Queensland's Gold Coast pitching a residential and commercial development at Biggera Waters when, between May 2016 and February 2017, he persuaded 14 investors to hand over more than $1.3 million. Australia's corporate regulator, the Australian Securities and Investments Commission (ASIC), found that Steele told those investors their money — much of it withdrawn directly from their superannuation accounts, alongside personal savings — would be lent to two of his companies, EA Invest Pty Ltd and Marketing Machine International Pty Ltd, to help fund the Biggera Waters project through a related entity, Eastco Developments Pty Ltd.
+
+None of it went into the development. ASIC's investigation found Steele instead used the money to buy a house registered in his wife's name, pay his son's university fees, buy cars and jewellery, and fund international travel, entertainment, and online gambling. Not one of the 14 investors got any of their money back.
+
+Steele pleaded guilty on April 10, 2025, to three counts of fraud under the Criminal Code and a further count of fraud under Queensland's Criminal Code. He was sentenced in the Southport District Court on August 7, 2025, to eight years' imprisonment on the most serious count and four years on each of the remaining three counts, all to be served concurrently, meaning his effective total sentence is eight years; he becomes eligible for parole after serving 20 months. Once released, he will also be automatically disqualified from managing corporations for five years under the Corporations Act, on top of the underlying conviction itself. "The sentence imposed demonstrates the seriousness of Mr Steele's misconduct," ASIC said following the sentencing. "When individuals misappropriate funds for personal gain, they undermine financial system integrity."
+
+The Biggera Waters case follows a pattern regulators in multiple countries flag repeatedly: a developer pitching a specific, real, physical project as the destination for investors' money, while directing much of it toward routine personal spending that has nothing to do with construction. Steele's victims were told their retirement savings and cash would fund bricks and mortar on the Gold Coast; instead, according to ASIC, it funded a family home, a university education, and a gambling habit, with no development-related return ever materializing for any of them.`,
+    sourceUrl: 'https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2025-releases/25-157mr-former-gold-coast-property-developer-sentenced-to-eight-years-imprisonment-for-defrauding-superannuation-investment-funds/',
+  },
+);
