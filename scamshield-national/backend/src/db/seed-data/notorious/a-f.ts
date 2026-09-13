@@ -9106,3 +9106,40 @@ Clarkson's case is a reminder that a fraud collapsing doesn't necessarily mean i
     sourceUrl: 'https://www.cityoflondon.police.uk/news/city-of-london/news/2025/july/fraud-gang-jailed-over-6-million-fake-investment-schemes/',
   },
 );
+
+NotoriousAF.push(
+  {
+    title: 'Raymondip Bedi, Patrick Mavanga, and the Crypto Cold-Calling Scheme That Drove "a Coach and Horses Through the Regulatory System"',
+    slug: 'raymondip-bedi-patrick-mavanga-crypto-cold-calling-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'international'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Inner_london_crown_court_southwark.jpg?width=1200',
+    coverImageCredit: 'Photo: Christopher Hilton, Wikimedia Commons (CC BY-SA 2.0) — Southwark Crown Court, where Bedi and Mavanga were sentenced',
+    coverImagePosition: 50,
+    body: `Between February 2017 and June 2019, Raymondip Bedi of Bromley and Patrick Mavanga of Peckham ran a cold-calling operation that pushed at least 65 people into fake cryptocurrency investments, funnelling their money through two vehicles, CCX Capital and Astaria Group LLP, that had no genuine trading business behind them. The pitch followed a familiar script: an unsolicited call, then a handoff to a professional-looking website promising high returns on crypto investments that Bedi and Mavanga were never authorised to sell in the first place, since neither of them nor their companies held the Financial Conduct Authority (FCA) permissions required to carry on that kind of regulated investment business in the UK. By the time the scheme ran its course, it had taken £1,541,799 from its victims.
+
+The FCA's investigation, brought as a criminal prosecution rather than a civil enforcement action, led to guilty pleas from both men: Bedi admitted conspiracy to defraud, conspiracy to breach the general prohibition on carrying on regulated activity without authorisation under the Financial Services and Markets Act 2000, and money laundering offences, entering his plea on 2 May 2023. Mavanga pleaded guilty to the same core conspiracy charges on 9 June 2023, and was separately convicted on 7 November 2024 of perverting the course of justice after deleting phone recordings that were relevant to the investigation.
+
+Sentencing took place at Southwark Crown Court on 4 July 2025, before His Honour Judge Griffiths, who handed Bedi five years and four months in prison and Mavanga six years and six months — a combined twelve years — with the disparity reflecting Mavanga's additional conviction for destroying evidence. Judge Griffiths told the pair they "were both leading players in a conspiracy whereby the victims of the fraud were persuaded to invest in crypto currency consultancy," adding that they had "conspired to drive a coach and horses through the regulatory system." The FCA has pursued confiscation proceedings to recover the criminal proceeds and said it had been working to contact the identified victims directly, while inviting any others who believed they had been defrauded by the pair to come forward.
+
+The case is a reminder that a slick website and a company name that sounds like a real investment firm cost nothing to set up, and that the first filter worth applying to any unsolicited investment call is the simplest one: checking the FCA's register to see whether the caller and their firm are actually authorised to sell what they're offering, rather than taking the professionalism of the pitch itself as proof of legitimacy.`,
+    sourceUrl: 'https://www.fca.org.uk/news/press-releases/two-individuals-sentenced-combined-12-years-crypto-fraud',
+  },
+);
+
+NotoriousAF.push(
+  {
+    title: 'Ashley Arandez and the Self-Managed Super Fund Scheme That Paid for a Motorhome',
+    slug: 'ashley-arandez-smsf-unlicensed-investment-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'international'],
+    body: `Ashley Arandez, of Hoppers Crossing, Victoria, spent close to four years running an investment business without the licence Australian law requires for it. Between September 2017 and April 2021, Australia's Securities and Investments Commission (ASIC) found, Arandez recommended that clients roll money out of their self-managed superannuation funds — retirement savings most people spend decades building — and into investment products he personally controlled, promising fixed returns of 8 to 12 per cent a year, or as much as 300 per cent if the money was left in for three years. He had not been licensed or authorised to provide financial services since 23 June 2019, yet kept taking client money and giving investment advice regardless. In total, ASIC found he received $1.97 million from investors under this arrangement.
+
+Rather than deploying that money into the products he described, ASIC's investigation found Arandez used a share of it for himself, including buying property registered in his own name and a motorhome. He pleaded guilty on 5 August 2025 to dishonest conduct, carrying on a financial services business without a licence, and recklessly dealing with the proceeds of crime.
+
+Judge sentencing at the County Court of Victoria came down on 8 May 2026: five years and six months' imprisonment, with parole eligibility after three years and six months. "Mr Arandez betrayed the trust of his clients, misappropriated investors' funds and used the money for his own benefit," said ASIC Deputy Chair Sarah Court following the sentencing. As a further consequence of the conviction, Arandez is automatically disqualified from managing corporations, a disqualification that will run for five years after his release from prison.
+
+The Arandez case shows how easily a retirement nest egg can be redirected once someone convinces its owner to move it out of a regulated superannuation structure and into a product only the recommender controls: an SMSF gives its members direct control over where the money goes, which is exactly the flexibility an unlicensed adviser needs to route it toward himself instead of a market that would price it independently.`,
+    sourceUrl: 'https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-096mr-former-financial-services-director-ashley-arandez-sentenced-to-more-than-5-years-imprisonment/',
+  },
+);
