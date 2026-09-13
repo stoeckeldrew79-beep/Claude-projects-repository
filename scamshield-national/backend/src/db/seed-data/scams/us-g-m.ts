@@ -7380,3 +7380,29 @@ UsGM.push({
     sourceUrl: "https://consumer.ftc.gov/consumer-alerts/2024/11/task-scams-create-illusion-making-money",
     country: "US",
 });
+
+UsGM.push({
+    name: "Indiana Local Police Impersonation \"Unpaid Fine\" Phone Scam",
+    slug: "indiana-local-police-impersonation-unpaid-fine-phone-scam",
+    description:
+      "Scammers are calling Hoosiers while pretending to be officers from their own local police or sheriff's department, claiming they owe an unpaid fine for a missed court date, skipped jury duty, or an old citation. The callers spoof caller ID so the victim's phone displays the real phone number of the local law enforcement agency, and they often use the names of actual officers to sound convincing. They then threaten immediate arrest unless payment is made on the spot, before the victim has a chance to check the story. The Indiana Attorney General's Consumer Protection Division warns that real law enforcement never calls to demand money over the phone under threat of arrest. If you get a call like this, hang up and call your local department directly using a number you look up yourself, and report the call to the Indiana Attorney General's office.",
+    categorySlug: "government-impersonation",
+    alertLevel: "high",
+    sources: ["Indiana Office of the Attorney General — Consumer Protection Division, scam alert from Attorney General Todd Rokita, July 2025","Indiana Attorney General Newsroom (https://www.in.gov/attorneygeneral/newsroom/)"],
+    sourceUrl: "https://events.in.gov/event/beware-of-scam-callers-impersonating-local-police-warns-attorney-general-todd-rokita",
+    country: "US",
+    state: "IN",
+});
+
+UsGM.push({
+    name: "Indiana Government Impersonation Crypto and Gold \"Safekeeping\" Scam",
+    slug: "indiana-government-impersonation-crypto-and-gold-safekeeping-scam",
+    description:
+      "The Indiana Securities Division reports a rise in complaints from Hoosiers who were contacted by email, text, phone, or social media by someone posing as a government employee or federal agency. Victims are told their accounts have been hacked or that their identity or computer is tied to criminal activity, then pressured to \"protect\" their savings by converting the money into cryptocurrency or gold, which the scammers steal. One elderly Indiana woman was told her computer contained illegal content and lost more than $800,000 in crypto and gold, and another Hoosier lost nearly $2 million to people claiming to be Homeland Security personnel. No real government agency will ever ask you to liquidate your savings into cryptocurrency or precious metals. If you receive such a demand, stop all contact and report it to the Indiana Securities Division at the Secretary of State's office.",
+    categorySlug: "government-impersonation",
+    alertLevel: "critical",
+    sources: ["Indiana Secretary of State Diego Morales / Indiana Securities Division, public warning issued September 9, 2025"],
+    sourceUrl: "https://events.in.gov/event/secretary-of-state-diego-morales-warns-hoosiers-of-government-impersonation-scams",
+    country: "US",
+    state: "IN",
+});
