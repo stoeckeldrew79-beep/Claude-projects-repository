@@ -18700,3 +18700,68 @@ International.push(
     country: 'LY',
   },
 );
+
+International.push(
+  {
+    name: 'KK Park Scam Compound Trafficking and Cyberfraud Raid',
+    slug: 'myanmar-kk-park-scam-compound-raid',
+    description: `Myanmar's military-backed authorities carried out a major raid on October 19, 2025 against KK Park, one of the largest scam compounds along the Thai-Myanmar border in Myawaddy Township, Kayin (Karen) State — a sprawling complex of more than 250 low-rise buildings, warehouses, and shophouses built specifically to run online scam operations at industrial scale. Troops detained 2,198 people found inside, including 445 women, 1,645 men, and 98 male security guards, and seized 30 Starlink satellite terminals that the compound's operators used to keep running scams through power outages, since satellite connectivity let them stay online independent of Myanmar's ordinary telecom grid. Workers inside KK Park — many recruited from across Asia and beyond through fake, high-paying "customer service" or "IT support" job ads before having their passports confiscated on arrival — were forced to run romance scams, fraudulent investment platforms, and illegal online gambling operations targeting victims worldwide, the pattern researchers call "pig-butchering." According to the Associated Press, Myanmar military spokesperson Major-General Zaw Min Tun claimed that "top leaders of the Karen National Union" were involved in running the scam projects at KK Park, underscoring how armed groups along the porous border have turned scam compounds into a major revenue source amid Myanmar's ongoing civil war. Thai police estimate roughly 100,000 people work inside scam compounds across the wider Thai-Myanmar border region, and the U.S. Treasury sanctioned more than 20 entities tied to similar scam operations in Myanmar and Cambodia in September 2025. Jobseekers are urged to independently verify any high-paying overseas job offer directly with the employer through official channels, to treat a demand to surrender one's passport on arrival as a certain sign of trafficking rather than employment, and to be especially wary of vague "customer service" or "IT support" roles advertised with unusually high pay and free travel arranged entirely by the recruiter.`,
+    categorySlug: 'employment-scams',
+    alertLevel: 'critical',
+    sources: ['Al Jazeera', 'Associated Press'],
+    sourceUrl: 'https://www.aljazeera.com/news/2025/10/21/myanmar-military-arrests-more-than-2000-people-at-infamous-scam-centre',
+    country: 'MM',
+  },
+);
+
+International.push(
+  {
+    name: 'Montego Bay Lottery Scam Targeting Elderly Americans',
+    slug: 'jamaica-montego-bay-lottery-scam-elderly-americans',
+    description: `U.S. federal prosecutors have spent well over a decade dismantling a lottery-fraud industry based largely around Montego Bay, Jamaica, in which callers phone elderly Americans and falsely tell them they have won a large cash prize through a foreign lottery or sweepstakes, but must first pay supposed taxes, customs duties, or processing fees before the winnings can be released — fees that only ever produce demands for more money and never a real payout. In one of the most recent cases, Troy Williams, 41, of Montego Bay was sentenced on July 21, 2026 by U.S. District Judge Robert J. Colville to 78 months in federal prison for wire fraud and money laundering after conspiring from around January 2019 to October 2023 to run this exact scheme against elderly victims, in a case brought by the U.S. Attorney's Office for the Western District of Pennsylvania with the FBI, Homeland Security Investigations, and the U.S. Postal Inspection Service, and secured only after Jamaican authorities assisted with his extradition. Williams's case is one of dozens of similar prosecutions — including Jamaican national Greg Warren Clarke, sentenced in 2022 to three years in prison for running a nearly identical Montego Bay-based lottery scheme against elderly Americans from September 2013 through August 2015, working with co-conspirator Claude Anthony Shaw to receive and route victims' payments — that U.S. law enforcement describes as reflecting a lasting, organized industry rather than isolated incidents. The Justice Department has said the true number of American victims of Jamaican lottery fraud nationwide likely reaches into the millions, with reported annual losses exceeding $1 billion. Consumers are urged to remember that a legitimate lottery or sweepstakes never requires a winner to pay a fee, tax, or customs charge to collect a prize, that an unexpected "you've won" call from an unfamiliar foreign number is itself a warning sign, and to hang up immediately and report the call rather than engage with the caller.`,
+    categorySlug: 'lottery-sweepstakes-scams',
+    alertLevel: 'high',
+    sources: ['U.S. Department of Justice — Western District of Pennsylvania', 'Federal Bureau of Investigation (Pittsburgh Field Office)'],
+    sourceUrl: 'https://www.fbi.gov/contact-us/field-offices/pittsburgh/news/jamaican-man-sentenced-to-65-years-in-prison-for-role-in-international-lottery-scam-targeting-elderly',
+    country: 'JM',
+  },
+);
+
+International.push(
+  {
+    name: 'EcoCash SIM-Swap Mobile Money Fraud Ring',
+    slug: 'zimbabwe-ecocash-sim-swap-fraud-ring',
+    description: `Zimbabwean police arrested four people in July 2024 — Rumbidzai Tsongora, 24, her husband Tranos Taurai Muzanenhamo, 26, and accomplices Timothy Bvuramiti, 27, and Bradwell Shangwa, 24 — after tracing a scheme that hijacked EcoCash mobile-money accounts by fraudulently swapping victims' SIM cards. According to evidence presented when the group was arraigned before the Harare Magistrates' Court, Tsongora impersonated a genuine EcoCash customer, Ruth Machakadya, at an Econet mobile-money agent in Marondera and used a forged identity document to obtain a replacement SIM card in the victim's name; once the swap disabled the real customer's line and activated the fraudulent one, the group gained full control of the linked EcoCash mobile-money account. The group then advertised black-market currency exchanges over WhatsApp, falsely offering to swap US dollars for local currency, and used that pretext to induce three separate victims into transferring a combined ZiG223,000 into accounts the group controlled. When police raided the group's hideout in Chitungwiza, they recovered 30 unused and 36 already-used Econet SIM cards, four NetOne SIM cards, four Telecel SIM cards, five O'Mari debit cards, and a Toyota Hiace minibus — evidence that Zimbabwe's National Prosecuting Authority said pointed to "a well-oiled network designed to target unsuspecting victims" operating well beyond the four people initially arrested. All four defendants faced charges of fraud, possession of articles for criminal use, and money laundering. Mobile-money users are advised never to ignore an unexplained loss of cellular signal, since a SIM suddenly going dead is often the first sign a SIM swap has already taken place, to contact their network operator immediately if it happens, and to treat any unusually good currency-exchange offer circulating on WhatsApp as a likely scam rather than a legitimate deal.`,
+    categorySlug: 'account-takeover',
+    alertLevel: 'high',
+    sources: ['My Zimbabwe News', `Zimbabwe National Prosecuting Authority`],
+    sourceUrl: 'https://www.myzimbabwe.co.zw/technology/188241-zig223000-ecocash-heist-married-couple-and-their-young-accomplices-caught-red-handed-in-ecocash-sim-swapping-scam.html',
+    country: 'ZW',
+  },
+);
+
+International.push(
+  {
+    name: `"A.K. Group" Tbilisi Boiler-Room Investment Scam`,
+    slug: 'georgia-ak-group-tbilisi-boiler-room-investment-scam',
+    description: `A joint investigation published in 2025 by the Organized Crime and Corruption Reporting Project (OCCRP), Sweden's public broadcaster SVT, and roughly 30 media partners — built on 1.9 terabytes of leaked internal company data — exposed a Tbilisi-based scam call center known internally as A.K. Group that defrauded more than 6,100 victims around the world of a combined $35.3 million since May 2022. Operating out of office space in the Georgian capital with a staff of around 85 employees who referred to themselves internally using the Georgian slang term "skameri" (scammer), the operation used fabricated identities, forged documents, and deceptive advertising to persuade victims to send money into what were pitched as legitimate financial "investments," then simply kept the funds. Leaked payroll and bonus records reviewed by the investigation showed top-performing agents rewarded with luxury vacations and high-end purchases funded directly out of victims' stolen money. The reporting identified Meri Shotadze, 36, a Georgian national, as the operation's registered owner, and separately linked Akaki Kevkhishvili, 33, to the scheme despite his absence from any official company records; neither responded to reporters' requests for comment. The broader "Scam Empire" investigation found that A.K. Group was only one piece of a larger network of scam call centers spanning Israel, Eastern Europe, and Georgia that together defrauded roughly 32,000 people worldwide of at least $275 million. Following the exposure, prosecutors in Georgia opened a criminal investigation, with a spokesperson for the Prosecutor's Office confirming only that "the investigation has indeed begun" and that "all investigative and procedural actions are underway." Consumers approached about an unfamiliar overseas "investment" opportunity, especially one arriving through a cold call or online ad promising outsized returns, are advised to verify the firm's licensing with a real financial regulator in their own country before transferring any money, since a legitimate investment firm never needs to pressure a stranger into an unsolicited deal.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'critical',
+    sources: ['Organized Crime and Corruption Reporting Project (OCCRP)', 'SVT (Sveriges Television)', `Prosecutor's Office of Georgia`],
+    sourceUrl: 'https://www.occrp.org/en/news/georgia-launches-criminal-probe-into-scam-call-center-exposed-by-journalists',
+    country: 'GE',
+  },
+);
+
+International.push(
+  {
+    name: 'Costa Rica-Based Telemarketing Sweepstakes Fraud Ring',
+    slug: 'costa-rica-telemarketing-sweepstakes-fraud-ring',
+    description: `A federal jury in the Western District of North Carolina convicted Roger Roger, 40, on September 25, 2024, of leading a telemarketing scheme run out of a call center in Costa Rica that stole more than $4 million from victims across the United States, most of them senior citizens. Co-conspirators working under Roger's direction called American victims while falsely posing as U.S. government officials, told them they had won a substantial "sweepstakes" prize, and then, once a victim believed the winnings were real, pressured them into a series of upfront payments framed as taxes, customs duties, or processing fees before any prize could supposedly be released — payments that only produced demands for still more money rather than an actual payout. The operation used Voice over Internet Protocol technology specifically to disguise the calls as originating from Washington, D.C. and other U.S. locations rather than Costa Rica, and Roger personally recruited and trained other participants in how to mislead victims and route the stolen money back into Costa Rica. Roger, who had been extradited from Costa Rica in February 2023 with the assistance of the Justice Department's Office of International Affairs, was sentenced on July 15, 2025 to more than 15 years in federal prison and ordered to pay $3.3 million in restitution and forfeit $4.2 million. The IRS Criminal Investigation unit, which investigated the case alongside the U.S. Postal Inspection Service and FBI, describes Roger's case as one of many: more than 46 defendants have now been convicted in the Western District of North Carolina alone in connection with similar Costa Rica-based telemarketing schemes targeting elderly Americans. Consumers are urged to remember that a real sweepstakes or lottery never requires a winner to pay any fee, tax, or customs charge to collect a prize, that a caller ID showing a Washington, D.C. or other U.S.-based number proves nothing about where a call actually originates, and to hang up on any unsolicited call announcing an unclaimed prize.`,
+    categorySlug: 'lottery-sweepstakes-scams',
+    alertLevel: 'critical',
+    sources: ['Internal Revenue Service Criminal Investigation (IRS-CI)', 'The Tico Times'],
+    sourceUrl: 'https://www.irs.gov/compliance/criminal-investigation/costa-rica-resident-sentenced-for-orchestrating-multimillion-dollar-international-telemarketing-scheme',
+    country: 'CR',
+  },
+);
