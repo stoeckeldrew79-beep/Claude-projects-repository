@@ -2941,6 +2941,10 @@ The Philip Services case is a study in two distinct kinds of accountability sitt
 );
 NotoriousTZ.push({
     title: "Craig Thompson, Black Box Management, and the Trading Reports That Were Plagiarized",
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Calgary_skyline_from_the_northwest,_Alberta,_Canada.jpg?width=1200',
+    coverImageCredit: 'Photo: Ethan Sahagun, CC BY 4.0, via Wikimedia Commons — Calgary, Alberta, where Craig Thompson ran Black Box Management',
+    coverImagePosition: 50,
     slug: 'craig-thompson-black-box-management-ponzi-scheme',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'international'],
