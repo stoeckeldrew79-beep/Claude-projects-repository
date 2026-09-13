@@ -4069,3 +4069,17 @@ UsTZ.push({
     isHistorical: true,
     firstRecorded: '2020-04-16',
 });
+
+UsTZ.push({
+    name: 'West Virginia Medicare and Medicaid Fraud Settlements (Muhammad Salman and Jorge Roig)',
+    slug: 'west-virginia-medicare-medicaid-fraud-settlements-salman-roig',
+    description: `U.S. Attorney Matthew L. Harvey of the Northern District of West Virginia announced civil settlements on June 23, 2026 with two West Virginia health care providers as part of the Department of Justice's 2026 National Health Care Fraud Takedown, a nationwide sweep that charged 455 defendants in connection with more than $6.5 billion in alleged fraud. Muhammad Salman, 64, of Bridgeport, agreed to pay $325,000 to resolve allegations that he and his business, Bridgeport Pharmacy, violated the False Claims Act by submitting claims to Medicare and Medicaid for prescriptions that were pre-signed and issued outside the usual course of professional practice while Salman was traveling and not near his West Virginia office — conduct investigators also flagged as a Controlled Substances Act violation. In a related case announced the same day, Jorge Roig, 58, of Weirton, agreed to pay $165,900 over allegations of improper prescribing practices and failures to comply with controlled-substance recordkeeping and registration requirements. "When health care providers seek convenience or profit instead of complying with the law, the public pays the price," Harvey said in announcing the settlements, which involved the Centers for Medicare and Medicaid Services, the HHS Office of Inspector General, the Drug Enforcement Administration, and state Medicaid Fraud Control Units alongside DOJ. Nationally, the 2026 takedown resulted in more than 1,000 provider suspensions and over 1,400 revoked billing privileges — a reminder to West Virginia Medicare and Medicaid beneficiaries to review their own benefit statements (Medicare Summary Notices or Medicaid Explanation of Benefits) for services, prescriptions, or equipment they never received, and to report suspected billing fraud to the HHS OIG Hotline or the West Virginia Medicaid Fraud Control Unit rather than assume a provider's paperwork is automatically legitimate.`,
+    categorySlug: 'medicare-health-plans',
+    alertLevel: 'medium',
+    sources: ["U.S. Attorney's Office for the Northern District of West Virginia", 'WV MetroNews', 'Weirton Daily Times'],
+    sourceUrl: 'https://wvmetronews.com/2026/06/23/doj-health-care-fraud-takedown-includes-settlements-charges-in-west-virginia/',
+    country: 'US',
+    state: 'WV',
+    isHistorical: true,
+    firstRecorded: '2026-06-23',
+});

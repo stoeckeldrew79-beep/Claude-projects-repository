@@ -8319,3 +8319,17 @@ UsAF.push({
     isHistorical: true,
     firstRecorded: '2025-06-11',
 });
+
+UsAF.push({
+    name: 'Washington, DC $240 Million Bitcoin Theft (Malone Lam Crypto Heist)',
+    slug: 'dc-240-million-bitcoin-theft-malone-lam',
+    description: `A longtime cryptocurrency investor in Washington, DC — identified in court filings only as "Victim 7" — received a call at home on August 18, 2024 from someone claiming to work for Google, warning that his account had suffered repeated unauthorized login attempts; minutes later a second caller claiming to be from the Gemini crypto exchange warned him his device was infected with malware and walked him through a "security" process that, step by step, talked him into granting access to his Google Drive and revealing the codes protecting his crypto holdings. By the time the calls ended, more than 4,100 bitcoin — worth over $240 million at the time — had been drained from his accounts, in what prosecutors describe as one of the largest cryptocurrency thefts from a single individual in U.S. history. Investigators identified the alleged ringleader as Malone Lam, a 22-year-old Singapore-born eighth-grade dropout, along with co-defendants Veer Chetal and Jeandiel Serrano and more than a dozen additional co-conspirators; rather than banking the money, the group went on a monthslong spending spree that included more than 30 luxury and exotic vehicles (custom Lamborghinis and Porsches among them), a $2 million watch, $569,000 spent in a single night at a Los Angeles nightclub, rented mansions in Miami and the Hamptons, and private security details — a pattern investigators say made the group's Telegram-organized crew unusually easy to trace once the money started moving into the physical world. As of the case's most recent developments, Chetal pleaded guilty in November 2024 and awaits sentencing, two money launderers connected to the scheme have been sentenced to roughly six years each, and Lam faces sentencing guidelines suggesting 14 or more years in federal prison. The scam's core mechanic — a caller impersonating a tech company's fraud-alert team, quickly followed by a second caller impersonating the victim's own crypto exchange to reinforce the false urgency — is a pattern that has repeated against crypto holders nationwide; anyone who gets an unsolicited call about a compromised account or device, especially one immediately followed by a second "confirming" call, should hang up and contact the company directly through contact information they look up themselves, and should never grant screen access, read out a security code, or reveal a wallet's recovery phrase to anyone who called them first.`,
+    categorySlug: 'cryptocurrency-scams',
+    alertLevel: 'critical',
+    sources: ['NBC4 Washington', "U.S. Attorney's Office for the District of Columbia"],
+    sourceUrl: 'https://www.nbcwashington.com/news/local/partys-over-for-scammers-who-went-on-a-spending-spree-after-a-240m-bitcoin-theft/4151017/',
+    country: 'US',
+    state: 'DC',
+    isHistorical: true,
+    firstRecorded: '2024-08-18',
+});
