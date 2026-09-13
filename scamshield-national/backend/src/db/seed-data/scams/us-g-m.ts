@@ -7172,3 +7172,87 @@ UsGM.push({
     isHistorical: true,
     firstRecorded: '2019-09-01',
 });
+
+UsGM.push({
+    name: 'Fake Maui Wildfire Charities Soliciting Donations',
+    slug: 'hawaii-maui-wildfire-fake-charity-donation-scam',
+    description: `As Hawaii residents began organizing donations for victims of the devastating August 2023 West Maui wildfires, Attorney General Anne Lopez's office issued a public warning on August 9, 2023 that scammers were setting up fake charities and fundraisers to exploit the disaster. "In moments of crisis, we all must be extra vigilant against bad actors who try to take advantage of people's goodwill," Lopez said, noting that fraudulent fundraising efforts were already appearing on social media and other online platforms just days after the fires broke out. Her office, through special assistant Dave Day, identified the telltale warning signs of a scam charity: pressure to donate immediately without time to research; requests for payment by cash or gift card rather than credit card or check; names deliberately similar to well-known, legitimate charities; and vague, sentimental appeals that never explain specifically how the money will be used. Because any charity soliciting donations in Hawaii must be registered with the Department of the Attorney General, the office urged donors to verify a charity's status before giving, either through the AG's own registry or through independent tools like the IRS Tax Exempt Organization Search, Charity Navigator, or the DCCA's business search. Officials also recommended donating directly to a known, trusted charity rather than through a third party claiming to fundraise on its behalf. Anyone who suspects a fundraiser is fraudulent, or has questions about a specific charity, can contact the Tax & Charities Division at (808) 586-1480 or ATG.Charities@hawaii.gov before — not after — sending money, since disaster-driven donations are especially attractive to scammers precisely because people want to help quickly and don't stop to check.`,
+    categorySlug: 'charity-scams',
+    alertLevel: 'medium',
+    sources: ['Hawaii Department of the Attorney General', 'Office of the Governor of Hawaii'],
+    sourceUrl: 'https://governor.hawaii.gov/newsroom/2023-35-attorney-general-lopez-cautions-those-seeking-to-donate-to-victims-of-the-maui-wildfires-to-avoid-scams/',
+    country: 'US',
+    state: 'HI',
+    isHistorical: true,
+    firstRecorded: '2023-08-09',
+});
+
+UsGM.push({
+    name: 'Unlicensed Contractor Fraud in Lahaina Wildfire Rebuilding',
+    slug: 'hawaii-lahaina-wildfire-rebuild-unlicensed-contractor-fraud',
+    description: `More than two years after the August 2023 Lahaina wildfire, survivors trying to rebuild have lost hundreds of thousands of dollars each to unlicensed or unreliable contractors, according to Honolulu Civil Beat reporting from September 2026. Raquel Utrillo lost $640,000 to contractor Shaun Kama, who stopped responding after starting work on her family's home in July 2024, leaving the rebuild stalled. Native Hawaiian waterman Archie Kalepa lost more than $200,000 — the bulk of his insurance payout — to unlicensed contractor Shane Haas and, over a year after filing a lawsuit, still has an unfinished home. Krista Woodward paid Russell Nielson of "Taylor Grace Homes" $650,000 and lost roughly $500,000 of it; Nielson died by suicide in May 2026, and DCCA closed its investigation shortly after. An 81-year-old Lahaina resident, Doug Reynon, paid Haas and another contractor more than $52,000 for porch and shed work riddled with safety problems and missing receipts. Maui Prosecuting Attorney Andrew Martin said contractor fraud is "the single most requested thing" he's been asked to address in community meetings over the past year, and state Senator Angus McKelvey noted, "It's sad because we were warned this would happen. It's happening." As of the September 2026 report, DCCA had 12 open complaints and 8 pending investigations, but no contractor had been criminally charged, had a license revoked, or been fined. Before hiring anyone to rebuild a fire-damaged home, Hawaii residents should verify a contractor's license at businesscheck.hawaii.gov, get a written contract, never pay the full amount upfront, and report suspected unlicensed activity to DCCA's Regulated Industries Complaints Office.`,
+    categorySlug: 'home-improvement-solar',
+    alertLevel: 'high',
+    sources: ['Honolulu Civil Beat', "Maui Prosecutor's Office"],
+    sourceUrl: 'https://www.civilbeat.org/2026/09/no-relief-for-maui-wildfire-survivors-losing-thousands-to-contractors/',
+    country: 'US',
+    state: 'HI',
+    isHistorical: true,
+    firstRecorded: '2024-07-01',
+});
+
+UsGM.push({
+    name: 'AI Voice-Cloning Grandparent and Impersonation Scams',
+    slug: 'hawaii-ai-voice-cloning-grandparent-impersonation-scam',
+    description: `Hawaii News Now reported on June 4, 2026 that the FBI is warning Hawaii residents that scammers are now using artificial intelligence to clone the voices of family members, dramatically increasing the odds of a successful "grandparent scam." Retired Honolulu Police Department Deputy Chief John McCarthy explained the mechanics: criminals scrape photos, videos, and biographical details from a target's Facebook page, then use AI to recreate the voice of a grandchild or other relative well enough to convince a victim they're speaking to their real family member in distress. The same AI tools are being used to build fake dating and social media profiles, generate scripted emergency-money pleas, craft convincing business-email-compromise messages impersonating coworkers (with a particular focus on Microsoft 365 users), and produce deepfake video or images used for extortion targeting teenagers. The warning came alongside new data showing Hawaii's exposure is worsening quickly: residents lost a combined $106 million to internet scams in 2025 — nearly double 2024's total — and the state jumped from 14th to 5th nationally in per-capita scam losses, even as AI-linked fraud cost Americans roughly $900 million nationwide. Cybersecurity expert Al Ogata advised residents to "assume that somebody who comes to you... could be pretending, and not the person they say they are," and to always verify a distressed relative's identity independently — by calling them back on a known number or checking with another family member — before sending any money, no matter how convincing the voice on the phone sounds. Residents who are targeted can report the scam to the FBI's IC3 (ic3.gov), the FTC, or Hawaii-specific elder-fraud resources like AARP Hawaii (866-295-7282) or SMP Hawaii (808-586-7281).`,
+    categorySlug: 'ai-deepfake-scams',
+    alertLevel: 'high',
+    sources: ['FBI Honolulu Field Office', 'Hawaii News Now'],
+    sourceUrl: 'https://www.hawaiinewsnow.com/2026/06/05/fbi-warn-ai-making-it-harder-detect-scams/',
+    country: 'US',
+    state: 'HI',
+    isHistorical: true,
+    firstRecorded: '2026-06-04',
+});
+
+UsGM.push({
+    name: 'Idaho Cryptocurrency ATM Cash-Deposit Scam Alert',
+    slug: 'idaho-cryptocurrency-atm-cash-deposit-scam-alert',
+    description: `Idaho Attorney General Raúl Labrador issued a consumer alert on September 9, 2025 warning that cryptocurrency ATM scams are surging statewide, with reported cryptocurrency losses in Idaho climbing from $19 million in 2023 to more than $35 million in 2024. Unlike online "pig butchering" investment fraud, this scheme relies on physical crypto kiosks now common in gas stations and convenience stores: a caller impersonating a tech-support company, a government agency, or a bank convinces the victim their computer, identity, or bank account has been compromised, then instructs them to withdraw cash and feed it into the nearest cryptocurrency ATM to "protect" or "verify" their funds. Because crypto transactions are irreversible and largely untraceable, the money is typically gone the moment it's deposited. Labrador's office highlighted a case from that same week in which a Stinker Store gas station clerk in the Boise area intervened twice in seven days, unplugging the store's crypto ATM and calling Boise Police after noticing two different senior customers, coached on the phone, about to deposit a combined $30,000-plus. Seniors are disproportionately targeted; the FBI has found that victims over 60 lose far more per incident than any other age group. "If anyone demands you put cash into a cryptocurrency ATM for any reason, it's more than likely a scam," Labrador said, noting that no legitimate government agency, bank, or tech company will ever direct a payment through a crypto kiosk. Idahoans who receive such a call should hang up immediately, never act on instructions from an unsolicited caller, and — if already at a crypto ATM — stop and ask store staff or police to confirm before completing any transaction. Suspected incidents can be reported at ReportScamsIdaho.gov.`,
+    categorySlug: 'cryptocurrency-scams',
+    alertLevel: 'high',
+    sources: ['Idaho Office of the Attorney General (Raúl Labrador)', 'East Idaho News', "Coeur d'Alene Press"],
+    sourceUrl: 'https://www.ag.idaho.gov/newsroom/attorney-general-labrador-warns-idahoans-about-cryptocurrency-atm-scams/',
+    country: 'US',
+    state: 'ID',
+    isHistorical: true,
+    firstRecorded: '2025-09-09',
+});
+
+UsGM.push({
+    name: "Nigerian National and Arizona Woman's $20 Million Fake Business-Loan Fraud",
+    slug: 'idaho-nwaneri-smith-20-million-advance-fee-loan-fraud',
+    description: `A federal grand jury in the District of Idaho indicted Tochukwu Nwaneri, 51, of Nigeria, and Vickie Smith, 66, of Peoria, Arizona, for defrauding an Idaho business owner of more than $20 million in an advance-fee loan scheme, U.S. Attorney Bart M. Davis announced. Operating under the aliases "Dr. Simon Godwin" (Nwaneri) and "Nina Cheliyan" (Smith), the pair allegedly told the victim they could arrange a $140 million business loan through a purported Singapore-based lender — but that securing it required a series of advance fees for things like insurance, taxes, and processing costs before the loan would fund. According to the indictment, the victim paid those fees over an extended period, and the promised $140 million loan never materialized; instead, prosecutors allege Nwaneri and Smith spent the money on personal expenses and moved it to family members and offshore bank accounts to launder it. Smith made her initial court appearance on October 22, 2025, and Nwaneri appeared before U.S. Magistrate Judge Raymond E. Patricco on December 17, 2025. Both face one count of conspiracy to commit wire fraud, one count of conspiracy to commit money laundering, and multiple substantive wire fraud and money laundering counts, carrying up to 20 years in prison on the fraud counts and up to 10 years on each laundering count if convicted. The U.S. Secret Service investigated the case. This is a classic advance-fee loan fraud at extreme scale: legitimate commercial lenders never require a borrower to wire a series of "fees" to a third party before a large loan is funded, and any loan offer for a sum far larger than what a business could reasonably qualify for, brokered by someone using an alias, and structured around a string of upfront payments, should be independently verified with a licensed lender or attorney before a single dollar is sent.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'critical',
+    sources: ["U.S. Attorney's Office for the District of Idaho", 'East Idaho News', 'Dailyfly News', 'KHQ'],
+    sourceUrl: 'https://www.eastidahonews.com/2025/12/two-indicted-for-20-million-fraud-and-money-laundering-scheme-in-idaho/',
+    country: 'US',
+    state: 'ID',
+    isHistorical: true,
+    firstRecorded: '2025-10-22',
+});
+
+UsGM.push({
+    name: 'Idaho Power Impersonation Utility Shutoff Scam',
+    slug: 'idaho-power-utility-shutoff-impersonation-scam',
+    description: `Idaho Power issued a renewed public warning on July 8, 2025 after a wave of scammers impersonated the utility's employees across the state, both over the phone and in person. In the phone version, callers spoof Idaho Power's real customer-service number so it displays correctly on caller ID, then tell the customer their account is past due and their electricity will be shut off within the hour unless they pay immediately — demanding payment through prepaid Green Dot MoneyPak cards, Bitcoin, or a QR code rather than any of Idaho Power's normal billing channels. The Boise County Sheriff's Office separately warned residents that the scam had reached its area, with a spoofed "Idaho Power" number calling and threatening imminent disconnection unless the resident paid on the spot; the sheriff urged anyone who gets such a call to hang up and call Idaho Power's own customer service line to check their actual account status before sending anything. A related in-person version involves someone showing up at a home or business claiming to be an Idaho Power employee who needs immediate access to inspect equipment or collect a payment. Idaho Power says its real employees always arrive in a marked company vehicle and uniform and carry a company photo ID they will show on request, and that the utility never demands same-day payment by phone, prepaid card, or cryptocurrency, and never threatens instant disconnection during a live call. Customers who are unsure whether a call, text, or visitor is legitimate should hang up or decline entry and call Idaho Power directly at 1-800-488-6151 (or check their balance through the My Account app) rather than trust anything the caller or visitor provided, and should report suspected scam contacts to Idaho Power and local police.`,
+    categorySlug: 'utility-scams',
+    alertLevel: 'medium',
+    sources: ['Idaho Power', 'Local News 8 (KIFI)', "Boise County Sheriff's Office"],
+    sourceUrl: 'https://localnews8.com/news/top-stories/2025/07/08/scam-alert-idaho-power-warns-of-scammers-impersonating-its-employees/',
+    country: 'US',
+    state: 'ID',
+    isHistorical: true,
+    firstRecorded: '2025-07-08',
+});
