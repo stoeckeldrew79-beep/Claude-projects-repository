@@ -8346,3 +8346,16 @@ UsAF.push({
     isHistorical: false,
     firstRecorded: '2025-01-28',
 });
+
+UsAF.push({
+    name: 'FBI and NCAA Warn of Sextortion Targeting NIL Student-Athletes',
+    slug: 'fbi-ncaa-nil-student-athlete-sextortion-scheme',
+    description: `The FBI and NCAA issued a joint warning that student-athletes are increasingly being targeted by sextortion schemes in which criminals build a fake romantic identity on social media, gaming platforms, or messaging apps, obtain an explicit image or video from the athlete, then demand payment to avoid having it released. The agencies specifically flagged that a student-athlete's public profile is amplified by Name, Image, and Likeness (NIL) activity, giving offenders both a larger pool of visible targets and extra leverage — since a threatened leak can jeopardize NIL sponsorship income and team standing, not just personal reputation, making some athletes feel they have more to lose than an average victim and more reason to consider paying. The FBI's guidance to anyone targeted is to cut off contact with the extortioner immediately, never send another payment or additional images, preserve all messages and usernames as evidence, and report the incident right away to the FBI, campus law enforcement, or ic3.gov rather than trying to negotiate a deal directly.`,
+    categorySlug: 'sextortion',
+    alertLevel: 'high',
+    sources: ['Federal Bureau of Investigation', 'NCAA'],
+    sourceUrl: 'https://www.abc15.com/news/local-news/fbi-ncaa-warn-college-athletes-about-online-sexual-exploitation-schemes',
+    country: 'US',
+    isHistorical: false,
+    firstRecorded: '2026-01-01',
+});
