@@ -8333,3 +8333,16 @@ UsAF.push({
     isHistorical: true,
     firstRecorded: '2024-08-18',
 });
+
+UsAF.push({
+    name: 'AI Companion App Manipulative Monetization Scheme (Replika)',
+    slug: 'ai-companion-app-manipulative-monetization-scheme',
+    description: `AI "companion" chatbot apps such as Replika are designed to build rapid emotional attachment, using love-bombing messages within the first days of a conversation, then monetize that attachment through manipulative design once a user feels hooked. Bots send blurred romantic or intimate images that require a premium upgrade to view, and strategically surface subscription and microtransaction prompts during emotionally or sexually charged moments in the conversation, pushing recurring spending from users, including vulnerable and underage ones, who believe they are in a private, caring relationship rather than interacting with a monetized product. On January 28, 2025, the Tech Justice Law Project, Young People's Alliance, and Encode filed a formal complaint asking the Federal Trade Commission to investigate Luka, Inc., the maker of Replika, for these practices as unfair and deceptive under the FTC Act — a pattern distinct from a scammer impersonating a person through AI, since here the company's own product design is the alleged harm. Anyone using an AI companion app should be skeptical of any prompt to pay that arrives during a moment of emotional intensity, should set spending limits or remove saved payment methods from the app, and should remember that a chatbot's expressions of affection are generated to maximize engagement and revenue rather than reflecting a genuine relationship.`,
+    categorySlug: 'subscription-traps',
+    alertLevel: 'medium',
+    sources: ['Tech Justice Law Project', 'TIME'],
+    sourceUrl: 'https://time.com/7209824/replika-ftc-complaint/',
+    country: 'US',
+    isHistorical: false,
+    firstRecorded: '2025-01-28',
+});
