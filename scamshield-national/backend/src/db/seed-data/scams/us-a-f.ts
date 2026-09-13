@@ -8359,3 +8359,16 @@ UsAF.push({
     isHistorical: false,
     firstRecorded: '2026-01-01',
 });
+
+UsAF.push({
+    name: 'Aqua Finance Deceptive Water-Treatment Financing Scheme',
+    slug: 'aqua-finance-deceptive-water-treatment-financing-scheme',
+    description: `Aqua Finance, Inc. financed purchases made through a nationwide network of door-to-door dealers selling water filtration and softening systems, and the FTC alleged the dealer network routinely misrepresented the financing terms attached to those purchases. Consumers who thought they were signing up for a straightforward equipment purchase instead found themselves saddled with hundreds to thousands of dollars in unexpected debt and steep interest payments, with some homeowners reporting the resulting liens or financing terms complicated their ability to sell or refinance their homes. The FTC sued Aqua Finance in May 2024 over the deceptive sales tactics used to originate these loans, and a February 2025 settlement produced $23.6 million in debt relief and refunds; the agency distributed more than $19.8 million of that in direct refund checks to 29,653 consumers harmed by the scheme. Anyone approached by a door-to-door water-treatment salesperson should insist on reading the complete financing agreement — including the interest rate, total repayment amount, and any lien placed on the home — before signing anything, and should be skeptical of high-pressure pitches that rush past the financing details to focus on the water-quality problem the system claims to solve.`,
+    categorySlug: 'home-improvement-solar',
+    alertLevel: 'medium',
+    sources: ['Federal Trade Commission'],
+    sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2025/02/ftc-sends-more-198-million-refunds-consumers-harmed-aqua-finances-deceptive-sales-tactics',
+    country: 'US',
+    isHistorical: true,
+    firstRecorded: '2024-05-01',
+});
