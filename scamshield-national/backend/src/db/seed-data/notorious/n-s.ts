@@ -6547,3 +6547,33 @@ Southwick pleaded guilty to all nine counts on March 31, 2008, and was sentenced
 VesCor is a reminder of how long an affinity-based Ponzi scheme can run when its pitch borrows the credibility of a shared community: Southwick's version lasted the better part of two decades, not because the underlying real estate story ever held up to scrutiny, but because the investors he was recruiting from — many drawn from his own religious and social circles — had little reason to demand the kind of independent verification a stranger's pitch would have invited.`,
     sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-20450',
   });
+
+NotoriousNS.push({
+    title: 'Neil Paulson and the "Help The Vets" Charity That Barely Helped Any',
+    slug: 'neil-paulson-help-the-vets-charity-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    body: `Neil G. "Paul" Paulson Sr. ran a charity called Help The Vets, Inc. out of Bradenton, Florida, that told donors their gifts would fund grants for wounded and disabled veterans, medical care, a suicide-prevention program, and retreats for veterans recovering from combat stress — with one solicitation promising a donor that "your $10 gift will mean so much to a disabled veteran." Between 2014 and 2017, that pitch, delivered through telemarketers and direct-mail campaigns, brought in roughly $20 million from donors across the country.
+
+According to a complaint filed by the Federal Trade Commission and the attorneys general of Florida, California, Maryland, Minnesota, Ohio, and Oregon, almost none of that money reached veterans. The FTC found that in 2014 through 2016, about 95 percent of what Help The Vets collected went to professional fundraisers, administrative overhead, and Paulson's own salary and benefits — not to the programs described in the solicitations. To keep the money flowing even as its own reputation frayed, the charity operated under a rotating set of alternate names, including American Disabled Veterans Foundation, Military Families of America, Veterans Emergency Blood Bank, and Veterans Fighting Breast Cancer, and falsely told donors it carried a "gold" rating from the charity evaluator GuideStar.
+
+The FTC and the six states filed suit and reached a settlement in the same action in July 2018. The court entered a $20,405,287 judgment against Paulson and Help The Vets — representing the donations taken in from 2014 through 2017 — with the bulk of it suspended once Paulson personally paid $1.75 million and the charity paid the roughly $72,000 it had left. The settlement permanently banned Paulson from soliciting charitable contributions or otherwise managing or controlling any charity or its assets, and required Help The Vets and its fundraisers to destroy the donor lists the operation had built up.
+
+The Help The Vets case is part of a broader pattern regulators call "sound-alike" charity fraud: a name built to evoke patriotism and support for veterans, aggressive telemarketing pitched at people inclined to give without asking many questions, and a business model where the "charitable" work is really a vehicle for paying the people running it. Checking a charity's actual spending — through a nonprofit's IRS Form 990 or an independent evaluator like Charity Navigator or CharityWatch — before donating is the direct answer to a scheme built entirely on donors taking a name and a tagline at face value.`,
+    sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2018/07/ftc-states-combat-fraudulent-charities-falsely-claim-help-veterans-servicemembers',
+  });
+
+NotoriousNS.push({
+    title: 'Christophe Rocancourt: The "Fake Rockefeller" Who Conned the Hamptons',
+    slug: 'christophe-rocancourt-fake-rockefeller-con-man',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'international'],
+    body: `Christophe Rocancourt grew up in poverty outside Paris before reinventing himself, repeatedly, as someone else — a member of the Rockefeller family, an international businessman, a movie producer, even, at various points, the son of actress Sophia Loren. Under aliases including "Christopher Rockefeller," he moved through the social circles of the Hamptons, Los Angeles, and Vancouver in the late 1990s and early 2000s, using the borrowed weight of a famous American name to get close to wealthy people who had every reason to assume anyone claiming that pedigree was exactly who he said he was.
+
+Rocancourt had a well-established criminal record before he ever reached the United States: French authorities convicted him multiple times in the late 1980s and early 1990s on charges including forgery, theft, and fraud, and he served several prison terms in France. Once in North America, prosecutors say he defrauded roughly twenty victims of a combined $1.2 million through a string of advance-fee schemes — in one case collecting a $100,000 fee from a woman at New York's Waldorf-Astoria hotel in exchange for arranging a $4.2 million loan that never materialized, and in another taking $100,000 from a Canadian businessman on a deal that likewise went nowhere. He was arrested in British Columbia in 2001 after skipping out on a $19,000 bed-and-breakfast bill, pleaded guilty to Canadian fraud charges, and served roughly a year in a Canadian prison before being extradited to the United States in 2003 to face the American charges.
+
+Rocancourt pleaded guilty to federal fraud charges and, in October 2003, was sentenced in Brooklyn federal court to three years and ten months in prison, along with a concurrent state sentence of up to four years out of Suffolk County, New York. The court ordered him to repay the full $1.2 million and directed that 75 percent of any future proceeds from a memoir or film based on his story go toward that restitution — an attempt to keep him from profiting a second time from the same fraud by turning it into entertainment. "I take responsibility for my actions," Rocancourt told the court. "I apologize for what I did wrong."
+
+Rocancourt's case is a study in how far a fabricated identity can carry someone when it borrows a real family's name and reputation: none of his victims independently verified he was actually related to the Rockefellers before handing him five- and six-figure sums, because the social settings he moved through — expensive hotels, exclusive parties, introductions from other people who'd already been fooled — did the vetting work that should have happened before any money changed hands.`,
+    sourceUrl: 'https://www.cbsnews.com/news/fake-rockefeller-gets-jail-time/',
+  });
