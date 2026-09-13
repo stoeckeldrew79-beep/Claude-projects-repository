@@ -6427,6 +6427,10 @@ NotoriousNS.push(
     slug: 'michael-steele-biggera-waters-superannuation-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'international'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Southport_Courthouse.jpg?width=1200',
+    coverImageCredit: 'Photo: WikiCats, CC BY-SA 3.0, via Wikimedia Commons — Southport Courthouse, Queensland, where Michael Steele was sentenced',
+    coverImagePosition: 50,
     body: `Michael David Steele was a property developer on Queensland's Gold Coast pitching a residential and commercial development at Biggera Waters when, between May 2016 and February 2017, he persuaded 14 investors to hand over more than $1.3 million. Australia's corporate regulator, the Australian Securities and Investments Commission (ASIC), found that Steele told those investors their money — much of it withdrawn directly from their superannuation accounts, alongside personal savings — would be lent to two of his companies, EA Invest Pty Ltd and Marketing Machine International Pty Ltd, to help fund the Biggera Waters project through a related entity, Eastco Developments Pty Ltd.
 
 None of it went into the development. ASIC's investigation found Steele instead used the money to buy a house registered in his wife's name, pay his son's university fees, buy cars and jewellery, and fund international travel, entertainment, and online gambling. Not one of the 14 investors got any of their money back.
@@ -6444,6 +6448,10 @@ NotoriousNS.push(
     slug: 'chukwunyere-nwabuoku-defence-ministry-money-laundering',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'international'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Federal_high_court_headquarters_Abuja_01.jpg?width=1200',
+    coverImageCredit: 'Photo: Jummy001, CC BY-SA 4.0, via Wikimedia Commons — the Federal High Court in Abuja, where Chukwunyere Nwabuoku was convicted',
+    coverImagePosition: 50,
     body: `Chukwunyere Anamekwe Nwabuoku held two positions of unusual financial trust in the Nigerian government: from 2019 to 2021 he served as Director of Finance and Accounts in the Federal Ministry of Defence, and from May to July 2022 he served as Nigeria's Acting Accountant-General of the Federation, the official responsible for the government's own books. Nigeria's Economic and Financial Crimes Commission (EFCC) found that Nwabuoku used the first of those roles to divert public money meant to fund defence and security operations into his own hands, laundering the proceeds through a network of shell companies — among them Temeeo Synergy Concept Limited, Turge Global Investment Limited, and Laptev Bridge Limited — before routing roughly ₦160 million of it through a further company, MDavi Limited, into his own securities trading account at Quantum Zenith Securities, disguising stolen defence funds as ordinary investment income.
 
 The EFCC arraigned Nwabuoku on a nine-count amended charge under Nigeria's Money Laundering (Prohibition) Act 2011, covering a total of ₦868,465,000 diverted between September 2019 and October 2020. During the investigation, Nwabuoku voluntarily refunded more than ₦200 million, evidence the defence did not dispute at trial. On 23 March 2026, Justice James Omotosho of the Federal High Court in Abuja convicted him on all nine counts, finding that "the EFCC proved the nine counts of money laundering against the former accountant-general of the federation beyond reasonable doubt" and describing the diversion of defence funds as appalling. He sentenced Nwabuoku to eight years' imprisonment on each count, running concurrently for an effective term of eight years, with no option of a fine — a sentence Nigerian media reported as "72 years" by summing the individual counts, though the court ordered them served together.
@@ -6459,6 +6467,10 @@ NotoriousNS.push({
     slug: 'harel-sekler-warwick-sneider-banxso-fsca-ponzi',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'international'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Cape_Town_skyline_with_Table_Mountain.jpg?width=1200',
+    coverImageCredit: 'Photo: Islahaddow, CC BY-SA 4.0, via Wikimedia Commons — Cape Town, where Banxso was based',
+    coverImagePosition: 50,
     body: `Banxso (Pty) Ltd was a licensed South African online trading platform, built around contracts for difference (CFDs), that grew to roughly 7,000 clients under the direction of owner Harel Adam Sekler, executive Warwick David Sneider, and fellow key persons Manuel de Andrade, Mohammed Bux, and Henry James Simpson. Being licensed by South Africa's Financial Sector Conduct Authority (FSCA) gave the platform a veneer of legitimacy that a growing body of evidence would eventually show it hadn't earned.
 
 That evidence started surfacing in early 2024, when deepfake video advertisements began circulating on South African social media using the digitally manufactured likenesses and voices of billionaires Elon Musk, Johann Rupert, and Nicky Oppenheimer to promote a trading product branded "Immediate Matrix," which promised profits of up to R300,000 a month from an initial stake of just R4,700. On April 19, 2024, the FSCA announced it was investigating Banxso over possible contraventions of financial sector laws tied to that campaign. The regulator's investigation ultimately found that Banxso was directly or indirectly involved in, or had at minimum materially benefited from, the deceptive deepfake advertising — a funnel the FSCA said channeled roughly R1 billion from South African investors into the platform.

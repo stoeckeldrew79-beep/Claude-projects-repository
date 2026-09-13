@@ -9133,6 +9133,10 @@ NotoriousAF.push(
     slug: 'ashley-arandez-smsf-unlicensed-investment-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'international'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/County_Court_of_Victoria.JPG?width=1200',
+    coverImageCredit: 'Photo: Adz, public domain, via Wikimedia Commons — the County Court of Victoria, where Ashley Arandez was sentenced',
+    coverImagePosition: 50,
     body: `Ashley Arandez, of Hoppers Crossing, Victoria, spent close to four years running an investment business without the licence Australian law requires for it. Between September 2017 and April 2021, Australia's Securities and Investments Commission (ASIC) found, Arandez recommended that clients roll money out of their self-managed superannuation funds — retirement savings most people spend decades building — and into investment products he personally controlled, promising fixed returns of 8 to 12 per cent a year, or as much as 300 per cent if the money was left in for three years. He had not been licensed or authorised to provide financial services since 23 June 2019, yet kept taking client money and giving investment advice regardless. In total, ASIC found he received $1.97 million from investors under this arrangement.
 
 Rather than deploying that money into the products he described, ASIC's investigation found Arandez used a share of it for himself, including buying property registered in his own name and a motorhome. He pleaded guilty on 5 August 2025 to dishonest conduct, carrying on a financial services business without a licence, and recklessly dealing with the proceeds of crime.
