@@ -7252,3 +7252,31 @@ UsNS.push({
     isHistorical: true,
     firstRecorded: '2026-06-05',
 });
+
+UsNS.push({
+    name: 'Puerto Rico Spanish-Language Student Debt Relief Scam (USA Student Debt Relief)',
+    slug: 'puerto-rico-usa-student-debt-relief-scam',
+    description: `The Federal Trade Commission asked a federal court to halt USA Student Debt Relief (USASDR) on July 11, 2024, accusing the operation — run through Florida-based Start Connecting LLC and its Colombia-based sister company Start Connecting SAS, along with individual defendants Douglas Goodman, Doris Gallon-Goodman, and Juan Rojas — of a telemarketing scheme that disproportionately targeted Puerto Rico. According to the FTC's complaint, USASDR's Colombia-based call center placed roughly 750,000 outbound calls between April 2019 and February 2024, with nearly 220,000 of them — about 30 percent — dialing Puerto Rico area codes, including numbers on the National Do Not Call Registry. Telemarketers falsely claimed affiliation with the U.S. Department of Education and promised financially strapped, Spanish-speaking borrowers permanently fixed monthly payments as low as $9 along with eventual loan forgiveness, then charged illegal upfront advance fees of hundreds of dollars plus recurring monthly fees of up to $29 that went to USASDR rather than toward paying down any actual loan. The company compounded the deception by conducting its entire sales pitch in Spanish while burying the real contract terms in fine-print English that many of its Puerto Rico customers could not read fluently, and by posting fabricated customer testimonials paired with stock photos across Instagram, Facebook, and third-party review sites to appear legitimate. A federal judge in the Middle District of Florida entered a temporary restraining order freezing the operation's assets and halting its telemarketing at the FTC's request; in May 2025 the operators agreed to be permanently banned from the debt relief industry and to surrender their assets, and in February 2026 a court permanently banned defendant Dennise Merdjanian from the debt relief and telemarketing industries as well. Federal loan servicing, consolidation, and enrollment in income-driven repayment plans are always free directly through the Department of Education's own website and servicers; any company that calls unprompted, claims a special government affiliation, and demands an upfront fee before enrolling a borrower in a loan program is following the same playbook USASDR used against tens of thousands of Puerto Rico borrowers.`,
+    categorySlug: 'student-loan-education',
+    alertLevel: 'high',
+    sources: ['Federal Trade Commission', 'U.S. District Court for the Middle District of Florida'],
+    sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2024/07/ftc-acts-stop-debt-relief-scheme-targeting-spanish-speaking-student-loan-borrowers',
+    country: 'US',
+    state: 'PR',
+    isHistorical: true,
+    firstRecorded: '2024-07-11',
+});
+
+UsNS.push({
+    name: 'CNMI "Can You Hear Me" Voice-Recording Phone Scam Alert',
+    slug: 'northern-mariana-islands-can-you-hear-me-voice-scam',
+    description: `The CNMI Office of the Attorney General's "Consumer Caution Corner" issued an urgent public warning on September 13, 2026 about a phone scam known as the "Can You Hear Me" scam, built around getting a recorded "yes" from whoever answers the phone. The caller opens with a simple question like "Can you hear me?" — one almost anyone will instinctively answer "yes" to — while posing as a representative of a utility, mortgage lender, or other organization the recipient may already do business with, using that false familiarity to lower the target's guard. The OAG's alert warns that fraudsters record that single word and can later use or splice it as a purported "voice signature" authorizing charges on the victim's utility or credit card account, effectively enrolling them in services or purchases they never actually agreed to. The Federal Communications Commission has separately flagged the identical scheme as a recurring nationwide pattern. The OAG's guidance to Commonwealth residents: hang up immediately on unsolicited callers who try to elicit a spoken "yes," be wary of answering simple yes-or-no questions from anyone who called you rather than the other way around, register phone numbers with the National Do Not Call Registry, consider a robocall-blocking service, and check bank and credit card statements regularly for charges that were never authorized. Anyone who receives one of these calls or spots an unfamiliar charge afterward is urged to report it to the CNMI Office of the Attorney General and to the FCC's Consumer Help Center.`,
+    categorySlug: 'phishing',
+    alertLevel: 'medium',
+    sources: ['Commonwealth of the Northern Mariana Islands Office of the Attorney General', 'Saipan Tribune'],
+    sourceUrl: 'https://www.saipantribune.com/index.php/public-warning-announcement-can-hear-scam/',
+    country: 'US',
+    state: 'MP',
+    isHistorical: true,
+    firstRecorded: '2026-09-13',
+});

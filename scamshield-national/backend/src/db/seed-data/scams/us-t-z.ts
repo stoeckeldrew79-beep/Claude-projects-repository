@@ -4083,3 +4083,17 @@ UsTZ.push({
     isHistorical: true,
     firstRecorded: '2026-06-23',
 });
+
+UsTZ.push({
+    name: 'Virgin Islands Western Union Prize-Winning Scam Wave (2016)',
+    slug: 'virgin-islands-western-union-prize-scam-2016',
+    description: `The Virgin Islands Police Department and the Department of Licensing and Consumer Affairs (DLCA) issued a joint alert on September 13, 2016 about what VIPD's Economic Crime Unit called a "trend of Western Union scams" moving through the territory. According to the press release, scammers contacted victims by cellphone call, text message, email, or Facebook message telling them they had been selected to win a vehicle, cash, or other reward, then instructed them to wire money through Western Union in order to release the prize; once payment went through, the scammers changed their phone numbers and social media profiles and cut off all further contact, leaving victims out the money they had sent with no prize ever materializing. By the time of the alert, investigators had logged nine confirmed cases on St. Croix and several more on St. Thomas, spanning incidents reported from May 2016 onward. VIPD and DLCA urged Virgin Islanders to be alert any time they are asked to wire money through Western Union, and to be especially cautious about sending funds to a person or organization they do not personally know, directing anyone with concerns to the Economic Crime Unit at (340) 773-2266 on St. Croix or (340) 774-3942 on St. Thomas. A legitimate sweepstakes or prize drawing never requires a winner to pay a fee, tax, or "processing cost" before releasing winnings — any prize notification that demands payment first, especially through a hard-to-trace wire-transfer service like Western Union, is itself the scam.`,
+    categorySlug: 'lottery-sweepstakes-scams',
+    alertLevel: 'medium',
+    sources: ['Virgin Islands Police Department', 'Virgin Islands Department of Licensing and Consumer Affairs', 'V.I. Consortium'],
+    sourceUrl: 'https://viconsortium.com/vi-crime/several-virgin-islanders-swindled-out-of-money-through-western-union-scam',
+    country: 'US',
+    state: 'VI',
+    isHistorical: true,
+    firstRecorded: '2016-09-13',
+});
