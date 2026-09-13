@@ -6496,3 +6496,18 @@ The regulatory reckoning that followed largely spared the FCA itself. In January
 Blackmore's collapse remains a case study in how little exotic machinery a large loss requires: no offshore secrecy and no forged trading algorithm, just an unregulated debt product, a marketing pitch that borrowed the vocabulary of safety without any of its substance, and a regulator that had been warned years in advance and did not act until most of the money was already gone.`,
     sourceUrl: 'https://www.financialplanningtoday.co.uk/news/fca-rules-out-blackmore-bond-compensation',
   });
+
+NotoriousNS.push({
+    title: "Victor Ogiemwonyi and the ₦953 Million Share Sale His Client Never Saw",
+    slug: 'victor-ogiemwonyi-partnership-securities-share-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'international'],
+    body: `Victor Ogiemwonyi was the chairman of Partnership Securities Limited, a Lagos stockbroking firm, when a client named Arnold Onyekwere Ekpe instructed the firm to sell 96,077,872 of his units of shares in Ecobank Transnational Incorporated (ETI), a major pan-African bank listed on the Nigerian Exchange. The shares sold for ₦1,296,885,311.02 — just over ₦1.29 billion. According to Nigeria's Economic and Financial Crimes Commission (EFCC), Ekpe received only ₦300 million of that back. The rest, along with roughly $80,000 in accrued dividends on the shares that belonged to him, was, prosecutors alleged, dishonestly diverted by Ogiemwonyi and his firm for their own use.
+
+Ekpe filed a petition with the EFCC in October 2016 after failing to recover his money, and the commission's Lagos Zonal Directorate 1 eventually arraigned Ogiemwonyi and Partnership Securities Limited on a two-count charge of stealing under Nigeria's Criminal Law of Lagos State. At trial before Justice Modupe Nicole-Clay of the Lagos State High Court in Ikeja, the prosecution, led by Ola Sesan, called five witnesses and tendered 67 exhibits. On January 21, 2026, the court found both Ogiemwonyi and his firm guilty on all counts, holding that the case against them — that they had sold a client's shares, paid him back only a fraction of the proceeds, and kept the balance along with dividends owed to him — had been proven.
+
+The sentence was financial rather than custodial: Justice Nicole-Clay ordered Ogiemwonyi to pay a fine of ₦10 million and Partnership Securities Limited to pay a further ₦20 million, and directed both defendants to repay the entire amount they had taken from Ekpe, in both naira and dollars.
+
+The case is a reminder that a stockbroking license is a credential for executing trades, not a guarantee that the proceeds of those trades will make it back to the client who owns them: nearly a decade passed between the sale of Ekpe's shares and a court finally ordering their proceeds returned, and the mechanism of the fraud required nothing more sophisticated than a broker simply keeping most of what a sale generated instead of remitting it.`,
+    sourceUrl: 'https://hallmarknews.com/lagos-court-convicts-victor-ogiemwonyi-firm-over-n953m-80000-fraud/',
+  });
