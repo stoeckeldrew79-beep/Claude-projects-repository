@@ -2974,3 +2974,18 @@ The Zurich District Court convicted Vincenz on April 13, 2022, of fraud, multipl
 Vincenz's saga is a reminder that even a conviction from a full criminal trial isn't necessarily the end of a case — a procedural misstep in how an indictment is written, or how a defendant's language rights are handled, can send a years-old verdict back to square one regardless of what a court found about the underlying conduct. It's also a familiar shape of self-dealing fraud: not a rogue trader hiding losses, but a trusted executive at the very top of a bank quietly positioning himself on both sides of deals his own institution paid for, using an ownership stake nobody else at the table knew about to convert his employer's acquisition budget into his own personal profit.`,
     sourceUrl: 'https://www.swissinfo.ch/eng/former-top-swiss-banker-convicted-for-fraud/47514050',
   });
+
+NotoriousTZ.push({
+    title: 'William Tierney and the $23 Million Network of Scam Political Action Committees',
+    slug: 'william-tierney-scam-political-action-committees',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    body: `William Tierney, an Arizona man, spent the years between 2014 and 2017 founding, controlling, and operating a network of political action committees with names built to appeal to conservative donors — pitched around causes like supporting law enforcement, autism awareness, and opposition to abortion. According to federal prosecutors, Tierney directly founded and ran six of these PACs and exerted influence over three more, and the network collectively raised more than $23 million from tens of thousands of small-dollar donors nationwide.
+
+The money was never really going where donors were told. Prosecutors alleged that of the more than $23 million raised, only about $109,000 — roughly half of one percent — actually went to the candidates and causes the PACs claimed to support. The rest funded the fundraising operation itself and Tierney's own enrichment: telemarketers and mail solicitations soliciting the next round of donations, and personal spending unconnected to any political purpose. To keep the operation running while shielding his own name from vendors and donors, Tierney used fabricated identities in his dealings — presenting himself to vendors as "Bill Johnson" and signing fundraising solicitations as "Emma Smith," aliases that let him direct the PACs' money and messaging without his own name attached to the operation donors were actually funding.
+
+Tierney pleaded guilty on November 2, 2018, in federal court in Manhattan to conspiracy to commit wire fraud in connection with the scheme. He was sentenced to two years in federal prison and ordered to pay more than $1.5 million in forfeiture and restitution to the donors he'd defrauded, along with an additional $50,000 fine.
+
+Scam PACs like Tierney's exploit a gap most donors don't think to check: unlike a registered charity, a political action committee doesn't have to spend any particular share of what it raises on the causes or candidates named in its pitch, and the group's actual disbursements are only checkable well after the fact, in FEC filings most small donors never look at. A PAC's real spending — how much of its money reaches candidates versus fundraising and overhead — is a matter of public record on the Federal Election Commission's website, and checking it before donating is the only real defense against a name and a cause designed to be sympathetic rather than accurate.`,
+    sourceUrl: 'https://www.justice.gov/usao-sdny/pr/arizona-man-pleads-guilty-using-scam-political-action-committees-defraud-tens-thousands',
+  });
