@@ -7312,3 +7312,31 @@ UsGM.push({
     isHistorical: true,
     firstRecorded: '2025-03-13',
 });
+
+UsGM.push({
+    name: 'Louisiana Fake Remote Job Offer Scam (BBB of South Central Louisiana)',
+    slug: 'louisiana-bbb-fake-remote-job-offer-scam',
+    description: `The Better Business Bureau of South Central Louisiana warned on June 30, 2025 that it was fielding a larger-than-usual wave of BBB Scam Tracker reports describing fake job offers arriving by unsolicited email and text message, many of them impersonating well-known, real employers like Target, LinkedIn, and Amazon. The offers dangle high pay for minimal work — often "simple online tasks" that need only a smartphone — and after an initial exchange steer the target off ordinary channels and onto Telegram or WhatsApp to continue the conversation, where the "employer" eventually asks for banking information to set up direct deposit or asks the applicant to send money upfront to cover training materials, equipment, or software access before any pay arrives. The BBB's advice: verify any job offer by finding the employer's official website independently rather than through a link in the message, never move a hiring conversation to an encrypted messaging app at the recruiter's request, and never pay money to get a job or to unlock earnings. "If something feels rushed, secretive, or 'too good to be true,' walk away," the bureau said in issuing the alert. Louisiana job seekers can check a suspicious offer against BBB Scam Tracker before responding and should treat any unsolicited, high-pay remote offer that arrives by text as a red flag on its own, regardless of which real company's name is attached to it.`,
+    categorySlug: 'employment-scams',
+    alertLevel: 'medium',
+    sources: ['Better Business Bureau of South Central Louisiana', 'WGNO', 'WAFB'],
+    sourceUrl: 'https://wgno.com/news/louisiana/bbb-if-its-too-good-to-be-true-walk-away-from-employment-scam/',
+    country: 'US',
+    state: 'LA',
+    isHistorical: true,
+    firstRecorded: '2025-06-30',
+});
+
+UsGM.push({
+    name: 'Maine Ticket Resale Scam Protections (LD 913)',
+    slug: 'maine-ticket-resale-scam-protections-ld-913',
+    description: `Maine's LD 913, a consumer-protection law targeting deceptive ticket resale practices, took effect and was highlighted by the Maine Attorney General's Office in a consumer alert on December 12, 2025. The law responds to a pattern of resale-market abuses that had left Maine concertgoers and sports fans paying inflated, hidden fees or discovering after the fact that a "ticket" they bought never existed: it requires every ticket seller to clearly and conspicuously disclose the total price up front — including all mandatory fees except shipping and government charges — along with the specific seat or section being sold, and it bars resale marketplaces from misrepresenting fees, listing duplicate tickets for the same seat, advertising a ticket the seller does not actually possess or control, or helping a buyer circumvent a venue's posted ticket limits. It also caps marketplace resale fees at 10% of a ticket's total price and gives consumers a right to a refund when a reseller makes a "material misrepresentation" about a ticket, on top of existing protections for cancelled events, counterfeit tickets, and failed delivery. The protections apply to Maine residents and to any resale transaction happening in Maine, though they cover only business-run resale marketplaces rather than casual individual sellers. Maine ticket buyers who believe a reseller misrepresented a ticket's price, fees, or existence can file a complaint with the Attorney General's Office, which can pursue refunds along with interest and attorney's fees on a consumer's behalf.`,
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'medium',
+    sources: ['Maine Office of the Attorney General'],
+    sourceUrl: 'https://www.maine.gov/ag/consumer-protection/consumer-issues-scam/consumer-alert-ticket-resales-thu-01292026-0751',
+    country: 'US',
+    state: 'ME',
+    isHistorical: true,
+    firstRecorded: '2025-12-12',
+});

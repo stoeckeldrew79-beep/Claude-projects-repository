@@ -7238,3 +7238,17 @@ UsNS.push({
     isHistorical: true,
     firstRecorded: '2020-04-06',
 });
+
+UsNS.push({
+    name: 'New Mexico Sunward Federal Credit Union Impersonation Account Takeover (John Addison)',
+    slug: 'new-mexico-sunward-credit-union-impersonation-account-takeover',
+    description: `John Addison, a 70-year-old Sunward Federal Credit Union member in Albuquerque, was contacted by someone impersonating a credit union representative and, believing the call was legitimate, provided his account and PIN numbers — access the caller then used to run up more than $200 in unauthorized pizza-delivery and rideshare charges on his account. Addison's case surfaced as the Credit Union Association of New Mexico, which represents 36 credit unions statewide, launched a bilingual "Stop, Verify and Report" public-awareness campaign across billboards, newspapers, radio, flyers, and social media in response to a broader spike in fraud: New Mexico recorded more than 13,000 fraud cases totaling $66.6 million in 2025, according to the association, with romance scams (often run from fake profiles claiming to be based in Eastern Europe) and fake utility-shutdown threats hitting older residents hardest, while ticketing fraud, rental scams, and phony job offers disproportionately target younger New Mexicans. "You have to protect yourself," Addison said after his account was compromised. Credit union members who get an unexpected call, text, or email asking them to "verify" account numbers, a PIN, a one-time passcode, or online banking credentials should hang up and call the number printed on the back of their card or on their statement — never a number the caller provides — and should enable real-time transaction alerts so an unauthorized charge like Addison's is caught within minutes rather than at the next statement.`,
+    categorySlug: 'account-takeover',
+    alertLevel: 'medium',
+    sources: ['Albuquerque Journal', 'Credit Union Association of New Mexico'],
+    sourceUrl: 'https://www.abqjournal.com/business/local-credit-unions-warn-members-as-fraud-cases-rise-across-new-mexico/3057461',
+    country: 'US',
+    state: 'NM',
+    isHistorical: true,
+    firstRecorded: '2026-06-05',
+});
