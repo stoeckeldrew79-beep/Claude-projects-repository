@@ -18593,3 +18593,46 @@ International.push(
     country: 'ME',
   },
 );
+
+International.push(
+  {
+    name: 'Fake Tajawob Government Complaints Website Phishing Scam',
+    slug: 'oman-fake-tajawob-complaints-website-phishing-scam',
+    description: `The Royal Oman Police's Directorate General of Inquiries and Criminal Investigations issued a public warning on August 24, 2025 after fraudsters built phishing websites impersonating Tajawob, the National Platform for Suggestions, Complaints, and Reports run by Oman's Ministry of Transport, Communications and Information Technology at the official address tajawob.om. The genuine platform lets citizens and residents submit complaints and suggestions on everyday civic issues — things like unrepaired roads or utility problems — and route them to the right government entity, but the fake copycat sites use that same trusted purpose as bait, prompting visitors who land on them to "process" a submitted complaint or request by entering personal details or banking information. ROP stated plainly that the real Tajawob platform "does not request personal or banking information, nor does it require any payments or fees under any circumstances," and that any contact from a supposed Tajawob representative is limited strictly to discussing the details of a complaint someone has actually filed — never to soliciting money or account data. The warning urged the public to verify they are on the authentic tajawob.om domain before entering any information, to treat any request for banking details or payment through a complaints platform as automatically fraudulent, and to report suspected fake government websites to the police rather than engaging with them.`,
+    categorySlug: 'phishing',
+    alertLevel: 'high',
+    sources: ['Royal Oman Police (ROP)', 'Oman Observer'],
+    sourceUrl: 'https://www.omanobserver.om/article/1175485/oman/rop/rop-warns-citizens-expats-of-fake-tajawob-website',
+    country: 'OM',
+  },
+  {
+    name: 'AD Dakhiliyah Fake Girlfriend Romance-Blackmail Scam',
+    slug: 'oman-ad-dakhiliyah-fake-girlfriend-romance-blackmail-scam',
+    description: `Royal Oman Police arrested six Arab nationals in AD Dakhiliyah Governorate, announced September 22, 2025, for running a romance scam in which the group impersonated a young woman online to draw a victim into believing he was in a genuine romantic relationship with her. Once the emotional connection was established, the suspects switched the story, claiming the "woman" had been abused by her own family, and used that fabricated crisis to pressure the victim into repeatedly sending money to help her — a manipulation that ultimately cost him more than 200,000 Omani rials, or roughly $520,000. ROP did not detail how long the deception ran before the victim came forward, but confirmed all six suspects were taken into custody and that legal proceedings were underway. In its statement following the arrests, the Royal Oman Police "urged residents to remain vigilant against online scams and to report suspicious activity, stressing that fraud through social platforms remains a growing threat in the region." The case illustrates how a romance scam can escalate well beyond a single request for money once a fabricated emotional bond is in place — anyone asked to send money repeatedly to help an online partner they have never met in person, especially after a sudden invented crisis, should stop and independently verify the person's identity and situation before sending anything further, and report the account to platform moderators and police.`,
+    categorySlug: 'romance-scams',
+    alertLevel: 'high',
+    sources: ['Royal Oman Police (ROP)', 'Gulf News'],
+    sourceUrl: 'https://gulfnews.com/world/gulf/oman/oman-arrests-six-expats-in-social-media-blackmail-scam-1.500277907',
+    country: 'OM',
+  },
+  {
+    name: 'Fake Online Marketplace Listing and Remote-Access Scams',
+    slug: 'oman-fake-online-marketplace-listing-remote-access-scam',
+    description: `Oman Observer reported on May 9, 2026 on a wave of fraudulent property and merchandise listings circulating through WhatsApp groups and social media buying-and-selling pages, describing how the scammers pose as property agents or private sellers, use stolen photos, and move the conversation off-platform to WhatsApp before asking for money up front. Resident Mohammed Risham nearly fell for one such listing — a three-bedroom flat in Mabela advertised at RO 190 a month, well under the roughly RO 300 market rate for comparable units — but grew suspicious and contacted a resident of the actual building, who told him he was already the fifth person that week to be shown the identical fake posting for a flat that was never for rent. In a separate case described in the same report, Rigel Aboobacker Sidhique lost RO 350 while trying to sell a car seat online: a buyer asked for his bank details to send a "confirmation payment," then sent a link and talked him through a screen-sharing session under the guise of completing the transfer, using that remote access to withdraw funds from his account instead of paying him. The Royal Oman Police cautioned residents never to transfer money in advance to an unverified buyer or seller, never to open links or join Google Meet or Zoom sessions with unknown parties, never to share their screen with someone they are transacting with online, and to be wary of international numbers and listings priced conspicuously below the going market rate, completing proper documentation and verification before any money changes hands.`,
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'medium',
+    sources: ['Royal Oman Police (ROP)', 'Oman Observer'],
+    sourceUrl: 'https://www.omanobserver.om/article/1189344/oman/scammers-target-online-buyers',
+    country: 'OM',
+  },
+  {
+    name: '$6.6 Million Business Email Compromise Transfer Intercepted',
+    slug: 'oman-6-6-million-business-email-compromise-interpol-intercept',
+    description: `Oman's Royal Oman Police announced on May 11-12, 2026 that its Directorate General of Inquiries and Criminal Research, working with INTERPOL's National Central Bureaus in Muscat and Singapore, had blocked an attempt to move $6.6 million in illicit funds through a local Omani bank as part of INTERPOL's Operation First Light 2026, which ran from January 15 to April 30, 2026. The money originated from a business email compromise scheme in which fraudsters impersonated a legitimate supplier in written correspondence with a Singapore-based commodity trading firm, tricking the company into wiring the $6.6 million to an account the criminals controlled rather than their real supplier; the funds were then routed onward through an account in an Asian country before investigators traced the trail back to Oman's banking system. Authorities in Singapore and Oman used INTERPOL's I-GRIP mechanism — the Global Rapid Intervention of Payments system, which INTERPOL describes as "a stop-payment mechanism that facilitates the swift blocking of illicit financial flows of both fiat and virtual assets" — to freeze the transfer before it could be moved again and laundered beyond recovery. The case, one of the results INTERPOL later cited from Operation First Light 2026's global total of more than 5,800 arrests and roughly $293 million intercepted worldwide, is a reminder for any company paying a supplier or vendor by wire transfer to verify a changed bank account or payment instruction by phone, using a number already on file rather than one provided in the email itself, before releasing funds — the request to redirect payment is often the only sign a supplier's email account, or a lookalike copy of it, has been compromised.`,
+    categorySlug: 'business-email-compromise',
+    alertLevel: 'high',
+    sources: ['Royal Oman Police (ROP)', 'INTERPOL', 'Muscat Daily', 'Oman Observer'],
+    sourceUrl: 'https://www.omanobserver.om/article/1189465/oman/rop/rop-foils-attempt-to-transfer-66-million-via-local-bank',
+    country: 'OM',
+  },
+);
