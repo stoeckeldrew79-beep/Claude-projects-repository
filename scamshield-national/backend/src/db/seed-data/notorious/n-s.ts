@@ -6437,6 +6437,23 @@ The Biggera Waters case follows a pattern regulators in multiple countries flag 
     sourceUrl: 'https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2025-releases/25-157mr-former-gold-coast-property-developer-sentenced-to-eight-years-imprisonment-for-defrauding-superannuation-investment-funds/',
   },
 );
+
+NotoriousNS.push(
+  {
+    title: 'Chukwunyere Nwabuoku: The Acting Accountant-General Who Laundered Nigeria\'s Defence Funds Through Shell Companies',
+    slug: 'chukwunyere-nwabuoku-defence-ministry-money-laundering',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'international'],
+    body: `Chukwunyere Anamekwe Nwabuoku held two positions of unusual financial trust in the Nigerian government: from 2019 to 2021 he served as Director of Finance and Accounts in the Federal Ministry of Defence, and from May to July 2022 he served as Nigeria's Acting Accountant-General of the Federation, the official responsible for the government's own books. Nigeria's Economic and Financial Crimes Commission (EFCC) found that Nwabuoku used the first of those roles to divert public money meant to fund defence and security operations into his own hands, laundering the proceeds through a network of shell companies — among them Temeeo Synergy Concept Limited, Turge Global Investment Limited, and Laptev Bridge Limited — before routing roughly ₦160 million of it through a further company, MDavi Limited, into his own securities trading account at Quantum Zenith Securities, disguising stolen defence funds as ordinary investment income.
+
+The EFCC arraigned Nwabuoku on a nine-count amended charge under Nigeria's Money Laundering (Prohibition) Act 2011, covering a total of ₦868,465,000 diverted between September 2019 and October 2020. During the investigation, Nwabuoku voluntarily refunded more than ₦200 million, evidence the defence did not dispute at trial. On 23 March 2026, Justice James Omotosho of the Federal High Court in Abuja convicted him on all nine counts, finding that "the EFCC proved the nine counts of money laundering against the former accountant-general of the federation beyond reasonable doubt" and describing the diversion of defence funds as appalling. He sentenced Nwabuoku to eight years' imprisonment on each count, running concurrently for an effective term of eight years, with no option of a fine — a sentence Nigerian media reported as "72 years" by summing the individual counts, though the court ordered them served together.
+
+The financial reckoning continued after the criminal verdict. The EFCC filed a forfeiture application, and on 14 May 2026 the Federal High Court in Abuja ordered the final forfeiture of assets traced to Nwabuoku's proceeds of crime: shares valued at roughly ₦1.9 billion, cash assets of about ₦288.5 million held across several company accounts (including the ₦220 million he had already refunded), and a five-bedroom duplex in the City Gate Estate in Kukwaba, Abuja. The court held that the assets were "proceeds of unlawful activities" and ordered them forfeited in full to the Federal Government of Nigeria.
+
+Nwabuoku's case illustrates how a government's own internal financial controls can be turned against it by the person meant to enforce them: a Director of Finance and Accounts sits at exactly the chokepoint where public funds are disbursed, and shell companies with innocuous-sounding names gave him a paper trail that looked, on its face, like ordinary government contracting rather than money moving into a personal trading account.`,
+    sourceUrl: 'https://www.channelstv.com/2026/03/23/%E2%82%A6868m-fraud-court-sentences-ex-accountant-general-nwabuoku-to-72-year-imprisonment/',
+  },
+);
 NotoriousNS.push({
     title: "Harel Sekler, Warwick Sneider, and the Deepfake Ads Behind Banxso's R2 Billion Collapse",
     slug: 'harel-sekler-warwick-sneider-banxso-fsca-ponzi',
