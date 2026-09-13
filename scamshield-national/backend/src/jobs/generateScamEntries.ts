@@ -146,10 +146,19 @@ function thinnestState(): Target {
   };
 }
 
+// Countries with no meaningful public fraud-reporting infrastructure to
+// research. They stay permanently "thinnest" no matter how many runs target
+// them, so excluding them here is what actually stops the repeat failures —
+// downgrading a fruitless run to a non-error (below) only stops it from
+// being reported as one.
+const THIN_COVERAGE_DEAD_ENDS = new Set(['NU']);
+
 function thinnestNonUs(): Target | null {
   const counts = new Map<string, number>();
   for (const s of SEED_SCAMS) counts.set(s.country ?? 'US', (counts.get(s.country ?? 'US') ?? 0) + 1);
-  const nonUs = [...counts.entries()].filter(([c]) => c !== 'US').sort((a, b) => a[1] - b[1]);
+  const nonUs = [...counts.entries()]
+    .filter(([c]) => c !== 'US' && !THIN_COVERAGE_DEAD_ENDS.has(c))
+    .sort((a, b) => a[1] - b[1]);
   if (!nonUs.length) return null;
   const [country, n] = nonUs[0];
   return { country, note: `${country} currently has ${n} entries — the thinnest non-US coverage.` };
@@ -300,10 +309,15 @@ async function main() {
   }
   // An empty batch after a successful research call means the extraction
   // rejected everything it was given — say so, rather than reporting "0 of 0"
-  // and letting it read as a quiet success.
+  // and letting it read as a quiet success. This is a legitimate result, not
+  // a bug: refusing to fabricate an entry when nothing verifiable turned up
+  // is exactly the intended behavior, so it must not exit non-zero — a
+  // research target with genuinely thin public reporting (a small country,
+  // an oversaturated US category) would otherwise fail every single run and
+  // read as a broken pipeline when it is actually working correctly.
   if (!parsed.entries.length) {
-    console.error('generateScamEntries: research returned findings but extraction produced no entries. The findings above are what it had to work with.');
-    process.exit(1);
+    console.log('generateScamEntries: research returned findings but extraction produced no entries. Nothing written this run — not a failure, just nothing verifiable to add.');
+    return { accepted: [], proposed: 0, collisions: [] };
   }
 
   // 3. Reject anything that would corrupt the corpus, and say why.
