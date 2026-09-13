@@ -8252,3 +8252,15 @@ UsAF.push({
     country: 'US',
     state: 'DE',
 });
+
+UsAF.push({
+    name: 'Denver Fake QR Code Parking Meter Sticker Scam',
+    slug: 'colorado-denver-fake-qr-code-parking-meter-scam',
+    description: `Someone plastered counterfeit QR code stickers made to mimic Denver's legitimate pay-by-phone parking codes directly onto parking meters and signage along South Broadway between West 6th Avenue and East Alameda Avenue, and on meters along South Lincoln Street in the city's Golden Triangle neighborhood. A driver who scanned one of the fake codes was taken to a convincing lookalike payment page that asked for personal and credit card information to "pay" for parking, rather than processing any real transaction. A Denver resident, Jared Hawthorne, had already filed a report about tampered meters through the city's 311 portal on July 12 before a local television investigation separately flagged the problem to Denver's Department of Transportation and Infrastructure (DOTI), which sent crews to scrape the fraudulent stickers off meters throughout the affected corridor; reporters traced the fraudulent payment website to a domain registered in Cape Verde. Denver, like most cities, does not use scannable QR code stickers as its actual parking-payment method — payment is meant to go through the city's official app or the meter's own card reader — so any QR code sticker found affixed to a meter or nearby sign should be treated as suspect by default. Drivers are advised to pay for city parking only through Denver's official parking app or a meter's built-in card reader, to check whether a QR code sticker looks like it has been placed over another one before ever scanning it, and to report a suspected fraudulent parking QR code to the city's 311 service and to their card issuer immediately if payment information was already entered.`,
+    categorySlug: 'qr-code-scams',
+    alertLevel: 'medium',
+    sources: ['Denver7 (KMGH)', '9NEWS (KUSA) Steve on Your Side', 'Denver Department of Transportation and Infrastructure (DOTI)'],
+    sourceUrl: 'https://www.denver7.com/news/local-news/scammers-are-posting-fake-qr-codes-on-denver-parking-signs-city-asks-for-help',
+    country: 'US',
+    state: 'CO',
+});

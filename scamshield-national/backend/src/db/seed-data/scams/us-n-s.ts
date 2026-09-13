@@ -7158,3 +7158,29 @@ UsNS.push({
     isHistorical: true,
     firstRecorded: '2023-04-01',
 });
+
+UsNS.push({
+    name: 'Las Vegas Fake Amazon Delivery Driver Hiring Scheme (Juan Vera and Fabiola Llanes)',
+    slug: 'nevada-las-vegas-fake-amazon-delivery-driver-hiring-scheme',
+    description: `On January 21, 2025, an online ad advertised openings for "third-party delivery drivers for Amazon" and directed applicants to a business at 3100 East Sunset Road in southeast Las Vegas, where hopeful hires filled out an application, handed over sensitive information including Social Security numbers and banking details, and paid a $200 "processing" fee before being given a future interview date. When applicants returned for those interviews, they found the office completely vacated, and Metro police confirmed the operation was in no way affiliated with Amazon. Hundreds of frustrated job seekers gathered outside the vacant business complex near Sunset Park on the morning of January 30, 2025, prompting a large police response and an investigation by the Las Vegas Metropolitan Police Department's Financial Crimes Division. After roughly two months of investigation, LVMPD identified the operators as Juan Vera, 41, and Fabiola Llanes, 39, who were taken into custody by the Chicago Police Department on March 27, 2025 pending extradition to Las Vegas, where they face charges of establishing or possessing a financial forgery laboratory with intent to commit an unlawful act, and theft valued between $5,000 and $25,000. A legitimate delivery-driver position with Amazon or one of its verified delivery service partners is applied for directly through Amazon's own hiring site or a partner company whose registration can be independently confirmed — never through a walk-in office found via a classifieds or social media ad — and any job that requires paying an upfront "application," "processing," or "training" fee before work even begins should be treated as a scam no matter how legitimate the advertised employer's name sounds.`,
+    categorySlug: 'job-task-scams',
+    alertLevel: 'medium',
+    sources: ['Las Vegas Metropolitan Police Department', 'KTNV', '8 News Now (KLAS)'],
+    sourceUrl: 'https://www.ktnv.com/news/crime/las-vegas-police-announce-arrests-in-scam-that-targeted-valley-job-seekers',
+    country: 'US',
+    state: 'NV',
+    isHistorical: true,
+    firstRecorded: '2025-01-21',
+});
+
+UsNS.push({
+    name: 'Superior Servicing $45.9 Million Student Loan Forgiveness Scam',
+    slug: 'nevada-superior-servicing-student-loan-forgiveness-scam',
+    description: `Nevada-based Superior Servicing LLC and its operators — Dennise Merdjanian, Eric Caldwell, and David Hernandez — ran a student loan debt-relief operation that the Federal Trade Commission says falsely claimed affiliation with the U.S. Department of Education and its loan servicers, promising enrolled borrowers loan forgiveness, reduced payments, or repayment-plan enrollment the company was not actually providing. According to the FTC's complaint, filed in the U.S. District Court for the District of Nevada in November 2024 and later amended to add Caldwell and Hernandez as defendants, the operation collected more than $45.9 million from student loan borrowers nationwide, largely through illegal upfront fees charged before any service was rendered — a hallmark of debt-relief fraud, since a company that can legitimately negotiate a loan discharge or repayment plan is barred from collecting a fee until it actually delivers results. The court entered orders in September 2025 permanently banning Caldwell and Hernandez from the debt-relief industry and from telemarketing, and on July 21, 2026 the FTC announced a proposed order permanently banning Merdjanian on the same terms, with a $45.9 million monetary judgment against her partially suspended based on her inability to pay in full. Every service the Department of Education actually offers — loan forgiveness applications, income-driven repayment enrollment, and loan consolidation — is free and can only be completed directly through the Department's own studentaid.gov website or a loan servicer already assigned to the account; anyone contacted by a company offering to handle federal student loan forgiveness for an upfront fee, especially one claiming a special relationship with the Department of Education, is dealing with a scam.`,
+    categorySlug: 'student-loan-education',
+    alertLevel: 'high',
+    sources: ['Federal Trade Commission', 'U.S. District Court for the District of Nevada'],
+    sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2026/07/student-loan-forgiveness-scammer-permanently-banned-debt-relief-industry-telemarketing',
+    country: 'US',
+    state: 'NV',
+});

@@ -7158,3 +7158,17 @@ UsGM.push({
     country: 'US',
     state: 'IA',
 });
+
+UsGM.push({
+    name: 'Chillum Fake Puppy and Horse Sales Fraud Scheme (Anomah Ndonwi)',
+    slug: 'maryland-chillum-ndonwi-fake-puppy-horse-sales-fraud',
+    description: `Between at least September 2019 and December 2022, Anomah Ndonwi, of Chillum, Maryland, ran fraudulent websites and online listings advertising dogs, horses, and other goods for sale, collected payment from buyers by wire transfer or electronic payment apps, and then never delivered any animal or refunded the money. According to the U.S. Attorneys' Offices for the District of Maryland and the District of Columbia, Ndonwi took in more than $930,000 from at least 10 identified victims, laundering the proceeds through at least 14 different U.S. bank accounts that he opened under alias names using fraudulent identification specifically to receive and move the stolen money without it being traced back to him. Ndonwi pleaded guilty to conspiracy to commit wire fraud, and U.S. District Judge Theodore D. Chuang sentenced him to 30 months in federal prison followed by three years of supervised release. Anyone shopping for a puppy, horse, or other pet online should insist on a live video call with the actual animal before paying anything, run the listing's exact text and photos through a reverse image search to check whether they were lifted from another site, pay only through a method that offers fraud protection rather than a wire transfer or a peer-to-peer payment app, and treat a seller who refuses any in-person meeting or pickup option — insisting instead on shipping the animal for an extra fee — as a serious warning sign.`,
+    categorySlug: 'pet-sales-scams',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office for the District of Maryland", "U.S. Attorney's Office for the District of Columbia", 'FOX45 Baltimore (WBFF)'],
+    sourceUrl: 'https://www.justice.gov/usao-md/pr/maryland-man-sentenced-connection-pet-selling-fraud-scheme',
+    country: 'US',
+    state: 'MD',
+    isHistorical: true,
+    firstRecorded: '2019-09-01',
+});

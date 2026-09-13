@@ -18393,3 +18393,58 @@ International.push(
     firstRecorded: '2023-11-17',
   },
 );
+
+International.push(
+  {
+    name: 'Fake "Bank of Botswana" News Article Crypto Investment Scam',
+    slug: 'botswana-fake-news-article-crypto-investment-scam',
+    description:
+      'On September 16, 2024, the Bank of Botswana issued a public notice warning of a "get-rich-quick scam" circulating on social media disguised as a genuine news article, which falsely claimed the Bank was suing certain prominent Batswana individuals over statements they had supposedly made during media interviews. The fake post used deceptive, cloned newspaper logos and the names of well-known Batswana figures to lend credibility to a fraudulent cryptocurrency investment opportunity, promising unrealistic returns and falsely claiming the Bank had threatened to stop the named individuals from giving further media interviews — a fabricated storyline built to make the scam look like breaking financial news rather than an advertisement. The scammers went further still, fabricating quotes and statements they attributed directly to the Bank of Botswana itself. The Bank stated plainly that "it must be noted that the Bank does not open accounts for individuals, but is a banker to commercial banks, Government and selected entities," and that it "does not have any authority over virtual assets in the manner proposed," flatly denying any connection to the supposed lawsuit or the investment scheme built around it. It urged the public to watch for the hallmarks the fake article displayed — links leading to another web page or platform, prompts demanding immediate action, cloned identities of reputable outlets, and requests to disclose personal details — and advised people not to act on, respond to, or follow such pages, nor to click the links they contain. Anyone encountering a "news article" alleging that a central bank is suing named public figures over an investment dispute should treat the claim itself as the red flag, since a real central bank does not litigate for endorsing or declining to endorse a private investment product, and should verify any such story only through the Bank of Botswana\'s own website or verified social media accounts before engaging with whatever platform the article is promoting.',
+    categorySlug: 'investment-fraud',
+    alertLevel: 'high',
+    sources: ['Bank of Botswana'],
+    sourceUrl: 'https://www.bankofbotswana.bw/press-release/public-notice-scam-alert-fake-content-and-unauthorised-use-bank-botswana-logo',
+    country: 'BW',
+    isHistorical: true,
+    firstRecorded: '2024-09-16',
+  },
+  {
+    name: 'Miracle Farm, Berry, Blacpair, QZ & Related Copycat Pyramid Schemes',
+    slug: 'botswana-miracle-farm-berry-blacpair-copycat-pyramid-schemes',
+    description:
+      'Botswana\'s Competition and Consumer Authority (CCA) issued a public caution on April 18, 2024 after observing "continued participation in pyramid and related scheme activities in Botswana" even while the Ecoplexus pyramid scheme — which had already swindled Batswana out of "Millions of Pula" — remained under active investigation by the Authority and law enforcement. The CCA named eight further operations it said shared "similar elements with Ecoplexus": Miracle Farm, Berry, Blacpair, QZ, Coin Vault, Smart bit Copy Trading, MTFE Trading, and TBFX. The notice laid out the mechanics common to all of them: participants are compensated primarily for recruiting new members rather than from any sale of real goods or services, promoters promise high returns in a short period while staying "secretive about the actual business model," and a fee or initial deposit is always required to join — with early participants paid out of money contributed by those who join later, "but eventually no new investors can be found, and the pyramid collapses." The CCA warned that participation is itself a criminal offense under Botswana\'s Consumer Protection Act of 2018, which "explicitly states that a person who directly or indirectly promotes, or knowingly joins, enters or participates" in a pyramid or related scheme "commits an offence" punishable, on conviction, by a fine of up to P100,000, up to five years\' imprisonment, or both — a warning aimed as much at recruiters and promoters as at the operators themselves. The Authority urged the public to "desist from participating in the peddling of pyramid schemes, and in particular, any such activities that promise unrealistic quick returns on purported investments," treating the promise of guaranteed high returns funded mainly by recruiting others as disqualifying on its own, regardless of what branding — crypto, forex "copy trading," or agriculture — the scheme wraps itself in.',
+    categorySlug: 'investment-fraud',
+    alertLevel: 'high',
+    sources: ['Competition and Consumer Authority (Botswana)'],
+    sourceUrl: 'http://www.cca.co.bw/caution-against-continued-participation-pyramid-and-related-schemes',
+    country: 'BW',
+    isHistorical: true,
+    firstRecorded: '2024-04-18',
+  },
+  {
+    name: 'Prestige Wealth Solutions Unlicensed Offshore Pension (QROPS) Scheme',
+    slug: 'botswana-prestige-wealth-solutions-qrops-pension-scam',
+    description:
+      'The Non-Bank Financial Institutions Regulatory Authority (NBFIRA) cautioned the Botswana public on April 30, 2026 against Prestige Solutions Financial Consultancy (Pty) Ltd, trading as "Prestige Wealth Solutions," after finding the firm was "not licensed or authorised under the laws of Botswana to provide financial advice, investment services, or any intermediary financial services within the Republic." NBFIRA said the entity was offering investment-related services, including offshore pension-transfer arrangements marketed as Qualifying Recognised Overseas Pension Schemes (QROPS) — arrangements that move a saver\'s pension benefits into an offshore jurisdiction and, the regulator warned, "may expose consumers to significant financial risks, particularly when facilitated by unregulated entities." The warning was not Botswana\'s alone: NBFIRA noted that South Africa\'s Financial Sector Conduct Authority (FSCA) had already found the entity operated without the authorization required under that country\'s Financial Advisory and Intermediary Services Act, and that New Zealand\'s Financial Markets Authority (FMA) had separately warned that the firm was providing financial services without the registration New Zealand law requires — indicating an operation soliciting across multiple jurisdictions rather than one isolated to Botswana. NBFIRA said it was "concerned that similar solicitations may be directed at Botswana residents, including unsolicited communications promoting offshore investment opportunities," and advised the public to verify any financial services provider\'s licensing status with NBFIRA before engaging in any transaction, to exercise particular caution when approached about offshore investment or pension-transfer opportunities, to avoid dealing with any entity that is unauthorized or misrepresents its regulatory status, and to report suspicious financial-service offerings to NBFIRA without delay — warning plainly that "engaging with unlicensed financial service providers exposes consumers to significant risks, including financial loss, fraud, and absence of regulatory protection."',
+    categorySlug: 'investment-fraud',
+    alertLevel: 'high',
+    sources: ['Non-Bank Financial Institutions Regulatory Authority (NBFIRA)', 'Financial Sector Conduct Authority (South Africa)', 'Financial Markets Authority (New Zealand)'],
+    sourceUrl: 'https://www.nbfira.org.bw/news/caution-against-unauthorised-financial-services-provider-prestige-wealth-solutions/',
+    country: 'BW',
+    isHistorical: true,
+    firstRecorded: '2026-04-30',
+  },
+  {
+    name: 'Counterfeit-ID Fraudulent Loan Applications Targeting Micro-Lenders',
+    slug: 'botswana-counterfeit-id-fraudulent-loan-applications',
+    description:
+      'Botswana\'s Financial Intelligence Agency (FIA) and the Non-Bank Financial Institutions Regulatory Authority (NBFIRA) jointly warned on September 8, 2025 of a "growing trend" of fraudulent loan applications targeting the country\'s micro-lenders, in which "fraudsters are using counterfeit identity cards and forged income records to obtain loans illegally." Rather than tricking an individual victim directly out of money, the scheme exploits gaps in a lender\'s own verification process: a fraudster applies for a loan under a fabricated or stolen identity, backed by a forged national ID card and falsified payslips or employer letters designed to satisfy a micro-lender\'s standard checks, and walks away with loan proceeds the real identity-holder never authorized and may not even know were taken out in their name — potentially leaving that person to discover the fraudulent debt only when it affects their own credit standing later. The regulators called on financial institutions to "strengthen verification processes with issuing authorities and employers" rather than relying on the documents an applicant presents at face value, and reminded the public that "loan fraud is a serious criminal offence under the laws of Botswana." NBFIRA and the FIA urged anyone who suspects they have been a victim of identity fraud used to secure a loan, or who spots suspicious loan-application activity, to report it promptly to the FIA, the Botswana Police, or the affected financial institution, and followed the written warning with a public-awareness push via radio interviews on Duma FM. Because this scheme\'s initial harm often lands on the lender rather than the person whose identity was used, consumers are advised to check their own credit and loan records periodically for accounts they never opened, rather than assuming that being an unlikely direct target keeps them safe from the fraud.',
+    categorySlug: 'identity-theft',
+    alertLevel: 'medium',
+    sources: ['Financial Intelligence Agency (Botswana)', 'Non-Bank Financial Institutions Regulatory Authority (NBFIRA)'],
+    sourceUrl: 'https://www.nbfira.org.bw/news/growing-trend-of-fraudulent-loan-applications/',
+    country: 'BW',
+    isHistorical: true,
+    firstRecorded: '2025-09-08',
+  },
+);
