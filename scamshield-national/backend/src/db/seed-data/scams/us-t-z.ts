@@ -4013,3 +4013,17 @@ UsTZ.push({
     country: 'US',
     state: 'VI',
 });
+
+UsTZ.push({
+    name: 'Lawton, Oklahoma $27 Million TRICARE CPAP Billing Fraud (Stewart and Stephen Johnson)',
+    slug: 'oklahoma-lawton-johnson-tricare-cpap-fraud',
+    description: `Stewart Johnson, 72, and his son Stephen Johnson, 47, of Lawton, Oklahoma, owned and operated Combined Home Medical Equipment, a durable medical equipment supplier that provided CPAP machines to military families and veterans covered by TRICARE. According to a federal indictment, from January 2018 through December 2024 the Johnsons billed TRICARE for more than 650,000 separate in-person CPAP-related services — appointments to fit masks, adjust machine settings, and check on a patient's therapy — that were never actually provided and that the company was not qualified to provide, continuing to represent to TRICARE that patients were regularly returning for face-to-face visits even though investigators found many of those patients "rarely or sometimes never" came back to the business at all. The scheme brought in more than $27 million in TRICARE reimbursements before it was uncovered. A federal grand jury in the Western District of Oklahoma indicted both men on June 16, 2026 on charges of conspiracy to commit wire fraud, wire fraud, and money laundering, as part of the Department of Justice's 2026 National Health Care Fraud Takedown, a coordinated nationwide sweep that charged more than 450 defendants in cases totaling a record $6.5 billion in false claims. TRICARE beneficiaries — active-duty service members, military retirees, and their families — who receive a durable medical equipment item like a CPAP machine should check their TRICARE Explanation of Benefits for any billed follow-up visit or service they don't remember receiving, since a supplier can keep billing for "ongoing care" long after a patient has stopped showing up, and an unfamiliar charge is often the only visible sign that a DME company's billing has drifted into fraud.`,
+    categorySlug: 'healthcare-fraud',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office, Western District of Oklahoma", 'KSWO'],
+    sourceUrl: 'https://www.kswo.com/2026/06/24/lawton-pair-indicted-alleged-27-million-fraud-against-tricare/',
+    country: 'US',
+    state: 'OK',
+    isHistorical: true,
+    firstRecorded: '2018-01-01',
+});

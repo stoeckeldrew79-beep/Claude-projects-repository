@@ -8264,3 +8264,17 @@ UsAF.push({
     country: 'US',
     state: 'CO',
 });
+
+UsAF.push({
+    name: 'Arkansas "Hello?" Conversation-Starter Text Scam',
+    slug: 'arkansas-hello-conversation-starter-text-scam',
+    description: `Arkansas Attorney General Tim Griffin issued a consumer alert on May 21, 2025 warning residents about a wave of text messages from unknown numbers that open with disarmingly ordinary conversation starters — "Hello?", "How are you?", "Are you busy?", or "Are you going to meet me today for lunch?" — sent with no context, purely to get a recipient talking. Investigators say the scammers behind these campaigns run dozens of conversations at once, patiently building rapport with whoever responds before pivoting to a request for money tied to a fabricated emergency or a link designed to harvest personal information for identity theft; a version aimed at teenagers instead escalates into a request to trade photos, which the sender then uses to threaten and extort the teen once explicit images have been sent. Griffin's office said the phone numbers behind these campaigns are typically obtained through company data breaches sold on the dark web or scraped from the broad data-sharing consent buried in a business's own terms and conditions, meaning simply guarding a phone number carefully is no guarantee against being targeted. "The silver bullet to all this rests with you. You don't have to talk to these people," Griffin said, urging Arkansans to mark messages from unfamiliar numbers as spam or junk rather than replying — even with a single harmless-seeming word — and to talk with teenagers specifically about never exchanging photos with someone they only know from an unsolicited text. Anyone who has already engaged with one of these messages and sent money or images can report it to the Arkansas Attorney General's Office.`,
+    categorySlug: 'phishing',
+    alertLevel: 'medium',
+    sources: ["Arkansas Attorney General's Office (Tim Griffin)", 'KASU'],
+    sourceUrl: 'https://www.kasu.org/public-safety-social-justice/2025-05-21/arkansas-attorney-general-warns-of-text-scams',
+    country: 'US',
+    state: 'AR',
+    isHistorical: true,
+    firstRecorded: '2025-05-21',
+});
