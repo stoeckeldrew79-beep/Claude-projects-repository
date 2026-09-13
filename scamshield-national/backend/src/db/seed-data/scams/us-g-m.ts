@@ -7370,18 +7370,6 @@ UsGM.push({
 });
 
 UsGM.push({
-    name: "Gamified Task Scams (Fake \"App Optimization\" Work)",
-    slug: "gamified-task-scams-app-optimization-work",
-    description:
-      "You get an unsolicited text, WhatsApp or Telegram message offering easy remote work such as \"app optimization,\" \"product boosting,\" rating hotels or liking videos, with no interview and no resume required. You are moved into a polished dashboard or group chat and given batches of trivial clicks that appear to earn commissions, and small early withdrawals are often allowed so the platform looks legitimate. Then your account goes negative or gets locked behind a higher-tier task set or \"merchant order\" you must fund yourself, usually with cryptocurrency, and each deposit unlocks only a new fee for taxes, upgrades or a final release. The balance on the screen is fake and the money you deposit is gone. Never pay money to a job, treat any \"work\" that requires a deposit to unlock earnings as a scam, and report it to the FTC at ReportFraud.ftc.gov.",
-    categorySlug: "job-task-scams",
-    alertLevel: "high",
-    sources: ["U.S. Federal Trade Commission consumer alert, \"Task scams create the illusion of making money\" (November 2024)","FTC Data Spotlight, \"Paying to get paid: gamified job scams drive record losses\"","FTC press release on skyrocketing consumer reports about gamified online job scams (December 2024)","Better Business Bureau employment scams research"],
-    sourceUrl: "https://consumer.ftc.gov/consumer-alerts/2024/11/task-scams-create-illusion-making-money",
-    country: "US",
-});
-
-UsGM.push({
     name: "Indiana Local Police Impersonation \"Unpaid Fine\" Phone Scam",
     slug: "indiana-local-police-impersonation-unpaid-fine-phone-scam",
     description:
