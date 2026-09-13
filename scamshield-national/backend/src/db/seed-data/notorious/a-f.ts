@@ -9165,3 +9165,41 @@ The case is a reminder that the people doing the most damage in online investmen
     sourceUrl: 'https://www.occrp.org/en/news/german-court-jails-key-figure-in-massive-call-center-scam-operation-exposed-by-occrp',
   },
 );
+
+NotoriousAF.push({
+    title: 'Kenneth Courtright III and the Income Store "Perpetual Income" Website Ponzi Scheme',
+    slug: 'kenneth-courtright-income-store-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Dirksen_United_States_Courthouse,_Chicago_Loop,_Chicago,_Illinois_(11004376983).jpg?width=1200',
+    coverImageCredit: 'Photo: Ken Lund, Wikimedia Commons (CC BY-SA 2.0) — the Dirksen federal courthouse in Chicago, where Kenneth Courtright was tried and convicted',
+    coverImagePosition: 50,
+    body: `Kenneth D. Courtright III ran Today's Growth Consultant Inc. out of his home in Minooka, Illinois, doing business as "The Income Store," a program pitched as a shortcut to passive income: investors paid a six-figure upfront fee, and TGC would build and operate niche content websites on their behalf, generating advertising revenue that TGC promised to share with them as a guaranteed monthly payment — a payment Courtright described as effectively perpetual, continuing indefinitely once an investor signed up. From at least 2017 through 2019, that pitch drew in more than 500 investors from across the United States and abroad, including ordinary savers looking for a hands-off income stream and at least one local church.
+
+The websites, and the advertising revenue behind them, never came close to supporting what TGC was paying out. According to the Securities and Exchange Commission, the Income Store took in roughly $144 million from investors but paid out only around $44 million in actual website advertising returns over three years — with the rest of what investors received funded not by ad revenue but by the upfront fees of newer investors, the standard mechanics of a Ponzi scheme, dressed up as a technology business. The SEC obtained an emergency temporary restraining order and asset freeze against Courtright and TGC on December 30, 2019, and had a receiver appointed to take control of the company; federal prosecutors in the Northern District of Illinois indicted him on wire fraud charges the following February.
+
+Courtright fought the case at trial rather than pleading guilty. After a seven-day trial in Chicago federal court, a jury convicted him in July 2023 on seven counts of wire fraud. At sentencing in January 2024, the court adopted a loss calculation of roughly $69.3 million before deductions, landing on a final loss figure of about $52.5 million for restitution purposes, and sentenced Courtright to 90 months — seven and a half years — in federal prison, followed by two years of supervised release. He appealed his conviction and sentence to the U.S. Court of Appeals for the Seventh Circuit, which affirmed the district court's rulings in 2025.
+
+The Income Store case is a reminder that a Ponzi scheme doesn't need to invent a wholly fictional business to work — it just needs a real-looking one whose numbers nobody outside the company can verify. TGC's websites were real, and some of them genuinely carried advertising; what made the whole structure fraudulent was the gap between what that advertising could plausibly earn and the guaranteed, perpetual payment Courtright was promising every new investor who signed a six-figure check.`,
+    sourceUrl: 'https://www.sec.gov/newsroom/press-releases/2020-10',
+  },
+);
+
+NotoriousAF.push({
+    title: 'Terry Freeman, the Reinvented Bankrupt Behind the £14 Million GFX Capital Forex Fraud',
+    slug: 'terry-freeman-gfx-capital-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'international'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Southwark_Crown_Court.jpg?width=1200',
+    coverImageCredit: 'Photo: Christopher Hilton, Wikimedia Commons (CC BY-SA 2.0) — Southwark Crown Court, where Terry Freeman was sentenced',
+    coverImagePosition: 50,
+    body: `Before there was Terry Freeman, there was Terrence Sparks. In 1997, under that name, a UK court convicted him on eight offences relating to bankruptcy and to acting as a company director while disqualified from doing so. He served his time, was released in 2000, and re-emerged with a new name and, before long, a new company: GFX Capital Ltd, a foreign-exchange investment firm built around a pitch that should have set off alarms on its own — "no risk and high returns on the foreign exchange markets."
+
+It didn't set off enough of them. Over the following years, roughly 700 investors put a combined £14 million (about $28.8 million) into GFX Capital, drawn in by the promise of steady, low-risk profits from currency trading. Little of that money was ever actually traded. Freeman spent it instead — on holiday homes in Cyprus and France, a Range Rover, an executive box at Tottenham Hotspur, and a £120,000 diamond ring for his bride — while running the classic Ponzi mechanics underneath: money from newer investors covering the returns owed to earlier ones, for as long as the inflow kept up with the outflow. The scheme unraveled in February 2009, when GFX Capital could no longer meet its obligations; Freeman reported himself to police just days before his arrest, and the City of London Police's Economic Crime Directorate took over the investigation.
+
+Freeman ultimately pleaded guilty at Southwark Crown Court to fraudulent trading, engaging in business while bankrupt, acting as a company director while bankrupt, and acting in contravention of the disqualification order from his 1997 case — the same underlying offence, essentially, that he had already been convicted of once before. He was sentenced on February 14, 2011, to eight years in prison. "Rub away the sheen and you find Freeman is the archetypal fraudster happy to steal money and ruin lives," said Detective Superintendent Bob Wishart of the City of London Police, who led the investigation, at the time of the plea. British newspapers covering the case dubbed him "the UK's Bernie Madoff" for the scale of the betrayal, though GFX Capital's losses were a small fraction of Madoff's.
+
+Freeman's case is a reminder that a disqualification order or a bankruptcy conviction doesn't stop someone from raising money from the public — it just means they have to do it under a different name. Nothing about "Terry Freeman" or GFX Capital's paperwork would have told a prospective investor that the man behind it had already been convicted once for exactly the kind of conduct — acting as a director while disqualified — that he was about to repeat on a much larger scale.`,
+    sourceUrl: 'https://patrickpretty.com/2011/01/12/british-con-man-pleads-guilty-in-14-million-ponzi-scheme-terry-freeman-archetypal-fraudster-happy-to-steal-money-and-ruin-lives-london-detective-says/',
+  },
+);
