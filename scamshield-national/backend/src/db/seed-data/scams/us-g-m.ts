@@ -7256,3 +7256,17 @@ UsGM.push({
     isHistorical: true,
     firstRecorded: '2025-07-08',
 });
+
+UsGM.push({
+    name: 'Morehead, Kentucky Pole Barn Construction Fraud (William T. Hurst)',
+    slug: 'kentucky-morehead-hurst-pole-barn-construction-fraud',
+    description: `William T. Hurst, 45, of Morehead, Kentucky, advertised that he built pole barns and other outbuildings, collected a cash down payment from each customer, and then simply pocketed the money without ever starting the work. Between February 22 and March 23, 2021, Hurst ran the same routine against eight separate property owners spread across three states, taking a combined $25,032 from residents of Ona and Lesage in Cabell County and Charleston in Kanawha County, West Virginia, plus Coolville and Willow Wood, Ohio, and South Shore, Kentucky, and separately collecting $10,186 in down payments from two more victims in Putnam and Jackson counties, West Virginia — a total of $35,218 taken from all eight victims combined. In each case Hurst cashed or deposited the customers' checks at area banks and used the money for himself, never purchasing materials or beginning construction on any of the promised pole barns. He pleaded guilty to wire fraud in the U.S. District Court for the Southern District of West Virginia and was sentenced to eight months in federal prison followed by three years of supervised release, along with an order to repay the full $35,218 to his victims. The case illustrates a pattern common to outbuilding and pole-barn contractors who solicit work across a multi-state area near a state line: because a customer often has no easy way to check a contractor's track record or licensing status in a neighboring state, it pays to ask for and verify local references, confirm any required contractor license or bond with the state agency where the work will actually be performed, and avoid paying a full or large deposit before materials are on-site and work has actually begun.`,
+    categorySlug: 'home-improvement-solar',
+    alertLevel: 'medium',
+    sources: ["U.S. Attorney's Office, Southern District of West Virginia", 'WOWK 13 News'],
+    sourceUrl: 'https://www.justice.gov/usao-sdwv/pr/kentucky-man-sentenced-prison-defrauding-homeowners-three-states',
+    country: 'US',
+    state: 'KY',
+    isHistorical: true,
+    firstRecorded: '2021-02-22',
+});

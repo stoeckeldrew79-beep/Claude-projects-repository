@@ -7184,3 +7184,17 @@ UsNS.push({
     country: 'US',
     state: 'NV',
 });
+
+UsNS.push({
+    name: "Williams Andrews Burns Timeshare Rental and \"Recovery\" Fraud (O'Hanlon and Stefanowski)",
+    slug: 'new-jersey-williams-andrews-burns-ohanlon-timeshare-fraud',
+    description: `Operating under the names Williams Andrews Burns LLC, Resort BnB, Inc., and Williams & Burns, Inc. — collectively "WAB" — William O'Hanlon, using the alias "Patrick Burns," ran a telemarketing operation that cold-called timeshare owners nationwide, disproportionately those over 55 and many who had already been victimized by an earlier scam, promising thousands of dollars a week in rental income from their timeshare, a "no risk" money-back guarantee, and a refund within 180 days if the promised rentals fell through; the company separately pitched a "recovery" service claiming it could retrieve money victims had already lost elsewhere. WAB withdrew upfront fees ranging from $594 to $2,899 directly from consumers' bank accounts — including $2,865 taken from one 94-year-old victim — and New Jersey's Division of Consumer Affairs said it could not identify a single consumer who ever actually received rental or resale income after paying. Following more than 100 complaints from consumers across the country, New Jersey's Attorney General won a default judgment against O'Hanlon and the WAB entities in Essex County Superior Court on May 26, 2022, ordering more than $10 million in penalties and restitution — including $9.32 million in civil penalties — and permanently barring the company from doing business in the state. O'Hanlon and his wife, Karen Stefanowski, who served as WAB's bookkeeper and controller, continued the same fraud under new corporate names after their 2023 arrest, leading to a 13-count federal indictment; O'Hanlon pleaded guilty on May 9, 2025 and Stefanowski on April 30, 2025 to conspiracy to commit wire fraud and wire fraud in federal court in Camden, New Jersey, admitting to fraudulent conduct running from 2016 through 2023, with each count carrying up to 30 years in prison, including a 10-year enhancement for targeting victims over 55. Timeshare owners contacted out of the blue with an offer to rent, buy, or "recover" money tied to a timeshare should independently verify the company's business registration and complaint history with their state attorney general before paying any fee, since a legitimate resale or rental service does not need payment up front before it actually produces a renter, a buyer, or a recovered dollar.`,
+    categorySlug: 'timeshare-scams',
+    alertLevel: 'high',
+    sources: ['New Jersey Office of the Attorney General', 'Internal Revenue Service Criminal Investigation', 'Social Security Administration Office of Inspector General'],
+    sourceUrl: 'https://www.njoag.gov/acting-attorney-general-platkin-company-and-its-owner-ordered-to-pay-over-10-million-for-defrauding-timeshare-owners/',
+    country: 'US',
+    state: 'NJ',
+    isHistorical: true,
+    firstRecorded: '2016-01-01',
+});
