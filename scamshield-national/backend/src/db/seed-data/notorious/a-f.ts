@@ -9147,3 +9147,21 @@ The Arandez case shows how easily a retirement nest egg can be redirected once s
     sourceUrl: 'https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-096mr-former-financial-services-director-ashley-arandez-sentenced-to-more-than-5-years-imprisonment/',
   },
 );
+
+NotoriousAF.push({
+    title: 'Mikheil Biniashvili and the Software That Ran 397 Fake Trading Platforms',
+    slug: 'mikheil-biniashvili-milton-group-pumats-scam-software',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'international'],
+    body: `Most people who lose money to a fake "investment platform" never learn the operation behind it was, in effect, a franchise. Mikheil Biniashvili, a dual Georgian-Israeli citizen, is one of the people who built the franchising system.
+
+Between January 2017 and May 2019, Biniashvili ran a call center based in Albania that, at its peak, employed as many as 600 people. Trained staff phoned people who had registered interest in online trading through ads and landing pages, worked to "build personal trust" over repeated calls, and talked them into depositing increasing sums into what were presented as live trading accounts. As the Bamberg Regional Court in Bavaria later put it, the money taken in "was never invested but simply pocketed" — an old-fashioned boiler-room operation dressed up as fintech. That call center alone is estimated to have taken around €8 million ($9.4 million) directly from victims, most of them German-speaking.
+
+What set Biniashvili apart from an ordinary boiler-room operator was PumaTS (Puma Trading System), customer-relationship-management software he created and sold on to other criminal groups running the same playbook under different brand names — reporting by the investigative outlet OCCRP, which had exposed the underlying network (known as Milton Group in Ukraine and under other names elsewhere) since 2020, found the software let operators elsewhere in the world replicate his fraud model without having to build the infrastructure themselves. German prosecutors estimated the additional damage traceable to PumaTS-enabled fraud, beyond Biniashvili's own call center, at a further €42 million (about $49 million).
+
+Following an eleven-day trial held under heightened security, Biniashvili pleaded guilty under a plea agreement to two counts of commercial and organized fraud. In February 2026, the Bamberg Regional Court sentenced him to seven years and six months in prison and ordered the confiscation of roughly €2.4 million ($2.8 million) in assets traced to the scheme. He apologized to victims as part of his plea.
+
+The case is a reminder that the people doing the most damage in online investment fraud aren't always the ones on the phone. Biniashvili's own call center defrauded victims out of a meaningful sum on its own — but the software he sold onward, letting other criminal groups stand up their own version of the same scam, did roughly six times as much damage as his direct operation, precisely because it was built to be resold rather than used once.`,
+    sourceUrl: 'https://www.occrp.org/en/news/german-court-jails-key-figure-in-massive-call-center-scam-operation-exposed-by-occrp',
+  },
+);
