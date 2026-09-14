@@ -7746,9 +7746,8 @@ If you were a Costco.com or warehouse member in Washington during the class peri
     author: "ScamShield Editorial",
     tags: ["guide", "fca-us-valve-train-warranty-settlement"],
     sourceUrl: "https://www.classaction.org/news/fca-warranty-settlement-ends-class-action-lawsuit-over-coverage-for-high-priced-auto-parts",
-    // representative photo — replace with an exact match if found
-    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Jeep_Wrangler_JK_-_001.jpg?width=1200",
-    coverImageCredit: "Photo: JamesHenry, CC BY 2.0, via Wikimedia Commons — a Jeep Wrangler JK, one of the engines covered by the suit",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Jeep_Wrangler_Unlimited_Sport_engine.jpg?width=1200",
+    coverImageCredit: "Photo: TTTNIS, CC0, via Wikimedia Commons — a Jeep Wrangler engine bay with the 3.6L Pentastar V6 named in the suit",
     coverImagePosition: 50,
     body: `FCA US LLC, the Stellantis subsidiary behind Jeep, Dodge, Ram, and Chrysler, agreed to settle Regueiro v. FCA US LLC (Case No. 2:22-cv-05521, U.S. District Court for the Central District of California), a class action alleging the automaker shortchanged owners on emissions-related warranty coverage for a specific engine. The case began with a single driver's Jeep Wrangler and its recurring check-engine light, and grew into a settlement that could extend warranty protection for a wide swath of FCA's 3.6-liter V6 lineup.
 
@@ -8704,6 +8703,10 @@ GuidesAF.push({
   author: 'ScamShield Editorial',
   tags: ['guide', 'blessing-loom-pyramid-scheme'],
   sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2021/06/ftc-state-arkansas-charge-operators-blessing-loom-running-illegal-pyramid-scheme',
+  coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Money_in_hands.jpg?width=1200',
+  coverImageCredit: 'Photo: 401(K) 2012, CC BY-SA 2.0, via Wikimedia Commons — cash changing hands, illustrating a money-gifting scheme',
+  coverImagePosition: 50,
+  // representative photo — replace with an exact match if found
   body: `A friend, a church acquaintance, or someone from a private Facebook or WhatsApp group invites you to join a "Blessing Loom" — sometimes called a Circle of Friends, Giving Circle, Infinity Loom, or Mandala Game. The pitch is warm and communal rather than obviously financial: you're not "investing," you're "gifting" money to a stranger to bring good fortune into your own life, and everyone in the group is there to lift each other up. To join, you send a payment — often by Venmo, Cash App, PayPal, or Zelle so it can't easily be reversed — directly to whoever occupies the center of an octagon- or flower-shaped chart, which claims your own outer spot on the same chart. From there, the pitch says, you simply recruit new members to fill the remaining spots beneath you, and as the chart fills in, you move inward, closer to the center, until it's finally your turn to collect gifts from everyone who joined below you.
 
 The numbers are what make it recognizable as a pyramid scheme rather than genuine generosity. The classic version asks for a $100 "gift" and promises $800 back once your position reaches the center — an 8-to-1 return that requires eight new people to join and pay in for every one person who cashes out. Because each of those eight recruits needs eight more beneath them to ever get paid themselves, the number of new members needed doubles at every level, and the pool of willing recruits within a friend group, a town, or even a whole social media platform runs out mathematically the same way it does in a chain letter or a classic Ponzi scheme, not sometime hypothetically down the road, but relatively quickly. Anyone who joins in a scheme's early rounds may actually receive a payout, and it's often those early winners who post excited testimonials that recruit the next wave — but the great majority of participants who join later inevitably lose their entire "gift" with nothing to show for it, a mathematical certainty regardless of how sincere or well-organized any individual loom's members are.
