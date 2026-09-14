@@ -7444,3 +7444,29 @@ UsGM.push({
     country: 'US',
     state: 'GA',
 });
+
+UsGM.push({
+    name: "Kansas Federal Jury Duty Failure-to-Appear Impersonation Scam",
+    slug: "kansas-federal-jury-duty-failure-to-appear-impersonation-scam",
+    description:
+      "Scammers contact Kansas residents claiming they missed federal jury duty and now face a fine or arrest warrant. The callers pose as officials connected to the federal court in the District of Kansas and pressure the person to resolve it immediately by paying or handing over personal details. The U.S. Attorney's Office for the District of Kansas issued a public awareness release warning residents about this pretext. Real federal courts do not call people to demand payment over the phone for a missed jury summons. If you get a call like this, hang up and contact the clerk of the U.S. District Court for the District of Kansas directly using a number you look up yourself.",
+    categorySlug: "government-impersonation",
+    alertLevel: "high",
+    sources: ["U.S. Attorney's Office, District of Kansas (USAO-KS), U.S. Department of Justice"],
+    sourceUrl: "https://www.justice.gov/usao-ks/pr/usao-ks-spreads-awareness-about-jury-duty-scams",
+    country: "US",
+    state: "KS",
+});
+
+UsGM.push({
+    name: "Kansas Unclaimed Life Insurance Policy Letter Scam",
+    slug: "kansas-unclaimed-life-insurance-policy-letter-scam",
+    description:
+      "Kansas residents have received letters in the mail claiming they are entitled to an unclaimed life insurance policy worth millions of dollars. The Kansas Department of Insurance issued a consumer alert stating the letter is a scam and not a legitimate insurance payout. Letters like this typically exist to collect personal information or fees from the recipient before any supposed money is released. Legitimate unclaimed property and life insurance benefits are never contingent on you sending money first. If you receive one of these letters, do not respond or send payment, and contact the Kansas Insurance Department's consumer assistance line to verify before taking any action.",
+    categorySlug: "insurance-fraud",
+    alertLevel: "medium",
+    sources: ["Kansas Department of Insurance, Consumer Alert (Commissioner Vicki Schmidt), March 31, 2023"],
+    sourceUrl: "https://insurance.kansas.gov/wp-content/uploads/2023/03/RELEASE-Consumer-Alert-Letter-offering-millions-in-unclaimed-life-insurance-policy-is-a-scam.pdf",
+    country: "US",
+    state: "KS",
+});
