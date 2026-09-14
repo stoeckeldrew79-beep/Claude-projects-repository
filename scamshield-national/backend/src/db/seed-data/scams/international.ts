@@ -18999,3 +18999,38 @@ International.push(
     firstRecorded: '2022-03-17',
   },
 );
+
+International.push(
+  {
+    name: 'Malta Spoofed Bank Caller and Fake Portal Fraud (Tammy Caruana Case)',
+    slug: 'malta-tammy-caruana-bank-impersonation-vishing-fraud',
+    description: `Starting in late September 2024, Bank of Valletta customers began reporting to Malta Police that they were receiving phone calls from someone posing as a bank employee — using names such as "Rachel" or "Sarah" — claiming a suspicious transaction had been flagged and asking whether they wanted to authorise it; a "no" answer triggered a follow-up SMS, arriving inside an authentic-looking thread with the bank's real messages, containing a link that either harvested the victim's online-banking login or walked them into approving what was in fact a fraudulent transfer. Investigators found the calls used number-spoofing so they displayed as the bank's own line, and uncovered evidence including Google searches for Bank of Valletta's website and discussion of building fake versions of its banking portal to harvest credentials. Police identified around 200 victims with combined losses approaching €1 million — individual victims testified to losses of €14,950 and €15,000, saying the calls were convincing enough that they "could not tell real bank calls from fraud" — and charged Tammy Caruana, a 25-year-old woman from St Paul's Bay, with fraud, money laundering, and membership of an organised crime group. Because banks never ask customers to click an SMS link to approve or cancel a transaction, and caller ID can be spoofed to show a bank's real number, anyone receiving such a call should hang up and call back only on the number printed on their card or statement.`,
+    categorySlug: 'phishing',
+    alertLevel: 'high',
+    sources: ['Newsbook.mt', 'MaltaToday'],
+    sourceUrl: 'https://newsbook.com.mt/en/victims-could-not-tell-real-bank-calls-from-fraud-as-e1m-scam-case-continues/',
+    country: 'MT',
+  },
+  {
+    name: 'Malta Fake MaltaPost Customs-Fee SMS Scam',
+    slug: 'malta-maltapost-customs-fee-sms-smishing-scam',
+    description: `Malta Police and MaltaPost have repeatedly warned of a recurring SMS phishing ("smishing") scam impersonating the national postal operator. In a wave flagged on December 4, 2022, texts claimed a parcel was awaiting delivery but required a small customs or handling fee to release it, with an embedded link leading to a fake MaltaPost site designed purely to harvest the victim's card details; police reported receiving an average of about 13 fresh complaints a day during that wave, with individual victims losing hundreds of euros apiece once their card numbers were used for unauthorised charges. MaltaPost's own scam-protection page separately warns of lookalike domains such as "malta-post.com" and "ma1tapost.com" (instead of the genuine maltapost.com) used in these and related campaigns, including a June 2024 wave that used fake Facebook profiles and a bogus "clearing our warehouses, selling lost parcels" pitch to push the same kind of malicious link. The pattern recurs seasonally, spiking around Christmas and other high-parcel-volume periods when an unexpected delivery notice feels routine. MaltaPost's advice: never enter payment or card details after clicking a link in an unsolicited delivery text, check that any communication uses the genuine maltapost.com domain over https, and verify a suspicious message by going directly to MaltaPost's own website or Facebook page rather than any link or number the message itself provides.`,
+    categorySlug: 'package-delivery-scams',
+    alertLevel: 'medium',
+    sources: ['Newsbook.mt', 'Malta Police Force', 'MaltaPost'],
+    sourceUrl: 'https://newsbook.com.mt/en/police-flag-return-of-maltapost-sms-scam/',
+    country: 'MT',
+  },
+  {
+    name: 'Malta Fake Identity Malta/Police eID Phone Scam',
+    slug: 'malta-identity-malta-police-eid-vishing-scam',
+    description: `Malta Police and the government's Identity Malta agency (which issues the national eID) issued two public warnings within two weeks of each other in August 2022 — August 4 and a renewed alert on August 18 — about vishing calls in which criminals, using spoofed local numbers and pre-recorded messages, impersonate Malta Police officers or Identity Malta staff and tell the recipient their eID account has been compromised, in some versions citing supposed activity "linked to money laundering" tied to the account, before directing them to press 1 and hand over their ID card number, postcode, credit card details, or eID login credentials to "secure" the account. Identity Malta confirmed the calls were fraudulent and said it never contacts account holders this way, while police described the pattern plainly as an attempt to "gain access to personal information and/or credit card details." Because neither the police nor Identity Malta will ever call to request a full ID number, card details, or eID login credentials over the phone — and a local-looking caller ID is no guarantee of who is actually calling — anyone receiving such a call should hang up without pressing any key or giving any information, and report the number to the Malta Police Cyber Crime Unit.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Newsbook.mt', 'Identity Malta', 'Malta Police Force'],
+    sourceUrl: 'https://newsbook.com.mt/en/scammers-targeting-public-claiming-to-be-police-identity-malta-officers/',
+    country: 'MT',
+    isHistorical: true,
+    firstRecorded: '2022-08-04',
+  },
+);
