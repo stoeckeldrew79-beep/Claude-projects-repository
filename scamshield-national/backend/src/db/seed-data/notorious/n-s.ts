@@ -6626,3 +6626,20 @@ Smith left the country after the offences and was arrested at Gatwick Airport on
 The multiple-man structure behind Smith's fraud is a recognizable feature of doorstep crime aimed at older homeowners living alone: a first visitor establishes a plausible, low-stakes reason to be there, and then a second or third person arrives once trust and money are already moving, each escalation framed as a newly discovered problem rather than a renegotiated price. Anyone approached at their door about home repairs, especially an elderly homeowner living without family nearby, should be wary of any arrangement where the scope and cost keep growing after work has supposedly already started, should never pay a large sum directly into a tradesperson's personal account without an independent second opinion, and should involve a trusted family member or neighbor before handing over cash to anyone who showed up unannounced.`,
     sourceUrl: 'https://www.cps.gov.uk/wessex/news/rogue-trader-jailed-fraud-scheme',
   });
+
+NotoriousNS.push({
+    title: 'Declan Nowell and the £9 Million Forex Scheme Behind "Investing4you"',
+    slug: 'declan-nowell-investing4you-forex-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'international'],
+    body: `Declan Joseph Nowell ran Investing4you Ltd out of Scunthorpe, North Lincolnshire, presenting himself to friends, neighbours, and their extended networks as a foreign-exchange trader skilled enough to turn ordinary savings into steady, growing returns. Word of mouth did most of the recruiting: investors were overwhelmingly drawn from Scunthorpe and North Lincolnshire, people who knew Nowell personally or knew someone who did, and who had no reason to doubt a local face rather than an anonymous website.
+
+Over a four-year period, according to a Crown Prosecution Service investigation, Investing4you took in £8,977,529.32 from hundreds of investors — but only £968,113 of that money was ever actually placed on a trading platform, and even that fraction lost roughly £300,000 rather than generating the profits Nowell was reporting. What investors saw instead were fabricated account statements showing consistent daily gains, the same reassuring paperwork at the heart of every Ponzi scheme: Nowell kept the operation looking solvent by repaying £7.3 million to investors out of money more recent investors had just deposited, rather than out of any genuine trading activity.
+
+The rest of the money funded Nowell's own life. Prosecutors traced £1,067,246.91 in direct personal spending and a further £70,697 transferred to his partner, on top of a house, luxury cars, jewellery, and designer clothing — the visible proof, to anyone watching from outside, that Investing4you was thriving even as it was quietly consuming the savings behind it.
+
+Nowell pleaded guilty to two counts of fraud and one count of operating an unauthorised, unregulated investment scheme. Hull Crown Court sentenced him on May 29, 2026, to eight years and one month in prison. Specialist Prosecutor Vivienne Hartley said Nowell "was operating a callous scam targeting the public," adding that "many people lost their hard earned money because of his greed."
+
+The Investing4you case is a reminder that a scheme built on personal, local trust can be just as hollow as an anonymous online one — a fake daily profit statement looks identical whether it comes from a stranger overseas or from someone who grew up down the road, and neither is evidence of a single real trade. Anyone offered a "guaranteed" return from FX trading, however well they know the person offering it, can check whether that person or firm is actually authorised to manage investments on the Financial Conduct Authority's public register before handing over a pension, a remortgage, or a life's savings — a two-minute check Nowell's hundreds of investors never had the chance to make before their money disappeared into repayments to the investors who'd come before them.`,
+    sourceUrl: 'https://www.cps.gov.uk/yorkshire-and-humberside/news/company-director-jailed-key-role-nearly-ps9-million-investment',
+  });
