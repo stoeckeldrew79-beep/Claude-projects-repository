@@ -19034,3 +19034,43 @@ International.push(
     firstRecorded: '2022-08-04',
   },
 );
+
+International.push(
+  {
+    name: 'AI-Deepfake Bank of Mauritius Governor Investment Endorsement Scam',
+    slug: 'mauritius-deepfake-governor-investment-scam',
+    description:
+      "A social-media investment scheme circulated an AI-manipulated image combining a fabricated photo of the real Governor of the Bank of Mauritius, Priscilla Muthoora Thakoor, with the photo of a business figure, using her office's real credibility to make a \"guaranteed high-return\" investment pitch look officially endorsed. The post also falsely invoked the names of actual commercial banks operating in Mauritius to reinforce the illusion of legitimacy. On August 28-29, 2026, the Bank of Mauritius issued a public scam alert stating the scheme \"has no connection with the central bank nor with the commercial banks operating on the territory,\" urged the public not to send any money, and told anyone already victimized to contact police immediately. This differs from the bank's earlier fake-bank-brand warnings, such as the 2019 \"National Mauritius Bank\" Bitcoin Era case, in that it uses an AI-generated deepfake image of a real, currently serving named official rather than an invented bank identity or generic celebrity likeness. Mauritians should verify any investment pitch invoking a named regulator or official directly with the Bank of Mauritius rather than trusting an image or endorsement seen on social media, however official it looks.",
+    categorySlug: 'ai-deepfake-scams',
+    alertLevel: 'high',
+    sources: ['Bank of Mauritius', "L'Express (Maurice)"],
+    sourceUrl: 'https://fr.allafrica.com/stories/202608310600.html',
+    country: 'MU',
+    firstRecorded: '2026-08-28',
+  },
+  {
+    name: 'Fake Absa Mobile Banking App Phishing Scam',
+    slug: 'mauritius-fake-absa-mobile-app-phishing',
+    description:
+      'Fraudulent Facebook pages and copycat websites promoted a "new Absa mobile banking application" that does not exist, encouraging Absa Bank (Mauritius) customers to click through and download an unauthorized app — a vector typically used to harvest login credentials, card details, or one-time passwords once installed. Absa Mauritius issued a public warning, reported September 1, 2026, stating it "has not launched a new mobile banking application through these platforms," and advised customers to download banking apps only from official app stores, never share passwords, PINs, or OTPs, verify any such promotion only through Absa\'s own official channels, and report suspicious pages to its contact centre. This is a distinct mechanism from the corpus\'s existing Mauritius entries, none of which involve a bank-branded fake-app impersonation, and is specific to Absa\'s Mauritius operation and current as of this scam wave. Customers should treat any unsolicited prompt to download a "new" banking app from a social media post or link, rather than an official app store listing verified against the bank\'s own website, as a warning sign.',
+    categorySlug: 'phishing',
+    alertLevel: 'high',
+    sources: ['Absa Bank (Mauritius) Limited', 'Platform Africa'],
+    sourceUrl: 'https://platformafrica.com/2026/09/01/absa-mauritius-warns-customers-about-fraudulent-mobile-app-scam/',
+    country: 'MU',
+    firstRecorded: '2026-09-01',
+  },
+  {
+    name: 'Hemraj Monohur Widow and Retiree Romance Fraud',
+    slug: 'mauritius-hemraj-monohur-widow-romance-fraud',
+    description:
+      'A 64-year-old man from Vacoas, Hemraj Monohur, is accused of running a romance-manipulation fraud for close to a decade: he cultivated close personal, and at times explicitly romantic, relationships with widows, women with ill spouses, and retirees in financial distress, then used that emotional trust to extract money from them under various financial pretexts. Arrested June 3-4, 2026 and provisionally charged with money laundering, which he contests, Monohur has himself claimed to have diverted roughly Rs 150 million over the scheme\'s lifetime; Mauritius\'s Financial Crimes Commission (FCC) traced about Rs 61 million through bank-record analysis and, as of mid-to-late June 2026, had identified around 35-40 victims, mostly widows and retired women, with roughly Rs 40 million in documented losses among the victims interviewed to that point, with the FCC saying the number of complaints kept growing. Two other men, his brother Hemkaran Monohur and an associate, Ramesh Hemraj, were arrested and provisionally charged with money laundering for allegedly providing bank accounts used to move the funds, and a further suspect, Rajan Sampat, was arrested June 30, 2026 over an additional Rs 21 million in suspicious transactions. This is a distinctly different pattern from anything else currently in the corpus for Mauritius, which otherwise covers company or Ponzi-style investment fraud and impersonation call centres: it is an individual, relationship-based confidence fraud sustained over years against an isolated, grief-vulnerable victim pool. Isolated widows, retirees, and people caring for an ill spouse should be especially wary of a new close personal or romantic relationship that leads to requests for money or access to bank accounts, and family members should check in on elderly relatives who become secretive about a new relationship and their finances.',
+    categorySlug: 'romance-scams',
+    alertLevel: 'high',
+    sources: ['Financial Crimes Commission (Mauritius)', 'Le Mauricien', "L'Express (Maurice)"],
+    sourceUrl:
+      'https://www.lemauricien.com/actualites/societe/enquete-de-la-fcc-manipulations-sentimentales-35-victimes-bernees-avec-un-butin-de-rs-40-millions/709774/',
+    country: 'MU',
+    firstRecorded: '2026-06-04',
+  },
+);
