@@ -19101,3 +19101,42 @@ International.push(
     firstRecorded: '2026-07-28',
   },
 );
+
+International.push(
+  {
+    name: 'Fake SAPS Officer Guesthouse Booking and Airtime Scam',
+    slug: 'south-africa-fake-police-officer-guesthouse-booking-airtime-scam',
+    description:
+      'Fraudsters digitally altered a photo and identity details of a real South African Police Service captain from the Tshwane District Office and used the fabricated profile to contact guesthouses and B&Bs, initially reported in Gauteng, claiming they needed to book accommodation for a group of officers on official police business, often requesting late or after-hours check-in. Once the booking was "confirmed," the impersonators called or messaged the guesthouse claiming they urgently needed airtime purchased "for operational purposes," promising reimbursement on arrival; the officers never showed up and the airtime cost was never repaid. Gauteng SAPS provincial spokesperson Captain Johan van Dyk warned that SAPS officials may never request airtime, vouchers, or any form of payment from businesses or individuals, and urged guesthouses to verify any such booking directly with their nearest police station rather than trusting emailed documents or photographs. Any business asked to front money or airtime for a supposed police booking, however official the paperwork looks, should treat the request itself as the fraud and call the police station directly to confirm before agreeing to anything.',
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['South African Police Service (SAPS)', 'IOL'],
+    sourceUrl: 'https://iol.co.za/news/crime-and-courts/2026-05-02-gauteng-saps-issues-warning-about-identity-fraud-targeting-businesses/',
+    country: 'ZA',
+    firstRecorded: '2026-05-02',
+  },
+  {
+    name: 'SARS AI-Generated Fake Tax Refund Phishing Scam',
+    slug: 'south-africa-sars-ai-fake-tax-refund-phishing-scam',
+    description:
+      'The South African Revenue Service warned taxpayers on July 30, 2026 of a fresh wave of SMS and email messages, sent from spoofed addresses resembling "returns@sars.co.za" or "refunds@sars.co.za," falsely claiming the recipient is owed a tax refund and directing them to a counterfeit eFiling-style page or claim form. SARS specifically flagged that scammers are now using artificial intelligence to generate polished, professional-looking, error-free email templates and page designs that are noticeably harder for ordinary taxpayers to distinguish from genuine SARS correspondence than earlier phishing attempts. Anyone who enters eFiling credentials or banking details on the fake page risks having their profile hijacked and any genuine refund redirected to the fraudsters. SARS reiterated it will never request passwords, one-time PINs, banking details, or eFiling login credentials by email, SMS, social media, or phone, and directed the public to report suspicious messages to phishing@sars.gov.za or the Fraud and Anti-Corruption Hotline rather than clicking any link in the message.',
+    categorySlug: 'tax-scams',
+    alertLevel: 'high',
+    sources: ['South African Revenue Service (SARS)', 'South African Government News Agency (SAnews)'],
+    sourceUrl: 'https://www.sanews.gov.za/south-africa/sars-warns-public-against-new-scam',
+    country: 'ZA',
+    firstRecorded: '2026-07-30',
+  },
+  {
+    name: 'Fake Traffic Fine (NaTIS) Payment Scam',
+    slug: 'south-africa-fake-traffic-fine-natis-payment-scam',
+    description:
+      "The South African Police Service issued a national warning about a surge in fraudulent traffic-fine notices delivered by email, SMS, and phone call, in which criminals impersonate NaTIS, municipal traffic departments, or other traffic authorities and claim the recipient has an outstanding fine. Victims are pressured with threats of legal action, escalating penalties, or vehicle impoundment if they don't pay \"immediately,\" and are steered to fake payment portals and websites built to harvest banking details and personal information; SAPS noted the fraudulent notices typically lack accurate personal or vehicle details and legitimate infringement reference numbers, relying on manufactured urgency to prevent victims from verifying the fine first. SAPS spokesperson Colonel Andrè Traut urged the public not to respond to unsolicited payment demands and to confirm any fine directly with NaTIS or the relevant traffic authority, using contact details they look up independently, before paying anything.",
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['South African Police Service (SAPS)', 'IOL'],
+    sourceUrl: 'https://iol.co.za/news/crime-and-courts/2026-07-28-saps-warns-public-over-fake-traffic-fine-fraud-targeting-motorists/',
+    country: 'ZA',
+    firstRecorded: '2026-07-28',
+  },
+);
