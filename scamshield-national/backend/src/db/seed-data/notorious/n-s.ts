@@ -6649,6 +6649,10 @@ NotoriousNS.push({
     slug: 'david-william-stirling-stirling-homex-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/United_States_Department_of_Housing_and_Urban_Development_(HUD)_(53840390494).jpg?width=1200',
+    coverImageCredit: 'Photo: ajay_suresh, CC BY 2.0, via Wikimedia Commons — HUD headquarters, the agency Stirling Homex falsely claimed as financing',
+    coverImagePosition: 40,
+    // representative photo — replace with a portrait if found
     body: `Stirling Homex Corporation was founded in 1968 by brothers David and William Stirling, who set up a factory in Avon, New York, a suburb of Rochester, to mass-produce modular housing units — fully finished rooms built on an assembly line and trucked to building sites, where they could be stacked and joined into apartment buildings far faster than conventional construction. The idea arrived at a moment when the federal government was actively subsidizing low-income housing, and Stirling Homex marketed itself as a factory-built solution to a national housing shortage, going public on February 20, 1970, at $16.50 a share. Investors were enthusiastic: the stock reached $51 a share within weeks.
 
 The company's actual sales never came close to matching what its financial statements reported. Stirling Homex counted a module's full value as revenue as soon as it was "assigned" to a contract, whether or not a paying customer had actually agreed to buy it, and the company represented many of these contracts as backed by financing from the U.S. Department of Housing and Urban Development when they were not. By the time the fraud came apart in mid-1972, the company had manufactured roughly 10,000 housing modules worth an estimated $35 million — but had genuinely sold and been paid for only about 900 of them, with the rest sitting unsold while the balance sheet recorded them as completed business.
