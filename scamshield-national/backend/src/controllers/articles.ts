@@ -2,6 +2,7 @@ import { AuthedRequest } from '../middleware/auth';
 import { pool } from '../db/connection';
 import { asyncHandler } from '../utils/asyncHandler';
 import { buildUpdateSet } from '../utils/buildUpdateSet';
+import { searchCommonsImages } from '../services/wikimediaCommons';
 
 const UPDATABLE_ARTICLE_FIELDS = [
   'title',
@@ -124,6 +125,50 @@ export const listDrafts = asyncHandler<AuthedRequest>(async (_req, res) => {
     `SELECT * FROM articles WHERE published = false AND 'ai-draft' = ANY(tags) ORDER BY created_at DESC LIMIT 50`
   );
   res.json({ data: rows });
+});
+
+// Admin-only backlog view: published articles with no cover photo yet.
+// The public list() endpoint caps at 200 and only ever shows the newest
+// articles, which made the old "paste a URL per article" admin panel
+// silently unable to reach most of the ~1,900 articles missing a photo
+// (the AI-drafting pipeline never attaches one). Paginated separately.
+export const missingCover = asyncHandler<AuthedRequest>(async (req, res) => {
+  const tag = req.query.tag as string | undefined;
+  const limit = Math.min(Number(req.query.limit) || 20, 50);
+  const offset = Number(req.query.offset) || 0;
+
+  const conditions = ['published = true', 'cover_image IS NULL'];
+  const values: unknown[] = [];
+  if (tag) {
+    values.push(tag);
+    conditions.push(`$${values.length} = ANY(tags)`);
+  }
+  const where = conditions.join(' AND ');
+
+  const [{ rows }, { rows: countRows }] = await Promise.all([
+    pool.query(
+      `SELECT * FROM articles WHERE ${where} ORDER BY published_at DESC LIMIT $${values.length + 1} OFFSET $${values.length + 2}`,
+      [...values, limit, offset]
+    ),
+    pool.query(`SELECT COUNT(*) FROM articles WHERE ${where}`, values),
+  ]);
+
+  res.json({ data: rows, total: Number(countRows[0].count) });
+});
+
+// Admin-only: candidate cover photos from Wikimedia Commons for a given
+// search term. Returns options for a human to review and pick from —
+// nothing here ever assigns a photo to an article by itself.
+export const coverSearch = asyncHandler<AuthedRequest>(async (req, res) => {
+  const q = (req.query.q as string | undefined)?.trim();
+  if (!q) return res.status(400).json({ error: 'q is required' });
+
+  try {
+    const candidates = await searchCommonsImages(q);
+    res.json({ data: candidates });
+  } catch (err) {
+    res.status(502).json({ error: err instanceof Error ? err.message : 'Commons search failed' });
+  }
 });
 
 export const remove = asyncHandler<AuthedRequest>(async (req, res) => {
