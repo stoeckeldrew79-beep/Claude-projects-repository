@@ -8437,3 +8437,27 @@ UsAF.push({
     isHistorical: true,
     firstRecorded: '2024-05-17',
 });
+
+UsAF.push({
+    name: 'Amazon Prime Settlement Refund Phishing Scam',
+    slug: 'amazon-prime-settlement-refund-phishing-scam',
+    description: `Beginning in late 2025 and continuing through 2026 as the FTC's $2.5 billion settlement with Amazon over deceptive Prime enrollment and cancellation practices works its way through payout — automatic PayPal, Venmo, and check payments in November-December 2025, followed by a claims process with a July 27, 2026 filing deadline and payments continuing into September 2026 — scammers have moved to exploit the real payout by sending emails and texts that copy the genuine settlement's case name, dollar amount (up to $51), and official-looking government language, then direct recipients to a fake PayPal sign-in page to "verify" or "release" the payment, harvesting login credentials and financial details instead of delivering anything. The FTC's own consumer alert on the settlement stresses that the agency itself never contacts people directly about the refund — all legitimate communication comes through Amazon's court-appointed settlement administrator — and that neither the FTC nor Amazon will ever ask for payment, a bank account number, or a "processing fee" to release money that's actually owed. Anyone who wants to check on a payment should open their own PayPal or Venmo app directly (never through a link in a text or email) and check Activity, or type SubscriptionMembershipSettlement.com into a browser rather than clicking a link, and should treat any request for banking information, a fee, or a "faster" refund offer through social media as certain fraud.`,
+    categorySlug: 'phishing',
+    alertLevel: 'medium',
+    sources: ['Federal Trade Commission (FTC)'],
+    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2026/01/questions-about-your-amazon-prime-settlement-refund-read',
+    country: 'US',
+    isHistorical: false,
+});
+
+UsAF.push({
+    name: 'False Fuel Tax Credit Claims Scam',
+    slug: 'false-fuel-tax-credit-claims-scam',
+    description: `Unscrupulous tax return preparers and social-media promoters — especially on TikTok — tell taxpayers they qualify for the federal Fuel Tax Credit and file Form 4136 on their behalf for a large fee, even though the credit is legally available only for off-highway business and farming fuel use and is not available to most ordinary taxpayers. The IRS has listed false Fuel Tax Credit claims on its "Dirty Dozen" list of tax scams every year since 2024, warning that the promoter collects the fee and disappears while the taxpayer is left owing the erroneous refund back, plus penalties, interest, and possible IRS audit or criminal referral. Anyone who did not personally operate off-road business or farm equipment using untaxed fuel should be suspicious of a preparer or online "expert" who claims they automatically qualify for this credit, and should verify eligibility directly at IRS.gov or with a licensed CPA/enrolled agent before signing a return that includes it.`,
+    categorySlug: 'tax-scams',
+    alertLevel: 'medium',
+    sources: ['Internal Revenue Service (IRS)'],
+    sourceUrl: 'https://irs.gov/newsroom/dirty-dozen-irs-warns-about-false-fuel-tax-credit-claims-taxpayers-should-be-wary-of-scammers-heightened-review',
+    country: 'US',
+    isHistorical: false,
+});
