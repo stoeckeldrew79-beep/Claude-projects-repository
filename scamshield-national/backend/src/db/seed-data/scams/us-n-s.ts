@@ -7332,3 +7332,15 @@ UsNS.push({
     sourceUrl: 'https://massretirees.com/2025/05/alert-beware-of-social-security-scams/',
     country: 'US',
 });
+
+UsNS.push({
+    name: "Parcel Owner Impersonation to Illegally Sell Real Property",
+    slug: "parcel-owner-impersonation-illegal-property-sale",
+    description:
+      "Fraudsters comb public assessor and recorder records for land that is easy to sell without anyone noticing, usually vacant lots with no mortgage owned by absentee, elderly or deceased people. Posing as the true owner, the criminal contacts a licensed real estate agent, lists the parcel below market value, and pushes for an all-cash buyer and a fast closing while supplying forged identity documents. All contact stays remote through email, text and out-of-jurisdiction or remote notarization so no one ever meets the \"seller\" in person, and at closing the proceeds are wired to an account the fraudster controls and moved on immediately. The buyer ends up with a defective title, the agent and title company absorb the loss, and the real owner often learns about it years later from a tax notice. Property owners should sign up for county recorder alerts and check their parcels periodically, and buyers, agents and title companies should insist on in-person identity verification and independently confirm seller contact details against public records before any funds are wired.",
+    categorySlug: "identity-theft",
+    alertLevel: "high",
+    sources: ["FBI Internet Crime Complaint Center (IC3) public service announcement, June 2026"],
+    sourceUrl: "https://www.ic3.gov/PSA/2026/PSA260616",
+    country: "US",
+});
