@@ -18925,3 +18925,41 @@ International.push(
     firstRecorded: '2024-02-27',
   },
 );
+
+International.push(
+  {
+    name: 'Ecuador SIM/Chip-Cloning Bank Account Takeover',
+    slug: 'ecuador-sim-chip-cloning-account-takeover',
+    description: `Beginning around July 2026, Ecuador's Fiscalía General del Estado began seeing a fast-growing wave of cases in Pichincha province it classifies as "fraudulent appropriation by electronic means" under COIP Article 190: a criminal walks into a mobile-carrier retail location, impersonates the victim, and requests a replacement SIM chip for a phone reported lost or damaged. El Comercio reported the case of a woman identified only as María José, whose phone abruptly lost signal with no explanation; minutes later she received four bank notifications showing her password had been changed and a transfer had gone out to an unknown account. Another victim, Esteban Ávila, had his email and debit card compromised the same way — signal cut, account drained — and in one case a criminal obtained a replacement chip in a victim's name, without her authorization, at a shopping-center carrier kiosk in Guayaquil. Once the criminal's device is receiving the line's calls and texts instead of the victim's, they can intercept the one-time codes banks use to reset passwords and approve transfers, and because the transfer technically completes the bank's own password-authentication process, the sending bank treats it as authorized rather than fraudulent. Anyone whose phone suddenly loses all signal for no reason should treat it as an emergency rather than a network glitch: contact the mobile carrier immediately to check for an unauthorized chip replacement, and contact the bank to freeze the account rather than waiting to see if service returns.`,
+    categorySlug: 'account-takeover',
+    alertLevel: 'high',
+    sources: ['El Comercio (Ecuador)', 'Fiscalía General del Estado (Ecuador)'],
+    sourceUrl: 'https://www.elcomercio.com/actualidad/bandas-clonacion-chips-robo-dinero/',
+    country: 'EC',
+    isHistorical: false,
+  },
+  {
+    name: 'Fake "Job in Finland" Trafficking-to-Cambodia Scam-Center Recruitment',
+    slug: 'ecuador-fake-job-abroad-trafficking-cambodia-scam-centers',
+    description: `On March 4, 2026, Ecuador's Policía Nacional and Fiscalía General del Estado raided three addresses in Quito and one in Carchi province, dismantling a network that recruited Ecuadorians through fraudulent job offers advertised on social media and via intermediaries — promising well-paid positions in European countries such as Finland, with travel and lodging arranged and paid by the recruiter. According to Primicias, victims who accepted were instead flown to Cambodia, where their passports were confiscated and their movement restricted; once there they were forced, under threat, to work inside clandestine "scam centers" as low-level operators running international computer-fraud schemes — including romance scams and fake cryptocurrency-investment pitches — against victims in other countries, and punished for missing fraud quotas. The operation detained six organizers (three Ecuadorian, three Chinese nationals), rescued three trafficking victims, and identified nine more Ecuadorians believed still held in Cambodian compounds; investigators seized forged employment contracts, victim lists, and payment/transfer records documenting the scheme. Anyone offered a high-paying job abroad where the recruiter arranges and pays for travel and visa paperwork up front should independently verify the employer through Ecuador's consular network or the Ministerio del Trabajo before accepting — by the time a victim realizes the job doesn't exist, they may already be confined overseas.`,
+    categorySlug: 'employment-scams',
+    alertLevel: 'high',
+    sources: ['Primicias (Ecuador)', 'Fiscalía General del Estado (Ecuador)'],
+    sourceUrl: 'https://www.primicias.ec/sucesos/red-trata-personas-ecuador-explotacion-laboral-camboya-estafas-informaticas-117362/',
+    country: 'EC',
+    isHistorical: true,
+    firstRecorded: '2026-03-04',
+  },
+  {
+    name: 'Ecuador Stolen-ID Fraudulent Digital Account and Loan Fraud',
+    slug: 'ecuador-fraudulent-digital-account-loan-fraud',
+    description: `On May 8, 2026, Ecuador's Policía Nacional, working with the Fiscalía General del Estado, arrested four people in Quito's Fajardo, San Isidro del Inca, and Las Cuadras sectors for manipulating a bank's online account-opening (telematic) system to create fraudulent digital accounts, apply for unauthorized credit lines and loans in real people's names, and transfer the disbursed funds to accounts the ring controlled — a scheme El Universo reported had caused losses exceeding $50,000. Unlike scams that trick a victim into acting, this pattern exploits the identity-verification gap in a bank's remote digital-onboarding process: armed with a victim's stolen personal data harvested from earlier data leaks or phishing, the ring opened accounts and credit products the real person never applied for, which often surfaced only when a bank notice or credit-bureau check turned up debt they never took on. Investigators identified the suspects through financial traceability and digital-forensics analysis rather than a single victim's complaint, which is itself telling: this kind of fraud can run for a while before anyone notices. Ecuadorian consumers should periodically check their credit report (buró de crédito) for accounts or loans they didn't open, and treat any unexpected notice about a new digital account or approved credit line as a reason to call the bank directly rather than assume it's an error.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'medium',
+    sources: ['El Universo', 'Policía Nacional del Ecuador'],
+    sourceUrl: 'https://www.eluniverso.com/noticias/seguridad/cuatro-detenidos-por-fraude-electronico-que-dejo-perdidas-superiores-a-50000-en-quito-nota/',
+    country: 'EC',
+    isHistorical: true,
+    firstRecorded: '2026-05-08',
+  },
+);
