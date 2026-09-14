@@ -7321,3 +7321,14 @@ UsNS.push({
     isHistorical: false,
     firstRecorded: '2025-12-01',
 });
+
+UsNS.push({
+    name: 'Social Security Fairness Act Retroactive Payment Phishing Scam',
+    slug: 'social-security-fairness-act-retroactive-payment-phishing-scam',
+    description: `After the Social Security Fairness Act repealed the Windfall Elimination Provision and Government Pension Offset in January 2025 — triggering new or increased benefits and a one-time retroactive lump-sum payment for roughly 3 million public-sector retirees, including teachers, police officers, firefighters, and federal employees under CSRS who were never previously covered by Social Security — scammers began sending emails and texts that impersonate the Social Security Administration, specifically reference the Fairness Act, WEP, or GPO by name to sound credible, and claim the agency needs the recipient to "update" their direct deposit information through an embedded link before the retroactive payment or new benefit can be released; the linked page is a lookalike site built to harvest banking and personal details, and some versions add a fee demand to "process" or "expedite" the payment. Mass Retirees, a public-employee retiree association, alerted its members to the scheme in May 2025, and the SSA and its Office of the Inspector General confirm the agency will never charge a fee to start, increase, or issue a retroactive Social Security payment, nor request personal or financial information by email or phone — anyone expecting a Fairness Act payment should ignore unsolicited messages about it and check payment status only by logging directly into a personal my Social Security account at ssa.gov.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'medium',
+    sources: ['Social Security Administration', 'Social Security Administration Office of the Inspector General', 'Massachusetts Retirees Association (Mass Retirees)'],
+    sourceUrl: 'https://massretirees.com/2025/05/alert-beware-of-social-security-scams/',
+    country: 'US',
+});

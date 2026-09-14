@@ -7432,3 +7432,15 @@ UsGM.push({
     sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2025/11/donate-charities-not-scammers-giving-tuesday',
     country: 'US',
 });
+
+UsGM.push({
+    name: 'Georgia Way2Go Child Support Card Account Takeover Scam',
+    slug: 'georgia-way2go-child-support-card-account-takeover',
+    description: `Georgia's Division of Child Support Services warns that fraudsters have been gaining unauthorized access to custodial parents' accounts on Way2Go, the prepaid debit card vendor the state uses to disburse child support payments — attackers add an unauthorized email address to the victim's account, cancel the existing card, and have a replacement card mailed to an address the victim doesn't control, or redirect future child support disbursements to a different bank account or reloadable card entirely, diverting the payments before the parent ever sees them. A parallel phishing angle asks recipients by email for their Social Security number, card number, or PIN. DCSS advises parents to enroll in direct deposit through a local child support office instead of relying on the mailed card, to change an address only through the official DCSS portal, mobile app, or phone line rather than any link in an email, to never share a card number, PIN, or SSN by email, and to call Way2Go directly to report fraud and freeze an account the moment something looks wrong.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'high',
+    sources: ['Georgia Department of Human Services, Division of Child Support Services'],
+    sourceUrl: 'https://childsupport.georgia.gov/my-case/financial-information/scams-and-alerts',
+    country: 'US',
+    state: 'GA',
+});
