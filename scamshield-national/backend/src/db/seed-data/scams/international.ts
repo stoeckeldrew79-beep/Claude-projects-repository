@@ -19074,3 +19074,30 @@ International.push(
     firstRecorded: '2026-06-04',
   },
 );
+
+International.push(
+  {
+    name: 'PNP Anti-Cybercrime Group "Quishing" QR Code Warning',
+    slug: 'philippines-pnp-quishing-qr-code-scam',
+    description:
+      'On July 22-23, 2026, the Philippine National Police Anti-Cybercrime Group (PNP-ACG) issued a public advisory warning against "quishing," QR-code phishing, after observing cybercriminals placing manipulated or overlaid QR-code stickers in public spaces, including over payment terminals, posters, and signage, that redirect anyone who scans them to fraudulent websites designed to harvest banking credentials and personal information. PNP-ACG chief Maj. Gen. Wilson Asueta specifically cautioned that "not everything posted in stores was placed by the authorized owner," urging the public to verify a QR code\'s source before scanning it and to stick to legitimate, authorized codes. The warning came even as the PNP reported an 18% drop in overall online scam cases in the first half of 2026, from 5,526 incidents in H1 2025 to 4,509 in H1 2026, which officials attributed to rising public awareness, suggesting quishing is an emerging tactic scammers are turning to as older schemes lose effectiveness. Anyone paying via a public QR code should check whether it looks like a sticker pasted over another code and confirm the recipient name shown on screen before completing any payment.',
+    categorySlug: 'qr-code-scams',
+    alertLevel: 'medium',
+    sources: ['Philippine National Police Anti-Cybercrime Group (PNP-ACG)', 'Daily Tribune (Philippines)'],
+    sourceUrl: 'https://tribune.net.ph/2026/07/22/pnp-cybercrime-warns-vs-quishing',
+    country: 'PH',
+    firstRecorded: '2026-07-22',
+  },
+  {
+    name: "Fake BSP Charity Solicitation Using Monetary Board Member's Name",
+    slug: 'philippines-bsp-diokno-fake-charity-solicitation-scam',
+    description:
+      'In late July 2026, the Bangko Sentral ng Pilipinas (BSP) issued a public advisory warning that fraudsters were impersonating the central bank and, specifically, invoking Monetary Board member Benjamin E. Diokno, a high-profile former Finance Secretary and BSP Governor, to solicit "donations" for supposed charitable causes. Victims receive emails or direct messages that falsely claim BSP or Diokno affiliation and include bank account details for wiring "contributions," exploiting Diokno\'s public name recognition to lend the appeal legitimacy. The BSP stated plainly that "the central bank and its officials neither solicit donations, sponsorships, or financial assistance from the public," and urged anyone contacted this way to verify authenticity via bspmail@bsp.gov.ph or the BSP hotline before responding or transferring any funds; the BSP\'s General Counsel separately noted that law enforcement has filed over 500 cases under the Anti-Financial Account Scamming Act (AFASA) tied to the broader wave of BSP-impersonation fraud this scheme belongs to. Anyone asked to donate to a cause on behalf of the central bank or a named official should treat the request itself as the warning sign and verify it only through the BSP\'s own published contact channels.',
+    categorySlug: 'charity-scams',
+    alertLevel: 'medium',
+    sources: ['Bangko Sentral ng Pilipinas (BSP)', 'Bicol Mail'],
+    sourceUrl: 'https://www.bicolmail.net/single-post/bsp-warns-vs-scams-using-ben-diokno-s-name',
+    country: 'PH',
+    firstRecorded: '2026-07-28',
+  },
+);
