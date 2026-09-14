@@ -18963,3 +18963,39 @@ International.push(
     firstRecorded: '2026-05-08',
   },
 );
+
+International.push(
+  {
+    name: 'Bahrain BenefitPay OTP Account-Takeover Fraud',
+    slug: 'bahrain-benefitpay-otp-account-takeover-fraud',
+    description: `The Central Bank of Bahrain issued an official public warning on January 28, 2021 after fraudsters began sending SMS messages that spoofed "BenefitPay" — Bahrain's national e-wallet, run by the Benefit company — using near-identical, deliberately misspelled sender names ("BenifitPay") and links to look-alike sites asking recipients to "update their CPR information." The pattern escalated from mass phishing texts into direct, targeted fraud: callers posing as bank representatives phoned victims, persuaded them to read out one-time verification codes and their BenefitPay numbers under the pretext of "updating" their banking details, and used those codes to seize control of victims' accounts and transfer money out. On January 16, 2025, Bahrain's High Criminal Court sentenced 12 individuals over one such scheme, with prosecutors detailing how a ministry employee lost at least BD468 after a caller who "sounded professional, like a bank employee" talked her into disclosing her verification code. BenefitPay, like every bank, never phones or texts asking a customer to read out a one-time password or verification code — a request for one, however official the caller sounds, should be treated as proof of fraud in progress, and the call should be ended immediately without providing any code.`,
+    categorySlug: 'account-takeover',
+    alertLevel: 'high',
+    sources: ['The Daily Tribune (Bahrain)', 'Central Bank of Bahrain (CBB)'],
+    sourceUrl: 'https://www.newsofbahrain.com/bahrain/107387.html',
+    country: 'BH',
+  },
+  {
+    name: 'Bahrain Fake Traffic Fine SMS Card-Skimming Scam',
+    slug: 'bahrain-fake-traffic-fine-card-skimming-scam',
+    description: `In late February 2025, Bahrain's Daily Tribune documented a smishing scheme in which fraudsters sent SMS messages mimicking Bahrain's Traffic Department, telling recipients they owed a small unpaid fine and linking to a counterfeit payment page that closely copied the look of the genuine government portal. One expatriate resident, believing the message, entered her card number, CPR number and full name to pay what the fake site displayed as a BD20 fine; shortly afterward, unauthorized transactions in Australian dollars — AUD 4,000, AUD 2,000 and AUD 1,000 — were attempted against her card. Cybersecurity expert Ali Beshara, quoted in the report, explained the tactic as card-testing: a small, plausible-looking first charge is all scammers need to confirm a stolen card works before running much larger fraudulent transactions against it. Anyone receiving an SMS about a traffic fine or similar government fee should never follow the link in the text — instead go directly to Bahrain's official government portal or the relevant agency's verified number — and should watch bank statements closely for small, unfamiliar "test" charges that can signal a card has already been compromised.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['The Daily Tribune (Bahrain)'],
+    sourceUrl: 'https://www.newsofbahrain.com/bahrain/109281.html',
+    country: 'BH',
+    isHistorical: true,
+    firstRecorded: '2025-02-01',
+  },
+  {
+    name: 'Bahrain Fake Police "Internet Surfing Fine" Email Scam',
+    slug: 'bahrain-fake-police-internet-fine-email-scam',
+    description: `On March 17, 2022, Bahrain's Anti-Cyber Crimes Directorate — part of the Ministry of Interior's General Directorate of Anti-Corruption and Economic and Electronic Security — warned the public about fake websites and emails carrying the Bahrain Police Media Centre's own logo, which appeared via malicious pop-up links while people browsed the internet. The messages falsely claimed the recipient's browser had been flagged for visiting prohibited content and that they now owed a BD190 fine "as prescribed by Decree No: 179-374 of 2022" — a decree that does not exist — demanding payment by credit card within 12 hours under threat of arrest and jail. Victims who came forward, including at least one who said he had never visited any illicit site, described the messages as convincing enough to cause real panic before reporting them to the Directorate. Bahrain Police do not issue fines by mass email or browser pop-up, do not demand instant credit-card payment under threat of imminent arrest, and any message doing so — however authentic the logo looks — should be reported to the Cybercrime Unit rather than acted on.`,
+    categorySlug: 'government-impersonation',
+    sources: ['The Daily Tribune (Bahrain)', 'Bahrain Ministry of Interior — Anti-Cyber Crimes Directorate'],
+    sourceUrl: 'https://www.newsofbahrain.com/bahrain/79607.html',
+    country: 'BH',
+    isHistorical: true,
+    firstRecorded: '2022-03-17',
+  },
+);
