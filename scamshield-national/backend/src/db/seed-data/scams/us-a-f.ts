@@ -8372,3 +8372,16 @@ UsAF.push({
     isHistorical: true,
     firstRecorded: '2024-05-01',
 });
+
+UsAF.push({
+    name: '"DOGE Dividend" $5,000 Check Text Scam',
+    slug: 'doge-dividend-stimulus-check-text-scam',
+    description: `Starting in February 2025, text messages and social media posts began circulating nationwide claiming the recipient was eligible for a "$5,000 federal government subsidy" funded by savings from the Department of Government Efficiency (DOGE), the federal cost-cutting initiative. The message typically instructs the recipient to reply "Y," close and reopen the text, then tap a link — sometimes directed to open in Safari — which leads to a page harvesting bank account details, Social Security numbers, or other personal information in exchange for a promised direct deposit or mailed check within one to two business days. The scam exploited genuine public statements floating the idea of a "DOGE dividend" rebate, and multiple local law enforcement agencies — including the Crawford County, Kansas Sheriff's Office, the Kemper County, Mississippi Sheriff's Office, and the Sweetwater County, Wyoming Sheriff's Office — issued public warnings between February and May 2025 after fielding resident reports. No legislation or executive order has ever authorized a DOGE dividend, refund, or stimulus payment of any kind, and no federal agency sends payment notifications by text message; recipients should delete the message without clicking any link, never reply "Y" or provide personal information, and report the text to the FTC at ReportFraud.ftc.gov.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ["Sweetwater County, Wyoming Sheriff's Office", "Crawford County, Kansas Sheriff's Office", 'Better Business Bureau'],
+    sourceUrl: 'https://www.basinnow.com/scam-warning-ignore-fake-claims-of-doge-stimulus-check/',
+    country: 'US',
+    isHistorical: true,
+    firstRecorded: '2025-02-24',
+});
