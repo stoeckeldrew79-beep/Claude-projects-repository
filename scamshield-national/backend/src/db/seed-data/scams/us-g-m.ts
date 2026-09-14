@@ -7444,3 +7444,15 @@ UsGM.push({
     country: 'US',
     state: 'GA',
 });
+
+UsGM.push({
+    name: 'Humboldt Merchant Services Credit Card Laundering for Sham Merchants',
+    slug: 'humboldt-merchant-services-credit-card-laundering-sham-merchants',
+    description: `In September 2026 the FTC announced a $12 million settlement with payment processor Humboldt Merchant Services after finding it knowingly opened merchant accounts for more than 1,000 shell companies that served as fronts for undisclosed third parties running unauthorized-billing scams — including Legion Media, an operation the FTC shut down in 2024 — routing roughly $100 million in transactions between 2021 and 2023 while ignoring chargeback rates nearly ten times industry norms and placing the accounts on lower-scrutiny bank identification numbers to dodge detection. This "credit card laundering," or "transaction laundering," matters to consumers because it disguises the true source of an unauthorized charge on a credit card statement behind an unfamiliar shell-company name, making the charge harder to recognize and dispute. Consumers should review statements for unrecognized merchant names promptly, dispute any unauthorized charge with their card issuer within the dispute window, and treat repeat unfamiliar recurring charges as a signal to request a full transaction history from their bank.`,
+    categorySlug: 'subscription-traps',
+    alertLevel: 'medium',
+    sources: ['Federal Trade Commission'],
+    sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2026/09/ftc-takes-action-against-payment-processor-humboldt-merchant-services-knowingly-facilitating-payment',
+    country: 'US',
+    isHistorical: false,
+});

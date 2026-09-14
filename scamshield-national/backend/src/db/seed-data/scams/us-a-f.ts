@@ -8461,3 +8461,16 @@ UsAF.push({
     country: 'US',
     isHistorical: false,
 });
+
+UsAF.push({
+    name: 'FBI Anchorage Warns of Sextortion Surge Targeting Alaska Boys',
+    slug: 'alaska-fbi-anchorage-sextortion-hoax-threat-surge-2026',
+    description: `As Alaska students returned to school in August 2026, the FBI's Anchorage Field Office warned of a sharp rise in financial sextortion targeting minors, with Special Agent in Charge Matthew Schlegel noting that — unlike the national pattern, where girls are more commonly targeted — young males ages 10 to 17 are the primary victims in Alaska. Perpetrators "catfish" teens on social media and gaming platforms, quickly posing as an attractive peer to build trust, extract explicit images or video, then demand payment by gift card or digital transfer while threatening to send the material to the victim's family, friends, or school. The FBI pointed to two recent Alaska-linked cases underscoring the danger: Vince Deliguin, an 18-year-old from Kodiak, was sentenced to 18 years in prison in August 2022 for running the scheme under the fake persona "Marley Madden," and Zobaidul Amin, a Bangladeshi national, was arrested in March 2026 for allegedly operating an international sextortion ring using more than 80 social media accounts to target hundreds of minors. The same alert flagged a surge in false "hoax" bomb and shooting threats at the start of the school year — including an August 21, 2026 evacuation at Anchorage's Dimond High School that turned up no credible threat — and Schlegel stressed that hoax threats are still federal crimes that drain investigative resources needed for real emergencies. Parents are advised to watch for unusual gift-card purchases or repeated requests for money as a possible sign of sextortion, to tell victimized teens they will not be in trouble and should never pay, and to report sextortion or threat information immediately to the FBI Anchorage Field Office or tips.fbi.gov rather than letting a teen try to handle it alone.`,
+    categorySlug: 'sextortion',
+    alertLevel: 'critical',
+    sources: ['FBI Anchorage Field Office', "Alaska's News Source"],
+    sourceUrl: 'https://www.alaskasnewssource.com/2026/08/27/fbi-warns-sextortion-hoax-threat-surge-alaska-students-return-school/',
+    country: 'US',
+    state: 'AK',
+    isHistorical: false,
+});

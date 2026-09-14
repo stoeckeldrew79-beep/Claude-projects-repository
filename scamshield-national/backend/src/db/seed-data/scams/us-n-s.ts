@@ -7332,3 +7332,15 @@ UsNS.push({
     sourceUrl: 'https://massretirees.com/2025/05/alert-beware-of-social-security-scams/',
     country: 'US',
 });
+
+UsNS.push({
+    name: 'Spaventa Pre-IPO Fund Hidden-Fee Boiler Room Scheme',
+    slug: 'spaventa-pre-ipo-hidden-fee-boiler-room-scheme',
+    description: `In August 2026 the SEC charged New York-based Andrew Spaventa and three entities he controlled (The Spaventa Group, TSG Capital Advisors, TSG Alpha Partners) with defrauding more than 800 mostly-retail investors — many of them retirees — out of over $74 million between December 2020 and June 2025 by selling access to eleven private funds that held real pre-IPO shares in sought-after private companies, but through more than 100 cold-calling "sales agents" using high-pressure tactics who falsely promised zero or low upfront fees while actually charging prices averaging 46% above what Spaventa himself paid for the shares, pocketing roughly $23 million in undisclosed markups. Unlike a classic fake-fund scam, the underlying shares were real — the fraud was in disguising a large hidden markup as a "no fee" or "low fee" structure. Anyone offered an unsolicited call offering pre-IPO access to a hot private company should treat it as a red flag, insist on a written, itemized fee disclosure before wiring any money, and verify the fund and its principals on SEC EDGAR and BrokerCheck before investing.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'high',
+    sources: ['U.S. Securities and Exchange Commission'],
+    sourceUrl: 'https://www.sec.gov/newsroom/press-releases/2026-75-sec-charges-boiler-room-operator-three-entities-defrauding-retail-investors-74-million-pre-ipo',
+    country: 'US',
+    isHistorical: false,
+});
