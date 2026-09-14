@@ -3107,10 +3107,9 @@ Sotheby's is offering affected individuals twelve months of complimentary identi
     author: `ScamShield Editorial`,
     tags: [`guide`, `nucor-2025-data-breach`],
     sourceUrl: `https://www.securityweek.com/production-at-steelmaker-nucor-disrupted-by-cyberattack/`,
-    coverImage: `https://commons.wikimedia.org/wiki/Special:FilePath/Skyline_of_Charlotte,_North_Carolina_(2008).jpg?width=1200`,
-    coverImageCredit: `Photo: Daritto7117, Public Domain, via Wikimedia Commons — Charlotte, North Carolina, where Nucor is headquartered`,
+    coverImage: `https://commons.wikimedia.org/wiki/Special:FilePath/Nucor_Steel_Seattle_from_the_east_02.jpg?width=1200`,
+    coverImageCredit: `Photo: Joe Mabel, CC BY-SA 4.0, via Wikimedia Commons — a Nucor Steel plant in Seattle, Washington`,
     coverImagePosition: 50,
-    // representative photo — replace with an exact match if found
     body: `Nucor Corporation, headquartered in Charlotte, North Carolina, is the largest steel producer in North America, running dozens of mills and employing roughly 30,000 people across the United States, Canada, and Mexico. On or around May 13, 2025, Nucor discovered unauthorized third-party access to its information technology systems and, the next day, filed a Form 8-K with the SEC disclosing the incident — a rare case of a cyberattack visibly reaching past corporate IT and into physical operations, since Nucor said it had proactively taken affected systems offline and temporarily halted production at multiple facilities as a precaution while it contained the intrusion. Industry outlet SecurityWeek reported the incident bore the hallmarks of a ransomware attack.
 
 More than a month later, on June 20, 2025, Nucor filed a follow-up disclosure (an 8-K/A) confirming what its investigation had found: an unauthorized party had accessed the company's systems between May 3 and May 13, 2025, and exfiltrated a limited amount of data before Nucor cut off its access. Nucor said the incident had not had, and was not reasonably likely to have, a material impact on its business operations — but "not material to the company" and "not a real problem for the people whose data was taken" are two different things. Notification letters sent to affected individuals around the same time specified what had actually been exposed: Social Security numbers, driver's license numbers, dates of birth, medical information, and financial account information, according to court filings in the class-action litigation that followed — close to a complete identity-fraud toolkit, regardless of whether the recipient was a current employee, a former one, or someone in an adjacent file.
@@ -3826,9 +3825,8 @@ If you were a Catholic Health patient and received a notice about this breach, d
     slug: "oreilly-automotive-tcpa-settlement-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "oreilly-automotive-tcpa-settlement"],
-    // representative photo — replace with an exact match if found
-    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Springfield_skyline.jpg?width=1200",
-    coverImageCredit: "Photo: BreathDriver / Wikimedia Commons / CC BY-SA 4.0 — Springfield, Missouri, where O'Reilly Automotive is headquartered",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/O%27Reilly_Auto_Parts_store_in_Eugene,_Oregon_(52025345344).jpg?width=1200",
+    coverImageCredit: "Photo: Rick Obst, CC BY 2.0, via Wikimedia Commons — an O'Reilly Auto Parts store in Eugene, Oregon",
     coverImagePosition: 50,
     sourceUrl: "https://www.classaction.org/news/18.8m+-oreilly-automotive-settlement-ends-lawsuit-over-alleged-spam-texts",
     body: `O'Reilly Automotive, the national auto-parts retailer behind thousands of O'Reilly Auto Parts stores, has agreed to pay $18,842,577 to settle a class-action lawsuit accusing it of violating the Telephone Consumer Protection Act by sending telemarketing text messages to phone numbers that were registered on the National Do-Not-Call Registry. The case, Bryan v. O'Reilly Automotive, Inc., was filed in Illinois state court in April 2025 and reached preliminary settlement approval on June 29, 2026. O'Reilly has not admitted wrongdoing and says it agreed to settle to avoid protracted litigation.

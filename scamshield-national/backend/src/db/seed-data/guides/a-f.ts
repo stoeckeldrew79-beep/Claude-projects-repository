@@ -7864,9 +7864,8 @@ If you've returned a physical item to Amazon since September 2017 and suspect yo
     slug: "costa-del-mar-repair-fees-settlement-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "costa-del-mar-repair-fees-settlement"],
-    // representative photo — replace with an exact match if found
-    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Sunglasses%26Pen.jpeg?width=1200",
-    coverImageCredit: "Photo: Filip Maljkovic, Public Domain, via Wikimedia Commons — sunglasses, the product at the center of the repair-fee lawsuit",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Costa-del-mar-caldera-sunglasses.jpg?width=1200",
+    coverImageCredit: "Photo: Costa Del Mar, CC BY-SA 4.0, via Wikimedia Commons — Costa Del Mar Caldera sunglasses, the brand at issue",
     coverImagePosition: 50,
     sourceUrl: "https://www.classaction.org/news/23.9m-costa-del-mar-settlement-wraps-up-lawsuit-over-sunglasses-repair-fees",
     body: `Costa Del Mar has long marketed a simple promise to sunglasses owners: if your Costas ever get scratched, cracked, or broken, the company will repair or replace them for a "nominal fee." A class action, Reed, IV v. Costa Del Mar, Inc. (Case No. 6:19-cv-1751-RBD-LHP, U.S. District Court for the Middle District of Florida, Orlando Division, filed April 3, 2019), alleged that promise didn't match reality — that Costa routinely charged customers far more than a nominal amount to fix damaged frames or lenses, in violation of Florida's Deceptive and Unfair Trade Practices Act. Costa has not admitted wrongdoing but agreed to a $23.9 million settlement rather than continue litigating a case that had already run more than six years, and the court granted preliminary approval on July 31, 2026.
@@ -8724,6 +8723,10 @@ GuidesAF.push({
   author: 'ScamShield Editorial',
   tags: ['guide', 'fake-invoice-scam'],
   sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2026/05/run-small-business-pay-your-bills-not-scammers',
+  coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Tuttle_and_Robie_Hardware_business_invoice,_Oakesdale,_Washington,_1889_-_DPLA_-_395e424187f3cbc9f050376b4c8c718b.jpg?width=1200',
+  coverImageCredit: 'Photo: DPLA / Washington State Library, Public Domain, via Wikimedia Commons — an 1889 business invoice',
+  coverImagePosition: 50,
+  // representative photo — a historic 1889 hardware-store invoice, not a modern fake invoice; replace with an exact match if found
   body: `An invoice lands in a small business's inbox or mailbox for tech support, domain-name registration, search engine optimization, office supplies, a directory listing, or some other vague-sounding service — addressed generically to "Accounts Payable" or "Customer," or occasionally to a real employee whose name and title the scammer found on the company's own website or LinkedIn. Nobody at the company remembers ordering anything, because nobody did. The invoice looks routine enough, often dressed up with a real-sounding vendor name, a professional logo, and a total small enough — a few hundred dollars — that it can slide through without triggering the scrutiny a five-figure bill would get. That's the entire scheme: send it, and see who pays without checking.
 
 It works because most businesses, especially small ones without a dedicated purchasing department, run accounts payable on trust and volume rather than line-by-line verification — a bookkeeper or office manager processing a stack of routine bills has no independent way to know, at a glance, which of a dozen small invoices from unfamiliar vendors is legitimate and which was manufactured specifically to look like all the others. Scammers send these out by the thousands with essentially no marginal cost per invoice, so even a small fraction of recipients paying without questioning it makes the scheme profitable, in the same way a spray-and-pray phishing email only needs a tiny response rate to succeed. The FTC has also flagged a more dangerous variant: some of these emails aren't after payment at all, but are phishing attempts designed to get an employee to click a link or open an attachment that compromises the company's network — meaning a fake invoice can be the opening move in a much larger data breach rather than an isolated billing nuisance.
@@ -8739,6 +8742,10 @@ GuidesAF.push({
   author: 'ScamShield Editorial',
   tags: ['guide', 'income-share-agreement-scam'],
   sourceUrl: 'https://www.consumerfinance.gov/archive/newsroom/cfpb-takes-action-against-coding-boot-camp-bloomtech-and-ceo-austen-allred-for-deceiving-students-and-hiding-loan-costs/',
+  coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/RustCodeOnScreen.jpg?width=1200',
+  coverImageCredit: 'Photo: Slashme, CC0, via Wikimedia Commons — programming code displayed on a laptop screen',
+  coverImagePosition: 50,
+  // representative photo — generic code on a laptop screen, not BloomTech's own platform; replace with an exact match if found
   body: `A career-changer with no tech background finds an online coding bootcamp advertising sky-high job-placement rates and a tuition model that sounds too good to pass up: pay nothing up front, and only pay later, as a percentage of income, once you land a qualifying job. It's marketed as an "income share agreement," or ISA, and the pitch leans hard on one specific phrase — this isn't a loan, it's a shared bet on your future success, so if you never get hired, you owe nothing. That framing is exactly what the Consumer Financial Protection Bureau found illegal when it took action against the coding bootcamp BloomTech and its CEO, Austen Allred, alleging the company hid the true cost and risk of its ISAs behind marketing that flatly denied they were loans at all.
 
 According to the CFPB, BloomTech's ISAs required successful graduates to pay 17 percent of their pretax monthly income for up to 24 payments, or until they'd paid a $30,000 cap — terms the CFPB found carried real finance charges of about $4,000 on average, the kind of cost and annual percentage rate that federal law requires a lender to disclose clearly before a borrower signs, disclosures BloomTech skipped by insisting the product wasn't a loan in the first place. The company's advertised outcomes didn't hold up either: BloomTech told prospective students its job-placement rate ran 71 to 86 percent, while the CFPB says the company's own internal reports put the real figure closer to 50 percent, and as low as 30 percent for some cohorts. In one especially bald example, Allred tweeted that a cohort had a 100 percent placement rate — a claim the CFPB's order says was based on a single graduate.
