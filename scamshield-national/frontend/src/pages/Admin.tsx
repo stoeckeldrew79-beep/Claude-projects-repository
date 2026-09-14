@@ -1,6 +1,13 @@
 import { FormEvent, useState } from 'react';
-import { useMutation, useQueryClient } from '@tanstack/react-query';
-import { createArticle, createScam, updateArticleCoverImage } from '../services/admin';
+import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query';
+import {
+  CommonsCandidate,
+  createArticle,
+  createScam,
+  fetchArticlesMissingCover,
+  searchCoverPhotoCandidates,
+  updateArticleCoverImage,
+} from '../services/admin';
 import { useDocumentMeta } from '../hooks/useDocumentMeta';
 import { useAllArticleSummaries } from '../hooks/useArticles';
 import { AlertLevel } from '../types';
@@ -186,6 +193,218 @@ function ArticleForm() {
       {mutation.isSuccess && <p className="text-sm text-green-700">Published.</p>}
       {mutation.isError && <p className="text-sm text-red-700">Couldn't publish — check you're signed in as an admin.</p>}
     </form>
+  );
+}
+
+// Strips a title down to a decent default Wikimedia Commons search term:
+// drop everything after a colon (usually the "how it works" subtitle)
+// and the generic scam-vocabulary words that Commons photos are never
+// tagged with. Admin can freely edit before searching either way.
+function defaultCoverSearchQuery(title: string): string {
+  return title
+    .split(':')[0]
+    .replace(/\b(scams?|frauds?|schemes?|guide)\b/gi, '')
+    .replace(/["""]/g, '')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+// One row in the cover-photo backlog: search Wikimedia Commons for
+// candidates, click one to fill the URL/credit fields, then Save like
+// the manual tool below. Search only ever returns options — nothing is
+// assigned to the article until an admin clicks Save.
+function CoverPhotoBacklogRow({ article, onSaved }: { article: Article; onSaved: () => void }) {
+  const [url, setUrl] = useState('');
+  const [credit, setCredit] = useState('');
+  const [source, setSource] = useState('');
+  const [position, setPosition] = useState(50);
+  const [query, setQuery] = useState(() => defaultCoverSearchQuery(article.title));
+  const [candidates, setCandidates] = useState<CommonsCandidate[] | null>(null);
+  const [searching, setSearching] = useState(false);
+  const [searchError, setSearchError] = useState<string | null>(null);
+
+  const mutation = useMutation({
+    mutationFn: () => updateArticleCoverImage(article.id, url, credit, source, position),
+    onSuccess: onSaved,
+  });
+
+  async function handleSearch() {
+    setSearching(true);
+    setSearchError(null);
+    try {
+      setCandidates(await searchCoverPhotoCandidates(query));
+    } catch (err) {
+      setSearchError(err instanceof Error ? err.message : 'Search failed — try again in a moment.');
+    } finally {
+      setSearching(false);
+    }
+  }
+
+  function pickCandidate(c: CommonsCandidate) {
+    setUrl(c.fullUrl);
+    setCredit(c.licenseShortName?.toLowerCase().includes('public domain') ? '' : c.artist ?? '');
+    setSource(c.commonsPageUrl);
+  }
+
+  return (
+    <div className="rounded-md border border-slate-200 p-3">
+      <div className="flex items-start gap-3">
+        <div className="h-14 w-20 shrink-0 overflow-hidden rounded border border-slate-200">
+          {url ? (
+            <img
+              src={url}
+              alt=""
+              className="h-full w-full object-cover"
+              style={{ objectPosition: `50% ${position}%` }}
+            />
+          ) : (
+            <NotoriousCoverArt slug={article.slug} className="h-full" />
+          )}
+        </div>
+        <div className="min-w-0 flex-1">
+          <p className="truncate text-sm font-medium text-slate-800">{article.title}</p>
+          <div className="mt-1.5 flex gap-2">
+            <input
+              value={query}
+              onChange={(e) => setQuery(e.target.value)}
+              placeholder="Search terms"
+              className="flex-1 rounded-md border border-slate-300 px-2 py-1 text-xs"
+            />
+            <button
+              type="button"
+              onClick={handleSearch}
+              disabled={searching || !query.trim()}
+              className="shrink-0 rounded-md border border-slate-300 px-2.5 py-1 text-xs font-medium disabled:opacity-50"
+            >
+              {searching ? 'Searching…' : 'Search Commons'}
+            </button>
+          </div>
+          {searchError && <p className="mt-1 text-xs text-red-700">{searchError}</p>}
+          {candidates && (
+            <div className="mt-2 flex flex-wrap gap-2">
+              {candidates.length === 0 && <p className="text-xs text-slate-400">No photo results for that search.</p>}
+              {candidates.map((c) => (
+                <button
+                  key={c.fullUrl}
+                  type="button"
+                  onClick={() => pickCandidate(c)}
+                  title={`${c.title} — ${c.licenseShortName ?? 'unknown license'}${c.artist ? ` — ${c.artist}` : ''}`}
+                  className={`h-14 w-14 overflow-hidden rounded border-2 ${
+                    url === c.fullUrl ? 'border-slate-900' : 'border-transparent hover:border-slate-300'
+                  }`}
+                >
+                  <img src={c.thumbUrl} alt={c.title} className="h-full w-full object-cover" />
+                </button>
+              ))}
+            </div>
+          )}
+        </div>
+      </div>
+      <div className="mt-2 flex items-center gap-2">
+        <input
+          value={url}
+          onChange={(e) => setUrl(e.target.value)}
+          placeholder="Photo URL (or pick a result above)"
+          className="flex-1 rounded-md border border-slate-300 px-2 py-1.5 text-xs"
+        />
+        <input
+          value={credit}
+          onChange={(e) => setCredit(e.target.value)}
+          placeholder="Credit (if CC-BY)"
+          className="w-32 shrink-0 rounded-md border border-slate-300 px-2 py-1.5 text-xs"
+        />
+        <label className="flex shrink-0 items-center gap-1.5 text-xs text-slate-500">
+          Focus
+          <input
+            type="range"
+            min={0}
+            max={100}
+            value={position}
+            onChange={(e) => setPosition(Number(e.target.value))}
+            className="w-16"
+          />
+        </label>
+        <button
+          type="button"
+          onClick={() => mutation.mutate()}
+          disabled={mutation.isPending || !url}
+          className="shrink-0 rounded-md bg-slate-900 px-3 py-1.5 text-xs font-medium text-white disabled:opacity-50"
+        >
+          {mutation.isPending ? 'Saving…' : 'Save'}
+        </button>
+      </div>
+      {mutation.isError && <p className="mt-1 text-xs text-red-700">Couldn't save — check you're signed in as an admin.</p>}
+    </div>
+  );
+}
+
+// The backlog view: paginated list of published articles that still
+// have no cover photo, tag-scoped, with a Wikimedia Commons search
+// assist per row. Separate from ArticleCoverPhotos below (which now
+// loads every article of a tag via useAllArticleSummaries) because
+// rendering all ~2,700 guide articles as full editable rows at once is
+// its own problem — this filters server-side to just the ones missing a
+// photo and paginates the client-visible list, so the backlog itself
+// stays fast to work through.
+function CoverPhotoBacklog({ tag, heading }: { tag: string; heading: string }) {
+  const user = useAuthStore((s) => s.user);
+  const queryClient = useQueryClient();
+  const [offset, setOffset] = useState(0);
+  const limit = 12;
+
+  const { data, isLoading, isError } = useQuery({
+    queryKey: ['articles', 'missing-cover', tag, offset],
+    queryFn: () => fetchArticlesMissingCover(tag, offset, limit),
+    enabled: Boolean(user),
+  });
+
+  function handleSaved() {
+    queryClient.invalidateQueries({ queryKey: ['articles', 'missing-cover', tag] });
+    queryClient.invalidateQueries({ queryKey: ['articles'] });
+  }
+
+  if (!user) return null;
+
+  return (
+    <div className="rounded-lg border border-slate-200 p-5">
+      <h2 className="font-semibold text-slate-900">{heading}</h2>
+      <p className="mt-1 text-sm text-slate-500">
+        {data ? `${data.total.toLocaleString()} article${data.total === 1 ? '' : 's'} still showing the abstract placeholder art.` : 'Loading…'}{' '}
+        Search pulls candidates from Wikimedia Commons — public-domain or openly-licensed only, so anything shown is
+        safe to use, but review it before saving. Nothing is ever assigned automatically.
+      </p>
+      {isLoading && <p className="mt-3 text-sm text-slate-500">Loading…</p>}
+      {isError && <p className="mt-3 text-sm text-red-700">Couldn't load the backlog.</p>}
+      <div className="mt-4 space-y-3">
+        {data?.data.map((article) => (
+          <CoverPhotoBacklogRow key={article.id} article={article} onSaved={handleSaved} />
+        ))}
+        {data && data.data.length === 0 && <p className="text-sm text-slate-500">No articles missing a photo in this set.</p>}
+      </div>
+      {data && data.total > limit && (
+        <div className="mt-4 flex items-center justify-between text-xs text-slate-500">
+          <button
+            type="button"
+            onClick={() => setOffset((o) => Math.max(0, o - limit))}
+            disabled={offset === 0}
+            className="rounded-md border border-slate-300 px-2.5 py-1 disabled:opacity-40"
+          >
+            ← Previous
+          </button>
+          <span>
+            {offset + 1}–{Math.min(offset + limit, data.total)} of {data.total.toLocaleString()}
+          </span>
+          <button
+            type="button"
+            onClick={() => setOffset((o) => o + limit)}
+            disabled={offset + limit >= data.total}
+            className="rounded-md border border-slate-300 px-2.5 py-1 disabled:opacity-40"
+          >
+            Next →
+          </button>
+        </div>
+      )}
+    </div>
   );
 }
 
@@ -967,6 +1186,8 @@ export default function Admin() {
         <GlobalSourcesPanel />
         <ScamForm />
         <ArticleForm />
+        <CoverPhotoBacklog tag="notorious" heading="Notorious cover photo backlog (search-assisted)" />
+        <CoverPhotoBacklog tag="guide" heading="Guide cover photo backlog (search-assisted)" />
         <ArticleCoverPhotos tag="notorious" heading="Notorious profile cover photos" subject="profile" />
         <ArticleCoverPhotos tag="guide" heading="Guide article cover photos" subject="guide" />
       </div>
