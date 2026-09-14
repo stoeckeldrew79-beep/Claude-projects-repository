@@ -5195,9 +5195,9 @@ Coscia's prosecution mattered less for its dollar figure — modest by Wall Stre
     slug: 'patrick-ho-china-energy-fund-committee-bribery-scheme',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
-    coverImagePosition: 50,
-    // representative photo — replace with a portrait if found
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Hong_Kong_cityscape_highlights-_International_Finance_Centre,_Central_District._Hong_Kong,_China,_East_Asia-3.jpg?width=1200',
+    coverImagePosition: 30,
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Patrick_Ho.jpg?width=1200',
+    coverImageCredit: 'Photo: SUNREST, CC BY-SA 4.0, via Wikimedia Commons',
     sourceUrl: 'https://www.justice.gov/usao-sdny/pr/patrick-ho-former-head-organization-backed-chinese-energy-conglomerate-sentenced-3',
     body: `Patrick Ho Chi-ping was a Harvard-trained ophthalmologist who served as Hong Kong's Secretary for Home Affairs from 2002 to 2007. After leaving government, he became secretary general of the China Energy Fund Committee, a Hong Kong- and Virginia-based nongovernmental organization that held special consultative status at the United Nations — a credential that gave Ho access to heads of state and diplomats around the world. What made the NGO possible was money: it was funded entirely by CEFC China Energy, a multibillion-dollar Shanghai conglomerate that used Ho's diplomatic connections to chase oil and business deals across Africa, and prosecutors would later show that Ho used the NGO's charitable cover to deliver the bribes that closed them.
 
@@ -9145,6 +9145,10 @@ NotoriousGM.push(
     slug: 'just-for-feet-vendor-allowance-accounting-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Birmingham_Alabama_Night_Skyline.jpg?width=1200',
+    coverImageCredit: 'Photo: Alby Headrick, CC BY 2.0, via Wikimedia Commons — Birmingham, Alabama, where Just for Feet was founded',
+    coverImagePosition: 50,
     body: `Harold Ruttenberg opened the first Just for Feet store in Birmingham, Alabama in 1977 and spent the next two decades turning it into something unusual in athletic footwear retail: warehouse-sized "superstores," some with basketball courts and in-store DJs, stocked wall to wall with sneakers and built to feel like a destination rather than an errand. The formula worked well enough that by 1999 Just for Feet had grown into the second-largest athletic shoe retailer in the United States, with stores in 30 states and annual sales of roughly $775 million — a growth story Wall Street rewarded richly, right up until the company couldn't sustain the cash it took to keep building new superstores as fast as it had promised investors it would.
 
 Rather than let that slowdown show up in the numbers, according to the Securities and Exchange Commission, company executives manufactured earnings out of routine vendor relationships that outside auditors had no easy way to verify independently. From around December 1996 through November 1999, Adam Gilburne — an executive vice president and the company's Superstore Division president — helped orchestrate the improper recognition of income tied to co-op advertising allowances funneled through Rogers Advertising, Just for Feet's sole outside ad agency, inflating the company's reported earnings by roughly $8.3 million over the scheme's life. Separately, as the fiscal year closed out at the end of January 1999, executive vice president Don-Allen Ruttenberg — Harold Ruttenberg's son — had the accounting department record more than $5 million in fictitious receivables the company claimed shoe vendors owed it for advertising "booth" and display credits that those vendors had never actually agreed to pay.
@@ -9187,6 +9191,10 @@ NotoriousGM.push(
     slug: 'hsbc-mexico-cartel-money-laundering-settlement',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'historical', 'international'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/HSBC_Building_London.jpg?width=1200',
+    coverImageCredit: 'Photo: Danesman1, CC BY-SA 3.0, via Wikimedia Commons — HSBC headquarters, Canary Wharf, London',
+    coverImagePosition: 50,
     body: `For years, according to a U.S. Senate investigation and the Justice Department's own findings, HSBC's Mexican affiliate, HBMX, was one of the easiest ways in the world to turn drug-trafficking cash into clean money in a U.S. bank account. Traffickers working for Mexico's Sinaloa Cartel reportedly designed cash-deposit boxes to match the precise dimensions of HBMX teller windows, so that bulk cash could be moved through in volume without extra handling. HSBC classified its Mexican operation as "standard risk" rather than "high risk" for money laundering, despite Mexico's well-known cartel violence, and for years ran an anti-money-laundering compliance function that internal reviewers and outside regulators alike found was understaffed and routinely overridden.
 
 The scale of what regulators eventually documented was extraordinary for a global, publicly traded bank subject to routine examination in multiple countries. The Justice Department found that HSBC failed to monitor over $670 billion in wire transfers and $9.4 billion in purchases of physical U.S. dollars from HBMX between 2006 and 2010, and that at least $881 million in drug proceeds tied to the Sinaloa Cartel and Colombia's Norte del Valle Cartel moved through HSBC's U.S. accounts during that period. Separately, HSBC admitted that its affiliates had stripped identifying information from wire transfers to move money on behalf of clients in Cuba, Iran, Libya, Sudan, and Burma, in violation of U.S. sanctions law under the International Emergency Economic Powers Act and the Trading with the Enemy Act.
