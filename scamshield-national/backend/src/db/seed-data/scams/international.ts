@@ -18890,3 +18890,38 @@ International.push(
     firstRecorded: '2022-07-17',
   },
 );
+
+International.push(
+  {
+    name: 'Kuwait Fake Trading Platform and Telegram Investment Fraud',
+    slug: 'kuwait-fake-trading-platform-telegram-investment-fraud',
+    description: `The Central Bank of Kuwait has issued repeated public warnings — most recently in May 2026, after an earlier alert in February 2026 — about a growing wave of online investment fraud that recruits victims through social media and messaging apps, particularly Telegram groups and channels promising rapid, outsized returns on small initial deposits. The scheme typically starts with fraudsters using anonymous accounts to circulate small amounts of money among a network of accomplices to build the appearance of a genuine track record of "wins," before pressuring victims to transfer increasingly large sums into unlicensed, unregulated online trading platforms that the Central Bank says are frequently used for both outright fraud and money laundering. The bank has separately flagged Telegram-based "investment channels" advertised with promises of guaranteed daily or weekly profits that no licensed brokerage could legitimately offer, and it has urged residents to confirm any investment firm or platform is properly licensed before transferring funds, warning that participants risk not only losing their money but exposing themselves to money-laundering liability. Kuwaiti residents approached with unsolicited investment opportunities through WhatsApp or Telegram groups promising quick, guaranteed profits should treat the offer as fraudulent by default, verify any firm's license directly with the Central Bank of Kuwait before sending money, and report suspicious channels to CBK rather than engaging with the group.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'medium',
+    sources: ['Central Bank of Kuwait', 'Arab Times Kuwait'],
+    sourceUrl: 'https://www.arabtimesonline.com/news/kuwait-central-bank-warns-of-fake-trading-platforms-promising-quick-profits/',
+    country: 'KW',
+  },
+  {
+    name: 'Kuwait Visa-for-Cash Residency Permit Trafficking Scheme',
+    slug: 'kuwait-visa-for-cash-residency-permit-trafficking-scheme',
+    description: `In July 2025, following an anonymous tip, Kuwait's Ministry of Interior — working with the General Department of Residence Affairs Investigations — dismantled a visa-trafficking ring built around a Kuwaiti national who held signing authority for 29 different companies and used that legal authority to register foreign workers under false pretenses and sell residency permits for cash. Working with a Syrian and an Indian intermediary, he collected bribes of between KD 350 and KD 1,200 per visa to connect foreign workers — ultimately 56 of them — with sponsoring companies that had no real jobs for them, leaving the workers formally "employed" on paper while actually working for unrelated, unlisted employers or simply holding an illegally purchased residency status. The case sits alongside a wider pattern of fake-recruitment and e-visa fraud that has targeted South and Southeast Asian job seekers with counterfeit Kuwaiti government visa portals and forged offer letters, and the Ministry of Interior has separately moved to block dozens of fake websites impersonating licensed Kuwaiti domestic-labor recruitment firms. Anyone offered a Kuwaiti work visa or residency transfer through a broker, informal "sponsor," or unofficial payment outside a licensed recruitment agency should treat the offer as fraudulent, verify any sponsoring company and visa status directly with Kuwait's Public Authority of Manpower or the Ministry of Interior before paying anyone or traveling, and never hand over cash for a company-sponsored visa arranged informally.`,
+    categorySlug: 'employment-scams',
+    alertLevel: 'medium',
+    sources: ['Kuwait Ministry of Interior', 'Gulf News'],
+    sourceUrl: 'https://gulfnews.com/world/gulf/kuwait/kuwait-work-visa-scam-uncovered-3-arrested-1.500207295',
+    country: 'KW',
+  },
+  {
+    name: 'Kuwait Bank Prize-Draw Phone Impersonation Scam',
+    slug: 'kuwait-bank-prize-draw-phone-impersonation-scam',
+    description: `On February 27, 2024, an expatriate resident of Kuwait City lost his entire bank balance — 3,700 Kuwaiti dinars — after receiving a call from a spoofed local number displayed as a "video call," in which the caller first posed as a security guard and then transferred the call to a second scammer posing as a bank employee; the fake bank representative told the victim he had won a KD 1,000 prize in a bank-run draw and, to "process" the payout, talked him into revealing his account password and one-time verification code. The scammer used those details to immediately empty the account, and the victim reported the fraud to Sabah Al-Salem police station, where it was logged as a forgery-related banking case with the spoofed phone number entered into evidence. The case matches a pattern Kuwaiti banks have separately warned about: National Bank of Kuwait has cautioned customers about fraudulent calls and messages on WhatsApp and Viber, sent from numbers styled to resemble its official call-center line, falsely congratulating customers on winning competitions in order to extract account details. Kuwait's Ministry of Interior and local banks stress that no legitimate bank will ever call to ask for a password, card number, CVV, or one-time verification code — including to "release" a prize — so any call, however official-sounding, that asks for that information should be treated as fraud; hang up and call the bank back directly using the number on your card or its official website rather than any number supplied by the caller.`,
+    categorySlug: 'phishing',
+    alertLevel: 'medium',
+    sources: ['Arab Times Kuwait', 'National Bank of Kuwait'],
+    sourceUrl: 'https://www.arabtimesonline.com/news/cunning-fraudster-robs-expat-of-all-his-savings/',
+    country: 'KW',
+    isHistorical: true,
+    firstRecorded: '2024-02-27',
+  },
+);
