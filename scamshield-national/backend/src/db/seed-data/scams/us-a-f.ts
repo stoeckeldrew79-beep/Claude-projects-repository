@@ -8424,3 +8424,16 @@ UsAF.push({
     country: 'US',
     isHistorical: false,
 });
+
+UsAF.push({
+    name: 'Fiverr Voice-Actor AI Voice-Cloning Deception (Lovo)',
+    slug: 'lovo-fiverr-voice-clone-consent-scam',
+    description: `Voice actors Paul Skye Lehrman and Linnea Sage were each hired for ordinary-sounding paid gigs through the freelance marketplace Fiverr — Lehrman told his recording was for a "research project," Sage told hers was for "test scripts for radio ads" — but the client was AI voice-generation startup Lovo, which used the recordings to build permanent AI clones of their voices without ever disclosing that purpose or obtaining consent for it. Lehrman later discovered an AI clone of his voice, marketed under the invented stage name "Kyle Snow," being sold as a default subscription voice and used in YouTube videos and a podcast episode about the dangers of AI he had no part in; Sage's cloned voice turned up in Lovo's own promotional materials. The two filed a proposed class-action lawsuit against Lovo in Manhattan federal court in May 2024 seeking at least $5 million in damages for fraud, false advertising, and violation of their right of publicity. Anyone hired for a "voiceover," "recording," or "test script" gig through a freelance marketplace should ask the client directly, in writing, whether the recording will be used to train or build an AI voice model — a legitimate one-off ad or narration job has no reason to conceal that use — and should decline any gig whose stated purpose is vague ("research," "internal testing") when it specifically requires reading varied, emotionally expressive, or phonetically broad scripts, a hallmark of voice-model training data collection.`,
+    categorySlug: 'ai-deepfake-scams',
+    alertLevel: 'medium',
+    sources: ['CNN', 'Hollywood Reporter', 'Bloomberg'],
+    sourceUrl: 'https://www.cnn.com/2024/05/17/tech/voice-actors-ai-lawsuit-lovo',
+    country: 'US',
+    isHistorical: true,
+    firstRecorded: '2024-05-17',
+});
