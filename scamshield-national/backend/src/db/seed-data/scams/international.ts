@@ -18818,3 +18818,40 @@ International.push(
     country: 'RS',
   },
 );
+
+International.push(
+  {
+    name: 'FUD Football Sports-Betting "Investment" Collapse',
+    slug: 'zambia-fud-football-investment-collapse',
+    description: `FUD Football Solutions launched in Zambia in early 2023 as a sports-investment platform, telling depositors they would earn daily returns based on football-match predictions; it obtained ordinary PACRA business registration, which investors — some of whom borrowed money or sold assets to participate — treated as proof of legitimacy, unaware that company registration is not an investment licence. When the platform ran into trouble, its promoters circulated claims that Zambia's Securities and Exchange Commission (SEC) and Financial Intelligence Centre (FIC) had "frozen all the platform's funds to pave way for an investigation into alleged money laundering," implying regulators — not the company — were responsible for frozen withdrawals. On July 1, 2023, the SEC and FIC jointly issued a Public Alert flatly refuting this: FUD/FUD-Football and its promoters were "NOT licensed or authorized or registered by the SEC to provide investment advice or to solicit funds from the Zambian public," and the two agencies had frozen nothing. The case shows that a real business registration certificate says nothing about whether an investment scheme is licensed to take deposits — before investing in any platform promising guaranteed daily returns, Zambians are advised to verify SEC licensing directly with the Commission rather than accept a PACRA certificate, a slick website, or the platform's own claims about regulatory action as proof of legitimacy.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'medium',
+    sources: ['Securities and Exchange Commission of Zambia (SEC)', 'Financial Intelligence Centre (FIC) Zambia', 'Makanday Institute'],
+    sourceUrl: 'https://www.seczambia.org.zm/wp-content/uploads/2025/06/Public-Notice-FUD-Football.cleaned.pdf',
+    country: 'ZM',
+    isHistorical: true,
+    firstRecorded: '2023-07-01',
+  },
+  {
+    name: 'Unlicensed Online Loan-App Predatory Lending and Contact-Harvesting Harassment',
+    slug: 'zambia-unlicensed-loan-app-harassment',
+    description: `On September 25-26, 2025, the Bank of Zambia (BoZ), through Assistant Director of Communications Besnat Mwanza, issued a public statement warning that it had received numerous complaints about unlicensed online credit providers engaging in "unfair, deceptive, or fraudulent" lending practices that lure borrowers into unaffordable loans, and confirmed none of these platforms are licensed or authorized to offer lending services in Zambia. At a Lusaka press briefing on November 7, 2025, advocacy group Justice for Zambia Against Predatory Lenders (JZAP) detailed the mechanism BoZ had confirmed as illegal: most of the apps are run by unlicensed operators based in Kenya and Uganda, moving money through Airtel and MTN mobile money to bypass Zambian financial regulation, and — after borrowers grant the app permission to read their phone contacts during signup — harassing, publicly shaming, and calling those contacts, along with the borrower, at all hours to pressure repayment, a pattern JZAP linked to depression, broken homes, and suicides. Because BoZ has confirmed these lenders are unlicensed, borrowers are not legally obligated to repay them, and consumers are advised never to grant a loan app access to their contacts or photos, to verify any lender's BoZ licence before borrowing, and to ignore and report — rather than pay — harassment or contact-shaming from an unlicensed lender.`,
+    categorySlug: 'legal-debt-collection',
+    alertLevel: 'high',
+    sources: ['Bank of Zambia', 'Justice for Zambia Against Predatory Lenders (JZAP)', 'Zambia 24'],
+    sourceUrl: 'https://zambia24.com/2025/11/07/illegal-loan-apps-target-citizens/',
+    country: 'ZM',
+    isHistorical: false,
+  },
+  {
+    name: 'Lusaka Gold and Platinum Refinery Fake Gold Export Fraud',
+    slug: 'zambia-lusaka-gold-platinum-refinery-fake-gold-fraud',
+    description: `On October 3, 2025, the Economic and Financial Crimes Division of Zambia's High Court ordered forfeiture to the State of ZMW 8,142,215.04 held in an FNB account traced to Lusaka Gold and Platinum Refinery Limited, a Zambian company that had claimed to be exporting gold to Smolenski Trading LLC (formerly Epitychia General Trading LLC), a Dubai-based buyer who paid over US$700,000 believing it was purchasing legitimate gold consignments. Investigators found that Lusaka Gold and Platinum Refinery Limited held no mineral trading or export licence under the Mines and Minerals Development Act, making the entire transaction — and the money moved through it — a sham designed to disguise illicit funds as a mineral trade. Ruling on the Dubai company's bid to recover its money, a three-judge panel held that the foreign buyer's failure to verify its Zambian counterpart's licensing status before wiring the funds amounted to wilful blindness, writing that "a commercial entity engaged in international mineral trading is reasonably expected to ascertain that its counterpart holds the necessary licences and permits under Zambian law before entering into such transactions" — meaning good-faith payment alone was not enough to get the money back once the court found the deal fraudulent. Anyone approached to buy gold or other minerals from a Zambian seller, in person or remotely, should independently verify the seller's mineral trading and export licence with Zambia's mining regulator before transferring any funds, since neither an impressive-looking company name nor a claimed export arrangement is proof that a licence actually exists.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'high',
+    sources: ['National Prosecution Authority of Zambia (NPA)'],
+    sourceUrl: 'https://www.npa.gov.zm/index.php/2025/10/03/zmw-8-1-million-forfeited-in-fake-gold-trade-case/',
+    country: 'ZM',
+    isHistorical: false,
+  },
+);

@@ -8412,3 +8412,15 @@ UsAF.push({
     isHistorical: true,
     firstRecorded: '2024-05-30',
 });
+
+UsAF.push({
+    name: 'AI-Cloned iPhone Pre-Order Scam Wave',
+    slug: 'ai-cloned-iphone-preorder-scam-wave',
+    description: `When Apple opened iPhone 18 Pro and Pro Max pre-orders on September 12, 2026, security researcher Alexandre Francois of WhoisXML API found that phishing sites targeting buyers had actually begun appearing at least two weeks earlier, around Apple's September 9 product event, and more than 200 fraudulent iPhone 18 websites surfaced within 24 hours of the pre-order window opening — many using AI-cloned interfaces that closely mimic Apple's real storefront, typosquatted domains built around "Apple" or "iPhone 18," undercut pricing up to 40% below retail, countdown timers, and fake "lottery winner" or "product tester" claims, while steering buyers toward bank transfers, cryptocurrency, or peer-to-peer payment apps that offer no chargeback protection. Researchers noted the Saturday launch date compounded the risk, since fraud-detection operations and blocklist updates typically run at reduced capacity over the weekend, letting scam pages stay live and unflagged longer than on a weekday launch. A reliable tell is any site selling or taking a deposit for a "standard iPhone 18," since only the Pro, Pro Max, and folding iPhone Duo were actually available to order at that time. Consumers should buy only through Apple's own store or a verified major retailer, scrutinize the URL before entering any payment information, treat a request for wire transfer, crypto, or peer-to-peer payment for a new phone as disqualifying on its own, and contact their bank immediately if they suspect they've already paid a fraudulent site.`,
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'high',
+    sources: ['WhoisXML API (researcher Alexandre Francois)', 'Online Threat Alerts'],
+    sourceUrl: 'https://www.onlinethreatalerts.com/article/2026/9/13/apple-iphone-18-pro-scam-sites-after-pre-order-launch',
+    country: 'US',
+    isHistorical: false,
+});

@@ -7421,3 +7421,14 @@ UsGM.push({
     isHistorical: true,
     firstRecorded: '2025-04-22',
 });
+
+UsGM.push({
+    name: 'Giving Tuesday Look-Alike Charity Scam',
+    slug: 'giving-tuesday-lookalike-charity-scam',
+    description: `Giving Tuesday — the Tuesday after Thanksgiving that kicks off the year-end charitable-giving season — draws a predictable spike in fraudulent solicitations timed to exploit it: telemarketers use names deceptively similar to well-known charities, fake fundraisers spread across social media and crowdfunding platforms where the money goes to the organizer rather than any real cause, and scammers register look-alike domains (such as "RedCross-Relief.org" instead of the real "RedCross.org") that copy a legitimate charity's logo and design right down to the layout. A common tell is the payment method: the FTC warns that if someone says the only way to pay is with cryptocurrency, a payment app, gift card, or by wiring money, it's likely a scam, not a real charity. Before donating, verify the organization through BBB Wise Giving Alliance, Charity Navigator, CharityWatch, or your state's charity registry, navigate directly to the charity's own website rather than following a link in an unsolicited email or text, and pay by credit card or check rather than gift card, crypto, or wire transfer.`,
+    categorySlug: 'charity-scams',
+    alertLevel: 'medium',
+    sources: ['FTC Consumer Advice', 'California Department of Justice (Office of Attorney General Bonta)'],
+    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2025/11/donate-charities-not-scammers-giving-tuesday',
+    country: 'US',
+});
