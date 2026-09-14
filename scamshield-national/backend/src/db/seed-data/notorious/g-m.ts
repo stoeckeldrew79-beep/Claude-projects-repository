@@ -9839,6 +9839,10 @@ NotoriousGM.push({
     slug: 'paul-jain-steven-allan-media-vision-technology-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Three-isa-audio-cards_(cropped)_Media_Vision_Pro_Audio.jpg?width=1200',
+    coverImageCredit: 'Photo: Pratyeka, CC BY-SA 4.0, via Wikimedia Commons — a Media Vision Pro Audio Spectrum card, the company\'s product',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Media Vision Technology, based in Fremont, California, rode the early-1990s boom in "multimedia" personal computers, selling sound cards and CD-ROM upgrade kits that let ordinary PCs play games and encyclopedias with sound and video. The company went public in late 1992, and under CEO Paul Jain it became one of Silicon Valley's hottest growth stories, reporting a run of quarters that consistently beat Wall Street's expectations for a hardware category everyone assumed was about to be in every home computer sold.
 
 Those results were manufactured. According to the Securities and Exchange Commission, Jain and Chief Financial Officer Steven Allan directed subordinates to falsify shipping and sales records so the company could report revenue on products that customers had not actually bought, then lied to Media Vision's outside auditors and fabricated accounting entries to keep the scheme hidden. The SEC found that Media Vision overstated second-quarter 1993 revenue by $3.5 million (8 percent) and third-quarter revenue by $10.2 million (18.9 percent), and that for all of 1993 the company overstated revenue by $91.4 million — 61 percent above the real figure — and net income by $119.1 million. Prosecutors later said the company backdated contracts to book sales that hadn't happened yet and, to keep large quantities of unsold, returned inventory off the books, had it quietly stored out of auditors' sight on offshore barges rather than recorded as the write-off it actually represented.
@@ -9856,6 +9860,10 @@ NotoriousGM.push({
     slug: 'gerardo-de-nicolas-homex-satellite-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'international'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Vista_panor%C3%A1mica_de_Culiac%C3%A1n.jpg?width=1200',
+    coverImageCredit: 'Photo: FAL56, CC BY-SA 4.0, via Wikimedia Commons — residential view of Culiacán, Homex\'s home base',
+    coverImagePosition: 55,
+    // representative photo — replace with a portrait if found
     body: `Desarrolladora Homex, S.A.B. de C.V. grew into one of Mexico's largest homebuilders by building the low-cost housing developments that Mexican government-backed mortgage programs were designed to finance for working-class families. Under CEO Gerardo de Nicolás Gutiérrez, the company expanded aggressively through the late 2000s, listed shares on the Mexican Stock Exchange and American Depositary Receipts in New York, and reported annual results that, according to the U.S. Securities and Exchange Commission, painted the company as productive and financially sound years after that had stopped being true.
 
 The SEC's complaint alleges that Homex's annual reports for 2010 through 2012, filed with U.S. regulators because of its New York-listed shares, recognized revenue from the purported sale of more than 100,000 homes that were, in fact, neither built nor sold. Company controller Ramón Lafarga Couturier directed an operations manager, Noé Corrales Cárdenas, to maintain a second, false set of books to keep track of the fabricated figures, while de Nicolás and Chief Financial Officer Carlos Moctezuma García certified financial statements they knew misrepresented the company's real condition. Over the three years covered, Homex overstated home sales by roughly 317 percent and revenue by about 355 percent — some $3.3 billion in fabricated results.
