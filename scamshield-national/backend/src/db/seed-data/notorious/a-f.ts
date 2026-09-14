@@ -9210,3 +9210,19 @@ Freeman's case is a reminder that a disqualification order or a bankruptcy convi
     sourceUrl: 'https://patrickpretty.com/2011/01/12/british-con-man-pleads-guilty-in-14-million-ponzi-scheme-terry-freeman-archetypal-fraudster-happy-to-steal-money-and-ruin-lives-london-detective-says/',
   },
 );
+
+NotoriousAF.push({
+    title: 'Kenneth Carter and the AT&T Store Employee SIM-Swap Side Hustle',
+    slug: 'kenneth-carter-att-sim-swap-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    body: `Kenneth Carter worked the retail counter at an AT&T store in Portland, Oregon, a job that gave him something far more valuable to criminals than an employee discount: direct access to the carrier's internal systems for moving a customer's phone number onto a new SIM card. Between May 2018 and November 2019, according to federal prosecutors, Carter sold that access to an outside hacker and at least two other co-conspirators, letting them port targeted victims' phone numbers onto SIM cards the conspirators controlled without the victims' knowledge or consent.
+
+A SIM swap is the kind of fraud that does its damage in the gap most people never think to guard: once a criminal controls a victim's phone number, they also control every text-message verification code a bank or exchange sends to "confirm it's really you." With Carter's inside access removing the usual friction a carrier's fraud checks are supposed to provide, the conspirators used hijacked numbers to trigger password resets and intercept the one-time codes protecting victims' bank accounts, then drained them directly. Prosecutors identified at least three specific victims and calculated a combined intended loss of $593,963 from the scheme, though the conspiracy's reach extended beyond those confirmed cases.
+
+Carter, now 44, pleaded guilty on March 24, 2026, in the Central District of California to one count of conspiracy to commit wire fraud and bank fraud. On September 8, 2026, U.S. District Judge Stanley Blumenfeld Jr. sentenced him to 16 months in federal prison and ordered him to pay $99,528 in restitution to his victims — a figure reflecting the money actually stolen and traced back to him, smaller than the total the conspiracy had intended to take.
+
+Carter's case is a reminder that a SIM swap doesn't always start with a criminal tricking a call-center agent into transferring a number — sometimes the "inside job" is quicker and more reliable, because the person moving the number already works behind the counter and already has the access a scammer from outside would otherwise have to talk or hack their way into. Anyone holding meaningful financial or cryptocurrency assets should move two-factor authentication off SMS text codes and onto an authenticator app or a hardware security key, and should ask their mobile carrier to add a PIN or passcode specifically required before any request to port or transfer their phone number — a safeguard that stops even an employee with legitimate system access from moving a number without the account holder's active participation.`,
+    sourceUrl: 'https://www.justice.gov/usao-cdca/pr/oregon-man-sentenced-16-months-federal-prison-abusing-his-role-mobile-phone-store-give',
+  },
+);
