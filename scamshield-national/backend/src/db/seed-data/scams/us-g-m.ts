@@ -7407,3 +7407,17 @@ UsGM.push({
     isHistorical: true,
     firstRecorded: '2025-10-29',
 });
+
+UsGM.push({
+    name: 'NYC Fake OSHA / Site Safety Training Card Scheme',
+    slug: 'nyc-fake-osha-site-safety-training-card-scheme',
+    description: `The Brooklyn District Attorney's Office announced on September 8, 2026 the indictment of Lutfur Rahman, 34, and Mohammed Tushar, 34, along with their company Redcode Inc., for running a scheme out of storefronts on McDonald Avenue in Brooklyn and Hillside Avenue in Queens that sold construction workers legitimate-looking OSHA and NYC Department of Buildings Site Safety Training (SST) cards for $500 each — without the workers ever attending the required safety classes. Undercover NYC Department of Investigation officers posing as construction workers received completed cards despite never sitting through a single training session, and prosecutors say the defendants falsified attendance rosters and submitted false completion records to the Department of Buildings and OSHA's training-tracking system between April and July 2025 to make the fraudulent cards appear legitimate. A worker who buys a card this way not only wastes hundreds of dollars but also goes onto an active construction site without the safety training the card is supposed to certify, and can have the card invalidated and be barred from work once the fraud is discovered. Construction workers should verify that any OSHA 10/30-hour or Site Safety Training provider appears on OSHA's or the NYC Department of Buildings' own list of authorized trainers before paying for a course, and should be suspicious of any provider offering a card without requiring the full hours of in-person or verified instruction.`,
+    categorySlug: 'employment-scams',
+    alertLevel: 'medium',
+    sources: ["Brooklyn District Attorney's Office", 'NYC Department of Investigation', 'NYC Department of Buildings'],
+    sourceUrl: 'https://www.brooklynda.org/2026/09/08/two-individuals-and-company-indicted-for-making-and-selling-fake-osha-and-buildings-department-site-safety-cards/',
+    country: 'US',
+    state: 'NY',
+    isHistorical: true,
+    firstRecorded: '2025-04-22',
+});

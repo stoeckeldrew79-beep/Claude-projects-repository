@@ -8385,3 +8385,30 @@ UsAF.push({
     isHistorical: true,
     firstRecorded: '2025-02-24',
 });
+
+UsAF.push({
+    name: 'Connecticut CHET 529 College-Savings Account Takeover Fraud',
+    slug: 'connecticut-chet-529-account-takeover-fraud',
+    description: `Connecticut State Treasurer Denise Nappier announced on June 27, 2018 that criminals had stolen $1,416,635 from 21 Connecticut Higher Education Trust (CHET) 529 college-savings accounts through 44 unauthorized withdrawals. Rather than breaching CHET's own systems, the thieves used personal identifying information obtained elsewhere to log into account holders' online 529 profiles and redirect funds to accounts they controlled — the first instance of fraudulent account activity in the program's 20-plus year history, according to Nappier. TIAA-CREF Tuition Financing, the plan's manager, agreed to fully restore every affected account and provided two years of identity-theft monitoring and $1 million in identity-theft insurance to the account holders involved. Because a 529 account is typically checked far less often than a checking or savings account, parents and grandparents saving for a child's education should use a unique password and enable any available multi-factor authentication on their 529 login, and review account statements regularly for withdrawals or address and bank-detail changes they didn't request.`,
+    categorySlug: 'account-takeover',
+    alertLevel: 'medium',
+    sources: ["Connecticut State Treasurer's Office", 'TIAA-CREF Tuition Financing, Inc.'],
+    sourceUrl: 'https://www.insurancejournal.com/news/east/2018/06/29/493630.htm',
+    country: 'US',
+    state: 'CT',
+    isHistorical: true,
+    firstRecorded: '2018-06-27',
+});
+
+UsAF.push({
+    name: 'FSAFEDS Unauthorized Enrollment Fraud',
+    slug: 'fsafeds-unauthorized-enrollment-fraud',
+    description: `The U.S. Office of Personnel Management's Office of Inspector General issued a special fraud alert on May 30, 2024 after discovering that criminals were using stolen personal information to fraudulently enroll federal employees — without their knowledge — in the Federal Flexible Spending Account Program (FSAFEDS), signing them up for health care or dependent care flexible spending accounts that triggered real, unauthorized payroll deductions from the victims' paychecks. OPM found no evidence the FSAFEDS platform itself had been hacked, concluding instead that the fraud relied on personal data compromised elsewhere, and responded by temporarily disabling new enrollments and Qualifying Life Event changes program-wide while members could still file reimbursement claims as normal. Federal employees are urged to check their Earnings and Leave Statements regularly for a flexible spending account deduction they never authorized and to report any suspicious FSAFEDS activity immediately to FSAFEDS at 877-372-3337 or to the OPM Inspector General's hotline at 1-877-499-7295.`,
+    categorySlug: 'account-takeover',
+    alertLevel: 'medium',
+    sources: ['U.S. Office of Personnel Management, Office of Inspector General'],
+    sourceUrl: 'https://oig.opm.gov/sites/default/files/media/document/2024-05/Fraud%20Alert%20FSAFEDS%20May%2029,%202024,%20415%20pm_508.pdf',
+    country: 'US',
+    isHistorical: true,
+    firstRecorded: '2024-05-30',
+});
