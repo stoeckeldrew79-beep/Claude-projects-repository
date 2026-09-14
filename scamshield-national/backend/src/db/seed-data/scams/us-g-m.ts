@@ -7394,3 +7394,16 @@ UsGM.push({
     country: "US",
     state: "IN",
 });
+
+UsGM.push({
+    name: 'Hurricane Melissa Fake Disaster-Relief Charity Scam',
+    slug: 'hurricane-melissa-fake-charity-relief-scam',
+    description: `After Hurricane Melissa struck Jamaica as a catastrophic Category 5 storm in late October 2025 — one of the strongest Atlantic hurricanes on record — scammers moved quickly to set up fraudulent relief websites, social media fundraisers, and crowdfunding pages soliciting U.S. donations for storm victims. Jamaica's own Cyber Incident Response Team identified more than two dozen fraudulent hurricane-relief websites impersonating legitimate aid organizations, some using AI-generated images and video of storm damage to make appeals more convincing. On October 29, 2025, New York Attorney General Letitia James issued a consumer alert urging residents to verify any charity through the OAG Charities Registry before donating, confirm text-to-donate campaigns through a charity's official channels, avoid cash and use traceable payment methods instead, and be skeptical of newly formed organizations with no giving history — advice echoed by the Better Business Bureau, which recommended donors stick to its list of BBB-accredited charities already collecting hurricane relief funds rather than responding to unsolicited social media appeals. As with past disaster-relief scams, donors should independently look up a charity rather than clicking a link in an email, text, or social post, and should carefully confirm any listed ".gov" or well-known nonprofit domain before entering payment information.`,
+    categorySlug: 'charity-scams',
+    alertLevel: 'medium',
+    sources: ['New York Attorney General\'s Office', 'Better Business Bureau', 'Jamaica Cyber Incident Response Team'],
+    sourceUrl: 'https://ag.ny.gov/press-release/2025/attorney-general-james-urges-new-yorkers-be-cautious-charitable-giving-hurricane',
+    country: 'US',
+    isHistorical: true,
+    firstRecorded: '2025-10-29',
+});

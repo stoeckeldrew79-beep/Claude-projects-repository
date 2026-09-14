@@ -4097,3 +4097,17 @@ UsTZ.push({
     isHistorical: true,
     firstRecorded: '2016-09-13',
 });
+
+UsTZ.push({
+    name: 'West Virginia Fake State Representative "Insurance and Subsidies" Phone Scam',
+    slug: 'west-virginia-state-representative-insurance-subsidy-impersonation-scam',
+    description: `In August and September 2026, West Virginia's Attorney General Consumer Protection Division began fielding reports of a live-caller phone scam in which a fraudster claims to be a West Virginia state representative and offers the victim help enrolling in "insurance" along with unspecified "additional subsidies." The scammers spoof real West Virginia telephone numbers so the caller ID appears local and legitimate, and one reporting victim told the office they had been called 70 separate times by the same operation. It was one of two newly identified tactics — alongside a separate video-call sweepstakes scheme — that Attorney General JB McCuskey's office flagged after Medicare scams, this state-representative impersonation, robocalls, phishing, and sweepstakes scams topped the 401 total scam complaints the Consumer Protection Division received in August 2026. No legitimate state representative cold-calls constituents offering to sign them up for insurance or subsidy programs; West Virginians who receive such a call should hang up, independently look up their representative's official state government contact information, and report the call to the WV Attorney General's Consumer Protection Division hotline at 1-800-368-8808 or scams@wvago.gov.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ["West Virginia Attorney General's Office (Consumer Protection Division)"],
+    sourceUrl: 'https://ago.wv.gov/consumer-protection/latest-scams',
+    country: 'US',
+    state: 'WV',
+    isHistorical: true,
+    firstRecorded: '2026-08-01',
+});
