@@ -8474,3 +8474,15 @@ UsAF.push({
     state: 'AK',
     isHistorical: false,
 });
+
+UsAF.push({
+    name: 'CreditRepair.com/Lexington Law Settlement Refund Check Scam',
+    slug: 'creditrepair-lexington-law-settlement-refund-check-scam',
+    description: `Following the CFPB's August 2023 order requiring Lexington Law and CreditRepair.com to pay $2.7 billion in consumer redress and civil penalties for illegally charging upfront telemarketing fees for credit repair services, settlement administrator JND Legal Administration mailed roughly $1.8 billion in refund checks to over 4 million eligible consumers between December 5, 2024 and January 6, 2025, with reissue runs continuing every two months after mid-February 2025. The CFPB has since warned that scammers are impersonating officials and contacting recipients to offer to "expedite" their check, asking for banking details, Social Security numbers, or a fee before the money can be released — even though, as the Bureau states plainly, "You do not need to do anything to receive and cash a valid check." Recipients who are unsure whether a check or a call referencing this settlement is genuine can verify it directly through JND's dedicated verification line rather than through any number or link supplied by the caller, and should treat any request for payment, banking access, or personal information as a certain sign of fraud regardless of how official the caller sounds.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Consumer Financial Protection Bureau (CFPB)'],
+    sourceUrl: 'https://www.consumerfinance.gov/about-us/blog/creditrepaircom-and-lexington-law-refund-checks-what-you-need-to-know/',
+    country: 'US',
+    isHistorical: false,
+});

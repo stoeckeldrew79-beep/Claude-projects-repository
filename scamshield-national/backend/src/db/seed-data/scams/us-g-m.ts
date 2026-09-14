@@ -7456,3 +7456,16 @@ UsGM.push({
     country: 'US',
     isHistorical: false,
 });
+
+UsGM.push({
+    name: 'Lloyd-Strong $233M ACA Marketplace Enrollment Fraud Scheme',
+    slug: 'lloyd-strong-233m-aca-enrollment-fraud-scheme',
+    description: `Cory Lloyd, president of a Florida insurance brokerage, and Steven Strong, CEO of a Texas marketing company, ran a scheme from around August 2018 through September 2022 that used "street marketers" and misleading sales scripts to enroll tens of thousands of vulnerable consumers — including people experiencing homelessness, unemployment, and mental health or substance-use disorders — into fully subsidized ACA marketplace health plans using falsified income information, and deliberately submitted Medicaid applications designed to fail so the pair could collect year-round commissions instead of only during open enrollment. The scheme sought over $233 million in fraudulent federal subsidies, with the government actually paying out more than $180 million before it was caught, and left some victims with disrupted access to opioid-use-disorder treatment, mental health care, and care for serious infectious diseases when their sham coverage fell apart. A federal jury convicted Lloyd and Strong in November 2025, and a judge sentenced each to 20 years in prison in February 2026, ordering $180.6 million in restitution; a third defendant, Dafud Iza, pleaded guilty and received 35 months. Consumers should be wary of any recruiter or "navigator" who signs them up for a health plan without ever discussing actual household income, who promises free coverage in exchange for switching plans, or who pressures a quick signature — and should verify any ACA enrollment directly through HealthCare.gov or their state's own marketplace rather than trusting a street recruiter or unsolicited caller.`,
+    categorySlug: 'insurance-fraud',
+    alertLevel: 'high',
+    sources: ['U.S. Department of Justice (DOJ)', 'IRS Criminal Investigation', 'FBI', 'HHS Office of Inspector General'],
+    sourceUrl: 'https://www.justice.gov/opa/pr/president-insurance-brokerage-firm-and-ceo-marketing-company-sentenced-233m-affordable-care-act',
+    country: 'US',
+    isHistorical: true,
+    firstRecorded: '2018-08-01',
+});

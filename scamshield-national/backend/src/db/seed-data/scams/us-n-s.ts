@@ -7344,3 +7344,15 @@ UsNS.push({
     country: 'US',
     isHistorical: false,
 });
+
+UsNS.push({
+    name: 'Sutherland Global/NOVAD Reverse Mortgage Servicing Failures',
+    slug: 'sutherland-novad-reverse-mortgage-servicing-failures',
+    description: `Sutherland Global Services (and its subsidiaries Sutherland Mortgage Services and Sutherland Government Solutions) and NOVAD Management Consulting serviced federally insured (HECM) reverse mortgages on behalf of HUD from 2014 through 2022, affecting roughly 150,000 older borrowers a year, but the CFPB found the companies were so under-resourced they systematically failed to respond to homeowners' time-sensitive requests for loan payoff statements, short-sale and deed-in-lieu processing, and lien releases — and, most seriously, sent false repayment notices telling elderly borrowers their reverse mortgage was due in full within 30 days due to a "default" that had never actually occurred, instilling fear of foreclosure with no legitimate trigger behind it. In a June 18, 2024 order, the CFPB permanently banned Sutherland Global Services and Sutherland Government Solutions from reverse mortgage servicing, required Sutherland Mortgage Services to overhaul its compliance, and ordered $11.5 million in consumer redress plus a $5 million civil penalty; NOVAD was likewise permanently banned from reverse mortgage servicing. Reverse mortgage borrowers who receive a notice claiming their loan is suddenly due should not assume it is accurate — they can contact their loan servicer directly using a number from an official statement (not the notice itself), request written confirmation of the specific default condition cited, and file a complaint with the CFPB if a servicer is unresponsive or the claim can't be substantiated.`,
+    categorySlug: 'mortgage-foreclosure-scams',
+    sources: ['Consumer Financial Protection Bureau (CFPB)'],
+    sourceUrl: 'https://www.consumerfinance.gov/archive/newsroom/cfpb-takes-action-against-sutherland-global-and-novad-management-consulting-for-reverse-mortgage-servicing-failures/',
+    country: 'US',
+    isHistorical: true,
+    firstRecorded: '2014-01-01',
+});
