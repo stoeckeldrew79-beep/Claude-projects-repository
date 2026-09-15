@@ -4125,3 +4125,16 @@ UsTZ.push({
     isHistorical: false,
     firstRecorded: '2026-09-09',
 });
+
+UsTZ.push({
+    name: 'Veterans Guardian VA Claim Consulting Illegal Fee Ruling',
+    slug: 'veterans-guardian-va-claim-consulting-illegal-fees',
+    description: `In Ford v. Veterans Guardian VA Claim Consulting, LLC, a certified nationwide class action in the U.S. District Court for the Middle District of North Carolina, Judge Catherine Eagles ruled on May 20, 2026 that Veterans Guardian, one of the largest VA disability-claims consulting firms in the country, violated federal law by acting as an unaccredited claims agent: preparing and presenting veterans' disability claims, collecting personal information, scheduling medical appointments, compiling evidence, and tracking submissions to the VA, all while charging fees for that work despite not being accredited to do so. Federal law caps what an accredited agent may charge at roughly 20% of any back-pay award and requires VA accreditation to charge anything at all for claim preparation or presentation; VA accreditation itself, plus help from Veterans Service Organizations like the VFW and American Legion, is free. Veterans Guardian instead charged clients roughly five times their monthly disability-compensation increase; one named plaintiff, a former Army intelligence analyst awarded 100% disability worth $4,272.80 a month, was billed $21,360, of which he had already paid over $19,000. The court found the company's conduct undisputed and unlawful as a matter of law. Veterans seeking help with a disability claim should use a VA-accredited representative or a Veterans Service Organization, both of which are free or capped by law, rather than a private "claim consulting" firm that charges a percentage of any award before confirming its own accreditation.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'high',
+    sources: ['Task & Purpose', 'U.S. District Court, Middle District of North Carolina'],
+    sourceUrl: 'https://taskandpurpose.com/news/va-claim-shark-court-ruling/',
+    country: 'US',
+    isHistorical: false,
+    firstRecorded: '2026-05-20',
+});

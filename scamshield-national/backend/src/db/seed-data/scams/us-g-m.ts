@@ -7483,3 +7483,17 @@ UsGM.push({
     isHistorical: false,
     firstRecorded: '2026-09-09',
 });
+
+UsGM.push({
+    name: 'Louisville Deed Theft and Vehicle Title Fraud Ring',
+    slug: 'kentucky-louisville-deed-theft-vehicle-title-fraud-ring',
+    description: `A federal grand jury in the Western District of Kentucky indicted Louisville residents Donnie Russell, Lisa Cunningham, Jerry Wagers, and Steven Jamesray Cates, along with Claude Oscar Cunningham III of Indiana, after a National Elder Justice Task Force and Kentucky Elder Justice Task Force investigation found the group conspired between April 2024 and June 2026 to create and file fraudulent deeds, seizing houses in Louisville, often targeting properties whose true owner had died without a will so no immediate heir was actively watching the title. Russell separately faces two counts of aggravated identity theft for forging the signatures of deceased homeowners onto the fraudulent deeds. Russell, Cunningham, and Cates are also charged with money laundering conspiracy for using false identities to obscure their role, and with a related mail fraud conspiracy for a parallel scheme running from January 2024 through July 2025 that used forged documents to obtain fraudulent Indiana vehicle titles. Defendants made initial appearances on August 19, 2026; the fraud and money-laundering counts each carry up to 20 years, plus a mandatory consecutive two years per aggravated-identity-theft count for Russell. Anyone who owns property that could sit vacant or unmonitored, especially an inherited home whose paperwork was never fully settled, should sign up for their county clerk's free deed-fraud alert service if one exists, and heirs to a deceased relative's property should confirm the deed is properly recorded in their name as soon as possible rather than leaving it in limbo.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'high',
+    sources: ['FBI Louisville Field Office', 'U.S. Attorney\'s Office, Western District of Kentucky'],
+    sourceUrl: 'https://www.fbi.gov/contact-us/field-offices/louisville/news/federal-grand-jury-indicts-five-for-fraud-and-money-laundering-related-to-deed-theft-and-vehicle-title-fraud',
+    country: 'US',
+    state: 'KY',
+    isHistorical: false,
+    firstRecorded: '2026-08-19',
+});
