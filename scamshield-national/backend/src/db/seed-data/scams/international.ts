@@ -19218,3 +19218,42 @@ International.push(
     firstRecorded: '2026-09-12',
   },
 );
+
+International.push(
+  {
+    name: 'Fake Bank-Transfer-Screenshot Car-Sale Fraud',
+    slug: 'denmark-fake-bank-transfer-screenshot-car-sale-fraud',
+    description:
+      'Copenhagen Police say a 38-year-old man is suspected in at least ten cases of fraud targeting private car sellers advertising on Danish online marketplaces. Posing as a buyer, he arranges an in-person handover, claims to send an instant bank transfer via netbank or mobile banking, and shows the seller a convincingly designed but fake screenshot of a completed transfer, sometimes using editing tools or banking-app test environments to mimic a real bank\'s interface down to the last detail. Citing time pressure, such as a train to catch or children waiting in the car, he then pressures the seller to hand over the keys and vehicle registration certificate immediately since "the money\'s already sent," before the seller can verify the funds actually arrived. The scheme unraveled in late April 2026 when one seller grew suspicious despite being shown the screenshot and refused to hand over his car, prompting a police report that uncovered roughly ten similar cases with an identical modus operandi; the suspect was arrested and brought before a preliminary hearing but was released by the court pending further investigation, with charges maintained. Sellers should never hand over a vehicle or its keys and registration until they have personally confirmed the money has actually landed in their own bank account, not merely been shown a screenshot on the buyer\'s phone.',
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'high',
+    sources: ['Københavns Politi (Copenhagen Police)'],
+    sourceUrl: 'https://www.fushinyheder.dk/38-aarig-mistaenkt-for-avanceret-bedrageri-ved-bilhandel-saadan-undgaar-du-at-blive-snydt/',
+    country: 'DK',
+    firstRecorded: '2026-05-14',
+  },
+  {
+    name: 'Fake ATP/Udbetaling Danmark Pension and Benefits Phishing Wave',
+    slug: 'denmark-atp-udbetaling-danmark-benefits-phishing-scam',
+    description:
+      "In July 2026, ATP (Arbejdsmarkedets Tillægspension, Denmark's mandatory supplementary labor-market pension fund) issued a public warning that criminals were mass-contacting Danish citizens by SMS, email, and phone while impersonating ATP and Udbetaling Danmark, the public agency that calculates and pays out state pensions and welfare benefits. The fake messages ask recipients to hand over their bank account number, MitID credentials, or other personal details, often under pressure to act quickly, and some contain fabricated look-alike websites or malicious attachments. ATP's guidance is that it and Udbetaling Danmark never request such information by text message, recipients should never click links or open attachments in these messages, and anyone unsure whether a message is genuine should contact the agencies directly through official channels rather than replying. The warning came against a backdrop of a broader SMS-fraud surge documented by Rigspolitiet's National Center for IT-Related Crime, which logged 1,367 reports of SMS-based fraud attempts in June 2026 alone, the highest monthly total the unit has ever recorded.",
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'high',
+    sources: ['ATP (Arbejdsmarkedets Tillægspension)', 'Ritzau', 'Kristeligt Dagblad'],
+    sourceUrl: 'https://www.kristeligt-dagblad.dk/danmark/svindlere-udgiver-sig-vaere-fra-atp-eller-udbetaling-danmark',
+    country: 'DK',
+    firstRecorded: '2026-07-22',
+  },
+  {
+    name: 'Fake Copenhagen Municipality Parking-Fine SMS Phishing Network',
+    slug: 'denmark-copenhagen-municipality-parking-fine-sms-phishing',
+    description:
+      'Starting around May 2026, a large-scale smishing campaign hit Danish phone users with SMS messages claiming the recipient owed an unpaid parking fine, complete with a link to what appeared to be a Københavns Kommune (Copenhagen Municipality) payment page bearing the city\'s official coat of arms and logo. The fake sites, deliberately set at a small, suspiciously low fine amount such as 17 kroner to make paying feel like the path of least resistance, asked victims to enter their license plate and payment card details, harvesting the data regardless of whether the payment appeared to go through. TjekDet, a Danish fact-checking outlet, identified more than 100 near-identical fraudulent domains tied to the same phishing infrastructure, which it linked to broader smishing campaigns that have swept Denmark in recent months and that also carried infrastructure previously abused to impersonate delivery company DAO and tax authorities. Copenhagen Municipality itself has publicly warned residents about the fake texts on its own website and Facebook page, confirming it never sends parking-fine notices by SMS with a payment link, and residents who receive one should delete it rather than click through, then verify any real fine directly through the municipality\'s official channels.',
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['TjekDet', 'Københavns Kommune (Copenhagen Municipality)'],
+    sourceUrl: 'https://www.tjekdet.dk/svindel/nej-du-har-ikke-faaet-en-boede-stor-boelge-af-parkeringssvindel-maalrettet-koebenhavn',
+    country: 'DK',
+    firstRecorded: '2026-05-18',
+  },
+);
