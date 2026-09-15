@@ -6316,6 +6316,9 @@ NotoriousNS.push(
     slug: 'charles-smethurst-dolphin-trust-german-property-group-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Estaci%C3%B3n_Central%2C_Berl%C3%ADn%2C_Alemania%2C_2016-04-21%2C_DD_43-45_HDR.JPG?width=1200',
+    coverImageCredit: 'Germany, where Dolphin Trust sold stakes in listed-building restorations. Photo: Diego Delso (CC BY-SA 4.0)',
+    coverImagePosition: 45,
     body: `Charles Smethurst, a British-German businessman, founded Dolphin Capital GmbH in Hanover, Germany, in 2008, renaming it Dolphin Trust in 2014 and German Property Group (GPG) in 2019. The pitch was built around a real and appealing niche: buying rundown but architecturally protected "listed" buildings across Germany, renovating them into apartments, and passing the proceeds — plus a valuable tax break Germany offers for restoring registered historic properties — on to investors who put up the capital. Marketed heavily to retirees and pension savers in the UK and Ireland through independent financial advisers, and later to investors across Russia, South Korea, and France, the scheme promised fixed returns of up to 15% and eventually drew in an estimated €1.3 to €1.5 billion (roughly $1.4 to $1.6 billion) from as many as 25,000 investors across some 75 separate property-development entities.
 
 According to Germany's insolvency administrator and the Hanover public prosecutor's office, the business stopped functioning as an actual property developer well before it collapsed. By around 2018, new money coming in from investors was being used to plug funding gaps in older, already-troubled projects rather than to complete the renovations those investors had actually paid for — the textbook structure of a Ponzi scheme, run underneath what looked, from the outside, like an ordinary real-estate development company. Of the 75 planned projects, only about 20 were ever completed and sold. When GPG finally filed for insolvency in July 2020, administrators found that somewhere between 150 and 200 of its project entities had stopped filing financial reports altogether, with at least 700 sets of annual accounts missing, and an estimated €800 million of investor money unaccounted for.
@@ -6333,6 +6336,9 @@ NotoriousNS.push(
     slug: 'adam-rundle-robinvest-safe-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Perth_(AU)%2C_View_from_Kings_Park_--_2019_--_0525-30.jpg?width=1200',
+    coverImageCredit: 'Australia, where Rundle posed as a licensed adviser using a borrowed identity. Photo: Dietmar Rabich (CC BY-SA 4.0)',
+    coverImagePosition: 45,
     body: `Note: this case is a civil complaint the SEC filed on September 10, 2026. Adam Rundle has not been criminally charged or convicted, and the allegations below reflect the SEC's complaint, not a court finding of liability.
 
 According to the Securities and Exchange Commission, Adam B. Rundle, then a Maryland resident, approached a prospective investor while impersonating a licensed securities professional — using another real person's name and credentials rather than his own — to sell what he described as a safe, guaranteed way to grow their money. The security he pitched was a Simple Agreement for Future Equity, or SAFE, a form of contract startups commonly use to raise early-stage funding in exchange for a future ownership stake, issued through Robinvest, LLC, a company Rundle created and personally controlled. Rundle told the investor the SAFE guaranteed the return of their full principal plus 4% compounded annual interest — a promise dressed in the language of a routine, low-risk fixed-income product.
@@ -6352,6 +6358,9 @@ NotoriousNS.push(
     slug: 'storm-financial-double-gearing-collapse',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'international'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Agrius_godarti_MHNT_2010_0_471_Townsville%2C_Queensland%2C_Australia_-_Male_dorsal.jpg?width=1200',
+    coverImageCredit: 'Townsville, where Storm Financial was founded. Photo: Didier Descouens (CC BY-SA 4.0)',
+    coverImagePosition: 45,
     body: `Emmanuel and Julie Cassimatis founded Storm Financial in Townsville, Queensland, in 1994 and built it over the following decade and a half into one of Australia's largest financial-planning networks, serving roughly 14,000 clients through branches across the country by 2008. Storm's signature product wasn't an exotic instrument or an offshore fund — it was a strategy the firm called "double gearing," marketed to ordinary retirees and pre-retirees as a reliable path to a comfortable retirement.
 
 Under the model, clients borrowed against the equity in their homes and then took out a further margin loan — often arranged through Macquarie Bank, the Commonwealth Bank of Australia, or the Bank of Queensland — to buy units in index funds, frequently through a Storm-badged fund product. As the value of those geared investments rose, Storm encouraged clients to take out additional "step" loans against the paper gains and reinvest again, compounding both the potential upside and the leverage. The advice was delivered as a one-size-fits-all formula rather than tailored to each client's age, risk tolerance, or capacity to absorb a downturn — a detail that later became central to the regulatory case against Storm's directors.
@@ -6371,6 +6380,9 @@ NotoriousNS.push(
     slug: 'nathans-finance-vtl-prospectus-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical', 'international'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Wellington_City_Night.jpg?width=1200',
+    coverImageCredit: 'New Zealand, where Nathans Finance raised money on its prospectus. Photo: Donovan Govan. (CC BY-SA 3.0)',
+    coverImagePosition: 45,
     body: `Nathans Finance NZ Ltd was the in-house finance arm of Vending Technologies Limited (VTL), a New Zealand vending-machine manufacturer, and it raised money from the public through debentures to help fund VTL's operations and growth. Like dozens of other New Zealand finance companies in the mid-2000s, Nathans marketed itself to ordinary retail investors as a straightforward, comparatively safe place to put savings, offering better returns than a bank term deposit in exchange for lending Nathans the money directly.
 
 The problem was what that money was actually being lent to. In its December 2006 prospectus and investment statement, and again in a March 2007 prospectus extension certificate, Nathans' directors told investors the company had "no bad debts," maintained "adequate liquidity," and held a "diversified" loan book managed under robust lending policies. In reality, a large and growing share of Nathans' lending was concentrated in loans to its own struggling parent company, VTL — the kind of related-party concentration that is close to the opposite of diversification, and exactly the risk a prospectus is supposed to disclose rather than paper over.
@@ -6390,6 +6402,9 @@ NotoriousNS.push(
     slug: 'andrew-skeene-global-forestry-investments-teak-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'international'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Hutan_Bojonegoro.jpg?width=1200',
+    coverImageCredit: 'A teak plantation of the kind investors were told they owned a plot of. Photo: Government of Bojonegoro, Indonesia (public domain)',
+    coverImagePosition: 50,
     body: `Global Forestry Investments, run by directors Andrew Skeene and Omari Bowers out of offices in London, Dubai, Abu Dhabi, and São Paulo, sold retail investors plots in three teak tree plantations in Brazil — marketed under names like Belem Sky, Para Sky, and Para Grosso Sky — pitched not just as a financial investment but as an ethical one, framed as protecting the Amazon rainforest and supporting local communities while paying annual returns of 10 to 20 percent. For a minimum investment of around £5,000, buyers were told they owned a specific, managed plot of real trees that would eventually be harvested for profit.
 
 The UK's Serious Fraud Office, working with Brazil's Ministério Público Federal, found the underlying operation didn't match the pitch. Investigators traced an "intricate web of money transfers, forged documents and invented identities" behind the plantations, and established that roughly £13 million of the roughly £37 million raised from more than 2,000 investors was diverted directly into Skeene and Bowers's personal accounts rather than into the trees, land, or management the marketing described. Most investors who received any return at all saw it stop after the first year, well before any teak could plausibly have matured enough to generate the income they'd been promised.
@@ -6407,6 +6422,9 @@ NotoriousNS.push(
     slug: 'thalbinder-shailu-poonian-ose-corp-pump-and-dump',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'international'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Vancouver_dusk_pano.jpg?width=1200',
+    coverImageCredit: 'British Columbia, where the Poonians ran the pump-and-dump. Photo: Mfield, Matthew Field, http://www.photography.mattfield.com (CC BY-SA 3.0)',
+    coverImagePosition: 45,
     body: `Thalbinder Singh Poonian and his wife, Shailu Poonian, ran a market manipulation scheme out of British Columbia that didn't just target ordinary retail investors — according to the province's securities regulator, it specifically targeted people who were already in financial trouble. Between 2007 and 2009, the Poonians and several associates, including Robert Joseph Leyk and Manjit and Perminder Sihota, quietly acquired roughly 88% of the shares of a small public company called OSE Corp., first through open-market purchases and private placements between May and December 2007.
 
 With effective control of the company's stock in hand, the group spent a two-week stretch from late December 2007 into early January 2008 running the company's share price up through wash trading — related parties trading the stock back and forth among themselves, often concentrated in the final thirty minutes of the trading day, to manufacture the appearance of real market demand where none existed. Over that short window, OSE Corp.'s share price climbed as much as 417%, from a small fraction of a dollar to a high of roughly $2.99. The Poonians then needed buyers for the inflated stock, and the British Columbia Securities Commission found they got them through Phoenix Credit Risk Management Consulting Inc., an Ontario credit-counseling firm the group paid roughly $2.5 million in commissions to steer its own clients into OSE shares — clients who were financially distressed, often living paycheck to paycheck, and were urged to tap locked-in retirement savings to buy stock at prices Poonian himself was effectively dictating. By March 31, 2009, OSE Corp.'s share price had collapsed to $0.08, wiping out the buyers who had been sold in at the top; the BCSC estimated victims lost roughly $7 million.
@@ -6426,6 +6444,9 @@ NotoriousNS.push(
     slug: 'otto-spork-sextant-capital-glacier-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical', 'international'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Brei%C3%B0amerkurj%C3%B6kull_glacier%2C_Iceland%2C_20240719_1319_2562.jpg?width=1200',
+    coverImageCredit: 'An Icelandic glacier. Sextant’s fund value rested on glacier water bottling. Photo: Jakub Hałun (CC BY 4.0)',
+    coverImagePosition: 50,
     body: `Otto Spork was a former dentist and TSX trader in Toronto when he founded Sextant Capital Management Inc. in 2006, launching a Canadian fund and two offshore siblings that together raised more than $80 million from roughly 250 Canadian and offshore investors. Sextant marketed itself as a sophisticated, diversified hedge fund, but by 2007 more than 90% of the funds' assets — far above the 20% single-issuer concentration limit the funds themselves disclosed to investors — were sunk into a single obscure bet: Iceland Glacier Products SA, a startup with no revenue that planned to bottle and sell melted glacier water, and which Spork himself effectively controlled.
 
 Because Iceland Glacier Products had no market price of its own, its value inside Sextant's books was whatever Spork's team said it was. An Ontario Securities Commission panel later found that between July 2007 and December 2008, Spork, Sextant vice president Konstantinos "Dino" Ekonomidis (his brother-in-law), and officer/director Natalie Spork (his daughter) repeatedly and knowingly inflated IGP's valuation on the funds' books, at one point telling investors the Canadian fund had gained 730% over two and a half years. The inflated valuations did two things at once: they made a nearly worthless, revenue-free startup look like a blockbuster investment, and they generated performance and management fees — totaling nearly $7 million — calculated as a percentage of a fund value that didn't actually exist. Investigators also found roughly $4 million had been funneled out of the funds as undisclosed "loans" that were used for personal benefit rather than fund business.
@@ -6443,6 +6464,9 @@ NotoriousNS.push(
     slug: 'lance-ryan-blackfortfx-christchurch-forex-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'international'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Christchurch_Art_Gallery%2C_Christchurch%2C_New_Zealand.jpg?width=1200',
+    coverImageCredit: 'Christchurch after the earthquakes, whose insurance payouts the scheme targeted. Photo: Michal Klajban (CC BY-SA 4.0)',
+    coverImagePosition: 50,
     body: `Christchurch, New Zealand was still rebuilding from the devastating 2010 and 2011 earthquakes when a company calling itself BlackfortFX began pitching local residents on foreign exchange trading. Many of the roughly 900 people who eventually invested were putting in money they had only recently received from the Earthquake Commission — insurance payouts meant to help them repair or rebuild their homes — drawn in by the promise of steady trading profits and by commissions the scheme paid to existing investors who brought in friends and neighbours. Between 2014 and 2015, BlackfortFX, operated through a company called Arena Capital Limited, took in roughly $8.3 million.
 
 There was no forex trading behind any of it. BlackfortFX's public face was Jimmie McNicholl, Arena Capital's sole shareholder and director, who the Serious Fraud Office (SFO) said obtained the company's registration as a financial services provider by deception — a registration that let BlackfortFX present itself to prospective investors as a properly licensed operation under New Zealand law, when no such legitimacy actually applied to what it was doing with their money. Behind McNicholl, prosecutors identified Lance Ryan, also known as Lance Jared Thompson, as the person who actually ran the scheme, generating fabricated account statements showing invented trading profits and using forged and falsified documents to keep the fiction going as investors' real money disappeared.
@@ -6462,6 +6486,9 @@ NotoriousNS.push(
     slug: 'david-natasha-sharpe-bridging-finance-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'international'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Sunset_Toronto_Skyline_Panorama_Crop_from_Snake_Island.jpg?width=1200',
+    coverImageCredit: 'Toronto, where Bridging Finance managed $2 billion before its collapse. Photo: Jchmrt (CC BY-SA 4.0)',
+    coverImagePosition: 45,
     body: `Bridging Finance Inc. was, at its peak, one of the largest private lenders in Canada, run out of Toronto by husband-and-wife team David Sharpe, its CEO, and Natasha Sharpe, its chief investment officer. Launched in 2012 with backing from the Coco family (owners of Coco Paving), Bridging built a business of short-term, high-interest loans to borrowers considered too risky for a bank, packaged into funds marketed to more than 26,000 retail and institutional investors as a steady, diversified alternative to conventional fixed income. By early 2021, Bridging managed roughly $2.1 billion.
 
 Ontario's Capital Markets Tribunal later found that David Sharpe, Natasha Sharpe, and chief compliance officer Andrew Mushore ran or participated in a series of undisclosed related-party deals that funneled investor money back to the people running the fund. In one transaction, an incoming part-owner named Gary Ng bought a 50% stake in Bridging for $50 million — funded in part by a $32 million loan out of one of Bridging's own credit funds — after which Ng paid the Sharpes a further $1 million. In another, the tribunal found David Sharpe used forged borrower signatures to disguise the true source of $40 million in client money used to buy out a partner's stake in a related fund. A separate borrower connected to Alberta rail developer Sean McCoshen funnelled a total of roughly $19.5 million to David Sharpe personally, largely routed through personal accounts, after Bridging funded loans to McCoshen's companies.
@@ -6539,6 +6566,9 @@ NotoriousNS.push({
     slug: 'phillip-nunn-patrick-mccreesh-blackmore-bond-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'international'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Marks_and_Spencer_Store%2C_Manchester_city_centre_-_geograph.org.uk_-_7373719.jpg?width=1200',
+    coverImageCredit: 'Manchester, where Blackmore Bond raised £46 million from retail investors. Photo: David Dixon (CC BY-SA 2.0)',
+    coverImagePosition: 45,
     body: `Phillip Nunn and Patrick McCreesh set up Blackmore Group Ltd in February 2016, and inside it built Blackmore Bond plc, a "mini-bond" issuer that promised UK retail investors fixed returns of up to 10% a year in exchange for money the company said would fund a pipeline of UK property developments. Blackmore Bond routed investor cash through sixteen wholly owned special-purpose vehicles, numbered Blackmore SPV 1 through SPV 16, each nominally tied to a different development site — a structure that gave the offering the appearance of a diversified, asset-backed portfolio rather than a single company's promise.
 
 Mini-bonds like Blackmore's sit largely outside UK financial regulation: because the bonds themselves are unregulated debt instruments, a firm issuing them does not need Financial Conduct Authority authorization for the underlying investment, even when a regulated introducer or marketer is used to bring in retail customers. That gap let Blackmore raise roughly £46 million from about 2,000 investors, many of them ordinary savers moving pension and retirement money into what marketing materials presented as a safe, property-backed alternative to a bank account. Financial professionals warned the FCA about Blackmore's sales tactics as early as 2017 and 2018, but the regulator took no action against the firm for years, and some of the developments the bonds were meant to fund were never built at all.
@@ -6556,6 +6586,9 @@ NotoriousNS.push({
     slug: 'victor-ogiemwonyi-partnership-securities-share-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'international'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Stock-exchange-trading-floor.jpg?width=1200',
+    coverImageCredit: 'Nigeria, where the shares were sold without the client’s knowledge. Photo: S.aderogba (CC BY-SA 4.0)',
+    coverImagePosition: 45,
     body: `Victor Ogiemwonyi was the chairman of Partnership Securities Limited, a Lagos stockbroking firm, when a client named Arnold Onyekwere Ekpe instructed the firm to sell 96,077,872 of his units of shares in Ecobank Transnational Incorporated (ETI), a major pan-African bank listed on the Nigerian Exchange. The shares sold for ₦1,296,885,311.02 — just over ₦1.29 billion. According to Nigeria's Economic and Financial Crimes Commission (EFCC), Ekpe received only ₦300 million of that back. The rest, along with roughly $80,000 in accrued dividends on the shares that belonged to him, was, prosecutors alleged, dishonestly diverted by Ogiemwonyi and his firm for their own use.
 
 Ekpe filed a petition with the EFCC in October 2016 after failing to recover his money, and the commission's Lagos Zonal Directorate 1 eventually arraigned Ogiemwonyi and Partnership Securities Limited on a two-count charge of stealing under Nigeria's Criminal Law of Lagos State. At trial before Justice Modupe Nicole-Clay of the Lagos State High Court in Ikeja, the prosecution, led by Ola Sesan, called five witnesses and tendered 67 exhibits. On January 21, 2026, the court found both Ogiemwonyi and his firm guilty on all counts, holding that the case against them — that they had sold a client's shares, paid him back only a fraction of the proceeds, and kept the balance along with dividends owed to him — had been proven.
@@ -6607,6 +6640,9 @@ NotoriousNS.push({
     slug: 'neil-paulson-help-the-vets-charity-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Ceremony_honoring_Vietnam_War_veterans_at_the_Vietnam_Veterans_Memorial_in_Washington%2C_March_29%2C_2025_-_9.jpg?width=1200',
+    coverImageCredit: 'Donations solicited for veterans mostly funded the charity’s own operators. Photo: 3d U.S. Infantry Regiment (The Old Guard) (public domain)',
+    coverImagePosition: 50,
     body: `Neil G. "Paul" Paulson Sr. ran a charity called Help The Vets, Inc. out of Bradenton, Florida, that told donors their gifts would fund grants for wounded and disabled veterans, medical care, a suicide-prevention program, and retreats for veterans recovering from combat stress — with one solicitation promising a donor that "your $10 gift will mean so much to a disabled veteran." Between 2014 and 2017, that pitch, delivered through telemarketers and direct-mail campaigns, brought in roughly $20 million from donors across the country.
 
 According to a complaint filed by the Federal Trade Commission and the attorneys general of Florida, California, Maryland, Minnesota, Ohio, and Oregon, almost none of that money reached veterans. The FTC found that in 2014 through 2016, about 95 percent of what Help The Vets collected went to professional fundraisers, administrative overhead, and Paulson's own salary and benefits — not to the programs described in the solicitations. To keep the money flowing even as its own reputation frayed, the charity operated under a rotating set of alternate names, including American Disabled Veterans Foundation, Military Families of America, Veterans Emergency Blood Bank, and Veterans Fighting Breast Cancer, and falsely told donors it carried a "gold" rating from the charity evaluator GuideStar.
@@ -6622,6 +6658,9 @@ NotoriousNS.push({
     slug: 'christophe-rocancourt-fake-rockefeller-con-man',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'international'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/%22Pr%C3%A8s_Choisis%2C%22_Albert_Herter_house%2C_Georgica_Pond%2C_East_Hampton%2C_New_York._Pathway_LCCN2008679242.jpg?width=1200',
+    coverImageCredit: 'The Hamptons, where Rocancourt passed himself off as a Rockefeller. Photo: Johnston, Frances Benjamin, 1864-1952, photographer; Hewitt, Mattie Edwards, 1869-1956, photographer (public domain)',
+    coverImagePosition: 50,
     body: `Christophe Rocancourt grew up in poverty outside Paris before reinventing himself, repeatedly, as someone else — a member of the Rockefeller family, an international businessman, a movie producer, even, at various points, the son of actress Sophia Loren. Under aliases including "Christopher Rockefeller," he moved through the social circles of the Hamptons, Los Angeles, and Vancouver in the late 1990s and early 2000s, using the borrowed weight of a famous American name to get close to wealthy people who had every reason to assume anyone claiming that pedigree was exactly who he said he was.
 
 Rocancourt had a well-established criminal record before he ever reached the United States: French authorities convicted him multiple times in the late 1980s and early 1990s on charges including forgery, theft, and fraud, and he served several prison terms in France. Once in North America, prosecutors say he defrauded roughly twenty victims of a combined $1.2 million through a string of advance-fee schemes — in one case collecting a $100,000 fee from a woman at New York's Waldorf-Astoria hotel in exchange for arranging a $4.2 million loan that never materialized, and in another taking $100,000 from a Canadian businessman on a deal that likewise went nowhere. He was arrested in British Columbia in 2001 after skipping out on a $19,000 bed-and-breakfast bill, pleaded guilty to Canadian fraud charges, and served roughly a year in a Canadian prison before being extradited to the United States in 2003 to face the American charges.
@@ -6637,6 +6676,9 @@ NotoriousNS.push({
     slug: 'daniel-reeve-kitchener-ontario-ponzi-scheme',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'international'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Kitchener_City_Hall_2015.jpg?width=1200',
+    coverImageCredit: 'Kitchener, Ontario, where Reeve ran the scheme. Photo: JustSomePics (CC BY-SA 4.0)',
+    coverImagePosition: 45,
     body: `Daniel P. Reeve built his reputation in Kitchener, Ontario, the ordinary way a financial planner does: as a licensed mutual fund representative who wrote about investing, gave seminars, and made media appearances discussing money management. That public profile, and the trust of long-time clients it built, gave him access to a much more private business he was running at the same time, through companies including Reeve Hotel and Resorts Inc., Celebrity Management International Inc., and Millionaire Mortgage Inc. Between January 1, 2007, and September 30, 2009, across roughly 70 separate transactions, Reeve solicited 41 investors — existing clients, referrals from friends and family, and people he'd met at his own seminars — encouraging many of them to cash out RRSPs or remortgage their homes to invest, on promises that the money would go into "low-risk," "no-risk," or outright "guaranteed" corporate bonds and private-equity arrangements paying 12 to 20 percent or more, ostensibly funding property renovations and business expansion.
 
 Investors ultimately handed Reeve close to $12 million. According to the court's later findings, the money was "almost immediately diverted" — not into the investments he'd described, but into Reeve's own accounts, spousal-support payments to his ex-wife, the operating costs of his failing companies, and payments back to earlier investors to keep the scheme looking solvent. By the time it collapsed, investors had lost approximately $10 million.
@@ -6671,6 +6713,9 @@ NotoriousNS.push({
     slug: 'henry-smith-supreme-roofing-fareham-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'international'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/184-196_Castle_Street.jpg?width=1200',
+    coverImageCredit: 'Fareham, Hampshire, where the roofing scheme returned to the same victims. Photo: Tim Sheerman-Chase (CC BY 2.0)',
+    coverImagePosition: 45,
     body: `Henry Smith, of Titchfield in Hampshire, targeted elderly men living alone, working a doorstep con that escalated in stages rather than all at once — a structure that made each individual demand feel small enough to pay rather than refuse. Between October 2022 and February 2023, prosecutors say, he knocked on the door of a 78-year-old man and offered to repair some slipped roof tiles for £2,800. Three other men then arrived at the property claiming to work for a company called "Supreme Roofing," inspected the loft, and reported rot and mould that supposedly required £21,000 of work — which the victim paid directly into Smith's own bank account. Once that payment had gone through, the same men returned to say they'd found additional rotten roof joists, demanding a further £26,000, which the victim also paid. In total, the first victim handed over £47,000 for repairs to a roof that had originally needed nothing more than a handful of tiles reset.
 
 A second, 80-year-old victim was worked the same way. Smith quoted £18,500 for tree, fence, and roof-tiling work, and the victim withdrew the money in cash and handed it over. Another man then turned up at the property, behaving aggressively and demanding a further £7,500 on top of what had already been paid. By the time the scheme against this victim ran its course, he had paid out £48,500 combined — and, as with the first victim, the promised work was never properly completed. The pattern in both cases was the same: an initial contact who seemed to be a single, ordinary tradesman, followed by other men who appeared once money was already flowing, each with a new reason the job had gotten bigger and more expensive than the homeowner had agreed to.
@@ -6686,6 +6731,9 @@ NotoriousNS.push({
     slug: 'declan-nowell-investing4you-forex-ponzi-scheme',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'international'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Sheffield_City_Centre_-_geograph.org.uk_-_3321447.jpg?width=1200',
+    coverImageCredit: 'England, where Investing4you raised £9 million on fake forex returns. Photo: Dave Pickersgill (CC BY-SA 2.0)',
+    coverImagePosition: 45,
     body: `Declan Joseph Nowell ran Investing4you Ltd out of Scunthorpe, North Lincolnshire, presenting himself to friends, neighbours, and their extended networks as a foreign-exchange trader skilled enough to turn ordinary savings into steady, growing returns. Word of mouth did most of the recruiting: investors were overwhelmingly drawn from Scunthorpe and North Lincolnshire, people who knew Nowell personally or knew someone who did, and who had no reason to doubt a local face rather than an anonymous website.
 
 Over a four-year period, according to a Crown Prosecution Service investigation, Investing4you took in £8,977,529.32 from hundreds of investors — but only £968,113 of that money was ever actually placed on a trading platform, and even that fraction lost roughly £300,000 rather than generating the profits Nowell was reporting. What investors saw instead were fabricated account statements showing consistent daily gains, the same reassuring paperwork at the heart of every Ponzi scheme: Nowell kept the operation looking solvent by repaying £7.3 million to investors out of money more recent investors had just deposited, rather than out of any genuine trading activity.

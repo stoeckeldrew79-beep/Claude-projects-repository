@@ -2764,6 +2764,9 @@ NotoriousTZ.push(
     slug: 'vetlink-solutions-veterans-disability-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Veterans_Administration_Building_-_Washington%2C_D.C.jpg?width=1200',
+    coverImageCredit: 'The VA twice told VetLink to stop filing the claims. Photo: APK (CC BY-SA 4.0)',
+    coverImagePosition: 45,
     body: `White Tanks Group LLC, doing business as VetLink Solutions, built a nationwide advertising business around a real and painful problem: veterans who believe the VA has under-rated their service-connected disability, and who don't know how to fight for a higher rating on their own. From approximately January 2019 through March 13, 2024, according to the Arizona Attorney General's Office, VetLink advertised that it could guide veterans through the disability-benefits claims process and deliver "unrealistic increases in benefits" — without disclosing that only accredited Veterans Service Organizations and VA-accredited representatives are legally authorized to charge for that kind of claims assistance in the first place, and that federal law generally bars charging a contingency fee tied to how much a veteran's benefits go up.
 
 VetLink charged them anyway. The Arizona Attorney General's lawsuit alleged the company used a contingency-fee structure explicitly built around a veteran's increased disability payments, with some individual fees reaching as high as $12,000. The U.S. Department of Veterans Affairs sent VetLink two separate cease-and-desist letters over its practices; according to the Attorney General's office, the company kept operating and kept charging veterans regardless, until it finally ceased operations on its own in 2024.
@@ -2784,6 +2787,9 @@ NotoriousTZ.push(
     slug: 'tiffany-yang-spread-ex-pig-butchering-scam',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Flushing_Main_Street.jpg?width=1200',
+    coverImageCredit: 'Flushing, Queens, where the "Spread Ex" operation was run from a condo. Photo: Pacific Coast Highway (public domain)',
+    coverImagePosition: 45,
     body: `In March 2023, a man began chatting online with someone who introduced herself as "Lily List." The conversation started on Facebook Messenger, and after several days the two moved it to WhatsApp — a switch to an end-to-end encrypted app that, according to the Queens District Attorney's Office, is a recurring feature of these schemes because it puts the conversation beyond easy reach of later investigation. Eventually, "Lily List" told him about a financial opportunity on a trading platform called Spread Ex Ltd., with a website that looked like a legitimate trading site and a URL close enough to a real financial and betting-services company, Spread Ex, to pass a casual glance.
 
 He wired money to what he believed was his own Spread Ex Ltd. account — 13 wire transfers between March 2023 and February 2024, totaling $1,086,244 — and for a while, the fraudulent website showed him exactly what he wanted to see: an account balance that kept growing. When he tried to withdraw his money, he couldn't. Soon after, the website disappeared entirely.
@@ -2805,6 +2811,9 @@ NotoriousTZ.push(
     slug: 'vanguard-holdings-group-bond-trading-ponzi-scheme',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Pacific_RR_Bond_SF_1865.jpeg?width=1200',
+    coverImageCredit: 'The scheme claimed to trade bonds on investors’ behalf. Photo: The original uploader was Centpacrr at English Wikipedia. (public domain)',
+    coverImagePosition: 50,
     body: `Starting around May 2021, Dallas-Fort Worth residents Kenneth W. Alexander II and Robert D. Welsh began raising money through a trust Alexander controlled called the Vanguard Holdings Group Irrevocable Trust, or VHG. According to a civil fraud complaint the Securities and Exchange Commission filed in April 2025, Alexander and Welsh told investors that VHG ran a highly profitable international bond-trading business with billions of dollars in assets, and offered a pitch built to sound both generous and safe at once: twelve guaranteed monthly payments of between 3 and 6 percent, with the full principal returned after fourteen months. To make that promise feel even more secure, the SEC says the pair also sold a supposed "pay order" instrument, marketed as a form of protection against losing the underlying investment — protection the SEC alleges was as illusory as the bond-trading business it was meant to insure.
 
 A third Dallas-Fort Worth resident, Caedrynn E. Conner, ran a parallel arm of the scheme through his own vehicle, the Benchmark Capital Holdings Irrevocable Trust. Rather than trade bonds himself, Conner is accused of funneling more than $46 million of the money he raised from his own investors directly into VHG, using a nearly identical guaranteed-return pitch to bring in new money that, per the SEC's complaint, ultimately financed payouts to earlier investors in classic Ponzi fashion. Between May 2021 and February 2024, the scheme raised at least $91 million from more than 200 investors, the SEC says, all funneled into an operation with no material legitimate source of revenue behind it.
@@ -2824,6 +2833,9 @@ NotoriousTZ.push(
     slug: 'tai-lopez-alex-mehr-retail-ecommerce-ventures-ponzi-scheme',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Puerto_Vallarta_Radio_Shack.jpg?width=1200',
+    coverImageCredit: 'A RadioShack storefront — the brand revival the notes were sold against. Photo: Coolcaesar at English Wikipedia (CC BY-SA 3.0)',
+    coverImagePosition: 50,
     body: `Tai Lopez built a career, and tens of millions of social-media followers, on a single viral advertisement: a 2015 video shot in front of a rented Lamborghini in his garage, promising viewers he could teach them the "67 steps" to wealth and knowledge for $67 a month. Long before that, he had worked in General Electric's financial-services arm and built a string of online dating websites — the kind of background he leaned on in 2019, when he and Alex Mehr, a co-founder of the dating app Zoosk, launched Retail Ecommerce Ventures (REV), built on a simple pitch: buy the trademarks and inventory of bankrupt, once-familiar retail brands out of Chapter 11 for pennies on the dollar, then relaunch them as online-only stores.
 
 Between 2020 and 2022, REV acquired RadioShack, Pier 1 Imports, Dressbarn, Modell's Sporting Goods, Linens 'n Things, and several other distressed brands, and Lopez and Mehr used their large online followings to raise roughly $112 million from hundreds of investors for the venture, according to the Securities and Exchange Commission. The SEC's complaint alleges investors were told the brands were "on fire" and generating strong cash flow, when in reality none of REV's portfolio companies was ever profitable — and that rather than disclose that, Lopez, Mehr, and REV's chief operating officer, Maya Burkenroad (also Lopez's cousin), kept the fundraising machine running by shuffling at least $5.9 million between the separate legal entities investors had put money into and using new investors' cash to make "Ponzi-like payments" to earlier ones, while diverting at least $16.1 million of investor money for Lopez's and Mehr's personal use.
@@ -2841,6 +2853,9 @@ NotoriousTZ.push(
     slug: 'anthony-torre-superannuation-theft-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'international'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/00_2013_Anlegesteg_(Jetty)_in_Derby%2C_Westaustralien.jpg?width=1200',
+    coverImageCredit: 'Derby, Western Australia, where the property deal never existed. Photo: W. Bulach (CC BY-SA 4.0)',
+    coverImagePosition: 50,
     body: `Anthony Paul Torre worked as a financial adviser in Perth, Western Australia, building the kind of long-running personal relationships with clients that the job depends on — several of the people he later stole from considered him a friend, not just an adviser. Between March 2010 and January 2015, Torre encouraged clients to move money out of their savings and superannuation accounts and into "projects" he said he was personally putting together, including a property proposal in the remote Kimberley town of Derby that, investigators later found, never actually eventuated.
 
 There was no property deal to fund. Torre had direct, unsupervised access to his clients' accounts, and used that access to take their money for himself while telling them it was being invested. To keep the arrangement looking legitimate for as long as possible, he paid some clients regular "interest" on their supposed investment — money that, per Australia's corporate regulator ASIC, actually came from other clients' funds rather than any real return, the same recycling mechanic that keeps a Ponzi scheme afloat between the moments a victim asks for their money back. His victims included three couples, one individual, and one company; one couple in their sixties lost $500,000, and a man in his sixties had $150,000 taken, out of a total of $1,030,000 stolen across the five-year scheme.
@@ -2858,6 +2873,9 @@ NotoriousTZ.push(
     slug: 'craig-warriner-bhi-trust-ponzi-scheme',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'international'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Jacaranda_City%2C_Tshwane%2C_Pretoria%2C_South_Africa_(2418526898).jpg?width=1200',
+    coverImageCredit: 'South Africa, where the BHI Trust ran for years on word-of-mouth trust. Photo: South African Tourism from South Africa (CC BY 2.0)',
+    coverImagePosition: 45,
     body: `Craig Warriner was a co-trustee of the BHI Trust, a South African investment vehicle that told investors their money was being traded in JSE-listed securities and money-market instruments — ordinary, verifiable asset classes rather than anything exotic. Running for well over a decade, BHI attracted more than 200 investors, many of them pensioners who put in their life savings on the strength of Warriner's steady, above-market returns and the trust's low-key, unglamorous investment pitch.
 
 The trading was mostly fiction. A forensic investigation later found that Warriner had collected roughly R2.9 billion in investments since January 2020 alone, but that less than a fifth of that money was ever actually deployed into real JSE securities or money-market positions. The rest was used the way every Ponzi scheme uses new money: to pay "returns" to investors who wanted to withdraw, manufacturing years of consistent, believable statements while the trust's real trading book never came close to justifying them.
@@ -2877,6 +2895,9 @@ NotoriousTZ.push(
     slug: 'toby-whittaker-store-first-pension-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'international'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Open_Empty_Storage_Unit.webp?width=1200',
+    coverImageCredit: 'Storage pods sold into pensions as an income-producing asset. Photo: Jiwoahn (public domain)',
+    coverImagePosition: 50,
     body: `Note: this profile describes a pending UK criminal prosecution. Toby Whittaker and his co-defendants have been charged but not yet tried, and a charge is only an accusation, not evidence of guilt. All defendants are presumed innocent unless and until proven guilty at trial, and Whittaker's legal team has said he "vehemently denies any wrongdoing" and intends to contest the case in full.
 
 Toby Whittaker was the Lancashire-based owner of Store First, a company that sold self-storage units across sites in England and Scotland as an investment product rather than simply a place to store belongings. Between 2011 and 2014, Store First and firms working alongside it persuaded more than 1,900 people to transfer money out of their pensions into self-invested personal pensions (SIPPs) specifically so it could be used to buy storage units, on the promise that each unit would be leased back long-term and generate a steady rental income — pitched, in effect, as a pension-friendly alternative to a conventional annuity or fund.
@@ -2896,6 +2917,9 @@ NotoriousTZ.push(
     slug: 'mina-tadrus-ai-hedge-fund-coptic-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Saint_Mark\'s_Coptic_Orthodox_Cathedral%2C_Azbakeya_-_interior_06.jpg?width=1200',
+    coverImageCredit: 'Tadrus raised money from members of his own Coptic church community. Photo: Marsupium (CC BY-SA 4.0)',
+    coverImagePosition: 50,
     body: `Mina Tadrus was a FINRA-registered stockbroker in Tampa, Florida, when he founded Tadrus Capital LLC in June 2020 and began pitching it as an artificial intelligence-driven hedge fund — one that used algorithmic trading models to generate returns he described as effectively guaranteed and "recession-proof." He pitched interests in the fund's affiliated limited partnership to people who had every reason to trust him: family, friends, and fellow members of the Egyptian-American Coptic Christian community he belonged to, a group bound by close social and religious ties that made a personal recommendation carry far more weight than a prospectus ever could.
 
 Between September 2020 and July 2023, at least 31 investors put more than $5.7 million into Tadrus Capital on the strength of that pitch. According to the Securities and Exchange Commission and federal prosecutors in Brooklyn, almost none of it went where he said it would: less than one percent of investor funds was ever used for legitimate trading, and none of that trading involved the AI-based strategy Tadrus had advertised. Instead, he used roughly $1.7 million of investor money to pay other investors their promised "returns" in classic Ponzi fashion, and spent the rest on himself, his employees, and his own personal expenses.
@@ -2913,6 +2937,9 @@ NotoriousTZ.push(
     slug: 'thomas-aroha-tuira-christchurch-ponzi-scheme',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'international'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Town_hall%2C_Christchurch_City%2C_New_Zealand.jpg?width=1200',
+    coverImageCredit: 'Christchurch, where the scheme spread through a Māori community. Photo: Michal Klajban (CC BY-SA 4.0)',
+    coverImagePosition: 45,
     body: `Thomas Alexander Kokouri Tuira, known as Alex Tuira, and his wife Aroha Awhinanui Tuira presented themselves to friends, whānau, and acquaintances around Christchurch, New Zealand, as experienced, well-connected investors who could put people's money to work and deliver steady returns. Thomas reinforced the image with claims of personal connections to high-profile figures, including basketball legend Michael Jordan and motivational speaker Tony Robbins — the kind of name-dropping meant to signal access and credibility to people who had no way to check it.
 
 Between May 2014 and May 2021, the couple took in roughly $3.9 million New Zealand dollars from more than 55 investors across 106 separate transactions, according to New Zealand's Serious Fraud Office. The pair primarily targeted Māori communities, leaning on close personal relationships and whakawhanaungatanga — the relational trust and sense of obligation that comes with shared community ties — with many of their victims having little prior investment experience and no independent way to verify what, if anything, was actually being done with their money. In reality, the Tuiras did not invest the funds or run any real investment business; they operated a Ponzi-type arrangement, using money from newer investors to pay obligations to earlier ones, while directing a share of the funds to their own personal spending.
@@ -2980,6 +3007,9 @@ NotoriousTZ.push({
     slug: 'william-tierney-scam-political-action-committees',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/US_Capitol_west_side.JPG?width=1200',
+    coverImageCredit: 'Donors gave to political action committees that spent almost nothing on politics. Photo: Martin Falbisoner (CC BY-SA 3.0)',
+    coverImagePosition: 45,
     body: `William Tierney, an Arizona man, spent the years between 2014 and 2017 founding, controlling, and operating a network of political action committees with names built to appeal to conservative donors — pitched around causes like supporting law enforcement, autism awareness, and opposition to abortion. According to federal prosecutors, Tierney directly founded and ran six of these PACs and exerted influence over three more, and the network collectively raised more than $23 million from tens of thousands of small-dollar donors nationwide.
 
 The money was never really going where donors were told. Prosecutors alleged that of the more than $23 million raised, only about $109,000 — roughly half of one percent — actually went to the candidates and causes the PACs claimed to support. The rest funded the fundraising operation itself and Tierney's own enrichment: telemarketers and mail solicitations soliciting the next round of donations, and personal spending unconnected to any political purpose. To keep the operation running while shielding his own name from vendors and donors, Tierney used fabricated identities in his dealings — presenting himself to vendors as "Bill Johnson" and signing fundraising solicitations as "Emma Smith," aliases that let him direct the PACs' money and messaging without his own name attached to the operation donors were actually funding.
@@ -3010,6 +3040,9 @@ NotoriousTZ.push({
     slug: 'kenny-dirk-van-der-spek-k-and-k-strategies-ponzi-scheme',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'international'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/DSC00366%2C_Canal_Cruise%2C_Amsterdam%2C_Netherlands_(339042208).jpg?width=1200',
+    coverImageCredit: 'The "hedge fund" took investor money but never actually traded. Photo: Lyn Gateley from Silicon Valley, CA, USA (CC BY 2.0)',
+    coverImagePosition: 45,
     body: `Kenny Dirk Van Der Spek, a Belgian national living in Utah, marketed himself through K & K Strategies LLC as an unlicensed hedge fund manager — someone who could take a client's money and grow it through skilled trading. Unlike schemes built around wealthy investors, Van Der Spek cast a wide net: he specifically targeted people with smaller amounts of savings, accepting investments as low as $500, expanding his pool of potential victims far beyond what a fund with a high buy-in could reach.
 
 To keep those investors believing their money was working for them, Van Der Spek showed them fabricated financial records and what he presented as a "live stream" of his trades — a piece of theater designed to make an entirely fictional trading operation look transparent and verifiable in real time. Between December 2017 and November 2023, that combination of easy entry and staged proof of performance brought in roughly $5 million from about 75 investors. More than $3 million of it went toward Van Der Spek's own personal luxuries rather than into any market.
