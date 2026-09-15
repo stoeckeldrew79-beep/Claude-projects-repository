@@ -9649,6 +9649,9 @@ NotoriousGM.push({
     slug: 'john-robert-leake-nfl-linebacker-ponzi-scheme',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/John_Leake_Falcons.jpg?width=1200',
+    coverImageCredit: 'Photo: Keith Allison, CC BY-SA 2.0, via Wikimedia Commons — Leake playing linebacker for the Atlanta Falcons in 2006',
+    coverImagePosition: 25,
     body: `John Robert Leake spent two seasons in the NFL as a linebacker, with the Atlanta Falcons and later the Green Bay Packers, before building a second, considerably less legitimate career: a five-year Ponzi scheme run on the promise of luxury real estate deals and gold mines in Alaska and Ghana that, according to federal prosecutors, mostly didn't exist as he described them.
 
 From June 2015 to March 2020, Leake solicited money from at least six victims by claiming he was involved in a series of lucrative ventures — subletting luxury real estate properties, direct real estate investing, and gold mining operations among them — and offered them the chance to loan him money in exchange for high returns. He backed the pitch with fabricated promissory notes and claims about his own substantial personal wealth and business success. "Leake's lies to his victims included his claims that his business ventures were successful, and he had accumulated substantial personal assets and income," the Department of Justice said. In reality, prosecutors found, the investment opportunities were often fabricated or nonexistent, devised specifically to draw money from victims.
@@ -9730,6 +9733,9 @@ NotoriousGM.push({
     slug: 'kerr-kriisa-fake-family-emergency-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Kerr_Kriisa_(cropped).jpg?width=1200',
+    coverImageCredit: 'Photo: Marc-Grégor Campredon / MGoBlog, CC BY-SA 2.0, via Wikimedia Commons — Kriisa during the 2021–22 NCAA basketball season',
+    coverImagePosition: 20,
     body: `Kerr Kriisa spent six seasons as a college basketball guard — at Arizona, West Virginia, Kentucky, and Cincinnati — building a reputation as a feisty, long-range shooter and a fan favorite along the way. According to a federal indictment unsealed July 7, 2026, he was allegedly running a very different kind of long game at the same time: a four-year scheme in which he impersonated his own mother and other people to extract nearly $2.2 million from at least two victims under the guise of family medical and financial emergencies.
 
 Prosecutors allege that from 2022 through June 2026, Kriisa contacted one victim while posing as his mother, describing an urgent need for money to cover cancer treatment and farm expenses. When the victim eventually pressed for repayment, Kriisa allegedly signed a written agreement in April 2025 promising to pay back $100,000 by February 2026 — a promise prosecutors say was never kept. A second victim, contacted between November 2025 and February 2026, was allegedly targeted through an entirely fabricated identity: a persona named "Irene," used to request money under a different set of invented circumstances. A federal grand jury in West Virginia indicted Kriisa on five counts of wire fraud, and he was arrested in Kentucky and expected to appear in federal court to face the charges.
