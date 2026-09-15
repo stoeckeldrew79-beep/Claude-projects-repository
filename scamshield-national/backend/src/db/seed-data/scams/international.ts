@@ -19399,3 +19399,40 @@ International.push(
     firstRecorded: '2026-05-20',
   },
 );
+
+International.push(
+  {
+    name: 'Voice-Cloned Bank and Police Impersonation Calls',
+    slug: 'moldova-voice-clone-bank-police-impersonation-calls',
+    description:
+      'In May 2026 the National Bank of Moldova (BNM) issued an urgent public warning about a rapidly escalating phone-fraud scheme in which criminals use IP telephony to mask their true origin and number-spoofing to display legitimate-looking local numbers, increasingly combined with AI voice cloning to sound like real bank or police personnel. Callers, posing as bank employees or law-enforcement officers, falsely tell victims that a fraudulent loan has been taken out in their name or that their savings are implicated in a criminal investigation, then pressure them to "legalize" or protect their money by withdrawing it and transferring it to a supposedly "safe account," or handing cash to a courier. Radu Habașescu, Deputy Director of BNM\'s Payment Systems Department, said this tactic alone caused approximately €1.53 million (about 30 million lei) in losses over just a two-week period in May 2026, with hundreds of residents targeted, and noted fraudsters deliberately move victims onto encrypted apps like Telegram or WhatsApp mid-call to frustrate investigation. BNM stressed that no licensed bank, public institution, or law-enforcement authority will ever request codes, passwords, full card details, or a transfer to a "safe account" by phone, SMS, or messaging app, and urged anyone contacted this way to hang up immediately, verify independently using an officially published number, block their card via their banking app if any details were disclosed, and call 112 or their bank.',
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['National Bank of Moldova (BNM)', 'Radio Moldova'],
+    sourceUrl: 'https://radiomoldova.md/p/77562/moldova-s-central-bank-warns-of-sophisticated-digital-fraud',
+    country: 'MD',
+    firstRecorded: '2026-05-01',
+  },
+  {
+    name: 'Poșta Moldovei Package Delivery Smishing Scam',
+    slug: 'moldova-posta-moldovei-smishing-scam',
+    description:
+      'Î.S. "Poșta Moldovei," Moldova\'s state postal operator, warns of an ongoing SMS phishing ("smishing") campaign in which fraudsters send text messages impersonating the postal service, claiming the recipient has a package or letter awaiting delivery and must act to receive it. The message contains a link to a counterfeit site built to mimic the real posta.md, which prompts the victim to enter personal information and full bank card details, ostensibly to "confirm" or "update" delivery data, or to pay a small redelivery or customs fee. Poșta Moldovei states explicitly that it never requests personal or banking data through SMS, email, or phone, and, notably, that it does not reimburse people who enter their data on these fraudulent sites, putting the loss entirely on the victim once card details are submitted. Moldovan Police separately issued their own public warning about fraud schemes abusing Poșta Moldovei\'s identity, corroborating that this is an active, recognized pattern rather than an isolated incident. Poșta Moldovei\'s advice: never click the link, block the sending number, contact your bank immediately if you entered card data, monitor your account, and change your passwords.',
+    categorySlug: 'package-delivery-scams',
+    alertLevel: 'medium',
+    sources: ['Poșta Moldovei (Î.S. "Poșta Moldovei")', 'Moldovan Police (Poliția Moldovei)'],
+    sourceUrl: 'https://posta.md/ro/news/escrocherii-prin-intermediul-mesajelor-sms-nu-accesati-linkul-primit-si-nu-introduceti-datele-cardului-bancar-6n2w9tzk1a',
+    country: 'MD',
+  },
+  {
+    name: 'Fake Investment Platforms Using Deepfaked Public Officials',
+    slug: 'moldova-cnpf-deepfake-official-investment-platforms',
+    description:
+      'Moldova\'s National Commission for Financial Markets (CNPF) issued an official warning about online "investment" platforms, named specifically as "Harmony Bitspire" and "Nexura AI," being promoted through misleading ads on social media and cloned websites. The schemes fabricate images, videos, and documents falsely showing well-known Moldovan public figures, including President Maia Sandu, former President Mircea Snegur, and economist Alexandru Munteanu, appearing to personally endorse the platforms, and also imitate the visual identity and logos of legitimate media outlets to manufacture credibility. CNPF said the promotions additionally invoke nonexistent government programs, falsely invoke "AI" branding to sound cutting-edge, and apply artificial "limited-time offer" urgency, all aimed at pressuring people into transferring money or handing over banking details and SMS confirmation codes to platforms that do not actually invest the funds. CNPF stated flatly that these endorsements are fabricated and that the named public figures never made such statements or partnerships, and urged the public to independently verify any investment opportunity before acting, never share banking data, personal information, or confirmation codes with unknown platforms, and report suspicious schemes to CNPF or the police.',
+    categorySlug: 'ai-deepfake-scams',
+    alertLevel: 'high',
+    sources: ['National Commission for Financial Markets (CNPF)', 'TVR Moldova'],
+    sourceUrl: 'https://tvrmoldova.md/article/955b27564ffd6871/alerta-de-frauda-platforme-false-de-investitii-folosesc-imaginea-unor-oficiali-si-a-presei.html',
+    country: 'MD',
+  },
+);
