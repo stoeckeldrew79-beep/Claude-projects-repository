@@ -127,6 +127,7 @@ function ArticleForm() {
     mutationFn: createArticle,
     onSuccess: () => {
       queryClient.invalidateQueries({ queryKey: ['articles'] });
+      queryClient.invalidateQueries({ queryKey: ['article'] });
       setTitle('');
       setBody('');
       setAuthor('');
@@ -221,7 +222,14 @@ function ArticleCoverPhotos({ tag, heading, subject }: { tag: string; heading: s
       source: string;
       position: number;
     }) => updateArticleCoverImage(id, url, credit, source, position),
-    onSuccess: () => queryClient.invalidateQueries({ queryKey: ['articles'] }),
+    onSuccess: () => {
+      // Public article-detail pages key their query as ['article', slug]
+      // (singular) — a plain ['articles'] invalidation never touches that
+      // cache, so a save here could look successful yet leave an already-
+      // open detail page showing the old photo until a hard reload.
+      queryClient.invalidateQueries({ queryKey: ['articles'] });
+      queryClient.invalidateQueries({ queryKey: ['article'] });
+    },
   });
 
   if (!user) return null;
