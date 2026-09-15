@@ -8525,3 +8525,31 @@ UsAF.push({
     sourceUrl: "https://consumer.ftc.gov/consumer-alerts/2026/06/how-spot-captcha-scam",
     country: "US",
 });
+
+UsAF.push({
+    name: "Debt Parking on Credit Reports Without Contact",
+    slug: "debt-parking-silent-credit-report-scheme",
+    description:
+      "\"Debt parking\" (also called \"passive debt collection\") is a scheme in which a debt collector reports a purported debt directly to the three major credit bureaus without ever first calling, mailing, or otherwise contacting the consumer to try to collect it, so a person's credit score drops from a debt they never had a chance to dispute, verify, or even learn about, often discovered only when they apply for a car loan, a mortgage, a credit card, or a job. The FTC's first enforcement action against the practice, filed against Missouri-based Midwest Recovery Systems, LLC and its owner Brandon Tumber, found the company had placed bogus or highly questionable debts on consumers' credit reports this way, collecting more than $24 million from people who often paid simply to get the derogatory mark removed rather than fight it; an FTC review found 80% to 97% of the debts the company investigated were inaccurate or invalid outright, meaning they were fabricated, already paid, discharged in bankruptcy, or belonged to someone else entirely. Under the November 2020 settlement, Midwest Recovery was permanently barred from debt parking, ordered to contact every credit bureau it had reported to and delete all the debts in question, and hit with a $24.3 million judgment (partially suspended for inability to pay), while Tumber personally had to pay $56,748 and divest his stake in another debt-collection company. The Consumer Financial Protection Bureau separately closed the underlying legal gap in its 2021 debt-collection rule (Regulation F), which restricts when and how a collector may furnish information to a credit bureau specifically to curb this \"report first, ask never\" tactic, and consumer-advocacy reporting confirms the pattern is still being flagged as an active problem. Anyone can check for a debt-parked account by pulling a free credit report at AnnualCreditReport.com; a debt collector is legally required under the Fair Debt Collection Practices Act to provide written validation of any debt before you pay it, and never having been contacted at all is itself grounds to dispute the entry with the credit bureau immediately.",
+    categorySlug: "legal-debt-collection",
+    alertLevel: "medium",
+    sources: ["Federal Trade Commission (FTC)", "Consumer Financial Protection Bureau (CFPB)"],
+    sourceUrl: "https://www.ftc.gov/news-events/news/press-releases/2020/11/ftc-stops-debt-collectors-alleged-debt-parking-scheme-requires-it-delete-debts-it-placed-consumers",
+    country: "US",
+    isHistorical: false,
+    firstRecorded: "2020-11-30",
+});
+
+UsAF.push({
+    name: "Booking.com \"Taxes and Fees\" Hidden Charge Scheme",
+    slug: "booking-holdings-hidden-hotel-fee-settlement",
+    description:
+      "Booking Holdings Inc., which operates Booking.com, Priceline.com, and Kayak.com, advertised an initial hotel room rate to Texas shoppers that was not actually the full price they would pay, then bundled mandatory add-on charges together with real, government-owed lodging taxes into a single vague \"Taxes and Fees\" line shown late in the checkout flow, making it impossible for a consumer to tell how much of that number was an actual tax versus a company-added fee, or to compare the true all-in cost against a competitor's listed rate. Texas Attorney General Ken Paxton filed suit and announced a settlement on August 19, 2025 in which Booking Holdings agreed to pay $9.5 million, which Paxton's office described as the largest amount any state has recovered from a hotel-booking platform over \"junk fee\" practices, and required the company to disclose all fees added to a room's advertised price upfront so consumers can accurately compare total costs before booking. \"Deceiving Texans by hiding fees is both a deeply unethical business practice and a violation of the law,\" Paxton said in announcing the resolution; a Booking spokesperson said the company disagreed with the state's characterization and denied any unlawful or deceptive practice. The case runs alongside the FTC's own nationwide Rule on Unfair or Deceptive Fees, which took effect May 12, 2025 and separately requires short-term lodging platforms to disclose the total price of a stay, including all mandatory fees, clearly and conspicuously before checkout rather than revealing add-on charges only deep into the payment flow. Travelers should look at a hotel booking site's full, itemized price breakdown rather than the headline nightly rate before entering any payment information, and should treat an unitemized \"Taxes and Fees\" line, one that doesn't separately show what portion is an actual government tax, as a sign the advertised price may not reflect what will actually be charged.",
+    categorySlug: "travel-vacation-scams",
+    alertLevel: "medium",
+    sources: ["Texas Attorney General", "ConsumerAffairs", "Federal Trade Commission Junk Fee Rule"],
+    sourceUrl: "https://www.texasattorneygeneral.gov/news/releases/attorney-general-ken-paxton-secures-historic-95-million-settlement-booking-engaging-deceptive-junk",
+    country: "US",
+    isHistorical: false,
+    firstRecorded: "2025-08-19",
+});
