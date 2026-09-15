@@ -19468,6 +19468,61 @@ International.push(
     sourceUrl: 'https://www.techzim.co.zw/2025/01/digital-deception-the-rise-of-social-media-romance-scams-in-zimbabwe/',
     country: 'ZW',
   },
+  {
+    name: 'Fake UNICEF South Sudan Job Recruitment Scam',
+    slug: 'fake-unicef-jobs-south-sudan',
+    description:
+      'A social-media post impersonating UNICEF South Sudan advertised more than 8,000 job openings across all ten of the country\'s states, shown as an image graphic rather than a real listing on any official careers site. Applicants were instructed to send cover letters, CVs, and copies of their national ID to a personal Gmail address instead of UNICEF\'s actual recruitment portal. UNICEF South Sudan\'s communications officer, Richard Ruati, confirmed the postings were fake, stating "these adverts, emails and slogans are fake, and no one should recognize them," and that UNICEF releases job openings only through jobs.unicef.org and never solicits applications by email. Job seekers should treat any job posting shared only as an image, requesting documents sent to a personal email address, as a red flag, and verify openings directly on an organization\'s official careers page before submitting any personal identification.',
+    categorySlug: 'employment-scams',
+    alertLevel: 'medium',
+    sources: ['211Check'],
+    sourceUrl: 'https://www.211check.org/post/scam-alert-these-unicef-south-sudan-career-opportunities-are-fake',
+    country: 'SS',
+  },
+  {
+    name: 'Fake Ministry of Finance Business Grant Scam',
+    slug: 'fake-ministry-finance-business-grant-south-sudan',
+    description:
+      'A Facebook page impersonating South Sudan\'s Ministry of Finance and Planning advertised grants of up to $3 million for entrepreneurs and farmers, falsely claiming the program was run in partnership with USAID and the Global Entrepreneurship Network. Interested applicants were directed to a Google Form requesting their name, phone number, email address, physical location, and business plan details. A media official from the real Ministry of Finance and Planning confirmed to fact-checkers that "the grant is a hoax," and 211Check noted the fake page had been created years after the genuine ministry account, a pattern that recurred: it was the second nearly identical version of this scam the organization had debunked within a two-month span. No legitimate government grant program requires applicants to submit personal details through an unofficial third-party form found via a social media ad, and any such offer should be verified directly with the named agency through its official channels before any information is submitted.',
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['211Check'],
+    sourceUrl: 'https://www.211check.org/post/fact-check-business-grant-scam-in-south-sudan-resurfaces-on-facebook',
+    country: 'SS',
+  },
+  {
+    name: 'Fake Electronics Store and Courier "Customs Fee" Scam',
+    slug: 'fake-electronics-courier-scam-south-sudan',
+    description:
+      'A Facebook storefront impersonating a legitimate U.S. electronics brand advertised products to South Sudanese shoppers, then moved the conversation to WhatsApp, where a buyer was instructed to pay through Kenyan M-Pesa mobile-money numbers rather than any traceable, buyer-protected payment method. After payment, the seller provided a tracking number tied to a fake logistics company with a barely-functional website — investigators later found it scored 1.5 out of 100 on standard scam-detection tools — which then demanded an additional "customs fee" before it would release the supposed package. The buyer paid both charges, never received any merchandise, and was ignored by both the seller and the fake courier once the second payment cleared, with 211Check\'s investigation describing the two roles as "a cleverly concealed team effort" working together to extract multiple payments from the same victim. Any online seller that moves payment off a platform\'s buyer-protected checkout and onto a mobile-money transfer, followed by a surprise fee demanded after tracking information is issued but before delivery, should be treated as a strong sign of fraud rather than a normal customs formality.',
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'high',
+    sources: ['211Check'],
+    sourceUrl: 'https://www.211check.org/post/online-fraud-a-case-study-of-smk-electronics-corporation-and-prime-express-logistics',
+    country: 'SS',
+  },
+  {
+    name: 'Fake Entities Impersonating Licensed Comorian Financial Institutions',
+    slug: 'comoros-fake-financial-institution-impersonation',
+    description:
+      'The Central Bank of the Comoros (Banque Centrale des Comores) issued a formal communiqué on December 8, 2025 warning that certain entities were falsely claiming, without any authorization, to be financial organizations or institutions operating under Comorian credentials, using that false status to gain public trust and access to financial transactions. The bank stated plainly that only institutions it has formally licensed may legally conduct banking or financial activity in the Comoros, and urged anyone approached by such an entity to verify its authorization directly with the Central Bank before transacting or handing over any money.',
+    categorySlug: 'investment-fraud',
+    alertLevel: 'medium',
+    sources: ['Banque Centrale des Comores'],
+    sourceUrl: 'https://banque-comores.km/article/show/communique-du-8-decembre-2025',
+    country: 'KM',
+  },
+  {
+    name: 'SONELEC Utility Agent Impersonation Fraud',
+    slug: 'comoros-sonelec-agent-impersonation-fraud',
+    description:
+      'SONELEC, the Comorian national electricity utility, issued a public fraud alert in August 2023 naming a man from Iconi, Ibrahim Abdallah, known by the alias "Djabir," who impersonated the identity and credentials of a genuine SONELEC agent to deceive customers into making fraudulent payments. SONELEC described the scheme as fraud carried out on a large scale against its own customers, warning that the impersonation harmed both the defrauded customers directly and public trust in the utility more broadly, and urged customers to verify any agent\'s identity and credentials directly with SONELEC before making any payment to someone claiming to represent the company.',
+    categorySlug: 'utility-scams',
+    alertLevel: 'medium',
+    sources: ['Comores Infos', 'SONELEC (Société Nationale d\'Électricité)'],
+    sourceUrl: 'https://www.comoresinfos.net/escroquerie-a-grande-echelle-la-sonelec-alerte-sur-les-agissements-dibrahim-abdallah-le-faussaire-de-confiance/',
+    country: 'KM',
+  },
 );
 
 International.push({
