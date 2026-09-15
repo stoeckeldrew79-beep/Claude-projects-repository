@@ -16,6 +16,9 @@ export function useApproveDraft() {
     onSuccess: () => {
       queryClient.invalidateQueries({ queryKey: ['articles', 'drafts'] });
       queryClient.invalidateQueries({ queryKey: ['articles'] });
+      // Public article-detail pages key their query as ['article', slug]
+      // (singular), which a plain ['articles'] invalidation never matches.
+      queryClient.invalidateQueries({ queryKey: ['article'] });
     },
   });
 }
