@@ -480,9 +480,8 @@ Anyone who suspects they've been targeted by a phishing attempt referencing this
     slug: "france-titres-ants-2026-data-breach-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "france-titres-ants-2026-data-breach"],
-    // representative photo — replace with an exact match if found
-    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Paris_75004_Rue_de_Lut%C3%A8ce_20170204_Pr%C3%A9fecture_de_Police.jpg?width=1200",
-    coverImageCredit: "Photo: besopha, CC BY 2.0, via Wikimedia Commons — a Paris government building involved in French identity-document administration",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Carte_identit%C3%A9_%C3%A9lectronique_fran%C3%A7aise_(2021,_recto).png?width=1200",
+    coverImageCredit: "Ministère de l'Intérieur / European Union, specimen French national identity card (2021 design), via Wikimedia Commons",
     coverImagePosition: 50,
     body: `France Titres, the online portal run by the Agence nationale des titres securises (ANTS) — the French government agency under the Ministry of the Interior responsible for issuing passports, national identity cards, driver's licenses, and vehicle registration certificates — detected a security incident on April 15, 2026. A hacker using the alias "breach3d" claimed responsibility the next day on a criminal forum, offering to sell a dataset the hacker said contained up to 19 million records. ANTS confirmed the breach publicly on April 21 and, after completing its own review, said on April 24 that 11.7 million individual and professional accounts had actually been affected. Nine days later, Paris prosecutors announced they had detained a 15-year-old in connection with the intrusion, identifying the teenager as the suspect behind the "breach3d" alias.
 
