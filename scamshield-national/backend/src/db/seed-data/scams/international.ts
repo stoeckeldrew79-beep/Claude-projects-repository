@@ -19296,3 +19296,42 @@ International.push(
     firstRecorded: '2026-08-19',
   },
 );
+
+International.push(
+  {
+    name: 'Fake CBN "$46 Billion Grant Approval" Document Scam',
+    slug: 'nigeria-cbn-fake-46-billion-grant-approval-scam',
+    description:
+      'A forged letter circulated on social media in mid-August 2026 claiming Central Bank of Nigeria Governor Yemi Cardoso personally approved a $46 billion "developmental grant" for a group calling itself the ATUFEG Empowerment and Development Centre, bearing fake CBN letterhead and a fabricated reference number, purportedly authorizing immediate transfer of funds for national empowerment projects. The CBN publicly disowned the document on its official account on September 10, 2026, stating plainly "this content is FAKE" and calling it part of a recurring pattern of forged notices exploiting the bank\'s name to build false credibility for advance-fee and data-harvesting schemes. The bank urged the public to verify any purported grant, letter, or announcement bearing its name through its own official channels before responding, paying a fee, or handing over personal or banking information to anyone claiming to represent it.',
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Central Bank of Nigeria (CBN)', 'Premium Times Nigeria'],
+    sourceUrl: 'https://www.premiumtimesng.com/business/business-news/908738-cbn-disowns-purported-46-billion-grant-approval.html',
+    country: 'NG',
+    firstRecorded: '2026-08-13',
+  },
+  {
+    name: 'Fake "Free NIN Correction Portal" Phishing Scam',
+    slug: 'nigeria-nimc-fake-nin-correction-portal-phishing',
+    description:
+      "A fraudulent website posing as a free National Identification Number (NIN) correction portal invites users to submit personal and identity data, including name, date of birth, and gender corrections, to fix supposed errors in their NIN record, circulated via links on social media outside any official channel. Nigeria's National Identity Management Commission (NIMC) issued a public advisory on June 2, 2026 warning that the portal has no connection to the agency and exists purely to harvest personal data exploitable for identity theft, SIM-swap fraud, and further financial scams, while assuring the public that the National Identity Database itself remains secure. NIMC urged Nigerians not to click unauthorized links related to NIN corrections and stressed that genuine corrections must go through NIMC's own official self-service portal or an authorized enrollment center rather than any link shared on social media.",
+    categorySlug: 'phishing',
+    alertLevel: 'high',
+    sources: ['National Identity Management Commission (NIMC)', 'Channels Television'],
+    sourceUrl: 'https://www.channelstv.com/2026/06/02/nimc-alerts-nigerians-to-fake-nin-correction-portal-scam/',
+    country: 'NG',
+    firstRecorded: '2026-06-02',
+  },
+  {
+    name: 'Microfinance Bank Settlement-Account Hack via Fintech 2FA Bypass',
+    slug: 'nigeria-efcc-ravenpay-2fa-bypass-settlement-account-fraud',
+    description:
+      'Between March 2025 and January 2026, a suspect identified as Osaretin Osagiede and an at-large accomplice allegedly caused the two-factor authentication method on Ravenpay user accounts to be bypassed, gaining unauthorized access to Best Start Microfinance Bank\'s settlement accounts and diverting roughly ₦700 million, which was then laundered through more than 150 beneficiary accounts, including numerous point-of-sale cash-out agents, spread across 13 banks. Nigeria\'s Economic and Financial Crimes Commission (EFCC) Lagos Zonal Directorate arraigned Osagiede before the Lagos State High Court on September 4, 2026 on charges of unauthorized computer access and receiving stolen property; he pleaded not guilty and was remanded in custody pending a bail hearing. This is a fintech-infrastructure attack distinct from ordinary SIM-swap fraud: rather than compromising a single customer\'s phone number, the scheme targeted a payment provider\'s own authentication layer to reach a partner bank\'s settlement accounts directly, illustrating why financial institutions using third-party fintech rails need to audit those partners\' authentication controls rather than assuming security ends at their own systems.',
+    categorySlug: 'account-takeover',
+    alertLevel: 'critical',
+    sources: ['Economic and Financial Crimes Commission (EFCC)', 'Business Post Nigeria'],
+    sourceUrl: 'https://businesspost.ng/banking/efcc-arraigns-man-for-hacking-microfinance-bank-to-move-n700m/',
+    country: 'NG',
+    firstRecorded: '2026-09-04',
+  },
+);
