@@ -1,9 +1,11 @@
+import { useEffect, useRef, useState } from 'react';
 import { useInfiniteQuery } from '@tanstack/react-query';
 import { Link } from 'react-router-dom';
 import { PAGE_SIZE, fetchScams } from '../services/scams';
-import { useInfiniteScroll } from '../hooks/useInfiniteScroll';
 import { countryName } from '../utils/countries';
 import { timeAgo } from '../utils/timeAgo';
+
+type ActivityFilter = 'all' | 'us';
 
 const ALERT_DOT_COLORS: Record<string, string> = {
   low: 'bg-slate-400',
@@ -15,14 +17,14 @@ const ALERT_DOT_COLORS: Record<string, string> = {
 // Polls rather than streams — the backend has no websocket/SSE channel, and
 // a short interval reads as "live" without needing one for a feed this size.
 const REFRESH_MS = 20_000;
-// Load the next page a few items before the reader reaches the bottom, so the
-// list grows under them rather than stopping and then jumping.
-const TRIGGER_OFFSET = 3;
 
 export function GlobalActivityTicker() {
+  const [filter, setFilter] = useState<ActivityFilter>('all');
+  const country = filter === 'us' ? 'US' : undefined;
+
   const { data, isLoading, fetchNextPage, hasNextPage, isFetchingNextPage } = useInfiniteQuery({
-    queryKey: ['scams', 'ticker', { sort: 'newest' as const }],
-    queryFn: ({ pageParam }) => fetchScams({ sort: 'newest', page: pageParam }),
+    queryKey: ['scams', 'ticker', { sort: 'newest' as const, country }],
+    queryFn: ({ pageParam }) => fetchScams({ sort: 'newest', country, page: pageParam }),
     initialPageParam: 1,
     getNextPageParam: (lastPage, allPages) => (lastPage.length === PAGE_SIZE ? allPages.length + 1 : undefined),
     // Polling an infinite query refetches every page it holds, so it stays on
@@ -34,30 +36,76 @@ export function GlobalActivityTicker() {
   });
 
   const items = data?.pages.flat() ?? [];
-  const setTrigger = useInfiniteScroll(
-    () => {
-      if (hasNextPage && !isFetchingNextPage) fetchNextPage();
-    },
-    Boolean(hasNextPage) && !isFetchingNextPage
-  );
-  const triggerIndex = Math.max(0, items.length - TRIGGER_OFFSET);
+
+  // The database holds thousands of entries — nowhere near small enough to
+  // load into this little panel, and not the point of it anyway. Instead of
+  // representing that true size, the panel never lets its own scrollbar
+  // thumb travel past the middle of the track: crossing the midpoint snaps
+  // back to it, so scrolling always reads as "there's more below" rather
+  // than counting down toward a visible end.
+  //
+  // Loading more is driven straight off scroll position rather than an
+  // IntersectionObserver on a moving target — with the trigger row itself
+  // shifting index every time a page arrives, a freshly re-observed node can
+  // miss firing (proven out empirically: it stalled under rapid scrolling),
+  // where checking "how close is scrollTop to the boundary" cannot miss.
+  const scrollRef = useRef<HTMLDivElement>(null);
+  const maybeLoadMore = () => {
+    const el = scrollRef.current;
+    if (!el || !hasNextPage || isFetchingNextPage) return;
+    const maxScroll = el.scrollHeight - el.clientHeight;
+    const halfway = maxScroll / 2;
+    // Fetch well before the reader actually reaches the clamp point, so a
+    // fresh page is already in by the time they'd otherwise feel the panel
+    // stop growing under them. Also covers the panel not yet being tall
+    // enough to scroll at all (a short first page, or a tall viewport).
+    if (maxScroll <= 0 || el.scrollTop >= halfway * 0.7) fetchNextPage();
+  };
+  const handleScroll = () => {
+    const el = scrollRef.current;
+    if (!el) return;
+    const halfway = (el.scrollHeight - el.clientHeight) / 2;
+    if (el.scrollTop > halfway) el.scrollTop = halfway;
+    maybeLoadMore();
+  };
+  // Tops the panel up on mount and after every page arrives, in case the
+  // panel still isn't scrollable yet (a short page, or a tall viewport) —
+  // handleScroll alone only runs in response to a scroll the reader made.
+  useEffect(() => {
+    maybeLoadMore();
+  }, [items.length, hasNextPage, isFetchingNextPage, fetchNextPage]);
 
   return (
     <div className="flex h-full flex-col">
-      <div className="flex items-center gap-2 px-1">
-        <span className="relative flex h-2 w-2">
-          <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-red-400 opacity-75" />
-          <span className="relative inline-flex h-2 w-2 rounded-full bg-red-500" />
-        </span>
-        <p className="text-xs font-semibold tracking-widest text-slate-300 uppercase">Live activity</p>
+      <div className="flex items-center justify-between gap-2 px-1">
+        <div className="flex items-center gap-2">
+          <span className="relative flex h-2 w-2">
+            <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-red-400 opacity-75" />
+            <span className="relative inline-flex h-2 w-2 rounded-full bg-red-500" />
+          </span>
+          <p className="text-xs font-semibold tracking-widest text-slate-300 uppercase">Live activity</p>
+        </div>
+        <div className="flex items-center gap-1 rounded-full bg-white/5 p-0.5">
+          {(['all', 'us'] as const).map((tab) => (
+            <button
+              key={tab}
+              type="button"
+              onClick={() => setFilter(tab)}
+              className={`rounded-full px-2.5 py-1 text-[11px] font-medium tracking-wide uppercase transition-colors ${
+                filter === tab ? 'bg-white/15 text-slate-100' : 'text-slate-400 hover:text-slate-200'
+              }`}
+            >
+              {tab === 'all' ? 'All' : 'US'}
+            </button>
+          ))}
+        </div>
       </div>
 
-      <div className="mt-3 flex-1 space-y-1 overflow-y-auto pr-1">
+      <div ref={scrollRef} onScroll={handleScroll} className="mt-3 flex-1 space-y-1 overflow-y-auto pr-1">
         {isLoading && <p className="px-1 text-sm text-slate-400">Loading…</p>}
-        {items.map((scam, index) => (
+        {items.map((scam) => (
           <Link
             key={scam.id}
-            ref={index === triggerIndex ? setTrigger : undefined}
             to={`/scams/${scam.slug}`}
             className="block rounded-md px-2 py-2 hover:bg-white/5 transition-colors"
           >

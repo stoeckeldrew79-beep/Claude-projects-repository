@@ -7334,6 +7334,86 @@ UsNS.push({
 });
 
 UsNS.push({
+    name: 'Spaventa Pre-IPO Fund Hidden-Fee Boiler Room Scheme',
+    slug: 'spaventa-pre-ipo-hidden-fee-boiler-room-scheme',
+    description: `In August 2026 the SEC charged New York-based Andrew Spaventa and three entities he controlled (The Spaventa Group, TSG Capital Advisors, TSG Alpha Partners) with defrauding more than 800 mostly-retail investors — many of them retirees — out of over $74 million between December 2020 and June 2025 by selling access to eleven private funds that held real pre-IPO shares in sought-after private companies, but through more than 100 cold-calling "sales agents" using high-pressure tactics who falsely promised zero or low upfront fees while actually charging prices averaging 46% above what Spaventa himself paid for the shares, pocketing roughly $23 million in undisclosed markups. Unlike a classic fake-fund scam, the underlying shares were real — the fraud was in disguising a large hidden markup as a "no fee" or "low fee" structure. Anyone offered an unsolicited call offering pre-IPO access to a hot private company should treat it as a red flag, insist on a written, itemized fee disclosure before wiring any money, and verify the fund and its principals on SEC EDGAR and BrokerCheck before investing.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'high',
+    sources: ['U.S. Securities and Exchange Commission'],
+    sourceUrl: 'https://www.sec.gov/newsroom/press-releases/2026-75-sec-charges-boiler-room-operator-three-entities-defrauding-retail-investors-74-million-pre-ipo',
+    country: 'US',
+    isHistorical: false,
+});
+
+UsNS.push({
+    name: 'Sutherland Global/NOVAD Reverse Mortgage Servicing Failures',
+    slug: 'sutherland-novad-reverse-mortgage-servicing-failures',
+    description: `Sutherland Global Services (and its subsidiaries Sutherland Mortgage Services and Sutherland Government Solutions) and NOVAD Management Consulting serviced federally insured (HECM) reverse mortgages on behalf of HUD from 2014 through 2022, affecting roughly 150,000 older borrowers a year, but the CFPB found the companies were so under-resourced they systematically failed to respond to homeowners' time-sensitive requests for loan payoff statements, short-sale and deed-in-lieu processing, and lien releases — and, most seriously, sent false repayment notices telling elderly borrowers their reverse mortgage was due in full within 30 days due to a "default" that had never actually occurred, instilling fear of foreclosure with no legitimate trigger behind it. In a June 18, 2024 order, the CFPB permanently banned Sutherland Global Services and Sutherland Government Solutions from reverse mortgage servicing, required Sutherland Mortgage Services to overhaul its compliance, and ordered $11.5 million in consumer redress plus a $5 million civil penalty; NOVAD was likewise permanently banned from reverse mortgage servicing. Reverse mortgage borrowers who receive a notice claiming their loan is suddenly due should not assume it is accurate — they can contact their loan servicer directly using a number from an official statement (not the notice itself), request written confirmation of the specific default condition cited, and file a complaint with the CFPB if a servicer is unresponsive or the claim can't be substantiated.`,
+    categorySlug: 'mortgage-foreclosure-scams',
+    sources: ['Consumer Financial Protection Bureau (CFPB)'],
+    sourceUrl: 'https://www.consumerfinance.gov/archive/newsroom/cfpb-takes-action-against-sutherland-global-and-novad-management-consulting-for-reverse-mortgage-servicing-failures/',
+    country: 'US',
+    isHistorical: true,
+    firstRecorded: '2014-01-01',
+});
+
+UsNS.push({
+    name: 'Boateng Ghanaian-Christian Affinity Ponzi Scheme',
+    slug: 'new-jersey-boateng-ghanaian-christian-affinity-ponzi-scheme',
+    description: `The SEC filed a civil complaint in the Eastern District of New York charging Ernest Ossei Boateng and his two New Jersey-based companies, Intercontinental Wealth Network LLC and I Wealth Network LP, with running a Ponzi scheme that raised roughly $16 million from more than 200 largely inexperienced investors between January 2020 and March 2026. Boateng specifically targeted Christians of Ghanaian heritage in New York and New Jersey — including retirees, taxi drivers, home health care providers, and students — exploiting shared community and religious ties by making sales presentations at churches and prayer groups and promising guaranteed fixed returns from a supposedly low-risk investment strategy that he falsely claimed included financial and investment insurance protection. He allegedly misappropriated more than $5.8 million for personal expenses including a home purchase and renovation, used roughly $6.6 million in new investor money to pay off earlier investors, and lost more than $750,000 of investor funds in high-risk day-trading. The complaint charges antifraud violations under the Securities Act, Exchange Act, and Investment Advisers Act. This is an unrelated case and defendant from the Boateng romance-and-inheritance scheme already documented elsewhere in this database; anyone pitched a "guaranteed" investment through a church, prayer group, or other community organization should independently verify the promoter's registration with the SEC or their state securities regulator before investing, regardless of how much shared community trust is involved.`,
+    categorySlug: 'ponzi-pyramid-schemes',
+    alertLevel: 'high',
+    sources: ['U.S. Securities and Exchange Commission (SEC)'],
+    sourceUrl: 'https://www.sec.gov/newsroom/press-releases/2026-86-sec-charges-founder-his-two-new-jersey-based-companies-alleged-16-million-ponzi-scheme',
+    country: 'US',
+    state: 'NJ',
+    isHistorical: false,
+    firstRecorded: '2026-09-01',
+});
+
+UsNS.push({
+    name: '"War Room" Bronx Medicaid Ghost-Ride Racketeering Scheme',
+    slug: 'new-york-bronx-war-room-medicaid-ghost-ride-racketeering',
+    description: `A Bronx-based racketeering organization calling itself the "War Room" — Louis Trejo ("Machete"), Kenneth Garner ("KG"), Harold Stevenson ("Bazz"), and Erihk Belis ("Eddie") — fabricated non-emergency medical transportation records for Medicaid patients traveling to methadone clinics, using ride-tracking apps and GPS-spoofing technology to log rides that never happened. Members paid patients recurring cash and drug kickbacks in exchange for the right to misuse their Medicaid enrollment information, then funneled the fabricated ride data through complicit transportation companies that billed Medicaid more than $12 million in fraudulent claims between 2023 and 2025, operating under the guise of a purported charity called the "Forward Foundation" to obscure the scheme. To protect and expand the operation, members also committed violent acts against rivals, including a January 2024 armed home invasion of a competing fraud ring's leader in New Jersey. Federal prosecutors in the Southern District of New York unsealed a nine-count indictment on August 21, 2026 charging racketeering, violence in aid of racketeering, firearms offenses, wire fraud, health care fraud, Anti-Kickback Statute violations, narcotics conspiracy, and money laundering; three defendants were arrested and one remains at large. Medicaid recipients should be wary of anyone offering cash or other benefits in exchange for using their Medicaid ID or transportation benefits, since that arrangement makes them part of a fraud scheme regardless of whether they personally profit from it.`,
+    categorySlug: 'healthcare-fraud',
+    alertLevel: 'high',
+    sources: ['U.S. Attorney\'s Office, Southern District of New York'],
+    sourceUrl: 'https://www.justice.gov/usao-sdny/pr/four-members-war-room-charged-connection-12-million-medicaid-fraud-scheme',
+    country: 'US',
+    state: 'NY',
+    isHistorical: false,
+    firstRecorded: '2026-08-21',
+});
+
+UsNS.push({
+    name: 'Operation Gold Rush $1.3 Billion Durable Medical Equipment Fraud',
+    slug: 'pennsylvania-nd-medical-solutions-gugava-operation-gold-rush-dme-fraud',
+    description: `Erekle Gugava, a 33-year-old Georgian national who fled the United States in July 2025, purportedly owned ND Medical Solutions LLC, a Pennsylvania durable medical equipment company, and used it as a vehicle for what the Department of Justice calls the largest health care fraud case it has ever prosecuted. Over just five months between February and July 2025, ND Medical submitted at least $1.3 billion in fraudulent durable medical equipment claims to Medicare, Medicare supplemental insurers, and employer-sponsored health plans, using the stolen identities of real people, many in Massachusetts and elsewhere in New England, so that victims later discovered "explanations of benefits" for equipment and physicians they had never seen. Insurers actually paid out roughly $6.5 million before the scheme was caught. Gugava allegedly served as a money launderer for a transnational, Russia-based criminal organization behind the scheme, which investigators dubbed "Operation Gold Rush," opening ND Medical's bank accounts as sole signatory, depositing insurer payments, and wiring the funds overseas. A federal grand jury in the District of Massachusetts indicted Gugava on one count of money laundering conspiracy, unsealed around September 4, 2026; he faces up to 20 years in prison if convicted and remains a fugitive abroad. Anyone who receives an explanation-of-benefits statement for medical equipment or services they never received should report it to Medicare or their insurer immediately, since stolen identity information, not a data breach at the insurer, is usually how this kind of fraud reaches a real person's account.`,
+    categorySlug: 'healthcare-fraud',
+    alertLevel: 'high',
+    sources: ['U.S. Attorney\'s Office, District of Massachusetts'],
+    sourceUrl: 'https://www.justice.gov/usao-ma/pr/georgian-national-charged-conspiracy-launder-proceeds-13-billion-health-care-fraud',
+    country: 'US',
+    state: 'PA',
+    isHistorical: false,
+    firstRecorded: '2026-09-03',
+});
+
+UsNS.push({
+    name: 'AO Elite "Done-For-You" E-Commerce Business Opportunity Fraud',
+    slug: 'ao-elite-done-for-you-ecommerce-fraud-olave',
+    description: `Alexander A. Olave, 35, of Manassas, Virginia, marketed his company AO Elite as a "done-for-you" e-commerce business opportunity, falsely claiming it had already built hundreds of profitable online storefronts generating $112 million in client revenue and could guarantee profit margins for new customers, bolstering the pitch with a testimonial video actually filmed for an unrelated company. Victims paid substantial up-front fees for Olave to build and maintain a storefront on their behalf, but never received a working store; when they asked about progress, Olave made false representations to stall refunds and conceal the fraud, using customer funds instead to pay himself a salary and lease luxury homes and vehicles. After AO Elite shut down, he launched two more companies using the identical model. The scheme defrauded roughly 100 victims of more than $3.5 million. The U.S. Attorney's Office for the Eastern District of Virginia announced on September 11, 2026 that Olave was sentenced to two years and nine months in federal prison. Anyone offered a "guaranteed" hands-off e-commerce business for a large upfront fee should independently verify any revenue claims and treat a request for payment before any product or storefront exists as a red flag.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'high',
+    sources: ['U.S. Attorney\'s Office, Eastern District of Virginia'],
+    sourceUrl: 'https://www.justice.gov/usao-edva/pr/manassas-man-sentenced-over-two-years-prison-35m-fraud-scheme',
+    country: 'US',
+    state: 'VA',
+    isHistorical: false,
+    firstRecorded: '2026-09-11',
+});
+
+UsNS.push({
     name: "Parcel Owner Impersonation to Illegally Sell Real Property",
     slug: "parcel-owner-impersonation-illegal-property-sale",
     description:

@@ -7446,6 +7446,59 @@ UsGM.push({
 });
 
 UsGM.push({
+    name: 'Humboldt Merchant Services Credit Card Laundering for Sham Merchants',
+    slug: 'humboldt-merchant-services-credit-card-laundering-sham-merchants',
+    description: `In September 2026 the FTC announced a $12 million settlement with payment processor Humboldt Merchant Services after finding it knowingly opened merchant accounts for more than 1,000 shell companies that served as fronts for undisclosed third parties running unauthorized-billing scams — including Legion Media, an operation the FTC shut down in 2024 — routing roughly $100 million in transactions between 2021 and 2023 while ignoring chargeback rates nearly ten times industry norms and placing the accounts on lower-scrutiny bank identification numbers to dodge detection. This "credit card laundering," or "transaction laundering," matters to consumers because it disguises the true source of an unauthorized charge on a credit card statement behind an unfamiliar shell-company name, making the charge harder to recognize and dispute. Consumers should review statements for unrecognized merchant names promptly, dispute any unauthorized charge with their card issuer within the dispute window, and treat repeat unfamiliar recurring charges as a signal to request a full transaction history from their bank.`,
+    categorySlug: 'subscription-traps',
+    alertLevel: 'medium',
+    sources: ['Federal Trade Commission'],
+    sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2026/09/ftc-takes-action-against-payment-processor-humboldt-merchant-services-knowingly-facilitating-payment',
+    country: 'US',
+    isHistorical: false,
+});
+
+UsGM.push({
+    name: 'Lloyd-Strong $233M ACA Marketplace Enrollment Fraud Scheme',
+    slug: 'lloyd-strong-233m-aca-enrollment-fraud-scheme',
+    description: `Cory Lloyd, president of a Florida insurance brokerage, and Steven Strong, CEO of a Texas marketing company, ran a scheme from around August 2018 through September 2022 that used "street marketers" and misleading sales scripts to enroll tens of thousands of vulnerable consumers — including people experiencing homelessness, unemployment, and mental health or substance-use disorders — into fully subsidized ACA marketplace health plans using falsified income information, and deliberately submitted Medicaid applications designed to fail so the pair could collect year-round commissions instead of only during open enrollment. The scheme sought over $233 million in fraudulent federal subsidies, with the government actually paying out more than $180 million before it was caught, and left some victims with disrupted access to opioid-use-disorder treatment, mental health care, and care for serious infectious diseases when their sham coverage fell apart. A federal jury convicted Lloyd and Strong in November 2025, and a judge sentenced each to 20 years in prison in February 2026, ordering $180.6 million in restitution; a third defendant, Dafud Iza, pleaded guilty and received 35 months. Consumers should be wary of any recruiter or "navigator" who signs them up for a health plan without ever discussing actual household income, who promises free coverage in exchange for switching plans, or who pressures a quick signature — and should verify any ACA enrollment directly through HealthCare.gov or their state's own marketplace rather than trusting a street recruiter or unsolicited caller.`,
+    categorySlug: 'insurance-fraud',
+    alertLevel: 'high',
+    sources: ['U.S. Department of Justice (DOJ)', 'IRS Criminal Investigation', 'FBI', 'HHS Office of Inspector General'],
+    sourceUrl: 'https://www.justice.gov/opa/pr/president-insurance-brokerage-firm-and-ceo-marketing-company-sentenced-233m-affordable-care-act',
+    country: 'US',
+    isHistorical: true,
+    firstRecorded: '2018-08-01',
+});
+
+UsGM.push({
+    name: 'Twin Cities Stolen-Check Bank Fraud Ring',
+    slug: 'minnesota-twin-cities-postal-employee-stolen-check-fraud-ring',
+    description: `A federal grand jury in the District of Minnesota indicted six defendants — Willie Roy Turner Jr., Marc Anderson, Billy Ray Cameron Jr., Devontay Colbert, Dontae Williams, and Takiya Shemwell — on June 26, 2026, for a scheme that ran from at least November 2022 to September 2024. Shemwell, a U.S. Postal Service employee working in Chicago, allegedly identified and stole business mail containing checks from her own route and sold the stolen checks to Turner Jr. and Cameron Jr. through a peer-to-peer money-transfer app. The buyers then opened, or tried to open, fraudulent bank accounts at Twin Cities-area financial institutions in the names of the business victims, using fabricated identification and documents, and deposited the stolen checks into those accounts. The group deposited or attempted to deposit more than $5.1 million in stolen business checks and succeeded in stealing over $1.5 million. Businesses can protect themselves by monitoring outgoing mailed checks for unusual delays, enrolling in their bank's positive-pay or check-verification service, and switching to electronic payments where possible, since a stolen paper check gives a fraud ring both the account and routing number and, once resold, no way to know who ultimately cashes it.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'medium',
+    sources: ['U.S. Attorney\'s Office, District of Minnesota'],
+    sourceUrl: 'https://www.justice.gov/usao-mn/pr/six-defendants-indicted-grand-jury-conspiracy-steal-51-million-business-checks',
+    country: 'US',
+    state: 'MN',
+    isHistorical: false,
+    firstRecorded: '2026-09-09',
+});
+
+UsGM.push({
+    name: 'Louisville Deed Theft and Vehicle Title Fraud Ring',
+    slug: 'kentucky-louisville-deed-theft-vehicle-title-fraud-ring',
+    description: `A federal grand jury in the Western District of Kentucky indicted Louisville residents Donnie Russell, Lisa Cunningham, Jerry Wagers, and Steven Jamesray Cates, along with Claude Oscar Cunningham III of Indiana, after a National Elder Justice Task Force and Kentucky Elder Justice Task Force investigation found the group conspired between April 2024 and June 2026 to create and file fraudulent deeds, seizing houses in Louisville, often targeting properties whose true owner had died without a will so no immediate heir was actively watching the title. Russell separately faces two counts of aggravated identity theft for forging the signatures of deceased homeowners onto the fraudulent deeds. Russell, Cunningham, and Cates are also charged with money laundering conspiracy for using false identities to obscure their role, and with a related mail fraud conspiracy for a parallel scheme running from January 2024 through July 2025 that used forged documents to obtain fraudulent Indiana vehicle titles. Defendants made initial appearances on August 19, 2026; the fraud and money-laundering counts each carry up to 20 years, plus a mandatory consecutive two years per aggravated-identity-theft count for Russell. Anyone who owns property that could sit vacant or unmonitored, especially an inherited home whose paperwork was never fully settled, should sign up for their county clerk's free deed-fraud alert service if one exists, and heirs to a deceased relative's property should confirm the deed is properly recorded in their name as soon as possible rather than leaving it in limbo.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'high',
+    sources: ['FBI Louisville Field Office', 'U.S. Attorney\'s Office, Western District of Kentucky'],
+    sourceUrl: 'https://www.fbi.gov/contact-us/field-offices/louisville/news/federal-grand-jury-indicts-five-for-fraud-and-money-laundering-related-to-deed-theft-and-vehicle-title-fraud',
+    country: 'US',
+    state: 'KY',
+    isHistorical: false,
+    firstRecorded: '2026-08-19',
+});
+
+UsGM.push({
     name: "Kansas Federal Jury Duty Failure-to-Appear Impersonation Scam",
     slug: "kansas-federal-jury-duty-failure-to-appear-impersonation-scam",
     description:

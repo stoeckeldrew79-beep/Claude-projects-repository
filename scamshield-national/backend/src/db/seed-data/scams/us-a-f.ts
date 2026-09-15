@@ -8439,6 +8439,82 @@ UsAF.push({
 });
 
 UsAF.push({
+    name: 'Amazon Prime Settlement Refund Phishing Scam',
+    slug: 'amazon-prime-settlement-refund-phishing-scam',
+    description: `Beginning in late 2025 and continuing through 2026 as the FTC's $2.5 billion settlement with Amazon over deceptive Prime enrollment and cancellation practices works its way through payout — automatic PayPal, Venmo, and check payments in November-December 2025, followed by a claims process with a July 27, 2026 filing deadline and payments continuing into September 2026 — scammers have moved to exploit the real payout by sending emails and texts that copy the genuine settlement's case name, dollar amount (up to $51), and official-looking government language, then direct recipients to a fake PayPal sign-in page to "verify" or "release" the payment, harvesting login credentials and financial details instead of delivering anything. The FTC's own consumer alert on the settlement stresses that the agency itself never contacts people directly about the refund — all legitimate communication comes through Amazon's court-appointed settlement administrator — and that neither the FTC nor Amazon will ever ask for payment, a bank account number, or a "processing fee" to release money that's actually owed. Anyone who wants to check on a payment should open their own PayPal or Venmo app directly (never through a link in a text or email) and check Activity, or type SubscriptionMembershipSettlement.com into a browser rather than clicking a link, and should treat any request for banking information, a fee, or a "faster" refund offer through social media as certain fraud.`,
+    categorySlug: 'phishing',
+    alertLevel: 'medium',
+    sources: ['Federal Trade Commission (FTC)'],
+    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2026/01/questions-about-your-amazon-prime-settlement-refund-read',
+    country: 'US',
+    isHistorical: false,
+});
+
+UsAF.push({
+    name: 'False Fuel Tax Credit Claims Scam',
+    slug: 'false-fuel-tax-credit-claims-scam',
+    description: `Unscrupulous tax return preparers and social-media promoters — especially on TikTok — tell taxpayers they qualify for the federal Fuel Tax Credit and file Form 4136 on their behalf for a large fee, even though the credit is legally available only for off-highway business and farming fuel use and is not available to most ordinary taxpayers. The IRS has listed false Fuel Tax Credit claims on its "Dirty Dozen" list of tax scams every year since 2024, warning that the promoter collects the fee and disappears while the taxpayer is left owing the erroneous refund back, plus penalties, interest, and possible IRS audit or criminal referral. Anyone who did not personally operate off-road business or farm equipment using untaxed fuel should be suspicious of a preparer or online "expert" who claims they automatically qualify for this credit, and should verify eligibility directly at IRS.gov or with a licensed CPA/enrolled agent before signing a return that includes it.`,
+    categorySlug: 'tax-scams',
+    alertLevel: 'medium',
+    sources: ['Internal Revenue Service (IRS)'],
+    sourceUrl: 'https://irs.gov/newsroom/dirty-dozen-irs-warns-about-false-fuel-tax-credit-claims-taxpayers-should-be-wary-of-scammers-heightened-review',
+    country: 'US',
+    isHistorical: false,
+});
+
+UsAF.push({
+    name: 'FBI Anchorage Warns of Sextortion Surge Targeting Alaska Boys',
+    slug: 'alaska-fbi-anchorage-sextortion-hoax-threat-surge-2026',
+    description: `As Alaska students returned to school in August 2026, the FBI's Anchorage Field Office warned of a sharp rise in financial sextortion targeting minors, with Special Agent in Charge Matthew Schlegel noting that — unlike the national pattern, where girls are more commonly targeted — young males ages 10 to 17 are the primary victims in Alaska. Perpetrators "catfish" teens on social media and gaming platforms, quickly posing as an attractive peer to build trust, extract explicit images or video, then demand payment by gift card or digital transfer while threatening to send the material to the victim's family, friends, or school. The FBI pointed to two recent Alaska-linked cases underscoring the danger: Vince Deliguin, an 18-year-old from Kodiak, was sentenced to 18 years in prison in August 2022 for running the scheme under the fake persona "Marley Madden," and Zobaidul Amin, a Bangladeshi national, was arrested in March 2026 for allegedly operating an international sextortion ring using more than 80 social media accounts to target hundreds of minors. The same alert flagged a surge in false "hoax" bomb and shooting threats at the start of the school year — including an August 21, 2026 evacuation at Anchorage's Dimond High School that turned up no credible threat — and Schlegel stressed that hoax threats are still federal crimes that drain investigative resources needed for real emergencies. Parents are advised to watch for unusual gift-card purchases or repeated requests for money as a possible sign of sextortion, to tell victimized teens they will not be in trouble and should never pay, and to report sextortion or threat information immediately to the FBI Anchorage Field Office or tips.fbi.gov rather than letting a teen try to handle it alone.`,
+    categorySlug: 'sextortion',
+    alertLevel: 'critical',
+    sources: ['FBI Anchorage Field Office', "Alaska's News Source"],
+    sourceUrl: 'https://www.alaskasnewssource.com/2026/08/27/fbi-warns-sextortion-hoax-threat-surge-alaska-students-return-school/',
+    country: 'US',
+    state: 'AK',
+    isHistorical: false,
+});
+
+UsAF.push({
+    name: 'CreditRepair.com/Lexington Law Settlement Refund Check Scam',
+    slug: 'creditrepair-lexington-law-settlement-refund-check-scam',
+    description: `Following the CFPB's August 2023 order requiring Lexington Law and CreditRepair.com to pay $2.7 billion in consumer redress and civil penalties for illegally charging upfront telemarketing fees for credit repair services, settlement administrator JND Legal Administration mailed roughly $1.8 billion in refund checks to over 4 million eligible consumers between December 5, 2024 and January 6, 2025, with reissue runs continuing every two months after mid-February 2025. The CFPB has since warned that scammers are impersonating officials and contacting recipients to offer to "expedite" their check, asking for banking details, Social Security numbers, or a fee before the money can be released — even though, as the Bureau states plainly, "You do not need to do anything to receive and cash a valid check." Recipients who are unsure whether a check or a call referencing this settlement is genuine can verify it directly through JND's dedicated verification line rather than through any number or link supplied by the caller, and should treat any request for payment, banking access, or personal information as a certain sign of fraud regardless of how official the caller sounds.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Consumer Financial Protection Bureau (CFPB)'],
+    sourceUrl: 'https://www.consumerfinance.gov/about-us/blog/creditrepaircom-and-lexington-law-refund-checks-what-you-need-to-know/',
+    country: 'US',
+    isHistorical: false,
+});
+
+UsAF.push({
+    name: 'Colorado Vehicle-Title "Helper" Hijacking Scam',
+    slug: 'colorado-vehicle-title-helper-hijacking-scam',
+    description: `The Colorado Division of Motor Vehicles warned on June 16, 2026 of a scheme targeting people who lack standard identification, a group that includes many immigrants without a driver's license: a "helper" offers to get the person's vehicle registered by having their own name added to the title, ostensibly just to "facilitate" the paperwork, sometimes framed as a power-of-attorney arrangement. Once that name is on the title, the "helper" is the vehicle's legal co-owner or owner of record and can sell it, have it towed, or otherwise seize it outright, with no further consent from the person who actually paid for and drives the car. Motor Vehicle Investigation Unit Chief Dana Chavez urged residents to use only official DMV channels rather than third-party "helpers," and the agency noted that Colorado issues driver's licenses and ID cards regardless of immigration status, removing the reason anyone would need a stand-in on the title in the first place. Anyone who needs help navigating vehicle registration should go directly to a Colorado DMV office or its official website rather than accepting an offer to add someone else's name to a title.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'medium',
+    sources: ['Colorado Division of Motor Vehicles', 'KKTV'],
+    sourceUrl: 'https://www.kktv.com/2026/06/16/colorado-dmv-warns-vehicle-owners-scams-stealing-vehicle-ownership/',
+    country: 'US',
+    state: 'CO',
+    isHistorical: false,
+    firstRecorded: '2026-06-16',
+});
+
+UsAF.push({
+    name: 'FTC v. Credit Glory $200 Million Credit Repair Network Shutdown',
+    slug: 'arizona-credit-glory-credit-repair-network-ftc-shutdown',
+    description: `The FTC obtained a federal court order in the District of Arizona temporarily halting Credit Glory, a sprawling network of 17 related entities — including Credit Glory LLC, Credit Sage LLC, Joy Credit Software LLC, Clerk Credit Systems LLC, Standard Scores LLC, Collections Dispute LLC, Credit Cop LLC, and Glorious Credit LLC — and five named principals, Alexander Brola, Liam Emery, Marko Petkovic, Joshua Curtis, and David Naylor, accused of scamming consumers out of nearly $200 million nationwide since at least 2016. The FTC alleges the network charged illegal upfront and recurring fees for credit repair services, often disguised as identity-verification or credit-report-review charges, impersonated debt collectors and creditors by phone, filed false identity-theft reports on consumers' behalf without authorization on Identitytheft.gov, used negative-option subscription billing with inadequate disclosures, and ran paid Google search ads specifically targeting vulnerable consumers, including military servicemembers carrying debt with the Army & Air Force Exchange Service and USAA. Judge Steven Logan granted the FTC's request for a temporary restraining order on August 10, 2026, with the Commission voting 2-0 to authorize the case; the complaint alleges violations of the FTC Act, the Credit Repair Organizations Act, the Telemarketing Sales Rule, Gramm-Leach-Bliley, ROSCA, and the Electronic Fund Transfer Act. Consumers should be wary of any credit-repair company demanding payment before performing services, which is illegal under federal law regardless of how the fee is described, companies that call claiming to be debt collectors trying to "verify" an account, and heavily-advertised credit-repair services that specifically target military members.`,
+    categorySlug: 'debt-relief-scams',
+    alertLevel: 'high',
+    sources: ['Federal Trade Commission (FTC)'],
+    sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2026/08/ftc-stops-sprawling-credit-repair-scheme-scammed-consumers-out-nearly-200-million',
+    country: 'US',
+    isHistorical: false,
+    firstRecorded: '2026-08-10',
+});
+
+UsAF.push({
     name: "Fake CAPTCHA \"Verify You're Human\" Malware Prompt (ClickFix)",
     slug: "fake-captcha-verify-human-malware-prompt-clickfix",
     description:

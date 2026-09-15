@@ -3,6 +3,7 @@ import * as dailyNewsController from '../controllers/dailyNews';
 
 const router = Router();
 
+router.get('/count', dailyNewsController.count);
 router.get('/', dailyNewsController.list);
 router.get('/states', dailyNewsController.states);
 

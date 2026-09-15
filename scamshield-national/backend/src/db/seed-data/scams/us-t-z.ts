@@ -4111,3 +4111,30 @@ UsTZ.push({
     isHistorical: true,
     firstRecorded: '2026-08-01',
 });
+
+UsTZ.push({
+    name: 'Harris County Notarized-Page-Swap Deed Fraud Scheme',
+    slug: 'texas-harris-county-notary-page-swap-deed-fraud',
+    description: `Harris County Attorney Abbie Kamin's office filed two civil lawsuits in September 2026 against nine individuals accused of coordinating a property-fraud ring built on a distinctive forgery technique: rather than forging a notary's signature outright, the scammers obtained a genuinely notarized acknowledgment page from an unrelated, legitimately notarized document, physically detached it, and attached it to a fraudulent deed before filing that deed with the county clerk, creating the false appearance that the forged deed itself had been properly notarized. The ring also forged signatures, including those of deceased homeowners, fabricated identities, and passed deeds among conspirators to obscure the ownership trail before reselling to unsuspecting buyers. In one case cited by Kamin's office, Keata Wade's family lost their Teton Street property after scammers forged her deceased grandmother's signature, transferred title to a fictitious person, and sold it to a real buyer. At least 10 properties were involved, with roughly seven owners losing access to homes valued at $100,000 to $250,000 each; civil suits are filed, and the County Attorney's office is coordinating with the District Attorney on potential criminal charges. Property owners can protect themselves by signing up for their county clerk's free deed-fraud alert service, which flags any new filing against their property, and by periodically checking their own deed records for unauthorized transfers.`,
+    categorySlug: 'mortgage-foreclosure-scams',
+    alertLevel: 'high',
+    sources: ['Harris County Attorney\'s Office', 'KPRC Click2Houston'],
+    sourceUrl: 'https://www.click2houston.com/news/local/2026/09/09/could-someone-steal-your-home-without-you-knowing-harris-county-warns-of-deed-fraud-schemes/',
+    country: 'US',
+    state: 'TX',
+    isHistorical: false,
+    firstRecorded: '2026-09-09',
+});
+
+UsTZ.push({
+    name: 'Veterans Guardian VA Claim Consulting Illegal Fee Ruling',
+    slug: 'veterans-guardian-va-claim-consulting-illegal-fees',
+    description: `In Ford v. Veterans Guardian VA Claim Consulting, LLC, a certified nationwide class action in the U.S. District Court for the Middle District of North Carolina, Judge Catherine Eagles ruled on May 20, 2026 that Veterans Guardian, one of the largest VA disability-claims consulting firms in the country, violated federal law by acting as an unaccredited claims agent: preparing and presenting veterans' disability claims, collecting personal information, scheduling medical appointments, compiling evidence, and tracking submissions to the VA, all while charging fees for that work despite not being accredited to do so. Federal law caps what an accredited agent may charge at roughly 20% of any back-pay award and requires VA accreditation to charge anything at all for claim preparation or presentation; VA accreditation itself, plus help from Veterans Service Organizations like the VFW and American Legion, is free. Veterans Guardian instead charged clients roughly five times their monthly disability-compensation increase; one named plaintiff, a former Army intelligence analyst awarded 100% disability worth $4,272.80 a month, was billed $21,360, of which he had already paid over $19,000. The court found the company's conduct undisputed and unlawful as a matter of law. Veterans seeking help with a disability claim should use a VA-accredited representative or a Veterans Service Organization, both of which are free or capped by law, rather than a private "claim consulting" firm that charges a percentage of any award before confirming its own accreditation.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'high',
+    sources: ['Task & Purpose', 'U.S. District Court, Middle District of North Carolina'],
+    sourceUrl: 'https://taskandpurpose.com/news/va-claim-shark-court-ruling/',
+    country: 'US',
+    isHistorical: false,
+    firstRecorded: '2026-05-20',
+});
