@@ -8584,3 +8584,15 @@ UsAF.push({
     state: "AS",
 });
 
+UsAF.push({
+    name: "Fake HealthCare.gov Ads and Open Enrollment Phishing",
+    slug: "healthcare-gov-phishing-impersonation",
+    description:
+      "During ACA Marketplace open enrollment (November through mid-January), scammers run deceptive online ads promising free perks like phones or cash cards for gas and groceries in exchange for enrolling, some using AI-generated fake celebrity endorsements to look credible. Other variants call or message people directly, claiming to be from \"the Marketplace or the government,\" and pressure them to hand over a Social Security number, health information, or payment by cash, cryptocurrency, or card number to \"keep\" or \"verify\" coverage — none of which the real Marketplace ever requires this way. The FTC's guidance is simple: enroll only directly through HealthCare.gov or by calling 1-800-318-2596, and free help from a licensed Navigator is available through the Marketplace's own Local Help directory rather than an unsolicited ad or caller.",
+    categorySlug: "phishing",
+    alertLevel: "high",
+    sources: ["Federal Trade Commission (FTC)"],
+    sourceUrl: "https://consumer.ftc.gov/consumer-alerts/2024/11/looking-marketplace-health-insurance-open-enrollment-season-avoid-scammers",
+    country: "US",
+});
+
