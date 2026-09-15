@@ -18890,3 +18890,448 @@ International.push(
     firstRecorded: '2022-07-17',
   },
 );
+
+International.push(
+  {
+    name: 'Kuwait Fake Trading Platform and Telegram Investment Fraud',
+    slug: 'kuwait-fake-trading-platform-telegram-investment-fraud',
+    description: `The Central Bank of Kuwait has issued repeated public warnings — most recently in May 2026, after an earlier alert in February 2026 — about a growing wave of online investment fraud that recruits victims through social media and messaging apps, particularly Telegram groups and channels promising rapid, outsized returns on small initial deposits. The scheme typically starts with fraudsters using anonymous accounts to circulate small amounts of money among a network of accomplices to build the appearance of a genuine track record of "wins," before pressuring victims to transfer increasingly large sums into unlicensed, unregulated online trading platforms that the Central Bank says are frequently used for both outright fraud and money laundering. The bank has separately flagged Telegram-based "investment channels" advertised with promises of guaranteed daily or weekly profits that no licensed brokerage could legitimately offer, and it has urged residents to confirm any investment firm or platform is properly licensed before transferring funds, warning that participants risk not only losing their money but exposing themselves to money-laundering liability. Kuwaiti residents approached with unsolicited investment opportunities through WhatsApp or Telegram groups promising quick, guaranteed profits should treat the offer as fraudulent by default, verify any firm's license directly with the Central Bank of Kuwait before sending money, and report suspicious channels to CBK rather than engaging with the group.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'medium',
+    sources: ['Central Bank of Kuwait', 'Arab Times Kuwait'],
+    sourceUrl: 'https://www.arabtimesonline.com/news/kuwait-central-bank-warns-of-fake-trading-platforms-promising-quick-profits/',
+    country: 'KW',
+  },
+  {
+    name: 'Kuwait Visa-for-Cash Residency Permit Trafficking Scheme',
+    slug: 'kuwait-visa-for-cash-residency-permit-trafficking-scheme',
+    description: `In July 2025, following an anonymous tip, Kuwait's Ministry of Interior — working with the General Department of Residence Affairs Investigations — dismantled a visa-trafficking ring built around a Kuwaiti national who held signing authority for 29 different companies and used that legal authority to register foreign workers under false pretenses and sell residency permits for cash. Working with a Syrian and an Indian intermediary, he collected bribes of between KD 350 and KD 1,200 per visa to connect foreign workers — ultimately 56 of them — with sponsoring companies that had no real jobs for them, leaving the workers formally "employed" on paper while actually working for unrelated, unlisted employers or simply holding an illegally purchased residency status. The case sits alongside a wider pattern of fake-recruitment and e-visa fraud that has targeted South and Southeast Asian job seekers with counterfeit Kuwaiti government visa portals and forged offer letters, and the Ministry of Interior has separately moved to block dozens of fake websites impersonating licensed Kuwaiti domestic-labor recruitment firms. Anyone offered a Kuwaiti work visa or residency transfer through a broker, informal "sponsor," or unofficial payment outside a licensed recruitment agency should treat the offer as fraudulent, verify any sponsoring company and visa status directly with Kuwait's Public Authority of Manpower or the Ministry of Interior before paying anyone or traveling, and never hand over cash for a company-sponsored visa arranged informally.`,
+    categorySlug: 'employment-scams',
+    alertLevel: 'medium',
+    sources: ['Kuwait Ministry of Interior', 'Gulf News'],
+    sourceUrl: 'https://gulfnews.com/world/gulf/kuwait/kuwait-work-visa-scam-uncovered-3-arrested-1.500207295',
+    country: 'KW',
+  },
+  {
+    name: 'Kuwait Bank Prize-Draw Phone Impersonation Scam',
+    slug: 'kuwait-bank-prize-draw-phone-impersonation-scam',
+    description: `On February 27, 2024, an expatriate resident of Kuwait City lost his entire bank balance — 3,700 Kuwaiti dinars — after receiving a call from a spoofed local number displayed as a "video call," in which the caller first posed as a security guard and then transferred the call to a second scammer posing as a bank employee; the fake bank representative told the victim he had won a KD 1,000 prize in a bank-run draw and, to "process" the payout, talked him into revealing his account password and one-time verification code. The scammer used those details to immediately empty the account, and the victim reported the fraud to Sabah Al-Salem police station, where it was logged as a forgery-related banking case with the spoofed phone number entered into evidence. The case matches a pattern Kuwaiti banks have separately warned about: National Bank of Kuwait has cautioned customers about fraudulent calls and messages on WhatsApp and Viber, sent from numbers styled to resemble its official call-center line, falsely congratulating customers on winning competitions in order to extract account details. Kuwait's Ministry of Interior and local banks stress that no legitimate bank will ever call to ask for a password, card number, CVV, or one-time verification code — including to "release" a prize — so any call, however official-sounding, that asks for that information should be treated as fraud; hang up and call the bank back directly using the number on your card or its official website rather than any number supplied by the caller.`,
+    categorySlug: 'phishing',
+    alertLevel: 'medium',
+    sources: ['Arab Times Kuwait', 'National Bank of Kuwait'],
+    sourceUrl: 'https://www.arabtimesonline.com/news/cunning-fraudster-robs-expat-of-all-his-savings/',
+    country: 'KW',
+    isHistorical: true,
+    firstRecorded: '2024-02-27',
+  },
+);
+
+International.push(
+  {
+    name: 'Ecuador SIM/Chip-Cloning Bank Account Takeover',
+    slug: 'ecuador-sim-chip-cloning-account-takeover',
+    description: `Beginning around July 2026, Ecuador's Fiscalía General del Estado began seeing a fast-growing wave of cases in Pichincha province it classifies as "fraudulent appropriation by electronic means" under COIP Article 190: a criminal walks into a mobile-carrier retail location, impersonates the victim, and requests a replacement SIM chip for a phone reported lost or damaged. El Comercio reported the case of a woman identified only as María José, whose phone abruptly lost signal with no explanation; minutes later she received four bank notifications showing her password had been changed and a transfer had gone out to an unknown account. Another victim, Esteban Ávila, had his email and debit card compromised the same way — signal cut, account drained — and in one case a criminal obtained a replacement chip in a victim's name, without her authorization, at a shopping-center carrier kiosk in Guayaquil. Once the criminal's device is receiving the line's calls and texts instead of the victim's, they can intercept the one-time codes banks use to reset passwords and approve transfers, and because the transfer technically completes the bank's own password-authentication process, the sending bank treats it as authorized rather than fraudulent. Anyone whose phone suddenly loses all signal for no reason should treat it as an emergency rather than a network glitch: contact the mobile carrier immediately to check for an unauthorized chip replacement, and contact the bank to freeze the account rather than waiting to see if service returns.`,
+    categorySlug: 'account-takeover',
+    alertLevel: 'high',
+    sources: ['El Comercio (Ecuador)', 'Fiscalía General del Estado (Ecuador)'],
+    sourceUrl: 'https://www.elcomercio.com/actualidad/bandas-clonacion-chips-robo-dinero/',
+    country: 'EC',
+    isHistorical: false,
+  },
+  {
+    name: 'Fake "Job in Finland" Trafficking-to-Cambodia Scam-Center Recruitment',
+    slug: 'ecuador-fake-job-abroad-trafficking-cambodia-scam-centers',
+    description: `On March 4, 2026, Ecuador's Policía Nacional and Fiscalía General del Estado raided three addresses in Quito and one in Carchi province, dismantling a network that recruited Ecuadorians through fraudulent job offers advertised on social media and via intermediaries — promising well-paid positions in European countries such as Finland, with travel and lodging arranged and paid by the recruiter. According to Primicias, victims who accepted were instead flown to Cambodia, where their passports were confiscated and their movement restricted; once there they were forced, under threat, to work inside clandestine "scam centers" as low-level operators running international computer-fraud schemes — including romance scams and fake cryptocurrency-investment pitches — against victims in other countries, and punished for missing fraud quotas. The operation detained six organizers (three Ecuadorian, three Chinese nationals), rescued three trafficking victims, and identified nine more Ecuadorians believed still held in Cambodian compounds; investigators seized forged employment contracts, victim lists, and payment/transfer records documenting the scheme. Anyone offered a high-paying job abroad where the recruiter arranges and pays for travel and visa paperwork up front should independently verify the employer through Ecuador's consular network or the Ministerio del Trabajo before accepting — by the time a victim realizes the job doesn't exist, they may already be confined overseas.`,
+    categorySlug: 'employment-scams',
+    alertLevel: 'high',
+    sources: ['Primicias (Ecuador)', 'Fiscalía General del Estado (Ecuador)'],
+    sourceUrl: 'https://www.primicias.ec/sucesos/red-trata-personas-ecuador-explotacion-laboral-camboya-estafas-informaticas-117362/',
+    country: 'EC',
+    isHistorical: true,
+    firstRecorded: '2026-03-04',
+  },
+  {
+    name: 'Ecuador Stolen-ID Fraudulent Digital Account and Loan Fraud',
+    slug: 'ecuador-fraudulent-digital-account-loan-fraud',
+    description: `On May 8, 2026, Ecuador's Policía Nacional, working with the Fiscalía General del Estado, arrested four people in Quito's Fajardo, San Isidro del Inca, and Las Cuadras sectors for manipulating a bank's online account-opening (telematic) system to create fraudulent digital accounts, apply for unauthorized credit lines and loans in real people's names, and transfer the disbursed funds to accounts the ring controlled — a scheme El Universo reported had caused losses exceeding $50,000. Unlike scams that trick a victim into acting, this pattern exploits the identity-verification gap in a bank's remote digital-onboarding process: armed with a victim's stolen personal data harvested from earlier data leaks or phishing, the ring opened accounts and credit products the real person never applied for, which often surfaced only when a bank notice or credit-bureau check turned up debt they never took on. Investigators identified the suspects through financial traceability and digital-forensics analysis rather than a single victim's complaint, which is itself telling: this kind of fraud can run for a while before anyone notices. Ecuadorian consumers should periodically check their credit report (buró de crédito) for accounts or loans they didn't open, and treat any unexpected notice about a new digital account or approved credit line as a reason to call the bank directly rather than assume it's an error.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'medium',
+    sources: ['El Universo', 'Policía Nacional del Ecuador'],
+    sourceUrl: 'https://www.eluniverso.com/noticias/seguridad/cuatro-detenidos-por-fraude-electronico-que-dejo-perdidas-superiores-a-50000-en-quito-nota/',
+    country: 'EC',
+    isHistorical: true,
+    firstRecorded: '2026-05-08',
+  },
+);
+
+International.push(
+  {
+    name: 'Bahrain BenefitPay OTP Account-Takeover Fraud',
+    slug: 'bahrain-benefitpay-otp-account-takeover-fraud',
+    description: `The Central Bank of Bahrain issued an official public warning on January 28, 2021 after fraudsters began sending SMS messages that spoofed "BenefitPay" — Bahrain's national e-wallet, run by the Benefit company — using near-identical, deliberately misspelled sender names ("BenifitPay") and links to look-alike sites asking recipients to "update their CPR information." The pattern escalated from mass phishing texts into direct, targeted fraud: callers posing as bank representatives phoned victims, persuaded them to read out one-time verification codes and their BenefitPay numbers under the pretext of "updating" their banking details, and used those codes to seize control of victims' accounts and transfer money out. On January 16, 2025, Bahrain's High Criminal Court sentenced 12 individuals over one such scheme, with prosecutors detailing how a ministry employee lost at least BD468 after a caller who "sounded professional, like a bank employee" talked her into disclosing her verification code. BenefitPay, like every bank, never phones or texts asking a customer to read out a one-time password or verification code — a request for one, however official the caller sounds, should be treated as proof of fraud in progress, and the call should be ended immediately without providing any code.`,
+    categorySlug: 'account-takeover',
+    alertLevel: 'high',
+    sources: ['The Daily Tribune (Bahrain)', 'Central Bank of Bahrain (CBB)'],
+    sourceUrl: 'https://www.newsofbahrain.com/bahrain/107387.html',
+    country: 'BH',
+  },
+  {
+    name: 'Bahrain Fake Traffic Fine SMS Card-Skimming Scam',
+    slug: 'bahrain-fake-traffic-fine-card-skimming-scam',
+    description: `In late February 2025, Bahrain's Daily Tribune documented a smishing scheme in which fraudsters sent SMS messages mimicking Bahrain's Traffic Department, telling recipients they owed a small unpaid fine and linking to a counterfeit payment page that closely copied the look of the genuine government portal. One expatriate resident, believing the message, entered her card number, CPR number and full name to pay what the fake site displayed as a BD20 fine; shortly afterward, unauthorized transactions in Australian dollars — AUD 4,000, AUD 2,000 and AUD 1,000 — were attempted against her card. Cybersecurity expert Ali Beshara, quoted in the report, explained the tactic as card-testing: a small, plausible-looking first charge is all scammers need to confirm a stolen card works before running much larger fraudulent transactions against it. Anyone receiving an SMS about a traffic fine or similar government fee should never follow the link in the text — instead go directly to Bahrain's official government portal or the relevant agency's verified number — and should watch bank statements closely for small, unfamiliar "test" charges that can signal a card has already been compromised.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['The Daily Tribune (Bahrain)'],
+    sourceUrl: 'https://www.newsofbahrain.com/bahrain/109281.html',
+    country: 'BH',
+    isHistorical: true,
+    firstRecorded: '2025-02-01',
+  },
+  {
+    name: 'Bahrain Fake Police "Internet Surfing Fine" Email Scam',
+    slug: 'bahrain-fake-police-internet-fine-email-scam',
+    description: `On March 17, 2022, Bahrain's Anti-Cyber Crimes Directorate — part of the Ministry of Interior's General Directorate of Anti-Corruption and Economic and Electronic Security — warned the public about fake websites and emails carrying the Bahrain Police Media Centre's own logo, which appeared via malicious pop-up links while people browsed the internet. The messages falsely claimed the recipient's browser had been flagged for visiting prohibited content and that they now owed a BD190 fine "as prescribed by Decree No: 179-374 of 2022" — a decree that does not exist — demanding payment by credit card within 12 hours under threat of arrest and jail. Victims who came forward, including at least one who said he had never visited any illicit site, described the messages as convincing enough to cause real panic before reporting them to the Directorate. Bahrain Police do not issue fines by mass email or browser pop-up, do not demand instant credit-card payment under threat of imminent arrest, and any message doing so — however authentic the logo looks — should be reported to the Cybercrime Unit rather than acted on.`,
+    categorySlug: 'government-impersonation',
+    sources: ['The Daily Tribune (Bahrain)', 'Bahrain Ministry of Interior — Anti-Cyber Crimes Directorate'],
+    sourceUrl: 'https://www.newsofbahrain.com/bahrain/79607.html',
+    country: 'BH',
+    isHistorical: true,
+    firstRecorded: '2022-03-17',
+  },
+);
+
+International.push(
+  {
+    name: 'Malta Spoofed Bank Caller and Fake Portal Fraud (Tammy Caruana Case)',
+    slug: 'malta-tammy-caruana-bank-impersonation-vishing-fraud',
+    description: `Starting in late September 2024, Bank of Valletta customers began reporting to Malta Police that they were receiving phone calls from someone posing as a bank employee — using names such as "Rachel" or "Sarah" — claiming a suspicious transaction had been flagged and asking whether they wanted to authorise it; a "no" answer triggered a follow-up SMS, arriving inside an authentic-looking thread with the bank's real messages, containing a link that either harvested the victim's online-banking login or walked them into approving what was in fact a fraudulent transfer. Investigators found the calls used number-spoofing so they displayed as the bank's own line, and uncovered evidence including Google searches for Bank of Valletta's website and discussion of building fake versions of its banking portal to harvest credentials. Police identified around 200 victims with combined losses approaching €1 million — individual victims testified to losses of €14,950 and €15,000, saying the calls were convincing enough that they "could not tell real bank calls from fraud" — and charged Tammy Caruana, a 25-year-old woman from St Paul's Bay, with fraud, money laundering, and membership of an organised crime group. Because banks never ask customers to click an SMS link to approve or cancel a transaction, and caller ID can be spoofed to show a bank's real number, anyone receiving such a call should hang up and call back only on the number printed on their card or statement.`,
+    categorySlug: 'phishing',
+    alertLevel: 'high',
+    sources: ['Newsbook.mt', 'MaltaToday'],
+    sourceUrl: 'https://newsbook.com.mt/en/victims-could-not-tell-real-bank-calls-from-fraud-as-e1m-scam-case-continues/',
+    country: 'MT',
+  },
+  {
+    name: 'Malta Fake MaltaPost Customs-Fee SMS Scam',
+    slug: 'malta-maltapost-customs-fee-sms-smishing-scam',
+    description: `Malta Police and MaltaPost have repeatedly warned of a recurring SMS phishing ("smishing") scam impersonating the national postal operator. In a wave flagged on December 4, 2022, texts claimed a parcel was awaiting delivery but required a small customs or handling fee to release it, with an embedded link leading to a fake MaltaPost site designed purely to harvest the victim's card details; police reported receiving an average of about 13 fresh complaints a day during that wave, with individual victims losing hundreds of euros apiece once their card numbers were used for unauthorised charges. MaltaPost's own scam-protection page separately warns of lookalike domains such as "malta-post.com" and "ma1tapost.com" (instead of the genuine maltapost.com) used in these and related campaigns, including a June 2024 wave that used fake Facebook profiles and a bogus "clearing our warehouses, selling lost parcels" pitch to push the same kind of malicious link. The pattern recurs seasonally, spiking around Christmas and other high-parcel-volume periods when an unexpected delivery notice feels routine. MaltaPost's advice: never enter payment or card details after clicking a link in an unsolicited delivery text, check that any communication uses the genuine maltapost.com domain over https, and verify a suspicious message by going directly to MaltaPost's own website or Facebook page rather than any link or number the message itself provides.`,
+    categorySlug: 'package-delivery-scams',
+    alertLevel: 'medium',
+    sources: ['Newsbook.mt', 'Malta Police Force', 'MaltaPost'],
+    sourceUrl: 'https://newsbook.com.mt/en/police-flag-return-of-maltapost-sms-scam/',
+    country: 'MT',
+  },
+  {
+    name: 'Malta Fake Identity Malta/Police eID Phone Scam',
+    slug: 'malta-identity-malta-police-eid-vishing-scam',
+    description: `Malta Police and the government's Identity Malta agency (which issues the national eID) issued two public warnings within two weeks of each other in August 2022 — August 4 and a renewed alert on August 18 — about vishing calls in which criminals, using spoofed local numbers and pre-recorded messages, impersonate Malta Police officers or Identity Malta staff and tell the recipient their eID account has been compromised, in some versions citing supposed activity "linked to money laundering" tied to the account, before directing them to press 1 and hand over their ID card number, postcode, credit card details, or eID login credentials to "secure" the account. Identity Malta confirmed the calls were fraudulent and said it never contacts account holders this way, while police described the pattern plainly as an attempt to "gain access to personal information and/or credit card details." Because neither the police nor Identity Malta will ever call to request a full ID number, card details, or eID login credentials over the phone — and a local-looking caller ID is no guarantee of who is actually calling — anyone receiving such a call should hang up without pressing any key or giving any information, and report the number to the Malta Police Cyber Crime Unit.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Newsbook.mt', 'Identity Malta', 'Malta Police Force'],
+    sourceUrl: 'https://newsbook.com.mt/en/scammers-targeting-public-claiming-to-be-police-identity-malta-officers/',
+    country: 'MT',
+    isHistorical: true,
+    firstRecorded: '2022-08-04',
+  },
+);
+
+International.push(
+  {
+    name: 'AI-Deepfake Bank of Mauritius Governor Investment Endorsement Scam',
+    slug: 'mauritius-deepfake-governor-investment-scam',
+    description:
+      "A social-media investment scheme circulated an AI-manipulated image combining a fabricated photo of the real Governor of the Bank of Mauritius, Priscilla Muthoora Thakoor, with the photo of a business figure, using her office's real credibility to make a \"guaranteed high-return\" investment pitch look officially endorsed. The post also falsely invoked the names of actual commercial banks operating in Mauritius to reinforce the illusion of legitimacy. On August 28-29, 2026, the Bank of Mauritius issued a public scam alert stating the scheme \"has no connection with the central bank nor with the commercial banks operating on the territory,\" urged the public not to send any money, and told anyone already victimized to contact police immediately. This differs from the bank's earlier fake-bank-brand warnings, such as the 2019 \"National Mauritius Bank\" Bitcoin Era case, in that it uses an AI-generated deepfake image of a real, currently serving named official rather than an invented bank identity or generic celebrity likeness. Mauritians should verify any investment pitch invoking a named regulator or official directly with the Bank of Mauritius rather than trusting an image or endorsement seen on social media, however official it looks.",
+    categorySlug: 'ai-deepfake-scams',
+    alertLevel: 'high',
+    sources: ['Bank of Mauritius', "L'Express (Maurice)"],
+    sourceUrl: 'https://fr.allafrica.com/stories/202608310600.html',
+    country: 'MU',
+    firstRecorded: '2026-08-28',
+  },
+  {
+    name: 'Fake Absa Mobile Banking App Phishing Scam',
+    slug: 'mauritius-fake-absa-mobile-app-phishing',
+    description:
+      'Fraudulent Facebook pages and copycat websites promoted a "new Absa mobile banking application" that does not exist, encouraging Absa Bank (Mauritius) customers to click through and download an unauthorized app — a vector typically used to harvest login credentials, card details, or one-time passwords once installed. Absa Mauritius issued a public warning, reported September 1, 2026, stating it "has not launched a new mobile banking application through these platforms," and advised customers to download banking apps only from official app stores, never share passwords, PINs, or OTPs, verify any such promotion only through Absa\'s own official channels, and report suspicious pages to its contact centre. This is a distinct mechanism from the corpus\'s existing Mauritius entries, none of which involve a bank-branded fake-app impersonation, and is specific to Absa\'s Mauritius operation and current as of this scam wave. Customers should treat any unsolicited prompt to download a "new" banking app from a social media post or link, rather than an official app store listing verified against the bank\'s own website, as a warning sign.',
+    categorySlug: 'phishing',
+    alertLevel: 'high',
+    sources: ['Absa Bank (Mauritius) Limited', 'Platform Africa'],
+    sourceUrl: 'https://platformafrica.com/2026/09/01/absa-mauritius-warns-customers-about-fraudulent-mobile-app-scam/',
+    country: 'MU',
+    firstRecorded: '2026-09-01',
+  },
+  {
+    name: 'Hemraj Monohur Widow and Retiree Romance Fraud',
+    slug: 'mauritius-hemraj-monohur-widow-romance-fraud',
+    description:
+      'A 64-year-old man from Vacoas, Hemraj Monohur, is accused of running a romance-manipulation fraud for close to a decade: he cultivated close personal, and at times explicitly romantic, relationships with widows, women with ill spouses, and retirees in financial distress, then used that emotional trust to extract money from them under various financial pretexts. Arrested June 3-4, 2026 and provisionally charged with money laundering, which he contests, Monohur has himself claimed to have diverted roughly Rs 150 million over the scheme\'s lifetime; Mauritius\'s Financial Crimes Commission (FCC) traced about Rs 61 million through bank-record analysis and, as of mid-to-late June 2026, had identified around 35-40 victims, mostly widows and retired women, with roughly Rs 40 million in documented losses among the victims interviewed to that point, with the FCC saying the number of complaints kept growing. Two other men, his brother Hemkaran Monohur and an associate, Ramesh Hemraj, were arrested and provisionally charged with money laundering for allegedly providing bank accounts used to move the funds, and a further suspect, Rajan Sampat, was arrested June 30, 2026 over an additional Rs 21 million in suspicious transactions. This is a distinctly different pattern from anything else currently in the corpus for Mauritius, which otherwise covers company or Ponzi-style investment fraud and impersonation call centres: it is an individual, relationship-based confidence fraud sustained over years against an isolated, grief-vulnerable victim pool. Isolated widows, retirees, and people caring for an ill spouse should be especially wary of a new close personal or romantic relationship that leads to requests for money or access to bank accounts, and family members should check in on elderly relatives who become secretive about a new relationship and their finances.',
+    categorySlug: 'romance-scams',
+    alertLevel: 'high',
+    sources: ['Financial Crimes Commission (Mauritius)', 'Le Mauricien', "L'Express (Maurice)"],
+    sourceUrl:
+      'https://www.lemauricien.com/actualites/societe/enquete-de-la-fcc-manipulations-sentimentales-35-victimes-bernees-avec-un-butin-de-rs-40-millions/709774/',
+    country: 'MU',
+    firstRecorded: '2026-06-04',
+  },
+);
+
+International.push(
+  {
+    name: 'PNP Anti-Cybercrime Group "Quishing" QR Code Warning',
+    slug: 'philippines-pnp-quishing-qr-code-scam',
+    description:
+      'On July 22-23, 2026, the Philippine National Police Anti-Cybercrime Group (PNP-ACG) issued a public advisory warning against "quishing," QR-code phishing, after observing cybercriminals placing manipulated or overlaid QR-code stickers in public spaces, including over payment terminals, posters, and signage, that redirect anyone who scans them to fraudulent websites designed to harvest banking credentials and personal information. PNP-ACG chief Maj. Gen. Wilson Asueta specifically cautioned that "not everything posted in stores was placed by the authorized owner," urging the public to verify a QR code\'s source before scanning it and to stick to legitimate, authorized codes. The warning came even as the PNP reported an 18% drop in overall online scam cases in the first half of 2026, from 5,526 incidents in H1 2025 to 4,509 in H1 2026, which officials attributed to rising public awareness, suggesting quishing is an emerging tactic scammers are turning to as older schemes lose effectiveness. Anyone paying via a public QR code should check whether it looks like a sticker pasted over another code and confirm the recipient name shown on screen before completing any payment.',
+    categorySlug: 'qr-code-scams',
+    alertLevel: 'medium',
+    sources: ['Philippine National Police Anti-Cybercrime Group (PNP-ACG)', 'Daily Tribune (Philippines)'],
+    sourceUrl: 'https://tribune.net.ph/2026/07/22/pnp-cybercrime-warns-vs-quishing',
+    country: 'PH',
+    firstRecorded: '2026-07-22',
+  },
+  {
+    name: "Fake BSP Charity Solicitation Using Monetary Board Member's Name",
+    slug: 'philippines-bsp-diokno-fake-charity-solicitation-scam',
+    description:
+      'In late July 2026, the Bangko Sentral ng Pilipinas (BSP) issued a public advisory warning that fraudsters were impersonating the central bank and, specifically, invoking Monetary Board member Benjamin E. Diokno, a high-profile former Finance Secretary and BSP Governor, to solicit "donations" for supposed charitable causes. Victims receive emails or direct messages that falsely claim BSP or Diokno affiliation and include bank account details for wiring "contributions," exploiting Diokno\'s public name recognition to lend the appeal legitimacy. The BSP stated plainly that "the central bank and its officials neither solicit donations, sponsorships, or financial assistance from the public," and urged anyone contacted this way to verify authenticity via bspmail@bsp.gov.ph or the BSP hotline before responding or transferring any funds; the BSP\'s General Counsel separately noted that law enforcement has filed over 500 cases under the Anti-Financial Account Scamming Act (AFASA) tied to the broader wave of BSP-impersonation fraud this scheme belongs to. Anyone asked to donate to a cause on behalf of the central bank or a named official should treat the request itself as the warning sign and verify it only through the BSP\'s own published contact channels.',
+    categorySlug: 'charity-scams',
+    alertLevel: 'medium',
+    sources: ['Bangko Sentral ng Pilipinas (BSP)', 'Bicol Mail'],
+    sourceUrl: 'https://www.bicolmail.net/single-post/bsp-warns-vs-scams-using-ben-diokno-s-name',
+    country: 'PH',
+    firstRecorded: '2026-07-28',
+  },
+);
+
+International.push(
+  {
+    name: 'Fake SAPS Officer Guesthouse Booking and Airtime Scam',
+    slug: 'south-africa-fake-police-officer-guesthouse-booking-airtime-scam',
+    description:
+      'Fraudsters digitally altered a photo and identity details of a real South African Police Service captain from the Tshwane District Office and used the fabricated profile to contact guesthouses and B&Bs, initially reported in Gauteng, claiming they needed to book accommodation for a group of officers on official police business, often requesting late or after-hours check-in. Once the booking was "confirmed," the impersonators called or messaged the guesthouse claiming they urgently needed airtime purchased "for operational purposes," promising reimbursement on arrival; the officers never showed up and the airtime cost was never repaid. Gauteng SAPS provincial spokesperson Captain Johan van Dyk warned that SAPS officials may never request airtime, vouchers, or any form of payment from businesses or individuals, and urged guesthouses to verify any such booking directly with their nearest police station rather than trusting emailed documents or photographs. Any business asked to front money or airtime for a supposed police booking, however official the paperwork looks, should treat the request itself as the fraud and call the police station directly to confirm before agreeing to anything.',
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['South African Police Service (SAPS)', 'IOL'],
+    sourceUrl: 'https://iol.co.za/news/crime-and-courts/2026-05-02-gauteng-saps-issues-warning-about-identity-fraud-targeting-businesses/',
+    country: 'ZA',
+    firstRecorded: '2026-05-02',
+  },
+  {
+    name: 'SARS AI-Generated Fake Tax Refund Phishing Scam',
+    slug: 'south-africa-sars-ai-fake-tax-refund-phishing-scam',
+    description:
+      'The South African Revenue Service warned taxpayers on July 30, 2026 of a fresh wave of SMS and email messages, sent from spoofed addresses resembling "returns@sars.co.za" or "refunds@sars.co.za," falsely claiming the recipient is owed a tax refund and directing them to a counterfeit eFiling-style page or claim form. SARS specifically flagged that scammers are now using artificial intelligence to generate polished, professional-looking, error-free email templates and page designs that are noticeably harder for ordinary taxpayers to distinguish from genuine SARS correspondence than earlier phishing attempts. Anyone who enters eFiling credentials or banking details on the fake page risks having their profile hijacked and any genuine refund redirected to the fraudsters. SARS reiterated it will never request passwords, one-time PINs, banking details, or eFiling login credentials by email, SMS, social media, or phone, and directed the public to report suspicious messages to phishing@sars.gov.za or the Fraud and Anti-Corruption Hotline rather than clicking any link in the message.',
+    categorySlug: 'tax-scams',
+    alertLevel: 'high',
+    sources: ['South African Revenue Service (SARS)', 'South African Government News Agency (SAnews)'],
+    sourceUrl: 'https://www.sanews.gov.za/south-africa/sars-warns-public-against-new-scam',
+    country: 'ZA',
+    firstRecorded: '2026-07-30',
+  },
+  {
+    name: 'Fake Traffic Fine (NaTIS) Payment Scam',
+    slug: 'south-africa-fake-traffic-fine-natis-payment-scam',
+    description:
+      "The South African Police Service issued a national warning about a surge in fraudulent traffic-fine notices delivered by email, SMS, and phone call, in which criminals impersonate NaTIS, municipal traffic departments, or other traffic authorities and claim the recipient has an outstanding fine. Victims are pressured with threats of legal action, escalating penalties, or vehicle impoundment if they don't pay \"immediately,\" and are steered to fake payment portals and websites built to harvest banking details and personal information; SAPS noted the fraudulent notices typically lack accurate personal or vehicle details and legitimate infringement reference numbers, relying on manufactured urgency to prevent victims from verifying the fine first. SAPS spokesperson Colonel Andrè Traut urged the public not to respond to unsolicited payment demands and to confirm any fine directly with NaTIS or the relevant traffic authority, using contact details they look up independently, before paying anything.",
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['South African Police Service (SAPS)', 'IOL'],
+    sourceUrl: 'https://iol.co.za/news/crime-and-courts/2026-07-28-saps-warns-public-over-fake-traffic-fine-fraud-targeting-motorists/',
+    country: 'ZA',
+    firstRecorded: '2026-07-28',
+  },
+);
+
+International.push(
+  {
+    name: 'Castillos Fake Police and Lawyer "Family Member Detained" Bail Scam',
+    slug: 'uruguay-castillos-fake-police-lawyer-bail-scam',
+    description:
+      'On September 3, 2026, police in Castillos, in Uruguay\'s Rocha department, issued a public warning about a two-call telephone scam circulating in the city. In the first call, made to a landline, a fraudster impersonating a police officer tells the victim that a family member, acquaintance, or business associate has been detained after a traffic accident, sometimes adding aggravating details such as having hit a pregnant woman to heighten urgency, and asks for a mobile number so a "lawyer" can follow up. A second caller, posing as that lawyer, then contacts the victim on the mobile number and demands an immediate transfer or cash payment to cover a fine or bail, threatening prison time for the detained relative if payment isn\'t made right away. Police stressed that no legitimate agency ever collects bail or fines by phone, urged residents to never share account numbers or passwords or make transfers to a caller, to independently verify any such claim by calling the police directly rather than a number the caller supplies, and pointed to the Interior Ministry\'s "Verificá" WhatsApp line for checking suspicious calls before paying.',
+    categorySlug: 'family-emergency-scams',
+    alertLevel: 'high',
+    sources: ['Policía de Castillos (Rocha)', 'InfoRocha'],
+    sourceUrl: 'https://inforocha.uy/2026/09/03/policia-de-castillos-alerta-por-modalidad-de-estafa-telefonica/',
+    country: 'UY',
+    firstRecorded: '2026-09-03',
+  },
+  {
+    name: 'Fake Gold-Investment "Job" Task Scam via Facebook and WhatsApp',
+    slug: 'uruguay-fake-gold-investment-job-task-scam',
+    description:
+      'Uruguay\'s Ministerio del Interior reported a case in which a 53-year-old woman was contacted on Facebook with what was framed as a job opportunity: a false labor proposal linked to alleged investments with quick, guaranteed profits, specifically promising daily income from "investing in gold." After initial contact, the conversation moved to WhatsApp with a contact using an international phone number, who built trust before directing her to make a series of deposits, described as going to bank accounts and third-party payment-collection services designated by the scammers, totaling roughly 60,000 Uruguayan pesos, with the promised returns never materializing. Authorities flagged the pattern\'s warning signs: promises of easy, guaranteed daily gains, a vague or unverifiable "employer," a shift from a public platform to a private one using a foreign number, and pressure to keep transferring money quickly. The case was referred to the police Investigation Area of Zone II, and the ministry urged the public to verify any such offer independently and distrust unsolicited job or investment pitches from unknown international contacts.',
+    categorySlug: 'job-task-scams',
+    alertLevel: 'medium',
+    sources: ['Ministerio del Interior (Uruguay)'],
+    sourceUrl: 'https://www.gub.uy/ministerio-interior/comunicacion/noticias/estafa-digital',
+    country: 'UY',
+    firstRecorded: '2026-04-09',
+  },
+  {
+    name: '"Urucash"/"Americana Seguros" Unauthorized Advance-Fee Loan Scheme',
+    slug: 'uruguay-urucash-americana-seguros-advance-fee-loan-scam',
+    description:
+      'On February 19, 2026, the Banco Central del Uruguay\'s Superintendencia de Servicios Financieros publicly warned that "Urucash," operating via urucash.com, and an affiliated "Americana Seguros" were offering personal loans despite holding no authorization to operate as financial-service providers in Uruguay. Under the scheme, applicants seeking a loan are told they must first purchase a supposed insurance policy tied to the loan and make advance payments framed as covering "BCU paperwork" or processing fees before the credit can be disbursed; after paying, victims never receive the promised loan. The BCU listed the case among a family of unauthorized-lender warnings issued in early 2026 and advised the public to treat upfront payment demands, below-market advertised interest rates, and the absence of any verifiable physical business address as red flags, recommending that anyone offered credit first check the company against the BCU\'s public registry of authorized financial entities before paying anything.',
+    categorySlug: 'debt-relief-scams',
+    alertLevel: 'high',
+    sources: ['Banco Central del Uruguay (BCU)', 'Montevideo Portal'],
+    sourceUrl: 'https://www.montevideo.com.uy/Noticias/BCU-alerta-por-empresa-que-ofrece-creditos-sin-autorizacion-como-funciona-la-maniobra-uc954074',
+    country: 'UY',
+    firstRecorded: '2026-02-19',
+  },
+);
+
+International.push(
+  {
+    name: 'KRA Fake Job Appointment Letter Scam',
+    slug: 'kenya-kra-fake-job-appointment-letter-scam',
+    description:
+      "In February 2026, the Kenya Revenue Authority (KRA) publicly warned jobseekers about a forged appointment letter circulating via WhatsApp and email that uses KRA's official letterhead, logo, and internal-sounding language to falsely offer a position in the authority's Marketing Department. The tell is that applicants are told to respond to a generic @outlook.com address rather than any @kra.go.ke domain, a red flag KRA highlighted directly, and the scam is timed to exploit the annual rush of anxious jobseekers and taxpayers around KRA's June tax-filing deadline. KRA reiterated that it never charges fees at any stage of recruitment and that all genuine vacancies are posted solely on its official careers portal, urging the public to verify any purported KRA job offer through official channels before paying any fee or submitting personal or ID documents.",
+    categorySlug: 'employment-scams',
+    alertLevel: 'medium',
+    sources: ['Kenya Revenue Authority (KRA)', 'Kenyans.co.ke'],
+    sourceUrl: 'https://www.kenyans.co.ke/news/123168-kra-warns-kenyans-over-fake-job-appointment-letter-scam',
+    country: 'KE',
+    firstRecorded: '2026-02-01',
+  },
+  {
+    name: 'Fake Social Health Authority (SHA) Agents Impersonation Scam',
+    slug: 'kenya-sha-fake-agents-impersonation-scam',
+    description:
+      "Fraudsters impersonating officials of Kenya's Social Health Authority (SHA), the body that replaced NHIF as the national health-insurance scheme, approach patients, healthcare providers, and beneficiaries in person, wearing SHA-branded shirts and carrying forged SHA identification cards, name tags, and membership cards, and falsely offer to speed up registration, fix account errors, or expedite claims processing and payouts in exchange for cash \"facilitation fees,\" gifts, or commissions. SHA has publicly and repeatedly warned, first flagged around November 2025 and reiterated in a fresh public warning on July 3, 2026, that its genuine employees never solicit money for services and never ask for a member's personal details or M-Pesa PIN, and it has set up a dedicated fraud-reporting email and toll-free line. The scam preys specifically on public confusion during Kenya's rollout of the new SHA scheme, where many Kenyans are still unsure how registration and claims are supposed to work. Anyone approached by someone claiming to be an SHA agent asking for payment or personal details should verify through SHA's official channels, county offices, or a Huduma Centre before handing over anything.",
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Social Health Authority (SHA)', 'Kenyans.co.ke', 'The Star (Kenya)'],
+    sourceUrl: 'https://www.kenyans.co.ke/news/124912-sha-warns-kenyans-over-fraudsters-impersonating-officials-offer-fake-services',
+    country: 'KE',
+    firstRecorded: '2025-11-07',
+  },
+  {
+    name: 'CMA Public Warning: 15 Unlicensed Investment Platforms',
+    slug: 'kenya-cma-unlicensed-investment-platforms-warning-2026',
+    description:
+      'On September 12, 2026, Kenya\'s Capital Markets Authority (CMA) issued a public caution naming 15 specific entities unlawfully soliciting funds from Kenyans without any CMA license or approval, several of them falsely presenting themselves as licensed Money Market Funds or legitimate crypto and forex trading platforms. The named entities included QVSE (Quant Vest Stock Exchange), which attracted thousands of Kenyans by promising returns from US stock trading through a scheme fronted by someone claiming to be "Carl Grindan" before requesting additional deposits to "activate" frozen accounts, Global Investment Group (GIG), Kore Exchange, Abacus Wealth Management, Brown Advisory Group, B Invest, Bitblock Capital Limited, Maliwave Investments, Monetrix Capital Investments, "Twenty-Four Hours Pro Expert Trader," Wealth Sharing Group (Opticoin), CBEX, Just Markets, Ultima Cryptocurrency, and Lukman-Trust Fund. The CMA said the platforms are subject to active joint investigation with the Directorate of Criminal Investigations and urged the public and any affected investors to stop depositing funds immediately and report to their nearest DCI office. Anyone offered guaranteed returns from an unfamiliar trading platform, especially one later demanding an extra deposit to "unlock" or "activate" a frozen account, should check the CMA\'s public list of licensed entities before sending any money.',
+    categorySlug: 'investment-fraud',
+    alertLevel: 'critical',
+    sources: ['Capital Markets Authority of Kenya (CMA)', 'Business Daily Africa'],
+    sourceUrl: 'https://www.businessdailyafrica.com/bd/markets/capital-markets/cma-warns-against-investments-in-15-illegal-funds-5593276',
+    country: 'KE',
+    firstRecorded: '2026-09-12',
+  },
+);
+
+International.push(
+  {
+    name: 'Fake Bank-Transfer-Screenshot Car-Sale Fraud',
+    slug: 'denmark-fake-bank-transfer-screenshot-car-sale-fraud',
+    description:
+      'Copenhagen Police say a 38-year-old man is suspected in at least ten cases of fraud targeting private car sellers advertising on Danish online marketplaces. Posing as a buyer, he arranges an in-person handover, claims to send an instant bank transfer via netbank or mobile banking, and shows the seller a convincingly designed but fake screenshot of a completed transfer, sometimes using editing tools or banking-app test environments to mimic a real bank\'s interface down to the last detail. Citing time pressure, such as a train to catch or children waiting in the car, he then pressures the seller to hand over the keys and vehicle registration certificate immediately since "the money\'s already sent," before the seller can verify the funds actually arrived. The scheme unraveled in late April 2026 when one seller grew suspicious despite being shown the screenshot and refused to hand over his car, prompting a police report that uncovered roughly ten similar cases with an identical modus operandi; the suspect was arrested and brought before a preliminary hearing but was released by the court pending further investigation, with charges maintained. Sellers should never hand over a vehicle or its keys and registration until they have personally confirmed the money has actually landed in their own bank account, not merely been shown a screenshot on the buyer\'s phone.',
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'high',
+    sources: ['Københavns Politi (Copenhagen Police)'],
+    sourceUrl: 'https://www.fushinyheder.dk/38-aarig-mistaenkt-for-avanceret-bedrageri-ved-bilhandel-saadan-undgaar-du-at-blive-snydt/',
+    country: 'DK',
+    firstRecorded: '2026-05-14',
+  },
+  {
+    name: 'Fake ATP/Udbetaling Danmark Pension and Benefits Phishing Wave',
+    slug: 'denmark-atp-udbetaling-danmark-benefits-phishing-scam',
+    description:
+      "In July 2026, ATP (Arbejdsmarkedets Tillægspension, Denmark's mandatory supplementary labor-market pension fund) issued a public warning that criminals were mass-contacting Danish citizens by SMS, email, and phone while impersonating ATP and Udbetaling Danmark, the public agency that calculates and pays out state pensions and welfare benefits. The fake messages ask recipients to hand over their bank account number, MitID credentials, or other personal details, often under pressure to act quickly, and some contain fabricated look-alike websites or malicious attachments. ATP's guidance is that it and Udbetaling Danmark never request such information by text message, recipients should never click links or open attachments in these messages, and anyone unsure whether a message is genuine should contact the agencies directly through official channels rather than replying. The warning came against a backdrop of a broader SMS-fraud surge documented by Rigspolitiet's National Center for IT-Related Crime, which logged 1,367 reports of SMS-based fraud attempts in June 2026 alone, the highest monthly total the unit has ever recorded.",
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'high',
+    sources: ['ATP (Arbejdsmarkedets Tillægspension)', 'Ritzau', 'Kristeligt Dagblad'],
+    sourceUrl: 'https://www.kristeligt-dagblad.dk/danmark/svindlere-udgiver-sig-vaere-fra-atp-eller-udbetaling-danmark',
+    country: 'DK',
+    firstRecorded: '2026-07-22',
+  },
+  {
+    name: 'Fake Copenhagen Municipality Parking-Fine SMS Phishing Network',
+    slug: 'denmark-copenhagen-municipality-parking-fine-sms-phishing',
+    description:
+      'Starting around May 2026, a large-scale smishing campaign hit Danish phone users with SMS messages claiming the recipient owed an unpaid parking fine, complete with a link to what appeared to be a Københavns Kommune (Copenhagen Municipality) payment page bearing the city\'s official coat of arms and logo. The fake sites, deliberately set at a small, suspiciously low fine amount such as 17 kroner to make paying feel like the path of least resistance, asked victims to enter their license plate and payment card details, harvesting the data regardless of whether the payment appeared to go through. TjekDet, a Danish fact-checking outlet, identified more than 100 near-identical fraudulent domains tied to the same phishing infrastructure, which it linked to broader smishing campaigns that have swept Denmark in recent months and that also carried infrastructure previously abused to impersonate delivery company DAO and tax authorities. Copenhagen Municipality itself has publicly warned residents about the fake texts on its own website and Facebook page, confirming it never sends parking-fine notices by SMS with a payment link, and residents who receive one should delete it rather than click through, then verify any real fine directly through the municipality\'s official channels.',
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['TjekDet', 'Københavns Kommune (Copenhagen Municipality)'],
+    sourceUrl: 'https://www.tjekdet.dk/svindel/nej-du-har-ikke-faaet-en-boede-stor-boelge-af-parkeringssvindel-maalrettet-koebenhavn',
+    country: 'DK',
+    firstRecorded: '2026-05-18',
+  },
+);
+
+International.push(
+  {
+    name: 'Guardia Civil Spoofed Caller-ID Vishing to Remote-Access Bank Takeover',
+    slug: 'spain-guardia-civil-vishing-spoofed-caller-id-remote-access-scam',
+    description:
+      "In August 2026, Spain's Guardia Civil publicly warned of a vishing scheme in which fraudsters spoof caller ID so their calls display the real phone number of the Guardia Civil's Madrid Comandancia, making the call look genuinely official. The caller poses as an agent, tells the victim in an urgent, authoritative tone that they face an unpaid debt or pending legal matter, and threatens arrest or immediate bank-account seizure unless they act at once. To \"help,\" the caller moves the conversation to WhatsApp and talks the victim into installing a remote-access or technical-support app, handing the criminal live control of the phone and, through it, access to banking apps to move money out directly. Guardia Civil's guidance is to hang up on any call that pressures for money or login details, never install a remote-access tool at a caller's request, and verify any claimed debt independently through an official police station rather than a number the caller supplies, since caller ID showing a genuine police number is no proof of who is actually calling.",
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Guardia Civil', 'Telecinco'],
+    sourceUrl: 'https://www.telecinco.es/noticias/sociedad/20260821/alerta-ciudadana-guardia-civil-estafa-oleada-fraudes-telematicos_18_019996773.html',
+    country: 'ES',
+    firstRecorded: '2026-08-21',
+  },
+  {
+    name: 'Fake Football-Streaming App Malware Scam',
+    slug: 'spain-fake-football-streaming-app-malware-scam',
+    description:
+      "Guardia Civil units, including its Cantabria post, warned in early September 2026 of fraud tied to fake football-streaming apps that spread as Spain's 2026-27 season began. Scammers post links on social media and messaging apps, disguised as ads, sponsored posts, or forwarded chat messages, promising free access to live matches and urging quick action so viewers don't miss kickoff. Clicking leads to a sideloaded app that installs spyware able to log keystrokes, capture the screen, and bypass other apps' security, which criminals use to harvest banking-app credentials and drain accounts. In Cantabria alone, Guardia Civil identified seven cases within days totaling roughly €25,000 in losses, and warned the pattern was spreading nationally. Anyone offered a free way to stream a normally paid match should install apps only from official app stores, check what permissions an app requests before installing, and enable two-factor authentication on banking apps so a compromised phone alone isn't enough to drain an account.",
+    categorySlug: 'account-takeover',
+    alertLevel: 'high',
+    sources: ['Guardia Civil', 'Infobae', 'que.es'],
+    sourceUrl: 'https://www.que.es/2026/09/04/estafa-futbol-gratis-guardia-civil/',
+    country: 'ES',
+    firstRecorded: '2026-09-03',
+  },
+  {
+    name: 'INCIBE Seguridad Social Smishing for Fake Energy-Aid Benefit',
+    slug: 'spain-incibe-seguridad-social-smishing-scam',
+    description:
+      'INCIBE, Spain\'s National Cybersecurity Institute, issued a high-severity alert on August 19, 2026 warning of a smishing campaign impersonating the Tesorería General de la Seguridad Social (TGSS), Spain\'s Social Security treasury. The text reads "Seg Social: Tiene una actualización pendiente. Consulte su información y gestione el trámite correspondiente" ("You have a pending update. Check your information and manage the corresponding procedure") and links to a cloned fake TGSS site. Victims who click are first asked for their national ID number and address, then told they qualify for a supposed "energy adaptation assistance" payment, and to "collect" it, the site demands full card details including number, expiry date, and CVV. INCIBE stresses that Social Security never sends links by SMS to update data or pay benefits, and that the only safe channels are the official IMPORTASS app or the Sede Electrónica; anyone who entered card data should contact their bank immediately, file a police report, and can call INCIBE\'s free helpline for guidance.',
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'high',
+    sources: ['INCIBE (Instituto Nacional de Ciberseguridad)'],
+    sourceUrl: 'https://www.incibe.es/ciudadania/avisos/campana-de-smishing-suplantando-la-seguridad-social',
+    country: 'ES',
+    firstRecorded: '2026-08-19',
+  },
+);
+
+International.push(
+  {
+    name: 'Fake CBN "$46 Billion Grant Approval" Document Scam',
+    slug: 'nigeria-cbn-fake-46-billion-grant-approval-scam',
+    description:
+      'A forged letter circulated on social media in mid-August 2026 claiming Central Bank of Nigeria Governor Yemi Cardoso personally approved a $46 billion "developmental grant" for a group calling itself the ATUFEG Empowerment and Development Centre, bearing fake CBN letterhead and a fabricated reference number, purportedly authorizing immediate transfer of funds for national empowerment projects. The CBN publicly disowned the document on its official account on September 10, 2026, stating plainly "this content is FAKE" and calling it part of a recurring pattern of forged notices exploiting the bank\'s name to build false credibility for advance-fee and data-harvesting schemes. The bank urged the public to verify any purported grant, letter, or announcement bearing its name through its own official channels before responding, paying a fee, or handing over personal or banking information to anyone claiming to represent it.',
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Central Bank of Nigeria (CBN)', 'Premium Times Nigeria'],
+    sourceUrl: 'https://www.premiumtimesng.com/business/business-news/908738-cbn-disowns-purported-46-billion-grant-approval.html',
+    country: 'NG',
+    firstRecorded: '2026-08-13',
+  },
+  {
+    name: 'Fake "Free NIN Correction Portal" Phishing Scam',
+    slug: 'nigeria-nimc-fake-nin-correction-portal-phishing',
+    description:
+      "A fraudulent website posing as a free National Identification Number (NIN) correction portal invites users to submit personal and identity data, including name, date of birth, and gender corrections, to fix supposed errors in their NIN record, circulated via links on social media outside any official channel. Nigeria's National Identity Management Commission (NIMC) issued a public advisory on June 2, 2026 warning that the portal has no connection to the agency and exists purely to harvest personal data exploitable for identity theft, SIM-swap fraud, and further financial scams, while assuring the public that the National Identity Database itself remains secure. NIMC urged Nigerians not to click unauthorized links related to NIN corrections and stressed that genuine corrections must go through NIMC's own official self-service portal or an authorized enrollment center rather than any link shared on social media.",
+    categorySlug: 'phishing',
+    alertLevel: 'high',
+    sources: ['National Identity Management Commission (NIMC)', 'Channels Television'],
+    sourceUrl: 'https://www.channelstv.com/2026/06/02/nimc-alerts-nigerians-to-fake-nin-correction-portal-scam/',
+    country: 'NG',
+    firstRecorded: '2026-06-02',
+  },
+  {
+    name: 'Microfinance Bank Settlement-Account Hack via Fintech 2FA Bypass',
+    slug: 'nigeria-efcc-ravenpay-2fa-bypass-settlement-account-fraud',
+    description:
+      'Between March 2025 and January 2026, a suspect identified as Osaretin Osagiede and an at-large accomplice allegedly caused the two-factor authentication method on Ravenpay user accounts to be bypassed, gaining unauthorized access to Best Start Microfinance Bank\'s settlement accounts and diverting roughly ₦700 million, which was then laundered through more than 150 beneficiary accounts, including numerous point-of-sale cash-out agents, spread across 13 banks. Nigeria\'s Economic and Financial Crimes Commission (EFCC) Lagos Zonal Directorate arraigned Osagiede before the Lagos State High Court on September 4, 2026 on charges of unauthorized computer access and receiving stolen property; he pleaded not guilty and was remanded in custody pending a bail hearing. This is a fintech-infrastructure attack distinct from ordinary SIM-swap fraud: rather than compromising a single customer\'s phone number, the scheme targeted a payment provider\'s own authentication layer to reach a partner bank\'s settlement accounts directly, illustrating why financial institutions using third-party fintech rails need to audit those partners\' authentication controls rather than assuming security ends at their own systems.',
+    categorySlug: 'account-takeover',
+    alertLevel: 'critical',
+    sources: ['Economic and Financial Crimes Commission (EFCC)', 'Business Post Nigeria'],
+    sourceUrl: 'https://businesspost.ng/banking/efcc-arraigns-man-for-hacking-microfinance-bank-to-move-n700m/',
+    country: 'NG',
+    firstRecorded: '2026-09-04',
+  },
+);
