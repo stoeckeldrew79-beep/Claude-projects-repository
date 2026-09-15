@@ -35,6 +35,17 @@ const SHARD_DIRS = ['notorious', 'guides'];
 const DRY_RUN = process.argv.includes('--dry');
 const REPORT_ONLY = process.argv.includes('--report');
 
+// --only=slug[,slug] restricts the run to named entries. A full run re-checks
+// every plan entry against Commons at one request per 350ms, which is around
+// an hour - fine for the original backfill, wasteful when the daily content
+// drop adds two profiles and those are all that need doing.
+const ONLY = (() => {
+  const arg = process.argv.find((a) => a.startsWith('--only='));
+  if (!arg) return null;
+  const slugs = arg.slice('--only='.length).split(',').map((s) => s.trim()).filter(Boolean);
+  return slugs.length ? new Set(slugs) : null;
+})();
+
 /** Finds which shard file physically contains a slug. */
 function shardFor(slug: string): string | null {
   for (const dir of SHARD_DIRS) {
@@ -100,12 +111,12 @@ function insertCoverFields(file: string, slug: string, photo: CommonsPhoto, posi
   return true;
 }
 
-async function resolve(plan: PhotoPlanEntry): Promise<CommonsPhoto | null> {
+async function resolve(entry: PhotoPlanEntry): Promise<CommonsPhoto | null> {
   // An explicitly named file is used as given (still licence-checked);
   // otherwise search. Naming a file is how a case gets a specific photo
   // rather than whatever a search ranks first.
-  if (plan.file) return verifyFile(`File:${plan.file}`, plan.caption);
-  return findPhoto(plan.query!, { caption: plan.caption });
+  if (entry.file) return verifyFile(`File:${entry.file}`, entry.caption);
+  return findPhoto(entry.query!, { caption: entry.caption });
 }
 
 /**
@@ -148,46 +159,60 @@ async function main() {
     return;
   }
 
+  const plan = ONLY ? PHOTO_PLAN.filter((p) => ONLY.has(p.slug)) : PHOTO_PLAN;
+
+  if (ONLY) {
+    const unknown = [...ONLY].filter((s) => !PHOTO_PLAN.some((p) => p.slug === s));
+    // Naming a slug that has no plan entry is a typo, not a no-op: carrying on
+    // would report success having silently done nothing for it.
+    if (unknown.length) {
+      console.error(`No plan entry for: ${unknown.join(', ')}`);
+      process.exitCode = 1;
+      return;
+    }
+  }
+
   console.log(
-    `backfillCoverPhotos: ${PHOTO_PLAN.length} planned${DRY_RUN ? ' (dry run - nothing will be written)' : ''}\n`
+    `backfillCoverPhotos: ${plan.length} planned${ONLY ? ` (of ${PHOTO_PLAN.length}, --only)` : ''}` +
+      `${DRY_RUN ? ' (dry run - nothing will be written)' : ''}\n`
   );
 
   let written = 0;
   let unverified = 0;
   let skipped = 0;
 
-  for (const plan of PHOTO_PLAN) {
+  for (const entry of plan) {
     let photo: CommonsPhoto | null = null;
     try {
-      photo = await resolve(plan);
+      photo = await resolve(entry);
     } catch (err) {
-      console.log(`  ! ${plan.slug}: lookup failed - ${(err as Error).message}`);
+      console.log(`  ! ${entry.slug}: lookup failed - ${(err as Error).message}`);
     }
 
     if (!photo) {
-      console.log(`  - ${plan.slug}: no verifiable free photo, keeping abstract art`);
+      console.log(`  - ${entry.slug}: no verifiable free photo, keeping abstract art`);
       unverified++;
       continue;
     }
 
     if (DRY_RUN) {
-      console.log(`  ✓ ${plan.slug}\n      ${photo.title}  [${photo.license}]`);
+      console.log(`  ✓ ${entry.slug}\n      ${photo.title}  [${photo.license}]`);
       written++;
       continue;
     }
 
-    const file = shardFor(plan.slug);
+    const file = shardFor(entry.slug);
     if (!file) {
-      console.log(`  ! ${plan.slug}: not found in any shard`);
+      console.log(`  ! ${entry.slug}: not found in any shard`);
       skipped++;
       continue;
     }
 
-    if (insertCoverFields(file, plan.slug, photo, plan.position ?? 50)) {
-      console.log(`  ✓ ${plan.slug} -> ${path.basename(file)}  [${photo.license}]`);
+    if (insertCoverFields(file, entry.slug, photo, entry.position ?? 50)) {
+      console.log(`  ✓ ${entry.slug} -> ${path.basename(file)}  [${photo.license}]`);
       written++;
     } else {
-      console.log(`  - ${plan.slug}: already has a photo, or entry shape unrecognised`);
+      console.log(`  - ${entry.slug}: already has a photo, or entry shape unrecognised`);
       skipped++;
     }
   }

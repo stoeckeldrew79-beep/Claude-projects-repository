@@ -189,4 +189,6 @@ export const PHOTO_PLAN: PhotoPlanEntry[] = [
   { slug: 'salvatore-ligresti-fondiaria-sai-fraud', query: 'Milan Italy city skyline', caption: 'Milan, where Fondiaria-SAI was headquartered', position: 45 },
   { slug: 'joseph-ossorio-david-heuwetter-drysdale-government-securities-collapse', query: 'Wall Street New York financial district', caption: 'Wall Street, where Drysdale\u2019s repo trades nearly broke the government bond market', position: 45 },
   { slug: 'steven-perkins-pvm-oil-drunk-trading-market-abuse', query: 'crude oil barrels storage', caption: 'Perkins\u2019 unauthorised overnight trades moved the global price of crude', position: 50 },
+  { slug: 'stuart-pearson-langbar-international-fraud', query: 'London Stock Exchange building', caption: 'Langbar was listed in London; the Brazilian deposit backing its value never existed', position: 45 },
+  { slug: 'yin-guangxia-china-accounting-fraud', query: 'Ningxia China landscape', caption: 'Ningxia, where Yinguangxia claimed the export operation its books were built on', position: 50 },
 ];
