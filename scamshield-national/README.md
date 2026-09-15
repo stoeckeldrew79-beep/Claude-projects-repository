@@ -246,7 +246,15 @@ photo, and since `/articles` sorts newest first, those were the ones on screen.
 npm run report-missing-photos   # lists entries with no photo and no plan entry
 npm run backfill-cover-photos   # attaches the planned photos
 npm run backfill-cover-photos -- --dry   # verifies licences, writes nothing
+npm run backfill-cover-photos -- --only=some-slug,another-slug   # just those
 ```
+
+A full run re-checks every plan entry against Commons at one request per
+350ms — roughly an hour. That is the right cost once; it is the wrong cost for
+the one or two profiles a daily content drop adds, which is what `--only` is
+for (those two take about four seconds). Naming a slug that has no plan entry
+fails the run rather than quietly doing nothing, so a typo can't look like
+success.
 
 Two rules the backfill will not bend:
 
