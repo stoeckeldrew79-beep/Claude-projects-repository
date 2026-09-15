@@ -9880,6 +9880,9 @@ NotoriousGM.push({
     slug: 'steven-long-universal-wealth-preservation-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'international'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Town_Hall_tram_stop%2C_Birmingham.jpg?width=1200',
+    coverImageCredit: 'England, where savers were moved into the pension scheme. Photo: Rcsprinter123 (CC BY 3.0)',
+    coverImagePosition: 45,
     body: `Steven Long ran a group of businesses trading as Universal Wealth Preservation out of Stowmarket, Suffolk, marketing itself to retirees and near-retirees across England as a specialist in protecting trust funds and inheritances. Between July 2008 and April 2018, Universal drew in homeowners of or near retirement age through seminars promoting estate and inheritance planning, offering to manage and safeguard the trust funds and life savings clients had built up over a lifetime of work.
 
 Rather than protecting that money as promised, Long diverted client funds into high-risk overseas investments the victims never agreed to, and prosecutors say he used a Ponzi-style structure to keep the scheme running — paying some clients from money taken from others rather than from any genuine investment return. Co-defendant Raymond Simpson helped run the business from January 2014 until the scheme collapsed in April 2018. Over its decade of operation, Universal caused losses of £11,574,814 to 115 victims, many of whom lost money set aside specifically for their retirement or intended for their children's inheritance. Long spent the proceeds on timeshares and holidays to Mexico, the United States, and Dubai, while also using the money to pay staff wages and prop up other, unrelated business interests.
@@ -9895,6 +9898,9 @@ NotoriousGM.push({
     slug: 'terry-green-universal-roofs-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'international'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Roofing_003.jpg?width=1200',
+    coverImageCredit: 'Roofing work that was paid for twice and never properly done. Photo: Jeuwre (public domain)',
+    coverImagePosition: 50,
     body: `Terry Green, of Sompting, West Sussex, traded as Universal Roofs Ltd and Universal Roofing and Guttering Services, working a doorstep sales script built around a hook so cheap it barely registered as a sales pitch at all: a quote of a few dozen pounds, sometimes less than £50, to fix a handful of loose or slipped roof tiles. The low number got Green onto the roof and inside the homeowner's trust. What followed it did not resemble the original quote in any way.
 
 Once on site, Green or his crew would report far more serious problems than the ones the homeowner had actually called about — rot, structural damage, an entire roof needing replacement rather than a patch — and produce a new price to match. In Pulborough, West Sussex, homeowners who had called about a straightforward repair ended up billed more than £13,000. In Sandwich and Westgate, in Kent, one victim quoted £45 for minor repairs was ultimately charged £1,650 for work left incomplete, while an elderly couple quoted £350 for chimney repairs were told their whole roof needed replacing for £20,000 and paid £3,090 before the work stalled. Across both counties, investigators eventually traced more than £149,000 taken from homeowners between September 2019 and July 2022, work that in case after case was either substandard or never finished at all.
@@ -9912,6 +9918,9 @@ NotoriousGM.push({
     slug: 'thomas-lemmen-schererville-insurance-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Indiana_State_Capitol_dome_2.jpg?width=1200',
+    coverImageCredit: 'Indiana, where Lemmen wrote policies clients never applied for. Photo: Daniel Schwen (CC BY-SA 4.0)',
+    coverImagePosition: 45,
     body: `Thomas J. Lemmen worked as a licensed insurance agent in Schererville, Indiana, building relationships with clients across Northwest Indiana over roughly a decade in the business. That access to clients' personal information — names, dates of birth, Social Security numbers, family and medical history gathered in the ordinary course of writing legitimate policies — became the raw material for a much larger fraud. Between 2020 and 2022, according to federal prosecutors, Lemmen used that information to apply for life insurance policies his clients never asked for and never knew existed, forging their digital signatures on applications and on medical-records-release forms that authorized insurers to pull sensitive health and pharmacy records without the policyholder's actual consent.
 
 The scale of it only became clear as investigators worked through the paperwork: Lemmen wrote more than 2,000 fraudulent life insurance policies in the names of hundreds of victims, the overwhelming majority of them retirees and elderly residents who had trusted him with their existing coverage. Each policy Lemmen wrote — real or fabricated — generated an upfront commission from the insurer, and prosecutors say that commission, not any legitimate insurance need, was the entire point: Lemmen collected more than $5 million in commissions he was not entitled to, using the proceeds to fund the scheme's continued operation and his own spending, including home renovations, an outdoor pool, and frequent travel.
@@ -9927,6 +9936,9 @@ NotoriousGM.push({
     slug: 'daejon-love-taylor-chan-fake-nfl-romance-scam',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Santa_Clara_Stadium_construction_(2012)_2248_04.JPG?width=1200',
+    coverImageCredit: 'The scheme used a fabricated connection to a San Francisco 49ers player. Photo: Pedro Xing (public domain)',
+    coverImagePosition: 50,
     body: `Daejon Labrayae Love met women on dating apps across Oregon, Washington, Idaho, and California and told them a story built to impress: he was a San Francisco 49ers player, or, in other versions, a wealthy real estate investor who had already made a fortune worth tens of millions of dollars. According to a federal criminal complaint, Love spent months cultivating what victims believed were sincere, exclusive romantic relationships before introducing the second half of the pitch — an opportunity to invest alongside him and share in his success, guided by an associate, Taylor Jamie Chan, whom Love described as his personal investment adviser.
 
 That framing did the persuasive work a stranger's investment pitch alone could not have. Chan, prosecutors allege, posed as an adviser in text messages and emails endorsing the investment opportunities Love described, and the pair conducted video calls together showing victims fabricated account statements displaying steady, growing gains. Believing they were both in a genuine relationship and looking at real returns, women invested their own savings and, in some cases, took out loans at Love's encouragement to invest more. Federal investigators identified at least 26 victims across the four states and calculated roughly $1.3 million taken in total, with the FBI stating it believes additional victims have not yet come forward. Once a victim's funds ran out or she began asking pointed questions about withdrawing money, prosecutors say Love simply blocked her and kept what she had already sent.
@@ -9942,6 +9954,9 @@ NotoriousGM.push({
     slug: 'leong-koon-wah-singliworld-singliforex-pyramid-scheme',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'international'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Kuala_Lumpur_Malaysia_Skyline-of-Kuala-Lumpur-Sentral-01.jpg?width=1200',
+    coverImageCredit: 'Malaysia, where Singliworld faked a decade of forex trading. Photo: CEphoto, Uwe Aranas (CC BY-SA 3.0)',
+    coverImagePosition: 45,
     body: `Leong Koon Wah, a Malaysian national, founded Singliworld in Singapore in December 2012 and built it into a multi-level-marketing operation selling access to a foreign-exchange trading program called Singliforex, promising members returns as high as 13 percent a month. The pitch was that professional traders would place trades on investors' behalf through two affiliated brokerages, Hong Kong-incorporated Triumph Global and New Zealand-incorporated Union Markets — brokerages that, like Singliworld itself, held no licence from Singapore's Monetary Authority to conduct foreign-exchange trading in the country at all.
 
 The trading was never real. Singapore prosecutors later established that Singliforex was structured as a pyramid, with Leong positioned at its apex collecting recruitment-driven commissions rather than any share of genuine trading profit. Between roughly 2014 and 2015, the scheme drew in more than 2,000 investors in Singapore and beyond, collecting over US$21 million in total; by the time it collapsed, investors had lost more than US$10 million (around S$13.7 million), a gap between what came in and what went out that no real trading desk was ever generating.

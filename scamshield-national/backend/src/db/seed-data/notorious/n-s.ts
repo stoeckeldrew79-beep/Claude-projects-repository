@@ -5844,6 +5844,9 @@ NotoriousNS.push(
     slug: 'onur-simsek-defense-procurement-fraud-fugitive',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/An_F-A-18C_Hornet_launches_from_the_flight_deck_of_the_conventionally_powered_aircraft_carrier.jpg?width=1200',
+    coverImageCredit: 'Parts sold as "Made in the USA" reached Navy carriers and Army vehicles. Photo: U.S. Navy photo by Photographer\'s Mate 3rd Class Jonathan Chandler (public domain)',
+    coverImagePosition: 50,
     body: `Between April 2019 and February 2022, federal prosecutors say Onur Simsek and a small group of co-conspirators ran a scheme that let counterfeit-origin military components work their way into some of the U.S. armed forces' most sensitive equipment. Their vehicle was Mason Engineering Parts LLC, a company registered in Orlando, Florida, that presented itself to the Department of Defense as a vetted, ISO 9001-certified domestic manufacturer — and, prosecutors say, falsely claimed Woman-Owned Small Business status to help win federal contracts set aside for exactly that kind of company.
 
 The parts Mason Engineering supplied on those Pentagon contracts were not made in the United States at all. Prosecutors say Simsek and co-defendant Yuksel Senbol had the components manufactured in Turkey — using sensitive, export-controlled U.S. technical drawings — then shipped and repackaged to look like compliant domestic production before being delivered as certified, conforming parts for the Navy's Nimitz- and Ford-class aircraft carriers, Navy submarines, Marine Corps armored vehicles, and the Army's M1 Abrams tanks.
@@ -5867,6 +5870,9 @@ NotoriousNS.push(
     slug: 'rey-grabato-nria-ponzi-scheme-fugitive',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Manila_skyline%2C_Philippines.jpg?width=1200',
+    coverImageCredit: 'The Philippines, where Grabato went before the NRIA collapse. Photo: Vyacheslav Argenberg (CC BY 4.0)',
+    coverImagePosition: 45,
     body: `Rey E. Grabato II founded National Realty Investment Advisors (NRIA), a Secaucus, New Jersey firm, and built it into what its own marketing described as one of the nation's leading specialists in "institutional-caliber" private real estate investment management. As president and majority owner, Grabato sold everyday investors on notes and fund interests tied to NRIA's development projects, with promised annual returns of up to 20% — a pitch that, according to the Securities and Exchange Commission, drew in roughly 2,000 investors nationwide, including hundreds in New Jersey.
 
 The SEC and federal prosecutors say the fund behind those promises wasn't what investors were told it was. Grabato and other NRIA executives allegedly misrepresented the value and performance of the investment fund, then used inflated valuations and new investors' money to keep paying distributions to earlier investors, cover business expenses, and fund executives' personal spending — including, prosecutors say, payments to reputation-management firms to keep negative coverage out of view. From February 2018 through January 2022, the scheme raised more than $630 million in securities that were never registered with regulators. Roughly 382 of the investors were retirees who collectively put in more than $94 million of their savings. "Payments were being made from the investors' own funds," rather than from real profits, SEC Associate Regional Director Thomas P. Smith Jr. said in announcing the case. Separately, prosecutors allege Grabato spent years working to keep NRIA from paying roughly $26 million in federal taxes it owed.
@@ -5890,6 +5896,9 @@ NotoriousNS.push(
     slug: 'rodney-dean-allen-ka-investments-missing-broker-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Snake_River_Canyon_Idaho_2007.jpg?width=1200',
+    coverImageCredit: 'The Snake River near Boise, where Allen was last seen. Photo: chadh (CC BY 2.0)',
+    coverImagePosition: 50,
     body: `Rodney Dean Allen owned and ran KA Investments, LLC, a small brokerage in Boise, Idaho, that gave him control over other people's savings and, for a while, their trust. Federal prosecutors say that starting around 2016 he began sending clients monthly account statements that simply didn't reflect what was happening to their money — one statement dated December 6, 2016, told a client their account was up 1.903% for the period; in reality, prosecutors say, that account had lost 36.01%. Allen also told clients he was taking a 14% to 18% commission out of their investment profits, when in fact, according to the indictment, he was pulling money out of their accounts for his own use regardless of whether the accounts had made or lost money at all.
 
 The Idaho Department of Finance opened a civil case against Allen and KA Investments in January 2018, and a federal grand jury in the District of Idaho returned a wire fraud indictment against him on January 10, 2018, with a judge issuing an arrest warrant the same day. By then, prosecutors say, Allen's scheme had taken roughly $7.3 million from his clients between 2016 and 2017. Neither the indictment nor the civil case ever caught up with him in person: Allen was already gone.
@@ -5913,6 +5922,9 @@ NotoriousNS.push(
     slug: 'sevindik-huseynov-vonyes-medicare-advantage-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/ChronicBackache1041.png?width=1200',
+    coverImageCredit: 'Orthotic braces billed to Medicare for patients who did not need them. Photo: REYNOLDS, Edwards AND LOVETT, Robert W. (public domain)',
+    coverImagePosition: 50,
     body: `Sevindik Huseynov, a 48-year-old citizen of Azerbaijan who was living in Sunnyvale, California, incorporated a durable medical equipment company called Vonyes Inc. on January 15, 2025, listing himself as its CEO, CFO, secretary, and sole director. According to federal prosecutors, Vonyes never actually supplied medical equipment to anyone. Instead, over roughly five months, Huseynov used the company as a billing vehicle aimed squarely at Medicare Advantage, the privately administered version of Medicare that covers more than half of the program's beneficiaries.
 
 Between January and June 2025, prosecutors say, Huseynov submitted more than 7,200 claims to at least eight separate Medicare Advantage Organizations, seeking reimbursement for knee braces, back braces, wrist braces, and other orthotic equipment that beneficiaries had never ordered and no doctor had ever prescribed. The claims sought more than $137 million in total. Most were rejected or never paid out — but not all of them: insurers actually sent Vonyes roughly $2.8 million in reimbursement checks before the scheme was caught. Huseynov deposited those checks into Vonyes bank accounts he controlled, then wired the bulk of the money to accounts in Hong Kong, according to prosecutors and the U.S. Department of Health and Human Services Office of Inspector General.
@@ -5934,6 +5946,9 @@ NotoriousNS.push(
     slug: 'sheryl-williams-stapleton-robotics-management-kickback-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Abqdowntown.jpg?width=1200',
+    coverImageCredit: 'New Mexico, where the classroom robotics contracts were steered. Photo: Debernardi (CC BY-SA 3.0)',
+    coverImagePosition: 45,
     body: `Sheryl Williams Stapleton spent more than two decades in the New Mexico House of Representatives, rising to House Majority Leader and becoming the first African-American woman elected to the state legislature, while simultaneously working as a career-technical-education administrator for Albuquerque Public Schools (APS). Federal prosecutors say that dual role gave her something a typical fraudster never gets: influence over which vendor got paid with the very funds she also had a hand in appropriating.
 
 From July 2013 through June 2020, according to the U.S. Attorney's Office for the District of New Mexico, Stapleton steered APS payments — funded in part by state and federal Perkins career-and-technical-education money — to Robotics Management Learning Systems, a Washington, D.C.-based company owned by Joseph Johnson that sold career-tech software branded as CyberQuest. In exchange, prosecutors say, Johnson's company funneled kickbacks back to Stapleton: 234 separate checks totaling $1,152,506 that she deposited into accounts under her own control, part of a scheme prosecutors say diverted more than $2 million in public education funding overall.
@@ -5968,6 +5983,9 @@ NotoriousNS.push(
     slug: 'richard-mcneil-norristown-ponzi-scheme',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Norristown%2C_Pennsylvania.jpg?width=1200',
+    coverImageCredit: 'Norristown, Pennsylvania, where McNeil raised money from 50 investors. Photo: Ii2nmd (CC BY-SA 4.0)',
+    coverImagePosition: 45,
     body: `Note: this case is a pending criminal prosecution. Richard L. McNeil has been charged but not convicted, and the allegations below are drawn from the Pennsylvania Attorney General's charging announcement and contemporaneous news coverage rather than from any court finding of guilt. All defendants are presumed innocent until and unless proven guilty.
 
 Richard L. McNeil, 59, of Norriton Township in Montgomery County, Pennsylvania, spent years soliciting money from people around him with a pitch that will sound familiar to anyone who has read about a Ponzi scheme before: hand over your savings, and he would place it into unspecified "various investment opportunities" that would pay steady monthly interest, with the full principal returned at the end of the term. According to the Pennsylvania Office of Attorney General, that promise wasn't backed by any real investment activity at all — McNeil simply did not invest the money he collected.
@@ -5986,6 +6004,9 @@ NotoriousNS.push(
     slug: 'paul-parmar-constellation-healthcare-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/2025-09-02_%E2%80%93_PBBM_visits_Bataan_General_Hospital_to_check_on_zero_balance_billing_program_(01).jpg?width=1200',
+    coverImageCredit: 'Constellation sold medical billing services; a key subsidiary was fictitious. Photo: Presidential Communications Office (public domain)',
+    coverImagePosition: 50,
     body: `Parmjit "Paul" Parmar built a career in healthcare revenue-cycle management before becoming chairman and chief executive of Constellation Healthcare Technologies, Inc., a Houston-based company that handled billing and collections for medical providers and traded publicly on the London Stock Exchange's Alternative Investment Market. By 2017, Parmar was working with two of his top lieutenants — chief financial officer Sotirios "Sam" Zaharis and company secretary and director Ravi Chivukula — to persuade an outside investment firm and a consortium of banks to help fund a deal taking Constellation private. According to federal prosecutors, the numbers behind that deal were largely invented.
 
 From May 2015 through September 2017, prosecutors say Parmar, Zaharis, and Chivukula inflated Constellation's value to more than $300 million by fabricating financial statements for subsidiary companies the firm claimed to have acquired for upwards of $62 million but never actually purchased, altering bank records to make the company's cash position look stronger than it was, and manufacturing customer records to simulate revenue Constellation wasn't actually earning. The fabricated picture worked: a private investment firm contributed roughly $82.5 million, and a consortium of banks and other lenders added another $130 million, bringing the deal's total outside financing to about $212.5 million.
@@ -6005,6 +6026,9 @@ NotoriousNS.push(
     slug: 'rathnakishore-giri-crypto-ponzi-scheme',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Downtown_Columbus_View_from_Main_St_Bridge_-_edit1.jpg?width=1200',
+    coverImageCredit: 'Ohio, where Giri ran the crypto fund from his parents’ home. Photo: Paul Wasneski (public domain)',
+    coverImagePosition: 45,
     body: `Starting around March 2019, Rathnakishore Giri of New Albany, Ohio presented himself to friends, family, and members of the local Columbus-area Indian-American community as a skilled cryptocurrency and Bitcoin-derivatives trader running two investment vehicles, NBD Eidetic Capital, LLC and SR Private Equity, LLC. According to the Commodity Futures Trading Commission, Giri promised investors "lucrative returns" with no risk to their principal, guaranteed their money back regardless of how his trading performed, and pointed to a track record of past success that the CFTC says never actually existed.
 
 The CFTC's civil complaint, filed August 12, 2022 in the U.S. District Court for the Southern District of Ohio, alleges Giri and his companies fraudulently solicited more than $12 million in cash and at least 10 bitcoins from more than 150 customers. Rather than trading that money as promised, the CFTC says Giri simply spent it — on private jets, yacht rentals, an extravagant vacation home, a luxury car, and expensive clothing — while running the operation as a Ponzi scheme, using new investors' contributions to make redemption payments to earlier ones and keep the fund looking solvent. The CFTC also named Giri's parents, Giri Subramani and Loka Pavani Giri, as relief defendants, alleging they received scheme funds to which they had no legitimate claim.
@@ -6025,6 +6049,9 @@ NotoriousNS.push(
     slug: 'parker-terrill-austin-embarcadero-capital-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Hyatt_Regency_Embarcadero_Atrium%2C_San_Francisco%2C_US.jpg?width=1200',
+    coverImageCredit: 'San Francisco, where Embarcadero Capital was based. Photo: Dale Cruse (CC BY 2.0)',
+    coverImagePosition: 45,
     body: `Note: this is a settled civil SEC enforcement action. Austin and Embarcadero consented to final judgments without admitting or denying the SEC's allegations, and the conduct described below reflects the government's complaint rather than a criminal conviction or a court's factual findings after trial.
 
 Parker Terrill Austin worked as an investment adviser at a California firm while, according to the Securities and Exchange Commission, secretly planning to leave and start a competing advisory business of his own. Before he went, the SEC's complaint alleges, Austin forwarded his own clients' nonpublic personal information — names, account balances, addresses, phone numbers, email addresses, and the fees they were charged — from his work email to his personal account, and at least once passed that information along to his future business partner. The complaint further alleges that while still at his old firm, Austin breached his fiduciary duty to at least one client by placing that client's money into investments the client had specifically told him not to make.
@@ -6049,6 +6076,9 @@ NotoriousNS.push(
     slug: 'otis-jackson-sito-capital-affordable-housing-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Rowhouses%2C_Maryland_Avenue%2C_Baltimore%2C_MD_(33876269191).jpg?width=1200',
+    coverImageCredit: 'Park Heights, Baltimore, where the housing programme existed only on paper. Photo: Baltimore Heritage from Baltimore, MD, USA (public domain)',
+    coverImagePosition: 50,
     body: `Otis H. Jackson pitched himself to Maryland investors as a community developer with a real plan to fix a real problem: a "Social and Economic Development Program" that would build and renovate low- and moderate-income housing in Baltimore's Park Heights neighborhood and the blocks around it. Operating through two companies he controlled, SITO Capital, LLC and Social Solutions Advisors, LLC, both based in Davidsonville, Maryland, Jackson told prospective investors he had partnered with nonprofit organizations, private lenders, and local government to make it happen, and that the properties described in his offering materials were already owned by his companies.
 
 According to a Consent Order issued by the Maryland Securities Commissioner, none of that was true in the way Jackson described it. Between 2019 and 2024, Jackson sold at least 17 Maryland investors promissory notes — structured as six-to-twelve-month "investment contracts" — raising at least $610,000 across at least 26 separate transactions, neither Jackson nor his companies ever having registered as a broker-dealer, agent, or investment adviser in Maryland or anywhere else. The notes guaranteed return of principal plus profits ranging from 15 to 50 percent; one investor, identified in the order only by the initials "SB," was personally promised a 75 percent return on a $65,000 investment. Jackson told investors his program had "private equity investors" and support from Baltimore City government — the order found neither existed. At least one property his materials described as owned by his companies had in fact been sold at a City of Baltimore tax auction back in 2018, years before he kept citing it to new investors.
@@ -6070,6 +6100,9 @@ NotoriousNS.push(
     slug: 'robert-desselle-genetic-testing-kickback-scheme',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Shampoo_aisle_-_grocery_store_in_Israel.jpg?width=1200',
+    coverImageCredit: 'Swab samples were collected from shoppers outside grocery stores. Photo: Danielrosehill (CC BY 4.0)',
+    coverImagePosition: 50,
     body: `Robert Desselle was not a doctor, a lab technician, or anyone else with a medical credential — he was a marketer, and according to federal prosecutors, that was exactly the role his part of a Medicare genetic-testing fraud scheme required. Desselle paid other marketers, none of them medical professionals either, to approach Medicare beneficiaries in grocery store parking lots, pharmacies, and car dealerships and talk them into taking genetic tests using deceptive pitches about what the tests could reveal and who was paying for them.
 
 Getting a beneficiary to agree to a cheek swab was only half of what the scheme needed. Medicare claims for genetic testing require a doctor's order certifying the test is medically necessary, so prosecutors say Desselle bribed a telemedicine company to supply exactly that: signed physician orders for beneficiaries the ordering doctors had never examined and, in many cases, never spoken to. With a signed order attached, the completed test kits went out to clinical laboratories, which paid Desselle and his co-conspirators kickbacks for every referral that came through his pipeline.
@@ -6091,6 +6124,9 @@ NotoriousNS.push(
     slug: 'riadh-fakhoury-vestech-partners-vc-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Scottsdale%2C_Arizona_(101299903).jpg?width=1200',
+    coverImageCredit: 'Arizona, where Vestech raised money for its venture funds. Photo: Ken Lund from Reno, Nevada, USA (CC BY-SA 2.0)',
+    coverImagePosition: 45,
     body: `Note: Riadh Fakhoury and his advisory firms were civilly charged by the Securities and Exchange Commission, not criminally prosecuted. They resolved the case through a Commission settled order without admitting or denying the findings — except for a narrow bankruptcy-related provision described below — and no criminal charges against Fakhoury have been reported.
 
 Riadh Fakhoury, 64, of Ocala, Florida, was a medical services provider by background who had never held a securities license. Starting around 2015, he built Vestech Partners LLC and two affiliated entities, Marita Partners LLC and MI 15 LLC — together, unregistered investment advisers the SEC's order refers to collectively as "Vestech" — into a pipeline for raising money from individual investors and putting it into venture-stage technology companies. From 2015 through September 2023, according to the SEC, Vestech and Fakhoury sold roughly $90 million of interests in dozens of unregistered "Vestech Fund" vehicles, each one typically holding a stake in just one or two of ten private "Portfolio Companies," with investors paying an annual fee of 1 to 2 percent of their invested capital.
@@ -6139,6 +6175,9 @@ NotoriousNS.push(
     slug: 'stephen-swensen-crew-capital-ponzi-scheme',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Frank_E._Moss_Federal_Courthouse_(2).jpg?width=1200',
+    coverImageCredit: 'The federal courthouse in Salt Lake City, where the Crew Capital case was brought. Photo: Tamanoeconomico (CC BY-SA 4.0)',
+    coverImagePosition: 45,
     body: `Note: Stephen Swensen died before the Securities and Exchange Commission filed its case, so no criminal charges were ever brought against him. The matter was resolved entirely as a civil SEC enforcement action — a complaint against his estate and his company, and a separate settled judgment against his widow, who the SEC did not accuse of any wrongdoing herself.
 
 Stephen Romney Swensen, of Kaysville, Utah, spent more than a decade running Crew Capital Group, LLC, an investment vehicle he told prospective investors was co-managed by a reputable outside firm and could reliably pay a minimum 5% annual return, with upside of up to 10% if the S&P 500 performed well. From 2011 until his death on June 6, 2022, according to the SEC, Swensen used that pitch to raise more than $29 million from more than 50 investors — money he told them was being professionally invested in securities.
@@ -6174,6 +6213,9 @@ The case is a reminder that "allocated storage" — the promise that specific ba
     slug: 'stephan-schafer-jonas-koller-sk-group-ponzi-scheme',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Skyline_Frankfurt_am_Main.jpg?width=1200',
+    coverImageCredit: 'Germany, where the S&K Group sold property investments to retail investors. Photo: Nicolas Scheuer (CC BY-SA 2.5)',
+    coverImagePosition: 45,
     body: `Stephan Schäfer and Jonas Köller founded S&K Gruppe in Frankfurt am Main in 2000, building a network of real-estate and legal-consulting companies around a pitch that sounded like disciplined bargain-hunting rather than speculation: S&K would buy distressed homes and apartment buildings out of foreclosure auctions at below-market prices, renovate and subdivide them, and resell the units at a profit. Investors who put money into S&K's closed-end real estate funds were promised a guaranteed return of around 12 percent a year, and for a while the company's success looked real — Schäfer and Köller became fixtures of Frankfurt's business scene, known for sports cars, a private helicopter, and famously lavish parties.
 
 Prosecutors said the underlying business was structured as a Ponzi scheme rather than a genuine property operation. Rather than reliably generating profit from renovated real estate, S&K used money from new investors and new fund offerings to keep older obligations looking current, while insiders benefited from properties bought and sold among affiliated entities at inflated prices. Between 2008 and 2013, prosecutors said S&K and its affiliated funds took in at least €240 million from roughly 11,000 investors — including more than €139 million raised through the closed-end real estate funds alone, sold on the promise of that guaranteed 12 percent return.
@@ -6188,6 +6230,9 @@ The story didn't end with prison. After their releases, Schäfer and Köller res
     slug: 'qnet-goldquest-pyramid-scheme-india',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Chennai_train_station.jpg?width=1200',
+    coverImageCredit: 'India, whose courts found the multi-level marketing operation a pyramid scheme. Photo: Arian Zwegers derivative work: MrPanyGoff (CC BY 2.0)',
+    coverImagePosition: 45,
     body: `QNet traces back to 1998, when Malaysian entrepreneur Vijay Eswaran and business partners launched "QuestNet" out of Hong Kong under what became the QI Group, selling costume jewelry, wellness products, and travel packages through a multi-level "direct selling" network across Asia. One of its earliest and most widely marketed product lines was "GoldQuest," built around pendants and personal-care items sold at prices far above any conventional retail value. The company expanded aggressively into India in the early 2000s through a master franchise, Vihaan Direct Selling India, and a Chennai-based operating company, Quest Net Enterprises India Pvt Ltd.
 
 The pitch that drew in Indian recruits followed a familiar structure: pay an upfront fee for a product — a pendant, an e-commerce package, a discounted holiday voucher — and earn far more back by recruiting other people beneath you into the same arrangement. Indian investigators concluded that recruitment, not product sales, was the scheme's actual engine, the defining feature of what the country's 1978 Prize Chits and Money Circulation Schemes (Banning) Act was written to outlaw. Criminal complaints against QuestNet's India operation began accumulating as early as 2008, filed across multiple Andhra Pradesh districts including Nellore, West Godavari, Krishna, Kakinada, and YSR Kadapa, and were eventually consolidated and investigated by the state's Criminal Investigation Department.
@@ -6202,6 +6247,9 @@ The Indian convictions are only one front in a much wider record. Regulators in 
     slug: 'heinz-roth-pr-container-ponzi-scheme',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/WP_Ahoi%2C_Container_Terminal_Altenwerder%2C_Hamburg_(P1080529).jpg?width=1200',
+    coverImageCredit: 'A container terminal. P&R sold investors boxes that did not exist. Photo: Matti Blume (CC BY-SA 4.0)',
+    coverImagePosition: 50,
     body: `Note: Heinz Roth was indicted but never tried. German prosecutors dropped the criminal case against him after he fell seriously ill, and he died months later — meaning no court ever reached a verdict on the specific charges against him. What follows reflects the indictment, the findings of P&R's court-appointed insolvency administrator, and outside reporting, not a judicial finding of guilt.
 
 Heinz Roth founded P&R in Munich in 1975, building it over the following decades into one of the world's largest shipping-container leasing brokers, headquartered in the affluent suburb of Grünwald. The pitch to investors was straightforward and, on its face, backed by a tangible asset: buy one or more standard steel shipping containers through P&R, and the company would lease them out to freight and logistics companies on your behalf, paying you a fixed rental return for five years before buying the containers back from you at 65% of what you originally paid. For decades, tens of thousands of mostly German, Austrian, and Swiss savers — many of them retirees looking for something safer than the stock market — treated P&R container contracts as a reliable, almost boring, fixed-income investment.
@@ -6221,6 +6269,9 @@ NotoriousNS.push(
     slug: 'soapy-smith-skagway-klondike-con-empire',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Soapy_Smith_grave_Skagway_2009.jpg?width=1200',
+    coverImageCredit: 'Jefferson "Soapy" Smith, who ran the Skagway con empire. Photo: Notyourbroom (CC BY 3.0)',
+    coverImagePosition: 40,
     body: `Jefferson Randolph Smith II was born in Georgia in 1860 and drifted west as a young man, working cattle drives in Texas before discovering he could make far more money running confidence games on the boomtowns of the American frontier. He got his lasting nickname in Denver, Colorado, in the 1880s from a street con known as the "prize soap racket": Smith would sell ordinary bars of soap from a stand for a few dollars each, loudly announcing that some bars had $50 or $100 bills wrapped inside, while a planted accomplice in the crowd would "win" one of the marked bars to whip up buying frenzy among onlookers who never won anything at all. He refined similar schemes — rigged card games, fake lotteries, a staged "petrified man" exhibit in the silver-mining town of Creede, Colorado — into an organized racket, building networks of shills, corrupt lawmen, and lookouts wherever he operated.
 
 In 1897 the Klondike Gold Rush turned the tiny Alaskan port of Skagway into a chaotic gateway town, as tens of thousands of prospectors passed through on their way to the Yukon goldfields carrying cash and gold dust for outfitting supplies. Smith arrived that year and by May 1898 had set up his base of operations, a saloon and gambling hall on Sixth Avenue that came to be known as Jeff Smith's Parlor. From there he ran a network of rigged card and dice games, a fraudulent telegraph office that charged prospectors to send messages over wires that didn't actually connect anywhere beyond the building, and phony information and employment bureaus, all aimed at separating gold-rush stampeders from their stakes before they ever reached the goldfields.
@@ -6240,6 +6291,9 @@ NotoriousNS.push(
     slug: 'barry-silbert-genesis-gemini-earn-dcg-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Manhattan_from_Weehawken%2C_NJ.jpg?width=1200',
+    coverImageCredit: 'New York, where the Genesis and Gemini Earn case was brought. Photo: Dmitry Avdeev (CC BY-SA 3.0)',
+    coverImagePosition: 45,
     body: `In February 2021, crypto exchange Gemini Trust Company — run by twins Cameron and Tyler Winklevoss — launched "Gemini Earn," a program letting retail customers lend their crypto to Genesis Global Capital in exchange for interest, which Gemini marketed to customers as a vetted, low-risk way to put idle crypto to work. Genesis, in turn, was a subsidiary of Digital Currency Group (DCG), the crypto conglomerate run by founder and CEO Barry Silbert. According to a lawsuit later filed by New York Attorney General Letitia James, the "vetting" behind that low-risk pitch didn't hold up: Genesis's loan book was concentrated in a small number of large, risky borrowers, and at one point in 2022 Sam Bankman-Fried's trading firm Alameda Research alone accounted for roughly 60% of Genesis's outstanding loans.
 
 Genesis's borrowers began collapsing that year. The lawsuit alleges Genesis lost more than $1.1 billion when Terra/Luna imploded and Three Arrows Capital defaulted in mid-2022, and that Gemini's own risk team had downgraded Genesis internally from investment-grade to "junk" by February 2022 — without telling Earn customers, who kept being told the product was safe. Rather than disclose the hole in Genesis's balance sheet, the complaint alleges DCG and Genesis papered over it with a $1.1 billion promissory note, carrying an unusually low roughly 1% annual interest rate over a ten-year term, that let Genesis book a receivable from its own parent company in place of recognizing the loss — an accounting maneuver that, prosecutors say, let Genesis keep presenting itself as solvent to Earn depositors, other lenders, and its own auditors while it took in fresh deposits from customers who had no way to know the company was already underwater.
