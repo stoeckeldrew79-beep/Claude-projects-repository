@@ -7469,3 +7469,17 @@ UsGM.push({
     isHistorical: true,
     firstRecorded: '2018-08-01',
 });
+
+UsGM.push({
+    name: 'Twin Cities Stolen-Check Bank Fraud Ring',
+    slug: 'minnesota-twin-cities-postal-employee-stolen-check-fraud-ring',
+    description: `A federal grand jury in the District of Minnesota indicted six defendants — Willie Roy Turner Jr., Marc Anderson, Billy Ray Cameron Jr., Devontay Colbert, Dontae Williams, and Takiya Shemwell — on June 26, 2026, for a scheme that ran from at least November 2022 to September 2024. Shemwell, a U.S. Postal Service employee working in Chicago, allegedly identified and stole business mail containing checks from her own route and sold the stolen checks to Turner Jr. and Cameron Jr. through a peer-to-peer money-transfer app. The buyers then opened, or tried to open, fraudulent bank accounts at Twin Cities-area financial institutions in the names of the business victims, using fabricated identification and documents, and deposited the stolen checks into those accounts. The group deposited or attempted to deposit more than $5.1 million in stolen business checks and succeeded in stealing over $1.5 million. Businesses can protect themselves by monitoring outgoing mailed checks for unusual delays, enrolling in their bank's positive-pay or check-verification service, and switching to electronic payments where possible, since a stolen paper check gives a fraud ring both the account and routing number and, once resold, no way to know who ultimately cashes it.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'medium',
+    sources: ['U.S. Attorney\'s Office, District of Minnesota'],
+    sourceUrl: 'https://www.justice.gov/usao-mn/pr/six-defendants-indicted-grand-jury-conspiracy-steal-51-million-business-checks',
+    country: 'US',
+    state: 'MN',
+    isHistorical: false,
+    firstRecorded: '2026-09-09',
+});

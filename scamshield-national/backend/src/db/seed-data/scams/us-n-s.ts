@@ -7356,3 +7356,17 @@ UsNS.push({
     isHistorical: true,
     firstRecorded: '2014-01-01',
 });
+
+UsNS.push({
+    name: 'Boateng Ghanaian-Christian Affinity Ponzi Scheme',
+    slug: 'new-jersey-boateng-ghanaian-christian-affinity-ponzi-scheme',
+    description: `The SEC filed a civil complaint in the Eastern District of New York charging Ernest Ossei Boateng and his two New Jersey-based companies, Intercontinental Wealth Network LLC and I Wealth Network LP, with running a Ponzi scheme that raised roughly $16 million from more than 200 largely inexperienced investors between January 2020 and March 2026. Boateng specifically targeted Christians of Ghanaian heritage in New York and New Jersey — including retirees, taxi drivers, home health care providers, and students — exploiting shared community and religious ties by making sales presentations at churches and prayer groups and promising guaranteed fixed returns from a supposedly low-risk investment strategy that he falsely claimed included financial and investment insurance protection. He allegedly misappropriated more than $5.8 million for personal expenses including a home purchase and renovation, used roughly $6.6 million in new investor money to pay off earlier investors, and lost more than $750,000 of investor funds in high-risk day-trading. The complaint charges antifraud violations under the Securities Act, Exchange Act, and Investment Advisers Act. This is an unrelated case and defendant from the Boateng romance-and-inheritance scheme already documented elsewhere in this database; anyone pitched a "guaranteed" investment through a church, prayer group, or other community organization should independently verify the promoter's registration with the SEC or their state securities regulator before investing, regardless of how much shared community trust is involved.`,
+    categorySlug: 'ponzi-pyramid-schemes',
+    alertLevel: 'high',
+    sources: ['U.S. Securities and Exchange Commission (SEC)'],
+    sourceUrl: 'https://www.sec.gov/newsroom/press-releases/2026-86-sec-charges-founder-his-two-new-jersey-based-companies-alleged-16-million-ponzi-scheme',
+    country: 'US',
+    state: 'NJ',
+    isHistorical: false,
+    firstRecorded: '2026-09-01',
+});
