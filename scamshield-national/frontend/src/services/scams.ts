@@ -21,6 +21,11 @@ export async function fetchScams(params: ScamListParams = {}) {
   return data.data;
 }
 
+export async function fetchScamsCount(params: Omit<ScamListParams, 'sort' | 'page'> = {}) {
+  const { data } = await api.get<{ data: { count: number } }>('/scams/count', { params });
+  return data.data.count;
+}
+
 export async function fetchScamTags() {
   const { data } = await api.get<{ data: { tag: string; count: number }[] }>('/scams/tags');
   return data.data;
