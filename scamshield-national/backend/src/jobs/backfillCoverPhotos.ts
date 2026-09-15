@@ -43,7 +43,8 @@ function shardFor(slug: string): string | null {
     for (const file of fs.readdirSync(full)) {
       if (!file.endsWith('.ts') || file === 'index.ts') continue;
       const p = path.join(full, file);
-      if (fs.readFileSync(p, 'utf8').includes(`slug: '${slug}',`)) return p;
+      const text = fs.readFileSync(p, 'utf8');
+      if (text.includes(`slug: '${slug}',`) || text.includes(`slug: "${slug}",`)) return p;
     }
   }
   return null;
@@ -56,8 +57,22 @@ function shardFor(slug: string): string | null {
  */
 function insertCoverFields(file: string, slug: string, photo: CommonsPhoto, position: number): boolean {
   const lines = fs.readFileSync(file, 'utf8').split('\n');
-  const slugIdx = lines.findIndex((l) => l.trim() === `slug: '${slug}',`);
+
+  // Shards were written by more than one authoring pass, and they don't agree
+  // on quoting: most entries use 'single', a later batch uses "double". The
+  // first version of this matched single quotes only, so it silently found
+  // nothing for six double-quoted entries. It failed safely - it refused to
+  // write rather than writing to the wrong place - but it still skipped them.
+  // Match either, and write back in whichever style the entry already uses so
+  // the file stays internally consistent.
+  const single = `slug: '${slug}',`;
+  const double = `slug: "${slug}",`;
+  const slugIdx = lines.findIndex((l) => {
+    const t = l.trim();
+    return t === single || t === double;
+  });
   if (slugIdx === -1) return false;
+  const q = lines[slugIdx].trim() === double ? '"' : "'";
 
   // Never double-write: if a later run re-reads a slug that already has a
   // photo, leave the existing (possibly hand-picked) one alone.
@@ -68,14 +83,17 @@ function insertCoverFields(file: string, slug: string, photo: CommonsPhoto, posi
   }
   if (bodyIdx === -1) return false;
 
-  // Single-quoted TS string literals: escape backslashes first, then quotes.
-  const esc = (s: string) => s.replace(/\\/g, '\\\\').replace(/'/g, "\\'");
+  // Escape backslashes first, then whichever quote character encloses the
+  // literal - escaping in the other order would double-escape the backslashes
+  // introduced by the quote pass.
+  const esc = (v: string) =>
+    v.replace(/\\/g, '\\\\').replace(new RegExp(q, 'g'), `\\${q}`);
 
   lines.splice(
     bodyIdx,
     0,
-    `    coverImage: '${esc(photo.url)}',`,
-    `    coverImageCredit: '${esc(photo.credit)}',`,
+    `    coverImage: ${q}${esc(photo.url)}${q},`,
+    `    coverImageCredit: ${q}${esc(photo.credit)}${q},`,
     `    coverImagePosition: ${position},`
   );
   fs.writeFileSync(file, lines.join('\n'));
