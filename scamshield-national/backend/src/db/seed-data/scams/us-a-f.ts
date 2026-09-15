@@ -8500,3 +8500,16 @@ UsAF.push({
     isHistorical: false,
     firstRecorded: '2026-06-16',
 });
+
+UsAF.push({
+    name: 'FTC v. Credit Glory $200 Million Credit Repair Network Shutdown',
+    slug: 'arizona-credit-glory-credit-repair-network-ftc-shutdown',
+    description: `The FTC obtained a federal court order in the District of Arizona temporarily halting Credit Glory, a sprawling network of 17 related entities — including Credit Glory LLC, Credit Sage LLC, Joy Credit Software LLC, Clerk Credit Systems LLC, Standard Scores LLC, Collections Dispute LLC, Credit Cop LLC, and Glorious Credit LLC — and five named principals, Alexander Brola, Liam Emery, Marko Petkovic, Joshua Curtis, and David Naylor, accused of scamming consumers out of nearly $200 million nationwide since at least 2016. The FTC alleges the network charged illegal upfront and recurring fees for credit repair services, often disguised as identity-verification or credit-report-review charges, impersonated debt collectors and creditors by phone, filed false identity-theft reports on consumers' behalf without authorization on Identitytheft.gov, used negative-option subscription billing with inadequate disclosures, and ran paid Google search ads specifically targeting vulnerable consumers, including military servicemembers carrying debt with the Army & Air Force Exchange Service and USAA. Judge Steven Logan granted the FTC's request for a temporary restraining order on August 10, 2026, with the Commission voting 2-0 to authorize the case; the complaint alleges violations of the FTC Act, the Credit Repair Organizations Act, the Telemarketing Sales Rule, Gramm-Leach-Bliley, ROSCA, and the Electronic Fund Transfer Act. Consumers should be wary of any credit-repair company demanding payment before performing services, which is illegal under federal law regardless of how the fee is described, companies that call claiming to be debt collectors trying to "verify" an account, and heavily-advertised credit-repair services that specifically target military members.`,
+    categorySlug: 'debt-relief-scams',
+    alertLevel: 'high',
+    sources: ['Federal Trade Commission (FTC)'],
+    sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2026/08/ftc-stops-sprawling-credit-repair-scheme-scammed-consumers-out-nearly-200-million',
+    country: 'US',
+    isHistorical: false,
+    firstRecorded: '2026-08-10',
+});
