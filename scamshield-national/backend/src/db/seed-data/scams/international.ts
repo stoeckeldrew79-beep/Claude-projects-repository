@@ -19501,4 +19501,26 @@ International.push(
     sourceUrl: 'https://www.211check.org/post/online-fraud-a-case-study-of-smk-electronics-corporation-and-prime-express-logistics',
     country: 'SS',
   },
+  {
+    name: 'Fake Entities Impersonating Licensed Comorian Financial Institutions',
+    slug: 'comoros-fake-financial-institution-impersonation',
+    description:
+      'The Central Bank of the Comoros (Banque Centrale des Comores) issued a formal communiqué on December 8, 2025 warning that certain entities were falsely claiming, without any authorization, to be financial organizations or institutions operating under Comorian credentials, using that false status to gain public trust and access to financial transactions. The bank stated plainly that only institutions it has formally licensed may legally conduct banking or financial activity in the Comoros, and urged anyone approached by such an entity to verify its authorization directly with the Central Bank before transacting or handing over any money.',
+    categorySlug: 'investment-fraud',
+    alertLevel: 'medium',
+    sources: ['Banque Centrale des Comores'],
+    sourceUrl: 'https://banque-comores.km/article/show/communique-du-8-decembre-2025',
+    country: 'KM',
+  },
+  {
+    name: 'SONELEC Utility Agent Impersonation Fraud',
+    slug: 'comoros-sonelec-agent-impersonation-fraud',
+    description:
+      'SONELEC, the Comorian national electricity utility, issued a public fraud alert in August 2023 naming a man from Iconi, Ibrahim Abdallah, known by the alias "Djabir," who impersonated the identity and credentials of a genuine SONELEC agent to deceive customers into making fraudulent payments. SONELEC described the scheme as fraud carried out on a large scale against its own customers, warning that the impersonation harmed both the defrauded customers directly and public trust in the utility more broadly, and urged customers to verify any agent\'s identity and credentials directly with SONELEC before making any payment to someone claiming to represent the company.',
+    categorySlug: 'utility-scams',
+    alertLevel: 'medium',
+    sources: ['Comores Infos', 'SONELEC (Société Nationale d\'Électricité)'],
+    sourceUrl: 'https://www.comoresinfos.net/escroquerie-a-grande-echelle-la-sonelec-alerte-sur-les-agissements-dibrahim-abdallah-le-faussaire-de-confiance/',
+    country: 'KM',
+  },
 );
