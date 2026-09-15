@@ -3975,8 +3975,8 @@ More than two decades after İmarbank's collapse, Cem Uzan still lives openly in
     tags: ['notorious', 'notorious-scammer', 'historical'],
     sourceUrl: 'https://www.nbcnews.com/news/us-news/michigan-art-dealer-gets-three-years-prison-selling-fake-paintings-n722076',
     coverImagePosition: 50,
-    // representative photo — replace with a portrait if found
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Macomb_County_Building.jpg?width=1200',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Eric-Ian-Hornak-Spoutz-Lecturing-Washington-County-Museum-of-Fine-Arts-2013.JPG?width=1200',
+    coverImageCredit: 'Photo: Natasha M. Spoutz (CC BY-SA 3.0) — Eric Spoutz lecturing at the Washington County Museum of Fine Arts, 2013',
     body: `Eric Spoutz, an art dealer from Mount Clemens, Michigan, spent roughly a decade selling paintings he attributed to major American modern artists — Willem de Kooning, Franz Kline, Joan Mitchell, and others — that he had in fact created or acquired as blanks and then dressed up with fabricated paperwork. His real skill wasn't brushwork; it was paper. Prosecutors said Spoutz built elaborate, internally consistent provenance files for each piece — forged bills of sale, invented correspondence from galleries and law firms, and fictitious inheritance stories — designed to survive a buyer's due diligence rather than just a glance.
 
 One invented backstory captured how far he was willing to go: Spoutz told a Connecticut auction house that he had inherited a group of Joan Mitchell pastels from a collector who died in 1976, when in reality that collector's entire estate had been bequeathed to Dartmouth College decades earlier and was never in Spoutz's hands at all. He gave shifting explanations for other pieces — a private-collection purchase here, a family inheritance there — and, after a memorabilia-watching blog accused him of hawking forgeries on eBay in 2005, began operating under aliases including "Robert Chad Smith," "John Goodman," and "James Sinclair" to keep selling.
@@ -9254,6 +9254,9 @@ NotoriousAF.push({
     slug: 'bettino-craxi-tangentopoli-bribery-scandal',
     author: 'ScamShield Research Team',
     tags: ['notorious', 'historical', 'international'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Bettino_Craxi_Official_Portrait.jpg?width=1200',
+    coverImageCredit: 'Photo: European Parliament, c. 1989 (© European Union, CC BY 4.0)',
+    coverImagePosition: 50,
     body: `Bettino Craxi led Italy's Socialist Party (PSI) from 1976 and served as prime minister from 1983 to 1987, a tenure remembered for cutting inflation and raising Italy's international standing. Underneath that record, prosecutors would later show, Craxi's party had spent years running a nationwide kickback system so pervasive that Italians eventually gave it its own name: Tangentopoli, or "Bribesville" — a network in which companies bidding for public contracts routinely paid a hidden percentage, a tangente, to the political parties that controlled the awarding of those contracts.
 
 The system unraveled almost by accident. On February 17, 1992, Milan police arrested Mario Chiesa, a Socialist Party official and hospital administrator, for taking a bribe from a cleaning contractor. Rather than stay quiet, Chiesa began cooperating, and the magistrates investigating him — a team that came to be known as "Mani Pulite," or Clean Hands, fronted by prosecutor Antonio Di Pietro — followed the money outward from a single hospital contract into a citywide, then nationwide, web of kickbacks touching nearly every major party. Craxi at first dismissed the emerging scandal, then, in a defiant December 1992 speech to Parliament, admitted the PSI had relied on illegal financing but insisted every party did the same, calling the payments simply "the cost of politics."

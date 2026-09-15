@@ -3025,6 +3025,10 @@ NotoriousTZ.push({
     slug: 'david-wittig-westar-energy-fraud',
     author: 'ScamShield Research Team',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Topeka,_Kansas.JPG?width=1200',
+    coverImageCredit: 'Photo: Dylan Edwards (CC BY 3.0) — Topeka, Kansas, home to Westar Energy, the utility Wittig ran',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `David Wittig spent the early 2000s as chairman, president, and CEO of Western Resources, later renamed Westar Energy, the largest electric utility in Kansas. Before that, he was a well-regarded Wall Street investment banker. By the time federal prosecutors were done with him, he had been convicted twice in two separate cases — and one of those convictions was ultimately erased by an appeals court and the U.S. Supreme Court's later narrowing of federal fraud law, a coda that makes his case a useful, if unusually messy, study in how corporate-fraud prosecutions can unravel even after a jury convicts.
 
 The first case had nothing to do with Westar directly. In April 2001, Clinton Weidner, president and CEO of Capital City Bank in Topeka, offered Wittig — a bank customer — the chance to invest in an Arizona real estate deal that required a $1.5 million down payment on short notice. Wittig agreed to lend Weidner the money, but only if Weidner increased Wittig's personal line of credit at the bank by the same $1.5 million — and the loan paperwork falsely described the money as being used "to purchase stock and make business investments" rather than to fund Weidner's own real estate stake. A jury convicted both men in 2003 of conspiracy to submit false entries to a federally insured bank and money laundering. Wittig was sentenced in February 2004 to just over four years in prison and fined $1 million; Weidner received six and a half years. That conviction stood.
