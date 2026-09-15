@@ -18,20 +18,6 @@ export const list = asyncHandler<AuthedRequest>(async (req, res) => {
   res.json({ data: scams });
 });
 
-export const count = asyncHandler<AuthedRequest>(async (req, res) => {
-  const { category, tag, state, zip, country, search, view } = req.query;
-  const total = await ScamsModel.countScams({
-    category: category as string | undefined,
-    tag: tag as string | undefined,
-    state: state as string | undefined,
-    zip: zip as string | undefined,
-    country: country as string | undefined,
-    search: search as string | undefined,
-    view: view as ScamsModel.ScamListFilters['view'],
-  });
-  res.json({ data: { count: total } });
-});
-
 export const tags = asyncHandler<AuthedRequest>(async (_req, res) => {
   const tags = await ScamsModel.listScamTags();
   res.json({ data: tags });

@@ -50,15 +50,8 @@ export interface ScamListFilters {
   pageSize?: number;
 }
 
-type ScamConditionFilters = Pick<ScamListFilters, 'category' | 'tag' | 'state' | 'zip' | 'country' | 'search' | 'view'>;
-
-// Shared by listScams and countScams, so a filter added to one cannot
-// silently drift out of sync with the other — count() exists to tell an
-// infinite-scroll UI its full result size before every page has loaded, and
-// a mismatched WHERE clause there would just reserve the wrong amount of
-// space instead of throwing.
-function buildScamConditions(filters: ScamConditionFilters): { conditions: string[]; values: unknown[] } {
-  const { category, tag, state, zip, country, search, view = 'current' } = filters;
+export async function listScams(filters: ScamListFilters) {
+  const { category, tag, state, zip, country, search, sort = 'newest', view = 'current', page = 1, pageSize = 20 } = filters;
   const conditions: string[] = ['s.is_active = true'];
   const values: unknown[] = [];
 
@@ -101,13 +94,6 @@ function buildScamConditions(filters: ScamConditionFilters): { conditions: strin
     conditions.push(`to_tsvector('english', s.name) @@ plainto_tsquery('english', $${values.length})`);
   }
 
-  return { conditions, values };
-}
-
-export async function listScams(filters: ScamListFilters) {
-  const { sort = 'newest', page = 1, pageSize = 20 } = filters;
-  const { conditions, values } = buildScamConditions(filters);
-
   // alert_level is free-text ('low'/'medium'/'high'/'critical'), not a
   // Postgres ENUM with a defined order, so a plain ORDER BY alert_level
   // sorts alphabetically (medium, low, high, critical) instead of by
@@ -143,26 +129,6 @@ export async function listScams(filters: ScamListFilters) {
     values
   );
   return rows;
-}
-
-// Backs the placeholder-reservation trick on infinite-scroll scam lists
-// (see TodaysScams.tsx / Notorious.tsx for the pattern): knowing the full
-// result size up front lets the list reserve its true height on first
-// paint instead of growing — and the scrollbar thumb shrinking and
-// sliding — as each page loads in. DISTINCT on s.id, not a plain COUNT(*),
-// because the scam_locations LEFT JOIN can multiply rows for a scam with
-// several locations.
-export async function countScams(filters: ScamConditionFilters) {
-  const { conditions, values } = buildScamConditions(filters);
-  const { rows } = await pool.query(
-    `SELECT COUNT(DISTINCT s.id)::text AS count
-     FROM scams s
-     LEFT JOIN categories c ON c.id = s.category_id
-     LEFT JOIN scam_locations l ON l.scam_id = s.id
-     WHERE ${conditions.join(' AND ')}`,
-    values
-  );
-  return Number(rows[0]?.count ?? 0);
 }
 
 export async function listActiveCountries() {
