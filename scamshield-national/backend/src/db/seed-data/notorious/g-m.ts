@@ -10169,6 +10169,9 @@ NotoriousGM.push({
     slug: 'samuel-caster-mannatech-glyconutrient-marketing-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'healthcare-fraud', 'mlm-fraud'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Omega_3_capsules_in_white_bottle_(52715127894).jpg?width=1200',
+    coverImageCredit: 'Dietary supplements. Texas called Mannatech’s disease-cure claims illegal. Photo: Jernej Furman from Slovenia (CC BY 2.0)',
+    coverImagePosition: 50,
     body: `Samuel Caster founded Mannatech, a multi-level marketing company, to sell "glyconutrient" dietary supplements — powders and pills built around specific sugar compounds that Mannatech and its independent distributors claimed could treat or even cure serious illnesses. Built on a network of independent sales associates who earned commissions both on their own product sales and on the sales of people they recruited beneath them, Mannatech grew into a large, publicly traded MLM company through the 2000s, with distributors' marketing materials and testimonials making health claims far beyond what any of the company's products had been shown, in rigorous clinical studies, to actually do.
 
 Those claims got specific and dangerous. According to the Texas Attorney General's office, Mannatech-linked marketing materials asserted that its supplements could help treat or cure conditions including Down syndrome, cystic fibrosis, autism, and cancer — claims aimed squarely at desperate parents and patients with no real medical basis behind them. The company's structure compounded the problem: because distributors, not the company directly, generated much of the most aggressive marketing content and testimonials, Mannatech could point to independent salespeople's enthusiasm as the source of the wildest claims while still profiting from the sales those claims generated.
@@ -10184,6 +10187,9 @@ NotoriousGM.push({
     slug: 'william-miller-520-percent-franklin-syndicate-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/New_York_of_to-day._(1912)_(14802823363).jpg?width=1200',
+    coverImageCredit: 'Brooklyn in Miller’s era. His Franklin Syndicate promised 520% a year, two decades before Ponzi. Photo: Internet Archive Book Images (public domain)',
+    coverImagePosition: 50,
     body: `William F. Miller was a 25-year-old bookkeeper and president of his Brooklyn church's Christian Endeavor Society when, in March 1899, he persuaded a handful of Sunday-school friends to give him money to invest in the stock market. What began as a small favor among acquaintances grew, within months, into the "Franklin Syndicate," a business built on a single, extraordinary promise: 10 percent interest paid out every single week, a rate that compounded into a stated annual return of 520 percent — the number that gave Miller his enduring nickname, "520 Percent Miller."
 
 The Franklin Syndicate never actually traded stocks at anything like the volume or success needed to generate those returns. Instead, like every scheme of its type before and since, it paid its early investors their promised weekly interest using the principal deposited by newer investors, creating the appearance of a wildly profitable, reliable investment as word spread and more money poured in. Miller's own visible modesty helped the con along: he kept a low profile, avoided ostentatious spending, and let the returns themselves, rather than any flashy lifestyle, do the work of attracting new believers among working-class savers and small investors who had never had access to anything paying like this before.
@@ -10199,6 +10205,9 @@ NotoriousGM.push({
     slug: 'apiruk-kothi-forex-3d-ponzi-scheme-thailand',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'international'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Bangkok_skytrain_sunset.jpg?width=1200',
+    coverImageCredit: 'Bangkok — Forex-3D took deposits from nearly 10,000 Thai investors. Photo: User:Diliff (CC BY-SA 3.0)',
+    coverImagePosition: 45,
     body: `Apiruk Kothi ran Forex-3D, a foreign-exchange investment platform that recruited Thai investors between roughly 2015 and 2020 with a pitch that promised extraordinary returns of 60 to 80 percent, alongside a supposed "100 percent guarantee" that investors' original principal would never be at risk. Entry started low, around 15,000 baht (about US$500), before rising to roughly 50,000 baht (about US$2,000) as the scheme grew, a structure designed to make participation feel accessible to ordinary savers rather than only wealthy investors.
 
 Investigators later determined that Forex-3D never actually conducted the legitimate currency trading it claimed to run. Instead, the operation functioned as a classic Ponzi scheme, using money from newer investors to pay the promised returns to earlier ones, creating the appearance of consistent profitability while no real trading activity generated the underlying returns at all. The Bank of Thailand confirmed the platform held no license to operate as a legitimate forex trading business. By the time the scheme collapsed, prosecutors alleged it had taken in more than 2.489 billion baht from 9,842 separate investors.
@@ -10214,6 +10223,9 @@ NotoriousGM.push({
     slug: 'rafael-olvera-amezcua-ficrea-fraud-mexico',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'international'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Mexico_City_Reforma_skyline_(cropped2).jpg?width=1200',
+    coverImageCredit: 'Mexico City, where Ficrea’s collapse wiped out 6,800 savers. Photo: Jonathan Salvador (CC BY-SA 4.0)',
+    coverImagePosition: 45,
     body: `Rafael Olvera Amezcua owned and controlled Ficrea, a Mexican savings and loan institution known as a "Sofipo" — a regulated microfinance entity licensed to take deposits from ordinary savers and lend the money back out, typically at more favorable terms than a traditional bank. For years, Ficrea presented itself to depositors, many of them elderly Mexicans saving for retirement, as a safe, regulated place to keep their money while earning steady returns on their deposits.
 
 Behind that regulated exterior, according to Mexican prosecutors, Olvera ran a triangulation scheme that routed depositor funds through a chain of shell companies, including entities called Leadman Trade and Baus & Jackman Leasing, rather than actually investing the money as Ficrea represented to its depositors and regulators. Ficrea's own books showed a credit portfolio of some 6.284 billion pesos, but roughly 5.9 billion pesos of that had already been transferred out of the institution through this shell-company chain by the time regulators moved to suspend Ficrea's operations in November 2014. Investigators later traced roughly 90.4 million pesos of the diverted funds to eleven properties Olvera had personally purchased across Acapulco, Guadalajara, and Mexico State.

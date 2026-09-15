@@ -3125,6 +3125,9 @@ NotoriousTZ.push({
     slug: 'tank-black-cash-4-titles-athlete-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/September_2017_aerial_view_of_the_construction_site_of_the_Los_Angeles_Stadium_at_Hollywood_Park.png?width=1200',
+    coverImageCredit: 'Black represented NFL and NBA players before the scheme collapsed. Photo: Column-sitter (CC BY-SA 4.0)',
+    coverImagePosition: 50,
     body: `William H. "Tank" Black Jr. built one of the most prominent sports agencies representing Black college and professional athletes through the 1990s, culminating in a remarkable run at the 1999 NFL Draft, where he represented five first-round picks in a single class. That trusted relationship with roughly two dozen NFL and NBA athlete-clients became the foundation of a fraud that ran in multiple directions at once, according to the Securities and Exchange Commission.
 
 In one scheme, Black obtained free stock in a shell company called BAOA, Inc. after falsely promising to provide the company promotional services, then turned around and sold that same stock to his own athlete-clients, pocketing the proceeds for himself rather than delivering anything of value in return. In a separate and larger scheme, Black and business partner James A. Franklin Jr. steered athlete-clients toward investing millions of dollars in what was pitched as a legitimate car-title-loan business — but which the SEC alleged was actually an offshore Ponzi scheme, "Cash 4 Titles," paying supposed investment returns to earlier investors using money collected from newer ones. Black and Franklin collected undisclosed commissions nearly equal in size to the returns their athlete-clients were told they were earning, and used secretly controlled Cayman Islands entities to divert client interest payments and misappropriate funds the defendants had claimed were safely invested.

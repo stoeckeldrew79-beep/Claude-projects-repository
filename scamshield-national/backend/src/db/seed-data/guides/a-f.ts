@@ -8804,6 +8804,9 @@ GuidesAF.push({
   author: 'ScamShield Editorial',
   tags: ['guide', 'tech-support-scam', 'fake-renewal-scam'],
   sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2022/10/how-recognize-fake-geek-squad-renewal-scam',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/SmartScreen_warning_in_Internet_Explorer_10.png?width=1200',
+    coverImageCredit: 'A browser security warning. The fake renewal invoice is only the bait — the “refund” call is where the theft happens. Photo: Brent Geuens. (public domain)',
+    coverImagePosition: 50,
   body: `An email or text arrives claiming a well-known company — Norton, McAfee, Geek Squad, or a similar antivirus or tech-support brand — has just charged your card several hundred dollars to renew a subscription, or is about to. The message includes a fake invoice, a total somewhere between $299 and $499, and a phone number to call within 24 to 48 hours if you didn't authorize the charge. Nothing about the layout looks amateurish: it borrows a real company's logo, a plausible order number, and language that sounds exactly like a genuine billing notice.
 
 Calling the number is the point of the scam. A "representative" answers, confirms the charge is real, and offers to process a "refund" or cancel the "renewal" — but first needs remote access to your computer to verify the account, using legitimate remote-desktop software repurposed for exactly this kind of fraud. Once connected, the scammer can install spyware, dig through files and saved passwords, or stage a fake "overpayment" on a banking screen that tricks the victim into buying gift cards to send back the supposed excess refund, a classic move that turns a fake refund into a real theft.
@@ -8819,6 +8822,9 @@ GuidesAF.push({
   author: 'ScamShield Editorial',
   tags: ['guide', 'tax-debt-relief-scam', 'irs-impersonation'],
   sourceUrl: 'https://ag.nv.gov/News/PR/2025/Attorney_General_Ford_and_FTC_Sue_Tax_Debt_Relief_Scammers_Posing_as_Government_Agencies%2C_Making_False_Claims_and_Threatening_Consumers/',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Plan_for_New_Internal_Revenue_Building%2C_Washington%2C_D.C._(1927).png?width=1200',
+    coverImageCredit: 'The IRS charges no fee to apply for its own installment and offer programs. Photo: Underwood & Underwood (public domain)',
+    coverImagePosition: 45,
   body: `The IRS's real Fresh Start initiative is a set of programs that can genuinely help some taxpayers settle back taxes for less than they owe or set up a manageable payment plan — and that real program's name is exactly what companies with names like Universal Tax Advocates, Universal Tax Associates, Tax Relief Advocates, and "New Fresh Start Tax Associates" borrow to sell a service that isn't what it claims to be. Through robocalls, threatening letters, text messages, and online ads, these operations tell taxpayers they've been specifically flagged or are already "under investigation" by the IRS, then promise that a large upfront fee will make the debt disappear or shrink to "pennies on the dollar."
 
 The mechanism runs in two stages. First, the pitch manufactures fear and urgency: a fabricated claim that the IRS has red-flagged the taxpayer's account, or a countdown before some invented deadline expires, designed to short-circuit the instinct to slow down and verify. Second, once the taxpayer is anxious enough to engage, the company collects a substantial fee up front — often thousands of dollars — for enrollment in a "program" that, in many documented cases, never actually gets filed with the IRS at all, leaving the underlying tax debt exactly where it started while the taxpayer is also out the fee they paid to fix it.

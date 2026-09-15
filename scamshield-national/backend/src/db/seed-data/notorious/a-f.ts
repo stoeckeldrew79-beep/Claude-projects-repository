@@ -9399,6 +9399,9 @@ NotoriousAF.push({
     slug: 'stanislaw-burzynski-antineoplaston-cancer-clinic-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'healthcare-fraud'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Medical_Towers_--_Houston%2C_Texas.jpg?width=1200',
+    coverImageCredit: 'Houston, where the clinic sold an unapproved cancer therapy to desperate families. Photo: Jim Evans (CC BY-SA 4.0)',
+    coverImagePosition: 45,
     body: `Stanislaw Burzynski, a Houston physician, began treating cancer patients in the 1970s with a substance he called "antineoplastons," which he said he had isolated from human blood and urine and which he claimed could target cancer cells that conventional chemotherapy and radiation could not reach. He opened his own clinic outside the normal channels of academic oncology, and for decades continued treating patients with antineoplastons even as the substance never won FDA approval as an actual cancer drug, and even as mainstream oncologists and regulators repeatedly found no credible evidence it worked.
 
 Patients came anyway, often after being told by conventional doctors that their cancer was terminal or untreatable, drawn by Burzynski's reputation as a maverick offering a chance nobody else would. What they were not always told clearly was the cost: treatment at the Burzynski Clinic could run into the tens of thousands of dollars up front, with ongoing monthly charges that pushed some families into fundraising campaigns lasting years, all to access a substance regulators considered unproven. The Texas Medical Board's investigators went further, finding that Burzynski billed insurers for treatments using misleading terminology, let clinic staff misrepresent their roles to patients, and repeatedly failed to properly disclose the risks of an experimental treatment to people making a life-or-death decision under enormous emotional pressure.
