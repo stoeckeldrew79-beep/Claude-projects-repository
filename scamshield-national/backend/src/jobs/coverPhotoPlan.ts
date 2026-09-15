@@ -191,4 +191,5 @@ export const PHOTO_PLAN: PhotoPlanEntry[] = [
   { slug: 'steven-perkins-pvm-oil-drunk-trading-market-abuse', query: 'crude oil barrels storage', caption: 'Perkins\u2019 unauthorised overnight trades moved the global price of crude', position: 50 },
   { slug: 'stuart-pearson-langbar-international-fraud', query: 'London Stock Exchange building', caption: 'Langbar was listed in London; the Brazilian deposit backing its value never existed', position: 45 },
   { slug: 'yin-guangxia-china-accounting-fraud', query: 'Ningxia China landscape', caption: 'Ningxia, where Yinguangxia claimed the export operation its books were built on', position: 50 },
+  { slug: 'fake-bureau-of-prisons-release-scam-guide', query: 'federal correctional institution building United States', caption: 'A federal prison. The Bureau of Prisons never charges families for release or home confinement', position: 50 },
 ];
