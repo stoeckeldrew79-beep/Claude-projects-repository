@@ -9180,6 +9180,9 @@ NotoriousGM.push(
     slug: 'lex-greensill-supply-chain-finance-collapse',
     author: 'ScamShield Editorial',
     tags: ['notorious'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/West_India_Quay_DLR_station_MMB_05_5%2C_25_and_1_Canada_Square.jpg?width=1200',
+    coverImageCredit: 'London, where Greensill Capital was headquartered. Photo: mattbuck (category) (CC BY-SA 4.0)',
+    coverImagePosition: 45,
     body: `Lex Greensill, an Australian farmer's son who had worked structuring trade finance at Morgan Stanley and Citigroup, founded Greensill Capital in London in 2011 to sell an old idea with a new name: supply-chain finance, sometimes called reverse factoring. A bank or lender pays a company's suppliers early, at a small discount, and collects the full invoice amount from the buyer later — smoothing out the buyer's own payment terms while giving the supplier cash sooner. Greensill built a business around packaging these short-term receivables into notes that funds could buy, marketed as being nearly as safe and liquid as cash, since they were backed by real invoices for goods and services already delivered.
 
 The pitch attracted serious money. SoftBank's Vision Fund invested roughly $1.5 billion across two rounds, valuing Greensill Capital at around $7 billion at its peak, and Credit Suisse's asset management arm built a family of supply-chain finance funds around Greensill-originated notes that grew to about $10 billion. But Greensill had drifted well beyond financing invoices for goods already delivered: a large and growing share of its business financed projected future receivables — money a client might owe based on anticipated, not yet contracted, future business — concentrated overwhelmingly in a handful of borrowers, above all steel and metals magnate Sanjeev Gupta's GFG Alliance and, separately, a coal company tied to a sitting U.S. governor. That concentration made the entire structure dependent on a single kind of backstop: trade credit insurance, which let Credit Suisse and other buyers treat the notes as safely insured against nonpayment.
@@ -9226,6 +9229,9 @@ NotoriousGM.push(
     slug: 'michael-king-mfs-premium-income-fund-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Beach_fishing_at_the_Gold_Coast%2C_Queensland%2C_Australia_01.jpg?width=1200',
+    coverImageCredit: 'Queensland, where MFS was based before the raid on its fund. Photo: Kgbo (CC BY-SA 4.0)',
+    coverImagePosition: 45,
     body: `Michael Christodoulou King built MFS Ltd, a Gold Coast-based financial services group, into one of Australia's fastest-growing listed companies during the mid-2000s, expanding into funds management, aged care, and tourism through a web of subsidiaries. One of those subsidiaries, MFS Investment Management, ran the Premium Income Fund (PIF), an unlisted mortgage fund that raised money from thousands of everyday Australian investors on the promise of steady, low-risk returns backed by property lending — the kind of fund conservative investors chose specifically because it was supposed to be safer than shares.
 
 By late 2007, parts of the wider MFS group were under real financial strain, and, according to findings later made by the Federal Court of Australia, King and four of his fellow officers used PIF's own money to bail other parts of the group out. In November 2007, $130 million was transferred out of PIF to MFS Administration Pty Ltd, which used it to pay down a $103 million debt owed by a different MFS subsidiary to an unrelated lender, Fortress Credit Corporation — a debt PIF's unitholders had no obligation to pay and no benefit from paying. The following month, a further $17.5 million moved from PIF to another related entity, MFS Pacific Finance. The court later found that documents were created to make the transfers look like legitimate, arm's-length transactions, when in substance PIF's officers were siphoning $147.5 million out of a fund that belonged to its investors, not to the wider MFS group.
@@ -9285,6 +9291,9 @@ NotoriousGM.push(
     slug: 'peter-kambolin-systematic-alpha-cherry-picking-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Miami_skyline_from_the_ocean.jpg?width=1200',
+    coverImageCredit: 'Miami, where Systematic Alpha Management was based. Photo: Matthew T Rader (CC BY-SA 4.0)',
+    coverImagePosition: 45,
     body: `Peter Kambolin ran Systematic Alpha Management LLC, a Florida-based firm registered with the Commodity Futures Trading Commission as both a commodity trading advisor and a commodity pool operator. Unlike many of the schemes in this collection, Systematic Alpha wasn't a front for a fake business — it operated at least two real commodity pools that genuinely traded exchange-listed cryptocurrency and foreign-exchange futures, exactly as advertised to the investors who put money into them.
 
 The fraud was in how the trades got divided up. From January 2019 to November 2021, Kambolin also traded proprietary accounts belonging to himself and his firm side-by-side with the pools' accounts, and at the end of each trading day allocated that day's trades between them — a practice regulators call "cherry-picking." Investigators found that Kambolin consistently steered the day's profitable trades into his own and his firm's proprietary accounts while assigning the losing or less-profitable trades to the pools funded by outside investors, quietly capturing the strategy's real performance for himself while participants absorbed the downside of a trading system that, on paper, they were supposed to be sharing equally.
@@ -9339,6 +9348,9 @@ NotoriousGM.push(
     slug: 'james-mawhinney-mayfair-101-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'international'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Dunk_Island_Poster%2C_1930s.jpg?width=1200',
+    coverImageCredit: 'Dunk Island, centrepiece of the "tourism mecca" Mayfair 101 pitched. Photo: Unknown authorUnknown author (CC BY 4.0)',
+    coverImagePosition: 50,
     body: `James Mawhinney built the Mayfair 101 Group into one of Australia's most aggressively advertised alternative-investment brands, selling products with names like M+ Fixed Income Notes, M Core Fixed Income Notes, and the IPO Wealth Fund to retail investors searching online for a place to park their savings. Marketing material and sponsored search advertising for the debenture products explicitly compared them to bank term deposits, describing them as carrying no default risk and promising full repayment of principal at maturity — a pitch aimed squarely at cautious savers rather than risk-tolerant speculators, at a time when actual term-deposit rates had fallen to historic lows.
 
 According to Australia's Securities and Investments Commission, that comparison was false: the M Core Notes were not secured the way the marketing claimed, the group's flagship IPO Wealth Fund was an unregistered managed investment scheme rather than a regulated product, and the underlying investments could not support the promised returns. Money continued flowing in even as the group's ability to redeem investors deteriorated; when the Federal Court ordered M101 Nominees wound up in January 2021, roughly $211 million remained owed to nearly 500 investors, much of it never recovered. ASIC separately alleged that Mawhinney misrepresented to the trustee of the IPO Wealth Fund that the fund owned two Italian companies, Poveglia S.R.L. and Retta S.R.L, in order to justify the fund's stated value — allegations that led to his arrest in April 2024 on four counts of dishonest conduct in the operation of a financial services business, each carrying a maximum penalty of 15 years' imprisonment.
@@ -9356,6 +9368,9 @@ NotoriousGM.push(
     slug: 'dozy-mmobuosi-tingo-group-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'international'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/1962_Lagos_Island_map_detail_Lagos_Nigeria_txu-oclc-441966035-lagos-1962.jpg?width=1200',
+    coverImageCredit: 'Nigeria, where Tingo claimed a vast agricultural fintech operation. Photo: U.S. Army Corps of Engineers (public domain)',
+    coverImagePosition: 45,
     body: `Dozy Mmobuosi presented himself as a Nigerian tech billionaire, the founder of a fast-growing agri-fintech empire built around Tingo Mobile, a mobile-money and agricultural-services platform he claimed served millions of smallholder farmers across Nigeria. He used that story to take three related companies — Tingo Group Inc., Agri-Fintech Holdings Inc., and Tingo International Holdings Inc. — onto U.S. markets, filing financial statements with the Securities and Exchange Commission that portrayed the businesses as flush with cash and rapidly expanding revenue. It was, on paper, a rare African success story reaching Wall Street.
 
 According to the SEC's December 2023 complaint, the paper was largely fiction. Tingo Mobile's own financial filings claimed the company held $461.7 million in cash and cash equivalents in Nigerian bank accounts as of a 2023 reporting date; when investigators actually checked those accounts, the SEC alleges they held less than $50 combined. The complaint describes a broader pattern of fabricated customer relationships and inflated business metrics used to make Tingo's operations look profitable and cash-rich when the underlying commercial activity did not exist at anywhere near the scale claimed, and alleges Mmobuosi personally siphoned company money into luxury cars, private jet travel, and an unsuccessful attempt to buy an English Premier League football club.
@@ -9373,6 +9388,9 @@ NotoriousGM.push(
     slug: 'maxwell-odum-mba-forex-ponzi-scheme',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'international'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Refuse_dump_in_the_heart_of_Abuja.jpg?width=1200',
+    coverImageCredit: 'Nigeria, where MBA Forex took deposits before vanishing overnight. Photo: Aty Jorbes (CC BY-SA 4.0)',
+    coverImagePosition: 45,
     body: `Maxwell Chizi Odum ran MBA Trading and Capital Investment Limited, a Lagos-based outfit better known to the tens of thousands of Nigerians who put money into it as MBA Forex. Odum marketed the company as a forex-trading and training operation and told investors he could turn their deposits into fixed monthly returns of 15 to 20 percent by trading currency markets on their behalf — a rate of return that, compounded even briefly, would have made MBA Forex one of the most successful trading operations in the world had it been real. Nigeria's Securities and Exchange Commission later confirmed MBA Forex had never been licensed to collect public investment funds at all.
 
 The money was real even if the returns were not. Nigeria's Central Bank found that 125,397 investors had deposited roughly N171 billion into MBA Forex accounts, while other estimates that include additional linked entities put the total closer to N213 billion (at the time worth roughly $500 million) taken from well over 100,000 Nigerians. On December 22, 2020, the company told investors it was closing its offices for the holiday season — an ordinary, unremarkable announcement that turned out to be the last anyone heard from it. MBA Forex never reopened, Odum stopped responding to investors, and by early 2021 protesters were gathering outside the Economic and Financial Crimes Commission's headquarters in Abuja demanding an investigation.
@@ -9390,6 +9408,9 @@ NotoriousGM.push(
     slug: 'arif-patel-faisaltex-carousel-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'international'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Spire_of_St_John\'s_Minster%2C_Preston.jpg?width=1200',
+    coverImageCredit: 'Preston, where Faisaltex operated at the centre of the carousel fraud. Photo: Francis Franklin (CC BY-SA 4.0)',
+    coverImagePosition: 45,
     body: `Arif Patel ran Faisaltex Ltd, a sock and textile manufacturing business based in Preston, England, that on paper looked like an ordinary northern English clothing exporter. Underneath, HM Revenue and Customs says Patel used the company and a web of associated firms to run one of Britain's largest-ever "carousel" VAT frauds — a scheme in which goods are passed in a circular chain between shell companies, generating false export and import paperwork at each step so the ringleaders can submit fabricated VAT-repayment claims to HMRC for tax that was never actually paid on the underlying trade. Patel's gang used the technique against false exports of textiles and mobile phones, attempting to steal £97 million from British taxpayers. In parallel, the same organisation imported and distributed counterfeit designer clothing that would have been worth roughly £50 million had it been genuine.
 
 The investigation, run jointly by HMRC and Lancashire Police, eventually identified more than two dozen people involved in the operation. Patel travelled to Dubai in July 2011 and did not return to the United Kingdom, remaining there as the case against him and his network proceeded without him. A 14-week trial at Chester Crown Court concluded in April 2023 with Patel and his Dubai-based associate Mohamed Jaffar Ali convicted in their absence of fraud and money laundering offences, receiving a combined 31 years' imprisonment neither man has yet served. Separately, across five earlier trials held between 2011 and 2014, 24 other members of the network were convicted and sentenced to a combined total of more than 116 years in prison — one of the largest single tally of prison time HMRC has ever secured from one investigation.
@@ -9407,6 +9428,9 @@ NotoriousGM.push(
     slug: 'kubus-scheme-adriaan-nieuwoudt-milk-pyramid',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical', 'international'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/1930_-_Milk_Bottle_Top_-_Freemans_Dairy_-_Allentown_PA.jpg?width=1200',
+    coverImageCredit: 'The "activator" culture at the centre of the Kubus scheme was grown in milk. Photo: Self Scanned (public domain)',
+    coverImagePosition: 50,
     body: `Adriaan Nieuwoudt said he got the idea from his grandmother, who used a homemade fermented milk culture as a skincare treatment. In the early 1980s he turned it into "Kubus," a South African investment scheme built around an "activator" starter kit costing around R500: buyers mixed it with milk, let it ferment for a week, dried the resulting culture into powder, and mailed it back to Nieuwoudt's operation in the small Northern Cape town of Garies. In return, participants were paid around R10 per envelope, or up to R100 a week for steady producers — enough to recoup the initial R500 outlay within about five weeks, after which every payment looked like pure profit for doing almost nothing.
 
 It was, underneath the fermentation, a straightforward pyramid. Nieuwoudt told participants he needed enormous quantities of the dried powder to manufacture an exclusive skincare cream, but when regulators eventually inspected his facilities they found sheds full of rotten, unused culture, and evidence that dried product mailed in by one batch of participants was simply reground and resold as "new" starter kits to the next. The payouts weren't funded by a growing skincare business — they were funded by the R500 kit fees of each new wave of recruits, which is exactly why the scheme depended on constant recruitment to survive and collapsed once new signups couldn't keep pace with existing obligations. By the time it fell apart, an estimated R140 million had flowed through Kubus.
@@ -9424,6 +9448,9 @@ NotoriousGM.push(
     slug: 'raymond-jones-sterling-group-retiree-housing-collapse',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'international'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Retirement_apartment_block%2C_Whipton%2C_Exeter_-_geograph.org.uk_-_6482854.jpg?width=1200',
+    coverImageCredit: 'Seniors paid for "rent-free" leases in housing that was repossessed. Photo: David Smith (CC BY-SA 2.0)',
+    coverImagePosition: 50,
     body: `Note: Raymond Jones, his son Ryan Jones, and Simon Bell have been criminally charged over the Sterling Group's collapse but have not been convicted. All three pleaded not guilty, and as of this writing the case is awaiting trial; the allegations below reflect the regulator's case, not a court finding.
 
 Raymond Jones founded the Sterling Group in Perth, Western Australia, and from 2016 sold retirees and older Australians on a product called the Sterling New Life Lease, marketed as a cheaper, more flexible alternative to a retirement village. The pitch was straightforward: instead of paying weekly rent for the rest of their lives, a retiree would hand over a large upfront sum — commonly $150,000 to $200,000, sometimes the proceeds of selling their family home — into a related entity, the Sterling Income Trust (SIT). SIT would then invest that lump sum, and the investment returns were supposed to cover the tenant's ongoing lease payments indefinitely, so that some tenants were told they would never need to pay anything further out of pocket for the rest of their lives.
@@ -9462,6 +9489,9 @@ NotoriousGM.push(
     slug: 'mark-mccabe-guevara-capital-forex-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'international'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/CFTC_headquarters%2C_Lafayette_Center.jpg?width=1200',
+    coverImageCredit: 'The CFTC, which brought the action over accounts that did not exist. Photo: Dclemens1971 (CC BY 4.0)',
+    coverImagePosition: 45,
     body: `Mark Francis McCabe, of Roseville in Sydney, was the sole director of two companies, Guevara Capital Access Pty Ltd and Online Trading Capital Pty Ltd, through which he told clients he could provide access to funded foreign exchange trading accounts — capital-backed accounts clients could trade to generate returns, with McCabe positioned as the person who arranged the underlying access.
 
 Between January 2015 and April 2021, according to Australia's corporate regulator, ASIC, McCabe instead provided clients with accounts that were incapable of ever generating a real return, because they were non-functional "test" accounts rather than the funded, live-trading accounts he had promised. He used clients' money for his own expenses in the meantime — rent, private school fees, and credit card purchases among them — rather than putting it anywhere near a genuine trading account. Eight people lost a combined $940,350: seven clients of his two companies, plus one further individual victim.
@@ -9481,6 +9511,9 @@ NotoriousGM.push(
     slug: 'getfinancial-ring-cybertrading-fraud-germany',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'international'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Skyline_of_Berlin_Germany_(54181381862).jpg?width=1200',
+    coverImageCredit: 'Germany, where the fake cybertrading network solicited investors. Photo: Tony Webster (CC BY 2.0)',
+    coverImagePosition: 45,
     body: `Between 2015 and 2021, a network of call centers spread across Israel, Georgia, Armenia and Moldova ran at least ten fake online trading platforms aimed at retail investors in Germany and across Europe — among them GetFinancial, SolidCFD, ProCapitalMarkets, MyCoinBanking, Coinsbanking, GainFinTech, ProfitsTrade and AccepTrade. Each was marketed as a digital platform for trading binary options, contracts for difference, forex or cryptocurrency, complete with an account dashboard showing customers their balance supposedly growing in real time.
 
 None of it was real. Germany's Central Cybercrime Unit for Bavaria (Zentralstelle Cybercrime Bayern), investigating alongside the Upper Palatinate criminal police, found that customer deposits were never invested anywhere — "the trading platform visible to the customer is as much a deception as the alleged customer account," as prosecutors put it — with the money instead funding the call centers' operations and the operators' own enrichment. GetFinancial alone took in at least €16 million from customers; across all ten linked platforms, prosecutors put the combined damage at a minimum of €74.5 million, drawn from tens of thousands of investors.
@@ -9500,6 +9533,9 @@ NotoriousGM.push(
     slug: 'stephane-gagnon-unlock-my-rsp-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'international'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Kondiaronk_Belvedere%2C_Montreal_city%2C_Canada.jpg?width=1200',
+    coverImageCredit: 'Quebec, where the "Unlock My RSP" scheme targeted locked-in retirement savings. Photo: Wilfredor (public domain)',
+    coverImagePosition: 45,
     body: `In Canada, money held in a locked-in retirement account (a LIRA) generally can't be withdrawn early — that restriction exists specifically to protect retirement savings from being cashed out and spent prematurely. Stéphane Gagnon, operating out of Ottawa, Ontario, built a business around promising to get around it anyway. Through a company he controlled, 8565287 Canada Inc., doing business under names including "Unlock My RSP," "SMAP Financial Service," "the Loan Shop," and "the Finance Company," Gagnon told prospective clients he could help them access their locked-in funds early if they invested through him first.
 
 Between August 2015 and May 2021, according to the Ontario Securities Commission, more than 300 investors across Canada sent Gagnon over $20 million on the strength of that pitch. Rather than using the money to unlock retirement accounts as promised, Gagnon diverted a substantial portion of it to other purposes. To keep the scheme running, he also forged letters purporting to be from lawyers in order to maintain his business relationship with a trust company holding some of the investors' deposited funds — manufacturing paper credibility to keep the deposits flowing even as the underlying promise went unfulfilled.
@@ -9536,6 +9572,9 @@ NotoriousGM.push(
     slug: 'karl-suleman-cash-resource-australia-trolley-ponzi',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Supermarket%2C_Anlaby_(geograph_6117709).jpg?width=1200',
+    coverImageCredit: 'Suleman’s real business was collecting supermarket trolleys. Photo: JThomas (CC BY-SA 2.0)',
+    coverImagePosition: 50,
     body: `Karl Suleman arrived in Australia from Iraq as a child in 1976, worked as a storeman and packer, and later built a modest fortune running 7-Eleven convenience stores before finding an unlikely niche: collecting abandoned supermarket shopping trolleys from car parks across the country, from Cairns to Adelaide, and charging supermarket chains a fee to get them back. It was an ordinary, faintly comic little business — and Suleman turned it into the front for what liquidators would later call the largest Ponzi scheme in Australian history.
 
 Through Karl Suleman Enterprizes Pty Ltd (KSE), Suleman invited members of the public to invest directly in the trolley collection business, promising extraordinary fixed returns — around 100% annually — paid out fortnightly in amounts ranging from roughly $4,000 to $25,000 on investments of $50,000 to $150,000. Between 2000 and 2001 alone, 2,062 investors committed a combined $130.7 million to the scheme, drawn in by the strangely specific plausibility of a mundane, physical business rather than an exotic financial instrument. Across the full life of KSE and its related Froggy Group of companies — which also included an internet venture Suleman used to diversify his public profile — the scheme eventually raised roughly $300 million from about 20,000 investors.
@@ -9555,6 +9594,9 @@ NotoriousGM.push(
     slug: 'mark-bryers-blue-chip-collapse-australia-tax-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'international'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Auckland_Art_Gallery_Toi_o_T%C4%81maki_-_Joy_of_Museums_-_External_2.jpg?width=1200',
+    coverImageCredit: 'New Zealand, where the Blue Chip property scheme collapsed. Photo: Joyofmuseums (CC BY-SA 4.0)',
+    coverImagePosition: 45,
     body: `Mark Bryers co-founded and ran the Blue Chip group of companies, a New Zealand property investment business that, at its peak, made Bryers' estimated personal wealth roughly $70 million on the NBR Rich List. Blue Chip collapsed in 2008 owing more than 2,000 investors a combined $84 million — many of them ordinary people who had signed contracts or remortgaged their own homes on the strength of the company's promises. In 2009, Bryers was declared personally bankrupt in New Zealand with individual debts of $230 million.
 
 New Zealand's Serious Fraud Office opened a formal investigation into Blue Chip, examining allegations across seven categories: that investor deposits meant to be held in trust were instead used for general company expenses, that apartments resold to other developers left original depositors as unsecured creditors, that mortgage paperwork was altered without clients' knowledge, and that sales agreements were falsified to trigger fee payments, among others. On October 28, 2010, then-SFO director Adam Feeley announced the office would not prosecute, concluding there was insufficient evidence for a case an "impartial jury could be satisfied, beyond reasonable doubt" would prove a criminal offense — a markedly different outcome than several of the finance-company collapses of the same era. Bryers did plead guilty that same year to 34 far narrower financial reporting charges under the Companies Act, and was fined $37,500 and ordered to complete 75 hours of community work; a 2015 Auckland High Court order discharging him from bankruptcy separately banned him from acting as a company director or manager in New Zealand until 2022.
@@ -9673,6 +9715,9 @@ NotoriousGM.push({
     slug: 'nickolas-karantzis-isignthis-asx-disclosure-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'international'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Sydney_Exchange_Centre_Entrance.jpg?width=1200',
+    coverImageCredit: 'The ASX, to which iSignthis failed to make required disclosures. Photo: JeremyR (CC BY-SA 4.0)',
+    coverImagePosition: 45,
     body: `Not every scam involves a fake product. Sometimes it's a real, ASX-listed company whose executives simply decide the market doesn't need to know what's actually happening inside it.
 
 iSignthis Ltd was an Australian-listed business providing remote identity verification, transactional banking and payment processing — the kind of infrastructure company banks and fintechs plug into rather than something the public deals with directly. Under managing director and CEO Nickolas John Karantzis, the company grew into one of the more closely watched stocks on the ASX. Australia's Securities and Investments Commission (ASIC) later found that, between 2018 and 2020, iSignthis and Karantzis repeatedly failed to tell the market things a listed company is legally required to disclose. In August 2018, the company represented that less than 15% of its most recent quarterly revenue came from one-off, non-recurring fees — when ASIC's investigation found roughly $3 million of that revenue was in fact one-off, tied to about $2.85 million in one-off costs, a materially different picture of how sustainable the company's earnings were. Then, on 12 May 2020, Visa terminated its relationship with iSignthis altogether — the loss of a major payments-network partner that any reasonable investor would want to know about — and iSignthis said nothing to the ASX about the termination or the reasons behind it.
@@ -9688,6 +9733,9 @@ NotoriousGM.push({
     slug: 'songeziwe-mbalo-bhaca-green-forex-ponzi-fsca',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'international'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/View_of_Hillbrow_skyline_with_Hillbrow_Tower%2C_Johannesburg%2C_South_Africa.jpg?width=1200',
+    coverImageCredit: 'South Africa, where the FSCA found Bhaca Green had never traded. Photo: Bertrand van der Berg (CC BY-SA 4.0)',
+    coverImagePosition: 45,
     body: `Between January 2019 and December 2020, Songeziwe Mbalo ran Bhaca Green (Pty) Ltd as an unlicensed forex trading operation, collecting money from investors on the promise that it would be traded on their behalf in the currency markets. Neither Mbalo nor Bhaca Green was authorized by South Africa's Financial Sector Conduct Authority (FSCA) to render financial services or provide advice on financial products at all — a basic, checkable fact that a look at the FSCA's public register of licensed providers would have revealed to any prospective investor.
 
 An FSCA investigation found that trading was, in any meaningful sense, barely happening. "The majority of the funds received from investors were used to pay purported returns to other investors and to cover Mbalo's personal expenses, with only a small fraction used for trading purposes," the regulator concluded — the standard Ponzi mechanic of using new deposits to manufacture the appearance of profit for earlier depositors, dressed up as a forex trading business. A second individual, Lungile Mgilane, was found to have rendered financial services on behalf of the unauthorized operation as well.
@@ -9703,6 +9751,9 @@ NotoriousGM.push({
     slug: 'john-robert-leake-nfl-linebacker-ponzi-scheme',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Huntington_Bank_Stadium_Aerial.jpg?width=1200',
+    coverImageCredit: 'Leake played professional football before selling fake investments. Photo: Lectrician2 (CC BY-SA 4.0)',
+    coverImagePosition: 50,
     body: `John Robert Leake spent two seasons in the NFL as a linebacker, with the Atlanta Falcons and later the Green Bay Packers, before building a second, considerably less legitimate career: a five-year Ponzi scheme run on the promise of luxury real estate deals and gold mines in Alaska and Ghana that, according to federal prosecutors, mostly didn't exist as he described them.
 
 From June 2015 to March 2020, Leake solicited money from at least six victims by claiming he was involved in a series of lucrative ventures — subletting luxury real estate properties, direct real estate investing, and gold mining operations among them — and offered them the chance to loan him money in exchange for high returns. He backed the pitch with fabricated promissory notes and claims about his own substantial personal wealth and business success. "Leake's lies to his victims included his claims that his business ventures were successful, and he had accumulated substantial personal assets and income," the Department of Justice said. In reality, prosecutors found, the investment opportunities were often fabricated or nonexistent, devised specifically to draw money from victims.
@@ -9720,6 +9771,9 @@ NotoriousGM.push({
     slug: 'william-brent-meikle-hit-tv-brands-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'international'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Video_production_workers_in_studio_studying_bank_of_monitors_showing_camera_views.jpg?width=1200',
+    coverImageCredit: 'Hit TV Brands raised money on direct-response television production. Photo: Ryan Hagerty (public domain)',
+    coverImagePosition: 50,
     body: `William Brent Meikle was the founder, president, CEO, and a director of Hit TV Brands Inc., an Alberta-based company that claimed to market and sell consumer products such as batteries and a spray-on lubricant. Between February 2018 and December 2019, according to the British Columbia Securities Commission (BCSC), Meikle and the company he ran fraudulently diverted approximately $1 million in investor funds to cover his personal expenses.
 
 The money wasn't the only thing investors were misled about. The BCSC found that Hit TV made a series of misrepresentations to shareholders about imminent revenue, an imminent public offering, and equity financing that was supposedly already lined up — none of which materialized on the timeline, or in some cases the form, investors were told. The company also made prohibited representations to investors that they would be reimbursed for their invested funds and would get to keep their shares regardless, guarantees securities regulators do not allow issuers to make. On top of the misrepresentations, Hit TV illegally distributed its own securities 128 times during the same period without ever filing a prospectus — the formal disclosure document a company is required to give investors — or qualifying for an exemption from that requirement. The BCSC found that Meikle, by authorizing, permitting, or acquiescing in each of Hit TV's violations, was personally responsible for the same contraventions as the company.
@@ -9735,6 +9789,9 @@ NotoriousGM.push({
     slug: 'steve-madden-stratton-oakmont-securities-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/No_Known_Restrictions_Trading_Floor%2C_New_York_Stock_Exchange_(Highsmith_LOC)_(6718386525).jpg?width=1200',
+    coverImageCredit: 'The Stratton Oakmont stock fraud ran through public share offerings. Photo: Carol M. Highsmith (public domain)',
+    coverImagePosition: 50,
     body: `Steve Madden built one of the most recognizable names in American footwear, taking Steven Madden, Ltd. public in 1993 and growing it into a company whose shoes fill mall storefronts across the country. What the brand's early success obscured for years was that Madden's rise ran directly through Stratton Oakmont, the Long Island brokerage made famous — and infamous — by Jordan Belfort, and that Madden had been a paid participant in its stock manipulation schemes since 1991, two years before his own company ever sold a share to the public.
 
 According to the Securities and Exchange Commission, Stratton Oakmont and a spinoff firm, Monroe Parker Securities, ran a twenty-two-IPO manipulation scheme from 1991 through 1997 built around secret "flipper" arrangements: the firms allocated shares of initial public offerings to a small circle of insiders, including Madden, under undisclosed side agreements requiring them to sell the stock back at pre-set, below-market prices once trading opened. Stratton and Monroe brokers would then push the now-controlled float on outside customers through aggressive sales tactics, at prices that had nothing to do with the company's actual value, while the flippers pocketed the spread. Steven Madden, Ltd.'s own December 1993 IPO was one of the twenty-two — Stratton underwrote it, and the SEC found Madden participated in manipulating trading in his own company's stock, with Madden's knowledge, the same way he had for other issuers.
@@ -9750,6 +9807,9 @@ NotoriousGM.push({
     slug: 'paul-gulbronson-kelly-bonilla-citrona-homes-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Under_Renovation_house_in_Mid-City_New_Orleans_-_02.jpg?width=1200',
+    coverImageCredit: 'Investors paid for renovations on rental homes that were never done. Photo: Bart Everson (CC BY 2.0)',
+    coverImagePosition: 50,
     body: `Paul Andrew Gulbronson and Kelly Bonilla, operating out of Florida and Johnstown, Pennsylvania, built a company called Citrona Homes around a pitch aimed squarely at people who wanted real-estate income without becoming landlords themselves: buy a "fully renovated" rental house in western Pennsylvania, already occupied by a Section 8 tenant paying guaranteed rent, and Citrona would handle the rest. Between 2017 and mid-2019, the pair marketed that pitch through telemarketing calls and online advertising to investors scattered across the country, most of whom would never see the property in person before wiring their money.
 
 The homes Citrona was actually selling looked nothing like the ones in its marketing. According to federal prosecutors, the company bought more than 100 distressed, often near-uninhabitable properties for a combined total of roughly $2 million, then resold those same houses to investors for approximately $6 million — using staged photographs and false representations about renovation work and tenant occupancy that, in many cases, hadn't happened and didn't exist. Rather than putting the money toward the promised repairs, prosecutors say Gulbronson and Bonilla spent investor funds on restaurants, airline tickets, home furnishings, and their own residential leases. More than 70 investors lost a combined $5 million.
@@ -9784,6 +9844,9 @@ NotoriousGM.push({
     slug: 'kerr-kriisa-fake-family-emergency-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Eric_Musselman_on_sideline_during_Nevada_at_Air_Force_basketball_game%2C_March_7%2C_2019.jpg?width=1200',
+    coverImageCredit: 'Kriisa was a college basketball player when the scheme ran. Photo: Bill Evans, United States Air Force Academy (public domain)',
+    coverImagePosition: 50,
     body: `Kerr Kriisa spent six seasons as a college basketball guard — at Arizona, West Virginia, Kentucky, and Cincinnati — building a reputation as a feisty, long-range shooter and a fan favorite along the way. According to a federal indictment unsealed July 7, 2026, he was allegedly running a very different kind of long game at the same time: a four-year scheme in which he impersonated his own mother and other people to extract nearly $2.2 million from at least two victims under the guise of family medical and financial emergencies.
 
 Prosecutors allege that from 2022 through June 2026, Kriisa contacted one victim while posing as his mother, describing an urgent need for money to cover cancer treatment and farm expenses. When the victim eventually pressed for repayment, Kriisa allegedly signed a written agreement in April 2025 promising to pay back $100,000 by February 2026 — a promise prosecutors say was never kept. A second victim, contacted between November 2025 and February 2026, was allegedly targeted through an entirely fabricated identity: a persona named "Irene," used to request money under a different set of invented circumstances. A federal grand jury in West Virginia indicted Kriisa on five counts of wire fraud, and he was arrested in Kentucky and expected to appear in federal court to face the charges.
@@ -9799,6 +9862,9 @@ NotoriousGM.push({
     slug: 'jeong-sang-ho-delio-crypto-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'international'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Skyline_view_from_Seoul_City_(South_Korea).jpg?width=1200',
+    coverImageCredit: 'Seoul, where Delio operated as a "digital asset bank". Photo: Flickr - Laurie Nevay https://www.flickr.com/photos/laurienevay/ (CC BY-SA 2.0)',
+    coverImagePosition: 45,
     body: `Delio launched in South Korea in 2022 pitching itself as a "digital asset bank," a platform where customers could deposit bitcoin and ether and earn high yields the way a traditional savings account pays interest — except with returns a conventional bank could never offer. Behind that pitch, prosecutors say founder Jeong Sang-ho had obtained the company's virtual asset trading license through false representations, building the entire operation on a foundation that shouldn't have let it operate in the first place.
 
 The platform kept accepting deposits and paying out yields for roughly a year before the arrangement fell apart. On June 14, 2023, Delio abruptly froze customer withdrawals, locking more than a thousand depositors out of assets they believed they could access on demand. Prosecutors said Jeong had embezzled and defrauded customers of digital assets worth approximately 70 billion won — about $49.3 million — while South Korean media reported that total user losses across the platform's customer base reached as high as $175 million once the full scope of frozen and unrecoverable funds was accounted for. Delio never recovered from the freeze, formally filing for bankruptcy in November 2024.
