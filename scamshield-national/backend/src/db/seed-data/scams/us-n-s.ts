@@ -7534,3 +7534,29 @@ UsNS.push({
     firstRecorded: "2025-12-01",
     state: "OK",
 });
+
+UsNS.push({
+    name: "SNAP EBT Card Skimming Targeting Nebraska DHHS Benefit Recipients",
+    slug: "snap-ebt-card-skimming-nebraska-dhhs",
+    description:
+      "Criminals attach skimming devices to point-of-sale card readers at Nebraska retail and grocery checkouts to capture EBT magnetic-stripe data and the PIN typed on the keypad. The stolen data is used to clone cards or make purchases, draining a household's entire monthly SNAP balance, sometimes within hours of benefits loading. Nebraska DHHS issued a skimming alert, and in a January 2026 Lincoln-area wave reported confiscating three devices affecting 130 households, while Lincoln Police documented 31 cases totaling roughly $17,000 stolen. DHHS recommends registering your card at ebtedge.com, blocking out-of-state transactions, locking the card between purchases with the ebtEDGE or Propel app, changing your PIN often, and covering the keypad when entering it. Remember that DHHS and EBT processors never call asking for your card number or PIN, so report any suspected theft to your local DHHS office immediately.",
+    categorySlug: "public-benefits-fraud",
+    alertLevel: "high",
+    sources: ["Nebraska Department of Health and Human Services SNAP EBT card skimming alert","Lincoln Police Department (via Nebraska Public Media and 1011 NOW)","Nebraska Appleseed"],
+    sourceUrl: "https://dhhs.ne.gov/Pages/SNAP-EBT-Card-Skimming-Scam-Affecting-Accounts.aspx",
+    country: "US",
+    state: "NE",
+});
+
+UsNS.push({
+    name: "Nebraska DMV Impersonation Text and Call Scam",
+    slug: "nebraska-dmv-impersonation-text-and-call-scam",
+    description:
+      "Scammers send texts and make calls pretending to be a Nebraska DMV office or a county treasurer's motor vehicle office. One version claims you either owe a large sum or are owed money through a \"tax credit or refund,\" then asks for personal and banking details to process it. A related phone version has callers posing as Amazon or Apple, saying your account was hacked and a refund is pending, then requesting photos of the front and back of your Nebraska driver's license plus bank information, which hands over a complete identity-theft kit. The Nebraska DMV stresses that neither it nor county treasurers' offices send these messages, and Lincoln Police, the Nebraska State Patrol, and several county sheriff's offices have issued matching warnings. Do not reply, click links, or send license photos or bank details; contact your county treasurer or the DMV directly using a number you look up yourself, and report the message to the Nebraska Attorney General's Consumer Protection Division.",
+    categorySlug: "government-impersonation",
+    alertLevel: "high",
+    sources: ["Nebraska Department of Motor Vehicles news alert: Scammers Target Nebraska DMV Customers","Nebraska DMV: Nebraska DMV Reminds Customers to Be Aware of Scams","Nebraska DMV: Nebraska DMV Warns Residents of Scam Phone Calls","Lincoln Police Department and Nebraska State Patrol warnings"],
+    sourceUrl: "https://dmv.nebraska.gov/news/scammers-target-nebraska-dmv-customers",
+    country: "US",
+    state: "NE",
+});
