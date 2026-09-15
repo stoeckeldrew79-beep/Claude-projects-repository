@@ -7398,3 +7398,17 @@ UsNS.push({
     isHistorical: false,
     firstRecorded: '2026-09-03',
 });
+
+UsNS.push({
+    name: 'AO Elite "Done-For-You" E-Commerce Business Opportunity Fraud',
+    slug: 'ao-elite-done-for-you-ecommerce-fraud-olave',
+    description: `Alexander A. Olave, 35, of Manassas, Virginia, marketed his company AO Elite as a "done-for-you" e-commerce business opportunity, falsely claiming it had already built hundreds of profitable online storefronts generating $112 million in client revenue and could guarantee profit margins for new customers, bolstering the pitch with a testimonial video actually filmed for an unrelated company. Victims paid substantial up-front fees for Olave to build and maintain a storefront on their behalf, but never received a working store; when they asked about progress, Olave made false representations to stall refunds and conceal the fraud, using customer funds instead to pay himself a salary and lease luxury homes and vehicles. After AO Elite shut down, he launched two more companies using the identical model. The scheme defrauded roughly 100 victims of more than $3.5 million. The U.S. Attorney's Office for the Eastern District of Virginia announced on September 11, 2026 that Olave was sentenced to two years and nine months in federal prison. Anyone offered a "guaranteed" hands-off e-commerce business for a large upfront fee should independently verify any revenue claims and treat a request for payment before any product or storefront exists as a red flag.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'high',
+    sources: ['U.S. Attorney\'s Office, Eastern District of Virginia'],
+    sourceUrl: 'https://www.justice.gov/usao-edva/pr/manassas-man-sentenced-over-two-years-prison-35m-fraud-scheme',
+    country: 'US',
+    state: 'VA',
+    isHistorical: false,
+    firstRecorded: '2026-09-11',
+});
