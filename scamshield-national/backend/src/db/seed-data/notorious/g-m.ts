@@ -9185,10 +9185,11 @@ NotoriousGM.push(
     title: 'Lex Greensill and the $10 Billion Supply-Chain Empire That Collapsed Over One Lapsed Insurance Policy',
     slug: 'lex-greensill-supply-chain-finance-collapse',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Canary_Wharf_Skyline.jpg?width=1200',
+    coverImageCredit: 'Canary Wharf, London, where Greensill Capital was headquartered. Photo: Mewiki (public domain)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/West_India_Quay_DLR_station_MMB_05_5%2C_25_and_1_Canada_Square.jpg?width=1200',
-    coverImageCredit: 'London, where Greensill Capital was headquartered. Photo: mattbuck (category) (CC BY-SA 4.0)',
-    coverImagePosition: 45,
     body: `Lex Greensill, an Australian farmer's son who had worked structuring trade finance at Morgan Stanley and Citigroup, founded Greensill Capital in London in 2011 to sell an old idea with a new name: supply-chain finance, sometimes called reverse factoring. A bank or lender pays a company's suppliers early, at a small discount, and collects the full invoice amount from the buyer later — smoothing out the buyer's own payment terms while giving the supplier cash sooner. Greensill built a business around packaging these short-term receivables into notes that funds could buy, marketed as being nearly as safe and liquid as cash, since they were backed by real invoices for goods and services already delivered.
 
 The pitch attracted serious money. SoftBank's Vision Fund invested roughly $1.5 billion across two rounds, valuing Greensill Capital at around $7 billion at its peak, and Credit Suisse's asset management arm built a family of supply-chain finance funds around Greensill-originated notes that grew to about $10 billion. But Greensill had drifted well beyond financing invoices for goods already delivered: a large and growing share of its business financed projected future receivables — money a client might owe based on anticipated, not yet contracted, future business — concentrated overwhelmingly in a handful of borrowers, above all steel and metals magnate Sanjeev Gupta's GFG Alliance and, separately, a coal company tied to a sitting U.S. governor. That concentration made the entire structure dependent on a single kind of backstop: trade credit insurance, which let Credit Suisse and other buyers treat the notes as safely insured against nonpayment.
@@ -9599,10 +9600,11 @@ NotoriousGM.push(
     title: "Mark Bryers: New Zealand's Blue Chip Collapse, a New Name in Australia, and a Fraud Case Still Unresolved",
     slug: 'mark-bryers-blue-chip-collapse-australia-tax-fraud',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Auckland_High_Court.jpg?width=1200',
+    coverImageCredit: 'The Auckland High Court, where the Blue Chip litigation ran. Photo: Krzysztof Golik (CC BY-SA 4.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'international'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Auckland_Art_Gallery_Toi_o_T%C4%81maki_-_Joy_of_Museums_-_External_2.jpg?width=1200',
-    coverImageCredit: 'New Zealand, where the Blue Chip property scheme collapsed. Photo: Joyofmuseums (CC BY-SA 4.0)',
-    coverImagePosition: 45,
     body: `Mark Bryers co-founded and ran the Blue Chip group of companies, a New Zealand property investment business that, at its peak, made Bryers' estimated personal wealth roughly $70 million on the NBR Rich List. Blue Chip collapsed in 2008 owing more than 2,000 investors a combined $84 million — many of them ordinary people who had signed contracts or remortgaged their own homes on the strength of the company's promises. In 2009, Bryers was declared personally bankrupt in New Zealand with individual debts of $230 million.
 
 New Zealand's Serious Fraud Office opened a formal investigation into Blue Chip, examining allegations across seven categories: that investor deposits meant to be held in trust were instead used for general company expenses, that apartments resold to other developers left original depositors as unsecured creditors, that mortgage paperwork was altered without clients' knowledge, and that sales agreements were falsified to trigger fee payments, among others. On October 28, 2010, then-SFO director Adam Feeley announced the office would not prosecute, concluding there was insufficient evidence for a case an "impartial jury could be satisfied, beyond reasonable doubt" would prove a criminal offense — a markedly different outcome than several of the finance-company collapses of the same era. Bryers did plead guilty that same year to 34 far narrower financial reporting charges under the Companies Act, and was fined $37,500 and ordered to complete 75 hours of community work; a 2015 Auckland High Court order discharging him from bankruptcy separately banned him from acting as a company director or manager in New Zealand until 2022.
@@ -9794,10 +9796,11 @@ NotoriousGM.push({
     title: 'Steve Madden and the Stratton Oakmont Stock Fraud Behind the Shoes',
     slug: 'steve-madden-stratton-oakmont-securities-fraud',
     author: 'ScamShield Editorial',
-    tags: ['notorious', 'notorious-scammer'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/No_Known_Restrictions_Trading_Floor%2C_New_York_Stock_Exchange_(Highsmith_LOC)_(6718386525).jpg?width=1200',
-    coverImageCredit: 'The Stratton Oakmont stock fraud ran through public share offerings. Photo: Carol M. Highsmith (public domain)',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Steve_Madden_NYC_Times_Square.jpg?width=1200',
+    coverImageCredit: 'A Steve Madden store. The company’s 1993 flotation was underwritten by Stratton Oakmont. Photo: Nielsoncaetanosalmeron (CC BY 4.0)',
     coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    tags: ['notorious', 'notorious-scammer'],
     body: `Steve Madden built one of the most recognizable names in American footwear, taking Steven Madden, Ltd. public in 1993 and growing it into a company whose shoes fill mall storefronts across the country. What the brand's early success obscured for years was that Madden's rise ran directly through Stratton Oakmont, the Long Island brokerage made famous — and infamous — by Jordan Belfort, and that Madden had been a paid participant in its stock manipulation schemes since 1991, two years before his own company ever sold a share to the public.
 
 According to the Securities and Exchange Commission, Stratton Oakmont and a spinoff firm, Monroe Parker Securities, ran a twenty-two-IPO manipulation scheme from 1991 through 1997 built around secret "flipper" arrangements: the firms allocated shares of initial public offerings to a small circle of insiders, including Madden, under undisclosed side agreements requiring them to sell the stock back at pre-set, below-market prices once trading opened. Stratton and Monroe brokers would then push the now-controlled float on outside customers through aggressive sales tactics, at prices that had nothing to do with the company's actual value, while the flippers pocketed the spread. Steven Madden, Ltd.'s own December 1993 IPO was one of the twenty-two — Stratton underwrote it, and the SEC found Madden participated in manipulating trading in his own company's stock, with Madden's knowledge, the same way he had for other issuers.
@@ -10021,10 +10024,11 @@ NotoriousGM.push({
     title: 'Brian Hunter and the $6.6 Billion Natural-Gas Bet That Sank Amaranth Advisors',
     slug: 'brian-hunter-amaranth-advisors-natural-gas-collapse',
     author: 'ScamShield Editorial',
-    tags: ['notorious', 'notorious-scammer', 'international'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Protecting_Air_for_Waterville%2C_and_Neighbors_Against_NEXUS%2C_appellants%2C_v._Craig_Butler%2C_Director_of_Environmental_Protection%2C_and_Waterville_Compressor_Station%2C_appellants_-_case_n_-_DPLA_-_ecd58ec8844e7c81f09f2f3e4e627b03.jpg?width=1200',
-    coverImageCredit: 'Natural gas infrastructure. Amaranth lost $6.6 billion betting on its price. Photo: Ohio EPA (public domain)',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/NY_Mercantile_Exchange_building.JPG?width=1200',
+    coverImageCredit: 'The New York Mercantile Exchange, where Amaranth’s natural-gas positions traded. Photo: Auricht Pascal (public domain)',
     coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    tags: ['notorious', 'notorious-scammer', 'international'],
     body: `Amaranth Advisors LLC was a multi-strategy hedge fund founded in 2000 by Nicholas Maounis and based in Greenwich, Connecticut, that grew into one of the largest funds of its kind by spreading bets across convertible bonds, merger arbitrage, and energy markets. Its energy desk was run out of Calgary, Alberta, by a Canadian trader named Brian Hunter, who had made the fund roughly $1 billion in profit during 2005 betting on how far natural gas prices would swing around Hurricane Katrina. Maounis gave Hunter wide latitude to keep running that playbook, and by 2006 Amaranth's assets under management had climbed to about $9.2 billion.
 
 Hunter went back to the same trade for the following winter, building enormous positions in natural gas futures and swaps that would pay off if the gap between near-term and future gas prices widened the way it had after Katrina. The scale was extreme even by hedge-fund standards: at points in 2006, Amaranth's positions accounted for somewhere between 46 and 81 percent of the open interest in certain NYMEX natural gas contracts, according to a later Senate subcommittee investigation — a concentration that left the fund with almost no way to unwind its bet quickly if conditions changed. They did. A mild hurricane season and unexpectedly high stored gas supplies pushed prices down from around $8 per unit in mid-July 2006 to roughly $5 by September, moving directly against Hunter's positions.
@@ -10041,10 +10045,11 @@ NotoriousGM.push({
     title: 'Patrick Halligan: The Archegos CFO Whose Lies to Banks Helped Hide a $10 Billion Bomb',
     slug: 'patrick-halligan-archegos-cfo-fraud',
     author: 'ScamShield Research Team',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/888_Seventh_Avenue.jpg?width=1200',
+    coverImageCredit: '888 Seventh Avenue, Archegos’s former headquarters. Photo: Kidfly182 (CC BY-SA 4.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Nomad_Tower%2C_1250_Broadway%2C_Koreatown%2C_Midtown_Manhattan%2C_2024.jpg?width=1200',
-    coverImageCredit: 'Manhattan, where Archegos misrepresented its exposure to its lending banks. Photo: Deans Charbal (CC BY-SA 4.0)',
-    coverImagePosition: 45,
     body: `When Archegos Capital Management collapsed in March 2021, most of the public attention landed on its founder, Sung Kook "Bill" Hwang, a former Tiger Asia manager who had rebuilt a fortune inside a family office exempt from the disclosure rules that govern hedge funds managing outside money. Less attention went to the man prosecutors said made the fraud actually work: Patrick Halligan, Archegos's chief financial officer, whose job put him on the phone with the banks Hwang was quietly bleeding for leverage.
 
 Archegos built enormous, concentrated stock positions — in companies like ViacomCBS, Discovery, and several U.S.-listed Chinese firms — using total-return swaps with multiple prime brokers simultaneously, a structure that let Hwang control huge economic exposure to a stock without ever having to disclose owning it outright, and that kept any single bank from seeing how much exposure Archegos had built up across all of them combined. According to the U.S. Attorney's Office for the Southern District of New York, that blind spot wasn't an accident the banks stumbled into — it was one Halligan actively worked to preserve. Prosecutors said that when Credit Suisse, Nomura, Morgan Stanley, UBS, and other counterparties asked Archegos routine questions about its total exposure, its concentration in individual names, and its liquidity, Halligan gave them false and misleading answers designed to keep the credit and trading capacity flowing rather than reveal how leveraged and concentrated the fund had actually become.
@@ -10120,10 +10125,11 @@ NotoriousGM.push({
     title: 'Salvatore Ligresti and the Hidden €600 Million Hole at the Heart of Fondiaria-SAI',
     slug: 'salvatore-ligresti-fondiaria-sai-fraud',
     author: 'ScamShield Research Team',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/La_Fondiaria_Assicurazioni_Florence.jpg?width=1200',
+    coverImageCredit: 'La Fondiaria Assicurazioni in Florence. Photo: Illustratedjc (CC BY-SA 4.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'international'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Milan_skyline_skyscrapers_of_Porta_Nuova_business_district.jpg?width=1200',
-    coverImageCredit: 'Milan, where Fondiaria-SAI was headquartered. Photo: Francesco Ungaro (public domain)',
-    coverImagePosition: 45,
     body: `Salvatore Ligresti was born in 1932 in the Sicilian town of Paternò and trained as an engineer, but he made his fortune in Milan real estate, becoming one of the most powerful builders in the city during its postwar boom. He then did something more unusual than simply getting rich: he learned to control a large public company with only a small slice of its actual equity, stacking one holding company on top of another — his family firm Premafin at the top, controlling the insurer Fondiaria-SAI, formed in 2002 when Fondiaria merged with SAI — so that a relatively modest ownership stake carried outsized voting control. The technique earned him a nickname in the Italian financial press, "Mister Cinque Per Cento," or "Mister Five Percent," for how little of a company he actually needed to own in order to run it.
 
 Fondiaria-SAI grew into Italy's second-largest insurer, and Italian prosecutors later said that scale came with a temptation Ligresti couldn't resist when the numbers stopped cooperating. In the company's 2010 financial statements, prosecutors alleged, Fondiaria-SAI understated the reserves it was legally required to hold against outstanding insurance claims — money set aside specifically so the company could pay policyholders' claims as they came due — by roughly €600 million. That understatement let the company report a profit and distribute approximately €253 million to shareholders, Premafin among them, instead of disclosing the loss the reserve shortfall actually represented, misleading an estimated 12,000 investors who bought or held Fondiaria-SAI stock believing its published accounts.

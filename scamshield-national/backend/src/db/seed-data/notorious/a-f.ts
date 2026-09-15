@@ -8858,10 +8858,11 @@ NotoriousAF.push(
     title: 'Stewart Ford and Keydata\'s £475 Million in "Death Bonds"',
     slug: 'stewart-ford-keydata-death-bonds-fraud',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Canary_Wharf_Skyline_2,_London_UK_-_Oct_2012.jpg?width=1200',
+    coverImageCredit: 'Canary Wharf, London. Keydata sold its bonds to ordinary savers through independent advisers. Photo: David Iliff (CC BY-SA 3.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/(Covers_to)_Map_of_the_Northern_Part_of_the_Punjab_and_of_Kashmir%2C_also_of_the_frontiers_of_Ladak_and_Little_Tibet-_compiled_(IA_dr_covers-to-map-of-the-northern-part-of-the-punjab-and-of-kashmir-also-of-13305001).jpg?width=1200',
-    coverImageCredit: 'The UK financial regulator, whose Keydata case ran for over a decade. Photo: Walker, John Vigne, G. T. Snderson, J. Wade, C. Durand, H. M. (public domain)',
-    coverImagePosition: 45,
     body: `Stewart Ford founded Keydata Investment Services in 2001, and within a few years built it into one of Britain's largest distributors of structured retail investment products, sold to ordinary savers through a network of independent financial advisers and marketed heavily for tax-free ISA accounts. Starting in 2005, Keydata's flagship offering was a series of bonds issued by a Luxembourg company called SLS Capital SA, pitched to advisers and their retiree clients as a relatively low-risk, income-producing investment. The underlying asset was less reassuring than the pitch: pools of second-hand U.S. life insurance policies, known as "life settlements," which paid out only when the original policyholders died — a return that depended on people dying roughly on actuarial schedule, and that shrank steadily as the fees layered on top of the structure ate into it. Keydata sold roughly £475 million of these products to somewhere in the region of 30,000 UK investors before the business collapsed.
 
 In 2006, Ford quietly built a near-identical structure, Lifemark SA, which — unlike SLS — was beneficially owned by Ford himself through a chain of offshore entities, and increasingly took over as the vehicle Keydata's products were funneled through. Over the following three years, the UK's Financial Conduct Authority later found, companies controlled by Ford extracted roughly £73.3 million in fees out of the Lifemark structure — fees that a tribunal would later describe as paid for services either "unrelated" to the product or "no services whatsoever" — without ever disclosing to investors, the advisers selling the bonds, or the regulator that Ford himself sat on the other side of the fees coming out of their investment.
@@ -8901,10 +8902,11 @@ NotoriousAF.push(
     title: 'Guy Flintham and the £19 Million Fake Trading Scheme Behind a Fleet of Sports Cars',
     slug: 'guy-flintham-unauthorised-investment-scheme-fraud',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Preston_Law_Courts_(geograph_3100494).jpg?width=1200',
+    coverImageCredit: 'Preston Law Courts, Lancashire, where the case was heard. Photo: Ian Taylor (CC BY-SA 2.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'international'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Blackburn_Cathedral_Sanctuary%2C_Blackburn%2C_Lancashire%2C_UK_-_Diliff.jpg?width=1200',
-    coverImageCredit: 'Blackburn, Lancashire, where Flintham ran the scheme. Photo: Diliff (CC BY-SA 3.0)',
-    coverImagePosition: 45,
     body: `Guy Flintham, from Blackburn, Lancashire, ran an unauthorised investment scheme built on a single false claim: that he was a skilled, successful trader who could reliably generate strong returns for the people who invested with him. Between January 2016 and November 2021, that pitch persuaded more than 240 investors to hand over roughly £19 million — money Flintham was never licensed by Britain's Financial Conduct Authority to manage in the first place.
 
 Flintham kept the money flowing by sending investors fabricated trading statements showing healthy, consistent profits. In reality, the UK's Financial Conduct Authority found that only about £1.14 million of the £19 million raised was ever actually placed into genuine trading accounts. Roughly £10 million was paid back out to investors as supposed "profits" that in fact came from other investors' capital or their own money being recycled back to them — a Ponzi-style structure layered underneath the trading story. Flintham personally spent more than £1 million of investor money on cars, jewelry, designer goods, and personalized number plates.
@@ -8957,28 +8959,6 @@ The U.S. charges triggered an almost simultaneous collapse on the UK side. On Ma
 
 Beaufort's case is unusual among stock-fraud prosecutions because the pump-and-dump ring at its center was never real from the buyer's side — the "client" law enforcement caught the firm doing business with was an FBI agent playing a part, not an actual manipulator. What the sting exposed was still real: a fully licensed, FCA-regulated broker willing to open anonymous accounts and coordinate trades for a client who told them outright, in plain language, that he wanted to manipulate stock prices. It's a reminder that regulatory authorisation is only as good as the judgment of the people using it, and that a firm's compliance function can fail not because the warning signs were hidden, but because nobody chose to act on them.`,
     sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-24546',
-  },
-);
-
-NotoriousAF.push(
-  {
-    title: 'Edwin Lickiss and the Promissory-Note Ponzi Scheme That Ran for Over 25 Years',
-    slug: 'edwin-lickiss-decades-long-ponzi-scheme',
-    author: 'ScamShield Editorial',
-    tags: ['notorious', 'notorious-scammer'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/East_Bay_Panorama.jpg?width=1200',
-    coverImageCredit: 'California’s East Bay, where Lickiss advised clients for decades. Photo: by jdnx (CC BY 2.0)',
-    coverImagePosition: 50,
-    body: `Edwin Emmett Lickiss Jr. worked for decades as a financial adviser in California's East Bay, most recently associated with a firm called Foundation Financial Group, building relationships with clients over a period long enough that some had trusted him with their money since the late 1990s. According to the Securities and Exchange Commission and federal prosecutors, that trust was the entire mechanism of his fraud: from 1998 through 2024, Lickiss sold clients promissory notes printed on Foundation Financial Group letterhead, promising fixed annual returns of between 9 and 32 percent and telling investors their money would be placed into "exclusive, safe, tax-free" bonds and other high-yield opportunities he claimed only he had access to.
-
-No such bonds existed. According to the SEC's civil complaint, filed in the U.S. District Court for the Northern District of California in July 2025, Lickiss used incoming investor money to pay the fixed returns he had promised to earlier investors — the defining structure of a Ponzi scheme — while diverting a significant share of the funds to himself. Federal prosecutors, who brought a parallel criminal case, said he spent victim money on cash withdrawals, home renovations, travel, and payments on his vehicles, mortgage, and personal credit cards. The SEC's complaint puts the scale of the offering fraud at roughly $12.7 million raised from about 80 investors; the criminal case, built around a fuller accounting of the same decades-long scheme, identified more than 93 victims and at least $9.5 million in losses between 1998 and September 2024.
-
-What made the scheme durable wasn't sophistication — it was patience. A run of a quarter-century or more is unusually long even by Ponzi-scheme standards, and it worked largely because Lickiss operated on a small, personal scale: no national advertising and no returns so outsized they would draw quick regulatory attention, just a steady stream of double-digit-yielding notes sold one relationship at a time to people who had known him, or known someone who knew him, for years.
-
-Lickiss, 78 at the time of his plea, pleaded guilty in May 2026 to one count of wire fraud and one count of money laundering, in a case investigated by the FBI and IRS Criminal Investigation. He faces a statutory maximum of 20 years in prison and a $250,000 fine on the wire fraud count, and 10 years and a further $250,000 fine on the money laundering count, with sentencing before U.S. District Judge Jon S. Tigar scheduled for August 28, 2026. The SEC's separate civil case, seeking disgorgement, a permanent injunction, and civil penalties, remains pending.
-
-Lickiss's case is a reminder that the most durable frauds aren't always the biggest ones. A quarter-century run built on a few dozen investors and a fixed-rate promissory note is a far less dramatic story than a billion-dollar collapse, but it illustrates the same vulnerability at a smaller scale: a long-standing personal relationship with an adviser is not, by itself, evidence that the investment behind it is real, and a scheme that grows slowly enough can escape the kind of scrutiny that catches faster, larger frauds for decades.`,
-    sourceUrl: 'https://www.irs.gov/compliance/criminal-investigation/former-east-bay-financial-advisor-pleads-guilty-to-operating-a-long-running-9-point-5-million-ponzi-scheme',
   },
 );
 
@@ -9135,10 +9115,11 @@ NotoriousAF.push(
     title: 'David Ames and the Harlequin Group: A £226 Million "Giant Ponzi Scheme" Sold as Caribbean Resorts',
     slug: 'david-ames-harlequin-group-caribbean-resort-fraud',
     author: 'ScamShield Editorial',
-    tags: ['notorious', 'notorious-scammer', 'international'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/PSV_Goatie\'s_Beach_Bar_at_Petit_St._Vincent_Island_Resort_-_The_Grenadines%2C_St._Vincent%2C_Caribbean..jpg?width=1200',
-    coverImageCredit: 'A Caribbean resort beach of the kind Harlequin sold to British savers off-plan. Photo: Semark77 (CC BY-SA 3.0)',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Petit_St._Vincent_Island_Resort_-_The_Grenadines,_St._Vincent,_Caribbean..jpg?width=1200',
+    coverImageCredit: 'A Grenadines resort of the kind Harlequin sold to British savers off-plan. Photo: Semark77 (CC BY-SA 3.0)',
     coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    tags: ['notorious', 'notorious-scammer', 'international'],
     body: `David Ames built the Harlequin Group into one of the UK's most aggressively marketed off-plan property investment brands, pitching thousands of British savers on the dream of owning a slice of a luxury Caribbean resort. Between 2010 and 2015, Harlequin persuaded more than 8,000 investors — many of them holding Self-Invested Personal Pensions and unfamiliar with high-risk investing — to put a combined £226 million into resort developments planned for St Vincent and the Grenadines, St Lucia, and Barbados, with the company's flagship project at Buccament Bay used as the centerpiece of its sales pitch.
 
 The properties investors paid for were, for the most part, never built. Of roughly 9,000 units marketed to buyers, only a small fraction were ever completed, and the Serious Fraud Office's investigation found that Harlequin had no genuine, sustainable funding model behind its promises at all: new investor money was needed simply to keep the enterprise afloat and pay earlier investors' returns, the textbook structure of a Ponzi scheme, while Ames personally extracted roughly £6.2 million for his family's benefit through the Harlequin Group. Around 99% of investors ultimately received no return on the money they had put in.
