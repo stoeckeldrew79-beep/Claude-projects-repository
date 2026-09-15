@@ -8348,6 +8348,10 @@ NotoriousAF.push(
     title: 'Bernhard Eugen Fritsch: The Tech CEO Who Fled to Mexico, Then Munich, Rather Than Face Sentencing',
     slug: 'bernhard-eugen-fritsch-starclub-fugitive-fraud',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Stadtbild_M%C3%BCnchen.jpg?width=1200',
+    coverImageCredit: 'Photo: Thomas Wolf, www.foto-tw.de, CC BY-SA 3.0 DE, via Wikimedia Commons',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer'],
     body: `Bernhard Eugen Fritsch spent years running StarClub Inc., a Santa Monica, California technology company he pitched to investors as building an app that would let celebrities and social media influencers monetize their brand endorsements and share advertising revenue with the people who posted them — a plausible-sounding idea during the boom years of the creator economy, and one that drew in tens of millions of dollars from investors who believed they were funding a working product.
 
@@ -8371,6 +8375,10 @@ NotoriousAF.push(
     title: 'Manjit Singh Bedi: The Tacoma Grocer Who Fled to India Rather Than Face SNAP Fraud Charges',
     slug: 'manjit-singh-bedi-snap-benefits-fraud-fugitive',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Supplemental_Nutrition_Assistance_Program_logo.svg?width=1200',
+    coverImageCredit: 'SNAP program logo, USDA, Public Domain (PD-USGov), via Wikimedia Commons',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer'],
     body: `Manjit Singh Bedi, a 65-year-old naturalized U.S. citizen born in India, owned and ran the Asian Grocery Store in Tacoma, Washington, which became authorized in February 2024 to accept Supplemental Nutrition Assistance Program (SNAP) benefits through customers' Electronic Benefit Transfer (EBT) cards. Federal prosecutors say that authorization became the engine of a fraud rather than a way to sell groceries: starting the following month and continuing through June 2025, Bedi allegedly ran a "SNAP trafficking" scheme in which he would swipe a customer's EBT card for $200, hand the customer $100 in cash, and keep the other $100 for himself — with no groceries ever changing hands. Prosecutors say the scheme funneled at least $600,000 in SNAP benefits away from the food-assistance program and into Bedi's pocket.
 
@@ -8785,6 +8793,10 @@ NotoriousAF.push(
     title: "Bruno Crastes and the H2O Asset Management Bonds Nobody Could Sell",
     slug: 'bruno-crastes-h2o-asset-management-windhorst-bonds',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/17,_place_de_la_Bourse.JPG?width=1200',
+    coverImageCredit: 'Photo: Tiraden, CC BY-SA 4.0, via Wikimedia Commons — Place de la Bourse, Paris, seat of the AMF',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer'],
     body: `Bruno Crastes co-founded H2O Asset Management in London in 2010, spinning the firm out of French bank Natixis's asset-management arm, which kept a large minority stake and marketed H2O's funds through its own distribution network. Under Crastes as chief executive and Vincent Chailley as chief investment officer, H2O built a reputation as one of Europe's standout bond and macro managers, its flagship UCITS funds — sold to ordinary retail investors across France and beyond as liquid, dealt-daily products — pulling in billions of euros on the strength of consistently strong returns.
 
@@ -8804,6 +8816,10 @@ NotoriousAF.push(
     title: 'Stewart Ford and Keydata\'s £475 Million in "Death Bonds"',
     slug: 'stewart-ford-keydata-death-bonds-fraud',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Canary_Wharf_Skyline_2,_London_UK_-_Oct_2012.jpg?width=1200',
+    coverImageCredit: 'Photo: David Iliff, CC BY-SA 3.0, via Wikimedia Commons — Canary Wharf, London\'s financial district',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer'],
     body: `Stewart Ford founded Keydata Investment Services in 2001, and within a few years built it into one of Britain's largest distributors of structured retail investment products, sold to ordinary savers through a network of independent financial advisers and marketed heavily for tax-free ISA accounts. Starting in 2005, Keydata's flagship offering was a series of bonds issued by a Luxembourg company called SLS Capital SA, pitched to advisers and their retiree clients as a relatively low-risk, income-producing investment. The underlying asset was less reassuring than the pitch: pools of second-hand U.S. life insurance policies, known as "life settlements," which paid out only when the original policyholders died — a return that depended on people dying roughly on actuarial schedule, and that shrank steadily as the fees layered on top of the structure ate into it. Keydata sold roughly £475 million of these products to somewhere in the region of 30,000 UK investors before the business collapsed.
 
@@ -8844,6 +8860,10 @@ NotoriousAF.push(
     title: 'Guy Flintham and the £19 Million Fake Trading Scheme Behind a Fleet of Sports Cars',
     slug: 'guy-flintham-unauthorised-investment-scheme-fraud',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Preston_Law_Courts_(geograph_3100494).jpg?width=1200',
+    coverImageCredit: 'Photo: Ian Taylor, CC BY-SA 2.0, via Wikimedia Commons — Preston Law Courts',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'international'],
     body: `Guy Flintham, from Blackburn, Lancashire, ran an unauthorised investment scheme built on a single false claim: that he was a skilled, successful trader who could reliably generate strong returns for the people who invested with him. Between January 2016 and November 2021, that pitch persuaded more than 240 investors to hand over roughly £19 million — money Flintham was never licensed by Britain's Financial Conduct Authority to manage in the first place.
 
@@ -8891,25 +8911,6 @@ The U.S. charges triggered an almost simultaneous collapse on the UK side. On Ma
 
 Beaufort's case is unusual among stock-fraud prosecutions because the pump-and-dump ring at its center was never real from the buyer's side — the "client" law enforcement caught the firm doing business with was an FBI agent playing a part, not an actual manipulator. What the sting exposed was still real: a fully licensed, FCA-regulated broker willing to open anonymous accounts and coordinate trades for a client who told them outright, in plain language, that he wanted to manipulate stock prices. It's a reminder that regulatory authorisation is only as good as the judgment of the people using it, and that a firm's compliance function can fail not because the warning signs were hidden, but because nobody chose to act on them.`,
     sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-24546',
-  },
-);
-
-NotoriousAF.push(
-  {
-    title: 'Edwin Lickiss and the Promissory-Note Ponzi Scheme That Ran for Over 25 Years',
-    slug: 'edwin-lickiss-decades-long-ponzi-scheme',
-    author: 'ScamShield Editorial',
-    tags: ['notorious', 'notorious-scammer'],
-    body: `Edwin Emmett Lickiss Jr. worked for decades as a financial adviser in California's East Bay, most recently associated with a firm called Foundation Financial Group, building relationships with clients over a period long enough that some had trusted him with their money since the late 1990s. According to the Securities and Exchange Commission and federal prosecutors, that trust was the entire mechanism of his fraud: from 1998 through 2024, Lickiss sold clients promissory notes printed on Foundation Financial Group letterhead, promising fixed annual returns of between 9 and 32 percent and telling investors their money would be placed into "exclusive, safe, tax-free" bonds and other high-yield opportunities he claimed only he had access to.
-
-No such bonds existed. According to the SEC's civil complaint, filed in the U.S. District Court for the Northern District of California in July 2025, Lickiss used incoming investor money to pay the fixed returns he had promised to earlier investors — the defining structure of a Ponzi scheme — while diverting a significant share of the funds to himself. Federal prosecutors, who brought a parallel criminal case, said he spent victim money on cash withdrawals, home renovations, travel, and payments on his vehicles, mortgage, and personal credit cards. The SEC's complaint puts the scale of the offering fraud at roughly $12.7 million raised from about 80 investors; the criminal case, built around a fuller accounting of the same decades-long scheme, identified more than 93 victims and at least $9.5 million in losses between 1998 and September 2024.
-
-What made the scheme durable wasn't sophistication — it was patience. A run of a quarter-century or more is unusually long even by Ponzi-scheme standards, and it worked largely because Lickiss operated on a small, personal scale: no national advertising and no returns so outsized they would draw quick regulatory attention, just a steady stream of double-digit-yielding notes sold one relationship at a time to people who had known him, or known someone who knew him, for years.
-
-Lickiss, 78 at the time of his plea, pleaded guilty in May 2026 to one count of wire fraud and one count of money laundering, in a case investigated by the FBI and IRS Criminal Investigation. He faces a statutory maximum of 20 years in prison and a $250,000 fine on the wire fraud count, and 10 years and a further $250,000 fine on the money laundering count, with sentencing before U.S. District Judge Jon S. Tigar scheduled for August 28, 2026. The SEC's separate civil case, seeking disgorgement, a permanent injunction, and civil penalties, remains pending.
-
-Lickiss's case is a reminder that the most durable frauds aren't always the biggest ones. A quarter-century run built on a few dozen investors and a fixed-rate promissory note is a far less dramatic story than a billion-dollar collapse, but it illustrates the same vulnerability at a smaller scale: a long-standing personal relationship with an adviser is not, by itself, evidence that the investment behind it is real, and a scheme that grows slowly enough can escape the kind of scrutiny that catches faster, larger frauds for decades.`,
-    sourceUrl: 'https://www.irs.gov/compliance/criminal-investigation/former-east-bay-financial-advisor-pleads-guilty-to-operating-a-long-running-9-point-5-million-ponzi-scheme',
   },
 );
 
@@ -9045,6 +9046,10 @@ NotoriousAF.push(
     title: 'David Ames and the Harlequin Group: A £226 Million "Giant Ponzi Scheme" Sold as Caribbean Resorts',
     slug: 'david-ames-harlequin-group-caribbean-resort-fraud',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Petit_St._Vincent_Island_Resort_-_The_Grenadines,_St._Vincent,_Caribbean..jpg?width=1200',
+    coverImageCredit: 'Photo: Semark77, CC BY-SA 3.0, via Wikimedia Commons — Grenadines resort region targeted by Harlequin',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'international'],
     body: `David Ames built the Harlequin Group into one of the UK's most aggressively marketed off-plan property investment brands, pitching thousands of British savers on the dream of owning a slice of a luxury Caribbean resort. Between 2010 and 2015, Harlequin persuaded more than 8,000 investors — many of them holding Self-Invested Personal Pensions and unfamiliar with high-risk investing — to put a combined £226 million into resort developments planned for St Vincent and the Grenadines, St Lucia, and Barbados, with the company's flagship project at Buccament Bay used as the centerpiece of its sales pitch.
 
@@ -9064,6 +9069,10 @@ NotoriousAF.push(
     title: 'Anthony Constantinou and the £70 Million CWM Fraud He Skipped Bail to Escape',
     slug: 'anthony-constantinou-cwm-fx-forex-ponzi-fugitive',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Heron_Tower,_110_Bishopsgate,_London.jpg?width=1200',
+    coverImageCredit: 'Photo: Beata May, CC BY-SA 3.0, via Wikimedia Commons — Heron Tower, CWM\'s former HQ',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'international'],
     body: `Anthony Constantinou ran a City of London foreign-exchange trading operation, branded largely as Capital World Markets (CWM), out of an office in Heron Tower on Bishopsgate. From late 2013 through March 2015, CWM's "Managed Account" product promised investors returns of around 5% a month — more than 60% a year — on what it described as risk-free foreign exchange trading, with a minimum investment starting at £50,000 and later rising to £100,000. Hundreds of people signed up, and prosecutors later calculated that the scheme took in approximately £70 million.
 
@@ -9080,6 +9089,10 @@ More than three years after his conviction, Constantinou remains a fugitive some
     title: 'Balsam AG: The Astroturf Maker That Hid a $1 Billion Fraud Inside Ordinary Export Financing',
     slug: 'balsam-ag-procedo-export-financing-fraud',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Skyline_der_Stadt_Bielefeld.jpg?width=1200',
+    coverImageCredit: 'Photo: Hakanneu, CC BY-SA 4.0, via Wikimedia Commons — Bielefeld skyline, near Balsam AG\'s Steinhagen HQ',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical', 'international'],
     body: `Friedel Balsam founded his company in the West German town of Steinhagen in 1965 with 7,000 deutsche marks in borrowed capital, and over the following decades built it into the world's largest manufacturer of synthetic sports flooring — its artificial turf and running-track surfaces equipped Olympic venues and World Championship stadiums, and the company employed well over a thousand people generating hundreds of millions of marks in annual revenue. To keep growing, Balsam AG acquired roughly two dozen smaller competitors, an expansion drive that quietly outran the company's real finances long before anyone outside the business noticed.
 
@@ -9235,6 +9248,10 @@ NotoriousAF.push({
     title: 'Stephen Ehrlich and the Voyager Digital Collapse That Erased "FDIC-Insured" Crypto Savings',
     slug: 'stephen-ehrlich-voyager-digital-fraud',
     author: 'ScamShield Research Team',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Bitcoin_logo_clean.svg?width=1200',
+    coverImageCredit: 'Bitcoin logo, CC0 1.0, via Wikimedia Commons',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer'],
     body: `Stephen Ehrlich co-founded Voyager Digital in 2018 after stints at E*Trade and Morgan Stanley, building it into one of the more mainstream-feeling names in crypto: an app that let ordinary people buy, sell, and earn interest on cryptocurrency, paired with a debit card that paid cashback in crypto. Central to Voyager's pitch, according to the Federal Trade Commission, was a promise meant to erase the one hesitation crypto platforms usually couldn't answer — that customer deposits were "FDIC-insured" and would be "as safe with us as at a bank."
 
@@ -9274,6 +9291,10 @@ NotoriousAF.push({
     title: 'Dieter Breitkreuz and the Phoenix Kapitaldienst Ponzi Scheme That Outlived Its Founder by Months',
     slug: 'dieter-breitkreuz-phoenix-kapitaldienst-ponzi-scheme',
     author: 'ScamShield Research Team',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Frankfurt_Stock_Exchange.jpg?width=1200',
+    coverImageCredit: 'Photo: Pythagomath, CC BY-SA 4.0, via Wikimedia Commons — Frankfurt Stock Exchange',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'international'],
     body: `Dieter Breitkreuz founded Phoenix Kapitaldienst GmbH in Frankfurt am Main in 1977, though the firm only received full authorization from Germany's federal financial regulator, BaFin, to operate as a securities-trading company on January 1, 1998. Its signature product, the "Phoenix Managed Account," pitched everyday German investors on a promise that should have drawn more skepticism than it did: pool your money with Phoenix, and the firm would trade it in options and futures markets on your behalf for a steady, almost metronomic return of around 10% a year.
 
