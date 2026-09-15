@@ -7370,3 +7370,31 @@ UsNS.push({
     isHistorical: false,
     firstRecorded: '2026-09-01',
 });
+
+UsNS.push({
+    name: '"War Room" Bronx Medicaid Ghost-Ride Racketeering Scheme',
+    slug: 'new-york-bronx-war-room-medicaid-ghost-ride-racketeering',
+    description: `A Bronx-based racketeering organization calling itself the "War Room" — Louis Trejo ("Machete"), Kenneth Garner ("KG"), Harold Stevenson ("Bazz"), and Erihk Belis ("Eddie") — fabricated non-emergency medical transportation records for Medicaid patients traveling to methadone clinics, using ride-tracking apps and GPS-spoofing technology to log rides that never happened. Members paid patients recurring cash and drug kickbacks in exchange for the right to misuse their Medicaid enrollment information, then funneled the fabricated ride data through complicit transportation companies that billed Medicaid more than $12 million in fraudulent claims between 2023 and 2025, operating under the guise of a purported charity called the "Forward Foundation" to obscure the scheme. To protect and expand the operation, members also committed violent acts against rivals, including a January 2024 armed home invasion of a competing fraud ring's leader in New Jersey. Federal prosecutors in the Southern District of New York unsealed a nine-count indictment on August 21, 2026 charging racketeering, violence in aid of racketeering, firearms offenses, wire fraud, health care fraud, Anti-Kickback Statute violations, narcotics conspiracy, and money laundering; three defendants were arrested and one remains at large. Medicaid recipients should be wary of anyone offering cash or other benefits in exchange for using their Medicaid ID or transportation benefits, since that arrangement makes them part of a fraud scheme regardless of whether they personally profit from it.`,
+    categorySlug: 'healthcare-fraud',
+    alertLevel: 'high',
+    sources: ['U.S. Attorney\'s Office, Southern District of New York'],
+    sourceUrl: 'https://www.justice.gov/usao-sdny/pr/four-members-war-room-charged-connection-12-million-medicaid-fraud-scheme',
+    country: 'US',
+    state: 'NY',
+    isHistorical: false,
+    firstRecorded: '2026-08-21',
+});
+
+UsNS.push({
+    name: 'Operation Gold Rush $1.3 Billion Durable Medical Equipment Fraud',
+    slug: 'pennsylvania-nd-medical-solutions-gugava-operation-gold-rush-dme-fraud',
+    description: `Erekle Gugava, a 33-year-old Georgian national who fled the United States in July 2025, purportedly owned ND Medical Solutions LLC, a Pennsylvania durable medical equipment company, and used it as a vehicle for what the Department of Justice calls the largest health care fraud case it has ever prosecuted. Over just five months between February and July 2025, ND Medical submitted at least $1.3 billion in fraudulent durable medical equipment claims to Medicare, Medicare supplemental insurers, and employer-sponsored health plans, using the stolen identities of real people, many in Massachusetts and elsewhere in New England, so that victims later discovered "explanations of benefits" for equipment and physicians they had never seen. Insurers actually paid out roughly $6.5 million before the scheme was caught. Gugava allegedly served as a money launderer for a transnational, Russia-based criminal organization behind the scheme, which investigators dubbed "Operation Gold Rush," opening ND Medical's bank accounts as sole signatory, depositing insurer payments, and wiring the funds overseas. A federal grand jury in the District of Massachusetts indicted Gugava on one count of money laundering conspiracy, unsealed around September 4, 2026; he faces up to 20 years in prison if convicted and remains a fugitive abroad. Anyone who receives an explanation-of-benefits statement for medical equipment or services they never received should report it to Medicare or their insurer immediately, since stolen identity information, not a data breach at the insurer, is usually how this kind of fraud reaches a real person's account.`,
+    categorySlug: 'healthcare-fraud',
+    alertLevel: 'high',
+    sources: ['U.S. Attorney\'s Office, District of Massachusetts'],
+    sourceUrl: 'https://www.justice.gov/usao-ma/pr/georgian-national-charged-conspiracy-launder-proceeds-13-billion-health-care-fraud',
+    country: 'US',
+    state: 'PA',
+    isHistorical: false,
+    firstRecorded: '2026-09-03',
+});
