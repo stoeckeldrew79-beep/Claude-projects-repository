@@ -1,5 +1,10 @@
 import { useInfiniteQuery, useQuery } from '@tanstack/react-query';
-import { DAILY_NEWS_PAGE_SIZE, fetchDailyScamNews, fetchDailyNewsStates } from '../services/dailyNews';
+import {
+  DAILY_NEWS_PAGE_SIZE,
+  fetchDailyScamNews,
+  fetchDailyNewsStates,
+  fetchDailyScamNewsCount,
+} from '../services/dailyNews';
 
 // The underlying data only changes once a day (see the scanDailyScamNews
 // job), but refetching periodically means a tab left open shows a new
@@ -21,6 +26,17 @@ export function useDailyNewsStates() {
   return useQuery({
     queryKey: ['daily-scam-news-states'],
     queryFn: fetchDailyNewsStates,
+    refetchInterval: REFETCH_INTERVAL_MS,
+  });
+}
+
+// Backs the placeholder-reservation trick on the Today's Scams page: knowing
+// the total up front lets it lay out the full page height on first paint
+// instead of growing as each batch arrives.
+export function useDailyScamNewsCount(state?: string) {
+  return useQuery({
+    queryKey: ['daily-scam-news-count', state ?? 'all'],
+    queryFn: () => fetchDailyScamNewsCount(state),
     refetchInterval: REFETCH_INTERVAL_MS,
   });
 }
