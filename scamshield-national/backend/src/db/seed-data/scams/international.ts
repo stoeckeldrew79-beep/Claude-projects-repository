@@ -19179,3 +19179,42 @@ International.push(
     firstRecorded: '2026-02-19',
   },
 );
+
+International.push(
+  {
+    name: 'KRA Fake Job Appointment Letter Scam',
+    slug: 'kenya-kra-fake-job-appointment-letter-scam',
+    description:
+      "In February 2026, the Kenya Revenue Authority (KRA) publicly warned jobseekers about a forged appointment letter circulating via WhatsApp and email that uses KRA's official letterhead, logo, and internal-sounding language to falsely offer a position in the authority's Marketing Department. The tell is that applicants are told to respond to a generic @outlook.com address rather than any @kra.go.ke domain, a red flag KRA highlighted directly, and the scam is timed to exploit the annual rush of anxious jobseekers and taxpayers around KRA's June tax-filing deadline. KRA reiterated that it never charges fees at any stage of recruitment and that all genuine vacancies are posted solely on its official careers portal, urging the public to verify any purported KRA job offer through official channels before paying any fee or submitting personal or ID documents.",
+    categorySlug: 'employment-scams',
+    alertLevel: 'medium',
+    sources: ['Kenya Revenue Authority (KRA)', 'Kenyans.co.ke'],
+    sourceUrl: 'https://www.kenyans.co.ke/news/123168-kra-warns-kenyans-over-fake-job-appointment-letter-scam',
+    country: 'KE',
+    firstRecorded: '2026-02-01',
+  },
+  {
+    name: 'Fake Social Health Authority (SHA) Agents Impersonation Scam',
+    slug: 'kenya-sha-fake-agents-impersonation-scam',
+    description:
+      "Fraudsters impersonating officials of Kenya's Social Health Authority (SHA), the body that replaced NHIF as the national health-insurance scheme, approach patients, healthcare providers, and beneficiaries in person, wearing SHA-branded shirts and carrying forged SHA identification cards, name tags, and membership cards, and falsely offer to speed up registration, fix account errors, or expedite claims processing and payouts in exchange for cash \"facilitation fees,\" gifts, or commissions. SHA has publicly and repeatedly warned, first flagged around November 2025 and reiterated in a fresh public warning on July 3, 2026, that its genuine employees never solicit money for services and never ask for a member's personal details or M-Pesa PIN, and it has set up a dedicated fraud-reporting email and toll-free line. The scam preys specifically on public confusion during Kenya's rollout of the new SHA scheme, where many Kenyans are still unsure how registration and claims are supposed to work. Anyone approached by someone claiming to be an SHA agent asking for payment or personal details should verify through SHA's official channels, county offices, or a Huduma Centre before handing over anything.",
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Social Health Authority (SHA)', 'Kenyans.co.ke', 'The Star (Kenya)'],
+    sourceUrl: 'https://www.kenyans.co.ke/news/124912-sha-warns-kenyans-over-fraudsters-impersonating-officials-offer-fake-services',
+    country: 'KE',
+    firstRecorded: '2025-11-07',
+  },
+  {
+    name: 'CMA Public Warning: 15 Unlicensed Investment Platforms',
+    slug: 'kenya-cma-unlicensed-investment-platforms-warning-2026',
+    description:
+      'On September 12, 2026, Kenya\'s Capital Markets Authority (CMA) issued a public caution naming 15 specific entities unlawfully soliciting funds from Kenyans without any CMA license or approval, several of them falsely presenting themselves as licensed Money Market Funds or legitimate crypto and forex trading platforms. The named entities included QVSE (Quant Vest Stock Exchange), which attracted thousands of Kenyans by promising returns from US stock trading through a scheme fronted by someone claiming to be "Carl Grindan" before requesting additional deposits to "activate" frozen accounts, Global Investment Group (GIG), Kore Exchange, Abacus Wealth Management, Brown Advisory Group, B Invest, Bitblock Capital Limited, Maliwave Investments, Monetrix Capital Investments, "Twenty-Four Hours Pro Expert Trader," Wealth Sharing Group (Opticoin), CBEX, Just Markets, Ultima Cryptocurrency, and Lukman-Trust Fund. The CMA said the platforms are subject to active joint investigation with the Directorate of Criminal Investigations and urged the public and any affected investors to stop depositing funds immediately and report to their nearest DCI office. Anyone offered guaranteed returns from an unfamiliar trading platform, especially one later demanding an extra deposit to "unlock" or "activate" a frozen account, should check the CMA\'s public list of licensed entities before sending any money.',
+    categorySlug: 'investment-fraud',
+    alertLevel: 'critical',
+    sources: ['Capital Markets Authority of Kenya (CMA)', 'Business Daily Africa'],
+    sourceUrl: 'https://www.businessdailyafrica.com/bd/markets/capital-markets/cma-warns-against-investments-in-15-illegal-funds-5593276',
+    country: 'KE',
+    firstRecorded: '2026-09-12',
+  },
+);
