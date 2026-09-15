@@ -4624,6 +4624,9 @@ GuidesNS.push({
   slug: "nuvei-ftc-payment-processor-fraud-facilitation-settlement-guide",
   author: "ScamShield Research Team",
   tags: ["guide", "payment-processor-fraud-facilitation", "tech-support-scam"],
+  coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Nuvei_Organization_logo.png?width=1200",
+  coverImageCredit: "Logo: Nuvei Corporation, public domain (text/geometric mark; trademark applies), via Wikimedia Commons",
+  coverImagePosition: 50,
   sourceUrl: "https://www.ftc.gov/news-events/news/press-releases/2026/09/payment-processor-nuvei-must-implement-robust-merchant-screening-practices-pay-485-million-settle",
   body: `Most scam guides focus on the merchant that ran the con or the victim who lost money. The Federal Trade Commission's September 4, 2026 settlement with Nuvei Corporation — a Canadian payment processor with more than 150,000 merchant accounts — targets a different, less visible link in the same chain: the company whose job was to move the money from a victim's card into a scammer's bank account, and that kept doing so long after it had every reason to know something was wrong.
 
@@ -4641,6 +4644,9 @@ GuidesNS.push({
   slug: "service-line-warranty-utility-lookalike-mailer-scam-guide",
   author: "ScamShield Research Team",
   tags: ["guide", "service-line-warranty-scam", "utility-impersonation"],
+  coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/HomeServe%27s_Walsall_headquarters.jpg?width=1200",
+  coverImageCredit: "Photo: HomeServe Membership, CC0, via Wikimedia Commons — aerial view of HomeServe's Walsall, UK headquarters",
+  coverImagePosition: 50,
   sourceUrl: "https://ag.ny.gov/press-release/2015/ag-schneiderman-announces-settlement-company-deceptively-solicited-consumers",
   body: `A letter arrives that looks, at a glance, like it came from the local water, gas, or electric utility — the utility's own logo sits at the top, the layout resembles an official notice, and the message warns that the buried pipe or line running from the street to the house isn't covered by any insurance and could rupture at any time, leaving the homeowner on the hook for a repair bill that can run into the thousands. The letter offers a fix: enroll in a "service line warranty" for a modest annual fee, and any future break in that line gets repaired at no extra cost. What the letter often doesn't make clear is that the utility itself isn't the one sending it, isn't the one who will show up to do the repair, and in many cases had nothing to do with the offer beyond licensing its name and logo to the company that did.
 
@@ -4656,6 +4662,9 @@ GuidesNS.push({
   slug: "predatory-academic-journal-omics-group-scam-guide",
   author: "ScamShield Research Team",
   tags: ["guide", "predatory-academic-publishing", "omics-group-ftc-settlement", "academic-fraud"],
+  coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Srinubabu_Gedela_Profile_Pulsus_CEO_Europe.jpg?width=1200",
+  coverImageCredit: "Photo: Anitha Gedel, CC BY-SA 2.0, via Wikimedia Commons — OMICS Group founder Srinubabu Gedela",
+  coverImagePosition: 35,
   sourceUrl: "https://www.ftc.gov/news-events/news/press-releases/2019/04/court-rules-ftcs-favor-against-predatory-academic-publisher-omics-group-imposes-501-million-judgment",
   body: `A flattering email lands in a researcher's inbox: a journal editor has read their recent work and would be honored to have them submit a paper, or a conference organizer wants them as a featured speaker on a panel with other respected names in the field. For a graduate student, a postdoc chasing a tenure-track job, or a junior faculty member anywhere in the world under "publish or perish" pressure, an invitation like that can feel like exactly the validation their career needs. The Federal Trade Commission's case against OMICS Group is the clearest example on record of how that same pressure has been turned into a business model — one that, by the time a federal court finished adding it up, had taken more than $50 million from the researchers it was supposed to be serving.
 
