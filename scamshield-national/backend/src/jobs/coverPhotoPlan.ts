@@ -192,4 +192,6 @@ export const PHOTO_PLAN: PhotoPlanEntry[] = [
   { slug: 'stuart-pearson-langbar-international-fraud', query: 'London Stock Exchange building', caption: 'Langbar was listed in London; the Brazilian deposit backing its value never existed', position: 45 },
   { slug: 'yin-guangxia-china-accounting-fraud', query: 'Ningxia China landscape', caption: 'Ningxia, where Yinguangxia claimed the export operation its books were built on', position: 50 },
   { slug: 'fake-bureau-of-prisons-release-scam-guide', query: 'federal correctional institution building United States', caption: 'A federal prison. The Bureau of Prisons never charges families for release or home confinement', position: 50 },
+  { slug: 'carl-cushnie-versailles-group-fraud', query: 'Old Bailey Central Criminal Court London', caption: 'The Old Bailey, where Cushnie was convicted; most of Versailles\u2019 trade finance turnover was fictitious', position: 45 },
+  { slug: 'marcel-de-vries-vestia-derivatives-fraud', query: 'Vestia Rotterdam', caption: 'A Rotterdam housing block. Vestia was the Netherlands\u2019 largest social housing association when the derivatives losses hit', position: 50 },
 ];

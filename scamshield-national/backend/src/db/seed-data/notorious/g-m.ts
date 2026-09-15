@@ -10143,6 +10143,9 @@ NotoriousGM.push({
     slug: 'marcel-de-vries-vestia-derivatives-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'international'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/De_Punt_Insulindeplein_Rotterdam_(4915683071).jpg?width=1200',
+    coverImageCredit: 'A Rotterdam housing block. Vestia was the Netherlands’ largest social housing association when the derivatives losses hit. Photo: FaceMePLS from The Hague, The Netherlands (CC BY 2.0)',
+    coverImagePosition: 50,
     body: `Marcel de Vries was treasurer of Vestia, which by the early 2010s was the Netherlands' largest social housing corporation, managing roughly 78,000 homes plus another 8,000 shops and offices across the country. As treasurer, de Vries was responsible for managing Vestia's enormous mortgage-scale debt and, at least nominally, for hedging that debt against rising interest rates using derivatives, a legitimate and ordinary tool for an organization financing tens of billions of euros in below-market housing.
 
 Rather than hedge conservatively, de Vries, working with an outside derivatives broker, Arjan Greeven, built Vestia's derivatives book into a sprawling portfolio of interest-rate swaps that eventually totaled roughly €23 billion, far beyond what Vestia's actual mortgage debt required and, regulators later concluded, largely speculative and inconsistent with the housing corporation's own charter. Dutch prosecutors alleged that Greeven and intermediaries arranging these trades paid de Vries kickbacks disguised as fees, almost €10 million over roughly eight years, giving Vestia's own treasurer a direct financial incentive to keep signing the nonprofit housing corporation up for ever-larger, ever more complex swap positions that served his own interests rather than the organization's.
