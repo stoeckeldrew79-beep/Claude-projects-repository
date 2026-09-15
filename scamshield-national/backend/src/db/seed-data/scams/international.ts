@@ -19257,3 +19257,42 @@ International.push(
     firstRecorded: '2026-05-18',
   },
 );
+
+International.push(
+  {
+    name: 'Guardia Civil Spoofed Caller-ID Vishing to Remote-Access Bank Takeover',
+    slug: 'spain-guardia-civil-vishing-spoofed-caller-id-remote-access-scam',
+    description:
+      "In August 2026, Spain's Guardia Civil publicly warned of a vishing scheme in which fraudsters spoof caller ID so their calls display the real phone number of the Guardia Civil's Madrid Comandancia, making the call look genuinely official. The caller poses as an agent, tells the victim in an urgent, authoritative tone that they face an unpaid debt or pending legal matter, and threatens arrest or immediate bank-account seizure unless they act at once. To \"help,\" the caller moves the conversation to WhatsApp and talks the victim into installing a remote-access or technical-support app, handing the criminal live control of the phone and, through it, access to banking apps to move money out directly. Guardia Civil's guidance is to hang up on any call that pressures for money or login details, never install a remote-access tool at a caller's request, and verify any claimed debt independently through an official police station rather than a number the caller supplies, since caller ID showing a genuine police number is no proof of who is actually calling.",
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Guardia Civil', 'Telecinco'],
+    sourceUrl: 'https://www.telecinco.es/noticias/sociedad/20260821/alerta-ciudadana-guardia-civil-estafa-oleada-fraudes-telematicos_18_019996773.html',
+    country: 'ES',
+    firstRecorded: '2026-08-21',
+  },
+  {
+    name: 'Fake Football-Streaming App Malware Scam',
+    slug: 'spain-fake-football-streaming-app-malware-scam',
+    description:
+      "Guardia Civil units, including its Cantabria post, warned in early September 2026 of fraud tied to fake football-streaming apps that spread as Spain's 2026-27 season began. Scammers post links on social media and messaging apps, disguised as ads, sponsored posts, or forwarded chat messages, promising free access to live matches and urging quick action so viewers don't miss kickoff. Clicking leads to a sideloaded app that installs spyware able to log keystrokes, capture the screen, and bypass other apps' security, which criminals use to harvest banking-app credentials and drain accounts. In Cantabria alone, Guardia Civil identified seven cases within days totaling roughly €25,000 in losses, and warned the pattern was spreading nationally. Anyone offered a free way to stream a normally paid match should install apps only from official app stores, check what permissions an app requests before installing, and enable two-factor authentication on banking apps so a compromised phone alone isn't enough to drain an account.",
+    categorySlug: 'account-takeover',
+    alertLevel: 'high',
+    sources: ['Guardia Civil', 'Infobae', 'que.es'],
+    sourceUrl: 'https://www.que.es/2026/09/04/estafa-futbol-gratis-guardia-civil/',
+    country: 'ES',
+    firstRecorded: '2026-09-03',
+  },
+  {
+    name: 'INCIBE Seguridad Social Smishing for Fake Energy-Aid Benefit',
+    slug: 'spain-incibe-seguridad-social-smishing-scam',
+    description:
+      'INCIBE, Spain\'s National Cybersecurity Institute, issued a high-severity alert on August 19, 2026 warning of a smishing campaign impersonating the Tesorería General de la Seguridad Social (TGSS), Spain\'s Social Security treasury. The text reads "Seg Social: Tiene una actualización pendiente. Consulte su información y gestione el trámite correspondiente" ("You have a pending update. Check your information and manage the corresponding procedure") and links to a cloned fake TGSS site. Victims who click are first asked for their national ID number and address, then told they qualify for a supposed "energy adaptation assistance" payment, and to "collect" it, the site demands full card details including number, expiry date, and CVV. INCIBE stresses that Social Security never sends links by SMS to update data or pay benefits, and that the only safe channels are the official IMPORTASS app or the Sede Electrónica; anyone who entered card data should contact their bank immediately, file a police report, and can call INCIBE\'s free helpline for guidance.',
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'high',
+    sources: ['INCIBE (Instituto Nacional de Ciberseguridad)'],
+    sourceUrl: 'https://www.incibe.es/ciudadania/avisos/campana-de-smishing-suplantando-la-seguridad-social',
+    country: 'ES',
+    firstRecorded: '2026-08-19',
+  },
+);
