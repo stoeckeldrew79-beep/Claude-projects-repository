@@ -194,4 +194,5 @@ export const PHOTO_PLAN: PhotoPlanEntry[] = [
   { slug: 'fake-bureau-of-prisons-release-scam-guide', query: 'federal correctional institution building United States', caption: 'A federal prison. The Bureau of Prisons never charges families for release or home confinement', position: 50 },
   { slug: 'carl-cushnie-versailles-group-fraud', query: 'Old Bailey Central Criminal Court London', caption: 'The Old Bailey, where Cushnie was convicted; most of Versailles\u2019 trade finance turnover was fictitious', position: 45 },
   { slug: 'marcel-de-vries-vestia-derivatives-fraud', query: 'Vestia Rotterdam', caption: 'A Rotterdam housing block. Vestia was the Netherlands\u2019 largest social housing association when the derivatives losses hit', position: 50 },
+  { slug: 'hacked-email-account-recovery', query: 'two factor authentication security key', caption: 'A security key. Two-factor authentication is what stops a recovered account being taken straight back', position: 50 },
 ];

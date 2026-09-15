@@ -4659,6 +4659,9 @@ GuidesGM.push({
   author: 'ScamShield Editorial',
   tags: ['guide', 'email-account-takeover', 'account-recovery'],
   sourceUrl: 'https://consumer.ftc.gov/articles/how-recover-your-hacked-email-or-social-media-account',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Two-factor_authentication_on_Wikimedia_-_enabling_a_security_key.png?width=1200',
+    coverImageCredit: 'A security key. Two-factor authentication is what stops a recovered account being taken straight back. Photo: Wikimedia Foundation (CC BY-SA 4.0)',
+    coverImagePosition: 50,
   body: `Email is the master key to almost everything else in a person's digital life, which is exactly why it's such a high-value target. Once a scammer gains access to an inbox, usually through a reused password exposed in an unrelated data breach, a phishing link, or a fake "security alert" that harvests login credentials, they don't need to break into a bank account, a shopping account, or a social media profile directly. They just click "forgot password" on each one and let the reset link land in the inbox they already control, often quietly setting up a forwarding rule first so copies of those reset emails keep arriving even after the real owner changes their password.
 
 The reason this works so well is that most people notice a hacked bank account or a stolen credit card almost immediately, because the loss is concrete and the bank flags it. A hacked email account is different: a patient attacker can sit inside an inbox for days or weeks, reading old messages for account numbers and security-question answers, before ever tipping off the real owner, by which point they may have already reset passwords on financial accounts, contacted the victim's real contacts pretending to be them, or used old attachments (tax returns, medical records, scanned IDs) for identity theft. The compromise of the "key" account is often more damaging than any single account it unlocks.
