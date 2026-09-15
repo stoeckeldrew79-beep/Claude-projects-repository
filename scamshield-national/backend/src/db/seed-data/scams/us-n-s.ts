@@ -7534,3 +7534,15 @@ UsNS.push({
     firstRecorded: "2025-12-01",
     state: "OK",
 });
+
+UsNS.push({
+    name: "School Fundraiser Ad-Space Solicitation Scam",
+    slug: "school-fundraiser-ad-space-scam",
+    description:
+      "Scammers cold-call local businesses claiming to sell advertising space, typically on t-shirts, posters, calendars, or coupon cards, that will supposedly benefit a nearby school. Businesses that agree are invoiced and pay upfront, but according to the Better Business Bureau's Emily Valla, \"the business will pay up, but the items are never produced,\" and the named school frequently never agreed to or benefited from the arrangement in the first place. Some operations, including one flagged by the BBB under the name Sports Media, invoice and charge the same business annually for advertising that was never created or distributed, often without renewed permission. The BBB recommends verifying any such fundraising offer directly with the school district using independently-sourced contact information rather than a number the caller provides, paying by credit card when possible for dispute protection, and researching the soliciting organization at bbb.org before agreeing to anything.",
+    categorySlug: "charity-scams",
+    alertLevel: "medium",
+    sources: ["Better Business Bureau (BBB)"],
+    sourceUrl: "https://www.kivitv.com/news/bbb-beware-of-scam-artists-acting-as-school-fundraisers",
+    country: "US",
+});
