@@ -19335,3 +19335,40 @@ International.push(
     firstRecorded: '2026-09-04',
   },
 );
+
+International.push(
+  {
+    name: 'Fake Celebrity-Endorsed Crypto Trading Platforms',
+    slug: 'hungary-celebrity-crypto-investment-fraud',
+    description:
+      'Fraudulent ads circulating on Facebook and Google mimic the layout of well-known Hungarian news sites, such as Blikk and Index, and falsely show Prime Minister Viktor Orbán, Budapest Mayor Gergely Karácsony, model Barbara Palvin, OTP Bank chairman Sándor Csányi, or businessman Lőrinc Mészáros endorsing an automated crypto-trading algorithm that supposedly made them rich. Clicking through leads to a registration page operating under one of several interchangeable brand names — Bitcoin Revolution, Bitcoin Era, Bitcoin Loophole, and Bitcoin Code among them — and Magyar Nemzeti Bank\'s (MNB) own searchable warnings register lists several of these by name and URL, stating each is "not registered in MNB records" and "unauthorized to conduct supervised activities in Hungary." Once a victim submits their details, a high-pressure "advisor" calls within hours to walk them through an initial deposit (commonly around €250), then repeatedly requests larger transfers framed as fees, taxes, or requirements to "unlock" withdrawals, before cutting off contact entirely. Hungarian investigative outlet Direkt36 documented one such victim, a teacher who signed up through a Karácsony-branded ad, paid the initial €250, then sent roughly 12 million forints in follow-on transfers over two months and borrowed a further 8 million forints from family — a total loss of nearly 20 million forints, roughly $55,000 — before the scammers disappeared. Hungary\'s National Bureau of Investigation (NNI) has consolidated multiple related complaints into a joint investigation and describes the operators as typically based outside the EU. MNB advises the public to check its official register of licensed entities before depositing money with any investment platform advertised through social media, noting that no licensed firm guarantees outsized returns from automated trading.',
+    categorySlug: 'cryptocurrency-scams',
+    alertLevel: 'high',
+    sources: ['Magyar Nemzeti Bank (MNB)', 'Direkt36', 'Daily News Hungary'],
+    sourceUrl: 'https://www.mnb.hu/figyelmeztetesek?query=bitcoin',
+    country: 'HU',
+  },
+  {
+    name: 'Fraudulent Bank-Impersonating Google Search Ads (MBH Bank Phishing)',
+    slug: 'hungary-mbh-bank-google-ads-phishing',
+    description:
+      'The Hungarian Competition Authority (GVH) opened a formal competition-supervision proceeding in fall 2025 against Google Ireland Limited after finding that phishing websites impersonating MBH Bank Nyrt. — one of Hungary\'s largest banks — were appearing as paid advertisements at the very top of Google\'s search results, meaning a customer searching for "MBH Bank" could be shown a fraudulent link above the bank\'s genuine site. According to GVH\'s press release, these sites were built specifically to harvest online-banking login credentials from visitors who trusted the top-ranked sponsored result. GVH ultimately closed the case in June 2026, concluding there was insufficient evidence that Google itself had failed its "professional diligence" obligations under Hungarian law, but it confirmed that Google had suspended the advertiser accounts responsible once the phishing campaigns were identified, verifying the fraud had genuinely run on the platform. GVH\'s release urges online banking customers to never reach their bank via a search-ad link, to type the bank\'s address manually or use a saved bookmark, to check for the padlock/https indicator, and to watch for subtly misspelled domains, warning that paid ranking position, not domain reputation, is what most users trust first. GVH said it continues to monitor abuse of Google Ads to impersonate other Hungarian financial institutions and pointed consumers to MNB materials for further guidance.',
+    categorySlug: 'phishing',
+    alertLevel: 'high',
+    sources: ['Hungarian Competition Authority (GVH)'],
+    sourceUrl: 'https://www.gvh.hu/en/press_room/press_releases/press-releases-2026/the-gvh-is-urging-consumers-to-be-cautious-when-banking-online',
+    country: 'HU',
+  },
+  {
+    name: 'Fake Police Emails Demanding Money or Personal Data',
+    slug: 'hungary-fake-police-email-scam',
+    description:
+      'In February 2026, the Borsod-Abaúj-Zemplén County Police Headquarters issued a public warning via Hungary\'s official police website, police.hu, after a wave of fraudulent emails circulated claiming to come from the "Magyar Országos Rendőrség" — a name that does not actually exist, since Hungary\'s national police force is officially the "Magyar Rendőrség." Police described the messages as clumsily worded and apparently produced through machine translation, mimicking the format of an official police request while pressuring recipients to confirm their identity, hand over personal details, or send money under invented pretexts such as alleged involvement in a criminal or administrative matter. Hungarian reporting on the alert noted that some versions of the emails lift the real names of serving police officials from the force\'s own website but attach incorrect ranks or titles to lend the message false authority. Police stated plainly that the force never requests confirmations, personal data, or payment by email, and that genuine police correspondence arrives only via the government Client Gate (Ügyfélkapu), registered post, or officially listed contact channels — never a generic address like Gmail. Officers advised recipients to avoid clicking any links or opening attachments, to look up contact details independently on the official police.hu site rather than trust anything in the email, and to report the message instead of replying. Police noted this is a recurring, previously re-warned-against campaign rather than an isolated incident.',
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Hungarian Police (police.hu) — Borsod-Abaúj-Zemplén County Police Headquarters', 'Daily News Hungary'],
+    sourceUrl: 'https://dailynewshungary.com/scammers-hijack-hungarian-police-name-fraud/',
+    country: 'HU',
+    firstRecorded: '2026-02-25',
+  },
+);
