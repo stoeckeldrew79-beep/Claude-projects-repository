@@ -19435,4 +19435,37 @@ International.push(
     sourceUrl: 'https://tvrmoldova.md/article/955b27564ffd6871/alerta-de-frauda-platforme-false-de-investitii-folosesc-imaginea-unor-oficiali-si-a-presei.html',
     country: 'MD',
   },
+  {
+    name: 'ZIMRA Tax Official Impersonation Bribery Scam',
+    slug: 'zimra-tax-official-impersonation-zimbabwe',
+    description:
+      'A fraud syndicate led by a man using the name "Naison Kuzamba," alias "Kedha," contacts Zimbabwean taxpayers by phone and SMS falsely claiming to be conducting an official Zimbabwe Revenue Authority (ZIMRA) tax audit, then demands a bribe to alter or cancel the audit findings. The callers rotate through a rotating cast of fake names and Zimbabwean mobile numbers to sound like different officials across multiple contacts, pressuring victims with the threat of a costly audit outcome unless they pay. ZIMRA issued a May 2025 public notice stating it does not conduct official business through personal platforms such as SMS, WhatsApp, Twitter, or Facebook, and that legitimate ZIMRA officials always carry valid staff identity cards and never request payment into personal bank accounts. Taxpayers contacted this way are urged to demand official identification, verify any claimed audit directly with ZIMRA through its official channels, and report the contact to ZIMRA Loss Control or the Zimbabwe Republic Police rather than paying.',
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Zimbabwe Revenue Authority (ZIMRA)', 'Pindula News'],
+    sourceUrl: 'https://news.pindula.co.zw/2025/05/26/zimra-warns-public-about-fraudsters-impersonating-tax-officials/',
+    country: 'ZW',
+  },
+  {
+    name: 'E-Creator Crypto "Investment" Ponzi Scheme',
+    slug: 'e-creator-ponzi-crypto-scheme-zimbabwe',
+    description:
+      'E-Creator Electronic Commerce (Private) Limited launched in Zimbabwe in 2023 promising investors high returns on funds the company claimed were converted into cryptocurrency, collecting deposits through numerous EcoCash mobile-money lines registered in the company\'s name. Prosecutors say the operators drew in victims partly through endorsements and appearances by well-known Zimbabwean social-media personalities, lending the scheme a veneer of credibility it did not deserve. Two men, Jao Zhao Jiatong and William Chui, face fraud charges at the Harare Magistrates\' Court, accused of masterminding a pyramid scheme that defrauded investors of more than US$364,000, with roughly US$250,000 of that sum allegedly funneled through a separate agency. Both defendants have pleaded not guilty, and the trial remains ongoing.',
+    categorySlug: 'investment-fraud',
+    alertLevel: 'high',
+    sources: ['Zimbabwe Now'],
+    sourceUrl: 'https://zimbabwenow.co.zw/articles/15539/e-creator-ponzi-scheme-trial-begins',
+    country: 'ZW',
+  },
+  {
+    name: '"Blesser" Romance-to-Sextortion Scam',
+    slug: 'blesser-romance-sextortion-scam-zimbabwe',
+    description:
+      'Scammers pose on social media as wealthy "blessers" — a term for older, affluent benefactors who offer financial support to younger partners — using aliases and multiple phone numbers to build romantic trust with Zimbabwean women over weeks of messaging, promising financial support and a better future. Techzim\'s January 2025 investigation documented one operator using the aliases "Gaba Sebele" and "Chris Cam" across several South African-registered phone numbers, following a three-stage pattern: building trust through promises of financial support, deepening intimacy through personal conversation, then requesting explicit photos or videos once a bond is established. That material is then used to extort money from the victim under threat of exposure, leaving many facing both financial loss and lasting psychological harm. Consumers are urged to be cautious of unsolicited romantic contact from strangers promising financial support, to avoid sharing intimate images with anyone met online, and to report suspicious accounts to platform administrators and police rather than pay an extortion demand.',
+    categorySlug: 'romance-scams',
+    alertLevel: 'medium',
+    sources: ['Techzim'],
+    sourceUrl: 'https://www.techzim.co.zw/2025/01/digital-deception-the-rise-of-social-media-romance-scams-in-zimbabwe/',
+    country: 'ZW',
+  },
 );

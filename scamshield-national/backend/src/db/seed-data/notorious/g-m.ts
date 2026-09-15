@@ -9125,6 +9125,10 @@ NotoriousGM.push(
     title: 'Lex Greensill and the $10 Billion Supply-Chain Empire That Collapsed Over One Lapsed Insurance Policy',
     slug: 'lex-greensill-supply-chain-finance-collapse',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Canary_Wharf_Skyline.jpg?width=1200',
+    coverImageCredit: 'Photo: Mewiki, Public Domain, via Wikimedia Commons — Canary Wharf, London\'s financial district',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious'],
     body: `Lex Greensill, an Australian farmer's son who had worked structuring trade finance at Morgan Stanley and Citigroup, founded Greensill Capital in London in 2011 to sell an old idea with a new name: supply-chain finance, sometimes called reverse factoring. A bank or lender pays a company's suppliers early, at a small discount, and collects the full invoice amount from the buyer later — smoothing out the buyer's own payment terms while giving the supplier cash sooner. Greensill built a business around packaging these short-term receivables into notes that funds could buy, marketed as being nearly as safe and liquid as cash, since they were backed by real invoices for goods and services already delivered.
 
@@ -9500,6 +9504,10 @@ NotoriousGM.push(
     title: "Mark Bryers: New Zealand's Blue Chip Collapse, a New Name in Australia, and a Fraud Case Still Unresolved",
     slug: 'mark-bryers-blue-chip-collapse-australia-tax-fraud',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Auckland_High_Court.jpg?width=1200',
+    coverImageCredit: 'Photo: Krzysztof Golik, CC BY-SA 4.0, via Wikimedia Commons — Auckland High Court',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'international'],
     body: `Mark Bryers co-founded and ran the Blue Chip group of companies, a New Zealand property investment business that, at its peak, made Bryers' estimated personal wealth roughly $70 million on the NBR Rich List. Blue Chip collapsed in 2008 owing more than 2,000 investors a combined $84 million — many of them ordinary people who had signed contracts or remortgaged their own homes on the strength of the company's promises. In 2009, Bryers was declared personally bankrupt in New Zealand with individual debts of $230 million.
 
@@ -9683,6 +9691,10 @@ NotoriousGM.push({
     title: 'Steve Madden and the Stratton Oakmont Stock Fraud Behind the Shoes',
     slug: 'steve-madden-stratton-oakmont-securities-fraud',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Steve_Madden_NYC_Times_Square.jpg?width=1200',
+    coverImageCredit: 'Photo: Nielsoncaetanosalmeron, CC BY 4.0, via Wikimedia Commons',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer'],
     body: `Steve Madden built one of the most recognizable names in American footwear, taking Steven Madden, Ltd. public in 1993 and growing it into a company whose shoes fill mall storefronts across the country. What the brand's early success obscured for years was that Madden's rise ran directly through Stratton Oakmont, the Long Island brokerage made famous — and infamous — by Jordan Belfort, and that Madden had been a paid participant in its stock manipulation schemes since 1991, two years before his own company ever sold a share to the public.
 
@@ -9886,6 +9898,10 @@ NotoriousGM.push({
     title: 'Brian Hunter and the $6.6 Billion Natural-Gas Bet That Sank Amaranth Advisors',
     slug: 'brian-hunter-amaranth-advisors-natural-gas-collapse',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/NY_Mercantile_Exchange_building.JPG?width=1200',
+    coverImageCredit: 'Photo: Auricht Pascal, Public Domain, via Wikimedia Commons — NYMEX building',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'international'],
     body: `Amaranth Advisors LLC was a multi-strategy hedge fund founded in 2000 by Nicholas Maounis and based in Greenwich, Connecticut, that grew into one of the largest funds of its kind by spreading bets across convertible bonds, merger arbitrage, and energy markets. Its energy desk was run out of Calgary, Alberta, by a Canadian trader named Brian Hunter, who had made the fund roughly $1 billion in profit during 2005 betting on how far natural gas prices would swing around Hurricane Katrina. Maounis gave Hunter wide latitude to keep running that playbook, and by 2006 Amaranth's assets under management had climbed to about $9.2 billion.
 
@@ -9903,6 +9919,10 @@ NotoriousGM.push({
     title: 'Patrick Halligan: The Archegos CFO Whose Lies to Banks Helped Hide a $10 Billion Bomb',
     slug: 'patrick-halligan-archegos-cfo-fraud',
     author: 'ScamShield Research Team',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/888_Seventh_Avenue.jpg?width=1200',
+    coverImageCredit: 'Photo: Kidfly182, CC BY-SA 4.0, via Wikimedia Commons — 888 Seventh Avenue, Archegos\'s former HQ',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer'],
     body: `When Archegos Capital Management collapsed in March 2021, most of the public attention landed on its founder, Sung Kook "Bill" Hwang, a former Tiger Asia manager who had rebuilt a fortune inside a family office exempt from the disclosure rules that govern hedge funds managing outside money. Less attention went to the man prosecutors said made the fraud actually work: Patrick Halligan, Archegos's chief financial officer, whose job put him on the phone with the banks Hwang was quietly bleeding for leverage.
 
@@ -9979,6 +9999,10 @@ NotoriousGM.push({
     title: 'Salvatore Ligresti and the Hidden €600 Million Hole at the Heart of Fondiaria-SAI',
     slug: 'salvatore-ligresti-fondiaria-sai-fraud',
     author: 'ScamShield Research Team',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/La_Fondiaria_Assicurazioni_Florence.jpg?width=1200',
+    coverImageCredit: 'Photo: Illustratedjc, CC BY-SA 4.0, via Wikimedia Commons — La Fondiaria Assicurazioni, Florence',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'international'],
     body: `Salvatore Ligresti was born in 1932 in the Sicilian town of Paternò and trained as an engineer, but he made his fortune in Milan real estate, becoming one of the most powerful builders in the city during its postwar boom. He then did something more unusual than simply getting rich: he learned to control a large public company with only a small slice of its actual equity, stacking one holding company on top of another — his family firm Premafin at the top, controlling the insurer Fondiaria-SAI, formed in 2002 when Fondiaria merged with SAI — so that a relatively modest ownership stake carried outsized voting control. The technique earned him a nickname in the Italian financial press, "Mister Cinque Per Cento," or "Mister Five Percent," for how little of a company he actually needed to own in order to run it.
 
