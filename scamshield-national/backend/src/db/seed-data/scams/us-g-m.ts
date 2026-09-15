@@ -7575,3 +7575,17 @@ UsGM.push({
     country: "US",
     state: "IN",
 });
+
+UsGM.push({
+    name: "Hopper Travel App Hidden Fee Scheme",
+    slug: "hopper-travel-app-hidden-fee-settlement",
+    description:
+      "Hopper Inc. and its U.S. subsidiary Hopper (USA) Inc., a popular flight- and hotel-booking app, charged users \"Tip\" and \"VIP Support\" fees that the app presented as optional but had already pre-selected on the user's behalf, buried below the fold of the checkout screen so a consumer had to scroll to even see they'd been added, while the \"total price\" shown at the top of checkout excluded them. Hopper marketed its VIP Support add-on as delivering \"instant\" or near-immediate access to a live customer-service agent, but the FTC found many purchasers couldn't reach an agent at all or waited far longer than promised; separately, its \"Price Freeze\" service let a user lock in a fare or room rate for a fee, but Hopper failed to clearly disclose that the price protection applied only up to a certain dollar amount and only if the booking was still available when the user tried to redeem it, and didn't reliably apply the freeze fee toward the final purchase as advertised. The FTC announced on July 2, 2026 that Hopper agreed to pay $35 million in consumer redress and is permanently barred from misrepresenting any fee, required instead to clearly disclose all charges and the true total price before a consumer pays. \"Hopper deceived consumers by showing them a total price that did not include hidden, pre-selected fees,\" said Christopher Mufarrige, Director of the FTC's Bureau of Consumer Protection. The case is one of the first enforcement actions under the FTC's Rule on Unfair or Deceptive Fees (the \"Junk Fee Rule\"), which took effect May 12, 2025 and specifically targets hidden pricing in short-term lodging and live-event ticketing. Travelers booking through Hopper or a similar app should scroll through the entire checkout screen looking for pre-checked add-on boxes before paying, decline anything not clearly itemized and explained, and read the specific dollar cap and availability conditions on any \"price lock\" or \"price freeze\" product before buying it.",
+    categorySlug: "travel-vacation-scams",
+    alertLevel: "medium",
+    sources: ["Federal Trade Commission (FTC)"],
+    sourceUrl: "https://www.ftc.gov/news-events/news/press-releases/2026/07/travel-app-hopper-pay-35-million-settle-ftc-allegations-it-charged-fees-without-consent-deceived",
+    country: "US",
+    isHistorical: false,
+    firstRecorded: "2026-07-02",
+});
