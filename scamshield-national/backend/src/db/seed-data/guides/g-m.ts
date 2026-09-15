@@ -4658,6 +4658,10 @@ GuidesGM.push({
   title: 'How to Recover Your Hacked Email Account (and Lock Down Everything Else It Touches)',
   slug: 'hacked-email-account-recovery',
   author: 'ScamShield Editorial',
+  coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Computer_locked.jpg?width=1200',
+  coverImageCredit: 'Photo: locked computer, CC BY 2.0, via Wikimedia Commons',
+  coverImagePosition: 50,
+  // representative photo — replace with an exact match if found
   tags: ['guide', 'email-account-takeover', 'account-recovery'],
   sourceUrl: 'https://consumer.ftc.gov/articles/how-recover-your-hacked-email-or-social-media-account',
   body: `Email is the master key to almost everything else in a person's digital life, which is exactly why it's such a high-value target. Once a scammer gains access to an inbox, usually through a reused password exposed in an unrelated data breach, a phishing link, or a fake "security alert" that harvests login credentials, they don't need to break into a bank account, a shopping account, or a social media profile directly. They just click "forgot password" on each one and let the reset link land in the inbox they already control, often quietly setting up a forwarding rule first so copies of those reset emails keep arriving even after the real owner changes their password.

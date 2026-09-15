@@ -8782,6 +8782,10 @@ GuidesAF.push({
   title: "Fake Bureau of Prisons Scams: When \"Early Release\" or \"Home Confinement\" Comes With a Price Tag",
   slug: 'fake-bureau-of-prisons-release-scam-guide',
   author: 'ScamShield Editorial',
+  coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Federal_Bureau_of_Prisons_Central_office.jpg?width=1200',
+  coverImageCredit: 'Federal Bureau of Prisons central office, Public Domain (US federal government work), via Wikimedia Commons',
+  coverImagePosition: 50,
+  // representative photo — replace with an exact match if found
   tags: ['guide', 'bop-impersonation-scam'],
   sourceUrl: 'https://www.bop.gov/news/20250409-phone-scams-impacting-incarcerated-individuals.jsp',
   body: `In March 2025, a family with a loved one in federal custody got a call from someone identifying themselves as a Department of Justice employee. The caller said their relative had qualified for home confinement, but first, the family needed to pay $900 up front, by Cash App, to cover the "electronic tracking equipment" required to release him. To make the fee look legitimate, the caller followed up by emailing what appeared to be official documentation on Department of Justice letterhead. The U.S. District Court for the Eastern District of Pennsylvania issued a public fraud alert about the case that same month. It wasn't an isolated incident: the Federal Bureau of Prisons has issued its own warnings twice in recent years — once in August 2023 about callers posing as FBOP employees, federal probation officers, and members of the U.S. Parole Commission demanding money or personal information in exchange for "release to pre-release custody" or "early release and/or relocation approvals," and again in April 2025 about callers claiming to be from a "Federal Bureau of Prisons Reentry Division Services" office offering paid "community placement services."
