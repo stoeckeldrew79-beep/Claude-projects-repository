@@ -19469,3 +19469,15 @@ International.push(
     country: 'ZW',
   },
 );
+
+International.push({
+    name: "Fake Agricultural Grant Offer in the Name of South Sudan's Ministry of Agriculture and Food Security",
+    slug: "fake-agricultural-grant-offer-south-sudan-ministry-of-agriculture",
+    description:
+      "Fraudsters have circulated an offer of agricultural grants that falsely claims to come from the Republic of South Sudan's Ministry of Agriculture and Food Security. The Ministry published a formal Scam Alert Notice on its official website disowning the offer entirely, and South Sudanese press repeated the warning that the grant scheme is fake. The exact mechanics of the approach — such as whether applicants are asked for a processing fee, contacted over WhatsApp, or shown forged letterhead — have not been confirmed from the Ministry's notice, so treat any specific instructions you receive with suspicion. Do not pay any fee, send bank or mobile money details, or share copies of your ID in response to a grant offer you did not apply for through an official channel. Verify any supposed Ministry programme directly via mafs.gov.ss or a Ministry office before acting, and report the approach to the Ministry if you were contacted.",
+    categorySlug: "government-impersonation",
+    alertLevel: "medium",
+    sources: ["Ministry of Agriculture and Food Security (MAFS), Republic of South Sudan — official Scam Alert Notice"],
+    sourceUrl: "https://mafs.gov.ss/%F0%9F%9A%A8-scam-alert-notice-%F0%9F%9A%A8/",
+    country: "SS",
+});
