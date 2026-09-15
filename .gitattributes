@@ -1,0 +1,10 @@
+# The ScamShield seed-data shard files are append-only: two independent
+# writers (this session's content routines and the scheduled
+# generate-*.yml bots) each add new, self-contained entries to the end
+# of the same files, on independent schedules. A plain merge sees that
+# as a conflict even though the right resolution is always "keep both."
+# git's built-in union driver does exactly that automatically, instead
+# of leaving conflict markers for deliver-content-to-main.yml to fail on.
+scamshield-national/backend/src/db/seed-data/scams/*.ts merge=union
+scamshield-national/backend/src/db/seed-data/notorious/*.ts merge=union
+scamshield-national/backend/src/db/seed-data/guides/*.ts merge=union

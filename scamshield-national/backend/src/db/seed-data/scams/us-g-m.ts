@@ -7591,6 +7591,19 @@ UsGM.push({
 });
 
 UsGM.push({
+    name: "Guam Power Authority Disconnection Phone Scam",
+    slug: "gpa-guam-utility-disconnection-phone-scam",
+    description:
+      "Callers from off-island numbers, including 888-864-1797 and 406-420-8348, impersonate Guam Power Authority employees, tell the customer their bill is overdue, and demand immediate payment by phone while threatening to disconnect electric or water service within hours if the customer doesn't pay right away. GPA has stated that its employees \"do not initiate or make phone calls to customers to request for immediate payments over the phone, nor threaten power service disconnection,\" and that legitimate payment can only be made through PayGPA.com, the official GPA mobile app, or its official Pay-By-Phone line at (671) 647-5787 — never through a number a caller provides directly. Similar waves of this same scam have recurred on Guam since at least 2019, with the Mariana Regional Fusion Center asking anyone contacted this way to report the calling number directly to mrfc@ghs.guam.gov.",
+    categorySlug: "utility-scams",
+    alertLevel: "medium",
+    sources: ["Guam Homeland Security/Office of Civil Defense", "Guam Power Authority"],
+    sourceUrl: "https://ghs.guam.gov/gpa-mrfc-monitor-suspected-phone-scam",
+    country: "US",
+    state: "GU",
+});
+
+UsGM.push({
     name: "\"Government Official\" and \"Computer Virus Warning\" Imposter Scams Converting Cash to Bitcoin",
     slug: "government-official-and-computer-virus-warning-imposter-scams-converting-cash-to-bitcoin",
     description:
