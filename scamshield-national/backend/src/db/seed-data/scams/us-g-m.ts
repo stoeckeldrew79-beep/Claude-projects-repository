@@ -7497,3 +7497,55 @@ UsGM.push({
     isHistorical: false,
     firstRecorded: '2026-08-19',
 });
+
+UsGM.push({
+    name: "Kansas Federal Jury Duty Failure-to-Appear Impersonation Scam",
+    slug: "kansas-federal-jury-duty-failure-to-appear-impersonation-scam",
+    description:
+      "Scammers contact Kansas residents claiming they missed federal jury duty and now face a fine or arrest warrant. The callers pose as officials connected to the federal court in the District of Kansas and pressure the person to resolve it immediately by paying or handing over personal details. The U.S. Attorney's Office for the District of Kansas issued a public awareness release warning residents about this pretext. Real federal courts do not call people to demand payment over the phone for a missed jury summons. If you get a call like this, hang up and contact the clerk of the U.S. District Court for the District of Kansas directly using a number you look up yourself.",
+    categorySlug: "government-impersonation",
+    alertLevel: "high",
+    sources: ["U.S. Attorney's Office, District of Kansas (USAO-KS), U.S. Department of Justice"],
+    sourceUrl: "https://www.justice.gov/usao-ks/pr/usao-ks-spreads-awareness-about-jury-duty-scams",
+    country: "US",
+    state: "KS",
+});
+
+UsGM.push({
+    name: "Kansas Unclaimed Life Insurance Policy Letter Scam",
+    slug: "kansas-unclaimed-life-insurance-policy-letter-scam",
+    description:
+      "Kansas residents have received letters in the mail claiming they are entitled to an unclaimed life insurance policy worth millions of dollars. The Kansas Department of Insurance issued a consumer alert stating the letter is a scam and not a legitimate insurance payout. Letters like this typically exist to collect personal information or fees from the recipient before any supposed money is released. Legitimate unclaimed property and life insurance benefits are never contingent on you sending money first. If you receive one of these letters, do not respond or send payment, and contact the Kansas Insurance Department's consumer assistance line to verify before taking any action.",
+    categorySlug: "insurance-fraud",
+    alertLevel: "medium",
+    sources: ["Kansas Department of Insurance, Consumer Alert (Commissioner Vicki Schmidt), March 31, 2023"],
+    sourceUrl: "https://insurance.kansas.gov/wp-content/uploads/2023/03/RELEASE-Consumer-Alert-Letter-offering-millions-in-unclaimed-life-insurance-policy-is-a-scam.pdf",
+    country: "US",
+    state: "KS",
+});
+
+UsGM.push({
+    name: "Maine SNAP/EBT Card-Cloning Benefit Theft",
+    slug: "maine-snap-ebt-card-cloning-benefit-theft",
+    description:
+      "Criminals are stealing Maine EBT card numbers and PINs, making cloned cards, and draining SNAP benefits by running the fake cards at point-of-sale terminals in other states. Maine DHHS said this was not a single skimming device at one store but a large-scale cloning operation, the first of this size seen in Maine. In one week, roughly 300 Maine households lost about $76,000 in food benefits. Protect yourself by changing your EBT PIN often, especially just before benefits are deposited, checking your balance and transaction history regularly, and freezing or locking your card between uses if your card allows it. If benefits are missing, contact the DHHS Office for Family Independence right away to disable the card and request a replacement.",
+    categorySlug: "public-benefits-fraud",
+    alertLevel: "high",
+    sources: ["Maine Department of Health and Human Services, Office for Family Independence (Aug. 14, 2025)"],
+    sourceUrl: "https://www.maine.gov/dhhs/news/maine-dhhs-alerts-ebt-cardholders-take-precautions-amid-reported-multi-state-benefit-theft-thu-08142025-1200",
+    country: "US",
+    state: "ME",
+});
+
+UsGM.push({
+    name: "Maine DHHS Impersonation Calls Targeting EBT Cardholders",
+    slug: "maine-dhhs-impersonation-calls-targeting-ebt-cardholders",
+    description:
+      "Scammers are calling and texting Maine benefit recipients while pretending to be the Department of Health and Human Services, the agency that oversees SNAP and EBT. The messages claim your benefits will be cut off unless you call a certain number and hand over personal information, including your EBT card number and PIN. Callers can spoof Maine area codes or make \"DHHS\" appear on your caller ID, so the call looks legitimate. DHHS never calls to ask for your full card number or PIN, so hang up and contact the agency yourself using a number you look up. If you already gave out your EBT card number or PIN, call the Office for Family Independence call center immediately at 1-855-797-4357 during business hours to disable the card and request a replacement.",
+    categorySlug: "government-impersonation",
+    alertLevel: "high",
+    sources: ["Maine Department of Health and Human Services, Office for Family Independence — EBT Scams guidance page"],
+    sourceUrl: "https://www.maine.gov/dhhs/ofi/programs-services/food-supplement/ebt-scams",
+    country: "US",
+    state: "ME",
+});

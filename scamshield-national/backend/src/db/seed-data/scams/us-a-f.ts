@@ -8513,3 +8513,15 @@ UsAF.push({
     isHistorical: false,
     firstRecorded: '2026-08-10',
 });
+
+UsAF.push({
+    name: "Fake CAPTCHA \"Verify You're Human\" Malware Prompt (ClickFix)",
+    slug: "fake-captcha-verify-human-malware-prompt-clickfix",
+    description:
+      "A web page shows what looks like a normal CAPTCHA or Cloudflare-style \"I'm not a robot\" check, but instead of a checkbox it gives you steps to \"verify\" yourself. The instructions tell you to press Windows key + R (or open Terminal on a Mac), paste in text that the page has already copied to your clipboard, and hit Enter. That pasted text is a command that installs an infostealer or remote-access program, and because you ran it yourself, your browser and operating system never warn you. Criminals then harvest saved passwords, session cookies and crypto wallet keys, which lets them take over accounts in ways that look legitimate to your bank or exchange. Never follow on-screen instructions to copy and paste anything into the Run box or Terminal; a real CAPTCHA only ever asks you to click or pick images, so close the page and run a security scan if you already pasted a command.",
+    categorySlug: "tech-support-scams",
+    alertLevel: "high",
+    sources: ["Federal Trade Commission consumer alert, June 2026"],
+    sourceUrl: "https://consumer.ftc.gov/consumer-alerts/2026/06/how-spot-captcha-scam",
+    country: "US",
+});
