@@ -7549,3 +7549,43 @@ UsGM.push({
     country: "US",
     state: "ME",
 });
+
+UsGM.push({
+    name: "Indianapolis 500 Ticket, Parking Pass, and Hotel Scam Alert",
+    slug: "indiana-indianapolis-500-ticket-parking-scam",
+    description:
+      "Every May as Race Day approaches, Indiana Attorney General Todd Rokita's office issues a recurring consumer alert warning that fraudsters ramp up efforts to sell counterfeit Indianapolis 500 tickets, fake parking passes, and fraudulent hotel reservations to fans converging on Indianapolis Motor Speedway. Scammers list \"too-good-to-be-true\" ticket and parking-pass deals on social media and resale sites; some passes and tickets look authentic enough to fool buyers but are caught by IMS staff at the gate, leaving fans turned away after they've already traveled to the track. Other scammers run fake hotel-booking pages with misleading pricing and off-brand web addresses designed to capture payment card details without ever securing a room. Rokita said scammers are getting sophisticated enough to trick even veteran track-goers, and his office recommends buying tickets and parking directly from Indianapolis Motor Speedway or a verified vendor, paying only by credit card (never gift cards, wires, or cash apps), confirming every reservation directly with the hotel, and treating unsolicited QR codes and unusually low prices as red flags. Because the same tactics resurface every May, the office reissues this warning annually and directs victims to file complaints at indianaconsumer.com or by calling 1-800-382-5516.",
+    categorySlug: "online-shopping-scams",
+    alertLevel: "medium",
+    sources: ["Indiana Attorney General's Office", "WBIW"],
+    sourceUrl: "https://www.wbiw.com/2025/05/12/dont-get-lapped-by-indy-500-scammers-attorney-general-todd-rokita-warns/",
+    country: "US",
+    state: "IN",
+});
+
+UsGM.push({
+    name: "Indiana BMV \"Lower Insurance Rate\" Personal-Information Phishing Scam",
+    slug: "indiana-bmv-insurance-rate-impersonation-scam",
+    description:
+      "The Indiana Bureau of Motor Vehicles maintains an official consumer-scam-alert page warning that fraudsters contact Hoosiers by phone or mail falsely posing as BMV representatives who claim they can lower the target's car insurance rate. The callers or letters ask victims to hand over sensitive personal data, including full birthdates and Social Security numbers, under the pretext that this information is needed to process a discounted insurance quote tied to their vehicle registration. The BMV's alert states plainly that the agency never initiates contact about insurance rates or coverage, and that any call or letter offering to lower a Hoosier's insurance rate in exchange for personal identifiers should be treated as fraudulent regardless of how official it looks. This is a distinct scheme from the BMV's separately documented fake-toll and traffic-ticket text scams: rather than demanding an urgent payment, it is built purely around identity-data harvesting using the promise of savings as bait, information Indiana warns can then be used for tax refund fraud, unemployment fraud, or opening lines of credit in the victim's name. Consumers are told to hang up or discard the mailer and to verify any BMV-related communication only through IN.gov/mybmv, myBMV.com, or an in-person branch visit.",
+    categorySlug: "identity-theft",
+    alertLevel: "medium",
+    sources: ["Indiana Bureau of Motor Vehicles"],
+    sourceUrl: "https://www.in.gov/bmv/resources/consumer-scam-alerts",
+    country: "US",
+    state: "IN",
+});
+
+UsGM.push({
+    name: "Hopper Travel App Hidden Fee Scheme",
+    slug: "hopper-travel-app-hidden-fee-settlement",
+    description:
+      "Hopper Inc. and its U.S. subsidiary Hopper (USA) Inc., a popular flight- and hotel-booking app, charged users \"Tip\" and \"VIP Support\" fees that the app presented as optional but had already pre-selected on the user's behalf, buried below the fold of the checkout screen so a consumer had to scroll to even see they'd been added, while the \"total price\" shown at the top of checkout excluded them. Hopper marketed its VIP Support add-on as delivering \"instant\" or near-immediate access to a live customer-service agent, but the FTC found many purchasers couldn't reach an agent at all or waited far longer than promised; separately, its \"Price Freeze\" service let a user lock in a fare or room rate for a fee, but Hopper failed to clearly disclose that the price protection applied only up to a certain dollar amount and only if the booking was still available when the user tried to redeem it, and didn't reliably apply the freeze fee toward the final purchase as advertised. The FTC announced on July 2, 2026 that Hopper agreed to pay $35 million in consumer redress and is permanently barred from misrepresenting any fee, required instead to clearly disclose all charges and the true total price before a consumer pays. \"Hopper deceived consumers by showing them a total price that did not include hidden, pre-selected fees,\" said Christopher Mufarrige, Director of the FTC's Bureau of Consumer Protection. The case is one of the first enforcement actions under the FTC's Rule on Unfair or Deceptive Fees (the \"Junk Fee Rule\"), which took effect May 12, 2025 and specifically targets hidden pricing in short-term lodging and live-event ticketing. Travelers booking through Hopper or a similar app should scroll through the entire checkout screen looking for pre-checked add-on boxes before paying, decline anything not clearly itemized and explained, and read the specific dollar cap and availability conditions on any \"price lock\" or \"price freeze\" product before buying it.",
+    categorySlug: "travel-vacation-scams",
+    alertLevel: "medium",
+    sources: ["Federal Trade Commission (FTC)"],
+    sourceUrl: "https://www.ftc.gov/news-events/news/press-releases/2026/07/travel-app-hopper-pay-35-million-settle-ftc-allegations-it-charged-fees-without-consent-deceived",
+    country: "US",
+    isHistorical: false,
+    firstRecorded: "2026-07-02",
+});
