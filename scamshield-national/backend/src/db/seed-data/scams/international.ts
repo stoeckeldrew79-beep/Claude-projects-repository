@@ -19372,3 +19372,30 @@ International.push(
     firstRecorded: '2026-02-25',
   },
 );
+
+International.push(
+  {
+    name: 'Fake "National Financial Access Program" Website Impersonating HNB and gov.hr',
+    slug: 'croatia-hanfa-frozenspirety-fake-national-program-scam',
+    description:
+      'Croatia\'s Financial Services Supervisory Agency (Hrvatska agencija za nadzor financijskih usluga, HANFA) published an official warning on August 10, 2026 about a fraudulent website at the domain frozenspirety.info that copies the visual identity, logos, and color scheme of the official state portal gov.hr and falsely presents itself as belonging to the Croatian National Bank (HNB). The fake site promotes a nonexistent "National Financial Access Program" (Nacionalni program financijskog pristupa, NPFP), claimed to be an official government initiative backed by a "national guarantee fund" worth €2 billion. To "register," visitors are told to make a minimum initial deposit of €250, and the site manufactures urgency by claiming enrollment is capped at 500 applications per county. HANFA states that the appearance of a website alone is not confirmation of its legitimacy, noting that fraudulent sites can convincingly replicate official branding, and confirms the program does not exist and has no connection to HNB, HANFA, or any Croatian state body. The agency advises citizens to check the actual domain — genuine Croatian institutions use only hanfa.hr, gov.hr, and hnb.hr — before entering personal information or making any payment, and never to treat a convincing design or an official-looking logo as proof a site is real.',
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Hrvatska agencija za nadzor financijskih usluga (HANFA / Croatian Financial Services Supervisory Agency)'],
+    sourceUrl: 'https://hanfa.hr/vijesti/upozorenje-na-laznu-internetsku-stranicu-frozenspiretyinfo-oponasa-sluzbene-stranice-javnih-i-drzavnih-institucija-te-promovira-laznu-drzavnu-inicijativu',
+    country: 'HR',
+    firstRecorded: '2026-08-10',
+  },
+  {
+    name: 'Fake Traffic Fine SMS (ePrekršaji) Smishing Scam',
+    slug: 'croatia-police-fake-traffic-fine-sms-smishing',
+    description:
+      'Croatian police, in a warning published by the Zagreb Police Department (Policijska uprava zagrebačka), part of the Ministry of the Interior (MUP), on May 20, 2026, described a mass smishing campaign in which citizens receive text messages claiming their vehicle was recorded committing a traffic violation under the Road Safety Act and instructing them to pay a fine through an included link. The link leads to a webpage that, in the police\'s own words, at first glance appears to be Croatia\'s official traffic-dispute portal (ePrekršaji) but is in fact a counterfeit copy designed to harvest personal, financial, and security information, with victims prompted either to enter payment details into a fake form or to install malicious software. Police state unambiguously that "the police do not send notifications about fine payments via SMS messages" and describe the campaign as a combined smishing-and-phishing identity-theft scheme intended to cause direct financial harm. Citizens are instructed not to respond to the message, not to click the embedded link, and to delete the SMS immediately rather than attempt to verify or dispute the claimed fine through the link itself.',
+    categorySlug: 'phishing',
+    alertLevel: 'high',
+    sources: ['Policijska uprava zagrebačka (Zagreb Police Department, Croatian Ministry of the Interior / MUP)'],
+    sourceUrl: 'https://zagrebacka-policija.gov.hr/vijesti/policija-ne-salje-sms-poruke-o-placanju-prometne-kazne-putem-poveznice/107101',
+    country: 'HR',
+    firstRecorded: '2026-05-20',
+  },
+);
