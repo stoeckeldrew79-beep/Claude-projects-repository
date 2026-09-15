@@ -7602,3 +7602,16 @@ UsGM.push({
     country: "US",
     state: "GU",
 });
+
+UsGM.push({
+    name: "\"Government Official\" and \"Computer Virus Warning\" Imposter Scams Converting Cash to Bitcoin",
+    slug: "government-official-and-computer-virus-warning-imposter-scams-converting-cash-to-bitcoin",
+    description:
+      "The North Dakota Attorney General's Consumer Protection Division reported a rise in imposter scams in which callers pose as bank employees, tech support agents, or even border patrol officers and claim the victim is part of an urgent \"investigation.\" Victims are told to withdraw cash from their bank and convert it into Bitcoin or other cryptocurrency, which scammers prefer because the transfers are nearly impossible to trace and the funds are instantly available anywhere in the world. Some North Dakotans lost tens of thousands of dollars before realizing the \"investigation\" was fake. The Attorney General warns that caller ID cannot be trusted, since scammers use spoofing technology to display a number that is not their own, and that legitimate banks and government agencies never conduct business in this irregular way. Hang up on anyone who tells you to move money into cryptocurrency, verify any claim by calling the agency or bank at a known number, and report the contact to the Consumer Protection Division at 800-472-2600.",
+    categorySlug: "government-impersonation",
+    alertLevel: "high",
+    sources: ["North Dakota Attorney General Drew Wrigley, Consumer Protection and Antitrust Division, June 2022"],
+    sourceUrl: "https://attorneygeneral.nd.gov/scam-artists-exploiting-north-dakota-nice/",
+    country: "US",
+    state: "ND",
+});

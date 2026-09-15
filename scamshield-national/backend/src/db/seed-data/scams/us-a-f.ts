@@ -8596,3 +8596,15 @@ UsAF.push({
     country: "US",
 });
 
+UsAF.push({
+    name: "Fake \"North Dakota Department of Revenue\" Text Message Tax Scam",
+    slug: "fake-north-dakota-department-of-revenue-text-message-tax-scam",
+    description:
+      "Fraudulent text messages circulating in North Dakota claim to come from the \"North Dakota Department of Revenue,\" an office that does not exist — the state's real tax agency is the Office of State Tax Commissioner. The texts ask recipients to click multiple links and hand over sensitive information such as bank account or credit card numbers. The Office of State Tax Commissioner says taxpayers only receive texts from the office if they signed up for refund alerts, and those messages will never ask you to click a link or enter financial details. Commissioner Brian Kroshus warns against even replying to or blocking the sender, because any interaction tells the scammer your number is active. Delete the message without responding, do not open links or attachments, and contact the Office of State Tax Commissioner directly if you are unsure about a notice.",
+    categorySlug: "tax-scams",
+    alertLevel: "high",
+    sources: ["North Dakota Office of State Tax Commissioner (Commissioner Brian Kroshus), September 2025"],
+    sourceUrl: "https://www.tax.nd.gov/news/tax-commissioner-warns-north-dakota-taxpayers-fraudulent-text-messages",
+    country: "US",
+    state: "ND",
+});
