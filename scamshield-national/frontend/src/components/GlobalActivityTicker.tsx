@@ -1,9 +1,12 @@
+import { useState } from 'react';
 import { useInfiniteQuery } from '@tanstack/react-query';
 import { Link } from 'react-router-dom';
 import { PAGE_SIZE, fetchScams } from '../services/scams';
 import { useInfiniteScroll } from '../hooks/useInfiniteScroll';
 import { countryName } from '../utils/countries';
 import { timeAgo } from '../utils/timeAgo';
+
+type ActivityFilter = 'all' | 'us';
 
 const ALERT_DOT_COLORS: Record<string, string> = {
   low: 'bg-slate-400',
@@ -20,9 +23,12 @@ const REFRESH_MS = 20_000;
 const TRIGGER_OFFSET = 3;
 
 export function GlobalActivityTicker() {
+  const [filter, setFilter] = useState<ActivityFilter>('all');
+  const country = filter === 'us' ? 'US' : undefined;
+
   const { data, isLoading, fetchNextPage, hasNextPage, isFetchingNextPage } = useInfiniteQuery({
-    queryKey: ['scams', 'ticker', { sort: 'newest' as const }],
-    queryFn: ({ pageParam }) => fetchScams({ sort: 'newest', page: pageParam }),
+    queryKey: ['scams', 'ticker', { sort: 'newest' as const, country }],
+    queryFn: ({ pageParam }) => fetchScams({ sort: 'newest', country, page: pageParam }),
     initialPageParam: 1,
     getNextPageParam: (lastPage, allPages) => (lastPage.length === PAGE_SIZE ? allPages.length + 1 : undefined),
     // Polling an infinite query refetches every page it holds, so it stays on
@@ -44,12 +50,28 @@ export function GlobalActivityTicker() {
 
   return (
     <div className="flex h-full flex-col">
-      <div className="flex items-center gap-2 px-1">
-        <span className="relative flex h-2 w-2">
-          <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-red-400 opacity-75" />
-          <span className="relative inline-flex h-2 w-2 rounded-full bg-red-500" />
-        </span>
-        <p className="text-xs font-semibold tracking-widest text-slate-300 uppercase">Live activity</p>
+      <div className="flex items-center justify-between gap-2 px-1">
+        <div className="flex items-center gap-2">
+          <span className="relative flex h-2 w-2">
+            <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-red-400 opacity-75" />
+            <span className="relative inline-flex h-2 w-2 rounded-full bg-red-500" />
+          </span>
+          <p className="text-xs font-semibold tracking-widest text-slate-300 uppercase">Live activity</p>
+        </div>
+        <div className="flex items-center gap-1 rounded-full bg-white/5 p-0.5">
+          {(['all', 'us'] as const).map((tab) => (
+            <button
+              key={tab}
+              type="button"
+              onClick={() => setFilter(tab)}
+              className={`rounded-full px-2.5 py-1 text-[11px] font-medium tracking-wide uppercase transition-colors ${
+                filter === tab ? 'bg-white/15 text-slate-100' : 'text-slate-400 hover:text-slate-200'
+              }`}
+            >
+              {tab === 'all' ? 'All' : 'US'}
+            </button>
+          ))}
+        </div>
       </div>
 
       <div className="mt-3 flex-1 space-y-1 overflow-y-auto pr-1">
