@@ -1,5 +1,15 @@
 import { useInfiniteQuery, useQuery } from '@tanstack/react-query';
-import { PAGE_SIZE, ScamListParams, fetchCategories, fetchCountries, fetchScamBySlug, fetchScamStates, fetchScamTags, fetchScams } from '../services/scams';
+import {
+  PAGE_SIZE,
+  ScamListParams,
+  fetchCategories,
+  fetchCountries,
+  fetchScamBySlug,
+  fetchScamStates,
+  fetchScamTags,
+  fetchScams,
+  fetchScamsCount,
+} from '../services/scams';
 
 export function useScams(params: ScamListParams = {}) {
   return useQuery({
@@ -20,6 +30,16 @@ export function useInfiniteScams(params: Omit<ScamListParams, 'page'> = {}, enab
     initialPageParam: 1,
     getNextPageParam: (lastPage, allPages) => (lastPage.length === PAGE_SIZE ? allPages.length + 1 : undefined),
     enabled,
+  });
+}
+
+// Backs the placeholder-reservation trick on infinite-scroll scam lists —
+// knowing the full result size up front lets the list lay out its true
+// height on first paint instead of growing as each page arrives.
+export function useScamsCount(params: Omit<ScamListParams, 'sort' | 'page'> = {}) {
+  return useQuery({
+    queryKey: ['scams', 'count', params],
+    queryFn: () => fetchScamsCount(params),
   });
 }
 

@@ -10,6 +10,8 @@ router.get('/nearby', requireAuth, requireSubscriber, scamsController.nearby);
 // Before /:slug, or 'tags' is parsed as a scam slug.
 router.get('/tags', scamsController.tags);
 router.get('/countries', scamsController.countries);
+// Before '/:slug', like the others, or 'count' is parsed as a scam slug.
+router.get('/count', scamsController.count);
 router.get('/by-country', scamsController.byCountry);
 // Before '/:slug', like the others, or the slug route swallows it.
 router.get('/states', scamsController.states);
