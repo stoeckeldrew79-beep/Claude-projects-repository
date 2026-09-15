@@ -9335,6 +9335,9 @@ NotoriousAF.push({
     slug: 'stephen-ehrlich-voyager-digital-fraud',
     author: 'ScamShield Research Team',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Toronto_Financial_District_August_2017.jpg?width=1200',
+    coverImageCredit: 'Toronto, where Voyager Digital was listed before the crypto lender collapsed. Photo: Arild Vågen (CC BY-SA 4.0)',
+    coverImagePosition: 45,
     body: `Stephen Ehrlich co-founded Voyager Digital in 2018 after stints at E*Trade and Morgan Stanley, building it into one of the more mainstream-feeling names in crypto: an app that let ordinary people buy, sell, and earn interest on cryptocurrency, paired with a debit card that paid cashback in crypto. Central to Voyager's pitch, according to the Federal Trade Commission, was a promise meant to erase the one hesitation crypto platforms usually couldn't answer — that customer deposits were "FDIC-insured" and would be "as safe with us as at a bank."
 
 That claim traded on a real institution's credibility to cover a fiction. FDIC insurance protects a depositor's money if the *bank itself* fails — it says nothing about the failure of a nonbank company like Voyager that merely parked pooled customer funds at a partner bank, and the FTC's complaint alleged that most customer money wasn't even structured to carry pass-through FDIC protection in the first place. Voyager's own marketing repeatedly blurred that distinction, telling depositors their crypto savings carried the same government-backed safety net as a checking account, right up until the moment that safety net turned out not to exist.
@@ -9374,6 +9377,9 @@ NotoriousAF.push({
     slug: 'dieter-breitkreuz-phoenix-kapitaldienst-ponzi-scheme',
     author: 'ScamShield Research Team',
     tags: ['notorious', 'notorious-scammer', 'international'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Skyline_Frankfurt_am_Main.jpg?width=1200',
+    coverImageCredit: 'Frankfurt, where Phoenix Kapitaldienst ran its managed-futures scheme. Photo: Nicolas Scheuer (CC BY-SA 2.5)',
+    coverImagePosition: 45,
     body: `Dieter Breitkreuz founded Phoenix Kapitaldienst GmbH in Frankfurt am Main in 1977, though the firm only received full authorization from Germany's federal financial regulator, BaFin, to operate as a securities-trading company on January 1, 1998. Its signature product, the "Phoenix Managed Account," pitched everyday German investors on a promise that should have drawn more skepticism than it did: pool your money with Phoenix, and the firm would trade it in options and futures markets on your behalf for a steady, almost metronomic return of around 10% a year.
 
 Real markets don't produce steady, uninterrupted 10% annual returns year after year — genuine trading results move with the markets, sometimes sharply. According to German prosecutors and the insolvency administrator who later combed through Phoenix's books, that was precisely the point: most customer money was never actually deployed into the options and futures trades the firm claimed to be making. Phoenix instead generated fabricated account statements and brokerage confirmations showing consistent gains, while quietly funding the "returns" it paid to existing customers, and its own overhead, out of the deposits pouring in from new ones — a textbook Ponzi structure dressed up as a professionally managed trading account. Over more than two decades, the scheme drew in roughly 28,000 to 30,000 customers, who together entrusted the firm with somewhere around €750 million.
