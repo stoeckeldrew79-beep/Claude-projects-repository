@@ -8553,3 +8553,34 @@ UsAF.push({
     isHistorical: false,
     firstRecorded: "2025-08-19",
 });
+
+UsAF.push({
+    name: "Cayman Island Investment Program Ponzi Scheme",
+    slug: "american-samoa-cayman-island-investment-ponzi-scheme",
+    description:
+      "In 1998, promoters of the \"Cayman Island Investment Program\" solicited residents across Hawaii, American Samoa, and the U.S. mainland for a minimum $1,000 cash investment, promising an 8% return within just 13 weeks. The money was never actually placed offshore — operators simply took in new investors' cash one week and paid it back out as fabricated \"interest\" the next, the defining structure of a Ponzi scheme, until the flow of new money couldn't keep up with what was owed to earlier investors. Roughly 5,000 victims lost a combined $67 million before the scheme collapsed. Ringleader Montez Salamasina Ottley was convicted on 15 counts including mail fraud, wire fraud, money laundering, and conspiracy, and ordered to forfeit nearly $66.9 million — though only a small fraction of that was ever actually recovered. A guaranteed high return over a short, fixed timeframe tied to a vague offshore investment vehicle is a hallmark red flag of exactly this kind of fraud.",
+    categorySlug: "investment-fraud",
+    alertLevel: "high",
+    sources: ["Honolulu Star-Bulletin", "Marianas Variety"],
+    sourceUrl: "https://archives.starbulletin.com/2002/02/23/news/story5.html",
+    country: "US",
+    isHistorical: true,
+    firstRecorded: "1998-01-01",
+    state: "AS",
+});
+
+UsAF.push({
+    name: "Pandemic-Era Online Romance Scam",
+    slug: "american-samoa-pandemic-online-romance-scam",
+    description:
+      "Samoa News reported in April 2021 that American Samoa had at least one documented romance-scam case, a $500 loss, as pandemic isolation pushed more residents onto dating apps, online games, and social media where scammers operate — part of a nationwide surge that saw reported romance-scam losses jump from $202 million in 2019 to $304 million in 2020. The typical mechanism: a scammer builds an emotional relationship with a target over weeks or months, consistently avoids live video calls with a string of excuses, then invents a costly crisis — a medical bill, a stranded trip, a business emergency — and asks for money by wire transfer or gift card. Never send money, gift cards, or cryptocurrency to someone you have not met in person, and treat a consistent refusal to video call as a serious warning sign rather than a quirk.",
+    categorySlug: "romance-scams",
+    alertLevel: "low",
+    sources: ["Samoa News", "Social Catfish"],
+    sourceUrl: "https://samoanews.com/local-news/its-happening-am-samoa-love-time-quarantine-can-be-costly",
+    country: "US",
+    isHistorical: false,
+    firstRecorded: "2021-04-01",
+    state: "AS",
+});
+
