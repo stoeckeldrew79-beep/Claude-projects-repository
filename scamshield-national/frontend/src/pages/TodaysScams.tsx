@@ -1,12 +1,32 @@
+import type { Ref } from 'react';
 import { useState } from 'react';
 import { useSearchParams } from 'react-router-dom';
-import { useInfiniteDailyScamNews, useDailyNewsStates } from '../hooks/useDailyNews';
+import { useInfiniteDailyScamNews, useDailyNewsStates, useDailyScamNewsCount } from '../hooks/useDailyNews';
 import { useInfiniteScroll } from '../hooks/useInfiniteScroll';
 import { useDocumentMeta } from '../hooks/useDocumentMeta';
 import { DailyScamNews } from '../types';
 import { BlurFade } from '../components/magicui/blur-fade';
 import { timeAgo } from '../utils/timeAgo';
 import { stateName } from '../utils/usStates';
+
+// Stands in for a headline that has not loaded yet, at exactly the height of
+// a real row (see Notorious.tsx for the fuller explanation of why this
+// exists: without it the page is only as tall as what has arrived, so every
+// batch makes it taller and the scrollbar thumb shrinks and slides).
+function PlaceholderRow({ innerRef }: { innerRef?: Ref<HTMLDivElement> }) {
+  return (
+    <div
+      ref={innerRef}
+      aria-hidden
+      style={{ contentVisibility: 'auto', containIntrinsicSize: '96px' }}
+      className="rounded-lg border border-slate-200 p-4"
+    >
+      <div className="h-5 w-3/4 rounded bg-slate-100" />
+      <div className="mt-2 h-4 w-full rounded bg-slate-50" />
+      <div className="mt-2 h-3 w-1/3 rounded bg-slate-50" />
+    </div>
+  );
+}
 
 function NewsRow({ item }: { item: DailyScamNews }) {
   const isAgAlert = item.source_kind === 'ag';
@@ -66,9 +86,6 @@ export default function TodaysScams() {
     isFetchingNextPage,
   } = useInfiniteDailyScamNews(state || undefined);
   const news = newsPages?.pages.flat();
-  // Fetch a few rows before the end so the list grows under the reader
-  // rather than stopping and then jumping.
-  const triggerIndex = Math.max(0, (news?.length ?? 0) - 4);
   const setTrigger = useInfiniteScroll(
     () => {
       if (hasNextPage && !isFetchingNextPage) fetchNextPage();
@@ -76,6 +93,12 @@ export default function TodaysScams() {
     Boolean(hasNextPage) && !isFetchingNextPage
   );
   const { data: stateCounts } = useDailyNewsStates();
+  const { data: total } = useDailyScamNewsCount(state || undefined);
+
+  // Reserve a row for every headline still to come, so the page is its full
+  // height immediately rather than growing (and the scrollbar thumb shrinking
+  // and sliding) with every batch.
+  const placeholderCount = Math.max((total ?? 0) - (news?.length ?? 0), 0);
 
   const selected = stateCounts?.find((s) => s.state === state);
 
@@ -151,13 +174,17 @@ export default function TodaysScams() {
           // delay of i * 0.02 means the three-hundredth row waits six seconds
           // before it appears, which reads as the page having stopped loading.
           <BlurFade key={item.id} delay={0.03 + (i % 8) * 0.02} inView>
-            <div ref={i === triggerIndex ? setTrigger : undefined}>
-              <NewsRow item={item} />
-            </div>
+            <NewsRow item={item} />
           </BlurFade>
         ))}
+        {/* The trigger rides on the first placeholder — see Notorious.tsx for
+            why a sentinel placed after the full reserved height never fires. */}
+        {Array.from({ length: placeholderCount }, (_, i) => (
+          <PlaceholderRow key={`placeholder-${i}`} innerRef={i === 0 ? setTrigger : undefined} />
+        ))}
+        {placeholderCount === 0 && <div ref={setTrigger} aria-hidden className="h-px" />}
         {isFetchingNextPage && <p className="pt-2 text-sm text-slate-500">Loading more…</p>}
-        {news && news.length === 0 && (
+        {news && news.length === 0 && !placeholderCount && (
           <p className="text-slate-500">
             {state
               ? `No recent alerts for ${stateName(state)} — try another state or clear the filter.`

@@ -19,3 +19,10 @@ export async function fetchDailyNewsStates() {
   const { data } = await api.get<{ data: DailyNewsStateCount[] }>('/daily-news/states');
   return data.data;
 }
+
+export async function fetchDailyScamNewsCount(state?: string) {
+  const { data } = await api.get<{ data: { count: number } }>('/daily-news/count', {
+    params: state ? { state } : undefined,
+  });
+  return data.data.count;
+}

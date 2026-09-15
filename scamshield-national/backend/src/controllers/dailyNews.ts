@@ -15,6 +15,54 @@ function pageOffset(raw: unknown): number {
   return Number.isFinite(page) && page > 1 ? Math.floor(page - 1) * PAGE_SIZE : 0;
 }
 
+// How many stories the feed holds, so the page can reserve its full height
+// up front instead of growing (and shrinking the scrollbar thumb) as each
+// batch loads. Must match list()'s dedup and per-source cap exactly, or the
+// reserved space is wrong and the drift this exists to prevent comes back.
+export const count = asyncHandler<AuthedRequest>(async (req, res) => {
+  const raw = typeof req.query.state === 'string' ? req.query.state.toUpperCase() : '';
+  const state = /^[A-Z]{2}$/.test(raw) ? raw : null;
+
+  if (state) {
+    const { rows } = await pool.query<{ count: string }>(
+      `WITH deduped AS (
+         SELECT id, ROW_NUMBER() OVER (
+                  PARTITION BY lower(headline)
+                  ORDER BY (source_kind = 'ag') DESC,
+                           COALESCE(published_at, scanned_at) DESC, id
+                ) AS dupe_rank
+         FROM daily_scam_news
+         WHERE state = $1
+       )
+       SELECT COUNT(*)::text AS count FROM deduped WHERE dupe_rank = 1`,
+      [state]
+    );
+    res.json({ data: { count: Number(rows[0]?.count ?? 0) } });
+    return;
+  }
+
+  const { rows } = await pool.query<{ count: string }>(
+    `WITH deduped AS (
+       SELECT id, source_name, published_at, scanned_at, ROW_NUMBER() OVER (
+                PARTITION BY lower(headline)
+                ORDER BY COALESCE(published_at, scanned_at) DESC, id
+              ) AS dupe_rank
+       FROM daily_scam_news
+     ),
+     ranked AS (
+       SELECT id, ROW_NUMBER() OVER (
+                PARTITION BY source_name
+                ORDER BY COALESCE(published_at, scanned_at) DESC
+              ) AS source_rank
+       FROM deduped
+       WHERE dupe_rank = 1
+     )
+     SELECT COUNT(*)::text AS count FROM ranked WHERE source_rank <= $1`,
+    [MAX_STORIES_PER_SOURCE]
+  );
+  res.json({ data: { count: Number(rows[0]?.count ?? 0) } });
+});
+
 export const list = asyncHandler<AuthedRequest>(async (req, res) => {
   const raw = typeof req.query.state === 'string' ? req.query.state.toUpperCase() : '';
   const state = /^[A-Z]{2}$/.test(raw) ? raw : null;
