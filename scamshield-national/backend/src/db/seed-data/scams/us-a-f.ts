@@ -8486,3 +8486,17 @@ UsAF.push({
     country: 'US',
     isHistorical: false,
 });
+
+UsAF.push({
+    name: 'Colorado Vehicle-Title "Helper" Hijacking Scam',
+    slug: 'colorado-vehicle-title-helper-hijacking-scam',
+    description: `The Colorado Division of Motor Vehicles warned on June 16, 2026 of a scheme targeting people who lack standard identification, a group that includes many immigrants without a driver's license: a "helper" offers to get the person's vehicle registered by having their own name added to the title, ostensibly just to "facilitate" the paperwork, sometimes framed as a power-of-attorney arrangement. Once that name is on the title, the "helper" is the vehicle's legal co-owner or owner of record and can sell it, have it towed, or otherwise seize it outright, with no further consent from the person who actually paid for and drives the car. Motor Vehicle Investigation Unit Chief Dana Chavez urged residents to use only official DMV channels rather than third-party "helpers," and the agency noted that Colorado issues driver's licenses and ID cards regardless of immigration status, removing the reason anyone would need a stand-in on the title in the first place. Anyone who needs help navigating vehicle registration should go directly to a Colorado DMV office or its official website rather than accepting an offer to add someone else's name to a title.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'medium',
+    sources: ['Colorado Division of Motor Vehicles', 'KKTV'],
+    sourceUrl: 'https://www.kktv.com/2026/06/16/colorado-dmv-warns-vehicle-owners-scams-stealing-vehicle-ownership/',
+    country: 'US',
+    state: 'CO',
+    isHistorical: false,
+    firstRecorded: '2026-06-16',
+});

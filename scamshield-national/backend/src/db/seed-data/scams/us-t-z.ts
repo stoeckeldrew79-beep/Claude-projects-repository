@@ -4111,3 +4111,17 @@ UsTZ.push({
     isHistorical: true,
     firstRecorded: '2026-08-01',
 });
+
+UsTZ.push({
+    name: 'Harris County Notarized-Page-Swap Deed Fraud Scheme',
+    slug: 'texas-harris-county-notary-page-swap-deed-fraud',
+    description: `Harris County Attorney Abbie Kamin's office filed two civil lawsuits in September 2026 against nine individuals accused of coordinating a property-fraud ring built on a distinctive forgery technique: rather than forging a notary's signature outright, the scammers obtained a genuinely notarized acknowledgment page from an unrelated, legitimately notarized document, physically detached it, and attached it to a fraudulent deed before filing that deed with the county clerk, creating the false appearance that the forged deed itself had been properly notarized. The ring also forged signatures, including those of deceased homeowners, fabricated identities, and passed deeds among conspirators to obscure the ownership trail before reselling to unsuspecting buyers. In one case cited by Kamin's office, Keata Wade's family lost their Teton Street property after scammers forged her deceased grandmother's signature, transferred title to a fictitious person, and sold it to a real buyer. At least 10 properties were involved, with roughly seven owners losing access to homes valued at $100,000 to $250,000 each; civil suits are filed, and the County Attorney's office is coordinating with the District Attorney on potential criminal charges. Property owners can protect themselves by signing up for their county clerk's free deed-fraud alert service, which flags any new filing against their property, and by periodically checking their own deed records for unauthorized transfers.`,
+    categorySlug: 'mortgage-foreclosure-scams',
+    alertLevel: 'high',
+    sources: ['Harris County Attorney\'s Office', 'KPRC Click2Houston'],
+    sourceUrl: 'https://www.click2houston.com/news/local/2026/09/09/could-someone-steal-your-home-without-you-knowing-harris-county-warns-of-deed-fraud-schemes/',
+    country: 'US',
+    state: 'TX',
+    isHistorical: false,
+    firstRecorded: '2026-09-09',
+});
