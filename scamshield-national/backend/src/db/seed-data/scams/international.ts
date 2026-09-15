@@ -19140,3 +19140,42 @@ International.push(
     firstRecorded: '2026-07-28',
   },
 );
+
+International.push(
+  {
+    name: 'Castillos Fake Police and Lawyer "Family Member Detained" Bail Scam',
+    slug: 'uruguay-castillos-fake-police-lawyer-bail-scam',
+    description:
+      'On September 3, 2026, police in Castillos, in Uruguay\'s Rocha department, issued a public warning about a two-call telephone scam circulating in the city. In the first call, made to a landline, a fraudster impersonating a police officer tells the victim that a family member, acquaintance, or business associate has been detained after a traffic accident, sometimes adding aggravating details such as having hit a pregnant woman to heighten urgency, and asks for a mobile number so a "lawyer" can follow up. A second caller, posing as that lawyer, then contacts the victim on the mobile number and demands an immediate transfer or cash payment to cover a fine or bail, threatening prison time for the detained relative if payment isn\'t made right away. Police stressed that no legitimate agency ever collects bail or fines by phone, urged residents to never share account numbers or passwords or make transfers to a caller, to independently verify any such claim by calling the police directly rather than a number the caller supplies, and pointed to the Interior Ministry\'s "Verificá" WhatsApp line for checking suspicious calls before paying.',
+    categorySlug: 'family-emergency-scams',
+    alertLevel: 'high',
+    sources: ['Policía de Castillos (Rocha)', 'InfoRocha'],
+    sourceUrl: 'https://inforocha.uy/2026/09/03/policia-de-castillos-alerta-por-modalidad-de-estafa-telefonica/',
+    country: 'UY',
+    firstRecorded: '2026-09-03',
+  },
+  {
+    name: 'Fake Gold-Investment "Job" Task Scam via Facebook and WhatsApp',
+    slug: 'uruguay-fake-gold-investment-job-task-scam',
+    description:
+      'Uruguay\'s Ministerio del Interior reported a case in which a 53-year-old woman was contacted on Facebook with what was framed as a job opportunity: a false labor proposal linked to alleged investments with quick, guaranteed profits, specifically promising daily income from "investing in gold." After initial contact, the conversation moved to WhatsApp with a contact using an international phone number, who built trust before directing her to make a series of deposits, described as going to bank accounts and third-party payment-collection services designated by the scammers, totaling roughly 60,000 Uruguayan pesos, with the promised returns never materializing. Authorities flagged the pattern\'s warning signs: promises of easy, guaranteed daily gains, a vague or unverifiable "employer," a shift from a public platform to a private one using a foreign number, and pressure to keep transferring money quickly. The case was referred to the police Investigation Area of Zone II, and the ministry urged the public to verify any such offer independently and distrust unsolicited job or investment pitches from unknown international contacts.',
+    categorySlug: 'job-task-scams',
+    alertLevel: 'medium',
+    sources: ['Ministerio del Interior (Uruguay)'],
+    sourceUrl: 'https://www.gub.uy/ministerio-interior/comunicacion/noticias/estafa-digital',
+    country: 'UY',
+    firstRecorded: '2026-04-09',
+  },
+  {
+    name: '"Urucash"/"Americana Seguros" Unauthorized Advance-Fee Loan Scheme',
+    slug: 'uruguay-urucash-americana-seguros-advance-fee-loan-scam',
+    description:
+      'On February 19, 2026, the Banco Central del Uruguay\'s Superintendencia de Servicios Financieros publicly warned that "Urucash," operating via urucash.com, and an affiliated "Americana Seguros" were offering personal loans despite holding no authorization to operate as financial-service providers in Uruguay. Under the scheme, applicants seeking a loan are told they must first purchase a supposed insurance policy tied to the loan and make advance payments framed as covering "BCU paperwork" or processing fees before the credit can be disbursed; after paying, victims never receive the promised loan. The BCU listed the case among a family of unauthorized-lender warnings issued in early 2026 and advised the public to treat upfront payment demands, below-market advertised interest rates, and the absence of any verifiable physical business address as red flags, recommending that anyone offered credit first check the company against the BCU\'s public registry of authorized financial entities before paying anything.',
+    categorySlug: 'debt-relief-scams',
+    alertLevel: 'high',
+    sources: ['Banco Central del Uruguay (BCU)', 'Montevideo Portal'],
+    sourceUrl: 'https://www.montevideo.com.uy/Noticias/BCU-alerta-por-empresa-que-ofrece-creditos-sin-autorizacion-como-funciona-la-maniobra-uc954074',
+    country: 'UY',
+    firstRecorded: '2026-02-19',
+  },
+);
