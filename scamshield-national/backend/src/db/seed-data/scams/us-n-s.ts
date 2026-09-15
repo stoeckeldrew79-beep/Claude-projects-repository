@@ -7463,3 +7463,46 @@ UsNS.push({
     country: "US",
     state: "NM",
 });
+
+UsNS.push({
+    name: "Puerto Rico Electronic Lottery \"Winning Numbers\" Social Media Scam",
+    slug: "puerto-rico-electronic-lottery-winning-numbers-scam",
+    description:
+      "Homeland Security Investigations (HSI) San Juan and the Puerto Rico Electronic Lottery (Lotería Electrónica de Puerto Rico) jointly warned residents on May 2, 2025 about roughly a dozen fraudulent Instagram and Facebook pages that sell fake \"guaranteed winning numbers.\" The pages copy the Electronic Lottery's official logo and post manipulated videos of number drawings alongside altered images of winning tickets to make the fraud look authentic. They also use photos and video of real Lottery employees, announcers, and public figures without consent, paired with fabricated \"winner testimonials\" and networks of automated bot comments to build trust. Scammers charge victims between $20 and more than $100 per \"winning number,\" collecting payment through ATH Móvil, Zelle, PayPal, Cash App, or direct bank transfer, platforms that make the money difficult to recover once sent. HSI said it had already received multiple victim complaints tied to roughly 12 identified pages, and the Lottery reiterated that tickets can only legitimately be purchased at certified points of sale.",
+    categorySlug: "lottery-sweepstakes-scams",
+    alertLevel: "medium",
+    sources: ["Homeland Security Investigations (HSI) San Juan", "Lotería Electrónica de Puerto Rico", "El Nuevo Día"],
+    sourceUrl: "https://www.elnuevodia.com/noticias/seguridad/notas/hsi-y-la-loteria-electronica-advierten-sobre-paginas-de-redes-sociales-que-venden-numeros-de-loteria-ganadores-fraudulentos/",
+    country: "US",
+    firstRecorded: "2025-05-02",
+    state: "PR",
+});
+
+UsNS.push({
+    name: "Fake Amazon Recruiter Text-Message Job Scam",
+    slug: "puerto-rico-fake-amazon-recruiter-text-scam",
+    description:
+      "Puerto Rico's Department of Consumer Affairs (DACO), through its Fraudulent Schemes Detection Unit, issued a consumer alert on April 10, 2026 about unsolicited text messages impersonating Amazon recruiters. A typical message reads \"Soy Beth de Reclutamiento de Amazon. Su perfil ha sido seleccionado para una emocionante oportunidad de trabajo a tiempo parcial y remoto\" (\"I'm Beth from Amazon Recruitment. Your profile has been selected...\"), dangling pay of $250 to $500 for just 90 minutes of work, or up to $1,000 for four days of work per week plus benefits like paid vacation, and creating artificial urgency by claiming only a limited number of positions remain. Victims who respond are directed to text a specific number and are then asked to hand over sensitive personal data — date of birth, Social Security number, and banking information — which DACO said is then used to commit further financial fraud, since no legitimate Amazon hiring process is conducted this way. DACO Secretary Hiram Torres Montalvo urged residents not to share personal information with unverified senders and to confirm any job offer through Amazon's official careers site before responding.",
+    categorySlug: "job-task-scams",
+    alertLevel: "medium",
+    sources: ["Departamento de Asuntos del Consumidor de Puerto Rico (DACO)", "Metro Puerto Rico"],
+    sourceUrl: "https://www.metro.pr/noticias/2026/04/10/daco-alerta-sobre-fraude-que-suplanta-reclutadores-de-amazon-por-mensaje-de-texto/",
+    country: "US",
+    firstRecorded: "2026-04-10",
+    state: "PR",
+});
+
+UsNS.push({
+    name: "Post-Hurricane FEMA Impersonation and Contractor Fraud",
+    slug: "puerto-rico-post-hurricane-fema-contractor-fraud",
+    description:
+      "Following major hurricanes striking Puerto Rico (Hurricane Maria in 2017, with FEMA and the U.S. Attorney's Office repeating the same warnings after Hurricane Fiona in 2022), FEMA and federal prosecutors documented a recurring pattern of disaster-relief fraud aimed at storm survivors. Con artists impersonate FEMA or Small Business Administration (SBA) representatives, in person, by phone, or door-to-door, falsely claiming a fee is required to register for or receive disaster assistance, even though FEMA and SBA never charge for registration and their real employees always carry official photo identification. Separately, unlicensed \"contractors\" descend on damaged neighborhoods offering repair work, take payment or a deposit, and then perform substandard work, overcharge, or disappear without a signed, itemized contract. A third variant has middlemen promise to secure disaster grants or expedited aid money in exchange for an upfront payment that is never returned. FEMA's Region II office urged Puerto Rico residents to get everything in writing, photograph any contractor along with their vehicle, license plate, and ID, and never give financial information to unverified callers. The U.S. Attorney's Office for the District of Puerto Rico separately confirmed active fraud complaints tied to FEMA disaster-assistance applications after Fiona and said it would prosecute disaster-related fraud aggressively. Suspected fraud can be reported to the National Center for Disaster Fraud hotline at 1-866-720-5721 or the FBI San Juan field office.",
+    categorySlug: "government-impersonation",
+    alertLevel: "high",
+    sources: ["Federal Emergency Management Agency (FEMA), Region II", "U.S. Attorney's Office, District of Puerto Rico"],
+    sourceUrl: "https://www.fema.gov/press-release/20230425/puerto-rico-hurricane-survivors-urged-be-aware-fraud-and-other-scams",
+    country: "US",
+    isHistorical: true,
+    firstRecorded: "2017-10-14",
+    state: "PR",
+});
