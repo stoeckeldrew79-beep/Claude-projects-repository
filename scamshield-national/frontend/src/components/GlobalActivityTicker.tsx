@@ -1,10 +1,7 @@
-import type { Ref } from 'react';
-import { useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { useInfiniteQuery } from '@tanstack/react-query';
 import { Link } from 'react-router-dom';
 import { PAGE_SIZE, fetchScams } from '../services/scams';
-import { useScamsCount } from '../hooks/useScams';
-import { useInfiniteScroll } from '../hooks/useInfiniteScroll';
 import { countryName } from '../utils/countries';
 import { timeAgo } from '../utils/timeAgo';
 
@@ -20,25 +17,6 @@ const ALERT_DOT_COLORS: Record<string, string> = {
 // Polls rather than streams — the backend has no websocket/SSE channel, and
 // a short interval reads as "live" without needing one for a feed this size.
 const REFRESH_MS = 20_000;
-
-// Stands in for a row that has not loaded yet, at the same height as a real
-// one (see TodaysScams.tsx / Notorious.tsx for the fuller explanation): this
-// panel's own count of activity items only grows as pages load, so without a
-// reservation this scrollable panel's height — and its scrollbar thumb —
-// shrinks and slides down with every batch instead of staying put.
-function PlaceholderRow({ innerRef }: { innerRef?: Ref<HTMLDivElement> }) {
-  return (
-    <div ref={innerRef} aria-hidden style={{ contentVisibility: 'auto', containIntrinsicSize: '54px' }} className="px-2 py-2">
-      <div className="flex items-start gap-2">
-        <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-white/10" />
-        <div className="min-w-0 flex-1">
-          <div className="h-3.5 w-3/4 rounded bg-white/10" />
-          <div className="mt-1.5 h-3 w-1/3 rounded bg-white/5" />
-        </div>
-      </div>
-    </div>
-  );
-}
 
 export function GlobalActivityTicker() {
   const [filter, setFilter] = useState<ActivityFilter>('all');
@@ -58,17 +36,44 @@ export function GlobalActivityTicker() {
   });
 
   const items = data?.pages.flat() ?? [];
-  const setTrigger = useInfiniteScroll(
-    () => {
-      if (hasNextPage && !isFetchingNextPage) fetchNextPage();
-    },
-    Boolean(hasNextPage) && !isFetchingNextPage
-  );
-  const { data: total } = useScamsCount({ country });
-  // Reserve a row for every item still to come, so the panel is its full
-  // height immediately rather than growing — and its scrollbar thumb
-  // shrinking and sliding — with every batch that loads in.
-  const placeholderCount = Math.max((total ?? 0) - items.length, 0);
+
+  // The database holds thousands of entries — nowhere near small enough to
+  // load into this little panel, and not the point of it anyway. Instead of
+  // representing that true size, the panel never lets its own scrollbar
+  // thumb travel past the middle of the track: crossing the midpoint snaps
+  // back to it, so scrolling always reads as "there's more below" rather
+  // than counting down toward a visible end.
+  //
+  // Loading more is driven straight off scroll position rather than an
+  // IntersectionObserver on a moving target — with the trigger row itself
+  // shifting index every time a page arrives, a freshly re-observed node can
+  // miss firing (proven out empirically: it stalled under rapid scrolling),
+  // where checking "how close is scrollTop to the boundary" cannot miss.
+  const scrollRef = useRef<HTMLDivElement>(null);
+  const maybeLoadMore = () => {
+    const el = scrollRef.current;
+    if (!el || !hasNextPage || isFetchingNextPage) return;
+    const maxScroll = el.scrollHeight - el.clientHeight;
+    const halfway = maxScroll / 2;
+    // Fetch well before the reader actually reaches the clamp point, so a
+    // fresh page is already in by the time they'd otherwise feel the panel
+    // stop growing under them. Also covers the panel not yet being tall
+    // enough to scroll at all (a short first page, or a tall viewport).
+    if (maxScroll <= 0 || el.scrollTop >= halfway * 0.7) fetchNextPage();
+  };
+  const handleScroll = () => {
+    const el = scrollRef.current;
+    if (!el) return;
+    const halfway = (el.scrollHeight - el.clientHeight) / 2;
+    if (el.scrollTop > halfway) el.scrollTop = halfway;
+    maybeLoadMore();
+  };
+  // Tops the panel up on mount and after every page arrives, in case the
+  // panel still isn't scrollable yet (a short page, or a tall viewport) —
+  // handleScroll alone only runs in response to a scroll the reader made.
+  useEffect(() => {
+    maybeLoadMore();
+  }, [items.length, hasNextPage, isFetchingNextPage, fetchNextPage]);
 
   return (
     <div className="flex h-full flex-col">
@@ -96,7 +101,7 @@ export function GlobalActivityTicker() {
         </div>
       </div>
 
-      <div className="mt-3 flex-1 space-y-1 overflow-y-auto pr-1">
+      <div ref={scrollRef} onScroll={handleScroll} className="mt-3 flex-1 space-y-1 overflow-y-auto pr-1">
         {isLoading && <p className="px-1 text-sm text-slate-400">Loading…</p>}
         {items.map((scam) => (
           <Link
@@ -121,12 +126,6 @@ export function GlobalActivityTicker() {
             </div>
           </Link>
         ))}
-        {/* The trigger rides on the first placeholder — see Notorious.tsx for
-            why a sentinel placed after the full reserved height never fires. */}
-        {Array.from({ length: placeholderCount }, (_, i) => (
-          <PlaceholderRow key={`placeholder-${i}`} innerRef={i === 0 ? setTrigger : undefined} />
-        ))}
-        {placeholderCount === 0 && <div ref={setTrigger} aria-hidden className="h-px" />}
         {isFetchingNextPage && <p className="px-1 py-2 text-xs text-slate-500">Loading more…</p>}
         {!isLoading && items.length === 0 && <p className="px-1 text-sm text-slate-400">No activity recorded yet.</p>}
       </div>
