@@ -4138,3 +4138,43 @@ UsTZ.push({
     isHistorical: false,
     firstRecorded: '2026-05-20',
 });
+
+UsTZ.push({
+    name: 'Virgin Islands AG Warns of Deepfake Celebrity Investment Scams on Meta',
+    slug: 'virgin-islands-ag-rhea-deepfake-celebrity-investment-scam-alert',
+    description: `On April 8, 2026, U.S. Virgin Islands Attorney General Gordon C. Rhea issued a consumer investor alert warning residents about a surge of investment fraud circulating on Meta platforms — Facebook, Instagram, and WhatsApp. The scams use AI-generated deepfake videos and images of recognizable financial figures, including Cathie Wood, CNBC's Joe Kernen, and Shark Tank's Kevin O'Leary, to falsely endorse investment opportunities and lend them credibility. Victims are lured into online investment groups, pressured to move the conversation off Meta's platforms onto encrypted apps like WhatsApp, and then steered toward two main plays: "pump and dump" schemes that manipulate stock or cryptocurrency prices for the operators' benefit while participants lose money, and confidence scams that direct victims to fake trading platforms mimicking real ones, which display fabricated early profits before demanding withdrawal "fees" and then disappearing with the funds. Some variations push victims toward cryptocurrency ATMs or direct crypto transfers to drain savings. Rhea said, "These scams are designed to take advantage of unsuspecting residents at their most vulnerable moments. Always verify before you invest, and report anything suspicious immediately." The alert directed residents to report suspicious activity to the Department of Justice's Special Investigations Division or to the Department of Licensing and Consumer Affairs' SCAM hotlines.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'high',
+    sources: ['United States Virgin Islands Department of Justice', 'Virgin Islands Attorney General Gordon C. Rhea'],
+    sourceUrl: 'https://usvidoj.com/attorney-general-gordon-c-rhea-warns-residents-of-investment-scams-on-meta-platforms/',
+    country: 'US',
+    isHistorical: false,
+    firstRecorded: '2026-04-08',
+    state: 'VI',
+});
+
+UsTZ.push({
+    name: 'Virgin Islands Multi-Pretext Gift Card Payment Scam',
+    slug: 'virgin-islands-ag-george-gift-card-scam-alert',
+    description: `On August 26, 2020, Virgin Islands Attorney General Denise George issued a consumer alert after the Department of Justice recorded a rise in gift-card payment scams, with Assistant Attorney General Sigrid M. Tejo noting a particular increase in complaints from St. Thomas that her office was investigating jointly with the FBI and U.S. Postal Inspection Service. In the scheme, callers falsely claim to be IRS agents collecting back taxes or fines, tech-support representatives, family members in a sudden emergency, utility company representatives threatening disconnection, prize or sweepstakes notifiers, or impersonated military servicemembers, and in every version the caller pressures the victim to buy prepaid gift cards — commonly iTunes, Google Play, or Amazon cards — from retailers such as Walgreens, Target, or CVS. Once the victim has the cards, the caller demands the card numbers and PINs over the phone and drains the balance within minutes, a step that is functionally irreversible since gift-card funds cannot be recalled the way a bank wire or check can. George tied the spike to pandemic-era financial anxiety, saying "these types of scams focus on all areas of consumer vulnerability" and urged residents to apply a commonsense, skeptical approach to unsolicited calls and "too-good-to-be-true" offers. No legitimate government agency, utility, or business demands payment exclusively in gift cards.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['United States Virgin Islands Department of Justice', 'Virgin Islands Attorney General Denise George'],
+    sourceUrl: 'https://usvidoj.com/ag-george-issues-alert-after-reports-of-gift-card-scams-in-the-v-i/',
+    country: 'US',
+    firstRecorded: '2020-08-26',
+    state: 'VI',
+});
+
+UsTZ.push({
+    name: 'Virgin Islands "Return This Call or Be Arrested" Robocall Scam',
+    slug: 'virgin-islands-dlca-return-call-arrest-warrant-robocall',
+    description: `In November 2020, the Virgin Islands Department of Licensing and Consumer Affairs (DLCA) warned residents about an automated robocall scam after its own Commissioner, Richard Evangelista, received one of the calls himself. The prerecorded message falsely claims the recipient faces pending legal action and that an arrest warrant will be issued unless they call back a specified number immediately — a manufactured urgency designed to get frightened residents to return the call before they have time to think it through or verify the claim independently. DLCA confirmed the calls are fraudulent impersonations of government or law-enforcement authority, stating plainly, "If you receive a similar call, it is likely a scam. Hang up or do not respond." The agency noted that no legitimate court, police department, or government office resolves an outstanding warrant or pending case by robocall, and that real legal notices arrive through formal channels, not a prerecorded voice threatening immediate arrest. Residents who receive such a call were directed to report it to the Virgin Islands Police Department's Economic Crime Bureau or to DLCA's consumer hotlines rather than calling the number left in the message.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Virgin Islands Department of Licensing and Consumer Affairs', 'V.I. Consortium'],
+    sourceUrl: 'https://viconsortium.com/vi-community_center/virgin-islands-new-scam-is-requesting-victims-return-call-or-risk-arrest',
+    country: 'US',
+    firstRecorded: '2020-11-01',
+    state: 'VI',
+});

@@ -7424,3 +7424,42 @@ UsNS.push({
     sourceUrl: "https://www.ic3.gov/PSA/2026/PSA260616",
     country: "US",
 });
+
+UsNS.push({
+    name: "New Mexico Cannabis Control Division Impersonation Fraud",
+    slug: "new-mexico-cannabis-control-division-impersonation-fraud",
+    description:
+      "In an industry-wide bulletin, the Cannabis Control Division (CCD) of the New Mexico Regulation and Licensing Department warned licensed cannabis businesses of an intensifying wave of fraud in which callers and texters impersonate CCD compliance staff, investigators, or law enforcement officers. The scammers first build trust over repeated calls or texts, disclosing real owners' and managers' names and photos and relaying accurate details about the specific business to seem legitimate, then escalate: they tell employees a CCD inspection is imminent and ask them to photograph fire extinguishers, alarms, exits, safes, cash, and product; instruct employees to install an encrypted app to \"communicate privately\"; or, posing as an owner, manager, or attorney, direct employees to deliver cash off-premises or deposit it into a Bitcoin ATM. In a separate variant, callers pose as law enforcement investigating counterfeit currency, claiming the business's bank accounts have been frozen and demanding employees buy prepaid cards and read off the numbers, or hand over $20 bills for \"authenticity\" inspection. The CCD reported that in roughly 20 percent of these incidents, employees were successfully deceived into handing over cash or card numbers, defrauding cannabis businesses of tens of thousands of dollars. The bulletin urges employees to verify any caller's status by phoning CCD directly before further contact and to report incidents to local law enforcement and the CCD.",
+    categorySlug: "government-impersonation",
+    alertLevel: "high",
+    sources: ["New Mexico Regulation and Licensing Department", "Cannabis Control Division"],
+    sourceUrl: "https://www.rld.nm.gov/wp-content/uploads/2022/05/notice-to-cannabis-licensees-on-attempts-at-fraud-impersonation-of-CCD-employee-002.pdf",
+    country: "US",
+    state: "NM",
+});
+
+UsNS.push({
+    name: "New Mexico Board of Pharmacy Impersonation Scam",
+    slug: "new-mexico-board-of-pharmacy-impersonation-scam",
+    description:
+      "The New Mexico Board of Pharmacy (NMBOP), part of the Regulation and Licensing Department, issued an alert after receiving reports from pharmacists of calls from someone claiming to be an undercover NMBOP agent. The caller provides a fake badge number and tells the pharmacist they are under investigation by the Board, the DEA, and the FBI for illegal drug trafficking, citing a fabricated \"1985 Drug Trafficking Law\" and threatening license suspension and a sheriff visit if the pharmacist doesn't answer further questions. Calls have been spoofed to display the NMBOP's real office numbers on caller ID. The NMBOP's alert states plainly that the Board does not make calls of this kind, and pairs its warning with a DEA public-service notice on the same underlying nationwide scheme, in which callers impersonating DEA agents, using real officials' names, spoofed DEA phone numbers, and texted photos of fake law-enforcement credentials, falsely claim a target's identity was used to rent a car that was stopped at the border carrying drugs, then demand thousands of dollars via wire transfer or untraceable gift cards, or personal information such as a Social Security number, threatening arrest, prosecution, or, for medical practitioners and pharmacists specifically, revocation of their DEA registration. The DEA notes no legitimate federal agent will ever demand cash or gift cards over the phone, and instructs victims to report such calls to the FBI at ic3.gov.",
+    categorySlug: "government-impersonation",
+    alertLevel: "high",
+    sources: ["New Mexico Board of Pharmacy", "New Mexico Regulation and Licensing Department", "Drug Enforcement Administration"],
+    sourceUrl: "https://www.rld.nm.gov/wp-content/uploads/2022/11/scam-calls-targeting-pharmacists-and-practitioners.pdf",
+    country: "US",
+    state: "NM",
+});
+
+UsNS.push({
+    name: "New Mexico Toll Violation Text Scam",
+    slug: "new-mexico-toll-violation-text-scam",
+    description:
+      "The New Mexico Department of Transportation (NMDOT) issued a consumer alert flatly stating that since New Mexico has no toll roads, any message claiming a resident owes toll fees in the state is entirely fraudulent, according to NMDOT Secretary Ricky Serna. The scam arrives by text or email claiming the recipient has an unpaid toll violation and must pay immediately, sometimes citing a specific enforcement deadline to manufacture urgency, and threatens license suspension or other legal consequences if the target doesn't comply. Messages direct victims to click a link, scan a QR code, or call a number to \"resolve\" the fake debt, routing them to convincing fake websites that mimic official state government toll-payment portals and harvest personal and financial information. NMDOT and the Motor Vehicle Division emphasize neither agency contacts customers by text, email, or phone call to issue threats or demand payment, and advise New Mexicans to ignore unexpected toll messages, never click links or scan QR codes in them, and never enter personal or payment information in response. The same smishing wave prompted a parallel alert from the MVD about fake traffic-ticket and tax-debt texts using the same tactics.",
+    categorySlug: "government-impersonation",
+    alertLevel: "high",
+    sources: ["New Mexico Department of Transportation", "New Mexico Motor Vehicle Division"],
+    sourceUrl: "https://www.dot.nm.gov/blog/2025/05/12/toll-road-scam-alert-new-mexico-has-no-toll-roads/",
+    country: "US",
+    state: "NM",
+});
