@@ -7506,3 +7506,31 @@ UsNS.push({
     firstRecorded: "2017-10-14",
     state: "PR",
 });
+
+UsNS.push({
+    name: "Oklahoma Post-Storm Contractor Fraud Warning",
+    slug: "oklahoma-post-storm-contractor-fraud-warning",
+    description:
+      "Attorney General Gentner Drummond's office warned Oklahoma homeowners in April 2026 that fraudulent contractors ramp up activity in the immediate aftermath of severe weather, deliberately targeting people who are still shaken and trying to get storm damage repaired quickly. Drummond said scammers often target vulnerable homeowners trying to recover and rebuild, describing a pattern of unlicensed or fly-by-night operators who show up unsolicited and uninvited door-to-door in damaged neighborhoods, use high-pressure sales tactics to get a contract signed on the spot, and demand large upfront or cash-only payments before any work begins, then either disappear after taking the deposit or perform substandard repairs. The office also flagged pricing as a warning sign, noting that quotes suspiciously far below or above competing bids are both red flags for fraud. The Attorney General's Consumer Protection Unit recommends getting referrals only from people with recent, verified repair experience, collecting multiple written estimates that spell out scope, materials, and total cost, independently verifying a contractor's license and local standing before signing anything, and never handing over a large payment in cash or in full before work is complete.",
+    categorySlug: "home-improvement-solar",
+    alertLevel: "medium",
+    sources: ["Oklahoma Attorney General's Office"],
+    sourceUrl: "https://oklahoma.gov/oag/news/newsroom/2026/april/drummond-warns-of-contractor-fraud-after-severe-weather.html",
+    country: "US",
+    firstRecorded: "2026-04-01",
+    state: "OK",
+});
+
+UsNS.push({
+    name: "Oklahoma Robocall Crackdown: Amazon, Apple, SSA and IRS Imposter Calls",
+    slug: "oklahoma-robocall-crackdown-amazon-apple-ssa-irs-imposter-calls",
+    description:
+      "In December 2025, Attorney General Gentner Drummond launched Phase 2 of \"Operation Robocall Roundup,\" directing four of the largest voice service providers in the country, Inteliquent, Bandwidth, Lumen, and Peerless, to stop transmitting robocall traffic identified as illegal impersonation scams reaching Oklahomans. The underlying scam patterns named in the action were robocalls impersonating Amazon and Apple, typically claiming a fraudulent charge or account problem to extract payment or account credentials, and robocalls impersonating the Social Security Administration and the IRS, typically threatening benefit suspension, arrest, or legal action to pressure an immediate payment. The scale documented by the Attorney General's office was enormous: over a roughly three-to-four-year period, Inteliquent alone was estimated to have carried about 450 million Amazon/Apple imposter calls and 1.425 billion SSA/IRS imposter calls, with Lumen at roughly 261.5 million and 886.2 million respectively, Peerless at roughly 210.7 million and 585.3 million, and Bandwidth at roughly 162.7 million and 301 million. Drummond said the carriers have been warned to follow the rules and stop allowing fraudsters to harass and scam hardworking Oklahomans. The action followed an earlier Phase 1 warning sent to 37 smaller voice providers, after which 13 were removed from the FCC's database, 19 stopped routing the illegal traffic, and 4 terminated high-risk accounts outright, showing both how much illegal impersonation robocall volume was reaching Oklahoma phones and how the state used carrier-level enforcement, rather than only warning individual consumers, to try to cut it off at the source.",
+    categorySlug: "government-impersonation",
+    alertLevel: "high",
+    sources: ["Oklahoma Attorney General's Office"],
+    sourceUrl: "https://oklahoma.gov/oag/news/newsroom/2025/december/drummond-launches-phase-2-of-robocall-crackdown.html",
+    country: "US",
+    firstRecorded: "2025-12-01",
+    state: "OK",
+});
