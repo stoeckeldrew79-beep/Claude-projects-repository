@@ -9248,3 +9248,21 @@ Voyager's collapse turns on a distinction most depositors never have reason to l
     sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2025/06/former-ceo-voyager-digital-agrees-ban-28-million-payment-resolve-ftc-charges',
   },
 );
+
+NotoriousAF.push({
+    title: 'Bettino Craxi and the "Tangentopoli" Bribery System That Brought Down the Italian Republic',
+    slug: 'bettino-craxi-tangentopoli-bribery-scandal',
+    author: 'ScamShield Research Team',
+    tags: ['notorious', 'historical', 'international'],
+    body: `Bettino Craxi led Italy's Socialist Party (PSI) from 1976 and served as prime minister from 1983 to 1987, a tenure remembered for cutting inflation and raising Italy's international standing. Underneath that record, prosecutors would later show, Craxi's party had spent years running a nationwide kickback system so pervasive that Italians eventually gave it its own name: Tangentopoli, or "Bribesville" — a network in which companies bidding for public contracts routinely paid a hidden percentage, a tangente, to the political parties that controlled the awarding of those contracts.
+
+The system unraveled almost by accident. On February 17, 1992, Milan police arrested Mario Chiesa, a Socialist Party official and hospital administrator, for taking a bribe from a cleaning contractor. Rather than stay quiet, Chiesa began cooperating, and the magistrates investigating him — a team that came to be known as "Mani Pulite," or Clean Hands, fronted by prosecutor Antonio Di Pietro — followed the money outward from a single hospital contract into a citywide, then nationwide, web of kickbacks touching nearly every major party. Craxi at first dismissed the emerging scandal, then, in a defiant December 1992 speech to Parliament, admitted the PSI had relied on illegal financing but insisted every party did the same, calling the payments simply "the cost of politics."
+
+The largest single scheme to surface was the Enimont affair, centered on the 1989–90 merger of the state energy giant ENI with the private chemicals firm Montedison. Roughly 150 billion lire earmarked for the deal was diverted into what Italian prosecutors called the "supertangente" — a mega-bribe divided among the PSI, the Christian Democrats, and other governing parties to smooth the merger's political path. Craxi was convicted in the Enimont trial on October 27, 1995, alongside former justice minister Claudio Martelli, adding to a July 1994 conviction — for taking roughly $7 million in bribes funneled through Banco Ambrosiano — that had already sentenced him to eight and a half years. Across the various Mani Pulite proceedings, Craxi was ultimately handed cumulative sentences totaling around 27 years, of which roughly nine years and eight months were upheld on final appeal.
+
+Craxi never served any of it. He left Italy for Tunisia in May 1994, settling into a villa in Hammamet under the protection of the government of President Zine El Abidine Ben Ali, which consistently refused Italy's extradition requests. He spent the rest of his life insisting the prosecutions were a politically motivated persecution of a man who had merely done what every party did, and never returned to face the sentences handed down against him in absentia. His health declined through the late 1990s with complications from diabetes, and he died at his villa in Hammamet on January 19, 2000, at age 65, still a fugitive from Italian justice.
+
+Tangentopoli did more damage than any single conviction: the Mani Pulite investigations implicated thousands of politicians and businessmen, drove multiple governing parties to collapse or dissolve outright, and are widely credited with ending Italy's postwar "First Republic" party system entirely. Craxi's case remains the signature example of a fraud that scales past any one company or victim — a kickback percentage quietly built into the cost of nearly every public contract in a country, sustained for years by the simple fact that every party benefiting from it had every incentive to look away.`,
+    sourceUrl: 'https://www.britannica.com/biography/Bettino-Craxi',
+  },
+);
