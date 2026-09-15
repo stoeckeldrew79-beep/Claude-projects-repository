@@ -182,4 +182,11 @@ export const PHOTO_PLAN: PhotoPlanEntry[] = [
   { slug: 'coding-bootcamp-income-share-agreement-scam-guide', query: 'programming code computer screen classroom', caption: 'Coding bootcamps sold income share agreements as an alternative to loans', position: 50 },
   { slug: 'lost-pet-scam-ransom-good-samaritan-guide', query: 'lost dog missing pet poster', caption: 'Lost-pet posters give scammers everything they need to fake a sighting', position: 50 },
   { slug: 'arsen-lusher-trucking-ponzi-scheme', query: 'semi truck delivery fleet', caption: 'The trucking contracts Lusher raised capital against did not support the returns promised', position: 50 },
+  { slug: 'stephen-ehrlich-voyager-digital-fraud', query: 'Toronto Ontario financial district', caption: 'Toronto, where Voyager Digital was listed before the crypto lender collapsed', position: 45 },
+  { slug: 'dieter-breitkreuz-phoenix-kapitaldienst-ponzi-scheme', query: 'Frankfurt am Main Germany skyline', caption: 'Frankfurt, where Phoenix Kapitaldienst ran its managed-futures scheme', position: 45 },
+  { slug: 'brian-hunter-amaranth-advisors-natural-gas-collapse', query: 'natural gas pipeline compressor station', caption: 'Natural gas infrastructure. Amaranth lost $6.6 billion betting on its price', position: 50 },
+  { slug: 'patrick-halligan-archegos-cfo-fraud', query: 'Manhattan Midtown office towers', caption: 'Manhattan, where Archegos misrepresented its exposure to its lending banks', position: 45 },
+  { slug: 'salvatore-ligresti-fondiaria-sai-fraud', query: 'Milan Italy city skyline', caption: 'Milan, where Fondiaria-SAI was headquartered', position: 45 },
+  { slug: 'joseph-ossorio-david-heuwetter-drysdale-government-securities-collapse', query: 'Wall Street New York financial district', caption: 'Wall Street, where Drysdale\u2019s repo trades nearly broke the government bond market', position: 45 },
+  { slug: 'steven-perkins-pvm-oil-drunk-trading-market-abuse', query: 'crude oil barrels storage', caption: 'Perkins\u2019 unauthorised overnight trades moved the global price of crude', position: 50 },
 ];
