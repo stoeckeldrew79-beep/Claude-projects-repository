@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import { AxiosError } from 'axios';
 import { Link, useParams } from 'react-router-dom';
 import { useStateDetail } from '../hooks/useStates';
@@ -19,6 +20,14 @@ export default function StateDetail() {
   // doesn't exist when the truth is the API is unreachable.
   const isMissing = isError && (error as AxiosError | null)?.response?.status === 404;
 
+  // "Current" mirrors the map's own count (active, non-historical). "Full
+  // timeline" additionally pulls in this state's historical entries — which
+  // otherwise exist in the database but are never shown anywhere for a
+  // given state — sorted earliest-first by first_recorded, so a state's
+  // page can answer "how far back does this go" instead of only "what's
+  // active right now".
+  const [showTimeline, setShowTimeline] = useState(false);
+
   // Both lists are keyed off the two-letter code, which only arrives with the
   // state record, so they stay disabled until it does.
   const code = state?.state;
@@ -27,7 +36,10 @@ export default function StateDetail() {
     fetchNextPage,
     hasNextPage,
     isFetchingNextPage,
-  } = useInfiniteScams({ state: code }, Boolean(code));
+  } = useInfiniteScams(
+    showTimeline ? { state: code, view: 'all', sort: 'chronological' } : { state: code },
+    Boolean(code)
+  );
   const { data: news } = useDailyScamNews(code, Boolean(code));
 
   const scams = scamPages?.pages.flat() ?? [];
@@ -194,10 +206,43 @@ export default function StateDetail() {
       )}
 
       <section className="mt-10">
-        <h2 className="text-2xl font-bold text-slate-900">Documented scams in {state.state_name}</h2>
+        <div className="flex flex-wrap items-center justify-between gap-4">
+          <h2 className="text-2xl font-bold text-slate-900">
+            {showTimeline ? `${state.state_name}'s scam history` : `Documented scams in ${state.state_name}`}
+          </h2>
+          <div className="flex gap-1 rounded-lg bg-slate-100 p-1">
+            <button
+              type="button"
+              onClick={() => setShowTimeline(false)}
+              className={`px-3 py-1.5 rounded-md text-sm font-medium transition-colors ${
+                !showTimeline ? 'bg-white text-slate-900 shadow-sm' : 'text-slate-600 hover:text-slate-900'
+              }`}
+            >
+              Current threats
+            </button>
+            <button
+              type="button"
+              onClick={() => setShowTimeline(true)}
+              className={`px-3 py-1.5 rounded-md text-sm font-medium transition-colors ${
+                showTimeline ? 'bg-white text-slate-900 shadow-sm' : 'text-slate-600 hover:text-slate-900'
+              }`}
+            >
+              Full timeline
+            </button>
+          </div>
+        </div>
         <p className="mt-2 text-sm text-slate-500">
-          Recorded entries tied to {state.state_name} — state agency impersonations, state AG enforcement actions, and
-          scams run against {state.state_name} residents.
+          {showTimeline ? (
+            <>
+              Every entry documented for {state.state_name}, current and historical, ordered earliest-first by first
+              recorded date. Entries without a specific documented date are listed last, not omitted.
+            </>
+          ) : (
+            <>
+              Recorded entries tied to {state.state_name} — state agency impersonations, state AG enforcement
+              actions, and scams run against {state.state_name} residents.
+            </>
+          )}
         </p>
         <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {scams.map((scam) => (
