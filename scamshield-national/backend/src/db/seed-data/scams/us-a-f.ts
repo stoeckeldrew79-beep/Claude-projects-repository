@@ -8556,6 +8556,30 @@ UsAF.push({
 });
 
 UsAF.push({
+    name: 'Alaska Division of Insurance Fake Health Insurance Plan Scam',
+    slug: 'alaska-fake-health-insurance-plan-scam',
+    description: `The Alaska Division of Insurance warns residents about fake health plans sold through several overlapping pitches: "phony benefits" plans promising full coverage at low prices with no exclusions for pre-existing conditions; "phony requirements" pitches falsely claiming a plan is mandated by the ACA or Medicare; discount or limited-benefit plans marketed as full insurance that actually pay few or no claims; and plans that require joining a fake "association" or "union" to qualify, sometimes sold via social media with gift-card sign-up incentives or look-alike websites mimicking the official healthcare.gov marketplace. Victims discover the plan is worthless only when they try to use it and are left owing the full cost of care themselves, sometimes tens of thousands of dollars, and the Division notes some ads come from unlicensed brokers who enroll or switch a consumer's plan without their consent. The Division's standing advice is to verify any agent's license directly with the Division of Insurance, type marketplace URLs in manually rather than clicking search results or email links, and treat any plan sold with pressure tactics or gift-card incentives as a red flag.`,
+    categorySlug: 'insurance-fraud',
+    alertLevel: 'medium',
+    sources: ['Alaska Division of Insurance'],
+    sourceUrl: 'https://www.commerce.alaska.gov/web/Portals/11/pub/BewareFakeHealthInsuranceAlert2024.pdf',
+    country: 'US',
+    state: 'AK',
+});
+
+UsAF.push({
+    name: 'Alaska BG Wealth Sharing / DSJ Exchange Crypto Recruitment Investment Fraud',
+    slug: 'alaska-bg-wealth-dsj-exchange-crypto-recruitment-fraud',
+    description: `The Alaska Division of Banking and Securities warned residents in a May 2026 press release about BG Wealth Sharing Ltd., which markets itself as "the world's largest hedge fund," and its associated purported crypto exchange DSJ Exchange Pty Ltd. New investors are recruited through invitation-only signup links shared via social media, WhatsApp, Telegram, Signal, and a platform called Bonchat, with existing members earning referral bonuses for bringing in new recruits and daily "trading signals" delivered by a self-described "professor" whose identity the Division could not verify. Investors without existing crypto accounts are told to wire funds to a recruiter via Zelle, who claims to add cryptocurrency to the investor's account on their behalf, rather than the investor ever controlling a wallet directly. The Division determined BG Wealth and DSJ appear to be offering unregistered securities in Alaska and making unverifiable claims of licensing in Australia, Singapore, Dubai, New Zealand, and elsewhere, while regulators in several other U.S. states, Canada, the UK, and Pacific jurisdictions have separately issued warnings or cease-and-desist orders against the same entities. Alaskans approached about a "referral bonus" crypto investment opportunity through a messaging app should independently verify any claimed regulatory license before sending money, and should be especially wary of any arrangement where a recruiter, rather than the investor, controls the actual cryptocurrency wallet.`,
+    categorySlug: 'cryptocurrency-scams',
+    alertLevel: 'high',
+    sources: ['Alaska Division of Banking and Securities'],
+    sourceUrl: 'https://www.commerce.alaska.gov/web/Portals/0/pub/Press%20Releases/2026/26-005%20Alaska%20Division%20of%20Banking%20and%20Securities%20Warns%20Consumers%20About%20Possible%20Cryptocurrency%20Investment%20Fraud.pdf',
+    country: 'US',
+    state: 'AK',
+});
+
+UsAF.push({
     name: 'CreditRepair.com/Lexington Law Settlement Refund Check Scam',
     slug: 'creditrepair-lexington-law-settlement-refund-check-scam',
     description: `Following the CFPB's August 2023 order requiring Lexington Law and CreditRepair.com to pay $2.7 billion in consumer redress and civil penalties for illegally charging upfront telemarketing fees for credit repair services, settlement administrator JND Legal Administration mailed roughly $1.8 billion in refund checks to over 4 million eligible consumers between December 5, 2024 and January 6, 2025, with reissue runs continuing every two months after mid-February 2025. The CFPB has since warned that scammers are impersonating officials and contacting recipients to offer to "expedite" their check, asking for banking details, Social Security numbers, or a fee before the money can be released — even though, as the Bureau states plainly, "You do not need to do anything to receive and cash a valid check." Recipients who are unsure whether a check or a call referencing this settlement is genuine can verify it directly through JND's dedicated verification line rather than through any number or link supplied by the caller, and should treat any request for payment, banking access, or personal information as a certain sign of fraud regardless of how official the caller sounds.`,
