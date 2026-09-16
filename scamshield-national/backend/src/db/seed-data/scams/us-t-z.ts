@@ -4043,6 +4043,44 @@ UsTZ.push({
 });
 
 UsTZ.push({
+    name: 'Moscow, Tennessee Tax Preparer\'s $80 Million Pandemic-Relief Fraud (Renata Walton and Nicole Jones)',
+    slug: 'tennessee-moscow-walton-jones-pandemic-relief-fraud',
+    description: `Renata Walton, who owned a tax-preparation business in Moscow, Tennessee, and her employee Nicole Jones of Cordova, Tennessee, filed clients' tax returns claiming fraudulent COVID-era Employee Retention Credits and paid sick and family leave credits based on fabricated wages, and separately submitted false Paycheck Protection Program and Economic Injury Disaster Loan applications supported by forged tax documents. Individual client refunds often exceeded $100,000, and Walton and Jones typically collected roughly $15,000 in fees per fraudulent return; the scheme claimed approximately $80 million in relief funds and caused more than $52 million in actual losses to the United States. When the IRS later contacted clients to claw back the money, Walton sent letters falsely vouching for the fictitious wages to obstruct the recovery effort. Both women pleaded guilty in the U.S. District Court for the Western District of Tennessee to conspiracy to commit wire fraud, wire fraud, money laundering, and related tax charges, with Walton also pleading guilty to obstruction of justice, and sentencing scheduled for June 2026. Residents whose paid preparer promises unusually large refunds or "extra credits" tied to COVID-relief programs should insist on reviewing the actual return before it's filed, check refund status directly through the IRS's own "Where's My Refund" tool rather than relying on the preparer's word, and report suspected preparer fraud to the IRS or the Treasury Inspector General for Tax Administration.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'high',
+    sources: ['Internal Revenue Service Criminal Investigation'],
+    sourceUrl: 'https://www.irs.gov/compliance/criminal-investigation/tennessee-tax-preparer-pleads-guilty-to-80m-pandemic-relief-fraud-scheme',
+    country: 'US',
+    state: 'TN',
+});
+
+UsTZ.push({
+    name: 'MLGW (Memphis Light, Gas and Water) Utility Shutoff Impersonation Scam',
+    slug: 'tennessee-mlgw-memphis-utility-shutoff-impersonation',
+    description: `Memphis Light, Gas and Water Division, the country's largest three-service public utility, has repeatedly warned customers about scammers who spoof caller ID to appear as MLGW, call claiming the customer's account is delinquent, and threaten immediate service disconnection unless payment is made right away. The callers instruct victims to pay via prepaid debit cards or by calling a 1-800 number, and more recent variants have texted customers barcodes to complete payment at a Walmart or Walgreens register. MLGW's official guidance states plainly that it never solicits payments via prepaid debit cards or 1-800 numbers and that real service representatives do not personally call demanding immediate payment, since the utility instead mails cutoff notices and uses an automated dialer rather than a live call pressuring an instant card payment. The pattern has recurred for years, with documented MLGW alerts spanning from 2013 through at least February 2024, and has been separately covered by the Memphis Better Business Bureau. MLGW customers who receive such a call should hang up immediately, never share account or payment information, verify any balance by logging into their own MLGW online account or calling the number on a past bill, and report the incident to MLGW residential support or the Memphis BBB Scam Tracker.`,
+    categorySlug: 'utility-scams',
+    alertLevel: 'medium',
+    sources: ['Memphis Light, Gas and Water Division', 'Memphis Better Business Bureau'],
+    sourceUrl: 'https://www.mlgw.com/news/news_SQ22024',
+    country: 'US',
+    state: 'TN',
+});
+
+UsTZ.push({
+    name: 'National Foundation for Transplants "Restricted Fund" Donor Deception',
+    slug: 'tennessee-national-foundation-for-transplants-donor-deception',
+    description: `The National Foundation for Transplants, a Memphis-based nonprofit that raised money to help organ-transplant patients cover medical costs, told donors that contributions made "in honor of" or "on behalf of" a specific patient would be restricted to that patient's care, and sent patients statements formatted like bank account reports showing beginning and ending balances, creating the impression a dedicated fund existed for them personally. In reality, per Tennessee Attorney General Jonathan Skrmetti's office, those donations were unrestricted general-fund assets rather than segregated accounts, and when the foundation abruptly announced it was ceasing operations on April 8, 2024, patients and families across multiple states, including one who had believed $11,000 was set aside in her mother's account, discovered they could not access the funds they thought had been raised for them. The Attorney General's office received 47 complaints from patients and donors after the shutdown and, on April 14, 2025, sued to have the foundation judicially dissolved under the Tennessee Nonprofit Corporation Act, with any remaining assets to be redirected under court oversight to another nonprofit serving a similar charitable purpose. Before donating "in honor of" a specific patient to any transplant- or medical-fundraising charity, donors should ask in writing whether funds are held in a segregated, restricted account or a general fund, verify the charity's registration and complaint history through the Tennessee Secretary of State's charitable-solicitations database, and report suspected charity misrepresentation to the Tennessee Attorney General's Public Interest Division.`,
+    categorySlug: 'charity-scams',
+    alertLevel: 'medium',
+    sources: ['Tennessee Attorney General\'s Office'],
+    sourceUrl: 'https://www.tn.gov/attorneygeneral/news/2025/4/14/pr25-23.html',
+    country: 'US',
+    state: 'TN',
+    isHistorical: true,
+    firstRecorded: '2024-04-08',
+});
+
+UsTZ.push({
     name: 'Charlotte, Vermont Man\'s $1 Million Fake Ledger Support Crypto Theft (Gene Duckett)',
     slug: 'vermont-charlotte-duckett-fake-ledger-support-crypto-theft',
     description: `Gene Duckett, of Charlotte, Vermont, got a call one Friday night in March 2025 from a man who identified himself as "Benjamin" and said he was calling from Ledger, the company that makes the hardware wallet Duckett used to store his cryptocurrency, warning that his funds were in danger of being stolen. The caller walked Duckett through a "security" process built entirely around trust: first providing him a code, then having a second caller reference that same code back to him minutes later to prove they were legitimate, which made Duckett comfortable enough to follow a link to a website and type in his 24-word recovery seed phrase to "secure" his wallet. A third caller then phoned to say something had "gone wrong," and when Duckett checked his XRP Ledger wallet himself, every bit of it was gone — a loss he later put at $1,038,000. "It was $1,038,000. That's how much it was worth. It is a lot of money," Duckett said. A cybersecurity expert who reviewed the case, Eithan Raviv of Lionsgate Network, noted that Ledger has disclosed at least two data breaches over the years that exposed customer contact information, which is the most likely way scammers obtained Duckett's name and phone number in the first place and could reference his real hardware wallet by name to sound credible. Ledger states flatly that it will never call customers by phone and will never, under any circumstances, ask for a 24-word recovery phrase; anyone who gets an unsolicited call, even one referencing accurate account details or a "verification code" the caller already seems to know, should hang up and contact the wallet maker only through the contact information on its own official website, and should remember that no legitimate crypto company or wallet update ever requires typing a recovery seed phrase into any web page.`,
