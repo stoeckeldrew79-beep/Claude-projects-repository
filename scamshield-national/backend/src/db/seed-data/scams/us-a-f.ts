@@ -8764,3 +8764,29 @@ UsAF.push({
     country: "US",
     state: "ND",
 });
+
+UsAF.push({
+    name: "Fake Hawaiʻi Department of Motor Vehicles Unpaid Traffic Citation Text Scam",
+    slug: "fake-hawaii-dmv-unpaid-traffic-citation-text-scam",
+    description:
+      "Hawaii residents are receiving unsolicited text messages from a supposed \"Hawaiʻi Department of Motor Vehicles\" claiming they owe money on unpaid traffic citations. There is no statewide DMV in Hawaii — vehicle registration and licensing are handled by the four counties, and traffic citations are handled by the Hawaiʻi State Judiciary, so the agency name itself is a red flag. The texts threaten suspended driving privileges, cancelled registration, extra service fees, and legal action unless you pay by a deadline, and they include a link to a spoofed payment page that harvests personal, financial, and vehicle information. Officials stress that neither the Judiciary nor any county DMV office contacts people by text, phone, or email about unpaid traffic citations. Do not tap the link or reply; delete the message and check any citation or registration status directly with your county DMV or the Hawaiʻi State Judiciary using contact information you look up yourself.",
+    categorySlug: "government-impersonation",
+    alertLevel: "high",
+    sources: ["Hawaiʻi State Judiciary — Beware of Text Scam Involving Bogus Unpaid Traffic Fines (February 2026)","County of Kauaʻi Finance Department — Finance Department warns public of DMV phishing text scam (February 1, 2026)","County of Hawaiʻi news release"],
+    sourceUrl: "https://www.courts.state.hi.us/news_and_reports/2026/02/beware-of-text-scam-involving-bogus-unpaid-traffic-fines",
+    country: "US",
+    state: "HI",
+});
+
+UsAF.push({
+    name: "Fake \"Hawaii Department of Revenue\" Tax Phishing Campaign",
+    slug: "fake-hawaii-department-of-revenue-tax-phishing-campaign",
+    description:
+      "Scammers are contacting Hawaii taxpayers by text message, email, social media message, and mailed letter claiming to be the \"Hawaii Department of Revenue\" and demanding payment for taxes owed or requesting personal information. No such agency exists — Hawaii's real tax authority is the Department of Taxation (DOTAX) — so the fabricated name is the clearest warning sign. DOTAX has confirmed it does not send text messages, does not post social media messages about taxes owed, and does not send unsolicited emails, and that it never authorizes \"loan clearances\" or approves bank wire transfers, both pretexts these fraudsters use. Victims who respond risk handing over Social Security numbers, bank details, and payments that cannot be recovered. Do not reply to any correspondence from a \"Hawaii Department of Revenue\" and never share personal or financial data in response to unsolicited contact — verify anything tax-related directly with the Hawaiʻi Department of Taxation.",
+    categorySlug: "tax-scams",
+    alertLevel: "high",
+    sources: ["Hawaiʻi Department of Taxation — Tax Scam Alert (June 1, 2023), via Office of the Governor newsroom"],
+    sourceUrl: "https://governor.hawaii.gov/newsroom/press-release-tax-scam-alert-june-1-2023-hawaii-department-of-taxation/",
+    country: "US",
+    state: "HI",
+});
