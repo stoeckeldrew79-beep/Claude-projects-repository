@@ -4057,6 +4057,44 @@ UsTZ.push({
 });
 
 UsTZ.push({
+    name: 'Vermont Jury-Duty Warrant Phone Scam',
+    slug: 'vermont-jury-duty-warrant-phone-scam',
+    description: `Scammers call Vermonters posing as county sheriff's deputies or U.S. District Court/U.S. Marshals Service staff, claiming the person missed a jury summons and now has an active arrest warrant unless they pay a fine immediately. In a Chittenden County cluster, a caller with a Southern accent invoked real Vermont judges' names for credibility and demanded a $1,200 "fine" via gift card or wire transfer; the Chittenden County Sheriff's Office reported fielding such calls nearly daily, with some victims having paid as much as $18,000 before contacting authorities. Both the Chittenden County Sheriff's Office and the U.S. District Court for the District of Vermont publicly confirmed the scam, stating courts and deputies never call citizens to threaten arrest or demand phone-based payment — legitimate missed-jury-duty violations are handled by mailed notice, actual fines top out around $200, and arrest warrants for the offense are extremely rare. Residents should hang up immediately, never give personal or payment information to an unsolicited caller, and report incidents to their local sheriff's office or the U.S. District Court Clerk's Office at (802) 951-6301.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Chittenden County Sheriff\'s Office', 'U.S. District Court for the District of Vermont', 'VTDigger'],
+    sourceUrl: 'https://vtdigger.org/2022/12/07/chittenden-county-sheriffs-office-warns-vermonters-of-scam/',
+    country: 'US',
+    state: 'VT',
+});
+
+UsTZ.push({
+    name: 'Vermont Post-Flood Insurance and Investment Fraud',
+    slug: 'vermont-post-flood-insurance-investment-fraud',
+    description: `After Vermont's catastrophic July 2023 flooding, the Vermont Department of Financial Regulation issued a formal consumer alert on July 24, 2023 warning of two fraud tracks emerging around the disaster: fake "insurance adjusters" or unlicensed contractors cold-calling flood victims to harvest policy details and pressure them into unnecessary coverage, and unsolicited investment pitches via email or social media promoting bogus "storm-recovery" investment pools or bonds, fake water-removal or purification technology ventures, and distressed flood-property real estate deals aimed at homeowners awaiting insurance settlements. The scams targeted flood-affected Vermonters at their most vulnerable, with Vermont Attorney General Charity Clark separately noting that scammers find a reliable formula in disasters. The Department of Financial Regulation advised residents to verify any insurance agent's license, never pay upfront for disaster assistance since FEMA aid is free, photograph damage before repairs, demand identification from anyone claiming to represent a government agency, and confirm that any investment or seller is registered with the department's Securities Division. Suspicious activity can be reported to dfr.insuranceinfo@vermont.gov or 800-964-1784.`,
+    categorySlug: 'insurance-fraud',
+    alertLevel: 'medium',
+    sources: ['Vermont Department of Financial Regulation'],
+    sourceUrl: 'https://dfr.vermont.gov/consumer-alert/consumer-alert-flood-related-insurance-and-investment-scams-and-frauds',
+    country: 'US',
+    state: 'VT',
+    isHistorical: true,
+    firstRecorded: '2023-07-24',
+});
+
+UsTZ.push({
+    name: 'Vermont Unemployment Insurance Identity Theft and Phishing Texts',
+    slug: 'vermont-unemployment-insurance-identity-theft-phishing',
+    description: `Since the COVID-19 era, fraud rings have used personal data from unrelated prior data breaches — Social Security numbers, driver's license numbers, sometimes license photos — to file fraudulent unemployment claims in real Vermonters' names with the Vermont Department of Labor, diverting benefit payments to themselves. Separately, the department has documented waves of phishing texts telling recipients to "review your claim" or "verify your account" via malicious links, exploiting the fact the department never texts claimants. Both actual claimants and people who never filed a claim at all are affected; identity-theft victims often first learn of it only when they receive an unexpected notice or a 1099-G tax form for benefits they never applied for or received. The Vermont Department of Labor urges anyone notified of an unfamiliar claim to contact its Unemployment Insurance Fraud Team at labor.uifraud@vermont.gov or (802) 828-4104, to never click links in unsolicited unemployment texts or emails, and to file or manage claims only directly through labor.vermont.gov.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'high',
+    sources: ['Vermont Department of Labor'],
+    sourceUrl: 'https://labor.vermont.gov/news/vt-labor-department-alerts-vermonters-going-text-scams',
+    country: 'US',
+    state: 'VT',
+});
+
+UsTZ.push({
     name: 'Virgin Islands Coronavirus Stimulus-Payment Tax Scam Warning',
     slug: 'virgin-islands-coronavirus-stimulus-tax-scam-warning',
     description: `As the first round of federal Economic Impact Payments was announced in April 2020, the U.S. Attorney's Office for the District of the Virgin Islands, IRS Criminal Investigation (led by Special Agent in Charge Michael J. De Palma), the Virgin Islands Bureau of Internal Revenue (Director Joel A. Lee), and then-Attorney General Denise N. George jointly warned Virgin Islands taxpayers on April 16, 2020 that fraudsters were already exploiting confusion over the new payments. Officials described callers posing as IRS or government representatives who asked victims to "verify" bank account, debit card, or PayPal information before a payment could be released — something the IRS and BIR never actually do — as well as texts and emails promising a faster payment in exchange for personal information or a click on an embedded link, and bogus paper checks for odd amounts, especially ones with cents, that came with instructions to call a number or visit a website to "verify" the check before depositing it. The alert clarified that real stimulus checks would simply arrive by mail at the address on file from a taxpayer's 2018 return, with no fee, phone call, or website visit required to receive one, and urged residents to hang up on suspicious callers, delete the texts and emails without clicking anything, and never hand over banking details to anyone claiming a payment depends on it. Virgin Islanders who encountered one of these schemes were directed to the National Center for Disaster Fraud Hotline at 866-720-5721 or disaster@leo.gov, and the same playbook — a caller or text claiming a benefit payment requires "verification" of financial details first — has resurfaced with each subsequent round of federal relief, tax rebate, or unemployment payments since.`,
