@@ -207,4 +207,5 @@ export const PHOTO_PLAN: PhotoPlanEntry[] = [
   { slug: 'real-estate-deed-solicitation-scam-guide', query: 'property deed document land title', caption: 'Your county recorder sells the same deed copy for a few dollars', position: 50 },
   { slug: 'roger-levitt-tlg-financial-adviser-fraud', query: 'City of London Lloyds building', caption: 'The City of London, where the Levitt Group sold investment advice to its clients', position: 45 },
   { slug: 'fake-parking-traffic-ticket-text-scam-guide', query: 'parking ticket windscreen car', caption: 'A real citation goes on the windscreen or in the post \u2014 not to your phone by text with a payment link', position: 50 },
+  { slug: 'abdul-shamji-johnson-matthey-bankers-collapse', query: 'Bank of England Threadneedle Street', caption: 'The Bank of England, which mounted the rescue when Johnson Matthey Bankers collapsed in 1984', position: 45 },
 ];
