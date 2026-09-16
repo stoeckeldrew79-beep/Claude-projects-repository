@@ -7186,6 +7186,42 @@ UsNS.push({
 });
 
 UsNS.push({
+    name: 'Conway Caregiver Deed Theft (Sarah Smalls and Robert Rowland)',
+    slug: 'sc-conway-caregiver-deed-theft',
+    description: `A home caregiver placed with a South Carolina family through Griswold Home Care began caring for 75-year-old Robert Rowland of Conway, South Carolina — who had Parkinson's disease and a brain injury — in March 2024. Within weeks the caregiver, Sarah Smalls, was named Rowland's power of attorney, and on April 17, 2024 a quitclaim deed transferred his Conway home to her for a stated $5. Bank records reviewed by a local news outlet show additional transfers from Rowland's account to Smalls, including transactions after his death in June 2024, and his out-of-state daughter discovered he had died only after driving to the house and finding the locks and doorbell camera changed. Conway police are investigating the property transfer and the circumstances of his death; the case illustrates how a caregiver granted power of attorney can use it to sign away an incapacitated homeowner's single largest asset before family members even learn anything is wrong. Families with an aging or incapacitated relative receiving in-home care should periodically verify directly with the county register of deeds that no property transfer has occurred, and should be alert to a new caregiver being added as power of attorney soon after being hired.`,
+    categorySlug: 'mortgage-foreclosure-scams',
+    alertLevel: 'high',
+    sources: ['WMBF News (Gray Media)'],
+    sourceUrl: 'https://www.wmbfnews.com/2026/08/27/this-is-my-dads-house-daughter-claims-nurse-took-deed-fathers-conway-home-before-his-death/',
+    country: 'US',
+    state: 'SC',
+});
+
+UsNS.push({
+    name: 'Richland County "Jump-In" Staged Accident Insurance Fraud Ring',
+    slug: 'sc-richland-county-jump-in-staged-accident-fraud',
+    description: `In a scheme South Carolina investigators call a "jump-in" fraud, people who were never actually inside a vehicle during a crash are added after the fact to a real accident's insurance claim to inflate the payout. In a case the South Carolina Law Enforcement Division charged in Richland County, Matthew Jo Von Coaxum, 45, was accused of being added as a phantom passenger to a Progressive Insurance claim from a February 16, 2025 collision and of forging a lost-wages form claiming he missed 42 days of work at $22 an hour from an employer he never actually worked for, a fabricated $12,012 loss; he collected roughly $2,000 before the fraud was caught. Two other participants in the same ring, Zanajia Wilson-James and Tikia Simone Carter, were separately charged in April and May 2026 with presenting false insurance claims over $10,000, showing this was a coordinated multi-person scheme rather than an isolated incident. SLED investigated jointly with Progressive Insurance, and the South Carolina Department of Insurance's Insurance Fraud Division is prosecuting the case. Anyone approached to be added to an accident claim they weren't actually part of, or asked to sign a lost-wages statement for an employer they don't work for, should recognize that as insurance fraud and can report suspected staged-accident schemes to the SC Department of Insurance's Insurance Fraud Division.`,
+    categorySlug: 'insurance-fraud',
+    alertLevel: 'medium',
+    sources: ['WIS-TV (WIS10)', 'South Carolina Law Enforcement Division (SLED)', 'South Carolina Department of Insurance'],
+    sourceUrl: 'https://www.wistv.com/2026/08/04/sled-charges-man-with-forgery-insurance-fraud-staged-accident-scheme/',
+    country: 'US',
+    state: 'SC',
+});
+
+UsNS.push({
+    name: 'South Carolina EBT Card Skimming and Cloning Benefit Theft',
+    slug: 'sc-ebt-card-skimming-benefit-theft',
+    description: `Criminals use physical skimming devices planted on point-of-sale card readers, or electronic cloning, to steal the card numbers and PINs of South Carolina SNAP recipients' Electronic Benefit Transfer (EBT) cards, then drain the grocery benefits before the legitimate cardholder can use them — frequently by making out-of-state or online purchases the real recipient never made. Because the federal authority that let states reimburse SNAP recipients for stolen EBT benefits expired on December 20, 2024 and had not been renewed as of late 2025, South Carolina's Department of Social Services can no longer replace benefits lost this way through that federal channel, leaving victims — disproportionately low-income and elderly households — without recourse for stolen grocery money. In response, effective April 28, 2026, SC DSS began defaulting every EBT card in the state to a "Block High Risk Transactions" status that stops all out-of-state and online transactions unless a cardholder actively unlocks the card through the ConnectEBT portal, app, or phone line. South Carolina's legislature has separately taken up a state-level EBT Fraud Reimbursement Fund bill, covering up to 80% of stolen benefits, to fill the gap left by the lapsed federal program. SNAP recipients should check their EBT transaction history regularly for purchases they didn't make, keep their card's high-risk transaction block enabled except when actually shopping out of state or online, and report suspected skimming to SC DSS immediately.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'medium',
+    sources: ['South Carolina Department of Social Services', 'South Carolina General Assembly'],
+    sourceUrl: 'https://dss.sc.gov/news/south-carolina-dss-strengthens-fraud-prevention-measures-to-protect-snap-recipients/',
+    country: 'US',
+    state: 'SC',
+});
+
+UsNS.push({
     name: 'East Providence Bank Employee\'s Theft From a Dementia Patient (Carlos Bras)',
     slug: 'rhode-island-bras-bank-employee-elder-identity-theft',
     description: `Carlos Bras, 41, of East Providence, Rhode Island, worked at a Santander Bank branch and used that access to loot the account of a 78-year-old customer with dementia who lived in an assisted-living facility and had a court-appointed conservator. Beginning around May 2023, prosecutors say Bras enabled online banking access to the victim's account without authorization, ordered new checks sent to addresses he controlled, and obtained a debit card for his own use, then accessed the account roughly 88 times between April and July 2023 to make unauthorized transfers — including to his wife's own bank account and multiple wire transfers to a bank account in Portugal. When an internal bank investigator questioned him, Bras falsely claimed his wife worked as a real estate agent in Portugal and that the wires were part of a legitimate property purchase. He pleaded guilty in the U.S. District Court for the District of Rhode Island to mail fraud and aggravated identity theft, admitting to stealing more than $125,000 from the victim, and faces up to 32 years in prison at a sentencing hearing scheduled for September 15, 2026. The case is a reminder that a bank employee's legitimate system access can itself become the tool of elder financial exploitation — families with an aging relative in assisted living should periodically review that person's bank and credit card statements themselves, watch for unexplained address or contact-information changes on an account, and ask the bank directly whether a conservator or trusted contact can be added to receive alerts on unusual account activity.`,
@@ -7247,6 +7283,32 @@ UsNS.push({
     alertLevel: 'medium',
     sources: ['Oregon Department of Justice', 'Oregon Real Estate Agency'],
     sourceUrl: 'https://www.doj.state.or.us/consumer-protection/sales-scams-fraud/timeshares/',
+    country: 'US',
+    state: 'OR',
+});
+
+UsNS.push({
+    name: 'World Law Debt Elder-Targeted Debt-Settlement Fraud',
+    slug: 'oregon-world-law-debt-settlement-elder-fraud',
+    description: `Texas-based World Law Debt and a web of affiliated shell companies — Swift Rock Financial, Orion Processing, World Law Group, World Law Direct, World Law Plan, World Law Processing, and World Law Debt Assistance — signed up Oregon consumers for debt-settlement plans while falsely claiming to have Oregon attorneys on staff handling their cases and charging fees well above what state law allows. Of roughly $1.5 million the company collected from Oregon clients, it paid creditors only $275,211 while keeping more than $960,000 in fees for itself, and the Oregon Department of Justice's complaint specifically alleged the company financially abused customers age 65 and older. The Oregon Department of Consumer and Business Services fined the company $70,000 in September 2012 for operating unregistered, but World Law Debt never paid the fine, stayed unregistered, and signed at least 100 more Oregon clients anyway — prompting Attorney General Ellen Rosenblum's office and DCBS to sue in Multnomah County Circuit Court on July 1, 2013 and win a temporary restraining order barring the company from Oregon the next day. The DOJ sought more than $10 million in civil penalties, including $25,000 for each of 425 contracts signed while unregistered, plus full refunds to Oregon customers. Before paying any company to settle or consolidate debt, Oregon consumers can verify the company is actually registered with the Department of Consumer and Business Services and should be skeptical of any debt-settlement firm claiming to have attorneys handling cases without naming a specific, verifiable Oregon-licensed lawyer.`,
+    categorySlug: 'debt-relief-scams',
+    alertLevel: 'medium',
+    sources: ['Oregon Department of Justice', 'Oregon Department of Consumer and Business Services'],
+    sourceUrl: 'https://www.insidearm.com/news/00001125-debt-settlement-company-barred-from-doing/',
+    country: 'US',
+    state: 'OR',
+    isHistorical: true,
+    firstRecorded: '2013-07-01',
+});
+
+UsNS.push({
+    name: 'Seaside Pandemic Unemployment Benefits Identity-Theft Scheme (Tamara Fulmer)',
+    slug: 'oregon-seaside-fulmer-unemployment-identity-theft',
+    description: `Between May 2020 and October 2021, Tamara Fulmer, 48, of Seaside, Oregon, used the stolen personal information of 27 real people to file fraudulent pandemic unemployment insurance claims with the Oregon Employment Department, falsely listing each of them as her "employees" so the claims would be approved. The scheme caused the Employment Department to pay out more than $567,000 in benefits under those stolen identities; Fulmer deposited at least 236 of the resulting unemployment checks — nearly $69,000 — into her own bank account and cashed many more at a Seaside gas station without the real claimants' knowledge, on top of filing a separate fraudulent claim in her own name. A federal grand jury in Portland indicted her on one count of theft of government property on February 19, 2025; she pleaded guilty on November 4, 2025, and was sentenced to 28 months in federal prison plus three years of supervised release, with $581,283 in restitution ordered. The U.S. Attorney's Office for the District of Oregon prosecuted the case, and a Department of Labor Office of Inspector General official noted Fulmer stole nearly $600,000 from the unemployment insurance program at a time when Americans needed those funds most. Unemployment-benefit identity theft like this often leaves a paper trail victims discover only via a 1099-G tax form for benefits they never received — anyone who gets such a form for income they didn't collect should report it to their state employment department and the IRS immediately.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office, District of Oregon", 'U.S. Department of Labor Office of Inspector General', 'Seaside Signal', 'Tillamook Headlight Herald'],
+    sourceUrl: 'https://seasidesignal.com/2026/04/16/seaside-woman-sentenced-to-two-years-for-covid-benefit-fraud/',
     country: 'US',
     state: 'OR',
 });
