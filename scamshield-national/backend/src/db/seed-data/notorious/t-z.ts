@@ -3143,6 +3143,9 @@ NotoriousTZ.push({
     slug: 'neil-woodford-equity-income-fund-collapse',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'international'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Royal_Exchange_London_Bank_Junction_2020_03.jpg?width=1200',
+    coverImageCredit: 'The fund held unlisted stakes it could not sell fast enough when investors asked for their money back. Photo: Julian Herzog (Website) (CC BY 4.0)',
+    coverImagePosition: 45,
     body: `Neil Woodford spent more than two decades as one of Britain's most closely followed fund managers, building a reputation for steady, market-beating returns at Invesco Perpetual before striking out on his own in 2014 to launch Woodford Investment Management. His flagship fund, the Woodford Equity Income Fund, drew in ordinary retail investors and financial advisers alike on the strength of his track record, growing to more than £10 billion in assets at its peak — a scale that made Woodford one of the most powerful individual stock-pickers in the UK.
 
 The fund was built and marketed as an income vehicle holding liquid, publicly traded shares that investors could redeem within days, as is standard for a UK open-ended retail fund. But the UK's Financial Conduct Authority later found that between July 2018 and June 2019, Woodford and his firm made "unreasonable and inappropriate" investment decisions, steadily selling the fund's liquid, easily tradable holdings while increasing its exposure to small, unlisted, and hard-to-sell private companies — leaving only about 8% of the fund's holdings sellable within the seven-day window investors were relying on to get their money back on short notice. The FCA found Woodford held "a defective and unreasonably narrow understanding" of his own responsibility for managing that liquidity risk, and that even in regulatory interviews he did not accept he was responsible for overseeing it.

@@ -6900,6 +6900,9 @@ NotoriousNS.push({
     slug: 'frederic-pierucci-alstom-tarahan-bribery-fcpa',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'international', 'bribery'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Alma_Wisconsin_Coal_power_plants.jpg?width=1200',
+    coverImageCredit: 'A coal-fired power plant. The Tarahan contract was won with bribes paid through consultants. Photo: USGS (public domain)',
+    coverImagePosition: 50,
     body: `Frédéric Pierucci was a rising executive at Alstom, the French industrial conglomerate that builds power plants and rail equipment worldwide, when U.S. federal agents arrested him at John F. Kennedy Airport in April 2013 as he stepped off a flight for what he believed was an ordinary business meeting. The charge waiting for him traced back nearly a decade, to a $118 million contract Alstom and its consortium partner Marubeni Corporation had won to supply power-related services for the Tarahan project, a coal-fired plant in Indonesia.
 
 Between roughly 2002 and 2009, Pierucci — then a vice president of global sales at Alstom's U.S. subsidiary — and a colleague, David Rothschild, worked with consultants to funnel corrupt payments to a member of the Indonesian Parliament and to senior officials at Perusahaan Listrik Negara (PLN), Indonesia's state-owned electricity utility, disguising the bribes as legitimate consulting fees to help steer the Tarahan contract to Alstom's consortium. U.S. prosecutors charged the scheme under the Foreign Corrupt Practices Act, which reaches bribery of foreign officials by companies with sufficient ties to the United States, even when the underlying conduct took place almost entirely overseas.

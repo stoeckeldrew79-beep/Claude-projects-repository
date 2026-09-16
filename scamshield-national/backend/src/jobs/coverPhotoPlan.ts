@@ -212,4 +212,7 @@ export const PHOTO_PLAN: PhotoPlanEntry[] = [
   { slug: 'david-bullen-national-australia-bank-forex-scandal', query: 'Melbourne central business district skyline', caption: 'Melbourne, where NAB\u2019s currency options desk hid its losses until the board found them', position: 45 },
   { slug: 'joseph-yellow-kid-weil-chicago-con-man', file: 'Joseph "Yellow Kid" Weil 1918.jpg', caption: 'Joseph \u201CYellow Kid\u201D Weil, photographed in 1918', position: 40 },
   { slug: 'north-korean-remote-it-worker-fraud-guide', query: 'laptop video call remote work desk', caption: 'A remote interview. The tell is a candidate who will not turn the camera on, or whose pay goes to an address that keeps changing', position: 50 },
+  { slug: 'frederic-pierucci-alstom-tarahan-bribery-fcpa', query: 'coal fired power station Indonesia', caption: 'A coal-fired power plant. The Tarahan contract was won with bribes paid through consultants', position: 50 },
+  { slug: 'neil-woodford-equity-income-fund-collapse', query: 'London Stock Exchange building', caption: 'The fund held unlisted stakes it could not sell fast enough when investors asked for their money back', position: 45 },
+  { slug: 'obituary-bereavement-scam-guide', query: 'newspaper obituary page print', caption: 'A published death notice hands a stranger the names, dates and relationships needed to sound like family', position: 50 },
 ];
