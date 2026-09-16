@@ -5929,6 +5929,20 @@ UsNS.push({
 });
 
 UsNS.push({
+    name: 'Zhida Market Garment-Worker Savings Scam (Saipan)',
+    slug: 'zhida-market-garment-worker-savings-scam-saipan',
+    description: `A Chinese couple, Lin Zu Xiu and Li Rui Yuan, who owned Zhida Market on Saipan, solicited deposits from Chinese garment factory workers at L&T Garment Factory, Mirage Garment Factory, and Commonwealth Garment Factory starting as early as January 1999, promising extraordinarily high monthly interest returns in exchange for workers depositing their savings with the market. Roughly 45 workers were identified as victims with combined losses exceeding $100,000, with an additional 20 workers coming forward to file complaints after the scheme was discovered; one victim deposited $12,500 and then $13,000 within the same year and was unable to recover any of it. When workers tried to withdraw their money, the couple claimed they simply did not have the funds, prompting police to charge them with theft by deception, and a CNMI Superior Court judge set bail at $100,000 each. The case illustrates a pattern of informal, unlicensed "deposit-taking" schemes targeting foreign contract workers, a population especially vulnerable due to language barriers, distrust of formal banking, and reliance on informal community networks. Workers and residents should be wary of any unlicensed individual or business offering above-market guaranteed interest on cash deposits, keep money only in FDIC-insured banks, and report suspected schemes to the CNMI Department of Public Safety or the Office of the Attorney General's Consumer Counsel.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'high',
+    sources: ['Saipan Tribune'],
+    sourceUrl: 'https://www.saipantribune.com/index.php/969a4ce4-1dfb-11e4-aedf-250bc8c9958e/',
+    country: 'US',
+    state: 'MP',
+    isHistorical: true,
+    firstRecorded: '1999-01-01',
+});
+
+UsNS.push({
     name: 'PowerSchool Breach Child Identity Theft and Repeat District Extortion',
     slug: 'powerschool-breach-child-identity-theft-district-extortion',
     description: `A hacker exploited a single stolen credential to break into PowerSchool, the student-information system used by thousands of K-12 districts across the U.S. and Canada, stealing records on roughly 60 million students and 10 million teachers — names, phone numbers, Social Security numbers, home addresses, and in many cases medical histories and other health data tied to individual students. PowerSchool received a $2.85 million Bitcoin ransom demand on December 28, 2024 and paid it, believing the deal would keep the data from being released, but that did not end the exposure: by May 2025, the same stolen dataset was being used to extort individual school districts directly, with attackers sending district administrators samples of their own students' records as proof the threat was real and demanding a second, separate payment despite PowerSchool's ransom already having been paid. Matthew D. Lane, a then-19-year-old Assumption University student from Sterling, Massachusetts, pleaded guilty to cyber extortion conspiracy, cyber extortion, unauthorized access to protected computers, and aggravated identity theft, admitting he also tried to extort a U.S. telecommunications company for $200,000 using a separate stolen dataset; a federal judge sentenced him on October 14, 2025 to four years in prison, three years of supervised release, a $25,000 fine, and $14,075,540.58 in restitution. Because a child's Social Security number has no credit history attached to it, stolen student data like this can be used to open fraudulent credit accounts that go undetected for years — often not discovered until the child applies for their first credit card, car loan, or student loan as a young adult. South Carolina's Department of Consumer Affairs, whose alert warned that "scam artists follow the headlines," urged parents statewide to contact Experian, TransUnion, and Equifax directly to check whether a credit file already exists in their child's name — since minors typically shouldn't have one at all — and to place a free protective consumer freeze on that file if their state offers it. Parents of any student whose school district uses PowerSchool or a similar system should take that step regardless of which state they live in, watch for follow-up phishing emails or calls that cite real details from their child's school record to sound legitimate, and treat any unsolicited message referencing the breach as a reason to verify independently through the school district or PowerSchool's own notifications rather than by replying or clicking a link.`,
@@ -6445,20 +6459,6 @@ UsNS.push({
     state: 'MP',
     isHistorical: true,
     firstRecorded: '2023-11-03',
-});
-
-UsNS.push({
-    name: 'Northern Mariana Islands Judiciary Jury-Duty Arrest-Threat Scam Calls',
-    slug: 'northern-mariana-islands-judiciary-jury-duty-scam-calls',
-    description: `The Commonwealth of the Northern Mariana Islands Judiciary issued a public warning on October 22, 2025 after residents reported a wave of scam calls in which callers falsely identify themselves as staff of the Supreme Court Clerk's Office and use a spoofed caller ID that displays the Judiciary's real phone number to look legitimate. The callers tell recipients they missed jury duty or have an unpaid traffic citation and must report to the Clerk's Office immediately or pay a fee on the spot to avoid arrest, then press for payment through prepaid debit cards, gift cards, wire transfers, cryptocurrency, or a payment app — methods no real court accepts — and in some versions ask for a Social Security number or bank and card details on the same call. The Judiciary stated plainly that "the Northern Mariana Islands Judiciary does not call, email, or text to demand payment or personal information for court-related matters," making any such demand, however official the caller ID looks, proof the call is fraudulent rather than a real court communication. Residents who feel physically threatened during one of these calls are advised to call 911, and anyone targeted can report the call to the CNMI Department of Public Safety, file a complaint with the Federal Trade Commission or the FBI's Internet Crime Complaint Center (IC3.gov), and independently verify any claimed court matter by contacting the Judiciary directly through nmijudiciary.gov rather than a number or instructions the caller supplies.`,
-    categorySlug: 'government-impersonation',
-    alertLevel: 'high',
-    sources: ['Commonwealth of the Northern Mariana Islands Judiciary'],
-    sourceUrl: 'https://www.nmijudiciary.gov/news/northern-mariana-islands-judiciary-warns-public-about-scam-calls',
-    country: 'US',
-    state: 'MP',
-    isHistorical: true,
-    firstRecorded: '2025-10-22',
 });
 
 UsNS.push({
