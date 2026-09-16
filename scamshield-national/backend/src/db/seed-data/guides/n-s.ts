@@ -4705,6 +4705,10 @@ GuidesNS.push({
   slug: "preneed-funeral-trust-fraud-guide",
   author: "ScamShield Editorial",
   tags: ["guide", "preneed-funeral-fraud", "elder-financial-exploitation"],
+  coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Janisse_Funeral_Home,_Windsor,_Ontario,_2025-07-01.jpg?width=1200",
+  coverImageCredit: "Photo: Chris Woodrich, CC BY-SA 4.0, via Wikimedia Commons",
+  coverImagePosition: 50,
+  // representative photo — replace with an exact match if found
   sourceUrl: "https://connectingdirectors.com/42973-national-prearranged-services-crooks-finally-get-prison-sentence",
     coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Hearse_of_Coco_Lee_leaving_Hong_Kong_Funeral_Home_10.png?width=1200",
     coverImageCredit: "Money paid years in advance must sit in a trust — ask for written proof that it does. Photo: Sanlih E-Television 三立娛樂星聞 (a derivative work by User:Dustfreeworld) (CC BY 3.0)",
@@ -4723,6 +4727,10 @@ GuidesNS.push({
   slug: "real-estate-deed-solicitation-scam-guide",
   author: "ScamShield Editorial",
   tags: ["guide", "deed-solicitation-scam", "homeowner-mail-scam"],
+  coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Old_County_Hall_Buffalo_NY.jpg?width=1200",
+  coverImageCredit: "Photo: dIPENdAVE, CC BY-SA 3.0, via Wikimedia Commons — a county government building, where real deed copies are actually recorded",
+  coverImagePosition: 50,
+  // representative photo — replace with an exact match if found
   sourceUrl: "https://www.ag.state.mn.us/consumer/Publications/RealEstateDeedSolicitation.asp",
     coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Romania_-_Land_property_title_(Aruncuta%2C_Cluj).jpg?width=1200",
     coverImageCredit: "Your county recorder sells the same deed copy for a few dollars. Photo: State of Romania. Original uploader was TARE GHEORGHE at Romanian Wikipedia (public domain)",
