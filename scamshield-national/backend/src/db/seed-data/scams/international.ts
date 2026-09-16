@@ -9228,6 +9228,28 @@ The individual case sits inside a much larger enforcement problem: after the 202
     country: "SI",
   },
   {
+    name: "Fake Bank of Slovenia Officials and the \"Safe Account\" Scam",
+    slug: "slovenia-bank-of-slovenia-safe-account-scam",
+    description:
+      "Fraudsters posing as representatives of Banka Slovenije (the Bank of Slovenia) or affiliated bank staff phone victims using local Slovenian mobile numbers to appear credible, claiming a loan has been fraudulently taken out in the victim's name. A first caller sets up the pretext, then a second caller claiming to be from Banka Slovenije \"confirms\" the fraud and urges the victim to open a new \"safe\" or \"reserve\" account and transfer funds there, sometimes citing the European Central Bank to justify sending money abroad. Victims are pressured to sign emailed contracts for the fake account and to disclose personal, banking, or login data. Banka Slovenije has publicly stated it never provides retail services to individuals or requests personal or financial data by phone, and urges anyone contacted this way to hang up, share nothing, and report the call to police, verifying such calls only through officially published contact numbers rather than one given by the caller.",
+    categorySlug: "government-impersonation",
+    alertLevel: "high",
+    sources: ["Banka Slovenije (Bank of Slovenia)"],
+    sourceUrl: "https://www.bsi.si/sl/mediji/objave/opozorilo-prevaranti-se-predstavljajo-kot-predstavniki-banke-slovenije-in-napeljujejo-k-razkrivanju-osebnih-podatkov-in-nakazilom-sredstev-v-tujino",
+    country: "SI",
+  },
+  {
+    name: "Fake Bank SMS/MMS Smishing Fraud in Slovenia",
+    slug: "slovenia-fake-bank-sms-mms-smishing-fraud",
+    description:
+      "Slovenian police warn of SMS and MMS messages sent to randomly targeted mobile numbers, disguised to look like they come from a bank and claiming an urgent issue, such as a technical error or a need to \"update\" account details, that contain a link to a convincing fake banking website. Victims who enter login credentials or card details on the fake site hand fraudsters direct access to their accounts, which are then drained or their cards misused. The scam targets ordinary retail banking customers nationwide and has grown sharply: police recorded 47 reports with about €2.1 million in losses for all of 2024, rising to 79 reports and roughly €2.5 million in losses in 2025. Police have repeatedly stated that banks never ask customers to click a text-message link to log in or verify details, and advise residents to never click links in unsolicited SMS or MMS messages, to access online banking only via the official app or a manually typed URL, and to report incidents immediately to the nearest police station and their bank, preserving the message and transaction details as evidence.",
+    categorySlug: "phishing",
+    alertLevel: "high",
+    sources: ["Slovenian Police (Policija)"],
+    sourceUrl: "https://www.policija.si/eng/newsroom/news-archive/news-archive/126551-beware-of-fake-bankers-sending-sms-and-mms-messages-you-could-lose-all-the-money-in-your-bank-account",
+    country: "SI",
+  },
+  {
     name: "Fake National Bank of Moldova Loan-Cancellation Phishing Messages",
     slug: "moldova-fake-national-bank-loan-cancellation-phishing",
     description:
