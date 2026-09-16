@@ -209,4 +209,6 @@ export const PHOTO_PLAN: PhotoPlanEntry[] = [
   { slug: 'fake-parking-traffic-ticket-text-scam-guide', query: 'parking ticket windscreen car', caption: 'A real citation goes on the windscreen or in the post \u2014 not to your phone by text with a payment link', position: 50 },
   { slug: 'abdul-shamji-johnson-matthey-bankers-collapse', query: 'Bank of England Threadneedle Street', caption: 'The Bank of England, which mounted the rescue when Johnson Matthey Bankers collapsed in 1984', position: 45 },
   { slug: 'social-media-profile-cloning-scam-guide', query: 'social media app icons smartphone screen', caption: 'A cloned profile copies your public photos and name \u2014 your real account is untouched, which is why you never see a breach warning', position: 50 },
+  { slug: 'david-bullen-national-australia-bank-forex-scandal', query: 'Melbourne central business district skyline', caption: 'Melbourne, where NAB\u2019s currency options desk hid its losses until the board found them', position: 45 },
+  { slug: 'joseph-yellow-kid-weil-chicago-con-man', file: 'Joseph "Yellow Kid" Weil 1918.jpg', caption: 'Joseph \u201CYellow Kid\u201D Weil, photographed in 1918', position: 40 },
 ];
