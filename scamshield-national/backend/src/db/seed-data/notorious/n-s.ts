@@ -6741,23 +6741,6 @@ Langbar is a case study in how a listed company, even one on a lightly regulated
   });
 
 NotoriousNS.push({
-    title: 'Roger Levitt and the Financial Adviser Fraud That Left Frederick Forsyth £9 Million in the Cold',
-    slug: 'roger-levitt-tlg-financial-adviser-fraud',
-    author: 'ScamShield Editorial',
-    tags: ['notorious', 'notorious-scammer', 'historical', 'international'],
-    body: `Roger Levitt built TLG Ltd, trading as the Levitt Group, into one of London's higher-profile independent financial advisory firms through the 1980s, cultivating a client list that included the bestselling novelist Frederick Forsyth. Levitt's pitch to clients had a simple, seemingly considerate hook: rather than have a client sign a separate cheque for each of the roughly twenty shares in the portfolio he recommended, why not let him handle the paperwork and execute the trades himself? Clients who agreed were, in effect, handing him direct control of their money and removing the one routine check — their own signature on every transaction — that would otherwise have let them notice if their funds went somewhere other than where they'd been told.
-
-The Levitt Group collapsed, and a Serious Fraud Office investigation found that money obtained from clients, including Forsyth, had not gone where clients believed. Levitt had used forged documents submitted to FIMBRA, the Financial Intermediaries, Managers and Brokers Regulatory Association that oversaw independent financial advisers at the time, to make funds taken from client accounts appear on TLG Ltd's books as the company's own genuine trading income rather than money it had misappropriated. Forsyth later described the discovery in blunt terms: "To discover every penny you have earned has been embezzled is, well, dispiriting." Banks and clients, Forsyth among them, were left with roughly £9 million in unrecovered debt when the firm went under.
-
-The Serious Fraud Office charged Levitt and a co-accused, Mark Reed, and the case went to trial at the Old Bailey. Levitt pleaded guilty in 1993 to charges centered on the forged FIMBRA submissions. What followed became the case's most-remembered feature: rather than prison, Levitt was ordered to complete just 180 hours of community service, with Reed receiving an even lighter sentence. For a fraud that had left creditors including a well-known author millions of pounds out of pocket, the sentence was strikingly lenient by any ordinary measure.
-
-The disparity did not go unnoticed. The case was raised in the House of Commons in December 1993, where MPs pointed out that ordinary bank clerks and postal workers convicted of embezzling sums many times smaller than Levitt's routinely received custodial sentences, while a company director who forged regulatory documents to disguise the misappropriation of millions walked away with community service. The episode became a recurring reference point in later debates over whether the Serious Fraud Office's charging and plea decisions were serving the public interest, cited alongside other cases in assessments of the SFO's early track record.
-
-Levitt's scheme worked less through any exotic financial engineering than through a request that sounds, on its face, like a courtesy: let your adviser save you the hassle of signing off on each transaction yourself. That same request — hand over standing authority so someone else can "simplify" your paperwork — is precisely what removes an investor's ability to notice, transaction by transaction, whether their money is actually going where they were told. A client's own signature on every trade is a slow, mildly annoying safeguard; it is also one of the few moments a fraud in progress becomes visible to the person paying for it.`,
-    sourceUrl: 'https://hansard.parliament.uk/Commons/1993-12-17/debates/41b02a3a-a60f-4c3c-976c-757273dda806/RogerLevitt',
-  });
-
-NotoriousNS.push({
     title: 'Abdul Shamji and the £21 Million Loan That Helped Sink Johnson Matthey Bankers',
     slug: 'abdul-shamji-johnson-matthey-bankers-collapse',
     author: 'ScamShield Editorial',
@@ -6785,4 +6768,19 @@ Pierucci spent more than a year in U.S. federal detention before pleading guilty
 
 Pierucci's case became one of the most closely studied FCPA prosecutions of the 2010s, not because the underlying bribery was unusual, but because of how it was built: prosecutors used the leverage of a detained individual executive, facing years in prison and cooperating under pressure, to help secure the far larger corporate guilty plea and penalty against Alstom itself. That sequence — arrest an executive on a business trip to the U.S., build a cooperation case, and use it against the parent company — has since become a recognized pattern in how the DOJ pursues foreign corporations for bribery committed almost entirely outside American borders, and it illustrates for any executive of a multinational company that a "consulting fee" paid to move a contract past a foreign government official carries prosecutorial exposure that can follow a company's own employees years later, onto a plane, in a country where the underlying deal was never signed.`,
     sourceUrl: 'https://fcpa.stanford.edu/enforcement-action.html?id=473',
+  });
+
+NotoriousNS.push({
+    title: 'Martin Schlaepfer and the Malom Group Fraud That Took 11 Years to Catch',
+    slug: 'martin-schlaepfer-malom-group-fugitive-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'international', 'fugitive'],
+    body: `Martin Schlaepfer, a Swiss businessman, ran Malom Group AG, a purported Swiss investment firm whose very name was an acronym for "Make A Lot Of Money." Beginning as early as October 2009, Schlaepfer and co-conspirators based in Switzerland and Las Vegas marketed what they called "prime-bank" investment opportunities to victims, presenting fabricated bank documents and forged proof-of-funds paperwork to make the offerings look legitimate. Investors who agreed to pay an upfront fee were told they would gain access to lucrative investments and substantial cash loans; instead, the fabricated deals were fictitious from the start, and money wired into what victims believed were legitimate escrow accounts was simply taken.
+
+A federal grand jury in Nevada indicted Schlaepfer in December 2013, but he was living outside the United States and did not appear to face the charges, remaining a fugitive for nearly 11 years while his American-based co-conspirators were tried without him. Anthony Brandel and James Warras were convicted at trial and each sentenced to roughly seven years in prison in 2015, and a fourth participant, Joseph Micelli, pleaded guilty and received a five-year sentence — meaning the case against Schlaepfer's own operation had already been fully litigated and its participants sentenced years before he himself ever appeared in an American courtroom.
+
+Schlaepfer's fugitive run ended in September 2024, when he was arrested in Italy pursuant to an Interpol Red Notice, and he was extradited to the United States in July 2025. He pleaded guilty to securities fraud in March 2026, admitting his role in a scheme that defrauded investors of roughly $6 million. On May 13, 2026, a federal judge in Las Vegas sentenced him to time served — credit for the time he had already spent in custody following his arrest and extradition — plus three years of supervised release, and ordered him to pay $6.475 million in restitution.
+
+Schlaepfer's case illustrates two separate lessons: the "prime-bank" pitch itself is a recognized, recurring fraud pattern — a supposed elite investment tier accessible only through insider connections, backed by documents that appear to originate from major banks but do not — and a red flag regulators and law enforcement have warned about for decades precisely because no such secret tier of banking actually exists. Separately, his 11-year run as a fugitive, ended only by an Interpol Red Notice and an arrest on unrelated travel, is a reminder that international law enforcement cooperation has narrowed the options for a fraud defendant who simply leaves the country rather than facing trial, even when the wait for extradition stretches over a decade.`,
+    sourceUrl: 'https://hoodline.com/2026/03/vegas-fugitive-finally-falls-as-swiss-exec-admits-6-million-phantom-investment-scam/',
   });
