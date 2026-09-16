@@ -234,6 +234,45 @@ as often as you like. Schedule it alongside the daily news scan:
 15 6 * * * cd /path/to/backend && npm run scan-state-ag-news >> /var/log/scamshield-state-ag.log 2>&1
 ```
 
+## Cover photos on profiles and guides
+
+Profiles and guides render a real photograph when `coverImage` is set, and fall back to
+generated abstract art when it isn't. The art is meant to be the exception — what you get
+when no rights-cleared photo of anything relevant exists — but because photos were only ever
+attached by hand, it quietly became the default: 147 of 1,518 notorious profiles had no
+photo, and since `/articles` sorts newest first, those were the ones on screen.
+
+```
+npm run report-missing-photos   # lists entries with no photo and no plan entry
+npm run backfill-cover-photos   # attaches the planned photos
+npm run backfill-cover-photos -- --dry   # verifies licences, writes nothing
+npm run backfill-cover-photos -- --only=some-slug,another-slug   # just those
+```
+
+A full run re-checks every plan entry against Commons at one request per
+350ms — roughly an hour. That is the right cost once; it is the wrong cost for
+the one or two profiles a daily content drop adds, which is what `--only` is
+for (those two take about four seconds). Naming a slug that has no plan entry
+fails the run rather than quietly doing nothing, so a typo can't look like
+success.
+
+Two rules the backfill will not bend:
+
+**Nothing is written on an unverified licence.** Every candidate has its licence read off its
+own Wikimedia Commons file page, and anything that is not public domain / CC0 / CC BY /
+CC BY-SA is dropped. A case whose photo can't be verified keeps its abstract art — that's a
+correct outcome, not a failure to work around.
+
+**No photo is presented as something it isn't.** For nearly all of these people no free
+portrait exists. What does exist is a photo of the place or the thing the case turns on: the
+container port, the glacier the fund was valued on, the courthouse that tried it. So every
+entry in `src/jobs/coverPhotoPlan.ts` carries a caption saying what the photo actually shows,
+stored in `coverImageCredit` and rendered under the image. That caption is what stops a reader
+taking a courthouse for a portrait — write it as a plain statement of what is in the frame.
+
+After adding new profiles, run `npm run report-missing-photos`. It names any entry still
+needing a photo chosen, which is what keeps the abstract art from silently accumulating again.
+
 ## Scheduling early-warning alert detection
 
 `npm run detect-alerts` is also a one-shot script — schedule it the same way, ideally alongside

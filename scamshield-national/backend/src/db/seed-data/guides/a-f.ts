@@ -8782,12 +8782,11 @@ GuidesAF.push({
   title: "Fake Bureau of Prisons Scams: When \"Early Release\" or \"Home Confinement\" Comes With a Price Tag",
   slug: 'fake-bureau-of-prisons-release-scam-guide',
   author: 'ScamShield Editorial',
-  coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Federal_Bureau_of_Prisons_Central_office.jpg?width=1200',
-  coverImageCredit: 'Federal Bureau of Prisons central office, Public Domain (US federal government work), via Wikimedia Commons',
-  coverImagePosition: 50,
-  // representative photo — replace with an exact match if found
   tags: ['guide', 'bop-impersonation-scam'],
   sourceUrl: 'https://www.bop.gov/news/20250409-phone-scams-impacting-incarcerated-individuals.jsp',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Federal_Correctional_Institution%2C_Tucson.jpg?width=1200',
+    coverImageCredit: 'A federal prison. The Bureau of Prisons never charges families for release or home confinement. Photo: public domain',
+    coverImagePosition: 50,
   body: `In March 2025, a family with a loved one in federal custody got a call from someone identifying themselves as a Department of Justice employee. The caller said their relative had qualified for home confinement, but first, the family needed to pay $900 up front, by Cash App, to cover the "electronic tracking equipment" required to release him. To make the fee look legitimate, the caller followed up by emailing what appeared to be official documentation on Department of Justice letterhead. The U.S. District Court for the Eastern District of Pennsylvania issued a public fraud alert about the case that same month. It wasn't an isolated incident: the Federal Bureau of Prisons has issued its own warnings twice in recent years — once in August 2023 about callers posing as FBOP employees, federal probation officers, and members of the U.S. Parole Commission demanding money or personal information in exchange for "release to pre-release custody" or "early release and/or relocation approvals," and again in April 2025 about callers claiming to be from a "Federal Bureau of Prisons Reentry Division Services" office offering paid "community placement services."
 
 This is a different scam from the more familiar fake bail bondsman scheme, which targets families of people who were just arrested and are awaiting a bail decision. This one targets families of people who are already convicted and serving time in the federal system, at the point where a real and complicated process — reentry, home confinement, pre-release custody, parole — starts to become relevant. Scammers use real terminology from that process (case manager, unit team, community placement, electronic monitoring) precisely because it sounds like something a family would expect to hear from someone with real authority over their relative's release.
@@ -8804,11 +8803,10 @@ GuidesAF.push({
   slug: 'fake-antivirus-tech-support-renewal-scam-guide',
   author: 'ScamShield Editorial',
   tags: ['guide', 'tech-support-scam', 'fake-renewal-scam'],
-  coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/SmartScreenwarning_in_Windows_8.png?width=1200',
-  coverImageCredit: 'Brent Geuens, Public Domain (uses Microsoft Windows UI, text not copyrightable), via Wikimedia Commons',
-  coverImagePosition: 50,
-  // representative photo — replace with an exact match if found
   sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2022/10/how-recognize-fake-geek-squad-renewal-scam',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/SmartScreen_warning_in_Internet_Explorer_10.png?width=1200',
+    coverImageCredit: 'A browser security warning. The fake renewal invoice is only the bait — the “refund” call is where the theft happens. Photo: Brent Geuens. (public domain)',
+    coverImagePosition: 50,
   body: `An email or text arrives claiming a well-known company — Norton, McAfee, Geek Squad, or a similar antivirus or tech-support brand — has just charged your card several hundred dollars to renew a subscription, or is about to. The message includes a fake invoice, a total somewhere between $299 and $499, and a phone number to call within 24 to 48 hours if you didn't authorize the charge. Nothing about the layout looks amateurish: it borrows a real company's logo, a plausible order number, and language that sounds exactly like a genuine billing notice.
 
 Calling the number is the point of the scam. A "representative" answers, confirms the charge is real, and offers to process a "refund" or cancel the "renewal" — but first needs remote access to your computer to verify the account, using legitimate remote-desktop software repurposed for exactly this kind of fraud. Once connected, the scammer can install spyware, dig through files and saved passwords, or stage a fake "overpayment" on a banking screen that tricks the victim into buying gift cards to send back the supposed excess refund, a classic move that turns a fake refund into a real theft.
@@ -8824,7 +8822,7 @@ GuidesAF.push({
   author: 'ScamShield Editorial',
   tags: ['guide', 'tax-debt-relief-scam', 'irs-impersonation'],
   coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/IRS_Building.jpg?width=1200',
-  coverImageCredit: 'Photo: Reynolds, Library of Congress (Public Domain), via Wikimedia Commons',
+    coverImageCredit: 'The IRS headquarters in Washington. The agency charges no fee to apply for its own installment and offer programs. Photo: Reynolds, Library of Congress (public domain)',
   coverImagePosition: 50,
   // representative photo — replace with an exact match if found
   sourceUrl: 'https://ag.nv.gov/News/PR/2025/Attorney_General_Ford_and_FTC_Sue_Tax_Debt_Relief_Scammers_Posing_as_Government_Agencies%2C_Making_False_Claims_and_Threatening_Consumers/',
@@ -8843,7 +8841,7 @@ GuidesAF.push({
   author: 'ScamShield Editorial',
   tags: ['guide', 'smishing', 'government-impersonation', 'text-message-scam'],
   coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/2009-02-26_Red_Hummer_with_parking_citation.jpg?width=1200',
-  coverImageCredit: 'Photo: Ildar Sagdejev (Specious), CC BY-SA 4.0, via Wikimedia Commons',
+    coverImageCredit: 'A real citation goes under the wiper or in the post — not to your phone by text with a payment link. Photo: Ildar Sagdejev (CC BY-SA 4.0)',
   coverImagePosition: 50,
   sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2025/07/text-about-overdue-traffic-ticket-probably-scam',
   body: `A text message arrives claiming to be from a city parking authority or a state DMV: you have an overdue parking ticket or traffic ticket, and if it isn't paid immediately, penalties will follow — a flat "service fee" as high as 35 percent of the supposed fine, or a recurring late fee of around $35 a day, on top of threats of license suspension, vehicle registration revocation, or even prosecution and credit score damage. A link in the text leads to a payment page built to look like an official city or state portal, where entering a card number and personal details completes the theft.

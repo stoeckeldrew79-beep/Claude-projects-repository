@@ -4641,10 +4641,9 @@ GuidesGM.push({
   author: 'ScamShield Editorial',
   tags: ['guide', 'lost-pet-scam'],
   sourceUrl: 'https://www.aarp.org/money/scams-fraud/lost-pet/',
-  coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/%C2%A32_Rewards_Stolen_dog_1864.jpg?width=1200',
-  coverImageCredit: 'Photo: National Library of Wales, Public Domain, via Wikimedia Commons — an 1864 reward notice for a stolen dog',
+  coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Missing_dog_poster%2C_Stanmore_-_geograph.org.uk_-_7602804.jpg?width=1200',
+  coverImageCredit: 'Lost-pet posters give scammers everything they need to fake a sighting. Photo: Oscar Taylor (CC BY-SA 2.0)',
   coverImagePosition: 50,
-  // representative photo — a historic reward poster for a stolen dog, not a modern lost-pet ransom scam; replace with an exact match if found
   body: `A pet goes missing, and its owner does exactly what every rescue group recommends: posts a photo, description, and last-known location to a neighborhood Facebook group, Nextdoor, or a dedicated lost-and-found-pets page, along with a phone number to call. Within hours, or sometimes minutes, someone reaches out claiming to have found the animal, or to be a veterinarian, animal-control officer, or "pet detective" who has it in hand. What follows isn't a happy reunion — it's a demand for money, often framed as an emergency vet bill, a transport fee, or a reward, sent before the owner ever sees the pet or the person claiming to have it. In one documented case an AARP investigation described, a couple was asked for $2,746 for emergency surgery on their missing dog, backed up by "proof" photos that turned out to be AI-generated, with telltale errors like x-ray dates that didn't match the story.
 
 The scam works because a distressed pet owner's own public post hands the scammer everything needed to sound credible: the pet's breed, markings, name, and the neighborhood or street where it went missing, all pulled straight from the post itself and read back to the owner as if it were independent proof the caller really has the animal. Scammers actively monitor lost-pet groups and forums for exactly this kind of post, since a person in emotional distress over a missing family member is primed to act fast and skip the kind of verification they'd otherwise insist on. Pushing the conversation to an encrypted app like WhatsApp or Telegram, and demanding payment through Venmo, Cash App, gift cards, or cryptocurrency, both speeds the interaction along and makes any money sent essentially unrecoverable once it's gone.
@@ -4658,12 +4657,11 @@ GuidesGM.push({
   title: 'How to Recover Your Hacked Email Account (and Lock Down Everything Else It Touches)',
   slug: 'hacked-email-account-recovery',
   author: 'ScamShield Editorial',
-  coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Computer_locked.jpg?width=1200',
-  coverImageCredit: 'Photo: locked computer, CC BY 2.0, via Wikimedia Commons',
-  coverImagePosition: 50,
-  // representative photo — replace with an exact match if found
   tags: ['guide', 'email-account-takeover', 'account-recovery'],
   sourceUrl: 'https://consumer.ftc.gov/articles/how-recover-your-hacked-email-or-social-media-account',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Two-factor_authentication_on_Wikimedia_-_enabling_a_security_key.png?width=1200',
+    coverImageCredit: 'A security key. Two-factor authentication is what stops a recovered account being taken straight back. Photo: Wikimedia Foundation (CC BY-SA 4.0)',
+    coverImagePosition: 50,
   body: `Email is the master key to almost everything else in a person's digital life, which is exactly why it's such a high-value target. Once a scammer gains access to an inbox, usually through a reused password exposed in an unrelated data breach, a phishing link, or a fake "security alert" that harvests login credentials, they don't need to break into a bank account, a shopping account, or a social media profile directly. They just click "forgot password" on each one and let the reset link land in the inbox they already control, often quietly setting up a forwarding rule first so copies of those reset emails keep arriving even after the real owner changes their password.
 
 The reason this works so well is that most people notice a hacked bank account or a stolen credit card almost immediately, because the loss is concrete and the bank flags it. A hacked email account is different: a patient attacker can sit inside an inbox for days or weeks, reading old messages for account numbers and security-question answers, before ever tipping off the real owner, by which point they may have already reset passwords on financial accounts, contacted the victim's real contacts pretending to be them, or used old attachments (tax returns, medical records, scanned IDs) for identity theft. The compromise of the "key" account is often more damaging than any single account it unlocks.

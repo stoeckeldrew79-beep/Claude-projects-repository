@@ -8348,11 +8348,10 @@ NotoriousAF.push(
     title: 'Bernhard Eugen Fritsch: The Tech CEO Who Fled to Mexico, Then Munich, Rather Than Face Sentencing',
     slug: 'bernhard-eugen-fritsch-starclub-fugitive-fraud',
     author: 'ScamShield Editorial',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Stadtbild_M%C3%BCnchen.jpg?width=1200',
-    coverImageCredit: 'Photo: Thomas Wolf, www.foto-tw.de, CC BY-SA 3.0 DE, via Wikimedia Commons',
-    coverImagePosition: 50,
-    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Santa_Monica_%E2%80%93_Beach_(a)_%E2%80%93_pool.jpg?width=1200',
+    coverImageCredit: 'Santa Monica, California, where StarClub was based. Photo: Cayambe (CC BY-SA 4.0)',
+    coverImagePosition: 45,
     body: `Bernhard Eugen Fritsch spent years running StarClub Inc., a Santa Monica, California technology company he pitched to investors as building an app that would let celebrities and social media influencers monetize their brand endorsements and share advertising revenue with the people who posted them — a plausible-sounding idea during the boom years of the creator economy, and one that drew in tens of millions of dollars from investors who believed they were funding a working product.
 
 According to federal prosecutors, the money didn't go where investors were told it was going. Rather than building the app, Fritsch is accused of diverting investor funds into a personal lifestyle that included a McLaren and a Rolls-Royce, upgrades to a yacht, and renovations to his Malibu mansion near Carbon Beach. A jury in Los Angeles federal court convicted him in April 2025 of one count of wire fraud, in a case investigators say defrauded investors of more than $20 million.
@@ -8375,11 +8374,10 @@ NotoriousAF.push(
     title: 'Manjit Singh Bedi: The Tacoma Grocer Who Fled to India Rather Than Face SNAP Fraud Charges',
     slug: 'manjit-singh-bedi-snap-benefits-fraud-fugitive',
     author: 'ScamShield Editorial',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Supplemental_Nutrition_Assistance_Program_logo.svg?width=1200',
-    coverImageCredit: 'SNAP program logo, USDA, Public Domain (PD-USGov), via Wikimedia Commons',
-    coverImagePosition: 50,
-    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/UW_Tacoma_campus_looking_north_towards_Downtown_Tacoma.jpg?width=1200',
+    coverImageCredit: 'Tacoma, Washington, where the store was authorised to accept SNAP benefits. Photo: Broran28 (public domain)',
+    coverImagePosition: 45,
     body: `Manjit Singh Bedi, a 65-year-old naturalized U.S. citizen born in India, owned and ran the Asian Grocery Store in Tacoma, Washington, which became authorized in February 2024 to accept Supplemental Nutrition Assistance Program (SNAP) benefits through customers' Electronic Benefit Transfer (EBT) cards. Federal prosecutors say that authorization became the engine of a fraud rather than a way to sell groceries: starting the following month and continuing through June 2025, Bedi allegedly ran a "SNAP trafficking" scheme in which he would swipe a customer's EBT card for $200, hand the customer $100 in cash, and keep the other $100 for himself — with no groceries ever changing hands. Prosecutors say the scheme funneled at least $600,000 in SNAP benefits away from the food-assistance program and into Bedi's pocket.
 
 A federal grand jury in the U.S. District Court for the Western District of Washington indicted Bedi in 2026 on multiple counts of wire fraud and SNAP benefits fraud. He appeared in federal court in Tacoma and pleaded not guilty before a magistrate judge, who released him on conditions that included surrendering his passport and remaining in Washington state pending trial. Instead, prosecutors say, Bedi drove across the border into Canada and made his way to India, his country of birth. A federal arrest warrant was issued on May 21, 2026, after he was charged with violating those release conditions.
@@ -8401,6 +8399,9 @@ NotoriousAF.push(
     slug: 'darren-anthony-robinson-qyu-holdings-ponzi-fugitive',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Panama_City_Skyline_2015.jpg?width=1200',
+    coverImageCredit: 'Panama City — QYU told investors it operated from Panama and the Cayman Islands. Photo: 123Hollic (CC BY-SA 4.0)',
+    coverImagePosition: 45,
     body: `Darren Anthony Robinson founded and ran QYU Holdings, a company he told investors was based in Panama and the Cayman Islands and operated as a professional foreign-currency, or FOREX, trading firm. QYU's marketing materials made a specific, striking claim: that a $100,000 investment made in 2014 would have grown to more than $2 million by 2021, without a single losing month along the way — a performance record that, according to federal prosecutors, existed only on paper.
 
 Between roughly 2015 and 2022, prosecutors say Robinson raised an estimated $100 million from investors in the United States, Canada, Panama, and other countries, including dozens of Michigan residents who collectively put in tens of millions of dollars, with more than $70 million in wire transfers later documented by investigators. Rather than trading currency as advertised, the government alleges Robinson ran a Ponzi-style operation: money from new investors went to pay distributions to earlier ones, cover QYU's own operating costs, and personally enrich Robinson, while investors received account statements built on fabricated trading data. During a voluntary interview with the FBI on June 20, 2023, Robinson admitted the representations made to QYU's investors were false and that he had created fictitious FOREX trading records to support them, according to the criminal complaint.
@@ -8424,6 +8425,9 @@ NotoriousAF.push(
     slug: 'christopher-w-burns-dynamic-money-fugitive-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Piedmont_Park%E2%80%99s_Lake_Clara_Meer_with_Midtown_Atlanta_skyline_(2024)-104A8428.jpg?width=1200',
+    coverImageCredit: 'Atlanta, where Burns built his profile as an adviser and radio host. Photo: Frank Schulenburg (CC BY-SA 4.0)',
+    coverImagePosition: 45,
     body: `Christopher W. Burns built a public profile in the Atlanta area as a financial adviser and radio personality, running Investus Advisers LLC under the name Dynamic Money and hosting a self-titled radio show that doubled as marketing for his firm. Starting around early 2017, prosecutors say, Burns began steering clients and radio listeners into promissory notes issued by two other companies he controlled, Investus Financial LLC and Peer Connect LLC, pitched as a "peer-to-peer" lending program that funneled investor money to small businesses in need of capital. Burns told investors the notes were backed by collateral, personally guaranteed them against loss, and described the investment as carrying little to no risk.
 
 According to the Securities and Exchange Commission, none of that was true. The collateral and brokerage accounts Burns pointed to as backing the notes either didn't exist or were worth far less than he claimed, and the "peer-to-peer" lending program itself was largely a fiction. By the time the scheme unwound, Burns had sold more than $10 million in promissory notes to roughly 90 investors across Georgia, North Carolina, and Florida. Rather than funding small-business loans, prosecutors say the money paid off earlier investors Ponzi-style and covered Burns's own expenses, including a lake house, vehicles, and the radio airtime that kept bringing in new investors.
@@ -8446,6 +8450,9 @@ NotoriousAF.push(
     slug: 'darryl-cohen-nba-players-life-settlement-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/NBA_preseason_game_between_Indiana_Pacers_and_Denver_Nuggets_at_Taipei_Arena_20091008.jpg?width=1200',
+    coverImageCredit: 'Cohen’s advisory clients were professional basketball players. Photo: 黃 zero (CC BY-SA 2.0)',
+    coverImagePosition: 50,
     body: `Darryl Matthew Cohen spent years building the kind of resume that makes a financial adviser easy to trust: twelve years at Wells Fargo, a stint at Merrill Lynch, and from June 2015 to April 2021, a position as a broker and investment adviser at Morgan Stanley. Through that role he built a client roster that included professional athletes, and between October 2017 and April 2020, prosecutors say, he used the fiduciary trust three NBA players — Jrue Holiday, Chandler Parsons, and Courtney Lee — placed in him to steer them into one of the more obscure corners of the insurance market: viatical life settlements, in which investors buy an existing life insurance policy from someone else, typically at a discount, and collect the death benefit when the original policyholder dies.
 
 According to the Securities and Exchange Commission and federal prosecutors in the Southern District of New York, there was nothing discounted about what Cohen's clients received. He steered the three players into settlement purchases marked up 222 percent, 310 percent, and 244 percent above what the policies had actually cost, without disclosing that the transactions were controlled by Brian Gilder, an independent financial planner and accountant Cohen had personally encouraged his clients to use for tax preparation. A law firm connected to the deals took in roughly $4.5 million from the markups; Gilder was separately charged and pleaded guilty to wire fraud conspiracy for his role. All told, the inflated policies cost the three athletes more than $5 million above what the underlying settlements were worth.
@@ -8469,6 +8476,9 @@ NotoriousAF.push(
     slug: 'francisco-javier-sarabia-bonanza-global-solutions-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/U.S._Securities_and_Exchange_Commission_headquarters.JPG?width=1200',
+    coverImageCredit: 'The SEC headquarters in Washington, D.C. The agency brought the civil case. Photo: AgnosticPreachersKid (CC BY-SA 3.0)',
+    coverImagePosition: 45,
     body: `Note: this is a settled civil SEC enforcement action. Sarabia consented to the entry of a final judgment without admitting or denying the SEC's allegations, and the allegations described below reflect the government's complaint rather than a criminal conviction or a court's factual findings after trial.
 
 Francisco Javier Sarabia, 60, of Tustin, California — who also used the name Jose Luis Perez-Garate — presented himself to prospective investors as the "President and Founder of Bonanza Global Solutions," a company he and a business partner, Paz Sanchez-Majano, registered in California in February 2022 and ran out of an office in Beverly Hills. On its website and in YouTube videos, Bonanza Global pitched itself as a hedge fund and private equity firm that would pool investor money into stock trading, foreign-currency trading, petroleum, and other ventures, paying fixed returns of 10 to 15 percent or more per month. To make the pitch feel safer, Sarabia told investors Bonanza maintained an "80 percent money-back guarantee," a $10 million "safety net" fully insuring their principal, and a full refund in the event of a death in an investor's immediate family.
@@ -8490,6 +8500,9 @@ NotoriousAF.push(
     slug: 'eduardo-hernandez-free-riding-brokerage-scheme',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/PIIGS_Mk_4_map.png?width=1200',
+    coverImageCredit: 'The scheme exploited an instant-deposit credit feature on a retail brokerage. Photo: The original uploader was Snow storm in Eastern Asia at English Wikipedia. (CC BY 3.0)',
+    coverImagePosition: 50,
     body: `Eduardo Hernandez, of Lindenhurst, New York, was 33 years old when the SEC accused him of masterminding a scheme that turned a routine convenience feature of modern online trading into a four-year, $2 million theft. According to a complaint the Securities and Exchange Commission filed October 31, 2023 in the U.S. District Court for the Eastern District of New York, Hernandez and three co-defendants — Christopher Flagg and Daquan Lloyd, both of Copiague, New York, and Corey Ortiz, who had ties to Copiague and Babylon before relocating to Greensboro, North Carolina — ran what regulators called "a sophisticated version of a traditional free-riding scheme" against a brokerage the complaint identifies only as "Broker A," described in the parallel federal case as a global financial-services company headquartered in Menlo Park, California.
 
 The mechanism exploited "instant deposit" credit, a feature brokerages extend so a customer can start trading immediately after initiating a bank transfer, before the transfer actually clears. From around November 2018 through January 2022, the complaint alleges, Hernandez and Flagg opened unfunded "loser" accounts at Broker A alongside separate, profitable "winner" accounts elsewhere, then executed matched trades in illiquid options between them: the winner accounts would offer a thinly traded option at a wildly inflated price, the loser accounts would immediately "buy" it using the still-unsettled instant-deposit credit, and moments later the winner accounts would buy the same contracts back at the real market price — locking in guaranteed profits in the winner accounts while leaving the loser accounts, and therefore Broker A, holding matching losses backed by money that was never actually there. Once Broker A's systems caught up and restricted a loser account, the group simply abandoned it and opened another.
@@ -8515,6 +8528,9 @@ NotoriousAF.push(
     slug: 'chris-isis-terry-im-mastery-academy-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/The_Apex_Building%2C_headquarters_of_the_Federal_Trade_Commission%2C_on_Constitution_Avenue_and_7th_Streets_in_Washington%2C_D.C.jpg?width=1200',
+    coverImageCredit: 'The Federal Trade Commission, which brought the civil case. Photo: Harrison Keely (CC BY 4.0)',
+    coverImagePosition: 45,
     body: `Note: the Federal Trade Commission's case against Chris and Isis Terry was a civil action, not a criminal prosecution, and it ended in a settlement in which the defendants neither admitted nor denied the FTC's allegations. What follows describes the government's claims and the terms the Terrys agreed to resolve them, not a judicial finding that the underlying conduct occurred as alleged.
 
 Christopher "Chris" Terry, a former Amway sales manager, launched iMarketsLive in 2013 with his wife, Isis Terry (then Isis De La Torre), selling monthly-subscription training on trading foreign exchange and cryptocurrency markets. Over the following decade the company rebranded repeatedly — to IM Mastery Academy, then IM Academy, then IYOVIA — while keeping the same core structure: members paid roughly $145 to $400 a month for trading courses and could have that fee waived, or earn commissions, by recruiting other members beneath them. According to the Federal Trade Commission, that recruitment layer generated more than $1.2 billion in worldwide sales since 2018, funneled to the Terrys and a small circle of top distributors while the great majority of paying members got little in return.
@@ -8534,6 +8550,9 @@ NotoriousAF.push(
     slug: 'amit-ahuja-kapil-gulati-priyanshu-walia-tech-support-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/1Courthouse_east.JPG?width=1200',
+    coverImageCredit: 'Baltimore, where the federal grand jury returned the indictment. Photo: Marylandstater (talk) (public domain)',
+    coverImagePosition: 45,
     body: `A federal grand jury in Baltimore returned an indictment on July 30, 2024 charging three men — Amit Ahuja, then 40, of Westminster, Maryland; Kapil Gulati, then 50, of Glen Burnie, Maryland; and Priyanshu Walia, then 39, of Westminster, Maryland and Cleveland, Ohio — with conspiracy to commit wire fraud and wire fraud over a technical-support scheme prosecutors say ran from April 2017 through November 2021. According to the indictment, victims encountered the scheme three ways: a pop-up window suddenly appearing on their computer, sometimes with an audible alarm, warning that the machine was "compromised" by a virus and directing them to call a phone number; an unsolicited phone call; or, in a particularly effective twist, a victim searching online for a legitimate tech-support company and unknowingly dialing a number the conspirators had planted in search results. In each version, the person on the other end of the line claimed to represent a real computer or security company and told the victim their machine needed immediate, paid repairs or "network security software" to fix problems that did not actually exist.
 
 The indictment alleges the scheme reached more than 1,000 victims, many of them older adults, who sent at least $3.5 million based on false claims about the condition of their computers and the software supposedly needed to fix them. It was announced by then-U.S. Attorney for the District of Maryland Erek L. Barron alongside Postal Inspector in Charge Eric Shen of the U.S. Postal Inspection Service and Special Agent in Charge Michael McCarthy of Homeland Security Investigations' Baltimore office — both agencies that regularly investigate tech-support fraud because payments are often routed through the mail or wired through layers of intermediaries. According to the Justice Department, Ahuja, Gulati, and Walia did not run the call centers luring victims in; their alleged role was providing money-processing services for co-conspirators operating from India, including developing a fee structure for handling each victim payment that moved through their hands.
@@ -8551,6 +8570,9 @@ NotoriousAF.push(
     slug: 'charles-lawrence-landes-prive-investment-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Stockholm_Sweden_Radsalen-of-Stockholm-City-Hall-01.jpg?width=1200',
+    coverImageCredit: 'Stockholm — the trust Lawrence built his pitch around was supposedly Swedish. Photo: CEphoto, Uwe Aranas (CC BY-SA 3.0)',
+    coverImagePosition: 45,
     body: `Charles T. Lawrence Jr. had once been a legitimately licensed securities professional, holding Series 7, 55, and 63 licenses from 1996 to 2006. By 2020, according to federal prosecutors, he had built a new pitch around a piece of foreign corporate paperwork that no longer meant anything: he began telling prospective investors he was the managing director of Landes and Compagnie Trust Privé KB, describing it as a Swedish trust — even though, prosecutors say, the entity was already defunct by the time he started using its name. Operating through a family of similarly branded vehicles, including Landes Trust and an American LLC called Landes Privé, LLC that he personally controlled, Lawrence offered investors a spot in a "trading program" he said would produce weekly returns of 25 to 100 percent, with their principal fully segregated and safe from risk.
 
 To make the pitch spread beyond people Lawrence could reach directly, he recruited "finders" — people who located prospective investors and were paid a fee for each one who signed on, adding a layer of trusted, word-of-mouth referral that a cold pitch from a stranger could never match. Investors who wired money were given access to a web portal Lawrence had built specifically to show account activity — fabricated activity, according to prosecutors, reflecting the extraordinary gains he had promised rather than anything happening in an actual trading account. Nearly $5 million moved from victims across the United States and abroad into accounts Lawrence controlled; prosecutors said none of it went anywhere near real trading.
@@ -8575,6 +8597,9 @@ NotoriousAF.push(
     slug: 'christian-rasmus-mikkelsen-publishing-com-earnings-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Wonder_books_-_dawn_of_civilization_publisher_page_-_u_of_knowledge.jpg?width=1200',
+    coverImageCredit: 'Publishing.com sold coaching on self-publishing as an income stream. Photo: Captainq25 (CC BY-SA 3.0)',
+    coverImagePosition: 50,
     body: `Note: Publishing.com, LLC, Christian Mikkelsen, and Rasmus Mikkelsen settled the FTC's administrative complaint by consent order. Under the FTC's standard practice for such settlements, they neither admitted nor denied the agency's allegations.
 
 Since 2018, brothers Christian and Rasmus Mikkelsen have run Publishing.com, LLC (formerly PublishingLife.com, LLC) out of Austin, Texas, selling online courses that promise to teach ordinary people how to earn passive income by publishing ebooks and audiobooks on Amazon. Christian, the company's co-founder and CEO, holds a 50 percent stake; Rasmus, co-founder and Chief Product Officer, holds 25 percent. Their flagship course — introduced in 2019 as Audio Income Academy, rebranded Audiobook Impact Academy in 2022, and rebranded again as AI Publishing Academy in 2023 — sells for $1,995 and promises to teach customers to use Publishing.com's AI tool, Publishing.ai, to generate book outlines, manuscripts, and drafts quickly enough to build a real royalty stream. An add-on program, Publishing Accelerator, launched in 2022 and sold for $9,800 more, offering additional "coaching" calls and workshops.
@@ -8633,6 +8658,9 @@ NotoriousAF.push(
     slug: 'cangialosi-girgis-sarabella-max-infinity-pre-ipo-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/New_York_Stock_Exchange_August_2017_02.jpg?width=1200',
+    coverImageCredit: 'The scheme sold shares in companies it claimed were about to go public. Photo: Arild Vågen (CC BY-SA 4.0)',
+    coverImagePosition: 45,
     body: `By 2021, John S. Cangialosi, Jr. and Peter N. Girgis had spent 23 and roughly 20 years, respectively, as licensed securities brokers — careers that had also produced multiple customer complaints, several FINRA suspensions apiece, and stints at eight different broker-dealers each, four of which FINRA had since expelled. According to a complaint the Securities and Exchange Commission filed January 31, 2025, in the Eastern District of New York, rather than leave the industry when regulators caught up with them, the two men built a new operation designed so their names would never have to appear on it, and put a third man with no securities license or financial-industry experience of any kind, Gene "Jerry" Sarabella, then 37, forward as its public face.
 
 That operation was Max Infinity Fund. Sarabella incorporated the management company, Max Infinity Management LLC, in New York in May 2021, and the fund itself, a Delaware entity with ten separate investment "series" (Max 1 through Max 8, plus 1A and 1B), was formed that July — at or near the time, the SEC's complaint says, that Cangialosi and Girgis each agreed to FINRA suspensions. Sarabella was held out publicly as Max Infinity's owner, president, and investment adviser; the complaint calls Cangialosi and Girgis, who kept their names off every offering document, the fund's true "Max Principals." When Girgis's own suspension ended in October 2022, the three organized a nearly identical follow-on, Elder Fund — formed nine days later, per the complaint — splitting ownership of its management company 40 percent Cangialosi, 40 percent Girgis, 20 percent Sarabella.
@@ -8652,6 +8680,9 @@ NotoriousAF.push(
     slug: 'craig-allen-cheetah-fund-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Georgia_Dome_2008-08-30_2.jpg?width=1200',
+    coverImageCredit: 'Atlanta, where C.M. Allen Capital Management operated. Photo: Latics (CC BY-SA 3.0)',
+    coverImagePosition: 45,
     body: `Craig Murfee Allen ran C.M. Allen Capital Management, Inc., a small Atlanta investment firm he had founded in the late 1990s, but it was a private hedge fund inside that firm — The Cheetah Fund, L.P. — that turned into a years-long fraud. Between January 2019 and January 2023, according to the Securities and Exchange Commission, Allen, then in his early fifties, raised roughly $9.9 million from investors around the country by handing prospective clients "tear sheets" claiming the fund had produced annual returns as high as 73 percent — a number far outside what any legitimate hedge fund could sustain, and one the SEC says Allen simply made up.
 
 Once money was in, the SEC's complaint alleges, Allen kept it there with paperwork rather than performance. Investors received monthly account statements and even fabricated tax documents showing steady gains, while the fund itself was quietly losing money — realized trading losses eventually topped $4.59 million. To make the fund look more legitimate than it was, Allen told investors a specific, reputable accounting firm was auditing Cheetah's books; the SEC says no such audit ever took place. According to the SEC's civil complaint, he went further still, telling at least some investors that an Atlanta Falcons quarterback was a major investor in the fund — a claim regulators say was simply false, deployed to borrow a well-known athlete's credibility for a fund that had none of its own. Despite the mounting losses, Allen paid himself at least $2.64 million in fees that his own marketing materials said were supposed to be contingent on the fund actually making money; investors, by contrast, got back only about $900,000 of what they had put in, and prosecutors said more than $430,000 of investor money went to Allen's family members.
@@ -8666,6 +8697,9 @@ Cheetah Fund is a reminder that a hedge fund's paperwork is not proof of anythin
     slug: 'dilip-bose-ritika-mohit-arora-tech-support-scam',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/TexasStateCapitol-2010-01.JPG?width=1200',
+    coverImageCredit: 'Austin — the Texas Attorney General brought the action that shut the ring down. Photo: LoneStarMike (CC BY 3.0)',
+    coverImagePosition: 40,
     body: `For Texas consumers using an ordinary web browser, the scam began with something that looked exactly like a real security warning: a pop-up message, styled to resemble an alert from the computer's own operating system or browser, claiming a virus or hack had just been detected. The message displayed a phone number to call for help. According to the Texas Attorney General's Consumer Protection Division, the number connected to one of eight interlocking companies — among them AMD Tech Solutions LLC, Com Connect It Services LLC, Escutcheon Technologies LLC, HPC Techs LLC, Texas Tech Connect LLC, The Rhombus Techs LLC, VAP Techs LLC, and WAP IT Services LLC — all controlled by three individuals: Dilip Bose, Ritika Arora, and Mohit Arora.
 
 Once a frightened consumer called, the operation's playbook followed a familiar script: talk the caller into granting remote access to their own computer, run a "diagnostic test" designed to look alarming regardless of the machine's actual condition, then use the fabricated results to sell hundreds or, in some cases, thousands of dollars in unnecessary repairs and support contracts for problems that had never existed in the first place. The Texas Attorney General's office sued the operators in 2017 and obtained a court-ordered asset freeze early in the case, preserving money that would later go toward repaying victims.
@@ -8688,6 +8722,9 @@ NotoriousAF.push(
     slug: 'bernard-mcbride-tutela-mining-gold-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Gold_Belt_Tour_Scenic_and_Historic_Byway_-_Historic_Mine_Along_the_Gold_Belt_Tour_-_NARA_-_7718654.jpg?width=1200',
+    coverImageCredit: 'A California gold mine. Tutela Mining claimed to own a working one. Photo: Unknown authorUnknown author or not provided (public domain)',
+    coverImagePosition: 50,
     body: `Bernard Joseph McBride Jr., of Sarasota, Florida, told prospective investors that his company, Tutela Mining, Inc., owned and operated a working gold mine in California, and offered them the chance to invest for guaranteed returns paid out in either gold or cash. According to Florida's Attorney General, bank records and trial testimony later showed the mine didn't exist in any form McBride controlled — he never owned or operated a gold-mining operation at all.
 
 The Florida Office of Financial Regulation opened the case in 2014 after receiving a victim complaint, then investigated jointly with the Florida Department of Law Enforcement and the Attorney General's Office of Statewide Prosecution. Investigators found that McBride sold his company's stake in the supposed mine through convertible promissory notes (CPNs), pushed on prospective buyers — mostly senior citizens in Florida, South Carolina, Tennessee, and Virginia — through the kind of high-pressure sales tactics the CPN structure is built for: a West Palm Beach telemarketing company McBride employed hit victims with a steady stream of phone calls and emails urging them to make an initial purchase, then buy more. By the time FDLE arrested McBride in October 2018 on four counts of grand theft, investigators had traced $281,224.41 in note sales into his personal bank accounts. The fuller case that went to trial put McBride's total take at more than $575,000.
@@ -8710,6 +8747,9 @@ NotoriousAF.push(
     slug: 'eric-levitt-gulf-coast-settlements-promissory-note-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Fort_Myers_-_Tree_roots.jpg?width=1200',
+    coverImageCredit: 'Fort Myers, Florida, where Gulf Coast Settlements was based. Photo: P. Hughes (CC BY-SA 4.0)',
+    coverImagePosition: 45,
     body: `Eric Levitt managed Gulf Coast Settlements LLC, a Fort Myers, Florida company, when he executed a series of promissory notes that routed an investor's own money back to his company — without that investor ever knowing the notes existed or agreeing to them, according to the Florida Office of Financial Regulation. Levitt told the investor to expect monthly returns of eight to nine percent, a payout structure common to the promissory-note schemes regulators see most often, since a fixed monthly percentage is easy to promise and hard for an investor to verify against real underlying assets.
 
 The payments worked for a while, then stopped. When the investor started asking questions, Levitt didn't just go quiet — the OFR says he had already set up a fraudulent email address in the victim's own name and used it to intercept the investment firm's correspondence, keeping the paper trail that might have exposed the scheme away from the person it belonged to. That kind of concealment only works for as long as a victim doesn't independently reach out to the financial institution directly, in a channel the person actually controls.
@@ -8755,6 +8795,9 @@ NotoriousAF.push(
     slug: 'blueprint-to-wealth-ftc-business-opportunity-scheme',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/The_Apex_Building%2C_headquarters_of_the_Federal_Trade_Commission%2C_on_Constitution_Avenue_and_7th_Streets_in_Washington%2C_D.C.jpg?width=1200',
+    coverImageCredit: 'The Federal Trade Commission, which brought the case. Photo: Harrison Keely (CC BY 4.0)',
+    coverImagePosition: 45,
     body: `Samuel James Smith, Robert William Shafer, and Charles Joseph Garis Jr. sold a promise familiar to anyone who has seen a "start your own online business" ad: pay an upfront fee, get a turnkey business built and run for you, and start collecting income within days. According to the Federal Trade Commission, the program they sold under names including "Blueprint to Wealth" had no real underlying business at all — its members' only realistic path to income was recruiting the next member, the defining structure of a pyramid scheme rather than a business opportunity.
 
 The three men split the work. Smith, doing business as "Weblio" and "Weblio Squeeze," ran the scheme's online back end — the site, and the goods and services members were actually delivered. Shafer and Garis worked the recruiting side, using robocalls, live telemarketing calls, and social media ads to pull in new members from at least 2018 onward. The FTC's complaint quotes the pitch directly: prospects were promised they could "start earning $3,500 weekly within 3-10 days," backed by fabricated testimonials — one robocalled voice claiming "I actually make $50,000 each month." Membership itself cost $3,000 to as much as $21,000, plus additional "administrative fees," and in at least one recorded call Garis told a senior citizen she could "get out of debt quicker" by signing up.
@@ -8793,11 +8836,10 @@ NotoriousAF.push(
     title: "Bruno Crastes and the H2O Asset Management Bonds Nobody Could Sell",
     slug: 'bruno-crastes-h2o-asset-management-windhorst-bonds',
     author: 'ScamShield Editorial',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/17,_place_de_la_Bourse.JPG?width=1200',
-    coverImageCredit: 'Photo: Tiraden, CC BY-SA 4.0, via Wikimedia Commons — Place de la Bourse, Paris, seat of the AMF',
-    coverImagePosition: 50,
-    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/City_of_London_Financial_District_Skyline_from_the_North_Battlements_of_the_Tower_of_London.jpg?width=1200',
+    coverImageCredit: 'The City of London, where H2O Asset Management was based. Photo: Oleg Yunakov (CC BY-SA 4.0)',
+    coverImagePosition: 45,
     body: `Bruno Crastes co-founded H2O Asset Management in London in 2010, spinning the firm out of French bank Natixis's asset-management arm, which kept a large minority stake and marketed H2O's funds through its own distribution network. Under Crastes as chief executive and Vincent Chailley as chief investment officer, H2O built a reputation as one of Europe's standout bond and macro managers, its flagship UCITS funds — sold to ordinary retail investors across France and beyond as liquid, dealt-daily products — pulling in billions of euros on the strength of consistently strong returns.
 
 What investors in those funds didn't know was how much of their money had been steered somewhere UCITS rules were built to keep it out of. From as early as 2015, H2O put a large and growing share of several funds' assets into privately placed, thinly traded bonds tied to German financier Lars Windhorst and his holding company, Tennor Holding — investments France's securities regulator, the Autorité des Marchés Financiers (AMF), later found weren't rated, weren't reliably valuable, and in some funds exceeded the 10% cap on exposure to a single issuer's debt that retail bond funds are required to observe precisely so that one bad bet can't sink the whole fund.
@@ -8817,7 +8859,7 @@ NotoriousAF.push(
     slug: 'stewart-ford-keydata-death-bonds-fraud',
     author: 'ScamShield Editorial',
     coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Canary_Wharf_Skyline_2,_London_UK_-_Oct_2012.jpg?width=1200',
-    coverImageCredit: 'Photo: David Iliff, CC BY-SA 3.0, via Wikimedia Commons — Canary Wharf, London\'s financial district',
+    coverImageCredit: 'Canary Wharf, London. Keydata sold its bonds to ordinary savers through independent advisers. Photo: David Iliff (CC BY-SA 3.0)',
     coverImagePosition: 50,
     // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer'],
@@ -8861,7 +8903,7 @@ NotoriousAF.push(
     slug: 'guy-flintham-unauthorised-investment-scheme-fraud',
     author: 'ScamShield Editorial',
     coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Preston_Law_Courts_(geograph_3100494).jpg?width=1200',
-    coverImageCredit: 'Photo: Ian Taylor, CC BY-SA 2.0, via Wikimedia Commons — Preston Law Courts',
+    coverImageCredit: 'Preston Law Courts, Lancashire, where the case was heard. Photo: Ian Taylor (CC BY-SA 2.0)',
     coverImagePosition: 50,
     // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'international'],
@@ -8882,6 +8924,9 @@ NotoriousAF.push(
     slug: 'rodney-forrest-platinum-asset-management-insider-trading',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'international'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Sydney_Harbour_Bridge_night.jpg?width=1200',
+    coverImageCredit: 'Sydney, where Forrest took the information from an unattended office. Photo: Diliff (CC BY-SA 3.0)',
+    coverImagePosition: 45,
     body: `Rodney Forrest ran an unlicensed operation he called Sublime Asset Management, but the trade that landed him in prison had nothing to do with any strategy of his own. On August 23, 2024, Forrest walked into the unattended office of Michael Cole, the chairman of ASX-listed investment group Regal Partners Limited, and used his phone to photograph a confidential pitch deck sitting on Cole's computer — one laying out Regal Partners' plan to acquire fellow fund manager Platinum Asset Management.
 
 Forrest spent the following weeks turning those photographs into a trading position, spread across more than one name to keep it from looking like a single large bet. Between August 29 and September 10, 2024, he personally bought $2.69 million worth of Platinum shares. He then procured two other individuals, and an entity called Jatam Investments, to buy a further $457,000 or so of Platinum stock between September 9 and 16 — all of it, according to Australia's securities regulator ASIC, timed off information no other investor in the market had access to.
@@ -8901,6 +8946,9 @@ NotoriousAF.push(
     slug: 'beaufort-securities-fbi-pump-and-dump-sting',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'international'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/King_Edward_Buildings%2C_London_03.jpg?width=1200',
+    coverImageCredit: 'London, where Beaufort Securities was authorised and based. Photo: Paul the Archivist (CC BY-SA 4.0)',
+    coverImagePosition: 45,
     body: `Beaufort Securities Ltd was a London-based, FCA-authorised stockbroking and wealth-management firm serving retail and institutional clients, with a clearing arm called Beaufort Asset Clearing Services Limited (BACSL) that settled trades on the group's behalf. What ended the firm wasn't a client complaint or a routine audit — it was an undercover FBI agent who approached Beaufort's Cyprus-born investment manager, Panayiotis "Peter" Kyriacou, describing himself as someone who ran pump-and-dump schemes in U.S. microcap stocks and needed a broker willing to help.
 
 According to an indictment later unsealed in Brooklyn federal court, Kyriacou and Beaufort obliged. Between March 2014 and February 2018, Beaufort facilitated at least ten pump-and-dump schemes involving thinly traded U.S. penny stocks — including HD View 360 Inc. and West Coast Ventures Group Corp. — generating more than $50 million in proceeds. Kyriacou and his associates opened brokerage accounts in the names of nominees to conceal the undercover agent's identity, then executed matched trades and coordinated buying designed to manufacture the appearance of real trading volume and drive up a stock's price before the shares were dumped on the public. When the scheme's participants needed to move the resulting cash, prosecutors say they turned to the art world: between October 2017 and February 2018, Beaufort's team agreed to help launder roughly £6.7 million in proceeds, including a proposal that the undercover agent purchase a Picasso painting as a vehicle for moving the money.
@@ -8920,10 +8968,9 @@ NotoriousAF.push(
     slug: 'jorg-biehl-infinus-group-ponzi-scheme',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'international'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Dresden_Skyline_01.JPG?width=1200',
-    coverImageCredit: 'Photo: Ad Meskens, CC BY-SA 4.0, via Wikimedia Commons — Dresden, where the Infinus Group was based',
-    coverImagePosition: 50,
-    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Dresden_city_2.jpg?width=1200',
+    coverImageCredit: 'Dresden, where the Infinus Group was headquartered. Photo: AnnalisaPalmisano (CC BY-SA 4.0)',
+    coverImagePosition: 45,
     body: `Jörg Biehl built the Infinus Group out of Dresden into a sprawling network of roughly 20 companies selling what German finance calls "Genussrechte" — profit-participation rights — along with subordinated bonds, marketed to ordinary savers as a safe, steady alternative to a bank deposit at a time when German interest rates had fallen close to zero. Sales agents told investors their money would be deployed into real estate, renewable energy, and other income-generating businesses within the group, paying fixed annual returns that made the products look far more like a term deposit than the unsecured, high-risk instruments they actually were.
 
 Prosecutors in Dresden alleged that Infinus operated as a classic pyramid from early on: the returns paid to existing investors came not from the underlying businesses' profits, which were nowhere near sufficient to cover them, but from the capital brought in by new investors — the same structural pattern German investigators later invoked to describe the fraud in what became one of the country's largest post-financial-crisis white-collar trials. Balance sheets and disclosure documents were falsified to conceal the shortfall, and around €30 million of investor money was allegedly funneled into offshore accounts in the Caribbean, Liechtenstein, and Latvia that has never been recovered. Investors that trial evidence and press reporting focused on had put more than €300 million into the specific instruments at issue, out of a wider group of some 50,000 people who had invested up to roughly €2 billion across all 22 Infinus companies over the scheme's life.
@@ -8941,6 +8988,9 @@ NotoriousAF.push(
     slug: 'bill-papas-forum-finance-bank-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'international'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Sydney_Harbour_Bridge_night.jpg?width=1200',
+    coverImageCredit: 'Sydney, where Forum Finance was based. Photo: Diliff (CC BY-SA 3.0)',
+    coverImagePosition: 45,
     body: `Bill Papas ran Forum Finance and Forum Group Financial Services, Sydney-based equipment-finance businesses that, on paper, connected banks looking to lend against real assets with small and medium-sized businesses that needed to finance equipment like printers, photocopiers, and industrial waste digesters. Banks including Westpac in Australia and New Zealand, Sumitomo Mitsui Banking Corporation (SMBC), and Societe Generale would fund the purchase of the equipment and collect the ongoing lease payments Forum arranged and served — a straightforward, well-established form of asset finance that had operated in various forms for decades.
 
 The equipment did not exist. According to findings later made by Australia's Federal Court, Papas and Forum Finance fabricated invoices, lease agreements, and supporting paperwork for equipment purchases that were never real, then used a stream of Forum's own money — dressed up as lease repayments — to keep the arrangements looking legitimate to the banks funding them. The scheme ran from around August 2018 until June 2021, when the fraud finally came to light after a customer inquiry about loan headroom prompted a closer look at Westpac's own records, and the con unraveled. Between them, Westpac Australia (roughly $341 million), Westpac New Zealand (NZ$58 million), SMBC ($113 million), and Societe Generale ($9 million) had funded close to $500 million in financing against equipment that had never left the invoice it was printed on.
@@ -8958,6 +9008,9 @@ NotoriousAF.push(
     slug: 'first-guardian-shield-master-fund-collapse',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'international'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Melbourne_Skyline_from_Rialto_Crop_-_Nov_2008.jpg?width=1200',
+    coverImageCredit: 'Melbourne, where many of the advisers involved were based. Photo: Diliff (CC BY-SA 3.0)',
+    coverImagePosition: 45,
     body: `Between 2020 and 2024, financial advisers across Australia — most prominently Melbourne-based adviser Ferras Merhi and the advisers working under him — recommended that clients roll money out of ordinary superannuation funds and into two comparatively obscure managed investment schemes: the First Guardian Master Fund and the Shield Master Fund. Merhi's clients alone put roughly $296 million into First Guardian and $230 million into Shield, part of a combined $1.1 billion that ultimately flowed into the two funds from nearly 12,000 Australians, many of whom had directed their entire compulsory retirement savings into funds they had never heard of before their adviser recommended them.
 
 First Guardian was operated by Falcon Capital Limited, whose director David Anderson had run the fund since 2012. Australia's corporate regulator, ASIC, later alleged that First Guardian's own accounts claimed roughly $274 million of the fund's value sat in cash receivables that were, in fact, mostly overdue and never collected, that more than $23 million had gone out in questionable marketing payments, and that First Guardian had invested in entities in which Anderson personally held a financial interest — undisclosed conflicts that Falcon, as the fund's own responsible entity, was supposed to be managing rather than creating.
@@ -8977,6 +9030,9 @@ NotoriousAF.push(
     slug: 'cbex-crypto-bridge-exchange-nigeria-collapse',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'international'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Skyline_from_ojo_Lagos_Nigeria_IMG_20240627_183111.jpg?width=1200',
+    coverImageCredit: 'Lagos — CBEX drew Nigerian investors before collapsing in 2025. Photo: Tofunmi24 (CC BY-SA 4.0)',
+    coverImagePosition: 45,
     body: `CBEX arrived in Nigeria in 2024 promising something almost every crypto scam promises in one form or another: guaranteed returns — up to 100% in 30 days — generated by an "AI-powered" trading system, with tiered referral bonuses for users who recruited others, some of whom reported needing to bring in at least a dozen new investors before they were even allowed to withdraw. The name itself was chosen for the credibility it borrowed rather than earned: CBEX matched the acronym of the China Beijing Equity Exchange, a real state-run Beijing exchange that handles mergers and restructurings of Chinese state-owned enterprises and has never touched cryptocurrency. In February 2024, the real China Beijing Equity Exchange publicly disavowed any connection to the crypto platform trading under a similar name — but by then CBEX had already used the resemblance to suggest a Chinese state-backed pedigree it did not have.
 
 Nigeria's Securities and Exchange Commission later identified the operation behind CBEX as ST Technologies International Limited, also trading as "Smart Treasure" or "Super Technology," and confirmed that neither CBEX nor its affiliates had ever been registered to operate a digital asset exchange or solicit public investment in Nigeria. As with any Ponzi scheme, there was no real trading engine behind the returns; early depositors were simply paid with money coming in from new ones, a mechanic that can look exactly like a functioning, profitable exchange for as long as new deposits keep outpacing withdrawal requests.
@@ -8996,6 +9052,9 @@ NotoriousAF.push(
     slug: 'arck-llp-richard-clay-kathryn-clark-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical', 'international'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Nottingham_city_centre_-_geograph.org.uk_-_7426752.jpg?width=1200',
+    coverImageCredit: 'Nottingham, where Arck LLP was run from. Photo: Bryn Holmes (CC BY-SA 2.0)',
+    coverImagePosition: 45,
     body: `Arck LLP was a small, unregulated UK investment marketing firm run out of Nottingham by Richard Clay, with his partner Kathryn Clark handling much of the firm's paperwork and investor-facing communication. Between 2006 and 2011, Arck marketed a series of overseas property developments — including schemes called Estrela Santiago, Paradise Beach, and Joyston — to roughly 700 investors, promising high fixed returns "with no risk to capital." Because Arck itself was not authorised to give financial advice, the investments were routed to the public through regulated independent financial advisers, and much of the money was funnelled into the schemes via HD Sipp, a self-invested personal pension provider, so that ordinary savers ended up holding what they believed was a low-risk slice of their retirement pot inside overseas holiday-home developments that barely existed on the ground.
 
 There was no real property empire behind the promised returns. According to the Serious Fraud Office, Clay used investor money to fund his own lavish lifestyle and to plug the losses of other failed ventures he was separately running, rather than to build or complete the developments Arck had sold. When concerned investors began asking questions about where their money had gone and why promised payments were late, Clark created forged bank statements designed to show healthy account balances and reassure them that their investments remained safe — paperwork that existed only to buy the scheme more time.
@@ -9015,6 +9074,9 @@ NotoriousAF.push(
     slug: 'capital-merchant-finance-nicholls-douglas-tallentire',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical', 'international'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/AucklandPano_MC.jpg?width=1200',
+    coverImageCredit: 'New Zealand, where the finance company took debentures from the public. Photo: Christian Mehlführer, User:Chmehl (CC BY 2.5)',
+    coverImagePosition: 45,
     body: `Capital + Merchant Finance was one of dozens of New Zealand finance companies that raised money from the public through debentures — effectively unsecured loans from ordinary savers — and used it to fund mortgage and commercial property lending. Founded in 2002 by Neal Nicholls and Wayne Douglas, who owned and controlled the company, Capital + Merchant built a base of roughly 7,500 debenture holders drawn in by advertised returns that looked only modestly better than a bank term deposit, and correspondingly safe.
 
 What set Capital + Merchant apart from finance companies that failed through ordinary bad lending was what its own directors did with investors' money while the company was still operating. Between 2004 and 2006, in what investigators called the "Clyde" and "Numeria" transactions, Nicholls and Douglas directed roughly $15.9 million through dealings that breached the restrictions in the company's trust deed and personally benefited trusts they controlled — money diverted, in effect, from the debenture holders who thought it was funding loans, into vehicles that benefited the two men running the company. The Serious Fraud Office separately identified a further $14.4 million in undisclosed related-party lending. Owen Tallentire, who served as chief executive and later as a director, was convicted alongside them for his role in the Clyde transactions.
@@ -9034,6 +9096,9 @@ NotoriousAF.push(
     slug: 'five-star-consumer-finance-kirk-macdonald-bowden',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical', 'international'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Wellington_City_Night.jpg?width=1200',
+    coverImageCredit: 'New Zealand, where Five Star took deposits from ordinary savers. Photo: Donovan Govan. (CC BY-SA 3.0)',
+    coverImagePosition: 45,
     body: `Five Star Consumer Finance Limited was one of the wave of New Zealand finance companies that took in money from ordinary depositors through debentures and promised interest rates, then lent it out again — supposedly to a diversified base of third-party borrowers. Its directors, Marcus MacDonald, Nicholas Kirk, and Anthony Walpole Bowden, ran the company alongside key manager Neill Williams, and between 2003 and 2007 they used their control of the lending decisions to direct roughly $43 million of investor funds into loans benefiting entities the directors themselves owned or controlled — related-party lending that breached the restrictions set out in the company's own trust deed.
 
 New Zealand's Serious Fraud Office, which investigated the case as part of the country's broader finance-company collapse in the mid-to-late 2000s, described the related-party loans as "cunningly conceived" arrangements designed to move investor money to the directors' own benefit while the company continued presenting itself to depositors as a conventional consumer finance lender. Five Star Consumer Finance was placed in receivership on August 29, 2007, owing investors approximately $46 million, most of which was never recovered.
@@ -9051,7 +9116,7 @@ NotoriousAF.push(
     slug: 'david-ames-harlequin-group-caribbean-resort-fraud',
     author: 'ScamShield Editorial',
     coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Petit_St._Vincent_Island_Resort_-_The_Grenadines,_St._Vincent,_Caribbean..jpg?width=1200',
-    coverImageCredit: 'Photo: Semark77, CC BY-SA 3.0, via Wikimedia Commons — Grenadines resort region targeted by Harlequin',
+    coverImageCredit: 'A Grenadines resort of the kind Harlequin sold to British savers off-plan. Photo: Semark77 (CC BY-SA 3.0)',
     coverImagePosition: 50,
     // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'international'],
@@ -9073,11 +9138,10 @@ NotoriousAF.push(
     title: 'Anthony Constantinou and the £70 Million CWM Fraud He Skipped Bail to Escape',
     slug: 'anthony-constantinou-cwm-fx-forex-ponzi-fugitive',
     author: 'ScamShield Editorial',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Heron_Tower,_110_Bishopsgate,_London.jpg?width=1200',
-    coverImageCredit: 'Photo: Beata May, CC BY-SA 3.0, via Wikimedia Commons — Heron Tower, CWM\'s former HQ',
-    coverImagePosition: 50,
-    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'international'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Heron_Tower%2C_Bishopsgate%2C_London.JPG?width=1200',
+    coverImageCredit: 'Heron Tower on Bishopsgate, where CWM’s London office was. Photo: Eluveitie (CC BY-SA 3.0)',
+    coverImagePosition: 40,
     body: `Anthony Constantinou ran a City of London foreign-exchange trading operation, branded largely as Capital World Markets (CWM), out of an office in Heron Tower on Bishopsgate. From late 2013 through March 2015, CWM's "Managed Account" product promised investors returns of around 5% a month — more than 60% a year — on what it described as risk-free foreign exchange trading, with a minimum investment starting at £50,000 and later rising to £100,000. Hundreds of people signed up, and prosecutors later calculated that the scheme took in approximately £70 million.
 
 None of the promised trading was real. According to the Crown Prosecution Service, CWM and its related companies never invested anywhere near the sums they claimed in the FX markets; the "returns" paid to investors came directly out of other investors' deposits, while a substantial share of what was left went to Constantinou personally and to expensive image-building — sponsorship deals, a Range Rover, and a CWM-branded luxury motorbike among the purchases prosecutors later pointed to — all designed to make CWM look successful enough to keep new money flowing in.
@@ -9093,11 +9157,10 @@ More than three years after his conviction, Constantinou remains a fugitive some
     title: 'Balsam AG: The Astroturf Maker That Hid a $1 Billion Fraud Inside Ordinary Export Financing',
     slug: 'balsam-ag-procedo-export-financing-fraud',
     author: 'ScamShield Editorial',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Skyline_der_Stadt_Bielefeld.jpg?width=1200',
-    coverImageCredit: 'Photo: Hakanneu, CC BY-SA 4.0, via Wikimedia Commons — Bielefeld skyline, near Balsam AG\'s Steinhagen HQ',
-    coverImagePosition: 50,
-    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical', 'international'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/20220924_Soccer_match_artificial_turf_field_Bethany_Lutheran_College_Mankato_Minnesota.jpg?width=1200',
+    coverImageCredit: 'Synthetic sports flooring — Balsam AG was the world’s largest maker. Photo: Bethany Lutheran College (CC BY-SA 4.0)',
+    coverImagePosition: 50,
     body: `Friedel Balsam founded his company in the West German town of Steinhagen in 1965 with 7,000 deutsche marks in borrowed capital, and over the following decades built it into the world's largest manufacturer of synthetic sports flooring — its artificial turf and running-track surfaces equipped Olympic venues and World Championship stadiums, and the company employed well over a thousand people generating hundreds of millions of marks in annual revenue. To keep growing, Balsam AG acquired roughly two dozen smaller competitors, an expansion drive that quietly outran the company's real finances long before anyone outside the business noticed.
 
 To paper over the gap, Balsam and his finance chief, Klaus-Detlev Schlienkamp, turned to an ordinary and unglamorous corner of corporate finance: export factoring. Under the arrangement, Balsam submitted invoices for its export sales to Procedo, a Wiesbaden-based trade-finance firm that was itself one of Germany's largest export financiers, and Procedo advanced Balsam most of the invoice value upfront, in exchange for a fee, expecting Balsam to repay it once the foreign customer settled the invoice 90 to 120 days later. What began as invoices padded with inflated amounts eventually became invoices for export deals that did not exist at all — and because the "customers" behind them never paid, Balsam kept the scheme alive by submitting new fabricated invoices to Procedo and using those advances to repay the old ones, an ordinary trade-finance facility quietly turned into a Ponzi scheme.
@@ -9252,11 +9315,10 @@ NotoriousAF.push({
     title: 'Stephen Ehrlich and the Voyager Digital Collapse That Erased "FDIC-Insured" Crypto Savings',
     slug: 'stephen-ehrlich-voyager-digital-fraud',
     author: 'ScamShield Research Team',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Bitcoin_logo_clean.svg?width=1200',
-    coverImageCredit: 'Bitcoin logo, CC0 1.0, via Wikimedia Commons',
-    coverImagePosition: 50,
-    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Toronto_Financial_District_August_2017.jpg?width=1200',
+    coverImageCredit: 'Toronto, where Voyager Digital was listed before the crypto lender collapsed. Photo: Arild Vågen (CC BY-SA 4.0)',
+    coverImagePosition: 45,
     body: `Stephen Ehrlich co-founded Voyager Digital in 2018 after stints at E*Trade and Morgan Stanley, building it into one of the more mainstream-feeling names in crypto: an app that let ordinary people buy, sell, and earn interest on cryptocurrency, paired with a debit card that paid cashback in crypto. Central to Voyager's pitch, according to the Federal Trade Commission, was a promise meant to erase the one hesitation crypto platforms usually couldn't answer — that customer deposits were "FDIC-insured" and would be "as safe with us as at a bank."
 
 That claim traded on a real institution's credibility to cover a fiction. FDIC insurance protects a depositor's money if the *bank itself* fails — it says nothing about the failure of a nonbank company like Voyager that merely parked pooled customer funds at a partner bank, and the FTC's complaint alleged that most customer money wasn't even structured to carry pass-through FDIC protection in the first place. Voyager's own marketing repeatedly blurred that distinction, telling depositors their crypto savings carried the same government-backed safety net as a checking account, right up until the moment that safety net turned out not to exist.
@@ -9295,11 +9357,10 @@ NotoriousAF.push({
     title: 'Dieter Breitkreuz and the Phoenix Kapitaldienst Ponzi Scheme That Outlived Its Founder by Months',
     slug: 'dieter-breitkreuz-phoenix-kapitaldienst-ponzi-scheme',
     author: 'ScamShield Research Team',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Frankfurt_Stock_Exchange.jpg?width=1200',
-    coverImageCredit: 'Photo: Pythagomath, CC BY-SA 4.0, via Wikimedia Commons — Frankfurt Stock Exchange',
-    coverImagePosition: 50,
-    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'international'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Skyline_Frankfurt_am_Main.jpg?width=1200',
+    coverImageCredit: 'Frankfurt, where Phoenix Kapitaldienst ran its managed-futures scheme. Photo: Nicolas Scheuer (CC BY-SA 2.5)',
+    coverImagePosition: 45,
     body: `Dieter Breitkreuz founded Phoenix Kapitaldienst GmbH in Frankfurt am Main in 1977, though the firm only received full authorization from Germany's federal financial regulator, BaFin, to operate as a securities-trading company on January 1, 1998. Its signature product, the "Phoenix Managed Account," pitched everyday German investors on a promise that should have drawn more skepticism than it did: pool your money with Phoenix, and the firm would trade it in options and futures markets on your behalf for a steady, almost metronomic return of around 10% a year.
 
 Real markets don't produce steady, uninterrupted 10% annual returns year after year — genuine trading results move with the markets, sometimes sharply. According to German prosecutors and the insolvency administrator who later combed through Phoenix's books, that was precisely the point: most customer money was never actually deployed into the options and futures trades the firm claimed to be making. Phoenix instead generated fabricated account statements and brokerage confirmations showing consistent gains, while quietly funding the "returns" it paid to existing customers, and its own overhead, out of the deposits pouring in from new ones — a textbook Ponzi structure dressed up as a professionally managed trading account. Over more than two decades, the scheme drew in roughly 28,000 to 30,000 customers, who together entrusted the firm with somewhere around €750 million.
@@ -9318,10 +9379,9 @@ NotoriousAF.push({
     slug: 'carl-cushnie-versailles-group-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'international', 'historical'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Former_London_Stock_Exchange_Building_-_geograph.org.uk_-_1501273.jpg?width=1200',
-    coverImageCredit: 'Photo: Christine Matthews, CC BY-SA 2.0, via Wikimedia Commons — the London Stock Exchange, where Versailles Group was listed',
-    coverImagePosition: 50,
-    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Central_Criminal_Court_of_England_and_Wales_(The_Old_Bailey)_Ceiling.jpg?width=1200',
+    coverImageCredit: 'The Old Bailey, where Cushnie was convicted; most of Versailles’ trade finance turnover was fictitious. Photo: Michael D Beckwith (public domain)',
+    coverImagePosition: 45,
     body: `Carlton "Carl" Cushnie was born in Kingston, Jamaica, and moved to London at age 13. He trained as a computer programmer at ICL before founding a software company, Pentagon Business Systems, and in 1990 launched Versailles Group, a trade-finance firm. By the late 1990s Cushnie was estimated to be the wealthiest Black businessman in Europe and ranked among Britain's 100 richest people, wealthy and prominent enough to make a six-figure donation to the Labour Party and appear in one of its European election broadcasts in 1999.
 
 Versailles marketed itself as a specialist in mezzanine "gap" trade finance: buying a manufacturer's goods after a sale had been agreed but before the buyer had actually paid, then charging interest of roughly 21% a year plus administration fees of 2.5 to 3.5%, with Cushnie boasting that his tracking software could follow investors' stakes down to "shorts or golf balls." In reality, the company executed only one genuine factoring trade in its history, and lost money on it. Everything else was fabricated: investigators later found that phony transactions made up more than 80% of Versailles's reported turnover in every year from 1992 through 1999, with Cushnie and finance director Frederick Clough circulating money between companies they controlled, forging documents, and altering computer records to manufacture "profits" that were actually funded by fresh investor capital and bank borrowing, a Ponzi scheme dressed in the unglamorous, hard-to-audit language of invoice factoring.
@@ -9339,10 +9399,9 @@ NotoriousAF.push({
     slug: 'stanislaw-burzynski-antineoplaston-cancer-clinic-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'healthcare-fraud'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Skyline_of_the_Texas_Medical_Center_-_Houston,_TX_-_December_2019.jpg?width=1200',
-    coverImageCredit: 'Photo: David Daniel Turner, CC BY 4.0, via Wikimedia Commons — the Houston medical-center district where Burzynski practiced',
-    coverImagePosition: 50,
-    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Medical_Towers_--_Houston%2C_Texas.jpg?width=1200',
+    coverImageCredit: 'Houston, where the clinic sold an unapproved cancer therapy to desperate families. Photo: Jim Evans (CC BY-SA 4.0)',
+    coverImagePosition: 45,
     body: `Stanislaw Burzynski, a Houston physician, began treating cancer patients in the 1970s with a substance he called "antineoplastons," which he said he had isolated from human blood and urine and which he claimed could target cancer cells that conventional chemotherapy and radiation could not reach. He opened his own clinic outside the normal channels of academic oncology, and for decades continued treating patients with antineoplastons even as the substance never won FDA approval as an actual cancer drug, and even as mainstream oncologists and regulators repeatedly found no credible evidence it worked.
 
 Patients came anyway, often after being told by conventional doctors that their cancer was terminal or untreatable, drawn by Burzynski's reputation as a maverick offering a chance nobody else would. What they were not always told clearly was the cost: treatment at the Burzynski Clinic could run into the tens of thousands of dollars up front, with ongoing monthly charges that pushed some families into fundraising campaigns lasting years, all to access a substance regulators considered unproven. The Texas Medical Board's investigators went further, finding that Burzynski billed insurers for treatments using misleading terminology, let clinic staff misrepresent their roles to patients, and repeatedly failed to properly disclose the risks of an experimental treatment to people making a life-or-death decision under enormous emotional pressure.

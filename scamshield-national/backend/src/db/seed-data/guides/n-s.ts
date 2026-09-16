@@ -4706,7 +4706,7 @@ GuidesNS.push({
   author: "ScamShield Editorial",
   tags: ["guide", "preneed-funeral-fraud", "elder-financial-exploitation"],
   coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Janisse_Funeral_Home,_Windsor,_Ontario,_2025-07-01.jpg?width=1200",
-  coverImageCredit: "Photo: Chris Woodrich, CC BY-SA 4.0, via Wikimedia Commons",
+    coverImageCredit: "A funeral home. Money paid years in advance must sit in a trust — ask for written proof that it does. Photo: Chris Woodrich (CC BY-SA 4.0)",
   coverImagePosition: 50,
   // representative photo — replace with an exact match if found
   sourceUrl: "https://connectingdirectors.com/42973-national-prearranged-services-crooks-finally-get-prison-sentence",
@@ -4725,7 +4725,7 @@ GuidesNS.push({
   author: "ScamShield Editorial",
   tags: ["guide", "deed-solicitation-scam", "homeowner-mail-scam"],
   coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Old_County_Hall_Buffalo_NY.jpg?width=1200",
-  coverImageCredit: "Photo: dIPENdAVE, CC BY-SA 3.0, via Wikimedia Commons — a county government building, where real deed copies are actually recorded",
+    coverImageCredit: "A county government building. Your county recorder sells the same deed copy for a few dollars. Photo: dIPENdAVE (CC BY-SA 3.0)",
   coverImagePosition: 50,
   // representative photo — replace with an exact match if found
   sourceUrl: "https://www.ag.state.mn.us/consumer/Publications/RealEstateDeedSolicitation.asp",
