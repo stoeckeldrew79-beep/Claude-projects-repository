@@ -8318,6 +8318,48 @@ UsAF.push({
 });
 
 UsAF.push({
+    name: 'Arkansas Cryptocurrency Kiosk Impersonation Scam',
+    slug: 'arkansas-cryptocurrency-kiosk-impersonation-scam',
+    description: `Scammers impersonating banks, utility companies, or government agencies contact Arkansas residents by phone or text, manufacturing urgency around a supposedly compromised account or overdue tax bill, then direct victims to nearby cryptocurrency kiosks, Bitcoin ATM-style machines commonly found in gas stations and liquor stores, to "resolve" the problem by depositing cash that is instantly converted to cryptocurrency and sent to the scammer's wallet. Because blockchain transactions are irreversible and hard to trace, victims who comply have essentially no way to recover the money once it clears the kiosk. The Arkansas Attorney General's office said it received consumer complaints totaling more than $400,000 in cryptocurrency-kiosk losses in a single year, and while recovery is extraordinarily rare, investigators did manage to recover $52,000 for one victim through direct intervention. The office issued a formal April 2025 consumer alert reminding residents that no legitimate business, bank, or government agency will ever demand payment through a Bitcoin ATM, and urged anyone contacted this way to hang up and call the organization back using an independently verified number.`,
+    categorySlug: 'cryptocurrency-scams',
+    alertLevel: 'high',
+    sources: ['Arkansas Attorney General\'s Office'],
+    sourceUrl: 'https://arkansasag.gov/news-release/consumer-alert-how-to-avoid-cryptocurrency-kiosk-scams/',
+    country: 'US',
+    state: 'AR',
+    isHistorical: true,
+    firstRecorded: '2025-04-01',
+});
+
+UsAF.push({
+    name: '"Passionate Minds Circle of Wealth" Gifting Pyramid Scheme (Lackland Family)',
+    slug: 'arkansas-passionate-minds-circle-of-wealth-pyramid-scheme',
+    description: `In November 2020, then-Arkansas Attorney General Leslie Rutledge sued members of the Lackland family of Faulkner County, Scottie, Valentina, and Sydney Lackland, plus Scottie D. Lackland II, who was at the time a Little Rock police officer, over a recruitment-only "gifting circle" operated under the name "Passionate Minds Circle of Wealth." Participants paid a $500 "gift" that was promised to grow into a $4,000 "blessing" within 28 days, with no actual product or service involved; payouts came solely from recruiting new participants, the classic structure of an illegal pyramid scheme. Investigators found more than $320,000 flowed into the family's bank accounts over roughly eight months, which the suit alleges funded debt payoff, savings, and purchases including plastic surgery. The same day, Rutledge separately sued a Saline County school district employee over a near-identical scheme called "Family Blessing Circle" soliciting $1,400 "donations" promising $11,200 in return within four to six weeks. The lawsuits were brought under the Arkansas Deceptive Trade Practices Act, carrying penalties up to $10,000 per violation. Arkansans approached about a "blessing circle" or similar cash-only recruitment offer should decline and can report it to the AG's Consumer Protection Division.`,
+    categorySlug: 'ponzi-pyramid-schemes',
+    alertLevel: 'high',
+    sources: ['Arkansas Attorney General\'s Office (Leslie Rutledge)', 'Arkansas Times'],
+    sourceUrl: 'https://arktimes.com/arkansas-blog/2020/11/03/attorney-general-sues-over-pyramid-schemes/',
+    country: 'US',
+    state: 'AR',
+    isHistorical: true,
+    firstRecorded: '2020-11-03',
+});
+
+UsAF.push({
+    name: 'West Memphis Tech-Support "Solo Account" Life-Savings Scam (Laura McFarling)',
+    slug: 'arkansas-west-memphis-tech-support-solo-account-scam',
+    description: `An 81-year-old widow in West Memphis, Arkansas lost her entire $37,600 life savings after a pop-up warning on her computer falsely claiming to be from Microsoft directed her to call a "technical support" number. A scammer identifying himself as "Steve" convinced her six hackers had broken into her computer and bank account, then transferred her to a second scammer, "Charles," who posed as her bank and told her not to contact the real bank because the hackers could "tag her phone." Charles talked her into opening a new "Solo Account" he claimed would hide her money from the hackers, which in reality routed her savings directly to the scammers. She only learned she'd been defrauded when her Sunday school teacher recognized the scam and helped her contact her real bank, local police, the FBI, and the FTC, none of whom have recovered the money. FBI data show 270 Arkansas residents lost nearly $6 million to tech-support scams in 2024 alone, and the Better Business Bureau notes such scams specifically target seniors, who tend to trust claimed authority figures and have less technical familiarity. Consumers should remember Microsoft never includes a phone number in an error pop-up and never places unsolicited support calls; anyone seeing such a pop-up should close the browser or restart the device rather than call any number shown, and should independently verify any "bank" contact using the number on the back of their card.`,
+    categorySlug: 'tech-support-scams',
+    alertLevel: 'high',
+    sources: ['Action News 5 (WMC)', 'Better Business Bureau', 'Federal Bureau of Investigation'],
+    sourceUrl: 'https://www.actionnews5.com/2026/02/19/west-memphis-widow-loses-life-savings-tech-support-scam/',
+    country: 'US',
+    state: 'AR',
+    isHistorical: true,
+    firstRecorded: '2026-02-19',
+});
+
+UsAF.push({
     name: 'East Haven Breast-Imaging Manager\'s $1 Million Romance-to-Crypto Loss (Jackie Crenshaw)',
     slug: 'connecticut-east-haven-crenshaw-romance-crypto-loss',
     description: `Jackie Crenshaw, a 61-year-old breast imaging manager from East Haven, Connecticut, met a man calling himself "Brandon" on an online dating site, and over months of daily communication — including gifts and food deliveries sent to her home — he built the kind of trust that made his next suggestion feel safe: investing in a cryptocurrency opportunity he said was earning him steady returns. Fake account statements showing the investment growing convinced Crenshaw to put in more, eventually borrowing against her retirement account and taking out a home loan to keep pace with "Brandon's" requests, including one transaction built around a $100,000 check that her own bank initially verified as good. She had lost nearly $1 million before an anonymous caller tipped off police roughly a year later, finally exposing "Brandon" as fictitious and the platform as fraudulent. Connecticut Attorney General William Tong and AARP Connecticut featured Crenshaw's story in a statewide public service announcement launched January 2, 2026 and aired for 16 weeks on Connecticut television and radio, pairing it with FBI data showing adults 60 and older filed more than 147,000 fraud complaints in 2024 totaling $4.86 billion in losses, including $389 million lost specifically to romance scams. A romantic contact met only online who introduces a "can't miss" investment — especially cryptocurrency — is a red flag regardless of how genuine the relationship otherwise feels, and even a bank confirming a check as good is no guarantee it won't bounce days later once fully processed; anyone approached this way can call Connecticut's Elder Justice Hotline at 860-808-5555 or the AARP Fraud Watch Network Helpline at 877-908-3360 before sending money.`,
