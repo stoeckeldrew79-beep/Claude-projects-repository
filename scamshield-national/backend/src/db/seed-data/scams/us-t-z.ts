@@ -3714,6 +3714,46 @@ UsTZ.push({
 });
 
 UsTZ.push({
+    name: 'Wyoming Livestock Board "Brand Renewal" Phone Scam',
+    slug: 'wyoming-livestock-board-brand-renewal-phone-scam',
+    description: `Scammers have called registered Wyoming livestock brand owners posing as Wyoming Livestock Board staff, falsely claiming a rancher's registered brand is "past due for renewal" and demanding immediate payment by credit card over the phone. Wyoming's brand-recording system — a distinctly Western institution requiring ranchers to periodically re-register ownership brands with the state — gives the scam a built-in air of legitimacy, since brand owners know renewal really is required periodically. The Wyoming Livestock Board publicly confirmed the calls were fraudulent, stating the calls were "NOT coming from the office" and that the agency does not contact owners about renewals or request payment over the telephone — legitimate renewal notices are sent only by mail. Registered brand owners, primarily ranchers and livestock producers, were the target audience. Residents should hang up on any unsolicited call demanding immediate payment for a brand renewal, keep their mailing address current with the Board so they receive legitimate mailed notices, and report suspicious calls directly to the Wyoming Livestock Board.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Wyoming Livestock Board', 'Tri-State Livestock News'],
+    sourceUrl: 'https://www.tsln.com/news/woming-beware-possible-brand-renewal-phone-call-scam/',
+    country: 'US',
+    state: 'WY',
+    isHistorical: true,
+    firstRecorded: '2020-03-01',
+});
+
+UsTZ.push({
+    name: 'Wyoming DAO LLC "Reincorporation Loophole" Exploited by HyperVerse-Linked Crypto Ponzi Network',
+    slug: 'wyoming-dao-llc-reincorporation-loophole-hyperverse-ponzi',
+    description: `Wyoming was the first U.S. state to create a legal "DAO LLC" structure, and fraud investigators have documented scammers exploiting its low cost, owner anonymity, and lack of enhanced post-dissolution scrutiny to keep fraudulent crypto operations alive. In one documented case, "Affiliate Marketing 3.0 DAO LLC" registered in Wyoming on February 28, 2024, was dissolved by the Wyoming Secretary of State on June 10, 2024 after a Notice of Administrative Action for providing fraudulent information — then simply re-registered on July 16, 2024 using the exact same name and the exact same registered agent, with no added penalty or oversight. The entity has been linked by fraud investigators to Shavez Anwar, described as a successor to Sam Lee, the figure the SEC and DOJ allege ran the roughly $1.9-2 billion "HyperVerse" crypto Ponzi scheme. The pattern — false promises of high crypto "staking" and affiliate returns funded by new investor deposits — fits the classic Ponzi model dressed up in a Wyoming-registered legal wrapper to appear more legitimate to prospective investors. Consumers should treat a Wyoming DAO LLC registration as no guarantee of legitimacy, independently verify any crypto investment opportunity's actual business operations and audited financials rather than just its state filing, be wary of "staking" or "affiliate" programs promising guaranteed high returns, and report suspected fraud to the SEC, FTC, and the Wyoming Secretary of State's office.`,
+    categorySlug: 'cryptocurrency-scams',
+    alertLevel: 'high',
+    sources: ['Dehek Substack investigative reporting', 'Wyoming Secretary of State'],
+    sourceUrl: 'https://dehek.substack.com/p/wyomings-dao-llc-loophole-a-haven',
+    country: 'US',
+    state: 'WY',
+});
+
+UsTZ.push({
+    name: 'Wyoming Medicaid "Ghost Caregiver" Billing Fraud (Holly Lundahl)',
+    slug: 'wyoming-holly-lundahl-medicaid-ghost-caregiver-fraud',
+    description: `In April 2020, the U.S. Attorney's Office for the District of Wyoming announced the arrest of Holly Lundahl, 63, following a federal grand jury indictment on three counts of health care fraud and two counts of aggravated identity theft. According to the indictment, Lundahl used a disabled Wyoming Medicaid beneficiary's identity and submitted false documentation to register two other individuals as approved personal-care providers, then billed Wyoming Medicaid for caregiving services those individuals never actually performed; she also allegedly registered herself as a caregiver using false documentation in violation of Wyoming Medicaid rules. Investigators with the Wyoming Attorney General's Medicaid Fraud Control Unit found she submitted more than $73,000 in fraudulent claims between June 2016 and January 2020. This "ghost caregiver" mechanism exploits Wyoming's Medicaid personal-care-attendant enrollment process and a real beneficiary's identity, rather than direct-to-consumer impersonation. Wyoming Medicaid beneficiaries and their families should periodically review Medicaid billing statements for services or providers they don't recognize, verify that anyone claiming to be their registered caregiver is actually who Medicaid has on file, and report suspected billing fraud to the Wyoming Department of Health's Program Integrity unit or the Wyoming Attorney General's Medicaid Fraud Control Unit.`,
+    categorySlug: 'healthcare-fraud',
+    alertLevel: 'medium',
+    sources: ["U.S. Attorney's Office, District of Wyoming", 'Sheridan Media', "Wyoming Attorney General's Office (Medicaid Fraud Control Unit)"],
+    sourceUrl: 'https://sheridanmedia.com/news/16709/medicaid-fraud-indictment-alleges-false-claims-for-caregiver-services/',
+    country: 'US',
+    state: 'WY',
+    isHistorical: true,
+    firstRecorded: '2016-06-01',
+});
+
+UsTZ.push({
     name: 'Milwaukee CARES Act Multi-State Unemployment Fraud Ring (Nikki Brown)',
     slug: 'wisconsin-milwaukee-nikki-brown-unemployment-fraud',
     description: `During the COVID-19 pandemic, Nikki Brown, 43, of Milwaukee, Wisconsin, recruited third parties to help her file fraudulent unemployment insurance claims in six different states, including Wisconsin, under the CARES Act's expanded pandemic unemployment benefits. Brown convinced dozens of people to hand over their personally identifiable information by promising them a cut of whatever the fraud brought in, then used that stolen information to file false claims and collect the resulting payments, ultimately stealing $494,498 in unemployment benefits. Brown pleaded guilty to one count of wire fraud, and on August 17, 2023, U.S. District Judge Brett H. Ludwig sentenced her to 33 months in federal prison. "Prosecuting those who steal from federal benefits programs remains a top priority for the Department of Justice and my office," said then-U.S. Attorney Gregory J. Haanstad, whose office prosecuted the case after an investigation by the U.S. Department of Labor's Office of Inspector General. Pandemic-era unemployment fraud left behind a durable scam pattern that still shows up in ordinary state unemployment systems: anyone offering to help file a benefits claim in exchange for a share of the payout is really recruiting someone into identity theft, so a Social Security number or other identifying information should never be handed to a stranger promising an easy payday, and checking a state unemployment portal and credit report periodically can catch a claim that was never actually filed by the person it names.`,
