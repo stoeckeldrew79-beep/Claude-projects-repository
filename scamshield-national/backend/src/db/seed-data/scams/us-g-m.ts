@@ -7300,6 +7300,46 @@ UsGM.push({
 });
 
 UsGM.push({
+    name: 'Counterfeit Savings Bond Deposit Scheme at Glacier Bank (Kristin Edwards)',
+    slug: 'montana-glacier-bank-counterfeit-savings-bond-edwards',
+    description: `Kristin Renee Zelonish Edwards, a California resident, made four trips to northwest Montana between October 2022 and January 2023 to deposit 12 fraudulent U.S. savings bonds across four Glacier Bank branches, collecting over $170,000. When the U.S. Treasury flagged a bond as counterfeit in February 2023, Edwards claimed she'd found them among her late grandmother's belongings, but witnesses testified she never received bonds from that estate, and several bonds carried 1980 issue dates — seven years before she was born — while bearing her own Social Security number. Secret Service analysis found manufacturing defects inconsistent with genuine Treasury printing, matching counterfeit bonds separately deposited in Idaho and Colorado, pointing to a multi-state scheme. A federal jury convicted her on four counts of bank fraud, with sentencing scheduled for June 23, 2026. Anyone offered old savings bonds by a stranger, or asked to help deposit or cash them, should independently verify a bond's authenticity through TreasuryDirect before touching it, since a bond bearing dates that predate the presenting person's own birth is an immediate red flag.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'high',
+    sources: ['KPAX', "U.S. Attorney's Office, District of Montana"],
+    sourceUrl: 'https://www.kpax.com/news/crime-and-courts/california-woman-man-guilty-of-defrauding-glacier-bank-of-over-170-000',
+    country: 'US',
+    state: 'MT',
+    isHistorical: true,
+    firstRecorded: '2022-10-01',
+});
+
+UsGM.push({
+    name: 'Bozeman PPP Loan Fraud and Money Laundering (Alaina Garcia)',
+    slug: 'montana-bozeman-alaina-garcia-ppp-loan-fraud',
+    description: `Alaina Marie Garcia, 41, of Bozeman, obtained a $613,000 Paycheck Protection Program loan in May 2020 through Celtic Bank on behalf of Bluebird Property Rentals LLC, falsely claiming 32 employees and more than $245,000 in monthly payroll when the company had no employees and never paid payroll taxes. She diverted roughly $548,000 toward a real estate purchase and personal property, then in July 2020 obtained full loan forgiveness by falsely certifying the funds went to payroll and mortgage expenses. Investigated by IRS Criminal Investigation and the Small Business Administration and prosecuted by the U.S. Attorney's Office for the District of Montana, Garcia pleaded guilty in January 2026 to bank fraud and money laundering and was sentenced in May 2026 to 30 months in federal prison plus five years of supervised release. The case is a reminder that pandemic-era relief-program fraud is still being actively prosecuted years after the funds were disbursed, and that falsely certifying payroll numbers to a lender to obtain and then forgive a loan carries the same federal exposure as any other bank fraud.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'medium',
+    sources: ['NBC Montana', 'Internal Revenue Service Criminal Investigation', "U.S. Attorney's Office, District of Montana"],
+    sourceUrl: 'https://nbcmontana.com/news/local/bozeman-woman-sentenced-for-covid-relief-fraud-scheme',
+    country: 'US',
+    state: 'MT',
+    isHistorical: true,
+    firstRecorded: '2020-05-05',
+});
+
+UsGM.push({
+    name: 'Missoula Craigslist Fake Rental Listing Scam',
+    slug: 'montana-missoula-craigslist-fake-rental-listing-scam',
+    description: `Missoula Police warned residents in May 2026 after someone with no connection to a property posted a fraudulent Craigslist rental listing using real photos of a genuine home and collected deposits from multiple prospective tenants, who arrived to move in only to find the home already occupied by its actual owner or a legitimate renter. Police flagged the ad for removal and urged renters to be wary of below-market rent, "out of town" landlords who won't show the unit in person, and requests to pay a deposit by wire transfer, gift card, or payment app to a stranger before ever seeing the property. Prospective renters are advised to insist on an in-person tour, verify the listed owner against county property records, and never send a deposit to someone who cannot meet in person or provide a lease signed with a verifiable name.`,
+    categorySlug: 'real-estate-fraud',
+    alertLevel: 'medium',
+    sources: ['NBC Montana', 'Missoula Police Department'],
+    sourceUrl: 'https://nbcmontana.com/news/local/missoula-police-warn-of-fraudulent-craigslist-rental-scam',
+    country: 'US',
+    state: 'MT',
+});
+
+UsGM.push({
     name: 'Docomo Pacific AI Voice-Cloning Elder Scam Alert (Guam)',
     slug: 'guam-docomo-pacific-ai-voice-cloning-elder-scam-alert',
     description: `Christine Baleto, president and CEO of Guam telecommunications carrier Docomo Pacific, went public in March 2025 about a call her own mother received from someone claiming to be a federal agent, who said he had found her identification and other personal documents inside a vehicle that also contained drugs, then pressed her to "verify" her personal information over the phone or have agents sent to her home; Baleto's mother did not comply. "This public service announcement hit close to home because my mother received a call intended to steal her identity," Baleto said in releasing a company-wide PSA warning Guam residents, particularly the elderly, about a wave of scams that increasingly use artificial intelligence to clone the voices of a target's own family members from short clips scraped off social media, then use that cloned voice on a phone call to convince a senior their relative is in distress and needs money sent immediately, typically through gift cards or another hard-to-trace method. Docomo Pacific's warning came amid the indictment of 25 Canadian nationals accused of orchestrating a coordinated scam operation targeting elderly victims across more than 40 U.S. states and territories, underscoring that Guam's remote location offers no protection from a scam infrastructure built to work by phone against victims anywhere. Local officials and Docomo Pacific urged residents who receive an urgent, emotional call claiming to be a family member or law enforcement to resist any pressure to act immediately, hang up and call that family member back directly on a number already saved in their phone, and never share personal information, send money, or purchase gift cards based on a single unverified phone call, no matter how convincing the voice sounds.`,
