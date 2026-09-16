@@ -6278,11 +6278,8 @@ NotoriousNS.push(
     slug: 'soapy-smith-skagway-klondike-con-empire',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Soapy_Smith_grave_Skagway_2009.jpg?width=1200',
-    coverImageCredit: 'Jefferson "Soapy" Smith, who ran the Skagway con empire. Photo: Notyourbroom (CC BY 3.0)',
-    coverImagePosition: 40,
     coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Jeff_Smith%27s_Parlor,_1898_(MOHAI_5227).jpg?width=1200',
-    coverImageCredit: 'Webster & Stevens, 1898 (Public Domain, pre-1931 publication), via Wikimedia Commons — Jeff Smith\'s Parlor, Smith\'s Skagway headquarters',
+    coverImageCredit: 'Jeff Smith\'s Parlor in Skagway, 1898 — the saloon Smith ran his operation from. Photo: Webster & Stevens (public domain)',
     coverImagePosition: 50,
     body: `Jefferson Randolph Smith II was born in Georgia in 1860 and drifted west as a young man, working cattle drives in Texas before discovering he could make far more money running confidence games on the boomtowns of the American frontier. He got his lasting nickname in Denver, Colorado, in the 1880s from a street con known as the "prize soap racket": Smith would sell ordinary bars of soap from a stand for a few dollars each, loudly announcing that some bars had $50 or $100 bills wrapped inside, while a planted accomplice in the crowd would "win" one of the marked bars to whip up buying frenzy among onlookers who never won anything at all. He refined similar schemes — rigged card games, fake lotteries, a staged "petrified man" exhibit in the silver-mining town of Creede, Colorado — into an organized racket, building networks of shills, corrupt lawmen, and lookouts wherever he operated.
 

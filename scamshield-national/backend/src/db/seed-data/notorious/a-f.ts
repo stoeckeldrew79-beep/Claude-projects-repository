@@ -9417,13 +9417,9 @@ NotoriousAF.push({
     slug: 'david-bullen-national-australia-bank-forex-scandal',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'international', 'historical'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/AUS_Melbourne%2C_Central_Business_District%2C_Skyline_001.jpg?width=1200',
-    coverImageCredit: 'Melbourne, where NAB’s currency options desk hid its losses until the board found them. Photo: -wuppertaler (CC BY 4.0)',
-    coverImagePosition: 45,
     coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/NAB_building_in_Melbourne.jpg?width=1200',
-    coverImageCredit: 'Photo: Aaroncrick, CC BY-SA 3.0, via Wikimedia Commons — NAB\'s Melbourne headquarters building',
-    coverImagePosition: 50,
-    // representative photo — replace with a portrait if found
+    coverImageCredit: 'NAB\'s Melbourne headquarters. The currency options desk hid its losses until the board found them. Photo: Aaroncrick (CC BY-SA 3.0)',
+    coverImagePosition: 45,
     body: `David Bullen worked the Foreign Currency Options desk at National Australia Bank, one of the country's largest lenders, alongside three colleagues — Luke Duffy, the desk's head, Vincent Ficarra, and Gianni Gray. Between October 2003 and January 2004, as genuine trading positions on the desk moved against them, the four traders began entering fictitious offsetting trades into the bank's systems rather than reporting the real losses, a mechanism that let the desk's reported results keep looking profitable while the true exposure quietly grew underneath the fabricated numbers.
 
 The bank disclosed the problem publicly on January 13, 2004, and the scale of what had been hidden kept expanding as investigators dug in: NAB ultimately reported losses of up to A$360 million tied to the unauthorized and fictitious trading, one of the largest trading-fraud losses at an Australian bank to that point. The fallout reached well past the trading floor. Chief executive Frank Cicutto resigned on February 2, 2004, followed two weeks later by chairman Charles Allen, and the Australian Prudential Regulation Authority published a formal report that March documenting serious failures in the bank's risk-management and compliance culture — failures that had let four traders manufacture fictitious trades for months without the bank's own systems catching it.

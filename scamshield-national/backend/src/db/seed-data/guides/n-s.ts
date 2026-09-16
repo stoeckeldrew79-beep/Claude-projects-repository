@@ -4743,14 +4743,10 @@ GuidesNS.push({
   slug: "social-media-profile-cloning-scam-guide",
   author: "ScamShield Editorial",
   tags: ["guide", "profile-cloning-scam", "social-media-impersonation"],
-  coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Social_Media_App_Icons_On_The_Screen_of_A_Smartphone.jpg?width=1200",
-  coverImageCredit: "Photo: Mike MacKenzie, CC BY 2.0, via Wikimedia Commons",
-  coverImagePosition: 50,
-  // representative photo — replace with an exact match if found
-  sourceUrl: "https://consumer.ftc.gov/consumer-alerts/2023/10/friend-request-could-be-scammer",
     coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Social_Media_App_Icons_On_The_Screen_of_A_Smartphone.jpg?width=1200",
-    coverImageCredit: "A cloned profile copies your public photos and name — your real account is untouched, which is why you never see a breach warning. Photo: mikemacmarketing (CC BY 2.0)",
+    coverImageCredit: "A cloned profile copies your public photos and name — your real account is untouched, which is why no breach warning ever arrives. Photo: Mike MacKenzie (CC BY 2.0)",
     coverImagePosition: 50,
+  sourceUrl: "https://consumer.ftc.gov/consumer-alerts/2023/10/friend-request-could-be-scammer",
   body: `A friend gets a new friend request from someone they're already connected to on Facebook or Instagram, so they accept it without thinking twice — after all, they already know this person. What they don't realize is that their actual friend's account was never touched. A scammer simply copied their friend's profile photo, name, and whatever public details they could find, built a near-identical fake account from scratch, and sent friend requests to that real person's entire visible friends list. The FTC makes the distinction explicit: a friend request that appears to come from someone you know does not mean that person's account was hacked — it may be a brand-new, unrelated account wearing their identity.
 
 Once a handful of people accept, the cloned profile has an instantly credible audience, and the mechanism runs the same handful of ways from there: some clones start selling products that never ship, collecting payment before disappearing; others push a cryptocurrency or investment "opportunity," using the target's presumed trust in their friend to skip the skepticism a stranger's pitch would trigger; still others play a longer game, striking up what looks like a rekindled friendship or a new romantic interest before eventually asking for money, a gift card, or help with an "emergency." The FTC has tracked more than $2.7 billion in losses from scams that started on social media since 2021, more than any other contact method, and profile cloning is one of the primary reasons that channel works so well: it borrows a trust relationship the victim already has, rather than building one from zero.
@@ -4767,14 +4763,10 @@ GuidesNS.push({
   slug: "north-korean-remote-it-worker-fraud-guide",
   author: "ScamShield Editorial",
   tags: ["guide", "employment-scam", "north-korea-it-worker-fraud", "business-fraud"],
-  coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Pyongyang,_North_Korea_01.jpg?width=1200",
-  coverImageCredit: "Photo: Joseph Ferris III, CC BY 2.0, via Wikimedia Commons — Pyongyang, North Korea",
-  coverImagePosition: 50,
-  // representative photo — replace with an exact match if found
-  sourceUrl: "https://www.ic3.gov/PSA/2025/PSA250723-4",
-    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Workspace_%40_Nottingham_Flat.jpg?width=1200",
-    coverImageCredit: "A remote interview. The tell is a candidate who will not turn the camera on, or whose pay goes to an address that keeps changing. Photo: David Wellbeloved (CC BY 2.0)",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Pyongyang,_North_Korea_01.jpg?width=1200",
+    coverImageCredit: "Pyongyang. The applicants are real IT contractors working under false identities, with their wages routed back to the state. Photo: Joseph Ferris III (CC BY 2.0)",
     coverImagePosition: 50,
+  sourceUrl: "https://www.ic3.gov/PSA/2025/PSA250723-4",
   body: `Thousands of North Korean IT workers have been dispatched by the regime to apply for legitimate remote technology jobs at U.S. and other Western companies, using stolen or fabricated American identities to get hired as ordinary contractors or employees. Once hired, they perform the actual work, often competently, while secretly routing their salary back to fund North Korea's weapons programs in direct violation of U.S. and UN sanctions. The United Nations estimates this scheme generates between $250 million and $600 million a year for the regime, making it less a consumer scam than a sanctions-evasion operation that happens to run through ordinary corporate hiring pipelines.
 
 The scheme depends on "U.S.-based facilitators," in some cases witting accomplices and in others unwitting people recruited through their own job or rental scams, who receive the company-issued laptop at a real U.S. address, install remote-access software on it, and then ship or hand the physical device off so the actual North Korean worker can operate it from overseas or from a "laptop farm" run out of a facilitator's home. Because the laptop connects from a U.S. IP address at a U.S.-registered address, it clears the basic geographic checks many companies rely on to screen out overseas applicants, letting the fraud hide in plain sight inside routine remote-hiring paperwork. The facilitator may also help create fraudulent employment and education histories, set up bank accounts to receive the salary, and take a cut of the proceeds.
