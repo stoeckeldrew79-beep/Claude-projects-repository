@@ -9415,6 +9415,43 @@ The individual case sits inside a much larger enforcement problem: after the 202
     country: "PA",
   },
   {
+    name: "WhatsApp Account Takeover Fraud in Panama",
+    slug: "panama-whatsapp-account-takeover-fraud",
+    description:
+      "Criminals in Panama are hijacking WhatsApp accounts through social engineering, tricking victims into sharing the six-digit SMS or voice verification code, often via a fake \"wrong number\" message or a fraudulent link asking the target to \"confirm\" their phone. Once attackers capture the code, they lock the real owner out of the account and immediately message that account's contact list while impersonating the victim, requesting emergency money transfers or sensitive personal information and exploiting the built-in trust of the hijacked identity. Panama's National Police, through the Judicial Investigation Directorate's Specialized Cybercrime Division, issued a public alert in July 2026 warning citizens about a rising volume of these takeover attempts. Authorities recommend enabling WhatsApp's two-step verification, never sharing the six-digit code with anyone under any circumstance, avoiding unsolicited links, and independently verifying any money request, even from a seemingly known contact, through a separate channel such as a phone call. Victims should immediately warn their contacts, report the compromise to the DIJ Cybercrime Division, and file a formal complaint with the Ministerio Público.",
+    categorySlug: "phishing",
+    alertLevel: "high",
+    sources: ["Policía Nacional de Panamá — Dirección de Investigación Judicial", "TVN Noticias"],
+    sourceUrl: "https://www.tvn-2.com/nacionales/alerta-aumento-intentos-robar-cuentas-de-whatsapp-policia-nacional_1_2250845.html",
+    country: "PA",
+    isHistorical: true,
+    firstRecorded: "2026-07-13",
+  },
+  {
+    name: "\"El Paciente Enfermo\" Fake Medical Emergency Scam in Panama",
+    slug: "panama-paciente-enfermo-fake-medical-emergency-scam",
+    description:
+      "In this scheme documented by Panama's National Police, fraudsters cold-call victims claiming a family member or close acquaintance has suffered a sudden medical emergency, such as an accident, and urgently needs money for an ambulance, blood transfusion, or hospital deposit. Callers use real names of relatives or acquaintances to sound credible, then follow up over WhatsApp with bank account or mobile-payment details, pressuring the victim to transfer funds immediately before withdrawing the money right away. A subcommissioner with the Judicial Investigation Directorate said perpetrators frequently pose as lawyers, police officers, paramedics, or doctors and rotate through numerous phone numbers to evade detection, deliberately exploiting the panic of the moment so victims skip verification. Panama's National Police publicized the modality as a distinct, newly rising pattern after multiple citizen reports. Authorities advise residents to stay calm, hang up, and independently call or video-call the relative in question before sending any money, never acting on an unverified call alone, and to report incidents by dialing 104 or filing a complaint with the Ministerio Público, and to notify their bank and mobile carrier immediately if defrauded.",
+    categorySlug: "identity-theft",
+    alertLevel: "high",
+    sources: ["Policía Nacional de Panamá — Dirección de Investigación Judicial", "TVN Noticias"],
+    sourceUrl: "https://www.tvn-2.com/nacionales/paciente-enfermo-nueva-modalidad-delincuentes-enganan-victimas_1_2114018.html",
+    country: "PA",
+  },
+  {
+    name: "Fake \"Financieras\" Impersonating the Superintendencia de Bancos in Panama",
+    slug: "panama-fake-financieras-sbp-impersonation-loan-scam",
+    description:
+      "Unlicensed operators advertise \"easy,\" no-credit-check personal loans on social media and messaging apps, then misuse the official logo of the Superintendencia de Bancos de Panamá, and sometimes of other government entities, in their marketing and documentation to appear legitimate. Victims who respond are told to pay an upfront \"insurance fee,\" commission, or advance deposit before the loan is disbursed; once paid, the loan never materializes and the operators disappear. The Superintendencia de Bancos has repeatedly and formally warned about this pattern through its official public notices, and in April 2026 stated plainly that the agency and its personnel do not participate in commercial operations between clients and agents, and do not solicit money, payments, transfers, investments, donations, or economic benefits of any kind. The agency stresses that no regulated entity is authorized to require advance payment as a condition of loan approval or disbursement. Residents are advised to verify any lender against the Superintendencia's official list of licensed entities before paying anything, to distrust any upfront-payment demand, and to report suspected fraud to the Ministerio Público or their local Casa de Justicia Comunitaria.",
+    categorySlug: "government-impersonation",
+    alertLevel: "high",
+    sources: ["Superintendencia de Bancos de Panamá (SBP)", "Metro Libre"],
+    sourceUrl: "https://www.metrolibre.com/economia/superintendencia-de-bancos-advierte-de-estafas-usando-el-nombre-de-la-entidad-AC21988844",
+    country: "PA",
+    isHistorical: true,
+    firstRecorded: "2026-04-29",
+  },
+  {
     name: "Fake KBZ Bank/KBZPay Employee OTP Phishing Scam",
     slug: "myanmar-kbzpay-otp-phishing-account-takeover-scam",
     description:
