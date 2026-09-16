@@ -11441,6 +11441,16 @@ International.push(
     country: 'XK',
   },
   {
+    name: 'Alasora Fake-Landlord Rental and Collateral Fraud',
+    slug: 'madagascar-alasora-fake-landlord-rental-fraud',
+    description: `In a case documented in Alasora, a suspect rented a commercial building from its legitimate owner, then presented himself publicly as the owner, using the building as collateral to borrow money from several people and illegally subletting units to tenants while pocketing the rent, all while withholding 5 million ariary a month in rent from the real owner for eleven straight months. He reinforced the deception with Facebook ads showing photos of the building and offering it "for sale," despite having no ownership rights. At least five victims, who had lent him sums of two to three million ariary each, filed complaints, leading to his arrest and detention pending referral to the prosecutor, and the Alasora police commissariat said it expected further victims to come forward. A judicial source quoted in the case noted that real estate fraud in Madagascar often relies on false leases or misleading promises, and Malagasy press has separately reported comparable schemes, including one in which suspects sold nonexistent "ghost" social-housing plots to hundreds of victims nationwide at an artificially low price before being arrested. Before paying a deposit, lending money secured against a property, or renting a unit, residents should independently verify true ownership and lease or title documents at the local land or domain office or with a notary, and should report suspected real-estate fraud to the local police commissariat or gendarmerie.`,
+    categorySlug: 'real-estate-fraud',
+    alertLevel: 'medium',
+    sources: [`L'Express de Madagascar`],
+    sourceUrl: 'https://fr.allafrica.com/stories/202603270444.html',
+    country: 'MG',
+  },
+  {
     name: 'Fake Investment Group Scam via WhatsApp/Viber Messages',
     slug: 'kosovo-fake-investment-group-messaging-app-scam',
     description: `The Central Bank of the Republic of Kosovo (CBK) issued a public warning in 2026 alerting citizens to a wave of fraudulent investment invitations spreading through messaging applications. According to the CBK, people are contacted out of the blue by international phone numbers and invited to join "investment groups" by clicking an external link; the messages are crafted to look like genuine, highly profitable investment opportunities, and in some cases the messaging app itself flags the link as potentially malicious before the recipient can click it. Anyone who joins is drawn toward handing over financial data or sending money into the scheme, with no legitimate investment ever taking place. The CBK is urging citizens to exercise increased caution, to never click on links from unknown senders, never share personal or financial data through such invitations, and never make a payment based on them. The bank added broader digital-safety guidance: store bank card data securely and never share it by email, SMS, or phone with anyone who asks; avoid reacting to messages demanding urgent action; use only official bank websites and verified apps for payments; and report suspicious contact to a bank or financial institution right away.`,

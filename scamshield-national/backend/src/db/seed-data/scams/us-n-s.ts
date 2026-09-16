@@ -7065,6 +7065,46 @@ UsNS.push({
 });
 
 UsNS.push({
+    name: 'Rosebud Sioux Tribe Broadband Grant Fraud (Brandenburg False Claims Act Suit)',
+    slug: 'south-dakota-rosebud-sioux-broadband-grant-fraud',
+    description: `Federal prosecutors filed a civil False Claims Act complaint in March 2026 in U.S. District Court in South Dakota against Arizona-based telecommunications contractors Paul Brandenburg, Julie Brandenburg, and Matthew Brandenburg, alleging they defrauded a federal broadband-expansion grant awarded to the Rosebud Sioux Tribe of more than $2.1 million. The U.S. Department of Commerce's Office of Inspector General found the contractors inflated project costs and billed the tribe's grant for equipment, including vehicles, that was never purchased. The scheme came to light after an economic-development employee on the Rosebud Reservation flagged red flags during the contractor vetting process. The lawsuit seeks treble damages and penalties under the False Claims Act. This case illustrates a less-visible form of fraud aimed not at individual consumers directly but at federal infrastructure dollars meant to serve tribal communities; residents of the Rosebud Reservation and other grant-funded broadband projects should be alert to contractors who resist itemized billing or independent inspection, and tribal grant administrators or members with knowledge of similar billing irregularities can report them to the Department of Commerce Office of Inspector General or the U.S. Attorney's Office for the District of South Dakota.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'medium',
+    sources: ['U.S. Department of Commerce Office of Inspector General', 'Tribal Business News'],
+    sourceUrl: 'https://tribalbusinessnews.com/sections/policy-and-law/15563-u-s-sues-contractors-over-alleged-2-1m-fraud-in-rosebud-sioux-broadband-project',
+    country: 'US',
+    state: 'SD',
+    isHistorical: true,
+    firstRecorded: '2026-03-24',
+});
+
+UsNS.push({
+    name: 'Blom Feed Yards "Phantom Cattle" Ponzi-Like Scheme',
+    slug: 'south-dakota-blom-feed-yards-phantom-cattle-scheme',
+    description: `Robert Lee "Bob" Blom operated Blom Feed Yards and associated feedlots near Corsica, South Dakota, where he took in investor money to buy, feed, and market cattle on their behalf, but investigators found he resold the same cattle to multiple investors simultaneously, one lot of 197 head resold as many as 16 times, and collected feeding bills for cattle that in many cases no longer existed. Court documents identified roughly 30,000 head of "phantom" cattle valued at more than $30 million, with 53 victims across 14 cattle-related entities in South Dakota, North Dakota, and Montana; Blom separately owed a bank roughly $6.8 million. He pleaded guilty to a felony of issuing a check without sufficient funds and was sentenced by a South Dakota circuit judge to five years with all but 180 days suspended, plus restitution, with prosecutors saying further charges were expected as the investigation continued. One investor described losing roughly $1 million. The case is a caution for South Dakota's cattle-feeding and agricultural-investment community: investors who pay into a custom cattle-feeding or resale arrangement should insist on independently verifiable brand inspections, individual lot identification, and regular third-party account reconciliation rather than relying on a single operator's records, and should report suspected livestock-investment fraud to their county state's attorney or the South Dakota Attorney General's Consumer Protection Division.`,
+    categorySlug: 'ponzi-pyramid-schemes',
+    alertLevel: 'medium',
+    sources: ['AgWeek'],
+    sourceUrl: 'https://www.agweek.com/business/sd-feedlot-operator-sentenced-to-180-days-in-nd-on-bad-check-charge-in-cattle-fraud-case',
+    country: 'US',
+    state: 'SD',
+});
+
+UsNS.push({
+    name: 'Power-of-Attorney Farm and Investment Account Exploitation (State v. Clemensen)',
+    slug: 'south-dakota-clemensen-power-of-attorney-farm-exploitation',
+    description: `Ronald Peter Clemensen of Aberdeen, South Dakota held a durable power of attorney over his elderly mother, Betty Clemensen, and used that authority, while her cognition was declining and she lived in assisted care, to repeatedly draw margin loans against her investment account, at least five transfers totaling well over $300,000 between 2015 and 2017, and to mortgage roughly 1,440 acres of family farmland held in her name for $1.5 million, funneling the proceeds into his failing Aberdeen truck and trailer business. A Spink County jury convicted him on two counts of aggravated grand theft by exploitation and five counts of grand theft by exploitation; he was sentenced to the statutory maximums with all but 50 days in county jail suspended. The South Dakota Supreme Court unanimously affirmed the convictions in November 2025, rejecting his argument that the state failed to prove he lacked a good-faith belief he was entitled to the funds. The case is a documented example of how a trusted family member with power of attorney can use that legal authority to encumber an aging parent's land and drain retirement accounts under the guise of "loans" that are never repaid; South Dakota families with aging relatives, especially those holding farmland, should consider requiring a co-agent or corporate trustee, insist on independent accountings from any financial advisor before authorizing a margin loan or mortgage, and report suspected elder financial exploitation to their county state's attorney or the South Dakota Attorney General's Office.`,
+    categorySlug: 'real-estate-fraud',
+    alertLevel: 'high',
+    sources: ['South Dakota Supreme Court'],
+    sourceUrl: 'https://storage.courtlistener.com/pdf/2025/11/25/state_v._clemensen.pdf',
+    country: 'US',
+    state: 'SD',
+    isHistorical: true,
+    firstRecorded: '2015-01-01',
+});
+
+UsNS.push({
     name: 'Nebraska Traffic Fine QR Code Text Scam',
     slug: 'nebraska-traffic-fine-qr-code-text-scam',
     description: `On April 5, 2026, the Nebraska Judicial Branch and law enforcement agencies including the Lancaster County Sheriff's Office warned residents statewide about a fast-spreading text-message scam claiming the recipient has an unpaid traffic fine that has been referred to "court enforcement," listing escalating penalties if the recipient does not act immediately. The message embeds a QR code and urges the recipient to scan it to pay online, a tactic designed to slip past mobile spam-link filters that increasingly catch texts with plain URLs, while still leading anyone who scans it to a fraudulent payment page built to harvest credit card numbers and personal information. The Nebraska Judicial Branch stated plainly that "Nebraska courts do NOT send out automated text messages when traffic fines are due," and the Lancaster County Sheriff's Office urged residents to "not scan the QR code, make any payments or provide any personal information to the scammers." Officials note that any legitimate Nebraska traffic fine can be paid only in person at the courthouse or through the state's own online portal at ne.gov/go/paycourts, and that a payment link or QR code arriving by unsolicited text should be treated as fraudulent regardless of how official the message looks or how urgent its deadline sounds. Residents who receive this text are advised to delete it without scanning the code or clicking anything, and to verify any supposed traffic fine directly with their local county court using a phone number looked up independently rather than one provided in the message.`,
