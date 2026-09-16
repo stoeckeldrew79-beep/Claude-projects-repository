@@ -8228,6 +8228,44 @@ UsAF.push({
 });
 
 UsAF.push({
+    name: 'Tuscaloosa County Sheriff\'s Office Impersonation Jury-Duty Phone Extortion',
+    slug: 'alabama-tuscaloosa-sheriff-impersonation-jury-duty-scam',
+    description: `Scammers call Tuscaloosa County residents falsely identifying themselves as sheriff's office employees, then direct victims to call back a number connected to a fake automated phone system. A purported "investigator" tells the victim they missed jury duty or a court date and must pay immediately to have the matter dismissed or avoid arrest. The Tuscaloosa County Sheriff's Office issued a public warning in December 2025 stating it "will never contact anyone by phone about missed court appearances, jury duty issues or fines, and will never request payment over the phone." This is a live-caller telephone extortion scheme impersonating sworn law enforcement, distinct from text-based government-impersonation scams that arrive by SMS link. Residents who receive such calls should not share personal information or send payment, and should instead call the Tuscaloosa County Sheriff's Office directly to verify and report the call.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Tuscaloosa County Sheriff\'s Office'],
+    sourceUrl: 'https://www.patch.com/alabama/tuscaloosa/tuscaloosa-county-sheriffs-office-warns-latest-phone-scam-1',
+    country: 'US',
+    state: 'AL',
+    isHistorical: true,
+    firstRecorded: '2025-12-03',
+});
+
+UsAF.push({
+    name: 'Alabama Power Utility Impersonation Prepaid-Card Disconnection Scam',
+    slug: 'alabama-power-utility-impersonation-prepaid-card-scam',
+    description: `Scammers impersonate Alabama Power, the state's largest electric utility, by phone and through fraudulent lookalike websites, telling customers their service will be disconnected within a short window, as little as 30 minutes in some reported calls, unless they immediately pay using a prepaid "money pack" card purchased at retailers such as Walmart, CVS, or Walgreens. Victims are typically directed to call a separate number where an automated recording claims to be Alabama Power and instructs them to read off the prepaid card numbers as payment, and some variants use fake websites mimicking alabamapower.com with bogus customer-service numbers, so a victim who searches online for a payment line reaches scammers instead. Alabama Power has published an official consumer warning stating the company will never demand immediate payment or personal or banking information over the phone or by text, and will never demand in-person payment at a customer's home or business. Customers who receive such calls should hang up and verify their account status only through the utility's official number or by confirming they are on the genuine alabamapower.com site, and should report suspicious contacts to local law enforcement.`,
+    categorySlug: 'utility-scams',
+    alertLevel: 'medium',
+    sources: ['Alabama Power', 'WKRG'],
+    sourceUrl: 'https://www.alabamapower.com/residential/billing-and-payment-options/beware-of-scams.html',
+    country: 'US',
+    state: 'AL',
+});
+
+UsAF.push({
+    name: 'Fraudulent UCC Compliance Mailer Targeting Alabama Businesses',
+    slug: 'alabama-fraudulent-ucc-compliance-mailer-scam',
+    description: `Alabama business owners have received official-looking mailers from third-party companies falsely implying affiliation with the Alabama Secretary of State's office, demanding $90 or more to obtain a copy of a Uniform Commercial Code statement filed against their business. The legitimate cost to file or obtain such a UCC statement directly through the Secretary of State is only $20 for the first two pages plus $2 per additional page, meaning the mailers substantially overcharge for a service businesses can get cheaply and directly from the state. The Alabama Securities Commission and the Alabama Secretary of State's office jointly issued a public warning about the mailers, with Securities Commission Director Amanda Senn advising business owners to discard mailers from third-party companies claiming to work with the Secretary of State's office on their behalf, and Secretary of State Wes Allen confirming these companies are not affiliated with or authorized by his office in any way. Businesses should discard such mailers, handle all UCC and business-entity filings directly at sos.alabama.gov, and report suspected fraud to the Alabama Securities Commission.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'low',
+    sources: ['Alabama Secretary of State', 'Alabama Securities Commission'],
+    sourceUrl: 'https://www.sos.alabama.gov/newsroom/alabama-securities-commission-and-secretary-state-warning-businesses-fraudulent-mailer',
+    country: 'US',
+    state: 'AL',
+});
+
+UsAF.push({
     name: 'Connecticut Tax Preparer\'s Fabricated Charitable-Deduction Scheme (Diana Miller-Lloyd)',
     slug: 'connecticut-miller-lloyd-tax-preparer-fraud',
     description: `Diana Miller-Lloyd, 45 — who also used the names "Diana Rabin" and "Diana Lloyd" — ran a Connecticut tax-preparation business, first as Lloyd Forensic & Accounting Services and later as Lloyd Forenzique & Accounting Services Corporation, operating out of Windsor starting in 2017, then Branford in 2019, and Guilford in 2021, before eventually moving to Port Orange, Florida. For tax years 2016 through 2021, prosecutors say she routinely padded clients' federal returns — many belonging to people earning more than $500,000 a year — with fabricated and inflated charitable-contribution deductions they never actually made, generating roughly $1,062,293 in fraudulent refunds and improper tax reductions and costing the IRS an estimated $472,913. Miller-Lloyd pleaded guilty on October 1, 2025 to two counts of aiding and assisting in the preparation of false and fraudulent income tax returns, and on April 15, 2026 was sentenced to 18 months in federal prison plus a year of supervised release and ordered to pay $467,717 in restitution; she was due to report to prison July 13, having been free on a $25,000 bond until then. The U.S. Attorney's Office for the District of Connecticut noted Miller-Lloyd had a prior 2010 New York conviction for grand larceny tied to preparing false tax returns, meaning she kept preparing fraudulent returns for years even after an earlier conviction for the identical conduct. Anyone whose return shows a charitable deduction, business loss, or credit they don't recognize is entitled to see and understand every line of it before it's filed — a preparer who won't explain a deduction in plain terms, or discourages a client from reviewing the full return before it goes out, is doing exactly what let this scheme run undetected by any single client for years.`,
