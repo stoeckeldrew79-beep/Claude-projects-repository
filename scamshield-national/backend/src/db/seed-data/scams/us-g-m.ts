@@ -7630,3 +7630,15 @@ UsGM.push({
     isHistorical: true,
     firstRecorded: "2009-03-01",
 });
+
+UsGM.push({
+    name: "\"Ghost Tapping\" Contactless and NFC Payment Fraud",
+    slug: "ghost-tapping-contactless-and-nfc-payment-fraud",
+    description:
+      "\"Ghost tapping\" is fraud aimed at tap-to-pay rather than at stolen card numbers, and it shows up in two forms. In one, a dishonest merchant or street vendor taps your card or phone and runs an extra or inflated charge you never approved. In the other, more organized form, criminals phish your card details and the one-time passcode from your bank, load the card into a digital wallet on their own phone, and use relay tools so a mule can tap to pay in a store hundreds of miles away; your physical card never leaves your pocket and the purchases look like ordinary in-person contactless transactions. Purchases tend to be gift cards and electronics that resell quickly and draw little scrutiny. Never hand your card or phone to someone else to tap, watch the terminal display the amount before you approve it, and never share a bank one-time passcode with anyone who contacts you. Turn on instant transaction alerts, review statements weekly, and call your bank immediately to freeze the card and dispute any tap-to-pay charge you do not recognize.",
+    categorySlug: "account-takeover",
+    alertLevel: "medium",
+    sources: ["Michigan Department of Attorney General, Consumer Protection consumer alert: Beware of \"Ghost Tapping\" Scams","Better Business Bureau warnings on in-store contactless payment fraud targeting holiday shoppers"],
+    sourceUrl: "https://www.michigan.gov/consumerprotection/protect-yourself/consumer-alerts/scams/beware-of-ghost-tapping-scams",
+    country: "US",
+});
