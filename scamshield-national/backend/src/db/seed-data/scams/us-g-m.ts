@@ -7525,6 +7525,34 @@ UsGM.push({
 });
 
 UsGM.push({
+    name: "Kansas Crypto ATM Warrant Scam (HB 2591 Recovery)",
+    slug: "kansas-crypto-atm-warrant-scam-hb2591-recovery",
+    description:
+      "A Wichita-area woman received a call from someone falsely posing as law enforcement, claiming she had an outstanding warrant and demanding she pay it immediately using cash deposited into a cryptocurrency ATM. This tactic exploits the fact that crypto ATM transactions are fast and effectively irreversible once completed, making them a favored channel for impersonation scammers. After the victim reported it to Wichita police, a sergeant directed her to the crypto ATM operator, and the Sedgwick County District Attorney's Consumer Protection Division intervened using Kansas's newly enacted Virtual Currency Kiosk Consumer Protection Act (HB 2591, effective July 1, 2026) — which requires on-screen fraud warnings, a $1,000 cap on an initial kiosk transaction, live operator customer service, and fraud-refund provisions — to secure a refund check from the kiosk operator. Kansas residents receiving any call claiming to be law enforcement, a court, or a government agency demanding payment via a cryptocurrency ATM should hang up, never scan a QR code or deposit cash into a crypto kiosk under pressure, and report the incident immediately to local police and their county or district attorney's consumer protection office, which can now invoke HB 2591 to seek a refund from the kiosk operator.",
+    categorySlug: "cryptocurrency-scams",
+    alertLevel: "high",
+    sources: ["KWCH (Wichita)", "Sedgwick County District Attorney's Office", "Kansas Office of the State Bank Commissioner"],
+    sourceUrl: "https://www.kwch.com/2026/09/09/new-law-credited-helping-wichita-area-woman-recover-money-lost-cryptocurrency-scam/",
+    country: "US",
+    state: "KS",
+});
+
+UsGM.push({
+    name: "Wichita Acquaintance Identity-Theft Unemployment Fraud (Kylie Charles)",
+    slug: "kansas-wichita-kylie-charles-unemployment-identity-theft",
+    description:
+      "A federal grand jury in Wichita indicted Kylie Charles, 35, of Wichita, on 17 counts of wire fraud and 17 counts of aggravated identity theft after she allegedly stole the identities of people she personally knew — rather than strangers reached via phishing — and used their names and personal information, without their knowledge, to file false multi-state unemployment claims under the pandemic-era CARES Act program between May 2020 and August 2021, collecting more than $100,000. The case, investigated by the FBI and prosecuted by the U.S. Attorney's Office for the District of Kansas, illustrates a distinct identity-theft vector: victims often have no idea a claim was filed in their name until they receive an unexpected 1099-G tax form or a notice from a state labor department, sometimes months or years later. Kansans who know their personal information was accessible to a friend, relative, roommate, or coworker with financial pressure should watch for unexpected unemployment-related tax forms, mail, or benefit denials in their name. Anyone who suspects their identity was used for a fraudulent unemployment claim should report it immediately to the Kansas Department of Labor at ReportFraud.ks.gov and place a fraud alert or credit freeze with the major credit bureaus.",
+    categorySlug: "identity-theft",
+    alertLevel: "high",
+    sources: ["U.S. Attorney's Office for the District of Kansas", "Federal Bureau of Investigation", "KWCH (Wichita)"],
+    sourceUrl: "https://www.kwch.com/2025/04/16/wichita-woman-indicted-defrauding-covid-19-victims/",
+    country: "US",
+    state: "KS",
+    isHistorical: true,
+    firstRecorded: "2020-05-01",
+});
+
+UsGM.push({
     name: "Maine SNAP/EBT Card-Cloning Benefit Theft",
     slug: "maine-snap-ebt-card-cloning-benefit-theft",
     description:
