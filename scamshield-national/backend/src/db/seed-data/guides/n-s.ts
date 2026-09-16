@@ -4743,6 +4743,10 @@ GuidesNS.push({
   slug: "social-media-profile-cloning-scam-guide",
   author: "ScamShield Editorial",
   tags: ["guide", "profile-cloning-scam", "social-media-impersonation"],
+  coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Social_Media_App_Icons_On_The_Screen_of_A_Smartphone.jpg?width=1200",
+  coverImageCredit: "Photo: Mike MacKenzie, CC BY 2.0, via Wikimedia Commons",
+  coverImagePosition: 50,
+  // representative photo — replace with an exact match if found
   sourceUrl: "https://consumer.ftc.gov/consumer-alerts/2023/10/friend-request-could-be-scammer",
     coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Social_Media_App_Icons_On_The_Screen_of_A_Smartphone.jpg?width=1200",
     coverImageCredit: "A cloned profile copies your public photos and name — your real account is untouched, which is why you never see a breach warning. Photo: mikemacmarketing (CC BY 2.0)",
@@ -4763,6 +4767,10 @@ GuidesNS.push({
   slug: "north-korean-remote-it-worker-fraud-guide",
   author: "ScamShield Editorial",
   tags: ["guide", "employment-scam", "north-korea-it-worker-fraud", "business-fraud"],
+  coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Pyongyang,_North_Korea_01.jpg?width=1200",
+  coverImageCredit: "Photo: Joseph Ferris III, CC BY 2.0, via Wikimedia Commons — Pyongyang, North Korea",
+  coverImagePosition: 50,
+  // representative photo — replace with an exact match if found
   sourceUrl: "https://www.ic3.gov/PSA/2025/PSA250723-4",
     coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Workspace_%40_Nottingham_Flat.jpg?width=1200",
     coverImageCredit: "A remote interview. The tell is a candidate who will not turn the camera on, or whose pay goes to an address that keeps changing. Photo: David Wellbeloved (CC BY 2.0)",

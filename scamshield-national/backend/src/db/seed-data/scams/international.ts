@@ -13696,6 +13696,37 @@ International.push(
     sourceUrl: 'https://mali24.info/proliferation-des-escroqueries-dans-les-services-publics-le-ministre-de-la-securite-met-en-garde/',
     country: 'ML',
   },
+  {
+    name: 'Fake Orange Money "Erroneous Transfer" PIN Scam',
+    slug: 'mali-fake-orange-money-erroneous-transfer-pin-scam',
+    description: `Mali's Brigade d'Investigation Judiciaire investigated a mobile-money fraud scheme in which a perpetrator identified as Ibrahim Diop targeted Orange Money users through a "erroneous transfer" pretext: the scammer sends a small mobile-money transfer to a victim's account, then quickly calls posing as an Orange Money agent, claiming the transfer was sent by mistake and asking the victim to confirm a refund by entering their PIN or a code received by SMS through the #144# USSD menu. Because the request appears to follow a real transaction the victim just received, it reads as plausible, and entering the requested code on the #144# menu actually authorizes the scammer to drain the account rather than reverse anything. Malian media reported losses connected to the scheme reaching roughly 80 million CFA francs. Orange Money users in Mali should never share a PIN or an SMS confirmation code with anyone, including a caller claiming to represent Orange, since a legitimate erroneous-transfer reversal never requires the recipient to enter a code to "return" money, and should report suspicious calls or messages to Orange Mali's official customer service line and to the Brigade d'Investigation Judiciaire.`,
+    categorySlug: 'phishing',
+    alertLevel: 'high',
+    sources: ['maliweb.net', "Mali Brigade d'Investigation Judiciaire"],
+    sourceUrl: 'https://www.maliweb.net/faits-divers/arnaque-comptes-orange-money-ancien-employe-de-callme-vide-plus-de-80-millions-1681592.html',
+    country: 'ML',
+  },
+  {
+    name: 'ACI-SA Impersonation Real Estate Scam',
+    slug: 'mali-aci-sa-impersonation-real-estate-scam',
+    description: `Mali's state land-development agency ACI-SA (Agence de Cessions Immobilières) held a press conference on September 15, 2026 warning the public about fake Facebook pages and websites impersonating the agency to sell land plots that do not actually belong to the scammers. The fraudulent pages copy ACI-SA's branding and post listings for parcels in Bamako-area developments, then demand roughly 50,000 CFA francs in "processing fees" from prospective buyers before ever showing a legitimate title or plot reference. Victims who pay the fee typically find the agent unreachable soon afterward, and ACI-SA said it has filed a formal complaint with Mali's cybercrime unit over the impersonation. Anyone interested in purchasing land advertised as an ACI-SA parcel should verify the listing and the seller's identity directly through ACI-SA's official offices or verified channels before paying any fee, and should treat a request for an upfront "processing fee" paid to an individual rather than the agency itself as a warning sign.`,
+    categorySlug: 'real-estate-fraud',
+    alertLevel: 'high',
+    sources: ['Bamada.net', 'ACI-SA (Agence de Cessions Immobilières)'],
+    sourceUrl: 'https://bamada.net/usurpation-de-lidentite-de-laci-sa-lagence-alerte-les-citoyens-contre-les-arnaques-immobilieres',
+    country: 'ML',
+    firstRecorded: '2026-09-15',
+  },
+  {
+    name: 'Fake-Profile Identity Theft of Public Figures for Extortion',
+    slug: 'mali-fake-profile-public-figure-extortion',
+    description: `The family of former Malian First Lady Touré Lobbo Traoré filed a formal complaint with Mali's cybercrime authority after fake social-media accounts impersonating her were used to contact and extort money from members of the public. The fraudulent profiles copied her name, photos, and public identity to appear authentic, then used that borrowed credibility to solicit money or personal information from people who believed they were communicating with the real public figure or her office. The case illustrates a broader pattern in Mali of scammers cloning the identities of recognizable public figures — a tactic distinct from ordinary phishing because it relies on the target's trust in a specific, real person rather than an anonymous institution. Malians who are contacted on social media by an account claiming to be a well-known public figure requesting money, gifts, or personal information should independently verify the account through that person's or institution's official, verified channels before responding, and should report impersonation accounts to the platform and to Mali's cybercrime authority.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'medium',
+    sources: ['Bamada.net', "Mali Pôle spécialisé de lutte contre la cybercriminalité"],
+    sourceUrl: 'https://bamada.net/utilisation-de-faux-comptes-dans-le-but-darnaquer-ou-de-soutirer-de-largent-lancienne-premiere-dame-du-mali-madame-toure-lobbo-traore-porte-plainte-contre-x',
+    country: 'ML',
+  },
 );
 
 International.push(
