@@ -4254,3 +4254,15 @@ UsTZ.push({
     firstRecorded: '2020-11-01',
     state: 'VI',
 });
+
+UsTZ.push({
+    name: "Unsolicited Package QR Code Fraud (Brushing Escalation)",
+    slug: "unsolicited-package-qr-code-fraud-brushing-escalation",
+    description:
+      "A package you never ordered shows up at your door with no sender information and a QR code on the label or on a card inside, often labeled \"scan to see who sent this,\" \"scan to return,\" or \"scan to claim your free gift.\" This is an aggressive version of older brushing schemes, where sellers mailed cheap junk to real addresses so they could post fake verified reviews in your name; here the free item is just bait to get you to scan. Scanning takes you to a look-alike website that harvests logins, payment card details and personal information, or pushes a malicious app onto your phone. Because the code arrives on a physical object rather than in an email or text, it skips spam filters entirely and borrows the trust of something delivered to your home. Never scan a QR code that came with an unexpected package; keep or discard the item, check your accounts and card statements for unfamiliar activity, and report the delivery to the FBI's IC3 and the FTC.",
+    categorySlug: "qr-code-scams",
+    alertLevel: "high",
+    sources: ["FBI Internet Crime Complaint Center (IC3) Public Service Announcement: Unsolicited Packages Containing QR Codes Used to Initiate Fraud Schemes (PSA250731)","FTC Consumer Advice: Scam alert: QR code on an unexpected package","FTC Consumer Advice: That unexpected package you got could be a brushing scam"],
+    sourceUrl: "https://www.ic3.gov/PSA/2025/PSA250731",
+    country: "US",
+});
