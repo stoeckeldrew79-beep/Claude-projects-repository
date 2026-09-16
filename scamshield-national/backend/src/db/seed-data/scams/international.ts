@@ -7945,6 +7945,43 @@ The individual case sits inside a much larger enforcement problem: after the 202
     country: "QA",
   },
   {
+    name: "Qatar Cell-Tower Bank and Government Smishing Network (12-Person Ring)",
+    slug: "qatar-cell-tower-bank-government-smishing-ring-2025",
+    description:
+      "In April 2025, Qatar's Ministry of Interior Economic and Cyber Crimes Combating Department dismantled a 12-person criminal network that had targeted mobile communication infrastructure — including cell towers — to blast fraudulent text messages impersonating local banks and government agencies. The messages carried malicious links designed to harvest recipients' personal and financial data, including credit card numbers, typically by claiming an ATM card was blocked or that account information needed to be updated. Qatar Central Bank has separately and repeatedly reminded the public that legitimate bank communications never include clickable links and that customers should never respond to unsolicited SMS or WhatsApp messages requesting account credentials, card numbers, or one-time passwords. The Ministry stated it would take all necessary legal measures against those running such schemes and has continued making arrests in similar cases. Residents should never click links in unsolicited texts, should verify any claimed bank or government communication by contacting the institution directly through its official number or app, and can report suspicious messages via the Metrash2 app, the Economic and Cyber Crimes Combating Department hotline (66815757), or by email to cccc@moi.gov.qa.",
+    categorySlug: "phishing",
+    alertLevel: "high",
+    sources: ["Qatar Ministry of Interior — Economic and Cyber Crimes Combating Department", "The Peninsula Qatar"],
+    sourceUrl: "https://thepeninsulaqatar.com/article/21/04/2025/qatar-authorities-dismantle-criminal-network-behind-sms-scams",
+    country: "QA",
+    isHistorical: true,
+    firstRecorded: "2025-04-21",
+  },
+  {
+    name: "Fraudulent Investment Calls Impersonating Qatar Central Bank",
+    slug: "qatar-central-bank-impersonation-investment-calls",
+    description:
+      "Residents across Qatar have reported a surge in phone calls from scammers claiming to represent Qatar Central Bank and offering fraudulent investment opportunities, pressuring victims into disclosing personal and financial information — in some cases threatening to close the victim's bank account if they refuse. Callers frequently speak in the local Qatari dialect and already possess the victim's name and phone number, lending false credibility and making the calls harder to distinguish from genuine bank contact. The scam is notable for its persistence: one reported victim received roughly 40 calls in a single day over four consecutive days, from constantly changing numbers, making blocking largely ineffective. Elderly residents appear especially targeted. Qatar has built out dedicated cybercrime-response infrastructure, including a national Cyber Security Center and the National Cyber Security Agency established in 2021, to investigate such schemes and refer offenders to judicial authorities. Residents should never provide banking details, passwords, or one-time codes over the phone regardless of who the caller claims to be, should hang up and call Qatar Central Bank or their own bank back on an officially published number to verify, and should report persistent scam calls to the Economic and Cyber Crimes Combating Department.",
+    categorySlug: "investment-fraud",
+    alertLevel: "high",
+    sources: ["Doha News"],
+    sourceUrl: "https://dohanews.co/qatars-public-hit-with-fraudulent-investment-calls-amid-rise-in-cyber-scams/",
+    country: "QA",
+  },
+  {
+    name: "Fake Below-Market Property Rental Listings in Qatar",
+    slug: "qatar-fake-property-rental-listing-scam",
+    description:
+      "Scammers post deceptive online advertisements for residential properties and recreational facilities in Qatar, priced well below market rate to lure prospective tenants, often using photos and descriptions copied from genuine listings. Victims are pressured to wire a deposit quickly, commonly after being told the \"owner\" is out of the country and cannot show the unit in person, to secure the unit — after which the scammer disappears and no property exists. Qatar's Ministry of Interior issued a public alert in December 2024 specifically flagging this pattern, warning residents to be suspicious of rental offers priced abnormally low and to thoroughly verify legitimacy before making any payment or signing any agreement. The scam affects Qatar's large expatriate population searching for housing online, particularly newcomers unfamiliar with Doha's rental market and typical pricing. The Ministry directed residents to verify any landlord or agent's identity and the property's existence in person, or via a licensed, verifiable real estate agent, before transferring funds. Residents can report suspected rental fraud through the Metrash app or by emailing the Economic and Cyber Crimes Combating Department.",
+    categorySlug: "rental-housing",
+    alertLevel: "medium",
+    sources: ["Qatar Ministry of Interior", "The Peninsula Qatar"],
+    sourceUrl: "https://thepeninsulaqatar.com/article/25/12/2024/ministry-of-interior-moi-issues-alert-on-property-rental-scams",
+    country: "QA",
+    isHistorical: true,
+    firstRecorded: "2024-12-25",
+  },
+  {
     name: "Fake \"Moje daně\" Tax Overpayment Phishing Scam",
     slug: "czech-moje-dane-tax-overpayment-phishing-scam",
     description:
