@@ -215,4 +215,6 @@ export const PHOTO_PLAN: PhotoPlanEntry[] = [
   { slug: 'frederic-pierucci-alstom-tarahan-bribery-fcpa', query: 'coal fired power station Indonesia', caption: 'A coal-fired power plant. The Tarahan contract was won with bribes paid through consultants', position: 50 },
   { slug: 'neil-woodford-equity-income-fund-collapse', query: 'London Stock Exchange building', caption: 'The fund held unlisted stakes it could not sell fast enough when investors asked for their money back', position: 45 },
   { slug: 'obituary-bereavement-scam-guide', query: 'newspaper obituary page print', caption: 'A published death notice hands a stranger the names, dates and relationships needed to sound like family', position: 50 },
+  { slug: 'siddharth-jawahar-swiftarc-capital-ponzi-scheme', query: 'Manhattan office towers Midtown', caption: 'New York, where Swiftarc raised money for a fund that was paying earlier investors', position: 45 },
+  { slug: 'martin-schlaepfer-malom-group-fugitive-fraud', query: 'Zurich Switzerland city', caption: 'Switzerland, where the Malom Group fronted its advance-fee scheme from', position: 45 },
 ];

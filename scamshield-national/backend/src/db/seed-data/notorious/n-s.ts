@@ -6918,6 +6918,9 @@ NotoriousNS.push({
     slug: 'martin-schlaepfer-malom-group-fugitive-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'international', 'fugitive'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Z%C3%BCrich_view_Quaibr%C3%BCcke_20200702.jpg?width=1200',
+    coverImageCredit: 'Switzerland, where the Malom Group fronted its advance-fee scheme from. Photo: Daniel Kraft (CC BY-SA 3.0)',
+    coverImagePosition: 45,
     body: `Martin Schlaepfer, a Swiss businessman, ran Malom Group AG, a purported Swiss investment firm whose very name was an acronym for "Make A Lot Of Money." Beginning as early as October 2009, Schlaepfer and co-conspirators based in Switzerland and Las Vegas marketed what they called "prime-bank" investment opportunities to victims, presenting fabricated bank documents and forged proof-of-funds paperwork to make the offerings look legitimate. Investors who agreed to pay an upfront fee were told they would gain access to lucrative investments and substantial cash loans; instead, the fabricated deals were fictitious from the start, and money wired into what victims believed were legitimate escrow accounts was simply taken.
 
 A federal grand jury in Nevada indicted Schlaepfer in December 2013, but he was living outside the United States and did not appear to face the charges, remaining a fugitive for nearly 11 years while his American-based co-conspirators were tried without him. Anthony Brandel and James Warras were convicted at trial and each sentenced to roughly seven years in prison in 2015, and a fourth participant, Joseph Micelli, pleaded guilty and received a five-year sentence — meaning the case against Schlaepfer's own operation had already been fully litigated and its participants sentenced years before he himself ever appeared in an American courtroom.

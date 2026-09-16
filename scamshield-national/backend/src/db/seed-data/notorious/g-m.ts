@@ -10259,6 +10259,9 @@ NotoriousGM.push({
     slug: 'siddharth-jawahar-swiftarc-capital-ponzi-scheme',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'ponzi-scheme'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Nomad_Tower%2C_1250_Broadway%2C_Koreatown%2C_Midtown_Manhattan%2C_2024.jpg?width=1200',
+    coverImageCredit: 'New York, where Swiftarc raised money for a fund that was paying earlier investors. Photo: Deans Charbal (CC BY-SA 4.0)',
+    coverImagePosition: 45,
     body: `Siddharth Jawahar ran Swiftarc Capital LLC, a Texas-based investment firm, and between July 2016 and December 2023 took in more than $35 million from investors in Missouri and elsewhere — but actually invested only about $10 million of it. Rather than spreading client money across a diversified portfolio as promised, Jawahar eventually consolidated roughly 99% of client funds into a single position, an investment tied to Philip Morris Pakistan (PMP), and when that investment's value declined, he did not tell his investors. Instead he falsely claimed the fund was generating steady profits, sending clients account statements and updates describing gains that didn't exist.
 
 To keep the illusion running, Jawahar used money from new investors to make redemption payments to earlier ones — the defining mechanic of a Ponzi scheme — while diverting a substantial share of what remained toward an extravagant personal lifestyle: private jet travel, stays at luxury hotels, upscale apartments in Austin and New York City, memberships at exclusive private clubs, and expensive dining and shopping. Prosecutors say the fraud continued for years in large part because Jawahar kept manufacturing plausible paperwork and excuses rather than ever disclosing the underlying losses, buying time as the gap between what investors believed they owned and what actually remained kept widening.
