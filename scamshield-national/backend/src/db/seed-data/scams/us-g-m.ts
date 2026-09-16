@@ -7258,6 +7258,46 @@ UsGM.push({
 });
 
 UsGM.push({
+    name: 'Jerome County Unemployment Insurance Misrepresentation Fraud (Woody Roberts)',
+    slug: 'idaho-jerome-county-woody-roberts-unemployment-insurance-fraud',
+    description: `Woody Roberts, 38, of Jerome County, submitted false weekly certifications to the Idaho Department of Labor over 56 weeks from May 2020 through May 2021, claiming he had not worked when he was in fact employed and earning wages, and collected unemployment benefits he was not entitled to. The Idaho Attorney General's office, working with the Department of Labor's Unemployment Insurance and Compliance section, prosecuted the case and secured a conviction on two felony counts of misrepresentation to obtain unemployment insurance benefits. A judge sentenced Roberts to eight years (one year fixed, seven indeterminate) with a one-year "rider" of structured programming through the Idaho Department of Correction, and ordered $57,733.28 in restitution to the Department of Labor. The case is a reminder that unemployment-fraud enforcement in Idaho targets not just identity-theft-based claims filed in someone else's name, but also individuals who falsify their own weekly certifications while actually working, and that the state's Unemployment Insurance and Compliance section actively audits and prosecutes those cases even years after the benefits were paid.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'low',
+    sources: ['Idaho Office of Attorney General'],
+    sourceUrl: 'https://www.ag.idaho.gov/newsroom/ag-labrador-secures-conviction-of-jerome-county-man-in-57k-unemployment-fraud/',
+    country: 'US',
+    state: 'ID',
+    isHistorical: true,
+    firstRecorded: '2020-05-01',
+});
+
+UsGM.push({
+    name: 'Nigerian "Yahoo Boy" Sextortion and Romance-Scam Ring Targeting an Idaho College Student',
+    slug: 'idaho-olamide-shanu-sextortion-romance-scam-extradition',
+    description: `Olamide Shanu, 34, of Lagos, Nigeria, was indicted in the U.S. District Court for the District of Idaho on an eight-count indictment covering wire fraud conspiracy, aggravated identity theft, cyberstalking, extortion, conspiracy to commit extortion, and money laundering conspiracy. Prosecutors say Shanu and co-conspirators ran two overlapping schemes: posing as women online to convince male victims to send explicit images before threatening to distribute them to the victims' contacts unless paid, and separately creating fake romantic identities to cultivate relationships before inventing urgent financial emergencies to extract payments via peer-to-peer apps, gift cards, and cryptocurrency. Victims nationwide included at least one college student in Idaho, and the ring is alleged to have fraudulently obtained more than $2 million, laundered before being transferred to Nigeria. Shanu was arrested in London in November 2023 and extradited to the United States, making his initial appearance in Boise federal court in September 2025 and facing up to 20 years in prison if convicted. The case shows sextortion and romance-scam operations increasingly running as a single combined criminal enterprise with an international money-laundering pipeline reaching victims far from where the operators are based, and young adults — including college students — who receive an unsolicited explicit image or a sudden extortion threat from an online relationship should stop responding, preserve evidence, and report it to the FBI's Internet Crime Complaint Center rather than paying.`,
+    categorySlug: 'romance-scams',
+    alertLevel: 'high',
+    sources: ['East Idaho News', "U.S. Attorney's Office, District of Idaho"],
+    sourceUrl: 'https://www.eastidahonews.com/2025/09/nigerian-man-extradited-to-u-s-after-indictment-for-sextortion-of-victim-including-one-at-idaho-college/',
+    country: 'US',
+    state: 'ID',
+});
+
+UsGM.push({
+    name: 'Idaho Jail Bond Scam Demanding Cryptocurrency-ATM Bail Payments',
+    slug: 'idaho-jail-bond-cryptocurrency-atm-bail-scam',
+    description: `The Idaho Attorney General's office issued a consumer warning in February 2026 describing a scam distinct from the jury-duty and DMV-fine text scams already circulating statewide: scammers pull names directly from publicly available county jail rosters, then call the family members of a recently arrested person while impersonating law enforcement or court officials. They spoof caller ID, use official-looking logos, and reference real local sheriffs, judges, or court staff by name to sound credible, then pressure the family — using urgency and demands for secrecy — to pay "bail" immediately, often by directing them to a cryptocurrency ATM, though gift cards and direct payments purportedly to the sheriff's office or courts have also been used. The Attorney General's Consumer Protection Division noted that bail bond agents and court officials across Idaho had reported a rise in these incidents. Because it exploits public arrest records to target people at an emotionally vulnerable moment, this scam is a distinct pattern from other Idaho government-impersonation cases already documented, and anyone contacted this way should hang up and call the jail directly using an independently verified phone number, never one supplied by the caller.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Idaho Office of Attorney General', 'IdahoNews.com'],
+    sourceUrl: 'https://idahonews.com/news/local/attorney-general-warns-of-jail-bond-scams-in-idaho',
+    country: 'US',
+    state: 'ID',
+    isHistorical: true,
+    firstRecorded: '2026-02-05',
+});
+
+UsGM.push({
     name: 'Morehead, Kentucky Pole Barn Construction Fraud (William T. Hurst)',
     slug: 'kentucky-morehead-hurst-pole-barn-construction-fraud',
     description: `William T. Hurst, 45, of Morehead, Kentucky, advertised that he built pole barns and other outbuildings, collected a cash down payment from each customer, and then simply pocketed the money without ever starting the work. Between February 22 and March 23, 2021, Hurst ran the same routine against eight separate property owners spread across three states, taking a combined $25,032 from residents of Ona and Lesage in Cabell County and Charleston in Kanawha County, West Virginia, plus Coolville and Willow Wood, Ohio, and South Shore, Kentucky, and separately collecting $10,186 in down payments from two more victims in Putnam and Jackson counties, West Virginia — a total of $35,218 taken from all eight victims combined. In each case Hurst cashed or deposited the customers' checks at area banks and used the money for himself, never purchasing materials or beginning construction on any of the promised pole barns. He pleaded guilty to wire fraud in the U.S. District Court for the Southern District of West Virginia and was sentenced to eight months in federal prison followed by three years of supervised release, along with an order to repay the full $35,218 to his victims. The case illustrates a pattern common to outbuilding and pole-barn contractors who solicit work across a multi-state area near a state line: because a customer often has no easy way to check a contractor's track record or licensing status in a neighboring state, it pays to ask for and verify local references, confirm any required contractor license or bond with the state agency where the work will actually be performed, and avoid paying a full or large deposit before materials are on-site and work has actually begun.`,

@@ -8292,6 +8292,44 @@ UsAF.push({
 });
 
 UsAF.push({
+    name: 'Smyrna Rental-Listing Theft Ring (Verna Nowell)',
+    slug: 'delaware-smyrna-nowell-rental-listing-theft-ring',
+    description: `In July 2015, Smyrna Police Department detectives closed a nine-month investigation into a rental-listing theft ring centered in the small Kent County town, arresting 63-year-old Verna Nowell along with two co-defendants, with six more suspects wanted on warrants. Overseas co-conspirators, whom Nowell had met through an online dating site, copied photos and descriptions from real, currently-listed rental homes on Trulia and Craigslist and reposted them as if they were the landlord, directing more than 35 victims across states including California, Illinois, Florida, and Texas to wire deposits and rent totaling over $150,200. Nowell collected the wired funds at Western Union and MoneyGram counters around Smyrna and forwarded the money overseas, eventually recruiting family members and associates to spread pickups across multiple names to avoid detection, and was charged with racketeering, money laundering, theft over $1,500, and conspiracy. The case shows a rental-scam variant distinct from a simple too-good-to-be-true listing: a real property's own photos and description can be stolen and reposted by someone with zero connection to the actual owner, so renters should insist on an in-person or live video walkthrough with the listed owner before wiring any deposit.`,
+    categorySlug: 'real-estate-fraud',
+    alertLevel: 'high',
+    sources: ['Smyrna Police Department', 'WMDT-TV / 47ABC'],
+    sourceUrl: 'https://www.wmdt.com/2015/07/three-arrested-six-wanted-in-large-rental-theft-scheme-apparently-centered-in-smyrna/34476282/',
+    country: 'US',
+    state: 'DE',
+    isHistorical: true,
+    firstRecorded: '2015-07-31',
+});
+
+UsAF.push({
+    name: 'Delaware Unclaimed Property Finder-Fee Website Scam',
+    slug: 'delaware-unclaimed-property-finder-fee-scam',
+    description: `Delaware holds an outsized share of the nation's unclaimed property because so many corporations are chartered there, and its Department of Finance's Office of Unclaimed Property runs a free state search-and-claim process for abandoned bank accounts, uncashed checks, insurance proceeds, stock, and utility deposits. Delaware's State Escheator issued a consumer alert about third-party websites that present themselves as unclaimed-property recovery services and charge consumers a fee, from $12 up to $29.99, to search for or claim money the state would locate and return at no cost. The alert stresses that Delaware's own database and claims portal never charges a fee and never asks for a bank account number up front, so any site or caller demanding payment before releasing "found" funds should be treated as exploiting information anyone can already search for free through the state's own official unclaimed-property site.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'low',
+    sources: ['Delaware Department of Finance, Office of Unclaimed Property'],
+    sourceUrl: 'https://news.delaware.gov/?p=51773',
+    country: 'US',
+    state: 'DE',
+});
+
+UsAF.push({
+    name: 'Justice of the Peace Court QR-Code "Court Enforcement" Text Scam',
+    slug: 'delaware-justice-of-the-peace-court-qr-code-text-scam',
+    description: `Delaware State Police and the Delaware Administrative Office of the Courts warned residents in April 2026 about text messages disguised as an official "Final Notice – Court Enforcement Action" from the state's Justice of the Peace Court, falsely claiming the recipient has an overdue traffic or toll violation. Rather than a clickable text link, the message embeds a QR code — a "quishing" tactic meant to dodge link-scanning spam filters — that routes scanners to a fraudulent payment page. The Delaware Administrative Office of the Courts confirmed the Justice of the Peace Court never issues violation notices by text or email and that any genuine citation or toll violation arrives by postal mail. It follows the same script as earlier fraudulent DMV and E-ZPass Delaware texts but is the first wave to impersonate Delaware's court system itself and to rely on a scannable QR code rather than a clickable link. Residents who receive it are advised to report it as junk, never scan the code, and verify any concern about a pending case by contacting the court directly at a number looked up independently.`,
+    categorySlug: 'phishing',
+    alertLevel: 'medium',
+    sources: ['Delaware Administrative Office of the Courts', 'Delaware State Police', 'WDEL'],
+    sourceUrl: 'https://www.wdel.com/news/delaware-officials-warn-of-text-scam-posing-as-court-notice/article_5a71eccd-65a9-5040-add5-050125791d39.html',
+    country: 'US',
+    state: 'DE',
+});
+
+UsAF.push({
     name: 'Denver Fake QR Code Parking Meter Sticker Scam',
     slug: 'colorado-denver-fake-qr-code-parking-meter-scam',
     description: `Someone plastered counterfeit QR code stickers made to mimic Denver's legitimate pay-by-phone parking codes directly onto parking meters and signage along South Broadway between West 6th Avenue and East Alameda Avenue, and on meters along South Lincoln Street in the city's Golden Triangle neighborhood. A driver who scanned one of the fake codes was taken to a convincing lookalike payment page that asked for personal and credit card information to "pay" for parking, rather than processing any real transaction. A Denver resident, Jared Hawthorne, had already filed a report about tampered meters through the city's 311 portal on July 12 before a local television investigation separately flagged the problem to Denver's Department of Transportation and Infrastructure (DOTI), which sent crews to scrape the fraudulent stickers off meters throughout the affected corridor; reporters traced the fraudulent payment website to a domain registered in Cape Verde. Denver, like most cities, does not use scannable QR code stickers as its actual parking-payment method — payment is meant to go through the city's official app or the meter's own card reader — so any QR code sticker found affixed to a meter or nearby sign should be treated as suspect by default. Drivers are advised to pay for city parking only through Denver's official parking app or a meter's built-in card reader, to check whether a QR code sticker looks like it has been placed over another one before ever scanning it, and to report a suspected fraudulent parking QR code to the city's 311 service and to their card issuer immediately if payment information was already entered.`,
@@ -8725,4 +8763,30 @@ UsAF.push({
     sourceUrl: "https://www.tax.nd.gov/news/tax-commissioner-warns-north-dakota-taxpayers-fraudulent-text-messages",
     country: "US",
     state: "ND",
+});
+
+UsAF.push({
+    name: "Fake Hawaiʻi Department of Motor Vehicles Unpaid Traffic Citation Text Scam",
+    slug: "fake-hawaii-dmv-unpaid-traffic-citation-text-scam",
+    description:
+      "Hawaii residents are receiving unsolicited text messages from a supposed \"Hawaiʻi Department of Motor Vehicles\" claiming they owe money on unpaid traffic citations. There is no statewide DMV in Hawaii — vehicle registration and licensing are handled by the four counties, and traffic citations are handled by the Hawaiʻi State Judiciary, so the agency name itself is a red flag. The texts threaten suspended driving privileges, cancelled registration, extra service fees, and legal action unless you pay by a deadline, and they include a link to a spoofed payment page that harvests personal, financial, and vehicle information. Officials stress that neither the Judiciary nor any county DMV office contacts people by text, phone, or email about unpaid traffic citations. Do not tap the link or reply; delete the message and check any citation or registration status directly with your county DMV or the Hawaiʻi State Judiciary using contact information you look up yourself.",
+    categorySlug: "government-impersonation",
+    alertLevel: "high",
+    sources: ["Hawaiʻi State Judiciary — Beware of Text Scam Involving Bogus Unpaid Traffic Fines (February 2026)","County of Kauaʻi Finance Department — Finance Department warns public of DMV phishing text scam (February 1, 2026)","County of Hawaiʻi news release"],
+    sourceUrl: "https://www.courts.state.hi.us/news_and_reports/2026/02/beware-of-text-scam-involving-bogus-unpaid-traffic-fines",
+    country: "US",
+    state: "HI",
+});
+
+UsAF.push({
+    name: "Fake \"Hawaii Department of Revenue\" Tax Phishing Campaign",
+    slug: "fake-hawaii-department-of-revenue-tax-phishing-campaign",
+    description:
+      "Scammers are contacting Hawaii taxpayers by text message, email, social media message, and mailed letter claiming to be the \"Hawaii Department of Revenue\" and demanding payment for taxes owed or requesting personal information. No such agency exists — Hawaii's real tax authority is the Department of Taxation (DOTAX) — so the fabricated name is the clearest warning sign. DOTAX has confirmed it does not send text messages, does not post social media messages about taxes owed, and does not send unsolicited emails, and that it never authorizes \"loan clearances\" or approves bank wire transfers, both pretexts these fraudsters use. Victims who respond risk handing over Social Security numbers, bank details, and payments that cannot be recovered. Do not reply to any correspondence from a \"Hawaii Department of Revenue\" and never share personal or financial data in response to unsolicited contact — verify anything tax-related directly with the Hawaiʻi Department of Taxation.",
+    categorySlug: "tax-scams",
+    alertLevel: "high",
+    sources: ["Hawaiʻi Department of Taxation — Tax Scam Alert (June 1, 2023), via Office of the Governor newsroom"],
+    sourceUrl: "https://governor.hawaii.gov/newsroom/press-release-tax-scam-alert-june-1-2023-hawaii-department-of-taxation/",
+    country: "US",
+    state: "HI",
 });
