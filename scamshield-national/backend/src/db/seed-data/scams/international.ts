@@ -19726,3 +19726,27 @@ International.push({
     sourceUrl: "https://mafs.gov.ss/%F0%9F%9A%A8-scam-alert-notice-%F0%9F%9A%A8/",
     country: "SS",
 });
+
+International.push({
+    name: "Luxembourg Fake Pharmacy-Parcel Courier PIN Capture and Card Swap",
+    slug: "luxembourg-fake-pharmacy-parcel-courier-pin-capture-card-swap",
+    description:
+      "Criminals in Luxembourg call a resident to announce a parcel, then send a fake courier to the door claiming to deliver a package from a pharmacy and demanding a small delivery fee. When the victim pays by card, the fraudster holds the card against a mobile phone used as a card reader and tells the victim to type their PIN and press a green on-screen button several times, which captures the PIN. The bogus courier then returns a similar-looking bank card issued in someone else's name, so the victim does not notice the swap, and the real card is used for purchases and large cash withdrawals. The Grand Ducal Police reported several such incidents in late October 2025, with elderly residents the main targets. Never enter your PIN on a stranger's phone at your door, always check that the card handed back is your own, and call your bank and the police immediately if anything looks off.",
+    categorySlug: "package-delivery-scams",
+    alertLevel: "high",
+    sources: ["Police Grand-Ducale (Grand Ducal Police), Luxembourg - news item, week 43, October 2025"],
+    sourceUrl: "https://police.public.lu/fr/actualites/2025/10/semaine-43/escroquerie-livreurs-de-colis.html",
+    country: "LU",
+});
+
+International.push({
+    name: "Fake CSSF Officials Demanding Taxes, Premiums and Fees from Crypto Investors",
+    slug: "fake-cssf-officials-demanding-taxes-premiums-fees-crypto-investors",
+    description:
+      "Fraudsters pose as representatives of Luxembourg's financial regulator, the CSSF, and contact consumers to demand taxes, refund or recovery fees, and other payments that are never owed. The CSSF warned in July 2025 of a sharp rise in these identity-usurpation attempts, with many victims being people who had invested in crypto-assets. Typical hooks include an 'account opening or management fee' demanded after a small investment appears to show large profits, and a supposed 'insurance premium' payable to the CSSF to cover investment losses. Warning signs include use of the CSSF logo or fake quality labels and authorisation certificates in advertising, and a foreign or unusual phone number given as contact for a supposedly Luxembourg entity. The CSSF never asks consumers for payments of any kind, so refuse any such demand, verify the caller directly through the official CSSF website, and report the approach.",
+    categorySlug: "government-impersonation",
+    alertLevel: "high",
+    sources: ["CSSF (Commission de Surveillance du Secteur Financier), Luxembourg - 'Theft of CSSF's identity: increase in fraud attempts', July 2025","CSSF financial fraud guidance page"],
+    sourceUrl: "https://www.cssf.lu/en/2025/07/theft-of-cssfs-identity-increase-in-fraud-attempts/",
+    country: "LU",
+});
