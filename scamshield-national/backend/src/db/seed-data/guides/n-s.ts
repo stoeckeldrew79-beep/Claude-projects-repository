@@ -4705,6 +4705,10 @@ GuidesNS.push({
   slug: "preneed-funeral-trust-fraud-guide",
   author: "ScamShield Editorial",
   tags: ["guide", "preneed-funeral-fraud", "elder-financial-exploitation"],
+  coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Janisse_Funeral_Home,_Windsor,_Ontario,_2025-07-01.jpg?width=1200",
+  coverImageCredit: "Photo: Chris Woodrich, CC BY-SA 4.0, via Wikimedia Commons",
+  coverImagePosition: 50,
+  // representative photo — replace with an exact match if found
   sourceUrl: "https://connectingdirectors.com/42973-national-prearranged-services-crooks-finally-get-prison-sentence",
   body: `Paying for a funeral years, sometimes decades, before it's needed is a common and legal way for people to lock in today's prices, spare their families a difficult financial decision while grieving, and in some cases protect eligibility for need-based government benefits. State laws generally require that money paid under one of these "preneed" contracts be placed into a trust account or a funded insurance policy, kept separate from the seller's ordinary business funds, so the money is actually there when the funeral is finally needed, whether that's next year or in thirty years. That legal requirement is also exactly the point where the fraud happens: nothing stops a dishonest seller from taking the payment and simply not putting it where the law says it has to go.
 
@@ -4720,6 +4724,10 @@ GuidesNS.push({
   slug: "real-estate-deed-solicitation-scam-guide",
   author: "ScamShield Editorial",
   tags: ["guide", "deed-solicitation-scam", "homeowner-mail-scam"],
+  coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Old_County_Hall_Buffalo_NY.jpg?width=1200",
+  coverImageCredit: "Photo: dIPENdAVE, CC BY-SA 3.0, via Wikimedia Commons — a county government building, where real deed copies are actually recorded",
+  coverImagePosition: 50,
+  // representative photo — replace with an exact match if found
   sourceUrl: "https://www.ag.state.mn.us/consumer/Publications/RealEstateDeedSolicitation.asp",
   body: `An official-looking letter arrives addressed to a homeowner by name, formatted to resemble a government bill: a record ID number at the top, a "service fee" in the $80 to $95 range, and a due date. The letter, often titled something like "Recorded Deed Notice," offers to provide a "certified copy of your deed" or a "property assessment profile." Nothing about the layout looks like ordinary junk mail — it looks like something that has to be paid. Buried in the fine print, though, is a disclaimer that the letter is not a bill from any government agency and that there is no obligation to pay unless the homeowner actually wants to buy the document being offered.
 
