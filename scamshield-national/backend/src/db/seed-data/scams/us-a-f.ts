@@ -8585,6 +8585,20 @@ UsAF.push({
 });
 
 UsAF.push({
+    name: "Daewoosa Samoa Labor-Recruitment Fraud and Forced Labor Scheme (Kil Soo Lee)",
+    slug: "daewoosa-samoa-labor-recruitment-forced-labor-fraud",
+    description: "In the late 1990s, Kil Soo Lee, owner of the Daewoosa Ltd. garment factory in American Samoa, ran a transnational labor-recruitment fraud that lured roughly 250 workers from Vietnam and China, plus some Samoans, with promises of legitimate three-year U.S. territory jobs. Workers and their families paid recruitment agencies in Vietnam and agents in China upfront fees ranging from $3,000 to nearly $8,000, several years' local wages, with one worker reportedly selling her home to pay it, while Daewoosa itself pocketed roughly $450,000 of the collected fees. Once workers arrived, Lee confiscated their passports, confined them to a guarded compound, withheld pay, and used food deprivation, beatings, and threats of deportation to force labor, amounting to involuntary servitude. The U.S. Department of Labor and FBI investigated beginning in 1999, the High Court of American Samoa found Fair Labor Standards Act violations in 2002, and Lee was federally convicted in 2003 on 14 counts including involuntary servitude, extortion, money laundering, and bribery, and was sentenced to 40 years in prison plus over $1.8 million in restitution, one of the Justice Department's largest human-trafficking prosecutions. Anyone recruited for overseas or territorial work who is asked to pay large upfront recruitment, visa, or deposit fees, or who has their passport or ID taken by an employer upon arrival, should recognize these as trafficking red flags, refuse to surrender travel documents, and report suspected labor trafficking to the National Human Trafficking Hotline (1-888-373-7888) or the FBI.",
+    categorySlug: "employment-scams",
+    alertLevel: "high",
+    sources: ["American Samoa Bar Association (High Court of American Samoa case record)", "U.S. Department of Justice"],
+    sourceUrl: "https://asbar.org/case-law/jiang-shunzhe-et-al-v-daewoosa-samoa-ltd-and-kil-soo-lee/",
+    country: "US",
+    state: "AS",
+    isHistorical: true,
+    firstRecorded: "1999-01-01",
+});
+
+UsAF.push({
     name: "Fake HealthCare.gov Ads and Open Enrollment Phishing",
     slug: "healthcare-gov-phishing-impersonation",
     description:
