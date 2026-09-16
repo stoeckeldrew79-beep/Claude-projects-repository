@@ -8803,10 +8803,6 @@ GuidesAF.push({
   slug: 'fake-antivirus-tech-support-renewal-scam-guide',
   author: 'ScamShield Editorial',
   tags: ['guide', 'tech-support-scam', 'fake-renewal-scam'],
-  coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/SmartScreenwarning_in_Windows_8.png?width=1200',
-  coverImageCredit: 'Brent Geuens, Public Domain (uses Microsoft Windows UI, text not copyrightable), via Wikimedia Commons',
-  coverImagePosition: 50,
-  // representative photo — replace with an exact match if found
   sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2022/10/how-recognize-fake-geek-squad-renewal-scam',
     coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/SmartScreen_warning_in_Internet_Explorer_10.png?width=1200',
     coverImageCredit: 'A browser security warning. The fake renewal invoice is only the bait — the “refund” call is where the theft happens. Photo: Brent Geuens. (public domain)',
@@ -8826,13 +8822,10 @@ GuidesAF.push({
   author: 'ScamShield Editorial',
   tags: ['guide', 'tax-debt-relief-scam', 'irs-impersonation'],
   coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/IRS_Building.jpg?width=1200',
-  coverImageCredit: 'Photo: Reynolds, Library of Congress (Public Domain), via Wikimedia Commons',
+    coverImageCredit: 'The IRS headquarters in Washington. The agency charges no fee to apply for its own installment and offer programs. Photo: Reynolds, Library of Congress (public domain)',
   coverImagePosition: 50,
   // representative photo — replace with an exact match if found
   sourceUrl: 'https://ag.nv.gov/News/PR/2025/Attorney_General_Ford_and_FTC_Sue_Tax_Debt_Relief_Scammers_Posing_as_Government_Agencies%2C_Making_False_Claims_and_Threatening_Consumers/',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Plan_for_New_Internal_Revenue_Building%2C_Washington%2C_D.C._(1927).png?width=1200',
-    coverImageCredit: 'The IRS charges no fee to apply for its own installment and offer programs. Photo: Underwood & Underwood (public domain)',
-    coverImagePosition: 45,
   body: `The IRS's real Fresh Start initiative is a set of programs that can genuinely help some taxpayers settle back taxes for less than they owe or set up a manageable payment plan — and that real program's name is exactly what companies with names like Universal Tax Advocates, Universal Tax Associates, Tax Relief Advocates, and "New Fresh Start Tax Associates" borrow to sell a service that isn't what it claims to be. Through robocalls, threatening letters, text messages, and online ads, these operations tell taxpayers they've been specifically flagged or are already "under investigation" by the IRS, then promise that a large upfront fee will make the debt disappear or shrink to "pennies on the dollar."
 
 The mechanism runs in two stages. First, the pitch manufactures fear and urgency: a fabricated claim that the IRS has red-flagged the taxpayer's account, or a countdown before some invented deadline expires, designed to short-circuit the instinct to slow down and verify. Second, once the taxpayer is anxious enough to engage, the company collects a substantial fee up front — often thousands of dollars — for enrollment in a "program" that, in many documented cases, never actually gets filed with the IRS at all, leaving the underlying tax debt exactly where it started while the taxpayer is also out the fee they paid to fix it.
@@ -8848,12 +8841,9 @@ GuidesAF.push({
   author: 'ScamShield Editorial',
   tags: ['guide', 'smishing', 'government-impersonation', 'text-message-scam'],
   coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/2009-02-26_Red_Hummer_with_parking_citation.jpg?width=1200',
-  coverImageCredit: 'Photo: Ildar Sagdejev (Specious), CC BY-SA 4.0, via Wikimedia Commons',
+    coverImageCredit: 'A real citation goes under the wiper or in the post — not to your phone by text with a payment link. Photo: Ildar Sagdejev (CC BY-SA 4.0)',
   coverImagePosition: 50,
   sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2025/07/text-about-overdue-traffic-ticket-probably-scam',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Dodgy_Audi_A3_(15575486873).jpg?width=1200',
-    coverImageCredit: 'A real citation goes on the windscreen or in the post — not to your phone by text with a payment link. Photo: Charlie from United Kingdom (CC BY 2.0)',
-    coverImagePosition: 50,
   body: `A text message arrives claiming to be from a city parking authority or a state DMV: you have an overdue parking ticket or traffic ticket, and if it isn't paid immediately, penalties will follow — a flat "service fee" as high as 35 percent of the supposed fine, or a recurring late fee of around $35 a day, on top of threats of license suspension, vehicle registration revocation, or even prosecution and credit score damage. A link in the text leads to a payment page built to look like an official city or state portal, where entering a card number and personal details completes the theft.
 
 The scam works because it borrows the same playbook that made fake unpaid-toll texts effective, adapted to a different fear: almost everyone has, at some point, actually gotten a real parking or traffic ticket, so a text claiming one is overdue lands as plausible rather than obviously fake. The threatened consequences are chosen specifically because they're ones people take seriously and can't easily verify on the spot — a suspended license or a registration hold sounds like exactly the kind of bureaucratic mess most people would rather pay a small fee to avoid than risk finding out about later. The invented urgency (an escalating daily fee, a same-day deadline) is designed to get a payment submitted before anyone stops to check whether the message is real.
