@@ -8804,6 +8804,10 @@ GuidesAF.push({
   slug: 'fake-antivirus-tech-support-renewal-scam-guide',
   author: 'ScamShield Editorial',
   tags: ['guide', 'tech-support-scam', 'fake-renewal-scam'],
+  coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/SmartScreenwarning_in_Windows_8.png?width=1200',
+  coverImageCredit: 'Brent Geuens, Public Domain (uses Microsoft Windows UI, text not copyrightable), via Wikimedia Commons',
+  coverImagePosition: 50,
+  // representative photo — replace with an exact match if found
   sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2022/10/how-recognize-fake-geek-squad-renewal-scam',
   body: `An email or text arrives claiming a well-known company — Norton, McAfee, Geek Squad, or a similar antivirus or tech-support brand — has just charged your card several hundred dollars to renew a subscription, or is about to. The message includes a fake invoice, a total somewhere between $299 and $499, and a phone number to call within 24 to 48 hours if you didn't authorize the charge. Nothing about the layout looks amateurish: it borrows a real company's logo, a plausible order number, and language that sounds exactly like a genuine billing notice.
 
@@ -8819,6 +8823,10 @@ GuidesAF.push({
   slug: 'fake-irs-fresh-start-tax-debt-relief-scam-guide',
   author: 'ScamShield Editorial',
   tags: ['guide', 'tax-debt-relief-scam', 'irs-impersonation'],
+  coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/IRS_Building.jpg?width=1200',
+  coverImageCredit: 'Photo: Reynolds, Library of Congress (Public Domain), via Wikimedia Commons',
+  coverImagePosition: 50,
+  // representative photo — replace with an exact match if found
   sourceUrl: 'https://ag.nv.gov/News/PR/2025/Attorney_General_Ford_and_FTC_Sue_Tax_Debt_Relief_Scammers_Posing_as_Government_Agencies%2C_Making_False_Claims_and_Threatening_Consumers/',
   body: `The IRS's real Fresh Start initiative is a set of programs that can genuinely help some taxpayers settle back taxes for less than they owe or set up a manageable payment plan — and that real program's name is exactly what companies with names like Universal Tax Advocates, Universal Tax Associates, Tax Relief Advocates, and "New Fresh Start Tax Associates" borrow to sell a service that isn't what it claims to be. Through robocalls, threatening letters, text messages, and online ads, these operations tell taxpayers they've been specifically flagged or are already "under investigation" by the IRS, then promise that a large upfront fee will make the debt disappear or shrink to "pennies on the dollar."
 
@@ -8834,6 +8842,9 @@ GuidesAF.push({
   slug: 'fake-parking-traffic-ticket-text-scam-guide',
   author: 'ScamShield Editorial',
   tags: ['guide', 'smishing', 'government-impersonation', 'text-message-scam'],
+  coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/2009-02-26_Red_Hummer_with_parking_citation.jpg?width=1200',
+  coverImageCredit: 'Photo: Ildar Sagdejev (Specious), CC BY-SA 4.0, via Wikimedia Commons',
+  coverImagePosition: 50,
   sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2025/07/text-about-overdue-traffic-ticket-probably-scam',
   body: `A text message arrives claiming to be from a city parking authority or a state DMV: you have an overdue parking ticket or traffic ticket, and if it isn't paid immediately, penalties will follow — a flat "service fee" as high as 35 percent of the supposed fine, or a recurring late fee of around $35 a day, on top of threats of license suspension, vehicle registration revocation, or even prosecution and credit score damage. A link in the text leads to a payment page built to look like an official city or state portal, where entering a card number and personal details completes the theft.
 
