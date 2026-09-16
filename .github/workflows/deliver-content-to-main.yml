@@ -17,6 +17,20 @@ permissions:
 jobs:
   deliver:
     runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: postgres:16
+        env:
+          POSTGRES_USER: postgres
+          POSTGRES_PASSWORD: postgres
+          POSTGRES_DB: scamshield
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd pg_isready
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
     steps:
       - uses: actions/checkout@v4
         with:
@@ -51,6 +65,32 @@ jobs:
           check "root CLAUDE.md"               '[ -f CLAUDE.md ]'
           check "root README.md"               '[ -f README.md ]'
           exit $fail
+
+      - name: Set up Node
+        if: steps.check.outputs.count != '0'
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Backend boot smoke test (build, migrate, seed)
+        if: steps.check.outputs.count != '0'
+        # Runs the exact sequence production runs on every boot
+        # (package.json's "start" script), against a throwaway database,
+        # before this content ever reaches main. This is the check that
+        # would have caught both the dist/migrations copy bug and any
+        # malformed seed-data entry the content bots or content routines
+        # introduce, instead of that surfacing later as a silent
+        # production gap only visible through symptoms like a frozen
+        # state map or a reverted Admin edit.
+        working-directory: scamshield-national/backend
+        env:
+          DATABASE_URL: postgresql://postgres:postgres@localhost:5432/scamshield
+        run: |
+          npm ci
+          npm run build
+          npx tsc --noEmit
+          node dist/db/migrate.js
+          node dist/db/seed.js
 
       - name: Push to main
         if: steps.check.outputs.count != '0'
