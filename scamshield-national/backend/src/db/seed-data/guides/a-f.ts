@@ -8840,6 +8840,9 @@ GuidesAF.push({
   author: 'ScamShield Editorial',
   tags: ['guide', 'smishing', 'government-impersonation', 'text-message-scam'],
   sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2025/07/text-about-overdue-traffic-ticket-probably-scam',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Dodgy_Audi_A3_(15575486873).jpg?width=1200',
+    coverImageCredit: 'A real citation goes on the windscreen or in the post — not to your phone by text with a payment link. Photo: Charlie from United Kingdom (CC BY 2.0)',
+    coverImagePosition: 50,
   body: `A text message arrives claiming to be from a city parking authority or a state DMV: you have an overdue parking ticket or traffic ticket, and if it isn't paid immediately, penalties will follow — a flat "service fee" as high as 35 percent of the supposed fine, or a recurring late fee of around $35 a day, on top of threats of license suspension, vehicle registration revocation, or even prosecution and credit score damage. A link in the text leads to a payment page built to look like an official city or state portal, where entering a card number and personal details completes the theft.
 
 The scam works because it borrows the same playbook that made fake unpaid-toll texts effective, adapted to a different fear: almost everyone has, at some point, actually gotten a real parking or traffic ticket, so a text claiming one is overdue lands as plausible rather than obviously fake. The threatened consequences are chosen specifically because they're ones people take seriously and can't easily verify on the spot — a suspended license or a registration hold sounds like exactly the kind of bureaucratic mess most people would rather pay a small fee to avoid than risk finding out about later. The invented urgency (an escalating daily fee, a same-day deadline) is designed to get a payment submitted before anyone stops to check whether the message is real.

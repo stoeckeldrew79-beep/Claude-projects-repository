@@ -205,4 +205,6 @@ export const PHOTO_PLAN: PhotoPlanEntry[] = [
   { slug: 'fake-irs-fresh-start-tax-debt-relief-scam-guide', query: 'Internal Revenue Service building Washington', caption: 'The IRS charges no fee to apply for its own installment and offer programs', position: 45 },
   { slug: 'preneed-funeral-trust-fraud-guide', query: 'funeral home hearse', caption: 'Money paid years in advance must sit in a trust \u2014 ask for written proof that it does', position: 50 },
   { slug: 'real-estate-deed-solicitation-scam-guide', query: 'property deed document land title', caption: 'Your county recorder sells the same deed copy for a few dollars', position: 50 },
+  { slug: 'roger-levitt-tlg-financial-adviser-fraud', query: 'City of London Lloyds building', caption: 'The City of London, where the Levitt Group sold investment advice to its clients', position: 45 },
+  { slug: 'fake-parking-traffic-ticket-text-scam-guide', query: 'parking ticket windscreen car', caption: 'A real citation goes on the windscreen or in the post \u2014 not to your phone by text with a payment link', position: 50 },
 ];
