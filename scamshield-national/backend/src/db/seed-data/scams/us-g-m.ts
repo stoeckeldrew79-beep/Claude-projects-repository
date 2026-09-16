@@ -7615,3 +7615,18 @@ UsGM.push({
     country: "US",
     state: "ND",
 });
+
+UsGM.push({
+    name: "Karl Edward Hahn's \"Off the Books\" $2 Million New Hampshire Investment Fraud",
+    slug: "karl-edward-hahn-portsmouth-nh-off-the-books-investment-fraud",
+    description:
+      "Karl Edward Hahn, an investment advisor working at investment banks in Portsmouth, New Hampshire, solicited a client between March 2009 and July 2010 to join him in what he called an \"off the books\" investment: Hahn and the client would each put in roughly $2 million to make short-term loans to landowners, secured by residential real estate, repayable within 90 days at well above market interest rates. In reality no landowners, loans, or collateral ever existed. Hahn fabricated the entire scheme and used the client's money, transfers totaling $2,035,000 sent to an account belonging to a Hahn relative, to pay his own personal expenses, while feeding the victim ongoing false updates about defaulted borrowers, property deeds supposedly held as collateral, and a hedge fund that was never actually involved. The U.S. Attorney's Office for the District of New Hampshire, with the FBI and U.S. Secret Service, charged Hahn with wire fraud; he pleaded guilty and was sentenced in November 2017 to 18 months in federal prison, and New Hampshire's Bureau of Securities Regulation had already barred him from holding a securities license back in 2011. The case is a reminder that an \"off the books\" or \"you and I both put in money\" investment proposal from an individual advisor, bypassing the normal custodial, documentation, and disclosure protections of a licensed brokerage transaction, is a red flag regardless of how trusted the advisor seems; residents should verify any advisor's license status and disciplinary history through the NH Bureau of Securities Regulation before wiring investment funds, and report suspected investment fraud to that office or to FINRA.",
+    categorySlug: "investment-fraud",
+    alertLevel: "medium",
+    sources: ["U.S. Attorney's Office for the District of New Hampshire", "U.S. Secret Service"],
+    sourceUrl: "https://www.secretservice.gov/press/releases/2017/08/former-new-hampshire-investment-banker-pleads-guilty-defrauding-client-2",
+    country: "US",
+    state: "NH",
+    isHistorical: true,
+    firstRecorded: "2009-03-01",
+});
