@@ -537,7 +537,6 @@ Anyone who spots this scam can report it to the FTC at ReportFraud.ftc.gov, to t
     coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/SK_Telecom_head_office.JPG?width=1200",
     coverImageCredit: "Photo: 星組背番号10, CC BY-SA 3.0, via Wikimedia Commons — SK Telecom's headquarters building in Seoul, South Korea",
     coverImagePosition: 50,
-    // representative photo — replace with an exact match if found
     body: `SK Telecom is South Korea's largest wireless carrier, serving roughly half the country's mobile subscribers. On the night of April 19, 2025, the company's security team found malware running inside its network and moved to isolate the affected equipment. What they eventually pieced together was far worse than a fresh intrusion: forensic investigators later determined that the malware, a stealthy Linux backdoor known as BPFDoor, had first slipped into SK Telecom's systems back in 2022 and gone undetected for nearly three years before anyone noticed.
 
 The malware had burrowed into SK Telecom's Home Subscriber Server, the core system that manages subscriber identity data for every phone on the network. According to the company and South Korean regulators, the attackers accessed data tied to roughly 27 million mobile numbers, including USIM (SIM card) authentication data, IMSI and IMEI device-identifier numbers, and — for a smaller subset of servers — names, dates of birth, phone numbers, and email addresses. South Korea's Personal Information Protection Commission later fined SK Telecom the equivalent of about $97 million, the largest privacy penalty ever levied on a telecom company in the country, citing negligent security practices that let the intrusion go undiscovered for so long.
@@ -667,10 +666,9 @@ If you believe your identity has been stolen using information from this or any 
     slug: "williams-brothers-construction-2026-data-breach-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "williams-brothers-construction-2026-data-breach"],
-    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Sam_Houston_Ship_Channel_Bridge_2026b.jpg?width=1200",
-    coverImageCredit: "Photo: Antony-22, CC BY-SA 4.0, via Wikimedia Commons — a Houston-area bridge under construction, not a Williams Brothers project specifically",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Sam_Houston_Tollway_Ship_Channel_Bridge_0804091506BW.jpg?width=1200",
+    coverImageCredit: "Photo: Patrick Feller, CC BY 2.0, via Wikimedia Commons — the Sam Houston Ship Channel Bridge (Jesse H. Jones Memorial Bridge), the original 1982 span built by Williams Brothers Construction",
     coverImagePosition: 50,
-    // representative photo — replace with an exact match if found
     sourceUrl: "https://www.classaction.org/data-breach-lawsuits/williams-brothers-construction-company-august-2026",
     body: `Williams Brothers Construction Co., Inc., a Houston-based heavy-civil contractor with more than 70 years in business building highways and bridges across Texas, determined on August 3, 2026 that a network intrusion months earlier had exposed the personal information of tens of thousands of people. The unauthorized access itself had taken place on January 10-11, 2026 — meaning close to seven months passed between the intrusion and the company confirming what had actually been taken. In between, on February 16, 2026, the ransomware group Akira publicly claimed responsibility for the attack, saying on its dark-web leak site that it had obtained roughly 90 gigabytes of corporate data, including employee personal files, client records, and confidential financial and project documents, and threatening to publish it unless the company negotiated.
 
@@ -766,11 +764,10 @@ GuidesRecent.push({
     slug: "mcbs-medical-billing-2025-data-breach-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "mcbs-2025-data-breach"],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Atlanta_Downtown_Skyline.jpg?width=1200',
-    coverImageCredit: 'Photo: Anish Patel (CC BY-SA 4.0)',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Augusta,_GA_Downtown_Skyline_2017.jpg?width=1200',
+    coverImageCredit: 'Photo: c_live_lee, CC0, via Wikimedia Commons — downtown Augusta, Georgia, where MCBS is headquartered',
     coverImagePosition: 50,
-    // representative photo — replace with an exact match if found
-    body: `Medical Computer Business Services, or MCBS, is an Atlanta-based revenue-cycle-management company: the kind of behind-the-scenes vendor that handles billing, coding, accounts receivable, and other administrative work for hospitals and healthcare practices so those providers don't have to run it in-house. That's exactly why most of the people affected by its data breach have likely never done business with MCBS directly, or even heard the name, despite the company holding some of their most sensitive medical and financial records on behalf of their own doctor's office or hospital. Between September 22 and 26, 2025, an unauthorized party gained access to MCBS's network. The PEAR ransomware group — a gang that emerged in mid-2025 and has since listed more than 100 alleged victims on its dark-web leak site — claimed responsibility and said it had exfiltrated roughly 3 terabytes of data.
+    body: `Medical Computer Business Services, or MCBS, is an Augusta, Georgia-based revenue-cycle-management company: the kind of behind-the-scenes vendor that handles billing, coding, accounts receivable, and other administrative work for hospitals and healthcare practices so those providers don't have to run it in-house. That's exactly why most of the people affected by its data breach have likely never done business with MCBS directly, or even heard the name, despite the company holding some of their most sensitive medical and financial records on behalf of their own doctor's office or hospital. Between September 22 and 26, 2025, an unauthorized party gained access to MCBS's network. The PEAR ransomware group — a gang that emerged in mid-2025 and has since listed more than 100 alleged victims on its dark-web leak site — claimed responsibility and said it had exfiltrated roughly 3 terabytes of data.
 
 According to MCBS's breach notice, the files an attacker could have accessed included patients' names, home addresses, Social Security numbers, dates of birth, health insurance information, and medical information. Separately, the intrusion also touched the company's own business records: financials, HR and business-operations documents, vendor data, payment details, and internal emails. The federal Department of Health and Human Services' breach tracker lists the total at 1,261,464 individuals, making this one of the largest healthcare-sector breaches disclosed in 2026.
 
