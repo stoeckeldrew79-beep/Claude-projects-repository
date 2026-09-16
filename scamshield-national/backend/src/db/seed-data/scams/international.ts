@@ -13567,6 +13567,26 @@ International.push(
     sourceUrl: 'https://arctichub.gl/fake-news-spread-suddenly-on-facebook/',
     country: 'GL',
   },
+  {
+    name: 'Fake Nykredit-Branded "Cheap Loans" Facebook Scam',
+    slug: 'greenland-fake-nykredit-facebook-loan-scam',
+    description: `GrønlandsBanken issued a public warning on November 11, 2025 about a fraudulent Facebook group that misuses the name and logo of the Danish mortgage lender Nykredit to advertise "cheap loans" to Greenlandic residents. The bank said the group targets citizens in Greenland to a high degree and urged people to be extra alert rather than share personal information through the page, clarifying that neither GrønlandsBanken nor Nykredit ever contacts customers through social media. The scheme is distinct from Greenland's earlier phone and email phishing waves in that it operates purely through a spoofed corporate Facebook presence rather than direct calls or texts, using a real, trusted lender's branding as bait for a fake loan offer. Residents who encounter the group are advised to report it to Facebook and warn friends and family rather than engage with it or submit any personal or financial information.`,
+    categorySlug: 'phishing',
+    alertLevel: 'medium',
+    sources: ['Sermitsiaq', 'GrønlandsBanken'],
+    sourceUrl: 'https://www.sermitsiaq.ag/samfund/gronlandsbanken-advarer-mod-svindel/2306437',
+    country: 'GL',
+  },
+  {
+    name: 'Fake Greenlandic Knitwear Webshop Identity-Theft Scam',
+    slug: 'greenland-fake-knitwear-webshop-scam',
+    description: `Sermitsiaq reported on March 5, 2026 on a fraudulent webshop, sostreneniviogaja.dk, that sells "Greenlandic-style" sweaters and cardigans while impersonating two fictitious sisters supposedly based in Greenland — the site even lists a fake business address in Nuuk. An investigation traced the domain to an operator running a company out of Brøndby Strand near Copenhagen, Denmark, with no genuine Greenlandic presence at all. The site used AI-generated portraits to depict the nonexistent owners and lifted real photographs of named Greenlandic women without consent to fake customer testimonials and lend the page authenticity, while also copying real garment designs belonging to a Greenlandic designer, who called it "pure fraud." The scam specifically exploited a wave of international sympathy and attention toward Greenland, using Greenlandic cultural identity and named local individuals as bait while defrauding both outside buyers and the real Greenlandic artisans whose identities were stolen. Anyone buying "Greenlandic" goods online is advised to verify a seller's actual physical presence and business registration in Greenland before paying, and to be skeptical of a shop whose "owners" have no independently verifiable online presence beyond the site itself.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'medium',
+    sources: ['Sermitsiaq'],
+    sourceUrl: 'https://www.sermitsiaq.ag/samfund/falsk-hjemmeside-udnytter-danskernes-sympati-for-gronland/2352822',
+    country: 'GL',
+  },
 );
 
 International.push(
