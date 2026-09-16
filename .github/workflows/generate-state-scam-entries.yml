@@ -40,6 +40,20 @@ jobs:
     defaults:
       run:
         working-directory: scamshield-national/backend
+    services:
+      postgres:
+        image: postgres:16
+        env:
+          POSTGRES_USER: postgres
+          POSTGRES_PASSWORD: postgres
+          POSTGRES_DB: scamshield
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd pg_isready
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
 
     steps:
       - uses: actions/checkout@v4
@@ -69,6 +83,22 @@ jobs:
       # A generated entry that does not compile must never reach main.
       - name: Typecheck
         run: npx tsc --noEmit
+
+      # Typechecking catches shape, not runtime DB failures (a slug that
+      # collides at the constraint level, a value that violates a column
+      # check, a seed.ts crash on this specific entry). Actually seeding
+      # a generated batch into a throwaway database before it ever
+      # reaches main catches that class of bug where it's cheap to
+      # catch — one failed workflow run — instead of where it's
+      # expensive: silently breaking every future production seed run
+      # once this entry is merged.
+      - name: Boot smoke test (build, migrate, seed)
+        env:
+          DATABASE_URL: postgresql://postgres:postgres@localhost:5432/scamshield
+        run: |
+          npm run build
+          node dist/db/migrate.js
+          node dist/db/seed.js
 
       - name: Commit and push
         run: |

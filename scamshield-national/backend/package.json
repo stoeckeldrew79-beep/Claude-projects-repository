@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
     "build": "tsc && mkdir -p dist/db/migrations && cp src/db/migrations/*.sql dist/db/migrations/",
-    "start": "node dist/db/migrate.js && node dist/index.js",
+    "start": "node dist/db/migrate.js && node dist/db/seed.js && node dist/index.js",
     "migrate": "ts-node src/db/migrate.ts",
     "seed": "ts-node src/db/seed.ts",
     "reset-password": "ts-node src/scripts/resetPassword.ts",
