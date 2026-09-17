@@ -19759,3 +19759,38 @@ International.push({
   sourceUrl: 'https://www.jamaicaobserver.com/2024/12/24/renters-homebuyers-jamaica-targeted-rising-real-estate-scams/',
   country: 'JM',
 });
+
+International.push({
+  name: 'AI Deepfake Investment Scheme Using Fabricated Prime Minister Endorsements (Stable Rowdex)',
+  slug: 'tt-ai-deepfake-investment-scheme-stable-rowdex',
+  description: `The Trinidad and Tobago Securities and Exchange Commission (TTSEC) issued a public advisory on March 5, 2026 warning that a fraudulent online investment operation running under the aliases Stable Rowdex, Stable Capital, and Futurix Capital was soliciting Trinidad and Tobago residents into an "AI-related" investment opportunity. To manufacture credibility, the operators circulated AI-generated videos, fabricated newspaper articles, and doctored images purporting to show endorsements from the Prime Minister of Trinidad and Tobago and other prominent local figures, including economist Dr. Ronald Ramkissoon and Mr. Wendell Mottley. TTSEC confirmed none of the entities are registered to conduct securities business in Trinidad and Tobago and warned the public that fabricated "proof" of high-profile backing is an evolving tactic being used to make bogus platforms look legitimate before they solicit deposits. The Commission urged consumers to check its investor register before sending any money and never to trust a video or image "endorsement" of an investment scheme at face value, since a real public figure's genuine backing of a specific investment platform is something that can be verified directly with that person or their office, not something that should be taken on faith from a shared video alone.`,
+  categorySlug: 'ai-deepfake-scams',
+  alertLevel: 'high',
+  sources: ['Trinidad and Tobago Securities and Exchange Commission (TTSEC)'],
+  sourceUrl: 'https://www.ttsec.org.tt/public-advisory-fraudulent-online-scheme-using-ai-generated-impersonations/',
+  country: 'TT',
+});
+
+International.push({
+  name: 'Fake HDC Housing Officials Scam on Facebook and WhatsApp',
+  slug: 'tt-hdc-impersonation-housing-scam',
+  description: `The Trinidad and Tobago Police Service (TTPS) and the Housing Development Corporation (HDC) issued a joint warning, reported April 23, 2026, after identifying a fraud pattern targeting families seeking affordable housing. Scammers post fake Facebook advertisements posing as HDC representatives, then move victims to WhatsApp and unofficial email addresses rather than HDC's real channels. They advertise two-bedroom homes priced below market rate, pressure victims with claims of limited availability, and demand upfront "processing" or deposit payments reported at roughly TT$12,000 to TT$13,000 before cutting off contact. The HDC confirmed it never requests payment via WhatsApp, Gmail, or social media, that housing applications are free, and that legitimate payments are accepted only in person at its Head Office Cashier's Unit at South Quay, Port of Spain. Anyone contacted about an HDC housing opportunity through social media or a messaging app should treat the offer as suspect and verify it only through HDC's official office or published contact channels before paying anything.`,
+  categorySlug: 'rental-housing',
+  alertLevel: 'high',
+  sources: ['Trinidad and Tobago Police Service (TTPS)', 'Housing Development Corporation (HDC)'],
+  sourceUrl: 'https://www.guardian.co.tt/news/ttps-hdc-warn-of-housing-scams-6.2.2569226.662954dff1',
+  country: 'TT',
+});
+
+International.push({
+  name: 'WhatsApp "Pay to Get Hired" Rigger Jobs Scam',
+  slug: 'tt-whatsapp-money-for-jobs-scam',
+  description: `The Trinidad and Tobago Police Service publicly warned about a fee-for-employment scheme run through a WhatsApp group. Members were told they would be hired as riggers at an energy company if they each wired TT$3,000 to a Western Union account to "secure" the position; those who paid were told to attend a job orientation that never took place. Police stated that no legitimate employer requires payment for a job, urged the public to treat any offer that "appears too good to be true" as a likely scam, advised against cash transactions with unknown persons, and directed victims to report to police or the anonymous 800-TIPS line. The scheme is a reminder that a real employer's hiring process never runs through an unofficial WhatsApp group or requires an upfront payment to "secure" a position, regardless of how urgent or exclusive the opportunity is made to sound.`,
+  categorySlug: 'employment-scams',
+  alertLevel: 'medium',
+  sources: ['Trinidad and Tobago Police Service (TTPS)'],
+  sourceUrl: 'https://www.guardian.co.tt/news/police-warn-of-whatsapp-moneyforjobs-scam-6.2.753882.6602e19329',
+  country: 'TT',
+  isHistorical: true,
+  firstRecorded: '2018-12-01',
+});
