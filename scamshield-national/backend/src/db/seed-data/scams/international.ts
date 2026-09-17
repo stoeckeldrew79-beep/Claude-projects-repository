@@ -19794,3 +19794,38 @@ International.push({
   isHistorical: true,
   firstRecorded: '2018-12-01',
 });
+
+International.push({
+  name: 'SINPE Móvil Banking Phishing and Bank-Impersonation Fraud',
+  slug: 'costa-rica-sinpe-movil-phishing-fraud',
+  description: `Costa Rica's Organismo de Investigación Judicial (OIJ) has tracked a sharp rise in electronic banking fraud tied to SINPE Móvil, the country's near-ubiquitous instant transfer system. Reporting by La Nación based on OIJ complaint data shows that between January 2021 and April 22, 2022, criminals stole ¢4.317 billion colones and $1.4 million from bank customers across 4,886 reported cases, ¢3.045 billion and $1 million in 2021 alone, rising further in early 2022. The two dominant methods were phishing through fake SINPE-related messages or bogus transfer receipts, used to harvest banking credentials, and phone calls or messages in which fraudsters impersonated bank employees warning of "suspicious activity" to trick victims into handing over credentials or authorizing transfers, the costliest of the two vectors at roughly ¢2.387 billion and $357,000. OIJ's fraud chief noted that although roughly 90% of the perpetrators operate from within Costa Rica, they use technology that hinders identification and prosecution, and Banco Nacional customers were the most frequently targeted. Costa Rican banks collectively invested about $211 million in security systems from 2019 to 2021 as digital transaction volume, and fraud alongside it, surged. Consumers are advised never to enter SINPE Móvil credentials or a one-time code through a link received by text or WhatsApp, and to hang up and call their bank back directly using the number on a card or statement whenever a caller claims to be reporting "suspicious activity" on an account.`,
+  categorySlug: 'phishing',
+  alertLevel: 'high',
+  sources: ['La Nación', "Organismo de Investigación Judicial (OIJ)"],
+  sourceUrl: 'https://www.nacion.com/economia/banca/fraudes-informaticos-provocaron-robo-de-4300/ZQE33XIHF5BI3PUIZQZFIIMEFQ/story/',
+  country: 'CR',
+});
+
+International.push({
+  name: '"Vivienda a Plazo" Real Estate Developer Deposit Fraud (Casas Vita and Others)',
+  slug: 'costa-rica-real-estate-developer-deposit-fraud',
+  description: `Costa Rica's Ministerio de Economía, Industria y Comercio (MEIC), through its Comisión Nacional del Consumidor, documented 95 formal consumer complaints between 2015 and 2017 against three residential developers selling homes on installment plans known as "vivienda a plazo": Grupo Empresarial Casas Vita (69 complaints), Condomío (13), and Homes Grupo Inmobiliario (13), with complaints rising sharply each year, 17 in 2015, 23 in 2016, and 55 by mid-September 2017. Buyers, many of whom had committed to 30-year bank loans to finance the purchase, paid initial deposits of roughly $500 and down payments of $10,000 to $15,000, only to find projects stalled or never completed, with developers citing bureaucratic delays. On May 22, 2018, authorities carried out raids on offices and residences linked to Casas Vita as scrutiny intensified. In response, MEIC announced in July 2018 that it would rewrite its installment-sale regulations, including requiring developers to route buyer payments through bank-administered trusts, or fideicomisos, rather than collecting funds directly, so money is released only as construction actually progresses. The Cámara Costarricense de la Construcción has separately warned buyers to check that any project carries MEIC authorization before paying a deposit. Anyone considering a home purchase on an installment plan is advised to verify a developer's MEIC authorization and to ask specifically whether deposit funds are held in a fideicomiso rather than paid directly to the developer, since that single structural difference is what determines whether a stalled project's buyers can recover their money.`,
+  categorySlug: 'rental-housing',
+  alertLevel: 'medium',
+  sources: ["Ministerio de Economía, Industria y Comercio (MEIC)", 'AmeliaRueda'],
+  sourceUrl: 'https://ameliarueda.com/nota/ante-incremento-denuncias-estafa-meic-modificara-reglamento-ventas-vivienda',
+  country: 'CR',
+  isHistorical: true,
+  firstRecorded: '2015-01-01',
+});
+
+International.push({
+  name: 'Cartago Investment Pyramid Scheme with Falsified Bank Documents',
+  slug: 'costa-rica-cartago-pyramid-investment-scheme',
+  description: `In January 2025, Costa Rica's Organismo de Investigación Judicial (OIJ) arrested a woman surnamed Matarrita Cerdas in Guadalupe, Cartago, on 19 counts of fraud after she ran a pyramid-style investment scheme targeting friends and acquaintances. She posed as an auditor for a medical-supply company claiming to sell equipment to private hospitals, and recruited investors by promising extraordinary returns of up to 100% per month. As is typical of pyramid structures, early participants' apparent profits, funded by newer investors' money, created a false appearance of legitimacy that drew in more victims. When investors eventually demanded their principal or promised earnings back, she produced falsified bank documents claiming that more than ₡100 million colones belonging to her were frozen in her accounts, and asked victims for additional money to help "release" those funds. OIJ turned the suspect over to the Cartago Prosecutor's office to face the fraud charges. Anyone offered a guaranteed monthly return anywhere near 100% should treat that figure itself as proof the pitch is false, since no legitimate business generates returns at that scale, and should be especially wary of a request for more money to "unlock" funds already owed, a tactic aimed at extracting a final payment from victims who are already trying to get their own money back.`,
+  categorySlug: 'ponzi-pyramid-schemes',
+  alertLevel: 'medium',
+  sources: ["Organismo de Investigación Judicial (OIJ)", 'NCR Noticias'],
+  sourceUrl: 'https://ncrnoticias.com/nacionales/detencion-de-sospechosa-por-estafas-millonarias-en-cartago-el-esquema-detras-del-fraude/',
+  country: 'CR',
+});
