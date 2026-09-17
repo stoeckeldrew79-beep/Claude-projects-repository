@@ -7774,3 +7774,15 @@ UsGM.push({
     country: 'US',
     state: 'LA',
 });
+
+UsGM.push({
+    name: 'Millcreek Stolen-Check Bank Fraud and Money Laundering Ring (Pitshou Yunga Kafuku)',
+    slug: 'millcreek-stolen-check-bank-fraud-kafuku',
+    description: `Between 2022 and 2025, Pitshou Yunga Kafuku, a U.S.-Congolese citizen living in Millcreek, Utah, ran a check fraud and money laundering conspiracy that stole roughly $1.7 million from banks. Kafuku obtained stolen checks taken from the mail through contacts in South Africa, then recruited and directed a small network of fellow African expatriates in Utah, including co-conspirators Hugues Thierry Simo-Fotue and Beni Musogo Kahwara, to open bank accounts using fraudulent identification documents. The conspirators deposited the stolen checks into these accounts and then withdrew the proceeds as cash, transferred the money into other fraudulent accounts to further launder it, or used it to purchase heavy equipment shipped to Africa, with most of the stolen funds going toward funding Kafuku's own lifestyle. Kafuku, who had a prior 2018 federal felony conviction for identity theft, pleaded guilty to bank fraud conspiracy, bank fraud, theft of government funds, and money laundering, and was sentenced in the District of Utah to 108 months in federal prison, five years of supervised release, and ordered to pay $1,749,158.73 in restitution. His co-conspirators Simo-Fotue and Kahwara, both in the country illegally, were sentenced separately to 24 and 18 months respectively and face deportation after their release. The case is a reminder that a fraudulently opened bank account is often the weak point in a stolen-check scheme: banks and consumers alike are advised to watch for identity documents that don't quite match a new account holder's stated details, and anyone who mails a check should consider dropping it at a post office counter rather than a collection box, since outgoing mail theft remains the starting point for this kind of fraud.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'medium',
+    sources: ['IRS Criminal Investigation', 'U.S. Postal Inspection Service'],
+    sourceUrl: 'https://www.irs.gov/compliance/criminal-investigation/us-congolese-citizen-sentenced-to-nine-years-imprisonment-for-sprawling-check-fraud-conspiracy',
+    country: 'US',
+    state: 'UT',
+});
