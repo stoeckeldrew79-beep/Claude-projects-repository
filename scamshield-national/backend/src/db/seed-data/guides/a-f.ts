@@ -8845,6 +8845,10 @@ GuidesAF.push({
   author: 'ScamShield Editorial',
   tags: ['guide', 'ai-deepfake-scams', 'family-emergency-scams', 'grandparent-scams'],
   sourceUrl: 'https://www.aarp.org/states/pennsylvania/aarp-pennsylvania-warns-residents-about-growing-threat-of-ai-scams/',
+  // representative photo — replace with an exact match if found
+  coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Doro_phone_for_seniors_(16723387215).jpg?width=1200',
+  coverImageCredit: 'Photo: Kārlis Dambrāns, CC BY 2.0, via Wikimedia Commons',
+  coverImagePosition: 50,
   body: `The phone rings, and it's a grandchild's voice, panicked, saying they've been in a car accident or arrested and need money wired right now, and please don't tell mom and dad. The voice sounds exactly right, down to specific inflections and mannerisms, because it is not an impersonation in the old sense at all: modern AI voice-cloning tools need as little as three seconds of real audio, often pulled from a public social media video, to generate a synthetic version of someone's voice convincing enough to fool the people who know them best.
 
 This is what makes the current wave of family emergency scams different from the clumsier "grandparent scams" of the past, where an unfamiliar-sounding voice on the other end of a bad phone line was itself a red flag. The FTC has warned since 2023 that scammers are using AI to enhance these schemes specifically because the emotional trigger, a loved one in sudden trouble, arrives paired with a voice that clears the one hurdle that used to give the scam away. AARP's state chapters have separately flagged the same shift, warning that AI-generated deepfakes and cloned voices are making it increasingly difficult to distinguish a real emergency call from a fabricated one by ear alone.
@@ -8862,6 +8866,10 @@ GuidesAF.push({
   author: 'ScamShield Editorial',
   tags: ['guide', 'recovery-scam', 'government-impersonation', 'ai-deepfake-scams'],
   sourceUrl: 'https://www.ic3.gov/PSA/2026/PSA260720',
+  // representative photo — replace with an exact match if found
+  coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/J._Edgar_Hoover_FBI_Building,_Washington_DC_(5946589446).jpg?width=1200',
+  coverImageCredit: 'Photo: Rob Young, CC BY 2.0, via Wikimedia Commons — FBI headquarters, whose IC3 identity was impersonated in this scam',
+  coverImagePosition: 50,
   body: `Anyone who has already reported a scam to the FBI's Internet Crime Complaint Center, or even just searched online for how to recover money lost to fraud, is now a target for a second scam layered directly on top of the first. In a Public Service Announcement issued July 20, 2026, the FBI warned that criminals are creating fake FBI personnel profiles on Facebook and Telegram, then using AI-generated deepfake videos of senior FBI officials to direct victims toward spoofed websites built to look like the real IC3 complaint portal. Those fake sites collect names, phone numbers, email addresses, and details of exactly how much money was lost, all under the promise that an "agent" will follow up to help get it back.
 
 The scheme works because it exploits the exact moment a fraud victim is most vulnerable: right after losing money, searching for help, and hoping there's still a way to fix it. A social media message from someone claiming to be an FBI agent, backed by a video that looks and sounds like a real senior official, is far more convincing to someone already anxious about a financial loss than a cold approach would be to anyone else. The deepfake video doesn't need to fool a forensic analyst — it only needs to look real enough for a few seconds on a phone screen to a person who badly wants to believe recovery is possible.
