@@ -19917,3 +19917,25 @@ International.push({
   sourceUrl: 'https://www.211check.org/post/fact-check-is-the-bank-of-south-sudan-offering-rewards-to-its-website-visitors',
   country: 'SS',
 });
+
+International.push({
+  name: 'Creators Alliance "Watch and Earn" Ponzi Scheme (Saint Lucia)',
+  slug: 'saint-lucia-creators-alliance-ponzi-scheme',
+  description: `Creators Alliance was a video-advertising platform that launched in Saint Lucia around December 2024, telling members they could earn steady monthly returns simply by watching promotional videos after buying a package priced from roughly US$130 up to US$1,999, with some participants upgrading their package multiple times as it appeared to pay out. The operation spread rapidly through WhatsApp groups and word-of-mouth referrals — part of a wider Creators Alliance scheme that also hit Grenada, Dominica, and other Eastern Caribbean islands under different local web addresses — and investigators later determined it was a classic Ponzi structure in which early "returns" were funded not by real advertising revenue but by money deposited by newer recruits. The scheme collapsed abruptly in April 2025, dissolving its WhatsApp groups and halting all payouts, while Saint Lucia's Financial Intelligence Authority (FIA) publicly stated it had never reviewed or approved the scheme's legality. A joint investigation by the Royal Saint Lucia Police Force's Major Crimes Unit, the FIA, and the Financial Services Regulatory Authority found that 118 people had deposited money into accounts linked to the scheme, but only 35 ever received a payout; the alleged local operator, 52-year-old Electra Fernand of Vide Bouteille, Castries, was arrested on September 29, 2025 and charged with operating a virtual asset business without a licence, then released on EC$7,000 bail ahead of a November 2025 case management hearing. Consumers should treat any platform promising guaranteed returns for passive activity like "watching videos," especially one spreading through personal referrals and private chat groups rather than a licensed financial institution, as a red flag, and should verify with the FIA or FSRA whether a scheme is licensed before depositing any money.`,
+  categorySlug: 'ponzi-pyramid-schemes',
+  alertLevel: 'high',
+  sources: ['Royal Saint Lucia Police Force (RSLPF)', 'Financial Intelligence Authority (FIA)', 'St. Lucia Times'],
+  sourceUrl: 'https://stluciatimes.com/173433/2025/10/police-charge-woman-in-connection-with-creators-alliance-scheme/',
+  country: 'LC',
+});
+
+International.push({
+  name: '"CARICOM Invest" Fake-News Investment Scheme',
+  slug: 'saint-lucia-caricom-invest-fake-news-scheme',
+  description: `Saint Lucia's Financial Intelligence Authority (FIA) issued a public warning on April 7, 2026 about a fraudulent online investment scheme operating under the name "CARICOM Invest," which borrows the credibility of the regional Caribbean Community organization despite having no connection to it. The FIA said the scheme is being promoted through misleading advertisements and fabricated news content designed to look like legitimate reporting, a tactic increasingly used across the Caribbean to drive traffic to fake investment platforms that exist only to collect victims' money and personal or banking details. The warning followed an earlier joint alert issued in February 2025 by the Consumer Affairs Department, the Financial Services Regulatory Authority (FSRA), and the FIA, cautioning that a number of unauthorized investment schemes — some structured like pyramid schemes — were being marketed to Saint Lucians online without the licensing legitimate investment businesses require under Saint Lucia law. The FIA's notice did not name individual perpetrators but urged the public to treat any unsolicited investment opportunity discovered through a social media ad or an unfamiliar "news" article with suspicion, particularly one that invokes the name of a well-known regional or international institution to appear credible. Residents are advised to independently verify any investment opportunity's legitimacy directly with the FIA or FSRA before providing money or personal information, and to report suspicious platforms to the Authority rather than trusting the platform's own website or promotional material.`,
+  categorySlug: 'investment-fraud',
+  alertLevel: 'high',
+  sources: ['Financial Intelligence Authority (FIA)'],
+  sourceUrl: 'https://www.slufia.com/news/fia-issues-public-warning-on-fraudulent-caricom-invest-investment-scheme',
+  country: 'LC',
+});
