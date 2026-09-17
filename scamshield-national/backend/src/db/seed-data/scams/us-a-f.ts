@@ -8914,3 +8914,15 @@ UsAF.push({
     country: 'US',
     state: 'KY',
 });
+
+UsAF.push({
+    name: 'Fraudsters List Hawaii For-Sale Homes as Fake Rentals',
+    slug: 'hawaii-for-sale-property-rental-listing-scam',
+    description: `The Hawaii Association of Realtors and Honolulu-area agents warned in late 2024 that scammers are copying photos and details from active for-sale property listings — homes that are not actually for rent at all — and reposting them as attractive rental listings on classified and social-media sites, luring apartment and house hunters with below-market prices. Realtor Lance Owens described discovering that one of his own for-sale listings had been lifted and reposted as a rental, with the scammer posing as a "property manager" who could not show the home in person and pressed prospective renters to wire a deposit or first month's rent before ever seeing the property. Because the home is genuinely a real, existing listing — just for sale rather than for rent — the scam is harder to spot than a wholly fabricated address, since a renter who looks the property up online finds real photos and a real address that checks out. Hawaii Association of Realtors leadership urged renters to independently verify a listing agent's identity directly through the brokerage shown on the property's actual for-sale listing, to never wire money or pay a deposit before touring a home in person or via a verified video call, and to be suspicious of any "landlord" or "property manager" who is unreachable by phone and insists on remote-only communication.`,
+    categorySlug: 'rental-housing',
+    alertLevel: 'medium',
+    sources: ['Hawaii Association of Realtors', 'KITV'],
+    sourceUrl: 'https://www.kitv.com/news/new-scheme-using-hawaii-sale-properties-for-rental-scams/article_a0c55d4a-c71b-11ef-96b5-0f66675bba2b.html',
+    country: 'US',
+    state: 'HI',
+});
