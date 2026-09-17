@@ -7811,3 +7811,15 @@ UsGM.push({
     country: 'US',
     state: 'UT',
 });
+
+UsGM.push({
+    name: 'Kansas Holiday Puppy Scam Surge',
+    slug: 'kansas-holiday-puppy-scam-surge',
+    description: `Kansans searching online for specific dog breeds — French bulldogs among them — are matched with "sellers" who collect a deposit and then add escalating fees for crates, food, or shipping insurance, all while refusing to show the puppy in person or on a live video call. Per the Better Business Bureau, Kansas victims lost an average of $600 per incident during the 2025 holiday season, down from a $750 average at the 2022 peak, with December and January the worst months as buyers rush to surprise family for the holidays. BBB spokesperson Josh Planos flagged the word "teacup" in a listing as a major red flag, noting it appears in fraudulent ads at an especially high rate in Kansas and Nebraska; separately, an Olathe woman lost $1,500 buying what she believed was a therapy dog for her son through a Facebook Marketplace listing that never delivered an animal. Before paying anything for a pet advertised online, insist on a live video call showing the actual animal and never wire money or pay "last-minute" fees by gift card.`,
+    categorySlug: 'pet-sales-scams',
+    alertLevel: 'medium',
+    sources: ['KWCH (Wichita)', 'Better Business Bureau'],
+    sourceUrl: 'https://www.kwch.com/2025/11/21/puppy-scams-spike-during-holidays-costing-kansas-families-hundreds/',
+    country: 'US',
+    state: 'KS',
+});
