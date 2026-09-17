@@ -4322,6 +4322,18 @@ UsTZ.push({
 });
 
 UsTZ.push({
+    name: 'Texas Central Texas Floods FEMA Impersonation and Identity-Theft Scam (Disaster #4879)',
+    slug: 'texas-central-floods-2025-fema-impersonation-identity-theft',
+    description: `After catastrophic flash flooding along the Guadalupe River beginning July 2, 2025 killed dozens in Kerr County and surrounding Hill Country counties, FEMA issued a fraud alert on July 14, 2025 for Disaster #4879 warning that criminals were using survivors' stolen names, addresses, and Social Security numbers to file fraudulent disaster-assistance applications in their names, while others impersonated FEMA housing inspectors in person or by phone, requesting banking details or a payment "to expedite" a grant. FEMA's alert stressed that FEMA and SBA representatives never charge applicants for disaster assistance, inspections, or help filling out forms, and directed survivors to a Disaster Recovery Center at First Baptist Church, 625 Washington St., in Kerrville. Suspected fraud can be reported to the FEMA Fraud Branch at StopFEMAFraud@fema.dhs.gov, the FEMA Helpline at 800-621-3362, or the Texas Attorney General's office at 800-621-0508. Anyone contacted by someone claiming to be a FEMA inspector asking for banking information or a fee should hang up and verify independently through fema.gov or the DisasterAssistance.gov portal.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'critical',
+    sources: ['Federal Emergency Management Agency (FEMA)'],
+    sourceUrl: 'https://www.fema.gov/press-release/20250714/be-alert-fraud-after-disaster',
+    country: 'US',
+    state: 'TX',
+});
+
+UsTZ.push({
     name: 'West Monroe "Bluewater Healthcare" Medicare DME Fraud Scheme (Michael Riggins)',
     slug: 'louisiana-west-monroe-bluewater-healthcare-dme-fraud-riggins',
     description: `Michael L. Riggins, 62, of West Monroe, Louisiana, owned Bluewater Healthcare, a durable medical equipment (DME) supply company. From 2018 to 2023, Riggins paid for doctors' orders for medically unnecessary DME and tricked physicians into signing DME orders and certificates of medical necessity so he could bill Medicare for equipment patients did not need — continuing the scheme even after receiving hundreds of complaints about the fraudulent orders. He submitted more than $3.8 million in fraudulent claims to Medicare and was reimbursed over $1.8 million. Riggins pleaded guilty to one count of conspiracy to commit health care fraud, with sentencing scheduled for October 2, 2025 and a maximum exposure of 10 years in federal prison. The case illustrates how DME fraud drives up Medicare costs for everyone and can put patients' names on equipment orders they never requested or needed; Medicare beneficiaries who receive equipment, bills, or Medicare Summary Notices for DME they never ordered should report it to the HHS Office of Inspector General or the Medicare fraud hotline.`,
