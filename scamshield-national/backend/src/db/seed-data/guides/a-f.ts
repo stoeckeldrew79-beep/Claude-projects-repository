@@ -8840,6 +8840,23 @@ Before wiring any deposit, search the business's name together with the word "sc
 });
 
 GuidesAF.push({
+  title: 'Family Safe Words: The Free Defense Against AI Voice-Cloning Emergency Scams',
+  slug: 'family-safe-word-ai-voice-cloning-defense-guide',
+  author: 'ScamShield Editorial',
+  tags: ['guide', 'ai-deepfake-scams', 'family-emergency-scams', 'grandparent-scams'],
+  sourceUrl: 'https://www.aarp.org/states/pennsylvania/aarp-pennsylvania-warns-residents-about-growing-threat-of-ai-scams/',
+  body: `The phone rings, and it's a grandchild's voice, panicked, saying they've been in a car accident or arrested and need money wired right now, and please don't tell mom and dad. The voice sounds exactly right, down to specific inflections and mannerisms, because it is not an impersonation in the old sense at all: modern AI voice-cloning tools need as little as three seconds of real audio, often pulled from a public social media video, to generate a synthetic version of someone's voice convincing enough to fool the people who know them best.
+
+This is what makes the current wave of family emergency scams different from the clumsier "grandparent scams" of the past, where an unfamiliar-sounding voice on the other end of a bad phone line was itself a red flag. The FTC has warned since 2023 that scammers are using AI to enhance these schemes specifically because the emotional trigger, a loved one in sudden trouble, arrives paired with a voice that clears the one hurdle that used to give the scam away. AARP's state chapters have separately flagged the same shift, warning that AI-generated deepfakes and cloned voices are making it increasingly difficult to distinguish a real emergency call from a fabricated one by ear alone.
+
+Because the voice itself can no longer be trusted as proof, the defense has to be something a cloned voice cannot possibly produce: private, shared knowledge. AARP Pennsylvania's guidance is direct on this point, recommending that families "establish a secret code word with family members to confirm identities during emergency calls" — a word or short phrase agreed on in advance, known only within the family, that a caller can be asked to supply before a cent changes hands. An AI model trained on public audio has no way to guess a codeword that was never spoken anywhere online, no matter how convincing the voice around it sounds.
+
+A safe word only works as a backstop to a second habit: treat any urgent, secretive money request as a reason to slow down rather than speed up. The FTC's own advice is to not trust the voice and instead call the person back directly on a phone number already known to be theirs, not a number given during the call itself, and to try reaching another family member or a mutual friend if that person can't be reached right away. Genuine emergencies do not require gift cards, wire transfers, or cryptocurrency, and a real bail bondsman, hospital, or law enforcement agency will not ask a family member to keep the situation secret from the rest of the family.
+
+Set the codeword now, before any call comes in, choose something that would never plausibly appear in a social media post or public conversation, and make sure every generation in the family — including the grandparents and grandchildren most likely to be targeted — actually knows it. Anyone who receives a suspicious emergency call, whether or not money was sent, can report it to the FTC at ReportFraud.ftc.gov, and anyone who has already sent money should contact their bank or wire service immediately, since recovery is only possible in the narrow window before funds are fully transferred out.`,
+});
+
+GuidesAF.push({
   title: 'FBI/IC3 Deepfake Recovery Scams: When the "Agent" Offering to Get Your Money Back Isn\'t Real',
   slug: 'fbi-ic3-deepfake-impersonation-recovery-scam-guide',
   author: 'ScamShield Editorial',
