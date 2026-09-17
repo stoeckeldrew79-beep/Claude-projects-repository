@@ -3,7 +3,9 @@
   "private": true,
   "scripts": {
     "setup": "node scripts/setup.js",
-    "dev": "concurrently -n backend,frontend -c blue,green \"npm --prefix backend run dev\" \"npm --prefix frontend run dev\""
+    "dev": "concurrently -n backend,frontend -c blue,green \"npm --prefix backend run dev\" \"npm --prefix frontend run dev\"",
+    "install-merge-driver": "sh scripts/install-merge-driver.sh",
+    "test:merge-driver": "node scripts/test-merge-seed-shard.js"
   },
   "devDependencies": {
     "concurrently": "^8.2.2"

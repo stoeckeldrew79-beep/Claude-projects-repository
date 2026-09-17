@@ -273,6 +273,42 @@ taking a courthouse for a portrait — write it as a plain statement of what is 
 After adding new profiles, run `npm run report-missing-photos`. It names any entry still
 needing a photo chosen, which is what keeps the abstract art from silently accumulating again.
 
+## Merging the seed-data shards
+
+Two writers append entries to the same shard files: the content routines on
+`claude/scamshield-national-phase1`, and the scheduled `generate-*.yml` bots committing
+straight to `main`. `deliver-content-to-main.yml` merges one into the other, and "both sides
+appended a different entry at the end of the same file" has to resolve as "keep both".
+
+That job used to be done by git's built-in `union` merge driver, which was the wrong tool.
+`union` works line by line, and every entry is wrapped in the same boilerplate (`{` ... `},`
+or `X.push({` ... `});`). When both sides append, the diff matches that boilerplate as shared
+context and `union` emits **one** object literal containing **both** bodies, with every
+property duplicated. On 2026-09-17 that took delivery down for four hours with `TS1117`
+("An object literal cannot have multiple properties with the same name") across four scams
+shards, stranding 14 content commits on the branch.
+
+`scripts/merge-seed-shard.js` replaces it. It merges the shards entry by entry rather than
+line by line, so it cannot interleave two entries, and it exits non-zero on anything it does
+not fully understand, which makes git record an ordinary conflict instead of writing a corrupt
+tree. Two entries that differ only in their cover photo are the one editorial disagreement it
+settles on its own: it keeps the photo already published and logs the slug, so a photo choice
+never blocks unrelated content.
+
+Merge drivers are per-clone config by design, so register it once per clone:
+
+```bash
+npm --prefix scamshield-national run install-merge-driver
+```
+
+Without it git falls back to a plain text merge, which conflicts rather than corrupts, so an
+unregistered clone is safe, just noisier. `deliver-content-to-main.yml` registers it itself.
+
+`npm --prefix scamshield-national run test:merge-driver` round-trips every shard through the
+driver's parser and checks the result byte for byte, then runs the merge cases above. Delivery
+runs it before every merge: if the parser ever drifts from the data the shards actually
+contain, that surfaces there rather than as a corrupt merge.
+
 ## Scheduling early-warning alert detection
 
 `npm run detect-alerts` is also a one-shot script — schedule it the same way, ideally alongside
