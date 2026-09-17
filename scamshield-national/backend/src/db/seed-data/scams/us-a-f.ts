@@ -8926,3 +8926,27 @@ UsAF.push({
     country: 'US',
     state: 'HI',
 });
+
+UsAF.push({
+    name: 'Appalachian Power Extreme-Weather Shutoff Impersonation Scam',
+    slug: 'west-virginia-appalachian-power-extreme-weather-shutoff-scam',
+    description: `Appalachian Power, which serves southern West Virginia, warned customers on July 7, 2025 that scammers ramp up impersonation attempts during heat waves and other weather extremes, when anxious customers are more likely to react quickly to a threatened power shutoff. The scammers spoof caller ID to display as Appalachian Power, then demand immediate payment through prepaid debit cards, gift cards, or peer-to-peer apps like CashApp, Zelle, or Venmo to avoid disconnection within minutes or hours; some variations show up in person at a home or business posing as a company representative, or pitch a fake discounted solar-installation deal. "We typically see a rise in scam activity during weather extremes because scammers know people are more anxious about losing power," said Alan Bragg, the company's Director of Customer Service, with the company noting that senior citizens, business owners contacted during peak hours, and non-native English speakers are disproportionately targeted. A real Appalachian Power representative never demands payment by gift card, prepaid card, or a money-transfer app, and any employee visiting in person can and should produce official identification on request. Customers who get a threatening call or visit are advised to hang up, verify their account status by calling the number on their bill or using the official mobile app, and report the attempt to Appalachian Power and to local law enforcement.`,
+    categorySlug: 'utility-scams',
+    alertLevel: 'medium',
+    sources: ['Appalachian Power'],
+    sourceUrl: 'https://www.appalachianpower.com/company/news/view?releaseID=10319',
+    country: 'US',
+    state: 'WV',
+});
+
+UsAF.push({
+    name: "Bridgeport Physician Assistant's VA Disability and Student Loan Discharge Fraud",
+    slug: 'west-virginia-bridgeport-nolte-va-disability-student-loan-fraud',
+    description: `Christina Nolte, 42, a licensed physician assistant from Bridgeport, West Virginia, falsified her own VA medical records to fraudulently qualify for and receive disability benefits from the Department of Veterans Affairs, then used that manufactured disability rating to apply for and obtain discharge of $242,528 in federal student loans through the Department of Education's Total and Permanent Disability (TPD) program, a benefit meant to forgive loan balances for veterans and others whose disability genuinely prevents them from working. The scheme was uncovered through a joint investigation by the VA Office of Inspector General, the Department of Education Office of Inspector General, and the FBI, and Nolte pleaded guilty to theft of public money; on June 23, 2026, Chief U.S. District Judge Thomas S. Kleeh sentenced her to 12 months in federal prison and ordered $355,179.13 in restitution. U.S. Attorney Matthew L. Harvey said that "by falsifying her medical records and exploiting programs meant to support our nation's veterans, Ms. Nolte stole taxpayer funds and undermined systems designed to help those who served." The case is a reminder that the TPD discharge program cross-checks disability claims against VA and Social Security Administration records, so fabricating or exaggerating a medical condition to erase student debt carries the same federal theft exposure as lying to get any other government benefit. Borrowers seeking a legitimate disability discharge should apply only through the Department of Education's official process at studentaid.gov, using their real medical records, rather than through any third party offering to help "erase" loans with manufactured paperwork.`,
+    categorySlug: 'student-loan-education',
+    alertLevel: 'medium',
+    sources: ["U.S. Attorney's Office, Northern District of West Virginia", 'U.S. Department of Veterans Affairs, Office of Inspector General', 'U.S. Department of Education, Office of Inspector General'],
+    sourceUrl: 'https://www.justice.gov/usao-ndwv/pr/harrison-county-woman-sentenced-falsifying-va-medical-records-steal-disability',
+    country: 'US',
+    state: 'WV',
+});
