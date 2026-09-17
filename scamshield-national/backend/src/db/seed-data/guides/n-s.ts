@@ -4783,6 +4783,10 @@ GuidesNS.push({
   slug: "obituary-bereavement-scam-guide",
   author: "ScamShield Editorial",
   tags: ["guide", "obituary-scam", "identity-theft", "elder-financial-abuse"],
+  coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/A_quiet_corner_of_Tonge_Cemetery_-_geograph.org.uk_-_2738757.jpg?width=1200",
+  coverImageCredit: "Photo: Bill Boaden, CC BY-SA 2.0, via Wikimedia Commons",
+  coverImagePosition: 50,
+  // representative photo — replace with an exact match if found
   sourceUrl: "https://www.aarp.org/money/scams-fraud/obituary/",
   body: `A published obituary is meant to honor someone's life, but to a scammer it reads as a research document: a free, public profile listing exactly the details identity thieves need to impersonate the deceased or manipulate the grieving family left behind. Criminals routinely scan newspaper death notices and online obituary pages for a full name, date and place of birth, hometown, employer, and a list of surviving relatives — then combine that with data purchased on the dark web, like a Social Security number, to open credit accounts, take out loans, file fraudulent tax returns, or apply for benefits in the dead person's name, a pattern investigators call "ghosting." It works because the victim can never notice the fraud or report it themselves, and grieving family members often aren't yet monitoring the deceased's accounts closely enough to catch it quickly.
 
@@ -4800,6 +4804,10 @@ GuidesNS.push({
   slug: "online-auction-fraud-shill-bidding-guide",
   author: "ScamShield Editorial",
   tags: ["guide", "online-auction-fraud", "shill-bidding", "online-shopping-scams"],
+  coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Bid_hammer.jpg?width=1200",
+  coverImageCredit: "Photo: 1bigisland, CC BY-SA 4.0, via Wikimedia Commons",
+  coverImagePosition: 50,
+  // representative photo — replace with an exact match if found
   sourceUrl: "https://consumer.ftc.gov/articles/0523-online-auctions-sellers",
   body: `An online auction feels like a fair fight: a listing goes up, real bidders compete against each other, and the highest genuine offer wins. But two well-documented tactics let a seller — or someone working with them — quietly rig that fight from the inside. In "shill bidding," the seller creates a second account, or recruits a friend, to place bids on their own item purely to drive the price up, forcing legitimate bidders to pay more than they otherwise would have without ever knowing a real buyer wasn't actually behind the competing bid. In "bid shielding," a similar fake account places an extremely high bid early on specifically to scare off genuine bidders, then retracts that bid moments before the auction closes, letting a second, much lower "real" bid win the item at an artificially suppressed price — a version of the same manipulation aimed at cheating the seller rather than the buyer.
 
