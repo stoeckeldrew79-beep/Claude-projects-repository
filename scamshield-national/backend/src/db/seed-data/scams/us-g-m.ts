@@ -7859,3 +7859,51 @@ UsGM.push({
     country: 'US',
     state: 'MN',
 });
+
+UsGM.push({
+    name: "Kalihi Man's Instagram Sextortion of Teen Girls Worldwide",
+    slug: 'hawaii-kalihi-instagram-sextortion-devan-caulk',
+    description: `The FBI's Honolulu field office arrested Devan Caulk of Kalihi, Hawaii on July 22, 2025, charging him with sextorting teenage girls around the world through Instagram. According to federal investigators, Caulk posed as a peer or admirer to coax victims into sending explicit images and video, then threatened to distribute the material to the victims' family, friends, and followers unless they sent additional images, performed further acts on camera, or paid money — a pattern federal authorities say fits a broader nationwide and international surge in financially and sexually motivated sextortion targeting minors on social media. Investigators identified victims connected to the case in multiple countries, underscoring how a single offender working from Hawaii can reach and threaten teenagers well beyond the islands using nothing more than a social-media account. Parents and teens are urged to treat any threat to leak images as a sign to stop all contact immediately, preserve the messages as evidence rather than deleting them, and report to the FBI or NCMEC's CyberTipline rather than complying with a demand, since paying or sending more material does not make the threats stop.`,
+    categorySlug: 'sextortion',
+    alertLevel: 'critical',
+    sources: ['FBI Honolulu Field Office', 'Hawai\'i News Now'],
+    sourceUrl: 'https://www.hawaiinewsnow.com/2025/07/29/kalihi-man-arrested-by-fbi-charged-with-sextorting-teen-girls-around-world/',
+    country: 'US',
+    state: 'HI',
+});
+
+UsGM.push({
+    name: 'Hawaii Employment Scam Surge Among Young Job Seekers',
+    slug: 'hawaii-bbb-employment-scam-surge-2026',
+    description: `The Better Business Bureau warned in September 2026 that employment scams are surging among young job seekers in Hawaii, with the BBB logging 47 Hawaii reports and roughly $120,000 in losses tied to fake job offers. The schemes typically begin with an unsolicited message — often on a messaging app or social media rather than a legitimate job board — offering flexible, high-paying remote work with minimal qualifications required. Once a target expresses interest, the scammer moves quickly to request personal information for a supposed background check or direct-deposit setup, or asks the victim to purchase equipment, software licenses, or "training materials" upfront with a promise of reimbursement that never arrives. The BBB noted that younger and first-time job seekers, who may be less familiar with how legitimate employers actually onboard new hires, are disproportionately targeted. Job seekers are advised to verify any employer through its official website and a direct phone call before providing personal or financial information, to be wary of any job that requires payment for equipment or training before a first day of work, and to treat an offer that arrives entirely over text or social media, with no interview, as a red flag.`,
+    categorySlug: 'employment-scams',
+    alertLevel: 'medium',
+    sources: ['Better Business Bureau', 'KHON2'],
+    sourceUrl: 'https://www.khon2.com/news/scams/employment-scam-risk-hawaii/',
+    country: 'US',
+    state: 'HI',
+});
+
+UsGM.push({
+    name: 'Mississippi Winter Storm "Storm Chaser" Contractor Fraud',
+    slug: 'mississippi-winter-storm-chaser-contractor-fraud',
+    description: `Following a statewide winter storm, Mississippi Attorney General Lynn Fitch, Insurance Commissioner Mike Chaney, and the Mississippi State Board of Contractors issued a joint advisory on February 4, 2026 warning homeowners about "storm chasers" — unlicensed, often out-of-state contractors using high-pressure door-to-door sales tactics to sign storm-damage repair contracts on the spot. Fitch warned that "criminals take advantage of storm damage to turn a quick profit off others' misfortune," while Chaney urged residents not to make permanent repairs before their insurer inspects the property. MSBOC Executive Director Stephanie Lee noted that any residential project over $10,000 legally requires a state contractor license, a threshold many storm chasers ignore or falsify. Before signing anything or paying upfront, homeowners are urged to verify a contractor's license with the Mississippi State Board of Contractors and get a second opinion from their insurance adjuster.`,
+    categorySlug: 'home-improvement-solar',
+    alertLevel: 'medium',
+    sources: ["Mississippi Attorney General's Office (Lynn Fitch)", "Mississippi Insurance Commissioner's Office (Mike Chaney)", 'Mississippi State Board of Contractors'],
+    sourceUrl: 'https://desotocountynews.com/mississippi-news/state-officials-warn-of-post-storm-scammers/',
+    country: 'US',
+    state: 'MS',
+});
+
+UsGM.push({
+    name: 'Mississippi Relationship Investment Scam',
+    slug: 'mississippi-relationship-investment-scam',
+    description: `Ahead of Valentine's Day 2026, the Mississippi Secretary of State's Office (Michael Watson) warned residents about "relationship investment scams" — a hybrid of romance fraud and investment fraud in which scammers build a relationship on dating apps, social media, messaging apps, or through unsolicited "wrong number" texts, using fake profiles, AI-generated voices, and deepfake video to seem credible. Once trust and emotional attachment are established, the scammer steers the victim toward a fraudulent cryptocurrency or investment platform operated by a criminal network, escalating from small requests to large losses. Watson said his office "has continued to see an uptick in securities-related scams" tied to "artificial intelligence and cryptocurrency." Before sending money or "investing" with someone met only online, Mississippians are urged to verify any investment professional's credentials through the Secretary of State's Securities Division and never move money to a platform recommended by someone they haven't met in person.`,
+    categorySlug: 'romance-scams',
+    alertLevel: 'medium',
+    sources: ["Mississippi Secretary of State's Office (Michael Watson)", 'SuperTalk Mississippi'],
+    sourceUrl: 'https://www.supertalk.fm/mississippians-urged-to-be-on-alert-for-romance-scams-this-valentines-day/',
+    country: 'US',
+    state: 'MS',
+});
