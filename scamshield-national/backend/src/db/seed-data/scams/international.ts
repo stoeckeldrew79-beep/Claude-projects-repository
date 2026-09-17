@@ -19862,3 +19862,36 @@ International.push({
   sourceUrl: 'https://ncrnoticias.com/nacionales/detencion-de-sospechosa-por-estafas-millonarias-en-cartago-el-esquema-detras-del-fraude/',
   country: 'CR',
 });
+
+International.push({
+  name: 'MUP-Warned "Your Family Member Had an Accident" Emergency Phone Scam',
+  slug: 'serbia-fake-family-accident-emergency-phone-scam',
+  description: `Serbia's Ministry of Interior (MUP) issued a public warning, reported May 28, 2026, about an increasingly common telephone fraud scheme in which callers falsely tell a victim that their son, daughter, or another close family member has just been in a traffic accident or other sudden emergency. The caller — impersonating a doctor, police officer, or family acquaintance rather than the relative themselves — then demands immediate payment for emergency medical treatment or surgery, typically asking the victim to hand over cash, gold, or other valuables on the spot rather than make a bank transfer, so there is no paper trail and no time to verify the story. MUP's warning states plainly that citizens should not hand over money, gold, or other valuables to unknown persons "without verification" ("ne dajte pare bez provere"), and instructs anyone who receives such a call to first try to reach the family member directly, confirm the story with the named hospital or police station, and report the call to police rather than acting on it immediately. The scheme exploits the same shock-and-urgency pressure seen in "grandparent scam" calls elsewhere, but is aimed broadly at any close relative, not just grandparents, and MUP has repeated the warning multiple times as the calls have continued. Before sending any money or valuables in response to a call about a relative's accident, always hang up and independently call that relative back on a known number, or call the hospital or police station named by the caller directly.`,
+  categorySlug: 'family-emergency-scams',
+  alertLevel: 'high',
+  sources: ['Ministarstvo unutrašnjih poslova Republike Srbije (MUP)', 'Telegraf.rs', 'Kurir'],
+  sourceUrl: 'https://www.telegraf.rs/vesti/hronika/4333684-vas-sin-je-imao-udes-mup-upozorava-na-jezive-telefonske-prevare-u-srbiji-ne-dajte-pare-bez-provere',
+  country: 'RS',
+});
+
+International.push({
+  name: '"Kangaroo Treasure" (Kengur Riznica) Telegram Pyramid Scheme',
+  slug: 'serbia-kangaroo-treasure-telegram-pyramid-scheme',
+  description: `A company called "Kangaroo Treasure d.o.o." was registered with Serbia's Business Registers Agency in April 2022 by a Chinese national, Libo Liu, with only 100 dinars in starting capital, and operated an online platform recruiting members through Telegram, flyers, and billboards. Members paid a minimum deposit of around 2,000 dinars to join, then were told they'd earn a 0.1% return by completing simple tasks like writing fake product reviews for Amazon and AliExpress listings, while a member who recruited a new participant collected 10 percent of that recruit's earnings — a structure that paid earlier participants only with money from new deposits. The platform vanished in August 2022, roughly three months after members started depositing money, leaving an estimated 100,000 Serbian citizens — including many who reportedly took out cash loans of 100,000 to 250,000 dinars specifically to invest — unable to recover their funds; a related entity, "Sassilo Group d.o.o.," registered by another Chinese national, Likun Li, was also identified. Roughly 35 criminal complaints were filed with Serbia's High-Tech Crime Prosecutor's Office, with the underlying fraud offense under Article 208 of Serbia's Criminal Code carrying a sentence of up to 10 years for damages exceeding 5 million dinars. Treat any platform promising fixed daily or task-based returns paid for recruiting other members — especially one organized entirely through Telegram groups and requiring an upfront deposit — as a pyramid scheme, regardless of how it is packaged.`,
+  categorySlug: 'ponzi-pyramid-schemes',
+  alertLevel: 'critical',
+  sources: ['021.rs (Novosadski informativni portal)', 'Bizlife.rs'],
+  sourceUrl: 'https://www.021.rs/story/Info/Srbija/319714/Oko-100000-gradjana-Srbije-naselo-na-piramidalnu-prevaru-mnogi-dizali-i-kredite.html',
+  country: 'RS',
+});
+
+International.push({
+  name: 'Fake "Parking Servis" Beograd SMS Phishing Scam',
+  slug: 'serbia-parking-servis-sms-phishing-scam',
+  description: `Belgrade's public parking utility, JKP Parking servis, issued a public warning after fraudulent SMS messages began circulating — most recently reported September 4, 2026 — that impersonate the company and claim the recipient's account has unpaid parking fees. One documented message read, in translation: "Dear user — our system has confirmed that your account has unpaid parking fees. To protect your service rights and avoid unnecessary legal disputes, please verify and pay the unpaid amount by 24:00 on September 4 to prevent further complications," with messages traced to sender numbers beginning with the international prefix +63 (Philippines), not a legitimate Serbian short code. The message pressures the recipient to click an embedded link and enter payment or personal details to "settle" the supposed debt, a classic smishing pattern using invented urgency and a deadline rather than any real record of unpaid parking. JKP Parking servis publicly urged citizens not to respond to the messages, not to click the links, and not to enter any personal data, stating that all real account information should be checked only through the company's official channels and website. This is a distinct mechanism from Serbia's earlier fake "Post of Serbia" customs-fee SMS scam — same smishing family, different impersonated institution and payment pretext — so treat any unsolicited SMS demanding urgent payment for parking, customs, or utility fees via an embedded link as fraudulent until verified directly with the named organization's official website or phone number.`,
+  categorySlug: 'phishing',
+  alertLevel: 'medium',
+  sources: ['JKP Parking servis (Belgrade public parking utility)', 'N1 info'],
+  sourceUrl: 'https://n1info.rs/vesti/parking-servis-beograda-upozorava-na-lazne-sms-poruke',
+  country: 'RS',
+});
