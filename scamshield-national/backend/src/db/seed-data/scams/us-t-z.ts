@@ -1111,6 +1111,20 @@ export const UsTZ: SeedScam[] = [
     sourceUrl: 'https://www.wbay.com/2026/07/22/loan-scam-calls-spike-wisconsin-officials-warn-ai-powered-fraud/',
   },
 {
+    name: "Wisconsin's 1971 Consumer Act and the Credit-Service Rules Still Used Against Today's Loan Scams",
+    slug: 'wisconsin-1971-consumer-act-credit-service-origin',
+    description:
+      'Wisconsin passed the Wisconsin Consumer Act as 1971 Wisconsin Act 239, and its provisions took effect in 1973; the state\'s own Department of Financial Institutions calls it "the most comprehensive law of its type in the nation." Spanning chapters 421 through 427 of the Wisconsin Statutes, the Act was written to simplify and clarify the laws governing consumer transactions and protect consumers against unfair merchant practices, and it did so by creating an entirely new regulated category: the "credit service organization," defined as any person or merchant who sells or represents that they will help a customer improve their credit record, arrange an extension of credit, or obtain a loan, in exchange for payment. Chapter 422 requires anyone offering those services to register with the Department of Financial Institutions and bars them from making false, misleading, or deceptive representations to a customer, with chapters 425 and 426 giving both consumers and DFI the power to sue and penalize violators. That 1973 framework is the exact legal basis Wisconsin regulators still use today against a caller who offers to "arrange" a loan or improve a person\'s credit without ever naming a real, registered lender — precisely the pattern in this database\'s existing Wisconsin AI-Voice Loan Pre-Approval Robocall Scam entry, where DATCP-reported callers cite a specific loan amount and interest rate but no actual bank, a credit-service pitch the WCA has required to be registered and truthful for more than fifty years.',
+    categorySlug: 'debt-relief-scams',
+    country: 'US',
+    state: 'WI',
+    alertLevel: 'medium',
+    sources: ['Wisconsin Legislative Council', 'Wisconsin Department of Financial Institutions'],
+    sourceUrl: 'https://docs.legis.wisconsin.gov/misc/lc/issue_briefs/2024/consumer_protection/ib_wisconsin_consumer_act_ag_2024_07_25',
+    isHistorical: true,
+    firstRecorded: '1971-01-01',
+  },
+{
     name: 'West Virginia DMV "Smishing" Toll and Ticket Text Scam',
     slug: 'west-virginia-dmv-smishing-toll-ticket-scam',
     description:
@@ -2052,6 +2066,19 @@ export const UsTZ: SeedScam[] = [
     sourceUrl: 'https://www.justice.gov/usao-edwi/pr/financial-advisor-sentenced-investment-fraud-scheme',
     country: 'US',
     state: 'WI',
+  },
+{
+    name: "Wisconsin's 1913 Blue Sky Law and the Registration Check That Still Catches Fake Advisors",
+    slug: 'wisconsin-1913-blue-sky-law-securities-registration-origin',
+    description: `Wisconsin adopted its first securities law, Chapter 756, Laws of 1913, placing a new regulatory agency under the state's Railroad Commission to license and police who could sell stocks, bonds, and other investments in the state. The law arrived as part of a fast-moving national wave: Kansas passed the country's first "blue sky" law in 1911 after regulators there grew alarmed at salesmen peddling worthless shares in fly-by-night companies and gold mines, said to be backed by nothing more than the blue sky overhead, and within two years 23 states, Wisconsin among them, had followed with their own versions. Wisconsin's program grew more formal over the following decades, becoming a standalone Department of Securities in 1939, the Office of the Commissioner of Securities in 1967, and today's Division of Securities inside the Department of Financial Institutions in 1995 — but the core idea has stayed constant for well over a century: anyone selling securities or offering investment advice in Wisconsin has to be registered, and a customer can check that registration before handing over money. That is exactly the safeguard that could have stopped this database's existing Wauwatosa Fake Investment Advisor Retirement Fraud entry, in which Robert Starnes held himself out as a licensed investment broker to friends and family and stole more than $3 million in retirement savings; the same federal prosecutors who secured his conviction pointed to the free FINRA BrokerCheck and SEC Investment Adviser Public Disclosure registries, the direct modern descendants of the registration requirement Wisconsin first created in 1913, as the check that would have exposed him before a single check was signed.`,
+    categorySlug: 'investment-fraud',
+    country: 'US',
+    state: 'WI',
+    alertLevel: 'medium',
+    sources: ['Wisconsin Department of Financial Institutions'],
+    sourceUrl: 'https://dfi.wi.gov/Pages/Securities/Filings/SecuritiesRegulationHistory.aspx',
+    isHistorical: true,
+    firstRecorded: '1913-01-01',
   },
 {
     name: 'Longview Paper Mill Disaster Charity Scam',
