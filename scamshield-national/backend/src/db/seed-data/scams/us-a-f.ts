@@ -8875,3 +8875,15 @@ UsAF.push({
     country: 'US',
     state: 'DE',
 });
+
+UsAF.push({
+    name: 'Elijah Heacock AI-Generated Sextortion Case (Glasgow, Kentucky)',
+    slug: 'kentucky-glasgow-elijah-heacock-ai-sextortion',
+    description: `Elijah "Eli" Heacock, a 16-year-old sophomore at Caverna High School in Glasgow, Kentucky, died by suicide on February 28, 2025, less than an hour after receiving a text message containing an AI-generated nude image of himself and a demand for $3,000 to keep it from being sent to his friends and family. Text messages recovered from his phone showed he sent a partial payment before the extortionists replied "This is not enough." The FBI's Louisville Field Office is investigating the case as part of a fast-growing wave of "sextortion" targeting minors, and the FBI has linked at least 20 youth suicides nationally to sextortion scams since 2021. In response, Kentucky lawmakers passed Senate Bill 73, making sextortion a felony in the state — chargeable as homicide if the victim dies — and requiring schools to educate families about the scam starting in fourth grade. Parents are advised to treat any threat involving a nude image, real or AI-generated, as a crime: screenshot everything, cut off contact immediately, never pay, and involve law enforcement right away rather than trying to handle it alone.`,
+    categorySlug: 'sextortion',
+    alertLevel: 'critical',
+    sources: ['FBI Louisville Field Office', 'CBS News', 'WLKY'],
+    sourceUrl: 'https://www.cbsnews.com/news/sextortion-generative-ai-scam-elijah-heacock-take-it-down-act/',
+    country: 'US',
+    state: 'KY',
+});
