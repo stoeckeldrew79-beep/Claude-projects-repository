@@ -8812,3 +8812,17 @@ UsAF.push({
     country: "US",
     state: "ND",
 });
+
+UsAF.push({
+    name: 'Fort Wayne IRS Employee PPP Loan Fraud (Rakita Davis)',
+    slug: 'fort-wayne-irs-employee-ppp-loan-fraud-rakita-davis',
+    description: `Rakita Davis, 45, of Fort Wayne, was a working IRS employee when she applied for two Paycheck Protection Program loans in 2021, falsely claiming to be the sole proprietor of a catering business that did not exist and fabricating its gross income to qualify for CARES Act relief funds. She used the PPP money on personal jewelry, airfare, luxury car rentals, and vacations rather than any legitimate business expense. Davis pleaded guilty to wire fraud and was sentenced by U.S. District Chief Judge Holly A. Brady to 24 months of probation and ordered to pay $55,213.61 in restitution to the Small Business Administration, in a case announced by the U.S. Attorney's Office for the Northern District of Indiana on May 21, 2025. The case is a reminder that pandemic-relief fraud wasn't limited to outsiders gaming the system — even a federal employee exploited a self-certified small-business loan program with a fabricated company — and that PPP and EIDL fraud enforcement remains an active pipeline of federal prosecutions years after the relief money went out.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'medium',
+    sources: ["U.S. Attorney's Office for the Northern District of Indiana"],
+    sourceUrl: 'https://www.justice.gov/usao-ndin/pr/former-irs-employee-ordered-repay-funds-ppp-loan-fraud',
+    country: 'US',
+    state: 'IN',
+    isHistorical: true,
+    firstRecorded: '2021-01-01',
+});
