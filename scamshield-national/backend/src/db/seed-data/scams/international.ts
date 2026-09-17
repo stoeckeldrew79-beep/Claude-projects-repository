@@ -19895,3 +19895,25 @@ International.push({
   sourceUrl: 'https://n1info.rs/vesti/parking-servis-beograda-upozorava-na-lazne-sms-poruke',
   country: 'RS',
 });
+
+International.push({
+  name: 'Land Broker ("Shamsarin") Fraudulent Plot Sales in Juba',
+  slug: 'south-sudan-land-broker-shamsarin-fraud-juba',
+  description: `Land brokers known locally as "shamsarin" operate a persistent fraud scheme in Juba, Central Equatoria State, identifying plots whose rightful owners are absent or displaced and then colluding with area chiefs, lawyers, and housing-sector officials to sell that same land to unsuspecting buyers. Radio Tamazuj's March 2026 reporting quoted Hai Baraka resident Paul Ladu describing "the chief, brokers, and lawyers" as "the ones who are spoiling our land in Juba," while local chief Angelo Lobojo Waran warned that "if the issue of brokers is not addressed, the land issue will not stop." A member of Parliament's Land Committee, Uria Guya Emmanuel, attributed the scheme's persistence to weak enforcement of South Sudan's existing land laws rather than any gap in the legislation itself, leaving victims with little practical recourse once a fraudulent sale has gone through. Anyone purchasing land in Juba should independently verify ownership and demarcation status with the county land authority before paying any broker, chief, or self-described agent, and should treat a seller who cannot produce a verifiable, government-issued title as a strong warning sign.`,
+  categorySlug: 'rental-housing',
+  alertLevel: 'high',
+  sources: ['Radio Tamazuj'],
+  sourceUrl: 'https://www.radiotamazuj.org/en/news/article/residents-blame-brokers-chiefs-for-growing-land-grabbing-in-juba',
+  country: 'SS',
+});
+
+International.push({
+  name: 'Fake Bank of South Sudan "Rewards Center" Prize Scam',
+  slug: 'south-sudan-fake-bank-of-south-sudan-prize-scam',
+  description: `An imposter website using the Bank of South Sudan's real name, logo, and branding told visitors they had won prizes — including a Samsung Galaxy A8 phone and a check worth $300,000 — through a fabricated "rewards center," on a domain, altajari-prizes.xyz, that fact-checking outlet 211Check found had been registered only 16 days earlier. The Bank of South Sudan issued a public statement rejecting the claims outright: "This scam uses Bank of South Sudan's brand names and logo in order to make the prize look legitimate... This is not true, the BoSS does not offer prizes, awards, or funds." 211Check's investigation, conducted with SafetyComm South Sudan, cross-checked the site's brand-new domain registration and unverified trust score against the Bank's official statement to confirm the fraud. No legitimate South Sudanese bank notifies the public of a cash or device prize through an unsolicited website or social media link, and any offer claiming to come from the Bank of South Sudan should be verified only through its official channels at boss.gov.ss before any personal information is submitted.`,
+  categorySlug: 'lottery-sweepstakes-scams',
+  alertLevel: 'medium',
+  sources: ['211Check', 'Bank of South Sudan (BoSS)'],
+  sourceUrl: 'https://www.211check.org/post/fact-check-is-the-bank-of-south-sudan-offering-rewards-to-its-website-visitors',
+  country: 'SS',
+});
