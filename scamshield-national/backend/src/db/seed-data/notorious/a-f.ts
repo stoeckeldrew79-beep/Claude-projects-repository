@@ -8414,16 +8414,19 @@ A FOREX trading claim is, for most investors, close to unverifiable — currency
   },
 );
 
-// No rights-cleared photo of Burns has surfaced (he has been a fugitive
-// since 2020; the FBI's own wanted-poster image is not on Wikimedia
-// Commons) — sourceUrl below serves as the "read the full story" link
-// instead of a generic photo.
+// No rights-cleared portrait of Burns has surfaced (he has been a
+// fugitive since 2020; the FBI's own wanted-poster image is not on
+// Wikimedia Commons) — using a geographically-connected photo instead.
 NotoriousAF.push(
   {
     title: 'Christopher W. Burns: The Georgia Financial Adviser Who Vanished the Day Before Handing Documents to the SEC',
     slug: 'christopher-w-burns-dynamic-money-fugitive-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Downtown_Atlanta_skyline,_Georgia_Tech.jpg?width=1200',
+    coverImageCredit: 'Photo: JJonahJackalope, CC BY-SA 4.0, via Wikimedia Commons — Atlanta, where Burns ran his firm before vanishing',
+    coverImagePosition: 50,
     body: `Christopher W. Burns built a public profile in the Atlanta area as a financial adviser and radio personality, running Investus Advisers LLC under the name Dynamic Money and hosting a self-titled radio show that doubled as marketing for his firm. Starting around early 2017, prosecutors say, Burns began steering clients and radio listeners into promissory notes issued by two other companies he controlled, Investus Financial LLC and Peer Connect LLC, pitched as a "peer-to-peer" lending program that funneled investor money to small businesses in need of capital. Burns told investors the notes were backed by collateral, personally guaranteed them against loss, and described the investment as carrying little to no risk.
 
 According to the Securities and Exchange Commission, none of that was true. The collateral and brokerage accounts Burns pointed to as backing the notes either didn't exist or were worth far less than he claimed, and the "peer-to-peer" lending program itself was largely a fiction. By the time the scheme unwound, Burns had sold more than $10 million in promissory notes to roughly 90 investors across Georgia, North Carolina, and Florida. Rather than funding small-business loans, prosecutors say the money paid off earlier investors Ponzi-style and covered Burns's own expenses, including a lake house, vehicles, and the radio airtime that kept bringing in new investors.
@@ -8437,15 +8440,19 @@ Burns's pitch worked because it borrowed the trust-building tools of legitimate 
   },
 );
 
-// No rights-cleared photo of Cohen has surfaced — he is a private individual
-// with no Wikimedia Commons portrait or public-domain mugshot located, so
-// sourceUrl serves as the "read the full story" link instead of a photo.
+// No rights-cleared portrait of Cohen has surfaced — he is a private
+// individual with no Wikimedia Commons portrait or public-domain mugshot
+// located — using a thematically-connected photo instead.
 NotoriousAF.push(
   {
     title: 'Darryl Cohen and the $5 Million Life-Insurance Markup Scheme That Targeted His Own NBA Clients',
     slug: 'darryl-cohen-nba-players-life-settlement-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/New_York_Stock_Exchange_June_2024.jpg?width=1200',
+    coverImageCredit: 'Photo: Kidfly182, CC BY 4.0, via Wikimedia Commons — the NYSE, near Cohen\'s Morgan Stanley office and the SDNY court that charged him',
+    coverImagePosition: 50,
     body: `Darryl Matthew Cohen spent years building the kind of resume that makes a financial adviser easy to trust: twelve years at Wells Fargo, a stint at Merrill Lynch, and from June 2015 to April 2021, a position as a broker and investment adviser at Morgan Stanley. Through that role he built a client roster that included professional athletes, and between October 2017 and April 2020, prosecutors say, he used the fiduciary trust three NBA players — Jrue Holiday, Chandler Parsons, and Courtney Lee — placed in him to steer them into one of the more obscure corners of the insurance market: viatical life settlements, in which investors buy an existing life insurance policy from someone else, typically at a discount, and collect the death benefit when the original policyholder dies.
 
 According to the Securities and Exchange Commission and federal prosecutors in the Southern District of New York, there was nothing discounted about what Cohen's clients received. He steered the three players into settlement purchases marked up 222 percent, 310 percent, and 244 percent above what the policies had actually cost, without disclosing that the transactions were controlled by Brian Gilder, an independent financial planner and accountant Cohen had personally encouraged his clients to use for tax preparation. A law firm connected to the deals took in roughly $4.5 million from the markups; Gilder was separately charged and pleaded guilty to wire fraud conspiracy for his role. All told, the inflated policies cost the three athletes more than $5 million above what the underlying settlements were worth.
