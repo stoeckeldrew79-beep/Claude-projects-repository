@@ -4383,3 +4383,15 @@ UsTZ.push({
     country: 'US',
     state: 'MS',
 });
+
+UsTZ.push({
+    name: 'West Virginia State Seal QR-Code Traffic Fine Text Scam',
+    slug: 'west-virginia-state-seal-qr-code-traffic-fine-scam',
+    description: `West Virginia Secretary of State Kris Warner's office issued a warning notice on April 25, 2026 about text messages falsely claiming the recipient owes an unpaid parking or traffic fine, illegally reproducing the West Virginia State Seal on an image styled to look like official state letterhead so the demand appears legitimate. The texts instruct the recipient to either scan an embedded QR code to pay the alleged fine immediately or appear in municipal court the following Monday, pressuring a fast decision before the recipient can look closely at the message. Warner's office said the unauthorized use of the State Seal is itself illegal under West Virginia Code 5-2-1 and can expose the sender to fraud or forgery charges, on top of whatever the underlying payment demand is trying to extract. Recipients are advised not to scan the QR code, click any link, or open any attachment in the message, since a real parking or traffic citation is never resolved by text message with a QR-code payment option. Anyone who receives a text like this can report it by emailing a screenshot to Investigations@wvsos.gov, and should independently verify any real citation directly with the relevant municipal court rather than through anything in the text itself.`,
+    categorySlug: 'qr-code-scams',
+    alertLevel: 'medium',
+    sources: ["West Virginia Secretary of State's Office"],
+    sourceUrl: 'https://sos.wv.gov/article/secretary-state-issues-warning-notice-general-public-text-scam-using-wv-state-seal',
+    country: 'US',
+    state: 'WV',
+});
