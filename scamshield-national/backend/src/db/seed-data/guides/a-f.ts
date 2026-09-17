@@ -8825,6 +8825,10 @@ GuidesAF.push({
   slug: 'farm-equipment-impersonation-scam-guide',
   author: 'ScamShield Editorial',
   tags: ['guide', 'farm-equipment-scam', 'advance-fee-scam'],
+  coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/A_tractor_ploughing_a_farm_site.jpg?width=1200',
+  coverImageCredit: 'Photo: Bidemi Bernice, CC0, via Wikimedia Commons',
+  coverImagePosition: 50,
+  // representative photo — replace with an exact match if found
   sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2026/09/scammers-are-impersonating-farm-equipment-businesses',
   body: `A tractor listing turns up at a good price, maybe in a social media ad, maybe near the top of a search result, and it looks like it's coming from a real, established dealer, sometimes even one the buyer has purchased from before. Reaching out gets a fast, professional-seeming response: a formal purchase agreement, an invoice, and a request to wire thousands of dollars as a deposit or the full purchase price to hold the equipment and schedule delivery. The delivery date comes and goes. The tractor never arrives, and the "dealer" was never a real business at all.
 
