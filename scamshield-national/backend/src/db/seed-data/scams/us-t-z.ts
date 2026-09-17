@@ -4332,6 +4332,9 @@ UsTZ.push({
     sources: ["FBI Internet Crime Complaint Center (IC3) Public Service Announcement: Unsolicited Packages Containing QR Codes Used to Initiate Fraud Schemes (PSA250731)","FTC Consumer Advice: Scam alert: QR code on an unexpected package","FTC Consumer Advice: That unexpected package you got could be a brushing scam"],
     sourceUrl: "https://www.ic3.gov/PSA/2025/PSA250731",
     country: "US",
+});
+
+UsTZ.push({
     name: 'Wisconsin Fake Utility Provider "Overdue Bill" Imposter Scam',
     slug: 'wisconsin-fake-utility-provider-overdue-bill-scam',
     description: `The Wisconsin Department of Agriculture, Trade and Consumer Protection (DATCP) issued a consumer alert on April 22, 2026 describing a surge of calls from scammers impersonating Wisconsin electric, gas, and water utilities. Callers, who can spoof caller ID to display the real utility's name and number, falsely claim a customer's account is overdue and threaten immediate service disconnection unless payment is made right away. Victims are pressured to pay through hard-to-reverse and hard-to-trace methods: cryptocurrency, gift cards, banking or peer-to-peer apps, or wire transfer. In one case cited in the alert, a business owner was sent a barcode and told to take it to a specific retail store to pay several hundred dollars toward a fabricated overdue balance. DATCP notes that real utilities send multiple written notices before any disconnection threat and never demand instant payment by gift card or cryptocurrency, and advises anyone contacted this way to hang up and call the utility back using the number on a past bill or the company's official website, never a number given by the caller.`,
