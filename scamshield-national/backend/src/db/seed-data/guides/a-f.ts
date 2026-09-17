@@ -2277,23 +2277,6 @@ The tell is almost always in the URL and the design: a sponsored or "Ad"-labeled
 The FTC's fix is simple: skip the sponsored results entirely when searching for a bill-pay page, and instead type the biller's website address directly into the browser, or use the exact payment link printed on a paper bill or provided through the biller's official app. If a payment site ever asks for an unfamiliar "service fee" before processing a bill, stop and verify the site's name against the actual company before entering any card or bank information. Report suspected bill-pay impersonation to the FTC at ReportFraud.ftc.gov and to the biller directly so it can flag the imposter site.`,
   },
 {
-    title: 'Fake FBI and IC3 Recovery Scams: When an AI Deepfake "Federal Agent" Calls About Your Case',
-    slug: 'fake-ic3-fbi-deepfake-recovery-scam-guide',
-    author: 'ScamShield Editorial',
-    tags: ['guide', 'ic3-fbi-impersonation-scam'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Seal_of_the_FBI_Internet_Crime_Complaint_Center.png?width=1200',
-    coverImageCredit: 'FBI Internet Crime Complaint Center (public domain)',
-    coverImagePosition: 50,
-    sourceUrl: 'https://www.ic3.gov/PSA/2026/PSA260720',
-    body: `Someone who already reported a fraud loss to the FBI's Internet Crime Complaint Center — or simply searched online for help after being scammed — gets contacted again, this time by someone claiming to be a federal agent working their case. The follow-up contact might come as a message on Facebook or Telegram, an email, or a link to a website that looks exactly like IC3.gov. Sometimes it goes further: a video call where a "senior FBI official" appears on screen, addressing the victim by name and describing details of their original complaint.
-
-The FBI issued a public service announcement in July 2026 warning that criminals are impersonating IC3 and FBI personnel specifically to re-victimize people who already lost money to a scam, a pattern sometimes called "double-dipping." The bureau's own description is direct: scammers "rely on fear, urgency, and high-tech tricks like AI-generated video and caller ID spoofing to appear legitimate." The fake video calls use AI-generated deepfakes of real, named senior FBI officials, built to lend instant authority to a pitch that would otherwise sound implausible — a federal agent personally calling to help recover a specific victim's stolen money. Tells in the fabricated video can include distorted hands, unnatural facial movement, and a voice that doesn't quite match natural speech rhythm, though the technology has gotten convincing enough that appearance alone can no longer be trusted.
-
-The endpoint of the scheme is a cloned website built to look like the real IC3.gov, asking only for a name, phone number, email, and the dollar amount of a prior loss — a request that looks harmless precisely because it's so much less invasive than banking details, which makes people less suspicious even as it hands scammers exactly the information needed to build a convincing follow-up pitch or resell the victim as a proven target to another criminal. Older adults, and people who have already filed a real IC3 complaint or lost money to any prior scam, are described as facing particular risk, since a first loss already establishes both a paper trail scammers can reference and a psychological vulnerability the second scam is built to exploit.
-
-The FBI's own IC3 will never directly reach out over the phone, by email, through social media, or in a public forum to offer fund recovery, and it never charges a fee to accept or process a complaint. The only reliable way to reach the real site is to type www.ic3.gov directly into a browser rather than clicking a link or a sponsored search result, and to confirm any government site actually ends in ".gov" before entering any information. Anyone contacted by someone claiming to be an FBI agent or IC3 representative about a prior loss should hang up or close the message, independently verify through ic3.gov, and report the impersonation attempt at the real site or to the Department of Justice's Elder Justice Hotline at 1-833-FRAUD-11 (1-833-372-8311).`,
-  },
-{
     title: 'Consent Phishing: How Clicking "Allow" Can Hand Over Your Account Without Ever Giving Up Your Password',
     slug: 'consent-phishing-oauth-permission-scam-guide',
     author: 'ScamShield Editorial',
