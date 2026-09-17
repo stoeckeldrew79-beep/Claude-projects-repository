@@ -4533,6 +4533,42 @@ UsNS.push({
 });
 
 UsNS.push({
+    name: "South Carolina's 1993 Omnibus Adult Protection Act and the Origin of 'Vulnerable Adult' Exploitation Law",
+    slug: 'south-carolina-1993-omnibus-adult-protection-act-origin',
+    description: `In 1993, the South Carolina General Assembly passed the Omnibus Adult Protection Act, now codified at S.C. Code Title 43, Chapter 35, to build a statewide system for protecting adults who cannot adequately care for or protect themselves. The law did something South Carolina had never done before: it created a single, uniform legal definition of "abuse, neglect, and exploitation" that applied to every vulnerable adult in the state regardless of setting, clarified which agencies were responsible for investigating a report, set up reporting procedures and emergency protective custody, and — critically for financial exploitation specifically — established civil and criminal penalties for anyone who abuses that trust. Before 1993, the state had no single, coherent legal framework for what counts as exploiting a vulnerable adult or who is responsible for stopping it; the Act has been amended repeatedly since, including in 2004, 2010, 2014, and as recently as 2025, but its core 1993 framework is still the law that gives modern investigators their charge.
+
+That charge is the exact one prosecutors use today. The South Carolina Attorney General's Vulnerable Adults and Medicaid Provider Fraud unit, which investigated Delores Ann Edge, charged her under the "exploitation of a vulnerable adult" offense the 1993 Act created after Edge used her court-appointed power of attorney over a nursing home resident to spend roughly $34,000 of his money on herself, documented in this database's Latta Power-of-Attorney Nursing Home Exploitation entry. The same statutory framework covers the newer pattern seen in this database's Conway Caregiver Deed Theft entry, where a hired in-home caregiver was made power of attorney within weeks of being hired and used it to transfer her client's home into her own name for a nominal $5 before he died — a caregiver relationship, not a stranger's phone call, being the vector for the loss.
+
+The throughline matters because both modern cases share the same underlying vulnerability the 1993 law was written to close: someone with lawful, trusted access to a vulnerable adult's finances — a conservator, an agent under power of attorney, a caregiver — has far more opportunity to do damage than any outside scammer, and far less oversight by default. Families with an aging or incapacitated relative are advised to request regular, independent accountings from any conservator or agent under power of attorney, to verify directly with the county register of deeds that no property transfer has occurred, and to report a fiduciary who resists sharing account statements to the Attorney General's Vulnerable Adults and Medicaid Provider Fraud unit — the same unit whose authority traces back to the law South Carolina passed in 1993.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'medium',
+    sources: ['South Carolina Legislature (South Carolina Code of Laws)'],
+    sourceUrl: 'https://www.scstatehouse.gov/code/t43c035.php',
+    country: 'US',
+    state: 'SC',
+    isHistorical: true,
+    firstRecorded: '1993-06-11',
+});
+
+UsNS.push({
+    name: "South Carolina's 1978 Vacation Time Sharing Plans Act and the Grand Strand's Timeshare Fraud History",
+    slug: 'south-carolina-1978-timeshare-act-origin',
+    description: `South Carolina's Grand Strand and Hilton Head grew into one of the largest timeshare markets in the country decades ago — by 2015 the industry accounted for an estimated $2.4 billion in statewide spending and more than 19,000 jobs — and the state legislature moved early to put guardrails on it. In 1978, South Carolina passed the Vacation Time Sharing Plans Act, now codified at S.C. Code Title 27, Chapter 32, making it one of the first states in the country with a dedicated timeshare regulatory statute, years before Florida's better-known 1981 Timeshare Act addressed the same problem in a bigger market. The law required registration and disclosure from developers and sellers, gave buyers a legal right to cancel within a set window, and made it illegal for a seller to use fraud, misrepresentation, or material omissions to induce a purchase — protections aimed squarely at the high-pressure sales tactics that had already become associated with the industry by the late 1970s.
+
+Half a century later, South Carolina's timeshare owners are still a target, just from a different direction: rather than a pushy in-person sales pitch, the South Carolina Department of Consumer Affairs warns that today's version arrives as an unsolicited call from a "buyer" who claims to already have a purchaser lined up, so long as the owner pays an upfront fee first — and that victims of that first call are frequently targeted a second time, called "Round Two," by someone offering, for another fee, to recover the money already lost. That exact pattern is documented in this database's South Carolina Timeshare Resale "Round Two" Scam entry. The mechanism has moved from the closing table to the phone line, but the underlying vulnerability the 1978 Act was written to address, a timeshare owner facing pressure to pay or sign before verifying who they're actually dealing with, is unchanged.
+
+Owners contacted about reselling a timeshare should treat any unsolicited call from someone who already claims to have a buyer as a red flag on its own, verify any resale company's complaint history with SCDCA before paying anything, and remember that a legitimate recovery effort for money already lost would never need to charge another fee upfront or ask why the caller already knows a victim lost money in the first place.`,
+    categorySlug: 'timeshare-scams',
+    alertLevel: 'medium',
+    sources: ['South Carolina Legislature (South Carolina Code of Laws)', 'Ernst & Young South Carolina timeshare industry study'],
+    sourceUrl: 'https://www.scstatehouse.gov/code/t27c032.php',
+    country: 'US',
+    state: 'SC',
+    isHistorical: true,
+    firstRecorded: '1978-01-01',
+});
+
+UsNS.push({
     name: `Wake County "Bait House" Staged-Damage Roofing Insurance Fraud`,
     slug: 'north-carolina-wake-county-bentley-roofing-insurance-fraud',
     description: `Brett William Bentley, 28, and Robert Allen Bentley, 36, both of Charlotte and working for A&M Premier Roofing & Construction, intentionally damaged homeowners' roofs so they could generate repair work and support fraudulent insurance claims for the damage they themselves had caused. The North Carolina Department of Insurance's Criminal Investigations Division caught the pair using a "bait house" sting — a property set up and monitored specifically to catch contractors in the act of causing damage — which captured evidence used to bring charges. Both brothers pleaded guilty in Wake County District Court in August 2026: Brett Bentley to misdemeanor injury to real property, and Robert Bentley to felony injury to real property and attempting to obtain property by false pretense, receiving 24 months of supervised probation, 50 hours of community service, and a bar from working in the roofing industry during his probation; Robert was also ordered to pay $27,678.50 in restitution to N.C. Farm Bureau Insurance. "This conviction demonstrates that insurance fraud has real consequences," North Carolina Insurance Commissioner Mike Causey said. Homeowners are advised to be wary of any roofer who shows up unsolicited after a storm offering a "free inspection," to get a second, independent opinion before signing anything if a contractor claims to have found damage requiring an insurance claim, and to report suspected staged-damage schemes to the Department of Insurance's Criminal Investigations Division at 919-807-6840 or 888-680-7684.`,
