@@ -4320,3 +4320,15 @@ UsTZ.push({
     firstRecorded: '2026-04-30',
     state: 'WI',
 });
+
+UsTZ.push({
+    name: 'West Monroe "Bluewater Healthcare" Medicare DME Fraud Scheme (Michael Riggins)',
+    slug: 'louisiana-west-monroe-bluewater-healthcare-dme-fraud-riggins',
+    description: `Michael L. Riggins, 62, of West Monroe, Louisiana, owned Bluewater Healthcare, a durable medical equipment (DME) supply company. From 2018 to 2023, Riggins paid for doctors' orders for medically unnecessary DME and tricked physicians into signing DME orders and certificates of medical necessity so he could bill Medicare for equipment patients did not need — continuing the scheme even after receiving hundreds of complaints about the fraudulent orders. He submitted more than $3.8 million in fraudulent claims to Medicare and was reimbursed over $1.8 million. Riggins pleaded guilty to one count of conspiracy to commit health care fraud, with sentencing scheduled for October 2, 2025 and a maximum exposure of 10 years in federal prison. The case illustrates how DME fraud drives up Medicare costs for everyone and can put patients' names on equipment orders they never requested or needed; Medicare beneficiaries who receive equipment, bills, or Medicare Summary Notices for DME they never ordered should report it to the HHS Office of Inspector General or the Medicare fraud hotline.`,
+    categorySlug: 'healthcare-fraud',
+    alertLevel: 'medium',
+    sources: ['U.S. Department of Justice'],
+    sourceUrl: 'https://www.justice.gov/opa/pr/louisiana-man-pleads-guilty-38-million-durable-medical-equipment-fraud-scheme',
+    country: 'US',
+    state: 'LA',
+});
