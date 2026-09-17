@@ -493,23 +493,6 @@ If a call, text, or email like this arrives, don't act on it directly — contac
     coverImagePosition: 50,
   },
 {
-    title: 'Check-Washing: How a Stolen Check From Your Mailbox Gets Rewritten and Cashed',
-    slug: 'check-washing-mail-theft-guide',
-    author: 'ScamShield Editorial',
-    tags: ['guide', 'check-washing'],
-    sourceUrl: 'https://www.uspis.gov/news/scam-article/check-washing',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Blue_USPS_Mailbox.jpg?width=1200',
-    coverImageCredit: 'Elliott R. Plack, CC0, via Wikimedia Commons',
-    coverImagePosition: 50,
-    body: `A check dropped in a home mailbox or a blue USPS collection box for outgoing mail seems like an ordinary, safe way to pay a bill. Thieves who steal outgoing mail — sometimes targeting a specific collection box repeatedly, sometimes working an entire neighborhood's mailboxes overnight — are counting on exactly that assumption. Once a check is in hand, a solvent like acetone can lift the original ink for the payee name and dollar amount off the paper while leaving the account holder's signature untouched, since most check ink isn't designed to resist chemical removal the way a signature's ballpoint pressure marks are.
-
-With the payee and amount erased, the thief rewrites the check — often naming themselves or an associate as payee and inflating the amount well beyond what was originally written — then deposits or cashes it. Because the signature is genuine, the check can clear before the original sender or recipient ever notices anything wrong, and the fraud often isn't caught until a bank statement shows a payment that was never made, or a legitimate payee calls asking why their bill was never actually paid.
-
-The U.S. Postal Inspection Service says postal inspectors recover more than $1 billion in counterfeit checks and money orders every year, an indication of just how much check-washing and related mail theft is happening at any given time. The mechanism relies entirely on physical access to a check while it's in transit, which means the strongest defense has nothing to do with the check itself and everything to do with how and where it's mailed.
-
-The USPIS recommends depositing outgoing checks directly at a post office or in a blue collection box right before the last scheduled pickup, rather than leaving them in a home mailbox for a carrier to collect later in the day. Incoming mail should be retrieved promptly rather than left sitting overnight, and anyone traveling should arrange a mail hold through USPS rather than let mail accumulate in an unattended box. Paying electronically — through a bank's bill-pay service, a peer-to-peer app, or a credit card — sidesteps the risk entirely for bills that don't strictly require a physical check. Suspected mail theft should be reported to USPIS at uspis.gov or 1-877-876-2455, along with local police and the bank the check was drawn on.`,
-  },
-{
     title: 'Buy Now, Pay Later Fraud: How Scammers Exploit Afterpay, Klarna, and Affirm',
     slug: 'buy-now-pay-later-fraud',
     author: 'ScamShield Editorial',
@@ -1231,26 +1214,6 @@ The confusion is genuine, not just carelessness: legitimate third-party services
 The reliable tell is the domain itself: authentic U.S. federal government websites end in .gov, full stop — never .com, .org, .net, or any variation with "official," "gov-support," or an agency's initials worked into a longer domain name. Other red flags include a payment request before any explanation of what the fee actually covers, a "convenience fee" substantially above the government's own published cost, a deliverable that turns out to be a PDF form rather than a completed filing, and a site whose "customer service" can't answer basic questions about the underlying government process.
 
 Go directly to the source: irs.gov for an EIN (free, done in one sitting), travel.state.gov for a passport, your state DMV's own .gov domain for a Real ID or license renewal, and uscis.gov for immigration forms — bookmark these rather than searching each time. If you've already paid one of these sites, dispute the charge with your card issuer, since you paid for a service that misrepresented what it was, and report the site to the FTC at ReportFraud.ftc.gov; violations of the FTC's rule against impersonating a government agency can carry civil penalties of tens of thousands of dollars per violation, which is part of why the agency has begun sending warning letters directly to operators of these sites.`,
-  },
-{
-    title: "Change-of-Address Fraud: How a Forged Form Redirects Your Mail Before You Ever Notice",
-    slug: 'change-of-address-mail-fraud-guide',
-    author: 'ScamShield Editorial',
-    tags: ['guide', 'change-of-address-scam'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/New_Rochelle_Post_Office;_Main_Lobby_Interior.jpg?width=1200',
-    coverImageCredit: 'Photo: DanTD (CC BY-SA 4.0)',
-    coverImagePosition: 50,
-    // representative photo — replace with an exact match if found
-    sourceUrl: 'https://www.uspis.gov/news/scam-article/change-of-address-scams',
-    body: `Bills stop arriving. Then a bank statement doesn't show up when it should. It can take weeks before anyone realizes the mail hasn't gotten lost — it's been redirected, because someone filed a change-of-address request with the person's name and old address, listing a new address the real resident has never seen. All it takes to file one is a name, an address, and a signature, which the U.S. Postal Inspection Service does not verify against the real resident's actual signature before processing it.
-
-USPS does build in a check: after a change-of-address request is submitted, whether online or on the paper PS Form 3575 available at any post office, the Postal Service mails a move-validation letter to both the old and new addresses so the real occupant can catch and cancel a request they never made. The problem is timing — that letter takes days to arrive by mail, and a fraudster who has also placed a mail hold on the victim's old address, or who is monitoring the address through a fraudulent USPS Informed Delivery sign-up, can intercept the validation letter itself before the real resident ever sees it. A related, lower-stakes version of the same confusion involves third-party websites that charge up to $40 to "process" a change of address that USPS itself handles for free at usps.com — and some of those paid sites simply never file the change at all.
-
-Once mail is actually being redirected, the damage compounds quickly, because mail is still how so many sensitive documents arrive: new credit and debit cards, account statements, tax documents, government benefit checks, and the notices a real identity thief needs to open new accounts or take over existing ones without the victim seeing a single warning. A USPS Office of Inspector General report released in 2026 found the Postal Inspection Service fielded more than 800,000 mail theft complaints between fiscal years 2023 and 2025, and change-of-address fraud is one of the more durable techniques behind that volume, since a single successful redirect can keep paying off for weeks before anyone notices.
-
-The clearest warning sign is mail that simply stops — no bills, no bank mail, no familiar catalogs or statements for several days running when there's no reason to expect a gap. A second warning sign is receiving USPS's own move-validation letter for a change you never requested; that letter is the system working as intended, and canceling the request the moment it arrives is exactly what stops the fraud before it goes further.
-
-Periodically confirm nothing is on file that you didn't request through USPS's own moversguide.usps.com, and treat any unexpected move-validation letter as urgent, not junk mail. If you find a fraudulent forwarding request, contact the U.S. Postal Inspection Service immediately at uspis.gov or 1-877-876-2455 to have it removed, and file a report at IdentityTheft.gov, since redirected mail is frequently the opening move in a larger identity-theft scheme rather than the whole scam by itself. Only ever submit a real change of address directly at usps.com — never through a third-party site that charges a fee for a free service.`,
   },
 {
     title: 'Directory Listing Scams: The "Verify Your Listing" Call That Becomes a Bogus Invoice',
@@ -8855,4 +8818,19 @@ This isn't an isolated pattern: city and state officials in New York, Boston, Sa
 The clearest red flag is the channel itself: no city parking authority or state DMV sends a legally binding notice of an unpaid fine by unsolicited text message with a payment link attached — real ticket notices come by mail, and a real government agency will never threaten to suspend a license or revoke a registration through a text demanding immediate card payment. A mismatched or unofficial-looking web address in the link, a request for payment by gift card or wire transfer, and a "fee" structure (a percentage-based penalty, a daily compounding late charge) that doesn't match how the actual local agency bills fines are all signs of the same fake-portal pattern.
 
 Anyone who receives one of these texts should not click the link or reply to it — engaging at all signals to the scammer that the number is active and worth targeting again. Instead, look up the actual parking authority or DMV's contact information independently (never a number or link from the text itself) and ask directly whether anything is owed. Most phones let you report the message as junk, or it can be forwarded to 7726 (SPAM) before being deleted. Anyone who has already clicked the link or entered payment information should contact their card issuer immediately to dispute the charge and watch for follow-on fraud, and file a report at ReportFraud.ftc.gov so the pattern stays visible to regulators tracking it.`,
+});
+
+GuidesAF.push({
+  title: 'Farm Equipment Scams: How a Fake Tractor Dealer Empties a Deposit and Disappears',
+  slug: 'farm-equipment-impersonation-scam-guide',
+  author: 'ScamShield Editorial',
+  tags: ['guide', 'farm-equipment-scam', 'advance-fee-scam'],
+  sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2026/09/scammers-are-impersonating-farm-equipment-businesses',
+  body: `A tractor listing turns up at a good price, maybe in a social media ad, maybe near the top of a search result, and it looks like it's coming from a real, established dealer, sometimes even one the buyer has purchased from before. Reaching out gets a fast, professional-seeming response: a formal purchase agreement, an invoice, and a request to wire thousands of dollars as a deposit or the full purchase price to hold the equipment and schedule delivery. The delivery date comes and goes. The tractor never arrives, and the "dealer" was never a real business at all.
+
+The Federal Trade Commission flagged this pattern directly in a September 2026 consumer alert, warning that scammers are impersonating farm equipment businesses to sell machinery that doesn't exist. It works on farmers for the same reason advance-fee scams work on anyone buying expensive equipment sight unseen: a paid social media ad or a sponsored search result can look identical to an organic listing from a legitimate dealer, and a professional-looking invoice and purchase agreement provide exactly the paperwork a cautious buyer would expect to see before wiring a large deposit, right up until the money is gone and the "business" stops responding.
+
+The FTC's clearest red flag is the payment method itself: a legitimate equipment dealer accepts traceable payment, a credit card, a financed purchase through a bank, or an in-person transaction, while a scammer pushes hard for a wire transfer, gift cards, cryptocurrency, or a payment app, precisely because those are difficult or impossible to reverse once sent. A seller who can't be found through anything other than the ad itself, who has no verifiable business address or dealer license, or who suddenly goes quiet or starts inventing delivery excuses right after payment clears are all signs the "purchase agreement" was never going to be honored.
+
+Before wiring any deposit, search the business's name together with the word "scam" or "complaint," and separately check whether the listing is an actual, unpaid search result or a legitimate dealer's own page rather than a paid ad from an unfamiliar seller, since the FTC specifically warns that scammers buy ad placement to appear alongside or above real dealers. Call the dealership directly using a phone number found independently, not one provided in the ad or invoice, and confirm the specific piece of equipment and salesperson before sending anything. Anyone who has already wired money to a farm equipment seller that never delivered can report it to the FTC at ReportFraud.ftc.gov, and should contact their bank immediately, since a wire recall is only possible in the narrow window before the funds are fully transferred out.`,
 });
