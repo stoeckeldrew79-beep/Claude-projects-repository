@@ -32,6 +32,11 @@ import { PHOTO_PLAN, PhotoPlanEntry } from './coverPhotoPlan';
 const SEED_DIR = path.join(__dirname, '..', 'db', 'seed-data');
 const SHARD_DIRS = ['notorious', 'guides'];
 
+// The three quote styles the shards use for slugs, in order of how common
+// they are. A slug written with backticks is still a plain string here: an
+// interpolated one would not be a stable identity.
+const QUOTES = ["'", '"', '`'] as const;
+
 const DRY_RUN = process.argv.includes('--dry');
 const REPORT_ONLY = process.argv.includes('--report');
 
@@ -55,7 +60,7 @@ function shardFor(slug: string): string | null {
       if (!file.endsWith('.ts') || file === 'index.ts') continue;
       const p = path.join(full, file);
       const text = fs.readFileSync(p, 'utf8');
-      if (text.includes(`slug: '${slug}',`) || text.includes(`slug: "${slug}",`)) return p;
+      if (QUOTES.some((q) => text.includes(`slug: ${q}${slug}${q},`))) return p;
     }
   }
   return null;
@@ -70,20 +75,24 @@ function insertCoverFields(file: string, slug: string, photo: CommonsPhoto, posi
   const lines = fs.readFileSync(file, 'utf8').split('\n');
 
   // Shards were written by more than one authoring pass, and they don't agree
-  // on quoting: most entries use 'single', a later batch uses "double". The
-  // first version of this matched single quotes only, so it silently found
-  // nothing for six double-quoted entries. It failed safely - it refused to
-  // write rather than writing to the wrong place - but it still skipped them.
-  // Match either, and write back in whichever style the entry already uses so
-  // the file stays internally consistent.
-  const single = `slug: '${slug}',`;
-  const double = `slug: "${slug}",`;
-  const slugIdx = lines.findIndex((l) => {
-    const t = l.trim();
-    return t === single || t === double;
-  });
+  // on quoting: most entries use 'single', a later batch uses "double", and
+  // the newest guides use `backtick`. The first version of this matched single
+  // quotes only, so it silently found nothing for six double-quoted entries.
+  // It failed safely - it refused to write rather than writing to the wrong
+  // place - but it still skipped them. Match any of the three, and write back
+  // in whichever style the entry already uses so the file stays internally
+  // consistent.
+  let slugIdx = -1;
+  let q = "'";
+  for (const quote of QUOTES) {
+    const want = `slug: ${quote}${slug}${quote},`;
+    slugIdx = lines.findIndex((l) => l.trim() === want);
+    if (slugIdx !== -1) {
+      q = quote;
+      break;
+    }
+  }
   if (slugIdx === -1) return false;
-  const q = lines[slugIdx].trim() === double ? '"' : "'";
 
   // Never double-write: if a later run re-reads a slug that already has a
   // photo, leave the existing (possibly hand-picked) one alone.
@@ -100,12 +109,17 @@ function insertCoverFields(file: string, slug: string, photo: CommonsPhoto, posi
   const esc = (v: string) =>
     v.replace(/\\/g, '\\\\').replace(new RegExp(q, 'g'), `\\${q}`);
 
+  // Entries in the array literal indent their properties by four spaces;
+  // entries appended with Xxx.push({ ... }) use two. Take the indentation
+  // from the entry's own slug line rather than assuming either.
+  const indent = lines[slugIdx].match(/^\s*/)![0];
+
   lines.splice(
     bodyIdx,
     0,
-    `    coverImage: ${q}${esc(photo.url)}${q},`,
-    `    coverImageCredit: ${q}${esc(photo.credit)}${q},`,
-    `    coverImagePosition: ${position},`
+    `${indent}coverImage: ${q}${esc(photo.url)}${q},`,
+    `${indent}coverImageCredit: ${q}${esc(photo.credit)}${q},`,
+    `${indent}coverImagePosition: ${position},`
   );
   fs.writeFileSync(file, lines.join('\n'));
   return true;

@@ -217,7 +217,10 @@ export const PHOTO_PLAN: PhotoPlanEntry[] = [
   { slug: 'obituary-bereavement-scam-guide', query: 'newspaper obituary page print', caption: 'A published death notice hands a stranger the names, dates and relationships needed to sound like family', position: 50 },
   { slug: 'siddharth-jawahar-swiftarc-capital-ponzi-scheme', query: 'Manhattan office towers Midtown', caption: 'New York, where Swiftarc raised money for a fund that was paying earlier investors', position: 45 },
   { slug: 'martin-schlaepfer-malom-group-fugitive-fraud', query: 'Zurich Switzerland city', caption: 'Switzerland, where the Malom Group fronted its advance-fee scheme from', position: 45 },
-  { slug: 'online-auction-fraud-shill-bidding-guide', query: 'auction gavel bidding', caption: 'Shill bids come from accounts the seller controls \u2014 they push the price up and never win', position: 50 },
+  // A search for 'auction gavel bidding' returned a portrait painting by
+  // Hobbe Smith, which shows nothing to do with an auction. Pinned to the
+  // file instead: an auction hammer, which is what the guide is about.
+  { slug: 'online-auction-fraud-shill-bidding-guide', file: 'Bid hammer.jpg', caption: 'An auction hammer \u2014 the bids driving the price up came from accounts the seller controlled', position: 50 },
   { slug: 'neil-bush-silverado-savings-loan-collapse', query: 'Denver Colorado downtown skyline', caption: 'Denver, where Silverado lent to the developers sitting on its own board', position: 45 },
   { slug: 'farm-equipment-impersonation-scam-guide', query: 'tractor farm equipment dealership', caption: 'A fake dealer listing undercuts the market, takes a wire deposit, and the tractor never ships', position: 50 },
 ];

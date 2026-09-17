@@ -4706,7 +4706,7 @@ GuidesNS.push({
   author: "ScamShield Editorial",
   tags: ["guide", "preneed-funeral-fraud", "elder-financial-exploitation"],
   coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Janisse_Funeral_Home,_Windsor,_Ontario,_2025-07-01.jpg?width=1200",
-    coverImageCredit: "A funeral home. Money paid years in advance must sit in a trust — ask for written proof that it does. Photo: Chris Woodrich (CC BY-SA 4.0)",
+  coverImageCredit: "A funeral home. Money paid years in advance must sit in a trust — ask for written proof that it does. Photo: Chris Woodrich (CC BY-SA 4.0)",
   coverImagePosition: 50,
   // representative photo — replace with an exact match if found
   sourceUrl: "https://connectingdirectors.com/42973-national-prearranged-services-crooks-finally-get-prison-sentence",
@@ -4725,7 +4725,7 @@ GuidesNS.push({
   author: "ScamShield Editorial",
   tags: ["guide", "deed-solicitation-scam", "homeowner-mail-scam"],
   coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Old_County_Hall_Buffalo_NY.jpg?width=1200",
-    coverImageCredit: "A county government building. Your county recorder sells the same deed copy for a few dollars. Photo: dIPENdAVE (CC BY-SA 3.0)",
+  coverImageCredit: "A county government building. Your county recorder sells the same deed copy for a few dollars. Photo: dIPENdAVE (CC BY-SA 3.0)",
   coverImagePosition: 50,
   // representative photo — replace with an exact match if found
   sourceUrl: "https://www.ag.state.mn.us/consumer/Publications/RealEstateDeedSolicitation.asp",
@@ -4743,9 +4743,9 @@ GuidesNS.push({
   slug: "social-media-profile-cloning-scam-guide",
   author: "ScamShield Editorial",
   tags: ["guide", "profile-cloning-scam", "social-media-impersonation"],
-    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Social_Media_App_Icons_On_The_Screen_of_A_Smartphone.jpg?width=1200",
-    coverImageCredit: "A cloned profile copies your public photos and name — your real account is untouched, which is why no breach warning ever arrives. Photo: Mike MacKenzie (CC BY 2.0)",
-    coverImagePosition: 50,
+  coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Social_Media_App_Icons_On_The_Screen_of_A_Smartphone.jpg?width=1200",
+  coverImageCredit: "A cloned profile copies your public photos and name — your real account is untouched, which is why no breach warning ever arrives. Photo: Mike MacKenzie (CC BY 2.0)",
+  coverImagePosition: 50,
   sourceUrl: "https://consumer.ftc.gov/consumer-alerts/2023/10/friend-request-could-be-scammer",
   body: `A friend gets a new friend request from someone they're already connected to on Facebook or Instagram, so they accept it without thinking twice — after all, they already know this person. What they don't realize is that their actual friend's account was never touched. A scammer simply copied their friend's profile photo, name, and whatever public details they could find, built a near-identical fake account from scratch, and sent friend requests to that real person's entire visible friends list. The FTC makes the distinction explicit: a friend request that appears to come from someone you know does not mean that person's account was hacked — it may be a brand-new, unrelated account wearing their identity.
 
@@ -4763,9 +4763,9 @@ GuidesNS.push({
   slug: "north-korean-remote-it-worker-fraud-guide",
   author: "ScamShield Editorial",
   tags: ["guide", "employment-scam", "north-korea-it-worker-fraud", "business-fraud"],
-    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Pyongyang,_North_Korea_01.jpg?width=1200",
-    coverImageCredit: "Pyongyang. The applicants are real IT contractors working under false identities, with their wages routed back to the state. Photo: Joseph Ferris III (CC BY 2.0)",
-    coverImagePosition: 50,
+  coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Pyongyang,_North_Korea_01.jpg?width=1200",
+  coverImageCredit: "Pyongyang. The applicants are real IT contractors working under false identities, with their wages routed back to the state. Photo: Joseph Ferris III (CC BY 2.0)",
+  coverImagePosition: 50,
   sourceUrl: "https://www.ic3.gov/PSA/2025/PSA250723-4",
   body: `Thousands of North Korean IT workers have been dispatched by the regime to apply for legitimate remote technology jobs at U.S. and other Western companies, using stolen or fabricated American identities to get hired as ordinary contractors or employees. Once hired, they perform the actual work, often competently, while secretly routing their salary back to fund North Korea's weapons programs in direct violation of U.S. and UN sanctions. The United Nations estimates this scheme generates between $250 million and $600 million a year for the regime, making it less a consumer scam than a sanctions-evasion operation that happens to run through ordinary corporate hiring pipelines.
 
@@ -4782,9 +4782,9 @@ GuidesNS.push({
   author: "ScamShield Editorial",
   tags: ["guide", "obituary-scam", "identity-theft", "elder-financial-abuse"],
   sourceUrl: "https://www.aarp.org/money/scams-fraud/obituary/",
-    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Obituary_of_Szczepan_Maj_(1892).jpg?width=1200",
-    coverImageCredit: "A published death notice hands a stranger the names, dates and relationships needed to sound like family. Photo: Wikimedia Commons (CC BY-SA 4.0)",
-    coverImagePosition: 50,
+  coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Obituary_of_Szczepan_Maj_(1892).jpg?width=1200",
+  coverImageCredit: "A published death notice hands a stranger the names, dates and relationships needed to sound like family. Photo: Wikimedia Commons (CC BY-SA 4.0)",
+  coverImagePosition: 50,
   body: `A published obituary is meant to honor someone's life, but to a scammer it reads as a research document: a free, public profile listing exactly the details identity thieves need to impersonate the deceased or manipulate the grieving family left behind. Criminals routinely scan newspaper death notices and online obituary pages for a full name, date and place of birth, hometown, employer, and a list of surviving relatives — then combine that with data purchased on the dark web, like a Social Security number, to open credit accounts, take out loans, file fraudulent tax returns, or apply for benefits in the dead person's name, a pattern investigators call "ghosting." It works because the victim can never notice the fraud or report it themselves, and grieving family members often aren't yet monitoring the deceased's accounts closely enough to catch it quickly.
 
 A second version of the scam targets the living family directly rather than the deceased's identity. Someone calls or shows up claiming to be from the funeral home, a collections agency, or an insurance company, asserting that the funeral bill is unpaid, a credit card on file was declined, or an unexpected fee must be paid immediately to avoid a delay or complication — pressure aimed squarely at people who are emotionally exhausted and disinclined to scrutinize a bill during an already difficult week. Other variations use the obituary's information to stage a fake inheritance or "long-lost relative" approach, or to send a bogus donation request mimicking a charity the family never actually named, all built on the same foundation: real names and real relationships lifted straight from a public notice.
@@ -4802,9 +4802,9 @@ GuidesNS.push({
   author: "ScamShield Editorial",
   tags: ["guide", "online-auction-fraud", "shill-bidding", "online-shopping-scams"],
   sourceUrl: "https://consumer.ftc.gov/articles/0523-online-auctions-sellers",
-    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Hobbe_Smith_portret.jpg?width=1200",
-    coverImageCredit: "Shill bids come from accounts the seller controls — they push the price up and never win. Photo: Hobbe Smith (public domain)",
-    coverImagePosition: 50,
+  coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Bid_hammer.jpg?width=1200",
+  coverImageCredit: "An auction hammer — the bids driving the price up came from accounts the seller controlled. Photo: 1bigisland (CC BY-SA 4.0)",
+  coverImagePosition: 50,
   body: `An online auction feels like a fair fight: a listing goes up, real bidders compete against each other, and the highest genuine offer wins. But two well-documented tactics let a seller — or someone working with them — quietly rig that fight from the inside. In "shill bidding," the seller creates a second account, or recruits a friend, to place bids on their own item purely to drive the price up, forcing legitimate bidders to pay more than they otherwise would have without ever knowing a real buyer wasn't actually behind the competing bid. In "bid shielding," a similar fake account places an extremely high bid early on specifically to scare off genuine bidders, then retracts that bid moments before the auction closes, letting a second, much lower "real" bid win the item at an artificially suppressed price — a version of the same manipulation aimed at cheating the seller rather than the buyer.
 
 Beyond bid manipulation itself, auction and online-marketplace listings carry the same non-delivery risk as any other online purchase: a seller takes payment for an item — sometimes at a price that looks too good to pass up — and the item never arrives, or arrives as something far different from what was pictured. The FBI's Internet Crime Complaint Center tracks this broadly as "non-payment/non-delivery" fraud, and it was the fourth most-reported crime category IC3 received in 2024, with nearly 50,000 complaints and more than $785 million in reported losses — a reminder that a transaction feeling routine because it happens on a well-known platform doesn't mean the specific seller behind any one listing is legitimate.
