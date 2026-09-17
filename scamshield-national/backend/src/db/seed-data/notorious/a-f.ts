@@ -8949,6 +8949,10 @@ NotoriousAF.push(
     coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/King_Edward_Buildings%2C_London_03.jpg?width=1200',
     coverImageCredit: 'London, where Beaufort Securities was authorised and based. Photo: Paul the Archivist (CC BY-SA 4.0)',
     coverImagePosition: 45,
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/St_Paul's_and_the_City_-_geograph.org.uk_-_3747123.jpg?width=1200",
+    coverImageCredit: 'Photo: Anthony O\'Neil, CC BY-SA 2.0, via Wikimedia Commons — the City of London, where FCA-authorised Beaufort Securities was based',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Beaufort Securities Ltd was a London-based, FCA-authorised stockbroking and wealth-management firm serving retail and institutional clients, with a clearing arm called Beaufort Asset Clearing Services Limited (BACSL) that settled trades on the group's behalf. What ended the firm wasn't a client complaint or a routine audit — it was an undercover FBI agent who approached Beaufort's Cyprus-born investment manager, Panayiotis "Peter" Kyriacou, describing himself as someone who ran pump-and-dump schemes in U.S. microcap stocks and needed a broker willing to help.
 
 According to an indictment later unsealed in Brooklyn federal court, Kyriacou and Beaufort obliged. Between March 2014 and February 2018, Beaufort facilitated at least ten pump-and-dump schemes involving thinly traded U.S. penny stocks — including HD View 360 Inc. and West Coast Ventures Group Corp. — generating more than $50 million in proceeds. Kyriacou and his associates opened brokerage accounts in the names of nominees to conceal the undercover agent's identity, then executed matched trades and coordinated buying designed to manufacture the appearance of real trading volume and drive up a stock's price before the shares were dumped on the public. When the scheme's participants needed to move the resulting cash, prosecutors say they turned to the art world: between October 2017 and February 2018, Beaufort's team agreed to help launder roughly £6.7 million in proceeds, including a proposal that the undercover agent purchase a Picasso painting as a vehicle for moving the money.
@@ -8991,6 +8995,10 @@ NotoriousAF.push(
     coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Sydney_Harbour_Bridge_night.jpg?width=1200',
     coverImageCredit: 'Sydney, where Forum Finance was based. Photo: Diliff (CC BY-SA 3.0)',
     coverImagePosition: 45,
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Sydney_Harbour_Bridge_and_Sydney_Opera_House_panorama.jpg?width=1200',
+    coverImageCredit: 'Photo: Kgbo, CC BY-SA 4.0, via Wikimedia Commons — Sydney, where Papas ran Forum Finance',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Bill Papas ran Forum Finance and Forum Group Financial Services, Sydney-based equipment-finance businesses that, on paper, connected banks looking to lend against real assets with small and medium-sized businesses that needed to finance equipment like printers, photocopiers, and industrial waste digesters. Banks including Westpac in Australia and New Zealand, Sumitomo Mitsui Banking Corporation (SMBC), and Societe Generale would fund the purchase of the equipment and collect the ongoing lease payments Forum arranged and served — a straightforward, well-established form of asset finance that had operated in various forms for decades.
 
 The equipment did not exist. According to findings later made by Australia's Federal Court, Papas and Forum Finance fabricated invoices, lease agreements, and supporting paperwork for equipment purchases that were never real, then used a stream of Forum's own money — dressed up as lease repayments — to keep the arrangements looking legitimate to the banks funding them. The scheme ran from around August 2018 until June 2021, when the fraud finally came to light after a customer inquiry about loan headroom prompted a closer look at Westpac's own records, and the con unraveled. Between them, Westpac Australia (roughly $341 million), Westpac New Zealand (NZ$58 million), SMBC ($113 million), and Societe Generale ($9 million) had funded close to $500 million in financing against equipment that had never left the invoice it was printed on.
@@ -9011,6 +9019,10 @@ NotoriousAF.push(
     coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Melbourne_Skyline_from_Rialto_Crop_-_Nov_2008.jpg?width=1200',
     coverImageCredit: 'Melbourne, where many of the advisers involved were based. Photo: Diliff (CC BY-SA 3.0)',
     coverImagePosition: 45,
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Melbourne_skyline_from_West_Gate_Bridge.jpg?width=1200',
+    coverImageCredit: 'Photo: Vincent (vincentq), CC BY-SA 2.0, via Wikimedia Commons — Melbourne, where Ferras Merhi\'s advisory network was based',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Between 2020 and 2024, financial advisers across Australia — most prominently Melbourne-based adviser Ferras Merhi and the advisers working under him — recommended that clients roll money out of ordinary superannuation funds and into two comparatively obscure managed investment schemes: the First Guardian Master Fund and the Shield Master Fund. Merhi's clients alone put roughly $296 million into First Guardian and $230 million into Shield, part of a combined $1.1 billion that ultimately flowed into the two funds from nearly 12,000 Australians, many of whom had directed their entire compulsory retirement savings into funds they had never heard of before their adviser recommended them.
 
 First Guardian was operated by Falcon Capital Limited, whose director David Anderson had run the fund since 2012. Australia's corporate regulator, ASIC, later alleged that First Guardian's own accounts claimed roughly $274 million of the fund's value sat in cash receivables that were, in fact, mostly overdue and never collected, that more than $23 million had gone out in questionable marketing payments, and that First Guardian had invested in entities in which Anderson personally held a financial interest — undisclosed conflicts that Falcon, as the fund's own responsible entity, was supposed to be managing rather than creating.
