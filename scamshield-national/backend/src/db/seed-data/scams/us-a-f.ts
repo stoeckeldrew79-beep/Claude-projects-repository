@@ -8151,6 +8151,54 @@ UsAF.push({
 });
 
 UsAF.push({
+    name: "Florida's 1981 Timeshare Act: The Law Written to Stop the Industry's Own Fraud Epidemic",
+    slug: 'florida-1981-timeshare-act-fraud-origin',
+    description: `Florida's timeshare industry took off in Orlando and along the coasts through the 1970s, and its growth quickly ran into a problem of its own making: "well publicized examples of fraud and marketing abuse" — high-pressure sales presentations, developers who vanished after collecting deposits, and vague promises of pools, clubhouses, and other amenities that were never actually financed or built — were suppressing consumer trust badly enough that the industry's own trade association began lobbying the legislature for regulation. Florida's first response, in 1976, banned twelve specific deceptive developer practices outright, including selling a timeshare on "investment" promises and marketing amenities "to be provided in the future" without any real financial assurance they would exist, and required a mandatory 15-day rescission period plus strict escrow protection for buyer deposits until the unit was actually deeded. In 1981, the legislature built on that foundation with the Florida Real Estate Time-Sharing Act, one of the first comprehensive timeshare regulatory statutes in the nation, establishing the licensing and disclosure framework — now Chapter 721 of Florida law — that the rest of the country's timeshare regulation largely followed.
+
+More than four decades later, Florida still holds one of the largest concentrations of timeshare resorts and owners in the country, and the exact pressure tactics the 1981 Act was written to stop haven't disappeared — they've moved downstream, into the resale and exit market the original law never had to anticipate. The "Orlando Guaranteed Buyer" timeshare resale scam already documented in this database runs on the same basic exploit as the 1970s presentations the law targeted: a high-pressure pitch, an unrealistic promise (in this case a guaranteed buyer for a unit the owner is desperate to unload), and money collected up front for something that never materializes. The mandatory rescission period Florida pioneered in 1976 remains the single most reliable protection a timeshare buyer has today — anyone who signs a Florida timeshare purchase contract has an absolute right to cancel in writing within 10 calendar days (later shortened from the original 15) for a full refund, no reason required, and should treat any pressure to waive or rush past that window as a red flag on its own.`,
+    categorySlug: 'timeshare-scams',
+    alertLevel: 'medium',
+    sources: ['American Resort Development Association', 'Florida Legislature'],
+    sourceUrl: 'https://www.mondaq.com/unitedstates/landlord-tenant-leases/14570/trends-in-florida-timeshare-regulation',
+    country: 'US',
+    state: 'FL',
+    isHistorical: true,
+    firstRecorded: '1976-01-01',
+});
+
+UsAF.push({
+    name: "Miami's Medicare Fraud Epidemic Created the Nation's First Medicare Fraud Strike Force",
+    slug: 'florida-miami-medicare-fraud-strike-force-origin',
+    description: `By the mid-2000s, federal regulators noticed something statistically impossible in Miami-Dade County's Medicare billing data: the volume of claims for durable medical equipment (DME) like wheelchairs and infusion-therapy drugs coming out of South Florida vastly exceeded what the area's actual patient population could plausibly need. Acting CMS Administrator Leslie Norwalk put it bluntly in 2007: "The landscape for fraud in south Florida has changed dramatically." Storefront DME companies with no real patients and rented "doctors' orders" had turned Medicare billing into a criminal cottage industry, and one operator, Eduardo Moreno, became an early emblem of the scale of it — his DME companies billed Medicare more than $1.9 million for medically unnecessary services, and when federal agents moved in, they seized a Rolls-Royce Phantom purchased with the proceeds.
+
+In March 2007, the Department of Justice and Department of Health and Human Services launched something that had never existed before: a dedicated, standing Medicare Fraud Strike Force, deployed to South Florida specifically because the fraud there had outgrown what routine audits and case-by-case prosecutions could handle. The Strike Force paired federal prosecutors and FBI and HHS-OIG agents with real-time analysis of Medicare's own billing data to spot fraud patterns as they happened rather than years later, and its first phase alone indicted 38 defendants for over $142 million in fraudulent billing. The model worked well enough that it stopped being a Miami-only experiment: Strike Force operations expanded to nine cities nationwide, including Tampa and Orlando within Florida itself, and have collectively charged more than 2,300 defendants for over $7 billion in false Medicare billing since. Every Medicare and DME fraud case in this database tied to Florida today — including cases billing for orthotic braces, genetic testing, and other equipment beneficiaries never asked for — sits downstream of the exact pattern Miami's DME operators originated and the Strike Force was built specifically to fight. Medicare beneficiaries remain the frontline defense against it: reviewing the Medicare Summary Notice after any claim for equipment or services not personally requested from a treating physician is often the only way this kind of fraud gets caught before it scales.`,
+    categorySlug: 'medicare-health-plans',
+    alertLevel: 'medium',
+    sources: ['U.S. Department of Justice', 'Centers for Medicare & Medicaid Services'],
+    sourceUrl: 'https://www.phillipsandcohen.com/strike-force-arrests-38-in-south-florida-for-medicare-fraud-schemes/',
+    country: 'US',
+    state: 'FL',
+    isHistorical: true,
+    firstRecorded: '2007-03-01',
+});
+
+UsAF.push({
+    name: "Hurricane Andrew's Fraud Legacy: How 1992's Building-Code Failures Still Shape Florida's Storm-Chaser Scams",
+    slug: 'florida-hurricane-andrew-1992-building-code-fraud-legacy',
+    description: `When Hurricane Andrew tore through South Florida in August 1992, it destroyed more than 63,000 homes and damaged another 124,000, causing over $26 billion in losses — but the damage pattern itself told a second story. Newer homes, built under codes that were supposed to be Florida's strongest, failed at rates that made no sense for a properly enforced building code, and disaster researcher Richard Olson of Florida International University later summed up what investigators found: Andrew "proved enforcement to be inadequate, incompetent, or avoidant." South Florida at the time was governed by more than 400 separate, inconsistent local building codes, and inspectors were, as later reviews found, "often overworked or untrained, leading to widespread violations" that went undetected until a Category 5 hurricane found every one of them at once. The Miami Herald's investigation into the failure, "What Went Wrong," documented substandard materials and inadequate roof fasteners across developments that had passed local inspection, and won the Pulitzer Prize for Public Service in 1993 for exposing it.
+
+The fallout forced exactly the kind of reform that only follows a catastrophe: Florida replaced its patchwork of local codes with a single statewide standard, culminating in the unified Florida Building Code adopted in 2002, which mandated hurricane straps and clips at roof-to-wall connections and impact-resistant windows, doors, and roofing in the state's highest-risk wind zones. But the underlying vulnerability Andrew exposed — a homeowner suddenly needing urgent repairs after a disaster, with little practical ability to vet who's actually qualified to do the work before winter, mold, or a second storm makes the damage worse — never went away, because a hurricane can force better construction standards but can't force a panicked homeowner to slow down and check a license. Every storm-chasing roofing scheme this database has documented since, including the current "Florida Roof Specialists" insurance-deductible-only scheme, runs on that same post-disaster urgency Andrew first exposed at scale. Homeowners facing storm damage should verify any contractor's license directly through the Florida Department of Business and Professional Regulation before signing anything, and should treat a contractor who showed up uninvited within days of a storm as a reason for more scrutiny, not less.`,
+    categorySlug: 'home-improvement-solar',
+    alertLevel: 'medium',
+    sources: ['Miami Herald', 'Florida International University'],
+    sourceUrl: 'https://southstarroofing.com/hurricane-andrew-30-years-of-stronger-building-codes/',
+    country: 'US',
+    state: 'FL',
+    isHistorical: true,
+    firstRecorded: '1992-08-24',
+});
+
+UsAF.push({
     name: 'Aspiration Partners $248 Million Investor and Lender Fraud (Joseph Sanberg)',
     slug: 'california-sanberg-aspiration-partners-investor-lender-fraud',
     description: `Joseph Sanberg, an Orange County, California investor and co-founder of the Los Angeles-based "green banking" fintech Aspiration, ran a five-year scheme beginning in 2020 to defraud lenders and investors of more than $248 million. In 2020 and 2021, Sanberg and fellow Aspiration board member Ibrahim AlHusseini fraudulently obtained $145 million in loans from two lenders by pledging Sanberg's Aspiration stock as collateral, after falsifying AlHusseini's bank and brokerage statements to inflate his assets by tens of millions of dollars. Beginning in 2021, Sanberg also concealed from investors that he personally was the source of millions of dollars in supposed "revenue" that Aspiration reported from sham customers, and circulated a fabricated letter purporting to be from Aspiration's audit committee claiming the company held $250 million in cash and equivalents when it actually had less than $1 million on hand. Aspiration eventually defaulted on its loans twice while Sanberg continued soliciting new investors through 2025. He was arrested in March 2025 and pleaded guilty in October 2025 to two counts of wire fraud; on June 1, 2026, U.S. District Judge Stephen V. Wilson of the Central District of California sentenced him to 14 years in federal prison, with a restitution hearing set for July 2026. The case shows why an investor evaluating a fast-growing startup's finances should ask for audited statements delivered directly from the audit firm — not a letter or document the company's own founder hands over — since a fabricated cash balance is often the easiest place for a fraud like this to hide.`,
