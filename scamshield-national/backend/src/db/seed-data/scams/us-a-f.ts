@@ -4555,6 +4555,19 @@ export const UsAF: SeedScam[] = [
     sourceUrl: 'https://portal.ct.gov/dob/bulletin/2026/bulletin-3230-january-16-2026',
   },
 {
+    name: "Connecticut's Early Adoption of the Uniform Securities Act and Today's Investment-Adviser Registration Checks",
+    slug: 'connecticut-uniform-securities-act-1956-origin',
+    description: `When the Conference of Commissioners on Uniform State Laws approved the model Uniform Securities Act in August 1956, drafted specifically to give states a standardized way to register and police securities dealers, agents, and investment advisers, Connecticut was one of only ten states in the entire country to have adopted it, in whole or in part, in the years immediately following — a contemporary Boston College law review survey of state adoptions lists Connecticut first among that original group, ahead of far larger commercial states that took decades longer to act. The Act's second and third parts specifically created the registration framework for investment advisers and their representatives, the same category of regulation Connecticut now administers through its Department of Banking's Securities and Business Investments Division. That is the exact office, and the exact registration requirement, that ultimately caught John Davenport of J. Davenport Advisors in Norwalk, whose case is already in this database: a 2023 examination by that Division uncovered inconsistent records that led regulators to discover he had concealed six attorney-license suspensions from his own investment-adviser registration paperwork, resulting in a 2026 consent order permanently barring him from the securities industry in Connecticut. Investors can use that same free registration lookup, the direct descendant of a framework Connecticut adopted nearly seventy years ago, to check any financial adviser's license and disciplinary history before signing an agreement or handing over account access.`,
+    categorySlug: 'investment-fraud',
+    country: 'US',
+    state: 'CT',
+    alertLevel: 'medium',
+    sources: ['Boston College Industrial and Commercial Law Review', 'Connecticut Department of Banking'],
+    sourceUrl: 'https://bclawreview.bc.edu/articles/2836/files/63ee22e3d5747.pdf',
+    isHistorical: true,
+    firstRecorded: '1956-08-01',
+  },
+{
     name: 'Colorado Virtual-Mailbox Fraudulent Business Registration Network',
     slug: 'colorado-virtual-mailbox-fraudulent-business-registration-network',
     description:
@@ -6001,6 +6014,20 @@ UsAF.push({
     sourceUrl: 'https://portal.ct.gov/dcj/press-releases/division-of-criminal-justice/05202026aprmsolutions',
     country: 'US',
     state: 'CT',
+});
+
+UsAF.push({
+    name: "Connecticut's 1865 Insurance Commissioner Origin and Why Hartford Became a Health-Insurance Fraud Target",
+    slug: 'connecticut-1865-insurance-commissioner-origin',
+    description: `Connecticut has regulated insurance since 1865, when the state created the Office of the Insurance Commissioner, a full four decades before most states had any dedicated insurance regulator at all; in 1871 the legislature expanded the office into a full Insurance Department with stronger powers to examine and oversee insurance companies operating in the state. That early regulatory infrastructure grew up alongside, and largely because of, Hartford's insurance industry itself: the Hartford Fire Insurance Company had been chartered in 1810 and Aetna in 1819, and by the mid-1800s the city had built one of the highest concentrations of insurers and actuaries in the country, giving Connecticut lawmakers both the industry base and the motivation to create dedicated oversight well ahead of the rest of the nation. That same concentration of insurance activity is the reason Connecticut still sees a steady stream of health-insurance billing fraud today: this database's existing APRM Solutions entry describes a Shelton clinic that submitted 4,009 fraudulent claims to Connecticut Medicaid using licensed providers' identification numbers without authorization, and defendants in that case were charged specifically under Connecticut's health insurance fraud statute, the direct modern descendant of the oversight framework the state built starting in 1865. Anyone receiving specialty medical treatment in Connecticut is advised to verify that the person actually administering care holds a real license, and to review Medicaid or insurance benefit statements for services or providers that don't match what was actually received.`,
+    categorySlug: 'healthcare-fraud',
+    country: 'US',
+    state: 'CT',
+    alertLevel: 'medium',
+    sources: ['Insurance Business magazine', 'Hartford History (Hartford Public Library)'],
+    sourceUrl: 'https://www.insurancebusinessmag.com/us/companies/connecticut-insurance-department/543645/',
+    isHistorical: true,
+    firstRecorded: '1865-01-01',
 });
 
 UsAF.push({
