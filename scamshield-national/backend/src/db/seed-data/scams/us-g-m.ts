@@ -7750,3 +7750,15 @@ UsGM.push({
     country: 'US',
     state: 'IN',
 });
+
+UsGM.push({
+    name: 'Glenpool Wolf Capital Crypto Trading Ponzi Scheme (Travis Ford)',
+    slug: 'oklahoma-glenpool-wolf-capital-crypto-trading-ponzi-scheme',
+    description: `Travis Ford, 36, of Glenpool, Oklahoma, was the CEO, co-founder, and head trader of Wolf Capital Crypto Trading LLC, which he marketed through the company's website and social media from January to August 2023. Ford told roughly 2,800 investors nationwide that his "sophisticated" trading strategy could reliably generate returns of 1 to 2 percent per day — an annualized rate of about 547 percent — and used those claims to raise approximately $9.4 million. In his guilty plea, Ford admitted he did not actually believe those returns were achievable and instead misappropriated and diverted investor funds for his own benefit and that of his co-conspirators, the classic pattern of a Ponzi-style crypto trading scheme rather than a genuine trading operation. He pleaded guilty in January 2025 to one count of conspiracy to commit wire fraud, and on November 14, 2025, was sentenced to 60 months in federal prison. He was also ordered to forfeit more than $1 million and pay over $170,000 in restitution to victims. The case was prosecuted by the Justice Department's Fraud Section and investigated by the U.S. Postal Inspection Service's Criminal Investigations Group. A guaranteed daily return that annualizes to several hundred percent is not a sign of a skilled trader — it is a mathematical impossibility no legitimate trading strategy can sustain, and it is exactly the kind of claim that should end due diligence rather than start a wire transfer.`,
+    categorySlug: 'cryptocurrency-scams',
+    alertLevel: 'high',
+    sources: ["U.S. Department of Justice", "U.S. Postal Inspection Service"],
+    sourceUrl: 'https://www.justice.gov/opa/pr/cryptocurrency-investment-firm-founder-sentenced-five-years-prison-defrauding-investors-94m',
+    country: 'US',
+    state: 'OK',
+});
