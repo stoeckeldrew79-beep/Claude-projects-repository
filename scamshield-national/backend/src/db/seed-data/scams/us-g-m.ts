@@ -7933,3 +7933,15 @@ UsGM.push({
     country: 'US',
     state: 'MS',
 });
+
+UsGM.push({
+    name: 'Montgomery County "Grandparent Scam with a Twist" In-Home Cash Collection Scheme',
+    slug: 'maryland-montgomery-county-grandparent-scam-in-home-cash-collection',
+    description: `Montgomery County police warned residents in November 2020 about a variation on the classic "grandparent scam" in which callers claiming to be a lawyer, bail bondsman, or police officer told elderly residents that a grandchild had been arrested or hurt in a car accident and needed cash immediately for bail or medical bills — but instead of directing the victim to wire money or buy gift cards, the caller asked for the victim's home address and sent a courier to collect the cash in person. Detectives tied at least three cases to the pattern within a single week: an 84-year-old victim in Silver Spring on November 16, a 77-year-old victim also in Silver Spring on November 19, and an 81-year-old victim in Ashton on November 20, with callers instructing victims not to discuss the call with anyone else so they couldn't check the story. Because the "courier" shows up at the door rather than asking for a wire transfer or gift cards, the scheme sidesteps many of the warnings people now associate with grandparent scams, and can feel more credible precisely because it looks less like typical remote fraud. Police urged residents to never give out their address or hand cash to anyone claiming to represent a relative's legal or medical emergency without first hanging up and calling that family member directly at a number they already have, and to call police immediately if approached this way.`,
+    categorySlug: 'grandparent-scams',
+    alertLevel: 'high',
+    sources: ['Montgomery County Police Department'],
+    sourceUrl: 'https://www.montgomerycountymd.gov/news/detectives-investigating-multiple-cases-grandparent-scam-twist-suspect-comes-victims-home-collect-money',
+    country: 'US',
+    state: 'MD',
+});
