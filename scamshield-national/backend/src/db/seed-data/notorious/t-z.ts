@@ -2860,6 +2860,10 @@ NotoriousTZ.push(
     slug: 'toby-whittaker-store-first-pension-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'international'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Self_storage_units.jpg?width=1200',
+    coverImageCredit: 'Photo: Hankwang, CC BY-SA 3.0, via Wikimedia Commons',
+    coverImagePosition: 50,
     body: `Note: this profile describes a pending UK criminal prosecution. Toby Whittaker and his co-defendants have been charged but not yet tried, and a charge is only an accusation, not evidence of guilt. All defendants are presumed innocent unless and until proven guilty at trial, and Whittaker's legal team has said he "vehemently denies any wrongdoing" and intends to contest the case in full.
 
 Toby Whittaker was the Lancashire-based owner of Store First, a company that sold self-storage units across sites in England and Scotland as an investment product rather than simply a place to store belongings. Between 2011 and 2014, Store First and firms working alongside it persuaded more than 1,900 people to transfer money out of their pensions into self-invested personal pensions (SIPPs) specifically so it could be used to buy storage units, on the promise that each unit would be leased back long-term and generate a steady rental income — pitched, in effect, as a pension-friendly alternative to a conventional annuity or fund.
@@ -3029,6 +3033,10 @@ NotoriousTZ.push({
     slug: 'yin-guangxia-china-accounting-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical', 'international'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Shenzhen_Stock_Exchange_2014.jpg?width=1200',
+    coverImageCredit: 'Photo: Jay Sterling Austin, CC BY 2.0, via Wikimedia Commons',
+    coverImagePosition: 50,
     body: `Yinguangxia, formally Guangxia (Yinchuan) Industry Co. Ltd, listed on the Shenzhen Stock Exchange, was by the year 2000 one of the hottest stocks in mainland China's young capital markets. Its business, run through a subsidiary called Tianjin Guangxia, centered on exporting botanical extracts made using supercritical CO2 extraction technology, sold primarily to a German trading partner, Fidelity Trading GmbH. The story investors were told was a rare one for a Chinese industrial company at the time: a genuinely high-margin, high-growth export business built on proprietary extraction technology. Yinguangxia's share price rose roughly 440 percent over the course of 2000 alone, making it briefly the second-largest company by market value on the Shenzhen exchange and a favorite of Chinese retail and institutional investors chasing the "new economy" growth story it appeared to represent.
 
 The growth was fabricated almost from top to bottom. On 2 August 2001, the financial magazine Caijing, whose reporters had grown suspicious of a company posting extraction-technology profit margins no legitimate chemical exporter could plausibly sustain, published a lengthy investigative exposé showing that Yinguangxia and Tianjin Guangxia had forged purchase and sales contracts, customs export declarations, and supporting bank documents to manufacture export revenue to Fidelity Trading that never actually occurred. The China Securities Regulatory Commission's subsequent investigation found that between 1998 and 2001 the company had overstated sales revenue by more than 1 billion yuan and inflated profits by roughly 745 million yuan, on the order of $85 million, essentially conjuring several years of a market-leading growth story out of paperwork rather than product.
@@ -3078,6 +3086,10 @@ NotoriousTZ.push({
     slug: 'neil-woodford-equity-income-fund-collapse',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'international'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Oxford_skyline.jpg?width=1200',
+    coverImageCredit: 'Photo: WFan (Ww9980), CC BY-SA 4.0, via Wikimedia Commons',
+    coverImagePosition: 50,
     body: `Neil Woodford spent more than two decades as one of Britain's most closely followed fund managers, building a reputation for steady, market-beating returns at Invesco Perpetual before striking out on his own in 2014 to launch Woodford Investment Management. His flagship fund, the Woodford Equity Income Fund, drew in ordinary retail investors and financial advisers alike on the strength of his track record, growing to more than £10 billion in assets at its peak — a scale that made Woodford one of the most powerful individual stock-pickers in the UK.
 
 The fund was built and marketed as an income vehicle holding liquid, publicly traded shares that investors could redeem within days, as is standard for a UK open-ended retail fund. But the UK's Financial Conduct Authority later found that between July 2018 and June 2019, Woodford and his firm made "unreasonable and inappropriate" investment decisions, steadily selling the fund's liquid, easily tradable holdings while increasing its exposure to small, unlisted, and hard-to-sell private companies — leaving only about 8% of the fund's holdings sellable within the seven-day window investors were relying on to get their money back on short notice. The FCA found Woodford held "a defective and unreasonably narrow understanding" of his own responsibility for managing that liquidity risk, and that even in regulatory interviews he did not accept he was responsible for overseeing it.
