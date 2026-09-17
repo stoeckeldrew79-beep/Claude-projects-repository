@@ -4472,6 +4472,20 @@ export const UsAF: SeedScam[] = [
     sourceUrl: 'https://pfd.alaska.gov/',
   },
 {
+    name: "Alaska's 1976 Permanent Fund and the 1982 Court Fight That Made Every Resident an Equal Target",
+    slug: 'alaska-1976-permanent-fund-1982-zobel-origin',
+    description:
+      'Alaska voters approved a constitutional amendment in 1976 creating the Permanent Fund, requiring at least 25 percent of the state\'s oil royalties and lease revenue to be saved rather than spent, a response to fears that the newly discovered wealth of Prudhoe Bay would otherwise be squandered the way earlier resource booms had been. In 1980 the legislature authorized the fund\'s first dividend, but built it on a residency-weighted formula that would have paid longtime Alaskans more than newcomers, $50 for every year of residency since statehood in 1959. A group of newer residents sued, and in Zobel v. Williams the U.S. Supreme Court ruled in 1982 that the formula was unconstitutional, discriminating against citizens who had recently exercised their right to travel and settle in Alaska. Rather than abandon the dividend, the legislature rewrote it as a flat, equal payment to every eligible resident regardless of how long they had lived in the state, and the first checks under that new formula, $1,000 each, went out on June 14, 1982. That 1982 redesign is the reason the PFD works the way it does today, and the reason it draws the fraud it draws: because every eligible Alaskan gets the identical payment through the identical process regardless of circumstance, a scammer who steals one resident\'s identifying information can run the same script on any other resident with no need to research an individual\'s specific benefit history first, which is exactly the uniform, predictable target this database\'s Alaska Permanent Fund Dividend Phishing Texts and Emails entry describes scammers exploiting every year around dividend season.',
+    categorySlug: 'public-benefits-fraud',
+    country: 'US',
+    state: 'AK',
+    alertLevel: 'medium',
+    sources: ['Alaska Department of Revenue — Permanent Fund Dividend Division', 'Alaska Permanent Fund Corporation'],
+    sourceUrl: 'https://pfd.alaska.gov/division-info/historical-timeline',
+    isHistorical: true,
+    firstRecorded: '1976-11-02',
+  },
+{
     name: '"$6,400 Health Subsidy" Fake Government Benefit Scam',
     slug: '6400-health-subsidy-scam',
     description:
