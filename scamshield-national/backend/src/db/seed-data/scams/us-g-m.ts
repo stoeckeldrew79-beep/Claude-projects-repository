@@ -7738,3 +7738,15 @@ UsGM.push({
     isHistorical: true,
     firstRecorded: "2009-03-01",
 });
+
+UsGM.push({
+    name: 'Indianapolis Nationwide "Grandparent Scam" Cash-Courier Ring (Jasaun Pope)',
+    slug: 'indianapolis-grandparent-scam-cash-courier-ring-jasaun-pope',
+    description: `An Indianapolis Metropolitan Police Department investigation, triggered in 2021 when Massachusetts police flagged an 81-year-old local scam victim, unraveled a nationwide "grandparent scam" ring that called elderly victims claiming a grandchild or relative was in urgent legal or medical trouble — a car crash, an arrest, a hospital bill — and needed cash immediately, often with a second caller posing as an attorney or police officer to lend the story false authority. Victims were directed to overnight cash, typically $5,000 to $15,000 at a time, to addresses tied to Jasaun Pope's network, which used vacant residences to collect the packages before victims or banks could catch on. Investigators identified 68 victims with more than $683,464 in documented losses, though only 36 could ultimately be reached. Five defendants were convicted and sentenced to federal prison in a case brought by the U.S. Attorney's Office for the Southern District of Indiana: Jasaun Pope (97 months), Darlens Renard (78 months), Princess Elizer (41 months), Kareem Brown (36 months), and Jennifer Glemeau (30 months). The FBI has separately reported more than 650 grandparent-scam reports nationally between January 2020 and June 2021 alone, causing $13 million in losses — a reminder of how widespread and organized these cash-courier operations are. Families are advised to agree on a verification question or code word in advance, and to always call the relative directly using a known number before sending any money in response to an urgent, tearful call claiming to be them.`,
+    categorySlug: 'grandparent-scams',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office for the Southern District of Indiana", 'Indianapolis Metropolitan Police Department'],
+    sourceUrl: 'https://www.justice.gov/usao-sdin/pr/five-face-federal-charges-alleged-nationwide-elder-fraud-scam',
+    country: 'US',
+    state: 'IN',
+});
