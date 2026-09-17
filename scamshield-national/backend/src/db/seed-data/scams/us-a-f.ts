@@ -8863,3 +8863,15 @@ UsAF.push({
     country: 'US',
     state: 'ME',
 });
+
+UsAF.push({
+    name: 'Delaware Medicare Advantage "Extra Social Security Income" Marketing Scam',
+    slug: 'delaware-medicare-advantage-extra-social-security-income-scam',
+    description: `Ahead of the 2025 Medicare Open Enrollment Period (October 15 - December 7), Delaware's Medicare Assistance Bureau warned that fall marketing and solicitation volume "rises dramatically," with bad actors placing cold calls and running unsolicited commercials that falsely promise enrollees additional Social Security income or misrepresent Medicare Advantage plan benefits in order to extract Medicare numbers and other personal information. Bureau Director Lakia Turner cautioned residents to "be wary of bad actors requesting your Medicare information," and the Delaware Department of Insurance noted the Bureau's free one-on-one counseling saved Delawareans $2.2 million in 2024 alone. Delaware residents can get free, unbiased plan counseling by phone (302-674-7364 or 1-800-336-9500) or in person at Wilmington, Dover, and Georgetown sites before ever responding to an unsolicited Medicare marketing call.`,
+    categorySlug: 'medicare-health-plans',
+    alertLevel: 'medium',
+    sources: ['Delaware Department of Insurance', 'Delaware Medicare Assistance Bureau'],
+    sourceUrl: 'https://news.delaware.gov/2025/10/14/medicare-assistance-bureau-important-reminders-ahead-of-open-enrollment-2/',
+    country: 'US',
+    state: 'DE',
+});
