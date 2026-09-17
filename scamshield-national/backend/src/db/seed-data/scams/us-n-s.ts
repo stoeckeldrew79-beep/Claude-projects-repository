@@ -7752,3 +7752,15 @@ UsNS.push({
     isHistorical: true,
     firstRecorded: '2014-01-01',
 });
+
+UsNS.push({
+    name: 'St. George Summit Foot and Ankle Medicare Skin-Substitute Billing Fraud (Ryan Ellsworth)',
+    slug: 'st-george-summit-foot-ankle-medicare-skin-substitute-fraud',
+    description: `A federal grand jury in the District of Utah indicted Ryan Scott Ellsworth, 47, of Highland — a podiatrist who owned and operated Summit Foot and Ankle clinics across Utah — along with two nurses who worked primarily out of the practice's St. George clinic, Emily Kelly, 45, of Washington, Utah, a licensed nurse practitioner, and Drake Dell Broadbent, 55, of Santa Clara, Utah, a licensed registered nurse, on charges of health care fraud and wire fraud announced May 12, 2026. Prosecutors allege that from July 2021 through December 2025 the three knew Medicare only covers "skin substitute" wound-care products when a wound is medically qualifying and standard wound care has already been tried for 30 days, but they submitted claims for skin substitutes applied to patients who did not have qualifying wounds and for continued treatment that was not medically necessary. The indictment alleges Medicare was billed a combined $61 million for these services, of which it actually paid out roughly $29 million; Ellsworth and Broadbent were also charged with making false statements relating to health care matters. The case remains a pending criminal prosecution — as of the indictment, no plea or conviction has been entered. Medicare beneficiaries who receive a skin-substitute wound treatment, or a bill or Medicare Summary Notice referencing one, are advised to ask their provider directly what specific product was used and why standard wound care wasn't tried first, and to report any billing for equipment or treatment they don't recall receiving to the HHS Office of Inspector General.`,
+    categorySlug: 'healthcare-fraud',
+    alertLevel: 'medium',
+    sources: ["U.S. Department of Justice", "HHS Office of Inspector General"],
+    sourceUrl: 'https://oig.hhs.gov/fraud/enforcement/utah-doctor-and-two-nurses-charged-with-health-care-fraud-after-submitting-false-claims-to-medicare-and-receiving-millions-in-payout/',
+    country: 'US',
+    state: 'UT',
+});
