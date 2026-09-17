@@ -19726,3 +19726,36 @@ International.push({
     sourceUrl: "https://mafs.gov.ss/%F0%9F%9A%A8-scam-alert-notice-%F0%9F%9A%A8/",
     country: "SS",
 });
+
+International.push({
+  name: 'NCB Customers Defrauded of Millions via Phishing, Smishing and Vishing Scheme',
+  slug: 'jamaica-ncb-phishing-smishing-bank-fraud',
+  description: `Between April 2022 and December 2023, a fraud ring targeted National Commercial Bank (NCB) customers using phishing emails, smishing (fraudulent SMS) texts, and vishing (fraudulent voice calls) designed to mimic legitimate bank communications and trick account holders into revealing online banking credentials and one-time passwords. Jamaica's Major Organised Crime and Anti-Corruption Agency (MOCA) opened an investigation that led to a series of arrests through 2024 and 2025: six people were arrested in a related NCB smishing case in December 2024, eight more were arrested in March 2025 and two further suspects in April 2025 in connection with a $47.5 million phishing scam that defrauded eight NCB account holders, with stolen funds routed through 23 beneficiary accounts. In December 2025, MOCA announced four additional arrests in a related cyber-theft investigation involving over $80 million stolen from NCB accounts using the same phishing, smishing, and vishing methods, with charges expected to follow. The case is one of the largest publicized domestic bank-fraud prosecutions in Jamaica and illustrates how scammers combine fake bank texts and calls with credential theft to drain accounts, distinct from the outbound advance-fee lottery fraud more commonly associated with Jamaica. NCB customers are urged to never provide a one-time password, PIN, or full card number in response to an unsolicited call, text, or email, and to report suspicious contact directly to the bank using a number found independently rather than one provided in the message itself.`,
+  categorySlug: 'phishing',
+  alertLevel: 'high',
+  sources: ['Jamaica Gleaner', 'Jamaica Observer', "Jamaica's Major Organised Crime and Anti-Corruption Agency (MOCA)"],
+  sourceUrl: 'https://jamaica-gleaner.com/article/news/20251210/80-million-cyber-theft-ncb-four-suspects-arrested-moca',
+  country: 'JM',
+});
+
+International.push({
+  name: 'AI Deepfake Video Impersonates Businessman to Promote Fake "Stewart Capital" Investment Fund',
+  slug: 'jamaica-ai-deepfake-stewart-capital-investment-scam',
+  description: `In July 2025, the Jamaica Constabulary Force (JCF) issued a public warning about an AI-generated deepfake video circulating on social media and messaging apps that falsely showed prominent Jamaican businessman Adam Stewart endorsing a nonexistent investment fund called "Stewart Capital." The video, created without Stewart's knowledge or consent, promised victims they could earn up to $1.3 million (JMD) per month from home with a minimum investment of just $42,000. The scam was paired with a fraudulent webpage designed to mimic BBC News, which harvested victims' email addresses and phone numbers under the guise of "registration." The JCF confirmed publicly that no such fund exists and that the endorsement was fabricated, warning the public not to interact with the video or submit personal information. This reflects an emerging pattern of AI-generated celebrity and executive impersonation being used to lend false credibility to investment fraud targeting Jamaicans domestically, distinct from traditional Ponzi or lottery schemes. Anyone who sees an investment video featuring a well-known businessperson should verify the claim directly through that person's or company's own official channels before providing any personal information or money, since a real endorsement of an investment product is not something a legitimate businessperson makes exclusively through an unsolicited social media video.`,
+  categorySlug: 'ai-deepfake-scams',
+  alertLevel: 'high',
+  sources: ['Jamaica Observer', 'Jamaica Constabulary Force (JCF)'],
+  sourceUrl: 'https://www.jamaicaobserver.com/2025/07/26/police-warn-interacting-ai-video-promoting-fake-investment-scheme/',
+  country: 'JM',
+});
+
+International.push({
+  name: 'Fake Online Rental and Property Listings Defraud Jamaican Renters and Homebuyers',
+  slug: 'jamaica-fake-rental-property-listing-scam',
+  description: `Real estate scams have been rising in Jamaica as fraudsters post fake rental and sale listings on platforms like Facebook Marketplace and Jamaica Classifieds, often using stolen photos of real properties, or no photos at all, and pricing units below market rate to attract house hunters under pressure to find something quickly. In one case reported by the Jamaica Observer, a two-bedroom home was advertised for $40,000 a month using photos actually taken in Port Morant rather than the stated Kingston location off Lilford Avenue, with the scammer requesting a $40,000 "refundable" deposit before any viewing. In another case, a fraudster falsely posing as a Jamaica Defence Force employee listed a property on Jamaica Classifieds and demanded a $45,000 "security fee," falsely claiming other interested parties were ready to pay to pressure a quick payment. Claudia Allen, Director of Real Estate Dealers and Developers at Jamaica's Real Estate Board, attributed the pattern to urgent house-hunters skipping due diligence, while JCF Senior Superintendent Stephanie Lindsay urged the public to verify identification before transacting. The Realtors Association of Jamaica (RAJ) announced a strategic plan in April 2025 to combat the rising volume of these scams, which also include stolen or altered "For Sale" signage placed on properties not actually for sale. Prospective renters and buyers are advised to always view a property in person before paying any deposit, to verify a listing agent's identity and licensing with the Real Estate Board, and to treat a below-market price paired with pressure to pay quickly as a warning sign rather than good luck.`,
+  categorySlug: 'rental-housing',
+  alertLevel: 'high',
+  sources: ['Jamaica Observer', "Jamaica's Real Estate Board", 'Realtors Association of Jamaica (RAJ)'],
+  sourceUrl: 'https://www.jamaicaobserver.com/2024/12/24/renters-homebuyers-jamaica-targeted-rising-real-estate-scams/',
+  country: 'JM',
+});
