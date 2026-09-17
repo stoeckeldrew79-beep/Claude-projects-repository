@@ -19749,4 +19749,214 @@ International.push({
     sources: ["CSSF (Commission de Surveillance du Secteur Financier), Luxembourg - 'Theft of CSSF's identity: increase in fraud attempts', July 2025","CSSF financial fraud guidance page"],
     sourceUrl: "https://www.cssf.lu/en/2025/07/theft-of-cssfs-identity-increase-in-fraud-attempts/",
     country: "LU",
+  name: 'NCB Customers Defrauded of Millions via Phishing, Smishing and Vishing Scheme',
+  slug: 'jamaica-ncb-phishing-smishing-bank-fraud',
+  description: `Between April 2022 and December 2023, a fraud ring targeted National Commercial Bank (NCB) customers using phishing emails, smishing (fraudulent SMS) texts, and vishing (fraudulent voice calls) designed to mimic legitimate bank communications and trick account holders into revealing online banking credentials and one-time passwords. Jamaica's Major Organised Crime and Anti-Corruption Agency (MOCA) opened an investigation that led to a series of arrests through 2024 and 2025: six people were arrested in a related NCB smishing case in December 2024, eight more were arrested in March 2025 and two further suspects in April 2025 in connection with a $47.5 million phishing scam that defrauded eight NCB account holders, with stolen funds routed through 23 beneficiary accounts. In December 2025, MOCA announced four additional arrests in a related cyber-theft investigation involving over $80 million stolen from NCB accounts using the same phishing, smishing, and vishing methods, with charges expected to follow. The case is one of the largest publicized domestic bank-fraud prosecutions in Jamaica and illustrates how scammers combine fake bank texts and calls with credential theft to drain accounts, distinct from the outbound advance-fee lottery fraud more commonly associated with Jamaica. NCB customers are urged to never provide a one-time password, PIN, or full card number in response to an unsolicited call, text, or email, and to report suspicious contact directly to the bank using a number found independently rather than one provided in the message itself.`,
+  categorySlug: 'phishing',
+  alertLevel: 'high',
+  sources: ['Jamaica Gleaner', 'Jamaica Observer', "Jamaica's Major Organised Crime and Anti-Corruption Agency (MOCA)"],
+  sourceUrl: 'https://jamaica-gleaner.com/article/news/20251210/80-million-cyber-theft-ncb-four-suspects-arrested-moca',
+  country: 'JM',
+});
+
+International.push({
+  name: 'AI Deepfake Video Impersonates Businessman to Promote Fake "Stewart Capital" Investment Fund',
+  slug: 'jamaica-ai-deepfake-stewart-capital-investment-scam',
+  description: `In July 2025, the Jamaica Constabulary Force (JCF) issued a public warning about an AI-generated deepfake video circulating on social media and messaging apps that falsely showed prominent Jamaican businessman Adam Stewart endorsing a nonexistent investment fund called "Stewart Capital." The video, created without Stewart's knowledge or consent, promised victims they could earn up to $1.3 million (JMD) per month from home with a minimum investment of just $42,000. The scam was paired with a fraudulent webpage designed to mimic BBC News, which harvested victims' email addresses and phone numbers under the guise of "registration." The JCF confirmed publicly that no such fund exists and that the endorsement was fabricated, warning the public not to interact with the video or submit personal information. This reflects an emerging pattern of AI-generated celebrity and executive impersonation being used to lend false credibility to investment fraud targeting Jamaicans domestically, distinct from traditional Ponzi or lottery schemes. Anyone who sees an investment video featuring a well-known businessperson should verify the claim directly through that person's or company's own official channels before providing any personal information or money, since a real endorsement of an investment product is not something a legitimate businessperson makes exclusively through an unsolicited social media video.`,
+  categorySlug: 'ai-deepfake-scams',
+  alertLevel: 'high',
+  sources: ['Jamaica Observer', 'Jamaica Constabulary Force (JCF)'],
+  sourceUrl: 'https://www.jamaicaobserver.com/2025/07/26/police-warn-interacting-ai-video-promoting-fake-investment-scheme/',
+  country: 'JM',
+});
+
+International.push({
+  name: 'Fake Online Rental and Property Listings Defraud Jamaican Renters and Homebuyers',
+  slug: 'jamaica-fake-rental-property-listing-scam',
+  description: `Real estate scams have been rising in Jamaica as fraudsters post fake rental and sale listings on platforms like Facebook Marketplace and Jamaica Classifieds, often using stolen photos of real properties, or no photos at all, and pricing units below market rate to attract house hunters under pressure to find something quickly. In one case reported by the Jamaica Observer, a two-bedroom home was advertised for $40,000 a month using photos actually taken in Port Morant rather than the stated Kingston location off Lilford Avenue, with the scammer requesting a $40,000 "refundable" deposit before any viewing. In another case, a fraudster falsely posing as a Jamaica Defence Force employee listed a property on Jamaica Classifieds and demanded a $45,000 "security fee," falsely claiming other interested parties were ready to pay to pressure a quick payment. Claudia Allen, Director of Real Estate Dealers and Developers at Jamaica's Real Estate Board, attributed the pattern to urgent house-hunters skipping due diligence, while JCF Senior Superintendent Stephanie Lindsay urged the public to verify identification before transacting. The Realtors Association of Jamaica (RAJ) announced a strategic plan in April 2025 to combat the rising volume of these scams, which also include stolen or altered "For Sale" signage placed on properties not actually for sale. Prospective renters and buyers are advised to always view a property in person before paying any deposit, to verify a listing agent's identity and licensing with the Real Estate Board, and to treat a below-market price paired with pressure to pay quickly as a warning sign rather than good luck.`,
+  categorySlug: 'rental-housing',
+  alertLevel: 'high',
+  sources: ['Jamaica Observer', "Jamaica's Real Estate Board", 'Realtors Association of Jamaica (RAJ)'],
+  sourceUrl: 'https://www.jamaicaobserver.com/2024/12/24/renters-homebuyers-jamaica-targeted-rising-real-estate-scams/',
+  country: 'JM',
+});
+
+International.push({
+  name: 'AI Deepfake Investment Scheme Using Fabricated Prime Minister Endorsements (Stable Rowdex)',
+  slug: 'tt-ai-deepfake-investment-scheme-stable-rowdex',
+  description: `The Trinidad and Tobago Securities and Exchange Commission (TTSEC) issued a public advisory on March 5, 2026 warning that a fraudulent online investment operation running under the aliases Stable Rowdex, Stable Capital, and Futurix Capital was soliciting Trinidad and Tobago residents into an "AI-related" investment opportunity. To manufacture credibility, the operators circulated AI-generated videos, fabricated newspaper articles, and doctored images purporting to show endorsements from the Prime Minister of Trinidad and Tobago and other prominent local figures, including economist Dr. Ronald Ramkissoon and Mr. Wendell Mottley. TTSEC confirmed none of the entities are registered to conduct securities business in Trinidad and Tobago and warned the public that fabricated "proof" of high-profile backing is an evolving tactic being used to make bogus platforms look legitimate before they solicit deposits. The Commission urged consumers to check its investor register before sending any money and never to trust a video or image "endorsement" of an investment scheme at face value, since a real public figure's genuine backing of a specific investment platform is something that can be verified directly with that person or their office, not something that should be taken on faith from a shared video alone.`,
+  categorySlug: 'ai-deepfake-scams',
+  alertLevel: 'high',
+  sources: ['Trinidad and Tobago Securities and Exchange Commission (TTSEC)'],
+  sourceUrl: 'https://www.ttsec.org.tt/public-advisory-fraudulent-online-scheme-using-ai-generated-impersonations/',
+  country: 'TT',
+});
+
+International.push({
+  name: 'Fake HDC Housing Officials Scam on Facebook and WhatsApp',
+  slug: 'tt-hdc-impersonation-housing-scam',
+  description: `The Trinidad and Tobago Police Service (TTPS) and the Housing Development Corporation (HDC) issued a joint warning, reported April 23, 2026, after identifying a fraud pattern targeting families seeking affordable housing. Scammers post fake Facebook advertisements posing as HDC representatives, then move victims to WhatsApp and unofficial email addresses rather than HDC's real channels. They advertise two-bedroom homes priced below market rate, pressure victims with claims of limited availability, and demand upfront "processing" or deposit payments reported at roughly TT$12,000 to TT$13,000 before cutting off contact. The HDC confirmed it never requests payment via WhatsApp, Gmail, or social media, that housing applications are free, and that legitimate payments are accepted only in person at its Head Office Cashier's Unit at South Quay, Port of Spain. Anyone contacted about an HDC housing opportunity through social media or a messaging app should treat the offer as suspect and verify it only through HDC's official office or published contact channels before paying anything.`,
+  categorySlug: 'rental-housing',
+  alertLevel: 'high',
+  sources: ['Trinidad and Tobago Police Service (TTPS)', 'Housing Development Corporation (HDC)'],
+  sourceUrl: 'https://www.guardian.co.tt/news/ttps-hdc-warn-of-housing-scams-6.2.2569226.662954dff1',
+  country: 'TT',
+});
+
+International.push({
+  name: 'WhatsApp "Pay to Get Hired" Rigger Jobs Scam',
+  slug: 'tt-whatsapp-money-for-jobs-scam',
+  description: `The Trinidad and Tobago Police Service publicly warned about a fee-for-employment scheme run through a WhatsApp group. Members were told they would be hired as riggers at an energy company if they each wired TT$3,000 to a Western Union account to "secure" the position; those who paid were told to attend a job orientation that never took place. Police stated that no legitimate employer requires payment for a job, urged the public to treat any offer that "appears too good to be true" as a likely scam, advised against cash transactions with unknown persons, and directed victims to report to police or the anonymous 800-TIPS line. The scheme is a reminder that a real employer's hiring process never runs through an unofficial WhatsApp group or requires an upfront payment to "secure" a position, regardless of how urgent or exclusive the opportunity is made to sound.`,
+  categorySlug: 'employment-scams',
+  alertLevel: 'medium',
+  sources: ['Trinidad and Tobago Police Service (TTPS)'],
+  sourceUrl: 'https://www.guardian.co.tt/news/police-warn-of-whatsapp-moneyforjobs-scam-6.2.753882.6602e19329',
+  country: 'TT',
+  isHistorical: true,
+  firstRecorded: '2018-12-01',
+});
+
+International.push({
+  name: 'SINPE Móvil Banking Phishing and Bank-Impersonation Fraud',
+  slug: 'costa-rica-sinpe-movil-phishing-fraud',
+  description: `Costa Rica's Organismo de Investigación Judicial (OIJ) has tracked a sharp rise in electronic banking fraud tied to SINPE Móvil, the country's near-ubiquitous instant transfer system. Reporting by La Nación based on OIJ complaint data shows that between January 2021 and April 22, 2022, criminals stole ¢4.317 billion colones and $1.4 million from bank customers across 4,886 reported cases, ¢3.045 billion and $1 million in 2021 alone, rising further in early 2022. The two dominant methods were phishing through fake SINPE-related messages or bogus transfer receipts, used to harvest banking credentials, and phone calls or messages in which fraudsters impersonated bank employees warning of "suspicious activity" to trick victims into handing over credentials or authorizing transfers, the costliest of the two vectors at roughly ¢2.387 billion and $357,000. OIJ's fraud chief noted that although roughly 90% of the perpetrators operate from within Costa Rica, they use technology that hinders identification and prosecution, and Banco Nacional customers were the most frequently targeted. Costa Rican banks collectively invested about $211 million in security systems from 2019 to 2021 as digital transaction volume, and fraud alongside it, surged. Consumers are advised never to enter SINPE Móvil credentials or a one-time code through a link received by text or WhatsApp, and to hang up and call their bank back directly using the number on a card or statement whenever a caller claims to be reporting "suspicious activity" on an account.`,
+  categorySlug: 'phishing',
+  alertLevel: 'high',
+  sources: ['La Nación', "Organismo de Investigación Judicial (OIJ)"],
+  sourceUrl: 'https://www.nacion.com/economia/banca/fraudes-informaticos-provocaron-robo-de-4300/ZQE33XIHF5BI3PUIZQZFIIMEFQ/story/',
+  country: 'CR',
+});
+
+International.push({
+  name: '"Vivienda a Plazo" Real Estate Developer Deposit Fraud (Casas Vita and Others)',
+  slug: 'costa-rica-real-estate-developer-deposit-fraud',
+  description: `Costa Rica's Ministerio de Economía, Industria y Comercio (MEIC), through its Comisión Nacional del Consumidor, documented 95 formal consumer complaints between 2015 and 2017 against three residential developers selling homes on installment plans known as "vivienda a plazo": Grupo Empresarial Casas Vita (69 complaints), Condomío (13), and Homes Grupo Inmobiliario (13), with complaints rising sharply each year, 17 in 2015, 23 in 2016, and 55 by mid-September 2017. Buyers, many of whom had committed to 30-year bank loans to finance the purchase, paid initial deposits of roughly $500 and down payments of $10,000 to $15,000, only to find projects stalled or never completed, with developers citing bureaucratic delays. On May 22, 2018, authorities carried out raids on offices and residences linked to Casas Vita as scrutiny intensified. In response, MEIC announced in July 2018 that it would rewrite its installment-sale regulations, including requiring developers to route buyer payments through bank-administered trusts, or fideicomisos, rather than collecting funds directly, so money is released only as construction actually progresses. The Cámara Costarricense de la Construcción has separately warned buyers to check that any project carries MEIC authorization before paying a deposit. Anyone considering a home purchase on an installment plan is advised to verify a developer's MEIC authorization and to ask specifically whether deposit funds are held in a fideicomiso rather than paid directly to the developer, since that single structural difference is what determines whether a stalled project's buyers can recover their money.`,
+  categorySlug: 'rental-housing',
+  alertLevel: 'medium',
+  sources: ["Ministerio de Economía, Industria y Comercio (MEIC)", 'AmeliaRueda'],
+  sourceUrl: 'https://ameliarueda.com/nota/ante-incremento-denuncias-estafa-meic-modificara-reglamento-ventas-vivienda',
+  country: 'CR',
+  isHistorical: true,
+  firstRecorded: '2015-01-01',
+});
+
+International.push({
+  name: 'Shwe Kokko "Yatai New City" Scam Compound and U.S. Sanctions on Its Founder',
+  slug: 'myanmar-shwe-kokko-yatai-city-scam-compound',
+  description: `On September 8, 2025, the U.S. Treasury's Office of Foreign Assets Control sanctioned nine targets tied to Shwe Kokko, a walled complex in Karen (Kayin) State that Treasury described as "a resort city custom built for gambling, drug trafficking, prostitution, and scams targeting people around the world, particularly Americans," after finding Southeast Asian scam networks stole at least $10 billion from Americans in 2024 alone — a 66% jump from the prior year. The sanctions named Chinese businessman She Zhijiang, who built Shwe Kokko under his company Myanmar Yatai International Holding Group after striking a deal with the Karen National Army, along with KNA leader Saw Chit Thu and subordinates Tin Win and Saw Min Min Oo, for running "pig-butchering" virtual-currency investment scams out of the compound using trafficked, forced labor. She Zhijiang, who had evaded Chinese authorities for over a decade before his 2022 arrest in Thailand, was extradited from Bangkok to China on November 12, 2025 to face gambling and fraud charges, even as Shwe Kokko's operators kept the compound running on generators through repeated Thai electricity cutoffs. The case shows how a single China-linked developer and an allied armed group turned an entire riverside township into an industrial-scale fraud operation years before nearby compounds drew similar attention. Anyone approached online by a new "friend" or romantic partner who steers the conversation toward a cryptocurrency or foreign-exchange trading platform should treat the pitch as a probable pig-butchering scam and never move money to a platform that cannot be verified through a licensed, independent source.`,
+  categorySlug: 'investment-fraud',
+  alertLevel: 'critical',
+  sources: ['U.S. Department of the Treasury (OFAC)', 'ABC News (Australia)'],
+  sourceUrl: 'https://home.treasury.gov/news/press-releases/sb0237',
+  country: 'MM',
+});
+
+International.push({
+  name: 'February 2025 Thailand Border Power Cutoff and Mass Rescue from Myawaddy-Area Scam Centers',
+  slug: 'myanmar-myawaddy-thailand-power-cutoff-mass-rescue-2025',
+  description: `On February 5, 2025, Thailand's Deputy Prime Minister Anutin Charnvirakul ordered the state electricity authority to cut power to five border points feeding Myanmar scam hubs — including Myawaddy in Kayin State, Payathonzu in Mon State, and Tachileik in Shan State — after China's assistant minister of public security pressed Thai officials to act following the rescue of a Chinese actor lured to Thailand with a fake film job and trafficked into a scam compound near Myawaddy. The cutoff targeted roughly 20.37 megawatts of power the Provincial Electricity Authority had been supplying to the border zone, worth an estimated 50 million baht ($1.4 million) a month — though at least one compound kept running on generators. Within weeks, Myanmar's military government said it was preparing to hand over roughly 1,000 foreign nationals rescued from cyber-scam centers near the Thai border, the first wave of a much larger release of trafficked scam-center workers over the following months. University of Texas researchers cited in coverage of the crackdown estimated global investors had lost more than $75 billion to Southeast Asian scam networks since January 2020, while Thai police recorded 575,500 Thai scam victims between March 2022 and June 2024 alone, with losses exceeding 65.7 billion baht. The episode shows that a single high-profile trafficking case can force a rapid diplomatic and infrastructure response — but also that compounds can keep running on generator power through it, so job seekers should treat any offer requiring travel to Thailand's border with Myanmar as a probable trafficking front regardless of the enforcement headlines of the moment.`,
+  categorySlug: 'employment-scams',
+  alertLevel: 'critical',
+  sources: ['Radio Free Asia (RFA)', 'CNN'],
+  sourceUrl: 'https://www.rfa.org/english/myanmar/2025/02/05/myanmar-myawaddy-thailand-electricity/',
+  country: 'MM',
+});
+
+International.push({
+  name: 'Kokang "Four Families" Cyber-Scam Syndicate in Laukkai, Shan State',
+  slug: 'myanmar-laukkai-kokang-four-families-scam-syndicate',
+  description: `Years before compounds like Shwe Kokko and KK Park drew international attention, the town of Laukkai in Myanmar's Kokang Self-Administered Zone of northern Shan State — on the Chinese border, far from the Thailand-facing compounds — was run as a cyber-scam capital by four allied Kokang clans (the Liu, Bai, Wei, and Ming families), installed as a Myanmar military-backed Border Guard Force in 2009, who built conglomerates including the Fully Light Group and Hanley Group to shelter scam parks, casinos, and narcotics operations under military protection. On October 26, 2023, the Three Brotherhood Alliance of ethnic armed groups — including the Kokang-aligned MNDAA — launched "Operation 1027," explicitly citing the region's cyber-scam industry as a target, and by January 2024 had retaken Laukkai after more than 2,000 Myanmar army soldiers surrendered in one of the conflict's largest mass surrenders. Roughly 40,000 people were sent back across the border into China in the operation's aftermath, and Chinese courts later sentenced 16 members of the Kokang syndicate to death for running the trafficking and fraud networks — one of the most severe legal responses to any Southeast Asian scam-compound case on record. Operators who survived the crackdown did not disappear but relocated their operations south into Karen State, Cambodia, and Laos rather than shut down, underscoring how enforcement in one location tends to displace rather than eliminate the industry. Job seekers should treat any "customer service," "casino," or "IT support" offer requiring relocation to a China- or Thailand-adjacent Myanmar border town — not only whichever compound is most recently in the news — as a likely trafficking front, and should verify such offers with their country's labor ministry or embassy before traveling.`,
+  categorySlug: 'cryptocurrency-scams',
+  alertLevel: 'critical',
+  sources: ['Al Jazeera', 'The Diplomat', 'USIP (United States Institute of Peace)'],
+  sourceUrl: 'https://www.aljazeera.com/news/longform/2024/7/29/under-siege-in-myanmars-cyber-scam-capital',
+  country: 'MM',
+});
+
+International.push({
+  name: 'Cartago Investment Pyramid Scheme with Falsified Bank Documents',
+  slug: 'costa-rica-cartago-pyramid-investment-scheme',
+  description: `In January 2025, Costa Rica's Organismo de Investigación Judicial (OIJ) arrested a woman surnamed Matarrita Cerdas in Guadalupe, Cartago, on 19 counts of fraud after she ran a pyramid-style investment scheme targeting friends and acquaintances. She posed as an auditor for a medical-supply company claiming to sell equipment to private hospitals, and recruited investors by promising extraordinary returns of up to 100% per month. As is typical of pyramid structures, early participants' apparent profits, funded by newer investors' money, created a false appearance of legitimacy that drew in more victims. When investors eventually demanded their principal or promised earnings back, she produced falsified bank documents claiming that more than ₡100 million colones belonging to her were frozen in her accounts, and asked victims for additional money to help "release" those funds. OIJ turned the suspect over to the Cartago Prosecutor's office to face the fraud charges. Anyone offered a guaranteed monthly return anywhere near 100% should treat that figure itself as proof the pitch is false, since no legitimate business generates returns at that scale, and should be especially wary of a request for more money to "unlock" funds already owed, a tactic aimed at extracting a final payment from victims who are already trying to get their own money back.`,
+  categorySlug: 'ponzi-pyramid-schemes',
+  alertLevel: 'medium',
+  sources: ["Organismo de Investigación Judicial (OIJ)", 'NCR Noticias'],
+  sourceUrl: 'https://ncrnoticias.com/nacionales/detencion-de-sospechosa-por-estafas-millonarias-en-cartago-el-esquema-detras-del-fraude/',
+  country: 'CR',
+});
+
+International.push({
+  name: 'MUP-Warned "Your Family Member Had an Accident" Emergency Phone Scam',
+  slug: 'serbia-fake-family-accident-emergency-phone-scam',
+  description: `Serbia's Ministry of Interior (MUP) issued a public warning, reported May 28, 2026, about an increasingly common telephone fraud scheme in which callers falsely tell a victim that their son, daughter, or another close family member has just been in a traffic accident or other sudden emergency. The caller — impersonating a doctor, police officer, or family acquaintance rather than the relative themselves — then demands immediate payment for emergency medical treatment or surgery, typically asking the victim to hand over cash, gold, or other valuables on the spot rather than make a bank transfer, so there is no paper trail and no time to verify the story. MUP's warning states plainly that citizens should not hand over money, gold, or other valuables to unknown persons "without verification" ("ne dajte pare bez provere"), and instructs anyone who receives such a call to first try to reach the family member directly, confirm the story with the named hospital or police station, and report the call to police rather than acting on it immediately. The scheme exploits the same shock-and-urgency pressure seen in "grandparent scam" calls elsewhere, but is aimed broadly at any close relative, not just grandparents, and MUP has repeated the warning multiple times as the calls have continued. Before sending any money or valuables in response to a call about a relative's accident, always hang up and independently call that relative back on a known number, or call the hospital or police station named by the caller directly.`,
+  categorySlug: 'family-emergency-scams',
+  alertLevel: 'high',
+  sources: ['Ministarstvo unutrašnjih poslova Republike Srbije (MUP)', 'Telegraf.rs', 'Kurir'],
+  sourceUrl: 'https://www.telegraf.rs/vesti/hronika/4333684-vas-sin-je-imao-udes-mup-upozorava-na-jezive-telefonske-prevare-u-srbiji-ne-dajte-pare-bez-provere',
+  country: 'RS',
+});
+
+International.push({
+  name: '"Kangaroo Treasure" (Kengur Riznica) Telegram Pyramid Scheme',
+  slug: 'serbia-kangaroo-treasure-telegram-pyramid-scheme',
+  description: `A company called "Kangaroo Treasure d.o.o." was registered with Serbia's Business Registers Agency in April 2022 by a Chinese national, Libo Liu, with only 100 dinars in starting capital, and operated an online platform recruiting members through Telegram, flyers, and billboards. Members paid a minimum deposit of around 2,000 dinars to join, then were told they'd earn a 0.1% return by completing simple tasks like writing fake product reviews for Amazon and AliExpress listings, while a member who recruited a new participant collected 10 percent of that recruit's earnings — a structure that paid earlier participants only with money from new deposits. The platform vanished in August 2022, roughly three months after members started depositing money, leaving an estimated 100,000 Serbian citizens — including many who reportedly took out cash loans of 100,000 to 250,000 dinars specifically to invest — unable to recover their funds; a related entity, "Sassilo Group d.o.o.," registered by another Chinese national, Likun Li, was also identified. Roughly 35 criminal complaints were filed with Serbia's High-Tech Crime Prosecutor's Office, with the underlying fraud offense under Article 208 of Serbia's Criminal Code carrying a sentence of up to 10 years for damages exceeding 5 million dinars. Treat any platform promising fixed daily or task-based returns paid for recruiting other members — especially one organized entirely through Telegram groups and requiring an upfront deposit — as a pyramid scheme, regardless of how it is packaged.`,
+  categorySlug: 'ponzi-pyramid-schemes',
+  alertLevel: 'critical',
+  sources: ['021.rs (Novosadski informativni portal)', 'Bizlife.rs'],
+  sourceUrl: 'https://www.021.rs/story/Info/Srbija/319714/Oko-100000-gradjana-Srbije-naselo-na-piramidalnu-prevaru-mnogi-dizali-i-kredite.html',
+  country: 'RS',
+});
+
+International.push({
+  name: 'Fake "Parking Servis" Beograd SMS Phishing Scam',
+  slug: 'serbia-parking-servis-sms-phishing-scam',
+  description: `Belgrade's public parking utility, JKP Parking servis, issued a public warning after fraudulent SMS messages began circulating — most recently reported September 4, 2026 — that impersonate the company and claim the recipient's account has unpaid parking fees. One documented message read, in translation: "Dear user — our system has confirmed that your account has unpaid parking fees. To protect your service rights and avoid unnecessary legal disputes, please verify and pay the unpaid amount by 24:00 on September 4 to prevent further complications," with messages traced to sender numbers beginning with the international prefix +63 (Philippines), not a legitimate Serbian short code. The message pressures the recipient to click an embedded link and enter payment or personal details to "settle" the supposed debt, a classic smishing pattern using invented urgency and a deadline rather than any real record of unpaid parking. JKP Parking servis publicly urged citizens not to respond to the messages, not to click the links, and not to enter any personal data, stating that all real account information should be checked only through the company's official channels and website. This is a distinct mechanism from Serbia's earlier fake "Post of Serbia" customs-fee SMS scam — same smishing family, different impersonated institution and payment pretext — so treat any unsolicited SMS demanding urgent payment for parking, customs, or utility fees via an embedded link as fraudulent until verified directly with the named organization's official website or phone number.`,
+  categorySlug: 'phishing',
+  alertLevel: 'medium',
+  sources: ['JKP Parking servis (Belgrade public parking utility)', 'N1 info'],
+  sourceUrl: 'https://n1info.rs/vesti/parking-servis-beograda-upozorava-na-lazne-sms-poruke',
+  country: 'RS',
+});
+
+International.push({
+  name: 'Land Broker ("Shamsarin") Fraudulent Plot Sales in Juba',
+  slug: 'south-sudan-land-broker-shamsarin-fraud-juba',
+  description: `Land brokers known locally as "shamsarin" operate a persistent fraud scheme in Juba, Central Equatoria State, identifying plots whose rightful owners are absent or displaced and then colluding with area chiefs, lawyers, and housing-sector officials to sell that same land to unsuspecting buyers. Radio Tamazuj's March 2026 reporting quoted Hai Baraka resident Paul Ladu describing "the chief, brokers, and lawyers" as "the ones who are spoiling our land in Juba," while local chief Angelo Lobojo Waran warned that "if the issue of brokers is not addressed, the land issue will not stop." A member of Parliament's Land Committee, Uria Guya Emmanuel, attributed the scheme's persistence to weak enforcement of South Sudan's existing land laws rather than any gap in the legislation itself, leaving victims with little practical recourse once a fraudulent sale has gone through. Anyone purchasing land in Juba should independently verify ownership and demarcation status with the county land authority before paying any broker, chief, or self-described agent, and should treat a seller who cannot produce a verifiable, government-issued title as a strong warning sign.`,
+  categorySlug: 'rental-housing',
+  alertLevel: 'high',
+  sources: ['Radio Tamazuj'],
+  sourceUrl: 'https://www.radiotamazuj.org/en/news/article/residents-blame-brokers-chiefs-for-growing-land-grabbing-in-juba',
+  country: 'SS',
+});
+
+International.push({
+  name: 'Fake Bank of South Sudan "Rewards Center" Prize Scam',
+  slug: 'south-sudan-fake-bank-of-south-sudan-prize-scam',
+  description: `An imposter website using the Bank of South Sudan's real name, logo, and branding told visitors they had won prizes — including a Samsung Galaxy A8 phone and a check worth $300,000 — through a fabricated "rewards center," on a domain, altajari-prizes.xyz, that fact-checking outlet 211Check found had been registered only 16 days earlier. The Bank of South Sudan issued a public statement rejecting the claims outright: "This scam uses Bank of South Sudan's brand names and logo in order to make the prize look legitimate... This is not true, the BoSS does not offer prizes, awards, or funds." 211Check's investigation, conducted with SafetyComm South Sudan, cross-checked the site's brand-new domain registration and unverified trust score against the Bank's official statement to confirm the fraud. No legitimate South Sudanese bank notifies the public of a cash or device prize through an unsolicited website or social media link, and any offer claiming to come from the Bank of South Sudan should be verified only through its official channels at boss.gov.ss before any personal information is submitted.`,
+  categorySlug: 'lottery-sweepstakes-scams',
+  alertLevel: 'medium',
+  sources: ['211Check', 'Bank of South Sudan (BoSS)'],
+  sourceUrl: 'https://www.211check.org/post/fact-check-is-the-bank-of-south-sudan-offering-rewards-to-its-website-visitors',
+  country: 'SS',
+});
+
+International.push({
+  name: 'Creators Alliance "Watch and Earn" Ponzi Scheme (Saint Lucia)',
+  slug: 'saint-lucia-creators-alliance-ponzi-scheme',
+  description: `Creators Alliance was a video-advertising platform that launched in Saint Lucia around December 2024, telling members they could earn steady monthly returns simply by watching promotional videos after buying a package priced from roughly US$130 up to US$1,999, with some participants upgrading their package multiple times as it appeared to pay out. The operation spread rapidly through WhatsApp groups and word-of-mouth referrals — part of a wider Creators Alliance scheme that also hit Grenada, Dominica, and other Eastern Caribbean islands under different local web addresses — and investigators later determined it was a classic Ponzi structure in which early "returns" were funded not by real advertising revenue but by money deposited by newer recruits. The scheme collapsed abruptly in April 2025, dissolving its WhatsApp groups and halting all payouts, while Saint Lucia's Financial Intelligence Authority (FIA) publicly stated it had never reviewed or approved the scheme's legality. A joint investigation by the Royal Saint Lucia Police Force's Major Crimes Unit, the FIA, and the Financial Services Regulatory Authority found that 118 people had deposited money into accounts linked to the scheme, but only 35 ever received a payout; the alleged local operator, 52-year-old Electra Fernand of Vide Bouteille, Castries, was arrested on September 29, 2025 and charged with operating a virtual asset business without a licence, then released on EC$7,000 bail ahead of a November 2025 case management hearing. Consumers should treat any platform promising guaranteed returns for passive activity like "watching videos," especially one spreading through personal referrals and private chat groups rather than a licensed financial institution, as a red flag, and should verify with the FIA or FSRA whether a scheme is licensed before depositing any money.`,
+  categorySlug: 'ponzi-pyramid-schemes',
+  alertLevel: 'high',
+  sources: ['Royal Saint Lucia Police Force (RSLPF)', 'Financial Intelligence Authority (FIA)', 'St. Lucia Times'],
+  sourceUrl: 'https://stluciatimes.com/173433/2025/10/police-charge-woman-in-connection-with-creators-alliance-scheme/',
+  country: 'LC',
+});
+
+International.push({
+  name: '"CARICOM Invest" Fake-News Investment Scheme',
+  slug: 'saint-lucia-caricom-invest-fake-news-scheme',
+  description: `Saint Lucia's Financial Intelligence Authority (FIA) issued a public warning on April 7, 2026 about a fraudulent online investment scheme operating under the name "CARICOM Invest," which borrows the credibility of the regional Caribbean Community organization despite having no connection to it. The FIA said the scheme is being promoted through misleading advertisements and fabricated news content designed to look like legitimate reporting, a tactic increasingly used across the Caribbean to drive traffic to fake investment platforms that exist only to collect victims' money and personal or banking details. The warning followed an earlier joint alert issued in February 2025 by the Consumer Affairs Department, the Financial Services Regulatory Authority (FSRA), and the FIA, cautioning that a number of unauthorized investment schemes — some structured like pyramid schemes — were being marketed to Saint Lucians online without the licensing legitimate investment businesses require under Saint Lucia law. The FIA's notice did not name individual perpetrators but urged the public to treat any unsolicited investment opportunity discovered through a social media ad or an unfamiliar "news" article with suspicion, particularly one that invokes the name of a well-known regional or international institution to appear credible. Residents are advised to independently verify any investment opportunity's legitimacy directly with the FIA or FSRA before providing money or personal information, and to report suspicious platforms to the Authority rather than trusting the platform's own website or promotional material.`,
+  categorySlug: 'investment-fraud',
+  alertLevel: 'high',
+  sources: ['Financial Intelligence Authority (FIA)'],
+  sourceUrl: 'https://www.slufia.com/news/fia-issues-public-warning-on-fraudulent-caricom-invest-investment-scheme',
+  country: 'LC',
 });

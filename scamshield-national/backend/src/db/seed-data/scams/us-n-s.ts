@@ -4533,6 +4533,42 @@ UsNS.push({
 });
 
 UsNS.push({
+    name: "South Carolina's 1993 Omnibus Adult Protection Act and the Origin of 'Vulnerable Adult' Exploitation Law",
+    slug: 'south-carolina-1993-omnibus-adult-protection-act-origin',
+    description: `In 1993, the South Carolina General Assembly passed the Omnibus Adult Protection Act, now codified at S.C. Code Title 43, Chapter 35, to build a statewide system for protecting adults who cannot adequately care for or protect themselves. The law did something South Carolina had never done before: it created a single, uniform legal definition of "abuse, neglect, and exploitation" that applied to every vulnerable adult in the state regardless of setting, clarified which agencies were responsible for investigating a report, set up reporting procedures and emergency protective custody, and — critically for financial exploitation specifically — established civil and criminal penalties for anyone who abuses that trust. Before 1993, the state had no single, coherent legal framework for what counts as exploiting a vulnerable adult or who is responsible for stopping it; the Act has been amended repeatedly since, including in 2004, 2010, 2014, and as recently as 2025, but its core 1993 framework is still the law that gives modern investigators their charge.
+
+That charge is the exact one prosecutors use today. The South Carolina Attorney General's Vulnerable Adults and Medicaid Provider Fraud unit, which investigated Delores Ann Edge, charged her under the "exploitation of a vulnerable adult" offense the 1993 Act created after Edge used her court-appointed power of attorney over a nursing home resident to spend roughly $34,000 of his money on herself, documented in this database's Latta Power-of-Attorney Nursing Home Exploitation entry. The same statutory framework covers the newer pattern seen in this database's Conway Caregiver Deed Theft entry, where a hired in-home caregiver was made power of attorney within weeks of being hired and used it to transfer her client's home into her own name for a nominal $5 before he died — a caregiver relationship, not a stranger's phone call, being the vector for the loss.
+
+The throughline matters because both modern cases share the same underlying vulnerability the 1993 law was written to close: someone with lawful, trusted access to a vulnerable adult's finances — a conservator, an agent under power of attorney, a caregiver — has far more opportunity to do damage than any outside scammer, and far less oversight by default. Families with an aging or incapacitated relative are advised to request regular, independent accountings from any conservator or agent under power of attorney, to verify directly with the county register of deeds that no property transfer has occurred, and to report a fiduciary who resists sharing account statements to the Attorney General's Vulnerable Adults and Medicaid Provider Fraud unit — the same unit whose authority traces back to the law South Carolina passed in 1993.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'medium',
+    sources: ['South Carolina Legislature (South Carolina Code of Laws)'],
+    sourceUrl: 'https://www.scstatehouse.gov/code/t43c035.php',
+    country: 'US',
+    state: 'SC',
+    isHistorical: true,
+    firstRecorded: '1993-06-11',
+});
+
+UsNS.push({
+    name: "South Carolina's 1978 Vacation Time Sharing Plans Act and the Grand Strand's Timeshare Fraud History",
+    slug: 'south-carolina-1978-timeshare-act-origin',
+    description: `South Carolina's Grand Strand and Hilton Head grew into one of the largest timeshare markets in the country decades ago — by 2015 the industry accounted for an estimated $2.4 billion in statewide spending and more than 19,000 jobs — and the state legislature moved early to put guardrails on it. In 1978, South Carolina passed the Vacation Time Sharing Plans Act, now codified at S.C. Code Title 27, Chapter 32, making it one of the first states in the country with a dedicated timeshare regulatory statute, years before Florida's better-known 1981 Timeshare Act addressed the same problem in a bigger market. The law required registration and disclosure from developers and sellers, gave buyers a legal right to cancel within a set window, and made it illegal for a seller to use fraud, misrepresentation, or material omissions to induce a purchase — protections aimed squarely at the high-pressure sales tactics that had already become associated with the industry by the late 1970s.
+
+Half a century later, South Carolina's timeshare owners are still a target, just from a different direction: rather than a pushy in-person sales pitch, the South Carolina Department of Consumer Affairs warns that today's version arrives as an unsolicited call from a "buyer" who claims to already have a purchaser lined up, so long as the owner pays an upfront fee first — and that victims of that first call are frequently targeted a second time, called "Round Two," by someone offering, for another fee, to recover the money already lost. That exact pattern is documented in this database's South Carolina Timeshare Resale "Round Two" Scam entry. The mechanism has moved from the closing table to the phone line, but the underlying vulnerability the 1978 Act was written to address, a timeshare owner facing pressure to pay or sign before verifying who they're actually dealing with, is unchanged.
+
+Owners contacted about reselling a timeshare should treat any unsolicited call from someone who already claims to have a buyer as a red flag on its own, verify any resale company's complaint history with SCDCA before paying anything, and remember that a legitimate recovery effort for money already lost would never need to charge another fee upfront or ask why the caller already knows a victim lost money in the first place.`,
+    categorySlug: 'timeshare-scams',
+    alertLevel: 'medium',
+    sources: ['South Carolina Legislature (South Carolina Code of Laws)', 'Ernst & Young South Carolina timeshare industry study'],
+    sourceUrl: 'https://www.scstatehouse.gov/code/t27c032.php',
+    country: 'US',
+    state: 'SC',
+    isHistorical: true,
+    firstRecorded: '1978-01-01',
+});
+
+UsNS.push({
     name: `Wake County "Bait House" Staged-Damage Roofing Insurance Fraud`,
     slug: 'north-carolina-wake-county-bentley-roofing-insurance-fraud',
     description: `Brett William Bentley, 28, and Robert Allen Bentley, 36, both of Charlotte and working for A&M Premier Roofing & Construction, intentionally damaged homeowners' roofs so they could generate repair work and support fraudulent insurance claims for the damage they themselves had caused. The North Carolina Department of Insurance's Criminal Investigations Division caught the pair using a "bait house" sting — a property set up and monitored specifically to catch contractors in the act of causing damage — which captured evidence used to bring charges. Both brothers pleaded guilty in Wake County District Court in August 2026: Brett Bentley to misdemeanor injury to real property, and Robert Bentley to felony injury to real property and attempting to obtain property by false pretense, receiving 24 months of supervised probation, 50 hours of community service, and a bar from working in the roofing industry during his probation; Robert was also ordered to pay $27,678.50 in restitution to N.C. Farm Bureau Insurance. "This conviction demonstrates that insurance fraud has real consequences," North Carolina Insurance Commissioner Mike Causey said. Homeowners are advised to be wary of any roofer who shows up unsolicited after a storm offering a "free inspection," to get a second, independent opinion before signing anything if a contractor claims to have found damage requiring an insurance claim, and to report suspected staged-damage schemes to the Department of Insurance's Criminal Investigations Division at 919-807-6840 or 888-680-7684.`,
@@ -4542,6 +4578,34 @@ UsNS.push({
     sourceUrl: 'https://www.ncdoi.gov/news/press-releases/2026/08/31/charlotte-brothers-plead-guilty-wake-county-roofing-scam',
     country: 'US',
     state: 'NC',
+});
+
+UsNS.push({
+    name: "North Carolina's 1945 Insurance Fraud Law and the Nation's Oldest State Fraud Unit",
+    slug: 'north-carolina-1945-insurance-fraud-unit-origin',
+    description: `In 1945, the North Carolina General Assembly gave the Department of Insurance's Investigations Division statutory law-enforcement authority over insurance fraud, insurance-agent embezzlement, and other insurance-related financial crimes — a unit the Department of Insurance describes today as the oldest fraud-investigations division of its kind in the nation. The Division's authority widened again in a July 1973 overhaul of North Carolina's criminal-justice system, which gave its investigators full statewide general law-enforcement power rather than the narrower insurance-specific authority they had held since 1945. That eighty-year-old unit is still the one making cases today: it was the Department of Insurance's Criminal Investigations Division that ran the "bait house" sting — a monitored property built specifically to catch a contractor in the act of causing damage — that caught Charlotte roofers Brett and Robert Bentley intentionally damaging homeowners' roofs to manufacture insurance claims, the exact scheme documented in this database's Wake County "Bait House" Staged-Damage Roofing Insurance Fraud entry. The throughline is direct: the same law-enforcement authority North Carolina created specifically to police insurance fraud in 1945 is still the one catching staged-damage roofing schemes eight decades later.`,
+    categorySlug: 'insurance-fraud',
+    alertLevel: 'medium',
+    sources: ['North Carolina Department of Insurance'],
+    sourceUrl: 'https://www.ncdoi.gov/fraud-control/criminal-investigations',
+    country: 'US',
+    state: 'NC',
+    isHistorical: true,
+    firstRecorded: '1945-01-01',
+});
+
+UsNS.push({
+    name: "North Carolina's Post-Katrina Price-Gouging Law, Built to Reach Disasters That Never Touch the State",
+    slug: 'north-carolina-2006-price-gouging-law-katrina-origin',
+    description: `North Carolina's first price-gouging law, passed by the General Assembly in 2003 after a string of natural disasters, had a gap that became obvious within two years: it only applied to counties where North Carolina itself had officially declared a disaster or state of emergency. When Hurricane Katrina struck the Gulf Coast in 2005 and drove gasoline prices sharply higher across North Carolina anyway, the Attorney General's office had no legal basis to investigate the price spikes consumers were actually paying at the pump, because no North Carolina disaster had ever been declared. The General Assembly closed that gap in its 2006 Short Session by adding a new trigger, an "abnormal market condition," which the Governor can find whenever a federal disaster or emergency declaration anywhere in the country has significantly disrupted goods or services North Carolinians depend on, whether or not the underlying disaster ever touches North Carolina itself. The law specifically names the categories of post-disaster exploitation regulators still watch for today: inflated prices for gasoline, generators, water, ice, and batteries, and, just as relevant to the storm-chasing schemes this database tracks, hotel rooms, roofing, and tree-cutting services from out-of-town operators who "set up shop during a disaster," with violations carrying a $5,000 civil penalty and exposing violators to a private lawsuit for treble damages. That same disaster-driven exploitation is exactly what North Carolina's Attorney General warned residents about after Hurricane Helene devastated the western part of the state in 2024, when scammers posed as FEMA inspectors demanding fees and bank details from storm survivors, documented in this database's North Carolina Hurricane Helene FEMA Impersonation Scam entry. The law and the scam are two sides of the same pattern: North Carolina's disasters reliably draw operators looking to exploit both consumers directly and the disaster-relief process itself, which is exactly why the state built a law broad enough to reach exploitation regardless of where the underlying disaster actually struck.`,
+    categorySlug: 'home-improvement-solar',
+    alertLevel: 'medium',
+    sources: ['NC Retail Merchants Association', 'North Carolina General Assembly'],
+    sourceUrl: 'https://cdn.ymaws.com/ncrma.site-ym.com/resource/resmgr/ncem/how_to_comply_price_gouging.pdf',
+    country: 'US',
+    state: 'NC',
+    isHistorical: true,
+    firstRecorded: '2003-01-01',
 });
 
 UsNS.push({
@@ -7673,4 +7737,66 @@ UsNS.push({
     sourceUrl: "https://dmv.nebraska.gov/news/scammers-target-nebraska-dmv-customers",
     country: "US",
     state: "NE",
+});
+
+UsNS.push({
+    name: 'Oklahoma City Fraudulent Warranty Deed Title-Theft Scheme (Laura Johnson, Thomas Johnson Sr., and Cheryl Ashley)',
+    slug: 'oklahoma-city-warranty-deed-title-theft-scheme',
+    description: `From 2014 to 2019, Oklahoma City residents Laura R. Johnson, Thomas Johnson Sr., and Cheryl M. Ashley ran a scheme to seize ownership of homes without the real owners' knowledge, targeting more than a dozen Oklahoma County properties that had delinquent property taxes and were headed for a county tax auction. The conspirators would pay off the back taxes to pull a property out of auction, then file fraudulent warranty deeds — backed by forged notary signatures and fake confidential stamp-tax affidavits and mortgages — transferring title into the names of fictitious companies and individuals they controlled. In one instance they forged a power of attorney for a deceased property owner and attempted to withdraw more than $100,000 from that owner's accounts; overall the scheme drained $63,950 from victims' bank accounts and diverted $45,000 in oil-and-gas royalty interests. Investigated jointly by the U.S. Secret Service and the Oklahoma Attorney General's Office, all three defendants pleaded guilty on November 17, 2020, to a single count of conspiracy to commit mail and wire fraud in the Western District of Oklahoma and were later sentenced collectively to more than 21 years in federal prison. Homeowners, especially those who have ever fallen behind on property taxes, are advised to periodically check their county assessor's or clerk's real property records for a deed transfer they didn't authorize, since a fraudulent deed can sit unnoticed for years, particularly on a property the owner doesn't live in or visit regularly.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'medium',
+    sources: ['U.S. Secret Service', "Oklahoma Attorney General's Office"],
+    sourceUrl: 'https://www.secretservice.gov/newsroom/releases/2020/11/oklahoma-city-residents-plead-guilty-mail-and-wire-fraud-offenses-attempt',
+    country: 'US',
+    state: 'OK',
+    isHistorical: true,
+    firstRecorded: '2014-01-01',
+});
+
+UsNS.push({
+    name: 'St. George Summit Foot and Ankle Medicare Skin-Substitute Billing Fraud (Ryan Ellsworth)',
+    slug: 'st-george-summit-foot-ankle-medicare-skin-substitute-fraud',
+    description: `A federal grand jury in the District of Utah indicted Ryan Scott Ellsworth, 47, of Highland — a podiatrist who owned and operated Summit Foot and Ankle clinics across Utah — along with two nurses who worked primarily out of the practice's St. George clinic, Emily Kelly, 45, of Washington, Utah, a licensed nurse practitioner, and Drake Dell Broadbent, 55, of Santa Clara, Utah, a licensed registered nurse, on charges of health care fraud and wire fraud announced May 12, 2026. Prosecutors allege that from July 2021 through December 2025 the three knew Medicare only covers "skin substitute" wound-care products when a wound is medically qualifying and standard wound care has already been tried for 30 days, but they submitted claims for skin substitutes applied to patients who did not have qualifying wounds and for continued treatment that was not medically necessary. The indictment alleges Medicare was billed a combined $61 million for these services, of which it actually paid out roughly $29 million; Ellsworth and Broadbent were also charged with making false statements relating to health care matters. The case remains a pending criminal prosecution — as of the indictment, no plea or conviction has been entered. Medicare beneficiaries who receive a skin-substitute wound treatment, or a bill or Medicare Summary Notice referencing one, are advised to ask their provider directly what specific product was used and why standard wound care wasn't tried first, and to report any billing for equipment or treatment they don't recall receiving to the HHS Office of Inspector General.`,
+    categorySlug: 'healthcare-fraud',
+    alertLevel: 'medium',
+    sources: ["U.S. Department of Justice", "HHS Office of Inspector General"],
+    sourceUrl: 'https://oig.hhs.gov/fraud/enforcement/utah-doctor-and-two-nurses-charged-with-health-care-fraud-after-submitting-false-claims-to-medicare-and-receiving-millions-in-payout/',
+    country: 'US',
+    state: 'UT',
+});
+
+UsNS.push({
+    name: 'Rangeley Plantation In-Person DOJ Impersonation Theft (Dev Patel and Love Patel)',
+    slug: 'maine-rangeley-plantation-patel-doj-impersonation-theft',
+    description: `Dev Patel, 19, of Westford, Massachusetts, and Love Patel, 24, of Mansfield, Massachusetts, drove to a woman's home in Rangeley Plantation, Maine and, posing as Department of Justice investigators, told her she was part of a federal investigation and demanded money on the spot, according to the Franklin County Sheriff's Office. The woman paid them $40,000 through PayPal, and the pair told her they would return the next day to collect an additional $32,000. After she reported the theft, Franklin County Sheriff's deputies staked out her home and arrested both men when they came back for the second payment, before any additional money changed hands. Each was charged with theft by deception and booked into the Franklin County Jail in Farmington. Unlike a scam built around a long-running remote relationship or a fake investment platform, this case involved scammers who showed up in person and demanded an immediate cash payment under threat of a supposed federal case, a variant of government-impersonation fraud where the red flag holds regardless of delivery method: no real DOJ, FTC, or other federal agent ever shows up at a person's home demanding an on-the-spot payment, by PayPal or any other method, to resolve an "investigation." Anyone approached this way is advised to refuse payment, ask for identification and a callback number, and independently verify the person's identity by contacting the agency they claim to represent directly, then report the visit to local law enforcement.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Franklin County Sheriff\'s Office', 'WABI-TV'],
+    sourceUrl: 'https://www.wabi.tv/2025/02/20/two-men-arrested-rangeley-plantation-theft-posing-doj-employees/',
+    country: 'US',
+    state: 'ME',
+});
+
+UsNS.push({
+    name: 'North Carolina "Zero Premium" Medicare Advantage Misrepresentation Scam',
+    slug: 'north-carolina-zero-premium-medicare-advantage-misrepresentation-scam',
+    description: `Ahead of the 2025 Medicare Open Enrollment Period, North Carolina Insurance Commissioner Mike Causey warned that fraudulent agents and lookalike marketing sites lure Medicare-eligible seniors with false urgency — "limited-time offer," "special discount if you sign up right away" — and misleading benefit claims about "free" services and "zero premium" coverage that omit real out-of-pocket costs, while pressuring people on unsolicited calls to hand over Social Security numbers, bank details, and Medicare numbers before any plan details are even provided. The Department specifically flagged that "zero co-pay" claims are often limited to a primary care visit, so a beneficiary who sees several specialists can end up paying far more than advertised. North Carolina residents can verify an agent's or plan's license by calling NCDOI or the state's SHIIP counseling line at 855-408-1212, or at ncshiip.com, before enrolling or sharing any personal information over the phone.`,
+    categorySlug: 'medicare-health-plans',
+    alertLevel: 'medium',
+    sources: ['North Carolina Department of Insurance', "NC Seniors' Health Insurance Information Program (SHIIP)"],
+    sourceUrl: 'https://www.ncdoi.gov/blog/2025/10/29/protect-yourself-during-medicares-open-enrollment-period',
+    country: 'US',
+    state: 'NC',
+});
+
+UsNS.push({
+    name: 'New Hampshire E-ZPass Toll Impersonation Text Scam',
+    slug: 'new-hampshire-ezpass-toll-text-smishing-scam',
+    description: `Beginning in early 2025, New Hampshire drivers received text messages impersonating E-ZPass, falsely claiming an unpaid toll invoice and threatening "excessive fees," "potential legal action," and vehicle-registration suspension unless paid within hours through an embedded link. On March 4, 2025, New Hampshire Attorney General John Formella and Transportation Commissioner William Cass issued a joint consumer alert confirming that NH E-ZPass never requests payment by text, as the campaign — part of a broader multi-state smishing wave — continued targeting Granite State drivers. Unlike the court-summons and QR-code text scams already circulating in the state, this one exploits a routine everyday obligation, an unpaid toll, rather than a legal threat. Residents are urged to forward suspicious texts to 7726 (SPAM), delete without clicking, and verify any toll balance only through the official ezpassnh.com site or app.`,
+    categorySlug: 'phishing',
+    alertLevel: 'high',
+    sources: ['New Hampshire Department of Justice (Office of the Attorney General)', 'New Hampshire Department of Transportation'],
+    sourceUrl: 'https://www.dover.nh.gov/services/online-services/news-events/news-2025/consumer-alert-ag-dot-warn-of-ezpass-impersonation-scam-in-nh.html',
+    country: 'US',
+    state: 'NH',
 });
