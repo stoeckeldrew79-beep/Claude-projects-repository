@@ -418,23 +418,6 @@ Voigt's scheme worked for a reason that outlasted Prussian militarism by more th
     coverImagePosition: 50,
   },
 {
-    title: '"Yellow Kid" Weil: The Confidence Man Who Said His Victims Had "Larceny in Their Hearts"',
-    slug: 'yellow-kid-weil-confidence-man',
-    author: 'ScamShield Editorial',
-    tags: ['notorious', 'notorious-scammer', 'historical'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Joseph_%22Yellow_Kid%22_Weil_1918_(cropped).jpg?width=1200',
-    coverImageCredit: 'Photo: Chicago Daily News, 1918 (public domain)',
-    coverImagePosition: 50,
-    body: `Joseph "Yellow Kid" Weil worked the confidence game for more than fifty years, from the 1890s into the 1940s, and by his own later estimate took in over $8 million from marks across the country — an enormous sum built almost entirely on elaborate stagecraft rather than force or even much risk of violence.
-
-Weil's signature method was the "big store" con, a technique later dramatized in the film "The Sting": he and a rotating cast of accomplices would rent an empty office or storefront and, for a single mark, transform it overnight into a completely convincing fake bank, brokerage, or oil company, staffed with confederates playing tellers, brokers, and other "customers." A victim who had been carefully identified and courted in advance would be brought in, shown what looked like real transactions producing real profits, and invited to invest — only to discover, after handing over his money, that the entire operation had been struck down and vanished by the next morning. Weil ran versions of this con selling fake mining and oil stock, phony "insider" racing tips, and fabricated real-estate deals, and he claimed among his marks a brother of banking magnate Andrew Mellon and, according to his own account, even swindled money from Benito Mussolini.
-
-Weil was arrested repeatedly over his career and served roughly six years total in prison, including time at Leavenworth, but the sheer craft of his schemes — and his refusal to use violence or intimidation — made him something of a folk figure even among the law enforcement that pursued him. He gave interviews late in life defending the con man's trade with a line that became his epitaph in the press: "Actually, I never cheated an honest man," he said, insisting that his marks were themselves drawn in by greed, hoping to profit from an "inside" deal that wasn't available to ordinary investors — "each of my victims had larceny in his heart."
-
-Weil died in Chicago in 1976, aged 100, having outlived the era of hand-built confidence rackets he helped define. His self-serving rationalization — that a con only works on someone hoping to cheat someone else first — remains one of the oldest and most persistent excuses scammers offer for their own conduct, and one worth naming precisely because it's wrong: legitimate investors get defrauded by convincing fake operations every day without any greed of their own to blame, then and now.`,
-    sourceUrl: 'https://www.chicagotribune.com/1990/12/20/without-these-famous-or-infamous-characters-chicagos-history-just-wouldnt-be-the-same/',
-  },
-{
     title: 'Vijay Mallya and the $1.4 Billion "King of Good Times" Left Unpaid',
     slug: 'vijay-mallya-kingfisher-airlines-bank-fraud',
     author: 'ScamShield Editorial',
