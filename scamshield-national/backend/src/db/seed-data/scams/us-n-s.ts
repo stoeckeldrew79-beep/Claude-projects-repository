@@ -4545,6 +4545,34 @@ UsNS.push({
 });
 
 UsNS.push({
+    name: "North Carolina's 1945 Insurance Fraud Law and the Nation's Oldest State Fraud Unit",
+    slug: 'north-carolina-1945-insurance-fraud-unit-origin',
+    description: `In 1945, the North Carolina General Assembly gave the Department of Insurance's Investigations Division statutory law-enforcement authority over insurance fraud, insurance-agent embezzlement, and other insurance-related financial crimes — a unit the Department of Insurance describes today as the oldest fraud-investigations division of its kind in the nation. The Division's authority widened again in a July 1973 overhaul of North Carolina's criminal-justice system, which gave its investigators full statewide general law-enforcement power rather than the narrower insurance-specific authority they had held since 1945. That eighty-year-old unit is still the one making cases today: it was the Department of Insurance's Criminal Investigations Division that ran the "bait house" sting — a monitored property built specifically to catch a contractor in the act of causing damage — that caught Charlotte roofers Brett and Robert Bentley intentionally damaging homeowners' roofs to manufacture insurance claims, the exact scheme documented in this database's Wake County "Bait House" Staged-Damage Roofing Insurance Fraud entry. The throughline is direct: the same law-enforcement authority North Carolina created specifically to police insurance fraud in 1945 is still the one catching staged-damage roofing schemes eight decades later.`,
+    categorySlug: 'insurance-fraud',
+    alertLevel: 'medium',
+    sources: ['North Carolina Department of Insurance'],
+    sourceUrl: 'https://www.ncdoi.gov/fraud-control/criminal-investigations',
+    country: 'US',
+    state: 'NC',
+    isHistorical: true,
+    firstRecorded: '1945-01-01',
+});
+
+UsNS.push({
+    name: "North Carolina's Post-Katrina Price-Gouging Law, Built to Reach Disasters That Never Touch the State",
+    slug: 'north-carolina-2006-price-gouging-law-katrina-origin',
+    description: `North Carolina's first price-gouging law, passed by the General Assembly in 2003 after a string of natural disasters, had a gap that became obvious within two years: it only applied to counties where North Carolina itself had officially declared a disaster or state of emergency. When Hurricane Katrina struck the Gulf Coast in 2005 and drove gasoline prices sharply higher across North Carolina anyway, the Attorney General's office had no legal basis to investigate the price spikes consumers were actually paying at the pump, because no North Carolina disaster had ever been declared. The General Assembly closed that gap in its 2006 Short Session by adding a new trigger, an "abnormal market condition," which the Governor can find whenever a federal disaster or emergency declaration anywhere in the country has significantly disrupted goods or services North Carolinians depend on, whether or not the underlying disaster ever touches North Carolina itself. The law specifically names the categories of post-disaster exploitation regulators still watch for today: inflated prices for gasoline, generators, water, ice, and batteries, and, just as relevant to the storm-chasing schemes this database tracks, hotel rooms, roofing, and tree-cutting services from out-of-town operators who "set up shop during a disaster," with violations carrying a $5,000 civil penalty and exposing violators to a private lawsuit for treble damages. That same disaster-driven exploitation is exactly what North Carolina's Attorney General warned residents about after Hurricane Helene devastated the western part of the state in 2024, when scammers posed as FEMA inspectors demanding fees and bank details from storm survivors, documented in this database's North Carolina Hurricane Helene FEMA Impersonation Scam entry. The law and the scam are two sides of the same pattern: North Carolina's disasters reliably draw operators looking to exploit both consumers directly and the disaster-relief process itself, which is exactly why the state built a law broad enough to reach exploitation regardless of where the underlying disaster actually struck.`,
+    categorySlug: 'home-improvement-solar',
+    alertLevel: 'medium',
+    sources: ['NC Retail Merchants Association', 'North Carolina General Assembly'],
+    sourceUrl: 'https://cdn.ymaws.com/ncrma.site-ym.com/resource/resmgr/ncem/how_to_comply_price_gouging.pdf',
+    country: 'US',
+    state: 'NC',
+    isHistorical: true,
+    firstRecorded: '2003-01-01',
+});
+
+UsNS.push({
     name: `Craven County Multi-State Romance Scam (Christina Julian)`,
     slug: 'north-carolina-craven-county-christina-julian-romance-scam',
     description: `Christina Jane Julian, 56, of Naples, Florida, built fake profiles on dating sites and social media, cultivated relationships with victims over months of communication, then invented urgent financial crises to convince them to send money — netting an estimated $3 million from victims across the country over roughly six years, according to the Craven County Sheriff's Office. In the North Carolina case, Julian is accused of convincing a Craven County woman to send $139,900 between July 21 and August 28, 2025, after telling her the money was needed to help an unnamed man "get back" to the United States. The Craven County Sheriff's Office, working with the North Carolina State Bureau of Investigation, had Julian extradited from Florida on January 21, 2026, and she was charged with felony obtaining property by false pretense in excess of $100,000 and felony exploiting the elderly, held on a $350,000 secured bond at the Craven County Confinement Facility. The case illustrates how a romance scam's financial "emergency" can persist for months rather than being a single request: the Federal Trade Commission advises anyone who has never met an online partner in person to be skeptical of any request for money, especially one tied to travel, customs, or immigration costs, and to stop sending money and contact local law enforcement immediately once a pattern of repeated requests emerges.`,
