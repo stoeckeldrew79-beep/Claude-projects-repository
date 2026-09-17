@@ -4294,3 +4294,29 @@ UsTZ.push({
     firstRecorded: '2020-11-01',
     state: 'VI',
 });
+
+UsTZ.push({
+    name: 'Wisconsin Fake Utility Provider "Overdue Bill" Imposter Scam',
+    slug: 'wisconsin-fake-utility-provider-overdue-bill-scam',
+    description: `The Wisconsin Department of Agriculture, Trade and Consumer Protection (DATCP) issued a consumer alert on April 22, 2026 describing a surge of calls from scammers impersonating Wisconsin electric, gas, and water utilities. Callers, who can spoof caller ID to display the real utility's name and number, falsely claim a customer's account is overdue and threaten immediate service disconnection unless payment is made right away. Victims are pressured to pay through hard-to-reverse and hard-to-trace methods: cryptocurrency, gift cards, banking or peer-to-peer apps, or wire transfer. In one case cited in the alert, a business owner was sent a barcode and told to take it to a specific retail store to pay several hundred dollars toward a fabricated overdue balance. DATCP notes that real utilities send multiple written notices before any disconnection threat and never demand instant payment by gift card or cryptocurrency, and advises anyone contacted this way to hang up and call the utility back using the number on a past bill or the company's official website, never a number given by the caller.`,
+    categorySlug: 'utility-scams',
+    alertLevel: 'high',
+    sources: ['Wisconsin Department of Agriculture, Trade and Consumer Protection (DATCP)'],
+    sourceUrl: 'https://datcp.wi.gov/Pages/News_Media/20260421ConsumerAlertRiseInUtilityImposterScams.aspx',
+    country: 'US',
+    firstRecorded: '2026-04-22',
+    state: 'WI',
+});
+
+UsTZ.push({
+    name: 'Wisconsin BBB Household Moving Company "Hostage Load" Scam',
+    slug: 'wisconsin-bbb-moving-company-hostage-load-scam',
+    description: `The Wisconsin Better Business Bureau issued a scam alert on April 30, 2026 warning about fraudulent and predatory moving companies, after Wisconsin logged more than fifty BBB Scam Tracker complaints against local movers in a single year, with moving-scam complainants nationally reporting a median loss of $532 in 2025. The BBB detailed four recurring tactics: no-show fraud, where a mover takes a deposit and never appears — in one cited Wisconsin case a consumer paid a $360 deposit via Zelle for a quoted $720 job and the movers never showed; unauthorized card overcharges beyond the quoted price; bogus weight-based upcharges, sometimes doubling the original estimate, invoked only after the truck is already loaded; and the "hostage load" tactic, in which movers load a customer's belongings, then either drive off with them or refuse to deliver them until an additional fee is paid. In another cited Wisconsin complaint, a customer quoted $1,595 was billed $505 more than promised, and workers allegedly drove off without unloading the truck. The BBB urges consumers to get several written in-home estimates, verify a mover's USDOT number, pay by credit card rather than cash, wire, or a peer-to-peer app, and avoid any company that asks for a large deposit up front.`,
+    categorySlug: 'mortgage-foreclosure-scams',
+    alertLevel: 'medium',
+    sources: ['Better Business Bureau of Wisconsin'],
+    sourceUrl: 'https://www.wisbusiness.com/2026/wisconsin-better-business-bureau-bbb-scam-alert-moving-scams/',
+    country: 'US',
+    firstRecorded: '2026-04-30',
+    state: 'WI',
+});
