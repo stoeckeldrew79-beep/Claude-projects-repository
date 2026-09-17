@@ -10146,6 +10146,23 @@ Kapa's scale, by the time it collapsed, made it the largest investment scam in P
 });
 
 NotoriousGM.push({
+    title: 'John Lytle, Bill Patterson, and the Penn Square Kickback Scheme That Nearly Sank Continental Illinois',
+    slug: 'john-lytle-bill-patterson-penn-square-continental-illinois-kickback',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'bank-fraud', 'historical'],
+    body: `Penn Square Bank was a small, unglamorous institution tucked into the back of an Oklahoma City shopping mall, but during the late-1970s oil boom it became one of the most aggressive energy lenders in the country, its assets ballooning more than fifteen-fold to $525 million between 1974 and 1982. Rather than hold the risk itself, Penn Square packaged huge volumes of the wildcat drilling loans it wrote and sold "participations" in them to larger banks around the country, effectively renting out its own recklessness to institutions that trusted its underwriting far more than they should have.
+
+The biggest buyer was Continental Illinois National Bank, then one of the largest banks in America, where oil-and-gas lending executive John Lytle authorized the purchase of nearly $1 billion in Penn Square loan participations, a figure that had grown from $250 million in December 1980 to more than $1.056 billion by the time Penn Square collapsed in June 1982. Congressional testimony later established that Lytle wasn't just an overly trusting banker: prosecutors showed he had accepted roughly $565,000 in unsecured, low-interest personal loans from Penn Square's own energy-lending chief, Bill Patterson, in 1981 and 1982, while continuing to wave through participation after participation in loans Penn Square's own examiners were already flagging as troubled.
+
+Regulators saw the danger building well before the public did. The Comptroller of the Currency found banking violations at Penn Square as early as April 1980 but never notified the correspondent banks buying its loans, and by July 1981 had privately warned Penn Square's own board that the bank was "flirting with disaster" — a warning Continental says it was never shown. When oil prices, which had underwritten the loans' assumptions at $40 a barrel, began sliding toward $25, the wildcatters started defaulting, Penn Square's chargeoffs mounted, and on July 5, 1982, the Office of the Comptroller of the Currency shut the bank down, wiping out its uninsured depositors and setting off what regulators at the time called a domino effect through the banking system.
+
+Continental Illinois absorbed the worst of it, writing off hundreds of millions of dollars in bad Penn Square paper on top of its own oil-and-gas exposure, and by 1984 the bank was so weakened that the FDIC had to organize a $4.5 billion rescue, at the time the largest bank bailout in American history and a direct forerunner of the "too big to fail" doctrine that would define banking-crisis policy for decades afterward. The criminal case against Lytle and Patterson took years to resolve — an earlier 1984 trial on related charges left Patterson acquitted on all but two deadlocked counts — before both men pleaded guilty in 1988 to the underlying kickback scheme; U.S. District Judge Milton Shadur sentenced Lytle to three years in prison and Patterson, who pleaded guilty to aiding and abetting Lytle, to two.
+
+The Penn Square collapse remains a foundational case study in how a relatively small, poorly supervised lender can transmit its own fraud into the balance sheet of a bank many times its size, simply by selling that risk onward faster than anyone downstream can verify it — and how a personal kickback to a single loan officer, worth a fraction of one percent of the billion dollars it helped wave through, was enough to help push one of the country's largest banks to the edge of failure.`,
+    sourceUrl: 'https://fraser.stlouisfed.org/title/penn-square-bank-failure-748/part-2-23605/fulltext',
+});
+
+NotoriousGM.push({
     title: 'Michael Thomson and the £237 Million London Capital & Finance Mini-Bond Ponzi Scheme',
     slug: 'michael-thomson-london-capital-finance-mini-bond-ponzi-scheme',
     author: 'ScamShield Editorial',
