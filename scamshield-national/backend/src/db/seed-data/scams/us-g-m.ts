@@ -7762,3 +7762,15 @@ UsGM.push({
     country: 'US',
     state: 'OK',
 });
+
+UsGM.push({
+    name: 'Middle District of Louisiana Federal Jury-Duty Phone Impersonation Scam',
+    slug: 'louisiana-middle-district-jury-duty-phone-impersonation-scam',
+    description: `On July 22, 2025, the U.S. District Court for the Middle District of Louisiana and the U.S. Marshals Service issued a public warning about a jury-duty impersonation scam circulating in the district. Callers spoof caller ID so calls appear to come from the court or another government agency, then claim the recipient missed federal jury duty and can avoid arrest only by paying a fine immediately. To sound credible, the callers cite real-sounding officer titles, badge numbers, judge names, and courtroom addresses, and in some versions send victims official-looking fake warrant documents. They demand immediate payment and often ask for personal identifying information along with it. The court and Marshals Service stress that federal courts never call prospective or empaneled jurors to demand money or personal information over the phone, and never threaten same-day arrest for a missed jury summons — actual notices are handled by mail, and any real issue is resolved through a court appearance, not a phone payment. Anyone who receives such a call is urged to hang up and report it, along with any caller ID information, to the local U.S. Marshals Service office or FBI field office.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['U.S. District Court, Middle District of Louisiana', 'U.S. Marshals Service'],
+    sourceUrl: 'https://www.lamd.uscourts.gov/news/notice-jury-duty-scam',
+    country: 'US',
+    state: 'LA',
+});
