@@ -8415,19 +8415,19 @@ A FOREX trading claim is, for most investors, close to unverifiable — currency
   },
 );
 
-// No rights-cleared photo of Burns has surfaced (he has been a fugitive
-// since 2020; the FBI's own wanted-poster image is not on Wikimedia
-// Commons) — sourceUrl below serves as the "read the full story" link
-// instead of a generic photo.
+// No rights-cleared portrait of Burns has surfaced (he has been a
+// fugitive since 2020; the FBI's own wanted-poster image is not on
+// Wikimedia Commons) — using a geographically-connected photo instead.
 NotoriousAF.push(
   {
     title: 'Christopher W. Burns: The Georgia Financial Adviser Who Vanished the Day Before Handing Documents to the SEC',
     slug: 'christopher-w-burns-dynamic-money-fugitive-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Piedmont_Park%E2%80%99s_Lake_Clara_Meer_with_Midtown_Atlanta_skyline_(2024)-104A8428.jpg?width=1200',
-    coverImageCredit: 'Atlanta, where Burns built his profile as an adviser and radio host. Photo: Frank Schulenburg (CC BY-SA 4.0)',
-    coverImagePosition: 45,
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Downtown_Atlanta_skyline,_Georgia_Tech.jpg?width=1200',
+    coverImageCredit: 'Photo: JJonahJackalope, CC BY-SA 4.0, via Wikimedia Commons — Atlanta, where Burns ran his firm before vanishing',
+    coverImagePosition: 50,
     body: `Christopher W. Burns built a public profile in the Atlanta area as a financial adviser and radio personality, running Investus Advisers LLC under the name Dynamic Money and hosting a self-titled radio show that doubled as marketing for his firm. Starting around early 2017, prosecutors say, Burns began steering clients and radio listeners into promissory notes issued by two other companies he controlled, Investus Financial LLC and Peer Connect LLC, pitched as a "peer-to-peer" lending program that funneled investor money to small businesses in need of capital. Burns told investors the notes were backed by collateral, personally guaranteed them against loss, and described the investment as carrying little to no risk.
 
 According to the Securities and Exchange Commission, none of that was true. The collateral and brokerage accounts Burns pointed to as backing the notes either didn't exist or were worth far less than he claimed, and the "peer-to-peer" lending program itself was largely a fiction. By the time the scheme unwound, Burns had sold more than $10 million in promissory notes to roughly 90 investors across Georgia, North Carolina, and Florida. Rather than funding small-business loans, prosecutors say the money paid off earlier investors Ponzi-style and covered Burns's own expenses, including a lake house, vehicles, and the radio airtime that kept bringing in new investors.
@@ -8441,17 +8441,18 @@ Burns's pitch worked because it borrowed the trust-building tools of legitimate 
   },
 );
 
-// No rights-cleared photo of Cohen has surfaced — he is a private individual
-// with no Wikimedia Commons portrait or public-domain mugshot located, so
-// sourceUrl serves as the "read the full story" link instead of a photo.
+// No rights-cleared portrait of Cohen has surfaced — he is a private
+// individual with no Wikimedia Commons portrait or public-domain mugshot
+// located — using a thematically-connected photo instead.
 NotoriousAF.push(
   {
     title: 'Darryl Cohen and the $5 Million Life-Insurance Markup Scheme That Targeted His Own NBA Clients',
     slug: 'darryl-cohen-nba-players-life-settlement-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/NBA_preseason_game_between_Indiana_Pacers_and_Denver_Nuggets_at_Taipei_Arena_20091008.jpg?width=1200',
-    coverImageCredit: 'Cohen’s advisory clients were professional basketball players. Photo: 黃 zero (CC BY-SA 2.0)',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/New_York_Stock_Exchange_June_2024.jpg?width=1200',
+    coverImageCredit: 'Photo: Kidfly182, CC BY 4.0, via Wikimedia Commons — the NYSE, near Cohen\'s Morgan Stanley office and the SDNY court that charged him',
     coverImagePosition: 50,
     body: `Darryl Matthew Cohen spent years building the kind of resume that makes a financial adviser easy to trust: twelve years at Wells Fargo, a stint at Merrill Lynch, and from June 2015 to April 2021, a position as a broker and investment adviser at Morgan Stanley. Through that role he built a client roster that included professional athletes, and between October 2017 and April 2020, prosecutors say, he used the fiduciary trust three NBA players — Jrue Holiday, Chandler Parsons, and Courtney Lee — placed in him to steer them into one of the more obscure corners of the insurance market: viatical life settlements, in which investors buy an existing life insurance policy from someone else, typically at a discount, and collect the death benefit when the original policyholder dies.
 
@@ -9446,4 +9447,49 @@ The FDIC sued Bush and ten other former Silverado directors and officers, seekin
 
 Bush's case became a defining symbol of the savings-and-loan crisis less because of the dollar amounts involved — his was far from the largest S&L failure — than because of what it illustrated about board oversight: a director can sit on a lending institution's board, vote to approve tens of millions of dollars in loans to people who are simultaneously his own business's creditors, and face only civil penalties and a settlement covered by insurance rather than personal financial consequences or criminal charges. The case remains a reference point for why bank and thrift directors are now required to disclose far more of their own financial relationships with borrowers before voting on a loan, precisely because Silverado showed how much damage an undisclosed conflict on a lending committee could do before anyone outside the room noticed.`,
     sourceUrl: 'https://time.com/archive/6716030/running-with-a-bad-crowd-neil-bush-the-1-billion-silverado-debacle/',
+});
+
+NotoriousAF.push({
+    title: "Albania's 1997 Pyramid Scheme Collapse: How Fake Investment Firms Brought Down a Government",
+    slug: 'albania-1997-pyramid-scheme-collapse-vefa-sudja',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'ponzi-scheme', 'international', 'historical'],
+    body: `Albania emerged from decades of isolated communist rule in the early 1990s with almost no functioning banking system, financial regulation, or public experience with private investment — conditions that let a wave of pyramid schemes grow, within just a few years, into liabilities estimated at $1.2 billion, nearly half the country's entire GDP. The largest was Vefa Holding, founded in 1994 by Vehbi Alimuçaj, which drew in some of the country's more affluent investors, including government employees, by presenting itself as a legitimate diversified business conglomerate rather than an obvious money game. Smaller schemes followed the same template with cruder marketing: Sudja, run by former factory worker Maksude Kademi, promised investors returns of up to 50 percent, while Populli, Gjallica, and the fund known as Xhaferri, fronted by former army general Rapush Xhaferi, competed for deposits with increasingly implausible rates as the market grew.
+
+By 1996, at its peak, roughly one in six Albanians had invested directly in one of these schemes, and by some estimates nearly two-thirds of the population had money riding on them either directly or through family members, drawn in by returns that dwarfed anything a real bank could offer. The mechanics were the same fraud that has bankrupted investors for centuries: new deposits paid the "returns" advertised to earlier investors, creating the appearance of a thriving business with no underlying revenue to sustain it, in a country where financial literacy and regulatory oversight were both essentially nonexistent after communism's collapse.
+
+The unraveling began in November 1996, when Sudja started blocking withdrawals, and it formally collapsed in mid-January 1997, the same week the Gjallica scheme also went bankrupt. On January 16, 1997, the first protests broke out; within days demonstrations spread nationwide, growing into a full-scale rebellion as investors who had staked their life savings watched them disappear. State armories were looted for an estimated 656,000 weapons, 1.5 billion rounds of ammunition, and 3.5 million hand grenades, and the ensuing violence between civilians, gangs, police, and the army killed approximately 2,000 people over the following months. Prime Minister Aleksandër Meksi resigned in March 1997, United Nations peacekeepers were deployed to stabilize the country in April, and President Sali Berisha's party was voted out in elections that June, a collapse of government triggered directly by a wave of investment fraud rather than a foreign war or coup.
+
+Vefa Holding, the largest scheme, didn't formally go bankrupt until 1998, after most of the others had already fallen. Some operators fled the country entirely: Bashkim Driza, who ran one of the smaller pyramid funds, escaped Albania by helicopter during the chaos of 1997, was later detained in Uruguay in 2009, and managed to escape custody there before eventually being extradited. Albania's pyramid collapse remains one of the starkest illustrations on record of how catastrophically a Ponzi scheme can scale in a country with no regulatory infrastructure to catch it early — not a single company's fraud, but a systemic one that consumed a meaningful share of an entire nation's wealth and briefly ended its government, a reminder that "everyone is investing" is never evidence a return is real.`,
+    sourceUrl: 'https://www.imf.org/external/pubs/ft/fandd/2000/03/pdf/jarvis.pdf',
+});
+
+NotoriousAF.push({
+    title: "David Murcia Guzmán and DMG: Colombia's $4.8 Billion Prepaid-Card Ponzi Scheme",
+    slug: 'david-murcia-guzman-dmg-colombia-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'ponzi-scheme', 'international'],
+    body: `D.M.G. Grupo Holding S.A. presented itself as a retail and advertising business rather than an investment company, a distinction that let it operate almost entirely outside Colombia's financial regulators for years. Customers bought prepaid debit cards from DMG, loaded with a minimum of roughly $700, and were told that if they held off spending for six months and recruited new members into the "DMG Family," they would earn "advertising rewards" or "points" — a semantic sleight of hand that let founder David Murcia Guzmán insist the payouts were publicity earnings rather than interest or investment returns, and route the company's regulatory filings to Colombia's Superintendence of Societies rather than its far stricter Financial Superintendence.
+
+The actual returns dwarfed anything a legitimate account could offer: DMG's "points" translated to gains of roughly 75 to 150 percent within a year, spreading almost entirely by word of mouth in a country where a large share of the population had no access to formal banking. At its peak DMG drew in an estimated 4 million investors in a nation of 45 million, moving approximately $4.8 billion through the scheme in 2008 alone and expanding into Ecuador, Venezuela, and Panama. Beneath the retail-store veneer, investigators later found the operation had also become a laundering vehicle for drug-trafficking proceeds, with associates including legal adviser Margarita Pabón Castro and public-relations head Daniel Ángel Rueda setting up hundreds of shell companies across Colombia and Panama specifically to obscure where the cash flowing through DMG's card network had actually come from.
+
+The collapse came fast once it started. A smaller copycat scheme, Proyecciones DRFE, defaulted in late 2008 and triggered a wave of panic withdrawals across every similar operator in the country; President Álvaro Uribe declared a national "State of Social and Economic Emergency" on November 17, 2008, and police raided DMG's offices two days later, arresting Murcia in Panama that same day, November 19. The intervention itself set off riots: police sent to shut down DMG branches were attacked by the very investors whose money they were trying to protect, and thousands of people who had mortgaged homes or emptied savings to buy into the scheme flooded the streets across the country.
+
+Murcia was extradited to the United States, where he served nine years for money laundering before being returned to Colombia to face a separate prosecution, ultimately convicted of money laundering and illicit enrichment and sentenced to 30 years in prison along with a $12.5 million fine; he remains incarcerated at La Picota prison in Bogotá. The case also exposed how deep DMG's money had reached into Colombian politics: a 2026 presidential candidate resigned as Murcia's lead defense counsel after audio recordings suggested cash payments were discussed for political "lobbying," and a separate former presidential candidate, Francisco Rojas Birry, was convicted for accepting DMG funds for his own campaign. The DMG collapse remains one of Latin America's largest Ponzi schemes on record, and a reminder that a company avoiding the word "investment" — calling a return a "reward," a "point," or "advertising revenue" instead — is often doing so specifically to dodge the regulator built to catch exactly this kind of fraud.`,
+    sourceUrl: 'https://colombiaone.com/2026/02/01/colombia-dmg-ponzi-scheme/',
+});
+
+NotoriousAF.push({
+    title: "Benny Tjokrosaputro, Heru Hidayat, and Indonesia's $1.15 Billion Jiwasraya Insurance Scandal",
+    slug: 'benny-tjokrosaputro-heru-hidayat-jiwasraya-insurance-scandal',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'ponzi-scheme', 'international'],
+    body: `Jiwasraya was Indonesia's oldest state-owned life insurer, a company ordinary Indonesians trusted with retirement and savings policies precisely because it carried the government's name. Between 2008 and 2018, three of its own executives, president director Hendrisman Rahim, finance director Hary Prasetyo, and investment division head Syahmirwan, quietly redirected the company's asset portfolio away from safe, liquid investments and into low-quality stocks and mutual funds, then falsified financial reports to disguise the company's deteriorating condition, a technique prosecutors described as systematic "window dressing" that let Jiwasraya keep selling new policies while its actual reserves collapsed underneath it.
+
+The stocks Jiwasraya was directed to buy were not simply poor choices, prosecutors said, they were the raw material of a pump-and-dump scheme run by stockbroker Benny Tjokrosaputro and businessman Heru Hidayat. The two men and their associates artificially inflated the share prices of a cluster of companies, including Tjokrosaputro's own Hanson International, mining company SMR Utama, and shipping company Trada Alam Minera, then had Jiwasraya's investment managers buy in at the top, using the state insurer as a captive buyer for stock nobody else wanted at the price it was trading. When the shares inevitably lost their inflated value, the loss landed on Jiwasraya's own balance sheet and, ultimately, on the policyholders whose premiums had funded the purchases.
+
+The scale of the damage came to Rp 16.8 trillion, roughly $1.15 billion, in state losses, by Indonesian prosecutors' own account the largest financial fraud in the country's history at the time. An Indonesian corruption court convicted all five central figures in January 2020 and handed down maximum sentences: Tjokrosaputro and Hidayat each received life imprisonment, while Rahim, Prasetyo, and Syahmirwan received 15, 20, and 18 years respectively, sentences Indonesia's Supreme Court upheld on appeal. Tjokrosaputro was separately ordered to pay Rp 6.07 trillion and Hidayat Rp 10.72 trillion in compensation toward the state's losses.
+
+Tjokrosaputro's pattern didn't end with Jiwasraya. In 2022, an Indonesian corruption court convicted him again, this time for orchestrating a nearly identical pump-and-dump scheme that defrauded a second state insurer, Asabri, fining him a further 5.7 trillion rupiah, about $371.67 million, though the court spared him additional prison time since he was already serving a life sentence. The Jiwasraya case is a reminder that a captive institutional buyer, a state-owned insurer directed by its own executives to purchase whatever an outside stock promoter is selling, can move enormous, opaque sums of money before regulators or the public ever see it: the fraud was hidden inside routine-looking investment activity at a company most Indonesians had no reason to distrust, for a full decade before it collapsed.`,
+    sourceUrl: 'https://www.thejakartapost.com/paper/2020/10/25/understanding-the-jiwasraya-scandal',
 });

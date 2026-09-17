@@ -3682,6 +3682,32 @@ export const UsGM: SeedScam[] = [
     sources: ["Federal Motor Carrier Safety Administration (US DOT)","FMCSA Operation Protect Your Move","FMCSA National Consumer Complaint Database"],
     sourceUrl: "https://www.fmcsa.dot.gov/consumer-protection/household-goods/operation-protect-your-move",
     country: "US",
+  },
+{
+    name: "Kentucky's 1920 Blue Sky Law and the Registration Requirement Nvest Portal Ignored",
+    slug: 'kentucky-1920-blue-sky-law-origin',
+    description: `Kentucky enacted its first securities law, "An Act to Prevent Fraud in the Sale of Stocks, Bonds and Other Securities" (Kentucky Laws 1920, Chapter 125), placing it in the second wave of states — after Kansas started the movement in 1911 — to require that securities and the people selling them be registered with a state authority before being offered to the public. The law arrived directly in response to a nationwide wave of speculative and outright fraudulent stock promotions in the 1910s that regulators said would sell "the blue sky itself" to gullible investors if left unchecked, and it established the basic registration framework that Kentucky's modern Division of Securities still administers today under KRS Chapter 292. That same registration requirement is exactly what this database's existing "Nvest Portal" Fake Trading Ponzi Scheme entry describes being ignored more than a century later: Mihir Deepak Sukthankar's password-protected investor website showed fabricated account balances and invented trading gains to Kentucky investors who wired in a combined $5.2 million, with no SEC or state securities registration behind any of it. Kentucky's 1920 law is the direct ancestor of the exact check that would have caught the Nvest Portal scheme before it grew: independently verifying a fund manager's registration with state or federal securities regulators rather than trusting numbers displayed on the manager's own website.`,
+    categorySlug: 'ponzi-pyramid-schemes',
+    country: 'US',
+    state: 'KY',
+    isHistorical: true,
+    firstRecorded: '1920-01-01',
+    alertLevel: 'medium',
+    sources: ['Kentucky Laws 1920, Chapter 125', 'UC Berkeley Law and Economics Workshop: "The Origins of the Blue Sky Laws"'],
+    sourceUrl: 'https://escholarship.org/content/qt6kt2238g/qt6kt2238g.pdf',
+  },
+{
+    name: "Kentucky's 1972 Consumer Protection Act and the Deceptive-Sales Order That Followed It",
+    slug: 'kentucky-1972-consumer-protection-act-origin',
+    description: `Kentucky's Consumer Protection Act, enacted in 1972 and codified at KRS Chapter 367, marked the state's first serious statutory effort to police unfair, false, misleading, or deceptive acts or practices in trade and commerce, creating a Division of Consumer Protection inside the Attorney General's Office of Consumer Protection with the power to investigate complaints and sue on consumers' behalf — before 1972, that division had existed since 1965 but without any specific statutory authority behind it. More than fifty years later, that exact office and that exact statutory authority are what this database's existing "Design 1 Solar Deceptive Sales Court Order" entry describes in action: after Design 1 Group generated nearly 200 consumer complaints for grossly misrepresenting solar-system savings and federal tax-credit eligibility, Kentucky Attorney General Russell Coleman's Office of Consumer Protection — the direct descendant of the 1972 Act's Division of Consumer Protection — investigated and won a December 2025 Franklin Circuit Court order barring the company from continuing the practices. The 1972 Act is the reason Kentucky consumers who file that kind of complaint have a state office with real investigative and enforcement authority behind them, rather than only a private lawsuit as their sole recourse.`,
+    categorySlug: 'home-improvement-solar',
+    country: 'US',
+    state: 'KY',
+    isHistorical: true,
+    firstRecorded: '1972-01-01',
+    alertLevel: 'medium',
+    sources: ['Kentucky Office of the Attorney General', 'Kentucky Law Journal'],
+    sourceUrl: 'https://www.ag.ky.gov/Resources/Consumer-Resources/Consumers/resources/Pages/statutes.aspx',
   },];
 
 UsGM.push({
@@ -7749,4 +7775,185 @@ UsGM.push({
     sources: ["Michigan Department of Attorney General, Consumer Protection consumer alert: Beware of \"Ghost Tapping\" Scams","Better Business Bureau warnings on in-store contactless payment fraud targeting holiday shoppers"],
     sourceUrl: "https://www.michigan.gov/consumerprotection/protect-yourself/consumer-alerts/scams/beware-of-ghost-tapping-scams",
     country: "US",
+});
+
+UsGM.push({
+    name: "Iowa's 2009 Private Right of Action Law and the Insurance Loophole That Still Applies Today",
+    slug: 'iowa-2009-private-right-of-action-consumer-fraud-act-origin',
+    description: `For decades, an Iowa consumer cheated by a fraudulent business had no way to sue over it themselves: Iowa was the last state in the nation without a general private right of action for consumer fraud, leaving enforcement entirely in the hands of the Attorney General's office, which could not possibly pursue every individual complaint. That changed on May 26, 2009, when Governor Chet Culver signed House File 712 into law as Chapter 167 of the Laws of the 83rd General Assembly, creating what is now Iowa Code Chapter 714H, the "Private Right of Action for Consumer Frauds Act," effective July 1, 2009. The new law let a consumer who suffered an ascertainable loss from an unfair practice, deception, fraud, false pretense, or misrepresentation sue directly for actual damages, attorney fees, and up to triple damages for willful violations, rather than waiting on the state to act on their behalf. But the statute's own exclusions section, 714H.4, carved out an unusually specific list of industries the new right of action would not reach, including, first on the list, "insurance companies subject to Title XIII," along with banks, attorneys, and several other licensed professions — a carve-out consumer advocates flagged as a weakness even as the bill was being signed. That exact gap is still live today: when the Iowa Insurance Division barred agent Starrla Ramae Norman for the annuity-churning scheme detailed in this database's own "Iowa Insurance Agent Barred for Annuity-Churning Scheme Targeting Retired Postal Workers" entry, the defrauded retiree's $44,954 in restitution came from an insurance-regulatory enforcement order, not a Chapter 714H consumer-fraud lawsuit, because the insurance-company exclusion Iowa wrote into the law in 2009 still stands, leaving Iowans defrauded by a licensed insurance agent dependent on the Insurance Division's own enforcement process rather than the private right of action the rest of the state's consumers have used since 2009.`,
+    categorySlug: 'insurance-fraud',
+    alertLevel: 'medium',
+    sources: ['Iowa Legislature — Laws of the 83rd General Assembly, 2009 Session, Chapter 167', 'Iowa Insurance Division'],
+    sourceUrl: 'https://www.legis.iowa.gov/docs/acts/2009/CH0167.pdf',
+    country: 'US',
+    state: 'IA',
+    isHistorical: true,
+    firstRecorded: '2009-05-26',
+});
+
+UsGM.push({
+    name: 'Indianapolis Nationwide "Grandparent Scam" Cash-Courier Ring (Jasaun Pope)',
+    slug: 'indianapolis-grandparent-scam-cash-courier-ring-jasaun-pope',
+    description: `An Indianapolis Metropolitan Police Department investigation, triggered in 2021 when Massachusetts police flagged an 81-year-old local scam victim, unraveled a nationwide "grandparent scam" ring that called elderly victims claiming a grandchild or relative was in urgent legal or medical trouble — a car crash, an arrest, a hospital bill — and needed cash immediately, often with a second caller posing as an attorney or police officer to lend the story false authority. Victims were directed to overnight cash, typically $5,000 to $15,000 at a time, to addresses tied to Jasaun Pope's network, which used vacant residences to collect the packages before victims or banks could catch on. Investigators identified 68 victims with more than $683,464 in documented losses, though only 36 could ultimately be reached. Five defendants were convicted and sentenced to federal prison in a case brought by the U.S. Attorney's Office for the Southern District of Indiana: Jasaun Pope (97 months), Darlens Renard (78 months), Princess Elizer (41 months), Kareem Brown (36 months), and Jennifer Glemeau (30 months). The FBI has separately reported more than 650 grandparent-scam reports nationally between January 2020 and June 2021 alone, causing $13 million in losses — a reminder of how widespread and organized these cash-courier operations are. Families are advised to agree on a verification question or code word in advance, and to always call the relative directly using a known number before sending any money in response to an urgent, tearful call claiming to be them.`,
+    categorySlug: 'grandparent-scams',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office for the Southern District of Indiana", 'Indianapolis Metropolitan Police Department'],
+    sourceUrl: 'https://www.justice.gov/usao-sdin/pr/five-face-federal-charges-alleged-nationwide-elder-fraud-scam',
+    country: 'US',
+    state: 'IN',
+});
+
+UsGM.push({
+    name: 'Glenpool Wolf Capital Crypto Trading Ponzi Scheme (Travis Ford)',
+    slug: 'oklahoma-glenpool-wolf-capital-crypto-trading-ponzi-scheme',
+    description: `Travis Ford, 36, of Glenpool, Oklahoma, was the CEO, co-founder, and head trader of Wolf Capital Crypto Trading LLC, which he marketed through the company's website and social media from January to August 2023. Ford told roughly 2,800 investors nationwide that his "sophisticated" trading strategy could reliably generate returns of 1 to 2 percent per day — an annualized rate of about 547 percent — and used those claims to raise approximately $9.4 million. In his guilty plea, Ford admitted he did not actually believe those returns were achievable and instead misappropriated and diverted investor funds for his own benefit and that of his co-conspirators, the classic pattern of a Ponzi-style crypto trading scheme rather than a genuine trading operation. He pleaded guilty in January 2025 to one count of conspiracy to commit wire fraud, and on November 14, 2025, was sentenced to 60 months in federal prison. He was also ordered to forfeit more than $1 million and pay over $170,000 in restitution to victims. The case was prosecuted by the Justice Department's Fraud Section and investigated by the U.S. Postal Inspection Service's Criminal Investigations Group. A guaranteed daily return that annualizes to several hundred percent is not a sign of a skilled trader — it is a mathematical impossibility no legitimate trading strategy can sustain, and it is exactly the kind of claim that should end due diligence rather than start a wire transfer.`,
+    categorySlug: 'cryptocurrency-scams',
+    alertLevel: 'high',
+    sources: ["U.S. Department of Justice", "U.S. Postal Inspection Service"],
+    sourceUrl: 'https://www.justice.gov/opa/pr/cryptocurrency-investment-firm-founder-sentenced-five-years-prison-defrauding-investors-94m',
+    country: 'US',
+    state: 'OK',
+});
+
+UsGM.push({
+    name: 'Middle District of Louisiana Federal Jury-Duty Phone Impersonation Scam',
+    slug: 'louisiana-middle-district-jury-duty-phone-impersonation-scam',
+    description: `On July 22, 2025, the U.S. District Court for the Middle District of Louisiana and the U.S. Marshals Service issued a public warning about a jury-duty impersonation scam circulating in the district. Callers spoof caller ID so calls appear to come from the court or another government agency, then claim the recipient missed federal jury duty and can avoid arrest only by paying a fine immediately. To sound credible, the callers cite real-sounding officer titles, badge numbers, judge names, and courtroom addresses, and in some versions send victims official-looking fake warrant documents. They demand immediate payment and often ask for personal identifying information along with it. The court and Marshals Service stress that federal courts never call prospective or empaneled jurors to demand money or personal information over the phone, and never threaten same-day arrest for a missed jury summons — actual notices are handled by mail, and any real issue is resolved through a court appearance, not a phone payment. Anyone who receives such a call is urged to hang up and report it, along with any caller ID information, to the local U.S. Marshals Service office or FBI field office.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['U.S. District Court, Middle District of Louisiana', 'U.S. Marshals Service'],
+    sourceUrl: 'https://www.lamd.uscourts.gov/news/notice-jury-duty-scam',
+    country: 'US',
+    state: 'LA',
+});
+
+UsGM.push({
+    name: 'Mercari Seller "Additional Verification" Phishing Scam',
+    slug: 'mercari-seller-verification-phishing-scam',
+    description: `Starting in December 2024, fraudsters began messaging Mercari sellers through the platform's own in-app chat, impersonating Mercari support with fake profile photos and account names containing words like "help" or "verify," claiming the seller must complete "additional verification due to new rules" before being paid. The messages directed sellers to contact a generic Gmail address, a text-message number, or a look-alike domain such as mercaribot.su — none of which are official Mercari channels — where sellers who complied were asked to hand over login credentials or financial details, giving scammers access to their seller account and payout information. Reports from confused sellers documented the pattern spreading rapidly in real time as victims struggled to get answers through Mercari's own support channels, and on December 27, 2024, Mercari itself confirmed the scam and stated the company "will never ask to complete verification via chat or direct messaging" and warned users not to click on external links sent through in-app messages. Anyone contacted this way should ignore the message and check their account status only inside the official Mercari app, never through a link or contact method supplied by the person claiming to need "verification."`,
+    categorySlug: 'account-takeover',
+    alertLevel: 'medium',
+    sources: ['Mercari'],
+    sourceUrl: 'https://www.valueaddedresource.net/mercari-verification-phishing-spam/',
+    country: 'US',
+});
+
+UsGM.push({
+    name: 'Millcreek Stolen-Check Bank Fraud and Money Laundering Ring (Pitshou Yunga Kafuku)',
+    slug: 'millcreek-stolen-check-bank-fraud-kafuku',
+    description: `Between 2022 and 2025, Pitshou Yunga Kafuku, a U.S.-Congolese citizen living in Millcreek, Utah, ran a check fraud and money laundering conspiracy that stole roughly $1.7 million from banks. Kafuku obtained stolen checks taken from the mail through contacts in South Africa, then recruited and directed a small network of fellow African expatriates in Utah, including co-conspirators Hugues Thierry Simo-Fotue and Beni Musogo Kahwara, to open bank accounts using fraudulent identification documents. The conspirators deposited the stolen checks into these accounts and then withdrew the proceeds as cash, transferred the money into other fraudulent accounts to further launder it, or used it to purchase heavy equipment shipped to Africa, with most of the stolen funds going toward funding Kafuku's own lifestyle. Kafuku, who had a prior 2018 federal felony conviction for identity theft, pleaded guilty to bank fraud conspiracy, bank fraud, theft of government funds, and money laundering, and was sentenced in the District of Utah to 108 months in federal prison, five years of supervised release, and ordered to pay $1,749,158.73 in restitution. His co-conspirators Simo-Fotue and Kahwara, both in the country illegally, were sentenced separately to 24 and 18 months respectively and face deportation after their release. The case is a reminder that a fraudulently opened bank account is often the weak point in a stolen-check scheme: banks and consumers alike are advised to watch for identity documents that don't quite match a new account holder's stated details, and anyone who mails a check should consider dropping it at a post office counter rather than a collection box, since outgoing mail theft remains the starting point for this kind of fraud.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'medium',
+    sources: ['IRS Criminal Investigation', 'U.S. Postal Inspection Service'],
+    sourceUrl: 'https://www.irs.gov/compliance/criminal-investigation/us-congolese-citizen-sentenced-to-nine-years-imprisonment-for-sprawling-check-fraud-conspiracy',
+    country: 'US',
+    state: 'UT',
+});
+
+UsGM.push({
+    name: 'Kansas Holiday Puppy Scam Surge',
+    slug: 'kansas-holiday-puppy-scam-surge',
+    description: `Kansans searching online for specific dog breeds — French bulldogs among them — are matched with "sellers" who collect a deposit and then add escalating fees for crates, food, or shipping insurance, all while refusing to show the puppy in person or on a live video call. Per the Better Business Bureau, Kansas victims lost an average of $600 per incident during the 2025 holiday season, down from a $750 average at the 2022 peak, with December and January the worst months as buyers rush to surprise family for the holidays. BBB spokesperson Josh Planos flagged the word "teacup" in a listing as a major red flag, noting it appears in fraudulent ads at an especially high rate in Kansas and Nebraska; separately, an Olathe woman lost $1,500 buying what she believed was a therapy dog for her son through a Facebook Marketplace listing that never delivered an animal. Before paying anything for a pet advertised online, insist on a live video call showing the actual animal and never wire money or pay "last-minute" fees by gift card.`,
+    categorySlug: 'pet-sales-scams',
+    alertLevel: 'medium',
+    sources: ['KWCH (Wichita)', 'Better Business Bureau'],
+    sourceUrl: 'https://www.kwch.com/2025/11/21/puppy-scams-spike-during-holidays-costing-kansas-families-hundreds/',
+    country: 'US',
+    state: 'KS',
+});
+
+UsGM.push({
+    name: 'Kentucky Computer Virus Pop-Up Tech Support Scam',
+    slug: 'kentucky-computer-virus-pop-up-tech-support-scam',
+    description: `Kentucky's Attorney General's office warned in May 2019 that residents across Fayette, Johnson, Franklin, Jefferson, and other counties had collectively lost more than $90,000 to a fake computer-virus pop-up scam, with one Jefferson County victim alone losing $89,000 that was never recovered. Victims saw an on-screen pop-up falsely claiming their computer was infected and displaying an 800 number; callers posed as tech support, talked victims into granting remote access to their computers, then used that access to log into banking sites and drain accounts. Then-Attorney General Andy Beshear warned, "These scammers won't clean your hard drive, but they will clean out your bank account." Anyone who sees a pop-up like this should never grant remote computer access or make any payment, including by gift card, to a caller claiming to be tech support — legitimate companies like Microsoft do not initiate contact this way.`,
+    categorySlug: 'tech-support-scams',
+    alertLevel: 'high',
+    sources: ["Kentucky Attorney General's Office", 'WTVQ'],
+    sourceUrl: 'https://www.wtvq.com/kentuckians-report-losing-90000-computer-virus-scam/',
+    country: 'US',
+    state: 'KY',
+});
+
+UsGM.push({
+    name: 'Minnesota BCA/FBI Special-Agent Impersonation Spoofed-Call Scam',
+    slug: 'minnesota-bca-fbi-special-agent-caller-id-spoofing-scam',
+    description: `The Minnesota Bureau of Criminal Apprehension (BCA), working with the FBI's Minneapolis field office, warned Minnesotans that fraudsters are using caller-ID spoofing technology to impersonate real BCA and FBI special agents, making an incoming call display an official law-enforcement phone number. The callers claim the victim is under investigation and demand sensitive personal information — Social Security numbers, bank account details, and home addresses — to "resolve" the fake case, sometimes already possessing partial personal information about the target to sound more credible. The BCA emphasized that a genuine agent will always welcome a callback to the department's published main line to verify identity, and will never object to that verification step. Consumers who receive such a call should hang up and independently call the BCA's main number (651-793-7000) or the FBI's Minneapolis office (763-569-8000) rather than trusting caller ID or a number the caller provides.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Minnesota Bureau of Criminal Apprehension', 'Federal Bureau of Investigation — Minneapolis Field Office'],
+    sourceUrl: 'https://dps.mn.gov/news/bca-scammers-impersonating-special-agents-targeting-minnesotans',
+    country: 'US',
+    state: 'MN',
+});
+
+UsGM.push({
+    name: 'Minneapolis Lost-Pet "Fake Animal Control" Ransom Scam',
+    slug: 'minneapolis-lost-pet-animal-control-ransom-scam',
+    description: `Minneapolis Animal Care and Control (MACC) warned that scammers are trawling lost-pet posters and sites like PawBoost, then contacting distressed owners by phone or text — sometimes spoofing an actual City of Minneapolis phone number — claiming to be an animal control officer who has found the missing pet. The caller says the animal needs emergency veterinary surgery and sends a payment link demanding money upfront, typically around $1,500; in one case the scammer demanded half of a fabricated $3,201.96 vet bill. MACC director Tony Schendel and Minneapolis Chief Operations Officer Margaret Anderson Kelliher said the agency had logged 30 reports as of August 2024, with officials believing many more went unreported, and stressed that Minneapolis Animal Care and Control will never call or text a pet owner asking for money to reclaim or "save" their animal. Anyone contacted this way should hang up and call MACC directly at 612-673-6222 to verify before sending any payment.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Minneapolis Animal Care and Control', 'CBS News Minnesota'],
+    sourceUrl: 'https://www.cbsnews.com/minnesota/news/scammers-pretend-to-be-animal-control-officers-and-demand-money-for-lost-pets-return',
+    country: 'US',
+    state: 'MN',
+});
+
+UsGM.push({
+    name: "Kalihi Man's Instagram Sextortion of Teen Girls Worldwide",
+    slug: 'hawaii-kalihi-instagram-sextortion-devan-caulk',
+    description: `The FBI's Honolulu field office arrested Devan Caulk of Kalihi, Hawaii on July 22, 2025, charging him with sextorting teenage girls around the world through Instagram. According to federal investigators, Caulk posed as a peer or admirer to coax victims into sending explicit images and video, then threatened to distribute the material to the victims' family, friends, and followers unless they sent additional images, performed further acts on camera, or paid money — a pattern federal authorities say fits a broader nationwide and international surge in financially and sexually motivated sextortion targeting minors on social media. Investigators identified victims connected to the case in multiple countries, underscoring how a single offender working from Hawaii can reach and threaten teenagers well beyond the islands using nothing more than a social-media account. Parents and teens are urged to treat any threat to leak images as a sign to stop all contact immediately, preserve the messages as evidence rather than deleting them, and report to the FBI or NCMEC's CyberTipline rather than complying with a demand, since paying or sending more material does not make the threats stop.`,
+    categorySlug: 'sextortion',
+    alertLevel: 'critical',
+    sources: ['FBI Honolulu Field Office', 'Hawai\'i News Now'],
+    sourceUrl: 'https://www.hawaiinewsnow.com/2025/07/29/kalihi-man-arrested-by-fbi-charged-with-sextorting-teen-girls-around-world/',
+    country: 'US',
+    state: 'HI',
+});
+
+UsGM.push({
+    name: 'Hawaii Employment Scam Surge Among Young Job Seekers',
+    slug: 'hawaii-bbb-employment-scam-surge-2026',
+    description: `The Better Business Bureau warned in September 2026 that employment scams are surging among young job seekers in Hawaii, with the BBB logging 47 Hawaii reports and roughly $120,000 in losses tied to fake job offers. The schemes typically begin with an unsolicited message — often on a messaging app or social media rather than a legitimate job board — offering flexible, high-paying remote work with minimal qualifications required. Once a target expresses interest, the scammer moves quickly to request personal information for a supposed background check or direct-deposit setup, or asks the victim to purchase equipment, software licenses, or "training materials" upfront with a promise of reimbursement that never arrives. The BBB noted that younger and first-time job seekers, who may be less familiar with how legitimate employers actually onboard new hires, are disproportionately targeted. Job seekers are advised to verify any employer through its official website and a direct phone call before providing personal or financial information, to be wary of any job that requires payment for equipment or training before a first day of work, and to treat an offer that arrives entirely over text or social media, with no interview, as a red flag.`,
+    categorySlug: 'employment-scams',
+    alertLevel: 'medium',
+    sources: ['Better Business Bureau', 'KHON2'],
+    sourceUrl: 'https://www.khon2.com/news/scams/employment-scam-risk-hawaii/',
+    country: 'US',
+    state: 'HI',
+});
+
+UsGM.push({
+    name: 'Mississippi Winter Storm "Storm Chaser" Contractor Fraud',
+    slug: 'mississippi-winter-storm-chaser-contractor-fraud',
+    description: `Following a statewide winter storm, Mississippi Attorney General Lynn Fitch, Insurance Commissioner Mike Chaney, and the Mississippi State Board of Contractors issued a joint advisory on February 4, 2026 warning homeowners about "storm chasers" — unlicensed, often out-of-state contractors using high-pressure door-to-door sales tactics to sign storm-damage repair contracts on the spot. Fitch warned that "criminals take advantage of storm damage to turn a quick profit off others' misfortune," while Chaney urged residents not to make permanent repairs before their insurer inspects the property. MSBOC Executive Director Stephanie Lee noted that any residential project over $10,000 legally requires a state contractor license, a threshold many storm chasers ignore or falsify. Before signing anything or paying upfront, homeowners are urged to verify a contractor's license with the Mississippi State Board of Contractors and get a second opinion from their insurance adjuster.`,
+    categorySlug: 'home-improvement-solar',
+    alertLevel: 'medium',
+    sources: ["Mississippi Attorney General's Office (Lynn Fitch)", "Mississippi Insurance Commissioner's Office (Mike Chaney)", 'Mississippi State Board of Contractors'],
+    sourceUrl: 'https://desotocountynews.com/mississippi-news/state-officials-warn-of-post-storm-scammers/',
+    country: 'US',
+    state: 'MS',
+});
+
+UsGM.push({
+    name: 'Mississippi Relationship Investment Scam',
+    slug: 'mississippi-relationship-investment-scam',
+    description: `Ahead of Valentine's Day 2026, the Mississippi Secretary of State's Office (Michael Watson) warned residents about "relationship investment scams" — a hybrid of romance fraud and investment fraud in which scammers build a relationship on dating apps, social media, messaging apps, or through unsolicited "wrong number" texts, using fake profiles, AI-generated voices, and deepfake video to seem credible. Once trust and emotional attachment are established, the scammer steers the victim toward a fraudulent cryptocurrency or investment platform operated by a criminal network, escalating from small requests to large losses. Watson said his office "has continued to see an uptick in securities-related scams" tied to "artificial intelligence and cryptocurrency." Before sending money or "investing" with someone met only online, Mississippians are urged to verify any investment professional's credentials through the Secretary of State's Securities Division and never move money to a platform recommended by someone they haven't met in person.`,
+    categorySlug: 'romance-scams',
+    alertLevel: 'medium',
+    sources: ["Mississippi Secretary of State's Office (Michael Watson)", 'SuperTalk Mississippi'],
+    sourceUrl: 'https://www.supertalk.fm/mississippians-urged-to-be-on-alert-for-romance-scams-this-valentines-day/',
+    country: 'US',
+    state: 'MS',
+});
+
+UsGM.push({
+    name: 'Montgomery County "Grandparent Scam with a Twist" In-Home Cash Collection Scheme',
+    slug: 'maryland-montgomery-county-grandparent-scam-in-home-cash-collection',
+    description: `Montgomery County police warned residents in November 2020 about a variation on the classic "grandparent scam" in which callers claiming to be a lawyer, bail bondsman, or police officer told elderly residents that a grandchild had been arrested or hurt in a car accident and needed cash immediately for bail or medical bills — but instead of directing the victim to wire money or buy gift cards, the caller asked for the victim's home address and sent a courier to collect the cash in person. Detectives tied at least three cases to the pattern within a single week: an 84-year-old victim in Silver Spring on November 16, a 77-year-old victim also in Silver Spring on November 19, and an 81-year-old victim in Ashton on November 20, with callers instructing victims not to discuss the call with anyone else so they couldn't check the story. Because the "courier" shows up at the door rather than asking for a wire transfer or gift cards, the scheme sidesteps many of the warnings people now associate with grandparent scams, and can feel more credible precisely because it looks less like typical remote fraud. Police urged residents to never give out their address or hand cash to anyone claiming to represent a relative's legal or medical emergency without first hanging up and calling that family member directly at a number they already have, and to call police immediately if approached this way.`,
+    categorySlug: 'grandparent-scams',
+    alertLevel: 'high',
+    sources: ['Montgomery County Police Department'],
+    sourceUrl: 'https://www.montgomerycountymd.gov/news/detectives-investigating-multiple-cases-grandparent-scam-twist-suspect-comes-victims-home-collect-money',
+    country: 'US',
+    state: 'MD',
 });

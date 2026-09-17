@@ -2202,26 +2202,7 @@ Red flags include any text claiming a draft has been reinstated or that the reci
 
 Never click a link or call a number from an unsolicited draft-related text — if there's any doubt about registration status, check or register directly at the official Selective Service website, sss.gov, typed in independently rather than through the message. Do not provide a Social Security number, date of birth, or any other personal information in response to the text. Report the message as spam to your carrier by forwarding it to 7726 ("SPAM"), file a complaint with the FCC at consumercomplaints.fcc.gov, and report the scam to the FTC at ReportFraud.ftc.gov.`,
   },
-{
-    title: 'Spoofed Car Dealership Websites: When the Whole Dealership Is a Clone',
-    slug: 'fake-car-dealership-website-scam-guide',
-    author: 'ScamShield Editorial',
-    tags: ['guide', 'car-dealership-scam'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Seattle_-_Smith-Gandy_car_dealership,_circa_1960s_(55091228432).jpg?width=1200',
-    coverImageCredit: 'Photo: Seattle Municipal Archives (CC BY 4.0)',
-    coverImagePosition: 50,
-    // representative photo — replace with an exact match if found
-    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2026/09/scammers-are-spoofing-car-dealership-websites-what-you-need-know',
-    body: `A shopper searching for a hard-to-find vehicle — a rare muscle car, a discontinued classic, a specific trim that's sold out everywhere nearby — finds exactly what they're looking for on what appears to be a real, established dealership's website. The site isn't improvised: scammers now use AI tools to clone a legitimate dealer's actual site down to the logo, the inventory photos, the "About Us" page, and even fabricated glowing customer reviews, so the clone is functionally indistinguishable from the business it's copying. The listed vehicle is priced to be tempting but not implausible, and the "buying process" described on the site sounds professional, right down to a flexible-sounding return policy meant to lower a cautious buyer's guard.
 
-The scam completes the moment payment moves. After some back-and-forth negotiation designed to feel like a normal sale, the site or a "sales representative" over phone or email insists on payment by wire transfer, sometimes with pressure that other buyers are interested in the same vehicle and the deal will disappear if the buyer hesitates. Once the wire clears — a payment method that, unlike a credit card, offers essentially no way to reverse the transaction — the buyer either travels to pick up the car or waits for delivery that never comes. Some victims drive to the real, physical dealership address listed on the site, only to be told the dealership has no record of their order, their payment, or the vehicle at all, because the actual business had nothing to do with the site that took their money.
-
-This works precisely because everything about the transaction looks like a normal, safe car purchase up until the final step. A shopper doing basic due diligence — checking that the dealership is a real, physically operating business — will find that it is, because the clone borrows a genuine dealer's name and address wholesale; the fraud isn't in the dealership's identity but in the disconnect between the real business and the copycat site actually collecting the money. Fabricated five-star reviews add a second layer of false reassurance for anyone who searches the dealer's name expecting to catch a scam through obviously bad feedback.
-
-Red flags include a deal that requires payment by wire transfer or cryptocurrency with no other option offered, any refusal to let the vehicle be inspected in person or through an independent third-party mobile inspection service, pressure to close quickly because another buyer is supposedly circling the same car, and reviews that are exclusively glowing with no complaints or mixed feedback at all — a pattern real, long-running dealerships almost never actually have. Searching the dealership's name alongside words like "scam," "review," or "complaint" is a useful first check, but isn't sufficient on its own, since a cloned site can still turn up a real dealer's legitimate positive history.
-
-Before sending any money, confirm the sale directly with the dealership using a phone number looked up independently — not one listed on the site itself — and ask whether the specific vehicle and order actually exist in their system. Insist on an in-person viewing or, for a remote purchase, an independent mobile inspection service before paying anything, and walk away from any dealer who won't allow either. Pay by credit card rather than wire transfer or crypto whenever the seller will accept it, since a credit card carries dispute rights that a wire does not. Report suspected fake dealership sites to the FTC at ReportFraud.ftc.gov.`,
-  },
 {
     title: 'FTC Impersonation Scams: When the Caller Claiming to "Protect Your Money" Is the One Stealing It',
     slug: 'ftc-impersonation-scam-guide',
@@ -2296,23 +2277,7 @@ The tell is almost always in the URL and the design: a sponsored or "Ad"-labeled
 
 The FTC's fix is simple: skip the sponsored results entirely when searching for a bill-pay page, and instead type the biller's website address directly into the browser, or use the exact payment link printed on a paper bill or provided through the biller's official app. If a payment site ever asks for an unfamiliar "service fee" before processing a bill, stop and verify the site's name against the actual company before entering any card or bank information. Report suspected bill-pay impersonation to the FTC at ReportFraud.ftc.gov and to the biller directly so it can flag the imposter site.`,
   },
-{
-    title: 'Fake FBI and IC3 Recovery Scams: When an AI Deepfake "Federal Agent" Calls About Your Case',
-    slug: 'fake-ic3-fbi-deepfake-recovery-scam-guide',
-    author: 'ScamShield Editorial',
-    tags: ['guide', 'ic3-fbi-impersonation-scam'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Seal_of_the_FBI_Internet_Crime_Complaint_Center.png?width=1200',
-    coverImageCredit: 'FBI Internet Crime Complaint Center (public domain)',
-    coverImagePosition: 50,
-    sourceUrl: 'https://www.ic3.gov/PSA/2026/PSA260720',
-    body: `Someone who already reported a fraud loss to the FBI's Internet Crime Complaint Center — or simply searched online for help after being scammed — gets contacted again, this time by someone claiming to be a federal agent working their case. The follow-up contact might come as a message on Facebook or Telegram, an email, or a link to a website that looks exactly like IC3.gov. Sometimes it goes further: a video call where a "senior FBI official" appears on screen, addressing the victim by name and describing details of their original complaint.
 
-The FBI issued a public service announcement in July 2026 warning that criminals are impersonating IC3 and FBI personnel specifically to re-victimize people who already lost money to a scam, a pattern sometimes called "double-dipping." The bureau's own description is direct: scammers "rely on fear, urgency, and high-tech tricks like AI-generated video and caller ID spoofing to appear legitimate." The fake video calls use AI-generated deepfakes of real, named senior FBI officials, built to lend instant authority to a pitch that would otherwise sound implausible — a federal agent personally calling to help recover a specific victim's stolen money. Tells in the fabricated video can include distorted hands, unnatural facial movement, and a voice that doesn't quite match natural speech rhythm, though the technology has gotten convincing enough that appearance alone can no longer be trusted.
-
-The endpoint of the scheme is a cloned website built to look like the real IC3.gov, asking only for a name, phone number, email, and the dollar amount of a prior loss — a request that looks harmless precisely because it's so much less invasive than banking details, which makes people less suspicious even as it hands scammers exactly the information needed to build a convincing follow-up pitch or resell the victim as a proven target to another criminal. Older adults, and people who have already filed a real IC3 complaint or lost money to any prior scam, are described as facing particular risk, since a first loss already establishes both a paper trail scammers can reference and a psychological vulnerability the second scam is built to exploit.
-
-The FBI's own IC3 will never directly reach out over the phone, by email, through social media, or in a public forum to offer fund recovery, and it never charges a fee to accept or process a complaint. The only reliable way to reach the real site is to type www.ic3.gov directly into a browser rather than clicking a link or a sponsored search result, and to confirm any government site actually ends in ".gov" before entering any information. Anyone contacted by someone claiming to be an FBI agent or IC3 representative about a prior loss should hang up or close the message, independently verify through ic3.gov, and report the impersonation attempt at the real site or to the Department of Justice's Elder Justice Hotline at 1-833-FRAUD-11 (1-833-372-8311).`,
-  },
 {
     title: 'Consent Phishing: How Clicking "Allow" Can Hand Over Your Account Without Ever Giving Up Your Password',
     slug: 'consent-phishing-oauth-permission-scam-guide',
@@ -8834,4 +8799,59 @@ The Federal Trade Commission flagged this pattern directly in a September 2026 c
 The FTC's clearest red flag is the payment method itself: a legitimate equipment dealer accepts traceable payment, a credit card, a financed purchase through a bank, or an in-person transaction, while a scammer pushes hard for a wire transfer, gift cards, cryptocurrency, or a payment app, precisely because those are difficult or impossible to reverse once sent. A seller who can't be found through anything other than the ad itself, who has no verifiable business address or dealer license, or who suddenly goes quiet or starts inventing delivery excuses right after payment clears are all signs the "purchase agreement" was never going to be honored.
 
 Before wiring any deposit, search the business's name together with the word "scam" or "complaint," and separately check whether the listing is an actual, unpaid search result or a legitimate dealer's own page rather than a paid ad from an unfamiliar seller, since the FTC specifically warns that scammers buy ad placement to appear alongside or above real dealers. Call the dealership directly using a phone number found independently, not one provided in the ad or invoice, and confirm the specific piece of equipment and salesperson before sending anything. Anyone who has already wired money to a farm equipment seller that never delivered can report it to the FTC at ReportFraud.ftc.gov, and should contact their bank immediately, since a wire recall is only possible in the narrow window before the funds are fully transferred out.`,
+});
+
+GuidesAF.push({
+  title: 'Family Safe Words: The Free Defense Against AI Voice-Cloning Emergency Scams',
+  slug: 'family-safe-word-ai-voice-cloning-defense-guide',
+  author: 'ScamShield Editorial',
+  tags: ['guide', 'ai-deepfake-scams', 'family-emergency-scams', 'grandparent-scams'],
+  sourceUrl: 'https://www.aarp.org/states/pennsylvania/aarp-pennsylvania-warns-residents-about-growing-threat-of-ai-scams/',
+  // representative photo — replace with an exact match if found
+  coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Doro_phone_for_seniors_(16723387215).jpg?width=1200',
+  coverImageCredit: 'Photo: Kārlis Dambrāns, CC BY 2.0, via Wikimedia Commons',
+  coverImagePosition: 50,
+  body: `The phone rings, and it's a grandchild's voice, panicked, saying they've been in a car accident or arrested and need money wired right now, and please don't tell mom and dad. The voice sounds exactly right, down to specific inflections and mannerisms, because it is not an impersonation in the old sense at all: modern AI voice-cloning tools need as little as three seconds of real audio, often pulled from a public social media video, to generate a synthetic version of someone's voice convincing enough to fool the people who know them best.
+
+This is what makes the current wave of family emergency scams different from the clumsier "grandparent scams" of the past, where an unfamiliar-sounding voice on the other end of a bad phone line was itself a red flag. The FTC has warned since 2023 that scammers are using AI to enhance these schemes specifically because the emotional trigger, a loved one in sudden trouble, arrives paired with a voice that clears the one hurdle that used to give the scam away. AARP's state chapters have separately flagged the same shift, warning that AI-generated deepfakes and cloned voices are making it increasingly difficult to distinguish a real emergency call from a fabricated one by ear alone.
+
+Because the voice itself can no longer be trusted as proof, the defense has to be something a cloned voice cannot possibly produce: private, shared knowledge. AARP Pennsylvania's guidance is direct on this point, recommending that families "establish a secret code word with family members to confirm identities during emergency calls" — a word or short phrase agreed on in advance, known only within the family, that a caller can be asked to supply before a cent changes hands. An AI model trained on public audio has no way to guess a codeword that was never spoken anywhere online, no matter how convincing the voice around it sounds.
+
+A safe word only works as a backstop to a second habit: treat any urgent, secretive money request as a reason to slow down rather than speed up. The FTC's own advice is to not trust the voice and instead call the person back directly on a phone number already known to be theirs, not a number given during the call itself, and to try reaching another family member or a mutual friend if that person can't be reached right away. Genuine emergencies do not require gift cards, wire transfers, or cryptocurrency, and a real bail bondsman, hospital, or law enforcement agency will not ask a family member to keep the situation secret from the rest of the family.
+
+Set the codeword now, before any call comes in, choose something that would never plausibly appear in a social media post or public conversation, and make sure every generation in the family — including the grandparents and grandchildren most likely to be targeted — actually knows it. Anyone who receives a suspicious emergency call, whether or not money was sent, can report it to the FTC at ReportFraud.ftc.gov, and anyone who has already sent money should contact their bank or wire service immediately, since recovery is only possible in the narrow window before funds are fully transferred out.`,
+});
+
+GuidesAF.push({
+  title: 'The Bank Fraud Call That Tells You to "Move Your Money to Protect It"',
+  slug: 'bank-fraud-alert-move-your-money-scam-guide',
+  author: 'ScamShield Editorial',
+  tags: ['guide', 'account-takeover', 'phishing'],
+  sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2024/06/got-call-about-fraud-activity-your-bank-account-it-could-be-scammer',
+  body: `A call comes in, sometimes right after a text that looks like it's from the bank's own fraud-alert system, and the person on the line says they've spotted suspicious or criminal activity on a bank, investment, or retirement account. They sound calm and official, walk through account details that seem to confirm they're really from the bank, and offer to help fix the problem immediately — before more money can be stolen. The FTC has flagged this exact pattern as one of the most damaging phone scams active today, precisely because it doesn't ask the victim to hand money to a stranger; it convinces them to move their own money themselves.
+
+The instruction that makes this scam work is always some version of "protect your money" by transferring it to a new, "safe" account, or by sharing a one-time verification code the caller claims is needed to secure the account. Because the victim is the one initiating the transfer or reading out the code, it doesn't feel like handing money to a criminal — it feels like following your own bank's advice during an emergency. In reality, the "safe account" is the scammer's, and a verification code read aloud over the phone is all an attacker needs to take over the real account those codes were meant to protect.
+
+The FTC's guidance on this scam is blunt: "Never move or transfer your money to 'protect it.' Your money is fine where it is, no matter what they say or how urgently they say it." The agency is equally direct about verification codes: "Never share a verification code. Ever. Banks and retirement and investment companies use these codes for online accounts to prove you're really you" — never to prove anything to a caller. Any call, no matter how convincing the caller sounds or how accurate their account details seem, that asks a customer to move their own money or read back a code is a scam, full stop; a real bank or investment firm resolves suspected fraud by freezing or monitoring an account itself, not by asking the customer to relocate the funds.
+
+Anyone who gets a call like this should hang up and contact their bank directly using the number printed on a card or statement, never a number given by the caller or texted moments earlier, since caller ID and spoofed texts can both be faked to look exactly like a real institution. It's also worth knowing that a bank account doesn't carry the same legal protections a credit card does: money moved out through a self-authorized transfer is much harder, and often impossible, to get back once it's gone, which is exactly why acting fast to verify independently — before moving a single dollar — matters more than reacting to the caller's urgency. Anyone who has already transferred money or shared a code this way should contact their bank immediately and report the scam to the FTC at ReportFraud.ftc.gov.`,
+});
+
+GuidesAF.push({
+  title: 'FBI/IC3 Deepfake Recovery Scams: When the "Agent" Offering to Get Your Money Back Isn\'t Real',
+  slug: 'fbi-ic3-deepfake-impersonation-recovery-scam-guide',
+  author: 'ScamShield Editorial',
+  tags: ['guide', 'recovery-scam', 'government-impersonation', 'ai-deepfake-scams'],
+  sourceUrl: 'https://www.ic3.gov/PSA/2026/PSA260720',
+  // representative photo — replace with an exact match if found
+  coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/J._Edgar_Hoover_FBI_Building,_Washington_DC_(5946589446).jpg?width=1200',
+  coverImageCredit: 'Photo: Rob Young, CC BY 2.0, via Wikimedia Commons — FBI headquarters, whose IC3 identity was impersonated in this scam',
+  coverImagePosition: 50,
+  body: `Anyone who has already reported a scam to the FBI's Internet Crime Complaint Center, or even just searched online for how to recover money lost to fraud, is now a target for a second scam layered directly on top of the first. In a Public Service Announcement issued July 20, 2026, the FBI warned that criminals are creating fake FBI personnel profiles on Facebook and Telegram, then using AI-generated deepfake videos of senior FBI officials to direct victims toward spoofed websites built to look like the real IC3 complaint portal. Those fake sites collect names, phone numbers, email addresses, and details of exactly how much money was lost, all under the promise that an "agent" will follow up to help get it back.
+
+The scheme works because it exploits the exact moment a fraud victim is most vulnerable: right after losing money, searching for help, and hoping there's still a way to fix it. A social media message from someone claiming to be an FBI agent, backed by a video that looks and sounds like a real senior official, is far more convincing to someone already anxious about a financial loss than a cold approach would be to anyone else. The deepfake video doesn't need to fool a forensic analyst — it only needs to look real enough for a few seconds on a phone screen to a person who badly wants to believe recovery is possible.
+
+The FBI's own account of how IC3 actually operates is the clearest red flag available: the agency stated plainly that IC3 "does not maintain a social media presence" and will never reach out to a victim through social media, a messaging app, email, or an unsolicited phone call. Real contact from federal law enforcement about an existing complaint does not arrive as a Facebook message or a Telegram video, and no legitimate fund-recovery process ever requires a fee or "verification" payment before money can supposedly be returned. A deepfake video itself often still carries small tells worth watching for — distorted facial features, unnatural blinking or head movement, and audio that lags slightly behind the speaker's mouth.
+
+Anyone contacted this way should not click any link in the message and should not provide banking details, a Social Security number, or any payment. The only legitimate way to check on or file an IC3 complaint is by typing www.ic3.gov directly into a browser rather than following a link from a message or social media post, since a fake site can be made to look nearly identical to the real one. Anyone who has already engaged with one of these fake "agents" should stop all contact immediately, avoid sending any money framed as a fee to release recovered funds, and report the impersonation attempt directly at the real ic3.gov, which is also the only place a genuine fraud complaint should ever be filed in the first place.`,
 });

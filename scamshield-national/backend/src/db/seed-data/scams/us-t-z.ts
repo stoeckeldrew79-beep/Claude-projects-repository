@@ -2118,6 +2118,33 @@ export const UsTZ: SeedScam[] = [
     sources: ["FBI Internet Crime Complaint Center (IC3) Public Service Announcement, July 31, 2025","U.S. Postal Inspection Service, brushing scam consumer guidance"],
     sourceUrl: "https://www.ic3.gov/PSA/2025/PSA250731",
     country: "US",
+  },
+{
+    name: "Wisconsin's 1971 Consumer Act and the Credit-Service Rules Still Used Against Today's Loan Scams",
+    slug: 'wisconsin-1971-consumer-act-credit-service-origin',
+    description:
+      'Wisconsin passed the Wisconsin Consumer Act as 1971 Wisconsin Act 239, and its provisions took effect in 1973; the state\'s own Department of Financial Institutions calls it "the most comprehensive law of its type in the nation." Spanning chapters 421 through 427 of the Wisconsin Statutes, the Act was written to simplify and clarify the laws governing consumer transactions and protect consumers against unfair merchant practices, and it did so by creating an entirely new regulated category: the "credit service organization," defined as any person or merchant who sells or represents that they will help a customer improve their credit record, arrange an extension of credit, or obtain a loan, in exchange for payment. Chapter 422 requires anyone offering those services to register with the Department of Financial Institutions and bars them from making false, misleading, or deceptive representations to a customer, with chapters 425 and 426 giving both consumers and DFI the power to sue and penalize violators. That 1973 framework is the exact legal basis Wisconsin regulators still use today against a caller who offers to "arrange" a loan or improve a person\'s credit without ever naming a real, registered lender — precisely the pattern in this database\'s existing Wisconsin AI-Voice Loan Pre-Approval Robocall Scam entry, where DATCP-reported callers cite a specific loan amount and interest rate but no actual bank, a credit-service pitch the WCA has required to be registered and truthful for more than fifty years.',
+    categorySlug: 'debt-relief-scams',
+    country: 'US',
+    state: 'WI',
+    alertLevel: 'medium',
+    sources: ['Wisconsin Legislative Council', 'Wisconsin Department of Financial Institutions'],
+    sourceUrl: 'https://docs.legis.wisconsin.gov/misc/lc/issue_briefs/2024/consumer_protection/ib_wisconsin_consumer_act_ag_2024_07_25',
+    isHistorical: true,
+    firstRecorded: '1971-01-01',
+  },
+{
+    name: "Wisconsin's 1913 Blue Sky Law and the Registration Check That Still Catches Fake Advisors",
+    slug: 'wisconsin-1913-blue-sky-law-securities-registration-origin',
+    description: `Wisconsin adopted its first securities law, Chapter 756, Laws of 1913, placing a new regulatory agency under the state's Railroad Commission to license and police who could sell stocks, bonds, and other investments in the state. The law arrived as part of a fast-moving national wave: Kansas passed the country's first "blue sky" law in 1911 after regulators there grew alarmed at salesmen peddling worthless shares in fly-by-night companies and gold mines, said to be backed by nothing more than the blue sky overhead, and within two years 23 states, Wisconsin among them, had followed with their own versions. Wisconsin's program grew more formal over the following decades, becoming a standalone Department of Securities in 1939, the Office of the Commissioner of Securities in 1967, and today's Division of Securities inside the Department of Financial Institutions in 1995 — but the core idea has stayed constant for well over a century: anyone selling securities or offering investment advice in Wisconsin has to be registered, and a customer can check that registration before handing over money. That is exactly the safeguard that could have stopped this database's existing Wauwatosa Fake Investment Advisor Retirement Fraud entry, in which Robert Starnes held himself out as a licensed investment broker to friends and family and stole more than $3 million in retirement savings; the same federal prosecutors who secured his conviction pointed to the free FINRA BrokerCheck and SEC Investment Adviser Public Disclosure registries, the direct modern descendants of the registration requirement Wisconsin first created in 1913, as the check that would have exposed him before a single check was signed.`,
+    categorySlug: 'investment-fraud',
+    country: 'US',
+    state: 'WI',
+    alertLevel: 'medium',
+    sources: ['Wisconsin Department of Financial Institutions'],
+    sourceUrl: 'https://dfi.wi.gov/Pages/Securities/Filings/SecuritiesRegulationHistory.aspx',
+    isHistorical: true,
+    firstRecorded: '1913-01-01',
   },];
 
 UsTZ.push({
@@ -4305,4 +4332,78 @@ UsTZ.push({
     sources: ["FBI Internet Crime Complaint Center (IC3) Public Service Announcement: Unsolicited Packages Containing QR Codes Used to Initiate Fraud Schemes (PSA250731)","FTC Consumer Advice: Scam alert: QR code on an unexpected package","FTC Consumer Advice: That unexpected package you got could be a brushing scam"],
     sourceUrl: "https://www.ic3.gov/PSA/2025/PSA250731",
     country: "US",
+});
+
+UsTZ.push({
+    name: 'Wisconsin Fake Utility Provider "Overdue Bill" Imposter Scam',
+    slug: 'wisconsin-fake-utility-provider-overdue-bill-scam',
+    description: `The Wisconsin Department of Agriculture, Trade and Consumer Protection (DATCP) issued a consumer alert on April 22, 2026 describing a surge of calls from scammers impersonating Wisconsin electric, gas, and water utilities. Callers, who can spoof caller ID to display the real utility's name and number, falsely claim a customer's account is overdue and threaten immediate service disconnection unless payment is made right away. Victims are pressured to pay through hard-to-reverse and hard-to-trace methods: cryptocurrency, gift cards, banking or peer-to-peer apps, or wire transfer. In one case cited in the alert, a business owner was sent a barcode and told to take it to a specific retail store to pay several hundred dollars toward a fabricated overdue balance. DATCP notes that real utilities send multiple written notices before any disconnection threat and never demand instant payment by gift card or cryptocurrency, and advises anyone contacted this way to hang up and call the utility back using the number on a past bill or the company's official website, never a number given by the caller.`,
+    categorySlug: 'utility-scams',
+    alertLevel: 'high',
+    sources: ['Wisconsin Department of Agriculture, Trade and Consumer Protection (DATCP)'],
+    sourceUrl: 'https://datcp.wi.gov/Pages/News_Media/20260421ConsumerAlertRiseInUtilityImposterScams.aspx',
+    country: 'US',
+    firstRecorded: '2026-04-22',
+    state: 'WI',
+});
+
+UsTZ.push({
+    name: 'Wisconsin BBB Household Moving Company "Hostage Load" Scam',
+    slug: 'wisconsin-bbb-moving-company-hostage-load-scam',
+    description: `The Wisconsin Better Business Bureau issued a scam alert on April 30, 2026 warning about fraudulent and predatory moving companies, after Wisconsin logged more than fifty BBB Scam Tracker complaints against local movers in a single year, with moving-scam complainants nationally reporting a median loss of $532 in 2025. The BBB detailed four recurring tactics: no-show fraud, where a mover takes a deposit and never appears — in one cited Wisconsin case a consumer paid a $360 deposit via Zelle for a quoted $720 job and the movers never showed; unauthorized card overcharges beyond the quoted price; bogus weight-based upcharges, sometimes doubling the original estimate, invoked only after the truck is already loaded; and the "hostage load" tactic, in which movers load a customer's belongings, then either drive off with them or refuse to deliver them until an additional fee is paid. In another cited Wisconsin complaint, a customer quoted $1,595 was billed $505 more than promised, and workers allegedly drove off without unloading the truck. The BBB urges consumers to get several written in-home estimates, verify a mover's USDOT number, pay by credit card rather than cash, wire, or a peer-to-peer app, and avoid any company that asks for a large deposit up front.`,
+    categorySlug: 'mortgage-foreclosure-scams',
+    alertLevel: 'medium',
+    sources: ['Better Business Bureau of Wisconsin'],
+    sourceUrl: 'https://www.wisbusiness.com/2026/wisconsin-better-business-bureau-bbb-scam-alert-moving-scams/',
+    country: 'US',
+    firstRecorded: '2026-04-30',
+    state: 'WI',
+});
+
+UsTZ.push({
+    name: 'Texas Central Texas Floods FEMA Impersonation and Identity-Theft Scam (Disaster #4879)',
+    slug: 'texas-central-floods-2025-fema-impersonation-identity-theft',
+    description: `After catastrophic flash flooding along the Guadalupe River beginning July 2, 2025 killed dozens in Kerr County and surrounding Hill Country counties, FEMA issued a fraud alert on July 14, 2025 for Disaster #4879 warning that criminals were using survivors' stolen names, addresses, and Social Security numbers to file fraudulent disaster-assistance applications in their names, while others impersonated FEMA housing inspectors in person or by phone, requesting banking details or a payment "to expedite" a grant. FEMA's alert stressed that FEMA and SBA representatives never charge applicants for disaster assistance, inspections, or help filling out forms, and directed survivors to a Disaster Recovery Center at First Baptist Church, 625 Washington St., in Kerrville. Suspected fraud can be reported to the FEMA Fraud Branch at StopFEMAFraud@fema.dhs.gov, the FEMA Helpline at 800-621-3362, or the Texas Attorney General's office at 800-621-0508. Anyone contacted by someone claiming to be a FEMA inspector asking for banking information or a fee should hang up and verify independently through fema.gov or the DisasterAssistance.gov portal.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'critical',
+    sources: ['Federal Emergency Management Agency (FEMA)'],
+    sourceUrl: 'https://www.fema.gov/press-release/20250714/be-alert-fraud-after-disaster',
+    country: 'US',
+    state: 'TX',
+});
+
+UsTZ.push({
+    name: 'West Monroe "Bluewater Healthcare" Medicare DME Fraud Scheme (Michael Riggins)',
+    slug: 'louisiana-west-monroe-bluewater-healthcare-dme-fraud-riggins',
+    description: `Michael L. Riggins, 62, of West Monroe, Louisiana, owned Bluewater Healthcare, a durable medical equipment (DME) supply company. From 2018 to 2023, Riggins paid for doctors' orders for medically unnecessary DME and tricked physicians into signing DME orders and certificates of medical necessity so he could bill Medicare for equipment patients did not need — continuing the scheme even after receiving hundreds of complaints about the fraudulent orders. He submitted more than $3.8 million in fraudulent claims to Medicare and was reimbursed over $1.8 million. Riggins pleaded guilty to one count of conspiracy to commit health care fraud, with sentencing scheduled for October 2, 2025 and a maximum exposure of 10 years in federal prison. The case illustrates how DME fraud drives up Medicare costs for everyone and can put patients' names on equipment orders they never requested or needed; Medicare beneficiaries who receive equipment, bills, or Medicare Summary Notices for DME they never ordered should report it to the HHS Office of Inspector General or the Medicare fraud hotline.`,
+    categorySlug: 'healthcare-fraud',
+    alertLevel: 'medium',
+    sources: ['U.S. Department of Justice'],
+    sourceUrl: 'https://www.justice.gov/opa/pr/louisiana-man-pleads-guilty-38-million-durable-medical-equipment-fraud-scheme',
+    country: 'US',
+    state: 'LA',
+});
+
+UsTZ.push({
+    name: 'Willie De Gibbs Toomsuba Medicare Orthotic Brace Fraud',
+    slug: 'mississippi-toomsuba-de-gibbs-medicare-orthotic-brace-fraud',
+    description: `Willie De Gibbs, 53, of Toomsuba, Mississippi (also tied to Cutler Bay, Florida), owned or beneficially controlled seven durable medical equipment supply companies that billed Medicare over $19 million for medically unnecessary orthotic braces beneficiaries never requested or needed. De Gibbs paid kickbacks to corrupt doctors in exchange for fraudulent prescription orders, then used those orders to justify the false claims across his network of DME companies. He pleaded guilty to conspiracy to commit health care fraud on November 20, 2025, with sentencing scheduled for February 25, 2026 and a maximum penalty of 10 years in prison; the case was prosecuted by the U.S. Attorney's Office for the Southern District of Mississippi with the FBI and HHS-OIG. Medicare beneficiaries are advised to scrutinize their Medicare Summary Notices for equipment they never ordered and report unfamiliar DME billing to 1-800-MEDICARE.`,
+    categorySlug: 'medicare-health-plans',
+    alertLevel: 'high',
+    sources: ['U.S. Department of Justice', 'U.S. Attorney\'s Office for the Southern District of Mississippi', 'FBI', 'HHS Office of Inspector General'],
+    sourceUrl: 'https://www.justice.gov/opa/pr/mississippi-businessman-pleads-guilty-19m-health-care-fraud-conspiracy',
+    country: 'US',
+    state: 'MS',
+});
+
+UsTZ.push({
+    name: 'West Virginia State Seal QR-Code Traffic Fine Text Scam',
+    slug: 'west-virginia-state-seal-qr-code-traffic-fine-scam',
+    description: `West Virginia Secretary of State Kris Warner's office issued a warning notice on April 25, 2026 about text messages falsely claiming the recipient owes an unpaid parking or traffic fine, illegally reproducing the West Virginia State Seal on an image styled to look like official state letterhead so the demand appears legitimate. The texts instruct the recipient to either scan an embedded QR code to pay the alleged fine immediately or appear in municipal court the following Monday, pressuring a fast decision before the recipient can look closely at the message. Warner's office said the unauthorized use of the State Seal is itself illegal under West Virginia Code 5-2-1 and can expose the sender to fraud or forgery charges, on top of whatever the underlying payment demand is trying to extract. Recipients are advised not to scan the QR code, click any link, or open any attachment in the message, since a real parking or traffic citation is never resolved by text message with a QR-code payment option. Anyone who receives a text like this can report it by emailing a screenshot to Investigations@wvsos.gov, and should independently verify any real citation directly with the relevant municipal court rather than through anything in the text itself.`,
+    categorySlug: 'qr-code-scams',
+    alertLevel: 'medium',
+    sources: ["West Virginia Secretary of State's Office"],
+    sourceUrl: 'https://sos.wv.gov/article/secretary-state-issues-warning-notice-general-public-text-scam-using-wv-state-seal',
+    country: 'US',
+    state: 'WV',
 });

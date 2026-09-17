@@ -5701,6 +5701,33 @@ export const UsAF: SeedScam[] = [
     sources: ["HHS Office of Inspector General consumer alerts","Senior Medicare Patrol (ACL-funded)","Connecticut Department of Aging and Disability Services"],
     sourceUrl: "https://portal.ct.gov/AgingandDisability/Content-Pages/Latest-News/Fraud-Alert---Genetic-Testing-Scam",
     country: "US",
+  },
+{
+    name: "Alaska's 1976 Permanent Fund and the 1982 Court Fight That Made Every Resident an Equal Target",
+    slug: 'alaska-1976-permanent-fund-1982-zobel-origin',
+    description:
+      'Alaska voters approved a constitutional amendment in 1976 creating the Permanent Fund, requiring at least 25 percent of the state\'s oil royalties and lease revenue to be saved rather than spent, a response to fears that the newly discovered wealth of Prudhoe Bay would otherwise be squandered the way earlier resource booms had been. In 1980 the legislature authorized the fund\'s first dividend, but built it on a residency-weighted formula that would have paid longtime Alaskans more than newcomers, $50 for every year of residency since statehood in 1959. A group of newer residents sued, and in Zobel v. Williams the U.S. Supreme Court ruled in 1982 that the formula was unconstitutional, discriminating against citizens who had recently exercised their right to travel and settle in Alaska. Rather than abandon the dividend, the legislature rewrote it as a flat, equal payment to every eligible resident regardless of how long they had lived in the state, and the first checks under that new formula, $1,000 each, went out on June 14, 1982. That 1982 redesign is the reason the PFD works the way it does today, and the reason it draws the fraud it draws: because every eligible Alaskan gets the identical payment through the identical process regardless of circumstance, a scammer who steals one resident\'s identifying information can run the same script on any other resident with no need to research an individual\'s specific benefit history first, which is exactly the uniform, predictable target this database\'s Alaska Permanent Fund Dividend Phishing Texts and Emails entry describes scammers exploiting every year around dividend season.',
+    categorySlug: 'public-benefits-fraud',
+    country: 'US',
+    state: 'AK',
+    alertLevel: 'medium',
+    sources: ['Alaska Department of Revenue — Permanent Fund Dividend Division', 'Alaska Permanent Fund Corporation'],
+    sourceUrl: 'https://pfd.alaska.gov/division-info/historical-timeline',
+    isHistorical: true,
+    firstRecorded: '1976-11-02',
+  },
+{
+    name: "Connecticut's Early Adoption of the Uniform Securities Act and Today's Investment-Adviser Registration Checks",
+    slug: 'connecticut-uniform-securities-act-1956-origin',
+    description: `When the Conference of Commissioners on Uniform State Laws approved the model Uniform Securities Act in August 1956, drafted specifically to give states a standardized way to register and police securities dealers, agents, and investment advisers, Connecticut was one of only ten states in the entire country to have adopted it, in whole or in part, in the years immediately following — a contemporary Boston College law review survey of state adoptions lists Connecticut first among that original group, ahead of far larger commercial states that took decades longer to act. The Act's second and third parts specifically created the registration framework for investment advisers and their representatives, the same category of regulation Connecticut now administers through its Department of Banking's Securities and Business Investments Division. That is the exact office, and the exact registration requirement, that ultimately caught John Davenport of J. Davenport Advisors in Norwalk, whose case is already in this database: a 2023 examination by that Division uncovered inconsistent records that led regulators to discover he had concealed six attorney-license suspensions from his own investment-adviser registration paperwork, resulting in a 2026 consent order permanently barring him from the securities industry in Connecticut. Investors can use that same free registration lookup, the direct descendant of a framework Connecticut adopted nearly seventy years ago, to check any financial adviser's license and disciplinary history before signing an agreement or handing over account access.`,
+    categorySlug: 'investment-fraud',
+    country: 'US',
+    state: 'CT',
+    alertLevel: 'medium',
+    sources: ['Boston College Industrial and Commercial Law Review', 'Connecticut Department of Banking'],
+    sourceUrl: 'https://bclawreview.bc.edu/articles/2836/files/63ee22e3d5747.pdf',
+    isHistorical: true,
+    firstRecorded: '1956-08-01',
   },];
 
 UsAF.push({
@@ -8837,4 +8864,115 @@ UsAF.push({
     sourceUrl: "https://governor.hawaii.gov/newsroom/press-release-tax-scam-alert-june-1-2023-hawaii-department-of-taxation/",
     country: "US",
     state: "HI",
+});
+
+UsAF.push({
+    name: "Connecticut's 1865 Insurance Commissioner Origin and Why Hartford Became a Health-Insurance Fraud Target",
+    slug: 'connecticut-1865-insurance-commissioner-origin',
+    description: `Connecticut has regulated insurance since 1865, when the state created the Office of the Insurance Commissioner, a full four decades before most states had any dedicated insurance regulator at all; in 1871 the legislature expanded the office into a full Insurance Department with stronger powers to examine and oversee insurance companies operating in the state. That early regulatory infrastructure grew up alongside, and largely because of, Hartford's insurance industry itself: the Hartford Fire Insurance Company had been chartered in 1810 and Aetna in 1819, and by the mid-1800s the city had built one of the highest concentrations of insurers and actuaries in the country, giving Connecticut lawmakers both the industry base and the motivation to create dedicated oversight well ahead of the rest of the nation. That same concentration of insurance activity is the reason Connecticut still sees a steady stream of health-insurance billing fraud today: this database's existing APRM Solutions entry describes a Shelton clinic that submitted 4,009 fraudulent claims to Connecticut Medicaid using licensed providers' identification numbers without authorization, and defendants in that case were charged specifically under Connecticut's health insurance fraud statute, the direct modern descendant of the oversight framework the state built starting in 1865. Anyone receiving specialty medical treatment in Connecticut is advised to verify that the person actually administering care holds a real license, and to review Medicaid or insurance benefit statements for services or providers that don't match what was actually received.`,
+    categorySlug: 'healthcare-fraud',
+    country: 'US',
+    state: 'CT',
+    alertLevel: 'medium',
+    sources: ['Insurance Business magazine', 'Hartford History (Hartford Public Library)'],
+    sourceUrl: 'https://www.insurancebusinessmag.com/us/companies/connecticut-insurance-department/543645/',
+    isHistorical: true,
+    firstRecorded: '1865-01-01',
+});
+
+UsAF.push({
+    name: 'Fort Wayne IRS Employee PPP Loan Fraud (Rakita Davis)',
+    slug: 'fort-wayne-irs-employee-ppp-loan-fraud-rakita-davis',
+    description: `Rakita Davis, 45, of Fort Wayne, was a working IRS employee when she applied for two Paycheck Protection Program loans in 2021, falsely claiming to be the sole proprietor of a catering business that did not exist and fabricating its gross income to qualify for CARES Act relief funds. She used the PPP money on personal jewelry, airfare, luxury car rentals, and vacations rather than any legitimate business expense. Davis pleaded guilty to wire fraud and was sentenced by U.S. District Chief Judge Holly A. Brady to 24 months of probation and ordered to pay $55,213.61 in restitution to the Small Business Administration, in a case announced by the U.S. Attorney's Office for the Northern District of Indiana on May 21, 2025. The case is a reminder that pandemic-relief fraud wasn't limited to outsiders gaming the system — even a federal employee exploited a self-certified small-business loan program with a fabricated company — and that PPP and EIDL fraud enforcement remains an active pipeline of federal prosecutions years after the relief money went out.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'medium',
+    sources: ["U.S. Attorney's Office for the Northern District of Indiana"],
+    sourceUrl: 'https://www.justice.gov/usao-ndin/pr/former-irs-employee-ordered-repay-funds-ppp-loan-fraud',
+    country: 'US',
+    state: 'IN',
+    isHistorical: true,
+    firstRecorded: '2021-01-01',
+});
+
+UsAF.push({
+    name: 'FTC "Side Hustle Scam" Gig-Recruitment Alert',
+    slug: 'ftc-side-hustle-gig-recruitment-scam',
+    description: `In a February 24, 2026 consumer alert, the Federal Trade Commission warned that scammers are texting, messaging on social media, and emailing fake "side hustle" gig offers — promising fast cash for minimal work such as reshipping packages or doing data entry from home — and creating false urgency by claiming the opportunity will disappear if it isn't accepted immediately. Once a target engages, the scammer asks for a bank account number to "set up direct deposit" or a Social Security number for "employment paperwork," information that is then used to drain accounts or commit identity theft rather than to pay anyone. The FTC's alert stresses that a legitimate employer never demands upfront payment for training, equipment, or "processing" before a job starts. Before accepting any unsolicited gig offer, the agency recommends searching the company's name alongside words like "complaint" or "scam," and talking to a trusted friend or family member about the opportunity before handing over any personal or financial information.`,
+    categorySlug: 'employment-scams',
+    alertLevel: 'medium',
+    sources: ['Federal Trade Commission (FTC)'],
+    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2026/02/how-avoid-side-hustle-scam',
+    country: 'US',
+});
+
+UsAF.push({
+    name: 'China Maine FTC/Treasury Impersonation Gold-and-Crypto Elder Fraud (Larry and Barbara Cook)',
+    slug: 'maine-china-cook-ftc-treasury-impersonation-gold-crypto-fraud',
+    description: `Larry and Barbara Cook, both 82, of China, Maine, lost $1.3 million of their retirement savings between October 2023 and April 2024 to a government-impersonation scheme, according to reporting by the Portland Press Herald based on court and financial records. Scammers posing as Federal Trade Commission and other federal investigators convinced the Cooks they were secretly helping the government investigate identity theft and money laundering, using threats of federal indictment and fake official documents, including a letter purportedly signed by then-Treasury Secretary Janet Yellen, to maintain the ruse. A handler using the name "Ryan Terry" built trust with the couple over roughly seven months of regular contact, at one point having them install WhatsApp so the scammers could monitor and coach them constantly, before directing them to liquidate their retirement accounts. Over more than 30 transactions, the Cooks bought cryptocurrency at bitcoin ATMs in Maine and Florida, withdrew cash from multiple TD Bank branches, and purchased gold bullion, handing taped cardboard boxes containing $50,000 to $150,000 at a time to couriers who came to their home. The FBI investigated but told the couple recovery of the funds is unlikely. The financial fallout has outlasted the scam itself: the IRS refunded $161,000 in withheld taxes and forgave $243,000 in additional federal tax liability tied to the stolen retirement withdrawals, and Maine Revenue Services was preparing to forgive roughly $60,000 in state taxes, but Social Security has continued deducting $1,000 a month from the couple's benefits through 2026 to recover a $24,000 Medicare/Medicaid overpayment triggered by the fraudulent withdrawals, since the agency does not treat fraud as a qualifying hardship exception. The case is a reminder that this scam type can compound for years after the theft itself ends: anyone pressured into liquidating a retirement account under threat of a fake federal investigation should know that no real FTC, Treasury, or other federal agent ever directs a person to buy cryptocurrency, gold, or hand cash to a courier as part of an "investigation."`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Portland Press Herald'],
+    sourceUrl: 'https://www.pressherald.com/2025/11/20/how-a-maine-couple-gave-their-1-3-million-retirement-savings-to-bitcoin-scammers/',
+    country: 'US',
+    state: 'ME',
+});
+
+UsAF.push({
+    name: 'Delaware Medicare Advantage "Extra Social Security Income" Marketing Scam',
+    slug: 'delaware-medicare-advantage-extra-social-security-income-scam',
+    description: `Ahead of the 2025 Medicare Open Enrollment Period (October 15 - December 7), Delaware's Medicare Assistance Bureau warned that fall marketing and solicitation volume "rises dramatically," with bad actors placing cold calls and running unsolicited commercials that falsely promise enrollees additional Social Security income or misrepresent Medicare Advantage plan benefits in order to extract Medicare numbers and other personal information. Bureau Director Lakia Turner cautioned residents to "be wary of bad actors requesting your Medicare information," and the Delaware Department of Insurance noted the Bureau's free one-on-one counseling saved Delawareans $2.2 million in 2024 alone. Delaware residents can get free, unbiased plan counseling by phone (302-674-7364 or 1-800-336-9500) or in person at Wilmington, Dover, and Georgetown sites before ever responding to an unsolicited Medicare marketing call.`,
+    categorySlug: 'medicare-health-plans',
+    alertLevel: 'medium',
+    sources: ['Delaware Department of Insurance', 'Delaware Medicare Assistance Bureau'],
+    sourceUrl: 'https://news.delaware.gov/2025/10/14/medicare-assistance-bureau-important-reminders-ahead-of-open-enrollment-2/',
+    country: 'US',
+    state: 'DE',
+});
+
+UsAF.push({
+    name: 'Elijah Heacock AI-Generated Sextortion Case (Glasgow, Kentucky)',
+    slug: 'kentucky-glasgow-elijah-heacock-ai-sextortion',
+    description: `Elijah "Eli" Heacock, a 16-year-old sophomore at Caverna High School in Glasgow, Kentucky, died by suicide on February 28, 2025, less than an hour after receiving a text message containing an AI-generated nude image of himself and a demand for $3,000 to keep it from being sent to his friends and family. Text messages recovered from his phone showed he sent a partial payment before the extortionists replied "This is not enough." The FBI's Louisville Field Office is investigating the case as part of a fast-growing wave of "sextortion" targeting minors, and the FBI has linked at least 20 youth suicides nationally to sextortion scams since 2021. In response, Kentucky lawmakers passed Senate Bill 73, making sextortion a felony in the state — chargeable as homicide if the victim dies — and requiring schools to educate families about the scam starting in fourth grade. Parents are advised to treat any threat involving a nude image, real or AI-generated, as a crime: screenshot everything, cut off contact immediately, never pay, and involve law enforcement right away rather than trying to handle it alone.`,
+    categorySlug: 'sextortion',
+    alertLevel: 'critical',
+    sources: ['FBI Louisville Field Office', 'CBS News', 'WLKY'],
+    sourceUrl: 'https://www.cbsnews.com/news/sextortion-generative-ai-scam-elijah-heacock-take-it-down-act/',
+    country: 'US',
+    state: 'KY',
+});
+
+UsAF.push({
+    name: 'Fraudsters List Hawaii For-Sale Homes as Fake Rentals',
+    slug: 'hawaii-for-sale-property-rental-listing-scam',
+    description: `The Hawaii Association of Realtors and Honolulu-area agents warned in late 2024 that scammers are copying photos and details from active for-sale property listings — homes that are not actually for rent at all — and reposting them as attractive rental listings on classified and social-media sites, luring apartment and house hunters with below-market prices. Realtor Lance Owens described discovering that one of his own for-sale listings had been lifted and reposted as a rental, with the scammer posing as a "property manager" who could not show the home in person and pressed prospective renters to wire a deposit or first month's rent before ever seeing the property. Because the home is genuinely a real, existing listing — just for sale rather than for rent — the scam is harder to spot than a wholly fabricated address, since a renter who looks the property up online finds real photos and a real address that checks out. Hawaii Association of Realtors leadership urged renters to independently verify a listing agent's identity directly through the brokerage shown on the property's actual for-sale listing, to never wire money or pay a deposit before touring a home in person or via a verified video call, and to be suspicious of any "landlord" or "property manager" who is unreachable by phone and insists on remote-only communication.`,
+    categorySlug: 'rental-housing',
+    alertLevel: 'medium',
+    sources: ['Hawaii Association of Realtors', 'KITV'],
+    sourceUrl: 'https://www.kitv.com/news/new-scheme-using-hawaii-sale-properties-for-rental-scams/article_a0c55d4a-c71b-11ef-96b5-0f66675bba2b.html',
+    country: 'US',
+    state: 'HI',
+});
+
+UsAF.push({
+    name: 'Appalachian Power Extreme-Weather Shutoff Impersonation Scam',
+    slug: 'west-virginia-appalachian-power-extreme-weather-shutoff-scam',
+    description: `Appalachian Power, which serves southern West Virginia, warned customers on July 7, 2025 that scammers ramp up impersonation attempts during heat waves and other weather extremes, when anxious customers are more likely to react quickly to a threatened power shutoff. The scammers spoof caller ID to display as Appalachian Power, then demand immediate payment through prepaid debit cards, gift cards, or peer-to-peer apps like CashApp, Zelle, or Venmo to avoid disconnection within minutes or hours; some variations show up in person at a home or business posing as a company representative, or pitch a fake discounted solar-installation deal. "We typically see a rise in scam activity during weather extremes because scammers know people are more anxious about losing power," said Alan Bragg, the company's Director of Customer Service, with the company noting that senior citizens, business owners contacted during peak hours, and non-native English speakers are disproportionately targeted. A real Appalachian Power representative never demands payment by gift card, prepaid card, or a money-transfer app, and any employee visiting in person can and should produce official identification on request. Customers who get a threatening call or visit are advised to hang up, verify their account status by calling the number on their bill or using the official mobile app, and report the attempt to Appalachian Power and to local law enforcement.`,
+    categorySlug: 'utility-scams',
+    alertLevel: 'medium',
+    sources: ['Appalachian Power'],
+    sourceUrl: 'https://www.appalachianpower.com/company/news/view?releaseID=10319',
+    country: 'US',
+    state: 'WV',
+});
+
+UsAF.push({
+    name: "Bridgeport Physician Assistant's VA Disability and Student Loan Discharge Fraud",
+    slug: 'west-virginia-bridgeport-nolte-va-disability-student-loan-fraud',
+    description: `Christina Nolte, 42, a licensed physician assistant from Bridgeport, West Virginia, falsified her own VA medical records to fraudulently qualify for and receive disability benefits from the Department of Veterans Affairs, then used that manufactured disability rating to apply for and obtain discharge of $242,528 in federal student loans through the Department of Education's Total and Permanent Disability (TPD) program, a benefit meant to forgive loan balances for veterans and others whose disability genuinely prevents them from working. The scheme was uncovered through a joint investigation by the VA Office of Inspector General, the Department of Education Office of Inspector General, and the FBI, and Nolte pleaded guilty to theft of public money; on June 23, 2026, Chief U.S. District Judge Thomas S. Kleeh sentenced her to 12 months in federal prison and ordered $355,179.13 in restitution. U.S. Attorney Matthew L. Harvey said that "by falsifying her medical records and exploiting programs meant to support our nation's veterans, Ms. Nolte stole taxpayer funds and undermined systems designed to help those who served." The case is a reminder that the TPD discharge program cross-checks disability claims against VA and Social Security Administration records, so fabricating or exaggerating a medical condition to erase student debt carries the same federal theft exposure as lying to get any other government benefit. Borrowers seeking a legitimate disability discharge should apply only through the Department of Education's official process at studentaid.gov, using their real medical records, rather than through any third party offering to help "erase" loans with manufactured paperwork.`,
+    categorySlug: 'student-loan-education',
+    alertLevel: 'medium',
+    sources: ["U.S. Attorney's Office, Northern District of West Virginia", 'U.S. Department of Veterans Affairs, Office of Inspector General', 'U.S. Department of Education, Office of Inspector General'],
+    sourceUrl: 'https://www.justice.gov/usao-ndwv/pr/harrison-county-woman-sentenced-falsifying-va-medical-records-steal-disability',
+    country: 'US',
+    state: 'WV',
 });
