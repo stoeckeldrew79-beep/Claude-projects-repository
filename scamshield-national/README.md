@@ -234,6 +234,81 @@ as often as you like. Schedule it alongside the daily news scan:
 15 6 * * * cd /path/to/backend && npm run scan-state-ag-news >> /var/log/scamshield-state-ag.log 2>&1
 ```
 
+## Cover photos on profiles and guides
+
+Profiles and guides render a real photograph when `coverImage` is set, and fall back to
+generated abstract art when it isn't. The art is meant to be the exception — what you get
+when no rights-cleared photo of anything relevant exists — but because photos were only ever
+attached by hand, it quietly became the default: 147 of 1,518 notorious profiles had no
+photo, and since `/articles` sorts newest first, those were the ones on screen.
+
+```
+npm run report-missing-photos   # lists entries with no photo and no plan entry
+npm run backfill-cover-photos   # attaches the planned photos
+npm run backfill-cover-photos -- --dry   # verifies licences, writes nothing
+npm run backfill-cover-photos -- --only=some-slug,another-slug   # just those
+```
+
+A full run re-checks every plan entry against Commons at one request per
+350ms — roughly an hour. That is the right cost once; it is the wrong cost for
+the one or two profiles a daily content drop adds, which is what `--only` is
+for (those two take about four seconds). Naming a slug that has no plan entry
+fails the run rather than quietly doing nothing, so a typo can't look like
+success.
+
+Two rules the backfill will not bend:
+
+**Nothing is written on an unverified licence.** Every candidate has its licence read off its
+own Wikimedia Commons file page, and anything that is not public domain / CC0 / CC BY /
+CC BY-SA is dropped. A case whose photo can't be verified keeps its abstract art — that's a
+correct outcome, not a failure to work around.
+
+**No photo is presented as something it isn't.** For nearly all of these people no free
+portrait exists. What does exist is a photo of the place or the thing the case turns on: the
+container port, the glacier the fund was valued on, the courthouse that tried it. So every
+entry in `src/jobs/coverPhotoPlan.ts` carries a caption saying what the photo actually shows,
+stored in `coverImageCredit` and rendered under the image. That caption is what stops a reader
+taking a courthouse for a portrait — write it as a plain statement of what is in the frame.
+
+After adding new profiles, run `npm run report-missing-photos`. It names any entry still
+needing a photo chosen, which is what keeps the abstract art from silently accumulating again.
+
+## Merging the seed-data shards
+
+Two writers append entries to the same shard files: the content routines on
+`claude/scamshield-national-phase1`, and the scheduled `generate-*.yml` bots committing
+straight to `main`. `deliver-content-to-main.yml` merges one into the other, and "both sides
+appended a different entry at the end of the same file" has to resolve as "keep both".
+
+That job used to be done by git's built-in `union` merge driver, which was the wrong tool.
+`union` works line by line, and every entry is wrapped in the same boilerplate (`{` ... `},`
+or `X.push({` ... `});`). When both sides append, the diff matches that boilerplate as shared
+context and `union` emits **one** object literal containing **both** bodies, with every
+property duplicated. On 2026-09-17 that took delivery down for four hours with `TS1117`
+("An object literal cannot have multiple properties with the same name") across four scams
+shards, stranding 14 content commits on the branch.
+
+`scripts/merge-seed-shard.js` replaces it. It merges the shards entry by entry rather than
+line by line, so it cannot interleave two entries, and it exits non-zero on anything it does
+not fully understand, which makes git record an ordinary conflict instead of writing a corrupt
+tree. Two entries that differ only in their cover photo are the one editorial disagreement it
+settles on its own: it keeps the photo already published and logs the slug, so a photo choice
+never blocks unrelated content.
+
+Merge drivers are per-clone config by design, so register it once per clone:
+
+```bash
+npm --prefix scamshield-national run install-merge-driver
+```
+
+Without it git falls back to a plain text merge, which conflicts rather than corrupts, so an
+unregistered clone is safe, just noisier. `deliver-content-to-main.yml` registers it itself.
+
+`npm --prefix scamshield-national run test:merge-driver` round-trips every shard through the
+driver's parser and checks the result byte for byte, then runs the merge cases above. Delivery
+runs it before every merge: if the parser ever drifts from the data the shards actually
+contain, that surfaces there rather than as a corrupt merge.
+
 ## Scheduling early-warning alert detection
 
 `npm run detect-alerts` is also a one-shot script — schedule it the same way, ideally alongside

@@ -3,8 +3,26 @@
 # generate-*.yml bots) each add new, self-contained entries to the end
 # of the same files, on independent schedules. A plain merge sees that
 # as a conflict even though the right resolution is always "keep both."
-# git's built-in union driver does exactly that automatically, instead
-# of leaving conflict markers for deliver-content-to-main.yml to fail on.
-scamshield-national/backend/src/db/seed-data/scams/*.ts merge=union
-scamshield-national/backend/src/db/seed-data/notorious/*.ts merge=union
-scamshield-national/backend/src/db/seed-data/guides/*.ts merge=union
+#
+# git's built-in `union` driver used to do that job, and it is the wrong
+# tool: union works line by line, and every entry is wrapped in the same
+# boilerplate ("{" ... "}," or "X.push({" ... "});"). When both sides
+# append, the diff matches that boilerplate as shared context and union
+# emits ONE object literal containing BOTH bodies, every property
+# duplicated. On 2026-09-17 that took delivery down with TS1117 ("An
+# object literal cannot have multiple properties with the same name")
+# across four scams shards, stranding 14 content commits.
+#
+# `scamseed` is scamshield-national/scripts/merge-seed-shard.js, which
+# merges these files entry by entry instead of line by line, so it
+# cannot interleave two entries, and refuses the merge (leaving an
+# ordinary conflict) on anything it does not fully understand.
+#
+# The driver has to be configured to run. deliver-content-to-main.yml
+# does that itself; for a local checkout run:
+#   npm --prefix scamshield-national run install-merge-driver
+# Without it git falls back to a plain text merge, which conflicts
+# rather than corrupting, so an unconfigured checkout is safe.
+scamshield-national/backend/src/db/seed-data/scams/*.ts merge=scamseed
+scamshield-national/backend/src/db/seed-data/notorious/*.ts merge=scamseed
+scamshield-national/backend/src/db/seed-data/guides/*.ts merge=scamseed

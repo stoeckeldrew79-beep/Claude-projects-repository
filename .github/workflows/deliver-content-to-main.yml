@@ -45,13 +45,35 @@ jobs:
           echo "count=$n" >> "$GITHUB_OUTPUT"
           echo "$n commit(s) to deliver"
 
+      - name: Set up Node
+        if: steps.check.outputs.count != '0'
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Register the seed-data merge driver
+        if: steps.check.outputs.count != '0'
+        # .gitattributes marks the shard files merge=scamseed. Merge drivers
+        # are per-clone config, so a fresh checkout has to register it before
+        # the merge or git silently falls back to a plain text merge.
+        # test:merge-driver round-trips every shard through the driver's
+        # parser byte for byte; if the parser has drifted from the data, that
+        # is caught here rather than by a corrupt merge.
+        run: |
+          npm --prefix scamshield-national run install-merge-driver
+          npm --prefix scamshield-national run test:merge-driver
+
       - name: Merge content branch
         if: steps.check.outputs.count != '0'
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git merge --no-ff origin/claude/scamshield-national-phase1 \
-            -m "Deliver ${{ steps.check.outputs.count }} ScamShield content commit(s) to main"
+          if ! git merge --no-ff origin/claude/scamshield-national-phase1 \
+            -m "Deliver ${{ steps.check.outputs.count }} ScamShield content commit(s) to main"; then
+            echo "::error::Merge failed. Unmerged paths:"
+            git diff --name-only --diff-filter=U
+            exit 1
+          fi
 
       - name: Verify the merged tree
         if: steps.check.outputs.count != '0'
@@ -65,12 +87,6 @@ jobs:
           check "root CLAUDE.md"               '[ -f CLAUDE.md ]'
           check "root README.md"               '[ -f README.md ]'
           exit $fail
-
-      - name: Set up Node
-        if: steps.check.outputs.count != '0'
-        uses: actions/setup-node@v4
-        with:
-          node-version: 20
 
       - name: Backend boot smoke test (build, migrate, seed)
         if: steps.check.outputs.count != '0'
