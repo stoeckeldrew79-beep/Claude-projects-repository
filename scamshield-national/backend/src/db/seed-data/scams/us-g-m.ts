@@ -7823,3 +7823,39 @@ UsGM.push({
     country: 'US',
     state: 'KS',
 });
+
+UsGM.push({
+    name: 'Kentucky Computer Virus Pop-Up Tech Support Scam',
+    slug: 'kentucky-computer-virus-pop-up-tech-support-scam',
+    description: `Kentucky's Attorney General's office warned in May 2019 that residents across Fayette, Johnson, Franklin, Jefferson, and other counties had collectively lost more than $90,000 to a fake computer-virus pop-up scam, with one Jefferson County victim alone losing $89,000 that was never recovered. Victims saw an on-screen pop-up falsely claiming their computer was infected and displaying an 800 number; callers posed as tech support, talked victims into granting remote access to their computers, then used that access to log into banking sites and drain accounts. Then-Attorney General Andy Beshear warned, "These scammers won't clean your hard drive, but they will clean out your bank account." Anyone who sees a pop-up like this should never grant remote computer access or make any payment, including by gift card, to a caller claiming to be tech support — legitimate companies like Microsoft do not initiate contact this way.`,
+    categorySlug: 'tech-support-scams',
+    alertLevel: 'high',
+    sources: ["Kentucky Attorney General's Office", 'WTVQ'],
+    sourceUrl: 'https://www.wtvq.com/kentuckians-report-losing-90000-computer-virus-scam/',
+    country: 'US',
+    state: 'KY',
+});
+
+UsGM.push({
+    name: 'Minnesota BCA/FBI Special-Agent Impersonation Spoofed-Call Scam',
+    slug: 'minnesota-bca-fbi-special-agent-caller-id-spoofing-scam',
+    description: `The Minnesota Bureau of Criminal Apprehension (BCA), working with the FBI's Minneapolis field office, warned Minnesotans that fraudsters are using caller-ID spoofing technology to impersonate real BCA and FBI special agents, making an incoming call display an official law-enforcement phone number. The callers claim the victim is under investigation and demand sensitive personal information — Social Security numbers, bank account details, and home addresses — to "resolve" the fake case, sometimes already possessing partial personal information about the target to sound more credible. The BCA emphasized that a genuine agent will always welcome a callback to the department's published main line to verify identity, and will never object to that verification step. Consumers who receive such a call should hang up and independently call the BCA's main number (651-793-7000) or the FBI's Minneapolis office (763-569-8000) rather than trusting caller ID or a number the caller provides.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Minnesota Bureau of Criminal Apprehension', 'Federal Bureau of Investigation — Minneapolis Field Office'],
+    sourceUrl: 'https://dps.mn.gov/news/bca-scammers-impersonating-special-agents-targeting-minnesotans',
+    country: 'US',
+    state: 'MN',
+});
+
+UsGM.push({
+    name: 'Minneapolis Lost-Pet "Fake Animal Control" Ransom Scam',
+    slug: 'minneapolis-lost-pet-animal-control-ransom-scam',
+    description: `Minneapolis Animal Care and Control (MACC) warned that scammers are trawling lost-pet posters and sites like PawBoost, then contacting distressed owners by phone or text — sometimes spoofing an actual City of Minneapolis phone number — claiming to be an animal control officer who has found the missing pet. The caller says the animal needs emergency veterinary surgery and sends a payment link demanding money upfront, typically around $1,500; in one case the scammer demanded half of a fabricated $3,201.96 vet bill. MACC director Tony Schendel and Minneapolis Chief Operations Officer Margaret Anderson Kelliher said the agency had logged 30 reports as of August 2024, with officials believing many more went unreported, and stressed that Minneapolis Animal Care and Control will never call or text a pet owner asking for money to reclaim or "save" their animal. Anyone contacted this way should hang up and call MACC directly at 612-673-6222 to verify before sending any payment.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Minneapolis Animal Care and Control', 'CBS News Minnesota'],
+    sourceUrl: 'https://www.cbsnews.com/minnesota/news/scammers-pretend-to-be-animal-control-officers-and-demand-money-for-lost-pets-return',
+    country: 'US',
+    state: 'MN',
+});
