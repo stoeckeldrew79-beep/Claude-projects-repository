@@ -2203,26 +2203,6 @@ Red flags include any text claiming a draft has been reinstated or that the reci
 Never click a link or call a number from an unsolicited draft-related text — if there's any doubt about registration status, check or register directly at the official Selective Service website, sss.gov, typed in independently rather than through the message. Do not provide a Social Security number, date of birth, or any other personal information in response to the text. Report the message as spam to your carrier by forwarding it to 7726 ("SPAM"), file a complaint with the FCC at consumercomplaints.fcc.gov, and report the scam to the FTC at ReportFraud.ftc.gov.`,
   },
 {
-    title: 'Spoofed Car Dealership Websites: When the Whole Dealership Is a Clone',
-    slug: 'fake-car-dealership-website-scam-guide',
-    author: 'ScamShield Editorial',
-    tags: ['guide', 'car-dealership-scam'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Seattle_-_Smith-Gandy_car_dealership,_circa_1960s_(55091228432).jpg?width=1200',
-    coverImageCredit: 'Photo: Seattle Municipal Archives (CC BY 4.0)',
-    coverImagePosition: 50,
-    // representative photo — replace with an exact match if found
-    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2026/09/scammers-are-spoofing-car-dealership-websites-what-you-need-know',
-    body: `A shopper searching for a hard-to-find vehicle — a rare muscle car, a discontinued classic, a specific trim that's sold out everywhere nearby — finds exactly what they're looking for on what appears to be a real, established dealership's website. The site isn't improvised: scammers now use AI tools to clone a legitimate dealer's actual site down to the logo, the inventory photos, the "About Us" page, and even fabricated glowing customer reviews, so the clone is functionally indistinguishable from the business it's copying. The listed vehicle is priced to be tempting but not implausible, and the "buying process" described on the site sounds professional, right down to a flexible-sounding return policy meant to lower a cautious buyer's guard.
-
-The scam completes the moment payment moves. After some back-and-forth negotiation designed to feel like a normal sale, the site or a "sales representative" over phone or email insists on payment by wire transfer, sometimes with pressure that other buyers are interested in the same vehicle and the deal will disappear if the buyer hesitates. Once the wire clears — a payment method that, unlike a credit card, offers essentially no way to reverse the transaction — the buyer either travels to pick up the car or waits for delivery that never comes. Some victims drive to the real, physical dealership address listed on the site, only to be told the dealership has no record of their order, their payment, or the vehicle at all, because the actual business had nothing to do with the site that took their money.
-
-This works precisely because everything about the transaction looks like a normal, safe car purchase up until the final step. A shopper doing basic due diligence — checking that the dealership is a real, physically operating business — will find that it is, because the clone borrows a genuine dealer's name and address wholesale; the fraud isn't in the dealership's identity but in the disconnect between the real business and the copycat site actually collecting the money. Fabricated five-star reviews add a second layer of false reassurance for anyone who searches the dealer's name expecting to catch a scam through obviously bad feedback.
-
-Red flags include a deal that requires payment by wire transfer or cryptocurrency with no other option offered, any refusal to let the vehicle be inspected in person or through an independent third-party mobile inspection service, pressure to close quickly because another buyer is supposedly circling the same car, and reviews that are exclusively glowing with no complaints or mixed feedback at all — a pattern real, long-running dealerships almost never actually have. Searching the dealership's name alongside words like "scam," "review," or "complaint" is a useful first check, but isn't sufficient on its own, since a cloned site can still turn up a real dealer's legitimate positive history.
-
-Before sending any money, confirm the sale directly with the dealership using a phone number looked up independently — not one listed on the site itself — and ask whether the specific vehicle and order actually exist in their system. Insist on an in-person viewing or, for a remote purchase, an independent mobile inspection service before paying anything, and walk away from any dealer who won't allow either. Pay by credit card rather than wire transfer or crypto whenever the seller will accept it, since a credit card carries dispute rights that a wire does not. Report suspected fake dealership sites to the FTC at ReportFraud.ftc.gov.`,
-  },
-{
     title: 'FTC Impersonation Scams: When the Caller Claiming to "Protect Your Money" Is the One Stealing It',
     slug: 'ftc-impersonation-scam-guide',
     author: 'ScamShield Editorial',
@@ -8858,6 +8838,21 @@ Because the voice itself can no longer be trusted as proof, the defense has to b
 A safe word only works as a backstop to a second habit: treat any urgent, secretive money request as a reason to slow down rather than speed up. The FTC's own advice is to not trust the voice and instead call the person back directly on a phone number already known to be theirs, not a number given during the call itself, and to try reaching another family member or a mutual friend if that person can't be reached right away. Genuine emergencies do not require gift cards, wire transfers, or cryptocurrency, and a real bail bondsman, hospital, or law enforcement agency will not ask a family member to keep the situation secret from the rest of the family.
 
 Set the codeword now, before any call comes in, choose something that would never plausibly appear in a social media post or public conversation, and make sure every generation in the family — including the grandparents and grandchildren most likely to be targeted — actually knows it. Anyone who receives a suspicious emergency call, whether or not money was sent, can report it to the FTC at ReportFraud.ftc.gov, and anyone who has already sent money should contact their bank or wire service immediately, since recovery is only possible in the narrow window before funds are fully transferred out.`,
+});
+
+GuidesAF.push({
+  title: 'The Bank Fraud Call That Tells You to "Move Your Money to Protect It"',
+  slug: 'bank-fraud-alert-move-your-money-scam-guide',
+  author: 'ScamShield Editorial',
+  tags: ['guide', 'account-takeover', 'phishing'],
+  sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2024/06/got-call-about-fraud-activity-your-bank-account-it-could-be-scammer',
+  body: `A call comes in, sometimes right after a text that looks like it's from the bank's own fraud-alert system, and the person on the line says they've spotted suspicious or criminal activity on a bank, investment, or retirement account. They sound calm and official, walk through account details that seem to confirm they're really from the bank, and offer to help fix the problem immediately — before more money can be stolen. The FTC has flagged this exact pattern as one of the most damaging phone scams active today, precisely because it doesn't ask the victim to hand money to a stranger; it convinces them to move their own money themselves.
+
+The instruction that makes this scam work is always some version of "protect your money" by transferring it to a new, "safe" account, or by sharing a one-time verification code the caller claims is needed to secure the account. Because the victim is the one initiating the transfer or reading out the code, it doesn't feel like handing money to a criminal — it feels like following your own bank's advice during an emergency. In reality, the "safe account" is the scammer's, and a verification code read aloud over the phone is all an attacker needs to take over the real account those codes were meant to protect.
+
+The FTC's guidance on this scam is blunt: "Never move or transfer your money to 'protect it.' Your money is fine where it is, no matter what they say or how urgently they say it." The agency is equally direct about verification codes: "Never share a verification code. Ever. Banks and retirement and investment companies use these codes for online accounts to prove you're really you" — never to prove anything to a caller. Any call, no matter how convincing the caller sounds or how accurate their account details seem, that asks a customer to move their own money or read back a code is a scam, full stop; a real bank or investment firm resolves suspected fraud by freezing or monitoring an account itself, not by asking the customer to relocate the funds.
+
+Anyone who gets a call like this should hang up and contact their bank directly using the number printed on a card or statement, never a number given by the caller or texted moments earlier, since caller ID and spoofed texts can both be faked to look exactly like a real institution. It's also worth knowing that a bank account doesn't carry the same legal protections a credit card does: money moved out through a self-authorized transfer is much harder, and often impossible, to get back once it's gone, which is exactly why acting fast to verify independently — before moving a single dollar — matters more than reacting to the caller's urgency. Anyone who has already transferred money or shared a code this way should contact their bank immediately and report the scam to the FTC at ReportFraud.ftc.gov.`,
 });
 
 GuidesAF.push({
