@@ -8824,6 +8824,9 @@ GuidesAF.push({
   author: 'ScamShield Editorial',
   tags: ['guide', 'farm-equipment-scam', 'advance-fee-scam'],
   sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2026/09/scammers-are-impersonating-farm-equipment-businesses',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Farmall_Tractor_in_Live_Oak_Canyon%2C_Redlands%2C_CA_2-2012_(6887275881).jpg?width=1200',
+    coverImageCredit: 'A fake dealer listing undercuts the market, takes a wire deposit, and the tractor never ships. Photo: inkknife_2000 (7.5 million views +) (CC BY-SA 2.0)',
+    coverImagePosition: 50,
   body: `A tractor listing turns up at a good price, maybe in a social media ad, maybe near the top of a search result, and it looks like it's coming from a real, established dealer, sometimes even one the buyer has purchased from before. Reaching out gets a fast, professional-seeming response: a formal purchase agreement, an invoice, and a request to wire thousands of dollars as a deposit or the full purchase price to hold the equipment and schedule delivery. The delivery date comes and goes. The tractor never arrives, and the "dealer" was never a real business at all.
 
 The Federal Trade Commission flagged this pattern directly in a September 2026 consumer alert, warning that scammers are impersonating farm equipment businesses to sell machinery that doesn't exist. It works on farmers for the same reason advance-fee scams work on anyone buying expensive equipment sight unseen: a paid social media ad or a sponsored search result can look identical to an organic listing from a legitimate dealer, and a professional-looking invoice and purchase agreement provide exactly the paperwork a cautious buyer would expect to see before wiring a large deposit, right up until the money is gone and the "business" stops responding.
