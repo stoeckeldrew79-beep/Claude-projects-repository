@@ -7764,3 +7764,15 @@ UsNS.push({
     country: 'US',
     state: 'UT',
 });
+
+UsNS.push({
+    name: 'Rangeley Plantation In-Person DOJ Impersonation Theft (Dev Patel and Love Patel)',
+    slug: 'maine-rangeley-plantation-patel-doj-impersonation-theft',
+    description: `Dev Patel, 19, of Westford, Massachusetts, and Love Patel, 24, of Mansfield, Massachusetts, drove to a woman's home in Rangeley Plantation, Maine and, posing as Department of Justice investigators, told her she was part of a federal investigation and demanded money on the spot, according to the Franklin County Sheriff's Office. The woman paid them $40,000 through PayPal, and the pair told her they would return the next day to collect an additional $32,000. After she reported the theft, Franklin County Sheriff's deputies staked out her home and arrested both men when they came back for the second payment, before any additional money changed hands. Each was charged with theft by deception and booked into the Franklin County Jail in Farmington. Unlike a scam built around a long-running remote relationship or a fake investment platform, this case involved scammers who showed up in person and demanded an immediate cash payment under threat of a supposed federal case, a variant of government-impersonation fraud where the red flag holds regardless of delivery method: no real DOJ, FTC, or other federal agent ever shows up at a person's home demanding an on-the-spot payment, by PayPal or any other method, to resolve an "investigation." Anyone approached this way is advised to refuse payment, ask for identification and a callback number, and independently verify the person's identity by contacting the agency they claim to represent directly, then report the visit to local law enforcement.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Franklin County Sheriff\'s Office', 'WABI-TV'],
+    sourceUrl: 'https://www.wabi.tv/2025/02/20/two-men-arrested-rangeley-plantation-theft-posing-doj-employees/',
+    country: 'US',
+    state: 'ME',
+});
