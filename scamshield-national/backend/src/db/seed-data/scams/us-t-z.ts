@@ -4371,3 +4371,15 @@ UsTZ.push({
     country: 'US',
     state: 'LA',
 });
+
+UsTZ.push({
+    name: 'Willie De Gibbs Toomsuba Medicare Orthotic Brace Fraud',
+    slug: 'mississippi-toomsuba-de-gibbs-medicare-orthotic-brace-fraud',
+    description: `Willie De Gibbs, 53, of Toomsuba, Mississippi (also tied to Cutler Bay, Florida), owned or beneficially controlled seven durable medical equipment supply companies that billed Medicare over $19 million for medically unnecessary orthotic braces beneficiaries never requested or needed. De Gibbs paid kickbacks to corrupt doctors in exchange for fraudulent prescription orders, then used those orders to justify the false claims across his network of DME companies. He pleaded guilty to conspiracy to commit health care fraud on November 20, 2025, with sentencing scheduled for February 25, 2026 and a maximum penalty of 10 years in prison; the case was prosecuted by the U.S. Attorney's Office for the Southern District of Mississippi with the FBI and HHS-OIG. Medicare beneficiaries are advised to scrutinize their Medicare Summary Notices for equipment they never ordered and report unfamiliar DME billing to 1-800-MEDICARE.`,
+    categorySlug: 'medicare-health-plans',
+    alertLevel: 'high',
+    sources: ['U.S. Department of Justice', 'U.S. Attorney\'s Office for the Southern District of Mississippi', 'FBI', 'HHS Office of Inspector General'],
+    sourceUrl: 'https://www.justice.gov/opa/pr/mississippi-businessman-pleads-guilty-19m-health-care-fraud-conspiracy',
+    country: 'US',
+    state: 'MS',
+});
