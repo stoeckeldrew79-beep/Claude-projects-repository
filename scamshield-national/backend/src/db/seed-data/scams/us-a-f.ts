@@ -8826,3 +8826,15 @@ UsAF.push({
     isHistorical: true,
     firstRecorded: '2021-01-01',
 });
+
+UsAF.push({
+    name: 'China Maine FTC/Treasury Impersonation Gold-and-Crypto Elder Fraud (Larry and Barbara Cook)',
+    slug: 'maine-china-cook-ftc-treasury-impersonation-gold-crypto-fraud',
+    description: `Larry and Barbara Cook, both 82, of China, Maine, lost $1.3 million of their retirement savings between October 2023 and April 2024 to a government-impersonation scheme, according to reporting by the Portland Press Herald based on court and financial records. Scammers posing as Federal Trade Commission and other federal investigators convinced the Cooks they were secretly helping the government investigate identity theft and money laundering, using threats of federal indictment and fake official documents, including a letter purportedly signed by then-Treasury Secretary Janet Yellen, to maintain the ruse. A handler using the name "Ryan Terry" built trust with the couple over roughly seven months of regular contact, at one point having them install WhatsApp so the scammers could monitor and coach them constantly, before directing them to liquidate their retirement accounts. Over more than 30 transactions, the Cooks bought cryptocurrency at bitcoin ATMs in Maine and Florida, withdrew cash from multiple TD Bank branches, and purchased gold bullion, handing taped cardboard boxes containing $50,000 to $150,000 at a time to couriers who came to their home. The FBI investigated but told the couple recovery of the funds is unlikely. The financial fallout has outlasted the scam itself: the IRS refunded $161,000 in withheld taxes and forgave $243,000 in additional federal tax liability tied to the stolen retirement withdrawals, and Maine Revenue Services was preparing to forgive roughly $60,000 in state taxes, but Social Security has continued deducting $1,000 a month from the couple's benefits through 2026 to recover a $24,000 Medicare/Medicaid overpayment triggered by the fraudulent withdrawals, since the agency does not treat fraud as a qualifying hardship exception. The case is a reminder that this scam type can compound for years after the theft itself ends: anyone pressured into liquidating a retirement account under threat of a fake federal investigation should know that no real FTC, Treasury, or other federal agent ever directs a person to buy cryptocurrency, gold, or hand cash to a courier as part of an "investigation."`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Portland Press Herald'],
+    sourceUrl: 'https://www.pressherald.com/2025/11/20/how-a-maine-couple-gave-their-1-3-million-retirement-savings-to-bitcoin-scammers/',
+    country: 'US',
+    state: 'ME',
+});
