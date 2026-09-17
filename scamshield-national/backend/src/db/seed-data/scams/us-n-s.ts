@@ -7776,3 +7776,27 @@ UsNS.push({
     country: 'US',
     state: 'ME',
 });
+
+UsNS.push({
+    name: 'North Carolina "Zero Premium" Medicare Advantage Misrepresentation Scam',
+    slug: 'north-carolina-zero-premium-medicare-advantage-misrepresentation-scam',
+    description: `Ahead of the 2025 Medicare Open Enrollment Period, North Carolina Insurance Commissioner Mike Causey warned that fraudulent agents and lookalike marketing sites lure Medicare-eligible seniors with false urgency — "limited-time offer," "special discount if you sign up right away" — and misleading benefit claims about "free" services and "zero premium" coverage that omit real out-of-pocket costs, while pressuring people on unsolicited calls to hand over Social Security numbers, bank details, and Medicare numbers before any plan details are even provided. The Department specifically flagged that "zero co-pay" claims are often limited to a primary care visit, so a beneficiary who sees several specialists can end up paying far more than advertised. North Carolina residents can verify an agent's or plan's license by calling NCDOI or the state's SHIIP counseling line at 855-408-1212, or at ncshiip.com, before enrolling or sharing any personal information over the phone.`,
+    categorySlug: 'medicare-health-plans',
+    alertLevel: 'medium',
+    sources: ['North Carolina Department of Insurance', "NC Seniors' Health Insurance Information Program (SHIIP)"],
+    sourceUrl: 'https://www.ncdoi.gov/blog/2025/10/29/protect-yourself-during-medicares-open-enrollment-period',
+    country: 'US',
+    state: 'NC',
+});
+
+UsNS.push({
+    name: 'New Hampshire E-ZPass Toll Impersonation Text Scam',
+    slug: 'new-hampshire-ezpass-toll-text-smishing-scam',
+    description: `Beginning in early 2025, New Hampshire drivers received text messages impersonating E-ZPass, falsely claiming an unpaid toll invoice and threatening "excessive fees," "potential legal action," and vehicle-registration suspension unless paid within hours through an embedded link. On March 4, 2025, New Hampshire Attorney General John Formella and Transportation Commissioner William Cass issued a joint consumer alert confirming that NH E-ZPass never requests payment by text, as the campaign — part of a broader multi-state smishing wave — continued targeting Granite State drivers. Unlike the court-summons and QR-code text scams already circulating in the state, this one exploits a routine everyday obligation, an unpaid toll, rather than a legal threat. Residents are urged to forward suspicious texts to 7726 (SPAM), delete without clicking, and verify any toll balance only through the official ezpassnh.com site or app.`,
+    categorySlug: 'phishing',
+    alertLevel: 'high',
+    sources: ['New Hampshire Department of Justice (Office of the Attorney General)', 'New Hampshire Department of Transportation'],
+    sourceUrl: 'https://www.dover.nh.gov/services/online-services/news-events/news-2025/consumer-alert-ag-dot-warn-of-ezpass-impersonation-scam-in-nh.html',
+    country: 'US',
+    state: 'NH',
+});
