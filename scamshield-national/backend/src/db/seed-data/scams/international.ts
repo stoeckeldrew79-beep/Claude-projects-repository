@@ -15133,6 +15133,45 @@ International.push(
 
 International.push(
   {
+    name: 'Fake Regulator and Fake Bank Investment Fraud (AFSC / Interbank Aruba NV)',
+    slug: 'aruba-cba-fake-regulator-afsc-interbank-investment-fraud',
+    description: `The Central Bank of Aruba (CBA) issued a public warning on October 20, 2023, after identifying two linked fraudulent websites being used to solicit investments from the public: arubafsc.org, which posed as the "A.F.S.C Aruba Financial Services Commission" and falsely claimed to be "the single regulatory body for the financial services business in Aruba," and interbankaruba.com, which presented itself as a commercial bank under the name of a now-defunct Aruban bank, Interbank Aruba NV. The CBA said the fake regulator, AFSC, was being used to lend credibility to the fake bank, urging people to open an account on the Interbank Aruba NV website in order to invest money in securities or derivatives, or to obtain a reimbursement of costs — and that the fraudulent AFSC site even reused the Central Bank's own official contact details to appear legitimate. The CBA stated plainly that neither entity was licensed or supervised by any authority in Aruba, and confirmed that "some have lost significant amounts of money" to the scheme; the warning noted that the British Virgin Islands Financial Services Commission and IOSCO had separately flagged related fraudulent activity months earlier. The CBA urged the public never to enter personal or financial information on a website unless its legitimacy is certain, to independently verify any claimed regulator or bank directly with the Central Bank before sending money, and, for anyone who had already engaged with the sites, to notify their financial institution immediately, change all related passwords, monitor account statements closely, and report the fraudulent websites to the police or the Public Prosecutor's Office.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'high',
+    sources: ['Central Bank of Aruba (CBA)'],
+    sourceUrl: 'https://www.cbaruba.org/article/id/712/',
+    country: 'AW',
+  },
+);
+
+International.push(
+  {
+    name: 'Fake Traffic Fine SMS and Phone Scam Originating from Morocco',
+    slug: 'aruba-om-fake-traffic-fine-sms-morocco-scam',
+    description: `The Openbaar Ministerie (Public Prosecutor's Office, OM) of Aruba issued a public warning on September 15-16, 2026, after a new wave of fraudulent SMS messages and phone calls — appearing to originate from Morocco — swept the island, falsely telling recipients they had an unpaid traffic fine that needed to be settled immediately. The messages and calls direct recipients to click a link or provide personal and banking details to "pay" the fabricated fine, with roughly 40 calls tied to the scheme reported to authorities in a single morning alone. The OM stated unambiguously that it never contacts residents by SMS or telephone to collect traffic fines or request direct payment, and that all genuine fine notices in Aruba are sent exclusively by physical letter — meaning any message or call asking someone to click a link or pay to resolve a traffic fine is, in the OM's words, "100% fraudulent." The OM urged residents who receive such a message not to click any link, not to provide personal or bank information, not to reply in any way (including replying "yes"), and not to make any payment, but instead to delete the message immediately, report it as fraud, and share the warning with family, friends, and colleagues to limit the network's reach across the community.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Openbaar Ministerie (Public Prosecutor\'s Office) Aruba', 'EA News Aruba'],
+    sourceUrl: 'https://www.eanews.com/openbaar-ministerie-waarschuwt-pas-op-voor-valse-berichten-en-telefoontjes-over-verkeersboetes-uit-marokko/',
+    country: 'AW',
+  },
+);
+
+International.push(
+  {
+    name: 'OK Travel Aruba Booking-Fraud Collapse',
+    slug: 'aruba-ok-travel-agency-flight-booking-fraud',
+    description: `In July 2026, dozens of Aruba residents came forward alleging they had been defrauded by OK Travel Aruba, a local travel agency operated by Natalia Delgado, after paying for flight tickets and other travel services that were never delivered. According to reporting by EA News Aruba, customers who had paid for their bookings as much as two months earlier were left without tickets, with total losses across the affected customers reported at more than 20,000 Aruban florin, and the operator reportedly telling clients the business had filed for bankruptcy rather than issuing refunds or delivering the promised travel arrangements. The allegations first surfaced and spread through the community Facebook group "Vraag & Aanbod Aruba" rather than through any formal complaint process, prompting local coverage to caution residents that "social media is not the way to get your money back" and that venting online does not open a criminal investigation or preserve a legal claim. Reporters and consumer advocates urged affected customers to instead file formal complaints directly with the Korps Politie Aruba (KPA, the Aruba Police Force) so that a criminal fraud investigation could be opened, since only a police report — not a social media post — creates the record needed to pursue restitution or prosecution.`,
+    categorySlug: 'travel-vacation-scams',
+    alertLevel: 'medium',
+    sources: ['EA News Aruba'],
+    sourceUrl: 'https://www.eanews.com/fraudebeschuldigingen-tegen-reisbureau-zorgen-voor-onrust-in-de-gemeenschap/',
+    country: 'AW',
+  },
+);
+
+International.push(
+  {
     name: 'Curaçao Fake Census Bureau Door-to-Door Impersonation Scam',
     slug: 'curacao-fake-cbs-door-to-door-surveyor-scam',
     description: `The Central Bureau of Statistics of Curaçao (Centraal Bureau voor de Statistiek, CBS) issued a public warning on March 16, 2026 after receiving reports of individuals going door-to-door on the island and falsely claiming to represent the bureau while conducting what they described as an official census or household survey. CBS said it currently has no door-to-door household survey underway or scheduled, making any such visit inherently suspect, and stressed that genuine CBS fieldwork is never a surprise: real surveys are always preceded by an official introduction letter explaining in advance which neighborhoods will be visited, over what period, and for what purpose, giving residents a way to confirm legitimacy before anyone knocks. The bureau warned that residents who let an impostor "surveyor" into their home or answer their questions risk handing over personal, household, or financial details to someone with no real connection to the government, and it published concrete steps for telling a genuine CBS employee from a fraudster: authentic staff carry an official identification badge displaying their name, the CBS logo, a photograph, the director's signature, and a QR code, and residents are entitled to ask for and closely inspect that badge before answering a single question or letting anyone inside. CBS urged anyone who is approached by a person claiming to work for the bureau, or who has doubts about a badge or a visit, to stop before answering and verify the visit directly with CBS by calling 724-1802 or messaging the bureau's WhatsApp line at 520-2227 rather than taking the visitor's word for it.`,
