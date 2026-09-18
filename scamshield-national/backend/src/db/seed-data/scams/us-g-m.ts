@@ -7397,7 +7397,7 @@ UsGM.push({
     name: 'Missoula Craigslist Fake Rental Listing Scam',
     slug: 'montana-missoula-craigslist-fake-rental-listing-scam',
     description: `Missoula Police warned residents in May 2026 after someone with no connection to a property posted a fraudulent Craigslist rental listing using real photos of a genuine home and collected deposits from multiple prospective tenants, who arrived to move in only to find the home already occupied by its actual owner or a legitimate renter. Police flagged the ad for removal and urged renters to be wary of below-market rent, "out of town" landlords who won't show the unit in person, and requests to pay a deposit by wire transfer, gift card, or payment app to a stranger before ever seeing the property. Prospective renters are advised to insist on an in-person tour, verify the listed owner against county property records, and never send a deposit to someone who cannot meet in person or provide a lease signed with a verifiable name.`,
-    categorySlug: 'real-estate-fraud',
+    categorySlug: 'rental-housing',
     alertLevel: 'medium',
     sources: ['NBC Montana', 'Missoula Police Department'],
     sourceUrl: 'https://nbcmontana.com/news/local/missoula-police-warn-of-fraudulent-craigslist-rental-scam',

@@ -8370,7 +8370,7 @@ UsAF.push({
     name: 'Smyrna Rental-Listing Theft Ring (Verna Nowell)',
     slug: 'delaware-smyrna-nowell-rental-listing-theft-ring',
     description: `In July 2015, Smyrna Police Department detectives closed a nine-month investigation into a rental-listing theft ring centered in the small Kent County town, arresting 63-year-old Verna Nowell along with two co-defendants, with six more suspects wanted on warrants. Overseas co-conspirators, whom Nowell had met through an online dating site, copied photos and descriptions from real, currently-listed rental homes on Trulia and Craigslist and reposted them as if they were the landlord, directing more than 35 victims across states including California, Illinois, Florida, and Texas to wire deposits and rent totaling over $150,200. Nowell collected the wired funds at Western Union and MoneyGram counters around Smyrna and forwarded the money overseas, eventually recruiting family members and associates to spread pickups across multiple names to avoid detection, and was charged with racketeering, money laundering, theft over $1,500, and conspiracy. The case shows a rental-scam variant distinct from a simple too-good-to-be-true listing: a real property's own photos and description can be stolen and reposted by someone with zero connection to the actual owner, so renters should insist on an in-person or live video walkthrough with the listed owner before wiring any deposit.`,
-    categorySlug: 'real-estate-fraud',
+    categorySlug: 'rental-housing',
     alertLevel: 'high',
     sources: ['Smyrna Police Department', 'WMDT-TV / 47ABC'],
     sourceUrl: 'https://www.wmdt.com/2015/07/three-arrested-six-wanted-in-large-rental-theft-scheme-apparently-centered-in-smyrna/34476282/',
@@ -8975,4 +8975,40 @@ UsAF.push({
     sourceUrl: 'https://www.justice.gov/usao-ndwv/pr/harrison-county-woman-sentenced-falsifying-va-medical-records-steal-disability',
     country: 'US',
     state: 'WV',
+});
+
+UsAF.push({
+    name: 'DC Romance Scam Financial Exploitation via Dating Apps and Social Media',
+    slug: 'dc-romance-scam-financial-exploitation',
+    description: `The DC Department of Insurance, Securities and Banking (DISB) reports that 37 District residents reported falling victim to romance scams in a single year, with combined losses of nearly $4,550,000 after scammers spent weeks or months building fake relationships over dating apps and platforms like Facebook, Instagram, TikTok, and Snapchat. Perpetrators often adopt personas such as U.S. military service members stationed overseas or offshore oil-rig workers to explain away their refusal to meet in person or appear on video calls, before requesting money, gift cards, or cryptocurrency to cover a fabricated emergency, travel expense, or investment opportunity. DISB flags any quick profession of love combined with a request for money, cryptocurrency, or gift cards as a hallmark of the scheme, along with evasiveness about video chatting or meeting face to face, and notes that some scammers assume the identities of real people using photos taken from elsewhere online. Consumers should independently verify a romantic interest's identity — a reverse image search on their profile photo is a good start — and should never send money, gift cards, or cryptocurrency to anyone they have not met in person. Report suspected romance scams to DISB's Enforcement and Consumer Protection Division, the FBI's Internet Crime Complaint Center, or the FTC.`,
+    categorySlug: 'romance-scams',
+    alertLevel: 'high',
+    sources: ['District of Columbia Department of Insurance, Securities and Banking (DISB)'],
+    sourceUrl: 'https://disb.dc.gov/page/beware-romance-scams',
+    country: 'US',
+    state: 'DC',
+});
+
+UsAF.push({
+    name: 'FBI Washington Field Office Sextortion Scheme Targeting Teen Boys',
+    slug: 'dc-fbi-sextortion-scheme-targeting-teen-boys',
+    description: `The FBI's Washington Field Office has warned of a rise in financial sextortion schemes in which adults pose online as teenage girls to target boys, typically ages 14 to 17, through social media, gaming platforms, and messaging apps. After building rapport, the predator convinces the victim to share explicit photos or video, secretly records the exchange, and then threatens to send the material to the victim's friends, family, and followers unless the teen quickly pays, usually $300 to $400. FBI Supervisory Special Agent Barbara Smith said the Washington Field Office has been fielding a growing volume of frantic calls from panicked teenage boys and their parents, describing the scheme's frequency as worsening even though the underlying tactics have stayed largely the same for years. The FBI advises parents to warn teens that a shared image can be weaponized, to never pay a demand, to preserve rather than delete the threatening messages as evidence, and to report incidents immediately to a trusted adult, a local FBI field office at 1-800-CALL-FBI, or NCMEC's CyberTipline.`,
+    categorySlug: 'sextortion',
+    alertLevel: 'critical',
+    sources: ['FBI Washington Field Office', 'NBC4 Washington'],
+    sourceUrl: 'https://www.nbcwashington.com/news/local/fbi-warns-of-sextortion-targeting-teen-boys/3008422/',
+    country: 'US',
+    state: 'DC',
+});
+
+UsAF.push({
+    name: 'DC-Barred Investment Adviser Capital Management Group Fraud',
+    slug: 'dc-capital-management-group-barred-adviser-fraud',
+    description: `The DC Department of Insurance, Securities and Banking (DISB) barred Capital Management Group and its associate Vamsi Atreya from the securities business in the District for not less than two years, on September 28, 2021, after finding they operated as unregistered investment advisers in violation of DC securities law. DISB's cease-and-desist order revoked CMG's and Atreya's securities licenses and imposed fines, but the regulator has continued to receive consumer complaints that the firm and Atreya failed to maintain and properly monitor client investment accounts even after being barred. The case illustrates a recurring District pattern of unlicensed advisers soliciting DC residents by phone and email with unsolicited investment pitches, then mismanaging or losing track of client funds once they gain control of an account. Consumers should verify any financial adviser's registration status through DISB or the SEC's Investment Adviser Public Disclosure database before handing over money, and should immediately report to DISB's Enforcement and Consumer Protection Division any adviser found still operating after being barred.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'medium',
+    sources: ['District of Columbia Department of Insurance, Securities and Banking (DISB)'],
+    sourceUrl: 'https://disb.dc.gov/page/beware-barred-investment-adviser-capital-management-group',
+    country: 'US',
+    state: 'DC',
 });
