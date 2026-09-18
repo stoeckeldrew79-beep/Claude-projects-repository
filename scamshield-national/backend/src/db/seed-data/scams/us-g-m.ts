@@ -8494,3 +8494,42 @@ UsGM.push({
     state: 'ID',
     firstRecorded: '2025-03-18',
 });
+
+UsGM.push({
+    name: 'Leonardtown "764" Network Sextortion Arrest (Jacob William St. Peter)',
+    slug: 'maryland-leonardtown-st-peter-764-sextortion',
+    description: `In February 2026, the St. Mary's County Sheriff's Office, working with the Naval Criminal Investigative Service, arrested 19-year-old Jacob William St. Peter of Leonardtown on a nationwide warrant out of Canyon County, Idaho, after investigators traced a wave of unsolicited sexually explicit images sent to a minor back to the online handle "randysaystrade." The investigation began in December 2025 when a Nampa, Idaho family reported that their child had received the images from an unknown adult male through social media and gaming platforms, and digital forensics tied the account — and its references to "764," an FBI-designated online network that grooms and blackmails minors into producing exploitative material — to St. Peter, who was taken into custody on February 3, 2026 and held on $100,000 bond while awaiting extradition to face a felony charge of sexual abuse of a child under sixteen. Investigators said St. Peter, like many 764-linked offenders, used a chain of everyday platforms rather than a single hidden site, making the network's reach into Maryland households — and its ability to strike victims a thousand miles away — easy to underestimate. A Nampa police detective involved in the case warned that "communicating with strangers online carries serious risks, particularly for minors," as predators use 764's escalating cycle of flattery, coercion, and blackmail to extract increasingly explicit material, and ultimately self-harm content, from children too frightened or ashamed to tell a parent. Parents and guardians are urged to routinely review who their children are messaging across every app and game they use, to talk openly about the fact that a predator's threat to "expose" a photo loses its power the moment an adult is told, and to report suspected sextortion immediately to local police or the FBI's tip line at tips.fbi.gov rather than letting a child comply with a blackmailer's demands.`,
+    categorySlug: 'sextortion',
+    alertLevel: 'high',
+    sources: ["St. Mary's County Sheriff's Office", 'Maryland Coordination and Analysis Center', 'Southern Maryland News Net'],
+    sourceUrl: 'https://mcac.maryland.gov/2026/02/police-nab-st-marys-man-wanted-in-idaho-on-child-sex-abuse-charges/',
+    country: 'US',
+    state: 'MD',
+    firstRecorded: '2026-02-03',
+});
+
+UsGM.push({
+    name: 'Middle River Fake "Cash on Delivery" Amazon Courier Scam',
+    slug: 'maryland-middle-river-fake-amazon-courier-scam',
+    description: `In late 2025, a Middle River, Maryland woman named Renee answered her door to a courier holding a package with a real Amazon shipping label addressed to her — and a demand for $9.28 in cash before he would hand it over, even though she had not ordered anything. "I didn't order anything. Who sent me something?" she recalled asking, adding she'd never heard of Amazon using cash-on-delivery and grew suspicious enough, after talking it over with her fiancé, to refuse payment, contact Amazon directly, and file a police report; Amazon confirmed to WMAR-2 News that the company does not collect payment at the doorstep anywhere in the United States. Clay Campbell, director of the Better Business Bureau of Greater Maryland, said the scheme is a variation on a much larger wave of fraudulent delivery alerts hitting Marylanders' phones and doorsteps, warning that "a delayed package, if you get a notification saying you need to cover an extra fee — that's typically a big red flag, really common scam," a pattern the FTC says cost Americans $470 million nationwide in 2024 alone. Unlike the "missed delivery" text-message links Maryland courts and Montgomery County's Office of Consumer Protection have separately warned about, this version delivers a real box to the victim's actual front door, using the unexpected package itself — and a small, easy-to-justify dollar amount — to make an in-person cash grab feel routine rather than suspicious. Anyone who receives a package they did not order, whether from a stranger at the door or a delivery locker, should decline any on-the-spot payment request, contact the retailer directly through its official app or website to confirm the shipment, and report the encounter to local police, since a shipment already paid for by the sender never carries a cash-due balance for the recipient to cover.`,
+    categorySlug: 'package-delivery-scams',
+    alertLevel: 'medium',
+    sources: ['WMAR-2 News (Scripps)', 'Better Business Bureau of Greater Maryland', 'Amazon'],
+    sourceUrl: 'https://www.wmar2news.com/matterformallory/expecting-a-package-scammers-are-sending-fake-delivery-alerts-and-even-knocking-on-doors',
+    country: 'US',
+    state: 'MD',
+    firstRecorded: '2025-12-01',
+});
+
+UsGM.push({
+    name: 'Former Annapolis Resident Charged in $15 Million Medicare Testing Fraud and Charter-Jet Ponzi Scheme (Patrick Britton-Harr)',
+    slug: 'maryland-britton-harr-medicare-fraud-ponzi-scheme',
+    description: `A federal grand jury in Maryland unsealed two indictments on May 28, 2025 against Patrick Britton-Harr, 41, of Charleston, South Carolina and formerly of Annapolis, Maryland, charging him with five counts of health care fraud, six counts of wire fraud, and one count of money laundering across two separate multimillion-dollar schemes. Prosecutors allege that through his company Provista Health, Britton-Harr offered COVID-19 screening to nursing-home patients nationwide and then billed Medicare more than $15 million for expensive respiratory pathogen panel tests that were medically unnecessary, never ordered by a treating physician, and in many cases never performed at all — including tests billed for patients who were already dead — with Medicare actually paying out more than $5 million on the fraudulent claims. In a second scheme prosecutors describe as a Ponzi arrangement, Britton-Harr allegedly recruited roughly 100 "Top Gun" members into his charter jet company, AeroVanti Inc., collecting about $150,000 in upfront membership fees from each — some $15 million total — on the promise the money would buy five aircraft for members' shared use, then diverted the funds to yachts, jewelry, personal living expenses, and a rental property near Tampa, Florida, later obtaining a $1.5 million loan for one aircraft by concealing material facts from the lender. "It is unconscionable for someone to defraud the government and others for personal gain, especially as we faced a global health crisis," said then-U.S. Attorney for the District of Maryland Kelly O. Hayes, whose office is prosecuting the case; Britton-Harr faces up to 20 years in prison on each wire fraud count and 10 years on each health care fraud and money laundering count if convicted. The case is a reminder that a "membership" pitch promising a shared big-ticket asset — a private jet, a timeshare, an investment fund — deserves the same scrutiny as any investment offer: ask for audited financials showing the specific asset the money actually bought, and verify independently rather than trusting a polished pitch and a growing roster of fellow members.`,
+    categorySlug: 'medicare-health-plans',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office for the District of Maryland", 'Live 5 News (WCSC Charleston)'],
+    sourceUrl: 'https://www.justice.gov/usao-md/pr/south-carolina-man-charged-maryland-multi-million-dollar-medicare-fraud-and-ponzi',
+    country: 'US',
+    state: 'MD',
+    firstRecorded: '2025-05-28',
+});
