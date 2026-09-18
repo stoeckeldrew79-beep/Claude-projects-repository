@@ -14040,6 +14040,17 @@ International.push(
     sourceUrl: 'https://gov.fm/public-announcement-on-official-information-channels/',
     country: 'FM',
   },
+  {
+    name: 'Fake "UN Democratic Fund" Facebook Post Impersonated FSM President David Panuelo',
+    slug: 'micronesia-un-democratic-fund-facebook-impersonation-2019',
+    description: `The Federated States of Micronesia government's public information office issued a public warning in November 2019 after an anonymous individual created an unauthorized Facebook page impersonating then-President David Panuelo to promote a fake federal funding opportunity. According to PNC News First, the impostor posted a message claiming "that the federal government has extended the grant awards for the nonexistent UN Democratic fund" and invited members of the community to contact the page directly for more information on how to claim the money. After receiving reports from concerned citizens, the FSM public information office issued a warning stating plainly "that this is a fraud, a scam, and that there is no such thing as a UN Democratic Fund and there is no such thing as free money." The government urged the FSM community to ignore the fraudulent post, report it to Facebook, and contact the FSM Public Information Office directly with any questions about the legitimacy of similar offers. The case illustrates how scammers use the credibility of a national leader's identity to make an unsolicited windfall offer seem official — a red flag whenever a social media post claims a real head of state or government office is personally distributing "free" grant money and asks the public to message the page rather than visit a verified government website.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['PNC News First'],
+    sourceUrl: 'https://web.archive.org/web/20230606040219/https://www.pncguam.com/fsm-government-warns-of-facebook-scam/',
+    country: 'FM',
+    firstRecorded: '2019-11-15',
+  },
 );
 
 International.push(
