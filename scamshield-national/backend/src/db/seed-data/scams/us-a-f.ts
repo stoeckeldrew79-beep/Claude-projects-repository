@@ -8473,6 +8473,45 @@ UsAF.push({
 });
 
 UsAF.push({
+    name: 'Washington County "Ankle Monitor" Jail-Release Scam',
+    slug: 'arkansas-washington-county-ankle-monitor-jail-release-scam',
+    description: `Starting in mid-September 2026, scammers began calling family members of people held at the Washington County Detention Center, falsely claiming they could arrange the detainee's early release onto an ankle monitor, or, in at least one case, placement in a rehabilitation program to avoid prison, in exchange for a $500 payment. The callers impersonate a real, named Washington County Sheriff's Office officer, Captain Kevin East, using his photo lifted from the agency's own website to produce a fabricated "ID verification card" that they display or reference to appear legitimate. The Sheriff's Office confirmed at least two victims as of September 17, 2026. Law Enforcement Legal Advisor Sam Martin told the Arkansas Democrat-Gazette that recipients should "verify the source" independently rather than trust caller ID or a search-engine phone number, since scammers can manipulate both, and should instead go to the agency's official website or call the Sheriff's Office directly at (479) 444-5700, open 24/7; the office stated it never requests money by phone or email. Never send money to arrange a family member's release from jail over the phone; hang up and call the detention facility's published non-emergency number to verify any claim about a detainee's status.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Arkansas Democrat-Gazette / arkansasonline.com'],
+    sourceUrl: 'https://www.arkansasonline.com/news/2026/sep/17/washington-county-sheriffs-office-at-least-2/',
+    country: 'US',
+    state: 'AR',
+    firstRecorded: '2026-09-16',
+});
+
+UsAF.push({
+    name: 'Northeast Arkansas Warrant Payment Gift-Card Scam',
+    slug: 'arkansas-northeast-warrant-payment-gift-card-scam',
+    description: `In early April 2026, police departments in Batesville, Osceola, and Jonesboro, Arkansas, warned residents about a wave of scam calls and texts claiming recipients have an outstanding arrest warrant or missed jury duty. In Batesville, callers falsely identify themselves as officers and tell residents they must pay immediately, via gift cards or other untraceable methods, to avoid being jailed. The Batesville Police Department stated plainly, "The department also does not call people to tell them they have a warrant or missed jury duty." Parallel text-message versions surfaced in Osceola and Jonesboro impersonating Arkansas District Court officials over unpaid traffic violations or civil enforcement summonses, directing recipients to suspicious payment links. All three departments urged residents to delete the messages, never send money, gift cards, or mobile payments, never click embedded links, and to call their local police department directly using a number they look up independently, not one provided in the message, to verify any claim before responding.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['KAIT8 (Region 8 News)'],
+    sourceUrl: 'https://www.kait8.com/2026/04/02/northeast-arkansas-police-warn-scam-calls-demanding-payment-warrants/',
+    country: 'US',
+    state: 'AR',
+    firstRecorded: '2026-04-02',
+});
+
+UsAF.push({
+    name: 'Paragould/Jonesboro Forged Check-Cashing Ring',
+    slug: 'arkansas-paragould-jonesboro-forged-check-cashing-ring',
+    description: `On March 25, 2026, Paragould police arrested three Memphis, Tennessee men, Hugo Ayrot-Quintero, Jose Teran Moncayo, and Wilber Montriel-Anez, for running a forged-check-cashing operation across multiple Arkansas counties over several months. That morning, the trio successfully cashed two fraudulent checks at Jonesboro banks before Moncayo was caught attempting a third at a Paragould bank while his co-defendants waited outside in a vehicle. Detective Johnathan Porter's search of the group turned up more than $8,000 in cash, including two bank money sleeves holding over $4,000 each from the earlier fraudulent transactions, along with lists of bank addresses in two states, records of past transaction dates and totals, damaged checks, bank receipts, and multiple debit cards, pointing to an organized, traveling operation. All three face charges of engaging in a continuing criminal gang, organization, or enterprise, forgery, and attempt, and were held on $250,000 bonds each, set by Judge Curtis Hitt on March 26, with ICE holds also placed. The case is a reminder that counterfeit and altered checks are still actively being run through Arkansas banks by organized, cross-state groups; banks and individuals accepting checks from unfamiliar parties should verify with the issuing bank before releasing funds, and should be wary of anyone rushing a same-day cash-out of a large check.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'medium',
+    sources: ['KAIT8 (Region 8 News)'],
+    sourceUrl: 'https://www.kait8.com/2026/03/30/three-men-arrested-multi-county-check-fraud-scheme/',
+    country: 'US',
+    state: 'AR',
+    firstRecorded: '2026-03-25',
+});
+
+UsAF.push({
     name: 'East Haven Breast-Imaging Manager\'s $1 Million Romance-to-Crypto Loss (Jackie Crenshaw)',
     slug: 'connecticut-east-haven-crenshaw-romance-crypto-loss',
     description: `Jackie Crenshaw, a 61-year-old breast imaging manager from East Haven, Connecticut, met a man calling himself "Brandon" on an online dating site, and over months of daily communication — including gifts and food deliveries sent to her home — he built the kind of trust that made his next suggestion feel safe: investing in a cryptocurrency opportunity he said was earning him steady returns. Fake account statements showing the investment growing convinced Crenshaw to put in more, eventually borrowing against her retirement account and taking out a home loan to keep pace with "Brandon's" requests, including one transaction built around a $100,000 check that her own bank initially verified as good. She had lost nearly $1 million before an anonymous caller tipped off police roughly a year later, finally exposing "Brandon" as fictitious and the platform as fraudulent. Connecticut Attorney General William Tong and AARP Connecticut featured Crenshaw's story in a statewide public service announcement launched January 2, 2026 and aired for 16 weeks on Connecticut television and radio, pairing it with FBI data showing adults 60 and older filed more than 147,000 fraud complaints in 2024 totaling $4.86 billion in losses, including $389 million lost specifically to romance scams. A romantic contact met only online who introduces a "can't miss" investment — especially cryptocurrency — is a red flag regardless of how genuine the relationship otherwise feels, and even a bank confirming a check as good is no guarantee it won't bounce days later once fully processed; anyone approached this way can call Connecticut's Elder Justice Hotline at 860-808-5555 or the AARP Fraud Watch Network Helpline at 877-908-3360 before sending money.`,
