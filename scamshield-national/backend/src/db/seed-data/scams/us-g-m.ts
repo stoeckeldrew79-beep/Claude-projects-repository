@@ -8707,3 +8707,28 @@ UsGM.push({
     state: 'MT',
     firstRecorded: '2026-01-23',
 });
+
+UsGM.push({
+    name: 'Hawaii Hurricane Lowell Charity and Relief Scam Alert',
+    slug: 'hawaii-hurricane-lowell-charity-relief-scam',
+    description: `Hawaii's Department of the Attorney General issued a consumer alert on September 16, 2026 warning residents to watch for scammers exploiting the aftermath of Hurricane Lowell, which caused significant storm damage on Kaua'i and elsewhere across the state that week. The alert flagged three scam patterns converging on the same disaster: fraudulent charities and crowdfunding campaigns collecting donations that never reach storm victims, home-repair and contractor scams targeting damaged properties, and impersonators posing as government agencies or relief organizations to extract money or personal information from people seeking help. Attorney General Anne Lopez said, "People on Kaua'i as well as across the state are dealing with the impacts of recent devastating storms and many people are looking for ways to help. Unfortunately, disasters can also create opportunities for scammers. We encourage everyone to take the time to verify who they are dealing with before donating money, providing personal information or paying for services." The office's Tax & Charities Division laid out five questions donors should be able to answer before giving to any storm-relief campaign — where the donation ultimately goes, what fees the platform or organizer deducts before passing funds along, how long it takes the charity to actually receive the money, what happens if the funds can't reach the intended charity, and whether a donor's personal information might be shared with the charity or third parties — and pointed residents to the state's own charity registry at charity.ehawaii.gov, the IRS Tax Exempt Organization Search, and Charity Navigator to confirm a group's legitimate, registered status before giving. Residents are urged to verify a contractor's license through the DCCA's business search before paying a deposit for storm repairs, and can report a suspected charity scam or unregistered fundraiser to the Tax & Charities Division at 808-586-1480 or ATG.Charities@hawaii.gov.`,
+    categorySlug: 'charity-scams',
+    alertLevel: 'medium',
+    sources: ['Hawaii Department of the Attorney General', 'Maui Now'],
+    sourceUrl: 'https://mauinow.com/2026/09/16/department-of-the-attorney-general-warns-public-to-be-alert-for-scams-following-hurricane-lowell/',
+    country: 'US',
+    state: 'HI',
+    firstRecorded: '2026-09-16',
+});
+
+UsGM.push({
+    name: 'LipoMax "Pink Salt Trick" AI Deepfake Weight-Loss Scam',
+    slug: 'lipomax-pink-salt-trick-ai-deepfake-weight-loss-scam',
+    description: `The Better Business Bureau issued a consumer alert on January 4, 2026 after its Scam Tracker received more than 170 reports in just two months, from consumers in more than 35 states, about a weight-loss supplement called LipoMax, marketed on social media under the viral "pink salt trick" branding. The ads driving sales weren't real: consumers reported seeing AI-generated deepfake videos of Oprah Winfrey and other recognizable doctors and public figures appearing to personally endorse the product, fabricated from real footage to make a fake endorsement look authentic. Buyers who ordered lost more than just the sticker price — an Illinois consumer reported spending over $400 after placing an order, a Florida consumer paid $303.95 for a six-month supply, and many were then contacted by someone identifying themselves as a LipoMax "coach" who pressured them into buying hundreds of dollars more in additional supplements, with some total charges exceeding $800. Complaints to the BBB also described improper or unauthorized billing, customer service that could not be reached at all, and a product that simply didn't work as advertised. A representative for LipoMax told the BBB the company neither authorizes nor produces the deepfake videos, attributing them instead to independent affiliate marketers it says it can't fully control. The BBB's advice: never trust a celebrity health-product endorsement seen only in an ad, verify a company's legitimacy independently of its marketing before ordering, and report a suspicious deepfake ad to the BBB's Ad Truth program, BBB Scam Tracker, the FTC at 877-FTC-HELP, or the FBI's Internet Crime Complaint Center at ic3.gov.`,
+    categorySlug: 'subscription-traps',
+    alertLevel: 'medium',
+    sources: ['Better Business Bureau'],
+    sourceUrl: 'https://www.bbb.org/article/scams/32431-bbb-scam-alert-use-caution-when-searching-for-weight-loss-products-online',
+    country: 'US',
+    firstRecorded: '2026-01-04',
+});

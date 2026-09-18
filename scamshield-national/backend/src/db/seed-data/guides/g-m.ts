@@ -221,6 +221,10 @@ Before you're ever locked out, the BBB recommends researching and saving the con
     slug: 'landlord-rental-overpayment-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'landlord-overpayment-scam'],
+    // representative photo — replace with an exact match if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/For-rent-sign.jpg?width=1200',
+    coverImageCredit: 'Public domain — a "For Rent" sign, representative of the rental listings this scam targets',
+    coverImagePosition: 50,
     sourceUrl: 'https://consumer.ftc.gov/articles/how-spot-avoid-and-report-fake-check-scams',
     body: `Most rental scam warnings are written for renters, but the same fake-check playbook runs just as often in the other direction, against the person doing the renting out. A landlord or roommate-finder lists a unit, a room, or a house online, and hears back from an applicant eager to move in without ever touring the place in person — citing a job relocation, a military transfer, or a family move already underway. The applicant agrees quickly to the deposit and first month's rent, then sends a check, money order, or cashier's check for noticeably more than what's owed. Before the landlord even has to ask about the difference, the "tenant" reaches out first with an apologetic explanation — a moving company also needed to be paid, or a pet deposit was miscalculated — and asks the landlord to simply deposit the check and wire, Zelle, or otherwise send back the overage, often pushing for speed since the mover or employer supposedly needs the money right away.
 
@@ -4032,9 +4036,8 @@ If a family member's remains may have been affected by this scandal, watch for o
     author: "ScamShield Editorial",
     tags: ["guide", "levoit-vesync-hepa-settlement"],
     sourceUrl: "https://www.classaction.org/news/15m-levoit-air-purifier-settlement-wraps-up-lawsuit-over-hepa-claims",
-    // representative photo — replace with an exact match if found
-    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Air_Purifier_(Levoit_LV-H133)_(49318569587).jpg?width=1200",
-    coverImageCredit: "Photo: Home Air Quality Guides, CC BY-SA 2.0, via Wikimedia Commons — a Levoit air purifier, the product at issue",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Air_Purifier_(Levoit_Core_300)_(49318249796).jpg?width=1200",
+    coverImageCredit: "Photo: Home Air Quality Guides, CC BY-SA 2.0, via Wikimedia Commons — a Levoit Core air purifier, one of the two product lines named in the settlement",
     coverImagePosition: 50,
     body: `Vesync (US) Corporation, the company behind the popular Levoit brand of home air purifiers, agreed to pay up to $15 million to resolve Sen et al. v. Vesync (US) Corporation (Index No. 510627/2026, Supreme Court of the State of New York), a class action alleging the company oversold what its filters could actually do.
 
@@ -4091,7 +4094,6 @@ If you worked for HCSG, or received care at a long-term care facility, nursing h
     slug: "international-shoppes-data-breach-settlement-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "international-shoppes-data-breach-settlement"],
-    // representative photo — replace with an exact match if found
     coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/JFK_Terminal_4_June_2019_departures.jpg?width=1200",
     coverImageCredit: "Photo: Mybirthday647, CC0, via Wikimedia Commons — the departures hall at JFK Terminal 4, home to International Shoppes",
     coverImagePosition: 50,
@@ -4382,9 +4384,8 @@ GuidesGM.push(
     tags: ['guide', 'hyundai-kia-anti-theft-settlement'],
     sourceUrl: 'https://www.atg.wa.gov/news/news-releases/states-settle-hyundai-kia-over-failure-equip-vehicles-anti-theft-technology',
     coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Kia_Sportage_(NQ5)_1X7A0326.jpg?width=1200',
-    coverImageCredit: 'Photo: Alexander Migl (CC BY-SA 4.0)',
+    coverImageCredit: 'Photo: Alexander Migl (CC BY-SA 4.0) — the Kia Sportage, one of the specific affected models named in the settlement',
     coverImagePosition: 50,
-    // representative photo — replace with an exact match if found
     body: `On December 16, 2025, attorneys general from 36 states and jurisdictions announced a settlement with Hyundai and Kia over allegations that the automakers sold millions of vehicles across the country without an anti-theft feature that had become standard everywhere else in the industry: an engine immobilizer, the electronic chip system that stops a car from starting unless it recognizes the correct key. The coalition — led by Washington, New Jersey, Minnesota, Connecticut, New Hampshire, and Pennsylvania, among others — found that in 2015, only about 26 percent of the Kia and Hyundai vehicles sold in the U.S. came equipped with an immobilizer, compared with roughly 96 percent of vehicles sold by every other major manufacturer. That gap sat mostly unnoticed for years, until social media turned it into one of the most disruptive car-theft trends in recent American history.
 
 Starting around 2020 and exploding through 2022 and 2023, a technique that came to be known as the "Kia Boyz" method — after a group of Milwaukee teenagers whose videos popularized it — spread across TikTok and YouTube: using nothing more than a USB cable and a screwdriver, anyone could break into the steering column of an affected Hyundai or Kia and start the engine in under a minute, no key or hacking skill required. The states' investigation documented just how fast the damage compounded. In New Jersey, Hyundai and Kia vehicles made up about 6.5 percent of registered cars in 2023 but accounted for roughly 19 percent of that year's auto thefts. In the Twin Cities, reported thefts of the two brands' vehicles jumped from 384 in 2021 to 3,293 in 2022 — an 836 percent increase in Minneapolis alone — and Minneapolis officials tied thefts of these two brands that year to five homicides, thirteen shootings, thirty-six robberies, and 265 crashes, as stolen cars with no factory security ended up in the hands of inexperienced, often underage drivers fleeing police or committing other crimes.
