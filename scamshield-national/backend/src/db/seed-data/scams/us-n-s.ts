@@ -8358,3 +8358,15 @@ UsNS.push({
     country: "US",
     state: "AL",
 });
+
+UsNS.push({
+    name: 'Puerto Rico Capri Stores Facebook Impersonation Giveaway Scam',
+    slug: 'puerto-rico-capri-stores-facebook-giveaway-scam',
+    description: `Scammers built a Facebook page nearly identical to the real account for Capri, a well-known Puerto Rico retail chain, copying its name, logo, and branding, then posted announcements of fake giveaways — offering prizes such as cell phones, store gift cards, and cash — and encouraged users to follow the page and leave comments to make the promotion look authentic and boost its reach. Puerto Rico's Departamento de Asuntos del Consumidor (DACO) issued a public alert warning that the account and its promotions were entirely fabricated, stating plainly that "all that information is completely false," and Capri itself confirmed it never runs promotions this way — the retailer said any real contest is announced only through printed in-store materials, never through a request for personal or financial information on social media. DACO urged consumers to verify a retailer's official social media account before following it or engaging with a posted giveaway, to be skeptical of any prize offer that asks for likes, follows, or comments as a condition of eligibility, and to report suspected impersonation accounts directly to DACO through its official Facebook and X accounts (@dacoatufavor), at www.daco.pr.gov, or by calling 787-722-7555.`,
+    categorySlug: 'lottery-sweepstakes-scams',
+    alertLevel: 'low',
+    sources: ['Puerto Rico Departamento de Asuntos del Consumidor (DACO)', 'WIPR'],
+    sourceUrl: 'https://wipr.pr/daco-alerta-sobre-intento-de-fraude-utilizando-el-nombre-de-las-tiendas-capri-en-puerto-rico/',
+    country: 'US',
+    state: 'PR',
+});

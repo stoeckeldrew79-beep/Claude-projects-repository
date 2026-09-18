@@ -9141,3 +9141,14 @@ UsAF.push({
     country: "US",
     state: "AL",
 });
+
+UsAF.push({
+    name: 'CFPB Employee Impersonation Class-Action Payout Scam',
+    slug: 'cfpb-employee-impersonation-class-action-payout-scam',
+    description: `The Consumer Financial Protection Bureau has confirmed that fraudsters are impersonating its own employees — using the real names of actual CFPB staff — to contact people by phone and video call and tell them they are owed money from a class-action lawsuit or other settlement, then instruct the victim to first pay taxes or a processing fee before the funds can be released, and in some cases send follow-up messages from email addresses styled to resemble a legitimate .gov domain. The Bureau says older adults have been defrauded of thousands of dollars this way, and that the tactic sometimes escalates to a threat that the CFPB will open an investigation against the recipient if they do not send payment. The CFPB states flatly that it "will never require you to pay money to receive money" and will never ask for additional personal information before a legitimate refund check can be cashed; anyone contacted this way should hang up, avoid clicking any link or replying to the message, and instead call the CFPB's own consumer call center directly at (855) 411-2372, Monday through Friday from 8 a.m. to 8 p.m. ET, to verify whether the outreach was genuine.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Consumer Financial Protection Bureau (CFPB)'],
+    sourceUrl: 'https://www.consumerfinance.gov/about-us/blog/beware-of-scammers-pretending-to-be-from-the-cfpb/',
+    country: 'US',
+});
