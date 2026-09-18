@@ -7957,3 +7957,42 @@ UsGM.push({
     country: 'US',
     state: 'MD',
 });
+
+UsGM.push({
+    name: 'Montgomery County Victims Spark FBI/India Call-Center Takedown of Government-Impersonation Scam Ring',
+    slug: 'maryland-montgomery-county-india-call-center-impersonation-takedown',
+    description: `At a February 2, 2026 news conference, the FBI's Baltimore Field Office, Montgomery County Police, and the Montgomery County State's Attorney's Office announced the results of a joint investigation that traced fraud reports from Montgomery County residents to international scam call centers operating out of India since 2022. Callers impersonated federal agents from the Social Security Administration, FBI, and other agencies, telling victims their Social Security numbers had been "suspended" or linked to money laundering and drug trafficking, then pressured them to wire away their savings to "protect" themselves. Victims described include Lisa, an 82-year-old Rockville woman who wired her entire life savings after being told her family was in danger, and Sahadev, a 69-year-old Germantown resident who was sent fake identification, isolated for days, and convinced to transfer all his money. Nationally, 660 people lost nearly $50 million to the network, including more than $6.2 million lost by Maryland residents; India's Central Bureau of Investigation dismantled the call centers in December 2025, arresting six operators, while eight people have been arrested in Montgomery County since 2024 in connection with the scheme. Montgomery County Police Captain Marc Erme said, "These scams exploit fear, trust and vulnerability. They are deeply personal crimes," while State's Attorney McCarthy warned bluntly, "If you're a victim of one of these things, you're not going to get your money back." Marylanders are urged to hang up on any caller claiming to be a federal agent demanding money or a Social Security number over the phone, never wire money or buy gift cards to "protect" an account, and independently verify any claim by calling the agency directly using a number found on its official .gov website.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'critical',
+    sources: ['WTOP News', 'FBI Baltimore Field Office', 'Montgomery County Police Department', "Montgomery County State's Attorney's Office"],
+    sourceUrl: 'https://wtop.com/montgomery-county/2026/02/they-took-it-all-from-me-victims-of-fraud-in-montgomery-county-share-stories-to-help-others/',
+    country: 'US',
+    state: 'MD',
+    firstRecorded: '2026-02-02',
+});
+
+UsGM.push({
+    name: 'New York Man Sentenced for Impersonating Crypto Influencers in Telegram Staking Scam Targeting Maryland Victims',
+    slug: 'maryland-saleem-crypto-influencer-telegram-staking-scam',
+    description: `Noman Saleem, 39, of Queens and Levittown, New York, was sentenced on June 23, 2026 by U.S. District Judge Deborah K. Chasanow in the District of Maryland to 15 months in federal prison plus three years of supervised release for a cryptocurrency staking fraud that victimized at least one Maryland resident. From December 2020 into 2021, Saleem created Telegram handles that impersonated well-known crypto influencers, drew thousands of followers into public channels, then charged victims roughly $500-$600 in crypto to join a "VIP" group where they believed they were messaging the real influencer directly. Inside the VIP channel he promoted a fake staking program promising guaranteed returns over 30-to-90-day terms and told victims larger deposits would yield proportionally higher profits, but he never staked any funds — he simply kept the crypto sent to wallets he controlled and cut off contact. The scheme, investigated by the FBI's Baltimore Field Office and prosecuted by the U.S. Attorney's Office for the District of Maryland, generated at least $1,415,067.14 in crypto and cash from victims before authorities recovered a substantial portion through his guilty plea. Marylanders approached about "guaranteed" crypto staking returns through a Telegram "VIP" channel — especially one requiring an upfront crypto payment to join — should treat it as fraud, independently verify any claimed influencer identity through their official verified channels, and never send cryptocurrency to a wallet based on promised fixed returns.`,
+    categorySlug: 'cryptocurrency-scams',
+    alertLevel: 'high',
+    sources: ['U.S. Attorney\'s Office for the District of Maryland', 'FBI Baltimore Field Office', 'Yahoo News'],
+    sourceUrl: 'https://www.yahoo.com/news/us/articles/fake-crypto-influencer-gets-15-171831567.html',
+    country: 'US',
+    state: 'MD',
+    firstRecorded: '2020-12-01',
+});
+
+UsGM.push({
+    name: 'Federal Layoffs Fuel Wave of Job Scams Targeting Maryland Workers',
+    slug: 'maryland-federal-layoff-job-scams',
+    description: `The Baltimore Banner reported on May 19, 2025 that Maryland's steep federal workforce reductions have created fertile ground for employment scammers, who post fake job listings on social media and job boards, run "recruiter" outreach by unsolicited text and email built on information scraped from LinkedIn and Indeed profiles, and push work-from-home offers promising high pay for little effort. Common tactics described include telling job seekers they must buy their own equipment or hand over bank account information up front, or sending a target money and asking them to wire part of it back or forward it to a third party — a fake-check-style maneuver aimed at people newly and urgently searching for income. Tracy Rezvani, administrator of Howard County's Office of Consumer Protection, said "criminal syndicates watch the news as much as anybody" and that the surge is driven by how many more people are actively job hunting, adding that a short, "off"-feeling interview is a common warning sign. Karen Straughn, an assistant Maryland attorney general, echoed the warning signs and pointed residents toward the Attorney General's consumer hotline, 410-528-8662 (weekdays, 10 a.m.-2 p.m.), to check whether a specific job posting is legitimate before applying. Maryland job seekers, especially recently laid-off federal workers, should be wary of vague postings with unrealistically high pay, never pay for equipment or "processing" out of pocket, never share bank details before formal hiring paperwork, and verify any listing directly through a company's own official careers page rather than a link in an unsolicited text or email.`,
+    categorySlug: 'employment-scams',
+    alertLevel: 'medium',
+    sources: ['The Baltimore Banner', 'Howard County Office of Consumer Protection', 'Maryland Office of the Attorney General'],
+    sourceUrl: 'https://www.thebanner.com/economy/ripple-effects/maryland-job-scams-federal-workers-MOGYHTV2MBDY5GSRXCXJJ5KJG4/',
+    country: 'US',
+    state: 'MD',
+    firstRecorded: '2025-05-19',
+});
