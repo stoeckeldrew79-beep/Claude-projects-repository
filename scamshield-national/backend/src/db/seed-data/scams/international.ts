@@ -15880,6 +15880,42 @@ International.push(
 
 International.push(
   {
+    name: 'Liechtenstein "TGI AG" Unauthorized Deposit-Taking Investment Scheme',
+    slug: 'liechtenstein-tgi-ag-unauthorized-deposit-scheme',
+    description: `Liechtenstein's Financial Market Authority (FMA) issued a public warning on April 22, 2026 against TGI AG, a firm registered at Städtle 33 in Vaduz, after determining the company was neither licensed nor entered in the FMA's official register. The FMA stated it "urgently advises against making any investments in connection with the offering of TGI AG, in particular against responding to such offers or transferring any funds." The regulator's concerns proved warranted: on May 26, 2026 the FMA issued a formal order forcing TGI AG to immediately halt distribution and public offering of three products — "Customer Basic 2%," "Sales Premium," and "Sofortrabatt" (Instant Discount) — after finding the firm was "conducting deposit business with these products without the necessary authorization from the FMA." TGI AG was given four months to unwind and repay customer funds held under these unauthorized arrangements, with the order enforceable immediately despite any pending appeal. The case illustrates how fraudulent deposit-taking schemes can market fixed-return or discount-linked investment products that mimic legitimate banking offers. Before transferring money to any Liechtenstein-based investment or savings product, verify the provider's authorization directly through the FMA's public register at register.fma-li.li.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'high',
+    sources: ['Financial Market Authority Liechtenstein (FMA)'],
+    sourceUrl: 'https://www.fma-li.li/en/news/warning-tgi-ag-1615',
+    country: 'LI',
+    firstRecorded: '2026-04-22',
+  },
+  {
+    name: 'Liechtenstein "Quishing" Fake QR Code Parking Meter Scam',
+    slug: 'liechtenstein-quishing-parking-meter-qr-code-scam',
+    description: `On August 13, 2026, the Landespolizei des Fürstentums Liechtenstein warned the public about a "quishing" (QR code phishing) scheme targeting drivers at parking meters. Fraudsters physically stick counterfeit QR code stickers directly over the genuine codes on parking meters; police described the fakes as "täuschend ähnlich" (deceptively similar) to the official designs, "so well-forged that they are barely distinguishable from the originals at first glance." Drivers who scan the tampered code are taken not to the official parking payment portal but to a fraudulent look-alike site, where they are prompted to enter their license plate and parking duration followed by their credit card number and two-factor authentication code — data the criminals then use to make unauthorized charges. The scheme exploits the growing shift toward cashless, phone-based parking payment. Police advised drivers to check that the site opened after scanning matches the official parking provider's real web address, to use only known and trusted parking-payment apps rather than scanning an unfamiliar code, to visually inspect codes for signs of an overlaid sticker, and to report any manipulated code's exact location to the Landespolizei. Anyone who has already entered card details on a suspicious page should contact their bank immediately to block the card and file a police report.`,
+    categorySlug: 'qr-code-scams',
+    alertLevel: 'medium',
+    sources: ['Landespolizei des Fürstentums Liechtenstein', 'Polizei.news', 'Blick'],
+    sourceUrl: 'https://polizei.news/2026/08/13/liechtenstein-betrueger-ueberkleben-qr-codes-auf-parkuhren-und-stehlen-kreditkartendaten/',
+    country: 'LI',
+    firstRecorded: '2026-08-13',
+  },
+  {
+    name: 'Liechtenstein Fake Police "Car Accident Bail Money" Scam',
+    slug: 'liechtenstein-fake-police-accident-bail-scam',
+    description: `The Landespolizei des Fürstentums Liechtenstein issued a warning on February 3, 2026 about telephone scammers impersonating police officers to extract emergency cash from elderly residents. In the reported calls, a German-speaking caller falsely claims the victim's son or daughter has just caused a car accident and, because the vehicle was allegedly uninsured, now needs money posted as bail to avoid immediate imprisonment; some calls reportedly included background audio of someone crying to heighten the pressure on the victim. Police stressed that this urgency and demand for cash is itself the giveaway, stating plainly: "Die Polizei wird sich niemals am Telefon nach Bargeld, Goldbarren oder dergleichen erkundigen" (The police will never inquire about cash, gold bars, or similar valuables over the phone). The Landespolizei received multiple reports of these calls from residents across the country. Authorities urged anyone receiving such a call to hang up immediately, never disclose financial details to an unverified caller, independently contact the family member supposedly in trouble before acting, and never hand cash or valuables to a stranger regardless of how urgent the caller makes the situation sound.`,
+    categorySlug: 'family-emergency-scams',
+    alertLevel: 'high',
+    sources: ['Landespolizei des Fürstentums Liechtenstein', 'Polizeinews.ch'],
+    sourceUrl: 'https://www.polizeinews.ch/2026/02/03/landespolizei-liechtenstein-vorsicht-vor-falschen-polizisten-am-telefon/',
+    country: 'LI',
+    firstRecorded: '2026-02-03',
+  },
+);
+
+International.push(
+  {
     name: 'Lesotho Prestige Wealth, Lengau Society & Prime Aura Bogus Investment Schemes',
     slug: 'lesotho-prestige-wealth-lengau-prime-aura-bogus-investment-schemes',
     description: `The Central Bank of Lesotho (CBL) issued a public press release on June 25, 2026 (Ref: 25062026/1) warning against "a growing number of individuals and illegal investment platforms that promise unusually high returns or solicit deposits from potential investors." Alongside the already-notorious SGK Investment Scheme, the CBL specifically named three further unlicensed operators the public should not invest in: Prestige Wealth Investments, Lengau People Society, and the Prime Aura Platform. The bank said that, "in a desperate attempt to persuade the public to deposit funds and to defraud it," some of these schemes and their promoters had falsely claimed to hold a valid CBL license — a claim the CBL flatly denied, stating none of the named entities is licensed to take deposits or manage investments. These schemes follow a pattern common in Lesotho's recent wave of unlicensed investment fraud: promoters recruit through trusted community and family networks, sometimes styled as village- or society-based savings clubs, promising returns far above anything a licensed bank or fund could offer, before withdrawals slow, fees are demanded, or the operation quietly disappears with member deposits. The CBL urged the public, before handing over any money, to demand proof of a valid CBL license and to verify that license directly with the bank rather than relying on the promoter's own claims, and published a phone/WhatsApp line (+266 58880647) and its online registry of licensed financial institutions for anyone wanting to check a scheme before investing.`,
