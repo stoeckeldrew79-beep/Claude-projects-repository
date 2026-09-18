@@ -6975,3 +6975,18 @@ More than 6,000 customers filed claims exceeding $140 million in Cred's bankrupt
 The case is a textbook illustration of how a crypto platform can dress up an undisclosed, unhedged counterparty risk as a "yield product," and keep soliciting depositors' money well after insiders knew the underlying collateral was gone.`,
     sourceUrl: 'https://www.cbsnews.com/sanfrancisco/news/cred-llc-crypto-lender-executives-schatt-podulka-wire-fraud-federal-prison/',
   });
+
+NotoriousNS.push({
+    title: 'Daniel Och and the Och-Ziff Africa Bribery Scandal',
+    slug: 'daniel-och-och-ziff-africa-bribery-scandal',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'international'],
+    body: `Och-Ziff Capital Management was one of the world's largest publicly traded hedge funds when founder Daniel Och built it into an Africa-focused dealmaking machine, one that, prosecutors found, ran substantially on bribery rather than skill. Beginning around 2007, Och-Ziff executives Michael Cohen and Vanja Baros directed tens of millions of dollars in corrupt payments to high-level government officials across Libya, Chad, Niger, Guinea, and the Democratic Republic of the Congo, using intermediaries and shell arrangements to win two prizes at once: a $300 million anchor investment from Libya's sovereign wealth fund, the Libyan Investment Authority, and lucrative mining concessions elsewhere on the continent.
+
+The firm's books recorded none of this honestly; bribes were disguised through consulting fees and joint-venture structures, which is what let the SEC frame the case not as simple bribery but as a books-and-records and internal-controls fraud that misled Och-Ziff's own investors about how their capital was actually being deployed. In September 2016, Och-Ziff and its African subsidiary pleaded guilty and paid a combined $412 million to the DOJ and SEC, $213 million as a criminal fine and roughly $199 million in disgorgement and interest, at the time one of the largest FCPA resolutions ever obtained against a hedge fund.
+
+Daniel Och and CFO Joel Frank separately settled SEC civil charges, with Och paying $2.2 million, for ignoring red flags that let the bribery continue under their watch, while the SEC's case against Cohen and Baros was later dismissed on statute-of-limitations grounds. Cohen was nonetheless indicted separately by federal prosecutors in Brooklyn for a related scheme to defraud a UK charitable foundation client over an undisclosed personal stake in an African mining deal, pleaded guilty to making a false statement in 2019, and was sentenced to three months in prison.
+
+The scandal gutted Och-Ziff's reputation and assets under management, and the firm rebranded as Sculptor Capital Management in 2019 before being acquired by Rithm Capital in 2023. It stands as a cautionary case of how a sophisticated Wall Street institution can quietly convert bribery into "deal flow," hiding corruption inside routine-looking consulting and advisory fees until regulators unwound the books.`,
+    sourceUrl: 'https://www.sec.gov/newsroom/press-releases/2016-203',
+  });
