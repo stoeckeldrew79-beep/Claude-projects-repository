@@ -8035,3 +8035,42 @@ UsNS.push({
     country: 'US',
     state: 'NH',
 });
+
+UsNS.push({
+    name: 'Reno AI-Generated Fake "Found Pet" Emergency Scam',
+    slug: 'nevada-reno-ai-fake-missing-pet-emergency-scam',
+    description: `In May 2026, Reno resident Tammy Rieken received a call from someone claiming to have found her missing cat, Loulou. "When they first called, I was elated. I was so excited because she was found," Rieken told local reporters — only for the caller to follow up with a graphic photo of a supposedly injured animal and a demand for thousands of dollars to cover emergency veterinary surgery. Reno Police Department Public Information Officer Hunter Mercurio said the tactic is part of a growing pattern in which scammers scour lost-pet posts and social media for grieving owners, explaining that "a very common factor with these scams is a lot of these scammers will try to tug on victims' emotions." University of Nevada, Reno journalism professor and AI researcher Paromita Pain said the fabricated veterinary images often contain telltale flaws, such as unrealistic hair rendering or clinical details that do not match how real animal hospitals operate, though she cautioned the technology is improving rapidly and such flaws will not always be visible. The scam falsely invoked the name of a real local business, Mountain View Animal Hospital, to lend the extortion attempt credibility. Pet owners who get a "found pet" call demanding payment should hang up immediately and independently verify the claim by calling the named clinic directly, using a phone number they look up themselves rather than one supplied by the caller.`,
+    categorySlug: 'ai-deepfake-scams',
+    alertLevel: 'medium',
+    sources: ['FOX Reno (KRXI)', 'Reno Police Department'],
+    sourceUrl: 'https://foxreno.com/news/local/ai-scam-targets-reno-pet-owners-with-fake-images-of-missing-pets-to-demand-money',
+    country: 'US',
+    state: 'NV',
+    firstRecorded: '2026-05-19',
+});
+
+UsNS.push({
+    name: 'Fake "Judge Vargas" Court and DMV Warrant Text Scam',
+    slug: 'nevada-fake-court-dmv-warrant-text-scam',
+    description: `In April 2026, Nevada's Eighth Judicial District Court and the state DMV issued a joint public warning after fraudulent text messages impersonating both agencies spread across southern Nevada, falsely claiming recipients owed money for unpaid parking tickets and invoking a fictitious "Judge Vargas" who would issue an arrest warrant — with one version threatening a 35 percent penalty — unless the recipient clicked a payment link. "The court is not going to ask people for their personal identifying information. We're not asking for socials. We're not asking you to click on a link to pay a fine," said Eighth Judicial District Court Chief Judge Jerry A. Wiese. Nevada DMV representative Hailey Foster added, "We're not going to, like, threaten anybody or take them to jail because they're not paying." The messages rotate through different sender names, phone numbers, and fabricated case numbers to dodge spam filters and appear individually tailored to each recipient. Officials urged Nevadans to never click links in unsolicited texts claiming to be from a court or the DMV, and instead to check their DMV account or the court's official website directly, or call the agency using an independently verified phone number, before assuming any such obligation is real.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['News 3 LV (KSNV)', 'Eighth Judicial District Court', 'Nevada DMV'],
+    sourceUrl: 'https://news3lv.com/news/local/fake-dmv-court-texts-threaten-warrants-and-jail-time-officials-say-ignore-links',
+    country: 'US',
+    state: 'NV',
+    firstRecorded: '2026-04-09',
+});
+
+UsNS.push({
+    name: 'NV Energy Search-Engine Ad and Door-to-Door Impersonation Scam',
+    slug: 'nevada-nv-energy-search-ad-door-to-door-impersonation-scam',
+    description: `Starting in August 2025 and continuing through the summer of 2026, NV Energy has repeatedly warned customers about two related impersonation tactics. In the first, flagged by the Nevada Department of Emergency Management in August 2025, scammers pose as NV Energy technicians and go door-to-door at homes and businesses; the utility stresses that genuine employees and contractors carry identification and will never demand immediate payment or threaten disconnection in person, by phone, text, or email, and that NV Energy does not partner with outside companies for HVAC or solar installation work. In the newer variant, which NV Energy flagged again ahead of the July 4, 2026 holiday weekend, criminals purchase sponsored search-engine ads that mimic the utility's branding and appear at the top of results when customers search for its phone number; callers who dial the listed number are connected not to NV Energy but to imposters who attempt to collect account numbers, payment-card details, or other personal information under the guise of setting up or transferring service. NV Energy directs customers to bypass any number found through a search ad or an unsolicited visit and instead dial its verified lines directly — 702-402-5555 in southern Nevada or 775-834-4444 in northern Nevada — or use the official self-service tools at nvenergy.com.`,
+    categorySlug: 'utility-scams',
+    alertLevel: 'medium',
+    sources: ['NV Energy', 'FOX5 Las Vegas (KVVU)', 'News 3 LV (KSNV)'],
+    sourceUrl: 'https://www.fox5vegas.com/2026/07/03/nv-energy-warns-las-vegas-customers-july-4th-weekend-phone-scam/',
+    country: 'US',
+    state: 'NV',
+    firstRecorded: '2025-08-28',
+});
