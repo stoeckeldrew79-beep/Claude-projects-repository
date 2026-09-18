@@ -159,7 +159,13 @@ export async function verifyFile(title: string, caption: string): Promise<Common
   if (!license) return null;
   if (!ALLOWED.some((re) => re.test(license))) return null;
 
-  const artist = stripHtml(meta.Artist?.value ?? '');
+  // Commons' Artist field is free text some contributors pad with a
+  // parenthetical contact notice ("if there is an issue with this image,
+  // contact me using...") that has nothing to do with the name and no
+  // length limit of its own - it once pushed a credit past the articles
+  // table's 255-char cover_image_credit column and broke the seed. Stripped
+  // here rather than trusted, since the failure mode is silent until seed.
+  const artist = stripHtml(meta.Artist?.value ?? '').replace(/\s*\([^)]*\)\s*$/, '').trim();
 
   // Public-domain files legally need no credit; CC-BY ones do. Keeping the
   // caption on both is a readability choice, not a licence one - it is what
@@ -173,11 +179,20 @@ export async function verifyFile(title: string, caption: string): Promise<Common
 
   const file = title.replace(/^File:/, '').replace(/ /g, '_');
 
+  // Hard safety net on top of the artist-field cleanup above: whatever the
+  // caption plus attribution come to, this can never exceed the DB column
+  // that stores it, no matter what Commons metadata throws at it next.
+  const MAX_CREDIT_LENGTH = 255;
+  let credit = `${caption}. ${attribution}`;
+  if (credit.length > MAX_CREDIT_LENGTH) {
+    credit = `${credit.slice(0, MAX_CREDIT_LENGTH - 1)}…`;
+  }
+
   return {
     // Special:FilePath with a width serves a resized copy from Commons' own
     // thumbnail pipeline, so a 40MP archive scan does not ship to the browser.
     url: `https://commons.wikimedia.org/wiki/Special:FilePath/${encodeURIComponent(file)}?width=1200`,
-    credit: `${caption}. ${attribution}`,
+    credit,
     title,
     license,
   };
