@@ -8560,3 +8560,41 @@ UsGM.push({
     state: 'MA',
     firstRecorded: '2025-09-20',
 });
+
+UsGM.push({
+    name: 'Montana Mail-In "CSAM Extortion" Bitcoin and QR Code Blackmail Scam',
+    slug: 'montana-mail-extortion-qr-code-bitcoin-blackmail-scam',
+    description: `The Montana Department of Justice's Division of Criminal Investigation issued a warning after at least six law enforcement agencies across eastern and central Montana, and into Wyoming, began fielding reports of a disturbing mail-based extortion scheme. Victims receive an envelope with no return address and Canadian postage containing child sexual abuse material along with a letter demanding payment — via Bitcoin or Cash App, using a printed QR code and web address — within 36 hours, and threatening that law enforcement will be alerted if the recipient does not pay. Anne Dormady, Crime Information Bureau Chief with the Montana Division of Criminal Investigation, said the scheme relies on the same emotional pressure tactic behind most fraud: "Most scams really make someone feel like they have to make a quick decision and that they need to quickly provide money to the scamster. It is very important that you stop and you think." Investigators stress that the letters are a coercion tactic, not a real law enforcement matter, and that scanning the QR code or paying the demanded sum does not make the threat go away. Anyone who receives one of these letters should not scan the QR code or visit the listed web address, should not send any payment, and should instead contact local law enforcement directly to report it.`,
+    categorySlug: 'sextortion',
+    alertLevel: 'high',
+    sources: ['Montana Department of Justice, Division of Criminal Investigation', 'KPAX News', 'KTVH'],
+    sourceUrl: 'https://www.kpax.com/news/montana-news/montana-department-of-justice-warns-of-disturbing-mail-scam',
+    country: 'US',
+    state: 'MT',
+});
+
+UsGM.push({
+    name: 'NorthWestern Energy Imposter Utility Shutoff Scam',
+    slug: 'montana-northwestern-energy-imposter-utility-shutoff-scam',
+    description: `NorthWestern Energy issued a scam alert on January 7, 2026 after receiving a wave of reports from Montana customers being targeted by callers impersonating the utility and falsely claiming their electric or gas service would be shut off within hours unless they made an immediate payment. The company stated plainly that "these threats are not legitimate," noting that "energy service providers never demand instant payment or threaten customers with sudden disconnection" and that customers with past-due balances always receive multiple advance notices before any real service interruption — a shutoff is never a surprise phone call. Scammers behind these utility-impostor schemes contact victims by phone, text, or email and pressure them to pay using a prepaid debit card, gift card, or cryptocurrency, all of which are red flags because legitimate utilities never accept those payment methods and never threaten same-day disconnection. NorthWestern Energy directed customers who receive a suspicious call to hang up and contact the company directly at 888-467-2669, or the Montana Public Service Commission at 1-800-646-6150, before providing any payment or personal account information — and to never trust caller ID alone, since scammers can spoof a utility's real phone number.`,
+    categorySlug: 'utility-scams',
+    alertLevel: 'medium',
+    sources: ['NorthWestern Energy', 'Daily Montanan'],
+    sourceUrl: 'https://northwesternenergy.com/about-us/our-projects/montana-meter-upgrade/2026/01/07/northwestern-energy-warns-scammers-targeting-montanans',
+    country: 'US',
+    state: 'MT',
+    firstRecorded: '2026-01-07',
+});
+
+UsGM.push({
+    name: 'Montana Regulator Warns of AI Deepfake and "Pig Butchering" Investment Scams for 2026',
+    slug: 'montana-csi-ai-deepfake-pig-butchering-investment-scams-2026',
+    description: `The Montana Commissioner of Securities and Insurance (CSI), the state's securities regulator, published a consumer alert on January 23, 2026 titled "New Year, New Scams," warning Montanans that investment fraud is increasingly built around artificial intelligence tools that make cons look far more credible than the pitches regulators have historically seen. Commissioner James Brown said "scammers never rest — they adapt their tactics to current events, technology, and investor interest," and the office's alert catalogued a dozen active threats, including so-called "pig butchering" schemes that start as an online romance or friendship before steering the victim into a fake investment platform, AI-generated deepfake videos of celebrities or trusted contacts endorsing bogus opportunities, "phantom" AI trading bots that promise guaranteed algorithmic returns, spoofed websites and apps cloned to mimic legitimate financial institutions, and unregistered solicitors pushing opportunities through Facebook, X, TikTok, and Instagram Reels or unsolicited text and WhatsApp messages. State securities regulators nationwide opened more than 8,800 investigations in 2024 alone, resulting in over $259 million in fines and restitution, with more than 1,600 of those cases involving senior investors specifically. The CSI office urged Montanans to independently verify any investment opportunity — and the identity of the person pitching it — through Montana's securities regulator before sending money, and offers free public presentations on spotting these schemes through its office at 406-444-2040.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'medium',
+    sources: ['Montana Commissioner of Securities and Insurance', 'NBC Montana'],
+    sourceUrl: 'https://csimt.gov/2026/01/23/new-year-new-scams-csi-urges-vigilance-against-2026-investment-fraud/',
+    country: 'US',
+    state: 'MT',
+    firstRecorded: '2026-01-23',
+});
