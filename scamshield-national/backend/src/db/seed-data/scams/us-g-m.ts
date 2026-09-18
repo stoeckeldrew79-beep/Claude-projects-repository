@@ -8455,3 +8455,42 @@ UsGM.push({
     state: 'KY',
     firstRecorded: '2025-12-04',
 });
+
+UsGM.push({
+    name: 'Idaho Holiday Charity Scam Warning',
+    slug: 'idaho-holiday-charity-scam-warning',
+    description: `Idaho Attorney General Raúl Labrador issued a consumer alert on December 4, 2025, urging Idahoans to slow down before responding to charitable solicitations as the holiday giving season began, warning that "the holidays unfortunately bring out the worst in criminals who exploit our community's generosity." The alert, timed to International Charity Fraud Awareness Week, described scammers posing as unfamiliar or entirely fabricated nonprofit organizations that pressure would-be donors to pay by gift card or cryptocurrency — methods no legitimate charity ever requires — and that send phishing texts or emails whose links lead to cloned donation pages built to harvest banking information rather than fund any cause. The Attorney General's office noted that the two heaviest periods for charity fraud each year are the Christmas season and the weeks following any natural disaster, both moments when public generosity peaks just as scrutiny tends to lapse. Idahoans are advised to verify a charity's registration independently before giving, and to never click a donation link in an unsolicited text or email — going instead directly to the organization's own known website to donate.`,
+    categorySlug: 'charity-scams',
+    alertLevel: 'medium',
+    sources: ['Idaho Office of the Attorney General'],
+    sourceUrl: 'https://www.ag.idaho.gov/newsroom/attorney-general-urges-caution-with-holiday-charity-scams/',
+    country: 'US',
+    state: 'ID',
+    firstRecorded: '2025-12-04',
+});
+
+UsGM.push({
+    name: 'Kuna "Grandparent Scam" In-Person Cash Pickup (Isaac Falak)',
+    slug: 'idaho-kuna-falak-grandparent-scam-cash-pickup',
+    description: `According to the Ada County Sheriff's Office, a woman living near Kuna received a phone call in August 2021 from someone impersonating her grandchild, claiming to need bail money after an arrest; a second caller identifying himself as a lawyer then instructed her to withdraw $18,000 in cash, seal it in an envelope, and wait at home for someone to collect it, which she did. After describing the calls to a family member, she grew suspicious and phoned Ada County Dispatch; when the relative arrived at her house, deputies found 59-year-old Isaac Falak of Buenos Aires, Argentina walking up the driveway with a suitcase, and after he left on foot, officers located and arrested him a short time later at a nearby grocery store. Falak posted $20,000 bail and was scheduled to appear in court on September 1, 2021. Unlike scams that route victims to a wire transfer or a cryptocurrency ATM, this variant sends someone in person to the victim's own front door to collect a sealed envelope of cash, which is why families should treat any unverified "your grandchild needs bail money" call as a cue to hang up and independently call the grandchild directly — or the jail itself — before withdrawing a single dollar, no matter how urgently or convincingly the caller pushes for secrecy and speed.`,
+    categorySlug: 'grandparent-scams',
+    alertLevel: 'high',
+    sources: ["Ada County Sheriff's Office", 'KBOI/Idahonews.com'],
+    sourceUrl: 'https://idahonews.com/news/local/59-year-old-man-tried-to-swindle-ada-county-woman-in-grandparent-scam-sheriff-says',
+    country: 'US',
+    state: 'ID',
+    firstRecorded: '2021-08-24',
+});
+
+UsGM.push({
+    name: 'Idaho Fake Toll-Fine Text Message Scam',
+    slug: 'idaho-fake-toll-fine-text-scam',
+    description: `The Idaho Transportation Department issued a scam alert on March 18, 2025, after fielding a wave of reports about fraudulent text messages telling Idaho phone numbers they owe an unpaid toll fine and must pay immediately through an embedded link to avoid escalating penalties. ITD flagged the messages as fraudulent on their face with a simple fact about the state: "Idaho does not have toll roads, and ITD does not issue toll fines," meaning any text demanding payment for one describes an obligation that cannot legitimately exist for an Idaho driver in the first place. The messages mimic the wording and urgency of real toll-agency notices used nationwide by carriers such as E-ZPass, but the embedded links route to look-alike payment pages designed to capture the recipient's credit card number and other personal information rather than settle any actual debt. ITD noted it only sends texts to residents who have specifically opted into its e-notification service and never demands payment or personal information by text message, and it urged anyone receiving one of these toll-fine texts to avoid clicking the link, delete the message, and report it to their mobile carrier rather than responding to the sender in any way.`,
+    categorySlug: 'phishing',
+    alertLevel: 'medium',
+    sources: ['Idaho Transportation Department'],
+    sourceUrl: 'https://itd.idaho.gov/news/scam-alert-fraudulent-text-messages-claiming-toll-fines-circulating-in-idaho/',
+    country: 'US',
+    state: 'ID',
+    firstRecorded: '2025-03-18',
+});
