@@ -8226,6 +8226,38 @@ UsGM.push({
 });
 
 UsGM.push({
+    name: "Mississippi's Katrina Wind-vs-Water Fraud Case: How Two Insurance Adjusters Exposed a Systemic Claims Scheme",
+    slug: 'mississippi-katrina-state-farm-wind-water-fraud-origin',
+    description: `When Hurricane Katrina made landfall on the Mississippi Gulf Coast on August 29, 2005, it caused damage from two different, and separately insured, forces at once: hurricane-force wind, covered by an ordinary homeowners policy, and storm-surge flooding, covered only by the federally-backed National Flood Insurance Program. Sisters Cori and Kerri Rigsby, who managed catastrophe adjusters for State Farm's claims contractor on the Mississippi coast, discovered that ambiguity created a financial incentive for their insurer client: every claim reclassified from "wind" to "flood" shifted the payout off State Farm's own policy and onto the taxpayer-backed federal program instead. The test case became a single home in North Biloxi belonging to the McIntosh family, where the Rigsbys said an original engineering report documenting wind damage was quietly replaced with a second, contradictory report blaming flooding — and in 2006 the sisters filed a qui tam whistleblower suit under the federal False Claims Act in the U.S. District Court for the Southern District of Mississippi. A federal jury in Mississippi found in April 2013 that State Farm had knowingly submitted a false claim, a verdict a unanimous U.S. Supreme Court upheld in December 2016, and State Farm ultimately paid $100 million to the federal government in August 2022 to resolve the broader set of claims the Rigsbys' case had opened, closing out sixteen years of litigation.
+
+The Katrina case is why Mississippi's insurance regulators talk about post-disaster fraud the way they do today: the danger isn't only an outside con artist, it's also how easily the paperwork behind a storm-damage claim can be shaded against the very homeowner it's supposed to protect. That's the same underlying vulnerability behind the currently active "Mississippi Winter Storm 'Storm Chaser' Contractor Fraud" entry in this database — a different set of bad actors exploiting the identical post-storm confusion and urgency Katrina exposed, this time on the contractor side rather than the insurer side. Mississippi Insurance Commissioner Mike Chaney's standing advice after any storm traces straight back to the Rigsby case's core lesson: get an independent inspection and keep your own documentation before accepting any insurer's or contractor's account of the damage as final, because paperwork determining a payout can be wrong, and sometimes isn't wrong by accident.`,
+    categorySlug: 'insurance-fraud',
+    alertLevel: 'medium',
+    sources: ['U.S. District Court for the Southern District of Mississippi', 'Claims Journal'],
+    sourceUrl: 'https://www.claimsjournal.com/news/national/2022/08/25/312377.htm',
+    country: 'US',
+    state: 'MS',
+    isHistorical: true,
+    firstRecorded: '2005-08-29',
+});
+
+UsGM.push({
+    name: "Mississippi's $98 Million Welfare Fraud Scandal: How One Audit Exposed the State's Weakest Fraud Controls",
+    slug: 'mississippi-tanf-welfare-fraud-scandal-origin',
+    description: `Starting in 2016, Mississippi Department of Human Services director John Davis directed the agency to bypass competitive bidding and send tens of millions of dollars in federal Temporary Assistance for Needy Families (TANF) welfare funds — money Congress appropriated specifically to help the state's poorest families — to two nonprofits, the Mississippi Community Education Center run by Nancy New and the Family Resource Center of North Mississippi. State Auditor Shad White's office broke the scheme open in a May 2020 report finding the agency had funneled $98 million to the two nonprofits over three years, with the majority of it misspent on things with no connection to needy families: roughly $5 million toward a University of Southern Mississippi volleyball stadium, millions more into a pharmaceutical startup, and $1.1 million paid to former NFL quarterback Brett Favre for speeches and appearances state investigators say never happened. Davis and Nancy New both pleaded guilty to fraud-related felony charges in 2022, and Mississippi Today reporter Anna Wolfe won the 2023 Pulitzer Prize for Local Reporting for the investigative series that traced exactly how the money moved.
+
+The scandal is a reminder that a state's fraud problem isn't only the person filing a false claim — it's also how well the agency distributing the money is watching where it actually goes, and Auditor Shad White's office, whose public profile as Mississippi's front-line public-benefits fraud investigator grew directly out of exposing this case, is the same office running "Operation Payback," the effort behind this database's currently active "Operation Payback MDOC Inmate Identity-Theft Unemployment Fraud" entry. Both cases drain the same kind of public-benefit dollars meant for people who actually need them, whether the fraud comes from inside the agency distributing the funds or from someone outside stealing an identity to claim them. Anyone who suspects misuse of Mississippi public-benefit funds, or discovers their identity was used to file a benefit claim they never made, can report it to the Office of the State Auditor's fraud hotline.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'medium',
+    sources: ['Mississippi Office of the State Auditor', 'CBS Sports'],
+    sourceUrl: 'https://www.cbssports.com/nfl/news/brett-favre-scandal-explained-ex-nfl-qb-is-accused-of-misusing-of-mississippi-state-welfare-funds/',
+    country: 'US',
+    state: 'MS',
+    isHistorical: true,
+    firstRecorded: '2020-05-01',
+});
+
+UsGM.push({
     name: 'Mississippi Relationship Investment Scam',
     slug: 'mississippi-relationship-investment-scam',
     description: `Ahead of Valentine's Day 2026, the Mississippi Secretary of State's Office (Michael Watson) warned residents about "relationship investment scams" — a hybrid of romance fraud and investment fraud in which scammers build a relationship on dating apps, social media, messaging apps, or through unsolicited "wrong number" texts, using fake profiles, AI-generated voices, and deepfake video to seem credible. Once trust and emotional attachment are established, the scammer steers the victim toward a fraudulent cryptocurrency or investment platform operated by a criminal network, escalating from small requests to large losses. Watson said his office "has continued to see an uptick in securities-related scams" tied to "artificial intelligence and cryptocurrency." Before sending money or "investing" with someone met only online, Mississippians are urged to verify any investment professional's credentials through the Secretary of State's Securities Division and never move money to a platform recommended by someone they haven't met in person.`,
