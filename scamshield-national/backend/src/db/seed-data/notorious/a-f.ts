@@ -9453,6 +9453,10 @@ NotoriousAF.push({
     title: "Albania's 1997 Pyramid Scheme Collapse: How Fake Investment Firms Brought Down a Government",
     slug: 'albania-1997-pyramid-scheme-collapse-vefa-sudja',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Tirana_Panorama.jpg?width=1200',
+    coverImageCredit: 'Tirana, Albania, where the pyramid schemes drew in ordinary depositors nationwide. Photo: -Carlo.Z-, public domain, via Wikimedia Commons',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'ponzi-scheme', 'international', 'historical'],
     body: `Albania emerged from decades of isolated communist rule in the early 1990s with almost no functioning banking system, financial regulation, or public experience with private investment — conditions that let a wave of pyramid schemes grow, within just a few years, into liabilities estimated at $1.2 billion, nearly half the country's entire GDP. The largest was Vefa Holding, founded in 1994 by Vehbi Alimuçaj, which drew in some of the country's more affluent investors, including government employees, by presenting itself as a legitimate diversified business conglomerate rather than an obvious money game. Smaller schemes followed the same template with cruder marketing: Sudja, run by former factory worker Maksude Kademi, promised investors returns of up to 50 percent, while Populli, Gjallica, and the fund known as Xhaferri, fronted by former army general Rapush Xhaferi, competed for deposits with increasingly implausible rates as the market grew.
 
@@ -9483,6 +9487,10 @@ NotoriousAF.push({
     title: "Benny Tjokrosaputro, Heru Hidayat, and Indonesia's $1.15 Billion Jiwasraya Insurance Scandal",
     slug: 'benny-tjokrosaputro-heru-hidayat-jiwasraya-insurance-scandal',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/IDX-building.jpg?width=1200',
+    coverImageCredit: 'The Indonesia Stock Exchange building, Jakarta, where the inflated shares at the center of the scheme traded. Photo: Iqro Rinaldi, CC BY-SA 4.0, via Wikimedia Commons',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'ponzi-scheme', 'international'],
     body: `Jiwasraya was Indonesia's oldest state-owned life insurer, a company ordinary Indonesians trusted with retirement and savings policies precisely because it carried the government's name. Between 2008 and 2018, three of its own executives, president director Hendrisman Rahim, finance director Hary Prasetyo, and investment division head Syahmirwan, quietly redirected the company's asset portfolio away from safe, liquid investments and into low-quality stocks and mutual funds, then falsified financial reports to disguise the company's deteriorating condition, a technique prosecutors described as systematic "window dressing" that let Jiwasraya keep selling new policies while its actual reserves collapsed underneath it.
 
