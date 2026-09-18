@@ -8074,3 +8074,42 @@ UsNS.push({
     state: 'NV',
     firstRecorded: '2025-08-28',
 });
+
+UsNS.push({
+    name: 'Portland General Electric Utility Worker Impersonation Scam',
+    slug: 'oregon-pge-utility-worker-impersonation-scam',
+    description: `Portland General Electric, which serves more than 950,000 customers across roughly 1.9 million Oregonians, warned in January 2026 that scammers are impersonating its field employees to gain entry into homes or to pressure customers into immediate payment. According to PGE's advisory, fraudsters use phone calls, texts, social media messages, and emails to threaten customers with imminent service disconnection unless they pay right away, and some request payment through prepaid cards, digital payment apps, cryptocurrency, or direct bank transfers — methods PGE says it will never use. Other red flags PGE highlighted include callers asking for Social Security numbers or banking details, spoofed caller-ID numbers designed to look like they're coming from the utility, and phishing links embedded in unsolicited texts or emails. PGE said genuine employees always carry visible identification and urged anyone approached in person or by phone to independently verify the person's identity by calling PGE customer service directly at 503-228-6322 before letting them inside or making any payment.`,
+    categorySlug: 'utility-scams',
+    alertLevel: 'medium',
+    sources: ['Portland General Electric', 'KPTV'],
+    sourceUrl: 'https://portlandgeneral.com/news/2026-01-pge-warns-customers-of-deceptive-utility-scams',
+    country: 'US',
+    state: 'OR',
+    firstRecorded: '2026-01-08',
+});
+
+UsNS.push({
+    name: 'Oregon DFR Mobile Payment App Scam Warning',
+    slug: 'oregon-dfr-mobile-payment-app-scam-warning',
+    description: `The Oregon Division of Financial Regulation (DFR) warned consumers in September 2026 about a surge in scams targeting users of mobile payment apps such as Venmo, Cash App, Zelle, and PayPal, noting that because these apps connect directly to bank accounts, debit cards, or credit cards, they have become a prime target for fraud. DFR described several recurring tactics: strangers sending money "by mistake" and then pressuring the recipient to send it back (before the original payment is reversed, leaving the victim out the funds); scammers posing as payment-app customer service representatives who claim an unauthorized transaction occurred and ask for passwords or verification codes; and imposters who create fake accounts mimicking a friend, coworker, employer, or romantic interest to solicit money. "Payment apps make it easier than ever to move money, but that convenience can also make it easier for scammers to target consumers," said DFR Administrator TK Keen. "Scammers know how to create a sense of urgency and trust, whether they claim a payment was sent by mistake, pretend to be a customer service representative, or impersonate someone you know. The best protection is to stop, verify who you are dealing with, and never send money until you are certain the request is legitimate." Oregonians who believe they've been targeted can contact DFR's consumer advocates at 1-888-877-4894 or dfr.financialserviceshelp@dcbs.oregon.gov. Before sending money through any payment app, verify the recipient's identity through a separate, trusted channel first — never based solely on a message or claim from the person requesting it.`,
+    categorySlug: 'phishing',
+    alertLevel: 'medium',
+    sources: ['Oregon Division of Financial Regulation', 'KTVZ'],
+    sourceUrl: 'https://apps.oregon.gov/oregon-newsroom/OR/DCBS/Posts/Post/growing-payment-app-scams',
+    country: 'US',
+    state: 'OR',
+    firstRecorded: '2026-09-02',
+});
+
+UsNS.push({
+    name: 'Oregon DFR AI-Powered Investment Scam Warning',
+    slug: 'oregon-dfr-ai-powered-investment-scam-warning',
+    description: `The Oregon Division of Financial Regulation (DFR) issued a warning on September 14, 2026 that scammers are increasingly using artificial intelligence to make investment fraud pitches, websites, videos, and messages look convincing and legitimate. DFR identified four recurring AI-driven tactics: deepfake videos or cloned audio of celebrities, financial professionals, or trusted contacts promoting investments with guaranteed or unusually high returns; fake "proprietary" AI cryptocurrency trading systems that route victims to bogus platforms showing fabricated account balances and profits, then pressure them to send more cryptocurrency; voice-cloning scams in which calls or messages appear to come from someone the victim knows; and AI-generated chatbots or fabricated romantic profiles used to build trust before soliciting cryptocurrency or startup "investments." DFR Administrator and Oregon Insurance Commissioner TK Keen said, "Artificial intelligence may make a scam look more sophisticated, but the warning signs of investment fraud remain familiar," adding that consumers should "slow down, independently verify who they are dealing with, and never let pressure or fear of missing out drive an investment decision." DFR also cautioned that fraudsters increasingly target people who have already lost money to a scam with fake "recovery" services. Oregonians can report suspected investment fraud to DFR at 1-888-877-4894 or dfr.financialserviceshelp@dcbs.oregon.gov. Before acting on any AI-generated pitch, verify the person's identity and any investment firm's registration status through an independent channel — never through contact information supplied in the pitch itself.`,
+    categorySlug: 'ai-deepfake-scams',
+    alertLevel: 'high',
+    sources: ['Oregon Division of Financial Regulation', 'KTVZ'],
+    sourceUrl: 'https://flashalert.net/id/ODCBS/190941',
+    country: 'US',
+    state: 'OR',
+    firstRecorded: '2026-09-14',
+});
