@@ -4592,3 +4592,41 @@ UsTZ.push({
     country: 'US',
     state: 'WV',
 });
+
+UsTZ.push({
+    name: 'Nashville "Candy Donation" Cell Phone Fraud Scheme',
+    slug: 'tennessee-nashville-candy-donation-cell-phone-fraud-scheme',
+    description: `Metro Nashville Police are warning residents and tourists about a street-level fraud scheme in which young operators approach targets in high-foot-traffic areas — from the 12th Avenue South and Beechwood Avenue corridor to the honky-tonks along downtown Broadway — under the guise of collecting candy donations for a school or charity, or offering to add the person as a social media follower, then ask to briefly hold the victim's unlocked cell phone. Once the phone is in hand, the operator opens banking or payment apps like Apple Pay and transfers money out before handing the device back, often before the victim even realizes anything is wrong. Detectives tied 19-year-old Dewaine Gordon to at least two documented incidents — an $840 transfer from a victim on Beechwood Avenue and $421 and $453 in unauthorized Apple Pay withdrawals from a second victim on Broadway — and arrested him on robbery, credit-card-fraud, and delinquency-of-a-minor charges while he was already free on a $10,000 bond from a January arrest on similar charges. A second suspect, Lakeel Horton, was taken into custody on outstanding credit-card-fraud warrants tied to a $1,000 theft from a victim outside a Hermitage grocery store. Metro police say the pattern keeps recurring because the youths make bond and return to the same tourist-heavy blocks within weeks. "Nashvillians are urged to protect themselves from these scams by retaining possession of cell phones at all times and never letting strangers handle them," police said. The simplest defense is exactly that: never hand an unlocked phone to a stranger, no matter how sympathetic or casual the request sounds.`,
+    categorySlug: 'account-takeover',
+    alertLevel: 'medium',
+    sources: ['Metro Nashville Police Department', 'WSMV News'],
+    sourceUrl: 'https://www.wsmv.com/2026/05/18/metro-police-warn-residents-after-repeat-arrests-cellphone-handling-fraud-scheme/',
+    country: 'US',
+    state: 'TN',
+    firstRecorded: '2026-05-17',
+});
+
+UsTZ.push({
+    name: 'Fake Federal Agent "Investment Recovery" Scheme (Joshua Aaron Holmes)',
+    slug: 'tennessee-holmes-fake-federal-agent-investment-recovery-scam',
+    description: `A federal jury in Knoxville convicted Joshua Aaron Holmes, 44, of Atlanta, of conspiracy to commit mail and wire fraud, mail fraud, and wire fraud after prosecutors showed he and his co-conspirators ran a so-called "recovery scam" that specifically targeted elderly people who had already lost money in earlier investment schemes. Posing as federal agents able to claw back victims' prior investment losses, Holmes and his associates instructed victims to wire fees, taxes, and court costs before their money could supposedly be returned — payments that, predictably, were never followed by any recovered funds, only further losses. U.S. District Judge Katherine A. Crytzer sentenced Holmes to 168 months (14 years) in federal prison and three years of supervised release, and ordered him to pay $936,215 in restitution to his victims. The case was investigated by the FBI and the SEC's Office of Inspector General and was announced jointly by U.S. Attorney Francis M. Hamilton III for the Eastern District of Tennessee, FBI Nashville Special Agent in Charge Terence G. Reilly, and SEC Inspector General Kevin Muhlendorf. Investigators note that recovery or "reload" scams like this one specifically re-target people who have already been defrauded once, banking on their desperation to get money back. Legitimate government agencies, law firms, and financial regulators never charge upfront fees, taxes, or court costs to return lost investment funds — anyone contacted with that offer should hang up and verify independently before sending a single dollar.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office, Eastern District of Tennessee", 'FBI Nashville Field Office'],
+    sourceUrl: 'https://www.justice.gov/usao-edtn/pr/atlanta-man-sentenced-14-years-conspiracy-commit-mail-and-wire-fraud',
+    country: 'US',
+    state: 'TN',
+});
+
+UsTZ.push({
+    name: '"Business Resource Center Compliance Division" Fake Certificate of Status Mailer',
+    slug: 'tennessee-business-resource-center-compliance-division-mail-scam',
+    description: `Tennessee Secretary of State Tre Hargett is warning business owners about a new wave of deceptive mailers from an entity calling itself the "Business Resource Center Compliance Division," which falsely tells newly formed Tennessee businesses they must purchase a "Certificate of Status" to legally operate in the state. No such requirement or document exists under Tennessee law — the closest legitimate document, a Certificate of Existence, is optional and available directly from the Secretary of State's office for a small fee, not from any third-party "compliance division." The mailers are designed to look official: they arrive with no return address and use a Nashville ZIP code associated with the Secretary of State's own office, a detail meant to make the notice look government-issued. "Our office is seeing an increase in complaints from businesses about this scam mailer that asks for excessive and unnecessary fees for a form that doesn't exist in Tennessee," Hargett said, adding that "all business owners should be wary of any correspondence that attempts to look like it is from the State of Tennessee. This group is not affiliated with us." The office is urging any business owner who receives one of these mailers to contact the Division of Business and Charitable Organizations at 615-741-2286 or TNSOS.corpinfo@tn.gov, or to file a complaint with the Tennessee Attorney General's Office at 615-741-3491, rather than pay the requested fee. Before paying any company claiming to file paperwork on a business's behalf, owners should independently confirm what — if anything — Tennessee actually requires by calling the Secretary of State's office directly.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ["Tennessee Secretary of State's Office", 'WVLT News'],
+    sourceUrl: 'https://www.wvlt.tv/2026/09/16/tennessee-secretary-state-warns-bogus-mail-scam-targeting-newly-formed-businesses/',
+    country: 'US',
+    state: 'TN',
+    firstRecorded: '2026-09-16',
+});
