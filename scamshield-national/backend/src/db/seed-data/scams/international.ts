@@ -19568,6 +19568,42 @@ International.push(
 
 International.push(
   {
+    name: 'Yinka Aderibigbe Fake Cryptocurrency Investment Scheme',
+    slug: 'mauritius-yinka-aderibigbe-crypto-investment-scam',
+    description: `Mauritius's Financial Crimes Commission (FCC) arrested 37-year-old Nigerian national Yinka Aderibigbe at his luxury apartment in Péreybère on 8 January 2025, accusing him of running a fake cryptocurrency investment scheme that defrauded 79 Mauritian victims of a combined Rs 1.2 million, according to L'Express Maurice. Posing as a crypto-investment expert on Facebook and other social networks, Aderibigbe is alleged to have promised "exceptional financial returns" to convince internet users to transfer funds to him before cutting off contact. During the search of his home, investigators seized a Mercedes and a copy of the book Money Hackers, and the FCC's probe subsequently traced roughly Rs 30 million in suspected criminal proceeds moving through his bank accounts, including more than Rs 4 million held in one of his cryptocurrency wallets. The Commission obtained an attachment order freezing bank accounts belonging to Aderibigbe and his spouse and seized two of his vehicles as the investigation continued; he was granted bail on 27 January 2025 after posting two bonds of Rs 250,000 each and a debt acknowledgment of Rs 5 million at Mapou court. The case is a reminder that self-styled crypto "experts" who solicit investments through social media rather than a licensed platform should be treated with suspicion — always verify that anyone offering an investment opportunity is registered with the Financial Services Commission of Mauritius before sending any money.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'high',
+    sources: ["L'Express (Maurice)", 'Financial Crimes Commission (Mauritius)'],
+    sourceUrl: 'https://lexpress.mu/s/la-fcc-demantele-une-arnaque-de-rs-12-million-541438',
+    country: 'MU',
+    firstRecorded: '2025-01-08',
+  },
+  {
+    name: 'FCC WhatsApp Bank Representative Impersonation Scam',
+    slug: 'mauritius-fcc-whatsapp-bank-impersonation-scam',
+    description: `The Financial Crimes Commission (FCC) of Mauritius issued a public warning on 24 February 2026 about fraudsters impersonating bank representatives over WhatsApp to steal account holders' banking credentials, a scam also reported by Le Defi Media Group. According to the alert, scammers contact victims from international numbers — including Pakistan-registered numbers such as +92 330 653 6792 and +92 331 720 6976, as well as a US number, +1 (929) 708-1885 — claiming to represent a Mauritian bank and asking targets to confirm account numbers, debit card details, PINs and internet-banking credentials. In some cases, the FCC noted, victims remain on the phone or in a WhatsApp chat while fraudulent transactions are carried out on their accounts in real time. The Commission stressed that legitimate banks will never request PINs, passwords, one-time passcodes or full card numbers by phone, WhatsApp or email, and urged anyone contacted this way to end the call or chat immediately and report the number to their bank and to the FCC. Bank account holders in Mauritius should never share an OTP or PIN with anyone who contacts them unsolicited, even if the caller appears to already know personal details about their account — hang up and call your bank back on the number printed on your card instead.`,
+    categorySlug: 'account-takeover',
+    alertLevel: 'high',
+    sources: ['Financial Crimes Commission (Mauritius)', 'Le Defi Media Group'],
+    sourceUrl: 'https://fcc.mu/warning-phone-scam-targeting-bank-account-holders-in-mauritius/',
+    country: 'MU',
+    firstRecorded: '2026-02-24',
+  },
+  {
+    name: 'BoM/FSC Warning on Social-Media Investment Recruitment Schemes',
+    slug: 'mauritius-bom-fsc-social-media-investment-warning',
+    description: `The Bank of Mauritius (BoM) and the Financial Services Commission (FSC) issued a joint public notice on 5 February 2026 cautioning the public against unregulated investment schemes advertised through social media, warning that many were being promoted by influencers who run training sessions and seminars while promising "unrealistic returns." The two regulators said the schemes typically share the same warning signs: profits that are "unusually high or unrealistic" for the timeframe promised, aggressive pressure to invest quickly, a refusal to use traceable payment methods, a heavy emphasis on recruiting new investors in exchange for commissions, and "little or no physical presence" beyond a social media page. The notice specifically flagged virtual-asset and cryptocurrency-linked offers as a common vehicle for these pitches, noting that such products exist almost entirely online with minimal transparency about how the money is actually managed. The BoM and FSC urged Mauritians to check the official lists of licensed institutions published at bom.mu and fscmauritius.org before investing, and to report suspicious schemes to communications@bom.mu or mail@fscmauritius.org. Any pitch built around recruiting others for a cut of their investment, rather than a return generated by a genuine underlying business, is a classic pyramid structure — treat that recruitment-for-commission model as a disqualifying red flag on its own, no matter how credible the promoter looks on social media.`,
+    categorySlug: 'ponzi-pyramid-schemes',
+    alertLevel: 'medium',
+    sources: ['Bank of Mauritius', 'Financial Services Commission (Mauritius)'],
+    sourceUrl: 'https://www.bom.mu/media/media-releases/public-notice-caution-against-unregulated-investment-opportunities',
+    country: 'MU',
+    firstRecorded: '2026-02-05',
+  },
+);
+
+International.push(
+  {
     name: 'PNP Anti-Cybercrime Group "Quishing" QR Code Warning',
     slug: 'philippines-pnp-quishing-qr-code-scam',
     description:
