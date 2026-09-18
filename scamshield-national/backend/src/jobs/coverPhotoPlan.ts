@@ -223,4 +223,62 @@ export const PHOTO_PLAN: PhotoPlanEntry[] = [
   { slug: 'online-auction-fraud-shill-bidding-guide', file: 'Bid hammer.jpg', caption: 'An auction hammer \u2014 the bids driving the price up came from accounts the seller controlled', position: 50 },
   { slug: 'neil-bush-silverado-savings-loan-collapse', query: 'Denver Colorado downtown skyline', caption: 'Denver, where Silverado lent to the developers sitting on its own board', position: 45 },
   { slug: 'farm-equipment-impersonation-scam-guide', query: 'tractor farm equipment dealership', caption: 'A fake dealer listing undercuts the market, takes a wire deposit, and the tractor never ships', position: 50 },
+  // New profiles delivered from the content branch, flagged by
+  // report-missing-photos. No free portrait exists for any of these people,
+  // so each is matched to the place or thing the case actually turned on.
+  // Search returned the municipality locator map; pinned to a real photo.
+  { slug: 'david-murcia-guzman-dmg-colombia-ponzi-scheme', file: 'Panor\u00e1mica del r\u00edo Putumayo en Puerto As\u00eds, 2009.jpg', caption: 'The Putumayo river at Puerto As\u00eds. DMG\u2019s collapse emptied whole town economies across southern Colombia', position: 50 },
+  // No free photo of an Indian shipyard exists (the Cochin Shipyard images
+  // are GODL-India, which is not a licence this project accepts), so this
+  // names the city rather than captioning a shipyard it does not show.
+  { slug: 'rishi-kamlesh-agarwal-abg-shipyard-bank-fraud', query: 'Surat Gujarat city view', caption: 'Surat, Gujarat, where ABG Shipyard was headquartered and where 28 banks lent against its yards', position: 50 },
+  // Searching for a feedlot returned a 1919 cattle-company office building.
+  { slug: 'cody-easterday-ghost-cattle-fraud', file: 'Beef cattle in a feedlot in New Mexico.jpg', caption: 'Beef cattle in a feedlot. Easterday billed Tyson for feeding 265,000 head that were never there', position: 50 },
+  // Search returned a municipal flag, which is a graphic, not a photograph.
+  // Searching the province returned a municipal flag, then a tropical-storm
+  // satellite image. Pinned to the provincial capital's seafront.
+  { slug: 'joel-apolinario-kapa-community-ministry-ponzi-scheme', file: 'Tandag City Boulevard.jpg', caption: 'Tandag, capital of Surigao del Sur, where KAPA registered as a ministry and took \u2018love gifts\u2019 promising 30% a month for life', position: 50 },
+  { slug: 'john-lytle-bill-patterson-penn-square-continental-illinois-kickback', query: 'Oklahoma City downtown skyline', caption: 'Oklahoma City, home of Penn Square Bank, whose oil loans and kickbacks nearly took down Continental Illinois', position: 45 },
+  // Commons has no photo of the FCA's building; the search surfaced legal
+  // PDFs and then a 19th-century map of the Punjab. Uses the City of London
+  // instead, which is what the caption claims.
+  { slug: 'michael-thomson-london-capital-finance-mini-bond-ponzi-scheme', query: 'City of London financial district', caption: 'The City of London. LCF sold unregulated mini-bonds to savers while trading on its regulated status', position: 50 },
+  // Search returned a named supermarket storefront, which drags an
+  // unconnected business into a fraud profile. Uses the town centre.
+  // Searching for the town hall returned one in New Zealand. Pinned to the
+  // town's main shopping street instead.
+  { slug: 'james-corr-cattles-accounting-scandal', file: 'Commercial Street, Batley (geograph 6342194).jpg', caption: 'Commercial Street in Batley, West Yorkshire, where Cattles ran the subprime loan book whose bad debts were understated', position: 50 },
+  { slug: 'kazuhiko-asakawa-aij-pension-fraud', query: 'Tokyo financial district Marunouchi', caption: 'The Tokyo financial district. AIJ reported fictitious gains to corporate pension funds whose money it had already lost', position: 45 },
+  { slug: 'konrad-kakolewski-getback-bond-fraud', query: 'Wroclaw Poland city centre', caption: 'Wroclaw, headquarters of GetBack, whose bonds were sold to retail savers as a safe alternative to deposits', position: 50 },
+  { slug: 'ma-xingtian-kangmei-pharmaceutical-accounting-fraud', query: 'Shanghai Stock Exchange building', caption: 'The Shanghai Stock Exchange, where Kangmei filed accounts overstating its cash by nearly 30 billion yuan', position: 50 },
+  // Searching for unfinished construction returned a 1970s New York
+  // apartment site. Pinned to new housing in the actual village.
+  { slug: 'petr-smetka-h-system-housing-fraud', file: 'Horom\u011b\u0159ice, Revolu\u010dn\u00ed, nov\u00e1 z\u00e1stavba (od Skalky).jpg', caption: 'New housing in Horom\u011b\u0159ice, the village where H-System took deposits for homes it never built', position: 50 },
+  { slug: 'martin-pucher-commerzialbank-mattersburg-collapse', query: 'Mattersburg Burgenland Austria', caption: 'Mattersburg, Austria, where a small regional bank hid fabricated loans and deposits for decades', position: 50 },
+  { slug: 'daniel-schatt-joseph-podulka-cred-llc-crypto-fraud', query: 'San Francisco financial district skyline', caption: 'San Francisco, where Cred took customer crypto for lending it called low risk, and stayed quiet after the collateral was gone', position: 45 },
+  { slug: 'zhongzhi-enterprise-group-collapse', query: 'Beijing central business district skyline', caption: 'Beijing, where Zhongzhi\'s trust products kept funding property developers long after the loans stopped performing', position: 45 },
+  // A second wave of profiles delivered from the content branch, flagged by
+  // report-missing-photos. Same approach: the place or thing the case turned
+  // on, because no free portrait exists for any of them.
+  { slug: 'james-black-abc-learning-centres-accounting-fraud', query: 'Brisbane Queensland city skyline', caption: 'Brisbane, headquarters of ABC Learning Centres, whose accounts capitalised costs it should have written off', position: 45 },
+  { slug: 'steve-burns-lordstown-motors-endurance-preorder-fraud', file: 'Last Chevrolet Cruze from Lordstown.jpg', caption: 'The last Chevrolet Cruze built at Lordstown. Lordstown Motors bought the plant and counted non-binding pre-orders as demand', position: 50 },
+  { slug: 'david-p-bloom-wall-street-whiz-kid-repeat-fraud', file: 'Wall Street Sign NYC.jpg', caption: 'A Wall Street street sign. Bloom sold himself as a whiz-kid money manager three separate times', position: 50 },
+  { slug: 'sachin-dev-duggal-builder-ai-fraud', query: 'London City financial district office', caption: 'London, where Builder.ai raised money on claims of AI-assembled apps that were largely built by engineers in India', position: 45 },
+  { slug: 'hughes-kahn-prophecy-asset-management-collapse', file: 'Lower Manhattan from Jersey City September 2020 panorama.jpg', caption: 'Lower Manhattan seen from Jersey City, where Prophecy Asset Management reported gains while one trader\u2019s losses went unrecorded', position: 45 },
+  { slug: 'johnson-lee-jjptr-forex-ponzi-scheme', query: 'George Town Penang Malaysia', caption: 'Penang, where JJPTR promised 20% monthly forex returns and then blamed the missing money on a hack', position: 50 },
+  { slug: 'ihor-kolomoisky-privatbank-fraud', query: 'Dnipro Ukraine city view', caption: 'Dnipro, home of PrivatBank, which was nationalised after insider lending left a $5.5 billion hole', position: 45 },
+  // Search returned a single named Midtown tower that is not Och-Ziff's,
+  // which invites the wrong inference. Pinned to the skyline instead.
+  { slug: 'daniel-och-och-ziff-africa-bribery-scandal', file: 'Midtown Manhattan skyline from the One World Observatory, New York City.jpg', caption: 'Midtown Manhattan, where Och-Ziff ran the Africa deals behind the first FCPA guilty plea by a major hedge fund', position: 45 },
+  // Search returned a March 2001 aerial of the World Trade Center, which has
+  // nothing to do with this case. Pinned to the courthouse that tried it.
+  { slug: 'roman-storm-tornado-cash-money-laundering', file: 'Daniel Patrick Moynihan U.S. Courthouse, Manhattan, New York (7237347688).jpg', caption: 'The Moynihan federal courthouse in Manhattan, where the question of whether writing mixer code is money laundering was tried', position: 50 },
+  { slug: 'carl-channing-spence-aei-financial-meme-stock-ponzi', query: 'New York Stock Exchange building facade', caption: 'The New York Stock Exchange. Spence told friends he was trading meme stocks and paid early investors with later money', position: 50 },
+  { slug: 'ravi-parthasarathy-ilfs-collapse', query: 'Mumbai Bandra Kurla Complex', caption: 'Mumbai\'s financial district, where IL&FS funded infrastructure with short-term debt until the refinancing stopped', position: 45 },
+  { slug: 'michael-palleschi-fte-networks-accounting-fraud', query: 'Naples Florida downtown', caption: 'Naples, Florida, where FTE Networks reported receivables overstated by 477 percent', position: 50 },
+  // No free photo verified from a skyline search: the Bangalore panorama is
+  // GFDL 1.2, which this project does not accept.
+  { slug: 'byju-raveendran-byjus-edtech-fraud', file: 'UB City (5360658756).jpg', caption: 'Bengaluru, where Byju\u2019s grew into India\u2019s most valuable startup before its accounts and its lenders caught up with it', position: 45 },
+  { slug: 'harbinder-singh-sethi-tegeta-escrow-scandal-tanzania', query: 'Dar es Salaam Tanzania city', caption: 'Dar es Salaam, where $122 million left the Tegeta escrow account that was meant to be frozen', position: 45 },
+  { slug: 'daniel-vorcaro-banco-master-collapse', query: 'Avenida Paulista Sao Paulo Brazil', caption: 'Sao Paulo, where Banco Master funded itself with high-yield deposits against assets the central bank found were not there', position: 45 },
 ];
