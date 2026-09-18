@@ -4123,6 +4123,46 @@ UsTZ.push({
 });
 
 UsTZ.push({
+    name: 'Snohomish County Fake Arrest Warrant and Judge/FBI Impersonation Scam',
+    slug: 'washington-snohomish-fake-arrest-warrant-impersonation-scam',
+    description: `Since at least August 2025, the Snohomish County Sheriff's Office has fielded at least 100 reports a month of scammers impersonating federal judges, FBI agents, and even named Snohomish County deputies, using real officer names and identities to sound legitimate. Victims are contacted by text, phone call, or email and shown forged court documents with fabricated case numbers and counterfeit federal court seals claiming they missed jury duty and now have an outstanding arrest warrant. Some calls use automated voice messages impersonating law enforcement that then transfer the victim to a live scammer, who demands "bond" payment of thousands of dollars via Bitcoin, gift cards, or mobile payment apps. The scam disproportionately targets elderly residents and people unfamiliar with how courts actually operate. Authorities stress that real law enforcement never demands payment digitally and warrants are served in person, never by phone, text, or email — hang up immediately, do not send money or gift-card codes, and verify any claimed warrant by calling the sheriff's office directly using a number you look up yourself.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['FOX 13 Seattle', "Snohomish County Sheriff's Office"],
+    sourceUrl: 'https://www.fox13seattle.com/news/scammers-impersonating-judges-fbi-deputies',
+    country: 'US',
+    state: 'WA',
+    firstRecorded: '2025-08-07',
+});
+
+UsTZ.push({
+    name: 'Tacoma Federal Court "Giovanni" Online Dating Romance Scam (Franklin Nwadialo)',
+    slug: 'washington-tacoma-nwadialo-giovanni-romance-scam',
+    description: `Franklin Ikechukwu Nwadialo, a 42-year-old Nigerian national, ran online-dating romance scams for roughly 15 years, using variations of the alias "Giovanni" to meet victims, mostly older, widowed, or divorced people, on Match, Zoosk, and Christian Café. He was indicted in December 2023 on 14 counts of wire fraud, arrested in 2024 at a Texas airport, and pleaded guilty; on June 23, 2026, a judge in U.S. District Court in Tacoma sentenced him to five years in prison for stealing $3.5 million from eight identified victims. The judge said the scheme "ruined lives, not only financial lives," causing "shame, depression, and isolation from their own family," while prosecutors noted Nwadialo "upended the lives of people he never met," even fabricating a story that he ran a nonprofit for autistic children to build trust. One victim maintained a three-year fraudulent online relationship with him; one widow lost her home and her life savings. Never send money, gift cards, or crypto to someone you have only met online, be suspicious of any partner who avoids video calls or in-person meetings and eventually asks for financial help, and talk to a trusted family member before wiring funds to an online romantic interest.`,
+    categorySlug: 'romance-scams',
+    alertLevel: 'high',
+    sources: ['KOMO News', 'U.S. Attorney\'s Office, Western District of Washington'],
+    sourceUrl: 'https://komonews.com/news/local/nigerian-man-sentenced-to-5-years-in-prison-for-million-dollar-romance-scam-victims-online-dating-scams-match-zoosk-and-christian-cafe',
+    country: 'US',
+    state: 'WA',
+    isHistorical: true,
+    firstRecorded: '2023-12-01',
+});
+
+UsTZ.push({
+    name: 'FBI Seattle AI-Generated Financial Scam Surge Warning',
+    slug: 'washington-fbi-seattle-ai-financial-scam-surge',
+    description: `FBI Seattle Special Agent in Charge Mike Herrington warned in March 2026 that AI-generated financial scams are escalating sharply in Washington state: in 2025 alone, 600 Washington residents were defrauded out of $25 million, and both the number of victims and dollar losses statewide have tripled since 2020 (nationally, the FBI says 4.2 million people have been targeted and $50.5 billion lost since 2020). Herrington explained that "frauds at their core are about building and exploiting trust, and AI makes it more effective in doing that," letting criminals "create emails, chats, generate fake photos and even videos to convince a victim" that a fabricated person or emergency is real, supercharging decades-old romance, ransom, and impersonation schemes rather than creating new ones. People over 60 are the most common targets, with people in their 40s the second-most targeted group. Because AI can now fabricate convincing photos, voice, and video "evidence," treat any urgent request for money, even one backed by a photo, voice note, or video call, as unverified until you independently confirm the person's identity through a phone number or channel you already know is theirs, and report suspected AI-assisted fraud to ic3.gov.`,
+    categorySlug: 'ai-deepfake-scams',
+    alertLevel: 'critical',
+    sources: ['KIRO 7 News Seattle', 'FBI Seattle Field Office'],
+    sourceUrl: 'https://www.kiro7.com/news/local/fbi-warns-rapidly-developing-ai-financial-scams/SNTATOJRQJFDHCVD6D7PFFA35I/',
+    country: 'US',
+    state: 'WA',
+    firstRecorded: '2026-03-26',
+});
+
+UsTZ.push({
     name: 'Provo Widow-Targeting Romance Scam Ring (Nelly Idowu)',
     slug: 'utah-provo-idowu-romance-scam-money-laundering',
     description: `From 2017 to 2019, Nelly Idowu, 39, of Provo, Utah, and three co-conspirators — Emmanuel Osaigbovo Adesotu, Nnamdi Joel Chukwu, and Julius Omene Fredrick — ran an online romance scheme that built fake dating profiles specifically to target widowed and divorced women over 65, cultivating what victims believed were real relationships before each "partner" developed a sudden, urgent financial need and asked for money. Idowu's role centered on money laundering: moving and disguising proceeds from a scheme that took more than $6 million from victims over its two-year run. A federal jury convicted Idowu of one count of money laundering conspiracy and two counts of money laundering, and she was sentenced to six years in federal prison followed by three years of supervised release; her co-defendants, who each pleaded guilty to money laundering conspiracy, received sentences ranging from one year (Chukwu) to 46 months (Fredrick), with Adesotu sentenced to three years. All four defendants were ordered to pay $6,444,787.16 in restitution jointly to their victims. The case illustrates why an online romantic interest's sudden request for money — however emotionally convincing the relationship has felt — should be treated as a red flag regardless of the reason given, and why older adults who are widowed or divorced, and often managing finances alone for the first time, should loop in an adult child or trusted friend before sending money to anyone they have only ever met online.`,
