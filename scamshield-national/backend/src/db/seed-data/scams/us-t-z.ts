@@ -4746,3 +4746,42 @@ UsTZ.push({
     state: 'UT',
     firstRecorded: '2024-03-01',
 });
+
+UsTZ.push({
+    name: 'AI Voice-Cloned "Grandson" Call Grandparent Scam',
+    slug: 'west-virginia-ai-voice-cloned-grandson-grandparent-scam',
+    description: `The West Virginia Attorney General's Consumer Protection Division's March 2026 scam report flagged a troubling new twist on the classic grandparent scam: artificial-intelligence voice cloning convincing enough to fool a close family member. "One consumer reported the voice of a scammer sounded exactly like her grandson, but it wasn't him," the office wrote, describing a call in which a cloned voice was used to manufacture a fake emergency — the traditional grandparent-scam setup of an arrest, accident, or hospital bill requiring urgent cash — but with an AI-generated voice replacing the vague "Grandma, it's me" opening that used to be the scam's biggest giveaway. Grandparent scams ranked fifth among the 314 total scam complaints the division logged in West Virginia that month, and the office separately noted deepfake video and image technology being used elsewhere to push fraudulent government-benefit ads. Attorney General JB McCuskey said "with the emergence of new technology, it is more important now than ever to be vigilant and careful." Because a cloned voice can now defeat the old test of "does this actually sound like them," the Attorney General's Office recommends families agree on a private verification question or code word in advance and always hang up and call the relative back on a known number before sending any money.`,
+    categorySlug: 'grandparent-scams',
+    alertLevel: 'high',
+    sources: ["West Virginia Attorney General's Office"],
+    sourceUrl: 'https://ago.wv.gov/article/top-scams-reported-west-virginia-attorney-generals-office-march-2026',
+    country: 'US',
+    state: 'WV',
+    firstRecorded: '2026-04-03',
+});
+
+UsTZ.push({
+    name: 'West Virginia Third-Party "Annual Report" Filing Scam',
+    slug: 'west-virginia-sos-third-party-annual-report-filing-scam',
+    description: `As West Virginia's 2026 business Annual Report filing period opened January 1, Secretary of State Kris Warner warned business owners about a recurring scheme in which private, unaffiliated companies mail solicitations designed to look like official government paperwork, offering to file a business's mandatory Annual Report on its behalf. The real statutory filing fee is $25, filed directly with the state; Warner's office says these third-party vendors routinely charge more than eight times that amount — upwards of $200 — while also frequently advertising incorrect compliance deadlines to create false urgency. "These third-party solicitations are not from my office and not from the state of West Virginia," Warner said, adding "we have modernized the business registration process in West Virginia," noting roughly 98% of businesses now file directly online. The Secretary of State's Office urges business owners to ignore mailers resembling government notices and instead file the Annual Report themselves, for free, directly at Business4.WV.gov, or call the Business Division at (304) 558-8000 to verify whether any notice they received is legitimate before paying anyone to file on their behalf.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ["West Virginia Secretary of State's Office", 'Panhandle News Network'],
+    sourceUrl: 'https://panhandlenewsnetwork.com/2025/12/23/dont-fall-for-third-party-filing-scam-says-wvsos/',
+    country: 'US',
+    state: 'WV',
+    firstRecorded: '2025-12-23',
+});
+
+UsTZ.push({
+    name: 'Fake Invoice Phishing Emails Impersonating Legitimate Businesses',
+    slug: 'west-virginia-fake-invoice-phishing-email-scam',
+    description: `In its monthly scam tally released August 4, 2026, the West Virginia Attorney General's Consumer Protection Division reported email phishing as the third most-common scam category among the 176 complaints filed statewide that July, describing the pattern as "scam e-mails with fake invoices, appearing to come from legitimate and well-known businesses, requesting payment." Unlike the office's previously documented lookalike-website phishing campaign that impersonates West Virginia state agencies, this scheme spoofs real private companies' branding and billing formats, landing a fraudulent invoice directly in a recipient's inbox and relying on the recipient assuming it is a routine bill from a vendor they already do business with. The division tracks this alongside Medicare impersonation, robocalls, and sweepstakes and Social Security impersonation as recurring monthly complaint categories. Consumers and small businesses who receive an unexpected invoice by email should never pay or click through directly from the message — instead, they should contact the supposed sender using a phone number or email address they already have on file, independent of anything in the email itself, to confirm the invoice is real before sending payment.`,
+    categorySlug: 'business-email-compromise',
+    alertLevel: 'medium',
+    sources: ["West Virginia Attorney General's Office"],
+    sourceUrl: 'https://ago.wv.gov/article/top-scams-reported-west-virginia-attorney-generals-office-july-2026',
+    country: 'US',
+    state: 'WV',
+    firstRecorded: '2026-08-04',
+});
