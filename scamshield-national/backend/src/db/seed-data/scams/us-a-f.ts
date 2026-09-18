@@ -5767,6 +5767,20 @@ UsAF.push({
 });
 
 UsAF.push({
+    name: "Origin of Alaska's Medicaid Fraud Control Unit",
+    slug: 'alaska-medicaid-fraud-control-unit-origin',
+    description: `Alaska's Medicaid Fraud Control Unit was established inside the Alaska Department of Law on January 1, 1992, created specifically to investigate and prosecute healthcare providers who defraud the state's Medicaid program and to pursue abuse, neglect, and financial exploitation of patients in any Medicaid-funded facility — a response to a pattern regulators nationwide were seeing by the early 1990s, in which unscrupulous billing by care providers was costing Medicaid programs hundreds of millions of dollars a year while some of the program's most vulnerable enrollees went uninvestigated when mistreated in the facilities meant to care for them. More than three decades later, the unit's own case list shows exactly why that dual mandate still matters in Alaska specifically: it is the same office that, in 2026, indicted the owners of three Anchorage-area assisted living and group homes — Heritage Assisted Living Home LLC, Heritage Home LLC, and Alaska Life Group Home LLC — for allegedly billing Medicaid $14,694,800.47 using a program administrator's credentials that had been falsified and kept "active" on paper for years after she actually left, the exact kind of falsified-credential, unsupervised-care billing scheme the unit was built to catch. Alaska's assisted-living and group-home industry has produced a steady stream of Medicaid billing fraud cases in the years since the MFCU's founding, from home health agencies to nursing facilities, because the underlying vulnerability — a state paying for care that is billed on paper but never adequately delivered or supervised — has never fully gone away; families with a relative in a Medicaid-funded facility can report suspected fraud directly to the MFCU's tip line and can independently verify a facility's current, active provider certification through the Alaska Department of Health rather than relying on the facility's own billing paperwork.`,
+    categorySlug: 'healthcare-fraud',
+    alertLevel: 'medium',
+    sources: ['Alaska Department of Law (Medicaid Fraud Control Unit)'],
+    sourceUrl: 'https://law.alaska.gov/department/criminal/mfcu.html',
+    country: 'US',
+    state: 'AK',
+    isHistorical: true,
+    firstRecorded: '1992-01-01',
+});
+
+UsAF.push({
     name: 'Pietras Prepaid Funeral Contract Embezzlement',
     slug: 'connecticut-pietras-prepaid-funeral-contract-embezzlement',
     description: `Philip Pietras, 51, ran funeral homes in Coventry, Vernon, and Enfield, Connecticut and, across a string of arrests by multiple local police departments running from September 2025 into 2026, was charged with systematically pocketing money families paid him in advance to cover their own or a relative's eventual funeral rather than placing it in the trust accounts state law requires. Coventry police first charged Pietras with 22 counts of selling a funeral service contract with intent to defraud, 11 counts of second-degree larceny by embezzlement, and forgery after identifying 22 victims who had lost more than $165,000 through his Coventry funeral home; investigators traced the missing money to a Norwegian cruise and to hotels, resorts, and casinos in Connecticut, Massachusetts, New Jersey, Florida, and Las Vegas. Vernon police separately charged him with 20 counts of second-degree larceny and 60 counts of intent to defraud after finding he had embezzled prepaid contract funds from 31 clients — all over age 60 — who held contracts at Tolland Memorial Funeral Home between 2011 and 2025, and a subsequent warrant added 31 counts of unfair trade practices and additional larceny counts. Taken together, Connecticut authorities say Pietras misused roughly $794,000 in prepaid funeral funds belonging to as many as 179 victims across the state. The state board that licenses funeral directors suspended his license, and his funeral homes have since closed; the scale of the case prompted a Connecticut lawmaker to propose creating a state compensation fund specifically for victims of funeral-home fraud, since victims typically have no way to recover money that was supposed to be sitting untouched in a trust account until it was actually needed. Anyone shopping for a prepaid funeral contract should confirm in writing that funds go into a state-regulated trust or insurance-funded account rather than the funeral home's own operating account, and should verify a funeral director's license status with the Connecticut Department of Public Health before signing or paying anything.`,
@@ -8729,6 +8743,20 @@ UsAF.push({
     sourceUrl: 'https://www.commerce.alaska.gov/web/Portals/0/pub/Press%20Releases/2026/26-005%20Alaska%20Division%20of%20Banking%20and%20Securities%20Warns%20Consumers%20About%20Possible%20Cryptocurrency%20Investment%20Fraud.pdf',
     country: 'US',
     state: 'AK',
+});
+
+UsAF.push({
+    name: "The World Plus Ponzi Scheme: Alaska's Landmark Investment Fraud",
+    slug: 'alaska-world-plus-ponzi-scheme-origin',
+    description: `Raejean Bonham ran World Plus, Inc., a Fairbanks-based airline-ticket discount business, from 1989 until it collapsed into forced bankruptcy in December 1995, in what federal prosecutors and the Alaska Department of Law's own securities division came to treat as the largest Ponzi scheme in state history. Bonham told investors their contracts, sold through World Plus and an affiliated company, Atlantic Pacific Funding Corporation, were "guaranteed," "bonded," and "insured," and promised returns as high as 20 to 50 percent in just a few months — while concealing that Delta Air Lines had already obtained court orders against her ticket-brokering operations — and she used new investors' money to pay off earlier ones, encouraging many to "reinvest" their winnings rather than cash out. By the time it collapsed, more than 1,100 creditors had filed claims and the scheme's net loss exceeded $10 million; Bonham pleaded guilty to federal mail fraud and money laundering charges in June 1998, and Alaska prosecuted her separately under state securities law for filing false information when she belatedly registered her investment contracts as securities in 1993, a conviction the Alaska Court of Appeals and Alaska Supreme Court both upheld. Three decades later, the core mechanic Bonham used — recruiting new investors whose money pays "returns" to earlier ones, dressed up with guarantees regulators can't actually verify — is the same structure the Alaska Division of Banking and Securities flagged in 2026 when it warned residents about BG Wealth Sharing and its affiliated DSJ Exchange, an invitation-only crypto "hedge fund" recruiting Alaskans through referral bonuses and unverifiable claims of foreign licensing. Anyone offered a guaranteed high return that depends on referring new investors, whether through a 1990s ticket-brokering contract or a 2020s crypto referral link, should treat the recruitment structure itself as the warning sign and verify any investment's registration directly with the Alaska Division of Banking and Securities before sending money.`,
+    categorySlug: 'ponzi-pyramid-schemes',
+    alertLevel: 'medium',
+    sources: ['U.S. Department of Justice', 'Alaska Department of Law'],
+    sourceUrl: 'https://www.justice.gov/archive/opa/pr/1998/June/309.html',
+    country: 'US',
+    state: 'AK',
+    isHistorical: true,
+    firstRecorded: '1989-01-01',
 });
 
 UsAF.push({
