@@ -9544,6 +9544,9 @@ NotoriousAF.push({
     slug: 'james-black-abc-learning-centres-accounting-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'international'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/City_of_Brisbane_views_from_Wavell_Heights%2C_Queensland%2C_2026.jpg?width=1200',
+    coverImageCredit: 'Brisbane, headquarters of ABC Learning Centres, whose accounts capitalised costs it should have written off. Photo: Chris Olszewski (CC BY-SA 4.0)',
+    coverImagePosition: 45,
     body: `James Black was chief financial officer of ABC Learning Centres, a Brisbane-founded childcare operator that grew, under CEO Eddy Groves, from a single Queensland centre in 1988 into the world's largest publicly listed early-childhood-education company, reaching a market capitalization of roughly A$2.5 billion and nearly 700 centres by the mid-2000s. In December 2006, ABC Learning acquired the second-largest U.S. childcare chain, La Petite Academy, for US$330 million, and the UK's Busy Bees Group for £71 million, deals prosecutors later said were the vehicle for the fraud.
 
 To justify routing a combined $46.5 million out of ABC Learning to a related entity called ABC Acquisitions, Black authorized two false "engagement letters" telling the company's auditor, Pitcher Partners, that ABC Acquisitions had sourced and negotiated the La Petite Academy and Busy Bees deals, work the division had never actually performed. ABC Learning collapsed into receivership in November 2008 owing more than $1.8 billion, then one of the largest corporate collapses in Australian history.
@@ -9559,6 +9562,9 @@ NotoriousAF.push({
     slug: 'steve-burns-lordstown-motors-endurance-preorder-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Last_Chevrolet_Cruze_from_Lordstown.jpg?width=1200',
+    coverImageCredit: 'The last Chevrolet Cruze built at Lordstown. Lordstown Motors bought the plant and counted non-binding pre-orders as demand. Photo: Analogue Kid (CC BY-SA 4.0)',
+    coverImagePosition: 50,
     body: `Steve Burns founded Lordstown Motors in 2018 to build the Endurance, an all-electric pickup truck, and took the company public in October 2020 through a merger with the SPAC DiamondPeak Holdings, one of the earliest and most closely watched deals of the EV-SPAC boom. To justify a valuation built on a vehicle that did not yet exist, Burns told investors, regulators, and the press that Lordstown already had more than 100,000 non-binding "pre-orders" for the Endurance, presenting it as proof of overwhelming commercial demand.
 
 In March 2021 the short-seller research firm Hindenburg Research published a report alleging the pre-order figure was essentially fictitious, noting that most of the "customers" were small firms with no fleet operations and no real intention or capacity to buy trucks; Lordstown's own later admissions and an SEC investigation confirmed the substance of that claim. Burns resigned as CEO and chairman in June 2021 as the stock collapsed; Lordstown limped on, burning cash and repeatedly missing its own production timelines while concealing supply-chain-driven delays from investors, until it filed for Chapter 11 bankruptcy in June 2023.
@@ -9574,6 +9580,9 @@ NotoriousAF.push({
     slug: 'david-p-bloom-wall-street-whiz-kid-repeat-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Wall_Street_Sign_NYC.jpg?width=1200',
+    coverImageCredit: 'A Wall Street street sign. Bloom sold himself as a whiz-kid money manager three separate times. Photo: JSquish (CC BY-SA 3.0)',
+    coverImagePosition: 50,
     body: `David Peter Bloom, a Manhattan-raised, Duke University-educated financier, is one of the few fraudsters in U.S. history convicted of essentially the same investment scam three separate times across nearly 40 years — in 1988, in 2000, and again with a sentencing in June 2026. Early press dubbed him the "Wall Street Whiz Kid" after his first scheme unraveled. In the mid-1980s, Bloom ran an unregistered investment firm, Greater Sutton Investors Group Inc., soliciting wealthy and high-profile clients, reportedly including the Sultan of Brunei, Bill Cosby, and members of the Rockefeller family, with promises to invest their money in securities, then diverted more than $10 million from over 140 clients to personal luxury spending, art, and real estate.
 
 After serving federal time, he re-offended around 2000, bilking Manhattan restaurant-industry workers out of tens of thousands of dollars with promises of stock-market gains and "IPO gifting" opportunities. After a second prison term and parole, he resurfaced in Los Angeles between 2021 and 2023, despite a lifetime SEC securities-industry ban, posing as an investment advisor and targeting vulnerable people, including a single mother going through a divorce, promising to grow their money and dangling fake pre-IPO investment opportunities; this scheme took nearly $250,000 from at least nine victims.
@@ -9589,6 +9598,9 @@ NotoriousAF.push({
     slug: 'sachin-dev-duggal-builder-ai-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'international', 'accounting-fraud', 'ai-fraud', 'startup-fraud'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/London_City_(254078619).jpeg?width=1200',
+    coverImageCredit: 'London, where Builder.ai raised money on claims of AI-assembled apps that were largely built by engineers in India. Photo: Stephan Guttinger (public domain)',
+    coverImagePosition: 45,
     body: `Note: this profile describes an ongoing situation. Builder.ai's collapse and the "round-tripping" revenue scheme uncovered inside it have not resulted in criminal charges against founder Sachin Dev Duggal as of this writing, and a separate money-laundering case against him in India remains at the chargesheet stage, with no conviction. Duggal has denied wrongdoing in that matter.
 
 Sachin Dev Duggal founded the company in 2016 under the name Engineer.ai, rebranding it Builder.ai a few years later, and built it into one of the most closely watched "AI" startups in the world. The pitch was a genuinely appealing one: instead of hiring expensive developers, a customer could describe the app they wanted to an AI assistant named "Natasha," and Natasha's artificial intelligence would assemble it from reusable software components — no coding team required. Investors believed it. Microsoft, SoftBank's DeepCore, the Qatar Investment Authority, IFC, and Insight Partners poured in more than $450 million, valuing the company at roughly $1.5 billion and making Duggal, still in his thirties, the public face of AI-powered software development.

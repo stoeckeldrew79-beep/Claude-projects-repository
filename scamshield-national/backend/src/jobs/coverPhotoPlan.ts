@@ -262,17 +262,23 @@ export const PHOTO_PLAN: PhotoPlanEntry[] = [
   // on, because no free portrait exists for any of them.
   { slug: 'james-black-abc-learning-centres-accounting-fraud', query: 'Brisbane Queensland city skyline', caption: 'Brisbane, headquarters of ABC Learning Centres, whose accounts capitalised costs it should have written off', position: 45 },
   { slug: 'steve-burns-lordstown-motors-endurance-preorder-fraud', file: 'Last Chevrolet Cruze from Lordstown.jpg', caption: 'The last Chevrolet Cruze built at Lordstown. Lordstown Motors bought the plant and counted non-binding pre-orders as demand', position: 50 },
-  { slug: 'david-p-bloom-wall-street-whiz-kid-repeat-fraud', query: 'New York Stock Exchange building Broad Street', caption: 'The New York Stock Exchange. Bloom sold himself as a whiz-kid money manager three separate times', position: 50 },
+  { slug: 'david-p-bloom-wall-street-whiz-kid-repeat-fraud', file: 'Wall Street Sign NYC.jpg', caption: 'A Wall Street street sign. Bloom sold himself as a whiz-kid money manager three separate times', position: 50 },
   { slug: 'sachin-dev-duggal-builder-ai-fraud', query: 'London City financial district office', caption: 'London, where Builder.ai raised money on claims of AI-assembled apps that were largely built by engineers in India', position: 45 },
   { slug: 'hughes-kahn-prophecy-asset-management-collapse', file: 'Lower Manhattan from Jersey City September 2020 panorama.jpg', caption: 'Lower Manhattan seen from Jersey City, where Prophecy Asset Management reported gains while one trader\u2019s losses went unrecorded', position: 45 },
   { slug: 'johnson-lee-jjptr-forex-ponzi-scheme', query: 'George Town Penang Malaysia', caption: 'Penang, where JJPTR promised 20% monthly forex returns and then blamed the missing money on a hack', position: 50 },
   { slug: 'ihor-kolomoisky-privatbank-fraud', query: 'Dnipro Ukraine city view', caption: 'Dnipro, home of PrivatBank, which was nationalised after insider lending left a $5.5 billion hole', position: 45 },
-  { slug: 'daniel-och-och-ziff-africa-bribery-scandal', query: 'Midtown Manhattan office towers', caption: 'Midtown Manhattan, where Och-Ziff ran the Africa deals that brought the first FCPA guilty plea by a major hedge fund', position: 45 },
-  { slug: 'roman-storm-tornado-cash-money-laundering', query: 'Thurgood Marshall United States Courthouse New York', caption: 'The federal courthouse in Manhattan, where the question of whether writing mixer code is money laundering was tried', position: 50 },
+  // Search returned a single named Midtown tower that is not Och-Ziff's,
+  // which invites the wrong inference. Pinned to the skyline instead.
+  { slug: 'daniel-och-och-ziff-africa-bribery-scandal', file: 'Midtown Manhattan skyline from the One World Observatory, New York City.jpg', caption: 'Midtown Manhattan, where Och-Ziff ran the Africa deals behind the first FCPA guilty plea by a major hedge fund', position: 45 },
+  // Search returned a March 2001 aerial of the World Trade Center, which has
+  // nothing to do with this case. Pinned to the courthouse that tried it.
+  { slug: 'roman-storm-tornado-cash-money-laundering', file: 'Daniel Patrick Moynihan U.S. Courthouse, Manhattan, New York (7237347688).jpg', caption: 'The Moynihan federal courthouse in Manhattan, where the question of whether writing mixer code is money laundering was tried', position: 50 },
   { slug: 'carl-channing-spence-aei-financial-meme-stock-ponzi', query: 'New York Stock Exchange building facade', caption: 'The New York Stock Exchange. Spence told friends he was trading meme stocks and paid early investors with later money', position: 50 },
   { slug: 'ravi-parthasarathy-ilfs-collapse', query: 'Mumbai Bandra Kurla Complex', caption: 'Mumbai\'s financial district, where IL&FS funded infrastructure with short-term debt until the refinancing stopped', position: 45 },
   { slug: 'michael-palleschi-fte-networks-accounting-fraud', query: 'Naples Florida downtown', caption: 'Naples, Florida, where FTE Networks reported receivables overstated by 477 percent', position: 50 },
-  { slug: 'byju-raveendran-byjus-edtech-fraud', query: 'Bengaluru Karnataka city skyline', caption: 'Bengaluru, where Byju\'s grew into India\'s most valuable startup before its accounts and its lenders caught up with it', position: 45 },
+  // No free photo verified from a skyline search: the Bangalore panorama is
+  // GFDL 1.2, which this project does not accept.
+  { slug: 'byju-raveendran-byjus-edtech-fraud', file: 'UB City (5360658756).jpg', caption: 'Bengaluru, where Byju\u2019s grew into India\u2019s most valuable startup before its accounts and its lenders caught up with it', position: 45 },
   { slug: 'harbinder-singh-sethi-tegeta-escrow-scandal-tanzania', query: 'Dar es Salaam Tanzania city', caption: 'Dar es Salaam, where $122 million left the Tegeta escrow account that was meant to be frozen', position: 45 },
   { slug: 'daniel-vorcaro-banco-master-collapse', query: 'Avenida Paulista Sao Paulo Brazil', caption: 'Sao Paulo, where Banco Master funded itself with high-yield deposits against assets the central bank found were not there', position: 45 },
 ];
