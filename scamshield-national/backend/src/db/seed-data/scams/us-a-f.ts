@@ -8086,6 +8086,42 @@ UsAF.push({
 });
 
 UsAF.push({
+    name: 'Arizona "IRS Liability Reduction Program" and Fake Tariff Refund Tax Scam',
+    slug: 'arizona-irs-liability-reduction-tariff-refund-tax-scam',
+    description: `Ahead of the 2026 tax season, Arizona Attorney General Kris Mayes and the Better Business Bureau warned residents about a cluster of tax-themed schemes making the rounds by unsolicited call, text, and social media message: fake "IRS liability reduction programs" that promise to erase a tax bill, phony government "inflation refund" checks, and bogus direct-deposit offers falsely tied to tariff rebate money, none of which are real federal programs. In the phone version, callers impersonate an IRS "tax review" unit, give the victim a fabricated badge number, and claim their file has been flagged for an unresolved issue, then pressure them to act before the supposed relief option expires and to hand over bank account numbers or a Tax ID to "process" the refund or reduction. Attorney General Mayes and the BBB released the joint warning on March 16, 2026, advising Arizonans that a legitimate tax agency will never pressure someone to act immediately over the phone; as Mayes put it, "If someone is pushing you to act immediately, stop and hang up," and anyone targeted should report it to the Arizona Attorney General's Office at azag.gov/consumer or by phone rather than provide any financial information.`,
+    categorySlug: 'tax-scams',
+    alertLevel: 'medium',
+    sources: ["Arizona Attorney General's Office", 'Better Business Bureau'],
+    sourceUrl: 'https://www.azag.gov/press-release/attorney-general-mayes-and-better-business-bureau-warn-arizonans-dont-fall-tax-season',
+    country: 'US',
+    state: 'AZ',
+});
+
+UsAF.push({
+    name: 'Scottsdale Seller-Impersonation Deed Fraud and the ERAS Early-Alert System (Gotlieb)',
+    slug: 'arizona-scottsdale-eras-deed-fraud-gotlieb',
+    description: `Scottsdale real estate agent Debi Gotlieb discovered that her father's Scottsdale home, owned by the family since 1978, was being sold out from under them after a criminal impersonated her father, contracted with real estate agents through Zillow, and opened escrow on the property without the family's knowledge — a scheme distinct from a foreclosure-rescue deed theft in that the true owner never signed anything at all, and the sale nearly closed on forged paperwork alone. The perpetrator was ultimately caught only because he signed closing documents in person in California, where his fingerprints were taken and matched; Gotlieb said recovering clear title afterward cost her family roughly $20,000 and took a couple of months, over resistance from both the title company and Zillow. Arizona's Attorney General has fielded nearly 400 real estate fraud complaints since 2024, generating about 40 active criminal investigations, and in August 2026 the Arizona Department of Real Estate launched the Early Real Estate Sales Alert System (ERAS) in response — unlike a county recorder's fraud-alert service, which only notifies an owner after a fraudulent deed has already been filed, ERAS is designed to notify a property owner before a real estate transaction involving their property is finalized and recorded. Registration is free and takes under a minute using the owner's name, address, or parcel number, and the department is also encouraging real estate agents to have buyers and sellers complete verification forms the system can scan against, since — as ERAS director Susan Nicolson put it — "criminals impersonate sellers" and exploit the gap between when a fraudulent sale starts and when anyone would normally find out.`,
+    categorySlug: 'mortgage-foreclosure-scams',
+    alertLevel: 'high',
+    sources: ['Arizona Department of Real Estate', 'azfamily.com (3TV/CBS 5)'],
+    sourceUrl: 'https://www.azfamily.com/2026/08/28/new-arizona-alert-system-targets-deed-fraud-heres-how-it-works/',
+    country: 'US',
+    state: 'AZ',
+});
+
+UsAF.push({
+    name: 'Arizona Giving Tuesday Charity Impersonation and Fake-Refund Check Scam',
+    slug: 'arizona-giving-tuesday-charity-impersonation-scam',
+    description: `Ahead of Giving Tuesday, Arizona Attorney General Kris Mayes warned residents about scam artists who register fake charities under names deliberately close to well-known, trusted organizations, or invent a cause tied to a recent tragedy to pull at donors' heartstrings, then collect donations that never reach any real charitable purpose. A second version targets the charities themselves: a fake "donor" sends an organization a bogus check for a large donation, then asks for a partial refund before the check has had time to bounce, leaving the charity out the refunded cash once the original check is discovered to be worthless. The Attorney General's Office issued the alert on November 25, 2025, advising individual donors to verify a charity's exact name and website, check independent raters like Charity Watch or the BBB Wise Giving Alliance, pay only by credit card or check rather than gift cards, cryptocurrency, wire transfer, cash apps, or a debit card, and never give a Social Security number or bank details to a solicitor by phone, text, email, or social media; organizations are advised to independently verify donors, confirm any check is drawn on a legitimate bank, wait for a check to fully clear before issuing any refund, and require multiple approvals on outgoing funds. As Mayes put it, "Taking a few precautions on the front end can ensure that donations serve a charitable good, instead of lining the pockets of scammers."`,
+    categorySlug: 'charity-scams',
+    alertLevel: 'medium',
+    sources: ["Arizona Attorney General's Office"],
+    sourceUrl: 'https://www.azag.gov/press-release/ahead-giving-tuesday-attorney-general-mayes-urges-arizonans-protect-themselves',
+    country: 'US',
+    state: 'AZ',
+});
+
+UsAF.push({
     name: 'Fidelity and Spectrum Impersonation Elder Fraud (Otiz Swinton Jr.)',
     slug: 'florida-hillsborough-swinton-elder-crypto-fraud',
     description: `Between June 2022 and April 2025, Otiz Swinton Jr. repeatedly contacted a 95-year-old Hillsborough County, Florida man by falsely claiming the victim's Fidelity investment account had been compromised, then mailed him a flash drive and a cell phone so Swinton could access the victim's computer remotely. Swinton walked the victim through setting up a cryptocurrency wallet and used the remote access to move money from the victim's account into his own, while separately writing and depositing checks drawn on the victim's bank account — carrying out much of the scheme from inside prison, where he was already serving a sentence for an unrelated offense. Within weeks of his release in March 2025, Swinton targeted a second victim, a 97-year-old Hillsborough County woman, this time impersonating a Spectrum employee to obtain her personal and banking information over the phone and make unauthorized purchases and transfers. The Florida Attorney General's Office of Statewide Prosecution Cyber Fraud Enforcement Unit, working with the Hillsborough County Sheriff's Office after a complaint from the first victim, secured convictions on two counts of criminal use of the personal identification of a person 60 or older, two counts of exploitation of a person 65 or older, two counts of organized fraud, one count of fraudulent use of a credit card, and five counts of uttering a forged instrument; Swinton was sentenced to 21.6 years in prison, the longest sentence the unit has secured since it was created in 2023. No real brokerage, bank, or cable/internet provider will ever ask a customer to install remote-access software or move money into a cryptocurrency wallet to "protect" a compromised account; anyone told this should hang up and call the company back using the number printed on an account statement, not one the caller provides.`,
