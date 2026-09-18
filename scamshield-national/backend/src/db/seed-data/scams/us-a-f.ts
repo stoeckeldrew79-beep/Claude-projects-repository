@@ -6769,6 +6769,33 @@ UsAF.push({
     state: 'AL',
 });
 
+UsAF.push({
+    name: 'Birmingham\'s HealthSouth Fraud and Alabama\'s First Sarbanes-Oxley CEO Indictment',
+    slug: 'alabama-healthsouth-scrushy-accounting-fraud-origin',
+    description: `HealthSouth Corporation, the Birmingham-based rehabilitation-hospital chain that grew into one of the largest healthcare-services companies in the country, sits behind one of the largest corporate accounting frauds ever uncovered in Alabama. On March 19, 2003, the SEC sued HealthSouth and founder/CEO Richard Scrushy in the Northern District of Alabama, alleging the company had systematically overstated earnings by at least $1.4 billion since 1999 to meet Wall Street's targets and had inflated its assets by roughly $800 million — about 10% — by the third quarter of 2002; a later federal indictment put the total fictitious income added to the books at approximately $2.7 billion. The scheme began unraveling days after the newly signed Sarbanes-Oxley Act took effect: on August 5, 2002, HealthSouth's CFO, Weston Smith, told colleagues he could not personally sign the company's financial certifications under the law's new CEO/CFO accountability requirement and intended to quit, prompting Scrushy to announce a $175 million earnings write-down and a divisional spinoff in an attempt to contain the exposure. Smith stayed on, later pleaded guilty in March 2003 to his own role in the fraud, and testified against Scrushy, who went on to become the first corporate CEO ever indicted under Sarbanes-Oxley's certification provision — though a Birmingham jury acquitted him of every criminal fraud count in a widely noted 2005 verdict, a setback for the law's earliest real-world test. The same reliance on a paper trail that looks correct on its face — audited statements, account summaries, licensing records — is exactly what the currently active Hoover, Alabama Ponzi scheme entry describes Bryan Wayne Anderson exploiting on a smaller scale a decade later, and what the Alabama Securities Commission still urges investors to verify independently through its own public licensing database rather than take on trust.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'medium',
+    sources: ['U.S. Securities and Exchange Commission', 'NBC News'],
+    sourceUrl: 'https://www.sec.gov/newsroom/press-releases/2003-34-sec-charges-healthsouth-corp-ceo-richard-scrushy-14-billion-accounting-fraud',
+    country: 'US',
+    state: 'AL',
+    isHistorical: true,
+    firstRecorded: '2003-03-19',
+});
+
+UsAF.push({
+    name: 'Alabama\'s 2016 Protection of Vulnerable Adults from Financial Exploitation Act',
+    slug: 'alabama-2016-vulnerable-adults-financial-exploitation-act-origin',
+    description: `Effective July 1, 2016, Alabama's Protection of Vulnerable Adults from Financial Exploitation Act — codified at Ala. Code § 8-6-171 as Article 7 of the state's Securities Act — became one of the first laws in the country to give broker-dealers, investment advisers, and their agents a legal mechanism to intervene before an elderly or otherwise vulnerable client is drained by a fraudster. The law lets a "qualified individual" at a registered firm delay a disbursement of funds if they reasonably believe financial exploitation of a vulnerable adult — defined as anyone 65 or older, or an adult unable to adequately care for themselves — may be occurring, and requires the firm to notify both the Alabama Securities Commission and the state Department of Human Resources of the suspected exploitation; in exchange, anyone who makes such a report in good faith is granted immunity from administrative or civil liability over the disclosure. The Act was written for exactly the scenario the currently active Bulger elder-exploitation case describes: James "Jimmy" Bulger's Montgomery County victim was shown periodic "profits" that were really just his own $8.4 million being fed back to him to keep him believing a fake investment arrangement was real, precisely the kind of manufactured paper trail the law's reporting and hold provisions were designed to let a licensed firm catch and stop before the losses compound. The Act applies to broker-dealers and investment advisers rather than caregivers or unlicensed fraudsters directly, which is why Alabama's Securities Commission continues to pair it with public warnings that a victim's own family, or the firm handling their account, may be the only ones positioned to notice trouble before it is too late.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'medium',
+    sources: ['Alabama Securities Commission', 'Code of Alabama 1975'],
+    sourceUrl: 'https://law.justia.com/codes/alabama/2016/title-8/chapter-6/article-7/',
+    country: 'US',
+    state: 'AL',
+    isHistorical: true,
+    firstRecorded: '2016-07-01',
+});
 
 UsAF.push({
     name: 'California Preneed Cremation Package Deceptive Marketing (Neptune Society / SCI)',
