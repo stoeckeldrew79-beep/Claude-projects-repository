@@ -8190,3 +8190,42 @@ UsNS.push({
     state: 'SD',
     firstRecorded: '2025-05-01',
 });
+
+UsNS.push({
+    name: 'Saluda County $25 Million Business Email Compromise Fraud Ring (Demani and Tanya Bosket)',
+    slug: 'south-carolina-bosket-business-email-compromise-fraud',
+    description: `A federal jury in South Carolina convicted Demani Jawara Bosket, 51, of Saluda, and his niece Tanya Lashawn Bosket, 53, of Charlotte, North Carolina, for running the U.S. side of a transnational business email compromise scheme that stole more than $25 million from companies and individuals across the country between 2020 and 2024. According to the U.S. Attorney's Office and IRS Criminal Investigation, overseas conspirators hacked into business email accounts, quietly monitored correspondence for weeks or months to identify pending large transactions such as real estate closings, vendor payments, loan disbursements, and inheritance transfers, then sent spoofed emails impersonating attorneys, title company representatives, and bank officials to redirect the payments. Demani Bosket directed U.S.-based participants — including seven co-conspirators from Charlotte, Jacksonville, Savannah, and Auburn who pleaded guilty before trial — to register shell businesses and bank accounts, then rapidly drained the stolen funds through cash withdrawals and cashier's checks before wiring the remainder overseas; the U.S. Secret Service was able to recover only about $2.5 million of the more than $25 million taken. Demani Bosket was convicted on wire fraud conspiracy, money laundering conspiracy, and six counts of wire fraud, facing up to 30 years in prison and a $50 million fine, while Tanya Bosket was convicted on the conspiracy counts and four counts of wire fraud, facing up to 20 years and the same fine. "The jury saw through this scheme and rendered the right verdict," said U.S. Attorney Bryan Stirling, while IRS-CI Special Agent in Charge Donald "Trey" Eakins said the case "underscores our unwavering commitment to protecting American businesses and individuals from complex, organized cyber enabled fraud." Businesses and individuals involved in wire transfers — especially real estate closings — should independently verify any last-minute changes to payment or account instructions by phone, using a previously known number, before sending money.`,
+    categorySlug: 'business-email-compromise',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office, District of South Carolina", 'IRS Criminal Investigation'],
+    sourceUrl: 'https://www.irs.gov/compliance/criminal-investigation/federal-jury-convicts-saluda-county-man-and-charlotte-nc-woman-for-25m-wire-fraud-and-money-laundering-scheme',
+    country: 'US',
+    state: 'SC',
+    firstRecorded: '2026-06-11',
+});
+
+UsNS.push({
+    name: 'SCDOR Fake Tax Refund Text Message Scam',
+    slug: 'south-carolina-scdor-fake-refund-text-scam',
+    description: `The South Carolina Department of Revenue issued a public warning after residents reported receiving text messages falsely claiming to be from the agency and dangling a tax refund as bait. The message told recipients they were owed money but had to click an embedded link and submit personal information before an October 29, 2025 deadline, or forfeit the funds — a manufactured urgency designed to override caution. The SCDOR was blunt in its rebuttal: "The SCDOR will never text you asking for sensitive data," the agency said, stressing that legitimate correspondence about a filer's account is sent by mail, not SMS. The agency urged anyone who receives a similar message to delete it without clicking any link, report it to their mobile carrier, the South Carolina Department of Consumer Affairs, and the FTC, and to contact their bank immediately if they already clicked through or entered financial information. South Carolinians unsure whether a tax-related text, call, or email is genuine can call the SCDOR directly at 1-844-898-8542 to verify — and should never click a link in an unsolicited tax message, no matter how urgent it claims to be.`,
+    categorySlug: 'tax-scams',
+    alertLevel: 'medium',
+    sources: ['South Carolina Department of Revenue'],
+    sourceUrl: 'https://dor.sc.gov/news/scdor-warns-ongoing-text-message-scam',
+    country: 'US',
+    state: 'SC',
+    firstRecorded: '2025-10-23',
+});
+
+UsNS.push({
+    name: 'Dominion Energy South Carolina Disconnection Threat Utility Scam',
+    slug: 'south-carolina-dominion-energy-disconnection-scam',
+    description: `During National Consumer Protection Week, Dominion Energy issued a consumer alert to its South Carolina customers warning of a persistent utility-impersonation scam in which callers, texters, and emailers pose as company representatives and threaten to shut off electric service within the hour unless the customer pays immediately. Christina Freeman, Dominion Energy's General Manager of Customer Service, said the calls "are designed to feel urgent and intimidating," pressuring victims into handing over account numbers or payment before they have time to think it through. The company stressed several hard lines scammers routinely cross: Dominion Energy will never threaten immediate disconnection over the phone, demand payment by phone on the spot, require payment via wire transfer, money order, prepaid debit card, or gift card, or ask for payment in person. A telling giveaway, the company noted, is that genuine scammers typically do not know a customer's actual account balance, which real Dominion Energy customers can check anytime through the company's official website or mobile app. Customers who receive a threatening disconnection call or message should hang up or ignore it, never click links in unsolicited texts or emails, and verify their account status only through Dominion's official app, website, or the number printed on a past bill — not a callback number the caller provides.`,
+    categorySlug: 'utility-scams',
+    alertLevel: 'medium',
+    sources: ['Dominion Energy', 'South Carolina Public Radio'],
+    sourceUrl: 'https://www.southcarolinapublicradio.org/2026-03-02/dominion-energy-cautions-consumers-about-utility-scams',
+    country: 'US',
+    state: 'SC',
+    firstRecorded: '2026-03-02',
+});
