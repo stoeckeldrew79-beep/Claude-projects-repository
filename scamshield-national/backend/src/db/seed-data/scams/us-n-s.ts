@@ -6816,6 +6816,42 @@ UsNS.push({
 });
 
 UsNS.push({
+    name: 'Columbus "ACPA Hacker" Sextortion Ring (Lorenzo Winfield)',
+    slug: 'ohio-columbus-acpa-hacker-winfield-sextortion',
+    description: `Lorenzo Winfield, a Columbus, Ohio man who attended the city's Arts and College Preparatory Academy (ACPA), spent years going by the online handle "ACPA Hacker" while he systematically targeted more than 25 known teenage victims, many of them former classmates, from at least 2016 through 2021. Winfield hacked into victims' social media accounts and then used restored access as leverage, demanding nude photos and videos from the girls; when a victim refused or tried to cut off contact, he followed through on his threats by distributing sexually explicit images he had already collected to their friends and family, a pattern that extended his reach to victims in at least four states. He pleaded guilty in 2023 to charges including sexual exploitation of a minor, production and possession of child pornography, and interstate extortionate communications, and a federal judge in the U.S. District Court for the Southern District of Ohio sentenced him to 324 months — 27 years — in prison. U.S. Attorney Kenneth L. Parker's office, which prosecuted the case with the FBI's Cincinnati Field Office, said sextortion has no place in society; parents and teens should treat any threat to "expose" images already sent as a crime to report to local police and the FBI, not a demand to comply with, since compliance — as in this case — did not stop the extortion.`,
+    categorySlug: 'sextortion',
+    alertLevel: 'critical',
+    sources: ["U.S. Attorney's Office, Southern District of Ohio", 'FBI Cincinnati Field Office', '10TV (WBNS)'],
+    sourceUrl: 'https://www.justice.gov/usao-sdoh/pr/columbus-man-sentenced-27-years-prison-crimes-related-sexually-exploiting-sextorting',
+    country: 'US',
+    state: 'OH',
+});
+
+UsNS.push({
+    name: 'Boardman Facebook "Dog Rescue" Venmo Deposit Scam',
+    slug: 'ohio-boardman-facebook-dog-rescue-venmo-scam',
+    description: `A Boardman, Ohio woman responded to a Facebook page advertising an Italian Greyhound available through a dog rescue and arranged to have the dog delivered to her home. The page asked for a $200 payment via Venmo, then a second $300 Venmo payment, and provided a tracking number and confirmation number to look legitimate; it then told her she owed one more, supposedly "refundable," $500 transportation fee before the dog would ship. When she tried to send that third payment through Venmo, Zelle, and PayPal in turn, each was declined, and her bank called her directly to say the charges were fraudulent before the dog — which never existed — was due to arrive. She reported the $500 loss to Boardman police in July 2026, who classified it as a social-media dog-rescue scam; it fits a wider pattern the Better Business Bureau has tracked nationally, in which "rescue" or "free to good home" listings escalate through a series of small, plausible-sounding fees (deposit, then a bigger "transport" or "refundable" fee) rather than one large upfront payment, making each step feel individually reasonable. Anyone asked to send a second or third payment for a pet they have never seen in person, especially through Venmo, Zelle, or a wire transfer that offers no buyer protection, should stop and verify the rescue independently before paying anything further.`,
+    categorySlug: 'pet-sales-scams',
+    alertLevel: 'medium',
+    sources: ['Boardman Police Department', 'WFMJ'],
+    sourceUrl: 'https://www.wfmj.com/news/local-news/boardman/police-boardman-woman-loses-500-in-social-media-dog-rescue-scam/article_60abc2be-e14a-4571-9115-16cde7c40be1.html',
+    country: 'US',
+    state: 'OH',
+});
+
+UsNS.push({
+    name: 'Ohio "Task-Based" Remote Job Scam ($100,000 Loss)',
+    slug: 'ohio-bbb-task-based-remote-job-scam-100k-loss',
+    description: `An Ohio man identified by the Better Business Bureau only as Anthony was recruited into what looked like a legitimate remote job: a company hired him almost immediately and had him download an app with a dashboard tracking simple "tasks," such as liking YouTube videos and later approving photos in alleged advertisements, with each completed task shown adding to an on-screen balance of money he had supposedly earned. The operation paid out a small real amount after his very first task to build trust, then told him he needed to "advance" to higher earning levels, which required him to deposit his own money into the platform first before he could withdraw the larger balances it displayed. What started as what Anthony described as covering gas money escalated step by step as he chased each new level, and by the time he recognized the scheme was fake he had deposited a total of $100,000 that the operation never returned. The BBB documented Anthony's case as part of a 2026 study finding that BBB Scam Tracker reports of these "task-based" job scams, which are distinct from older schemes that just ask for a processing fee up front, roughly doubled in 2025 as fraud rings shifted to gamified apps that show escalating fake earnings to pressure victims into ever-larger deposits. A real employer never requires a worker to pay in order to unlock wages already shown as earned; anyone asked to deposit money to "unlock" a payout should stop and treat the job itself as the scam.`,
+    categorySlug: 'job-task-scams',
+    alertLevel: 'high',
+    sources: ['Better Business Bureau'],
+    sourceUrl: 'https://www.bbb.org/all/scamstudies/jobscams/employment-scams-2026-update',
+    country: 'US',
+    state: 'OH',
+});
+
+UsNS.push({
     name: 'Charlotte-Based International Tech Support Fraud Scheme (Nachiket Banwari)',
     slug: 'north-carolina-charlotte-banwari-tech-support-fraud',
     description: `Nachiket Banwari, of Charlotte, North Carolina, worked for Capstone Technologies, a company that generated deceptive pop-up ads designed to freeze a victim's web browser and display a fake warning that their computer was infected with a virus, then directed them to call a support number. Those calls were routed — through a call-routing platform called TrackDrive, built by Colorado Springs-based conspirator Richard Paul Nolan, and leads brokered by Massachusetts-based Hunter G. Mello — to call centers in India, where operators posing as Microsoft technicians talked victims, many of them elderly, into paying hundreds or thousands of dollars for tech support on computers that were never actually infected. Banwari personally received a 3% cut of Capstone's pop-up revenue, totaling $222,334, in a scheme prosecutors said generated tens of millions of dollars and caused victim losses estimated between $19 million and $26 million nationwide. Following a U.S. Attorney's Office investigation out of the Western District of North Carolina, Banwari was sentenced to 30 months in federal prison, Mello to 40 months, and Nolan to 24 months, each with three years of supervised release, and the three were ordered to collectively forfeit more than $3.7 million. No legitimate antivirus program or operating system displays a pop-up warning with a phone number to call; anyone confronted with a browser window claiming their computer is infected should close it — using the task manager if the browser won't respond — restart the computer, and never call a number a pop-up provides or grant remote access to anyone who does.`,
