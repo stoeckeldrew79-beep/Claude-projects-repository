@@ -8345,3 +8345,16 @@ UsNS.push({
     sourceUrl: "https://www.fbi.gov/contact-us/field-offices/denver/news/fbi-denver-warns-of-phantom-hacker-financial-scam",
     country: "US",
 });
+
+UsNS.push({
+    name: "Rising Sophisticated Phone Scams Targeting Alabama Consumers",
+    slug: "rising-sophisticated-phone-scams-targeting-alabama-consumers",
+    description:
+      "Alabama Attorney General Steve Marshall issued a statewide alert about increasingly sophisticated phone scams hitting consumers across the state. Callers manufacture fear and urgency by claiming there is an emergency, a penalty owed, or an offer that is too good to pass up, then pressure the target to act before they can verify anything. The giveaway is the payment method: victims are told to send money through Bitcoin or cryptocurrency machines, gift cards, or wire transfers, all of which are nearly impossible to reverse. Callers also try to pry loose Social Security numbers, banking details, and passwords. Hang up on anyone demanding immediate action or unusual payment, never give personal information over the phone, and call the company or agency back on a number you looked up yourself.",
+    categorySlug: "government-impersonation",
+    alertLevel: "high",
+    sources: ["Alabama Attorney General's Office, Consumer Interest Division, release dated March 25, 2025","WAKA 8","CBS 42","Cullman Tribune"],
+    sourceUrl: "https://www.alabamaag.gov/attorney-general-steve-marshall-warns-alabamians-of-rising-phone-scams/",
+    country: "US",
+    state: "AL",
+});

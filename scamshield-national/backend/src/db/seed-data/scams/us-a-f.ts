@@ -9128,3 +9128,16 @@ UsAF.push({
     isHistorical: true,
     firstRecorded: '2021-05-05',
 });
+
+UsAF.push({
+    name: "Fake Alabama Tax Refund Approved Text Message Phishing",
+    slug: "fake-alabama-tax-refund-approved-text-phishing",
+    description:
+      "Criminals are sending text messages that appear to come from the Alabama Department of Revenue claiming your state tax refund request has been approved. The text includes a link that leads to a page asking for personal and financial information, which scammers use for identity theft or to steal your money. ALDOR has confirmed it never sends text messages asking for personal information, so any text like this is fraudulent. The same template has appeared in other states impersonating their revenue departments, but this version names ALDOR and Alabama refunds specifically. Do not click the link and do not reply — delete the message immediately, and check your refund status only through official ALDOR channels.",
+    categorySlug: "tax-scams",
+    alertLevel: "high",
+    sources: ["Alabama Department of Revenue scam alert, October 1, 2025","WTVY (Dothan)","ABC 33/40"],
+    sourceUrl: "https://www.revenue.alabama.gov/scam-alert-beware-of-text-messages-about-alabama-tax-refunds/",
+    country: "US",
+    state: "AL",
+});
