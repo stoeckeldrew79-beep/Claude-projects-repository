@@ -7431,6 +7431,45 @@ UsNS.push({
 });
 
 UsNS.push({
+    name: "Ivory Coast Facebook Sextortion Ring Linked to North Dakota Teen's Death",
+    slug: 'north-dakota-ivory-coast-facebook-sextortion-teen-death',
+    description: `In January 2025, U.S. Attorney Mac Schneider announced the federal indictment of 23-year-old Aly Cherif of Ivory Coast on charges of cyberstalking resulting in death, wire fraud, conspiracy to commit wire fraud, extortion, and distribution of child sexual abuse material. Prosecutors allege Cherif and co-conspirators in Ivory Coast ran an organized sextortion operation, creating a fake Facebook profile posing as a 20-year-old Montana woman named "Emily Thompson" to lure a North Dakota teenager into an online relationship and convince the teen to send intimate photos and video. When the teen said they had no money to pay the ransom demanded to keep the images private, the group distributed the material, and the teen subsequently died by suicide. Schneider said the indictment "alleges greed, deception, and child exploitation that led to a heartrending tragedy." The FBI and Department of Homeland Security investigated the case. Parents and teens should know that sextortion rings frequently operate from overseas using fake profiles on mainstream social platforms; anyone contacted by a stranger who quickly pushes for romantic or sexual conversation or images should stop responding, save all evidence, never send payment, and report immediately to local police, the FBI's IC3.gov, and NCMEC's CyberTipline.`,
+    categorySlug: 'sextortion',
+    alertLevel: 'critical',
+    sources: ["KFGO", "U.S. Attorney's Office, District of North Dakota"],
+    sourceUrl: 'https://kfgo.com/2025/01/22/ivory-coast-man-indicted-for-alleged-role-in-sextortion-scheme-that-drove-a-north-dakota-teen-to-suicide/',
+    country: 'US',
+    state: 'ND',
+    firstRecorded: '2025-01-22',
+});
+
+UsNS.push({
+    name: 'North Dakota Tax Department Fraudulent Text Message Scam',
+    slug: 'north-dakota-tax-department-fraudulent-text-message-scam',
+    description: `On September 9, 2025, the North Dakota Office of State Tax Commissioner, under Tax Commissioner Kroshus, issued a public warning after fraudulent text messages began circulating that impersonate the North Dakota Department of Revenue. The messages urge recipients to click an embedded link and then request sensitive information such as bank account and credit card numbers under the guise of processing a refund or resolving an account issue. Commissioner Kroshus said, "protecting North Dakota taxpayers is a top priority for our office," and the agency clarified that it only ever sends text messages to taxpayers who specifically opted in for refund-status alerts, and that those legitimate messages never contain clickable links or request financial account details. Residents who receive such a text are urged not to click any links or reply with personal information, and to report the message to the Tax Commissioner's office at taxinfo@nd.gov or 701-328-7088. As tax-related smishing attacks rise nationally, North Dakotans should independently verify any tax communication by calling the state agency directly using a number looked up separately, never one provided in the suspicious text.`,
+    categorySlug: 'tax-scams',
+    alertLevel: 'medium',
+    sources: ['North Dakota Office of State Tax Commissioner'],
+    sourceUrl: 'https://www.tax.nd.gov/news/tax-commissioner-warns-north-dakota-taxpayers-fraudulent-text-messages',
+    country: 'US',
+    state: 'ND',
+    firstRecorded: '2025-09-09',
+});
+
+UsNS.push({
+    name: '"Final Notice" Traffic Violation QR Code Text Scam',
+    slug: 'north-dakota-traffic-violation-qr-code-text-scam',
+    description: `In April 2026, North Dakota law enforcement agencies and the state Department of Transportation warned residents about a text-message scam impersonating court and traffic-enforcement authorities. The messages display an image styled as an official notice reading "FINAL NOTICE — COURT ENFORCEMENT ACTION," falsely claiming the recipient has an unpaid traffic violation, and instruct the person to scan a QR code in the corner of the image to submit payment immediately. Investigators noted the fakes contain telltale errors that don't match North Dakota, including references to "Minnehaha County" and a "Judge Michael Rodriguez" — neither of which exists in the state — mentions of highway tolls, which North Dakota does not charge, and case-file numbers formatted incorrectly for ND court records, details suggesting a template scam script recycled across states. Officials urged recipients not to scan the QR code or submit any payment, and to report the message to local law enforcement rather than engaging with it. Because scanning a fraudulent QR code can route a phone to a fake payment page designed to harvest card numbers, ND residents should verify any traffic-fine claim directly with their local court or the ND Department of Transportation using an independently looked-up phone number, never a code or link embedded in an unsolicited text.`,
+    categorySlug: 'qr-code-scams',
+    alertLevel: 'medium',
+    sources: ['KFYR-TV'],
+    sourceUrl: 'https://www.kfyrtv.com/2026/04/21/north-dakotans-warned-about-traffic-violation-scam/',
+    country: 'US',
+    state: 'ND',
+    firstRecorded: '2026-04-21',
+});
+
+UsNS.push({
     name: 'CNMI Attorney General COVID-19 Fake Vaccine and Test Kit Scam Alert',
     slug: 'northern-mariana-islands-covid19-fake-vaccine-test-kit-scam-alert',
     description: `CNMI Attorney General Edward Manibusan issued a consumer alert on April 6, 2020 warning Commonwealth residents that fraudsters were exploiting early pandemic fear on multiple fronts at once. The alert described emails impersonating the CDC and WHO carrying malicious attachments or linking to fake coronavirus-tracking-map websites built to install malware and harvest personal data, alongside robocalls and text messages pushing bogus COVID-19 "treatments," work-from-home schemes, and links disguised as pandemic tracking tools. Separately, the alert flagged sellers marketing nonexistent vaccines, unapproved home test kits, and miracle treatments — stating plainly that "no vaccines, pills, potions, lotions, medications" yet existed to cure or prevent the coronavirus — as well as unknown individuals going door to door offering to sell medical kits or vaccines or perform in-home testing and "sanitization" services, and fraudulent charities soliciting donations that would never reach any real relief effort. Manibusan's office advised residents to carefully check a website's URL before entering any personal information, never open attachments or click links in unsolicited messages, hang up on robocalls without pressing any number to "opt out," research any seller online before buying anything pandemic-related, pay by credit card rather than debit card, wire transfer, or gift card, never donate to a charity through wire transfer or another untraceable method, and contact local law enforcement about any unknown person going door to door offering pandemic-related products or services. The same pattern — a health emergency used to sell fake protection or fake cures while a look-alike government email or website harvests personal data — has recurred in the CNMI with each subsequent public-health scare.`,

@@ -7863,6 +7863,45 @@ UsGM.push({
 });
 
 UsGM.push({
+    name: "El Dorado Teen Sextortion Death and \"Caleb's Law\"",
+    slug: 'kansas-el-dorado-caleb-moore-sextortion-death',
+    description: `In June 2025, 14-year-old Caleb Moore of El Dorado, Kansas died by suicide after an online predator posing as a teenage girl convinced him to send an explicit photo, then immediately pivoted to extortion. His mother, Morgan Moore, told lawmakers the scammer's first demand was $100; when Caleb said he only had $46 in cash, the extortionist demanded a $50 Apple gift card instead. Moore testified the predator was "relentless," and that after Caleb sent a photo of a weapon and said what he intended to do, the extortionist encouraged him to go through with it rather than stop — she described the full escalation from first threat to the fatal act as taking about 35 minutes. The case, believed to involve a perpetrator outside the United States, led directly to "Caleb's Law" (House Bill 2537), which Governor Laura Kelly signed on April 6, 2026, increasing criminal penalties for sextortion of minors and mandating statewide education for students, parents, and educators. Parents should treat any sudden demand for money or gift cards tied to a shared photo as an active extortion attempt: stop responding, do not pay, preserve the messages and screenshots, and contact law enforcement or the National Center for Missing & Exploited Children's CyberTipline immediately rather than trying to resolve it alone.`,
+    categorySlug: 'sextortion',
+    alertLevel: 'critical',
+    sources: ['KAKE-TV (Wichita)', 'KWCH-TV (Wichita)'],
+    sourceUrl: 'https://www.kake.com/home/kansas-family-pushes-for-caleb-s-law-after-teen-s-death-in-sextortion-case/article_7403f92f-a43a-4d71-bee5-0c22cd98f923.html',
+    country: 'US',
+    state: 'KS',
+    firstRecorded: '2025-06-01',
+});
+
+UsGM.push({
+    name: 'Business Email Compromise Attack on Kansas School Districts',
+    slug: 'kansas-school-district-business-email-compromise',
+    description: `In early February 2026, the Kansas Bureau of Investigation confirmed it was investigating a business email compromise scheme that had hit multiple Kansas school districts, with at least one district's systems confirmed compromised. KBI Public Affairs Director Melissa Underwood stated on the record, "The KBI is investigating a business email compromise that affected some school districts in Kansas." The attackers used spoofed emails designed to look like they came from trusted district contacts or vendors in an attempt to reach payroll systems, district bank accounts, and other sensitive financial information. The Kansas State Department of Education notified districts statewide to increase alertness in response, and district names were not publicly disclosed at the time so as not to interfere with the active investigation. Kansas school business offices and staff should independently verify any email requesting a change to vendor payment details, direct-deposit or payroll information, or wire instructions by calling a known phone number rather than replying to the email, and should enable multi-factor authentication on all district email accounts.`,
+    categorySlug: 'business-email-compromise',
+    alertLevel: 'high',
+    sources: ['The Sentinel (Kansas City)', 'Kansas Bureau of Investigation (KBI)'],
+    sourceUrl: 'https://sentinelksmo.org/kansas-schools-hit-with-email-scam/',
+    country: 'US',
+    state: 'KS',
+    firstRecorded: '2026-02-01',
+});
+
+UsGM.push({
+    name: "Holcomb Farmer's Crop Insurance and Bank Fraud Indictment",
+    slug: 'kansas-holcomb-farmer-crop-insurance-fraud',
+    description: `On November 26, 2025, a federal grand jury in Wichita indicted David L. Mongeau, 54, of Holcomb, Kansas, on two counts of making a false statement and 17 counts of bank fraud or attempted bank fraud. Prosecutors allege Mongeau filed a crop-loss claim with his insurer and collected payment for wheat he reported as ruined, while failing to disclose that he had in fact sold thousands of bushels of that same wheat. The U.S. Department of Agriculture investigated the case, and Assistant U.S. Attorney Jason Hart is prosecuting it in the District of Kansas. This is a case of an insured party defrauding a crop insurer by double-dipping — collecting an indemnity payment on a loss while quietly selling the supposedly destroyed product — rather than a scammer targeting a policyholder, and it's a reminder that crop-insurance and bank-lending fraud carry federal charges and that lenders and insurers cross-check claimed losses against actual grain sales and elevator receipts.`,
+    categorySlug: 'insurance-fraud',
+    alertLevel: 'medium',
+    sources: ['KWCH-TV (Wichita)'],
+    sourceUrl: 'https://www.kwch.com/2025/11/27/kansas-farmer-indicted-insurance-fraud/',
+    country: 'US',
+    state: 'KS',
+    firstRecorded: '2025-11-01',
+});
+
+UsGM.push({
     name: 'Kentucky Computer Virus Pop-Up Tech Support Scam',
     slug: 'kentucky-computer-virus-pop-up-tech-support-scam',
     description: `Kentucky's Attorney General's office warned in May 2019 that residents across Fayette, Johnson, Franklin, Jefferson, and other counties had collectively lost more than $90,000 to a fake computer-virus pop-up scam, with one Jefferson County victim alone losing $89,000 that was never recovered. Victims saw an on-screen pop-up falsely claiming their computer was infected and displaying an 800 number; callers posed as tech support, talked victims into granting remote access to their computers, then used that access to log into banking sites and drain accounts. Then-Attorney General Andy Beshear warned, "These scammers won't clean your hard drive, but they will clean out your bank account." Anyone who sees a pop-up like this should never grant remote computer access or make any payment, including by gift card, to a caller claiming to be tech support — legitimate companies like Microsoft do not initiate contact this way.`,
