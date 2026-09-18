@@ -6960,3 +6960,18 @@ Pucher himself was ultimately deemed medically unfit to stand trial for the core
 The case is a stark illustration of how a small, closely-held regional bank with weak external oversight can conceal a "zombie" balance sheet for decades — auditors and correspondent banks alike failed for years to independently verify claimed interbank deposits, a basic reconciliation step whose absence let the fraud compound for a generation before a single confession brought the whole institution down in a matter of hours.`,
     sourceUrl: 'https://de.wikipedia.org/wiki/Commerzialbank_Mattersburg',
   });
+
+NotoriousNS.push({
+    title: 'Daniel Schatt, Joseph Podulka, and the Cred LLC Crypto-Lending Collapse',
+    slug: 'daniel-schatt-joseph-podulka-cred-llc-crypto-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'cryptocurrency'],
+    body: `Daniel Schatt, a former PayPal and Google Wallet executive, co-founded Cred LLC, marketed as Cred Inc., in San Francisco in 2018 as a cryptocurrency lending platform, promising retail customers high yields on Bitcoin and other digital assets they deposited with the company; Joseph Podulka served as its chief financial officer. Behind the scenes, Cred generated those yields by funneling customer crypto into high-interest microloans to Chinese gamers through an undisclosed, opaque arrangement with a Chinese company founded by another Cred co-founder, a structure investors were never told about.
+
+When Bitcoin crashed in March 2020, a failed internal hedging strategy left Cred badly underwater, and Schatt and Podulka knew the Chinese lending partner could not repay the tens of millions of dollars it owed, yet Schatt publicly stated at a March 18, 2020 session that Cred was "operating normally," and the pair continued soliciting new customer deposits while concealing the company's deteriorating finances. Cred filed for bankruptcy in November 2020, and a separate blow came when the company's chief capital officer, James Alexander, was later accused of misappropriating roughly 255 BTC, about $2 million at the time, before he was terminated; he was indicted separately on wire fraud and money-laundering charges in 2024.
+
+More than 6,000 customers filed claims exceeding $140 million in Cred's bankruptcy, a figure the government's 2025 sentencing memo valued at over $1 billion using later crypto prices. A federal grand jury indicted Schatt and Podulka in May 2024, both pleaded guilty to wire fraud conspiracy in May 2025, and on August 29, 2025, a federal judge in the Northern District of California sentenced Schatt, the CEO, to 52 months and Podulka, the CFO, to 36 months in prison, along with three years of supervised release and $25,000 fines each.
+
+The case is a textbook illustration of how a crypto platform can dress up an undisclosed, unhedged counterparty risk as a "yield product," and keep soliciting depositors' money well after insiders knew the underlying collateral was gone.`,
+    sourceUrl: 'https://www.cbsnews.com/sanfrancisco/news/cred-llc-crypto-lender-executives-schatt-podulka-wire-fraud-federal-prison/',
+  });
