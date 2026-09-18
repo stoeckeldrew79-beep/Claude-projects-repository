@@ -20690,3 +20690,37 @@ International.push({
   sourceUrl: 'https://www.slufia.com/news/fia-issues-public-warning-on-fraudulent-caricom-invest-investment-scheme',
   country: 'LC',
 });
+
+International.push({
+  name: 'Réunion Instagram Fake-Check Job Offer Scam',
+  slug: 'reunion-instagram-fake-check-job-offer-scam',
+  description: `The Gendarmerie de La Réunion has issued a public warning after a wave of complaints about a fake-job scheme spreading through Instagram, in which scammers message targets offering easy paid "work" that consists of simply receiving checks into their personal bank account and then forwarding the money on to an account the scammer provides. In one case cited by the gendarmerie, a victim deposited two checks totaling 2,570 euros and dutifully wired the funds onward, only for the bank to later flag both checks as counterfeit — leaving the victim liable for the full amount and, in effect, turning them into an unwitting money mule for the underlying fraud network. Investigators note the pitch typically comes from a stranger or a compromised account posing as a legitimate recruiter, and that the checks look convincing enough to pass an initial glance, meaning the fraud is often only caught once the bank completes its own verification — days after the victim has already sent the money away. The gendarmerie's advice is to never accept payment into a personal account for work that has not been formally contracted, to treat any "job" built around receiving and forwarding checks as an immediate red flag, and to wait for a deposited check to fully clear — which can take well over a week — before spending or transferring any of the funds.`,
+  categorySlug: 'fake-check-overpayment',
+  alertLevel: 'medium',
+  sources: ['Gendarmerie de La Réunion'],
+  sourceUrl: 'https://www.linfo.re/la-reunion/societe/la-gendarmerie-de-la-reunion-alerte-sur-des-arnaques-via-instagram-des-milliers-d-euros-peuvent-etre-voles-du-compte-de-la-victime',
+  country: 'RE',
+});
+
+International.push({
+  name: 'Fake CAF Benefits Phishing Scam Targeting Réunion Allocataires',
+  slug: 'reunion-caf-benefits-phishing-scam',
+  description: `The Caisse d'Allocations Familiales (CAF) office for La Réunion has published a dedicated departmental alert warning that fraudsters are impersonating the agency through fake SMS messages, emails, counterfeit look-alike websites, and phone calls that reuse CAF's name and visual branding to look legitimate. The messages typically claim there is a problem with the recipient's file — an overpayment to repay, a benefit awaiting release, or account details needing "regularization" — and press the recipient to urgently update personal information, confirm banking details, or authorize a refund payment through a link that leads to a convincing fake CAF portal. Because CAF benefits form a critical part of many Réunionnais households' income, the urgent, official-sounding tone is especially effective at pressuring recipients into acting before checking the message's legitimacy. CAF stresses that it will never ask for a password or banking PIN by phone, SMS, or email, that its services should only ever be accessed directly through caf.fr or the official 3230 phone line, and it directs residents to forward fraudulent texts to 33700, report suspicious emails via signal-spam.fr, and flag fake websites through the government's internet-signalement.gouv.fr portal.`,
+  categorySlug: 'public-benefits-fraud',
+  alertLevel: 'medium',
+  sources: ["Caisse d'Allocations Familiales (CAF) de La Réunion"],
+  sourceUrl: 'https://www.caf.fr/allocataires/caf-de-la-reunion/actualites-departementales/phishing-comment-reconnaitre-une-tentative-d-arnaque',
+  country: 'RE',
+  firstRecorded: '2026-06-01',
+});
+
+International.push({
+  name: 'Réunion Fake "Blocked Customs Parcel" SMS Phishing Scam',
+  slug: 'reunion-fake-blocked-customs-parcel-sms-scam',
+  description: `La Poste's Réunion branch has warned residents about a smishing campaign in which fraudulent text messages, sent under La Poste's name, claim a parcel could not be delivered because of an address or door-number error and invite the recipient to tap a link to "correct" the delivery details or release the package from a customs hold. The linked page is a convincing fake of a La Poste or customs tracking site that first collects the target's email and phone number, then walks them through selecting a new delivery slot and entering their name and address, before finally asking for full payment card details to cover a supposed re-delivery or customs fee — data the scammers then use to make unauthorized charges. La Poste emphasizes that it never requests bank card numbers or secret codes by SMS, email, or phone, and French customs authorities separately confirm they never contact the public by text or email to demand payment of duty or release a held parcel or bag in exchange for money. Residents who receive one of these messages are urged not to click the link, and to forward suspicious texts to La Poste's dedicated reporting lines, 3631 for individuals or 3634 for business customers.`,
+  categorySlug: 'package-delivery-scams',
+  alertLevel: 'medium',
+  sources: ['La Poste (La Réunion)', 'Direction Générale des Douanes et Droits Indirects (French Customs)'],
+  sourceUrl: 'https://www.linfo.re/la-reunion/societe/attention-aux-sms-d-arnaque-de-faux-colis-la-poste',
+  country: 'RE',
+});
