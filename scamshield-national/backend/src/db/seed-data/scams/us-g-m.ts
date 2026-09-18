@@ -3711,18 +3711,6 @@ export const UsGM: SeedScam[] = [
   },];
 
 UsGM.push({
-    name: 'Maryland Deepfake Investment Scam Alert on Meta Platforms',
-    slug: 'maryland-meta-platforms-deepfake-investment-scam',
-    description: `Maryland Attorney General Anthony Brown issued a consumer alert on April 6, 2026 warning residents about a surge of fraudulent investment schemes spreading across Meta's Facebook, Instagram, and WhatsApp platforms, describing three recurring patterns his Securities Division was seeing. In "pump and dump" schemes, fraudsters lure investors into private groups, hype an obscure low-priced stock or cryptocurrency to drive its price up, then quietly sell their own holdings at the peak while everyone who bought in afterward watches the price collapse. In "confidence" scams, a scammer builds what feels like a personal relationship with a target before directing them to a fake trading platform designed to mimic a legitimate brokerage, showing fabricated account gains to convince the victim to keep depositing larger sums before the site and the scammer both disappear. The alert paid particular attention to a newer twist: AI-generated "deepfake" videos of recognizable figures, including business personalities like Kevin O'Leary and Cathie Wood, used without their permission to advertise fraudulent investment opportunities that the real people never endorsed. Warning signs Brown's office flagged include any promise of guaranteed returns — something no legitimate investment ever offers — high-pressure tactics demanding an immediate decision, a push to move the conversation onto an encrypted app like WhatsApp, celebrity endorsements that surface only through AI-generated video, and any request to send cryptocurrency. Maryland investors are advised to verify a person or firm's credentials through FINRA's BrokerCheck, search for existing complaints before committing money, consult a trusted financial professional before investing, watch for subtle deepfake tells like audio that doesn't quite match lip movement, and lock down their own social media privacy settings so scammers can't harvest photos or personal details to impersonate them to friends and family. Complaints can be directed to the Securities Division at securities@oag.state.md.us or the Consumer Protection Division at consumer@oag.state.md.us.`,
-    categorySlug: 'investment-fraud',
-    alertLevel: 'high',
-    sources: ["Maryland Attorney General's Office (Anthony G. Brown)"],
-    sourceUrl: 'https://oag.maryland.gov/News/pages/CONSUMER-ALERT---Attorney-General-Brown-Issues-Warning-on-Investment-Scams-on-Meta-Platforms-.aspx',
-    country: 'US',
-    state: 'MD',
-});
-
-UsGM.push({
     name: 'Louisiana "Outstanding Traffic Ticket" OMV Text Scam',
     slug: 'louisiana-omv-outstanding-traffic-ticket-text-scam',
     description: `Louisiana State Police and the state Office of Motor Vehicles (OMV) issued a joint alert in July 2025 warning residents about a recurring text-message scam claiming the recipient has an "outstanding traffic ticket" and must pay immediately or face mounting fees, license suspension, or other legal consequences. The unsolicited texts direct recipients to a link that mimics OMV's real website but is actually built to harvest credit card numbers and personal information, and the pattern has continued to resurface, prompting a follow-up warning from the Louisiana Secretary of State's Office in March 2026 after residents began receiving similar fraudulent messages threatening prosecution or demanding payment. "The Secretary of State's Office does not send unsolicited text messages or emails threatening prosecution or asking for payment," the office said in that alert. Louisiana OMV has stressed that traffic citations are handled and paid through the courts, not through a text link, and that the agency never texts or emails residents demanding payment for a violation. Residents who receive one of these messages are advised not to click any link or reply, to delete the text, to use only the official OMV website at expresslane.org for any real account transactions, and to report the fraudulent message to the FTC at reportfraud.ftc.gov.`,
@@ -3924,6 +3912,36 @@ UsGM.push({
     sourceUrl: 'https://www.wafb.com/2026/03/02/couple-lied-about-crash-defraud-insurance-company-ags-office-says/',
     country: 'US',
     state: 'LA',
+});
+UsGM.push({
+    name: "Louisiana's Katrina Fraud Task Force: Born From America's Costliest Disaster Fraud Wave",
+    slug: 'louisiana-katrina-fraud-task-force-origin',
+    description: `When Hurricane Katrina struck the Gulf Coast on August 29, 2005, causing roughly $100 billion in damage and triggering the largest disaster-relief mobilization in American history up to that point, federal officials braced for what came next: billions of dollars in FEMA aid, insurance payouts, and charitable donations flowing into a region where verification was nearly impossible amid displaced populations and destroyed records. Attorney General Alberto Gonzales moved fast, establishing the Hurricane Katrina Fraud Task Force on September 8, 2005 — just eleven days after landfall — bringing together prosecutors and investigators from 19 federal agencies under a Joint Command Center headquartered in Baton Rouge, Louisiana and led by then-U.S. Attorney David R. Dugas of the Middle District of Louisiana. In its first year alone, the Task Force reviewed more than 6,000 fraud tips, brought federal charges against over 400 defendants across 30 federal districts, and helped recover more than $18.2 million that had been fraudulently diverted from FEMA and the American Red Cross. The model proved successful enough at handling disaster fraud nationwide — not just in Louisiana — that in early 2008 the Justice Department formally redesignated it the National Center for Disaster Fraud (NCDF), permanently headquartered on LSU's Baton Rouge campus under a cooperative agreement between DOJ and the university; over the next two decades it processed more than a million complaints before the Justice Department closed its centralized call-center intake function on March 31, 2026, citing partner agencies' own hotlines and modern data-analysis tools as having made a single national number less necessary.
+
+Louisiana is the place where the federal government's entire modern approach to disaster fraud was built and run for two decades, and every Louisiana entry in this database tied to a declared hurricane disaster is a direct descendant of the enforcement model Katrina forced into existence: the Louisiana Hurricane Ida "Secret Representation" Insurance Claim Scheme, in which a roofing company and a Houston law firm misrepresented who they actually represented while negotiating storm-damage claims on behalf of more than 850 homeowners; the Joiner's Tree Service Hurricane Ida Price-Gouging Scheme, in which an out-of-state contractor billed insurers grossly inflated storm-cleanup invoices under Louisiana's automatic emergency price-gouging law; and the Spoonemore Hurricane Laura Contractor Fraud case, in which an unlicensed contractor took upfront payment from Hurricane Laura victims and left at least one homeowner's house uninhabitable — all three exploit the exact same post-disaster window of urgency, displacement, and diverted attention that made Katrina's fraud wave possible in the first place. Homeowners rebuilding after any declared disaster should verify a contractor's license before signing anything or paying a deposit, confirm exactly who is listed as their representative on any insurance claim, and report suspected disaster fraud to the Louisiana Department of Insurance's Fraud Division or, for federally relevant cases, to the FBI or the local U.S. Attorney's Office.`,
+    categorySlug: 'insurance-fraud',
+    alertLevel: 'medium',
+    sources: ['U.S. Department of Justice', 'Louisiana State University'],
+    sourceUrl: 'https://www.justice.gov/opa/pr/closing-national-center-disaster-fraud',
+    country: 'US',
+    state: 'LA',
+    isHistorical: true,
+    firstRecorded: '2005-09-08',
+});
+UsGM.push({
+    name: "Louisiana's 2020 Civil Justice Reform Act: The Law Written to Break the Staged-Accident Fraud Economy",
+    slug: 'louisiana-2020-civil-justice-reform-act-staged-accident-origin',
+    description: `By the late 2010s, Louisiana had built a national reputation for having some of the country's most expensive auto insurance and one of its most exploited court systems, driven in significant part by a homegrown staged-accident industry. Trucking executives like Randy Guillot of Triple G Express began noticing suspicious collision patterns as early as 2010, and a federal investigation later documented a scheme in which paid recruits known as "slammers" deliberately collided with 18-wheelers specifically because of the large commercial insurance policies trucking companies are required to carry, then handed the resulting claims to personal injury attorneys who steered the "victims" toward medically unnecessary neck and back surgeries to inflate the payout; defense attorneys working the cases eventually tracked well over 200 documented staged wrecks and more than $50 million in resulting payouts, and New Orleans attorneys Jason Giles and Vanessa Motta were convicted in March 2026 of running one such scheme from December 2011 to December 2024. Facing pressure to respond, Governor John Bel Edwards first vetoed a tort-reform bill, Senate Bill 418, in June 2020, saying no insurance company had actually testified it would lower rates — but lawmakers regrouped during a special session and passed House Bill 57, the Civil Justice Reform Act of 2020, which Edwards signed into law as Act 37 on July 13, 2020. The Act, effective January 1, 2021, lowered the damages threshold required for a case to go before a jury rather than a judge from $50,000 to $10,000, overhauled the "collateral source rule" so factfinders would hear what a plaintiff's medical expenses were actually paid rather than the inflated amount originally billed, and repealed the state's limitation on introducing evidence that a plaintiff wasn't wearing a seatbelt — provisions aimed squarely at the mechanics staged-accident claims had been exploiting for years.
+
+The exact staged-collision playbook the 2020 reform targeted is still active in Louisiana today: the New Iberia Staged Garbage Truck Crash Insurance Fraud Ring already documented in this database shows four residents attempting a roughly $4 million payout off a single garbage-truck collision using the same sworn-injury-claim mechanics that drove the 2010s epidemic, while the Baton Rouge Staged Parking-Lot Crash Insurance Fraud case shows how thin the line still is between a legitimate claim and a fabricated one — it took surveillance footage contradicting sworn statements to unravel what was, by comparison, a fairly modest $30,000 claim. Louisiana drivers who witness or are approached to participate in a staged collision, or asked by a recruiter to falsely claim they were a passenger in a specific crash, can report it directly to the Louisiana Department of Insurance's Fraud Division, since every dollar paid out on a fabricated claim ultimately becomes part of the premium every other Louisiana policyholder pays the following year.`,
+    categorySlug: 'insurance-fraud',
+    alertLevel: 'medium',
+    sources: ['Liskow & Lewis, APLC', 'Fox 8 New Orleans (WVUE)'],
+    sourceUrl: 'https://www.liskow.com/insights/louisiana-governor-signs-2020-tort-reform-legislation-102m22n/',
+    country: 'US',
+    state: 'LA',
+    isHistorical: true,
+    firstRecorded: '2020-07-13',
 });
 UsGM.push({
     name: 'Fake DEA Agent Medical License Threat Scam Targeting Mississippi Physicians',
@@ -6884,6 +6902,45 @@ UsGM.push({
 });
 
 UsGM.push({
+    name: 'Ameren Missouri Utility Company Impersonation Scam',
+    slug: 'missouri-ameren-utility-impersonation-scam',
+    description: `In June 2025, Ameren Missouri issued a consumer alert after fielding a wave of customer reports of scammers impersonating Ameren employees by phone and online. Fraudsters spoof Ameren's real customer-service caller ID and falsely claim a customer's power will be shut off within the hour unless they pay immediately, often telling victims a technician is already en route to cut service, while others send fake "payment not received" notices demanding urgent payment for equipment installation or repairs. Callers push payment through cryptocurrency, prepaid gift cards, or Cash App, and Ameren has also seen scammers go door-to-door posing as company representatives to schedule bogus "solar panel evaluation" appointments to harvest personal data, alongside counterfeit websites mimicking Ameren's real site with fake contact numbers. Ameren Missouri says it will never demand immediate payment by cryptocurrency or prepaid card, and it urges anyone who gets a suspicious call to hang up and call the utility directly at 800-552-7583 to verify their account status before paying anything or providing personal information.`,
+    categorySlug: 'utility-scams',
+    alertLevel: 'medium',
+    sources: ['Spectrum News 1 (Spectrum Local News)', 'Ameren Missouri'],
+    sourceUrl: 'https://spectrumlocalnews.com/mo/st-louis/news/2025/06/27/ameren-missouri-scam-solar',
+    country: 'US',
+    state: 'MO',
+    firstRecorded: '2025-06-27',
+});
+
+UsGM.push({
+    name: 'Missouri Department of Higher Education Student Loan Forgiveness Phone Scam',
+    slug: 'missouri-dhewd-student-loan-forgiveness-phone-scam',
+    description: `The Missouri Department of Higher Education and Workforce Development issued a statewide warning after residents reported unsolicited phone calls from people impersonating the department and offering enrollment in a "state loan forgiveness program." MDHEWD confirmed flatly that no such Missouri loan forgiveness program exists, and that neither MDHEWD nor the U.S. Department of Education will ever initiate a call to a borrower about forgiving their student loans. Callers use the appearance of state authority to pressure borrowers into revealing personal and financial information or paying upfront "processing fees" for forgiveness that, through legitimate channels, is free. MDHEWD directs borrowers to verify any loan-forgiveness offer directly through the Federal Student Aid website or by calling the Federal Student Aid Information Center at 1-800-433-3243, and to report suspected scams to the Missouri Attorney General's office (573-751-3321), the CFPB (855-411-2372), or the FTC (877-382-3257).`,
+    categorySlug: 'student-loan-education',
+    alertLevel: 'medium',
+    sources: ['KTVO'],
+    sourceUrl: 'https://www.ktvo.com/news/local/missouris-higher-education-department-warning-of-loan-forgiveness-scams/article_75b472b2-e91e-5909-bfaf-e1274a93b8dd.html',
+    country: 'US',
+    state: 'MO',
+    firstRecorded: '2024-03-21',
+});
+
+UsGM.push({
+    name: "Missouri Senior's $1.3 Million Title Company BEC Wire Fraud",
+    slug: 'missouri-title-company-bec-wire-fraud-senior',
+    description: `In March 2025, the FBI's Recovery Asset Team received an IC3 complaint from a Missouri victim, a senior citizen, who was in the process of closing on a property when they received a compromised email posing as their "title company" containing wire instructions for over $1.3 million to a fraudulent bank account. The Recovery Asset Team immediately triggered the Financial Fraud Kill Chain with domestic banking partners, froze the fraudulent recipient account, and found wires had also come in from additional victims, including, the following month, a city government office in Oregon that lost more than $6 million to the very same account before its bank recalled the wire specifically because of the prior Missouri-triggered freeze. The FBI further discovered that the account holder receiving the Missouri victim's money was themselves a victim of a separate overpayment scam and had been instructed to forward $1 million on to a fraudulent account in Hong Kong, triggering an international Financial Fraud Kill Chain notification to FinCEN and the FBI's legal attaché in Hong Kong. Missouri recorded 14,087 IC3 complaints and $233,933,401 in reported losses statewide for 2025, and the FBI's report notes business email compromise ranked as the second-costliest internet crime category nationally that year, behind only investment fraud. Before wiring real estate closing funds, always verify wire instructions by calling a phone number you already know is legitimate, never one provided in the email itself, and confirm any last-minute change to payment instructions directly with your title company or attorney by phone.`,
+    categorySlug: 'business-email-compromise',
+    alertLevel: 'critical',
+    sources: ['FBI Internet Crime Complaint Center (IC3) 2025 Annual Report'],
+    sourceUrl: 'https://www.fbi.gov/file-repository/2025_ic3report.pdf',
+    country: 'US',
+    state: 'MO',
+    firstRecorded: '2025-03-01',
+});
+
+UsGM.push({
     name: 'LaGrange Thrift Savings Plan Call-Center Insider Account Theft (Tekia Peay)',
     slug: 'georgia-lagrange-peay-tsp-insider-account-fraud',
     description: `Tekia Sade Peay, 31, of LaGrange, Georgia, worked for a call center that handled recordkeeping services for the federal government's Thrift Savings Plan (TSP), the retirement savings program for federal employees and members of the military. Prosecutors say Peay used her insider knowledge of the call center's procedures and access systems to gain unauthorized entry into other people's online TSP accounts without their consent, deliberately targeting elderly account holders and the accounts of people who had already died, then worked with a co-conspirator to alter account details and request fraudulent disbursements sent to bank accounts they controlled. The FBI opened an investigation after receiving reports of the fraudulent transactions in August 2023; Peay was ultimately convicted of conspiracy, wire fraud, money laundering, and aggravated identity theft after attempting to steal $76,544.03 and successfully diverting $21,508.32, which she was ordered to repay in full. On February 11, 2026, she was sentenced to 51 months in federal prison, with no possibility of parole, followed by three years of supervised release. Federal employees, retirees, and the families of deceased federal workers should enable every available multi-factor authentication and login-alert option on their TSP account at TSP.gov, watch for any email or mail notice of a change to their address or direct-deposit bank information they didn't request, and periodically check a deceased relative's TSP account rather than assuming it goes untouched once its owner has died.`,
@@ -7909,6 +7966,45 @@ UsGM.push({
 });
 
 UsGM.push({
+    name: 'Kossuth County "Bail Bondsman" Grandparent Scam Arrest (Eddie Benitez Abreus)',
+    slug: 'iowa-kossuth-county-bail-bondsman-grandparent-scam',
+    description: `On February 24, 2025, a resident of the Burt area in Kossuth County received a call from someone posing as a bail bondsman claiming her grandchild had been arrested and needed $10,000 cash immediately to be released from jail. The scammer pressured her to hand over cash rather than go through any court process. The Kossuth County Sheriff's Office, working with the Iowa Division of Criminal Investigation and other local and state agencies, determined the same fraud pattern was hitting victims across multiple Iowa counties, and used video evidence and GPS tracking warrants to identify suspects. On February 27, 2025, Eddie Benitez Abreus, 33, of Miami, Florida, was arrested on a first-degree theft charge at a hotel in Humboldt, Iowa; a warrant remains outstanding for a second suspect, Carlos Garrido Guzman, 28, of Homestead, Florida. Investigators cautioned, "Any time you get a call or message demanding immediate action involving money or gift cards, be suspicious and contact local law enforcement." If you get an urgent call claiming a grandchild is in jail, hang up and call that grandchild directly at a number you already have, and never send cash or valuables to a stranger who shows up to collect it.`,
+    categorySlug: 'grandparent-scams',
+    alertLevel: 'high',
+    sources: ['KIMT News 3'],
+    sourceUrl: 'https://www.kimt.com/news/crime/florida-man-arrested-for-grandparent-fraud-in-north-central-iowa/article_fe81acf2-f931-11ef-9c0f-371dc794fc76.html',
+    country: 'US',
+    state: 'IA',
+    firstRecorded: '2025-02-24',
+});
+
+UsGM.push({
+    name: 'Iowa Attorney General Warning: Work-From-Home Job Offer Scams',
+    slug: 'iowa-work-from-home-job-offer-scam-warning',
+    description: `On September 11, 2025, Iowa Attorney General Brenna Bird warned residents about a wave of fake work-from-home job offers arriving by unsolicited text or email, describing easy remote work for little effort. Victims receive what looks like an official offer letter, sometimes before any interview even takes place, that asks them to submit sensitive personal and financial information, including driver's license numbers, Social Security numbers, and bank account details, supposedly to set up direct deposit paperwork. In reality there is no job and no employer; the "recruiter" is a scammer harvesting personal data, and in related variants, victims are sent a fraudulent check and asked to return part of the funds or buy gift cards. Bird said, "If a job offer seems too good to be true, it probably is. Scammers are evil and prey on people who need a job or extra income," adding, "Be very aware, do your homework on a potential employer, and don't give away your personal information until you have a job offer from a legitimate business." Research any employer independently before applying, confirm they use a corporate, not personal, email domain, never pay a fee to get hired, and never share your SSN or bank details until after a real interview and formal offer.`,
+    categorySlug: 'employment-scams',
+    alertLevel: 'medium',
+    sources: ['Iowa Attorney General Newsroom'],
+    sourceUrl: 'https://www.iowaattorneygeneral.gov/newsroom/attorney-general-brenna-bird-warns-iowans-about-job-scams',
+    country: 'US',
+    state: 'IA',
+    firstRecorded: '2025-09-11',
+});
+
+UsGM.push({
+    name: 'Iowa FTC Impersonation Gold Liquidation Courier Scam',
+    slug: 'iowa-ftc-impersonation-gold-liquidation-courier-scam',
+    description: `On March 5, 2026, Iowa Attorney General Brenna Bird issued an alert about imposter scammers escalating to in-person collection tactics, citing a documented case of an elderly Iowan who was called three to four times a day for nearly two weeks by callers impersonating the Federal Trade Commission. The callers threatened her with arrest and loss of her Social Security benefits, told her to keep the calls secret from family and friends, and instructed her to cash out her life insurance policy and annuities to buy physical gold, which a courier would then pick up in person from her home for supposed "delivery" to the FTC. The scheme was stopped only because a family member intervened before any assets changed hands. Bird warned, "Scammers are getting bolder, sometimes even going to Iowans' houses to collect money or valuables. They are manipulative and prey on good-hearted Iowans who think they are doing the right thing." No real government agency will ever demand secrecy, threaten immediate arrest over the phone, or send a courier to your home to pick up cash, gold, or valuables — hang up, verify independently through an official phone number, and call the Iowa AG's consumer line at 1-888-777-4590 if you're contacted this way.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Iowa Attorney General Newsroom'],
+    sourceUrl: 'https://www.iowaattorneygeneral.gov/newsroom/attorney-general-brenna-bird-alerts-iowans-to-rising-imposter-scams',
+    country: 'US',
+    state: 'IA',
+    firstRecorded: '2026-03-05',
+});
+
+UsGM.push({
     name: 'Indianapolis Nationwide "Grandparent Scam" Cash-Courier Ring (Jasaun Pope)',
     slug: 'indianapolis-grandparent-scam-cash-courier-ring-jasaun-pope',
     description: `An Indianapolis Metropolitan Police Department investigation, triggered in 2021 when Massachusetts police flagged an 81-year-old local scam victim, unraveled a nationwide "grandparent scam" ring that called elderly victims claiming a grandchild or relative was in urgent legal or medical trouble — a car crash, an arrest, a hospital bill — and needed cash immediately, often with a second caller posing as an attorney or police officer to lend the story false authority. Victims were directed to overnight cash, typically $5,000 to $15,000 at a time, to addresses tied to Jasaun Pope's network, which used vacant residences to collect the packages before victims or banks could catch on. Investigators identified 68 victims with more than $683,464 in documented losses, though only 36 could ultimately be reached. Five defendants were convicted and sentenced to federal prison in a case brought by the U.S. Attorney's Office for the Southern District of Indiana: Jasaun Pope (97 months), Darlens Renard (78 months), Princess Elizer (41 months), Kareem Brown (36 months), and Jennifer Glemeau (30 months). The FBI has separately reported more than 650 grandparent-scam reports nationally between January 2020 and June 2021 alone, causing $13 million in losses — a reminder of how widespread and organized these cash-courier operations are. Families are advised to agree on a verification question or code word in advance, and to always call the relative directly using a known number before sending any money in response to an urgent, tearful call claiming to be them.`,
@@ -7918,6 +8014,45 @@ UsGM.push({
     sourceUrl: 'https://www.justice.gov/usao-sdin/pr/five-face-federal-charges-alleged-nationwide-elder-fraud-scam',
     country: 'US',
     state: 'IN',
+});
+
+UsGM.push({
+    name: 'Westfield Gold Bar "FBI Agent" Tech-Support Scam (Kris Owen)',
+    slug: 'indiana-westfield-kris-owen-gold-bar-fbi-scam',
+    description: `In Westfield, Indiana, a widower named Kris Owen, grieving the death of his wife two years earlier, received a pop-up on his computer falsely claiming it had been hacked and providing a number to call. The number connected him to a scammer posing as an FBI agent, who followed up with a fraudulent "cybersecurity task force" letter claiming Owen's name was tied to a cocaine case in San Antonio, Texas. Over months of calls and texts, the scammer convinced Owen his money needed "protecting" through a fake FBI program, ultimately directing him to withdraw roughly $80,000, reported as $74,755 plus a $5,000 check, convert it to gold bars, photograph them, and hand them to a courier in a parking lot. After Owen contacted the real FBI and realized he'd been defrauded, the FBI and Carmel, Indiana police ran a sting during a second attempted drop-off and arrested 31-year-old Abdul Afan Mohammed of the Chicago area; the U.S. Attorney's Office for the Southern District of Indiana charged him with conspiracy to commit wire fraud and two counts of wire fraud, but Mohammed fled the country and remains a fugitive. The FBI says this "gold bar courier" scam pattern defrauded Americans of over $126 million in 2024 nationwide. Never call a phone number that appears in a computer pop-up claiming your device is hacked; the FBI and other federal agencies never ask you to withdraw cash, buy gold or other precious metals, or hand valuables to a courier to "protect" your money — hang up and verify independently through an agency's official website, and loop in a trusted family member before acting.`,
+    categorySlug: 'tech-support-scams',
+    alertLevel: 'high',
+    sources: ['ABC7 Chicago'],
+    sourceUrl: 'https://abc7chicago.com/post/widower-kris-owen-loses-80k-gold-bar-scam-suspect-abdul-afan-mohammed-flees-country-fbi-sets-sting-operation/15952757/',
+    country: 'US',
+    state: 'IN',
+    firstRecorded: '2025-01-01',
+});
+
+UsGM.push({
+    name: 'Indianapolis Lost-Pet Ransom Scam',
+    slug: 'indiana-indianapolis-lost-pet-ransom-scam',
+    description: `Scammers in Indianapolis are calling owners of missing pets, falsely claiming to represent a local animal shelter or humane society that has "found" the animal, and demanding cash payment before they will return it. IndyHumane says it first began noticing the pattern roughly a year before an October 31, 2025 report and has fielded a growing number of complaints from confused, distressed pet owners. IndyHumane CEO Donna Casamento stated plainly, "Anybody trying to ask you for money to reunite you with your pet is not a good person," and added, "If they're asking for any money up front, that should be a telltale sign that something is wrong." IMPD Public Information Officer Tommy Thompson recommended that anyone who gets such a call ask for a current photo of the animal and independently verify the caller's claimed agency before sending anything. Never send money to someone claiming to have found your lost pet without independently calling the shelter or rescue back at a verified phone number, ask for recent proof-of-possession photos, have your pet microchipped so legitimate finders can confirm ownership, and report suspicious calls to IMPD.`,
+    categorySlug: 'pet-sales-scams',
+    alertLevel: 'medium',
+    sources: ['WRTV'],
+    sourceUrl: 'https://www.wrtv.com/news/local-news/in-your-community/north-side-indy/lost-pet-beware-of-scammers-demanding-cash-for-their-safe-return',
+    country: 'US',
+    state: 'IN',
+    firstRecorded: '2025-10-31',
+});
+
+UsGM.push({
+    name: 'Indiana Jail-Impersonation "Ankle Monitor Fee" Scam',
+    slug: 'indiana-jail-impersonation-ankle-monitor-fee-scam',
+    description: `Scammers are targeting Indiana families who actually have a loved one in jail by pulling real inmate names off publicly available county jail rosters, then searching the internet to find and call family members. Posing as jail clerks, bail bondsmen, pretrial services, or court officials, they claim the incarcerated relative needs immediate payment for an ankle monitor, bond, or "class fees," and demand it via Cash App, gift cards, wire transfer, or other payment apps; in one Hamilton County case, victim Steven Woodson lost $1,100 after being told to pay for an ankle bracelet through a Cash App account labeled "Pretrial Service Inc." and was then asked for an additional bond payment. Marion County has logged multiple similar cases with losses exceeding $1,000 each. Marion County Sheriff Kerry Forestal directly rebutted the scam, stating about jail calls demanding payment, "No, and we certainly don't ask for money to do that," and confirmed ankle monitors are arranged through probation, never by phone. Hang up and call the jail or court back using an official, independently verified phone number; never send money via Cash App, gift cards, or wire transfer for a bond, monitor, or "fee"; don't trust caller ID, since it can be spoofed; and slow down to consult a trusted second person before paying anything under pressure.`,
+    categorySlug: 'family-emergency-scams',
+    alertLevel: 'high',
+    sources: ['WISH-TV'],
+    sourceUrl: 'https://www.wishtv.com/news/i-team/jail-impersonation-scam-warning/',
+    country: 'US',
+    state: 'IN',
+    firstRecorded: '2025-01-01',
 });
 
 UsGM.push({
@@ -8151,4 +8286,315 @@ UsGM.push({
     country: 'US',
     state: 'MD',
     firstRecorded: '2025-05-19',
+});
+
+UsGM.push({
+    name: 'Westminster Tech-Support Fraud Scheme Targeting Seniors (Amit Ahuja)',
+    slug: 'maryland-westminster-ahuja-tech-support-fraud',
+    description: `Amit Ahuja, 41, of Westminster, Maryland, pleaded guilty in December 2025 to conspiracy to commit wire fraud for his role in a technical-support scheme that defrauded more than 1,000 victims, many of them older adults, out of more than $6.8 million. Victims were shown pop-up windows warning their computers were infected, received unsolicited phone calls, or searched online and unknowingly dialed a fraudulent "tech support" number, and in each case were told to pay for computer repairs or security software they did not actually need. Federal prosecutors said victims "lost their money based on false pretenses, representations, and promises" about the condition of their computers and the services required to fix them. Ahuja faces up to 20 years in federal prison at sentencing, which had not yet been scheduled as of the plea announcement. Marylanders should never call a phone number that appears in an unsolicited pop-up warning, should independently verify any "tech support" company through its official website before paying anything, and should simply hang up on unsolicited calls claiming a computer has been compromised.`,
+    categorySlug: 'tech-support-scams',
+    alertLevel: 'high',
+    sources: ['Fox45 Baltimore (WBFF)', "U.S. Attorney's Office for the District of Maryland"],
+    sourceUrl: 'https://foxbaltimore.com/news/local/westminster-man-guilty-plea-tech-support-scam-maryland',
+    country: 'US',
+    state: 'MD',
+    firstRecorded: '2025-12-11',
+});
+
+UsGM.push({
+    name: "Nigerian National's Business Email Compromise Scheme Targeting Maryland Charity",
+    slug: 'maryland-adejorin-charity-business-email-compromise',
+    description: `Olusegun Adejorin, 32, was sentenced on August 30, 2026, to 96 months in federal prison after a federal jury convicted him of wire fraud, aggravated identity theft, and unauthorized computer access for a business-email-compromise scheme that targeted a Maryland-based charitable organization providing investment services to other nonprofits. Between June and August 2020, Adejorin gained unauthorized access to employee email accounts at a New York-based charity, created spoofed domains impersonating its staff, and used the compromised accounts to issue fraudulent withdrawal instructions that diverted more than $7.5 million in charitable funds from the Maryland organization into bank accounts he controlled. U.S. District Judge Theodore Chuang imposed the sentence after a six-day trial; the FBI's Baltimore Field Office worked with the FBI Legal Attaché in Accra and Ghanaian law enforcement to extradite Adejorin from Ghana in August 2024. U.S. Attorney Kelly O. Hayes and FBI Special Agent in Charge Jimmy Paul announced the sentencing. Nonprofits and any organization that authorizes outgoing wire transfers should verify any change to payment instructions by calling a known phone number, never one provided in the email itself, and should require multi-factor authentication on every employee email account.`,
+    categorySlug: 'business-email-compromise',
+    alertLevel: 'high',
+    sources: ['Vanguard News (Nigeria)', 'Leadership (Nigeria)', "U.S. Attorney's Office for the District of Maryland", 'FBI Baltimore Field Office'],
+    sourceUrl: 'https://www.vanguardngr.com/2026/08/nigerian-man-sentenced-to-8-years-in-u-s-prison-for-7-5m-charity-scam/',
+    country: 'US',
+    state: 'MD',
+    isHistorical: true,
+    firstRecorded: '2020-06-01',
+});
+
+UsGM.push({
+    name: 'NERD Solutions/ED REF $8.8 Million Student-Loan Forgiveness Scam Targeting Southern Maryland Borrowers',
+    slug: 'maryland-nerd-solutions-edref-student-loan-scam',
+    description: `The FTC obtained a temporary restraining order on April 13, 2026, against NERD Solutions Inc., doing business as New Education Relief, and ED REF Inc., doing business as Edvantage Relief, along with operators Natalie Rodriguez and Pablo Eduardo Ortiz, over a student-loan-forgiveness scheme that had collected at least $8.8 million from borrowers nationwide since at least 2022. The operation made unsolicited calls falsely claiming affiliation with the U.S. Department of Education or the borrower's actual loan servicer, promised loan forgiveness, and charged illegal upfront fees of up to $1,400 a month. The Southern Maryland Chronicle specifically flagged the risk to borrowers in St. Mary's, Calvert, and Charles counties who work in education, military-support, or public-service roles that qualify for genuine federal forgiveness programs, making them prime targets for the scheme's false promises. The U.S. District Court for the Central District of California froze the operators' assets and appointed a temporary receiver after the FTC alleged violations of the FTC Act, the Telemarketing Sales Rule, the Impersonation Rule, and the Gramm-Leach-Bliley Act. The FTC states plainly that "no legitimate debt relief company will guarantee forgiveness or require payment before delivering services," and borrowers should apply for forgiveness only through the Department of Education's official studentaid.gov site, never through a cold caller.`,
+    categorySlug: 'student-loan-education',
+    alertLevel: 'medium',
+    sources: ['Southern Maryland Chronicle', 'Federal Trade Commission'],
+    sourceUrl: 'https://southernmarylandchronicle.com/2026/04/22/ftc-halts-alleged-8-8m-student-loan-scam/',
+    country: 'US',
+    state: 'MD',
+    firstRecorded: '2026-04-13',
+});
+
+UsGM.push({
+    name: 'Cambridge "Toy Poodle for Sale" Windshield Flyer Scam',
+    slug: 'massachusetts-cambridge-toy-poodle-flyer-scam',
+    description: `In September 2025, the Cambridge Animal Commission and Cambridge Police Department warned residents after flyers began appearing on windshields across the city advertising eight-week-old toy poodle puppies for $1,000, complete with claims the dogs were fully vaccinated and came with registration paperwork. Officials determined the photo on the flyer was a generic stock image — no such litter existed, and the listed phone number connected only to the person soliciting payment. "The dogs did not exist," said Cambridge Police Sergeant Bob Reardon. "They were trying to play on somebody's heartstrings, like a dog lover." The Better Business Bureau has logged nearly 10,000 puppy-scam complaints nationwide over a three-year span, with about 60% of buyers never receiving the pet they paid for — a pattern investigators say mirrors what played out on Cambridge streets. Anyone responding to a flyer or online listing for a puppy should meet the seller and see the actual animal, its microchip, and its vaccination records in person before sending any money; as Sgt. Reardon put it, "ask questions... ask for proof" rather than wiring funds to an unverified seller.`,
+    categorySlug: 'pet-sales-scams',
+    alertLevel: 'medium',
+    sources: ['Cambridge Police Department', 'City of Cambridge Animal Commission', 'NBC Boston'],
+    sourceUrl: 'https://www.nbcboston.com/news/local/the-dogs-did-not-exist-cambridge-police-warn-of-toy-poodle-sale-scam/3817731/',
+    country: 'US',
+    state: 'MA',
+    firstRecorded: '2025-09-18',
+});
+
+UsGM.push({
+    name: 'Dorchester Workers Union $6.4 Million Business Email Compromise',
+    slug: 'massachusetts-dorchester-workers-union-business-email-compromise',
+    description: `In January 2023, a labor union based in Dorchester, Massachusetts was defrauded of $6.4 million after its finance staff received an email that appeared to come from the union's outside investment manager but was actually sent from a spoofed address altered by a single letter. The fraudulent message instructed the union to redirect a scheduled payment to a new "beneficiary" bank account that was in fact controlled by the scammers; once the wire went through, the money was rapidly layered through a chain of intermediary U.S. bank accounts before some of it was routed toward a cryptocurrency exchange and additional accounts in Hong Kong, mainland China, Singapore, and Nigeria. Investigators with the U.S. Secret Service and the Justice Department's Money Laundering and Asset Recovery Section traced roughly $5.3 million of the stolen funds to seven domestic bank accounts, which the government seized and, on March 26, 2025, formally forfeited back to the victimized union. "This case underscores the sophisticated and global nature of financial fraud schemes that prey on organizations and their hard-earned resources," said then-U.S. Attorney Leah B. Foley. The case is a reminder that any request to change a payee's bank account details arriving only by email — even one that appears to come from a longtime, trusted vendor or investment manager — should be verified by phone using a number independently looked up (never one supplied in the email itself) before a large wire transfer is sent.`,
+    categorySlug: 'business-email-compromise',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office, District of Massachusetts", 'U.S. Secret Service', 'Insurance Journal'],
+    sourceUrl: 'https://www.justice.gov/usao-ma/pr/united-states-secures-forfeiture-over-5-million-traceable-business-email-compromise',
+    country: 'US',
+    state: 'MA',
+    firstRecorded: '2023-01-01',
+});
+
+UsGM.push({
+    name: 'Sunrun/Vivint Solar Massachusetts Deceptive Sales Lawsuits',
+    slug: 'massachusetts-sunrun-vivint-solar-deceptive-sales-lawsuits',
+    description: `Since 2023, more than 170 Massachusetts homeowners have filed complaints with the state Attorney General's Office against Sunrun Inc. and Vivint Solar, the California-based residential solar company it acquired in 2020, alleging they were misled by door-to-door sales agents into signing 20- to 25-year lease and power-purchase contracts that locked them into rising payments for systems that were undersized, malfunctioning, or never produced the promised savings. Sunrun and its affiliates have in turn filed more than 420 debt-collection lawsuits against Massachusetts customers who stopped paying, including 57 cases in Brockton District Court alone; among those named, Carver resident Colette Wildman said her utility bills doubled after installation, Brockton's Karima Wiggins said her roughly $40,000 system never reduced her bill at all, and Hyde Park's Ikenna Akukwe said he was "tricked" into signing. Brockton Chief Housing Inspector George Depina, who has fielded a wave of local complaints, said the company appeared to be "targeting communities like Brockton because of the lower income... it just reeks of improprieties," while Sunrun spokesman Wyatt Semanek said the company's "subscription service is built around consumer protection and peace of mind" and that serious claims are rare. Massachusetts lawmakers have since proposed legislation adding disclosure and cooling-off protections for solar contracts, but current law already gives homeowners who sign at home until midnight of the third business day after signing to cancel with no penalty and no reason required — a right anyone approached by a door-to-door solar salesperson should use to review the full contract, get an independent quote, and confirm savings projections in writing before the cancellation window closes.`,
+    categorySlug: 'home-improvement-solar',
+    alertLevel: 'high',
+    sources: ['GBH News', "Massachusetts Attorney General's Office", 'Brockton District Court records'],
+    sourceUrl: 'https://www.wgbh.org/news/local/2025-04-28/solar-panel-company-accused-of-shady-business-in-massachusetts',
+    country: 'US',
+    state: 'MA',
+    firstRecorded: '2025-04-28',
+});
+
+UsGM.push({
+    name: 'Minnesota Statewide Cryptocurrency Kiosk Ban',
+    slug: 'minnesota-virtual-currency-kiosk-ban-sf3868',
+    description: `Minnesota Governor Tim Walz signed SF 3868 into law on May 5, 2026, banning physical cryptocurrency kiosks statewide after state data showed scammers had used the unattended machines to drain nearly $1 million from residents. The Department of Commerce documented 134 complaints tied to crypto-kiosk fraud between 2023 and 2025, including 70 cases and more than $540,000 lost in 2025 alone — an average of roughly $6,800 per incident — with the scheme typically starting when a caller poses as law enforcement, a bank investigator, or a family member in a fabricated emergency and pressures the victim to withdraw cash and feed it into the nearest kiosk. "When people believe a loved one is in danger or they are facing a serious threat, they act quickly because protecting the people we love comes first," said Commerce Commissioner Grace Arnold, while BCA Superintendent Drew Evans said "banning these kiosks removes a tool criminals have repeatedly used to exploit vulnerable people." Under the new law, kiosk operators had to take their machines offline by August 1, 2026, and must physically remove them from any publicly accessible location by December 31, 2026, though Minnesotans can still use regulated online cryptocurrency exchanges, which carry stronger consumer protections than an unattended kiosk. Anyone told by an unsolicited caller — claiming to be police, a bank, or a relative in trouble — to withdraw cash and deposit it into a cryptocurrency kiosk should hang up immediately and verify independently, since no legitimate agency or institution will ever direct payment through a crypto kiosk.`,
+    categorySlug: 'cryptocurrency-scams',
+    alertLevel: 'high',
+    sources: ['Minnesota Department of Commerce', 'Minnesota Bureau of Criminal Apprehension'],
+    sourceUrl: 'https://mn.gov/commerce/news/?id=17-749033',
+    country: 'US',
+    state: 'MN',
+    firstRecorded: '2026-05-05',
+});
+
+UsGM.push({
+    name: 'SafeLodgings Housing Stabilization Services Fraud (Kaamil Sallah)',
+    slug: 'minnesota-safelodgings-housing-stabilization-fraud-sallah',
+    description: `Kaamil Omar Sallah, 26, incorporated SafeLodgings, Inc. with the Minnesota Secretary of State in March 2023 and enrolled it as a provider under the state's now-shuttered Housing Stabilization Services (HSS) Medicaid program, which was meant to help people with disabilities and substance-use disorders find and keep stable housing. From approximately March 2023 through August 2025, prosecutors say Sallah and his company falsely claimed to have personally provided more than 3,600 billable hours of reimbursable services, submitting roughly $1.4 million in fraudulent claims and collecting nearly $1.3 million from the program, including about $150,000 he diverted into cryptocurrency. After being subpoenaed, Sallah flew from Minneapolis–St. Paul International Airport to Amsterdam in late November 2025; a federal grand jury indicted him on four counts of wire fraud on December 16, 2025, and he was arrested returning to MSP Airport on September 10-11, 2026, after coordinating his self-surrender through the Federal Defenders Office. FBI Special Agent Christopher D. Dotson said "this American taxpayer money was designated to help stabilize housing of those in most dire need in our community." HSS program spending ballooned from an estimated $2.5 million a year in 2020 to $104 million by 2024 before federal regulators terminated the program in October 2025 amid widespread fraud investigations. Minnesotans who work in or receive services through state Medicaid-funded housing, disability, or behavioral-health programs should report any provider billing for services that were never actually delivered, since fabricated hours — not a break-in or stolen card — are how this kind of fraud drains taxpayer funds.`,
+    categorySlug: 'medicare-health-plans',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office, District of Minnesota", 'CBS News Minnesota'],
+    sourceUrl: 'https://www.justice.gov/usao-mn/pr/arrested-airport-man-voluntarily-returns-minnesota-face-charges-defrauding-13-million',
+    country: 'US',
+    state: 'MN',
+    firstRecorded: '2023-03-01',
+});
+
+UsGM.push({
+    name: 'BBB Task-Based "Like and Share" Job Scam (Minnesota Victim Loses $65,000)',
+    slug: 'minnesota-bbb-video-task-job-scam-65000-loss',
+    description: `The Better Business Bureau profiled a Minnesota woman identified only as Ajia in its 2026 employment-scams update after she lost $65,000 to a task-based "job" scam that recruited her to like, share, and post videos on YouTube and other social platforms. As is typical of the scheme, the fraudsters built trust by paying out small amounts for early tasks, then told her she needed to send money to "unlock" new tasks and access the much larger balance she had supposedly earned; Ajia told the BBB that "once she kept sending in money to get her full amount, she realized something was wrong." Her case is part of a broader 2025 surge the BBB tracked nationally — nearly 680 task-scam reports, more than double the prior tracking period, with a median reported loss of $2,300, though individual losses like Ajia's ran far higher. These scams typically start with an unsolicited text or social-media message offering easy pay for simple online tasks, and legitimate employers never require a worker to pay their own money to receive wages they already earned; anyone asked to send funds to "unlock" or "release" pay from a job they were recruited into online should stop immediately and report it to the BBB Scam Tracker or the FTC.`,
+    categorySlug: 'job-task-scams',
+    alertLevel: 'high',
+    sources: ['Better Business Bureau'],
+    sourceUrl: 'https://www.bbb.org/all/scamstudies/jobscams/employment-scams-2026-update',
+    country: 'US',
+    state: 'MN',
+});
+
+UsGM.push({
+    name: "Somerset Man Charged Under Kentucky's New Sexual Extortion Law (Tyler Michael Thomas)",
+    slug: 'kentucky-somerset-tyler-thomas-sexual-extortion',
+    description: `In March 2026, the Pulaski County Sheriff's Office arrested 33-year-old Tyler Michael Thomas of Somerset, Kentucky, and charged him with Sexual Extortion after an adult female victim reported that he threatened to make damaging statements about her to a third party unless she sent him explicit photographs of herself. Detective Branson Patterson, assisted by Deputy Zachary Huff, traced the online account Thomas used to contact the victim and identified him as the suspect; Thomas was booked into the Pulaski County Detention Center on a $5,000 cash bond. The case is among the first local arrests under Kentucky's Sexual Extortion statute, a law the General Assembly passed in 2025 specifically to protect residents from perpetrators who use threats of exposure or humiliation to coerce victims into unwanted acts or payments. Sextortion schemes increasingly begin online — through social media DMs, dating apps, or hacked accounts — and investigators warn that paying or complying with a blackmail demand rarely ends the threats; anyone targeted should stop communicating with the extortionist, preserve all messages as evidence, and report the incident immediately to local law enforcement or the FBI rather than sending money or images.`,
+    categorySlug: 'sextortion',
+    alertLevel: 'high',
+    sources: ["Pulaski County Sheriff's Office", 'Commonwealth Journal (somerset-kentucky.com)', 'Z93 Country'],
+    sourceUrl: 'https://www.somerset-kentucky.com/news/somerset-man-arrested-under-new-sexual-extortion-law/article_6adc01bc-1c08-47bc-a71b-ce4cf334e9e6.html',
+    country: 'US',
+    state: 'KY',
+    firstRecorded: '2026-03-06',
+});
+
+UsGM.push({
+    name: "Work-From-Home Job Scams Targeting Kentucky's Rising Unemployment",
+    slug: 'kentucky-work-from-home-job-scams-rising-unemployment',
+    description: `As Kentucky's unemployment rate climbed in 116 of the state's 120 counties over the prior year, the Better Business Bureau warned in July 2026 that scammers are increasingly impersonating real businesses to target job seekers with fake work-from-home offers. Whitney Adkins of the BBB explained the scheme's mechanics: "Sometimes they steal financial information because they'll claim to hire someone and then say, well, we need your, you know, your bank information for your new hire paperwork or whatever the case may be." Adkins said the timing is deliberate: "The unfortunate thing is they're taking advantage of folks during a time when, you know, it can be tough to find a job. And we have a lot of people looking and scammers are aware of that. So they're going to take advantage of that." The scams typically dangle high pay and benefits with no formal interview, then pressure applicants to submit personal and banking details immediately or lose the "offer." The BBB urges Kentucky job seekers to research any recruiter or company independently before sharing personal or financial information, and to be skeptical of any job offer that comes without a real interview.`,
+    categorySlug: 'employment-scams',
+    alertLevel: 'medium',
+    sources: ['Better Business Bureau', 'Spectrum News 1 Kentucky'],
+    sourceUrl: 'https://spectrumnews1.com/ky/northern-ky/news/2026/07/30/job-scams-target-kentucky-workers-as-unemployment-rises-in-most-counties',
+    country: 'US',
+    state: 'KY',
+    firstRecorded: '2026-07-30',
+});
+
+UsGM.push({
+    name: 'Holiday Puppy Scams Rising Across Kentucky and Tennessee',
+    slug: 'kentucky-holiday-puppy-scam-alert',
+    description: `The Better Business Bureau issued a holiday-season warning in December 2025 that puppy scams were surging across Kentucky and Tennessee, as fraudsters build convincing websites using stolen photos of adorable puppies and advertise immediate adoption or shipping to pressure buyers into fast payment. Victims who wire money, pay through gift cards, or use apps like Zelle or Cash App often find the "breeder" disappears the moment payment clears, with no puppy ever delivered — and some are hit with follow-up demands for "extra fees" covering fake insurance, travel crates, or vaccinations before the animal will supposedly be released. The BBB noted that scammers routinely refuse live video calls with the animal, a major red flag, and recommends buyers insist on a live video call before paying anything, run a reverse image search on listing photos, verify a seller's physical location and credentials, and avoid any payment method that can't be reversed or traced. Anyone who suspects they've been targeted should report the seller to the BBB and their payment provider immediately, since fast action is sometimes the only chance to reverse a transaction before the scammer disappears.`,
+    categorySlug: 'pet-sales-scams',
+    alertLevel: 'medium',
+    sources: ['Better Business Bureau', 'WSMV News 4'],
+    sourceUrl: 'https://www.wsmv.com/2025/12/04/safety-alert-puppy-scams-rise-during-holiday-season-tennessee-kentucky/',
+    country: 'US',
+    state: 'KY',
+    firstRecorded: '2025-12-04',
+});
+
+UsGM.push({
+    name: 'Idaho Holiday Charity Scam Warning',
+    slug: 'idaho-holiday-charity-scam-warning',
+    description: `Idaho Attorney General Raúl Labrador issued a consumer alert on December 4, 2025, urging Idahoans to slow down before responding to charitable solicitations as the holiday giving season began, warning that "the holidays unfortunately bring out the worst in criminals who exploit our community's generosity." The alert, timed to International Charity Fraud Awareness Week, described scammers posing as unfamiliar or entirely fabricated nonprofit organizations that pressure would-be donors to pay by gift card or cryptocurrency — methods no legitimate charity ever requires — and that send phishing texts or emails whose links lead to cloned donation pages built to harvest banking information rather than fund any cause. The Attorney General's office noted that the two heaviest periods for charity fraud each year are the Christmas season and the weeks following any natural disaster, both moments when public generosity peaks just as scrutiny tends to lapse. Idahoans are advised to verify a charity's registration independently before giving, and to never click a donation link in an unsolicited text or email — going instead directly to the organization's own known website to donate.`,
+    categorySlug: 'charity-scams',
+    alertLevel: 'medium',
+    sources: ['Idaho Office of the Attorney General'],
+    sourceUrl: 'https://www.ag.idaho.gov/newsroom/attorney-general-urges-caution-with-holiday-charity-scams/',
+    country: 'US',
+    state: 'ID',
+    firstRecorded: '2025-12-04',
+});
+
+UsGM.push({
+    name: 'Kuna "Grandparent Scam" In-Person Cash Pickup (Isaac Falak)',
+    slug: 'idaho-kuna-falak-grandparent-scam-cash-pickup',
+    description: `According to the Ada County Sheriff's Office, a woman living near Kuna received a phone call in August 2021 from someone impersonating her grandchild, claiming to need bail money after an arrest; a second caller identifying himself as a lawyer then instructed her to withdraw $18,000 in cash, seal it in an envelope, and wait at home for someone to collect it, which she did. After describing the calls to a family member, she grew suspicious and phoned Ada County Dispatch; when the relative arrived at her house, deputies found 59-year-old Isaac Falak of Buenos Aires, Argentina walking up the driveway with a suitcase, and after he left on foot, officers located and arrested him a short time later at a nearby grocery store. Falak posted $20,000 bail and was scheduled to appear in court on September 1, 2021. Unlike scams that route victims to a wire transfer or a cryptocurrency ATM, this variant sends someone in person to the victim's own front door to collect a sealed envelope of cash, which is why families should treat any unverified "your grandchild needs bail money" call as a cue to hang up and independently call the grandchild directly — or the jail itself — before withdrawing a single dollar, no matter how urgently or convincingly the caller pushes for secrecy and speed.`,
+    categorySlug: 'grandparent-scams',
+    alertLevel: 'high',
+    sources: ["Ada County Sheriff's Office", 'KBOI/Idahonews.com'],
+    sourceUrl: 'https://idahonews.com/news/local/59-year-old-man-tried-to-swindle-ada-county-woman-in-grandparent-scam-sheriff-says',
+    country: 'US',
+    state: 'ID',
+    firstRecorded: '2021-08-24',
+});
+
+UsGM.push({
+    name: 'Idaho Fake Toll-Fine Text Message Scam',
+    slug: 'idaho-fake-toll-fine-text-scam',
+    description: `The Idaho Transportation Department issued a scam alert on March 18, 2025, after fielding a wave of reports about fraudulent text messages telling Idaho phone numbers they owe an unpaid toll fine and must pay immediately through an embedded link to avoid escalating penalties. ITD flagged the messages as fraudulent on their face with a simple fact about the state: "Idaho does not have toll roads, and ITD does not issue toll fines," meaning any text demanding payment for one describes an obligation that cannot legitimately exist for an Idaho driver in the first place. The messages mimic the wording and urgency of real toll-agency notices used nationwide by carriers such as E-ZPass, but the embedded links route to look-alike payment pages designed to capture the recipient's credit card number and other personal information rather than settle any actual debt. ITD noted it only sends texts to residents who have specifically opted into its e-notification service and never demands payment or personal information by text message, and it urged anyone receiving one of these toll-fine texts to avoid clicking the link, delete the message, and report it to their mobile carrier rather than responding to the sender in any way.`,
+    categorySlug: 'phishing',
+    alertLevel: 'medium',
+    sources: ['Idaho Transportation Department'],
+    sourceUrl: 'https://itd.idaho.gov/news/scam-alert-fraudulent-text-messages-claiming-toll-fines-circulating-in-idaho/',
+    country: 'US',
+    state: 'ID',
+    firstRecorded: '2025-03-18',
+});
+
+UsGM.push({
+    name: 'Leonardtown "764" Network Sextortion Arrest (Jacob William St. Peter)',
+    slug: 'maryland-leonardtown-st-peter-764-sextortion',
+    description: `In February 2026, the St. Mary's County Sheriff's Office, working with the Naval Criminal Investigative Service, arrested 19-year-old Jacob William St. Peter of Leonardtown on a nationwide warrant out of Canyon County, Idaho, after investigators traced a wave of unsolicited sexually explicit images sent to a minor back to the online handle "randysaystrade." The investigation began in December 2025 when a Nampa, Idaho family reported that their child had received the images from an unknown adult male through social media and gaming platforms, and digital forensics tied the account — and its references to "764," an FBI-designated online network that grooms and blackmails minors into producing exploitative material — to St. Peter, who was taken into custody on February 3, 2026 and held on $100,000 bond while awaiting extradition to face a felony charge of sexual abuse of a child under sixteen. Investigators said St. Peter, like many 764-linked offenders, used a chain of everyday platforms rather than a single hidden site, making the network's reach into Maryland households — and its ability to strike victims a thousand miles away — easy to underestimate. A Nampa police detective involved in the case warned that "communicating with strangers online carries serious risks, particularly for minors," as predators use 764's escalating cycle of flattery, coercion, and blackmail to extract increasingly explicit material, and ultimately self-harm content, from children too frightened or ashamed to tell a parent. Parents and guardians are urged to routinely review who their children are messaging across every app and game they use, to talk openly about the fact that a predator's threat to "expose" a photo loses its power the moment an adult is told, and to report suspected sextortion immediately to local police or the FBI's tip line at tips.fbi.gov rather than letting a child comply with a blackmailer's demands.`,
+    categorySlug: 'sextortion',
+    alertLevel: 'high',
+    sources: ["St. Mary's County Sheriff's Office", 'Maryland Coordination and Analysis Center', 'Southern Maryland News Net'],
+    sourceUrl: 'https://mcac.maryland.gov/2026/02/police-nab-st-marys-man-wanted-in-idaho-on-child-sex-abuse-charges/',
+    country: 'US',
+    state: 'MD',
+    firstRecorded: '2026-02-03',
+});
+
+UsGM.push({
+    name: 'Middle River Fake "Cash on Delivery" Amazon Courier Scam',
+    slug: 'maryland-middle-river-fake-amazon-courier-scam',
+    description: `In late 2025, a Middle River, Maryland woman named Renee answered her door to a courier holding a package with a real Amazon shipping label addressed to her — and a demand for $9.28 in cash before he would hand it over, even though she had not ordered anything. "I didn't order anything. Who sent me something?" she recalled asking, adding she'd never heard of Amazon using cash-on-delivery and grew suspicious enough, after talking it over with her fiancé, to refuse payment, contact Amazon directly, and file a police report; Amazon confirmed to WMAR-2 News that the company does not collect payment at the doorstep anywhere in the United States. Clay Campbell, director of the Better Business Bureau of Greater Maryland, said the scheme is a variation on a much larger wave of fraudulent delivery alerts hitting Marylanders' phones and doorsteps, warning that "a delayed package, if you get a notification saying you need to cover an extra fee — that's typically a big red flag, really common scam," a pattern the FTC says cost Americans $470 million nationwide in 2024 alone. Unlike the "missed delivery" text-message links Maryland courts and Montgomery County's Office of Consumer Protection have separately warned about, this version delivers a real box to the victim's actual front door, using the unexpected package itself — and a small, easy-to-justify dollar amount — to make an in-person cash grab feel routine rather than suspicious. Anyone who receives a package they did not order, whether from a stranger at the door or a delivery locker, should decline any on-the-spot payment request, contact the retailer directly through its official app or website to confirm the shipment, and report the encounter to local police, since a shipment already paid for by the sender never carries a cash-due balance for the recipient to cover.`,
+    categorySlug: 'package-delivery-scams',
+    alertLevel: 'medium',
+    sources: ['WMAR-2 News (Scripps)', 'Better Business Bureau of Greater Maryland', 'Amazon'],
+    sourceUrl: 'https://www.wmar2news.com/matterformallory/expecting-a-package-scammers-are-sending-fake-delivery-alerts-and-even-knocking-on-doors',
+    country: 'US',
+    state: 'MD',
+    firstRecorded: '2025-12-01',
+});
+
+UsGM.push({
+    name: 'Former Annapolis Resident Charged in $15 Million Medicare Testing Fraud and Charter-Jet Ponzi Scheme (Patrick Britton-Harr)',
+    slug: 'maryland-britton-harr-medicare-fraud-ponzi-scheme',
+    description: `A federal grand jury in Maryland unsealed two indictments on May 28, 2025 against Patrick Britton-Harr, 41, of Charleston, South Carolina and formerly of Annapolis, Maryland, charging him with five counts of health care fraud, six counts of wire fraud, and one count of money laundering across two separate multimillion-dollar schemes. Prosecutors allege that through his company Provista Health, Britton-Harr offered COVID-19 screening to nursing-home patients nationwide and then billed Medicare more than $15 million for expensive respiratory pathogen panel tests that were medically unnecessary, never ordered by a treating physician, and in many cases never performed at all — including tests billed for patients who were already dead — with Medicare actually paying out more than $5 million on the fraudulent claims. In a second scheme prosecutors describe as a Ponzi arrangement, Britton-Harr allegedly recruited roughly 100 "Top Gun" members into his charter jet company, AeroVanti Inc., collecting about $150,000 in upfront membership fees from each — some $15 million total — on the promise the money would buy five aircraft for members' shared use, then diverted the funds to yachts, jewelry, personal living expenses, and a rental property near Tampa, Florida, later obtaining a $1.5 million loan for one aircraft by concealing material facts from the lender. "It is unconscionable for someone to defraud the government and others for personal gain, especially as we faced a global health crisis," said then-U.S. Attorney for the District of Maryland Kelly O. Hayes, whose office is prosecuting the case; Britton-Harr faces up to 20 years in prison on each wire fraud count and 10 years on each health care fraud and money laundering count if convicted. The case is a reminder that a "membership" pitch promising a shared big-ticket asset — a private jet, a timeshare, an investment fund — deserves the same scrutiny as any investment offer: ask for audited financials showing the specific asset the money actually bought, and verify independently rather than trusting a polished pitch and a growing roster of fellow members.`,
+    categorySlug: 'medicare-health-plans',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office for the District of Maryland", 'Live 5 News (WCSC Charleston)'],
+    sourceUrl: 'https://www.justice.gov/usao-md/pr/south-carolina-man-charged-maryland-multi-million-dollar-medicare-fraud-and-ponzi',
+    country: 'US',
+    state: 'MD',
+    firstRecorded: '2025-05-28',
+});
+
+UsGM.push({
+    name: 'Dominican Republic Call-Center "Grandparent Scam" Defrauds Massachusetts Seniors of Over $5 Million',
+    slug: 'massachusetts-dominican-republic-grandparent-scam-call-center',
+    description: `Federal prosecutors in Boston say a call-center operation run out of the Dominican Republic used the classic "grandparent scam" to defraud more than 400 elderly victims nationwide — including at least 50 in Massachusetts — out of more than $5 million. According to the U.S. Attorney's Office for the District of Massachusetts, ring leader Oscar Manuel Castanos Garcia employed English-speaking staff who split the con into two calls: an "Opener" phoned an elderly victim pretending to be a grandchild who had just been in a car accident, and a "Closer" followed up posing as that grandchild's attorney demanding cash to cover bail or legal fees. Victims, whose average age was 84, were instructed to hand packages of cash to rideshare drivers sent to their homes, ship cash to addresses provided by the callers, or withdraw additional funds at a bank — sometimes with a rideshare driver waiting outside. A federal grand jury indicted the operation in May 2024; four defendants (Castanos Garcia, Joel Jose Cruz Rodriguez, Edward Jose Puello Garcia, and Joel Francisco Mathilda Leon) were arrested in the Dominican Republic in August 2025, extradited to Boston by September 30, 2025, and have since pleaded guilty to conspiracy to commit mail and wire fraud and to money-laundering conspiracy; a fifth defendant, Luis German Santos Burgos, was sentenced on June 25, 2026 to 48 months in prison. Because the scam relies entirely on manufactured panic about a family member in danger, anyone who receives an urgent call claiming to be from a grandchild in trouble should hang up and call that family member directly at a number they already have on file before sending any money, cash, or gift cards.`,
+    categorySlug: 'grandparent-scams',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office, District of Massachusetts (Department of Justice)", 'Fall River Reporter'],
+    sourceUrl: 'https://fallriverreporter.com/four-dominican-nationals-plead-guilty-in-boston-to-fraud-scheme-that-caused-over-5-million-in-losses-to-over-400-seniors/',
+    country: 'US',
+    state: 'MA',
+    firstRecorded: '2024-05-01',
+});
+
+UsGM.push({
+    name: 'Boston Police Warn of Fake QR-Code "Parking Violation Court Notice" Scam',
+    slug: 'massachusetts-boston-fake-qr-code-parking-violation-court-notices',
+    description: `The Boston Police Department issued a community alert warning residents about fraudulent "Notice of Hearing — Parking Violation" letters designed to look like they came from the Boston Municipal Court, when in fact they originate from scammers with no government affiliation at all. The fake notices are dressed up with real-looking trappings — a case number, a judge's name and signature, the court's address, a hearing date, and even a reproduction of the Massachusetts state seal — and each one carries a QR code that the letter urges the recipient to scan in order to pay a supposed fine. Because the documents mimic an official court summons rather than a routine parking ticket, they're built to trigger the anxiety of a legal deadline, pushing people to scan and pay before stopping to question the notice's legitimacy. BPD's alert instructs residents plainly: "Do not scan the QR code or submit any payment based on an unsolicited notice without first verifying it through official channels," directing anyone who receives one to instead confirm any real citation directly through the City of Boston's official parking pages or by calling the Parking Clerk's office, and to report fraudulent notices to BPD or Crime Stoppers at 1-800-494-TIPS rather than engage with the QR code at all.`,
+    categorySlug: 'qr-code-scams',
+    alertLevel: 'medium',
+    sources: ['Boston Police Department'],
+    sourceUrl: 'https://police.boston.gov/2026/03/07/bpd-community-alert-fraudulent-parking-violation-court-notices/',
+    country: 'US',
+    state: 'MA',
+    firstRecorded: '2026-03-07',
+});
+
+UsGM.push({
+    name: 'Massachusetts DOR Warns of Fake Tax-Refund Text Message Scam',
+    slug: 'massachusetts-dor-tax-refund-text-message-scam',
+    description: `The Massachusetts Department of Revenue (DOR) issued a public warning after a wave of fraudulent text messages hit residents' phones falsely claiming that recipients would be disqualified from receiving their state tax refund unless they submitted payment information by a manufactured deadline of September 19, 2025. The texts, impersonating DOR, included a link asking recipients to "confirm" their banking details in order to release the supposed refund — a pretext designed to harvest account numbers and routing information under time pressure. Revenue Commissioner Geoffrey Snyder made clear the messages were entirely fabricated, stating: "If you receive a message urging you to respond quickly or click on a link, please do not reply or click the link. DOR does not send text messages about tax refunds." The department directed anyone targeted to avoid the link entirely, complete any real DOR business only through mass.gov/dor, report the attempt to law enforcement and their bank or credit-card issuer if information was shared, and reach DOR's own Contact Center at (617) 887-6367 or (800) 392-6089 with questions — never the number or link inside the text itself.`,
+    categorySlug: 'tax-scams',
+    alertLevel: 'medium',
+    sources: ['Massachusetts Department of Revenue', 'iBerkshires.com'],
+    sourceUrl: 'https://www.mass.gov/news/massachusetts-department-of-revenue-cautions-public-to-beware-of-text-scams',
+    country: 'US',
+    state: 'MA',
+    firstRecorded: '2025-09-20',
+});
+
+UsGM.push({
+    name: 'Montana Mail-In "CSAM Extortion" Bitcoin and QR Code Blackmail Scam',
+    slug: 'montana-mail-extortion-qr-code-bitcoin-blackmail-scam',
+    description: `The Montana Department of Justice's Division of Criminal Investigation issued a warning after at least six law enforcement agencies across eastern and central Montana, and into Wyoming, began fielding reports of a disturbing mail-based extortion scheme. Victims receive an envelope with no return address and Canadian postage containing child sexual abuse material along with a letter demanding payment — via Bitcoin or Cash App, using a printed QR code and web address — within 36 hours, and threatening that law enforcement will be alerted if the recipient does not pay. Anne Dormady, Crime Information Bureau Chief with the Montana Division of Criminal Investigation, said the scheme relies on the same emotional pressure tactic behind most fraud: "Most scams really make someone feel like they have to make a quick decision and that they need to quickly provide money to the scamster. It is very important that you stop and you think." Investigators stress that the letters are a coercion tactic, not a real law enforcement matter, and that scanning the QR code or paying the demanded sum does not make the threat go away. Anyone who receives one of these letters should not scan the QR code or visit the listed web address, should not send any payment, and should instead contact local law enforcement directly to report it.`,
+    categorySlug: 'sextortion',
+    alertLevel: 'high',
+    sources: ['Montana Department of Justice, Division of Criminal Investigation', 'KPAX News', 'KTVH'],
+    sourceUrl: 'https://www.kpax.com/news/montana-news/montana-department-of-justice-warns-of-disturbing-mail-scam',
+    country: 'US',
+    state: 'MT',
+});
+
+UsGM.push({
+    name: 'NorthWestern Energy Imposter Utility Shutoff Scam',
+    slug: 'montana-northwestern-energy-imposter-utility-shutoff-scam',
+    description: `NorthWestern Energy issued a scam alert on January 7, 2026 after receiving a wave of reports from Montana customers being targeted by callers impersonating the utility and falsely claiming their electric or gas service would be shut off within hours unless they made an immediate payment. The company stated plainly that "these threats are not legitimate," noting that "energy service providers never demand instant payment or threaten customers with sudden disconnection" and that customers with past-due balances always receive multiple advance notices before any real service interruption — a shutoff is never a surprise phone call. Scammers behind these utility-impostor schemes contact victims by phone, text, or email and pressure them to pay using a prepaid debit card, gift card, or cryptocurrency, all of which are red flags because legitimate utilities never accept those payment methods and never threaten same-day disconnection. NorthWestern Energy directed customers who receive a suspicious call to hang up and contact the company directly at 888-467-2669, or the Montana Public Service Commission at 1-800-646-6150, before providing any payment or personal account information — and to never trust caller ID alone, since scammers can spoof a utility's real phone number.`,
+    categorySlug: 'utility-scams',
+    alertLevel: 'medium',
+    sources: ['NorthWestern Energy', 'Daily Montanan'],
+    sourceUrl: 'https://northwesternenergy.com/about-us/our-projects/montana-meter-upgrade/2026/01/07/northwestern-energy-warns-scammers-targeting-montanans',
+    country: 'US',
+    state: 'MT',
+    firstRecorded: '2026-01-07',
+});
+
+UsGM.push({
+    name: 'Montana Regulator Warns of AI Deepfake and "Pig Butchering" Investment Scams for 2026',
+    slug: 'montana-csi-ai-deepfake-pig-butchering-investment-scams-2026',
+    description: `The Montana Commissioner of Securities and Insurance (CSI), the state's securities regulator, published a consumer alert on January 23, 2026 titled "New Year, New Scams," warning Montanans that investment fraud is increasingly built around artificial intelligence tools that make cons look far more credible than the pitches regulators have historically seen. Commissioner James Brown said "scammers never rest — they adapt their tactics to current events, technology, and investor interest," and the office's alert catalogued a dozen active threats, including so-called "pig butchering" schemes that start as an online romance or friendship before steering the victim into a fake investment platform, AI-generated deepfake videos of celebrities or trusted contacts endorsing bogus opportunities, "phantom" AI trading bots that promise guaranteed algorithmic returns, spoofed websites and apps cloned to mimic legitimate financial institutions, and unregistered solicitors pushing opportunities through Facebook, X, TikTok, and Instagram Reels or unsolicited text and WhatsApp messages. State securities regulators nationwide opened more than 8,800 investigations in 2024 alone, resulting in over $259 million in fines and restitution, with more than 1,600 of those cases involving senior investors specifically. The CSI office urged Montanans to independently verify any investment opportunity — and the identity of the person pitching it — through Montana's securities regulator before sending money, and offers free public presentations on spotting these schemes through its office at 406-444-2040.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'medium',
+    sources: ['Montana Commissioner of Securities and Insurance', 'NBC Montana'],
+    sourceUrl: 'https://csimt.gov/2026/01/23/new-year-new-scams-csi-urges-vigilance-against-2026-investment-fraud/',
+    country: 'US',
+    state: 'MT',
+    firstRecorded: '2026-01-23',
 });

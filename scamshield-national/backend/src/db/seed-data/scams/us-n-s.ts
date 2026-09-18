@@ -7236,6 +7236,45 @@ UsNS.push({
 });
 
 UsNS.push({
+    name: 'Omaha "Phony Landlord" Rental Listing Hijack Scam',
+    slug: 'nebraska-omaha-phony-landlord-rental-scam',
+    description: `In May 2026, a scammer hijacked a legitimate Omaha rental listing for a home near Fifth and Poppleton, actually owned by Maria Salinas, by swapping the contact number in the ad for a New York phone number and posing as the property's landlord. The fake "landlord" told a prospective renter identified only as Nancy, a woman on disability, that the home was near Westroads Mall (it is actually about nine miles away, in the Little Italy neighborhood) and pressured her to pay an $80 application fee and a $500 deposit before ever meeting in person or touring the property, insisting "this real legit one hundred percent." When Nancy grew suspicious and contacted the real owner, Salinas said she had no idea her listing had been hijacked: "It makes me mad they are using my property to get money." Josh Planos of the Better Business Bureau of the Midwest Plains said the scam is spreading because Omaha's tight rental market makes renters afraid to walk away from an affordable listing, even when the "landlord" refuses to meet face to face. Renters are advised to verify a property's actual owner through county assessor public records, insist on an in-person tour before paying anything, and treat any landlord who demands an application fee or deposit before a meeting as a red flag.`,
+    categorySlug: 'rental-housing',
+    alertLevel: 'medium',
+    sources: ['WOWT', 'Better Business Bureau of the Midwest Plains'],
+    sourceUrl: 'https://www.wowt.com/2026/05/19/phony-landlord-targets-potential-renters-omaha-rental-scam/',
+    country: 'US',
+    state: 'NE',
+    firstRecorded: '2026-05-18',
+});
+
+UsNS.push({
+    name: 'Omaha College Student Fake-Check Work-From-Home Job Scam',
+    slug: 'nebraska-omaha-fake-check-job-scam',
+    description: `Serin Anderson, a business honors student in Omaha, answered a work-from-home data entry job posting in July 2026 that advertised $25 an hour, and the purported employer, a company claiming to be based in Alabama, mailed him a check for nearly $5,000 before he had done any work. The scammers told Anderson to deposit the check and then use Cash App to buy his own "home data processing equipment," and he complied, sending the money before any equipment ever arrived. His bank initially made the deposited funds available within a day or two, as banks are legally required to do, but weeks later flagged the check as fraudulent and clawed back the nearly $5,000, leaving Anderson's account overdrawn. "Banks are legally required to make funds available quickly, often in a day or two. But they can claw that money back weeks later if the check turns out to be fraudulent," said Josh Planos of the Better Business Bureau, explaining why the scam works even on people who wait to see the money "clear." The Nebraska Bankers Association lists any job offer that pays in advance, especially one asking the new hire to purchase equipment with the funds, as a clear warning sign; anyone who receives an unsolicited check tied to a new job should not spend any of it until their bank confirms, through its own fraud department rather than a number on the check, that the check has genuinely cleared, which can take weeks, not days.`,
+    categorySlug: 'fake-check-overpayment',
+    alertLevel: 'medium',
+    sources: ['1011 NOW (KOLN/KGIN)', 'Better Business Bureau of the Midwest Plains', 'Nebraska Bankers Association'],
+    sourceUrl: 'https://www.1011now.com/2026/07/07/omaha-college-student-loses-nearly-5k-online-job-scam-involving-fake-check/',
+    country: 'US',
+    state: 'NE',
+    firstRecorded: '2026-07-07',
+});
+
+UsNS.push({
+    name: 'Fraudulent Medicare.gov Account Creation Affecting Nebraska Beneficiaries',
+    slug: 'nebraska-medicare-gov-fake-account-fraud',
+    description: `The Nebraska Department of Insurance warned residents that unknown criminals used stolen personal data, including Medicare Beneficiary Identifiers, coverage start dates, last names, dates of birth, and zip codes, to create fraudulent Medicare.gov accounts in other people's names between 2023 and 2025, a breach the Centers for Medicare & Medicaid Services says could have affected roughly 103,000 Medicare beneficiaries nationwide, though the exact number of Nebraskans involved is unclear. CMS has since deactivated every fake account and reports no confirmed fraudulent claims or stolen benefits resulting from the access so far, but Nebraska officials are urging beneficiaries who receive an unexpected letter about a Medicare.gov account not to dismiss it as junk mail. "If you receive a letter about a Medicare.gov account you did not create, don't ignore it," said Jonathan Burlison, administrator of Nebraska's State Health Insurance Assistance Program. Beneficiaries who need a replacement card while sorting out their own account can request a Medicare letter of entitlement, which typically arrives within about 10 days, rather than giving personal information to anyone who calls offering to help. Nebraskans are advised to regularly review their Medicare Summary Notices and Explanation of Benefits for unrecognized services and to report any suspicious Medicare.gov letter or account activity to Nebraska's SHIP & SMP program at 1-800-234-7119 or to Medicare directly at 1-800-633-4227.`,
+    categorySlug: 'medicare-health-plans',
+    alertLevel: 'medium',
+    sources: ['Nebraska Department of Insurance', 'Centers for Medicare & Medicaid Services'],
+    sourceUrl: 'https://doi.nebraska.gov/fake-medicare-accounts-created-ndoi-urges-review-mail',
+    country: 'US',
+    state: 'NE',
+    firstRecorded: '2025-07-11',
+});
+
+UsNS.push({
     name: 'Dorm2Dorm Deceptive College Moving and Storage Scheme',
     slug: 'new-york-dorm2dorm-deceptive-moving-storage-scheme',
     description: `Dorm2Dorm LLC marketed itself to NYC-area college students — including many at NYU — as a two-in-one moving-and-storage service: it would pick up a student's belongings before summer break or study-abroad and deliver them back to a dorm at the start of the semester, advertising an "elite" package with a 90-minute delivery window and a false 25% "instant rebate." In practice, the city's Department of Consumer and Worker Protection (DCWP) found the company routinely missed pickup and delivery windows, misplaced items, and returned belongings damaged. One documented case: NYU sophomore Sebastián Prats-Fernández scheduled delivery to his dorm for August 27, 2022 during his university-assigned move-in window; instead he waited days with no explanation beyond a vague text from the company's CEO, finally receiving his boxes — including a sentimental letter from his mother — four days late and at the wrong address. After opening an investigation in September 2022 and reviewing complaints from students and the Better Business Bureau, DCWP sued Dorm2Dorm on March 6, 2023, charging it with at least 1,200 violations of NYC consumer protection law. In April 2024, a New York County Supreme Court ruled for the city, ordering Dorm2Dorm to pay nearly $3.8 million in civil penalties and consumer restitution and to stop its illegal practices — but DCWP noted the company kept advertising the same services afterward. DCWP Commissioner Vilda Vera Mayuga said, "College students, like many people targeted by predatory businesses, are vulnerable consumers, often living alone for the first time." Before paying any moving-and-storage company for dorm move-in or summer storage, get a written contract specifying exact pickup/delivery windows and an itemized, photographed inventory, and never pay in full upfront for a premium tier or a "rebate" that requires an initial payment — a student left without clothes, bedding, or books during the first week of classes has little leverage to get a refund. Complaints can be filed with NYC DCWP at 311 or nyc.gov/dcwp.`,
@@ -7336,6 +7375,45 @@ UsNS.push({
     state: 'RI',
     isHistorical: true,
     firstRecorded: '2023-04-01',
+});
+
+UsNS.push({
+    name: "FBI Boston Agent-Impersonation Scam Spoofing the Bureau's Own Phone Number",
+    slug: 'rhode-island-fbi-agent-impersonation-spoofed-number-scam',
+    description: `On August 19, 2026, the FBI's Boston Field Office, which covers Rhode Island, issued a public warning about a new impersonation scheme sweeping New England. Scammers first pose as a bank representative, telling the victim their identity was used to open an account to purchase illegal firearms, then transfer the call to a confederate posing as an FBI special agent who spoofs the Bureau's real Boston phone number, 857-386-2000, for credibility. The fake agent pressures the victim into secrecy and directs them to continue the conversation over an encrypted messaging app before demanding money or personal financial information. FBI Boston Special Agent in Charge Ted Docks said, "Scammers are utilizing fear, urgency, and increasingly sophisticated tactics — including spoofing trusted phone numbers — to push people into acting." Across the four states in the Boston Division (Maine, Massachusetts, New Hampshire, and Rhode Island), 1,092 victims reported $28,895,404 in impersonation-scam losses in 2025 alone; Rhode Island's share was 113 victims reporting $2,023,936 in losses. The FBI stresses it will never demand payment, request personal information, ask victims to switch to an encrypted app, or threaten arrest over the phone — hang up on any unsolicited call claiming to be law enforcement, and call back only a number you look up yourself (FBI Boston: 857-386-2000; or report to ic3.gov).`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['The Boston Globe', 'FBI Boston Field Office', 'Boston.com'],
+    sourceUrl: 'https://www.bostonglobe.com/2026/08/19/metro/fbi-agent-impersonation-scam-fraud-boston/',
+    country: 'US',
+    state: 'RI',
+    firstRecorded: '2026-08-19',
+});
+
+UsNS.push({
+    name: 'AARP Rhode Island Medicare Open-Enrollment Scam Warning',
+    slug: 'rhode-island-aarp-medicare-open-enrollment-scam-warning',
+    description: `Ahead of the 2026 Medicare Open Enrollment period, AARP Rhode Island issued a warning on September 15, 2026 about a wave of scam calls, emails, and texts targeting the state's Medicare beneficiaries. Fraudsters falsely claim recipients need a "new Medicare card," even though no new cards are being issued, or dangle free gifts, genetic testing kits, glucose monitors, and other medical equipment, as bait to extract Medicare numbers, Social Security numbers, and banking details. AARP Rhode Island volunteer Marianne Kelly warned how effective the pitch is once a scammer gets someone talking: "Once they can get you on the phone or get you to respond to an email, there's a pretty much 80% chance you're going to buy something." AARP recommends hanging up immediately on any unsolicited Medicare call, never giving out your Medicare or Social Security number to an unverified caller, and contacting the AARP Fraud Watch Network hotline at 877-908-3360 (8 a.m.-8 p.m., Monday-Friday) to report a suspected scam or verify a suspicious offer before enrollment decisions are made.`,
+    categorySlug: 'medicare-health-plans',
+    alertLevel: 'medium',
+    sources: ['NBC 10 WJAR / turnto10.com', 'AARP Rhode Island'],
+    sourceUrl: 'https://turnto10.com/news/nbc-10-news-at-4/aarp-rhode-island-warns-of-medicare-scams-ahead-of-open-enrollment-new-cards-stealing-personal-information-free-gifts-september-15-2026',
+    country: 'US',
+    state: 'RI',
+    firstRecorded: '2026-09-15',
+});
+
+UsNS.push({
+    name: 'Providence Parking-Ticket QR Code Text Scam',
+    slug: 'rhode-island-providence-parking-ticket-qr-code-text-scam',
+    description: `Starting around March 15, 2026, a mass "smishing" campaign hit Providence residents with text messages disguised as official parking-violation notices, citing case numbers and specific parking ordinances and telling recipients to either appear for a hearing or resolve the "fine" immediately by scanning an embedded QR code. The Providence Police Department and Municipal Court publicly stated they never issue tickets, hearing notices, or payment demands by text. Mayor Brett Smiley addressed the scam directly on March 16, 2026: "This is a scam. Those are not real. Please do not respond. The Providence Police and or the Providence Municipal Court would never text you a demand to pay," adding, "You should never pay a parking ticket via text; that is not something that we do." Scanning the QR code leads to a fraudulent site designed to steal payment card and personal information or install malware; police in Bristol, Warwick, and Westerly, RI reported similar text campaigns hitting their residents the same week. Real Providence parking violations are only issued in person on the vehicle or by mail — delete any texted "ticket," never scan an unsolicited QR code, and never click links or provide payment information in response to a parking-fine text.`,
+    categorySlug: 'qr-code-scams',
+    alertLevel: 'medium',
+    sources: ['WPRI 12', 'NBC 10 WJAR / turnto10.com', 'GoLocalProv', 'Office of Providence Mayor Brett Smiley'],
+    sourceUrl: 'https://turnto10.com/news/local/providence-police-warn-residents-of-parking-ticket-scam-providence-police-department-qr-code-scam-march-16-2026',
+    country: 'US',
+    state: 'RI',
+    firstRecorded: '2026-03-16',
 });
 
 UsNS.push({
@@ -7872,6 +7950,45 @@ UsNS.push({
 });
 
 UsNS.push({
+    name: 'Delaware County Gold Courier "Federal Officer" Elder Fraud (Chagamreddy)',
+    slug: 'oklahoma-delaware-county-gold-courier-federal-officer-fraud',
+    description: `In August 2025, a 79-year-old Vietnam veteran in rural Delaware County, Oklahoma received a fake Microsoft tech-support call warning that his identity had been stolen and linked to federal crimes. The caller transferred him to an impersonator posing as a federal officer who provided a false badge number, told him his money was compromised, and instructed him to convert his savings into physical gold, which a courier would collect. Deputies set up an undercover sting and arrested Venkateswara Chagamreddy, 37, an Indian citizen on a U.S. student visa, at the victim's home; his vehicle held $500 cash and 23 ounces of gold worth roughly $100,000. A federal jury convicted him of conspiracy to commit wire fraud in April 2026, and on September 12, 2026, U.S. District Judge John D. Russell in Tulsa sentenced him to 30 months in prison, nearly $100,000 in restitution, and three years of supervised release, after which he faces removal to India. U.S. Attorney Christopher J. Nassar called the scheme "despicable, calculated attacks that prey on some of the most vulnerable and trusting members of our community." Before Oklahoma, Chagamreddy had collected gold from an 87-year-old victim in North Carolina and a 75-year-old victim in Kansas using the same tech-support-to-fake-federal-officer-to-gold-conversion script; anyone told to liquidate savings into gold and hand it to a courier should hang up and independently verify with local police, never a number the caller provides.`,
+    categorySlug: 'tech-support-scams',
+    alertLevel: 'high',
+    sources: ['Hoodline'],
+    sourceUrl: 'https://hoodline.com/2026/09/student-visa-gold-courier-gets-30-months-for-targeting-oklahoma-veteran/',
+    country: 'US',
+    state: 'OK',
+    firstRecorded: '2025-08-01',
+});
+
+UsNS.push({
+    name: 'FBI Oklahoma City "Illegal Firearm Purchase" Bank-Transfer Impersonation Scam',
+    slug: 'oklahoma-city-fbi-firearm-purchase-bank-impersonation-scam',
+    description: `The FBI's Oklahoma City field office issued a public warning, reported September 15, 2026, about a scam in which a caller claiming to represent the victim's bank alleges their personal information was used to illegally purchase firearms, then "transfers" the call to a fake FBI agent who gives a false name and badge number. The fraudulent agent then pressures the victim to hand over sensitive personal and financial information. Investigators say scammers spoof caller ID so the call appears to come from the FBI Oklahoma City office's real main line, 405-290-7770, making the ruse especially convincing. The bureau stressed, "The FBI will never call or email private citizens to demand payment, personal information, threaten arrest or ask you to communicate via an encrypted application." The defining red flag is a bank representative insisting on transferring your call to "the FBI" rather than letting you hang up and dial a verified number yourself; anyone who receives such a call should hang up immediately and report it to the FBI's Internet Crime Complaint Center at ic3.gov.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['OKC Fox 25 (KOKH)'],
+    sourceUrl: 'https://okcfox.com/news/local/oklahoma-city-fbi-warns-citizens-about-agent-impersonation-scam-09-15-2026',
+    country: 'US',
+    state: 'OK',
+    firstRecorded: '2026-09-15',
+});
+
+UsNS.push({
+    name: 'OSBI "ICAC Special Agent" Arrest-Threat Impersonation Scam',
+    slug: 'oklahoma-osbi-icac-special-agent-arrest-threat-scam',
+    description: `The Oklahoma State Bureau of Investigation issued a public warning, published July 28, about scammers impersonating OSBI special agents assigned to its Internet Crimes Against Children Task Force. Victims receive a text message or phone call from someone claiming to be an OSBI agent who says they must immediately call back or an arrest warrant will be issued against them; to appear legitimate, the scammer sometimes texts a photo of counterfeit OSBI law-enforcement credentials. The OSBI stated that real agents "will never contact members of the public by phone or text message to threaten arrest, demand payment or request personal or financial information." The bureau advised recipients not to reply, not to click any links, and not to share personal, financial, or identifying information; instead block the number, delete the message, and report it to local law enforcement or directly to OSBI at tips@osbi.ok.gov or 1-800-522-8017.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Radio Oklahoma News'],
+    sourceUrl: 'https://www.radiooklahomanews.com/post/osbi-warns-oklahomans-about-fake-special-agent-scam',
+    country: 'US',
+    state: 'OK',
+    firstRecorded: '2026-07-28',
+});
+
+UsNS.push({
     name: 'St. George Summit Foot and Ankle Medicare Skin-Substitute Billing Fraud (Ryan Ellsworth)',
     slug: 'st-george-summit-foot-ankle-medicare-skin-substitute-fraud',
     description: `A federal grand jury in the District of Utah indicted Ryan Scott Ellsworth, 47, of Highland — a podiatrist who owned and operated Summit Foot and Ankle clinics across Utah — along with two nurses who worked primarily out of the practice's St. George clinic, Emily Kelly, 45, of Washington, Utah, a licensed nurse practitioner, and Drake Dell Broadbent, 55, of Santa Clara, Utah, a licensed registered nurse, on charges of health care fraud and wire fraud announced May 12, 2026. Prosecutors allege that from July 2021 through December 2025 the three knew Medicare only covers "skin substitute" wound-care products when a wound is medically qualifying and standard wound care has already been tried for 30 days, but they submitted claims for skin substitutes applied to patients who did not have qualifying wounds and for continued treatment that was not medically necessary. The indictment alleges Medicare was billed a combined $61 million for these services, of which it actually paid out roughly $29 million; Ellsworth and Broadbent were also charged with making false statements relating to health care matters. The case remains a pending criminal prosecution — as of the indictment, no plea or conviction has been entered. Medicare beneficiaries who receive a skin-substitute wound treatment, or a bill or Medicare Summary Notice referencing one, are advised to ask their provider directly what specific product was used and why standard wound care wasn't tried first, and to report any billing for equipment or treatment they don't recall receiving to the HHS Office of Inspector General.`,
@@ -7917,4 +8034,276 @@ UsNS.push({
     sourceUrl: 'https://www.dover.nh.gov/services/online-services/news-events/news-2025/consumer-alert-ag-dot-warn-of-ezpass-impersonation-scam-in-nh.html',
     country: 'US',
     state: 'NH',
+});
+
+UsNS.push({
+    name: 'Reno AI-Generated Fake "Found Pet" Emergency Scam',
+    slug: 'nevada-reno-ai-fake-missing-pet-emergency-scam',
+    description: `In May 2026, Reno resident Tammy Rieken received a call from someone claiming to have found her missing cat, Loulou. "When they first called, I was elated. I was so excited because she was found," Rieken told local reporters — only for the caller to follow up with a graphic photo of a supposedly injured animal and a demand for thousands of dollars to cover emergency veterinary surgery. Reno Police Department Public Information Officer Hunter Mercurio said the tactic is part of a growing pattern in which scammers scour lost-pet posts and social media for grieving owners, explaining that "a very common factor with these scams is a lot of these scammers will try to tug on victims' emotions." University of Nevada, Reno journalism professor and AI researcher Paromita Pain said the fabricated veterinary images often contain telltale flaws, such as unrealistic hair rendering or clinical details that do not match how real animal hospitals operate, though she cautioned the technology is improving rapidly and such flaws will not always be visible. The scam falsely invoked the name of a real local business, Mountain View Animal Hospital, to lend the extortion attempt credibility. Pet owners who get a "found pet" call demanding payment should hang up immediately and independently verify the claim by calling the named clinic directly, using a phone number they look up themselves rather than one supplied by the caller.`,
+    categorySlug: 'ai-deepfake-scams',
+    alertLevel: 'medium',
+    sources: ['FOX Reno (KRXI)', 'Reno Police Department'],
+    sourceUrl: 'https://foxreno.com/news/local/ai-scam-targets-reno-pet-owners-with-fake-images-of-missing-pets-to-demand-money',
+    country: 'US',
+    state: 'NV',
+    firstRecorded: '2026-05-19',
+});
+
+UsNS.push({
+    name: 'Fake "Judge Vargas" Court and DMV Warrant Text Scam',
+    slug: 'nevada-fake-court-dmv-warrant-text-scam',
+    description: `In April 2026, Nevada's Eighth Judicial District Court and the state DMV issued a joint public warning after fraudulent text messages impersonating both agencies spread across southern Nevada, falsely claiming recipients owed money for unpaid parking tickets and invoking a fictitious "Judge Vargas" who would issue an arrest warrant — with one version threatening a 35 percent penalty — unless the recipient clicked a payment link. "The court is not going to ask people for their personal identifying information. We're not asking for socials. We're not asking you to click on a link to pay a fine," said Eighth Judicial District Court Chief Judge Jerry A. Wiese. Nevada DMV representative Hailey Foster added, "We're not going to, like, threaten anybody or take them to jail because they're not paying." The messages rotate through different sender names, phone numbers, and fabricated case numbers to dodge spam filters and appear individually tailored to each recipient. Officials urged Nevadans to never click links in unsolicited texts claiming to be from a court or the DMV, and instead to check their DMV account or the court's official website directly, or call the agency using an independently verified phone number, before assuming any such obligation is real.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['News 3 LV (KSNV)', 'Eighth Judicial District Court', 'Nevada DMV'],
+    sourceUrl: 'https://news3lv.com/news/local/fake-dmv-court-texts-threaten-warrants-and-jail-time-officials-say-ignore-links',
+    country: 'US',
+    state: 'NV',
+    firstRecorded: '2026-04-09',
+});
+
+UsNS.push({
+    name: 'NV Energy Search-Engine Ad and Door-to-Door Impersonation Scam',
+    slug: 'nevada-nv-energy-search-ad-door-to-door-impersonation-scam',
+    description: `Starting in August 2025 and continuing through the summer of 2026, NV Energy has repeatedly warned customers about two related impersonation tactics. In the first, flagged by the Nevada Department of Emergency Management in August 2025, scammers pose as NV Energy technicians and go door-to-door at homes and businesses; the utility stresses that genuine employees and contractors carry identification and will never demand immediate payment or threaten disconnection in person, by phone, text, or email, and that NV Energy does not partner with outside companies for HVAC or solar installation work. In the newer variant, which NV Energy flagged again ahead of the July 4, 2026 holiday weekend, criminals purchase sponsored search-engine ads that mimic the utility's branding and appear at the top of results when customers search for its phone number; callers who dial the listed number are connected not to NV Energy but to imposters who attempt to collect account numbers, payment-card details, or other personal information under the guise of setting up or transferring service. NV Energy directs customers to bypass any number found through a search ad or an unsolicited visit and instead dial its verified lines directly — 702-402-5555 in southern Nevada or 775-834-4444 in northern Nevada — or use the official self-service tools at nvenergy.com.`,
+    categorySlug: 'utility-scams',
+    alertLevel: 'medium',
+    sources: ['NV Energy', 'FOX5 Las Vegas (KVVU)', 'News 3 LV (KSNV)'],
+    sourceUrl: 'https://www.fox5vegas.com/2026/07/03/nv-energy-warns-las-vegas-customers-july-4th-weekend-phone-scam/',
+    country: 'US',
+    state: 'NV',
+    firstRecorded: '2025-08-28',
+});
+
+UsNS.push({
+    name: 'Portland General Electric Utility Worker Impersonation Scam',
+    slug: 'oregon-pge-utility-worker-impersonation-scam',
+    description: `Portland General Electric, which serves more than 950,000 customers across roughly 1.9 million Oregonians, warned in January 2026 that scammers are impersonating its field employees to gain entry into homes or to pressure customers into immediate payment. According to PGE's advisory, fraudsters use phone calls, texts, social media messages, and emails to threaten customers with imminent service disconnection unless they pay right away, and some request payment through prepaid cards, digital payment apps, cryptocurrency, or direct bank transfers — methods PGE says it will never use. Other red flags PGE highlighted include callers asking for Social Security numbers or banking details, spoofed caller-ID numbers designed to look like they're coming from the utility, and phishing links embedded in unsolicited texts or emails. PGE said genuine employees always carry visible identification and urged anyone approached in person or by phone to independently verify the person's identity by calling PGE customer service directly at 503-228-6322 before letting them inside or making any payment.`,
+    categorySlug: 'utility-scams',
+    alertLevel: 'medium',
+    sources: ['Portland General Electric', 'KPTV'],
+    sourceUrl: 'https://portlandgeneral.com/news/2026-01-pge-warns-customers-of-deceptive-utility-scams',
+    country: 'US',
+    state: 'OR',
+    firstRecorded: '2026-01-08',
+});
+
+UsNS.push({
+    name: 'Oregon DFR Mobile Payment App Scam Warning',
+    slug: 'oregon-dfr-mobile-payment-app-scam-warning',
+    description: `The Oregon Division of Financial Regulation (DFR) warned consumers in September 2026 about a surge in scams targeting users of mobile payment apps such as Venmo, Cash App, Zelle, and PayPal, noting that because these apps connect directly to bank accounts, debit cards, or credit cards, they have become a prime target for fraud. DFR described several recurring tactics: strangers sending money "by mistake" and then pressuring the recipient to send it back (before the original payment is reversed, leaving the victim out the funds); scammers posing as payment-app customer service representatives who claim an unauthorized transaction occurred and ask for passwords or verification codes; and imposters who create fake accounts mimicking a friend, coworker, employer, or romantic interest to solicit money. "Payment apps make it easier than ever to move money, but that convenience can also make it easier for scammers to target consumers," said DFR Administrator TK Keen. "Scammers know how to create a sense of urgency and trust, whether they claim a payment was sent by mistake, pretend to be a customer service representative, or impersonate someone you know. The best protection is to stop, verify who you are dealing with, and never send money until you are certain the request is legitimate." Oregonians who believe they've been targeted can contact DFR's consumer advocates at 1-888-877-4894 or dfr.financialserviceshelp@dcbs.oregon.gov. Before sending money through any payment app, verify the recipient's identity through a separate, trusted channel first — never based solely on a message or claim from the person requesting it.`,
+    categorySlug: 'phishing',
+    alertLevel: 'medium',
+    sources: ['Oregon Division of Financial Regulation', 'KTVZ'],
+    sourceUrl: 'https://apps.oregon.gov/oregon-newsroom/OR/DCBS/Posts/Post/growing-payment-app-scams',
+    country: 'US',
+    state: 'OR',
+    firstRecorded: '2026-09-02',
+});
+
+UsNS.push({
+    name: 'Oregon DFR AI-Powered Investment Scam Warning',
+    slug: 'oregon-dfr-ai-powered-investment-scam-warning',
+    description: `The Oregon Division of Financial Regulation (DFR) issued a warning on September 14, 2026 that scammers are increasingly using artificial intelligence to make investment fraud pitches, websites, videos, and messages look convincing and legitimate. DFR identified four recurring AI-driven tactics: deepfake videos or cloned audio of celebrities, financial professionals, or trusted contacts promoting investments with guaranteed or unusually high returns; fake "proprietary" AI cryptocurrency trading systems that route victims to bogus platforms showing fabricated account balances and profits, then pressure them to send more cryptocurrency; voice-cloning scams in which calls or messages appear to come from someone the victim knows; and AI-generated chatbots or fabricated romantic profiles used to build trust before soliciting cryptocurrency or startup "investments." DFR Administrator and Oregon Insurance Commissioner TK Keen said, "Artificial intelligence may make a scam look more sophisticated, but the warning signs of investment fraud remain familiar," adding that consumers should "slow down, independently verify who they are dealing with, and never let pressure or fear of missing out drive an investment decision." DFR also cautioned that fraudsters increasingly target people who have already lost money to a scam with fake "recovery" services. Oregonians can report suspected investment fraud to DFR at 1-888-877-4894 or dfr.financialserviceshelp@dcbs.oregon.gov. Before acting on any AI-generated pitch, verify the person's identity and any investment firm's registration status through an independent channel — never through contact information supplied in the pitch itself.`,
+    categorySlug: 'ai-deepfake-scams',
+    alertLevel: 'high',
+    sources: ['Oregon Division of Financial Regulation', 'KTVZ'],
+    sourceUrl: 'https://flashalert.net/id/ODCBS/190941',
+    country: 'US',
+    state: 'OR',
+    firstRecorded: '2026-09-14',
+});
+
+UsNS.push({
+    name: 'Seabrook PayPal Impersonation Cash-Pickup Scam (Li Geng Lin)',
+    slug: 'new-hampshire-seabrook-paypal-cash-pickup-scam',
+    description: `On the afternoon of June 2, 2025, a caller posing as a PayPal representative told an elderly woman in Seabrook, New Hampshire that she owed the company money and instructed her to withdraw $20,000 in cash from her bank, warning her to lie to anyone who asked what the money was for or risk losing access to her financial accounts. Before the scheme's couriers could collect the cash, a family member recognized the warning signs and alerted the Seabrook Police Department, which arrested Li Geng Lin, 58, of Flushing, New York, and Didi Huang, of Brooklyn, New York, when the pair arrived at the victim's home. Lin pleaded guilty on December 11, 2025 to one class A felony count of attempted theft by deception and was sentenced in Rockingham County Superior Court to 2 to 5 years in the New Hampshire State Prison, with part of the term suspended and a condition barring him from working with elderly, disabled, or impaired adults. New Hampshire Attorney General John M. Formella credited the family's quick thinking, saying, "This scam was stopped because a family member of the victim recognized the signs of the scam and acted quickly." No legitimate company — PayPal included — will ever call demanding a cash withdrawal or send someone to your home to collect a debt in person, so anyone who gets such a call should hang up, contact the company only through its official app or website, and alert a trusted family member or local police before taking any action.`,
+    categorySlug: 'account-takeover',
+    alertLevel: 'high',
+    sources: ['New Hampshire Department of Justice', 'Boston 25 News', 'Patch'],
+    sourceUrl: 'https://www.doj.nh.gov/news-and-media/new-york-man-sentenced-prison-role-paypal-scam-targeting-elderly-seabrook-resident',
+    country: 'US',
+    state: 'NH',
+    firstRecorded: '2025-06-02',
+});
+
+UsNS.push({
+    name: 'Derry Warehouse Murder Exposes New Hampshire Gift-Card "Draining" Network',
+    slug: 'new-hampshire-derry-gift-card-draining-apple-warehouse-murder',
+    description: `New Hampshire's lack of a sales tax has made it a hub for an international "gift card draining" operation in which criminals pull unopened gift cards off retail shelves nationwide, secretly record each card's number and PIN, then reseal and return the cards to the shelf; when an unsuspecting shopper later buys and loads money onto one of those cards, the thieves are notified and drain the funds within minutes, either into Apple Wallets or by using them to buy electronics. Investigators say the stolen proceeds funded iPhones, iPads, and Apple Watches shipped to at least 13 rented warehouses across southern New Hampshire — including Windham, Amherst, Seabrook, Londonderry, and Derry — with the Windham facility alone receiving roughly $47 million in Apple products over just ten weeks in the summer of 2025, and a nearby Amherst site receiving another $35 million in iPhones over the same period. The scheme's human toll became public after Gui Lin, a 41-year-old Chinese national working at the Derry warehouse, was stabbed to death on May 19, 2025 during a robbery attempt by men who fled in a U-Haul van searching for Apple inventory; Marco Junior Marquez Vera, 20, of Queens, New York, was later arrested in Madrid, Spain and extradited to face murder charges, and at least 19 people have been charged in New Hampshire in connection with the broader network. A detective involved in the investigation described an enterprise with "hundreds, possibly thousands of people involved... internationally," underscoring that the scheme is a nationwide consumer threat funneled through New Hampshire's tax advantage rather than a purely local crime. Because a drained card looks identical to a legitimate one until it's too late, consumers should buy gift cards only from the register or a sealed, tamper-evident display, check that the PIN's protective scratch-off area is undisturbed before purchase, and activate and spend the card immediately rather than letting it sit unused.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'critical',
+    sources: ['New Hampshire Public Radio (NHPR)', 'WBUR'],
+    sourceUrl: 'https://www.nhpr.org/nh-news/2026-05-14/derry-murder-is-the-latest-fallout-from-nhs-ties-to-global-gift-card-scam',
+    country: 'US',
+    state: 'NH',
+    firstRecorded: '2025-05-19',
+});
+
+UsNS.push({
+    name: 'New Hampshire and FBI Boston Romance Scam Valentine\'s Day Alert',
+    slug: 'new-hampshire-romance-scam-valentines-day-alert',
+    description: `Ahead of Valentine's Day, the New Hampshire Department of Justice and the FBI's Boston Field Office issued coordinated warnings that romance scams — in which fraudsters build fake online relationships before asking for money — cost more than 700 victims across Massachusetts, Maine, New Hampshire, and Rhode Island a combined $20 million in reported losses in 2025 alone. New Hampshire Attorney General John M. Formella said, "Romance scams continue to be a major concern, especially during this time of year," noting that scammers typically send unsolicited messages, invent urgent reasons to avoid meeting in person or on video, and eventually ask for money, gift cards, or cryptocurrency investment. FBI Boston Special Agent in Charge Ted E. Docks urged residents to slow down before trusting an online stranger with money, saying, "The best weapon against these scammers is a healthy dose of skepticism." Officials also flagged that scammers are increasingly using generative AI to build more convincing fake profiles, photos, and even video calls, making the deception harder to spot than in past years. New Hampshire residents who suspect a romance scam should cut off contact immediately, never send money, gift cards, or cryptocurrency to someone they have not met in person, and report losses to local police, the NH DOJ Consumer Protection and Antitrust Bureau at (603) 271-3641, or IC3.gov.`,
+    categorySlug: 'romance-scams',
+    alertLevel: 'high',
+    sources: ['New Hampshire Department of Justice', 'FBI Boston Field Office', 'Newsweek'],
+    sourceUrl: 'https://www.doj.nh.gov/news-and-media/romance-scam-warning-valentines-day',
+    country: 'US',
+    state: 'NH',
+    firstRecorded: '2025-02-13',
+});
+
+UsNS.push({
+    name: 'South Dakota Fraudulent Online Casino Warning',
+    slug: 'south-dakota-fraudulent-online-casino-warning',
+    description: `The South Dakota Commission on Gaming, part of the state Department of Revenue, issued a public warning on August 4, 2025 about a surge in fraudulent online casinos falsely claiming to be affiliated with licensed South Dakota gaming establishments in Deadwood and on tribal land. The Commission said scammers are running misleading ads and social media promotions that imitate the branding and logos of well-known Deadwood and tribal casinos, offering unrealistic bonuses or "guaranteed winnings," and directing consumers to cloned websites or fake mobile apps that often use slightly misspelled domains, such as swapping ".net" for ".com." Under South Dakota law, no online platform offering casino-style games such as slots, table games, sports wagering, or digital card games is authorized to operate in the state, so any site claiming otherwise is automatically suspect; consumers who engage with these unauthorized platforms risk losing money to rigged or nonexistent games and risk identity theft if they submit banking or Social Security information to collect "winnings." The Commission, led by Executive Secretary Mark Heltzel, urged South Dakotans to avoid gambling online altogether, to be skeptical of any offer promising risk-free or guaranteed payouts, to never share financial or Social Security information with an unverified platform, and to scrutinize a site's web address carefully before entering any information, reporting suspicious sites to the Commission at DORSDGaming@state.sd.us or (605) 578-3074.`,
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'medium',
+    sources: ['South Dakota Commission on Gaming', 'South Dakota Department of Revenue'],
+    sourceUrl: 'https://dor.sd.gov/newsroom/beware-of-fraudulent-online-casinos-targeting-individuals/',
+    country: 'US',
+    state: 'SD',
+    firstRecorded: '2025-08-04',
+});
+
+UsNS.push({
+    name: 'South Dakota Job Scam Reports Surge Nearly 85%',
+    slug: 'south-dakota-job-scam-report-surge',
+    description: `A 2026 SmartAsset analysis of Federal Trade Commission Consumer Sentinel Network data found that South Dakota experienced the largest year-over-year increase in job-scam reports of any U.S. state, with residents filing 194 job-scam reports in 2025 compared with 105 in 2024 — an increase of roughly 84.8%, equal to about 215.7 reports per million residents. The scams driving the increase are predominantly "task-based" schemes that reach victims by text message or on platforms like WhatsApp and Telegram, luring them with promises of easy pay for simple tasks such as rating or "liking" products online; scammers typically pay out small amounts after the first task to build trust, then invent "levels" that require the victim to deposit their own money — often in cryptocurrency — before they can withdraw supposed earnings, at which point the scammer disappears with the funds. Young adults are especially likely to be targeted, with job scams now the most commonly reported fraud category among 18-to-34-year-olds nationally. Fraud researcher Gilbert Michaud, PhD, cautioned that "job seekers should always be cautious," citing poorly written advertisements as a common warning sign. South Dakotans approached with an unsolicited job offer that requires moving the conversation to a messaging app, paying money up front, or completing "tasks" for escalating rewards should treat it as a scam and report it to the FTC at ReportFraud.ftc.gov or South Dakota's Attorney General Consumer Protection Division at 1-800-300-1986.`,
+    categorySlug: 'employment-scams',
+    alertLevel: 'medium',
+    sources: ['SmartAsset (FTC Consumer Sentinel Network data)', 'Federal Trade Commission'],
+    sourceUrl: 'https://smartasset.com/data-studies/where-job-scams-happen-most-2026-study',
+    country: 'US',
+    state: 'SD',
+});
+
+UsNS.push({
+    name: 'Downtown Sioux Falls Parking QR Code Scam Warning',
+    slug: 'south-dakota-sioux-falls-parking-qr-code-scam-warning',
+    description: `As downtown Sioux Falls rolled out new parking rules and payment options on May 1, 2025 — including a Saturday paid-parking requirement and a new Text-to-Pay system — local officials paired the change with a consumer warning about QR code "quishing" scams that have hit parking meters in other cities. Citing Better Business Bureau guidance, the city warned that scammers place counterfeit QR code stickers over or near legitimate ones on meters and signs; scanning one of these fake codes redirects the driver to a fraudulent payment website designed to steal card numbers or other personal information instead of actually paying for parking. Matt Nelson, the city's Public Parking and Utility Billing Manager, said Sioux Falls deliberately avoided building QR codes into its new system for this reason: "With the new system, there are no QR codes. We're moving away from QR codes." Officials said no fraudulent QR codes had been reported on Sioux Falls meters at the time of the warning, but urged drivers citywide to stay alert for stickers that look homemade, peeling, or out of place on any meter or sign, to pay only through the official Park Smarter app, Text-to-Pay, credit card, or cash, and to report any suspicious QR code found on public parking equipment to the city so it can be removed before someone loses money to it.`,
+    categorySlug: 'qr-code-scams',
+    alertLevel: 'low',
+    sources: ['Dakota News Now', "City of Sioux Falls Public Parking Division", 'Better Business Bureau'],
+    sourceUrl: 'https://www.dakotanewsnow.com/2025/05/01/first-alert-safety-check-how-spot-scam-during-new-dtsf-parking-changes/',
+    country: 'US',
+    state: 'SD',
+    firstRecorded: '2025-05-01',
+});
+
+UsNS.push({
+    name: 'Saluda County $25 Million Business Email Compromise Fraud Ring (Demani and Tanya Bosket)',
+    slug: 'south-carolina-bosket-business-email-compromise-fraud',
+    description: `A federal jury in South Carolina convicted Demani Jawara Bosket, 51, of Saluda, and his niece Tanya Lashawn Bosket, 53, of Charlotte, North Carolina, for running the U.S. side of a transnational business email compromise scheme that stole more than $25 million from companies and individuals across the country between 2020 and 2024. According to the U.S. Attorney's Office and IRS Criminal Investigation, overseas conspirators hacked into business email accounts, quietly monitored correspondence for weeks or months to identify pending large transactions such as real estate closings, vendor payments, loan disbursements, and inheritance transfers, then sent spoofed emails impersonating attorneys, title company representatives, and bank officials to redirect the payments. Demani Bosket directed U.S.-based participants — including seven co-conspirators from Charlotte, Jacksonville, Savannah, and Auburn who pleaded guilty before trial — to register shell businesses and bank accounts, then rapidly drained the stolen funds through cash withdrawals and cashier's checks before wiring the remainder overseas; the U.S. Secret Service was able to recover only about $2.5 million of the more than $25 million taken. Demani Bosket was convicted on wire fraud conspiracy, money laundering conspiracy, and six counts of wire fraud, facing up to 30 years in prison and a $50 million fine, while Tanya Bosket was convicted on the conspiracy counts and four counts of wire fraud, facing up to 20 years and the same fine. "The jury saw through this scheme and rendered the right verdict," said U.S. Attorney Bryan Stirling, while IRS-CI Special Agent in Charge Donald "Trey" Eakins said the case "underscores our unwavering commitment to protecting American businesses and individuals from complex, organized cyber enabled fraud." Businesses and individuals involved in wire transfers — especially real estate closings — should independently verify any last-minute changes to payment or account instructions by phone, using a previously known number, before sending money.`,
+    categorySlug: 'business-email-compromise',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office, District of South Carolina", 'IRS Criminal Investigation'],
+    sourceUrl: 'https://www.irs.gov/compliance/criminal-investigation/federal-jury-convicts-saluda-county-man-and-charlotte-nc-woman-for-25m-wire-fraud-and-money-laundering-scheme',
+    country: 'US',
+    state: 'SC',
+    firstRecorded: '2026-06-11',
+});
+
+UsNS.push({
+    name: 'SCDOR Fake Tax Refund Text Message Scam',
+    slug: 'south-carolina-scdor-fake-refund-text-scam',
+    description: `The South Carolina Department of Revenue issued a public warning after residents reported receiving text messages falsely claiming to be from the agency and dangling a tax refund as bait. The message told recipients they were owed money but had to click an embedded link and submit personal information before an October 29, 2025 deadline, or forfeit the funds — a manufactured urgency designed to override caution. The SCDOR was blunt in its rebuttal: "The SCDOR will never text you asking for sensitive data," the agency said, stressing that legitimate correspondence about a filer's account is sent by mail, not SMS. The agency urged anyone who receives a similar message to delete it without clicking any link, report it to their mobile carrier, the South Carolina Department of Consumer Affairs, and the FTC, and to contact their bank immediately if they already clicked through or entered financial information. South Carolinians unsure whether a tax-related text, call, or email is genuine can call the SCDOR directly at 1-844-898-8542 to verify — and should never click a link in an unsolicited tax message, no matter how urgent it claims to be.`,
+    categorySlug: 'tax-scams',
+    alertLevel: 'medium',
+    sources: ['South Carolina Department of Revenue'],
+    sourceUrl: 'https://dor.sc.gov/news/scdor-warns-ongoing-text-message-scam',
+    country: 'US',
+    state: 'SC',
+    firstRecorded: '2025-10-23',
+});
+
+UsNS.push({
+    name: 'Dominion Energy South Carolina Disconnection Threat Utility Scam',
+    slug: 'south-carolina-dominion-energy-disconnection-scam',
+    description: `During National Consumer Protection Week, Dominion Energy issued a consumer alert to its South Carolina customers warning of a persistent utility-impersonation scam in which callers, texters, and emailers pose as company representatives and threaten to shut off electric service within the hour unless the customer pays immediately. Christina Freeman, Dominion Energy's General Manager of Customer Service, said the calls "are designed to feel urgent and intimidating," pressuring victims into handing over account numbers or payment before they have time to think it through. The company stressed several hard lines scammers routinely cross: Dominion Energy will never threaten immediate disconnection over the phone, demand payment by phone on the spot, require payment via wire transfer, money order, prepaid debit card, or gift card, or ask for payment in person. A telling giveaway, the company noted, is that genuine scammers typically do not know a customer's actual account balance, which real Dominion Energy customers can check anytime through the company's official website or mobile app. Customers who receive a threatening disconnection call or message should hang up or ignore it, never click links in unsolicited texts or emails, and verify their account status only through Dominion's official app, website, or the number printed on a past bill — not a callback number the caller provides.`,
+    categorySlug: 'utility-scams',
+    alertLevel: 'medium',
+    sources: ['Dominion Energy', 'South Carolina Public Radio'],
+    sourceUrl: 'https://www.southcarolinapublicradio.org/2026-03-02/dominion-energy-cautions-consumers-about-utility-scams',
+    country: 'US',
+    state: 'SC',
+    firstRecorded: '2026-03-02',
+});
+
+UsNS.push({
+    name: 'Bayonne "Grandson in Jail" Grandparent Scam (Jhon Arias Gil)',
+    slug: 'new-jersey-bayonne-jhon-arias-gil-grandparent-scam',
+    description: `Bayonne Police responded to a resident's home on May 5, 2026 after an elderly woman reported she had just been defrauded by a caller who falsely claimed her grandson had been in a car accident and was being held in jail. A second person on the call, posing as the grandson himself, pressed her for bail money; believing the story, she withdrew a large sum of cash from her bank and, following the caller's instructions, handed it over to an individual who arrived at her residence. Detectives determined that person was an Uber driver who had unknowingly been hired as a courier in the scheme, and within hours traced the scam back to 24-year-old Jhon Arias Gil of Paterson, who was taken into custody the same day with the assistance of the Paterson Police Department. Arias Gil was charged with theft by deception, wrongful impersonation, and conspiracy. Bayonne Police urged residents to verify the legitimacy of any such call by contacting family members directly before sending money, since a real emergency call from a grandchild's attorney, bail bondsman, or the grandchild "in trouble" can always be checked by hanging up and calling that grandchild or another relative on a known phone number.`,
+    categorySlug: 'grandparent-scams',
+    alertLevel: 'high',
+    sources: ['Bayonne Police Department', 'Hudson County View'],
+    sourceUrl: 'https://hudsoncountyview.com/police-paterson-man-24-arrested-for-using-grandparent-scam-on-bayonne-woman/',
+    country: 'US',
+    state: 'NJ',
+    firstRecorded: '2026-05-05',
+});
+
+UsNS.push({
+    name: 'Middlesex County Prosecutor Employment Scam Alert',
+    slug: 'new-jersey-middlesex-county-employment-scam-alert',
+    description: `The Middlesex County Prosecutor's Office issued a fraud alert on August 18, 2026 warning residents that scammers are increasingly targeting job seekers as layoffs mount, citing more than 1.17 million U.S. workers laid off in 2025 as the backdrop fueling the scheme. According to the alert, fraudsters post fake job advertisements on social media, online marketplaces, and legitimate job-search sites — even reputable platforms like LinkedIn and Indeed are not immune — while impersonating real companies and staffing agencies, in one documented example falsely claiming to represent Walmart, and directing applicants to counterfeit websites built to look authentic. Warning signs the office flagged include unusually high pay offered for minimal work, a job offer extended without any interview, and any request for an application or interview fee. Once a target is hooked, scammers press for banking information, a Social Security number, or a copy of a government-issued ID before any legitimate employer would ever need it. The Prosecutor's Office advised job seekers to independently verify a company and its recruiter using official contact information found on the employer's own website, never a number or link supplied in the job posting itself, and to cut off contact, preserve all messages, and report the attempt to local police, the FTC at ReportFraud.ftc.gov, or the FBI's Internet Crime Complaint Center at ic3.gov if targeted.`,
+    categorySlug: 'employment-scams',
+    alertLevel: 'medium',
+    sources: ["Middlesex County Prosecutor's Office", 'Patch', 'News 12 New Jersey'],
+    sourceUrl: 'https://patch.com/new-jersey/edison-metuchen/job-seekers-targeted-scammers-middlesex-county-officials-warn',
+    country: 'US',
+    state: 'NJ',
+    firstRecorded: '2026-08-18',
+});
+
+UsNS.push({
+    name: 'New Jersey Fake "Unpaid Parking Ticket" QR Code Text Scam',
+    slug: 'new-jersey-fake-parking-ticket-qr-code-text-scam',
+    description: `Municipal officials and police departments across New Jersey — including Newark, Jersey City, Fair Lawn, Carlstadt, Roselle, Plainsboro, and Barnegat — warned residents in March 2026 about a wave of fraudulent text messages designed to look like an official municipal-court hearing notice for an unpaid parking violation. The texts carry a New Jersey state seal, cite real parking statutes to appear credible, are signed by a fictional "Judge John Smith," and include a QR code that recipients are told to scan to pay the supposed fine before a court date. Newark Interim Municipal Court Administrator Shaka Lemoniaus confirmed the messages "are not from the New Jersey Motor Vehicle Commission or the Newark Municipal Court and are fraudulent," warning residents plainly, "Do not scan the QR code, make a payment or enter your personal information." Lemoniaus added that "Newark and other municipal courts in New Jersey send official notices by U.S. Mail only and do not text or use email," making any texted court notice an automatic red flag regardless of how official the seal or case number looks. Residents who receive one of these texts are advised not to scan the QR code or click any link, and to call their municipal court directly using a number looked up independently — Newark's Municipal Court can be reached at 973-733-6520 — rather than any number or code included in the message itself.`,
+    categorySlug: 'qr-code-scams',
+    alertLevel: 'medium',
+    sources: ['Newark Municipal Court', 'NJ.com', 'ABC7 New York (WABC)'],
+    sourceUrl: 'https://www.yahoo.com/news/articles/don-t-fall-latest-fake-185957207.html',
+    country: 'US',
+    state: 'NJ',
+    firstRecorded: '2026-03-22',
+});
+
+UsNS.push({
+    name: 'North Dakota Insurance Department Unfair Medicare Marketing Practices Warning',
+    slug: 'north-dakota-unfair-medicare-marketing-practices-warning',
+    description: `The North Dakota Insurance Department warned on November 7, 2025 that seniors statewide could be harmed by insurers and agents manipulating the Medicare marketplace, issuing Bulletin 2025-2 to every insurance company and licensed producer selling Medicare Advantage, Medicare Supplement, Cost Plan, and Prescription Drug Plan coverage in the state. The bulletin flags a specific set of tactics regulators say some companies have used elsewhere to steer seniors away from full, unbiased options: quietly removing certain plans' enrollment applications from a carrier's own website, discouraging producers from selling specific plans, and altering or cutting off a producer's commission structure mid-year so agents are financially pushed toward pitching only the products that still pay out. Commissioner Jon Godfread said "North Dakota's seniors deserve clear, honest, and accessible information when choosing Medicare coverage," adding that "fair markets depend on fair play. Artificially limiting options or changing compensation after filings have been approved harms consumers." The Department said it will monitor compliance and pursue enforcement against any insurer or producer found manipulating the Medicare market to the detriment of consumers. Seniors who feel steered toward a plan that doesn't fit their needs, or who suspect an agent is limiting their options, are urged to call the free North Dakota State Health Insurance Counseling Program (NDSHIP) at 1-888-575-6611 for independent, unbiased Medicare guidance before enrolling in or switching any plan.`,
+    categorySlug: 'medicare-health-plans',
+    alertLevel: 'medium',
+    sources: ['North Dakota Insurance Department', 'Minot Daily News'],
+    sourceUrl: 'https://www.insurance.nd.gov/news/north-dakota-seniors-could-feel-impact-unfair-medicare-sales-practices-department-warns',
+    country: 'US',
+    state: 'ND',
+    firstRecorded: '2025-11-07',
+});
+
+UsNS.push({
+    name: 'North Dakota Securities Department "Investment Education Foundation" Crypto Scam Warning',
+    slug: 'north-dakota-investment-education-foundation-crypto-scam-warning',
+    description: `The North Dakota Securities Department issued a public warning on March 13, 2025 about a fast-spreading scam built around fake "investment education foundations" that use cryptocurrency and AI chatbots to drain victims' savings. According to the alert, the scheme typically starts with a social media ad that funnels a prospective investor into a WhatsApp group run by a supposed "founder" and AI bots, who spend time teaching basic investing concepts before introducing a fraudulent cryptocurrency exchange. New members are offered a "free" token trial that shows fake profits to build confidence, and once they deposit real money, scammers posing as lenders on Telegram offer to cover any shortfall with a "loan" paid directly into the exchange — money the victim is then told they must repay, along with invented commissions or regulatory fees, before any of the supposed profit can be withdrawn; accounts are ultimately frozen under a fabricated pretext and the operation closes and reopens later under a new name. Commissioner Tim Karsky said "the rise of fake 'investment education foundations' is a concerning trend that preys on investors' desire to reduce the risk of investing in cryptocurrency," warning that scammers lend the scheme false credibility with falsified U.S. Treasury and SEC registration documents and fabricated news articles. "Do not assume an education foundation is trustworthy just because it is promoted on social media," Karsky said. North Dakota investors approached this way are urged to independently verify any "education foundation" or cryptocurrency exchange's registration through the North Dakota Securities Department (www.securities.nd.gov) before depositing a single dollar, and to treat an unsolicited investment pitch that arrives through a social media ad as a red flag on its own.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'medium',
+    sources: ['North Dakota Securities Department', 'InForum (Forum Communications)', 'Minot Daily News'],
+    sourceUrl: 'https://www.inforum.com/news/north-dakota/north-dakota-securities-department-warns-public-of-elaborate-new-cryptocurrency-scam',
+    country: 'US',
+    state: 'ND',
+    firstRecorded: '2025-03-13',
+});
+
+UsNS.push({
+    name: 'Grand Forks Fake Fair and Event Vendor-Space Scam',
+    slug: 'north-dakota-grand-forks-fake-vendor-space-scam',
+    description: `Ahead of the 2025 summer fair and festival season, the Grand Forks Police Department warned local vendors about social media posts advertising vendor booth space — complete with perks like free Wi-Fi — for events that turned out not to exist. Vendors who responded and paid a roughly $50 "registration fee" got nothing in return: no booth, no event, and no way to reach whoever had taken their payment. Grand Forks Police Officer Kris Brown said investigators recognized the posts as part of a template being run against vendors in multiple states at once: "This same kind of post was referenced in New Mexico, is referenced in Texas — same dates, same time, same messaging, same everything." Rocky Schneider of the Downtown Community Partnership, which organizes some of the events being impersonated, urged vendors to skip social media entirely when signing up: "The nice part is local events — they have local contacts. You can show up at their office... But don't just respond on Facebook." Vendors are advised to verify any event and its vendor registration process by contacting the organizer directly, through a phone number or website looked up independently rather than a link in the post itself, and to be skeptical of any vendor-space offer that pressures an "act now" payment before basic details like the event's exact location and organizer can be confirmed. Suspected scams can be reported to the Grand Forks Police Department's non-emergency line at 701-787-8000.`,
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'low',
+    sources: ['Grand Forks Police Department', 'InForum (Forum Communications)'],
+    sourceUrl: 'https://www.inforum.com/news/north-dakota/grand-forks-police-warn-vendors-of-scam-ahead-of-fair-season',
+    country: 'US',
+    state: 'ND',
+    firstRecorded: '2025-04-18',
 });

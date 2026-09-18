@@ -4030,6 +4030,45 @@ UsTZ.push({
 });
 
 UsTZ.push({
+    name: 'Virginia Beach Man Sentenced to 25 Years for Sextortion Scheme Targeting Minors and Adult Victim',
+    slug: 'virginia-beach-whichard-sextortion-scheme',
+    description: `Justin Whichard, a 24-year-old Virginia Beach man, ran an online sextortion scheme in which he built sexual and romantic rapport with two 14-year-old girls before threatening to expose their conversations to their families unless they produced child sexual abuse material. He then took the images he had coerced from the minors and, posing as one of them, used the material to extort money from an adult victim by threatening to expose the supposed relationship. The scheme unraveled after a July 26, 2023 search of Whichard's residence, conducted in connection with an unrelated online purchase of a machinegun conversion device, turned up 131 images and 15 videos of child sexual abuse material plus more than 100 additional exploitative images on his phone. Whichard fled across several states while free on bond before being captured in Tennessee in March 2024, pleaded guilty on November 5, 2024, and was ultimately sentenced in federal court to 25 years in prison in a case prosecuted by the U.S. Attorney's Office for the Eastern District of Virginia. The case is a reminder that sextortion now often runs in both directions: predators coerce images from minors and then repurpose those same images to extort money from adults who believe they are communicating with the minor. Anyone contacted online by someone claiming a sexual relationship with a minor, or threatened with exposure over intimate images, should never send money or additional images and should report the account immediately to the National Center for Missing & Exploited Children's CyberTipline and local FBI field office.`,
+    categorySlug: 'sextortion',
+    alertLevel: 'critical',
+    sources: ['WTKR', 'Yahoo News'],
+    sourceUrl: 'https://www.wtkr.com/news/in-the-community/virginia-beach/virginia-beach-man-gets-25-years-for-sextortion-of-two-14-year-old-girls',
+    country: 'US',
+    state: 'VA',
+    firstRecorded: '2023-07-26',
+});
+
+UsTZ.push({
+    name: 'Kars-R-Us / United Breast Cancer Foundation Deceptive Vehicle-Donation Scheme',
+    slug: 'virginia-kars-r-us-ubcf-vehicle-donation-charity-scam',
+    description: `Virginia Attorney General Jason Miyares joined the Federal Trade Commission and 18 other states in a September 2025 enforcement action against Kars-R-Us.com, Inc. and its operator Michael Irwin, who ran a national vehicle-donation fundraising operation on behalf of the United Breast Cancer Foundation. Kars solicited car donations through television, radio, and online ads promising the proceeds would let UBCF "save lives" by funding free and low-cost breast cancer screenings, and more than 84,000 people donated vehicles between 2017 and 2022, generating over $45.5 million. Regulators found that only $126,815, about 0.28% of everything raised, actually went toward cancer screenings, while $34.9 million went to Kars, its operators, and its vendors. "I am pleased that we were able to stop this deceptive and unlawful charitable solicitation scam," Miyares said when the settlement, filed in the U.S. District Court for the Central District of California, was announced; the deal permanently bars Irwin from fundraising and directs $550,000 to legitimate cancer-related charities. Before donating a vehicle or cash to any charity, especially one promising a specific medical benefit like free screenings, Virginians should check the charity's actual program spending through resources like CharityNavigator, the BBB Wise Giving Alliance, or the Virginia Office of Consumer Affairs rather than relying on the pitch in an ad.`,
+    categorySlug: 'charity-scams',
+    alertLevel: 'medium',
+    sources: ["Virginia Attorney General's Office", 'Federal Trade Commission', 'Potomac Local News'],
+    sourceUrl: 'https://www.potomaclocal.com/2025/09/26/attorney-general-miyares-announces-action-against-deceptive-cancer-charity-fundraising-scheme/',
+    country: 'US',
+    state: 'VA',
+    firstRecorded: '2025-09-25',
+});
+
+UsTZ.push({
+    name: 'Richmond Fake Court "John Smith" QR Code Toll/Parking Violation Text Scam',
+    slug: 'virginia-richmond-fake-court-qr-code-toll-scam',
+    description: `On March 16, 2026, the Richmond Police Department and Commonwealth's Attorney Colette McEachin warned residents about text messages carrying a fake court letter accusing recipients of a "Parking Violation / Failure to Pay Electronic Toll" and demanding they either appear in court by 9 a.m. the next morning or pay a fine beforehand. The letter was signed "John Smith, Clerk of the Court" but also listed the presiding judge as "John Smith," carried a malformed case number, and included a QR code instructing recipients to "scan the QR code to settle your unpaid balance." McEachin stated flatly that "the General District Court clerk's office does not send texts regarding court dates," and the clerk's office fielded more than 200 panicked calls in just four hours after the messages went out. The scam appears to have piggybacked on genuine public confusion over the Richmond Metropolitan Transportation Authority's newly implemented all-electronic tolling system, which made the fake toll-violation premise land as more plausible than it otherwise would have. Richmond Police urged anyone who receives one of these texts not to respond, click any link, or scan the QR code, and instead to verify any claimed court date by calling the clerk's office directly using a number looked up independently, never one provided in the text itself.`,
+    categorySlug: 'qr-code-scams',
+    alertLevel: 'high',
+    sources: ['WTVR CBS 6', 'Richmond Police Department', "Richmond Commonwealth's Attorney's Office"],
+    sourceUrl: 'https://www.wtvr.com/news/local-news/richmond-text-scam-march-16-2026',
+    country: 'US',
+    state: 'VA',
+    firstRecorded: '2026-03-16',
+});
+
+UsTZ.push({
     name: 'Tamarac-Based Medicare Orthotic Brace Fraud and Money Laundering Scheme (Scamarone, Mendez, and Vazquez)',
     slug: 'florida-tamarac-scamarone-mendez-vazquez-brace-fraud',
     description: `Marco Scamarone, 34, and Renee Vazquez, 33, both of Tamarac, and Jose Mendez, 34, of Coral Springs, owned and operated two durable medical equipment (DME) companies — Braces and Orthotics LLC, nominally based in the Eastern District of Virginia, and Stone Oak Durable Medical Equipment LLC, based in South Florida. Between January 2022 and February 2023, the two companies submitted approximately $6.9 million in false claims to Medicare for orthotic braces that beneficiaries neither needed nor were eligible to receive, paying illegal kickbacks and bribes to an offshore marketing company in exchange for patient referrals and fraudulent doctors' orders authorizing the equipment. The three defendants then laundered more than $2.2 million of the fraud proceeds through a series of shell companies they and their associates controlled. All three pleaded guilty in December 2025, and on June 1, 2026 were sentenced in the U.S. District Court for the Southern District of Florida — Mendez to 78 months, Scamarone to 70 months, and Vazquez to 60 months in federal prison, with Scamarone and Mendez ordered to forfeit more than $2.2 million and pay over $3 million in restitution, and Vazquez ordered to forfeit more than $1.7 million and pay over $2.2 million in restitution. Medicare beneficiaries who receive an orthotic brace or other durable medical equipment they never requested from their own doctor should check the Medicare Summary Notice mailed after any claim and report unfamiliar billing, since an unsolicited shipment is often the first sign that a beneficiary's Medicare number is being used to bill for equipment they never asked for and never received.`,
@@ -4081,6 +4120,85 @@ UsTZ.push({
     state: 'WA',
     isHistorical: true,
     firstRecorded: '2021-01-01',
+});
+
+UsTZ.push({
+    name: 'Snohomish County Fake Arrest Warrant and Judge/FBI Impersonation Scam',
+    slug: 'washington-snohomish-fake-arrest-warrant-impersonation-scam',
+    description: `Since at least August 2025, the Snohomish County Sheriff's Office has fielded at least 100 reports a month of scammers impersonating federal judges, FBI agents, and even named Snohomish County deputies, using real officer names and identities to sound legitimate. Victims are contacted by text, phone call, or email and shown forged court documents with fabricated case numbers and counterfeit federal court seals claiming they missed jury duty and now have an outstanding arrest warrant. Some calls use automated voice messages impersonating law enforcement that then transfer the victim to a live scammer, who demands "bond" payment of thousands of dollars via Bitcoin, gift cards, or mobile payment apps. The scam disproportionately targets elderly residents and people unfamiliar with how courts actually operate. Authorities stress that real law enforcement never demands payment digitally and warrants are served in person, never by phone, text, or email — hang up immediately, do not send money or gift-card codes, and verify any claimed warrant by calling the sheriff's office directly using a number you look up yourself.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['FOX 13 Seattle', "Snohomish County Sheriff's Office"],
+    sourceUrl: 'https://www.fox13seattle.com/news/scammers-impersonating-judges-fbi-deputies',
+    country: 'US',
+    state: 'WA',
+    firstRecorded: '2025-08-07',
+});
+
+UsTZ.push({
+    name: 'Tacoma Federal Court "Giovanni" Online Dating Romance Scam (Franklin Nwadialo)',
+    slug: 'washington-tacoma-nwadialo-giovanni-romance-scam',
+    description: `Franklin Ikechukwu Nwadialo, a 42-year-old Nigerian national, ran online-dating romance scams for roughly 15 years, using variations of the alias "Giovanni" to meet victims, mostly older, widowed, or divorced people, on Match, Zoosk, and Christian Café. He was indicted in December 2023 on 14 counts of wire fraud, arrested in 2024 at a Texas airport, and pleaded guilty; on June 23, 2026, a judge in U.S. District Court in Tacoma sentenced him to five years in prison for stealing $3.5 million from eight identified victims. The judge said the scheme "ruined lives, not only financial lives," causing "shame, depression, and isolation from their own family," while prosecutors noted Nwadialo "upended the lives of people he never met," even fabricating a story that he ran a nonprofit for autistic children to build trust. One victim maintained a three-year fraudulent online relationship with him; one widow lost her home and her life savings. Never send money, gift cards, or crypto to someone you have only met online, be suspicious of any partner who avoids video calls or in-person meetings and eventually asks for financial help, and talk to a trusted family member before wiring funds to an online romantic interest.`,
+    categorySlug: 'romance-scams',
+    alertLevel: 'high',
+    sources: ['KOMO News', 'U.S. Attorney\'s Office, Western District of Washington'],
+    sourceUrl: 'https://komonews.com/news/local/nigerian-man-sentenced-to-5-years-in-prison-for-million-dollar-romance-scam-victims-online-dating-scams-match-zoosk-and-christian-cafe',
+    country: 'US',
+    state: 'WA',
+    isHistorical: true,
+    firstRecorded: '2023-12-01',
+});
+
+UsTZ.push({
+    name: 'FBI Seattle AI-Generated Financial Scam Surge Warning',
+    slug: 'washington-fbi-seattle-ai-financial-scam-surge',
+    description: `FBI Seattle Special Agent in Charge Mike Herrington warned in March 2026 that AI-generated financial scams are escalating sharply in Washington state: in 2025 alone, 600 Washington residents were defrauded out of $25 million, and both the number of victims and dollar losses statewide have tripled since 2020 (nationally, the FBI says 4.2 million people have been targeted and $50.5 billion lost since 2020). Herrington explained that "frauds at their core are about building and exploiting trust, and AI makes it more effective in doing that," letting criminals "create emails, chats, generate fake photos and even videos to convince a victim" that a fabricated person or emergency is real, supercharging decades-old romance, ransom, and impersonation schemes rather than creating new ones. People over 60 are the most common targets, with people in their 40s the second-most targeted group. Because AI can now fabricate convincing photos, voice, and video "evidence," treat any urgent request for money, even one backed by a photo, voice note, or video call, as unverified until you independently confirm the person's identity through a phone number or channel you already know is theirs, and report suspected AI-assisted fraud to ic3.gov.`,
+    categorySlug: 'ai-deepfake-scams',
+    alertLevel: 'critical',
+    sources: ['KIRO 7 News Seattle', 'FBI Seattle Field Office'],
+    sourceUrl: 'https://www.kiro7.com/news/local/fbi-warns-rapidly-developing-ai-financial-scams/SNTATOJRQJFDHCVD6D7PFFA35I/',
+    country: 'US',
+    state: 'WA',
+    firstRecorded: '2026-03-26',
+});
+
+UsTZ.push({
+    name: 'Puget Sound Energy Fake Disconnection Threat Scam',
+    slug: 'washington-puget-sound-energy-disconnection-threat-scam',
+    description: `Puget Sound Energy has repeatedly warned customers across its service territory — more than a million electric and natural gas accounts in King, Pierce, Snohomish, Kitsap, Thurston, and other western Washington counties — about a persistent phone scam in which callers spoof PSE's real caller ID and claim the customer's account is severely past due, threatening to cut off power or gas within the hour unless payment is made immediately through a prepaid debit card, gift card, or cash-transfer app. In a February 2024 alert issued after a fresh wave of reports, PSE stated plainly, "PSE never asks or requires customers with outstanding account balances to purchase a prepaid debit card or pay via cash apps to avoid immediate disconnection," and urged anyone who gets a suspicious call to hang up and check their account status directly through the MyPSE app, the utility's secure online payment portal, or its published customer service line — not any number the caller provides. PSE's current scam-alert page flags related variants as well, including callers who falsely claim a customer is owed a refund and ask for bank account numbers to "process" it, and scammers who show up in person at a customer's door offering to restore power for a fee, something PSE says its real employees would never do. Anyone contacted this way should treat a demand for immediate payment to avoid disconnection as a scam and independently verify their account status before sending any money.`,
+    categorySlug: 'utility-scams',
+    alertLevel: 'medium',
+    sources: ['KIRO 7 News Seattle', 'Puget Sound Energy'],
+    sourceUrl: 'https://www.kiro7.com/news/local/puget-sound-energy-warns-customer-utility-scams/Z5QQP3BBGBGQRHVP7SRC3YZWYI/',
+    country: 'US',
+    state: 'WA',
+    firstRecorded: '2024-02-17',
+});
+
+UsTZ.push({
+    name: 'King County District Court Fake QR Code Ticket Scam',
+    slug: 'washington-king-county-district-court-qr-code-ticket-scam',
+    description: `Beginning in March 2026, King County District Court and the King County Prosecuting Attorney's Office issued a joint warning after fraudulent hearing notices impersonating the court began circulating by text message and email across the Seattle area. The fake notices carry what looks like an official King County District Court seal and tell recipients they must appear in court the next day or resolve an unpaid vehicle toll, speeding ticket, or other violation immediately, embedding a QR code that victims are pressured to scan to "Pay Now" or risk having their driver's license cancelled. Officials identified several giveaways: the wording inside the court seal reads as garbled, nonsensical text, the fake notices frequently list both the judge and the court clerk under the identical fictitious name "John Smith," and none include the violation date, citing officer, or license-plate details a real citation would contain. As the King County Prosecuting Attorney's Office put it, "It is NOT a notice from King County District Court. It is a scam notice," urging recipients not to "click the QR code or send money." The court's own guidance, echoed by the King County Sheriff's Office, notes that it does not send tickets by text or email, that related scammers have called prospective jurors demanding cash or kiosk payment while threatening to "conference in the Sheriff," and that it accepts no QR-code payments at all. Anyone unsure whether a notice is real should independently look up their case on the court's online Case Access Resources page or call the court directly, rather than scanning any code or clicking any link in the message itself.`,
+    categorySlug: 'qr-code-scams',
+    alertLevel: 'high',
+    sources: ['King County District Court', "King County Prosecuting Attorney's Office"],
+    sourceUrl: 'https://kingcounty.gov/en/court/district-court/about-king-county/about-district-court/court-scams',
+    country: 'US',
+    state: 'WA',
+    firstRecorded: '2026-03-20',
+});
+
+UsTZ.push({
+    name: 'Better Business Bureau Washington Job Scam Surge',
+    slug: 'washington-bbb-job-scam-surge-2026',
+    description: `The Better Business Bureau serving Washington, Alaska, Oregon, and Western Montana reported in January 2026 that it had logged nearly 600 job-scam reports from the region over the prior year, with victims reporting combined losses topping $426,000 — including one Washington job seeker who lost $15,000 after being steered into a cryptocurrency "investment" as part of a fake onboarding process. The scams typically begin with a text message or email impersonating a recruiter or well-known company, dangling high pay, flexible remote hours, and unusually fast hiring decisions to lure active job seekers, recently laid-off workers, and students. After conducting a sham interview and "onboarding," scammers pursue several paths to the victim's money: charging upfront fees of $1,000 to $3,000 for supposed training or equipment, mailing a fraudulent overpayment check and asking the new "employee" to wire back the difference, or offering paid "money-making tasks" that require the victim to front funds first. Scammers often scrape a target's real employment history and photo from LinkedIn, or use data from prior breaches, to make the fake job posting and recruiter profile look credible. The BBB advises job seekers to independently research any company and recruiter through BBB.org, Google, and Glassdoor, stick to reputable, BBB-accredited job boards, and treat any job offer that requires paying money upfront, cashing a check and wiring back funds, or completing paid "tasks" before doing any real work as a scam.`,
+    categorySlug: 'employment-scams',
+    alertLevel: 'high',
+    sources: ['Better Business Bureau', 'KOMO News'],
+    sourceUrl: 'https://komonews.com/news/local/fake-job-scams-washington-state-better-business-bureau-employment-text-messages-recruiter-private-information-phishing-fraudulent-check-financial-loss',
+    country: 'US',
+    state: 'WA',
+    firstRecorded: '2026-01-16',
 });
 
 UsTZ.push({
@@ -4512,4 +4630,236 @@ UsTZ.push({
     sourceUrl: 'https://sos.wv.gov/article/secretary-state-issues-warning-notice-general-public-text-scam-using-wv-state-seal',
     country: 'US',
     state: 'WV',
+});
+
+UsTZ.push({
+    name: 'Nashville "Candy Donation" Cell Phone Fraud Scheme',
+    slug: 'tennessee-nashville-candy-donation-cell-phone-fraud-scheme',
+    description: `Metro Nashville Police are warning residents and tourists about a street-level fraud scheme in which young operators approach targets in high-foot-traffic areas — from the 12th Avenue South and Beechwood Avenue corridor to the honky-tonks along downtown Broadway — under the guise of collecting candy donations for a school or charity, or offering to add the person as a social media follower, then ask to briefly hold the victim's unlocked cell phone. Once the phone is in hand, the operator opens banking or payment apps like Apple Pay and transfers money out before handing the device back, often before the victim even realizes anything is wrong. Detectives tied 19-year-old Dewaine Gordon to at least two documented incidents — an $840 transfer from a victim on Beechwood Avenue and $421 and $453 in unauthorized Apple Pay withdrawals from a second victim on Broadway — and arrested him on robbery, credit-card-fraud, and delinquency-of-a-minor charges while he was already free on a $10,000 bond from a January arrest on similar charges. A second suspect, Lakeel Horton, was taken into custody on outstanding credit-card-fraud warrants tied to a $1,000 theft from a victim outside a Hermitage grocery store. Metro police say the pattern keeps recurring because the youths make bond and return to the same tourist-heavy blocks within weeks. "Nashvillians are urged to protect themselves from these scams by retaining possession of cell phones at all times and never letting strangers handle them," police said. The simplest defense is exactly that: never hand an unlocked phone to a stranger, no matter how sympathetic or casual the request sounds.`,
+    categorySlug: 'account-takeover',
+    alertLevel: 'medium',
+    sources: ['Metro Nashville Police Department', 'WSMV News'],
+    sourceUrl: 'https://www.wsmv.com/2026/05/18/metro-police-warn-residents-after-repeat-arrests-cellphone-handling-fraud-scheme/',
+    country: 'US',
+    state: 'TN',
+    firstRecorded: '2026-05-17',
+});
+
+UsTZ.push({
+    name: 'Fake Federal Agent "Investment Recovery" Scheme (Joshua Aaron Holmes)',
+    slug: 'tennessee-holmes-fake-federal-agent-investment-recovery-scam',
+    description: `A federal jury in Knoxville convicted Joshua Aaron Holmes, 44, of Atlanta, of conspiracy to commit mail and wire fraud, mail fraud, and wire fraud after prosecutors showed he and his co-conspirators ran a so-called "recovery scam" that specifically targeted elderly people who had already lost money in earlier investment schemes. Posing as federal agents able to claw back victims' prior investment losses, Holmes and his associates instructed victims to wire fees, taxes, and court costs before their money could supposedly be returned — payments that, predictably, were never followed by any recovered funds, only further losses. U.S. District Judge Katherine A. Crytzer sentenced Holmes to 168 months (14 years) in federal prison and three years of supervised release, and ordered him to pay $936,215 in restitution to his victims. The case was investigated by the FBI and the SEC's Office of Inspector General and was announced jointly by U.S. Attorney Francis M. Hamilton III for the Eastern District of Tennessee, FBI Nashville Special Agent in Charge Terence G. Reilly, and SEC Inspector General Kevin Muhlendorf. Investigators note that recovery or "reload" scams like this one specifically re-target people who have already been defrauded once, banking on their desperation to get money back. Legitimate government agencies, law firms, and financial regulators never charge upfront fees, taxes, or court costs to return lost investment funds — anyone contacted with that offer should hang up and verify independently before sending a single dollar.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office, Eastern District of Tennessee", 'FBI Nashville Field Office'],
+    sourceUrl: 'https://www.justice.gov/usao-edtn/pr/atlanta-man-sentenced-14-years-conspiracy-commit-mail-and-wire-fraud',
+    country: 'US',
+    state: 'TN',
+});
+
+UsTZ.push({
+    name: '"Business Resource Center Compliance Division" Fake Certificate of Status Mailer',
+    slug: 'tennessee-business-resource-center-compliance-division-mail-scam',
+    description: `Tennessee Secretary of State Tre Hargett is warning business owners about a new wave of deceptive mailers from an entity calling itself the "Business Resource Center Compliance Division," which falsely tells newly formed Tennessee businesses they must purchase a "Certificate of Status" to legally operate in the state. No such requirement or document exists under Tennessee law — the closest legitimate document, a Certificate of Existence, is optional and available directly from the Secretary of State's office for a small fee, not from any third-party "compliance division." The mailers are designed to look official: they arrive with no return address and use a Nashville ZIP code associated with the Secretary of State's own office, a detail meant to make the notice look government-issued. "Our office is seeing an increase in complaints from businesses about this scam mailer that asks for excessive and unnecessary fees for a form that doesn't exist in Tennessee," Hargett said, adding that "all business owners should be wary of any correspondence that attempts to look like it is from the State of Tennessee. This group is not affiliated with us." The office is urging any business owner who receives one of these mailers to contact the Division of Business and Charitable Organizations at 615-741-2286 or TNSOS.corpinfo@tn.gov, or to file a complaint with the Tennessee Attorney General's Office at 615-741-3491, rather than pay the requested fee. Before paying any company claiming to file paperwork on a business's behalf, owners should independently confirm what — if anything — Tennessee actually requires by calling the Secretary of State's office directly.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ["Tennessee Secretary of State's Office", 'WVLT News'],
+    sourceUrl: 'https://www.wvlt.tv/2026/09/16/tennessee-secretary-state-warns-bogus-mail-scam-targeting-newly-formed-businesses/',
+    country: 'US',
+    state: 'TN',
+    firstRecorded: '2026-09-16',
+});
+
+UsTZ.push({
+    name: 'Vermont School District Phishing Scheme Hijacks Trusted Email Accounts',
+    slug: 'vermont-school-district-email-phishing-scheme',
+    description: `In August 2026, Vermont education officials disclosed that a sophisticated phishing scheme had struck multiple school districts over the summer, including the Slate Valley Unified Union School District and the Orleans Central Supervisory Union. According to VTDigger, attackers sent emails disguised as an "excel secure portal" link — sent from real, already-compromised trusted accounts rather than obviously fake ones. Once a recipient clicked, a hidden script quietly read and deleted messages from the mailbox while auto-generating new phishing emails to that victim's own contacts, letting the attack spread organically. Investigators traced the malicious file to a Google Drive account tied to a German IP address. Denise Reilly-Hughes, Vermont's Secretary of Digital Services, called it "a really common hacking methodology" that works because the messages "can look very real," while Slate Valley Superintendent Brooke Olsen-Farrell confirmed staff had clicked the link but said quick action prevented any data or funds from being compromised. Vermont Attorney General Charity Clark used the incident to urge schools and residents to minimize the personal data they store online. Prevention tip: before clicking any "secure document" or "portal" link in an email — even one that appears to come from a trusted colleague — verify through a separate communication channel, since compromised real accounts, not fake ones, are now the primary way these phishing schemes spread.`,
+    categorySlug: 'phishing',
+    alertLevel: 'medium',
+    sources: ['VTDigger', 'Vermont Agency of Digital Services'],
+    sourceUrl: 'https://vtdigger.org/2026/08/19/vermont-education-officials-face-sophisticated-phishing-scheme-this-summer/',
+    country: 'US',
+    state: 'VT',
+    firstRecorded: '2026-08-19',
+});
+
+UsTZ.push({
+    name: 'Vermont Contractor Deposit-and-Vanish Fraud Spurs Legislative Crackdown (Tammy Merchant Case)',
+    slug: 'vermont-tammy-merchant-contractor-deposit-fraud-legislation',
+    description: `When Vermont homeowner Tammy Merchant paid a contractor $13,386 toward a $33,000 home-improvement project in early 2026, she expected work to begin; instead the contractor never started the job, stopped responding to her calls, and later told her the business was closing for financial reasons before filing for bankruptcy — a move that closed off her ability to sue for the money back, WCAX reported. "Basically, we just wrote him a check and he left," Merchant said, adding, "It's very traumatic because you start to realize you can't trust people." Her case became a centerpiece of testimony backing S.183, a bill sponsored by Sen. Robert Norris (R-Franklin-20) that would let the state fine contractors who "knowingly agree to jobs with no intention of completing them" and would cover any construction contract or change order worth $1,000 or more. Norris said current law leaves victims with no options beyond "taking someone to court civilly and expending more money after you lost a lot of money," while contractor Jason Webster of Huntington Homes cautioned that many disputes are more "disagreement" than fraud — underscoring how hard the intent-based scheme is to prosecute today. The bill had passed the Senate and was pending in the House Judiciary Committee as of April 2026. Prevention tip: never pay more than a small percentage of a project's total cost upfront, and check a contractor's litigation and complaint history with the Vermont Attorney General's Consumer Assistance Program before signing anything.`,
+    categorySlug: 'home-improvement-solar',
+    alertLevel: 'high',
+    sources: ['WCAX', 'Vermont General Assembly'],
+    sourceUrl: 'https://www.wcax.com/2026/04/15/after-vermont-homeowners-lost-thousands-dollars-lawmakers-consider-strengthening-home-improvement-fraud-statute/',
+    country: 'US',
+    state: 'VT',
+    firstRecorded: '2026-04-15',
+});
+
+UsTZ.push({
+    name: 'Vermont Enacts Crypto ATM Fraud Refund Law Amid Record Kiosk-Driven Losses',
+    slug: 'vermont-crypto-atm-kiosk-fraud-refund-law',
+    description: `As cryptocurrency scams drained a record $26.5 million from Vermonters in 2025 — up from $15.6 million the year before, with roughly one in every four dollars lost tied to digital currency, according to Vermont Public — state lawmakers moved to tighten oversight of the Bitcoin ATM kiosks scammers increasingly use to funnel victims' cash into untraceable crypto. Building on Vermont's original 2024 kiosk law, the legislature passed a follow-up bill in 2025, sponsored by Rep. Michael Marcotte (R-Coventry) and backed by AARP Vermont, that extends the state's moratorium on new kiosk installations to July 1, 2026, raises daily transaction ceilings to $2,000 for new customers and $5,000 for returning ones, and — for the first time — requires kiosk operators to refund any customer who reports being defrauded within 90 days of the transaction. "We will see a lot less fraud — hopefully no fraud," Marcotte said of the changes, while AARP Vermont's Colin Hilliard called the refund mandate "among the strongest such crypto ATM consumer protections in the country." Nationally, reported fraud losses funneled through crypto ATMs have climbed nearly tenfold since 2020, and adults over 60 are more than three times as likely as younger users to report being victimized this way. Prevention tip: treat any instruction to "verify," "protect," or "unfreeze" your money by depositing cash into a cryptocurrency ATM as an immediate red flag — no legitimate bank, government agency, or utility will ever direct you to a crypto kiosk to resolve an account issue.`,
+    categorySlug: 'cryptocurrency-scams',
+    alertLevel: 'high',
+    sources: ['AARP Vermont', 'Vermont Public'],
+    sourceUrl: 'https://www.aarp.org/states/vermont/new-guardrails-on-crypto-atm-fraud/',
+    country: 'US',
+    state: 'VT',
+});
+
+UsTZ.push({
+    name: 'New Hampshire Man Sentenced for Role as Bank-Courier "Money Mule" in Windsor Elder Fraud Scheme',
+    slug: 'vermont-melanson-windsor-elder-money-mule-fraud',
+    description: `Over nine days in May 2022, Nicholas Melanson, of Manchester, New Hampshire, drove from New Hampshire to Windsor, Vermont five separate times to pick up an elderly Vermont woman and chauffeur her to her banks, where he collected the checks and cash she withdrew — transactions federal prosecutors say totaled at least $392,000, though many were later stopped or reversed. According to the U.S. Attorney's Office for the District of Vermont, Melanson had never met the woman before the scheme began; he quickly noticed she was confused and appeared to be "starting to have Alzheimer's," yet continued the visits anyway, ultimately being paid $1,500 cash and a $3,000 "bonus" for his role, with hopes of collecting $10,000 a month to keep manipulating her finances. Melanson himself was not the mastermind — he was recruited into the scheme by a woman he had "met" online and believed shared his romantic interest, illustrating how organized elder-fraud rings use romance-scam grooming to turn one victim into the unwitting instrument of another's exploitation. On August 12, 2024, Chief U.S. District Judge Christina Reiss sentenced Melanson to six months' imprisonment and three years of supervised release, and ordered him to pay $1,500 in restitution, after he pleaded guilty to interstate transportation of a stolen check. Vermonters should be especially wary of any online romantic partner who asks them to pick up money, drive to a stranger's home, or collect checks or cash on their behalf — that request is a hallmark of being recruited as a money mule in a scheme victimizing someone else, often an isolated older adult.`,
+    categorySlug: 'romance-scams',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office, District of Vermont", 'Vermont Business Magazine'],
+    sourceUrl: 'https://www.justice.gov/usao-vt/pr/manchester-new-hampshire-man-sentenced-prison-elder-fraud-offense',
+    country: 'US',
+    state: 'VT',
+    firstRecorded: '2022-05-01',
+});
+
+UsTZ.push({
+    name: 'Bennington Tech-Support Scam Victim Recovers $1.03 Million in Secret Service Crypto Seizure',
+    slug: 'vermont-bennington-voss-tech-support-scam-recovery',
+    description: `Jeanette Voss, 71, of Bennington, Vermont, lost $950,000 — nearly her entire retirement savings — over several months in 2021 after a computer pop-up warned her (falsely) that her machine had been hacked, leading her into a "tech-support" scam in which callers convinced her to move her savings into cryptocurrency wallets through more than a dozen wire transfers. For roughly four and a half years afterward, Voss lived in extreme austerity — rationing gas, unplugging appliances to save on electricity, and relying on Social Security and food stamps. The case broke open when U.S. Secret Service agents traced roughly $648,000 of her stolen funds to a cryptocurrency wallet tied to an international scam network, seized the account, and sold the digital assets to compensate Voss and more than 20 other victims. On Christmas Eve, Voss discovered $1,033,000 — her recovered principal plus interest — deposited into her bank account. "Overnight, my whole life changed," she said. Her case, first documented in a Seven Days investigation into elder cyber-fraud, is one of the largest publicly confirmed restitution recoveries tied to a Vermont scam victim and shows that cryptocurrency-based tech-support scams, while devastating, are not always a dead end — victims should report losses immediately to the FBI's Internet Crime Complaint Center (ic3.gov) and the U.S. Secret Service, since fast reporting is what makes blockchain tracing and asset seizure possible.`,
+    categorySlug: 'tech-support-scams',
+    alertLevel: 'high',
+    sources: ['Vermont Public', 'Seven Days'],
+    sourceUrl: 'https://www.vermontpublic.org/local-news/2026-01-20/cyber-scam-victim-who-lost-nearly-1m-gets-her-money-back-and-then-some',
+    country: 'US',
+    state: 'VT',
+    firstRecorded: '2021-05-01',
+});
+
+UsTZ.push({
+    name: 'Queensbury Man Charged with Embezzling $400,000 from Manchester, Vermont Medical Practice',
+    slug: 'vermont-manchester-taconic-spine-embezzlement-wire-fraud',
+    description: `A federal grand jury in the District of Vermont indicted Van T. Jackson Jr., 38, of Queensbury, New York, on wire fraud and money-laundering charges after prosecutors say he defrauded Taconic Orthopaedics, P.C. (doing business as Taconic Spine) — a Manchester, Vermont pain-management practice owned by Dr. Robert W. Giering — out of more than $400,000. According to court records and reporting by the Bennington Banner, Jackson worked as a consultant and later as the practice's CEO, and allegedly diverted its funds — including a $68,000 wire transfer in March 2022 — into his own accounts, using part of the money to settle a separate, roughly $1 million embezzlement claim against him from a previous employer, Adirondack Rehabilitation Medicine in Warren County, New York. Jackson pleaded not guilty at his arraignment in U.S. District Court in Burlington on April 17, 2026, and was released on conditions restricting his travel to Vermont, New York, and Connecticut; he faces up to 20 years in prison if convicted. The case underscores a less-publicized scam pattern: trusted insiders — consultants, bookkeepers, or executives given financial control of a small business or medical practice — can quietly divert funds for years before detection, so Vermont business owners should insist on independent, regular audits of anyone with wire-transfer authority rather than relying on trust alone.`,
+    categorySlug: 'business-email-compromise',
+    alertLevel: 'medium',
+    sources: ["U.S. Attorney's Office, District of Vermont", 'Bennington Banner'],
+    sourceUrl: 'https://www.justice.gov/usao-vt/pr/new-york-man-charged-wire-fraud-and-money-laundering',
+    country: 'US',
+    state: 'VT',
+    firstRecorded: '2022-03-01',
+});
+
+UsTZ.push({
+    name: 'Hilltop Bank Call-Center Spoofing Scam Following Cyberattack',
+    slug: 'wyoming-hilltop-bank-call-center-spoofing-scam',
+    description: `On September 8, 2026, Hilltop Bank — a $1.14 billion, Casper-headquartered institution with branches across Wyoming — discovered a cybersecurity incident degrading its IT systems and took its online banking, mobile app, phone service, and even in-branch operations offline as a precaution, notifying the U.S. Office of the Comptroller of the Currency and the Federal Reserve Bank of Kansas City. As the bank scrambled to restore service and stood up a temporary recovery call center at 307-265-2740 on September 10, fraudsters moved just as fast: within days the bank had to warn customers that scammers were spoofing the caller ID of that very same recovery hotline, stating flatly on its official incident-updates site, "Hilltop Bank cannot and will not call you from (307) 265-2740. This number is set up to only receive calls," and adding, "If you receive a call from this number, do not answer. We have received reports of this number being spoofed." CyberWyoming executive director Laura Baker called the underlying breach itself "a stark wake-up call, because banks have cybersecurity down in Wyoming," warning that "if it can happen to Hilltop, it can happen to anybody, which is pretty disturbing." The bank's guidance was to trust only its official updates site (hilltopbankupdates.com), its verified social media accounts, or a known Hilltop employee for information during the outage, and to never share passwords, account numbers, Social Security numbers, or verification codes with anyone who calls unexpectedly — even from a number that looks legitimate on caller ID, since scammers exploit the confusion of a bank's own publicized crisis line within days, not months, of it being announced.`,
+    categorySlug: 'phishing',
+    alertLevel: 'high',
+    sources: ['Hilltop Bank (official incident updates)', 'Oil City News', 'CyberWyoming'],
+    sourceUrl: 'https://hilltopbankupdates.com/',
+    country: 'US',
+    state: 'WY',
+    firstRecorded: '2026-09-08',
+});
+
+UsTZ.push({
+    name: '"White Bronco" Fake Job Check-Cashing Scheme Targeting Casper\'s Homeless',
+    slug: 'wyoming-casper-white-bronco-fake-job-check-scam',
+    description: `On February 9, 2026, a couple driving a white Ford Bronco with out-of-state plates approached four homeless men in Casper, Wyoming — Ramon Wise, Christian Cheatham, Charles Miears, and William Harrison — with what was framed as a paid job offer, in one case telling a hesitant man the arrangement was simply "legit" and in another claiming they urgently needed extra help because an ICE raid had wiped out their regular crew. Instead of paychecks, the couple collected each man's Wyoming ID, handed him a single check for $5,339.10 drawn on a local business account, and drove him to a Casper bank branch to cash it — then kept the cash themselves, leaving each man with no payment at all and a forged check cashed in his own name. All four men were subsequently charged with felony fraud by check, each facing up to 10 years in prison and a $10,000 fine, while the couple who recruited them has not been identified. Casper Police spokesperson Rebekah Ladd said the pattern is a recognized fraud tactic nationally: "This type of fraud scheme often relies on recruiting unhoused individuals to present fraudulent checks in person," precisely because someone with an unstable address and few resources to fight a felony charge is easier to exploit and harder to later warn or protect. Anyone offered same-day cash work that actually involves depositing or cashing a check on someone else's behalf, rather than being paid directly for finished work, should recognize that as check-fraud recruitment rather than employment — because it is the person who walks the check into the bank, not the recruiter who hands it over, whom prosecutors and the bank will hold responsible once it bounces.`,
+    categorySlug: 'job-task-scams',
+    alertLevel: 'high',
+    sources: ['Casper Police Department', 'Cowboy State Daily'],
+    sourceUrl: 'https://cowboystatedaily.com/2026/02/19/couple-in-white-bronco-promise-casper-homeless-men-jobs-leave-them-facing-felonies/',
+    country: 'US',
+    state: 'WY',
+    firstRecorded: '2026-02-09',
+});
+
+UsTZ.push({
+    name: 'Fake Child Sexual Abuse Material "Device Hacked" Extortion Letters',
+    slug: 'wyoming-fake-csam-extortion-letter-scam',
+    description: `Beginning around early September 2025, Wyoming residents started receiving threatening letters through the U.S. Mail — some bearing Canadian postage — falsely claiming the sender had planted child sexual abuse material on the recipient's phone or computer after they supposedly clicked a malicious link, and threatening to report them to law enforcement unless they paid within 36 hours via Bitcoin, Coinbase, or Cash App, following a URL and QR code printed in the letter itself; some versions personalized the threat by naming the recipient's family members. The Wyoming Division of Criminal Investigation's Internet Crimes Against Children Task Force and the Natrona County Sheriff's Office issued a joint warning after fielding at least two reports in Natrona County within a single 24-hour span, with additional reports surfacing statewide, and said investigators were working to trace the letters' origin and "hold those responsible accountable." Laramie County Sheriff Brian Kozak said the scheme is engineered around a specific, deliberately chosen fear: "Think about it: You know that would be someone's worst nightmare, right? For someone to accuse someone of having child porn on their phone or computer." No real investigation is ever resolved by a stranger's mailed letter demanding cryptocurrency payment within 36 hours, and residents who receive one are urged not to open any link or scan any QR code in the letter, not to send any payment, and to report it immediately to local law enforcement or the Division of Criminal Investigation's Casper office at 307-261-2194.`,
+    categorySlug: 'sextortion',
+    alertLevel: 'high',
+    sources: ['Wyoming Division of Criminal Investigation (Internet Crimes Against Children Task Force)', "Natrona County Sheriff's Office", 'Cowboy State Daily'],
+    sourceUrl: 'https://cowboystatedaily.com/2025/09/09/wyoming-targeted-by-threat-of-child-porn-planting-in-extortion-scheme/',
+    country: 'US',
+    state: 'WY',
+    firstRecorded: '2025-09-09',
+});
+
+UsTZ.push({
+    name: 'Utah Launches Financial Crimes Intelligence Center After Real-Estate Wire-Fraud Warning',
+    slug: 'utah-financial-crimes-intelligence-center-real-estate-wire-fraud-warning',
+    description: `Utah Attorney General Derek Brown launched the state's first Financial Crimes Intelligence Center (FCIC) on August 31, 2026, after new figures showed Utahns have lost an estimated $450 million to scams and fraud since 2020, including $108.4 million in 2025 alone and nearly $60 million already reported in the first half of 2026. Brown, whose office says fraud complaints are now "the single most common call" it receives, illustrated how easily even savvy professionals get taken by describing a close friend — "a very sophisticated lawyer who practiced real estate law" — who was nonetheless defrauded out of money through a wire-fraud scheme tied to a real estate transaction; "this is the kind of thing that literally can happen to anyone," Brown said, adding elsewhere that "no one is too smart, too careful, or too experienced to become a victim of fraud." Real estate closings are a favorite target for this style of fraud nationally, because criminals who compromise or spoof an agent's, title company's, or attorney's email can quietly substitute fraudulent wiring instructions, sending a buyer's or seller's funds to a criminal-controlled account instead of the legitimate escrow account. The new center, funded with $1.7 million a year from the Legislature and built on recommendations from the Utah Fraud Prevention Coalition, pairs investigators, prosecutors, financial analysts and banks together to connect fraud cases across county lines, train local law enforcement, and move faster to freeze stolen funds before they leave the state. Utah Bankers Association executive director Howard Headlee underscored the scale of the problem, noting consumers nationally "reported losing over $20 billion last year alone." Anyone in the middle of a real estate transaction should independently verify wiring instructions by calling a known, previously verified phone number for their title company or attorney — never a number or link supplied only by email — before sending any funds, and Utahns are urged to report suspected fraud directly to the new center at fraud.agutah.gov.`,
+    categorySlug: 'business-email-compromise',
+    alertLevel: 'medium',
+    sources: ["Utah Attorney General's Office", 'KSL.com', 'Deseret News'],
+    sourceUrl: 'https://attorneygeneral.utah.gov/utah-fcic/',
+    country: 'US',
+    state: 'UT',
+    firstRecorded: '2026-08-31',
+});
+
+UsTZ.push({
+    name: 'Utah State Tax Commission Fraudulent "Unpaid Tax" Collection Letter Scam',
+    slug: 'utah-state-tax-commission-fraudulent-collection-letter-scam',
+    description: `The Utah State Tax Commission issued a public warning on April 4, 2025 after a wave of fraudulent "unpaid tax" collection letters began circulating around the state, arriving by mail, email, text and even phone call using official-looking government formatting to demand immediate payment. The letters falsely claim the recipient owes back state taxes and threaten legal action, liens, or asset seizure if payment isn't made right away — a pressure tactic designed to get people to pay before they stop to check whether the notice is real. Tax Commission public information officer Jason Gardner warned residents against reacting on impulse: "If you get a letter out of the blue, don't just pay," he said, noting that a legitimate state tax agency contacts a delinquent taxpayer repeatedly, through established channels, well before ever pursuing a lien or wage garnishment. Gardner also cautioned that artificial intelligence has erased one of the classic scam tip-offs: "Gone are the days when you could read it, and you could see spelling errors," he said, meaning a polished, error-free letter can no longer be assumed safe. The Commission's guidance is to never respond to or pay a suspicious notice directly, and instead to call its verified number, 801-297-2200, to confirm whether any balance is actually owed before sending money or personal information, and to report any fraudulent letter at tax.utah.gov/contact.`,
+    categorySlug: 'tax-scams',
+    alertLevel: 'high',
+    sources: ['Utah State Tax Commission', 'Iron County Today', 'Daily Herald'],
+    sourceUrl: 'https://ironcountytoday.com/2025/04/07/scam-alert-fraudulent-tax-collection-letters-targeting-utah-taxpayers/',
+    country: 'US',
+    state: 'UT',
+    firstRecorded: '2025-04-04',
+});
+
+UsTZ.push({
+    name: 'Elan Solar (Colarusso Ventures) Deceptive Rooftop-Solar Sales Case',
+    slug: 'utah-elan-solar-colarusso-ventures-deceptive-sales',
+    description: `The Utah Division of Consumer Protection filed an emergency enforcement action in March 2024 against Colarusso Ventures LLC, doing business as Elan Solar, and its owner, Kevin Colarusso, alleging the rooftop-solar company kept deceiving Utah homeowners even after its contractor's license had already been revoked. State investigators said they had fielded more than 30 complaints in the preceding year and a half, and that roughly 140 Utah customers who paid for solar installations were left without a working system, while the company allegedly posted fake five-star Google reviews, misrepresented its Better Business Bureau rating, and misled buyers about the true cost of their systems and how much they would actually save on their power bills — on top of skipping legally required disclosure paperwork before contracts were signed. The Division of Professional Licensing had already revoked Elan Solar's contractor license in August 2023, after earlier 2022 settlement agreements failed to stop the conduct, but the company kept operating and selling systems regardless, prompting the Division of Consumer Protection to obtain an emergency cease-and-desist order on March 1, 2024 and pursue damages the agency estimated at "close to $1 million" for known victims. Consumer Protection Division Director Katie Hass framed the case as a warning to the broader industry: "Deceptive conduct like that exhibited by Elan Solar does the exact opposite — it harms consumers and erodes trust in the solar industry." Utah homeowners considering rooftop solar should verify a contractor's license status directly with the Utah Division of Professional Licensing before signing anything, get all cost and savings estimates in writing, and treat unsolicited door-to-door pitches promising guaranteed energy savings with skepticism.`,
+    categorySlug: 'home-improvement-solar',
+    alertLevel: 'high',
+    sources: ['Utah Division of Consumer Protection', 'Utah Department of Commerce'],
+    sourceUrl: 'https://utahpolicy.com/news-release/70374-utah-division-of-consumer-protection-takes-legal-action-against-elan-solar-for-alleged-violations',
+    country: 'US',
+    state: 'UT',
+    firstRecorded: '2024-03-01',
+});
+
+UsTZ.push({
+    name: 'AI Voice-Cloned "Grandson" Call Grandparent Scam',
+    slug: 'west-virginia-ai-voice-cloned-grandson-grandparent-scam',
+    description: `The West Virginia Attorney General's Consumer Protection Division's March 2026 scam report flagged a troubling new twist on the classic grandparent scam: artificial-intelligence voice cloning convincing enough to fool a close family member. "One consumer reported the voice of a scammer sounded exactly like her grandson, but it wasn't him," the office wrote, describing a call in which a cloned voice was used to manufacture a fake emergency — the traditional grandparent-scam setup of an arrest, accident, or hospital bill requiring urgent cash — but with an AI-generated voice replacing the vague "Grandma, it's me" opening that used to be the scam's biggest giveaway. Grandparent scams ranked fifth among the 314 total scam complaints the division logged in West Virginia that month, and the office separately noted deepfake video and image technology being used elsewhere to push fraudulent government-benefit ads. Attorney General JB McCuskey said "with the emergence of new technology, it is more important now than ever to be vigilant and careful." Because a cloned voice can now defeat the old test of "does this actually sound like them," the Attorney General's Office recommends families agree on a private verification question or code word in advance and always hang up and call the relative back on a known number before sending any money.`,
+    categorySlug: 'grandparent-scams',
+    alertLevel: 'high',
+    sources: ["West Virginia Attorney General's Office"],
+    sourceUrl: 'https://ago.wv.gov/article/top-scams-reported-west-virginia-attorney-generals-office-march-2026',
+    country: 'US',
+    state: 'WV',
+    firstRecorded: '2026-04-03',
+});
+
+UsTZ.push({
+    name: 'West Virginia Third-Party "Annual Report" Filing Scam',
+    slug: 'west-virginia-sos-third-party-annual-report-filing-scam',
+    description: `As West Virginia's 2026 business Annual Report filing period opened January 1, Secretary of State Kris Warner warned business owners about a recurring scheme in which private, unaffiliated companies mail solicitations designed to look like official government paperwork, offering to file a business's mandatory Annual Report on its behalf. The real statutory filing fee is $25, filed directly with the state; Warner's office says these third-party vendors routinely charge more than eight times that amount — upwards of $200 — while also frequently advertising incorrect compliance deadlines to create false urgency. "These third-party solicitations are not from my office and not from the state of West Virginia," Warner said, adding "we have modernized the business registration process in West Virginia," noting roughly 98% of businesses now file directly online. The Secretary of State's Office urges business owners to ignore mailers resembling government notices and instead file the Annual Report themselves, for free, directly at Business4.WV.gov, or call the Business Division at (304) 558-8000 to verify whether any notice they received is legitimate before paying anyone to file on their behalf.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ["West Virginia Secretary of State's Office", 'Panhandle News Network'],
+    sourceUrl: 'https://panhandlenewsnetwork.com/2025/12/23/dont-fall-for-third-party-filing-scam-says-wvsos/',
+    country: 'US',
+    state: 'WV',
+    firstRecorded: '2025-12-23',
+});
+
+UsTZ.push({
+    name: 'Fake Invoice Phishing Emails Impersonating Legitimate Businesses',
+    slug: 'west-virginia-fake-invoice-phishing-email-scam',
+    description: `In its monthly scam tally released August 4, 2026, the West Virginia Attorney General's Consumer Protection Division reported email phishing as the third most-common scam category among the 176 complaints filed statewide that July, describing the pattern as "scam e-mails with fake invoices, appearing to come from legitimate and well-known businesses, requesting payment." Unlike the office's previously documented lookalike-website phishing campaign that impersonates West Virginia state agencies, this scheme spoofs real private companies' branding and billing formats, landing a fraudulent invoice directly in a recipient's inbox and relying on the recipient assuming it is a routine bill from a vendor they already do business with. The division tracks this alongside Medicare impersonation, robocalls, and sweepstakes and Social Security impersonation as recurring monthly complaint categories. Consumers and small businesses who receive an unexpected invoice by email should never pay or click through directly from the message — instead, they should contact the supposed sender using a phone number or email address they already have on file, independent of anything in the email itself, to confirm the invoice is real before sending payment.`,
+    categorySlug: 'business-email-compromise',
+    alertLevel: 'medium',
+    sources: ["West Virginia Attorney General's Office"],
+    sourceUrl: 'https://ago.wv.gov/article/top-scams-reported-west-virginia-attorney-generals-office-july-2026',
+    country: 'US',
+    state: 'WV',
+    firstRecorded: '2026-08-04',
 });

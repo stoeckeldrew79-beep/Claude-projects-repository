@@ -8473,6 +8473,45 @@ UsAF.push({
 });
 
 UsAF.push({
+    name: 'Washington County "Ankle Monitor" Jail-Release Scam',
+    slug: 'arkansas-washington-county-ankle-monitor-jail-release-scam',
+    description: `Starting in mid-September 2026, scammers began calling family members of people held at the Washington County Detention Center, falsely claiming they could arrange the detainee's early release onto an ankle monitor, or, in at least one case, placement in a rehabilitation program to avoid prison, in exchange for a $500 payment. The callers impersonate a real, named Washington County Sheriff's Office officer, Captain Kevin East, using his photo lifted from the agency's own website to produce a fabricated "ID verification card" that they display or reference to appear legitimate. The Sheriff's Office confirmed at least two victims as of September 17, 2026. Law Enforcement Legal Advisor Sam Martin told the Arkansas Democrat-Gazette that recipients should "verify the source" independently rather than trust caller ID or a search-engine phone number, since scammers can manipulate both, and should instead go to the agency's official website or call the Sheriff's Office directly at (479) 444-5700, open 24/7; the office stated it never requests money by phone or email. Never send money to arrange a family member's release from jail over the phone; hang up and call the detention facility's published non-emergency number to verify any claim about a detainee's status.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Arkansas Democrat-Gazette / arkansasonline.com'],
+    sourceUrl: 'https://www.arkansasonline.com/news/2026/sep/17/washington-county-sheriffs-office-at-least-2/',
+    country: 'US',
+    state: 'AR',
+    firstRecorded: '2026-09-16',
+});
+
+UsAF.push({
+    name: 'Northeast Arkansas Warrant Payment Gift-Card Scam',
+    slug: 'arkansas-northeast-warrant-payment-gift-card-scam',
+    description: `In early April 2026, police departments in Batesville, Osceola, and Jonesboro, Arkansas, warned residents about a wave of scam calls and texts claiming recipients have an outstanding arrest warrant or missed jury duty. In Batesville, callers falsely identify themselves as officers and tell residents they must pay immediately, via gift cards or other untraceable methods, to avoid being jailed. The Batesville Police Department stated plainly, "The department also does not call people to tell them they have a warrant or missed jury duty." Parallel text-message versions surfaced in Osceola and Jonesboro impersonating Arkansas District Court officials over unpaid traffic violations or civil enforcement summonses, directing recipients to suspicious payment links. All three departments urged residents to delete the messages, never send money, gift cards, or mobile payments, never click embedded links, and to call their local police department directly using a number they look up independently, not one provided in the message, to verify any claim before responding.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['KAIT8 (Region 8 News)'],
+    sourceUrl: 'https://www.kait8.com/2026/04/02/northeast-arkansas-police-warn-scam-calls-demanding-payment-warrants/',
+    country: 'US',
+    state: 'AR',
+    firstRecorded: '2026-04-02',
+});
+
+UsAF.push({
+    name: 'Paragould/Jonesboro Forged Check-Cashing Ring',
+    slug: 'arkansas-paragould-jonesboro-forged-check-cashing-ring',
+    description: `On March 25, 2026, Paragould police arrested three Memphis, Tennessee men, Hugo Ayrot-Quintero, Jose Teran Moncayo, and Wilber Montriel-Anez, for running a forged-check-cashing operation across multiple Arkansas counties over several months. That morning, the trio successfully cashed two fraudulent checks at Jonesboro banks before Moncayo was caught attempting a third at a Paragould bank while his co-defendants waited outside in a vehicle. Detective Johnathan Porter's search of the group turned up more than $8,000 in cash, including two bank money sleeves holding over $4,000 each from the earlier fraudulent transactions, along with lists of bank addresses in two states, records of past transaction dates and totals, damaged checks, bank receipts, and multiple debit cards, pointing to an organized, traveling operation. All three face charges of engaging in a continuing criminal gang, organization, or enterprise, forgery, and attempt, and were held on $250,000 bonds each, set by Judge Curtis Hitt on March 26, with ICE holds also placed. The case is a reminder that counterfeit and altered checks are still actively being run through Arkansas banks by organized, cross-state groups; banks and individuals accepting checks from unfamiliar parties should verify with the issuing bank before releasing funds, and should be wary of anyone rushing a same-day cash-out of a large check.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'medium',
+    sources: ['KAIT8 (Region 8 News)'],
+    sourceUrl: 'https://www.kait8.com/2026/03/30/three-men-arrested-multi-county-check-fraud-scheme/',
+    country: 'US',
+    state: 'AR',
+    firstRecorded: '2026-03-25',
+});
+
+UsAF.push({
     name: 'East Haven Breast-Imaging Manager\'s $1 Million Romance-to-Crypto Loss (Jackie Crenshaw)',
     slug: 'connecticut-east-haven-crenshaw-romance-crypto-loss',
     description: `Jackie Crenshaw, a 61-year-old breast imaging manager from East Haven, Connecticut, met a man calling himself "Brandon" on an online dating site, and over months of daily communication — including gifts and food deliveries sent to her home — he built the kind of trust that made his next suggestion feel safe: investing in a cryptocurrency opportunity he said was earning him steady returns. Fake account statements showing the investment growing convinced Crenshaw to put in more, eventually borrowing against her retirement account and taking out a home loan to keep pace with "Brandon's" requests, including one transaction built around a $100,000 check that her own bank initially verified as good. She had lost nearly $1 million before an anonymous caller tipped off police roughly a year later, finally exposing "Brandon" as fictitious and the platform as fraudulent. Connecticut Attorney General William Tong and AARP Connecticut featured Crenshaw's story in a statewide public service announcement launched January 2, 2026 and aired for 16 weeks on Connecticut television and radio, pairing it with FBI data showing adults 60 and older filed more than 147,000 fraud complaints in 2024 totaling $4.86 billion in losses, including $389 million lost specifically to romance scams. A romantic contact met only online who introduces a "can't miss" investment — especially cryptocurrency — is a red flag regardless of how genuine the relationship otherwise feels, and even a bank confirming a check as good is no guarantee it won't bounce days later once fully processed; anyone approached this way can call Connecticut's Elder Justice Hotline at 860-808-5555 or the AARP Fraud Watch Network Helpline at 877-908-3360 before sending money.`,
@@ -9048,4 +9087,44 @@ UsAF.push({
     sourceUrl: 'https://disb.dc.gov/page/beware-barred-investment-adviser-capital-management-group',
     country: 'US',
     state: 'DC',
+});
+
+UsAF.push({
+    name: 'Utility Shutoff Impersonation Scam Alert',
+    slug: 'arkansas-utility-shutoff-impersonation-scam-alert',
+    description: `Arkansas Attorney General Tim Griffin issued a consumer alert on January 17, 2024, warning residents about a surge of utility-impersonation scams as cold winter weather makes households more vulnerable to shutoff threats. Scammers call Arkansans posing as representatives of gas, electric, or water utility companies, falsely claim the account is past due, and threaten to disconnect service within hours unless the consumer pays immediately — typically demanding payment through gift cards, bitcoin, or peer-to-peer payment apps that legitimate utilities never use. "During the cold winter months, scammers warm up on pretending and threatening the public with utility shut offs. My office receives many complaints from consumers who have been deceived by utility impersonation scams. Imposters threaten to shut off utility service if the consumer doesn't immediately pay a past due amount," Griffin said in the release. His office noted that real utility providers are required to give advance written or emailed notice before any shutoff and routinely offer delayed-payment plans, and stressed that a legitimate company will never call unannounced demanding instant payment. Consumers who receive such a call should hang up immediately and call their utility provider directly using the number listed on a past billing statement, rather than any number the caller provides, before making any payment.`,
+    categorySlug: 'utility-scams',
+    alertLevel: 'medium',
+    sources: ["Arkansas Attorney General's Office (Tim Griffin)"],
+    sourceUrl: 'https://arkansasag.gov/news-release/consumer-alert-attorney-general-griffin-warns-against-utility-impersonation-scams/',
+    country: 'US',
+    state: 'AR',
+    firstRecorded: '2024-01-17',
+});
+
+UsAF.push({
+    name: 'Fayetteville Fake University Recruiter Interview Scam',
+    slug: 'arkansas-fayetteville-fake-university-recruiter-interview-scam',
+    description: `In June 2026, Fortune documented how job-application scams have grown far more convincing, centering its reporting on Mary Ann Morrison, an instructional design manager in Fayetteville, Arkansas, who applied for a position at the University of Arkansas at Little Rock and was contacted by a purported recruiter to schedule an interview. "They were asking me to meet up with them. They asked the time and everything. It sounded very professional," Morrison told Fortune. The "recruiter" sent a Microsoft Teams meeting link that prompted her to install a software "update" — a red flag Morrison caught because her actual Teams app showed no such notification. "When I went and looked at the link, I realized this doesn't look quite right. It doesn't look like Teams," she said. Morrison searched the university's employee directory and found no one by the recruiter's name, and discovered the sender's email domain did not match the university's official HR address; she reported the scheme to the university, which said it would warn other applicants. "It's scary how realistic these scams are getting... people used to just send out a very blanket email with a lot of grammar mistakes and a very obvious email address," she said, adding, "Everything just sounds wonderful, and then it's not real." Job seekers should independently verify any recruiter's identity through an employer's official staff directory and HR email domain before clicking interview links or downloading any requested software.`,
+    categorySlug: 'employment-scams',
+    alertLevel: 'medium',
+    sources: ['Fortune'],
+    sourceUrl: 'https://fortune.com/2026/06/27/job-scams-are-getting-better-sophisticated-and-costing-americans-millions/',
+    country: 'US',
+    state: 'AR',
+    firstRecorded: '2026-06-27',
+});
+
+UsAF.push({
+    name: 'Real Travel Bentonville Timeshare Exit Fraud (Scroggs and Bowe)',
+    slug: 'arkansas-real-travel-bentonville-timeshare-exit-fraud',
+    description: `In May 2021, Arkansas Attorney General Leslie Rutledge announced a $2.6 million judgment against Bentonville-based Real Travel, LLC and its founder, Brian Scroggs, after a Benton County Circuit Court found the company had defrauded Arkansans trying to get out of unwanted timeshare contracts. Real Travel and co-owner Bart Bowe — who had already been ordered in October 2020 to pay $50,000 in restitution and $450,000 in suspended civil penalties — marketed a "100% Guarantee" that the company could transfer or cancel a customer's timeshare in exchange for upfront fees ranging from roughly $5,000 to $18,000, then routinely failed to deliver, leaving victims stuck paying both Real Travel's fee and their original timeshare obligations. The Attorney General's investigation, brought under the Arkansas Deceptive Trade Practices Act, found 88 Arkansas consumers harmed by the scheme. "Dishonest timeshare exit companies need to understand that they have no place in Arkansas," Rutledge said. "Instead of helping people, Real Travel left consumers with unwanted timeshares and additional debt. That's why I made it a priority to hold them accountable for their inexcusable deceptive practices." The court permanently barred Real Travel and Scroggs from conducting any timeshare-related business in Arkansas; Missouri's attorney general separately sued Scroggs over related companies operating under the same exit-scam model. Timeshare owners looking to sell or exit a contract should never pay large upfront fees to a company promising a guaranteed exit, and should verify any timeshare-resale or exit firm with their state attorney general's office before signing a contract.`,
+    categorySlug: 'timeshare-scams',
+    alertLevel: 'high',
+    sources: ["Arkansas Attorney General's Office (Leslie Rutledge)", 'Talk Business & Politics'],
+    sourceUrl: 'https://talkbusiness.net/2021/05/ag-rutledge-gets-2-6-million-judgment-against-bentonville-timeshare-exit-firm/',
+    country: 'US',
+    state: 'AR',
+    isHistorical: true,
+    firstRecorded: '2021-05-05',
 });
