@@ -618,6 +618,10 @@ Anyone who sees one of these livestreams should not scan the QR code or send any
     slug: 'funeral-livestream-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'funeral-livestream-scam', 'social-media-scams'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/The_Richardson_Group_Funerals,_Tallahassee,_Florida.jpg?width=1200',
+    coverImageCredit: 'Photo: The Bushranger (CC BY-SA 4.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://krebsonsecurity.com/2024/09/scam-funeral-streaming-groups-thrive-on-facebook/',
     body: `A funeral or memorial notice goes up on Facebook — a real funeral home's post, or a genuine tribute someone shared — and within minutes a comment appears underneath it, made to look like an official update: something like "If you can't attend in person, click here to watch the service live," accompanied by a link and often a stolen photo of the deceased pulled from the actual obituary or funeral home's own site. Family and friends who can't be there in person, and who have no reason to doubt a comment sitting right under the real announcement, click through expecting a video feed of the service.
 
@@ -8843,6 +8847,10 @@ GuidesAF.push({
   slug: 'bank-fraud-alert-move-your-money-scam-guide',
   author: 'ScamShield Editorial',
   tags: ['guide', 'account-takeover', 'phishing'],
+  coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Woman_engaged_in_a_phone_conversation_while_working_on_her_laptop_at_home.jpg?width=1200',
+  coverImageCredit: 'Photo: Shixart1985 (CC BY 2.0)',
+  coverImagePosition: 50,
+  // representative photo — replace with an exact match if found
   sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2024/06/got-call-about-fraud-activity-your-bank-account-it-could-be-scammer',
   body: `A call comes in, sometimes right after a text that looks like it's from the bank's own fraud-alert system, and the person on the line says they've spotted suspicious or criminal activity on a bank, investment, or retirement account. They sound calm and official, walk through account details that seem to confirm they're really from the bank, and offer to help fix the problem immediately — before more money can be stolen. The FTC has flagged this exact pattern as one of the most damaging phone scams active today, precisely because it doesn't ask the victim to hand money to a stranger; it convinces them to move their own money themselves.
 
