@@ -9088,3 +9088,43 @@ UsAF.push({
     country: 'US',
     state: 'DC',
 });
+
+UsAF.push({
+    name: 'Utility Shutoff Impersonation Scam Alert',
+    slug: 'arkansas-utility-shutoff-impersonation-scam-alert',
+    description: `Arkansas Attorney General Tim Griffin issued a consumer alert on January 17, 2024, warning residents about a surge of utility-impersonation scams as cold winter weather makes households more vulnerable to shutoff threats. Scammers call Arkansans posing as representatives of gas, electric, or water utility companies, falsely claim the account is past due, and threaten to disconnect service within hours unless the consumer pays immediately — typically demanding payment through gift cards, bitcoin, or peer-to-peer payment apps that legitimate utilities never use. "During the cold winter months, scammers warm up on pretending and threatening the public with utility shut offs. My office receives many complaints from consumers who have been deceived by utility impersonation scams. Imposters threaten to shut off utility service if the consumer doesn't immediately pay a past due amount," Griffin said in the release. His office noted that real utility providers are required to give advance written or emailed notice before any shutoff and routinely offer delayed-payment plans, and stressed that a legitimate company will never call unannounced demanding instant payment. Consumers who receive such a call should hang up immediately and call their utility provider directly using the number listed on a past billing statement, rather than any number the caller provides, before making any payment.`,
+    categorySlug: 'utility-scams',
+    alertLevel: 'medium',
+    sources: ["Arkansas Attorney General's Office (Tim Griffin)"],
+    sourceUrl: 'https://arkansasag.gov/news-release/consumer-alert-attorney-general-griffin-warns-against-utility-impersonation-scams/',
+    country: 'US',
+    state: 'AR',
+    firstRecorded: '2024-01-17',
+});
+
+UsAF.push({
+    name: 'Fayetteville Fake University Recruiter Interview Scam',
+    slug: 'arkansas-fayetteville-fake-university-recruiter-interview-scam',
+    description: `In June 2026, Fortune documented how job-application scams have grown far more convincing, centering its reporting on Mary Ann Morrison, an instructional design manager in Fayetteville, Arkansas, who applied for a position at the University of Arkansas at Little Rock and was contacted by a purported recruiter to schedule an interview. "They were asking me to meet up with them. They asked the time and everything. It sounded very professional," Morrison told Fortune. The "recruiter" sent a Microsoft Teams meeting link that prompted her to install a software "update" — a red flag Morrison caught because her actual Teams app showed no such notification. "When I went and looked at the link, I realized this doesn't look quite right. It doesn't look like Teams," she said. Morrison searched the university's employee directory and found no one by the recruiter's name, and discovered the sender's email domain did not match the university's official HR address; she reported the scheme to the university, which said it would warn other applicants. "It's scary how realistic these scams are getting... people used to just send out a very blanket email with a lot of grammar mistakes and a very obvious email address," she said, adding, "Everything just sounds wonderful, and then it's not real." Job seekers should independently verify any recruiter's identity through an employer's official staff directory and HR email domain before clicking interview links or downloading any requested software.`,
+    categorySlug: 'employment-scams',
+    alertLevel: 'medium',
+    sources: ['Fortune'],
+    sourceUrl: 'https://fortune.com/2026/06/27/job-scams-are-getting-better-sophisticated-and-costing-americans-millions/',
+    country: 'US',
+    state: 'AR',
+    firstRecorded: '2026-06-27',
+});
+
+UsAF.push({
+    name: 'Real Travel Bentonville Timeshare Exit Fraud (Scroggs and Bowe)',
+    slug: 'arkansas-real-travel-bentonville-timeshare-exit-fraud',
+    description: `In May 2021, Arkansas Attorney General Leslie Rutledge announced a $2.6 million judgment against Bentonville-based Real Travel, LLC and its founder, Brian Scroggs, after a Benton County Circuit Court found the company had defrauded Arkansans trying to get out of unwanted timeshare contracts. Real Travel and co-owner Bart Bowe — who had already been ordered in October 2020 to pay $50,000 in restitution and $450,000 in suspended civil penalties — marketed a "100% Guarantee" that the company could transfer or cancel a customer's timeshare in exchange for upfront fees ranging from roughly $5,000 to $18,000, then routinely failed to deliver, leaving victims stuck paying both Real Travel's fee and their original timeshare obligations. The Attorney General's investigation, brought under the Arkansas Deceptive Trade Practices Act, found 88 Arkansas consumers harmed by the scheme. "Dishonest timeshare exit companies need to understand that they have no place in Arkansas," Rutledge said. "Instead of helping people, Real Travel left consumers with unwanted timeshares and additional debt. That's why I made it a priority to hold them accountable for their inexcusable deceptive practices." The court permanently barred Real Travel and Scroggs from conducting any timeshare-related business in Arkansas; Missouri's attorney general separately sued Scroggs over related companies operating under the same exit-scam model. Timeshare owners looking to sell or exit a contract should never pay large upfront fees to a company promising a guaranteed exit, and should verify any timeshare-resale or exit firm with their state attorney general's office before signing a contract.`,
+    categorySlug: 'timeshare-scams',
+    alertLevel: 'high',
+    sources: ["Arkansas Attorney General's Office (Leslie Rutledge)", 'Talk Business & Politics'],
+    sourceUrl: 'https://talkbusiness.net/2021/05/ag-rutledge-gets-2-6-million-judgment-against-bentonville-timeshare-exit-firm/',
+    country: 'US',
+    state: 'AR',
+    isHistorical: true,
+    firstRecorded: '2021-05-05',
+});
