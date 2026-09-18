@@ -9559,3 +9559,18 @@ The SEC brought settled fraud charges against both the company and Burns persona
 The case is a textbook illustration of "demand-washing" during the SPAC and EV mania: a headline order number, never independently verified by investors or underwriters, was allowed to stand in for real commercial traction, inflating a company's valuation until a short-seller's diligence, and eventually a bankruptcy filing, exposed the gap between the story and the product.`,
     sourceUrl: 'https://www.sec.gov/newsroom/press-releases/2024-29',
 });
+
+NotoriousAF.push({
+    title: 'David P. Bloom, the Three-Time "Wall Street Whiz Kid" Investment Fraudster',
+    slug: 'david-p-bloom-wall-street-whiz-kid-repeat-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    body: `David Peter Bloom, a Manhattan-raised, Duke University-educated financier, is one of the few fraudsters in U.S. history convicted of essentially the same investment scam three separate times across nearly 40 years — in 1988, in 2000, and again with a sentencing in June 2026. Early press dubbed him the "Wall Street Whiz Kid" after his first scheme unraveled. In the mid-1980s, Bloom ran an unregistered investment firm, Greater Sutton Investors Group Inc., soliciting wealthy and high-profile clients, reportedly including the Sultan of Brunei, Bill Cosby, and members of the Rockefeller family, with promises to invest their money in securities, then diverted more than $10 million from over 140 clients to personal luxury spending, art, and real estate.
+
+After serving federal time, he re-offended around 2000, bilking Manhattan restaurant-industry workers out of tens of thousands of dollars with promises of stock-market gains and "IPO gifting" opportunities. After a second prison term and parole, he resurfaced in Los Angeles between 2021 and 2023, despite a lifetime SEC securities-industry ban, posing as an investment advisor and targeting vulnerable people, including a single mother going through a divorce, promising to grow their money and dangling fake pre-IPO investment opportunities; this scheme took nearly $250,000 from at least nine victims.
+
+On May 5, 2026, Bloom entered a no-contest plea to 9 counts of securities fraud and 9 counts of grand theft, and on June 8, 2026 was sentenced in California state court to 10 years in prison plus restitution tied to the roughly $250,000 in losses from his most recent victims. His 1988 conviction had carried an 8-year federal sentence, a lifetime securities-industry ban, and $13 million in asset forfeiture; his 2000 conviction led to a second prison term followed by parole in 2006.
+
+Bloom's case is a stark illustration that a securities-fraud conviction, and even a lifetime SEC ban, does not physically stop a determined con artist from re-entering the investment-advisory space under a new identity or in a new city decades later. Investors should independently verify any advisor's current licensing status through FINRA's BrokerCheck or the SEC's Investment Adviser Public Disclosure database rather than relying on personal reputation, charm, or past claimed credentials, especially when the person targets those going through personal upheaval like divorce, bereavement, or job loss.`,
+    sourceUrl: 'https://en.wikipedia.org/wiki/David_P._Bloom',
+});
