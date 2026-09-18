@@ -7498,6 +7498,46 @@ UsNS.push({
 });
 
 UsNS.push({
+    name: 'Albuquerque Grandparent Scam Courier and Safehouse Network (Robert Sanchez)',
+    slug: 'new-mexico-sanchez-grandparent-scam-courier-safehouse',
+    description: `Robert Louis Sanchez of Albuquerque, New Mexico worked as a "courier" and "safehouse" operator in a grandparent scam ring that ran from August 2020 to May 2021, according to the Department of Justice and IRS Criminal Investigation. Callers, operating out of Canadian-based call centers, convinced elderly victims across the United States, including in Kentucky, that a grandchild or family member had been in a car accident and urgently needed cash. Once a victim agreed to pay, Sanchez and other local couriers collected the cash in person from victims' homes, and Sanchez separately guarded stolen funds at a "safehouse" before proceeds were laundered through banks and cryptocurrency exchanges. More than 300 victims nationwide lost over $3 million combined. Sanchez pleaded guilty to wire fraud conspiracy and was sentenced on June 26, 2024 to 18 months in federal prison plus 3 years of supervised release; four co-conspirators based in Panama, Canada, and Florida received sentences ranging from 6 months to 6 years. If you receive an urgent call claiming a grandchild is in trouble, hang up and independently call that family member or another relative directly before sending any cash to a courier, since legitimate emergencies do not require in-person cash pickup by a stranger.`,
+    categorySlug: 'grandparent-scams',
+    alertLevel: 'high',
+    sources: ['IRS Criminal Investigation / U.S. Department of Justice press release'],
+    sourceUrl: 'https://www.irs.gov/node/136416',
+    country: 'US',
+    state: 'NM',
+    isHistorical: true,
+    firstRecorded: '2020-08-01',
+});
+
+UsNS.push({
+    name: 'Las Cruces NMSU Student "Ghost Listing" Rental Deposit Scam',
+    slug: 'new-mexico-las-cruces-nmsu-ghost-listing-rental-scam',
+    description: `A New Mexico State University nursing student named Marie searched Zillow and Apartments.com for a one-bedroom apartment in Las Cruces and found a listing that had been cloned, with real photos and property details copied from an actual listing and a scammer posing as the landlord using the real owner's name. Communication moved off the official platform to calls from multiple out-of-state numbers, including New Jersey numbers flagged "Scam Likely," and the scammer sent a fraudulent lease and payment portal. Marie and her mother wired $1,800 in rent and deposit payments before the scam unraveled when a maintenance worker at the actual property told them current tenants had been complaining about strangers showing up expecting to move in. Apartments.com told the outlet KVIA it actively monitors listings for fraud but that scammers continually adapt their tactics. Renters should never send money before touring a unit in person, should be wary of any landlord who pushes communication off the official rental platform or demands extra "key fees," and should report suspected fraud to local police with copies of texts, contracts, and phone numbers used.`,
+    categorySlug: 'rental-housing',
+    alertLevel: 'medium',
+    sources: ['KVIA ABC-7 (El Paso/Las Cruces)'],
+    sourceUrl: 'https://kvia.com/for/2026/08/20/las-cruces-ghost-listing/',
+    country: 'US',
+    state: 'NM',
+    firstRecorded: '2026-08-01',
+});
+
+UsNS.push({
+    name: 'New Mexico Fake Online Ozempic/Semaglutide Pharmacy Scam',
+    slug: 'new-mexico-fake-ozempic-online-pharmacy-scam',
+    description: `As demand for GLP-1 weight-loss drugs like Ozempic and Wegovy has surged, the Better Business Bureau of New Mexico has warned residents about fraudulent websites and social media ads selling the prescription medications without a valid prescription. According to BBB New Mexico spokesperson Austin Calabaza, victims are lured by ads promising cheap semaglutide, then contacted by text from a supposed "pharmacy" and pressured to pay through non-reversible methods like Zelle, Venmo, or wire transfer. One New Mexico victim lost more than $500 after paying for the drug, which was never delivered, and the seller disappeared. BBB New Mexico noted that legitimate pharmacies require a prescription and do not rely on peer-to-peer payment apps, and that even where a product does arrive, counterfeit or unapproved compounded versions carry real health risks including infection. Consumers should only obtain GLP-1 medications through a licensed pharmacy after a valid prescription from a trusted healthcare provider, and should treat any site selling semaglutide directly with no prescription requirement as a red flag.`,
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'medium',
+    sources: ['KOB 4 (Albuquerque)', 'Better Business Bureau New Mexico'],
+    sourceUrl: 'https://www.kob.com/new-mexico/ozempic-scams-are-on-the-rise-bbb-warns/',
+    country: 'US',
+    state: 'NM',
+    firstRecorded: '2024-02-16',
+});
+
+UsNS.push({
     name: 'Puerto Rico Spanish-Language Student Debt Relief Scam (USA Student Debt Relief)',
     slug: 'puerto-rico-usa-student-debt-relief-scam',
     description: `The Federal Trade Commission asked a federal court to halt USA Student Debt Relief (USASDR) on July 11, 2024, accusing the operation — run through Florida-based Start Connecting LLC and its Colombia-based sister company Start Connecting SAS, along with individual defendants Douglas Goodman, Doris Gallon-Goodman, and Juan Rojas — of a telemarketing scheme that disproportionately targeted Puerto Rico. According to the FTC's complaint, USASDR's Colombia-based call center placed roughly 750,000 outbound calls between April 2019 and February 2024, with nearly 220,000 of them — about 30 percent — dialing Puerto Rico area codes, including numbers on the National Do Not Call Registry. Telemarketers falsely claimed affiliation with the U.S. Department of Education and promised financially strapped, Spanish-speaking borrowers permanently fixed monthly payments as low as $9 along with eventual loan forgiveness, then charged illegal upfront advance fees of hundreds of dollars plus recurring monthly fees of up to $29 that went to USASDR rather than toward paying down any actual loan. The company compounded the deception by conducting its entire sales pitch in Spanish while burying the real contract terms in fine-print English that many of its Puerto Rico customers could not read fluently, and by posting fabricated customer testimonials paired with stock photos across Instagram, Facebook, and third-party review sites to appear legitimate. A federal judge in the Middle District of Florida entered a temporary restraining order freezing the operation's assets and halting its telemarketing at the FTC's request; in May 2025 the operators agreed to be permanently banned from the debt relief industry and to surrender their assets, and in February 2026 a court permanently banned defendant Dennise Merdjanian from the debt relief and telemarketing industries as well. Federal loan servicing, consolidation, and enrollment in income-driven repayment plans are always free directly through the Department of Education's own website and servicers; any company that calls unprompted, claims a special government affiliation, and demands an upfront fee before enrolling a borrower in a loan program is following the same playbook USASDR used against tens of thousands of Puerto Rico borrowers.`,

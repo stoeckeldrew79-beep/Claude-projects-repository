@@ -8719,6 +8719,43 @@ UsAF.push({
 });
 
 UsAF.push({
+    name: 'Aurora "Invitation Homes" Impersonation Rental Deposit Scam',
+    slug: 'colorado-aurora-invitation-homes-impersonation-rental-scam',
+    description: `A scammer using the name "Russell Thompson" impersonated a representative of national rental company Invitation Homes to defraud multiple families moving to Aurora, Colorado. He produced forged company letterhead and claimed he was renting a single-family home on East Saratoga Circle on behalf of his father, "Charles Thompson," offering it below market rate on Craigslist. Sam and Phillip Rumple, relocating from Las Vegas, paid roughly $5,700 through PayPal, covering an application fee, deposit, and first and last month's rent at $1,900/month, then moved their belongings in after receiving door access codes. Three days later, a second victim, April Welch, arrived at the same address after separately paying $800 via Cash App for the identical listing. Invitation Homes confirmed it "does not advertise on Craigslist" and gave both families only 10 days to vacate the property it actually owned; both households filed reports with the Aurora Police Department. Renters should verify any corporate-owned rental directly through the company's official website, never send deposits via PayPal or Cash App to someone claiming to sublease on a relative's behalf, and treat below-market rent paired with urgent payment demands as a red flag.`,
+    categorySlug: 'rental-housing',
+    alertLevel: 'high',
+    sources: ['Denver7 (KMGH)'],
+    sourceUrl: 'https://www.denver7.com/news/contact-denver7/families-new-to-colorado-lose-thousands-in-alleged-aurora-rental-property-scam',
+    country: 'US',
+    state: 'CO',
+});
+
+UsAF.push({
+    name: 'AI Voice-Cloning "Family Emergency" Scam Surge',
+    slug: 'colorado-ai-voice-cloning-family-emergency-scam-surge',
+    description: `Colorado Attorney General Phil Weiser and the FBI's Denver Field Office have warned that artificial intelligence is fueling a sharp rise in scams targeting Coloradans, especially AI voice-cloning calls that mimic a family member's voice using as little as three seconds of audio pulled from social media videos or voicemail greetings. Victims hear what sounds like a child, spouse, or other loved one claiming to have been arrested, injured, or stranded, and demanding immediate payment. The FBI Denver Field Office reported that scammers stole $187 million from nearly 11,500 Coloradans in 2023, with the state on pace to exceed those losses in 2024; statewide complaints grew from 9,819 in 2019 to 20,390 in 2023, ranking Colorado 7th nationally in complaints per capita. Weiser said "AI takes existing scam opportunities and puts them on steroids" and "there's no question that the use of AI is a part of what's driving up those scams," advising residents to hang up and independently call the person back at a known number before sending money. Alpine Bank's Austin Hastings added that anyone who clicks a suspicious link should immediately notify their bank. Coloradans should never wire money, buy gift cards, or share financial details based solely on an unverified phone call, and should confirm any "emergency" directly with the family member using a known, trusted number.`,
+    categorySlug: 'ai-deepfake-scams',
+    alertLevel: 'high',
+    sources: ['Aspen Times'],
+    sourceUrl: 'https://www.aspentimes.com/news/artificial-intelligence-scams-surge-in-colorado/',
+    country: 'US',
+    state: 'CO',
+    firstRecorded: '2024-12-13',
+});
+
+UsAF.push({
+    name: 'Pueblo Task-Based "Product Review" Job Scam',
+    slug: 'colorado-pueblo-task-based-job-scam',
+    description: `Joseph Haas of Pueblo, Colorado nearly lost money to a task-based employment scam after responding to a Facebook ad offering remote work "reviewing products" for major retailers including Costco, Best Buy, and Macy's. After completing several tasks, Haas watched a virtual wallet in the scheme's app climb to $96, only to be told he needed a $100 minimum balance to withdraw and would have to "invest" another $60-$80 of his own money to keep earning. "This is a job, I'm working my first day and you're telling me now I have to put money in, in order to get money out," Haas said, prompting him to walk away before losing any money. The scheme mirrors a nationwide explosion in task-based job scams: reports rose from essentially zero in 2020 to about 5,000 in 2023 and roughly 20,000 in just the first half of 2024, with total losses topping $220 million over that same six-month period. Job seekers should treat any "employer" that demands payment before releasing earnings as a scam, verify unfamiliar companies through the Better Business Bureau or similar review sites, and avoid responding to unsolicited job offers received via text or social-media ads.`,
+    categorySlug: 'job-task-scams',
+    alertLevel: 'medium',
+    sources: ['KOAA News5 (Covering Colorado)'],
+    sourceUrl: 'https://www.koaa.com/news/covering-colorado/fake-online-jobs-pueblo-man-speaks-out-after-almost-falling-for-fake-remote-job-opportunity',
+    country: 'US',
+    state: 'CO',
+});
+
+UsAF.push({
     name: 'FTC v. Credit Glory $200 Million Credit Repair Network Shutdown',
     slug: 'arizona-credit-glory-credit-repair-network-ftc-shutdown',
     description: `The FTC obtained a federal court order in the District of Arizona temporarily halting Credit Glory, a sprawling network of 17 related entities — including Credit Glory LLC, Credit Sage LLC, Joy Credit Software LLC, Clerk Credit Systems LLC, Standard Scores LLC, Collections Dispute LLC, Credit Cop LLC, and Glorious Credit LLC — and five named principals, Alexander Brola, Liam Emery, Marko Petkovic, Joshua Curtis, and David Naylor, accused of scamming consumers out of nearly $200 million nationwide since at least 2016. The FTC alleges the network charged illegal upfront and recurring fees for credit repair services, often disguised as identity-verification or credit-report-review charges, impersonated debt collectors and creditors by phone, filed false identity-theft reports on consumers' behalf without authorization on Identitytheft.gov, used negative-option subscription billing with inadequate disclosures, and ran paid Google search ads specifically targeting vulnerable consumers, including military servicemembers carrying debt with the Army & Air Force Exchange Service and USAA. Judge Steven Logan granted the FTC's request for a temporary restraining order on August 10, 2026, with the Commission voting 2-0 to authorize the case; the complaint alleges violations of the FTC Act, the Credit Repair Organizations Act, the Telemarketing Sales Rule, Gramm-Leach-Bliley, ROSCA, and the Electronic Fund Transfer Act. Consumers should be wary of any credit-repair company demanding payment before performing services, which is illegal under federal law regardless of how the fee is described, companies that call claiming to be debt collectors trying to "verify" an account, and heavily-advertised credit-repair services that specifically target military members.`,
