@@ -4668,3 +4668,42 @@ UsTZ.push({
     country: 'US',
     state: 'VT',
 });
+
+UsTZ.push({
+    name: 'Hilltop Bank Call-Center Spoofing Scam Following Cyberattack',
+    slug: 'wyoming-hilltop-bank-call-center-spoofing-scam',
+    description: `On September 8, 2026, Hilltop Bank — a $1.14 billion, Casper-headquartered institution with branches across Wyoming — discovered a cybersecurity incident degrading its IT systems and took its online banking, mobile app, phone service, and even in-branch operations offline as a precaution, notifying the U.S. Office of the Comptroller of the Currency and the Federal Reserve Bank of Kansas City. As the bank scrambled to restore service and stood up a temporary recovery call center at 307-265-2740 on September 10, fraudsters moved just as fast: within days the bank had to warn customers that scammers were spoofing the caller ID of that very same recovery hotline, stating flatly on its official incident-updates site, "Hilltop Bank cannot and will not call you from (307) 265-2740. This number is set up to only receive calls," and adding, "If you receive a call from this number, do not answer. We have received reports of this number being spoofed." CyberWyoming executive director Laura Baker called the underlying breach itself "a stark wake-up call, because banks have cybersecurity down in Wyoming," warning that "if it can happen to Hilltop, it can happen to anybody, which is pretty disturbing." The bank's guidance was to trust only its official updates site (hilltopbankupdates.com), its verified social media accounts, or a known Hilltop employee for information during the outage, and to never share passwords, account numbers, Social Security numbers, or verification codes with anyone who calls unexpectedly — even from a number that looks legitimate on caller ID, since scammers exploit the confusion of a bank's own publicized crisis line within days, not months, of it being announced.`,
+    categorySlug: 'phishing',
+    alertLevel: 'high',
+    sources: ['Hilltop Bank (official incident updates)', 'Oil City News', 'CyberWyoming'],
+    sourceUrl: 'https://hilltopbankupdates.com/',
+    country: 'US',
+    state: 'WY',
+    firstRecorded: '2026-09-08',
+});
+
+UsTZ.push({
+    name: '"White Bronco" Fake Job Check-Cashing Scheme Targeting Casper\'s Homeless',
+    slug: 'wyoming-casper-white-bronco-fake-job-check-scam',
+    description: `On February 9, 2026, a couple driving a white Ford Bronco with out-of-state plates approached four homeless men in Casper, Wyoming — Ramon Wise, Christian Cheatham, Charles Miears, and William Harrison — with what was framed as a paid job offer, in one case telling a hesitant man the arrangement was simply "legit" and in another claiming they urgently needed extra help because an ICE raid had wiped out their regular crew. Instead of paychecks, the couple collected each man's Wyoming ID, handed him a single check for $5,339.10 drawn on a local business account, and drove him to a Casper bank branch to cash it — then kept the cash themselves, leaving each man with no payment at all and a forged check cashed in his own name. All four men were subsequently charged with felony fraud by check, each facing up to 10 years in prison and a $10,000 fine, while the couple who recruited them has not been identified. Casper Police spokesperson Rebekah Ladd said the pattern is a recognized fraud tactic nationally: "This type of fraud scheme often relies on recruiting unhoused individuals to present fraudulent checks in person," precisely because someone with an unstable address and few resources to fight a felony charge is easier to exploit and harder to later warn or protect. Anyone offered same-day cash work that actually involves depositing or cashing a check on someone else's behalf, rather than being paid directly for finished work, should recognize that as check-fraud recruitment rather than employment — because it is the person who walks the check into the bank, not the recruiter who hands it over, whom prosecutors and the bank will hold responsible once it bounces.`,
+    categorySlug: 'job-task-scams',
+    alertLevel: 'high',
+    sources: ['Casper Police Department', 'Cowboy State Daily'],
+    sourceUrl: 'https://cowboystatedaily.com/2026/02/19/couple-in-white-bronco-promise-casper-homeless-men-jobs-leave-them-facing-felonies/',
+    country: 'US',
+    state: 'WY',
+    firstRecorded: '2026-02-09',
+});
+
+UsTZ.push({
+    name: 'Fake Child Sexual Abuse Material "Device Hacked" Extortion Letters',
+    slug: 'wyoming-fake-csam-extortion-letter-scam',
+    description: `Beginning around early September 2025, Wyoming residents started receiving threatening letters through the U.S. Mail — some bearing Canadian postage — falsely claiming the sender had planted child sexual abuse material on the recipient's phone or computer after they supposedly clicked a malicious link, and threatening to report them to law enforcement unless they paid within 36 hours via Bitcoin, Coinbase, or Cash App, following a URL and QR code printed in the letter itself; some versions personalized the threat by naming the recipient's family members. The Wyoming Division of Criminal Investigation's Internet Crimes Against Children Task Force and the Natrona County Sheriff's Office issued a joint warning after fielding at least two reports in Natrona County within a single 24-hour span, with additional reports surfacing statewide, and said investigators were working to trace the letters' origin and "hold those responsible accountable." Laramie County Sheriff Brian Kozak said the scheme is engineered around a specific, deliberately chosen fear: "Think about it: You know that would be someone's worst nightmare, right? For someone to accuse someone of having child porn on their phone or computer." No real investigation is ever resolved by a stranger's mailed letter demanding cryptocurrency payment within 36 hours, and residents who receive one are urged not to open any link or scan any QR code in the letter, not to send any payment, and to report it immediately to local law enforcement or the Division of Criminal Investigation's Casper office at 307-261-2194.`,
+    categorySlug: 'sextortion',
+    alertLevel: 'high',
+    sources: ['Wyoming Division of Criminal Investigation (Internet Crimes Against Children Task Force)', "Natrona County Sheriff's Office", 'Cowboy State Daily'],
+    sourceUrl: 'https://cowboystatedaily.com/2025/09/09/wyoming-targeted-by-threat-of-child-porn-planting-in-extortion-scheme/',
+    country: 'US',
+    state: 'WY',
+    firstRecorded: '2025-09-09',
+});
