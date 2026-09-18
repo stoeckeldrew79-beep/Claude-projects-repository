@@ -13155,6 +13155,41 @@ International.push(
 
 International.push(
   {
+    name: 'Gibraltar "Card Not Present" Retail Fraud Surge',
+    slug: 'gibraltar-card-not-present-retail-fraud-surge',
+    description: `Ahead of Gibraltar's high-volume Black Friday and Christmas shopping period, the Royal Gibraltar Police's Economic Crime Unit launched a retailer-facing awareness campaign on November 27, 2025, warning that "card not present" fraud — historically associated with remote purchases made online or by phone — was increasingly being committed in person at physical tills. In these cases, fraudsters use the "card not present" option built into a shop's point-of-sale terminal to manually key in stolen or compromised card numbers, bypassing the chip-and-PIN or contactless checks that would normally catch a cloned or stolen card, and typically target expensive, non-routine goods. The unit said such schemes, often carried out by small organised groups, had caused losses exceeding £100,000 in recent festive seasons, and warned that retailers who unknowingly process these transactions can be left holding the loss themselves once the genuine cardholder disputes the charge and the bank issues a chargeback. Officers listed six red flags for shop staff to watch for: a customer trying multiple cards after declines, attempting to control the card machine themselves, rushing or distracting the cashier, being unusually active on a mobile phone during the transaction, presenting a non-UK-issued card, or making an expensive purchase that doesn't fit their usual buying pattern. The Economic Crime Unit said it planned to visit local retailers directly in the weeks following the launch to hand out awareness materials, and its core advice for shop staff is simple: if a transaction shows several of these warning signs, pause and verify before completing it rather than processing it under pressure.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'medium',
+    sources: ['Royal Gibraltar Police (RGP) Economic Crime Unit', 'The Gibraltar Chronicle'],
+    sourceUrl: 'https://www.chronicle.gi/economic-crime-unit-launches-awareness-drive-on-card-not-present-fraud/',
+    country: 'GI',
+    firstRecorded: '2025-11-27',
+  },
+  {
+    name: 'Gibraltar Airbnb Short-Let Holiday Booking Scam',
+    slug: 'gibraltar-airbnb-short-let-holiday-booking-scam',
+    description: `A foreign national planning an August holiday in Gibraltar was defrauded of £1,333 after booking what they believed was a genuine short-let apartment in the Devil's Gap area, the Royal Gibraltar Police reported on July 31, 2023. After the victim paid for the stay, they received a message purporting to be from Airbnb support claiming the payment would be refunded, but instructing them to resubmit the funds first in order to "secure the booking." No refund ever arrived, the property owner they had been dealing with went silent, and the victim eventually reported the loss to police after their attempts to make contact went unanswered. An RGP spokesperson said this style of scam was still relatively uncommon in Gibraltar but urged holidaymakers to book with caution, advising: "Only use the Airbnb app or go directly to the website (www.airbnb.co.uk) before you search or book a stay," rather than trusting links, emails, or off-platform payment requests sent by a "host." Police added the standard caution that applies to any unusually smooth holiday-rental deal: "If the deal seems too good to be true, it probably is" — and recommended that travellers never move a booking conversation or payment outside the official platform's own messaging and payment system, since doing so strips away the fraud protections that platform is meant to provide.`,
+    categorySlug: 'travel-vacation-scams',
+    alertLevel: 'medium',
+    sources: ['Royal Gibraltar Police (RGP)', 'The Gibraltar Chronicle'],
+    sourceUrl: 'https://www.chronicle.gi/holidaymaker-duped-in-gibraltar-short-let-scam/',
+    country: 'GI',
+    firstRecorded: '2023-07-31',
+  },
+  {
+    name: 'Gibraltar Internet Provider Tech-Support Impersonation Scam',
+    slug: 'gibraltar-internet-provider-tech-support-impersonation-scam',
+    description: `The Royal Gibraltar Police issued a warning after receiving multiple reports of fraudsters cold-calling residents from local-looking +350 numbers while posing as representatives of Gibraltar's internet providers, GibTelecom and Gib Fibrespeed. The callers claim to have detected a fault or problem with the resident's internet connection and, in order to "fix" it, talk the victim into granting remote access to their computer and handing over their account login credentials — access fraudsters can then use to steal personal data or pivot into other accounts held on the same device. The RGP's advice was direct: do "not to grant any access to their computers to any third-party and not to call back the telephone number," since even a returned call to the number that rang may route straight back to the scammer rather than to the genuine provider. Police recommend that anyone contacted this way hang up and independently look up GibTelecom's or Gib Fibrespeed's official customer service number — from a bill, contract, or the provider's own website, never from the incoming call itself — before discussing any account issue or granting computer access.`,
+    categorySlug: 'tech-support-scams',
+    alertLevel: 'high',
+    sources: ['Royal Gibraltar Police (RGP)'],
+    sourceUrl: 'https://www.police.gi/news/telephone-scam-warning-298',
+    country: 'GI',
+  },
+);
+
+International.push(
+  {
     name: 'Guam "Hafa Adai Bingo" Children\'s Charity Diversion Scheme',
     slug: 'guam-hafa-adai-bingo-charity-diversion-scheme',
     description: `Between March 2015 and the end of 2021, operators of the Guam Shrine Club's Hafa Adai Bingo parlor in Tamuning collected roughly $34 million in gross bingo proceeds from players who believed their spending helped fund travel for sick children to Shriners Hospital for Children in Honolulu, when in fact only a small fraction of that money — about $140,000 over the period — ever reached the charity. Federal prosecutors said club leaders Jose Arthur D. Chan Jr. and his wife Christine C. Chan, along with associate Michael L. Marasigan, instead diverted and laundered more than $10.75 million of the proceeds for personal use while continuing to market the games under the Aloha Shriners' name. A jury convicted the three at trial, and on May 12-13, 2026, Chief Judge Frances Tydingco-Gatewood sentenced Art Chan to 60 months and Christine Chan to 70 months in federal prison; Marasigan, who had fled to the Philippines in 2025 after being granted court permission for medical travel, was sentenced in absentia on May 19, 2026 to 262 months, and the FBI has since offered a $150,000 reward for information leading to his capture. Four additional defendants who pleaded guilty received probation or time-served sentences. All three main defendants were ordered to pay $10,750,804 in joint and several restitution to the Aloha Shriners. The case, investigated by the FBI and IRS Criminal Investigation, is a reminder that a charity's name, decades of community trust, and a seemingly routine bingo night are no guarantee that donated or wagered money actually reaches the cause it claims to support.`,
