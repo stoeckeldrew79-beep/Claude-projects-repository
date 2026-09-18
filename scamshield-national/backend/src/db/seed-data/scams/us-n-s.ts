@@ -8113,3 +8113,42 @@ UsNS.push({
     state: 'OR',
     firstRecorded: '2026-09-14',
 });
+
+UsNS.push({
+    name: 'Seabrook PayPal Impersonation Cash-Pickup Scam (Li Geng Lin)',
+    slug: 'new-hampshire-seabrook-paypal-cash-pickup-scam',
+    description: `On the afternoon of June 2, 2025, a caller posing as a PayPal representative told an elderly woman in Seabrook, New Hampshire that she owed the company money and instructed her to withdraw $20,000 in cash from her bank, warning her to lie to anyone who asked what the money was for or risk losing access to her financial accounts. Before the scheme's couriers could collect the cash, a family member recognized the warning signs and alerted the Seabrook Police Department, which arrested Li Geng Lin, 58, of Flushing, New York, and Didi Huang, of Brooklyn, New York, when the pair arrived at the victim's home. Lin pleaded guilty on December 11, 2025 to one class A felony count of attempted theft by deception and was sentenced in Rockingham County Superior Court to 2 to 5 years in the New Hampshire State Prison, with part of the term suspended and a condition barring him from working with elderly, disabled, or impaired adults. New Hampshire Attorney General John M. Formella credited the family's quick thinking, saying, "This scam was stopped because a family member of the victim recognized the signs of the scam and acted quickly." No legitimate company — PayPal included — will ever call demanding a cash withdrawal or send someone to your home to collect a debt in person, so anyone who gets such a call should hang up, contact the company only through its official app or website, and alert a trusted family member or local police before taking any action.`,
+    categorySlug: 'account-takeover',
+    alertLevel: 'high',
+    sources: ['New Hampshire Department of Justice', 'Boston 25 News', 'Patch'],
+    sourceUrl: 'https://www.doj.nh.gov/news-and-media/new-york-man-sentenced-prison-role-paypal-scam-targeting-elderly-seabrook-resident',
+    country: 'US',
+    state: 'NH',
+    firstRecorded: '2025-06-02',
+});
+
+UsNS.push({
+    name: 'Derry Warehouse Murder Exposes New Hampshire Gift-Card "Draining" Network',
+    slug: 'new-hampshire-derry-gift-card-draining-apple-warehouse-murder',
+    description: `New Hampshire's lack of a sales tax has made it a hub for an international "gift card draining" operation in which criminals pull unopened gift cards off retail shelves nationwide, secretly record each card's number and PIN, then reseal and return the cards to the shelf; when an unsuspecting shopper later buys and loads money onto one of those cards, the thieves are notified and drain the funds within minutes, either into Apple Wallets or by using them to buy electronics. Investigators say the stolen proceeds funded iPhones, iPads, and Apple Watches shipped to at least 13 rented warehouses across southern New Hampshire — including Windham, Amherst, Seabrook, Londonderry, and Derry — with the Windham facility alone receiving roughly $47 million in Apple products over just ten weeks in the summer of 2025, and a nearby Amherst site receiving another $35 million in iPhones over the same period. The scheme's human toll became public after Gui Lin, a 41-year-old Chinese national working at the Derry warehouse, was stabbed to death on May 19, 2025 during a robbery attempt by men who fled in a U-Haul van searching for Apple inventory; Marco Junior Marquez Vera, 20, of Queens, New York, was later arrested in Madrid, Spain and extradited to face murder charges, and at least 19 people have been charged in New Hampshire in connection with the broader network. A detective involved in the investigation described an enterprise with "hundreds, possibly thousands of people involved... internationally," underscoring that the scheme is a nationwide consumer threat funneled through New Hampshire's tax advantage rather than a purely local crime. Because a drained card looks identical to a legitimate one until it's too late, consumers should buy gift cards only from the register or a sealed, tamper-evident display, check that the PIN's protective scratch-off area is undisturbed before purchase, and activate and spend the card immediately rather than letting it sit unused.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'critical',
+    sources: ['New Hampshire Public Radio (NHPR)', 'WBUR'],
+    sourceUrl: 'https://www.nhpr.org/nh-news/2026-05-14/derry-murder-is-the-latest-fallout-from-nhs-ties-to-global-gift-card-scam',
+    country: 'US',
+    state: 'NH',
+    firstRecorded: '2025-05-19',
+});
+
+UsNS.push({
+    name: 'New Hampshire and FBI Boston Romance Scam Valentine\'s Day Alert',
+    slug: 'new-hampshire-romance-scam-valentines-day-alert',
+    description: `Ahead of Valentine's Day, the New Hampshire Department of Justice and the FBI's Boston Field Office issued coordinated warnings that romance scams — in which fraudsters build fake online relationships before asking for money — cost more than 700 victims across Massachusetts, Maine, New Hampshire, and Rhode Island a combined $20 million in reported losses in 2025 alone. New Hampshire Attorney General John M. Formella said, "Romance scams continue to be a major concern, especially during this time of year," noting that scammers typically send unsolicited messages, invent urgent reasons to avoid meeting in person or on video, and eventually ask for money, gift cards, or cryptocurrency investment. FBI Boston Special Agent in Charge Ted E. Docks urged residents to slow down before trusting an online stranger with money, saying, "The best weapon against these scammers is a healthy dose of skepticism." Officials also flagged that scammers are increasingly using generative AI to build more convincing fake profiles, photos, and even video calls, making the deception harder to spot than in past years. New Hampshire residents who suspect a romance scam should cut off contact immediately, never send money, gift cards, or cryptocurrency to someone they have not met in person, and report losses to local police, the NH DOJ Consumer Protection and Antitrust Bureau at (603) 271-3641, or IC3.gov.`,
+    categorySlug: 'romance-scams',
+    alertLevel: 'high',
+    sources: ['New Hampshire Department of Justice', 'FBI Boston Field Office', 'Newsweek'],
+    sourceUrl: 'https://www.doj.nh.gov/news-and-media/romance-scam-warning-valentines-day',
+    country: 'US',
+    state: 'NH',
+    firstRecorded: '2025-02-13',
+});
