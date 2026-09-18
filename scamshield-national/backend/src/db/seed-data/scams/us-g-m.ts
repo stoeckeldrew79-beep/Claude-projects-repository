@@ -8309,3 +8309,42 @@ UsGM.push({
     state: 'MD',
     firstRecorded: '2026-04-13',
 });
+
+UsGM.push({
+    name: 'Cambridge "Toy Poodle for Sale" Windshield Flyer Scam',
+    slug: 'massachusetts-cambridge-toy-poodle-flyer-scam',
+    description: `In September 2025, the Cambridge Animal Commission and Cambridge Police Department warned residents after flyers began appearing on windshields across the city advertising eight-week-old toy poodle puppies for $1,000, complete with claims the dogs were fully vaccinated and came with registration paperwork. Officials determined the photo on the flyer was a generic stock image — no such litter existed, and the listed phone number connected only to the person soliciting payment. "The dogs did not exist," said Cambridge Police Sergeant Bob Reardon. "They were trying to play on somebody's heartstrings, like a dog lover." The Better Business Bureau has logged nearly 10,000 puppy-scam complaints nationwide over a three-year span, with about 60% of buyers never receiving the pet they paid for — a pattern investigators say mirrors what played out on Cambridge streets. Anyone responding to a flyer or online listing for a puppy should meet the seller and see the actual animal, its microchip, and its vaccination records in person before sending any money; as Sgt. Reardon put it, "ask questions... ask for proof" rather than wiring funds to an unverified seller.`,
+    categorySlug: 'pet-sales-scams',
+    alertLevel: 'medium',
+    sources: ['Cambridge Police Department', 'City of Cambridge Animal Commission', 'NBC Boston'],
+    sourceUrl: 'https://www.nbcboston.com/news/local/the-dogs-did-not-exist-cambridge-police-warn-of-toy-poodle-sale-scam/3817731/',
+    country: 'US',
+    state: 'MA',
+    firstRecorded: '2025-09-18',
+});
+
+UsGM.push({
+    name: 'Dorchester Workers Union $6.4 Million Business Email Compromise',
+    slug: 'massachusetts-dorchester-workers-union-business-email-compromise',
+    description: `In January 2023, a labor union based in Dorchester, Massachusetts was defrauded of $6.4 million after its finance staff received an email that appeared to come from the union's outside investment manager but was actually sent from a spoofed address altered by a single letter. The fraudulent message instructed the union to redirect a scheduled payment to a new "beneficiary" bank account that was in fact controlled by the scammers; once the wire went through, the money was rapidly layered through a chain of intermediary U.S. bank accounts before some of it was routed toward a cryptocurrency exchange and additional accounts in Hong Kong, mainland China, Singapore, and Nigeria. Investigators with the U.S. Secret Service and the Justice Department's Money Laundering and Asset Recovery Section traced roughly $5.3 million of the stolen funds to seven domestic bank accounts, which the government seized and, on March 26, 2025, formally forfeited back to the victimized union. "This case underscores the sophisticated and global nature of financial fraud schemes that prey on organizations and their hard-earned resources," said then-U.S. Attorney Leah B. Foley. The case is a reminder that any request to change a payee's bank account details arriving only by email — even one that appears to come from a longtime, trusted vendor or investment manager — should be verified by phone using a number independently looked up (never one supplied in the email itself) before a large wire transfer is sent.`,
+    categorySlug: 'business-email-compromise',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office, District of Massachusetts", 'U.S. Secret Service', 'Insurance Journal'],
+    sourceUrl: 'https://www.justice.gov/usao-ma/pr/united-states-secures-forfeiture-over-5-million-traceable-business-email-compromise',
+    country: 'US',
+    state: 'MA',
+    firstRecorded: '2023-01-01',
+});
+
+UsGM.push({
+    name: 'Sunrun/Vivint Solar Massachusetts Deceptive Sales Lawsuits',
+    slug: 'massachusetts-sunrun-vivint-solar-deceptive-sales-lawsuits',
+    description: `Since 2023, more than 170 Massachusetts homeowners have filed complaints with the state Attorney General's Office against Sunrun Inc. and Vivint Solar, the California-based residential solar company it acquired in 2020, alleging they were misled by door-to-door sales agents into signing 20- to 25-year lease and power-purchase contracts that locked them into rising payments for systems that were undersized, malfunctioning, or never produced the promised savings. Sunrun and its affiliates have in turn filed more than 420 debt-collection lawsuits against Massachusetts customers who stopped paying, including 57 cases in Brockton District Court alone; among those named, Carver resident Colette Wildman said her utility bills doubled after installation, Brockton's Karima Wiggins said her roughly $40,000 system never reduced her bill at all, and Hyde Park's Ikenna Akukwe said he was "tricked" into signing. Brockton Chief Housing Inspector George Depina, who has fielded a wave of local complaints, said the company appeared to be "targeting communities like Brockton because of the lower income... it just reeks of improprieties," while Sunrun spokesman Wyatt Semanek said the company's "subscription service is built around consumer protection and peace of mind" and that serious claims are rare. Massachusetts lawmakers have since proposed legislation adding disclosure and cooling-off protections for solar contracts, but current law already gives homeowners who sign at home until midnight of the third business day after signing to cancel with no penalty and no reason required — a right anyone approached by a door-to-door solar salesperson should use to review the full contract, get an independent quote, and confirm savings projections in writing before the cancellation window closes.`,
+    categorySlug: 'home-improvement-solar',
+    alertLevel: 'high',
+    sources: ['GBH News', "Massachusetts Attorney General's Office", 'Brockton District Court records'],
+    sourceUrl: 'https://www.wgbh.org/news/local/2025-04-28/solar-panel-company-accused-of-shady-business-in-massachusetts',
+    country: 'US',
+    state: 'MA',
+    firstRecorded: '2025-04-28',
+});
