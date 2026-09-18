@@ -1169,6 +1169,20 @@ The Great Diamond Hoax remains a landmark case study in the failure of investor 
     sourceUrl: 'https://en.wikipedia.org/wiki/Great_Diamond_Hoax',
   },
 {
+    title: 'PMC Bank: How 21,000 Fake Loan Accounts Hid a $600 Million Hole for Years',
+    slug: 'pmc-bank-hdil-fraud-joy-thomas',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'international', 'banking-fraud'],
+    body: `Punjab and Maharashtra Co-operative Bank (PMC Bank) was, on paper, an ordinary Mumbai-based urban cooperative bank serving retail depositors across several Indian states. Underneath, it had spent years as the private financing arm of Housing Development and Infrastructure Limited (HDIL), a real-estate developer whose founding family, the Wadhawans, had helped rescue the bank from closure decades earlier and retained deep influence over it ever since. By the mid-2010s, HDIL's own real-estate business was failing under its debts, and PMC's managing director, Joy Thomas, kept extending it credit far beyond what the bank could safely absorb — eventually totaling roughly ₹6,500 crore in loans and exposure to a single, deteriorating borrower group.
+
+To keep that exposure invisible to auditors, the bank's own board, and the Reserve Bank of India, Thomas and senior colleagues replaced just 44 real HDIL-linked loan accounts with more than 21,000 fictitious ones, spreading the true debt across thousands of fabricated borrower records so that no single account balance would look alarming on inspection and the bank's reported non-performing assets stayed artificially low. A separate, parallel core-banking system reportedly let staff show RBI inspectors one set of books while the bank's real exposure sat in a hidden second set — a level of engineered concealment that let the fraud continue undetected for years even as HDIL sank deeper into default.
+
+The scheme collapsed in September 2019, when Thomas sent RBI a letter confessing to the concealment. The central bank froze the bank's operations and initially capped customer withdrawals at just ₹1,000 per account — later eased to ₹40,000 — trapping depositors' own savings for months and triggering protests, at least a handful of deaths among account holders linked to the financial shock, and a criminal investigation. Mumbai's Economic Offences Wing arrested Thomas, former PMC chairman Waryam Singh, and HDIL promoters Rakesh and Sarang Wadhawan within weeks, charging the group with criminal breach of trust, forgery, and falsification of bank records over an alleged ₹4,355 crore scam — roughly $600 million at the time. The criminal case has moved slowly since: Thomas was granted bail in October 2024 after five years in custody, with no final verdict reached as of 2026. In January 2022, regulators arranged for Unity Small Finance Bank to absorb PMC's deposits and branches under an RBI-brokered amalgamation, giving depositors a path to recover their money without the bank's failure ever being formally resolved in court.
+
+PMC Bank shows how a lender's oversight can be defeated not by hiding a loss, but by multiplying paperwork around it — 21,000 fake accounts did what one bad loan number never could, spreading a concentrated, unmistakable risk into thousands of individually unremarkable-looking entries that inspectors had no practical way to trace back to a single insolvent borrower.`,
+    sourceUrl: 'https://www.nationalheraldindia.com/india/explained-what-is-pmc-bank-fraud-and-how-it-started',
+  },
+{
     title: "Robert Trippet and the Home-Stake Oil Swindle That Fooled Hollywood's Biggest Stars",
     slug: 'robert-trippet-home-stake-oil-swindle',
     author: 'ScamShield Editorial',
