@@ -7169,6 +7169,45 @@ UsNS.push({
 });
 
 UsNS.push({
+    name: 'Rapid City Planning Commission Fake-Invoice Email Scam',
+    slug: 'south-dakota-rapid-city-planning-commission-fake-invoice-scam',
+    description: `In early July 2026, the City of Rapid City, South Dakota warned local businesses about a resurfacing email scam impersonating the city's Planning Commission. At least four businesses reported receiving fraudulent emails that week, carrying authentic-looking city branding along with fake invoices referencing standard development project fees and permit applications, and demanding immediate payment. The emails are designed to pressure recipients into paying quickly by implying that fees are past due and permits could be delayed if payment is not received. City officials publicly stated, "Legitimate city employees will never request payment through immediate wire transfers or threaten to delay permits over email." Rapid City's Community Development Department urged any business that receives one of these invoices to independently verify it by calling the department directly, rather than replying to the email or clicking any links, and noted this is not the first time the scheme has circulated among the city's business community. Businesses that receive a suspicious "city" invoice should not wire funds, should preserve the email, and can report it to Rapid City officials or the South Dakota Attorney General's Consumer Protection Division at 1-800-300-1986.`,
+    categorySlug: 'business-email-compromise',
+    alertLevel: 'medium',
+    sources: ['KOTA Territory News'],
+    sourceUrl: 'https://www.kotatv.com/2026/07/02/rapid-city-warns-resurfacing-email-scam-targeting-businesses-with-fake-invoices/',
+    country: 'US',
+    state: 'SD',
+    firstRecorded: '2026-07-02',
+});
+
+UsNS.push({
+    name: 'Sioux Falls Fake IT/FDIC Impersonation Wire Fraud',
+    slug: 'south-dakota-sioux-falls-fake-it-fdic-wire-fraud',
+    description: `Sioux Falls police are investigating after an elderly Sioux Falls resident lost more than $200,000 between early June and early July 2026 in a multi-stage fraud that began with a call about a computer problem. The victim was connected to someone posing as a representative of the software's "fraud protection" division, who convinced the victim to download a remote-access application, giving the scammer control of the computer. The scammer then impersonated a Federal Deposit Insurance Corporation official, told the victim their bank accounts had been compromised, and directed the victim to go to their bank in person and wire large sums — even providing a scripted cover story, claiming the withdrawals were for a home remodeling project, for the victim to give bank staff if questioned. Multiple wire transfers went out before a family member noticed the unusual activity and alerted authorities; by then the victim had lost over $200,000. The Sioux Falls Police Department confirmed it opened an investigation, reported July 9, 2026. Anyone contacted about a computer problem who is then transferred to someone claiming to be a bank or government fraud investigator should hang up immediately, never install remote-access software at an unsolicited caller's direction, and never follow a caller's script for what to tell a bank teller — real banks and the FDIC never instruct customers to withdraw or wire money to "protect" their accounts.`,
+    categorySlug: 'tech-support-scams',
+    alertLevel: 'high',
+    sources: ['Dakota News Now', 'Sioux Falls Police Department'],
+    sourceUrl: 'https://www.dakotanewsnow.com/2026/07/09/victim-loses-over-200000-fake-it-phone-scam/',
+    country: 'US',
+    state: 'SD',
+    firstRecorded: '2026-07-09',
+});
+
+UsNS.push({
+    name: 'Yankton Virtual Kidnapping / Fake Missing-Child Scam Calls',
+    slug: 'south-dakota-yankton-virtual-kidnapping-scam-calls',
+    description: `On January 10, 2025, the Yankton School District and Yankton Police Department issued a joint public statement warning families about a wave of scam phone calls falsely claiming a child had gone missing or been kidnapped, causing significant fear in the community. Superintendent Dr. Wayne Kindle said the calls "falsely claim that a child is missing or kidnapped and eventually lead to the caller asking for payments or sensitive information," and the district stressed there was no credible evidence of any actual missing or kidnapped children in Yankton. The calls follow the pattern of the long-running "virtual kidnapping" scheme tracked for years by the FBI, which uses spoofed caller ID and scripted, fear-based pressure to panic victims into paying or sharing personal information before they can verify the claim independently. Yankton Police Chief Jason Foote and the school district urged anyone who receives such a call to give the caller no names or personal information, hang up immediately, and directly call the school (605-665-3998) or the Yankton Police Department (605-668-5210) to confirm a child's safety before taking any other action.`,
+    categorySlug: 'family-emergency-scams',
+    alertLevel: 'medium',
+    sources: ['Yankton School District 63-3', 'Yankton Police Department', 'KYNT-AM'],
+    sourceUrl: 'https://www.kynt1450.com/2025/01/10/ysd-and-ypd-release-statement-on-scam-calls/',
+    country: 'US',
+    state: 'SD',
+    firstRecorded: '2025-01-10',
+});
+
+UsNS.push({
     name: 'Nebraska Traffic Fine QR Code Text Scam',
     slug: 'nebraska-traffic-fine-qr-code-text-scam',
     description: `On April 5, 2026, the Nebraska Judicial Branch and law enforcement agencies including the Lancaster County Sheriff's Office warned residents statewide about a fast-spreading text-message scam claiming the recipient has an unpaid traffic fine that has been referred to "court enforcement," listing escalating penalties if the recipient does not act immediately. The message embeds a QR code and urges the recipient to scan it to pay online, a tactic designed to slip past mobile spam-link filters that increasingly catch texts with plain URLs, while still leading anyone who scans it to a fraudulent payment page built to harvest credit card numbers and personal information. The Nebraska Judicial Branch stated plainly that "Nebraska courts do NOT send out automated text messages when traffic fines are due," and the Lancaster County Sheriff's Office urged residents to "not scan the QR code, make any payments or provide any personal information to the scammers." Officials note that any legitimate Nebraska traffic fine can be paid only in person at the courthouse or through the state's own online portal at ne.gov/go/paycourts, and that a payment link or QR code arriving by unsolicited text should be treated as fraudulent regardless of how official the message looks or how urgent its deadline sounds. Residents who receive this text are advised to delete it without scanning the code or clicking anything, and to verify any supposed traffic fine directly with their local county court using a phone number looked up independently rather than one provided in the message.`,
