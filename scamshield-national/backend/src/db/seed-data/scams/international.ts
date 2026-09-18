@@ -14007,6 +14007,42 @@ International.push(
 
 International.push(
   {
+    name: 'Fake "Vatican Chamber Token" Cryptocurrency Presale Scam',
+    slug: 'vatican-chamber-token-crypto-presale-scam',
+    description: `A cryptocurrency scheme calling itself the "Vatican Chamber Token" (VCT) surfaced in mid-2025, falsely claiming ties to the Institute for the Works of Religion (IOR), commonly known as the Vatican Bank. The operation invited investors to buy into an exclusive "Vatican Chamber of Trade" — an institution that does not exist — offering a presale of 10 million tokens at 25 euros each and promising perks like private investor introductions and custodial services. To look credible, the scheme published a fraudulent edit to the Vatican Bank's Wikipedia page and directed traffic through a phishing site at vaticantrade.cb.id, exploiting Coinbase's free cb.id subdomain service, which requires no Know Your Customer verification, while displaying the Vatican Bank's real phone number to reassure victims. When Cointelegraph contacted the Vatican Bank directly, a representative confirmed flatly that the project "is a scam" and denied any affiliation. Consumers should treat any cryptocurrency offer invoking the Vatican, a bank, or a government institution as a red flag unless it can be verified through that institution's own official website or published contact information — never through a link supplied by the offer itself.`,
+    categorySlug: 'cryptocurrency-scams',
+    alertLevel: 'medium',
+    sources: ['Cointelegraph'],
+    sourceUrl: 'https://cointelegraph.com/news/fake-vatican-chamber-token-presale-scam-exposed',
+    country: 'VA',
+    firstRecorded: '2025-06-11',
+  },
+  {
+    name: 'Fake IOR Officials and Priests Fraud Ring Targeting Entrepreneurs',
+    slug: 'vatican-fake-ior-officials-priests-fraud-ring',
+    description: `Carabinieri in Rome dismantled an organized fraud ring in July 2026 whose members spent nearly two years posing as priests, "high-ranking officials of the IOR," and Vatican emissaries to swindle business owners. Wearing genuine clergy shirts and collars bought from religious-goods retailers, the con artists approached entrepreneurs with promises of zero-interest financing or lucrative contracts to restore religious complexes, then demanded large cash sums framed as "charitable donations to the Church." The same three men, aged 57 to 73, also posed as Luxembourg fund intermediaries and representatives of Russian oil magnates to push fraudulent luxury-hotel sales backed by forged notarial contracts, and ran a "black liquid" advance-fee con claiming to triple €100,000 through a fake chemical process. Investigators, who traced the group's activity from Rome and Lazio to Venice, Avezzano, and contacts as far as Cameroon and Malaysia, confirmed roughly €7,000 in verified losses and blocked an estimated €12.5 million in additional schemes before issuing precautionary measures against the three suspects. Anyone approached by a person claiming to represent the Vatican, the IOR, or any Church institution offering financing, contracts, or investment deals should independently verify that person's identity through the institution's official offices before handing over any money, especially cash.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Giornale di Sicilia'],
+    sourceUrl: 'https://gds.it/articoli/cronaca/2026/07/12/si-travestivano-da-sacerdoti-e-funzionari-dello-ior-truffe-per-oltre-12-milioni-di-euro-7398863f-74c7-4f31-ac5e-1b79c4806a5b/',
+    country: 'VA',
+    firstRecorded: '2026-07-12',
+  },
+  {
+    name: 'Fake Job Offer at the Vatican Gendarmerie Scam',
+    slug: 'vatican-gendarmerie-fake-job-offer-scam',
+    description: `Italy's Postal Police reported a 54-year-old man from Frascati in March 2023 after he defrauded an unemployed young man and his father by falsely posing as a Carabinieri officer with connections inside the Corps of Gendarmerie of Vatican City. The suspect offered to broker the young man's hiring into the Gendarmerie in exchange for payment, then fabricated an elaborate paper trail to sustain the con: forged emails purporting to come from the Vatican Gendarmerie, fake entrance-exam notices, false results declaring the victim had passed, and a bogus summons to Gendarmerie headquarters for a "uniform fitting." The scheme unraveled only when the victim, believing he had been hired, showed up in person at the real Vatican Gendarmerie offices and was told no such hiring process existed. The Gendarmerie itself reported the case to Rome's Postal Police Cyber Security Operations Center after determining the fraud had discredited "the prestigious Institution," and a subsequent search of the suspect's home turned up replica firearms and counterfeit FBI-style credentials. He was charged with impersonation and illegal weapons possession. Genuine hiring by the Vatican Gendarmerie never runs through a paid intermediary — anyone asked to pay for a guaranteed placement in a police or security force should assume it is a scam and verify directly with the institution.`,
+    categorySlug: 'employment-scams',
+    alertLevel: 'medium',
+    sources: ['Polizia di Stato (Italian State Police)', 'ANSA'],
+    sourceUrl: 'https://questure.poliziadistato.it/it/Roma/articolo/17336414217076d8f053464454',
+    country: 'VA',
+    firstRecorded: '2023-03-17',
+  },
+);
+
+International.push(
+  {
     name: 'Niue Advance-Fee Email Scam Targeting Isolated Residents',
     slug: 'niue-advance-fee-email-scam',
     description: `Niue police issued a public warning in August 2015 after a wave of unsolicited scam emails began reaching residents of the tiny, isolated South Pacific nation, asking recipients for their banking and personal details so that funds could supposedly be transferred through their accounts from overseas. Niue's then police chief, Tony Edwards, said the messages came from people and places recipients had never had any dealings with, telling RNZ Pacific "if you're getting these kind of scam emails from places where you've never been or you've never had a chance to go to, then the question is, why would you respond?" Edwards linked the targeting directly to Niue's remoteness, saying the island's isolation made residents an appealing target precisely because scammers calculated that people cut off from regular outside contact might be more easily persuaded that an unexpected overseas message was genuine. Police responded by taking the warning directly into the community, visiting schools and public meetings to teach residents how to recognise a scam email and to report suspicious messages to police rather than reply or hand over any personal or bank information. At the time of the warning, Niue police said they had no confirmed reports of anyone on the island having actually lost money to the emails, crediting the awareness campaign with catching the problem before it produced victims, and urged anyone unsure about a message asking for financial or personal details to verify it with police first.`,
