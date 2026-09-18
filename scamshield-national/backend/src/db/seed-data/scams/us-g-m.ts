@@ -8378,3 +8378,41 @@ UsGM.push({
     state: 'MA',
     firstRecorded: '2025-04-28',
 });
+
+UsGM.push({
+    name: 'Minnesota Statewide Cryptocurrency Kiosk Ban',
+    slug: 'minnesota-virtual-currency-kiosk-ban-sf3868',
+    description: `Minnesota Governor Tim Walz signed SF 3868 into law on May 5, 2026, banning physical cryptocurrency kiosks statewide after state data showed scammers had used the unattended machines to drain nearly $1 million from residents. The Department of Commerce documented 134 complaints tied to crypto-kiosk fraud between 2023 and 2025, including 70 cases and more than $540,000 lost in 2025 alone — an average of roughly $6,800 per incident — with the scheme typically starting when a caller poses as law enforcement, a bank investigator, or a family member in a fabricated emergency and pressures the victim to withdraw cash and feed it into the nearest kiosk. "When people believe a loved one is in danger or they are facing a serious threat, they act quickly because protecting the people we love comes first," said Commerce Commissioner Grace Arnold, while BCA Superintendent Drew Evans said "banning these kiosks removes a tool criminals have repeatedly used to exploit vulnerable people." Under the new law, kiosk operators had to take their machines offline by August 1, 2026, and must physically remove them from any publicly accessible location by December 31, 2026, though Minnesotans can still use regulated online cryptocurrency exchanges, which carry stronger consumer protections than an unattended kiosk. Anyone told by an unsolicited caller — claiming to be police, a bank, or a relative in trouble — to withdraw cash and deposit it into a cryptocurrency kiosk should hang up immediately and verify independently, since no legitimate agency or institution will ever direct payment through a crypto kiosk.`,
+    categorySlug: 'cryptocurrency-scams',
+    alertLevel: 'high',
+    sources: ['Minnesota Department of Commerce', 'Minnesota Bureau of Criminal Apprehension'],
+    sourceUrl: 'https://mn.gov/commerce/news/?id=17-749033',
+    country: 'US',
+    state: 'MN',
+    firstRecorded: '2026-05-05',
+});
+
+UsGM.push({
+    name: 'SafeLodgings Housing Stabilization Services Fraud (Kaamil Sallah)',
+    slug: 'minnesota-safelodgings-housing-stabilization-fraud-sallah',
+    description: `Kaamil Omar Sallah, 26, incorporated SafeLodgings, Inc. with the Minnesota Secretary of State in March 2023 and enrolled it as a provider under the state's now-shuttered Housing Stabilization Services (HSS) Medicaid program, which was meant to help people with disabilities and substance-use disorders find and keep stable housing. From approximately March 2023 through August 2025, prosecutors say Sallah and his company falsely claimed to have personally provided more than 3,600 billable hours of reimbursable services, submitting roughly $1.4 million in fraudulent claims and collecting nearly $1.3 million from the program, including about $150,000 he diverted into cryptocurrency. After being subpoenaed, Sallah flew from Minneapolis–St. Paul International Airport to Amsterdam in late November 2025; a federal grand jury indicted him on four counts of wire fraud on December 16, 2025, and he was arrested returning to MSP Airport on September 10-11, 2026, after coordinating his self-surrender through the Federal Defenders Office. FBI Special Agent Christopher D. Dotson said "this American taxpayer money was designated to help stabilize housing of those in most dire need in our community." HSS program spending ballooned from an estimated $2.5 million a year in 2020 to $104 million by 2024 before federal regulators terminated the program in October 2025 amid widespread fraud investigations. Minnesotans who work in or receive services through state Medicaid-funded housing, disability, or behavioral-health programs should report any provider billing for services that were never actually delivered, since fabricated hours — not a break-in or stolen card — are how this kind of fraud drains taxpayer funds.`,
+    categorySlug: 'medicare-health-plans',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office, District of Minnesota", 'CBS News Minnesota'],
+    sourceUrl: 'https://www.justice.gov/usao-mn/pr/arrested-airport-man-voluntarily-returns-minnesota-face-charges-defrauding-13-million',
+    country: 'US',
+    state: 'MN',
+    firstRecorded: '2023-03-01',
+});
+
+UsGM.push({
+    name: 'BBB Task-Based "Like and Share" Job Scam (Minnesota Victim Loses $65,000)',
+    slug: 'minnesota-bbb-video-task-job-scam-65000-loss',
+    description: `The Better Business Bureau profiled a Minnesota woman identified only as Ajia in its 2026 employment-scams update after she lost $65,000 to a task-based "job" scam that recruited her to like, share, and post videos on YouTube and other social platforms. As is typical of the scheme, the fraudsters built trust by paying out small amounts for early tasks, then told her she needed to send money to "unlock" new tasks and access the much larger balance she had supposedly earned; Ajia told the BBB that "once she kept sending in money to get her full amount, she realized something was wrong." Her case is part of a broader 2025 surge the BBB tracked nationally — nearly 680 task-scam reports, more than double the prior tracking period, with a median reported loss of $2,300, though individual losses like Ajia's ran far higher. These scams typically start with an unsolicited text or social-media message offering easy pay for simple online tasks, and legitimate employers never require a worker to pay their own money to receive wages they already earned; anyone asked to send funds to "unlock" or "release" pay from a job they were recruited into online should stop immediately and report it to the BBB Scam Tracker or the FTC.`,
+    categorySlug: 'job-task-scams',
+    alertLevel: 'high',
+    sources: ['Better Business Bureau'],
+    sourceUrl: 'https://www.bbb.org/all/scamstudies/jobscams/employment-scams-2026-update',
+    country: 'US',
+    state: 'MN',
+});
