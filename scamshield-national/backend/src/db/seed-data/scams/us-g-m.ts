@@ -7406,6 +7406,45 @@ UsGM.push({
 });
 
 UsGM.push({
+    name: 'Fake City of Missoula Permit-Invoice Phishing Scam',
+    slug: 'montana-missoula-fake-city-invoice-phishing',
+    description: `In March 2026 the FBI warned the public about criminals impersonating city and county government officials to collect fraudulent payments for planning and zoning permits, and by September 2026 the City of Missoula's Community Planning, Development & Innovation Department confirmed it was actively targeted, warning development applicants, contractors, and property owners about fake invoices and payment requests sent by people posing as real City of Missoula employees. The fraudulent emails often include an actual project name, address, or real staff member's name to appear legitimate, then direct the recipient to pay by wire transfer, a method the City says it never uses to collect fees. "An email may include a real project name, address or staff member and still be fraudulent. If you receive an unexpected payment request, please verify it directly with the City before taking any action," said Eran Pehan, the department's director. Legitimate City of Missoula emails come only from the @ci.missoula.mt.us domain, so residents and contractors should check sender addresses carefully, never wire money based on an unsolicited invoice, and call the department directly at 406-552-6060 or email coordinators@ci.missoula.mt.us to verify any payment request before sending funds.`,
+    categorySlug: 'business-email-compromise',
+    alertLevel: 'medium',
+    sources: ['NBC Montana / KECI', 'City of Missoula, Community Planning, Development & Innovation Department', 'FBI'],
+    sourceUrl: 'https://nbcmontana.com/news/local/city-of-missoula-warns-of-ongoing-phishing-scam',
+    country: 'US',
+    state: 'MT',
+    firstRecorded: '2026-03-01',
+});
+
+UsGM.push({
+    name: 'Montana Secretary of State Warns of "Additional Business Documents Needed" Scam Mailer',
+    slug: 'montana-secretary-of-state-business-documents-scam-mailer',
+    description: `On April 8, 2026, the Montana Secretary of State's Office, under Secretary Christi Jacobsen, warned newly registered business owners about a deceptive mailer titled "2026 Additional Business Documents Needed" that uses red text reading "REQUIRED BY LAW," cites fines of up to $25,000, and sets an urgent response deadline to pressure recipients into paying high fees for documents and filings. The mailer is designed to look like an official government notice, but the office confirmed the senders have no connection to the Montana Secretary of State's Office, the IRS, the Department of Labor, or any other government agency, and that the referenced documents and services are available directly from official government sources at little or no cost. "This mailing is designed to look official and scare new businesses into paying egregious fees for documents and services they can obtain directly from trusted government sources, often at a much lower cost or even for free," Jacobsen said. The Secretary of State's Office sent a cease-and-desist letter to the organization behind the mailer; new business owners are advised to ignore such mail, never send payment or personal information in response, and verify any "required" business filing directly through the Secretary of State's official website before paying anyone.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ["Montana Secretary of State's Office", 'MontanaRightNow/KULR8'],
+    sourceUrl: 'https://www.montanarightnow.com/montana/montana-business-owners-warned-about-scam-mailer-targeting-new-firms/article_84a5895d-8b74-5863-83fa-806e85298799.html',
+    country: 'US',
+    state: 'MT',
+    firstRecorded: '2026-04-08',
+});
+
+UsGM.push({
+    name: 'Fake Job Posting Overpayment Check Scam',
+    slug: 'montana-fake-job-posting-overpayment-check-scam',
+    description: `In an April 15, 2026 warning, the Montana Department of Justice and Montana employment agencies described a growing fake-job scam in which criminals post fake listings on social media and job boards — often unsolicited text messages promising remote work paying "$1,000 a week working two hours" — then run a convincing fake interview process before mailing the "new hire" a check for more than the promised amount and asking them to wire back the difference for supplies or fees. Chase Scheuer of the Montana Department of Justice described the mechanism directly: "After they send you a check, they call and say we accidentally sent $3,000 not $300. Can you send back the $2,700?" — but the original check later bounces, days after the victim has already wired the money, leaving them liable for the full loss. Scheuer noted scammers specifically target people who have been out of work for a while and are under financial pressure, "people who have been jobless maybe for a couple of months and rent's due next month." Allie Coker, owner of Express Employment Professionals, added a key tell: "People reaching out directly to you, that typically doesn't happen. It's usually you applying." Job seekers should be suspicious of unsolicited job offers via text, never accept or deposit a check for more than the agreed pay, and never wire money back to an employer — a bank can take days to discover a bad check even after the funds appear available.`,
+    categorySlug: 'employment-scams',
+    alertLevel: 'medium',
+    sources: ['MontanaRightNow/KULR8', 'Montana Department of Justice', 'Express Employment Professionals'],
+    sourceUrl: 'https://www.montanarightnow.com/montana/how-fake-job-posts-can-cost-job-seekers-money/article_61bbdcef-29dd-4b62-9c4e-11112ba91c20.html',
+    country: 'US',
+    state: 'MT',
+    firstRecorded: '2026-04-15',
+});
+
+UsGM.push({
     name: 'Docomo Pacific AI Voice-Cloning Elder Scam Alert (Guam)',
     slug: 'guam-docomo-pacific-ai-voice-cloning-elder-scam-alert',
     description: `Christine Baleto, president and CEO of Guam telecommunications carrier Docomo Pacific, went public in March 2025 about a call her own mother received from someone claiming to be a federal agent, who said he had found her identification and other personal documents inside a vehicle that also contained drugs, then pressed her to "verify" her personal information over the phone or have agents sent to her home; Baleto's mother did not comply. "This public service announcement hit close to home because my mother received a call intended to steal her identity," Baleto said in releasing a company-wide PSA warning Guam residents, particularly the elderly, about a wave of scams that increasingly use artificial intelligence to clone the voices of a target's own family members from short clips scraped off social media, then use that cloned voice on a phone call to convince a senior their relative is in distress and needs money sent immediately, typically through gift cards or another hard-to-trace method. Docomo Pacific's warning came amid the indictment of 25 Canadian nationals accused of orchestrating a coordinated scam operation targeting elderly victims across more than 40 U.S. states and territories, underscoring that Guam's remote location offers no protection from a scam infrastructure built to work by phone against victims anywhere. Local officials and Docomo Pacific urged residents who receive an urgent, emotional call claiming to be a family member or law enforcement to resist any pressure to act immediately, hang up and call that family member back directly on a number already saved in their phone, and never share personal information, send money, or purchase gift cards based on a single unverified phone call, no matter how convincing the voice sounds.`,
