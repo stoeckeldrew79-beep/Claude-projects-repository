@@ -9529,3 +9529,18 @@ He confessed to Tyson in November 2020 once the scheme became unsustainable, ple
 The case is a stark lesson in how "cost-plus" trust-based commercial contracts, where a counterparty is reimbursed for costs before goods are actually verified to exist, can be exploited for years by a single trusted, reputationally credible business partner with no outside auditing of the underlying physical inventory.`,
     sourceUrl: 'https://en.wikipedia.org/wiki/Ghost_cattle_fraud',
 });
+
+NotoriousAF.push({
+    title: 'James Black and the ABC Learning Centres Accounting Fraud',
+    slug: 'james-black-abc-learning-centres-accounting-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'international'],
+    body: `James Black was chief financial officer of ABC Learning Centres, a Brisbane-founded childcare operator that grew, under CEO Eddy Groves, from a single Queensland centre in 1988 into the world's largest publicly listed early-childhood-education company, reaching a market capitalization of roughly A$2.5 billion and nearly 700 centres by the mid-2000s. In December 2006, ABC Learning acquired the second-largest U.S. childcare chain, La Petite Academy, for US$330 million, and the UK's Busy Bees Group for £71 million, deals prosecutors later said were the vehicle for the fraud.
+
+To justify routing a combined $46.5 million out of ABC Learning to a related entity called ABC Acquisitions, Black authorized two false "engagement letters" telling the company's auditor, Pitcher Partners, that ABC Acquisitions had sourced and negotiated the La Petite Academy and Busy Bees deals, work the division had never actually performed. ABC Learning collapsed into receivership in November 2008 owing more than $1.8 billion, then one of the largest corporate collapses in Australian history.
+
+After a six-year investigation, prosecutors dropped charges against Groves after finding no reasonable prospect of conviction, and a co-director, Martin Kemp, was acquitted, leaving Black as the only executive held criminally responsible. He pleaded guilty and, in March 2015, was sentenced in the Brisbane District Court to 18 months' imprisonment, wholly suspended, on a $2,000 two-year good-behavior bond; the judge told him, "You were not the architect of the offence but your participation was necessary... You failed dismally." Chartered Accountants Australia and New Zealand separately censured him in January 2016, canceling his membership for a year and fining him.
+
+The case is a reminder that in a corporate collapse the criminal consequences often land not on the architect at the top but on the subordinate who signed the paperwork that made the fraud possible, and that a captive "related entity" invoicing for services it never performed is one of the oldest ways to move money out of a public company's accounts under an auditor's nose.`,
+    sourceUrl: 'https://www.sbs.com.au/news/article/ex-abc-learning-cfo-avoids-jail/1jog4e7pg',
+});

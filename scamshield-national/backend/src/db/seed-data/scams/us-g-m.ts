@@ -8191,3 +8191,43 @@ UsGM.push({
     state: 'MD',
     firstRecorded: '2025-05-19',
 });
+
+UsGM.push({
+    name: 'Westminster Tech-Support Fraud Scheme Targeting Seniors (Amit Ahuja)',
+    slug: 'maryland-westminster-ahuja-tech-support-fraud',
+    description: `Amit Ahuja, 41, of Westminster, Maryland, pleaded guilty in December 2025 to conspiracy to commit wire fraud for his role in a technical-support scheme that defrauded more than 1,000 victims, many of them older adults, out of more than $6.8 million. Victims were shown pop-up windows warning their computers were infected, received unsolicited phone calls, or searched online and unknowingly dialed a fraudulent "tech support" number, and in each case were told to pay for computer repairs or security software they did not actually need. Federal prosecutors said victims "lost their money based on false pretenses, representations, and promises" about the condition of their computers and the services required to fix them. Ahuja faces up to 20 years in federal prison at sentencing, which had not yet been scheduled as of the plea announcement. Marylanders should never call a phone number that appears in an unsolicited pop-up warning, should independently verify any "tech support" company through its official website before paying anything, and should simply hang up on unsolicited calls claiming a computer has been compromised.`,
+    categorySlug: 'tech-support-scams',
+    alertLevel: 'high',
+    sources: ['Fox45 Baltimore (WBFF)', "U.S. Attorney's Office for the District of Maryland"],
+    sourceUrl: 'https://foxbaltimore.com/news/local/westminster-man-guilty-plea-tech-support-scam-maryland',
+    country: 'US',
+    state: 'MD',
+    firstRecorded: '2025-12-11',
+});
+
+UsGM.push({
+    name: "Nigerian National's Business Email Compromise Scheme Targeting Maryland Charity",
+    slug: 'maryland-adejorin-charity-business-email-compromise',
+    description: `Olusegun Adejorin, 32, was sentenced on August 30, 2026, to 96 months in federal prison after a federal jury convicted him of wire fraud, aggravated identity theft, and unauthorized computer access for a business-email-compromise scheme that targeted a Maryland-based charitable organization providing investment services to other nonprofits. Between June and August 2020, Adejorin gained unauthorized access to employee email accounts at a New York-based charity, created spoofed domains impersonating its staff, and used the compromised accounts to issue fraudulent withdrawal instructions that diverted more than $7.5 million in charitable funds from the Maryland organization into bank accounts he controlled. U.S. District Judge Theodore Chuang imposed the sentence after a six-day trial; the FBI's Baltimore Field Office worked with the FBI Legal Attaché in Accra and Ghanaian law enforcement to extradite Adejorin from Ghana in August 2024. U.S. Attorney Kelly O. Hayes and FBI Special Agent in Charge Jimmy Paul announced the sentencing. Nonprofits and any organization that authorizes outgoing wire transfers should verify any change to payment instructions by calling a known phone number, never one provided in the email itself, and should require multi-factor authentication on every employee email account.`,
+    categorySlug: 'business-email-compromise',
+    alertLevel: 'high',
+    sources: ['Vanguard News (Nigeria)', 'Leadership (Nigeria)', "U.S. Attorney's Office for the District of Maryland", 'FBI Baltimore Field Office'],
+    sourceUrl: 'https://www.vanguardngr.com/2026/08/nigerian-man-sentenced-to-8-years-in-u-s-prison-for-7-5m-charity-scam/',
+    country: 'US',
+    state: 'MD',
+    isHistorical: true,
+    firstRecorded: '2020-06-01',
+});
+
+UsGM.push({
+    name: 'NERD Solutions/ED REF $8.8 Million Student-Loan Forgiveness Scam Targeting Southern Maryland Borrowers',
+    slug: 'maryland-nerd-solutions-edref-student-loan-scam',
+    description: `The FTC obtained a temporary restraining order on April 13, 2026, against NERD Solutions Inc., doing business as New Education Relief, and ED REF Inc., doing business as Edvantage Relief, along with operators Natalie Rodriguez and Pablo Eduardo Ortiz, over a student-loan-forgiveness scheme that had collected at least $8.8 million from borrowers nationwide since at least 2022. The operation made unsolicited calls falsely claiming affiliation with the U.S. Department of Education or the borrower's actual loan servicer, promised loan forgiveness, and charged illegal upfront fees of up to $1,400 a month. The Southern Maryland Chronicle specifically flagged the risk to borrowers in St. Mary's, Calvert, and Charles counties who work in education, military-support, or public-service roles that qualify for genuine federal forgiveness programs, making them prime targets for the scheme's false promises. The U.S. District Court for the Central District of California froze the operators' assets and appointed a temporary receiver after the FTC alleged violations of the FTC Act, the Telemarketing Sales Rule, the Impersonation Rule, and the Gramm-Leach-Bliley Act. The FTC states plainly that "no legitimate debt relief company will guarantee forgiveness or require payment before delivering services," and borrowers should apply for forgiveness only through the Department of Education's official studentaid.gov site, never through a cold caller.`,
+    categorySlug: 'student-loan-education',
+    alertLevel: 'medium',
+    sources: ['Southern Maryland Chronicle', 'Federal Trade Commission'],
+    sourceUrl: 'https://southernmarylandchronicle.com/2026/04/22/ftc-halts-alleged-8-8m-student-loan-scam/',
+    country: 'US',
+    state: 'MD',
+    firstRecorded: '2026-04-13',
+});
