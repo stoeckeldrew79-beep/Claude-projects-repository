@@ -7236,6 +7236,45 @@ UsNS.push({
 });
 
 UsNS.push({
+    name: 'Omaha "Phony Landlord" Rental Listing Hijack Scam',
+    slug: 'nebraska-omaha-phony-landlord-rental-scam',
+    description: `In May 2026, a scammer hijacked a legitimate Omaha rental listing for a home near Fifth and Poppleton, actually owned by Maria Salinas, by swapping the contact number in the ad for a New York phone number and posing as the property's landlord. The fake "landlord" told a prospective renter identified only as Nancy, a woman on disability, that the home was near Westroads Mall (it is actually about nine miles away, in the Little Italy neighborhood) and pressured her to pay an $80 application fee and a $500 deposit before ever meeting in person or touring the property, insisting "this real legit one hundred percent." When Nancy grew suspicious and contacted the real owner, Salinas said she had no idea her listing had been hijacked: "It makes me mad they are using my property to get money." Josh Planos of the Better Business Bureau of the Midwest Plains said the scam is spreading because Omaha's tight rental market makes renters afraid to walk away from an affordable listing, even when the "landlord" refuses to meet face to face. Renters are advised to verify a property's actual owner through county assessor public records, insist on an in-person tour before paying anything, and treat any landlord who demands an application fee or deposit before a meeting as a red flag.`,
+    categorySlug: 'rental-housing',
+    alertLevel: 'medium',
+    sources: ['WOWT', 'Better Business Bureau of the Midwest Plains'],
+    sourceUrl: 'https://www.wowt.com/2026/05/19/phony-landlord-targets-potential-renters-omaha-rental-scam/',
+    country: 'US',
+    state: 'NE',
+    firstRecorded: '2026-05-18',
+});
+
+UsNS.push({
+    name: 'Omaha College Student Fake-Check Work-From-Home Job Scam',
+    slug: 'nebraska-omaha-fake-check-job-scam',
+    description: `Serin Anderson, a business honors student in Omaha, answered a work-from-home data entry job posting in July 2026 that advertised $25 an hour, and the purported employer, a company claiming to be based in Alabama, mailed him a check for nearly $5,000 before he had done any work. The scammers told Anderson to deposit the check and then use Cash App to buy his own "home data processing equipment," and he complied, sending the money before any equipment ever arrived. His bank initially made the deposited funds available within a day or two, as banks are legally required to do, but weeks later flagged the check as fraudulent and clawed back the nearly $5,000, leaving Anderson's account overdrawn. "Banks are legally required to make funds available quickly, often in a day or two. But they can claw that money back weeks later if the check turns out to be fraudulent," said Josh Planos of the Better Business Bureau, explaining why the scam works even on people who wait to see the money "clear." The Nebraska Bankers Association lists any job offer that pays in advance, especially one asking the new hire to purchase equipment with the funds, as a clear warning sign; anyone who receives an unsolicited check tied to a new job should not spend any of it until their bank confirms, through its own fraud department rather than a number on the check, that the check has genuinely cleared, which can take weeks, not days.`,
+    categorySlug: 'fake-check-overpayment',
+    alertLevel: 'medium',
+    sources: ['1011 NOW (KOLN/KGIN)', 'Better Business Bureau of the Midwest Plains', 'Nebraska Bankers Association'],
+    sourceUrl: 'https://www.1011now.com/2026/07/07/omaha-college-student-loses-nearly-5k-online-job-scam-involving-fake-check/',
+    country: 'US',
+    state: 'NE',
+    firstRecorded: '2026-07-07',
+});
+
+UsNS.push({
+    name: 'Fraudulent Medicare.gov Account Creation Affecting Nebraska Beneficiaries',
+    slug: 'nebraska-medicare-gov-fake-account-fraud',
+    description: `The Nebraska Department of Insurance warned residents that unknown criminals used stolen personal data, including Medicare Beneficiary Identifiers, coverage start dates, last names, dates of birth, and zip codes, to create fraudulent Medicare.gov accounts in other people's names between 2023 and 2025, a breach the Centers for Medicare & Medicaid Services says could have affected roughly 103,000 Medicare beneficiaries nationwide, though the exact number of Nebraskans involved is unclear. CMS has since deactivated every fake account and reports no confirmed fraudulent claims or stolen benefits resulting from the access so far, but Nebraska officials are urging beneficiaries who receive an unexpected letter about a Medicare.gov account not to dismiss it as junk mail. "If you receive a letter about a Medicare.gov account you did not create, don't ignore it," said Jonathan Burlison, administrator of Nebraska's State Health Insurance Assistance Program. Beneficiaries who need a replacement card while sorting out their own account can request a Medicare letter of entitlement, which typically arrives within about 10 days, rather than giving personal information to anyone who calls offering to help. Nebraskans are advised to regularly review their Medicare Summary Notices and Explanation of Benefits for unrecognized services and to report any suspicious Medicare.gov letter or account activity to Nebraska's SHIP & SMP program at 1-800-234-7119 or to Medicare directly at 1-800-633-4227.`,
+    categorySlug: 'medicare-health-plans',
+    alertLevel: 'medium',
+    sources: ['Nebraska Department of Insurance', 'Centers for Medicare & Medicaid Services'],
+    sourceUrl: 'https://doi.nebraska.gov/fake-medicare-accounts-created-ndoi-urges-review-mail',
+    country: 'US',
+    state: 'NE',
+    firstRecorded: '2025-07-11',
+});
+
+UsNS.push({
     name: 'Dorm2Dorm Deceptive College Moving and Storage Scheme',
     slug: 'new-york-dorm2dorm-deceptive-moving-storage-scheme',
     description: `Dorm2Dorm LLC marketed itself to NYC-area college students — including many at NYU — as a two-in-one moving-and-storage service: it would pick up a student's belongings before summer break or study-abroad and deliver them back to a dorm at the start of the semester, advertising an "elite" package with a 90-minute delivery window and a false 25% "instant rebate." In practice, the city's Department of Consumer and Worker Protection (DCWP) found the company routinely missed pickup and delivery windows, misplaced items, and returned belongings damaged. One documented case: NYU sophomore Sebastián Prats-Fernández scheduled delivery to his dorm for August 27, 2022 during his university-assigned move-in window; instead he waited days with no explanation beyond a vague text from the company's CEO, finally receiving his boxes — including a sentimental letter from his mother — four days late and at the wrong address. After opening an investigation in September 2022 and reviewing complaints from students and the Better Business Bureau, DCWP sued Dorm2Dorm on March 6, 2023, charging it with at least 1,200 violations of NYC consumer protection law. In April 2024, a New York County Supreme Court ruled for the city, ordering Dorm2Dorm to pay nearly $3.8 million in civil penalties and consumer restitution and to stop its illegal practices — but DCWP noted the company kept advertising the same services afterward. DCWP Commissioner Vilda Vera Mayuga said, "College students, like many people targeted by predatory businesses, are vulnerable consumers, often living alone for the first time." Before paying any moving-and-storage company for dorm move-in or summer storage, get a written contract specifying exact pickup/delivery windows and an itemized, photographed inventory, and never pay in full upfront for a premium tier or a "rebate" that requires an initial payment — a student left without clothes, bedding, or books during the first week of classes has little leverage to get a refund. Complaints can be filed with NYC DCWP at 311 or nyc.gov/dcwp.`,
