@@ -794,6 +794,20 @@ More than two decades after triggering a bank collapse and a national market cra
     sourceUrl: 'https://www.sebi.gov.in/enforcement/orders/nov-2007/order-against-shri-ketan-v-parekh-and-his-associates_9493.html',
   },
 {
+    title: 'Karvy Stock Broking and the $267 Million in Client Shares It Pledged Without Permission',
+    slug: 'karvy-stock-broking-client-securities-scam',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'international', 'securities-fraud'],
+    body: `Karvy Stock Broking Limited was one of India's largest retail brokerages, handling trading accounts for millions of ordinary investors who trusted it, like any broker, to simply hold and execute trades on the securities in their demat accounts. Under a power of attorney routinely signed at account opening — meant to let the broker carry out authorized transactions on a client's behalf — Karvy's founder and managing director C. Parthasarathy instead used those client shares as his own collateral, pledging holdings worth more than ₹2,300 crore (roughly $267 million) with banks and non-banking finance companies to raise loans the brokerage itself needed.
+
+The money didn't stay in the brokerage. Regulators later found that Karvy had funneled roughly ₹1,096 crore of the borrowed funds into Karvy Realty Private Limited, a group real-estate company with no connection to the clients whose shares had backed the loans. The scheme depended on clients never noticing that stock sitting untouched in their accounts had quietly become the collateral behind someone else's debt — a diversion invisible on any individual client's statement, since Karvy's fraud lived in the gap between what a client's account was supposed to hold and what the broker had done with it behind the scenes.
+
+The arrangement came apart in 2019 when a cooling real-estate market left Karvy unable to keep servicing the loans, forcing regulators to look closer at where the collateral had come from. In November 2019, the Securities and Exchange Board of India (SEBI) barred Karvy from onboarding new broking clients and ordered NSDL to transfer clients' pledged shares back into their own accounts; the National Stock Exchange formally expelled the firm as a trading member the following year. In April 2023, SEBI barred Karvy and Parthasarathy from the securities market for seven years and fined them a combined ₹21 crore, and separately, the Enforcement Directorate arrested Parthasarathy in January 2022 on money-laundering charges tied to the diversion of more than ₹2,873 crore in client securities. The banks that had accepted the pledged shares as good-faith collateral were left fighting Karvy, SEBI, and each other for years afterward over who would absorb the shortfall once the shares went back to clients.
+
+Karvy's fraud worked precisely because a power of attorney is meant to make a broker relationship more convenient, not more dangerous — investors sign it expecting faster trade execution, not to discover years later that the same document let their broker mortgage their portfolio to prop up an unrelated property business. The case pushed Indian regulators to rebuild how broking accounts work entirely, replacing pooled client accounts with a segregated pledge-and-repledge system that requires an investor's own OTP authorization before any of their shares can be used as collateral for anything.`,
+    sourceUrl: 'https://blogs.cfainstitute.org/marketintegrity/2020/10/08/indias-broking-scandal-and-its-aftermath-has-implications-for-market-integrity-and-efficiency/',
+  },
+{
     title: 'Melissa Caddick: The Unlicensed Financial Adviser Who Vanished the Morning After an ASIC Raid',
     slug: 'melissa-caddick-ponzi-scheme-disappearance',
     author: 'ScamShield Editorial',
