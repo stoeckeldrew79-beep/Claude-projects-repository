@@ -7339,6 +7339,45 @@ UsNS.push({
 });
 
 UsNS.push({
+    name: "FBI Boston Agent-Impersonation Scam Spoofing the Bureau's Own Phone Number",
+    slug: 'rhode-island-fbi-agent-impersonation-spoofed-number-scam',
+    description: `On August 19, 2026, the FBI's Boston Field Office, which covers Rhode Island, issued a public warning about a new impersonation scheme sweeping New England. Scammers first pose as a bank representative, telling the victim their identity was used to open an account to purchase illegal firearms, then transfer the call to a confederate posing as an FBI special agent who spoofs the Bureau's real Boston phone number, 857-386-2000, for credibility. The fake agent pressures the victim into secrecy and directs them to continue the conversation over an encrypted messaging app before demanding money or personal financial information. FBI Boston Special Agent in Charge Ted Docks said, "Scammers are utilizing fear, urgency, and increasingly sophisticated tactics — including spoofing trusted phone numbers — to push people into acting." Across the four states in the Boston Division (Maine, Massachusetts, New Hampshire, and Rhode Island), 1,092 victims reported $28,895,404 in impersonation-scam losses in 2025 alone; Rhode Island's share was 113 victims reporting $2,023,936 in losses. The FBI stresses it will never demand payment, request personal information, ask victims to switch to an encrypted app, or threaten arrest over the phone — hang up on any unsolicited call claiming to be law enforcement, and call back only a number you look up yourself (FBI Boston: 857-386-2000; or report to ic3.gov).`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['The Boston Globe', 'FBI Boston Field Office', 'Boston.com'],
+    sourceUrl: 'https://www.bostonglobe.com/2026/08/19/metro/fbi-agent-impersonation-scam-fraud-boston/',
+    country: 'US',
+    state: 'RI',
+    firstRecorded: '2026-08-19',
+});
+
+UsNS.push({
+    name: 'AARP Rhode Island Medicare Open-Enrollment Scam Warning',
+    slug: 'rhode-island-aarp-medicare-open-enrollment-scam-warning',
+    description: `Ahead of the 2026 Medicare Open Enrollment period, AARP Rhode Island issued a warning on September 15, 2026 about a wave of scam calls, emails, and texts targeting the state's Medicare beneficiaries. Fraudsters falsely claim recipients need a "new Medicare card," even though no new cards are being issued, or dangle free gifts, genetic testing kits, glucose monitors, and other medical equipment, as bait to extract Medicare numbers, Social Security numbers, and banking details. AARP Rhode Island volunteer Marianne Kelly warned how effective the pitch is once a scammer gets someone talking: "Once they can get you on the phone or get you to respond to an email, there's a pretty much 80% chance you're going to buy something." AARP recommends hanging up immediately on any unsolicited Medicare call, never giving out your Medicare or Social Security number to an unverified caller, and contacting the AARP Fraud Watch Network hotline at 877-908-3360 (8 a.m.-8 p.m., Monday-Friday) to report a suspected scam or verify a suspicious offer before enrollment decisions are made.`,
+    categorySlug: 'medicare-health-plans',
+    alertLevel: 'medium',
+    sources: ['NBC 10 WJAR / turnto10.com', 'AARP Rhode Island'],
+    sourceUrl: 'https://turnto10.com/news/nbc-10-news-at-4/aarp-rhode-island-warns-of-medicare-scams-ahead-of-open-enrollment-new-cards-stealing-personal-information-free-gifts-september-15-2026',
+    country: 'US',
+    state: 'RI',
+    firstRecorded: '2026-09-15',
+});
+
+UsNS.push({
+    name: 'Providence Parking-Ticket QR Code Text Scam',
+    slug: 'rhode-island-providence-parking-ticket-qr-code-text-scam',
+    description: `Starting around March 15, 2026, a mass "smishing" campaign hit Providence residents with text messages disguised as official parking-violation notices, citing case numbers and specific parking ordinances and telling recipients to either appear for a hearing or resolve the "fine" immediately by scanning an embedded QR code. The Providence Police Department and Municipal Court publicly stated they never issue tickets, hearing notices, or payment demands by text. Mayor Brett Smiley addressed the scam directly on March 16, 2026: "This is a scam. Those are not real. Please do not respond. The Providence Police and or the Providence Municipal Court would never text you a demand to pay," adding, "You should never pay a parking ticket via text; that is not something that we do." Scanning the QR code leads to a fraudulent site designed to steal payment card and personal information or install malware; police in Bristol, Warwick, and Westerly, RI reported similar text campaigns hitting their residents the same week. Real Providence parking violations are only issued in person on the vehicle or by mail — delete any texted "ticket," never scan an unsolicited QR code, and never click links or provide payment information in response to a parking-fine text.`,
+    categorySlug: 'qr-code-scams',
+    alertLevel: 'medium',
+    sources: ['WPRI 12', 'NBC 10 WJAR / turnto10.com', 'GoLocalProv', 'Office of Providence Mayor Brett Smiley'],
+    sourceUrl: 'https://turnto10.com/news/local/providence-police-warn-residents-of-parking-ticket-scam-providence-police-department-qr-code-scam-march-16-2026',
+    country: 'US',
+    state: 'RI',
+    firstRecorded: '2026-03-16',
+});
+
+UsNS.push({
     name: 'Las Vegas Fake Amazon Delivery Driver Hiring Scheme (Juan Vera and Fabiola Llanes)',
     slug: 'nevada-las-vegas-fake-amazon-delivery-driver-hiring-scheme',
     description: `On January 21, 2025, an online ad advertised openings for "third-party delivery drivers for Amazon" and directed applicants to a business at 3100 East Sunset Road in southeast Las Vegas, where hopeful hires filled out an application, handed over sensitive information including Social Security numbers and banking details, and paid a $200 "processing" fee before being given a future interview date. When applicants returned for those interviews, they found the office completely vacated, and Metro police confirmed the operation was in no way affiliated with Amazon. Hundreds of frustrated job seekers gathered outside the vacant business complex near Sunset Park on the morning of January 30, 2025, prompting a large police response and an investigation by the Las Vegas Metropolitan Police Department's Financial Crimes Division. After roughly two months of investigation, LVMPD identified the operators as Juan Vera, 41, and Fabiola Llanes, 39, who were taken into custody by the Chicago Police Department on March 27, 2025 pending extradition to Las Vegas, where they face charges of establishing or possessing a financial forgery laboratory with intent to commit an unlawful act, and theft valued between $5,000 and $25,000. A legitimate delivery-driver position with Amazon or one of its verified delivery service partners is applied for directly through Amazon's own hiring site or a partner company whose registration can be independently confirmed — never through a walk-in office found via a classifieds or social media ad — and any job that requires paying an upfront "application," "processing," or "training" fee before work even begins should be treated as a scam no matter how legitimate the advertised employer's name sounds.`,

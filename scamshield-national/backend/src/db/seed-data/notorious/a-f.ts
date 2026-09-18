@@ -9544,3 +9544,18 @@ After a six-year investigation, prosecutors dropped charges against Groves after
 The case is a reminder that in a corporate collapse the criminal consequences often land not on the architect at the top but on the subordinate who signed the paperwork that made the fraud possible, and that a captive "related entity" invoicing for services it never performed is one of the oldest ways to move money out of a public company's accounts under an auditor's nose.`,
     sourceUrl: 'https://www.sbs.com.au/news/article/ex-abc-learning-cfo-avoids-jail/1jog4e7pg',
 });
+
+NotoriousAF.push({
+    title: 'Steve Burns and the Lordstown Motors "Endurance" Pre-Order Fraud',
+    slug: 'steve-burns-lordstown-motors-endurance-preorder-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    body: `Steve Burns founded Lordstown Motors in 2018 to build the Endurance, an all-electric pickup truck, and took the company public in October 2020 through a merger with the SPAC DiamondPeak Holdings, one of the earliest and most closely watched deals of the EV-SPAC boom. To justify a valuation built on a vehicle that did not yet exist, Burns told investors, regulators, and the press that Lordstown already had more than 100,000 non-binding "pre-orders" for the Endurance, presenting it as proof of overwhelming commercial demand.
+
+In March 2021 the short-seller research firm Hindenburg Research published a report alleging the pre-order figure was essentially fictitious, noting that most of the "customers" were small firms with no fleet operations and no real intention or capacity to buy trucks; Lordstown's own later admissions and an SEC investigation confirmed the substance of that claim. Burns resigned as CEO and chairman in June 2021 as the stock collapsed; Lordstown limped on, burning cash and repeatedly missing its own production timelines while concealing supply-chain-driven delays from investors, until it filed for Chapter 11 bankruptcy in June 2023.
+
+The SEC brought settled fraud charges against both the company and Burns personally: Lordstown agreed to a cease-and-desist order and $25.5 million in disgorgement, satisfied through related shareholder class-action payments, subject to bankruptcy-court approval, while Burns, without admitting or denying the findings, agreed to a permanent injunction, a $175,000 civil penalty, and a two-year bar from serving as an officer or director of a public company; the company's outside auditor, Clark Schaefer Hackett, was separately sanctioned for independence violations.
+
+The case is a textbook illustration of "demand-washing" during the SPAC and EV mania: a headline order number, never independently verified by investors or underwriters, was allowed to stand in for real commercial traction, inflating a company's valuation until a short-seller's diligence, and eventually a bankruptcy filing, exposed the gap between the story and the product.`,
+    sourceUrl: 'https://www.sec.gov/newsroom/press-releases/2024-29',
+});
