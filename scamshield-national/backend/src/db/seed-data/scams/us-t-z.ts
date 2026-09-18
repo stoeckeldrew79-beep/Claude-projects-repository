@@ -4707,3 +4707,42 @@ UsTZ.push({
     state: 'WY',
     firstRecorded: '2025-09-09',
 });
+
+UsTZ.push({
+    name: 'Utah Launches Financial Crimes Intelligence Center After Real-Estate Wire-Fraud Warning',
+    slug: 'utah-financial-crimes-intelligence-center-real-estate-wire-fraud-warning',
+    description: `Utah Attorney General Derek Brown launched the state's first Financial Crimes Intelligence Center (FCIC) on August 31, 2026, after new figures showed Utahns have lost an estimated $450 million to scams and fraud since 2020, including $108.4 million in 2025 alone and nearly $60 million already reported in the first half of 2026. Brown, whose office says fraud complaints are now "the single most common call" it receives, illustrated how easily even savvy professionals get taken by describing a close friend — "a very sophisticated lawyer who practiced real estate law" — who was nonetheless defrauded out of money through a wire-fraud scheme tied to a real estate transaction; "this is the kind of thing that literally can happen to anyone," Brown said, adding elsewhere that "no one is too smart, too careful, or too experienced to become a victim of fraud." Real estate closings are a favorite target for this style of fraud nationally, because criminals who compromise or spoof an agent's, title company's, or attorney's email can quietly substitute fraudulent wiring instructions, sending a buyer's or seller's funds to a criminal-controlled account instead of the legitimate escrow account. The new center, funded with $1.7 million a year from the Legislature and built on recommendations from the Utah Fraud Prevention Coalition, pairs investigators, prosecutors, financial analysts and banks together to connect fraud cases across county lines, train local law enforcement, and move faster to freeze stolen funds before they leave the state. Utah Bankers Association executive director Howard Headlee underscored the scale of the problem, noting consumers nationally "reported losing over $20 billion last year alone." Anyone in the middle of a real estate transaction should independently verify wiring instructions by calling a known, previously verified phone number for their title company or attorney — never a number or link supplied only by email — before sending any funds, and Utahns are urged to report suspected fraud directly to the new center at fraud.agutah.gov.`,
+    categorySlug: 'business-email-compromise',
+    alertLevel: 'medium',
+    sources: ["Utah Attorney General's Office", 'KSL.com', 'Deseret News'],
+    sourceUrl: 'https://attorneygeneral.utah.gov/utah-fcic/',
+    country: 'US',
+    state: 'UT',
+    firstRecorded: '2026-08-31',
+});
+
+UsTZ.push({
+    name: 'Utah State Tax Commission Fraudulent "Unpaid Tax" Collection Letter Scam',
+    slug: 'utah-state-tax-commission-fraudulent-collection-letter-scam',
+    description: `The Utah State Tax Commission issued a public warning on April 4, 2025 after a wave of fraudulent "unpaid tax" collection letters began circulating around the state, arriving by mail, email, text and even phone call using official-looking government formatting to demand immediate payment. The letters falsely claim the recipient owes back state taxes and threaten legal action, liens, or asset seizure if payment isn't made right away — a pressure tactic designed to get people to pay before they stop to check whether the notice is real. Tax Commission public information officer Jason Gardner warned residents against reacting on impulse: "If you get a letter out of the blue, don't just pay," he said, noting that a legitimate state tax agency contacts a delinquent taxpayer repeatedly, through established channels, well before ever pursuing a lien or wage garnishment. Gardner also cautioned that artificial intelligence has erased one of the classic scam tip-offs: "Gone are the days when you could read it, and you could see spelling errors," he said, meaning a polished, error-free letter can no longer be assumed safe. The Commission's guidance is to never respond to or pay a suspicious notice directly, and instead to call its verified number, 801-297-2200, to confirm whether any balance is actually owed before sending money or personal information, and to report any fraudulent letter at tax.utah.gov/contact.`,
+    categorySlug: 'tax-scams',
+    alertLevel: 'high',
+    sources: ['Utah State Tax Commission', 'Iron County Today', 'Daily Herald'],
+    sourceUrl: 'https://ironcountytoday.com/2025/04/07/scam-alert-fraudulent-tax-collection-letters-targeting-utah-taxpayers/',
+    country: 'US',
+    state: 'UT',
+    firstRecorded: '2025-04-04',
+});
+
+UsTZ.push({
+    name: 'Elan Solar (Colarusso Ventures) Deceptive Rooftop-Solar Sales Case',
+    slug: 'utah-elan-solar-colarusso-ventures-deceptive-sales',
+    description: `The Utah Division of Consumer Protection filed an emergency enforcement action in March 2024 against Colarusso Ventures LLC, doing business as Elan Solar, and its owner, Kevin Colarusso, alleging the rooftop-solar company kept deceiving Utah homeowners even after its contractor's license had already been revoked. State investigators said they had fielded more than 30 complaints in the preceding year and a half, and that roughly 140 Utah customers who paid for solar installations were left without a working system, while the company allegedly posted fake five-star Google reviews, misrepresented its Better Business Bureau rating, and misled buyers about the true cost of their systems and how much they would actually save on their power bills — on top of skipping legally required disclosure paperwork before contracts were signed. The Division of Professional Licensing had already revoked Elan Solar's contractor license in August 2023, after earlier 2022 settlement agreements failed to stop the conduct, but the company kept operating and selling systems regardless, prompting the Division of Consumer Protection to obtain an emergency cease-and-desist order on March 1, 2024 and pursue damages the agency estimated at "close to $1 million" for known victims. Consumer Protection Division Director Katie Hass framed the case as a warning to the broader industry: "Deceptive conduct like that exhibited by Elan Solar does the exact opposite — it harms consumers and erodes trust in the solar industry." Utah homeowners considering rooftop solar should verify a contractor's license status directly with the Utah Division of Professional Licensing before signing anything, get all cost and savings estimates in writing, and treat unsolicited door-to-door pitches promising guaranteed energy savings with skepticism.`,
+    categorySlug: 'home-improvement-solar',
+    alertLevel: 'high',
+    sources: ['Utah Division of Consumer Protection', 'Utah Department of Commerce'],
+    sourceUrl: 'https://utahpolicy.com/news-release/70374-utah-division-of-consumer-protection-takes-legal-action-against-elan-solar-for-alleged-violations',
+    country: 'US',
+    state: 'UT',
+    firstRecorded: '2024-03-01',
+});
