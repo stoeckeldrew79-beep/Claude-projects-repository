@@ -7748,6 +7748,19 @@ UsNS.push({
 });
 
 UsNS.push({
+    name: 'Nate Inc. "Fake AI" Shopping App Investor Fraud',
+    slug: 'new-york-nate-inc-fake-ai-investor-fraud-saniger',
+    description: `Albert Saniger, founder and CEO of the New York-based shopping app startup Nate Inc., raised more than $42 million from investors between 2019 and 2022 by marketing the app as powered by proprietary artificial intelligence and machine learning that let it complete purchases on any retail website "like magic" with a single tap. According to parallel civil and criminal cases filed April 9, 2025 by the SEC and the U.S. Attorney's Office for the Southern District of New York, that AI barely existed — the vast majority of transactions were actually being completed manually by hundreds of contract workers at a call center in the Philippines who Saniger allegedly directed to disguise their involvement, while he also misrepresented the app's automated transaction success rate to investors. The company collapsed after a news investigation exposed the human labor behind the "AI," and Saniger now faces SEC civil fraud charges under the federal securities laws along with a parallel criminal securities fraud and wire fraud prosecution that carries up to 20 years in prison per count. The case is one of a wave of "AI-washing" enforcement actions the SEC and DOJ have pursued since 2024 against founders and investment advisers who oversold unproven or entirely fictional AI capabilities to attract funding, and it's a reminder that a pitch built on an "AI does the work" claim deserves the same diligence — proof of the technology actually working, not just a slick demo or a founder's word — that any other investment pitch would get before money changes hands.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'high',
+    sources: ['U.S. Securities and Exchange Commission', "U.S. Attorney's Office for the Southern District of New York"],
+    sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26282',
+    country: 'US',
+    state: 'NY',
+    firstRecorded: '2025-04-09',
+});
+
+UsNS.push({
     name: 'Operation Gold Rush $1.3 Billion Durable Medical Equipment Fraud',
     slug: 'pennsylvania-nd-medical-solutions-gugava-operation-gold-rush-dme-fraud',
     description: `Erekle Gugava, a 33-year-old Georgian national who fled the United States in July 2025, purportedly owned ND Medical Solutions LLC, a Pennsylvania durable medical equipment company, and used it as a vehicle for what the Department of Justice calls the largest health care fraud case it has ever prosecuted. Over just five months between February and July 2025, ND Medical submitted at least $1.3 billion in fraudulent durable medical equipment claims to Medicare, Medicare supplemental insurers, and employer-sponsored health plans, using the stolen identities of real people, many in Massachusetts and elsewhere in New England, so that victims later discovered "explanations of benefits" for equipment and physicians they had never seen. Insurers actually paid out roughly $6.5 million before the scheme was caught. Gugava allegedly served as a money launderer for a transnational, Russia-based criminal organization behind the scheme, which investigators dubbed "Operation Gold Rush," opening ND Medical's bank accounts as sole signatory, depositing insurer payments, and wiring the funds overseas. A federal grand jury in the District of Massachusetts indicted Gugava on one count of money laundering conspiracy, unsealed around September 4, 2026; he faces up to 20 years in prison if convicted and remains a fugitive abroad. Anyone who receives an explanation-of-benefits statement for medical equipment or services they never received should report it to Medicare or their insurer immediately, since stolen identity information, not a data breach at the insurer, is usually how this kind of fraud reaches a real person's account.`,

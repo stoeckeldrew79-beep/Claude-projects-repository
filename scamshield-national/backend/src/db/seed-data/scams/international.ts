@@ -15776,6 +15776,45 @@ International.push(
 
 International.push(
   {
+    name: 'Fake IOM Housing Assistance Program Fee Scam',
+    slug: 'haiti-fake-iom-housing-assistance-fee-scam',
+    description: `Haiti's International Organization for Migration (IOM) office issued a public warning on May 19, 2026 after fraudsters began contacting residents in Solino, a neighborhood in the Port-au-Prince metropolitan area, and in Jacmel, falsely posing as IOM staff and offering enrollment in a nonexistent housing-construction assistance program. The scammers approach victims online and demand an "administrative fee" to secure a spot in the program, exploiting the desperation of a population where more than a million people have been displaced by gang violence and are in urgent need of housing. IOM stated plainly that "all its humanitarian programs are entirely free, with no exceptions" and that "no employee or partner can request money, personal favors, or payment in exchange for assistance." The organization urged the public not to share sensitive documents such as national identification cards or personal addresses without first independently verifying a contact's identity, and set up a free hotline, 8840, for people to report suspected impersonation attempts, assuring that reporting would not affect their eligibility for future assistance and would remain confidential.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['International Organization for Migration (IOM) Haiti', 'Vant Bèf Info'],
+    sourceUrl: 'https://vantbefinfo.com/haiti-loim-met-en-garde-contre-des-fraudeurs-usurpant-lidentite-de-ses-agents/',
+    country: 'HT',
+  },
+);
+
+International.push(
+  {
+    name: 'Fidélité Tours Fake Overseas Travel Agency Scheme',
+    slug: 'haiti-fidelite-tours-fake-travel-agency-scheme',
+    description: `Haiti's Central Directorate of Judicial Police (DCPJ) arrested a man known publicly as "Prophet" Mackenson on July 8, 2026, after mounting victim complaints against Fidélité Tours, a travel agency he had promoted through videos combining his standing as a spiritual figure with promises of trips abroad. According to reporting by Global Voices, Fidélité Tours and similar fraudulent agencies advertise passage to destinations including Mexico, Brazil, Canada, Nicaragua, Bolivia, Guyana, and Colombia, collecting between USD 3,500 and 5,000 per client for a single trip; in one documented case tied to Fidélité Tours, roughly 80 people each paid USD 4,000 — about USD 320,000 total — before the agency stopped honoring its promises, while a separate operator was found to have collected USD 61,000 from victims. The schemes lean on counterfeit visas, cloned websites and Facebook pages built to imitate official consulates, AI-generated travel videos, and paid influencer endorsements to look legitimate, and one victim identified only as Murielle described losing USD 3,600 after the organizer of a promised Mexico trip went silent as soon as her payment cleared. The fraud is especially hard to prosecute among undocumented Haitian migrants already in the Dominican Republic, who often avoid reporting losses to authorities out of fear that doing so will lead to their own deportation rather than any action against the agency that defrauded them. Haitians considering travel through an agency advertising unusually fast or guaranteed visas abroad are advised to verify the agency's registration and any destination consulate's involvement directly and independently before paying, rather than relying on a promoter's online reputation or a spiritual endorsement.`,
+    categorySlug: 'travel-vacation-scams',
+    alertLevel: 'high',
+    sources: ['Global Voices', "Direction Centrale de la Police Judiciaire (DCPJ), Haiti"],
+    sourceUrl: 'https://globalvoices.org/2026/07/24/tickets-to-nowhere-haitian-refugees-fall-prey-to-travel-scams/',
+    country: 'HT',
+  },
+);
+
+International.push(
+  {
+    name: 'Fake Police Recruitment Fee Scam Impersonating the PNH',
+    slug: 'haiti-fake-police-recruitment-fee-scam',
+    description: `Haiti's National Police (Police Nationale d'Haïti, PNH) issued a public statement, reported by Le Nouvelliste on May 7, 2026, denouncing fraudsters who impersonate the institution to charge fees to aspiring officers and their families during recruitment drives. The PNH stated that "le processus de recrutement des aspirants policiers est entièrement gratuit et fondé sur le mérite" — the recruitment process for aspiring police officers is entirely free and based on merit — and characterized the fee demands as racketeering carried out under its name. Targets, contacted online or in person by people falsely claiming to represent the institution, are told a payment is required to secure a place in the recruitment process or move an application forward, a promise the PNH said has no basis in its actual, merit-based selection procedure. The PNH called on the public and applicants' families to remain vigilant against anyone requesting money in connection with police recruitment and pledged that those responsible would be brought to justice. Because Haiti's police recruitment periodically draws large pools of applicants hoping for a stable government job amid the country's economic crisis, authorities advise anyone approached with a fee request tied to police recruitment to treat it as fraudulent and to verify any recruitment announcement only through the PNH's own official channels.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ["Police Nationale d'Haïti (PNH)", 'Le Nouvelliste'],
+    sourceUrl: 'https://lenouvelliste.com/article/267057/la-pnh-denonce-les-fraudes-dans-le-recrutement-des-aspirants-policiers',
+    country: 'HT',
+  },
+);
+
+International.push(
+  {
     name: 'Iraqi Securities Commission Warning on Unlicensed Investment Platforms',
     slug: 'iraq-securities-commission-unlicensed-investment-warning',
     description: `Iraq's Securities Commission (ISC) issued a public warning on September 8, 2026 cautioning investors against a growing number of unlicensed entities offering investment services with no lawful authorization to do so. ISC Chairman Faisal al-Haimas said fraudulent operators are adopting trade names, professionally built websites, and social media pages to present themselves as authorized financial or investment institutions, luring victims with promises of unusually high, fast returns that a genuinely regulated firm could not realistically offer. The Commission flagged several specific warning signs common to these schemes: requests to transfer investment funds into a personal bank account or an unfamiliar electronic or cryptocurrency wallet rather than a licensed institutional account, demands for upfront payment before any investment activity begins, and promises of guaranteed or unrealistic returns. Al-Haimas urged the public to verify an entity's legal and regulatory status — confirming it is actually licensed by the ISC — before depositing any money or entering an investment relationship, and to report suspected unlicensed investment or financial activity to the relevant authorities rather than engage further. The warning follows a documented rise in unlicensed WhatsApp- and Telegram-based "trading" and investment schemes across Iraq, reported by outlets including Shafaq News, in which anonymous accounts advertise "guaranteed" profits and job opportunities, pay small initial sums to build trust, then pressure victims into paying escalating "guarantee fees" and recruiting others before the platform disappears with their money — a pattern that echoes the earlier Kirkuk-based "Unimart" scheme, marketed with slogans like "change your life," which collapsed and left dozens of victims, many displaced youth, stripped of their savings. Iraq's Securities Commission maintains that verifying a firm's license before transferring any money remains the most reliable protection against these unlicensed investment schemes.`,
