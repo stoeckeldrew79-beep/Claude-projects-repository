@@ -4863,3 +4863,28 @@ UsTZ.push({
     state: 'WV',
     firstRecorded: '2026-08-04',
 });
+
+UsTZ.push({
+    name: 'Texas CIPA "Wiretapping" Demand Letter Extortion Scam',
+    slug: 'texas-cipa-wiretapping-demand-letter-scam',
+    description: `Texas businesses and nonprofits — often small operations with an ordinary website — are receiving official-looking demand letters claiming their site's cookies, tracking pixels, analytics tools, or even a built-in search bar amount to illegal "wiretapping" under the California Invasion of Privacy Act (CIPA), a law written decades before web analytics existed. The letters arrive with screenshots of the recipient's own site and a draft lawsuit attached to look credible, then demand immediate payment to avoid being sued, banking on the cost and hassle of hiring a lawyer to make a quick settlement look like the cheaper option even when the underlying claim is baseless or wildly exaggerated. Texas Attorney General Ken Paxton issued a consumer alert on September 17, 2026 naming Vivek Shah, a self-described "serial CIPA plaintiff" already declared a vexatious litigant and barred from filing new CIPA claims in federal court without advance permission, as one source of these letters, and warned recipients not to respond to the sender or send payment before consulting their own attorney. Any business or nonprofit that receives a letter like this should independently verify the sender's identity and litigation history, resist the pressure to pay quickly to make the letter go away, and report suspected extortion attempts to the Texas Attorney General's Consumer Protection Division.`,
+    categorySlug: 'legal-debt-collection',
+    alertLevel: 'high',
+    sources: ['Texas Attorney General'],
+    sourceUrl: 'https://www.texasattorneygeneral.gov/news/releases/consumer-alert-attorney-general-ken-paxton-warns-texans-scam-demand-letters-alleging-website-privacy',
+    country: 'US',
+    state: 'TX',
+    firstRecorded: '2026-09-17',
+});
+
+UsTZ.push({
+    name: 'Veterans Disability and Pension "Buyout" Factoring Scheme',
+    slug: 'veterans-disability-pension-buyout-factoring-scheme',
+    description: `Companies advertise "cash now" offers to veterans and military retirees, promising an immediate lump-sum payment in exchange for signing over the rights to some or all of their future monthly VA disability compensation or military pension payments — a transaction federal law makes illegal outright, since VA and military retirement benefits cannot legally be sold, assigned, or used as loan collateral. To get around that ban, brokers structure the deal on paper as a "purchase" of future payments rather than a loan, a distinction the Consumer Financial Protection Bureau and New York's Department of Financial Services argued in court was a sham: in a 2015 lawsuit against Pension Funding, LLC and Pension Income, LLC and their principals Steven Covey, Edwin Lichtig, and Rex Hofelter, the agencies alleged the companies charged veterans effective interest rates exceeding 28% over an eight-year payback period while advertising terms supposedly better than a credit card or home equity line, and quietly required veterans to buy a life-insurance policy to guarantee repayment if they died before the term ended. Veterans who sign these deals typically forfeit years of guaranteed income for a fraction of its real value, cannot cancel once locked in, and can be pushed into a higher tax bracket or made temporarily ineligible for other means-tested benefits by the lump sum itself. The National Council on Aging advises veterans approached with a benefits buyout offer to have a trusted family member or a VA-accredited counselor review any contract before signing, to independently verify the company is actually licensed to offer financial products, and to report suspected buyout schemes to the FTC at reportfraud.ftc.gov or the CFPB, since no legitimate lender can lawfully purchase future VA disability or pension payments in the first place.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'medium',
+    sources: ['Consumer Financial Protection Bureau (CFPB)', 'National Council on Aging (NCOA)'],
+    sourceUrl: 'https://www.consumerfinance.gov/archive/newsroom/cfpb-and-new-york-department-of-financial-services-sue-pension-advance-companies-for-deceiving-consumers-about-loan-costs/',
+    country: 'US',
+    firstRecorded: '2015-01-01',
+});

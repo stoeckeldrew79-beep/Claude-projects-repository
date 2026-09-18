@@ -8307,3 +8307,16 @@ UsNS.push({
     state: 'ND',
     firstRecorded: '2025-04-18',
 });
+
+UsNS.push({
+    name: 'Scammers Target Domestic Violence Victims Using Court Records',
+    slug: 'north-carolina-domestic-violence-victim-court-records-scam',
+    description: `North Carolina Attorney General Jeff Jackson warned residents on September 17, 2026 about scammers impersonating law enforcement officers and court officials to target domestic violence victims specifically, timing calls to arrive shortly after an arrest, a court hearing, or a scheduled court date so the contact feels directly tied to a case the victim is already anxious about. The callers pull personal case details from public court dockets and investigative records to sound credible, then demand immediate phone payment under a rotating set of pretexts: money to post bond so an abuser can be released, a "processing" or "filing" fee to obtain a domestic violence protective order (which is always free by law), a fee to process electronic monitoring before an abuser's release, or a claim that a jail or prison supply shortage means the abuser will be released unless the victim pays immediately — and some callers actively discourage victims from contacting a local Family Justice Center by falsely claiming its support services cost money. "No legitimate law enforcement agency or district attorney will call you to demand money," Attorney General Jackson said. "If you get a call like that, it's a scam. Hang up and call law enforcement." Because these calls specifically target people already in an emotionally vulnerable, high-stakes moment involving their own safety, the Department of Justice recommends anyone who receives such a call hang up immediately, contact law enforcement or a local Family Justice Center directly using a number found independently rather than one supplied by the caller, and report the contact to the North Carolina Consumer Protection Division at 1-877-5-NO-SCAM.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['North Carolina Department of Justice (Attorney General Jeff Jackson)', 'WECT'],
+    sourceUrl: 'https://www.wect.com/2026/09/17/nc-officials-warn-scam-using-court-records-target-domestic-violence-survivors/',
+    country: 'US',
+    state: 'NC',
+    firstRecorded: '2026-09-17',
+});
