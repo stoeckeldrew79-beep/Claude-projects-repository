@@ -6945,3 +6945,18 @@ Roughly 1,000 clients had put money into H-System. About half of them filed clai
 The H-System affair stands as one of the defining private frauds of the Czech Republic's chaotic transition to a market economy, and it shows how the same pyramid mechanic that powers a purely financial Ponzi scheme can be run just as effectively through something as tangible as a housing contract — with a uniquely visible human cost, since H-System's victims were left not just short of money but literally living, for years, inside the half-built proof of the fraud that took it.`,
     sourceUrl: 'https://www.dejinykorupce.cz/en/h-system-affair/',
   });
+
+NotoriousNS.push({
+    title: 'Martin Pucher and the Commerzialbank Mattersburg Collapse',
+    slug: 'martin-pucher-commerzialbank-mattersburg-collapse',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'international'],
+    body: `Martin Pucher was the founder and long-time board chairman of Commerzialbank Mattersburg im Burgenland AG, a small regional Austrian bank that, for roughly three decades, was quietly running one of the largest banking frauds in the country's history. Together with board member Franziska Klikovits, Pucher fabricated the bank's books: auditors and regulators later found that the bank had invented fictitious interbank deposits of €40-65 million each at eight major Austrian banks using forged confirmation documents, and had fabricated roughly €180 million of a reported €350 million loan book, either using real customers' names without their knowledge or inventing borrowers outright.
+
+By Pucher's own later admission, the bank had effectively been insolvent since as early as 2000, yet continued reporting healthy profits and paying dividends for two more decades. The fraud unraveled on July 14, 2020 when Pucher confessed to auditors performing a routine review, prompting Austria's Financial Market Authority to shut the bank down overnight; it became the third-largest insolvency in Austrian economic history, with total damage estimated between €528 million and €812 million, and roughly 13,500 depositors affected, nearly 11,900 of whom were later compensated, with almost €465 million paid out under deposit insurance.
+
+Pucher himself was ultimately deemed medically unfit to stand trial for the core fraud, though he was separately convicted in January 2024 and given an 11-month conditional sentence for extorting hush money from a departing employee; Klikovits went to trial in the main case and, in February 2025, was sentenced to six years and four months in prison on charges of embezzlement, breach of fiduciary trust, fraudulent bankruptcy, and counterfeiting, with further verdicts against co-defendants who allegedly helped launder fictitious loan proceeds through fake invoices issued in August 2025.
+
+The case is a stark illustration of how a small, closely-held regional bank with weak external oversight can conceal a "zombie" balance sheet for decades — auditors and correspondent banks alike failed for years to independently verify claimed interbank deposits, a basic reconciliation step whose absence let the fraud compound for a generation before a single confession brought the whole institution down in a matter of hours.`,
+    sourceUrl: 'https://de.wikipedia.org/wiki/Commerzialbank_Mattersburg',
+  });
