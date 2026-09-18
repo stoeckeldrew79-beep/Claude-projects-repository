@@ -4098,6 +4098,45 @@ UsTZ.push({
 });
 
 UsTZ.push({
+    name: 'Utah Law Firm Microsoft 365 Compromised-Account Phishing Campaign',
+    slug: 'utah-law-firm-microsoft365-phishing-campaign',
+    description: `On September 9, 2026, the Utah State Bar issued an urgent warning to Utah attorneys and businesses about a widespread phishing campaign exploiting already-compromised email accounts. Attackers who have taken over a legitimate contact's inbox send messages — leveraging that contact's real name and prior relationship with the recipient to bypass suspicion — that include a malicious attachment and instruct the recipient to enter a "PIN" to open what looks like a shared document. Entering the PIN redirects the victim to a fake login page designed to harvest Microsoft 365 credentials, giving attackers a foothold to compromise the next victim's account and continue the chain. Because the campaign rides on real, previously-trusted senders rather than spoofed addresses, it is unusually effective against email-security filters and professional staff. The Utah State Bar's direct guidance: "do not open the attachment, click any links, or provide login credentials," and instead report suspicious messages immediately to your IT department or email provider, even, and especially, when they appear to come from someone you know.`,
+    categorySlug: 'phishing',
+    alertLevel: 'high',
+    sources: ['Utah State Bar'],
+    sourceUrl: 'https://www.utahbar.org/warning-a-widespread-phishing-campaign-that-utah-lawyers-should-be-aware-of/',
+    country: 'US',
+    state: 'UT',
+    firstRecorded: '2026-09-09',
+});
+
+UsTZ.push({
+    name: 'Block Inc. Cash App Deceptive Security Practices Settlement (Utah)',
+    slug: 'utah-block-cash-app-deceptive-security-settlement',
+    description: `On July 8, 2026, the Utah Division of Consumer Protection announced Utah's $482,183 share of a $45 million multistate settlement with Block Inc. over deceptive practices tied to its Cash App peer-to-peer payment service. Investigators found Block overstated Cash App's security by implying bank-level protections that did not actually exist, minimized identity verification at signup, which let fraudsters open accounts easily, and for years provided no live phone support, a gap scammers exploited by posing as "Cash App support" to trick users into handing over account access. The company also ran a "Cash App Fridays" giveaway promotion that encouraged users to publicly post their personal $cashtag identifiers on social media, a practice regulators say facilitated targeting by fraud rings even after scam patterns were known internally. Division Director Katie Hass said, "Block prioritized rapid expansion over essential security and customer support." As part of the settlement, Block must now provide 24/7 live-agent phone support for 13.5+ hours daily and live chat for at least 18 hours daily, market its fraud protections honestly, proactively educate users on fraud prevention, and investigate and refund legitimate unauthorized-transaction claims. Cash App users should never post their $cashtag publicly, should treat anyone contacting them claiming to be "Cash App support" as a likely scammer, and should report unauthorized transactions in writing and escalate if a refund is wrongly denied.`,
+    categorySlug: 'account-takeover',
+    alertLevel: 'medium',
+    sources: ['Utah Division of Consumer Protection (commerce.utah.gov)'],
+    sourceUrl: 'https://commerce.utah.gov/2026/07/08/utah-division-of-consumer-protection-announces-45-million-multistate-settlement-with-block-inc-over-deceptive-practices-on-cash-app/',
+    country: 'US',
+    state: 'UT',
+    firstRecorded: '2026-07-08',
+});
+
+UsTZ.push({
+    name: 'ChowNow-Impersonation Crypto Task-Job Scam',
+    slug: 'utah-chownow-impersonation-task-job-scam',
+    description: `KSL Investigates reported that Utahns lost $4.4 million to employment/task scams in 2024, more than six times the $688,000 lost the year before, as "task scam" reports surged 300% nationwide between 2023 and 2024, per the FTC. Millcreek resident Tom Foulger described how he lost nearly $1,300 after scammers impersonating ChowNow, a real food-delivery app, offered him $300 a day for 30-60 minutes of "work" rating the app. After being paid to submit initial ratings, Foulger was directed to fund the platform in Bitcoin; the app then showed a negative commission balance and told him paying more would unlock bigger returns, trapping him in an escalating cycle of payments before the scammers disappeared with his money. These operations typically recruit victims by unsolicited text, communicate over Telegram or WhatsApp, and impersonate well-known brands to look legitimate. Utahns should ignore unsolicited job texts, know that legitimate employers never ask you to pay to get paid, never require crypto payments, and never pay people to post online ratings, which is itself illegal, and should report suspected task scams to the FBI at ic3.gov.`,
+    categorySlug: 'job-task-scams',
+    alertLevel: 'high',
+    sources: ['KSL Investigates'],
+    sourceUrl: 'https://www.ksl.com/article/ksl-investigates/scams-targeting-job-seekers-in-utah-are-skyrocketing-find-out-how-you-can-protect-yourself/772553/',
+    country: 'US',
+    state: 'UT',
+    firstRecorded: '2024-01-01',
+});
+
+UsTZ.push({
     name: 'Virgin Islands Medicaid Behavioral-Health Billing Fraud (RTS Services Unlimited 11)',
     slug: 'virgin-islands-rts-services-medicaid-behavioral-health-fraud',
     description: `The Virgin Islands Department of Justice's Medicaid Fraud Control Unit filed a False Claims Act lawsuit on June 23, 2026 against RTS Services Unlimited 11, LLC and three individuals — Melinda Richards, Ashley Doway, and Duane Robinson — accusing them of billing the territory's Medicaid program for children's after-school and summer enrichment programs by falsely recharacterizing them as reimbursable psychotherapy, hypnotherapy, and behavioral health services. According to the complaint, ordinary activities like homework help, tutoring, snacks, and transportation for children with behavioral and mental health needs were billed instead as clinical therapy sessions, even though RTS staff lacked the Virgin Islands licenses required to independently provide, supervise, or bill for that kind of care. Between January 2020 and January 2026, RTS submitted claims to the Virgin Islands Medicaid Program totaling approximately $3,912,551.57 and was actually paid approximately $408,410.90 before the scheme was uncovered. Attorney General Gordon C. Rhea said children and families relying on Medicaid-funded behavioral health services deserve treatment "by qualified clinicians," and the lawsuit seeks damages, restitution, civil penalties, and disgorgement of the improperly obtained funds under the Virgin Islands False Claims Act. The case illustrates how a Medicaid billing scheme can hide behind a legitimate-sounding children's program name — parents whose child is enrolled in a Medicaid-billed behavioral health or therapy program can ask the provider directly whether the staff working with their child hold the required Virgin Islands clinical license, and can report suspected billing fraud to the V.I. Department of Justice's Medicaid Fraud Control Unit.`,
