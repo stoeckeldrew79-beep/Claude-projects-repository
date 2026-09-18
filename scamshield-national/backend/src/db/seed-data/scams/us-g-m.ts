@@ -6834,6 +6834,38 @@ UsGM.push({
 });
 
 UsGM.push({
+    name: "Kansas's 1911 Blue Sky Law: The Nation's First Securities Law, Written to Stop Homegrown Investment Fraud",
+    slug: 'kansas-1911-blue-sky-law-securities-fraud-origin',
+    description: `In 1911, Kansas Bank Commissioner Joseph Norman Dolley pushed the legislature to pass what became the nation's first modern securities law after he found Kansans were losing an estimated $1 million to $3 million a year — a fortune in 1910s money — to traveling stock promoters selling shares in "fly-by-night concerns, visionary oil wells, distant gold mines," and other speculative new inventions that had, in Dolley's own words, no backing but "the blue skies of Kansas." The legislature responded with the "Act to Provide for the Regulation and Supervision of Investment Companies," introduced February 6, 1911 and signed into law March 10, requiring anyone who wanted to sell stocks or bonds in Kansas to first register with Dolley's office, which could and did reject applications it found suspect: in the law's first year alone, Dolley's office reviewed more than 700 applications and approved only 48. The Kansas statute became known nationally as the country's first "blue sky law," and the model spread with striking speed — within three years nearly half the states in the country had adopted similar statutes, and by 1933 every state but Nevada had one, laying the regulatory groundwork the federal Securities Act would build on two decades later.
+
+More than a century later, the same basic promise Dolley set out to stop — an "investment" backed by nothing but the seller's word — still shows up in Kansas fraud cases today. The Remain in Control LLC Ponzi scheme already documented in this database, which promised an Overland Park investor high-yield returns and instead paid "returns" out of other victims' own money before collapsing with nearly $2 million in confirmed losses, runs on the exact structure the 1911 law targeted: money changing hands on the promise of a return with no real asset or business behind it. Kansas's blue sky law survives today as the state's securities registration requirement, and the same test Dolley applied in 1911 still protects investors now: before wiring money into any investment opportunity, verify that both the seller and the security itself are actually registered with the state securities regulator or the SEC, and treat a stranger's promise of guaranteed, above-market returns as the reddest of flags rather than good fortune.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'medium',
+    sources: ['Kansas Historical Society', 'SEC Historical Society'],
+    sourceUrl: 'https://sechistorical.org/exhibition/wrestling-with-reform-financial-scandals-and-the-legislation-they-inspired/a-law-whose-time-had-come/like-a-prairie-fire/',
+    country: 'US',
+    state: 'KS',
+    isHistorical: true,
+    firstRecorded: '1911-03-10',
+});
+
+UsGM.push({
+    name: "Kansas's 1973 Consumer Protection Act: How the End of \"Buyer Beware\" Created the Three-Day Right to Cancel",
+    slug: 'kansas-1973-consumer-protection-act-door-to-door-origin',
+    description: `Kansas consumer transactions operated for decades under simple "caveat emptor" — buyer beware — and deceptive or unconscionable sales practices were, by the state's own later accounting, commonplace, with the financial damage from any single deceptive sale usually too small to make hiring an attorney worthwhile, leaving bad-faith sellers with little real deterrent. The legislature created a Consumer Protection Division inside the Attorney General's office in 1963 and passed a first, limited Buyer Protection Act in 1968, but it took until 1973 for Kansas to enact the comprehensive Kansas Consumer Protection Act, K.S.A. 50-623, effective July 1 of that year, which rewrote the rules "to protect consumers from suppliers who commit deceptive and unconscionable practices" and, for the first time in Kansas law, guaranteed consumers "a three-day cancellation period for door-to-door sales" — a legal escape hatch specifically for the high-pressure, sign-it-now pitch delivered in a homeowner's own living room, far from the comparison shopping and cooling-off time a storefront purchase allows. Under the law, a Kansan who signs an agreement with a seller who personally solicited them somewhere other than the seller's regular place of business can cancel in writing until midnight of the third business day afterward, no reason required.
+
+That exact scenario — a seller who shows up uninvited at the door and pushes for a signature before the homeowner can think it over — is still the backbone of the door-to-door contractor fraud this database already documents in Kansas today, from the storm-chasing crews behind the Southeast Kansas Storm-Damage Unregistered Roofing Contractor Scam to the deposit fraud in the Straight Line Remodeling case, both of which lean on exactly the urgency and on-the-spot pressure the 1973 law's cancellation right was written to defuse. Any Kansas homeowner solicited at their own front door — especially after a storm, when a roofing crew often shows up before an insurance adjuster ever does — should remember that right to cancel is still on the books, and should treat a contractor who rushes for a deposit, pressures for an immediate signature, or discourages getting a second quote as a reason to slow down rather than sign.`,
+    categorySlug: 'home-improvement-solar',
+    alertLevel: 'medium',
+    sources: ['Kansas Office of the Revisor of Statutes', 'Sloan Law Firm'],
+    sourceUrl: 'https://www.sloanlawfirm.com/kansas-consumer-protection-act/',
+    country: 'US',
+    state: 'KS',
+    isHistorical: true,
+    firstRecorded: '1973-07-01',
+});
+
+UsGM.push({
     name: 'Eagle Vendor Invoice Fraud and Tax Evasion (Miles Elletson)',
     slug: 'idaho-eagle-elletson-vendor-invoice-fraud',
     description: `Miles Elletson, 55, of Eagle, Idaho, held a position of trust at Alloway Electric, a Garden City contracting company, that let him sign checks on the business's behalf — and between June 2017 and December 2020 he used that authority to defraud his own employer. Elletson entered false work-order entries and submitted fraudulent invoices claiming that a company he secretly controlled, Advanced Purchasing Services LLC, had performed work or supplied materials for Alloway Electric, then signed off on the checks issued to pay those fake invoices himself, diverting approximately $478,013 from the business over the four-year span. He also filed false federal tax returns that concealed the income, shorting the IRS $161,354. Elletson pleaded guilty on June 11, 2025 to wire fraud and filing false tax returns, and on April 18, 2026, Senior U.S. District Judge B. Lynn Winmill sentenced him to 52 months in federal prison and two years of supervised release, ordering him to pay $161,354 in restitution to the IRS. The case is a reminder that vendor fraud doesn't require an outside hacker or a spoofed email — an employee with check-signing authority can invent a paper vendor entirely on their own — so a business can guard against it by requiring a second, independent employee to approve any new vendor added to its accounts-payable system and by periodically matching invoices from smaller or newer suppliers against goods actually delivered or work actually completed.`,
