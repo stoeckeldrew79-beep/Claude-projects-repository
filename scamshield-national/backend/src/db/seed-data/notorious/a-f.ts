@@ -9514,3 +9514,18 @@ The scheme was only exposed when an Ernst & Young forensic audit commissioned by
 As of 2026 the criminal trial remains ongoing and ABG Shipyard itself is in liquidation, so this case's legal outcome so far is arrest, asset seizure, and formal prosecution rather than a completed conviction. It is nonetheless a stark illustration of how a consortium-lending structure — 28 separate banks each holding a slice of the exposure — can let a single borrower's fabricated documentation and shell-company diversion go undetected for years, since no single lender had full visibility into the group's true financial position until an independent forensic audit forced the issue.`,
     sourceUrl: 'https://en.wikipedia.org/wiki/ABG_Shipyard_loan_fraud',
 });
+
+NotoriousAF.push({
+    title: 'Cody Allen Easterday and the Easterday Ranches "Ghost Cattle" Fraud',
+    slug: 'cody-easterday-ghost-cattle-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    body: `Cody Easterday was a fourth-generation Washington State cattle rancher who ran Easterday Ranches Inc. and Easterday Farms, one of the largest cattle-feeding operations in the Pacific Northwest, under long-standing "custom feeding" agreements with Tyson Fresh Meats and a second agribusiness company. Under those contracts, Tyson and the other company advanced Easterday Ranches the cost of purchasing and feeding cattle on their behalf, which Easterday Ranches would repay, with interest and fees, once the animals were slaughtered and sold.
+
+Starting around 2016, after racking up roughly $200 million in undisclosed personal losses from speculative cattle-futures trading, Easterday began billing his corporate partners for the purchase and feeding costs of cattle that simply did not exist — "ghost cattle" — using the reimbursements to cover his trading losses rather than any real livestock. Over about four years he invoiced Tyson Fresh Meats for more than $233 million and the second company for over $11 million tied to roughly 265,000 head of nonexistent cattle.
+
+He confessed to Tyson in November 2020 once the scheme became unsustainable, pleaded guilty to a single count of wire fraud in March 2021, and was sentenced by U.S. District Judge Stanley Bastian on October 4, 2022 to 11 years in federal prison plus $244 million in restitution, a sum the U.S. Attorney's Office called the largest fraud in the Eastern District of Washington's history. A related CFTC enforcement action separately fined commodities broker CHS Hedging $6.5 million for anti-money-laundering failures tied to the futures trading that drove Easterday's losses.
+
+The case is a stark lesson in how "cost-plus" trust-based commercial contracts, where a counterparty is reimbursed for costs before goods are actually verified to exist, can be exploited for years by a single trusted, reputationally credible business partner with no outside auditing of the underlying physical inventory.`,
+    sourceUrl: 'https://en.wikipedia.org/wiki/Ghost_cattle_fraud',
+});
