@@ -15789,6 +15789,34 @@ International.push(
 
 International.push(
   {
+    name: 'Qi Card Impersonation Payment-Card Fraud Network',
+    slug: 'iraq-qi-card-impersonation-payment-fraud',
+    description: `Iraq's Federal Intelligence and Investigations Agency announced on September 6, 2026 that it had arrested five people in Baghdad who ran an organized fraud network impersonating staff of Qi Card, the payment-card system Iraq uses to distribute salaries, pensions, and welfare benefits to millions of employees, retirees, and other cardholders through ATMs, authorized agents, and payment terminals. Investigators said the network's members divided roles among themselves — running the operation, obtaining victims' card data, and moving the stolen funds — after cold-calling cardholders while posing as genuine Qi Card representatives; reporting by Shafaq News on victims in Kirkuk found that callers either talked people into reading out their card details directly or persuaded them to install a fraudulent look-alike app that then drained their accounts once installed. The agency said its cybercrime directorate was still tracing further suspects and financial and electronic connections tied to the network, and told cardholders plainly that a legitimate Qi Card representative already holds the account information it needs and will never call to ask for a card number or PIN, urging anyone contacted this way to hang up and report the call to the police emergency line, 911. The case fits a broader pattern Iraqi banking-sector analysts have flagged of rising card fraud tied to insider access and impersonation as the country's Tawtin program shifts government salaries and benefits from cash onto debit cards — meaning any unsolicited call, text, or app-download request claiming to be from the payment-card company itself should be treated as a likely fraud attempt rather than verified through the number or app the caller supplies.`,
+    categorySlug: 'account-takeover',
+    alertLevel: 'high',
+    sources: ['Federal Intelligence and Investigations Agency (Iraq)', '964 Media', 'Shafaq News'],
+    sourceUrl: 'https://en.964media.com/52119/',
+    country: 'IQ',
+    firstRecorded: '2026-09-06',
+  },
+);
+
+International.push(
+  {
+    name: 'Federal Commission of Integrity Forged-Document Loan and Land Fraud Ring',
+    slug: 'iraq-diwaniyah-forged-documents-loan-land-fraud-ring',
+    description: `Iraq's Federal Commission of Integrity announced on July 26, 2026 that it had dismantled a 13-member fraud ring in Diwaniyah governorate — including government employees and lawyers — that had spent years exploiting official records, banking procedures, and the land-registration system for illicit gain, seizing more than 1,000 forged official documents in the operation. Investigators said the ring fabricated civil-status identification cards in the names of both living and deceased Iraqis, forged residency endorsements and civil-registry extracts, produced counterfeit electronic visa barcodes, and fabricated correspondence purporting to come from institutions including the Martyrs' Foundation, the Retirement Board, the Article 140 Committee, and the Social Welfare Directorate — paperwork built specifically to pass the verification checks of banks and land offices rather than to deceive any one individual directly. Using these forged records and fabricated collateral, the ring submitted 243 fraudulent loan applications through twelve state-owned banks across multiple governorates and used counterfeit residency documents to unlawfully acquire thirteen land plots on behalf of people who were not eligible for them, together accounting for more than 4 billion Iraqi dinars in fraudulent loans and illegally transferred land. The Commission said all 13 suspects remained in custody, that it had frozen their assets and issued property-seizure notices, and that it continued investigating additional participants. Because this scheme's initial harm lands on banks and government land registries rather than on someone contacted directly, Iraqis whose civil-status or residency records may have been drawn into it are advised to periodically check their own bank, loan, and land-title records for accounts or transfers they never authorized, rather than assuming an insider-driven documents ring poses no risk to them personally.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'high',
+    sources: ['Federal Commission of Integrity (Iraq)', 'Kurdistan24'],
+    sourceUrl: 'https://www.kurdistan24.net/en/story/928264/iraq-dismantles-fraud-ring-seizes-more-than-1000-forged-documents',
+    country: 'IQ',
+    firstRecorded: '2026-07-26',
+  },
+);
+
+International.push(
+  {
     name: 'Jersey Bank Fraud Team Impersonation Cold-Calling Scam',
     slug: 'jersey-bank-fraud-team-impersonation-scam',
     description: `The Jersey Financial Services Commission (JFSC) warned islanders in May 2026 about a rise in cold-calling scams in which fraudsters impersonate banks and bank "fraud teams" to steal money and account access. Callers contact victims out of the blue, often using real bank names, cloned websites, copied branding, and even AI-generated images or voices to sound credible, before asking the victim to read out a one-time passcode sent to their phone to "verify" their identity — a code that is then used to log into or authorise a transfer from the victim's real online banking. The JFSC stressed that "banks will never ask customers to disclose such information during a call" and urged islanders to "Stop, Check and Protect": pause before responding to any unexpected contact, verify who they are really speaking to using a phone number obtained independently rather than one given by the caller, and never share a one-time passcode or other security details with anyone who calls unprompted. Anyone targeted is advised to contact their bank immediately if a payment has already been made, report the call to the States of Jersey Police, and notify the JFSC's enforcement team.`,
