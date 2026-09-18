@@ -5851,6 +5851,34 @@ UsAF.push({
 });
 
 UsAF.push({
+    name: "Colorado's 1923 Securities Act and the Registration Check That Still Catches Ponzi Funds",
+    slug: 'colorado-1923-securities-act-registration-origin',
+    description: `Colorado enacted its first securities law in 1923 — Chapter 168 of that year's session laws, titled "To Regulate the Sale and Offering for Sale of Stocks, Bonds and Other Securities in the State of Colorado, and Providing Penalties for the Violation Thereof" — creating the Division of Securities to license and police who could sell stocks, bonds, and other investments in the state, a full decade before the federal Securities Act of 1933 or the SEC existed. The law arrived in the same fast-moving national wave that began with Kansas's 1911 "blue sky" law, so named because regulators warned that fly-by-night stock promoters were selling shares backed by nothing more solid than the blue sky overhead; within a few years, dozens of states, Colorado among them, had followed with registration requirements of their own. More than a century later, Colorado's Division of Securities, now part of the Department of Regulatory Agencies, still runs on that same core idea: anyone selling an investment fund or acting as an investment adviser in the state has to be registered, and a prospective investor can check that registration before wiring any money. That is exactly the safeguard absent from this database's existing ROI Cash Flow Fund entry, in which Denver residents Timothy McPhee and Heath Posey collected roughly $8 million from more than 50 investors by promising a fixed 3% monthly return through an unregistered forex fund — a guaranteed, market-independent payout that the 1923 registration requirement, and the modern securities-fraud statutes built on top of it, exist specifically to flag before a fund like that can take in a single dollar.`,
+    categorySlug: 'ponzi-pyramid-schemes',
+    alertLevel: 'medium',
+    sources: ['Colorado General Assembly Session Laws, 1923, Chapter 168', 'Colorado Division of Securities'],
+    sourceUrl: 'https://scholar.law.colorado.edu/session-laws-1901-1950/2690',
+    country: 'US',
+    state: 'CO',
+    isHistorical: true,
+    firstRecorded: '1923-01-01',
+});
+
+UsAF.push({
+    name: "Colorado's 2022 Business Identity Theft Act and the Fraud It Was Built to Stop",
+    slug: 'colorado-2022-business-identity-theft-act-origin',
+    description: `Colorado's Combating Business Identity Theft Act, Senate Bill 22-034, passed with bipartisan support and was signed into law in 2022 after the Secretary of State's own office documented a rising wave of fraudsters registering fake businesses using stolen residents' names and addresses as "registered agents" without their knowledge — manipulating the state's business-filing system to manufacture instant legitimacy for scams, or to fraudulently open lines of credit in a real business's name. The law created a formal interagency process, launched February 1, 2023, in which the Secretary of State's Office refers suspected fraudulent filings to the Attorney General's Office for investigation; if fraud is confirmed, the Secretary of State's Office redacts the victim's information and flags the record, and the law separately bars registered agents from using a P.O. Box as their address and requires proof of identity before a dissolved or delinquent business can be quickly refiled. A 2026 expansion, House Bill 26-1088, went further, letting the Secretary of State pursue a fraudulent entity even when it lists another already-identified bogus entity as its own registered agent. That exact interagency fraud-referral process is the one this database's existing Fraudulent Colorado Business Registration Scheme entry describes in action: fraudsters registered thousands of fake businesses using stolen residents' home addresses — one family found 370 businesses registered to their home — before Attorney General Phil Weiser's office used the process SB22-034 created to launch its crackdown. Colorado residents who discover a business filed under their name or address without their knowledge can report it directly to the Secretary of State's fraudulent-filing complaint tool rather than assuming it will resolve on its own.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'medium',
+    sources: ['Colorado Secretary of State', 'Colorado General Assembly (SB22-034)'],
+    sourceUrl: 'https://www.sos.state.co.us/pubs/newsRoom/pressReleases/2023/PR20230202FraudFilings.html',
+    country: 'US',
+    state: 'CO',
+    isHistorical: true,
+    firstRecorded: '2022-01-01',
+});
+
+UsAF.push({
     name: 'Colfax Woman\'s Seven-Year Theft from Children and Families of Iowa (Jodi Spargur-Tate)',
     slug: 'iowa-colfax-spargur-tate-cfi-nonprofit-theft',
     description: `Jodi Dyan Spargur-Tate, 55, of Colfax, Iowa, worked as a Program Director at Children and Families of Iowa (CFI) — a nonprofit that runs youth, adult, and dislocated-worker employment programs funded largely through U.S. Department of Labor grants — from 2015 to 2022, using that position to submit hundreds of false and fraudulent reimbursement requests backed by falsified invoices and receipts. Over nearly seven years she diverted more than 100 separate payments from CFI to herself and family members, spending the money on personal expenses including cell phone bills and housing costs, for a total loss to the nonprofit of $426,837.11. Spargur-Tate was sentenced on August 27, 2026 in the U.S. District Court for the Southern District of Iowa to 18 months in federal prison plus three years of supervised release, and ordered to pay the full $426,837.11 in restitution. U.S. Department of Labor Office of Inspector General Anthony P. D'Esposito said Spargur-Tate "stole Department of Labor funds intended to help Americans secure meaningful employment," underscoring that the theft did not just harm CFI's finances but diverted money meant for job training and placement services for vulnerable Iowans. The case, investigated by the Department of Labor's Office of Inspector General and the Des Moines Police Department and prosecuted by the U.S. Attorney's Office for the Southern District of Iowa, is a reminder that a trusted, long-tenured employee with sign-off authority over reimbursements is one of the most common ways a nonprofit's federal grant funding disappears — boards and funders should require independent, periodic audits of reimbursement requests and vendor invoices rather than relying on a single program director's internal recordkeeping.`,
