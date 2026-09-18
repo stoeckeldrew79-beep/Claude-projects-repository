@@ -12141,6 +12141,32 @@ International.push(
 
 International.push(
   {
+    name: 'Fake Facebook Account Impersonating CBSI Governor Dr. Luke Forau',
+    slug: 'solomon-islands-fake-facebook-cbsi-governor-impersonation',
+    description: `The Central Bank of Solomon Islands (CBSI) issued Public Notice 04/2025 on July 2, 2025, warning the public about a fraudulent Facebook account created in the name of its sitting Governor, Dr. Luke Forau, using his real photographs to appear authentic. CBSI stated plainly that Dr. Forau "does not maintain any personalised or official Facebook account" bearing his profile pictures or images, and urged the public to exercise caution and refrain from engaging with, responding to, or adding the fake account, warning that anyone who interacts with it risks being drawn into further fraud carried out under the Governor's borrowed identity. The bank said it was working to have the fraudulent account reported and removed through the appropriate channels, and reminded Solomon Islanders that all genuine CBSI communications come only through its official website (www.cbsi.com.sb), its verified official social media pages, its office email (info@cbsi.com.sb), or its main office telephone line (21791) — never through a personal social media profile purporting to belong to a bank official. The notice reflects a broader pattern seen elsewhere in the Pacific in which scammers impersonate a country's own central-bank leadership on social media to lend fabricated investment pitches or requests for money a false air of authority.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Central Bank of Solomon Islands (CBSI)'],
+    sourceUrl: 'https://www.cbsi.com.sb/article/public-notice-042025-fake-facebook-account-cbsi-governor',
+    country: 'SB',
+    firstRecorded: '2025-07-02',
+  },
+  {
+    name: 'One Link Pacifica Unlicensed Deposit-Taking Pyramid Scheme',
+    slug: 'solomon-islands-one-link-pacifica-pyramid-scheme',
+    description: `In February 2020, the Solomon Islands Financial Intelligence Unit (SIFIU), a unit of the Central Bank of Solomon Islands (CBSI), publicly identified an investment outfit called One Link Pacifica as an illegal pyramid scheme, with SIFIU Director Jimmy Sendersley stating that the company's activities were "illegal under the law and CBSI's prudential guidelines" because it was taking public deposits and promising high short-term returns to members who mainly earned by recruiting further participants, without ever obtaining the banking license the law requires of any entity that takes deposits from the public. The Honiara City Council (HCC) separately issued the company a notice on February 24, 2020 confirming it had also been operating without the municipal business license normally required to trade in the city, with City Clerk Rence Sore explaining that HCC could not issue that license until One Link Pacifica first obtained CBSI's banking license — leaving the company unable to operate lawfully on either front. Violators of the HCC notice faced fines of up to $5,000 plus $50 for each day the violation continued. One Link Pacifica's local director, Charles Dora, publicly rejected the "pyramid scheme" and "Ponzi scheme" label as "erroneous, ill-conceived and indeed misleading," insisting the firm was properly registered as a business (not, as CBSI had suggested, merely as a fishing company) and arguing its non-traditional investment model should not require a banking license — a dispute that played out across national media as the company continued recruiting members. The case illustrates how a locally registered company can dispute a regulator's fraud characterization in public for weeks while continuing to take in deposits, underscoring why Solomon Islanders were urged to verify that any entity soliciting deposits or investment holds a genuine CBSI banking license before handing over money, rather than relying on the company's own claims about its registration status.`,
+    categorySlug: 'ponzi-pyramid-schemes',
+    alertLevel: 'high',
+    sources: ['Solomon Islands Financial Intelligence Unit (SIFIU)', 'Central Bank of Solomon Islands (CBSI)', 'Honiara City Council', 'Solomon Times Online'],
+    sourceUrl: 'https://www.solomontimes.com/news/hcc-says-one-link-pacifica-operating-illegally/9583',
+    country: 'SB',
+    isHistorical: true,
+    firstRecorded: '2020-02-20',
+  },
+);
+
+International.push(
+  {
     name: 'Antigua and Barbuda Smishing Account-Drain and Mobile Top-Up Scam',
     slug: 'antigua-barbuda-smishing-account-drain-mobile-topup-scam',
     description: `Antigua and Barbuda's Office of National Drug and Money Laundering Control Policy (ONDCP) issued a public advisory on August 1, 2025 warning of a sharp rise in "smishing" and phishing attacks used to hijack residents' bank accounts. Fraudsters send fake text messages claiming a bank account has been suspended or place phone calls while impersonating staff of local telecommunications providers FLOW, Digicel, or the Antigua Public Utilities Authority (APUA), pressuring the recipient to "verify" their identity. Victims who click the accompanying link or answer the caller's questions end up disclosing passwords, PINs, or one-time verification codes, which criminals immediately use to log into online banking and drain the account through a series of unauthorized transfers and mobile phone top-up purchases sent to numbers the victim does not recognize. A related case investigated separately by the Royal Police Force of Antigua and Barbuda saw a victim's email compromised through the same kind of impersonation tactic, resulting in more than $20,000 fraudulently transferred out of her accounts before the activity was detected. The ONDCP's Director urged the public to never click links in unsolicited texts or emails, to never share passwords, PINs, or one-time codes with anyone contacting them by phone or message, to verify any account-suspension claim by calling their bank directly using the number on its official website or the back of their card, and to report a suspected compromise to their bank immediately, since a prompt and honest report helps the institution act quickly to limit the loss.`,
