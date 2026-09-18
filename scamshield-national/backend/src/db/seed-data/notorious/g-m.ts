@@ -10182,23 +10182,6 @@ The Mannatech case illustrates a structural loophole that MLM-model companies ha
     sourceUrl: 'https://www.courthousenews.com/mannatech-ceo-fined-for-deceptive-trade/',
 });
 
-NotoriousGM.push({
-    title: 'William "520 Percent" Miller and the Franklin Syndicate That Foreshadowed the Ponzi Scheme',
-    slug: 'william-miller-520-percent-franklin-syndicate-fraud',
-    author: 'ScamShield Editorial',
-    tags: ['notorious', 'notorious-scammer', 'historical'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/New_York_of_to-day._(1912)_(14802823363).jpg?width=1200',
-    coverImageCredit: 'Brooklyn in Miller’s era. His Franklin Syndicate promised 520% a year, two decades before Ponzi. Photo: Internet Archive Book Images (public domain)',
-    coverImagePosition: 50,
-    body: `William F. Miller was a 25-year-old bookkeeper and president of his Brooklyn church's Christian Endeavor Society when, in March 1899, he persuaded a handful of Sunday-school friends to give him money to invest in the stock market. What began as a small favor among acquaintances grew, within months, into the "Franklin Syndicate," a business built on a single, extraordinary promise: 10 percent interest paid out every single week, a rate that compounded into a stated annual return of 520 percent — the number that gave Miller his enduring nickname, "520 Percent Miller."
-
-The Franklin Syndicate never actually traded stocks at anything like the volume or success needed to generate those returns. Instead, like every scheme of its type before and since, it paid its early investors their promised weekly interest using the principal deposited by newer investors, creating the appearance of a wildly profitable, reliable investment as word spread and more money poured in. Miller's own visible modesty helped the con along: he kept a low profile, avoided ostentatious spending, and let the returns themselves, rather than any flashy lifestyle, do the work of attracting new believers among working-class savers and small investors who had never had access to anything paying like this before.
-
-The scheme could only run as long as new deposits kept outpacing the weekly payouts owed to existing investors, and by the fall of 1899 that math caught up with it. On November 24, 1899, with the Franklin Syndicate's obligations exceeding what new money coming in could cover, Miller fled to Canada, leaving behind an estimated $1 million in losses — worth well over $25 million today — among the thousands of investors who had trusted him. He was eventually apprehended, brought back to the United States, and convicted of grand larceny; sentenced to ten years, he ultimately served five before his release.
-
-Miller's Franklin Syndicate predates the man whose name would come to define this exact structure — Charles Ponzi's own scheme was still two decades away — making Miller one of the earliest large-scale American practitioners of what is now called a Ponzi scheme, even though he never got the naming rights to it. The case remains a clean illustration of the mechanism at its simplest: no exotic financial instrument, no forged documents, nothing more sophisticated than paying old investors with new investors' money and letting a too-good-to-be-true weekly return do the recruiting on its own, a pattern regulators still see today in schemes promising steady, guaranteed, outsized returns with no clear explanation of how the underlying investment actually generates them.`,
-    sourceUrl: 'https://content.time.com/time/specials/packages/article/0,28804,2104982_2104983_2104992,00.html',
-});
 
 NotoriousGM.push({
     title: 'Apiruk Kothi and the Forex-3D Ponzi Scheme That Defrauded Nearly 10,000 Thai Investors',
