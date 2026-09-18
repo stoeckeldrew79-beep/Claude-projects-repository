@@ -8416,3 +8416,42 @@ UsGM.push({
     country: 'US',
     state: 'MN',
 });
+
+UsGM.push({
+    name: "Somerset Man Charged Under Kentucky's New Sexual Extortion Law (Tyler Michael Thomas)",
+    slug: 'kentucky-somerset-tyler-thomas-sexual-extortion',
+    description: `In March 2026, the Pulaski County Sheriff's Office arrested 33-year-old Tyler Michael Thomas of Somerset, Kentucky, and charged him with Sexual Extortion after an adult female victim reported that he threatened to make damaging statements about her to a third party unless she sent him explicit photographs of herself. Detective Branson Patterson, assisted by Deputy Zachary Huff, traced the online account Thomas used to contact the victim and identified him as the suspect; Thomas was booked into the Pulaski County Detention Center on a $5,000 cash bond. The case is among the first local arrests under Kentucky's Sexual Extortion statute, a law the General Assembly passed in 2025 specifically to protect residents from perpetrators who use threats of exposure or humiliation to coerce victims into unwanted acts or payments. Sextortion schemes increasingly begin online — through social media DMs, dating apps, or hacked accounts — and investigators warn that paying or complying with a blackmail demand rarely ends the threats; anyone targeted should stop communicating with the extortionist, preserve all messages as evidence, and report the incident immediately to local law enforcement or the FBI rather than sending money or images.`,
+    categorySlug: 'sextortion',
+    alertLevel: 'high',
+    sources: ["Pulaski County Sheriff's Office", 'Commonwealth Journal (somerset-kentucky.com)', 'Z93 Country'],
+    sourceUrl: 'https://www.somerset-kentucky.com/news/somerset-man-arrested-under-new-sexual-extortion-law/article_6adc01bc-1c08-47bc-a71b-ce4cf334e9e6.html',
+    country: 'US',
+    state: 'KY',
+    firstRecorded: '2026-03-06',
+});
+
+UsGM.push({
+    name: "Work-From-Home Job Scams Targeting Kentucky's Rising Unemployment",
+    slug: 'kentucky-work-from-home-job-scams-rising-unemployment',
+    description: `As Kentucky's unemployment rate climbed in 116 of the state's 120 counties over the prior year, the Better Business Bureau warned in July 2026 that scammers are increasingly impersonating real businesses to target job seekers with fake work-from-home offers. Whitney Adkins of the BBB explained the scheme's mechanics: "Sometimes they steal financial information because they'll claim to hire someone and then say, well, we need your, you know, your bank information for your new hire paperwork or whatever the case may be." Adkins said the timing is deliberate: "The unfortunate thing is they're taking advantage of folks during a time when, you know, it can be tough to find a job. And we have a lot of people looking and scammers are aware of that. So they're going to take advantage of that." The scams typically dangle high pay and benefits with no formal interview, then pressure applicants to submit personal and banking details immediately or lose the "offer." The BBB urges Kentucky job seekers to research any recruiter or company independently before sharing personal or financial information, and to be skeptical of any job offer that comes without a real interview.`,
+    categorySlug: 'employment-scams',
+    alertLevel: 'medium',
+    sources: ['Better Business Bureau', 'Spectrum News 1 Kentucky'],
+    sourceUrl: 'https://spectrumnews1.com/ky/northern-ky/news/2026/07/30/job-scams-target-kentucky-workers-as-unemployment-rises-in-most-counties',
+    country: 'US',
+    state: 'KY',
+    firstRecorded: '2026-07-30',
+});
+
+UsGM.push({
+    name: 'Holiday Puppy Scams Rising Across Kentucky and Tennessee',
+    slug: 'kentucky-holiday-puppy-scam-alert',
+    description: `The Better Business Bureau issued a holiday-season warning in December 2025 that puppy scams were surging across Kentucky and Tennessee, as fraudsters build convincing websites using stolen photos of adorable puppies and advertise immediate adoption or shipping to pressure buyers into fast payment. Victims who wire money, pay through gift cards, or use apps like Zelle or Cash App often find the "breeder" disappears the moment payment clears, with no puppy ever delivered — and some are hit with follow-up demands for "extra fees" covering fake insurance, travel crates, or vaccinations before the animal will supposedly be released. The BBB noted that scammers routinely refuse live video calls with the animal, a major red flag, and recommends buyers insist on a live video call before paying anything, run a reverse image search on listing photos, verify a seller's physical location and credentials, and avoid any payment method that can't be reversed or traced. Anyone who suspects they've been targeted should report the seller to the BBB and their payment provider immediately, since fast action is sometimes the only chance to reverse a transaction before the scammer disappears.`,
+    categorySlug: 'pet-sales-scams',
+    alertLevel: 'medium',
+    sources: ['Better Business Bureau', 'WSMV News 4'],
+    sourceUrl: 'https://www.wsmv.com/2025/12/04/safety-alert-puppy-scams-rise-during-holiday-season-tennessee-kentucky/',
+    country: 'US',
+    state: 'KY',
+    firstRecorded: '2025-12-04',
+});
