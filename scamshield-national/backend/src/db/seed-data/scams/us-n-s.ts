@@ -7949,6 +7949,19 @@ UsNS.push({
 });
 
 UsNS.push({
+    name: 'Omaha "Thrifty Auto Sales Shop" Fake Vehicle Website Scam',
+    slug: 'nebraska-omaha-thrifty-auto-sales-shop-fake-vehicle-scam',
+    description: `The Better Business Bureau of the Midwest Plains warned on June 1, 2026 about a fraudulent vehicle-sales operation calling itself "Thrifty Auto Sales Shop," which built a professional-looking website and Google Business profile claiming an address at 5404 Abbott Drive in Omaha even though no active car dealership has ever operated there. The scammers advertised vehicles on TikTok using stolen listing photos, then spent months building trust with at least one buyer through direct messages from someone posing as a sales representative before she wired $1,500 to cover the vehicle's price and shipping. After the payment cleared, a second person claiming to represent a shipping company contacted her demanding an additional $1,500 for "shipping insurance" — a follow-on fee the BBB says is a common tactic scammers use to extract more money once a victim has already paid once — and the vehicle never arrived. The bill of sale the buyer received was itself a red flag: it lacked basic required information such as the vehicle identification number, mileage, and color, making it legally invalid on its face. The BBB referred the case to the Omaha Police Department and the Nebraska Attorney General's Office, and advises anyone shopping for a vehicle found through a social media listing to independently verify the seller's business address before paying, insist on an in-person inspection or a third-party mobile inspection rather than wiring money sight-unseen, and treat any post-payment demand for an additional "insurance" or "shipping" fee as confirmation of fraud.`,
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'medium',
+    sources: ['Better Business Bureau of the Midwest Plains', 'KOLN/KGIN (1011NOW)'],
+    sourceUrl: 'https://www.1011now.com/2026/06/01/bbb-warns-fake-car-website-claiming-omaha-address/',
+    country: 'US',
+    state: 'NE',
+    firstRecorded: '2026-06-01',
+});
+
+UsNS.push({
     name: 'Oklahoma City Fraudulent Warranty Deed Title-Theft Scheme (Laura Johnson, Thomas Johnson Sr., and Cheryl Ashley)',
     slug: 'oklahoma-city-warranty-deed-title-theft-scheme',
     description: `From 2014 to 2019, Oklahoma City residents Laura R. Johnson, Thomas Johnson Sr., and Cheryl M. Ashley ran a scheme to seize ownership of homes without the real owners' knowledge, targeting more than a dozen Oklahoma County properties that had delinquent property taxes and were headed for a county tax auction. The conspirators would pay off the back taxes to pull a property out of auction, then file fraudulent warranty deeds — backed by forged notary signatures and fake confidential stamp-tax affidavits and mortgages — transferring title into the names of fictitious companies and individuals they controlled. In one instance they forged a power of attorney for a deceased property owner and attempted to withdraw more than $100,000 from that owner's accounts; overall the scheme drained $63,950 from victims' bank accounts and diverted $45,000 in oil-and-gas royalty interests. Investigated jointly by the U.S. Secret Service and the Oklahoma Attorney General's Office, all three defendants pleaded guilty on November 17, 2020, to a single count of conspiracy to commit mail and wire fraud in the Western District of Oklahoma and were later sentenced collectively to more than 21 years in federal prison. Homeowners, especially those who have ever fallen behind on property taxes, are advised to periodically check their county assessor's or clerk's real property records for a deed transfer they didn't authorize, since a fraudulent deed can sit unnoticed for years, particularly on a property the owner doesn't live in or visit regularly.`,

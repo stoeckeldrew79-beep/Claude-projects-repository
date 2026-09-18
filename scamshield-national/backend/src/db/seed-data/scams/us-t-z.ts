@@ -4534,6 +4534,34 @@ UsTZ.push({
 });
 
 UsTZ.push({
+    name: 'Virgin Islands Mystery-Shopper and Prize-Check Fraud Alert',
+    slug: 'virgin-islands-fraudulent-check-money-order-scam-alert',
+    description: `Virgin Islands Attorney General Denise George issued a consumer alert on August 25, 2020 warning residents about a rise in scams built around a fraudulent check or money order that a victim is told to deposit and then partially return or spend on the scammer's behalf, with the fraud only surfacing weeks or months later when the victim's bank discovers the item is counterfeit and reverses the deposit, leaving the victim on the hook for money already sent onward. The alert described several variants: a "mystery shopper" job in which the new hire is mailed a check to deposit and told to wire part of the proceeds to a third party as part of the assignment; a work-from-home "personal assistant" hiring scam in which the new employee receives a check and is told to use it to buy gift cards; a sweepstakes or prize notice in which the "winner" is sent a check but told to first wire back money to cover taxes, shipping, or processing fees; and a straightforward overpayment scheme in which a buyer or renter "accidentally" sends a check for more than the amount owed and asks for the difference to be refunded. The office warned that a counterfeit check can look completely real and even clear temporarily before a bank catches and reverses it, and urged residents never to use funds from an unexpected check before it has fully and finally cleared, never to wire money or buy gift cards to satisfy any obligation tied to a check they just received, and to be skeptical of any prize, job, or refund that requires spending money first. Suspected cases can be reported to the VIPD Economic Crimes Unit or the V.I. Division of Licensing and Consumer Affairs' consumer hotline.`,
+    categorySlug: 'fake-check-overpayment',
+    alertLevel: 'medium',
+    sources: ['United States Virgin Islands Department of Justice', 'Virgin Islands Attorney General Denise George'],
+    sourceUrl: 'https://usvidoj.com/v-i-attorney-general-denise-george-fraudulent-check-money-order-scams/',
+    country: 'US',
+    firstRecorded: '2020-08-25',
+    state: 'VI',
+    isHistorical: true,
+});
+
+UsTZ.push({
+    name: 'St. Thomas "Paramount Group" Halliburton-Affiliation Ponzi Scheme (Rey and McLean)',
+    slug: 'virgin-islands-paramount-group-rey-mclean-ponzi-scheme',
+    description: `Janice D. Rey, acting as CEO, and Devon McLean, as CFO, ran an investment fraud out of a St. Thomas storefront called Rey Financial between 2005 and 2009, soliciting roughly 50 investors for a Nevada-registered entity called Paramount Group by falsely claiming it was affiliated with Halliburton — even invoking then-Vice President Dick Cheney's past leadership of that company — and that investor money was going into secure "platform investments" overseas that would double in value in under a year. In reality the pair funneled the roughly $5.5 million raised through personal and business accounts, including through an art gallery in Decatur, Georgia (Junor Company) that McLean owned, rather than into any real investment. A federal jury convicted Rey in April 2013 of conspiracy, eight counts of wire fraud, 43 counts of money laundering, and four counts of territorial tax evasion; McLean pleaded guilty to wire fraud and cooperated with prosecutors. On July 12, 2013, District Court Chief Judge Curtis V. Gomez sentenced Rey to 125 months in federal prison plus a concurrent 60-month territorial sentence, and McLean to 70 months, ordering both to pay $3,006,260 in restitution to victims (Rey was separately ordered to pay $550,681.31 to the Virgin Islands Bureau of Internal Revenue) and entering a joint $5.5 million forfeiture money judgment. The case is a reminder that name-dropping a real, famous company or public figure — with no actual documented connection — to vouch for an investment's safety is a classic affinity-fraud tactic, and prospective investors should verify any claimed corporate affiliation directly with the company named, and check an investment adviser's registration through the SEC or FINRA, before wiring money based on a promised guaranteed return.`,
+    categorySlug: 'ponzi-pyramid-schemes',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office, District of the Virgin Islands", 'St. Thomas Source'],
+    sourceUrl: 'https://stthomassource.com/content/2013/07/12/rey-mclean-get-prison-terms-investment-scheme/',
+    country: 'US',
+    state: 'VI',
+    isHistorical: true,
+    firstRecorded: '2005-01-01',
+});
+
+UsTZ.push({
     name: 'Virgin Islands "Return This Call or Be Arrested" Robocall Scam',
     slug: 'virgin-islands-dlca-return-call-arrest-warrant-robocall',
     description: `In November 2020, the Virgin Islands Department of Licensing and Consumer Affairs (DLCA) warned residents about an automated robocall scam after its own Commissioner, Richard Evangelista, received one of the calls himself. The prerecorded message falsely claims the recipient faces pending legal action and that an arrest warrant will be issued unless they call back a specified number immediately — a manufactured urgency designed to get frightened residents to return the call before they have time to think it through or verify the claim independently. DLCA confirmed the calls are fraudulent impersonations of government or law-enforcement authority, stating plainly, "If you receive a similar call, it is likely a scam. Hang up or do not respond." The agency noted that no legitimate court, police department, or government office resolves an outstanding warrant or pending case by robocall, and that real legal notices arrive through formal channels, not a prerecorded voice threatening immediate arrest. Residents who receive such a call were directed to report it to the Virgin Islands Police Department's Economic Crime Bureau or to DLCA's consumer hotlines rather than calling the number left in the message.`,
