@@ -9241,6 +9241,9 @@ NotoriousAF.push({
     slug: 'mikheil-biniashvili-milton-group-pumats-scam-software',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'international'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Torre_del_Reloj%2C_Tirana%2C_Albania%2C_2014-04-17%2C_DD_08.JPG?width=1200',
+    coverImageCredit: 'Tirana, Albania, where Biniashvili’s call-center network of fake trading platforms was based. Photo: Diego Delso (CC BY-SA 3.0)',
+    coverImagePosition: 45,
     body: `Most people who lose money to a fake "investment platform" never learn the operation behind it was, in effect, a franchise. Mikheil Biniashvili, a dual Georgian-Israeli citizen, is one of the people who built the franchising system.
 
 Between January 2017 and May 2019, Biniashvili ran a call center based in Albania that, at its peak, employed as many as 600 people. Trained staff phoned people who had registered interest in online trading through ads and landing pages, worked to "build personal trust" over repeated calls, and talked them into depositing increasing sums into what were presented as live trading accounts. As the Bamberg Regional Court in Bavaria later put it, the money taken in "was never invested but simply pocketed" — an old-fashioned boiler-room operation dressed up as fintech. That call center alone is estimated to have taken around €8 million ($9.4 million) directly from victims, most of them German-speaking.
@@ -9473,6 +9476,9 @@ NotoriousAF.push({
     slug: 'david-murcia-guzman-dmg-colombia-ponzi-scheme',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'ponzi-scheme', 'international'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Panor%C3%A1mica_de_Usaquen%2C_Bogot%C3%A1_D.C.jpg?width=1200',
+    coverImageCredit: 'Colombia, where DMG sold prepaid cards loaded with investor funds across dozens of cities before its 2008 collapse. Photo: Alejandro Turola (public domain)',
+    coverImagePosition: 45,
     body: `D.M.G. Grupo Holding S.A. presented itself as a retail and advertising business rather than an investment company, a distinction that let it operate almost entirely outside Colombia's financial regulators for years. Customers bought prepaid debit cards from DMG, loaded with a minimum of roughly $700, and were told that if they held off spending for six months and recruited new members into the "DMG Family," they would earn "advertising rewards" or "points" — a semantic sleight of hand that let founder David Murcia Guzmán insist the payouts were publicity earnings rather than interest or investment returns, and route the company's regulatory filings to Colombia's Superintendence of Societies rather than its far stricter Financial Superintendence.
 
 The actual returns dwarfed anything a legitimate account could offer: DMG's "points" translated to gains of roughly 75 to 150 percent within a year, spreading almost entirely by word of mouth in a country where a large share of the population had no access to formal banking. At its peak DMG drew in an estimated 4 million investors in a nation of 45 million, moving approximately $4.8 billion through the scheme in 2008 alone and expanding into Ecuador, Venezuela, and Panama. Beneath the retail-store veneer, investigators later found the operation had also become a laundering vehicle for drug-trafficking proceeds, with associates including legal adviser Margarita Pabón Castro and public-relations head Daniel Ángel Rueda setting up hundreds of shell companies across Colombia and Panama specifically to obscure where the cash flowing through DMG's card network had actually come from.
@@ -9507,6 +9513,9 @@ NotoriousAF.push({
     slug: 'rishi-kamlesh-agarwal-abg-shipyard-bank-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'international'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Seattle_Construction_and_Dry_Dock_Company%2C_Steel_Dry_Dock%2C_ca._1910_-_DPLA_-_4287bd95fbb13ece8aa5626ce2f11e06_(page_1).jpg?width=1200',
+    coverImageCredit: 'A shipyard dry dock — ABG Shipyard built ships and offshore vessels before its $2.8 billion bank-consortium fraud collapse. Photo: public domain',
+    coverImagePosition: 50,
     body: `Rishi Kamlesh Agarwal founded ABG Shipyard in the 1980s and built it into one of India's largest private shipbuilders, borrowing heavily from a consortium of 28 banks and financial institutions to fund yards, contracts, and expansion. Between April 2012 and July 2017, according to India's Central Bureau of Investigation, Agarwal and senior executives diverted loan proceeds away from shipbuilding and into a web of nearly 100 related-party and shell entities — including 27 shell companies with money routed through 38 Singapore-based entities — while using fabricated contracts, misused letters of credit and bank guarantees, and falsified accounting entries to disguise the diversion, and even misappropriated a ₹75 crore Indian Navy advance meant for training vessels.
 
 The scheme was only exposed when an Ernst & Young forensic audit commissioned by the lenders in 2018-2019 traced the missing funds, after which banks began formally classifying the ₹22,842 crore (roughly $2.8 billion) in exposure as fraud between 2019 and 2020; ICICI Bank alone carried ₹7,089 crore of exposure, followed by IDBI Bank (₹3,639 crore) and State Bank of India (₹2,925 crore). The CBI registered a formal case in February 2022 — at the time described in Indian press as the largest bank fraud ever booked by the agency — searched 13 locations, arrested Agarwal in September 2022, and India's Enforcement Directorate provisionally attached roughly ₹2,747 crore in assets tied to the case; the CBI filed a chargesheet against 25 accused, including Agarwal, other directors, and the company's statutory auditor, in November 2022.
@@ -9535,6 +9544,9 @@ NotoriousAF.push({
     slug: 'james-black-abc-learning-centres-accounting-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'international'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Waterfront_Place%2C_Brisbane%2C_November_2019.jpg?width=1200',
+    coverImageCredit: 'Brisbane, where ABC Learning Centres was founded and grew into the world’s largest listed childcare operator. Photo: Chris Olszewski (CC BY-SA 4.0)',
+    coverImagePosition: 45,
     body: `James Black was chief financial officer of ABC Learning Centres, a Brisbane-founded childcare operator that grew, under CEO Eddy Groves, from a single Queensland centre in 1988 into the world's largest publicly listed early-childhood-education company, reaching a market capitalization of roughly A$2.5 billion and nearly 700 centres by the mid-2000s. In December 2006, ABC Learning acquired the second-largest U.S. childcare chain, La Petite Academy, for US$330 million, and the UK's Busy Bees Group for £71 million, deals prosecutors later said were the vehicle for the fraud.
 
 To justify routing a combined $46.5 million out of ABC Learning to a related entity called ABC Acquisitions, Black authorized two false "engagement letters" telling the company's auditor, Pitcher Partners, that ABC Acquisitions had sourced and negotiated the La Petite Academy and Busy Bees deals, work the division had never actually performed. ABC Learning collapsed into receivership in November 2008 owing more than $1.8 billion, then one of the largest corporate collapses in Australian history.
@@ -9550,6 +9562,9 @@ NotoriousAF.push({
     slug: 'steve-burns-lordstown-motors-endurance-preorder-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Lordstown_Assembly_front%2C_June_2024.jpg?width=1200',
+    coverImageCredit: 'The Lordstown, Ohio plant where Lordstown Motors planned to build the Endurance electric pickup. Photo: Mr. Matté, CC BY-SA 4.0, via Wikimedia Commons',
+    coverImagePosition: 45,
     body: `Steve Burns founded Lordstown Motors in 2018 to build the Endurance, an all-electric pickup truck, and took the company public in October 2020 through a merger with the SPAC DiamondPeak Holdings, one of the earliest and most closely watched deals of the EV-SPAC boom. To justify a valuation built on a vehicle that did not yet exist, Burns told investors, regulators, and the press that Lordstown already had more than 100,000 non-binding "pre-orders" for the Endurance, presenting it as proof of overwhelming commercial demand.
 
 In March 2021 the short-seller research firm Hindenburg Research published a report alleging the pre-order figure was essentially fictitious, noting that most of the "customers" were small firms with no fleet operations and no real intention or capacity to buy trucks; Lordstown's own later admissions and an SEC investigation confirmed the substance of that claim. Burns resigned as CEO and chairman in June 2021 as the stock collapsed; Lordstown limped on, burning cash and repeatedly missing its own production timelines while concealing supply-chain-driven delays from investors, until it filed for Chapter 11 bankruptcy in June 2023.
@@ -9565,6 +9580,9 @@ NotoriousAF.push({
     slug: 'david-p-bloom-wall-street-whiz-kid-repeat-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Lower_Manhattan_from_Governors_Island_August_2017_panorama.jpg?width=1200',
+    coverImageCredit: 'Wall Street — Bloom ran the same investment scheme from Manhattan across nearly four decades. Photo: King of Hearts (CC BY-SA 4.0)',
+    coverImagePosition: 45,
     body: `David Peter Bloom, a Manhattan-raised, Duke University-educated financier, is one of the few fraudsters in U.S. history convicted of essentially the same investment scam three separate times across nearly 40 years — in 1988, in 2000, and again with a sentencing in June 2026. Early press dubbed him the "Wall Street Whiz Kid" after his first scheme unraveled. In the mid-1980s, Bloom ran an unregistered investment firm, Greater Sutton Investors Group Inc., soliciting wealthy and high-profile clients, reportedly including the Sultan of Brunei, Bill Cosby, and members of the Rockefeller family, with promises to invest their money in securities, then diverted more than $10 million from over 140 clients to personal luxury spending, art, and real estate.
 
 After serving federal time, he re-offended around 2000, bilking Manhattan restaurant-industry workers out of tens of thousands of dollars with promises of stock-market gains and "IPO gifting" opportunities. After a second prison term and parole, he resurfaced in Los Angeles between 2021 and 2023, despite a lifetime SEC securities-industry ban, posing as an investment advisor and targeting vulnerable people, including a single mother going through a divorce, promising to grow their money and dangling fake pre-IPO investment opportunities; this scheme took nearly $250,000 from at least nine victims.
@@ -9580,6 +9598,9 @@ NotoriousAF.push({
     slug: 'sachin-dev-duggal-builder-ai-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'international', 'accounting-fraud', 'ai-fraud', 'startup-fraud'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Lower_Manhattan_skyline_Dec_2011.jpg?width=1200',
+    coverImageCredit: 'London, where Builder.ai was headquartered before its 2025 collapse. Photo: George Rex from London, England (CC BY-SA 2.0)',
+    coverImagePosition: 45,
     body: `Note: this profile describes an ongoing situation. Builder.ai's collapse and the "round-tripping" revenue scheme uncovered inside it have not resulted in criminal charges against founder Sachin Dev Duggal as of this writing, and a separate money-laundering case against him in India remains at the chargesheet stage, with no conviction. Duggal has denied wrongdoing in that matter.
 
 Sachin Dev Duggal founded the company in 2016 under the name Engineer.ai, rebranding it Builder.ai a few years later, and built it into one of the most closely watched "AI" startups in the world. The pitch was a genuinely appealing one: instead of hiring expensive developers, a customer could describe the app they wanted to an AI assistant named "Natasha," and Natasha's artificial intelligence would assemble it from reusable software components — no coding team required. Investors believed it. Microsoft, SoftBank's DeepCore, the Qatar Investment Authority, IFC, and Insight Partners poured in more than $450 million, valuing the company at roughly $1.5 billion and making Duggal, still in his thirties, the public face of AI-powered software development.
@@ -9599,6 +9620,9 @@ NotoriousAF.push({
     slug: 'antonio-camacho-gescartera-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'international', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Palacio_de_Comunicaciones%2C_Plaza_de_Cibeles%2C_Madrid%2C_Espa%C3%B1a%2C_2017-05-18%2C_DD_32-34_HDR.jpg?width=1200',
+    coverImageCredit: 'Madrid, where Gescartera Dinero was based and diverted client funds from Spanish charities and religious orders. Photo: Diego Delso (CC BY-SA 4.0)',
+    coverImagePosition: 45,
     body: `Antonio Camacho founded Gescartera Dinero in Madrid in 1992 as a licensed sociedad gestora de carteras — a portfolio-management firm authorized to invest client funds in the stock market on their behalf. Over the following nine years, Camacho built a client roster that ran unusually deep into Spain's charitable and religious institutions: dozens of Catholic religious orders and convents, the Burgos archbishopric, a Valladolid Christian schools foundation, the mutual fund for orphans of Spain's Civil Guard, and ONCE, the national organization for the blind, all entrusted Gescartera with money meant to fund pensions, schools, and charitable works. To regulators and depositors alike, a firm holding that kind of institutional, church-linked client base looked conservative and trustworthy almost by definition.
 
 Behind that reputation, Gescartera was not investing the bulk of client money in the market at all. Prosecutors later reconstructed a scheme built on same-day, round-trip stock trades: Gescartera would route a purchase and sale through a client's account and a controlled straw-man account on the same day, crediting the client with an apparent gain while quietly assigning the offsetting loss to the straw man — manufacturing paper returns that bore no relationship to what the firm actually did with the underlying cash. The real money was instead diverted into a web of fraudulently constituted companies that Camacho and his inner circle controlled, funding a lifestyle and a set of side ventures entirely disconnected from the modest, steady returns Gescartera reported to its trusting clients.

@@ -9341,6 +9341,9 @@ Cherry-picking cases like Kambolin's are a reminder that "did the fund actually 
     slug: 'francius-marganda-easy-transfer-global-transfer-ponzi',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'international'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Long_Island_City_New_York_May_2015_panorama_3.jpg?width=1200',
+    coverImageCredit: 'New York, where Marganda promoted Easy Transfer and Global Transfer within the Indonesian-American community. Photo: King of Hearts (CC BY-SA 3.0)',
+    coverImagePosition: 45,
     body: `Francius Marganda, an Indonesian national living in New York on an overstayed visa, spent two years — from May 2019 to May 2021 — running a Ponzi scheme built around two supposed short-term, high-interest loan programs he called Easy Transfer and Global Transfer. He marketed them heavily within the Indonesian-American community, presenting himself as a trustworthy fellow countryman and promising participants returns as high as 200 percent or more.
 
 There was no real lending business behind either program. Investigators identified 237 victims, ranging in age from 24 to 84, spread across at least 31 U.S. states, Washington D.C., Indonesia, and Malaysia, who together put in more than $24.5 million. Marganda paid earlier participants using money brought in by later ones, and diverted a substantial share of the total for himself, spending it on real estate and luxury goods, until the scheme collapsed in May 2021 when payments to investors stopped.
@@ -10294,6 +10297,9 @@ NotoriousGM.push({
     slug: 'joel-apolinario-kapa-community-ministry-ponzi-scheme',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'ponzi-scheme', 'international'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/PHI-106-Japanese_Government_(Philippines)-1_Peso_(1942).jpg?width=1200',
+    coverImageCredit: 'Philippine peso banknotes — Kapa’s roughly 5 million members were promised religiously-framed monthly returns. Photo: National Museum of American History (public domain)',
+    coverImagePosition: 50,
     body: `Joel Apolinario, a former radio DJ and technician from Bislig in the southern Philippines, founded what became Kapa-Community Ministry International in 2016, initially as a small convenience-store venture before rebranding in March 2017 around a religious identity that would prove central to its appeal. Kapa asked members for a minimum "donation" of 10,000 Philippine pesos, roughly $198, in exchange for what it called a "love gift" of 30 percent of that amount every single month, for life — an eye-popping, obviously unsustainable return that Kapa's religious framing helped disguise as a spiritual blessing rather than an investment product regulators would recognize instantly as fraud.
 
 The pitch worked at a scale few Ponzi schemes ever reach: the Philippine Securities and Exchange Commission estimated Kapa collected roughly 50 billion pesos, about $992 million, from an estimated five million members nationwide over about three years, with membership branches spread across the country and more than 10,000 members in Davao del Norte province alone. The SEC had flagged the operation as early as March 2017 with a public investment advisory, followed by a cease-and-desist order in February 2019 and revocation of Kapa's corporate registration that April, but the "love gift" payments kept flowing long enough to draw in millions more members before the scheme's cash finally ran out.
@@ -10311,6 +10317,9 @@ NotoriousGM.push({
     slug: 'john-lytle-bill-patterson-penn-square-continental-illinois-kickback',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'bank-fraud', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Skyline_de_Chicago_desde_el_centro%2C_Illinois%2C_Estados_Unidos%2C_2012-10-20%2C_DD_06.jpg?width=1200',
+    coverImageCredit: 'Chicago, home of Continental Illinois National Bank, which needed a $4.5 billion FDIC bailout after Penn Square’s collapse. Photo: Diego Delso (CC BY-SA 3.0)',
+    coverImagePosition: 45,
     body: `Penn Square Bank was a small, unglamorous institution tucked into the back of an Oklahoma City shopping mall, but during the late-1970s oil boom it became one of the most aggressive energy lenders in the country, its assets ballooning more than fifteen-fold to $525 million between 1974 and 1982. Rather than hold the risk itself, Penn Square packaged huge volumes of the wildcat drilling loans it wrote and sold "participations" in them to larger banks around the country, effectively renting out its own recklessness to institutions that trusted its underwriting far more than they should have.
 
 The biggest buyer was Continental Illinois National Bank, then one of the largest banks in America, where oil-and-gas lending executive John Lytle authorized the purchase of nearly $1 billion in Penn Square loan participations, a figure that had grown from $250 million in December 1980 to more than $1.056 billion by the time Penn Square collapsed in June 1982. Congressional testimony later established that Lytle wasn't just an overly trusting banker: prosecutors showed he had accepted roughly $565,000 in unsecured, low-interest personal loans from Penn Square's own energy-lending chief, Bill Patterson, in 1981 and 1982, while continuing to wave through participation after participation in loans Penn Square's own examiners were already flagging as troubled.
@@ -10328,6 +10337,9 @@ NotoriousGM.push({
     slug: 'michael-thomson-london-capital-finance-mini-bond-ponzi-scheme',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'ponzi-scheme', 'international'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Lower_Manhattan_skyline_Dec_2011.jpg?width=1200',
+    coverImageCredit: 'London, where London Capital & Finance was based before its 2019 collapse. Photo: George Rex from London, England (CC BY-SA 2.0)',
+    coverImagePosition: 45,
     body: `London Capital & Finance sold what it called "mini-bonds," unregulated fixed-term investments promising returns of up to 8 percent, to roughly 11,600 retail investors between 2013 and 2018, raising more than £237 million before it collapsed into administration in January 2019. Chief executive Michael Thomson, also known as Andy Thomson, ran the company alongside a small group of associates, and marketed the bonds as a safe, steady way to earn far more than a savings account offered, without disclosing how thin and speculative the underlying investments actually were.
 
 There was little real business behind the promised returns. According to the High Court's later findings, LCF's model depended on continuing to raise fresh money from new bondholders to keep paying "returns" to earlier ones, the defining structure of a Ponzi scheme, while Thomson personally pushed to "take out as much money as possible" and acted with what the court called reckless indifference toward the bondholders whose money he was managing. He was found to have forged signatures and deceived the company's own auditors to keep the operation looking legitimate long after it had stopped being one.
@@ -10343,6 +10355,9 @@ NotoriousGM.push({
     slug: 'james-corr-cattles-accounting-scandal',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'international'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Verso_Pennsylvania._5_pounds_1775_urn-3_HBS.Baker.AC_1083669.jpeg?width=1200',
+    coverImageCredit: 'British pound banknotes — Welcome Financial Services extended door-to-door subprime loans across Britain. Photo: Hall, David (1714-1772) producer ; Sellers, William (1725-1804) producer ; Pennsylvania, associated name (public domain)',
+    coverImagePosition: 50,
     body: `Cattles plc was a FTSE 250-listed UK subprime lender that conducted most of its business door-to-door through a subsidiary called Welcome Financial Services, extending high-cost loans to borrowers who couldn't get credit elsewhere. James Corr, Cattles' finance director throughout the "Relevant Period" the UK's Financial Services Authority (FSA) later identified as August 2007 to February 2009, was responsible for the company's financial statements and for making sure its auditor, PricewaterhouseCoopers, had the full picture of how those numbers were built.
 
 It didn't. Cattles' 2007 Annual Report and an April 2008 rights issue prospectus that raised £200 million from investors both stated that around £2.1 billion of Welcome's roughly £3 billion loan book was "neither past due nor impaired," that a loan only counted as impaired once it was 120 days in contractual arrears, and that Cattles had made a pre-tax profit of £165.2 million for 2007. In reality, Welcome routinely used undisclosed "deferments" — extending a struggling borrower's repayment schedule, usually without even contacting them — to reset or pause the arrears clock, keeping troubled loans out of the impaired category entirely. Correctly applying the accounting standard Cattles claimed to be using would have shown a pre-tax loss of £96.5 million for 2007, a swing of £261.7 million from the profit the company actually reported to raise money from investors.
@@ -10373,6 +10388,9 @@ NotoriousGM.push({
     slug: 'konrad-kakolewski-getback-bond-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'international'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Warsaw_2023_039_Palace_Cathedral_Skyline.jpg?width=1200',
+    coverImageCredit: 'Warsaw, home of the stock exchange where GetBack completed its 2017 IPO. Photo: Scotch Mist (CC BY-SA 4.0)',
+    coverImagePosition: 45,
     body: `GetBack SA was a Polish debt-collection company — it bought distressed consumer debt portfolios and tried to recover them — founded in 2012 and taken over by private equity firm Abris Capital Partners in 2015. Under CEO Konrad Kąkolewski, the company grew rapidly and completed an IPO on the Warsaw Stock Exchange in July 2017, raising roughly 370 million złoty (about $100 million). To keep funding new debt purchases, GetBack issued a large and growing volume of corporate bonds, which were then aggressively distributed to ordinary Polish savers through the branch networks of two banks tied to businessman Leszek Czarnecki, Idea Bank and Getin Noble Bank. Bank staff reportedly told retail customers the bonds were "as safe as a savings deposit," even though bondholders carried real default risk that a bank deposit does not.
 
 Poland's Central Anti-Corruption Bureau alleges the fraud went well beyond aggressive sales: Kąkolewski is charged with misleading Poland's state development fund about the company's true financial condition, submitting unreliable loan documentation worth roughly 250 million złoty, and causing more than 15 million złoty in damage through sham consulting and marketing contracts that siphoned money out of the company, while GetBack's public disclosures about its bond issuances and financial condition were allegedly falsified. The scheme collapsed in April 2018 when GetBack missed bond payments; it filed for court-supervised restructuring in Wrocław on May 2, 2018. Poland's Supreme Audit Office later found that more than 9,000 individual bondholders, plus roughly 200 institutions, never recovered their money, with unrecovered losses estimated around 2.5-2.7 billion złoty.
@@ -10388,6 +10406,9 @@ NotoriousGM.push({
     slug: 'ma-xingtian-kangmei-pharmaceutical-accounting-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'international'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Shanghai_Stock_Exchange_Building_at_Pudong.JPG?width=1200',
+    coverImageCredit: 'The Shanghai Stock Exchange, where Kangmei Pharmaceutical was listed. Photo: 螺钉 (CC BY-SA 3.0)',
+    coverImagePosition: 45,
     body: `Ma Xingtian was the founder and chairman of Kangmei Pharmaceutical Co., Ltd., a traditional Chinese medicine manufacturer based in Puning, Guangdong, that grew into one of the largest listed pharmaceutical companies on the Shanghai Stock Exchange. Beginning as early as 2016, Kangmei — under Ma's direction — engaged in what China's securities regulator (CSRC) called "intentional and systematic" financial falsification, inflating revenues, interest income, operating profits, and cash reserves through fabricated documents, ultimately overstating its books by roughly 30 billion yuan (about $4.6 billion) between 2016 and 2018, including billions of dollars in cash on the balance sheet that simply did not exist.
 
 The scheme unraveled when the fraud became public in 2019, wiping out shareholder value and triggering a CSRC investigation and criminal prosecution. In November 2021, a Chinese court convicted Ma of manipulating the securities market, making illegal disclosures, and bribery, sentencing him to 12 years in prison; former vice chairman Xu Dongjin and roughly ten other executives were also jailed.
@@ -10403,6 +10424,9 @@ NotoriousGM.push({
     slug: 'hughes-kahn-prophecy-asset-management-collapse',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Lower_Manhattan_from_Governors_Island_August_2017_panorama.jpg?width=1200',
+    coverImageCredit: 'New York, where Prophecy Asset Management was based. Photo: King of Hearts (CC BY-SA 4.0)',
+    coverImagePosition: 45,
     body: `Prophecy Asset Management LP was a New York-based hedge-fund-of-funds run by co-founder John Hughes, its president and chief compliance officer, and CEO/CIO Jeffrey Spotts, who together raised more than $500 million from institutional and high-net-worth investors between 2014 and 2020 by marketing a "first-loss" multi-manager platform: capital, they claimed, was spread across dozens of independent sub-advisers trading liquid securities, each required to post cash collateral that would absorb any losses before investors' principal was touched. In reality, prosecutors say, as much as 80% of the fund's roughly $1 billion in leveraged capital was secretly funneled to a single trader, Brian Kahn, who was also, unbeknownst to most investors, building a separate business empire as chairman and CEO of Franchise Group Inc., owner of Vitamin Shoppe, American Freight, Pet Supplies Plus, and other retail chains.
 
 Kahn ran up catastrophic trading losses that vastly exceeded his collateral, and rather than disclose the shortfall, Hughes, Kahn, and, the SEC alleges, Spotts fabricated collateral documents, forged records, and staged sham transactions to fool the fund's outside auditor and administrator, letting the firm keep collecting more than $15 million in fees while the hole grew to over $350 million by March 2020, when Prophecy froze all investor redemptions and collapsed. Kahn separately used his access to Prophecy money to help finance his 2023 buyout of Franchise Group, a $2.8 billion deal underwritten in part by B. Riley Financial, which took a 31% equity stake and lent Kahn's fund $201 million; when Franchise Group filed for bankruptcy in November 2024, the fallout helped drive B. Riley's stock from roughly $90 in 2021 to under $4.
@@ -10418,6 +10442,9 @@ NotoriousGM.push({
     slug: 'johnson-lee-jjptr-forex-ponzi-scheme',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'ponzi-scheme', 'international', 'mlm-fraud'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Penang_Malaysia_The-George-Town-Dispensary-01.jpg?width=1200',
+    coverImageCredit: 'Penang, Malaysia, where Johnson Lee launched JJPTR. Photo: CEphoto, Uwe Aranas (CC BY-SA 3.0)',
+    coverImagePosition: 45,
     body: `Johnson Lee Chong Sen was a young businessman in Penang, Malaysia, who in May 2015 launched JJ Poor to Rich (JJPTR), a members-only investment club built around supposed foreign-exchange trading. For as little as US$50, members could join and were promised monthly returns of roughly 20 percent — about 240 percent a year — from currency trading that Lee claimed his team ran professionally. On top of the trading "profits," JJPTR paid commissions to members for recruiting new investors beneath them, layering a multi-level-marketing recruitment structure on top of a classic Ponzi mechanism. The pitch spread virally through word of mouth and messaging apps across Malaysia and into China, and JJPTR grew to claim roughly 400,000 members worldwide. It was never licensed to trade foreign currency and was never registered with Bank Negara Malaysia, the country's central bank, which added JJPTR to its public Financial Consumer Alert list warning that the scheme was neither licensed nor supervised — a warning that predated the collapse but did little to slow it.
 
 There was no real trading engine behind the returns. Like any Ponzi scheme, JJPTR paid "profits" to existing members using money collected from new investors and recruitment fees, creating the appearance of a thriving trading operation as long as fresh money kept coming in. On April 19, 2017, Lee told members that JJPTR's trading accounts had been hacked in a two-minute breach that wiped out roughly US$400 million (about RM1.75 billion), leaving barely US$12,000 in the account, and he blamed the intrusion on a rival supposedly jealous of JJPTR's success. Investigators found no evidence that any hack had occurred — and, more fundamentally, no evidence that JJPTR had ever conducted genuine forex trading in the first place. The "hacking" story was simply a cover for the fact that incoming money had already been spent on payouts and recruitment commissions rather than invested anywhere at all.
@@ -10435,6 +10462,9 @@ NotoriousGM.push({
     slug: 'ihor-kolomoisky-privatbank-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'international', 'bank-fraud', 'money-laundering', 'eastern-europe', 'oligarch'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Kyiv_skyline_(15688086793).jpg?width=1200',
+    coverImageCredit: 'Kyiv — PrivatBank became Ukraine’s largest bank by assets and depositors under Kolomoisky. Photo: Sergey Galyonkin from Raleigh, USA (CC BY-SA 2.0)',
+    coverImagePosition: 45,
     body: `Ihor Kolomoisky co-founded PrivatBank in 1992 and built it into Ukraine's largest bank by assets and depositors, serving millions of ordinary Ukrainians. He became one of the country's most powerful oligarchs, controlling a media empire (including the 1+1 television network that helped launch Volodymyr Zelensky's career) and briefly serving as governor of Dnipropetrovsk Oblast during the 2014-2015 war in the Donbas, where he helped finance volunteer militias. For most of that time, according to Ukrainian regulators, US and UK courts, he was also quietly emptying the bank he owned.
 
 The mechanism, later reconstructed by Ukraine's central bank, US Department of Justice filings, and London's High Court, was a related-party lending scheme run for the better part of a decade. The bulk of PrivatBank's corporate loan book was funneled to shell companies controlled by Kolomoisky's associates, many of which then used the borrowed money to buy loans or bonds issued by other shell companies in the same network — a circular, "round-tripped" structure that made worthless, unsecured lending look like ordinary bank business on paper. PrivatBank's branch in Cyprus served as the laundering conduit: the DOJ later described it as a "washing machine" that moved the misappropriated funds out of Ukraine and into real estate and operating businesses in the United States, purchased through Miami-based entities operating under variations of the name "Optima," including commercial properties in Ohio, Kentucky, and Texas.
@@ -10452,6 +10482,9 @@ NotoriousGM.push({
     slug: 'modern-tech-ifan-pincoin-vietnam-crypto-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'international'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/R%C3%ADo_Saig%C3%B3n%2C_Ciudad_Ho_Chi_Minh%2C_Vietnam%2C_2013-08-14%2C_DD_29.JPG?width=1200',
+    coverImageCredit: 'Ho Chi Minh City, where Modern Tech promoted the iFan and Pincoin tokens. Photo: Diego Delso (CC BY-SA 3.0)',
+    coverImagePosition: 45,
     body: `Modern Tech, a company operating out of Ho Chi Minh City, spent late 2017 and early 2018 presenting itself to Vietnamese investors as the local promotional partner for two cryptocurrency projects it said were run from abroad: iFan, marketed as a Singapore-based "social network" token for payments between celebrities and fans, and Pincoin, marketed as a Dubai-based rewards token. The pitch was built on the multi-level-marketing structures already familiar to Vietnamese consumers from years of MLM cosmetics and supplement schemes, spread through promotional seminars that reached even remote provinces and paid escalating commissions to anyone who recruited new buyers underneath them.
 
 Pincoin's marketing promised returns of up to 40 percent a month, and payouts to early participants in cash built the credibility needed to draw in a much larger second wave. As new cash deposits slowed, organizers switched course, telling investors their returns would now be paid in iFan tokens instead of money — a token investors were told would eventually be tradeable for real value on cryptocurrency exchanges. It never was. The token's price was never anchored to anything except organizers' own promises, and no functioning exchange listing capable of converting it into real currency ever materialized.

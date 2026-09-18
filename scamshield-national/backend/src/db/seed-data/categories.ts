@@ -46,4 +46,12 @@ export const SEED_CATEGORIES: SeedCategory[] = [
   { name: 'Student Loan & Education', slug: 'student-loan-education', description: 'Bogus loan forgiveness and repayment services, fake scholarships, and diploma mills.' },
   { name: 'Legal & Debt Collection', slug: 'legal-debt-collection', description: 'Fabricated lawsuits, fake process servers, and collectors pursuing debts that are not owed or not theirs.' },
   { name: 'Job & Task Scams', slug: 'job-task-scams', description: 'Gamified \'task\' work, reshipping roles, and mystery-shopping offers that extract deposits or launder goods.' },
+
+  // Added after a reader asked why the category count wasn't tracking
+  // content growth: these were 4 "your data was exposed" impersonation
+  // scams scattered across government-impersonation, healthcare-fraud,
+  // phishing, and identity-theft — a real, distinct pattern (a company's
+  // real or fabricated breach used as the pretext) with no shared home.
+  // See the reassignment in scams/international.ts.
+  { name: 'Data Breach Scams', slug: 'data-breach-scams', description: 'Scams that use a real or fabricated company data breach as the pretext to phish credentials, harvest personal information, or demand payment for fake "protection."' },
 ];
