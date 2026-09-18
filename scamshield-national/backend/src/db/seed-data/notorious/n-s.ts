@@ -6936,6 +6936,9 @@ NotoriousNS.push({
     slug: 'petr-smetka-h-system-housing-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'international', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Horom%C4%9B%C5%99ice%2C_Revolu%C4%8Dn%C3%AD%2C_nov%C3%A1_z%C3%A1stavba_(od_Skalky).jpg?width=1200',
+    coverImageCredit: 'New housing in Horoměřice, the village where H-System took deposits for homes it never built. Photo: cs:ŠJů (CC BY-SA 3.0)',
+    coverImagePosition: 50,
     body: `In the early 1990s, newly post-communist Czechs faced a housing market with almost no private financing options after decades of state-allocated apartments. Petr Smetka exploited that gap by launching H-System in 1993, a scheme that let ordinary families pay in advance to secure a "cheap and nice" house or apartment in one of four villages outside Prague — Horoměřice, Statenice, Lichoceves, and Velké Přílepy. Smetka's political connections to figures in both the ODS and ČSSD parties lent the venture an air of legitimacy that helped it attract clients despite having no track record as a builder.
 
 The scheme operated as a pyramid rather than a genuine construction business: money from new clients was used to partially satisfy the demands of earlier clients rather than being applied, project by project, to the specific homes those clients had paid for. As growth slowed and complaints mounted through the mid-1990s, Smetka allegedly extracted company assets before allowing H-System to collapse into bankruptcy around 1997, leaving dozens of half-finished houses scattered across the four villages — neither livable nor refundable.
@@ -6951,6 +6954,9 @@ NotoriousNS.push({
     slug: 'martin-pucher-commerzialbank-mattersburg-collapse',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'international'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Plague_column_in_Mattersburg_(2).jpg?width=1200',
+    coverImageCredit: 'Mattersburg, Austria, where a small regional bank hid fabricated loans and deposits for decades. Photo: Krzysztof Golik (CC BY-SA 4.0)',
+    coverImagePosition: 50,
     body: `Martin Pucher was the founder and long-time board chairman of Commerzialbank Mattersburg im Burgenland AG, a small regional Austrian bank that, for roughly three decades, was quietly running one of the largest banking frauds in the country's history. Together with board member Franziska Klikovits, Pucher fabricated the bank's books: auditors and regulators later found that the bank had invented fictitious interbank deposits of €40-65 million each at eight major Austrian banks using forged confirmation documents, and had fabricated roughly €180 million of a reported €350 million loan book, either using real customers' names without their knowledge or inventing borrowers outright.
 
 By Pucher's own later admission, the bank had effectively been insolvent since as early as 2000, yet continued reporting healthy profits and paying dividends for two more decades. The fraud unraveled on July 14, 2020 when Pucher confessed to auditors performing a routine review, prompting Austria's Financial Market Authority to shut the bank down overnight; it became the third-largest insolvency in Austrian economic history, with total damage estimated between €528 million and €812 million, and roughly 13,500 depositors affected, nearly 11,900 of whom were later compensated, with almost €465 million paid out under deposit insurance.
@@ -6966,6 +6972,9 @@ NotoriousNS.push({
     slug: 'daniel-schatt-joseph-podulka-cred-llc-crypto-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'cryptocurrency'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/San_Francisco_from_Pier_7_September_2013_panorama_edit.jpg?width=1200',
+    coverImageCredit: 'San Francisco, where Cred took customer crypto for lending it called low risk, and stayed quiet after the collateral was gone. Photo: King of Hearts (CC BY-SA 3.0)',
+    coverImagePosition: 45,
     body: `Daniel Schatt, a former PayPal and Google Wallet executive, co-founded Cred LLC, marketed as Cred Inc., in San Francisco in 2018 as a cryptocurrency lending platform, promising retail customers high yields on Bitcoin and other digital assets they deposited with the company; Joseph Podulka served as its chief financial officer. Behind the scenes, Cred generated those yields by funneling customer crypto into high-interest microloans to Chinese gamers through an undisclosed, opaque arrangement with a Chinese company founded by another Cred co-founder, a structure investors were never told about.
 
 When Bitcoin crashed in March 2020, a failed internal hedging strategy left Cred badly underwater, and Schatt and Podulka knew the Chinese lending partner could not repay the tens of millions of dollars it owed, yet Schatt publicly stated at a March 18, 2020 session that Cred was "operating normally," and the pair continued soliciting new customer deposits while concealing the company's deteriorating finances. Cred filed for bankruptcy in November 2020, and a separate blow came when the company's chief capital officer, James Alexander, was later accused of misappropriating roughly 255 BTC, about $2 million at the time, before he was terminated; he was indicted separately on wire fraud and money-laundering charges in 2024.

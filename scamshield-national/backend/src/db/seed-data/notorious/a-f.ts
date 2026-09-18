@@ -9473,6 +9473,9 @@ NotoriousAF.push({
     slug: 'david-murcia-guzman-dmg-colombia-ponzi-scheme',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'ponzi-scheme', 'international'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Panor%C3%A1mica_del_r%C3%ADo_Putumayo_en_Puerto_As%C3%ADs%2C_2009.jpg?width=1200',
+    coverImageCredit: 'The Putumayo river at Puerto Asís. DMG’s collapse emptied whole town economies across southern Colombia. Photo: Ernesto1006 (public domain)',
+    coverImagePosition: 50,
     body: `D.M.G. Grupo Holding S.A. presented itself as a retail and advertising business rather than an investment company, a distinction that let it operate almost entirely outside Colombia's financial regulators for years. Customers bought prepaid debit cards from DMG, loaded with a minimum of roughly $700, and were told that if they held off spending for six months and recruited new members into the "DMG Family," they would earn "advertising rewards" or "points" — a semantic sleight of hand that let founder David Murcia Guzmán insist the payouts were publicity earnings rather than interest or investment returns, and route the company's regulatory filings to Colombia's Superintendence of Societies rather than its far stricter Financial Superintendence.
 
 The actual returns dwarfed anything a legitimate account could offer: DMG's "points" translated to gains of roughly 75 to 150 percent within a year, spreading almost entirely by word of mouth in a country where a large share of the population had no access to formal banking. At its peak DMG drew in an estimated 4 million investors in a nation of 45 million, moving approximately $4.8 billion through the scheme in 2008 alone and expanding into Ecuador, Venezuela, and Panama. Beneath the retail-store veneer, investigators later found the operation had also become a laundering vehicle for drug-trafficking proceeds, with associates including legal adviser Margarita Pabón Castro and public-relations head Daniel Ángel Rueda setting up hundreds of shell companies across Colombia and Panama specifically to obscure where the cash flowing through DMG's card network had actually come from.
@@ -9507,6 +9510,9 @@ NotoriousAF.push({
     slug: 'rishi-kamlesh-agarwal-abg-shipyard-bank-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'international'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Beauty_of_Surat.jpg?width=1200',
+    coverImageCredit: 'Surat, Gujarat, where ABG Shipyard was headquartered and where 28 banks lent against its yards. Photo: Sharan Sharma the clicker (CC BY-SA 4.0)',
+    coverImagePosition: 50,
     body: `Rishi Kamlesh Agarwal founded ABG Shipyard in the 1980s and built it into one of India's largest private shipbuilders, borrowing heavily from a consortium of 28 banks and financial institutions to fund yards, contracts, and expansion. Between April 2012 and July 2017, according to India's Central Bureau of Investigation, Agarwal and senior executives diverted loan proceeds away from shipbuilding and into a web of nearly 100 related-party and shell entities — including 27 shell companies with money routed through 38 Singapore-based entities — while using fabricated contracts, misused letters of credit and bank guarantees, and falsified accounting entries to disguise the diversion, and even misappropriated a ₹75 crore Indian Navy advance meant for training vessels.
 
 The scheme was only exposed when an Ernst & Young forensic audit commissioned by the lenders in 2018-2019 traced the missing funds, after which banks began formally classifying the ₹22,842 crore (roughly $2.8 billion) in exposure as fraud between 2019 and 2020; ICICI Bank alone carried ₹7,089 crore of exposure, followed by IDBI Bank (₹3,639 crore) and State Bank of India (₹2,925 crore). The CBI registered a formal case in February 2022 — at the time described in Indian press as the largest bank fraud ever booked by the agency — searched 13 locations, arrested Agarwal in September 2022, and India's Enforcement Directorate provisionally attached roughly ₹2,747 crore in assets tied to the case; the CBI filed a chargesheet against 25 accused, including Agarwal, other directors, and the company's statutory auditor, in November 2022.
@@ -9520,6 +9526,9 @@ NotoriousAF.push({
     slug: 'cody-easterday-ghost-cattle-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Beef_cattle_in_a_feedlot_in_New_Mexico.jpg?width=1200',
+    coverImageCredit: 'Beef cattle in a feedlot. Easterday billed Tyson for feeding 265,000 head that were never there. Photo: Quintin Soloviev (public domain)',
+    coverImagePosition: 50,
     body: `Cody Easterday was a fourth-generation Washington State cattle rancher who ran Easterday Ranches Inc. and Easterday Farms, one of the largest cattle-feeding operations in the Pacific Northwest, under long-standing "custom feeding" agreements with Tyson Fresh Meats and a second agribusiness company. Under those contracts, Tyson and the other company advanced Easterday Ranches the cost of purchasing and feeding cattle on their behalf, which Easterday Ranches would repay, with interest and fees, once the animals were slaughtered and sold.
 
 Starting around 2016, after racking up roughly $200 million in undisclosed personal losses from speculative cattle-futures trading, Easterday began billing his corporate partners for the purchase and feeding costs of cattle that simply did not exist — "ghost cattle" — using the reimbursements to cover his trading losses rather than any real livestock. Over about four years he invoiced Tyson Fresh Meats for more than $233 million and the second company for over $11 million tied to roughly 265,000 head of nonexistent cattle.

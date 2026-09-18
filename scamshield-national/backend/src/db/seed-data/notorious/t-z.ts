@@ -3144,6 +3144,9 @@ NotoriousTZ.push({
     slug: 'zhongzhi-enterprise-group-collapse',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'ponzi-scheme', 'international'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Beijing_central_business_district_banner.jpg?width=1200',
+    coverImageCredit: 'Beijing, where Zhongzhi\'s trust products kept funding property developers long after the loans stopped performing. Photo: Codas (CC BY-SA 4.0)',
+    coverImagePosition: 45,
     body: `Zhongzhi Enterprise Group was founded in 1995 by Xie Zhikun and grew into one of China's largest shadow-banking conglomerates, its trust and wealth-management units — including Zhongrong International Trust — managing assets that approached 1 trillion yuan at their peak, much of it channeled into real-estate lending. Xie died of a heart attack in December 2021, and his nephews took over the group's key leadership posts, inheriting a business whose real financial health had been obscured for years behind the respectability of operating as a licensed trust company rather than an obviously informal Ponzi scheme.
 
 The structure functioned like one anyway. Zhongzhi's wealth-management products promised fixed, high yields to retail and institutional investors, ostensibly backed by a diversified pool of investments, but the underlying money was increasingly funneled into loans to distressed property developers and to Zhongzhi's own affiliates. As China's property downturn cut off developer repayments, the group could no longer generate enough real income to keep meeting redemptions, and like any capital pool that depends on new money to pay off old investors, the arithmetic only worked as long as inflows kept growing.

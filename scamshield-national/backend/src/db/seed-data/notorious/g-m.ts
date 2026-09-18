@@ -10277,6 +10277,9 @@ NotoriousGM.push({
     slug: 'joel-apolinario-kapa-community-ministry-ponzi-scheme',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'ponzi-scheme', 'international'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Tandag_City_Boulevard.jpg?width=1200',
+    coverImageCredit: 'Tandag, capital of Surigao del Sur, where KAPA registered as a ministry and took ‘love gifts’ promising 30% a month for life. Photo: JasmineGoforth (CC BY-SA 4.0)',
+    coverImagePosition: 50,
     body: `Joel Apolinario, a former radio DJ and technician from Bislig in the southern Philippines, founded what became Kapa-Community Ministry International in 2016, initially as a small convenience-store venture before rebranding in March 2017 around a religious identity that would prove central to its appeal. Kapa asked members for a minimum "donation" of 10,000 Philippine pesos, roughly $198, in exchange for what it called a "love gift" of 30 percent of that amount every single month, for life — an eye-popping, obviously unsustainable return that Kapa's religious framing helped disguise as a spiritual blessing rather than an investment product regulators would recognize instantly as fraud.
 
 The pitch worked at a scale few Ponzi schemes ever reach: the Philippine Securities and Exchange Commission estimated Kapa collected roughly 50 billion pesos, about $992 million, from an estimated five million members nationwide over about three years, with membership branches spread across the country and more than 10,000 members in Davao del Norte province alone. The SEC had flagged the operation as early as March 2017 with a public investment advisory, followed by a cease-and-desist order in February 2019 and revocation of Kapa's corporate registration that April, but the "love gift" payments kept flowing long enough to draw in millions more members before the scheme's cash finally ran out.
@@ -10294,6 +10297,9 @@ NotoriousGM.push({
     slug: 'john-lytle-bill-patterson-penn-square-continental-illinois-kickback',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'bank-fraud', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Oklahoma_City_downtown_skyline_May_2024.jpg?width=1200',
+    coverImageCredit: 'Oklahoma City, home of Penn Square Bank, whose oil loans and kickbacks nearly took down Continental Illinois. Photo: Kerwin Moore (CC BY-SA 4.0)',
+    coverImagePosition: 45,
     body: `Penn Square Bank was a small, unglamorous institution tucked into the back of an Oklahoma City shopping mall, but during the late-1970s oil boom it became one of the most aggressive energy lenders in the country, its assets ballooning more than fifteen-fold to $525 million between 1974 and 1982. Rather than hold the risk itself, Penn Square packaged huge volumes of the wildcat drilling loans it wrote and sold "participations" in them to larger banks around the country, effectively renting out its own recklessness to institutions that trusted its underwriting far more than they should have.
 
 The biggest buyer was Continental Illinois National Bank, then one of the largest banks in America, where oil-and-gas lending executive John Lytle authorized the purchase of nearly $1 billion in Penn Square loan participations, a figure that had grown from $250 million in December 1980 to more than $1.056 billion by the time Penn Square collapsed in June 1982. Congressional testimony later established that Lytle wasn't just an overly trusting banker: prosecutors showed he had accepted roughly $565,000 in unsecured, low-interest personal loans from Penn Square's own energy-lending chief, Bill Patterson, in 1981 and 1982, while continuing to wave through participation after participation in loans Penn Square's own examiners were already flagging as troubled.
@@ -10311,6 +10317,9 @@ NotoriousGM.push({
     slug: 'michael-thomson-london-capital-finance-mini-bond-ponzi-scheme',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'ponzi-scheme', 'international'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/City_of_London_financial_district.jpg?width=1200',
+    coverImageCredit: 'The City of London. LCF sold unregulated mini-bonds to savers while trading on its regulated status. Photo: Oleg Yunakov (CC BY-SA 4.0)',
+    coverImagePosition: 50,
     body: `London Capital & Finance sold what it called "mini-bonds," unregulated fixed-term investments promising returns of up to 8 percent, to roughly 11,600 retail investors between 2013 and 2018, raising more than £237 million before it collapsed into administration in January 2019. Chief executive Michael Thomson, also known as Andy Thomson, ran the company alongside a small group of associates, and marketed the bonds as a safe, steady way to earn far more than a savings account offered, without disclosing how thin and speculative the underlying investments actually were.
 
 There was little real business behind the promised returns. According to the High Court's later findings, LCF's model depended on continuing to raise fresh money from new bondholders to keep paying "returns" to earlier ones, the defining structure of a Ponzi scheme, while Thomson personally pushed to "take out as much money as possible" and acted with what the court called reckless indifference toward the bondholders whose money he was managing. He was found to have forged signatures and deceived the company's own auditors to keep the operation looking legitimate long after it had stopped being one.
@@ -10326,6 +10335,9 @@ NotoriousGM.push({
     slug: 'james-corr-cattles-accounting-scandal',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'international'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Commercial_Street%2C_Batley_(geograph_6342194).jpg?width=1200',
+    coverImageCredit: 'Commercial Street in Batley, West Yorkshire, where Cattles ran the subprime loan book whose bad debts were understated. Photo: habiloid (CC BY-SA 2.0)',
+    coverImagePosition: 50,
     body: `Cattles plc was a FTSE 250-listed UK subprime lender that conducted most of its business door-to-door through a subsidiary called Welcome Financial Services, extending high-cost loans to borrowers who couldn't get credit elsewhere. James Corr, Cattles' finance director throughout the "Relevant Period" the UK's Financial Services Authority (FSA) later identified as August 2007 to February 2009, was responsible for the company's financial statements and for making sure its auditor, PricewaterhouseCoopers, had the full picture of how those numbers were built.
 
 It didn't. Cattles' 2007 Annual Report and an April 2008 rights issue prospectus that raised £200 million from investors both stated that around £2.1 billion of Welcome's roughly £3 billion loan book was "neither past due nor impaired," that a loan only counted as impaired once it was 120 days in contractual arrears, and that Cattles had made a pre-tax profit of £165.2 million for 2007. In reality, Welcome routinely used undisclosed "deferments" — extending a struggling borrower's repayment schedule, usually without even contacting them — to reset or pause the arrears clock, keeping troubled loans out of the impaired category entirely. Correctly applying the accounting standard Cattles claimed to be using would have shown a pre-tax loss of £96.5 million for 2007, a swing of £261.7 million from the profit the company actually reported to raise money from investors.
@@ -10341,6 +10353,9 @@ NotoriousGM.push({
     slug: 'kazuhiko-asakawa-aij-pension-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'international'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Marunouchi_2010_(5279510601).jpg?width=1200',
+    coverImageCredit: 'The Tokyo financial district. AIJ reported fictitious gains to corporate pension funds whose money it had already lost. Photo: Jacob Ehnmark from Tokyo (CC BY 2.0)',
+    coverImagePosition: 45,
     body: `AIJ Investment Advisors was a small, little-known Tokyo asset manager founded in 2000 by Kazuhiko Asakawa, a former Nomura Securities salesman, who built a client roster of roughly 90 small and mid-sized corporate pension funds — the kind too small to run the kind of rigorous due diligence a major institutional investor could afford. That gap between the sophistication of AIJ's clients and the scrutiny they were actually capable of applying is exactly what let the fraud run for nearly a decade.
 
 Asakawa fabricated AIJ's assets under management and investment performance to keep pension money flowing in, while the firm's real derivatives trading — heavily concentrated in options — quietly lost around ¥109 billion (roughly $1.1 billion) of client money over the nine years to March 2011. When pension funds tried to redeem their investments, AIJ and an affiliated brokerage, ITM Securities, allegedly sold newly fabricated, overpriced investment-trust products to other clients and used the fresh incoming cash to pay off the ones trying to exit — the same rob-Peter-to-pay-Paul mechanic at the center of any Ponzi scheme, dressed up as ordinary asset management.
@@ -10356,6 +10371,9 @@ NotoriousGM.push({
     slug: 'konrad-kakolewski-getback-bond-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'international'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/City_tour%2C_Wroclaw_(P1180440).jpg?width=1200',
+    coverImageCredit: 'Wroclaw, headquarters of GetBack, whose bonds were sold to retail savers as a safe alternative to deposits. Photo: Matti Blume (CC BY-SA 4.0)',
+    coverImagePosition: 50,
     body: `GetBack SA was a Polish debt-collection company — it bought distressed consumer debt portfolios and tried to recover them — founded in 2012 and taken over by private equity firm Abris Capital Partners in 2015. Under CEO Konrad Kąkolewski, the company grew rapidly and completed an IPO on the Warsaw Stock Exchange in July 2017, raising roughly 370 million złoty (about $100 million). To keep funding new debt purchases, GetBack issued a large and growing volume of corporate bonds, which were then aggressively distributed to ordinary Polish savers through the branch networks of two banks tied to businessman Leszek Czarnecki, Idea Bank and Getin Noble Bank. Bank staff reportedly told retail customers the bonds were "as safe as a savings deposit," even though bondholders carried real default risk that a bank deposit does not.
 
 Poland's Central Anti-Corruption Bureau alleges the fraud went well beyond aggressive sales: Kąkolewski is charged with misleading Poland's state development fund about the company's true financial condition, submitting unreliable loan documentation worth roughly 250 million złoty, and causing more than 15 million złoty in damage through sham consulting and marketing contracts that siphoned money out of the company, while GetBack's public disclosures about its bond issuances and financial condition were allegedly falsified. The scheme collapsed in April 2018 when GetBack missed bond payments; it filed for court-supervised restructuring in Wrocław on May 2, 2018. Poland's Supreme Audit Office later found that more than 9,000 individual bondholders, plus roughly 200 institutions, never recovered their money, with unrecovered losses estimated around 2.5-2.7 billion złoty.
@@ -10371,6 +10389,9 @@ NotoriousGM.push({
     slug: 'ma-xingtian-kangmei-pharmaceutical-accounting-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'international'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Shanghai_Stock_Exchange_Building_at_Pudong.JPG?width=1200',
+    coverImageCredit: 'The Shanghai Stock Exchange, where Kangmei filed accounts overstating its cash by nearly 30 billion yuan. Photo: 螺钉 (CC BY-SA 3.0)',
+    coverImagePosition: 50,
     body: `Ma Xingtian was the founder and chairman of Kangmei Pharmaceutical Co., Ltd., a traditional Chinese medicine manufacturer based in Puning, Guangdong, that grew into one of the largest listed pharmaceutical companies on the Shanghai Stock Exchange. Beginning as early as 2016, Kangmei — under Ma's direction — engaged in what China's securities regulator (CSRC) called "intentional and systematic" financial falsification, inflating revenues, interest income, operating profits, and cash reserves through fabricated documents, ultimately overstating its books by roughly 30 billion yuan (about $4.6 billion) between 2016 and 2018, including billions of dollars in cash on the balance sheet that simply did not exist.
 
 The scheme unraveled when the fraud became public in 2019, wiping out shareholder value and triggering a CSRC investigation and criminal prosecution. In November 2021, a Chinese court convicted Ma of manipulating the securities market, making illegal disclosures, and bribery, sentencing him to 12 years in prison; former vice chairman Xu Dongjin and roughly ten other executives were also jailed.
