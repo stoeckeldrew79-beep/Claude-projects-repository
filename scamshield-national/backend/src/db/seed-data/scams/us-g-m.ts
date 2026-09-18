@@ -7324,6 +7324,45 @@ UsGM.push({
 });
 
 UsGM.push({
+    name: 'Idaho AI Voice-Cloning Fraud Fuels Record Senior Losses',
+    slug: 'idaho-ai-voice-cloning-senior-fraud-surge',
+    description: `According to a report released by the Idaho Department of Finance and covered by Boise State Public Radio on August 21, 2026, Idahoans lost $88 million to fraud in 2025, and losses reported by seniors alone jumped from $18.7 million in 2024 to $37.4 million in 2025, a 100% increase, even though seniors filed only 25% of complaints but accounted for 42% of dollars lost, an average of roughly $33,000 per victim. Celia Kinney, Consumer Affairs Program Coordinator for the Idaho Department of Finance, said scammers are increasingly using AI-generated voice cloning to impersonate a victim's loved one in distress, telling a reporter that scamming "is their full-time job and with AI, it just makes it that much more automated." Cryptocurrency schemes made up more than half of reported dollar losses statewide, often layered with the same AI-enhanced impersonation and investment-chat tactics used in "pig butchering" cases. Kinney reminded Idahoans that "no bank or government agency is going to ask you to move your money to keep it safe," and the department scheduled six community fraud-awareness sessions across Idaho cities for September 2026. If you receive a call or voice message from a "family member" in urgent trouble asking for money or crypto, hang up and call that person back directly on a known number before sending anything — do not trust caller ID or the voice alone.`,
+    categorySlug: 'ai-deepfake-scams',
+    alertLevel: 'high',
+    sources: ['Boise State Public Radio'],
+    sourceUrl: 'https://www.boisestatepublicradio.org/news/2026-08-21/artificial-intelligence-online-scams-impersonation-senior-victims',
+    country: 'US',
+    state: 'ID',
+    firstRecorded: '2026-08-21',
+});
+
+UsGM.push({
+    name: 'Idaho Humane Society "Missing Pet" Ransom and Fake Surgery Scam Wave',
+    slug: 'idaho-humane-society-missing-pet-ransom-scam',
+    description: `On February 5, 2026, the Idaho Humane Society (IHS) warned Treasure Valley residents of a new wave of scams targeting people who have lost pets, using at least three distinct schemes: text messages claiming a caller's dog was involved in a "bite incident" and demanding a retrieval fee, phone calls impersonating IHS or the Ada County Sheriff's Office claiming a found pet needs thousands of dollars in emergency surgery, and calls demanding a "processing fee" to release a found animal. Some scammers spoof IHS's real phone number so it appears legitimate on caller ID, then pressure grieving owners, who found their pet's photo on Craigslist or lost-and-found groups, to wire money or pay over the phone immediately. IHS stated plainly that "neither the Idaho Humane Society nor the Ada County Sheriff's Office will request payment over the phone" for lost pets or emergency care, and advised anyone who gets such a call to ask the caller for the pet's microchip number, hang up, and call IHS's verified lost-and-found line at (208) 475-0854 directly. If you're searching for a lost pet, never send money, gift cards, or wire transfers based on an unsolicited call or text — verify any "found pet" claim in person or through an organization's official published number.`,
+    categorySlug: 'pet-sales-scams',
+    alertLevel: 'medium',
+    sources: ['idahonews.com', 'Idaho Humane Society'],
+    sourceUrl: 'https://idahonews.com/news/local/idaho-humane-society-warns-of-new-scam-wave-targeting-people-with-missing-pets',
+    country: 'US',
+    state: 'ID',
+    firstRecorded: '2026-02-05',
+});
+
+UsGM.push({
+    name: "Pocatello Insurance Agent and Bellevue Property Owner's $200,000 Backdated Fire Insurance Fraud",
+    slug: 'idaho-pocatello-bellevue-backdated-fire-insurance-fraud',
+    description: `According to a press release from the Idaho Department of Insurance, a fire destroyed a shop on David Lenon's property in Bellevue, Idaho on November 28, 2022, burning three classic vehicles that had no active insurance because their premiums had lapsed. While the fire was still burning, Lenon called his nephew, Tanner Evans, a licensed insurance agent in Pocatello, and Evans issued a brand-new $200,000 policy covering all three vehicles, backdating its effective time to 9:59 a.m. that day, roughly six hours after the fire had already been reported. About a month later, Lenon filed a claim falsely stating the loss had occurred at 4:00 p.m. on November 29, 2022, some 36 hours after the fire actually started, to make it look like the policy had been in force before the loss. Evans pleaded guilty to insurance fraud on January 26, 2026 and was sentenced to a suspended 1-year fixed plus 1-year indeterminate term, 2 years of probation, 250 hours of community service, restitution, and revocation of his insurance license; Lenon pleaded guilty on February 9, 2026 and received a suspended 2-year fixed plus 1-year indeterminate term, 3 years of probation, a $15,000 fine, and restitution. Idaho Department of Insurance Director Dean L. Cameron said, "Fraud undermines trust in the insurance system, and it drives up premiums for honest Idahoans." The case is a reminder that backdating any insurance paperwork after a loss has already occurred is itself a felony, even when the underlying property damage was real — insurers and investigators routinely cross-check policy issuance timestamps against 911 dispatch and fire department call logs.`,
+    categorySlug: 'insurance-fraud',
+    alertLevel: 'medium',
+    sources: ['Idaho Department of Insurance'],
+    sourceUrl: 'https://doi.idaho.gov/pressrelease/idaho-cracks-down-on-insurance-fraud-two-idaho-men-sentenced-in-200k-scheme/',
+    country: 'US',
+    state: 'ID',
+    firstRecorded: '2026-01-26',
+});
+
+UsGM.push({
     name: 'Morehead, Kentucky Pole Barn Construction Fraud (William T. Hurst)',
     slug: 'kentucky-morehead-hurst-pole-barn-construction-fraud',
     description: `William T. Hurst, 45, of Morehead, Kentucky, advertised that he built pole barns and other outbuildings, collected a cash down payment from each customer, and then simply pocketed the money without ever starting the work. Between February 22 and March 23, 2021, Hurst ran the same routine against eight separate property owners spread across three states, taking a combined $25,032 from residents of Ona and Lesage in Cabell County and Charleston in Kanawha County, West Virginia, plus Coolville and Willow Wood, Ohio, and South Shore, Kentucky, and separately collecting $10,186 in down payments from two more victims in Putnam and Jackson counties, West Virginia — a total of $35,218 taken from all eight victims combined. In each case Hurst cashed or deposited the customers' checks at area banks and used the money for himself, never purchasing materials or beginning construction on any of the promised pole barns. He pleaded guilty to wire fraud in the U.S. District Court for the Southern District of West Virginia and was sentenced to eight months in federal prison followed by three years of supervised release, along with an order to repay the full $35,218 to his victims. The case illustrates a pattern common to outbuilding and pole-barn contractors who solicit work across a multi-state area near a state line: because a customer often has no easy way to check a contractor's track record or licensing status in a neighboring state, it pays to ask for and verify local references, confirm any required contractor license or bond with the state agency where the work will actually be performed, and avoid paying a full or large deposit before materials are on-site and work has actually begun.`,
