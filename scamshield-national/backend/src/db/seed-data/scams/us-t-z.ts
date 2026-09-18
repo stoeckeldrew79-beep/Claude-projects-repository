@@ -4163,6 +4163,45 @@ UsTZ.push({
 });
 
 UsTZ.push({
+    name: 'Puget Sound Energy Fake Disconnection Threat Scam',
+    slug: 'washington-puget-sound-energy-disconnection-threat-scam',
+    description: `Puget Sound Energy has repeatedly warned customers across its service territory — more than a million electric and natural gas accounts in King, Pierce, Snohomish, Kitsap, Thurston, and other western Washington counties — about a persistent phone scam in which callers spoof PSE's real caller ID and claim the customer's account is severely past due, threatening to cut off power or gas within the hour unless payment is made immediately through a prepaid debit card, gift card, or cash-transfer app. In a February 2024 alert issued after a fresh wave of reports, PSE stated plainly, "PSE never asks or requires customers with outstanding account balances to purchase a prepaid debit card or pay via cash apps to avoid immediate disconnection," and urged anyone who gets a suspicious call to hang up and check their account status directly through the MyPSE app, the utility's secure online payment portal, or its published customer service line — not any number the caller provides. PSE's current scam-alert page flags related variants as well, including callers who falsely claim a customer is owed a refund and ask for bank account numbers to "process" it, and scammers who show up in person at a customer's door offering to restore power for a fee, something PSE says its real employees would never do. Anyone contacted this way should treat a demand for immediate payment to avoid disconnection as a scam and independently verify their account status before sending any money.`,
+    categorySlug: 'utility-scams',
+    alertLevel: 'medium',
+    sources: ['KIRO 7 News Seattle', 'Puget Sound Energy'],
+    sourceUrl: 'https://www.kiro7.com/news/local/puget-sound-energy-warns-customer-utility-scams/Z5QQP3BBGBGQRHVP7SRC3YZWYI/',
+    country: 'US',
+    state: 'WA',
+    firstRecorded: '2024-02-17',
+});
+
+UsTZ.push({
+    name: 'King County District Court Fake QR Code Ticket Scam',
+    slug: 'washington-king-county-district-court-qr-code-ticket-scam',
+    description: `Beginning in March 2026, King County District Court and the King County Prosecuting Attorney's Office issued a joint warning after fraudulent hearing notices impersonating the court began circulating by text message and email across the Seattle area. The fake notices carry what looks like an official King County District Court seal and tell recipients they must appear in court the next day or resolve an unpaid vehicle toll, speeding ticket, or other violation immediately, embedding a QR code that victims are pressured to scan to "Pay Now" or risk having their driver's license cancelled. Officials identified several giveaways: the wording inside the court seal reads as garbled, nonsensical text, the fake notices frequently list both the judge and the court clerk under the identical fictitious name "John Smith," and none include the violation date, citing officer, or license-plate details a real citation would contain. As the King County Prosecuting Attorney's Office put it, "It is NOT a notice from King County District Court. It is a scam notice," urging recipients not to "click the QR code or send money." The court's own guidance, echoed by the King County Sheriff's Office, notes that it does not send tickets by text or email, that related scammers have called prospective jurors demanding cash or kiosk payment while threatening to "conference in the Sheriff," and that it accepts no QR-code payments at all. Anyone unsure whether a notice is real should independently look up their case on the court's online Case Access Resources page or call the court directly, rather than scanning any code or clicking any link in the message itself.`,
+    categorySlug: 'qr-code-scams',
+    alertLevel: 'high',
+    sources: ['King County District Court', "King County Prosecuting Attorney's Office"],
+    sourceUrl: 'https://kingcounty.gov/en/court/district-court/about-king-county/about-district-court/court-scams',
+    country: 'US',
+    state: 'WA',
+    firstRecorded: '2026-03-20',
+});
+
+UsTZ.push({
+    name: 'Better Business Bureau Washington Job Scam Surge',
+    slug: 'washington-bbb-job-scam-surge-2026',
+    description: `The Better Business Bureau serving Washington, Alaska, Oregon, and Western Montana reported in January 2026 that it had logged nearly 600 job-scam reports from the region over the prior year, with victims reporting combined losses topping $426,000 — including one Washington job seeker who lost $15,000 after being steered into a cryptocurrency "investment" as part of a fake onboarding process. The scams typically begin with a text message or email impersonating a recruiter or well-known company, dangling high pay, flexible remote hours, and unusually fast hiring decisions to lure active job seekers, recently laid-off workers, and students. After conducting a sham interview and "onboarding," scammers pursue several paths to the victim's money: charging upfront fees of $1,000 to $3,000 for supposed training or equipment, mailing a fraudulent overpayment check and asking the new "employee" to wire back the difference, or offering paid "money-making tasks" that require the victim to front funds first. Scammers often scrape a target's real employment history and photo from LinkedIn, or use data from prior breaches, to make the fake job posting and recruiter profile look credible. The BBB advises job seekers to independently research any company and recruiter through BBB.org, Google, and Glassdoor, stick to reputable, BBB-accredited job boards, and treat any job offer that requires paying money upfront, cashing a check and wiring back funds, or completing paid "tasks" before doing any real work as a scam.`,
+    categorySlug: 'employment-scams',
+    alertLevel: 'high',
+    sources: ['Better Business Bureau', 'KOMO News'],
+    sourceUrl: 'https://komonews.com/news/local/fake-job-scams-washington-state-better-business-bureau-employment-text-messages-recruiter-private-information-phishing-fraudulent-check-financial-loss',
+    country: 'US',
+    state: 'WA',
+    firstRecorded: '2026-01-16',
+});
+
+UsTZ.push({
     name: 'Provo Widow-Targeting Romance Scam Ring (Nelly Idowu)',
     slug: 'utah-provo-idowu-romance-scam-money-laundering',
     description: `From 2017 to 2019, Nelly Idowu, 39, of Provo, Utah, and three co-conspirators — Emmanuel Osaigbovo Adesotu, Nnamdi Joel Chukwu, and Julius Omene Fredrick — ran an online romance scheme that built fake dating profiles specifically to target widowed and divorced women over 65, cultivating what victims believed were real relationships before each "partner" developed a sudden, urgent financial need and asked for money. Idowu's role centered on money laundering: moving and disguising proceeds from a scheme that took more than $6 million from victims over its two-year run. A federal jury convicted Idowu of one count of money laundering conspiracy and two counts of money laundering, and she was sentenced to six years in federal prison followed by three years of supervised release; her co-defendants, who each pleaded guilty to money laundering conspiracy, received sentences ranging from one year (Chukwu) to 46 months (Fredrick), with Adesotu sentenced to three years. All four defendants were ordered to pay $6,444,787.16 in restitution jointly to their victims. The case illustrates why an online romantic interest's sudden request for money — however emotionally convincing the relationship has felt — should be treated as a red flag regardless of the reason given, and why older adults who are widowed or divorced, and often managing finances alone for the first time, should loop in an adult child or trusted friend before sending money to anyone they have only ever met online.`,
@@ -4667,6 +4706,45 @@ UsTZ.push({
     sourceUrl: 'https://www.aarp.org/states/vermont/new-guardrails-on-crypto-atm-fraud/',
     country: 'US',
     state: 'VT',
+});
+
+UsTZ.push({
+    name: 'New Hampshire Man Sentenced for Role as Bank-Courier "Money Mule" in Windsor Elder Fraud Scheme',
+    slug: 'vermont-melanson-windsor-elder-money-mule-fraud',
+    description: `Over nine days in May 2022, Nicholas Melanson, of Manchester, New Hampshire, drove from New Hampshire to Windsor, Vermont five separate times to pick up an elderly Vermont woman and chauffeur her to her banks, where he collected the checks and cash she withdrew — transactions federal prosecutors say totaled at least $392,000, though many were later stopped or reversed. According to the U.S. Attorney's Office for the District of Vermont, Melanson had never met the woman before the scheme began; he quickly noticed she was confused and appeared to be "starting to have Alzheimer's," yet continued the visits anyway, ultimately being paid $1,500 cash and a $3,000 "bonus" for his role, with hopes of collecting $10,000 a month to keep manipulating her finances. Melanson himself was not the mastermind — he was recruited into the scheme by a woman he had "met" online and believed shared his romantic interest, illustrating how organized elder-fraud rings use romance-scam grooming to turn one victim into the unwitting instrument of another's exploitation. On August 12, 2024, Chief U.S. District Judge Christina Reiss sentenced Melanson to six months' imprisonment and three years of supervised release, and ordered him to pay $1,500 in restitution, after he pleaded guilty to interstate transportation of a stolen check. Vermonters should be especially wary of any online romantic partner who asks them to pick up money, drive to a stranger's home, or collect checks or cash on their behalf — that request is a hallmark of being recruited as a money mule in a scheme victimizing someone else, often an isolated older adult.`,
+    categorySlug: 'romance-scams',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office, District of Vermont", 'Vermont Business Magazine'],
+    sourceUrl: 'https://www.justice.gov/usao-vt/pr/manchester-new-hampshire-man-sentenced-prison-elder-fraud-offense',
+    country: 'US',
+    state: 'VT',
+    firstRecorded: '2022-05-01',
+});
+
+UsTZ.push({
+    name: 'Bennington Tech-Support Scam Victim Recovers $1.03 Million in Secret Service Crypto Seizure',
+    slug: 'vermont-bennington-voss-tech-support-scam-recovery',
+    description: `Jeanette Voss, 71, of Bennington, Vermont, lost $950,000 — nearly her entire retirement savings — over several months in 2021 after a computer pop-up warned her (falsely) that her machine had been hacked, leading her into a "tech-support" scam in which callers convinced her to move her savings into cryptocurrency wallets through more than a dozen wire transfers. For roughly four and a half years afterward, Voss lived in extreme austerity — rationing gas, unplugging appliances to save on electricity, and relying on Social Security and food stamps. The case broke open when U.S. Secret Service agents traced roughly $648,000 of her stolen funds to a cryptocurrency wallet tied to an international scam network, seized the account, and sold the digital assets to compensate Voss and more than 20 other victims. On Christmas Eve, Voss discovered $1,033,000 — her recovered principal plus interest — deposited into her bank account. "Overnight, my whole life changed," she said. Her case, first documented in a Seven Days investigation into elder cyber-fraud, is one of the largest publicly confirmed restitution recoveries tied to a Vermont scam victim and shows that cryptocurrency-based tech-support scams, while devastating, are not always a dead end — victims should report losses immediately to the FBI's Internet Crime Complaint Center (ic3.gov) and the U.S. Secret Service, since fast reporting is what makes blockchain tracing and asset seizure possible.`,
+    categorySlug: 'tech-support-scams',
+    alertLevel: 'high',
+    sources: ['Vermont Public', 'Seven Days'],
+    sourceUrl: 'https://www.vermontpublic.org/local-news/2026-01-20/cyber-scam-victim-who-lost-nearly-1m-gets-her-money-back-and-then-some',
+    country: 'US',
+    state: 'VT',
+    firstRecorded: '2021-05-01',
+});
+
+UsTZ.push({
+    name: 'Queensbury Man Charged with Embezzling $400,000 from Manchester, Vermont Medical Practice',
+    slug: 'vermont-manchester-taconic-spine-embezzlement-wire-fraud',
+    description: `A federal grand jury in the District of Vermont indicted Van T. Jackson Jr., 38, of Queensbury, New York, on wire fraud and money-laundering charges after prosecutors say he defrauded Taconic Orthopaedics, P.C. (doing business as Taconic Spine) — a Manchester, Vermont pain-management practice owned by Dr. Robert W. Giering — out of more than $400,000. According to court records and reporting by the Bennington Banner, Jackson worked as a consultant and later as the practice's CEO, and allegedly diverted its funds — including a $68,000 wire transfer in March 2022 — into his own accounts, using part of the money to settle a separate, roughly $1 million embezzlement claim against him from a previous employer, Adirondack Rehabilitation Medicine in Warren County, New York. Jackson pleaded not guilty at his arraignment in U.S. District Court in Burlington on April 17, 2026, and was released on conditions restricting his travel to Vermont, New York, and Connecticut; he faces up to 20 years in prison if convicted. The case underscores a less-publicized scam pattern: trusted insiders — consultants, bookkeepers, or executives given financial control of a small business or medical practice — can quietly divert funds for years before detection, so Vermont business owners should insist on independent, regular audits of anyone with wire-transfer authority rather than relying on trust alone.`,
+    categorySlug: 'business-email-compromise',
+    alertLevel: 'medium',
+    sources: ["U.S. Attorney's Office, District of Vermont", 'Bennington Banner'],
+    sourceUrl: 'https://www.justice.gov/usao-vt/pr/new-york-man-charged-wire-fraud-and-money-laundering',
+    country: 'US',
+    state: 'VT',
+    firstRecorded: '2022-03-01',
 });
 
 UsTZ.push({
