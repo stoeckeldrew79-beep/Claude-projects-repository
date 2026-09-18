@@ -13851,6 +13851,42 @@ International.push(
     country: 'TD',
   },
 );
+
+International.push(
+  {
+    name: "Fake National Police Recruitment Scam Impersonating Chad's Security Ministry",
+    slug: 'chad-fake-police-recruitment-scam',
+    description: `Chad's Ministry of Public Security and Immigration issued a public warning on May 14, 2025 alerting citizens to fraudsters falsely claiming affiliation with the ministry and the National Police Corps to extort money from job seekers with promises of being hired onto the police force. In a communiqué signed by Minister Ali Ahmat Aghabache, the ministry stated that no recruitment drive into the National Police Corps was underway at the time and condemned the practices as "peu orthodoxes" (unorthodox), saying the fraudsters "abuse public confidence by wrongly claiming affiliation with the Ministry." Aghabache instructed the Director General of the National Police to pursue the perpetrators nationwide and said new channels would be set up so citizens could report suspicious recruitment offers directly to security services. The ministry urged residents to treat any police "recruitment" that asks for payment as fraudulent, since genuine government hiring never charges applicants a fee, and to report anyone claiming to arrange a police job for money to the nearest security post rather than paying.`,
+    categorySlug: 'employment-scams',
+    alertLevel: 'high',
+    sources: ['Alwihda Info', 'Chad Ministry of Public Security and Immigration'],
+    sourceUrl: 'https://www.alwihdainfo.com/Tchad-les-autorites-mettent-en-garde-contre-des-arnaques-au-recrutement-dans-la-Police-nationale_a141014.html',
+    country: 'TD',
+    firstRecorded: '2025-05-14',
+  },
+  {
+    name: "Prisoner Impersonates Chad's Justice Minister to Defraud a Herder",
+    slug: 'chad-prisoner-justice-minister-impersonation-scam',
+    description: `Chad's National Police announced on April 4, 2025 that they had unmasked and arrested a fraud scheme being run from inside Klessoum Prison in N'Djamena, in which a detainee identified as Abdelkerim Oumar Mahamat allegedly impersonated Chad's Minister of Justice to defraud a livestock herder. According to Alwihda Info, Mahamat used his false claim to ministerial status to promise the herder deceptive advantages tied to the supposed office, before police investigators identified the scheme and apprehended him even though he was already in detention at the time. The case drew attention to gaps in Chadian prison security that allow inmates to keep running fraud schemes against outside victims by phone, and prompted calls for tighter monitoring of communications inside correctional facilities. Consumer-protection advocates note that no legitimate government minister personally brokers favors or "advantages" over the phone in exchange for money, and anyone approached with such an offer should independently verify the caller's identity through the ministry's official offices before handing over money or documents.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Alwihda Info'],
+    sourceUrl: 'https://www.alwihdainfo.com/Tchad-Usurpation-et-escroquerie-un-detenu-orchestre-une-arnaque-depuis-sa-cellule_a139996.html',
+    country: 'TD',
+    firstRecorded: '2025-04-04',
+  },
+  {
+    name: 'QNET Pyramid Scheme Targeting Economically Vulnerable Chadians',
+    slug: 'chad-qnet-pyramid-scheme',
+    description: `Chad's National Financial Investigation Agency (ANIF) publicly warned citizens on August 1, 2019 about QNET, a multi-level marketing network the agency described as a company of American origin, saying it had been running a pyramid-style fraud scheme in the country for roughly four years. ANIF director Souleyman Abdelkérim Chérif said the network was an "international criminal organization" that, taking advantage of the economic crisis the country was going through, "succeeded in reaching many of our citizens, lured by quick and easy gains." ANIF said it issued the public alert after working with the Republic's prosecutor to investigate the network's activities in Chad. The scheme followed the pattern QNET has been accused of in numerous other countries: recruits pay to join and are told they can recoup their investment, plus profit, chiefly by recruiting further paying members beneath them, a structure that collapses once new recruitment slows, leaving most participants unable to recover their money. ANIF urged the public to be wary of any investment or business opportunity that pays existing members primarily for recruiting new members rather than for selling a genuine product or service, and to verify any such scheme with the agency before committing money.`,
+    categorySlug: 'ponzi-pyramid-schemes',
+    alertLevel: 'medium',
+    sources: ["Hommes d'Afrique", 'Chad National Financial Investigation Agency (ANIF)'],
+    sourceUrl: 'https://www.hommesdafrique.com/tchad-les-autorites-alertent-sur-une-vaste-escroquerie-pyramidale/',
+    country: 'TD',
+    firstRecorded: '2019-08-01',
+  },
+);
 International.push(
   {
     name: '"OpenAI Mali" Ponzi Scheme',
