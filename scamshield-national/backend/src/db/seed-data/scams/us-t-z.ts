@@ -510,6 +510,20 @@ export const UsTZ: SeedScam[] = [
     sourceUrl: 'https://cowboystatedaily.com/2026/02/18/senators-vow-crack-down-on-wyoming-based-llc-fraud/',
   },
 {
+    name: "Wyoming's 1977 LLC Act and the Anonymity It Still Grants Today",
+    slug: 'wyoming-1977-llc-act-origin',
+    description:
+      'Wyoming became the first state in the country to authorize the limited liability company on March 4, 1977, after Hamilton Brothers Oil Company — which had used similar hybrid liability structures abroad and wanted the same partnership-style tax treatment with corporate-style liability protection at home — was turned away twice by Alaska\'s legislature and brought the proposal to Wyoming instead, where it passed easily on its first attempt, in part because several oil companies were already headquartered there. The IRS did not formally recognize the LLC\'s favorable partnership tax treatment until 1988, and it took most other states into the 1990s to adopt LLC statutes of their own, but Wyoming\'s original law and the minimal-disclosure filing culture it established are still in place today. That same permissiveness — a registered agent\'s address standing in for a verified owner\'s identity — is exactly what this database\'s existing "Wyoming LLC Registered-Agent Identity Fraud" entry describes being exploited to register shell companies using real Wyoming residents\' home addresses without their consent, nearly fifty years after the law that made it possible.',
+    categorySlug: 'identity-theft',
+    country: 'US',
+    state: 'WY',
+    isHistorical: true,
+    firstRecorded: '1977-03-04',
+    alertLevel: 'medium',
+    sources: ['Wyoming LLC Attorney (historical account)', 'Susan Pace Hamill, "The Story of LLCs: Combining the Best Features of a Flawed Business Tax Structure," University of Alabama School of Law'],
+    sourceUrl: 'https://wyomingllcattorney.com/About/Invention-of-LLC-Wyoming-History',
+  },
+{
     name: 'Unlicensed Sportsbook and Online Gambling Scam',
     slug: 'unlicensed-sportsbook-online-gambling-scam',
     description:
@@ -3764,6 +3778,20 @@ UsTZ.push({
     sourceUrl: 'https://dehek.substack.com/p/wyomings-dao-llc-loophole-a-haven',
     country: 'US',
     state: 'WY',
+});
+
+UsTZ.push({
+    name: "Wyoming's 2021 DAO Supplement: the Law That Gave a Crypto Ponzi Its Legal Wrapper",
+    slug: 'wyoming-2021-dao-supplement-origin',
+    description: `Wyoming's Decentralized Autonomous Organization Supplement, Senate File 38, passed the legislature and took effect July 1, 2021, making Wyoming the first U.S. state to give DAOs — organizations governed by code and smart contracts rather than a traditional management structure — formal legal recognition as a type of limited liability company. The Wyoming Secretary of State's own guidance confirms a DAO LLC is subject to the exact same registered-agent requirements as any other Wyoming LLC, and the law was amended the following year, effective March 9, 2022, to refine those requirements further. That registered-agent framework, built to make Wyoming an attractive, low-friction jurisdiction for legitimate blockchain organizations, is precisely the mechanism this database's existing "Wyoming DAO LLC Reincorporation Loophole" entry describes being exploited: a Wyoming DAO LLC linked to the roughly $1.9-2 billion HyperVerse crypto Ponzi network was administratively dissolved for providing fraudulent information, then simply re-registered days later under the identical name and the identical registered agent, with the DAO Supplement's own light-touch design leaving no additional scrutiny to catch the reincorporation.`,
+    categorySlug: 'cryptocurrency-scams',
+    country: 'US',
+    state: 'WY',
+    isHistorical: true,
+    firstRecorded: '2021-07-01',
+    alertLevel: 'medium',
+    sources: ['Wyoming Secretary of State, Business Division — DAO FAQ', 'Wyoming Legislature, 2021 Senate File 38'],
+    sourceUrl: 'https://sos.wyo.gov/Business/Docs/DAOs_FAQs.pdf',
 });
 
 UsTZ.push({
