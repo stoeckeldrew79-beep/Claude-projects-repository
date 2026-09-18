@@ -8333,3 +8333,15 @@ UsNS.push({
     state: 'NC',
     firstRecorded: '2026-09-17',
 });
+
+UsNS.push({
+    name: "The \"Phantom Hacker\" Three-Phase Layered Imposter Scam",
+    slug: "phantom-hacker-three-phase-imposter-scam",
+    description:
+      "In this FBI-named scam, one criminal crew impersonates three trusted parties in sequence to drain a victim's life savings, and it disproportionately targets older adults. First a fake tech support agent, reached through a pop-up, call, text, or email, installs remote-access software, claims your computer is compromised, and has you open your financial accounts so the criminals can see exactly what you have. Next a caller posing as your bank's or brokerage's fraud department says a foreign hacker is in your account and the money must be wired, sent as cash, or converted to crypto into a \"safe\" account, often described as being at the Federal Reserve, while you keep the reason secret from family and bank tellers. If you hesitate, a third actor posing as a US government official sends official-looking letters or emails confirming the funds are protected. No real bank or government agency will ever ask you to move money to a protective account or tell you to hide a transfer, so hang up, contact your bank using the number on your card, and report it at ic3.gov.",
+    categorySlug: "tech-support-scams",
+    alertLevel: "critical",
+    sources: ["FBI IC3 public service announcement","FBI Denver Field Office","FBI El Paso Field Office","Inside the FBI podcast: The Phantom Hacker Scam"],
+    sourceUrl: "https://www.fbi.gov/contact-us/field-offices/denver/news/fbi-denver-warns-of-phantom-hacker-financial-scam",
+    country: "US",
+});

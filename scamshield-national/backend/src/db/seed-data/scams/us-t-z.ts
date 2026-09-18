@@ -4888,3 +4888,15 @@ UsTZ.push({
     country: 'US',
     firstRecorded: '2015-01-01',
 });
+
+UsTZ.push({
+    name: "Trusted Traveler Program Renewal Fee Scam (TSA PreCheck and Global Entry Look-Alike Sites)",
+    slug: "trusted-traveler-program-renewal-fee-scam",
+    description:
+      "Fraudsters send emails, texts, and paid search ads warning that your TSA PreCheck, Global Entry, or NEXUS membership is expiring and must be renewed immediately. The link goes to a site built to look official, often using words like \"tsa,\" \"precheck,\" or \"global-entry\" in the domain but without a .gov address. The site collects your full identity details, including date of birth, address, and passport or driver's license number, along with a card payment. Some sites are pure phishing operations that deliver nothing, while others are middlemen that charge a large \"application assistance\" fee on top of the real government fee. Enroll or renew only at tsa.gov/precheck or the DHS Trusted Traveler Programs portal at ttp.cbp.dhs.gov, and ignore any email demanding immediate payment through a link.",
+    categorySlug: "government-impersonation",
+    alertLevel: "medium",
+    sources: ["Office of the District Attorney, Sonoma County, California - Consumer Protection Division"],
+    sourceUrl: "https://da.sonomacounty.ca.gov/tsa-pre-check-scam-do-not-renew-or-sign-up-from-link-in-an-email",
+    country: "US",
+});
