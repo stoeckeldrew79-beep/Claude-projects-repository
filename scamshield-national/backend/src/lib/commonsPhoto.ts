@@ -184,6 +184,45 @@ export async function verifyFile(title: string, caption: string): Promise<Common
 }
 
 /**
+ * Titles and descriptions of things that are not photographs of a subject.
+ *
+ * `filetype:bitmap` keeps PDFs and SVGs out of the search, but a scanned map,
+ * flag or diagram saved as a JPEG still passes every other test here: it is a
+ * large, free, image/jpeg file. Full-text search then ranks these highly,
+ * because archival scans carry a lot of matching OCR text. That is how a
+ * search for a UK financial regulator returned a 19th-century map of the
+ * Punjab, and a search for a Colombian town returned its locator map: both
+ * verify fine and make the caption a lie.
+ *
+ * Only search results are screened. A `file:` pin is a deliberate choice, and
+ * some of those ARE documents on purpose - a published obituary for the
+ * bereavement guide, an 1864 reward notice for the lost-pet guide - so
+ * verifyFile() stays as it is.
+ */
+const NOT_A_PHOTOGRAPH = [
+  /\bmaps?\b/i,
+  /\bmapa\b/i,
+  /locator/i,
+  /\bflags?\b/i,
+  /\bbandera\b/i,
+  /coat of arms/i,
+  /\bescudo\b/i,
+  /\bcrest\b/i,
+  /\blogos?\b/i,
+  /\bdiagram/i,
+  /\bschematic/i,
+  /blueprint/i,
+  /floor ?plan/i,
+  /\bchart\b/i,
+  /\batlas\b/i,
+];
+
+function looksNonPhotographic(title: string, snippet: string): boolean {
+  const text = `${title} ${snippet}`.replace(/<[^>]*>/g, ' ');
+  return NOT_A_PHOTOGRAPH.some((re) => re.test(text));
+}
+
+/**
  * Searches Commons for a photo matching `query` and returns the first result
  * whose licence verifies as free. Returns null when nothing suitable exists,
  * which is a normal outcome and must leave the entry's coverImage unset.
@@ -205,6 +244,7 @@ export async function findPhoto(query: string, { caption }: SearchOptions): Prom
   }
 
   for (const hit of results) {
+    if (looksNonPhotographic(hit.title ?? '', hit.snippet ?? '')) continue;
     try {
       const photo = await verifyFile(hit.title, caption);
       if (photo) return photo;
