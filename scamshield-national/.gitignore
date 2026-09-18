@@ -10,3 +10,8 @@ state-ag-last-run.txt
 keep-running-log.txt
 backend-log.txt
 frontend-log.txt
+
+# Written by keep-running.ps1 on the machine running the site, never committed.
+docker-compose-log.txt
+backend/backend-run-log.txt
+frontend/frontend-run-log.txt

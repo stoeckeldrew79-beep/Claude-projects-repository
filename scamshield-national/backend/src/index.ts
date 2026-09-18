@@ -17,6 +17,7 @@ import statsRoutes from './routes/stats';
 import dailyNewsRoutes from './routes/dailyNews';
 import statesRoutes from './routes/states';
 import { publicApiLimiter } from './middleware/rateLimit';
+import { pool } from './db/connection';
 
 process.on('unhandledRejection', (reason) => {
   console.error('Unhandled rejection (should be unreachable — asyncHandler catches request-scoped errors):', reason);
@@ -38,7 +39,21 @@ if (process.env.NODE_ENV === 'production') {
   app.use(publicApiLimiter);
 }
 
-app.get('/health', (_req, res) => res.json({ status: 'ok' }));
+// The server can bind to its port successfully even when Postgres is
+// completely unreachable or the credentials are wrong — `pool` connects
+// lazily, so nothing here fails until the first real query does. That made
+// this endpoint a false "ok" during exactly the failure mode local-dev
+// automation (keep-running.ps1) most needs to catch: a backend process that
+// is technically running but cannot actually serve a single real request.
+// A live `SELECT 1` makes this endpoint tell the truth about both halves.
+app.get('/health', async (_req, res) => {
+  try {
+    await pool.query('SELECT 1');
+    res.json({ status: 'ok', database: 'connected' });
+  } catch (err) {
+    res.status(503).json({ status: 'degraded', database: 'unreachable', error: (err as Error).message });
+  }
+});
 
 const v1 = express.Router();
 v1.use('/scams', scamsRoutes);
