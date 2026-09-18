@@ -7921,6 +7921,45 @@ UsGM.push({
 });
 
 UsGM.push({
+    name: 'Westfield Gold Bar "FBI Agent" Tech-Support Scam (Kris Owen)',
+    slug: 'indiana-westfield-kris-owen-gold-bar-fbi-scam',
+    description: `In Westfield, Indiana, a widower named Kris Owen, grieving the death of his wife two years earlier, received a pop-up on his computer falsely claiming it had been hacked and providing a number to call. The number connected him to a scammer posing as an FBI agent, who followed up with a fraudulent "cybersecurity task force" letter claiming Owen's name was tied to a cocaine case in San Antonio, Texas. Over months of calls and texts, the scammer convinced Owen his money needed "protecting" through a fake FBI program, ultimately directing him to withdraw roughly $80,000, reported as $74,755 plus a $5,000 check, convert it to gold bars, photograph them, and hand them to a courier in a parking lot. After Owen contacted the real FBI and realized he'd been defrauded, the FBI and Carmel, Indiana police ran a sting during a second attempted drop-off and arrested 31-year-old Abdul Afan Mohammed of the Chicago area; the U.S. Attorney's Office for the Southern District of Indiana charged him with conspiracy to commit wire fraud and two counts of wire fraud, but Mohammed fled the country and remains a fugitive. The FBI says this "gold bar courier" scam pattern defrauded Americans of over $126 million in 2024 nationwide. Never call a phone number that appears in a computer pop-up claiming your device is hacked; the FBI and other federal agencies never ask you to withdraw cash, buy gold or other precious metals, or hand valuables to a courier to "protect" your money — hang up and verify independently through an agency's official website, and loop in a trusted family member before acting.`,
+    categorySlug: 'tech-support-scams',
+    alertLevel: 'high',
+    sources: ['ABC7 Chicago'],
+    sourceUrl: 'https://abc7chicago.com/post/widower-kris-owen-loses-80k-gold-bar-scam-suspect-abdul-afan-mohammed-flees-country-fbi-sets-sting-operation/15952757/',
+    country: 'US',
+    state: 'IN',
+    firstRecorded: '2025-01-01',
+});
+
+UsGM.push({
+    name: 'Indianapolis Lost-Pet Ransom Scam',
+    slug: 'indiana-indianapolis-lost-pet-ransom-scam',
+    description: `Scammers in Indianapolis are calling owners of missing pets, falsely claiming to represent a local animal shelter or humane society that has "found" the animal, and demanding cash payment before they will return it. IndyHumane says it first began noticing the pattern roughly a year before an October 31, 2025 report and has fielded a growing number of complaints from confused, distressed pet owners. IndyHumane CEO Donna Casamento stated plainly, "Anybody trying to ask you for money to reunite you with your pet is not a good person," and added, "If they're asking for any money up front, that should be a telltale sign that something is wrong." IMPD Public Information Officer Tommy Thompson recommended that anyone who gets such a call ask for a current photo of the animal and independently verify the caller's claimed agency before sending anything. Never send money to someone claiming to have found your lost pet without independently calling the shelter or rescue back at a verified phone number, ask for recent proof-of-possession photos, have your pet microchipped so legitimate finders can confirm ownership, and report suspicious calls to IMPD.`,
+    categorySlug: 'pet-sales-scams',
+    alertLevel: 'medium',
+    sources: ['WRTV'],
+    sourceUrl: 'https://www.wrtv.com/news/local-news/in-your-community/north-side-indy/lost-pet-beware-of-scammers-demanding-cash-for-their-safe-return',
+    country: 'US',
+    state: 'IN',
+    firstRecorded: '2025-10-31',
+});
+
+UsGM.push({
+    name: 'Indiana Jail-Impersonation "Ankle Monitor Fee" Scam',
+    slug: 'indiana-jail-impersonation-ankle-monitor-fee-scam',
+    description: `Scammers are targeting Indiana families who actually have a loved one in jail by pulling real inmate names off publicly available county jail rosters, then searching the internet to find and call family members. Posing as jail clerks, bail bondsmen, pretrial services, or court officials, they claim the incarcerated relative needs immediate payment for an ankle monitor, bond, or "class fees," and demand it via Cash App, gift cards, wire transfer, or other payment apps; in one Hamilton County case, victim Steven Woodson lost $1,100 after being told to pay for an ankle bracelet through a Cash App account labeled "Pretrial Service Inc." and was then asked for an additional bond payment. Marion County has logged multiple similar cases with losses exceeding $1,000 each. Marion County Sheriff Kerry Forestal directly rebutted the scam, stating about jail calls demanding payment, "No, and we certainly don't ask for money to do that," and confirmed ankle monitors are arranged through probation, never by phone. Hang up and call the jail or court back using an official, independently verified phone number; never send money via Cash App, gift cards, or wire transfer for a bond, monitor, or "fee"; don't trust caller ID, since it can be spoofed; and slow down to consult a trusted second person before paying anything under pressure.`,
+    categorySlug: 'family-emergency-scams',
+    alertLevel: 'high',
+    sources: ['WISH-TV'],
+    sourceUrl: 'https://www.wishtv.com/news/i-team/jail-impersonation-scam-warning/',
+    country: 'US',
+    state: 'IN',
+    firstRecorded: '2025-01-01',
+});
+
+UsGM.push({
     name: 'Glenpool Wolf Capital Crypto Trading Ponzi Scheme (Travis Ford)',
     slug: 'oklahoma-glenpool-wolf-capital-crypto-trading-ponzi-scheme',
     description: `Travis Ford, 36, of Glenpool, Oklahoma, was the CEO, co-founder, and head trader of Wolf Capital Crypto Trading LLC, which he marketed through the company's website and social media from January to August 2023. Ford told roughly 2,800 investors nationwide that his "sophisticated" trading strategy could reliably generate returns of 1 to 2 percent per day — an annualized rate of about 547 percent — and used those claims to raise approximately $9.4 million. In his guilty plea, Ford admitted he did not actually believe those returns were achievable and instead misappropriated and diverted investor funds for his own benefit and that of his co-conspirators, the classic pattern of a Ponzi-style crypto trading scheme rather than a genuine trading operation. He pleaded guilty in January 2025 to one count of conspiracy to commit wire fraud, and on November 14, 2025, was sentenced to 60 months in federal prison. He was also ordered to forfeit more than $1 million and pay over $170,000 in restitution to victims. The case was prosecuted by the Justice Department's Fraud Section and investigated by the U.S. Postal Inspection Service's Criminal Investigations Group. A guaranteed daily return that annualizes to several hundred percent is not a sign of a skilled trader — it is a mathematical impossibility no legitimate trading strategy can sustain, and it is exactly the kind of claim that should end due diligence rather than start a wire transfer.`,
