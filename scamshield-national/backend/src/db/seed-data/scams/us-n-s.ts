@@ -8229,3 +8229,81 @@ UsNS.push({
     state: 'SC',
     firstRecorded: '2026-03-02',
 });
+
+UsNS.push({
+    name: 'Bayonne "Grandson in Jail" Grandparent Scam (Jhon Arias Gil)',
+    slug: 'new-jersey-bayonne-jhon-arias-gil-grandparent-scam',
+    description: `Bayonne Police responded to a resident's home on May 5, 2026 after an elderly woman reported she had just been defrauded by a caller who falsely claimed her grandson had been in a car accident and was being held in jail. A second person on the call, posing as the grandson himself, pressed her for bail money; believing the story, she withdrew a large sum of cash from her bank and, following the caller's instructions, handed it over to an individual who arrived at her residence. Detectives determined that person was an Uber driver who had unknowingly been hired as a courier in the scheme, and within hours traced the scam back to 24-year-old Jhon Arias Gil of Paterson, who was taken into custody the same day with the assistance of the Paterson Police Department. Arias Gil was charged with theft by deception, wrongful impersonation, and conspiracy. Bayonne Police urged residents to verify the legitimacy of any such call by contacting family members directly before sending money, since a real emergency call from a grandchild's attorney, bail bondsman, or the grandchild "in trouble" can always be checked by hanging up and calling that grandchild or another relative on a known phone number.`,
+    categorySlug: 'grandparent-scams',
+    alertLevel: 'high',
+    sources: ['Bayonne Police Department', 'Hudson County View'],
+    sourceUrl: 'https://hudsoncountyview.com/police-paterson-man-24-arrested-for-using-grandparent-scam-on-bayonne-woman/',
+    country: 'US',
+    state: 'NJ',
+    firstRecorded: '2026-05-05',
+});
+
+UsNS.push({
+    name: 'Middlesex County Prosecutor Employment Scam Alert',
+    slug: 'new-jersey-middlesex-county-employment-scam-alert',
+    description: `The Middlesex County Prosecutor's Office issued a fraud alert on August 18, 2026 warning residents that scammers are increasingly targeting job seekers as layoffs mount, citing more than 1.17 million U.S. workers laid off in 2025 as the backdrop fueling the scheme. According to the alert, fraudsters post fake job advertisements on social media, online marketplaces, and legitimate job-search sites — even reputable platforms like LinkedIn and Indeed are not immune — while impersonating real companies and staffing agencies, in one documented example falsely claiming to represent Walmart, and directing applicants to counterfeit websites built to look authentic. Warning signs the office flagged include unusually high pay offered for minimal work, a job offer extended without any interview, and any request for an application or interview fee. Once a target is hooked, scammers press for banking information, a Social Security number, or a copy of a government-issued ID before any legitimate employer would ever need it. The Prosecutor's Office advised job seekers to independently verify a company and its recruiter using official contact information found on the employer's own website, never a number or link supplied in the job posting itself, and to cut off contact, preserve all messages, and report the attempt to local police, the FTC at ReportFraud.ftc.gov, or the FBI's Internet Crime Complaint Center at ic3.gov if targeted.`,
+    categorySlug: 'employment-scams',
+    alertLevel: 'medium',
+    sources: ["Middlesex County Prosecutor's Office", 'Patch', 'News 12 New Jersey'],
+    sourceUrl: 'https://patch.com/new-jersey/edison-metuchen/job-seekers-targeted-scammers-middlesex-county-officials-warn',
+    country: 'US',
+    state: 'NJ',
+    firstRecorded: '2026-08-18',
+});
+
+UsNS.push({
+    name: 'New Jersey Fake "Unpaid Parking Ticket" QR Code Text Scam',
+    slug: 'new-jersey-fake-parking-ticket-qr-code-text-scam',
+    description: `Municipal officials and police departments across New Jersey — including Newark, Jersey City, Fair Lawn, Carlstadt, Roselle, Plainsboro, and Barnegat — warned residents in March 2026 about a wave of fraudulent text messages designed to look like an official municipal-court hearing notice for an unpaid parking violation. The texts carry a New Jersey state seal, cite real parking statutes to appear credible, are signed by a fictional "Judge John Smith," and include a QR code that recipients are told to scan to pay the supposed fine before a court date. Newark Interim Municipal Court Administrator Shaka Lemoniaus confirmed the messages "are not from the New Jersey Motor Vehicle Commission or the Newark Municipal Court and are fraudulent," warning residents plainly, "Do not scan the QR code, make a payment or enter your personal information." Lemoniaus added that "Newark and other municipal courts in New Jersey send official notices by U.S. Mail only and do not text or use email," making any texted court notice an automatic red flag regardless of how official the seal or case number looks. Residents who receive one of these texts are advised not to scan the QR code or click any link, and to call their municipal court directly using a number looked up independently — Newark's Municipal Court can be reached at 973-733-6520 — rather than any number or code included in the message itself.`,
+    categorySlug: 'qr-code-scams',
+    alertLevel: 'medium',
+    sources: ['Newark Municipal Court', 'NJ.com', 'ABC7 New York (WABC)'],
+    sourceUrl: 'https://www.yahoo.com/news/articles/don-t-fall-latest-fake-185957207.html',
+    country: 'US',
+    state: 'NJ',
+    firstRecorded: '2026-03-22',
+});
+
+UsNS.push({
+    name: 'North Dakota Insurance Department Unfair Medicare Marketing Practices Warning',
+    slug: 'north-dakota-unfair-medicare-marketing-practices-warning',
+    description: `The North Dakota Insurance Department warned on November 7, 2025 that seniors statewide could be harmed by insurers and agents manipulating the Medicare marketplace, issuing Bulletin 2025-2 to every insurance company and licensed producer selling Medicare Advantage, Medicare Supplement, Cost Plan, and Prescription Drug Plan coverage in the state. The bulletin flags a specific set of tactics regulators say some companies have used elsewhere to steer seniors away from full, unbiased options: quietly removing certain plans' enrollment applications from a carrier's own website, discouraging producers from selling specific plans, and altering or cutting off a producer's commission structure mid-year so agents are financially pushed toward pitching only the products that still pay out. Commissioner Jon Godfread said "North Dakota's seniors deserve clear, honest, and accessible information when choosing Medicare coverage," adding that "fair markets depend on fair play. Artificially limiting options or changing compensation after filings have been approved harms consumers." The Department said it will monitor compliance and pursue enforcement against any insurer or producer found manipulating the Medicare market to the detriment of consumers. Seniors who feel steered toward a plan that doesn't fit their needs, or who suspect an agent is limiting their options, are urged to call the free North Dakota State Health Insurance Counseling Program (NDSHIP) at 1-888-575-6611 for independent, unbiased Medicare guidance before enrolling in or switching any plan.`,
+    categorySlug: 'medicare-health-plans',
+    alertLevel: 'medium',
+    sources: ['North Dakota Insurance Department', 'Minot Daily News'],
+    sourceUrl: 'https://www.insurance.nd.gov/news/north-dakota-seniors-could-feel-impact-unfair-medicare-sales-practices-department-warns',
+    country: 'US',
+    state: 'ND',
+    firstRecorded: '2025-11-07',
+});
+
+UsNS.push({
+    name: 'North Dakota Securities Department "Investment Education Foundation" Crypto Scam Warning',
+    slug: 'north-dakota-investment-education-foundation-crypto-scam-warning',
+    description: `The North Dakota Securities Department issued a public warning on March 13, 2025 about a fast-spreading scam built around fake "investment education foundations" that use cryptocurrency and AI chatbots to drain victims' savings. According to the alert, the scheme typically starts with a social media ad that funnels a prospective investor into a WhatsApp group run by a supposed "founder" and AI bots, who spend time teaching basic investing concepts before introducing a fraudulent cryptocurrency exchange. New members are offered a "free" token trial that shows fake profits to build confidence, and once they deposit real money, scammers posing as lenders on Telegram offer to cover any shortfall with a "loan" paid directly into the exchange — money the victim is then told they must repay, along with invented commissions or regulatory fees, before any of the supposed profit can be withdrawn; accounts are ultimately frozen under a fabricated pretext and the operation closes and reopens later under a new name. Commissioner Tim Karsky said "the rise of fake 'investment education foundations' is a concerning trend that preys on investors' desire to reduce the risk of investing in cryptocurrency," warning that scammers lend the scheme false credibility with falsified U.S. Treasury and SEC registration documents and fabricated news articles. "Do not assume an education foundation is trustworthy just because it is promoted on social media," Karsky said. North Dakota investors approached this way are urged to independently verify any "education foundation" or cryptocurrency exchange's registration through the North Dakota Securities Department (www.securities.nd.gov) before depositing a single dollar, and to treat an unsolicited investment pitch that arrives through a social media ad as a red flag on its own.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'medium',
+    sources: ['North Dakota Securities Department', 'InForum (Forum Communications)', 'Minot Daily News'],
+    sourceUrl: 'https://www.inforum.com/news/north-dakota/north-dakota-securities-department-warns-public-of-elaborate-new-cryptocurrency-scam',
+    country: 'US',
+    state: 'ND',
+    firstRecorded: '2025-03-13',
+});
+
+UsNS.push({
+    name: 'Grand Forks Fake Fair and Event Vendor-Space Scam',
+    slug: 'north-dakota-grand-forks-fake-vendor-space-scam',
+    description: `Ahead of the 2025 summer fair and festival season, the Grand Forks Police Department warned local vendors about social media posts advertising vendor booth space — complete with perks like free Wi-Fi — for events that turned out not to exist. Vendors who responded and paid a roughly $50 "registration fee" got nothing in return: no booth, no event, and no way to reach whoever had taken their payment. Grand Forks Police Officer Kris Brown said investigators recognized the posts as part of a template being run against vendors in multiple states at once: "This same kind of post was referenced in New Mexico, is referenced in Texas — same dates, same time, same messaging, same everything." Rocky Schneider of the Downtown Community Partnership, which organizes some of the events being impersonated, urged vendors to skip social media entirely when signing up: "The nice part is local events — they have local contacts. You can show up at their office... But don't just respond on Facebook." Vendors are advised to verify any event and its vendor registration process by contacting the organizer directly, through a phone number or website looked up independently rather than a link in the post itself, and to be skeptical of any vendor-space offer that pressures an "act now" payment before basic details like the event's exact location and organizer can be confirmed. Suspected scams can be reported to the Grand Forks Police Department's non-emergency line at 701-787-8000.`,
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'low',
+    sources: ['Grand Forks Police Department', 'InForum (Forum Communications)'],
+    sourceUrl: 'https://www.inforum.com/news/north-dakota/grand-forks-police-warn-vendors-of-scam-ahead-of-fair-season',
+    country: 'US',
+    state: 'ND',
+    firstRecorded: '2025-04-18',
+});
