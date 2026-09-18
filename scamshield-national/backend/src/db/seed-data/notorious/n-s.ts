@@ -1173,6 +1173,10 @@ The Great Diamond Hoax remains a landmark case study in the failure of investor 
     slug: 'pmc-bank-hdil-fraud-joy-thomas',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'international', 'banking-fraud'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Mumbai_skyline.jpg?width=1200',
+    coverImageCredit: 'Photo: Zephyr Too (CC BY-SA 2.0) — Mumbai, where PMC Bank was based',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Punjab and Maharashtra Co-operative Bank (PMC Bank) was, on paper, an ordinary Mumbai-based urban cooperative bank serving retail depositors across several Indian states. Underneath, it had spent years as the private financing arm of Housing Development and Infrastructure Limited (HDIL), a real-estate developer whose founding family, the Wadhawans, had helped rescue the bank from closure decades earlier and retained deep influence over it ever since. By the mid-2010s, HDIL's own real-estate business was failing under its debts, and PMC's managing director, Joy Thomas, kept extending it credit far beyond what the bank could safely absorb — eventually totaling roughly ₹6,500 crore in loans and exposure to a single, deteriorating borrower group.
 
 To keep that exposure invisible to auditors, the bank's own board, and the Reserve Bank of India, Thomas and senior colleagues replaced just 44 real HDIL-linked loan accounts with more than 21,000 fictitious ones, spreading the true debt across thousands of fabricated borrower records so that no single account balance would look alarming on inspection and the bank's reported non-performing assets stayed artificially low. A separate, parallel core-banking system reportedly let staff show RBI inspectors one set of books while the bank's real exposure sat in a hidden second set — a level of engineered concealment that let the fraud continue undetected for years even as HDIL sank deeper into default.
@@ -5988,6 +5992,10 @@ NotoriousNS.push(
     slug: 'patrick-james-edward-james-first-brands-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Cleveland_Skyline_Aug_2006.JPG?width=1200',
+    coverImageCredit: 'Photo: Avogadro94 (CC BY-SA 2.5) — Cleveland, Ohio, where First Brands was based',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Note: Patrick James and Edward James were indicted in January 2026 and pleaded not guilty; as of this writing neither has been convicted, and the allegations below are drawn from the federal indictment and civil bankruptcy filings, not from any court finding of guilt.
 
 Patrick James built First Brands Group into one of the auto industry's largest aftermarket parts suppliers, assembling a portfolio of familiar brand names — Fram oil filters, Autolite spark plugs, Anco and Trico wiper blades, Champion — under one Cleveland, Ohio-based holding company, with his younger brother Edward James working alongside him in a senior finance role. To lenders and private-credit funds, First Brands looked like exactly the kind of steady, cash-generating industrial business that could safely be lent billions of dollars against its accounts receivable and inventory.
@@ -6165,14 +6173,18 @@ Fakhoury's case is a reminder that a "co-investor" named in a pitch deck is only
   },
 );
 
-// No rights-cleared photo of Rippe has surfaced, so sourceUrl links to the
-// Kansas Attorney General's press release announcing the consent judgment.
+// No rights-cleared portrait of Rippe has surfaced, so a photo of Hays,
+// Kansas — where Rippe operated Straight Line Remodeling — stands in.
 NotoriousNS.push(
   {
     title: 'Rodney Rippe and the Straight Line Remodeling Deposits That Funded Nothing',
     slug: 'rodney-rippe-straight-line-remodeling-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Hays_KS,_805_Main_St_1.JPG?width=1200',
+    coverImageCredit: 'Photo: Ammodramus (CC0) — Hays, Kansas, where Rippe operated Straight Line Remodeling',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Note: Rodney Rippe was civilly sued by the Kansas Attorney General's Office under the Kansas Consumer Protection Act, not criminally charged. The case was resolved by a consent judgment rather than a criminal conviction; under its terms, Rippe admitted only what Kansas law requires to establish that the restitution he owes arises from fraud and false pretenses, and no criminal charges against him have been reported.
 
 Rodney Rippe, of Hays, Kansas, operated an Ellis County home construction and remodeling business called Straight Line Remodeling, LLC. According to the Kansas Attorney General's petition, since at least 2023 the business contracted with Kansas consumers for residential remodeling and construction projects, collected substantial advance payments and deposits, and then failed to perform the promised work or refund the money. The company abandoned at least eight consumer projects at every stage of completion — from jobs where no work was ever done to projects left partly finished — leaving subcontractors unpaid and consumers who had already paid more than the agreed contract price with nothing to show for it. Straight Line Remodeling itself was forfeited by the Kansas Secretary of State on July 15, 2025, for delinquent filings, while Rippe kept dealing with consumers regardless.
@@ -6222,6 +6234,10 @@ NotoriousNS.push(
     slug: 'robert-higgins-first-state-depository-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Wilmington_Delaware_skyline.jpg?width=1200',
+    coverImageCredit: 'Photo: Tim Kiser (CC BY-SA 2.5) — Wilmington, Delaware, where First State Depository was based',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `First State Depository, based in Wilmington, Delaware, offered a service built entirely on trust: for a fee, customers could store their gold and silver bullion — bars and coins often worth their life savings or a retirement nest egg — in the company's vault, with paperwork confirming exactly what belonged to them was sitting safely inside. At its peak, First State held more than $100 million in customer-owned precious metals. Its owner, Robert L. Higgins, ran the company for years as a trusted name in an industry that depends almost entirely on customers never actually checking that the metal is where the depository says it is.
 
 According to federal prosecutors, Higgins spent roughly a decade quietly doing the opposite of what his customers were paying him for. Rather than keeping their gold and silver segregated and untouched, he sold off, pledged, or otherwise disposed of customers' bullion to cover his own debts and bankroll a lifestyle that included Hawaiian timeshares and overseas vacations — all while continuing to send account statements that gave no hint anything was missing. He also underreported his income to the IRS during the same years he was quietly liquidating other people's assets. The scheme unraveled only when a broader accounting finally checked holdings against records: investigators ultimately identified more than 1,000 customer accounts short of the metal they were supposed to contain, with at least $76 million in gold and silver unaccounted for.

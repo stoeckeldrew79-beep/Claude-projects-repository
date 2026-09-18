@@ -2943,6 +2943,10 @@ The Tuira case illustrates why affinity fraud can be so much harder for victims 
     slug: 'waxman-philip-services-copper-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'international', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/HamiltonOntarioSkylineB.JPG?width=1200',
+    coverImageCredit: 'Photo: Rick Cordeiro (Public Domain) — Hamilton, Ontario, where Philip Services was based',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Philip Services Corp grew through the mid-1990s into one of Canada's largest metals recycling and industrial services companies, based in Hamilton, Ontario, with a Metals Recovery Group that traded physical copper and other metals on top of the company's core scrap-processing business. Robert "Bobby" Waxman ran that division as its president, giving him control over both the trading positions the unit took and the internal records used to report on them — the same combination of trading authority and record-keeping control that has enabled rogue-trader frauds at banks and commodity firms around the world.
 
 Between 1996 and 1997, Waxman orchestrated a series of fraudulent copper trades and diverted company funds into companies he personally controlled, according to Royal Canadian Mounted Police investigators who later spent roughly five years and more than 200 interviews unwinding the scheme. Separately, the Metals Recovery Group's trading book had accumulated close to $184 million in hidden losses over three years, masked well enough that senior management and outside auditors saw none of it in the company's reported results.

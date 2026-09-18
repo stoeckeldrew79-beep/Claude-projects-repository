@@ -798,6 +798,10 @@ More than two decades after triggering a bank collapse and a national market cra
     slug: 'karvy-stock-broking-client-securities-scam',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'international', 'securities-fraud'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Hyderabad_skyline.jpg?width=1200',
+    coverImageCredit: 'Photo: Nagalakshmikavuri (CC BY-SA 3.0) — Hyderabad, where Karvy Stock Broking was based',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Karvy Stock Broking Limited was one of India's largest retail brokerages, handling trading accounts for millions of ordinary investors who trusted it, like any broker, to simply hold and execute trades on the securities in their demat accounts. Under a power of attorney routinely signed at account opening — meant to let the broker carry out authorized transactions on a client's behalf — Karvy's founder and managing director C. Parthasarathy instead used those client shares as his own collateral, pledging holdings worth more than ₹2,300 crore (roughly $267 million) with banks and non-banking finance companies to raise loans the brokerage itself needed.
 
 The money didn't stay in the brokerage. Regulators later found that Karvy had funneled roughly ₹1,096 crore of the borrowed funds into Karvy Realty Private Limited, a group real-estate company with no connection to the clients whose shares had backed the loans. The scheme depended on clients never noticing that stock sitting untouched in their accounts had quietly become the collateral behind someone else's debt — a diversion invisible on any individual client's statement, since Karvy's fraud lived in the gap between what a client's account was supposed to hold and what the broker had done with it behind the scenes.
@@ -8722,16 +8726,20 @@ Cannon-Grant's case is a reminder that a charity's legitimacy in the public eye 
   },
 );
 
-// No rights-cleared photo of Holdo has surfaced — outlets covering the case
-// used a screenshot from his own Facebook video, credited "[Via Facebook]"
-// rather than a public-domain or Creative Commons license this collection
-// can use — so sourceUrl serves as the "read the full story" link instead.
+// No rights-cleared portrait of Holdo has surfaced — outlets covering the
+// case used a screenshot from his own Facebook video, credited "[Via
+// Facebook]" rather than a public-domain or Creative Commons license this
+// collection can use — so a Rolex-watch photo stands in as a thematic image.
 NotoriousGM.push(
   {
     title: 'Nelson Holdo and the Phantom Rolex Scheme That Emptied a Pasadena Jeweler\'s Reputation',
     slug: 'nelson-holdo-phantom-rolex-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Macro_photography_of_a_Rolex_watch.jpg?width=1200',
+    coverImageCredit: 'Photo: thnchiba (CC BY 2.1 JP) — a Rolex watch, the type of luxury item central to Holdo\'s scheme',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Nelson Andres Holdo spent decades building the kind of resume that makes a buyer feel safe wiring money before a watch arrives. Born and raised in Pasadena, California, and educated at Polytechnic School and Caltech, he earned a gemology diploma from the Gemological Institute of America in 1981 and, in 1991, founded Asanti Fine Jewellers at 2670 Mission Street in San Marino, which also operated a second boutique inside the Ritz-Carlton Huntington Hotel & Spa in Pasadena. Asanti closed after the 2008 economic downturn and, according to a Pasadena Star-News report cited by trade publication The Centurion, filed for Chapter 7 bankruptcy. From 2011 to 2014, Holdo served as president of the Newport Beach location of Black, Starr & Frost, a well-known American jewelry name, before going back to working as an independent private jeweler in the Pasadena and San Marino area.
 
 According to a criminal complaint filed by the California Attorney General's Office, it was in that later, independent chapter of his career that Holdo began taking money for watches he never delivered. Operating under the business names Mimi et Cie LLC, LA Gems Private Jewelers, and Brivetti LLC, he targeted buyers seeking high-end Rolex models valued between $50,000 and $100,000, telling them he could source the watches through overseas brokers and persuading them to wire the full purchase price upfront into his business accounts. Buyers were told to expect delivery in four to six weeks; instead, prosecutors say, they got months of excuses, and when they finally demanded refunds, Holdo agreed to repay them and then kept the money anyway. The complaint alleges the pattern ran from September 15, 2021 — when he took $115,000 from a Los Angeles County buyer identified as Artin M. — through at least January 2026, when he is accused of taking both a Rolex Submariner and $33,500 from an Orange County buyer identified as John M. The two largest individual losses named in the complaint belong to victims identified only as M.G., who lost $438,900 between February and November 2022, and W.G., who lost $254,000 between March and May 2022 and was later handed a $177,500 refund check that bounced. Prosecutors also allege Holdo defrauded a watch distributor of more than $400,000 by accepting inventory he never paid for, and that in the summer of 2025 he took a Tiffany & Co. diamond ring entrusted to him by a client and passed that same client a $30,000 check with insufficient funds behind it.
@@ -9293,6 +9301,10 @@ NotoriousGM.push(
     slug: 'manuel-fernandez-de-sousa-pescanova-accounting-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Centro_e_porto_de_Vigo_cropped.jpg?width=1200',
+    coverImageCredit: 'Photo: Dantadd, crop by Kanchelskis (CC BY-SA 2.5) — the port of Vigo, Spain, where Pescanova was based',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Manuel Fernández de Sousa-Faro took over as president of Pescanova in 1980 from his father, José Fernández López, who had founded the company in 1960 and built the world's first at-sea fish-freezing vessel a year later. Under the son's leadership, Pescanova grew into one of the largest seafood companies on Earth — publicly listed on Spain's stock exchange, employing roughly 10,500 people, and operating more than 100 fishing vessels and some 50 aquaculture farms across more than 20 countries, including Namibia, Mozambique, and Angola. For half a century it was a genuine industrial success story and a point of national pride in Spain, which made what investigators eventually found inside its books all the more startling.
 
 Behind the public numbers, Pescanova had built a web of more than 100 subsidiaries and related companies in which the parent deliberately held less than 50% of the equity — just enough to keep their debts off Pescanova's consolidated balance sheet under Spanish accounting rules, even as the parent continued to guarantee and effectively control them. Investigators later found that Pescanova had also used the names and financial data of former customers, and of companies it had never actually done business with, to apply for additional bank credit lines, manufacturing a paper trail of trade activity that didn't exist to keep financing flowing. In its 2012 accounts, the company officially declared roughly €1.5 billion in net debt alongside a modest profit; investigators later determined the real net debt was closer to €3.7 billion — more than €2 billion hidden — while the business had actually lost money that year.
@@ -9491,6 +9503,10 @@ NotoriousGM.push(
     slug: 'ben-jayaweera-growth-plus-abalone-fund-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'international'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Skyline_of_Brisbane_from_Kangaroo_Point_Cliffs_Park,_Nov_2020,_05.jpg?width=1200',
+    coverImageCredit: 'Photo: Kgbo (CC BY-SA 4.0) — Brisbane, where Jayaweera worked as a financial adviser',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Ben Jayaweera was a Brisbane-based financial adviser and director of Growth Plus Financial Group Pty Ltd who, between August 2013 and November 2015, persuaded clients to move their self-managed superannuation fund savings into something he called the Australian Diversified Sector Investment Fund, or ADSIF. As the name promised, Jayaweera described the fund to clients as a spread of holdings across aquaculture, agriculture, property and cash — the kind of genuinely diversified, low-correlation mix a cautious retiree might reasonably want their retirement savings sitting in.
 
 In reality, ADSIF held nothing of the sort. According to Australia's corporate regulator, ASIC, the fund's assets consisted of loans to Jayaweera's own corporate entities, which used the money to fund a single abalone farming venture — not remotely diversified, and not disclosed to clients as the concentrated, related-party bet it actually was. To get clients' retirement savings into the fund at all, Jayaweera also arranged for their self-managed super fund balances to be transferred directly into his own corporate accounts, without the authorisation his clients believed they were giving. Twelve former clients lost a combined $5,958,870.
@@ -9574,6 +9590,10 @@ NotoriousGM.push(
     slug: 'gary-booth-steven-nicholas-connaught-income-fund-tiuta',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical', 'international'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Bank_of_England_Building,_London,_UK_-_Diliff.jpg?width=1200',
+    coverImageCredit: 'Photo: Diliff (CC BY-SA 3.0) — London, where the Connaught Income Fund was marketed to UK investors',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `The Connaught Income Fund, Series 1 launched in March 2008 as an unregulated UK collective investment scheme, pitched to retail investors through independent financial advisers as a low-risk way to earn steady income from short-term bridging finance to British property developers. Over its life the fund raised roughly £118 million from more than 1,000 investors, channeling around £105 million of it through Tiuta International Limited (TIL), the specialist lender that actually originated and managed the underlying property loans. On paper, the arrangement looked like a conventional, professionally run income fund; underneath it, two of Tiuta's own directors were using investors' money to paper over problems the fund was never supposed to have.
 
 Gary Booth, a TIL director from May 2006 to 2009, and Steven Nicholas, a TIL director from 2006 to 2012 who also held sole responsibility for the company's legal department, arranged a series of loans to a property developer and his associates during and after the 2008 financial crisis. According to the High Court's later findings, the purpose of those loans was not to serve Connaught's investors but to preserve the liquidity of Tiuta PLC and its subsidiaries and to help discharge debts the group owed to its own bank lenders — using money that belonged to the fund's outside investors to solve problems created by the wider Tiuta business. The court found that both men knew the conduct was dishonest and both participated in it, arranging what amounted to a fraud on a regulated investment vehicle carried out through its own management.
