@@ -4228,6 +4228,45 @@ UsTZ.push({
 });
 
 UsTZ.push({
+    name: 'Fraudulent "Ethan Baker" Donor Overpayment Scam Targeting Vermont Nonprofits',
+    slug: 'vermont-ethan-baker-donor-overpayment-scam',
+    description: `Common Good Vermont, a statewide nonprofit support network, issued an alert on June 12, 2025 after multiple Vermont nonprofits reported the same fraudulent-donor scheme. A person — commonly using the name "Ethan Baker" — emails an organization from a Gmail address or fills out its website contact form offering a sizeable donation, typically $2,000-$5,000. A check then arrives by FedEx for an amount larger than pledged, and the "donor" quickly claims the overage was a mistake, asking the nonprofit to wire back or check-refund the difference immediately — before the fraudulent check, which can take up to seven days, bounces, leaving the organization out both the refunded money and bank fees. Common Good Vermont also flagged a credit-card variant where a "donor" makes an online gift, files a chargeback, and separately requests a refund. Small nonprofits with limited financial-control staff are especially targeted. Organizations are advised to verify unfamiliar large-donor identities independently, never refund until a deposited check has fully cleared with the bank, and report incidents to the Vermont AG's Consumer Assistance Program at 800-649-2424.`,
+    categorySlug: 'charity-scams',
+    alertLevel: 'medium',
+    sources: ['Common Good Vermont'],
+    sourceUrl: 'https://commongoodvt.org/news/be-aware-fraudulent-donor-scam/',
+    country: 'US',
+    state: 'VT',
+    firstRecorded: '2025-06-12',
+});
+
+UsTZ.push({
+    name: "Debt Collection Scam Surges to #2 on Vermont's Top 10 Scams of 2025",
+    slug: 'vermont-debt-collection-scam-2025-top-10',
+    description: `On January 12, 2026, Vermont AG Charity Clark released her office's Top 10 Scams of 2025 report, tallying 3,982 total Consumer Assistance Program reports for the year, a 12% jump over 2024. Debt collection scams appeared on the top-10 list for the first time ever and jumped straight to #2 with 311 reports, behind only the perennial computer tech-support scam. Callers posing as debt collectors — sometimes citing a victim's real name or an old account number for credibility — demand immediate payment and threaten arrest, wage garnishment, a lawsuit, or contacting the victim's employer or family. AG Clark said, "Educating Vermonters is the best way to protect them from scams. If you receive unsolicited calls, emails, or text messages — especially those threatening legal action — do not respond. Slow down and talk with a trusted family member, friend, or call my office's Consumer Assistance Program for help." Legitimate collectors cannot threaten arrest, must provide written debt verification on request, and must stop contacting someone who asks in writing — so anyone pressured by phone should hang up and report to the Consumer Assistance Program at 800-649-2424 or AGO.CAP@vermont.gov instead of paying.`,
+    categorySlug: 'legal-debt-collection',
+    alertLevel: 'high',
+    sources: ["Vermont Attorney General's Office (Consumer Assistance Program)", 'Vermont Business Magazine'],
+    sourceUrl: 'https://ago.vermont.gov/blog/2026/01/12/attorney-general-clark-releases-top-10-scams-2025',
+    country: 'US',
+    state: 'VT',
+    firstRecorded: '2026-01-12',
+});
+
+UsTZ.push({
+    name: 'Health Care & Rehabilitation Services of Southeastern Vermont $390,000 Medicaid Fund-Retention Settlement',
+    slug: 'vermont-hcrs-medicaid-fund-retention-settlement',
+    description: `Health Care & Rehabilitation Services of Southeastern Vermont (HCRS), a Springfield-based nonprofit that received more than $60 million in Medicaid/Medicare funding in fiscal 2025, agreed to pay more than $390,000 to resolve allegations it improperly kept Medicaid funds it should have returned between 2021 and 2024, per VTDigger's September 17, 2026 report. The Vermont Attorney General's Medicaid Fraud and Residential Abuse Unit — investigating after a referral from the Department of Aging and Independent Living — alleged HCRS retained payments for services that had ended, failed to adequately document medical necessity, and didn't notify clients or caregivers of service changes as required. Of the settlement, $301,000 is restitution to Medicaid, with the rest split between state and federal government; HCRS didn't admit wrongdoing, calling the lapses billing errors rather than intentional fraud. AG Charity Clark said, "When health care agencies entrusted with Vermont Medicaid funds abuse the system, the consequences ultimately come at the expense of patients and taxpayers." HCRS CEO Anne Bilodeau said the settlement won't affect client services or staffing. Medicaid recipients and families are encouraged to confirm with providers that they aren't still being billed for ended services and to report suspected misuse of public health dollars to the AG's Medicaid Fraud and Residential Abuse Unit.`,
+    categorySlug: 'healthcare-fraud',
+    alertLevel: 'medium',
+    sources: ['VTDigger', "Vermont Attorney General's Office"],
+    sourceUrl: 'https://vtdigger.org/2026/09/17/southern-vermont-healthcare-provider-to-pay-more-than-390000-over-allegations-it-mishandled-medicaid-funds/',
+    country: 'US',
+    state: 'VT',
+    firstRecorded: '2026-09-17',
+});
+
+UsTZ.push({
     name: 'Virgin Islands Coronavirus Stimulus-Payment Tax Scam Warning',
     slug: 'virgin-islands-coronavirus-stimulus-tax-scam-warning',
     description: `As the first round of federal Economic Impact Payments was announced in April 2020, the U.S. Attorney's Office for the District of the Virgin Islands, IRS Criminal Investigation (led by Special Agent in Charge Michael J. De Palma), the Virgin Islands Bureau of Internal Revenue (Director Joel A. Lee), and then-Attorney General Denise N. George jointly warned Virgin Islands taxpayers on April 16, 2020 that fraudsters were already exploiting confusion over the new payments. Officials described callers posing as IRS or government representatives who asked victims to "verify" bank account, debit card, or PayPal information before a payment could be released — something the IRS and BIR never actually do — as well as texts and emails promising a faster payment in exchange for personal information or a click on an embedded link, and bogus paper checks for odd amounts, especially ones with cents, that came with instructions to call a number or visit a website to "verify" the check before depositing it. The alert clarified that real stimulus checks would simply arrive by mail at the address on file from a taxpayer's 2018 return, with no fee, phone call, or website visit required to receive one, and urged residents to hang up on suspicious callers, delete the texts and emails without clicking anything, and never hand over banking details to anyone claiming a payment depends on it. Virgin Islanders who encountered one of these schemes were directed to the National Center for Disaster Fraud Hotline at 866-720-5721 or disaster@leo.gov, and the same playbook — a caller or text claiming a benefit payment requires "verification" of financial details first — has resurfaced with each subsequent round of federal relief, tax rebate, or unemployment payments since.`,

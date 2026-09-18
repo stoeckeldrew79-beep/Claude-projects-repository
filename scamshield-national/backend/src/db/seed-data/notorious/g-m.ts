@@ -10365,3 +10365,18 @@ Kąkolewski was detained by the CBA at Warsaw's Chopin Airport on June 16, 2018,
 The GetBack case is Poland's closest parallel to the UK's London Capital & Finance collapse: a fundamentally risky bond product laundered into a "safe as cash" pitch by routing it through a trusted bank's own branches and staff, leaving retail savers to discover only after a default that the institution vouching for a product had no real obligation to make good on it. It's also a reminder that a debt-collection company — a business built on judging exactly which borrowers can and can't actually pay — can conceal the identical cash-flow fiction in its own books that it specializes in exposing in others.`,
     sourceUrl: 'https://cba.gov.pl/en/news/331,The-GetBack-case-members-of-the-former-management-board-of-a-debt-collection-com.html',
 });
+
+NotoriousGM.push({
+    title: "Ma Xingtian and the Kangmei Pharmaceutical Accounting Fraud",
+    slug: 'ma-xingtian-kangmei-pharmaceutical-accounting-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'international'],
+    body: `Ma Xingtian was the founder and chairman of Kangmei Pharmaceutical Co., Ltd., a traditional Chinese medicine manufacturer based in Puning, Guangdong, that grew into one of the largest listed pharmaceutical companies on the Shanghai Stock Exchange. Beginning as early as 2016, Kangmei — under Ma's direction — engaged in what China's securities regulator (CSRC) called "intentional and systematic" financial falsification, inflating revenues, interest income, operating profits, and cash reserves through fabricated documents, ultimately overstating its books by roughly 30 billion yuan (about $4.6 billion) between 2016 and 2018, including billions of dollars in cash on the balance sheet that simply did not exist.
+
+The scheme unraveled when the fraud became public in 2019, wiping out shareholder value and triggering a CSRC investigation and criminal prosecution. In November 2021, a Chinese court convicted Ma of manipulating the securities market, making illegal disclosures, and bribery, sentencing him to 12 years in prison; former vice chairman Xu Dongjin and roughly ten other executives were also jailed.
+
+Separately, and more historically significant, the Guangzhou Intermediate People's Court that same month handed down China's first-ever securities class-action verdict under the country's revised 2019 Securities Law, ordering Ma, five other Kangmei officials, and the company's outside auditor, GP Certified Public Accountants, to pay 2.46 billion yuan (about $385 million) jointly and severally to more than 50,000 defrauded investors represented by the state-affiliated China Securities Investor Service Centre.
+
+The case is a landmark not just for its scale but because it was the first time an external auditor was held financially liable alongside corporate insiders in a Chinese securities fraud, and it marked a turning point in China's willingness to let ordinary shareholders — rather than only regulators — collect real compensation from a fraud of this size. The lesson it illustrates: gatekeepers like auditors who sign off on fabricated financials are not merely negligent bystanders but active enablers, and regulators are increasingly willing to make them pay for it too.`,
+    sourceUrl: 'https://www.asiafinancial.com/ex-kangmei-pharmaceutical-chairman-ma-xingtian-sent-to-jail',
+});
