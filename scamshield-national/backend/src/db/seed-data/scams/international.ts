@@ -19492,6 +19492,42 @@ International.push(
 
 International.push(
   {
+    name: 'Malta Police Blockchain Unit Traces €493,750 in Losses in Europol €700 Million Crypto Fraud Takedown',
+    slug: 'malta-europol-700-million-crypto-investment-fraud-takedown',
+    description: `On 27 October 2025, the Malta Police Force's Blockchain Analysis Unit joined a coordinated Europol-led operation that dismantled a cross-border cryptocurrency investment fraud network estimated to have defrauded victims of more than €700 million across Europe. The network ran a cluster of fake cryptocurrency trading platforms promoted through targeted online advertising; once a victim registered, high-pressure "financial advisers" phoned repeatedly, showed fabricated dashboards displaying inflated fake profits, and pushed for one more deposit before any "withdrawal" could go through, while also collecting victims' personal documents and remote-access credentials under the pretense of verifying their accounts. Maltese investigators traced four local victims who had collectively transferred €493,750 into the scheme through a mix of bank transfers, credit cards and cryptocurrency payments before the fraud was uncovered; the wider raids, carried out across Cyprus, Germany and Spain at the request of French and Belgian authorities, led to nine arrests, with law enforcement from Malta, Belgium, Bulgaria, Cyprus, France, Germany, Israel and Spain coordinating the action. Anyone contacted out of the blue about a trading platform promising escalating returns, or pressured to keep depositing more money before a withdrawal can be processed, should stop immediately and verify the platform independently rather than trusting the profit figures shown on the platform's own dashboard.`,
+    categorySlug: 'cryptocurrency-scams',
+    alertLevel: 'high',
+    sources: ['Newsbook.mt', 'Malta Police Force', 'Europol'],
+    sourceUrl: 'https://newsbook.com.mt/en/malta-police-help-europol-smash-e700m-crypto-scam-ring-as-four-maltese-lose-nearly-e500k/',
+    country: 'MT',
+    firstRecorded: '2025-10-27',
+  },
+  {
+    name: 'MFSA Warning: Fraudulent Calls Impersonating Licensed Financial Firms',
+    slug: 'malta-mfsa-scam-calls-impersonating-licensed-financial-firms',
+    description: `In a warning issued on 22 June 2026, the Malta Financial Services Authority (MFSA) alerted the public to a surge in unsolicited phone calls from individuals falsely claiming to represent MFSA-licensed financial services providers and offering investment advice or other financial services on the firm's behalf. The Authority explained that fraudsters exploit a licensed company's real name and credibility to sound legitimate, then use the call to sell bogus investment opportunities or extract personal and financial information, often applying pressure to act quickly and discouraging the recipient from independently verifying who is actually calling. The MFSA urged anyone contacted this way to independently verify the caller's identity through the company's official channels rather than any number the caller provides, to confirm the firm is actually authorised by checking the MFSA's public register, to never share confidential information under pressure, and to stop all transactions and report the contact to the MFSA immediately if fraud is suspected. Because a caller can accurately name a real, licensed Maltese firm and still have no connection to it, always hang up and call that firm back using the number listed on its official website — never one supplied during the suspicious call itself.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'medium',
+    sources: ['MFSA', 'Lovin Malta'],
+    sourceUrl: 'https://lovinmalta.com/news/local/mfsa-warns-public-over-surge-in-scam-calls-impersonating-financial-firms/',
+    country: 'MT',
+    firstRecorded: '2026-06-22',
+  },
+  {
+    name: 'Malta Romance Fraud: Former Premier League Footballer Sunday Eboh Jailed Over €58,000 "American Soldier" Scam',
+    slug: 'malta-sunday-eboh-american-soldier-romance-fraud',
+    description: `In February 2021, Malta Police arrested and charged retired footballer Sunday Ikechukwu Eboh, a former Malta Premier League player, along with Tony Ogbonna Anuforo, Collins Eguavoen, Marvis Iyeke and Maltese national Alexandra Pace, in what was reported as Malta's first prosecuted romance fraud case. An elderly Maltese widow had been contacted on Facebook by a profile calling itself "Smith Jones," who claimed to be an American soldier deployed in Afghanistan; after moving the conversation to WhatsApp, he promised her gifts, a €45,000 payment and a purported €1,000,000 certificate, but said he first needed help covering expenses, and over time she wired a total of €58,000 into Maltese bank accounts controlled by the accused, who laundered it through a chain of local transactions. On 25 September 2023, the Court of Criminal Judgment convicted the group of money laundering and handling stolen property: Eboh was jailed for three years and fined €20,000, Ogbonna received two years and four months plus a €15,400 reimbursement order, Iyeke and Eguavoen received suspended sentences with fines, and Pace was fined €200 for a false declaration, with the court condemning the men's conduct as "inhumane, heartless and lacking in civility." Because a genuine long-distance partner met only online has no legitimate reason to ask for money wired into someone else's bank account, treat any online romance that turns into a request for funds — however emotionally compelling the story — as a certain scam.`,
+    categorySlug: 'romance-scams',
+    alertLevel: 'high',
+    sources: ['Newsbook.mt', 'MaltaToday'],
+    sourceUrl: 'https://newsbook.com.mt/en/romance-fraud-former-malta-premier-league-player-jailed/',
+    country: 'MT',
+    firstRecorded: '2021-02-10',
+  },
+);
+
+International.push(
+  {
     name: 'AI-Deepfake Bank of Mauritius Governor Investment Endorsement Scam',
     slug: 'mauritius-deepfake-governor-investment-scam',
     description:
