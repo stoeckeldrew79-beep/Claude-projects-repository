@@ -7948,6 +7948,45 @@ UsGM.push({
 });
 
 UsGM.push({
+    name: 'Kossuth County "Bail Bondsman" Grandparent Scam Arrest (Eddie Benitez Abreus)',
+    slug: 'iowa-kossuth-county-bail-bondsman-grandparent-scam',
+    description: `On February 24, 2025, a resident of the Burt area in Kossuth County received a call from someone posing as a bail bondsman claiming her grandchild had been arrested and needed $10,000 cash immediately to be released from jail. The scammer pressured her to hand over cash rather than go through any court process. The Kossuth County Sheriff's Office, working with the Iowa Division of Criminal Investigation and other local and state agencies, determined the same fraud pattern was hitting victims across multiple Iowa counties, and used video evidence and GPS tracking warrants to identify suspects. On February 27, 2025, Eddie Benitez Abreus, 33, of Miami, Florida, was arrested on a first-degree theft charge at a hotel in Humboldt, Iowa; a warrant remains outstanding for a second suspect, Carlos Garrido Guzman, 28, of Homestead, Florida. Investigators cautioned, "Any time you get a call or message demanding immediate action involving money or gift cards, be suspicious and contact local law enforcement." If you get an urgent call claiming a grandchild is in jail, hang up and call that grandchild directly at a number you already have, and never send cash or valuables to a stranger who shows up to collect it.`,
+    categorySlug: 'grandparent-scams',
+    alertLevel: 'high',
+    sources: ['KIMT News 3'],
+    sourceUrl: 'https://www.kimt.com/news/crime/florida-man-arrested-for-grandparent-fraud-in-north-central-iowa/article_fe81acf2-f931-11ef-9c0f-371dc794fc76.html',
+    country: 'US',
+    state: 'IA',
+    firstRecorded: '2025-02-24',
+});
+
+UsGM.push({
+    name: 'Iowa Attorney General Warning: Work-From-Home Job Offer Scams',
+    slug: 'iowa-work-from-home-job-offer-scam-warning',
+    description: `On September 11, 2025, Iowa Attorney General Brenna Bird warned residents about a wave of fake work-from-home job offers arriving by unsolicited text or email, describing easy remote work for little effort. Victims receive what looks like an official offer letter, sometimes before any interview even takes place, that asks them to submit sensitive personal and financial information, including driver's license numbers, Social Security numbers, and bank account details, supposedly to set up direct deposit paperwork. In reality there is no job and no employer; the "recruiter" is a scammer harvesting personal data, and in related variants, victims are sent a fraudulent check and asked to return part of the funds or buy gift cards. Bird said, "If a job offer seems too good to be true, it probably is. Scammers are evil and prey on people who need a job or extra income," adding, "Be very aware, do your homework on a potential employer, and don't give away your personal information until you have a job offer from a legitimate business." Research any employer independently before applying, confirm they use a corporate, not personal, email domain, never pay a fee to get hired, and never share your SSN or bank details until after a real interview and formal offer.`,
+    categorySlug: 'employment-scams',
+    alertLevel: 'medium',
+    sources: ['Iowa Attorney General Newsroom'],
+    sourceUrl: 'https://www.iowaattorneygeneral.gov/newsroom/attorney-general-brenna-bird-warns-iowans-about-job-scams',
+    country: 'US',
+    state: 'IA',
+    firstRecorded: '2025-09-11',
+});
+
+UsGM.push({
+    name: 'Iowa FTC Impersonation Gold Liquidation Courier Scam',
+    slug: 'iowa-ftc-impersonation-gold-liquidation-courier-scam',
+    description: `On March 5, 2026, Iowa Attorney General Brenna Bird issued an alert about imposter scammers escalating to in-person collection tactics, citing a documented case of an elderly Iowan who was called three to four times a day for nearly two weeks by callers impersonating the Federal Trade Commission. The callers threatened her with arrest and loss of her Social Security benefits, told her to keep the calls secret from family and friends, and instructed her to cash out her life insurance policy and annuities to buy physical gold, which a courier would then pick up in person from her home for supposed "delivery" to the FTC. The scheme was stopped only because a family member intervened before any assets changed hands. Bird warned, "Scammers are getting bolder, sometimes even going to Iowans' houses to collect money or valuables. They are manipulative and prey on good-hearted Iowans who think they are doing the right thing." No real government agency will ever demand secrecy, threaten immediate arrest over the phone, or send a courier to your home to pick up cash, gold, or valuables — hang up, verify independently through an official phone number, and call the Iowa AG's consumer line at 1-888-777-4590 if you're contacted this way.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Iowa Attorney General Newsroom'],
+    sourceUrl: 'https://www.iowaattorneygeneral.gov/newsroom/attorney-general-brenna-bird-alerts-iowans-to-rising-imposter-scams',
+    country: 'US',
+    state: 'IA',
+    firstRecorded: '2026-03-05',
+});
+
+UsGM.push({
     name: 'Indianapolis Nationwide "Grandparent Scam" Cash-Courier Ring (Jasaun Pope)',
     slug: 'indianapolis-grandparent-scam-cash-courier-ring-jasaun-pope',
     description: `An Indianapolis Metropolitan Police Department investigation, triggered in 2021 when Massachusetts police flagged an 81-year-old local scam victim, unraveled a nationwide "grandparent scam" ring that called elderly victims claiming a grandchild or relative was in urgent legal or medical trouble — a car crash, an arrest, a hospital bill — and needed cash immediately, often with a second caller posing as an attorney or police officer to lend the story false authority. Victims were directed to overnight cash, typically $5,000 to $15,000 at a time, to addresses tied to Jasaun Pope's network, which used vacant residences to collect the packages before victims or banks could catch on. Investigators identified 68 victims with more than $683,464 in documented losses, though only 36 could ultimately be reached. Five defendants were convicted and sentenced to federal prison in a case brought by the U.S. Attorney's Office for the Southern District of Indiana: Jasaun Pope (97 months), Darlens Renard (78 months), Princess Elizer (41 months), Kareem Brown (36 months), and Jennifer Glemeau (30 months). The FBI has separately reported more than 650 grandparent-scam reports nationally between January 2020 and June 2021 alone, causing $13 million in losses — a reminder of how widespread and organized these cash-courier operations are. Families are advised to agree on a verification question or code word in advance, and to always call the relative directly using a known number before sending any money in response to an urgent, tearful call claiming to be them.`,
