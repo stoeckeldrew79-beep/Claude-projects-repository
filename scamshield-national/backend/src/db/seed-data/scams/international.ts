@@ -11824,6 +11824,32 @@ International.push(
 
 International.push(
   {
+    name: 'Fake Central Bank of Seychelles Governor Facebook Impersonation Loan and Prize Scam',
+    slug: 'seychelles-fake-cbs-governor-facebook-impersonation-scam',
+    description: `Seychelles Nation reported on February 7, 2020 that Central Bank of Seychelles Governor Caroline Abel had personally become the target of an identity-impersonation scam, after at least twelve fake Facebook profiles were created in her name falsely offering members of the public prize money or loans. The Bank's Chief Information Security Officer, Jude Woodcock, described a broader wave of internet fraud built on the same playbook of spoofed identities and platforms — Ponzi and pyramid pitches, romance scams, lottery and inheritance notices, fake loan offers, account-takeover attempts, phishing, and business email compromise targeting local companies' suppliers and international partners — carried out mainly over social media, Viber, and WhatsApp, with scammers based in West Africa (including Ivory Coast and Benin), South Africa, and Nigeria, and with payment demanded through MoneyGram or Western Union specifically to avoid leaving a traceable paper trail. The scale of the losses was already substantial by the time of the warning: one local businessman lost SCR1.2 million and another lost US$300,000 to fraud of this kind. Seychelles Bankers Association chairman Phillip Moustache warned that romance scams in particular tend to spike ahead of Valentine's Day and said "the scammers are smart and sometimes prey on people's vulnerabilities." The Bank urged the public never to trust a Facebook profile claiming to be a bank or government official, however convincing its photos or posts look, and to verify any prize, loan, or investment offer directly with the institution it claims to represent before sending any money.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Central Bank of Seychelles (CBS)', 'Seychelles Bankers Association (SBA)', 'Seychelles Nation'],
+    sourceUrl: 'https://nation.sc/articles/3379/internet-fraud-and-scams-on-the-rise',
+    country: 'SC',
+    isHistorical: true,
+    firstRecorded: '2020-02-07',
+  },
+  {
+    name: 'Fake Seychelles Postal Services Undelivered Parcel Sale Scam',
+    slug: 'seychelles-fake-postal-services-undelivered-parcel-sale-scam',
+    description: `Seychelles Nation issued a "Scam Alert" on December 27, 2024 flagging fraudulent social media posts that falsely claimed to be selling parcels that Seychelles Postal Services had supposedly failed to deliver. The posts, illustrated with images designed to look like an official notice, invite members of the public to respond and purchase these "unclaimed" parcels — a pattern that mirrors the classic undelivered-package scam seen elsewhere, in which a fee is demanded to release or bid on goods that do not actually exist and no parcel is ever handed over. Seychelles Nation's alert made clear the posts were not genuine communications from Seychelles Postal Services, and residents are advised to disregard any social media post offering to sell undelivered parcels and to confirm the status of any real shipment only through the postal service's own official tracking system or customer service channel rather than a link or contact in a social media post.`,
+    categorySlug: 'package-delivery-scams',
+    alertLevel: 'medium',
+    sources: ['Seychelles Nation'],
+    sourceUrl: 'https://www.nation.sc/articles/24557/scam-alert',
+    country: 'SC',
+    firstRecorded: '2024-12-27',
+  },
+);
+
+International.push(
+  {
     name: 'Fake UK Seasonal Job Recruitment Scam Targeting Tajik Migrants',
     slug: 'tajikistan-fake-uk-seasonal-job-recruitment-scam',
     description: `The International Organization for Migration (IOM) office in Tajikistan has warned citizens about fraudulent job offers circulating on WhatsApp and Telegram that promise seasonal farm and warehouse work in the United Kingdom. IOM specialists note that legitimate UK employers do not recruit or communicate through messaging apps, and advise Tajik jobseekers not to trust social media job advertisements without independently verifying the employer through the official website of a licensed recruitment company. Under the "Safe Migration of Seasonal Workers from Central Asia to the UK" project, IOM documented migrants losing between USD 50 and USD 5,000 each after gathering the money by selling belongings or taking out loans to pay "recruitment," "visa," or "placement" fees for jobs that turned out not to exist. In one prosecuted case, the director of a private Tajik firm, Arsa, was arrested for collecting 22,000-25,000 somoni from individual applicants for non-existent UK jobs, allegedly misappropriating more than 550,000 somoni in total. In October 2025, IOM, Tajikistan's Interior Ministry, and the Ministry of Labour, Migration and Employment held a National Workshop on Countering Online Recruitment Fraud in Dushanbe to coordinate a response, with officials describing the fraud as "an assault on the hopes and livelihoods of Tajik families."`,
