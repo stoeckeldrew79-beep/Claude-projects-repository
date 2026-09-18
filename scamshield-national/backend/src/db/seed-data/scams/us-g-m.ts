@@ -7554,6 +7554,45 @@ UsGM.push({
 });
 
 UsGM.push({
+    name: 'Cook County Circuit Court Fake QR-Code Parking-Ticket Hearing Notice Scam',
+    slug: 'illinois-cook-county-qr-code-parking-ticket-scam',
+    description: `The Circuit Court of Cook County issued a fraud alert on March 1, 2026 warning residents about a fake notice titled "Illinois Circuit Court — Hearing Notice" claiming the recipient owes unpaid parking charges and must scan an embedded QR code to pay before a supposed court date, threatening arrest and credit-report damage for noncompliance. Court officials stated flatly that "the Circuit Court does not send hearing notices in this format, does not demand payment through unsolicited QR codes, and does not threaten arrest or credit reporting in this manner for unpaid parking matters." Scanning the code leads to a fraudulent payment page built to harvest credit card numbers and personal information rather than resolve any real fine. The notice surfaced as part of a wider wave of QR-code "quishing" scams hitting Chicago-area parking meters and toll notices during 2026. Residents who receive one are advised never to scan an unsolicited QR code or pay through a link in a mailed or texted notice, to verify any case directly through the Clerk of the Circuit Court of Cook County's official website or phone line, and to report the fraudulent notice to local law enforcement and the Illinois Attorney General's Office.`,
+    categorySlug: 'qr-code-scams',
+    alertLevel: 'medium',
+    sources: ['Circuit Court of Cook County'],
+    sourceUrl: 'https://www.cookcountycourtil.gov/news/fraud-alert-scam-hearing-notice-impersonating-circuit-court-cook-county',
+    country: 'US',
+    state: 'IL',
+    firstRecorded: '2026-03-01',
+});
+
+UsGM.push({
+    name: 'Frankfort Crypto-ATM Operator\'s $10 Million Money-Laundering Case (Firas Isa)',
+    slug: 'illinois-frankfort-isa-crypto-atm-money-laundering',
+    description: `Federal prosecutors in the Northern District of Illinois charged Firas Isa of Frankfort, Illinois, founder and CEO of Virtual Assets LLC, doing business as Crypto Dispensers, which operates cryptocurrency ATMs nationwide, with one count of money-laundering conspiracy on November 18, 2025, alleging he knowingly converted roughly $10 million in proceeds from wire fraud and narcotics offenses into cryptocurrency and moved it through virtual wallets to disguise its origin. IRS Criminal Investigation, U.S. Immigration and Customs Enforcement, the FBI, and the U.S. Postal Inspection Service investigated the case; Isa pleaded not guilty, and a status hearing was set for January 30, 2026 before U.S. District Judge Elaine E. Bucklo, with Assistant U.S. Attorneys Bradley Tucker and Ramon Villalpando prosecuting. The charge carries a maximum 20-year federal sentence. The case highlights how cash-to-crypto kiosks that let anyone convert cash into cryptocurrency can also become the last stop for money tied to fraud once it is deposited and converted, since a crypto ATM transaction is difficult to trace or reverse once it moves into a wallet the operator controls. Illinois residents who are ever told by an unsolicited caller, online contact, or "support agent" to withdraw cash and deposit it at a Bitcoin ATM should treat that instruction alone as proof of a scam, and can report suspected fraud to the FBI's Internet Crime Complaint Center at ic3.gov.`,
+    categorySlug: 'cryptocurrency-scams',
+    alertLevel: 'high',
+    sources: ['Internal Revenue Service Criminal Investigation (IRS-CI)'],
+    sourceUrl: 'https://www.irs.gov/node/153696',
+    country: 'US',
+    state: 'IL',
+    firstRecorded: '2025-11-18',
+});
+
+UsGM.push({
+    name: 'Illinois AG Grandparent/Family-Emergency AI Voice-Clone Scam Alert',
+    slug: 'illinois-grandparent-ai-voice-clone-scam-alert',
+    description: `Ahead of Grandparents' Day, Illinois Attorney General Kwame Raoul issued a consumer alert on September 5, 2025 warning that scammers are increasingly using artificial intelligence to clone a family member's voice, then calling an older relative claiming to be that grandchild or relative in a sudden crisis, arrested after a car crash, hospitalized, or jailed, and urgently needing money for bail, a lawyer, or medical bills. "Scammers often prey on older adults," Raoul said, urging families to guard against the tactic. His office recommended families set up a private codeword to verify a real emergency, hang up and independently call the relative or another family member directly rather than trusting the number that called, and never send money by cryptocurrency or gift card, since both are untraceable and unrecoverable once sent. The alert specifically distinguishes this new wave from the older, low-tech version of the same con: an AI-cloned voice can now reproduce a real relative's tone and speech patterns, eliminating what used to be the easiest warning sign, a caller who simply "didn't sound right." Illinois residents are urged not to act on an unsolicited emergency call no matter how convincing the voice sounds, and to report incidents to the Attorney General's Consumer Fraud Hotline at 1-800-386-5438 (Chicago), 1-800-243-0618 (Springfield), or 1-800-243-0607 (Carbondale).`,
+    categorySlug: 'grandparent-scams',
+    alertLevel: 'high',
+    sources: ['Illinois Attorney General'],
+    sourceUrl: 'https://illinoisattorneygeneral.gov/news/story/consumer-alertattorney-general-warns-of-scammers-targeting-seniors',
+    country: 'US',
+    state: 'IL',
+    firstRecorded: '2025-09-05',
+});
+
+UsGM.push({
     name: "Indiana Local Police Impersonation \"Unpaid Fine\" Phone Scam",
     slug: "indiana-local-police-impersonation-unpaid-fine-phone-scam",
     description:
