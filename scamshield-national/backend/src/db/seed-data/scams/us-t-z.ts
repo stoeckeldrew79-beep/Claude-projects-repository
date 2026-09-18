@@ -4030,6 +4030,45 @@ UsTZ.push({
 });
 
 UsTZ.push({
+    name: 'Virginia Beach Man Sentenced to 25 Years for Sextortion Scheme Targeting Minors and Adult Victim',
+    slug: 'virginia-beach-whichard-sextortion-scheme',
+    description: `Justin Whichard, a 24-year-old Virginia Beach man, ran an online sextortion scheme in which he built sexual and romantic rapport with two 14-year-old girls before threatening to expose their conversations to their families unless they produced child sexual abuse material. He then took the images he had coerced from the minors and, posing as one of them, used the material to extort money from an adult victim by threatening to expose the supposed relationship. The scheme unraveled after a July 26, 2023 search of Whichard's residence, conducted in connection with an unrelated online purchase of a machinegun conversion device, turned up 131 images and 15 videos of child sexual abuse material plus more than 100 additional exploitative images on his phone. Whichard fled across several states while free on bond before being captured in Tennessee in March 2024, pleaded guilty on November 5, 2024, and was ultimately sentenced in federal court to 25 years in prison in a case prosecuted by the U.S. Attorney's Office for the Eastern District of Virginia. The case is a reminder that sextortion now often runs in both directions: predators coerce images from minors and then repurpose those same images to extort money from adults who believe they are communicating with the minor. Anyone contacted online by someone claiming a sexual relationship with a minor, or threatened with exposure over intimate images, should never send money or additional images and should report the account immediately to the National Center for Missing & Exploited Children's CyberTipline and local FBI field office.`,
+    categorySlug: 'sextortion',
+    alertLevel: 'critical',
+    sources: ['WTKR', 'Yahoo News'],
+    sourceUrl: 'https://www.wtkr.com/news/in-the-community/virginia-beach/virginia-beach-man-gets-25-years-for-sextortion-of-two-14-year-old-girls',
+    country: 'US',
+    state: 'VA',
+    firstRecorded: '2023-07-26',
+});
+
+UsTZ.push({
+    name: 'Kars-R-Us / United Breast Cancer Foundation Deceptive Vehicle-Donation Scheme',
+    slug: 'virginia-kars-r-us-ubcf-vehicle-donation-charity-scam',
+    description: `Virginia Attorney General Jason Miyares joined the Federal Trade Commission and 18 other states in a September 2025 enforcement action against Kars-R-Us.com, Inc. and its operator Michael Irwin, who ran a national vehicle-donation fundraising operation on behalf of the United Breast Cancer Foundation. Kars solicited car donations through television, radio, and online ads promising the proceeds would let UBCF "save lives" by funding free and low-cost breast cancer screenings, and more than 84,000 people donated vehicles between 2017 and 2022, generating over $45.5 million. Regulators found that only $126,815, about 0.28% of everything raised, actually went toward cancer screenings, while $34.9 million went to Kars, its operators, and its vendors. "I am pleased that we were able to stop this deceptive and unlawful charitable solicitation scam," Miyares said when the settlement, filed in the U.S. District Court for the Central District of California, was announced; the deal permanently bars Irwin from fundraising and directs $550,000 to legitimate cancer-related charities. Before donating a vehicle or cash to any charity, especially one promising a specific medical benefit like free screenings, Virginians should check the charity's actual program spending through resources like CharityNavigator, the BBB Wise Giving Alliance, or the Virginia Office of Consumer Affairs rather than relying on the pitch in an ad.`,
+    categorySlug: 'charity-scams',
+    alertLevel: 'medium',
+    sources: ["Virginia Attorney General's Office", 'Federal Trade Commission', 'Potomac Local News'],
+    sourceUrl: 'https://www.potomaclocal.com/2025/09/26/attorney-general-miyares-announces-action-against-deceptive-cancer-charity-fundraising-scheme/',
+    country: 'US',
+    state: 'VA',
+    firstRecorded: '2025-09-25',
+});
+
+UsTZ.push({
+    name: 'Richmond Fake Court "John Smith" QR Code Toll/Parking Violation Text Scam',
+    slug: 'virginia-richmond-fake-court-qr-code-toll-scam',
+    description: `On March 16, 2026, the Richmond Police Department and Commonwealth's Attorney Colette McEachin warned residents about text messages carrying a fake court letter accusing recipients of a "Parking Violation / Failure to Pay Electronic Toll" and demanding they either appear in court by 9 a.m. the next morning or pay a fine beforehand. The letter was signed "John Smith, Clerk of the Court" but also listed the presiding judge as "John Smith," carried a malformed case number, and included a QR code instructing recipients to "scan the QR code to settle your unpaid balance." McEachin stated flatly that "the General District Court clerk's office does not send texts regarding court dates," and the clerk's office fielded more than 200 panicked calls in just four hours after the messages went out. The scam appears to have piggybacked on genuine public confusion over the Richmond Metropolitan Transportation Authority's newly implemented all-electronic tolling system, which made the fake toll-violation premise land as more plausible than it otherwise would have. Richmond Police urged anyone who receives one of these texts not to respond, click any link, or scan the QR code, and instead to verify any claimed court date by calling the clerk's office directly using a number looked up independently, never one provided in the text itself.`,
+    categorySlug: 'qr-code-scams',
+    alertLevel: 'high',
+    sources: ['WTVR CBS 6', 'Richmond Police Department', "Richmond Commonwealth's Attorney's Office"],
+    sourceUrl: 'https://www.wtvr.com/news/local-news/richmond-text-scam-march-16-2026',
+    country: 'US',
+    state: 'VA',
+    firstRecorded: '2026-03-16',
+});
+
+UsTZ.push({
     name: 'Tamarac-Based Medicare Orthotic Brace Fraud and Money Laundering Scheme (Scamarone, Mendez, and Vazquez)',
     slug: 'florida-tamarac-scamarone-mendez-vazquez-brace-fraud',
     description: `Marco Scamarone, 34, and Renee Vazquez, 33, both of Tamarac, and Jose Mendez, 34, of Coral Springs, owned and operated two durable medical equipment (DME) companies — Braces and Orthotics LLC, nominally based in the Eastern District of Virginia, and Stone Oak Durable Medical Equipment LLC, based in South Florida. Between January 2022 and February 2023, the two companies submitted approximately $6.9 million in false claims to Medicare for orthotic braces that beneficiaries neither needed nor were eligible to receive, paying illegal kickbacks and bribes to an offshore marketing company in exchange for patient referrals and fraudulent doctors' orders authorizing the equipment. The three defendants then laundered more than $2.2 million of the fraud proceeds through a series of shell companies they and their associates controlled. All three pleaded guilty in December 2025, and on June 1, 2026 were sentenced in the U.S. District Court for the Southern District of Florida — Mendez to 78 months, Scamarone to 70 months, and Vazquez to 60 months in federal prison, with Scamarone and Mendez ordered to forfeit more than $2.2 million and pay over $3 million in restitution, and Vazquez ordered to forfeit more than $1.7 million and pay over $2.2 million in restitution. Medicare beneficiaries who receive an orthotic brace or other durable medical equipment they never requested from their own doctor should check the Medicare Summary Notice mailed after any claim and report unfamiliar billing, since an unsolicited shipment is often the first sign that a beneficiary's Medicare number is being used to bill for equipment they never asked for and never received.`,

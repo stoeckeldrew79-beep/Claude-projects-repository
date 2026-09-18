@@ -7911,6 +7911,45 @@ UsNS.push({
 });
 
 UsNS.push({
+    name: 'Delaware County Gold Courier "Federal Officer" Elder Fraud (Chagamreddy)',
+    slug: 'oklahoma-delaware-county-gold-courier-federal-officer-fraud',
+    description: `In August 2025, a 79-year-old Vietnam veteran in rural Delaware County, Oklahoma received a fake Microsoft tech-support call warning that his identity had been stolen and linked to federal crimes. The caller transferred him to an impersonator posing as a federal officer who provided a false badge number, told him his money was compromised, and instructed him to convert his savings into physical gold, which a courier would collect. Deputies set up an undercover sting and arrested Venkateswara Chagamreddy, 37, an Indian citizen on a U.S. student visa, at the victim's home; his vehicle held $500 cash and 23 ounces of gold worth roughly $100,000. A federal jury convicted him of conspiracy to commit wire fraud in April 2026, and on September 12, 2026, U.S. District Judge John D. Russell in Tulsa sentenced him to 30 months in prison, nearly $100,000 in restitution, and three years of supervised release, after which he faces removal to India. U.S. Attorney Christopher J. Nassar called the scheme "despicable, calculated attacks that prey on some of the most vulnerable and trusting members of our community." Before Oklahoma, Chagamreddy had collected gold from an 87-year-old victim in North Carolina and a 75-year-old victim in Kansas using the same tech-support-to-fake-federal-officer-to-gold-conversion script; anyone told to liquidate savings into gold and hand it to a courier should hang up and independently verify with local police, never a number the caller provides.`,
+    categorySlug: 'tech-support-scams',
+    alertLevel: 'high',
+    sources: ['Hoodline'],
+    sourceUrl: 'https://hoodline.com/2026/09/student-visa-gold-courier-gets-30-months-for-targeting-oklahoma-veteran/',
+    country: 'US',
+    state: 'OK',
+    firstRecorded: '2025-08-01',
+});
+
+UsNS.push({
+    name: 'FBI Oklahoma City "Illegal Firearm Purchase" Bank-Transfer Impersonation Scam',
+    slug: 'oklahoma-city-fbi-firearm-purchase-bank-impersonation-scam',
+    description: `The FBI's Oklahoma City field office issued a public warning, reported September 15, 2026, about a scam in which a caller claiming to represent the victim's bank alleges their personal information was used to illegally purchase firearms, then "transfers" the call to a fake FBI agent who gives a false name and badge number. The fraudulent agent then pressures the victim to hand over sensitive personal and financial information. Investigators say scammers spoof caller ID so the call appears to come from the FBI Oklahoma City office's real main line, 405-290-7770, making the ruse especially convincing. The bureau stressed, "The FBI will never call or email private citizens to demand payment, personal information, threaten arrest or ask you to communicate via an encrypted application." The defining red flag is a bank representative insisting on transferring your call to "the FBI" rather than letting you hang up and dial a verified number yourself; anyone who receives such a call should hang up immediately and report it to the FBI's Internet Crime Complaint Center at ic3.gov.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['OKC Fox 25 (KOKH)'],
+    sourceUrl: 'https://okcfox.com/news/local/oklahoma-city-fbi-warns-citizens-about-agent-impersonation-scam-09-15-2026',
+    country: 'US',
+    state: 'OK',
+    firstRecorded: '2026-09-15',
+});
+
+UsNS.push({
+    name: 'OSBI "ICAC Special Agent" Arrest-Threat Impersonation Scam',
+    slug: 'oklahoma-osbi-icac-special-agent-arrest-threat-scam',
+    description: `The Oklahoma State Bureau of Investigation issued a public warning, published July 28, about scammers impersonating OSBI special agents assigned to its Internet Crimes Against Children Task Force. Victims receive a text message or phone call from someone claiming to be an OSBI agent who says they must immediately call back or an arrest warrant will be issued against them; to appear legitimate, the scammer sometimes texts a photo of counterfeit OSBI law-enforcement credentials. The OSBI stated that real agents "will never contact members of the public by phone or text message to threaten arrest, demand payment or request personal or financial information." The bureau advised recipients not to reply, not to click any links, and not to share personal, financial, or identifying information; instead block the number, delete the message, and report it to local law enforcement or directly to OSBI at tips@osbi.ok.gov or 1-800-522-8017.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Radio Oklahoma News'],
+    sourceUrl: 'https://www.radiooklahomanews.com/post/osbi-warns-oklahomans-about-fake-special-agent-scam',
+    country: 'US',
+    state: 'OK',
+    firstRecorded: '2026-07-28',
+});
+
+UsNS.push({
     name: 'St. George Summit Foot and Ankle Medicare Skin-Substitute Billing Fraud (Ryan Ellsworth)',
     slug: 'st-george-summit-foot-ankle-medicare-skin-substitute-fraud',
     description: `A federal grand jury in the District of Utah indicted Ryan Scott Ellsworth, 47, of Highland — a podiatrist who owned and operated Summit Foot and Ankle clinics across Utah — along with two nurses who worked primarily out of the practice's St. George clinic, Emily Kelly, 45, of Washington, Utah, a licensed nurse practitioner, and Drake Dell Broadbent, 55, of Santa Clara, Utah, a licensed registered nurse, on charges of health care fraud and wire fraud announced May 12, 2026. Prosecutors allege that from July 2021 through December 2025 the three knew Medicare only covers "skin substitute" wound-care products when a wound is medically qualifying and standard wound care has already been tried for 30 days, but they submitted claims for skin substitutes applied to patients who did not have qualifying wounds and for continued treatment that was not medically necessary. The indictment alleges Medicare was billed a combined $61 million for these services, of which it actually paid out roughly $29 million; Ellsworth and Broadbent were also charged with making false statements relating to health care matters. The case remains a pending criminal prosecution — as of the indictment, no plea or conviction has been entered. Medicare beneficiaries who receive a skin-substitute wound treatment, or a bill or Medicare Summary Notice referencing one, are advised to ask their provider directly what specific product was used and why standard wound care wasn't tried first, and to report any billing for equipment or treatment they don't recall receiving to the HHS Office of Inspector General.`,
