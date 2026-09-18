@@ -7,6 +7,8 @@ const router = Router();
 router.get('/drafts', requireAuth, requireRole('admin'), articlesController.listDrafts);
 // Before '/:slug', or the slug route swallows it.
 router.get('/count', articlesController.count);
+router.get('/missing-cover', requireAuth, requireRole('admin'), articlesController.missingCover);
+router.get('/cover-search', requireAuth, requireRole('admin'), articlesController.coverSearch);
 router.get('/', articlesController.list);
 router.get('/:slug', articlesController.getBySlug);
 router.post('/', requireAuth, requireRole('admin'), articlesController.create);
