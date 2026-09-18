@@ -4630,3 +4630,41 @@ UsTZ.push({
     state: 'TN',
     firstRecorded: '2026-09-16',
 });
+
+UsTZ.push({
+    name: 'Vermont School District Phishing Scheme Hijacks Trusted Email Accounts',
+    slug: 'vermont-school-district-email-phishing-scheme',
+    description: `In August 2026, Vermont education officials disclosed that a sophisticated phishing scheme had struck multiple school districts over the summer, including the Slate Valley Unified Union School District and the Orleans Central Supervisory Union. According to VTDigger, attackers sent emails disguised as an "excel secure portal" link — sent from real, already-compromised trusted accounts rather than obviously fake ones. Once a recipient clicked, a hidden script quietly read and deleted messages from the mailbox while auto-generating new phishing emails to that victim's own contacts, letting the attack spread organically. Investigators traced the malicious file to a Google Drive account tied to a German IP address. Denise Reilly-Hughes, Vermont's Secretary of Digital Services, called it "a really common hacking methodology" that works because the messages "can look very real," while Slate Valley Superintendent Brooke Olsen-Farrell confirmed staff had clicked the link but said quick action prevented any data or funds from being compromised. Vermont Attorney General Charity Clark used the incident to urge schools and residents to minimize the personal data they store online. Prevention tip: before clicking any "secure document" or "portal" link in an email — even one that appears to come from a trusted colleague — verify through a separate communication channel, since compromised real accounts, not fake ones, are now the primary way these phishing schemes spread.`,
+    categorySlug: 'phishing',
+    alertLevel: 'medium',
+    sources: ['VTDigger', 'Vermont Agency of Digital Services'],
+    sourceUrl: 'https://vtdigger.org/2026/08/19/vermont-education-officials-face-sophisticated-phishing-scheme-this-summer/',
+    country: 'US',
+    state: 'VT',
+    firstRecorded: '2026-08-19',
+});
+
+UsTZ.push({
+    name: 'Vermont Contractor Deposit-and-Vanish Fraud Spurs Legislative Crackdown (Tammy Merchant Case)',
+    slug: 'vermont-tammy-merchant-contractor-deposit-fraud-legislation',
+    description: `When Vermont homeowner Tammy Merchant paid a contractor $13,386 toward a $33,000 home-improvement project in early 2026, she expected work to begin; instead the contractor never started the job, stopped responding to her calls, and later told her the business was closing for financial reasons before filing for bankruptcy — a move that closed off her ability to sue for the money back, WCAX reported. "Basically, we just wrote him a check and he left," Merchant said, adding, "It's very traumatic because you start to realize you can't trust people." Her case became a centerpiece of testimony backing S.183, a bill sponsored by Sen. Robert Norris (R-Franklin-20) that would let the state fine contractors who "knowingly agree to jobs with no intention of completing them" and would cover any construction contract or change order worth $1,000 or more. Norris said current law leaves victims with no options beyond "taking someone to court civilly and expending more money after you lost a lot of money," while contractor Jason Webster of Huntington Homes cautioned that many disputes are more "disagreement" than fraud — underscoring how hard the intent-based scheme is to prosecute today. The bill had passed the Senate and was pending in the House Judiciary Committee as of April 2026. Prevention tip: never pay more than a small percentage of a project's total cost upfront, and check a contractor's litigation and complaint history with the Vermont Attorney General's Consumer Assistance Program before signing anything.`,
+    categorySlug: 'home-improvement-solar',
+    alertLevel: 'high',
+    sources: ['WCAX', 'Vermont General Assembly'],
+    sourceUrl: 'https://www.wcax.com/2026/04/15/after-vermont-homeowners-lost-thousands-dollars-lawmakers-consider-strengthening-home-improvement-fraud-statute/',
+    country: 'US',
+    state: 'VT',
+    firstRecorded: '2026-04-15',
+});
+
+UsTZ.push({
+    name: 'Vermont Enacts Crypto ATM Fraud Refund Law Amid Record Kiosk-Driven Losses',
+    slug: 'vermont-crypto-atm-kiosk-fraud-refund-law',
+    description: `As cryptocurrency scams drained a record $26.5 million from Vermonters in 2025 — up from $15.6 million the year before, with roughly one in every four dollars lost tied to digital currency, according to Vermont Public — state lawmakers moved to tighten oversight of the Bitcoin ATM kiosks scammers increasingly use to funnel victims' cash into untraceable crypto. Building on Vermont's original 2024 kiosk law, the legislature passed a follow-up bill in 2025, sponsored by Rep. Michael Marcotte (R-Coventry) and backed by AARP Vermont, that extends the state's moratorium on new kiosk installations to July 1, 2026, raises daily transaction ceilings to $2,000 for new customers and $5,000 for returning ones, and — for the first time — requires kiosk operators to refund any customer who reports being defrauded within 90 days of the transaction. "We will see a lot less fraud — hopefully no fraud," Marcotte said of the changes, while AARP Vermont's Colin Hilliard called the refund mandate "among the strongest such crypto ATM consumer protections in the country." Nationally, reported fraud losses funneled through crypto ATMs have climbed nearly tenfold since 2020, and adults over 60 are more than three times as likely as younger users to report being victimized this way. Prevention tip: treat any instruction to "verify," "protect," or "unfreeze" your money by depositing cash into a cryptocurrency ATM as an immediate red flag — no legitimate bank, government agency, or utility will ever direct you to a crypto kiosk to resolve an account issue.`,
+    categorySlug: 'cryptocurrency-scams',
+    alertLevel: 'high',
+    sources: ['AARP Vermont', 'Vermont Public'],
+    sourceUrl: 'https://www.aarp.org/states/vermont/new-guardrails-on-crypto-atm-fraud/',
+    country: 'US',
+    state: 'VT',
+});

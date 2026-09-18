@@ -8152,3 +8152,41 @@ UsNS.push({
     state: 'NH',
     firstRecorded: '2025-02-13',
 });
+
+UsNS.push({
+    name: 'South Dakota Fraudulent Online Casino Warning',
+    slug: 'south-dakota-fraudulent-online-casino-warning',
+    description: `The South Dakota Commission on Gaming, part of the state Department of Revenue, issued a public warning on August 4, 2025 about a surge in fraudulent online casinos falsely claiming to be affiliated with licensed South Dakota gaming establishments in Deadwood and on tribal land. The Commission said scammers are running misleading ads and social media promotions that imitate the branding and logos of well-known Deadwood and tribal casinos, offering unrealistic bonuses or "guaranteed winnings," and directing consumers to cloned websites or fake mobile apps that often use slightly misspelled domains, such as swapping ".net" for ".com." Under South Dakota law, no online platform offering casino-style games such as slots, table games, sports wagering, or digital card games is authorized to operate in the state, so any site claiming otherwise is automatically suspect; consumers who engage with these unauthorized platforms risk losing money to rigged or nonexistent games and risk identity theft if they submit banking or Social Security information to collect "winnings." The Commission, led by Executive Secretary Mark Heltzel, urged South Dakotans to avoid gambling online altogether, to be skeptical of any offer promising risk-free or guaranteed payouts, to never share financial or Social Security information with an unverified platform, and to scrutinize a site's web address carefully before entering any information, reporting suspicious sites to the Commission at DORSDGaming@state.sd.us or (605) 578-3074.`,
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'medium',
+    sources: ['South Dakota Commission on Gaming', 'South Dakota Department of Revenue'],
+    sourceUrl: 'https://dor.sd.gov/newsroom/beware-of-fraudulent-online-casinos-targeting-individuals/',
+    country: 'US',
+    state: 'SD',
+    firstRecorded: '2025-08-04',
+});
+
+UsNS.push({
+    name: 'South Dakota Job Scam Reports Surge Nearly 85%',
+    slug: 'south-dakota-job-scam-report-surge',
+    description: `A 2026 SmartAsset analysis of Federal Trade Commission Consumer Sentinel Network data found that South Dakota experienced the largest year-over-year increase in job-scam reports of any U.S. state, with residents filing 194 job-scam reports in 2025 compared with 105 in 2024 — an increase of roughly 84.8%, equal to about 215.7 reports per million residents. The scams driving the increase are predominantly "task-based" schemes that reach victims by text message or on platforms like WhatsApp and Telegram, luring them with promises of easy pay for simple tasks such as rating or "liking" products online; scammers typically pay out small amounts after the first task to build trust, then invent "levels" that require the victim to deposit their own money — often in cryptocurrency — before they can withdraw supposed earnings, at which point the scammer disappears with the funds. Young adults are especially likely to be targeted, with job scams now the most commonly reported fraud category among 18-to-34-year-olds nationally. Fraud researcher Gilbert Michaud, PhD, cautioned that "job seekers should always be cautious," citing poorly written advertisements as a common warning sign. South Dakotans approached with an unsolicited job offer that requires moving the conversation to a messaging app, paying money up front, or completing "tasks" for escalating rewards should treat it as a scam and report it to the FTC at ReportFraud.ftc.gov or South Dakota's Attorney General Consumer Protection Division at 1-800-300-1986.`,
+    categorySlug: 'employment-scams',
+    alertLevel: 'medium',
+    sources: ['SmartAsset (FTC Consumer Sentinel Network data)', 'Federal Trade Commission'],
+    sourceUrl: 'https://smartasset.com/data-studies/where-job-scams-happen-most-2026-study',
+    country: 'US',
+    state: 'SD',
+});
+
+UsNS.push({
+    name: 'Downtown Sioux Falls Parking QR Code Scam Warning',
+    slug: 'south-dakota-sioux-falls-parking-qr-code-scam-warning',
+    description: `As downtown Sioux Falls rolled out new parking rules and payment options on May 1, 2025 — including a Saturday paid-parking requirement and a new Text-to-Pay system — local officials paired the change with a consumer warning about QR code "quishing" scams that have hit parking meters in other cities. Citing Better Business Bureau guidance, the city warned that scammers place counterfeit QR code stickers over or near legitimate ones on meters and signs; scanning one of these fake codes redirects the driver to a fraudulent payment website designed to steal card numbers or other personal information instead of actually paying for parking. Matt Nelson, the city's Public Parking and Utility Billing Manager, said Sioux Falls deliberately avoided building QR codes into its new system for this reason: "With the new system, there are no QR codes. We're moving away from QR codes." Officials said no fraudulent QR codes had been reported on Sioux Falls meters at the time of the warning, but urged drivers citywide to stay alert for stickers that look homemade, peeling, or out of place on any meter or sign, to pay only through the official Park Smarter app, Text-to-Pay, credit card, or cash, and to report any suspicious QR code found on public parking equipment to the city so it can be removed before someone loses money to it.`,
+    categorySlug: 'qr-code-scams',
+    alertLevel: 'low',
+    sources: ['Dakota News Now', "City of Sioux Falls Public Parking Division", 'Better Business Bureau'],
+    sourceUrl: 'https://www.dakotanewsnow.com/2025/05/01/first-alert-safety-check-how-spot-scam-during-new-dtsf-parking-changes/',
+    country: 'US',
+    state: 'SD',
+    firstRecorded: '2025-05-01',
+});
