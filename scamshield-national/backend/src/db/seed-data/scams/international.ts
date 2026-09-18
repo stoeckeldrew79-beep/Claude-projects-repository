@@ -13722,6 +13722,42 @@ International.push(
 
 International.push(
   {
+    name: 'AIF Warns of "Crypto Dream Fraud" Online Investment Scheme',
+    slug: 'san-marino-crypto-dream-fraud-investment-scam',
+    description: `San Marino's Agenzia di Informazione Finanziaria (AIF), the microstate's financial intelligence unit housed within the Banca Centrale della Repubblica di San Marino, warned on February 25, 2026 that fraudulent online investment schemes had cost San Marino citizens and residents an estimated €900,000 since 2023, with roughly €600,000 of that total traced to a single pattern the agency and local press dubbed the "Crypto Dream Fraud." According to the AIF's advisory, reported by San Marino RTV and Libertas.sm, the fraud typically begins when a self-styled financial promoter or broker makes contact by phone or through a foreign social-media account, offering guaranteed high returns tied to cryptocurrency or online trading platforms; victims are first coaxed into depositing a modest sum of under €500, then pressured into much larger transfers of €5,000 to €10,000 to accounts held abroad. When victims eventually try to withdraw their supposed profits, "victims are requested further commissions and taxes to 'unlock' the funds, which in reality do not exist," the AIF's warning noted. The agency urged the public to distrust any promise of fast, guaranteed returns, to independently verify the identity and licensing of anyone claiming to be a broker or promoter before sending money, and to report suspected fraud immediately to police rather than sending additional funds to "unlock" a balance that will never be paid out.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'high',
+    sources: ['Libertas.sm', 'San Marino RTV', 'Agenzia di Informazione Finanziaria (AIF)'],
+    sourceUrl: 'https://www.libertas.sm/aif-lancia-lallarme-truffe-finanziare-online-dal-2023-perdite-stimate-intorno-ai-900mila-euro-tra-le-piu-diffuse-la-crypto-dream-fraud/',
+    country: 'SM',
+    firstRecorded: '2026-02-25',
+  },
+  {
+    name: "AIF Flags Online Romance Scams Draining San Marino Residents' Savings",
+    slug: 'san-marino-online-romance-scam-aif-warning',
+    description: `In the same February 25, 2026 advisory on rising online fraud, San Marino's Agenzia di Informazione Finanziaria (AIF) singled out online romance scams as a second major driver of the roughly €900,000 in losses San Marino residents have reported since 2023, with individual romance-fraud cases running as high as €15,000 to €20,000 per victim, according to San Marino RTV's report on the agency's findings. The pattern described involves fraudsters building fake profiles on social media or dating platforms, spending weeks or months cultivating what appears to be a genuine long-distance romantic relationship, and then inventing a crisis — a medical emergency, a shipment held up at customs, a sudden legal bill — that only the victim's money can resolve. Because the "partner" is invented and typically operating from outside San Marino, victims who wire money abroad have little realistic chance of recovering it once the fraud is discovered. The AIF's guidance was to treat any online partner who has never met the victim in person and who eventually asks for money as an immediate warning sign, to independently verify a suitor's identity before trusting them financially, and to never wire money to someone encountered only online, no matter how urgent or emotional the request.`,
+    categorySlug: 'romance-scams',
+    alertLevel: 'high',
+    sources: ['San Marino RTV', 'Agenzia di Informazione Finanziaria (AIF)'],
+    sourceUrl: 'https://www.sanmarinortv.sm/news/cronaca-c3/truffe-online-in-aumento-a-san-marino-in-3-anni-rubati-900-mila-euro-a287046',
+    country: 'SM',
+    firstRecorded: '2026-02-25',
+  },
+  {
+    name: 'Fake Supplier "New IBAN" Payment-Diversion Fraud (Business Email Compromise)',
+    slug: 'san-marino-payment-diversion-bec-fraud',
+    description: `San Marino's Agenzia di Informazione Finanziaria (AIF) also identified a third distinct scheme behind the republic's roughly €900,000 in fraud losses since 2023 in its February 25, 2026 warning: business email compromise attacks that redirect corporate payments to accounts controlled by criminals. San Marino RTV, reporting on the AIF's findings, described fraudsters sending businesses "email quasi identiche a quelle dei fornitori abituali" — emails nearly identical to those of a company's regular suppliers — that instruct the accounts department to send an upcoming payment to a newly provided IBAN because of a supposed banking change, after which the funds are transferred directly into accounts the fraudsters control. Because the message closely mimics an already-trusted business relationship, staff working under invoice deadlines can approve the transfer before anyone checks the change through a separate channel. The AIF urged San Marino businesses to verify any request to change a supplier's or executive's payment details by phone, using a number already on file rather than any contact information supplied in the email itself, before releasing funds.`,
+    categorySlug: 'business-email-compromise',
+    alertLevel: 'medium',
+    sources: ['San Marino RTV', 'Agenzia di Informazione Finanziaria (AIF)'],
+    sourceUrl: 'https://www.sanmarinortv.sm/news/cronaca-c3/truffe-online-in-aumento-a-san-marino-in-3-anni-rubati-900-mila-euro-a287046',
+    country: 'SM',
+    firstRecorded: '2026-02-25',
+  },
+);
+
+International.push(
+  {
     name: `Fake Bank "Technical Support" Phishing Ring`,
     slug: 'libya-fake-bank-tech-support-phishing-ring',
     description: `Libya's Financial Crimes, Anti-Money Laundering, and Counter-Terrorism Financing Agency announced on July 8, 2026 that it had dismantled a cyber-fraud ring that built fraudulent social-media pages posing as the official "technical support" accounts of Libyan banks, including Wahda Bank, in order to trick banking customers into handing over their account credentials. Investigators said the ringleader — who had prior fraud complaints on record — ran the fake support pages and coordinated a small network of accomplices who moved the stolen funds through the parallel foreign-exchange market to launder them; two suspects were referred to Tripoli's Partial Anti-Corruption Prosecution. Financial records the agency reviewed showed real scale to the scheme: one suspect alone handled roughly $26,000 in stolen funds while collecting a commission of just 300 dinars, and a second suspect moved about $8,000 through the network, on top of an initial cluster of complaints from three victims who together reported losing 97,145 Libyan dinars. Around the same period, Wahda Bank issued its own cybersecurity warning to customers after a separate case in which a victim lost 49,000 dinars to WhatsApp-based fraud, urging customers to remain vigilant against unsolicited online contact claiming to be from the bank and never to share account credentials with anyone reaching out through a social-media "support" page rather than the bank's own verified channels.`,
