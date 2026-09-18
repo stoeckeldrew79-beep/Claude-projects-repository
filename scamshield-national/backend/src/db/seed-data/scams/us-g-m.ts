@@ -6884,6 +6884,45 @@ UsGM.push({
 });
 
 UsGM.push({
+    name: 'Ameren Missouri Utility Company Impersonation Scam',
+    slug: 'missouri-ameren-utility-impersonation-scam',
+    description: `In June 2025, Ameren Missouri issued a consumer alert after fielding a wave of customer reports of scammers impersonating Ameren employees by phone and online. Fraudsters spoof Ameren's real customer-service caller ID and falsely claim a customer's power will be shut off within the hour unless they pay immediately, often telling victims a technician is already en route to cut service, while others send fake "payment not received" notices demanding urgent payment for equipment installation or repairs. Callers push payment through cryptocurrency, prepaid gift cards, or Cash App, and Ameren has also seen scammers go door-to-door posing as company representatives to schedule bogus "solar panel evaluation" appointments to harvest personal data, alongside counterfeit websites mimicking Ameren's real site with fake contact numbers. Ameren Missouri says it will never demand immediate payment by cryptocurrency or prepaid card, and it urges anyone who gets a suspicious call to hang up and call the utility directly at 800-552-7583 to verify their account status before paying anything or providing personal information.`,
+    categorySlug: 'utility-scams',
+    alertLevel: 'medium',
+    sources: ['Spectrum News 1 (Spectrum Local News)', 'Ameren Missouri'],
+    sourceUrl: 'https://spectrumlocalnews.com/mo/st-louis/news/2025/06/27/ameren-missouri-scam-solar',
+    country: 'US',
+    state: 'MO',
+    firstRecorded: '2025-06-27',
+});
+
+UsGM.push({
+    name: 'Missouri Department of Higher Education Student Loan Forgiveness Phone Scam',
+    slug: 'missouri-dhewd-student-loan-forgiveness-phone-scam',
+    description: `The Missouri Department of Higher Education and Workforce Development issued a statewide warning after residents reported unsolicited phone calls from people impersonating the department and offering enrollment in a "state loan forgiveness program." MDHEWD confirmed flatly that no such Missouri loan forgiveness program exists, and that neither MDHEWD nor the U.S. Department of Education will ever initiate a call to a borrower about forgiving their student loans. Callers use the appearance of state authority to pressure borrowers into revealing personal and financial information or paying upfront "processing fees" for forgiveness that, through legitimate channels, is free. MDHEWD directs borrowers to verify any loan-forgiveness offer directly through the Federal Student Aid website or by calling the Federal Student Aid Information Center at 1-800-433-3243, and to report suspected scams to the Missouri Attorney General's office (573-751-3321), the CFPB (855-411-2372), or the FTC (877-382-3257).`,
+    categorySlug: 'student-loan-education',
+    alertLevel: 'medium',
+    sources: ['KTVO'],
+    sourceUrl: 'https://www.ktvo.com/news/local/missouris-higher-education-department-warning-of-loan-forgiveness-scams/article_75b472b2-e91e-5909-bfaf-e1274a93b8dd.html',
+    country: 'US',
+    state: 'MO',
+    firstRecorded: '2024-03-21',
+});
+
+UsGM.push({
+    name: "Missouri Senior's $1.3 Million Title Company BEC Wire Fraud",
+    slug: 'missouri-title-company-bec-wire-fraud-senior',
+    description: `In March 2025, the FBI's Recovery Asset Team received an IC3 complaint from a Missouri victim, a senior citizen, who was in the process of closing on a property when they received a compromised email posing as their "title company" containing wire instructions for over $1.3 million to a fraudulent bank account. The Recovery Asset Team immediately triggered the Financial Fraud Kill Chain with domestic banking partners, froze the fraudulent recipient account, and found wires had also come in from additional victims, including, the following month, a city government office in Oregon that lost more than $6 million to the very same account before its bank recalled the wire specifically because of the prior Missouri-triggered freeze. The FBI further discovered that the account holder receiving the Missouri victim's money was themselves a victim of a separate overpayment scam and had been instructed to forward $1 million on to a fraudulent account in Hong Kong, triggering an international Financial Fraud Kill Chain notification to FinCEN and the FBI's legal attaché in Hong Kong. Missouri recorded 14,087 IC3 complaints and $233,933,401 in reported losses statewide for 2025, and the FBI's report notes business email compromise ranked as the second-costliest internet crime category nationally that year, behind only investment fraud. Before wiring real estate closing funds, always verify wire instructions by calling a phone number you already know is legitimate, never one provided in the email itself, and confirm any last-minute change to payment instructions directly with your title company or attorney by phone.`,
+    categorySlug: 'business-email-compromise',
+    alertLevel: 'critical',
+    sources: ['FBI Internet Crime Complaint Center (IC3) 2025 Annual Report'],
+    sourceUrl: 'https://www.fbi.gov/file-repository/2025_ic3report.pdf',
+    country: 'US',
+    state: 'MO',
+    firstRecorded: '2025-03-01',
+});
+
+UsGM.push({
     name: 'LaGrange Thrift Savings Plan Call-Center Insider Account Theft (Tekia Peay)',
     slug: 'georgia-lagrange-peay-tsp-insider-account-fraud',
     description: `Tekia Sade Peay, 31, of LaGrange, Georgia, worked for a call center that handled recordkeeping services for the federal government's Thrift Savings Plan (TSP), the retirement savings program for federal employees and members of the military. Prosecutors say Peay used her insider knowledge of the call center's procedures and access systems to gain unauthorized entry into other people's online TSP accounts without their consent, deliberately targeting elderly account holders and the accounts of people who had already died, then worked with a co-conspirator to alter account details and request fraudulent disbursements sent to bank accounts they controlled. The FBI opened an investigation after receiving reports of the fraudulent transactions in August 2023; Peay was ultimately convicted of conspiracy, wire fraud, money laundering, and aggravated identity theft after attempting to steal $76,544.03 and successfully diverting $21,508.32, which she was ordered to repay in full. On February 11, 2026, she was sentenced to 51 months in federal prison, with no possibility of parole, followed by three years of supervised release. Federal employees, retirees, and the families of deceased federal workers should enable every available multi-factor authentication and login-alert option on their TSP account at TSP.gov, watch for any email or mail notice of a change to their address or direct-deposit bank information they didn't request, and periodically check a deceased relative's TSP account rather than assuming it goes untouched once its owner has died.`,
