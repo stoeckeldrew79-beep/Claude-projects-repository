@@ -8521,3 +8521,42 @@ UsGM.push({
     state: 'MD',
     firstRecorded: '2025-05-28',
 });
+
+UsGM.push({
+    name: 'Dominican Republic Call-Center "Grandparent Scam" Defrauds Massachusetts Seniors of Over $5 Million',
+    slug: 'massachusetts-dominican-republic-grandparent-scam-call-center',
+    description: `Federal prosecutors in Boston say a call-center operation run out of the Dominican Republic used the classic "grandparent scam" to defraud more than 400 elderly victims nationwide — including at least 50 in Massachusetts — out of more than $5 million. According to the U.S. Attorney's Office for the District of Massachusetts, ring leader Oscar Manuel Castanos Garcia employed English-speaking staff who split the con into two calls: an "Opener" phoned an elderly victim pretending to be a grandchild who had just been in a car accident, and a "Closer" followed up posing as that grandchild's attorney demanding cash to cover bail or legal fees. Victims, whose average age was 84, were instructed to hand packages of cash to rideshare drivers sent to their homes, ship cash to addresses provided by the callers, or withdraw additional funds at a bank — sometimes with a rideshare driver waiting outside. A federal grand jury indicted the operation in May 2024; four defendants (Castanos Garcia, Joel Jose Cruz Rodriguez, Edward Jose Puello Garcia, and Joel Francisco Mathilda Leon) were arrested in the Dominican Republic in August 2025, extradited to Boston by September 30, 2025, and have since pleaded guilty to conspiracy to commit mail and wire fraud and to money-laundering conspiracy; a fifth defendant, Luis German Santos Burgos, was sentenced on June 25, 2026 to 48 months in prison. Because the scam relies entirely on manufactured panic about a family member in danger, anyone who receives an urgent call claiming to be from a grandchild in trouble should hang up and call that family member directly at a number they already have on file before sending any money, cash, or gift cards.`,
+    categorySlug: 'grandparent-scams',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office, District of Massachusetts (Department of Justice)", 'Fall River Reporter'],
+    sourceUrl: 'https://fallriverreporter.com/four-dominican-nationals-plead-guilty-in-boston-to-fraud-scheme-that-caused-over-5-million-in-losses-to-over-400-seniors/',
+    country: 'US',
+    state: 'MA',
+    firstRecorded: '2024-05-01',
+});
+
+UsGM.push({
+    name: 'Boston Police Warn of Fake QR-Code "Parking Violation Court Notice" Scam',
+    slug: 'massachusetts-boston-fake-qr-code-parking-violation-court-notices',
+    description: `The Boston Police Department issued a community alert warning residents about fraudulent "Notice of Hearing — Parking Violation" letters designed to look like they came from the Boston Municipal Court, when in fact they originate from scammers with no government affiliation at all. The fake notices are dressed up with real-looking trappings — a case number, a judge's name and signature, the court's address, a hearing date, and even a reproduction of the Massachusetts state seal — and each one carries a QR code that the letter urges the recipient to scan in order to pay a supposed fine. Because the documents mimic an official court summons rather than a routine parking ticket, they're built to trigger the anxiety of a legal deadline, pushing people to scan and pay before stopping to question the notice's legitimacy. BPD's alert instructs residents plainly: "Do not scan the QR code or submit any payment based on an unsolicited notice without first verifying it through official channels," directing anyone who receives one to instead confirm any real citation directly through the City of Boston's official parking pages or by calling the Parking Clerk's office, and to report fraudulent notices to BPD or Crime Stoppers at 1-800-494-TIPS rather than engage with the QR code at all.`,
+    categorySlug: 'qr-code-scams',
+    alertLevel: 'medium',
+    sources: ['Boston Police Department'],
+    sourceUrl: 'https://police.boston.gov/2026/03/07/bpd-community-alert-fraudulent-parking-violation-court-notices/',
+    country: 'US',
+    state: 'MA',
+    firstRecorded: '2026-03-07',
+});
+
+UsGM.push({
+    name: 'Massachusetts DOR Warns of Fake Tax-Refund Text Message Scam',
+    slug: 'massachusetts-dor-tax-refund-text-message-scam',
+    description: `The Massachusetts Department of Revenue (DOR) issued a public warning after a wave of fraudulent text messages hit residents' phones falsely claiming that recipients would be disqualified from receiving their state tax refund unless they submitted payment information by a manufactured deadline of September 19, 2025. The texts, impersonating DOR, included a link asking recipients to "confirm" their banking details in order to release the supposed refund — a pretext designed to harvest account numbers and routing information under time pressure. Revenue Commissioner Geoffrey Snyder made clear the messages were entirely fabricated, stating: "If you receive a message urging you to respond quickly or click on a link, please do not reply or click the link. DOR does not send text messages about tax refunds." The department directed anyone targeted to avoid the link entirely, complete any real DOR business only through mass.gov/dor, report the attempt to law enforcement and their bank or credit-card issuer if information was shared, and reach DOR's own Contact Center at (617) 887-6367 or (800) 392-6089 with questions — never the number or link inside the text itself.`,
+    categorySlug: 'tax-scams',
+    alertLevel: 'medium',
+    sources: ['Massachusetts Department of Revenue', 'iBerkshires.com'],
+    sourceUrl: 'https://www.mass.gov/news/massachusetts-department-of-revenue-cautions-public-to-beware-of-text-scams',
+    country: 'US',
+    state: 'MA',
+    firstRecorded: '2025-09-20',
+});
