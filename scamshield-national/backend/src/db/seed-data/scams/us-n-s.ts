@@ -8059,6 +8059,33 @@ UsNS.push({
 });
 
 UsNS.push({
+    name: "Oklahoma Unemployment Benefits Identity-Theft Fraud",
+    slug: "oklahoma-unemployment-benefits-identity-theft-fraud",
+    description:
+      "The Oklahoma Employment Security Commission (OESC) warns that criminals, including organized rings operating overseas, file fraudulent unemployment-insurance claims using stolen names, Social Security numbers, and other personal information belonging to Oklahomans who never applied for benefits at all — a pattern serious enough that OESC has identified roughly 100,000 phony claims with thousands more under review, and victims often find out only when they try to file for real benefits and discover a claim already exists in their name, or when they receive an unexpected wage-review letter or benefits debit card in the mail. OESC's guidance tells residents to never share Social Security numbers or other personal ID information over unsecured channels, to watch for and immediately report unexpected unemployment correspondence or debit cards, and to report suspected fraud to OESC at 405-525-1500 or fraud@oesc.state.ok.us so a bogus claim can be shut down before more benefits are paid out in the victim's name.",
+    categorySlug: "public-benefits-fraud",
+    alertLevel: "medium",
+    sources: ["Oklahoma Employment Security Commission (OESC)"],
+    sourceUrl: "https://oklahoma.gov/oesc/individuals/fraud.html",
+    country: "US",
+    state: "OK",
+});
+
+UsNS.push({
+    name: "Oklahoma FEMA Disaster-Assistance Impersonation Fraud",
+    slug: "oklahoma-fema-disaster-assistance-impersonation-fraud",
+    description:
+      "Following the March 14-21, 2025 wildfires and straight-line winds that triggered a federal major-disaster declaration for seven Oklahoma counties, FEMA issued an Oklahoma-specific fraud alert warning that criminals use survivors' stolen names, addresses, and Social Security numbers to file bogus disaster-assistance applications in their name, meaning a resident who never applied may be contacted out of the blue by a real FEMA housing inspector about a claim they didn't file, while other scammers pose as FEMA or Small Business Administration representatives or \"housing inspectors\" who show up, call, or text demanding an upfront fee or bank account details before \"releasing\" a disaster grant. FEMA stresses that its representatives and SBA staff carry official photo-ID badges, never charge for applications, inspections, or help completing paperwork, and never collect banking information in the field, and directs anyone contacted about an application they never submitted to tell the inspector so the fraudulent claim can be stopped, reporting scams to the FEMA Disaster Fraud Branch at StopFEMAFraud@fema.dhs.gov or the Oklahoma Attorney General's Consumer Protection Unit at 833-681-1895.",
+    categorySlug: "government-impersonation",
+    alertLevel: "high",
+    sources: ["FEMA (Federal Emergency Management Agency)", "Oklahoma Attorney General's Office"],
+    sourceUrl: "https://www.fema.gov/press-release/20250613/be-alert-fraud-after-disaster",
+    country: "US",
+    firstRecorded: "2025-06-13",
+    state: "OK",
+});
+
+UsNS.push({
     name: "Oklahoma Robocall Crackdown: Amazon, Apple, SSA and IRS Imposter Calls",
     slug: "oklahoma-robocall-crackdown-amazon-apple-ssa-irs-imposter-calls",
     description:
