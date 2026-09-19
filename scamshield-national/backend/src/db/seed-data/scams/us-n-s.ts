@@ -8462,3 +8462,15 @@ UsNS.push({
     country: 'US',
     state: 'NJ',
 });
+
+UsNS.push({
+    name: 'Puerto Rico DACO Venezuela Earthquake Relief Charity Fraud Alert',
+    slug: 'puerto-rico-daco-venezuela-earthquake-relief-charity-fraud',
+    description: `Puerto Rico's Department of Consumer Affairs (DACO) announced on July 6, 2026 an aggressive operation to identify, catalog, and warn consumers about a surge of fraudulent schemes soliciting money for victims of the late-June 2026 earthquakes in Venezuela, run by the agency's Unit for the Detection of Fraudulent Schemes Against the Consumer. DACO Secretary Hiram Torres Montalvo said that as Puerto Rico's government worked with the federal State Department to send aid to Venezuela, "unscrupulous people are using this difficult situation to create and execute a series of fraudulent schemes centered on soliciting economic aid for Venezuela," warning that the FBI had already issued a nationwide alert — including for Puerto Rico — over fake websites, social media pages, and other schemes using generative AI to steal identities and money from people trying to help. The FBI told DACO that in just the first five days after the earthquakes it had identified roughly 212 separate fraud schemes tied to the disaster, with an estimated consumer cost of $114.2 million nationally. Torres Montalvo stressed the same rule that applies after any disaster: "The Government or the nonprofit organizations working on aid from Puerto Rico to Venezuela do not request money through emails or text messages, nor do they ask for personal data such as Social Security numbers or bank statements," and urged anyone who spots a suspicious appeal for Venezuela earthquake aid to report it through DACO's official Facebook, Instagram, or X accounts ("DACO a tu favor") or at www.daco.pr.gov rather than donate through an unsolicited link or message.`,
+    categorySlug: 'charity-scams',
+    alertLevel: 'high',
+    sources: ['Puerto Rico Department of Consumer Affairs (DACO)', 'El Vocero'],
+    sourceUrl: 'https://www.elvocero.com/gobierno/daco-alerta-por-fraude-con-ayudas-para-v-ctimas-en-venezuela/article_ecdb22b8-36a4-42c5-9402-215366ec3a5d.html',
+    country: 'US',
+    state: 'PR',
+});

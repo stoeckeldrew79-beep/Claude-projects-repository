@@ -9271,3 +9271,25 @@ UsAF.push({
     sourceUrl: 'https://www.consumerfinance.gov/about-us/blog/beware-of-scammers-pretending-to-be-from-the-cfpb/',
     country: 'US',
 });
+
+UsAF.push({
+    name: 'AI "Nudify" App Sextortion Scam',
+    slug: 'ai-nudify-app-sextortion-scam',
+    description: `Scammers feed an ordinary, fully clothed photo — often pulled straight from a target's own social media — into an AI "nudify" website or app that artificially strips the clothing to generate a convincing fake nude image, then use the fabricated image to extort the person, commonly a teenager, for money or real explicit images, threatening to send it to their school, family, or online contacts. Because no genuine nude photo, webcam session, or prior relationship is required, the scheme removes the biggest obstacle to traditional sextortion: any public photo can be turned into leverage within minutes, and a Tech Transparency Project review found dozens of these apps on the Apple App Store, some rated for ages 9 and up. On May 20, 2026, the FTC sent warning letters to 12 "nudify" websites for failing to comply with the federal TAKE IT DOWN Act, which took effect May 19, 2026 and requires platforms to remove a valid non-consensual intimate image within 48 hours of a request or face civil penalties of up to $53,088 per violation; separate letters went to Apple, Google, Meta, TikTok, X, and other major platforms reminding them of their own compliance duties. Anyone targeted with a fabricated "nudify" image should not pay, should preserve the messages as evidence, can demand takedown directly from the hosting platform under the TAKE IT DOWN Act, and should report it to the FTC or, for a minor victim, to NCMEC's CyberTipline.`,
+    categorySlug: 'sextortion',
+    alertLevel: 'high',
+    sources: ['Federal Trade Commission'],
+    sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2026/05/ftc-sends-warning-letters-companies-about-compliance-take-it-down-act',
+    country: 'US',
+});
+
+UsAF.push({
+    name: 'AI-Scoured Obituary "Late Spouse Owed Money" Scam',
+    slug: 'ai-scoured-obituary-late-spouse-owed-money-scam',
+    description: `Scammers now run AI tools against newly published obituaries — which routinely list a spouse's full name, children's and grandchildren's names, a hometown, employer, school, military branch, and church or club — to identify a recently widowed person within hours of a death notice going online, then cross-reference those details against social media and public records to build a convincing, personalized script. Threat-intelligence firm Blackbird.AI says scammers increasingly prioritize obituaries from wealthier neighborhoods, betting on larger savings to target, while Truecaller has documented cases reaching its own customers: in one, a caller told a recently widowed woman he had "helped" her late husband hide unreported income from the IRS and that she needed to pay $7,000 to "preserve what was left of her inheritance" and keep the supposed tax debt from being reported — she paid before her family discovered the scam, and the money could not be recovered. The FBI recorded $7.7 billion in losses reported by Americans 60 and older to cyber-enabled fraud in 2025, an average of roughly $38,500 per victim, with recently widowed older adults flagged as especially vulnerable because they are grieving while also handling an overwhelming volume of real financial and estate paperwork. Families are advised to leave a deceased person's mother's maiden name, full birthdate, home address, and other identifying details out of a published obituary, and to treat any unsolicited call or message claiming a deceased relative owed money or hid assets — especially one demanding a quick payment to protect an inheritance — as a scam to verify independently with an attorney or the IRS directly, never through a number or link the caller supplies.`,
+    categorySlug: 'legal-debt-collection',
+    alertLevel: 'medium',
+    sources: ['Yahoo Finance (USA Today)', 'Truecaller'],
+    sourceUrl: 'https://finance.yahoo.com/technology/ai/articles/ai-scammers-scouring-obituaries-target-104500023.html',
+    country: 'US',
+});

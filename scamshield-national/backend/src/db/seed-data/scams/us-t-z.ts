@@ -4942,3 +4942,15 @@ UsTZ.push({
     isHistorical: true,
     firstRecorded: '2022-04-01',
 });
+
+UsTZ.push({
+    name: 'Virgin Islands DLCA In-Person Fee Collection Impersonation Scheme',
+    slug: 'virgin-islands-dlca-in-person-fee-collection-scheme',
+    description: `The V.I. Department of Licensing and Consumer Affairs (DLCA) warned business owners on August 7, 2026 about individuals showing up in person at business locations claiming to represent the department and demanding payment of licensing fees, penalties, or other charges on DLCA's behalf. Unlike the robocalls and phishing texts that make up most government-impersonation scams in the territory, this scheme relies on an in-person visit to a storefront, giving the impersonator the added credibility of a face-to-face encounter and putting a business owner on the spot to pay before they can call the department to check. DLCA Commissioner Nathalie Hodge said plainly that "anyone claiming to represent the Department and requesting payment at your place of business should be treated with caution," and the department has not disclosed how many businesses have been approached or whether any have actually paid. Business owners are advised never to hand over cash, a check, or credit card information to anyone collecting on DLCA's behalf outside the department's official channels, to ask for identification before engaging further, to note the visitor's name, physical description, and vehicle information if it is safe to do so, and to report any such visit to DLCA directly or to the Virgin Islands Police Department if the person becomes threatening.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['V.I. Department of Licensing and Consumer Affairs (DLCA)', 'St. Thomas Source'],
+    sourceUrl: 'https://stthomassource.com/content/2026/08/07/dlca-warns-businesses-of-fraudulent-fee-collection-scheme/',
+    country: 'US',
+    state: 'VI',
+});
