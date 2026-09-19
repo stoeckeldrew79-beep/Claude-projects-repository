@@ -5020,3 +5020,51 @@ UsTZ.push({
     country: 'US',
     state: 'VI',
 });
+
+UsTZ.push({
+    name: 'Virginia DMV Unpaid Traffic Ticket Text Message Scam',
+    slug: 'virginia-dmv-unpaid-traffic-ticket-text-scam',
+    description: `Virginia's Department of Motor Vehicles has repeatedly warned residents about a recurring text-message scam that falsely claims the recipient owes money on an unpaid traffic ticket or fine. The message, sent from a spoofed or unfamiliar number, tells the recipient that unless they pay immediately, their driver's license and vehicle registration will be suspended — sometimes with additional threats about their credit report or the possibility of criminal prosecution. The text includes a link that, if clicked, leads to a fraudulent page designed to harvest personal and financial information rather than to any real DMV system.
+
+The scam is not a one-time event: Virginia DMV and local news outlets documented fresh waves of nearly identical messages in June 2025 and again in March 2026, and the Virginia Beach Sheriff's Office separately warned residents about the same pattern. DMV spokesperson Camila Barco told reporters plainly that "the Virginia DMV will never send you a text message about fines or suspensions," and that the agency will never ask for financial information by text. The real DMV communicates by mail or through a driver's own online account — never by unsolicited SMS demanding immediate payment. This is a distinct alert from Virginia's separate unpaid-toll text scam warning — this one specifically concerns traffic tickets and fines, not tolls.
+
+Virginians who receive one of these texts are advised not to click the link or reply, to report the message using their phone's "report junk" feature or by forwarding it to 7726 (SPAM), and to verify any claimed ticket or fine only by going directly to dmv.virginia.gov or calling a number looked up independently — never one provided in the text itself.`,
+    categorySlug: 'phishing',
+    alertLevel: 'medium',
+    sources: ['Virginia Department of Motor Vehicles', 'WUSA9', '12 On Your Side (WVEC)', 'Virginia Beach Sheriff\'s Office'],
+    sourceUrl: 'https://www.dmv.virginia.gov/news/virginia-dmv-warns-customers-text-scam',
+    country: 'US',
+    state: 'VA',
+});
+
+UsTZ.push({
+    name: 'Norfolk "Package Waiting" USPS Text Message Scam',
+    slug: 'virginia-norfolk-usps-package-smishing-scam',
+    description: `The Norfolk Sheriff's Office Consumer Protection Unit has warned Hampton Roads residents about a text-message scam impersonating the U.S. Postal Service. The message claims a package addressed to the recipient could not be delivered because additional address information is needed, and directs them to click a link to "confirm" their shipping details or risk having the package returned to sender. The linked page is not run by USPS — it is built to harvest personally identifying information, including account credentials, Social Security numbers, dates of birth, and payment card numbers, which scammers then use for identity theft and further fraud.
+
+The Sheriff's Office noted that this is a classic "smishing" (SMS phishing) attack: it works because most people do, in fact, order packages regularly, making an unexpected delivery notice plausible on its face. USPS does not proactively text customers about delivery problems unless a customer has already opted in with a tracking number, and it never asks for financial or personal information by text. The tactic is not unique to any one moment — regional consumer-protection groups have continued flagging the same "package on hold" text template recurring around high-shipping-volume periods such as the winter holidays.
+
+Residents who receive one of these texts are advised not to click the link, not to reply or call any number in the message, and to verify any real package status only by going directly to USPS.com and entering a tracking number themselves, rather than following a link from an unsolicited text.`,
+    categorySlug: 'package-delivery-scams',
+    alertLevel: 'low',
+    sources: ['Norfolk Sheriff\'s Office Consumer Protection Unit'],
+    sourceUrl: 'https://norfolk-sheriff.com/fraudwatch/fraud-watch-news/text-message-circulating-claims-you-have-a-package-waiting-its-a-scam',
+    country: 'US',
+    state: 'VA',
+});
+
+UsTZ.push({
+    name: 'Fairfax County Foreclosure Rescue Scam',
+    slug: 'virginia-fairfax-foreclosure-rescue-scam',
+    description: `Fairfax County's Cable and Consumer Services Division has warned homeowners facing foreclosure about scammers posing as "foreclosure rescue" services. These operators approach distressed homeowners — often through direct mail, door-knocking, or online ads targeting people who have missed mortgage payments — and promise they can stop a foreclosure "regardless of your circumstances." In reality, they collect an upfront fee and either do nothing or make the homeowner's situation worse.
+
+The tactics documented by the county include demanding payment in cash, cashier's check, or wire transfer before any work begins; instructing the homeowner to cut off contact with their actual lender, an attorney, or a legitimate housing counselor; and, in some versions, convincing the homeowner to stop paying their mortgage altogether and instead send payments directly to the scammer. A particularly damaging variant involves persuading the homeowner to sign over the deed or title to their home — sometimes framed as a "lease-back" arrangement with an option to repurchase later — after which the scammer can sell or refinance the property, wiping out the homeowner's equity and leaving them without their house.
+
+Fairfax County notes that Virginia's Consumer Protection Act specifically prohibits charging advance fees for foreclosure-rescue services, and that any legitimate help available to distressed homeowners — from a HUD-approved housing counselor, for instance — is free. Warning signs include being pressured to sign paperwork quickly without time to review it, being asked to sign documents with blank lines still on them, and any request to redirect mortgage payments away from the actual loan servicer. Residents who believe they are being targeted are advised to contact Fairfax County Consumer Affairs directly, or to report the matter to the FTC or FBI.`,
+    categorySlug: 'mortgage-foreclosure-scams',
+    alertLevel: 'medium',
+    sources: ['Fairfax County Cable and Consumer Services Division', 'Virginia Consumer Protection Act'],
+    sourceUrl: 'https://www.fairfaxcounty.gov/cableconsumer/csd/foreclosure-rescue-scammers',
+    country: 'US',
+    state: 'VA',
+});
