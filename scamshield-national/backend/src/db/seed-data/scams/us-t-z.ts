@@ -4613,6 +4613,42 @@ UsTZ.push({
 });
 
 UsTZ.push({
+    name: 'Wisconsin DATCP Video-Call Bank Impersonation Scam',
+    slug: 'wisconsin-datcp-video-call-bank-impersonation-scam',
+    description: `The Wisconsin Department of Agriculture, Trade and Consumer Protection (DATCP) issued a consumer alert on August 26, 2026 after receiving its first reported case in the state of scammers impersonating bank representatives over video calls. In the scheme, a scammer first reaches a victim by an ordinary phone call, then switches the conversation to video — either asking the victim to point their phone camera at their computer screen while logging into an online banking account, or asking them to share their screen directly — which lets the scammer capture login credentials, security-question answers, and account numbers in real time. Michelle Reinen, administrator of DATCP's Division of Trade and Consumer Protection, warned that scammers rely on manufactured pressure and urgency, and that AI tools can now make a fake video presence more convincing. DATCP recommends never sharing a screen or logging into an account during an unsolicited video call, hanging up and calling the bank back at an independently verified number or visiting a branch in person, and, if a scam is suspected mid-call, taking a screenshot to include when reporting the incident to a phone carrier, local law enforcement, the FTC, or DATCP.`,
+    categorySlug: 'phishing',
+    alertLevel: 'high',
+    sources: ['Wisconsin Department of Agriculture, Trade and Consumer Protection (DATCP)', 'WBAY-TV'],
+    sourceUrl: 'https://www.wbay.com/2026/08/26/scammers-now-using-video-calls-pose-banks-state-agency-warns/',
+    country: 'US',
+    state: 'WI',
+});
+
+UsTZ.push({
+    name: 'Dane County Jail Booking Bail Scam',
+    slug: 'wisconsin-dane-county-jail-booking-bail-scam',
+    description: `The Dane County Sheriff's Office warned on August 20, 2026, and again on September 14, 2026, about a phone scam that exploits the fact that jail booking records are public. Scammers pull the name of someone recently booked into the Dane County Jail from those records, then call the person's family members while spoofing the sheriff's office's real phone number and posing as an actual deputy, falsely claiming a specific bail amount — one reported case demanded $4,500 — must be paid immediately to secure release. The office said it had fielded multiple such reports over a three-week span leading into the September alert, with callers relying on fear and urgency to push victims into paying before they can verify anything. Sheriff Kalvin Barrett stressed that the real Dane County Sheriff's Office will never call to demand bail money or banking information by phone, and that legitimate bail is posted in person at the jail, never through a phone call, wire transfer, gift card, or cryptocurrency payment demanded by a caller. Anyone who receives such a call is advised to hang up and contact the sheriff's office or local law enforcement directly using an independently verified number.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ["Dane County Sheriff's Office", 'WKOW', 'WMTV NBC15'],
+    sourceUrl: 'https://danecounty.gov/PressDetail/11941',
+    country: 'US',
+    state: 'WI',
+});
+
+UsTZ.push({
+    name: 'Wisconsin AI-Generated "Senior Homeowner Tax Review" Property Tax Scam',
+    slug: 'wisconsin-dor-senior-homeowner-tax-review-ai-scam',
+    description: `The Wisconsin Department of Revenue (DOR) warned on September 3, 2026 about an AI-generated video circulating on social media that falsely claims a federal program lets senior homeowners freeze or reduce their property taxes. The video directs viewers to contact their county assessor and request a "Senior Homeowner Tax Review Request" or a fabricated "IRS Form 1098-SR" — neither of which exists — and the contact information it provides does not reach a real assessor's office but instead connects victims to scammers. Secretary of Revenue David Casey said the video is "designed to trick seniors into sharing Social Security numbers and banking details, or paying fees for nonexistent filing services," and DOR emphasized that property tax relief in Wisconsin is administered exclusively by state and local government, never the federal government, and never through a viral video or an IRS-filed form. The same fabricated "Form 1098-SR" pitch was flagged the same week by officials in Los Angeles County, California, suggesting the video is spreading through multiple states at once. Wisconsin homeowners are advised never to give a Social Security number, bank account information, or a fee to anyone offering property tax relief this way, and to verify any such claim directly with their county assessor's office or by contacting DATCP's Consumer Protection Hotline at (800) 422-7128.`,
+    categorySlug: 'tax-scams',
+    alertLevel: 'medium',
+    sources: ['Wisconsin Department of Revenue', 'WisPolitics', 'WHBL'],
+    sourceUrl: 'https://www.wispolitics.com/2026/dept-of-revenue-warns-senior-homeowners-about-viral-property-tax-scam/',
+    country: 'US',
+    state: 'WI',
+});
+
+UsTZ.push({
     name: 'Texas Central Texas Floods FEMA Impersonation and Identity-Theft Scam (Disaster #4879)',
     slug: 'texas-central-floods-2025-fema-impersonation-identity-theft',
     description: `After catastrophic flash flooding along the Guadalupe River beginning July 2, 2025 killed dozens in Kerr County and surrounding Hill Country counties, FEMA issued a fraud alert on July 14, 2025 for Disaster #4879 warning that criminals were using survivors' stolen names, addresses, and Social Security numbers to file fraudulent disaster-assistance applications in their names, while others impersonated FEMA housing inspectors in person or by phone, requesting banking details or a payment "to expedite" a grant. FEMA's alert stressed that FEMA and SBA representatives never charge applicants for disaster assistance, inspections, or help filling out forms, and directed survivors to a Disaster Recovery Center at First Baptist Church, 625 Washington St., in Kerrville. Suspected fraud can be reported to the FEMA Fraud Branch at StopFEMAFraud@fema.dhs.gov, the FEMA Helpline at 800-621-3362, or the Texas Attorney General's office at 800-621-0508. Anyone contacted by someone claiming to be a FEMA inspector asking for banking information or a fee should hang up and verify independently through fema.gov or the DisasterAssistance.gov portal.`,
