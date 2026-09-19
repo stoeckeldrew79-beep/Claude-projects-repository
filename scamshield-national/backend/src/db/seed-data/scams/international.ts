@@ -20881,3 +20881,14 @@ International.push({
   sourceUrl: 'https://www.pjguinebissau.com/artigos/pj-desmantela-rede-de-burla-com-vistos-e-faz-apreensao-de-milhares-de-passaportes/',
   country: 'GW',
 });
+
+International.push({
+  name: 'Unlicensed "Quick Promo," "Korsou Legacy Capital Group," and "Elite Wealth Forum" Pyramid Schemes (Curaçao)',
+  slug: 'curacao-quick-promo-korsou-legacy-elite-wealth-forum-pyramid-schemes',
+  description: `The Centrale Bank van Curaçao en Sint Maarten (CBCS) issued a public warning on September 17, 2026 naming three investment programs being promoted to the public through social media — "Quick Promo," "Korsou Legacy Capital Group," and "Elite Wealth Forum" — none of which are licensed, registered, or supervised by the CBCS to offer financial or investment services. The central bank said the programs share features it associates with pyramid schemes: subscription-based participation, rewards for recruiting new members, incentives tied to digital/crypto tokens, and multi-level compensation structures where payouts to earlier participants depend on continued recruitment rather than any real underlying income source. The CBCS said it is separately concerned that some of these programs' use of virtual or crypto assets may trigger additional regulatory requirements they are not meeting, putting them in violation of the law and exposing them to supervisory, regulatory, and enforcement action, including possible referral to law enforcement and prosecutors. The bank urged residents of Curaçao and Sint Maarten to treat multi-level, recruitment-driven compensation and opaque business models as red flags, to verify any investment program's authorization against the CBCS's public Register of Supervised Institutions before participating, and to report suspected fraudulent schemes through the CBCS's online reporting form.`,
+  categorySlug: 'ponzi-pyramid-schemes',
+  alertLevel: 'high',
+  sources: ['Centrale Bank van Curaçao en Sint Maarten (CBCS)', 'Curaçao Chronicle', '721news.com'],
+  sourceUrl: 'https://www.curacaochronicle.com/post/unknown/cbcs-warns-public-about-quick-promo-korsou-legacy-capital-group-and-elite-wealth-forum',
+  country: 'CW',
+});
