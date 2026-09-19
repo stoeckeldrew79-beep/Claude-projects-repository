@@ -20912,3 +20912,16 @@ International.push({
   sourceUrl: 'https://www.curacaochronicle.com/post/unknown/cbcs-warns-public-about-quick-promo-korsou-legacy-capital-group-and-elite-wealth-forum',
   country: 'CW',
 });
+
+International.push({
+  name: 'Fake Visa "Fast-Track" Advance-Fee Scam Network Dismantled (Djibouti)',
+  slug: 'djibouti-fake-visa-advance-fee-scam',
+  description: `Djibouti's Gendarmerie nationale announced on July 22, 2026 that its Section de Recherches et de Documentation (SRD) had dismantled the first network identified under a new national effort to catalog victims of cyber-fraud — a ring specializing in fake online visa offers. According to investigators, the group targeted Djiboutians who wanted to travel or emigrate abroad, promising to quickly obtain a foreign visa in exchange for payment. Unlike a legitimate visa broker or even a document forger who produces convincing fake paperwork to support a real application, this network had nothing real to sell: the "supporting documents" it handed over to paying candidates were entirely fictitious, and no actual visa application was ever filed on their behalf. The entire process existed only to extract money from people eager for a fast track abroad.
+
+The Gendarmerie estimated the financial damage at several million Djiboutian francs, though it did not disclose the number of identified victims. The SRD's investigation identified the ring's principal members, who were arrested and referred to prosecutors to answer for the fraud. Authorities framed the case as the first network uncovered under a broader national push to identify and register victims of online scams — suggesting Djiboutian law enforcement expects more such networks to surface as the effort continues. The case is a reminder that a "guaranteed" fast visa offered by a broker in exchange for an upfront fee is a red flag, not a shortcut: visas should be sought directly and only through the relevant embassy, consulate, or an accredited, licensed visa service — never through an intermediary promising to skip the normal process for a price.`,
+  categorySlug: 'travel-vacation-scams',
+  alertLevel: 'medium',
+  sources: ['Agence Djiboutienne d\'Information (ADI)', 'Gendarmerie Nationale de Djibouti'],
+  sourceUrl: 'https://www.facebook.com/www.adi.dj/posts/escroquerie-aux-faux-visas-un-premier-r%C3%A9seau-d%C3%A9mantel%C3%A9-plusieurs-millions-de-fra/1493427219477633/',
+  country: 'DJ',
+});
