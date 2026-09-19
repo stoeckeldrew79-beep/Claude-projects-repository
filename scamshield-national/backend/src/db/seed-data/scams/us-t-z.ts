@@ -4928,3 +4928,17 @@ UsTZ.push({
     sourceUrl: "https://da.sonomacounty.ca.gov/tsa-pre-check-scam-do-not-renew-or-sign-up-from-link-in-an-email",
     country: "US",
 });
+
+UsTZ.push({
+    name: 'Amazon Flex Fake Support Number Remote-Access Scam',
+    slug: 'texas-amazon-flex-fake-support-anydesk-strike-scam',
+    description: `Houston resident Bemenet Mesfen signed up for Amazon Flex to earn extra income for his family and, running into trouble on his very first delivery attempt, searched online for Amazon's customer service number because he couldn't find one in the app. The number he found instead connected him to a scammer identifying himself as "Kevin from Amazon," who talked him through downloading AnyDesk, a legitimate remote-desktop app, to "fix" his account issue, then had him install Strike, a cryptocurrency payment app, to "verify" his identity. With remote access to his phone, the scammer drained Mesfen's bank account for a total of $3,500. Neither Amazon nor his bank was able to recover the funds, as reported by ABC13 Houston. The same fake-support-number setup has resurfaced around Amazon's real 2026 FTC-ordered refund payments to Flex drivers whose tips were withheld, with the FTC warning that it never asks a driver to pay anything or hand over a Social Security number or bank details to receive that refund. Gig-platform drivers should get a support number only from the official app's own help section, never a general web search, and should treat any request to install remote-access software or a crypto payment app during a "support" call as an automatic red flag — a real support agent never needs to see or control your device.`,
+    categorySlug: 'tech-support-scams',
+    alertLevel: 'high',
+    sources: ['ABC13 Houston', 'Federal Trade Commission'],
+    sourceUrl: 'https://abc13.com/post/scam-fraud-customer-service-man-scammed/11793916/',
+    country: 'US',
+    state: 'TX',
+    isHistorical: true,
+    firstRecorded: '2022-04-01',
+});
