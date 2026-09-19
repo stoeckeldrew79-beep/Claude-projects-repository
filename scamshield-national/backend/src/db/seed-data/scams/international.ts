@@ -20848,3 +20848,36 @@ International.push({
   sourceUrl: 'https://adi.dj/',
   country: 'DJ',
 });
+
+International.push({
+  name: 'Bissau Ponzi Investment Scheme Alert',
+  slug: 'guinea-bissau-ponzi-investment-scheme',
+  description: `Guinea-Bissau's Polícia Judiciária (Judicial Police) issued a public alert after identifying a fraud network operating in the capital, Bissau, running a classic Ponzi scheme: organizers recruit investors with promises of exorbitant, unrealistic returns in a short period of time, then pay earlier participants using money collected from newer recruits rather than any real investment income. The scheme collapses once recruitment slows and there is no longer enough new money coming in to pay earlier investors. The PJ urged citizens to treat guaranteed high, fast returns as a red flag, verify that any company soliciting investment is actually licensed by the relevant regulator, consult an independent financial adviser before investing, and report suspicious solicitations to police immediately.`,
+  categorySlug: 'ponzi-pyramid-schemes',
+  alertLevel: 'medium',
+  sources: ['Polícia Judiciária da Guiné-Bissau'],
+  sourceUrl: 'https://www.pjguinebissau.com/artigos/alerta-de-burla-esquema-ponzi/',
+  country: 'GW',
+});
+
+International.push({
+  name: 'Eclipse Earn Cyber Investment Fraud (Guinea-Bissau)',
+  slug: 'eclipse-earn-guinea-bissau-investment-fraud',
+  description: `Guinea-Bissau's Polícia Judiciária warned the public about a large-scale cyber fraud running through a virtual platform called Eclipse Earn, which promises victims "immediate and substantial gains" from online investment. To build false credibility, the operators misappropriated photographs and fabricated interviews of well-known Guinean figures from politics, culture, and civil society, making it appear those public figures endorsed or used the platform. The PJ said no such endorsements were authorized, and urged citizens not to share personal or financial information with the platform, to treat any promise of easy or guaranteed profit with suspicion, and to report suspicious activity to police.`,
+  categorySlug: 'investment-fraud',
+  alertLevel: 'high',
+  sources: ['Polícia Judiciária da Guiné-Bissau'],
+  sourceUrl: 'https://www.pjguinebissau.com/artigos/alerta-de-burla-cibernetica-eclipse-earn/',
+  country: 'GW',
+});
+
+International.push({
+  name: 'Fake Embassy Visa Broker Fraud (Guinea-Bissau)',
+  slug: 'guinea-bissau-fake-visa-broker-fraud',
+  description: `Guinea-Bissau's Judicial Police, through its National Unit for the Repression of Economic Crimes (UNRDE), has repeatedly dismantled networks that charge desperate would-be emigrants large sums for visas that never materialize. In one case in Safim, Biombo region, a man was arrested in August 2026 after falsely claiming to have contacts inside the Spanish Embassy who could obtain visas, collecting a reported 3.5 million CFA francs per victim before being detained with multiple passports and a military uniform in his possession. In a separate, larger network broken up the same year, regional recruiters funneled emigration candidates toward organizers who promised visas through the Portuguese Embassy in exchange for payment; police seized thousands of passports and forged documents before the ringleader was placed in pretrial detention. UNRDE director Domingos Monteiro Correia said the network "dedicated itself in a structured way to qualified forgery and fraud," and urged anyone seeking to emigrate to deal only with embassies directly rather than intermediaries claiming special access.`,
+  categorySlug: 'employment-scams',
+  alertLevel: 'high',
+  sources: ['Polícia Judiciária da Guiné-Bissau'],
+  sourceUrl: 'https://www.pjguinebissau.com/artigos/pj-desmantela-rede-de-burla-com-vistos-e-faz-apreensao-de-milhares-de-passaportes/',
+  country: 'GW',
+});
