@@ -7190,3 +7190,20 @@ The Depok District Court convicted Nuryanto on December 11, 2017, finding — in
 Pandawa Group is a case study in how a loosely regulated legal form — Indonesia's cooperative structure, designed to let neighbors pool savings for each other's benefit — can be repurposed at enormous scale to give a Ponzi scheme the appearance of a grassroots community institution rather than an obviously predatory investment pitch. A guaranteed, unchanging monthly return, paid regardless of market conditions or how the underlying money is actually used, is not a sign of a manager's skill; no legitimate lending or investment business can promise a fixed outcome divorced from real economic risk, and the humbler and more "of the community" an operation presents itself, the more that promise deserves scrutiny rather than less.`,
     sourceUrl: 'https://news.republika.co.id/berita/p0sgdv354/bos-ksp-pandawa-divonis-15-tahun-penjara',
 });
+
+NotoriousNS.push({
+    title: "Stein Bagger and the Fake Contracts That Sank Denmark's \"Best IT Company\"",
+    slug: 'stein-bagger-it-factory-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical', 'international'],
+    body: `IT Factory was a Copenhagen-based reseller of IT security and infrastructure software, and by 2008 its charismatic CEO, Stein Bagger, was one of Denmark's most celebrated young entrepreneurs. Ernst & Young named him Danish Entrepreneur of the Year in 2008, and the trade magazine Computerworld twice named IT Factory Denmark's best IT company. The company also sponsored the CSC-Saxo Bank professional cycling team led by Bjarne Riis, giving Bagger a public profile that reached well beyond the software industry.
+
+None of the growth behind that reputation was real. Investigators later found that as much as 90 percent of IT Factory's reported revenue traced back to fabricated sales contracts: Bagger forged signatures and altered the terms of genuine deals — turning, for instance, a modest short-term contract into a much larger multi-year one — to invent business that didn't exist. He then used those fake contracts and fictitious purchase orders for IT equipment that was never delivered to get outside leasing and finance companies to advance real cash upfront against the phony receivables, funneling much of the proceeds into offshore accounts.
+
+The scheme unraveled abruptly at the end of November 2008, when scrutiny ahead of a planned bond issue exposed the fabricated contracts. Bagger disappeared while colleagues believed him to be on a business trip to Dubai. IT Factory was declared bankrupt on December 2, 2008; four days later Bagger surrendered to police in Los Angeles, and he was extradited back to Denmark on December 16.
+
+A Danish court convicted him in June 2009 on 61 counts of fraud and forgery totaling more than 831 million kroner (roughly $186 million) — at the time described as the largest fraud case in Denmark in decades — and sentenced him to seven years in prison, ordered him to repay 50 million kroner, and barred him for life from running a company. He was released on parole in March 2014 after serving about five years; most of the missing money was never recovered.
+
+The IT Factory case is a reminder that a fraud doesn't need a stock listing or a hedge-fund structure to reach nine figures — it just needs counterparties, in this case leasing and finance firms, willing to advance cash against paperwork nobody independently verified. Industry awards, magazine rankings, and a sponsorship deal with a famous cycling team gave Bagger exactly the kind of borrowed credibility that let years of fabricated contracts pass unquestioned, right up until the moment someone finally checked the business behind the numbers.`,
+    sourceUrl: 'https://techcrunch.com/2008/12/02/the-extraordinary-rise-and-fall-of-denmarks-it-factory/',
+});

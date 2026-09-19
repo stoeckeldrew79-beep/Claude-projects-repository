@@ -9658,3 +9658,37 @@ The criminal case took until September 2007 to reach trial before Spain's Nation
 Gescartera stands out among affinity frauds for how deliberately its perpetrators cultivated institutional, faith-based trust rather than individual investors: a portfolio manager whose client list reads like a directory of convents and charities doesn't need flashy marketing to look safe, because the mere presence of so many careful, risk-averse institutions already vouching for it with their business does that work instead. The case is a reminder that a licensed, regulated firm holding money for churches, schools, and disability charities can still be running a fabricated set of books underneath — and that the institutions least likely to chase outsized returns can be exactly the ones a fraud is built to exploit, because no one expects them to be the victims.`,
     sourceUrl: 'https://es.wikipedia.org/wiki/Gescartera',
 });
+
+NotoriousAF.push({
+    title: "Chung Tae-soo and the Hanbo Steel Loans That Set Off a National Bribery Scandal",
+    slug: 'chung-tae-soo-hanbo-steel-scandal',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical', 'international'],
+    body: `Chung Tae-soo founded Hanbo Group and built it, largely on borrowed money and political connections, into South Korea's 14th-largest conglomerate by the mid-1990s. Its flagship subsidiary, Hanbo Steel, began building an enormous new steel mill at Dangjin in 1992 — a project analysts would later say made little independent economic sense, but one Chung kept funding by borrowing far beyond what Hanbo's own balance sheet could support.
+
+The mechanism was old-fashioned bribery dressed up as ordinary bank lending. South Korean investigators found that Chung funneled bribes to senior bankers, ruling-party politicians, and government officials to keep state-influenced banks extending loans to Hanbo Steel long after any legitimate credit committee should have cut it off. By the time it collapsed, the steelmaker had borrowed roughly 5 trillion won (about $5.8 billion) — around 20 times its own net worth — from banks that had been pressured into lending rather than persuaded by Hanbo's actual finances.
+
+Hanbo Corp. went into receivership on January 28, 1997, triggering what was, at the time, the largest corporate failure in South Korean history and a scandal that reached the presidential residence itself. Prosecutors arrested Kim Hyun-chul, the son of sitting President Kim Young-sam, in May 1997 on charges of taking millions of dollars in bribes connected to the affair, and the elder Kim was forced into a televised public apology as the scandal unfolded. Total losses from Hanbo's collapse were later estimated at roughly $6 billion.
+
+A South Korean court convicted Chung in June 1997 of bribery, embezzlement, and fraud, sentencing him to 15 years in prison; his son Chung Bo-keun received three years, and eight other officials and bankers — including a former home affairs minister and two former bank presidents — were separately convicted for their roles in the scheme. Chung served only about five years before receiving a presidential pardon in 2002, and was convicted again in 2006 on a separate charge of embezzling funds from a university where he later served as president. He left South Korea in 2007 for medical treatment and never returned, reportedly living abroad for over a decade afterward.
+
+Hanbo is remembered less as a single executive's fraud than as a case study in how bribery can substitute for due diligence at an entire banking system's scale — and its collapse, followed within months by Kia and then the much larger Daewoo Group, is widely cited as one of the dominoes that helped tip South Korea into the 1997 Asian financial crisis. It's a reminder that once political pressure can override a bank's own credit judgment, the resulting bad loans don't stay contained to one company; they become the whole economy's problem the moment the borrower can no longer pay.`,
+    sourceUrl: 'https://www.koreaherald.com/article/2032987',
+});
+
+NotoriousAF.push({
+    title: "Christopher Drogoul and the $5 Billion BNL Sent to Saddam Hussein's Iraq",
+    slug: 'christopher-drogoul-bnl-atlanta-iraq-loans',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical', 'international'],
+    body: `Christopher Drogoul managed the Atlanta branch of Banca Nazionale del Lavoro (BNL), Italy's largest state-owned bank, through most of the 1980s — on paper, a minor U.S. outpost handling routine trade-finance business. Behind that ordinary facade, Drogoul was running one of the largest unauthorized lending operations in American banking history, extending billions of dollars in credit to Saddam Hussein's Iraq that neither BNL's Rome headquarters nor U.S. banking regulators had approved.
+
+The mechanism was concealment: Drogoul kept a second, secret set of books recording loans and letters of credit issued to Iraq far beyond what he was authorized to extend and beyond what BNL Atlanta's official records showed. Roughly $900 million of the credit lines were guaranteed under a U.S. Department of Agriculture program meant to help finance American farm exports to developing countries — guarantees that Iraq and its intermediaries used, prosecutors said, to help pay for weapons technology and military equipment as well as food, at a moment when Iraq was rapidly rebuilding the military it would use to invade Kuwait within the year. Prosecutors said Drogoul personally pocketed roughly $2.5 million from the scheme.
+
+The scheme surfaced on August 4, 1989, when the FBI and federal bank examiners raided BNL's Atlanta offices on a tip and found Drogoul's hidden ledgers, uncovering roughly $5 billion in loans that had never been reported to BNL's own management or to U.S. regulators. What might have been a straightforward bank-fraud prosecution instead became one of the most politically fraught cases of the era, as evidence emerged suggesting officials in both the U.S. and Italian governments had known more about the loans — and tolerated them for foreign-policy reasons — than either government wanted tested in open court.
+
+Facing the prospect that a full trial would require senior U.S. officials to testify about what Washington knew and when, prosecutors narrowed the case. Drogoul pleaded guilty in 1992 to a broad set of charges including conspiracy, but later withdrew that plea once his lawyers presented evidence of government awareness of the loans. He ultimately pleaded guilty in September 1993 to two counts of lying to the Federal Reserve and one count of wire fraud, and on December 9, 1993, was sentenced to 37 months in prison — a term widely seen as light relative to the $5 billion in unauthorized loans at the center of the case.
+
+The BNL Atlanta affair is a reminder that the size of a fraud and the size of its punishment don't always track together, especially once a case brushes up against foreign policy and diplomatic sensitivity. A rogue branch manager who moved $5 billion in unreported loans, some of them financing an eventual invasion force, ultimately served barely three years — in part because prosecuting the fraud in full would have meant litigating, in open court, exactly how much of it Washington had quietly known about all along.`,
+    sourceUrl: 'https://www.upi.com/Archives/1993/12/09/Drogoul-gets-37-months-in-BNL-bank-scandal/5863755413200/',
+});
