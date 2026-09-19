@@ -8732,3 +8732,29 @@ UsGM.push({
     country: 'US',
     firstRecorded: '2026-01-04',
 });
+
+UsGM.push({
+    name: "Maine Solar Panel Solicitation Scam (Fake State Mandate and Fake Incentive Program)",
+    slug: "maine-solar-panel-solicitation-scam",
+    description:
+      "Homeowners in Maine are receiving advertisements, door-to-door pitches, phone calls, and online solicitations claiming that the State of Maine requires them to convert to solar power, or that a state government program will cover the cost through grants, rebates, or tax credits. Both claims are false. The Office of the Maine Attorney General has confirmed that Maine does not require any homeowner to convert to solar energy and that the state currently has no government program offering incentives, grants, rebates, or tax credits for solar panel installation. The fake mandate manufactures urgency while the fake incentive convinces homeowners the work is free, pushing them into signing installation contracts or long-term financing agreements under false pretenses. If you get a solar pitch that invokes a state requirement or a state-funded program, do not sign anything on the spot, verify any claimed program directly with Maine state government, and report the solicitation to the Maine Attorney General's Consumer Protection Division.",
+    categorySlug: "home-improvement-solar",
+    alertLevel: "high",
+    sources: ["Office of the Maine Attorney General — Consumer Protection Division, Consumer Advisory: Solar Panel Advertisements (10-16-2024)"],
+    sourceUrl: "https://www.maine.gov/ag/consumer-protection/consumer-issues-scam/solar-advertisements-advisory-thu-01292026-0751",
+    country: "US",
+    state: "ME",
+});
+
+UsGM.push({
+    name: "Maine Bureau of Consumer Credit Protection Phone Spoofing and Phishing Calls",
+    slug: "maine-bureau-consumer-credit-protection-phone-spoofing",
+    description:
+      "Scammers are spoofing the official phone number of the Maine Bureau of Consumer Credit Protection, (207) 624-8527, so that caller ID shows the real state regulator's number. Because the displayed number matches the genuine agency within the Maine Department of Professional and Financial Regulation, recipients are far more likely to trust the caller and hand over personal or financial information. Spoofing disguises a phone number, email address, sender name, or website URL to convince you that you are dealing with a trusted source. The Bureau states it will never call, text, or email requesting personal information. If you get such a contact, do not use the contact information the caller gives you, do not click links in texts or emails, do not press buttons on your keypad, and instead hang up and call the Bureau directly using the number published on its official maine.gov page.",
+    categorySlug: "government-impersonation",
+    alertLevel: "high",
+    sources: ["Maine Bureau of Consumer Credit Protection, Maine Department of Professional and Financial Regulation — consumer notice on phone number spoofing and phishing"],
+    sourceUrl: "https://www.maine.gov/pfr/consumercredit/notice/notice_item.shtml?id=13082235",
+    country: "US",
+    state: "ME",
+});
