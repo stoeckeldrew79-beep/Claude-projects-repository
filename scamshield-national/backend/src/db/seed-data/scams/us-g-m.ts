@@ -8916,3 +8916,15 @@ UsGM.push({
     country: "US",
     state: "ME",
 });
+
+UsGM.push({
+    name: "Gift Card Draining at Retail Racks",
+    slug: "gift-card-draining-at-retail-racks",
+    description:
+      "Criminals take gift cards off store display racks, carefully open the packaging, record the card number and hidden PIN, then reseal the card and put it back on the shelf. Automated tools repeatedly check the card's balance, so the moment a shopper buys and activates it the thieves drain the funds, often within minutes. In another version, a fake barcode sticker is placed on the packaging so the money loads onto a card the criminal already holds. The victim never speaks to a scammer at all, and the theft is usually discovered only when the recipient tries to spend the card. Inspect gift card packaging for tears, resealing, or stickers before buying, choose cards from the back of the rack or behind the counter, keep your receipt, and register or spend the card promptly.",
+    categorySlug: "identity-theft",
+    alertLevel: "medium",
+    sources: ["District of Columbia Office of the Attorney General gift card scam alert, December 15, 2025","Michigan Attorney General multi-state gift card safety announcement, December 26, 2025"],
+    sourceUrl: "https://oag.dc.gov/release/attorney-general-brian-schwalb-issues-alert",
+    country: "US",
+});

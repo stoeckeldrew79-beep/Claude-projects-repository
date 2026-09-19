@@ -9397,3 +9397,15 @@ Following an investigation by the Consumer Protection Unit, the companies agreed
     isHistorical: true,
     firstRecorded: '2019-07-23',
 });
+
+UsAF.push({
+    name: "Fake CAPTCHA Verification Malware Prompt",
+    slug: "fake-captcha-verification-malware-prompt",
+    description:
+      "A compromised or ad-injected web page displays what looks like a routine \"verify you're human\" bot check, but instead of a puzzle it gives you \"verification steps\" to follow. Those steps tell you to copy a string of text, open the Windows Run dialog or the Mac Terminal, paste it, and press Enter. The pasted command quietly downloads an information-stealing program that harvests saved browser passwords, login session cookies, and cryptocurrency wallet data. Because you run the command yourself, the usual browser and antivirus download warnings never appear. A real CAPTCHA never asks you to copy text or open a command window, so close the page immediately, and if you already ran the command, disconnect the device, scan it, and change your passwords from a different computer.",
+    categorySlug: "phishing",
+    alertLevel: "high",
+    sources: ["Federal Trade Commission consumer alert, \"How to spot a CAPTCHA scam,\" June 8, 2026"],
+    sourceUrl: "https://consumer.ftc.gov/consumer-alerts/2026/06/how-spot-captcha-scam",
+    country: "US",
+});

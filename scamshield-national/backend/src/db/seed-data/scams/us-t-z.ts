@@ -5110,3 +5110,15 @@ Once she was invested, the app began showing "negative transactions" that suppos
     country: 'US',
     state: 'TN',
 });
+
+UsTZ.push({
+    name: "Tariff Rebate Text Message Scam",
+    slug: "tariff-rebate-text-message-scam",
+    description:
+      "Scammers are sending unsolicited text messages claiming you have been approved for a federal \"tariff dividend\" or tariff rebate of around $2,000 and must click a link to claim it. The link leads to a spoofed, government-looking claim portal that asks for personal identifying information and bank or card details so the money can supposedly be deposited, and sometimes demands a small processing fee. There is no federal program that notifies people of a claimable tariff rebate by text message, so everything you enter goes straight to identity thieves. The pretext works because it piggybacks on real news coverage of proposed tariff payments. Do not tap links in unexpected payment or rebate texts, delete the message, and check any claimed federal benefit only through official .gov websites.",
+    categorySlug: "government-impersonation",
+    alertLevel: "high",
+    sources: ["Idaho Office of the Attorney General consumer alert, December 30, 2025"],
+    sourceUrl: "https://www.ag.idaho.gov/newsroom/attorney-general-labrador-warns-idahoans-about-tariff-rebate-text-scam/",
+    country: "US",
+});
