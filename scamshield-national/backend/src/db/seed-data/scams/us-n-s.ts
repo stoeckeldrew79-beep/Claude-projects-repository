@@ -2342,6 +2342,21 @@ export const UsNS: SeedScam[] = [
     sourceUrl: 'https://www.justice.gov/usao-nd/pr/leeds-nd-man-sentenced-11-million-dollar-fraud-scheme',
   },
 {
+    name: "North Dakota's 1919 Grain Grading and Inspection Act and the Bonding Rule Behind Today's Grain-Buyer Scams",
+    slug: 'north-dakota-1919-grain-grading-inspection-act-origin',
+    description: `By 1919, the North Dakota Legislature had concluded — in the U.S. Supreme Court's later words — "that its farmers were being systematically defrauded in purchases of their grain made within the State," through underweighing, ungraded dockage taken from a farmer's wheat without payment, and local buyers who simply graded a load lower than it deserved to pay less for it. That frustration had already boiled over, four years earlier, into the founding of the Nonpartisan League, a farmers' political movement built substantially on anger at exactly this kind of grain-trade abuse, and by 1919 the League controlled the state legislature outright. Its answer was the Grain Grading and Inspection Act, Chapter 138 of the North Dakota Session Laws of 1919, which required every grain buyer operating in the state to hold a state license, post a bond guaranteeing payment to the farmers who sold to them, follow state-set grading and weighing standards rather than their own, and keep a written record of every seller's name, the grade assigned, and the price paid. The U.S. Supreme Court later struck down the Act's provision fixing the price buyers could pay for grain bound for out-of-state shipment as an improper burden on interstate commerce, but the licensing, bonding, and record-keeping core of the law survived and became the foundation of the grain-buyer regulation North Dakota still runs today.
+
+That licensing and bonding requirement is exactly the protection that could have limited the damage in this database's own NoDak Grain Ponzi-Style Grain Buying Scheme, in which Hunter Hanson bought grain from roughly 60 farmers, elevators, and brokers across North Dakota and Canada and paid for earlier deliveries with money from later ones until the scheme collapsed owing his victims more than $11 million. A grain seller who extends credit to a buyer — accepting a promise of later payment instead of cash on delivery — has no protection at all if that buyer turns out to be unlicensed or under-bonded, since the state bond fund exists specifically to provide partial recovery when a properly licensed buyer defaults. A century after the Legislature first required it, checking a grain buyer's license and bond status with the North Dakota Public Service Commission or Department of Agriculture before extending credit on a large delivery remains the same check the 1919 Act was written to make available.`,
+    categorySlug: 'ponzi-pyramid-schemes',
+    country: 'US',
+    state: 'ND',
+    alertLevel: 'medium',
+    sources: ["U.S. Supreme Court (Lemke v. Farmers' Grain Co.)", 'State Historical Society of North Dakota'],
+    sourceUrl: 'https://www.law.cornell.edu/supremecourt/text/258/50',
+    isHistorical: true,
+    firstRecorded: '1919-02-11',
+  },
+{
     name: 'Providence Transnational Pop-Up Tech Support Elder Fraud Ring',
     slug: 'rhode-island-providence-transnational-popup-elder-fraud-ring',
     description: `A federal grand jury sitting in U.S. District Court in Providence, Rhode Island, returned an indictment charging eight individuals, including Nanjun Song, 27, of Brooklyn, New York, a Chinese national accused of overstaying a B2 visa, with conspiracy to commit wire fraud and conspiracy to commit money laundering in an elaborate transnational fraud scheme targeting elderly victims in the United States and Canada. According to Acting U.S. Attorney Sara Miron Bloom, the conspiracy sent pop-up messages to seniors' computers designed to look as though they came from a well-known technology company, falsely warning that the victim's financial accounts had been compromised, their computer hacked, or that they were the target of a criminal investigation, and directing them to call a "live agent" who claimed the victim's assets were at risk but could be "protected" — then walked victims through moving their real money into accounts the conspirators controlled. Law enforcement identified approximately 300 victims across at least 37 states, including Rhode Island, with known losses exceeding $5 million and evidence that roughly $16 million in additional suspected fraud proceeds moved through a single laundering account tied to the scheme. The May 2025 indictment was investigated by IRS Criminal Investigation and Homeland Security Investigations Providence as part of the Rhode Island Homeland Security Task Force, and two defendants have since pleaded guilty in the case. A pop-up warning that a computer is infected or an account is compromised, especially one instructing the viewer to call a phone number rather than contact the company through its real website or app, should never be trusted — legitimate technology companies do not detect problems on your device and display a support phone number on screen, and no legitimate bank or government agency asks you to move money to "protect" it from a threat it just warned you about.`,
@@ -3854,6 +3869,22 @@ UsNS.push({
     sourceUrl: 'https://www.justice.gov/usao-ndtx/pr/five-federally-indicted-alleged-220-million-nationwide-cattle-fraud-scheme-one',
     country: 'US',
     state: 'ND',
+});
+
+UsNS.push({
+    name: "North Dakota's 1923 Securities Commission and the Registration Check Behind Today's Cattle Fraud Cases",
+    slug: 'north-dakota-1923-securities-commission-origin',
+    description: `North Dakota's securities market went essentially unregulated until 1913, when the state first placed authority over the sale of stocks, bonds, and other investment contracts under existing offices — the Secretary of State and the State Examiner — with no dedicated agency built specifically to screen offerings or the people selling them. That patchwork arrangement lasted a decade, until the legislature created a dedicated three-member Securities Commission — the Governor, Attorney General, and Secretary of State, with a hired executive officer running day-to-day enforcement — under Session Laws Chapter 182 of 1923, explicitly charged with authority "to protect the investing public ... and prevent fraud in the sale of securities, including stocks, shares, bonds, contract, debentures, and other investments." The Commission's structure kept evolving over the following decades — the State Examiner took over as its executive officer in 1939, a standalone Securities Commissioner's Office replaced the three-member Commission outright in 1951, and gubernatorial appointment with Senate confirmation arrived in 1961 — but its core mission, screening who may sell an investment contract in North Dakota before a resident's money changes hands, has stayed the same for over a century.
+
+That exact mission is what could have stopped North Dakota's Agridime Cattle Investment Ponzi Scheme, already documented in this database, before it collapsed: Agridime solicited North Dakotans to "invest" in cattle-raising contracts promising a fixed 30% return, and a federal judge later found the arrangement was run as a Ponzi scheme, paying earlier investors with newer investors' money rather than actually raising and selling the cattle it claimed to hold on their behalf. Today's North Dakota Securities Department, the modern descendant of the 1923 Commission, keeps a public registry of licensed dealers and registered offerings specifically so a prospective investor doesn't have to take a stranger's word for it; anyone offered a fixed or guaranteed return on cattle, crops, oil leases, or any other physical-asset "investment" should check that the specific offering — not just the salesperson — is actually registered with the Department before sending money.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'medium',
+    sources: ['State Historical Society of North Dakota', 'North Dakota Century Code'],
+    sourceUrl: 'https://www.history.nd.gov/archives/stateagencies/securitiesdept.html',
+    country: 'US',
+    state: 'ND',
+    isHistorical: true,
+    firstRecorded: '1913-01-01',
 });
 
 UsNS.push({
