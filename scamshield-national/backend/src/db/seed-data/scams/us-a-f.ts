@@ -9325,3 +9325,16 @@ UsAF.push({
     sourceUrl: 'https://finance.yahoo.com/technology/ai/articles/ai-scammers-scouring-obituaries-target-104500023.html',
     country: 'US',
 });
+
+UsAF.push({
+    name: "Fake Website Privacy Violation Demand Letters",
+    slug: "fake-website-privacy-violation-demand-letters",
+    description:
+      "Businesses and small website operators are receiving mass-mailed demand letters claiming their site violates privacy or wiretapping laws because of the analytics and tracking technology it uses. The letters assert a legal violation and pressure the recipient to pay a settlement immediately to avoid a lawsuit. The Texas Attorney General's office has characterized these letters as a scam and warned Texans not to pay. The pressure tactic works because many small operators do not know what tracking their site uses and fear the cost of litigation. If you receive one of these letters, do not pay or respond directly — verify the sender independently, consult your own attorney, and report the letter to your state attorney general's consumer protection division.",
+    categorySlug: "legal-debt-collection",
+    alertLevel: "medium",
+    sources: ["Office of the Attorney General of Texas, Consumer Alert: Attorney General Ken Paxton Warns Texans of Scam Demand Letters Alleging Website Privacy Violations"],
+    sourceUrl: "https://www.texasattorneygeneral.gov/news/releases/consumer-alert-attorney-general-ken-paxton-warns-texans-scam-demand-letters-alleging-website-privacy",
+    country: "US",
+    state: "TX",
+});

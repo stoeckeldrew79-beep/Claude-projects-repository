@@ -8820,3 +8820,15 @@ UsGM.push({
     country: "US",
     state: "ME",
 });
+
+UsGM.push({
+    name: "IC3 Impersonation and Fake Fraud Recovery Portals",
+    slug: "ic3-impersonation-fake-fraud-recovery-portals",
+    description:
+      "Criminals are impersonating the FBI's Internet Crime Complaint Center (IC3) — the very office where people go to report fraud — by standing up spoofed copies of the ic3.gov website and posing as IC3 staff. They target people who have already lost money to a scam, promising to help recover the funds and then requesting personal details, account information, or payments. Because victims believe they are dealing with a federal fraud-reporting channel, the scheme re-victimizes people who are already vulnerable. The FBI has issued multiple public service announcements on both the impersonation of IC3 personnel and the spoofed IC3 web domains. Never respond to unsolicited contact claiming to be from IC3, type ic3.gov directly into your browser rather than following a link, and understand that the FBI will never charge a fee or ask for payment to recover stolen funds.",
+    categorySlug: "government-impersonation",
+    alertLevel: "high",
+    sources: ["FBI Internet Crime Complaint Center (IC3) Public Service Announcement PSA260720","FBI IC3 Public Service Announcement PSA250919 on spoofed IC3 web domains"],
+    sourceUrl: "https://www.ic3.gov/PSA/2026/PSA260720",
+    country: "US",
+});
