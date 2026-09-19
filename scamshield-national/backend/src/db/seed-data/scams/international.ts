@@ -20899,3 +20899,42 @@ The Presidency's office has had to issue public alerts about impersonation at le
   sourceUrl: 'https://expressodasilhas.cv/pais/2025/02/16/burlas-online-navegando-num-sitio-de-embustes/95676',
   country: 'CV',
 });
+
+International.push({
+  name: 'Anguilla Business Email Compromise (BEC) Fraud',
+  slug: 'anguilla-business-email-compromise-fraud',
+  description: `The Financial Intelligence Unit of Anguilla (FIU) published Advisory FIU/ADV/2022/003 in November 2022, warning businesses and residents about a rising pattern of Business Email Compromise (BEC), also called Email Account Compromise (EAC), fraud targeting Anguillan companies that regularly wire money to suppliers or vendors abroad. In these schemes, criminals gain access to a legitimate business email account — or create a lookalike "spoofed" address that differs from the real one by a single letter, such as swapping "interplanet" for "inteplanet" in a domain — and use it to impersonate a company executive, vendor, or other trusted contact. The fraudster then sends an urgent-sounding invoice or payment instruction, often claiming an account number or wire-transfer detail has changed, and pressures the recipient to move quickly, betting that the recipient's business relationship with the real contact will keep them from double-checking before paying.
+
+The FIU disclosed that between 2020 and 2022 it investigated ten confirmed BEC matters in Anguilla, resulting in realized losses of US$15,300 and attempted transactions totaling US$232,000 and €18,000 — while cautioning that the true toll is likely higher, since many businesses quietly write off smaller losses rather than reporting them. The advisory laid out concrete red flags: emails with poor grammar, missing information or subtle alterations; any change to a regular contact's email address or wire instructions that isn't confirmed by phone; and any vendor or requester who pressures for a fast payment via wire transfer, PayPal, or a money service business like Western Union or MoneyGram. The FIU recommended that any business receiving new or changed payment instructions verify them with a direct phone call using a previously known number — never one supplied in the suspicious email itself — and that a victim of a compromised account change passwords immediately, notify contacts, and, in serious cases, abandon the account altogether. Suspected BEC fraud can be reported to the FIU at 264-497-5696 or fiu@gov.ai, or to the Royal Anguilla Police Force at 264-497-2333.`,
+  categorySlug: 'business-email-compromise',
+  alertLevel: 'high',
+  sources: ['Financial Intelligence Unit, Anguilla'],
+  sourceUrl: 'https://www.fiu.gov.ai/notices/advisories',
+  country: 'AI',
+});
+
+International.push({
+  name: 'Anguilla Online Romance Scam Advisory',
+  slug: 'anguilla-romance-scam-advisory',
+  description: `The Financial Intelligence Unit of Anguilla (FIU) issued a public advisory on September 26, 2025 titled "Romance Scams," warning residents that fraudsters increasingly build fake online relationships through email, messaging apps, and social media platforms with the sole intent of extracting money from a victim. The FIU described a romance scam bluntly as someone who says "I love you .... for your money," and outlined six specific warning signs Anguillan residents should watch for in an online relationship: the other person professes love and future plans unusually quickly; they claim implausibly many things in common with the victim; they ask probing questions about the victim while revealing little about themselves; they eventually produce a sad story — an illness affecting themselves or a family member, or a sudden emergency — that requires money; they consistently avoid video calls or in-person meetings, with promised visits that never happen; and once they receive funds, they typically vanish unless they believe more money can be extracted.
+
+The advisory urged people using online dating to stick to protected, reputable dating platforms, avoid oversharing personal details, resist getting emotionally invested too quickly, ask pointed questions and do independent research on a new contact, run a reverse image search on profile photos, and treat any request to send money through a money service business such as Western Union, MoneyGram, or PayPal — or any pressure to make an investment on the other person's suggestion — as a serious red flag. The FIU emphasized there is "no shame" and "no judgement" in reporting a suspected romance scam, and encouraged victims or concerned residents to call 1-264-497-5696 or email fiu@gov.ai.`,
+  categorySlug: 'romance-scams',
+  alertLevel: 'high',
+  sources: ['Financial Intelligence Unit, Anguilla'],
+  sourceUrl: 'https://www.fiu.gov.ai/notices/advisories',
+  country: 'AI',
+});
+
+International.push({
+  name: 'Anguilla Nigerian 419-Style Social Media Advance-Fee Scam',
+  slug: 'anguilla-nigerian-419-advance-fee-scam',
+  description: `The Financial Intelligence Unit of Anguilla (FIU) issued a Public Alert on April 12, 2021 warning residents of a rise in so-called "Nigerian 419" scams spreading through email, WhatsApp, text messages, and social media platforms. The FIU identified four common forms the scam takes in Anguilla: an unknown contact asking for financial assistance after befriending the victim on social media; a lottery scam in which the victim is told they've won a prize but must first pay a "transfer," "handling," or "logistics" fee to receive it; a fake funding or grant opportunity, in which someone claims the victim can receive a small-business grant within Anguilla or internationally provided they first send money to the fraudster; and solicitations for donations to a supposed orphanage. In the classic version of the scheme, the victim is led to believe they are helping someone in genuine financial distress and is instructed to send funds through a money service business such as Western Union or MoneyGram — money that in most cases is collected in an African country, though the FIU noted it can be routed anywhere in the world.
+
+The advisory listed the pattern's warning signs plainly: contact from an unfamiliar person requesting money or trying to build a rapid friendship; an elaborate, emotionally charged story behind the request; a claim to a lottery or reward the victim never entered; an offer of a large payout in exchange for a comparatively small upfront payment; and insistence on using only money-transfer services rather than traceable, reversible payment methods. The FIU stressed that regardless of what is promised, the victim never receives the offered money, and that participating — even unknowingly — in moving funds for such a scheme can itself expose a person to money laundering liability. The FIU reissued a closely related poster on advance-fee and lottery scams as recently as July 2, 2025, indicating the pattern remains active. Reports can be filed with the FIU at 1-264-497-5696 or mlra@gov.ai, or with the Royal Anguilla Police Force.`,
+  categorySlug: 'lottery-sweepstakes-scams',
+  alertLevel: 'high',
+  sources: ['Financial Intelligence Unit, Anguilla'],
+  sourceUrl: 'https://www.fiu.gov.ai/notices/advisories',
+  country: 'AI',
+});
