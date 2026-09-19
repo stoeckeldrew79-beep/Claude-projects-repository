@@ -4896,6 +4896,10 @@ GuidesNS.push({
     slug: 'scam-text-rush-hour-timing-research-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'scam-timing-research'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Smartphone_Use.jpg?width=1200',
+    coverImageCredit: 'Photo: Océanos y datos (CC0) — a hand holding a smartphone, representative of the scam texts this research tracked',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.malwarebytes.com/blog/scams/2026/09/scammers-are-getting-smarter-about-where-they-target-you',
     body: `Every scam text, call, or DM can feel like it arrives at random, but new research suggests scammers are working from a schedule. Malwarebytes analyzed its own global threat-detection data collected between April 15 and July 14, 2026, covering more than 20 distinct scam types, and published the results on September 2, 2026 under the title "Scammers are getting smarter about where they target you." The headline finding: scam text volume peaks like clockwork around noon Eastern time, a period roughly 874% busier than the quietest hour of the day, 1 a.m. Volume also builds steadily across the week, with Friday text traffic running about 50% higher than Sunday's.
 
