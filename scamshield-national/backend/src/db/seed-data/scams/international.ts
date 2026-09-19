@@ -20815,3 +20815,36 @@ International.push({
   sourceUrl: 'https://www.linfo.re/la-reunion/societe/attention-aux-sms-d-arnaque-de-faux-colis-la-poste',
   country: 'RE',
 });
+
+International.push({
+  name: 'Djibouti Telecom Fake Recruitment Ad Impersonation Scam',
+  slug: 'djibouti-telecom-fake-recruitment-scam',
+  description: `Djibouti Telecom, the country's state-owned telecommunications operator, issued a public fraud alert warning that recruitment advertisements circulating on Facebook and other social media — including ones distributed through a page calling itself "Info Agency" — falsely claimed to be hiring on the company's behalf. The company stated plainly that these postings were "totalement frauduleuses" (totally fraudulent) and usurped its identity, having no connection whatsoever to its real hiring process. Because Djibouti Telecom is the country's dominant telecom employer and a household name, its brand carries built-in credibility that scammers exploit to draw job seekers into engaging with a fake recruitment process. Djibouti Telecom's guidance is that any recruitment notice bearing its name should be verified only through the company's own official website or verified social accounts, never through a third-party page or a link shared on social media.`,
+  categorySlug: 'employment-scams',
+  alertLevel: 'medium',
+  sources: ['Djibouti Telecom (official statement)'],
+  sourceUrl: 'https://www.djiboutitelecom.dj',
+  country: 'DJ',
+});
+
+International.push({
+  name: 'Ambouli Diploma & ID Forgery Workshop (Djibouti)',
+  slug: 'djibouti-ambouli-diploma-forgery-workshop',
+  description: `Gendarmes from Brigade 6/7 raided a document-forgery workshop in Djibouti's Ambouli district on March 9, 2021, after an undercover investigation in which officers ordered five counterfeit baccalauréat diplomas and received them the very next day. The raid, reported by the state newspaper La Nation, uncovered a small industrial-scale operation — color laser printers, scanners, a PVC card printer, and digital cameras — used to produce forged baccalauréat and BEF diplomas, driver's licenses and identity documents, training certificates, and even a fraudulently fabricated stamp of the Ministry of Education. Investigators recovered roughly ten forged baccalauréat diplomas along with counterfeit BEF certificates and false permits and identity papers already in circulation, and computer analysis turned up templates for nearly every official document type used nationwide. According to the suspects' own statements, each forged document sold for 10,000 Djiboutian francs, with one man producing the documents and a second acting as the broker who marketed them to buyers; both were prosecuted for document falsification. The case is a reminder for employers, schools, and licensing bodies in Djibouti to verify diplomas, certificates, and IDs directly with the issuing institution rather than accepting a physical document at face value, since counterfeit versions were convincing enough to pass casual inspection.`,
+  categorySlug: 'identity-theft',
+  alertLevel: 'high',
+  sources: ['La Nation (Djibouti)'],
+  sourceUrl: 'https://www.lanation.dj/des-faussaires-sous-les-verrous/',
+  country: 'DJ',
+});
+
+International.push({
+  name: 'Djibouti Visa-Document Forgery Network',
+  slug: 'djibouti-loyada-visa-document-forgery-ring',
+  description: `Djibouti's National Police announced on February 23, 2026 that its Brigade d'Enquêtes et des Délégations Judiciaires (BEDJ) had dismantled a document-forgery network after a man was stopped at the Loyada border crossing carrying falsified administrative papers during a routine identity check. The Djiboutian state news agency ADI reported that the ensuing investigation uncovered an organized operation producing convincing fake bank statements, payroll records, and other official papers specifically for people applying for visas — paperwork meant to make an applicant's finances or employment look far stronger than they actually were. Police, working with the force's Cybercrime Service for digital forensics, seized laptops, mobile phones, and hard drives used to generate the forged documents, and arrested every identified member of the chain, from the primary forgers to the intermediaries and accomplices who found and vetted clients. All were referred to prosecutors on charges including identity theft, forgery, use of forgeries, and organized fraud. The case underscores that a visa application built on purchased fake financial documents is a serious criminal offense in Djibouti, not a shortcut, and that anyone applying for a visa should submit only their own genuine bank and employment records rather than pay a broker who claims a fabricated version will "help" the application succeed.`,
+  categorySlug: 'identity-theft',
+  alertLevel: 'high',
+  sources: ["Agence Djiboutienne d'Information (ADI)", 'Djibouti National Police'],
+  sourceUrl: 'https://adi.dj/',
+  country: 'DJ',
+});
