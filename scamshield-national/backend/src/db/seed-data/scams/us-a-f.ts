@@ -9325,3 +9325,17 @@ UsAF.push({
     sourceUrl: 'https://finance.yahoo.com/technology/ai/articles/ai-scammers-scouring-obituaries-target-104500023.html',
     country: 'US',
 });
+
+UsAF.push({
+    name: 'American Samoa Government Impersonated in Fake "Missile Strike" Memorandum Hoax',
+    slug: 'american-samoa-fake-missile-strike-memorandum-hoax',
+    description: `In mid-August 2026, a fabricated document began circulating on social media in American Samoa falsely claiming that missile strikes had occurred in the territory — formatted to mimic an official government memorandum, complete with government-style seals and letterhead designed to make it look like an authentic emergency notice from the American Samoa Government. On August 17, 2026, the Office of the Governor issued a public notice flatly stating "There have been NO missile strikes in American Samoa, and the memorandum being circulated is FAKE," confirming the document "was NOT issued by the Office of the Governor." Officials warned that spreading the fake document risked causing unnecessary fear, panic, and confusion among residents, and separately noted that unauthorized use of official government names, seals, formatting, or communications to spread false emergency information is a serious matter that must stop immediately.
+
+The government's guidance to residents was direct: do not share, repost, or forward the document; rely only on official American Samoa Government channels for real emergency announcements; and verify any alarming "official" notice through an authorized government source before passing it along. The episode illustrates an impersonation pattern distinct from routine phishing — rather than asking for money or login credentials, it borrows the visual authority of a real government seal and memorandum format to spread panic-inducing disinformation. Residents who receive any unverified "official" emergency notice by text, social media, or messaging app should treat the government's own verified channels — not a forwarded screenshot or PDF — as the only reliable source before reacting or resharing.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Samoa News', 'Samoa Observer', 'Office of the Governor of American Samoa'],
+    sourceUrl: 'https://www.samoanews.com/local-news/public-notice-false-information',
+    country: 'US',
+    state: 'AS',
+});
