@@ -7196,6 +7196,10 @@ NotoriousNS.push({
     slug: 'stein-bagger-it-factory-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical', 'international'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Copenhagen_skyline,_Denmark.jpg?width=1200',
+    coverImageCredit: 'Photo: CivArmy, Wikimedia Commons (CC BY-SA 4.0) — Copenhagen, where Bagger ran IT Factory',
+    coverImagePosition: 50,
     body: `IT Factory was a Copenhagen-based reseller of IT security and infrastructure software, and by 2008 its charismatic CEO, Stein Bagger, was one of Denmark's most celebrated young entrepreneurs. Ernst & Young named him Danish Entrepreneur of the Year in 2008, and the trade magazine Computerworld twice named IT Factory Denmark's best IT company. The company also sponsored the CSC-Saxo Bank professional cycling team led by Bjarne Riis, giving Bagger a public profile that reached well beyond the software industry.
 
 None of the growth behind that reputation was real. Investigators later found that as much as 90 percent of IT Factory's reported revenue traced back to fabricated sales contracts: Bagger forged signatures and altered the terms of genuine deals — turning, for instance, a modest short-term contract into a much larger multi-year one — to invent business that didn't exist. He then used those fake contracts and fictitious purchase orders for IT equipment that was never delivered to get outside leasing and finance companies to advance real cash upfront against the phony receivables, funneling much of the proceeds into offshore accounts.
@@ -7213,6 +7217,10 @@ NotoriousNS.push({
     slug: 'purdue-pharma-sackler-oxycontin-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'healthcare-fraud', 'historical'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/One_Stamford_Forum.jpg?width=1200',
+    coverImageCredit: 'Photo: John9474, Wikimedia Commons (CC BY-SA 4.0) — One Stamford Forum, Purdue Pharma\'s Connecticut headquarters',
+    coverImagePosition: 50,
     body: `Purdue Pharma had been quietly owned by the Sackler family — Arthur, Mortimer, and Raymond Sackler, who bought the small drug company in 1952 — for four decades before it became the center of a national scandal. In December 1995, the FDA approved Purdue's new painkiller, OxyContin, a controlled-release formulation of oxycodone, and controversially allowed Purdue to include label language suggesting the drug's slow-release design made it less prone to abuse than rival painkillers, even though no studies had tested that claim. Purdue's sales force marketed OxyContin aggressively to primary-care doctors for everyday chronic pain — a far broader population than opioids had traditionally been prescribed to — while telling prescribers the drug's abuse potential was under one percent. Sales rocketed from $48 million in 1996 to more than $1 billion by 2000, and OxyContin became one of the most abused prescription drugs in the country as patients crushed the tablets to bypass the time-release coating and get the full dose at once.
 
 In May 2007, The Purdue Frederick Company pleaded guilty to a federal felony charge of "misbranding" OxyContin with intent to defraud and mislead regulators and doctors about its addiction risk. Three top executives — president Michael Friedman, chief legal officer Howard Udell, and former medical affairs chief Paul Goldenheim — pleaded guilty to related misdemeanor charges. Purdue and the executives paid a combined $634.5 million in fines and penalties, but no Sackler family member was charged, and the company kept selling OxyContin under essentially the same sales practices for another decade, even as internal company documents later revealed executives had specifically discussed the scale of abuse and "street value" of the drug years before the plea.
