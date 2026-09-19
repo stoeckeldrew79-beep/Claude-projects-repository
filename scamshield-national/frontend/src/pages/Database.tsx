@@ -84,19 +84,49 @@ export default function Database() {
         to the database.
       </p>
 
-      <div className="mt-8 flex gap-1 rounded-lg bg-slate-100 p-1 w-fit">
-        {VIEW_OPTIONS.map((opt) => (
-          <button
-            key={opt.value}
-            type="button"
-            onClick={() => handleViewChange(opt.value)}
-            className={`px-4 py-1.5 rounded-md text-sm font-medium transition-colors ${
-              view === opt.value ? 'bg-white text-slate-900 shadow-sm' : 'text-slate-600 hover:text-slate-900'
-            }`}
-          >
-            {opt.label}
-          </button>
-        ))}
+      <div className="mt-8 flex flex-wrap items-center gap-3">
+        <div className="flex gap-1 rounded-lg bg-slate-100 p-1 w-fit">
+          {VIEW_OPTIONS.map((opt) => (
+            <button
+              key={opt.value}
+              type="button"
+              onClick={() => handleViewChange(opt.value)}
+              className={`px-4 py-1.5 rounded-md text-sm font-medium transition-colors ${
+                view === opt.value ? 'bg-white text-slate-900 shadow-sm' : 'text-slate-600 hover:text-slate-900'
+              }`}
+            >
+              {opt.label}
+            </button>
+          ))}
+        </div>
+
+        {/* A country axis, not a view axis — composes with whichever tab above
+            is active instead of replacing it, the same way the country
+            dropdown below already does. Pulled up next to the view tabs
+            because "US only" is common enough to deserve one click instead of
+            hunting for it in that dropdown. */}
+        {countries && countries.length > 1 && (
+          <div className="flex gap-1 rounded-lg bg-slate-100 p-1 w-fit">
+            <button
+              type="button"
+              onClick={() => setCountry('US')}
+              className={`px-4 py-1.5 rounded-md text-sm font-medium transition-colors ${
+                country === 'US' ? 'bg-white text-slate-900 shadow-sm' : 'text-slate-600 hover:text-slate-900'
+              }`}
+            >
+              United States Only
+            </button>
+            <button
+              type="button"
+              onClick={() => setCountry(undefined)}
+              className={`px-4 py-1.5 rounded-md text-sm font-medium transition-colors ${
+                !country ? 'bg-white text-slate-900 shadow-sm' : 'text-slate-600 hover:text-slate-900'
+              }`}
+            >
+              All Countries
+            </button>
+          </div>
+        )}
       </div>
 
       {/* Trend Watch is nationwide. Above a state-filtered list it reads as
