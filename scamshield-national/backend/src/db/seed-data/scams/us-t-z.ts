@@ -5068,3 +5068,45 @@ Fairfax County notes that Virginia's Consumer Protection Act specifically prohib
     country: 'US',
     state: 'VA',
 });
+
+UsTZ.push({
+    name: 'East Tennessee QR Code Fake Court-Notice Scam',
+    slug: 'tennessee-east-qr-code-court-notice-scam',
+    description: `In early April 2026, sheriff's offices in McMinn and Roane counties began warning East Tennessee residents about a wave of fake court notices circulating by text and mail that use a QR code, rather than a link, to steer victims toward payment. The fraudulent documents are built to survive a quick glance: they carry invented case numbers, a judge's name, and a courthouse address formatted to look like genuine county court paperwork, then label themselves something like a "final notice" for an unpaid toll, fine, civil penalty, or court cost. Buried in the fine print is a QR code that, when scanned, opens a payment page designed to look official but is controlled by the scammer, and the notice threatens that ignoring it will lead to a suspended driver's license or damaged credit.
+
+McMinn County Sheriff Joe Guy urged residents in blunt terms — "Don't fall victim to it! Don't scan the code! Don't respond in any way!" — while the Roane County Sheriff's Office advised anyone who receives one of these notices to call the court or agency directly using a phone number they look up themselves, never one printed on the notice. The scam is part of a broader QR-code "quishing" wave that federal regulators, including the FTC, have flagged nationally in parking and toll contexts, but this version specifically forges the look of a county court filing to make the threat of legal consequences feel real. Authorities in both counties are asking anyone who receives one of these notices to report it rather than scan it, and to verify any actual court business only through numbers obtained independently, such as a county court clerk's published line.`,
+    categorySlug: 'qr-code-scams',
+    alertLevel: 'high',
+    sources: ['WVLT News', 'McMinn County Sheriff\'s Office', 'Roane County Sheriff\'s Office'],
+    sourceUrl: 'https://www.wvlt.tv/2026/04/05/dont-respond-any-way-east-tn-sheriffs-offices-warn-new-court-scam/',
+    country: 'US',
+    state: 'TN',
+});
+
+UsTZ.push({
+    name: 'FBI Memphis Sextortion Warning Targeting Teenage Boys',
+    slug: 'tennessee-fbi-memphis-teen-boy-sextortion-warning',
+    description: `The FBI's Memphis Field Office, which covers West Tennessee, has repeatedly warned parents about a sharp rise in financially motivated sextortion schemes aimed at teenage boys, a pattern agents describe as one of the fastest-growing threats to minors online. In the scheme, an adult posing online as a teenage girl — on social media, a gaming platform, or a messaging app — builds a fast relationship with a boy, typically 14 to 17 years old, and manipulates him into sending an explicit photo or video, or into an explicit video chat that the scammer secretly records. Once the material exists, the scammer's tone flips instantly: they reveal they've saved the images and threaten to send them to the victim's family, friends, and social media contacts unless he pays, usually through gift cards, a payment app, or cryptocurrency.
+
+FBI Memphis Special Agent in Charge Douglas Korneski has said predators can reach children "in their own homes through the devices they use for gaming, homework, and communicating with friends," and the bureau has separately flagged an emerging variant in which scammers skip the manipulation step entirely, instead using a teenager's real, publicly posted photos to generate a fabricated explicit deepfake image for the same extortion demand. FBI figures cited alongside the warning showed more than 18,000 sextortion complaints and over $13.6 million in reported losses nationally in a single year, and the bureau has linked the pattern to a number of teen suicides — which is why agents stress that a victim should stop responding, refuse to pay, save everything as evidence, and report it immediately to a parent and to the FBI at tips.fbi.gov or 1-800-CALL-FBI, since paying rarely stops the threats and instead marks the victim as someone who will pay again.`,
+    categorySlug: 'sextortion',
+    alertLevel: 'critical',
+    sources: ['FBI Memphis Field Office', 'FOX13 Memphis (WHBQ)'],
+    sourceUrl: 'https://www.fbi.gov/contact-us/field-offices/nashville/news/fbi-memphis-field-office-warns-of-increase-in-sextortion-schemes-targeting-teenage-boys',
+    country: 'US',
+    state: 'TN',
+});
+
+UsTZ.push({
+    name: 'Knoxville "Optimize a Product" Task-Job Scam (Nexxen Impersonation)',
+    slug: 'tennessee-knoxville-nexxen-task-job-scam',
+    description: `An East Tennessee woman's search for a legitimate remote job turned into a nearly $2,000 loss after she found what looked like a real opening with Nexxen — a real, publicly traded digital-advertising company — and was instead recruited into a "task-based" scam built around a fake work app, WATE 6 On Your Side reported in November 2025. According to the victim, Marianne Reyns, the fraud crew had lifted details from an actual job listing and built a lookalike site to intercept applicants, then walked her through a "pay-to-play" system where she was assigned simple repetitive tasks — described to her as "optimizing products" or boosting Amazon review scores — through an app, with small real payouts at first to build trust.
+
+Once she was invested, the app began showing "negative transactions" that supposedly had to be covered by depositing more of her own money before she could withdraw anything, a mechanic Reyns said made the whole thing feel "like gambling": each deposit created the illusion that a much larger balance, eventually shown on-screen as $9,499.55, was just one more payment away, while roughly $2,000 of her own money — including an $800 credit-card advance — disappeared for good. Nexxen has publicly confirmed it has no connection to the scheme and says it never asks any applicant or employee to pay money, in any form, as a condition of getting or keeping work. The format Reyns encountered has exploded nationally: the Better Business Bureau logged over 23,000 job-scam reports in 2025, roughly double the year before, and found task-based schemes carried a median loss of $2,300 — notably higher than other job-scam types — with consumer advocates saying the clearest warning sign is any job that asks a worker to pay, deposit, or "unlock" their own earnings before they can withdraw them.`,
+    categorySlug: 'job-task-scams',
+    alertLevel: 'medium',
+    sources: ['WATE 6 On Your Side', 'Better Business Bureau'],
+    sourceUrl: 'https://www.yahoo.com/news/articles/gambling-east-tn-woman-loses-212132561.html',
+    country: 'US',
+    state: 'TN',
+});
