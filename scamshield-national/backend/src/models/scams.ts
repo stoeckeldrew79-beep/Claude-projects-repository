@@ -44,8 +44,12 @@ export interface ScamListFilters {
   sort?: 'newest' | 'oldest' | 'alert_level' | 'name_asc' | 'chronological';
   // 'current' (default) hides historical entries so the main browsing
   // experience stays about active threats; 'historical' shows only the
-  // historical archive; 'all' mixes both.
-  view?: 'current' | 'historical' | 'all';
+  // historical archive; 'all' mixes both. 'recent' is a stricter, additive
+  // fourth option for the Database page's "Last 30 Days" tab — 'current'
+  // itself is left untouched since other pages (Home, the Live Activity
+  // ticker, state pages) rely on its existing meaning by omitting `view`
+  // entirely and getting the default.
+  view?: 'current' | 'historical' | 'all' | 'recent';
   page?: number;
   pageSize?: number;
 }
@@ -59,6 +63,11 @@ export async function listScams(filters: ScamListFilters) {
     conditions.push('s.is_historical = true');
   } else if (view === 'current') {
     conditions.push('s.is_historical = false');
+  } else if (view === 'recent') {
+    // A real recency window, not the permanent is_historical classification
+    // 'current' uses — a scam added two years ago and never tagged
+    // historical would otherwise sit in "recent" forever.
+    conditions.push("s.is_historical = false AND s.created_at >= NOW() - INTERVAL '30 days'");
   }
 
   if (category) {

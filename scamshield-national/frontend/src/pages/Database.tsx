@@ -16,9 +16,9 @@ const SORT_OPTIONS: { value: NonNullable<ScamListParams['sort']>; label: string 
 ];
 
 const VIEW_OPTIONS: { value: NonNullable<ScamListParams['view']>; label: string }[] = [
-  { value: 'current', label: 'Current threats' },
-  { value: 'historical', label: 'Historical archive' },
-  { value: 'all', label: 'All eras' },
+  { value: 'recent', label: 'Last 30 Days' },
+  { value: 'historical', label: 'Historical Archive' },
+  { value: 'all', label: 'Full History' },
 ];
 
 export default function Database() {
@@ -47,7 +47,7 @@ export default function Database() {
   // one showed an unfiltered list and looked broken.
   const [state, setState] = useState<string | undefined>(searchParams.get('state') ?? undefined);
   const [sort, setSort] = useState<NonNullable<ScamListParams['sort']>>('alert_level');
-  const [view, setView] = useState<NonNullable<ScamListParams['view']>>('current');
+  const [view, setView] = useState<NonNullable<ScamListParams['view']>>('recent');
   const { data: categories } = useCategories();
   const { data: countries } = useCountries();
   const { data: scamTags } = useScamTags();
@@ -61,11 +61,13 @@ export default function Database() {
 
   function handleViewChange(next: NonNullable<ScamListParams['view']>) {
     setView(next);
-    // Urgency sort is meaningless for historical entries (no alert_level);
-    // chronological sort by date is meaningless for current-only entries
-    // (no first_recorded). Switch to whichever actually makes sense.
-    if (next === 'historical' && sort === 'alert_level') setSort('chronological');
-    if (next === 'current' && sort === 'chronological') setSort('alert_level');
+    // Urgency sort is meaningless for historical-only entries (no
+    // alert_level on most); "Full History" mixes both eras together, so
+    // chronological — genuinely browsing everything ever recorded by date —
+    // is the reading that tab exists for. "Last 30 Days" is inherently
+    // recency-scoped already, so urgency is the more useful default there.
+    if ((next === 'historical' || next === 'all') && sort === 'alert_level') setSort('chronological');
+    if (next === 'recent' && sort === 'chronological') setSort('alert_level');
   }
 
   const scams = data?.pages.flat() ?? [];
@@ -77,8 +79,9 @@ export default function Database() {
       </span>
       <h1 className="mt-1 text-3xl font-extrabold tracking-tight text-slate-900">Scam Database</h1>
       <p className="mt-2 text-slate-600 max-w-2xl">
-        Search and browse recorded scam activity. Sort by what's most urgent right now, alphabetically, or by what's
-        newest to the database.
+        Search and browse recorded scam activity — reports from the last 30 days, the historical archive, or
+        everything ever recorded. Sort by what's most urgent right now, alphabetically, by date, or by what's newest
+        to the database.
       </p>
 
       <div className="mt-8 flex gap-1 rounded-lg bg-slate-100 p-1 w-fit">
@@ -111,6 +114,13 @@ export default function Database() {
             Notorious Scams &amp; Scammers
           </Link>{' '}
           for the full stories behind some of these.
+        </p>
+      )}
+      {view === 'all' && (
+        <p className="mt-6 mb-8 text-sm text-slate-500">
+          Every scam this database has ever recorded — active threats and the historical archive together, sorted by
+          date by default. A scam not appearing here recently just means nothing new has been reported in that
+          category lately, not that it stopped happening.
         </p>
       )}
 
