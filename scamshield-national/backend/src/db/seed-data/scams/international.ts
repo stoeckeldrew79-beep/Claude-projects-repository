@@ -20873,3 +20873,29 @@ The Gendarmerie estimated the financial damage at several million Djiboutian fra
   sourceUrl: 'https://www.facebook.com/www.adi.dj/posts/escroquerie-aux-faux-visas-un-premier-r%C3%A9seau-d%C3%A9mantel%C3%A9-plusieurs-millions-de-fra/1493427219477633/',
   country: 'DJ',
 });
+
+International.push({
+  name: 'Cape Verde Fake Wealthy Foreigner Sextortion Scheme',
+  slug: 'cape-verde-fake-wealthy-foreigner-sextortion-scheme',
+  description: `Cape Verde's Judiciary Police (Polícia Judiciária, PJ), through its Central Brigade for Investigation and Combating Cybercrime and Terrorism (BCICCT), issued a public alert on May 27, 2026 over a rising wave of online sexual extortion cases that have already produced several victims. The scheme starts with fake social media profiles built around attractive photographs of men and women who claim to live abroad and present themselves as financially successful, using that manufactured appeal to draw in targets and strike up a friendship or budding romance. Once a rapport is established and the conversation turns intimate, the scammer asks the victim to send explicit photographs or videos, sometimes including images of genitalia. As soon as that material is in hand, the extortion begins: victims are contacted — often by a second person posing as a relative, a police officer, or a foreign authority — who falsely accuses them of exchanging images with a minor and threatens criminal prosecution or public exposure of the images unless money is paid immediately, typically by bank transfer, Western Union, or MoneyGram.
+
+The PJ warned that the threats frequently continue even after a victim pays, since the extortionists exploit the shame and fear the scheme is built on to keep demanding more. Investigators urged the public to be wary of friend requests from unknown profiles with unusually attractive photos, to avoid intimate conversations with people they have never met in person, to never send private images to strangers online, and to report incidents immediately through the PJ's free hotline (134) or in person.`,
+  categorySlug: 'sextortion',
+  alertLevel: 'high',
+  sources: ['Polícia Judiciária de Cabo Verde (PJ)', 'Brigada Central de Investigação e Combate à Cibercriminalidade e Terrorismo (BCICCT)', 'Expresso das Ilhas'],
+  sourceUrl: 'https://expressodasilhas.cv/pais/2026/05/27/pj-investiga-esquema-de-extorsao-sexual-online-que-ja-fez-varias-vitimas/102918',
+  country: 'CV',
+});
+
+International.push({
+  name: 'Cape Verde Fake Presidential and First Lady Facebook Impersonation Scam',
+  slug: 'cape-verde-presidential-first-lady-facebook-impersonation-scam',
+  description: `A recurring fraud pattern in Cape Verde uses fake Facebook profiles built in the names of the country's most recognizable public figures to lend a scam instant credibility. In January 2019, a fraudster created a false profile using the name of then-First Lady Lígia Fonseca, presenting "her" as a bank shareholder and using the borrowed identity to solicit personal and professional details from her real contacts before pushing them toward "investment" transfers framed as mutually beneficial. The pattern resurfaced more visibly in 2024, when multiple fake profiles proliferated under the names of President José Maria Neves and First Lady Débora Carvalho, again pushing fraudulent schemes at the contacts who followed them. One version identified by the Presidency of the Republic dangled a fabricated United Nations funding promotion "supposedly intermediated by the President," which, in the Presidency's own words, "deceptively promises 10 million escudos" to anyone who engages with it — in practice a lure to extract personal data, documents, and money from anyone who responds.
+
+The Presidency's office has had to issue public alerts about impersonation at least twice, underscoring how often the tactic recurs. Because the fake accounts borrow real photos and the real reputational weight of the country's head of state and his family, victims are far more likely to let their guard down than with an anonymous stranger's profile. The public has been urged to treat unsolicited "investment" or "grant" offers arriving through a public figure's social media profile with heavy skepticism, to verify any such claim through the official's verified channels rather than the profile itself, and never to send money or documents on the strength of a Facebook friend request or message alone.`,
+  categorySlug: 'government-impersonation',
+  alertLevel: 'medium',
+  sources: ['Expresso das Ilhas', 'Presidência da República de Cabo Verde'],
+  sourceUrl: 'https://expressodasilhas.cv/pais/2025/02/16/burlas-online-navegando-num-sitio-de-embustes/95676',
+  country: 'CV',
+});
