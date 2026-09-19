@@ -518,7 +518,6 @@ Before paying any fee tied to a permit or zoning application, check the sender's
     coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/MetLife_Stadium_Exterior,_2026_FIFA_World_Cup_(June_20,_2026).jpg?width=1200',
     coverImageCredit: 'Photo: MiracleMiles (CC BY 4.0) — MetLife Stadium during the 2026 FIFA World Cup',
     coverImagePosition: 50,
-    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.ic3.gov/PSA/2026/PSA260527',
     body: `A fan searching for World Cup 2026 tickets clicks a sponsored search result or a link shared in a group chat, lands on a page that looks exactly like FIFA's official site, and buys what's advertised as a hospitality package or a bundle of tickets to a marquee match. The page has the right branding, the right typefaces, even a checkout flow that feels like any other ticket purchase — except the tickets never arrive, and the card number, address, and phone number entered during checkout are now in the hands of whoever built the site.
 
