@@ -12922,6 +12922,26 @@ International.push(
     sourceUrl: 'https://fsrc.kn/2-uncategorised/275-general-public-advisory',
     country: 'KN',
   },
+  {
+    name: "St. Kitts and Nevis Fugitive's Facebook Marketplace Vehicle and Land Scam",
+    slug: 'st-kitts-nevis-facebook-marketplace-vehicle-land-scam',
+    description: `The Royal St. Christopher and Nevis Police Force (RSCNPF) issued a public "SCAM ALERT" media release on May 15, 2025 renewing its warning about fugitive Desi Williams of Sandy Point, wanted since July 7, 2024 and believed to be hiding on another Caribbean island, who police say continues to run online fraud through fake Facebook profiles advertising vehicles and land for sale on Facebook Marketplace. In the most recent reported case, a vehicle was advertised under the profile name "Blu Danielle"; the "seller" instructed the buyer to transfer funds via mobile banking in stages, and after receiving multiple payments demanded additional money under false pretences — when the buyer refused, the seller cut off all contact and never delivered the vehicle or refunded the money. Police described a consistent pattern across these cases: the seller always claims to be off-island but "returning soon," asks for payment by mobile banking or money transfer into local accounts that do not belong to the seller, pressures or emotionally manipulates buyers into paying before verifying the item, and disappears immediately once funds are received. RSCNPF said it has frozen Williams's own bank accounts and assets, but that he continues to rely on local accomplices to receive and forward the stolen funds on his behalf, and warned those accomplices they face prosecution under Section 5(3) of the Fugitive Offenders Act for aiding a wanted fugitive. The public was advised never to send money to an online seller of a high-value item unless they can meet in person and verify ownership, to treat any "off-island" seller who pressures quick payment as a red flag, to avoid sending funds to strangers via mobile banking, Western Union, or MoneyGram, and to report suspicious listings or profiles directly to police.`,
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'high',
+    sources: ['Royal St. Christopher and Nevis Police Force (RSCNPF)', 'NevisPages.com'],
+    sourceUrl: 'https://www.nevispages.com/police-media-release-scam-alert/',
+    country: 'KN',
+  },
+  {
+    name: 'St. Kitts and Nevis CBI Illegal Discounting by RIF Trust and Latitude Consultancy',
+    slug: 'st-kitts-nevis-cbi-illegal-discounting-rif-trust-latitude-consultancy',
+    description: `St. Kitts and Nevis's Citizenship by Investment Unit (CIU) and Ministry of National Security announced enforcement action on April 7, 2025 after an investigation found that marketing agents had been selling the Federation's Citizenship by Investment (CBI) program to prospective applicants below the statutory minimum contribution, using false assurances of "special discounts" that let clients believe they had paid more than they actually had. The CIU permanently blacklisted marketing agent RIF Trust over the practice and temporarily suspended a second agent, Latitude Consultancy (reinstated on October 31, 2025 after review). Out of 158 applications reviewed, the government said 32 applicants paid the outstanding balance owed, while 13 had their previously granted citizenship revoked after admitting they had never paid the full statutory amount, with the remainder in settlement negotiations and one requesting a Commission of Inquiry hearing. The government said it would take "necessary statutory steps under the Citizenship Act to protect our Federation's good name and revoke citizenships obtained by fraud." As in similar illegal-discounting schemes uncovered in other Citizenship by Investment jurisdictions, applicants who accept an agent's offer to pay less than the legally required investment risk having their application rejected or an already-granted citizenship stripped years later — losing both the money paid and the citizenship itself — so prospective CBI applicants are urged to deal only with an authorized marketing agent, confirm the actual statutory minimum directly with the CIU, and treat any "discount" or below-minimum offer as a serious warning sign rather than a bargain.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'medium',
+    sources: ['Saint Kitts and Nevis Citizenship by Investment Unit (CIU)', 'IMI Daily'],
+    sourceUrl: 'https://www.imidaily.com/caribbean/st-kitts-revokes-13-citizenships-blacklists-2-well-known-marketing-agents/',
+    country: 'KN',
+  },
 );
 
 International.push(
