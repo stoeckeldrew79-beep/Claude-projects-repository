@@ -9339,3 +9339,48 @@ The government's guidance to residents was direct: do not share, repost, or forw
     country: 'US',
     state: 'AS',
 });
+
+UsAF.push({
+    name: "Delaware Investor Protection Unit \"Pig Butchering\" Crypto Cease-and-Desist Actions",
+    slug: 'delaware-investor-protection-unit-pig-butchering-crypto-scam',
+    description: `Delaware's Department of Justice Investor Protection Unit has twice — in September 2022 and again in September 2023 — issued Summary Orders to Cease and Desist freezing crypto-exchange wallets tied to "pig butchering" schemes that victimized Delaware residents. The scam starts with an unsolicited online contact (often via a dating app, text "wrong number," or social media) who spends weeks or months building a friendly or romantic relationship before steering the conversation toward a supposedly lucrative cryptocurrency investment. Victims are walked through opening accounts on convincing but fraudulent look-alike exchange sites — one documented Delaware case used a fake site, bybit.us, cloned to resemble the real exchange Bybit.com — and are shown fabricated account balances that appear to grow rapidly, encouraging larger deposits ("fattening" the victim, the origin of the scam's name). When the victim tries to withdraw funds, the site claims a substantial "withdrawal fee" or "tax" must be paid first; even after paying it, real withdrawal never happens.
+
+In the case cited in the Unit's 2023 action, a Delaware senior lost roughly $275,000 of his retirement savings this way, taking out a personal loan to cover a bogus withdrawal fee before realizing the money was gone for good. Working with the data-analytics firm Inca Digital, the Investor Protection Unit traced the stolen crypto to specific wallets on exchanges including OKX.com and obtained a cease-and-desist order freezing those wallets to prevent further movement of the funds — a tool meant to buy time for asset recovery, not a guarantee of getting the money back. Anyone directed to deposit into a cryptocurrency exchange by someone they've never met in person, especially one who won't video-chat and who introduces a "fee" required before a withdrawal will process, should stop, recognize the fee-before-withdrawal step itself as the scam's signature move, and report it to Delaware's Investor Protection Unit or the FBI's IC3 before sending anything further.`,
+    categorySlug: 'cryptocurrency-scams',
+    alertLevel: 'high',
+    sources: ['Delaware Department of Justice, Investor Protection Unit', 'Delaware Business Now', 'CoinGeek'],
+    sourceUrl: 'https://news.delaware.gov/2023/09/18/investor-protection-unit-puts-pig-butchers-on-ice-again/',
+    country: 'US',
+    state: 'DE',
+    firstRecorded: '2022-09-28',
+});
+
+UsAF.push({
+    name: 'Delaware Jury Duty Phone Scam (MoneyPak / Fake Courthouse Warrant)',
+    slug: 'delaware-jury-duty-moneypak-phone-scam',
+    description: `Delaware's Consumer Protection Unit has repeatedly warned residents about a phone scam that uses the threat of arrest to extract fast, untraceable payment. Calls come from what appears to be a legitimate (302) area-code number; the caller identifies himself as "Major," claims to be relaying word from a judge on the other line, and tells the target that a bench warrant has been issued for their arrest because they failed to appear for jury duty. To make the threat feel urgent and unavoidable, the caller instructs the victim to buy two MoneyPak prepaid cash cards and hand-deliver them, in person, to the Leonard L. Williams Justice Center in Wilmington within the hour — promising the charge will be cleared and the money refunded by check once the "situation" is resolved. No refund ever comes.
+
+The Department of Justice stresses that Delaware courts never notify anyone about jury duty by phone, never threaten immediate arrest over the phone, and never demand payment of any kind — by MoneyPak, gift card, wire transfer, or otherwise — to avoid a warrant. Real jury summonses and any related notices arrive by U.S. mail. Anyone who gets a call like this should hang up without engaging, never purchase or read off numbers from a prepaid cash card to a caller, and confirm jury status only by calling their county's jury services office directly using a number looked up independently rather than one given by the caller.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Delaware Department of Justice, Consumer Protection Unit'],
+    sourceUrl: 'https://news.delaware.gov/2019/08/15/doj-warns-delawareans-about-jury-duty-phone-scam/',
+    country: 'US',
+    state: 'DE',
+});
+
+UsAF.push({
+    name: 'Roosevelt Law Center / Miracles for Homeowners Foreclosure Rescue Scam',
+    slug: 'delaware-roosevelt-law-center-foreclosure-rescue-scam',
+    description: `Two California-based companies, Roosevelt Law Center, P.C. and Miracles for Homeowners Marketing, Inc., run by principals Thomas Moore and Benjamin Borazghi, blanketed struggling Delaware homeowners with more than 1,000 deceptive flyers promising to save their homes from foreclosure or secure a loan modification. Homeowners who responded and paid the companies' upfront fees generally received services worth little or nothing in return, and multiple Delaware victims went on to lose their homes to foreclosure anyway despite having paid for supposed help. Delaware's Mortgage Loan Modification Services Act makes it illegal for a loan-modification service provider to collect fees before actually obtaining a modification, and requires providers to register with the Delaware Department of Justice — registration the companies did not have.
+
+Following an investigation by the Consumer Protection Unit, the companies agreed to a settlement requiring $22,275 in restitution to nine identified Delaware homeowners, $70,000 in civil penalties, and a permanent ban from offering any mortgage-modification or debt-relief services in Delaware. "People who are trying to save their homes are living through a nightmare, often amid other serious hardships," Attorney General Kathy Jennings said. "Many scammers see opportunity in others' misfortune." The case illustrates the classic foreclosure-rescue pattern: an unsolicited flyer or call guaranteeing to stop a foreclosure or win a modification, a demand for payment before any service is performed, and often an implied (false) government affiliation — homeowners facing foreclosure should instead contact a HUD-approved housing counselor or Delaware's Consumer Protection Unit directly, both of which are free, before paying anyone upfront for rescue services.`,
+    categorySlug: 'mortgage-foreclosure-scams',
+    alertLevel: 'medium',
+    sources: ['Delaware Department of Justice, Consumer Protection Unit'],
+    sourceUrl: 'https://news.delaware.gov/?p=105248',
+    country: 'US',
+    state: 'DE',
+    isHistorical: true,
+    firstRecorded: '2019-07-23',
+});
