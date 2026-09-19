@@ -4916,6 +4916,10 @@ GuidesNS.push({
     slug: 'petco-2025-misconfigured-application-data-breach-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'petco-2025-data-breach'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Petco_store.JPG?width=1200',
+    coverImageCredit: 'Photo: Micov (CC BY 3.0) — a Petco storefront, the retailer named in this 2025 data breach disclosure',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.foxnews.com/tech/petco-confirms-major-data-breach-involving-customer-data',
     body: `Petco, the national pet-supply retailer, disclosed in mid-December 2025 that a misconfigured setting in one of its own software applications had inadvertently made certain customer files accessible on the open internet. The company has said it confirmed the issue on December 9, 2025, and filed notices with the attorneys general of California, Massachusetts, and Montana shortly after. Unlike most breaches covered here, this one didn't start with a hacker breaking in, a phishing email, or a ransomware gang — it started with a configuration error that left files sitting somewhere they should never have been reachable without a password at all.
 
@@ -4932,6 +4936,9 @@ GuidesNS.push({
     slug: 'smishing-triad-lighthouse-phishing-as-a-service-lawsuit-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'smishing-triad-lighthouse-phishing-kit'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/SMS_Phishing_Attack_Example.jpg?width=1200',
+    coverImageCredit: 'Photo: Johnathan.g.freeman (CC BY-SA 4.0) — a real SMS phishing text on a smartphone, the exact scam type this guide covers',
+    coverImagePosition: 50,
     sourceUrl: 'https://krebsonsecurity.com/2025/11/google-sues-to-disrupt-chinese-sms-phishing-triad/',
     body: `If you've gotten a text about an "unpaid toll," a package that "couldn't be delivered," or a suspicious charge on your bank card, there's a good chance it didn't come from an amateur working alone — it came from a criminal supply chain with software, templates, and customer support of its own. On November 12, 2025, Google filed a federal racketeering lawsuit in the Southern District of New York against 25 unnamed "John Doe" defendants it says operate Lighthouse, a China-based "phishing-as-a-service" platform used by a loose network of criminal groups known collectively as the Smishing Triad. According to Google's complaint, Lighthouse has been used to victimize more than a million people across 120 countries and is linked to the theft of tens of millions of payment cards.
 
