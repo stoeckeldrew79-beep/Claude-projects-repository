@@ -1337,6 +1337,10 @@ Hatry served nine years before his release from Maidstone Prison in January 1939
     slug: 'city-of-glasgow-bank-1878-collapse',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/City_of_Glasgow_Bank_1877_Bill_of_Exchange_for_%C2%A35000.jpg?width=1200',
+    coverImageCredit: 'Photo: AllyD, Wikimedia Commons (CC BY-SA 4.0) — an 1877 City of Glasgow Bank bill of exchange',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `The City of Glasgow Bank was founded in 1839 with a business model built on trust from ordinary people: it kept branches open in the evenings specifically so working- and middle-class savers could deposit their wages after the workday ended. By the 1870s it had grown into one of Scotland's largest banks, and in June 1878 — just months before it collapsed — its directors publicly reported 133 branches, deposits of £8 million, and a healthy 12 percent dividend. Shares with a nominal value of £100 were changing hands for as much as £236 on the eve of the crash.
 
 None of that reported health was real. Behind the published figures, the bank's directors had spent years funneling money into wildly speculative, poorly secured loans backed by Australian and New Zealand pastoral and mining ventures and American railway shares — bets that had turned into enormous unrecoverable losses. Rather than disclose them, the directors and general manager Robert Stronach systematically falsified the bank's balance sheets year after year, and secretly used the bank's own funds to buy up its shares whenever the price threatened to slip, manufacturing the appearance of a thriving, popular stock right up until the end.
@@ -9545,6 +9549,10 @@ NotoriousAF.push({
     slug: 'cody-easterday-ghost-cattle-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/20190812-AMS-PJK-2811_TONED.jpg?width=1200',
+    coverImageCredit: 'Photo: Preston Keres, USDA (public domain) — cattle at a Colorado feedlot',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Cody Easterday was a fourth-generation Washington State cattle rancher who ran Easterday Ranches Inc. and Easterday Farms, one of the largest cattle-feeding operations in the Pacific Northwest, under long-standing "custom feeding" agreements with Tyson Fresh Meats and a second agribusiness company. Under those contracts, Tyson and the other company advanced Easterday Ranches the cost of purchasing and feeding cattle on their behalf, which Easterday Ranches would repay, with interest and fees, once the animals were slaughtered and sold.
 
 Starting around 2016, after racking up roughly $200 million in undisclosed personal losses from speculative cattle-futures trading, Easterday began billing his corporate partners for the purchase and feeding costs of cattle that simply did not exist — "ghost cattle" — using the reimbursements to cover his trading losses rather than any real livestock. Over about four years he invoiced Tyson Fresh Meats for more than $233 million and the second company for over $11 million tied to roughly 265,000 head of nonexistent cattle.

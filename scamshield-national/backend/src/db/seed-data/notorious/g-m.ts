@@ -9365,6 +9365,10 @@ NotoriousGM.push(
     slug: 'david-mcwilliams-alammc-disability-housing-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'international'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/2007_Aston_Martin_DB9_1.jpg?width=1200',
+    coverImageCredit: 'Photo: Calreyn88, Wikimedia Commons (CC BY-SA 4.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Note: David McWilliams has been criminally charged and the case is before the courts; he has not been convicted, and everything below describes allegations that remain to be proven at trial.
 
 David McWilliams was a director of the ALAMMC group of companies, a Gold Coast property development business that pitched a genuinely compelling investment story: Specialist Disability Accommodation, or SDA, purpose-built housing for people with high support needs whose rent is backed by Australia's National Disability Insurance Scheme. Between July 2021 and October 2023, ALAMMC raised more than $90 million from over 500 investors across six planned SDA projects in Queensland and Western Australia, offering a pitch that combined a social good — housing for people the NDIS was designed to support — with a funding source that sounded about as safe as a government payment could be.
@@ -10373,6 +10377,10 @@ NotoriousGM.push({
     slug: 'kazuhiko-asakawa-aij-pension-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'international'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Marunouchi_2010_(5279510601).jpg?width=1200',
+    coverImageCredit: 'Photo: Jacob Ehnmark (CC BY 2.0) — Tokyo\'s Marunouchi financial district',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `AIJ Investment Advisors was a small, little-known Tokyo asset manager founded in 2000 by Kazuhiko Asakawa, a former Nomura Securities salesman, who built a client roster of roughly 90 small and mid-sized corporate pension funds — the kind too small to run the kind of rigorous due diligence a major institutional investor could afford. That gap between the sophistication of AIJ's clients and the scrutiny they were actually capable of applying is exactly what let the fraud run for nearly a decade.
 
 Asakawa fabricated AIJ's assets under management and investment performance to keep pension money flowing in, while the firm's real derivatives trading — heavily concentrated in options — quietly lost around ¥109 billion (roughly $1.1 billion) of client money over the nine years to March 2011. When pension funds tried to redeem their investments, AIJ and an affiliated brokerage, ITM Securities, allegedly sold newly fabricated, overpriced investment-trust products to other clients and used the fresh incoming cash to pay off the ones trying to exit — the same rob-Peter-to-pay-Paul mechanic at the center of any Ponzi scheme, dressed up as ordinary asset management.
