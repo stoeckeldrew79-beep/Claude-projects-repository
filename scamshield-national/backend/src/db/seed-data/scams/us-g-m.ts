@@ -8868,3 +8868,39 @@ UsGM.push({
     country: "US",
     state: "GU",
 });
+
+UsGM.push({
+    name: "AI Voice-Cloning Family Emergency Scam Targeting Maine Seniors",
+    slug: "maine-ai-voice-cloning-family-emergency-scam",
+    description: "Imposter scams were Maine's single most common fraud type in the most recent year measured, victimizing more than 2,000 Mainers according to FTC data cited by WGME's I-Team, and prosecutors say artificial intelligence is now supercharging the classic \"grandparent scam.\" Scammers scrape a few seconds of a real person's voice from social media video, TikTok clips, voicemail greetings, or Instagram and Facebook posts, then use AI cloning tools to generate a call that sounds exactly like a Maine resident's grandchild, child, or other relative — panicked, in trouble, and needing money wired or sent immediately. Andrew McCormack, Assistant U.S. Attorney for the District of Maine, said AI has taken imposter fraud \"through the roof,\" describing the tactic's core psychology as designed to \"get you under their spell, keep you in\" the fabricated emergency before the target has time to think it through or verify anything.\n\nJane Margesson of AARP Maine noted that regardless of which technology scammers use next, the underlying red flags stay consistent: urgency, secrecy, and pressure to act before telling anyone else. Because caller ID can also be spoofed to show a familiar number, seeing a relative's name pop up is no longer proof of who is actually calling. Maine residents are advised to hang up and independently call the relative back at a number they already have on file (never a callback number the caller provides), agree on a family code word or question in advance that a cloned voice couldn't know, and resist any request — however urgent-sounding — to wire money, buy gift cards, or send cash before verifying the story through a second channel.",
+    categorySlug: "ai-deepfake-scams",
+    alertLevel: "high",
+    sources: ["WGME (Portland) I-Team", "U.S. Attorney's Office for the District of Maine", "AARP Maine", "Federal Trade Commission"],
+    sourceUrl: "https://wgme.com/news/i-team/ai-powered-scams-on-the-rise-how-fraudsters-are-cloning-voices-to-steal-your-money",
+    country: "US",
+    state: "ME",
+});
+
+UsGM.push({
+    name: "Maine Text Message Job Offer Scam",
+    slug: "maine-text-message-job-offer-scam",
+    description: "Maine residents are receiving unsolicited text messages offering immediate job openings — often \"work from home\" roles with unrealistically high pay — from senders impersonating legitimate recruiting agencies or spoofing the names of well-known real companies. WABI-TV in Bangor reported that the Better Business Bureau has logged thousands of reports of this pattern, in which a text arrives with no application process and no interview, just an offer to \"start now.\" Paula Fleming, the BBB's Chief Marketing and Sales Officer, said an immediate job offer with no interview is \"a huge red flag,\" and that unrealistic pay for remote work should immediately trigger skepticism.\n\nThe scam's goal is to harvest personal information — Social Security numbers, bank account details, or a driver's license photo submitted for supposed \"onboarding\" — or to walk the target into a fraudulent check/reshipping scheme once trust is established, ultimately exposing the victim to identity theft or direct financial loss rather than any real job. Consumers should know that legitimate large employers and job boards generally do not recruit cold via unsolicited text: Indeed, for example, never recruits by phone or text, and companies like Amazon send texts only for order updates, security alerts, or one-time passcodes — never unsolicited job links. Anyone receiving a surprise job-offer text should independently verify the opportunity by contacting the company directly through its official website or published number, never provide a Social Security number or bank information to an unverified recruiter, and report the message to the BBB Scam Tracker or the Maine Bureau of Consumer Credit Protection.",
+    categorySlug: "employment-scams",
+    alertLevel: "medium",
+    sources: ["WABI-TV (Bangor)", "Better Business Bureau"],
+    sourceUrl: "https://www.wabi.tv/2026/01/07/are-you-receiving-texts-offering-job-offers-experts-say-its-likely-scam/",
+    country: "US",
+    state: "ME",
+});
+
+UsGM.push({
+    name: "Maine ACA Open Enrollment \"Lead Generating\" Health Plan Scam",
+    slug: "maine-aca-health-plan-lead-generation-scam",
+    description: "Ahead of each year's Affordable Care Act open enrollment period, the Maine Bureau of Insurance warns that consumers searching online for terms like \"Maine ACA plans\" are frequently steered away from the state's official marketplace, CoverME.gov, and toward \"lead generating\" websites instead. These sites collect a consumer's contact information and then hand it off to salespeople — who are not always licensed to sell insurance in Maine — pushing plans that are not ACA-compliant and may exclude coverage for pre-existing conditions, prescription drugs, or other essential health benefits the buyer assumes they're getting. Because these lookalike sites and cold-calling sales agents can appear high in search results and sound authoritative, shoppers often don't realize until a claim is denied that they bought a limited-benefit product rather than a real marketplace plan.\n\nThe Bureau lists specific red flags: an agent who won't state the name of the insurance company or provide a producer license number, a sales pitch that skips reviewing plan details before asking for payment, pressure to buy immediately, or a requirement to join an \"association\" or pay an application fee just to see plan options. Maine's Superintendent of Insurance urges residents to shop exclusively at CoverME.gov or through a broker verified via the Bureau's online licensee search, and to call the Bureau of Insurance at 207-624-8475 or 1-800-300-5000 to confirm an agent's or plan's legitimacy before handing over any personal or payment information.",
+    categorySlug: "medicare-health-plans",
+    alertLevel: "medium",
+    sources: ["Maine Bureau of Insurance, Maine Department of Professional and Financial Regulation"],
+    sourceUrl: "https://www.maine.gov/pfr/insurance/press/maine-bureau-of-insurance-urges-consumers-to-be-cautious-when-selecting-health-plans-during-aca-open",
+    country: "US",
+    state: "ME",
+});
