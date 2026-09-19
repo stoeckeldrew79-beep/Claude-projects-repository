@@ -8610,15 +8610,19 @@ The Dimitrions' fraud followed a pattern familiar to foreclosure-rescue scams: a
   },
 );
 
-// No rights-cleared photo of Myers has surfaced — this is a pending 2026
-// case with no mugshot on Wikimedia Commons. sourceUrl below serves as
-// the "read the full story" link instead of a generic photo.
+// No rights-cleared portrait of Myers has surfaced — this is a pending 2026
+// case with no mugshot on Wikimedia Commons, so a representative photo of
+// Chicago (where he ran Sterling Capital) is used instead.
 NotoriousGM.push(
   {
     title: "John Sterling Myers and the Fake Father-in-Law's Fortune Behind Sterling Capital",
     slug: 'john-sterling-myers-sterling-capital-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Chicago_Skyline_Street_View.jpg?width=1200',
+    coverImageCredit: 'Photo: Lstrick05, Wikimedia Commons (CC BY-SA 4.0) — Chicago, where Myers ran Sterling Capital out of a home office',
+    coverImagePosition: 50,
     body: `Note: this entry describes a pending federal indictment and a parallel civil complaint. John Sterling Myers has not been convicted of any crime and has not been found liable in the SEC's civil case, and the allegations below are unproven as of this writing.
 
 John Sterling Myers ran Sterling Capital, LLC and Sterling Capital Management, LLC out of a home office in Chicago, marketing them as investment advisory firms and pooling client money into a fund called Sterling Capital Investments, LLC. Starting in January 2022, according to the Securities and Exchange Commission, Myers courted investors by touting several years of prior Wall Street experience as an analyst and associate, then sent them quarterly account statements claiming annual returns of 16 to 54 percent — consistently beating the S&P 500 — through a strategy built on short-dated options trades.
@@ -8658,17 +8662,21 @@ Lusher's case is a reminder that a fraud doesn't need an exotic asset class to w
 );
 
 // Note: this profile describes pending federal criminal charges; Satary is
-// presumed innocent unless and until convicted. No rights-cleared photo has
-// surfaced — the FBI's Most Wanted Fraudsters poster and DOJ's photos of his
-// return to the U.S. are not published on Wikimedia Commons under a license
-// this collection can use, so sourceUrl serves as the "read the full story"
-// link instead of a photo.
+// presumed innocent unless and until convicted. No rights-cleared portrait
+// has surfaced — the FBI's Most Wanted Fraudsters poster and DOJ's photos of
+// his return to the U.S. are not published on Wikimedia Commons under a
+// license this collection can use, so a representative photo of Houston's
+// medical/lab district is used instead.
 NotoriousGM.push(
   {
     title: 'Khalid Satary and the $547 Million Genetic-Testing Fraud That Took the FBI Three Years to Run Down',
     slug: 'khalid-satary-medicare-genetic-testing-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Texas_Medical_Center_skyline_in_Houston.JPG?width=1200',
+    coverImageCredit: 'Photo: Kylelovesyou, Wikimedia Commons (CC BY 3.0) — the Texas Medical Center in Houston, near where Satary ran genetic-testing laboratories',
+    coverImagePosition: 50,
     body: `Note: Khalid Satary faces pending federal criminal charges. An indictment is an accusation, not evidence of guilt, and he is presumed innocent unless and until convicted.
 
 From 2016 through 2019, prosecutors say, Khalid Ahmed Satary owned and operated a rotating network of diagnostic testing laboratories across the United States that billed Medicare for expensive, medically unnecessary cancer genetic tests — reimbursed by the program at $10,000 to $20,000 per sample. According to the Department of Justice, Satary built the pipeline of test samples by conspiring with dozens of patient recruiters, telemarketing call centers, and telemedicine companies, which used deceptive marketing campaigns and illegal kickbacks and bribes paid to doctors and recruiters to get Medicare beneficiaries — many of them elderly — to agree to genetic testing they did not need and, in many cases, never asked for. Prosecutors say the scheme ultimately billed Medicare more than $547 million, one of the largest health care fraud cases the Department has ever charged.
@@ -9040,13 +9048,18 @@ Citadel Energy's collapse follows a familiar shape for reputation-based fraud in
 // criminal wire fraud case ended in a guilty plea, per the SEC's own
 // litigation release, though the sentence imposed at the scheduled August
 // 2026 hearing could not be confirmed through published reporting as of
-// this writing. No rights-cleared photo of Santarelli was located.
+// this writing. No rights-cleared portrait of Santarelli was located, so a
+// representative photo of Laguna Niguel is used instead.
 NotoriousGM.push(
   {
     title: 'Marco Santarelli and the Norada Capital Ponzi Scheme',
     slug: 'marco-santarelli-norada-capital-ponzi-scheme',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Rows_of_tract_homes_in_Laguna_Niguel.jpg?width=1200',
+    coverImageCredit: 'Photo: Biff.Martin, Wikimedia Commons (CC BY-SA 4.0) — tract homes in Laguna Niguel, California, where Santarelli ran Norada Capital',
+    coverImagePosition: 50,
     body: `Marco Santarelli built a public profile in real estate investing circles as a frequent podcast and webinar host, and used that visibility to promote Norada Capital Management, LLC, a Wyoming-registered fund he owned and ran by himself out of Laguna Niguel, California. From June 2020 through June 2024, according to a Securities and Exchange Commission complaint, Santarelli used Norada to raise tens of millions of dollars from hundreds of investors nationwide by selling unsecured promissory notes paying 12% to 17% a year — with a 5% bonus for larger investments — while telling investors the notes offered "capital preservation," were "IRA friendly," and carried a chance of losing principal he estimated at "less than 2%."
 
 None of that reflected what Norada actually held. The SEC's complaint says Norada's portfolio was loaded with volatile, speculative bets: intellectual property bought out of retailers' bankruptcies, a stake in stage-production financing, roughly $5 million in cryptocurrency Santarelli kept in his own name rather than the fund's, and a $90 million debt-financed purchase of "Mastermind" business-seminar companies that never generated the returns Norada needed to cover what it owed investors. By November 2022, debt payments on that seminar-company deal had outpaced what Norada was earning, and the fund began paying investor "returns" out of new investors' money — Ponzi-like payments the SEC says Santarelli never disclosed. Instead, in August 2023, with Norada already unable to cover its obligations, he began offering an additional 5% bonus to attract still more money, raising another $54 million between August 2023 and the fund's collapse in June 2024. In total, the SEC says Norada used more than $18 million of investor funds to make Ponzi-like payments between 2020 and 2024.
@@ -10492,6 +10505,9 @@ NotoriousGM.push({
     slug: 'janet-lim-napoles-pdaf-pork-barrel-scam',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'international', 'corruption', 'bribery', 'government-fraud'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Janet_Lim-Napoles_mugshot.jpg?width=1200',
+    coverImageCredit: 'Philippine National Police, public domain (PD-PhilippinesGov) — Janet Lim-Napoles\' August 28, 2013 booking photo',
+    coverImagePosition: 50,
     body: `Janet Lim-Napoles was a Filipino businesswoman who built a fortune by helping members of the Philippine Congress steal from their own country's public works budget. The vehicle was the Priority Development Assistance Fund, or PDAF — a discretionary pool of money, commonly called "pork barrel," that individual senators and representatives could direct toward development projects in their districts. Rather than fund real infrastructure or livelihood programs, Napoles set up a network of no fewer than twenty nongovernmental organizations, including the Technology and Livelihood Resource Center and the Countrywide Agri and Rural Economic Development Foundation, that existed mainly on paper to receive lawmakers' PDAF allocations.
 
 The mechanism was straightforward once a lawmaker's office agreed to route money to one of Napoles's foundations: the "projects" the NGOs claimed to run — farm equipment distribution, livelihood kits, agricultural training — were fabricated or wildly inflated, and investigators later found Napoles's own employees had posed as farmers and beneficiaries in photographs used to satisfy government auditors. Of the money that actually moved, Napoles kept a substantial cut and paid kickbacks of roughly 40 to 60 percent of a project's value back to the endorsing legislator, with smaller cuts — around 5 percent — going to the lawmaker's staff and 10 percent to the agency officials who released the funds. The Commission on Audit later estimated that roughly ₱10 billion, then about $200 million, had moved through the scheme since 2004.

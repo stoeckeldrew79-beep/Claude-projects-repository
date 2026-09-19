@@ -8639,14 +8639,19 @@ Publishing.com's case is a reminder that a "no questions asked" guarantee is onl
 // This is an FTC consumer-protection matter resolved by a stipulated final
 // order in federal court, not a criminal case — Doxo, Shivers, and Parks
 // settled without admitting or denying the FTC's allegations. No
-// rights-cleared photo of either co-founder was found, so sourceUrl links
-// to the FTC's own settlement announcement instead of a photo.
+// rights-cleared portrait of either co-founder was found, so a
+// representative photo of Bellevue, Washington (where Doxo was founded) is
+// used instead.
 NotoriousAF.push(
   {
     title: "Doxo, Steve Shivers, and Roger Parks: The Bill-Pay App That Bought Your Biller's Name in Search Ads",
     slug: 'doxo-steve-shivers-roger-parks-bill-pay-junk-fees',
     author: 'ScamShield Editorial',
     tags: ['notorious'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Bellevue,_Washington_skyline.JPG?width=1200',
+    coverImageCredit: 'Photo: Goldman60, Wikimedia Commons (CC BY-SA 3.0) — Bellevue, Washington, where Doxo, Inc. was founded',
+    coverImagePosition: 50,
     body: `Note: Doxo, Inc., CEO Steve Shivers, and Vice President Roger Parks settled the FTC's civil complaint through a stipulated final order. Under the FTC's standard practice for such settlements, they neither admitted nor denied the agency's allegations, though the order has the force of law now that a federal judge has signed it.
 
 Doxo, Inc., founded in Bellevue, Washington in 2008, built an online bill-payment platform that let customers pay utility bills, car loans, medical bills, and other recurring charges through a single app rather than visiting each biller's own website. The business depended on one thing above all: getting in front of a consumer at the exact moment they searched online for a company they already owed money to.
@@ -9664,6 +9669,10 @@ NotoriousAF.push({
     slug: 'chung-tae-soo-hanbo-steel-scandal',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical', 'international'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Seoul_Night_Skyline_2022.jpg?width=1200',
+    coverImageCredit: 'Photo: Takipoint123, Wikimedia Commons (CC BY-SA 4.0) — Seoul, the seat of the government-influenced banking system that kept lending to Hanbo Steel',
+    coverImagePosition: 50,
     body: `Chung Tae-soo founded Hanbo Group and built it, largely on borrowed money and political connections, into South Korea's 14th-largest conglomerate by the mid-1990s. Its flagship subsidiary, Hanbo Steel, began building an enormous new steel mill at Dangjin in 1992 — a project analysts would later say made little independent economic sense, but one Chung kept funding by borrowing far beyond what Hanbo's own balance sheet could support.
 
 The mechanism was old-fashioned bribery dressed up as ordinary bank lending. South Korean investigators found that Chung funneled bribes to senior bankers, ruling-party politicians, and government officials to keep state-influenced banks extending loans to Hanbo Steel long after any legitimate credit committee should have cut it off. By the time it collapsed, the steelmaker had borrowed roughly 5 trillion won (about $5.8 billion) — around 20 times its own net worth — from banks that had been pressured into lending rather than persuaded by Hanbo's actual finances.
@@ -9681,6 +9690,10 @@ NotoriousAF.push({
     slug: 'christopher-drogoul-bnl-atlanta-iraq-loans',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical', 'international'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Atlanta_Downtown_Skyline.jpg?width=1200',
+    coverImageCredit: 'Photo: Anish Patel, Wikimedia Commons (CC BY-SA 4.0) — Atlanta, where Drogoul ran BNL\'s branch office',
+    coverImagePosition: 50,
     body: `Christopher Drogoul managed the Atlanta branch of Banca Nazionale del Lavoro (BNL), Italy's largest state-owned bank, through most of the 1980s — on paper, a minor U.S. outpost handling routine trade-finance business. Behind that ordinary facade, Drogoul was running one of the largest unauthorized lending operations in American banking history, extending billions of dollars in credit to Saddam Hussein's Iraq that neither BNL's Rome headquarters nor U.S. banking regulators had approved.
 
 The mechanism was concealment: Drogoul kept a second, secret set of books recording loans and letters of credit issued to Iraq far beyond what he was authorized to extend and beyond what BNL Atlanta's official records showed. Roughly $900 million of the credit lines were guaranteed under a U.S. Department of Agriculture program meant to help finance American farm exports to developing countries — guarantees that Iraq and its intermediaries used, prosecutors said, to help pay for weapons technology and military equipment as well as food, at a moment when Iraq was rapidly rebuilding the military it would use to invade Kuwait within the year. Prosecutors said Drogoul personally pocketed roughly $2.5 million from the scheme.
