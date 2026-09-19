@@ -12,7 +12,7 @@ export interface ScamListParams {
   country?: string;
   search?: string;
   sort?: 'newest' | 'oldest' | 'alert_level' | 'name_asc' | 'chronological';
-  view?: 'current' | 'historical' | 'all';
+  view?: 'current' | 'historical' | 'all' | 'recent';
   page?: number;
 }
 
