@@ -7471,19 +7471,6 @@ UsNS.push({
 });
 
 UsNS.push({
-    name: 'Providence Parking-Ticket QR Code Text Scam',
-    slug: 'rhode-island-providence-parking-ticket-qr-code-text-scam',
-    description: `Starting around March 15, 2026, a mass "smishing" campaign hit Providence residents with text messages disguised as official parking-violation notices, citing case numbers and specific parking ordinances and telling recipients to either appear for a hearing or resolve the "fine" immediately by scanning an embedded QR code. The Providence Police Department and Municipal Court publicly stated they never issue tickets, hearing notices, or payment demands by text. Mayor Brett Smiley addressed the scam directly on March 16, 2026: "This is a scam. Those are not real. Please do not respond. The Providence Police and or the Providence Municipal Court would never text you a demand to pay," adding, "You should never pay a parking ticket via text; that is not something that we do." Scanning the QR code leads to a fraudulent site designed to steal payment card and personal information or install malware; police in Bristol, Warwick, and Westerly, RI reported similar text campaigns hitting their residents the same week. Real Providence parking violations are only issued in person on the vehicle or by mail — delete any texted "ticket," never scan an unsolicited QR code, and never click links or provide payment information in response to a parking-fine text.`,
-    categorySlug: 'qr-code-scams',
-    alertLevel: 'medium',
-    sources: ['WPRI 12', 'NBC 10 WJAR / turnto10.com', 'GoLocalProv', 'Office of Providence Mayor Brett Smiley'],
-    sourceUrl: 'https://turnto10.com/news/local/providence-police-warn-residents-of-parking-ticket-scam-providence-police-department-qr-code-scam-march-16-2026',
-    country: 'US',
-    state: 'RI',
-    firstRecorded: '2026-03-16',
-});
-
-UsNS.push({
     name: 'Las Vegas Fake Amazon Delivery Driver Hiring Scheme (Juan Vera and Fabiola Llanes)',
     slug: 'nevada-las-vegas-fake-amazon-delivery-driver-hiring-scheme',
     description: `On January 21, 2025, an online ad advertised openings for "third-party delivery drivers for Amazon" and directed applicants to a business at 3100 East Sunset Road in southeast Las Vegas, where hopeful hires filled out an application, handed over sensitive information including Social Security numbers and banking details, and paid a $200 "processing" fee before being given a future interview date. When applicants returned for those interviews, they found the office completely vacated, and Metro police confirmed the operation was in no way affiliated with Amazon. Hundreds of frustrated job seekers gathered outside the vacant business complex near Sunset Park on the morning of January 30, 2025, prompting a large police response and an investigation by the Las Vegas Metropolitan Police Department's Financial Crimes Division. After roughly two months of investigation, LVMPD identified the operators as Juan Vera, 41, and Fabiola Llanes, 39, who were taken into custody by the Chicago Police Department on March 27, 2025 pending extradition to Las Vegas, where they face charges of establishing or possessing a financial forgery laboratory with intent to commit an unlawful act, and theft valued between $5,000 and $25,000. A legitimate delivery-driver position with Amazon or one of its verified delivery service partners is applied for directly through Amazon's own hiring site or a partner company whose registration can be independently confirmed — never through a walk-in office found via a classifieds or social media ad — and any job that requires paying an upfront "application," "processing," or "training" fee before work even begins should be treated as a scam no matter how legitimate the advertised employer's name sounds.`,
@@ -8509,4 +8496,50 @@ UsNS.push({
     sourceUrl: 'https://content.govdelivery.com/accounts/ORDOT/bulletins/3d6cd2d',
     country: 'US',
     state: 'OR',
+});
+
+UsNS.push({
+    name: 'Rhode Island Crypto ATM Scam Surge Prompts New Consumer Protection Law',
+    slug: 'rhode-island-crypto-atm-scam-surge-consumer-protection-law',
+    description: `Rhode Island State Police and AARP Rhode Island have tracked a sharp rise in scams that route victims — almost always people over 50 — through cryptocurrency ATMs, kiosks resembling ordinary bank ATMs that have become fixtures in convenience stores, gas stations, and laundromats statewide. The scam itself rarely starts at the machine: a caller poses as a bank fraud investigator, a federal agent, a computer technician, or a family member in an emergency, and convinces the victim their money is in danger, then instructs them to withdraw cash and feed it into a nearby crypto ATM to "protect" it or pay a supposed fee or fine. The kiosk converts the cash into cryptocurrency and sends it directly to a wallet address the scammer controls; because crypto ATMs historically carried no transaction limits and blockchain transfers cannot be reversed or recalled, victims typically have no way to get the money back once it clears the machine.
+
+State Senator Victoria Gu (D-Dist. 38) and Representative Julie A. Casimiro (D-Dist. 31) sponsored the Cryptocurrency ATM Scam Prevention Act (S 0016A / H 5121A), which Governor Dan McKee signed into law on June 26, 2025, making Rhode Island one of roughly a dozen states to pass crypto-ATM-specific protections that year. The law requires kiosk operators to register as licensed money transmitters, caps daily transactions at $2,000 for new customers and $5,000 for existing ones, mandates live customer-service coverage Monday through Friday from 8 a.m. to 10 p.m., and entitles a new customer who reports fraud within 90 days to a full refund, with existing customers eligible for a refund of transaction fees. "They have no transaction limits, and once money is deposited to a scammer, there is virtually no way to recover it," Casimiro said of the machines before the law passed. Catherine Taylor of AARP Rhode Island, which helped push the bill, said the legislation "will deter criminals from using crypto ATMs for fraudulent activity."
+
+Anyone contacted out of the blue by someone directing them to withdraw cash and deposit it into a cryptocurrency kiosk should treat it as a scam regardless of the caller's claimed identity — no legitimate bank, government agency, or law enforcement officer will ever instruct a person to move money through a crypto ATM. Rhode Islanders who believe they've been targeted should contact Rhode Island State Police and, if the transaction already went through, ask the kiosk operator in writing about the new refund window created by the 2025 law.`,
+    categorySlug: 'cryptocurrency-scams',
+    alertLevel: 'high',
+    sources: ['RINewsToday (Herb Weiss)', 'Turn to 10 (WJAR)', 'Rhode Island General Assembly', 'AARP Rhode Island', 'Rhode Island State Police'],
+    sourceUrl: 'https://rinewstoday.com/rhode-island-now-one-of-12-states-cracking-down-on-crypto-atm-fraud-herb-weiss/',
+    country: 'US',
+    state: 'RI',
+});
+
+UsNS.push({
+    name: 'Rhode Island EBT Card Skimming Wave',
+    slug: 'rhode-island-ebt-card-skimming-wave',
+    description: `Since late 2022, the Rhode Island Department of Human Services (DHS) has repeatedly warned SNAP and Rhode Island Works beneficiaries about a wave of card-skimming fraud hitting the state's Electronic Benefit Transfer (EBT) system. Criminals attach card-skimming devices — hardware nearly indistinguishable from a legitimate card reader — to checkout terminals at grocery stores and "big box" retailers, capturing the card number and PIN the moment a beneficiary swipes. DHS's first major alert, issued November 18, 2022, reported roughly 100 compromised accounts with an average loss near $500 each; a follow-up alert in early 2023 put the count at 179 accounts drained of an average of about $620 apiece since February 1 of that year.
+
+The pattern re-emerged at a much larger scale in March 2025: over the first week of that month, more than 1,800 Rhode Island families had roughly $500,000 in SNAP benefits stolen from their EBT accounts, with thieves in some cases draining a card within hours of a benefit deposit hitting it. Providence mother Sandra told Turn to 10 (WJAR) she lost more than $1,100 after her account was emptied at 7:26 a.m., just hours after a 2:30 a.m. deposit; another Providence mother, Naomi, had three fraudulent transactions hit her account simultaneously. Compounding the damage, the federal program that had been reimbursing states for EBT skimming losses lapsed at the end of January 2025, and Rhode Island had not allocated state funds to cover the gap, leaving many March 2025 victims with no clear path to recover stolen benefits.
+
+DHS recommends EBT cardholders change their PIN frequently even without signs of fraud, cover the keypad when entering it, inspect card readers and ATMs for tampering before use, and check account balances often — ideally right after a benefit deposit posts. Suspected fraud should be reported to the Department of Administration's Fraud Detection and Prevention Unit at (401) 574-8175 or via omb.ri.gov/internal-audit/fraud-hotline, in addition to calling ebtEdge at 1-888-979-9939 to change a PIN or report a compromised card immediately.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'high',
+    sources: ['Rhode Island Department of Human Services', 'Turn to 10 (WJAR)', 'WPRI 12 Target 12'],
+    sourceUrl: 'https://turnto10.com/news/local/500k-stolen-in-ebt-scam-in-one-week-from-rhode-island-cards-families-food-meals-fraud-department-of-human-services-theft-march-6-2025',
+    country: 'US',
+    state: 'RI',
+});
+
+UsNS.push({
+    name: 'Rhode Island E-ZPass Unpaid Toll Text Scam',
+    slug: 'rhode-island-ezpass-unpaid-toll-text-scam',
+    description: `Starting in early 2025, the Rhode Island Turnpike and Bridge Authority (RITBA) and the Rhode Island DMV began warning residents about a "smishing" (SMS phishing) campaign impersonating E-ZPass. The fraudulent texts tell the recipient they have an unpaid toll on their account and must pay immediately through a link in the message or face consequences such as license restrictions; the link leads to a convincing but fake payment page designed to harvest credit card numbers and personal information. RITBA and the DMV both stressed that the real Rhode Island E-ZPass system does not send toll-payment demands by text message, and that any such text — regardless of how official it looks — is fraudulent. Cybersecurity expert Patrick Laverty, quoted by WPRI, advised recipients not to respond to the text at all, even to decline, and instead to check their account status directly at the official ezpassritba.com site. As of a May 22, 2025 follow-up report, the same fraudulent messages were still circulating months after the initial statewide warning, part of a pattern seen in numerous other states' toll authorities during the same period.
+
+Rhode Islanders who receive one of these texts should not click the link or reply, should verify any toll balance only by typing ezpassritba.com directly into a browser or calling the authority, and can report the message to the FBI's Internet Crime Complaint Center (IC3.gov) or forward it to 7726 ("SPAM") on their carrier.`,
+    categorySlug: 'phishing',
+    alertLevel: 'medium',
+    sources: ['Rhode Island Turnpike and Bridge Authority', 'Rhode Island Division of Motor Vehicles', 'WPRI 12'],
+    sourceUrl: 'https://www.yahoo.com/news/ez-pass-text-message-scam-224537819.html',
+    country: 'US',
+    state: 'RI',
 });
