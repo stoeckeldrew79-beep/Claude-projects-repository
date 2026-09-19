@@ -8426,6 +8426,33 @@ UsAF.push({
 });
 
 UsAF.push({
+    name: "DC Fake Rental Listing & Non-Refundable Fee Scam",
+    slug: "dc-fake-rental-listing-nonrefundable-fee-scam",
+    description:
+      "The Office of the Attorney General for the District of Columbia warned on August 3, 2023 that scammers targeting out-of-town renters, short-term renters, and students post fake ads — often borrowing a real property management company's name and photos lifted from a legitimate listing — for DC houses or apartments they do not own or are not authorized to rent, then use too-good-to-be-true prices and artificial urgency to pressure a prospective tenant into sending an application fee or security deposit through a non-refundable method such as a wire transfer, Zelle, or a cashier's check, after which the \"landlord\" disappears with the money and the unit was never actually available. OAG's alert lists refusal to do a live or virtual tour, a listing that appears only on Craigslist rather than an established real estate platform, and a vague or incomplete lease document as additional red flags, and recommends verifying a listing independently through Zillow, Redfin, or Realtor.com, confirming any property manager through DC's DLCP SCOUT licensing database, and paying only by personal check or credit card rather than an irreversible method.",
+    categorySlug: "rental-housing",
+    alertLevel: "medium",
+    sources: ["Office of the Attorney General for the District of Columbia"],
+    sourceUrl: "https://oag.dc.gov/blog/consumer-alert-looking-place-rent-dc-watch-out",
+    country: "US",
+    firstRecorded: "2023-08-03",
+    state: "DC",
+});
+
+UsAF.push({
+    name: "DC SNAP/TANF EBT Card Skimming Benefit Theft",
+    slug: "dc-snap-tanf-ebt-card-skimming-benefit-theft",
+    description:
+      "The DC Department of Human Services warns that a resident's Electronic Benefits Transfer (EBT) card, the sole means of accessing SNAP and TANF benefits, has become a direct target for theft through card skimming and cloning, in which a hidden device attached to a point-of-sale terminal's card reader or keypad captures a card's information and PIN without the cardholder's knowledge, letting thieves drain benefits before the recipient ever notices. DHS advises inspecting any terminal for anything \"loose, crooked, damaged, or scratched\" before inserting a card, always covering the keypad while entering a PIN, and changing the PIN monthly rather than reusing it. Because a stolen card can look completely untouched, DC maintains a formal claims process letting SNAP, TANF, and other cash-assistance recipients submit a replacement claim for benefits stolen through skimming, cloning, or similar fraudulent methods, and residents who suspect their card information was compromised can call FIS directly at 888-304-9167 to reset their PIN immediately, in addition to using the ebtEDGE mobile app or online portal to freeze a card or block out-of-state and online transactions.",
+    categorySlug: "public-benefits-fraud",
+    alertLevel: "medium",
+    sources: ["DC Department of Human Services (DHS)"],
+    sourceUrl: "https://dhs.dc.gov/page/protect-your-benefits",
+    country: "US",
+    state: "DC",
+});
+
+UsAF.push({
     name: 'Dothan Tax Preparer $2.1 Million Fraudulent Refund Scheme (Carlotta Lampley)',
     slug: 'alabama-dothan-lampley-tax-preparer-fraud-scheme',
     description: `Carlotta Elaine Lampley, 41, ran a tax preparation business in Dothan, Alabama starting in 2015, and for tax years 2020 through 2025 prepared and filed false federal tax returns both for paying clients and for herself, according to the U.S. Attorney's Office for the Middle District of Alabama. Investigators say Lampley fabricated business income and inflated profits on client returns to generate larger, fraud-driven refunds, then routinely withheld her preparation fee directly from the refund before passing along what was left — a structure that let her control the numbers at every step while clients had little way to check the return's accuracy themselves. Prosecutors said the total tax loss from the scheme reached roughly $2.1 million, and that Lampley did not stop after being indicted in September 2025: while free on bond and under an explicit court order not to commit further crimes, she kept preparing and filing more false returns. She was sentenced on September 10, 2026 to 57 months (four years, nine months) in federal prison, to be followed by three years of supervised release, and ordered to pay $314,247 in restitution — $251,332 tied to client returns and $62,915 for her own fraudulent personal filings. U.S. Attorney Thomas Govan said, "What makes this case particularly troubling is that the defendant did not change her ways after being indicted." The case is a reminder that a tax preparer who guarantees an unusually large refund, calculates fees as a percentage of that refund, or won't provide a copy of the return before filing is exhibiting classic warning signs; taxpayers should choose preparers registered with the IRS (verifiable through the IRS Directory of Federal Tax Return Preparers), review the full return and confirm any bank routing and account numbers before it is filed, and make sure a refund is deposited to their own account rather than the preparer's.`,
