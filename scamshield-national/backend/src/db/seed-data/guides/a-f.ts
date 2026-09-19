@@ -3949,10 +3949,9 @@ For consumers, the practical lesson from Drizly sits alongside every other retai
     author: 'ScamShield Editorial',
     tags: ['guide', 'att-2024-data-breach'],
     sourceUrl: 'https://telecomdatasettlement.com/',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/AT%26T_Building,_Ft_Worth.jpg?width=1200',
-    coverImageCredit: `Photo: Retail Mania, CC BY 2.0, via Wikimedia Commons — AT&T's Fort Worth central office building`,
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/AT%26THQDallas.jpg?width=1200',
+    coverImageCredit: `Photo: FoUTASportscaster (public domain) — One AT&T Plaza, AT&T's corporate headquarters in Dallas`,
     coverImagePosition: 50,
-    // representative photo — replace with an exact match if found
     body: `AT&T disclosed two separate, massive data incidents in 2024, just a few months apart, and together they touched nearly every person who has ever had an AT&T phone line — along with millions of people who never had an AT&T account at all but simply called or texted someone who did.
 
 The first came on March 30, 2024, when AT&T confirmed that a dataset circulating on a cybercrime forum contained real customer records, some dating back to 2019. The stolen data included full names, mailing addresses, email addresses, phone numbers, dates of birth, AT&T account passcodes, and — for a large share of those affected — Social Security numbers. Roughly 73 million current and former account holders were caught up in this exposure, and AT&T reset the account passcodes of active customers as a precaution once it confirmed the data was authentic.
