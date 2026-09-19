@@ -9409,3 +9409,42 @@ UsAF.push({
     sourceUrl: "https://consumer.ftc.gov/consumer-alerts/2026/06/how-spot-captcha-scam",
     country: "US",
 });
+
+UsAF.push({
+    name: "DC EBT Card Skimming and Cloning Theft of SNAP and TANF Benefits",
+    slug: "dc-ebt-card-skimming-and-cloning-theft-of-snap-and-tanf-benefits",
+    description:
+      "Criminals attach skimming or card-cloning devices to store card readers in and around the District, and use overlay keypads or shoulder-surfing to capture the PIN, in order to copy the data on DC EBT cards issued by the Department of Human Services for SNAP and TANF cash assistance. Because federal law does not require EBT cards to carry the security chip found on debit and credit cards, thieves can write the stolen magnetic-stripe data onto a blank card and drain the account, often within minutes of the monthly deposit and before the recipient has shopped. DHS reports thousands of District EBT fraud cases a year, with more than $6.5 million stolen from DC residents over a two-year span. Federal rules narrowed reimbursement eligibility for stolen benefits beginning September 25, 2023, so many losses can no longer be replaced. Change your EBT PIN regularly and immediately after any suspected compromise by calling the EBT vendor FIS at 888-304-9167, check your balance often, cover the keypad when entering your PIN, and report stolen benefits to the DHS Office of Program Review, Monitoring, and Investigation right away.",
+    categorySlug: "public-benefits-fraud",
+    alertLevel: "high",
+    sources: ["DC Department of Human Services (DHS), Office of Program Review, Monitoring, and Investigation","NBC4 Washington reporting quoting DHS Director Laura Green Zeilinger"],
+    sourceUrl: "https://dhs.dc.gov/page/report-stolen-benefits",
+    country: "US",
+    state: "DC",
+});
+
+UsAF.push({
+    name: "Cryptocurrency Account Compromised Impersonation Calls Targeting DC Investors",
+    slug: "cryptocurrency-account-compromised-impersonation-calls-targeting-dc-investors",
+    description:
+      "The DC Department of Insurance, Securities and Banking warns that scammers are cold-calling District residents while posing as representatives of well-known cryptocurrency companies. In a case documented by DISB, a DC resident was told by a caller claiming to be from Coinbase that their Bitcoin account had been compromised and that the caller could help fix the problem; after the resident shared personal account information, the caller used it to log in and steal the resident's Bitcoin. The trick works because the manufactured security emergency makes handing over credentials feel like the protective step rather than the moment of loss. Legitimate crypto platforms will not call you out of the blue and ask for your account details, passwords, seed phrase, or verification codes. If you get a call about a problem with your account, hang up and contact the company yourself using a number or app you already trust, and report crypto fraud to DISB.",
+    categorySlug: "cryptocurrency-scams",
+    alertLevel: "high",
+    sources: ["DC Department of Insurance, Securities and Banking (DISB) consumer alert","DISB February 2025 District bulletin on cryptocurrency fraud"],
+    sourceUrl: "https://disb.dc.gov/page/cryptocurrency-bitcoin-theft-and-cryptocurrency-investment-scams",
+    country: "US",
+    state: "DC",
+});
+
+UsAF.push({
+    name: "EJ's Pest Control Falsified Licensing and Unlicensed Pesticide Application",
+    slug: "ejs-pest-control-falsified-licensing-and-unlicensed-pesticide-application",
+    description:
+      "The DC Office of the Attorney General sued IJS Limited, LLC and owner Clementina Maduforo, doing business as EJ's Pest Control, alleging the company deceived District customers and endangered them with toxic chemicals. Under District law a pest control business must register as a pesticide operator with the Department of Energy and Environment and its employees must hold individual pesticide applicator licenses; OAG alleges EJ's operated outside those rules and falsified licensing documents to appear credentialed. Residential and commercial customers across the District paid for what they believed was licensed extermination but had toxic pesticides applied by unlicensed workers, creating a chemical exposure risk in their homes and businesses. Attorney General Brian Schwalb said the company repeatedly lied to the public and the District about its unsafe and unlicensed practices. Before hiring any exterminator in DC, verify the company's pesticide operator registration and the applicator's license with DOEE, and report suspected unlicensed or deceptive contractors to the OAG Office of Consumer Protection.",
+    categorySlug: "home-improvement-solar",
+    alertLevel: "medium",
+    sources: ["Office of the Attorney General for the District of Columbia, Office of Consumer Protection","DC Department of Energy and Environment (DOEE) pesticide licensing program"],
+    sourceUrl: "https://oag.dc.gov/release/attorney-general-schwalb-sues-pest-control-company",
+    country: "US",
+    state: "DC",
+});
