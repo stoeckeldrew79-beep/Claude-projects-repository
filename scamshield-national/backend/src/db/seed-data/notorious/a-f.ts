@@ -1333,6 +1333,22 @@ Hatry served nine years before his release from Maidstone Prison in January 1939
     coverImagePosition: 50,
   },
 {
+    title: 'The City of Glasgow Bank: The Fabricated Balance Sheets That Bankrupted a Nation of Small Savers',
+    slug: 'city-of-glasgow-bank-1878-collapse',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `The City of Glasgow Bank was founded in 1839 with a business model built on trust from ordinary people: it kept branches open in the evenings specifically so working- and middle-class savers could deposit their wages after the workday ended. By the 1870s it had grown into one of Scotland's largest banks, and in June 1878 — just months before it collapsed — its directors publicly reported 133 branches, deposits of £8 million, and a healthy 12 percent dividend. Shares with a nominal value of £100 were changing hands for as much as £236 on the eve of the crash.
+
+None of that reported health was real. Behind the published figures, the bank's directors had spent years funneling money into wildly speculative, poorly secured loans backed by Australian and New Zealand pastoral and mining ventures and American railway shares — bets that had turned into enormous unrecoverable losses. Rather than disclose them, the directors and general manager Robert Stronach systematically falsified the bank's balance sheets year after year, and secretly used the bank's own funds to buy up its shares whenever the price threatened to slip, manufacturing the appearance of a thriving, popular stock right up until the end.
+
+The bank suspended payment on October 2, 1878. When accountants finally untangled the real books, they found a net deficiency of more than £6 million — a catastrophic sum for the era. Because Scottish banks at the time operated under unlimited liability, the roughly 1,200 shareholders were personally responsible for covering the shortfall out of their own pockets, with no cap tied to what they had originally invested. Only 254 of them escaped financial ruin; the rest — many of them small investors who had bought a handful of shares as a safe, respectable way to save — lost homes, businesses, and life savings almost overnight. A national relief fund eventually raised nearly £380,000 for the worst-off, though it could never come close to covering what unlimited liability had taken from them. Depositors and noteholders, by contrast, were largely protected, since other Scottish banks agreed to honor the failed bank's notes — the loss fell almost entirely on the shareholders whose "safe" investment turned out to carry unlimited downside.
+
+Authorities arrested the directors and Stronach within weeks, charging them with fraud, theft, and embezzlement. After a twelve-day trial before the High Court of Justiciary in Edinburgh in January 1879, Stronach and director Lewis Potter were convicted of fabricating and falsifying the bank's balance sheets and sentenced to eighteen months' imprisonment; five other directors were convicted of knowingly publishing those false balance sheets and received eight months each — sentences many contemporaries considered strikingly light given how many lives the fraud had destroyed.
+
+The collapse became one of the most consequential bank failures in British history not because of its size alone, but because of what it exposed: ordinary savers had no way of knowing that the "safe," dividend-paying shares they held carried unlimited personal liability for management's hidden fraud. Public outrage over their ruin fed directly into the Companies Act 1879, which opened the way for British banks to adopt limited liability going forward — a structural fix, not a punishment, and one that only arrived after thousands of small investors had already paid the price. It remains a striking early example of a pattern that recurs in every era: a company reporting steady growth and rising dividends can be running on fabricated numbers right up to the moment it fails, and the investors holding the "boring," respectable stock are often the last to find out — and the ones left most exposed once it does.`,
+    sourceUrl: 'https://en.wikipedia.org/wiki/City_of_Glasgow_Bank',
+  },
+{
     title: 'Arnaud du Tilh: The Impostor Who Stole Martin Guerre\'s Name, Wife, and Land for Three Years',
     slug: 'arnaud-du-tilh-martin-guerre-impostor',
     author: 'ScamShield Editorial',
