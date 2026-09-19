@@ -8474,3 +8474,27 @@ UsNS.push({
     country: 'US',
     state: 'PR',
 });
+
+UsNS.push({
+    name: 'Oregon Child Sextortion and Online Solicitation Cases Surge 857%',
+    slug: 'oregon-child-sextortion-solicitation-surge',
+    description: `In a February 11, 2025 report tied to Safer Internet Day, the Oregon Department of Justice's Internet Crimes Against Children (ICAC) task force said cyber tips it received from the National Center for Missing & Exploited Children (NCMEC) for online child sextortion and solicitation spiked more than 857% between 2020 and 2024. In the scheme, predators build fake identities on social media to connect with children, cultivate what looks like a friendship or romantic relationship, then coax the child into sending explicit photos or video before threatening to share the images with the victim's own friends and family unless money is paid. Mark Williamson, an ICAC assistant chief criminal investigator, called it "the biggest issue that we're dealing with right now when it comes to kids." Attorney General Dan Rayfield has since secured increased funding that let the ICAC task force nearly quadruple in size, clear its case backlog, and expand statewide outreach and training.`,
+    categorySlug: 'sextortion',
+    alertLevel: 'critical',
+    sources: ['Oregon Department of Justice', 'KTVZ'],
+    sourceUrl: 'https://www.doj.state.or.us/media-home/news-media-releases/oregon-doj-reports-online-child-sextortion-solicitation-investigations-spiked-more-than-857-in-the-past-four-years/',
+    country: 'US',
+    state: 'OR',
+});
+
+UsNS.push({
+    name: 'Oregon DMV/ODOT Unpaid Toll Text Scam',
+    slug: 'oregon-dmv-odot-unpaid-toll-text-scam',
+    description: `Starting by at least March 2025, Oregonians began receiving text messages impersonating the Oregon DMV and the Oregon Department of Transportation (ODOT) claiming the recipient has an unpaid toll balance that must be paid immediately to avoid fines or having their driver's license suspended. The texts include a link to a fake payment site designed to harvest personal and financial information. ODOT's Driver and Motor Vehicle Services division noted the added giveaway that Oregon does not currently operate any toll program at all, and that legitimate DMV texts contain only security codes or appointment reminders — never a link asking for account or payment verification.`,
+    categorySlug: 'phishing',
+    alertLevel: 'medium',
+    sources: ['Oregon Department of Transportation', 'Oregon DMV'],
+    sourceUrl: 'https://content.govdelivery.com/accounts/ORDOT/bulletins/3d6cd2d',
+    country: 'US',
+    state: 'OR',
+});
