@@ -45,3 +45,13 @@ export async function fetchScamStates() {
   const { data } = await api.get<{ data: ScamStateCount[] }>('/scams/states');
   return data.data;
 }
+
+// Powers "Check This Now" — a free-text description matched against the
+// same search the site's search box uses (backend/src/models/scams.ts
+// searchScams), not a separate AI-classification pipeline. Results are
+// ranked, not scored, so the UI should talk about "closest match," never
+// a fabricated confidence percentage the search itself can't back up.
+export async function searchScamsByText(q: string) {
+  const { data } = await api.get<{ data: Scam[] }>('/scams/search', { params: { q } });
+  return data.data;
+}

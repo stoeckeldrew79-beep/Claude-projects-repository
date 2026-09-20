@@ -1,5 +1,15 @@
 import { useInfiniteQuery, useQuery } from '@tanstack/react-query';
-import { PAGE_SIZE, ScamListParams, fetchCategories, fetchCountries, fetchScamBySlug, fetchScamStates, fetchScamTags, fetchScams } from '../services/scams';
+import {
+  PAGE_SIZE,
+  ScamListParams,
+  fetchCategories,
+  fetchCountries,
+  fetchScamBySlug,
+  fetchScamStates,
+  fetchScamTags,
+  fetchScams,
+  searchScamsByText,
+} from '../services/scams';
 
 export function useScams(params: ScamListParams = {}) {
   return useQuery({
@@ -57,4 +67,18 @@ export function useScamTags() {
 // Documented scams per state, for the coverage view of the US map.
 export function useScamStates() {
   return useQuery({ queryKey: ['scams', 'states'], queryFn: fetchScamStates });
+}
+
+// "Check This Now": the page only updates `q` on submit (typing alone
+// doesn't touch it), and `enabled` keys off `q` itself rather than a
+// separate submitted-flag, so there's no stale-closure risk from calling
+// refetch() right after a setState.
+export function useScamSearch(q: string) {
+  return useQuery({
+    queryKey: ['scams', 'search', q],
+    queryFn: () => searchScamsByText(q),
+    // Matches the page's own "hasSearched" threshold so a couple of stray
+    // keystrokes never fire a request that would just be thrown away.
+    enabled: q.trim().length > 2,
+  });
 }

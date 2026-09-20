@@ -1,6 +1,8 @@
 import { Link, NavLink, Route, Routes, useNavigate } from 'react-router-dom';
 import Home from './pages/Home';
 import TodaysScams from './pages/TodaysScams';
+import AIScams from './pages/AIScams';
+import CheckNow from './pages/CheckNow';
 import Database from './pages/Database';
 import ScamDetail from './pages/ScamDetail';
 import Alerts from './pages/Alerts';
@@ -27,6 +29,7 @@ import { formatPhoneDisplay, PUBLIC_PHONE, telHref } from './utils/publicPhone';
 const NAV_LINKS = [
   { to: '/', label: 'Home', end: true },
   { to: '/todays-scams', label: "Today's Scams" },
+  { to: '/ai-scams', label: 'AI-Enabled Scams' },
   { to: '/database', label: 'Database' },
   { to: '/alerts', label: 'Alerts' },
   { to: '/articles', label: 'Articles' },
@@ -165,6 +168,11 @@ function SiteFooter() {
           <h3 className="text-sm font-semibold text-slate-900">Resources</h3>
           <ul className="mt-3 space-y-2 text-sm text-slate-500">
             <li>
+              <Link to="/check-now" className="hover:text-slate-900">
+                Check something now
+              </Link>
+            </li>
+            <li>
               <Link to="/database" className="hover:text-slate-900">
                 Scam database
               </Link>
@@ -222,6 +230,8 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/todays-scams" element={<TodaysScams />} />
+          <Route path="/ai-scams" element={<AIScams />} />
+          <Route path="/check-now" element={<CheckNow />} />
           <Route path="/database" element={<Database />} />
           <Route path="/scams/:slug" element={<ScamDetail />} />
           <Route path="/alerts" element={<Alerts />} />

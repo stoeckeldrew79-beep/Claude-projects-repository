@@ -25,10 +25,14 @@ export default function Report() {
   // Arriving from a scam detail page's "Report a sighting" link pre-fills
   // the category and gives the description a starting line to build on,
   // rather than making the reporter re-identify the scam from scratch.
+  // Arriving from "Check This Now" with no matching pattern instead carries
+  // the visitor's own description verbatim (`description`), so their
+  // wording isn't lost just because nothing in the database matched it yet.
   const [params] = useSearchParams();
   const prefillName = params.get('name');
+  const prefillDescription = params.get('description');
   const [description, setDescription] = useState(
-    prefillName ? `I encountered this scam: ${prefillName}\n\n` : ''
+    prefillDescription || (prefillName ? `I encountered this scam: ${prefillName}\n\n` : '')
   );
   const [categoryId, setCategoryId] = useState(params.get('category') ?? '');
   const [scammerPhone, setScammerPhone] = useState('');
