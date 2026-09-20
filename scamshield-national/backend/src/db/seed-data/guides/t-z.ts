@@ -2721,3 +2721,20 @@ The red flags line up closely with what the FTC's Business Opportunity Rule was 
 
 Anyone considering a vending-machine or similar equipment "route" business opportunity should insist on the disclosure document and earnings claim statement the law requires, then independently verify the numbers rather than taking the seller's word: ask for a list of current owners with no financial tie to the seller and call several of them directly, confirm any specific machine or location actually exists before paying for it, and check the company's name with the Better Business Bureau and your state Attorney General's office for existing complaints. If earnings are guaranteed, if you're told machines are already installed and generating income you can start collecting on, or if the deal is structured more like a security — a note, a share of a fund, an investment contract — than a simple equipment purchase, treat that as a reason to consult an independent accountant or attorney before paying anything. Suspected business opportunity fraud can be reported to the FTC at ReportFraud.ftc.gov or 1-877-FTC-HELP, to your state Attorney General's consumer protection division, and to the SEC at sec.gov/tcr if the pitch involved investment contracts, notes, or a promised return tied to pooled investor funds.`,
 });
+
+GuidesTZ.push({
+    title: 'Vacation Club Membership Scams: How a "Free Vacation" Invitation Becomes a High-Pressure Sales Pitch',
+    slug: 'vacation-club-membership-scam-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'vacation-club-scam', 'timeshare-related-scams'],
+    sourceUrl: 'https://consumer.ftc.gov/articles/timeshares-vacation-clubs-and-related-scams',
+    body: `An unexpected postcard, robocall, text, or "you've been selected" email announces you've won a free vacation, a cruise, or a resort stay — the only catch is attending a short sales presentation to claim it. Unlike a timeshare, a vacation club doesn't involve buying any actual property or deed; instead, it's a paid membership that supposedly unlocks discounted travel, resort access, or an exchange program for future trips, sold entirely through the presentation itself.
+
+The presentation is deliberately staged to feel like the vacation has already started — a resort setting, promotional materials, and a friendly host — before shifting into a sales pitch built around urgency and fatigue. Attendees report "today only" pricing, a countdown clock, and a rotation of different salespeople who each restart the pitch, with the meeting stretched out long enough that agreeing to something just to leave starts to feel like the easier option than continuing to say no.
+
+The "free" part of the offer rarely survives contact with the fine print: taxes, resort fees, and booking costs that must be paid before the free trip can be claimed often add up to a real vacation's worth of money on their own, and the membership fee itself typically comes with an upfront enrollment cost plus ongoing annual dues. The promised travel savings frequently don't materialize either, since exchange programs and point systems often carry their own undisclosed charges that eat into any discount.
+
+Cancellation is where many members get stuck for good. While many states require timeshare companies to offer a fixed rescission period, vacation club contracts vary widely and are often written to make canceling far harder than joining, sometimes locking members into automatically renewing annual dues with no clear exit.
+
+Before attending any presentation tied to a "free" prize, research the company online, and before signing or paying anything on the spot, take the full contract home to review independently — a legitimate offer will still be there tomorrow. Add up every real cost, including enrollment fees, taxes, and travel expenses, against what a normal booking would cost, and confirm in writing exactly how to cancel before you ever need to. Anyone who feels pressured into a membership they didn't fully understand can report it to the FTC at ReportFraud.ftc.gov or to their state attorney general's consumer protection division.`,
+});
