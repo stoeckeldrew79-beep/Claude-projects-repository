@@ -5181,3 +5181,27 @@ UsTZ.push({
     sourceUrl: "https://www.ic3.gov/PSA/2025/PSA250731",
     country: "US",
 });
+
+UsTZ.push({
+    name: 'WorkForce West Virginia Unemployment Benefits "Hijacking" Text Scam',
+    slug: 'workforce-west-virginia-unemployment-text-hijack-scam',
+    description: `Fraudsters send West Virginia unemployment claimants a text message claiming there is an "issue with their West Virginia Insurance Claim," or that the claim is "on hold for verification," and provide a link to click to reactivate the account. The linked website is a close copy of the real WorkForce West Virginia site, built to harvest a claimant's Social Security number, PIN, and banking details so scammers can redirect — or "hijack" — that person's actual unemployment benefits. WorkForce West Virginia has repeatedly warned that the agency never contacts claimants by text message and never includes a clickable link in any legitimate communication; investigators traced one wave of the scam texts to an origin overseas. Then-Acting Commissioner Scott Adkins warned that beyond the direct theft of personal information, a hijacked claim delays the real benefit payment owed to the unemployed worker actually entitled to it. Claimants who receive such a text are told not to click the link or reply, and to report suspected fraud directly through uc.workforcewv.org rather than through any link a text message provides.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'medium',
+    sources: ['WorkForce West Virginia'],
+    sourceUrl: 'https://workforcewv.org/workforce-west-virginia-warns-west-virginians-about-fraudulent-texting-activity/',
+    country: 'US',
+    state: 'WV',
+});
+
+UsTZ.push({
+    name: 'West Virginia SNAP/EBT Card Skimming and Phishing Scam',
+    slug: 'west-virginia-snap-ebt-skimming-phishing-scam',
+    description: `The West Virginia Department of Health and Human Resources warned SNAP recipients in July 2023, working jointly with the U.S. Department of Agriculture, that criminals were using card skimming devices, card cloning, and phishing texts to steal Electronic Benefit Transfer (EBT) funds, often striking within days of the monthly benefit deposit. Skimmers are hidden inside or clipped onto a point-of-sale terminal's card slot or PIN pad and copy a card's information as it is swiped, while a separate phishing variant texts a claim that benefits have been suspended and links to a fake state benefits portal that harvests the card number and PIN. DHHR Commissioner Janie Cole said the theft "victimizes low-income individuals who rely on these benefits to feed their families," and the agency reminded recipients that stolen EBT benefits could be reported and replaced, under a federal enhanced-replacement window running retroactively from October 1, 2022 through September 30, 2024, by contacting a local DHHR office or the DHHR Customer Service Center. West Virginia SNAP recipients are advised to check card readers for a loose or add-on device and cover the keypad before entering a PIN, and to monitor their EBT balance regularly through the ebtEDGE app or by calling the number on the back of the card, since replacement is far from guaranteed once an enhanced federal window like this one has closed.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'high',
+    sources: ['West Virginia Department of Health and Human Resources', 'West Virginia Public Broadcasting'],
+    sourceUrl: 'https://wvpublic.org/dhhr-warns-of-snap-scams/',
+    country: 'US',
+    state: 'WV',
+});
