@@ -5110,3 +5110,50 @@ Once she was invested, the app began showing "negative transactions" that suppos
     country: 'US',
     state: 'TN',
 });
+
+UsTZ.push({
+    name: 'Hurricane Irma FEMA Disaster Relief Fraud (Teron Stevens)',
+    slug: 'virgin-islands-stevens-fema-hurricane-irma-disaster-relief-fraud',
+    description: `Teron Stevens, 27, of St. Thomas, was indicted by a federal grand jury on June 8, 2018, on one count of disaster fraud and one count of wire fraud after falsely claiming to be the homeowner of a property damaged by Hurricane Irma in September 2017. On the strength of that false claim, Stevens received more than $27,000 in FEMA disaster assistance he was not entitled to, money meant for an actual homeowner whose property had genuinely been damaged in the storm. He faced a maximum of 30 years in prison and a $1,000,000 fine; the case, investigated by the Department of Homeland Security's Office of Inspector General and prosecuted by the U.S. Attorney's Office for the District of the Virgin Islands, was ultimately resolved through a pretrial diversion agreement that Stevens accepted rather than proceeding to trial.
+
+The case is a reminder that FEMA disaster assistance is verified against property ownership records, not simply whoever calls in first after a storm — falsely claiming to be a damaged property's owner to collect federal disaster funds is prosecuted as both disaster fraud and wire fraud, and diverts real relief money away from residents whose homes were actually destroyed. Anyone who suspects a neighbor or acquaintance falsely claimed disaster assistance for a property they don't own can report it to DHS-OIG or FEMA's own fraud hotline.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'medium',
+    sources: ['U.S. Department of Homeland Security, Office of Inspector General'],
+    sourceUrl: 'https://www.oig.dhs.gov/news/press-releases/2018/06132018/st-thomas-man-indicted-disaster-fraud-and-wire-fraud-stemming-theft-fema-relief-money',
+    country: 'US',
+    state: 'VI',
+    isHistorical: true,
+    firstRecorded: '2017-09-01',
+});
+
+UsTZ.push({
+    name: 'Fake St. John Villa Rental Scam ("Soba C. Victor")',
+    slug: 'virgin-islands-st-john-villa-rental-craigslist-scam',
+    description: `A fraudulent Craigslist listing advertised a two-bedroom St. John villa for $1,300 a month, using photographs and descriptions lifted directly from an actual $2,250,000 luxury property genuinely listed for sale by Seaglass Properties. The person behind the listing, using the alias "Soba C. Victor" — a name matching a nearly identical scam run in Panama under "Victor C. Soba" — collected personal information and a $500 deposit from prospective renters before promising to mail a set of keys that never existed and never arrived. The U.S. Virgin Islands Department of Licensing and Consumer Affairs and local travel outlets continue to warn vacationers about copycat versions of the same scheme, which specifically targets tourists renting a St. John, St. Thomas, or St. Croix property sight-unseen through Craigslist, VRBO, or similar listing sites rather than through a licensed local property manager.
+
+Because a scammer only needs to copy photos and text from a real, currently listed property to run this scheme, a listing looking professional and detailed is no guarantee it's genuine — prospective renters should verify any Virgin Islands vacation rental directly with a licensed local property manager or the platform's own identity-verification tools before wiring a deposit or sharing personal information, and should treat "we'll mail you the keys" as a red flag on an island where in-person check-in with a local manager is the norm.`,
+    categorySlug: 'travel-vacation-scams',
+    alertLevel: 'medium',
+    sources: ['On Island Times'],
+    sourceUrl: 'https://onislandtimes.com/spotlight-on-rental-scams/',
+    country: 'US',
+    state: 'VI',
+    isHistorical: false,
+});
+
+UsTZ.push({
+    name: 'Fake Divi Carina Bay Casino Online Gambling Facebook Ad',
+    slug: 'virgin-islands-divi-carina-bay-casino-fake-online-gambling-ad',
+    description: `On September 17, 2025, the V.I. Casino Control Commission (VICCC) publicly warned that a Facebook advertisement falsely claimed St. Croix's Divi Carina Bay Casino had launched online gambling, dangling a fake "exclusive $1,500 welcome bonus" valid only through September 25, 2025. The ad illegally used the casino's own logos alongside the official seal of the Government of the Virgin Islands to make the offer look government-sanctioned and legitimate. VICCC Chairman Marvin L. Pickering stated plainly, "This advertisement is completely false. Online gambling is not available at Divi Casino," and confirmed that no online-gambling licenses have ever been issued in the territory. The Commission referred the matter to the V.I. Department of Justice, the Attorney General's Office, and the Division of Gaming Enforcement, and warned the public not to click the ad or submit any personal or financial information in response to it.
+
+The case shows how a real, licensed local business's name and branding — paired with a government seal lifted without authorization — can be used to sell a product that doesn't actually exist, since no online-gambling license had been granted to any operator in the territory at the time the ad ran. Anyone who sees an online-gambling, lottery, or casino promotion claiming to come from a Virgin Islands establishment should verify it directly with that business or with the V.I. Casino Control Commission before entering any personal or payment information, rather than trust an unsolicited social media ad simply because it carries a familiar logo or an official-looking seal.`,
+    categorySlug: 'phishing',
+    alertLevel: 'medium',
+    sources: ['V.I. Casino Control Commission', 'St. Thomas Source'],
+    sourceUrl: 'https://stthomassource.com/content/2025/09/17/casino-control-commission-warns-of-false-online-gambling-ad/',
+    country: 'US',
+    state: 'VI',
+    isHistorical: false,
+    firstRecorded: '2025-09-17',
+});
