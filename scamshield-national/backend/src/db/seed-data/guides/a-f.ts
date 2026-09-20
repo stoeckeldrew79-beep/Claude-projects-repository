@@ -1338,6 +1338,10 @@ Treat any offer of guaranteed, fixed-rate cryptocurrency mining returns as a red
     slug: 'community-solar-subscription-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'community-solar-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Solar_Panel_Array.jpg?width=1200',
+    coverImageCredit: 'Photo: MarkBuckawicki (CC0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.ag.state.mn.us/Consumer/Publications/CommunitySolarGardens.asp',
     body: `A door-to-door representative, a mass-mailed postcard, or a phone pitch offers something that sounds like an easy win: sign up for "community solar" and start saving a fixed percentage off your electric bill immediately, with no panels to install and no upfront equipment cost. Community solar is a real and legitimate program in many states — instead of putting panels on your own roof, you subscribe to a share of a larger, off-site solar facility (a "solar garden") and receive bill credits for the electricity your share produces. It's marketed specifically to people who can't install rooftop panels: renters, condo owners, people with shaded or aging roofs. The pitch is that you get the savings of solar without owning any hardware.
 
@@ -2223,10 +2227,9 @@ File a report at IdentityTheft.gov to get the FTC's step-by-step recovery plan a
     slug: 'fake-military-draft-text-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'selective-service-scam'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Parade_of_draft_men,_September_20,_1917_(MOHAI_5495).jpg?width=1200',
-    coverImageCredit: 'Photo: Webster & Stevens / Museum of History and Industry (Public Domain)',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Seal_of_the_Selective_Service_System.svg?width=1200',
+    coverImageCredit: 'Selective Service System (Public Domain)',
     coverImagePosition: 50,
-    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.fcc.gov/army-selective-service-warn-bogus-texts',
     body: `A text message arrives claiming the recipient has been "selected" for a new military draft, sometimes citing a fabricated executive order or an urgent-sounding case number, and instructing them to call a number or visit a link immediately to avoid fines or years in prison for failing to comply. The message is timed to land on people between roughly 18 and 25 — the same age range legally required to register with Selective Service — because that's the group most likely to believe a draft notice is even plausible, and often the group with the least experience telling a real government notice from a fake one.
 
@@ -9142,6 +9145,10 @@ GuidesAF.push({
     slug: 'ecommerce-automation-business-opportunity-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'ecommerce-automation-scam', 'business-opportunity-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Laptop_on_a_neat_desk_(Unsplash).jpg?width=1200',
+    coverImageCredit: 'Photo: Norbert Levajsics (CC0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2025/08/ftc-case-against-e-commerce-business-opportunity-scheme-its-operators-results-permanent-ban-industry',
     body: `A social media ad, webinar, or cold sales call pitches a "done-for-you" e-commerce business: pay a company a large sum upfront, and its team — backed by "advanced artificial intelligence" and supposed exclusive supplier relationships with brands like Nike or Disney — will build, stock, and manage an online storefront on Amazon, Walmart, or Etsy that generates thousands of dollars a month in "passive income," with little or no work required from the buyer. The buyer typically signs a contract and pays an initial fee that can run from the low five figures into the tens of thousands of dollars, sometimes financed through credit cards the seller's own staff walk them through opening, on the promise that the store will be profitable within months.
 
