@@ -20989,3 +20989,32 @@ The advisory listed the pattern's warning signs plainly: contact from an unfamil
   sourceUrl: 'https://www.fiu.gov.ai/notices/advisories',
   country: 'AI',
 });
+
+International.push({
+  name: 'Fake UNICEF Scholarship Mobile-Money Fraud (Guinea-Bissau)',
+  slug: 'unicef-impersonation-scholarship-fraud-guinea-bissau',
+  description: `UNICEF's delegation in Guinea-Bissau publicly denounced a scam, reported in February 2023, in which fraudsters called Bissau residents claiming to offer study scholarships funded by UNICEF, then told victims they had to send a mobile-money transfer through a phone operator to "unlock" the supposed scholarship before it could be paid out. UNICEF stated plainly that it grants no such scholarships and confirmed it had received "successive" reports of people paying the requested fee, receiving nothing in return, and then going in person to UNICEF's Bissau office to complain. The agency publicly urged victims to file complaints with the police and judicial authorities rather than continue trying to resolve the matter directly with the callers.
+
+The scheme is a reminder that a real, trusted international organization's name can be borrowed by phone for a scholarship that was never real to begin with, and that any offer requiring an upfront mobile-money "unlock" fee before a benefit is paid out is a scam regardless of which agency's name is attached to it — genuine UNICEF programs do not require applicants to pay a fee by phone to receive funding.`,
+  categorySlug: 'employment-scams',
+  alertLevel: 'medium',
+  sources: ['UNICEF Guinea-Bissau', 'RTP (Rádio e Televisão de Portugal)'],
+  sourceUrl: 'https://www.rtp.pt/programa/tv/p43336/e10',
+  country: 'GW',
+  isHistorical: true,
+  firstRecorded: '2023-02-01',
+});
+
+International.push({
+  name: 'Fake Portugal Study-Abroad Scholarship Fraud Targeting Guinea-Bissau Youth',
+  slug: 'fake-portugal-study-scholarship-fraud-guinea-bissau',
+  description: `Portugal's Ministério Público (Public Prosecutor's Office) indicted a man, along with an association he founded in 2015 that opened a branch in Bissau in 2017, for running a fake "fully funded scholarship" scheme from 2014 to 2023 that recruited 28 young people, aged 15 to 36, from Guinea-Bissau. The scheme charged applicants roughly €2,280 each in "application fees" and used forged school-enrollment declarations, residence certificates, and academic records to fraudulently obtain Portuguese visas and residence permits on their behalf. Victims were flown to Portugal and then abandoned once they arrived, since the promised schooling, housing, and support never materialized. The accused faces charges of association to aid illegal immigration, 28 separate counts of aiding illegal immigration, qualified fraud, and document falsification, having collected an estimated €100,573 from victims; prosecutors have requested that the full amount be forfeited to the state. The case was reported in October and November 2025 and remained in the prosecution and trial phase at that time.
+
+The scheme illustrates how a "guaranteed" study-abroad scholarship, backed by forged paperwork rather than a real school placement, can leave young people stranded in a foreign country with no support and no legitimate immigration status once the money changes hands — a risk that applies well beyond Guinea-Bissau to anyone offered an overseas scholarship that requires a large upfront "application fee" and comes bundled with visa paperwork prepared by the recruiter rather than the receiving school itself.`,
+  categorySlug: 'employment-scams',
+  alertLevel: 'high',
+  sources: ['Notícias ao Minuto', 'Público'],
+  sourceUrl: 'https://www.noticiasaominuto.com/pais/2868306/homem-acusado-de-aliciar-28-jovens-guineenses-com-falsas-bolsas-de-estudo',
+  country: 'GW',
+  isHistorical: false,
+});
