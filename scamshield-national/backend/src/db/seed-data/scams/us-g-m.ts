@@ -9020,3 +9020,45 @@ UsGM.push({
     sourceUrl: "https://www.fmcsa.dot.gov/consumer-protection/household-goods/operation-protect-your-move",
     country: "US",
 });
+
+UsGM.push({
+    name: "JAKS Puppies \"Puppy Laundering\" Rescue-Fraud Scheme (Iowa)",
+    slug: "iowa-jaks-puppies-puppy-laundering-scheme",
+    description: "The Iowa Attorney General's Office sued JAKS Puppies, owned by Jolyn Noethe and Kimberly Dolphin, along with sham nonprofits Hobo K9 Rescue of Britt and Rescue Pets Iowa Corp of Ottumwa, on March 18, 2019, alleging they laundered puppy-mill dogs through fake \"rescue\" labels to dodge retail bans on mill-sourced puppies in states including California, Illinois, Florida, and New Jersey. The lawsuit alleged roughly 1,300 dogs were sold this way for more than $700,000 between 2016 and 2018, with the state seeking $40,000 per violation plus consumer reimbursement; the Iowa AG's office coined the term \"puppy laundering\" in bringing this case. Rescue Pets Iowa was forced to dissolve in October 2019 as a direct result of the suit, and a subsequent settlement barred JAKS Puppies from transferring dogs through other entities to evade state or local sale restrictions.\n\nThe scheme worked by exploiting a real consumer protection: buyers who specifically seek out a \"rescue\" dog, rather than a pet-store puppy, are trying to avoid supporting a puppy mill — and a fraudulent rescue label lets a mill-sourced dog reach exactly those buyers under false pretenses. Anyone adopting a \"rescue\" dog can ask for the animal's actual origin and any available veterinary or intake records, and can check whether the listed nonprofit is registered and in good standing with the state before paying an adoption fee.",
+    categorySlug: "pet-sales-scams",
+    alertLevel: "medium",
+    sources: ["Iowa Attorney General's Office", "The Hill", "Iowa Capital Dispatch"],
+    sourceUrl: "https://thehill.com/homenews/state-watch/434841-lawsuit-national-puppy-laundering-ring-passed-off-puppy-mill-dogs-as/",
+    country: "US",
+    state: "IA",
+    isHistorical: true,
+    firstRecorded: "2016-01-01",
+});
+
+UsGM.push({
+    name: "Fake \"Council Bluffs Containers\" Shipping-Container Prepayment Scam (Iowa)",
+    slug: "iowa-council-bluffs-containers-shipping-container-scam",
+    description: "A fraudulent operation calling itself \"Council Bluffs Containers\" (councilbluffscubes.com) took advance payments from customers nationwide for shipping containers, mobile offices, and custom container homes, then never delivered any of the products. The scammers falsely listed 200 29th Ave., Council Bluffs, Iowa as their business address — the real address of Watco, an unrelated transportation and logistics company — and multiple victims arrived at Watco's Council Bluffs and Omaha facilities with trailers, expecting to pick up containers they had already paid for. Watco's director of security and investigations confirmed his company had been contacted by multiple defrauded consumers, and the Better Business Bureau issued a public warning in November 2025 documenting at least $8,000 in confirmed losses across a formal complaint, customer reviews, and BBB Scam Tracker reports.\n\nThe scheme shows how easily a scam website can borrow a real company's physical address to make an advance-payment demand feel verifiable — a buyer who looked up the address would have found a genuine, operating business, with no way to know from that alone that the business named on the scam site had no actual connection to it. Before wiring payment for a large item like a shipping container to any company, buyers should call the listed business address directly using a number found independently, not one provided by the seller, to confirm the seller actually operates there.",
+    categorySlug: "online-shopping-scams",
+    alertLevel: "medium",
+    sources: ["Better Business Bureau", "1011 Now (KOLN)"],
+    sourceUrl: "https://www.1011now.com/2025/11/10/fake-container-company-scams-customers-out-thousands-using-council-bluffs-address/",
+    country: "US",
+    state: "IA",
+    isHistorical: false,
+    firstRecorded: "2025-11-01",
+});
+
+UsGM.push({
+    name: "Danbury Farmer's Crop Insurance, CFAP, and Ag-Supplier Collateral Fraud Scheme (Tanner Seuntjens)",
+    slug: "iowa-danbury-seuntjens-crop-insurance-collateral-fraud",
+    description: "Tanner James Seuntjens, 33, of Danbury, Iowa, pleaded guilty on September 19, 2025, to theft of government funds, aggravated identity theft, crop insurance fraud, and stalking. Between June 2020 and June 2021, prosecutors say he defrauded the USDA out of more than $1.5 million in Coronavirus Food Assistance Program grants using false pig-inventory claims and forged signatures submitted at three separate Iowa county Farm Service Agency offices. From 2022 to 2023, he underreported crop yields to illegally collect $175,000 in crop insurance payments, and from 2023 to 2024, he sold agricultural suppliers' collateral \"out of trust\" and transferred livestock and grain into third parties' names specifically to dodge his creditors' liens on that property. U.S. District Judge Leonard T. Strand sentenced him to 156 months (13 years) in federal prison and ordered more than $1.7 million in restitution to the USDA; the case also involved separately charged identity theft and witness-stalking conduct committed while Seuntjens was on pretrial release.\n\nThe case illustrates how a single individual can defraud multiple, differently-structured federal and private safety nets at once — a pandemic relief grant, a crop insurance program, and private ag-supplier credit — by exploiting the fact that each program largely trusts a farmer's own self-reported inventory and yield figures. Farm Service Agency offices and agricultural lenders who suspect falsified inventory, yield, or collateral records can report it to USDA's Office of Inspector General rather than treat self-reported paperwork as automatically reliable.",
+    categorySlug: "investment-fraud",
+    alertLevel: "high",
+    sources: ["U.S. Attorney's Office, Northern District of Iowa", "KIMT News 3"],
+    sourceUrl: "https://www.kimt.com/news/western-iowa-farmer-sentenced-to-13-years-for-1-7m-ag-fraud-scheme/article_0e39e0d9-3375-4e17-b6ec-550e631e3c36.html",
+    country: "US",
+    state: "IA",
+    isHistorical: false,
+    firstRecorded: "2020-06-01",
+});
