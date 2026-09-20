@@ -3843,10 +3843,9 @@ NotoriousAF.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.iranintl.com/en/202404308410',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/National_Iranian_Oil_Company_headquarters_1.jpg?width=1200',
-    coverImageCredit: 'Photo: GTVM92, Wikimedia Commons (CC BY-SA 4.0) — the National Iranian Oil Company headquarters in Tehran, the ministry Zanjani was convicted of defrauding',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Babak_Zanjani_13920412_01.jpg?width=1200',
+    coverImageCredit: 'Photo: Azin Haghighi / Fars News Agency (CC BY 4.0)',
     coverImagePosition: 50,
-    // representative photo — replace with a portrait if found
     body: `Babak Zanjani started out, by his own telling, as a small-time currency trader working the Iran-Turkmenistan border in the 1990s, and built that trade into the Sorinet Group, a sprawling conglomerate with operations reaching from Turkey and the United Arab Emirates to Malaysia and Tajikistan. As Western sanctions tightened around Iran's oil sector in the early 2010s, cutting the country off from the international banking system it needed to sell crude and collect payment, Zanjani positioned Sorinet as the workaround: a network of shell companies and offshore accounts that let the National Iranian Oil Company keep exporting petroleum and receiving payment through channels sanctions regulators couldn't easily trace back to Tehran.
 
 For a government desperate to keep oil revenue flowing, Zanjani's services were worth billions, and by some estimates he became one of the richest men in Iran, amassing an airline, a football club, and a media empire along the way. But when reformist President Hassan Rouhani took office in August 2013 promising to root out sanctions-era profiteering, investigators turned their attention to where all that oil money had actually gone — and found that a large share of it appeared to have stuck to Zanjani's own businesses rather than flowing back to the Iranian state that was owed it. He was arrested on December 30, 2013, on a complaint from the National Iranian Oil Company alleging he was withholding billions in proceeds from oil sales conducted on the ministry's behalf.
@@ -9711,6 +9710,9 @@ NotoriousAF.push({
     slug: 'artur-alves-dos-reis-portuguese-bank-note-crisis',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical', 'international'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Alves_dos_Reis.png?width=1200',
+    coverImageCredit: 'Portrait of Alves dos Reis, c. 1925, public domain via Wikimedia Commons',
+    coverImagePosition: 50,
     body: `Artur Virgílio Alves dos Reis was a young Portuguese businessman already convicted once of forgery and embezzlement in the Angolan colonial administration when he walked out of prison on August 27, 1924, with a scheme far larger than anything he'd tried before. Portugal in the mid-1920s was mired in hyperinflation, revolving governments, and colonial debt, and Reis had noticed that the one institution everyone still trusted — the Bank of Portugal's own currency — depended on a chain of paperwork that no one along the way actually verified with the people it claimed to come from.
 
 Reis forged an elaborate set of contracts and letters, on convincing replica Bank of Portugal stationery, purporting to authorize a secret international banking syndicate to arrange a large loan for developing the colony of Angola, with instructions that absolute secrecy be maintained. He recruited a Dutch businessman, Karel Marang van Ysselveere, to carry the forged authorization to Waterlow & Sons, the prestigious London security printer that held the Bank of Portugal's actual, decades-long contract to print its currency. Waterlow, trusting a request that appeared to come from its long-standing client, agreed in early 1925 to print 200,000 new 500-escudo notes — but crucially, to save time, it reused the same design and serial-number ranges as an earlier, already-circulating batch it had printed for the bank. The result was as strange as any currency fraud in history: the notes themselves were entirely genuine, struck from the real plates on the real paper by the real national printer, with only the authorization behind them fabricated from nothing.
