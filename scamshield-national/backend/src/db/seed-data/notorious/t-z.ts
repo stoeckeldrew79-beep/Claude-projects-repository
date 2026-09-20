@@ -3193,6 +3193,10 @@ NotoriousTZ.push({
     slug: 'torex-retail-false-accounting-scandal',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'international'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Oxford_Crown_and_County_Court.jpg?width=1200',
+    coverImageCredit: 'Photo: Claire Ward, Wikimedia Commons (CC BY-SA 2.0) — Oxford Crown Court, where Woodbridge was convicted and Moore and Loosemore were sentenced',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Torex Retail plc was floated on London's Alternative Investment Market in spring 2004, spun out of the healthcare software firm Torex plc to focus on point-of-sale and till systems for UK and European retailers. Through a string of acquisitions — including an £8.7 million purchase of KPOS Computer Systems that same year — it grew quickly into one of the more closely watched mid-cap technology stocks on the London market, supplying checkout and back-office software to major high street chains.
 
 That growth story depended on Torex hitting its numbers, and in the summer of 2006 three of its most senior executives made sure it did — on paper. Chief executive Christopher Moore, executive chairman Robert Loosemore, and group financial accountant Mark Woodbridge fabricated two documents to plug a hole in the company's interim results: a fake £5 million "distribution agreement" between Torex and Magdalen Consulting Ltd, a private company controlled by Loosemore, and a fake £1.5 million "goodwill deposit" tied to the same entity. Together, the two fictitious entries let Torex falsely inflate the cash and revenue figures in its interim statement, published on 14 August 2006, by £6.5 million. Woodbridge separately caused a further £2 million in revenue to be falsely recognised the same year.
@@ -3208,6 +3212,10 @@ NotoriousTZ.push({
     slug: 'yazoo-land-fraud-georgia-1795',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'historical', 'corruption', 'bribery'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Charles_B._J._F%C3%A9vret_de_Saint-M%C3%A9min,_James_Jackson,_1805,_NGA_204789.jpg?width=1200',
+    coverImageCredit: 'Charles B.J. Févret de Saint-Mémin, engraved portrait of Senator James Jackson (1805), National Gallery of Art, CC0 — Jackson led the fight to rescind the Yazoo Act',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `On January 7, 1795, the Georgia legislature passed the Yazoo Act, selling roughly 35 million acres of the state's vast western land claims — territory that today makes up most of Alabama and Mississippi — to four private land companies for just $500,000, or about a penny and a half an acre. It was, at the time, one of the largest land transactions in American history, and almost none of it was on the level.
 
 The deal was bought outright. U.S. Senator James Gunn of Georgia, leading a group later nicknamed the "Yazooists," arranged for the four buyers — the Georgia Company, the Georgia-Mississippi Company, the Upper Mississippi Company, and the Tennessee Company — to distribute cash payments and shares of the land itself to nearly every sitting member of the Georgia legislature, along with the governor, newspaper editors, and other influential Georgians whose support or silence was worth buying. Only one legislator is recorded as having refused a bribe before the act passed.

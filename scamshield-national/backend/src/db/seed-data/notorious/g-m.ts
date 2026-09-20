@@ -10525,6 +10525,10 @@ NotoriousGM.push({
     slug: 'masterbond-south-africa-ponzi-collapse',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical', 'international'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Western_Cape_High_Court.jpg?width=1200',
+    coverImageCredit: 'Photo: alcuin, Wikimedia Commons (CC BY-SA 2.0) — the Western Cape High Court in Cape Town, which convicted Masterbond’s three directors of fraud in 1995',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Masterbond Group built its business in 1980s South Africa on a pitch that sounded reassuringly conservative: investors' deposits, the company said, were protected the way a registered bank's deposits were, and the money was being used to finance real, tangible property developments — residential estates and shopping centres investors could point to. Neither claim held up. Masterbond was never a registered bank, and much of the property backing its promises either didn't exist as described or was never developed at all.
 
 Behind the reassuring pitch, Masterbond had degenerated into a Ponzi scheme, using new deposits to keep older investors paid while its three directors — Johannes ("Koos") Jonker, Johannes Brits, and Johan Winckler — drew funds for themselves. The scheme pulled in retirement savings, church funds, and money from at least eleven trade unions representing roughly 1.5 million workers, alongside tens of thousands of individual investors, many of them elderly. When Masterbond collapsed in October 1991, it owed more than R650 million — at the time, the largest corporate collapse in South African history.
@@ -10540,6 +10544,10 @@ NotoriousGM.push({
     slug: 'melvyn-weiss-william-lerach-milberg-weiss-kickback-scheme',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Edward_R._Roybal_Federal_Building_and_United_States_Courthouse_(Los_Angeles).JPG?width=1200',
+    coverImageCredit: 'Photo: Alexis Doine, Wikimedia Commons (CC0) — the federal courthouse in Los Angeles where the grand jury investigation and indictment originated',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Milberg Weiss was, for decades, the most feared name in American shareholder litigation — the plaintiffs'-side law firm that filed the class-action lawsuits corporations dreaded most whenever their stock price dropped, built largely on the reputations of two founding partners, Melvyn Weiss and William Lerach, who between them helped invent the modern securities class action. What investors and courts didn't know was that the firm's remarkable knack for being first to the courthouse rested on a stable of paid, secret plaintiffs it kept ready to sue on demand.
 
 From as far back as the late 1970s until roughly 2005, Milberg Weiss maintained arrangements with a handful of repeat "professional plaintiffs" — chiefly Beverly Hills attorney and investor Seymour Lazar, retired businessman Howard Vogel, and Beverly Hills ophthalmologist Steven Cooperman — who held small stakes in scores of public companies and stood ready to serve as the named class representative the moment one of those stocks fell. In exchange, the firm secretly paid them roughly $11 million in kickbacks over the scheme's lifetime, routed through intermediary lawyers and disguised as unrelated referral or consulting fees so that no payment traced directly from the firm to its own clients. Being first in the courthouse door with a plaintiff already lined up let Milberg Weiss repeatedly capture the lucrative lead-counsel role in class actions — a practice that continued for a decade after Congress passed the Private Securities Litigation Reform Act of 1995 specifically to curb exactly this kind of plaintiff-shopping. Each "independent" plaintiff also swore in sworn certifications, filed with federal courts, that they had received no compensation beyond their ordinary pro rata share of any recovery — the very safeguard meant to ensure a class representative had no conflicting interest from the shareholders in whose name the suit was filed.
