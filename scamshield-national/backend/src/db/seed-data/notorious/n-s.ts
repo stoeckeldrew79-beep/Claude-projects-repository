@@ -7238,6 +7238,10 @@ NotoriousNS.push({
     slug: 'phillip-white-informix-accounting-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Downtown_Menlo_Park_California.jpg?width=1200',
+    coverImageCredit: 'Photo: LPS.1, Wikimedia Commons (CC0) — downtown Menlo Park, CA, where Informix was headquartered',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Phillip E. White was chief executive of Informix Corporation, a Menlo Park, California database software maker that competed directly with Oracle through the mid-1990s. For its 1996 fiscal year, Informix reported net income of $97.8 million — a number that impressed Wall Street and helped keep the company's stock aloft in a brutally competitive software market. According to the Securities and Exchange Commission, that number was fiction.
 
 Informix's sales staff, with White's knowledge, had been striking secret side agreements alongside the software licensing contracts it reported to the public: undisclosed terms that let customers return unsold product, delay payment indefinitely, or otherwise avoid the obligations that would normally justify booking revenue up front under standard accounting rules. Those side letters were kept from Informix's own finance staff and from its outside auditors, letting the company recognize revenue on deals that hadn't actually closed on the terms shown to the public. The SEC later concluded that, across fiscal years 1994 through 1997, Informix had fabricated roughly $295 million in revenue through backdated contracts, income booked on products that were never sold, and other violations of basic accounting rules.
@@ -7253,6 +7257,10 @@ NotoriousNS.push({
     slug: 'richard-rubin-donnkenny-accounting-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Garment_District_NYWTS.jpg?width=1200',
+    coverImageCredit: 'Photo: Al Ravenna, New York World-Telegram and the Sun — Library of Congress, public domain',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Donnkenny, Inc. was a New York-based women's sportswear maker whose licensed lines, including Victoria Jones and Jack Winter, made it a familiar name in mid-1990s department stores. Under chairman and CEO Richard F. Rubin, the company also became one of the decade's more brazen accounting frauds, built not around a single hidden liability but around simply inventing sales that had never happened.
 
 Beginning in early 1994 and continuing until the fall of 1996, Rubin directed a scheme carried out with chief financial officer Edward T. Creevy, controller Ronald H. Hollandsworth, and assistant controller Kymberlee W. Kulis to make Donnkenny's quarterly results consistently meet or beat Wall Street's expectations. The methods were mechanical rather than sophisticated: the company held open its books past the actual end of a quarter so it could keep booking shipments as if they'd occurred earlier, recorded "bulk" orders that were never shipped to any customer, and entered outright fictitious sales through false journal entries backed by nothing — including phantom contract work and product parked in a warehouse Donnkenny didn't even use for real shipments. In the first half of 1996 alone, the SEC found, the company added $22.4 million in phony revenue through journal entries with no underlying transactions.
@@ -7270,6 +7278,10 @@ NotoriousNS.push({
     slug: 'ruiz-mateos-nueva-rumasa-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical', 'Spain', 'Ponzi scheme'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Audiencia-Nacional-141115.jpg?width=1200',
+    coverImageCredit: 'Photo: FDV, Wikimedia Commons (CC BY-SA 4.0) — Spain\'s Audiencia Nacional, which convicted the six sons in 2025',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `José María Ruiz-Mateos was already a famous — and controversial — figure in Spanish business when he founded Nueva Rumasa, a sprawling private conglomerate spanning food brands (Dhul, Clesa, Cacaolat), real estate, and other ventures, built in the years after the Spanish government's 1983 expropriation of his original Rumasa group. Nueva Rumasa positioned itself publicly as a solvent, growing family enterprise even as its finances deteriorated.
 
 Beginning in 2009, several of Nueva Rumasa's flagship companies launched aggressive newspaper and television advertising campaigns offering "pagarés" — corporate promissory notes — directly to small retail investors, promising fixed annual returns well above what Spanish bank deposits were then paying. Because the notes were marketed and sold directly rather than through regulated securities markets, the offering largely sidestepped the disclosure scrutiny a public securities offering would have faced. Investigators later found the group's own directors knew the underlying businesses could not realistically cover the promised buybacks.

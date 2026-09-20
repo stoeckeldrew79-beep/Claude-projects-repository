@@ -9730,6 +9730,10 @@ NotoriousAF.push({
     slug: 'angel-de-la-rosa-yaimy-real-tax-preparer-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Exterior_of_the_Birch_Bayh_Federal_Building_%26_U.S._Courthouse.jpg?width=1200',
+    coverImageCredit: 'Photo: Paul Sableman, Wikimedia Commons (CC BY 2.0) — a federal courthouse in the district where the case was sentenced',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Angel De La Rosa ran a tax return preparation business called De La Rosa Multiservices out of storefronts in Jasper, Indiana, and Louisville, Kentucky, alongside co-defendant Yaimy Real. From January 2018 through July 2021, prosecutors say the pair prepared approximately 5,892 federal income tax returns for clients across the two states — and buried false claims inside a large share of them to inflate refunds far beyond what their clients were actually owed.
 
 The scheme relied on a handful of repeatable tricks rather than one elaborate scam. De La Rosa and Real routinely claimed the American Opportunity Tax Credit, an education credit worth up to $2,500 per student, by submitting fabricated college enrollment documentation for clients who weren't enrolled in any qualifying program. They also invented self-employment losses on Schedule C for clients with no such business, and inflated itemized deductions on Schedule A well beyond what any legitimate records supported. Perhaps most tellingly, prosecutors say the pair frequently left their own names off the returns they filed as "ghost preparers" — a paid preparer is legally required to sign returns they prepare, and skipping that step let De La Rosa and Real distance themselves from the paperwork and made it harder for the IRS to trace a pattern of fraud back to a single source.

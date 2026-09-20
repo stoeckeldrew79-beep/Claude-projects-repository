@@ -10542,6 +10542,10 @@ NotoriousGM.push({
     slug: 'peter-gardener-rod-mitchell-leisurenet-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical', 'South Africa', 'corporate fraud'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Western_Cape_High_Court.jpg?width=1200',
+    coverImageCredit: 'Photo: alcuin, Wikimedia Commons (CC BY-SA 2.0) — the Cape High Court, which convicted Gardener and Mitchell',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Peter Gardener and Rodney "Rod" Mitchell built LeisureNet into one of South Africa's largest listed companies through its Health & Racquet Club chain, then pushed into an ambitious international expansion that included acquiring gym-building operations in Germany. By the late 1990s, LeisureNet was a darling of the Johannesburg Stock Exchange, and its founders had reputations as savvy operators who had turned a domestic fitness chain into a multinational leisure group.
 
 The fraud at the heart of the case was self-dealing, not a Ponzi scheme. In 1996, Gardener and Mitchell each secretly acquired a 20 percent stake — by informal oral agreement — in Dalmore, a German gym-building operation run by businessman Hans Moser, in exchange for their expertise. When LeisureNet bought out Dalmore's operations in 1999 as part of its European push, the two executives each pocketed roughly R6 million in profit from interests they never disclosed to their own board, auditors, or shareholders — a direct breach of their fiduciary duties as directors of a publicly listed company.
