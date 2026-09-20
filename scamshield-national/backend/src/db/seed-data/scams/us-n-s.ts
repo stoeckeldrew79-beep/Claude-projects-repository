@@ -8791,3 +8791,35 @@ The case shows how romance-scam proceeds, unemployment fraud, and business email
     isHistorical: false,
     firstRecorded: '2025-08-26',
 });
+
+UsNS.push({
+    name: 'Cannacea Dispensary Investment Fraud (Forged State Approval Letter)',
+    slug: 'oregon-cannacea-dispensary-investment-fraud',
+    description: `Tisha Siler, CEO of Portland dispensary Cannacea LLC, fabricated a letter dated October 16, 2014 purporting to be from the Oregon Health Authority's Medical Marijuana Dispensary Program, falsely claiming she had been granted six dispensary licenses "without measured due process." She used the forged letter to convince four investors to put up $225,000 toward opening new locations, with three of them each contributing $75,000. The Oregon Division of Financial Regulation's Final Order (Case No. S-16-0007, issued August 17, 2017) found Siler and Cannacea violated state securities law by selling unregistered securities, making untrue statements, and committing fraud; both were ordered to cease and desist, permanently banned from doing business in Oregon, and fined $40,000.
+
+The case shows how a fabricated state-agency document can substitute for the due diligence an investor would normally do themselves — a letter that looks official, referencing a real regulator by name, discouraged the four investors from independently confirming Cannacea's licensing status before writing checks. Anyone offered an investment tied to a claimed government approval, permit, or license should verify it directly with the issuing agency itself, using contact information looked up independently, rather than trusting a document the person soliciting the investment provided.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'medium',
+    sources: ['Oregon Division of Financial Regulation'],
+    sourceUrl: 'https://dfr.oregon.gov/AdminOrders/enf-orders-2017/Cannacea%20Final%20Order%20ssig.pdf',
+    country: 'US',
+    state: 'OR',
+    isHistorical: true,
+    firstRecorded: '2014-10-16',
+});
+
+UsNS.push({
+    name: 'Oregon State Bar CEO-Impersonation Phishing Scam',
+    slug: 'oregon-state-bar-ceo-impersonation-phishing',
+    description: `In the first week of December 2025, a phishing email impersonating Oregon State Bar CEO Helen Hierschbiel was sent to OSB-licensed attorneys and paralegals, using a spoofed sender domain rather than the Bar's real .osbar.org domain. OSB Chief Technology Officer Richard Appleyard issued a formal written alert to all licensees describing the scam and noting that phishing attempts targeting the Bar and Oregon lawyers had been rising in frequency and sophistication throughout 2025, urging recipients to verify sender addresses carefully and report incidents to the Bar's webmaster.
+
+The scheme is a reminder that even licensed professionals whose entire practice depends on verifying documents and identities are targeted by the same impersonation tactics used against the general public — a spoofed email from a trusted professional association's own CEO can be convincing enough to bypass an attorney's usual skepticism precisely because it appears to come from an authority figure inside their own field. Anyone who receives an unexpected email from a professional organization's leadership, especially one requesting action or containing a link, should verify the sender's actual domain character by character and report anything suspicious directly to the organization through a channel found independently, not by replying to the email itself.`,
+    categorySlug: 'phishing',
+    alertLevel: 'low',
+    sources: ['Oregon State Bar'],
+    sourceUrl: 'https://www.osbar.org/_docs/resources/ScamTargetsOSBLicensees.pdf',
+    country: 'US',
+    state: 'OR',
+    isHistorical: false,
+    firstRecorded: '2025-12-01',
+});
