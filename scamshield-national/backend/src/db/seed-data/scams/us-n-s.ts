@@ -8291,6 +8291,44 @@ UsNS.push({
 });
 
 UsNS.push({
+    name: 'Las Vegas Speculative Ticketing and Fake Resale Scam',
+    slug: 'nevada-las-vegas-speculative-ticketing-resale-scam',
+    description: 'When a hot Las Vegas show sells out — such as the Backstreet Boys\' 2025 residency at Sphere, which drew more than 100,000 people into Ticketmaster\'s virtual queue — the Better Business Bureau of Southern Nevada warns that scammers move onto Facebook and other social platforms with fake "peer-to-peer" resale pages offering tickets they don\'t actually possess, a practice known as speculative ticketing, or with slick counterfeit storefront sites that mimic legitimate resellers; BBB regional director Rhonda Mettler stresses that "your method of payment is key," because these sellers push buyers toward PayPal "friends and family," Zelle, or bank transfers rather than a protected purchase, and once paid they either send nothing or disappear, as happened to one fan who lost a $100 deposit and another who lost $400 with no recovery. Consumers should buy only from the venue or an authorized ticketing platform, insist on an in-account ticket transfer rather than a screenshot, and pay only through a credit card or a payment method\'s "goods and services" buyer protection — never a peer-to-peer app or wire transfer — when buying resale tickets to a Las Vegas show.',
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'medium',
+    sources: ['Better Business Bureau of Southern Nevada', 'FOX5 Las Vegas (KVVU)'],
+    sourceUrl: 'https://www.fox5vegas.com/2025/08/23/want-hottest-las-vegas-show-tickets-protect-your-resale-purchase-against-scammers-bbb-warns/',
+    country: 'US',
+    state: 'NV',
+    firstRecorded: '2025-08-23',
+});
+
+UsNS.push({
+    name: 'Las Vegas Jury Duty Phone Scam and Bitcoin ATM Extortion',
+    slug: 'nevada-las-vegas-jury-duty-bitcoin-atm-scam',
+    description: 'The Eighth Judicial District Court and Las Vegas Metropolitan Police Department have warned of a scam in which a text falsely claims the recipient is excused from jury duty, followed by a phone call from someone impersonating a law-enforcement officer or court official who says the target actually missed jury duty and now owes a fine — one documented version demanded $1,700 in misdemeanor fines and threatened to "unfreeze" a warrant only upon payment; in a separate case, Las Vegas resident Stefanie Clary was kept on the phone for more than five hours by a caller who spoofed the Clark County constable\'s office, cited a fabricated "gag order" to stop her from telling even her husband, and directed her to deposit $5,000 and then another $7,500 into an Athena Bitcoin ATM in downtown Las Vegas — a total of $12,500 that could not be recovered once converted to cryptocurrency. The Eighth Judicial District Court states flatly that it will never call to demand payment for a warrant, never asks anyone to meet in person to pay, and never solicits money by text, phone, or email or through prepaid cards, cryptocurrency, or Apple Pay; anyone who receives such a call should hang up, verify any real jury summons by calling the court\'s Jury Services line at 702-455-4472 directly, and report the contact to LVMPD\'s Financial Crimes Unit.',
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Eighth Judicial District Court (Clark County)', 'Las Vegas Metropolitan Police Department', 'KTNV Las Vegas', 'FOX5 Las Vegas (KVVU)'],
+    sourceUrl: 'https://www.clarkcountycourts.us/jury-duty-scam-alert/',
+    country: 'US',
+    state: 'NV',
+});
+
+UsNS.push({
+    name: 'Nevada Door-to-Door Solar Panel Sales Scam',
+    slug: 'nevada-door-to-door-solar-panel-sales-scam',
+    description: 'Door-to-door solar sales complaints have become so common in Nevada — accounting for roughly 20 percent of all complaints filed with the Nevada State Contractors Board — that the NSCB created a dedicated Solar Investigations Unit in 2024 to handle them; investigator Dave Behar said many of the salespeople pushing homeowners to sign are "not skilled enough to do" the installation work themselves, leaving substandard systems behind unlicensed subcontractors. The Legal Aid Center of Southern Nevada, which has fielded these complaints from seniors in particular, describes a consistent playbook: high-pressure reps who tell homeowners to "never sign the same day you hear a presentation" — precisely what they then pressure them to do — get a signature on an iPad under the pretext that it\'s just for a "home inspection" or "qualification check," and promise a "$0 bill" or that the government or a federal tax credit will fully cover the system, promises that routinely fall apart once escalating monthly payments tied to the tax-credit transfer arrive instead. Nevada homeowners approached this way should never sign anything the same day, should get the last 12 months of their actual energy bills and a competing quote before agreeing to anything, should confirm any contractor\'s license through the Nevada State Contractors Board\'s website, and can use Nevada\'s three-day right of cancellation if they signed and have second thoughts.',
+    categorySlug: 'home-improvement-solar',
+    alertLevel: 'medium',
+    sources: ['Nevada State Contractors Board', 'The Nevada Independent', 'Legal Aid Center of Southern Nevada'],
+    sourceUrl: 'https://thenevadaindependent.com/article/nevada-agency-creates-board-dedicated-to-investigating-solar-panel-scams',
+    country: 'US',
+    state: 'NV',
+    firstRecorded: '2024-01-01',
+});
+
+UsNS.push({
     name: 'Portland General Electric Utility Worker Impersonation Scam',
     slug: 'oregon-pge-utility-worker-impersonation-scam',
     description: `Portland General Electric, which serves more than 950,000 customers across roughly 1.9 million Oregonians, warned in January 2026 that scammers are impersonating its field employees to gain entry into homes or to pressure customers into immediate payment. According to PGE's advisory, fraudsters use phone calls, texts, social media messages, and emails to threaten customers with imminent service disconnection unless they pay right away, and some request payment through prepaid cards, digital payment apps, cryptocurrency, or direct bank transfers — methods PGE says it will never use. Other red flags PGE highlighted include callers asking for Social Security numbers or banking details, spoofed caller-ID numbers designed to look like they're coming from the utility, and phishing links embedded in unsolicited texts or emails. PGE said genuine employees always carry visible identification and urged anyone approached in person or by phone to independently verify the person's identity by calling PGE customer service directly at 503-228-6322 before letting them inside or making any payment.`,
