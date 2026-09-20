@@ -32,7 +32,11 @@ export default function CheckNow() {
   // Real-time-feeling without hammering the search endpoint on every
   // keystroke: the query only actually updates 400ms after typing stops.
   const debouncedDraft = useDebounce(draft, 400);
-  const { data: results, isFetching } = useScamSearch(query || debouncedDraft);
+  // isLoading (not isFetching): with placeholderData on useScamSearch, a
+  // background refetch on a new keystroke should keep the previous matches
+  // on screen instead of blanking back to "Checking…" — isLoading is only
+  // true when there's no data at all yet.
+  const { data: results, isLoading } = useScamSearch(query || debouncedDraft);
 
   const effectiveQuery = query || debouncedDraft;
   const hasSearched = effectiveQuery.trim().length > 2;
@@ -112,9 +116,9 @@ export default function CheckNow() {
 
       {hasSearched && (
         <div className="mt-10">
-          {isFetching && <p className="text-center text-slate-500">Checking…</p>}
+          {isLoading && <p className="text-center text-slate-500">Checking…</p>}
 
-          {!isFetching && topMatch && (
+          {!isLoading && topMatch && (
             <>
               <p className="text-center text-xs font-semibold uppercase tracking-wide text-slate-400 mb-3">
                 Closest match
@@ -142,7 +146,7 @@ export default function CheckNow() {
             </>
           )}
 
-          {!isFetching && results && results.length === 0 && (
+          {!isLoading && results && results.length === 0 && (
             <div className="text-center">
               <p className="text-slate-700 font-medium">Nothing in the database matches that closely yet.</p>
               <p className="mt-2 text-sm text-slate-500 max-w-md mx-auto">

@@ -86,5 +86,9 @@ export function useScamSearch(q: string) {
     // Matches the page's own "hasSearched" threshold so a couple of stray
     // keystrokes never fire a request that would just be thrown away.
     enabled: q.trim().length > 2,
+    // Same reasoning as useInfiniteScams: each settled query is a new key,
+    // so without this the results (or the AI-Scams fallback section) blink
+    // out between debounce pauses instead of smoothly swapping in place.
+    placeholderData: keepPreviousData,
   });
 }
