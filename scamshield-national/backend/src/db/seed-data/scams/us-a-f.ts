@@ -9517,3 +9517,19 @@ UsAF.push({
     state: "AL",
     firstRecorded: "2025-05-30",
 });
+
+UsAF.push({
+    name: 'American Samoa School Lunch Program and Procurement Bribery Scheme (Kerisiano Sili Sataua)',
+    slug: 'american-samoa-sataua-school-lunch-program-procurement-bribery',
+    description: `Kerisiano Sili Sataua, a former director of the American Samoa Department of Education (ASDOE) and former chief of staff to the territory's governor, pleaded guilty to conspiring to commit bribery and defraud federal programs between 1999 and July 2003. Prosecutors said Sataua steered ASDOE contracts to co-conspirators in exchange for bribes and helped divert food and goods purchased for the federally funded National School Lunch Program — meant to feed the territory's children — costing the affected agencies at least $61,000 while Sataua personally pocketed more than $9,000 in cash and goods. Three co-conspirators were separately convicted in the same scheme: former ASDOE Chief Procurement Officer Fa'au Seumanutafa, who received roughly $80,000 for pre-arranging favorable contract pricing; former School Lunch Program Director Toetu Solaita, who stole more than $68,000 in food and goods meant for the program; and former Department of Human and Social Services Director Patolo Mageo, who defrauded his own agency of more than $40,000. Sataua was sentenced on October 17, 2005, facing up to five years in prison, three years of supervised release, and a $250,000 fine.
+
+The case is a reminder that a federal child-nutrition benefit program can be quietly hollowed out from the inside by the very officials meant to administer it — not through a scam pitched to the public, but through kickbacks and diverted goods that never reach the children the program is meant to serve. Anyone who suspects a school district or territorial agency employee is steering food-program contracts or goods to a favored vendor in exchange for payment can report it to the U.S. Department of Agriculture's Office of Inspector General or the FBI, rather than assume a government-run benefit program is immune to this kind of internal fraud.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'medium',
+    sources: ['U.S. Department of Justice'],
+    sourceUrl: 'https://www.justice.gov/archive/opa/pr/2005/January/05_crm_036.htm',
+    country: 'US',
+    state: 'AS',
+    isHistorical: true,
+    firstRecorded: '1999-01-01',
+});
