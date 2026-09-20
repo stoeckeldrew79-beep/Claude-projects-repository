@@ -8928,3 +8928,39 @@ UsGM.push({
     sourceUrl: "https://oag.dc.gov/release/attorney-general-brian-schwalb-issues-alert",
     country: "US",
 });
+
+UsGM.push({
+    name: "Roofing Guys \"Self-Inflicted\" Wind-Damage Insurance Fraud (Zechariah Moore)",
+    slug: 'louisiana-roofing-guys-zechariah-moore-self-inflicted-roof-damage-fraud',
+    description: `Louisiana Insurance Commissioner Tim Temple's office worked with the Livingston Parish Sheriff's Office to arrest Zechariah Moore, a field representative for Roofing Guys LLC, on September 26, 2024, after he allegedly inspected a Lafayette couple's roof on August 6, told them it needed $30,000 to $40,000 in repairs for wind damage, then secretly damaged the roof himself and encouraged them to file an insurance claim over the manufactured harm; a second, independent contractor's inspection two days later found the damage was manmade rather than storm-related, but not before Louisiana Farm Bureau Mutual had already paid out $23,627 on the fraudulent claim. Moore was charged with felony Damage to Property With Intent to Defraud, and on October 1, 2024 the Department of Insurance served him and Roofing Guys LLC with a cease-and-desist order for operating as an unlicensed public adjuster, on top of the criminal charge. Homeowners approached by a contractor pushing an expensive storm-damage claim right after an inspection should get an independent second opinion before authorizing any insurance filing or repair, and can verify a contractor's or adjuster's license through the LDI's online Producer/Adjuster Search.`,
+    categorySlug: 'insurance-fraud',
+    alertLevel: 'high',
+    sources: ["Louisiana Department of Insurance", "Insurance Journal", "Livingston Parish Sheriff's Office"],
+    sourceUrl: 'https://www.insurancejournal.com/news/southcentral/2024/10/11/796813.htm',
+    country: 'US',
+    state: 'LA',
+});
+
+UsGM.push({
+    name: "Louisiana EBT/SNAP Benefit Card Skimming Device Alert",
+    slug: 'louisiana-ebt-snap-card-skimming-device-alert',
+    description: `The Louisiana Department of Children and Family Services (DCFS) announced on November 6, 2024 that it had discovered multiple physical card-skimming devices installed at retail locations across the state, secretly capturing EBT/SNAP cardholders' card data and PINs during ordinary purchases; DCFS notified local and federal law enforcement and launched an investigation while proactively sending text alerts to EBT cardholders statewide urging them to change their PIN immediately. Because federal SNAP benefits are generally not reimbursable once stolen through skimming, DCFS urged recipients to update their PIN regularly through LifeInCheckEBT.com or 888-997-1117, monitor account activity through the LifeInCheck EBT app, physically check card readers for tampering before swiping, shield the keypad when entering a PIN, and take advantage of the program's newer security features that let cardholders block out-of-state and online transactions on their card — and DCFS stressed it will never call or text asking for a cardholder's PIN or full card number, so any such request is itself a sign of fraud.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'high',
+    sources: ["Louisiana Department of Children & Family Services", "WAFB"],
+    sourceUrl: 'https://www.wafb.com/2024/11/06/dcfs-ebt-cardholders-should-change-pin-amid-skimming-device-discovery/',
+    country: 'US',
+    state: 'LA',
+});
+
+UsGM.push({
+    name: "Fake GeauxPass Unpaid Toll Text Scam",
+    slug: 'louisiana-geauxpass-toll-smishing-scam',
+    description: `The Louisiana Department of Transportation and Development (DOTD), which operates the state's GeauxPass toll system, issued a public alert on March 7, 2025 warning of a nationwide "smishing" (SMS phishing) campaign impersonating GeauxPass with text messages falsely claiming the recipient has an outstanding, overdue toll and must pay immediately through a link to avoid additional fees; the messages route victims to look-alike sites with domains built to imitate the real geauxpass.com, such as one using a hyphen ("geauxpass-la.com") and another dropping a letter and swapping the top-level domain ("geaupass.net"), where victims are asked to enter payment card details and personal information. DOTD stated flatly that "GeauxPass will never ask for personal information via text" and that Louisiana does not collect tolls through text messages, advising anyone who receives such a message to check the sender's link carefully against the real geauxpass.com domain, avoid logging in through any link in the text, delete the message, and if information was already entered, contact GeauxPass customer service directly at 866-662-8987 rather than responding to the text itself.`,
+    categorySlug: 'phishing',
+    alertLevel: 'medium',
+    sources: ["Louisiana Department of Transportation and Development", "GeauxPass"],
+    sourceUrl: 'https://wwwapps.dotd.la.gov/administration/announcements/announcement.aspx?key=37894',
+    country: 'US',
+    state: 'LA',
+});

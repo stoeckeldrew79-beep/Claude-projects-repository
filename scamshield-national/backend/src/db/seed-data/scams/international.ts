@@ -20089,6 +20089,42 @@ International.push(
     country: 'UY',
     firstRecorded: '2026-02-19',
   },
+  {
+    name: 'Fake UTE Meter-Change Call and WhatsApp Account-Takeover Scam',
+    slug: 'uruguay-fake-ute-meter-change-whatsapp-takeover-scam',
+    description:
+      'On September 17, 2026, police in Uruguay\'s Rocha department warned about a scam in which a caller phones the victim\'s landline claiming to be an employee of UTE, the state electricity utility, who says the household\'s meter needs to be replaced, then asks for the victim\'s mobile number and tells them to expect a code by SMS; when the victim reads back the six-digit WhatsApp registration code they receive, the fraudster uses it to seize control of the victim\'s WhatsApp account and then messages the victim\'s own contacts posing as them to solicit money, typically under a fabricated emergency. Police stressed that legitimate utility meter work never requires an SMS verification code, urged residents to hang up immediately on unsolicited calls from self-described utility employees, never share a numeric code received by text with anyone, and use the Interior Ministry\'s "Verificá" WhatsApp line to confirm any such claim before responding.',
+    categorySlug: 'account-takeover',
+    alertLevel: 'high',
+    sources: ['Policía de Rocha', 'El Observador'],
+    sourceUrl: 'https://www.elobservador.com.uy/nacional/alerta-nueva-modalidad-estafa-se-hacen-pasar-funcionarios-ute-acceder-whatsapp-y-pedir-dinero-n6057587',
+    country: 'UY',
+    firstRecorded: '2026-09-17',
+  },
+  {
+    name: 'AI Deepfake Video of Uruguayan Officials Promoting Fake Investments',
+    slug: 'uruguay-bcu-ai-deepfake-president-investment-scam',
+    description:
+      'On August 23, 2025, the Banco Central del Uruguay (BCU) publicly warned that AI-generated deepfake images, audio, and video of President Yamandú Orsi and other public officials were circulating on social media to lend false credibility to fraudulent savings and investment schemes promising unrealistic, guaranteed returns; the warning followed earlier BCU alerts, in November 2024 and February 2025, about a similar synthetic video that cloned the image and voice of BCU president Washington Ribeiro to endorse an unnamed "investment platform." The central bank reiterated that neither the institution nor its authorities ever recommend investment or credit products, and urged the public to distrust any promise of quick or guaranteed profits, avoid entering banking details or downloading apps through links shared on social media, and check any company or offer against the BCU\'s public registry of authorized financial entities before engaging.',
+    categorySlug: 'ai-deepfake-scams',
+    alertLevel: 'high',
+    sources: ['Banco Central del Uruguay (BCU)', 'El Observador'],
+    sourceUrl: 'https://www.elobservador.com.uy/nacional/estafa-redes-sociales-bcu-alerta-que-recrean-orsi-inteligencia-artificial-promover-esquemas-fraudulentos-n6014072',
+    country: 'UY',
+    firstRecorded: '2025-08-23',
+  },
+  {
+    name: 'Fake DGI IRPF Tax-Refund Phishing Email',
+    slug: 'uruguay-dgi-irpf-tax-refund-phishing-scam',
+    description:
+      'On May 23, 2026, Uruguay\'s Dirección General Impositiva (DGI) warned taxpayers about a wave of phishing emails, styled to look like official DGI correspondence, falsely notifying recipients that a cash IRPF (personal income tax) refund is available and pressuring them to click through to a cloned page and submit a form confirming their bank account number and password to "release" the funds; DGI noted the messages were timed to run ahead of its real refund calendar, since genuine 2025-fiscal-year IRPF refunds could only be checked starting June 9, 2026, deposited from June 13, and withdrawn in cash from June 16, meaning any refund email arriving earlier could not be legitimate. The agency reiterated it never asks for banking passwords or personal data by email, advised taxpayers to verify that any sender address genuinely belongs to DGI\'s official domain, avoid clicking links in unsolicited refund messages, and report suspicious emails instead of responding to them.',
+    categorySlug: 'tax-scams',
+    alertLevel: 'high',
+    sources: ['Dirección General Impositiva (DGI)', 'Telenoche (Uruguay)'],
+    sourceUrl: 'https://www.telenoche.com.uy/nacionales/la-dgi-advierte-correos-electronicos-fraudulentos-la-devolucion-del-irpf-n5399955',
+    country: 'UY',
+    firstRecorded: '2026-05-23',
+  },
 );
 
 International.push(
