@@ -1210,6 +1210,10 @@ Before paying, a driver should photograph the lot, any signage (or its absence),
     slug: 'predatory-eviction-defense-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'eviction-defense-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/EvictionNoticeBigAppleDeli.jpg?width=1200',
+    coverImageCredit: 'Photo: Infrogmation of New Orleans (CC BY-SA 2.5)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.calbar.ca.gov/legal-services-fraud-alert-renters',
     body: `A tenant who has just been served eviction papers, or who is only beginning to fall behind on rent, gets a letter, text, or phone call from a "law firm" offering to fight the case for them — often before the tenant has had a chance to find a lawyer on their own. The pitch is calibrated to the moment: guaranteed delays, a promise the case can be beaten, and a request to sign up immediately, usually for a recurring monthly fee rather than a flat, itemized cost for specific legal work. What the tenant frequently can't tell from the letter alone is whether a real, licensed attorney is behind it at all, or how the firm even knew they were facing eviction in the first place — the answer is usually that eviction filings are public court records, and some operations mine those filings specifically to identify and solicit people at the exact moment they're most frightened about losing their home.
 
@@ -4970,6 +4974,10 @@ GuidesNS.push({
     title: 'PayPal Invoice and Money Request Scams: When a Bill From a Real Company Is Actually From a Scammer',
     slug: 'paypal-invoice-money-request-scam-guide',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/PayPal_San_Jose_Headquarters.jpg?width=1200',
+    coverImageCredit: 'Photo: Sagar Savla (CC BY-SA 3.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     tags: ['guide', 'paypal-invoice-scam'],
     sourceUrl: 'https://www.attorneygeneral.gov/taking-action/attorney-general-sunday-warns-consumers-to-be-aware-of-trending-paypal-scam/',
     body: `A message lands in an inbox that looks unmistakably like PayPal: the real logo, the real formatting, and — unlike almost every other phishing email — a sender address that actually is service@paypal.com. It's an invoice or a "money request" for a few hundred dollars, often described as a purchase of electronics, cryptocurrency, or an antivirus renewal the recipient never made, with a note attached warning that the charge will be processed automatically unless the recipient calls a toll-free number "to dispute it." The email is genuine because it really was sent by PayPal's own servers — the scammer didn't spoof anything. They simply opened a free PayPal Business account, used PayPal's own built-in "Send Invoice" or "Request Money" tool to bill a stranger's email address, and let PayPal deliver the message, sometimes posting the pending request directly inside the recipient's actual PayPal account.
