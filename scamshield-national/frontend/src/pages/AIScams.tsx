@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { useCategories, useInfiniteScams } from '../hooks/useScams';
+import { useCategories, useInfiniteScams, useScamSearch } from '../hooks/useScams';
 import { ScamCard } from '../components/ScamCard';
 import { useDocumentMeta } from '../hooks/useDocumentMeta';
 import { timeAgo } from '../utils/timeAgo';
@@ -35,6 +35,15 @@ export default function AIScams() {
 
   const scams = data?.pages.flat() ?? [];
   const mostRecent = scams[0];
+
+  // Someone typing a real description of what happened into this box
+  // doesn't know or care that it's scoped to the AI category — they just
+  // want an answer. Rather than dead-ending on "no AI-enabled scams match
+  // that search" when the real match just isn't an AI scam, fall back to
+  // the same full-database search "Check This Now" uses once the
+  // in-category search comes up empty for a non-trivial query.
+  const noInCategoryMatch = !isLoading && scams.length === 0 && search.trim().length > 2;
+  const { data: fallbackResults, isFetching: isFetchingFallback } = useScamSearch(noInCategoryMatch ? search : '');
 
   return (
     <div className="max-w-5xl mx-auto px-4 py-10">
@@ -76,8 +85,8 @@ export default function AIScams() {
         <input
           value={search}
           onChange={(e) => setSearch(e.target.value)}
-          placeholder="Search AI-enabled scams…"
-          className="w-full sm:w-96 rounded-md border border-slate-300 px-3 py-2 text-sm"
+          placeholder="Search, or ask a real question — e.g. a call about a debt you don't recognize…"
+          className="w-full max-w-2xl rounded-md border border-slate-300 px-3 py-2 text-sm"
         />
       </div>
 
@@ -87,10 +96,36 @@ export default function AIScams() {
           <ScamCard key={scam.id} scam={scam} />
         ))}
       </div>
-      {!isLoading && scams.length === 0 && (
-        <p className="mt-6 text-slate-500">
-          {search ? 'No AI-enabled scams match that search.' : 'No AI-enabled scams documented yet.'}
-        </p>
+      {!isLoading && scams.length === 0 && !search && <p className="mt-6 text-slate-500">No AI-enabled scams documented yet.</p>}
+
+      {noInCategoryMatch && (
+        <div className="mt-6">
+          {isFetchingFallback && <p className="text-slate-500">Checking the full database…</p>}
+          {!isFetchingFallback && fallbackResults && fallbackResults.length > 0 && (
+            <>
+              <p className="text-sm text-slate-600 mb-4">
+                Nothing in AI-enabled scams matches that — but this isn't an AI scam site, it's a scam site. Here's
+                what we found in the full database:
+              </p>
+              <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+                {fallbackResults.slice(0, 6).map((scam) => (
+                  <ScamCard key={scam.id} scam={scam} />
+                ))}
+              </div>
+            </>
+          )}
+          {!isFetchingFallback && fallbackResults && fallbackResults.length === 0 && (
+            <div>
+              <p className="text-slate-500">Nothing in the database matches that closely yet.</p>
+              <Link
+                to={`/report?description=${encodeURIComponent(search.slice(0, 500))}`}
+                className="mt-3 inline-block px-4 py-2 rounded-md border border-slate-300 text-slate-700 font-medium hover:bg-slate-50"
+              >
+                Tell us what happened →
+              </Link>
+            </div>
+          )}
+        </div>
       )}
 
       {hasNextPage && (
