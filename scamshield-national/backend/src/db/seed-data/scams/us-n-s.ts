@@ -8743,3 +8743,19 @@ Rhode Islanders who receive one of these texts should not click the link or repl
     country: 'US',
     state: 'RI',
 });
+
+UsNS.push({
+    name: 'Saipan Birth Certificate Identity Theft and Bank Account Fraud (Brian G. Lizama)',
+    slug: 'northern-mariana-islands-lizama-birth-certificate-identity-theft',
+    description: `In December 2019, Saipan resident Brian Galang Lizama obtained a copy of his own brother's birth certificate from the Commonwealth Healthcare Corporation and used it to fraudulently obtain a government identification card in his brother's name from the Saipan Mayor's Office. Lizama then used that fraudulent ID to withdraw $30,850 from his brother's Bank of Guam savings account, a theft that was only discovered when the victim checked his own account balance by phone and found the money gone. Lizama was convicted of aggravated identity theft in the U.S. District Court for the Northern Mariana Islands and sentenced on February 25, 2021 to 24 months in prison, one year of supervised release, 50 hours of community service, and $30,850 in restitution.
+
+The case is a reminder that a birth certificate obtained from a legitimate government office — even one belonging to a family member — can be enough to build a fraudulent government ID and drain a real bank account, without the victim ever suspecting anything until they check their own balance. CNMI residents who notice an unexplained shortfall in a bank account, or discover a government ID was issued in their name without their knowledge, should report it immediately to their bank and to the FBI rather than assume it was a simple error, since identity documents obtained from a family member's own vital-records request can be just as damaging as ones stolen from a stranger.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'medium',
+    sources: ['Saipan Tribune', 'U.S. Attorney\'s Office, Districts of Guam and the NMI'],
+    sourceUrl: 'https://www.saipantribune.com/index.php/lizama-sentenced-to-2-years-in-prison-for-identity-theft/',
+    country: 'US',
+    state: 'MP',
+    isHistorical: true,
+    firstRecorded: '2019-12-01',
+});
