@@ -9533,3 +9533,29 @@ The case is a reminder that a federal child-nutrition benefit program can be qui
     isHistorical: true,
     firstRecorded: '1999-01-01',
 });
+
+UsAF.push({
+    name: "Fake Alaska Gold Quartz and Nugget Jewelry Sold to Cruise Visitors in Southeast Alaska",
+    slug: "fake-alaska-gold-quartz-nugget-jewelry-southeast-alaska",
+    description:
+      "Jewelry stores in Southeast Alaska's cruise-port corridor have been caught selling imitation or manufactured material to visitors and residents as genuine Alaska gold quartz and gold nuggets, a premium-priced local souvenir stone. Because tourists cannot test the material and often leave the state within hours, the deception is rarely discovered until long after the sale. The Alaska Department of Law's Consumer Protection Unit ran this as a multi-target enforcement sweep, settling on June 2, 2026 with Miner's Gems over fake gold quartz and on June 16, 2026 with Jai Mahtani, owner of the Ketchikan store 'Gold Rush,' over misrepresentations made to an undercover state investigator during a documented purchase. Before buying gold quartz or nugget jewelry in Alaska, ask for a written description of the material and a receipt stating it is natural Alaska gold quartz, pay by credit card so you can dispute the charge, and have the piece appraised independently when you get home. Report suspected misrepresentation to the Alaska Department of Law Consumer Protection Unit.",
+    categorySlug: "online-shopping-scams",
+    alertLevel: "medium",
+    sources: ["Alaska Department of Law, Consumer Protection Unit — consumer protection headlines archive (settlements dated 06/02/26 and 06/16/26)","Acting Attorney General Cori Mills"],
+    sourceUrl: "https://law.alaska.gov/department/civil/consumer/cp-headlines-archive.html",
+    country: "US",
+    state: "AK",
+});
+
+UsAF.push({
+    name: "Email Account Takeover and Owner Impersonation Draining a North Pole, Alaska Business Bank Account",
+    slug: "email-account-takeover-owner-impersonation-north-pole-business",
+    description:
+      "Two Chicago residents allegedly broke into the email accounts of a North Pole, Alaska restaurant and its owner, then mined those inboxes for the owner's banking and identification details. Using that information, they impersonated the owner to the bank and redirected roughly $128,246 out of the business account between August 4 and August 9, 2022, sending it to an account they had opened under a false identity. They then converted the money by purchasing more than $41,000 in money orders from the fraudulent account over several days in Chicago. A federal grand jury in the District of Alaska indicted Jacob Centeno, 39, and Amber Davila, 35; the charges are allegations, and a later Justice Department release in the same index refers to Chicago residents sentenced for stealing over $100,000 from a North Pole business. Business owners should turn on multi-factor authentication for all company and personal email, set up bank alerts for wire transfers and account-detail changes, verify any banking change by calling a known bank number, and report suspected account takeover immediately to the bank and the FBI's IC3.",
+    categorySlug: "business-email-compromise",
+    alertLevel: "high",
+    sources: ["U.S. Attorney's Office, District of Alaska — press release: Chicago man, woman charged in fraud scheme targeting North Pole business","Federal grand jury indictment, District of Alaska"],
+    sourceUrl: "https://www.justice.gov/usao-ak/pr/chicago-man-woman-charged-fraud-scheme-targeting-north-pole-business",
+    country: "US",
+    state: "AK",
+});
