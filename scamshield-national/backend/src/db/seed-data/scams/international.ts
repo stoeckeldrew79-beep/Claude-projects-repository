@@ -21153,3 +21153,15 @@ Unlike Madagascar's better-documented pattern of Malagasy youth being trafficked
   isHistorical: false,
   firstRecorded: '2026-09-09',
 });
+
+International.push({
+    name: "Tonga Police Warning: \"Anthony Heich\" Facebook Romance Scam Using Forged Documents",
+    slug: "anthony-heich-facebook-romance-scam-forged-documents",
+    description:
+      "Tonga Police have publicised a romance fraud in which a fake Facebook account using the name \"Anthony Heich\" sends unsolicited friend requests to Tongan users. The scammer chats continuously for around six weeks to convince the target they are in a genuine romantic relationship, then asks for money and backs the request up with fabricated paperwork. Police released images of some of the forged documents so the public can recognise the style of forgery being used. Their advice is to learn how to spot fake emails and websites, never post personal documents online where they can fuel identity theft, and treat any too-good-to-be-true offer as hostile. If someone you have only met online asks you for money, talk to a trusted person first and report the account to the Tonga Police before sending anything.",
+    categorySlug: "romance-scams",
+    alertLevel: "high",
+    sources: ["Tonga Police (Media & Public Relations Office)","Government of Tonga, Prime Minister's Office website"],
+    sourceUrl: "http://pmo.gov.to/latest-online-scam-reported-to-police/",
+    country: "TO",
+});
