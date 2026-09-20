@@ -9321,6 +9321,48 @@ UsAF.push({
 });
 
 UsAF.push({
+    name: "Alabama Securities Commission \"Gold Bar\" Government-Impersonation Scam",
+    slug: "alabama-gold-bar-government-impersonation-scam",
+    description:
+      "On August 20, 2025, the Alabama Securities Commission (ASC) warned Alabama residents about the rapidly spreading \"Gold Bar\" scam, in which a caller, texter, or emailer impersonates a government official — often claiming to be with a treasury department — and convinces the victim that their bank accounts have been compromised or flagged for illegal activity and must be emptied immediately, with the funds converted into physical gold bars \"to protect their nest egg\" because their financial institution can no longer be trusted; once the victim agrees, the fraudster either shows up at the victim's front door or arranges a nearby meetup to collect the gold in person, sometimes using recruited \"money mule\" couriers who believe they've taken a legitimate driving job. \"It is disgusting that these criminals are using fear and a false sense of urgency to pressure victims into making devastating financial decisions. Even more horrifying is the reality that they are in our communities and facilitating these crimes in person,\" said ASC Director Amanda Senn, whose office stresses that no genuine government official will ever demand payment in gold, cryptocurrency, or gift cards, give out a \"top-secret password\" to authorize a handoff, or instruct someone to convert savings to gold for safekeeping — anyone contacted this way should hang up, look up the agency's real number independently, and never let a stranger direct them to withdraw or convert their savings.",
+    categorySlug: "government-impersonation",
+    alertLevel: "critical",
+    sources: ["Alabama Securities Commission"],
+    sourceUrl: "https://asc.alabama.gov/19321/beware-of-the-gold-bar-scam/",
+    country: "US",
+    state: "AL",
+    firstRecorded: "2025-08-20",
+});
+
+UsAF.push({
+    name: "Alabama \"Pig Butchering\" Dating-App Crypto Investment Fraud",
+    slug: "alabama-pig-butchering-dating-app-crypto-fraud",
+    description:
+      "On June 13, 2025, the Alabama Securities Commission announced it had filed complaints to seize over $125,000 in cryptocurrency on behalf of two Alabama \"pig butchering\" victims — a Baldwin County resident who met a man on Bumble claiming to be a crypto expert and lost roughly $185,000 after being told her purchases had \"appreciated\" to over $443,000 before a fake \"tax bill\" blocked her withdrawal, and an Etowah County resident who met a suspect through a WhatsApp ad and was steered into a fraudulent trading platform falsely claiming ties to Charles Schwab and SEC registration, investing $395,310 before Wells Fargo Advisors flagged the suspicious withdrawal attempt and alerted the ASC; the agency recovered a portion of each victim's funds, but most of the money was already gone. \"The ASC continues to see an increase in cryptocurrency fraud, including 'Pig Butchering.' ... Crypto assets are particularly challenging to recover as most often the cryptocurrency is either immediately transferred to numerous different wallet addresses, 'swapped' for different cryptocurrencies and redistributed to different blockchains, and/or ultimately transferred to an overseas exchange and converted to fiat currency,\" said ASC Director Amanda Senn. Anyone who meets someone through a dating or messaging app who later offers to teach them cryptocurrency trading, especially on a platform that shows steadily rising fake balances, should treat that pivot as the warning sign and report any request to send more money to \"unlock a withdrawal\" or pay a \"tax\" to the ASC immediately, since the longer a victim waits to report, the less likely any recovery becomes.",
+    categorySlug: "romance-scams",
+    alertLevel: "high",
+    sources: ["Alabama Securities Commission"],
+    sourceUrl: "https://asc.alabama.gov/wp-content/uploads/2025/06/6-13-2025Alabama-Pig-Butchering-Victims.pdf",
+    country: "US",
+    state: "AL",
+    firstRecorded: "2025-06-13",
+});
+
+UsAF.push({
+    name: "Fake QR Code Sticker Parking Meter Scam (Birmingham/Mobile)",
+    slug: "alabama-fake-qr-code-parking-meter-scam",
+    description:
+      "WBRC reported on May 30, 2025 that scammers have been placing counterfeit QR code stickers directly over the legitimate payment codes on parking signs and meters in Birmingham and Mobile, a pattern the Better Business Bureau says has been \"ramping up\" for roughly a year and a half; a driver who scans the fake sticker to pay for parking is instead routed to a cloned payment page that harvests their card information or charges them without ever crediting the real parking vendor. \"You wouldn't even recognize the scammer putting the sticker over that QR code,\" BBB's Carl Bates said, since the fraudulent sticker is sized and printed to match the original exactly. Drivers should run a hand over a parking QR code to check for a sticker that can be peeled up, use their phone's camera to preview the destination web address before tapping through, verify the URL matches the actual city or parking-vendor domain, pay through the official municipal parking app instead of a scanned code when possible, and use a credit card rather than a debit card so a fraudulent charge can be disputed.",
+    categorySlug: "qr-code-scams",
+    alertLevel: "medium",
+    sources: ["WBRC (Birmingham)", "Better Business Bureau"],
+    sourceUrl: "https://www.wbrc.com/2025/05/31/scammers-using-fake-qr-codes-steal-people-paying-parking/",
+    country: "US",
+    state: "AL",
+    firstRecorded: "2025-05-30",
+});
+
+UsAF.push({
     name: 'CFPB Employee Impersonation Class-Action Payout Scam',
     slug: 'cfpb-employee-impersonation-class-action-payout-scam',
     description: `The Consumer Financial Protection Bureau has confirmed that fraudsters are impersonating its own employees — using the real names of actual CFPB staff — to contact people by phone and video call and tell them they are owed money from a class-action lawsuit or other settlement, then instruct the victim to first pay taxes or a processing fee before the funds can be released, and in some cases send follow-up messages from email addresses styled to resemble a legitimate .gov domain. The Bureau says older adults have been defrauded of thousands of dollars this way, and that the tactic sometimes escalates to a threat that the CFPB will open an investigation against the recipient if they do not send payment. The CFPB states flatly that it "will never require you to pay money to receive money" and will never ask for additional personal information before a legitimate refund check can be cashed; anyone contacted this way should hang up, avoid clicking any link or replying to the message, and instead call the CFPB's own consumer call center directly at (855) 411-2372, Monday through Friday from 8 a.m. to 8 p.m. ET, to verify whether the outreach was genuine.`,
