@@ -9469,3 +9469,83 @@ The case is a reminder that a federal child-nutrition benefit program can be qui
     isHistorical: true,
     firstRecorded: '1999-01-01',
 });
+
+UsAF.push({
+    name: 'Afognak Native Corporation Business Email Compromise Wire Fraud',
+    slug: 'alaska-afognak-native-corporation-bec-wire-fraud',
+    description: `In April 2015, criminals created a fake email account, based in Europe, that spoofed the address of Afognak Native Corporation CEO Greg Hambright. Using that spoofed email, paired with a follow-up phone call from someone posing as an attorney, the fraudsters convinced a controller at Afognak subsidiary Alutiiq LLC to wire $3.8 million as an "urgent," confidential transaction to a bank account in Hong Kong that turned out to belong to a fictitious third-party company. Afognak Native Corporation is one of the ANCSA-created Alaska Native village corporations, a corporate structure unique to Alaska that manages land and resources on behalf of roughly 900 Afognak shareholders — the fraud targeted the very financial controls those corporations rely on to manage funds held for their shareholder communities. The company discovered the fraudulent transfer two days later, froze the foreign account, and contacted the FBI; by May 2016, Afognak had recovered $2.56 million of the $3.8 million loss.
+
+The case shows how a spoofed executive email, reinforced by a single follow-up phone call from a fake attorney, can be enough to move millions of dollars through a legitimate-seeming but entirely fictitious foreign account — and how quickly that money can become unrecoverable once it crosses into a jurisdiction like Hong Kong, even with a fast FBI response. Companies handling large wire transfers, especially unusual or "urgent confidential" ones, should verify any request by phone using a number already on file — never one provided in the email itself — before sending funds, and should treat pressure to keep a large transaction secret from usual approval channels as a red flag on its own.`,
+    categorySlug: 'business-email-compromise',
+    alertLevel: 'medium',
+    sources: ['Alaska Public Media'],
+    sourceUrl: 'https://alaskapublic.org/news/2015-05-08/afognak-native-corp-gets-cyber-swindled',
+    country: 'US',
+    state: 'AK',
+    isHistorical: true,
+    firstRecorded: '2015-04-01',
+});
+
+UsAF.push({
+    name: 'Anchorage and Ketchikan Cruise Shore-Excursion Tour Booking Scam',
+    slug: 'alaska-cruise-shore-excursion-tour-booking-scam',
+    description: `The Better Business Bureau opened investigations into two Alaska tour operators, Anchorage Downtown Tour Group and Ketchikan Taxi Cab Tours, after a pattern of complaints that paid tours were cancelled at the last minute with no refund or explanation; both companies' state business registrations had expired as of December 31, 2024. In one documented case, a Florida tourist paid over $400 for a four-person tour through Anchorage Downtown Tour Group, never received the promised pre-tour callback with pickup details, and found every phone number and email address on her confirmation materials disconnected or undeliverable when she tried to follow up — the company's last known Anchorage address was by then being converted into a law office. Neither company responded to BBB inquiries, and the BBB posted investigation alerts on both business profiles.
+
+The case targets a specific and predictable population: cruise-ship day-tourists in Alaska's Inside Passage port towns, who typically book a shore excursion weeks in advance, have no local knowledge to verify a company's legitimacy, and are only in port for a few hours with no time to chase down a refund if something goes wrong. Cruise passengers booking a shore excursion directly with a local operator, rather than through the cruise line itself, should verify the company's business registration is current with the state, get a confirmation with a working phone number they call back before the trip to confirm pickup details, and pay by credit card rather than a method with no dispute protection, since a chargeback may be the only realistic way to recover money from a tour that never happens.`,
+    categorySlug: 'travel-vacation-scams',
+    alertLevel: 'medium',
+    sources: ['Better Business Bureau', 'KTVA/Your Alaska Link'],
+    sourceUrl: 'https://www.youralaskalink.com/news/local/bbb-warns-tourists-of-scams-as-investigations-target-two-alaska-tour-companies/article_5b34cf31-94c9-4075-b630-9ae3b2c0bf92.html',
+    country: 'US',
+    state: 'AK',
+    isHistorical: false,
+    firstRecorded: '2024-12-01',
+});
+
+UsAF.push({
+    name: 'Tolland Contractor\'s Forged-Document Home Improvement Fraud (Rick Labelle)',
+    slug: 'connecticut-tolland-labelle-contractor-forged-receipts-fraud',
+    description: `Rick Labelle, 37, of Tolland, the owner of Abel Construction and Remodeling LLC, was arrested January 23, 2025 and charged with first-degree larceny and four counts of third-degree forgery after a West Hartford homeowner paid him more than $100,000 for a home improvement project that was never completed. Connecticut Department of Consumer Protection records showed Labelle's contractor license had already been revoked before the homeowner hired him, and police allege he altered documents and provided the homeowner with fake receipts to conceal that the promised work was never actually being done.
+
+The case shows how a revoked contractor license doesn't stop a contractor from taking a homeowner's money — nothing about an unlicensed or revoked contractor prevents them from continuing to advertise and collect large upfront payments unless a homeowner independently checks their status first. Before hiring any contractor for a project of this size, Connecticut homeowners can verify a license is current and in good standing through the Department of Consumer Protection's own license lookup, and should be wary of any contractor who provides receipts or paperwork that can't be independently verified with the materials supplier or subcontractor named on them.`,
+    categorySlug: 'home-improvement-solar',
+    alertLevel: 'medium',
+    sources: ['WFSB'],
+    sourceUrl: 'https://www.wfsb.com/2025/01/24/business-owner-arrested-allegedly-conducting-home-improvement-scam/',
+    country: 'US',
+    state: 'CT',
+    isHistorical: false,
+    firstRecorded: '2025-01-23',
+});
+
+UsAF.push({
+    name: 'Manchester Maine Coon Kitten Escalating-Fee Pet Scam',
+    slug: 'connecticut-manchester-maine-coon-kitten-pet-scam',
+    description: `A Manchester, Connecticut woman lost $42,000 to an online pet scam after trying to buy a Maine Coon kitten through permainecoonkittens.com, a site registered in Oklahoma. After she paid the initial purchase price, the scammer demanded a string of escalating fees — a $1,600 "special crate" fee, a $2,000 health certificate fee, and a $3,000 "cargo fee" that kept increasing further still — and instructed her to open a separate bank account and file fake IRS paperwork, threatening fines for "abandoning" the animal if she stopped paying. The Better Business Bureau documented the case as part of roughly 80 Connecticut pet-scam reports logged since 2022, with this as the largest single loss on record in the state.
+
+The scheme works by converting a single purchase decision into an open-ended series of new, plausible-sounding fees that arrive only after the buyer is already emotionally invested and has already sent money once. Anyone buying a pet sight-unseen online should treat any fee that appears after the original purchase price — a crate fee, a health certificate fee, a "cargo" or shipping fee that keeps growing — as a sign of fraud, and should insist on a video call with the actual animal and seller, or better yet, arrange to see the pet in person before sending any payment at all.`,
+    categorySlug: 'pet-sales-scams',
+    alertLevel: 'high',
+    sources: ['Better Business Bureau', 'Greenwich Free Press'],
+    sourceUrl: 'https://greenwichfreepress.com/news/business/better-business-bureau-warns-ct-victims-are-paying-more-in-online-pet-scams-240644/',
+    country: 'US',
+    state: 'CT',
+    isHistorical: false,
+    firstRecorded: '2024-01-01',
+});
+
+UsAF.push({
+    name: 'Stamford Home-Closing Business Email Compromise ($426,000 Wire Fraud)',
+    slug: 'connecticut-stamford-closing-wire-email-compromise',
+    description: `A Stamford resident buying a home in Fairfield County was tricked on March 8, 2023 into wiring $426,000 to a fraudulent account after criminals infiltrated the email exchange between the buyer and their real estate agent and impersonated the agent with new, fraudulent wiring instructions sent right before closing. The victim and Stamford Police reported the fraud on March 10, 2023, and the FBI froze the receiving account, recovering $425,000 of the $426,000 stolen — all but $1,000 — within days, allowing the home purchase to still proceed. Police credited the fast recovery to the speed of the report; a delay of even a few more days would likely have let the funds be moved beyond reach.
+
+The case is a reminder that a home closing's largest single financial moment — the wire transfer of a down payment or full purchase price — is exactly when scammers try to insert themselves, because a buyer expects to receive wiring instructions around that time and has no independent way to verify a late change to them without picking up the phone. Anyone wiring money for a real estate closing should verbally confirm the receiving account and routing number directly with their agent or title company, using a phone number already on file rather than one included in the email with the new instructions, before sending any large wire.`,
+    categorySlug: 'business-email-compromise',
+    alertLevel: 'high',
+    sources: ['NBC Connecticut', 'Stamford Police Department'],
+    sourceUrl: 'https://www.nbcconnecticut.com/news/local/fbi-recovers-cash-after-stamford-home-buyer-was-tricked-into-wiring-426000-to-fraudulent-account-pd/2997540/',
+    country: 'US',
+    state: 'CT',
+    isHistorical: true,
+    firstRecorded: '2023-03-08',
+});
