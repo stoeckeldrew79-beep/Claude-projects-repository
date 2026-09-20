@@ -9549,3 +9549,15 @@ The case is a reminder that a home closing's largest single financial moment —
     isHistorical: true,
     firstRecorded: '2023-03-08',
 });
+
+UsAF.push({
+    name: 'Cryptocurrency Kiosk Scams Draining West Virginia Consumers',
+    slug: 'west-virginia-cryptocurrency-kiosk-scam-surge',
+    description: `West Virginians lost more than $7.6 million to cryptocurrency scams in 2024, according to FBI Internet Crime Complaint Center data cited by AARP West Virginia, and much of that money moved through the roughly 500 cryptocurrency kiosks now installed in gas stations, convenience stores, and laundromats across the state. In the typical pattern, a scammer posing as a utility company, a federal agent, a tech-support technician, or an online romantic interest convinces a victim their money is at risk and instructs them to withdraw cash, feed it into one of the machines — built to resemble an ordinary bank ATM — and scan a QR code the scammer supplies, sending the funds directly and irreversibly into the scammer's crypto wallet. Because kiosk operators are effectively unregulated in West Virginia, an AARP-commissioned poll found 42% of state voters wrongly believe the machines are already licensed by the state, and transactions can carry hidden fees with no recourse once completed. In response, the West Virginia Legislature advanced companion bills in its 2026 session — House Bill 5353, recommended by the House Finance Committee on February 26, 2026, and Senate Bill 887, recommended by the Senate Banking and Insurance Committee — that would require kiosk operators to hold a money-transmitter license, cap transaction fees at 15%, and guarantee a refund to fraud victims who report the loss within 10 days of the transaction. Anyone instructed to pay via a cryptocurrency kiosk should treat it as a near-certain scam: no legitimate government agency, utility, or business ever demands payment that way.`,
+    categorySlug: 'cryptocurrency-scams',
+    alertLevel: 'high',
+    sources: ['AARP West Virginia', 'News and Sentinel (Parkersburg, WV)'],
+    sourceUrl: 'https://www.newsandsentinel.com/news/business/2026/02/bills-regulating-cryptocurrency-kiosks-on-the-move-in-w-va-legislature/',
+    country: 'US',
+    state: 'WV',
+});
