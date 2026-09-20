@@ -8823,3 +8823,45 @@ The scheme is a reminder that even licensed professionals whose entire practice 
     isHistorical: false,
     firstRecorded: '2025-12-01',
 });
+
+UsNS.push({
+    name: 'FBI Honolulu Typhoon Yutu Disaster Relief Charity Fraud Alert',
+    slug: 'northern-mariana-islands-typhoon-yutu-disaster-fraud-alert',
+    description: `Super Typhoon Yutu, a Category 5 storm with sustained winds near 180 mph, made a direct hit on Saipan and Tinian in the Commonwealth of the Northern Mariana Islands on October 24-25, 2018, destroying thousands of homes and knocking out power across the islands for months. On October 29, 2018, the FBI's Honolulu Division — whose area of responsibility covers Hawaii, Guam, and the CNMI — issued a public warning that fraudsters use the aftermath of a major disaster to solicit fake donations and divert resources meant for real victims. FBI Honolulu Special Agent in Charge Sean L. Kaul said, "It is important during times of crisis, we remain vigilant to the numerous types of scams that divert resources from genuine recovery efforts." The alert flagged solicitations arriving by email, fake charity websites, unsolicited phone calls, mailings, and door-to-door collectors, and specifically warned residents to watch for copycat organizations using names deceptively similar to well-known, reputable charities. The FBI's guidance was to apply the same critical eye to a disaster appeal as to any other financial decision: verify a charity independently before giving, and donate directly to a known organization rather than routing money through a solicitor collecting on its behalf. The pattern recurs after every major Pacific typhoon that hits the CNMI — residents and off-island family members wanting to help Saipan, Tinian, or Rota after a storm should verify a relief organization directly rather than trusting a link, caller, or door-to-door collector claiming to represent one, and can report suspected disaster fraud to the National Center for Disaster Fraud hotline at 1-866-720-5721.`,
+    categorySlug: 'charity-scams',
+    alertLevel: 'medium',
+    sources: ['Federal Bureau of Investigation, Honolulu Division'],
+    sourceUrl: 'https://www.fbi.gov/contact-us/field-offices/honolulu/news/press-releases/fbi-warns-public-of-scams-and-fraud-in-wake-of-super-typhoon-yutu',
+    country: 'US',
+    state: 'MP',
+    isHistorical: true,
+    firstRecorded: '2018-10-29',
+});
+
+UsNS.push({
+    name: 'CNMI Pandemic Unemployment Assistance Identity Theft Fraud',
+    slug: 'northern-mariana-islands-pua-unemployment-identity-theft-fraud',
+    description: `Commonwealth of the Northern Mariana Islands Department of Labor Secretary Vicky Benavente told the Society for Human Resource Management on January 13, 2021 that as the CNMI rolled out federally funded Pandemic Unemployment Assistance (PUA) during the COVID-19 pandemic, her department's benefits payment control unit had already detected more than 18,000 fraudulent claims worth roughly $3 million in benefits that were caught and returned before being paid out. Benavente said most of the fraudulent claims were filed from outside the CNMI entirely — a pattern consistent with the identity-theft-driven unemployment fraud that hit every U.S. state and territory during the pandemic, in which criminal rings used stolen Social Security numbers and other personal information to file bogus claims in real people's names, often without the actual person ever applying for or knowing about the benefit. A CNMI resident typically discovers they were targeted only when they receive an unexpected letter, benefits determination, or IRS Form 1099-G from the CNMI Department of Labor for unemployment payments they never requested — a document that also creates a tax problem if it goes unreported as fraud. The CNMI Department of Labor advised anyone who receives an unexpected unemployment notice, benefits debit card, or 1099-G in their name to report it as suspected identity theft directly to the department's benefits payment control unit rather than assume it was a clerical error, since the underlying stolen personal information can be used again in future benefit programs if it goes unreported.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'medium',
+    sources: ['Commonwealth of the Northern Mariana Islands Department of Labor', 'The Guam Daily Post'],
+    sourceUrl: 'https://www.postguam.com/news/cnmi/cnmi-to-receive-2nd-round-of-unemployment-benefits/article_fb8b0432-5631-11eb-a6ad-8f1182a127a2.html',
+    country: 'US',
+    state: 'MP',
+    isHistorical: true,
+    firstRecorded: '2021-01-13',
+});
+
+UsNS.push({
+    name: 'First Hawaiian Bank Saipan ATM Skimming Scheme',
+    slug: 'northern-mariana-islands-first-hawaiian-bank-atm-skimming',
+    description: `Saipan residents reported finding an ATM skimming device on a First Hawaiian Bank machine at the bank's Oleai Branch on Saipan, the CNMI's most populous island, in a case first reported February 10, 2017 — the second such bout of ATM card skimming reported on the island in a short span. Customers posted photos of the device attached to the machine, and First Hawaiian Bank Vice President Susan Kam Yokoyama confirmed the bank was cooperating with an active police investigation and had reissued cards to customers whose accounts may have been compromised at the affected ATMs. FBI Honolulu media representative Michele Ernst confirmed separately that the FBI "has been in contact with the victim institution[s]" over the incident. A skimming device reads and copies a card's magnetic-stripe data — often paired with a hidden camera or fake keypad overlay to also capture the PIN — letting the thief clone the card and drain the account or run up charges without ever needing the physical card back. First Hawaiian Bank told customers they would not be held liable for unauthorized transactions and advised anyone who used an ATM on Saipan to change their PIN immediately and monitor their account statements closely for unfamiliar charges. Because the CNMI's ATM network is served by a small number of branches, a skimmer placed on a single machine can expose a large share of the island's bank customers at once — before inserting a card into any unfamiliar CNMI ATM, check the card slot and PIN pad for anything loose, added, or misaligned, and use an ATM inside a bank lobby rather than a free-standing outdoor unit when possible.`,
+    categorySlug: 'account-takeover',
+    alertLevel: 'low',
+    sources: ['The Guam Daily Post', 'Federal Bureau of Investigation, Honolulu Division'],
+    sourceUrl: 'https://www.postguam.com/news/cnmi/bank-responds-to-reports-of-skimming-devices/article_9fd85ab2-ee8f-11e6-a18e-33261cd9bad5.html',
+    country: 'US',
+    state: 'MP',
+    isHistorical: true,
+    firstRecorded: '2017-02-10',
+});
