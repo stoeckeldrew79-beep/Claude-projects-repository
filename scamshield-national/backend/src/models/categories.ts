@@ -1,7 +1,19 @@
 import { pool } from '../db/connection';
 
+// The categories table has its own scam_count column, but nothing in this
+// codebase ever writes to it — it sits at its DEFAULT 0 forever. Computed
+// live here instead, the same way states.ts already computes its own
+// per-state scam_count rather than trusting a stored counter that could
+// drift from the rows it's supposed to describe.
 export async function listCategories() {
-  const { rows } = await pool.query('SELECT * FROM categories ORDER BY name ASC');
+  const { rows } = await pool.query(`
+    SELECT c.id, c.name, c.slug, c.icon, c.description,
+           COUNT(s.id) FILTER (WHERE s.is_active = true AND s.is_historical = false)::int AS scam_count
+    FROM categories c
+    LEFT JOIN scams s ON s.category_id = c.id
+    GROUP BY c.id, c.name, c.slug, c.icon, c.description
+    ORDER BY c.name ASC
+  `);
   return rows;
 }
 

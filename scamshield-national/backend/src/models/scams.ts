@@ -193,15 +193,77 @@ export async function getScamBySlug(slug: string) {
   return { ...rows[0], locations };
 }
 
+// category_name/category_slug are joined in (rather than left for the
+// caller to look up separately) because "Check This Now" — this
+// function's only real caller — shows them directly on the result card,
+// the same way getScamBySlug already does for the detail page.
+//
+// This is tuned for a free-text description ("I got a call that sounded
+// like my grandson saying he was in jail and needed bail money"), not a
+// short keyword search:
+//
+// 1. plainto_tsquery ANDs every word together by default, so a dozen-word
+//    sentence would never match any single row. It still does the useful
+//    sanitizing work (stemming, stopword removal, safe-lexeme escaping) —
+//    its printed form just joins lexemes with '&', so swapping those for
+//    '|' turns "must match every term" into "rank by how many match."
+// 2. OR alone is too loose in the other direction: with 4,000+ scams, a
+//    totally unrelated sentence reliably shares ONE word with something
+//    ("today", "weather") purely by chance, which OR-ranking alone can't
+//    tell apart from a real match — a coincidental single-word overlap
+//    scored close to, or even above, a genuinely relevant multi-word one
+//    in testing. Requiring at least two of the query's own distinct terms
+//    to actually appear in a row (matched_terms, computed against the
+//    same lexemes) filters that out while barely constraining a query
+//    that's actually about the same scenario, which naturally shares
+//    several terms with it.
+// 3. name+description search_vector is a generated, GIN-indexed column
+//    (migration 026) rather than to_tsvector(...) computed from raw text
+//    inline — the inline version measured 10+ seconds per request against
+//    this table (recomputed per row, more than once per row, on every
+//    search), which fails "check this in 30 seconds" outright.
 export async function searchScams(query: string) {
+  const { rows: parsed } = await pool.query(`SELECT plainto_tsquery('english', $1)::text AS tsq`, [query]);
+  const lexemes = Array.from(String(parsed[0]?.tsq ?? '').matchAll(/'((?:[^'\\]|\\.)*)'/g)).map((m) => m[1]);
+  if (lexemes.length === 0) return [];
+
+  // A flat "at least 2 terms" threshold isn't enough on its own: filler
+  // words that survive plainto_tsquery's stopword list because they're not
+  // grammatical stopwords ("like", "nice", "get") are still extremely
+  // common across 4,000+ scam descriptions, so a totally unrelated
+  // sentence can rack up 2 coincidental matches just as easily as a real
+  // one — confirmed empirically ("the weather is nice today and I like
+  // pizza" hit 2 terms — "weather" and "like" — against an unrelated
+  // utility-scam entry). A real multi-word description of what happened
+  // matches a real minimum on its lexemes (13 lexemes, 9 matched for a
+  // genuine voice-cloning report tested against this database), so
+  // requiring a healthy fraction of a longer query's terms filters
+  // coincidence out without asking a short, deliberate query (2-3 words,
+  // where the site's own search box behavior is the right expectation) for
+  // anything more than all of them.
+  const minMatchedTerms =
+    lexemes.length <= 3 ? lexemes.length : Math.max(3, Math.ceil(lexemes.length * 0.45));
+
   const { rows } = await pool.query(
-    `SELECT * FROM scams
-     WHERE is_active = true
-       AND (to_tsvector('english', name) @@ plainto_tsquery('english', $1)
-            OR description ILIKE '%' || $1 || '%')
-     ORDER BY ts_rank(to_tsvector('english', name), plainto_tsquery('english', $1)) DESC
+    `WITH q AS (
+       SELECT to_tsquery('english', replace(plainto_tsquery('english', $1)::text, ' & ', ' | ')) AS tsq
+     ),
+     scored AS (
+       SELECT s.*, c.name AS category_name, c.slug AS category_slug,
+              ts_rank(s.search_vector, q.tsq) AS rank,
+              (SELECT count(*) FROM unnest($2::text[]) term
+               WHERE s.search_vector @@ to_tsquery('english', term)) AS matched_terms
+       FROM scams s
+       CROSS JOIN q
+       LEFT JOIN categories c ON c.id = s.category_id
+       WHERE s.is_active = true
+         AND (s.search_vector @@ q.tsq OR s.description ILIKE '%' || $1 || '%')
+     )
+     SELECT * FROM scored
+     WHERE matched_terms >= $3
+     ORDER BY matched_terms DESC, rank DESC
      LIMIT 50`,
-    [query]
+    [query, lexemes, minMatchedTerms]
   );
   return rows;
 }
