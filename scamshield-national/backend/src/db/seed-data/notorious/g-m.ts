@@ -10536,3 +10536,18 @@ Bershad pleaded guilty in July 2007 and forfeited $7.75 million; Schulman pleade
 Milberg Weiss is a reminder that the legal system built to hold corporations accountable to their own shareholders is not immune to being gamed from the inside: a fabricated "independent" plaintiff, willing to sign whatever a law firm put in front of them for a hidden cut of the winnings, corrupted the exact safeguard — an unconflicted class representative — meant to guarantee that class-action lawsuits served the class rather than the lawyers filing them. And it shows how fragile that kind of long-running fraud can be once one participant's entirely unrelated crime gives prosecutors a reason to start asking questions.`,
     sourceUrl: 'https://www.justice.gov/archive/usao/cac/Pressroom/pr2008/075.html',
 });
+
+NotoriousGM.push({
+    title: 'Peter Gardener, Rod Mitchell, and the LeisureNet Collapse That Became South Africa\'s Biggest Corporate Fraud',
+    slug: 'peter-gardener-rod-mitchell-leisurenet-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical', 'South Africa', 'corporate fraud'],
+    body: `Peter Gardener and Rodney "Rod" Mitchell built LeisureNet into one of South Africa's largest listed companies through its Health & Racquet Club chain, then pushed into an ambitious international expansion that included acquiring gym-building operations in Germany. By the late 1990s, LeisureNet was a darling of the Johannesburg Stock Exchange, and its founders had reputations as savvy operators who had turned a domestic fitness chain into a multinational leisure group.
+
+The fraud at the heart of the case was self-dealing, not a Ponzi scheme. In 1996, Gardener and Mitchell each secretly acquired a 20 percent stake — by informal oral agreement — in Dalmore, a German gym-building operation run by businessman Hans Moser, in exchange for their expertise. When LeisureNet bought out Dalmore's operations in 1999 as part of its European push, the two executives each pocketed roughly R6 million in profit from interests they never disclosed to their own board, auditors, or shareholders — a direct breach of their fiduciary duties as directors of a publicly listed company.
+
+LeisureNet's overleveraged international expansion collapsed in 2000, and South Africa's Western Cape High Court later described the failure as the largest corporate collapse in the country's history at the time, wiping out value for thousands of shareholders, members, and employees. The undisclosed Dalmore stakes surfaced during the ensuing investigation into the collapse. In February 2007, the Cape High Court convicted Gardener and Mitchell of fraud totaling R12 million tied to the concealed shareholding, each receiving a 12-year sentence with the bulk suspended. Prosecutors appealed the leniency, and in March 2011 South Africa's Supreme Court of Appeal ruled there was no justification for suspending the sentences, ordering both men to serve seven years' actual imprisonment; they reported to Pollsmoor Prison on April 1, 2011.
+
+The case is a clean example of directors defrauding their own shareholders through undisclosed personal stakes in deals their own company approves — no outside investors were pitched a false product, but the company's own capital-allocation decisions were corrupted by hidden conflicts of interest. It also shows how long accountability can take: roughly eleven years separated LeisureNet's 2000 collapse from the executives' actual imprisonment in 2011, after an appellate court corrected what it saw as an unduly lenient original sentence.`,
+    sourceUrl: 'https://www.saflii.org/za/cases/ZASCA/2011/24.html',
+});
