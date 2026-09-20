@@ -9062,3 +9062,45 @@ UsGM.push({
     isHistorical: false,
     firstRecorded: "2020-06-01",
 });
+
+UsGM.push({
+    name: "Cottonwood County Organic Grain Fraud ($46 Million Wire Fraud Scheme)",
+    slug: "minnesota-cottonwood-county-organic-grain-fraud-wolf",
+    description: "James Clayton Wolf, 64, a certified organic farmer in Jeffers, Minnesota, ran a scheme from 2014 to 2020 in which he bought non-organic corn and soybeans and resold them as certified organic, using fraudulent National Organics Program paperwork while growing his own crops with prohibited chemical fertilizers and pesticides. Wolf received more than $46 million in fraudulent payments and operated without the legally required grain buyer's license; he was charged with three counts of wire fraud following a joint USDA Office of Inspector General and FBI investigation, with an initial court appearance on July 22, 2022. A second Cottonwood County farmer, Adam Clifford Olson, was later added in a superseding indictment for helping sell the mislabeled grain after Wolf's organic certification was revoked in 2020.\n\nThe case shows how an entire supply chain built on trust in a paper certification — rather than any physical inspection at the point of sale — can be exploited for years before buyers or regulators catch on, since a bag of \"certified organic\" corn looks identical to a bag of conventional corn once it leaves the farm. Grain buyers and co-ops that pay a premium for certified organic product can independently verify a seller's current certification status through the USDA's own organic integrity database rather than relying solely on paperwork the seller provides.",
+    categorySlug: "investment-fraud",
+    alertLevel: "medium",
+    sources: ["USDA Office of Inspector General", "U.S. Attorney's Office, District of Minnesota"],
+    sourceUrl: "https://www.oversight.gov/cottonwood-county-farmer-charged-46-million-organic-grain-fraud-scheme",
+    country: "US",
+    state: "MN",
+    isHistorical: true,
+    firstRecorded: "2014-01-01",
+});
+
+UsGM.push({
+    name: "Twin Cities Fake Puppy Breeder Website Network",
+    slug: "minnesota-twin-cities-fake-puppy-breeder-websites-bbb",
+    description: "The Better Business Bureau of Minnesota and North Dakota identified a wave of fraudulent pet-seller websites falsely claiming Twin Cities addresses, including sites calling themselves \"Fenando Pomeranians,\" \"Happy Husky,\" and \"Maliz French Bulldogs\" (also doing business as \"Manuh French Bulldogs\"), plus a fake Edina-based goldendoodle broker site. Victims wired deposits for puppies, then were billed additional fake fees for shipping, insurance, or special crates — one Arkansas buyer lost money to the Edina-claiming goldendoodle site, and another victim lost $1,800 attempting to adopt a French bulldog — before the seller vanished and no animal was ever delivered. The BBB documented roughly 10 confirmed victims and about 150 additional inquiries about the suspicious sites.\n\nThe scheme works because a fake breeder site borrows a real, specific-sounding Twin Cities neighborhood to sound local and trustworthy to nearby buyers, even though the operator and the money's actual destination have no connection to Minnesota at all. Anyone buying a puppy online should insist on a live video call showing the actual animal and its actual location before paying anything, verify a breeder through the American Kennel Club's own customer service line rather than the seller's website, and treat any request for extra shipping, crate, or insurance fees after the first payment as a sign of fraud.",
+    categorySlug: "pet-sales-scams",
+    alertLevel: "medium",
+    sources: ["Better Business Bureau of Minnesota and North Dakota", "MPR News"],
+    sourceUrl: "https://www.mprnews.org/story/2019/06/05/pet-purchase-scam-bbb-warns-minnesota",
+    country: "US",
+    state: "MN",
+    isHistorical: true,
+    firstRecorded: "2019-01-01",
+});
+
+UsGM.push({
+    name: "Ky Kao Overlapping-Lease Rental Scam (Twin Cities)",
+    slug: "minnesota-ky-kao-overlapping-lease-rental-scam",
+    description: "KARE 11 Investigates documented Ky Kao, a Twin Cities man with felony convictions dating back to 2004 (including check forgery, identity theft, theft of services, and theft by swindle), signing overlapping leases on the same rental house with multiple families who were unaware other tenants had also signed. Two families, Kristen Kuhn and Michelle Summers, paid a $5,300 cashier's-check deposit plus another $2,500 for an April 1 move-in, only to have \"Keith\" (Kao) cancel the lease two weeks beforehand with a string of excuses; KARE 11 documented more than $20,000 collected from at least three families, none of it refunded. After KARE 11's reporting and a St. Paul Police investigation, Ramsey County charged Kao with theft by swindle in December 2024, identifying still more victims with combined losses exceeding $26,000. KARE 11 had first exposed Kao in May 2024 for renting the same house to multiple families while another family was already living there.\n\nThe scheme works because a scammer posing as a property manager can sign a real lease and collect a real deposit on a house they don't actually control, and a prospective tenant has no easy way to confirm during a private showing whether the same unit has already been promised to someone else. Before paying any rental deposit, prospective tenants can ask the county property records or a current occupant directly who actually owns or manages the property, and should be wary of any \"property manager\" who insists on a cashier's check or wire rather than a payment method that can be disputed or traced.",
+    categorySlug: "rental-housing",
+    alertLevel: "medium",
+    sources: ["KARE 11 Investigates"],
+    sourceUrl: "https://www.kare11.com/article/news/investigations/alleged-rental-scam-leaves-families-out-thousands/89-7172d75c-72cb-4042-9182-939def27e7f6",
+    country: "US",
+    state: "MN",
+    isHistorical: false,
+    firstRecorded: "2024-05-01",
+});

@@ -21108,3 +21108,48 @@ The scheme exploits the same pressure that makes any job scam effective — a jo
   isHistorical: false,
   firstRecorded: '2024-09-06',
 });
+
+International.push({
+  name: 'Mobile Money "Fake Telecom Agent" Bonus Scam Targeting Cash-Point Operators (Madagascar)',
+  slug: 'madagascar-mobile-money-fake-agent-bonus-scam',
+  description: `Fraudsters repeatedly target MVola and Orange Money cash-point (kiosk) managers by phone, impersonating telecom staff who claim the operator has been selected for a "bonus," then send a fake SMS showing a large incoming balance and instruct the manager to return the "excess" funds or enter a code to "confirm" the transaction — after which the account is drained instantly. L'Express de Madagascar documented this recurring scheme across multiple years: in November 2022, pregnant cash-point manager Mialisoa in Antanifotsy-Ambatondrazaka lost 400,000 ariary this way, with police making arrests in Antananarivo's 67ha district and in Sabotsy-Namehana; in August 2025, cash-point manager Sandra Razafindrabe in Bongatsara lost half of a 1-million-ariary transaction and kiosk owner Tanjona lost 3.5 million ariary in a related incident in Iavoloha. Fraudsters specifically target newly opened cash points and shift tactics between in-person visits and phone calls as awareness spreads.
+
+The scheme exploits a cash-point operator's own professional habit of trusting balance notifications from their telecom provider, since a fake "bonus" SMS is designed to look identical to a routine transaction confirmation. Mobile-money agents who receive an unsolicited call claiming a bonus or excess balance requires "returning" or "confirming" should hang up and verify directly with their provider's official support line before touching their float, and should never enter a code or PIN read to them over the phone regardless of who the caller claims to be.`,
+  categorySlug: 'phishing',
+  alertLevel: 'medium',
+  sources: [`L'Express de Madagascar`],
+  sourceUrl: 'https://www.lexpress.mg/2025/08/mobile-money-des-escrocs-ciblent-les.html',
+  country: 'MG',
+  isHistorical: false,
+  firstRecorded: '2022-11-01',
+});
+
+International.push({
+  name: 'Fake "Fox Trading Invest" Facebook and WhatsApp Trading Scam (Madagascar)',
+  slug: 'madagascar-fake-trading-investment-facebook-scam',
+  description: `An organized ring ran five fake Facebook investment pages — Fox Trading Invest, Bitkap Investissement Afrique, Global Trading Investment, Word Investment, and Global Trade — promising victims 2.5 million ariary in returns within two hours of depositing 500,000 ariary via mobile money. Contacts moved from Facebook messages to WhatsApp, and once the promised payout failed to appear, victims were told an additional 200,000 ariary was needed to "accelerate" the transaction; after payment, the fraudsters withdrew all funds, destroyed their SIM cards, and cut contact before moving to new victims. Madagascar's Central Service of Reserved Affairs arrested seven suspects on January 10, 2024 — a Chadian ringleader, a Gabonese national, two Cameroonian nationals studying IT in Madagascar, and three Malagasy nationals who supplied SIM cards — after the scheme collected roughly 100 million ariary in a single week from an estimated 100 to 150 provincial victims.
+
+The case shows how a fabricated "guaranteed return within hours" pitch, spread across several differently-named Facebook pages run by the same operators, can make the scheme look like multiple independent, competing opportunities rather than one single fraud. Disposable SIM cards let the ring vanish completely the moment a payout request went unanswered, leaving victims with no way to trace who they had actually been dealing with. Anyone offered an investment promising a specific, large return within hours should treat that promise alone as disqualifying, since no legitimate trading platform can guarantee a fixed short-term profit regardless of market conditions.`,
+  categorySlug: 'investment-fraud',
+  alertLevel: 'high',
+  sources: ['moov.mg'],
+  sourceUrl: 'https://moov.mg/article/81615-escroquerie-quatre-africains-et-trois-malgaches-interpelles',
+  country: 'MG',
+  isHistorical: true,
+  firstRecorded: '2024-01-10',
+});
+
+International.push({
+  name: 'Chinese-Run Online Scam Compounds Dismantled in Madagascar',
+  slug: 'madagascar-chinese-run-online-scam-centers-dismantled',
+  description: `On September 9, 2026, the U.S. Department of Justice announced it had worked with Malagasy, Chinese, and Interpol authorities to dismantle 13 online scam centers operating inside Madagascar and run by Chinese nationals, after FBI agents and a DOJ representative traveled to Madagascar in August 2026 to investigate — a probe triggered partly by American citizens being among the centers' victims. Roughly 100 people were arrested in Madagascar as part of a global sweep of about 500 scammers, and 160 Chinese nationals, along with additional nationals from Malaysia, the Philippines, Rwanda, Kenya, and Zimbabwe, were convicted and held at Avaradrano prison before being transferred to serve sentences of two to ten years in their home countries, with the first batch of 50 Chinese detainees repatriated in the days following the announcement.
+
+Unlike Madagascar's better-documented pattern of Malagasy youth being trafficked abroad into Southeast Asian scam compounds, this case runs in the opposite direction: foreign-run fraud compounds physically based on Malagasy soil, using the country as an operating base to run romance, pig-butchering, and investment scams against victims around the world, including in the United States. The case is a reminder that a scam call, message, or dating-app romance pitch can originate from an organized criminal compound operating out of almost any country, regardless of where the scammer claims to be located — treating an unsolicited online relationship that quickly moves toward a request for money or a "guaranteed" investment as suspect, no matter how the person describes themselves, remains the most reliable defense.`,
+  categorySlug: 'romance-scams',
+  alertLevel: 'high',
+  sources: ['U.S. Department of Justice', 'AllAfrica'],
+  sourceUrl: 'https://fr.allafrica.com/stories/202609110150.html',
+  country: 'MG',
+  isHistorical: false,
+  firstRecorded: '2026-09-09',
+});
