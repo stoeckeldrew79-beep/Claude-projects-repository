@@ -8407,6 +8407,45 @@ UsNS.push({
 });
 
 UsNS.push({
+    name: 'New Hampshire Medicare Card Phishing Phone Scam',
+    slug: 'new-hampshire-medicare-card-phishing-phone-scam',
+    description: `Scammers call New Hampshire residents claiming to represent Medicare and ask whether the recipient has received a new Medicare card; anyone who says no is then pressed to confirm their Medicare number and Social Security number, information the callers can use for identity theft and fraudulent billing. New Hampshire Attorney General John Formella's office issued a consumer alert on April 5, 2024 clarifying that Medicare was not issuing new cards that year and never places unsolicited calls asking for personal information, so anyone contacted this way should hang up and call 1-800-MEDICARE directly rather than confirm any detail.`,
+    categorySlug: 'medicare-health-plans',
+    alertLevel: 'high',
+    sources: ['New Hampshire Department of Justice', 'New Hampshire Union Leader'],
+    sourceUrl: 'https://www.doj.nh.gov/news-and-media/consumer-alert-scammers-targeting-new-hampshire-residents-posing-medicare-obtain',
+    country: 'US',
+    state: 'NH',
+    firstRecorded: '2024-04-05',
+});
+
+UsNS.push({
+    name: 'New Hampshire Fake DHHS Medicaid Overpayment Check Scam',
+    slug: 'new-hampshire-fake-dhhs-medicaid-overpayment-check-scam',
+    description: `Fraudsters mail consumers a check purporting to be a New Hampshire DHHS Medicaid payment — one documented example totaled $3,300 — frequently timed to a marketplace transaction such as a Craigslist sale, then instruct the recipient to deposit the check and wire back the "overage" to the buyer before the check bounces, leaving the victim liable for the full amount. NH Attorney General John Formella and then-DHHS Commissioner Lori Shibinette jointly warned on February 11, 2022 that DHHS does not send payment checks directly to Medicaid beneficiaries, so any such check is fraudulent on its face, and consumers should never wire funds against a check that has not fully cleared their bank.`,
+    categorySlug: 'fake-check-overpayment',
+    alertLevel: 'medium',
+    sources: ['New Hampshire Department of Justice', 'New Hampshire Department of Health and Human Services'],
+    sourceUrl: 'https://www.doj.nh.gov/resources/press-releases/consumer-alert-attorney-general-and-department-health-and-human-services',
+    country: 'US',
+    state: 'NH',
+    firstRecorded: '2022-02-11',
+});
+
+UsNS.push({
+    name: 'New Hampshire Insurance Broker Impersonation Phone Scam',
+    slug: 'new-hampshire-insurance-broker-impersonation-phone-scam',
+    description: `Callers falsely claiming to represent "reputable insurance brokers" phone New Hampshire consumers out of the blue and press them with questions designed to extract Social Security numbers, financial account numbers, and other sensitive personal data under the guise of a policy review. The New Hampshire Insurance Department issued a consumer warning on December 19, 2023 urging residents never to give such information to an unsolicited caller, to ask for the caller's name, company, and a callback number, and to instead contact their own agent directly using a number they already have, reporting suspicious calls to the Department's Consumer Division at 1-800-852-3416.`,
+    categorySlug: 'insurance-fraud',
+    alertLevel: 'medium',
+    sources: ['New Hampshire Insurance Department'],
+    sourceUrl: 'https://www.insurance.nh.gov/news-and-media/new-hampshire-insurance-department-issues-warning-about-telephone-scam-targeting',
+    country: 'US',
+    state: 'NH',
+    firstRecorded: '2023-12-19',
+});
+
+UsNS.push({
     name: 'South Dakota Fraudulent Online Casino Warning',
     slug: 'south-dakota-fraudulent-online-casino-warning',
     description: `The South Dakota Commission on Gaming, part of the state Department of Revenue, issued a public warning on August 4, 2025 about a surge in fraudulent online casinos falsely claiming to be affiliated with licensed South Dakota gaming establishments in Deadwood and on tribal land. The Commission said scammers are running misleading ads and social media promotions that imitate the branding and logos of well-known Deadwood and tribal casinos, offering unrealistic bonuses or "guaranteed winnings," and directing consumers to cloned websites or fake mobile apps that often use slightly misspelled domains, such as swapping ".net" for ".com." Under South Dakota law, no online platform offering casino-style games such as slots, table games, sports wagering, or digital card games is authorized to operate in the state, so any site claiming otherwise is automatically suspect; consumers who engage with these unauthorized platforms risk losing money to rigged or nonexistent games and risk identity theft if they submit banking or Social Security information to collect "winnings." The Commission, led by Executive Secretary Mark Heltzel, urged South Dakotans to avoid gambling online altogether, to be skeptical of any offer promising risk-free or guaranteed payouts, to never share financial or Social Security information with an unverified platform, and to scrutinize a site's web address carefully before entering any information, reporting suspicious sites to the Commission at DORSDGaming@state.sd.us or (605) 578-3074.`,
