@@ -9639,3 +9639,16 @@ The case is a reminder that a home closing's largest single financial moment —
     isHistorical: true,
     firstRecorded: '2023-03-08',
 });
+
+UsAF.push({
+    name: "Colorado Bureau of Investigation Agent Impersonation Phone Scam",
+    slug: "colorado-bureau-of-investigation-agent-impersonation-phone-scam",
+    description:
+      "Callers claim to be agents of the Colorado Bureau of Investigation and pressure Colorado residents into making payments or handing over personal and financial information. The CBI issued a public alert in August 2025 because scammers were using the Bureau's own identity to sound credible. The CBI has stated that it does not call people to solicit payments or personal financial details, so any such call is fraudulent regardless of what the caller ID shows. If you get a call like this, hang up without paying or sharing information, and contact the CBI or your local law enforcement agency directly using a number you look up yourself.",
+    categorySlug: "government-impersonation",
+    alertLevel: "high",
+    sources: ["Colorado Bureau of Investigation (Colorado Department of Public Safety), alert issued August 2025","KKTV news coverage, Aug. 19-20, 2025","Colorado Springs Gazette, Aug. 19-20, 2025"],
+    sourceUrl: "https://cbi.colorado.gov/news-article/phone-scam-alert-involving-impersonation-of-cbi",
+    country: "US",
+    state: "CO",
+});
