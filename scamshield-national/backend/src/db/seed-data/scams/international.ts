@@ -21078,3 +21078,33 @@ The case is a reminder that a fabricated exam-paper scheme preys on exactly the 
   isHistorical: true,
   firstRecorded: '2019-06-13',
 });
+
+International.push({
+  name: 'Grenada Debit and Credit Card Fraud and Skimming Scheme',
+  slug: 'grenada-debit-credit-card-fraud-skimming',
+  description: `Between 2015 and 2022, Grenadians lost more than EC$100,000 to unauthorized debit and credit card use through skimming, phishing, and ATM "shoulder surfing," according to Grenada's Financial Intelligence Unit, which investigated 12 such matters overall, 6 of them in 2022 alone. In one documented case, businesswoman Dawseanne Williams lost more than EC$2,000 in September 2022 after suspect Jasmine Cyrus made unauthorized charges to her card; Cyrus appeared at St George's Magistrate's Court on October 28, 2022, agreed to repay the funds, and received a criminal record. FIU officer Keron St Clair said the reported cases likely understate the true scale of the crime, since many victims don't realize how their card details were captured in the first place.
+
+The case is a reminder that card fraud in Grenada isn't limited to online phishing — skimming devices at ATMs and points of sale, and old-fashioned "shoulder surfing" to watch a PIN being entered, remain active methods for capturing card details in person. Grenadians should cover the keypad when entering a PIN at any ATM or terminal, check for a loose or added-on card reader before inserting a card, monitor bank statements regularly for unrecognized charges, and report suspected card fraud to their bank and to the Royal Grenada Police Force promptly, since Grenada's FIU has shown it will pursue even relatively small-dollar cases through the courts.`,
+  categorySlug: 'account-takeover',
+  alertLevel: 'medium',
+  sources: ['Grenada Financial Intelligence Unit', 'Caribbean Investigative Journalism Network'],
+  sourceUrl: 'https://www.cijn.org/thousands-lost-to-debit-credit-card-fraud-in-grenada/',
+  country: 'GD',
+  isHistorical: true,
+  firstRecorded: '2015-01-01',
+});
+
+International.push({
+  name: 'Grenada CSIRT Employment and Fake Job Recruiter Advisory',
+  slug: 'grenada-csirt-employment-job-scam-advisory',
+  description: `Grenada's National Cyber Security Incident Response Team (CSIRT-Gnd), part of the Ministry of Information and Communications Technology, issued a public advisory on September 6, 2024 warning residents about employment scams in which fraudsters posing as hiring companies or recruitment agencies request upfront payments from job applicants, or demand applicants return "overpaid" wages via Western Union or MoneyGram, while also harvesting sensitive personal documents including ID cards, passports, and medical and police records. CSIRT-Gnd advised jobseekers to independently verify a recruiter's legitimacy before applying, and published a WhatsApp and Telegram contact number and email address for reporting suspected fake job offers.
+
+The scheme exploits the same pressure that makes any job scam effective — a jobseeker eager to start earning is reluctant to question a request from someone who has just offered them a position — but adds a second stage once initial trust is established: a fabricated "overpayment" that the applicant is told they must return immediately, which is really just a direct request to send the scammer money. Grenadians offered a job that requires any upfront payment, a request to return supposedly overpaid wages, or a demand for sensitive identity documents before any formal hiring process has taken place should treat all three as signs of fraud, and can verify a company's legitimacy or report a suspected scam directly to CSIRT-Gnd.`,
+  categorySlug: 'employment-scams',
+  alertLevel: 'medium',
+  sources: ['Grenada National Cyber Security Incident Response Team (CSIRT-Gnd)', 'NOW Grenada'],
+  sourceUrl: 'https://nowgrenada.com/2024/09/protection-against-employment-scams/',
+  country: 'GD',
+  isHistorical: false,
+  firstRecorded: '2024-09-06',
+});
