@@ -8996,3 +8996,27 @@ Residents who see an unfamiliar social media account claiming to represent a gov
     isHistorical: false,
     firstRecorded: '2025-05-01',
 });
+
+UsGM.push({
+    name: "Ghost Tapping Contactless Payment Fraud",
+    slug: "ghost-tapping-contactless-payment-fraud",
+    description:
+      "Thieves carry a concealed, portable contactless payment terminal and press it close to your tap-to-pay card in a pocket or bag, or to a phone with an active wallet, triggering a live charge on the spot. A second version involves a dishonest or impersonated vendor who taps your card or phone on a reader that charges more than the quoted price, or charges you twice. Because the payment is a properly authenticated contactless transaction, it clears normally and most people do not notice until the statement arrives. Crowded places such as festivals, transit, markets and street-vendor stalls are the usual hunting grounds. Keep cards in a shielded sleeve or wallet, watch the amount on the reader before any vendor taps your card, turn on instant transaction alerts, and report unrecognized charges to your bank right away.",
+    categorySlug: "identity-theft",
+    alertLevel: "medium",
+    sources: ["Michigan Department of Attorney General, Consumer Protection Division","https://www.michigan.gov/consumerprotection/protect-yourself/consumer-alerts/scams/beware-of-ghost-tapping-scams"],
+    sourceUrl: "https://www.michigan.gov/consumerprotection/protect-yourself/consumer-alerts/scams/beware-of-ghost-tapping-scams",
+    country: "US",
+});
+
+UsGM.push({
+    name: "Hostage Load Household Goods Moving Fraud",
+    slug: "hostage-load-household-goods-moving-fraud",
+    description:
+      "Rogue interstate movers lure customers with a low non-binding estimate quoted online, sight-unseen, often through a broker rather than the carrier that actually shows up. Once your belongings are on the truck, the price jumps sharply with new charges for weight, stairs, packing materials and shuttle fees. The company then refuses to deliver until you pay the much larger amount, usually in cash or another irreversible form, and victims facing the loss of everything they own typically pay. Federal regulators are currently targeting these operators through Operation Protect Your Move. Before booking, verify the mover's USDOT number on the FMCSA website, insist on a written in-person or virtual survey and binding estimate, avoid brokers that will not name the actual carrier, and file a complaint with FMCSA if a mover holds your goods for ransom.",
+    categorySlug: "home-improvement-solar",
+    alertLevel: "high",
+    sources: ["Federal Motor Carrier Safety Administration (FMCSA), U.S. Department of Transportation","https://www.fmcsa.dot.gov/consumer-protection/household-goods/operation-protect-your-move","https://www.fmcsa.dot.gov/newsroom/fmcsa-launches-operation-protect-your-move-nationwide-crackdown-moving-scams"],
+    sourceUrl: "https://www.fmcsa.dot.gov/consumer-protection/household-goods/operation-protect-your-move",
+    country: "US",
+});

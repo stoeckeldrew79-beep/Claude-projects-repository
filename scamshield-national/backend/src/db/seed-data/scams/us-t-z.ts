@@ -5169,3 +5169,15 @@ The case shows how a real, licensed local business's name and branding — paire
     isHistorical: false,
     firstRecorded: '2025-09-17',
 });
+
+UsTZ.push({
+    name: "Unsolicited Package QR Code Scam",
+    slug: "unsolicited-package-qr-code-scam",
+    description:
+      "A parcel you never ordered shows up at your door with no invoice and no sender information, and inside is a QR code inviting you to scan it to find out who sent the item or how to return it. Scanning loads an attacker-controlled page that harvests your login credentials and financial details, or pushes malware onto your phone. This is a harmful twist on the older brushing scam, where sellers shipped cheap junk to real addresses just to post fake verified reviews. The mystery package is the hook, because curiosity about a real delivery gets far more scans than a random text or email ever would. Never scan a QR code that arrives in an unexpected package, and report the delivery to the FBI Internet Crime Complaint Center or the U.S. Postal Inspection Service.",
+    categorySlug: "qr-code-scams",
+    alertLevel: "high",
+    sources: ["FBI Internet Crime Complaint Center (IC3) Public Service Announcement, 31 July 2025","https://www.ic3.gov/PSA/2025/PSA250731","U.S. Postal Inspection Service","https://www.uspis.gov/news/scam-article/brushing-scam"],
+    sourceUrl: "https://www.ic3.gov/PSA/2025/PSA250731",
+    country: "US",
+});
