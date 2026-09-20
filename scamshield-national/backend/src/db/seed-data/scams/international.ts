@@ -21018,3 +21018,48 @@ The scheme illustrates how a "guaranteed" study-abroad scholarship, backed by fo
   country: 'GW',
   isHistorical: false,
 });
+
+International.push({
+  name: 'Fake "National Program of Serviced Plots" Land Subscription Scam (Burkina Faso)',
+  slug: 'fake-national-serviced-plots-land-subscription-scam-burkina-faso',
+  description: `In late August 2026, Burkina Faso's Ministry of Construction (Ministère de la Construction de la Patrie) publicly warned that fraudsters were circulating fake announcements on social media for a supposed "Programme National de Parcelles Viabilisées" (National Program of Serviced Plots), using the ministry's own official logo and signature to appear legitimate. The ministry confirmed no such land-subscription program exists or had ever been launched, and said scammers were using the fake announcement to solicit payments and personal and financial information from citizens hoping to buy affordable, government-serviced land plots. The ministry publicly disclaimed any responsibility for money or data handed over through the fake scheme and urged citizens to verify any land-subscription operation through official government channels before paying anything.
+
+The scheme is a reminder that a real government ministry's logo and letterhead, reproduced convincingly on a social media post, can be enough to make a nonexistent land program feel official — especially one offering the kind of affordable, government-backed land plots that would otherwise require years on a waiting list. Anyone offered a land plot through a social media announcement claiming to be a government housing or construction program should verify the program's existence directly with the ministry named, in person or through its official published contact channels, before paying any fee or sharing identifying documents.`,
+  categorySlug: 'government-impersonation',
+  alertLevel: 'medium',
+  sources: ['Ministère de la Construction de la Patrie, Burkina Faso', 'Minute.bf'],
+  sourceUrl: 'https://www.minute.bf/fausse-operation-de-souscription-fonciere-le-ministere-de-la-construction-de-la-patrie-met-en-garde-contre-une-arnaque/',
+  country: 'BF',
+  isHistorical: false,
+  firstRecorded: '2026-08-01',
+});
+
+International.push({
+  name: 'Fake "Action Against Hunger" Charity Impersonation Scam (Burkina Faso)',
+  slug: 'fake-action-against-hunger-charity-impersonation-scam-burkina-faso',
+  description: `On March 28, 2023, the international NGO Action Contre la Faim (Action Against Hunger), which has operated in Burkina Faso since 2008, publicly denounced a fundraising scam that used its name and logo without authorization. The fraudulent operation, carried out under the name "Fondation SOS Enfants Vulnérables," solicited donations from the public by claiming the money would "support 100 vulnerable children in Burkina Faso" — a cause designed to resonate given the country's real, ongoing humanitarian displacement crisis. Action Contre la Faim's country director issued a public statement making clear the organization "ne soutient pas cette collecte de fonds" (does not support this fundraising drive) and warned the public that the campaign was an active, ongoing scam.
+
+The case shows how a genuinely respected humanitarian organization's name can be borrowed by a fake charity to solicit real donations for children who will never see any of the money — a tactic made more effective, not less, by the real humanitarian need in the country the fake charity claims to serve. Anyone asked to donate to a charity claiming affiliation with a well-known NGO should verify that affiliation directly with the NGO itself, through its official website or local office, before giving any money.`,
+  categorySlug: 'charity-scams',
+  alertLevel: 'medium',
+  sources: ['Action Contre la Faim', '24heures.bf'],
+  sourceUrl: 'https://www.24heures.bf/humanitaire-au-burkina-long-action-contre-la-faim-denonce-une-tentative-darnaque/',
+  country: 'BF',
+  isHistorical: true,
+  firstRecorded: '2023-03-28',
+});
+
+International.push({
+  name: 'Fraudulent High-Yield "Financial Placement" Pyramid Schemes (Burkina Faso)',
+  slug: 'fraudulent-financial-placement-pyramid-scheme-burkina-faso',
+  description: `On July 23, 2026, Burkina Faso's Ministry of Economy and Finance issued a nationwide public alert against unauthorized operators collecting money from the public through fake investment and "financial placement" offers promising returns exceeding 100 percent of the amount invested. The ministry described the pattern as pyramid-scheme-like: early participants are paid using money collected from new entrants rather than any real underlying investment, so the scheme is mathematically guaranteed to collapse once new recruitment slows, leaving later investors with a total loss. The ministry ordered the unnamed operators to cease immediately, threatened prosecution, and told the public to verify that any investment scheme is authorized either by the Ministry of Economy and Finance itself or by BCEAO, the regional central bank, before handing over any money, directing anyone approached with a similar offer to report it to the Directorate General of Treasury and Public Accounting.
+
+The alert illustrates a pattern regulators across West Africa's CFA franc zone see repeatedly: an offer promising a guaranteed return far beyond what any legitimate investment could sustain, sold on trust and word-of-mouth recruitment rather than any real underlying business. Before investing in any "placement" opportunity promising unusually high guaranteed returns, Burkina Faso residents can check directly with the Ministry of Economy and Finance or BCEAO whether the operator is actually authorized to collect investment funds from the public.`,
+  categorySlug: 'investment-fraud',
+  alertLevel: 'high',
+  sources: ['Ministère de l\'Économie et des Finances, Burkina Faso', 'Journal du Faso'],
+  sourceUrl: 'https://journaldufaso.com/placements-financiers-burkina-arnaques/',
+  country: 'BF',
+  isHistorical: false,
+  firstRecorded: '2026-07-23',
+});
