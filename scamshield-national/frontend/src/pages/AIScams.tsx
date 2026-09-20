@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { useCategories, useInfiniteScams, useScamSearch } from '../hooks/useScams';
 import { ScamCard } from '../components/ScamCard';
 import { useDocumentMeta } from '../hooks/useDocumentMeta';
+import { useDebounce } from '../hooks/useDebounce';
 import { timeAgo } from '../utils/timeAgo';
 
 // This is the same category the general Database page can already filter
@@ -22,6 +23,10 @@ export default function AIScams() {
   });
 
   const [search, setSearch] = useState('');
+  // Real-time-feeling without re-querying (and re-rendering the whole grid)
+  // on every keystroke: the query only actually updates 400ms after typing
+  // stops, matching the Check This Now page's own debounced search.
+  const debouncedSearch = useDebounce(search, 400);
   const { data: categories } = useCategories();
   const category = categories?.find((c) => c.slug === CATEGORY_SLUG);
 
@@ -31,7 +36,7 @@ export default function AIScams() {
     fetchNextPage,
     hasNextPage,
     isFetchingNextPage,
-  } = useInfiniteScams({ category: CATEGORY_SLUG, search: search || undefined, sort: 'newest' });
+  } = useInfiniteScams({ category: CATEGORY_SLUG, search: debouncedSearch || undefined, sort: 'newest' });
 
   const scams = data?.pages.flat() ?? [];
   const mostRecent = scams[0];
@@ -42,8 +47,8 @@ export default function AIScams() {
   // that search" when the real match just isn't an AI scam, fall back to
   // the same full-database search "Check This Now" uses once the
   // in-category search comes up empty for a non-trivial query.
-  const noInCategoryMatch = !isLoading && scams.length === 0 && search.trim().length > 2;
-  const { data: fallbackResults, isFetching: isFetchingFallback } = useScamSearch(noInCategoryMatch ? search : '');
+  const noInCategoryMatch = !isLoading && scams.length === 0 && debouncedSearch.trim().length > 2;
+  const { data: fallbackResults, isFetching: isFetchingFallback } = useScamSearch(noInCategoryMatch ? debouncedSearch : '');
 
   return (
     <div className="max-w-5xl mx-auto px-4 py-10">

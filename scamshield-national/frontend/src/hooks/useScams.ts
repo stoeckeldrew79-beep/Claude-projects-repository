@@ -1,4 +1,4 @@
-import { useInfiniteQuery, useQuery } from '@tanstack/react-query';
+import { keepPreviousData, useInfiniteQuery, useQuery } from '@tanstack/react-query';
 import {
   PAGE_SIZE,
   ScamListParams,
@@ -30,6 +30,12 @@ export function useInfiniteScams(params: Omit<ScamListParams, 'page'> = {}, enab
     initialPageParam: 1,
     getNextPageParam: (lastPage, allPages) => (lastPage.length === PAGE_SIZE ? allPages.length + 1 : undefined),
     enabled,
+    // A filter or search change swaps the query key entirely, which would
+    // otherwise clear `data` and drop back to the loading state for an
+    // instant — the grid blinking empty before the new results land. Keeping
+    // the previous page's cards on screen until the new ones arrive reads as
+    // a smooth transition instead.
+    placeholderData: keepPreviousData,
   });
 }
 
