@@ -4995,6 +4995,10 @@ GuidesNS.push({
   author: 'ScamShield Editorial',
   tags: ['guide', 'elder-fraud', 'retirement-community-scam', 'data-broker-scam', 'relocation-fraud'],
   sourceUrl: 'https://www.aarp.org/money/scams-fraud/retirement-community/',
+  coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Golfcars_in_Sunter_Landings,_The_Villages,_Florida.jpg?width=1200',
+  coverImageCredit: 'Photo: Tetraeder, Wikimedia Commons (CC BY-SA 4.0) — a street in The Villages, Florida, a large age-restricted retirement community',
+  coverImagePosition: 65,
+  // representative photo — replace with an exact match if found
   body: `Fraud researchers at Florida State University's College of Criminology have spent nearly a decade — since 2016 — studying scam activity inside one of the country's largest age-restricted retirement communities, and they've found something distinct from ordinary elder fraud: residents aren't just eventually targeted because they're older, they're targeted almost as soon as they arrive. FSU is now partnering with UC Berkeley Law to formally test whether age-restricted retirement neighborhoods function as literal geographic "hot spots" for fraud, after researchers repeatedly heard the same account from residents — that scam contact started almost immediately after moving in, and then became constant.
 
 The mechanism is different from a random cold call. A move triggers a cascade of new public records and data-broker updates — a new address, linked relatives, previous addresses, and household details all get aggregated and re-published within weeks. Data-broker and people-search sites resell exactly this kind of freshly updated profile, and researchers say criminals already know which ZIP codes and community types to target, effectively using retirement-community demographics — concentrated older residents, often with home equity and retirement savings freshly unlocked from a sale — as a target list before a single phone call is placed. Officials describe the resulting environment bluntly as "target-rich."

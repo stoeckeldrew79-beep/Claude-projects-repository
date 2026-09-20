@@ -7672,9 +7672,8 @@ The case is a useful reminder that a hospital's own cybersecurity isn't the only
     author: "ScamShield Editorial",
     tags: ["guide", "farmers-insurance-tcpa-settlement"],
     sourceUrl: "https://www.classaction.org/news/2.87m-farmers-insurance-settlement-ends-tcpa-class-action-lawsuit",
-    // representative photo — replace with an exact match if found
-    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/St_Louis_Gateway_Arch_831.jpg?width=1200",
-    coverImageCredit: "Photo: Kbh3rd, CC BY-SA 3.0, via Wikimedia Commons — the Gateway Arch in St. Louis, where the case was filed",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Farmers_Insurance_building_in_Lincoln_City,_Oregon.jpg?width=1200",
+    coverImageCredit: "Photo: Rick Obst, Wikimedia Commons (CC BY 2.0) — a Farmers Insurance office, the company named in the settlement",
     coverImagePosition: 50,
     body: `Farmers Insurance Exchange and related Farmers entities agreed to pay $2,875,000 to resolve Starling v. Farmers Insurance Exchange, et al. (Case No. 26SL-CC00138, Circuit Court of St. Louis County, Missouri), a class action accusing one of the company's independent agencies of blowing past the federal Do-Not-Call Registry. This is a separate case from the much larger 2025 Farmers Insurance data breach that exposed 1.1 million customers' driver's license and Social Security numbers — this lawsuit had nothing to do with hacked data. It was about old-fashioned unwanted sales calls and texts.
 
@@ -9165,6 +9164,10 @@ GuidesAF.push({
     author: 'ScamShield Editorial',
     tags: ['guide', 'electronics-buyback-scam'],
     sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2017/06/ftc-state-georgia-obtain-court-order-permanently-halting-electronics-buyback-scheme',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Device_pile.jpg?width=1200',
+    coverImageCredit: 'Photo: Jeremy Keith, Wikimedia Commons (CC BY 2.0) — used smartphones, tablets, and laptops',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     body: `A website promises fast cash for an old phone, laptop, or tablet: enter the model and describe its condition, and it generates a quote — often noticeably higher than what a competitor or a trade-in program would offer — along with a prepaid shipping label. The seller boxes up the device and drops it in the mail, expecting payment within a few business days. Once the company actually has the device in hand, the quote often changes: an email or text claims the device didn't match its described condition — a scratch, a battery issue, a locked account — and offers a fraction of the original price instead, sometimes as little as a tenth of what was quoted. The seller is told to accept the reduced offer within a short window or the device will be returned, though getting it back, or reaching anyone by phone once a dispute starts, often turns out to be far harder than it was to ship it in the first place.
 
 The mechanism is effective because it flips the seller's leverage the moment the box leaves their hands. A quote is easy to walk away from when the device is still sitting on a desk; it's much harder to say no to a lowball counteroffer when the alternative is trusting a company that has already shown bad faith to actually mail the device back intact. The FTC and the State of Georgia laid out exactly this pattern in a 2016 complaint against Laptop & Desktop Repair, LLC, which operated under names including CashForiPhones.com, CashForLaptops.com, eCycleBest.com, SmartphoneTraders.com, and Sell-Your-Cell.com. Regulators alleged the company lured consumers with generous buyback quotes for used smartphones, tablets, and laptops, then — once devices arrived — cut its offers to as little as 3 to 10 percent of the original amount, leaving consumers to either accept a fraction of what they were promised or try to get their device returned. A federal court in Georgia entered a default judgment in June 2017 ordering more than $42.4 million in monetary relief and permanently banning the operation from the electronics buyback business; the company's owner had already fled the United States after the case was filed, and a warrant was issued for his arrest.
