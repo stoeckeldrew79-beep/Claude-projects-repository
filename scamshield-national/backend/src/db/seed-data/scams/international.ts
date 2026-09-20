@@ -21063,3 +21063,18 @@ The alert illustrates a pattern regulators across West Africa's CFA franc zone s
   isHistorical: false,
   firstRecorded: '2026-07-23',
 });
+
+International.push({
+  name: 'Djibouti 2019 Baccalauréat Fake Exam Papers Fraud',
+  slug: 'djibouti-baccalaureat-fake-exam-papers-fraud',
+  description: `In June 2019, five teachers in Djibouti were arrested for selling fabricated, non-genuine baccalauréat exam subjects to parents and students in exchange for cash payments, with some of the teachers also demanding sexual favors from female students in return for the fake materials. Djibouti's Ministry of National Education and Professional Training (MENFOP) — whose Secretary General toured exam centers on June 9, 2019 to publicly deny rumors that a genuine exam leak had occurred — disclosed the actual fraud at a MENFOP press briefing on June 13, 2019, under authorization from the Minister of Education. The five teachers faced judicial investigation, the threat of heavy prison sentences, and permanent removal from the teaching profession.
+
+The case is a reminder that a fabricated exam-paper scheme preys on exactly the anxiety a real, high-stakes national exam creates: parents and students desperate for any edge on the baccalauréat, Djibouti's gateway credential to higher education, paid cash for papers with no real relationship to the actual exam — money and, in some cases, coerced favors extracted for nothing of any real value. Families offered supposed advance access to exam materials for any national exam, in Djibouti or elsewhere, should treat the offer itself as proof of fraud, since a genuine exam board has no legitimate channel for selling advance access to its own questions.`,
+  categorySlug: 'identity-theft',
+  alertLevel: 'medium',
+  sources: ['MENFOP (Djibouti Ministry of National Education)', 'La Nation'],
+  sourceUrl: 'https://www.lanation.dj/baccalaureat-2019-le-menfop-dejoue-une-arnaque/',
+  country: 'DJ',
+  isHistorical: true,
+  firstRecorded: '2019-06-13',
+});
