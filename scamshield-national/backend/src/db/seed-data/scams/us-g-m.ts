@@ -7649,6 +7649,38 @@ UsGM.push({
 });
 
 UsGM.push({
+    name: 'Guam Construction Company H-2B Visa Fraud and Federal Contract Concealment Scheme',
+    slug: 'guam-construction-company-h2b-visa-fraud-federal-contract',
+    description: `Byong Hee Kang, owner of Guam Construction Company (GCC), was indicted in 2015 on charges including conspiracy to commit visa fraud, visa fraud, conspiracy to defraud the United States, and 13 counts of illegal harboring, after federal investigators found he had concealed a 1998 visa-fraud conviction from the Small Business Administration in order to win a federal construction contract worth more than $20 million. Prosecutors said that between 2004 and 2010, Kang recruited H-2B guest workers from the Philippines and South Korea by misrepresenting genuinely skilled positions — engineers and architects — as lower-paid carpenter and plasterer jobs, letting GCC pay recruited workers far less than their actual qualifications would command while GCC itself profited from the federal contract those workers were performing. On March 20, 2017, Chief Judge Frances Tydingco-Gatewood sentenced GCC to five years of probation, ordered $1,875,407.12 in criminal forfeiture representing the seized proceeds of the visa fraud, and imposed a $27,000 fine; a co-defendant, Choon Hee Kang, and others were separately charged with laundering more than $1.14 million in visa-fraud proceeds.
+
+The case shows how visa fraud aimed at guest workers can be layered directly underneath a much larger fraud against the federal government itself — misrepresenting a worker's real job title let GCC underpay skilled labor while the company simultaneously misrepresented its own compliance history to win the contract those workers built. Anyone recruited for guest-worker employment on a project whose actual duties look far more skilled than the job title and pay they were offered can report the discrepancy to the U.S. Department of Labor's Wage and Hour Division or to the FBI, rather than assume a federally funded project guarantees fair treatment of the workers hired to complete it.`,
+    categorySlug: 'employment-scams',
+    alertLevel: 'medium',
+    sources: ['U.S. Attorney\'s Office, District of Guam', 'Saipan Tribune'],
+    sourceUrl: 'https://www.justice.gov/usao-gu/pr/guam-construction-company-gcc-byong-kang-president-gcc-sentenced-conspiracy-commit-visa',
+    country: 'US',
+    state: 'GU',
+    isHistorical: true,
+    firstRecorded: '2004-01-01',
+});
+
+UsGM.push({
+    name: 'Guam Regional Transit Authority Fake "Smart Pass" Facebook Scam',
+    slug: 'guam-regional-transit-authority-smart-pass-scam',
+    description: `In May 2025, an unaffiliated Facebook account calling itself "guam public transport" posted an advertisement falsely claiming the Guam Regional Transit Authority (GRTA) was offering a "smart pass" that included three free months of transportation. GRTA publicly warned residents that the ad was a scam and clarified that all official GRTA announcements are made only through its own website and verified Facebook page, not through unaffiliated accounts advertising free-sounding transit perks. As of the warning, no dollar losses or arrests tied to the fake ad had been reported, but the pattern follows a mechanism distinct from Guam's existing government-agency phishing entries: rather than requesting personal data outright, the fake account dangled a free product offer to build trust and drive engagement with an unofficial page before any request for information could follow.
+
+Residents who see an unfamiliar social media account claiming to represent a government agency and offering something that sounds free or unusually generous should verify it directly against the agency's own official website or verified account before engaging, since a convincing logo or agency name on a Facebook post is not proof the account behind it is real.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'low',
+    sources: ['Guam Regional Transit Authority', 'KUAM News'],
+    sourceUrl: 'https://www.kuam.com/story/52787748/guam-regional-transit-authority-issues-scam-warning-over-false-smart-pass-ad',
+    country: 'US',
+    state: 'GU',
+    isHistorical: false,
+    firstRecorded: '2025-05-01',
+});
+
+UsGM.push({
     name: 'Louisiana Fake Remote Job Offer Scam (BBB of South Central Louisiana)',
     slug: 'louisiana-bbb-fake-remote-job-offer-scam',
     description: `The Better Business Bureau of South Central Louisiana warned on June 30, 2025 that it was fielding a larger-than-usual wave of BBB Scam Tracker reports describing fake job offers arriving by unsolicited email and text message, many of them impersonating well-known, real employers like Target, LinkedIn, and Amazon. The offers dangle high pay for minimal work — often "simple online tasks" that need only a smartphone — and after an initial exchange steer the target off ordinary channels and onto Telegram or WhatsApp to continue the conversation, where the "employer" eventually asks for banking information to set up direct deposit or asks the applicant to send money upfront to cover training materials, equipment, or software access before any pay arrives. The BBB's advice: verify any job offer by finding the employer's official website independently rather than through a link in the message, never move a hiring conversation to an encrypted messaging app at the recruiter's request, and never pay money to get a job or to unlock earnings. "If something feels rushed, secretive, or 'too good to be true,' walk away," the bureau said in issuing the alert. Louisiana job seekers can check a suspicious offer against BBB Scam Tracker before responding and should treat any unsolicited, high-pay remote offer that arrives by text as a red flag on its own, regardless of which real company's name is attached to it.`,
