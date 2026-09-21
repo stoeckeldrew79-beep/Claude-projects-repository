@@ -10597,3 +10597,20 @@ The case moved through Indonesia's courts in stages that drew national attention
 
 The PT Timah case illustrates two things at once: how corruption inside a state-owned extractive company can generate a headline "loss" figure that dwarfs the cash anyone actually pocketed, once environmental and resource damage are priced in alongside diverted revenue, and how a sentence the public sees as inadequate for a well-connected, highly visible defendant can still be corrected on appeal when prosecutors themselves push back — a reversal that is far from guaranteed in corruption cases involving Indonesia's business elite, and one that made this prosecution as notable for its sentencing swing as for the fraud itself.`,
 });
+
+NotoriousGM.push({
+    title: "Li Hejun and the $19 Billion Hanergy Thin Film Power Collapse",
+    slug: 'li-hejun-hanergy-thin-film-power-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'international', 'securities-fraud', 'corporate-fraud'],
+    sourceUrl: 'https://www.cnbc.com/2017/09/05/hanergys-li-hejun-china-former-richest-man-banned-from-hong-kong-business.html',
+    body: `Li Hejun founded Hanergy Holding Group in the early 1990s and built it into one of China's largest privately held conglomerates, eventually spinning off Hong Kong-listed Hanergy Thin Film Power Group as his vehicle into solar energy. By 2015, Hanergy Thin Film's soaring share price had made Li, on paper, China's richest person, with a personal fortune Forbes estimated at roughly $30 billion — a valuation resting almost entirely on a stock whose trading pattern regulators would later find deeply suspect.
+
+The arrangement that inflated Hanergy Thin Film's value ran through Li's own corporate empire: the Hong Kong-listed company sold solar equipment worth roughly $8.5 billion to its unlisted parent, Hanergy Holding Group — a related party also controlled by Li — but the parent never actually paid for most of what it "bought." Booked as revenue on the listed subsidiary's accounts, the unpaid related-party sales created the appearance of a fast-growing, highly profitable solar manufacturer, propping up a share price that had climbed roughly 400% over the prior year even as outside analysts and short-sellers increasingly questioned how a company with so little independent, arms-length business could be worth so much.
+
+The fiction ended abruptly on May 20, 2015, when Hanergy Thin Film's stock crashed more than 45% in under an hour, wiping out approximately $19 billion in market value before trading was halted — a collapse so sudden that Hong Kong's Securities and Futures Commission (SFC) opened an investigation into possible market manipulation and ordered the shares to remain suspended, a halt that stretched on for roughly three years while regulators dug into the related-party sales.
+
+The SFC's civil enforcement action concluded in September 2017: rather than pursue a lengthy criminal prosecution, the regulator reached a settlement disqualifying Li Hejun from acting as a director of any Hong Kong company for eight years, citing his role overseeing the undisclosed related-party transactions that had misrepresented Hanergy Thin Film's true financial position to investors. The disqualification did not require Li to personally repay investors' losses, but it formally barred China's one-time richest man from running any Hong Kong-registered business for the better part of a decade.
+
+The Hanergy collapse illustrates how a related-party sale — nominally a legitimate transaction between two companies under common ownership — can function as a mechanism for manufacturing fictitious revenue when the buyer never actually pays: outside shareholders saw booming top-line sales figures without any way to know the "customer" was the founder's own unlisted holding company, quietly building an unpaid liability that existed only on paper until the stock price it was propping up lost nearly half its value in under an hour.`,
+});
