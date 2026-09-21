@@ -9084,3 +9084,53 @@ UsGM.push({
     isHistorical: true,
     firstRecorded: '2017-08-10',
 });
+
+UsGM.push({
+    name: 'Swiftarc Capital $35.6 Million Ponzi Scheme (Siddharth Jawahar) — Travis Kelce Named Victim',
+    slug: 'missouri-swiftarc-siddharth-jawahar-ponzi-scheme',
+    description: `Siddharth Jawahar, 38, ran a nearly decade-long investment fraud through his Texas-registered firm Swiftarc Capital LLC, soliciting money from investors — including high-profile clients — by promising diversified investment returns. Instead of investing broadly as promised, he funneled roughly 99% of the money (about $10 million actually deployed out of $35,607,984.16 collected) into a single overseas company, Philip Morris Pakistan. When that investment lost value, he concealed the losses, sent investors false statements showing strong fictitious returns, and — in the classic Ponzi structure — used incoming money from new investors to pay redemption requests from earlier ones, keeping the scheme alive for years. Jawahar used investor funds to bankroll an extravagant lifestyle: private jet flights, luxury hotel stays, a $164,000 New York apartment, a $363,280 Austin apartment, and expensive club memberships.
+
+Kansas City Chiefs tight end Travis Kelce was named in federal court as one of Jawahar's victims during the September 16, 2026 sentencing hearing in St. Louis, though prosecutors did not disclose Kelce's specific losses, citing victim-confidentiality policy. Jawahar pleaded guilty in January 2026 to three counts of wire fraud. U.S. District Judge Zachary Bluestone sentenced him to 11 years in federal prison plus supervised release and ordered $31.35 million in restitution — largely uncollectible, since most of the money is gone. Court filings also describe Jawahar attempting to manipulate the outcome by paying a political consultant roughly $10,000 to plant favorable press coverage aimed at the judge before sentencing, along with phone destruction and attempted witness intimidation.
+
+Red flags consumers should learn from this case: claims of broad "diversification" that can't be independently verified, account statements showing suspiciously steady high returns, reluctance to explain exactly which companies hold the money, difficulty getting full redemptions without delay, and a fund manager's visible high-end lifestyle that outpaces any plausible salary. Before investing with any individual fund manager, verify SEC/state securities registration, ask for independently audited financials, and be skeptical of "exclusive access" pitches — even ones that reach celebrity-adjacent social circles. Report suspected investment fraud to the SEC, FINRA, or the Missouri Secretary of State's Securities Division.`,
+    categorySlug: 'ponzi-pyramid-schemes',
+    sources: ['U.S. District Court, Eastern District of Missouri'],
+    sourceUrl: 'https://fortune.com/2026/09/16/travis-kelce-victim-fraud-ponzi-scheme-sentencing-35-million/',
+    country: 'US',
+    isHistorical: true,
+    firstRecorded: '2026-01-01',
+    state: 'MO',
+});
+
+UsGM.push({
+    name: "Kansas City Police Officer's Anti-Crime Charity Fraud (Aaron Wayne McKie)",
+    slug: 'missouri-kansas-city-police-officer-charity-fraud-mckie',
+    description: `Aaron Wayne McKie, a 24-year veteran Kansas City, Missouri police officer assigned to the department's Crime Free Multi-Housing unit, spent from July 2009 to October 2023 running a supposed anti-crime nonprofit called Mid-America Crime Free, Inc. (MACF), which claimed to provide training to landlords and promote crime-prevention programs in the rental housing industry. McKie served as MACF's president from 2009 to 2023 and used the organization's bank account as his personal account, diverting charitable donations meant for community anti-crime training into his own pocket. MACF took in more than $380,000 in donations over the life of the scheme, and prosecutors say McKie personally misappropriated at least $200,000 of it for personal expenses — this despite the fact that his actual salary as a police officer working the Crime Free program was separately paid by KCPD. The IRS had revoked the nonprofit's tax-exempt status back in 2010, years before the scheme was uncovered, meaning the "charity" donors believed they were supporting was not even a legitimate tax-exempt entity for most of its run.
+
+A federal grand jury indicted McKie in April 2024 on a 16-count indictment, later tried as 10 counts: 9 counts of wire fraud and 1 count of money laundering. A jury convicted him on all charged counts in February 2025. He faced up to 20 years in federal prison on each count.
+
+This case is a useful cautionary example because it shows that a charity scam doesn't require an anonymous stranger — it can come from a trusted, badge-carrying community figure running what looks like an official, government-adjacent nonprofit. Red flags: a charity that shares staff, branding, or office space with a public agency without being formally part of it; a nonprofit whose leadership has held the same unchecked position for over a decade with no independent board oversight; and no public, audited financial statements available on request. Before donating to any local "anti-crime" or community-safety nonprofit, verify its current tax-exempt status directly on the IRS Tax Exempt Organization Search tool, ask for its most recent Form 990, and be wary of any charity whose only accountability is a founder's personal reputation.`,
+    categorySlug: 'charity-scams',
+    sources: ['KCTV5'],
+    sourceUrl: 'https://www.kctv5.com/2025/02/21/former-kansas-city-police-officer-convicted-charity-fraud-scheme/',
+    country: 'US',
+    isHistorical: true,
+    firstRecorded: '2009-07-01',
+    state: 'MO',
+});
+
+UsGM.push({
+    name: 'Snapchat-to-Sextortion of a Missouri Teen (Alexander Gardiner, Turks and Caicos)',
+    slug: 'missouri-turks-caicos-sextortion-teen-gardiner',
+    description: `Alexander Gardiner, 25, of Providenciales in the Turks and Caicos Islands, contacted a 15-year-old Missouri boy on Snapchat and, through a series of manipulative requests, got the teen to send explicit images of himself — reportedly after telling the boy he would be "left alone" once he complied. Instead, Gardiner immediately escalated: he moved the contact to iMessage, Facebook, and WhatsApp and began repeatedly threatening to send the images to the victim's family and friends unless the teen continued producing additional images on demand. This is the textbook "financial/coercive sextortion" pattern the FBI has flagged as sharply rising among teenage victims nationwide, but here it is a specific, adjudicated Missouri case with a named perpetrator and a named federal sentence.
+
+Gardiner pleaded guilty in November 2025 in U.S. District Court in St. Louis to one count of coercion and enticement of a minor. U.S. District Judge Joshua M. Divine sentenced him to 240 months (20 years) in federal prison followed by lifetime supervised release. The case was prosecuted as part of the Department of Justice's Project Safe Childhood initiative. The FBI's St. Louis field office asked anyone who believes they were also targeted by Gardiner to come forward via 1-800-CALL-FBI or tips.fbi.gov, indicating this was not necessarily a single-victim case.
+
+This pattern is squarely current: the FBI publicly warned in February 2026 that sextortion cases targeting teenagers are rising nationally, and the mechanism here — a stranger contact on a mainstream platform, a single coerced image, then a rapid pivot to threats across multiple apps to prevent the victim from simply blocking one account — is exactly the playbook consumer-protection guidance describes. Key facts for parents and teens: predators often target boys as well as girls, initial contact frequently looks like ordinary flirtation from a fake or stolen-photo profile, the "I'll delete it if you just do this once" promise is never honored, and the right response is to stop engaging, save evidence, and report immediately to a trusted adult and to the National Center for Missing & Exploited Children's CyberTipline or the FBI — not to pay or comply further, and not to feel it's too late or too embarrassing to report.`,
+    categorySlug: 'sextortion',
+    alertLevel: 'high',
+    sources: ['FBI St. Louis Field Office'],
+    sourceUrl: 'https://mynews4.com/news/nation-world/man-from-british-overseas-territories-sentenced-to-jail-for-sextortion-of-missouri-teen-department-of-justice-fbi',
+    country: 'US',
+    state: 'MO',
+});
