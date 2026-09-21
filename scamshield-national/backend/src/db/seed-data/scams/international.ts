@@ -21186,3 +21186,21 @@ International.push({
   sourceUrl: 'https://www.smn-news.com/index.php/st-maarten-st-martin-news/51007-one-arrested-as-police-expand-probe-into-stolen-identities-and-fake-driver-s-license-network.html',
   country: 'SX',
 });
+
+International.push({
+  name: 'Malware-Laced Files Disguised as "Leaked" Central Bank of Libya Data',
+  slug: 'libya-fake-leaked-central-bank-data-malware-files',
+  description: `Libya's Internal Security apparatus issued a public warning on June 29, 2026 — about three weeks after the Central Bank of Libya disclosed it was investigating a cyberattack on its systems and information began circulating that internal data had been leaked to dark-web sites — cautioning citizens and institutions against downloading or opening files being circulated on the dark web and other unreliable sources that claim to be leaked Central Bank of Libya data. Technical analysis by security officials found that many of these files, while appearing to contain genuine banking data, actually carry malware built by organized cybercriminal groups.
+
+The scheme works by exploiting curiosity and concern around a real, publicly reported breach: a file is packaged to look like an authentic leaked dataset, but embedded alongside the real-looking content is malicious code that, once opened or run, grants attackers unauthorized access to the victim's device and any network it connects to. Officials noted that some of the malware variants involved are designed to operate covertly for extended periods without obvious signs of infection, allowing attackers to harvest login credentials and survey a network quietly before later escalating to disruption, data encryption, or further theft.
+
+The warning specifically named sovereign and government entities, banks and financial institutions, public and private companies, and individual employees at state agencies as targets — essentially anyone who might download a "leaked bank data" file out of concern that their own information was exposed, or curiosity about the breach itself. This is a distinct mechanism from the fake bank "support page" phishing and impersonation-call scams already documented for Libya: rather than tricking someone into typing a password into a fake form, it relies on a real data-breach news cycle to get a malicious file opened voluntarily.
+
+Libyan officials urged organizations and individuals never to download or run files from dark-web sources or unverified channels claiming to be leaked Central Bank of Libya (or any institutional) data, and instructed anyone who receives such a file to notify their IT security team immediately without opening, running, or personally inspecting it. The apparatus separately warned that circulating these files on social media, including for the purpose of exposing or shaming the bank, carries its own legal consequences under Libyan law — a reminder that "leak-bait" malware campaigns often ride on genuine public interest in a real security incident.`,
+  categorySlug: 'data-breach-scams',
+  alertLevel: 'high',
+  sources: ['Libya Internal Security apparatus'],
+  sourceUrl: 'https://www.eanlibya.com/%D8%A7%D9%84%D8%A3%D9%85%D9%86-%D8%A7%D9%84%D8%AF%D8%A7%D8%AE%D9%84%D9%8A-%D9%8A%D8%AD%D8%B0%D8%B1-%D9%85%D9%86-%D8%A7%D9%84%D8%AA%D8%B9%D8%A7%D9%85%D9%84-%D9%85%D8%B9-%D9%85%D9%84%D9%81%D8%A7%D8%AA/',
+  country: 'LY',
+  firstRecorded: '2026-06-29',
+});
