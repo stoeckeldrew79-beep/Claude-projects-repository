@@ -5014,6 +5014,10 @@ GuidesNS.push({
     title: 'Negative Review Extortion Scams: When a Flood of Fake 1-Star Reviews Comes With a Ransom Demand',
     slug: 'negative-review-extortion-scam-guide',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Storefronts.JPG?width=1200',
+    coverImageCredit: 'Photo: Adrian Reed Smith (CC BY-SA 3.0) — small local business storefronts',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     tags: ['guide', 'review-extortion-scam'],
     sourceUrl: 'https://support.google.com/business/answer/16404809?hl=en',
     body: `A small business owner checks their Google Business Profile and finds a dozen or more brand-new 1-star reviews that appeared within hours of each other — often from accounts with no other review history, describing detailed but completely fabricated complaints about service the business never provided. Shortly afterward, the owner is contacted directly, usually through WhatsApp or email from an overseas number, by someone offering to remove the fake reviews in exchange for payment, typically in cryptocurrency or gift cards. It isn't a customer-service mix-up or an angry former client — it's an extortion attempt, and the reviews were fabricated by the same person demanding the ransom.
