@@ -178,8 +178,8 @@ export const UsAF: SeedScam[] = [
       'A text claims your Apple ID was accessed from an unrecognized device or location and includes a link to "secure your account," leading to a fake Apple sign-in page that harvests your Apple ID credentials — often used afterward to lock the real owner out through a password reset. Check account security directly in your device\'s Settings app, never through a link in a text.',
     categorySlug: 'tech-support-scams',
     alertLevel: 'high',
-    sources: ['FTC Consumer Advice'],
-    sourceUrl: 'https://consumer.ftc.gov/articles/how-spot-avoid-and-report-tech-support-scams',
+    sources: ['Apple Support'],
+    sourceUrl: 'https://support.apple.com/en-us/102568',
   },
 {
     name: 'Auto-Renewal Antivirus Refund Call',
@@ -269,7 +269,7 @@ export const UsAF: SeedScam[] = [
     categorySlug: 'cryptocurrency-scams',
     alertLevel: 'high',
     sources: ['FTC Consumer Advice', 'FBI IC3'],
-    sourceUrl: 'https://consumer.ftc.gov/articles/investment-scams',
+    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2020/07/avoiding-cryptocurrency-scam',
   },
 {
     name: 'Fake Forex or Day-Trading Signal Service',
