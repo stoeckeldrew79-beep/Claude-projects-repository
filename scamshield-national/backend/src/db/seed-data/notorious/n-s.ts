@@ -7319,6 +7319,10 @@ NotoriousNS.push({
   title: 'Sigurjón Árnason: The Landsbanki Co-CEO Convicted Twice Over the 2008 Icelandic Banking Collapse',
   slug: 'sigurjon-arnason-landsbanki-market-manipulation',
   author: 'ScamShield National Staff',
+  coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Landsbankinn.jpg?width=1200',
+  coverImageCredit: 'Photo: Bjarki S (CC BY-SA 3.0) — a Landsbanki office in Akureyri, Iceland',
+  coverImagePosition: 50,
+  // representative photo — replace with a portrait if found
   tags: ['notorious', 'financial fraud', 'market manipulation', 'iceland', 'banking collapse'],
   sourceUrl: 'https://icelandmag.is/article/former-ceo-failed-landsbankinn-and-three-deputies-sentenced-prison-market-manipulation',
   body: `Sigurjón Árnason spent the final years of Iceland's 2000s banking boom as co-CEO of Landsbanki, one of the three domestic lenders — alongside Kaupthing and Glitnir — that expanded into institutions with combined assets nearly ten times the size of Iceland's entire economy before all three collapsed within days of each other in early October 2008. Where other executives implicated in that collapse faced a single prosecution, Árnason was convicted twice in separate cases, each examining a different way Landsbanki's own leadership propped up the bank's stock price and its own balance sheet in the months before it failed.

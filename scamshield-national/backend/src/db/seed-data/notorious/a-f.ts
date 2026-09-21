@@ -9782,6 +9782,10 @@ NotoriousAF.push({
     title: "Edemar Cid Ferreira and the $780 Million Hole Behind Banco Santos — and the Basquiat Smuggled Out With It",
     slug: 'edemar-cid-ferreira-banco-santos-fraud',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Mans%C3%A3o_Edemar_Cid_Banco_Santos.webp?width=1200',
+    coverImageCredit: 'Photo: Bcscuza (CC0) — Ferreira\'s mansion, seized and auctioned after the Banco Santos collapse',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'international', 'bank-fraud', 'money-laundering'],
     sourceUrl: 'https://www.ice.gov/news/releases/ice-returns-masterpiece-linked-bank-fraud-brazilian-government',
     body: `Edemar Cid Ferreira spent two decades building Banco Santos into one of Brazil's twenty largest banks, cultivating a reputation as a sophisticated financier who lent to mid-sized Brazilian companies that struggled to get credit from the country's giant state and multinational banks. Alongside the bank, Ferreira assembled one of Latin America's largest private art collections — roughly 12,000 pieces, including works by Jean-Michel Basquiat, Roy Lichtenstein, and other major artists — funded, prosecutors later concluded, largely with money that was never really his.
@@ -9799,6 +9803,10 @@ NotoriousAF.push({
     title: 'Maria Branca dos Santos, "Dona Branca," and the Ponzi Scheme Portugal Called the People\'s Bank',
     slug: 'dona-branca-portugal-ponzi-scheme',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Lisbon_Montage_2020.jpg?width=1200',
+    coverImageCredit: 'Photo: Allice Hunter (CC BY-SA 4.0) — Lisbon, where her scheme drew in ordinary households',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical', 'international'],
     sourceUrl: 'https://en.wikipedia.org/wiki/Dona_Branca',
     body: `Maria Branca dos Santos, known across Portugal simply as "Dona Branca," ran an unlicensed lending-and-deposit operation from 1970 until her arrest in 1984, promising ordinary savers something no legitimate Portuguese bank offered: 10 percent interest, paid every month, without exception. In a country where formal banking felt distant to working-class savers, dos Santos positioned herself as a trustworthy alternative for people's money, earning the nickname "the people's banker" and cultivating a public image of someone helping the poor rather than running a financial operation for profit.

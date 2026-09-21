@@ -10602,6 +10602,10 @@ NotoriousGM.push({
     title: "Li Hejun and the $19 Billion Hanergy Thin Film Power Collapse",
     slug: 'li-hejun-hanergy-thin-film-power-fraud',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Thin_Film_Flexible_Solar_PV_Installation_2.JPG?width=1200',
+    coverImageCredit: 'Photo: Ken Fields (CC BY-SA 3.0) — thin-film flexible solar panels, the product category at the center of the fraud',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'international', 'securities-fraud', 'corporate-fraud'],
     sourceUrl: 'https://www.cnbc.com/2017/09/05/hanergys-li-hejun-china-former-richest-man-banned-from-hong-kong-business.html',
     body: `Li Hejun founded Hanergy Holding Group in the early 1990s and built it into one of China's largest privately held conglomerates, eventually spinning off Hong Kong-listed Hanergy Thin Film Power Group as his vehicle into solar energy. By 2015, Hanergy Thin Film's soaring share price had made Li, on paper, China's richest person, with a personal fortune Forbes estimated at roughly $30 billion — a valuation resting almost entirely on a stock whose trading pattern regulators would later find deeply suspect.
@@ -10619,6 +10623,10 @@ NotoriousGM.push({
     title: "Joachim Posener and the Trustor Affair: How Sweden's Biggest Financial Crime Used a Company's Own Money to Buy the Company",
     slug: 'joachim-posener-trustor-affair-fraud',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/B%C3%B6rshuset,_Stockholm,_2019_(01).jpg?width=1200',
+    coverImageCredit: 'Photo: Bahnfrend (CC BY-SA 4.0) — the Stockholm Stock Exchange building, where Trustor was listed',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'international', 'securities-fraud', 'historical'],
     sourceUrl: 'https://en.wikipedia.org/wiki/Trustor_affair',
     body: `In the summer of 1997, a group of financiers led by Swedish lawyer-turned-dealmaker Joachim Posener engineered the takeover of Trustor AB, an investment company listed on the Stockholm Stock Exchange. British businessman Lord Moyne (Jonathan Guinness) fronted the deal, agreeing on May 20, 1997 to buy a controlling 52 percent voting stake — held as A-shares by outgoing owner Per-Olov Norberg — for 241 million Swedish kronor. Behind Moyne stood Posener, his cousin Thomas Jisander, and financier Peter Mattsson, the team that actually structured and financed the purchase.
@@ -10636,6 +10644,10 @@ NotoriousGM.push({
     title: 'Mickey Monus and the Phar-Mor Fraud That Hid $1 Billion Behind a Basketball League',
     slug: 'mickey-monus-phar-mor-fraud',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Former_Phar-Mor_Independence_Hwy_January_2012_(6746894085).jpg?width=1200',
+    coverImageCredit: 'Photo: Mike Kalasnik (CC BY-SA 2.0) — a former Phar-Mor storefront',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
     sourceUrl: 'https://caselaw.findlaw.com/court/us-6th-circuit/1018110.html',
     body: `Michael "Mickey" Monus co-founded Phar-Mor in Youngstown, Ohio, in 1982 with David Shapira, building a deep-discount drugstore chain on the promise of "power buying" — brutal markdowns funded by scale. It worked spectacularly: by 1992 Phar-Mor had grown to more than 300 stores and roughly 25,000 employees, and Sam Walton reportedly called Monus the only retailer he feared. Monus used his rising profile to bankroll flashy side ventures, most notably founding the World Basketball League, a professional summer league, and helping lead a bid for the Colorado Rockies Major League Baseball expansion franchise.
