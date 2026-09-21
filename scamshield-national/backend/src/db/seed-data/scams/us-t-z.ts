@@ -5345,3 +5345,34 @@ This is distinct from a classic human-run "pig butchering" or catfishing romance
     country: 'US',
     firstRecorded: '2026-04-01',
 });
+
+UsTZ.push({
+    name: 'Meta "Verified Badge" Phishing Campaign',
+    slug: 'meta-verified-badge-phishing-account-takeover',
+    description: `An email that looks like it comes from Instagram or Facebook's own verification team tells the recipient their account or business Page qualifies for the blue "Meta Verified" badge, and invites them to complete a short verification step to claim it. The message, sent from an ordinary Gmail account with the display name spoofed to read "Meta Verified," links out through a legitimate Google Form, a deliberate choice that lets the first hop pass right through most corporate spam filters since Google's own domain is trusted infrastructure. From there, the form redirects to a convincing fake Meta login page hosted on an abused vercel.app subdomain, which walks the victim through submitting their name and business details, then their Facebook or Instagram password.
+
+The final and most damaging step asks for the two-factor authentication code just sent to the victim's phone or authentication app, and unlike older phishing kits that simply stored stolen passwords for later use, this kit relays that 2FA code to the attacker in real time, letting them log into the real account within seconds while the code is still valid. Security researchers at Cofense, who identified and tracked the campaign into 2026, found it aimed at both individual creators and business Page administrators, since a hijacked verified or high-follower business account is far more valuable to resell or repurpose for further scams — crypto giveaways, fake storefronts, or romance-scam personas — than an ordinary personal profile.
+
+Anyone who receives an unsolicited "your account qualifies for verification" message should go directly to the Meta Verified section inside the app itself rather than clicking any link in an email, since Meta does not send verification offers that route through a third-party Google Form. A 2FA code should never be entered anywhere except the platform's own official login screen, and any account that already went through this flow should be treated as compromised — the password changed immediately from a device that was never involved, and all active sessions logged out through account security settings.`,
+    categorySlug: 'account-takeover',
+    alertLevel: 'high',
+    sources: ['Cofense Phishing Defense Center', 'Security Boulevard'],
+    sourceUrl: 'https://cofense.com/blog/the-meta-2fa-trap-from-verified-badge-to-account-takeover',
+    country: 'US',
+});
+
+UsTZ.push({
+    name: 'National Public Data Breach SSN Exposure and Identity-Theft Wave',
+    slug: 'national-public-data-breach-ssn-exposure',
+    description: `National Public Data, a Florida-based background-check data broker operating under the parent company Jerico Pictures, Inc., confirmed on August 16, 2024 that hackers had stolen a database containing roughly 2.9 billion records — full names, current and past home addresses, Social Security numbers, dates of birth, and phone numbers for people across the US, UK, and Canada. A hacker using the alias "USDoD" had advertised the same trove for sale on a hacking forum months earlier, in April 2024, for $3.5 million, after intrusion attempts that reportedly began as early as December 2023.
+
+What makes this breach unusually dangerous compared to a typical retailer or hospital hack is the completeness of the record: a Social Security number, full legal name, date of birth, and years of address history in one bundle is exactly the "fullz" package identity thieves need to open new credit lines, file fraudulent tax returns, or pass a bank's identity-verification questions — and because National Public Data compiled this information from public and semi-public sources rather than collecting it directly from consumers, most people affected never had an account with the company and had no way to know their data was held there in the first place, let alone stolen. Facing more than a dozen lawsuits and potential liability for credit monitoring covering hundreds of millions of people, Jerico Pictures filed for Chapter 11 bankruptcy on October 2, 2024, and National Public Data shut down entirely by December 2024, leaving no company behind to notify individual victims or fund the credit protection a breach this size would normally require. Roughly 20 class-action suits have since been consolidated in the Southern District of Florida alongside a Federal Trade Commission inquiry and involvement from more than 20 state attorneys general, but no settlement or claims process has been finalized.
+
+Because the exposed data does not expire or get reissued the way a credit card number can, the risk from this breach does not fade with time the way a typical data-breach warning does — it should be treated as a standing, permanent exposure. Anyone concerned they may be affected should place a free credit freeze with all three major credit bureaus (Equifax, Experian, and TransUnion), set up an IRS Identity Protection PIN to block fraudulent tax filings, and check their Social Security "my Social Security" account periodically for unfamiliar earnings records. Because National Public Data itself no longer exists, anyone contacted by a company or caller claiming to offer breach-related monitoring, refunds, or "claim processing" tied to National Public Data specifically should treat it as a probable scam exploiting a real breach, verify any settlement information only through the FTC's own listings at ftc.gov/enforcement/refunds, and never provide a Social Security number or payment to an unsolicited caller or emailer regardless of how much real detail about the breach they cite.`,
+    categorySlug: 'data-breach-scams',
+    alertLevel: 'medium',
+    sources: ['Wikipedia (compiling court filings and news coverage)', 'The Record by Recorded Future News'],
+    sourceUrl: 'https://en.wikipedia.org/wiki/2024_National_Public_Data_breach',
+    country: 'US',
+    firstRecorded: '2024-08-16',
+});

@@ -9015,3 +9015,22 @@ What sets this pattern apart from most scam-alert entries is that there was no p
     firstRecorded: '2025-05-01',
     state: 'PR',
 });
+
+UsNS.push({
+    name: 'Saipan "Found $2 Million" Customs-Fee Advance-Fee Scam (Benny K. Pangelinan)',
+    slug: 'northern-mariana-islands-pangelinan-advance-fee-customs-scam',
+    description: `Benny K. Pangelinan, a former Coastal Resources Management official on Saipan, had already been convicted twice for running Internet scams — most recently pleading to wire fraud in February 2014 and receiving a three-year federal probation term — when he went back to a relative he had previously defrauded of more than $20,000. On May 28, 2015, despite a court order barring him from contacting the family, Pangelinan showed up unannounced at their home and told the relative he had $2 million waiting for him in a Bank of Guam account, delivered there by an unnamed courier who was supposedly on Saipan with the documents and a bank card. He said he needed $850 to pay a "Customs fee" before the money could be released but didn't have the full amount himself; the relative gave him $250 that day. On June 4, 2015, he returned and said he still hadn't raised the rest, so she gave him another $200, bringing the new total to $450, and he told her he'd keep her posted on the "$2 million."
+
+When two weeks passed with no further contact, the victim called U.S. Probation Officer Margarita Wonenberg on June 17, 2015, who confirmed Pangelinan's visits violated his probation and told her not to give him any more money. The victim's husband confronted Pangelinan that same day, and he returned the $450, but later that afternoon came back again to show the couple a letter before the husband cut the visit short and chased him off. Chief Judge Ramona V. Manglona summoned Pangelinan to explain why his probation shouldn't be revoked. Under questioning, Pangelinan admitted the whole "Customs fee" story was fabricated: he had invented it because he was facing a power disconnection and needed cash for his Commonwealth Utilities Corp. bill, not a fortune waiting at Customs. He also walked back the figures, admitting it was really $100,000, not $2 million, and the fee was $650, not $850, and said the "letter" he'd shown the couple was actually an old email from an Internet contact tied to his original 2005-2006 case, not a new document at all.
+
+What made the scheme work even on a second and third attempt was exactly the trust a stranger wouldn't get: when asked why she kept paying a man who had already taken more than $20,000 from her, the victim said simply that he is a family member and was very convincing. A repeat, convicted fraudster used precisely the relationship his victim couldn't easily cut off, and a probation condition on paper did nothing to stop him from simply walking back into her house.
+
+Anyone told that a windfall — an inheritance, a lottery prize, "found money" sitting in a bank or held up in Customs — requires paying a fee first to be released is being run the identical advance-fee con regardless of the dollar figure attached to it or how it's dressed up. That risk doesn't disappear when the person asking is a relative or someone who has victimized you before: family loyalty is itself the lever these schemes pull. Nobody should hand over cash to "release" funds from a bank, Customs, or a courier without independently verifying the claim directly with the institution named, not through the person asking for money, and anyone who learns a convicted fraudster on probation is contacting them again should report it immediately to the U.S. Probation Office or the CNMI Department of Public Safety rather than pay to make the story stop.`,
+    categorySlug: 'lottery-sweepstakes-scams',
+    sources: ['Saipan Tribune'],
+    sourceUrl: 'https://www.saipantribune.com/index.php/internet-scam-convict-tells-previous-victim-he-has-2m-coming/',
+    country: 'US',
+    isHistorical: true,
+    firstRecorded: '2015-05-28',
+    state: 'MP',
+});
