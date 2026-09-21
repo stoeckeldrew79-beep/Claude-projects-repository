@@ -725,10 +725,9 @@ If you receive an overpayment or debt-collection letter about unemployment benef
     slug: 'youtube-creator-account-takeover-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'youtube-creator-account-takeover-scam'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Youtubeheadquarters.jpg?width=1200',
-    coverImageCredit: 'Photo: Coolcaesar (CC BY-SA 3.0) — YouTube’s former headquarters, San Mateo, California',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/YouTube_HQ_1.JPG?width=1200',
+    coverImageCredit: 'Photo: BrokenSphere, Wikimedia Commons (CC BY 3.0) — YouTube headquarters, San Bruno, California',
     coverImagePosition: 50,
-    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.malwarebytes.com/blog/threat-intel/2026/04/fake-youtube-copyright-notices-can-steal-your-google-login',
     body: `A YouTuber opens an email that looks exactly like an official copyright strike notice, complete with their own channel handle, profile picture, subscriber count, and most recent video pulled in to make the warning feel personalized rather than mass-produced. The message gives a three-day deadline to respond or the channel will face "enforcement action," and links to a case-review page. Clicking through leads to what looks like a normal Google sign-in window — except it isn't a real browser window at all. It's an HTML-and-CSS mockup rendered inside the page itself, a technique security researchers call a "browser-in-the-browser" attack, built specifically so that even someone who checks the address bar out of habit sees what looks like a legitimate accounts.google.com prompt. Whatever username and password gets typed in goes straight to the attacker.
 
@@ -2727,6 +2726,9 @@ GuidesTZ.push({
     slug: 'vacation-club-membership-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'vacation-club-scam', 'timeshare-related-scams'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Hilton_Grand_Vacations_at_the_Flamingo_and_Flamingo_Las_Vegas,_Las_Vegas,_Nevada.jpg?width=1200',
+    coverImageCredit: 'Photo: Ken Lund, Wikimedia Commons (CC BY-SA 2.0) — a vacation club resort property',
+    coverImagePosition: 50,
     sourceUrl: 'https://consumer.ftc.gov/articles/timeshares-vacation-clubs-and-related-scams',
     body: `An unexpected postcard, robocall, text, or "you've been selected" email announces you've won a free vacation, a cruise, or a resort stay — the only catch is attending a short sales presentation to claim it. Unlike a timeshare, a vacation club doesn't involve buying any actual property or deed; instead, it's a paid membership that supposedly unlocks discounted travel, resort access, or an exchange program for future trips, sold entirely through the presentation itself.
 
