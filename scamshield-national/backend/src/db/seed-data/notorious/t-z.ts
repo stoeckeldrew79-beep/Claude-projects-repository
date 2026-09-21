@@ -3232,6 +3232,10 @@ NotoriousTZ.push({
     title: 'Marizel Yukee and the $906 Million Skin-Graft Fraud That Preyed on Hospice Patients',
     slug: 'marizel-yukee-wound-medic-allograft-medicare-fraud',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/City_of_Las_Vegas_skyline.jpg?width=1200',
+    coverImageCredit: 'Photo: http2007 (CC BY 2.0), Wikimedia Commons — Las Vegas, where Yukee was based',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'healthcare-fraud'],
     sourceUrl: 'https://www.houstonpublicmedia.org/articles/news/health-science/healthcare/2026/06/24/555434/las-vegas-woman-accused-of-running-illegal-healthcare-scheme-in-pearland-federal-prosecutors-say/',
     body: `Marizel Cambri Yukee, a 49-year-old nurse practitioner from Las Vegas, built a chain of mobile wound-care businesses — Wound Medic in Manvel and Pearland, Texas; her original venture MyBestHealth First in Las Vegas; and two more affiliated entities, AllCare Mobile Wound Treatment and Oracle Wound Treatment — into a billing operation federal prosecutors say generated nearly a billion dollars in false Medicare and TRICARE claims. She enrolled Wound Medic as a Medicare provider in October 2023, and over the following two and a half years, according to an indictment unsealed in the Southern District of Texas, her four companies submitted $875 million in claims to Medicare and another $31 million to TRICARE — a combined $906 million — for amniotic wound allografts, donor-tissue skin grafts meant to help chronic wounds heal.

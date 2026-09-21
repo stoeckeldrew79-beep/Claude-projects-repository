@@ -9749,6 +9749,9 @@ NotoriousAF.push({
     slug: 'donald-cormie-principal-group-collapse',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical', 'Canada', 'Ponzi scheme'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Donald_Mercer_Cormie_1943.jpg?width=1200',
+    coverImageCredit: "Photo: U.S. government Merchant Marine record photo (1943), Wikimedia Commons (Public Domain, U.S. Gov't work)",
+    coverImagePosition: 50,
     body: `Donald Cormie founded First Investors Corporation in Alberta in 1954 and built it, together with Associated Investors of Canada, into the Principal Group — a network of financial companies that sold "investment certificates" to tens of thousands of small investors, many of them retirees, across Alberta, Saskatchewan, British Columbia, and the Maritimes, marketed as safe, guaranteed alternatives to bank deposits.
 
 On June 30, 1987, Alberta's provincial Treasurer shut down First Investors Corp. and Associated Investors after regulators found the two companies could not meet redemption demands. Roughly 67,000 investors had approximately $468 to $500 million tied up in the certificates at the time of the collapse. Calgary lawyer William "Bill" Code was appointed to head a public inquiry into the companies' finances, which ran 205 hearing days, heard 157 witnesses, and produced more than 38,000 pages of testimony before reporting in 1989.
@@ -9764,6 +9767,9 @@ NotoriousAF.push({
     slug: 'gianpiero-fiorani-antonio-fazio-bancopoli-scandal',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical', 'Italy', 'banking fraud'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Antonio_Fazio_(cropped).jpg?width=1200',
+    coverImageCredit: 'Photo: International Monetary Fund, Wikimedia Commons (Public Domain) — Antonio Fazio, former Governor of the Bank of Italy',
+    coverImagePosition: 30,
     body: `In 2005, Gianpiero Fiorani, CEO of the mid-sized Banca Popolare Italiana (BPI), launched a bid to acquire rival lender Banca Antonveneta, competing against a rival takeover offer from Dutch bank ABN AMRO. Fiorani was a close personal friend of Antonio Fazio, who had served as Governor of the Bank of Italy — the country's central bank and banking supervisor — since 1993 and whose office was supposed to rule neutrally on both bids.
 
 Wiretapped phone calls between Fiorani and Fazio, later leaked to the Italian press, showed Fazio coaching Fiorani on strategy and pledging to use his regulatory authority to slow-walk ABN AMRO's bid while clearing the way for BPI's. Prosecutors separately found that Fiorani had organized a network of small savings banks and allied entities into a secret shareholders' pact to quietly accumulate BPI/Antonveneta-linked shares beyond regulatory disclosure thresholds — market-rigging conduct financed in part through misuse of bank funds, giving BPI an artificial advantage that regulators, thanks to Fazio, did not check.
@@ -9779,6 +9785,9 @@ NotoriousAF.push({
     slug: 'gautam-adani-solar-bribery-indictment',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Gautam_Adani_01_cropped.jpg?width=1200',
+    coverImageCredit: "Photo: U.S. Embassy New Delhi (2012), Wikimedia Commons (Public Domain) — Gautam Adani, Chairman, Adani Group",
+    coverImagePosition: 30,
     sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26177',
     body: `Gautam Adani built the Adani Group into India's largest infrastructure conglomerate, spanning ports, power generation, coal, and — through its renewable-energy arm, Adani Green Energy — one of the world's largest solar-power portfolios. On November 20, 2024, a federal grand jury in the Eastern District of New York unsealed a five-count indictment charging Adani, his nephew Sagar R. Adani (an executive director of Adani Green), and Vneet S. Jaain (the company's CEO), alongside five additional executives — Ranjit Gupta and Rupesh Agarwal, former executives of the India-based renewable energy firm Azure Power, and Cyril Cabanes, Saurabh Agarwal, and Deepak Malhotra, former employees of a Canadian institutional investor that had backed Adani Green.
 
