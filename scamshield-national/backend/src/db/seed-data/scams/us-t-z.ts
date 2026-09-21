@@ -5205,3 +5205,43 @@ UsTZ.push({
     country: 'US',
     state: 'WV',
 });
+
+UsTZ.push({
+    name: 'WAPA Immediate-Payment Disconnection Threat Scam',
+    slug: 'wapa-immediate-payment-disconnection-threat-scam',
+    description: `The Virgin Islands Water and Power Authority (WAPA) has repeatedly warned customers, first in December 2019 and again as recently as April 2021, about automated and live calls that spoof the utility's own switchboard number and threaten immediate service disconnection unless the customer pays on the spot. The calls direct victims to phone back a toll-free number — in the 2021 wave, a 1-866 number — to "settle" the account, where the scammer collects account numbers, PINs, or other financial information rather than any real payment reaching WAPA. WAPA has stated flatly that it "does not have anyone calling customers" this way and does not run an automated system that threatens disconnection over the phone, so any such call is fraudulent regardless of how convincing the spoofed caller ID looks. The authority's advice is to hang up immediately, never share account or banking details with an inbound caller claiming to be WAPA, and instead call WAPA's own customer service line directly — 340-774-3552 or 340-773-2250, option 5 — to check on an account's real status.`,
+    categorySlug: 'utility-scams',
+    alertLevel: 'medium',
+    sources: ['Virgin Islands Water and Power Authority (WAPA)', 'Virgin Islands Consortium'],
+    sourceUrl: 'https://viconsortium.com/vi-wapa/virgin-islands-wapa-says-latest-scam-threatens-customers-with-disconnection-if-payment-to-account-is-not-immediately-made',
+    country: 'US',
+    state: 'VI',
+    isHistorical: true,
+    firstRecorded: '2019-12-02',
+});
+
+UsTZ.push({
+    name: 'Virgin Islands Federal Jury Duty Impersonation Scam',
+    slug: 'virgin-islands-federal-jury-duty-impersonation-scam',
+    description: `The District Court of the Virgin Islands maintains a standing public warning about scammers who call, email, or fax residents while posing as a court officer or federal attorney, claiming the recipient missed jury duty and now faces arrest unless they act immediately. The scam comes in two forms: a demand to pay money on the spot to avoid arrest, or a request to "verify" personal information — such as date of birth, Social Security number, or bank account details — over the phone or by email, sometimes through an official-looking jury form attached to a phishing email that can carry malware. The court is explicit that its real forms never ask for a Social Security number or similar sensitive information, and that a genuine arrest warrant is always served in person by a U.S. Marshal or other law-enforcement officer, never announced over the phone or by email with a demand for immediate payment. Residents who receive such contact are directed to hang up or not respond, avoid opening any attached "jury form," and report the incident to local police, the FBI, or the U.S. Marshals Service rather than the number or address the scammer provides.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['District Court of the Virgin Islands'],
+    sourceUrl: 'https://www.vid.uscourts.gov/jury-duty-scams',
+    country: 'US',
+    state: 'VI',
+});
+
+UsTZ.push({
+    name: 'Virgin Islands Real Estate Purchase Business Email Compromise Fraud',
+    slug: 'virgin-islands-real-estate-bec-money-mule-fraud',
+    description: `Between July and November 2020, unidentified fraudsters compromised the business email account of an employee at a real estate agency handling a purchase for a private Virgin Islands business, then used that hijacked account to send the victim company's employee fraudulent wire instructions. Believing the instructions were legitimate, the employee wired approximately $1,344,000 toward what should have been the real estate transaction, but the money instead landed in a "pass-through" money mule account opened in Florida under a shell company, Boyang Group, Inc., that the U.S. Attorney's Office for the Western District of North Carolina said "had no legitimate purpose." The scheme unraveled after roughly $296,500 had already moved out of that account in a further outgoing wire; law enforcement traced the remaining funds to a bank account in Matthews, North Carolina, executed a seizure warrant, and recovered $1,047,535, which the U.S. Attorney's Office filed a civil forfeiture complaint to keep on February 26, 2021. The case is a reminder that any changed wire instructions arriving during a real estate closing — even ones that appear to come from a trusted agent's own email account — should be confirmed by phone using a previously known number before funds are sent.`,
+    categorySlug: 'business-email-compromise',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office for the Western District of North Carolina", 'U.S. Secret Service'],
+    sourceUrl: 'https://www.secretservice.gov/newsroom/releases/2021/02/us-attorneys-office-files-civil-complaint-seeking-forfeiture-over-1',
+    country: 'US',
+    state: 'VI',
+    isHistorical: true,
+    firstRecorded: '2020-07-01',
+});

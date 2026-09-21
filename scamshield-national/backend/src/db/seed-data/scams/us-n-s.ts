@@ -8865,3 +8865,45 @@ UsNS.push({
     isHistorical: true,
     firstRecorded: '2017-02-10',
 });
+
+UsNS.push({
+    name: 'Puerto Rico Nursing Home Life-Insurance Fraud Scheme (Sueño Feliz)',
+    slug: 'puerto-rico-sueno-feliz-nursing-home-life-insurance-fraud',
+    description: `On March 26, 2019, a federal grand jury in the District of Puerto Rico returned a 35-count indictment charging Luz M. Santiago-Torres, Jimmy E. Santiago-Burgos, Félix Rosa-Rosa, José Rivera-Esparra, and Ulises Feliciano-Caraballo with conspiracy to commit wire and mail fraud, mail fraud, wire fraud, aggravated identity theft, and money laundering. According to the U.S. Attorney's Office, the defendants applied for, paid the premiums on, and collected payouts from life insurance policies taken out on elderly people without those insureds' knowledge or consent, submitting applications to insurers — including Triple-S, MetLife, Universal, Occidental, Americo Financial, National, Great American, and Multinational — that contained forged signatures and false statements about the insured's health and finances. Many of the people insured this way lived at and received elder care from Hogar Sustituto Luz Santiago y Fernando Santiago, also known as "Sueño Feliz," a home for the elderly in Juana Díaz operated by defendant Santiago-Torres, meaning the same person profiting from the fraudulent policies also controlled daily access to the vulnerable people named on them. Families of elderly relatives in residential or in-home care are advised to ask directly whether any life insurance policy has been taken out in the relative's name, request an official policy search through the state insurance regulator if a caregiver is evasive, and treat unfamiliar premium notices or insurer correspondence addressed to an elderly relative as a reason to investigate immediately rather than assume it's a mistake.`,
+    categorySlug: 'insurance-fraud',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office, District of Puerto Rico"],
+    sourceUrl: 'https://www.justice.gov/usao-pr/pr/five-individuals-indicted-life-insurance-fraud-scheme-obtain-policies-without-insureds',
+    country: 'US',
+    isHistorical: true,
+    firstRecorded: '2019-03-26',
+    state: 'PR',
+});
+
+UsNS.push({
+    name: 'Puerto Rico FX Latino Forex Trading Pool Ponzi Scheme',
+    slug: 'puerto-rico-fx-latino-forex-ponzi-scheme',
+    description: `From approximately November 2019 through February 2021, Ramon Salvador Delgado-Gomez and his companies FX Latino (FXL) and FXL Investment PR LLC, along with Walmy Rivera-Santiago (JRH Services Inc.) and Hector Javier Santos-Pagan (Infinity Investment and Construction Management Corp.), used social media promotion — including Instagram — and in-person public seminars to solicit at least $17 million from more than 2,000 individuals and entities, most in Puerto Rico, for a pooled investment in retail foreign-currency (forex) trading. According to a February 2023 complaint filed by the Commodity Futures Trading Commission in the U.S. District Court for the District of Puerto Rico, FXL conducted little to no actual forex trading with the money it raised; instead, Delgado-Gomez and FXL misappropriated at least $13 million, using new participants' funds to pay purported "returns" to earlier investors in a classic Ponzi structure while also diverting money to personal and business expenses. CFTC Commissioner Kristin Johnson specifically flagged the scheme as "affinity fraud" that exploited trust within Puerto Rico's Spanish-speaking community. Anyone offered a "guaranteed" or steady return from a pooled forex or currency-trading club should confirm the operator and pool are registered with the CFTC or the National Futures Association at nfa.futures.org, ask for independently verifiable trading statements rather than the promoter's own account summaries, and treat recruitment through social media testimonials or community seminars as a red flag rather than reassurance.`,
+    categorySlug: 'ponzi-pyramid-schemes',
+    alertLevel: 'high',
+    sources: ['U.S. Commodity Futures Trading Commission (CFTC)'],
+    sourceUrl: 'https://www.cftc.gov/PressRoom/PressReleases/8656-23',
+    country: 'US',
+    isHistorical: true,
+    firstRecorded: '2019-11-18',
+    state: 'PR',
+});
+
+UsNS.push({
+    name: 'Puerto Rico New Health Med Group Ghost-Provider Medicare Billing Fraud',
+    slug: 'puerto-rico-new-health-med-group-ghost-provider-medicare-fraud',
+    description: `On June 17, 2020, a federal grand jury in the District of Puerto Rico returned a 43-count indictment against Sophia Piñeiro-Ruscalleda, Dr. Alice Ruscalleda-Lebrón, and Juan José Ruscalleda, former officials of New Health Med Group, Inc. (NHMG), charging health care fraud, conspiracy to commit health care fraud, aggravated identity theft, and obstruction of a criminal investigation related to health care offenses. According to the U.S. Attorney's Office and HHS-OIG, which investigated the case, the defendants billed Medicare from July 2015 through March 2017 for services attributed to real, identifiable medical providers using those providers' own billing identifiers — providers who, according to the indictment, never actually worked for NHMG and never rendered the services on the dates listed on the claims. The scheme generated 2,711 false claims totaling $194,960, of which Medicare actually paid out $85,422, all without the named providers' knowledge that their credentials were being used to bill for care they never gave. U.S. Attorney W. Stephen Muldrow said the case demonstrated the office's "resolve in attacking fraud and restoring confidence in federal programs intended to benefit the citizens of Puerto Rico." The scheme illustrates why a legitimate medical provider should periodically check their own Medicare billing history or National Provider Identifier (NPI) activity for claims they don't recognize, since a stolen provider identifier can generate fraudulent billing for years without the provider ever treating a single one of the "patients" listed.`,
+    categorySlug: 'medicare-health-plans',
+    alertLevel: 'medium',
+    sources: ['U.S. Department of Health and Human Services Office of Inspector General (HHS-OIG)', "U.S. Attorney's Office, District of Puerto Rico"],
+    sourceUrl: 'https://www.oversight.gov/three-individuals-indicted-arrested-health-care-fraud',
+    country: 'US',
+    isHistorical: true,
+    firstRecorded: '2020-06-17',
+    state: 'PR',
+});

@@ -21165,3 +21165,36 @@ International.push({
     sourceUrl: "http://pmo.gov.to/latest-online-scam-reported-to-police/",
     country: "TO",
 });
+
+International.push({
+  name: 'Sint Maarten Fake Invoice Scam Targeting Local Businesses',
+  slug: 'sint-maarten-fake-invoice-scam-local-businesses',
+  description: `The Police Force of Sint Maarten (KPSM) Fraud Department issued a public warning on February 6, 2024, alerting local businesses to a rise in fraudulent invoice scams targeting the island's business community. According to the alert, "The scammers have been utilizing fraudulent invoices, appearing authentic, to deceive businesses into making unwarranted payments for services that were never rendered." The invoices are typically sent by email and mimic real vendors or service providers closely enough to pass a quick glance, prompting accounts-payable staff to process payment for work or goods that were never ordered or delivered. KPSM urged businesses to "exercise extreme caution and vigilance when handling invoices and making online payments," recommending that companies verify the authenticity of any invoice independently, confirm payment requests directly with the purported sender using contact information obtained separately from the invoice itself, and train employees to recognize the red flags of this kind of fraud. The Fraud Department asked any business that receives a suspicious invoice, or that has already made a fraudulent payment, to report it immediately by calling +1721-542-2222.`,
+  categorySlug: 'business-email-compromise',
+  alertLevel: 'medium',
+  sources: ['Government of Sint Maarten', 'Police Force of Sint Maarten (KPSM)', '721news.com'],
+  sourceUrl: 'https://www.sintmaartengov.org/news/pages/Warning-to-Local-Businesses-on-Sint-Maarten-Regarding-Scam-Attempts.aspx',
+  country: 'SX',
+});
+
+International.push({
+  name: 'Sint Maarten Fake Online Shop and Fictitious Company Scam',
+  slug: 'sint-maarten-fake-online-shop-fictitious-company-scam',
+  description: `The Police Force of Sint Maarten (KPSM) issued a public warning on January 12, 2019 after its Fraud Department received a string of complaints from residents and businesses who lost money buying goods from online stores that turned out not to exist. KPSM said the fraudsters behind the scheme "have designed fictitious companies and fake websites to look 'legitimate'," building convincing storefronts and, in some cases, fake Facebook pages and shops that funneled shoppers toward the fraudulent websites. Victims who placed orders were instructed to wire payment through a local bank to an account held overseas; once the transfer went through, the sellers stopped responding entirely, leaving buyers with no goods and no way to reverse the payment. KPSM said scammers also sent deceptive emails impersonating real, established businesses to widen the scheme's reach. The Fraud Department urged the public to be cautious before sending money to any online seller, to research a company independently before paying, and to avoid wiring funds to unfamiliar overseas accounts for goods not yet received, and asked anyone with information about the scheme to contact the Fraud Department at 54-22222 ext. 217 or the police emergency line at 911.`,
+  categorySlug: 'online-shopping-scams',
+  alertLevel: 'medium',
+  sources: ['Police Force of Sint Maarten (KPSM)', '721news.com'],
+  sourceUrl: 'https://www.721news.com/2019/01/kpsm-investigates-scammers/',
+  country: 'SX',
+});
+
+International.push({
+  name: "Sint Maarten Stolen-Identity Fake Driver's License Ring",
+  slug: 'sint-maarten-stolen-identity-fake-drivers-license-ring',
+  description: `The Police Force of Sint Maarten (KPSM) confirmed it was investigating an identity-theft and document-fraud network after images began circulating in May 2026 showing multiple driver's licenses that carried the exact same identity information but displayed the photographs of different people. Investigators said personal data belonging to real Sint Maarten residents was being duplicated and printed onto counterfeit government-issued licenses and ID cards, and that the case pointed toward what one report described as "a larger operation... possibly involving the unauthorized access of official records or document systems," rather than a single forger working alone. The scheme drew public attention after social media posts linked one of the fraudulent identities to a vehicle involved in a hit-and-run, prompting wider scrutiny of how the fake documents were being produced and used; unconfirmed allegations pointed to a possible insider within the government's Receiver's Office, though authorities had not confirmed this publicly. On June 30, 2026, KPSM announced the arrest of one suspect and said detectives were examining whether more than one person was involved, reviewing official government records, and forensically examining seized documents and digital evidence while coordinating with the island's civil registration and licensing departments to determine how many residents' identities had been compromised. KPSM asked anyone with information about the production, sale, or use of fraudulent driver's licenses or stolen identities on the island to come forward, warning that residents whose identity data was stolen this way could end up with fraudulent licenses, vehicles, or other official records registered in their name without their knowledge.`,
+  categorySlug: 'identity-theft',
+  alertLevel: 'high',
+  sources: ['Police Force of Sint Maarten (KPSM)', 'St. Martin News Network (SMN News)'],
+  sourceUrl: 'https://www.smn-news.com/index.php/st-maarten-st-martin-news/51007-one-arrested-as-police-expand-probe-into-stolen-identities-and-fake-driver-s-license-network.html',
+  country: 'SX',
+});
