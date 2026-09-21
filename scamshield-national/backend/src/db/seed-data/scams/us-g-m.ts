@@ -9056,3 +9056,31 @@ UsGM.push({
     isHistorical: false,
     firstRecorded: "2024-05-01",
 });
+
+UsGM.push({
+    name: 'Guam Fake FBI Protection Extortion Scheme (Brenda Kinian)',
+    slug: 'guam-kinian-fake-fbi-protection-extortion-scheme',
+    description: `From April 2017 to May 2018, Brenda Kinian, 43, of Weno, Chuuk and a permanent resident of Guam who lived behind an elderly Korean couple's convenience store in Agat, exploited the aftermath of a robbery in which the wife was beaten and injured to convince the couple she had a personal connection to the FBI who could keep them safe from further harm. Kinian told the victims that federal agents were actively protecting the store and their family — including a daughter who was then away at college, whom she pressured the couple into calling back to Guam "for her own protection" — and fabricated stories that some of those agents and their relatives had been killed guarding them, using the couple's genuine post-robbery trauma to make the threat of further violence feel real and imminent. Believing their lives depended on it, the couple paid Kinian a total of $450,000 in extortion money over the course of the scheme, and by May 2018 she had effectively taken control of their store. A jury in the District Court of Guam convicted Kinian of extortion by wrongful use of threatened force, violence, or fear, and of aiding and abetting extortion under pretense of office and employment; on November 8, 2024, the court sentenced her to 84 months (7 years) in federal prison, with a concurrent 36-month term on the second count, plus three years of supervised release, $450,000 in restitution to the victims, and a $371,896 forfeiture money judgment. U.S. Attorney Shawn N. Anderson said Kinian "took advantage of this family in the most unconscionable way. She preyed on their valid concerns for safety." The case is a reminder that a threat doesn't need to come from an anonymous caller to be a scam — someone a victim already knows, even a neighbor, can fabricate a connection to law enforcement and turn a real, traumatic crime into leverage for an escalating, months-long extortion; no legitimate FBI protection detail is arranged or paid for through a private individual collecting cash directly from the person being "protected."`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office, Districts of Guam and the Northern Mariana Islands", 'Lawyer Monthly'],
+    sourceUrl: 'https://www.justice.gov/usao-gu/pr/guam-resident-sentenced-seven-years-federal-prison-extortion',
+    country: 'US',
+    state: 'GU',
+    isHistorical: true,
+    firstRecorded: '2024-11-08',
+});
+
+UsGM.push({
+    name: 'Guam Fake IRS "Tax Crime Investigation Unit" Arrest Warrant Scam',
+    slug: 'guam-fake-irs-tax-crime-investigation-arrest-warrant-scam',
+    description: `The Office of the Attorney General of Guam's Consumer Protection Division issued a public caution in August 2017 after a Guam consumer reported receiving a suspicious, prerecorded text message on her cellphone purportedly from the Internal Revenue Service's "Tax Crime Investigation Unit." The message claimed an arrest warrant had already been issued against her over unpaid taxes and gave two callback numbers carrying a 202 area code — the code used by Washington, D.C. — to lend the threat a veneer of federal authority. Attorney General Elizabeth Barrett-Anderson's office was direct in its warning: "the attorney general cautions Guam consumers that the IRS does not call, text or email official notification to taxpayers," noting that all genuine IRS notices are sent by postal mail, which should itself be independently verified with the IRS before being acted on. The office's guidance came the same year the real IRS began referring some old, previously contacted tax debts to a small number of named private collection agencies — a legitimate program that always starts with a mailed letter identifying the assigned company, never a text message threatening immediate arrest — and the AG's office pointed out that this legitimate wrinkle is exactly what a scammer's fake urgency is designed to exploit. No legitimate tax collection effort, public or private, uses a robocalled arrest threat and a callback number to demand action on the spot; Guam residents who receive one are advised not to call the number in the message and to report it to the AG's Consumer Protection Division at (671) 475-2720.`,
+    categorySlug: 'tax-scams',
+    alertLevel: 'medium',
+    sources: ['Office of the Attorney General of Guam — Consumer Protection Division', 'The Guam Daily Post (postguam.com)'],
+    sourceUrl: 'https://www.postguam.com/news/local/ag-beware-of-tax-scam-that-fakes-irs-collection/article_177737c2-7db1-11e7-9555-a3d4530cc88b.html',
+    country: 'US',
+    state: 'GU',
+    isHistorical: true,
+    firstRecorded: '2017-08-10',
+});
