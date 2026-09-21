@@ -7298,6 +7298,10 @@ NotoriousNS.push({
     title: 'C. Arnholt Smith: "Mr. San Diego" Whose Self-Dealing Sank the Largest Bank Failure the FDIC Had Ever Handled',
     slug: 'c-arnholt-smith-us-national-bank-san-diego-fraud',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Jack_Murphy_Stadium_1990.jpeg?width=1200',
+    coverImageCredit: 'Photo: Keith Last (CC BY 2.0), Wikimedia Commons — the San Diego stadium home to the Padres, the team Smith owned',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
     sourceUrl: 'https://en.wikipedia.org/wiki/C._Arnholt_Smith',
     body: `Conrad Arnholt Smith, born March 13, 1899, in Walla Walla, Washington, bought a controlling interest in the struggling United States National Bank (USNB) of San Diego in 1933 for roughly $50,000. Over the next four decades he built it into the largest bank in San Diego and the tenth-largest in California, with $1.2 billion in assets and more than 60 branches by the early 1970s. Smith used the bank as the financial engine behind Westgate-California Corporation, a sprawling personal conglomerate that came to include seafood canneries, hotels, a shipyard, and Air California, and he owned the San Diego Padres from their days as a minor-league club through the team's 1969 entry into the National League. Locally he was known simply as "Mr. San Diego," a civic booster, major political donor, and close friend of Richard Nixon — reportedly raising more than $1 million for Nixon's 1968 campaign and personally donating $250,000 of his own.
