@@ -21299,3 +21299,27 @@ International.push({
     sourceUrl: "http://pmo.gov.to/latest-online-scam-reported-to-police/",
     country: "TO",
 });
+
+International.push({
+    name: "Insurance Agent Premium Pocketing",
+    slug: "insurance-agent-premium-pocketing",
+    description:
+      "In this scheme a licensed insurance agent accepts a customer's premium payment but never forwards it to the insurance company, keeping the money instead. Because no policy is ever issued or kept in force, the customer believes they are covered and usually only finds out the truth when they file a claim and are told no coverage exists. The Mississippi Insurance Department lists this 'pocketing' of premiums among the agent fraud schemes consumers should watch for, and says it pursues cases through license revocations, cease-and-desist orders and criminal prosecution. Always ask for written confirmation of coverage directly from the insurance carrier, pay by check or card made out to the insurer rather than the agent personally, and verify your policy is active with the company itself. If you suspect an agent has kept your money, contact the Mississippi Insurance Department Consumer Help Line or the Insurance Integrity Enforcement Bureau of the Attorney General's Office.",
+    categorySlug: "insurance-fraud",
+    alertLevel: "medium",
+    sources: ["Mississippi Insurance Department, Consumer Services - Fight Insurance Fraud page","Insurance Integrity Enforcement Bureau, Mississippi Attorney General's Office"],
+    sourceUrl: "https://www.mid.ms.gov/mississippi-insurance-department/consumers/fight-insurance-fraud/",
+    country: "MS",
+});
+
+International.push({
+    name: "Worthless Employer Health and Workers' Compensation Coverage",
+    slug: "worthless-employer-health-and-workers-compensation-coverage",
+    description:
+      "Unauthorized operators market unusually cheap health or workers' compensation plans to small businesses and professionals, but the entity behind the plan is not a real, licensed insurer. Employees enrolled through these arrangements can be left holding worthless health coverage, and employers can end up with bogus workers' compensation protection, meaning claims simply go unpaid. A related version targets physicians shopping for lower medical malpractice premiums by steering them into fictitious offshore companies. Because the operator is not an authorized carrier, there is no state guaranty-association backstop of the kind that protects policyholders when a licensed insurer fails. Before buying any group plan, confirm with the Mississippi Insurance Department that the company and the agent are licensed in the state, and report suspected unauthorized insurers to MID or the Attorney General's Insurance Integrity Enforcement Bureau.",
+    categorySlug: "insurance-fraud",
+    alertLevel: "high",
+    sources: ["Mississippi Insurance Department, Fight Insurance Fraud consumer page","Insurance Integrity Enforcement Bureau, Mississippi Attorney General's Office"],
+    sourceUrl: "https://www.mid.ms.gov/mississippi-insurance-department/consumers/fight-insurance-fraud/",
+    country: "MS",
+});
