@@ -8964,3 +8964,54 @@ A new "client" retaining an attorney sight-unseen by email, especially one who f
     firstRecorded: '2009-03-01',
     state: 'MP',
 });
+
+UsNS.push({
+    name: 'Puerto Rico Solar Panel Installation Deposit Fraud (Virtuosity LLC)',
+    slug: 'puerto-rico-virtuosity-solar-panel-installation-fraud-jayuya',
+    description: `Gabriel O. López López, 24, owner of Virtuosity LLC, was charged in July 2022 with fraud in execution of works, aggravated illegal appropriation, and financial exploitation of an elderly person after Puerto Rico's Department of Justice found he took payment from José Martínez Coello, 79, of Jayuya, for a solar installation he never delivered. The two signed a $267,500.24 contract in March 2021; Martínez Coello made a down payment of $133,750.12 and López López cashed the check the same day, March 15, 2021. Over the following year, despite repeated requests, no meaningful work was completed and López López kept the money.
+
+Prosecutor Ileana Martínez Rosado said he faces three to eight years in prison plus fines and restitution; Justice Secretary Domingo Emanuelli Hernández urged residents to verify the legitimacy and history of solar companies before contracting and paying — advice that matters acutely in Puerto Rico, where chronic LUMA Energy grid outages have made solar-plus-battery systems one of the most heavily marketed home upgrades on the island, drawing a wave of new, unvetted contractors competing for large upfront deposits.
+
+The case shows how an elderly, first-time solar buyer can be strung along for a year-plus before realizing no equipment is coming — retirees are attractive targets because they're likelier to have savings available for a large single deposit and less likely to aggressively pursue a contractor who goes quiet. Before signing any solar contract in Puerto Rico: verify the company's contractor license and DACO complaint history, insist on a payment schedule tied to inspected milestones rather than a large upfront deposit, get the full system cost and equipment specs in writing, and treat same-day check-cashing followed by months of silence as a serious red flag. Report suspected solar or home-improvement fraud to DACO (querellas.daco.pr.gov) or the DOJ Economic Crimes Division.`,
+    categorySlug: 'home-improvement-solar',
+    sources: ['Puerto Rico Department of Justice (Departamento de Justicia)'],
+    sourceUrl: 'https://www.justicia.pr.gov/justicia-radica-cargos-contra-dueno-de-compania-de-venta-de-placas-solares/',
+    country: 'US',
+    isHistorical: true,
+    firstRecorded: '2022-07-11',
+    state: 'PR',
+});
+
+UsNS.push({
+    name: 'Puerto Rico Government Agencies Business Email Compromise Scam ($4 Million)',
+    slug: 'puerto-rico-government-agencies-bec-4-million-fraud',
+    description: `In December 2019, an attacker compromised the email account of a finance employee at Puerto Rico's Employee Retirement System and used it to impersonate her in messages to other island government agencies, falsely notifying them of a bank-account change. Puerto Rico's Industrial Development Company (PRIDCO/Fomento Industrial) wired $63,000 in December, then roughly $2.6 million more in January 2020; the Tourism Company separately wired about $1.5 million in January to a different fraudulent account, pushing the total attempted theft above $4 million.
+
+The fraud surfaced only when the real Retirement System employee called the paying agencies to ask why she hadn't received expected remittances and was told the money had already been sent. "That's when they call us and all hell breaks loose," said José Ayala, director of the FBI's fraud unit within its bank robbery division. Puerto Rico's government suspended three employees pending investigation into the email compromise; the FBI froze at least $2.9 million before it left the banking system.
+
+This is textbook business email compromise, but aimed at a target most BEC warnings don't emphasize: a public pension system used as the trusted "vendor" whose spoofed banking-change request other agencies didn't independently verify before wiring large sums, happening as Puerto Rico's government was still working through post-Hurricane Maria disaster funding and fiscal-oversight-board scrutiny, noise that made a forged "update our bank account" email easier to slip past normal approvals. Any request to change a payee's bank account information, especially one arriving only by email, should be treated as unverifiable until confirmed through a separate channel — call a known phone number for the requesting party, not one listed in the email — and organizations should require MFA on payment-handling email accounts plus mandatory second-person sign-off on any bank-account change.`,
+    categorySlug: 'business-email-compromise',
+    sources: ['NBC News (Associated Press)', 'El Economista', 'Univision Puerto Rico'],
+    sourceUrl: 'https://www.nbcnews.com/news/latino/puerto-rico-says-it-was-scammed-out-2-6-million-n1136191',
+    country: 'US',
+    isHistorical: true,
+    firstRecorded: '2019-12-01',
+    state: 'PR',
+});
+
+UsNS.push({
+    name: 'Caguas Trusted-Neighbor Debit Card PIN Theft of a 94-Year-Old Woman (Mariela Collazo Rodríguez)',
+    slug: 'puerto-rico-caguas-neighbor-debit-card-pin-theft-elder-fraud',
+    description: `Puerto Rico's Department of Justice filed 321 criminal counts on September 1, 2026 against Mariela Collazo Rodríguez, 47, of Caguas, after investigators say she spent from May through August 2025 secretly draining more than $61,000 from the bank account of a 94-year-old woman she had been helping with errands as a trusted neighbor. She learned the victim's debit card PIN through that caretaking relationship and made over 300 unauthorized transactions across multiple municipalities — roughly $44,000 in ATM withdrawals and about $13,000 in card purchases.
+
+Charges included one count each of elder abuse, aggravated illegal appropriation, and fraud, plus 159 counts of identity theft and 159 counts of illegal possession or use of a credit or debit card — essentially one pair of charges per documented transaction. Judge Irmarie Colón Massó of the Caguas First Instance Court found probable cause on all counts and set bail at $321,000, which Collazo Rodríguez posted before release under electronic monitoring ahead of a September 10, 2026 preliminary hearing. Justice Secretary Lourdes Gómez Torres said protecting elderly residents from abuse or exploitation "is a responsibility we must all assume as our highest priority."
+
+What sets this pattern apart from most scam-alert entries is that there was no phishing, fake call, or impersonation at all — the fraud relied entirely on an elderly woman sharing her debit PIN with someone she trusted to run errands, after which it was reused repeatedly without her knowledge. That makes it far harder for a bank's fraud-detection systems to catch quickly, since every transaction used a legitimate card and the correct PIN rather than a stolen number or new device, letting it continue for months before a family member notices the pattern in a statement. Families with an elderly relative who relies on a neighbor or aide for banking-adjacent errands should set up free transaction alerts (text or email) offered by most PR banks and credit unions, review statements together at least monthly, and, where a helper genuinely needs account access, use the bank's formal authorized-user or power-of-attorney process instead of sharing a PIN, which leaves no record of who made a given transaction and can't be selectively revoked. Suspected elder financial exploitation can be reported to the DOJ's Economic Crimes Division or the Family Department's elder-abuse hotline.`,
+    categorySlug: 'account-takeover',
+    sources: ['San Juan Daily Star', 'NotiCel', 'Departamento de Justicia de Puerto Rico'],
+    sourceUrl: 'https://www.sanjuandailystar.com/post/justicia-radica-321-cargos-contra-mujer-por-fraude-de-m%C3%A1s-de-61-000-d%C3%B3lares-a-adulta-mayor',
+    country: 'US',
+    isHistorical: true,
+    firstRecorded: '2025-05-01',
+    state: 'PR',
+});
