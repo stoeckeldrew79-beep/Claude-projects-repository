@@ -9184,6 +9184,9 @@ GuidesAF.push({
     slug: 'amway-ftc-mlm-settlement-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'amway-ftc-mlm-settlement'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Amway_Headquarters.jpg?width=1200',
+    coverImageCredit: "Photo: WMrapids, Wikimedia Commons (CC0) — Amway's world headquarters in Ada, Michigan",
+    coverImagePosition: 50,
     sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2026/09/ftc-takes-historic-action-against-multilevel-marketing-operator-amway-unfair-deceptive-business',
     body: `In September 2026, the Federal Trade Commission announced that Amway Corp. and two affiliated companies, World Wide Group and Leadership Team Development, would pay $225 million to resolve charges of unfair and deceptive practices — the largest monetary recovery the FTC has ever obtained from a multilevel marketing company. Amway is one of the oldest and largest MLMs in the world, selling household and wellness products through a network of independent "IBOs" (Independent Business Owners) who earn money both from their own product sales and from recruiting and overseeing other IBOs underneath them.
 
