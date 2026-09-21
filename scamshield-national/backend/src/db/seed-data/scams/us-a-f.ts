@@ -9748,3 +9748,22 @@ Colorado Attorney General Phil Weiser said of the case: "Consumers are the bigge
     firstRecorded: '2018-01-01',
     state: 'CO',
 });
+
+UsAF.push({
+    name: 'Malaeimi Church Checkbook Theft and Forged-Check Cashing Ring (Yannis Naidu)',
+    slug: 'american-samoa-naidu-malaeimi-church-checkbook-forgery',
+    description: `On July 2, 2026, someone broke into the church office of the Church of Jesus Christ of Latter-day Saints' Malaeimi congregation and stole a business checkbook off the bishop's desk. The bishop discovered the checkbook missing and reported it to the Tafuna Police Substation on July 13, 2026, but by then the checkbook — containing 50 blank checks, only 5 of which the church had ever legitimately used — was already circulating. Six days earlier, on July 8, 2026, one of the stolen checks had been passed at a store in Malaeimi: 26-year-old Yannis Naidu presented check #19970, filled out for $400, told the store owner it was his church paycheck, and walked out with roughly $330 in change after buying laundry detergent, cigarettes, sushi, and soda. The forgery carried an obvious tell the merchant missed in the moment — the written amount read "Four Hundard Dolly Only" — a reminder that a business accepting a third-party check from an unfamiliar presenter has almost no way to verify it's genuine except by calling the named account holder directly before handing over cash.
+
+Naidu was identified and apprehended during an unrelated traffic stop on September 7, 2026, roughly two months after the theft. In a police interview, he admitted his brother had taken the checkbook from the church office and that the two of them, along with several others, went on to cash multiple checks from the stolen batch at different stores around the island — spreading the fraud across enough locations and accomplices that investigators, as of the affidavit filed September 9, 2026, had still not located three of the other people involved. Naidu was charged with receiving stolen property (a Class A misdemeanor), forgery (a Class C felony), and stealing (a Class C felony), with bail set at $10,000.
+
+This case is a different mechanism from the insider embezzlement and counter-check schemes American Samoa has seen from bank tellers and fund administrators with legitimate signing authority: here, the fraud started with a straightforward burglary of a business's own checkbook, followed by a small crew passing the stolen checks at multiple small retailers before the theft was even reported to police. The nearly two-week gap between the theft and the church noticing it — and the fact that checks were already being cashed within six days — shows how much damage a stolen checkbook can do before an organization audits its own supply of blank checks.
+
+Churches, nonprofits, and small businesses in the territory should store checkbooks in a locked drawer or safe rather than an accessible desk, log and periodically count unused check numbers so a theft is caught immediately rather than weeks later, and notify their bank the same day a checkbook goes missing so the affected check-number range can be frozen. Retailers accepting a check from someone they don't personally know should independently confirm the payer's identity and call the account holder's own listed number, not one written on the check, before releasing cash or goods, since a legitimate-looking check with a business's real account and routing numbers is not proof it was authorized by anyone at that business.`,
+    categorySlug: 'identity-theft',
+    sources: ['Samoa News'],
+    sourceUrl: 'https://www.samoanews.com/local-news/man-arrested-forging-and-cashing-checks-stolen-church',
+    country: 'US',
+    isHistorical: true,
+    firstRecorded: '2026-07-02',
+    state: 'AS',
+});

@@ -12427,6 +12427,36 @@ International.push(
     sourceUrl: 'https://kanivatonga.co.nz/2023/07/tongan-scammer-accused-of-sharing-fake-car-importation-videos-to-con-victims-in-new-twist/',
     country: 'TO',
   },
+  {
+    name: 'Tonga Power Ltd Business Email Compromise Scam',
+    slug: 'tonga-power-ltd-business-email-compromise-scam',
+    description: `Tonga's Minister of Public Enterprises, Hon. Piveni Piukala, revealed at a media briefing on July 25, 2025 that Tonga Power Limited, the kingdom's state-owned electricity utility, had been defrauded of TOP$270,000 (Tongan pa'anga) through a business email compromise scheme. Tonga Power had been working through a legitimate, ongoing purchase of equipment and parts for wind turbines at Hahake, Tongatapu, from an overseas supplier. Partway through that transaction, someone impersonating the supplier — using what appeared to be a newly created or subtly altered email address — inserted themselves into the correspondence and provided a different set of banking details, directing Tonga Power's finance staff to send the payment there instead. Believing they were paying their genuine supplier, Tonga Power wired the full TOP$270,000 to the fraudulent account.
+
+The diversion went unnoticed for some time, surfacing only when the real overseas supplier contacted Tonga Power to ask why an invoice they had issued still hadn't been paid, at which point it became clear the money had already left the country to an account controlled by the scammer. Piukala's public disclosure marked one of the first times a Tongan state enterprise had confirmed falling victim to this kind of fraud.
+
+The case underscores a broader vulnerability: business email compromise schemes exploit ordinary-looking email threads on real, expected transactions, rather than the more obviously suspicious cold-contact lures typical of consumer-facing scams, making them effective even against organizations with routine overseas supplier relationships. Anyone processing an outgoing business payment, especially a change to previously used bank account details for a known supplier, should independently verify the new account information by phone through a previously confirmed contact number before transferring funds, never by replying to the email in which the change was requested.`,
+    categorySlug: 'business-email-compromise',
+    alertLevel: 'high',
+    sources: ['Matangi Tonga', 'Hon. Piveni Piukala (Tonga Minister of Public Enterprises)'],
+    sourceUrl: 'https://matangitonga.to/2025/07/29/scammers-target-tongan-public-enterprise',
+    country: 'TO',
+    firstRecorded: '2025-07-25',
+  },
+  {
+    name: 'Tonga ANZ Bank Phishing Account Takeover and Fake Job Money-Mule Scheme',
+    slug: 'tonga-anz-bank-phishing-account-takeover-money-mule-scam',
+    description: `Tonga's Supreme Court heard in July 2025 how an ANZ Bank Tonga customer, Edgar Cocker, lost TOP$244,500 to a phishing and account-takeover scheme that unfolded between June 6 and June 20, 2023. Cocker received a deceptive email and, before clicking anything, called ANZ to check whether it was genuine; the bank confirmed the email was fraudulent and told him to delete it, but by then he had already clicked the embedded link, which harvested his online banking credentials. A scammer using the name "Daniel Wilson" then logged in with the stolen credentials and moved large sums out of Cocker's account to three Tongan recipients — Ifalemi Ma'u, Kalolaine Kavaefiafi, and Siua Mafi Kavafono'atu — who had separately been recruited through fake employment offers purporting to be sales-representative positions for a company called "Lina Interiors," with promised salaries of US$4,500 to $5,500 a month.
+
+Believing they were being paid legitimate wages or commissions and following their "employer's" instructions, the three unknowingly forwarded the stolen funds on to further accounts in Turkey and the United States, effectively laundering the money as unwitting mules before any of it could be traced or recovered. When the three recipients were prosecuted, the Supreme Court acquitted all of them after finding no evidence they knew the money was stolen. Chief Justice Malcolm Bishop KC was sharply critical of ANZ's handling of the case, saying he "would have thought that with a valued customer with this substantial credit balance, the bank would have taken immediate steps to freeze the account" once alerted to the fraud, but that the bank "did nothing," and he urged ANZ to reconsider compensating Cocker and to strengthen its fraud-response procedures.
+
+The case illustrates two compounding risks: individuals should never click links in an unsolicited "verify your account" email even after checking with their bank generally, since a bank's phone assurance may not undo a link already clicked; and anyone offered a remote "sales representative" job that pays a normal salary but asks them to receive and forward money through their personal bank account should recognize that as a classic money-mule setup, not a real job, and refuse.`,
+    categorySlug: 'account-takeover',
+    sources: ['Kaniva Tonga News', "Tonga's Supreme Court"],
+    sourceUrl: 'https://kanivatonga.co.nz/2025/07/tongas-supreme-court-criticizes-anz-bank-over-inaction-in-244500-scam-case/',
+    country: 'TO',
+    isHistorical: true,
+    firstRecorded: '2023-06-06',
+  },
 );
 
 International.push(
@@ -16195,6 +16225,26 @@ International.push(
     sources: ['Service Interrégional de Police Judiciaire (SIRPJ), Zinder, Niger', 'ActuNiger'],
     sourceUrl: 'https://actuniger.com/faits-divers/20688-cybercriminalite-une-operation-denvergure-a-zinder-met-fin-a-un-reseau-de-15-escrocs-electroniques-133-millions-fcfa-derobes.html',
     country: 'NE',
+  },
+);
+
+International.push(
+  {
+    name: 'Niamey Honey and Shea Butter Export Investment Confidence Scheme',
+    slug: 'niger-niamey-honey-shea-butter-export-investment-scam',
+    description: `Niger Inter reported on January 6, 2025 that Niamey's Direction de la Police Judiciaire had dismantled a nine-member fraud network — Nigerien nationals and foreigners, including women — built around a fake export investment pitch. Investigators identified 54 victims across 46 completed frauds and 8 further attempts, with total documented losses of 40,609,000 CFA francs, roughly $68,000 to $70,000.
+
+The scheme began with an ordinary social approach: members contacted targets posing as an old acquaintance rather than a stranger pitching a cold offer, a pattern police said made victims far less guarded than they would have been with an unsolicited pitch. Once trust was established, the scammer proposed a business opportunity: investing in honey and shea butter, commodities genuinely produced and traded in the Sahel, that the "business" supposedly exported to buyers in Turkey and China. Victims who agreed wired money toward the purchase or shipment; once funds arrived, the network cut off all contact, and the goods, buyers, and export deal never existed.
+
+The case is one of several cybercrime-unit busts Niger's Police Judiciaire announced in this period, part of a broader rise in social-engineering fraud that pairs a manufactured personal relationship with a cross-border trade or investment pitch — precisely because ordinary Nigeriens have little independent way to verify a claimed foreign buyer or shipment.
+
+Anyone approached, even by someone who first presents themselves as a friend or acquaintance, with an opportunity to invest in a commodity export deal should independently verify the buyer, the goods, and the shipping arrangement through Niger's Chamber of Commerce or a licensed trade intermediary before sending money, and should treat a request to wire funds toward a deal that cannot be inspected or confirmed directly as a serious warning sign regardless of how personally the relationship was built first.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'high',
+    sources: ['Niger Inter', 'Direction de la Police Judiciaire de Niamey'],
+    sourceUrl: 'https://nigerinter.com/2025/01/06/cybercriminalite-un-reseau-descroquerie-electronique-demantele-a-niamey/',
+    country: 'NE',
+    firstRecorded: '2025-01-06',
   },
 );
 
@@ -20550,36 +20600,6 @@ International.push(
     sourceUrl: 'https://www.comoresinfos.net/escroquerie-a-grande-echelle-la-sonelec-alerte-sur-les-agissements-dibrahim-abdallah-le-faussaire-de-confiance/',
     country: 'KM',
   },
-  {
-    name: 'Tonga Power Ltd Business Email Compromise Scam',
-    slug: 'tonga-power-ltd-business-email-compromise-scam',
-    description: `Tonga's Minister of Public Enterprises, Hon. Piveni Piukala, revealed at a media briefing on July 25, 2025 that Tonga Power Limited, the kingdom's state-owned electricity utility, had been defrauded of TOP$270,000 (Tongan pa'anga) through a business email compromise scheme. Tonga Power had been working through a legitimate, ongoing purchase of equipment and parts for wind turbines at Hahake, Tongatapu, from an overseas supplier. Partway through that transaction, someone impersonating the supplier — using what appeared to be a newly created or subtly altered email address — inserted themselves into the correspondence and provided a different set of banking details, directing Tonga Power's finance staff to send the payment there instead. Believing they were paying their genuine supplier, Tonga Power wired the full TOP$270,000 to the fraudulent account.
-
-The diversion went unnoticed for some time, surfacing only when the real overseas supplier contacted Tonga Power to ask why an invoice they had issued still hadn't been paid, at which point it became clear the money had already left the country to an account controlled by the scammer. Piukala's public disclosure marked one of the first times a Tongan state enterprise had confirmed falling victim to this kind of fraud.
-
-The case underscores a broader vulnerability: business email compromise schemes exploit ordinary-looking email threads on real, expected transactions, rather than the more obviously suspicious cold-contact lures typical of consumer-facing scams, making them effective even against organizations with routine overseas supplier relationships. Anyone processing an outgoing business payment, especially a change to previously used bank account details for a known supplier, should independently verify the new account information by phone through a previously confirmed contact number before transferring funds, never by replying to the email in which the change was requested.`,
-    categorySlug: 'business-email-compromise',
-    alertLevel: 'high',
-    sources: ['Matangi Tonga', 'Hon. Piveni Piukala (Tonga Minister of Public Enterprises)'],
-    sourceUrl: 'https://matangitonga.to/2025/07/29/scammers-target-tongan-public-enterprise',
-    country: 'TO',
-    firstRecorded: '2025-07-25',
-  },
-  {
-    name: 'Tonga ANZ Bank Phishing Account Takeover and Fake Job Money-Mule Scheme',
-    slug: 'tonga-anz-bank-phishing-account-takeover-money-mule-scam',
-    description: `Tonga's Supreme Court heard in July 2025 how an ANZ Bank Tonga customer, Edgar Cocker, lost TOP$244,500 to a phishing and account-takeover scheme that unfolded between June 6 and June 20, 2023. Cocker received a deceptive email and, before clicking anything, called ANZ to check whether it was genuine; the bank confirmed the email was fraudulent and told him to delete it, but by then he had already clicked the embedded link, which harvested his online banking credentials. A scammer using the name "Daniel Wilson" then logged in with the stolen credentials and moved large sums out of Cocker's account to three Tongan recipients — Ifalemi Ma'u, Kalolaine Kavaefiafi, and Siua Mafi Kavafono'atu — who had separately been recruited through fake employment offers purporting to be sales-representative positions for a company called "Lina Interiors," with promised salaries of US$4,500 to $5,500 a month.
-
-Believing they were being paid legitimate wages or commissions and following their "employer's" instructions, the three unknowingly forwarded the stolen funds on to further accounts in Turkey and the United States, effectively laundering the money as unwitting mules before any of it could be traced or recovered. When the three recipients were prosecuted, the Supreme Court acquitted all of them after finding no evidence they knew the money was stolen. Chief Justice Malcolm Bishop KC was sharply critical of ANZ's handling of the case, saying he "would have thought that with a valued customer with this substantial credit balance, the bank would have taken immediate steps to freeze the account" once alerted to the fraud, but that the bank "did nothing," and he urged ANZ to reconsider compensating Cocker and to strengthen its fraud-response procedures.
-
-The case illustrates two compounding risks: individuals should never click links in an unsolicited "verify your account" email even after checking with their bank generally, since a bank's phone assurance may not undo a link already clicked; and anyone offered a remote "sales representative" job that pays a normal salary but asks them to receive and forward money through their personal bank account should recognize that as a classic money-mule setup, not a real job, and refuse.`,
-    categorySlug: 'account-takeover',
-    sources: ['Kaniva Tonga News', "Tonga's Supreme Court"],
-    sourceUrl: 'https://kanivatonga.co.nz/2025/07/tongas-supreme-court-criticizes-anz-bank-over-inaction-in-244500-scam-case/',
-    country: 'TO',
-    isHistorical: true,
-    firstRecorded: '2023-06-06',
-  },
 );
 
 International.push({
@@ -21185,18 +21205,6 @@ Unlike Madagascar's better-documented pattern of Malagasy youth being trafficked
 });
 
 International.push({
-    name: "Tonga Police Warning: \"Anthony Heich\" Facebook Romance Scam Using Forged Documents",
-    slug: "anthony-heich-facebook-romance-scam-forged-documents",
-    description:
-      "Tonga Police have publicised a romance fraud in which a fake Facebook account using the name \"Anthony Heich\" sends unsolicited friend requests to Tongan users. The scammer chats continuously for around six weeks to convince the target they are in a genuine romantic relationship, then asks for money and backs the request up with fabricated paperwork. Police released images of some of the forged documents so the public can recognise the style of forgery being used. Their advice is to learn how to spot fake emails and websites, never post personal documents online where they can fuel identity theft, and treat any too-good-to-be-true offer as hostile. If someone you have only met online asks you for money, talk to a trusted person first and report the account to the Tonga Police before sending anything.",
-    categorySlug: "romance-scams",
-    alertLevel: "high",
-    sources: ["Tonga Police (Media & Public Relations Office)","Government of Tonga, Prime Minister's Office website"],
-    sourceUrl: "http://pmo.gov.to/latest-online-scam-reported-to-police/",
-    country: "TO",
-});
-
-International.push({
   name: 'Sint Maarten Fake Invoice Scam Targeting Local Businesses',
   slug: 'sint-maarten-fake-invoice-scam-local-businesses',
   description: `The Police Force of Sint Maarten (KPSM) Fraud Department issued a public warning on February 6, 2024, alerting local businesses to a rise in fraudulent invoice scams targeting the island's business community. According to the alert, "The scammers have been utilizing fraudulent invoices, appearing authentic, to deceive businesses into making unwarranted payments for services that were never rendered." The invoices are typically sent by email and mimic real vendors or service providers closely enough to pass a quick glance, prompting accounts-payable staff to process payment for work or goods that were never ordered or delivered. KPSM urged businesses to "exercise extreme caution and vigilance when handling invoices and making online payments," recommending that companies verify the authenticity of any invoice independently, confirm payment requests directly with the purported sender using contact information obtained separately from the invoice itself, and train employees to recognize the red flags of this kind of fraud. The Fraud Department asked any business that receives a suspicious invoice, or that has already made a fraudulent payment, to report it immediately by calling +1721-542-2222.`,
@@ -21278,4 +21286,16 @@ Although this documented case dates to 2009, the underlying mechanism — a spoo
   country: 'PW',
   isHistorical: true,
   firstRecorded: '2009-07-22',
+});
+
+International.push({
+    name: "Tonga Police Warning: \"Anthony Heich\" Facebook Romance Scam Using Forged Documents",
+    slug: "anthony-heich-facebook-romance-scam-forged-documents",
+    description:
+      "Tonga Police have publicised a romance fraud in which a fake Facebook account using the name \"Anthony Heich\" sends unsolicited friend requests to Tongan users. The scammer chats continuously for around six weeks to convince the target they are in a genuine romantic relationship, then asks for money and backs the request up with fabricated paperwork. Police released images of some of the forged documents so the public can recognise the style of forgery being used. Their advice is to learn how to spot fake emails and websites, never post personal documents online where they can fuel identity theft, and treat any too-good-to-be-true offer as hostile. If someone you have only met online asks you for money, talk to a trusted person first and report the account to the Tonga Police before sending anything.",
+    categorySlug: "romance-scams",
+    alertLevel: "high",
+    sources: ["Tonga Police (Media & Public Relations Office)","Government of Tonga, Prime Minister's Office website"],
+    sourceUrl: "http://pmo.gov.to/latest-online-scam-reported-to-police/",
+    country: "TO",
 });
