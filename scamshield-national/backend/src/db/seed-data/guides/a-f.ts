@@ -9203,6 +9203,10 @@ GuidesAF.push({
     title: `Crypto Airdrop Scams: How an Unsolicited "Free" Token Talks You Into Handing Over Your Seed Phrase`,
     slug: 'crypto-airdrop-scam-guide',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Trezor_-_Hard_Wallet-_Cold_Storage_for_Cryptocurrency.jpg?width=1200',
+    coverImageCredit: 'Photo: Sanjev Rajaram (CC BY-SA 4.0) — a hardware crypto wallet, the device type whose seed phrase these scams target',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     tags: ['guide', 'crypto-airdrop-scam'],
     sourceUrl: 'https://www.ic3.gov/PSA/2025/PSA250603',
     body: `A crypto wallet holder checks their balance one day and finds a token or NFT they never bought and never requested — something with a name like "HEDERA REWARD" or "CLAIM AT [site]" just sitting there. This isn't a glitch and it isn't a gift. Blockchains let anyone send a token to any public wallet address with no permission required from the recipient, so scammers "airdrop" millions of these tokens to real wallets, betting that curiosity — or the hope of a genuine free reward — will get at least some victims to investigate further. The FBI's Internet Crime Complaint Center formally warned about this pattern in June 2025 after criminals used it to defraud non-custodial wallet users on the Hedera Hashgraph network, but the same technique now shows up across nearly every major blockchain.
