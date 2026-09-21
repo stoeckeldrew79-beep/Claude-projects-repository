@@ -4753,6 +4753,9 @@ GuidesGM.push({
   slug: 'milano-cortina-2026-winter-olympics-scam-guide',
   author: 'ScamShield Editorial',
   tags: ['guide', 'olympics-ticket-scam', 'travel-scam', 'event-scam', 'phishing'],
+  coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/2019_Cortina_d'Ampezzo.jpg?width=1200",
+  coverImageCredit: 'Photo: Tiia Monto, Wikimedia Commons (CC BY-SA 3.0) — Cortina d\'Ampezzo, co-host of the 2026 Winter Olympics',
+  coverImagePosition: 50,
   sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2026/01/traveling-olympics-italy-heres-how-avoid-scam',
   body: `A fan searching for tickets to the Milano Cortina 2026 Winter Olympics — held in northern Italy from February 6 to 22, 2026, across venues in Milan, Cortina d'Ampezzo, Livigno, and Bormio — clicks a sponsored ad or a link shared in a group chat and lands on a site that looks like an official ticket marketplace. It takes a card number, charges it, and either sends nothing or sends a ticket that won't scan at the gate. This is the same seasonal pattern that shows up before every Olympics and World Cup: scammers spin up a wave of lookalike sites timed to a once-every-few-years event, counting on buyers who are excited, in a hurry, and unfamiliar with exactly who the "official" seller is supposed to be.
 
@@ -4770,6 +4773,9 @@ GuidesGM.push({
     slug: 'fake-interac-e-transfer-notification-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'interac-e-transfer-phishing'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Toronto_skyline._(49366040606).jpg?width=1200',
+    coverImageCredit: 'Photo: Bernard Spragg. NZ, Wikimedia Commons (CC0) — Toronto, Canada, where Interac e-Transfer is the standard bank-to-bank payment method',
+    coverImagePosition: 50,
     sourceUrl: 'https://fcnb.ca/en/news-alerts/fraud-alert-fake-interac-e-transfer-notifications',
     body: `Interac e-Transfer is the standard way tens of millions of Canadians send and receive money directly between bank accounts, built into the online banking app of every major Canadian bank — which is exactly why a fake notification imitating one works so well. The scam arrives as an email or text formatted to look like a routine e-Transfer alert: "You have received an Interac e-Transfer, click here to deposit your funds." The link doesn't lead to Interac or to the recipient's actual bank — it leads to a convincing fake login page built to capture whatever online banking username and password gets typed into it, handing the account over to whoever built the page.
 
