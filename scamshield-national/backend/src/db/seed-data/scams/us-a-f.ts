@@ -9767,3 +9767,16 @@ Churches, nonprofits, and small businesses in the territory should store checkbo
     firstRecorded: '2026-07-02',
     state: 'AS',
 });
+
+UsAF.push({
+    name: "Bitcoin ATM and Crypto Kiosk Payment Scams",
+    slug: "bitcoin-atm-and-crypto-kiosk-payment-scams",
+    description:
+      "The Mississippi Secretary of State's Securities Division issued a December 17, 2025 alert about a rise in scams that push victims to pay through Bitcoin ATMs, the crypto kiosks found in convenience stores and malls that look much like bank ATMs. Contact usually starts with an unexpected phone call, text message, or computer pop-up, and the scammer then walks the target to a nearby kiosk and coaches them through feeding in cash or swiping a debit card. Once the money converts to cryptocurrency and lands in the fraudster's wallet, it is effectively gone and cannot be reversed, which is why imposters and fake financial advisers prefer this channel. The Division reports rising Mississippi complaint volume tied to these payment demands. Never click links or reply to unexpected messages, contact any company or agency using a number you already had, slow down before any financial decision, and independently verify anyone claiming to be a financial adviser with the Securities Division.",
+    categorySlug: "cryptocurrency-scams",
+    alertLevel: "high",
+    sources: ["Mississippi Secretary of State, Securities Division"],
+    sourceUrl: "https://www.sos.ms.gov/news/secretary-michael-watson-warns-increasing-uses-bitcoin-atm-scams",
+    country: "US",
+    state: "MS",
+});

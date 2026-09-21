@@ -9034,3 +9034,16 @@ Anyone told that a windfall — an inheritance, a lottery prize, "found money" s
     firstRecorded: '2015-05-28',
     state: 'MP',
 });
+
+UsNS.push({
+    name: "Safeguard Metals Gold IRA Retirement-Liquidation Fraud",
+    slug: "safeguard-metals-gold-ira-retirement-liquidation-fraud",
+    description:
+      "California-based Safeguard Metals LLC and owner Jeffrey Santulan (also known as Jeffrey Ikahn and Jeffrey Hill) cold-called older investors and pressured them to cash out conventional retirement accounts and roll the money into self-directed IRAs holding gold and silver coins and bullion. The firm hid the enormous markup it charged, so buyers often lost the majority of their savings the instant the sale closed, receiving metal worth far less than the securities they liquidated. Six Mississippi investors lost nearly $892,000. Mississippi Attorney General Lynn Fitch and Secretary of State Michael Watson, working with the CFTC and other state regulators, obtained a final judgment in October 2025 for more than $51 million in restitution and penalties, and Mississippi barred Santulan from any investment adviser, broker-dealer, or commodity adviser role in the state. If someone calls urging you to move retirement funds into precious metals, hang up and verify the seller's license with the Mississippi Secretary of State's Securities Division before sending any money.",
+    categorySlug: "investment-fraud",
+    alertLevel: "high",
+    sources: ["Mississippi Secretary of State, Securities Division","Mississippi Attorney General Lynn Fitch","U.S. Commodity Futures Trading Commission"],
+    sourceUrl: "https://www.sos.ms.gov/press/secretary-michael-watson-attorney-general-lynn-fitch-cftc-29-state-regulators-reach",
+    country: "US",
+    state: "MS",
+});
