@@ -9697,3 +9697,54 @@ The case shows that in a small banking market like American Samoa's — served b
     firstRecorded: '2023-09-25',
     state: 'AS',
 });
+
+UsAF.push({
+    name: 'E-470/ExpressToll Fake Toll-Balance Text Scam',
+    slug: 'colorado-e470-expresstoll-toll-text-scam',
+    description: `Since at least 2024, Colorado drivers have been targeted by a smishing (SMS phishing) campaign impersonating the state's toll systems — E-470, ExpressToll, and CDOT's Express Lanes program. The Colorado Department of Transportation confirmed in a July 30, 2025 press release that the scam has been "unceasing" over the prior two years: texts falsely claim the recipient has an outstanding toll account balance and threaten late fees or legal action if not paid by a set date, with a link to a fraudulent payment site. CDOT traced a number of the texts to phone numbers with a +63 country code, indicating they originate from the Philippines, and the case remains under active investigation by the FBI's Internet Crime Complaint Center (IC3).
+
+Denver7 Investigates documented a specific victim, Clint Bales, a Denver-area landscaping-company owner, who exited a C-470 Express Lane incorrectly and received a text the next day reading "EZ Pass Final Reminder. You have an outstanding toll," which included his real license plate number and vehicle description — details that made the message convincing enough that he paid. His credit card was immediately enrolled in Apple Pay without his authorization, and when he went back to check the payment site, it had vanished. Colorado Attorney General Phil Weiser said his office has received dozens of complaints about these toll-text scams, warning that scammers are "getting information that's actually about you," so a text that includes something true about you is still not proof it's legitimate.
+
+CDOT and E-470 both confirm neither entity ever bills, collects payment, or requests personal information via text message — all real toll charges are billed only through a driver's ExpressToll.com account or by mail. Never click a link in a text about tolls; verify any balance directly at ExpressToll.com or by calling customer service; report suspicious texts to IC3 (ic3.gov) with the originating number and scam URL; if you already paid, dispute the charge and monitor for unauthorized account enrollments.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Colorado Department of Transportation', 'Denver7 Investigates', 'Colorado Attorney General'],
+    sourceUrl: 'https://www.codot.gov/news/2025/july/scam-attempts-via-fraudulent-texts-colorado-express-lanes-expresstoll-ez-pass',
+    country: 'US',
+    firstRecorded: '2024-01-01',
+    state: 'CO',
+});
+
+UsAF.push({
+    name: 'Colorado Springs "Tech Support Refund" Call-Center Fraud (Safder Iqbal)',
+    slug: 'colorado-springs-iqbal-tech-support-refund-fraud',
+    description: `Safder Iqbal, a then-28-year-old Indian national who had come to Colorado Springs in April 2018 on a J-1 visa to work at a local hotel, was sentenced in Denver federal court to five years in prison for laundering proceeds from a tech-support fraud ring that operated from 2011 through November 2018. India-based call center agents posing as legitimate tech-support companies called elderly victims across the U.S. and falsely told them they had erroneously received, or would soon receive, a refund for computer tech-support services.
+
+Once a victim was on the phone, agents talked them into installing remote-access software, giving the scammer direct control of their computer. From there, agents pulled up the victim's online banking, generated a fake bank statement showing a large deposit had landed in the victim's account when nothing had actually been deposited, and pressured the victim to "return" the erroneous overpayment, typically by wiring money or buying gift cards, while the scammers kept the real funds. Iqbal's specific role was moving and laundering the stolen proceeds domestically inside the U.S.; he pleaded guilty and was ordered to pay $377,889.35 in restitution to victims. Then-U.S. Attorney Jason Dunn said at sentencing: "Stealing from the elderly and vulnerable is a crime that can threaten the victim's ability to pay their most basic living expenses. Prison is an appropriate place for those like this defendant who come to this country for no other reason than to scam people."
+
+The case illustrates that "tech support scam" call centers are often transnational operations with a U.S.-based money-laundering layer, someone physically present to receive wires, cash gift cards, or otherwise move stolen funds domestically before it's sent overseas, which is why law enforcement can sometimes make arrests in the U.S. even when the calling operation itself is based abroad. No legitimate company issues a "refund" by asking you to install remote-access software; never let an unsolicited caller control your computer or view your online banking; a "you were overpaid, please return the difference" request is the classic structure of a refund/overpayment scam regardless of the pretext, so hang up and contact the company directly using a number you look up yourself.`,
+    categorySlug: 'tech-support-scams',
+    sources: ["U.S. Attorney's Office, District of Colorado", 'The Gazette (Colorado Springs)'],
+    sourceUrl: 'https://gazette.com/news/indian-citizen-who-worked-at-colorado-springs-hotel-sentenced-in-phone-scam-targeting-elderly-victims/article_07c87bb8-3eea-11ea-96b4-eb9440a92d37.html',
+    country: 'US',
+    isHistorical: true,
+    firstRecorded: '2011-01-01',
+    state: 'CO',
+});
+
+UsAF.push({
+    name: '$268,530 Insurance-Adjuster Auto Claims Fraud Ring (Colette Palin)',
+    slug: 'colorado-aurora-palin-insurance-adjuster-fraud-ring',
+    description: `Colette Palin, 63, of Aurora, worked as a claims adjuster for Travelers Insurance when, between 2018 and 2020, she issued 64 fraudulent auto-insurance claim payments totaling $268,530 to herself and two associates: Shawn Brassfield, 55, of Aurora, and Malee Lor, 47, a former Thornton police officer. Travelers flagged the scheme in 2020 after noticing several suspicious claims were all tied to the same email address; an internal investigation traced that address back to Palin herself, and the company referred the case to the Financial Fraud Unit in the Criminal Justice Section of the Colorado Department of Law.
+
+Palin admitted to investigators she began the fraud to help cover her sister's medical bills and later to fund her own gambling debts. Of the total stolen, Lor received $31,495 and Brassfield received $23,344. Palin pleaded guilty to theft, a class four felony, and insurance fraud, a class five felony, and was sentenced by an Arapahoe County District Court judge to 20 years of probation, $268,530 in restitution, mandatory gambling-addiction treatment, a lifetime casino ban as a probation condition, participation in a victim impact panel, and 48 hours of community service; Lor was separately sentenced to 10 years of probation and Brassfield to eight years of probation, each with community service.
+
+Colorado Attorney General Phil Weiser said of the case: "Consumers are the biggest victims of insurance fraud, because we all pay higher premiums when fraudsters strike." Unlike most scams, the "victim" here is the broader pool of policyholders rather than a single deceived individual — internal insurance-employee fraud drives up premiums for everyone. Consumers who suspect any insurance fraud, whether by a company insider, a body shop, or a staged-accident scheme, can report it to StopFraudColorado.gov.`,
+    categorySlug: 'insurance-fraud',
+    sources: ['Colorado Attorney General'],
+    sourceUrl: 'https://coag.gov/2024/8-20-24/',
+    country: 'US',
+    isHistorical: true,
+    firstRecorded: '2018-01-01',
+    state: 'CO',
+});

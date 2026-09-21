@@ -9182,3 +9182,36 @@ This pattern is squarely current: the FBI publicly warned in February 2026 that 
     country: 'US',
     state: 'MO',
 });
+
+UsGM.push({
+    name: 'Prestige Automobiles Luxury-Car Identity-Theft Export Scheme',
+    slug: 'guam-prestige-automobiles-luxury-car-export-identity-theft',
+    description: `John Shen, president of Prestige Automobiles on Guam, sales manager Orlando "Orly" Domingo, and a third defendant, Ana Kristine L. Absalon, ran a scheme in which more than 50 BMWs and Range Rovers were fraudulently registered on Guam in the names of real Guam residents who had never bought them, then shipped overseas to China, where the vehicles resold for double or triple their U.S. sticker price. The victims did not choose to participate and mostly had no idea their identities were being used — many only discovered the fraud when they were denied public assistance, questioned about a car loan they never took out, or flagged for a vehicle registration in their name they'd never seen.
+
+A joint FBI and Guam Office of the Attorney General investigation led to Shen, Domingo, and Absalon being arrested just before Christmas 2016 and arraigned on charges including identity theft, tampering with public records, forgery, and conspiracy; Absalon, a former Prestige employee, admitted her role in the scheme.
+
+This is a distinct pattern from other Guam identity-theft cases: here the victims were uninvolved third parties whose identity was borrowed to legitimize a vehicle-export fraud, not people directly deceived or exploited one-on-one. It's a reminder that identity theft doesn't always show up as a drained bank account — it can surface as a vehicle title, loan application, or government record in your name that you never created. Residents should periodically check their own DMV/vehicle records and credit reports for accounts or titles they don't recognize; an unexplained denial of public benefits or unfamiliar loan paperwork is a red flag worth reporting to the Guam Office of the Attorney General and the FTC.`,
+    categorySlug: 'identity-theft',
+    sources: ['Pacific Daily News / Postguam.com'],
+    sourceUrl: 'https://www.postguam.com/news/local/players-in-luxury-car-dealership-scam-appear-in-court/article_2ed23d5c-cc92-11e6-9a36-8fc5ac12a14b.html',
+    country: 'US',
+    isHistorical: true,
+    firstRecorded: '2016-12-23',
+    state: 'GU',
+});
+
+UsGM.push({
+    name: 'USPS "Awaiting Action" Package-Delivery Smishing Surge (Guam & Saipan)',
+    slug: 'guam-usps-smishing-package-delivery-scam',
+    description: `The U.S. Postal Inspection Service issued a regional alert after seeing a specific rise in complaints from consumers in Guam and Saipan about unsolicited text messages impersonating USPS. The texts claim a Postal Service delivery is "awaiting your action" and include a link to an unrecognized website — a technique known as smishing (SMS phishing).
+
+Clicking the link can install malware on a mobile device or lead to a convincing fake site designed to harvest usernames, passwords, Social Security numbers, dates of birth, and credit or debit card numbers, information scammers then use to commit further financial fraud, sometimes under the victim's own name.
+
+Never click links in unsolicited "delivery action needed" texts; verify tracking only via usps.com typed directly into a browser; report smishing to spam@uspis.gov with a screenshot of the message and sender number.`,
+    categorySlug: 'package-delivery-scams',
+    alertLevel: 'medium',
+    sources: ['U.S. Postal Inspection Service', 'Pacific Daily News / Postguam.com'],
+    sourceUrl: 'https://www.postguam.com/news/local/postal-inspection-service-warns-against-smishing-scams-as-complaints-rise-in-guam-and-saipan/article_a58412f8-79e3-11ee-8aa3-c7b43c998599.html',
+    country: 'US',
+    state: 'GU',
+});
