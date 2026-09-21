@@ -18706,6 +18706,38 @@ International.push(
 );
 International.push(
   {
+    name: 'WAAFI "Instant Loan" AI-Generated Deepfake Video Scam',
+    slug: 'somalia-waafi-ai-deepfake-loan-scam',
+    description: `A Facebook video shared on May 4, 2026 announced that Salaam Somali Bank's WAAFI mobile wallet app was offering quick, effortless "promotions and loans," with Somali-language text urging viewers: "Do you need a quick promotion? Salaam loans are here for you! Get a loan easily with a simple application process and instant notifications designed to support your goals." The clip opens with a narrator welcoming viewers to "WAAFI Loans, a quick, easy and reliable loan solution," then cuts to a woman in a shop saying WAAFI Loans "helped me expand my business" while displaying a dashboard balance of $3,063.00, followed by a man in a phone-accessories shop repeating nearly identical language over a $5,120.77 balance.
+
+Fact-checking organization PesaCheck found multiple signs of artificial generation on close review — unnatural Somali speech patterns, overly smooth facial expressions around the lips, cheeks, and eyes, and unnatural lighting and depth of field — and ran the footage through the AI-detection tool Hive Moderation, which rated it 99.9 percent likely to be AI-generated. WAAFI's own Facebook page had already flagged the video as fraudulent, posting: "Consumers, beware of internet scams and fake messages... Remember: WAAFI or the bank will never ask you for your PIN, OTP or your password... Do not share your financial information with anyone, even if they claim to be from WAAFI or the bank." WAAFI's chief marketing officer, Omar Jafar Salah, confirmed to PesaCheck directly: "We post warnings on our Facebook page. The video circulating on social media is fake and a scam. WAAFI and the bank never ask people to share their PIN, OTP, or password."
+
+The case illustrates a fast-emerging tactic in Somalia's fraud landscape: using AI-generated "testimonial" videos featuring fabricated small-business owners to lend a nonexistent loan product false social proof. Anyone who encounters a video or post advertising instant loans from a bank or mobile-money brand should verify the offer only through that institution's own verified page or app, never a link or number attached to the post itself, and should treat any request for a PIN, OTP, or password as an automatic red flag, since no legitimate Somali mobile-money provider asks for that information through social media or an unsolicited call.`,
+    categorySlug: 'ai-deepfake-scams',
+    alertLevel: 'high',
+    sources: ['PesaCheck', 'Salaam Somali Bank (WAAFI)'],
+    sourceUrl: 'https://pesacheck.org/hoax-this-post-claiming-waafi-app-is-offering-quick-and-easy-loans-is-a-scam/',
+    country: 'SO',
+    firstRecorded: '2026-05-04',
+  },
+  {
+    name: 'Hormuud Telecom Fake "$50-$200,000 Instant Loan" Poster Scam',
+    slug: 'somalia-hormuud-telecom-fake-loan-poster-scam',
+    description: `A graphic circulated on Facebook starting June 22, 2026 used Somalia's largest telecom operator, Hormuud Telecom, and its brand colors and logo to advertise loans "starting from $50 to $200,000," promising an "easy application process" and "instant approval," with accompanying Somali text directing readers to "get a quick loan from Waafi. Contact us on our website." The poster leaned on the real, legitimate relationship between Hormuud Telecom and the WAAFI mobile-money app — WAAFI is directly linked to both Hormuud and Salaam Somali Bank — to make an entirely fabricated loan product look credible.
+
+PesaCheck traced the link attached to the post and found it redirected not to Hormuud's genuine website but to an unrelated page displaying only the message "The server has been suspended by its owner" — evidence the scam infrastructure behind the offer had already been taken down or was never fully built out, a common pattern where the "landing page" exists just long enough to harvest whoever clicks through before disappearing. Hormuud Telecom posted its own public denial on Facebook: "We are warning the Somali community about the false promises being made on the internet by gangs claiming to be Hormuud Telecom, promising people that they will provide them with financial loans. Therefore, be careful and do not be fooled by the misleading promises that these gangs want to use your information for nefarious purposes."
+
+This poster surfaced less than two months after a separate, related AI-generated video hoax falsely advertised loans through WAAFI itself, suggesting a coordinated or copycat push by fraud networks to exploit Somalia's trusted mobile-money brands as loan-offer bait during the same period. Consumers should treat any "instant loan" offer attached to a telecom or bank brand's name as suspicious by default, verify such an offer only by going directly to the company's own official app, website, or verified social page rather than a link embedded in the ad itself, and remember that neither Hormuud, Salaam Somali Bank, nor WAAFI solicits loan applicants through unsolicited social-media posters.`,
+    categorySlug: 'phishing',
+    alertLevel: 'high',
+    sources: ['PesaCheck', 'Hormuud Telecom'],
+    sourceUrl: 'https://pesacheck.org/hoax-this-poster-claiming-hormuud-telecom-is-offering-instant-and-easy-loans-is-a-scam/',
+    country: 'SO',
+    firstRecorded: '2026-06-22',
+  },
+);
+International.push(
+  {
     name: 'Generación Zoe "Zoe Capital" Investment Pyramid Scheme',
     slug: 'paraguay-generacion-zoe-capital-pyramid-scheme',
     description: `Argentine multi-level-marketing outfit Generación Zoe, which branded its investment arm "Zoe Capital" and promoted itself through "life coaching" seminars, its own cryptocurrency token (Zoe Cash), and promises of extraordinary dollar returns, expanded into Paraguay in 2021 by soliciting investment packages ranging from $1,000 to $100,000. Paraguay's securities regulator, the Comisión Nacional de Valores (CNV), issued a public "Advertencia para el Público en General" on September 21, 2021, stating that Zoe Capital and anyone promoting investments under that name were neither registered with the CNV nor authorized to publicly offer securities in the country. Weeks later, in October 2021, Paraguay's National Police Cybercrime Department raided a Zoe-linked investment office in Asunción, seizing contracts, capital-raising records, and four computers, and detaining four "commission agents" who had been paid to recruit new investors into what they described as a "Zoe University" training program. By January 2022, SEPRELAD (Paraguay's anti-money-laundering agency) director Carlos Arregui confirmed the agency was requesting reports from financial-intelligence counterparts across the region, saying "no tenemos algo concreto aún, pero estamos pidiendo los informes a nuestros pares de la región" ("we don't have anything concrete yet, but we're requesting reports from our regional counterparts"), while authorities in Argentina — where Generación Zoe's founder Leonardo Cositorto was later arrested — pursued a parallel investigation into a scheme regulators eventually linked to tens of thousands of investors across multiple Latin American countries. The CNV maintains a public registry of firms authorized to solicit investment funds in Paraguay, and warns that any company promising guaranteed high-dollar returns from a platform not listed there should be treated as a red flag before any money changes hands.`,
