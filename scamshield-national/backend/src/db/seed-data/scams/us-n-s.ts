@@ -8907,3 +8907,41 @@ UsNS.push({
     firstRecorded: '2020-06-17',
     state: 'PR',
 });
+
+UsNS.push({
+    name: 'Hickman Couple\'s $250,000 Amazon/FBI Impersonation Bitcoin ATM Scam',
+    slug: 'nebraska-hickman-amazon-fbi-bitcoin-atm-elder-fraud',
+    description: `In August 2025, an 82-year-old man and 84-year-old woman from Hickman, in Lancaster County, Nebraska, received an email that appeared to be from Amazon claiming a package had been delivered to the wrong address, that their Amazon account had been compromised, and that a duplicate account had racked up a $200,000 charge. When the couple responded, the scammers escalated by impersonating FBI agents, who warned of a "mole" working inside their Hickman bank and instructed the couple not to contact the bank directly to verify anything.
+
+Under this false authority, the fake FBI agents directed the couple to move money through channels that are effectively irreversible and untraceable: Bitcoin ATMs, Western Union wire transfers, and Apple Gift Cards. From August through the final transaction on October 29, 2025, the couple paid out roughly $213,000 directly. Believing they were cooperating with a federal investigation, they also gave the scammers remote access to their computers and financial accounts, which the criminals used to drain additional funds — bringing the total loss to $250,000.
+
+The Lancaster County Sheriff's Office was not notified until December 17, 2025, nearly two months after the last payment, and made the case public on December 29, 2025. Chief Deputy Houchin singled out the Bitcoin ATM instruction as the clearest warning sign, saying that if anyone is trying to get you to go to a Bitcoin ATM, that should set off alarm bells and you should stop communicating, stressing that legitimate businesses and law enforcement never request payment via cryptocurrency, wire transfer, or gift card.
+
+Red flags in this case: an unsolicited email about an "account compromise" tied to a large disputed charge; a caller claiming to be a federal agent who insists you must not tell your own bank; instructions to pay via a Bitcoin ATM; pressure to grant remote access to your computer; and a total blackout on independent verification. Anyone who receives a message like this should stop replying, independently look up the agency or company's phone number rather than using one supplied in the message, never grant remote computer access to an unsolicited contact, and never send money via Bitcoin ATM, wire transfer, or gift card to "verify" an identity or assist a federal investigation.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Lancaster County Sheriff\'s Office'],
+    sourceUrl: 'https://www.1011now.com/2025/12/29/lancaster-county-couple-loses-250000-scammers-posing-amazon-fbi/',
+    country: 'US',
+    firstRecorded: '2025-08-01',
+    state: 'NE',
+});
+
+UsNS.push({
+    name: 'McCook Woman\'s $1.24 Million Identity-Theft Cattle Purchase Fraud',
+    slug: 'nebraska-mccook-ogallala-livestock-cattle-identity-theft-fraud',
+    description: `On October 16, 2025, someone bought 453 head of cattle — worth approximately $1,242,583.73 — at the Ogallala Livestock Market in Keith County, Nebraska, and had them delivered to a feedlot in neighboring Red Willow County. When the sale barn's owner tried to collect payment, the buyer's billing information led nowhere: the invoice was addressed to a farm entity in Texas that turned out to be registered under the name of a Nebraska attorney who said he had never agreed to buy any cattle and had never authorized anyone to use his name for the purchase.
+
+The sale barn reported the unpaid transaction to a criminal investigator with the Nebraska Brand Committee — the state agency responsible for verifying cattle ownership through brand inspections — on November 7, 2025. The investigation identified Amanda Gentry, 34, of McCook, as the person behind the purchase. According to the arrest affidavit, Gentry used the identifying information of her own former divorce attorney, without his knowledge or consent, to secure the cattle purchase and its billing, allowing her to walk away with over a million dollars of livestock while leaving someone else's name — and the auction house — holding an unpayable invoice.
+
+Gentry was located and arrested in McCook on November 18, 2025, and charged in Keith County District Court with theft by deception over $5,000 and identity theft over $5,000, both felonies. She posted 10% of a $50,000 bond on December 19, 2025, with the case set for a further court date on January 9, 2026.
+
+This case illustrates a fraud pattern specific to Nebraska's cattle-auction economy: rather than targeting an individual consumer, the scammer used a stolen identity to obtain credit-like trust at a livestock sale barn, exploiting the norm in auction-based livestock sales where buyers are billed after cattle change hands rather than paying upfront. Livestock markets and other Nebraska businesses that extend credit based on a stated identity should independently verify a buyer's identity and authority before releasing goods on big-ticket transactions, contacting the person named on any billing information using independently obtained contact details rather than information the buyer supplies. Anyone whose name is used without consent to make a purchase should report it to local law enforcement and, in agricultural cases, to the Nebraska Brand Committee, and should consider a fraud alert or credit freeze.`,
+    categorySlug: 'identity-theft',
+    sources: ['Nebraska Brand Committee', 'Keith County District Court'],
+    sourceUrl: 'https://nebraska.tv/news/local/mccook-woman-charged-with-fraudulently-purchasing-more-than-1-million-worth-of-cattle-ogallala-livestock-auction-amanda-gentry',
+    country: 'US',
+    isHistorical: true,
+    firstRecorded: '2025-10-16',
+    state: 'NE',
+});
