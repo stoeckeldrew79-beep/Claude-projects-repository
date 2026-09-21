@@ -5245,3 +5245,49 @@ UsTZ.push({
     isHistorical: true,
     firstRecorded: '2020-07-01',
 });
+
+UsTZ.push({
+    name: 'Fake Data Breach Settlement Claim Site Scam',
+    slug: 'fake-data-breach-settlement-claim-scam',
+    description: `AT&T's 2024 breaches — an April leak of roughly 73 million current and former customers' data posted for sale on a hacking forum, and a separate breach of call and text metadata for nearly all of AT&T's roughly 110 million wireless customers tied to a mass attack on Snowflake-hosted cloud accounts — led to a consolidated federal settlement, In Re: AT&T Inc. Customer Data Security Breach Litigation, worth $177 million: $149 million for the dark-web breach class and $28 million for the Snowflake-breach class, with a federal judge granting preliminary approval on June 20, 2025. As claims opened, scammers built copycat "claim your AT&T settlement" websites and sent matching emails and texts, sometimes bundling in Facebook's unrelated $725 million privacy settlement for the same pitch, and used them to harvest full Social Security numbers, bank account and routing numbers, and upfront "processing fees" — details the real settlement administrator never requests, since the legitimate claim form asks only for the last few digits of an SSN and filing is always free.
+
+The fake pages mimic the real settlement site closely enough, right down to a similar-sounding URL, that recipients who were genuinely part of the breach have little obvious reason for suspicion, and reporting notes scammers can now spin up a convincing fake claims site in minutes using AI tools — the same playbook previously used against a real Equifax settlement, which tricked thousands of people before being shut down.
+
+Verify any AT&T or other class-action settlement notice independently through the FTC's own list at ftc.gov/enforcement/refunds or a resource like ClassAction.org rather than clicking a link in the message, and treat any request for a full SSN, a bank login, or a fee to "release" a payment as a certain sign of fraud. Legitimate settlement administrators also always offer a paper-mail claim option and never use urgent countdown timers to pressure an immediate response.`,
+    categorySlug: 'data-breach-scams',
+    alertLevel: 'high',
+    sources: ['Fox News', 'Federal Trade Commission'],
+    sourceUrl: 'https://www.foxnews.com/tech/dont-fall-fake-settlement-sites-steal-your-data',
+    country: 'US',
+});
+
+UsTZ.push({
+    name: 'Vermont Change Healthcare Breach Fake "Refund" Call Scam',
+    slug: 'vermont-change-healthcare-breach-refund-call-scam',
+    description: `Change Healthcare, a UnitedHealth Group subsidiary that processes roughly half of all U.S. medical claims, was hit by a ransomware attack first detected on February 21, 2024; the company later confirmed to federal regulators that the intrusion exposed the personal, insurance, and medical information of an estimated 192.7 million people, making it the largest healthcare data breach in U.S. history. Within weeks, the Vermont Department of Financial Regulation issued a consumer alert on March 13, 2024 warning that fraudsters were calling Vermont residents, falsely identifying themselves as representatives of a Vermont hospital, and telling them they were owed a refund because of the Change Healthcare cyberattack — but that receiving it required reading a credit card number over the phone.
+
+The department was blunt about why that story doesn't hold up: "Neither health insurers nor healthcare providers will ask for a credit card number over the phone to initiate a refund of payment." The pitch works because the underlying breach is real and was widely reported, so a call that name-drops it and offers money back, rather than asking for money up front, lowers a victim's guard faster than a typical cold-call scam would.
+
+Anyone who gets an unsolicited call about a Change Healthcare-related refund should hang up and call their health plan or provider back directly at the number on their insurance card or a past bill, never a number the caller provides, and can report the call to Vermont DFR at dfr.insuranceinfo@vermont.gov or 800-964-1784, or to their own state's insurance regulator.`,
+    categorySlug: 'data-breach-scams',
+    alertLevel: 'high',
+    sources: ['Vermont Department of Financial Regulation'],
+    sourceUrl: 'https://dfr.vermont.gov/consumer-alert/change-healthcare-cyberattack-consumer-impact-and-fraud-warning',
+    country: 'US',
+    state: 'VT',
+});
+
+UsTZ.push({
+    name: 'IDScan.net Driver\'s License Breach and "Nexus" Identity-Fraud Service',
+    slug: 'idscan-net-drivers-license-breach-identity-fraud',
+    description: `IDScan.net, a New Orleans-based identity-verification vendor that processes more than 21 million age- and ID-checks a month for clients including Hertz, Target, FedEx, Caesars Entertainment, and multistate marijuana dispensary chains, disclosed on September 8, 2026 that "an unauthorized third party may have access and/or copied certain customer information, including full names and drivers license or other government-issued identification numbers." The breach came to light days earlier when security journalist Brian Krebs discovered that a dark-web identity-document service called "Nexus," advertised on the Russian cybercrime forum Exploit on August 31, 2026, was selling access to a database of more than 153 million U.S. and Canadian driver's license scans, plus over 10 million other ID cards, 3 million travel documents, and 579,000 medical cards, growing by an estimated 400,000 records a day.
+
+Many of the leaked images carried the same infrared and ultraviolet security-feature scans and timestamps IDScan.net captures at the point of a real ID check, largely traced to scans done at Hertz rental counters and dispensary locations. Krebs found his own driver's license in the data, along with licenses tied to Defense Secretary Pete Hegseth and an FBI assistant director; the FBI's New Orleans field office opened a formal investigation on September 1, 2026, and the Nexus listing itself disappeared from the dark web on September 2.
+
+Because the stolen images carry the same security features banks, landlords, and crypto exchanges scan to verify a new customer's identity, fraud researchers warn this data is unusually well suited to opening fraudulent accounts and defeating "ID verification" checks, not just conventional identity theft, and separately puts people who rely on address privacy — domestic violence survivors, witness-protection participants — at heightened risk. Consumers whose license was scanned at any of these locations in the past should freeze their credit with all three bureaus, watch for account-opening notices they didn't initiate, and treat any unsolicited call or text that cites this breach as an opening for a scam, since IDScan.net's own notice does not ask for payment, a Social Security number, or a credit card.`,
+    categorySlug: 'data-breach-scams',
+    alertLevel: 'critical',
+    sources: ['Krebs on Security', 'Federal Bureau of Investigation'],
+    sourceUrl: 'https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/',
+    country: 'US',
+});
