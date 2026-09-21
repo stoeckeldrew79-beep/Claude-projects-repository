@@ -8945,3 +8945,22 @@ This case illustrates a fraud pattern specific to Nebraska's cattle-auction econ
     firstRecorded: '2025-10-16',
     state: 'NE',
 });
+
+UsNS.push({
+    name: "Saipan Attorney's Trust Account Used to Launder a Fake $300K Retainer Check (Danilo Aguilar)",
+    slug: 'northern-mariana-islands-aguilar-fake-retainer-check-scam',
+    description: `Danilo T. Aguilar, a Filipino-national attorney licensed and practicing in both Guam and the CNMI (Saipan-based), was targeted in 2009 by an international email-based fraud operation run out of Hong Kong that specifically solicits attorneys. The scheme works by having a "prospective client" the lawyer has never met contact the firm by email claiming to need legal help — often framed as a collections or contract matter — and, before any real legal work begins, mail the attorney a large cashier's check as an advance retainer or settlement payment, with instructions to deposit it and wire most of the money back to the "client" or a third party, keeping a fee for the trouble. Because banks are required to make deposited funds available within days even though verifying a cashier's check can take weeks, the scheme exploits the gap between "available" and "cleared" — precisely the mechanism that snared Aguilar.
+
+In mid-March 2009, a fraudulent cashier's check purportedly drawn on a Citibank account for nearly $300,000 was deposited into Aguilar's law-office business account at the Bank of Guam. The bank placed an 11-day hold, then released $298,960 into the account on March 31, 2009. On May 14 and 15, 2009, Aguilar withdrew $100,000 and $84,947.49 (a total of $184,947.49) from a bank on Saipan — after, prosecutors alleged, he knew the money represented proceeds of mail fraud, rather than returning or reporting it. He was indicted, and in September 2010 pleaded guilty in federal court in Guam to two felony counts of money laundering, receiving 60 months of probation and a full restitution order.
+
+The consequences extended well beyond the criminal sentence: both the U.S. District Court for the NMI and the CNMI Superior Court separately disbarred Aguilar. The Superior Court's disbarment order stated that Aguilar's "misconduct has resulted in serious injuries to the legal profession, many former clients, to the public, and to the legal system in general." Under CNMI Commonwealth Disciplinary Rules, a disbarred attorney cannot even apply for readmission until five years after disbarment, and readmission to practice in federal court additionally required proof of readmission to both the Guam and CNMI bars.
+
+A new "client" retaining an attorney sight-unseen by email, especially one who front-loads a large cashier's check before any real engagement and pressures the attorney to wire most of it out quickly, is the classic profile of this scheme — it has hit law firms nationwide but this is a documented, adjudicated CNMI case with a Saipan-licensed victim-turned-defendant. A cashier's check being "released" into an account by a bank after a hold does not mean it is genuine; verified clearance from the issuing bank, not just fund availability, can take weeks. Attorneys and anyone else asked to accept a large unsolicited check and forward most of it elsewhere should independently confirm the check's authenticity directly with the issuing bank, using a number they look up themselves rather than one on the check, before disbursing any funds, and should treat "deposit now, wire back later" instructions as a red flag regardless of who the requester claims to be.`,
+    categorySlug: 'fake-check-overpayment',
+    sources: ['Saipan Tribune'],
+    sourceUrl: 'https://www.saipantribune.com/index.php/be3e394d-1dfb-11e4-aedf-250bc8c9958e/',
+    country: 'US',
+    isHistorical: true,
+    firstRecorded: '2009-03-01',
+    state: 'MP',
+});

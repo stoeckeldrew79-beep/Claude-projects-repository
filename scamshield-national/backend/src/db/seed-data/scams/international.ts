@@ -21216,3 +21216,36 @@ Libyan officials urged organizations and individuals never to download or run fi
   country: 'LY',
   firstRecorded: '2026-06-29',
 });
+
+International.push({
+  name: 'Fake Crypto/Stock "Mentorship" Posts and Money-Mule Recruitment Targeting Palau',
+  slug: 'palau-fake-investment-mentorship-money-mule-recruitment',
+  description: `On September 14, 2026, Palau's Office of the Special Prosecutor (OSP) and Financial Intelligence Unit (FIU) issued a joint public advisory, published by Island Times on September 15, 2026, warning that Palauans "of all age groups" are increasingly being targeted by two specific, currently-active tactics. The first is Facebook and other social-media posts offering help with "successful" stock market or cryptocurrency investing that promise mentorship, insider tips, or guaranteed profits — which officials describe as frequently the opening move in a longer-running scam. These are often paired with unsolicited direct messages from strangers on Facebook, Instagram, email, WhatsApp, or Telegram that quickly pivot from friendly contact into investment pitches, romance, or a "business opportunity."
+
+The second, more distinctive tactic the advisory highlights is money-mule recruitment: victims are asked to receive money into their own bank account and forward it onward. OSP and FIU state plainly that being asked to receive and forward funds is a common tactic criminals use to launder stolen money through unwitting victims — meaning a Palauan resident can be turned, often without realizing it, into a link in an international money-laundering chain, with potential legal exposure of their own. The advisory instructs residents never to hand over passwords, login details, bank/card numbers, or crypto wallet codes to anyone they don't know; never accept and forward money for a stranger; never wire money to someone met only online or by phone; and never click unfamiliar links or scan QR codes, or install apps a new online contact recommends.
+
+Officials also urge people to heed warnings from bank tellers or Western Union staff, who are trained to spot scam patterns, and to ask themselves whether an offer of "guaranteed profits" or "easy money" is too good to be true. Anyone who has already sent money is told to contact their bank immediately, since a pending transfer can sometimes be cancelled before funds actually leave the account — but the agencies caution bluntly that in most cases, victims will not get their money back once accounts close. Suspected scams should be reported to Palau's Bureau of Public Safety, the Office of the Special Prosecutor, or the Financial Intelligence Unit.
+
+This pattern is distinct from an existing Palau romance-scam entry already in this database: rather than emotional/relationship manipulation over months, it centers on fake investment "mentorship" content and, critically, on recruiting ordinary residents as unwitting money launderers — a mechanism not previously documented for Palau.`,
+  categorySlug: 'cryptocurrency-scams',
+  alertLevel: 'high',
+  sources: ['Office of the Special Prosecutor (Palau)', 'Financial Intelligence Unit (Palau)', 'Island Times'],
+  sourceUrl: 'https://islandtimes.org/the-office-of-the-special-prosecutor-osp-and-the-financial-intelligence-unit-fiu-warns-the-public-that-online-financial-scams-are-on-the-rise-in-palau-heres-what-you-need-to-know/',
+  country: 'PW',
+});
+
+International.push({
+  name: 'Fake PNCC "PalauNet" Account-Verification Phishing Emails',
+  slug: 'palau-pncc-palaunet-phishing-emails',
+  description: `In July 2009, the Palau National Communications Corporation (PNCC) — Palau's government-owned telecommunications company and operator of the PalauNet internet/email service — issued a public warning, reported by the regional outlet Marianas Variety on July 22, 2009, after some PalauNet customers reported receiving phishing emails that impersonated PNCC. The fraudulent messages asked recipients to reply with their account details — including usernames, passwords, account information, or credit card numbers — under the guise of routine account verification.
+
+PNCC stated directly that it, like any legitimate organization or financial institution, will never request personal information via email or pop-ups, and urged customers not to reply to such messages at all, but instead to delete them and add the sender to a blocked-senders list. The company pointed customers to antiphishing.org for further guidance and offered a direct verification channel — PNCC Technical Support — for anyone unsure whether a message claiming to be from PNCC was genuine.
+
+Although this documented case dates to 2009, the underlying mechanism — a spoofed email posing as your own internet/telecom provider, asking you to "confirm" your account by replying with login credentials — is one of the most durable phishing templates worldwide and remains directly relevant in Palau today, since PNCC/PalauNet remains the dominant fixed-line internet, email, and telecom provider on the islands. Any PalauNet subscriber who receives an unsolicited email or pop-up asking them to send or "verify" their account username, password, or payment details should treat it as fraudulent by default and confirm authenticity only by calling PNCC directly, never by replying to the email itself or clicking any link inside it.`,
+  categorySlug: 'phishing',
+  sources: ['Palau National Communications Corporation (PNCC)', 'Marianas Variety'],
+  sourceUrl: 'https://www.mvariety.com/news/regional/pncc-warns-about-internet-phishing-scam/article_d1b16d67-884d-5d0b-a4a9-db0c0ddd7291.html',
+  country: 'PW',
+  isHistorical: true,
+  firstRecorded: '2009-07-22',
+});
