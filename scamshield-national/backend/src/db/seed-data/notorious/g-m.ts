@@ -10562,6 +10562,10 @@ NotoriousGM.push({
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'securities-fraud', 'sec-enforcement', 'ai-fraud', 'cryptocurrency'],
     sourceUrl: 'https://www.sec.gov/newsroom/press-releases/2024-167',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Burlingame_downtown.JPG?width=1200',
+    coverImageCredit: 'Photo: Kglavin, Wikimedia Commons (CC BY-SA) — downtown Burlingame, CA, where Rimar Capital was based',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Itai Liptz ran Rimar Capital USA, Inc. and Rimar Capital, LLC out of Burlingame, California, pitching Rimar LLC to prospective clients as an investment adviser with something none of its competitors could match: a proprietary, artificial-intelligence-driven platform that could automatically trade equities, futures, and crypto assets on a client's behalf. Between May 2022 and April 2023, Liptz — with help from Rimar USA board member Clifford Boro — used that pitch to raise nearly $4 million from 45 investors through a Simple Agreement for Future Equity offering, marketing the deal through pitch decks, posts in online investment groups, and direct emails that leaned heavily on the AI branding then flooding the fintech world.
 
 The pitch went further than a vague "powered by AI" tagline. According to the Securities and Exchange Commission, Liptz and Boro told investors that Rimar LLC had built out an extensive infrastructure of engineers and processing capacity to run its trading algorithms — infrastructure that, in reality, belonged to overseas entities Rimar didn't own and had no rights to use. They also inflated the firm's assets under management and its investment track record, and described Rimar as operating with the sophistication of an established hedge fund. Each of those claims was designed to answer the two questions any serious investor would ask — does the technology actually exist, and has it actually made money — with reassuring, specific-sounding answers.
@@ -10579,6 +10583,10 @@ NotoriousGM.push({
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'international', 'corruption', 'government-fraud'],
     sourceUrl: 'https://www.thejakartapost.com/indonesia/2025/02/13/appellate-court-increases-harvey-moeiss-sentence-to-maximum-20-years',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/BangkaIsland_TinMines_PlanetNICFI_2022.jpg?width=1200',
+    coverImageCredit: 'Photo: Nrg800 (Planet/NICFI satellite imagery), Wikimedia Commons (CC BY-SA 4.0) — tin mining scars on Bangka Island, site of the PT Timah scandal',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Harvey Moeis was a coal and mining businessman better known to much of Indonesia as the husband of actress Sandra Dewi, a pairing whose ostentatious wealth had already made them minor celebrities before prosecutors identified Moeis as the central broker in what Indonesian authorities call the largest corruption case in the country's history. At the center of the scheme was PT Timah, the state-owned tin mining company that dominates production in the Bangka Belitung Islands and whose concessions ordinary Indonesians had no particular reason to think were being looted from the inside.
 
 Between 2015 and 2022, PT Timah's own director, Mochtar Riza Pahlevi Tabrani, arranged for private smelting companies to mine and process tin illegally inside PT Timah's licensed concession areas — ore that, by law, only the state company had the right to extract. Rather than book this as what it was, the arrangement was structured to look like ordinary business: smelters "rented" processing equipment inside Timah's own mining zone, and the smelters' resulting kickback to Timah, roughly 5% of the tin they processed, was recorded as if it were a legitimate service fee or a corporate social responsibility contribution. Moeis, operating through his company PT Refined Bangka Tin, brokered and coordinated the arrangement among at least five smelting companies and funneled a share of the illicit proceeds to himself and his associates, including businesswoman Helena Lim, who helped move the money.
