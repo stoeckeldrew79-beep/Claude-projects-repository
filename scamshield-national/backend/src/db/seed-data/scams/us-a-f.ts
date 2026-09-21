@@ -9664,3 +9664,36 @@ UsAF.push({
     country: 'US',
     state: 'WV',
 });
+
+UsAF.push({
+    name: 'South Seas Insurance Agent Phantom Life-Insurance Premium Embezzlement (Katerina Siliga)',
+    slug: 'american-samoa-siliga-south-seas-insurance-phantom-policy-scheme',
+    description: `Katerina Siliga worked as a licensed insurance agent for South Seas Insurance in American Samoa, taking premium payments from customers for life insurance coverage. According to American Samoa High Court filings reported by Samoa News, Siliga kept at least two of these customers' premium payments for herself instead of remitting them to the insurer, including a case involving a couple who live in Savai'i (in independent Samoa) who paid her for a life insurance policy. When the customers later tried to use or check on their coverage, they discovered there were no life insurance policies actually on file with South Seas Insurance Company — the premiums had simply disappeared into Siliga's own use, and the policies they believed they'd bought had never existed.
+
+Prosecutors charged Siliga with embezzlement — a Class C felony under American Samoa law carrying up to seven years in prison and a fine of up to $20,000 (twice the amount gained) — in two separate cases tied to the insurance scheme, on top of a third, unrelated embezzlement charge from the same period in which she took a combined $900 from two other women to purchase "K-fares" (discounted Hawaiian Airlines tickets) and only partially repaid them. As of the most recent Samoa News court report reviewed, all three cases were pending before the High Court, with Chief Justice Michael Kruse presiding.
+
+This case is a reminder that in a small territory, a licensed local insurance agent handling premium payments directly — rather than a stateside call center or a faceless online seller — can be just as capable of selling coverage that never actually gets written. Anyone who paid an individual agent for an insurance policy, rather than paying the insurer directly or through a verifiable payment portal, should independently confirm the policy actually exists by contacting the named insurance company itself, and should ask American Samoa's Insurance Commissioner's Office to verify that both the agent and the policy are properly licensed and on file before assuming the coverage is real.`,
+    categorySlug: 'insurance-fraud',
+    sources: ['Samoa News'],
+    sourceUrl: 'https://www.samoanews.com/court-report-133',
+    country: 'US',
+    isHistorical: true,
+    state: 'AS',
+});
+
+UsAF.push({
+    name: 'Territorial Bank of American Samoa Teller Counter-Check Theft (Faamita\'i Collins)',
+    slug: 'american-samoa-tbas-teller-counter-check-theft-collins',
+    description: `Faamita'i Collins worked as a teller at the Territorial Bank of American Samoa (TBAS), where his job gave him the ability to write and personally authorize "counter checks" — temporary, hand-written checks a bank can issue against a customer's account without the customer's own checkbook. According to a police affidavit reported by Samoa News, Collins used that access in September 2023 to write five unauthorized counter checks against the business account of Paramount Builders Company, then signed off himself as the teller releasing the funds: three checks were made out to "cash," one to his cousin, and one directly to himself, totaling $21,500. Collins moved the stolen funds into his own account at a different, off-island bank using a mobile banking app, which briefly moved the money outside the reach of TBAS's own systems.
+
+Paramount Builders' company accountant caught the theft during routine review, spotting five withdrawals the business hadn't authorized and tracing them back to temporary, hand-written checks bearing Collins's signature rather than the business's own checkbook. The company reported the matter to the Tafuna Police Substation on September 25, 2023, and the case was referred to the Department of Public Safety's Criminal Investigation Division. Collins was arrested and charged with five counts of theft, a Class C felony carrying up to seven years in prison and a fine of up to $20,000 (or twice the amount stolen) on each count, with bail set at $10,000; he reportedly confessed to investigators.
+
+The case shows that in a small banking market like American Samoa's — served by just a couple of banks — a single front-line employee's ability to issue a hand-written counter check and approve its own release can be enough to quietly siphon tens of thousands of dollars from a business account before routine bookkeeping catches it. Businesses and individuals banking in the territory should reconcile account statements against their own records regularly rather than assuming a bank's internal controls alone will catch an unauthorized in-branch transaction, and should ask their bank directly whether any withdrawal was teller-initiated the moment an unrecognized transaction appears.`,
+    categorySlug: 'identity-theft',
+    sources: ['Samoa News'],
+    sourceUrl: 'https://samoanews.com/local-news/former-tbas-teller-arrested-stealing-customers-account',
+    country: 'US',
+    isHistorical: true,
+    firstRecorded: '2023-09-25',
+    state: 'AS',
+});
