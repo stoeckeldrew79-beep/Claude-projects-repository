@@ -16230,6 +16230,26 @@ International.push(
 
 International.push(
   {
+    name: 'Niamey Honey and Shea Butter Export Investment Confidence Scheme',
+    slug: 'niger-niamey-honey-shea-butter-export-investment-scam',
+    description: `Niger Inter reported on January 6, 2025 that Niamey's Direction de la Police Judiciaire had dismantled a nine-member fraud network — Nigerien nationals and foreigners, including women — built around a fake export investment pitch. Investigators identified 54 victims across 46 completed frauds and 8 further attempts, with total documented losses of 40,609,000 CFA francs, roughly $68,000 to $70,000.
+
+The scheme began with an ordinary social approach: members contacted targets posing as an old acquaintance rather than a stranger pitching a cold offer, a pattern police said made victims far less guarded than they would have been with an unsolicited pitch. Once trust was established, the scammer proposed a business opportunity: investing in honey and shea butter, commodities genuinely produced and traded in the Sahel, that the "business" supposedly exported to buyers in Turkey and China. Victims who agreed wired money toward the purchase or shipment; once funds arrived, the network cut off all contact, and the goods, buyers, and export deal never existed.
+
+The case is one of several cybercrime-unit busts Niger's Police Judiciaire announced in this period, part of a broader rise in social-engineering fraud that pairs a manufactured personal relationship with a cross-border trade or investment pitch — precisely because ordinary Nigeriens have little independent way to verify a claimed foreign buyer or shipment.
+
+Anyone approached, even by someone who first presents themselves as a friend or acquaintance, with an opportunity to invest in a commodity export deal should independently verify the buyer, the goods, and the shipping arrangement through Niger's Chamber of Commerce or a licensed trade intermediary before sending money, and should treat a request to wire funds toward a deal that cannot be inspected or confirmed directly as a serious warning sign regardless of how personally the relationship was built first.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'high',
+    sources: ['Niger Inter', 'Direction de la Police Judiciaire de Niamey'],
+    sourceUrl: 'https://nigerinter.com/2025/01/06/cybercriminalite-un-reseau-descroquerie-electronique-demantele-a-niamey/',
+    country: 'NE',
+    firstRecorded: '2025-01-06',
+  },
+);
+
+International.push(
+  {
     name: 'Fake FSB "Safe Apartment Sale" Property Fraud',
     slug: 'russia-fake-fsb-safe-apartment-sale-property-fraud',
     description: `One of Russia's most closely tracked fraud cases began in April 2024, when callers posing as Federal Security Service (FSB) and Federal Financial Monitoring Service (Rosfinmonitoring) officers contacted 70-year-old pop singer Larisa Dolina, telling her she was assisting a covert operation against criminals and that her Moscow apartment needed to be sold and the proceeds moved into a "secure" account to keep it safe from the scheme they claimed was targeting her. The callers instructed her to tell no one what was happening, and for months no one in her circle suspected anything as she went ahead and sold the apartment in spring 2024 to an unrelated buyer, entrepreneur Polina Lurye, for 112 million rubles (about $1.4 million) — money that, unknown to Lurye, was funneled onward to the fraud ring rather than kept safe. Dolina publicly revealed she had been scammed in August 2024, and three successive Russian courts sided with her, voiding the sale and returning the apartment to her while leaving Lurye with neither the property nor her money back — an outcome that triggered a wave of copycat disputes nationwide, dubbed the "Dolina effect," as other sellers who had been paid in full began seeking to void their own sales on similar grounds. On November 28, 2025, the Balashikha City Court convicted four defendants — Andrei Osnova, Artur Kamenetskyy, Dmitry Leontiev, and Angela Tsyrulnikova — of fraud over the scheme, sentencing them to four to seven years in prison plus fines, and a Moscow court later ordered two of them to personally repay Dolina more than 114 million rubles. In a widely watched reversal, Russia's Supreme Court ruled on December 16, 2025 that Lurye, not Dolina, was the apartment's rightful owner, since Dolina had willingly signed the sale herself; Lurye received the keys in January 2026. Independent Russian outlet Meduza and other outlets have used the case to warn that no legitimate security or financial-monitoring officer will ever instruct someone to sell property or move money "for safekeeping" over an unsolicited call, and that anyone told to keep such a request secret from family should treat that instruction itself as the clearest sign of fraud.`,
