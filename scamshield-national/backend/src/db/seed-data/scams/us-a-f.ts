@@ -9780,3 +9780,19 @@ UsAF.push({
     country: "US",
     state: "MS",
 });
+
+UsAF.push({
+    name: 'Washington Smile Center Dentist $3.4 Million DC Medicaid Fraud (Steven A. Price)',
+    slug: 'dc-washington-smile-center-dentist-medicaid-fraud',
+    description: `Steven A. Price, 70, a dentist who owned and operated the Washington Smile Center in Northwest Washington, and his dental hygienist Keidi Moore, 40, spent more than five years — from January 2017 through March 2022 — billing D.C. Medicaid for procedures that were never performed. During patients' real office visits, the pair added bogus charges for clinical crown lengthening (a gum-and-bone surgical procedure) and space maintainers (a pediatric dental device) onto claims for legitimate work the patients had actually come in for, letting the fraudulent billing hide inside claims that otherwise looked routine.
+
+Following a six-week trial before U.S. District Judge Amit P. Mehta, a federal jury convicted Price in March 2026 on 21 counts, including conspiracy, health care fraud, false statements, and wire fraud; Moore was convicted as well. In a September 17, 2026 announcement, the U.S. Attorney's Office for the District of Columbia said Price had been sentenced to 24 months in prison followed by three years of supervised release and ordered to pay $3.4 million in restitution to D.C. Medicaid, along with a criminal forfeiture money judgment. "Fraud against taxpayer-funded programs will not be ignored, excused, or allowed to persist," U.S. Attorney Jeanine Ferris Pirro said in announcing the sentence.
+
+D.C. Medicaid enrollees can protect the program, and spot this kind of fraud early, by reviewing every Explanation of Benefits notice for a dental procedure they don't remember receiving — especially anything billed on top of a routine cleaning or checkup — and reporting discrepancies to the DC Department of Health Care Finance's Program Integrity office or the HHS Office of Inspector General rather than assuming it's a billing error.`,
+    categorySlug: 'medicare-health-plans',
+    country: 'US',
+    state: 'DC',
+    isHistorical: true,
+    sources: ["U.S. Attorney's Office for the District of Columbia"],
+    sourceUrl: 'https://www.congressheightsontherise.com/blog/steven-a-price-70-dc-dentist-sentenced-for-scheme-to-defraud-dc-medicaid',
+});
