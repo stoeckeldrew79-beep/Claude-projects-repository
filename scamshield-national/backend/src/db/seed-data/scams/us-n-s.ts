@@ -9165,3 +9165,45 @@ UsNS.push({
     country: "US",
     state: "SC",
 });
+
+UsNS.push({
+    name: 'New Hampshire Online Job-Seeker Scam Impersonates Real NH Employers',
+    slug: 'new-hampshire-job-seeker-impersonation-scam',
+    description: `New Hampshire Attorney General John M. Formella warned that scammers are impersonating real New Hampshire-based companies to target job seekers. The fraud begins with an unsolicited text or email that appears to come from a legitimate NH employer offering a remote position. Scammers conduct "interviews" over web meeting software using a static profile photo in place of live video, then send the applicant a check and instruct them to use part of it to buy equipment or training materials — wiring the balance back via gift card, cryptocurrency, or wire transfer before the check bounces weeks later. Other variants request Social Security numbers, home addresses, and bank details through unsecured chat or email.
+
+The AG's office stressed that a deposited check clearing can take several weeks, and that a legitimate employer will never ask an applicant to pay for their own training materials or equipment. Residents were advised to verify a job posting by independently finding the company's official website and calling it directly, rather than replying to the unsolicited message, and to report suspected scams to the Consumer Protection and Antitrust Bureau at DOJ-CPB@doj.nh.gov or 1-888-468-4454.`,
+    categorySlug: 'employment-scams',
+    alertLevel: 'medium',
+    sources: ['New Hampshire Department of Justice', 'Union Leader'],
+    sourceUrl: 'https://www.unionleader.com/news/human_interest/ag-warns-nh-online-job-seekers-about-scams/article_e901b76b-8d3a-4bb5-bd75-72df92f2d249.html',
+    country: 'US',
+    state: 'NH',
+});
+
+UsNS.push({
+    name: 'New Hampshire Craigslist Rental-Listing Reservation-Fee Scam',
+    slug: 'new-hampshire-craigslist-rental-reservation-fee-scam',
+    description: `New Hampshire Attorney General Gordon J. MacDonald issued a consumer alert about a rise in fraudulent rental listings on Craigslist targeting apartment and house hunters. Scammers copy photos and descriptive details from a legitimate property listing and repost them under a fake "landlord" identity, often pricing the unit attractively to draw quick interest. Once a prospective tenant reaches out, the scammer requests an upfront "reservation" or deposit fee sent by bank transfer or a payment app — and when the renter asks to view the unit first, the scammer manufactures an excuse, such as being out of state, to avoid an in-person showing.
+
+Victims who send the fee never gain access to the unit and typically cannot recover the funds. The AG's office advised residents to always view a rental in person before paying anything, verify the purported landlord's identity independently, and never send payment before signing a lease and confirming the listing is legitimate.`,
+    categorySlug: 'rental-housing',
+    alertLevel: 'medium',
+    sources: ['New Hampshire Department of Justice', 'WHDH'],
+    sourceUrl: 'https://whdh.com/news/nh-ag-warns-of-property-rental-scams-through-craigslist/',
+    country: 'US',
+    state: 'NH',
+});
+
+UsNS.push({
+    name: 'New Hampshire Internet Puppy and Kitten Sale Scam',
+    slug: 'new-hampshire-internet-pet-sale-scam',
+    description: `New Hampshire's Attorney General's office warned that internet pet-sale scams were on the rise in the state, with fraudsters advertising purebred puppies and kittens — including Bernese Mountain Dogs, Pomeranians, and Maine Coon cats — at attractively low prices on legitimate-looking websites, using photos stolen from real breeders' sites. The sellers always insist the animal must be shipped rather than picked up in person, and after collecting an initial payment, come back demanding additional money for a "temperature-controlled crate," shipping insurance, or paperwork and vaccination records they claim the airline requires.
+
+Victims who pay the added fees never receive an animal. The AG's office noted many of these operations are run from overseas using wire transfers or gift cards, which are nearly impossible to trace or reverse, and advised consumers to be skeptical of rare or expensive breeds sold at a discount, avoid long-distance breeders who insist on shipping, never wire money or use gift cards to pay a seller, and instead use an established rescue group or a breeder who allows an in-person visit.`,
+    categorySlug: 'pet-sales-scams',
+    alertLevel: 'medium',
+    sources: ["New Hampshire Attorney General's Office", 'Manchester Ink Link'],
+    sourceUrl: 'https://manchester.inklink.news/buyer-beware-pet-sale-scams-on-the-rise/',
+    country: 'US',
+    state: 'NH',
+});
