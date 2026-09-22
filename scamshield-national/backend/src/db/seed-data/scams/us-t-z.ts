@@ -5352,3 +5352,33 @@ Because the exposed data does not expire or get reissued the way a credit card n
     country: 'US',
     firstRecorded: '2024-08-16',
 });
+
+UsTZ.push({
+    name: 'Secret Sister Gift Exchange Pyramid Scheme',
+    slug: 'secret-sister-gift-exchange-pyramid-scheme',
+    description: `Every holiday season, a Facebook post or email invitation resurfaces asking you to send one gift or gift card — often around $10 — to a stranger at the top of a list, add your own name to the bottom, and recruit friends to do the same, promising you'll receive dozens of gifts back in return. The "Secret Sister" exchange, and variants like "Secret Santa," wine, and bourbon exchanges, is an illegal pyramid scheme: it only pays out for the first participants, collapses once recruitment dries up, and requires handing your name, address, and a list of friends' contact information to strangers you've never met.
+
+Because it typically circulates by email or mail, the U.S. Postal Inspection Service treats it as a form of illegal gambling and potential mail fraud. Ignore any invitation to a gift, cash, or "blessing" exchange chain, never forward personal information to participate, and report the post to the platform it appeared on.`,
+    categorySlug: 'ponzi-pyramid-schemes',
+    alertLevel: 'medium',
+    sources: ['Better Business Bureau', 'USPS Postal Inspection Service'],
+    sourceUrl: 'https://www.bbb.org/all/holiday-hq/scams/secret-sister-gift-exchange-is-illegal',
+    country: 'US',
+});
+
+UsTZ.push({
+    name: 'Estate Sale Liquidation Company Theft Scam',
+    slug: 'estate-sale-liquidation-company-theft-scam',
+    description: `Families hire an estate sale company to appraise, price, and sell a deceased or downsizing relative's furniture, antiques, and other belongings in exchange for a cut of the proceeds — a business that in most states requires no license or bond and runs almost entirely on trust. In a growing number of documented cases, the company runs the sale, collects the cash, and then never pays the family its share, or the owner disappears with sentimental heirlooms outright.
+
+Houston-area families reported losing $2,000 to $5,000 apiece to one operator who carried an F rating from the Better Business Bureau; one victim, Kim Hervey, described her late mother's antique china as "gone forever." Because contracts are often informal and the industry is largely unregulated, recovering money or property afterward typically means small claims court rather than a straightforward refund.
+
+Before hiring an estate sale company, check its Better Business Bureau rating and search online for the owner's name plus "complaint," get a written contract spelling out the commission and payout timeline, and get an itemized inventory before the sale begins.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'medium',
+    sources: ['Better Business Bureau', 'KPRC Click2Houston'],
+    sourceUrl: 'https://www.click2houston.com/news/local/2025/10/09/estate-sale-heartbreak-families-lose-precious-heirlooms-money/',
+    country: 'US',
+    isHistorical: true,
+    firstRecorded: '2025-10-08',
+});
