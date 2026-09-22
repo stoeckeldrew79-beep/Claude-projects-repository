@@ -21335,3 +21335,19 @@ The episode is a clear example of how a small, oil-poor-turned-oil-hopeful natio
   isHistorical: true,
   firstRecorded: '2008-04-23',
 });
+
+International.push({
+  name: 'Marshall Islands Passport-for-Investment Sales Fraud',
+  slug: 'marshall-islands-passport-for-investment-sales-fraud',
+  description: `Between 1985 and late 1996, the Republic of the Marshall Islands ran an official passport-investment programme, marketing Marshall Islands passports for roughly US$30,000 each through its overseas embassies and a network of agents, primarily to citizens of Taiwan, Hong Kong and mainland China. Under the Compact of Free Association between the RMI and the United States, natural-born and long-term-resident Marshallese citizens may enter the U.S. visa-free and establish residency there — and according to the RMI Attorney General's Office, many of the agents selling the passports misrepresented that this same privilege would apply to purchasers, even though it legally did not.
+
+One of those agents, Hong Kong-born Tommy Ho Ching Cheng, sold Marshall Islands passports for about $30,000 apiece to buyers from China, Hong Kong and Taiwan between 1993 and 1996, telling them the documents would let them enter the U.S. visa-free and work there; because his customers were neither Marshallese citizens nor long-term residents, the special entry privileges never actually applied to them. Cheng earned roughly $2.5 million from the scheme and separately pleaded guilty to federal tax evasion for underreporting that income; in late May 2002 a Los Angeles federal court sentenced him to 33 months in prison. By the time of Cheng's sentencing, the RMI government had already shut the programme down — after 1,454 passports were legally sold — following complaints from the U.S. government and its own auditors about immigration and financial irregularities, and an official in the RMI Attorney General's Office confirmed the office was still fielding, and rejecting, hundreds of requests to renew passports it had determined were illegally purchased.
+
+The episode illustrates how the Marshall Islands' own Compact of Free Association status — a real and valuable privilege belonging to its citizens — was exploited by paid intermediaries who sold genuine RMI travel documents to foreign buyers on the false promise that the same privilege came attached.`,
+  categorySlug: 'investment-fraud',
+  sources: ['Marianas Variety (Pacnews wire service)'],
+  sourceUrl: 'https://www.mvariety.com/news/local/marshalls-gov-t-rejects-renewals-for-illegally-bought-passports/article_dbbb878a-bb2f-5890-8290-d81a54ece3cb.html',
+  country: 'MH',
+  isHistorical: true,
+  firstRecorded: '2002-05-30',
+});
