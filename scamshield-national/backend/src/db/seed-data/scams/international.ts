@@ -21448,3 +21448,50 @@ Botswana authorities urge anyone who has built a romantic or close personal rela
   isHistorical: true,
   firstRecorded: '2024-12-09',
 });
+
+International.push({
+  name: 'Nationwide Mobile Money Social-Engineering Fraud Network',
+  slug: 'rwanda-mobile-money-social-engineering-fraud-network',
+  description: `Rwanda National Police and the Rwanda Investigation Bureau paraded 45 suspects at RIB headquarters on September 9, 2024, accused of running a coordinated mobile-money fraud network that stole more than Rwf 424 million from victims between January and July 2024, concentrated in the Nyakarenzo and Nkungu sectors of Rusizi District. Investigators said the group ran several overlapping scripts by phone and SMS: false jackpot-winner notifications, fabricated road-accident emergencies demanding urgent medical payment, callers posing as telecom staff offering a free SIM upgrade, and — the most damaging — calls claiming a victim's mobile-money account had been hacked and needed to be "verified" by reading out a one-time PIN, which callers then used to drain the account.
+
+A parallel script had members impersonate traffic police, telling people who had just failed a driving test that they could pay a fee to register again rather than retake the exam. RIB spokesperson Dr. Thierry Murangira and RURA's ICT-regulation manager Charles Gahungu said the scheme depended on complicit mobile-money agents who processed the illicit withdrawals and on agents fraudulently registering multiple SIM cards under a single client's identity; the suspects face charges of forming a criminal association, fraud, illicit enrichment, and money laundering, carrying two-to-ten-year sentences.
+
+Police and RURA urged mobile-money users to never read a PIN or verification code to anyone calling or texting as their bank, telecom provider, or police, since no legitimate institution will ever ask for one that way.`,
+  categorySlug: 'phishing',
+  alertLevel: 'high',
+  sources: ['Rwanda National Police', 'Rwanda Investigation Bureau (RIB)', 'Rwanda Utilities Regulatory Authority (RURA)'],
+  sourceUrl: 'https://police.gov.rw/media/news-detail/news/45-arrested-in-operations-against-mobile-banking-scam/',
+  country: 'RW',
+  isHistorical: true,
+  firstRecorded: '2024-09-09',
+});
+
+International.push({
+  name: 'Fake Bank-Suspension Phishing Wave Targeting Rwandan Account Holders',
+  slug: 'rwanda-bank-phishing-fake-account-suspension-alerts',
+  description: `In early April 2026, the National Bank of Rwanda, Bank of Kigali, Equity Bank Rwanda, and BPR Bank Rwanda all issued public warnings over a surge in phishing messages sent by SMS, email, phone call, and WhatsApp that impersonated the banks and claimed a customer's account had been suspended, compromised, or needed urgent verification. Bank of Kigali said fraudsters were sending fake emails warning customers their accounts would be suspended within 24 hours unless they clicked a link to "update their details," with the warnings timed to the Easter period, when transaction volumes rise and customers are more likely to act quickly without checking.
+
+The National Bank of Rwanda stated that "no licensed financial institution will ever ask for a PIN, password or one-time password code through a phone call, SMS, email or WhatsApp message," warning that such messages are designed to create panic that pushes victims into acting before they think it through. The alert came about a month after Ugandan authorities charged six suspects with manipulating Equity Bank Kigali's systems in a separate cross-border fraud scheme, underscoring that both phishing-driven account theft and systems-level exploitation are active threats to Rwandan bank customers.
+
+Banks urged customers to access accounts only through official mobile apps or verified banking channels and to report suspicious messages to the bank directly rather than clicking any link or calling any number contained in the message itself.`,
+  categorySlug: 'phishing',
+  alertLevel: 'medium',
+  sources: ['National Bank of Rwanda (BNR)', 'Bank of Kigali', 'Equity Bank Rwanda', 'BPR Bank Rwanda', 'The New Times (Rwanda)'],
+  sourceUrl: 'https://www.newtimes.co.rw/article/34584/news/finance/banks-raise-alarm-over-surge-in-phishing-attempts',
+  country: 'RW',
+});
+
+International.push({
+  name: 'Equity Bank Rwanda Float-System Mobile Money Fraud',
+  slug: 'rwanda-equity-bank-mobile-money-float-fraud',
+  description: `Equity Bank Rwanda's internal monitoring flagged irregular transaction patterns in mid-March 2026, opening an investigation into a scheme built around the bank's mobile-money "float" system — the mechanism by which licensed agents deposit cash into a bank trust account and receive equivalent electronic value in their mobile wallets for resale to customers. Investigators said the ring evaded the roughly Rwf 2 million daily bank-to-wallet transfer limit by using SIM cards with no prior transaction history to make bulk float purchases worth up to Rwf 100 million apiece, funneling the value out through a chain of agents, with the suspected point of entry traced to the internet-banking platform Equity Bank Rwanda licenses from vendor ESICIA Ltd.
+
+Rwandan authorities detained 35 suspects domestically and coordinated with Ugandan police, who detained six more, including two of the bank's own IT data-center staff — evidence cited that the fraud relied on inside access to the float system's controls, not purely external hacking. The total fraud volume was reported at roughly Rwf 4.7 billion, with about Rwf 1.2 billion recovered and Rwf 3.5 billion still outstanding as the probe continued; RIB spokesperson Dr. Thierry Murangira and ESICIA's CEO both declined to discuss specifics publicly.
+
+The case is a reminder that Rwandan mobile-money agents and customers should treat unusually large or repeated float purchases — especially from newly activated SIM cards — as a red flag worth reporting, since large-scale mobile-money fraud increasingly relies on insider access as much as on tricking any single customer.`,
+  categorySlug: 'account-takeover',
+  alertLevel: 'critical',
+  sources: ['Taarifa Rwanda', 'Equity Bank Rwanda', 'Rwanda Investigation Bureau (RIB)'],
+  sourceUrl: 'https://taarifa.rw/2026/03/15/equity-bank-fraud-probe-deepens-as-investigators-detain-35-suspects-6-ugandans/',
+  country: 'RW',
+});
