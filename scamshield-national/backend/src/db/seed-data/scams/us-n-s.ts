@@ -9047,3 +9047,18 @@ UsNS.push({
     country: "US",
     state: "MS",
 });
+
+UsNS.push({
+    name: 'OTP Bot Account-Takeover Robocalls',
+    slug: 'otp-bot-account-takeover-robocall-scam',
+    description: `Attackers who already have a victim's stolen username and password — usually from an old data breach or phishing kit — increasingly finish the takeover with a subscription "OTP bot," an automated calling service sold openly on Telegram for as little as $10-$50 per attack session, up to several thousand dollars for a lifetime license. Once the criminal enters the stolen login on a real bank, exchange, or shopping site and triggers a one-time passcode text, the bot immediately places a spoofed call to the victim that mimics the real company's caller ID, warns that "someone is trying to access your account," and asks the victim to read back or key in the code they just received to "stop" the intrusion — which instead hands the attacker exactly what they need to finish logging in.
+
+One such service, JokerOTP, was tied by UK and Dutch investigators to more than 28,000 attacks across 13 countries and an estimated $10 million in losses, targeting users of PayPal, Venmo, Coinbase, Amazon, and Apple among others. Dutch police arrested the tool's developer in April 2025, a co-developer in August 2025, and a 21-year-old distributor in Dordrecht, Netherlands on February 10, 2026, who was accused of selling the bot's license keys over Telegram.
+
+Because the call arrives seconds after a victim receives a legitimate-looking passcode text, and because caller ID can be spoofed to match the real company, this is far more convincing than a static phishing text — but the underlying rule is unchanged: a verification code is only for you, no legitimate company or bank will ever call and ask you to read it back, and anyone worried about a real account problem should hang up and call the number printed on their card or statement instead of engaging with the caller.`,
+    categorySlug: 'account-takeover',
+    country: 'US',
+    alertLevel: 'critical',
+    sources: ['FTC Consumer Advice', 'Dutch National Police', 'Europol'],
+    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2024/03/whats-verification-code-why-would-someone-ask-me-it',
+});
