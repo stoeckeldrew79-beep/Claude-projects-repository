@@ -8274,6 +8274,34 @@ UsGM.push({
 });
 
 UsGM.push({
+    name: 'New Orleans Municipal Court "Notice of Default" QR Code Mail Scam',
+    slug: 'louisiana-new-orleans-municipal-court-qr-code-mail-scam',
+    description: `The Municipal and Traffic Court of New Orleans issued a public warning after fraudulent "Notice of Default" letters began circulating that falsely claimed to come from the court's Traffic Division. The letters reference alleged parking or toll violations and use threatening language — warning of license suspension and collection action — to pressure recipients into resolving the matter immediately. Instead of directing victims to a phone number or in-person payment, the letters embed a QR code that recipients are told to scan to "resolve" the violation, routing them to a scam payment page designed to harvest financial and personal information.
+
+Court officials stated plainly that "official court communications do not use threatening language demanding immediate payment through QR codes or unofficial channels." The court urged recipients to ignore the notice, avoid scanning the embedded QR code, never share personal or financial information in response, and instead call the court directly at 504-658-8500 or visit in person at 727 South Broad Street, New Orleans, to verify any real citation — a scam notable for combining a physical, official-looking mailer with a QR code payment redirect, distinct from the SMS-based government-impersonation smishing scams more commonly seen in Louisiana.`,
+    categorySlug: 'qr-code-scams',
+    alertLevel: 'medium',
+    sources: ['Municipal and Traffic Court of New Orleans', 'Fox 8 (WVUE)'],
+    sourceUrl: 'https://www.fox8live.com/2026/03/23/be-aware-this-fake-new-orleans-traffic-court-scam-text/',
+    country: 'US',
+    state: 'LA',
+});
+
+UsGM.push({
+    name: 'FBI Sextortion Warning for Monroe, Alexandria, and Shreveport',
+    slug: 'louisiana-monroe-alexandria-shreveport-fbi-sextortion-warning',
+    description: `The FBI's New Orleans Field Office, jointly with the FBI's Little Rock Field Office, issued a public warning about a sharp uptick in targeted sextortion schemes affecting minors in specific named Louisiana communities — Monroe, Alexandria, and Shreveport — alongside neighboring south Arkansas towns. In the scheme, a predator poses as a teenager on social media and manipulates a minor victim into engaging in explicit activity over video chat, secretly recording the session. The predator then reveals the recording exists and threatens to publish it to the victim's social media contacts unless paid — demanding cash, bank account login credentials, or gift cards.
+
+The FBI noted that "sextortion offenders frequently have dozens of victims around the world, so coming forward to help law enforcement identify a predator may prevent countless future incidents of sexual exploitation," and that shame and fear keep many victims from reporting, letting schemes continue undetected. FBI New Orleans asked anyone aware of a Louisiana sextortion victim to call 504-816-3000 and to preserve all messages and images rather than deleting them before investigators can review them.`,
+    categorySlug: 'sextortion',
+    alertLevel: 'high',
+    sources: ['FBI New Orleans Field Office', 'FBI Little Rock Field Office', 'KSLA'],
+    sourceUrl: 'https://www.ksla.com/2022/05/03/sextortion-plots-targeting-kids-monroe-shreveport-alexandria-el-dorado-fbi-says/',
+    country: 'US',
+    state: 'LA',
+});
+
+UsGM.push({
     name: 'Mercari Seller "Additional Verification" Phishing Scam',
     slug: 'mercari-seller-verification-phishing-scam',
     description: `Starting in December 2024, fraudsters began messaging Mercari sellers through the platform's own in-app chat, impersonating Mercari support with fake profile photos and account names containing words like "help" or "verify," claiming the seller must complete "additional verification due to new rules" before being paid. The messages directed sellers to contact a generic Gmail address, a text-message number, or a look-alike domain such as mercaribot.su — none of which are official Mercari channels — where sellers who complied were asked to hand over login credentials or financial details, giving scammers access to their seller account and payout information. Reports from confused sellers documented the pattern spreading rapidly in real time as victims struggled to get answers through Mercari's own support channels, and on December 27, 2024, Mercari itself confirmed the scam and stated the company "will never ask to complete verification via chat or direct messaging" and warned users not to click on external links sent through in-app messages. Anyone contacted this way should ignore the message and check their account status only inside the official Mercari app, never through a link or contact method supplied by the person claiming to need "verification."`,
