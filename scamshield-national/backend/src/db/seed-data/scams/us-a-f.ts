@@ -9858,3 +9858,16 @@ Students who receive such a contact should hang up, verify status only through o
     sourceUrl: 'https://studyinthestates.dhs.gov/2026/02/beware-of-dhs-imposters-protecting-foreign-students-from-scams',
     country: 'US',
 });
+
+UsAF.push({
+    name: "FBI Columbia Field Office Spoofed-Number Jury Duty Warrant Scam",
+    slug: "fbi-columbia-spoofed-number-jury-duty-warrant-scam",
+    description:
+      "Criminals are calling South Carolina residents and claiming they missed federal jury duty or that a warrant has been issued for their arrest. Victims are told to expect a follow-up call from an FBI agent, and on that second call the caller ID displays the real main phone number of the FBI's Columbia field office because scammers are spoofing it. The impersonator then threatens arrest or prosecution unless the victim pays, often instructing them to withdraw large amounts of cash and convert it into cryptocurrency, and sometimes sends fake credentials or official-looking documents to make the story believable. Real FBI agents and local police will never call to demand money, Social Security numbers, gift cards, or crypto over the phone. Hang up, do not send money or personal information, and call the FBI Columbia office back using the number listed on fbi.gov or report the call at ic3.gov.",
+    categorySlug: "government-impersonation",
+    alertLevel: "high",
+    sources: ["FBI Columbia Field Office public service announcement, July 21, 2025","Charleston County Sheriff's Office warnings on law enforcement impersonation calls","WIS, Live 5 News, WSPA, WCIV, The Sumter Item coverage"],
+    sourceUrl: "https://www.fbi.gov/contact-us/field-offices/columbia/news/fbi-columbia-warns-of-government-impersonation-scams-using-spoofed-fbi-phone-number",
+    country: "US",
+    state: "SC",
+});

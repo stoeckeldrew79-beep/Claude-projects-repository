@@ -9152,3 +9152,16 @@ MAP urges beneficiaries to review Medicare Summary Notices and Explanation of Be
     isHistorical: true,
     firstRecorded: '2026-01-01',
 });
+
+UsNS.push({
+    name: "South Carolina Auto Loan Fraud Scheme Through Small Dealerships",
+    slug: "south-carolina-auto-loan-fraud-small-dealerships",
+    description:
+      "The South Carolina Attorney General's Office announced State Grand Jury indictments covering nearly $1.4 million in fraudulent auto loans taken out from lenders doing business in South Carolina. According to the announcement, fraudulent loan applications were frequently submitted online, where lender identity verification is weakest, and were pushed through small auto sales dealerships that served as the mechanism for the scheme. Attorney General Alan Wilson said the resulting losses are ultimately passed on to consumers statewide through higher costs, and that lending institutions can do more to catch fraud during the application process. Consumers should check their credit reports regularly for auto loans or inquiries they did not authorize, be cautious with small dealerships that ask to handle financing paperwork on their behalf, and never let anyone else submit a loan application using their personal information. If you find an auto loan you did not open, place a fraud alert or freeze with the credit bureaus and file a complaint with the SC Attorney General's Office.",
+    categorySlug: "identity-theft",
+    alertLevel: "medium",
+    sources: ["South Carolina Attorney General Alan Wilson announcement of State Grand Jury indictments, April 13, 2026"],
+    sourceUrl: "https://www.scag.gov/about-the-office/news/attorney-general-alan-wilson-announces-state-grand-jury-indictments-for-nearly-1-4-million-in-auto-loan-fraud-scams/",
+    country: "US",
+    state: "SC",
+});
