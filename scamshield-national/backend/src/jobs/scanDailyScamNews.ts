@@ -62,6 +62,11 @@ const INTERNATIONAL_SEARCH_TERMS = [
 
 const SEARCH_TERMS = [...US_SEARCH_TERMS, ...INTERNATIONAL_SEARCH_TERMS];
 
+// Which list a term came from, so each candidate can be tagged
+// is_international at insert time — see migration 027. A Set of the shorter
+// list rather than a second parallel array to loop over.
+const INTERNATIONAL_TERMS = new Set(INTERNATIONAL_SEARCH_TERMS);
+
 // Small pause between requests so a ~26-term run stays a polite trickle
 // rather than a burst against Google News.
 const REQUEST_DELAY_MS = 400;
@@ -106,6 +111,7 @@ interface NewsCandidate {
   sourceUrl: string;
   publishedAt: Date | null;
   searchTerm: string;
+  isInternational: boolean;
 }
 
 const parser = new XMLParser({ ignoreAttributes: false, attributeNamePrefix: '' });
@@ -163,6 +169,7 @@ async function fetchCandidates(searchTerm: string): Promise<NewsCandidate[]> {
       sourceUrl: String(item.link).trim(),
       publishedAt: publishedAt && !Number.isNaN(publishedAt.getTime()) ? publishedAt : null,
       searchTerm,
+      isInternational: INTERNATIONAL_TERMS.has(searchTerm),
     });
   }
   return candidates;
@@ -170,11 +177,19 @@ async function fetchCandidates(searchTerm: string): Promise<NewsCandidate[]> {
 
 async function saveCandidate(candidate: NewsCandidate): Promise<boolean> {
   const { rows } = await pool.query(
-    `INSERT INTO daily_scam_news (headline, summary, source_name, source_url, published_at, search_term)
-     VALUES ($1, $2, $3, $4, $5, $6)
+    `INSERT INTO daily_scam_news (headline, summary, source_name, source_url, published_at, search_term, is_international)
+     VALUES ($1, $2, $3, $4, $5, $6, $7)
      ON CONFLICT (source_url) DO NOTHING
      RETURNING id`,
-    [candidate.headline, candidate.summary, candidate.sourceName, candidate.sourceUrl, candidate.publishedAt, candidate.searchTerm]
+    [
+      candidate.headline,
+      candidate.summary,
+      candidate.sourceName,
+      candidate.sourceUrl,
+      candidate.publishedAt,
+      candidate.searchTerm,
+      candidate.isInternational,
+    ]
   );
   return rows.length > 0;
 }

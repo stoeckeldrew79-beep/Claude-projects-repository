@@ -76,7 +76,9 @@ export default function TodaysScams() {
   // changing it does not need to round-trip through the URL.
   const [searchParams] = useSearchParams();
   const initialState = (searchParams.get('state') ?? '').toUpperCase();
-  const [state, setState] = useState<string>(/^[A-Z]{2}$/.test(initialState) ? initialState : '');
+  const [state, setState] = useState<string>(
+    initialState === 'US' || /^[A-Z]{2}$/.test(initialState) ? initialState : ''
+  );
   const {
     data: newsPages,
     isLoading,
@@ -94,6 +96,12 @@ export default function TodaysScams() {
   );
   const { data: stateCounts } = useDailyNewsStates();
   const { data: total } = useDailyScamNewsCount(state || undefined);
+  // Every US row, state-tagged or general national — distinct from a single
+  // state (below the dropdown's per-state options) and from the unfiltered
+  // feed (which also mixes in international coverage). Only actually needed
+  // to label the "United States" option, so it's cheap regardless of which
+  // filter is currently selected.
+  const { data: usTotal } = useDailyScamNewsCount('US');
 
   // Reserve a row for every headline still to come, so the page is its full
   // height immediately rather than growing (and the scrollbar thumb shrinking
@@ -101,6 +109,7 @@ export default function TodaysScams() {
   const placeholderCount = Math.max((total ?? 0) - (news?.length ?? 0), 0);
 
   const selected = stateCounts?.find((s) => s.state === state);
+  const isUsAggregate = state === 'US';
 
   return (
     <div className="max-w-3xl mx-auto px-4 py-12">
@@ -128,6 +137,7 @@ export default function TodaysScams() {
             className="rounded-md border border-slate-300 px-3 py-2 text-sm"
           >
             <option value="">All states &amp; international</option>
+            {usTotal !== undefined && <option value="US">United States ({usTotal})</option>}
             {stateCounts.map((s) => (
               <option key={s.state} value={s.state}>
                 {stateName(s.state)} ({s.total})
@@ -144,6 +154,13 @@ export default function TodaysScams() {
             </button>
           )}
         </div>
+      )}
+
+      {isUsAggregate && (
+        <p className="mt-3 text-sm text-slate-600">
+          Every US story — state Attorney General alerts and general national coverage — with international coverage
+          filtered out.
+        </p>
       )}
 
       {selected && (
@@ -187,7 +204,7 @@ export default function TodaysScams() {
         {news && news.length === 0 && !placeholderCount && (
           <p className="text-slate-500">
             {state
-              ? `No recent alerts for ${stateName(state)} — try another state or clear the filter.`
+              ? `No recent alerts for ${isUsAggregate ? 'the United States' : stateName(state)} — try another state or clear the filter.`
               : 'No scam news scanned yet — check back soon.'}
           </p>
         )}

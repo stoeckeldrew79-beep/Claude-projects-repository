@@ -21,7 +21,12 @@ function pageOffset(raw: unknown): number {
 // reserved space is wrong and the drift this exists to prevent comes back.
 export const count = asyncHandler<AuthedRequest>(async (req, res) => {
   const raw = typeof req.query.state === 'string' ? req.query.state.toUpperCase() : '';
-  const state = /^[A-Z]{2}$/.test(raw) ? raw : null;
+  // 'US' is a sentinel, not a real state code (checked before the state-code
+  // regex below, which would otherwise happily match it) — every US row,
+  // state-tagged or general national, as opposed to a single state or the
+  // international rows mixed into the unfiltered feed. See migration 027.
+  const isUsAggregate = raw === 'US';
+  const state = !isUsAggregate && /^[A-Z]{2}$/.test(raw) ? raw : null;
 
   if (state) {
     const { rows } = await pool.query<{ count: string }>(
@@ -36,6 +41,32 @@ export const count = asyncHandler<AuthedRequest>(async (req, res) => {
        )
        SELECT COUNT(*)::text AS count FROM deduped WHERE dupe_rank = 1`,
       [state]
+    );
+    res.json({ data: { count: Number(rows[0]?.count ?? 0) } });
+    return;
+  }
+
+  if (isUsAggregate) {
+    const { rows } = await pool.query<{ count: string }>(
+      `WITH deduped AS (
+         SELECT id, source_name, published_at, scanned_at, ROW_NUMBER() OVER (
+                  PARTITION BY lower(headline)
+                  ORDER BY (source_kind = 'ag') DESC,
+                           COALESCE(published_at, scanned_at) DESC, id
+                ) AS dupe_rank
+         FROM daily_scam_news
+         WHERE is_international = false
+       ),
+       ranked AS (
+         SELECT id, ROW_NUMBER() OVER (
+                  PARTITION BY source_name
+                  ORDER BY COALESCE(published_at, scanned_at) DESC
+                ) AS source_rank
+         FROM deduped
+         WHERE dupe_rank = 1
+       )
+       SELECT COUNT(*)::text AS count FROM ranked WHERE source_rank <= $1`,
+      [MAX_STORIES_PER_SOURCE]
     );
     res.json({ data: { count: Number(rows[0]?.count ?? 0) } });
     return;
@@ -65,7 +96,8 @@ export const count = asyncHandler<AuthedRequest>(async (req, res) => {
 
 export const list = asyncHandler<AuthedRequest>(async (req, res) => {
   const raw = typeof req.query.state === 'string' ? req.query.state.toUpperCase() : '';
-  const state = /^[A-Z]{2}$/.test(raw) ? raw : null;
+  const isUsAggregate = raw === 'US';
+  const state = !isUsAggregate && /^[A-Z]{2}$/.test(raw) ? raw : null;
   const offset = pageOffset(req.query.page);
 
   if (state) {
@@ -91,6 +123,44 @@ export const list = asyncHandler<AuthedRequest>(async (req, res) => {
                 COALESCE(published_at, scanned_at) DESC, id
        LIMIT $2 OFFSET $3`,
       [state, PAGE_SIZE, offset]
+    );
+    res.json({ data: rows });
+    return;
+  }
+
+  if (isUsAggregate) {
+    // Same dedup + per-source cap as the unfiltered feed below, just scoped
+    // to is_international = false — the US view is still broad enough (every
+    // state plus general national coverage) to need the varied-sources cap
+    // that a single state's narrow view does not.
+    const { rows } = await pool.query(
+      `WITH deduped AS (
+         SELECT *,
+                ROW_NUMBER() OVER (
+                  PARTITION BY lower(headline)
+                  ORDER BY (source_kind = 'ag') DESC,
+                           COALESCE(published_at, scanned_at) DESC, id
+                ) AS dupe_rank
+         FROM daily_scam_news
+         WHERE is_international = false
+       ),
+       ranked AS (
+         SELECT *,
+                ROW_NUMBER() OVER (
+                  PARTITION BY source_name
+                  ORDER BY COALESCE(published_at, scanned_at) DESC
+                ) AS source_rank
+         FROM deduped
+         WHERE dupe_rank = 1
+       )
+       SELECT id, headline, summary, source_name, source_url,
+              published_at, search_term, scanned_at, state, source_kind
+       FROM ranked
+       WHERE source_rank <= $1
+       ORDER BY (source_kind = 'ag') DESC,
+                COALESCE(published_at, scanned_at) DESC, id
+       LIMIT $2 OFFSET $3`,
+      [MAX_STORIES_PER_SOURCE, PAGE_SIZE, offset]
     );
     res.json({ data: rows });
     return;
