@@ -3877,6 +3877,17 @@ export const UsAF: SeedScam[] = [
     sourceUrl: 'https://www.fincen.gov/news/news-releases/fincen-issues-alert-fraud-schemes-involving-deepfake-media-targeting-financial',
   },
 {
+    name: 'FinCEN Beneficial Ownership Filing Fee Scam',
+    slug: 'fincen-beneficial-ownership-filing-fee-scam',
+    description:
+      'Small-business owners nationwide have received letters, emails, and faxes styled to look like official notices from the Financial Crimes Enforcement Network (FinCEN), demanding a "filing fee" — commonly around $119 — to submit a company\'s Beneficial Ownership Information (BOI) report under the Corporate Transparency Act. FinCEN\'s own alert FIN-2024-Alert005, issued December 18, 2024, describes fraudulent forms with names like "Form 4022" and "Form 5102" (FinCEN has no such forms) sent by entities calling themselves "Annual Records Service" or the "United States Business Regulations Department," instructing owners to mail a check or money order, or pay online through a QR code or link, and threatening steep fines and possible criminal prosecution for noncompliance. In reality, filing BOI directly with FinCEN through its e-filing system is free, and FinCEN never charges a fee or contacts businesses demanding payment. The scam has outlasted the rule it exploits: after a series of court injunctions, FinCEN issued an interim final rule in March 2025 exempting all U.S.-formed companies and U.S. citizens from BOI reporting entirely, leaving the requirement in force only for foreign entities registered to do business in a U.S. state — yet fraudulent "filing fee" letters have kept circulating to LLCs and corporations formed long before that change, banking on owners\' confusion about whether the requirement still applies to them. Business owners who receive one of these notices should not click any link, scan any QR code, or mail a payment, and can verify their actual BOI status directly at fincen.gov/boi or report the letter to the Treasury Office of Inspector General.',
+    categorySlug: 'government-impersonation',
+    country: 'US',
+    alertLevel: 'medium',
+    sources: ['FinCEN', 'U.S. Department of the Treasury'],
+    sourceUrl: 'https://www.fincen.gov/system/files/2024-12/Alert-FinCEN-Scams-FINAL508.pdf',
+  },
+{
     name: 'CISA Employee Impersonation Scam',
     slug: 'cisa-employee-impersonation-scam',
     description:
