@@ -9975,3 +9975,16 @@ The FBI urged Alabamians dating online to reverse-image-search a match's photos,
     country: 'US',
     state: 'AL',
 });
+
+UsAF.push({
+    name: "E-ZPass Delaware \"Unpaid Toll\" Text Message Scam",
+    slug: "e-zpass-delaware-unpaid-toll-text-message-scam",
+    description:
+      "Delaware residents are receiving unsolicited text messages claiming they owe an unpaid toll balance to E-ZPass Delaware, the toll program run by the Delaware Department of Transportation. The messages include a link and pressure the recipient to pay immediately to avoid late fees or penalties. The link leads to a spoofed payment page that harvests credit card numbers and personal information instead of collecting any real toll. The State of Delaware issued a formal scam alert on February 26, 2025, warning that E-ZPass Delaware does not collect toll debts by text message in this way. Do not click links in these texts; if you are unsure about your account, log in directly at the official E-ZPass Delaware website or call the customer service number on your statement, and delete the message.",
+    categorySlug: "phishing",
+    alertLevel: "high",
+    sources: ["State of Delaware official news portal","Delaware Department of Transportation (DelDOT) / E-ZPass Delaware scam alert, February 26, 2025"],
+    sourceUrl: "https://news.delaware.gov/2025/02/26/e-zpass-text-scam-alert/",
+    country: "US",
+    state: "DE",
+});
