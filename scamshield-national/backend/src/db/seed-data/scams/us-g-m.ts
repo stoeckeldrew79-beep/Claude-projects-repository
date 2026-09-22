@@ -9167,3 +9167,19 @@ Never click links in unsolicited "delivery action needed" texts; verify tracking
     country: 'US',
     state: 'GU',
 });
+
+UsGM.push({
+    name: 'Mississippi Business Filing Fraud Prevention Act (Fraudulent Business Entity Formation)',
+    slug: 'mississippi-business-filing-fraud-prevention-act',
+    description: `Mississippi's Secretary of State's Office reports a sharp rise in fraudulent business filings submitted through its online system, with the most common complaint being that a Mississippian's own home address and other personal identifying information were used, without their knowledge or consent, to register a brand-new LLC or corporation they had nothing to do with. Because Mississippi's business-filing portal historically let anyone submit formation paperwork online with minimal identity verification, the person whose identity was misused typically discovered the fraudulent entity only after receiving mail, a tax notice, or a collections call tied to a business bearing their name or address — sometimes only after the entity had already been used to open bank accounts, take out loans, or set up fraudulent supplier accounts.
+
+In response, the Legislature passed House Bill 1532, the Mississippi Business Filing Fraud Prevention Act, during the 2026 legislative session; the law officially took effect July 1, 2026, and for the first time created an administrative process letting the Secretary of State's Office remove a confirmed fraudulent business filing instead of leaving a victim to sort it out entity-by-entity through the courts. A victim now reports the fraud using a notarized Declaration of Wrongful Business Filing Form, submitted to the Secretary of State's Business Services Division and signed under penalty of perjury certifying the statements are true and correct.
+
+Mississippians can check whether a business has been fraudulently registered using their name or address through the Secretary of State's online business-entity search, and anyone who discovers one should file the Declaration of Wrongful Business Filing Form rather than assume the entity will simply expire on its own.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'medium',
+    sources: ["Mississippi Secretary of State's Office", 'The Clinton Courier'],
+    sourceUrl: 'https://sos.ms.gov/business-services-external-affairs/mississippi-business-filing-fraud-prevention-act',
+    country: 'US',
+    state: 'MS',
+});
