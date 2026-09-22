@@ -9253,3 +9253,87 @@ The case is a documented, prosecuted example of exactly the agent-of-record and 
     isHistorical: true,
     firstRecorded: '2021-12-01',
 });
+
+UsGM.push({
+    name: "Wausau Man's $14.25 Million 'Bright with Silver' Promissory-Note Ponzi Scheme Targeting Northeast Iowa",
+    slug: 'iowa-pophal-bright-with-silver-promissory-note-ponzi-scheme',
+    description: `Stanley Pophal, 64, of Wausau, Wisconsin, operated Bright with Silver, Inc. — formerly doing business as Fromm Bros., Inc. — from May 2019 through June 2025, soliciting investors nationwide to buy promissory notes he promised would pay guaranteed returns of at least 20%, in part by falsely claiming his own substantial personal wealth backstopped investors' principal. Rather than investing the money in cryptocurrency, real estate, or commodities as advertised, Pophal spent millions on personal expenses and private-plane rentals and bought more than 600 items including hundreds of snowmobiles, motorcycles, and other vehicles, while using new investors' money to keep paying off earlier ones in classic Ponzi fashion.
+
+Pophal held unauthorized investment meetings recruiting Iowans across six northeast and southeast Iowa counties — Allamakee, Winneshiek, Mitchell, Wapello, Clayton, and Madison — as part of a scheme that ultimately defrauded 190 investors nationwide of $14.25 million. A federal investigation spanning multiple Iowa and Wisconsin agencies led to Pophal's sentencing in September 2026 to 96 months in federal prison on wire fraud and money laundering charges, with all of his purchased vehicles and other assets ordered forfeited for victim restitution. Winneshiek County Sheriff Dan Marx said "every participating agency dedicated countless hours to gathering evidence and holding Mr. Pophal accountable."
+
+A guaranteed, above-market return promised on a promissory note sold outside any registered securities offering is one of the most reliable red flags of a Ponzi scheme — Iowans approached this way should verify both the seller and the security itself are registered with state or federal regulators before wiring any money.`,
+    categorySlug: 'ponzi-pyramid-schemes',
+    alertLevel: 'high',
+    sources: ['Iowa Insurance Division', "Winneshiek County Sheriff's Office"],
+    sourceUrl: 'https://iid.iowa.gov/press-release/2026-09-09/wisconsin-man-sentenced-8-years-federal-prison-1425-million-wire-fraud-and-money-laundering-scheme',
+    country: 'US',
+    state: 'IA',
+});
+
+UsGM.push({
+    name: "Urbandale Plastic Surgeon's $20 Million Skin-Substitute Medicare Billing Fraud (Dr. Eugene Cherny)",
+    slug: 'iowa-urbandale-cherny-heartland-plastic-medicare-skin-substitute-fraud',
+    description: `Federal prosecutors filed a civil False Claims Act complaint on June 23, 2026 against Dr. Eugene J. Cherny, 70, of Des Moines, and his Urbandale practice, Heartland Plastic and Reconstructive Surgery, P.C., alleging he routinely gave a Medicare contractor false pricing information for "skin-substitute" grafts used to treat Medicare patients' skin cancer and chronic wounds. The complaint alleges a skin-substitute distributor gave Cherny two invoices for every purchase — one showing an artificially inflated "list price" and one showing the substantially lower price he actually paid — with the government citing one concrete instance where Cherny billed Medicare $400 a unit for a product he had actually paid $240 a unit for, then handed Medicare only the inflated invoice when asked to document his real cost.
+
+Medicare reimbursed Cherny and his practice $20,167,426 for skin-substitute products between January 2021 and December 2022 alone ($13,142,219 in 2021 and $7,025,207 in 2022), making him the nation's top-paid Medicare Part B provider of those products in both years, and the government alleges he pocketed more than $2 million he wasn't entitled to as a result. The still-pending civil case illustrates a Medicare-fraud pattern regulators warn about nationally: skin substitutes are reimbursed based on a provider's actual acquisition cost, a figure only the provider can document, giving a provider a direct financial incentive to misstate what they paid.
+
+Medicare beneficiaries who receive a skin-substitute treatment can ask their provider for the product name and review their own Medicare Summary Notice, and can report suspected billing fraud to the HHS Office of Inspector General.`,
+    categorySlug: 'medicare-health-plans',
+    alertLevel: 'medium',
+    sources: ["U.S. Attorney's Office for the Southern District of Iowa", 'KCRG'],
+    sourceUrl: 'https://www.kcrg.com/2026/06/29/feds-plastic-surgeon-defrauded-medicare-through-false-billings-cancer-treatments/',
+    country: 'US',
+    state: 'IA',
+    isHistorical: true,
+    firstRecorded: '2026-06-23',
+});
+
+UsGM.push({
+    name: 'Central Iowa Couple’s $16,340 Fake Publishers Clearing House Prize Intercepted by AG’s Office',
+    slug: 'iowa-central-iowa-publishers-clearing-house-sweepstakes-scam-intercept',
+    description: `A scammer called a 72-year-old central Iowa man in December 2024 claiming he had won a $3.5 million Publishers Clearing House prize plus $5,000 a week for life, and convinced him to buy a cashier's check for $16,340.18 and mail it via express mail to an address in Miami to cover supposed upfront taxes and fees. Before the package reached its destination, a relative discussed the scam with an investigator from Iowa Attorney General Brenna Bird's office at a county-attorneys training session, and the investigator immediately worked with a local postal inspector to intercept the package and return the full $16,340.18 to the couple.
+
+Bird's office says the case reflects the classic mechanics of a sweepstakes scam: a caller announces a huge, unsolicited prize, then insists the winner must pay taxes or processing fees upfront — by cashier's check, wire, or gift card — before any winnings can be released, something no legitimate sweepstakes, including the real Publishers Clearing House, ever requires.
+
+Iowans are urged to remember that if you have to pay to collect a prize, it isn't a real prize, and can report a suspected lottery or sweepstakes scam to the Attorney General's Consumer Protection Division at 1-888-777-4590 before sending any money.`,
+    categorySlug: 'lottery-sweepstakes-scams',
+    alertLevel: 'high',
+    sources: ["Iowa Attorney General's Office (Brenna Bird)"],
+    sourceUrl: 'https://www.iowaattorneygeneral.gov/newsroom/attorney-general-birds-office-saves-iowa-couple-more-than-16000-and-warns-iowans-of-sweepstakes-s',
+    country: 'US',
+    state: 'IA',
+    isHistorical: true,
+    firstRecorded: '2024-12-01',
+});
+
+UsGM.push({
+    name: "Kansas Crypto ATM 'Outstanding Warrant' Impersonation Scam",
+    slug: 'kansas-crypto-atm-outstanding-warrant-scam',
+    description: `Callers posing as police officers, judges, or court clerks have been telling Kansans they have an outstanding arrest warrant, an unpaid fine, or a missed jury-duty summons, then directing them to resolve it immediately by feeding cash into a cryptocurrency ATM. A Salina woman lost $10,000 this way, and Sedgwick County District Attorney Marc Bennett said his office fielded three such reports from the Wichita area in a single recent month, helping those victims recover roughly $6,000 in lost funds.
+
+Consumer Protection Division investigator Kristen Zluticky said the office was able to help a victim recover money specifically because of a new state law: on April 9, 2026, Governor Laura Kelly signed House Bill 2591, creating the Virtual Currency Kiosk Consumer Protection Act, which took effect July 1, 2026. The law caps a first-time kiosk transaction at $1,000, requires operators to display an on-screen fraud warning listing common scam tactics before every transaction, and entitles a victim who reports fraud within 30 days — with a police report or sworn declaration — to a full refund of the transaction amount and fees within 10 business days.
+
+Real courts, police departments, and government agencies never resolve a warrant, fine, or debt by directing someone to a bitcoin kiosk, and any such demand should be treated as an automatic red flag.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ["Sedgwick County District Attorney's Office", 'KSN', 'Kansas Secretary of State (Session Laws of Kansas)'],
+    sourceUrl: 'https://www.kwch.com/2026/09/09/new-law-credited-helping-wichita-area-woman-recover-money-lost-cryptocurrency-scam/',
+    country: 'US',
+    state: 'KS',
+});
+
+UsGM.push({
+    name: 'Jango Touray Wichita Romance Scam (‘Victor’ Persona)',
+    slug: 'kansas-touray-wichita-victor-romance-scam',
+    description: `Starting in late 2020, a 78-year-old widow in Wichita who lived alone was contacted on social media by someone using the name "Victor," who built an online relationship with her and then said he needed money to resolve a personal financial crisis before they could finally meet in person. Believing she was helping the man she thought she loved, she mailed a $110,000 check that was deposited into accounts controlled by Jango Touray, 35, of New York City.
+
+A Sedgwick County District Attorney's Office financial-crimes investigator, Kristen Zluticky, traced the money to Touray and froze multiple accounts tied to him before he was charged. Touray pleaded guilty to the felony of mistreatment of an elder person and was sentenced by Sedgwick County District Judge Jeffrey Syrios to three years of probation with full restitution ordered, backed by a 34-month prison term he must serve if he violates probation or stops paying; the victim has recovered about $38,000 of the $110,000, with the remaining $72,000 due in installments over three years.
+
+The DA's office warned that elderly residents who live alone are especially vulnerable to romance scammers who build long-distance trust online before asking for money.`,
+    categorySlug: 'romance-scams',
+    alertLevel: 'high',
+    sources: ["Sedgwick County District Attorney's Office", 'KSN', 'Eagle Radio/JC Post'],
+    sourceUrl: 'https://jcpost.com/posts/c3cf383b-50de-493c-a447-47956d9f5413',
+    country: 'US',
+    state: 'KS',
+});
