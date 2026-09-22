@@ -9866,6 +9866,10 @@ NotoriousAF.push({
     title: 'Comparator Systems Corp: The Fake Fingerprint-Scanner Company That Briefly Topped $1 Billion on Fumes',
     slug: 'comparator-systems-fingerprint-scanner-fraud',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Biometric_Fingerprint_Scanner.jpg?width=1200',
+    coverImageCredit: 'Photo: Sanskritibharti1398 (CC BY-SA 4.0) — a fingerprint scanner, the technology Comparator claimed to sell',
+    coverImagePosition: 50,
+    // representative photo — replace with a more specific case photo if found
     tags: ['notorious', 'notorious-scammer', 'securities-fraud', 'penny-stock', 'sec-enforcement', 'public-company'],
     body: `Comparator Systems Corp. was a threadbare Southern California penny-stock company with, by the SEC's later accounting, less than $2 million in real assets — and, prosecutors alleged, no real fingerprint-identification technology of its own to sell. Under chairman and CEO Robert Reed Rogers, along with executives Scott Hitt and Gregory Armijo, the company spent fiscal years 1994 and 1995 and the first three quarters of fiscal 1996 telling investors and regulators a very different story: that Comparator owned proprietary patents and licenses covering commercially viable fingerprint-scanning technology, and that its finances and assets were sound. The SEC later charged that at least part of the "technology" investors were shown was a prototype fingerprint device the defendants had taken from people who had no connection to Comparator and passed off as the company's own.
 
@@ -9883,6 +9887,10 @@ NotoriousAF.push({
     title: 'Emanuel Pinez, Centennial Technologies, and the Dummy PC Cards That Fooled Wall Street',
     slug: 'emanuel-pinez-centennial-technologies-fraud',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/NYSE_Building.JPG?width=1200',
+    coverImageCredit: 'Photo: Andy C (CC BY-SA 3.0) — the New York Stock Exchange, where Centennial\'s stock traded',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'accounting-fraud', 'securities-fraud', 'sec-enforcement', 'public-company'],
     body: `Emanuel Pinez founded Centennial Technologies in Wilmington, Massachusetts, building it into a maker of PC memory cards that listed on the American Stock Exchange in April 1994 and graduated to the New York Stock Exchange in November 1996. That same year, 1996, Centennial's stock became the single best-performing issue on the entire NYSE, rising roughly 451 percent to close out December at $55.50 a share — a run built, the SEC and federal prosecutors later established, almost entirely on fabricated numbers.
 
@@ -9900,6 +9908,10 @@ NotoriousAF.push({
     title: 'Airbus and the $3.9 Billion Bribery Settlement That Became the Largest in Corporate History',
     slug: 'airbus-strategic-marketing-organisation-bribery',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Airbus_A320_family,_front_view_(4523439202).jpg?width=1200',
+    coverImageCredit: 'Photo: Björn Strey (CC BY-SA 2.0) — an Airbus A320, the aircraft family at the center of the sales campaigns the bribes were meant to win',
+    coverImagePosition: 50,
+    // representative photo — replace with a more specific case photo if found
     tags: ['notorious', 'historical', 'international'],
     body: `Airbus SE, the European aerospace giant behind the A320 and A330 passenger jets, ran an internal division employees called the Strategic and Marketing Organisation — nominally responsible for coordinating the outside consultants who helped close aircraft sales around the world. Between roughly 2008 and 2015, prosecutors in three countries later found, that division instead functioned as a hidden channel for bribing government officials, airline executives, and other decision-makers to win commercial and defense contracts across dozens of countries.
 
@@ -9917,6 +9929,10 @@ NotoriousAF.push({
     title: "BAE Systems and the Al Yamamah Scandal: The Bribery Investigation Britain's Government Shut Down",
     slug: 'bae-systems-al-yamamah-bribery-scandal',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Bae_hawk_t1_xx245_inflight_arp.jpg?width=1200',
+    coverImageCredit: 'Photo: Adrian Pingstone (public domain) — a BAE Hawk, one of the aircraft types at the center of the Al Yamamah arms deal',
+    coverImagePosition: 50,
+    // representative photo — replace with a more specific case photo if found
     tags: ['notorious', 'historical', 'international'],
     body: `In 1985, BAE Systems' predecessor British Aerospace signed the Al Yamamah arms deal with Saudi Arabia, a package ultimately worth more than £40 billion over its life to supply Tornado and Hawk fighter jets, paid for partly in Saudi oil rather than cash. It remains the largest export contract in British history — and for two decades it was also the center of Britain's most consequential unresolved bribery investigation.
 
@@ -9934,6 +9950,10 @@ NotoriousAF.push({
     title: "Alan Saxon and Bullion Reserve of North America: The Gold Fraud That Died With Its Founder",
     slug: 'alan-saxon-bullion-reserve-of-north-america-fraud',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Gold_bullion_bars.jpg?width=1200',
+    coverImageCredit: 'Photo: Stevebidmead (CC0, public domain) — gold bullion bars, the metal BRNA claimed to hold on customers\' behalf',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `Alan David Saxon built Bullion Reserve of North America into one of the country's largest precious-metals dealers through a "member account program": customers paid a nominal administrative fee, then were entitled to buy gold and silver through the company at wholesale prices, which BRNA promised to purchase and hold on their behalf in a vault at Perpetual Storage, a commercial storage facility near Salt Lake City, Utah. By 1983 the company counted roughly 35,000 customers nationwide, and Saxon — who personally owned 89.5 percent of its stock — had built enough of a profile to also sit on the board of California Commercial Bank, a Beverly Hills bank founded by entertainer Johnny Carson and his attorney Henry Bushkin, until state regulators shut that bank down in May 1983 over capital losses the FBI was separately investigating.
 
