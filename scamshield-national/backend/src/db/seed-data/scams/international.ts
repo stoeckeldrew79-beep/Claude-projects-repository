@@ -21605,3 +21605,39 @@ The FSC's advice to Montserratians was direct: do not join a pyramid selling sch
   isHistorical: true,
   firstRecorded: '2020-11-23',
 });
+
+International.push({
+    name: "False Billing and Hacked-Invoice Payment Redirection in Kiribati",
+    slug: "false-billing-hacked-invoice-payment-redirection-kiribati",
+    description:
+      "Fraudsters send Kiribati households and businesses invoices for goods or services that were never ordered and never delivered, hoping the bill is paid without question. In a more damaging version, criminals break into a real business's email account and resend its genuine invoices to customers after swapping in a bank account they control, so the customer pays the right amount for real goods but the money goes to the scammer. ANZ Bank (Kiribati) Ltd documents both variants on its Kiribati customer scam-education page. Because the underlying transaction is legitimate, the theft is often only discovered weeks later when the real supplier chases payment. Always verify bank account details by phoning the supplier on a known number before paying, and treat any emailed change of payment details as suspicious until confirmed.",
+    categorySlug: "business-email-compromise",
+    alertLevel: "high",
+    sources: ["ANZ Bank (Kiribati) Ltd - Types of scams and fraud"],
+    sourceUrl: "https://www.anz.com/kiribati/en/personal/ways-bank/protect-banking/types-of-scams-and-fraud/",
+    country: "KI",
+});
+
+International.push({
+    name: "\"Help Us Catch the Hackers\" Fund Transfer Scam",
+    slug: "help-us-catch-the-hackers-fund-transfer-scam",
+    description:
+      "A caller or emailer posing as an investigator, official or bank representative tells the victim that their money must be moved to a local or offshore account to help with an investigation or to trap hackers and scammers. The victim is pushed toward payment channels that cannot be traced or reversed, including pre-loaded debit cards, gift cards, iTunes vouchers, Bitcoin and money transfer services. ANZ Bank (Kiribati) Ltd lists this scam on its Kiribati customer scam-education page. Once the transfer is made the funds are effectively unrecoverable, which is exactly why those payment methods are chosen. No genuine bank, police force or government office will ever ask you to move your own money to assist an investigation, so hang up and call the organisation back on a number you looked up yourself.",
+    categorySlug: "government-impersonation",
+    alertLevel: "high",
+    sources: ["ANZ Bank (Kiribati) Ltd - Types of scams and fraud"],
+    sourceUrl: "https://www.anz.com/kiribati/en/personal/ways-bank/protect-banking/types-of-scams-and-fraud/",
+    country: "KI",
+});
+
+International.push({
+    name: "ANZ Kiribati Internet Banking Credential Phishing",
+    slug: "anz-kiribati-internet-banking-credential-phishing",
+    description:
+      "Scammers impersonate ANZ Bank by email, text message or phone call and try to harvest internet banking log-on details from Kiribati customers. The message usually contains a link to a fake copy of the ANZ Internet Banking log-on page, or the caller simply asks the customer to read out a PIN, password or one-time security code. ANZ Bank (Kiribati) Ltd warns on its fraud protection page that it will never contact customers asking for these credentials. Its guidance is to never click a log-on link sent in an email and instead type the bank's web address into the browser yourself. If you receive such a message, do not respond, delete it, and contact the bank directly using a number from your bank statement or card.",
+    categorySlug: "phishing",
+    alertLevel: "medium",
+    sources: ["ANZ Bank (Kiribati) Ltd - Protecting yourself from fraud"],
+    sourceUrl: "https://www.anz.com/kiribati/en/personal/ways-bank/protect-banking/protecting-yourself-from-fraud/",
+    country: "KI",
+});
