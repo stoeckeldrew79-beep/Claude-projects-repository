@@ -21355,3 +21355,19 @@ International.push({
     sourceUrl: "https://www.mid.ms.gov/mississippi-insurance-department/consumers/fight-insurance-fraud/",
     country: "MS",
 });
+
+International.push({
+  name: 'Fake National Petroleum Agency Investment Fraud',
+  slug: 'sao-tome-fake-national-petroleum-agency-investment-fraud',
+  description: `São Tomé and Príncipe's own Agência Nacional de Petróleo (ANP, the national petroleum regulator) publicly denounced, in a statement carried by the Portuguese news agency Lusa and published by Jornal de Notícias on April 23, 2008, that foreign nationals were using the agency's name and forged documents to defraud businesspeople abroad. Guilherme Mota, the ANP's administrative and financial director, told Lusa the fraudsters were "mainly" from Nigeria, Ghana, and Togo, with some cases traced to the United States and Britain. The scheme's operators claimed to run offices in London, New York, and Brussels representing the Agência Nacional de Petróleo de São Tomé e Príncipe and to be official state representatives for oil-sector dealings — claims the agency said were entirely fabricated: "These are people we don't know," Mota said. "The identifications are false, the names are false, the addresses given are false, including the passport copies they present. The agency doesn't know them, has never had contact with these individuals."
+
+The agency said the forgeries were being produced by technically sophisticated foreign operators it believed were running an organized network out of countries with strong interests in the energy sector. In the prior year, several foreign businesspeople had already been defrauded, Mota said, persuaded to wire roughly $300,000 to a bank account in the Bahamas in exchange for a promised "quick and profitable" oil-related deal that did not exist; by the time the victims realized what had happened, the money was gone. In 2008 alone, the ANP said it had already learned of two further victims — one in the United Arab Emirates, one in Switzerland — who contacted the agency directly asking for urgent help after they, too, had already wired funds to the account. The ANP said some of the victims themselves were cooperating with investigators to help dismantle the network, and that related cases were by then under investigation by both the FBI and Britain's Scotland Yard.
+
+The episode is a clear example of how a small, oil-poor-turned-oil-hopeful nation's own regulatory agency can be impersonated wholesale — letterhead, false "representatives," and invented foreign offices — to lend false legitimacy to a classic advance-fee investment fraud aimed at business investors rather than ordinary consumers.`,
+  categorySlug: 'investment-fraud',
+  sources: ['Lusa (Agência de Notícias de Portugal)', 'Jornal de Notícias (JN)'],
+  sourceUrl: 'https://www.jn.pt/arquivo/artigo/sao-tome-e-principe-cidadaos-estrangeiros-burlam-com-nomes-e-documentos-falsos-da-agencia-nacional-de-petroleo/935154',
+  country: 'ST',
+  isHistorical: true,
+  firstRecorded: '2008-04-23',
+});
