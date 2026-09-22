@@ -21542,3 +21542,18 @@ The ring's most recent scheme, confirmed in early September 2026, defrauded two 
   isHistorical: true,
   firstRecorded: '2026-09-01',
 });
+
+International.push({
+  name: 'Montserrat FSC Public Warning on Pyramid Schemes',
+  slug: 'montserrat-fsc-pyramid-scheme-public-notice',
+  description: `Montserrat's Financial Services Commission (FSC) issued a formal Public Notice (Warning Notice /FSC1-2020) after becoming aware that "persons in Montserrat are participating in and operating in Pyramid Schemes." Signed by then-Commissioner Dulcie James, the notice defined a pyramid scheme as "a fraudulent investment offering that profits almost solely through the recruitment of other participants into the programme," and, citing guidance from the Eastern Caribbean Securities Regulatory Commission, set out four red flags for residents to watch for: heavy emphasis on recruiting new participants, promises of a high return over a short time, no genuine product or service being offered, and a complex commission structure.
+
+The FSC's advice to Montserratians was direct: do not join a pyramid selling scheme, since participants are likely to lose their money; do not draw family or friends into one for the same reason; and do not establish, operate, or promote one, since doing so is a fraudulent activity carrying the risk of criminal conviction. Residents who identify someone operating or promoting a pyramid scheme were told to report it to the Police, and the public was asked to actively discourage family, friends, and colleagues from joining any such scheme circulating on the island.`,
+  categorySlug: 'ponzi-pyramid-schemes',
+  alertLevel: 'medium',
+  sources: ['Financial Services Commission (Montserrat)'],
+  sourceUrl: 'https://www.fscmontserrat.org/wp-content/uploads/2020/11/Public-Notice-1-1.pdf',
+  country: 'MS',
+  isHistorical: true,
+  firstRecorded: '2020-11-23',
+});
