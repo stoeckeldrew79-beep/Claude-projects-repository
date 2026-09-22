@@ -5059,9 +5059,9 @@ NotoriousAF.push(
     title: "Cardinal Angelo Becciu and the €350 Million London Property Deal That Made Vatican History",
     slug: 'angelo-becciu-vatican-financial-trial',
     author: 'ScamShield Editorial',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Palazzo_Apostolico_001.JPG?width=1200',
-    coverImagePosition: 50,
-    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Giovanni_Angelo_Becciu_par_Claude_Truong-Ngoc_septembre_2018_(cropped).jpg?width=1200',
+    coverImageCredit: 'Photo: Claude Truong-Ngoc, Wikimedia Commons (CC BY-SA 4.0) — Cardinal Angelo Becciu in 2018',
+    coverImagePosition: 30,
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.npr.org/2023/12/16/1219839096/cardinal-vatican-embezzlement-trial-guilty',
     body: `Cardinal Angelo Becciu spent nearly a decade, from 2011 to 2018, as the Substitute for General Affairs in the Vatican's Secretariat of State — a post that functioned as the Holy See's day-to-day chief of staff, with broad control over the Secretariat's own investment funds. During that tenure, the Secretariat committed roughly €350 million, built up partly from Peter's Pence, the annual worldwide collection Catholics are told funds the pope's charitable works, to a speculative real-estate venture: a stake in 60 Sloane Avenue, a former Harrods warehouse in London's Chelsea district being converted into luxury apartments. The deal ran first through a fund managed by Italian financier Raffaele Mincione, then, when the Vatican tried to extricate itself, through a second intermediary, Gianluigi Torzi, who structured the buyout so that he personally retained the voting shares in the property — leaving the Vatican, briefly, without effective control of an investment it had already sunk hundreds of millions of euros into and had to pay Torzi millions more to unwind.
@@ -9825,6 +9825,10 @@ NotoriousAF.push({
     slug: 'derek-palaschuk-longtop-financial-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'international', 'securities-fraud', 'corporate-fraud'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Xiamen_night_cityscape_2018_-_Flickr_-_Jaykhuang.jpg?width=1200',
+    coverImageCredit: 'Photo: Jay Huang (CC BY 2.0) — Xiamen, China, where Longtop Financial was headquartered',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Longtop Financial Technologies Limited was founded in 1996 as a systems integrator for Chinese financial institutions and grew, after moving into software in 2001, into one of the country's largest banking-IT vendors, ranked the third-largest banking IT solution provider in China by market share as of 2006. Its client list included China Construction Bank, Agricultural Bank of China, and Bank of China, and the Cayman Islands-registered company listed its shares on the New York Stock Exchange in October 2007. By early 2011, with Weizhou Lian as chief executive and Canadian accountant Derek Palaschuk serving as chief financial officer, Longtop's American depositary shares had built a market capitalization of roughly $1.08 billion and a reputation as one of the more credible Chinese names trading on a major U.S. exchange.
 
 That reputation broke fast. On April 26, 2011, short-seller Andrew Left published a report through his firm Citron Research alleging Longtop had fabricated cash balances and customer relationships going back to its IPO. Longtop initially disputed the allegations, but on May 17, 2011, the company halted trading in its own shares and announced it could not say when it would release its fiscal-year results. Two days later, on May 19, Palaschuk resigned as CFO; according to an email he later sent that surfaced in litigation, Lian had told him directly that the company "had been a fraud since 2004."
@@ -9842,6 +9846,10 @@ NotoriousAF.push({
     slug: 'eran-mizrahi-israeli-madoff-forex-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'international', 'ponzi-scheme'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Tel_Aviv_Aerial_04.jpg?width=1200',
+    coverImageCredit: 'Photo: Ynhockey, Wikimedia Commons (CC BY-SA 4.0) — an aerial view of Tel Aviv, where Mizrahi ran his fraudulent forex fund',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Eran Mizrahi ran an Israeli investment firm — first under his own name, Eran Mizrahi Investments and Finance Ltd., later rebranded Citadel Finance and Investment Ltd. — built around a pitch that sounded conservative rather than speculative: he told clients he traded their money in foreign-currency markets and could guarantee them 1 to 1.5 percent every month, with their principal personally guaranteed and withdrawable on 30 days' notice. To back up the promise, he told investors their funds sat in trustee accounts at real, established banks — Bank Hapoalim's Givatayim branch in Israel and Heritage Bank in Switzerland.
 
 From at least 2007 through May 2012, that steady, above-market return brought in a wide client base, including — as later Israeli press coverage documented — ordinary families with no particular financial sophistication, who trusted the arrangement precisely because it was pitched as safe rather than speculative. In reality, the trustee accounts were largely fiction, and Mizrahi paid the promised monthly returns to existing clients using money deposited by newer ones, an ordinary Ponzi structure dressed up in the language of currency trading.
