@@ -21484,3 +21484,15 @@ Botswana authorities urge anyone who has built a romantic or close personal rela
   isHistorical: true,
   firstRecorded: '2024-12-09',
 });
+
+International.push({
+    name: "Counterfeit Bankak App Forged Transfer-Notification Scam",
+    slug: "counterfeit-bankak-app-forged-transfer-notification-scam",
+    description:
+      "Fraudsters in Sudan install a counterfeit clone of the Bankak mobile banking app (Bank of Khartoum) and use it to fake payments at shops and market stalls. At the till they show the merchant a screen displaying a transfer-confirmation notification for the purchase amount, but the message is generated locally by the fake app and no money ever leaves an account. Because cash is scarce and Bankak transfers have become the default way to pay, many merchants accept the on-screen or forwarded confirmation as proof and hand over goods before checking their own balance. Sudanese police have dismantled organised rings working shops in Khartoum State, including arrests in East Nile and Karrari localities. Never release goods on the strength of a customer's screenshot or notification: log in to your own Bankak account or check your balance and transaction history yourself, and report suspected fake-payment attempts to Bank of Khartoum and local police.",
+    categorySlug: "fake-check-overpayment",
+    alertLevel: "high",
+    sources: ["Bank of Khartoum customer fraud-awareness warning on Bankak impersonation and banking fraud","Khartoum State police / criminal investigation announcements of arrests in East Nile (December 2025) and Karrari (March 2026) localities, as carried by Sudanese news outlets"],
+    sourceUrl: "https://bankofkhartoum.com/sudan/news-detail/stay-alert-and-pay-attention-bankak",
+    country: "SD",
+});
