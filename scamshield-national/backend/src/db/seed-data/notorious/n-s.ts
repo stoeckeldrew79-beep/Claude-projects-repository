@@ -7367,3 +7367,37 @@ Walton didn't stop at his own case: he spent years afterward helping British and
 Smyth's two convictions, sixteen years and an ocean apart, show how a single reusable false identity — the wealthy heir waiting on an inheritance — can sustain a con artist's career across jurisdictions long after the original victims have reported her, simply because no one agency had jurisdiction over the whole pattern at once. It also shows what closes that gap: not routine law enforcement, but a victim who refused to let the case end with his own restitution and instead spent years turning his own fraud complaint into the evidence that finally reached across the Atlantic.`,
   sourceUrl: 'https://www.irishtimes.com/crime-law/courts/2025/10/17/us-woman-described-by-judge-as-incorrigible-fraudster-sentenced-to-four-years-in-ni/',
 });
+
+NotoriousNS.push({
+  title: 'Ronald Rewald and the Fake CIA Investment Firm That Was Really a $22 Million Ponzi Scheme',
+  slug: 'ronald-rewald-bishop-baldwin-cia-ponzi-scheme',
+  author: 'ScamShield Editorial',
+  tags: ['notorious', 'notorious-scammer', 'historical', 'ponzi-scheme'],
+  body: `In 1978, a Honolulu salesman named Ronald Rewald and a partner, Sunlin L.S. Wong, founded an investment firm called Bishop, Baldwin, Rewald, Dillingham & Wong — a name built almost entirely out of borrowed credibility. Rewald attached the surnames of prominent Hawaii families to the letterhead despite having no real business relationship with any of them, and told prospective clients the firm had roots going back 65 years, a client roster that had supposedly included the last four presidential administrations and Elvis Presley, and individual investors averaging $4 million in net worth. None of it was true; the firm was barely off the ground.
+
+What Rewald actually sold was an "investment savings account" promising a guaranteed 20 percent annual return, plus another 5 to 7 percent depending on the firm's reported earnings — numbers no legitimate investment strategy of the era could reliably produce. Around 400 investors, including friends, widows, and a blind man, eventually put in roughly $22 million. The payments kept flowing for years, not because Bishop Baldwin was generating real investment income, but because new deposits covered the guaranteed returns owed to people who had invested earlier — the definition of a Ponzi scheme, as a federal court later found.
+
+On July 29, 1983, Honolulu television station KHON aired an investigative report revealing that Bishop Baldwin was under simultaneous investigation by the IRS, SEC, FDIC, FBI, and Hawaii's Department of Consumer Affairs. Rewald vanished from his office that afternoon and checked into a Waikiki hotel; after watching the broadcast that evening, he slit his own arms in the bathtub. A hotel employee found him in time, and he was arrested once he was released from the hospital.
+
+At trial, Rewald's central defense wasn't that the fraud hadn't happened — it was that the CIA had ordered him to create Bishop Baldwin as a front for the agency's own intelligence operations and had promised to cover the firm's expenses. The CIA acknowledged using Bishop Baldwin's office as minor "light cover" for agents passing through Hawaii, and said its total reimbursement to the firm came to $2,900 in phone and telex costs — nowhere close to underwriting a $22 million investment scheme. In October 1985, a federal jury convicted Rewald on 94 counts of mail fraud, securities fraud, perjury, and related charges; he was sentenced to 80 years in prison, and the Ninth Circuit affirmed his conviction in 1989. Citing a spine injury that had left him partially paralyzed, he was granted release on medical grounds in June 1995, after serving about a decade. He died in California in December 2017.
+
+Rewald's case endures because his defense wasn't fabricated out of nothing — the CIA really had used his firm, in a small, real way, which is exactly what let a far larger and entirely false claim of agency backing survive for years in the press and in his own trial strategy. It's a reminder that a fraud built on a sliver of a true, hard-to-verify institutional connection can be far more durable than one built on outright invention, because the true part gives investigators, journalists, and jurors something real to chase before they ever get to what was fabricated.`,
+  sourceUrl: 'https://www.staradvertiser.com/2018/03/18/hawaii-news/hawaii-ponzi-schemer-and-professed-secret-agent-dies-at-76/',
+});
+
+NotoriousNS.push({
+  title: 'Nationwide Automated Systems: The $134 Million ATM Ponzi Scheme Built on Machines That Barely Existed',
+  slug: 'nationwide-automated-systems-atm-ponzi-scheme',
+  author: 'ScamShield Editorial',
+  tags: ['notorious', 'notorious-scammer', 'ponzi-scheme', 'securities-fraud'],
+  body: `Joel Barry Gillis and Edward Wishner ran Nationwide Automated Systems, Inc. (NASI) out of Woodland Hills, California, selling investors on a simple pitch: buy an ATM machine through the company, lease it back to NASI, and collect a guaranteed payment of roughly 50 cents for every transaction the machine processed — a structure the company claimed delivered annual returns of 20 percent or more. Investors paid between $12,000 and $19,800 per machine and were contractually barred from contacting the locations where "their" ATMs supposedly sat.
+
+They had good reason to be barred: many of the machines didn't exist. NASI told investors and regulators it operated a network of roughly 31,000 ATMs nationwide, but when the SEC checked with the companies that actually service and restock cash machines, they could identify only a few hundred that NASI had any real relationship with. The "rent" investors received wasn't coming from transaction fees on machines dispensing cash — it was coming from the money paid in by the next round of investors buying into the same offering, the same structure that has funded every Ponzi scheme since Charles Ponzi's.
+
+The scheme ran for roughly 13 years before its fastest growth phase helped give it away: the SEC found NASI had raised approximately $123 million from investors in the 18 months leading up to September 2014 alone. On September 17, 2014, the SEC sued NASI, Gillis, and Wishner and obtained an emergency court order freezing their assets, cutting off a scheme that investigators say ultimately cost more than 1,300 investors a combined $134 million.
+
+Both men pleaded guilty in January 2015 to conspiracy, two counts of mail fraud, and one count of wire fraud. At sentencing that November, Gillis — then 75 — was sentenced to 10 years in federal prison, and Wishner — then 77 — to 9 years, sentences that, given their ages, amounted to what was likely to be the remainder of their working lives.
+
+NASI's fraud is a reminder of how much longer a physical-asset Ponzi scheme can survive than a purely paper one: investors who might have grown suspicious of an unverifiable hedge fund or forex account were reassured by the idea of an actual machine, bolted to an actual wall, generating actual transaction fees — and the company's insistence that they not contact "their" ATM's location directly removed the one simple step that would have exposed the scheme years earlier.`,
+  sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-23106',
+});

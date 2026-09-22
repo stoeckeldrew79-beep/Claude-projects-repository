@@ -9836,3 +9836,20 @@ The fallout stretched across both continents. The SEC opened an investigation in
 Longtop's collapse became one of the defining cases of the early-2010s wave of fraud among U.S.-listed Chinese companies, and it shows how quickly a nine-figure fraud can come apart once a single link in the chain of trust — in this case, an auditor's direct, independent verification with a company's own banks — is allowed to actually happen rather than be managed by the company under review. It also illustrates the limits of U.S. securities enforcement against a fraud run from abroad: the executives who built and ran the scheme from China faced no comparable personal reckoning in an American courtroom, while the one Canadian-based officer reachable by a U.S. jury became, almost by default, the face of the company's accountability.`,
     sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-22088',
 });
+
+NotoriousAF.push({
+    title: 'Eran Mizrahi, the "Israeli Madoff," and the Forex Fund That Was Mostly Fiction',
+    slug: 'eran-mizrahi-israeli-madoff-forex-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'international', 'ponzi-scheme'],
+    body: `Eran Mizrahi ran an Israeli investment firm — first under his own name, Eran Mizrahi Investments and Finance Ltd., later rebranded Citadel Finance and Investment Ltd. — built around a pitch that sounded conservative rather than speculative: he told clients he traded their money in foreign-currency markets and could guarantee them 1 to 1.5 percent every month, with their principal personally guaranteed and withdrawable on 30 days' notice. To back up the promise, he told investors their funds sat in trustee accounts at real, established banks — Bank Hapoalim's Givatayim branch in Israel and Heritage Bank in Switzerland.
+
+From at least 2007 through May 2012, that steady, above-market return brought in a wide client base, including — as later Israeli press coverage documented — ordinary families with no particular financial sophistication, who trusted the arrangement precisely because it was pitched as safe rather than speculative. In reality, the trustee accounts were largely fiction, and Mizrahi paid the promised monthly returns to existing clients using money deposited by newer ones, an ordinary Ponzi structure dressed up in the language of currency trading.
+
+The arrangement began falling apart in 2011, when clients who asked to withdraw money started running into delays and excuses about cash-flow problems instead of payouts. By March 2012, with investor debts mounting and police beginning to search for him, Mizrahi disappeared; he turned himself in to Israeli police roughly two months later and was remanded by the Tel Aviv Magistrate's Court.
+
+A Tel Aviv District Court convicted Mizrahi in April 2013 on 101 counts of aggravated fraud tied to roughly NIS 57 million (around $15 million at the time) taken from investors. Prosecutors had asked for a 15-year sentence; the court imposed 12 years in prison in July 2013, along with a fine of NIS 300,000 and an order to pay NIS 258,000 directly to victims — a penalty far short of the losses actually documented in the case. Israeli press coverage dubbed him "Israel's Madoff," a label that stuck through his conviction and sentencing.
+
+Mizrahi's case followed the same mechanical logic as Madoff's — a false promise of a modest, steady, hard-to-question return, no dramatic sales pitch required — and it shows the pattern isn't confined to any one country's financial capital: a fabricated trustee arrangement at two real banks, in Israel and Switzerland, was enough to keep ordinary families investing for years, because the names on the account statements were legitimate even though the accounts themselves largely weren't.`,
+    sourceUrl: 'https://www.jpost.com/national-news/israeli-madoff-sentenced-to-12-year-in-prison-on-nis-57-m-fraud-scheme-318760',
+});
