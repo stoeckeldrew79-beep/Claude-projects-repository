@@ -7339,6 +7339,10 @@ NotoriousNS.push({
   slug: 'mark-schena-arrayit-covid-testing-fraud',
   author: 'ScamShield Editorial',
   tags: ['notorious', 'notorious-scammer', 'healthcare fraud', 'securities fraud', 'covid-19'],
+  coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Historic_Murphy_Avenue,_Sunnyvale_(May_2025).jpg?width=1200',
+  coverImageCredit: 'Photo: The Sands of Time 0, Wikimedia Commons (CC BY-SA 4.0) — Sunnyvale, California, where Arrayit was headquartered',
+  coverImagePosition: 50,
+  // representative photo — replace with a portrait if found
   body: `Mark Schena was president and chief science officer of Arrayit Corporation, a Sunnyvale, California, medical technology company he told investors had invented a revolutionary "microarray" blood test capable of screening for virtually any disease from a single finger-stick drop of blood. Schena, who called himself the "father of microarray technology," claimed Arrayit could eventually be worth $4.5 billion — even as the company was, according to federal prosecutors, on the verge of bankruptcy. When the COVID-19 pandemic arrived in 2020, Schena pivoted the company's allergy-testing business into coronavirus testing, and that pivot became the basis for what the Department of Justice later called the first criminal securities-fraud prosecution tied to the pandemic.
 
 Prosecutors said Schena ran a kickback and health-care-fraud scheme that generated more than $77 million in insurance claims. Marketers were paid illegal kickbacks to collect blood specimens from patients, who were then run through a battery of allergy tests screening for up to 120 different allergens regardless of medical necessity — tests bundled alongside COVID-19 tests that were billed to Medicare and commercial insurers at rates far above what the underlying testing was worth. Arrayit's own COVID-19 test, meanwhile, had been reviewed by the FDA, which told Schena it was not accurate enough to qualify for Emergency Use Authorization. Prosecutors alleged Schena concealed that rejection from both patients and investors, continuing to promote the test as reliable.
@@ -7356,6 +7360,10 @@ NotoriousNS.push({
   slug: 'marianne-smyth-irish-heiress-con-artist',
   author: 'ScamShield Editorial',
   tags: ['notorious', 'notorious-scammer', 'con artist', 'affinity fraud', 'northern ireland'],
+  coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Downpatrick_Courthouse.JPG?width=1200',
+  coverImageCredit: 'Photo: Chief Judge Rico, Wikimedia Commons (CC BY-SA 3.0) — Downpatrick Courthouse, County Down, where Smyth was convicted in 2025',
+  coverImagePosition: 50,
+  // representative photo — replace with a portrait if found
   body: `Marianne "Mair" Smyth, a native of Bangor, Maine, spent nearly two decades reinventing herself across two continents as a mortgage adviser, a psychic, a witch, and — most persistently — the heir to a vanished Irish fortune. Long before American investigators caught up with her, Smyth had already worked her way through Northern Ireland's financial industry, and by the time authorities on either side of the Atlantic finished pursuing her, court records credited her with defrauding dozens of victims out of hundreds of thousands of dollars.
 
 Between 2005 and 2009, Smyth worked as a mortgage adviser in Northern Ireland, using that position to gain clients' trust before persuading them to hand over money for investments she never actually made. Prosecutors later documented that she took more than £72,000 from one couple, £23,000 from a second victim, and £20,000 from a third — more than £135,000 combined, some of which was never recovered. One victim testified that the loss cost her family its home. When the fraud came to light, Smyth had already left the country, and Northern Ireland issued arrest warrants for her in 2021.
@@ -7373,6 +7381,10 @@ NotoriousNS.push({
   slug: 'ronald-rewald-bishop-baldwin-cia-ponzi-scheme',
   author: 'ScamShield Editorial',
   tags: ['notorious', 'notorious-scammer', 'historical', 'ponzi-scheme'],
+  coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/2022_Views_from_Diamond_Head_02.jpg?width=1200',
+  coverImageCredit: 'Photo: Farragutful, Wikimedia Commons (CC BY-SA 4.0) — Honolulu, Hawaii, where Rewald ran his fake CIA-linked investment firm',
+  coverImagePosition: 50,
+  // representative photo — replace with a portrait if found
   body: `In 1978, a Honolulu salesman named Ronald Rewald and a partner, Sunlin L.S. Wong, founded an investment firm called Bishop, Baldwin, Rewald, Dillingham & Wong — a name built almost entirely out of borrowed credibility. Rewald attached the surnames of prominent Hawaii families to the letterhead despite having no real business relationship with any of them, and told prospective clients the firm had roots going back 65 years, a client roster that had supposedly included the last four presidential administrations and Elvis Presley, and individual investors averaging $4 million in net worth. None of it was true; the firm was barely off the ground.
 
 What Rewald actually sold was an "investment savings account" promising a guaranteed 20 percent annual return, plus another 5 to 7 percent depending on the firm's reported earnings — numbers no legitimate investment strategy of the era could reliably produce. Around 400 investors, including friends, widows, and a blind man, eventually put in roughly $22 million. The payments kept flowing for years, not because Bishop Baldwin was generating real investment income, but because new deposits covered the guaranteed returns owed to people who had invested earlier — the definition of a Ponzi scheme, as a federal court later found.
@@ -7390,6 +7402,10 @@ NotoriousNS.push({
   slug: 'nationwide-automated-systems-atm-ponzi-scheme',
   author: 'ScamShield Editorial',
   tags: ['notorious', 'notorious-scammer', 'ponzi-scheme', 'securities-fraud'],
+  coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/ATM-Croatia-2024.jpg?width=1200',
+  coverImageCredit: 'Photo: Gewild (CC0) — a generic ATM machine, the hardware NASI claimed investors were buying and leasing back',
+  coverImagePosition: 50,
+  // representative photo — replace with a portrait if found
   body: `Joel Barry Gillis and Edward Wishner ran Nationwide Automated Systems, Inc. (NASI) out of Woodland Hills, California, selling investors on a simple pitch: buy an ATM machine through the company, lease it back to NASI, and collect a guaranteed payment of roughly 50 cents for every transaction the machine processed — a structure the company claimed delivered annual returns of 20 percent or more. Investors paid between $12,000 and $19,800 per machine and were contractually barred from contacting the locations where "their" ATMs supposedly sat.
 
 They had good reason to be barred: many of the machines didn't exist. NASI told investors and regulators it operated a network of roughly 31,000 ATMs nationwide, but when the SEC checked with the companies that actually service and restock cash machines, they could identify only a few hundred that NASI had any real relationship with. The "rent" investors received wasn't coming from transaction fees on machines dispensing cash — it was coming from the money paid in by the next round of investors buying into the same offering, the same structure that has funded every Ponzi scheme since Charles Ponzi's.
