@@ -21435,3 +21435,52 @@ The warning was one of dozens CySEC issued through 2026, and it repeated standin
   country: 'CY',
   firstRecorded: '2026-08-14',
 });
+
+International.push({
+  name: "Orange Money 'Competition Winner' Prize-Drain Scam",
+  slug: 'botswana-orange-money-competition-winner-scam',
+  description: `Orange Botswana publicly warned that fraudsters were cold-calling Orange Money subscribers, posing as Orange staff, and telling them they'd won a P4,000 cash prize in a company competition. The scam exploits Orange Money's P4,000 account ceiling: callers tell victims their wallet must be "emptied" first to make room for the incoming winnings, directing them to transfer their existing balance into an account the fraudsters control — after which the promised prize never arrives.
+
+Orange confirmed it was aware of the scheme, reported it to the Botswana Police Service, and pushed alerts stating: "Beware of scammers claiming to be calling from Orange regarding a P4,000 Orange Money competition that you have won! Call 123 to verify any ongoing competitions." The company said real competition winners must visit an Orange office in person and sign a consent form, and noted it could not fully quantify the number of affected customers because most victims described their experience on social media rather than reporting it to the company directly.
+
+Anyone contacted about an unexpected Orange Money prize should call Orange's own 123 customer-service line before transferring anything, and should never move an existing balance to "make room" for a supposed winning.`,
+  categorySlug: 'lottery-sweepstakes-scams',
+  alertLevel: 'medium',
+  sources: ['Orange Botswana', 'Sunday Standard'],
+  sourceUrl: 'https://www.sundaystandard.info/orange-botswana-warns-of-scammers/',
+  country: 'BW',
+  isHistorical: true,
+  firstRecorded: '2020-01-28',
+});
+
+International.push({
+  name: "'KYC Update' Vishing Bank-Impersonation Scam (Kazungula)",
+  slug: 'botswana-kyc-update-vishing-bank-scam',
+  description: `A man from Kazungula, Botswana lost P134,000 after a caller claiming to represent his bank told him his account needed an urgent "Know Your Customer" (KYC) update, according to Mmegi. Under that pretext, the caller talked the victim through disclosing his card and account details, supposedly to keep his account "compliant" — details the fraudsters then used to drain the account in two separate withdrawals on consecutive days before the victim realized what had happened.
+
+The case sits within a broader, recognized pattern of "KYC scams" circulating in Botswana, in which callers impersonating a bank or mobile-money provider claim a customer's details need to be "verified" — a pretext banks operating in the country, including FNB Botswana, separately warn they never use to request PINs, card numbers, passwords or one-time codes by phone. The scam is effective in part because Botswana's banks do periodically run real KYC compliance drives, giving the fraudulent calls a veneer of routine legitimacy rather than obvious suspicion.
+
+Anyone contacted by a caller claiming to need bank details for a "KYC update" should hang up and call their bank directly using the number on the back of their card, since no legitimate KYC process is ever completed by reading card or account details over an inbound phone call.`,
+  categorySlug: 'phishing',
+  alertLevel: 'high',
+  sources: ['Mmegi'],
+  sourceUrl: 'https://www.mmegi.bw/news/kazungula-man-loses-p134k-to-kyc-scammers/news',
+  country: 'BW',
+});
+
+International.push({
+  name: "'Pig-Butchering' Romance/Crypto Investment Scam by Chinese Crime Rings",
+  slug: 'botswana-pig-butchering-romance-crypto-scam',
+  description: `Botswana's Financial Intelligence Agency (FIA) disclosed in December 2024 that Chinese transnational organized crime rings were running a "pig-butchering" scheme that had taken a multi-million-Pula sum from Batswana victims, according to Sunday Standard. The scam's name comes from the Chinese phrase shu zhu pan, or "killing pig plate" — scammers "fatten up" a victim, typically through a long-term relationship opened online, before "slaughtering" them financially once trust is established.
+
+Rather than asking for money outright, pig-butchering operators steer the relationship toward a supposed investment opportunity — commonly cryptocurrency — and coach the victim into depositing escalating sums into a platform the victim believes is real. The FIA's disclosure attributed the Botswana operation specifically to organized Chinese crime networks rather than opportunistic individual scammers, distinguishing it from the country's more familiar solo pyramid- and Ponzi-scheme operators.
+
+Botswana authorities urge anyone who has built a romantic or close personal relationship purely online, and who is then encouraged to invest in a trading or crypto platform that relationship recommended, to treat it as a probable scam and to verify any platform's licensing with the relevant regulator before depositing money.`,
+  categorySlug: 'romance-scams',
+  alertLevel: 'high',
+  sources: ['Financial Intelligence Agency (Botswana)', 'Sunday Standard'],
+  sourceUrl: 'https://www.sundaystandard.info/chinese-organized-crime-rings-steal-millions-from-batswana-fia/',
+  country: 'BW',
+  isHistorical: true,
+  firstRecorded: '2024-12-09',
+});

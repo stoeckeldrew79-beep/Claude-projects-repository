@@ -9807,3 +9807,54 @@ D.C. Medicaid enrollees can protect the program, and spot this kind of fraud ear
     sources: ["U.S. Attorney's Office for the District of Columbia"],
     sourceUrl: 'https://www.congressheightsontherise.com/blog/steven-a-price-70-dc-dentist-sentenced-for-scheme-to-defraud-dc-medicaid',
 });
+
+UsAF.push({
+    name: 'USC Off-Campus Housing and Vehicle-Sale Scam Impersonating Alumni',
+    slug: 'usc-off-campus-housing-vehicle-scam',
+    description: `USC's Department of Public Safety issued a community safety advisory in March 2025 warning that USC students had lost a combined total of more than $1.6 million over the prior year to fraudulent off-campus housing and vehicle-sale listings. Scammers pose as USC alumni or property owners, copying real photos and details from legitimate rental listings, altering the contact information, and reposting them — or claim to be an out-of-state seller who cannot show a car or apartment in person.
+
+Victims are pressured to wire deposits or make other untraceable payments before ever touring the unit, and are sometimes handed vague or ambiguous leases and rushed into signing without review time. Some listings advertise housing or vehicles that are already occupied or don't exist at all.
+
+USC DPS urges students to never send money without an in-person viewing, to be wary of any landlord or seller who won't meet face-to-face or insists on wire transfers, and to report suspected fraud to campus police immediately.`,
+    categorySlug: 'rental-housing',
+    alertLevel: 'medium',
+    sources: ['USC Department of Public Safety'],
+    sourceUrl: 'https://dps.usc.edu/2025/03/26/community-safety-advisory-18/',
+    country: 'US',
+    state: 'CA',
+    isHistorical: true,
+    firstRecorded: '2025-03-26',
+});
+
+UsAF.push({
+    name: 'Connecticut AG Warns of Job-Recruitment Scams Targeting College Students',
+    slug: 'connecticut-college-student-job-recruitment-scam',
+    description: `As college students returned to campus in late August 2025, Connecticut Attorney General William Tong warned that his office had received numerous complaints about unsolicited texts and emails dangling part-time, remote "employment opportunities," frequently invoking recognizable company names such as Tesla and Indeed.com to appear legitimate. The messages typically promise highly flexible schedules and high pay for very few hours of work, sometimes appear to come from a trusted contact, and create false urgency with claims that only a few openings remain.
+
+Red flags Tong's office cited include sender addresses that misspell the company name, use the wrong domain, or carry a foreign country code. "If you receive an unsolicited text or email dangling an 'employment opportunity' or interview that sounds too good to be true, it probably is," Tong said. "If you haven't applied for the job, don't recognize the company, or the hours and pay seem unrealistic, do not respond and report the scam." The underlying goal is typically to harvest a Social Security number, collect an upfront "application" fee, or send a fraudulent check the student is told to deposit and partially wire back, leaving the student liable once the bank reverses it.
+
+Students are urged to verify any job offer directly through a company's official careers page before replying to an unsolicited text or email, or providing any personal information or money.`,
+    categorySlug: 'employment-scams',
+    alertLevel: 'medium',
+    sources: ["Connecticut Attorney General's Office (William Tong)"],
+    sourceUrl: 'https://portal.ct.gov/ag/press-releases/2025-press-releases/attorney-general-tong-cautions-college-students-and-job-seekers-to-beware-of-job-recruitment-scams',
+    country: 'US',
+    state: 'CT',
+    isHistorical: true,
+    firstRecorded: '2025-08-28',
+});
+
+UsAF.push({
+    name: 'DHS/SEVP Imposter Scam Targeting International Students',
+    slug: 'dhs-sevp-imposter-scam-international-students',
+    description: `DHS's Study in the States program has warned that scammers impersonating U.S. Citizenship and Immigration Services, Immigration and Customs Enforcement, Homeland Security Investigations, and the Student and Exchange Visitor Program (SEVP) are targeting international students with calls, emails, and texts claiming a problem with their immigration status. Callers can spoof caller ID to display a real SEVP Response Center or HSI office number, then demand the student's Alien Registration Number, Form I-94 details, or bank and credit-card information while threatening arrest or deportation if the student doesn't comply immediately.
+
+Scammers push victims toward irreversible payment methods — wire transfers, gift cards, prepaid debit cards, and cryptocurrency — and some use email addresses designed to mimic official government domains without actually being a ".gov" address. DHS states plainly: "DHS will never ask you to transfer money to an individual person," and will never ask a student to pay fees over the phone or by email for any immigration purpose.
+
+Students who receive such a contact should hang up, verify status only through official channels — starting with their school's Designated School Official — and report the incident to the SEVP Response Center (703-603-3400) or the ICE tip line (1-866-347-2423). The advisory is timely for fall semester, when new international students are arriving and handling SEVIS registration.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['U.S. Department of Homeland Security', 'Student and Exchange Visitor Program (SEVP)'],
+    sourceUrl: 'https://studyinthestates.dhs.gov/2026/02/beware-of-dhs-imposters-protecting-foreign-students-from-scams',
+    country: 'US',
+});
