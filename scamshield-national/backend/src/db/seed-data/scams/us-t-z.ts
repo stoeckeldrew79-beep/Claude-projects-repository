@@ -5406,3 +5406,18 @@ Before hiring an estate sale company, check its Better Business Bureau rating an
     isHistorical: true,
     firstRecorded: '2025-10-08',
 });
+
+UsTZ.push({
+    name: 'GAO Report: Persistent ACA Marketplace Enrollment-Fraud Risks Despite CMS Fixes',
+    slug: 'gao-aca-marketplace-enrollment-fraud-verification-loophole',
+    description: `A Government Accountability Office report published December 3, 2025 found that CMS's post-2024 fixes to ACA marketplace enrollment have not closed the door on agent-driven fraud. GAO investigators covertly filed fictitious applications through brokers to test the system: for plan year 2024, the federal Marketplace approved subsidized coverage for all four fake applicants GAO submitted, with the government paying roughly $2,350 a month per fictitious enrollee; for plan year 2025, GAO filed 20 fake applications, and 18 remained actively covered as of September 2025, totaling over $10,000 a month in subsidies, with most approved even when GAO provided no supporting documentation at all.
+
+The report also found at least 160,000 applications in plan year 2024 alone flagged with likely unauthorized agent or broker changes, up from at least 30,000 in 2023, plus nearly 68,000 instances in 2024 (up from over 29,000 in 2023) where a single Social Security number was used across multiple subsidized enrollments in the same plan year — on top of more than $21 billion in unreconciled advance premium tax credits from tax year 2023 alone.
+
+A key loophole GAO flagged: the three-way verification call CMS mandated in July 2024 only applies to changes made to an existing enrollment — a brand-new application can still be filed, and later switched, without it, leaving open exactly the channel rogue agents use to enroll or reassign people during Open Enrollment without their knowledge. Heading into the Oct 15 - Dec 7 annual Open Enrollment window, the finding is a reminder that a fix touted as closing the plan-switching loophole may not cover the point where the fraud actually starts.`,
+    categorySlug: 'insurance-fraud',
+    alertLevel: 'high',
+    sources: ['U.S. Government Accountability Office (GAO)'],
+    sourceUrl: 'https://www.gao.gov/products/gao-26-108742',
+    country: 'US',
+});

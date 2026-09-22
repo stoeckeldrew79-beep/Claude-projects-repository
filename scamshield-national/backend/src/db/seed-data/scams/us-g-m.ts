@@ -9231,3 +9231,73 @@ Mississippians can check whether a business has been fraudulently registered usi
     country: 'US',
     state: 'MS',
 });
+
+UsGM.push({
+    name: "Gardiner 'Best Puppy Movers' Online Teacup Pug Scam",
+    slug: 'maine-gardiner-best-puppy-movers-pet-scam',
+    description: `Barbara Dill of Gardiner, Maine lost roughly $20,000 — most of her life savings — after finding an online ad for teacup pug puppies and contacting a purported breeder operating under the name Best Puppy Movers. She agreed to pay about $500 for three puppies, named Jerry, Gary and Daisy, but the seller then ran a familiar escalation script, demanding payment after payment for pet insurance, food supplements and expedited overnight shipping, insisting on gift cards and the app Cash App rather than any traceable payment method.
+
+The puppies never existed and were never delivered. When a WGME I-Team investigation traced the phone number behind the ads, it had already been flagged by other consumers nationwide for identical scams, and the operator became agitated and hung up when confronted on camera. The Better Business Bureau, citing its own 2017 study finding at least 80% of sponsored online pet-ad links may be fraudulent, says Americans lost more than $1.3 million to pet scams in 2022 alone, with average losses continuing to rise.
+
+The BBB recommends insisting on a live video call with the actual animal before paying anything, running a reverse image search on listing photos, and never paying by gift card or a peer-to-peer app that offers no fraud protection.`,
+    categorySlug: 'pet-sales-scams',
+    alertLevel: 'high',
+    sources: ['WGME (CBS13) I-Team', 'Better Business Bureau'],
+    sourceUrl: 'https://wgme.com/news/i-team/i-just-want-the-puppies-gardiner-womans-life-savings-wiped-out-amid-pet-scam-bbb-pug-breeder-maine-money-consumer-protection-best-puppy-movers-fake-online-dog',
+    country: 'US',
+    state: 'ME',
+    isHistorical: true,
+    firstRecorded: '2023-03-03',
+});
+
+UsGM.push({
+    name: "Pittsfield Spoofed-Caller-ID 'Virtual Kidnapping' Scam",
+    slug: 'maine-pittsfield-virtual-kidnapping-spoofed-caller-id-scam',
+    description: `Pittsfield, Maine police issued a public warning on September 17, 2026, after a local resident received a call in which the caller ID displayed both the name and a photo of the resident's own spouse, while the voice on the line was a stranger threatening to hurt the spouse unless money was sent immediately. The caller pressed for urgent payment and tried to keep the resident on the line rather than let them hang up or call anyone else — the standard pressure tactics of a "virtual kidnapping" scheme in which no actual abduction has occurred.
+
+The resident refused to send money and instead called the spouse directly, confirming within minutes that they were safe at work, which immediately unraveled the scam. Police say the scheme relies on caller-ID spoofing technology that can display a real contact's name and even a photo pulled from social media or a victim's own phone contacts.
+
+Anyone who gets a similar call should refuse to send money or share personal information, hang up, and independently call the supposedly endangered family member on a number they already have before doing anything else.`,
+    categorySlug: 'family-emergency-scams',
+    alertLevel: 'medium',
+    sources: ['Pittsfield Police Department', 'WGME'],
+    sourceUrl: 'https://wgme.com/news/local/police-warn-mainers-about-frightening-kidnapping-scam-pittsfield-scammers-crime',
+    country: 'US',
+    state: 'ME',
+});
+
+UsGM.push({
+    name: 'OHI Bangor Nonprofit Bank-Impersonation Vishing Fund Theft',
+    slug: 'maine-ohi-bangor-bank-impersonation-vishing-fund-theft',
+    description: `OHI (Opportunity, Health & Independence), a Bangor-based nonprofit serving roughly 400 Mainers with intellectual disabilities, autism and mental illness, was hit by what its attorney called a "sophisticated social engineering attack" on July 29, 2025, when scammers called and messaged employees while posing as representatives of OHI's own bank. The callers demonstrated specific knowledge of individual employees' personal details and claimed they were helping prevent fraudulent transactions on the organization's accounts, using that fabricated urgency to talk staff into handing over online banking credentials.
+
+With that access, the scammers executed multiple unauthorized transfers out of OHI's accounts before the theft was discovered and reported to Bangor police the next day. OHI — which reported roughly $13 million in assets and $19.3 million in 2024 revenue — notified vendors and employees, said some of the stolen funds were later recovered, and saw its president/CEO, associate CEO and CFO all leave the organization in the aftermath.
+
+The case is a reminder that vishing increasingly targets an organization's finance staff rather than individual consumers, using real personal details — likely gathered from a prior data exposure — to make an impersonated bank call sound credible enough that an employee will read back or enter live banking credentials over the phone.`,
+    categorySlug: 'account-takeover',
+    alertLevel: 'high',
+    sources: ['Bangor Daily News', 'The Maine Monitor'],
+    sourceUrl: 'https://www.bangordailynews.com/2025/10/10/mainefocus/mainefocus-police-courts/ohi-bangor-cyber-scam-joam40zk0w/',
+    country: 'US',
+    state: 'ME',
+    isHistorical: true,
+    firstRecorded: '2025-07-29',
+});
+
+UsGM.push({
+    name: "Nampa Insurance Agent's Medicare Advantage Plan-Switching Fraud (Kaleb Hoover)",
+    slug: 'idaho-nampa-hoover-medicare-advantage-plan-switching-fraud',
+    description: `Nampa, Idaho insurance agent Kaleb Hoover fraudulently switched multiple clients' Medicare Advantage plans without their knowledge or consent, a scheme the Idaho Department of Insurance's Senior Health Insurance Benefit Advisors uncovered after a December 2021 consumer complaint. Hoover collected more than $30,000 in commission payments from Humana for the unauthorized switches, and victims often discovered the fraud only when a doctor or pharmacy told them their old coverage no longer applied.
+
+The Idaho Department of Insurance revoked Hoover's resident producer license in December 2024, and on January 22, 2025 he was sentenced under an Alford plea to a suspended seven-year prison term, 30 days of sheriff's inmate labor detail in place of jail time, a 16-hour "thinking errors" course, and restitution of $6,708.72 to Humana and $1,381.53 to the department.
+
+The case is a documented, prosecuted example of exactly the agent-of-record and plan-switching fraud pattern regulators warn about heading into each fall Medicare Annual Enrollment Period — a rogue producer reassigning or switching a beneficiary's coverage purely to collect a new commission, with the beneficiary often the last to find out.`,
+    categorySlug: 'medicare-health-plans',
+    alertLevel: 'high',
+    sources: ['Idaho Department of Insurance'],
+    sourceUrl: 'https://doi.idaho.gov/pressrelease/nampa-insurance-agent-sentenced-for-fraudulently-changing-consumers-medicare-advantage-plans/',
+    country: 'US',
+    state: 'ID',
+    isHistorical: true,
+    firstRecorded: '2021-12-01',
+});
