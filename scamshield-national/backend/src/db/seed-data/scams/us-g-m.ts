@@ -8214,6 +8214,34 @@ What Indiana's landmark law was never built to stop, because no state Do Not Cal
 });
 
 UsGM.push({
+    name: 'Indiana Securities Division "GS Partners" Metaverse Cryptocurrency Settlement',
+    slug: 'indiana-gs-partners-metaverse-cryptocurrency-settlement',
+    description: `The Indiana Secretary of State's Securities Division joined a multistate settlement, announced October 28, 2024, with GSB Gold Standard Corporation AG and GSB Gold Standard Bank LTD, which marketed unregistered digital-asset investments nationwide and to Hoosiers under the names "GS Partners" and "GSB Group." Regulators alleged the companies misled investors through a stack of linked offerings — a "G999" token claimed to be tied to physical gold on a proprietary blockchain, "XLT Vouchers" purportedly representing fractional ownership in skyscrapers, a "Lydian World" metaverse staking pool, and gamified "Elemental" and "Success Series" certificates that pushed members to keep depositing more money for promised passive income. GS Partners claimed more than 800,000 investors across 170-plus countries and approached $1 billion in transactions before the settlement, which required full refunds of deposits (minus prior withdrawals) for Indiana residents who purchased any GS Partners or GSB Group product.
+
+Indiana Secretary of State Diego Morales said the case reflects a broader shift regulators are watching: "This action is reflective of the trend we are seeing increasingly in today's securities markets that highlight a move away from pen and paper securities and a move towards securities that exist in digital formats such as the metaverse, A.I., cryptocurrency, etc." The case illustrates a pattern distinct from Indiana's other documented investment-fraud cases, which are typically Ponzi schemes run by individual promoters — this was a large, offshore, multi-layered "membership" crypto/metaverse platform that used gamification and a confusing menu of linked digital products to obscure that it was selling unregistered securities. Hoosiers approached with any digital-asset "membership," token, or metaverse investment opportunity should verify registration directly with the Indiana Securities Division before sending money.`,
+    categorySlug: 'cryptocurrency-scams',
+    alertLevel: 'medium',
+    sources: ['Indiana Secretary of State (Securities Division)'],
+    sourceUrl: 'https://events.in.gov/event/indiana-secretary-of-state-diego-morales-announces-multi-state-settlement-in-metaverse-cryptocurrency-funding-scam',
+    country: 'US',
+    state: 'IN',
+});
+
+UsGM.push({
+    name: 'Duke Energy Indiana "Immediate Shutoff" Utility Impersonation Scam',
+    slug: 'indiana-duke-energy-immediate-shutoff-impersonation-scam',
+    description: `Duke Energy and the Better Business Bureau of Central Indiana marked the 10th annual national Utility Scam Awareness Day on November 18-19, 2025, warning that scammers impersonating Duke Energy had been reported 346 times in Indiana through October of that year. Callers spoof Duke Energy's caller ID, falsely claim an account is past due, and threaten to cut off power within the hour unless payment is made immediately, often demanding prepaid gift cards or wire transfers and using high-pressure tactics. A 73-year-old Duke Energy customer in New Albany, Indiana, lost $3,400 in prepaid gift cards and wire transfers after a scammer claimed his business's utility account was behind; he later said, "I panicked. I knew better but still made the payments because I thought my business was at stake."
+
+Duke Energy Senior Vice President of Customer Service Operations Jessica Bishop said, "Scammers change scripts; our guidance doesn't: We don't threaten instant shutoff, and we don't dictate how you pay." BBB of Central Indiana Director of Communications Jennifer Adamany added that these scams "are designed to create panic, using pressure and urgency to get people to act before they have time to think." Duke Energy never demands a specific payment method like gift cards or requires payment within a fixed short window to avoid disconnection; customers who receive such a call should hang up and call the company directly using the number on a recent bill or its official website.`,
+    categorySlug: 'utility-scams',
+    alertLevel: 'medium',
+    sources: ['Duke Energy', 'Better Business Bureau of Central Indiana'],
+    sourceUrl: 'https://readthereporter.com/10th-annual-utility-scam-awareness-day-putting-indiana-customers-first-in-the-fight-against-scams/',
+    country: 'US',
+    state: 'IN',
+});
+
+UsGM.push({
     name: 'Glenpool Wolf Capital Crypto Trading Ponzi Scheme (Travis Ford)',
     slug: 'oklahoma-glenpool-wolf-capital-crypto-trading-ponzi-scheme',
     description: `Travis Ford, 36, of Glenpool, Oklahoma, was the CEO, co-founder, and head trader of Wolf Capital Crypto Trading LLC, which he marketed through the company's website and social media from January to August 2023. Ford told roughly 2,800 investors nationwide that his "sophisticated" trading strategy could reliably generate returns of 1 to 2 percent per day — an annualized rate of about 547 percent — and used those claims to raise approximately $9.4 million. In his guilty plea, Ford admitted he did not actually believe those returns were achievable and instead misappropriated and diverted investor funds for his own benefit and that of his co-conspirators, the classic pattern of a Ponzi-style crypto trading scheme rather than a genuine trading operation. He pleaded guilty in January 2025 to one count of conspiracy to commit wire fraud, and on November 14, 2025, was sentenced to 60 months in federal prison. He was also ordered to forfeit more than $1 million and pay over $170,000 in restitution to victims. The case was prosecuted by the Justice Department's Fraud Section and investigated by the U.S. Postal Inspection Service's Criminal Investigations Group. A guaranteed daily return that annualizes to several hundred percent is not a sign of a skilled trader — it is a mathematical impossibility no legitimate trading strategy can sustain, and it is exactly the kind of claim that should end due diligence rather than start a wire transfer.`,
