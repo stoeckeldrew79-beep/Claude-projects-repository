@@ -7422,6 +7422,10 @@ NotoriousNS.push({
   title: 'Rolls-Royce and the $800 Million Bribery Settlement Spanning a Dozen Countries',
   slug: 'rolls-royce-global-bribery-settlement',
   author: 'ScamShield Editorial',
+  coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Rolls-Royce_Trent_900_front.jpg?width=1200',
+  coverImageCredit: 'Photo: Tibboh (CC BY-SA 4.0) — a Rolls-Royce Trent engine, the kind of hardware the bribed contracts were meant to sell',
+  coverImagePosition: 50,
+  // representative photo — replace with a more specific case photo if found
   tags: ['notorious', 'historical', 'international'],
   body: `Rolls-Royce Holdings — the British aerospace and marine-engine manufacturer, separately owned from the luxury car brand that shares its name — admitted in January 2017 to a bribery scheme that had run for nearly three decades, using intermediaries and agents to pay off government officials and executives at state-owned companies in exchange for engine and parts contracts across at least a dozen countries, including Indonesia, Thailand, India, China, Russia, Nigeria, and Malaysia.
 
