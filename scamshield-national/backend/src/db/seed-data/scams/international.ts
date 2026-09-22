@@ -21557,3 +21557,42 @@ The FSC's advice to Montserratians was direct: do not join a pyramid selling sch
   isHistorical: true,
   firstRecorded: '2020-11-23',
 });
+
+International.push({
+  name: 'National Lottery of Benin Impersonation WhatsApp Scam',
+  slug: 'benin-national-lottery-impersonation-whatsapp-scam',
+  description: `Benin's Office Central de Répression de la Cybercriminalité (OCRC) issued a public alert on August 14, 2023 describing a recurring scam in which cybercriminals impersonate agents of the Loterie Nationale du Bénin (LNB). The fraudsters create groups on WhatsApp, Facebook, Telegram, and Messenger inviting members of the public to join a supposed official lottery circle, charging an initial "registration" fee of 5,000 FCFA and collecting personal identity information and photos under the guise of eligibility verification. After real LNB draw results are published, scammers contact selected group members claiming they've won, then demand further "processing," tax, or release fees before winnings can be paid out. As OCRC's alert put it: "quand les victimes envoient ladite somme d'argent dans l'espoir d'obtenir leurs lots, enfin les cybercriminels les bloquent et coupent tout contact avec leurs proies" (once victims send the money hoping to receive their prize, the criminals block them and cut off all contact).
+
+The same alert separately warned of impostors calling police stations from spoofed corporate numbers, posing as lawyers or prosecutors to extract "release fees" from detainees' families before disappearing once paid. OCRC urged the public never to pay to join a lottery group or to release a prize, and to verify any claimed win directly with the LNB.`,
+  categorySlug: 'lottery-sweepstakes-scams',
+  alertLevel: 'medium',
+  sources: ['Office Central de Répression de la Cybercriminalité (OCRC - Bénin)', 'Banouto'],
+  sourceUrl: 'https://www.banouto.bj/societe/article/20230815-arnaque-au-benin-l-ocrc-alerte-sur-de-nouveaux-modes-operatoires-des-cybercriminels',
+  country: 'BJ',
+});
+
+International.push({
+  name: 'AzureCharge Fake Investment Platform Impersonating the President',
+  slug: 'benin-azurecharge-fake-investment-platform-scam',
+  description: `Benin's government, acting on OCRC findings, issued a public alert on March 27, 2024 warning citizens about a fraudulent online investment platform called AzureCharge, accessible via benin.ezxearn.com and through mobile apps marketed as LoopEarn, Fast Earn, and Rapid Earn. The platform built false credibility by exploiting President Patrice Talon's image to suggest official endorsement, while promising investors exceptional returns in a very short time. Authorities explicitly compared it to the earlier "CameoShell" investment fraud, which used the same structure — a money-placement platform advertising attractive gains — before it stopped honoring its commitments to investors.
+
+OCRC opened an investigation and took technical measures aimed at neutralizing the app's activity within Benin, while the government urged citizens to treat any platform promising outsized, fast returns as a certain warning sign, verify legitimacy before depositing money, and share the alert to limit further losses.`,
+  categorySlug: 'investment-fraud',
+  alertLevel: 'high',
+  sources: ['Office Central de Répression de la Cybercriminalité (OCRC - Bénin)', 'Gouvernement du Bénin', 'Banouto'],
+  sourceUrl: 'https://www.banouto.bj/economie/article/20240328-arnaque-a-l-investissement-en-ligne-le-gouvernement-beninois-epingle-la-plateforme-azurecharge-et-alerte',
+  country: 'BJ',
+});
+
+International.push({
+  name: 'Fake Accident Phone Call Family Emergency Scam',
+  slug: 'benin-fake-accident-family-emergency-call-scam',
+  description: `Benin's Centre National d'Investigations Numériques (CNIN) issued a public warning on June 26, 2026 about a scam built on manufactured family panic. A caller tells the target that a family member has just been seriously injured, claiming to have witnessed the accident and to have found the target's number saved in the injured person's phone. The caller then pressures the victim into an immediate money transfer for urgent medical transport or care, insisting that without payment the "victim" cannot be treated, then cuts off all contact once paid.
+
+CNIN advised staying calm rather than acting on the manufactured urgency, hanging up and independently calling the supposedly injured relative or another trusted family member to verify the story before sending any money, and reporting such calls to CNIN.`,
+  categorySlug: 'family-emergency-scams',
+  alertLevel: 'medium',
+  sources: ["Centre National d'Investigations Numériques (CNIN - Bénin)", 'Les 4 Vérités'],
+  sourceUrl: 'https://www.les4verites.bj/le-cnin-met-en-garde-contre-une-arnaque-qui-exploite-la-peur-des-familles/',
+  country: 'BJ',
+});
