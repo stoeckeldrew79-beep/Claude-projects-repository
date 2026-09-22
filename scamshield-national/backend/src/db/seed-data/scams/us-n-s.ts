@@ -9085,3 +9085,57 @@ The case illustrates a bank-impersonation pattern distinct from a typical phishi
     firstRecorded: '2023-05-01',
     state: 'RI',
 });
+
+UsNS.push({
+    name: 'Leaders Construction Racketeering and Home-Repair Embezzlement (Michael Hanson)',
+    slug: 'oklahoma-leaders-construction-hanson-embezzlement',
+    description: `Michael Hanson, 43, ran Leaders Construction LLC in and around Edmond, Oklahoma, soliciting homeowners for concrete and fence work and collecting partial payment upfront before disappearing without finishing the job or refunding the money. What began as nine complaints filed with the Oklahoma Attorney General's Consumer Protection Unit in November 2021 grew into 32 identified victims across multiple Oklahoma counties who had paid Hanson a combined $192,538 for work never completed.
+
+Prosecutors charged Hanson with one count of racketeering under Oklahoma's RICO-style statute plus 29 felony and three misdemeanor counts of embezzlement. He pleaded guilty in March 2023 and was sentenced to a combined 20 years — 12 for racketeering, eight for embezzlement — with the Edmond Police Department and Logan County Sheriff's Office assisting the investigation. "Our investigation put a stop to Hanson's corrupt business dealings across multiple Oklahoma counties," Attorney General Gentner Drummond said in announcing the plea.
+
+Homeowners hiring for concrete, fencing, or other home-improvement work are advised to check a contractor's licensing and complaint history with the Oklahoma Construction Industries Board and the AG's Consumer Protection Unit before paying any deposit.`,
+    categorySlug: 'home-improvement-solar',
+    alertLevel: 'high',
+    sources: ["Oklahoma Attorney General's Office (Gentner Drummond)"],
+    sourceUrl: 'https://oklahoma.gov/oag/news/newsroom/2023/march/oklahoma-contractor-pleads-guilty-to-racketeering--embezzlement-.html',
+    country: 'US',
+    state: 'OK',
+    isHistorical: true,
+    firstRecorded: '2021-11-01',
+});
+
+UsNS.push({
+    name: 'OG&E Multi-Channel Impersonation and Fake Solar Rebate Scam',
+    slug: 'oklahoma-oge-multi-channel-impersonation-solar-rebate-scam',
+    description: `Oklahoma Attorney General Gentner Drummond's office and OG&E jointly warned customers on May 15, 2024 about overlapping scams trading on the utility's name: automated calls promising thousands of dollars in rebates tied to a supposed "new energy policy" that pressure the recipient to enroll in a solar program on the spot; callers impersonating OG&E representatives who threaten immediate service disconnection unless the customer pays a bill over the phone right then; and door-to-door salespeople falsely claiming a partnership with OG&E while pitching solar equipment.
+
+"We never call our customers and ask them to pay their bills, nor do we go door-to-door to enroll them in special programs or services," OG&E's Aaron Cooper said in the release. "Fraudsters are always finding new ways to separate unsuspecting individuals from their money, and this latest phone scam is no exception," Drummond added. OG&E separately warned customers in 2025 that a fraudulent customer-service phone number had appeared in Google search results for queries like "how to pay my OG&E bill," routing anyone who called it straight to scammers instead of the utility.
+
+Customers are advised never to pay a bill or accept a solar offer from an unsolicited call or unannounced door-to-door visit, and to verify any number against the one printed on a physical OG&E bill or at oge.com/PaymentOptions rather than trusting a search-engine result, reporting suspected scams to the AG's Consumer Protection Unit at 833-681-1895.`,
+    categorySlug: 'utility-scams',
+    alertLevel: 'medium',
+    sources: ["Oklahoma Attorney General's Office (Gentner Drummond)", 'OG&E (OGE Energy Corp.)'],
+    sourceUrl: 'https://freepressokc.com/press-release-attorney-general-drummond-oge-partner-to-warn-customers-about-solar-scams/',
+    country: 'US',
+    state: 'OK',
+    isHistorical: true,
+    firstRecorded: '2024-05-15',
+});
+
+UsNS.push({
+    name: 'Medicare Catheter Supply Billing Fraud Targeting Oklahomans',
+    slug: 'oklahoma-medicare-catheter-supply-billing-fraud',
+    description: `The Oklahoma Insurance Department's Medicare Assistance Program (MAP) issued a consumer alert in March 2026 after identifying at least 12 Oklahomans on Medicare whose Medicare numbers had been used to bill the program for more than 15,000 urinary catheters and other medical supplies the beneficiaries never ordered or received, racking up over $135,000 in fraudulent charges, of which Medicare had already paid out $88,793.
+
+In the scheme, fraudsters obtain a beneficiary's Medicare number through an unsolicited call, email, or ad, then submit claims using real or familiar-sounding supplier names so the charges blend into a beneficiary's normal billing history. MAP officials noted the fraud is harder to catch than it used to be because Medicare recently shifted from mailing beneficiaries a Summary Notice every three months to just twice a year, letting a fraudulent billing pattern run for months longer before a beneficiary ever sees it on paper.
+
+MAP urges beneficiaries to review Medicare Summary Notices and Explanation of Benefits as soon as they arrive, or to set up a free Medicare.gov account for real-time claims visibility rather than waiting for the mailed notice, and to never give a Medicare number to anyone who calls, emails, or advertises unsolicited. Oklahomans who spot an unfamiliar charge are urged to call the Oklahoma MAP Helpline at 800-763-2828 or 405-521-6628.`,
+    categorySlug: 'medicare-health-plans',
+    alertLevel: 'medium',
+    sources: ['Oklahoma Insurance Department (Medicare Assistance Program)'],
+    sourceUrl: 'https://www.oid.ok.gov/release_032326/',
+    country: 'US',
+    state: 'OK',
+    isHistorical: true,
+    firstRecorded: '2026-01-01',
+});
