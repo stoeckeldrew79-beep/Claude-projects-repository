@@ -21351,3 +21351,51 @@ The episode illustrates how the Marshall Islands' own Compact of Free Associatio
   isHistorical: true,
   firstRecorded: '2002-05-30',
 });
+
+International.push({
+  name: 'Hellenic Bank Email/SMS Phishing Impersonation Scam',
+  slug: 'cyprus-hellenic-bank-phishing-impersonation-scam',
+  description: `Hellenic Bank, one of Cyprus's largest lenders, warned customers on January 24, 2025, about a resurgence of phishing emails and text messages impersonating its customer-service department. The messages claim urgent account issues and direct recipients to click a link leading to a counterfeit page cloned to resemble Hellenic Bank's real online-banking login, where victims are prompted to enter credentials and personal details.
+
+The bank flagged several tell-tale signs of the campaign: sender names unrelated to Hellenic Bank, threatening language warning of account closure or service restrictions to pressure quick action, and text riddled with grammatical and syntactical errors consistent with automated translation. "This is a scam," the bank stated bluntly, adding: "We will never ask our customers to update their personal details or disclose sensitive information via a link."
+
+Hellenic Bank urges recipients to check the sender's actual address, hover over links without clicking to verify the destination URL, and never enter banking credentials through a link received by email or text message.`,
+  categorySlug: 'phishing',
+  alertLevel: 'medium',
+  sources: ['Hellenic Bank', 'Cyprus Mail'],
+  sourceUrl: 'https://cyprus-mail.com/2025/01/24/hellenic-bank-warns-customers-against-new-phishing-scams',
+  country: 'CY',
+  firstRecorded: '2025-01-24',
+});
+
+International.push({
+  name: 'Cyprus Unlicensed Real Estate Agent Property Fraud',
+  slug: 'cyprus-unlicensed-real-estate-agent-property-fraud',
+  description: `Cyprus's Real Estate Agents Registration Council warned on December 1, 2025, that fraud by unlicensed people posing as property agents has surged, with its lawyers filing 565 criminal cases since 2023 alone — an average of three to five new cases every working day. In 2022, the council registered 460 such cases, though only 55 of them (resulting in convictions of 25 companies and 45 individuals) had been fully prosecuted to conviction by the time of the report — illustrating both how common the fraud has become and how far case volume has outpaced the courts' ability to resolve it.
+
+The fraudsters run recurring schemes: advertising and renting out apartments or houses that belong to someone else, arranging fraudulent or duplicate sales of the same land or property to more than one buyer, and collecting deposits or commissions before disappearing without completing a transaction. Council president Marinos Kineyirou said the body's stance toward illegal brokerage "is and will remain one of zero tolerance," pointing to inspection teams strengthened across every district to catch unlicensed operators earlier.
+
+The council publishes convicted offenders' names on its own register and urges buyers, renters, and sellers — including the many foreign nationals active in Cyprus's property market — to verify any agent against its official licensed register before handing over money or signing documents.`,
+  categorySlug: 'rental-housing',
+  alertLevel: 'high',
+  sources: ['Cyprus Real Estate Agents Registration Council', 'Cyprus Mail'],
+  sourceUrl: 'https://cyprus-mail.com/2025/12/01/surge-in-fraud-by-fake-real-estate-agents-council-warns',
+  country: 'CY',
+  firstRecorded: '2025-12-01',
+});
+
+International.push({
+  name: 'CySEC Warning on Unlicensed Forex/Investment Websites Impersonating Regulated Brands',
+  slug: 'cyprus-cysec-unlicensed-investment-website-warning',
+  description: `On August 14, 2026, Cyprus's Securities and Exchange Commission (CySEC) issued a public warning against ten websites offering trading and investment services — including m4-platform.com, m4-markets-latam.vercel.app, waltonmarketltd.com, investiumlimited.com, evercrest.capital, gofx.com, tazerpro.com, quantacfd.com, cypriantrustbank.com, and omnixmarkets.com — stating none belonged to firms licensed under Article 5 of Cyprus's Investment Services and Activities and Regulated Markets Law of 2017.
+
+Several of the flagged names were chosen to resemble real CySEC-licensed brokers: the regulator's own register lists a genuine licensed firm, Investium Limited, operating under the approved domain flexinvest.com, while the unlicensed site trades under the near-identical investiumlimited.com; a separate licensed firm's approved m4markets.eu domain (operated by Harindale Ltd under the M4Markets trade name) was similarly echoed by the unrelated m4-platform.com and m4-markets-latam.vercel.app. It is the kind of clone-firm tactic that has made Cyprus — one of the EU's largest CFD/forex licensing hubs — a frequent target for boiler-room operators borrowing a real licence number or a lookalike domain to solicit deposits from investors who never check the regulator's own register.
+
+The warning was one of dozens CySEC issued through 2026, and it repeated standing advice that investors confirm a firm's licence directly on CySEC's own site before transferring any money, since unlicensed firms leave clients without protections such as the Investor Compensation Fund.`,
+  categorySlug: 'investment-fraud',
+  alertLevel: 'high',
+  sources: ['Cyprus Securities and Exchange Commission (CySEC)', 'Cyprus Mail'],
+  sourceUrl: 'https://cyprus-mail.com/2026/08/17/cysec-flags-nine-unauthorised-investment-entities',
+  country: 'CY',
+  firstRecorded: '2026-08-14',
+});
