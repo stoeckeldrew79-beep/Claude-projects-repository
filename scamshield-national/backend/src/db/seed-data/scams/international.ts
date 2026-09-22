@@ -21543,3 +21543,50 @@ The case is a reminder that Rwandan mobile-money agents and customers should tre
   sourceUrl: 'https://taarifa.rw/2026/03/15/equity-bank-fraud-probe-deepens-as-investigators-detain-35-suspects-6-ugandans/',
   country: 'RW',
 });
+
+International.push({
+  name: 'Illegal Deposit-Taking Pyramid Scheme Warning',
+  slug: 'mozambique-illegal-deposit-taking-pyramid-schemes',
+  description: `Banco de Moçambique, the central bank, publicly warned in a statement carried March 8, 2023 that unlicensed entities are proliferating across the country, illegally soliciting deposits from the public under the guise of investment opportunities. The bank described these as financial pyramids — fraudulent business schemes characterized by promises of short-term money gains, normally through interest on deposits well above what the market pays, funded not by any underlying business but by money from newly recruited depositors, until recruitment stalls, funds run out, and most participants are left with losses.
+
+It listed concrete warning signs: no license from the central bank, minimal information about the company, a virtual or nonexistent physical address, fictitious promotional titles given to members such as "investor," "winner," or "millionaire," and outsized commissions paid for recruiting new depositors. Mozambican media covering the alert cited CROWD1 and Kampar as earlier pyramid schemes that had already defrauded thousands of Mozambicans before collapsing and halting payouts.
+
+Banco de Moçambique urged the public to check its published list of licensed financial-intermediation entities before handing money to any investment offer, warning that unlicensed schemes carry high risk since they are not subject to the information duties and prudential limits that protect consumer interests.`,
+  categorySlug: 'ponzi-pyramid-schemes',
+  alertLevel: 'high',
+  sources: ['Banco de Moçambique', 'O País', 'Integrity Magazine'],
+  sourceUrl: 'https://opais.co.mz/esquemas-ilegais-de-captacao-de-depositos-preocupam-banco-de-mocambique/',
+  country: 'MZ',
+  isHistorical: true,
+  firstRecorded: '2023-03-08',
+});
+
+International.push({
+  name: "Fake 'Governor of Inhambane' Licensing Bribery Scam",
+  slug: 'mozambique-fake-inhambane-governor-licensing-scam',
+  description: `Mozambique's National Criminal Investigation Service (SERNIC) arrested three people in Inhambane city in early May 2026, including one woman, after they posed as intermediaries with direct access to provincial governor Francisco Pagula to defraud a local businessman out of more than 2.6 million meticais. The suspects told the victim they could secure him a government license to process natural gas in Inhassoro district, leading him to believe he was negotiating the deal through the governor's office, and collected large payments toward a licensing process that never existed.
+
+Investigators say the same network is suspected in at least one earlier fraud, worth roughly 50,000 meticais, in Jangamo district. Two of the three suspects, from Maxixe and Morrumbene districts, had prior arrests for similar fraud schemes in Morrumbene, and additional members of the group remain at large. As of the report, the 2.6 million meticais taken from the businessman had not been recovered.`,
+  categorySlug: 'government-impersonation',
+  alertLevel: 'high',
+  sources: ['Serviço Nacional de Investigação Criminal (SERNIC)', 'Integrity Magazine'],
+  sourceUrl: 'https://integritymagazine.co.mz/arquivos/61903',
+  country: 'MZ',
+  isHistorical: true,
+  firstRecorded: '2026-05-05',
+});
+
+International.push({
+  name: 'Stolen Bank Card and Bad-Check Fraud Ring Targeting Maputo Merchants',
+  slug: 'mozambique-stolen-card-bad-check-merchant-fraud-maputo',
+  description: `Police at Maputo's 24th Police Station (PRM) detained three people accused of running a fraud operation against merchants at the Zimpeto wholesale market since 2023, using stolen bank cards, checks drawn on accounts without funds, and point-of-sale machines to simulate legitimate payment for large purchases of merchandise and furniture. PRM spokesperson Marta Pereira said officers seized bank cards, bad checks, and POS equipment the group used to walk away with goods from sellers who believed the transactions had cleared.
+
+The ring's most recent scheme, confirmed in early September 2026, defrauded two more Zimpeto merchants using the same stolen-card-and-bad-check method. Police say the trio had already accumulated 15 separate formal fraud complaints against them before this arrest, with their total take from victims exceeding one million meticais.`,
+  categorySlug: 'identity-theft',
+  alertLevel: 'medium',
+  sources: ['Polícia da República de Moçambique (PRM)', 'Jornal Notícias'],
+  sourceUrl: 'https://jornalnoticias.co.mz/destaque/trio-burla-mais-de-um-milhao-em-maputo/',
+  country: 'MZ',
+  isHistorical: true,
+  firstRecorded: '2026-09-01',
+});
