@@ -5397,3 +5397,47 @@ A key loophole GAO flagged: the three-way verification call CMS mandated in July
     sourceUrl: 'https://www.gao.gov/products/gao-26-108742',
     country: 'US',
 });
+
+UsTZ.push({
+    name: "Bradyn's Law: Wisconsin Criminalizes Sextortion After a Teen's Death",
+    slug: 'wisconsin-bradyns-law-sextortion-felony',
+    description: `Bradyn Bohn, a 15-year-old from Kronenwetter, Wisconsin, died by suicide in March 2025 after an online predator coerced him into sending explicit images of himself, then threatened to release them unless he paid money — a financial sextortion scheme that escalated over hours of threats before his death. In response, Rep. Patrick Snyder and Sen. Jesse James introduced "Bradyn's Law," which Governor Tony Evers signed on December 8, 2025 as 2025 Wisconsin Act 48, creating a standalone sextortion crime that previously had no dedicated statute in the state.
+
+The law makes it a Class I felony to coerce someone into sexual conduct or into producing an "intimate representation" by threatening to distribute intimate images, injure their property or reputation, or commit violence. Penalties escalate from there: a Class H felony if the victim actually complies or is a minor, a Class G felony if the offender has a prior sexually violent conviction, and — in the law's most severe provision — a Class B felony carrying up to 60 years in prison if the extortion contributes to a victim's death. The law also expanded Wisconsin's crime victim compensation program to cover suicide or attempted suicide connected to victimization.
+
+Bradyn's mother, Brittney Bird, said after the signing: "I have hope that we will take back control from these criminals and our children will no longer be pawns in their sick games." The Wisconsin Department of Justice followed up on December 18, 2025 with a statewide sextortion PSA built around two Wisconsin families whose children were sextortion victims, directing people to CyberTipline.org to report incidents and the 988 Suicide and Crisis Lifeline for anyone in immediate danger.`,
+    categorySlug: 'sextortion',
+    alertLevel: 'critical',
+    sources: ['Wisconsin Department of Justice', 'Wisconsin Public Radio'],
+    sourceUrl: 'https://www.wpr.org/news/bradyns-law-sextortion-teens-wisconsin',
+    country: 'US',
+    state: 'WI',
+});
+
+UsTZ.push({
+    name: 'Business Email Compromise Scheme Targets Wisconsin Food and Agriculture Companies',
+    slug: 'wisconsin-datcp-food-industry-business-email-compromise',
+    description: `Wisconsin's Department of Agriculture, Trade and Consumer Protection (DATCP) warned food and agriculture businesses about a wave of business email compromise (BEC) attacks in which criminals impersonate a real company's employees — using spoofed emails and counterfeit look-alike domains — to order food products and ingredients on credit without ever paying for them. DATCP said recent incidents involved shipments valued at "hundreds of thousands of dollars," and that scammers often resell the stolen goods at deep discounts with labeling that ignores food-safety requirements like allergen disclosures, ingredient lists, and expiration dates.
+
+The alert cites a joint Cybersecurity Advisory from the FBI, the FDA's Office of Criminal Investigations, and the USDA detailing the tactics used in these schemes, and urges Wisconsin food businesses to adopt risk-informed verification practices — confirming a new or changed customer's identity independently — before shipping goods on credit. DATCP directs victims and businesses with questions to its Consumer Protection Hotline at (800) 422-7128 or DATCPHotline@wi.gov.`,
+    categorySlug: 'business-email-compromise',
+    alertLevel: 'medium',
+    sources: ['Wisconsin Department of Agriculture, Trade and Consumer Protection (DATCP)', 'FBI', 'FDA Office of Criminal Investigations', 'USDA'],
+    sourceUrl: 'https://datcp.wi.gov/Pages/News_Media/20221221BusinessEmailCompromiseScams.aspx',
+    country: 'US',
+    state: 'WI',
+});
+
+UsTZ.push({
+    name: 'Fake HR Recruiter Job-Offer Scam Impersonates Amazon and Other Wisconsin Employers',
+    slug: 'wisconsin-bbb-fake-hr-recruiter-job-offer-scam',
+    description: `The Wisconsin Better Business Bureau warned of a surge in fake job-offer reports to its Scam Tracker in which scammers pose as HR representatives from real, recognizable employers — including Amazon, WBD (Warner Bros. Discovery) Global Streaming, and staffing firm Scion Staffing — under invented recruiter names. The scammers contact job seekers claiming to have found their resume online, move the conversation to WhatsApp, run a scripted fake interview, and then extend a job offer.
+
+After the target signs a fraudulent "contract," the scammers request sensitive personal and banking information under the pretext of setting up payroll or direct deposit. In one variation, victims are sent a fraudulent check to purchase home-office equipment and are then pressured to wire back the "overpaid" balance before the bank discovers the check is fake — leaving the victim on the hook for the full amount. The BBB advises job seekers to be wary of any recruiting conversation that moves to a personal messaging app rather than a company email address, and to verify a job offer directly with the employer through contact information found independently, not information supplied by the recruiter.`,
+    categorySlug: 'employment-scams',
+    alertLevel: 'medium',
+    sources: ['Better Business Bureau', 'WSAW NewsChannel 7'],
+    sourceUrl: 'https://www.wsaw.com/2025/09/23/bbb-scam-alert-scammers-claim-be-hr-reps-with-job-offers/',
+    country: 'US',
+    state: 'WI',
+});
