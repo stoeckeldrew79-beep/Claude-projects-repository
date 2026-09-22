@@ -3253,6 +3253,10 @@ NotoriousTZ.push({
     title: 'William and James Alderdice: The Gold Bullion Brothers Who Sold $75 Million in Metal That Was Never There',
     slug: 'william-james-alderdice-international-gold-bullion-exchange-fraud',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Fort_Lauderdale_Skyline_7.jpg?width=1200',
+    coverImageCredit: 'Photo: Bastique (CC BY-SA 2.5) — Fort Lauderdale, Florida, where the brothers founded IGBE',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `William Alderdice, 39, and his younger brother James, 26, founded the International Gold Bullion Exchange in Fort Lauderdale, Florida, in 1979, building it within a few years into what was billed as the country's largest retail dealer in gold and silver bullion, with roughly 1,000 employees spread across offices in Fort Lauderdale, Dallas, and Los Angeles. IGBE's pitch undercut the market: customers could buy bullion or coins for delayed delivery, typically 12 to 15 weeks out, at prices below the prevailing spot rate. The arrangement only worked as advertised if metal prices kept falling, because IGBE wasn't buying and holding the gold it had already sold — it was investing the cash customers sent in, betting it could acquire the actual bullion more cheaply by the time delivery came due.
 
