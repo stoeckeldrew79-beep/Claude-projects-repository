@@ -9049,3 +9049,39 @@ Because the call arrives seconds after a victim receives a legitimate-looking pa
     sources: ['FTC Consumer Advice', 'Dutch National Police', 'Europol'],
     sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2024/03/whats-verification-code-why-would-someone-ask-me-it',
 });
+
+UsNS.push({
+    name: 'Bernalillo County Metro Court "Police Lieutenant" Jury Duty Scam Surge',
+    slug: 'bernalillo-county-police-lieutenant-jury-duty-scam-surge',
+    description: `Starting the week of December 16, 2024, the Bernalillo County Metropolitan Court in Albuquerque received nearly 40 phone calls in a matter of days from people reporting a coordinated jury-duty scam. Callers claiming to be a police lieutenant with a local law enforcement agency told targets they had failed to appear for jury duty and now had either an active arrest warrant or an outstanding fine as a result. Most victims said the fake "lieutenant" then directed them to a website to pay the supposed fine immediately; some instead received follow-up emails repeating the same threat.
+
+Court Executive Officer Lissa Lowe stressed that "we want to remind the public that the court will never call or email threatening arrest or demanding cash in exchange for clearing court matters" — the Metropolitan Court communicates only by U.S. mail for hearing notices, summonses, and bench warrants, never by phone, text, or email demanding payment. The scam is a recurring one nationally and in New Mexico specifically: the U.S. District Court for the District of New Mexico has separately and repeatedly warned of callers impersonating court employees over missed federal jury service, using spoofed caller ID and fabricated voicemail systems mimicking real court staff to demand personal information or payment to "cancel" a nonexistent warrant.
+
+Anyone who receives such a call is advised not to provide personal information or payment, to hang up, and to independently call the court clerk's office (505-841-8151 for Metro Court) or the FBI (505-889-1300, option 1) to verify whether anything is actually pending.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Bernalillo County Metropolitan Court', 'KRQE', 'KOB 4'],
+    sourceUrl: 'https://metro.nmcourts.gov/news/metro-court-receives-dozens-of-calls-related-to-suspected-jury-duty-scam/',
+    country: 'US',
+    isHistorical: true,
+    firstRecorded: '2024-12-20',
+    state: 'NM',
+});
+
+UsNS.push({
+    name: 'Portsmouth Senior Bank-Impersonation Cash-Courier and Gift-Card Scam (Fangzhou Qian)',
+    slug: 'portsmouth-rhode-island-bank-impersonation-cash-courier-scam',
+    description: `In May 2023, a 73-year-old Portsmouth, Rhode Island man received a call from someone identifying himself only as "Sam," who falsely claimed to be a representative of the victim's bank and told him his account had been compromised. Following the caller's instructions, the man withdrew $7,500 in cash to hand over to a courier who would come collect it — but before the handoff, he grew suspicious and alerted the Portsmouth Police Department. Officers and Homeland Security Investigations agents intercepted the courier, identified as Fangzhou Qian, 29, of Worcester, Massachusetts, before he could retrieve the cash, and arrested him.
+
+Investigators determined Qian was part of a broader conspiracy: around the same period, he had purchased 170 Apple gift cards from stores across Massachusetts and New Hampshire, used to launder proceeds other victims of the scheme had been tricked into buying and handing over. U.S. Attorney Zachary A. Cunha's office announced Qian's guilty plea to bank fraud and conspiracy to commit money laundering in November 2023.
+
+The case illustrates a bank-impersonation pattern distinct from a typical phishing email: a live caller falsely claiming to be from the victim's own bank, creating urgency around a "compromised account," then directing the victim to convert cash into gift cards or hand cash directly to an in-person courier rather than wiring money — a method scammers increasingly favor nationally because it sidesteps bank fraud-detection systems built around wire transfers. No legitimate bank will ever call asking a customer to withdraw cash or buy gift cards to "protect" an account, and anyone who gets such a call should hang up and contact their bank directly using the number on the back of their card.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office, District of Rhode Island", 'What\'s Up Newp', 'Homeland Security Investigations'],
+    sourceUrl: 'https://whatsupnewp.com/2023/11/massachusetts-resident-admits-to-participating-in-a-bank-fraud-scheme-targeting-a-portsmouth-senior/',
+    country: 'US',
+    isHistorical: true,
+    firstRecorded: '2023-05-01',
+    state: 'RI',
+});
