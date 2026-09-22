@@ -9871,3 +9871,107 @@ UsAF.push({
     country: "US",
     state: "SC",
 });
+
+UsAF.push({
+    name: 'STAY DC Pandemic Rental Assistance Program Fraud (Syreeta Price)',
+    slug: 'dc-stay-dc-rental-assistance-fraud-price',
+    description: `STAY DC — Stronger Together by Assisting You — was a District government program created in 2021 to cover unpaid rent and utility bills for DC renters facing pandemic hardship, and it became a target for people with no legitimate claim on the money. Syreeta Price, 51, of Maryland, falsely claimed District residency by listing the address of an acquaintance in Southeast DC on her STAY DC application, even though she actually lived in Maryland and had no DC tenancy at all.
+
+After the District approved the claim and cut a check, Price deposited it directly into her personal bank account and kept more than $20,000 (roughly $22,750) rather than paying any landlord, despite knowing she was not eligible for the program. She pleaded guilty on February 4, 2025 in DC Superior Court to first-degree fraud, in a case investigated by the DC Office of the Inspector General and announced jointly by then-U.S. Attorney Edward R. Martin Jr. and Inspector General Daniel W. Lucas.
+
+The case is a reminder that a rental-assistance program tied to a DC address is verified against real leases and landlord records, not simply the address written on a form.`,
+    categorySlug: 'rental-housing',
+    alertLevel: 'medium',
+    sources: ['DC Office of the Inspector General', "U.S. Attorney's Office for the District of Columbia"],
+    sourceUrl: 'https://oig.dc.gov/newsroom/press-release/maryland-woman-pleads-guilty-defrauding-covid-19-tenant-assistance-program',
+    country: 'US',
+    state: 'DC',
+    isHistorical: true,
+    firstRecorded: '2025-02-04',
+});
+
+UsAF.push({
+    name: 'DC Ratio Utility Billing System (RUBS) Overbilling Alert',
+    slug: 'dc-rubs-ratio-utility-billing-overbilling-alert',
+    description: `DC Attorney General Brian Schwalb issued an updated consumer alert on April 27, 2026 after his office kept fielding complaints from renters about being overbilled for utilities under Ratio Utility Billing Systems (RUBS) — a method that splits a building's total electric, gas, or water bill among tenants using a formula based on occupancy, square footage, or bedroom/bathroom count rather than metering what each unit actually uses. Because RUBS charges are calculated rather than measured, tenants routinely have no way to check whether the number on their bill matches their real usage, and many landlords apply the formula without disclosing how it works or what the underlying building bill was.
+
+"Tenants also routinely express confusion about how utility bills are allocated and struggle to budget because of inconsistent utility billing practices," Schwalb said in announcing the alert. Under DC's Consumer Protection Procedures Act, the alert says landlords using RUBS must disclose to prospective tenants, before they sign a lease, the specific billing method used for each utility, copies of the building's past utility bills and average monthly charges by unit type, how to inspect the underlying RUBS records, and how to dispute a bill.
+
+Renters who can't get a landlord to explain a RUBS charge, or suspect it doesn't match actual usage, should request the underlying billing records in writing and file a complaint with OAG's Office of Consumer Protection at (202) 442-9828 or oag.dc.gov/complaint.`,
+    categorySlug: 'rental-housing',
+    alertLevel: 'medium',
+    sources: ['Office of the D.C. Attorney General (Brian Schwalb)'],
+    sourceUrl: 'https://oag.dc.gov/release/attorney-general-schwalb-issues-alert-help-tenants-0',
+    country: 'US',
+    state: 'DC',
+    isHistorical: true,
+    firstRecorded: '2026-04-27',
+});
+
+UsAF.push({
+    name: "DC 'Pig Butchering' Cryptocurrency Investment Scam Alert (DISB)",
+    slug: 'dc-pig-butchering-investment-scam-disb-alert',
+    description: `The DC Department of Insurance, Securities and Banking (DISB) is warning residents about "pig butchering" investment fraud, citing FTC data showing 381 District victims lost nearly $4 million to the scheme in a single year. The name refers to fattening a hog before slaughter: scammers spend weeks or months "fattening up" a target with attention before taking everything at once.
+
+It typically starts with an unsolicited text or social-media message — often a "wrong number" text or someone claiming to reconnect with an old acquaintance — that steers the conversation onto an encrypted app like WhatsApp, where the scammer builds what feels like a real friendship or romance before introducing a supposedly lucrative virtual-currency investment on a platform they control. Victims are shown fabricated account statements showing steady gains, encouraged to invest alongside the scammer, and pushed to keep adding money — savings, retirement funds, even personal loans — until they try to withdraw or run out of funds, at which point the scammer disappears.
+
+DISB flags an unsolicited contact that quickly pivots to a cryptocurrency investment opportunity, insistence on moving to an encrypted app, and a platform that shows profits but won't allow withdrawal without an additional payment, as the clearest warning signs. District residents who suspect they've encountered this scheme can report it to DISB's Enforcement and Consumer Protection Division at (202) 727-8000.`,
+    categorySlug: 'cryptocurrency-scams',
+    alertLevel: 'high',
+    sources: ['DC Department of Insurance, Securities and Banking (DISB)'],
+    sourceUrl: 'https://disb.dc.gov/page/beware-investment-fraud',
+    country: 'US',
+    state: 'DC',
+});
+
+UsAF.push({
+    name: 'Publishers Clearing House FaceTime Facial-Recognition Prize Scam',
+    slug: 'alabama-pch-facetime-facial-recognition-prize-scam',
+    description: `AARP Alabama and the Better Business Bureau of North Alabama warned in June 2026 about fraudsters posing as Publishers Clearing House representatives who call Alabamians claiming they've won a sweepstakes, then pressure them into a FaceTime call to "verify their identity." AARP Alabama communications director Jamie Harding said scammers use that video call to capture close-up video and screenshots of the victim's face — which officials warn could help defeat facial-recognition security on banking apps — while separately fishing for banking details, and demand upfront "taxes," processing, or shipping fees before any prize is released.
+
+BBB North Alabama logged roughly 15 calls about the underlying prize scheme in a single week in June 2026, with spikes around real PCH drawing announcements; the office had not yet confirmed a local report of the FaceTime facial-capture variant specifically, but flagged it as an emerging tactic worth watching for. BBB North Alabama president and CEO Karen Reeves noted the real Publishers Clearing House never calls winners or requires payment to collect a prize, and vice president Belinda McCormick — who fielded three such calls herself — advised simply hanging up.
+
+Anyone who gets an unsolicited call claiming a sweepstakes win should hang up, never join a video call to "verify" a prize, and never pay any fee to collect winnings.`,
+    categorySlug: 'lottery-sweepstakes-scams',
+    alertLevel: 'high',
+    sources: ['Better Business Bureau of North Alabama', 'AARP Alabama'],
+    sourceUrl: 'https://www.waff.com/2026/06/10/bbb-north-alabama-sees-spike-publishers-clearing-house-scam-calls-aarp-warns-facetime-twist/',
+    country: 'US',
+    state: 'AL',
+    isHistorical: true,
+    firstRecorded: '2026-06-10',
+});
+
+UsAF.push({
+    name: "Alabama Task-Based 'Pay-to-Get-Paid' Job Scam Surge",
+    slug: 'alabama-task-based-pay-to-get-paid-job-scam-surge',
+    description: `The Better Business Bureau of Central & South Alabama warned in June 2026 that task-based employment scams are surging statewide, with BBB Scam Tracker logging 393 Alabama employment-scam reports in 2025 alone — up from a combined 359 in 2023-2024. Scammers posing as marketing or media companies recruit victims for simple remote "work," such as rating products or watching and liking YouTube videos, pay small amounts up front to build trust, then demand growing "deposits" or fees to unlock further tasks and release supposed earnings.
+
+An Anniston resident told the BBB she lost $100 after a company promising payment for boosting YouTube engagement paid her an initial $20, then demanded escalating deposits that never resulted in a real payout. Nationally, the BBB found task-scam victims lost a median of $2,300 in 2025, well above the roughly $1,000 median for employment scams overall. BBB Central & South Alabama vice president Evey Owen said plainly: "If a job offers to hire you with no interview and requires you to pay in order to get paid, that's your sign to walk away."
+
+Anyone offered a "task" job that starts paying out small amounts before demanding a deposit to continue should stop immediately and report it to the BBB.`,
+    categorySlug: 'job-task-scams',
+    alertLevel: 'medium',
+    sources: ['Better Business Bureau of Central & South Alabama', 'Alabama Political Reporter'],
+    sourceUrl: 'https://www.alreporter.com/2026/06/16/employment-scams-have-surged-in-alabama-better-business-bureau-warns/',
+    country: 'US',
+    state: 'AL',
+    isHistorical: true,
+    firstRecorded: '2026-06-16',
+});
+
+UsAF.push({
+    name: "FBI Birmingham Valentine's Day Romance Scam Alert ($7.56 Million in Alabama Losses)",
+    slug: 'alabama-fbi-birmingham-valentines-romance-scam-losses',
+    description: `Ahead of Valentine's Day 2026, the FBI's Birmingham Division disclosed that Alabamians reported 261 romance scams to the Bureau's Internet Crime Complaint Center in 2025, with combined losses of $7,560,074 — a figure officials said almost certainly undercounts the true toll since embarrassment keeps many victims from reporting. Scammers build fake dating-app, social-media, or chat-platform profiles, quickly profess strong feelings, and often claim to live or work overseas to explain away refusing to meet in person or video chat, before manufacturing a crisis — a medical bill, a stalled deal, a customs fee — that only the victim's money can fix.
+
+FBI Birmingham Special Agent in Charge David R. Fitzgibbons said the scams "exploit trust, crossing borders to harm victims financially and emotionally," adding that "prompt reporting helps us track networks, hold offenders accountable, and prevent others from becoming victims." The office also warned that criminals are increasingly using generative AI to fabricate convincing photos and videos of a fictitious partner.
+
+The FBI urged Alabamians dating online to reverse-image-search a match's photos, never send money, gift cards, crypto, or account access to someone they haven't met in person, and report to ic3.gov as soon as a new online relationship asks for money.`,
+    categorySlug: 'romance-scams',
+    alertLevel: 'high',
+    sources: ['FBI Birmingham Division', 'ABC 3340 (WBMA)'],
+    sourceUrl: 'https://abc3340.com/news/local/alabama-fbi-birmingham-warns-of-online-romance-scams-tips-ahead-of-valentines-day-2026',
+    country: 'US',
+    state: 'AL',
+});
