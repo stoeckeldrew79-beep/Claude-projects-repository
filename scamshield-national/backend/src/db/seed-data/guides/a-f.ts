@@ -423,10 +423,9 @@ If money you don't recognize appears in a P2P account, don't send anything back 
     title: "Freelance Platform Impostor Scams: When the Upwork or Fiverr Freelancer You Hired Isn't Who Their Profile Says",
     slug: 'freelance-platform-impostor-scam-guide',
     author: 'ScamShield Editorial',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Digital%20nomad%20telecommuting%20work%20on%20laptop%20computer.jpg?width=1200',
-    coverImageCredit: 'Photo: perzon seo (CC BY 2.0)',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Upwork-logo.svg?width=1200',
+    coverImageCredit: "Upwork's own logo (PD-textlogo)",
     coverImagePosition: 50,
-    // representative photo — replace with an exact match if found
     tags: ['guide', 'freelance-platform-impostor-scam'],
     sourceUrl: 'https://www.bbb.org/article/scams/22645-bbb-scam-alert-hiring-freelance-help-watch-out-for-impostors',
     body: `A business posts a project on Upwork, Fiverr, or Freelancer.com and gets an unusually strong response: a candidate with a polished portfolio, glowing reviews, and an experience level that would normally command a premium rate — but who's charging a fraction of the going one. The photo, resume, and portfolio work are real, but they belong to an actual working professional whose identity or materials were stolen and repurposed onto a fake account. In some cases, scammers even contact the real freelancer directly and ask, or offer to pay, for "permission" to reuse their profile.
