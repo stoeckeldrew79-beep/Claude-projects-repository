@@ -10695,4 +10695,8 @@ The scheme was only one piece of a broader pattern regulators later attributed t
 
 AIG itself settled with the SEC and New York in 2006, agreeing to pay $1.6 billion — $700 million in disgorgement and a $100 million penalty to the SEC, plus payments to New York — and to adopt corporate governance reforms. General Re separately reached its own resolution with the Department of Justice over its role in structuring the fraudulent transaction. Greenberg and Smith fought the SEC's civil charges for years before finally settling in August 2009, without admitting or denying wrongdoing: Greenberg paid $15 million in combined penalties and disgorgement, while Smith paid $1.5 million and accepted a three-year bar from serving as an officer or director of a public company. The case became a defining example of how "finite reinsurance" — a legitimate risk-transfer tool in ordinary use throughout the insurance industry — could be hollowed out into a pure accounting device once a company stripped away the genuine risk-sharing that was supposed to justify it, leaving regulators to spend years untangling which of AIG's reported numbers reflected real insurance business and which reflected transactions built for no purpose but the balance sheet.`,
     sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-21170',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/American_International_Building3.JPG?width=1200',
+    coverImageCredit: 'Photo: Clément Bardot (CC BY-SA 3.0) — 70 Pine Street, formerly the American International Building, AIG\'s historic headquarters',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
 });

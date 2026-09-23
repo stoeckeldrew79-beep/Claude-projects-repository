@@ -7473,4 +7473,8 @@ The collapse arrived the way these things usually do: a single check bounced. In
 
 Untangling the wreckage took most of a decade. Kuwait's government eventually created the "Difficult Credit Facilities Resettlement Program" to work through the enormous web of bad debt, restructuring claims among thousands of investors, dozens of companies, and a banking sector that had no real capacity to absorb losses on this scale — a process still incomplete when Iraq's 1990 invasion of Kuwait interrupted it entirely. The Souk Al-Manakh crash stands as one of the largest stock market collapses in history relative to the size of the economy it happened in, and a case study in how an entirely unregulated credit instrument — a personal check, backed by nothing but the writer's confidence that a stock would keep rising — can inflate a market to a size that dwarfs the real economy underneath it, until the first bounced check reveals that the entire structure was paper promising to pay for paper.`,
   sourceUrl: 'https://en.wikipedia.org/wiki/Souk_Al-Manakh_stock_market_crash',
+  coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Kuwait_City_Skyline.jpg?width=1200',
+  coverImageCredit: 'Photo: Dss98 (CC BY-SA 4.0) — Kuwait City, where the Souk Al-Manakh crash unfolded',
+  coverImagePosition: 50,
+  // representative photo — replace with a portrait if found
 });

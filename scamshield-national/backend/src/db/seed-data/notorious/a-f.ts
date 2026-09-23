@@ -10064,6 +10064,10 @@ Beebe's first fraud conviction came in 1985, when a jury found him guilty, along
 
 By the time regulators finished tallying the damage, more than a dozen banks and thrifts tied to Beebe's network had failed or been seized, and the FDIC separately sued Beebe and twenty other bank executives seeking $20 million in damages. Six of the seven Louisiana banks implicated in his 1987 indictment either collapsed outright or had to be absorbed by healthier institutions. Beebe's case illustrates a pattern regulators would see again and again through the savings and loan crisis: a single well-connected insider, using cross-holdings in a web of small institutions to extend credit to himself and his associates on collateral that examiners at any one bank, looking only at their own books, had no way to recognize as fake.`,
     sourceUrl: 'https://time.com/archive/6701901/dad-would-make-a-deal-with-the-devil/',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Downtown_Shreveport_Skyline.jpg?width=1200',
+    coverImageCredit: 'Photo: Jim Noetzel / Shreveport-Bossier Convention and Tourist Bureau (CC BY 2.0) — Shreveport, where Beebe built his empire',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
 });
 
 NotoriousAF.push({
@@ -10079,6 +10083,10 @@ The fraud unraveled after Alan Novick, the ESM executive who had architected the
 
 Seven ESM conspirators pleaded guilty in April 1986. Ewton was sentenced to 15 years in federal prison and five years of probation; Mead received 14 years; the accountant who had certified the fraudulent statements, Jose Gomez, received 12 years. Two other men caught up in the fallout — Stephen Arky, the Cincinnati attorney who had introduced Ewton to his father-in-law Marvin Warner, and ESM controller Henry Earl Riddel — took their own lives in July 1985 and November 1986, respectively. Congress responded directly to the case by passing the Government Securities Act of 1986, imposing federal oversight on a segment of the market that had previously operated with almost none. ESM shows how a fraud built on an instrument as mundane as a repo agreement — something regulators and customers alike treated as close to risk-free — can metastasize for years once the people running it are willing to falsify audited financials to keep it hidden, and how directly the damage from that kind of concealment can spread into institutions, like Home State's depositors, that had no direct relationship with the fraud at all.`,
     sourceUrl: 'https://en.wikipedia.org/wiki/ESM_Government_Securities',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Dusk_view_of_Ft._Lauderdale,_Florida_LCCN2011631154.tif?width=1200',
+    coverImageCredit: 'Photo: Carol M. Highsmith (public domain) — Fort Lauderdale, where ESM Government Securities was based',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
 });
 
 NotoriousAF.push({
@@ -10094,4 +10102,8 @@ The scheme surfaced in late 2011 amid a separate controversy, when Diamond's pen
 
 The SEC filed civil fraud charges against Diamond Foods, Mendes, and Neil on January 9, 2014. Diamond settled by paying a $5 million penalty without admitting or denying wrongdoing; Mendes settled separately for a $125,000 penalty, on top of more than $4 million in bonuses and other compensation he had already forfeited or returned. Neil chose to fight the charges rather than settle, and a jury ultimately found him liable, resulting in a $125,000 civil penalty and a five-year bar from serving as an officer or director of a public company. Diamond Foods illustrates how a scheme built on nothing more exotic than the timing of ordinary vendor payments — not a fabricated product, a fake subsidiary, or a wholly invented business — can still mislead investors by tens of millions of dollars simply by choosing which fiscal quarter absorbs a real, otherwise legitimate cost.`,
     sourceUrl: 'https://www.sec.gov/newsroom/press-releases/2014-4',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/3_walnuts.jpg?width=1200',
+    coverImageCredit: 'Photo: J.Dncsn (CC BY-SA 3.0) — walnuts, the commodity at the center of Diamond Foods\' accounting fraud',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
 });
