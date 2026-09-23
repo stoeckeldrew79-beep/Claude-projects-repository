@@ -9982,6 +9982,10 @@ U.S. District Judge Ronald Buckwalter sentenced Fumo on July 14, 2009, to 55 mon
 
 Fumo's case shows how a public official's control over both ends of a transaction — the power to help or hurt a regulated company, and the ability to direct that company's resulting goodwill into an entity he alone ran — can let a fraud operate in plain sight for years. The PECO arrangement was legal on its face, a corporate donation to a registered charity; what turned it into a crime was what happened after the money arrived, once the "charity" became indistinguishable from Fumo's own personal finances. It took a newspaper investigation to even surface the arrangement, and years more of trial and appellate litigation before the sentence caught up to the scale of what prosecutors said he had taken.`,
     sourceUrl: 'https://www.inquirer.com/philly/news/special_packages/inquirer/fumo/Vincent_J_Fumo_A_High-Impact_Controversial_Career.html',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Philadelphia_City_Hall_at_night.jpg?width=1200',
+    coverImageCredit: 'Photo: David Torres (CC BY-SA 3.0) — Philadelphia, the district Fumo represented in the state Senate',
+    coverImagePosition: 50,
 });
 
 NotoriousAF.push({
@@ -9999,6 +10003,10 @@ ASIC charged Couper in 2010, and in September 2011 he pleaded guilty to two coun
 
 The case is a reminder that a company doesn't need to be lying about its entire business to collapse: Bill Express's payments network was real and used by thousands of newsagents every day. It was $23.4 million in invented SIM-card transactions, stacked on top of a manipulated share price, that let a genuinely operating business keep reporting growth it wasn't actually generating. And it took an appeals court, not the original sentencing judge, to decide that fabricating tens of millions of dollars on a public company's books should actually cost the person who signed off on it his freedom.`,
     sourceUrl: 'https://www.smartcompany.com.au/business-advice/legal/bill-express-finance-head-jailed-after-successful-asic-appeal/',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Melbourne_city_skyline_from_the_perspective_of_Port_Melbourne.jpg?width=1200',
+    coverImageCredit: 'Photo: Bob Tan (CC BY 4.0) — Melbourne, where Bill Express and OnQ Group were based',
+    coverImagePosition: 50,
 });
 
 NotoriousAF.push({
@@ -10016,6 +10024,10 @@ Because Evaly operated nationwide, individual defrauded customers filed fraud an
 
 Evaly's case shows how a fraud built entirely out of ordinary retail transactions — nobody who ordered a discounted motorcycle thought they were buying an investment — can still function exactly like a Ponzi scheme underneath: new customers' upfront payments covering the unfulfilled promises made to the customers before them, for as long as new orders kept arriving faster than old ones had to be honored. It is also a case study in how badly fragmented consumer-fraud enforcement can blunt its own deterrent effect: rather than facing one prosecution scaled to the more than $100 million Bangladeshi authorities say Evaly owed, Rassel and Nasrin have spent years accumulating a patchwork of short sentences handed down in scattered courtrooms, while hundreds of arrest warrants against them remain unresolved.`,
     sourceUrl: 'https://www.tbsnews.net/bangladesh/court/evaly-md-rassel-chairperson-nasrin-get-5-years-jail-another-fraud-case-1284216',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Dhaka_Skyline_at_Night.jpg?width=1200',
+    coverImageCredit: 'Photo: Md. Ishtiaque Mahmood Rohan (CC BY 3.0) — Dhaka, where Evaly was based',
+    coverImagePosition: 50,
 });
 
 NotoriousAF.push({
@@ -10033,4 +10045,8 @@ Maciel died of liver cancer in February 2008, at 68, before he was ever tried. I
 
 Avestruz Master shows how easily a Ponzi scheme can hide inside an investment that looks, and even genuinely is, backed by a tangible product: the ostriches were real, the farms were real, and buyers could go look at both — which made it easy to overlook that the company was selling nearly twice as many birds on paper as existed in the entire country. It is also a case study in how slowly consumer fraud can be punished even once it is fully documented: the scheme's architect died before ever standing trial, its three convicted family members served no time until well over a decade after the collapse, and most of the two dozen people originally charged saw their cases dismissed on a technicality before any court decided whether they were guilty at all.`,
     sourceUrl: 'https://www.gazetadopovo.com.br/agronegocio/avestruz-master-historia/',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/South_African_Ostrich.JPG?width=1200',
+    coverImageCredit: 'Photo: Nicolas M. Perrault (CC0) — an ostrich, the animal at the center of the Avestruz Master scheme',
+    coverImagePosition: 50,
 });

@@ -3285,4 +3285,8 @@ Osvaldo Villalobos, who stayed in the country, was tried for fraud and illegal f
 
 The Villalobos case shows how far a Ponzi scheme can run when it hides behind the language of friendship rather than finance: by insisting depositors were merely lending money to friends, the brothers sidestepped the securities and banking registration that might have exposed the fraud years earlier, while the cash-on-delivery structure of their "loans" left investors with no enforceable claim on money they believed was sitting safely in an account. It is also a reminder of how unevenly justice can land in a cross-border fraud — the brother who fled on a false passport has never faced a single day in a courtroom, while the one who stayed spent years fighting a prison sentence for a scheme that, more than two decades later, investigators still cannot say for certain how large it really was. Costa Rica's community of American and Canadian retirees, drawn in by returns no legitimate institution could match, never recovered more than a fraction of what they had handed over.`,
     sourceUrl: 'https://ticotimes.net/2008/06/06/villalobos-conviction-upheld-brother-remains-at-large',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Partial_view_of_Downtown_San_Jose,_Costa_Rica.jpg?width=1200',
+    coverImageCredit: 'Photo: Bernal Saborio (CC BY-SA 2.0) — San José, Costa Rica, where "The Brothers" operated',
+    coverImagePosition: 50,
 });

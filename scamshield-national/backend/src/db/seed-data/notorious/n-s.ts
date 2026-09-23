@@ -7454,4 +7454,8 @@ Phang and Hoo were found guilty on July 16, 2010, and sentenced on July 30: nine
 
 Sunshine Empire shows how a pyramid scheme can hide behind a layer of plausible-sounding consumer products — phone airtime, mall loyalty points, an e-commerce platform — so that buyers experience it as a shopping-and-rewards program rather than the unregistered investment scheme regulators and courts ultimately found it to be. It also illustrates the long lag between a regulator's first public warning and a criminal conviction: Singapore's Investor Alert List flagged Sunshine Empire in September 2007, but it took more than three additional years of investigation, trial and appeal before Phang was actually sentenced — and even then, finishing his Singapore sentence did not close the book, since a second country's prosecutors were waiting to open a new case against him the day he walked out.`,
   sourceUrl: 'https://www.elitigation.sg/gd/s/2011_SGHC_251',
+  // representative photo — replace with a portrait if found
+  coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Singapore_CBD_Skyline.JPG?width=1200',
+  coverImageCredit: 'Photo: Irwan Shah Bin Abdullah (CC BY 3.0) — Singapore, where Sunshine Empire operated',
+  coverImagePosition: 50,
 });
