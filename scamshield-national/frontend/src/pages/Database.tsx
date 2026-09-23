@@ -129,12 +129,15 @@ export default function Database() {
         )}
       </div>
 
-      {/* Trend Watch is nationwide. Above a state-filtered list it reads as
-          that state's numbers and buries the entries the reader clicked a
-          state to see, so it stands down while a state filter is on. */}
+      {/* Follows the page's own country filter (the "United States Only /
+          All Countries" toggle above) so it reads as that scope's volume
+          and trend, not the global one re-labeled regardless of the tab.
+          Above a state-filtered list it would read as that state's numbers
+          and bury the entries the reader clicked a state to see, so it
+          stands down while a state filter is on. */}
       {view !== 'historical' && !state && (
         <div className="mt-6 mb-8">
-          <TrendWatch />
+          <TrendWatch country={country} />
         </div>
       )}
       {view === 'historical' && (

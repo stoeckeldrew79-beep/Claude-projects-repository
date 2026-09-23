@@ -13,7 +13,8 @@ export const getBySlug = asyncHandler<AuthedRequest>(async (req, res) => {
   res.json({ data: category });
 });
 
-export const trends = asyncHandler<AuthedRequest>(async (_req, res) => {
-  const data = await CategoriesModel.categoryReportTrends();
+export const trends = asyncHandler<AuthedRequest>(async (req, res) => {
+  const country = typeof req.query.country === 'string' ? req.query.country : undefined;
+  const data = await CategoriesModel.categoryReportTrends(country);
   res.json({ data });
 });
