@@ -21719,3 +21719,42 @@ International.push({
     sourceUrl: "https://www.anz.com/kiribati/en/personal/ways-bank/protect-banking/protecting-yourself-from-fraud/",
     country: "KI",
 });
+
+International.push({
+  name: 'Fake "Hacked Website" Extortion Scam',
+  slug: 'andorra-fake-hacked-website-extortion-scam',
+  description: `Policia d'Andorra issued a public alert on January 21, 2023 about an extortion campaign, active since around 2020, in which fraudsters submit threatening messages through the contact forms on Andorran businesses' own websites, falsely claiming they have hacked the site and stolen its data. The messages demand payment — reported as high as $3,000 — in Bitcoin to prevent the attackers from leaking the stolen data, notifying the business's customers, and damaging its reputation, with some messages even including instructions on how to buy the cryptocurrency for victims unfamiliar with it. Police confirmed the claimed hacks are fabricated: no actual intrusion occurs, and the message is sent out in bulk to many companies regardless of their real security status, relying purely on the alarm the claim creates to extract payment before a victim can verify it.
+
+Andorran police urged business owners who receive such a message not to pay and not to treat the threat as confirmation of a real breach, and recommended periodic security checks of their own websites and access logs so they can independently verify whether any intrusion actually occurred before reacting to an unverified extortion demand.`,
+  categorySlug: 'data-breach-scams',
+  alertLevel: 'medium',
+  sources: ["Policia d'Andorra"],
+  sourceUrl: 'https://www.policia.ad/ca/noticies/prevencio-general/2023/01/21/6944/la-policia-alerta-d-intents-d-estafa-amb-hackejos-falsos/',
+  country: 'AD',
+});
+
+International.push({
+  name: 'Fake Bank Transfer Vehicle Purchase Fraud',
+  slug: 'andorra-fake-bank-transfer-vehicle-fraud',
+  description: `Andorran police arrested a 23-year-old man in La Massana on a judicial order after an investigation by the Heritage Crimes Unit and Criminal Investigation Police found he had defrauded private car sellers out of more than €93,000 over roughly a year, across about a dozen separate reported cases. His method was consistent: he answered classified ads from people selling used vehicles privately, negotiated a price, and then showed the seller a falsified document purporting to prove a bank transfer for the full amount had just been sent. Believing payment had been made, sellers handed over the car and its keys, only to find the money never actually arrived in their account.
+
+Police recovered nine of the vehicles taken through the scheme, and the suspect was charged with crimes against property and document falsification. The case is a reminder investigators highlighted directly: a screenshot or printed copy of a bank transfer confirmation is not proof that money has actually landed in an account, and private sellers should confirm receipt of funds directly through their own bank's app or statement, not through a document the buyer presents, before releasing a vehicle or other high-value item.`,
+  categorySlug: 'fake-check-overpayment',
+  alertLevel: 'medium',
+  sources: ["Andorran Police (Heritage Crimes Unit)", 'La Veu de l’Ullire'],
+  sourceUrl: 'https://laveulliure.ad/ca/article/detingut-comprar-cotxes-amb-transferencies-falses-mes-de-93000-euros-estafats',
+  country: 'AD',
+});
+
+International.push({
+  name: 'AFA Warning on Fraudulent "QuantumAI" Investment Platform',
+  slug: 'andorra-afa-quantiumai-investment-warning',
+  description: `The Autoritat Financera Andorrana (AFA), Andorra's financial regulator, issued a public warning on October 2, 2025 about a platform called QuantumAI, which was being promoted through a dedicated website and paid social media advertisements to Andorran residents. AFA stated plainly that QuantumAI is "neither authorised nor registered to provide investment services or any other activity reserved for supervised entities in Andorra," is absent from AFA's official register of licensed entities, and holds no license to raise funds or offer financial products in the Principality. The regulator said the platform displayed characteristics typical of high-risk or fraudulent investment schemes, including a lack of transparency and the absence of any verifiable corporate information behind it.
+
+AFA urged the public not to contract any service or invest through QuantumAI, and not to hand over personal or financial information to the platform under any circumstance. More broadly, the authority advised residents to always check that any entity offering investment or financial services is properly authorised and registered in AFA's official records before sending money or personal data to any online investment platform advertised on social media.`,
+  categorySlug: 'investment-fraud',
+  alertLevel: 'high',
+  sources: ['Autoritat Financera Andorrana (AFA)'],
+  sourceUrl: 'https://www.afa.ad/en/press-room/alertes/warning-regarding-quantumai',
+  country: 'AD',
+});
