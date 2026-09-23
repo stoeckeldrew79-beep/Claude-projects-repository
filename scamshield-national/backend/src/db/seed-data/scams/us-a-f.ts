@@ -9988,3 +9988,31 @@ UsAF.push({
     country: "US",
     state: "DE",
 });
+
+UsAF.push({
+    name: 'Cash App (Block Inc.) Fraud-Enablement Settlement',
+    slug: 'delaware-cash-app-block-inc-fraud-enablement-settlement',
+    description: `On July 9, 2026, Delaware Attorney General Kathy Jennings announced Delaware's part in a $45 million, 45-state settlement with Block Inc. (formerly Square), the operator of Cash App, resolving allegations that Block misled consumers about bank-level safety protections that didn't actually exist while fraud on the platform rose. Investigators found Cash App's minimal sign-up verification made it easy for fraudsters to create accounts, and because Block offered no real phone support, users searching online for help were routed to fake 1-800 numbers run by scammers who then hijacked accounts or drained linked bank accounts.
+
+The multistate investigation also found that the "Cash App Fridays" giveaway promotion — which encouraged users to publicly post their $cashtags for a chance to win money — was exploited for years by fraudsters posing as prize administrators to harvest login credentials, even after Block was aware of the pattern. Delaware will receive roughly $314,000 for its Consumer Protection Fund, and AG Jennings said the result reflects "our office's ongoing efforts to combat fraud against Delaware consumers in the face of rapidly emerging new financial technologies."`,
+    categorySlug: 'account-takeover',
+    alertLevel: 'high',
+    sources: ['Delaware Department of Justice'],
+    sourceUrl: 'https://news.delaware.gov/2026/07/09/ag-jennings-announces-45-million-multistate-settlement-with-block-inc-over-deceptive-practices-on-cash-app/',
+    country: 'US',
+    state: 'DE',
+});
+
+UsAF.push({
+    name: 'Centerdon Group Fake "Law Firm" Debt-Management Scheme',
+    slug: 'delaware-centerdon-group-fake-law-firm-debt-management-scheme',
+    description: `Delaware Attorney General Kathy Jennings' Consumer Protection Unit filed an administrative action in February 2021 against Centerdon Group, Inc. (later renamed Hilvanim Group, Inc.), a California-based company accused of violating the Delaware Uniform Debt-Management Services Act, the Delaware Consumer Fraud Act, and the Delaware Deceptive Trade Practices Act. The suit alleged Centerdon targeted elderly and low-income Delaware residents struggling with debt, presenting its contracts as a "Legal Services Agreement" from a "Law Firm" despite employing no attorneys licensed in Delaware.
+
+Investigators said the company arranged for a Delaware notary to visit victims' homes posing as a company "representative" to sign them up for debt-settlement contracts loaded with hidden, duplicative fees while providing little or no real debt relief. AG Jennings said at the time, "Delawareans struggling with debt deserve our help, not exploitation. We will hold Centerdon accountable for their illegal and misleading debt management services."`,
+    categorySlug: 'debt-relief-scams',
+    alertLevel: 'medium',
+    sources: ['Delaware Department of Justice'],
+    sourceUrl: 'https://news.delaware.gov/2021/02/08/ag-jennings-consumer-protection-unit-files-action-against-unlicensed-debt-management-services-company/',
+    country: 'US',
+    state: 'DE',
+});
