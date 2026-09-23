@@ -9400,3 +9400,59 @@ UsNS.push({
     sourceUrl: "https://www.ic3.gov/PSA/2026/PSA260720",
     country: "US",
 });
+
+UsNS.push({
+    name: 'Williston Man\'s Role as Money Mule in $4.7 Million Nationwide Romance Scam Ring',
+    slug: 'north-dakota-williston-boadu-romance-scam-money-mule',
+    description: `Between August 2015 and February 2021, Daniel Boadu, a resident of Williston, North Dakota, served as a domestic "money mule" for a nationwide romance scam conspiracy — opening and controlling bank accounts that received fraudulent wire transfers from victims who had been courted through fake online dating profiles, then passing the funds along to the scheme's organizers. Boadu pleaded guilty to conspiracy to commit money laundering, and on August 29, 2025, U.S. District Judge Michael J. Truncale sentenced him to 54 months in federal prison and ordered him to pay $4.7 million in restitution.
+
+The case, investigated by IRS Criminal Investigation and prosecuted by the U.S. Attorney's Office for the Eastern District of Texas, shows a different angle on romance fraud than North Dakota's existing entries: a North Dakota resident recruited as the local bank-account conduit that let a nationwide romance-scam ring launder money from victims across the country.`,
+    categorySlug: 'romance-scams',
+    alertLevel: 'medium',
+    sources: ['IRS Criminal Investigation', 'U.S. Attorney\'s Office, Eastern District of Texas'],
+    sourceUrl: 'https://www.irs.gov/compliance/criminal-investigation/north-dakota-man-sentenced-in-east-texas-romance-scam-ordered-to-pay-over-4-point-7-million-in-restitution',
+    country: 'US',
+    state: 'ND',
+});
+
+UsNS.push({
+    name: 'Epic Companies/Todd Berning Real-Estate Investment Fraud and Securities Stop Order',
+    slug: 'north-dakota-epic-companies-berning-real-estate-investment-fraud',
+    description: `Fargo-based developer Epic Companies, led by founder Todd Berning, partnered with cities across North Dakota — including West Fargo, Minot, and Jamestown — on multi-use real estate projects before abruptly closing in May 2023, after which Berning could not be located by sheriff's deputies, court process servers, or private investigators for months. Investors and lenders filed suits seeking more than $4.3 million combined, including 7Seven Property Partners of Minot ($506,933 on a personally guaranteed loan), Williston couple Mark and Teresa McGuigan ($325,000 in development investments), and Bravera Bank (roughly $3 million owed on a construction loan); Epic's related entities filed for bankruptcy in July 2024.
+
+After opening an investigation in June 2025, the North Dakota Insurance/Securities Department issued a Stop Order on September 12, 2025 against EPIC Management, LLC and Todd Berning, barring them from offering, selling, or affecting membership interests in the company, citing acts prohibited under N.D.C.C. Chapter 10-04.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'high',
+    sources: ['North Dakota Insurance/Securities Department'],
+    sourceUrl: 'https://www.insurance.nd.gov/news/state-issues-stop-order-against-epic-management-llc-and-todd-berning',
+    country: 'US',
+    state: 'ND',
+});
+
+UsNS.push({
+    name: 'Omaha Puppy Scam Ring Impersonates Real Pet Businesses',
+    slug: 'omaha-puppy-scam-ring-impersonated-businesses',
+    description: `In 2023, fraud websites for "Prime Chihuahua Dogs" and "NG Pomeranian Puppies" borrowed the name and Omaha address of a real, licensed breeder, Midwest Puppy LLC, while a fake shipper calling itself "Pet Wave Transport" impersonated legitimate carriers Greater Omaha Express LLC and Greater Omaha Leasing LLC to demand extra "crate fees" after the sale. Multiple consumers paid for puppies that never arrived, losing more than $16,000 combined, and both fraud sites traced back to domains privately registered in Iceland.
+
+The Better Business Bureau of the Midwest Plains issued a warning after Midwest Puppy's real owner reported the impersonation to the Nebraska Attorney General's Office and local police, and the Nebraska Secretary of State confirmed neither fake operation was a registered business.`,
+    categorySlug: 'pet-sales-scams',
+    alertLevel: 'medium',
+    sources: ['Better Business Bureau of the Midwest Plains', 'Nebraska Attorney General\'s Office'],
+    sourceUrl: 'https://nebraska.tv/news/local/bbb-scam-alert-omaha-companies-targeted-in-animal-adoption-and-transportation-fraud',
+    country: 'US',
+    state: 'NE',
+});
+
+UsNS.push({
+    name: 'Fraudulent Durable Medical Equipment Billing Targets Western Nebraska Medicare Patients',
+    slug: 'nebraska-dme-medicare-billing-fraud-western-nebraska',
+    description: `The Nebraska Department of Insurance's SHIP and Senior Medicare Patrol programs warned on March 26, 2025 of a spike in fraudulent Durable Medical Equipment billing hitting Medicare beneficiaries in western Nebraska, with some operators calling from out of state, including Florida. Fraudsters bill Medicare for wound-care supplies, continuous glucose monitors, prosthetics, and orthopedic braces that were never medically necessary and in some cases never delivered — discoverable only when a beneficiary reviews their Medicare Summary Notice.
+
+SHIP & SMP Administrator Jonathan Burlison said "fraudulent billing, especially for durable medical equipment, is on the rise," urging anyone targeted to contact the Nebraska SHIP & SMP office immediately.`,
+    categorySlug: 'healthcare-fraud',
+    alertLevel: 'medium',
+    sources: ['Nebraska Department of Insurance', 'Nebraska SHIP & SMP'],
+    sourceUrl: 'https://doi.nebraska.gov/reports-medicare-fraud-increasing-nebraska-targeting-durable-medical-equipment-and-other-billing',
+    country: 'US',
+    state: 'NE',
+});

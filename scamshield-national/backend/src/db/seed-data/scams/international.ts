@@ -21964,3 +21964,42 @@ The MVS stated flatly that queue registration is completely free and available o
   sourceUrl: 'https://ua.news/en/ukraine/shakhrayi-maskuiutsia-pid-pratsivnikiv-servisnikh-tsentriv-mvs-dlia-vimaniuvannia-groshei',
   country: 'UA',
 });
+
+International.push({
+  name: 'Estonian Artists\' Union Remote-Access Bank Fraud',
+  slug: 'estonia-artists-union-remote-access-bank-fraud',
+  description: `In May 2026, fraudsters defrauded the Estonian Artists' Union (Eesti Kunstnike Liit) of nearly €700,000 through a multi-stage vishing scheme distinct from Estonia's existing courier and cash-pickup fraud patterns: callers first posed as the Omniva postal service asking the union's chief accountant to "verify identity" by entering codes on a fraudulent platform, then called back claiming to be from the "Bank of Estonia" and police warning that the accountant's device had been compromised, ultimately convincing her to install remote-access software and authorize transactions with PIN codes. The stolen funds included Culture Ministry creative-grant money, artist salaries, and gallery activity-support funds from Tallinn City and the Cultural Endowment, plus tens of thousands of euros of the accountant's personal savings.
+
+SEB bank flagged suspicious transactions on May 15, 2026, prompting union president Maarin Ektermann to file a police report and hold a joint press conference with police. Unlike a simple credential-phishing scam, this fraud moved money entirely through a live, remotely guided account takeover of an institutional victim rather than a one-time code disclosure.`,
+  categorySlug: 'account-takeover',
+  alertLevel: 'high',
+  sources: ['ERR News'],
+  sourceUrl: 'https://www.err.ee/1610027344/kunstnike-liidult-peteti-valja-ligi-700-000-eurot',
+  country: 'EE',
+});
+
+International.push({
+  name: 'Pärnu County Company Loses €1.6 Million to Fake-Invoice Email Fraud',
+  slug: 'estonia-parnu-fake-invoice-bec-fraud',
+  description: `A company in Pärnu County, Estonia lost more than €1.6 million after receiving an email that appeared to come from a genuine business partner instructing that future invoices be paid to a new bank account; the account actually belonged to criminals who had compromised or spoofed the partner's correspondence. Estonian police opened an investigation on April 17, 2026, after the company representative made two separate transfers to the fraudulent account before realizing the invoice was fake.
+
+Estonia's State Information Systems Authority (RIA), quoted in the same report, explained that in this style of business email compromise, criminals typically first gain access to a business partner's email system through phishing, monitor ongoing correspondence, and intervene at the right moment to intercept or replace a real invoice with a fraudulent one — targeting companies mid-transaction with genuine-seeming vendor correspondence rather than obviously fake emails.`,
+  categorySlug: 'business-email-compromise',
+  alertLevel: 'high',
+  sources: ['Estonian Police', 'State Information Systems Authority (RIA)'],
+  sourceUrl: 'https://parnu.postimees.ee/8455876/ettevote-kaotas-libaarve-tottu-ule-1-6-miljoni-euro',
+  country: 'EE',
+});
+
+International.push({
+  name: 'Counterfeit QR-Code Stickers on Estonian Parking Signs',
+  slug: 'estonia-fake-qr-codes-parking-signs',
+  description: `In July 2026, Estonia's parking-payment operator Parkimine.ee (part of Ühisteenused) publicly warned that criminals had affixed counterfeit QR-code stickers directly over the official codes on parking payment signs; scanning the fake code redirects the driver to a fraudulent payment page designed to harvest bank card or online-banking credentials instead of the legitimate parkimine.ee or parkner.ee sites or the official Parkner app.
+
+The warning, published by Postimees on July 2, 2026, quoted Parkimine.ee's guidance that drivers should always check where a QR code leads before entering payment details, and should stop immediately if it lands on an unfamiliar site or one that requests banking information outside the normal app flow.`,
+  categorySlug: 'qr-code-scams',
+  alertLevel: 'medium',
+  sources: ['Parkimine.ee', 'Postimees'],
+  sourceUrl: 'https://majandus.postimees.ee/8501201/hoiatus-voltsitud-qr-koodid-parkimismarkidel',
+  country: 'EE',
+});
