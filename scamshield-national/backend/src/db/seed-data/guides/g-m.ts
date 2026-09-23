@@ -4814,6 +4814,9 @@ GuidesGM.push({
   slug: 'gyazo-2026-data-breach-guide',
   author: 'ScamShield Editorial',
   tags: ['guide', 'gyazo-2026-data-breach'],
+  coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Gyazo_logo.png?width=1200',
+  coverImageCredit: 'Gyazo logo (PD-textlogo, via Wikimedia Commons)',
+  coverImagePosition: 50,
   sourceUrl: 'https://corp.helpfeel.com/en/news/news-20260916',
   body: `Gyazo, a screenshot- and image-sharing tool built by the Japanese software company Helpfeel and widely used by gamers, developers, and anyone who wants a quick, shareable link for a screen capture, told users on September 16, 2026 that an attacker had broken into its systems five days earlier. According to Helpfeel's own account, the intrusion began on September 11 when someone exploited a vulnerability in the server that handles image uploads, gaining the ability to run commands on the backend and reach the databases behind it. The company said it detected the suspicious activity that same evening, traced and blocked the attacker's access routes by the early hours of September 12, and confirmed the scope of what had been taken by September 14 — reporting the incident to Japan's Personal Information Protection Commission the following day before publishing a notice to the public on September 16.
 

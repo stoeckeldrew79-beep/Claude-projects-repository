@@ -5072,6 +5072,10 @@ GuidesNS.push({
   slug: 'real-estate-agent-pig-butchering-crypto-scam-guide',
   author: 'ScamShield Editorial',
   tags: ['guide', 'pig-butchering-scam', 'real-estate-agent-crypto-scam'],
+  // representative photo — replace with an exact match if found
+  coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Home_for_Sale_Sign_in_Eugene,_Oregon.jpg?width=1200',
+  coverImageCredit: 'Photo: Rick Obst (CC BY 4.0)',
+  coverImagePosition: 50,
   sourceUrl: 'https://www.aarp.org/money/scams-fraud/fraud-wars-fake-client/',
   body: `Most pig-butchering warnings describe a scam that starts on a dating app or with a "wrong number" text to a stranger. A growing, separately documented version skips that setup entirely and goes straight for real estate agents, whose entire job requires them to respond to unfamiliar phone numbers claiming to be a paying client. Scammers pull agent names and cell numbers directly off MLS listings and brokerage websites — the same public contact information a legitimate buyer would use — then reach out posing as a relocating executive, an out-of-state investor, or an all-cash buyer with a budget in the millions. Because answering a cold text from someone who might be a real client is a professional obligation rather than a choice, the normal advice to "not respond to strangers" simply doesn't apply, and the scammer gets a receptive audience from the first message.
 
