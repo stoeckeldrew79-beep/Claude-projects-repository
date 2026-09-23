@@ -21700,3 +21700,42 @@ The central bank warned that anyone using the platform has no legal recourse if 
   sourceUrl: 'https://sudanhorizon.com/cbos-warns-against-dealing-with-unlicensed-financial-app-linked-to-rsf-militia/',
   country: 'SD',
 });
+
+International.push({
+  name: 'Fake Gold-Investment "Double Your Money" Ponzi Scheme',
+  slug: 'bolivia-fake-gold-investment-ponzi-scheme',
+  description: `In Cochabamba, a man convinced at least 20-25 victims to hand over money on the promise that he would use it to buy gold and double their capital, a classic Ponzi pitch with no real investment behind it. When the promised returns never materialized, victims began comparing notes, banded together, and jointly reported him to the Fuerza Especial de Lucha Contra el Crimen (FELCC), which determined the total loss at roughly Bs 750,000.
+
+FELCC's departmental director in Cochabamba, Erick Peralta, confirmed the arrest on July 27, 2026 and stated the suspect "habría utilizado estas artimañas para convencer a las víctimas de disponer de sus recursos económicos" (would have used these tricks to convince victims to hand over their economic resources); the suspect was placed in preventive detention at the San Sebastián men's penitentiary. Bolivians are advised to treat any pitch promising to "double" money through gold or precious-metal purchases as a red flag, and to report group financial losses to the FELCC promptly.`,
+  categorySlug: 'ponzi-pyramid-schemes',
+  alertLevel: 'high',
+  sources: ['Fuerza Especial de Lucha Contra el Crimen (FELCC) — Cochabamba', 'Opinión'],
+  sourceUrl: 'https://www.opinion.com.bo/articulo/policial/cae-sindicado-estafa-que-ofrecia-duplicar-dinero-inversion-oro/20260727163338993933.html',
+  country: 'BO',
+});
+
+International.push({
+  name: 'Fake Dollar-Sale Advance-Payment Fraud by a La Paz Couple',
+  slug: 'bolivia-la-paz-fake-dollar-sale-advance-payment-fraud',
+  description: `A married couple in La Paz advertised discounted U.S. dollar sales on social media, promising delivery within a month and lending the scheme false legitimacy by backing transactions with signed civil contracts — then never delivered the currency or returned the money. More than 50 people were targeted, and documented losses among just three victims who came forward with formal legal representation already exceeded $216,000, with investigators believing the true total is substantially higher.
+
+The victims' legal representative said the pair "contactó a varias personas, incluso convenciendo a hermanos, primos y familiares para que entreguen dinero para la compra de dólares" (contacted various people, even convincing siblings, cousins, and family members to hand over money for dollar purchases), and police executed a search warrant on the couple's property, seizing a safe-deposit box, documents, and a written list of prospective victims. The case, reported July 23, 2026, is a reminder that a signed contract or a family connection to the seller is no protection against a currency-exchange offer that undercuts the informal market rate — such transactions should go only through licensed, ASFI-regulated exchange houses.`,
+  categorySlug: 'online-shopping-scams',
+  alertLevel: 'high',
+  sources: ['Red Uno de Bolivia'],
+  sourceUrl: 'https://www.reduno.com.bo/noticias/cae-pareja-acusada-de-estafar-a-mas-de-50-personas-con-falsa-venta-de-dolares-20267238166',
+  country: 'BO',
+});
+
+International.push({
+  name: 'Fake Entel/Viva/Tigo Telecom Agent WhatsApp Account-Takeover Scam',
+  slug: 'bolivia-telecom-agent-whatsapp-account-takeover-scam',
+  description: `Criminals across Bolivia call victims posing as customer-service representatives of one of the country's telecom operators — Entel, Viva, or Tigo — claiming they need to "update customer information" or process a free service upgrade, then tell the victim a verification code is about to arrive by SMS. That code is actually WhatsApp's own account-registration code; once the victim reads it back to the caller, the scammer registers the victim's WhatsApp number on their own device, locking the real owner out entirely.
+
+From inside the hijacked account, criminals impersonate the victim to their real contacts, requesting money transfers or offering fake items for sale. Félix Pinto, Inspection Director of the Autoridad de Regulación y Fiscalización de Telecomunicaciones y Transportes (ATT), confirmed the pattern directly — "se hacen pasar por personeros de las empresas de telecomunicaciones (Viva, Tigo o Entel)" (they pose as representatives of the telecom companies Viva, Tigo, or Entel) — and said the ATT has blocked roughly 10,000 fraud-linked phone lines and devices. The ATT urges anyone contacted this way to hang up, call their telecom provider back directly, and never read a verification code to anyone over the phone.`,
+  categorySlug: 'account-takeover',
+  alertLevel: 'high',
+  sources: ['Autoridad de Regulación y Fiscalización de Telecomunicaciones y Transportes (ATT)', 'Urgente.bo'],
+  sourceUrl: 'https://www.urgente.bo/noticia/estafadores-se-hacen-pasar-por-operadores-de-entel-viva-o-tigo-para-robar-cuentas-de',
+  country: 'BO',
+});
