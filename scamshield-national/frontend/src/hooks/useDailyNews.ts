@@ -33,10 +33,10 @@ export function useDailyNewsStates() {
 // Backs the placeholder-reservation trick on the Today's Scams page: knowing
 // the total up front lets it lay out the full page height on first paint
 // instead of growing as each batch arrives.
-export function useDailyScamNewsCount(state?: string) {
+export function useDailyScamNewsCount(state?: string, scope?: 'us') {
   return useQuery({
-    queryKey: ['daily-scam-news-count', state ?? 'all'],
-    queryFn: () => fetchDailyScamNewsCount(state),
+    queryKey: ['daily-scam-news-count', state ?? 'all', scope ?? 'all'],
+    queryFn: () => fetchDailyScamNewsCount(state, scope),
     refetchInterval: REFETCH_INTERVAL_MS,
   });
 }
@@ -44,10 +44,10 @@ export function useDailyScamNewsCount(state?: string) {
 // The full Today's Scams feed, which reads back through the 30-day window
 // rather than stopping at the first page. The single-page hook above still
 // backs the previews (a state page shows six), where paging would be noise.
-export function useInfiniteDailyScamNews(state?: string) {
+export function useInfiniteDailyScamNews(state?: string, scope?: 'us') {
   return useInfiniteQuery({
-    queryKey: ['daily-scam-news', 'infinite', state ?? 'all'],
-    queryFn: ({ pageParam }) => fetchDailyScamNews(state, pageParam),
+    queryKey: ['daily-scam-news', 'infinite', state ?? 'all', scope ?? 'all'],
+    queryFn: ({ pageParam }) => fetchDailyScamNews(state, pageParam, scope),
     initialPageParam: 1,
     getNextPageParam: (lastPage, allPages) =>
       lastPage.length === DAILY_NEWS_PAGE_SIZE ? allPages.length + 1 : undefined,

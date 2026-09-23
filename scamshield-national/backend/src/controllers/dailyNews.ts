@@ -1,6 +1,7 @@
 import { AuthedRequest } from '../middleware/auth';
 import { pool } from '../db/connection';
 import { asyncHandler } from '../utils/asyncHandler';
+import { INTERNATIONAL_SEARCH_TERMS } from '../jobs/dailyNewsSearchTerms';
 
 // Most stories any single outlet may contribute to the Today's Scams feed.
 const MAX_STORIES_PER_SOURCE = 2;
@@ -13,6 +14,16 @@ const PAGE_SIZE = 50;
 function pageOffset(raw: unknown): number {
   const page = Number(typeof raw === 'string' ? raw : 1);
   return Number.isFinite(page) && page > 1 ? Math.floor(page - 1) * PAGE_SIZE : 0;
+}
+
+// A row is unambiguously US if it's state-tagged (state-AG feeds and the
+// state-scoped scan are both US-only by construction). A state-less row
+// came from the general news scan, which runs US and international queries
+// side by side (see scanDailyScamNews.ts) — search_term is the only record
+// of which, so "US only" excludes state-less rows whose search_term is one
+// of the international queries.
+function usOnlyRequested(req: AuthedRequest): boolean {
+  return req.query.scope === 'us';
 }
 
 // How many stories the feed holds, so the page can reserve its full height
@@ -41,6 +52,7 @@ export const count = asyncHandler<AuthedRequest>(async (req, res) => {
     return;
   }
 
+  const usOnly = usOnlyRequested(req);
   const { rows } = await pool.query<{ count: string }>(
     `WITH deduped AS (
        SELECT id, source_name, published_at, scanned_at, ROW_NUMBER() OVER (
@@ -48,6 +60,7 @@ export const count = asyncHandler<AuthedRequest>(async (req, res) => {
                 ORDER BY COALESCE(published_at, scanned_at) DESC, id
               ) AS dupe_rank
        FROM daily_scam_news
+       WHERE NOT $2 OR state IS NOT NULL OR NOT (search_term = ANY($3))
      ),
      ranked AS (
        SELECT id, ROW_NUMBER() OVER (
@@ -58,7 +71,7 @@ export const count = asyncHandler<AuthedRequest>(async (req, res) => {
        WHERE dupe_rank = 1
      )
      SELECT COUNT(*)::text AS count FROM ranked WHERE source_rank <= $1`,
-    [MAX_STORIES_PER_SOURCE]
+    [MAX_STORIES_PER_SOURCE, usOnly, INTERNATIONAL_SEARCH_TERMS]
   );
   res.json({ data: { count: Number(rows[0]?.count ?? 0) } });
 });
@@ -73,6 +86,7 @@ export const list = asyncHandler<AuthedRequest>(async (req, res) => {
     // handful of outlets covering it — so the per-source cap that keeps the
     // national feed varied would here just hide most of that state's alerts.
     // First-party AG alerts sort ahead of news coverage of the same story.
+    // Every state-tagged row is already US, so scope=us is a no-op here.
     const { rows } = await pool.query(
       `WITH deduped AS (
          SELECT *, ROW_NUMBER() OVER (
@@ -101,12 +115,15 @@ export const list = asyncHandler<AuthedRequest>(async (req, res) => {
   // whenever it posts a burst — one outlet held 4 of the top 5 slots after a
   // scan, which reads as a broken page rather than a live one. With 500+
   // distinct sources in the table, a cap of 2 still fills the full 100 rows.
+  const usOnly = usOnlyRequested(req);
   const { rows } = await pool.query(
     // Two passes. The first drops stories the scan could not see as
      // duplicates: it dedupes on source_url, and the same story syndicated
      // under two URLs is two rows with one headline - which is what a reader
      // notices, the same headline twice in a row from the same outlet. The
-     // second is the existing per-outlet cap.
+     // second is the existing per-outlet cap. The scope filter sits inside
+     // the first CTE so a US-only view still fills its full per-source cap
+     // from US-only candidates, rather than capping before filtering.
      `WITH deduped AS (
        SELECT *,
               ROW_NUMBER() OVER (
@@ -114,6 +131,7 @@ export const list = asyncHandler<AuthedRequest>(async (req, res) => {
                 ORDER BY COALESCE(published_at, scanned_at) DESC, id
               ) AS dupe_rank
        FROM daily_scam_news
+       WHERE NOT $4 OR state IS NOT NULL OR NOT (search_term = ANY($5))
      ),
      ranked AS (
        SELECT *,
@@ -130,7 +148,7 @@ export const list = asyncHandler<AuthedRequest>(async (req, res) => {
      WHERE source_rank <= $1
      ORDER BY COALESCE(published_at, scanned_at) DESC, id
      LIMIT $2 OFFSET $3`,
-    [MAX_STORIES_PER_SOURCE, PAGE_SIZE, offset]
+    [MAX_STORIES_PER_SOURCE, PAGE_SIZE, offset, usOnly, INTERNATIONAL_SEARCH_TERMS]
   );
   res.json({ data: rows });
 });
@@ -138,7 +156,8 @@ export const list = asyncHandler<AuthedRequest>(async (req, res) => {
 // States that actually have alerts, with counts, so the UI can offer only
 // real choices rather than all 51 jurisdictions with most of them empty.
 // `ag_count` lets the UI distinguish a state whose own Attorney General
-// publishes a feed from one covered only by news search.
+// publishes a feed from one covered only by news search. Every row here is
+// already state-tagged, hence already US, so this list is scope-invariant.
 export const states = asyncHandler<AuthedRequest>(async (_req, res) => {
   const { rows } = await pool.query(
     `SELECT state,
