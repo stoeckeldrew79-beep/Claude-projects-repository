@@ -10959,6 +10959,45 @@ International.push(
   },
 );
 
+International.push({
+  name: 'Deepfake Investment Scam Impersonates the President and State Banks',
+  slug: 'azerbaijan-deepfake-investment-scam-state-banks',
+  description: `Azerbaijan's State Security Service announced on June 20, 2024 that it had dismantled a transnational cybercriminal network using AI-generated deepfake videos of President Ilham Aliyev and other state and public figures to promote fraudulent investment schemes on social media. The fake ads falsely associated the scheme with real, well-known institutions — SOCAR, Kapital Bank, and the International Bank of Azerbaijan — to appear legitimate. Victims who "invested" were shown fabricated screens displaying inflated returns; when they tried to withdraw the supposed profits, they were told to hand over their banking credentials to complete the transfer, which the fraudsters then used to drain the victims' actual bank accounts.
+
+Two Azerbaijani nationals were charged in the case — Zohrabov Rafiq Mahir oglu (born 1998) and Niftaliyev Sardar Alikhan oglu (born 1979) — with additional network members prosecuted in Ukraine through international law-enforcement cooperation. The scheme is described as having victimized citizens both inside Azerbaijan and abroad.`,
+  categorySlug: 'ai-deepfake-scams',
+  alertLevel: 'high',
+  sources: ["Azerbaijan State Security Service", 'APA'],
+  sourceUrl: 'https://en.apa.az/incident/azerbaijans-state-security-service-exposes-cybercriminal-network-which-created-fake-applications-on-behalf-of-state-and-public-figures-440651',
+  country: 'AZ',
+});
+
+International.push({
+  name: '"Car Accident or Surgery" Family-Emergency Scam Targets the Elderly',
+  slug: 'azerbaijan-family-emergency-elderly-scam',
+  description: `Azerbaijan's Ministry of Internal Affairs (MIA) issued a public warning on January 14, 2026 that fraudsters are specifically targeting elderly and lonely citizens with a "family emergency" con. Callers — typically phoning from foreign numbers — present themselves as the victim's children, grandchildren, or other close relatives and claim to urgently need money, most often alleging they caused a car accident or require emergency surgery. The MIA said perpetrators press for immediate cash transfers and, in some cases, arrange for a courier to collect the money directly from the victim's home rather than relying on a bank transfer, making the scheme harder to trace or reverse.
+
+The ministry urged citizens to independently verify any such call by contacting the relative directly through a known phone number before sending money, to refuse demands for cash from unfamiliar callers, and to report suspicious calls to the "102" police emergency line.`,
+  categorySlug: 'grandparent-scams',
+  alertLevel: 'medium',
+  sources: ["Azerbaijan Ministry of Internal Affairs", 'Modern.az'],
+  sourceUrl: 'https://modern.az/en/olke/557445/elderly-and-lonely-citizens-are-targets-of-fraudsters-ministry-of-internal-affairs-issues-a-warning/',
+  country: 'AZ',
+});
+
+International.push({
+  name: 'Fake Online Storefront "Pay-Then-Block" Shopping Scam',
+  slug: 'azerbaijan-fake-storefront-pay-then-block-scam',
+  description: `Azerbaijan's Ministry of Internal Affairs warned on August 11, 2026 of a rise in online shopping fraud in which criminals set up deceptive sales pages on e-commerce platforms and social networks, advertising goods at unusually attractive prices to draw in buyers. Once a victim pays — by card or bank transfer, in advance of any delivery — the seller cuts off all contact by blocking the buyer's phone number and social media account, leaving the victim with no product, no refund, and no way to reach the seller again.
+
+The MIA advised shoppers to verify a seller's reliability, registration, and contact details before ordering, to avoid unknown sellers who insist on full advance payment, and to never share bank card numbers, CVV/CVC codes, or SMS one-time confirmation codes with a seller under any circumstance. Citizens were told to report incidents to the MIA's "102" Service Call Center or its official social media accounts.`,
+  categorySlug: 'online-shopping-scams',
+  alertLevel: 'medium',
+  sources: ["Azerbaijan Ministry of Internal Affairs", 'Operative Information Center'],
+  sourceUrl: 'https://operativmm.az/en/post/azerbaijans-mia-issues-warning-on-rising-online-shopping-fraud/76621',
+  country: 'AZ',
+});
+
 International.push(
   {
     name: 'Bosnia and Herzegovina Fake Bank SMS/Email Phishing',
