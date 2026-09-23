@@ -21823,3 +21823,27 @@ From inside the hijacked account, criminals impersonate the victim to their real
   sourceUrl: 'https://www.urgente.bo/noticia/estafadores-se-hacen-pasar-por-operadores-de-entel-viva-o-tigo-para-robar-cuentas-de',
   country: 'BO',
 });
+
+International.push({
+    name: "Serafe Residence Verification Phishing Email",
+    slug: "serafe-residence-verification-phishing-email",
+    description:
+      "Fraudsters send emails that appear to come from Serafe AG, the company that collects Switzerland's mandatory radio and TV licence fee, claiming your residence or domicile must be verified for your household fee account. The email links to a spoofed Serafe-branded form where any personal and payment details you enter go straight to the criminals. The lure works because the licence fee is compulsory and billed per household, so a request to confirm where you live looks like normal administrative procedure. Switzerland's Federal Office for Cybersecurity (BACS/NCSC) flagged this campaign in its week 48 weekly review in early December 2025. Never click links in unexpected Serafe messages; log in through the official serafe.ch address yourself, and report suspicious emails to BACS via its reporting form.",
+    categorySlug: "phishing",
+    alertLevel: "high",
+    sources: ["Bundesamt für Cybersicherheit (BACS/NCSC), Wochenrückblick 48, December 2025"],
+    sourceUrl: "https://www.ncsc.admin.ch/ncsc/de/home/aktuell/im-fokus/2025/wochenrueckblick_48.html",
+    country: "CH",
+});
+
+International.push({
+    name: "Falsche Polizisten Fake Police Officer Phone Scam",
+    slug: "falsche-polizisten-fake-police-officer-phone-scam",
+    description:
+      "Callers posing as Swiss police officers, often using spoofed or foreign-routed caller ID, telephone mostly elderly residents and claim a burglary gang is active in the neighbourhood or that the victim's bank is implicated in a crime. They insist the cash and jewellery kept at home are no longer safe, keep the victim on the line, and warn them not to contact family or their bank. A supposed officer then calls at the door or arranges a drop point to collect the valuables, which couriers move out of the country. Fribourg cantonal police recorded a record monthly high of these cases in November 2025, and St. Gallen cantonal police documented a Buchs case in December 2025 in which CHF 30,000 was handed over before three arrests. Real Swiss police never ask you to hand over cash or valuables for safekeeping, so hang up, call your local police on a number you look up yourself, and tell a relative what happened.",
+    categorySlug: "government-impersonation",
+    alertLevel: "critical",
+    sources: ["Kantonspolizei Freiburg / Police cantonale de Fribourg, November 2025 record high and subsequent arrests","Kantonspolizei St. Gallen, Buchs case, December 2025"],
+    sourceUrl: "https://www.fr.ch/de/sjsd/pol/news/betrug-durch-falsche-polizisten-neuer-hoechststand-im-kanton-freiburg-im-november",
+    country: "CH",
+});
