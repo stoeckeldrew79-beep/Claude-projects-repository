@@ -9307,3 +9307,45 @@ Grant County Jury Coordinator Lilly Foster said, "We would never ask for money o
     country: 'US',
     state: 'OR',
 });
+
+UsNS.push({
+    name: 'New Jersey Joins 22-State Coalition Suing Uber Over Uber One Subscription Trap',
+    slug: 'new-jersey-uber-one-subscription-trap-lawsuit',
+    description: `On December 15, 2025, New Jersey Attorney General Matthew Platkin and the Division of Consumer Affairs joined a coalition of 22 states and county agencies (led by Maryland AG Anthony Brown) suing Uber Technologies over its Uber One subscription service, alleging deceptive enrollment and a cancellation process requiring up to 23 screens and more than 32 separate actions. The suit alleges Uber charged consumers $9.99/month or $96/year through negative-option marketing, auto-enrolled some users without consent, and billed others before their free trial ended or before their stated billing date.
+
+Platkin said companies selling "convenience" were doing so "with one hand already in your wallet," and the state suit builds on an FTC case filed in April 2025 in the U.S. District Court for the Northern District of California.`,
+    categorySlug: 'subscription-traps',
+    alertLevel: 'medium',
+    sources: ['New Jersey Attorney General', 'New Jersey Division of Consumer Affairs'],
+    sourceUrl: 'https://www.njoag.gov/attorney-general-platkin-announces-lawsuit-against-uber-for-consumer-protection-violations/',
+    country: 'US',
+    state: 'NJ',
+});
+
+UsNS.push({
+    name: 'Cape May County Sheriff\'s Office Impersonation Fine-and-Warrant Phone Scam',
+    slug: 'new-jersey-cape-may-sheriff-impersonation-phone-scam',
+    description: `The Cape May County Prosecutor's Office and Sheriff's Office issued a joint public alert (Prosecutor Jeffrey H. Sutherland and Sheriff Robert Nolan) warning that callers are impersonating Cape May County Sheriff's Office personnel and telling residents they owe money for fines or missed court appearances, threatening an arrest warrant unless they pay immediately. The scammers direct victims to pay via gift cards, wire transfers, or other non-traditional, untraceable methods rather than legitimate court or municipal channels.
+
+Officials stressed that no legitimate law enforcement agency demands payment by gift card or prepaid debit card over the phone, and urged anyone contacted to hang up and call the Prosecutor's Office directly at 609-465-1135 to verify before paying anything.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Cape May County Prosecutor\'s Office', 'Cape May County Sheriff\'s Office'],
+    sourceUrl: 'https://gloucestercitynews.net/2026/05/cape-may-county-prosecutors-office-scam-alert/',
+    country: 'US',
+    state: 'NJ',
+});
+
+UsNS.push({
+    name: 'Morristown Man\'s MCA Cure/LDMS/Evergreen Small-Business Debt-Relief Fraud',
+    slug: 'new-jersey-mca-cure-debt-relief-fraud',
+    description: `Mark Csantaveri of Morristown, New Jersey, and two co-conspirators ran a string of New Jersey-registered debt-settlement companies — MCA Cure LLC and LDMS Group LLC (both based in Parsippany) and Evergreen Settlement Group LLC (Rockaway) — that promised small businesses across the country they could negotiate 40-80% reductions on outstanding debts in exchange for biweekly payments of roughly $4,000-$5,000. According to the FBI criminal complaint, victims including a College Park, Maryland restaurant, a Dayton, Ohio manufacturer, and a Clinton Township, Michigan auto body shop paid a combined $3.7 million from more than 50 victims while Csantaveri sent fabricated status updates and never actually contacted the creditors; he personally spent about $1.3 million of victims' money at New Jersey casinos.
+
+Csantaveri pleaded guilty on May 4, 2026 before U.S. District Judge Karen M. Williams in Camden to conspiracy to commit wire fraud, with sentencing set for September 29, 2026 and a maximum exposure of 20 years and a $250,000 fine.`,
+    categorySlug: 'debt-relief-scams',
+    alertLevel: 'high',
+    sources: ['FBI', 'U.S. Attorney\'s Office, District of New Jersey'],
+    sourceUrl: 'https://www.justice.gov/usao-nj/media/1344476/dl',
+    country: 'US',
+    state: 'NJ',
+});
