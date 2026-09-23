@@ -9636,3 +9636,31 @@ UsGM.push({
     country: "US",
     state: "KY",
 });
+
+UsGM.push({
+    name: 'RiverLink Toll Bridge Text (Smishing) Scam',
+    slug: 'kentucky-riverlink-toll-bridge-smishing-scam',
+    description: `Since at least August 2024, Kentuckians who use the RiverLink toll bridges connecting Louisville to Southern Indiana have received text messages claiming an unpaid toll is owed and threatening a late fee unless payment is made through an embedded link. The messages are sent from senders labeled "RiverLinks" or "Kentucky Toll Roads" rather than RiverLink itself, sometimes contain telltale errors like "overfee," and route to lookalike payment pages built to harvest personal and financial information.
+
+RiverLink publicly confirmed on August 29, 2024 that it never sends toll-charge notices by text — only low-balance and auto-replenishment alerts to prepaid accounts — stating flatly "the text message is not from RiverLink," and urged recipients not to click the link but instead check their balance directly at RiverLink.com or call 1-855-RIV-LINK.`,
+    categorySlug: 'phishing',
+    alertLevel: 'medium',
+    sources: ['RiverLink'],
+    sourceUrl: 'https://riverlink.com/2024/08/29/riverlink-issues-text-message-fraud-alert/',
+    country: 'US',
+    state: 'KY',
+});
+
+UsGM.push({
+    name: 'FEMA Disaster-Assistance Identity Theft After 2025 Kentucky Flooding',
+    slug: 'kentucky-fema-disaster-assistance-identity-theft-2025-flooding',
+    description: `Following catastrophic February 2025 flooding across Kentucky, FEMA and the Kentucky Attorney General's office warned that criminals were using flood survivors' stolen names, addresses, and Social Security numbers to file fraudulent disaster-assistance applications, in some cases interfering with legitimate victims' claims. A March 7, 2025 FEMA alert stressed that its representatives "never charge applicants for disaster assistance" and that anyone posing as a FEMA housing inspector while requesting banking information is a scammer, since real inspectors are never authorized to collect financial data.
+
+A second, near-identical FEMA fraud alert followed on May 1, 2025 after additional severe storms hit Kentucky in April 2025, repeating the same warning as the disaster-assistance application deadline approached. Kentuckians were directed to report suspected fraud to the FEMA Disaster Fraud Hotline (866-720-5721), StopFEMAFraud@fema.dhs.gov, or the Kentucky Attorney General's office.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['FEMA'],
+    sourceUrl: 'https://www.fema.gov/press-release/20250307/be-alert-fraud-after-kentucky-flooding',
+    country: 'US',
+    state: 'KY',
+});

@@ -21886,3 +21886,42 @@ Callers who tried to verify by phone reported being met with abuse from an opera
   sourceUrl: 'https://news.zerkalo.io/economics/129158.html',
   country: 'BY',
 });
+
+International.push({
+  name: 'Fake Apartment Listing Deposit Scam',
+  slug: 'armenia-fake-apartment-listing-deposit-scam',
+  description: `Armenia's Ministry of Internal Affairs (RA Police) issued a warning on August 5, 2026 about a rising wave of fake apartment rental ads spreading on Armenian social media, in which scammers post listings with attractive photos and prices noticeably below market rate, then pressure interested renters to send an "advance" or deposit immediately to "reserve" the unit, falsely claiming several other people are also asking about it. Once the deposit is transferred, the "landlord" stops responding and the social-media profile used to post the ad is deleted or goes silent, leaving the renter with no apartment and no way to recover the money.
+
+Police advised the public to always inspect an apartment in person and meet the real owner before paying anything, to treat prices far below market as a red flag, to check whether the same photos are recycled across multiple unrelated listings, and to sign a written agreement before any funds change hands.`,
+  categorySlug: 'rental-housing',
+  alertLevel: 'medium',
+  sources: ['RA Ministry of Internal Affairs (Armenian Police)', 'Arminfo'],
+  sourceUrl: 'https://arminfo.info/full_news.php?id=103097&lang=3',
+  country: 'AM',
+});
+
+International.push({
+  name: 'Organized Romance-Fraud Ring Redirecting Victims to Fake Shopping Sites',
+  slug: 'armenia-romance-fraud-ring-fake-shopping-sites',
+  description: `Armenia's Ministry of Internal Affairs announced on March 21, 2026 that officers had uncovered a cybercrime group — made up of both Armenian and foreign nationals — operating out of a converted basement office in Yerevan equipped with computers, foreign SIM cards, and communications equipment. The group created fake profiles on dating apps, Telegram, and WhatsApp posing as attractive young women, cultivated romantic correspondence with targets recruited partly through Telegram chat groups, and once trust was established, directed victims to counterfeit phishing websites disguised as legitimate online shopping platforms to extract payments.
+
+Stolen funds were then laundered through intermediaries abroad and converted into cryptocurrency to obscure the trail, and police seized the group's equipment as the investigation continued to identify remaining members — a scheme where the romantic manipulation is only the entry point, with victims ultimately defrauded through a fake e-commerce checkout rather than a direct cash request.`,
+  categorySlug: 'romance-scams',
+  alertLevel: 'high',
+  sources: ['RA Ministry of Internal Affairs press service', 'Arminfo'],
+  sourceUrl: 'https://arminfo.info/full_news.php?id=99461&lang=3',
+  country: 'AM',
+});
+
+International.push({
+  name: 'Unlicensed "G Class invest" Securities Offering Warning',
+  slug: 'armenia-unlicensed-g-class-invest-securities-warning',
+  description: `The Central Bank of Armenia issued a public warning on September 18, 2026 identifying "Java Team" LLC, operating under the brand name "G Class invest" through the websites gcard.am and gclass.am, as an unlicensed entity making public offerings of securities to Armenian investors. The Central Bank stated it "has not registered any documentation authorizing the company to make such offers, nor has it issued any financial operations license," confirming the company is operating entirely outside Central Bank supervision.
+
+The regulator urged the public to verify any investment firm's license on the Central Bank's official website before handing over money and to deal only with licensed financial organizations, since funds placed with an unlicensed securities issuer fall outside any regulatory protection or deposit guarantee.`,
+  categorySlug: 'investment-fraud',
+  alertLevel: 'high',
+  sources: ['Central Bank of Armenia', 'Panorama.am'],
+  sourceUrl: 'https://www.panorama.am/am/news/2026/09/18/ԿԲ-նախազգուշացում/3169092',
+  country: 'AM',
+});

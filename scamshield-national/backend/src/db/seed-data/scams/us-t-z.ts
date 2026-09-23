@@ -5507,3 +5507,45 @@ The Treasurer's Office stresses that Wyoming charges no fee to search for or cla
     country: 'US',
     state: 'WY',
 });
+
+UsTZ.push({
+    name: 'FBI Richmond Fraudulent DOJ Mail-Letter Scam',
+    slug: 'virginia-fbi-richmond-fraudulent-doj-mail-letter-scam',
+    description: `In September 2025, the FBI's Richmond Field Office warned residents after at least one Richmond-area resident received a fraudulent letter mailed to their home designed to look like official correspondence from the U.S. Department of Justice. The FBI confirmed the letter was not genuine and publicly stated it "commend[s] the victim for reporting this to law enforcement immediately and encourage[s] everyone to verify concerning notices like this with trusted sources."
+
+The bureau asked anyone who receives a similar letter to call its Richmond office directly rather than follow the letter's instructions, distinguishing this physical mailed-letter scam from the database's existing email-based "Attorney General" phishing entry impersonating Virginia's own AG.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['FBI Richmond Field Office', 'WTVR-CBS 6'],
+    sourceUrl: 'https://www.wtvr.com/news/local-news/fbi-richmond-scam-warning-sept-5-2025',
+    country: 'US',
+    state: 'VA',
+});
+
+UsTZ.push({
+    name: 'Hampton Roads "Parking Lot" Phone-Hijack Loan-Fraud Scheme',
+    slug: 'virginia-hampton-roads-parking-lot-phone-hijack-loan-fraud',
+    description: `Federal prosecutors in the Eastern District of Virginia indicted ten defendants on August 21, 2025 over a "parking lot scam" that ran since at least January 2023 and is estimated to have victimized roughly 500 people across Hampton Roads, many of them Navy Federal Credit Union members. Conspirators approached victims in parking lots, talked their way into briefly holding the victim's phone under the pretext of a Cash App or Zelle "money transfer," then used that access to open a high-interest personal loan in the victim's name and pressured them to send the loan proceeds back before the fraud was discovered.
+
+Hampton resident Stephen H. described losing $5,000 this way on Mercury Boulevard in July 2024, telling WTKR, "They were smooth, man. They got me. They got me."`,
+    categorySlug: 'account-takeover',
+    alertLevel: 'high',
+    sources: ['U.S. Attorney\'s Office, Eastern District of Virginia', 'WTKR'],
+    sourceUrl: 'https://www.justice.gov/usao-edva/united-states-v-thornton-et-al-crim-no-225-cr-105',
+    country: 'US',
+    state: 'VA',
+});
+
+UsTZ.push({
+    name: 'Virginia SCC Warning on AI-Enhanced Investment Scams',
+    slug: 'virginia-scc-ai-enhanced-investment-scam-warning',
+    description: `On December 19, 2025, the Virginia State Corporation Commission's Division of Securities and Retail Franchising, joined by the North American Securities Administrators Association, warned Virginia investors that fraudsters are increasingly layering artificial intelligence into pig-butchering and affinity schemes, senior-targeted promissory-note and equity fraud, and pitches from unregistered solicitors. Division Director Doug Joyce said, "Rapid technological advancements and the rise of artificial intelligence give scam artists new tools to steal your money."
+
+The Division reported fielding 238 investor complaints in 2024, leading to 149 investigations and 14 civil enforcement actions totaling $381,000 in penalties and investor relief, and directs Virginians to InvestWiselyVA.com to verify registration before sending money.`,
+    categorySlug: 'ai-deepfake-scams',
+    alertLevel: 'medium',
+    sources: ['Virginia State Corporation Commission'],
+    sourceUrl: 'https://www.scc.virginia.gov/about-the-scc/newsreleases/release/watch-for-scams-2025/scc-warns-of-investment-scams.html',
+    country: 'US',
+    state: 'VA',
+});
