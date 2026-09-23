@@ -7898,6 +7898,50 @@ UsGM.push({
 });
 
 UsGM.push({
+    name: 'FBI Atlanta Warns Georgia Leads Nation in Child Sextortion Losses',
+    slug: 'georgia-fbi-atlanta-child-sextortion-warning',
+    description: `Ahead of the 2026 school year, the FBI's Atlanta field office warned that Georgia leads the nation in money lost to sextortion schemes involving children, with roughly $3 million lost in a single year, part of an estimated $13 million lost nationwide. Special Agent in Charge Marlo Graham described the mechanism: predators pose as peers on social media and gaming platforms — "Predators will assume the identity of a child. They will purport to be another 11-year-old, or another six or seven-year-old," she said, "when actually, it's a 40-year-old man" — convincing victims to send sexually explicit images, then threatening to share those images with family and friends unless the child or family pays money.
+
+The FBI said victims as young as seven have been targeted, with boys making up the majority of victims, and many perpetrators operate overseas, complicating prosecution. Graham urged parents to build trust so children feel safe disclosing what happens online, noting cases are significantly underreported due to shame.`,
+    categorySlug: 'sextortion',
+    alertLevel: 'critical',
+    sources: ['FBI Atlanta Field Office', 'Atlanta News First'],
+    sourceUrl: 'https://www.atlantanewsfirst.com/2026/07/29/fbi-warns-parents-about-online-photos-sextortion-hoax-school-threats-students-return-class/',
+    country: 'US',
+    state: 'GA',
+});
+
+UsGM.push({
+    name: 'Jackson County Fake English Bulldog Breeder Puppy Scam',
+    slug: 'georgia-jackson-county-fake-bulldog-breeder-puppy-scam',
+    description: `A Jackson County, Georgia woman lost $3,646 in April 2023 after responding to an online listing for a $650 English Bulldog puppy. The seller, using the name "Juan Cooper," had stolen photos and identity details from a real, legitimate Georgia breeder, Lisa Dunn Miller, to make the fake listing look authentic. After the victim paid the $650 purchase price, the scammer added a $200 "shipping" charge, then $996 for a supposedly refundable shipping crate, then $1,800 for "COVID-19 vaccines," and finally demanded $2,600 within two hours, claiming the dog was stuck at a Tennessee airport without proper paperwork.
+
+The victim only realized she'd been scammed when the phone number on the fraudulent breeder website stopped working, and she reported the fraud to the Jackson County Sheriff's Office. Miller warned that any seller unwilling to talk by phone or show the puppy over FaceTime — or a purebred listed far under market price — is a red flag.`,
+    categorySlug: 'pet-sales-scams',
+    alertLevel: 'medium',
+    sources: ['Jackson County Sheriff’s Office', 'WSB Radio'],
+    sourceUrl: 'https://www.wsbradio.com/news/local/georgia-woman-loses-more-than-3600-when-she-tries-buy-puppy/AKLPJ3P5PNBWDDS2KSXID32PPI/',
+    country: 'US',
+    state: 'GA',
+    isHistorical: true,
+    firstRecorded: '2023-04-01',
+});
+
+UsGM.push({
+    name: 'Remote "Task Scam" Job Fraud Costs Georgia Woman Nearly $30,000',
+    slug: 'georgia-dorothy-remote-job-task-scam',
+    description: `An 11Alive (WXIA-TV Atlanta) investigation profiled a Georgia woman, identified only as Dorothy, who was searching for flexible remote work due to health issues when she received an unsolicited text job offer. The "job" involved logging into an app to "check the merchants' accounts" and verify that "the programming is correct," with pay promised for training and early tasks. Dorothy was in fact paid for initial small tasks, which built trust, before the scheme pushed her into paying increasing amounts herself to "unlock" further earnings — ultimately costing her nearly $30,000, funneled through PayPal, wire transfers, and cryptocurrency. 11Alive's investigation found the business documents she'd been sent carried a counterfeit Maine Secretary of State seal, which that agency confirmed was fake.
+
+11Alive tied her case to a broader FTC-documented surge in "task scams," noting job-scam losses more than tripled between 2020 and 2023, with $220 million lost nationwide in just the first half of 2024. "Question everything," Dorothy said. "Verify everything."`,
+    categorySlug: 'job-task-scams',
+    alertLevel: 'high',
+    sources: ['11Alive (WXIA-TV Atlanta)'],
+    sourceUrl: 'https://www.11alive.com/article/news/investigations/11alive-news-investigates/georgia-woman-remote-job-task-scam/85-0fab32e4-d6a1-4a99-83b3-7839a7969beb',
+    country: 'US',
+    state: 'GA',
+});
+
+UsGM.push({
     name: 'Humboldt Merchant Services Credit Card Laundering for Sham Merchants',
     slug: 'humboldt-merchant-services-credit-card-laundering-sham-merchants',
     description: `In September 2026 the FTC announced a $12 million settlement with payment processor Humboldt Merchant Services after finding it knowingly opened merchant accounts for more than 1,000 shell companies that served as fronts for undisclosed third parties running unauthorized-billing scams — including Legion Media, an operation the FTC shut down in 2024 — routing roughly $100 million in transactions between 2021 and 2023 while ignoring chargeback rates nearly ten times industry norms and placing the accounts on lower-scrutiny bank identification numbers to dodge detection. This "credit card laundering," or "transaction laundering," matters to consumers because it disguises the true source of an unauthorized charge on a credit card statement behind an unfamiliar shell-company name, making the charge harder to recognize and dispute. Consumers should review statements for unrecognized merchant names promptly, dispute any unauthorized charge with their card issuer within the dispute window, and treat repeat unfamiliar recurring charges as a signal to request a full transaction history from their bank.`,
@@ -8997,6 +9041,52 @@ UsGM.push({
     country: 'US',
     state: 'HI',
     firstRecorded: '2026-09-16',
+});
+
+UsGM.push({
+    name: "Fake DCCA Letters Push Real-Estate Investments Using Jason Momoa's Name",
+    slug: 'hawaii-dcca-impersonation-momoa-real-estate-investment-scam',
+    description: `Hawaii's Department of Commerce and Consumer Affairs (DCCA) and Governor's office issued an alert on November 12, 2024 warning that fraudsters were mailing consumers deceptive letters designed to look like official state correspondence, misusing the State of Hawai'i seal and falsely claiming to represent the "Hawaii Real Estate Department and Agencies." The letters pitched real-estate investment opportunities through a fictitious firm and invoked actor Jason Momoa's name without authorization to imply a celebrity partnership and promise "immediate and large financial returns," pressuring recipients to send money via cash, gift cards, or cryptocurrency for properties that did not exist.
+
+DCCA's Real Estate Commission emphasized that the state does not sell or broker real-estate investments and that legitimate real estate businesses never demand immediate cash payments, gift cards, or cryptocurrency. Residents who receive such a letter are urged to verify licensing through the department's official Business Check tool before sending any funds and to report the letters to the Consumer Resource Center at 808-587-4272.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'medium',
+    sources: ['Hawaii Department of Commerce and Consumer Affairs (DCCA)', 'Office of Governor Josh Green, M.D.'],
+    sourceUrl: 'https://governor.hawaii.gov/newsroom/release-state-warns-of-impersonation-scams-targeting-real-estate-investors-in-hawaii/',
+    country: 'US',
+    state: 'HI',
+    isHistorical: true,
+    firstRecorded: '2024-11-12',
+});
+
+UsGM.push({
+    name: 'Honolulu Online Puppy-Sale Deposit Scam',
+    slug: 'honolulu-online-puppy-deposit-scam',
+    description: `The Honolulu Police Department and Honolulu Crime Stoppers issued a public warning about an ongoing scam in which fraudsters pose as puppy sellers on Facebook Marketplace and Craigslist, often using stolen photos of real litters. Buyers are asked to send a deposit — commonly framed as needed to "hold" or ship the animal, sometimes with an added fee for a special travel crate — through wire transfer, gift cards, or payment apps. Once the deposit is received, the seller cuts off all communication and no puppy is ever delivered.
+
+Police advised Oahu residents never to pay a deposit to a seller before receiving the puppy, to be skeptical of below-market prices, and to consider buying from a reputable pet store or adopting through the Hawaiian Humane Society instead. Complaints can be filed with Honolulu Crime Stoppers at 808-955-8300 or honolulucrimestoppers.org.`,
+    categorySlug: 'pet-sales-scams',
+    alertLevel: 'medium',
+    sources: ['Honolulu Police Department', 'Honolulu Crime Stoppers', 'Honolulu Star-Advertiser'],
+    sourceUrl: 'https://www.staradvertiser.com/2022/05/25/breaking-news/honolulu-police-warn-of-ongoing-online-puppy-scams/',
+    country: 'US',
+    state: 'HI',
+});
+
+UsGM.push({
+    name: 'Honolulu Kupuna Loses $58,000 in Multibillion-Dollar "Sweepstakes Win" Scam',
+    slug: 'honolulu-kupuna-58000-sweepstakes-scam',
+    description: `The Honolulu Police Department confirmed that an 84-year-old Honolulu resident was defrauded of more than $58,000 between January 13 and June 24, 2025, after being told by phone that he had won a multibillion-dollar sweepstakes prize. Over the six-month period, callers built rapport with the victim and repeatedly told him he needed to pay supposed taxes and processing fees before the winnings could be released — "the swindlers played a long game," police said, "reaching out over a six-month period to establish a rapport and a false sense of security in their target." The victim sent numerous payments, both wired and mailed, to individuals at addresses across the U.S. mainland, and no prize ever materialized.
+
+HPD said the case reflects a broader pattern of sweepstakes and lottery fraud increasingly targeting Hawaii's elderly (kupuna), and urged anyone contacted about an unexpected prize that requires an upfront payment to hang up and report the contact through the department's Citizen Reporting Tool or in person at a police station rather than send money.`,
+    categorySlug: 'lottery-sweepstakes-scams',
+    alertLevel: 'high',
+    sources: ['Honolulu Police Department', 'KITV4'],
+    sourceUrl: 'https://www.kitv.com/news/local/hawaii-senior-scammed-out-of-58k-from-sweepstakes-win/article_e4ba95e1-b23a-4a8e-b412-fa913ffe66c9.html',
+    country: 'US',
+    state: 'HI',
+    isHistorical: true,
+    firstRecorded: '2025-01-13',
 });
 
 UsGM.push({
