@@ -9223,3 +9223,45 @@ Under Director Michael Wise, the Department urged residents never to give person
     country: 'US',
     state: 'SC',
 });
+
+UsNS.push({
+    name: 'Rhode Island Secretary of State Annual Report Filing Fee Scam',
+    slug: 'rhode-island-secretary-of-state-annual-report-filing-fee-scam',
+    description: `Rhode Island Secretary of State Gregg M. Amore warned business owners in February 2026 of an uptick in deceptive mailings, some designed to look like they came from the Department of State itself, charging inflated fees to "assist" with the state's routine annual report filing. Amore noted the real filing period runs February 1 to May 1, with a genuine state fee of only $50 for businesses and $20 for nonprofits, far below what the solicitations charge.
+
+"Filing an annual report with our office is simple and straightforward — but unfortunately, we've seen an uptick in deceptive mailings and solicitations from companies offering assistance at a much higher price than you really need to pay," Amore said. Business owners are advised to file directly through the Secretary of State's own website and to be wary of any mailer implying it comes from the state itself.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Rhode Island Secretary of State'],
+    sourceUrl: 'https://www.sos.ri.gov/article?articleno=50466',
+    country: 'US',
+    state: 'RI',
+});
+
+UsNS.push({
+    name: 'Rhode Island DMV "REAL ID Canceled" Text, Email and Phone Scam',
+    slug: 'rhode-island-dmv-real-id-canceled-scam',
+    description: `The Rhode Island Division of Motor Vehicles warned residents on June 9, 2025 that a fraud campaign impersonating the DMV had expanded beyond its earlier unpaid-toll and traffic-violation pretexts to falsely claim a recipient's REAL ID credential had been revoked or flagged as fraudulent, pushing victims toward malicious links designed to harvest personal and financial information. DMV Administrator Walter "Bud" Craddock said "many states are now reporting a dramatic uptick in scam activity that is expanding from text messages to include fake emails and phone calls."
+
+The DMV stressed it never demands payment or issues threats by unsolicited text, email, or phone call, and that official DMV correspondence goes out by regular mail. Residents concerned about their REAL ID or license status were directed to verify it directly at the Online DMV Customer Portal rather than clicking any link in a message.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Rhode Island Division of Motor Vehicles'],
+    sourceUrl: 'https://dor.ri.gov/press-releases/nationwide-dmv-text-scam-expands-include-fake-real-id-cancellations-emails-and-phone',
+    country: 'US',
+    state: 'RI',
+});
+
+UsNS.push({
+    name: 'FBI Boston Sight-Unseen Rental Wire-Fraud Cases (Narragansett and Wakefield)',
+    slug: 'rhode-island-fbi-boston-sight-unseen-rental-wire-fraud',
+    description: `The FBI's Boston Division, which covers Rhode Island, announced on July 12, 2022 that Rhode Island rental and real-estate scams had produced 42 known victims with combined losses of $1,414,709, part of a 64% year-over-year jump in reported rental fraud across Massachusetts and Rhode Island. In one case, an Idaho man wired $21,756 for a year-long Narragansett rental he found on Craigslist and never saw in person; the "landlord" canceled an in-person meeting by text claiming to be in Chicago, and the actual homeowner later told him the property had never been listed for rent at all.
+
+In a second case, a University of Rhode Island student wired $1,800 for a Wakefield apartment found on Facebook Marketplace after being told he couldn't view it because the "landlord" traveled constantly, only to discover on move-in day that the address was a leasing office with no available units. FBI Boston Special Agent in Charge Joseph R. Bonavolonta said "scammers are cashing in on renters who need to act quickly for fear of missing out, and it's costing consumers thousands of dollars." The Bureau urged renters never to wire money for a property they haven't seen in person or via live video, and to be suspicious of any landlord who is conveniently always unavailable to meet.`,
+    categorySlug: 'rental-housing',
+    alertLevel: 'high',
+    sources: ['FBI Boston Division'],
+    sourceUrl: 'https://www.fbi.gov/contact-us/field-offices/boston/news/press-releases/fbi-warns-of-spike-in-rental-and-real-estate-scams',
+    country: 'US',
+    state: 'RI',
+});
