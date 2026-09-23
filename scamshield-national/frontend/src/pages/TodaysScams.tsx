@@ -77,6 +77,12 @@ export default function TodaysScams() {
   const [searchParams] = useSearchParams();
   const initialState = (searchParams.get('state') ?? '').toUpperCase();
   const [state, setState] = useState<string>(/^[A-Z]{2}$/.test(initialState) ? initialState : '');
+  // A country axis, not a state axis — same "US Only / All Countries" split
+  // as the Database page. Only meaningful without a state selected, since
+  // every state-tagged row is already US; picking a state implicitly scopes
+  // to it regardless of this toggle.
+  const [usOnly, setUsOnly] = useState(false);
+  const scope = usOnly ? 'us' : undefined;
   const {
     data: newsPages,
     isLoading,
@@ -84,7 +90,7 @@ export default function TodaysScams() {
     fetchNextPage,
     hasNextPage,
     isFetchingNextPage,
-  } = useInfiniteDailyScamNews(state || undefined);
+  } = useInfiniteDailyScamNews(state || undefined, scope);
   const news = newsPages?.pages.flat();
   const setTrigger = useInfiniteScroll(
     () => {
@@ -93,7 +99,7 @@ export default function TodaysScams() {
     Boolean(hasNextPage) && !isFetchingNextPage
   );
   const { data: stateCounts } = useDailyNewsStates();
-  const { data: total } = useDailyScamNewsCount(state || undefined);
+  const { data: total } = useDailyScamNewsCount(state || undefined, scope);
 
   // Reserve a row for every headline still to come, so the page is its full
   // height immediately rather than growing (and the scrollbar thumb shrinking
@@ -114,37 +120,65 @@ export default function TodaysScams() {
         </p>
       </BlurFade>
 
-      {/* Only offer states that actually have alerts — all 51 with most of them
-          empty would be a menu of dead ends. */}
-      {stateCounts && stateCounts.length > 0 && (
-        <div className="mt-6 flex flex-wrap items-center gap-3">
-          <label htmlFor="state-filter" className="text-sm font-medium text-slate-700">
-            Filter by state
-          </label>
-          <select
-            id="state-filter"
-            value={state}
-            onChange={(e) => setState(e.target.value)}
-            className="rounded-md border border-slate-300 px-3 py-2 text-sm"
-          >
-            <option value="">All states &amp; international</option>
-            {stateCounts.map((s) => (
-              <option key={s.state} value={s.state}>
-                {stateName(s.state)} ({s.total})
-              </option>
-            ))}
-          </select>
-          {state && (
-            <button
-              type="button"
-              onClick={() => setState('')}
-              className="text-sm font-medium text-red-700 hover:underline"
+      <div className="mt-6 flex flex-wrap items-center gap-3">
+        {/* Only offer states that actually have alerts — all 51 with most of
+            them empty would be a menu of dead ends. */}
+        {stateCounts && stateCounts.length > 0 && (
+          <>
+            <label htmlFor="state-filter" className="text-sm font-medium text-slate-700">
+              Filter by state
+            </label>
+            <select
+              id="state-filter"
+              value={state}
+              onChange={(e) => setState(e.target.value)}
+              className="rounded-md border border-slate-300 px-3 py-2 text-sm"
             >
-              Clear
-            </button>
-          )}
+              <option value="">All states &amp; international</option>
+              {stateCounts.map((s) => (
+                <option key={s.state} value={s.state}>
+                  {stateName(s.state)} ({s.total})
+                </option>
+              ))}
+            </select>
+            {state && (
+              <button
+                type="button"
+                onClick={() => setState('')}
+                className="text-sm font-medium text-red-700 hover:underline"
+              >
+                Clear
+              </button>
+            )}
+          </>
+        )}
+
+        {/* Disabled rather than hidden while a state is picked, so the toggle
+            doesn't visually jump out of the layout — a state selection is
+            already US-only regardless of this control's own value. */}
+        <div className="flex gap-1 rounded-lg bg-slate-100 p-1 w-fit">
+          <button
+            type="button"
+            disabled={Boolean(state)}
+            onClick={() => setUsOnly(true)}
+            className={`px-4 py-1.5 rounded-md text-sm font-medium transition-colors disabled:opacity-50 disabled:cursor-not-allowed ${
+              usOnly && !state ? 'bg-white text-slate-900 shadow-sm' : 'text-slate-600 hover:text-slate-900'
+            }`}
+          >
+            United States Only
+          </button>
+          <button
+            type="button"
+            disabled={Boolean(state)}
+            onClick={() => setUsOnly(false)}
+            className={`px-4 py-1.5 rounded-md text-sm font-medium transition-colors disabled:opacity-50 disabled:cursor-not-allowed ${
+              !usOnly || state ? 'bg-white text-slate-900 shadow-sm' : 'text-slate-600 hover:text-slate-900'
+            }`}
+          >
+            All Countries
+          </button>
         </div>
-      )}
+      </div>
 
       {selected && (
         <p className="mt-3 text-sm text-slate-600">
