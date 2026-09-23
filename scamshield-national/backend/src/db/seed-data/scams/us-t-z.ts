@@ -5465,3 +5465,45 @@ After the target signs a fraudulent "contract," the scammers request sensitive p
     country: 'US',
     state: 'WI',
 });
+
+UsTZ.push({
+    name: 'FBI Denver Reports $32 Million Romance Scam Losses Across Colorado and Wyoming',
+    slug: 'fbi-denver-colorado-wyoming-romance-scam-losses',
+    description: `In a February 2022 press release, the FBI's Denver Field Office — whose district covers Wyoming — reported that online romance scams cost more than 200 victims in Colorado and Wyoming over $32 million in just four months, from October 2021 through January 2022. The bureau said roughly 60% of victims were over age 60, with scammers meeting targets through dating apps, chat rooms, and social media before fabricating an overseas job or military deployment to avoid ever meeting in person while gradually escalating requests for money.
+
+The FBI's release stated that romance scams "account for one of the highest amounts of financial losses as compared to other crimes facilitated by the internet," and urged anyone targeted to stop sending money immediately and file a report at IC3.gov. The bureau also advised being skeptical of any online relationship that moves quickly toward professions of love followed by a request for money, and independently verifying a partner's identity before sending anything.`,
+    categorySlug: 'romance-scams',
+    alertLevel: 'high',
+    sources: ['FBI Denver Field Office', 'Denver7'],
+    sourceUrl: 'https://www.denver7.com/news/local-news/fbi-over-32-million-lost-between-200-victims-amid-romance-scam-in-colorado-wyoming',
+    country: 'US',
+    state: 'WY',
+});
+
+UsTZ.push({
+    name: 'Wyoming Medicaid Callers Pushing Medical Equipment Sales',
+    slug: 'wyoming-medicaid-medical-equipment-sales-call-scam',
+    description: `The Wyoming Department of Health warned in a February 2024 alert that scammers were calling Wyoming Medicaid clients, falsely claiming to represent Medicaid or another WDH program, and aggressively pushing the sale of medical equipment while demanding Medicaid ID numbers, Social Security numbers, and banking or credit card information. Lee Grossman, the state Medicaid agent and a senior administrator in the Division of Healthcare Financing, said plainly: "If someone claiming to represent Wyoming Medicaid or another Wyoming Department of Health program pushes for money and tries to sell you something, they are not a real representative of our department."
+
+WDH stressed that legitimate department representatives never request payment, never ask for a Medicaid or Social Security number over an unsolicited call, and never attempt to sell equipment or services on behalf of the state. Residents who receive such a call were urged to hang up and contact the Department directly using a publicly listed number rather than one the caller provides.`,
+    categorySlug: 'medicare-health-plans',
+    alertLevel: 'medium',
+    sources: ['Wyoming Department of Health'],
+    sourceUrl: 'https://health.wyo.gov/another-scam-targets-wyoming-medicaid-clients/',
+    country: 'US',
+    state: 'WY',
+});
+
+UsTZ.push({
+    name: 'Wyoming Unclaimed Property "Finder" Fee Scam',
+    slug: 'wyoming-unclaimed-property-finder-fee-scam',
+    description: `The Wyoming State Treasurer's Office has warned residents about "finders" or locator services that charge a fee — sometimes as much as 50% of the funds recovered — to help claim unclaimed property that the state will return for free, and who sometimes misrepresent themselves as affiliated with the Treasurer's Office itself. Then-Treasurer Mark Gordon said "scams continue to surface in the area of unclaimed property to fleece money from unsuspecting Wyoming residents," warning that handing personal financial information to these operators can let criminals "rob your account(s) of your hard-earned money and possibly commit identity theft."
+
+The Treasurer's Office stresses that Wyoming charges no fee to search for or claim unclaimed property and returns 100% of recovered funds directly to their rightful owner through the state's own wywindfall.gov portal or by calling 307-777-5590 — matching a pattern already documented in this database for other states' unclaimed-property finder-fee schemes.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Wyoming State Treasurer\'s Office', 'WyomingNewsNow'],
+    sourceUrl: 'https://www.wyomingnewsnow.tv/news/wyoming-tresurers-office-warns-of-a-new-scam/article_7deeca72-024c-5f0b-a705-be489917dc31.html',
+    country: 'US',
+    state: 'WY',
+});

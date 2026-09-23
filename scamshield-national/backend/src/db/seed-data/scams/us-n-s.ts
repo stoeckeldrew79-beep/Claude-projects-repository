@@ -9207,3 +9207,45 @@ Victims who pay the added fees never receive an animal. The AG's office noted ma
     country: 'US',
     state: 'NH',
 });
+
+UsNS.push({
+    name: 'Hurricane Helene Storm-Chaser Contractor and FEMA Impersonation Fraud',
+    slug: 'south-carolina-hurricane-helene-storm-chaser-fema-impersonation-fraud',
+    description: `In the weeks after Hurricane Helene struck the South Carolina Upstate in late September 2024, out-of-town "storm chaser" contractors descended on damaged neighborhoods offering suspiciously cheap repairs and demanding full payment upfront before any work began. Some companies falsely claimed to be certified by FEMA, which does not certify contractors, while other callers posed as utility workers demanding fees to restore storm-disrupted power.
+
+The South Carolina Department of Consumer Affairs and the state Department of Insurance jointly warned residents to be on guard. Consumer Affairs Director Carri Lybarker told homeowners to "never pay cash upfront for anything" and to be wary of anyone requesting a Social Security number or payment to process government disaster assistance, since FEMA aid itself is always free to apply for.`,
+    categorySlug: 'home-improvement-solar',
+    alertLevel: 'medium',
+    sources: ['South Carolina Department of Consumer Affairs', 'South Carolina Department of Insurance', 'WIS-TV'],
+    sourceUrl: 'https://www.wistv.com/2024/10/08/homeowners-looking-help-after-helene-are-targets-scammers-state-agencies-say/',
+    country: 'US',
+    state: 'SC',
+});
+
+UsNS.push({
+    name: 'Spartanburg County Jury Duty Bitcoin-Kiosk Impersonation Scam',
+    slug: 'spartanburg-county-jury-duty-bitcoin-kiosk-scam',
+    description: `Beginning around May 22, 2024, callers impersonating Spartanburg County law enforcement — citing fake badge numbers and case numbers to sound official — told residents they had missed jury duty and would be arrested unless they paid a fine immediately. The callers directed victims to withdraw cash and deposit it into bitcoin ATM kiosks, promising reimbursement once the victim "reported" in person, a promise that was never kept. The Spartanburg County Sheriff's Office documented individual losses of $7,200 and $30,200 in specific cases and said the scheme cost county residents approximately $1.4 million in 2024 alone.
+
+The Sheriff's Office stated flatly that it "will never ask the citizens of Spartanburg County to pay money to the Sheriff's Office for missing jury duty," and warned that because the calls are sophisticated and often originate overseas, recovering money already sent is highly unlikely. Residents who receive such a call are advised to hang up and contact the Sheriff's Office directly using a publicly listed number rather than one provided by the caller.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Spartanburg County Sheriff\'s Office', 'WLOS/Fox Carolina'],
+    sourceUrl: 'https://wlos.com/news/local/jury-duty-scam-calls-spartanburg-county-sheriffs-office-upstate-south-carolina-million-thousands-lost-victims',
+    country: 'US',
+    state: 'SC',
+});
+
+UsNS.push({
+    name: 'SC Department of Insurance Door-to-Door Impersonator Scam',
+    slug: 'sc-department-of-insurance-door-to-door-impersonator-scam',
+    description: `On September 22, 2025, the South Carolina Department of Insurance issued a formal consumer alert warning that individuals were going door to door falsely claiming to represent the Department. SC DOI is a state regulatory agency that does not conduct unsolicited home visits and does not itself issue or sell insurance products to consumers, making any such visit an immediate red flag.
+
+Under Director Michael Wise, the Department urged residents never to give personal or financial information to anyone at their door claiming to represent SC DOI, and to report such visits to local law enforcement. The alert directed consumers with genuine insurance questions or complaints to the Department's own Office of Consumer Services instead of engaging with an unsolicited caller at their door.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['South Carolina Department of Insurance'],
+    sourceUrl: 'https://doi.sc.gov/DocumentCenter/View/15103/SC-Department-of-Insurance-Issues-Scam-Alert',
+    country: 'US',
+    state: 'SC',
+});
