@@ -9456,3 +9456,16 @@ SHIP & SMP Administrator Jonathan Burlison said "fraudulent billing, especially 
     country: 'US',
     state: 'NE',
 });
+
+UsNS.push({
+    name: "New Mexico Taxation and Revenue Department Refund Text Scam",
+    slug: "new-mexico-taxation-and-revenue-department-refund-text-scam",
+    description:
+      "Scammers are sending text messages to New Mexicans that pretend to come from the state Taxation and Revenue Department and claim the recipient is owed a state tax refund. The New Mexico Taxation and Revenue Department issued a formal warning about these messages on October 16, 2025, and local news outlets reported that residents across the state were receiving them. The exact links and landing pages used in the texts have not been documented here, but state tax agencies do not initiate refund contact by text message. Do not tap links in unexpected refund texts and never enter Social Security numbers, bank account details, or card numbers in response to one. If you think you may actually be owed a refund, check your status directly through the official Taxation and Revenue Department website or by calling the department.",
+    categorySlug: "tax-scams",
+    alertLevel: "high",
+    sources: ["New Mexico Taxation and Revenue Department press release, 'New Mexico Taxation and Revenue Department warns against scams,' October 16, 2025","KVIA, 'New Mexicans getting fake tax refund texts,' October 16, 2025"],
+    sourceUrl: "https://www.tax.newmexico.gov/wp-content/uploads/2025/10/2025.10.16_New-Mexico-Taxation-and-Revenue-Department-warns-against-scams.pdf",
+    country: "US",
+    state: "NM",
+});

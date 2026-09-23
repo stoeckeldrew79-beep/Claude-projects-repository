@@ -10071,3 +10071,16 @@ UsAF.push({
     country: "US",
     state: "TX",
 });
+
+UsAF.push({
+    name: "Fake New Mexico Motor Vehicle Division Phishing Websites",
+    slug: "fake-new-mexico-motor-vehicle-division-phishing-websites",
+    description:
+      "Fraudulent websites have been built to imitate the official New Mexico Motor Vehicle Division site, targeting residents who are searching online for driver license, registration, and other vehicle services. The MVD, a division of the New Mexico Taxation and Revenue Department, published a warning about these phishing sites on April 1, 2026, following earlier MVD alerts about text-message scams and ongoing fraud. The specific fake domains, the fees they charge, and the personal data they harvest are not documented in this entry, so treat any unfamiliar MVD-branded site with caution. Reach MVD services only by typing the official state web address yourself rather than clicking search ads or links sent to you. If you already entered payment or identity information on a lookalike site, contact your bank immediately and report it to the New Mexico Motor Vehicle Division.",
+    categorySlug: "government-impersonation",
+    alertLevel: "medium",
+    sources: ["New Mexico Motor Vehicle Division press release, 'New Mexico Motor Vehicle Division warns about phishing websites,' April 1, 2026","New Mexico Motor Vehicle Division press release, 'New Mexico Motor Vehicle Division warns against text scams,' February 2, 2026","New Mexico Motor Vehicle Division press release on continuing scams and fraud, June 12, 2025"],
+    sourceUrl: "https://www.mvd.newmexico.gov/wp-content/uploads/2026/04/20260401_New-Mexico-Motor-Vehicle-Division-warns-about-phishing-websites.pdf",
+    country: "US",
+    state: "NM",
+});
