@@ -9623,3 +9623,16 @@ HPD said the case reflects a broader pattern of sweepstakes and lottery fraud in
     isHistorical: true,
     firstRecorded: '2025-01-13',
 });
+
+UsGM.push({
+    name: "Kentucky Department of Revenue Impersonation Letters Threatening Property Seizure",
+    slug: "kentucky-department-of-revenue-impersonation-letters",
+    description:
+      "Scammers mail letters that appear to be on Kentucky Department of Revenue letterhead claiming you owe back state taxes. The letters demand that the supposed debt be resolved immediately over the phone using a number the scammers control, and threaten that the state will seize your property if you do not cooperate right away. The real Department of Revenue follows a prescribed, escalating written process with taxpayers who may owe unpaid taxes and does not open with an immediate seizure threat or demand phone payment. The Kentucky Attorney General's office also circulated a consumer alert about these fake letters. If you get a letter like this, do not call the number printed on it; contact the Department of Revenue's Division of Collections directly using the phone number listed on the official revenue.ky.gov website to check whether you actually owe anything.",
+    categorySlug: "government-impersonation",
+    alertLevel: "high",
+    sources: ["Kentucky Department of Revenue official warning page","Kentucky Attorney General Consumer Alert bulletin, 03/29/2019: \"Tax Mail Scam Threatens Seizure of Property\""],
+    sourceUrl: "https://revenue.ky.gov/News/Pages/WarningfromDORRegardingFakeThreateningLetters.aspx",
+    country: "US",
+    state: "KY",
+});

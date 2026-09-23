@@ -9291,3 +9291,16 @@ In a second case, a University of Rhode Island student wired $1,800 for a Wakefi
     country: 'US',
     state: 'RI',
 });
+
+UsNS.push({
+    name: "Owensboro and Daviess County Post-Hail-Storm Repair Scams",
+    slug: "owensboro-daviess-county-post-hail-storm-repair-scams",
+    description:
+      "Kentucky Attorney General Russell Coleman issued a consumer alert on March 20, 2025 warning Owensboro and Daviess County residents about scams following a severe storm that damaged homes, properties, and vehicles across the area. The damage was extensive enough to close schools for repairs and knock out rooftop HVAC systems at the Daviess County Detention Center. Local insurance agents reported more than 10,000 claims filed, creating a large pool of homeowners holding insurance payouts and urgently looking for contractors, which is exactly the condition fraudulent repair operators target. Storm-chasing contractors typically appear unsolicited, press for large up-front deposits, and may disappear without doing the work. Before hiring anyone, verify licensing and local references, never pay a large deposit in cash or by wire, get the full scope and price in writing, and report suspicious solicitations to the Kentucky Attorney General's consumer protection office.",
+    categorySlug: "home-improvement-solar",
+    alertLevel: "medium",
+    sources: ["Kentucky Office of the Attorney General Consumer Alert, March 20, 2025"],
+    sourceUrl: "https://www.kentucky.gov/Pages/Activity-stream.aspx?n=AttorneyGeneral&prId=1733",
+    country: "US",
+    state: "KY",
+});
