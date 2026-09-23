@@ -8460,10 +8460,9 @@ If you or a family member are billed for air ambulance transport beyond your pla
     author: 'ScamShield Editorial',
     tags: ['guide', 'doordash-2025-data-breach'],
     sourceUrl: 'https://help.doordash.com/en-us/consumers/article/our-response-to-a-recent-cybersecurity-incident',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Delivery_bike.jpg?width=1200',
-    coverImageCredit: 'Photo: Gerfriedc (CC BY-SA 3.0)',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/DoorDash_Logo.svg?width=1200',
+    coverImageCredit: 'DoorDash logo (PD-textlogo, via Wikimedia Commons)',
     coverImagePosition: 50,
-    // representative photo — replace with an exact match if found
     body: `On October 25, 2025, DoorDash's security team discovered that an unauthorized outsider had gotten inside its internal systems — not by breaking through a firewall or exploiting a software flaw, but by convincing a single employee to hand over access. According to the notice DoorDash later posted for affected customers, the employee "was recently targeted in a social engineering scam," the same broad category of attack — a scammer posing as IT support, a manager, or a trusted vendor to talk someone into granting access or revealing a login — that has been used against far larger targets in recent years. Once DoorDash's security team identified the intrusion, it says it revoked the unauthorized access, brought in an outside cybersecurity firm, and reported the incident to law enforcement.
 
 The information taken varied by person but was drawn from ordinary account and delivery records: names, email addresses, phone numbers, and physical or delivery addresses belonging to a mix of customers, delivery workers ("Dashers"), and merchants. DoorDash has been explicit about what wasn't touched — the company says no Social Security numbers, other government-issued ID numbers, driver's license information, or bank and payment card details were accessed. DoorDash began notifying affected users on November 13, 2025, and confirmed the breach publicly in the days that followed, but as of this writing has not disclosed a specific total number of people affected, saying only that the exposure reached customers, Dashers, and merchants across the United States, Canada, Australia, and New Zealand.

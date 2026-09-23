@@ -1640,10 +1640,9 @@ If you've received a notice connecting you to the Young Consulting breach — wh
     author: `ScamShield Editorial`,
     tags: [`guide`, `unfi-2025-cyberattack`],
     sourceUrl: `https://www.cybersecuritydive.com/news/unfi-cyberattack-reduce-quarterly-earnings/751849/`,
-    coverImage: `https://commons.wikimedia.org/wiki/Special:FilePath/Providence_Rhode_Island_skyline_2017.jpg?width=1200`,
-    coverImageCredit: `Photo: Kenneth C. Zirkel, CC BY-SA 4.0, via Wikimedia Commons — Providence, Rhode Island, where United Natural Foods is headquartered`,
+    coverImage: `https://commons.wikimedia.org/wiki/Special:FilePath/Whole_Foods_Market_exterior,_1010_Park_Place,_San_Mateo_1.JPG?width=1200`,
+    coverImageCredit: `Photo: BrokenSphere, CC BY-SA 3.0, via Wikimedia Commons — a Whole Foods Market storefront, the retailer UNFI's cyberattack left with empty shelves`,
     coverImagePosition: 50,
-    // representative photo — replace with an exact match if found
     body: `Most shoppers have never heard of United Natural Foods, Inc. (UNFI), even though a large share of them rely on it every time they check out at a grocery store. UNFI is North America's largest publicly traded grocery distributor, the company that actually moves produce, dairy, frozen goods, and freshly prepared foods from suppliers into the back rooms of stores — most visibly as the primary distributor for Amazon-owned Whole Foods Market, but also for thousands of independent grocers and food co-ops across the country. That invisible, behind-the-scenes role is exactly what made a cyberattack on UNFI's own computer systems turn into a very visible problem for ordinary shoppers within days.
 
 UNFI detected the intrusion on or around June 5, 2025, and had to take some of its systems offline to contain it, forcing the company back onto manual order-processing procedures while it investigated and rebuilt. Because so much of the modern grocery supply chain runs on automated ordering and inventory systems, that shutdown rippled outward almost immediately: Whole Foods locations and independent grocery co-ops across the country reported empty shelves and shortages of produce, dairy, frozen items, and freshly prepared foods as deliveries slowed or failed to arrive on schedule. It took roughly ten days for UNFI to fully restore its core systems and resume normal operations, an unusually long outage for a company operating on the thin margins and constant restocking cycle of grocery distribution.
@@ -1974,10 +1973,9 @@ If you're a current or former Wojeski & Company client, or you received a notifi
     slug: `taxact-connecticut-ag-tracking-technology-settlement-guide`,
     author: `ScamShield Editorial`,
     tags: [`guide`, `taxact-connecticut-ag-tracking-technology-settlement`],
-    coverImage: `https://commons.wikimedia.org/wiki/Special:FilePath/Cedar_Rapids_Skyline_(2022).jpg?width=1200`,
-    coverImageCredit: `Photo: WeaponizingArchitecture, CC BY-SA 4.0, via Wikimedia Commons — the Cedar Rapids, Iowa skyline; TaxAct is headquartered in Cedar Rapids`,
+    coverImage: `https://commons.wikimedia.org/wiki/Special:FilePath/Taxact-lowres-rgb.png?width=1200`,
+    coverImageCredit: `TaxAct logo, CC BY-SA 4.0, via Wikimedia Commons`,
     coverImagePosition: 50,
-    // representative photo — the city where TaxAct is headquartered, not the company's own office; replace with an exact match if found
     sourceUrl: `https://portal.ct.gov/ag/press-releases/2026-press-releases/attorney-general-tong-announces-settlement-with-taxact`,
     body: `Connecticut Attorney General William Tong announced a $275,000 settlement on August 19, 2026 with TaxAct, the Cedar Rapids, Iowa-based online tax preparation company, resolving an investigation into what the company's own software was quietly telling Meta and Google about the people using it to file their taxes. The case doesn't involve a hacker or a stolen password — it involves code TaxAct itself installed on its own website, and what that code sent to outside advertising companies while customers believed they were working privately through a secure tax return.
 
@@ -2743,6 +2741,9 @@ GuidesTZ.push({
   slug: "scam-victim-tax-liability-stolen-funds-guide",
   author: "ScamShield Editorial",
   tags: ["guide", "scam-victim-tax-liability", "tax-relief-for-fraud-victims-act"],
+  coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Form_1040,_2005.jpg?width=1200",
+  coverImageCredit: "IRS Form 1040 (public domain, U.S. federal government work)",
+  coverImagePosition: 50,
   sourceUrl: "https://www.aarp.org/money/scams-fraud/victims-pay-taxes-on-stolen-money/",
   body: `Losing money to a scam is only the first bill. For a growing number of victims, the IRS sends a second one: a tax bill on the very money a fraudster stole from them. It sounds backward, but it follows directly from how the tax code treats withdrawals and losses. If a scam victim pulled money out of a traditional 401(k) or IRA to send to a fraudster — a common instruction in romance scams and "pig butchering" investment schemes, where victims are coached to move retirement savings into a fake trading platform — that withdrawal counts as ordinary taxable income the moment it left the account, regardless of what happened to it afterward. A victim under 59½ also owes the standard 10% early-withdrawal penalty on top of income tax, and because the 2017 Tax Cuts and Jobs Act suspended the personal theft-loss deduction for anything other than a federally declared disaster — a limitation a 2025 tax law made permanent rather than letting it expire as originally scheduled — most victims have no way to write any of that back off, even though every dollar is gone.
 
