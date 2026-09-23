@@ -21847,3 +21847,42 @@ International.push({
     sourceUrl: "https://www.fr.ch/de/sjsd/pol/news/betrug-durch-falsche-polizisten-neuer-hoechststand-im-kanton-freiburg-im-november",
     country: "CH",
 });
+
+International.push({
+  name: 'Fake "Belpochta Registered Letter" SMS-Code and Fake-Police Extraction Scam',
+  slug: 'belarus-belpochta-registered-letter-fake-police-scam',
+  description: `Fraudsters call victims via Viber, WhatsApp, or Telegram posing as Belpochta (the Belarusian national postal service) employees, claiming a registered letter has arrived and asking the victim to read back an SMS "confirmation code." A second fraudster then joins, impersonating a law-enforcement officer, and falsely claims the victim's personal data was compromised and is being used for money-laundering transfers, pressuring the victim into taking out bank loans and either handing cash to a "courier" or hiding it at a designated drop location as part of a supposed police "special operation."
+
+Documented victims include a 33-year-old woman who took out loans totaling 44,000 rubles plus her savings, and a 39-year-old Minsk-district resident who lost 58,000 rubles in borrowed funds. Authorities note that Belpochta never requests SMS codes via messaging apps and that police never conduct financial "special operations" over Telegram.`,
+  categorySlug: 'government-impersonation',
+  alertLevel: 'high',
+  sources: ['mediabrest.by'],
+  sourceUrl: 'https://mediabrest.by/news/obschestvo/novaya-volna-telefonnogo-moshennichestva-v-belarusi-kak-ne-popastsya-na-ulovku-s-zakaznym-pismom',
+  country: 'BY',
+});
+
+International.push({
+  name: 'Fake "Work in Europe" Job-Offer Scam Targeting Belarusian Labor Migrants',
+  slug: 'belarus-fake-work-in-europe-job-offer-scam',
+  description: `Fraudsters post fabricated job listings on social media targeting Belarusians seeking work abroad — one documented case advertised a warehouse position in Hamburg, Germany, paying €2,900/month. A victim identified as Olga was contacted by a "personal agent" over WhatsApp who offered to arrange her visa, employment contract, accommodation, and airport pickup; after receiving a contract riddled with grammatical errors, she was told to wire roughly 1,600 rubles to the agent's personal bank card to cover a hostel booking.
+
+Once paid, the agent stopped responding, then resurfaced only to demand further "hostel" fees before cutting contact entirely. Fake-but-polished social media profiles, payment requests routed to personal cards instead of employer accounts, and disappearing "agents" are the pattern's hallmarks — a scam type Belarusian police have separately warned about given the country's significant labor emigration to the EU.`,
+  categorySlug: 'employment-scams',
+  alertLevel: 'medium',
+  sources: ['newgrodno.by'],
+  sourceUrl: 'https://newgrodno.by/society/kak-moshenniki-soblaznyayut-belorusov-rabotoj-v-evrope/',
+  country: 'BY',
+});
+
+International.push({
+  name: 'Belarus Fake Minsk Apartment Rental "Advance Payment" Scam',
+  slug: 'belarus-minsk-fake-rental-advance-payment-scam',
+  description: `Scammers post below-market rental listings for Minsk apartments (around 850 rubles per month) on Threads, then contact interested respondents using an alias — one documented persona was "Svetlana Velichko" — claiming to be an owner living elsewhere who needs a 300-ruble "advance payment" before removing the listing and confirming the tenant. Victims received identical, templated messages and listing photos lifted from real properties that didn't match the actual building shown.
+
+Callers who tried to verify by phone reported being met with abuse from an operator claiming Ukrainian origin; one prior victim noted the scammers "were located in Poland, and nobody could find them here." The pattern was compiled from multiple victim reports circulating in June 2026.`,
+  categorySlug: 'rental-housing',
+  alertLevel: 'medium',
+  sources: ['Zerkalo.io'],
+  sourceUrl: 'https://news.zerkalo.io/economics/129158.html',
+  country: 'BY',
+});
