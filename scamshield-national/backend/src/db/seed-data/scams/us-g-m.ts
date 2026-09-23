@@ -9603,3 +9603,45 @@ A second, near-identical FEMA fraud alert followed on May 1, 2025 after addition
     country: 'US',
     state: 'KY',
 });
+
+UsGM.push({
+    name: 'Overland Park Men\'s $4 Million Retail-Arbitrage Investment Fraud',
+    slug: 'kansas-overland-park-retail-arbitrage-investment-fraud',
+    description: `In November 2025, a federal grand jury indicted Baha Ibrahim, 21, and Jawad Albadawi, 21, both of Overland Park, on wire fraud conspiracy, nine counts of wire fraud, money laundering conspiracy, six counts of money laundering, and seven counts of transacting in criminal proceeds. Prosecutors say that from March to August 2024 the pair raised roughly $4 million from investors through companies including BMIU LLC, Prestige Wholesale LLC, and Meta Wholesale, promising to buy items like Stanley cups and Lululemon bags wholesale and resell them individually on Amazon for high returns.
+
+Instead, they allegedly spent investor money on luxury vehicles, over $1 million in cryptocurrency, more than $180,000 in travel to Dubai, Greece, and Las Vegas, and over $100,000 in sports betting. They made their initial court appearance November 24, 2025 before U.S. Magistrate Judge Teresa J. James in the District of Kansas.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'high',
+    sources: ['WIBW-Topeka', 'Johnson County Post'],
+    sourceUrl: 'https://www.wibw.com/2025/11/24/two-overland-park-men-indicted-connection-with-4-million-investment-fraud-scheme/',
+    country: 'US',
+    state: 'KS',
+});
+
+UsGM.push({
+    name: '"Kansas City FOP #1 Fund" Fake Law-Enforcement Charity',
+    slug: 'kansas-city-fop-fund-fake-law-enforcement-charity',
+    description: `Between November 1, 2020 and February 8, 2021, William Storms III of Kansas City, Kansas ran a bogus charity called "Kansas City FOP #1 Fund," falsely presenting it as affiliated with the Fraternal Order of Police and soliciting donations to benefit law enforcement, even though it had no connection to any real FOP lodge or law-enforcement organization. Kansas Attorney General Derek Schmidt's office sued, and on May 12, 2022 Wyandotte County District Judge William Mahoney approved a consent judgment banning Storms and his organization from operating as a charity in Kansas, ordering them to surrender the roughly $10,000 they had collected to the legitimate Bonner Springs Fraternal Order of Police Lodge No. 65, and to reimburse the AG's office's investigation costs.
+
+Schmidt noted that most charities soliciting donations in Kansas are required to register with the Attorney General, and urged donors to verify a charity's legitimacy before giving.`,
+    categorySlug: 'charity-scams',
+    alertLevel: 'medium',
+    sources: ['Kansas Attorney General'],
+    sourceUrl: 'https://www.kctv5.com/2022/05/20/kansas-man-who-fabricated-law-enforcement-charity-must-repay-money-collected/',
+    country: 'US',
+    state: 'KS',
+});
+
+UsGM.push({
+    name: 'Kansas "USP" Fake Package Delivery Smishing Scam',
+    slug: 'kansas-usp-fake-package-delivery-smishing-scam',
+    description: `Police departments across Kansas, including the Garden City Police Department and the Andale Police Department, warned residents about text messages impersonating USPS, UPS, or a fake "United States Mail Service" claiming a package delivery had been suspended because the address didn't match the zip code — one version read "USP – Your package delivery has been suspended because your delivery address does not match your zip code" and included a fake tracking number and a "Check Here" button. The messages direct recipients to a link designed to harvest personal and financial information under the guise of confirming a delivery address.
+
+Andale Police Chief Mark Cook warned residents directly: "If you get a text message like this, they are scammers. Do NOT reply or give them any information or money." Officials noted that USPS does not send unsolicited delivery texts without the customer first requesting tracking updates.`,
+    categorySlug: 'package-delivery-scams',
+    alertLevel: 'medium',
+    sources: ['Andale Police Department', 'Garden City Police Department', 'KSN-Wichita'],
+    sourceUrl: 'https://www.ksn.com/news/crime/message-about-a-package-could-be-a-scam-police-say/amp/',
+    country: 'US',
+    state: 'KS',
+});
