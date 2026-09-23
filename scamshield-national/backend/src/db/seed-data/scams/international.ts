@@ -21925,3 +21925,42 @@ The regulator urged the public to verify any investment firm's license on the Ce
   sourceUrl: 'https://www.panorama.am/am/news/2026/09/18/ԿԲ-նախազգուշացում/3169092',
   country: 'AM',
 });
+
+International.push({
+  name: 'Fake Jobs and IDP Housing-Compensation Advance-Fee Fraud (Kryvyi Rih)',
+  slug: 'ukraine-kryvyi-rih-fake-compensation-vpo-scam',
+  description: `Two women in Kryvyi Rih ran a multi-stage fraud from 2023 to 2025: they posted fake job listings online to harvest applicants' personal and financial data, then called victims back impersonating CNAP (administrative service center) staff, Diia officials, or Pension Fund employees. They specifically targeted internally displaced persons (IDPs) whose homes had been destroyed by Russian forces, offering to expedite cash compensation for the destroyed housing or supposed unpaid back wages — but only after the victim first paid a "mandatory tax," duty, or administrative fee to unlock the payout, which of course never arrived.
+
+The Dnipropetrovsk Regional Prosecutor's Office and Cyber Police documented at least seven victims defrauded of nearly 2 million hryvnia and notified the two suspects of charges for group fraud in a particularly large amount, carrying 3-8 years imprisonment.`,
+  categorySlug: 'public-benefits-fraud',
+  alertLevel: 'high',
+  sources: ['Dnipropetrovsk Regional Prosecutor\'s Office', 'Cyber Police of Ukraine'],
+  sourceUrl: 'https://1kr.ua/ua/news-112245.html',
+  country: 'UA',
+});
+
+International.push({
+  name: 'Fake "Wanted for Draft Evasion" TCC Impersonation Property Theft (Kyiv)',
+  slug: 'ukraine-tcc-impersonation-property-theft-kyiv',
+  description: `A 44-year-old Kyiv-region man organized a scheme in which a 38-year-old accomplice posed as an employee of a Territorial Recruitment Center (TCC), Ukraine's military draft office, and called a property owner to falsely tell him he had been declared wanted for violating military-registration rules and that the state was about to confiscate his assets. Under that pressure, the pair convinced the victim to "temporarily" sign his Kyiv apartment and a house-and-land plot over to people they controlled, supposedly to shield the property from seizure — the criminals then immediately sold both properties, pocketing roughly 5.6 million hryvnia.
+
+Kyiv City Police and the Kyiv City Prosecutor's Office charged both men under Article 190 Part 5 of Ukraine's Criminal Code (group fraud in a particularly large amount), which carries up to 12 years in prison with asset forfeiture; the case was reported June 21, 2024. It illustrates how wartime mobilization fear is being weaponized as a pretext for real-estate theft.`,
+  categorySlug: 'government-impersonation',
+  alertLevel: 'high',
+  sources: ['Kyiv City Police', 'Kyiv City Prosecutor\'s Office'],
+  sourceUrl: 'https://sport.znaj.ua/550082-zalyakali-rozshukom-tck-i-vidibrali-mayno-hto-mozhe-stati-zhertvoyu',
+  country: 'UA',
+});
+
+International.push({
+  name: 'Fake "Fast-Track" MVS Service-Center Queue Fee Scam',
+  slug: 'ukraine-mvs-service-center-fast-track-queue-scam',
+  description: `Ukraine's Ministry of Internal Affairs (MVS) Main Service Center, working with the Cyber Police, warned on May 27, 2026 about scammers impersonating MVS service-center staff who call or message citizens waiting for services such as ID documents, offering to "fast-track" their registration in the electronic queue for a fee, sometimes routing victims through fake websites or chatbots dressed up to look like official government portals.
+
+The MVS stated flatly that queue registration is completely free and available only through its own verified official channels, so any paid "expediting" offer is fraudulent regardless of how official it sounds.`,
+  categorySlug: 'government-impersonation',
+  alertLevel: 'medium',
+  sources: ['Ministry of Internal Affairs of Ukraine (MVS)', 'Cyber Police of Ukraine'],
+  sourceUrl: 'https://ua.news/en/ukraine/shakhrayi-maskuiutsia-pid-pratsivnikiv-servisnikh-tsentriv-mvs-dlia-vimaniuvannia-groshei',
+  country: 'UA',
+});
