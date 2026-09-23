@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { useCategoryTrends } from '../hooks/useCategoryTrends';
 import { CategoryTrend } from '../services/trends';
+import { countryName } from '../utils/countries';
 
 // Real report-volume comparison (last 30 days vs. the 30 days before),
 // computed directly from the scams table — not a forecast of specific
@@ -20,8 +21,8 @@ function formatDelta(trend: CategoryTrend): { label: string; tone: 'up' | 'down'
   return { label: `${pct > 0 ? '+' : ''}${pct}% vs. prior 30 days`, tone: pct > 0 ? 'up' : 'down' };
 }
 
-export function TrendWatch() {
-  const { data: trends, isLoading, isError } = useCategoryTrends();
+export function TrendWatch({ country }: { country?: string } = {}) {
+  const { data: trends, isLoading, isError } = useCategoryTrends(country);
   const [tableView, setTableView] = useState(false);
   const [hovered, setHovered] = useState<string | null>(null);
 
@@ -49,8 +50,8 @@ export function TrendWatch() {
             Trend Watch
           </h2>
           <p className="mt-1 text-sm" style={{ color: 'var(--text-secondary)' }}>
-            Real report volume by category, last 30 days vs. the 30 days before — not a prediction of specific
-            future scams, just what's actually being reported right now.
+            Real report volume by category, last 30 days vs. the 30 days before, {country ? countryName(country) : 'worldwide'}{' '}
+            — not a prediction of specific future scams, just what's actually being reported right now.
           </p>
         </div>
         {trends && totalReports >= MIN_TOTAL_REPORTS_FOR_CHART && (

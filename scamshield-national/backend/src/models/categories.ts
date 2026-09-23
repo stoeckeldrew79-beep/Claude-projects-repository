@@ -40,8 +40,14 @@ export interface CategoryTrend {
 // the 30 days before it. This is pattern analysis over recorded report
 // counts, not a forecast of specific future scams; the frontend must
 // label it accordingly.
-export async function categoryReportTrends(): Promise<CategoryTrend[]> {
-  const { rows } = await pool.query(`
+// country, when given, narrows the whole comparison to that country — both
+// the "last 30 days" and "prior 30 days" sides — rather than just the
+// visible bars, so a filtered Trend Watch reads as that country's own
+// volume and trend, not the global trend re-labeled. $1::text IS NULL lets
+// one query serve both the filtered and unfiltered case.
+export async function categoryReportTrends(country?: string): Promise<CategoryTrend[]> {
+  const { rows } = await pool.query(
+    `
     SELECT
       c.id AS category_id,
       c.name,
@@ -53,10 +59,13 @@ export async function categoryReportTrends(): Promise<CategoryTrend[]> {
       ) AS count_prior_30d
     FROM categories c
     JOIN scams s ON s.category_id = c.id AND s.is_active = true AND s.is_historical = false
+    WHERE ($1::text IS NULL OR s.country = $1)
     GROUP BY c.id, c.name, c.slug
     HAVING COUNT(*) FILTER (WHERE s.created_at >= NOW() - INTERVAL '60 days') > 0
     ORDER BY count_last_30d DESC, c.name ASC
-  `);
+  `,
+    [country ?? null]
+  );
   return rows.map((r) => ({
     ...r,
     count_last_30d: Number(r.count_last_30d),
