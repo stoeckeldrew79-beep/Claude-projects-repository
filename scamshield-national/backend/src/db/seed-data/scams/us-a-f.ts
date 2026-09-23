@@ -10058,3 +10058,16 @@ Division Director Janey Hovenden's office noted that a real certificate of compl
     country: 'US',
     state: 'AK',
 });
+
+UsAF.push({
+    name: "Fraudulent Website Privacy Violation Demand Letters",
+    slug: "fraudulent-website-privacy-violation-demand-letters",
+    description:
+      "Businesses across Texas are receiving legal-sounding demand letters claiming their website illegally intercepted or shared visitors' data through tracking technology, and demanding a settlement payment to avoid a lawsuit. The letters come from someone posing as a claimant or a law firm and pressure the recipient to pay quickly rather than fight in court. The Texas Attorney General's Consumer Protection Division has publicly labeled these mass-mailed demand letters a scam. Legitimate legal claims do not arrive as form letters demanding immediate payment to an unfamiliar party. If you receive one, do not pay or respond on the sender's timeline; have your own attorney review it and report the letter to the Texas Attorney General's office.",
+    categorySlug: "legal-debt-collection",
+    alertLevel: "medium",
+    sources: ["Office of the Attorney General of Texas, Consumer Protection Division"],
+    sourceUrl: "https://www.texasattorneygeneral.gov/news/releases/consumer-alert-attorney-general-ken-paxton-warns-texans-scam-demand-letters-alleging-website-privacy",
+    country: "US",
+    state: "TX",
+});

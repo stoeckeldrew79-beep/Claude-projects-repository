@@ -9388,3 +9388,15 @@ Csantaveri pleaded guilty on May 4, 2026 before U.S. District Judge Karen M. Wil
     country: 'US',
     state: 'NJ',
 });
+
+UsNS.push({
+    name: "Spoofed IC3 Website and FBI Complaint Center Impersonation",
+    slug: "spoofed-ic3-website-and-fbi-complaint-center-impersonation",
+    description:
+      "Criminals are registering lookalike domains that imitate the FBI's Internet Crime Complaint Center at ic3.gov, and separately contacting people while claiming to be IC3 staff. The danger is that this turns a victim's safety instinct against them: someone trying to report fraud lands on a cloned government site or trusts a caller who appears to represent the federal reporting channel itself. The FBI has issued repeated public service announcements about both the spoofed websites and the impersonation of IC3 personnel. IC3 does not contact individuals by phone, email, or social media to discuss complaints or offer to recover lost money. Type ic3.gov directly into your browser rather than following a link, and treat any unsolicited contact claiming to be from IC3 as fraudulent.",
+    categorySlug: "government-impersonation",
+    alertLevel: "high",
+    sources: ["FBI Internet Crime Complaint Center (IC3) PSA 260720, 20 July 2026","FBI IC3 PSA 250919, 19 September 2025","FBI.gov Cyber Alerts"],
+    sourceUrl: "https://www.ic3.gov/PSA/2026/PSA260720",
+    country: "US",
+});
