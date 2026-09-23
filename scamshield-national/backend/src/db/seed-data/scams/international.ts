@@ -21674,3 +21674,29 @@ AFA urged the public not to contract any service or invest through QuantumAI, an
   sourceUrl: 'https://www.afa.ad/en/press-room/alertes/warning-regarding-quantumai',
   country: 'AD',
 });
+
+International.push({
+  name: 'Fake Humanitarian-Aid Cash-Assistance Verification-Code Scam',
+  slug: 'sudan-fake-humanitarian-aid-verification-code-scam',
+  description: `Ayin Network, a Sudanese investigative outlet, reported in May 2026 that fraud networks posing as employees of trusted humanitarian organizations have rapidly expanded since Sudan's war began in April 2023, contacting displaced and war-affected people directly or via social-media text messages to tell them cash assistance is waiting for them, then talking victims through reading back a verification code sent to their phone — a code that instead authorizes the theft of funds from their own bank account. Najm al-Din Qamar lost 3.6 million Sudanese pounds (roughly $900) after a caller claiming to represent a Qatari humanitarian organization walked him through entering the code, with the stolen funds traced to accounts in Forbaranga (West Darfur), Al-Jazeera State, and Atbara (River Nile State); a volunteer aid worker identified only as Ahmed Yahya had his own account hacked and moved to another device, losing 45 million Sudanese pounds (roughly $11,250) that had been designated for humanitarian aid.
+
+Sudan's Information Technology Prosecution Office told Ayin Network that it alone "investigated over 15,000 cases of online fraud related to this issue during the past year," and cybersecurity engineer Nidal Abbas warned that "private codes, phone numbers, and passwords are personal information that must never be shared with anyone under any circumstances." The network urged anyone contacted about supposed cash assistance to verify the claim directly with the humanitarian organization through an independently confirmed channel, never a number or link provided by the caller.`,
+  categorySlug: 'phishing',
+  alertLevel: 'high',
+  sources: ['Ayin Network (شبكة عاين)'],
+  sourceUrl: 'https://3ayin.com/en/scams-/',
+  country: 'SD',
+});
+
+International.push({
+  name: 'Unlicensed RSF-Linked "Future Bank" Money-Transfer App',
+  slug: 'sudan-unlicensed-rsf-future-bank-money-transfer-app',
+  description: `Sudan's Central Bank (CBOS) issued a public warning in January 2026 against dealing with an unlicensed electronic financial application operating in Rapid Support Forces (RSF)-held areas of South Darfur, after the paramilitary group's civilian administration launched a mobile money-transfer platform, reported as "Al-Mustaqbal for Banking and Financial Services" and also referred to as "Future Bank," pitched as a fix for the cash-liquidity crisis after commercial banks shut down across Darfur and Kordofan following the war's outbreak in April 2023. CBOS stated the entity "is not licensed to operate in Sudan, and that any dealings with it constitute a violation of national laws," including the country's 2014 Anti-Money Laundering and Counter-Terrorism Financing Act.
+
+The central bank warned that anyone using the platform has no legal recourse if their password or access code is compromised and no guarantee against theft or loss of any deposited funds, and urged citizens, businesses, and public bodies inside and outside Sudan to avoid it entirely — noting the platform also risks breaching international conventions on money laundering, terrorism financing, and weapons proliferation given its ties to a party under international sanction scrutiny.`,
+  categorySlug: 'investment-fraud',
+  alertLevel: 'high',
+  sources: ['Central Bank of Sudan (CBOS)', 'Sudan Horizon News'],
+  sourceUrl: 'https://sudanhorizon.com/cbos-warns-against-dealing-with-unlicensed-financial-app-linked-to-rsf-militia/',
+  country: 'SD',
+});
