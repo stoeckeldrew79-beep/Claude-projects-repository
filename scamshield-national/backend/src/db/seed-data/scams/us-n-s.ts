@@ -9304,3 +9304,45 @@ UsNS.push({
     country: "US",
     state: "KY",
 });
+
+UsNS.push({
+    name: 'Portland Planning & Zoning Permit Payment Phishing Scam',
+    slug: 'oregon-portland-zoning-permit-payment-phishing-scam',
+    description: `In March 2026 the FBI issued a nationwide IC3 alert warning that criminals were impersonating city and county planning officials in phishing emails demanding payment for zoning and land-use permits, using real case numbers and property addresses pulled from public permit records to look legitimate. The City of Portland confirmed on March 20, 2026 that its own Permitting & Development customers who had applied for land use reviews received these fraudulent messages, which sought wire-transfer payments to "complete the review" of their applications.
+
+Portland's Bureau of Development Services said it never requests wire transfers and only accepts payment through its Development Hub PDX portal, mailed checks, or in-person cashier visits, and directed affected applicants to verify with their assigned planner or file a complaint with IC3.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['City of Portland Bureau of Development Services', "FBI Internet Crime Complaint Center (IC3)"],
+    sourceUrl: 'https://www.portland.gov/ppd/zoning-land-use/news/2026/3/20/information-recent-email-scam-concerning-payment-land-use',
+    country: 'US',
+    state: 'OR',
+});
+
+UsNS.push({
+    name: 'Oregon Judicial Department QR-Code Traffic-Fine Text Scam ("Judge Michael Rodriguez")',
+    slug: 'oregon-judicial-department-qr-code-traffic-fine-text-scam',
+    description: `On April 16, 2026, the Oregon Judicial Department warned Oregonians statewide about a text message containing an image styled as a "Final Court-Ordered Mandatory Collection Notice," purportedly from the Multnomah County Circuit Court Traffic Division, citing a fabricated hearing date and threatening license suspension, DMV holds, and contempt charges unless the recipient scanned an embedded QR code to "remit full payment." The notice was signed by a "Judge Michael Rodriguez" — a judge OJD confirmed does not exist in any Oregon state court — and matched an identical hoax circulating in other states under the same fictitious judge's name.
+
+OJD said Oregon's courts "will NEVER require you to provide sensitive information, such as bank information or credit card information, over the phone, email, or text," and that legitimate court texts never demand money or threaten arrest.`,
+    categorySlug: 'qr-code-scams',
+    alertLevel: 'medium',
+    sources: ['Oregon Judicial Department'],
+    sourceUrl: 'https://www.courts.oregon.gov/news/Lists/ArticleNews/Attachments/2387/a044d073b3db9d4f8e66a0bee01fa12a-State%20courts%20warn%20Oregonians%20Don%E2%80%99t%20fall%20for%20text%20scams%20imitating%20court%20notices.pdf',
+    country: 'US',
+    state: 'OR',
+});
+
+UsNS.push({
+    name: 'Grant and Harney County Jury Duty Extortion Scam',
+    slug: 'oregon-grant-harney-county-jury-duty-extortion-scam',
+    description: `In late January 2026, residents of rural Grant and Harney counties in Eastern Oregon were targeted by callers, texters, and emailers posing as court officials claiming the recipient had missed jury duty and owed money or faced jail time. In one case reported by the Blue Mountain Eagle, a Grant County man received a call demanding $8,000 to resolve an alleged missed jury-service obligation; some of the fraudulent emails mimicked real court documents, complete with forged judges' signatures.
+
+Grant County Jury Coordinator Lilly Foster said, "We would never ask for money or anything like that," and Oregon Judicial Department Communications Director Sarah Evans said the department was "trying to put the word out because people are falling for these scams all across Oregon."`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Grant County Jury Coordinator', 'Oregon Judicial Department', 'Blue Mountain Eagle'],
+    sourceUrl: 'https://bluemountaineagle.com/2026/01/29/jury-duty-scam-targets-grant-harney-counties/',
+    country: 'US',
+    state: 'OR',
+});
