@@ -7057,6 +7057,52 @@ UsGM.push({
 });
 
 UsGM.push({
+    name: 'Michigan Bitcoin ATM Impersonation Scam',
+    slug: 'michigan-bitcoin-atm-impersonation-scam',
+    description: `Michigan Attorney General Dana Nessel issued a consumer alert on April 8, 2025 warning residents about scammers directing victims to Bitcoin ATMs. Callers impersonate trusted companies (Apple, Google) or law enforcement, tell the victim their accounts or identity have been compromised, and pressure them to act immediately to "protect" their money. Victims are instructed to withdraw cash, feed it into a Bitcoin ATM to convert it into cryptocurrency, and then send the transaction receipt or QR code to the scammer.
+
+Nessel's office noted that because Bitcoin ATM transactions are irreversible and the machines operate with minimal regulatory oversight, funds sent this way are "nearly impossible to recover," unlike wire transfers or gift cards which sometimes offer limited recourse. The AG's office stressed that no legitimate company or government agency will ever direct a consumer to deposit money into a Bitcoin ATM, and reissued a related alert in April 2026, indicating the pattern was continuing to be reported by Michigan consumers. Michiganders can report such scams to the AG's Consumer Protection Team at 877-765-8388.`,
+    categorySlug: 'cryptocurrency-scams',
+    alertLevel: 'high',
+    sources: ['Michigan Attorney General'],
+    sourceUrl: 'https://www.michigan.gov/ag/news/press-releases/2025/04/08/ag-nessel-issues-new-consumer-alert-on-bitcoin-atms',
+    country: 'US',
+    state: 'MI',
+});
+
+UsGM.push({
+    name: 'Manitou Beach Medical Device Investment Ponzi Scheme',
+    slug: 'michigan-manitou-beach-medical-device-ponzi-scheme',
+    description: `The SEC charged Michigan residents Zachari Alan Cargnino and Susann Ashley Cargnino, along with California residents Gary and Julie Ann Youssef, with running a multi-year Ponzi-style scheme through six Michigan-based shell companies. From roughly 2017 to 2021, the defendants sold at least 55 investors bogus investment contracts to purchase "World-Class" and "Life Saving" medical testing devices, promising passive income every time a device was used in a doctor's office — but doctors rarely, if ever, used the equipment.
+
+To keep the scheme going, Julie Ann Youssef and Zachari Cargnino sent investors fabricated device-usage reports and made Ponzi-style payments to earlier investors using new investors' money. Investigators found the defendants spent millions of the more than $7 million raised on jewelry, jet skis, a trailer, vacation rentals, home improvements, and three residential properties in Manitou Beach, Michigan, while also using investor funds to pay off nearly $100,000 of pre-existing personal bankruptcy debt. On February 20, 2025, the court entered a final judgment ordering more than $17 million in combined disgorgement, prejudgment interest, and civil penalties against the defendants, along with permanent injunctions.`,
+    categorySlug: 'ponzi-pyramid-schemes',
+    alertLevel: 'high',
+    sources: ['U.S. Securities and Exchange Commission (SEC)'],
+    sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26294',
+    country: 'US',
+    state: 'MI',
+    isHistorical: true,
+    firstRecorded: '2021-09-23',
+});
+
+UsGM.push({
+    name: 'Ionia County Fake FTC Tech Support Cash-Pickup Scam',
+    slug: 'michigan-ionia-county-tech-support-cash-pickup-scam',
+    description: `In May 2024, a 72-year-old woman in Easton Township (Ionia County), Michigan received a pop-up message on her locked tablet displaying a "technical support" phone number. When she called, the person on the line falsely claimed to be from the Federal Trade Commission and told her that her financial accounts had been compromised by identity thieves. The caller convinced her to withdraw tens of thousands of dollars in cash and place it in a box at her home, claiming federal agents would come collect it "for safekeeping" while the supposed fraud was investigated — ultimately taking more than $40,000 from her.
+
+About a week later, the scammers called again demanding additional money. This time a relative intervened and alerted the Ionia County Sheriff's Office, which set up a stakeout at the pickup location; when two men arrived to collect the cash, deputies arrested them. Jainav Patel, 25, of Carbondale, Illinois, and Alonzo Waheed Jr., 27, of Marion, Illinois, were charged with conspiracy to commit false pretenses. Investigators said the actual scam operators were believed to be based overseas, using call-spoofing and anonymity apps to direct local "money mules" to collect cash from victims in person.`,
+    categorySlug: 'tech-support-scams',
+    alertLevel: 'high',
+    sources: ['Ionia County Sheriff’s Office', 'WWMT'],
+    sourceUrl: 'https://wwmt.com/news/local/tech-support-scam-leads-to-40000-theft-from-ionia-county-elderly-woman',
+    country: 'US',
+    state: 'MI',
+    isHistorical: true,
+    firstRecorded: '2024-05-08',
+});
+
+UsGM.push({
     name: 'Korean Air Lines Guam Office Manager Embezzlement (Sung Peel Hwang)',
     slug: 'guam-korean-air-lines-hwang-embezzlement-bank-fraud',
     description: `Sung Peel Hwang, a 39-year-old naturalized U.S. citizen originally from South Korea, worked as an administrator in the Korean Air Lines (KAL) office at Guam International Airport, where his duties included reporting the airline's passenger counts to the Guam International Airport Authority (GIAA), paying the Passenger Facility Charge (PFC) KAL owed on those passengers, and serving as a co-signatory on KAL Guam's business checking account at the Bank of Guam. From September 2015 through December 2018, Hwang used that access two ways at once: he underreported KAL's actual passenger numbers to GIAA so the airline paid less PFC than it legally owed and kept the difference, and, separately, he moved company funds through the KAL Guam checking account into his own personal account, ultimately depositing more than $3.5 million in KAL funds into accounts he controlled and diverting over $600,000 of that to his own personal use. A federal grand jury indicted Hwang on bank fraud and money laundering charges, and he was sentenced to 41 months in federal prison and five years of supervised release, and ordered to pay $615,271.51 in restitution. U.S. Attorney Shawn N. Anderson said plainly that "Hwang cheated his employer and GIAA out of a substantial sum of money." The case is a reminder that an employee trusted with both a company's regulatory reporting and its bank account signing authority can defraud two different parties — the airport authority collecting a public fee and the company itself — through the very same access, and that any business that lets one administrator both file a regulatory report and control the checkbook it feeds into should have a second person independently reconcile the two rather than trust one employee's numbers on both ends.`,
@@ -8696,6 +8742,52 @@ UsGM.push({
     alertLevel: 'high',
     sources: ['Better Business Bureau'],
     sourceUrl: 'https://www.bbb.org/all/scamstudies/jobscams/employment-scams-2026-update',
+    country: 'US',
+    state: 'MN',
+});
+
+UsGM.push({
+    name: 'Fairview Health Executive Impersonation Business Email Compromise Scheme',
+    slug: 'minnesota-fairview-health-bec-executive-impersonation-scheme',
+    description: `Nigerian nationals Shodiya Babatunde, 43, and Jamui Ahmed, 31, ran a business email compromise scheme targeting Minnesota-based health care companies by impersonating Minneapolis-based Fairview Health Services. According to a federal indictment announced by then-U.S. Attorney for the District of Minnesota Andrew M. Luger on September 26, 2024, the pair registered a spoofed internet domain designed to look like it belonged to Fairview Health and created fake email accounts impersonating Fairview's CEO, its executive vice president/general counsel, and a business analyst, then used those accounts to deceive employees at Minnesota health care companies into wiring payments to accounts they controlled instead of the real Fairview Health.
+
+Eagan-based Blue Cross and Blue Shield of Minnesota was lured into wrongly wiring nearly $8 million to accounts represented as belonging to Fairview Health. In total, Babatunde and Ahmed fraudulently directed more than $13 million in payments intended for Fairview Health from Minnesota-based health care companies to accounts they and their co-conspirators controlled. Both men remained international fugitives as of the indictment's announcement — a reminder that a convincingly spoofed executive email domain can redirect large B2B payments even at sophisticated corporate finance departments.`,
+    categorySlug: 'business-email-compromise',
+    alertLevel: 'high',
+    sources: ['U.S. Attorney’s Office, District of Minnesota', 'Star Tribune'],
+    sourceUrl: 'https://www.startribune.com/blue-cross-of-minnesota-snagged-in-multimillion-dollar-nigerian-fraud-scheme/601154362',
+    country: 'US',
+    state: 'MN',
+    isHistorical: true,
+    firstRecorded: '2020-10-01',
+});
+
+UsGM.push({
+    name: 'Coon Rapids and Brooklyn Park Elder-Targeted Romance Fraud Ring',
+    slug: 'minnesota-wilfred-kordowu-elder-romance-fraud-ring',
+    description: `Solomon Wilfred, of Coon Rapids, and Dodzi Kordowu, of Brooklyn Park, were indicted by a federal grand jury in the District of Minnesota for running online romance-fraud schemes that primarily targeted elderly victims nationwide. Prosecutors say the two contacted victims by email and social media under false personas, cultivated fake romantic relationships that included talk of marriage, and had scheme partners keep the relationships going to maximize payouts.
+
+Between May 2018 and June 2022, Kordowu received more than $2.3 million in fraud proceeds through electronic fund transfers and 90 separate victim mailings; between June 2020 and March 2021, Wilfred received more than $1.2 million across more than 400 packages mailed to him by victims. Kordowu was later sentenced to 63 months in federal prison and ordered to pay $2,144,291.86 in restitution. The case shows how Minnesota-based "money mules" can sit at the center of national romance-scam networks, collecting cash, gift cards, and mailed packages from victims across the country who believe they are supporting a partner.`,
+    categorySlug: 'romance-scams',
+    alertLevel: 'high',
+    sources: ['U.S. Attorney’s Office, District of Minnesota', 'CBS News Minnesota'],
+    sourceUrl: 'https://www.cbsnews.com/minnesota/news/two-men-indicted-for-targeting-elderly-victims-in-online-romance-fraud-scheme/',
+    country: 'US',
+    state: 'MN',
+    isHistorical: true,
+    firstRecorded: '2018-05-01',
+});
+
+UsGM.push({
+    name: 'Minneapolis Craigslist Fake-Landlord Rental Deposit Scam',
+    slug: 'minneapolis-craigslist-fake-landlord-rental-deposit-scam',
+    description: `Minneapolis renters Dominique White and Lewis McCaleb answered a Craigslist listing for a house on 43rd Avenue South and signed a lease with a man posing as the landlord, who said he couldn't meet them or show the property in person because he was in California caring for a sick wife. Of the $900 total deposit, he accepted a partial payment of $450 through a payment app — rather than requiring it in full up front, a hallmark of this scam — and directed them to an app to retrieve an access code for the key. The couple moved in and spent four nights in the home before an agent from the actual property management company, Renters Warehouse, arrived to perform maintenance and revealed that neither the "landlord" nor the couple had any legal right to the home.
+
+The couple was left without housing and without their deposit. Hennepin County property records showed the home was actually owned by a company based in Charlotte, NC and managed by the real Renters Warehouse, headquartered in Eden Prairie — the scammer had no connection to the property at all. It's a textbook fake-listing rental scam of the kind described in nationwide FTC and FBI real-estate-fraud warnings: someone with no real connection to a property collects a deposit from a prospective tenant online, uses an excuse for being unable to meet or show the unit in person, and disappears once the money is sent.`,
+    categorySlug: 'rental-housing',
+    alertLevel: 'medium',
+    sources: ['KARE 11'],
+    sourceUrl: 'https://kdhlradio.com/minnesota-couple-victims-of-rental-home-scam/',
     country: 'US',
     state: 'MN',
 });
