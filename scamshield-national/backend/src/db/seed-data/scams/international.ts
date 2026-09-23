@@ -10959,6 +10959,45 @@ International.push(
   },
 );
 
+International.push({
+  name: 'Deepfake Investment Scam Impersonates the President and State Banks',
+  slug: 'azerbaijan-deepfake-investment-scam-state-banks',
+  description: `Azerbaijan's State Security Service announced on June 20, 2024 that it had dismantled a transnational cybercriminal network using AI-generated deepfake videos of President Ilham Aliyev and other state and public figures to promote fraudulent investment schemes on social media. The fake ads falsely associated the scheme with real, well-known institutions — SOCAR, Kapital Bank, and the International Bank of Azerbaijan — to appear legitimate. Victims who "invested" were shown fabricated screens displaying inflated returns; when they tried to withdraw the supposed profits, they were told to hand over their banking credentials to complete the transfer, which the fraudsters then used to drain the victims' actual bank accounts.
+
+Two Azerbaijani nationals were charged in the case — Zohrabov Rafiq Mahir oglu (born 1998) and Niftaliyev Sardar Alikhan oglu (born 1979) — with additional network members prosecuted in Ukraine through international law-enforcement cooperation. The scheme is described as having victimized citizens both inside Azerbaijan and abroad.`,
+  categorySlug: 'ai-deepfake-scams',
+  alertLevel: 'high',
+  sources: ["Azerbaijan State Security Service", 'APA'],
+  sourceUrl: 'https://en.apa.az/incident/azerbaijans-state-security-service-exposes-cybercriminal-network-which-created-fake-applications-on-behalf-of-state-and-public-figures-440651',
+  country: 'AZ',
+});
+
+International.push({
+  name: '"Car Accident or Surgery" Family-Emergency Scam Targets the Elderly',
+  slug: 'azerbaijan-family-emergency-elderly-scam',
+  description: `Azerbaijan's Ministry of Internal Affairs (MIA) issued a public warning on January 14, 2026 that fraudsters are specifically targeting elderly and lonely citizens with a "family emergency" con. Callers — typically phoning from foreign numbers — present themselves as the victim's children, grandchildren, or other close relatives and claim to urgently need money, most often alleging they caused a car accident or require emergency surgery. The MIA said perpetrators press for immediate cash transfers and, in some cases, arrange for a courier to collect the money directly from the victim's home rather than relying on a bank transfer, making the scheme harder to trace or reverse.
+
+The ministry urged citizens to independently verify any such call by contacting the relative directly through a known phone number before sending money, to refuse demands for cash from unfamiliar callers, and to report suspicious calls to the "102" police emergency line.`,
+  categorySlug: 'grandparent-scams',
+  alertLevel: 'medium',
+  sources: ["Azerbaijan Ministry of Internal Affairs", 'Modern.az'],
+  sourceUrl: 'https://modern.az/en/olke/557445/elderly-and-lonely-citizens-are-targets-of-fraudsters-ministry-of-internal-affairs-issues-a-warning/',
+  country: 'AZ',
+});
+
+International.push({
+  name: 'Fake Online Storefront "Pay-Then-Block" Shopping Scam',
+  slug: 'azerbaijan-fake-storefront-pay-then-block-scam',
+  description: `Azerbaijan's Ministry of Internal Affairs warned on August 11, 2026 of a rise in online shopping fraud in which criminals set up deceptive sales pages on e-commerce platforms and social networks, advertising goods at unusually attractive prices to draw in buyers. Once a victim pays — by card or bank transfer, in advance of any delivery — the seller cuts off all contact by blocking the buyer's phone number and social media account, leaving the victim with no product, no refund, and no way to reach the seller again.
+
+The MIA advised shoppers to verify a seller's reliability, registration, and contact details before ordering, to avoid unknown sellers who insist on full advance payment, and to never share bank card numbers, CVV/CVC codes, or SMS one-time confirmation codes with a seller under any circumstance. Citizens were told to report incidents to the MIA's "102" Service Call Center or its official social media accounts.`,
+  categorySlug: 'online-shopping-scams',
+  alertLevel: 'medium',
+  sources: ["Azerbaijan Ministry of Internal Affairs", 'Operative Information Center'],
+  sourceUrl: 'https://operativmm.az/en/post/azerbaijans-mia-issues-warning-on-rising-online-shopping-fraud/76621',
+  country: 'AZ',
+});
+
 International.push(
   {
     name: 'Bosnia and Herzegovina Fake Bank SMS/Email Phishing',
@@ -21321,42 +21360,6 @@ Although this documented case dates to 2009, the underlying mechanism — a spoo
 });
 
 International.push({
-    name: "Tonga Police Warning: \"Anthony Heich\" Facebook Romance Scam Using Forged Documents",
-    slug: "anthony-heich-facebook-romance-scam-forged-documents",
-    description:
-      "Tonga Police have publicised a romance fraud in which a fake Facebook account using the name \"Anthony Heich\" sends unsolicited friend requests to Tongan users. The scammer chats continuously for around six weeks to convince the target they are in a genuine romantic relationship, then asks for money and backs the request up with fabricated paperwork. Police released images of some of the forged documents so the public can recognise the style of forgery being used. Their advice is to learn how to spot fake emails and websites, never post personal documents online where they can fuel identity theft, and treat any too-good-to-be-true offer as hostile. If someone you have only met online asks you for money, talk to a trusted person first and report the account to the Tonga Police before sending anything.",
-    categorySlug: "romance-scams",
-    alertLevel: "high",
-    sources: ["Tonga Police (Media & Public Relations Office)","Government of Tonga, Prime Minister's Office website"],
-    sourceUrl: "http://pmo.gov.to/latest-online-scam-reported-to-police/",
-    country: "TO",
-});
-
-International.push({
-    name: "Insurance Agent Premium Pocketing",
-    slug: "insurance-agent-premium-pocketing",
-    description:
-      "In this scheme a licensed insurance agent accepts a customer's premium payment but never forwards it to the insurance company, keeping the money instead. Because no policy is ever issued or kept in force, the customer believes they are covered and usually only finds out the truth when they file a claim and are told no coverage exists. The Mississippi Insurance Department lists this 'pocketing' of premiums among the agent fraud schemes consumers should watch for, and says it pursues cases through license revocations, cease-and-desist orders and criminal prosecution. Always ask for written confirmation of coverage directly from the insurance carrier, pay by check or card made out to the insurer rather than the agent personally, and verify your policy is active with the company itself. If you suspect an agent has kept your money, contact the Mississippi Insurance Department Consumer Help Line or the Insurance Integrity Enforcement Bureau of the Attorney General's Office.",
-    categorySlug: "insurance-fraud",
-    alertLevel: "medium",
-    sources: ["Mississippi Insurance Department, Consumer Services - Fight Insurance Fraud page","Insurance Integrity Enforcement Bureau, Mississippi Attorney General's Office"],
-    sourceUrl: "https://www.mid.ms.gov/mississippi-insurance-department/consumers/fight-insurance-fraud/",
-    country: "MS",
-});
-
-International.push({
-    name: "Worthless Employer Health and Workers' Compensation Coverage",
-    slug: "worthless-employer-health-and-workers-compensation-coverage",
-    description:
-      "Unauthorized operators market unusually cheap health or workers' compensation plans to small businesses and professionals, but the entity behind the plan is not a real, licensed insurer. Employees enrolled through these arrangements can be left holding worthless health coverage, and employers can end up with bogus workers' compensation protection, meaning claims simply go unpaid. A related version targets physicians shopping for lower medical malpractice premiums by steering them into fictitious offshore companies. Because the operator is not an authorized carrier, there is no state guaranty-association backstop of the kind that protects policyholders when a licensed insurer fails. Before buying any group plan, confirm with the Mississippi Insurance Department that the company and the agent are licensed in the state, and report suspected unauthorized insurers to MID or the Attorney General's Insurance Integrity Enforcement Bureau.",
-    categorySlug: "insurance-fraud",
-    alertLevel: "high",
-    sources: ["Mississippi Insurance Department, Fight Insurance Fraud consumer page","Insurance Integrity Enforcement Bureau, Mississippi Attorney General's Office"],
-    sourceUrl: "https://www.mid.ms.gov/mississippi-insurance-department/consumers/fight-insurance-fraud/",
-    country: "MS",
-});
-
-International.push({
   name: 'Fake National Petroleum Agency Investment Fraud',
   slug: 'sao-tome-fake-national-petroleum-agency-investment-fraud',
   description: `São Tomé and Príncipe's own Agência Nacional de Petróleo (ANP, the national petroleum regulator) publicly denounced, in a statement carried by the Portuguese news agency Lusa and published by Jornal de Notícias on April 23, 2008, that foreign nationals were using the agency's name and forged documents to defraud businesspeople abroad. Guilherme Mota, the ANP's administrative and financial director, told Lusa the fraudsters were "mainly" from Nigeria, Ghana, and Togo, with some cases traced to the United States and Britain. The scheme's operators claimed to run offices in London, New York, and Brussels representing the Agência Nacional de Petróleo de São Tomé e Príncipe and to be official state representatives for oil-sector dealings — claims the agency said were entirely fabricated: "These are people we don't know," Mota said. "The identifications are false, the names are false, the addresses given are false, including the passport copies they present. The agency doesn't know them, has never had contact with these individuals."
@@ -21486,18 +21489,6 @@ Botswana authorities urge anyone who has built a romantic or close personal rela
 });
 
 International.push({
-    name: "Counterfeit Bankak App Forged Transfer-Notification Scam",
-    slug: "counterfeit-bankak-app-forged-transfer-notification-scam",
-    description:
-      "Fraudsters in Sudan install a counterfeit clone of the Bankak mobile banking app (Bank of Khartoum) and use it to fake payments at shops and market stalls. At the till they show the merchant a screen displaying a transfer-confirmation notification for the purchase amount, but the message is generated locally by the fake app and no money ever leaves an account. Because cash is scarce and Bankak transfers have become the default way to pay, many merchants accept the on-screen or forwarded confirmation as proof and hand over goods before checking their own balance. Sudanese police have dismantled organised rings working shops in Khartoum State, including arrests in East Nile and Karrari localities. Never release goods on the strength of a customer's screenshot or notification: log in to your own Bankak account or check your balance and transaction history yourself, and report suspected fake-payment attempts to Bank of Khartoum and local police.",
-    categorySlug: "fake-check-overpayment",
-    alertLevel: "high",
-    sources: ["Bank of Khartoum customer fraud-awareness warning on Bankak impersonation and banking fraud","Khartoum State police / criminal investigation announcements of arrests in East Nile (December 2025) and Karrari (March 2026) localities, as carried by Sudanese news outlets"],
-    sourceUrl: "https://bankofkhartoum.com/sudan/news-detail/stay-alert-and-pay-attention-bankak",
-    country: "SD",
-});
-
-International.push({
   name: 'Nationwide Mobile Money Social-Engineering Fraud Network',
   slug: 'rwanda-mobile-money-social-engineering-fraud-network',
   description: `Rwanda National Police and the Rwanda Investigation Bureau paraded 45 suspects at RIB headquarters on September 9, 2024, accused of running a coordinated mobile-money fraud network that stole more than Rwf 424 million from victims between January and July 2024, concentrated in the Nyakarenzo and Nkungu sectors of Rusizi District. Investigators said the group ran several overlapping scripts by phone and SMS: false jackpot-winner notifications, fabricated road-accident emergencies demanding urgent medical payment, callers posing as telecom staff offering a free SIM upgrade, and — the most damaging — calls claiming a victim's mobile-money account had been hacked and needed to be "verified" by reading out a one-time PIN, which callers then used to drain the account.
@@ -21607,42 +21598,6 @@ The FSC's advice to Montserratians was direct: do not join a pyramid selling sch
 });
 
 International.push({
-    name: "False Billing and Hacked-Invoice Payment Redirection in Kiribati",
-    slug: "false-billing-hacked-invoice-payment-redirection-kiribati",
-    description:
-      "Fraudsters send Kiribati households and businesses invoices for goods or services that were never ordered and never delivered, hoping the bill is paid without question. In a more damaging version, criminals break into a real business's email account and resend its genuine invoices to customers after swapping in a bank account they control, so the customer pays the right amount for real goods but the money goes to the scammer. ANZ Bank (Kiribati) Ltd documents both variants on its Kiribati customer scam-education page. Because the underlying transaction is legitimate, the theft is often only discovered weeks later when the real supplier chases payment. Always verify bank account details by phoning the supplier on a known number before paying, and treat any emailed change of payment details as suspicious until confirmed.",
-    categorySlug: "business-email-compromise",
-    alertLevel: "high",
-    sources: ["ANZ Bank (Kiribati) Ltd - Types of scams and fraud"],
-    sourceUrl: "https://www.anz.com/kiribati/en/personal/ways-bank/protect-banking/types-of-scams-and-fraud/",
-    country: "KI",
-});
-
-International.push({
-    name: "\"Help Us Catch the Hackers\" Fund Transfer Scam",
-    slug: "help-us-catch-the-hackers-fund-transfer-scam",
-    description:
-      "A caller or emailer posing as an investigator, official or bank representative tells the victim that their money must be moved to a local or offshore account to help with an investigation or to trap hackers and scammers. The victim is pushed toward payment channels that cannot be traced or reversed, including pre-loaded debit cards, gift cards, iTunes vouchers, Bitcoin and money transfer services. ANZ Bank (Kiribati) Ltd lists this scam on its Kiribati customer scam-education page. Once the transfer is made the funds are effectively unrecoverable, which is exactly why those payment methods are chosen. No genuine bank, police force or government office will ever ask you to move your own money to assist an investigation, so hang up and call the organisation back on a number you looked up yourself.",
-    categorySlug: "government-impersonation",
-    alertLevel: "high",
-    sources: ["ANZ Bank (Kiribati) Ltd - Types of scams and fraud"],
-    sourceUrl: "https://www.anz.com/kiribati/en/personal/ways-bank/protect-banking/types-of-scams-and-fraud/",
-    country: "KI",
-});
-
-International.push({
-    name: "ANZ Kiribati Internet Banking Credential Phishing",
-    slug: "anz-kiribati-internet-banking-credential-phishing",
-    description:
-      "Scammers impersonate ANZ Bank by email, text message or phone call and try to harvest internet banking log-on details from Kiribati customers. The message usually contains a link to a fake copy of the ANZ Internet Banking log-on page, or the caller simply asks the customer to read out a PIN, password or one-time security code. ANZ Bank (Kiribati) Ltd warns on its fraud protection page that it will never contact customers asking for these credentials. Its guidance is to never click a log-on link sent in an email and instead type the bank's web address into the browser yourself. If you receive such a message, do not respond, delete it, and contact the bank directly using a number from your bank statement or card.",
-    categorySlug: "phishing",
-    alertLevel: "medium",
-    sources: ["ANZ Bank (Kiribati) Ltd - Protecting yourself from fraud"],
-    sourceUrl: "https://www.anz.com/kiribati/en/personal/ways-bank/protect-banking/protecting-yourself-from-fraud/",
-    country: "KI",
-});
-
-International.push({
   name: 'National Lottery of Benin Impersonation WhatsApp Scam',
   slug: 'benin-national-lottery-impersonation-whatsapp-scam',
   description: `Benin's Office Central de Répression de la Cybercriminalité (OCRC) issued a public alert on August 14, 2023 describing a recurring scam in which cybercriminals impersonate agents of the Loterie Nationale du Bénin (LNB). The fraudsters create groups on WhatsApp, Facebook, Telegram, and Messenger inviting members of the public to join a supposed official lottery circle, charging an initial "registration" fee of 5,000 FCFA and collecting personal identity information and photos under the guise of eligibility verification. After real LNB draw results are published, scammers contact selected group members claiming they've won, then demand further "processing," tax, or release fees before winnings can be paid out. As OCRC's alert put it: "quand les victimes envoient ladite somme d'argent dans l'espoir d'obtenir leurs lots, enfin les cybercriminels les bloquent et coupent tout contact avec leurs proies" (once victims send the money hoping to receive their prize, the criminals block them and cut off all contact).
@@ -21679,4 +21634,88 @@ CNIN advised staying calm rather than acting on the manufactured urgency, hangin
   sources: ["Centre National d'Investigations Numériques (CNIN - Bénin)", 'Les 4 Vérités'],
   sourceUrl: 'https://www.les4verites.bj/le-cnin-met-en-garde-contre-une-arnaque-qui-exploite-la-peur-des-familles/',
   country: 'BJ',
+});
+
+International.push({
+    name: "Tonga Police Warning: \"Anthony Heich\" Facebook Romance Scam Using Forged Documents",
+    slug: "anthony-heich-facebook-romance-scam-forged-documents",
+    description:
+      "Tonga Police have publicised a romance fraud in which a fake Facebook account using the name \"Anthony Heich\" sends unsolicited friend requests to Tongan users. The scammer chats continuously for around six weeks to convince the target they are in a genuine romantic relationship, then asks for money and backs the request up with fabricated paperwork. Police released images of some of the forged documents so the public can recognise the style of forgery being used. Their advice is to learn how to spot fake emails and websites, never post personal documents online where they can fuel identity theft, and treat any too-good-to-be-true offer as hostile. If someone you have only met online asks you for money, talk to a trusted person first and report the account to the Tonga Police before sending anything.",
+    categorySlug: "romance-scams",
+    alertLevel: "high",
+    sources: ["Tonga Police (Media & Public Relations Office)","Government of Tonga, Prime Minister's Office website"],
+    sourceUrl: "http://pmo.gov.to/latest-online-scam-reported-to-police/",
+    country: "TO",
+});
+
+International.push({
+    name: "Insurance Agent Premium Pocketing",
+    slug: "insurance-agent-premium-pocketing",
+    description:
+      "In this scheme a licensed insurance agent accepts a customer's premium payment but never forwards it to the insurance company, keeping the money instead. Because no policy is ever issued or kept in force, the customer believes they are covered and usually only finds out the truth when they file a claim and are told no coverage exists. The Mississippi Insurance Department lists this 'pocketing' of premiums among the agent fraud schemes consumers should watch for, and says it pursues cases through license revocations, cease-and-desist orders and criminal prosecution. Always ask for written confirmation of coverage directly from the insurance carrier, pay by check or card made out to the insurer rather than the agent personally, and verify your policy is active with the company itself. If you suspect an agent has kept your money, contact the Mississippi Insurance Department Consumer Help Line or the Insurance Integrity Enforcement Bureau of the Attorney General's Office.",
+    categorySlug: "insurance-fraud",
+    alertLevel: "medium",
+    sources: ["Mississippi Insurance Department, Consumer Services - Fight Insurance Fraud page","Insurance Integrity Enforcement Bureau, Mississippi Attorney General's Office"],
+    sourceUrl: "https://www.mid.ms.gov/mississippi-insurance-department/consumers/fight-insurance-fraud/",
+    country: "MS",
+});
+
+International.push({
+    name: "Worthless Employer Health and Workers' Compensation Coverage",
+    slug: "worthless-employer-health-and-workers-compensation-coverage",
+    description:
+      "Unauthorized operators market unusually cheap health or workers' compensation plans to small businesses and professionals, but the entity behind the plan is not a real, licensed insurer. Employees enrolled through these arrangements can be left holding worthless health coverage, and employers can end up with bogus workers' compensation protection, meaning claims simply go unpaid. A related version targets physicians shopping for lower medical malpractice premiums by steering them into fictitious offshore companies. Because the operator is not an authorized carrier, there is no state guaranty-association backstop of the kind that protects policyholders when a licensed insurer fails. Before buying any group plan, confirm with the Mississippi Insurance Department that the company and the agent are licensed in the state, and report suspected unauthorized insurers to MID or the Attorney General's Insurance Integrity Enforcement Bureau.",
+    categorySlug: "insurance-fraud",
+    alertLevel: "high",
+    sources: ["Mississippi Insurance Department, Fight Insurance Fraud consumer page","Insurance Integrity Enforcement Bureau, Mississippi Attorney General's Office"],
+    sourceUrl: "https://www.mid.ms.gov/mississippi-insurance-department/consumers/fight-insurance-fraud/",
+    country: "MS",
+});
+
+International.push({
+    name: "Counterfeit Bankak App Forged Transfer-Notification Scam",
+    slug: "counterfeit-bankak-app-forged-transfer-notification-scam",
+    description:
+      "Fraudsters in Sudan install a counterfeit clone of the Bankak mobile banking app (Bank of Khartoum) and use it to fake payments at shops and market stalls. At the till they show the merchant a screen displaying a transfer-confirmation notification for the purchase amount, but the message is generated locally by the fake app and no money ever leaves an account. Because cash is scarce and Bankak transfers have become the default way to pay, many merchants accept the on-screen or forwarded confirmation as proof and hand over goods before checking their own balance. Sudanese police have dismantled organised rings working shops in Khartoum State, including arrests in East Nile and Karrari localities. Never release goods on the strength of a customer's screenshot or notification: log in to your own Bankak account or check your balance and transaction history yourself, and report suspected fake-payment attempts to Bank of Khartoum and local police.",
+    categorySlug: "fake-check-overpayment",
+    alertLevel: "high",
+    sources: ["Bank of Khartoum customer fraud-awareness warning on Bankak impersonation and banking fraud","Khartoum State police / criminal investigation announcements of arrests in East Nile (December 2025) and Karrari (March 2026) localities, as carried by Sudanese news outlets"],
+    sourceUrl: "https://bankofkhartoum.com/sudan/news-detail/stay-alert-and-pay-attention-bankak",
+    country: "SD",
+});
+
+International.push({
+    name: "False Billing and Hacked-Invoice Payment Redirection in Kiribati",
+    slug: "false-billing-hacked-invoice-payment-redirection-kiribati",
+    description:
+      "Fraudsters send Kiribati households and businesses invoices for goods or services that were never ordered and never delivered, hoping the bill is paid without question. In a more damaging version, criminals break into a real business's email account and resend its genuine invoices to customers after swapping in a bank account they control, so the customer pays the right amount for real goods but the money goes to the scammer. ANZ Bank (Kiribati) Ltd documents both variants on its Kiribati customer scam-education page. Because the underlying transaction is legitimate, the theft is often only discovered weeks later when the real supplier chases payment. Always verify bank account details by phoning the supplier on a known number before paying, and treat any emailed change of payment details as suspicious until confirmed.",
+    categorySlug: "business-email-compromise",
+    alertLevel: "high",
+    sources: ["ANZ Bank (Kiribati) Ltd - Types of scams and fraud"],
+    sourceUrl: "https://www.anz.com/kiribati/en/personal/ways-bank/protect-banking/types-of-scams-and-fraud/",
+    country: "KI",
+});
+
+International.push({
+    name: "\"Help Us Catch the Hackers\" Fund Transfer Scam",
+    slug: "help-us-catch-the-hackers-fund-transfer-scam",
+    description:
+      "A caller or emailer posing as an investigator, official or bank representative tells the victim that their money must be moved to a local or offshore account to help with an investigation or to trap hackers and scammers. The victim is pushed toward payment channels that cannot be traced or reversed, including pre-loaded debit cards, gift cards, iTunes vouchers, Bitcoin and money transfer services. ANZ Bank (Kiribati) Ltd lists this scam on its Kiribati customer scam-education page. Once the transfer is made the funds are effectively unrecoverable, which is exactly why those payment methods are chosen. No genuine bank, police force or government office will ever ask you to move your own money to assist an investigation, so hang up and call the organisation back on a number you looked up yourself.",
+    categorySlug: "government-impersonation",
+    alertLevel: "high",
+    sources: ["ANZ Bank (Kiribati) Ltd - Types of scams and fraud"],
+    sourceUrl: "https://www.anz.com/kiribati/en/personal/ways-bank/protect-banking/types-of-scams-and-fraud/",
+    country: "KI",
+});
+
+International.push({
+    name: "ANZ Kiribati Internet Banking Credential Phishing",
+    slug: "anz-kiribati-internet-banking-credential-phishing",
+    description:
+      "Scammers impersonate ANZ Bank by email, text message or phone call and try to harvest internet banking log-on details from Kiribati customers. The message usually contains a link to a fake copy of the ANZ Internet Banking log-on page, or the caller simply asks the customer to read out a PIN, password or one-time security code. ANZ Bank (Kiribati) Ltd warns on its fraud protection page that it will never contact customers asking for these credentials. Its guidance is to never click a log-on link sent in an email and instead type the bank's web address into the browser yourself. If you receive such a message, do not respond, delete it, and contact the bank directly using a number from your bank statement or card.",
+    categorySlug: "phishing",
+    alertLevel: "medium",
+    sources: ["ANZ Bank (Kiribati) Ltd - Protecting yourself from fraud"],
+    sourceUrl: "https://www.anz.com/kiribati/en/personal/ways-bank/protect-banking/protecting-yourself-from-fraud/",
+    country: "KI",
 });
