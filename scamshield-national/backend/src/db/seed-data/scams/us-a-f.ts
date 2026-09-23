@@ -9874,3 +9874,45 @@ Investigators said the company arranged for a Delaware notary to visit victims' 
     country: 'US',
     state: 'DE',
 });
+
+UsAF.push({
+    name: 'Chugach Electric / ENSTAR "Immediate Shutoff" Utility Impersonation Calls',
+    slug: 'alaska-chugach-enstar-immediate-shutoff-impersonation-scam',
+    description: `In late July and early August 2025, Chugach Electric Association and ENSTAR Natural Gas — Southcentral Alaska's largest electric and gas utilities — warned customers of a sharp spike in scam calls impersonating utility representatives. Callers threatened immediate power or gas shutoff within minutes unless the customer paid on the spot, often by purchasing a Walmart money card or reading off a credit card number, with Chugach Electric fielding dozens of calls per day from members reporting the scheme and at least one customer having already paid.
+
+Chugach's Senior Manager of Corporate Communications, Julie Hasquet, said flatly, "We never call, demand, threaten money. We're never sending you to Walmart to get a card to pay us," while ENSTAR's Communications Director, Lindsay Hobson, confirmed, "We will never call and specifically solicit payment over the phone." Both utilities noted the scammers' caller-ID numbers changed constantly, making the calls hard to trace or block.`,
+    categorySlug: 'utility-scams',
+    alertLevel: 'medium',
+    sources: ['Chugach Electric Association', 'ENSTAR Natural Gas', "Alaska's News Source (KTUU)"],
+    sourceUrl: 'https://www.alaskasnewssource.com/2025/08/02/consumer-alert-aggressive-increase-fake-calls-demanding-utility-bill-money/',
+    country: 'US',
+    state: 'AK',
+});
+
+UsAF.push({
+    name: 'Holiday Counterfeit-Goods Online Shopping Scam Targeting Alaska Shoppers',
+    slug: 'alaska-holiday-counterfeit-goods-online-shopping-scam',
+    description: `Ahead of the 2025 holiday season, the Better Business Bureau warned Alaska shoppers about a surge in counterfeit designer goods sold through spoofed retail websites, reporting that 15 Alaska shoppers had already been duped by fake products in the prior year. BBB representative Cameron Nakashima described the range of goods involved — "You've got designer goods, designer clothing, clothing is a big one. You got shoes, handbags, even makeup products, we see counterfeit versions of them showing up online" — and outlined tactics including misspelled look-alike URLs, fake flash-sale urgency, and "premiumization" pricing on generic goods marketed as brand-name.
+
+The BBB pointed shoppers to established retailers, BBB.org, and the FTC to verify sellers before buying, and warned that counterfeit goods bought online often carry no real warranty or return protection once the seller disappears.`,
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'medium',
+    sources: ['Better Business Bureau', "Alaska's News Source (KTVF)"],
+    sourceUrl: 'https://www.webcenterfairbanks.com/2025/12/20/fake-designer-goods-flood-holiday-sales-how-alaska-shoppers-can-protect-themselves/',
+    country: 'US',
+    state: 'AK',
+});
+
+UsAF.push({
+    name: '"United Business Services Compliance Division" Deceptive Postcard Scam Against Alaska Businesses',
+    slug: 'alaska-united-business-services-compliance-division-postcard-scam',
+    description: `Alaska's Division of Corporations, Business and Professional Licensing warned business owners about postcards mailed from an entity calling itself "United Business Services Compliance Division," designed with an official-looking seal and the header "Important Information Regarding Your Business!" Recipients who called the listed number were directed to pay a one-time fee of roughly $70 by credit card for a "certificate of good standing," even though no entity named "United Business Services" or "United Business Services Compliance Division" is registered to do business in Alaska, and the state itself was not the one contacting them.
+
+Division Director Janey Hovenden's office noted that a real certificate of compliance costs only $10 through corporations.alaska.gov, and that genuine state correspondence always displays the official state seal and the sitting governor's name — directing victims to the Alaska Department of Law's Consumer Protection Unit.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Alaska Department of Commerce, Community and Economic Development'],
+    sourceUrl: 'https://www.commerce.alaska.gov/web/Portals/0/pub/Archive26/Press%20Releases/2015/12.28.15%20PR%2015-025%20Deceptive%20Solicitations.pdf',
+    country: 'US',
+    state: 'AK',
+});
