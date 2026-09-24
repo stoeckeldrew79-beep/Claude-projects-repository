@@ -10173,3 +10173,21 @@ Nigerian press at the time dubbed it "Nigeria's Enron," and the comparison wasn'
     sourceUrl: 'https://en.africanmanager.com/nigerians-react-to-13-billion-naira-scandal-in-cadbury/',
     // representative photo — replace with a portrait if found
 });
+
+NotoriousAF.push({
+    title: 'Francisco Correa and the Gürtel Network: The Kickback Scheme That Brought Down a Spanish Prime Minister',
+    slug: 'francisco-correa-gurtel-case-corruption',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'international', 'corruption'],
+    body: `Francisco Correa was a Spanish businessman who spent the late 1990s and early 2000s building close personal ties to officials in the governing People's Party (PP), particularly in the Madrid and Valencia regions. Through a network of companies that organized political events, provided PR services, and handled other contract work, Correa turned those relationships into a systematic kickback operation: his firms won inflated public contracts from PP-controlled local and regional governments, and a share of the proceeds flowed back to party officials and, prosecutors found, into the party's own off-the-books accounts.
+
+Spanish police began investigating Correa in 2007 after a whistleblower, Ana Garrido Ramos, a municipal employee, came forward with information about irregularities in a Madrid-region town council. Investigators code-named the resulting operation "Gürtel" — the German translation of "correa," meaning belt — and by 2009 had arrested Correa and dozens of associates. What they eventually documented was a network that had defrauded roughly €123 million in public funds between 1999 and 2005 across multiple regions, financed in part through a secret parallel accounting ledger — the so-called "Bárcenas papers," named for PP treasurer Luis Bárcenas — that recorded illegal cash donations to the party itself.
+
+Because the scheme spanned more than a decade and multiple jurisdictions, it was prosecuted in a series of separate trials rather than one, and the case did not reach its first major verdict until 2018 — over a decade after the initial investigation. On May 24, 2018, Spain's National Court convicted 29 of 37 defendants, handing down a combined 351 years of prison time. Correa himself received 51 years for running the scheme; his top lieutenant, Pablo Crespo, got 37 and a half years; and Bárcenas was sentenced to 33 years and a €44 million fine. Critically, the court also found that the PP itself had benefited financially from an illegal parallel financing structure — the first time a governing Spanish political party had been found criminally liable in this way.
+
+The ruling landed like a political earthquake. Days later, opposition leader Pedro Sánchez filed a motion of no confidence against Prime Minister Mariano Rajoy, citing the Gürtel verdict directly; it passed in June 2018, making Rajoy the first Spanish prime minister in the country's modern democratic history to be removed from office through a no-confidence vote. Correa and several co-defendants also faced additional Gürtel-related trials and further convictions in the years that followed as prosecutors worked through the case's other regional branches.
+
+What makes Gürtel instructive beyond its sheer size is how ordinary its mechanics were: a well-connected contractor overpricing routine government services and splitting the difference with the officials who approved the contracts, sustained for years by political cover on both sides. What turned it into a national crisis wasn't the sophistication of the fraud but the fact that the party in power had built its own campaign financing on top of it — and that a whistleblower's tip, followed patiently for a decade, was enough to eventually unravel all of it.`,
+    sourceUrl: 'https://www.transparency.org/en/news/after-guertel-what-next-for-spains-struggle-with-political-corruption',
+    // representative photo — replace with a portrait if found
+});

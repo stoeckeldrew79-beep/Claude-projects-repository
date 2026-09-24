@@ -7478,3 +7478,19 @@ Untangling the wreckage took most of a decade. Kuwait's government eventually cr
   coverImagePosition: 50,
   // representative photo — replace with a portrait if found
 });
+
+NotoriousNS.push({
+  title: 'René Benko and the Signa Collapse: Austria\'s Biggest Postwar Bankruptcy Becomes an Insolvency-Fraud Conviction',
+  slug: 'rene-benko-signa-insolvency-fraud',
+  author: 'ScamShield Editorial',
+  tags: ['notorious', 'notorious-scammer', 'international'],
+  body: `René Benko was a self-made Austrian real estate billionaire who built Signa Holding into one of Europe's most prominent property empires, with stakes in trophy assets including a share of Manhattan's Chrysler Building, London's Selfridges department store, Berlin's KaDeWe, and the Galeria Karstadt Kaufhof chain that dominates German department-store retail. At the end of 2022, Signa's assets were valued at roughly €23 billion. Benko built that empire largely on cheap, floating-rate debt, expanding aggressively through more than a decade of near-zero interest rates.
+
+That strategy came apart when interest rates rose sharply following Russia's 2022 invasion of Ukraine and European property values fell. Signa's over-leveraged balance sheet, dependent on continually refinancing at low cost, could no longer sustain itself. In November 2023, Signa Holding — the group's central holding company — filed for insolvency, declaring liabilities of roughly €5 billion against assets of only about €2.9 billion; the wider group's collapse followed within weeks and was widely reported as Austria's largest corporate bankruptcy since World War II, drawing in blue-chip creditors including Deutsche Bank, Allianz, Julius Baer, and Raiffeisen Bank International, which collectively filed billions of euros in claims.
+
+The fraud case that followed centers not on how Signa collapsed but on what Benko allegedly did as it was collapsing. Austrian prosecutors accused him of moving his own money beyond creditors' reach while the group was already insolvent — including a roughly €300,000 transfer to his mother in late 2023 and an approximately €360,000 advance rent payment for a house he was living in. Benko was arrested and taken into custody in January 2025. An Innsbruck court convicted him in October 2025 on one count of insolvency fraud over the transfer to his mother, sentencing him to two years; a separate December 2025 case, over hidden luxury watches he failed to disclose to creditors, added a 15-month suspended sentence. At a retrial on September 22, 2026, an Austrian court convicted him on the additional rent-payment count as well, raising his total sentence to 30 months. He remains in custody, and further proceedings tied to the broader Signa collapse are ongoing.
+
+Benko's downfall illustrates a category of fraud that's easy to overlook because it doesn't involve deceiving anyone into investing in the first place: insolvency fraud, where the crime happens after a legitimate business has already failed, as a controlling owner tries to quietly shield personal assets from the creditors and courts about to descend on the wreckage. It's also a useful case for a collection built mostly on schemes that were fraudulent from day one, since it shows that criminal fraud liability can attach to what an executive does in a company's final weeks even when the underlying business failure itself was driven by ordinary market forces rather than deception.`,
+  sourceUrl: 'https://www.globalbankingandfinance.com/austrian-ex-billionaire-benko-found-guilty-insolvency-fraud/',
+  // representative photo — replace with a portrait if found
+});
