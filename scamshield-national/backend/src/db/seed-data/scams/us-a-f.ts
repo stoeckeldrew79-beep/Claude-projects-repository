@@ -10084,3 +10084,14 @@ UsAF.push({
     country: "US",
     state: "NM",
 });
+
+UsAF.push({
+    name: 'AI Voice-Cloned Impersonation of Senior U.S. Officials',
+    slug: 'ai-voice-clone-senior-us-official-impersonation',
+    description: `The FBI's Internet Crime Complaint Center (IC3) issued a renewed nationwide warning in December 2025 about scammers using AI-generated voice messages and text messages to impersonate senior U.S. state and federal government officials, including White House and Cabinet-level officials and members of Congress, sometimes incorporating the real official's public photos to build rapport with the target. Once trust is established, the scammer moves the conversation to an encrypted app such as Signal, Telegram, or WhatsApp and requests wire transfers, copies of personal documents like passports, two-factor authentication codes, or introductions to the victim's own contacts. IC3 says this pattern has been active since at least 2023.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['FBI Internet Crime Complaint Center (IC3)'],
+    sourceUrl: 'https://www.ic3.gov/PSA/2025/PSA251219',
+    country: 'US',
+});

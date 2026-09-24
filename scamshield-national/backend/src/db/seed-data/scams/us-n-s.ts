@@ -9469,3 +9469,14 @@ UsNS.push({
     country: "US",
     state: "NM",
 });
+
+UsNS.push({
+    name: 'New Mexico Attorney General Office Impersonation Debt-Collection Scam',
+    slug: 'new-mexico-ag-office-impersonation-debt-scam',
+    description: `New Mexico's Attorney General issued a scam alert about callers falsely claiming to represent the Office of the Attorney General — identifying themselves as "BCDM Processing" acting on the AG's behalf — telling consumers they owe a debt, have a bench warrant issued by the AG's office, and will be arrested unless they immediately buy a prepaid card and read the number over the phone. Caller ID is spoofed to look like a government line, and callers may already know the last four digits of the victim's Social Security number. The AG's office states plainly it never collects debts or threatens arrest by phone, and that no legitimate government agency demands instant prepaid-card payment to avoid arrest.`,
+    categorySlug: 'government-impersonation',
+    sources: ["New Mexico Office of the Attorney General"],
+    sourceUrl: 'https://nmdoj.gov/press-release/scam-alert-phone-scammers-using-office-of-the-attorney-general-to-rip-off-new-mexicans/',
+    country: 'US',
+    state: 'NM',
+});

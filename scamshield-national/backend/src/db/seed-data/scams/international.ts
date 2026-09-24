@@ -22003,3 +22003,36 @@ The warning, published by Postimees on July 2, 2026, quoted Parkimine.ee's guida
   sourceUrl: 'https://majandus.postimees.ee/8501201/hoiatus-voltsitud-qr-koodid-parkimismarkidel',
   country: 'EE',
 });
+
+International.push({
+  name: 'NARSA Impersonation Fake Traffic-Fine Phishing',
+  slug: 'morocco-narsa-impersonation-fake-traffic-fine-phishing',
+  description: `Morocco's National Road Safety Agency (NARSA) issued a public warning on May 8, 2026 after cybercriminals began impersonating the agency through fraudulent SMS messages and emails directing recipients to cloned websites resembling NARSA's official site. The messages threaten recipients with fabricated traffic violations and penalties, or dangle false promises such as technical-inspection reimbursements or driving-license point refunds, pressuring victims into entering personal data, banking details, or access codes. NARSA identified malicious domains used in the scheme and stated it never requests payment or sensitive information through unsolicited messages.`,
+  categorySlug: 'government-impersonation',
+  alertLevel: 'high',
+  sources: ['National Road Safety Agency (NARSA)'],
+  sourceUrl: 'https://h24info.ma/maroc/societe/alerte-arnaque-de-faux-sms-et-sites-electroniques-usurpent-lidentite-de-la-narsa/',
+  country: 'MA',
+});
+
+International.push({
+  name: 'DGSN Police-Recruitment "Intermediary" Fraud',
+  slug: 'morocco-dgsn-police-recruitment-intermediary-fraud',
+  description: `Morocco's Direction Générale de la Sûreté Nationale (DGSN) has repeatedly warned that fraudsters pose as well-connected intermediaries who can secure a candidate's admission into police recruitment competitions in exchange for money. In a public statement, DGSN said these individuals falsely claim insider access to the hiring process, collect payments of varying sums from hopeful candidates, and supply fabricated information to sustain the scheme. The agency stressed that merit and competitive testing are the only legitimate path into the police force and urged candidates to report anyone offering paid intermediation.`,
+  categorySlug: 'employment-scams',
+  sources: ['Direction Générale de la Sûreté Nationale (DGSN)'],
+  sourceUrl: 'https://www.h24info.ma/maroc/concours-de-la-police-et-corruption-la-dgsn-en-appelle-a-la-delation-citoyenne/',
+  country: 'MA',
+});
+
+International.push({
+  name: 'Bank Al-Maghrib OTP Phone and SMS Vishing Alert',
+  slug: 'morocco-bank-al-maghrib-otp-vishing-phone-scam',
+  description: `On November 7, 2025, Bank Al-Maghrib, Morocco's central bank, issued a public advisory warning of a surge in scam phone calls and texts targeting bank customers. Fraudsters impersonate bank or financial-institution staff — including callers claiming to represent mutual-benefit societies or insurance companies — and ask victims to read out the one-time SMS confirmation code or other electronic-payment details, then use that information to drain the victim's account. The central bank said any call or message requesting a confirmation code or payment-card details should be treated as fraudulent, since no legitimate bank ever asks for this information by phone, SMS, or email.`,
+  categorySlug: 'phishing',
+  alertLevel: 'high',
+  sources: ['Bank Al-Maghrib'],
+  sourceUrl: 'https://fr.hespress.com/448928-bank-al-maghrib-avertit-les-utilisateurs-contre-les-tentatives-darnaques-en-ligne.html',
+  country: 'MA',
+  firstRecorded: '2025-11-07',
+});
