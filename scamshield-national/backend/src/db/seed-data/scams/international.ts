@@ -21980,3 +21980,33 @@ International.push({
   sourceUrl: 'https://www.mwebantu.com/police-dismiss-fake-recruitment-claims/',
   country: 'ZM',
 });
+
+International.push({
+  name: 'Fake UCC/Telecom "SIM Verification" Call Scam',
+  slug: 'uganda-fake-telecom-sim-verification-call-scam',
+  description: `Fraudsters known locally as "bafere" call Ugandan mobile users claiming to be Uganda Communications Commission (UCC) or telecom staff needing to "upgrade" or "verify" the victim's SIM card, then ask for the mobile money PIN or other personal details, which are used to withdraw funds from the victim's account. UCC's Acting Head of Public and International Relations, Rebecca Mukite, stated in May 2022 that "UCC NEVER calls consumers for any reason" and said the commission was pursuing 17 related cases, 11 already at the court-hearing stage. UCC's own consumer-fraud guidance separately documents the related tactics of SIM swapping, vishing, and smishing used to hijack mobile money and other accounts, and advises consumers to never share PINs or OTPs with callers and to verify any claimed UCC/telecom contact via UCC's toll-free line.`,
+  categorySlug: 'phishing',
+  sources: ['Uganda Communications Commission (UCC)', 'Nile Post'],
+  sourceUrl: 'https://nilepost.co.ug/news/133062/ugandans-warned-against-mobile-money-conmen',
+  country: 'UG',
+});
+
+International.push({
+  name: 'Fake Ugandan Business & Government-Contract Scam Targeting Foreign Investors',
+  slug: 'uganda-fake-business-government-contract-scam',
+  description: `Fraudsters build professional-looking websites and communications that lift the real names, logos, and registration details of legitimate Ugandan companies and government ministries, then solicit "due diligence fees," permit payments, or upfront investment funds from foreign investors and businesses for fictitious deals in agriculture, mining, energy, and construction before disappearing with the money. Uganda's Daily Monitor documented specific cases including a Nigerian businessman who lost $70,000 in a fake gold deal, a US firm defrauded of roughly 2.2 billion Ugandan shillings in a fake Ministry of Agriculture water-plant procurement, a South African company that lost $1.4 million in a bogus Ministry of Energy generator contract, and a Turkish construction firm that lost $3.8 million in a fake hospital-construction deal. The report describes the scams as having grown more organized since 2023, targeting victims across Europe, Asia, North America, and Africa, and as damaging Uganda's reputation as an investment destination.`,
+  categorySlug: 'business-email-compromise',
+  sources: ['Daily Monitor (Uganda)'],
+  sourceUrl: 'https://www.monitor.co.ug/uganda/news/national/inside-online-scam-epidemic-soiling-uganda-s-image-5191370',
+  country: 'UG',
+});
+
+International.push({
+  name: 'Financial Intelligence Authority (FIA) Impersonation Scam (Uganda)',
+  slug: 'uganda-fia-impersonation-fee-scam',
+  description: `Individuals impersonate Uganda's Financial Intelligence Authority (FIA) — using forged letters bearing the FIA logo, fake official stamps, spoofed phone numbers, fraudulent email addresses, counterfeit websites, and fake WhatsApp profiles — to tell victims a payment is required to "verify the source of funds," "clear" a transaction the Authority has supposedly queried, or unfreeze blocked funds; some also separately offer fake fund-recovery services for a fee. The FIA states plainly that it "does not charge fees" for any verification or clearance service and does not contact members of the public directly about individual transactions by phone, email, WhatsApp, or social media. The Authority's fraud warning urges anyone contacted this way to report it to the Uganda Police or to the FIA directly rather than pay.`,
+  categorySlug: 'government-impersonation',
+  sources: ['Financial Intelligence Authority (FIA), Uganda'],
+  sourceUrl: 'https://fia.go.ug/fraud-warning/',
+  country: 'UG',
+});
