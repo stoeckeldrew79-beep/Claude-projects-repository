@@ -10731,3 +10731,19 @@ On October 15, 2007, U.S. District Judge Jed Rakoff instead sentenced Whittier t
     sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-19428',
     // representative photo — replace with a portrait if found
 });
+
+NotoriousGM.push({
+    title: 'Luís Octávio Índio da Costa and the Banco Cruzeiro do Sul Collapse',
+    slug: 'indio-da-costa-banco-cruzeiro-do-sul-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'banking-fraud', 'accounting-fraud'],
+    body: `Banco Cruzeiro do Sul was founded in São Paulo in 1993 by the Índio da Costa family and grew into a mid-sized Brazilian consumer-lending bank, specializing in payroll-deductible loans, under the control of father Luís Felippe and son Luís Octávio Índio da Costa. Behind its reported growth, a São Paulo court later found, the bank had been manufacturing profits that didn't exist: in 2008-2009, through structured transactions that sold credit portfolios to investment funds at manipulated rates, the bank booked artificial revenue and profit, which it then distributed back out to shareholders as dividends and interest on equity — paying out fictitious earnings as if they were real cash.
+
+Brazil's Central Bank intervened in June 2012 and placed the bank under the administration of the FGC (the deposit-guarantee fund) after uncovering the fraudulent accounting. Brazil's Federal Police investigated and found a R$1.35 billion shortfall at the bank, ultimately indicting 17 people — including both Índio da Costas — for fraudulent management of a financial institution, money laundering, forming a criminal organization, and manipulating shares on the stock exchange. Luís Octávio was arrested in October 2012 and held for 19 days at São Paulo's Centro de Detenção Provisória de Pinheiros.
+
+Banco Cruzeiro do Sul was formally declared bankrupt on August 11, 2015; by the time the case worked its way through Brazil's courts, the bank's total debt had grown to roughly R$6.5 billion, against which only about R$3.9 billion in assets had been recovered. On June 21, 2024 — nearly twelve years after the Central Bank's intervention — São Paulo's 2nd Criminal Court, under Judge Marcelo Duarte da Silva, convicted Luís Octávio Índio da Costa of crimes against the financial system and sentenced him to more than five years in prison; his father Luís Felippe, also named in the ruling, had died in March 2023 without facing final judgment.
+
+The case illustrates two things at once: a fraud mechanism — dressing up ordinary-looking securitized credit-assignment deals as a way to manufacture and distribute fictitious profits to shareholders — that can look like routine structured finance until a regulator pulls the thread, and how long that thread can take to fully unwind. Twelve years separated the Central Bank's intervention from a final criminal conviction, a reminder that a well-documented fraud and a completed prosecution are not the same milestone.`,
+    sourceUrl: 'https://www.terra.com.br/economia/ex-banqueiro-e-condenado-a-cinco-anos-de-prisao-por-crime-contra-o-sistema-financeiro,04dba3236cab2e130d75df7713d00f7b92nyfqow.html',
+    // representative photo — replace with a portrait if found
+});
