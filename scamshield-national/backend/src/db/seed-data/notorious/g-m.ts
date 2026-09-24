@@ -10765,3 +10765,21 @@ The Nóos case is a reminder that the "nonprofit consulting contract" is one of 
     sourceUrl: 'https://www.nbcnews.com/news/world/brother-law-spain-s-king-sentenced-prison-fraud-case-n722376',
     // representative photo — replace with a portrait if found
 });
+
+NotoriousGM.push({
+    title: 'Giuseppe Mussari: The Derivatives Deals That Hid €2 Billion Inside the World\'s Oldest Bank',
+    slug: 'giuseppe-mussari-monte-dei-paschi-derivatives-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'international', 'historical'],
+    body: `Banca Monte dei Paschi di Siena (MPS) has operated continuously since 1472, making it the oldest bank in the world still in business — a pedigree that made its unraveling, nearly 550 years later, feel like a genuine institutional crisis rather than the failure of some upstart fintech. At the center of it was Giuseppe Mussari, who became MPS's chairman in 2006, and Antonio Vigni, its general manager, the two executives who steered the bank into the deal that would ultimately sink it.
+
+In 2007, competing against a rival bid from BNP Paribas, Mussari pushed through MPS's acquisition of Banca Antonveneta from Spain's Santander for roughly €9 billion — a price later widely described as inflated well beyond Antonveneta's real value, agreed without full board deliberation and financed heavily with debt. The overpriced deal, completed just as the global financial crisis hit, left a multibillion-euro hole in MPS's balance sheet. Rather than disclose the scale of the losses, prosecutors later alleged, Mussari and Vigni turned to two complex, long-dated structured-finance transactions — "Santorini," arranged with Deutsche Bank, and "Alexandria," arranged with Nomura in 2009 — designed to let MPS record what were really trading losses as ordinary long-term banking transactions, keeping more than €2 billion of losses off the bank's real financial statements for years.
+
+The arrangement held until 2012-2013, when new MPS management, digging through the bank's records after Mussari and Vigni had departed, discovered internal "mandate agreements" tied to the Nomura and Deutsche Bank deals — side documents laying out the deals' true purpose in writing. The disclosure forced MPS to restate years of financial statements, triggered a collapse in its share price, and led the Italian government to step in with a multibillion-euro bailout to keep the bank solvent, while prosecutors in Siena and then Milan opened a criminal investigation.
+
+On November 8, 2019, a Milan court convicted thirteen former bankers from MPS, Deutsche Bank, and Nomura of market manipulation and false accounting, handing Mussari the heaviest sentence — seven years and six months — with lengthy terms for Vigni and senior Deutsche Bank and Nomura executives, plus tens of millions of euros in fines and asset seizures against the two foreign banks. The verdict didn't hold: in May 2022, a Milan appeals court overturned every conviction, finding the evidence insufficient to sustain the fraud charges, and in 2023 Italy's Supreme Court upheld those acquittals, closing the case with no one ultimately found guilty of anything.
+
+The MPS case shows how far a fraud can travel through a legal system — a criminal investigation, a headline conviction, prison sentences handed down in open court — without ever arriving at a final, binding verdict of guilt. The underlying facts were never seriously disputed: the internal memos describing the deals' real purpose surfaced and were published, the losses were real, and the bank needed a government rescue to survive them. What the case illustrates is that even overwhelming documentary evidence of a cover-up can fail to survive an appeals process demanding that prosecutors prove not just what happened, but that it met the precise legal definition of the specific crimes charged — a gap that, in this instance, let every defendant walk away.`,
+    sourceUrl: 'https://www.euronews.com/2019/11/08/italian-court-convicts-deutsche-bank-nomura-in-monte-paschi-derivative-trial',
+    // representative photo — replace with a portrait if found
+});
