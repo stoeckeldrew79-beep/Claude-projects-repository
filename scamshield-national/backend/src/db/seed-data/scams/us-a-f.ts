@@ -9927,3 +9927,64 @@ UsAF.push({
     sourceUrl: 'https://www.ic3.gov/PSA/2025/PSA251219',
     country: 'US',
 });
+
+UsAF.push({
+    name: 'DC Grandparent Scam via AI Voice Cloning',
+    slug: 'dc-disb-grandparent-scam-ai-voice-cloning',
+    description: `Scammers scrape voice recordings of teens and young adults from social media and use voice-cloning software to impersonate a District resident's grandchild in a panicked emergency call, often claiming a kidnapping and demanding payment in Bitcoin or cryptocurrency. DC's Department of Insurance, Securities and Banking (DISB) cites FTC data that roughly 10 DC residents report this scam annually and that DC residents over 60 lost $7.7 million to scams overall in a single year. DISB advises asking a verification question only the real grandchild would know, hanging up to call the grandchild directly, and never sending money or cryptocurrency to an unverified caller.`,
+    categorySlug: 'grandparent-scams',
+    alertLevel: 'medium',
+    sources: ['DC Department of Insurance, Securities and Banking (DISB)'],
+    sourceUrl: 'https://disb.dc.gov/page/grandparent-scam',
+    country: 'US',
+    state: 'DC',
+});
+
+UsAF.push({
+    name: 'DC Refinance-to-Deed-Transfer Homeownership Scam',
+    slug: 'dc-oag-refinance-deed-transfer-homeowner-scam',
+    description: `DC's Office of the Attorney General warns that scammers posing as mortgage brokers or foreclosure-relief helpers present District homeowners with paperwork described as a refinance, debt-settlement, or "lease-back" agreement that is actually a deed transfer — permanently signing away ownership of the home, with no guarantee the homeowner can buy it back or keep living there afterward. The alert also covers related tactics: bogus "home warranty" renewal letters, phantom foreclosure-prevention counselors who charge large upfront fees and vanish, and fake "Bureau of Tax Enforcement" property-lien letters. OAG flags pressure to sign immediately, blank spaces left on documents, requests for cashier's checks or wire transfers, and advice to stop communicating with one's actual lender as red flags.`,
+    categorySlug: 'mortgage-foreclosure-scams',
+    alertLevel: 'high',
+    sources: ['DC Office of the Attorney General (OAG)'],
+    sourceUrl: 'https://oag.dc.gov/release/consumer-alert-do-you-own-home-dc-avoid-scams',
+    country: 'US',
+    state: 'DC',
+});
+
+UsAF.push({
+    name: 'Book Publisher Imposter Advance-Fee Scam (Alabama)',
+    slug: 'alabama-book-publisher-imposter-advance-fee-scam',
+    description: `The Alabama Securities Commission's Financial Exploitation Newsletter (Vol. 3, July 2026) describes a report from a financial institution: an Alabama author, previously published through smaller regional presses, was contacted by someone posing as a representative of a well-known publishing company who offered an advance and residual payments on his next book. To "solidify the deal," the imposter got him to agree to wire $240,000, while pressuring him to keep the transaction confidential. His bank flagged and stopped the wire before it went out and reported the fraud to ASC. The Commission calls it an evolving imposter tactic that increasingly targets people through scams tailored to their specific profession or interests.`,
+    categorySlug: 'employment-scams',
+    alertLevel: 'medium',
+    sources: ['Alabama Securities Commission'],
+    sourceUrl: 'https://asc.alabama.gov/wp-content/uploads/2026/07/Financial-Exploitation-Newsletter-Volume-3.pdf',
+    country: 'US',
+    state: 'AL',
+});
+
+UsAF.push({
+    name: 'FTC Impersonator "Secure Your Accounts" Liquidation Scam (Alabama)',
+    slug: 'alabama-ftc-impersonator-secure-accounts-liquidation-scam',
+    description: `The Alabama Securities Commission's Financial Exploitation Newsletter describes a financial professional who contacted the Commission on behalf of a client targeted by an FTC-impersonation scam. A caller claiming to be an FTC employee told the victim he was part of a criminal investigation and needed to "secure" his accounts, instructed him not to tell anyone, and directed him to convert all his funds to cryptocurrency and cash to be held safe until the investigation concluded, promising the money would be returned. The victim liquidated a bank account and investment accounts, took out a second mortgage, and obtained a $50,000 loan — sending a total of $564,000 to the scammer before ASC and the financial professional intervened to stop further losses.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Alabama Securities Commission'],
+    sourceUrl: 'https://asc.alabama.gov/wp-content/uploads/2026/07/Financial-Exploitation-Newsletter-Volume-3.pdf',
+    country: 'US',
+    state: 'AL',
+});
+
+UsAF.push({
+    name: 'Festiva Timeshare/Travel Club Deceptive Sales Settlement (Alabama)',
+    slug: 'alabama-festiva-timeshare-travel-club-settlement',
+    description: `On October 27, 2014, Alabama Attorney General Luther Strange announced a settlement with Festiva Development Group of North Carolina over deceptive marketing of its Festiva Vacation Club timeshare and travel-club memberships to Alabama consumers. Under the Assurance of Voluntary Compliance, 107 consumers with complaints then pending at the AG's office received refunds of about $467 each, with roughly 221 more consumers eligible to claim additional refunds; Festiva also paid $25,000 for the state's investigation costs. The settlement barred Festiva from misrepresenting vacations or gifts as "free" when strings were attached, required upfront disclosure of gift/certificate terms and obligations, and mandated a private post-presentation window before customers could be pressured into signing.`,
+    categorySlug: 'timeshare-scams',
+    sources: ['Alabama Attorney General'],
+    sourceUrl: 'https://www.alabamaag.gov/ag-announces-settlement-with-timeshare-travel-club-to-provide-75000-in-refunds-for-alabama-consumers/',
+    country: 'US',
+    state: 'AL',
+    isHistorical: true,
+    firstRecorded: '2014-10-27',
+});
