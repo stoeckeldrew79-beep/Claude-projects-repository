@@ -10216,3 +10216,35 @@ Chalabi's case is a reminder that a fraud conviction and actual accountability a
     coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Chalabi.jpg?width=1200',
     coverImageCredit: 'Photo: U.S. State Dept./Michael Gross (public domain) — Ahmad Chalabi, 2003',
 });
+
+NotoriousAF.push({
+    title: "Brian Slobogian and the Eron Mortgage Scheme That Took British Columbia's Retirees",
+    slug: 'brian-slobogian-eron-mortgage-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'international', 'securities-fraud'],
+    body: `From 1993 to 1997, Vancouver businessman Brian Slobogian built Eron Mortgage Corporation into one of the largest investor-fraud schemes in Canadian history, raising more than $240 million from an estimated 3,000 to 4,000 investors across British Columbia, many of them seniors putting in their retirement savings. Eron sold investors mortgage interests in real estate development projects across western Canada and the US, marketed with promised annual returns as high as 24 percent — returns the BC Securities Commission later found Slobogian and his executives knew could not realistically be paid.
+
+Behind the pitch, Eron routinely placed investors in mortgage positions with lower priority than promised, without their knowledge, used inflated property valuations to secure the mortgages, and diverted raised capital to purposes never disclosed to investors. As development projects failed to produce anything close to the promised returns, the company kept paying existing investors out of money raised from new ones, layering a Ponzi-like structure on top of what had been marketed as ordinary mortgage lending. Slobogian personally spent investor money on condominiums, luxury watches, and country club memberships.
+
+Eron collapsed in 1997, triggering a BC Securities Commission investigation and hearing that ran from April to September 1999. In a decision released in February 2000, the Commission found that Eron and its executives had perpetrated a "massive fraud" on the investing public by distributing unregistered securities and making systematic misrepresentations; it banned Slobogian for life from British Columbia's securities markets and, along with related penalties against vice-president Frank Biller and the Eron companies, imposed roughly $1.8 million in administrative penalties. Criminal charges followed. In March 2005, Slobogian pleaded guilty to one count of fraud and four counts of theft, and a BC Supreme Court justice sentenced him to six years in prison, telling the court he had "devastated the lives of Eron investors, many at or near retirement who saw their life savings vanish." Investor losses were ultimately estimated at more than $170 million, with only a fraction ever recovered.
+
+The Eron case remains one of the largest investor-fraud collapses in British Columbia's history, and it illustrates a pattern that recurs across mortgage- and real-estate-investment schemes: a real, tangible asset class — actual property, actual mortgages — used to lend credibility to promised returns the underlying business could never support, with new money quietly propping up the old until the math simply stopped working.`,
+    sourceUrl: 'https://www.theglobeandmail.com/report-on-business/eron-president-gets-six-years-for-fraud-theft/article18219756/',
+    // representative photo — replace with a portrait if found
+});
+
+NotoriousAF.push({
+    title: "Fernando Collor de Mello: From Brazil's First Elected President to a Corruption Conviction",
+    slug: 'fernando-collor-de-mello-br-distribuidora-corruption',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'international', 'corruption', 'bribery', 'government-fraud'],
+    body: `Fernando Collor de Mello became, in 1990, the first president chosen by direct popular vote in Brazil since the end of military rule, campaigning as a corruption-fighting outsider. Barely two years later, Congress impeached and removed him amid the "PC Farias" scandal, in which his campaign treasurer, Paulo César Farias, ran an influence-peddling scheme that collected kickbacks from businesses in exchange for government favors and funneled the proceeds toward Collor's personal expenses; Collor resigned as the Senate was voting to convict him, and Brazil's Supreme Federal Tribunal (STF) later acquitted him of the underlying criminal charges in 1994 for lack of direct evidence tying him to the scheme.
+
+Collor's political career survived that scandal — he was later elected senator for his home state of Alagoas — and he resurfaced years later in Operation Car Wash (Lava Jato), Brazil's sprawling investigation into corruption at the state oil company Petrobras. Federal prosecutors alleged that between 2010 and 2014, Collor used his political influence over board appointments at BR Distribuidora, then a Petrobras fuel-distribution subsidiary, to help construction company UTC Engenharia win contracts to build fuel-distribution terminals; in exchange, intermediaries funneled roughly 20 million reais in bribes to Collor through businessmen Luiz Pereira Duarte de Amorim and Pedro Paulo Bergamaschi de Leoni Ramos.
+
+The case moved through the STF, which has original jurisdiction over sitting and former senators, and on May 31, 2023, the court convicted Collor by an 8-2 vote on charges of passive corruption and money laundering. He was sentenced to eight years and ten months in prison; his intermediaries Amorim and Leoni Ramos received three-year and four-year-and-one-month sentences respectively. Collor's lawyers appealed, but on April 24, 2025, the STF upheld the conviction by a 6-4 vote, and Justice Alexandre de Moraes ordered his arrest the next morning. Collor, then 75, was taken into custody in the city of Maceió as he traveled toward Brasília, reportedly to surrender voluntarily, becoming the first former Brazilian president imprisoned over the Car Wash probe.
+
+Collor's arc — the anti-corruption candidate whose government fell to a slush-fund scandal in 1992, acquitted at the time only to be convicted three decades later in an unrelated bribery scheme tied to a different state company — illustrates how a political career can survive one corruption scandal only to be brought down by another, and how a relatively modest, sustained stream of kickbacks tied to routine corporate appointments can still end in a real prison sentence once investigators have the financial trail to follow.`,
+    sourceUrl: 'https://www.aljazeera.com/news/2025/4/25/brazils-ex-president-collor-de-mello-arrested-after-corruption-sentence',
+    // representative photo — replace with a portrait if found
+});
