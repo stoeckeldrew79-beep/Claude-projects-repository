@@ -9838,3 +9838,106 @@ UsGM.push({
     country: 'US',
     state: 'IL',
 });
+
+UsGM.push({
+    name: 'Dubuque County / Dyersville Business Email Compromise',
+    slug: 'iowa-dubuque-county-dyersville-business-email-compromise',
+    description: `In December 2023, Dubuque County's Auditor's Office was defrauded of $524,283.88 in federal American Rescue Plan Act funds earmarked for the City of Dyersville's Field of Dreams project, after Dyersville's own email system was compromised and a scammer used it to send a convincing fraudulent invoice with changed wire instructions that appeared to come from a real city official. County staff processed the transfer to an out-of-state bank account without verifying the changed payment details by phone, and the fraud wasn't discovered until February 2024, when Dyersville followed up about a second suspicious invoice. The Dubuque County Sheriff's Office opened an investigation, the money was never recovered, and Dyersville later sued the county to recoup the loss.`,
+    categorySlug: 'business-email-compromise',
+    sources: ['KCRG'],
+    sourceUrl: 'https://www.kcrg.com/2024/02/26/dubuque-county-auditor-city-dyersvilles-email-system-was-hacked/',
+    country: 'US',
+    state: 'IA',
+});
+
+UsGM.push({
+    name: 'Des Moines Craigslist Fake Landlord Rental Scam',
+    slug: 'iowa-des-moines-craigslist-fake-landlord-rental-scam',
+    description: `As Des Moines's rental market has tightened, scammers have repeatedly copied real property listings onto Craigslist and posed as the landlord, as documented by the Des Moines Register. In one case, prospective tenant Kevin Best was texted back within minutes of inquiring about a $1,000-a-month one-bedroom and told he'd need to submit an application and pay a $50 fee before he could even see the unit; in another, a Waukee landlord found a stranger re-advertising his own rental property at a different price to collect fees and personal information from unsuspecting applicants. The FTC, the Iowa Association of Realtors, and the Iowa Attorney General's office have all warned about the pattern: victims who pay an application fee or deposit sight-unseen typically lose their money and get nothing in return.`,
+    categorySlug: 'rental-housing',
+    sources: ['Des Moines Register'],
+    sourceUrl: 'https://www.yahoo.com/news/too-good-true-spot-signs-152103087.html',
+    country: 'US',
+    state: 'IA',
+});
+
+UsGM.push({
+    name: 'Iowa Judicial Branch Fake Collection Notice Scam',
+    slug: 'iowa-judicial-branch-fake-collection-notice-scam',
+    description: `The Iowa Judicial Branch has warned that scammers are mailing fake "collection notices" designed to look like they come from the Judicial Branch or a county clerk of court, falsely threatening that a recipient's driver's license will be suspended and an arrest warrant issued unless they call a 1-800 number and pay immediately. The scheme appears to specifically target Iowans who have since moved out of state, on the theory they're less able to easily check with a local clerk's office. Iowa courts do not collect debts this way or threaten license suspension and arrest by phone, and the Judicial Branch directs anyone who receives such a notice to contact their county clerk of court directly — not the number printed on the notice — to verify it.`,
+    categorySlug: 'legal-debt-collection',
+    sources: ['Iowa Judicial Branch'],
+    sourceUrl: 'https://www.iowacourts.gov/announcements/iowa-judicial-branch-warns-of-a-collection-notice-scam',
+    country: 'US',
+    state: 'IA',
+});
+
+UsGM.push({
+    name: 'Daniel Shrader Indianapolis-Area Foreclosure-Rescue Fee Fraud',
+    slug: 'indiana-daniel-shrader-foreclosure-rescue-fraud',
+    description: `Daniel Shrader worked as an agent for at least 11 different foreclosure-rescue companies and collected upfront fees as large as $20,000 from Indianapolis-area homeowners facing foreclosure, falsely promising to negotiate reduced payments or stop foreclosure proceedings, then failed to deliver. The Indiana Attorney General's office won a default judgment against him in May 2014 for $117,500 in restitution, which went uncollected; identified victims spanned ten Indiana counties. Then-Attorney General Greg Zoeller called Shrader "one of the worst offenders the office has seen in recent years," and the state's Consumer Protection Assistance Fund ultimately paid out $67,200 to 29 of his victims, capped at $3,000 each, since the judgment itself was never paid.`,
+    categorySlug: 'mortgage-foreclosure-scams',
+    sources: ['The Indiana Lawyer', "Indiana Attorney General's Office"],
+    sourceUrl: 'https://www.theindianalawyer.com/articles/38108-ag-foreclosure-fraud-victims-share-67k-in-relief',
+    country: 'US',
+    state: 'IN',
+    isHistorical: true,
+    firstRecorded: '2014-05-01',
+});
+
+UsGM.push({
+    name: 'BBB Serving Northern Indiana "Task-Based" Job Scam Alert',
+    slug: 'indiana-bbb-northern-indiana-task-based-job-scam',
+    description: `The Better Business Bureau Serving Northern Indiana warned Hoosiers, especially recent college graduates and people newly entering the workforce, about a fast-growing scam in which criminals impersonate recruiters or well-known companies and text or call with a job offer that skips the interview entirely. Many of the offers are "task-based" jobs promising pay for liking videos or subscribing to channels, while other variants demand upfront "tax" or processing fees, or a payment to "unlock" wages the victim supposedly already earned, before the fake job and company vanish. BBB Serving Northern Indiana President and CEO Jan Diaz issued the warning on June 1, 2026, as national BBB data showed employment-scam reports had more than doubled in 2025 to over 45,000 encounters with a median loss around $1,000, and urged job seekers to verify any unsolicited offer against a company's own official listings and never pay to access a paycheck.`,
+    categorySlug: 'job-task-scams',
+    alertLevel: 'medium',
+    sources: ['Better Business Bureau Serving Northern Indiana', 'WANE 15 (Fort Wayne)'],
+    sourceUrl: 'https://futureproof.app/blog/bbb-warns-of-growing-employment-scam-targeting-job-seekers/',
+    country: 'US',
+    state: 'IN',
+});
+
+UsGM.push({
+    name: 'Indiana Fake Package Delivery Text and Email Scam',
+    slug: 'indiana-fake-package-delivery-text-scam',
+    description: `The Indiana Attorney General's office warned Hoosiers about fraudulent texts and emails impersonating FedEx, UPS, Amazon, and the U.S. Postal Service that claim a package can't be delivered due to an address problem and pressure the recipient to click a link within a short deadline, sometimes as little as 12 hours, to "confirm" their address. The linked pages are built to harvest personal and payment-card information or install malware rather than fix any real delivery issue. The Attorney General's office advised residents to never click links in unsolicited shipping texts or emails and to check delivery status only through a carrier's own official site or app.`,
+    categorySlug: 'package-delivery-scams',
+    alertLevel: 'medium',
+    sources: ["Indiana Attorney General's Office", 'WNDU (South Bend)'],
+    sourceUrl: 'https://www.wndu.com/2023/09/20/indiana-ag-beware-shipping-delivery-scam/',
+    country: 'US',
+    state: 'IN',
+});
+
+UsGM.push({
+    name: 'New Orleans Bourbon Street Attack Charity Donation Scam Warning',
+    slug: 'louisiana-bourbon-street-attack-charity-donation-scam-warning',
+    description: `After the January 1, 2025 truck attack on Bourbon Street in New Orleans, which killed 14 people, the BBB Wise Giving Alliance warned donors that scammers and hastily formed "charities" would exploit the tragedy — using victims' names or photos without family permission, running vague crowdfunding appeals that don't specify how funds will be used, and selling memorial merchandise with undefined "proceeds" pledges. The alliance urged donors to confirm a fundraiser's actual connection to victims' families, be wary of newly formed groups with no track record, and check any charity against BBB's 20 Standards for Charity Accountability before giving.`,
+    categorySlug: 'charity-scams',
+    sources: ['BBB Wise Giving Alliance'],
+    sourceUrl: 'https://give.org/news/how-to-help-victims-of-the-new-orleans-truck-attack-on-bourbon-street',
+    country: 'US',
+    state: 'LA',
+});
+
+UsGM.push({
+    name: 'Accelerated Auto Motors AI-Enhanced Online Vehicle Sale Scam',
+    slug: 'louisiana-accelerated-auto-motors-ai-vehicle-sale-scam',
+    description: `The BBB of South Central Louisiana warned that a seller doing business online and on Facebook as "Accelerated Auto Motors" advertised RVs at unusually low prices, refused to let buyers inspect vehicles before paying, and demanded payment by bank wire or direct transfer before any shipment. BBB investigators found the dealership's photos of its facility and inventory appeared to be AI-generated, and could not verify licensing with the Louisiana Motor Vehicle Commission. The BBB advised inspecting any vehicle in person, verifying dealer licensing directly with the state, and avoiding irreversible wire payments for vehicles never seen firsthand.`,
+    categorySlug: 'online-shopping-scams',
+    sources: ['BBB of South Central Louisiana', 'WBRZ'],
+    sourceUrl: 'https://www.wbrz.com/news/better-business-bureau-of-south-central-louisiana-warns-of-online-vehicle-sales-as-possible-scams',
+    country: 'US',
+    state: 'LA',
+});
+
+UsGM.push({
+    name: 'Crypto ATM "Compromised Account" Scam Targeting Elderly Louisianans',
+    slug: 'louisiana-crypto-atm-compromised-account-elderly-scam',
+    description: `Scammers call victims posing as bank or tech-company customer service, claim their account or computer has been compromised by hackers, and — using urgency and instructions not to touch the computer or tell anyone — direct the victim to withdraw cash and feed it into a nearby cryptocurrency ATM, framing it as the only way to "protect" their remaining money. The Advocate documented the case of Danny Foret, a 78-year-old Thibodaux retiree who lost roughly a third of his life savings this way after being told hackers had used his funds for child pornography and gambling. The pattern, and cases like Foret's, drove passage of Louisiana Act 369 (HB 483) of 2025, which caps crypto-kiosk transactions at $3,000/day, imposes a mandatory 72-hour hold, and requires kiosks to post a warning that no government official will ever ask for cash deposited into a crypto ATM.`,
+    categorySlug: 'tech-support-scams',
+    sources: ['The Advocate (Baton Rouge)'],
+    sourceUrl: 'https://www.theadvocate.com/baton_rouge/news/crime_police/crypto-atms-bitcoin-louisiana-scam-elderly/article_213dcab4-f423-458c-96b0-a9f4aedc539a.html',
+    country: 'US',
+    state: 'LA',
+});
