@@ -9476,3 +9476,38 @@ UsNS.push({
     country: 'US',
     state: 'OK',
 });
+
+UsNS.push({
+    name: 'Nevada Utility Bill-Pay Kiosk QR Code Scam',
+    slug: 'nevada-utility-bill-pay-kiosk-qr-code-scam',
+    description: `A caller impersonating a utility company representative pressures a Nevada resident to visit a cash bill-pay kiosk while staying on the phone, then texts a QR code claiming it links to the customer's account. Scanning that QR code at the kiosk routes the cash payment directly to the scammer's own account instead of the utility. The Nevada Attorney General's Office noted legitimate utilities send written past-due notices before threatening disconnection and never direct payment through a texted QR code.`,
+    categorySlug: 'qr-code-scams',
+    alertLevel: 'medium',
+    sources: ["Nevada Attorney General's Office"],
+    sourceUrl: 'https://ag.nv.gov/News/PR/2020/Attorney_General_Ford_Warns_of_Utility_Imposter_Scams__Involving_QR_Codes/',
+    country: 'US',
+    state: 'NV',
+});
+
+UsNS.push({
+    name: 'Las Vegas FBI Sextortion of Teen Boys',
+    slug: 'nevada-fbi-las-vegas-teen-boy-sextortion-scheme',
+    description: `The FBI's Las Vegas Field Office warned of rising sextortion schemes in which an adult predator poses online as a teenage girl to contact boys, typically ages 14-17, via social media or gaming platforms. After manipulating the victim into sending explicit images or video, the predator reveals the material was secretly recorded and demands payment to prevent it from being posted online. The FBI noted that shame is the main reason victims don't come forward to a parent, teacher, or law enforcement.`,
+    categorySlug: 'sextortion',
+    alertLevel: 'high',
+    sources: ['FBI Las Vegas Field Office'],
+    sourceUrl: 'https://www.fbi.gov/contact-us/field-offices/lasvegas/news/press-releases/fbi-las-vegas-field-office-warns-of-increase-in-sextortion-schemes-targeting-young-boys',
+    country: 'US',
+    state: 'NV',
+});
+
+UsNS.push({
+    name: 'Nevada Grandparent Gift Card Bail Scam',
+    slug: 'nevada-grandparent-gift-card-bail-scam',
+    description: `Scammers call Nevada seniors pretending to be a grandchild in urgent trouble — claiming an arrest requiring bail or a car accident while traveling — disguising their voice and pressuring the grandparent to keep the call secret from other family members. The Nevada Attorney General's Office warned that these callers increasingly demand payment via gift cards (Amazon, Walmart, Visa, American Express) because those transactions are hard to reverse. The office urges anyone receiving such a call to hang up and verify by calling the family member directly at a known number.`,
+    categorySlug: 'grandparent-scams',
+    sources: ["Nevada Attorney General's Office"],
+    sourceUrl: 'https://ag.nv.gov/News/PR/2023/Attorney_General_Ford_Urges_Nevadans_to_Protect_Themselves_From_Scams_Targeting_Grandparents/',
+    country: 'US',
+    state: 'NV',
+});
