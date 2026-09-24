@@ -9645,3 +9645,15 @@ Andale Police Chief Mark Cook warned residents directly: "If you get a text mess
     country: 'US',
     state: 'KS',
 });
+
+UsGM.push({
+    name: 'Spoofed FBI Boston Number Federal Agent Impersonation Scam',
+    slug: 'maine-fbi-boston-spoofed-number-agent-impersonation-scam',
+    description: `The FBI's Boston Division, which covers Maine, warned of a multi-stage scam that begins with a caller posing as a bank employee who claims the victim's identity was used to open an account and buy illegal firearms, then "transfers" the call to a supposed FBI agent. The victim's caller ID is spoofed to display the FBI Boston office's real phone number, and the fake agent — using a fabricated name and badge number — pressures the victim to move the conversation to an encrypted messaging app before extracting money or personal information. The FBI Boston Division said Mainers lost more than $600,000 in 2025 alone to scammers impersonating government employees.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['FBI Boston Division'],
+    sourceUrl: 'https://wgme.com/news/i-team/fbi-warns-mainers-about-scammers-pretending-to-be-federal-agents-maine-agent',
+    country: 'US',
+    state: 'ME',
+});
