@@ -9718,3 +9718,74 @@ UsGM.push({
     country: 'US',
     state: 'ME',
 });
+
+UsGM.push({
+    name: 'Mississippi Public Service Commission Employee Impostor Scam',
+    slug: 'mississippi-psc-employee-impostor-scam',
+    description: `A caller impersonates a Mississippi Public Service Commission (MPSC) employee — in one confirmed case providing a fake badge number — and tells the target their utility company overbilled them, then asks for bank account information to "deposit the refund." In a second confirmed variant, the caller claims MPSC will send $200 for paying an electric bill on time but needs the victim's credit card number to do it. The MPSC states its employees will never request bank or credit card information over the phone and confirmed both incidents were reported to it directly by the targeted citizens.`,
+    categorySlug: 'utility-scams',
+    alertLevel: 'medium',
+    sources: ['Mississippi Public Service Commission'],
+    sourceUrl: 'https://www.psc.ms.gov/sites/default/files/2024-07/PSA_MPSCWarnUtilityCustomersofPSCEmployeeImpostorScam.pdf',
+    country: 'US',
+    state: 'MS',
+});
+
+UsGM.push({
+    name: 'FEMA/MEMA Post-Disaster Fraud and Fake Housing Inspector Scam (Mississippi)',
+    slug: 'mississippi-fema-disaster-fraud-fake-inspector-scam',
+    description: `After the April 2024 Mississippi tornadoes (FEMA disaster DR-4790-MS), FEMA and the Mississippi Emergency Management Agency warned that criminals were filing fraudulent FEMA disaster-assistance applications using survivors' stolen names, addresses, and Social Security numbers — meaning a legitimate FEMA housing inspector could show up at the home of someone who never applied. A related tactic has scammers posing as FEMA housing inspectors and asking for banking information, or promising a disaster grant in exchange for an upfront payment. FEMA states its representatives never charge for applications, inspections, or assistance, and never collect banking details in the field.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['FEMA', 'Mississippi Emergency Management Agency (MEMA)'],
+    sourceUrl: 'https://www.scottcountyms.gov/sites/default/files/DR-4790-MS%20NR%20002%20Be%20Aware%20of%20Fraud%20After%20a%20Disaster.pdf',
+    country: 'US',
+    state: 'MS',
+});
+
+UsGM.push({
+    name: 'Mississippi Bitcoin ATM Investment Scam',
+    slug: 'mississippi-bitcoin-atm-scam-warning',
+    description: `The Mississippi Secretary of State's Securities Division, which regulates who may sell investments in the state, warned in December 2025 of a rising pattern in which scammers direct victims to withdraw cash and feed it into a Bitcoin ATM kiosk — found in convenience stores, malls, and similar high-traffic locations — to move money into cryptocurrency the scammer then controls. Secretary Michael Watson noted an uptick in securities-related scams generally and urged residents to verify anyone claiming to be a broker or investment adviser through the Securities Division before sending money, since crypto platforms lack the protections of a bank or securities account.`,
+    categorySlug: 'cryptocurrency-scams',
+    sources: ['Mississippi Secretary of State — Securities Division'],
+    sourceUrl: 'https://www.sos.ms.gov/news/secretary-michael-watson-warns-increasing-uses-bitcoin-atm-scams',
+    country: 'US',
+    state: 'MS',
+});
+
+UsGM.push({
+    name: 'Reaper Investment Partners / Hydra International Foreclosure-Rescue Fraud',
+    slug: 'kansas-city-reaper-investment-partners-foreclosure-rescue-fraud',
+    description: `Kansas City, Missouri husband-and-wife business owners John Lee Norris and Julie Tina Hatcher operated Reaper Investment Partners, LLC (d/b/a Hydra International), recruiting homeowners in financial distress from August 2010 to June 2013 with promises that a monthly payment to the firm would stop or prevent foreclosure. They instead spent client payments on themselves; 81 identified victims lost roughly $759,344 and HUD absorbed $317,704 more on foreclosed properties, with victims losing homes and vehicles even as the pair kept signing new clients after being contacted by the FBI and after indictment. Norris and Hatcher were each sentenced to nine years in federal prison without parole and ordered to pay over $1 million combined in restitution.`,
+    categorySlug: 'mortgage-foreclosure-scams',
+    alertLevel: 'high',
+    sources: ['FBI Kansas City Field Office'],
+    sourceUrl: 'https://www.fbi.gov/contact-us/field-offices/kansascity/news/press-releases/kansas-city-business-owners-sentenced-in-1-million-fraud-scheme-of-debt-stressed-clients',
+    country: 'US',
+    state: 'MO',
+});
+
+UsGM.push({
+    name: 'Missouri "VIP Delivery Transit Program" Seized-Package / Highway Patrol Impersonation Scam',
+    slug: 'missouri-highway-patrol-vip-delivery-transit-program-package-scam',
+    description: `Missouri's Division of Drug and Crime Control and the Missouri State Highway Patrol warned on June 23, 2026 about scammers who first build rapport with victims over social media chat, then send a WhatsApp message containing an AI-generated document bearing the Missouri State Highway Patrol logo, claiming a package was "seized for inspection" under a fictitious "VIP Delivery Transit Program" and demanding gift-card payment to release it. MSHP confirmed no such program exists and that it never demands funds this way, and officials reported victims suffering severe financial loss.`,
+    categorySlug: 'package-delivery-scams',
+    alertLevel: 'medium',
+    sources: ['Missouri State Highway Patrol', 'Missouri Division of Drug and Crime Control'],
+    sourceUrl: 'https://www.wgem.com/2026/06/23/missouri-officials-warn-scam-demanding-processing-fees-seized-packages/',
+    country: 'US',
+    state: 'MO',
+});
+
+UsGM.push({
+    name: 'Saving St. Louis Pets Charity Fraud (Constance K. Kruse)',
+    slug: 'saving-st-louis-pets-charity-fraud',
+    description: `Constance K. Kruse, president of the St. Louis nonprofit Saving St. Louis Pets, solicited donations for pets' medical care but diverted $104,482.02 to personal spending — including trips, makeup, and designer handbags — and kept soliciting under the charity's name even after it was formally dissolved in December 2023. The Missouri Attorney General's office indicted Kruse on February 4, 2025 on one count of Deceptive Business Practice; she was arrested roughly a year later in New Mexico, extradited in January 2026, and pleaded guilty on September 18, 2026 to a four-year stayed sentence with five years of supervision, conditioned on paying the full $104,482.02 in restitution to the Animal Protective Association of Missouri.`,
+    categorySlug: 'charity-scams',
+    alertLevel: 'medium',
+    sources: ["Missouri Attorney General's Office"],
+    sourceUrl: 'https://ago.mo.gov/attorney-general-hanaway-secures-104000-in-restitution-in-st-louis-pet-health-not-for-profit-fraud-case/',
+    country: 'US',
+    state: 'MO',
+});
