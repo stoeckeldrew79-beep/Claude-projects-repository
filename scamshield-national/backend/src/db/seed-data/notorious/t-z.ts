@@ -3290,3 +3290,21 @@ The Villalobos case shows how far a Ponzi scheme can run when it hides behind th
     coverImageCredit: 'Photo: Bernal Saborio (CC BY-SA 2.0) — San José, Costa Rica, where "The Brothers" operated',
     coverImagePosition: 50,
 });
+
+NotoriousTZ.push({
+    title: 'Vladimiro Montesinos and the Price List for a Democracy',
+    slug: 'vladimiro-montesinos-vladivideos-bribery-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'international', 'corruption', 'bribery', 'government-fraud'],
+    body: `Vladimiro Montesinos was a former army officer, once dishonorably discharged for selling military secrets and later a lawyer for Colombian drug traffickers, who became the de facto head of Peru's national intelligence service (SIN) after President Alberto Fujimori appointed him an advisor in 1990. Over the following decade, Montesinos built and ran a systematic bribery operation designed to buy off every institution that could check Fujimori's power — Congress, the judiciary, and above all television — funding it by diverting Peru's secret SIN budget (which grew more than 50-fold under his control, reaching roughly $1.5 million a month by 2000), under-the-table transfers from the Ministries of Interior and Defense, and kickbacks from arms deals.
+
+Montesinos priced his bribes with striking precision, documented later by economists who reconstructed his "price list" from his own receipts and videotapes: opposition congressmen who agreed to defect to Fujimori's party typically received $10,000-$20,000 a month, judges got $5,000-$10,000 a month (two to three times their official salaries), and television-station owners — whose reach he valued above all — were paid far more, with the country's largest channel alone taking in roughly $1.5 million a month and total television payoffs exceeding $3 million a month. Uniquely, Montesinos insisted on documenting nearly every transaction: he required signed "honor contracts," demanded written receipts, and secretly filmed the cash handoffs themselves, building an archive of more than 1,600 recordings that came to be known as the "vladivideos."
+
+The scheme collapsed on September 14, 2000, when opposition congressmen released one of those tapes — smuggled out of Montesinos's office by his own bookkeeper — showing him handing $15,000 in cash to congressman Alberto Kouri to switch parties. Broadcast first on Peru's one unbribed television channel and then, as public pressure mounted, on the rest, the tape set off Fujimori's resignation by fax from Japan weeks later and a cascade of prosecutions. Investigators eventually traced more than $200 million in Montesinos's own overseas bank accounts, and roughly 1,600 Peruvians faced charges for participating in his network.
+
+Montesinos was captured in Venezuela in 2001 and extradited to Peru. In June 2004 he was convicted and sentenced to 15 years in prison for using state intelligence funds to bribe a television network into backing Fujimori's 2000 re-election campaign; in September 2006 he received a further 20-year sentence, plus a $3.1 million fine split between the Peruvian and Colombian governments, for orchestrating an illegal delivery of 10,000 assault rifles to Colombian FARC guerrillas. He went on to accumulate more than 30 separate corruption-related convictions and remains imprisoned in Peru today.
+
+Montesinos's own bribe prices, reconstructed from his meticulous paper trail, showed exactly where he believed the real danger to his power lay: he paid television owners roughly a hundred times what he paid individual politicians, because a single defiant broadcaster could expose the whole operation no matter how many others he had already bought off. The case stands as one of the most thoroughly documented examples of state-scale corruption in modern history — precisely because the man running it insisted on keeping the receipts.`,
+    sourceUrl: 'https://pricetheory.uchicago.edu/levitt/Papers/McMillanZoido2004.pdf',
+    // representative photo — replace with a portrait if found
+});
