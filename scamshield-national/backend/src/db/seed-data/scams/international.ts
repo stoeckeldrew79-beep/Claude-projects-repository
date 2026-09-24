@@ -22068,3 +22068,23 @@ International.push({
   isHistorical: true,
   firstRecorded: '2023-12-06',
 });
+
+International.push({
+  name: '"Mobile City Phones Paradise" Fake Online Phone Shop Impersonation',
+  slug: 'zambia-mobile-city-phones-paradise-fake-shop-impersonation',
+  description: `Two suspects created a fake Facebook page and WhatsApp channel impersonating the real Lusaka business "Mobile City Phones Paradise Zambia," using the stolen identity of the legitimate company to sell mobile phones that did not exist to unsuspecting buyers between June 2023 and October 2025. The real business alerted police after receiving customer complaints, and the Zambia Police Service's Cyber Security Task Force traced the suspects to Kazembe District (Luapula Province) and Senanga District (Western Province), recovering the phones used to run the fake accounts. The case illustrates a pattern where fraudsters clone a genuine, trusted retailer's branding on social media rather than inventing a fake storefront from scratch, making the fake page harder for buyers to distinguish from the real business.`,
+  categorySlug: 'online-shopping-scams',
+  sources: ['Zambia Police Service — Cyber Security Task Force'],
+  sourceUrl: 'https://zambianobserver.com/zambia-police-crack-down-on-online-scammers/',
+  country: 'ZM',
+});
+
+International.push({
+  name: 'Fake Zambia Police Recruitment Scam',
+  slug: 'zambia-fake-police-recruitment-scam',
+  description: `Zambia Police Service spokesperson Godfrey Chilabi publicly dismissed false claims circulating on social media that the Police Service was actively recruiting new officers, clarifying that a recent Commanders' Conference discussion about future staffing needs had been misrepresented online as an open recruitment drive. Chilabi warned that scammers may exploit this confusion by posing as recruitment agents and soliciting money or personal information from job seekers hoping to join the police, and stated that any genuine recruitment exercise is always announced only through official, credible media channels. The case is one of several similar fake-recruitment scares in Zambia in 2025-2026, including a near-identical warning the Electoral Commission of Zambia issued about a fake hiring notice using its own name.`,
+  categorySlug: 'employment-scams',
+  sources: ['Zambia Police Service'],
+  sourceUrl: 'https://www.mwebantu.com/police-dismiss-fake-recruitment-claims/',
+  country: 'ZM',
+});
