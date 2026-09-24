@@ -10747,3 +10747,21 @@ The case illustrates two things at once: a fraud mechanism — dressing up ordin
     sourceUrl: 'https://www.terra.com.br/economia/ex-banqueiro-e-condenado-a-cinco-anos-de-prisao-por-crime-contra-o-sistema-financeiro,04dba3236cab2e130d75df7713d00f7b92nyfqow.html',
     // representative photo — replace with a portrait if found
 });
+
+NotoriousGM.push({
+    title: "Iñaki Urdangarin: The Spanish King's Brother-in-Law Convicted of Embezzling Public Funds Through a Fake Sports Charity",
+    slug: 'inaki-urdangarin-noos-case-embezzlement',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'international', 'corruption'],
+    body: `Iñaki Urdangarin was an Olympic handball medalist who, in 1997, married Infanta Cristina de Borbón, daughter of Spain's King Juan Carlos I, and was given the title Duke of Palma de Mallorca. In 2004, he co-founded the Institut Nóos, an ostensibly nonprofit foundation, with a business partner named Diego Torres. The foundation's stated purpose was organizing sports and tourism forums, but its real function turned out to be something else entirely: a vehicle for moving public money into private hands.
+
+Between roughly 2004 and 2006, the regional governments of the Balearic Islands and Valencia — both controlled by the same political party — awarded Nóos a series of no-bid public contracts worth millions of euros to stage these forums, at prices investigators later found were wildly out of proportion to any real work performed. The money was then routed through a web of shell companies, including one called Aizoon that Urdangarin owned jointly with Princess Cristina, structured in ways prosecutors said were designed to minimize taxes and obscure where the money ultimately went. In total, prosecutors calculated that around €6 million in public funds had been diverted this way.
+
+The scheme came to light almost by accident. In 2010, Judge José Castro, investigating an unrelated construction-corruption case in Palma de Mallorca known as the Palma Arena case, discovered financial irregularities that led him to Nóos. What followed became one of the most closely watched trials in modern Spanish history: proceedings opened in Palma in early 2016, ran for months, and for the first time put a member of the Spanish royal family — Princess Cristina — in a criminal courtroom as a defendant.
+
+In February 2017, Urdangarin was convicted on six counts, including embezzlement of public funds, influence peddling, and tax fraud, and sentenced to six years and three months in prison; Spain's Supreme Court reduced that to five years and ten months on appeal in 2018. Diego Torres received an even harsher sentence — eight years and six months, plus a fine of roughly €1.7 million — for having actually structured the shell-company network. Princess Cristina was acquitted of criminal wrongdoing but was found civilly liable as a beneficiary of the fraud and fined about €265,000. King Felipe VI had already stripped Urdangarin of the Duke of Palma title in 2015, before the verdict. Urdangarin entered prison in June 2018 and was granted parole in March 2022 after progressing through Spain's semi-open custody regime.
+
+The Nóos case is a reminder that the "nonprofit consulting contract" is one of the oldest disguises in public-sector fraud — dress a kickback as a fee for services rendered to a charitable-sounding foundation, and it can move through a government's books for years before anyone asks whether the work was ever worth what was paid for it. It's also notable for what it says about accountability: Spain's monarchy had effectively never seen one of its own members face criminal charges, and the fact that this case proceeded to trial and conviction anyway marked a real break from that precedent.`,
+    sourceUrl: 'https://www.nbcnews.com/news/world/brother-law-spain-s-king-sentenced-prison-fraud-case-n722376',
+    // representative photo — replace with a portrait if found
+});
