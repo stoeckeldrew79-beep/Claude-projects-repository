@@ -6165,7 +6165,6 @@ If you're a current or former AdaptHealth patient — or the parent of one — w
     slug: `conde-nast-2026-data-breach-guide`,
     author: `ScamShield Editorial`,
     tags: [`guide`, `conde-nast-2026-data-breach`],
-    // representative photo — replace with an exact match if found
     coverImage: `https://commons.wikimedia.org/wiki/Special:FilePath/One_World_Trade_Center,_Manhattan,_New_York_(7237112760).jpg?width=1200`,
     coverImageCredit: `Photo: Ken Lund, CC BY-SA 2.0, via Wikimedia Commons — One World Trade Center in Manhattan, home to Condé Nast's headquarters`,
     coverImagePosition: 50,
