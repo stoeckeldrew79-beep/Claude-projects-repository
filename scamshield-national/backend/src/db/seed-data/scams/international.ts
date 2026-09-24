@@ -18959,6 +18959,18 @@ International.push(
   },
 );
 
+International.push({
+    name: '"Halo Halo" SIM Registration Identity-Lending Fraud Scheme',
+    slug: 'tz-halo-halo-sim-registration-identity-fraud',
+    description: `The Citizen (Tanzania) reported on July 13, 2026 on a national fraud network Tanzanians call "Halo Halo," built on dishonest SIM-registration agents who secretly register extra SIM cards in a customer's name during what looks like a routine visit to register a line. Agents exploit the required fingerprint-verification step: a customer is told their fingerprint wasn't captured properly and asked to scan again, and during that repeat scan a second SIM card is quietly registered under their identity and later sold on to fraud networks for Sh10,000-Sh15,000. Fraudsters use these illegitimately registered lines — untraceable to themselves and registered under an unwitting victim's own identity — to run follow-on scams: fake job offers, impersonated mobile-network "customer support" calls claiming money is owed, fabricated school emergencies, and posing as security officials demanding payment. A March 5, 2026 police raid in Kilombero District, Morogoro Region, arrested ten suspects and recovered 198 fraud-linked SIM cards (88 registered under different names by a single agent) tied to over Sh12 million stolen from victims. Tanzania lost more than Sh5 billion to fraud nationally in 2024, with only Sh288.7 million recovered, and TCRA Director General Peter Mwasalyanda separately warned residents of Ifakara — which recorded the country's highest quarterly fraud-attempt count (1,781 incidents) through June 2026 — to stop lending their identity for someone else's phone-line registration in exchange for money. TCRA urges anyone registering a SIM to insist on only a single fingerprint scan, verify which lines are registered in their name by dialing *106#, and report suspected fraud by free SMS to 15040.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'high',
+    sources: ['The Citizen (Tanzania)', 'Tanzania Communications Regulatory Authority (TCRA)'],
+    sourceUrl: 'https://www.thecitizen.co.tz/tanzania/news/national/dishonest-sim-registration-agents-are-fueling-tanzania-s-phone-fraud-networks-5525316',
+    country: 'TZ',
+    firstRecorded: '2026-07-13',
+});
+
 International.push(
   {
     name: 'ADV Advertising "ADVAPP" Vending-Machine Pyramid Scheme',
@@ -21637,90 +21649,6 @@ CNIN advised staying calm rather than acting on the manufactured urgency, hangin
 });
 
 International.push({
-    name: "Tonga Police Warning: \"Anthony Heich\" Facebook Romance Scam Using Forged Documents",
-    slug: "anthony-heich-facebook-romance-scam-forged-documents",
-    description:
-      "Tonga Police have publicised a romance fraud in which a fake Facebook account using the name \"Anthony Heich\" sends unsolicited friend requests to Tongan users. The scammer chats continuously for around six weeks to convince the target they are in a genuine romantic relationship, then asks for money and backs the request up with fabricated paperwork. Police released images of some of the forged documents so the public can recognise the style of forgery being used. Their advice is to learn how to spot fake emails and websites, never post personal documents online where they can fuel identity theft, and treat any too-good-to-be-true offer as hostile. If someone you have only met online asks you for money, talk to a trusted person first and report the account to the Tonga Police before sending anything.",
-    categorySlug: "romance-scams",
-    alertLevel: "high",
-    sources: ["Tonga Police (Media & Public Relations Office)","Government of Tonga, Prime Minister's Office website"],
-    sourceUrl: "http://pmo.gov.to/latest-online-scam-reported-to-police/",
-    country: "TO",
-});
-
-International.push({
-    name: "Insurance Agent Premium Pocketing",
-    slug: "insurance-agent-premium-pocketing",
-    description:
-      "In this scheme a licensed insurance agent accepts a customer's premium payment but never forwards it to the insurance company, keeping the money instead. Because no policy is ever issued or kept in force, the customer believes they are covered and usually only finds out the truth when they file a claim and are told no coverage exists. The Mississippi Insurance Department lists this 'pocketing' of premiums among the agent fraud schemes consumers should watch for, and says it pursues cases through license revocations, cease-and-desist orders and criminal prosecution. Always ask for written confirmation of coverage directly from the insurance carrier, pay by check or card made out to the insurer rather than the agent personally, and verify your policy is active with the company itself. If you suspect an agent has kept your money, contact the Mississippi Insurance Department Consumer Help Line or the Insurance Integrity Enforcement Bureau of the Attorney General's Office.",
-    categorySlug: "insurance-fraud",
-    alertLevel: "medium",
-    sources: ["Mississippi Insurance Department, Consumer Services - Fight Insurance Fraud page","Insurance Integrity Enforcement Bureau, Mississippi Attorney General's Office"],
-    sourceUrl: "https://www.mid.ms.gov/mississippi-insurance-department/consumers/fight-insurance-fraud/",
-    country: "MS",
-});
-
-International.push({
-    name: "Worthless Employer Health and Workers' Compensation Coverage",
-    slug: "worthless-employer-health-and-workers-compensation-coverage",
-    description:
-      "Unauthorized operators market unusually cheap health or workers' compensation plans to small businesses and professionals, but the entity behind the plan is not a real, licensed insurer. Employees enrolled through these arrangements can be left holding worthless health coverage, and employers can end up with bogus workers' compensation protection, meaning claims simply go unpaid. A related version targets physicians shopping for lower medical malpractice premiums by steering them into fictitious offshore companies. Because the operator is not an authorized carrier, there is no state guaranty-association backstop of the kind that protects policyholders when a licensed insurer fails. Before buying any group plan, confirm with the Mississippi Insurance Department that the company and the agent are licensed in the state, and report suspected unauthorized insurers to MID or the Attorney General's Insurance Integrity Enforcement Bureau.",
-    categorySlug: "insurance-fraud",
-    alertLevel: "high",
-    sources: ["Mississippi Insurance Department, Fight Insurance Fraud consumer page","Insurance Integrity Enforcement Bureau, Mississippi Attorney General's Office"],
-    sourceUrl: "https://www.mid.ms.gov/mississippi-insurance-department/consumers/fight-insurance-fraud/",
-    country: "MS",
-});
-
-International.push({
-    name: "Counterfeit Bankak App Forged Transfer-Notification Scam",
-    slug: "counterfeit-bankak-app-forged-transfer-notification-scam",
-    description:
-      "Fraudsters in Sudan install a counterfeit clone of the Bankak mobile banking app (Bank of Khartoum) and use it to fake payments at shops and market stalls. At the till they show the merchant a screen displaying a transfer-confirmation notification for the purchase amount, but the message is generated locally by the fake app and no money ever leaves an account. Because cash is scarce and Bankak transfers have become the default way to pay, many merchants accept the on-screen or forwarded confirmation as proof and hand over goods before checking their own balance. Sudanese police have dismantled organised rings working shops in Khartoum State, including arrests in East Nile and Karrari localities. Never release goods on the strength of a customer's screenshot or notification: log in to your own Bankak account or check your balance and transaction history yourself, and report suspected fake-payment attempts to Bank of Khartoum and local police.",
-    categorySlug: "fake-check-overpayment",
-    alertLevel: "high",
-    sources: ["Bank of Khartoum customer fraud-awareness warning on Bankak impersonation and banking fraud","Khartoum State police / criminal investigation announcements of arrests in East Nile (December 2025) and Karrari (March 2026) localities, as carried by Sudanese news outlets"],
-    sourceUrl: "https://bankofkhartoum.com/sudan/news-detail/stay-alert-and-pay-attention-bankak",
-    country: "SD",
-});
-
-International.push({
-    name: "False Billing and Hacked-Invoice Payment Redirection in Kiribati",
-    slug: "false-billing-hacked-invoice-payment-redirection-kiribati",
-    description:
-      "Fraudsters send Kiribati households and businesses invoices for goods or services that were never ordered and never delivered, hoping the bill is paid without question. In a more damaging version, criminals break into a real business's email account and resend its genuine invoices to customers after swapping in a bank account they control, so the customer pays the right amount for real goods but the money goes to the scammer. ANZ Bank (Kiribati) Ltd documents both variants on its Kiribati customer scam-education page. Because the underlying transaction is legitimate, the theft is often only discovered weeks later when the real supplier chases payment. Always verify bank account details by phoning the supplier on a known number before paying, and treat any emailed change of payment details as suspicious until confirmed.",
-    categorySlug: "business-email-compromise",
-    alertLevel: "high",
-    sources: ["ANZ Bank (Kiribati) Ltd - Types of scams and fraud"],
-    sourceUrl: "https://www.anz.com/kiribati/en/personal/ways-bank/protect-banking/types-of-scams-and-fraud/",
-    country: "KI",
-});
-
-International.push({
-    name: "\"Help Us Catch the Hackers\" Fund Transfer Scam",
-    slug: "help-us-catch-the-hackers-fund-transfer-scam",
-    description:
-      "A caller or emailer posing as an investigator, official or bank representative tells the victim that their money must be moved to a local or offshore account to help with an investigation or to trap hackers and scammers. The victim is pushed toward payment channels that cannot be traced or reversed, including pre-loaded debit cards, gift cards, iTunes vouchers, Bitcoin and money transfer services. ANZ Bank (Kiribati) Ltd lists this scam on its Kiribati customer scam-education page. Once the transfer is made the funds are effectively unrecoverable, which is exactly why those payment methods are chosen. No genuine bank, police force or government office will ever ask you to move your own money to assist an investigation, so hang up and call the organisation back on a number you looked up yourself.",
-    categorySlug: "government-impersonation",
-    alertLevel: "high",
-    sources: ["ANZ Bank (Kiribati) Ltd - Types of scams and fraud"],
-    sourceUrl: "https://www.anz.com/kiribati/en/personal/ways-bank/protect-banking/types-of-scams-and-fraud/",
-    country: "KI",
-});
-
-International.push({
-    name: "ANZ Kiribati Internet Banking Credential Phishing",
-    slug: "anz-kiribati-internet-banking-credential-phishing",
-    description:
-      "Scammers impersonate ANZ Bank by email, text message or phone call and try to harvest internet banking log-on details from Kiribati customers. The message usually contains a link to a fake copy of the ANZ Internet Banking log-on page, or the caller simply asks the customer to read out a PIN, password or one-time security code. ANZ Bank (Kiribati) Ltd warns on its fraud protection page that it will never contact customers asking for these credentials. Its guidance is to never click a log-on link sent in an email and instead type the bank's web address into the browser yourself. If you receive such a message, do not respond, delete it, and contact the bank directly using a number from your bank statement or card.",
-    categorySlug: "phishing",
-    alertLevel: "medium",
-    sources: ["ANZ Bank (Kiribati) Ltd - Protecting yourself from fraud"],
-    sourceUrl: "https://www.anz.com/kiribati/en/personal/ways-bank/protect-banking/protecting-yourself-from-fraud/",
-    country: "KI",
-});
-
-International.push({
   name: 'Fake "Hacked Website" Extortion Scam',
   slug: 'andorra-fake-hacked-website-extortion-scam',
   description: `Policia d'Andorra issued a public alert on January 21, 2023 about an extortion campaign, active since around 2020, in which fraudsters submit threatening messages through the contact forms on Andorran businesses' own websites, falsely claiming they have hacked the site and stolen its data. The messages demand payment — reported as high as $3,000 — in Bitcoin to prevent the attackers from leaking the stolen data, notifying the business's customers, and damaging its reputation, with some messages even including instructions on how to buy the cryptocurrency for victims unfamiliar with it. Police confirmed the claimed hacks are fabricated: no actual intrusion occurs, and the message is sent out in bulk to many companies regardless of their real security status, relying purely on the alarm the claim creates to extract payment before a victim can verify it.
@@ -21822,30 +21750,6 @@ From inside the hijacked account, criminals impersonate the victim to their real
   sources: ['Autoridad de Regulación y Fiscalización de Telecomunicaciones y Transportes (ATT)', 'Urgente.bo'],
   sourceUrl: 'https://www.urgente.bo/noticia/estafadores-se-hacen-pasar-por-operadores-de-entel-viva-o-tigo-para-robar-cuentas-de',
   country: 'BO',
-});
-
-International.push({
-    name: "Serafe Residence Verification Phishing Email",
-    slug: "serafe-residence-verification-phishing-email",
-    description:
-      "Fraudsters send emails that appear to come from Serafe AG, the company that collects Switzerland's mandatory radio and TV licence fee, claiming your residence or domicile must be verified for your household fee account. The email links to a spoofed Serafe-branded form where any personal and payment details you enter go straight to the criminals. The lure works because the licence fee is compulsory and billed per household, so a request to confirm where you live looks like normal administrative procedure. Switzerland's Federal Office for Cybersecurity (BACS/NCSC) flagged this campaign in its week 48 weekly review in early December 2025. Never click links in unexpected Serafe messages; log in through the official serafe.ch address yourself, and report suspicious emails to BACS via its reporting form.",
-    categorySlug: "phishing",
-    alertLevel: "high",
-    sources: ["Bundesamt für Cybersicherheit (BACS/NCSC), Wochenrückblick 48, December 2025"],
-    sourceUrl: "https://www.ncsc.admin.ch/ncsc/de/home/aktuell/im-fokus/2025/wochenrueckblick_48.html",
-    country: "CH",
-});
-
-International.push({
-    name: "Falsche Polizisten Fake Police Officer Phone Scam",
-    slug: "falsche-polizisten-fake-police-officer-phone-scam",
-    description:
-      "Callers posing as Swiss police officers, often using spoofed or foreign-routed caller ID, telephone mostly elderly residents and claim a burglary gang is active in the neighbourhood or that the victim's bank is implicated in a crime. They insist the cash and jewellery kept at home are no longer safe, keep the victim on the line, and warn them not to contact family or their bank. A supposed officer then calls at the door or arranges a drop point to collect the valuables, which couriers move out of the country. Fribourg cantonal police recorded a record monthly high of these cases in November 2025, and St. Gallen cantonal police documented a Buchs case in December 2025 in which CHF 30,000 was handed over before three arrests. Real Swiss police never ask you to hand over cash or valuables for safekeeping, so hang up, call your local police on a number you look up yourself, and tell a relative what happened.",
-    categorySlug: "government-impersonation",
-    alertLevel: "critical",
-    sources: ["Kantonspolizei Freiburg / Police cantonale de Fribourg, November 2025 record high and subsequent arrests","Kantonspolizei St. Gallen, Buchs case, December 2025"],
-    sourceUrl: "https://www.fr.ch/de/sjsd/pol/news/betrug-durch-falsche-polizisten-neuer-hoechststand-im-kanton-freiburg-im-november",
-    country: "CH",
 });
 
 International.push({
@@ -22206,6 +22110,114 @@ International.push({
   sources: ['Via Lietuva', 'Infoerdve.lt'],
   sourceUrl: 'https://infoerdve.lt/en/via-lietuva-perspeja-vairuotojus-sms-zinutes-apie-baudas-yra-sukciu-pinkles/',
   country: 'LT',
+});
+
+International.push({
+    name: "Tonga Police Warning: \"Anthony Heich\" Facebook Romance Scam Using Forged Documents",
+    slug: "anthony-heich-facebook-romance-scam-forged-documents",
+    description:
+      "Tonga Police have publicised a romance fraud in which a fake Facebook account using the name \"Anthony Heich\" sends unsolicited friend requests to Tongan users. The scammer chats continuously for around six weeks to convince the target they are in a genuine romantic relationship, then asks for money and backs the request up with fabricated paperwork. Police released images of some of the forged documents so the public can recognise the style of forgery being used. Their advice is to learn how to spot fake emails and websites, never post personal documents online where they can fuel identity theft, and treat any too-good-to-be-true offer as hostile. If someone you have only met online asks you for money, talk to a trusted person first and report the account to the Tonga Police before sending anything.",
+    categorySlug: "romance-scams",
+    alertLevel: "high",
+    sources: ["Tonga Police (Media & Public Relations Office)","Government of Tonga, Prime Minister's Office website"],
+    sourceUrl: "http://pmo.gov.to/latest-online-scam-reported-to-police/",
+    country: "TO",
+});
+
+International.push({
+    name: "Insurance Agent Premium Pocketing",
+    slug: "insurance-agent-premium-pocketing",
+    description:
+      "In this scheme a licensed insurance agent accepts a customer's premium payment but never forwards it to the insurance company, keeping the money instead. Because no policy is ever issued or kept in force, the customer believes they are covered and usually only finds out the truth when they file a claim and are told no coverage exists. The Mississippi Insurance Department lists this 'pocketing' of premiums among the agent fraud schemes consumers should watch for, and says it pursues cases through license revocations, cease-and-desist orders and criminal prosecution. Always ask for written confirmation of coverage directly from the insurance carrier, pay by check or card made out to the insurer rather than the agent personally, and verify your policy is active with the company itself. If you suspect an agent has kept your money, contact the Mississippi Insurance Department Consumer Help Line or the Insurance Integrity Enforcement Bureau of the Attorney General's Office.",
+    categorySlug: "insurance-fraud",
+    alertLevel: "medium",
+    sources: ["Mississippi Insurance Department, Consumer Services - Fight Insurance Fraud page","Insurance Integrity Enforcement Bureau, Mississippi Attorney General's Office"],
+    sourceUrl: "https://www.mid.ms.gov/mississippi-insurance-department/consumers/fight-insurance-fraud/",
+    country: "MS",
+});
+
+International.push({
+    name: "Worthless Employer Health and Workers' Compensation Coverage",
+    slug: "worthless-employer-health-and-workers-compensation-coverage",
+    description:
+      "Unauthorized operators market unusually cheap health or workers' compensation plans to small businesses and professionals, but the entity behind the plan is not a real, licensed insurer. Employees enrolled through these arrangements can be left holding worthless health coverage, and employers can end up with bogus workers' compensation protection, meaning claims simply go unpaid. A related version targets physicians shopping for lower medical malpractice premiums by steering them into fictitious offshore companies. Because the operator is not an authorized carrier, there is no state guaranty-association backstop of the kind that protects policyholders when a licensed insurer fails. Before buying any group plan, confirm with the Mississippi Insurance Department that the company and the agent are licensed in the state, and report suspected unauthorized insurers to MID or the Attorney General's Insurance Integrity Enforcement Bureau.",
+    categorySlug: "insurance-fraud",
+    alertLevel: "high",
+    sources: ["Mississippi Insurance Department, Fight Insurance Fraud consumer page","Insurance Integrity Enforcement Bureau, Mississippi Attorney General's Office"],
+    sourceUrl: "https://www.mid.ms.gov/mississippi-insurance-department/consumers/fight-insurance-fraud/",
+    country: "MS",
+});
+
+International.push({
+    name: "Counterfeit Bankak App Forged Transfer-Notification Scam",
+    slug: "counterfeit-bankak-app-forged-transfer-notification-scam",
+    description:
+      "Fraudsters in Sudan install a counterfeit clone of the Bankak mobile banking app (Bank of Khartoum) and use it to fake payments at shops and market stalls. At the till they show the merchant a screen displaying a transfer-confirmation notification for the purchase amount, but the message is generated locally by the fake app and no money ever leaves an account. Because cash is scarce and Bankak transfers have become the default way to pay, many merchants accept the on-screen or forwarded confirmation as proof and hand over goods before checking their own balance. Sudanese police have dismantled organised rings working shops in Khartoum State, including arrests in East Nile and Karrari localities. Never release goods on the strength of a customer's screenshot or notification: log in to your own Bankak account or check your balance and transaction history yourself, and report suspected fake-payment attempts to Bank of Khartoum and local police.",
+    categorySlug: "fake-check-overpayment",
+    alertLevel: "high",
+    sources: ["Bank of Khartoum customer fraud-awareness warning on Bankak impersonation and banking fraud","Khartoum State police / criminal investigation announcements of arrests in East Nile (December 2025) and Karrari (March 2026) localities, as carried by Sudanese news outlets"],
+    sourceUrl: "https://bankofkhartoum.com/sudan/news-detail/stay-alert-and-pay-attention-bankak",
+    country: "SD",
+});
+
+International.push({
+    name: "False Billing and Hacked-Invoice Payment Redirection in Kiribati",
+    slug: "false-billing-hacked-invoice-payment-redirection-kiribati",
+    description:
+      "Fraudsters send Kiribati households and businesses invoices for goods or services that were never ordered and never delivered, hoping the bill is paid without question. In a more damaging version, criminals break into a real business's email account and resend its genuine invoices to customers after swapping in a bank account they control, so the customer pays the right amount for real goods but the money goes to the scammer. ANZ Bank (Kiribati) Ltd documents both variants on its Kiribati customer scam-education page. Because the underlying transaction is legitimate, the theft is often only discovered weeks later when the real supplier chases payment. Always verify bank account details by phoning the supplier on a known number before paying, and treat any emailed change of payment details as suspicious until confirmed.",
+    categorySlug: "business-email-compromise",
+    alertLevel: "high",
+    sources: ["ANZ Bank (Kiribati) Ltd - Types of scams and fraud"],
+    sourceUrl: "https://www.anz.com/kiribati/en/personal/ways-bank/protect-banking/types-of-scams-and-fraud/",
+    country: "KI",
+});
+
+International.push({
+    name: "\"Help Us Catch the Hackers\" Fund Transfer Scam",
+    slug: "help-us-catch-the-hackers-fund-transfer-scam",
+    description:
+      "A caller or emailer posing as an investigator, official or bank representative tells the victim that their money must be moved to a local or offshore account to help with an investigation or to trap hackers and scammers. The victim is pushed toward payment channels that cannot be traced or reversed, including pre-loaded debit cards, gift cards, iTunes vouchers, Bitcoin and money transfer services. ANZ Bank (Kiribati) Ltd lists this scam on its Kiribati customer scam-education page. Once the transfer is made the funds are effectively unrecoverable, which is exactly why those payment methods are chosen. No genuine bank, police force or government office will ever ask you to move your own money to assist an investigation, so hang up and call the organisation back on a number you looked up yourself.",
+    categorySlug: "government-impersonation",
+    alertLevel: "high",
+    sources: ["ANZ Bank (Kiribati) Ltd - Types of scams and fraud"],
+    sourceUrl: "https://www.anz.com/kiribati/en/personal/ways-bank/protect-banking/types-of-scams-and-fraud/",
+    country: "KI",
+});
+
+International.push({
+    name: "ANZ Kiribati Internet Banking Credential Phishing",
+    slug: "anz-kiribati-internet-banking-credential-phishing",
+    description:
+      "Scammers impersonate ANZ Bank by email, text message or phone call and try to harvest internet banking log-on details from Kiribati customers. The message usually contains a link to a fake copy of the ANZ Internet Banking log-on page, or the caller simply asks the customer to read out a PIN, password or one-time security code. ANZ Bank (Kiribati) Ltd warns on its fraud protection page that it will never contact customers asking for these credentials. Its guidance is to never click a log-on link sent in an email and instead type the bank's web address into the browser yourself. If you receive such a message, do not respond, delete it, and contact the bank directly using a number from your bank statement or card.",
+    categorySlug: "phishing",
+    alertLevel: "medium",
+    sources: ["ANZ Bank (Kiribati) Ltd - Protecting yourself from fraud"],
+    sourceUrl: "https://www.anz.com/kiribati/en/personal/ways-bank/protect-banking/protecting-yourself-from-fraud/",
+    country: "KI",
+});
+
+International.push({
+    name: "Serafe Residence Verification Phishing Email",
+    slug: "serafe-residence-verification-phishing-email",
+    description:
+      "Fraudsters send emails that appear to come from Serafe AG, the company that collects Switzerland's mandatory radio and TV licence fee, claiming your residence or domicile must be verified for your household fee account. The email links to a spoofed Serafe-branded form where any personal and payment details you enter go straight to the criminals. The lure works because the licence fee is compulsory and billed per household, so a request to confirm where you live looks like normal administrative procedure. Switzerland's Federal Office for Cybersecurity (BACS/NCSC) flagged this campaign in its week 48 weekly review in early December 2025. Never click links in unexpected Serafe messages; log in through the official serafe.ch address yourself, and report suspicious emails to BACS via its reporting form.",
+    categorySlug: "phishing",
+    alertLevel: "high",
+    sources: ["Bundesamt für Cybersicherheit (BACS/NCSC), Wochenrückblick 48, December 2025"],
+    sourceUrl: "https://www.ncsc.admin.ch/ncsc/de/home/aktuell/im-fokus/2025/wochenrueckblick_48.html",
+    country: "CH",
+});
+
+International.push({
+    name: "Falsche Polizisten Fake Police Officer Phone Scam",
+    slug: "falsche-polizisten-fake-police-officer-phone-scam",
+    description:
+      "Callers posing as Swiss police officers, often using spoofed or foreign-routed caller ID, telephone mostly elderly residents and claim a burglary gang is active in the neighbourhood or that the victim's bank is implicated in a crime. They insist the cash and jewellery kept at home are no longer safe, keep the victim on the line, and warn them not to contact family or their bank. A supposed officer then calls at the door or arranges a drop point to collect the valuables, which couriers move out of the country. Fribourg cantonal police recorded a record monthly high of these cases in November 2025, and St. Gallen cantonal police documented a Buchs case in December 2025 in which CHF 30,000 was handed over before three arrests. Real Swiss police never ask you to hand over cash or valuables for safekeeping, so hang up, call your local police on a number you look up yourself, and tell a relative what happened.",
+    categorySlug: "government-impersonation",
+    alertLevel: "critical",
+    sources: ["Kantonspolizei Freiburg / Police cantonale de Fribourg, November 2025 record high and subsequent arrests","Kantonspolizei St. Gallen, Buchs case, December 2025"],
+    sourceUrl: "https://www.fr.ch/de/sjsd/pol/news/betrug-durch-falsche-polizisten-neuer-hoechststand-im-kanton-freiburg-im-november",
+    country: "CH",
 });
 
 International.push({
