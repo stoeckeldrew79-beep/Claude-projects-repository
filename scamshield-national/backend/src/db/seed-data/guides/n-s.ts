@@ -3921,7 +3921,6 @@ The warning signs in both schemes are consistent and worth remembering regardles
     slug: "sandoz-generic-drug-price-fixing-settlement-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "sandoz-generic-drug-price-fixing-settlement"],
-    // representative photo — replace with an exact match if found
     coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Amoxicillin_500mg_capsules_on_a_plate_(Sandoz).jpg?width=1200",
     coverImageCredit: "Photo: Henrysz (CC BY 4.0) — Sandoz-brand generic amoxicillin capsules",
     coverImagePosition: 50,
