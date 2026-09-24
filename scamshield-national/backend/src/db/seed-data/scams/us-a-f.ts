@@ -10065,3 +10065,74 @@ UsAF.push({
     country: 'US',
     state: 'AZ',
 });
+
+UsAF.push({
+    name: 'Predatory Home Solar Sales and Financing Scam (Washington, DC)',
+    slug: 'dc-predatory-home-solar-sales-loan-scam',
+    description: `DC Attorney General Brian Schwalb issued a Consumer Alert on September 15, 2025 warning about predatory sales and financing tactics used by home solar system companies targeting Wards 4, 5, 7, and 8 — including low-to-moderate income homeowners, seniors, and residents who don't speak English as a first language — as door-to-door salespeople rush a same-day contract signing ahead of the December 2025 expiration of federal solar tax credits. Sales reps falsely promise "free" systems, push unnecessary roof or electrical work through unlicensed contractors, and bury hidden dealer fees and undisclosed interest rates in loan paperwork that can put a homeowner's house at risk of foreclosure if payments on a system costing roughly $3,000 per kilowatt aren't kept up. OAG directs residents to review contracts in their own language before signing, verify contractor licensing through DC's SCOUT system, get written savings projections, and check DC's Solar for All program before paying for a system out of pocket.`,
+    categorySlug: 'home-improvement-solar',
+    alertLevel: 'medium',
+    sources: ["DC Office of the Attorney General"],
+    sourceUrl: 'https://oag.dc.gov/release/attorney-general-schwalb-warns-dc-residents-about',
+    country: 'US',
+    state: 'DC',
+});
+
+UsAF.push({
+    name: 'Pepco Utility Disconnection Threat Impersonation Scam (DC)',
+    slug: 'dc-pepco-utility-disconnection-threat-scam',
+    description: `Callers spoof Pepco's name and number on caller ID and tell DC residential and business customers their electric bill is overdue, threatening to cut off service within the hour unless they pay immediately by prepaid card, money order, or wire transfer — payment methods chosen specifically because they're nearly impossible to recover once sent. The DC Attorney General's Office and DC Metropolitan Police's Financial and Cyber Crimes Unit have issued repeated warnings about this recurring scam, confirming Pepco never demands instant payment by phone under threat of same-day shutoff. Residents who get such a call are told to hang up immediately and call Pepco Customer Care directly using the number on their actual bill, and to report the attempt to MPD's Financial & Cyber Crimes Unit or OAG's Office of Consumer Protection.`,
+    categorySlug: 'utility-scams',
+    alertLevel: 'high',
+    sources: ["DC Office of the Attorney General", 'DC Metropolitan Police Department'],
+    sourceUrl: 'https://oag.dc.gov/blog/consumer-alert-pepco-scam',
+    country: 'US',
+    state: 'DC',
+});
+
+UsAF.push({
+    name: 'Arvada Tree-Trimming and Home-Repair Advance-Fee Fraud (Colorado)',
+    slug: 'colorado-arvada-tree-trimming-advance-fee-fraud-tyler',
+    description: `Arvada couple Joseph and Amelia Tyler ran a door-to-door tree-trimming and home-repair scam across six Colorado counties — Adams, Arapahoe, Denver, El Paso, Jefferson, and Otero — from February 2020 to October 2022, targeting older residents, many over 80, with at least 50 known victims. The pair would agree to a set price for work and collect payment by cash or check; while the husband cut a few branches, the wife would cash the check at the victim's own bank, and the couple would then claim they needed to retrieve something and never return to finish the job. A statewide grand jury indicted them on 51 counts in February 2023, including violations of the Colorado Organized Crime Control Act and criminal exploitation of an at-risk person. Joseph Tyler was sentenced in March 2024 to eight years in prison and $23,000 in restitution, while Amelia Tyler pleaded guilty and served a year in jail.`,
+    categorySlug: 'home-improvement-solar',
+    alertLevel: 'medium',
+    sources: ['Colorado Attorney General'],
+    sourceUrl: 'https://coag.gov/press-releases/tree-trimming-fraudster-sentenced-older-victims-3-19-24/',
+    country: 'US',
+    state: 'CO',
+});
+
+UsAF.push({
+    name: 'Eversource/United Illuminating Fake "Elderly Rate Discount" Phone Scam (Connecticut)',
+    slug: 'connecticut-eversource-ui-elderly-rate-discount-scam',
+    description: `Connecticut's Department of Consumer Protection warned residents on August 23, 2024 about callers impersonating Eversource and United Illuminating employees who offer a nonexistent "rate discount for elderly residents" to get a customer talking, then ask for the account holder's name, date of birth, utility account number, and payment card or bank details to supposedly "activate" the discount. DCP noted that neither utility ever requires a prepaid debit card, a Bitcoin ATM payment, a gift card, or an in-person cash handoff, and urged anyone who gets a call like this to hang up and call the number printed on their own bill rather than trust the caller. Real Eversource and UI field employees carry company photo ID and drive marked company vehicles, and legitimate rate programs are never activated by giving a stranger account or payment details over the phone.`,
+    categorySlug: 'utility-scams',
+    alertLevel: 'medium',
+    sources: ['Connecticut Department of Consumer Protection'],
+    sourceUrl: 'https://portal.ct.gov/dcp/news-releases-from-the-department-of-consumer-protection/2024-news-releases/consumer-protection-warns-of-scammers-impersonating-electric-utility-employees',
+    country: 'US',
+    state: 'CT',
+});
+
+UsAF.push({
+    name: 'Financial-Services Customer-Support Impersonation Scam (Connecticut)',
+    slug: 'connecticut-financial-services-support-impersonation-scam',
+    description: `Connecticut's Department of Banking and Department of Consumer Protection issued a joint alert on October 10, 2025 about scammers impersonating the customer-support teams of financial-services and investment firms, most often through phishing emails sent from generic addresses like @gmail.com rather than any real company domain, and often containing spelling or grammar errors. In one case cited in the alert, a Connecticut consumer contacted what looked like support for an investment platform and was talked into transferring $10,000 to a bank account the impostor controlled; the transfer went through, and weeks later the consumer found the account completely emptied. Banking Commissioner Jorge Perez said "no legitimate firm or financial institution will email you claiming that your account has been compromised, or requesting personal information," and both agencies urged residents to reach any financial company only through the phone number on an official statement or website, never through a number or link in an unsolicited message.`,
+    categorySlug: 'phishing',
+    alertLevel: 'medium',
+    sources: ['Connecticut Department of Banking', 'Connecticut Department of Consumer Protection'],
+    sourceUrl: 'https://portal.ct.gov/dob/newsroom/2025/dob-and-dcp-joint-consumer-alert',
+    country: 'US',
+    state: 'CT',
+});
+
+UsAF.push({
+    name: 'Fake AI Trading Bot Tutorial Self-Draining Smart Contract Scam',
+    slug: 'ai-trading-bot-tutorial-self-draining-smart-contract-scam',
+    description: `Scammers post polished YouTube tutorials — using AI-generated presenters, and in one campaign falsely claiming to teach viewers how to build a Claude-powered crypto arbitrage bot — that walk viewers step by step through copying code and deploying their own smart contract, framed as a personal automated trading bot. The tutorial directs viewers to a fake "compiler" website, styled to look like the legitimate Remix IDE, which silently swaps the real code shown on screen for different bytecode before deployment: the resulting contract has no trading logic at all and instead forwards any deposited cryptocurrency straight to the scammer's wallet the moment the victim clicks "Start" or "Withdraw." Blockchain intelligence firm TRM Labs documented nine near-identical tutorials across separate YouTube channels (310,000+ combined views) that drained 274.6 ETH (~$517,000) from 224 victims between February and August 2026 — what makes it distinct from other "fake AI trading bot" investment schemes is that the victim personally writes the transaction and deploys the malicious contract themselves, with no phishing link, spoofed domain, or malicious approval prompt to catch. Victims who try to withdraw are often shown a fabricated "gas nonce liquidity" error demanding they send 50% more funds to fix it.`,
+    categorySlug: 'cryptocurrency-scams',
+    alertLevel: 'high',
+    sources: ['TRM Labs'],
+    sourceUrl: 'https://www.trmlabs.com/resources/blog/fake-ai-trading-bots-are-getting-victims-to-build-their-own-drainers',
+    country: 'US',
+});
