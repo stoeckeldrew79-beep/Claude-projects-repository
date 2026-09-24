@@ -9575,3 +9575,15 @@ UsNS.push({
     country: 'US',
     state: 'NV',
 });
+
+UsNS.push({
+    name: "Social Media Investment Group Imposter Scam",
+    slug: "social-media-investment-group-imposter-scam",
+    description:
+      "Fraudsters buy social media ads inviting people into a free \"investment group,\" \"club,\" or \"education foundation,\" then move recruits into WhatsApp or similar group chats. Inside, operators pose as licensed brokers or investment advisers while planted \"members\" post fake profit screenshots, sometimes claiming the picks come from AI. Victims are steered either onto a fake crypto trading platform that falsely claims SEC licensing, or told to buy a thinly traded stock on cue so the operators can dump their shares into the buying and collapse the price. When people try to cash out, they are hit with bogus withdrawal fees or told their account is frozen pending an \"SEC investigation.\" The SEC charged seven entities with taking more than $14 million this way, and the FBI reported at least a 300% jump in ramp-and-dump complaints. Never accept investment direction from a group chat you were recruited into by an ad, and verify any adviser or platform through BrokerCheck or Investor.gov before sending money.",
+    categorySlug: "investment-fraud",
+    alertLevel: "critical",
+    sources: ["FINRA Investor Alert: Investment Group Imposter Scams","SEC Office of Investor Education and Advocacy Investor Alert (Dec. 22, 2025)","SEC Press Release 2025-144, Division of Enforcement"],
+    sourceUrl: "https://www.finra.org/investors/insights/investment-group-imposter-scams",
+    country: "US",
+});

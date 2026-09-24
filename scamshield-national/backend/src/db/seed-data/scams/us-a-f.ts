@@ -10156,3 +10156,15 @@ UsAF.push({
     isHistorical: true,
     firstRecorded: '2014-10-27',
 });
+
+UsAF.push({
+    name: "Exempt Reporting Adviser Filing Abuse",
+    slug: "exempt-reporting-adviser-filing-abuse",
+    description:
+      "Scammers exploit the SEC's own public filing system to fake government credibility. An exempt reporting adviser files an abbreviated Form ADV that then appears in the SEC's public adviser database, but such a filer is not a registered investment adviser and the SEC does not vet or approve them. Bad actors make the filing, point prospects to the SEC-hosted record as \"proof\" they are SEC-supervised, and use that trust to run schemes including advance-fee fraud, collecting up-front \"fees,\" \"deposits,\" or \"taxes\" against promised returns or promised recovery of past losses. A listing in an SEC database is not an endorsement or a license. Before investing, check registration status carefully on Investor.gov and treat any demand for an up-front payment as a red flag.",
+    categorySlug: "investment-fraud",
+    alertLevel: "high",
+    sources: ["SEC Office of Investor Education and Advocacy Investor Alert"],
+    sourceUrl: "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins",
+    country: "US",
+});
