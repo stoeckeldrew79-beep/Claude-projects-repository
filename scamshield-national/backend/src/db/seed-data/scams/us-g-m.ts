@@ -9976,3 +9976,16 @@ UsGM.push({
     isHistorical: true,
     firstRecorded: '2026-03-17',
 });
+
+UsGM.push({
+    name: "Montana Law Enforcement Impersonation Phone Scam",
+    slug: "montana-law-enforcement-impersonation-phone-scam",
+    description:
+      "Scammers spoof caller ID so the incoming call appears to come from a real Montana law enforcement agency, such as a county sheriff's office, and then claim you have an outstanding warrant, a missed court date, or unserved legal documents. To sound convincing, they use the names of actual deputies taken from publicly available staff lists and keep you on the phone so you cannot stop to verify anything. They demand payment to \"clear the charges,\" usually through reloadable prepaid debit cards or gift cards read back over the phone, and may also fish for bank account numbers. No Montana law enforcement agency will ever call and ask for money or gift cards, and legitimate court-related payments go through the courts, not the sheriff. Ask for the caller's name and supervisor, hang up, look up the agency's real phone number yourself and call to verify, then report the call to the Montana DOJ Office of Consumer Protection at 1-800-481-6896 or contactocp@mt.gov.",
+    categorySlug: "government-impersonation",
+    alertLevel: "high",
+    sources: ["Montana Department of Justice, Office of Consumer Protection — Attorney General Austin Knudsen warning on scam callers posing as law enforcement","Gallatin County Sheriff's Office warning on cloned agency phone numbers (May 2026)"],
+    sourceUrl: "https://dojmt.gov/ag-knudsen-warns-of-scam-callers-posing-as-law-enforcement",
+    country: "US",
+    state: "MT",
+});
