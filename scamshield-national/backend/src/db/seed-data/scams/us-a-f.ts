@@ -10168,3 +10168,29 @@ UsAF.push({
     sourceUrl: "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins",
     country: "US",
 });
+
+UsAF.push({
+    name: "EBT Benefit Theft Targeting Tennessee SNAP and Families First Recipients",
+    slug: "ebt-benefit-theft-targeting-tennessee-snap-and-families-first-recipients",
+    description:
+      "Criminals are draining Tennessee EBT cards that hold SNAP and Families First (TANF) benefits using two methods. In the first, they phone, text, or email recipients while posing as the Tennessee Department of Human Services and ask for the EBT card number and PIN, then empty the account right after the monthly benefit load date. In the second, they install skimming devices or tampered card readers at checkout terminals to capture card and PIN data and clone duplicate cards. TDHS says it will never ask for your PIN, and it ran a replacement process for benefits stolen by skimming or cloning between October 1, 2022 and September 30, 2024. Never give your EBT card number or PIN to anyone who contacts you, inspect card readers for tampering, change your PIN regularly, and call TDHS customer service immediately if your benefits disappear.",
+    categorySlug: "public-benefits-fraud",
+    alertLevel: "critical",
+    sources: ["Tennessee Department of Human Services — Program Integrity, 'Do You Suspect Fraud?'","Tennessee Department of Human Services — SNAP program page","TDHS news release, 'Tennessee Announces Process to Request Replacement of SNAP and D-SNAP Benefits for Customers Impacted by Skimming and Cloning Fraud' (November 6, 2023)"],
+    sourceUrl: "https://www.tn.gov/humanservices/news/2023/11/6/tennessee-announces-process-to-request-replacement-of-snap-and-d-snap-benefits-for-customers-impacted-by-skimming-and-cloning-fraud.html",
+    country: "US",
+    state: "TN",
+});
+
+UsAF.push({
+    name: "DEA Agent Impersonation Scam Targeting Tennessee Health Professionals",
+    slug: "dea-agent-impersonation-scam-targeting-tennessee-health-professionals",
+    description:
+      "Scammers are calling licensed medical providers across Tennessee while claiming to be agents of the U.S. Drug Enforcement Administration. The caller raises a supposed problem involving the provider's DEA registration or practice status, then pressures them to either send money or hand over personal identifying information on the spot. The Tennessee Attorney General's Division of Consumer Affairs described the scheme as widespread and specifically aimed at medical professionals when it issued its May 2023 warning. Federal agents do not demand payment by phone or collect personal details under threat. If you receive such a call, end it, verify any claim through official DEA channels you look up independently, and file a complaint with the Division of Consumer Affairs at tn.gov/consumer.",
+    categorySlug: "government-impersonation",
+    alertLevel: "high",
+    sources: ["Tennessee Attorney General's Office — Division of Consumer Affairs, release MA23-28 (May 17, 2023)"],
+    sourceUrl: "https://www.tn.gov/attorneygeneral/news/2023/5/17/ma23-28.html",
+    country: "US",
+    state: "TN",
+});

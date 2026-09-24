@@ -9789,3 +9789,16 @@ UsGM.push({
     country: 'US',
     state: 'MO',
 });
+
+UsGM.push({
+    name: "Jury Duty Fine Phone Scam Impersonating Tennessee Court Officials",
+    slug: "jury-duty-fine-phone-scam-impersonating-tennessee-court-officials",
+    description:
+      "Scammers call Tennesseans claiming to be court officials or law enforcement officers and say the person missed jury duty. The caller warns that fines or an arrest warrant are pending unless a payment is made immediately over the phone. Real Tennessee courts never demand payment by phone and never threaten arrest to collect a jury-duty fee, so the urgency is the giveaway. The Tennessee Attorney General's Division of Consumer Affairs flagged this as a recently reported government-imposter scheme in August 2024. If you get a call like this, hang up, call the clerk of court directly using a number you look up yourself, and report the contact to the Division of Consumer Affairs at tn.gov/consumer.",
+    categorySlug: "government-impersonation",
+    alertLevel: "high",
+    sources: ["Tennessee Attorney General's Office — Division of Consumer Affairs, release PR24-63 (August 14, 2024)"],
+    sourceUrl: "https://www.tn.gov/attorneygeneral/news/2024/8/14/pr24-63.html",
+    country: "US",
+    state: "TN",
+});
