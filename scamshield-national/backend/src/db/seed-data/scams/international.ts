@@ -22064,3 +22064,38 @@ International.push({
   sourceUrl: 'https://www.trc.gov.kh/en/media/news-releases/7-news-release/',
   country: 'KH',
 });
+
+International.push({
+  name: 'Fake QR Code Stickers on Lithuanian Parking Meters',
+  slug: 'lithuania-fake-qr-code-parking-meter-scam',
+  description: `In August 2026, Lithuanian police — first in Vilnius, then Kretinga district — warned that criminals were gluing counterfeit QR code stickers onto public parking meters so that someone trying to pay for parking is instead directed to a forged payment page that steals the driver's bank card details. Kretinga police stated the fake QR code "opens a forged payment page. Entering bank card details there can result in theft," urging drivers to pay only through the official JUDU app, while Vilnius's municipal parking operator JUDU separately confirmed it never sends SMS payment links and warned of scammers impersonating it by text as well. Police asked anyone who sees someone applying a fake sticker to photograph or film them and call 112.`,
+  categorySlug: 'qr-code-scams',
+  alertLevel: 'medium',
+  sources: ['Lithuanian Police', '15min.lt', 'JUDU'],
+  sourceUrl: 'https://www.15min.lt/verslas/naujiena/saugukelyje-lt/policija-ispeja-vairuotojus-sukciai-jau-naudoja-ir-parkomatus-1662-2744012',
+  country: 'LT',
+});
+
+International.push({
+  name: 'LWEX Fake Cryptocurrency Trading Platform (Lithuania)',
+  slug: 'lithuania-lwex-crypto-trading-platform-scam',
+  description: `Starting April 24, 2025, Lietuvos bankas (Bank of Lithuania) issued a formal warning after social-media ads began promoting "LWEX," a purported blockchain-asset trading platform claiming to operate in 130 countries, to Lithuanian residents. The central bank stated it never authorized LWEX for investment or crypto-asset services, did not supervise it, and found the scheme showed characteristics of a financial pyramid, putting invested funds at risk of total loss. When the warning alone didn't stop the promotion, Lietuvos bankas obtained a court order and by May 9, 2025 blocked public access to LWEX's websites, adding the firm to its list of entities barred from offering financial services in Lithuania.`,
+  categorySlug: 'cryptocurrency-scams',
+  alertLevel: 'high',
+  sources: ['Lietuvos bankas (Bank of Lithuania)', 'LRT'],
+  sourceUrl: 'https://www.lrt.lt/naujienos/verslas/4/2545213/lietuvos-bankas-lwex-birzos-veikla-lietuvoje-neteiseta',
+  country: 'LT',
+  isHistorical: true,
+  firstRecorded: '2025-04-24',
+});
+
+International.push({
+  name: 'Fake Via Lietuva Road Toll (E-Vignette) Fine SMS Scam',
+  slug: 'lithuania-via-lietuva-fake-road-toll-fine-sms-scam',
+  description: `In May 2026, Via Lietuva — the Lithuanian state enterprise that operates the road network — issued an urgent warning after residents began receiving SMS messages claiming they owed an unpaid road-user tax (e-vignette) fine, with a link to a lookalike payment site. Via Lietuva stated it "never sends text messages regarding traffic violations and does not engage in debt collection," noting that since December 2021 the Lithuanian Transport Safety Administration, not Via Lietuva, handles unpaid road-fee cases, and flagged several tells: wrong domains, machine-translated grammar errors, vignette categories offered for legally exempt vehicle types, and a single restrictive payment option. The agency urged recipients not to click the link and to report it to the National Cyber Security Centre.`,
+  categorySlug: 'government-impersonation',
+  alertLevel: 'medium',
+  sources: ['Via Lietuva', 'Infoerdve.lt'],
+  sourceUrl: 'https://infoerdve.lt/en/via-lietuva-perspeja-vairuotojus-sms-zinutes-apie-baudas-yra-sukciu-pinkles/',
+  country: 'LT',
+});
