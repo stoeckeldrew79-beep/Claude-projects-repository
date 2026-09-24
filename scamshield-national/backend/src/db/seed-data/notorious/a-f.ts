@@ -10191,3 +10191,21 @@ What makes Gürtel instructive beyond its sheer size is how ordinary its mechani
     sourceUrl: 'https://www.transparency.org/en/news/after-guertel-what-next-for-spains-struggle-with-political-corruption',
     // representative photo — replace with a portrait if found
 });
+
+NotoriousAF.push({
+    title: "Ahmad Chalabi: The Banker Who Looted Jordan's Petra Bank and Walked Free",
+    slug: 'ahmad-chalabi-petra-bank-jordan-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'international', 'historical'],
+    body: `Ahmad Chalabi, a Shia Iraqi expatriate and MIT-trained mathematician who had fled Iraq's monarchy as a child, arrived in Jordan in the 1970s and, with the backing of the country's Crown Prince Hassan bin Talal, founded Petra Bank in 1977. Within a decade he had built it into Jordan's third-largest bank, expanding into other countries under the Petra International Banking Corporation umbrella, while Chalabi cultivated an image as one of the kingdom's most successful young financiers.
+
+Behind that success, Chalabi was allegedly running the bank as a private financing source for his own ventures. A subsequent forensic audit by Arthur Andersen found that huge sums of Petra Bank's assets had been funneled into companies Chalabi controlled or was affiliated with, disguised through false accounting and undisclosed related-party loans. The audit tallied roughly $80 million in bad loans to insiders, another $20 million in "unsupported" foreign-currency balances claimed to be held at correspondent banks that couldn't be verified, and a further $60 million investigators said simply could not be traced at all.
+
+The scheme came apart on August 2, 1989, when Jordan's central bank seized control of Petra Bank after regulators could no longer reconcile its books, and the government announced a $350 million bailout of depositors to prevent a wider run on the country's banking system — a rescue that, combined with the unrecovered losses, ultimately cost Jordan an estimated $300 million or more. Chalabi did not stay to answer regulators' questions: within two weeks of the takeover, he left Jordan, reportedly with the assistance of his patron Prince Hassan, and never returned to face the investigation that followed.
+
+In 1992, a Jordanian military tribunal tried Chalabi in absentia alongside seventeen co-defendants on 31 counts of embezzlement, theft, misuse of depositor funds, and illegal currency speculation. He was convicted on all counts and sentenced to 22 years in prison — a sentence he never served. Chalabi always maintained the case was a politically engineered smear, and rather than fading from public life, he became one of the most prominent Iraqi opposition exiles in Washington, a key source of pre-war intelligence that the U.S. government relied on ahead of the 2003 invasion, and later a sitting member of Iraq's post-Saddam parliament until his death in 2015 — never having answered, in Jordan or anywhere else, for the bank's collapse.
+
+Chalabi's case is a reminder that a fraud conviction and actual accountability are not the same thing: a court can establish, on the record, that tens of millions of depositor dollars disappeared into a banker's own pocket, and the person responsible can still spend the next quarter-century building an entirely new, high-profile career in a different country — never extradited, never imprisoned, and eventually courted by governments that might otherwise have had reason to ask more questions about how he built his early fortune.`,
+    sourceUrl: 'https://en.wikipedia.org/wiki/Petra_Bank',
+    // representative photo — replace with a portrait if found
+});
