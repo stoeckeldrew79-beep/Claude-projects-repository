@@ -7348,19 +7348,7 @@ UsAF.push({
     state: 'CO',
 });
 
-UsAF.push({
-    name: 'Arizona Crypto ATM Impersonation Scam Alert',
-    slug: 'arizona-crypto-atm-impersonation-scam-alert',
-    description: `Arizona Attorney General Kris Mayes issued a consumer alert on February 2, 2026 warning residents about the state's roughly 600 cryptocurrency ATM kiosks becoming a favored payout method for impersonation scams, after Arizonans lost more than $177 million to these schemes in 2024 alone — with the FBI separately reporting a 99% nationwide increase in crypto ATM fraud complaints and more than two-thirds of victims being 60 or older. The pattern starts with an unsolicited call, email, or text in which a scammer poses as law enforcement, a bank, a utility company, or a distressed loved one, manufactures a fabricated emergency — a warrant, a compromised account, an overdue bill, bail money — and pressures the target to withdraw cash immediately and feed it into a nearby crypto ATM using a QR code the scammer supplies; once the deposit clears, the funds move into the scammer's wallet and become nearly impossible to recover, unlike a bank wire, which can sometimes be clawed back. Alongside the alert, Mayes launched a new fraud complaint form letting victims report a crypto ATM scam within 30 days, and pointed to Arizona's HB2387, a state law that lets new cryptocurrency ATM users who are scammed qualify for a refund if they file a police report, contact the kiosk operator, and submit evidence to law enforcement or the Attorney General's Office promptly. "A crypto ATM cannot un-ring itself once the machine takes your cash," Mayes' office noted in urging residents to treat any instruction to pay a debt, fine, or "protect" an account through a cryptocurrency kiosk as a scam regardless of who the caller claims to be — real law enforcement, banks, and utilities never direct a person to a crypto ATM to resolve anything. Arizonans who believe they've been scammed through a crypto ATM are advised to file a police report immediately, contact the machine's operator, and submit a complaint through the Attorney General's new fraud form to preserve their rights under HB2387's refund provision.`,
-    categorySlug: 'cryptocurrency-scams',
-    alertLevel: 'high',
-    sources: ["Arizona Attorney General's Office (Kris Mayes)"],
-    sourceUrl: 'https://www.azag.gov/press-release/attorney-general-kris-mayes-issues-cryptocurrency-atm-scam-alert-launches-new-fraud',
-    country: 'US',
-    state: 'AZ',
-    isHistorical: true,
-    firstRecorded: '2026-02-02',
-});
+
 
 UsAF.push({
     name: 'Graystone Assisted Living Medicaid Fraud (Amie Sanneh)',
@@ -10217,4 +10205,71 @@ UsAF.push({
     sourceUrl: 'https://www.maine.gov/pfr/consumercredit/enforcement/bitcoindepot.html',
     country: 'US',
     state: 'ME',
+});
+
+UsAF.push({
+    name: 'Fake Auto Insurance Agents at Arkansas Car Dealerships',
+    slug: 'arkansas-fake-auto-insurance-dealership-scam',
+    description: `Fraudsters posing as Progressive Insurance agents worked Arkansas car dealerships, offering to write policies on the spot so buyers could show proof of insurance to drive off the lot. Victims paid cash to the fake agents, who used the money to buy real short-term Progressive policies through legitimate channels, then had the transactions reported as fraudulent so the charges were reversed — leaving the buyer with a canceled, rescinded policy they believed was still valid. Progressive referred roughly 240 initial cases to the Arkansas Insurance Department's Criminal Investigation Division, which warned that possessing or selling counterfeit insurance is a Class D felony carrying up to six years in prison.`,
+    categorySlug: 'insurance-fraud',
+    sources: ['Arkansas Insurance Department'],
+    sourceUrl: 'https://insurance.arkansas.gov/consumer-alert-fake-auto-insurance/',
+    country: 'US',
+    state: 'AR',
+});
+
+UsAF.push({
+    name: 'FBI Little Rock Sextortion Warning — Northwest Arkansas',
+    slug: 'arkansas-sextortion-threats-northwest-arkansas',
+    description: `FBI Little Rock, through its Arkansas Child Exploitation and Human Trafficking Task Force, has repeatedly warned of a surge in financial sextortion targeting Northwest Arkansas boys aged roughly 13 to 17. An offender poses as a young girl on social media, lures the victim into explicit video chat, secretly records it, then threatens to post the recording to the victim's social media contacts unless paid — usually demanding gift cards or bank login information. The FBI has noted the scheme's severe psychological toll, including victims feeling too isolated to seek help, and directs anyone affected in Arkansas to its task force at 501-221-9100.`,
+    categorySlug: 'sextortion',
+    alertLevel: 'high',
+    sources: ['FBI Little Rock Field Office'],
+    sourceUrl: 'https://www.fbi.gov/contact-us/field-offices/littlerock/news/press-releases/fbi-little-rock-warns-of-increase-in-sextortion-threats-targeting-northwest-arkansas',
+    country: 'US',
+    state: 'AR',
+});
+
+UsAF.push({
+    name: 'Arkansas Senior Medicare Patrol — Urinary Catheter Billing Scam',
+    slug: 'arkansas-medicare-urinary-catheter-billing-scam',
+    description: `Scammers obtained Medicare beneficiaries' numbers and billed Medicare for urinary catheters that were never requested or received, running up thousands of dollars in fraudulent charges per victim and exposing their Medicare numbers to further misuse. The Arkansas Senior Medicare Patrol, housed in the Arkansas Insurance Department, reported that complaints — which started trickling in around May 2023 — jumped 750% by August 2023 and peaked in December 2023. Arkansas SMP director Kathleen Pursell urged beneficiaries to check Medicare statements regularly for equipment they never ordered and to report discrepancies so a compromised Medicare number can be reissued.`,
+    categorySlug: 'medicare-health-plans',
+    sources: ['Arkansas Senior Medicare Patrol', 'Arkansas Insurance Department'],
+    sourceUrl: 'https://insurance.arkansas.gov/news/2024/mar/29/scam-alert-scammers-are-billing-for-unneeded-urinary-catheters/',
+    country: 'US',
+    state: 'AR',
+});
+
+UsAF.push({
+    name: 'Business Email Compromise (BEC) Gift Card Fraud (Arizona)',
+    slug: 'arizona-business-email-compromise-gift-card-fraud',
+    description: `The FBI's Phoenix Field Office warned that Business Email Compromise — in which a scammer spoofs or impersonates a company executive's email and instructs an employee to urgently purchase gift cards, then send back the card numbers and PINs "for the boss" — was the number one scam in Arizona by dollar losses for five consecutive years running. Per IC3's 2021 Internet Crime Report, Arizona reported 388 BEC/EAC victims with more than $22 million in losses that year alone. The FBI advises employees to scrutinize sender addresses that look similar-but-not-identical to a real supervisor's, to be wary of any request to buy multiple gift cards under time pressure, and to verify unusual purchase requests by phone through a known number rather than by replying to the email.`,
+    categorySlug: 'business-email-compromise',
+    sources: ['FBI Phoenix Field Office'],
+    sourceUrl: 'https://www.fbi.gov/contact-us/field-offices/phoenix/news/press-releases/bec-scams-reported-number-one-scam-in-arizona-breaking-down-the-ic3-annual-report',
+    country: 'US',
+    state: 'AZ',
+});
+
+UsAF.push({
+    name: 'Fraudulent QR Code Scam (Arizona)',
+    slug: 'arizona-fraudulent-qr-code-scam',
+    description: `The Arizona Attorney General's Office warned that cybercriminals are placing fake or altered QR code stickers over legitimate ones in public locations — most notably on parking meters — so that someone trying to pay for parking is instead redirected to a sham website controlled by the scammer, which can also push malicious software onto the victim's phone. Unit Chief Counsel Robert Bernheim noted a scanned code "can be a malicious link or a spoofed link where someone is trying to pretend to be someone else," and many victims never realize their information was compromised. The office's advice: ignore unsolicited QR codes from unknown senders, preview the destination URL before letting it open, turn off automatic link-following in phone camera/QR settings, and run mobile antivirus software.`,
+    categorySlug: 'qr-code-scams',
+    sources: ["Arizona Attorney General's Office"],
+    sourceUrl: 'https://www.azag.gov/press-release/arizona-attorney-generals-office-warns-fraudulent-qr-codes',
+    country: 'US',
+    state: 'AZ',
+});
+
+UsAF.push({
+    name: 'Student Loan Repayment and Debt Relief Scam (Arizona)',
+    slug: 'arizona-student-loan-debt-relief-scam-warning',
+    description: `Arizona Attorney General Kris Mayes warned borrowers ahead of the return to federal student loan repayment that scammers were impersonating loan servicers by phone, email, text, and letter, dangling promises of "immediate" debt forgiveness or cancellation to manufacture urgency, and offering paid loan-consolidation services that are actually free through the federal government. A key tell flagged in the alert: scammers ask for a borrower's FSA ID, which can then be used to hijack the account by changing its contact information. The office urged borrowers to update contact info directly on their servicer's site and StudentAid.gov, never pay an upfront fee for consolidation or debt relief, never give out an FSA ID or personal information to an unsolicited caller, and treat any request for payment via cryptocurrency or gift card as a red flag.`,
+    categorySlug: 'student-loan-education',
+    sources: ["Arizona Attorney General's Office"],
+    sourceUrl: 'https://www.azag.gov/press-release/attorney-general-mayes-warns-consumers-beware-possible-scams-related-upcoming-return',
+    country: 'US',
+    state: 'AZ',
 });

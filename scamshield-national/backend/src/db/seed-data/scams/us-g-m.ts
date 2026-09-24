@@ -9941,3 +9941,38 @@ UsGM.push({
     country: 'US',
     state: 'LA',
 });
+
+UsGM.push({
+    name: 'Massachusetts DPU Caller-ID Spoofing Solar Scam',
+    slug: 'massachusetts-dpu-caller-id-spoofing-solar-scam',
+    description: `Massachusetts residents have received calls from someone claiming to be a solar developer acting "on behalf of" the Department of Public Utilities, with caller ID displaying DPU's actual main phone number — a spoofing tactic that makes the call look legitimate — before the caller demands money for supposedly "unpaid services." The Massachusetts Office of Consumer Affairs and Business Regulation and DPU issued a joint warning making clear these calls do not come from or on behalf of DPU, and residents are directed to hang up immediately, provide no personal information, and report the calls to the DPU Consumer Division.`,
+    categorySlug: 'government-impersonation',
+    sources: ['Massachusetts Office of Consumer Affairs and Business Regulation (OCABR)', 'Massachusetts Department of Public Utilities (DPU)'],
+    sourceUrl: 'https://blog.mass.gov/consumer/massconsumer/department-of-public-utilities-phone-scam-circulating-in-ma/',
+    country: 'US',
+    state: 'MA',
+});
+
+UsGM.push({
+    name: 'Massachusetts Trial Court and Jury Commissioner Text-Message Impersonation Scam',
+    slug: 'massachusetts-trial-court-jury-commissioner-text-scam',
+    description: `Scam text messages impersonating the Massachusetts Trial Court and the Office of Jury Commissioner falsely claim recipients owe money for unpaid tolls or parking tickets and face court action, or that they've been summoned for jury duty and face penalties for failing to appear. The Trial Court issued an official notice stating it never sends summonses by text, never demands immediate payment, and never threatens arrest over unpaid tolls, and that the Office of Jury Commissioner will never call to threaten arrest or demand payment — directing anyone who receives such a message to verify it by calling the Office of Jury Commissioner directly rather than responding to the text.`,
+    categorySlug: 'government-impersonation',
+    sources: ['Massachusetts Trial Court', 'Office of Jury Commissioner'],
+    sourceUrl: 'https://www.mass.gov/alerts/notice-on-scam-messages-impersonating-the-trial-court-and-the-office-of-jury-commissioner',
+    country: 'US',
+    state: 'MA',
+});
+
+UsGM.push({
+    name: 'Massachusetts Permit-Fee Fraudulent Invoice Email Scam',
+    slug: 'massachusetts-permit-fee-fraudulent-invoice-email-scam',
+    description: `Criminals impersonating city and county government officials send fraudulent emails to people with active land-use or building-permit applications, citing real property addresses, case numbers, and the names of actual permitting officials to look legitimate, then attach a PDF invoice demanding urgent payment to avoid delaying the permit. The Boston Police Department issued a community alert on this scheme after Cambridge's Community Development Department warned of the same pattern hitting its own permit applicants, flagging red flags like sender addresses that don't end in a .gov domain and instructions to reply by email rather than call to "verify" the charge.`,
+    categorySlug: 'business-email-compromise',
+    sources: ['Boston Police Department', 'City of Cambridge Community Development Department'],
+    sourceUrl: 'https://police.boston.gov/2026/03/17/bpd-community-alert-fraudulent-emails-targeting-residents-and-businesses-with-permit-fee-scams/',
+    country: 'US',
+    state: 'MA',
+    isHistorical: true,
+    firstRecorded: '2026-03-17',
+});
