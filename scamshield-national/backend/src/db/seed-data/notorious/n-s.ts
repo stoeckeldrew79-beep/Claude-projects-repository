@@ -7512,3 +7512,21 @@ The Sklarek scandal illustrates something that recurs whenever a financial fraud
   sourceUrl: 'https://en.wikipedia.org/wiki/Sklarek_scandal',
   // representative photo — replace with a portrait if found
 });
+
+NotoriousNS.push({
+  title: 'Roberto Rincón: The $1.6 Million Bribery Scheme That Opened PDVSA\'s Bidding Panels',
+  slug: 'roberto-rincon-pdvsa-bribery-scheme',
+  author: 'ScamShield Editorial',
+  tags: ['notorious', 'notorious-scammer', 'international', 'corruption'],
+  body: `Roberto Enrique Rincón Fernández ran a network of small Houston-based oil-services companies that, for years, won contract after contract from Petróleos de Venezuela, S.A. (PDVSA), the Venezuelan state oil monopoly and one of the largest companies in the world. His success wasn't rooted in the lowest bids or the best equipment. Starting around 2009, Rincón and a fellow broker, Abraham José Shiera Bastidas, began paying cash bribes directly to the PDVSA purchasing analysts who controlled which vendors made it onto the company's official "bidding panels" — the gatekeeping lists a supplier had to be on before it could even compete for PDVSA contracts.
+
+The mechanism was straightforward and brazen: rather than compete on price or quality, Rincón and Shiera paid at least $1.6 million in bribes, plus undisclosed amounts in travel, meals, and entertainment, to at least five separate PDVSA officials. In exchange, the officials placed their companies' names on the bidding panels, steered contracts their way, and — in some cases — moved their invoices ahead of other vendors' in PDVSA's payment queue, ensuring they got paid while PDVSA's genuine backlog of creditors waited. The scheme let two private brokers effectively buy privileged access to one of the world's largest procurement budgets, one purchasing analyst at a time.
+
+The scheme surfaced as part of a sprawling multi-district U.S. investigation into corruption at PDVSA that, by the mid-2010s, had drawn in more than a dozen defendants — brokers, PDVSA officials, and the middlemen who moved the bribe money. Rincón was arrested in Houston in December 2015, and on June 16, 2016, he pleaded guilty in the Southern District of Texas to conspiracy to violate the Foreign Corrupt Practices Act, a substantive FCPA violation, and a separate charge of lying on his 2010 tax return about more than $6 million in foreign dividend income. Shiera, who had been arrested earlier and became one of the government's first cooperating witnesses in the broader PDVSA probe, pleaded guilty around the same time.
+
+Their sentences reflected how differently the government valued their cooperation. Shiera, credited for his early and extensive assistance to investigators, was ultimately sentenced on October 13, 2022, to just 12 months and a day. Rincón's path was rockier: after his guilty plea, prosecutors accused him of separately trying to obstruct the ongoing investigation, and in February 2020 he was sentenced to 70 months in federal prison — nearly six years — covering both the original bribery scheme and the obstruction charge.
+
+The Rincón-Shiera case is a compact illustration of how corruption inside a state-owned company functions as fraud on the public that actually owns it: PDVSA's Venezuelan stakeholders paid inflated, non-competitive prices for equipment and services because a handful of purchasing analysts could be bought for a few hundred thousand dollars apiece. It's also a reminder that cooperation timing can matter as much as culpability in how a white-collar sentence turns out — the earlier and more forthcoming defendant walked away with a sentence measured in months, while the one who tried to fight back against the investigation added years to his own time.`,
+  sourceUrl: 'https://www.ice.gov/news/releases/houston-businessman-pleads-guilty-foreign-bribery-and-tax-charges-connection',
+  // representative photo — replace with a portrait if found
+});
