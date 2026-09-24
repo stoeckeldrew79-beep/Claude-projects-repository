@@ -7492,6 +7492,9 @@ The fraud case that followed centers not on how Signa collapsed but on what Benk
 
 Benko's downfall illustrates a category of fraud that's easy to overlook because it doesn't involve deceiving anyone into investing in the first place: insolvency fraud, where the crime happens after a legitimate business has already failed, as a controlling owner tries to quietly shield personal assets from the creditors and courts about to descend on the wreckage. It's also a useful case for a collection built mostly on schemes that were fraudulent from day one, since it shows that criminal fraud liability can attach to what an executive does in a company's final weeks even when the underlying business failure itself was driven by ordinary market forces rather than deception.`,
   sourceUrl: 'https://www.globalbankingandfinance.com/austrian-ex-billionaire-benko-found-guilty-insolvency-fraud/',
+  coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Vienna_Skyline.jpg?width=1200',
+  coverImageCredit: 'Photo: Fabian Lackner (CC BY-SA 3.0) — Vienna, where Signa was headquartered',
+  coverImagePosition: 50,
   // representative photo — replace with a portrait if found
 });
 
@@ -7528,5 +7531,8 @@ Their sentences reflected how differently the government valued their cooperatio
 
 The Rincón-Shiera case is a compact illustration of how corruption inside a state-owned company functions as fraud on the public that actually owns it: PDVSA's Venezuelan stakeholders paid inflated, non-competitive prices for equipment and services because a handful of purchasing analysts could be bought for a few hundred thousand dollars apiece. It's also a reminder that cooperation timing can matter as much as culpability in how a white-collar sentence turns out — the earlier and more forthcoming defendant walked away with a sentence measured in months, while the one who tried to fight back against the investigation added years to his own time.`,
   sourceUrl: 'https://www.ice.gov/news/releases/houston-businessman-pleads-guilty-foreign-bribery-and-tax-charges-connection',
+  coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Houston_Skyline.jpg?width=1200',
+  coverImageCredit: 'Photo: Houstondude01 (CC BY-SA 2.0) — Houston, where Rincón\'s companies were based',
+  coverImagePosition: 50,
   // representative photo — replace with a portrait if found
 });

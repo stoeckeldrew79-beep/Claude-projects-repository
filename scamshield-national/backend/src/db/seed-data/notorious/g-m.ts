@@ -10763,7 +10763,8 @@ In February 2017, Urdangarin was convicted on six counts, including embezzlement
 
 The Nóos case is a reminder that the "nonprofit consulting contract" is one of the oldest disguises in public-sector fraud — dress a kickback as a fee for services rendered to a charitable-sounding foundation, and it can move through a government's books for years before anyone asks whether the work was ever worth what was paid for it. It's also notable for what it says about accountability: Spain's monarchy had effectively never seen one of its own members face criminal charges, and the fact that this case proceeded to trial and conviction anyway marked a real break from that precedent.`,
     sourceUrl: 'https://www.nbcnews.com/news/world/brother-law-spain-s-king-sentenced-prison-fraud-case-n722376',
-    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/I%C3%B1aki_Urdangar%C3%ADn.jpg?width=1200',
+    coverImageCredit: 'Photo: Antonio Zugaldia (CC BY 2.0) — Iñaki Urdangarin',
 });
 
 NotoriousGM.push({
@@ -10781,6 +10782,9 @@ On November 8, 2019, a Milan court convicted thirteen former bankers from MPS, D
 
 The MPS case shows how far a fraud can travel through a legal system — a criminal investigation, a headline conviction, prison sentences handed down in open court — without ever arriving at a final, binding verdict of guilt. The underlying facts were never seriously disputed: the internal memos describing the deals' real purpose surfaced and were published, the losses were real, and the bank needed a government rescue to survive them. What the case illustrates is that even overwhelming documentary evidence of a cover-up can fail to survive an appeals process demanding that prosecutors prove not just what happened, but that it met the precise legal definition of the specific crimes charged — a gap that, in this instance, let every defendant walk away.`,
     sourceUrl: 'https://www.euronews.com/2019/11/08/italian-court-convicts-deutsche-bank-nomura-in-monte-paschi-derivative-trial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Siena5.jpg?width=1200',
+    coverImageCredit: 'Photo: Ricardo André Frantz (CC BY-SA 3.0) — Siena, home of Banca Monte dei Paschi',
+    coverImagePosition: 50,
     // representative photo — replace with a portrait if found
 });
 
@@ -10799,5 +10803,8 @@ Møller's criminal case went through two rounds. A district court in Aalborg acq
 
 OW Bunker's collapse is a case study in how a single unauthorized, undisclosed credit line to one counterparty — the kind of concentration risk internal controls are specifically supposed to catch — can bring down a company that looks, from the outside, like a large and diversified international trading business. It also shows how differently criminal and civil accountability can land in the same case: the executive whose hidden trades caused the collapse ultimately served a real prison sentence for it, while the company's board, auditor, and former owner faced no liability at all.`,
     sourceUrl: 'https://shipandbunker.com/news/world/106710-ow-bunker-moller-sentence-increased-to-5-years',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Copenhagen_skyline.jpg?width=1200',
+    coverImageCredit: 'Photo: Ibrahim50 (CC BY-SA 3.0) — Copenhagen, OW Bunker\'s headquarters city',
+    coverImagePosition: 50,
     // representative photo — replace with a portrait if found
 });
