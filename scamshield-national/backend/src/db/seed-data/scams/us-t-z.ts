@@ -5561,3 +5561,39 @@ UsTZ.push({
     country: 'US',
     state: 'UT',
 });
+
+UsTZ.push({
+    name: 'Virgin Islands Student Loan Forgiveness Application Scam',
+    slug: 'virgin-islands-student-loan-forgiveness-application-scam',
+    description: `The U.S. Virgin Islands Department of Licensing and Consumer Affairs warned residents that scammers were exploiting anticipation around federal student loan forgiveness programs, posing as U.S. Department of Education representatives who offer to help complete the debt-relief application. DLCA Commissioner Richard Evangelista said the scammers ask applicants to hand over their Federal Student Aid (FSA) ID, account credentials, and passwords, or demand payment for a process that is actually free through StudentAid.gov. The department urged residents to verify any such contact directly through StudentAid.gov rather than a link or number an unsolicited caller or emailer provides.`,
+    categorySlug: 'student-loan-education',
+    alertLevel: 'medium',
+    sources: ['U.S. Virgin Islands Department of Licensing and Consumer Affairs (DLCA)'],
+    sourceUrl: 'https://viconsortium.com/vi-community_center/virgin-islands-dlca-warning-residents-to-resist-scammers-promising-to-help-with-student-loan-debt-relief-',
+    country: 'US',
+    state: 'VI',
+});
+
+UsTZ.push({
+    name: 'Fake VI Government COVID-19 Research Donation Solicitation',
+    slug: 'virgin-islands-covid-research-donation-solicitation-scam',
+    description: `The V.I. Department of Licensing and Consumer Affairs warned that fraudsters were mailing letters to local companies impersonating the Government of the Virgin Islands, falsely claiming a donation of "$25,000 and upwards" was being solicited from businesses for COVID-19 research and that the Governor had endorsed a named finance official to coordinate the fundraising. The letters used forged official letterhead, an incorrect Department of Finance phone number, and a copied signature to appear legitimate. DLCA Commissioner Richard Evangelista urged recipients not to respond to such solicitations and to report them to DLCA or VIPD rather than send money.`,
+    categorySlug: 'charity-scams',
+    alertLevel: 'medium',
+    sources: ['U.S. Virgin Islands Department of Licensing and Consumer Affairs (DLCA)'],
+    sourceUrl: 'https://viconsortium.com/caribbean-crime/virgin-islands-new-scam-purports-to-be-vi-government-soliciting-donations-from-local-companies-for-coronavirus-research-dlca-warns-',
+    country: 'US',
+    state: 'VI',
+});
+
+UsTZ.push({
+    name: 'Virgin Islands Social Media Grant Program Scam',
+    slug: 'virgin-islands-social-media-grant-program-scam',
+    description: `The V.I. Department of Licensing and Consumer Affairs warned that scammers were messaging residents on Facebook, Twitter, and Instagram while impersonating a public figure, politician, or friend, then steering the conversation toward a fictitious government grant program they claim to have personally benefited from and referring the target to a so-called "Claims Agent." DLCA said the scammers typically use poor grammar, turn aggressive if questioned, and manufacture urgency about limited time to participate, before asking for a credit card or bank account number to "hold" the grant or a one-time processing fee. The department noted that a real federal grant is free to apply for through grants.gov and is never awarded to someone who never applied for it.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['U.S. Virgin Islands Department of Licensing and Consumer Affairs (DLCA)'],
+    sourceUrl: 'https://secure.dlca.vi.gov/license/Asps/NewsSurvey/RenderDoc.aspx?id=+382&ftype=PDF',
+    country: 'US',
+    state: 'VI',
+});
