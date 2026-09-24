@@ -9416,3 +9416,63 @@ UsNS.push({
     country: 'US',
     state: 'NM',
 });
+
+UsNS.push({
+    name: 'Puerto Rico Fake Amazon Recruiter Job Text Scam',
+    slug: 'puerto-rico-daco-amazon-recruiter-text-job-scam',
+    description: `Puerto Rico's Department of Consumer Affairs (DACO), through its Fraudulent Schemes Detection Unit, issued a consumer alert on April 10, 2026 about unsolicited text messages impersonating Amazon recruiters. A typical message reads "Soy Beth de Reclutamiento de Amazon. Su perfil ha sido seleccionado para una emocionante oportunidad de trabajo a tiempo parcial y remoto" ("I'm Beth from Amazon Recruitment. Your profile has been selected..."), dangling pay of $250 to $500 for just 90 minutes of work, or up to $1,000 for four days of work per week plus benefits like paid vacation, and creating artificial urgency by claiming only a limited number of positions remain. Victims who respond are directed to text a specific number and are then asked to hand over sensitive personal data — date of birth, Social Security number, and banking information — which DACO said is then used to commit further financial fraud, since no legitimate Amazon hiring process is conducted this way.`,
+    categorySlug: 'employment-scams',
+    alertLevel: 'medium',
+    sources: ['Puerto Rico Department of Consumer Affairs (DACO)'],
+    sourceUrl: 'https://www.metro.pr/noticias/2026/04/10/daco-alerta-sobre-fraude-que-suplanta-reclutadores-de-amazon-por-mensaje-de-texto/',
+    country: 'US',
+    state: 'PR',
+});
+
+UsNS.push({
+    name: 'Puerto Rico Fake UPS Package-Fee Phishing Email',
+    slug: 'puerto-rico-daco-ups-package-fee-phishing-scam',
+    description: `Puerto Rico's Department of Consumer Affairs (DACO) warned on July 26, 2023 about emails impersonating UPS, using near-identical company branding, claiming a package is held at UPS's Puerto Rico warehouse under a fake tracking number and cannot be delivered until a small fee — typically under $2 — is paid via an embedded link. DACO stressed the token dollar amount is designed to make paying feel like the path of least resistance, but the real goal is harvesting the banking and credit-card information entered to "pay" it, and that UPS does not solicit payment this way; legitimate delivery notices come from the retailer or shipper the consumer actually ordered from.`,
+    categorySlug: 'package-delivery-scams',
+    alertLevel: 'low',
+    sources: ['Puerto Rico Department of Consumer Affairs (DACO)'],
+    sourceUrl: 'https://wipr.pr/daco-advierte-sobre-estafa-vinculada-a-paquetes-de-ups/',
+    country: 'US',
+    state: 'PR',
+});
+
+UsNS.push({
+    name: 'FBI Oklahoma City Sextortion Surge Targeting Minors',
+    slug: 'oklahoma-city-fbi-sextortion-minors-surge',
+    description: `FBI Oklahoma City Special Agent in Charge Edward Gray reported that sextortion cases targeting Oklahoma children rose roughly 50% from 2021 to 2023, occurring in two forms — "traditional" sextortion, where an offender threatens to release real or coerced explicit images unless a victim sends more images or complies with demands, and "financial" sextortion, where the offender instead demands money or gift cards under the same threat. The scams typically begin on social media or in video games, with offenders posing as a peer or romantic interest; the FBI noted victims as young as seven and said sextortion has been linked to more than 20 documented teen suicides nationally. Families are urged to keep social media accounts private, treat unverified online contacts with suspicion, and report incidents to a local FBI field office, 1-800-CALL-FBI, or tips.fbi.gov.`,
+    categorySlug: 'sextortion',
+    alertLevel: 'high',
+    sources: ['FBI Oklahoma City Field Office'],
+    sourceUrl: 'https://okcfox.com/news/local/its-very-dark-sextortion-cases-targeting-oklahoma-children-surge-by-50-percent-fbi-reveals-special-agent-in-charge-oklahoma-city-edward-gray-inappropriate-pictures-social-media-video-games-traditional-financial-money-gift-cards-victim-prevention-tips',
+    country: 'US',
+    state: 'OK',
+});
+
+UsNS.push({
+    name: 'Oklahoma SNAP/EBT Card Skimming',
+    slug: 'oklahoma-snap-ebt-card-skimming',
+    description: `Oklahoma Human Services (OKDHS) issued a December 2022 alert after identifying more than 100 Oklahoma SNAP households hit by a nationwide card-skimming scheme, in which thieves attach hidden devices to point-of-sale card readers at retailers to copy a customer's EBT card number and PIN, then drain the account remotely. OKDHS said the problem grew substantially afterward — between July 2023 and June 2024 the agency replaced over $1.4 million in stolen SNAP benefits statewide — and because federal rules generally bar reimbursing stolen SNAP funds, prevention is critical. OKDHS urges SNAP recipients to lock their card between purchases using the ConnectEBT app, change their PIN regularly, cover the keypad when entering a PIN, and inspect card readers for tampering before use.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'high',
+    sources: ['Oklahoma Human Services (OKDHS)'],
+    sourceUrl: 'https://oklahoma.gov/okdhs/newsroom/2022/december/comm12122022.html',
+    country: 'US',
+    state: 'OK',
+});
+
+UsNS.push({
+    name: 'Deepfake Celebrity-Endorsed Investment Ad Scams (Oklahoma)',
+    slug: 'oklahoma-deepfake-celebrity-investment-ad-scam',
+    description: `Oklahoma Attorney General Gentner Drummond issued a consumer alert on April 7, 2026 warning that scammers are running investment scams through ads on Facebook, Instagram, and WhatsApp that use deepfake video and AI-generated content to falsely show celebrities or public figures endorsing trading platforms. The ads funnel victims into "pump and dump" cryptocurrency or penny-stock schemes, or into confidence scams that direct them to counterfeit investment platforms built to drain their funds once trust is established. "From fake investment platforms to deepfake celebrity endorsements and fraudulent cryptocurrencies, scammers are using social media to target unsuspecting consumers," Drummond said.`,
+    categorySlug: 'ai-deepfake-scams',
+    alertLevel: 'medium',
+    sources: ["Oklahoma Attorney General's Office"],
+    sourceUrl: 'https://oklahoma.gov/oag/news/newsroom/2026/april/drummond-warns-oklahomans-of-scam-investment-ads.html',
+    country: 'US',
+    state: 'OK',
+});
