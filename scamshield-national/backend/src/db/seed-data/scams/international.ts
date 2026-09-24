@@ -22032,3 +22032,35 @@ International.push({
   sourceUrl: 'https://kathmandupost.com/money/2026/03/27/inside-nepal-s-fake-rescue-racket',
   country: 'NP',
 });
+
+International.push({
+  name: 'Fake Official Telegram Accounts Used to Extort Online Facebook-Live Shoppers (Cambodia)',
+  slug: 'cambodia-telegram-fake-official-extortion-facebook-shoppers',
+  description: `On June 20, 2026, Cambodia's Anti-Cyber Crime Department, working with the Internal Security Department and Tbong Khmum provincial police, arrested a suspect who monitored Facebook Live sales broadcasts, identified customers who had just paid, then created fake Telegram accounts using photos of senior government and police officials to contact those buyers. Victims were first told their payment had gone through incorrectly and "blocked" the seller's banking system, requiring a paid "resolution fee"; those who refused were then targeted by a second set of fake official-impersonation accounts threatening arrest unless money was transferred immediately. Police said the scheme was run roughly 50 times and extracted more than $110,000 before the suspect was forwarded to Phnom Penh Municipal Court for prosecution under Cambodia's Law on Combating Technology-Based Scams.`,
+  categorySlug: 'government-impersonation',
+  sources: ['Phnom Penh Post', 'Anti-Cyber Crime Department (Cambodia)'],
+  sourceUrl: 'https://phnompenhpost.com/national/beware-facebook-shoppers-police-bust-telegram-scam-over-100k-extorted/',
+  country: 'KH',
+  isHistorical: true,
+  firstRecorded: '2026-06-20',
+});
+
+International.push({
+  name: 'Telegram File-Attachment Malware Used to Hijack Accounts (Cambodia)',
+  slug: 'cambodia-telegram-file-attachment-malware-account-hijack',
+  description: `Cambodia's General Department of Digital Technology and Education Dissemination, under the Ministry of Post and Telecommunications, reported a sharp rise in attempts to hijack Telegram accounts by sending malicious files disguised as ordinary documents, with Minister Chea Vandeth issuing a public alert on July 11, 2026. Attackers send files carrying dangerous extensions such as .exe, .bat, .vbs, .ps1, .sh, .msi, and .scr, often naming the files and writing the accompanying message in Khmer specifically to trick Cambodian users into opening them on accounts linked to a desktop computer. Once opened, the malware can steal passwords and hand attackers remote control of the account and device; department spokesperson Iv Veasna said hijacked accounts are then reused to run investment scams, fake support schemes, job fraud, and impersonation against the victim's own contacts.`,
+  categorySlug: 'account-takeover',
+  sources: ['Ministry of Post and Telecommunications (Cambodia)', 'Cambodianess'],
+  sourceUrl: 'https://cambodianess.com/article/one-click-total-control-cambodia-warns-of-telegram-malware-surge',
+  country: 'KH',
+});
+
+International.push({
+  name: 'Fake Official and Celebrity Impersonation Investment Schemes on Telegram (Cambodia)',
+  slug: 'cambodia-trc-telegram-official-impersonation-investment-scam',
+  description: `Cambodia's Telecommunication Regulator (TRC) issued an official announcement dated September 15, 2025 on rising fraud on Telegram, warning that scammers are increasingly misusing the names and photographs of public figures, senior government officials, and business leaders to promote fraudulent investment schemes promising unrealistic returns in a short time. The same alert described fake prize notifications that falsely tell a recipient they have won a prize and then ask for personal or financial details to "release" it, plus fraudsters posing as Telegram itself, claiming an account was compromised and demanding the password for "verification." The TRC told the public to verify any such claim independently, never share a password or verification code with anyone, and protect their own account with Two-Step Verification, a strong password, and regular review of active sessions.`,
+  categorySlug: 'investment-fraud',
+  sources: ['Telecommunication Regulator of Cambodia (TRC)'],
+  sourceUrl: 'https://www.trc.gov.kh/en/media/news-releases/7-news-release/',
+  country: 'KH',
+});
