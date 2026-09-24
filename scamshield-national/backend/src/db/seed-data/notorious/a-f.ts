@@ -10171,6 +10171,9 @@ Nigeria's Securities and Exchange Commission opened administrative proceedings a
 
 Nigerian press at the time dubbed it "Nigeria's Enron," and the comparison wasn't just rhetorical — it was one of the first cases where Nigeria's post-2003 SEC, in a market often criticized as under-enforced, moved decisively against a marquee, multinational-linked company rather than a purely local operator. It also stands as a textbook case of trade loading and channel-stuffing as an accounting-fraud mechanism: a technique that doesn't require inventing revenue out of nothing, only borrowing it from a future quarter and never paying it back.`,
     sourceUrl: 'https://en.africanmanager.com/nigerians-react-to-13-billion-naira-scandal-in-cadbury/',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Lagos_skyline.jpg?width=1200',
+    coverImageCredit: 'Photo: Clara Sanchiz (CC BY-SA 2.0) — Lagos, Nigeria, where Cadbury Nigeria is based',
+    coverImagePosition: 50,
     // representative photo — replace with a portrait if found
 });
 
@@ -10189,6 +10192,9 @@ The ruling landed like a political earthquake. Days later, opposition leader Ped
 
 What makes Gürtel instructive beyond its sheer size is how ordinary its mechanics were: a well-connected contractor overpricing routine government services and splitting the difference with the officials who approved the contracts, sustained for years by political cover on both sides. What turned it into a national crisis wasn't the sophistication of the fraud but the fact that the party in power had built its own campaign financing on top of it — and that a whistleblower's tip, followed patiently for a decade, was enough to eventually unravel all of it.`,
     sourceUrl: 'https://www.transparency.org/en/news/after-guertel-what-next-for-spains-struggle-with-political-corruption',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Madrid_-_Madrid_skyline_-_140314_195825.jpg?width=1200',
+    coverImageCredit: 'Photo: Barcex (CC BY-SA 3.0) — Madrid, where the Gürtel network operated',
+    coverImagePosition: 50,
     // representative photo — replace with a portrait if found
 });
 
@@ -10207,5 +10213,6 @@ In 1992, a Jordanian military tribunal tried Chalabi in absentia alongside seven
 
 Chalabi's case is a reminder that a fraud conviction and actual accountability are not the same thing: a court can establish, on the record, that tens of millions of depositor dollars disappeared into a banker's own pocket, and the person responsible can still spend the next quarter-century building an entirely new, high-profile career in a different country — never extradited, never imprisoned, and eventually courted by governments that might otherwise have had reason to ask more questions about how he built his early fortune.`,
     sourceUrl: 'https://en.wikipedia.org/wiki/Petra_Bank',
-    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Chalabi.jpg?width=1200',
+    coverImageCredit: 'Photo: U.S. State Dept./Michael Gross (public domain) — Ahmad Chalabi, 2003',
 });
