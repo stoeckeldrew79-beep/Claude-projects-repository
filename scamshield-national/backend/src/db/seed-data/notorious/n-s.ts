@@ -7494,3 +7494,21 @@ Benko's downfall illustrates a category of fraud that's easy to overlook because
   sourceUrl: 'https://www.globalbankingandfinance.com/austrian-ex-billionaire-benko-found-guilty-insolvency-fraud/',
   // representative photo — replace with a portrait if found
 });
+
+NotoriousNS.push({
+  title: 'The Sklarek Brothers: The Berlin Invoice Fraud That Brought Down a Mayor',
+  slug: 'sklarek-brothers-berlin-municipal-fraud-scandal',
+  author: 'ScamShield Editorial',
+  tags: ['notorious', 'notorious-scammer', 'international', 'historical'],
+  body: `Leo, Max, and Willy Sklarek were three Jewish brothers running a clothing wholesale business in Weimar-era Berlin, in the years after Germany's defeat in the First World War. Their firm had a longstanding relationship with the city government: since the war, Berlin's municipal administration had relied on the Sklareks' company to supply and distribute clothing for city employees, and in 1926 the brothers bought outright the distribution company that handled that business, giving them still tighter control over one of the city's steadiest sources of institutional revenue.
+
+The brothers turned that relationship into a fraud machine. Over several years they billed the city of Berlin for clothing shipments inflated far beyond what was actually delivered, and in some cases invoiced for goods never delivered at all — a scheme investigators eventually estimated had cost the city more than 10 million marks. To keep the arrangement running and unexamined, the Sklareks paid bribes to a wide network of city officials, reaching, prosecutors later found, all the way up to Berlin's Lord Mayor, Gustav Böß.
+
+The fraud came apart in 1927, when municipal auditors reviewing the city's accounts found discrepancies in the clothing contracts, and the brothers were arrested that autumn. What followed was less a straightforward fraud prosecution than a slow-motion political crisis: investigators kept uncovering more officials who had taken money from the Sklareks to look the other way, and the resulting court record eventually ran to roughly 2,300 pages. Mayor Böß, though never charged, was forced to resign once his own ties to the brothers became public, and the scandal poisoned relations between the coalition parties then governing Berlin.
+
+The Sklareks' trial didn't open until October 13, 1931 — four years after their arrest — and concluded in 1932 with each brother convicted and sentenced to roughly four years in prison. By then the damage extended well past the courtroom: the emergent Nazi Party had spent years using the case, and the brothers' Jewish identity, as propaganda fuel, folding the affair into a broader narrative tying corruption and Weimar democracy itself to Jewish influence. The brothers did not escape the era they had inadvertently helped poison — Nazi persecution later caught up with them, and two of the three died in Nazi concentration camps in the 1940s.
+
+The Sklarek scandal illustrates something that recurs whenever a financial fraud surfaces inside an already-fragile political system: the crime itself, however real and quantifiable, can end up mattering less than the uses a society finds for it afterward. Ten million marks in false invoices was a serious but containable municipal fraud; what made the Sklarek affair historically significant was how readily it was weaponized — first to topple a mayor and a governing coalition, and then, far more consequentially, as raw material for a political movement that used it to attack the legitimacy of democracy itself.`,
+  sourceUrl: 'https://en.wikipedia.org/wiki/Sklarek_scandal',
+  // representative photo — replace with a portrait if found
+});
