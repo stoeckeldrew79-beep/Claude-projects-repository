@@ -22207,3 +22207,15 @@ International.push({
   sourceUrl: 'https://infoerdve.lt/en/via-lietuva-perspeja-vairuotojus-sms-zinutes-apie-baudas-yra-sukciu-pinkles/',
   country: 'LT',
 });
+
+International.push({
+    name: "Bogotá Fake Traffic Ticket QR Code Windshield Scam",
+    slug: "bogota-fake-traffic-ticket-qr-code-windshield-scam",
+    description:
+      "Criminals in Bogotá place counterfeit traffic-violation notices (comparendos) under the windshield wipers of cars parked on public streets and in parking bays. The fake notice looks official and carries a printed QR code inviting the driver to scan it to check or pay the supposed infraction. Scanning leads to a fraudulent page that harvests bank credentials, passwords, identity documents and other personal data, which criminals then use to hijack email and social media accounts or to extort victims. Bogotá's Secretaría Distrital de Seguridad, Convivencia y Justicia says drivers should never enter confidential data on unfamiliar sites and should verify any comparendo only through official transit channels. Enable two-factor authentication on your accounts, and if you are threatened or extorted, call the Policía Nacional GAULA free line 165.",
+    categorySlug: "qr-code-scams",
+    alertLevel: "high",
+    sources: ["Secretaría Distrital de Seguridad, Convivencia y Justicia","Alcaldía Mayor de Bogotá","Canal Capital"],
+    sourceUrl: "https://bogota.gov.co/mi-ciudad/seguridad/alerta-en-bogota-por-estafa-con-codigos-qr-en-falsos-comparendos",
+    country: "CO",
+});
