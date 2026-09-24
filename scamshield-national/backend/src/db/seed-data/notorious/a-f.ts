@@ -10141,3 +10141,35 @@ Beacon Hill's collapse illustrates a specific failure mode of hedge fund fraud: 
     sourceUrl: 'https://www.sec.gov/litigation/litreleases/lr-17831',
     // representative photo — replace with a portrait if found
 });
+
+NotoriousAF.push({
+    title: 'Brian Maher and the "Bottom of the Harbour" Company-Stripping Tax Fraud',
+    slug: 'brian-maher-bottom-of-the-harbour-tax-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical', 'tax-fraud'],
+    body: `In the 1970s, a loophole in Australian tax law let a profitable company avoid tax on its accumulated earnings simply by selling itself, before the tax fell due, to a new owner with no assets and no intention of paying. Promoters would strip the company of its cash and real assets, hand the empty shell — and its tax liability — to a "person of straw," and destroy or ship the company's records overseas, making the debt effectively uncollectable. Treasury officials coined the phrase "bottom of the harbour" for where the paperwork, and the tax, ended up. By the Australian Taxation Office's own 1986/87 count, roughly 6,688 companies were run through such schemes nationally, with revenue losses estimated between $500 million and $1 billion.
+
+Brian James Maher was one of the promoters at the center of it. His pitch to high-income Australians was straightforward: he offered them a "tax-loss company" — a shell with paper losses that could be used to offset real income — for 26 cents on the dollar of tax it would save them. The Australian Federal Police spent four years investigating bottom-of-the-harbour promoters, in a probe covering roughly $400 million in schemes, before Maher and a business partner, former Queensland squash champion John Patrick Donnelly, went to trial in 1985. The trial ran 94 days, called 49 Crown witnesses, worked through more than 10,000 documents, and took the jury eight days to reach a verdict.
+
+Maher was convicted on charges of defrauding the Commonwealth between 1972 and 1978, and separately of conspiring to defraud a company, Penola Homes Pty Ltd, of $127,534 in 1975-76. He was sentenced to five years in prison and was declared bankrupt the same year; he was released on bail in 1987 pending appeal (the case is reported as R v Maher [1987] 1 Qd R 171). He did not stay out of trouble: in December 1994 he pleaded guilty to a fresh fraud, misusing $175,000 of client money in a computer betting scheme by diverting investor funds into his own personal account, and received a suspended three-year sentence.
+
+The bottom-of-the-harbour scandal is best remembered today as a footnote to the Costigan Royal Commission (which uncovered it while investigating a corrupt waterfront union and helped trigger the creation of Australia's National Crime Authority), but Maher's own case shows the mechanics at the individual level: a tax fraud that didn't victimize any single investor, but every other taxpayer, executed at industrial scale by professional promoters selling shell companies as a commodity — and, in Maher's case, a promoter who simply moved on to a new fraud once the first one caught up with him.`,
+    sourceUrl: 'https://chrisgriffith.com/1990s/1996/maher1.html',
+    // representative photo — replace with a portrait if found
+});
+
+NotoriousAF.push({
+    title: 'Bunmi Oni and the Cadbury Nigeria Accounting Scandal',
+    slug: 'bunmi-oni-cadbury-nigeria-accounting-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'accounting-fraud', 'corporate-fraud'],
+    body: `Cadbury Nigeria Plc — majority-owned by the UK confectionery giant and one of the most prominent companies on the Nigerian Stock Exchange — spent 2002 through 2005 reporting profits that, a subsequent investigation found, simply weren't there. Under managing director Bunmi Oni and finance director Ayo Akadiri, the company used a combination of stock buy-backs, deferred-cost accounting, "trade loading" (shipping excess inventory to distributors near year-end to book sales that hadn't really occurred), and false suppliers' stock certificates to inflate its reported financial position year after year.
+
+The fraud came to light in 2006 after Cadbury Nigeria's board, under newly installed chairman Dr. Uduimo Itsueli, commissioned PricewaterhouseCoopers to review the company's books. PwC's investigation found the company had overstated its financial position by between ₦13 billion and ₦15 billion (roughly $85 million at the time) across the prior several years. Restated accounts showed the company had actually posted an operating loss of ₦1-2 billion for 2006, not the profit it had reported. Oni and Akadiri were dismissed on November 16, 2006.
+
+Nigeria's Securities and Exchange Commission opened administrative proceedings and found Oni guilty of false accounting, unauthorized stock buy-backs, trade loading, tax default, and undisclosed personal interests in the company; it banned him for life from serving as a director of any publicly quoted Nigerian company. The company's external auditor, Akintola Williams Deloitte, was fined and reprimanded. Cadbury Nigeria Plc itself, along with Oni, Akadiri, and thirteen others, was referred to Nigeria's Economic and Financial Crimes Commission (EFCC) for criminal investigation.
+
+Nigerian press at the time dubbed it "Nigeria's Enron," and the comparison wasn't just rhetorical — it was one of the first cases where Nigeria's post-2003 SEC, in a market often criticized as under-enforced, moved decisively against a marquee, multinational-linked company rather than a purely local operator. It also stands as a textbook case of trade loading and channel-stuffing as an accounting-fraud mechanism: a technique that doesn't require inventing revenue out of nothing, only borrowing it from a future quarter and never paying it back.`,
+    sourceUrl: 'https://en.africanmanager.com/nigerians-react-to-13-billion-naira-scandal-in-cadbury/',
+    // representative photo — replace with a portrait if found
+});
