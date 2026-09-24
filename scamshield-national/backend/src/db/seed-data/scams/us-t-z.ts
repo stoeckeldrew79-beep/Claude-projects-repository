@@ -5525,3 +5525,39 @@ The Division reported fielding 238 investor complaints in 2024, leading to 149 i
     country: 'US',
     state: 'VA',
 });
+
+UsTZ.push({
+    name: 'Fake Auto Insurance Sold Over WhatsApp (Utah)',
+    slug: 'utah-whatsapp-fake-auto-insurance-scam',
+    description: `Unlicensed sellers, believed to be based outside the U.S., market counterfeit auto insurance policies to Utah's Hispanic community through WhatsApp and word of mouth, either sending forged certificates of insurance or using a real Utah agent's stolen identity to appear legitimate. Victims who pay through WhatsApp are left with no real coverage, and the Utah Insurance Department warns their vehicle registration can be revoked and their car impounded once the fake policy is discovered, while insurers won't honor claims filed on a policy built on false information. The Utah Insurance Department's Fraud Division issued the alert on July 21, 2025, advising consumers to buy insurance only from licensed agents verified through the department's own site.`,
+    categorySlug: 'insurance-fraud',
+    alertLevel: 'high',
+    sources: ['Utah Insurance Department Fraud Division'],
+    sourceUrl: 'https://insurance.utah.gov/dont-buy-insurance-on-whatsapp/',
+    country: 'US',
+    state: 'UT',
+});
+
+UsTZ.push({
+    name: 'Phony Utility Company Power-Shutoff Threat (Utah)',
+    slug: 'utah-rocky-mountain-power-impersonation-scam',
+    description: `Scammers spoof caller ID to appear as a Utah power company, commonly Rocky Mountain Power, and tell a business or resident their account is overdue and power will be cut within 24 hours unless they pay immediately, typically via gift card or wire transfer. In one documented case, a Bountiful hair salon received the call, but the owner immediately recognized the fraud because the shop was actually served by a different, municipal utility (Bountiful City Power), not Rocky Mountain Power. The Utah Division of Consumer Protection warns residents and businesses never to pay a utility bill with gift cards or wire transfers, and to hang up and call the utility directly using its published number.`,
+    categorySlug: 'utility-scams',
+    alertLevel: 'medium',
+    sources: ['Utah Division of Consumer Protection'],
+    sourceUrl: 'https://commerce.utah.gov/2019/07/31/utah-consumer-alert-phony-rocky-mountain-power-call-rings-bountiful-salon-scammers-plot-falls-flat-due-to-electrical-service-from-local-utility/',
+    country: 'US',
+    state: 'UT',
+});
+
+UsTZ.push({
+    name: 'Timeshare Owner Buyer/Exit-Fee Scam (Utah)',
+    slug: 'utah-timeshare-owner-scam',
+    description: `Utah timeshare owners get unsolicited calls from people posing either as a buyer interested in the timeshare or as a company that can get them out of their contract, with the pitch built to extract banking details, personal information, or an upfront fee paid by wire transfer, cryptocurrency, or gift card before any sale or exit actually happens. The Utah Department of Commerce says a genuine buyer or exit company essentially never cold-calls an owner this way, and a "guaranteed" exit or sale should be treated as fraud. Division of Consumer Protection Director Katie Hass urged owners contacted this way to research the company first rather than "take the bait," since a real transaction never requires payment up front.`,
+    categorySlug: 'timeshare-scams',
+    alertLevel: 'medium',
+    sources: ['Utah Department of Commerce, Division of Consumer Protection'],
+    sourceUrl: 'https://www.deseret.com/utah/2023/10/16/23919408/utah-timeshare-scam-gift-card-crypto/',
+    country: 'US',
+    state: 'UT',
+});
