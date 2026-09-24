@@ -18959,6 +18959,18 @@ International.push(
   },
 );
 
+International.push({
+    name: '"Halo Halo" SIM Registration Identity-Lending Fraud Scheme',
+    slug: 'tz-halo-halo-sim-registration-identity-fraud',
+    description: `The Citizen (Tanzania) reported on July 13, 2026 on a national fraud network Tanzanians call "Halo Halo," built on dishonest SIM-registration agents who secretly register extra SIM cards in a customer's name during what looks like a routine visit to register a line. Agents exploit the required fingerprint-verification step: a customer is told their fingerprint wasn't captured properly and asked to scan again, and during that repeat scan a second SIM card is quietly registered under their identity and later sold on to fraud networks for Sh10,000-Sh15,000. Fraudsters use these illegitimately registered lines — untraceable to themselves and registered under an unwitting victim's own identity — to run follow-on scams: fake job offers, impersonated mobile-network "customer support" calls claiming money is owed, fabricated school emergencies, and posing as security officials demanding payment. A March 5, 2026 police raid in Kilombero District, Morogoro Region, arrested ten suspects and recovered 198 fraud-linked SIM cards (88 registered under different names by a single agent) tied to over Sh12 million stolen from victims. Tanzania lost more than Sh5 billion to fraud nationally in 2024, with only Sh288.7 million recovered, and TCRA Director General Peter Mwasalyanda separately warned residents of Ifakara — which recorded the country's highest quarterly fraud-attempt count (1,781 incidents) through June 2026 — to stop lending their identity for someone else's phone-line registration in exchange for money. TCRA urges anyone registering a SIM to insist on only a single fingerprint scan, verify which lines are registered in their name by dialing *106#, and report suspected fraud by free SMS to 15040.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'high',
+    sources: ['The Citizen (Tanzania)', 'Tanzania Communications Regulatory Authority (TCRA)'],
+    sourceUrl: 'https://www.thecitizen.co.tz/tanzania/news/national/dishonest-sim-registration-agents-are-fueling-tanzania-s-phone-fraud-networks-5525316',
+    country: 'TZ',
+    firstRecorded: '2026-07-13',
+});
+
 International.push(
   {
     name: 'ADV Advertising "ADVAPP" Vending-Machine Pyramid Scheme',
