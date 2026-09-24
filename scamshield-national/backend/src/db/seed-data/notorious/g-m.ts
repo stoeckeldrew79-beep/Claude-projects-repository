@@ -10783,3 +10783,21 @@ The MPS case shows how far a fraud can travel through a legal system — a crimi
     sourceUrl: 'https://www.euronews.com/2019/11/08/italian-court-convicts-deutsche-bank-nomura-in-monte-paschi-derivative-trial',
     // representative photo — replace with a portrait if found
 });
+
+NotoriousGM.push({
+    title: 'Lars Møller: The Singapore Oil Trader Whose Hidden Credit Sank the World\'s Biggest Bunker Fuel Supplier',
+    slug: 'lars-moller-ow-bunker-dynamic-oil-trading-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'international'],
+    body: `OW Bunker A/S was one of the world's largest suppliers of marine fuel — "bunkers" — to the global shipping industry, operating through an international network of offices. In March 2014, the Danish company went public in one of the largest IPOs in Danish stock market history. Seven months later, it was bankrupt, and Danish prosecutors would eventually pin much of the blame for that collapse on one man: Lars Møller, director of OW Bunker's Singapore trading subsidiary, Dynamic Oil Trading (DOT).
+
+Møller's job was to trade bunker fuel and manage counterparty credit risk within limits set by OW Bunker's Denmark headquarters — his own personal authority capped at roughly $10 million in credit to any single customer. Instead, according to the eventual court findings, he extended one Singapore-based fuel supplier, Tankoil Marine Services, credit that ballooned to roughly $156 million, and kept a substantial share of that exposure — an estimated $90 million — off DOT's official books, hidden from both OW Bunker's head office and its auditors. Investigators noted that Møller personally benefited while the hidden exposure grew: in 2013 alone he collected a bonus of roughly DKK 4 million (about $600,000) on top of a DKK 2 million salary, rewards tied to trading results that, on paper, looked far healthier than they actually were.
+
+The exposure came to light in late October 2014, when OW Bunker's head office discovered the scale of DOT's dealings with Tankoil. On November 5, 2014, the company disclosed both the roughly $125 million DOT fraud and an additional $150 million loss from separate, poorly managed oil-derivatives trading — a combined blow of about $275 million that a company of OW Bunker's size could not absorb. The stock, which had traded near its IPO price just months earlier, collapsed, and OW Bunker filed for bankruptcy on November 7, 2014, less than eight months after going public. Denmark's Public Prosecutor for Serious Economic and International Crime (SØIK) subsequently charged Møller along with former CEO Jim Pedersen and former CFO Morten Skov; Pedersen died in 2017, before the criminal case against him was resolved.
+
+Møller's criminal case went through two rounds. A district court in Aalborg acquitted him of outright fraud but convicted him of a serious breach of trust, sentencing him to 18 months. Both the prosecution and Møller appealed, and on June 14, 2019, Denmark's Western High Court (Vestre Landsret) upheld the breach-of-trust conviction — finding that Møller had known Tankoil could never realistically repay the debt he kept extending it — and increased his sentence to five years in prison. Years later, in a separate civil judgment, Møller and Skov were also ordered to jointly pay OW Bunker's bankruptcy estate roughly DKK 200 million (about $31 million) in compensation, while the company's former risk manager and its former private-equity owner, Altor, were cleared of liability.
+
+OW Bunker's collapse is a case study in how a single unauthorized, undisclosed credit line to one counterparty — the kind of concentration risk internal controls are specifically supposed to catch — can bring down a company that looks, from the outside, like a large and diversified international trading business. It also shows how differently criminal and civil accountability can land in the same case: the executive whose hidden trades caused the collapse ultimately served a real prison sentence for it, while the company's board, auditor, and former owner faced no liability at all.`,
+    sourceUrl: 'https://shipandbunker.com/news/world/106710-ow-bunker-moller-sentence-increased-to-5-years',
+    // representative photo — replace with a portrait if found
+});
