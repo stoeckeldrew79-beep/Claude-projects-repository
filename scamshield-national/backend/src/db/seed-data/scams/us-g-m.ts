@@ -9802,3 +9802,39 @@ UsGM.push({
     country: "US",
     state: "TN",
 });
+
+UsGM.push({
+    name: 'Illinois Workers\' Compensation Fake Judge and Attorney Fraud Alert',
+    slug: 'illinois-workers-compensation-fake-judge-attorney-fraud-alert',
+    description: `The Illinois Workers' Compensation Commission (IWCC) warned claimants on May 8, 2026 about scammers impersonating judges, attorneys, or state employees to trick people with active workers'-compensation claims into sending money or personal information. Red flags include out-of-state "attorneys" who call claiming the claimant already won their case and demand payment, fraudulent emails sent from lookalike domains rather than a real @illinois.gov address, pressure to wire money quickly, and false claims that a hearing will be held over Zoom, since the IWCC only conducts hearings in person. The Commission's alert states flatly, "Generally, no one from IWCC will ever contact you about your claim," and urges anyone contacted this way to verify first by calling the Commission directly.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Illinois Workers\' Compensation Commission (IWCC)'],
+    sourceUrl: 'https://iwcc.illinois.gov/news/fraud2026.html',
+    country: 'US',
+    state: 'IL',
+});
+
+UsGM.push({
+    name: 'Chicago Fake-FBI-Agent Video Call Scam',
+    slug: 'illinois-chicago-fake-fbi-agent-video-call-scam',
+    description: `Scammers first call Chicago-area residents posing as bank representatives claiming the victim's account has been compromised or linked to fraud, then transfer the call to a confederate posing as a local FBI agent, sometimes spoofing the real FBI Chicago phone number to appear legitimate. The fake agent pressures the victim onto a video call on Zoom, Teams, or WhatsApp while wearing a realistic FBI windbreaker and flashing a fake badge in front of a backdrop with flags and an FBI seal, insisting the victim tell no one and demanding immediate payment by credit card or cryptocurrency. FBI Chicago Assistant Special Agent in Charge Lucas Rothaar said "people are impersonating FBI agents in a super realistic fashion," warning that victims — most over 60 — have collectively lost millions, and that anyone contacted this way should hang up and call FBI Chicago directly to verify before saying anything further.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['FBI Chicago Field Office', 'NBC Chicago'],
+    sourceUrl: 'https://www.nbcchicago.com/consumer/fake-fbi-agents-are-scamming-chicagoans-and-heres-how-you-can-avoid-imposters/3912498/',
+    country: 'US',
+    state: 'IL',
+});
+
+UsGM.push({
+    name: 'Illinois Timeshare Resale Upfront-Fee Scam',
+    slug: 'illinois-timeshare-resale-upfront-fee-scam',
+    description: `Illinois Attorney General Kwame Raoul issued a consumer alert on August 13, 2024 warning timeshare owners about fraudsters posing as escrow agents, brokers, travel agencies, or title-company representatives who contact them unsolicited and promise a guaranteed, fast sale of their timeshare in exchange for thousands of dollars in upfront "processing," "appraisal," or tax fees paid by cash, wire transfer, or cryptocurrency — after which the promised sale never happens. Scammers rotate through different aliases, phone numbers, websites, and P.O. box addresses to evade law enforcement and often refuse to identify the supposed buyer. Raoul recommended working only with licensed real estate brokers, verifying business registration, and reporting suspected scams to the Attorney General's Consumer Fraud Bureau or the FBI's IC3.`,
+    categorySlug: 'timeshare-scams',
+    alertLevel: 'medium',
+    sources: ['Illinois Attorney General\'s Office'],
+    sourceUrl: 'https://illinoisattorneygeneral.gov/news/story/consumer-alertattorney-general-raoul-urges-illinois-residents-be-alert-for-timeshare-resale-scams',
+    country: 'US',
+    state: 'IL',
+});

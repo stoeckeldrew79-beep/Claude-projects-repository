@@ -5621,3 +5621,41 @@ UsTZ.push({
     country: 'US',
     state: 'VI',
 });
+
+UsTZ.push({
+    name: 'Lookout Mountain Fake Home Warranty "Final Notice" Mail Scam',
+    slug: 'tennessee-lookout-mountain-fake-home-warranty-letter-scam',
+    description: `The Chattanooga Better Business Bureau warned homeowners on September 19, 2026 after a Lookout Mountain, Tennessee resident shared a mailer marked "FINAL NOTICE — IMMEDIATE RESPONSE NEEDED" claiming his home warranty had lapsed and he would be personally responsible for all future repair costs unless he called a number in the letter. The letters list the homeowner's real mortgage company, pulled from public property records, to look credible, and BBB Scam Tracker reports describe victims who called the number being sold a bogus "home warranty" and having a debit card charged — one Tennessee report cites a $199.86 charge taken directly from a grandmother's account — with some mailings including a fake check made out in the recipient's name to make the pitch feel official. BBB Chattanooga president Michele Mason said the FTC has also flagged a nationwide spike in this exact letter format.`,
+    categorySlug: 'insurance-fraud',
+    alertLevel: 'medium',
+    sources: ['Better Business Bureau of Chattanooga', 'Chattanooga Times Free Press'],
+    sourceUrl: 'https://www.timesfreepress.com/news/2026/sep/19/bbb-warns-be-on-the-lookout-for-fake-home/',
+    country: 'US',
+    state: 'TN',
+});
+
+UsTZ.push({
+    name: 'TBI Warning on Spoofed-Bank-Number Phone Scam Targeting PPP-Loan Businesses',
+    slug: 'tennessee-tbi-bank-caller-id-spoofing-scam',
+    description: `The Tennessee Bureau of Investigation warned on July 31, 2026 of a bank-impersonation phone scam that has gotten harder to detect because callers now spoof the victim's actual bank's real phone number and use live, US-based callers rather than an obvious overseas robocall. The caller falsely claims fraudulent activity was detected on the account, then talks the victim into reading back a six-digit verification code just texted to their phone — which is in fact the real one-time passcode needed to take over online banking access — or pressures them to move money into a "safe account." TBI investigators say the scam has been disproportionately targeting Tennessee businesses, particularly ones that received Paycheck Protection Program loans during the pandemic, because PPP loan records are public and can be cross-referenced with stolen-check information to make the pretext more convincing.`,
+    categorySlug: 'phishing',
+    alertLevel: 'high',
+    sources: ['Tennessee Bureau of Investigation', 'Local 3 News (WRCB)'],
+    sourceUrl: 'https://www.local3news.com/local-news/scam-alert-tbi-warns-bank-phone-numbers-can-be-spoofed/article_3697fc6f-5549-4432-8047-39de3b9cffcd.html',
+    country: 'US',
+    state: 'TN',
+});
+
+UsTZ.push({
+    name: 'Loudon County "Grandchild in Jail" Bail-Money Courier Scam (Valerie Hangi)',
+    slug: 'tennessee-loudon-county-hangi-courier-bail-scam',
+    description: `The Loudon County Sheriff's Office announced the October 17, 2024 arrest of Valerie Soki Hangi, a Canadian national from Quebec, after she and co-conspirators stole roughly $60,000 in cash from at least three elderly victims in Loudon and Monroe Counties in a classic "grandchild in trouble" scam with an in-person twist. A caller impersonated each victim's grandchild, claiming to have been arrested and using the nicknames ("Mamaw," "Grandpa") the real grandchild would use, then handed the phone to a fake "attorney" who added case details to make the story credible and convinced the victim to withdraw cash for bail. Rather than wiring money or using gift cards, the scheme sent a courier — Hangi — to drive to each victim's home in person and collect the cash directly; she flew into Nashville on October 14, made pickups on October 15 and 16, and was arrested during a traffic stop on October 17 with cash matching the stolen denominations still in her car.`,
+    categorySlug: 'grandparent-scams',
+    alertLevel: 'medium',
+    sources: ['Loudon County Sheriff\'s Office'],
+    sourceUrl: 'https://loudonsheriff.gov/loudon-county-sheriffs-office-makes-arrest-on-canadian-national-scammer/',
+    country: 'US',
+    state: 'TN',
+    isHistorical: true,
+    firstRecorded: '2024-10-17',
+});

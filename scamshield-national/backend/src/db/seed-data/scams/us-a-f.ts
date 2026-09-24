@@ -10194,3 +10194,27 @@ UsAF.push({
     country: "US",
     state: "TN",
 });
+
+UsAF.push({
+    name: 'Central Maine Power Disconnection and "Meter Upgrade" Impersonation Scam',
+    slug: 'maine-central-maine-power-utility-impersonation-scam',
+    description: `Central Maine Power, which serves roughly 670,000 customers across 346 Maine communities, warned in March 2026 of a surge in scam calls that spoof its caller ID or provide a callback number playing a recorded greeting mimicking CMP's real customer service line. The callers threaten same-day disconnection unless an overdue bill is paid immediately, demand payment for a fake "meter upgrade," or falsely claim a recent payment failed due to a "system glitch." CMP VP of Customer Service Mark Morisette said "scammers are becoming more sophisticated, and the best defense is staying alert," and the company stresses it never demands prepaid debit card payment, never asks for private account information over an unsolicited call, and never disconnects service on Fridays, weekends, or state holidays. Customers can verify any contact by calling CMP directly at 1-800-750-4000.`,
+    categorySlug: 'utility-scams',
+    alertLevel: 'medium',
+    sources: ['Central Maine Power (Avangrid)', 'PenBay Pilot'],
+    sourceUrl: 'https://www.penbaypilot.com/article/central-maine-power-urges-customers-stay-vigilant-scams/268440',
+    country: 'US',
+    state: 'ME',
+});
+
+UsAF.push({
+    name: 'Bitcoin Depot Kiosk Fraud and Maine\'s $1.9 Million Restitution Settlement',
+    slug: 'maine-bitcoin-depot-kiosk-fraud-settlement',
+    description: `Following a two-year investigation, Maine's Bureau of Consumer Credit Protection reached a settlement requiring Bitcoin Depot to pay $1.9 million to compensate Maine residents who, between 2022 and 2025, were instructed by third-party scammers to feed cash into Bitcoin Depot kiosks and convert it to cryptocurrency deposited into scammer-controlled "unhosted" wallets rather than any legitimate account. As part of the settlement, Bitcoin Depot became a licensed money transmitter in Maine and agreed to comply with state consumer-protection requirements; the Bureau opened a claims process for eligible Maine residents, with refunds proportional to total claims received. Mainers using any cryptocurrency kiosk should be aware that no legitimate business, government agency, or family emergency ever requires payment via a crypto ATM.`,
+    categorySlug: 'cryptocurrency-scams',
+    alertLevel: 'medium',
+    sources: ['Maine Bureau of Consumer Credit Protection'],
+    sourceUrl: 'https://www.maine.gov/pfr/consumercredit/enforcement/bitcoindepot.html',
+    country: 'US',
+    state: 'ME',
+});

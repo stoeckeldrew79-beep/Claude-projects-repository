@@ -22118,3 +22118,25 @@ International.push({
   sourceUrl: 'https://fia.go.ug/fraud-warning/',
   country: 'UG',
 });
+
+International.push({
+  name: 'Facebook "CapCut" Video-Ad Phone Resale Scam (Nepal)',
+  slug: 'nepal-facebook-video-ad-phone-resale-scam',
+  description: `Operating under the name "Shakir Mobile" out of Kathmandu, two men took real phone-sale videos other sellers had posted on Facebook, re-edited them with the CapCut app to add fake voiceovers, and reposted them advertising iPhones and other high-end phones at drastically cut prices with promised home delivery. Buyers who paid upfront via QR-code transfer never received a phone. Nepal Police's Cyber Bureau — whose records show 767 people defrauded in online-shopping/marketplace scams in a single fiscal year — arrested the two operators, tying edited-video listings with below-market pricing and QR-code prepayment to a large share of Nepal's online shopping fraud complaints.`,
+  categorySlug: 'online-shopping-scams',
+  alertLevel: 'medium',
+  sources: ['Nepal Police Cyber Bureau', 'Ratopati'],
+  sourceUrl: 'https://english.ratopati.com/story/69286/the-scope-of-online-fraud-is-increasing-16-ways-people-are-being-cheated',
+  country: 'NP',
+});
+
+International.push({
+  name: 'Staged Everest Helicopter Rescue Insurance Fraud (Nepal)',
+  slug: 'nepal-everest-helicopter-rescue-insurance-fraud',
+  description: `An organized network of trekking guides, helicopter operators, and Kathmandu hospitals defrauded international travel insurers of nearly $20 million between 2022 and 2025 by staging unnecessary medical evacuations of foreign trekkers, mainly on Everest Base Camp routes. Guides pressured tired or mildly altitude-sick trekkers into "emergency" helicopter evacuations, while hospitals produced forged admission records and recycled X-rays from unrelated patients, billing multiple insurers full price for passengers who shared one flight; hospitals then paid the referring trekking company and helicopter operator a kickback on the payout. Nepal Police's Central Investigation Bureau, after a September 2025 public complaint reopened a long-dormant case, identified 171 confirmed fraudulent rescues out of 4,782 foreign-patient evacuations and filed organized-crime charges against 32 people — including helicopter operators and hospital physicians — in March 2026.`,
+  categorySlug: 'insurance-fraud',
+  alertLevel: 'high',
+  sources: ['Nepal Police Central Investigation Bureau (CIB)', 'Kathmandu Post'],
+  sourceUrl: 'https://kathmandupost.com/money/2026/03/27/inside-nepal-s-fake-rescue-racket',
+  country: 'NP',
+});
