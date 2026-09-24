@@ -21928,3 +21928,35 @@ International.push({
   country: 'MA',
   firstRecorded: '2025-11-07',
 });
+
+International.push({
+  name: 'Fake QR Code Payment Diversion on Yape/Plin',
+  slug: 'peru-fake-qr-code-yape-plin-payment-diversion',
+  description: `Criminals print fraudulent QR codes and paste them over legitimate merchant payment codes for Peru's Yape and Plin mobile wallets — at market stalls, restaurants, storefronts, even street lampposts — according to Colonel Luis Huamán, head of the Peruvian National Police's High-Technology Division. When a customer or merchant scans the altered code to pay, the transaction is redirected to a criminal-controlled account or link that harvests phone and account data instead of completing the payment. With over 70% of Peruvians using digital wallets, police note the fake codes are also spread via social media, and the fraud is easy to miss since it takes only a small paper sticker to swap a code.`,
+  categorySlug: 'qr-code-scams',
+  sources: ['Policía Nacional del Perú — División de Alta Tecnología', 'Infobae Perú'],
+  sourceUrl: 'https://www.infobae.com/peru/2024/07/19/estafas-con-qr-de-yape-y-plin-delincuentes-usan-falsos-codigos-para-adulterar-y-apropiarse-de-cuentas-de-comerciantes/',
+  country: 'PE',
+});
+
+International.push({
+  name: 'SIM Swapping Bank Account Takeover (Peru)',
+  slug: 'peru-sim-swapping-bank-account-takeover',
+  description: `OSIPTEL, Peru's telecom regulator, warns that fraudsters first harvest a victim's personal data via phishing, fake apps, or spoofed Wi-Fi, then contact the victim's mobile carrier posing as the victim to report the phone lost or stolen and request a replacement SIM. Once activated, the duplicate SIM lets the criminal receive the victim's calls, texts, and one-time verification codes — enabling takeover of email, cloud storage, and especially online banking to make unauthorized transfers or request loans. Victims typically first notice when their phone suddenly loses all signal. OSIPTEL advises contacting the carrier immediately if service drops unexplained, and never buying SIM cards from informal street vendors.`,
+  categorySlug: 'account-takeover',
+  sources: ['OSIPTEL (Organismo Supervisor de Inversión Privada en Telecomunicaciones)'],
+  sourceUrl: 'https://www.osiptel.gob.pe/portal-del-usuario/noticias/osiptel-alerta-a-usuarios-sobre-modalidad-de-robo-de-identidad-y-dinero-usando-el-numero-movil/',
+  country: 'PE',
+});
+
+International.push({
+  name: 'Margarite "Proyecto Oro" Gold Investment Ponzi Scheme',
+  slug: 'peru-margarite-proyecto-oro-gold-investment-ponzi',
+  description: `Operating as "Emprende Margarite" from offices in San Isidro, Lima, and via Facebook, Margarite S.A.C. took money from roughly 1,000 people — deposits ranging from S/1,000 to S/3.5 million each — by promising 10-12% monthly returns through mutual-loan and financing contracts tied to a fictitious "Proyecto Oro" gold-investment scheme. The company had no authorization from Peru's Superintendencia de Banca, Seguros y AFP (SBS) to raise money from the public. After issuing warnings starting in March 2023, the SBS closed the entity under Resolution SBS No. 03422-2023 on December 6, 2023 — with support from the Public Ministry and National Police — and filed a criminal complaint for pyramid-scheme fraud, by which point the scheme had collected more than S/25 million.`,
+  categorySlug: 'ponzi-pyramid-schemes',
+  sources: ['Superintendencia de Banca, Seguros y AFP (SBS)', 'Infobae Perú'],
+  sourceUrl: 'https://www.infobae.com/peru/2023/12/05/sbs-clausura-y-denuncia-penalmente-a-entidad-financiera-que-captaba-dinero-con-falsa-promesa-de-inversion-en-oro/',
+  country: 'PE',
+  isHistorical: true,
+  firstRecorded: '2023-12-06',
+});
