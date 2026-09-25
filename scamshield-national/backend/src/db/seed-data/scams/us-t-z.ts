@@ -5635,3 +5635,14 @@ UsTZ.push({
     isHistorical: true,
     firstRecorded: '2024-10-17',
 });
+
+UsTZ.push({
+    name: 'TaskRabbit Brand-Impersonation Phishing Scam',
+    slug: 'taskrabbit-brand-impersonation-phishing-scam',
+    description: `Scammers register look-alike domains such as taskrabbithire.com and send emails or texts from addresses just one letter or dot off from a real TaskRabbit address, posing as TaskRabbit support, a fellow user, or a client to request a password reset, banking details, or other personal information from Taskers and clients. TaskRabbit has issued repeated warnings that these sites and messages are not run by the company, that it will never ask for banking details over phone, chat, or email, and that any request to "verify" or pay outside the official app is a red flag no matter how legitimate the sender's name looks. Because the scam targets the credentials behind an already-trusted account rather than a fake job posting, it can both drain a bank account and hijack a TaskRabbit profile that is then used to scam still more people. Anyone contacted this way should go directly to the official TaskRabbit app or site rather than clicking a link or replying, and report the fraudulent domain or message to TaskRabbit support.`,
+    categorySlug: 'phishing',
+    alertLevel: 'medium',
+    sources: ['TaskRabbit'],
+    sourceUrl: 'https://support.taskrabbit.com/hc/en-us/articles/46260425126811-Warning-Unaffiliated-Websites',
+    country: 'US',
+});
