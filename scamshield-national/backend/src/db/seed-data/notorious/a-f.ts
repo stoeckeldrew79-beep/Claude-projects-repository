@@ -10313,3 +10313,54 @@ The London verdict did not translate into consequences at home. A separate Zambi
     coverImageCredit: 'Photo: European Commission Audiovisual Service, Feb 3, 1994 (CC BY 4.0)',
     coverImagePosition: 50,
 });
+
+NotoriousAF.push({
+    title: 'Benjamin Sisti, Jonathan Googel, and the Colonial Realty Collapse That Wiped Out Connecticut\'s Investors',
+    slug: 'benjamin-sisti-jonathan-googel-colonial-realty-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical', 'real-estate-fraud'],
+    body: `Benjamin Sisti and Jonathan Googel were childhood friends from West Hartford who built Colonial Realty Company from a small local real estate outfit in 1966 into one of the largest real estate syndication firms in the Northeast. By the late 1980s, Colonial had organized roughly eighty limited partnerships that together controlled close to $2 billion in real estate, mostly apartment complexes and commercial properties across Connecticut, and had recruited thousands of middle-class investors — many of them first-time real estate investors drawn in by Colonial's aggressive local marketing and its founders' civic prominence.
+
+The fraud combined several classic techniques layered on top of a genuine, if wildly overleveraged, real estate business. As the Connecticut real estate market began to soften in the late 1980s, Sisti, Googel, and chief financial officer Frank Shuch concealed the partnerships' deteriorating finances from investors and continued selling new limited-partnership units — collecting fresh investor cash — even after they knew the underlying properties could not support their debt and that collapse was likely. Prosecutors also found that Colonial's principals bribed public officials, including the mayor of Waterbury, Connecticut, to steer municipal pension-fund money into Colonial partnerships, and that as bankruptcy loomed, Sisti and Googel secretly transferred millions of dollars in company and personal assets to out-of-state relatives specifically to keep that money out of creditors' and investors' reach.
+
+Colonial collapsed into bankruptcy in September 1990 after six creditor banks forced an involuntary petition. The fallout was, by dollar figures still cited today, the largest investment-fraud scandal in Connecticut history: more than 6,000 investors — many of whom had put in retirement savings — lost as much as $350 million. The scandal also claimed a life: CFO Frank Shuch died by suicide while awaiting trial. Auditor Arthur Andersen, which had signed off on Colonial's partnership financials, later paid roughly $90 million to settle related claims from investors.
+
+Nearly twenty people were eventually convicted in connection with the collapse, though most received probation. Sisti and Googel themselves pleaded guilty to federal fraud charges — Googel to two counts of wire fraud, one count of bank fraud, and one count of tax law obstruction, and Sisti to two counts of bankruptcy fraud, one count of wire fraud, and one count of structuring transactions to evade tax reporting — and were sentenced to 108 and 96 months in federal prison, respectively. A 1996 Second Circuit appeal affirmed Sisti's sentence while vacating and remanding one obstruction enhancement in Googel's.
+
+Colonial Realty is a useful counterpoint to the era's more exotic frauds: there was no fake product and no invented technology, just a real estate syndicator that kept selling shares in a sinking enterprise to ordinary local investors while its principals quietly moved money to family members ahead of the crash. It's also a reminder of how thoroughly a well-connected local business can capture civic trust — pension funds, a sitting mayor, thousands of individual investors — before that trust turns out to have been misplaced all along.`,
+    sourceUrl: 'https://caselaw.findlaw.com/court/us-2nd-circuit/1211010.html',
+});
+
+NotoriousAF.push({
+    title: 'Edwin "Fast Eddie" McBirney and the Sunbelt Savings Collapse That Cost Taxpayers $1.2 Billion',
+    slug: 'edwin-mcbirney-sunbelt-savings-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical', 'savings-and-loan-crisis'],
+    body: `Edwin T. McBirney III took over Texas-based Sunbelt Savings in the early 1980s, just as federal deregulation freed savings and loans to move far beyond conservative home-mortgage lending. McBirney turned Sunbelt into one of the most aggressive commercial-lending thrifts of the era, financing speculative real estate and business deals with a looseness that earned the institution the nickname "Gunbelt Savings" inside the industry — and earned McBirney himself the nickname "Fast Eddie" for a lifestyle that became a running symbol of 1980s S&L excess.
+
+The excess was not just personal branding; it was, regulators later found, fraud. McBirney treated Sunbelt as a personal expense account, flying favored clients, employees, and friends on gambling junkets to Las Vegas and staging lavish company parties — federal investigators cited roughly $1.3 million spent on Halloween and Christmas events alone, including imported lion and antelope meat — while Sunbelt's loan book filled with deals that had little chance of being repaid. Sunbelt Savings failed in August 1988, and the FDIC ultimately put the cost to taxpayers at approximately $1.2 billion, one of the larger single failures of the nationwide savings-and-loan crisis.
+
+McBirney pleaded guilty to bank fraud in 1993 and was sentenced to 15 years in prison along with a $7.5 million restitution order — but that was not the end of his legal exposure. Federal investigators later found that starting in September 1993, while under his original sentence, McBirney had set up a trust — the Oslin Nation Trust, naming himself as beneficiary — to conceal more than $1 million in income and hundreds of thousands of dollars in property from federal probation officers and the FDIC, using the hidden funds to cover chauffeur services, property taxes, and legal bills while filing false monthly probation reports.
+
+That second scheme was charged separately, and in January 2006 a federal jury convicted McBirney on charges including mail fraud, making false statements, concealing assets from the FDIC, and money laundering. In October 2006 he was sentenced to an additional 97 months in federal prison, ordered to forfeit just over $2 million, and ordered to pay further restitution — meaning McBirney's total legal reckoning stretched from his thrift's 1988 failure through a second federal prosecution nearly two decades later.
+
+McBirney's case is a double-barreled illustration of white-collar accountability during the S&L era: not just how a thrift executive can turn a federally insured institution into a personal slush fund while regulators are slow to catch up, but how far a convicted fraudster will go — hiding assets in a trust for eight years, under his own name as beneficiary, while formally serving a sentence for the original fraud — to avoid actually paying back what was taken.`,
+    sourceUrl: 'https://www.justice.gov/archive/usao/txn/PressRel06/mcbirney_sen_pr.html',
+});
+
+NotoriousAF.push({
+    title: 'David Bermingham and the NatWest Three: How British Bankers Were Extradited Over an Enron Side Deal',
+    slug: 'david-bermingham-natwest-three-enron-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'international', 'securities-fraud', 'historical'],
+    body: `Giles Darby, David Bermingham, and Gary Mulgrew were mid-level bankers at Greenwich NatWest in 2000, working on National Westminster Bank's dealings with Enron. NatWest held a stake in Swap Sub, a Cayman Islands special-purpose entity Enron CFO Andrew Fastow had created, ostensibly to hedge Enron's investment in Rhythms NetConnections. The three bankers realized Swap Sub's stake had become far more valuable than NatWest's own risk managers appreciated.
+
+When the trio proposed capturing that value for their employer, Fastow instead offered to buy NatWest's stake outright for a lowball $1 million — and separately, through his colleague Michael Kopper, quietly let the three bankers acquire a personal financial interest in the buying entity, Southampton, L.P. That entity flipped the stake to Enron for $20 million within months, and Darby, Bermingham, and Mulgrew invested a total of $250,000 to buy in and split roughly $7.3 million of the resulting profit, all while still drawing NatWest salaries and never disclosing to their employer that they held a stake on the other side of a deal they were supposed to be negotiating for the bank.
+
+NatWest absorbed the loss of value that should have gone to its own shareholders, and the scheme became one more thread U.S. investigators pulled on while unraveling Enron's broader off-balance-sheet fraud after Enron's December 2001 collapse. The case also became a major transatlantic political flashpoint: prosecuted under the U.S.-UK Extradition Act 2003, the three British bankers — accused of defrauding a British bank, in Britain, as British employees — were extradited to Houston in 2006 without U.S. prosecutors having to show a prima facie case to a UK court, a perceived treaty imbalance that triggered an emergency House of Commons debate.
+
+After more than a year in Houston facing the prospect of a lengthy trial and far higher sentences, all three pleaded guilty on November 28, 2007 to a single count of wire fraud and were sentenced in February 2008 to 37 months each, plus roughly $7.3 million in restitution to Royal Bank of Scotland, NatWest's successor. They served part of their terms in U.S. federal prisons before transferring to the UK under a prisoner-exchange treaty and were released in 2010.
+
+The NatWest Three case is a reminder that Enron's fraud wasn't confined to the exotic accounting at Enron itself — it also created opportunities for employees at counterparty banks to quietly self-deal on the very structures Enron used to hide debt, diverting value that should have flowed to their own employer's shareholders. It's also a case study in how a scheme carried out entirely on foreign soil can still be prosecuted in the U.S. once it touches a U.S. company, and in the diplomatic friction that follows when an extradition treaty's evidentiary bar isn't symmetric between the two countries.`,
+    sourceUrl: 'https://www.justice.gov/archive/opa/pr/2007/November/07_crm_949.html',
+});
