@@ -10269,6 +10269,10 @@ Carrier pleaded guilty to wire fraud on October 30, 2025. On September 24, 2026,
 
 The case is a useful reminder that a franchise brand is a marketing relationship, not a guarantee: HomeVestors licenses its name and playbook to independent local operators, and the trust built by decades of "We Buy Ugly Houses" advertising belonged to the parent company's reputation, not to any verification of what a specific local franchisee was actually doing with investors' money once it arrived.`,
     sourceUrl: 'https://www.justice.gov/usao-ndtx/pr/dallas-real-estate-investor-sentenced-over-15-years-federal-prison-investment-fraud',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Dallas,_Texas_Skyline_2005.jpg?width=1200',
+    coverImageCredit: 'Photo: drumguy8800, 2005 (CC BY-SA 3.0) — Dallas, Texas, where C&C Residential Properties operated',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
 });
 
 NotoriousAF.push({
@@ -10286,6 +10290,10 @@ Coyne was charged with wire fraud and pleaded guilty in May 2026. On September 2
 
 What makes this case worth recording isn't its size — by the standards of this database, $4.6 million is a modest sum — but its mechanism: an affinity-style fraud that didn't rely on a stranger's cold pitch but on an existing working relationship and a parent's hope for their child, sustained for years with nothing more sophisticated than fabricated paperwork that nobody thought to independently verify with the modeling agencies it claimed to involve.`,
     sourceUrl: 'https://www.justice.gov/usao-edmi/pr/new-boston-woman-was-sentenced-5-years-federal-prison-46-million-child-modeling-fraud',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Detroit_Skyline_August_2024.jpg?width=1200',
+    coverImageCredit: 'Photo: TheWxResearcher, Aug 2024 (CC BY 4.0) — Detroit area, near where Coyne operated',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
 });
 
 NotoriousAF.push({
@@ -10301,5 +10309,7 @@ Zambia's Attorney General sued Chiluba and roughly twenty co-defendants in Londo
 
 The London verdict did not translate into consequences at home. A separate Zambian criminal trial on related theft and corruption charges ended in Chiluba's acquittal on August 18, 2009, a Lusaka judge citing insufficient evidence. When Zambia's government then tried to enforce the London civil judgment domestically, a Zambian High Court judge ruled in August 2010 that no law actually existed allowing a UK judgment to be directly registered in Zambia — the old British and Colonial Judgments Act had been repealed decades earlier with no replacement enacted — leaving Chiluba to publicly declare himself "vindicated." He died in June 2011, having never repaid any of the money a London court had spent 51 days determining he stole. The case is a case study in how a fraud can be proven beyond a foreign court's doubt and still evade every mechanism meant to collect on it — undone not by a lack of evidence, but by a decades-old gap in the law of the country the money was actually stolen from.`,
     sourceUrl: 'https://star.worldbank.org/asset-recovery-watch-database/frederick-jacob-titus-chiluba',
-    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Frederick_Chiluba_on_February_3,_1994_(cropped).jpg?width=1200',
+    coverImageCredit: 'Photo: European Commission Audiovisual Service, Feb 3, 1994 (CC BY 4.0)',
+    coverImagePosition: 50,
 });
