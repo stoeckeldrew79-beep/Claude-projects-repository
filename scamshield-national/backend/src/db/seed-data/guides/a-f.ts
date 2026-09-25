@@ -9264,6 +9264,10 @@ GuidesAF.push({
     author: 'ScamShield Editorial',
     tags: ['guide', 'ssa-impersonation-scam', 'government-impersonation', 'call-transfer-scam'],
     sourceUrl: 'https://oig.ssa.gov/scam-alerts/2026-07-29-beware-of-fake-call-transfers-to-social-security-or-oig/',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Man_on_a_smartphone_(Unsplash).jpg?width=1200',
+    coverImageCredit: 'Photo: Gilles Lambert (CC0, public domain)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     body: `The call usually starts with something mundane: someone claiming to work fraud prevention for a major retailer or bank asks about a purchase the recipient doesn't recognize. When the person says they didn't make it, the caller offers to help by transferring them to the "right department" — and a new voice comes on the line claiming to be from the Social Security Administration or its Office of the Inspector General, saying the person's Social Security number has been compromised and linked to identity theft or criminal activity.
 
 The Social Security Administration's Office of Inspector General issued a scam alert on July 29, 2026, stating the point plainly: "Legitimate companies and other agencies CANNOT transfer your phone call directly to SSA or OIG." No retailer, bank, or other government agency has the ability to route a call into SSA's or its OIG's internal phone systems — any call that appears to do this is being staged, either by the same scammer switching scripts and voices mid-call or by a second person working with them, sometimes with caller ID spoofed to reinforce the illusion of a real institutional handoff. The technique is effective precisely because it exploits sequencing: a victim who has just been mildly alarmed by a plausible-sounding "suspicious purchase" story is primed to accept a second, more serious claim from what feels like an escalation to real authority, rather than recognizing it as an entirely separate scam layered on top of the first.
@@ -9281,10 +9285,9 @@ GuidesAF.push({
     author: 'ScamShield Editorial',
     tags: ['guide', 'fleetcor-corpay-ftc-settlement'],
     sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2026/09/fleetcor-agrees-pay-100-million-resolve-administrative-action-after-federal-court-finds-it-violated',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Fuel_Dispenser.jpg?width=1200',
-    coverImageCredit: 'Photo: Santeri Viinamäki (CC BY-SA 4.0) — a fuel dispenser',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Corpay_Logo.svg?width=1200',
+    coverImageCredit: 'Corpay logo (public domain — below threshold of originality)',
     coverImagePosition: 50,
-    // representative photo — replace with an exact match if found
     body: `On September 17, 2026, FleetCor Technologies — a corporate fuel-card giant that now does business as Corpay — and its longtime CEO Ronald Clarke agreed to pay $100 million to resolve a Federal Trade Commission case that had been working its way through the courts since 2019. The case wasn't about a scam artist operating out of a call center; it was about a large, publicly traded company that sold small businesses, from trucking fleets to landscaping crews, a fuel card marketed as a straightforward way to cut fuel costs and simplify expense tracking. A federal court granted the FTC summary judgment back in 2023, finding FleetCor had violated the FTC Act, and a federal appeals court upheld that judgment on all counts in 2026 before the settlement was finalized.
 
 The mechanism the FTC laid out reads like a playbook for turning a legitimate B2B service into a slow-drip fee trap. FleetCor rolled out new fees months after a business had already signed up and configured its account, so the fee never appeared in the terms a customer actually agreed to at signup. Fee details were tucked behind hyperlinks in online statements rather than spelled out on the invoice itself, and the company charged late fees to customers who had, in fact, paid on time — or who FleetCor's own payment-processing quirks had prevented from paying on time in the first place. On top of that, FleetCor's sales pitch promised specific savings on fuel purchases and fraud-control protection that, according to the FTC, frequently didn't materialize the way customers were told it would.
