@@ -22400,3 +22400,39 @@ International.push({
     sourceUrl: "https://www.watchlist-internet.at/news/jahresrueckblick-watchlist-2025/",
     country: "AT",
 });
+
+International.push({
+    name: "Crypto Profit Callback Scam Targeting Slovenian Consumers",
+    slug: "crypto-profit-callback-scam",
+    description:
+      "Fraudsters cold-call people in Slovenia claiming that an old or forgotten cryptocurrency investment has produced a profit that is ready to be paid out. In reality there is no profit and, in most cases, there was never an original investment — the call itself is the fraud. To 'release' or 'verify' the supposed payout, the caller walks the victim through steps that hand over control of their finances, such as installing remote-access software or giving up banking credentials and payment authorisations. The Slovenian Police warn that the next step in this scheme is the emptying of the victim's bank account. If you receive such a call, hang up, never install software or share bank details or one-time codes, and report the contact to the police.",
+    categorySlug: "cryptocurrency-scams",
+    alertLevel: "high",
+    sources: ["Policija (Slovenian Police), General Police Directorate"],
+    sourceUrl: "https://www.policija.si/medijsko-sredisce/sporocila-za-javnost/sporocila-za-javnost-gpue/121417-ste-prejeli-telefonski-klic-o-zasluzku-s-kripto-valutami-v-naslednjem-koraku-vam-lahko-izpraznijo-bancni-racun-zato-pazljivo",
+    country: "SI",
+});
+
+International.push({
+    name: "Banka Slovenije Representative Impersonation Scam",
+    slug: "banka-slovenije-representative-impersonation-scam",
+    description:
+      "Criminals are contacting people in Slovenia while claiming to be representatives of Banka Slovenije, the country's central bank. According to the central bank's own public warning, the impersonators aim to get victims to disclose personal data and to induce them to transfer money abroad. The authority of the national bank's name is the whole leverage, because an ordinary consumer finds it hard to challenge a supposed central bank official. Banka Slovenije is a supervisory and monetary authority — it does not hold retail accounts for individuals and has no legitimate reason to phone a member of the public asking for personal details or ordering an outbound transfer. Refuse any such request, do not send money abroad on the instruction of an unexpected caller, and verify the contact through Banka Slovenije's published official channels.",
+    categorySlug: "government-impersonation",
+    alertLevel: "high",
+    sources: ["Banka Slovenije (central bank of Slovenia)"],
+    sourceUrl: "https://www.bsi.si/sl/mediji/objave/opozorilo-prevaranti-se-predstavljajo-kot-predstavniki-banke-slovenije-in-napeljujejo-k-razkrivanju-osebnih-podatkov-in-nakazilom-sredstev-v-tujino",
+    country: "SI",
+});
+
+International.push({
+    name: "Fake FURS Tax Authority Email Phishing",
+    slug: "fake-furs-tax-authority-email-phishing",
+    description:
+      "Phishing emails are circulating in Slovenia that are sent in the name of FURS, the Financial Administration of the Republic of Slovenia. The messages are crafted to look like official correspondence from the national tax and customs authority and rely on the recipient's assumption that mail from the tax office must be acted on immediately. Recipients are pushed to click links or open attachments in the email instead of logging in independently through the official eDavki portal. Because the sender identity is spoofed rather than the tax account itself being compromised, the defence is the same in every variant. Do not click links or open attachments in such messages — check any claimed tax matter by logging in directly to the official eDavki portal or contacting FURS through its published channels.",
+    categorySlug: "phishing",
+    alertLevel: "medium",
+    sources: ["Policija (Slovenian Police), General Police Directorate"],
+    sourceUrl: "https://www.policija.si/medijsko-sredisce/sporocila-za-javnost/sporocila-za-javnost-gpue/116054-pojav-laznih-elektronskih-sporocil-v-imenu-financne-uprave-rs-opozorilo-uporabnikom",
+    country: "SI",
+});
