@@ -22208,3 +22208,39 @@ International.push({
   sourceUrl: 'https://www.superfinanciera.gov.co/publicaciones/10115253/no-caiga-en-el-gota-a-gota-virtual/',
   country: 'CO',
 });
+
+International.push({
+  name: 'Luxembourg Fake Supermarket Contest Hacked-Account OTP Theft',
+  slug: 'luxembourg-fake-contest-hacked-account-otp-theft',
+  description: `The Grand Ducal Police warned on January 26, 2026 of scammers who take over a victim's friend's Facebook account and use it to message other contacts on Messenger, inviting them to a "contest" supposedly run by a well-known retailer such as Cactus or Delhaize with a large cash prize to be split among winners. The conversation moves to WhatsApp, the victim fills out a form with personal data, and is then told a six-digit code will arrive by text to "confirm their winnings" — but sharing that code actually hands the scammer access to the victim's phone and online banking. To keep victims compliant, fraudsters show fake gift certificates or doctored bank statements appearing to show money already transferred, while pressuring them to act fast. Never share a verification code you receive by SMS with anyone, and treat any prize offer arriving through a friend's account — even a real one — as a hacked account until you confirm it with that friend by phone.`,
+  categorySlug: 'account-takeover',
+  alertLevel: 'high',
+  sources: ['Police Grand-Ducale (Grand Ducal Police), Luxembourg'],
+  sourceUrl: 'https://police.public.lu/fr/actualites/2026/01/semaine-05/escroquerie-faux-jeux-concours.html',
+  country: 'LU',
+  firstRecorded: '2026-01-26',
+});
+
+International.push({
+  name: 'Luxembourg Doorstep Roof and Yard-Work Fraud',
+  slug: 'luxembourg-doorstep-roof-yard-work-fraud',
+  description: `The Grand Ducal Police warned on September 24, 2026 about unsolicited workers turning up unannounced at private homes offering roof repair, facade or plastering work, or paving, then pressuring the resident to accept and pay immediately after a cursory inspection. On September 21, two men offered roof repairs at a home on Rue de Hamm in Bonneweg, examined the roof, then pressured the resident to pay on the spot before leaving when the homeowner refused; on September 23, similar workers carried out paving on private property in Rambrouch, and when police inspected the site afterward they found the completed work was deficient and the workers' paperwork and permits irregular. Be wary of any unsolicited door-to-door offer for roof, facade, or paving work, never agree to pay before independently verifying who you're dealing with, and call the police at the first sign something is off rather than after money has changed hands.`,
+  categorySlug: 'home-improvement-solar',
+  alertLevel: 'medium',
+  sources: ['Police Grand-Ducale (Grand Ducal Police), Luxembourg'],
+  sourceUrl: 'https://police.public.lu/fr/actualites/2026/09/semaine-40/arnaque-offres-frauduleuses-travaux.html',
+  country: 'LU',
+  firstRecorded: '2026-09-21',
+});
+
+International.push({
+  name: 'Luxembourg Fake Police Traffic-Fine SMS Scam',
+  slug: 'luxembourg-fake-police-traffic-fine-sms-scam',
+  description: `The Grand Ducal Police has repeatedly warned — most recently in an alert dated June 3, 2026 — that fraudulent text messages, some sent from Philippine phone numbers with the sender display name spoofed to read "Police Grand-Ducale," falsely notify recipients of a traffic violation and press them to pay an "avertissement taxé" (fixed penalty) right away. The police state plainly that genuine fine notices in Luxembourg are always sent by post, never by SMS or email, and caution that even a text appearing to come from a Luxembourg number proves nothing, since scammers can spoof caller ID to display any number they choose. If you receive such a message, do not click any link or pay anything under pressure; instead contact the police directly through official channels to check, and warn older relatives, who the police note are a particular target.`,
+  categorySlug: 'phishing',
+  alertLevel: 'medium',
+  sources: ['Police Grand-Ducale (Grand Ducal Police), Luxembourg', 'Chronicle.lu'],
+  sourceUrl: 'https://www.chronicle.lu/category/luxembourg/61563-police-warn-of-fake-fine-payment-requests-by-sms',
+  country: 'LU',
+  firstRecorded: '2026-06-03',
+});
