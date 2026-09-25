@@ -10471,3 +10471,16 @@ UsAF.push({
     state: 'CO',
     firstRecorded: '2025-07-01',
 });
+
+UsAF.push({
+    name: "Fake \"Fountain Bank\" Claiming a Fargo, North Dakota Address",
+    slug: "fake-fountain-bank-claiming-a-fargo-north-dakota-address",
+    description:
+      "The North Dakota Department of Financial Institutions has warned about a fraudulent bank operating under the name Fountain Bank and claiming to be based in Fargo, North Dakota. It is not a North Dakota state-chartered bank, and both the website and the physical address it uses are not legitimate. Fake banks like this borrow the credibility of a real state charter so victims believe their deposits or upfront loan fees are going to a regulated institution. The same agency warns that some online non-bank lenders are fake or unlicensed, and that scammers also pose as bank employees or FDIC representatives claiming your deposits are restricted or at risk. Before sending money to any bank or lender, verify its charter or North Dakota money broker's license directly with the Department of Financial Institutions.",
+    categorySlug: "phishing",
+    alertLevel: "medium",
+    sources: ["North Dakota Department of Financial Institutions, Notice of Fraudulent Bank Purporting to Operate Out of North Dakota, June 24, 2020 (https://www.nd.gov/dfi/news/notice-fraudulent-bank-purporting-operate-out-north-dakota)"],
+    sourceUrl: "https://www.nd.gov/dfi/news/notice-fraudulent-bank-purporting-operate-out-north-dakota",
+    country: "US",
+    state: "ND",
+});

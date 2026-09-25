@@ -9833,3 +9833,16 @@ UsNS.push({
     state: 'OH',
     firstRecorded: '2026-09-24',
 });
+
+UsNS.push({
+    name: "NDDOT-Impersonation Unpaid Parking Ticket Text Scam",
+    slug: "nddot-impersonation-unpaid-parking-ticket-text-scam",
+    description:
+      "Scammers are sending text messages that appear to come from the North Dakota Department of Transportation claiming you owe money for an unpaid parking ticket. The messages try to create panic by threatening license suspension, referral to a collection company, and insurance rate increases of more than 100 percent if you do not pay immediately through a link. NDDOT has confirmed these texts are fake and that it does not collect parking ticket payments this way. Do not reply and do not click the link — simply delete the message. If you already clicked it, run a security scan on your device and watch your bank and credit accounts closely for unusual activity.",
+    categorySlug: "government-impersonation",
+    alertLevel: "high",
+    sources: ["North Dakota Department of Transportation public warning, April 9, 2026","KFYR-TV report: NDDOT warns public about scam text going around (https://www.kfyrtv.com/2026/04/09/nddot-warns-public-about-scam-text-going-around/)"],
+    sourceUrl: "https://www.kfyrtv.com/2026/04/09/nddot-warns-public-about-scam-text-going-around/",
+    country: "US",
+    state: "ND",
+});
