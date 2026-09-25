@@ -9563,3 +9563,42 @@ UsNS.push({
     isHistorical: true,
     firstRecorded: '2023-05-25',
 });
+
+UsNS.push({
+    name: 'South Dakota Holiday Package Delivery and Gift Card Tampering Scams',
+    slug: 'south-dakota-holiday-package-delivery-gift-card-scam',
+    description: `South Dakota Attorney General Marty Jackley warned shoppers on November 21, 2025 that "scammers never take off the holidays," flagging texts and emails that claim a package is waiting and urge the recipient to click an attached link for "delivery instructions" — a link built to harvest personal or payment information rather than release any package. His office also cautioned shoppers to inspect gift cards before buying them for signs of tampering, since scammers pry open the packaging, copy the card number and PIN, then drain the balance the moment a shopper activates it at checkout. Residents who spot a suspicious delivery text, a tampered gift card, or a holiday shopping scam can report it to the Attorney General's Consumer Protection Division at 1-800-300-1986, consumerhelp@state.sd.us, or consumer.sd.gov rather than clicking any link in an unsolicited delivery notice.`,
+    categorySlug: 'package-delivery-scams',
+    alertLevel: 'medium',
+    sources: ['South Dakota Attorney General\'s Office', 'KOTA Territory News'],
+    sourceUrl: 'https://www.kotatv.com/2025/11/22/attorney-general-marty-jackley-warns-shoppers-be-lookout-holiday-scams/',
+    country: 'US',
+    state: 'SD',
+    firstRecorded: '2025-11-21',
+});
+
+UsNS.push({
+    name: 'South Dakota Text Message (Smishing) Scam Wave',
+    slug: 'south-dakota-text-message-smishing-scam-wave',
+    description: `Timed to International Fraud Awareness Week, Attorney General Marty Jackley warned on November 14, 2025 that "scammers have become more adept at tailoring their messages to individual people," naming six text-scam patterns his office was fielding: fake delivery notifications, phony bank or account alerts, government-agency impersonators, prize notifications, "wrong number" texts meant to draw a reply, and fake job offers. Jackley urged South Dakotans to check before clicking any link in an unsolicited text and to "never send money or personal information via text," no matter how legitimate or urgent it looks. Suspicious texts can be reported to the Attorney General's Consumer Protection Division at 1-800-300-1986 or through consumer.sd.gov.`,
+    categorySlug: 'phishing',
+    alertLevel: 'medium',
+    sources: ['South Dakota Attorney General\'s Office'],
+    sourceUrl: 'https://consumer.sd.gov/consumeralerts/AttorneyGeneralJackleyWarnsConsumersofTextMessageScams.aspx',
+    country: 'US',
+    state: 'SD',
+    firstRecorded: '2025-11-14',
+});
+
+UsNS.push({
+    name: 'South Dakota Medicare Number Telephone Scam',
+    slug: 'south-dakota-medicare-telephone-scam',
+    description: `Attorney General Marty Jackley warned on January 5, 2024 that callers posing as Medicare representatives were telling recipients their benefits were "expiring" and demanding their Medicare number to supposedly link it to a new card, then threatening to cut off benefits entirely if the recipient refused. Jackley said the callers were "bullying the Medicare recipients and threatening to take away their well-earned benefits," and stressed that "Medicare will never call recipients uninvited and ask for personal or private information." Anyone who gave out their Medicare number should call 1-800-MEDICARE (1-800-633-4227) for a replacement card, and the scam itself can be reported to the Attorney General's Consumer Protection Division at 1-800-300-1986 or consumerhelp@state.sd.us.`,
+    categorySlug: 'medicare-health-plans',
+    alertLevel: 'high',
+    sources: ['South Dakota Attorney General\'s Office'],
+    sourceUrl: 'https://consumer.sd.gov/consumeralerts/2024-Medicare-Telephone-Scam.aspx',
+    country: 'US',
+    state: 'SD',
+    firstRecorded: '2024-01-05',
+});
