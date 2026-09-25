@@ -9902,3 +9902,15 @@ UsGM.push({
     isHistorical: true,
     firstRecorded: '2026-03-17',
 });
+
+UsGM.push({
+    name: 'Maine Timeshare Resale Upfront-Fee Scam',
+    slug: 'maine-timeshare-resale-upfront-fee-scam',
+    description: `Fraudulent timeshare resale companies and fake real estate agents have targeted Maine timeshare owners eager to sell, according to the Maine Attorney General's office, which fielded 44 inquiries about timeshare sales scams in a single year and directly assisted five residents trying to recoup losses — a total officials believe is "probably much higher" since many victims never report the fraud. The callers claim to already have a buyer lined up or cite strong local demand, then ask the owner to wire thousands of dollars upfront to cover fabricated escrow, title, or closing fees before the sale can close; once the money is sent, the "buyer" disappears and the promised sale never happens. Some scammers escalate further by contacting the same victim a second time, posing as a recovery service that can get the lost money back for yet another upfront fee, while others have stolen the identities of real, licensed real estate agents to make their solicitations look legitimate. Tim Feeley, special assistant at the Maine Attorney General's office, said the fix is simple — "Never pay in advance for promises" — since legitimate commissions and fees are paid at closing, not before a sale, and owners should verify any resale offer with their resort's management or a licensed broker before sending money.`,
+    categorySlug: 'timeshare-scams',
+    alertLevel: 'medium',
+    sources: ['Maine Office of the Attorney General', 'Bangor Daily News'],
+    sourceUrl: 'https://www.bangordailynews.com/2017/01/22/next/scammers-target-mainers-eager-to-sell-their-timeshare-units/',
+    country: 'US',
+    state: 'ME',
+});
