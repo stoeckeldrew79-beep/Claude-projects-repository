@@ -10199,3 +10199,67 @@ UsAF.push({
     state: 'DE',
     firstRecorded: '2024-08-09',
 });
+
+UsAF.push({
+    name: 'Arizona Government Impersonation Text Scam Wave (ADOT, USPS, Fake "Ministry of Communications")',
+    slug: 'arizona-government-impersonation-text-scam-wave',
+    description: `Arizona Attorney General Kris Mayes warned on June 11, 2025 about a rise in text-message scams impersonating real Arizona and federal agencies — including the Arizona Department of Transportation, USPS, and Pima County Superior Court — alongside texts claiming to come from a fabricated entity called the "Arizona Ministry of Communications," which does not exist. The texts contain links to counterfeit look-alike websites designed to harvest personal information or install malware, often written with urgent, misspelled language pressuring the recipient to send money by wire transfer, gift card, cryptocurrency, or payment app to resolve a supposed fine or unpaid fee. Mayes's office emphasized that real government agencies do not text, call, or email out of nowhere demanding immediate payment or personal information, and urged Arizonans who receive a suspicious text not to click any link, to verify directly with the named agency using a number looked up independently, and to report the message to the Attorney General's Consumer Protection office.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Arizona Attorney General\'s Office'],
+    sourceUrl: 'https://www.azag.gov/press-release/attorney-general-mayes-warns-increase-government-impersonation-scam-texts',
+    country: 'US',
+    state: 'AZ',
+    firstRecorded: '2025-06-11',
+});
+
+UsAF.push({
+    name: 'Arizona Crypto "Recovery" Scam Targeting Prior Crypto-Fraud Victims',
+    slug: 'arizona-crypto-recovery-rip-off-scam',
+    description: `The Arizona Corporation Commission's Securities Division issued an investor alert on November 20, 2025 warning about a follow-on scam that specifically targets people who have already lost money to a cryptocurrency investment fraud. Fraudsters unsolicitedly contact prior victims, impersonating law enforcement, securities regulators, or victim-assistance organizations, and offer to "recover" the lost funds — using AI-generated content, fake websites, and fabricated testimonials to appear legitimate. They then demand upfront fees, often paid in cryptocurrency, for recovery services that either don't exist or provide only information that was already publicly available; in some cases they hand victims worthless counterfeit digital coins as a bait-and-switch instead of real funds. The Securities Division's guidance is to treat any unsolicited offer to recover money already lost to a scam as itself a scam, to never pay an upfront fee for "recovery" services, and to verify any claimed law enforcement or regulator affiliation independently before engaging further.`,
+    categorySlug: 'cryptocurrency-scams',
+    alertLevel: 'medium',
+    sources: ['Arizona Corporation Commission, Securities Division'],
+    sourceUrl: 'https://azcc.gov/news/home/2025/11/20/investor-alert---recovery-or-rip-off--be-on-the-lookout-for-the-latest-crypto-related-scheme',
+    country: 'US',
+    state: 'AZ',
+    firstRecorded: '2025-11-20',
+});
+
+UsAF.push({
+    name: 'Park County, Colorado Sheriff Impersonation Jury-Duty Warrant Scam',
+    slug: 'colorado-park-county-sheriff-jury-duty-warrant-scam',
+    description: `The Park County Sheriff's Office in Colorado issued a public warning on August 23, 2026 about scammers spoofing the department's real phone number on caller ID and calling residents claiming to be deputies or sergeants, sometimes citing fake badge numbers, who allege the recipient missed jury duty and now has an active arrest warrant. The callers pressure victims into making an immediate payment to clear the supposed warrant or avoid arrest. "No legitimate law enforcement agency will call you and demand that you submit a payment to clear a warrant or avoid arrest," the Sheriff's Office said, noting that scammers are getting more convincing and that caller ID being spoofed to show a real agency's number does not make a call legitimate. Anyone who receives a call like this is advised to hang up immediately and call the Sheriff's Office back using a number they look up independently, not one the caller provides, to verify.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Park County, Colorado Sheriff\'s Office'],
+    sourceUrl: 'https://www.kktv.com/2026/08/23/new-scam-colorado-county-sees-crooks-posing-law-enforcement/',
+    country: 'US',
+    state: 'CO',
+    firstRecorded: '2026-08-23',
+});
+
+UsAF.push({
+    name: 'Health First Colorado (Medicaid) Coverage-Cancellation Payment Scam',
+    slug: 'colorado-health-first-medicaid-coverage-cancellation-scam',
+    description: `Colorado's Health First Colorado (the state's Medicaid program) and Child Health Plan Plus warned members about scammers contacting them by text and phone, falsely claiming their health coverage is canceled or about to be canceled and demanding money, credit card or bank account numbers, income or employer information, or a complete Social Security number to "keep" or "renew" coverage — sometimes implying legal trouble if the member doesn't comply. The program states it will only ever direct members to update their information through the state's PEAK system or their county human services department, and that it will never ask for payment, financial account information, a full Social Security number, or threaten legal action by phone or text. Members who are contacted this way are advised not to provide any information or payment and to report the attempt to the Colorado Attorney General's Consumer Protection Unit.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'medium',
+    sources: ['Health First Colorado', 'Colorado Department of Health Care Policy & Financing'],
+    sourceUrl: 'https://www.healthfirstcolorado.gov/alert/',
+    country: 'US',
+    state: 'CO',
+});
+
+UsAF.push({
+    name: 'Humane Society of the Pikes Peak Region "Found Your Lost Pet" Payment Scam',
+    slug: 'colorado-hsppr-lost-pet-payment-scam',
+    description: `The Humane Society of the Pikes Peak Region (HSPPR), serving the Colorado Springs area, warned residents in a report published July 1, 2025 about scammers who call people who have posted about a missing pet, falsely claiming to represent HSPPR and saying they've found the animal. The caller then demands payment over the phone or through Venmo before they'll "return" the pet, and in some versions asks for a verification code or references a pet tracker via Instagram or WhatsApp to add false credibility. HSPPR stated plainly that it never requests payment by phone or Venmo before returning a pet and never asks for a verification code, and urged anyone contacted this way to verify directly with HSPPR staff or its admissions office before sending any money, rather than trusting an unsolicited caller's claim to have found a lost animal.`,
+    categorySlug: 'pet-sales-scams',
+    alertLevel: 'medium',
+    sources: ['Humane Society of the Pikes Peak Region'],
+    sourceUrl: 'https://www.kktv.com/2025/07/01/humane-society-pikes-peak-region-warns-scam-impacting-people-with-lost-pets/',
+    country: 'US',
+    state: 'CO',
+    firstRecorded: '2025-07-01',
+});
