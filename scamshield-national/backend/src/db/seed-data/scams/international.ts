@@ -22364,3 +22364,39 @@ International.push({
   country: 'LU',
   firstRecorded: '2026-06-03',
 });
+
+International.push({
+    name: "Fake HoT Prepaid Top-Up Website",
+    slug: "fake-hot-prepaid-top-up-website",
+    description:
+      "Criminals have set up a convincing copy of the online top-up service (\"Aufladeservice\") of HoT, the Austrian prepaid mobile and internet brand sold through Hofer. Customers who land on the counterfeit site and try to load credit onto their phone or WLAN package are asked to enter their credit card details in a normal-looking payment form. No credit is ever added to the account, and the card data goes straight to the fraudsters, who can use it for further charges. Only top up through the official HoT app or by typing the official web address yourself rather than following search results, ads or links in messages. If you have already entered your card details, block the card with your bank immediately, check your statements and report the incident to Watchlist Internet and the police.",
+    categorySlug: "phishing",
+    alertLevel: "medium",
+    sources: ["Watchlist Internet (ÖIAT – Österreichisches Institut für angewandte Telekommunikation)"],
+    sourceUrl: "https://www.watchlist-internet.at/warnungen-tipps/online-shopping/",
+    country: "AT",
+});
+
+International.push({
+    name: "Fake \"Post Käufer:innenschutz\" Buyer-Protection Scam on Classifieds Sites",
+    slug: "fake-post-kaeuferinnenschutz-buyer-protection-scam",
+    description:
+      "This scam targets sellers on Austrian classified-ad platforms rather than buyers. Fraudsters pose as keen buyers and insist the deal be handled through a supposed buyer-protection service branded as the Österreichische Post, which does not actually exist. The seller is walked through this fake protection process and ends up handing over payment or card details instead of receiving money for the item. Austrian Post does not operate a buyer-protection scheme for private classified-ad sales, so treat any such request as a red flag. Keep communication and payment inside the platform's own official channels, never enter card data to \"receive\" money, and report suspicious buyers to the platform and to Watchlist Internet.",
+    categorySlug: "phishing",
+    alertLevel: "high",
+    sources: ["Watchlist Internet (ÖIAT)","Konsumentenfragen.at – consumer information portal of the Austrian Social Ministry"],
+    sourceUrl: "https://www.konsumentenfragen.at/konsumentenfragen/Digitalisierung/Digitalisierung/Warnung-der-Watchlist-Internet-Neue-Masche-mit-gefaelschtem.html",
+    country: "AT",
+});
+
+International.push({
+    name: "Fake Stiegl Prize Draw With €2 Shipping Fee",
+    slug: "fake-stiegl-prize-draw-shipping-fee",
+    description:
+      "A bogus online competition uses the name of the Salzburg brewery Stiegl and tells people they have won a cooler box filled with beer. To have the prize shipped, winners are asked to pay a token fee of about two euros by credit card. The tiny amount is the hook: the real aim is to capture credit card data and sign victims up for unwanted recurring charges, and no cooler box is ever delivered. Legitimate prize draws never require a card payment to release a prize. Ignore such offers, and if you have already paid, contact your bank to block the card and dispute the charges, then report the site to Watchlist Internet.",
+    categorySlug: "lottery-sweepstakes-scams",
+    alertLevel: "medium",
+    sources: ["Watchlist Internet (ÖIAT) – 2025 year-in-review of online fraud in Austria"],
+    sourceUrl: "https://www.watchlist-internet.at/news/jahresrueckblick-watchlist-2025/",
+    country: "AT",
+});
