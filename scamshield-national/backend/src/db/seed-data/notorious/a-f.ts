@@ -10230,6 +10230,9 @@ Eron collapsed in 1997, triggering a BC Securities Commission investigation and 
 
 The Eron case remains one of the largest investor-fraud collapses in British Columbia's history, and it illustrates a pattern that recurs across mortgage- and real-estate-investment schemes: a real, tangible asset class — actual property, actual mortgages — used to lend credibility to promised returns the underlying business could never support, with new money quietly propping up the old until the math simply stopped working.`,
     sourceUrl: 'https://www.theglobeandmail.com/report-on-business/eron-president-gets-six-years-for-fraud-theft/article18219756/',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Vancouver_Skyline_and_Mountains.jpg?width=1200',
+    coverImageCredit: 'Photo: Kyle Pearce (CC BY-SA 2.0) — Vancouver, where Eron Mortgage operated',
+    coverImagePosition: 50,
     // representative photo — replace with a portrait if found
 });
 
@@ -10246,5 +10249,7 @@ The case moved through the STF, which has original jurisdiction over sitting and
 
 Collor's arc — the anti-corruption candidate whose government fell to a slush-fund scandal in 1992, acquitted at the time only to be convicted three decades later in an unrelated bribery scheme tied to a different state company — illustrates how a political career can survive one corruption scandal only to be brought down by another, and how a relatively modest, sustained stream of kickbacks tied to routine corporate appointments can still end in a real prison sentence once investigators have the financial trail to follow.`,
     sourceUrl: 'https://www.aljazeera.com/news/2025/4/25/brazils-ex-president-collor-de-mello-arrested-after-corruption-sentence',
-    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Foto_oficial_do_presidente_Fernando_Collor_de_Melo._(38405801411).jpg?width=1200',
+    coverImageCredit: 'Photo: Ubirajara Dettimar/Presidência da República (CC BY-SA 2.0)',
+    coverImagePosition: 50,
 });

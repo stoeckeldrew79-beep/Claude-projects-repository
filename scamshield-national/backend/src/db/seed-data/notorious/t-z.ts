@@ -3306,5 +3306,7 @@ Montesinos was captured in Venezuela in 2001 and extradited to Peru. In June 200
 
 Montesinos's own bribe prices, reconstructed from his meticulous paper trail, showed exactly where he believed the real danger to his power lay: he paid television owners roughly a hundred times what he paid individual politicians, because a single defiant broadcaster could expose the whole operation no matter how many others he had already bought off. The case stands as one of the most thoroughly documented examples of state-scale corruption in modern history — precisely because the man running it insisted on keeping the receipts.`,
     sourceUrl: 'https://pricetheory.uchicago.edu/levitt/Papers/McMillanZoido2004.pdf',
-    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Militar_Vladimiro_Montesinos.jpg?width=1200',
+    coverImageCredit: 'Photo: unknown, pre-1979 (Public Domain, PD-Peru-anonymous) — Montesinos as a Peruvian Army captain',
+    coverImagePosition: 50,
 });
