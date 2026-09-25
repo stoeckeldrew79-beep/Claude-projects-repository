@@ -9807,3 +9807,29 @@ UsNS.push({
     state: 'NM',
     firstRecorded: '2026-05-28',
 });
+
+UsNS.push({
+    name: 'Ohio "Phantom Hacker" Transnational Money-Laundering Ring Sentencing',
+    slug: 'ohio-phantom-hacker-transnational-money-laundering-ring',
+    description: `The U.S. Attorney's Office for the Northern District of Ohio and the FBI's Cleveland Division prosecuted eight defendants — Kishan Vinayak Patel, Dileep Kumar Sakineni, Balaji Rakesh Mulpuri, Avi Jitendrakumar Patel, Sai Hruthik Thodeti, Srinivas Ravi Valluru, Pranay Kumar Mamidi, and Hiren Jagdishbhai Patel — who served as U.S.-based money launderers for an India-based "phantom hacker" scheme that victimized elderly residents of Ohio, Michigan, Illinois, and Indiana. The scammers posed as representatives of Amazon, the FTC, and the DEA to convince victims their bank accounts had been compromised and that their savings needed to be converted to cash or precious metals and handed over "for protection," when in reality the money went straight to the conspirators. The final defendant was sentenced in September 2025, with all eight held jointly responsible for nearly $4 million in restitution — sentences among the group ranged from 24 to 72 months. Because a phantom hacker scheme always ends with an instruction to convert savings into cash, gold, or cryptocurrency for pickup or transfer, that instruction itself is the reliable warning sign: no real bank, government agency, or law enforcement officer will ever direct someone to do this, and anyone told to should hang up and contact their bank or the FBI's Internet Crime Complaint Center at IC3.gov directly.`,
+    categorySlug: 'tech-support-scams',
+    alertLevel: 'high',
+    sources: ['FBI Cleveland Division', 'U.S. Attorney\'s Office, Northern District of Ohio'],
+    sourceUrl: 'https://hoodline.com/2025/09/phantom-hacker-falls-final-conspirator-clapped-in-chains-for-transnational-fraud-elderly-americans-rejoice-as-justice-served-in-ohio/',
+    country: 'US',
+    state: 'OH',
+    firstRecorded: '2025-09-12',
+});
+
+UsNS.push({
+    name: 'Kettering, Ohio Cloned Facebook Rental Listing Scam',
+    slug: 'ohio-kettering-cloned-facebook-rental-listing-scam',
+    description: `A Dayton-area woman lost $1,070 after responding to a Facebook listing for a Kettering, Ohio home advertised at $1,000 a month — roughly half its actual $2,100 monthly rent. The scammer, posing as the landlord, provided a real lockbox code that let her tour the legitimately-listed property in person with her children, then sent a fake approval letter and collected a $1,000 deposit plus a $70 application fee before she discovered the fraud by contacting the property's real management company directly. Melissa Smith, assistant consumer protection section chief at the Ohio Attorney General's Office, said scams like this are constantly evolving and pointed to below-market pricing as the clearest warning sign, noting that money sent this way is rarely recovered. Renters are advised to independently verify who actually manages or owns a property — through the property management company itself or county records — before paying any deposit, even if the person offering the rental can grant a real tour of the home.`,
+    categorySlug: 'rental-housing',
+    alertLevel: 'medium',
+    sources: ['Ohio Attorney General\'s Office', 'WHIO-TV'],
+    sourceUrl: 'https://www.whio.com/news/local/dayton-woman-loses-over-1000-kettering-home-rental-scam/2UXRG3YK3JATDJZWGTGMUTOEYU/',
+    country: 'US',
+    state: 'OH',
+    firstRecorded: '2026-09-24',
+});
