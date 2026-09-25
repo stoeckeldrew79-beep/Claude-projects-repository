@@ -3326,4 +3326,8 @@ Niembro was charged with conspiracy to commit wire fraud and conspiracy to viola
 
 The Nodus Bank case is a reminder that self-dealing and sanctions evasion aren't separate categories of financial crime so much as they're the same instinct applied twice: an executive who has already decided the rules exist for everyone but him will usually find more than one rule worth breaking, and a small offshore bank — thinly staffed, lightly scrutinized, chartered in a jurisdiction with less oversight capacity than a major US banking center — is exactly the kind of institution where that instinct can run for years before regulators or fellow directors catch up to it.`,
     sourceUrl: 'https://www.irs.gov/compliance/criminal-investigation/former-bank-ceo-sentenced-to-over-9-years-in-prison-for-multimillion-dollar-wire-fraud-conspiracy-and-venezuela-sanctions-evasion-scheme',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/The_Skyline_of_San_Juan_with_the_Capitol_of_Puerto_Rico.jpg?width=1200',
+    coverImageCredit: 'Photo: R9 Studios FL, via Flickr (CC BY 2.0) — San Juan, Puerto Rico, where Nodus International Bank was chartered',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
 });
