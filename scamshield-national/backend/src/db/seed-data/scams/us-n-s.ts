@@ -9743,3 +9743,67 @@ UsNS.push({
     state: 'SC',
     firstRecorded: '2026-09-01',
 });
+
+UsNS.push({
+    name: 'Nebraska PPP Loan Recipient Impersonation Scam',
+    slug: 'nebraska-ppp-loan-recipient-impersonation-scam',
+    description: `The Nebraska Department of Banking and Finance warned on July 10, 2025 that fraudsters are exploiting Paycheck Protection Program borrower data the Small Business Administration made public to target Nebraska business owners who actually received PPP loans, using real loan details to make impersonation calls sound credible. Callers pose as bank fraud-department employees, local law enforcement, or SBA representatives and invent an urgent pretext — unusual account activity, a fabricated arrest warrant, or a supposed problem with the original loan — to pressure the recipient into handing over online banking or credit union login credentials, or sending a direct payment. The department, working with the Nebraska Bankers Association, stressed that no legitimate bank, law enforcement agency, or SBA official will ever demand login credentials or an urgent payment over an unsolicited phone call, and that anyone contacted this way should hang up and call their own bank directly using the number on their card or statement, not a callback number the caller provides. Suspected cases can be reported to the Nebraska Department of Banking and Finance at 402-474-2171 or the SBA Office of Inspector General.`,
+    categorySlug: 'account-takeover',
+    alertLevel: 'high',
+    sources: ['Nebraska Department of Banking and Finance', 'Nebraska Bankers Association'],
+    sourceUrl: 'https://ndbf.nebraska.gov/about/news-publications/ppp-loan-scam',
+    country: 'US',
+    state: 'NE',
+    firstRecorded: '2025-07-10',
+});
+
+UsNS.push({
+    name: 'New Jersey Pet Purchase Protection Act Enforcement Sweep',
+    slug: 'new-jersey-pet-purchase-protection-act-enforcement',
+    description: `New Jersey Attorney General Matthew Platkin's office announced on September 25, 2025 that unannounced inspections had turned up violations of the state's Pet Purchase Protection Act at eight pet stores across Bergen, Essex, Hudson, Middlesex, Somerset, and Union counties — Mama's and Papa's Pet Shop, Silver Nickel Puppies, Pet Crew Pet Shop, Oh My Dog LLC, Carmona Pet Shop, Pet Center Rescue, and two Shake A Paw locations — resulting in Notices of Violation and $75,448.08 in combined civil penalties and investigative costs. Investigators found missing cage labels disclosing a puppy's breeder or broker identity and medical history, absent vaccination and veterinary examination records, and a failure to display the federal USDA breeding-facility inspection reports the law requires stores to keep on hand; one store, Oh My Dog, was found sourcing puppies from unlicensed breeders altogether. Without that required paperwork on display, a buyer has no way to verify where a puppy actually came from or whether it received the medical care a store claims before ever bringing it home. New Jersey shoppers are advised to ask to see a puppy's breeder/broker disclosure, vaccination records, and USDA inspection report before purchasing from any pet store, and to report a store that can't produce them to the Division of Consumer Affairs.`,
+    categorySlug: 'pet-sales-scams',
+    alertLevel: 'medium',
+    sources: ['New Jersey Office of the Attorney General', 'New Jersey Division of Consumer Affairs'],
+    sourceUrl: 'https://www.njoag.gov/ag-platkin-eight-pet-stores-issued-notices-of-violation-assessed-civil-penalties-totaling-more-than-70000-for-violating-new-jerseys-pet-purchase-protection-act/',
+    country: 'US',
+    state: 'NJ',
+    firstRecorded: '2025-09-25',
+});
+
+UsNS.push({
+    name: 'New Mexico Taxation and Revenue Department "Property Seizure" Mail Scam',
+    slug: 'new-mexico-taxation-revenue-property-seizure-mail-scam',
+    description: `The New Mexico Taxation and Revenue Department warned on October 27, 2025 about fraudulent letters circulating that claim a recipient's property will be seized over unpaid tax debt unless they call an "800" number printed in the letter, with some versions styled to look like they come from a "Tax Processing Unit." The department confirmed it does send legitimate lien and garnishment notices by mail, but a real notice always carries official letterhead, a specific Letter ID number, and an explanation of what prior collection actions led to it — details the scam letters lack. Recipients are advised to verify any notice claiming to be from the department independently, either through the state's own Taxpayer Access Point at tap.state.nm.us or by calling the department directly rather than the number printed in the letter, and to report suspicious mail to the department's Tax Fraud Investigations Division.`,
+    categorySlug: 'tax-scams',
+    alertLevel: 'medium',
+    sources: ['New Mexico Taxation and Revenue Department'],
+    sourceUrl: 'https://biz.nm.gov/newsroom/press-release-new-mexico-taxation-and-revenue-department-warns-against-100002367',
+    country: 'US',
+    state: 'NM',
+    firstRecorded: '2025-10-27',
+});
+
+UsNS.push({
+    name: 'New Mexico Online Puppy Sale Scam Wave',
+    slug: 'new-mexico-online-puppy-sale-scam-wave',
+    description: `The Better Business Bureau of New Mexico reported that six New Mexico consumers had been defrauded by online puppy-sale scams in a single reporting year with a median loss of $850 per victim, with roughly 30 percent of reported cases involving popular breeds like Yorkies, dachshunds, and French bulldogs. Scammers post fake listings for puppies that don't exist, then request electronic payment for fabricated shipping, crating, or vaccination fees before disappearing once paid. One Albuquerque-area victim, Patricia Torres, lost $6,000 over two weeks after being repeatedly promised reimbursement "upon delivery" that never came. The BBB's guidance is to never wire money or pay by gift card for a pet purchased sight-unseen, to insist on seeing the animal in person or over a live video call before paying anything, to pay only by credit card so a fraudulent charge can be disputed, and to independently search a seller's photos and listing text online to check whether they've been copied from another site before sending any money.`,
+    categorySlug: 'pet-sales-scams',
+    alertLevel: 'medium',
+    sources: ['Better Business Bureau of New Mexico', 'KOB 4'],
+    sourceUrl: 'https://www.kob.com/new-mexico/scammers-target-potential-puppy-parents-in-new-mexico/',
+    country: 'US',
+    state: 'NM',
+});
+
+UsNS.push({
+    name: 'New Mexico Medicare New-Card Activation Fee Scam',
+    slug: 'new-mexico-medicare-new-card-activation-fee-scam',
+    description: `New Mexico's Aging and Long-Term Services Department warned beneficiaries on May 28, 2026 about scammers exploiting a nationwide rollout of roughly 1.3 million replacement Medicare cards, issued by CMS with new Medicare numbers for security reasons. Fraudsters contact beneficiaries claiming the new card must be "activated" over the phone or that a fee is required to receive it, using manufactured urgency to extract personal information or payment. "Scammers often use moments like this to create fear and urgency" to steal sensitive information, ALTSD Secretary Emily Kaltenbach said in announcing the alert. The department reiterated that genuine Medicare card mailings require no activation call, no fee, and no confirmation of personal information over the phone — official communications about a Medicare card arrive by mail only. Beneficiaries who receive a suspicious call are advised to hang up and contact New Mexico's Senior Medicare Patrol program directly at 1-800-432-2080 to verify.`,
+    categorySlug: 'medicare-health-plans',
+    alertLevel: 'medium',
+    sources: ['New Mexico Aging and Long-Term Services Department'],
+    sourceUrl: 'https://www.aging.nm.gov/2026/05/28/medicare-scammers-target-beneficiaries/',
+    country: 'US',
+    state: 'NM',
+    firstRecorded: '2026-05-28',
+});
