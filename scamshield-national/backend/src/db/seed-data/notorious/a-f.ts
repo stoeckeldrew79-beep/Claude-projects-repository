@@ -10253,3 +10253,37 @@ Collor's arc — the anti-corruption candidate whose government fell to a slush-
     coverImageCredit: 'Photo: Ubirajara Dettimar/Presidência da República (CC BY-SA 2.0)',
     coverImagePosition: 50,
 });
+
+NotoriousAF.push({
+    title: 'Charles Carrier and the "We Buy Ugly Houses" Franchise That Sold Investors the Same Properties Twice',
+    slug: 'charles-carrier-we-buy-ugly-houses-real-estate-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'wire-fraud'],
+    body: `Charles Carrier, 67, ran C&C Residential Properties, a Dallas franchisee of HomeVestors of America — the national real-estate company behind the "We Buy Ugly Houses" brand familiar from decades of billboards and late-night television ads. That brand recognition was central to how Carrier operated: it gave an ordinary house-flipping investment pitch the borrowed credibility of a company people already half-trusted before he ever asked them for money.
+
+From at least 2018 through 2024, Carrier solicited more than 80 investors — Main Street families, retirees, and small-business owners — promising that their money would fund the acquisition, renovation, and resale of specific residential properties, with their loans secured by first-position liens against real property they could, in theory, foreclose on if something went wrong. In practice, prosecutors say, Carrier ran the scheme through a combination of tactics: he frequently failed to actually record the deeds of trust that were supposed to secure investors' claims; he issued multiple, overlapping deeds of trust on the same property to different investors without disclosing the conflict; he sold properties investors believed were pledged to them, in some cases using forged or unauthorized lien releases to clear the way; and he diverted investor funds to his own credit card debt, unrelated business expenses, and payments to earlier investors — the last of which gave the scheme a Ponzi-like structure layered on top of the real-estate fraud. Prosecutors say Carrier's scheme ultimately aimed to draw in $39,514,300 from his investor base.
+
+Cracks showed up first in civil court: three separate Dallas County lawsuits produced roughly $3.2 million in judgments against Carrier before the federal case caught up with him, as investors who couldn't get straight answers about their liens went looking for their money through the courts. The FBI's Dallas Field Office built the criminal case from there.
+
+Carrier pleaded guilty to wire fraud on October 30, 2025. On September 24, 2026, U.S. District Judge Brantley Starr sentenced him to 188 months — more than 15 years — in federal prison and ordered him to pay $24,416,911.16 in restitution. "Financial fraud isn't just numbers on a ledger — it's a direct assault on hardworking Americans who trusted an alleged expert with their savings," said U.S. Attorney Ryan Raybould.
+
+The case is a useful reminder that a franchise brand is a marketing relationship, not a guarantee: HomeVestors licenses its name and playbook to independent local operators, and the trust built by decades of "We Buy Ugly Houses" advertising belonged to the parent company's reputation, not to any verification of what a specific local franchisee was actually doing with investors' money once it arrived.`,
+    sourceUrl: 'https://www.justice.gov/usao-ndtx/pr/dallas-real-estate-investor-sentenced-over-15-years-federal-prison-investment-fraud',
+});
+
+NotoriousAF.push({
+    title: 'Chanise Coyne and the $4.6 Million Child Modeling Career That Never Existed',
+    slug: 'chanise-coyne-child-modeling-fraud-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'wire-fraud'],
+    body: `Chanise Coyne, 46, of New Boston, Michigan, was a photographer who worked with a local family on their young daughter's aspirations of a modeling career. Over time, that professional relationship became the platform for a scheme built entirely on a fiction: that the girl was being placed in modeling events across the country, and that advancing money to Coyne was simply the cost of unlocking those opportunities.
+
+To keep the story credible, prosecutors say, Coyne didn't just make verbal promises — she manufactured a paper trail. She generated fake text messages, emails, and invoices documenting supposed bookings, placement fees, and event details, giving the family something that looked like ordinary industry paperwork rather than a request to simply hand over money on trust. Over the life of the scheme she collected more than $4.6 million from the family this way, all of it for a modeling career that, according to prosecutors, never produced a single actual placement.
+
+None of the money went where it was supposed to. Court records say Coyne diverted the bulk of the funds to her own use, with large sums going to gambling and more than $200,000 spent on Taylor Swift concert tickets in Florida — spending that had nothing to do with any modeling agency, event, or industry expense the family had been told they were paying for.
+
+Coyne was charged with wire fraud and pleaded guilty in May 2026. On September 22, 2026, she was sentenced to five years in federal prison, to be followed by three years of supervised release, and was ordered to pay $4,669,962.76 in restitution. "This was a calculated, multimillion-dollar fraud scheme that preyed on a family's trust and a child's aspirations for personal financial gain," said FBI Special Agent in Charge Jennifer Runyan.
+
+What makes this case worth recording isn't its size — by the standards of this database, $4.6 million is a modest sum — but its mechanism: an affinity-style fraud that didn't rely on a stranger's cold pitch but on an existing working relationship and a parent's hope for their child, sustained for years with nothing more sophisticated than fabricated paperwork that nobody thought to independently verify with the modeling agencies it claimed to involve.`,
+    sourceUrl: 'https://www.justice.gov/usao-edmi/pr/new-boston-woman-was-sentenced-5-years-federal-prison-46-million-child-modeling-fraud',
+});
