@@ -10079,3 +10079,41 @@ UsGM.push({
     state: 'MT',
     firstRecorded: '2025-06-05',
 });
+
+UsGM.push({
+    name: 'Comptroller of Maryland Fraudulent Notice and AI-Enhanced Tax Scam Warning',
+    slug: 'maryland-comptroller-fraudulent-notice-tax-scam-2026',
+    description: `The Comptroller of Maryland issued a January 23, 2026 warning ahead of the 2026 tax season after a taxpayer received a fraudulent notice purporting to be from the Comptroller's office in the mail, brought it to a branch office, and had staff confirm it was fake. "Scammers are getting better, with technology and time, at convincing people to hand over sensitive and valuable information without a second look," said Comptroller Brooke E. Lierman, warning that fake notices demand immediate payment, threaten dire consequences, and contain website links or contact information that don't belong to the agency. Chief Deputy Comptroller Andy Schaufele noted the agency identified and blocked more than 15,447 fraudulent tax returns and $42,933,920 in fraudulent refunds the prior year using expanded fraud-detection screening. Taxpayers who get a suspicious notice, call, or email should not respond directly to it, and should instead verify it by calling the Comptroller's taxpayer services line at 410-260-7980 (or 1-800-MDTAXES), opening a case at MyCOMConnect, or visiting one of Maryland's 11 branch offices.`,
+    categorySlug: 'tax-scams',
+    alertLevel: 'medium',
+    sources: ['Comptroller of Maryland'],
+    sourceUrl: 'https://www.marylandcomptroller.gov/content/dam/mdcomp/md/media/2026/01-23-2026-comptroller-encourages-marylanders-to-look-out-for-scams-this-tax-season.pdf',
+    country: 'US',
+    state: 'MD',
+    firstRecorded: '2026-01-23',
+});
+
+UsGM.push({
+    name: 'Unauthorized "Limited Partner" Health Insurance Plan Scheme',
+    slug: 'maryland-unauthorized-limited-partner-health-insurance',
+    description: `The Maryland Insurance Administration warned that unlicensed entities are selling unauthorized health insurance plans by posing as agents or brokers and telling buyers they'll become "limited partners" or "part owners" in the company selling the plan, with many victims believing they'd reached the official Maryland Health Connection when they'd actually landed on a different site. These plans advertise low premiums with the appearance of extensive coverage but in practice pay few or no claims, and the state has limited authority to force an unlicensed seller to pay. FBI Baltimore Supervisory Special Agent Keith Custer said the bureau has investigated one such company after more than 100 complaints and has "seen victims paying upwards of $20,000 or $30,000 up front" for a year of coverage; in one documented Maryland case a man paid $5,000 upfront only to be hit with a $7,000 bill after a hospital refused his new "coverage" ahead of emergency surgery. Before paying for any health plan, Marylanders should verify the seller's license through MIA's online database, confirm any marketplace site ends in ".gov," and report suspected fraud to MIA's Health Coverage Assistance Team at 410-468-2442 or the FBI's IC3.gov.`,
+    categorySlug: 'insurance-fraud',
+    alertLevel: 'high',
+    sources: ['Maryland Insurance Administration', 'FBI Baltimore Field Office', 'WMAR-2 News'],
+    sourceUrl: 'https://insurance.maryland.gov/Consumer/Pages/Fake-health-insurance.aspx',
+    country: 'US',
+    state: 'MD',
+});
+
+UsGM.push({
+    name: 'Maryland Woman\'s $3 Million Crypto "Pig Butchering" Loss Sparks FBI Warning',
+    slug: 'maryland-crypto-pig-butchering-3-million-loss',
+    description: `CBS News Baltimore and the FBI's Baltimore Field Office detailed a "pig butchering" investment-fraud case in which a Maryland woman lost more than $3 million after an unsolicited contact on a messaging app spent weeks building trust before steering her into crypto "investments" — first directing her to the legitimate Coinbase site, then to fraudulent lookalike platforms, and allowing small early withdrawals to build false confidence before the scammers vanished with her money. FBI Special Agent Sarah Lewis said that when she first spoke with the victim, "she told me she wasn't being scammed" and used language that traced directly back to the scammer's script, while Special Agent Jeremy Capello warned that "once that money leaves, it goes to the bad guys, and it's gone." As of the report, the FBI had notified 4,323 victims nationally of an estimated $285.6 million in pig-butchering losses, with 42 cases serious enough to warrant a suicide-intervention referral. Anyone contacted out of the blue online about a lucrative crypto opportunity — especially one that starts as a casual conversation rather than a pitch — should stop, independently verify any platform, and never move funds off a well-known exchange on a stranger's instruction; losses can be reported to the FBI's Internet Crime Complaint Center at ic3.gov.`,
+    categorySlug: 'cryptocurrency-scams',
+    alertLevel: 'high',
+    sources: ['FBI Baltimore Field Office', 'CBS News Baltimore'],
+    sourceUrl: 'https://www.cbsnews.com/baltimore/news/maryland-crypto-pig-butchering-scam-fbi-warning-asia/',
+    country: 'US',
+    state: 'MD',
+    firstRecorded: '2025-04-01',
+});

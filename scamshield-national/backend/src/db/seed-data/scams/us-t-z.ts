@@ -5670,3 +5670,42 @@ UsTZ.push({
     sourceUrl: 'https://support.taskrabbit.com/hc/en-us/articles/46260425126811-Warning-Unaffiliated-Websites',
     country: 'US',
 });
+
+UsTZ.push({
+    name: 'West Virginia Fraudulent Bail Bond Solicitation Scam',
+    slug: 'west-virginia-fraudulent-bail-bond-solicitation-scam',
+    description: `The West Virginia Offices of the Insurance Commissioner (OIC) issued a consumer alert about an ongoing scam in which callers falsely claim to represent licensed bail bonding companies, telling families a loved one has been arrested and needs immediate bond money, then using fear and urgency to pressure victims into paying by wire transfer or gift card. The OIC notes that under W. Va. Code § 51-10-8 and 114 CSR 103, anyone in the bail bonding business must be licensed and carries an official OIC-issued photo ID that consumers can ask to see. Before paying anyone claiming to hold a family member's bond, the OIC advises hanging up, checking the West Virginia Regional Jail Authority's inmate search to confirm an arrest actually occurred, and verifying the bondsman against the OIC's current Licensed Bail Bondsman list; suspected fraud should be reported to oicbailbondsmen@wv.gov.`,
+    categorySlug: 'family-emergency-scams',
+    alertLevel: 'medium',
+    sources: ['West Virginia Offices of the Insurance Commissioner'],
+    sourceUrl: 'https://www.wvinsurance.gov/Portals/0/pdf/Bail%20Bondsman%20Scam%20Alert.pdf?ver=2026-04-06-094118-977',
+    country: 'US',
+    state: 'WV',
+    firstRecorded: '2026-04-06',
+});
+
+UsTZ.push({
+    name: 'West Virginia SIM Swapping and Phone Porting Scam',
+    slug: 'west-virginia-sim-swapping-phone-porting-scam',
+    description: `Ahead of the 2026 "Slam the Scam Day" awareness event, the West Virginia Attorney General's Consumer Protection Division warned that SIM swapping and phone porting are a growing scam trend in the state, in which criminals who have stolen a victim's personal identifying information impersonate them to port their phone number to a new carrier or transfer SIM control to a device the scammer controls, "bypassing weak security." Because banks, email, and social media accounts often send two-factor authentication codes by text, hijacking the phone number lets scammers intercept those codes and drain financial accounts. The division, which had logged 460 scam reports statewide through March 4, 2026, urges West Virginians to move critical accounts to app-based or hardware-key two-factor authentication instead of SMS codes, set a carrier account PIN or port-freeze, and contact their carrier immediately if their phone unexpectedly shows "no service," a common sign a number has already been ported.`,
+    categorySlug: 'account-takeover',
+    alertLevel: 'high',
+    sources: ['West Virginia Attorney General\'s Office'],
+    sourceUrl: 'https://ago.wv.gov/article/attorney-general-mccuskey-announces-slam-scam-day',
+    country: 'US',
+    state: 'WV',
+    firstRecorded: '2026-03-04',
+});
+
+UsTZ.push({
+    name: 'West Virginia "Pig Butchering" Romance-Investment Crypto Scam',
+    slug: 'west-virginia-pig-butchering-romance-crypto-scam',
+    description: `The West Virginia Attorney General's Office flagged "pig butchering" as a sophisticated scam trend hitting the state, describing it as a long con that "combines romance/friendship/social engineering with investment fraud and usually involves cryptocurrency." Scammers spend weeks or months "fatten[ing] up" victims by building a fake romantic relationship or friendship — often starting with an unsolicited text or dating-app match — before "'slaughtering' their victims' finances by eventually luring them onto fake cryptocurrency investment platforms" that display fabricated returns to encourage larger deposits. Attorney General JB McCuskey urged consumers to "be incredibly diligent" about unexpected contacts; the office recommends never moving money into an investment platform introduced by an online romantic interest or new online friend, and independently verifying any cryptocurrency platform before depositing funds.`,
+    categorySlug: 'cryptocurrency-scams',
+    alertLevel: 'high',
+    sources: ['West Virginia Attorney General\'s Office'],
+    sourceUrl: 'https://ago.wv.gov/article/attorney-general-mccuskey-announces-slam-scam-day',
+    country: 'US',
+    state: 'WV',
+    firstRecorded: '2026-03-04',
+});
