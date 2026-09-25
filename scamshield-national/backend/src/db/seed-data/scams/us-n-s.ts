@@ -9704,3 +9704,42 @@ UsNS.push({
     country: "US",
     state: "AZ",
 });
+
+UsNS.push({
+    name: '"Gavin\'s Law": How a Nigeria-Based Sextortion Case Became a South Carolina Felony',
+    slug: 'south-carolina-gavins-law-sextortion',
+    description: `Gavin Guffey, a 17-year-old from Rock Hill, South Carolina, was targeted in 2022 by a scammer posing online as a young woman, who coerced him into sending explicit photos and then threatened to release them — extending the threat to his family unless he paid. Guffey died by suicide in July 2022. His father, state Representative Brandon Guffey, sponsored H.3583, "Gavin's Law," which Governor Henry McMaster signed in May 2023 (effective that August), making sexual extortion an aggravated felony in South Carolina carrying up to 20 years in prison when the victim is a minor or vulnerable adult, or when the crime causes bodily injury or death; the bill passed unanimously in both chambers and also requires school districts to run educational programs warning students and parents about sextortion. In January 2025, a Nigerian man, Hassanbunhussein Abolore Lawal, was extradited to the United States to face a five-count federal indictment, including child exploitation resulting in death, in connection with the case. The case illustrates how quickly a sextortion scheme can escalate: financially motivated sextortion rings, many based overseas, typically build trust with a teenage target in hours rather than weeks, then threaten to send an explicit image to the victim's family and friends unless money is paid immediately, leaving little time for a frightened teenager to ask an adult for help. Anyone facing this kind of threat should stop all contact, never pay or send further images, save the messages as evidence, and report it immediately to a trusted adult or law enforcement.`,
+    categorySlug: 'sextortion',
+    alertLevel: 'critical',
+    sources: ['South Carolina Governor\'s Office', 'FitsNews'],
+    sourceUrl: 'https://governor.sc.gov/news/2023-08/governor-henry-mcmaster-signs-gavins-law',
+    country: 'US',
+    state: 'SC',
+    firstRecorded: '2022-07-01',
+});
+
+UsNS.push({
+    name: 'Lieber Correctional Institution Inmate Runs $27,000 Sextortion Scheme on a Contraband Cellphone',
+    slug: 'south-carolina-lieber-correctional-inmate-sextortion',
+    description: `Christopher Lewis Dendy Jr., an inmate nearing the end of a 10-year sentence for voluntary manslaughter, armed robbery, and drug crimes at South Carolina's Lieber Correctional Institution in Ridgeville, used a contraband cellphone to build a fake female profile on a dating app between roughly March and October 2024. After matching with an out-of-state victim and exchanging sexually explicit images, Dendy claimed the "woman" was actually a minor and threatened the victim with child-exploitation charges unless he paid, ultimately extorting more than $27,000 through a series of Cash App payments sent to accounts registered under fictitious names. The South Carolina Department of Corrections' Office of Inspector General built the case and released arrest warrants on April 3, 2025 charging Dendy with blackmail and extortion, money laundering, unlawful possession of a cellphone by a prisoner, and a Computer Crime Act violation; he was intercepted and booked into the Dorchester County Detention Center on $210,000 bond just as he was due for release. The case is a reminder that a contraband cellphone can let an incarcerated person run a sophisticated, months-long extortion scheme against a victim anywhere in the country — a threat to expose supposedly minor-involving images should never be paid, since payment does not make the threat stop, and should instead be reported to local law enforcement or the FBI with all messages and payment records preserved as evidence.`,
+    categorySlug: 'sextortion',
+    alertLevel: 'high',
+    sources: ['South Carolina Department of Corrections', 'Post and Courier'],
+    sourceUrl: 'https://public.doc.state.sc.us/agency-news-public/homeAction.do?method=view&id=814',
+    country: 'US',
+    state: 'SC',
+    firstRecorded: '2025-04-03',
+});
+
+UsNS.push({
+    name: 'Richland County Rental Scam Uses Real Estate Lockboxes to Fake Legitimacy',
+    slug: 'south-carolina-richland-county-lockbox-rental-scam',
+    description: `The Richland County Sheriff's Department, covering the Columbia, South Carolina area, warned residents in September 2026 about a rental scam with an unusually convincing twist: scammers advertise properties they don't own or manage and collect deposits or rent from victims, but in some cases also provide the victim a working code or app that opens the real property's own real-estate lockbox, letting them physically retrieve a key and walk through the home. Because the victim can genuinely tour or even move into the property, the scam feels far more legitimate than a typical fake listing — the Sheriff's Department stressed that "access to the house does NOT mean the person renting it to you has the right to do so." The South Carolina Department of Consumer Affairs separately confirms unauthorized access to property owners' email accounts and lockboxes as one of the state's recurring rental-fraud methods. Renters are advised to independently verify who actually owns or manages a property — through the county property records office or a title search — before paying any deposit or rent, regardless of whether the person offering the rental can grant physical access to the home, and to report suspected rental fraud to the Richland County Sheriff's Department at 803-576-3000 or the South Carolina Department of Consumer Affairs.`,
+    categorySlug: 'rental-housing',
+    alertLevel: 'medium',
+    sources: ['Richland County Sheriff\'s Department', 'South Carolina Department of Consumer Affairs'],
+    sourceUrl: 'https://countryherald.com/south-carolina/columbia/richland-county-sc-renters-warned-of-fake-home-listings',
+    country: 'US',
+    state: 'SC',
+    firstRecorded: '2026-09-01',
+});
