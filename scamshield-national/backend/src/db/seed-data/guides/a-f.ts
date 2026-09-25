@@ -112,6 +112,7 @@ Before sending any money, insist on seeing the unit in person or via a live vide
     author: 'ScamShield Editorial',
     tags: ['guide', 'ai-voice-cloning'],
     coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Smartphone_in_Hand_(Unsplash).jpg?width=1200',
+    coverImageCredit: 'Photo: NeONBRAND, via Unsplash (CC0)',
     coverImagePosition: 50,
     // representative photo — replace with an exact match if found
     sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2023/03/scammers-use-ai-enhance-their-family-emergency-schemes',
@@ -354,10 +355,9 @@ If you've attended one of these seminars and felt pressured, or already invested
     title: 'Courier Fraud: When a Stranger Comes to Your Door to Collect Your Bank Card or Cash',
     slug: 'courier-fraud-card-cash-collection-scam-guide',
     author: 'ScamShield Editorial',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Woman_holding_credit_card_closeup.jpg?width=1200',
-    coverImageCredit: 'Photo: Nenad Stojković, CC BY 2.0, via Wikimedia Commons',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/A_Courier_Delivering_a_Parcel.jpg?width=1200',
+    coverImageCredit: 'Photo: Meanwell Packaging, via Flickr (CC BY 2.0)',
     coverImagePosition: 50,
-    // representative photo — replace with an exact match if found
     tags: ['guide', 'courier-fraud'],
     sourceUrl: 'https://www.ic3.gov/PSA/2024/PSA240129',
     body: `Most tech support scams end with a request to buy a gift card or wire money. Courier fraud goes several steps further, and asks for something far more direct: a physical handover. It typically starts the same way most tech support scams do — a pop-up or phone call claims your computer has been hacked — but instead of stopping there, the caller transfers you to someone posing as a bank fraud investigator, and finally to someone posing as a federal government official, each one reinforcing that your money is at risk and needs to be "protected."
