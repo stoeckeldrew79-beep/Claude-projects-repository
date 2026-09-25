@@ -10068,3 +10068,42 @@ UsGM.push({
     state: 'KY',
     firstRecorded: '2024-11-20',
 });
+
+UsGM.push({
+    name: 'Idaho "Evolving Imposter" Reverse Stop-Payment Bank Fraud',
+    slug: 'idaho-evolving-imposter-reverse-stop-payment-scam',
+    description: `The Idaho Department of Finance warned on September 10, 2025 about an "evolving" imposter scheme that flips the usual advance-fee script on its head: scammers posing as romantic partners, employers, or investment professionals on dating apps, job sites, and social media build trust with a victim, then offer to send the victim money as a show of good faith — training funds for a crypto "investment," or an advance on a new job. To receive it, the victim is asked to link their bank account by providing routing and account numbers and confirming small verification micro-deposits. Once the account is linked, the scammer talks the victim into sending a large payment back "by mistake" or to cover an urgent need — then places a stop-payment on their own original transfer within the standard two-business-day window, so the money the victim believed had cleared into their account never actually settles. The victim is left having sent real money out while the money that appeared to come in vanishes, often compounded by overdraft fees on top of the loss. The Department of Finance's guidance is to never share bank routing and account numbers with someone met only online or over the phone, to treat any unsolicited offer to "test" a bank account with a deposit as a red flag regardless of how legitimate the reason sounds, and to wait for a transfer to fully and irreversibly clear — not just appear as an available balance — before sending any money back to anyone.`,
+    categorySlug: 'fake-check-overpayment',
+    alertLevel: 'medium',
+    sources: ['Idaho Department of Finance'],
+    sourceUrl: 'https://www.finance.idaho.gov/wp-content/uploads/about/press-releases/documents/2025/2025-DOF-PR-Consumer-Advisory-Imposter-Scams.pdf',
+    country: 'US',
+    state: 'ID',
+    firstRecorded: '2025-09-10',
+});
+
+UsGM.push({
+    name: 'Pocatello AI-Enhanced "Virtual Kidnapping" Ransom Scam',
+    slug: 'idaho-pocatello-virtual-kidnapping-ransom-scam',
+    description: `The Pocatello Police Department warned residents on September 12, 2025 after receiving multiple reports — three tied to a single suspect calling from a local phone number — of callers falsely claiming affiliation with a criminal cartel and alleging they had kidnapped a family member, often described as a juvenile, then demanding an immediate ransom payment. No actual kidnapping had occurred in any of the reported cases. The department specifically flagged that scammers "may be using artificial intelligence technology to generate fake images, videos, and audio recordings" of the supposed victim to make the fabricated claim more convincing, a technical escalation of the older "grandparent in jail" and family-emergency call scripts already common nationwide. Police urged anyone who receives a call like this not to send money or share personal information, and instead to immediately try to reach the family member the caller claims to have taken through another line, and to call the Pocatello Police Department directly at 208-234-6100 to verify before doing anything else. The department is actively working to trace the phone numbers behind these calls and asked residents to share the warning within their communities.`,
+    categorySlug: 'family-emergency-scams',
+    alertLevel: 'high',
+    sources: ['Pocatello Police Department'],
+    sourceUrl: 'https://pocatello.gov/m/newsflash/home/detail/2381',
+    country: 'US',
+    state: 'ID',
+    firstRecorded: '2025-09-12',
+});
+
+UsGM.push({
+    name: 'Idaho AG Warning on the "764" Online Sextortion Network Targeting Children',
+    slug: 'idaho-ag-labrador-764-sextortion-network-warning',
+    description: `Idaho Attorney General Raúl Labrador issued a consumer alert on May 16, 2025 warning parents about "764," an FBI-designated online network that grooms and blackmails children between roughly ages 9 and 17 into producing sexually explicit material, then escalates to threats of exposure, self-harm coercion, and further extortion once a child complies. The alert cited 15 reports made to Idaho's Internet Crimes Against Children Task Force in April 2025 alone, part of more than 250 open FBI investigations into the network nationally, and identified Discord, Telegram, and Roblox as common platforms where initial contact is made before predators move conversations to more private channels. Labrador's office stressed that 764 operates as a loosely organized, decentralized network rather than a single group or website, making it harder for parents to recognize by platform alone, and urged families to have direct conversations with children about online grooming tactics, to regularly review who children are communicating with across every app and game they use, and to report suspected contact immediately to local law enforcement or the FBI's tip line at tips.fbi.gov rather than letting a frightened child try to handle a blackmailer's demands alone.`,
+    categorySlug: 'sextortion',
+    alertLevel: 'critical',
+    sources: ['Idaho Attorney General\'s Office'],
+    sourceUrl: 'https://www.ag.idaho.gov/newsroom/ag-labrador-cautions-parents-about-online-sextortion-network-targeting-children/',
+    country: 'US',
+    state: 'ID',
+    firstRecorded: '2025-05-16',
+});
