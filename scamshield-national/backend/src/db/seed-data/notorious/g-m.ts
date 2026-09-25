@@ -10856,6 +10856,9 @@ Vasiljević's legal reckoning took nearly two decades to arrive, and even then d
 
 Jugoskandik's significance lies less in its size than in its timing and its afterlife. It was among the first of the wartime pyramid banks that flourished across Serbia and the broader former Yugoslavia in the early 1990s — a pattern that recurred, on a larger scale, with Dafiment Bank the following year — showing how the collapse of formal, sanctioned banking created space for private schemes to present themselves as patriotic financial lifelines rather than obvious frauds. And its ending illustrates a subtler failure mode than a simple guilty verdict or a clean escape: a fugitive who spent years evading prosecution helped manufacture the very delay that, once he was finally tried, let the clock itself void his conviction — justice arriving on paper, and then dissolving on a technicality created largely by the time he'd spent running from it.`,
     sourceUrl: 'https://www.csmonitor.com/1993/0319/19031.html',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Panorama_Belgrad.jpg?width=1200',
+    coverImageCredit: 'Photo: ZlatanJovanovic (CC BY 3.0) — Belgrade, Serbia, where Jugoskandik was based',
+    coverImagePosition: 50,
     // representative photo — replace with a portrait if found
 });
 
@@ -10872,5 +10875,8 @@ Kyrgyzstan's interim government, led by Roza Otunbaeva, declared AUB insolvent a
 
 Nadel has never served a day of either sentence. He resurfaced in the United Kingdom under a legally changed name, Michael Strogonov — his mother's maiden name — and, according to corporate filings, helped found and later advised a UK-registered payments company, Dzing Finance Ltd, while splitting his time between Tel Aviv and Britain and maintaining through his lawyers that the AUB transfers were entirely legal. The case stands as a stark illustration of how a systemically important bank — one holding a quarter of a small country's entire banking assets — can be captured as a personal and political cash-extraction vehicle by the people who own and run it, and how a handful of chaotic days during a revolution were enough to move nearly half a billion dollars permanently out of reach of the courts that would later convict the man who moved it.`,
     sourceUrl: 'https://www.rferl.org/a/former_kyrgyz_banker_sentenced_in_absentia/3550975.html',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Bishkek_City.jpg?width=1200',
+    coverImageCredit: 'Photo: Gislus, 2008 (CC BY-SA) — Bishkek, Kyrgyzstan, where AsiaUniversalBank was based',
+    coverImagePosition: 50,
     // representative photo — replace with a portrait if found
 });
