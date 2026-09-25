@@ -9587,3 +9587,29 @@ UsNS.push({
     sourceUrl: "https://www.finra.org/investors/insights/investment-group-imposter-scams",
     country: "US",
 });
+
+UsNS.push({
+    name: 'Fake USCIS "Immigration Officer" Facebook Green Card Scam',
+    slug: 'northern-mariana-islands-facebook-fake-immigration-officer-green-card-scam',
+    description: `A Saipan case illustrates a scam distinct from the CNMI's well-documented employer-side labor-recruitment fraud cases: a man identified only as Adrian Munoz, contacted through Facebook, told Lorna R. Maramba — a 64-year-old Philippine national whose CNMI-Only Transitional Worker (CW-1) visa had expired back in 2020 — that he worked as a USCIS immigration officer and could "fix" her immigration status. Munoz produced two laminated Permanent Resident ("green") cards, one black-and-white and one in color, each carrying different biographical details, mismatched USCIS numbers, and blurred or distorted photos, and Maramba wired him $2,000 in exchange. When she tried to leave Saipan for Hawaii through Francisco C. Ada/Saipan International Airport on January 21, 2026, CBP officers caught the fraudulent cards during outbound inspection; Maramba pleaded guilty on February 13, 2026 to possessing a false identification document with intent to defraud the United States, and the Saipan Immigration Court ordered her removed to the Philippines. The case is a reminder that USCIS never resolves immigration status or issues real green cards through a private individual contacted on social media — legitimate Permanent Resident Cards come only directly from USCIS — and that anyone approached online by someone claiming they can bypass normal immigration processing for a fee should report the contact to USCIS and the FBI rather than paying.`,
+    categorySlug: 'government-impersonation',
+    sources: ['Public Radio Guam (KPRG)', "U.S. Attorney's Office, Districts of Guam and the Northern Mariana Islands", 'Marianas Variety'],
+    sourceUrl: 'https://www.islapublic.org/news/2026-02-15/saipan-woman-pleads-guilty-to-possessing-fake-green-card',
+    country: 'US',
+    state: 'MP',
+    firstRecorded: '2026-01-21',
+});
+
+UsNS.push({
+    name: 'FBI San Juan "Desolate Location" Special-Agent Impersonation Scam Targeting Dentists',
+    slug: 'puerto-rico-fbi-san-juan-dental-agent-impersonation-scam',
+    description: `The FBI's San Juan Division White Collar Crimes squad issued a scam alert on September 4, 2020 after learning a caller was impersonating an FBI Special Agent to target dental health professionals across Puerto Rico. The caller spoofed the displayed phone number to make it look like the call was coming from the island's dental Examiners Board (Junta Examinadora), identified himself as an FBI agent working jointly with the Board on a fraud investigation, and told the dentist their cooperation was required. He then gave a specific date, time, and place for an in-person "interview" and instructed the victim to come alone to an isolated, desolate location — a detail the FBI flagged as especially dangerous, since it strips away the witnesses and public setting that would otherwise deter an in-person robbery, assault, or worse. At the time of the alert the FBI said the caller's ultimate purpose was still unknown, and urged any dental professional who receives a similar call to refuse the demand, never go anywhere alone to meet an unsolicited caller, and report the contact immediately to FBI San Juan rather than to any callback number the caller supplies.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Federal Bureau of Investigation (FBI), San Juan Field Office'],
+    sourceUrl: 'https://www.fbi.gov/contact-us/field-offices/sanjuan/news/press-releases/fbi-san-juan-issues-scam-alert',
+    country: 'US',
+    state: 'PR',
+    isHistorical: true,
+    firstRecorded: '2020-09-04',
+});

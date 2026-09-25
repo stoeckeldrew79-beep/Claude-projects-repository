@@ -20683,6 +20683,38 @@ International.push(
     sourceUrl: 'https://www.comoresinfos.net/escroquerie-a-grande-echelle-la-sonelec-alerte-sur-les-agissements-dibrahim-abdallah-le-faussaire-de-confiance/',
     country: 'KM',
   },
+  {
+    name: 'Fake E-Commerce Store Impersonation Scam',
+    slug: 'sa-fake-ecommerce-store-impersonation-scam',
+    description: `Saudi Arabia's Ministry of Commerce documented a wave of fraudulent e-commerce websites impersonating trusted retailers and exploiting the country's own government branding to lure shoppers, renewing its warning to the public on April 1, 2021 after its monitoring teams uncovered 184 fraudulent links spread across dozens of fake stores, on top of a Chinese-operated storefront network it had already blocked. The fake sites typically use random, throwaway web addresses, are reachable only by email rather than a phone number or physical address, advertise almost exclusively through Twitter, Snapchat, and TikTok promotions, and display Arabic text and Saudi riyal pricing alongside cloned product photos and discounts steeper than the same items sell for on legitimate international sites — details designed to look local and trustworthy rather than like an anonymous overseas storefront. The scale of the risk was illustrated when Saudi real-estate trainer Naif Al-Jaweeni lost SR26,000 ($6,932) in just eight minutes after responding to a fraudulent email impersonating Saudi Post, tracing the loss back to a Danish-registered site called "Kiosk Bien"; after he went public with his story, other Saudis contacted him reporting a combined SR60,000 in similar losses from the same pattern. The ministry advises shoppers to copy any online store's commercial registration number and check it against the Ministry of Commerce's own database before paying, to avoid stores promoted only through social media ads with no verifiable storefront, and to report suspected fraud through the mci.gov.sa/C-app, the 1900 hotline, or the ministry's official website rather than attempting to resolve it directly with the seller.`,
+    categorySlug: 'online-shopping-scams',
+    sources: ['Ministry of Commerce (Saudi Arabia)', 'Arab News'],
+    sourceUrl: 'https://www.arabnews.com/node/1835416/saudi-arabia',
+    country: 'SA',
+    isHistorical: true,
+    firstRecorded: '2021-04-01',
+  },
+  {
+    name: 'Unlicensed Forex "Quick Profit" Trading Scam',
+    slug: 'sa-unlicensed-forex-quick-profit-trading-scam',
+    description: `Saudi Arabia's Standing Committee for Awareness and Warning of Unlicensed Forex Activity — a joint body drawing on the Capital Market Authority, the Ministry of Interior, the Ministry of Information, the Ministry of Commerce, and the Saudi Central Bank (SAMA) — issued a public alert on July 15, 2020 describing how unlicensed forex and digital-currency trading operators build false legitimacy before taking victims' money. The committee found operators misusing the logos of real government agencies and private companies, fabricating statements falsely attributed to government officials and public figures, planting fake news items showing officials appearing to "endorse" registration, copying the branding of real newspapers and commercial websites, and buying social-media promotions and influencer endorsements — all to make an unlicensed trading scheme look government-approved before ever asking for money. Once a victim clicked through, they were led to a page collecting personal and financial information under the promise of "quick financial gains," a pattern regulators say has helped drain more than SR38 billion (roughly $10.13 billion) from Saudi investors over five years, with operators offering credit facilities and leverage advertised as high as 700 percent before liquidating client funds and disappearing; in one case highlighted by authorities, a lawyer paid SR10,000 after being promised a 30 percent profit and later discovered the platform was fraudulent. The committee urges the public to invest only through entities licensed and supervised by CMA or SAMA, to treat any promise of outsized, fast returns as a warning sign rather than an opportunity, and to report suspicious investment solicitations to the relevant regulator instead of engaging with the offer.`,
+    categorySlug: 'investment-fraud',
+    sources: ['Saudi Central Bank (SAMA)', 'Capital Market Authority (Saudi Arabia)', 'Arab News'],
+    sourceUrl: 'https://www.sama.gov.sa/en-US/MediaCenter/News/pages/news-590.aspx',
+    country: 'SA',
+    isHistorical: true,
+    firstRecorded: '2020-07-15',
+  },
+  {
+    name: 'Fake "Digital Identity" Business Data-Harvesting Platforms',
+    slug: 'sa-fake-digital-identity-business-data-harvesting-scam',
+    description: `Saudi Arabia's Ministry of Commerce warned business owners on August 8, 2026 about a rising wave of unverified websites and platforms marketing themselves as official "digital identity preservation" services for commercial establishments, cautioning that a platform's use of a government-style logo or name is, on its own, no proof it has any real government connection. The fraudulent platforms solicit and consolidate an establishment's full commercial and financial profile in one place — commercial registration numbers, tax identification numbers, national address details, contact information, bank account and IBAN numbers, and supporting documents and attachments — data that, once pooled outside any regulated channel, the ministry said leaves businesses exposed to "misuse... or sharing it with third parties" whenever the platform's legal status and data-handling practices can't actually be verified. The ministry stressed that its own legitimate services are accessed only through verified official government channels, and it urged businesses to confirm both the identity of any entity requesting their data and the specific legal basis it claims for collecting and processing that data before uploading anything, to never hand over passwords, verification codes, or banking credentials to such a platform regardless of how official it looks, and to decline any request for more data than a stated service genuinely requires. Businesses that encounter one of these platforms are directed to report it through the ministry's official channels, including the unified 1900 number, rather than continuing to interact with it.`,
+    categorySlug: 'identity-theft',
+    sources: ['Ministry of Commerce (Saudi Arabia)', 'Ajel'],
+    sourceUrl: 'https://ajel.sa/local/a47gxlspw',
+    country: 'SA',
+    firstRecorded: '2026-08-08',
+  },
 );
 
 International.push({

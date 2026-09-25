@@ -10344,3 +10344,15 @@ UsAF.push({
     sourceUrl: 'https://www.trmlabs.com/resources/blog/fake-ai-trading-bots-are-getting-victims-to-build-their-own-drainers',
     country: 'US',
 });
+
+UsAF.push({
+    name: 'American Samoa Telecommunications Authority Forged-Check Retail Cashing Scheme',
+    slug: 'american-samoa-astca-forged-check-retail-cashing-scheme',
+    description: `American Samoa Department of Public Safety investigators say two Tafuna-area men, Cleighton Maiava, 32, and Faletoi Misiluti, 34, ran a low-tech but effective forged-check scheme in August 2026 by using a free online check-printing template to fabricate checks bearing the American Samoa Telecommunications Authority (ASTCA) as the "company" name on the header, then filling in Maiava's own bank account and routing numbers along with fictitious dollar amounts. The pair printed the checks on plain paper at the library of Lupelele Elementary School and walked them straight to nearby ZL Mart in Iliili, cashing a $475 check on August 25 and a $350 check on August 27 — both accepted by clerks with no way to verify the check against an actual ASTCA account — then used the same $475 check a second time at Manu'a's Store on August 28 to buy a bicycle, collecting cash change each time. Affidavits filed September 15, 2026 charged both men with stealing, forgery, and passing bad checks, with bail set at $50,000 apiece. The case shows how a free online check-generator template can fabricate a convincing company check from scratch — no stolen checkbook or insider bank access required — and is a reminder for island retailers to decline unfamiliar third-party "employer" checks from customers they don't know, or to call the named company directly at an independently looked-up number before handing back cash.`,
+    categorySlug: 'fake-check-overpayment',
+    sources: ['Samoa News', 'American Samoa Department of Public Safety'],
+    sourceUrl: 'https://www.samoanews.com/local-news/two-men-arrested-allegedly-cashing-forged-astca-checks',
+    country: 'US',
+    state: 'AS',
+    firstRecorded: '2026-08-25',
+});
