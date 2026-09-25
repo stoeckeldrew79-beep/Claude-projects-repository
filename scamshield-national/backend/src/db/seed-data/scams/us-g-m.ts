@@ -10130,3 +10130,41 @@ UsGM.push({
     country: "US",
     state: "AZ",
 });
+
+UsGM.push({
+    name: 'Kentucky Crypto ATM Cash Feeding Scheme Prompts New State Law',
+    slug: 'kentucky-crypto-atm-cash-feeding-scheme',
+    description: `Kentucky has more than 400 cryptocurrency ATM kiosks installed in gas stations and grocery stores statewide, and the FBI's Louisville Field Office says scammers increasingly exploit them by keeping a victim on the phone — while posing as a government agency, tech support, or a romantic interest — and walking them step by step through withdrawing cash and feeding it into a kiosk, converting it to Bitcoin that's sent directly to the scammer's wallet with no way to reverse the transfer once it clears. FBI Louisville Special Agent Chris Cantrell said AI-generated voices and messages are making the romance and "family emergency" pretexts that funnel victims toward these kiosks more convincing than ever. Kentuckians lost more than $120 million to fraud and scams in 2025, with Kentuckians age 60 and older alone accounting for over $60 million of that total. In response, Kentucky's legislature passed Senate Bill 189, which takes effect April 30, 2027 and will cap daily transactions at crypto kiosks at $2,000, impose a waiting period for first-time users, and require kiosk operators to be licensed in the state. Anyone instructed over the phone to withdraw cash and deposit it into a cryptocurrency ATM should treat that instruction alone as confirmation of a scam — no legitimate agency, bank, or romantic partner ever directs payment this way — and can report losses to the FBI's Internet Crime Complaint Center at ic3.gov.`,
+    categorySlug: 'cryptocurrency-scams',
+    alertLevel: 'high',
+    sources: ['FBI Louisville Field Office', 'Spectrum News 1 Louisville', 'AARP Kentucky'],
+    sourceUrl: 'https://spectrumnews1.com/ky/louisville/news/2026/06/16/fbi-elder-abuse-scams',
+    country: 'US',
+    state: 'KY',
+});
+
+UsGM.push({
+    name: '"$250 Kentucky Survey Reward" Smishing Text Scam',
+    slug: 'kentucky-250-survey-reward-smishing-scam',
+    description: `Team Kentucky's Stop Scams initiative issued an alert on November 7, 2025 warning residents about an unsolicited, unidentified text message promising $250 for completing a "survey," which links to a page designed to harvest a recipient's name, date of birth, home address, Social Security number, and banking details under the guise of validating or delivering the reward. The alert, relayed through Kentucky county government channels including Boyle County's, instructed recipients not to click the embedded link, to delete the message, and to report it as junk rather than reply to unsubscribe — replying at all confirms to the sender that the number is active and invites further targeting. The reward-for-survey pretext is designed to feel lower-pressure than a typical urgent scam text, which is exactly what makes it effective: the "prize" framing invites the recipient to volunteer sensitive information themselves rather than having to be pressured into handing it over. Suspected scam texts can be reported to StopScams.ky.gov or forwarded to 7726 (SPAM) with most carriers.`,
+    categorySlug: 'phishing',
+    alertLevel: 'medium',
+    sources: ['Team Kentucky Stop Scams', 'Boyle County, Kentucky Government'],
+    sourceUrl: 'https://www.boylecountyky.gov/m/newsflash/Home/Detail/131',
+    country: 'US',
+    state: 'KY',
+    firstRecorded: '2025-11-07',
+});
+
+UsGM.push({
+    name: 'LG&E and KU Utility Worker Impersonation Scam',
+    slug: 'kentucky-lge-ku-utility-worker-impersonation-scam',
+    description: `Louisville Gas & Electric and Kentucky Utilities — Kentucky's two largest utility providers — warned around the industry's "Utility Scam Awareness Day" that imposters posing as company representatives have been requesting access to customers' meters, asking to view utility bills, and making unsolicited in-person visits to homes and businesses, with some scammers using the utility's name to try to sell unrelated products like solar panels. The companies stressed that legitimate LG&E and KU representatives never demand immediate payment by phone, threaten same-day disconnection, request payment by gift card or prepaid debit card, or ask for sensitive financial information over the phone or at the door. Both utilities partner with the national Utilities United Against Scams coalition, which works with law enforcement to shut down the phone numbers scammers use to impersonate utility companies nationwide. Customers unsure whether a caller or visitor is legitimate are advised to hang up or close the door and call the number printed on their actual bill to verify, rather than a number or link provided by the person claiming to represent the utility.`,
+    categorySlug: 'utility-scams',
+    alertLevel: 'medium',
+    sources: ['The Lane Report', 'Louisville Gas & Electric', 'Kentucky Utilities'],
+    sourceUrl: 'https://www.lanereport.com/177798/2024/11/scammers-getting-bolder-in-their-attempts-to-take-advantage-of-utility-customers/',
+    country: 'US',
+    state: 'KY',
+    firstRecorded: '2024-11-20',
+});
