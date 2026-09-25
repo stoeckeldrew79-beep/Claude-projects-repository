@@ -10117,3 +10117,16 @@ UsGM.push({
     state: 'MD',
     firstRecorded: '2025-04-01',
 });
+
+UsGM.push({
+    name: "MV Realty \"Homeowner Benefit Program\" Hidden-Lien Scheme",
+    slug: "mv-realty-homeowner-benefit-program-hidden-lien-scheme",
+    description:
+      "Arizona Attorney General Kris Mayes sued MV Realty and its affiliated entities and officers for a predatory scheme that paid financially stressed homeowners a small amount of cash up front in exchange for what the state says was a 40-year encumbrance on their home. Telemarketers used purchased third-party data to cold call homeowners, refused to identify the company, and pushed people into the \"Homeowner Benefit Program\" without disclosing that a lien-like \"Memorandum\" would be recorded against the property, that heirs would be bound, or that a large Early Termination Fee would apply. Homeowners later found they could not sell or transfer their homes without paying thousands of dollars. The AG's office believes more than 1,500 Arizona homeowners were affected, and the suit was brought under the Arizona Consumer Fraud Act and the state's telephone solicitation statutes. Never sign a real estate agreement pitched over an unsolicited phone call, have a lawyer review anything that touches your home's title, and check your county recorder's records for unexpected memorandums or liens.",
+    categorySlug: "mortgage-foreclosure-scams",
+    alertLevel: "high",
+    sources: ["Arizona Attorney General's Office press release"],
+    sourceUrl: "https://www.azag.gov/press-release/attorney-general-mayes-sues-mv-realty-predatory-scheme-targeting-financially",
+    country: "US",
+    state: "AZ",
+});

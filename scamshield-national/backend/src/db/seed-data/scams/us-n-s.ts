@@ -9678,3 +9678,29 @@ UsNS.push({
     state: 'SD',
     firstRecorded: '2024-01-05',
 });
+
+UsNS.push({
+    name: "Scottsdale Affinity Fraud Targeting Christian Investors (TRS Pureflix)",
+    slug: "scottsdale-affinity-fraud-targeting-christian-investors-trs-pureflix",
+    description:
+      "The Arizona Corporation Commission found that former securities salesman Robert Steven Swagger of Scottsdale, together with TRS Pureflix, LLC and TRS Companies, LLC, committed securities fraud by soliciting investors for media projects through a faith-based affinity pitch. Regulators determined that Swagger diverted money meant for those media ventures into personal expenses. Swagger and the two companies were ordered jointly and severally to pay $202,000 in restitution plus a $25,000 administrative penalty, and his wife Terri Lynne Swagger was ordered to pay $10,000 in restitution as a controlling person of TRS Pureflix, LLC. Affinity fraud works by using shared faith or community membership to short-circuit the questions you would normally ask a stranger. Before investing any money, verify the salesperson and the offering with the Arizona Corporation Commission's Securities Division, and treat a shared church or community connection as no substitute for that check.",
+    categorySlug: "investment-fraud",
+    alertLevel: "high",
+    sources: ["Arizona Corporation Commission, Securities Division enforcement announcement, November 19, 2025"],
+    sourceUrl: "https://www.azcc.gov/news/home/2025/11/19/scottsdale-man-targeted-christian-investors--commits-securities-fraud",
+    country: "US",
+    state: "AZ",
+});
+
+UsNS.push({
+    name: "Reliant Income Properties Fictitious Real Estate Investment",
+    slug: "reliant-income-properties-fictitious-real-estate-investment",
+    description:
+      "The Arizona Corporation Commission ordered Gary Martin of Phoenix and his company Reliant Income Properties, LLC to pay $25,000 in restitution and a $10,000 administrative penalty for selling unregistered securities tied to a real estate investment that did not exist. The Commission found that Martin told an investor that Reliant owned tenanted property producing an income stream that would generate returns, when in fact the company had no real estate, no assets, and no income. The pitch was persuasive because it fit Arizona's hot housing market: buy a share of already-rented, cash-flowing property with no development risk and immediate yield. Neither Martin nor the offering was registered to sell investments in Arizona, so there was no public paper trail an investor could check without contacting the Commission. Before wiring money into any real estate deal, confirm the seller's registration with the Arizona Corporation Commission's Securities Division and demand independent proof of property ownership, leases, and rent receipts.",
+    categorySlug: "investment-fraud",
+    alertLevel: "high",
+    sources: ["Arizona Corporation Commission open meeting decisions, April 22, 2025 (Docket S-21345A-24-0271)"],
+    sourceUrl: "https://azcc.gov/news/home/2025/04/24/april-22--2025-open-meeting-highlights",
+    country: "US",
+    state: "AZ",
+});
