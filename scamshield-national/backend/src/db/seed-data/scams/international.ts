@@ -22143,3 +22143,33 @@ International.push({
   sourceUrl: 'https://infoerdve.lt/en/via-lietuva-perspeja-vairuotojus-sms-zinutes-apie-baudas-yra-sukciu-pinkles/',
   country: 'LT',
 });
+
+International.push({
+  name: 'Fake QR-Code "Quishing" Scam on Parking Meters',
+  slug: 'belgium-fake-qr-code-parking-meter-quishing-scam',
+  description: `Belgian police forces across the country — from Brussels to Bruges, Ghent, Ostend, and Ypres — have repeatedly warned of "quishing": fraudsters sticking a counterfeit QR-code sticker directly over the genuine one on a public parking meter, so a driver paying for parking is instead routed to a lookalike payment page that harvests card numbers and banking credentials. VRT NWS reported that on June 24, 2026, an alert parking attendant in Ypres discovered fake QR-code stickers less than a week old on the town's meters, timed, the mayor suggested, to catch visitors in town for the Ypres Rally who wouldn't recognize the normal payment process; a near-identical sticker turned up the same week in Ostend, and Brussels and Bruges police have logged similar clusters — one in Bruges spanning 17 separate machines — since late 2024. Victims who scan the fake code are typically asked to "pay" an inflated fee (one flagged page demanded €10, well above the local rate) by entering full card details on a page built to mimic the real parking operator's site. Anyone who has scanned and paid through such a code is advised to block their card immediately via Card Stop and file a police report, to check a code before trusting it (feeling for a stuck-on sticker's raised edge, or verifying the resulting web address), and to report suspicious codes to suspect@safeonweb.be.`,
+  categorySlug: 'qr-code-scams',
+  sources: ['VRT NWS', 'Local Police (Ypres, Bruges, Brussels, Ghent, Ostend)', 'Safeonweb'],
+  sourceUrl: 'https://www.vrt.be/vrtnws/nl/2026/06/24/valse-qr-codes-op-parkeerautomaten-ieper/',
+  country: 'BE',
+});
+
+International.push({
+  name: 'FSMA-Flagged "AI Investment" Trading Platform Fraud',
+  slug: 'belgium-fsma-ai-investment-platform-fraud',
+  description: `Belgium's Financial Services and Markets Authority (FSMA) warned on May 15, 2025 of a growing wave of fraudulent online trading platforms that market themselves specifically around artificial intelligence, promising an "AI-driven algorithm" can turn a deposit as small as €250 into fast, outsized profits. Victims are recruited through fake celebrity-endorsed ads, unsolicited WhatsApp, SMS or Telegram messages, or slick "AI investment" websites; once they deposit funds, the platform's dashboard displays fabricated running profits while the operators call repeatedly, dangle limited-time bonuses, and pressure the victim into depositing progressively larger sums. When a victim tries to withdraw money, the platform invents a fee, tax, or verification charge that must be paid first, and ultimately disappears with everything deposited; the FSMA's alert named 29 such platforms then circulating, including AIO Markets, Megacix, DaxFinances, and clones impersonating real firms such as Interactive Brokers. The FSMA, which maintains a public blacklist of platforms confirmed to be operating unlawfully in Belgium, advises checking any such platform against that list before depositing anything, stopping all further payments and contacting one's bank immediately if money has already been sent, and watching for a second-wave "asset recovery" scam that targets the same victims again by promising, for an upfront fee, to get the lost funds back.`,
+  categorySlug: 'investment-fraud',
+  sources: ['FSMA (Financial Services and Markets Authority)'],
+  sourceUrl: 'https://www.fsma.be/en/warnings/invest-ai-and-become-rich-250-euros-beware-fraud',
+  country: 'BE',
+});
+
+International.push({
+  name: 'Home-Repair "Hersteldiensten" Bait-and-Switch Overcharge Fraud',
+  slug: 'belgium-home-repair-service-overcharge-fraud',
+  description: `FOD Economie (Belgium's federal economy ministry) reported on August 14, 2026 that complaints about fraudulent home-repair services — plumbers, electricians, heating technicians, and roofers hired urgently after a burst pipe, electrical fault, or storm damage — had nearly doubled year over year, from 1,068 reports in 2024 to 2,031 in 2025, with a further 1,134 logged in just the first half of 2026. The pattern: a "technician" reachable through an ad or cold call quotes an attractively low callout price, such as €150, over the phone, then, once on site and the immediate problem exposed, presents a wildly inflated final bill — commonly €900 to €1,200 or more — for supposedly necessary extra work, banking on the homeowner's urgency and reluctance to argue mid-repair. FOD Economie nearly tripled its inspections in 2025 (280, up from 93 in 2024), which turned up 1,276 violations, and has published and blocked 77 fraudulent repair-service websites, redirecting visitors to a warning page. The ministry's advice is to always get a full written estimate — covering labor, parts, and travel costs — before work begins, to be wary of unusually low initial quotes, to compare several providers rather than accept the first one available, to never sign a blank form or pay in full on the spot, and to report suspected fraud through the ConsumerConnect service.`,
+  categorySlug: 'home-improvement-solar',
+  sources: ['FOD Economie (Belgian Federal Public Service Economy)'],
+  sourceUrl: 'https://news.economie.fgov.be/269011-meldingen-over-hersteldiensten-blijven-stijgen',
+  country: 'BE',
+});
