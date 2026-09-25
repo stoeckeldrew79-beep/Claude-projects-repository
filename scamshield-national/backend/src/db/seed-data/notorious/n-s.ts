@@ -7552,5 +7552,8 @@ In November 2022, a special court in Tamil Nadu convicted Kapoor over the theft 
 
 Kapoor's case is a reminder that "provenance" functions in the art and antiquities trade exactly the way an audited financial statement functions in a Ponzi scheme — a piece of paper investors, curators, and buyers are trained to trust instead of independently verifying, and one just as easy to forge. For decades, major museums with expert curatorial staff accepted Kapoor's documentation on a dealer's reputation alone, never asking why a "long-held family collection" kept producing temple bronzes that matched, item for item, sites being actively looted halfway around the world. The scale of the eventual recovery — thousands of objects, tens of millions of dollars, institutions on three continents — shows how far a single trusted supplier can embed stolen goods into the legitimate market before anyone thinks to check the paper trail against the ground it came from.`,
   sourceUrl: 'https://manhattanda.org/d-a-bragg-returns-307-stolen-antiquities-to-the-people-of-india/',
+  coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Shiva_Nataraja,_Tamil_Nadu,_India,_Chola_dynasty,_1000s_AD,_bronze_-_Dallas_Museum_of_Art_-_DSC05064.jpg?width=1200',
+  coverImageCredit: 'Photo: Daderot (CC0) — a legitimately-held Chola bronze Nataraja, the sculpture type Kapoor looted; not the stolen artifact itself',
+  coverImagePosition: 50,
   // representative photo — replace with a portrait if found
 });
