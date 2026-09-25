@@ -9613,3 +9613,29 @@ UsNS.push({
     isHistorical: true,
     firstRecorded: '2020-09-04',
 });
+
+UsNS.push({
+    name: "Hermit's Peak/Calf Canyon Fire FEMA Impersonation and Contractor Fraud",
+    slug: 'new-mexico-hermits-peak-calf-canyon-fire-fema-impersonation-scam',
+    description: `In the aftermath of the 2022 Hermit's Peak/Calf Canyon Fire — the largest wildfire in New Mexico history, sparked by two escaped U.S. Forest Service prescribed burns near Las Vegas, NM — FEMA and New Mexico Attorney General Hector Balderas warned that scammers were targeting survivors applying through the federally run Hermit's Peak/Calf Canyon Claims Office. Callers posing as FEMA employees or claims-office contractors use publicly available information about fire and flood victims to extract Social Security numbers, while others pose as disaster-recovery contractors who collect upfront payment for repairs before doing substandard work or vanishing. FEMA spokeswoman Deborah Martinez noted genuine FEMA staff always carry a visible photo ID with the FEMA logo, and the agency urges anyone contacted to verify credentials at one of the physical claims offices in Santa Fe, Las Vegas, or Mora, or call the FEMA fraud hotline at 866-223-0814 before providing any information or payment.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['FEMA', 'New Mexico Attorney General', 'Santa Fe New Mexican'],
+    sourceUrl: 'https://www.santafenewmexican.com/news/local_news/fema-warns-of-scams-over-hermits-peak-calf-canyon-fire/article_3e583cda-104d-11ee-9e6a-1be7e5f9cbdd.html',
+    country: 'US',
+    state: 'NM',
+});
+
+UsNS.push({
+    name: 'New Mexico SNAP/EBT Card Skimming Scam',
+    slug: 'new-mexico-snap-ebt-card-skimming-scam',
+    description: `New Mexico's Human Services Department (now the Health Care Authority) issued back-to-back 2023 alerts after criminals planted physical skimming devices on card readers at New Mexico grocery stores, capturing SNAP recipients' EBT card numbers and PINs at checkout. A skimmer placed May 25 and discovered June 22 on a reader at the Smith's Food and Drug on N. Main Street in Los Lunas compromised roughly 488 SNAP households' benefits; a second skimmer, installed June 24 and found July 5 at Jerry's Market in Albuquerque, hit an additional, undisclosed number of accounts. In both cases stolen card data was used to drain benefits through unauthorized purchases or withdrawals, often before the account holder noticed a lowered balance. HSD urged SNAP customers to monitor their balance through the ebtEDGE app, change their PIN at least monthly and avoid predictable numbers, visually inspect card readers before swiping, and report any suspected theft within 30 days — benefits stolen since October 2022 were eligible for restoration within about 10 days of a verified claim.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'high',
+    sources: ['New Mexico Health Care Authority'],
+    sourceUrl: 'https://www.hca.nm.gov/2023/07/13/snap-benefit-ebt-cards-hacked-in-los-lunas-n-m/',
+    country: 'US',
+    state: 'NM',
+    isHistorical: true,
+    firstRecorded: '2023-05-25',
+});

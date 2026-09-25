@@ -10001,3 +10001,42 @@ UsGM.push({
     country: 'US',
     state: 'ME',
 });
+
+UsGM.push({
+    name: 'District Court of Guam Jury Duty / Fake Arrest Warrant Scam',
+    slug: 'guam-district-court-jury-duty-arrest-warrant-scam',
+    description: `Scammers call or email Guam residents claiming they missed a jury-duty summons and now face arrest unless they pay a fine immediately — sometimes producing a fraudulent "arrest warrant" document or a fake online juror questionnaire to add credibility. Callers impersonate U.S. Marshals or court officers, demand Social Security numbers, dates of birth, maiden names, or credit card details, and push payment by prepaid debit card or wire transfer. The District Court of Guam has publicly warned that it never solicits payment or personal information this way by phone or email, and directs anyone contacted to verify through its Clerk's Office at (671) 969-4500 rather than comply.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['U.S. District Court of Guam', 'The Guam Daily Post (postguam.com)'],
+    sourceUrl: 'https://www.gud.uscourts.gov/warning-jury-scams',
+    country: 'US',
+    state: 'GU',
+});
+
+UsGM.push({
+    name: 'Bank of Guam Spoofed-Number Vishing and Phishing Scheme',
+    slug: 'bank-of-guam-vishing-phishing-spoofed-number-scam',
+    description: `In May 2024, Bank of Guam publicly warned customers that fraudsters were spoofing the bank's real customer-service line, (671) 472-5300, so caller ID displays the bank's legitimate number, while also sending emails from addresses closely mimicking the bank's own domain. The calls and messages ask customers to "verify" account numbers, online banking passwords, Social Security numbers, and other sensitive data — information the bank says it will never request unless the customer initiated contact first. Bank of Guam urged anyone contacted this way to hang up and independently call (671) 472-5300 rather than trust the number shown on their phone.`,
+    categorySlug: 'phishing',
+    alertLevel: 'medium',
+    sources: ['Bank of Guam', 'KUAM News'],
+    sourceUrl: 'https://www.kuam.com/story/50826049/bank-of-guam-alerts-customers-on-recent-vishing-and-phishing-scheme',
+    country: 'US',
+    state: 'GU',
+    isHistorical: true,
+    firstRecorded: '2024-05-23',
+});
+
+UsGM.push({
+    name: 'DeWitt Guam Impersonation Used-Car Deposit Scam',
+    slug: 'guam-dewitt-impersonation-used-car-deposit-scam',
+    description: `Scammers posted fake used-vehicle listings on Craigslist and other classified sites under names invented to sound like real, established Guam businesses — including "DeWitt Guam Car Mover's and Escrow Service" — luring buyers, including off-island shoppers and military families arranging a move to Guam, into wiring or depositing $1,000 or more to "hold" or ship a vehicle that never existed. DeWitt Guam, the real company being impersonated, published a public alert stating it does not sell used cars online and warned buyers to independently verify any seller, avoid wiring money to unverified escrow accounts, and treat below-market prices as a red flag.`,
+    categorySlug: 'online-shopping-scams',
+    sources: ['DeWitt Guam'],
+    sourceUrl: 'https://www.dewittguam.com/scam-alert-used-car-scam/',
+    country: 'US',
+    state: 'GU',
+    isHistorical: true,
+    firstRecorded: '2017-01-01',
+});
