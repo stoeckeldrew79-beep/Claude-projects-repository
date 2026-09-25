@@ -10148,3 +10148,15 @@ UsAF.push({
     state: 'AS',
     firstRecorded: '2026-08-25',
 });
+
+UsAF.push({
+    name: 'Counterfeit Ozempic Pens in the Legitimate Pharmacy Supply Chain',
+    slug: 'counterfeit-ozempic-pens-supply-chain',
+    description: `Counterfeit Ozempic (semaglutide) pens have repeatedly entered the legitimate U.S. pharmacy supply chain, not just sketchy websites — the FDA has issued warnings in December 2023, April 2025, and December 2025, each tied to a different fake lot number distributed outside Novo Nordisk's authorized channels. Testing on the 2023 counterfeits found the injection needles themselves were also fake, raising infection risk, meaning even a patient filling a prescription at a real, state-licensed pharmacy could unknowingly receive a counterfeit unit if that pharmacy purchased outside its authorized distributor. Consumers can check small label details against FDA's published images — on the December 2025 batch (lot PAR1229), the "EXP/LOT" text sits to the left of the expiration date instead of above it, as on an authentic pen — and should report anything that looks different to their pharmacist and to FDA MedWatch.`,
+    categorySlug: 'healthcare-fraud',
+    alertLevel: 'medium',
+    sources: ['U.S. Food and Drug Administration (FDA)', 'Novo Nordisk'],
+    sourceUrl: 'https://www.fda.gov/drugs/drug-alerts-and-statements/fda-warns-consumers-not-use-counterfeit-ozempic-semaglutide-found-us-drug-supply-chain',
+    country: 'US',
+    firstRecorded: '2023-12-21',
+});
