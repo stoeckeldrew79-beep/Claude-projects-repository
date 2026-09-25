@@ -3331,3 +3331,20 @@ The Nodus Bank case is a reminder that self-dealing and sanctions evasion aren't
     coverImagePosition: 50,
     // representative photo — replace with a portrait if found
 });
+
+NotoriousTZ.push({
+    title: 'William E. Cooper and the First Pension Corporation Fraud That Looted Retirement Savers\' Accounts',
+    slug: 'william-cooper-first-pension-corporation-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical', 'securities-fraud'],
+    body: `William E. Cooper co-founded First Pension Corporation and an affiliated brokerage, Vestcorp Securities, in Southern California in the early 1980s, marketing them to a specific niche: individuals and small businesses who wanted to hold real-estate investments inside self-directed IRAs, Keogh plans, and small pension accounts. Real-estate limited partnerships sold through Vestcorp promised steady returns built on second- and third-mortgage lending to borrowers who couldn't get conventional financing — a genuinely higher-risk, higher-yield niche that could have been run honestly, and for a while looked like it was.
+
+It wasn't. As the underlying mortgage borrowers increasingly defaulted, Cooper and his partners, Robert E. Lindley and Valerie Jensen, hid the mounting losses from investors rather than disclose them, and began pooling investor assets together in ways that obscured which retirement account actually owned what — a structure that also should have required SEC registration as securities, which the defendants never obtained. Older partnership interests were effectively propped up using new investor money and misrepresented account statements, the same fundamental sleight-of-hand that defines a Ponzi scheme, dressed up as a specialty pension-investment product aimed at buyers who trusted the "retirement account" framing to imply a level of safety and oversight that was never actually there.
+
+By the time regulators and a court-appointed receiver stepped in during the mid-1990s, the SEC's civil complaint alleged that First Pension and Vestcorp had raised approximately $99 million from investors by selling limited-partnership interests in real estate, through material misrepresentations and omissions about how the money was used and where investor returns actually came from, spanning transactions from 1981 to 1994 — losses that fell on ordinary savers who had no way to independently verify what their self-directed retirement account actually held. A federal receiver was appointed over First Pension and its related entities, and the SEC obtained permanent injunctions against Cooper, Lindley, and Jensen, along with a disgorgement order against relief defendant Sandee Russell requiring her to return roughly $217,000.
+
+Criminally, Cooper, Lindley, and Jensen were charged with mail fraud and pleaded guilty on August 1, 1994. The district court sentenced Cooper to 120 months in federal prison, Lindley to 108 months, and Jensen to 51 months, and entered a joint-and-several restitution order against the three of $73,127,020. Cooper and Lindley separately challenged their sentences on appeal; the Ninth Circuit affirmed the sentencing calculations in 1996.
+
+The case is a reminder that "self-directed" retirement products carry real diligence burdens: the tax-advantaged wrapper of an IRA or Keogh account says nothing about whether the investment inside it is sound, registered, or even what it claims to be, and a promoter who controls both the pitch and the account statements can hide a collapsing pool of retirement savings for well over a decade before anyone with regulatory authority catches up to it.`,
+    sourceUrl: 'https://www.sec.gov/files/litigation/litreleases/lr14948.txt',
+});
