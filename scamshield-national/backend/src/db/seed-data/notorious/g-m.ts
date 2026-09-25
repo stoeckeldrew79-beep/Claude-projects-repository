@@ -10858,3 +10858,19 @@ Jugoskandik's significance lies less in its size than in its timing and its afte
     sourceUrl: 'https://www.csmonitor.com/1993/0319/19031.html',
     // representative photo — replace with a portrait if found
 });
+
+NotoriousGM.push({
+    title: 'Mikhail Nadel and the $465 Million Emptying of Kyrgyzstan\'s Largest Bank',
+    slug: 'mikhail-nadel-asianuniversalbank-kyrgyzstan-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'international', 'banking-fraud', 'money-laundering', 'fugitive'],
+    body: `Mikhail Nadel, a Russian businessman, bought a small Kyrgyz banking subsidiary in 1999 for just $150,000 and built it into AsiaUniversalBank (AUB), by the late 2000s the largest financial institution in Kyrgyzstan, holding roughly a quarter of the entire national banking system's assets and deposits across some 90 branches. Behind that scale, according to Kyrgyz prosecutors and later investigative reporting, AUB functioned as a personal and political vehicle: Nadel ran it in close partnership with Maxim Bakiyev, son of then-president Kurmanbek Bakiyev, who chaired the state's Kyrgyz Development Fund, and the bank became a preferred channel for moving money tied to the Bakiyev family's business and political interests both inside Kyrgyzstan and abroad.
+
+The arrangement collapsed along with the regime that protected it. In April 2010, a violent popular uprising drove Kurmanbek Bakiyev from power and into exile; Maxim Bakiyev fled the country as well. In the middle of that same week of unrest — April 2 through April 7, 2010 — Nadel oversaw the transfer of $465.18 million out of AUB to banks abroad, according to the criminal case later built against him, effectively draining the bank of a substantial share of its assets at the exact moment its political patrons were losing their grip on the country.
+
+Kyrgyzstan's interim government, led by Roza Otunbaeva, declared AUB insolvent and nationalized it on June 7, 2010. Investigators subsequently found that Nadel had also failed to pay roughly $264,000 in taxes before leaving the country the year before the transfers. He was convicted in absentia in 2011 and sentenced to 16 years, and in February 2015 Bishkek's Pervomaisky District Court convicted him again, on money-laundering and complicity charges, with his combined sentences across the proceedings reported at 30 years and an order for confiscation of his property. Italian police arrested Nadel at the Val Gardena ski resort in 2014 on the strength of the Kyrgyz case, but released him after 12 days rather than extradite him, citing documented concerns about torture in the Kyrgyz penal system.
+
+Nadel has never served a day of either sentence. He resurfaced in the United Kingdom under a legally changed name, Michael Strogonov — his mother's maiden name — and, according to corporate filings, helped found and later advised a UK-registered payments company, Dzing Finance Ltd, while splitting his time between Tel Aviv and Britain and maintaining through his lawyers that the AUB transfers were entirely legal. The case stands as a stark illustration of how a systemically important bank — one holding a quarter of a small country's entire banking assets — can be captured as a personal and political cash-extraction vehicle by the people who own and run it, and how a handful of chaotic days during a revolution were enough to move nearly half a billion dollars permanently out of reach of the courts that would later convict the man who moved it.`,
+    sourceUrl: 'https://www.rferl.org/a/former_kyrgyz_banker_sentenced_in_absentia/3550975.html',
+    // representative photo — replace with a portrait if found
+});
