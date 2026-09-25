@@ -4936,7 +4936,6 @@ GuidesNS.push({
     coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Petco_store.JPG?width=1200',
     coverImageCredit: 'Photo: Micov (CC BY 3.0) — a Petco storefront, the retailer named in this 2025 data breach disclosure',
     coverImagePosition: 50,
-    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.foxnews.com/tech/petco-confirms-major-data-breach-involving-customer-data',
     body: `Petco, the national pet-supply retailer, disclosed in mid-December 2025 that a misconfigured setting in one of its own software applications had inadvertently made certain customer files accessible on the open internet. The company has said it confirmed the issue on December 9, 2025, and filed notices with the attorneys general of California, Massachusetts, and Montana shortly after. Unlike most breaches covered here, this one didn't start with a hacker breaking in, a phishing email, or a ransomware gang — it started with a configuration error that left files sitting somewhere they should never have been reachable without a password at all.
 
@@ -5112,6 +5111,10 @@ GuidesNS.push({
   author: `ScamShield Editorial`,
   tags: [`guide`, `power-of-attorney-abuse`, `elder-financial-exploitation`],
   sourceUrl: `https://www.consumerfinance.gov/consumer-tools/managing-someone-elses-money/`,
+  coverImage: `https://commons.wikimedia.org/wiki/Special:FilePath/Legal_Contract_%26_Signature_-_Warm_Tones.jpg?width=1200`,
+  coverImageCredit: `Photo: Blogtrepreneur (CC BY 2.0)`,
+  coverImagePosition: 50,
+  // representative photo — replace with an exact match if found
   body: `A power of attorney is one of the most common documents in estate planning: a person (the "principal") signs paperwork naming someone else — an "agent," sometimes called an "attorney-in-fact" — to make financial decisions on their behalf, from paying bills and managing bank accounts to selling property or filing taxes. Unlike a guardianship or conservatorship, which a court orders only after a judge finds someone can no longer manage their own affairs, a power of attorney is a private arrangement the principal chooses and signs themselves, usually while still fully competent, as a just-in-case measure for a future illness or decline. A "durable" power of attorney is written specifically to remain valid even after the principal becomes incapacitated, which is exactly what makes it useful for aging parents or ill family members — and exactly what makes it dangerous once nobody is checking how the agent is actually using it.
 
 That lack of oversight is the whole mechanism. A guardian typically has to file periodic accountings with a court; an agent under a power of attorney generally does not, unless a bank or a state statute specifically requires it, and even then enforcement is inconsistent. The agent is almost always someone the principal already trusts — an adult child, another relative, a caregiver, sometimes a new "friend" — which is precisely why bank staff, other relatives, and even the principal's own doctor may see nothing unusual about the arrangement. The Consumer Financial Protection Bureau has described the pattern directly, citing cases as simple as a son with power of attorney "frittering away his mother's money at liquor stores and casinos" instead of using it for her benefit. Under most states' law and the Uniform Power of Attorney Act, an agent owes the principal a fiduciary duty — to act in the principal's best interest, avoid conflicts of interest, and keep the principal's money separate from their own — but because no court checks that duty is being honored, a breach can run for months or years before anyone notices.
