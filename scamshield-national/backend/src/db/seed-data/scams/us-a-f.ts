@@ -10160,3 +10160,42 @@ UsAF.push({
     country: 'US',
     firstRecorded: '2023-12-21',
 });
+
+UsAF.push({
+    name: 'Labcorp/AMCA Data Breach Multistate Settlement',
+    slug: 'labcorp-amca-data-breach-multistate-settlement',
+    description: `On September 24, 2026, Delaware Attorney General Kathy Jennings announced Delaware's share of a $2.3 million multistate settlement with Laboratory Corporation of America (Labcorp) over a 2019 data breach at its debt collector, American Medical Collection Agency (AMCA), that exposed personal information belonging to 27.5 million people nationwide — including 10.2 million Labcorp patients and 115,250 Delaware residents. The settlement forces Labcorp to overhaul vendor-management practices, including incident-response protocols and third-party security reviews before sharing patient data with a collector again; Delaware's Consumer Protection Fund receives $30,135. Jennings said "the responsibility to manage and protect consumers' sensitive personal information cannot be outsourced." Delaware residents who used Labcorp testing before 2019 should watch for breach-notification mail, check credit reports for unfamiliar medical-debt entries, and consider a credit freeze.`,
+    categorySlug: 'data-breach-scams',
+    alertLevel: 'medium',
+    sources: ['Delaware Department of Justice', 'Office of Attorney General Kathy Jennings'],
+    sourceUrl: 'https://news.delaware.gov/2026/09/24/ag-jennings-announces-2-3-million-multistate-settlement-with-labcorp-over-amca-data-breach/',
+    country: 'US',
+    state: 'DE',
+    firstRecorded: '2026-09-24',
+});
+
+UsAF.push({
+    name: 'Liberty Mutual False Insurance Discount Advertising Penalty',
+    slug: 'liberty-mutual-false-insurance-discount-advertising-penalty',
+    description: `The Delaware Department of Insurance fined three Liberty Mutual-affiliated insurers (Liberty Insurance Corporation, Liberty Mutual Personal Insurance Company, and LM Insurance Corporation) $300,000 on April 14, 2025 — with another $200,000 held in reserve if conduct doesn't improve — after finding they advertised discounts to Delaware policyholders that Delaware law didn't actually make available. Regulators found a nonexistent "claims free" discount listed on 31,696 homeowners declaration pages and safety-feature auto discounts (adaptive cruise control, lane-departure warning, etc.) falsely advertised on 8,110 policies — 39,806 false statements in total, at companies writing over $59.7 million in annual Delaware premiums — the companies' second such violation after a 2018–2021 probe found nearly 35,000 similar false claims. Delaware policyholders should ask their agent in writing exactly which discounts apply to their policy and compare their own declarations page against the discounts actually advertised, rather than assuming a discount was applied.`,
+    categorySlug: 'insurance-fraud',
+    alertLevel: 'low',
+    sources: ['Delaware Department of Insurance'],
+    sourceUrl: 'https://news.delaware.gov/2025/04/14/liberty-mutual-pays-300000-penalty-for-misleading-consumers/',
+    country: 'US',
+    state: 'DE',
+    firstRecorded: '2025-04-14',
+});
+
+UsAF.push({
+    name: 'Delaware Division of Revenue "Tax Processing Unit" Fraudulent Letter Scam',
+    slug: 'delaware-division-of-revenue-tax-processing-unit-letter-scam',
+    description: `The Delaware Division of Revenue warned on August 9, 2024 about fraudulent mailed letters, styled to look official and signed from a "Tax Processing Unit," that falsely claim the recipient owes back taxes and threaten property seizure or wage garnishment unless they call a toll-free number and pay immediately. The letters include taxpayer-specific details pulled from public records to look convincing, but the Division never demands immediate phone payment; Director Kathy Revel said the mailings are "increasingly targeting individuals with fake notices that appear to be from legitimate Delaware tax authorities." Recipients should not call the number printed on the letter and should instead verify any real balance through tax.delaware.gov or by calling (302) 577-8200, option 3, then report the letter to the Delaware Department of Justice Consumer Protection Unit.`,
+    categorySlug: 'tax-scams',
+    alertLevel: 'high',
+    sources: ['Delaware Department of Finance, Division of Revenue'],
+    sourceUrl: 'https://news.delaware.gov/2024/08/09/scam-alert-division-of-revenue-warns-taxpayers-of-fraudulent-letters/',
+    country: 'US',
+    state: 'DE',
+    firstRecorded: '2024-08-09',
+});
