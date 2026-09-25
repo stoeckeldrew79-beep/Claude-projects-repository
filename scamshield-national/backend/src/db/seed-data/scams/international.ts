@@ -22173,3 +22173,38 @@ International.push({
   sourceUrl: 'https://news.economie.fgov.be/269011-meldingen-over-hersteldiensten-blijven-stijgen',
   country: 'BE',
 });
+
+International.push({
+  name: 'Fake Superintendencia Financiera Loan and Credit Card Phone Scam',
+  slug: 'colombia-sfc-impersonation-loan-phone-scam',
+  description: `On September 10, 2026, Colombia's Superintendencia Financiera (SFC) issued a public alert after criminals began cold-calling consumers while posing as SFC officials, using the regulator's name to build instant credibility before pitching a credit card, loan, or other financial product the agency does not actually offer. The SFC stated plainly that it does not offer, process, or manage any credit or savings product itself, and warned that no legitimate lender requires a borrower to deposit, wire, or hand over money before a loan is disbursed. Consumers who get such a call are told never to share account numbers, passwords, or balances, and to be suspicious of any loan promising fast approval with minimal paperwork. The SFC directs anyone targeted to verify a caller's identity through its own official channels rather than trusting the call.`,
+  categorySlug: 'government-impersonation',
+  alertLevel: 'medium',
+  sources: ['Superintendencia Financiera de Colombia (SFC)', 'Semana', 'HSB Noticias'],
+  sourceUrl: 'https://www.superfinanciera.gov.co/publicaciones/10116250/alerta-no-se-deje-enganar-la-superintendencia-financiera-no-ofrece-tarjetas-de-credito-creditos-o-cualquier-otro-producto-o-servicio-financiero/',
+  country: 'CO',
+  firstRecorded: '2026-09-10',
+});
+
+International.push({
+  name: 'Amor y Amistad Fake Online Gift Store Scams',
+  slug: 'colombia-amor-y-amistad-fake-online-store-scam',
+  description: `Colombia's national police cyber unit (DIJIN's Centro Cibernético Policial) issued a public alert on September 19, 2026 — the country's Amor y Amistad ("Love and Friendship") holiday — warning that fraud rings ramp up fake online stores each year to cash in on gift-buying for the occasion. Scammers advertise flowers, surprise breakfasts, perfumes, farmhouse rentals, and travel packages at steep 50–70% discounts through social media posts and text-message links, collect payment upfront, and vanish without delivering anything; police describe the rings as organized networks that split roles among people who build the ads, run the fraudulent sites, and manage the bank accounts receiving the money. In the same briefing, police said they had identified more than 3,600 victims of digital fraud nationwide in 2026 and had recovered roughly 4.8 billion pesos in cryptocurrency tied to fraud cases over the prior year. The alert urges shoppers to type a retailer's web address in directly rather than clicking a link from an unknown number, to be wary of any seller pushing the conversation off-platform onto WhatsApp or Telegram, and to report suspected fraud via the CAI Virtual platform or the police WhatsApp line at 323 273 3411.`,
+  categorySlug: 'online-shopping-scams',
+  alertLevel: 'medium',
+  sources: ['Policía Nacional de Colombia (Centro Cibernético Policial / DIJIN)', 'El País (Cali)', 'Infobae Colombia'],
+  sourceUrl: 'https://www.elpais.com.co/colombia/mas-de-3600-victimas-de-estafa-han-sido-identificadas-en-2026-asi-operan-los-delincuentes-en-amor-y-amistad-1853.html',
+  country: 'CO',
+  firstRecorded: '2026-09-19',
+});
+
+International.push({
+  name: 'Virtual "Gota a Gota" Predatory Loan App Extortion',
+  slug: 'colombia-gota-a-gota-virtual-loan-app-scam',
+  description: `Colombia's Superintendencia Financiera (SFC) maintains a standing consumer alert about "gota a gota virtual" — unlicensed lending apps and web platforms advertised through social media, text messages, and app-store listings that promise fast, low-document loans. To get the loan, an applicant must first accept broad terms that grant the app access to their phone's contacts, photos, and stored data; the SFC warns some operators then use that harvested information to pressure early repayment, charge interest far above what any regulated lender could legally impose, or, in the worst cases, message the borrower's own contacts and circulate their photos to coerce payment. Because many of these apps are run from outside Colombia, the SFC says it often lacks jurisdiction to act directly and instead refers victims to the Fiscalía General de la Nación, the Policía Nacional, or the Superintendencia de Industria y Comercio (SIC). The SFC recommends checking an app's user reviews and ratings before installing it and confirming with the SIC whether a lending platform is legally authorized before downloading it or granting it any permissions.`,
+  categorySlug: 'identity-theft',
+  alertLevel: 'high',
+  sources: ['Superintendencia Financiera de Colombia (SFC)'],
+  sourceUrl: 'https://www.superfinanciera.gov.co/publicaciones/10115253/no-caiga-en-el-gota-a-gota-virtual/',
+  country: 'CO',
+});
