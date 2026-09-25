@@ -10040,3 +10040,42 @@ UsGM.push({
     isHistorical: true,
     firstRecorded: '2017-01-01',
 });
+
+UsGM.push({
+    name: 'Blue Cross Blue Shield of Montana / Conduent Data Breach',
+    slug: 'montana-bcbs-conduent-data-breach',
+    description: `Blue Cross Blue Shield of Montana notified the state's Commissioner of Securities and Insurance in early October 2025 that a cyberattack on its New Jersey-based claims vendor, Conduent Business Services, had exposed the Social Security numbers, birth dates, and medical treatment and billing details of more than 462,000 current and former Montana members — roughly one in three state residents — making it the largest data breach in Montana history. The breach itself ran from October 2024 to January 2025, but Conduent did not finish confirming the scope of exposed data until September 2025, and regulators called the resulting notification gap troubling; the CSI office has since opened an investigation into whether the delay violated state law, which carries penalties of up to $25,000 per violation. Conduent and Blue Cross are offering affected members 12 months of free credit monitoring and identity-theft protection. Anyone who receives a Blue Cross Blue Shield breach notification letter should enroll in that free monitoring, consider a credit freeze with the three bureaus, and watch for follow-up phishing attempts from criminals posing as Blue Cross or Conduent offering to "help" with the breach.`,
+    categorySlug: 'data-breach-scams',
+    alertLevel: 'high',
+    sources: ['Montana Commissioner of Securities and Insurance', 'Daily Montanan'],
+    sourceUrl: 'https://csimt.gov/2025/11/04/data-breach-puts-medical-info-of-462000-blue-cross-blue-shield-montana-customers-at-risk/',
+    country: 'US',
+    state: 'MT',
+    firstRecorded: '2025-11-04',
+});
+
+UsGM.push({
+    name: 'Fake "U.S. District Court of Montana" Jury Duty Warrant Scam',
+    slug: 'montana-us-district-court-jury-duty-warrant-scam',
+    description: `On October 18, 2024, more than 100 Montanans received a voicemail from a caller identifying itself as the "U.S. District Court, District of Montana, Civil Services Division," calling from 406-201-8765 and directing recipients to a fraudulent site, juryservices.org, over a supposed missed jury summons. The U.S. District Court for the District of Montana confirmed the calls were fake and warned that scammers impersonating court officers or U.S. Marshals also use email and text, sometimes citing real judges' names and genuine courthouse addresses, to threaten arrest unless the recipient pays a "fine" immediately with a reloadable debit card or hands over personal information. The real federal court never summons jurors by phone, email, or text and never demands payment to avoid arrest — a genuine jury summons only ever arrives by U.S. mail bearing the court's seal. Anyone contacted this way should hang up or delete the message without engaging and report it to the FTC at reportfraud.ftc.gov or the FCC at 888-225-5322.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['U.S. District Court for the District of Montana'],
+    sourceUrl: 'https://www.mtd.uscourts.gov/jury-scams',
+    country: 'US',
+    state: 'MT',
+    firstRecorded: '2024-10-18',
+});
+
+UsGM.push({
+    name: 'Montana Senior Medicare Patrol Warns of Unneeded Medical-Equipment Billing Scams',
+    slug: 'montana-smp-medicare-durable-medical-equipment-billing-scam',
+    description: `Ahead of Medicare Fraud Prevention Week (June 2–8, 2025), the Montana Senior Medicare Patrol — run locally by Missoula Aging Services — warned that Montana beneficiaries were reporting unrequested, and often undelivered, urinary catheters, genetic test kits, and other durable medical equipment showing up as billed charges on their Medicare Summary Notices, alongside phone calls from scammers asking beneficiaries to "confirm" their Medicare number so the caller could bill for equipment or services never actually received or requested. Medicare fraud costs the federal program an estimated $60 billion a year nationally, and for beneficiaries it can also trigger medical identity theft or complicate their real coverage. Montana SMP urges beneficiaries to read every Medicare Summary Notice or Explanation of Benefits line by line, compare it against a personal log of their actual appointments and services, and never give their Medicare number to an unsolicited caller. Suspected errors or fraud can be reported directly to Montana SMP at 1-800-551-3191.`,
+    categorySlug: 'medicare-health-plans',
+    alertLevel: 'medium',
+    sources: ['Montana Senior Medicare Patrol', 'Missoula Aging Services'],
+    sourceUrl: 'https://www.seeleylake.com/story/2025/06/05/opinion/montana-senior-medicare-patrol-sounds-the-alarm-and-shares-strategies-for-the-public-during-annual-medicare-fraud-prevention-week/11167.html',
+    country: 'US',
+    state: 'MT',
+    firstRecorded: '2025-06-05',
+});
