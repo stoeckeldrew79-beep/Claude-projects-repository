@@ -10240,3 +10240,43 @@ UsGM.push({
     state: 'KS',
     isHistorical: false,
 });
+
+UsGM.push({
+    name: 'Michigan "Investment Romance" (Pig-Butchering) Scam Alert',
+    slug: 'michigan-pig-butchering-investment-romance-scam',
+    description: `Michigan Attorney General Dana Nessel reissued a consumer alert on February 13, 2026, ahead of Valentine's Day, warning about "investment romance scams" — also known as "pig butchering" — run by sophisticated criminal enterprises that contact victims via social media, WhatsApp, dating apps, or a misdirected text posing as an old acquaintance. The scammer builds a romantic relationship over weeks before steering the victim toward a bogus cryptocurrency investment platform, allowing a small early withdrawal to build trust before persuading the victim to invest much larger sums, sometimes hundreds of thousands of dollars, at which point the scammer disappears or demands fake "fees and taxes" to block any withdrawal. Nessel noted she had previously discussed the scam with Arizona AG Kris Mayes on her "Pantsuits and Lawsuits" podcast.`,
+    categorySlug: 'romance-scams',
+    alertLevel: 'medium',
+    sources: ['Michigan Attorney General\'s Office'],
+    sourceUrl: 'https://www.michigan.gov/ag/news/press-releases/2026/02/13/ag-nessel-urges-michiganders-to-be-aware-of-investment-romance-scams-this-valentines-day',
+    country: 'US',
+    state: 'MI',
+    isHistorical: false,
+});
+
+UsGM.push({
+    name: 'Michigan-Based 700Credit LLC Data Breach (Auto Dealership Consumer Data)',
+    slug: 'michigan-700credit-auto-dealership-data-breach',
+    description: `Michigan Attorney General Dana Nessel issued a consumer alert on December 10, 2025 after 700Credit LLC — a Michigan-based company that supplies credit reports and credit checks to auto dealerships nationwide for financing applications — disclosed a cybersecurity incident, discovered October 25, 2025, that compromised names, addresses, Social Security numbers, and dates of birth collected between May and October 2025. The breach affected nearly 6 million individuals nationwide, including more than 160,000 Michiganders, with notice letters mailed starting the week of December 15, 2025. Nessel directed affected residents to place credit freezes, enroll in monitoring, and use the state's Michigan Identity Theft Support (MITS) program.`,
+    categorySlug: 'data-breach-scams',
+    alertLevel: 'high',
+    sources: ['Michigan Attorney General\'s Office'],
+    sourceUrl: 'https://www.michigan.gov/ag/news/press-releases/2025/12/10/nessel-urges-consumers-to-protect-their-personal-information-following-700credit-data-breach',
+    country: 'US',
+    state: 'MI',
+    isHistorical: false,
+    firstRecorded: '2025-12-10',
+});
+
+UsGM.push({
+    name: 'Dearborn Dental Office Manager Charged in Medicaid "Phantom Crown" Fraud Scheme',
+    slug: 'michigan-dearborn-lina-abraham-dental-medicaid-fraud',
+    description: `Michigan Attorney General Dana Nessel announced that Lina Abraham, 41, of Dearborn, was arraigned on September 23, 2026 in 54B District Court on 15 felony counts — one count of conducting a criminal enterprise and 14 counts of Medicaid fraud — for allegedly repeatedly billing Medicaid for dental crowns that were never provided to patients while she was office manager at Dearborn Family Smiles, formerly Artistic Dentistry. The case was referred to the AG's office by Delta Dental and is being handled by the Attorney General's Health Care Fraud Division, Michigan's federally certified Medicaid Fraud Control Unit. The case is still pending, a reminder that Medicaid patients can request an explanation of benefits to check whether a billed procedure actually matches the care they received.`,
+    categorySlug: 'healthcare-fraud',
+    alertLevel: 'medium',
+    sources: ['Michigan Attorney General\'s Office', 'Delta Dental'],
+    sourceUrl: 'https://www.michigan.gov/ag/news/press-releases/2026/09/24/ag-nessel-charges-dental-practice-manager-for-alleged-medicaid-fraud-scheme',
+    country: 'US',
+    state: 'MI',
+    isHistorical: false,
+});
