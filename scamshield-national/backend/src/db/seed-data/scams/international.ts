@@ -20569,6 +20569,30 @@ International.push(
     country: 'HU',
     firstRecorded: '2026-02-25',
   },
+  {
+    name: 'Fake "Kazakh Bride" Dating-App Romance Scam',
+    slug: 'hungary-kazakh-dating-romance-scam',
+    description:
+      'Hungary\'s national police (Rendőrség), through its Matrix crime-prevention project, warned of a recurring romance-scam pattern using fake dating-app profiles posing as attractive women from Kazakhstan seeking to relocate to Hungary, built with photos and falsified documents taken from real people. In one case police documented, a 57-year-old man from Pápa carried on a months-long online relationship with such a profile; once trust was established, the "match" said she lacked money for a plane ticket and visa processing, and the victim wired escalating sums — ultimately more than 2 million forints — before realizing he had been defrauded. Regional media separately reported a related local case in which a man was blackmailed with a manipulated intimate photo after sending it to an online dating contact. Police advise never transferring money or intimate images to an online-only contact, and preserving all chat logs as evidence if victimized.',
+    categorySlug: 'romance-scams',
+    alertLevel: 'medium',
+    sources: ['Hungarian Police (police.hu) — Matrix project'],
+    sourceUrl: 'https://www.police.hu/hu/hirek-es-informaciok/legfrissebb-hireink/matrix-projekt/ujra-tamadnak-a-romantikus-csalok',
+    country: 'HU',
+    isHistorical: false,
+  },
+  {
+    name: 'SHEIN-Branded "Product Review" Task Scam SMS Wave',
+    slug: 'hungary-shein-task-scam-sms',
+    description:
+      'Hungary\'s National Consumer Protection Authority warned of unsolicited SMS messages impersonating the retailer SHEIN and offering "easy online work" such as writing product reviews for pay. The scheme pays out small amounts on the first few completed tasks to build trust, then shifts to demanding upfront payments — described to victims as fees, timing penalties, or "level advancement" costs — before supposedly higher-paying tasks unlock or a withdrawal is released. The authority states the promised final payout never actually arrives and the advance payments are simply lost, and advises consumers not to reply to such messages, share personal data, or trust any "too easy" income offer.',
+    categorySlug: 'job-task-scams',
+    alertLevel: 'medium',
+    sources: ['Nemzeti Kereskedelmi és Fogyasztóvédelmi Hatóság (National Consumer Protection Authority)'],
+    sourceUrl: 'https://nkfh.gov.hu/hirek/uj-online-csalasi-modszer-munkat-igero-sms-ekre-figyelmeztetuenk',
+    country: 'HU',
+    isHistorical: false,
+  },
 );
 
 International.push(
