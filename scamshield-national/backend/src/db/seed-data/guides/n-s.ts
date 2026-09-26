@@ -5129,6 +5129,10 @@ GuidesNS.push({
   slug: `public-adjuster-insurance-claim-scams`,
   author: `ScamShield Editorial`,
   tags: [`guide`, `public-adjuster-scams`],
+  coverImage: `https://commons.wikimedia.org/wiki/Special:FilePath/FEMA_-_2382_-_Photograph_by_Bob_Epstein_taken_on_08-24-1992_in_Florida.jpg?width=1200`,
+  coverImageCredit: `Photo: Bob Epstein / FEMA (public domain) — Hurricane-damaged homes in Florida`,
+  coverImagePosition: 50,
+  // representative photo — replace with an exact match if found
   sourceUrl: `https://myfloridacfo.com/news/pressreleases/press-release-details/2026/04/22/chief-financial-officer-blaise-ingoglia-announces-arrest-of-public-adjuster-after--703-000-theft-in-hurricane-ian-claims-funds`,
   body: `After a major storm, disaster survivors are often approached — sometimes within days of the damage — by a "public adjuster," a licensed professional whose real job is to represent a policyholder's interests against the insurance company, working for a percentage of the eventual claim payout instead of the insurer's salary. Legitimate public adjusters exist precisely because insurance claims are complicated and insurers have their own adjusters working to minimize payouts; a good public adjuster can genuinely get a homeowner more money than they'd have recovered alone. The scam variant exploits that same trust relationship: instead of fighting for a larger payout, the adjuster — or someone posing as one — takes control of the claims process and diverts the money itself.
 
