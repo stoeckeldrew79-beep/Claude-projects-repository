@@ -7629,3 +7629,18 @@ The company suspended payments on May 10, 1866 — a day that became known in Lo
 The Overend Gurney collapse remains one of the foundational case studies in how a trusted institution's name can be used to sell the public on a false picture of its own solvency — and how, more than a century before modern securities-disclosure law, an inadequate prospectus could inflict billions in today's-money losses on ordinary investors and the wider economy while leaving no one legally accountable for it. It is a reminder that "fraud" and "acquittal" are not opposites: a scheme can devastate a financial system and still fall outside what a court, at a given moment in legal history, is willing to call a crime.`,
     sourceUrl: 'https://www.bankofengland.co.uk/-/media/boe/files/quarterly-bulletin/2016/the-demise-of-overend-gurney.pdf',
 });
+
+NotoriousNS.push({
+    title: 'Abu Mohammad Saeed, Jubok, and the MLM Collapse That Cost 350,000 Bangladeshis Their Savings',
+    slug: 'abu-mohammad-saeed-jubok-bangladesh-mlm-collapse',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'ponzi-scheme', 'bangladesh', 'mlm'],
+    body: `Jubok was founded in 1994 by Abu Mohammad Saeed, who marketed it as a multi-level cattle-fattening and dairy cooperative built to serve rural Bangladeshi savers shut out of the formal banking system. Investors were told their money would be pooled into livestock and agricultural ventures and paid out as steady dividends, with additional bonuses for recruiting new members beneath them — a structure that let the company describe itself as a farmers' cooperative while actually functioning as a multi-level Ponzi scheme, using each new wave of deposits to pay the promised returns to earlier investors.
+
+For over a decade, Jubok expanded largely unchecked, eventually drawing in investors across the country — estimates of the total number of victims range from roughly 267,000 to as many as 350,000 depositors, who collectively poured in approximately Tk 2,500 crore (about $350 million at the time). The scale of that reach, built through word-of-mouth recruitment incentives in villages where formal financial literacy and regulatory oversight were both thin, made Jubok one of the largest MLM collapses in Bangladesh's history.
+
+Bangladesh Bank shut the operation down in July 2006 after regulators concluded Jubok had none of the underlying agricultural assets needed to sustain the returns it was paying out — the classic tell of a Ponzi scheme, in which apparent profits are simply redistributed deposits rather than earnings from any real enterprise. The shutdown left hundreds of thousands of depositors, many of them low-income rural savers who had committed a life's worth of savings, with worthless claims against a company that had already spent or diverted the bulk of what it collected.
+
+Accountability has moved at a glacial pace even by the standards of large-scale financial fraud. A criminal case naming roughly 40 Jubok officials was filed in 2014 — eight years after the shutdown — and as of the most recent reporting, that case remained unresolved, with victims still waiting for restitution or a verdict decades after they first invested. The Jubok collapse stands as a stark illustration of how long an MLM-structured fraud can operate in a low-oversight rural market before regulators intervene, and how much longer still it can take for the legal system to hold anyone accountable once it finally collapses.`,
+    sourceUrl: 'https://www.thedailystar.net/business/decade-no-good-news-victims-jubok-scam-1287589',
+});
