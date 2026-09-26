@@ -5774,3 +5774,31 @@ UsTZ.push({
     state: 'VA',
     isHistorical: false,
 });
+
+UsTZ.push({
+    name: 'Black Hills Energy Wyoming Customer Disconnection-Threat Phone Scam',
+    slug: 'wyoming-black-hills-energy-disconnection-phone-scam',
+    description: `Black Hills Energy, which serves Casper, Gillette, Cheyenne, and other Wyoming communities, reported a spike in phone scams in a May 2, 2024 alert in which callers falsely claim a customer's bill is delinquent, threaten immediate service disconnection, and direct the customer to pay through a fraudulent 800-number rather than the utility's real channels. The company stressed it never demands gift-card or wire payment and told customers who receive such a call to hang up and independently call its real customer service line or check their account status directly at blackhillsenergy.com, rather than trusting any number or link the caller provides.`,
+    categorySlug: 'utility-scams',
+    alertLevel: 'medium',
+    sources: ['Black Hills Energy', 'Oil City News'],
+    sourceUrl: 'https://oilcity.news/crime/2024/05/02/phone-scams-targeting-wyoming-black-hills-energy-customers-on-the-rise/',
+    country: 'US',
+    state: 'WY',
+    isHistorical: false,
+    firstRecorded: '2024-05-02',
+});
+
+UsTZ.push({
+    name: 'University of Wyoming QR-Code "WyoLogin" Credential-Phishing Attack',
+    slug: 'wyoming-university-qr-code-wyologin-phishing',
+    description: `University of Wyoming Information Technology described, in an alert published February 5, 2025, a phishing email containing a QR code that led recipients to a counterfeit "WyoLogin" page harvesting their username, password, and phone number. After capturing credentials, the attackers triggered a real Duo two-factor authentication push to the victim's phone while simultaneously texting the victim a fake six-digit code and asking them to relay it back — an "MFA fatigue" technique UWIT stated it would never itself use, since the university "will never text you a passcode to authenticate your DUO Verification." The alert followed an earlier March 2023 university-wide phishing and Duo-approval breach that had already compromised multiple faculty, staff, and student accounts, underscoring that a QR code embedded in an email is just as capable of leading to a credential-harvesting page as a text link, and should be scanned only after independently verifying the sender.`,
+    categorySlug: 'qr-code-scams',
+    alertLevel: 'medium',
+    sources: ['University of Wyoming Information Technology'],
+    sourceUrl: 'https://www.uwyo.edu/infotech/news/articles/archive/2025/phishing_attempts-stay_alert.asp',
+    country: 'US',
+    state: 'WY',
+    isHistorical: false,
+    firstRecorded: '2025-02-05',
+});
