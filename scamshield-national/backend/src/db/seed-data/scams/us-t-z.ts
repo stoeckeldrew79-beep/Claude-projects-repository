@@ -5778,3 +5778,45 @@ UsTZ.push({
     isHistorical: false,
     firstRecorded: '2025-02-05',
 });
+
+UsTZ.push({
+    name: 'Provo Phantom-Employee PPP and Tax Credit Fraud (David Starling and Benjamin Young)',
+    slug: 'utah-provo-starling-young-ppp-tax-credit-fraud',
+    description: `Two Provo, Utah men, David Starling and Benjamin Young, along with an Oregon co-conspirator, ran eight companies that falsely told the IRS they had paid more than $4 million in wages to family members — including a spouse and Young's minor children — listed as employees who never actually worked. The scheme generated more than $5.5 million in fraud: roughly $3 million in bogus employee-retention tax credits and $200,000 in forgiven Paycheck Protection Program loans. Young used the proceeds to buy a $3.5 million commercial property; the Oregon co-conspirator pleaded guilty in May 2026, and the SBA and DOJ announced the indictment of Starling and Young on June 11, 2026. The case is a reminder that both PPP forgiveness and employee-retention credits were built on employer self-certification, which is exactly what let a family member listed as a "phantom employee" pass initial review before an audit ever caught the fabricated payroll.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'medium',
+    sources: ['U.S. Small Business Administration', 'U.S. Department of Justice'],
+    sourceUrl: 'https://legacy.sba.gov/article/2026/06/11/two-utah-men-charged-conspiring-defraud-irs-small-business-administration-55-million',
+    country: 'US',
+    state: 'UT',
+    isHistorical: false,
+    firstRecorded: '2026-06-11',
+});
+
+UsTZ.push({
+    name: 'Layton Cryptocurrency ATM Kiosk Fraud and City Ban',
+    slug: 'utah-layton-crypto-atm-kiosk-fraud-ban',
+    description: `Layton, Utah became the first city in the state to ban cryptocurrency ATM kiosks after its police department documented more than $2 million in fraud losses tied to the city's 18 machines between 2021 and 2025. Officers said scammers posing as law enforcement, bank or credit-union staff, tech-support agents, or online romantic partners routinely pressured victims into feeding cash into the kiosks to convert it into untraceable cryptocurrency. The City Council adopted the ban on March 19, 2026, giving kiosk operators 60 days to remove their machines; nearby Heber City passed a similar ban soon after, becoming the second city in Utah to do so. Anyone told over the phone or by text to withdraw cash and deposit it into a cryptocurrency kiosk to "protect," "verify," or "unfreeze" money should treat that instruction itself as proof of a scam, since no legitimate agency, bank, or utility ever directs a payment that way.`,
+    categorySlug: 'cryptocurrency-scams',
+    alertLevel: 'high',
+    sources: ['Layton City Police Department', 'Standard-Examiner'],
+    sourceUrl: 'https://www.standard.net/news/2026/apr/02/protection-from-scams-layton-city-bans-cryptocurrency-atms-due-to-fraud/',
+    country: 'US',
+    state: 'UT',
+    isHistorical: false,
+    firstRecorded: '2026-03-19',
+});
+
+UsTZ.push({
+    name: 'Riverdale "Cyber-Kidnapping" Extortion of Exchange Student Kai Zhuang',
+    slug: 'utah-riverdale-zhuang-cyber-kidnapping-scam',
+    description: `In December 2023, extortionists convinced 17-year-old Chinese exchange student Kai Zhuang, living in Riverdale, Utah, that his family back in China would be harmed unless he isolated himself and helped stage a fake kidnapping, while separately sending his actual parents a photo implying he had really been abducted. His parents wired the scammers $80,000. Riverdale police, tipped off after Zhuang was seen buying camping gear in Provo, found him alive but freezing in a tent in the Box Elder County mountains near Brigham City on December 31, 2023. Investigators said the extortionists operated from China, limiting U.S. jurisdiction to prosecute the case. Unlike a typical "virtual kidnapping" scam that only threatens a fabricated crisis over the phone, this variant coaches the actual target into physically disappearing and staging evidence of their own abduction — a reminder that any family member suddenly unreachable while a "kidnapper" demands secrecy and payment should be treated as cause to contact police immediately rather than comply alone.`,
+    categorySlug: 'family-emergency-scams',
+    alertLevel: 'high',
+    sources: ['Riverdale Police Department', 'FOX 13 Now'],
+    sourceUrl: 'https://www.fox13now.com/news/local-news/foreign-exchange-student-was-extorted-for-more-than-a-month-before-cyber-kidnapping',
+    country: 'US',
+    state: 'UT',
+    isHistorical: true,
+    firstRecorded: '2023-12-01',
+});
