@@ -10435,3 +10435,37 @@ Ben-Zion served only three years. In September 1977, President Ephraim Katzir pa
 The case endures as an early, stark illustration of a recurring pattern in cross-border banking fraud: a bank's formal home address tells depositors little about who will actually make them whole when the money is gone, and a fraud conviction — however severe on paper — can be undone by a single act of executive clemency years before the underlying losses are ever recovered.`,
     sourceUrl: 'https://www.jta.org/archive/pardon-of-former-bank-official-stirs-political-opposition-anger',
 });
+
+NotoriousAF.push({
+    title: 'Atlantic Computers, the Hidden Flexlease Liabilities, and the Buyout That Sank British & Commonwealth Holdings',
+    slug: 'atlantic-computers-flexlease-british-commonwealth-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['accounting-fraud', 'international', 'historical', 'mergers-and-acquisitions'],
+    body: `Atlantic Computers was a British computer-leasing firm, founded in 1975, built around a distinctive product called "Flexlease": customers could upgrade to newer equipment after three years or cancel the lease entirely after five, terms that made the leases attractive to cash-strapped corporate customers during Britain's 1980s technology-leasing boom. On paper, the business looked like a fast-growing, genuinely profitable success story.
+
+In September 1988, British & Commonwealth Holdings — a diversified UK financial-services conglomerate run by chief executive John Gunn — paid £434 million to acquire Atlantic Computers, a bet meant to push the group beyond its traditional financial-services base. Atlantic's own directors misrepresented the company's contingent liabilities during that acquisition process: the Flexlease structure had created enormous hidden obligations, because equipment returned early or upgraded often could not be re-leased or resold for anything close to its book value, and those obligations were never properly reflected in the accounts B&C relied on to price the deal. A later Department of Trade and Industry investigation found that Atlantic Computers had never actually turned a profit at all since its 1975 founding.
+
+The truth surfaced within about eighteen months. By 1990, Atlantic's real liabilities had grown to more than £550 million against a company B&C had just paid £434 million to acquire — a hole large enough to take down the parent alongside it. Atlantic's British operations were placed into administration under PricewaterhouseCoopers on April 18, 1990, its American subsidiary filed for Chapter 11 bankruptcy that July, and British & Commonwealth Holdings — once valued at roughly £1.4 billion — collapsed within days, reportedly leaving debts in the region of £1.5 billion.
+
+The DTI pursued disqualification proceedings against Atlantic's own former directors, who were barred from serving as company directors. B&C's own leadership fared very differently: chief executive John Gunn and finance director Rusty Ashman were separately investigated over an eight-year DTI inquiry, and both men were ultimately cleared by the High Court, which treated B&C as having been deceived by the company it bought rather than complicit in hiding the truth from its own shareholders.
+
+The Atlantic Computers collapse is a distinctive variation on the standard corporate-fraud pattern: rather than a company inflating its own numbers to prop up its stock price for the public market, the deception here was aimed squarely at one sophisticated acquirer during a single acquisition's due-diligence process — and it worked well enough to destroy not just the company that lied, but the much larger conglomerate that believed it was making a safe, diversifying purchase. It's a reminder that even an experienced buyer's own financial sophistication is no defense against a seller who understands exactly what a specific set of contractual terms will end up costing once customers start exercising rights nobody stress-tested for.`,
+    sourceUrl: 'https://en.wikipedia.org/wiki/Atlantic_Computers',
+});
+
+NotoriousAF.push({
+    title: 'John Bairstow and the Queens Moat Houses Fraud That Hid £1 Billion in Losses Behind Fake Hotel Profits',
+    slug: 'john-bairstow-queens-moat-houses-accounting-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['accounting-fraud', 'international', 'historical', 'corporate-governance'],
+    body: `John Bairstow founded Queens Moat Houses in the early 1970s and built it, over two decades, into the United Kingdom's third-largest hotel operator by 1991 — behind only Forte and Mount Charlotte — with around 190 hotels and a peak market value of roughly £900 million. Bairstow ran the company as chairman and dominated a board that a later court would describe as filled with directors of modest ability, including deputy chairman Martin Marcus and finance director Alan Porter.
+
+Behind the growth story, the company had spent as long as two decades quietly fabricating profits, deferring real costs, and overstating the value of its hotel properties — abuses that a subsequent Department of Trade and Industry investigation found escalated into extreme accounting in the company's final reporting year. Queens Moat Houses told the market its 1991 pre-tax profit was around £80-85 million; the figure bore little relation to reality, and the company's outside auditors and merchant bank advisers failed for years to catch it.
+
+The fiction collapsed on March 31, 1993, when trading in the company's shares was suspended. The company went on to restate its results, revealing a loss of more than £1 billion for the year ending December 1992 alone, after writing down hotel properties that had been valued at £2 billion in 1991 by roughly £1.34 billion — and the shares that had once anchored a roughly £900 million company collapsed to a fraction of their former value.
+
+The reckoning took over a decade. A High Court civil action brought by the company against its own former directors found that Bairstow, Marcus, Porter, and finance director David Hersey had each been guilty of gross misconduct and wilful neglect in preparing accounts that did not present a true and fair view of the business. The court disqualified Bairstow from acting as a company director for six years, finding he had been party to thoroughly irresponsible statements about the company's finances even though the judge did not find he had intended to mislead; his former colleagues received separate disqualifications of their own.
+
+Queens Moat Houses remains one of the starkest illustrations of how an autocratic founder-chairman, a compliant board, and auditors treating the annual audit as a formality can let a fraud of fabricated profits and inflated asset values run for the better part of two decades in an industry — hotels — where property valuations are inherently subjective and easy to manipulate on paper long before anyone has to prove them by actually selling the building.`,
+    sourceUrl: 'https://en.wikipedia.org/wiki/Queens_Moat_Houses',
+});
