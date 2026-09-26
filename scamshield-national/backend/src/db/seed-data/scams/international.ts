@@ -22244,3 +22244,40 @@ International.push({
   country: 'LU',
   firstRecorded: '2026-06-03',
 });
+
+International.push({
+  name: 'Luxembourg LuxTrust Migration Phishing Scam',
+  slug: 'luxembourg-luxtrust-migration-phishing',
+  description: `BEE SECURE, Luxembourg's government-backed cybersecurity and consumer-safety body, warned on October 10, 2024 of a rise in fraud attempts exploiting the mandatory migration from LuxTrust's physical authentication tokens to the LuxTrust Mobile app, a deadline that took effect January 1, 2025. Scammers contact residents by email, SMS, phone, or a combination of the three, posing as LuxTrust representatives and asking the victim to "confirm" or hand over their LuxTrust login credentials to complete the switch — access that then lets the fraudster impersonate the victim to reach bank accounts and other services tied to Luxembourg's national digital-identity system. BEE SECURE states plainly that LuxTrust will never ask for these credentials by email, SMS, or phone, and that any migration should only be completed directly through the official luxtrust.com site or by calling LuxTrust's own verified number. Anyone who has already shared credentials is urged to contact their bank and LuxTrust immediately, file a police report, and call the free BEE SECURE Helpline.`,
+  categorySlug: 'phishing',
+  alertLevel: 'medium',
+  sources: ['BEE SECURE (Luxembourg government cybersecurity and consumer-safety service)'],
+  sourceUrl: 'https://www.bee-secure.lu/fr/news/augmentation-des-signalements-descroqueries-liees-a-luxtrust/',
+  country: 'LU',
+  firstRecorded: '2024-10-10',
+});
+
+International.push({
+  name: 'Luxembourg Fake CIRCL/LHC Tech-Support Phone Scam',
+  slug: 'luxembourg-fake-circl-lhc-tech-support-scam',
+  description: `The BEE SECURE Helpline warned on March 17, 2023 of callers using masked or spoofed numbers who claim to be from CIRCL (Computer Incident Response Center Luxembourg) or LHC (Luxembourg House of Cybersecurity) — Luxembourg's own national cybersecurity bodies — telling the victim their computer is riddled with viruses or system errors. The caller then talks the victim into installing remote-access software such as TeamViewer to supposedly "clean" the machine, which instead hands the scammer direct control to demand payment, push subscriptions, harvest banking credentials and one-time codes, or plant malware. BEE SECURE describes it as social engineering that borrows the credibility of Luxembourg's real incident-response agencies, and advises anyone who receives such a call to hang up, never install remote-access software at a cold caller's direction, and — if already compromised — disconnect from the internet, back up data externally, reset the machine, and change all saved passwords before calling the BEE SECURE Helpline or CIRCL directly.`,
+  categorySlug: 'tech-support-scams',
+  alertLevel: 'medium',
+  sources: ['BEE SECURE Helpline, Luxembourg'],
+  sourceUrl: 'https://www.bee-secure.lu/fr/news/larnaque-du-moment-attention-aux-soi-disant-appels-telephoniques-du-circl-et-lhc/',
+  country: 'LU',
+  firstRecorded: '2023-03-17',
+});
+
+International.push({
+  name: 'Caritas Luxembourg €61 Million "CEO Fraud" (Fraude au Président)',
+  slug: 'luxembourg-caritas-ceo-fraud',
+  description: `Caritas Luxembourg, one of the Grand Duchy's largest charities, filed a criminal complaint in July 2024 after discovering it had lost roughly €61 million to a "fraude au président" (CEO fraud) scheme, in which a fraudster impersonating a senior figure at the organization pressured a staff member into bypassing normal authorization procedures to approve what looked like legitimate payments. The Luxembourg public prosecutor's office confirmed in an August 2024 communiqué that the case fits the classic CEO-fraud pattern — a caller or emailer posing as a company leader demanding an urgent, confidential transfer — and investigators traced roughly 8,200 rapid bank transactions moving the stolen funds through accounts abroad, primarily in Spain, with organized cross-border involvement suspected; the person initially suspected of orchestrating the fraud was later determined to have herself been a victim of the impersonation. Luxembourg's financial regulator, the CSSF, separately fined the state-owned bank Spuerkeess nearly €5 million in 2025 over anti-money-laundering control failures tied to the case. The case is one of the largest CEO-fraud losses ever disclosed by a nonprofit, and Luxembourg authorities cite it as a reminder that any request to rush a transfer in secret, from someone claiming executive authority, should be independently verified through a separately obtained contact before any money moves.`,
+  categorySlug: 'business-email-compromise',
+  alertLevel: 'high',
+  sources: ['Parquet de Luxembourg (Luxembourg Public Prosecutor\'s Office)', 'Delano News'],
+  sourceUrl: 'https://justice.public.lu/fr/actualites/2024/08/communique-pl-affaire-caritas-ceo-fraud.html',
+  country: 'LU',
+  isHistorical: true,
+  firstRecorded: '2024-07-19',
+});
