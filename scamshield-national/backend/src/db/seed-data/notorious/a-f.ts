@@ -10409,3 +10409,20 @@ Federal prosecutors indicted Brian and Berentson in September 1995 on a 24-count
 The FNN/UPI case is a reminder that a company doesn't need to be young or obscure to be running on fabricated numbers — FNN had spent nearly a decade training a national television audience to trust its stock tickers and expert commentary while its own chairman was allegedly falsifying the financial statements viewers never saw. It's also a case study in how a fraud used to prop up a failing business can outlive the business itself: FNN vanished from cable dials within months of the fraud coming to light, but its chairman didn't face a jury verdict for another five and a half years — and the network's collapse helped hand CNBC the dominant position in cable business news that it still holds today.`,
     sourceUrl: 'https://en.wikipedia.org/wiki/Earl_Brian',
 });
+
+NotoriousAF.push({
+    title: 'Yehoshua Ben-Zion and the Israel-British Bank Collapse That Cost London Its Faith in a "Bankers\' Bank"',
+    slug: 'yehoshua-ben-zion-israel-british-bank-collapse',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'international', 'historical', 'embezzlement', 'banking-fraud'],
+    body: `Yehoshua Ben-Zion was managing director of the Israel-British Bank, a London-headquartered institution tracing back to a 1929 immigrants' bank in Mandate Palestine that had rebranded several times before settling on its final name in 1965. By the early 1970s it operated branches across Israel and a UK arm that took deposits from thousands of British investors who saw it as an ordinary high-street bank rather than a fragile overseas operation.
+
+The bank collapsed in July 1974, owing British depositors roughly £46.6 million it could not pay. An Israeli investigation that followed found Ben-Zion had systematically diverted bank funds — ultimately some £20 million (about $39.4 million) — into accounts controlled by his wife's family, hiding the true state of the bank's finances from regulators and depositors on both sides of the Mediterranean until the collapse forced everything into the open. The scheme was built less on a single dramatic lie than on years of concealed related-party transfers that left the institution hollowed out from within.
+
+On January 8, 1975, an Israeli court convicted Ben-Zion of embezzlement, sentenced him to 12 years in prison, and imposed a 25-million-Israeli-pound fine — at the time the largest criminal fine an Israeli court had ever levied. The British government, unable to pursue Ben-Zion directly and unwilling to let ordinary depositors absorb the loss, ended up honoring a large share of the bank's obligations to UK customers at a cost of several hundred million pounds to the public purse.
+
+Ben-Zion served only three years. In September 1977, President Ephraim Katzir pardoned him on medical grounds at the urging of Prime Minister Menachem Begin, a decision that triggered a political firestorm: opposition politicians accused Begin of favoritism toward a man who had bankrolled Greater Israel Movement settler activism, and a rival medical assessment publicly disputed the health grounds cited for clemency.
+
+The case endures as an early, stark illustration of a recurring pattern in cross-border banking fraud: a bank's formal home address tells depositors little about who will actually make them whole when the money is gone, and a fraud conviction — however severe on paper — can be undone by a single act of executive clemency years before the underlying losses are ever recovered.`,
+    sourceUrl: 'https://www.jta.org/archive/pardon-of-former-bank-official-stirs-political-opposition-anger',
+});
