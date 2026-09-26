@@ -10340,3 +10340,15 @@ UsGM.push({
     state: 'KS',
     isHistorical: false,
 });
+
+UsGM.push({
+    name: "Investment Club Group Chat Scam",
+    slug: "investment-club-group-chat-scam",
+    description:
+      "Fraudsters run fake \"investment clubs\" in WhatsApp or social media group chats, often after you click an ad or get added to the chat by a stranger. The chat is staffed with scripted fake members who vouch for a supposed guru, professor, or CEO leading the group, and AI-generated \"tips\" are posted to simulate a track record of consistent profits. Once you trust the crowd, you are directed to fund an account on a crypto trading platform that does not actually exist. The SEC has charged three purported crypto trading platforms and four investment clubs with taking more than $14 million from retail investors. Never make investment decisions based on a group chat, and verify any platform or adviser through investor.gov before sending money.",
+    categorySlug: "investment-fraud",
+    alertLevel: "high",
+    sources: ["U.S. Securities and Exchange Commission, Office of Investor Education and Advocacy — Investor Alert","SEC enforcement action against purported crypto trading platforms and investment clubs"],
+    sourceUrl: "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-alerts/gateway-to-investment-scams",
+    country: "US",
+});

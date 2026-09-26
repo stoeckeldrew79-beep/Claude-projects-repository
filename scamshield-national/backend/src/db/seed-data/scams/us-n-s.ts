@@ -9962,3 +9962,16 @@ UsNS.push({
     state: 'NE',
     isHistorical: false,
 });
+
+UsNS.push({
+    name: "Phantom Hacker Three-Phase Retirement Account Scam",
+    slug: "phantom-hacker-three-phase-retirement-account-scam",
+    description:
+      "This scam uses three separate impersonators in sequence, each one vouching for the last. It starts with a text, call, email, or pop-up saying your account has been hacked and telling you to call \"customer support,\" where the scammer has you install remote-access software on your computer. A second caller posing as your bank says a foreign hacker is draining your account and tells you to move your money to a \"safe\" account by wire, cash, or cryptocurrency, and a third caller posing as a federal official sends fake letters or emails to make it look official. It targets retirement and investment balances, and the New York Attorney General says coordinated attacks of this type have taken more than $1 billion from victims at or near retirement age since 2024. Hang up, never install software at a caller's request, and call your bank back using the number on your statement or card.",
+    categorySlug: "tech-support-scams",
+    alertLevel: "critical",
+    sources: ["New York State Attorney General Letitia James — consumer alert, September 10, 2025"],
+    sourceUrl: "https://ag.ny.gov/press-release/2025/attorney-general-james-warns-new-yorkers-three-phase-scam-targeting-seniors",
+    country: "US",
+    state: "NY",
+});
