@@ -10227,3 +10227,16 @@ UsGM.push({
     state: 'HI',
     isHistorical: false,
 });
+
+UsGM.push({
+    name: 'Kansas Fake Courthouse and Attorney Debt Collector Scam',
+    slug: 'kansas-fake-courthouse-attorney-debt-collector-scam',
+    description: `A Kansas resident was contacted by scammers posing as a courthouse official and an attorney, who claimed she owed $13,000 on a debt from a loan taken out roughly 20 years earlier. Over several days the scammers sent official-looking emails with fake notarized documents and pressured her to settle quickly, framing the $13,000 payment as a "good deal" against a threat that the debt would otherwise double — ultimately extracting her banking information and $1,500 before she grew suspicious and could find no legitimate business address for the "collectors." The Better Business Bureau's Josh Planos, describing the scheme, urged consumers to demand written debt validation within five days of any collection contact and to never share banking details over the phone with someone claiming to be a court official or attorney.`,
+    categorySlug: 'legal-debt-collection',
+    alertLevel: 'medium',
+    sources: ['Better Business Bureau', 'KWCH'],
+    sourceUrl: 'https://www.kwch.com/2025/09/26/kansans-almost-lost-13000-classic-debt-collector-scam/',
+    country: 'US',
+    state: 'KS',
+    isHistorical: false,
+});
