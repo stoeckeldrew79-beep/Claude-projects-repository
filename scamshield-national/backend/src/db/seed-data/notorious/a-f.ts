@@ -10381,6 +10381,9 @@ NotoriousAF.push({
     slug: 'comptronix-corporation-accounting-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Guntersville_City_and_Lake_(35108179154).jpg?width=1200',
+    coverImageCredit: 'Photo: formulanone (CC BY-SA 2.0) — Guntersville, Alabama, where Comptronix was headquartered',
     body: `Comptronix Corporation was founded in 1984 in Guntersville, Alabama, by three former SCI Systems engineers — Harvey Pegram, William Hebding, and Allen Shifflett — who built a genuinely useful business: assembling printed circuit boards under contract for personal-computer and medical-equipment makers. It went public on Nasdaq in 1989 under the ticker CMPX, grew into one of Guntersville's largest employers with roughly 1,800 workers across three plants, and impressed Wall Street with growth that looked almost too smooth — sales and profits both climbing more than 40 percent in its first year as a public company, then continuing to rise steadily through the late 1980s and into 1992, even as competitors in the low-margin contract-manufacturing business struggled.
 
 Behind those numbers, according to the SEC, CEO William Hebding, President Allen Shifflett, and Treasurer J. Paul Medlin had been fabricating them since 1989. Rather than tampering with Comptronix's computerized accounting system in ways an auditor might catch, the three men bypassed it almost entirely, hand-entering fictitious figures directly into the company's books — inflating sales, overstating gross profit, and improperly capitalizing ordinary manufacturing costs as long-term assets instead of expensing them, turning a mediocre operation into an apparently thriving one. It worked for more than three years.
@@ -10398,6 +10401,9 @@ NotoriousAF.push({
     slug: 'earl-brian-financial-news-network-upi-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Santa_Monica_Pier_(June_2026).jpg?width=1200',
+    coverImageCredit: 'Photo: Busition (CC BY 4.0) — Santa Monica, where Financial News Network was founded',
     body: `Earl Brian had already lived several careers by the time he became a media mogul. A Duke-trained physician and decorated Vietnam combat surgeon, he served as California's Secretary of Health and Welfare under Governor Ronald Reagan in the early 1970s before moving into business, founding a venture-capital firm called Biotech Capital in 1980 to invest in medical-technology startups. Through that firm, later renamed Infotechnology Inc., Brian built a controlling stake in the Financial News Network (FNN), a Santa Monica-founded, 24-hour cable business channel that by the mid-1980s reached roughly 35 million homes on 3,500 cable systems and pioneered the on-screen stock ticker that later networks like CNBC would make standard. In 1988, Infotechnology used the same acquisitive strategy to buy United Press International, one of only two major American wire services — adding a second marquee media property, and a second set of books, to Brian's growing empire.
 
 Both companies were, in reality, in far worse financial shape than their headlines suggested, and federal prosecutors would later allege that Brian and his chief operating officer, John F. Berentson, worked hard to keep it that way. According to their indictment, the two men lied to Security Pacific and Toronto-Dominion banks in 1989 to obtain $56 million in loans that FNN and UPI needed to keep operating, propping up the numbers behind those loans with fraudulent lease transactions and falsified financial statements, and separately misleading FNN's own outside accountants and the Securities and Exchange Commission about the companies' true condition.
@@ -10415,6 +10421,9 @@ NotoriousAF.push({
     slug: 'yehoshua-ben-zion-israel-british-bank-collapse',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'international', 'historical', 'embezzlement', 'banking-fraud'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/30_St_Mary_Axe_(The_Gherkin),_Central_London.jpg?width=1200',
+    coverImageCredit: 'Photo: Jack Soley (CC BY-SA 4.0) — the City of London financial district, where the Israel-British Bank operated its UK arm',
     body: `Yehoshua Ben-Zion was managing director of the Israel-British Bank, a London-headquartered institution tracing back to a 1929 immigrants' bank in Mandate Palestine that had rebranded several times before settling on its final name in 1965. By the early 1970s it operated branches across Israel and a UK arm that took deposits from thousands of British investors who saw it as an ordinary high-street bank rather than a fragile overseas operation.
 
 The bank collapsed in July 1974, owing British depositors roughly £46.6 million it could not pay. An Israeli investigation that followed found Ben-Zion had systematically diverted bank funds — ultimately some £20 million (about $39.4 million) — into accounts controlled by his wife's family, hiding the true state of the bank's finances from regulators and depositors on both sides of the Mediterranean until the collapse forced everything into the open. The scheme was built less on a single dramatic lie than on years of concealed related-party transfers that left the institution hollowed out from within.
