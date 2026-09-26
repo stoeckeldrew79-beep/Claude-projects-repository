@@ -5709,3 +5709,29 @@ UsTZ.push({
     state: 'WV',
     firstRecorded: '2026-03-04',
 });
+
+UsTZ.push({
+    name: 'Wisconsin OCI "Alternative Health Insurance Plan" Deceptive Marketing Warning',
+    slug: 'wisconsin-oci-alternative-health-plan-scam',
+    description: `The Wisconsin Office of the Commissioner of Insurance (OCI) issued a consumer alert on August 5, 2026 warning residents to be wary of "alternative health insurance plans" marketed as "non-Marketplace plans" or "private health insurance plans" — a category that includes health care sharing organizations, limited partnership health plans, and limited indemnity plans. OCI said instability in the health insurance market has fueled sales pitches that promise coverage "letting you see any provider" while in fact paying only a fixed, capped cash amount per medical event, such as $200 per hospital day, leaving consumers responsible for the rest of a real bill. The alert also flagged multi-level-marketing arrangements that push consumers to become plan "owners" or "employees," and outright fraudulent solicitations by phone, text, and email impersonating legitimate insurers and government agencies to sell these products. OCI urged Wisconsinites to verify any plan and its underwriter before paying and to direct questions or complaints to its consumer hotline.`,
+    categorySlug: 'insurance-fraud',
+    alertLevel: 'medium',
+    sources: ['Wisconsin Office of the Commissioner of Insurance (OCI)'],
+    sourceUrl: 'https://oci.wi.gov/Pages/PressReleases/20260805HealthCoverageAlternatives.aspx',
+    country: 'US',
+    state: 'WI',
+    firstRecorded: '2026-08-05',
+});
+
+UsTZ.push({
+    name: 'Wisconsin DATCP Canvas Data Breach Phishing Scam',
+    slug: 'wisconsin-datcp-canvas-data-breach-phishing-scam',
+    description: `The Wisconsin Department of Agriculture, Trade and Consumer Protection (DATCP) issued a consumer alert on May 14, 2026 after Instructure's Canvas learning management system — used across the Universities of Wisconsin System and K-12 districts such as the Wausau School District — suffered a data breach and outage in early May 2026 that exposed students' names, email addresses, student ID numbers, and in-platform messages. DATCP warned that "when major cyberattacks strike, scammers often follow," impersonating Canvas, law firms, government agencies, or tech support in deceptive emails and texts demanding personal information under the guise of breach remediation. DATCP recommended changing passwords on the affected account and any account reusing the same password, enabling multi-factor authentication, placing a free credit freeze with the three national credit bureaus, and reporting suspected scams to its Consumer Protection Hotline.`,
+    categorySlug: 'data-breach-scams',
+    alertLevel: 'medium',
+    sources: ['Wisconsin Department of Agriculture, Trade and Consumer Protection (DATCP)'],
+    sourceUrl: 'https://datcp.wi.gov/Pages/News_Media/20260514ConsumerAlertCanvasDataBreach.aspx',
+    country: 'US',
+    state: 'WI',
+    firstRecorded: '2026-05-14',
+});

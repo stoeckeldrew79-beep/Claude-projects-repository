@@ -10207,3 +10207,43 @@ UsGM.push({
     state: 'ID',
     firstRecorded: '2025-05-16',
 });
+
+UsGM.push({
+    name: 'BCA Financial Sextortion Scheme Targeting Minnesota Teen Boys',
+    slug: 'minnesota-bca-financial-sextortion-teen-boys',
+    description: `Minnesota's Bureau of Criminal Apprehension warned parents in February 2023 about a wave of "financial sextortion" schemes targeting the state's teenage boys, most often ages 10 to 17, after seeing the same pattern repeat: someone posing online as a girl on a gaming platform or social media app builds a flirtatious rapport with a boy, persuades him to send an explicit photo showing his face, and then immediately threatens to send it to his family and friends unless he pays — in one documented Minnesota case, the demand was $400. BCA Superintendent Drew Evans said a large share of these schemes originate overseas, and Department of Public Safety Commissioner Bob Jacobson urged parents to talk with their kids before an incident occurs rather than after: "Having a frank and honest talk with your child could be the difference." Evans stressed that a targeted child needs to know they haven't done anything wrong, since paying rarely ends the threats — victims are advised to stop all contact, avoid sending more money or images, save the messages as evidence, and report to the BCA, the FBI, or the National Center for Missing & Exploited Children's CyberTipline.`,
+    categorySlug: 'sextortion',
+    alertLevel: 'high',
+    sources: ['Minnesota Bureau of Criminal Apprehension', 'Minnesota Department of Public Safety'],
+    sourceUrl: 'https://dps.mn.gov/news/bca/bca-parents-talk-your-kids-protect-against-financial-sextortion',
+    country: 'US',
+    state: 'MN',
+    firstRecorded: '2023-02-08',
+});
+
+UsGM.push({
+    name: 'Doherty Staffing AI Deepfake Fake Job Posting Scam',
+    slug: 'minnesota-doherty-staffing-ai-deepfake-job-scam',
+    description: `Doherty Staffing Solutions, a Minneapolis-based staffing agency, discovered in 2026 that its name and branding had been hijacked by scammers using AI-generated logos and marketing images to post fake job ads and send targeted recruitment texts, each one tailored to an individual's actual job search using data pulled from the internet. Doherty president Billy Doherty said the fake postings were convincing enough that "to the naked eye, this looks fantastic — it looks like something we made deliberate effort to put before you," and job seekers who responded were asked to hand over Social Security numbers and bank account information to a company that was never actually hiring them. The scheme reflects a broader statewide surge: Minnesota logged 33,204 fraud reports in 2025, with impostor scams making up 37% of them and roughly $168 million in total Minnesota fraud losses, and the state's roughly 247,000 staffing-industry workers make Minnesota job seekers a large target for AI-generated recruitment fraud. Job seekers should verify any posting or recruiting text directly through a staffing firm's official website or a phone number they look up independently — never one included in the message itself — before providing any personal or financial information, since a convincing logo and a personalized pitch are no longer proof that a job offer is real.`,
+    categorySlug: 'employment-scams',
+    alertLevel: 'high',
+    sources: ['Star Tribune', 'Federal Trade Commission'],
+    sourceUrl: 'https://www.govtech.com/security/ai-powered-impostor-scams-target-minnesota-job-market',
+    country: 'US',
+    state: 'MN',
+    firstRecorded: '2026-06-24',
+});
+
+UsGM.push({
+    name: 'Twin Cities EBT/SNAP Card Skimming Ring',
+    slug: 'minnesota-twin-cities-ebt-snap-skimming-ring',
+    description: `Beginning in November 2023, the Minnesota Bureau of Criminal Apprehension's financial crimes unit fielded more than 120 reports of stolen SNAP benefits across the Twin Cities metro. State Department of Human Services data showed $392,075 in EBT card-skimming fraud reported over the following two months (148 household reports in December, 579 in January), with criminals installing hidden skimming devices on store card readers to copy card and PIN numbers, cloning the data onto new cards, and draining a household's entire monthly benefit from an ATM the same day it was deposited, sometimes in a state the victim had never visited. DHS Assistant Commissioner Tikki Brown said the department had been "monitoring other states, Texas, California in particular hit pretty hard" before the fraud reached Minnesota, adding "our hearts sort of broke for the families." The BCA's investigation led to Minnesota warrants for Iulian Irimiea and George Dimuleasa on charges including identity theft and theft by swindle; both men were arrested and booked in Los Angeles, though court records show the charges against Dimuleasa were later dismissed "in the interests of justice." Minnesotans receiving SNAP or cash benefits are advised to check their balance daily, freeze their EBT card between uses, change their PIN often, and report any unauthorized transaction within 30 days to be eligible for replacement.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'high',
+    sources: ['Minnesota Department of Human Services', 'Minnesota Bureau of Criminal Apprehension', 'KSTP-TV'],
+    sourceUrl: 'https://kstp.com/kstp-news/top-news/2-arrested-in-metro-wide-ebt-theft-cases/',
+    country: 'US',
+    state: 'MN',
+    isHistorical: true,
+    firstRecorded: '2023-12-07',
+});

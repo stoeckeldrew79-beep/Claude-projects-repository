@@ -10484,3 +10484,17 @@ UsAF.push({
     country: "US",
     state: "ND",
 });
+
+UsAF.push({
+    name: 'DC Office of the State Superintendent of Education (OSSE) Fake Letter Scam',
+    slug: 'dc-osse-fake-letter-scam',
+    description: `Fraudsters distribute counterfeit letters styled to look like official correspondence from the Office of the State Superintendent of Education (OSSE), the District's actual education regulator, targeting parents of children enrolled in DC Public Schools and teachers at child development facilities along with their families. The fake letters use three different pretexts to extract money or personal and financial information: demanding payment of a fine tied to a supposed OSSE investigation, dangling a fabricated job opportunity at the agency, or promising a refund in exchange for banking details. The DC Office of the Attorney General warns recipients not to respond to the letter and instead call OSSE directly to confirm whether any real matter exists before providing any information or payment, and to report suspected victimization to MPD's Financial and Cyber Crimes Unit or OAG.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Office of the Attorney General for the District of Columbia'],
+    sourceUrl: 'https://oag.dc.gov/blog/consumer-alert-office-state-superintendent',
+    country: 'US',
+    isHistorical: true,
+    firstRecorded: '2019-01-07',
+    state: 'DC',
+});
