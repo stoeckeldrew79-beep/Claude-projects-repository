@@ -10498,3 +10498,41 @@ UsAF.push({
     firstRecorded: '2019-01-07',
     state: 'DC',
 });
+
+UsAF.push({
+    name: 'Standish, Maine Grandparent Bail-Money Scam (Julius Bigboro)',
+    slug: 'maine-standish-grandparent-bail-money-scam',
+    description: `Julius Bigboro, 48, of Miami, flew to Boston and drove to Standish, Maine, where he called an elderly resident claiming to be her grandson and said he'd been arrested by Scarborough police and needed $9,500 in cash for an attorney. She withdrew the cash and handed it over in person before the Cumberland County Sheriff's Office intercepted the exchange and arrested Bigboro on the spot, charging him with theft by deception. The case follows the classic "grandparent scam" script — a panicked, time-pressured call claiming to be a relative in legal trouble, followed by an in-person cash pickup rather than a wire transfer — which the Cumberland County Sheriff's Office says it sees repeatedly, sometimes with scammers switching the claimed relationship mid-call when a detail doesn't match.`,
+    categorySlug: 'grandparent-scams',
+    alertLevel: 'high',
+    sources: ['Bangor Daily News', 'Cumberland County Sheriff\'s Office'],
+    sourceUrl: 'https://www.bangordailynews.com/2025/06/20/portland/portland-police-courts/standish-maine-grandparent-scam-fraud-florida-man-julius-bigboro/',
+    country: 'US',
+    state: 'ME',
+    firstRecorded: '2025-06-20',
+});
+
+UsAF.push({
+    name: 'Portland, Maine Serial-Alias Home Repair Contractor Fraud (Timothy Galvez)',
+    slug: 'maine-portland-galvez-serial-alias-contractor-fraud',
+    description: `Timothy Galvez, 33, of Portland, operated under a rotating string of business names — Tim's Express Decks and Odd Jobs, Galvez Properties, Ben and Sons Express Construction, Builders of Maine — and personal aliases including Timothy and Timoteo Enoch and Timothy Beruca, according to a civil suit the Maine Attorney General's Office filed in April 2025. Investigators identified at least 14 victims across southern Maine since 2019, with losses totaling several hundred thousand dollars from deposits taken for work that was abandoned mid-project, done defectively, or never started, and at least 37 contracts that violated the Maine Home Construction Contracts Act. The suit also alleges a "pay-for-silence" scheme in which Galvez offered a partial refund only if a customer took down a negative online review, and Westbrook police separately filed felony charges against him. Because Galvez kept re-forming under new business and personal names each time reviews turned bad, Maine officials note a contractor's business name alone doesn't establish who's actually running it — checking court and Attorney General complaint records under an individual's own name is a more reliable check.`,
+    categorySlug: 'home-improvement-solar',
+    alertLevel: 'high',
+    sources: ['Portland Press Herald', 'Maine Office of the Attorney General'],
+    sourceUrl: 'https://www.pressherald.com/2025/06/26/maine-contractor-accused-of-significant-home-repair-fraud/',
+    country: 'US',
+    state: 'ME',
+    firstRecorded: '2025-06-26',
+});
+
+UsAF.push({
+    name: 'Maine Unregistered Debt Management Service Upfront-Fee Scam',
+    slug: 'maine-unregistered-debt-management-service-scam',
+    description: `The Maine Bureau of Consumer Credit Protection warns that unregistered, out-of-state debt management companies target Mainers who are behind on credit card, auto loan, or personal loan payments, promising to negotiate lower interest rates or settle the debt in exchange for an upfront fee — then providing little or no real service. Maine law requires any debt management service provider operating in the state to register and post a bond with the Bureau, which maintains a searchable list of registered providers; the Bureau warns that if a company isn't on that list, state regulators will have a difficult time helping consumers get their money back, since an unregistered, unbonded out-of-state operator falls outside its enforcement reach. Consumers behind on debt payments are advised to verify a debt management company's registration through the Bureau's database before paying any upfront fee, and to hang up on any unregistered provider's pitch.`,
+    categorySlug: 'debt-relief-scams',
+    alertLevel: 'medium',
+    sources: ['Maine Bureau of Consumer Credit Protection'],
+    sourceUrl: 'https://www.maine.gov/pfr/consumercredit/consumer/scams/common_scams.htm',
+    country: 'US',
+    state: 'ME',
+});
