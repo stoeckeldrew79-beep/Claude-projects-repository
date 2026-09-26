@@ -18356,6 +18356,42 @@ International.push(
 
 International.push(
   {
+    name: 'Bulgaria Binary Options and CFD Call-Center Fraud Ring',
+    slug: 'bulgaria-binary-options-investment-fraud-ring',
+    description: `In May 2021, Bulgarian authorities coordinated by Eurojust with counterparts in Germany, North Macedonia, Spain, Poland, Sweden, and Israel raided 21 premises — call centers, offices, and residences — across Sofia, Mezdra, and Varna, dismantling a call-center operation accused of defrauding investors of roughly €30 million through fraudulent binary options and CFD trading platforms. Investigators seized 68 computer systems, 43 storage devices, and 19 mobile phones, and detained five people, including the alleged Israeli ringleader, who was caught trying to flee Bulgaria as the raids began. Victims were cold-called by staff posing as brokers and pressured into depositing funds on unlicensed platforms designed to show fabricated gains that could never actually be withdrawn. The scale of the coordinated takedown — spanning six countries and a single Bulgaria-based operation — illustrates how binary options fraud rings deliberately locate call centers away from their victims' home countries specifically to frustrate any one national regulator from acting alone.`,
+    categorySlug: 'investment-fraud',
+    sources: ['Eurojust', 'Finance Magnates'],
+    sourceUrl: 'https://www.financemagnates.com/binary-options/bulgaria-raids-operations-of-e30-million-binary-options-fraud/',
+    country: 'BG',
+    isHistorical: true,
+    firstRecorded: '2021-05-01',
+  },
+  {
+    name: 'UBB Bank-Employee Impersonation Vishing Scam',
+    slug: 'bulgaria-bank-employee-vishing-scam',
+    description: `United Bulgarian Bank (UBB), one of Bulgaria's largest banks, issued a formal customer warning after fraudsters began cold-calling its clients while claiming to be UBB staff who had detected "unauthorized access" to their online or mobile banking. Callers pressure victims to "confirm" fake transactions, pitch bogus cyber-fraud insurance, or push fake security apps, all to harvest usernames, passwords, one-time verification codes, and card details, or to talk victims into wiring money directly to the fraudsters. UBB's alert states explicitly that the bank "never requires provision of such data over the phone or by email," and Bulgarian police have since reported a continuing surge of this same impersonation-vishing pattern targeting elderly account holders nationwide. Anyone who receives an unsolicited call from someone claiming to work at their bank should hang up and call back using the number printed on their own card or statement, never a number the caller provides.`,
+    categorySlug: 'phishing',
+    sources: ['United Bulgarian Bank (UBB)', 'Novinite'],
+    sourceUrl: 'https://www.ubb.bg/en/news/view/preduprejdenie-za-nov-vid-telefonna-izmama',
+    country: 'BG',
+    isHistorical: false,
+    firstRecorded: '2021-10-25',
+  },
+  {
+    name: '"Help the Police" Cash-Handover Phone Scam',
+    slug: 'bulgaria-police-impersonation-cash-scam',
+    description: `A recurring Bulgarian phone-fraud pattern in which callers falsely identify themselves as police officers, tell the victim a "criminal gang" is targeting their bank account, and ask the victim to help "catch the fraudsters" by withdrawing their own savings and leaving the cash at designated points around the city. In one documented case, a 73-year-old pensioner in Sofia was persuaded by callers posing as officers to hand over 100,000 Bulgarian lev by depositing it at several locations along Tsar Boris III Boulevard; Bulgaria's Ministry of Interior subsequently issued a public warning urging citizens never to give money to strangers under any circumstances, regardless of who the caller claims to be. Sofia police's fraud unit continues to report dozens of these police-impersonation calls targeting elderly residents each year, sometimes using courier "mules" to physically collect the cash rather than a bank transfer. Real police never ask a crime victim to withdraw and hand over their own savings as part of an "investigation."`,
+    categorySlug: 'government-impersonation',
+    sources: ['Bulgarian Ministry of Interior (МВР)', 'Novinite'],
+    sourceUrl: 'https://www.novinite.com/articles/184267/73-year-old+Man+gave+BGN+100+000+to+Telephone+Scammers+in+Sofia',
+    country: 'BG',
+    isHistorical: false,
+    firstRecorded: '2017-10-14',
+  },
+);
+
+International.push(
+  {
     name: 'Banc de Binary SEC and CFTC Binary Options Fraud Settlement',
     slug: 'cyprus-banc-de-binary-sec-cftc-settlement',
     description: `Banc de Binary Ltd., a binary options firm licensed and based in Cyprus and founded by Israeli national Oren Shabat Laurent, spent from 2011 through 2013 soliciting and taking orders from thousands of U.S. customers on "binary options" tied to currency, commodity, and stock-index prices — contracts that paid a fixed amount if a price moved a certain way by a set time and nothing at all if it didn't — despite never registering to offer securities-based swaps or to operate as a broker-dealer in the United States, as federal law required. The U.S. Securities and Exchange Commission and the Commodity Futures Trading Commission separately sued the company, Laurent, and three affiliated entities (E.T. Binary Options Ltd., BO Systems Ltd., and BDB Services Ltd.), and on March 9, 2016, both agencies announced coordinated settlements in which the defendants agreed to pay a combined $11 million — $7.1 million in disgorgement and $1.95 million in penalties to the SEC, plus a $2 million penalty to the CFTC — covering the more than 6,000 U.S. customers whose net deposits with the firm the case centered on. A federal court in Nevada entered a consent order permanently barring the defendants from ever again offering off-exchange binary options to U.S. customers, and $9.05 million of the settlement was returned to harmed investors through a Fair Fund administered by the National Futures Association. The SEC noted afterward that a wave of impersonators began contacting former Banc de Binary customers offering to help recover their money for an upfront fee, and warned plainly that "the SEC never makes people pay to get their money back" — a warning that applies equally to any government agency, since real refund or restitution processes never require the victim to pay first.`,
