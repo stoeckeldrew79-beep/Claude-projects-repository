@@ -1850,7 +1850,6 @@ The breach and settlement together illustrate a pattern that shows up across the
     coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/MGM_Grand_Hotel_%26_Casino_(4134759436).jpg?width=1200',
     coverImageCredit: 'Photo: Håkan Dahlström, CC BY 2.0, via Wikimedia Commons — MGM Grand Las Vegas, one of the properties hit in the 2023 breach',
     coverImagePosition: 50,
-    // representative photo — replace with an exact match if found
     body: `In the late summer and early fall of 2023, a loosely organized hacking collective researchers call Scattered Spider broke into two of the biggest names on the Las Vegas Strip within weeks of each other — not by exploiting a software flaw, but by talking their way past a help desk. The group's method, security researchers found, relied on gathering an employee's name and basic details from LinkedIn or other public sources, then calling the company's own IT support line, impersonating that employee, and convincing a human technician to reset multi-factor authentication credentials or hand over a password reset — a technique that defeats even strong technical security controls if the process behind them depends on a support agent's judgment in the moment.
 
 Caesars Entertainment was hit first. According to the company's own SEC filing, an unauthorized party gained access to Caesars' network beginning around August 23, 2023, through a social-engineering attack on an outside IT support vendor, and made off with a copy of Caesars' loyalty program database — Caesars Rewards — covering tens of millions of members, including driver's license and Social Security numbers for a significant number of them. Caesars disclosed the breach in a filing on September 14, 2023, and reportedly paid roughly $15 million of an initial $30 million ransom demand in exchange for a promise, with no real guarantee behind it, that the stolen data would be deleted rather than sold or leaked.
@@ -3995,9 +3994,8 @@ If you missed the claims deadline, it's still worth checking GoogleAssistantPriv
     author: "ScamShield Editorial",
     tags: ["guide", "guitar-center-wage-and-hour-settlement"],
     sourceUrl: "https://www.caemployeesettlementguitarcenter.com/",
-    // representative photo — replace with an exact match if found
-    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Guitar_Center_in_Houston.jpg?width=1200",
-    coverImageCredit: "Photo: BrianReading, CC BY-SA 4.0, via Wikimedia Commons — a Guitar Center store, the retailer named in the suit",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Guitar_Center,_Pico_and_Westwood,_Los_Angeles,_CA.JPG?width=1200",
+    coverImageCredit: "Photo: Cbl62, CC BY-SA 3.0 / GFDL, via Wikimedia Commons — a Guitar Center store in Los Angeles, CA, where the settled suit was filed",
     coverImagePosition: 50,
     body: `Guitar Center Stores, Inc. agreed to pay $2,418,495 to settle Seilhamer v. Guitar Center Stores, Inc. (Case No. 23STCV00544, Superior Court of Los Angeles County, California), a wage-and-hour class action brought by two former employees on behalf of the retailer's non-exempt California workforce — the hourly sales associates, lesson instructors, and store staff who keep Guitar Center's locations running.
 
@@ -4874,6 +4872,9 @@ GuidesGM.push({
   slug: `immigration-bond-gps-monitor-fee-scam`,
   author: `ScamShield Editorial`,
   tags: [`guide`, `immigration-bond-fee-scams`],
+  coverImage: `https://commons.wikimedia.org/wiki/Special:FilePath/Ankle_monitor_(3767974058).jpg?width=1200`,
+  coverImagePosition: 50,
+  // representative photo — replace with an exact match if found
   sourceUrl: `https://www.consumerfinance.gov/enforcement/actions/nexus-services-inc-et-al/`,
   body: `When an immigrant is detained by ICE, a family desperate to get them released quickly often turns to whatever company promises to make it happen fastest — and some of those companies profit not from posting the bond itself, but from what they charge afterward. The Consumer Financial Protection Bureau's case against Libre by Nexus and its parent company, Nexus Services Inc., laid out how one of the largest operators in this space built a business model around fees layered on top of a legitimate legal process: posting an immigration bond to secure someone's release while they await their immigration court proceedings.
 
@@ -4890,6 +4891,10 @@ GuidesGM.push({
   slug: `keyless-car-relay-attack-theft-guide`,
   author: `ScamShield Editorial`,
   tags: [`guide`, `keyless-relay-attack-theft`],
+  coverImage: `https://commons.wikimedia.org/wiki/Special:FilePath/BMW_Car_Key.jpg?width=1200`,
+  coverImageCredit: `Photo: Monique (CC BY 2.0) — a passive-keyless-entry car key fob`,
+  coverImagePosition: 50,
+  // representative photo — replace with an exact match if found
   sourceUrl: `https://www.prnewswire.com/news-releases/national-insurance-crime-bureau-nicb-reveals-mystery-device-that-opens-and-starts-vehicles-300373145.html`,
   body: `Most keyless-entry cars work by constant, quiet radio conversation: the fob in your pocket or on your kitchen counter is always emitting a low-power signal, and the car is always listening for it, unlocking its doors and allowing its ignition button to work the moment it hears the fob nearby. A relay attack exploits that arrangement without ever touching the key. Two people work together, each holding a small radio device: one stands near the fob — often just outside a front door, since many people leave keys sitting near an entryway — while the other stands at the car. The first device picks up the fob's signal and relays it in real time to the second device at the vehicle, which rebroadcasts it close enough for the car's system to be fooled into thinking the actual key is right beside it. The car unlocks and starts exactly as it would for its real owner, with no broken glass, no forced locks, and no alarm.
 

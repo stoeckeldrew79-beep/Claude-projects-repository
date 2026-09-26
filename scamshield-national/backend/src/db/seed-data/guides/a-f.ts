@@ -198,6 +198,10 @@ Before swiping or inserting a card at a pump or ATM, check whether the card read
     slug: 'card-shimming-emv-chip-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'card-shimming'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Chipkarte.jpg?width=1200',
+    coverImageCredit: 'Photo: uploader (CC BY-SA 3.0 / GFDL) — a chip-enabled smart card',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.michigan.gov/consumerprotection/protect-yourself/consumer-alerts/shopping/card-skimming-and-shimming',
     body: `Skimmers work by reading the magnetic stripe on the back of a card, and the payment industry's answer to that was the EMV chip — the small metallic square now standard on nearly every U.S. debit and credit card, named for the Europay, Mastercard, and Visa consortium that created the standard. Criminals adapted. A shimmer is a paper-thin device, built around a tiny microchip and flash memory, that fits inside the card slot itself rather than clipping over it the way a skimmer does. When a chip card is inserted, the shim sits physically between the card's chip and the terminal's own chip reader, silently copying the data as it passes through on its way to being read — the transaction still completes normally, with nothing to alert either the customer or the merchant that anything happened.
 
@@ -9339,6 +9343,10 @@ GuidesAF.push({
   slug: `wine-whiskey-cask-investment-scam-guide`,
   author: `ScamShield Editorial`,
   tags: [`guide`, `wine-whiskey-investment-scam`],
+  coverImage: `https://commons.wikimedia.org/wiki/Special:FilePath/Whisky_barrels.jpg?width=1200`,
+  coverImageCredit: `Photo: John Haslam (CC BY 2.0) — whisky casks maturing at a Scottish distillery`,
+  coverImagePosition: 50,
+  // representative photo — replace with an exact match if found
   sourceUrl: `https://www.sec.gov/enforcement-litigation/litigation-releases/lr-25699`,
   body: `An unsolicited call comes in from someone with a calm, confident British accent, introducing themselves with a name like "Elliot Stewart" or "Robert Wilson" and an offer that sounds like insider access: a chance to buy into a portfolio of fine wine or rare whiskey casks, sourced and stored in a bonded warehouse overseas, expected to appreciate well beyond what a stock or savings account could ever pay. The pitch is built to sound like a real, sophisticated asset class — because fine wine and whiskey investing genuinely is one, with real auction houses, real trading platforms, and real long-term price appreciation for authentic bottles and casks. That legitimate backdrop is exactly what a fraudulent version borrows to sound credible on a cold call to someone who has never bought a bottle of investment-grade wine in their life.
 
@@ -9354,6 +9362,9 @@ GuidesAF.push({
     slug: `fake-court-summons-subpoena-email-scam-guide`,
     author: `ScamShield Editorial`,
     tags: [`guide`, `fake-court-summons-scam`],
+    coverImage: `https://commons.wikimedia.org/wiki/Special:FilePath/Minneapolis_City_Council_Chambers_gavel_close_up.jpg?width=1200`,
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: `https://www.med.uscourts.gov/public-alert-scam-emails-about-phony-court-cases-carry-computer-virus`,
     body: `An email arrives out of nowhere claiming to be from a federal or state court, saying the recipient is named in a pending case and must appear for a hearing on a specific date. Unlike the classic jury-duty phone call, there's no urgent talk of same-day arrest or a demand to pay a fine over the phone — the email's whole pitch is a single attached or linked "document" that supposedly holds the case details, the subpoena itself, or instructions for how to respond. That framing is what makes it effective: it doesn't ask for money up front, so it slips past the instinct people have learned to apply to "pay now or else" scam calls, and it plays on the specific dread of learning about a lawsuit you didn't know existed from a stranger's email rather than a knock at the door.
 
