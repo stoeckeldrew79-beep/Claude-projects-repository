@@ -9847,3 +9847,45 @@ UsNS.push({
     state: 'NE',
     isHistorical: false,
 });
+
+UsNS.push({
+    name: 'North Carolina Crypto ATM Scam Prevention Initiative',
+    slug: 'north-carolina-crypto-atm-scam-prevention-effort',
+    description: `In July 2025, North Carolina Attorney General Jeff Jackson and Secretary of State Elaine Marshall launched a statewide effort with AARP, the Wilmington Police Department, and United Way NC/NC 211 to combat cryptocurrency-ATM scams, in which criminals direct victims — often through a fake romance, tech-support, or government-impersonation pretext — to convert cash into crypto at ATMs near gas stations and convenience stores. Officials cited individual North Carolina victims losing over $100,000 each, and noted crypto fraud causes roughly $6 billion in annual losses nationally, with older adults disproportionately targeted. Anyone directed by an unsolicited caller to withdraw cash and feed it into a cryptocurrency kiosk should treat the instruction itself as proof of fraud, regardless of the reason given.`,
+    categorySlug: 'cryptocurrency-scams',
+    alertLevel: 'medium',
+    sources: ['North Carolina Department of Justice', 'AARP'],
+    sourceUrl: 'https://www.yahoo.com/news/north-carolina-launches-initiative-combat-163937473.html',
+    country: 'US',
+    state: 'NC',
+    isHistorical: false,
+    firstRecorded: '2025-07-01',
+});
+
+UsNS.push({
+    name: 'Appalachian State University Business Email Compromise Fraud',
+    slug: 'north-carolina-appalachian-state-university-bec-fraud',
+    description: `Between August 2016 and January 2017, fraudsters registered a domain and email address closely mimicking a legitimate construction contractor to trick Appalachian State University in Boone, North Carolina into wiring more than $1.9 million to an account they controlled — part of a broader business-email-compromise ring with total victim losses exceeding $14.1 million. Ringleader Oludayo Kolawole John Adeagbo, also known as "John Edwards" and "John Dayo," was extradited from the UK in 2022 and pleaded guilty to wire fraud and conspiracy in the Western District of North Carolina; co-defendant Donald Ikenna Echeazu was sentenced to 18 months and ordered to pay $655,408.87 in restitution. The case shows how a spoofed vendor domain, close enough to the real one to pass a quick glance, can redirect a university's own construction-project payment before anyone in the finance office notices the switch.`,
+    categorySlug: 'business-email-compromise',
+    alertLevel: 'high',
+    sources: ['U.S. Attorney\'s Office for the Western District of North Carolina', 'Watauga Democrat'],
+    sourceUrl: 'https://www.wataugademocrat.com/news/local/nigerian-man-pleads-guilty-for-his-role-in-defrauding-app-state-out-of-nearly-2/article_b1f866fe-f5cd-11ee-98b0-b370d91d789e.html',
+    country: 'US',
+    state: 'NC',
+    isHistorical: true,
+    firstRecorded: '2016-08-01',
+});
+
+UsNS.push({
+    name: 'Chadley Capital Ponzi Scheme (William Lamar Rhew III)',
+    slug: 'north-carolina-chadley-capital-rhew-ponzi-scheme',
+    description: `William Lamar Rhew III, of Summerfield, North Carolina, ran Chadley Capital LLC as a Ponzi scheme from November 2017 to December 2023, telling investors the firm bought discounted accounts receivable and promising annual returns above 20% while falsely claiming $300 million in 2023 transactions. He defrauded at least 117 investors of roughly $24 million, spending the money on a boat, a beach house, and luxury cars while using new investors' funds to pay fake "returns" to earlier victims, and separately concealed about $9 million in income while evading more than $3 million in taxes. Rhew pleaded guilty to wire fraud, money laundering, securities fraud, and tax offenses, and was sentenced in August 2025 to 235 months — nearly 20 years — in federal prison plus 3 years of supervised release.`,
+    categorySlug: 'ponzi-pyramid-schemes',
+    alertLevel: 'medium',
+    sources: ['Internal Revenue Service Criminal Investigation', 'U.S. Attorney\'s Office for the Middle District of North Carolina'],
+    sourceUrl: 'https://www.irs.gov/compliance/criminal-investigation/summerfield-man-sentenced-to-19-years-for-ponzi-scheme-and-tax-fraud',
+    country: 'US',
+    state: 'NC',
+    isHistorical: true,
+    firstRecorded: '2017-11-01',
+});
