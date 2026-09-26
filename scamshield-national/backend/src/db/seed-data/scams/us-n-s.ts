@@ -9889,3 +9889,31 @@ UsNS.push({
     isHistorical: true,
     firstRecorded: '2017-11-01',
 });
+
+UsNS.push({
+    name: 'INTEGRIS Health Data Breach and $30 Million Settlement',
+    slug: 'oklahoma-integris-health-data-breach-settlement',
+    description: `INTEGRIS Health, Oklahoma's largest not-for-profit health system with 15+ hospitals and clinics statewide, suffered a cyberattack on November 28, 2023 that exposed names, contact information, birth dates, demographic data, and Social Security numbers for roughly 2.39 million patients. Rather than following the usual ransomware-to-company playbook, the hackers contacted patients directly on December 24, 2023, demanding $3 to view their own stolen data or $50 to have it deleted, and threatening to sell the database to data brokers by a January 5, 2024 deadline if unpaid; INTEGRIS urged patients not to respond or pay. The resulting class-action lawsuit ended in a $30 million settlement, with a final approval hearing held December 16, 2025, giving affected patients a choice between documented-loss reimbursement up to $25,000 or a flat roughly $100 cash payment, plus three years of credit monitoring with $1 million in identity theft insurance for all class members. Anyone contacted directly by hackers demanding payment over stolen personal data should never pay — it funds further extortion and provides no real guarantee the data will actually be deleted — and should instead watch for an official breach notification and settlement claim process from the affected organization.`,
+    categorySlug: 'data-breach-scams',
+    alertLevel: 'high',
+    sources: ['U.S. Department of Health and Human Services Office for Civil Rights', 'HIPAA Journal'],
+    sourceUrl: 'https://www.hipaajournal.com/integris-health-data-breach/',
+    country: 'US',
+    state: 'OK',
+    isHistorical: false,
+    firstRecorded: '2023-11-28',
+});
+
+UsNS.push({
+    name: 'Hoppis Real Estate Services HOA Account-Takeover Fraud',
+    slug: 'oklahoma-hoppis-hoa-account-takeover-fraud',
+    description: `Sheila Hoppis-Brown, owner of Hoppis Real Estate Services, an Oklahoma City company that manages funds for multiple homeowners associations, began receiving text messages on July 2, 2025 asking her to "approve or deny" account changes, followed by a barrage of spam calls consistent with a social-engineering account-takeover attack. On July 15, 2025, her bank, First Citizens, called asking whether she had authorized large wire transfers; she had not. Accounts tied to 10 separate HOA funds under her management had been accessed and drained, with the company reporting roughly $3 million stolen in total, and Brown filed a report with Oklahoma City police. The case shows how an account-takeover attack on a single small property-management or HOA-management company can multiply into losses across many separate community associations at once, and why any unsolicited "approve/deny this account change" text should be verified by calling the bank directly on a number looked up independently, never by tapping a link or replying to the text.`,
+    categorySlug: 'account-takeover',
+    alertLevel: 'high',
+    sources: ['Oklahoma City Police Department', 'KFOR'],
+    sourceUrl: 'https://kfor.com/news/local/company-claims-hackers-stole-3-million-from-metro-hoa-accounts/',
+    country: 'US',
+    state: 'OK',
+    isHistorical: false,
+    firstRecorded: '2025-07-02',
+});
