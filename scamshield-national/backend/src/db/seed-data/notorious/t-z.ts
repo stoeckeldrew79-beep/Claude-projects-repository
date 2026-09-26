@@ -3354,6 +3354,8 @@ NotoriousTZ.push({
     slug: 'tesco-accounting-scandal-false-accounting',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'corporate-fraud', 'international', 'accounting-fraud', 'securities-fraud'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Tesco_Store_Northallerton.JPG?width=1200',
+    coverImageCredit: 'Photo: Wikimedia Commons (CC BY-SA 3.0) — a Tesco store',
     body: `On August 29, 2014, Tesco PLC — then Britain's largest retailer — issued a trading statement projecting profits that its own later restatement showed were overstated by £250 million (a figure subsequently revised upward to £326 million). The company disclosed the problem three weeks later, on September 22, 2014, wiping roughly £2 billion off its market value in a single day and triggering an immediate Financial Conduct Authority and Serious Fraud Office investigation into what had actually happened inside the country's biggest grocery chain.
 
 The mechanism was neither exotic nor especially hard to explain to shoppers who had never heard the term "commercial income": Tesco's UK finance and commercial teams had been booking payments from suppliers — rebates, promotional contributions, and other deals tied to shelf space and volume — earlier than the underlying commercial agreements actually justified, pulling future income into the current period to help the business hit internal profit targets during 2014. The SFO later found that a culture existed within Tesco between February and September 2014 that encouraged illegal practices to meet accounting targets, inflating the numbers investors and analysts relied on to value the company.
