@@ -10247,3 +10247,31 @@ UsGM.push({
     isHistorical: true,
     firstRecorded: '2023-12-07',
 });
+
+UsGM.push({
+    name: 'American Cancer Society of North Dakota Fake Charity Scheme',
+    slug: 'north-dakota-american-cancer-society-fake-charity-scheme',
+    description: `New York con artists Ian Hosang, Rhett McIntosh, and Judith Culzac incorporated look-alike nonprofits — American Cancer Society of North Dakota, American Cancer Society of Bismarck, and American Cancer Society for Children of North Dakota — with no connection to the real charity, then solicited donations from North Dakotans without ever registering as a charitable organization with the Secretary of State, as state law requires. The real American Cancer Society filed a complaint with the North Dakota Attorney General's Consumer Protection Division, which won a court judgment dissolving the fake charities, banning them from further solicitation in the state, and ordering civil penalties and fees; Division director Parrell Grossman said soliciting donations while unregistered is itself illegal under North Dakota law. The same operators were later tied to roughly two dozen similarly named fraudulent charities formed across the country, a reminder to verify a charity's registration with the Secretary of State before donating rather than trusting a familiar-sounding name.`,
+    categorySlug: 'charity-scams',
+    alertLevel: 'medium',
+    sources: ['North Dakota Attorney General\'s Office', 'InForum'],
+    sourceUrl: 'https://inforum.com/news/919253-ND-consumer-warning-Beware-of-fake-charities',
+    country: 'US',
+    isHistorical: true,
+    state: 'ND',
+    firstRecorded: '2018-11-13',
+});
+
+UsGM.push({
+    name: 'Premier Timeshare Solutions Advance-Fee Scheme',
+    slug: 'north-dakota-premier-timeshare-solutions-advance-fee-scam',
+    description: `A Florida telemarketing operation calling itself Premier Timeshare Solutions cold-called North Dakota timeshare owners, falsely claimed to already have a buyer lined up for their property, and collected thousands of dollars in advance fees to complete a sale that never happened; one North Dakota couple paid roughly $4,200 and was told their file had been sent to a "refund department" that never issued a refund. Attorney General Wayne Stenehjem issued a cease-and-desist order against the company, C & G Marketing Associates, LLC, and its principals Jose Goyos and Kristina Cameron, finding violations of North Dakota's consumer fraud, home solicitation sales, and do-not-call laws. The broader scheme was later found to have defrauded more than 7,000 people across the U.S. and Canada, leading to separate federal criminal charges and an 8-year prison sentence for the operation's head. Timeshare owners are urged to be wary of any company that demands payment upfront to sell or take over a timeshare, since a legitimate resale rarely requires a large fee before a sale closes.`,
+    categorySlug: 'timeshare-scams',
+    alertLevel: 'medium',
+    sources: ['North Dakota Attorney General\'s Office'],
+    sourceUrl: 'https://attorneygeneral.nd.gov/wp-content/uploads/2023/02/12-08-09.pdf',
+    country: 'US',
+    isHistorical: true,
+    state: 'ND',
+    firstRecorded: '2009-12-08',
+});

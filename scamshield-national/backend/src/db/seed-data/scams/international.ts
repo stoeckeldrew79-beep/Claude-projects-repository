@@ -22473,3 +22473,40 @@ International.push({
   isHistorical: true,
   firstRecorded: '2024-07-19',
 });
+
+International.push({
+  name: 'Slovak "New Number" WhatsApp Family Emergency Scam',
+  slug: 'slovakia-new-number-whatsapp-family-emergency-scam',
+  description: `An SMS arrives claiming to be from the recipient's child using a new number after breaking their phone, moving the conversation to WhatsApp where the "child" asks the parent to urgently pay a bill or transfer money because they can't access their own banking app, sometimes later asking for a photo of the parent's payment card. The Police Force of the Slovak Republic publicly warned in November 2025 that the scheme deliberately targets parental fear and pushes victims to act before verifying anything, urging recipients to call their child back on the original saved number rather than the new one. Slovenská sporiteľňa separately documented the broader "fake family" fraud category rocketing from roughly €13,000 in attempted losses in 2023 to €39,710 in 2024 — a roughly 3,000% year-on-year rise — and €436,222 identified in just January-February 2025, with average per-victim losses of about €1,400.`,
+  categorySlug: 'family-emergency-scams',
+  alertLevel: 'medium',
+  sources: ['Police Force of the Slovak Republic (Policajný zbor SR)', 'Pravda.sk', 'Slovenská sporiteľňa'],
+  sourceUrl: 'https://www.pravda.sk/uzitocna/spotrebitel/clanok/774290-policia-informuje-pozor-na-novu-vlnu-podvodov-cez-spravy-mozete-prist-o-mnozstvo-penazi',
+  country: 'SK',
+  firstRecorded: '2025-11-11',
+});
+
+International.push({
+  name: 'Bratislava Fake QR-Code Sticker Parking-Meter Scam',
+  slug: 'slovakia-bratislava-fake-qr-code-parking-meter-scam',
+  description: `Fraudsters stuck fake QR-code stickers directly over the genuine codes on Bratislava parking meters — documented at the Riazanská/Hálková intersection, on Heydukova, and on Kamenné námestie — so that a driver scanning what looks like the normal payment code is instead redirected to a fraudulent payment page. Bratislava city hall recorded about 10 instances of swapped stickers across the city's roughly 200 meters. Municipal police communications chief Peter Borko said crews inspect terminals regularly but scammers can reapply fake stickers after removal, city hall spokesperson Peter Bubla noted the genuine on-meter QR code only displays payment information and never links straight to a payment gateway, and National Bank of Slovakia spokesperson Peter Majer advised checking any QR-linked website for a misspelled or unusual domain before entering payment details.`,
+  categorySlug: 'qr-code-scams',
+  alertLevel: 'medium',
+  sources: ['Správy STVR', 'Magistrát hlavného mesta SR Bratislavy', 'Národná banka Slovenska (NBS)'],
+  sourceUrl: 'https://spravy.stvr.sk/2025/04/pozor-na-falosne-qr-kody-na-parkomatoch-podvodnici-v-bratislave-zneuzivaju-ludsku-nevsimavost/',
+  country: 'SK',
+  firstRecorded: '2025-04-30',
+});
+
+International.push({
+  name: 'Bazoš.sk Fake-Buyer Courier-Link Phishing Scam',
+  slug: 'slovakia-bazos-fake-buyer-courier-phishing-scam',
+  description: `On the popular Slovak classifieds site Bazoš.sk, a "buyer" contacts a seller in chat expressing urgent interest and offering to pay immediately — but instead of a real bank transfer, sends a link to a convincing fake payment or courier-service page that asks the seller to enter their payment card details to "receive" the money, draining the card instead. Slovak banks VÚB and Tatra banka, quoted via the SITA news agency, advise sellers who fall for it to contact their bank immediately and file a police report, since each reported case helps banks flag the receiving account, and police recommend treating any buyer who refuses phone contact, rushes the deal, or asks for card details as a red flag rather than a legitimate purchase.`,
+  categorySlug: 'online-shopping-scams',
+  alertLevel: 'medium',
+  sources: ['SITA', 'VÚB banka', 'Tatra banka', 'Polícia Slovenskej republiky'],
+  sourceUrl: 'https://sita.sk/podvody-pri-nakupoch-na-online-bazaroch-nahlaste-banke-aj-policii/',
+  country: 'SK',
+  isHistorical: true,
+  firstRecorded: '2023-04-19',
+});
