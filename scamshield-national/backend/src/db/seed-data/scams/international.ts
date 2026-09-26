@@ -22667,3 +22667,27 @@ International.push({
     sourceUrl: "https://www.policija.si/medijsko-sredisce/sporocila-za-javnost/sporocila-za-javnost-gpue/116054-pojav-laznih-elektronskih-sporocil-v-imenu-financne-uprave-rs-opozorilo-uporabnikom",
     country: "SI",
 });
+
+International.push({
+    name: "BDCB Alert List: Unlicensed Firms Posing as Brunei-Regulated Financial Institutions",
+    slug: "bdcb-alert-list-unlicensed-financial-firms",
+    description:
+      "Companies and individuals approach people in Brunei offering deposits, investments, insurance or takaful, money-changing or remittance services while appearing to be licensed or supervised by the Brunei Darussalam Central Bank. BDCB describes them as entities that may be wrongly perceived as being licensed, authorised or regulated by the central bank, when in fact they hold no licence at all. Only licensed banks, insurers, takaful operators, capital-market institutions and money-changers may legally offer these services in Brunei, so anyone who hands money to an unlicensed operator has no regulatory protection or recourse. BDCB publishes and regularly updates a named Alert List of these entities. Before sending money, check the firm's name against the BDCB Alert List and licensed-institution registers, and if you have already paid, report it to the Royal Brunei Police Force (999/993) and to BDCB's Financial Consumer Issues unit on 2380007 / 8380007 or fci@bdcb.gov.bn.",
+    categorySlug: "investment-fraud",
+    alertLevel: "high",
+    sources: ["Brunei Darussalam Central Bank (BDCB) — BDCB Alert List and recurring 'BDCB Alert List Update' press releases"],
+    sourceUrl: "https://www.bdcb.gov.bn/consumer/bdcb-alert-list",
+    country: "BN",
+});
+
+International.push({
+    name: "Fake Local News Video About Brunei Currency Notes",
+    slug: "fake-local-news-video-brunei-currency-notes",
+    description:
+      "A fabricated video made to look like a Bruneian news report is circulating on social media and messaging apps, making false claims about Brunei Darussalam currency notes. Because it is dressed up as legitimate local news coverage and forwarded person to person, it lends false credibility to counterfeit-note claims and to the financial scam offers that travel alongside it. BDCB and Cyber Security Brunei issued a joint reminder about counterfeit notes and financial scams, urging the public to verify any offer that looks too good to be true. Do not forward clips like this, and check currency information only against official BDCB announcements. If you are offered notes or a deal based on such a video, report it to the Royal Brunei Police Force and to BDCB before parting with any money.",
+    categorySlug: "ai-deepfake-scams",
+    alertLevel: "medium",
+    sources: ["Brunei Darussalam Central Bank (BDCB) and Cyber Security Brunei (CSB) — joint reminder regarding counterfeit notes and financial scams"],
+    sourceUrl: "https://www.csb.gov.bn/reminder-regarding-counterfeit-notes-and-financial-scams",
+    country: "BN",
+});
