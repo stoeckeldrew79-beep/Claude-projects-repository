@@ -9975,3 +9975,16 @@ UsNS.push({
     country: "US",
     state: "NY",
 });
+
+UsNS.push({
+    name: "Oregon Department of Revenue \"Update Your Banking Information\" Text Scam",
+    slug: "oregon-department-of-revenue-update-your-banking-information-text-scam",
+    description:
+      "Scammers are sending text messages that appear to come from the Oregon Department of Revenue, telling taxpayers they must update their banking information with the agency. The message includes a link to a fake page that collects bank account credentials and personal details, giving criminals direct access to the account and the chance to redirect or intercept a state tax refund. The Department of Revenue says taxpayers should not engage with these texts at all: do not reply and do not click the link. The only legitimate way to check your account activity, balances and credits or make a payment is through Revenue Online, reached by typing oregon.gov/dor directly into your browser. If you get one of these texts, delete it, and if you already clicked the link, contact your bank immediately and report the message to the Department of Revenue.",
+    categorySlug: "tax-scams",
+    alertLevel: "high",
+    sources: ["Oregon Department of Revenue (Salem), via the State of Oregon newsroom"],
+    sourceUrl: "https://apps.oregon.gov/oregon-newsroom/OR/DOR/Posts/Post/DOR-to-taxpayers-Dont-engage-with-text-message-scam",
+    country: "US",
+    state: "OR",
+});
