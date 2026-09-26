@@ -10469,3 +10469,18 @@ The reckoning took over a decade. A High Court civil action brought by the compa
 Queens Moat Houses remains one of the starkest illustrations of how an autocratic founder-chairman, a compliant board, and auditors treating the annual audit as a formality can let a fraud of fabricated profits and inflated asset values run for the better part of two decades in an industry — hotels — where property valuations are inherently subjective and easy to manipulate on paper long before anyone has to prove them by actually selling the building.`,
     sourceUrl: 'https://en.wikipedia.org/wiki/Queens_Moat_Houses',
 });
+
+NotoriousAF.push({
+    title: 'Martin Delle and the DKM Diamond Microfinance Collapse That Emptied Ghana\'s Savers',
+    slug: 'martin-delle-dkm-diamond-microfinance-ghana-collapse',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'ponzi-scheme', 'ghana', 'microfinance', 'international'],
+    body: `Martin Delle ran DKM Diamond Microfinance out of Sunyani, in Ghana's Brong-Ahafo region, as a licensed savings-and-loans company that by the mid-2010s had become one of the most aggressive deposit-takers in the country's fast-growing microfinance sector. DKM's pitch was simple and highly effective in a market with limited access to formal banking: deposit your savings, and DKM would pay interest rates — reportedly as high as 50 percent over just a few months — that no regulated bank in Ghana could come close to matching.
+
+Those returns were never funded by any real lending business. Bank of Ghana auditors who examined the company's books found that out of a total deposit liability of roughly GH¢115 million, only about GH¢10.8 million could actually be accounted for in liquid assets. The rest had been funneled into Delle's own personal ventures and a web of subsidiary companies, including a car dealership called Jastar Motors, in direct violation of central-bank rules capping how much of a microfinance firm's capital could go into fixed assets rather than being held against depositors' money.
+
+The central bank moved in stages: an initial 90-day moratorium and investigation began in 2015, followed by a broader freeze on the company's accounts as the scale of the shortfall became clear. Bank of Ghana revoked DKM's license on February 29, 2016 and ordered it liquidated alongside its affiliated businesses. Delle was arrested and remanded multiple times as he struggled to meet bail conditions, and depositors — who eventually filed 99,858 claims worth a validated GH¢502 million with the court-appointed liquidator — began a years-long wait for compensation; by late 2018, Ghana's finance minister reported roughly 80 percent of claims had been settled, largely through government intervention during a broader clean-up of the country's collapsing microfinance sector.
+
+Delle's own legal accounting has moved far more slowly than his depositors' partial repayment. He was arraigned again in 2024 on a fraudulent-breach-of-trust charge, denied it, and was released on GH¢80 million bail, with the case still unresolved. DKM's collapse became one of the defining events in Ghana's 2015-2018 financial-sector crisis, when dozens of microfinance institutions were shut down in quick succession — a reminder that a microfinance license, meant to extend safe credit to underserved savers, offers no protection against an operator who simply diverts deposits into his own pocket, and that a regulator catching the fraud is only the first of many years it can take before victims see any of their money back.`,
+    sourceUrl: 'https://www.ghanabusinessnews.com/2016/01/09/dkm-diamond-microfinance/',
+});
