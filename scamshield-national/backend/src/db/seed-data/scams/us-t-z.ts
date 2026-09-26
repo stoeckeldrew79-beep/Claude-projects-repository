@@ -5735,3 +5735,42 @@ UsTZ.push({
     state: 'WI',
     firstRecorded: '2026-05-14',
 });
+
+UsTZ.push({
+    name: 'Virginia Beach Woman\'s Cross-Country Lottery and Sweepstakes Scheme (Terry Lynn Miller)',
+    slug: 'virginia-beach-terry-miller-lottery-sweepstakes-scheme',
+    description: `Terry Lynn Miller, 62, of Virginia Beach, was sentenced in federal court in the Eastern District of Virginia to 57 months in prison for defrauding roughly 10 elderly victims nationwide of more than $220,000 through a lottery and sweepstakes scheme. Victims were told they'd won millions but had to pay taxes and fees first; Miller forged victim signatures on fake checks and mailed victims locked briefcases she claimed held their winnings — actually stuffed with Hampton Roads newspapers and magazines. She had already signed a 2019 U.S. Postal Service cease-and-desist order over the same conduct but resumed the scheme regardless, continuing it until her 2021 arrest. Anyone told they've won a prize they never entered, and asked to pay any fee before receiving it, should treat the "prize" as fictitious regardless of how official the paperwork looks.`,
+    categorySlug: 'lottery-sweepstakes-scams',
+    alertLevel: 'medium',
+    sources: ['U.S. Postal Inspection Service', 'WTKR'],
+    sourceUrl: 'https://www.wtkr.com/news/virginia-beach-woman-sentenced-for-lottery-scheme-defrauding-elderly-victims',
+    country: 'US',
+    state: 'VA',
+    isHistorical: false,
+});
+
+UsTZ.push({
+    name: 'Alexandria Business-Email-Compromise Hacking Ring (Umeti and Okwonna)',
+    slug: 'virginia-alexandria-umeti-okwonna-bec-hacking-scheme',
+    description: `Ebuka Raphael Umeti and Franklin Ifeanyichukwu Okwonna were prosecuted by the U.S. Attorney's Office for the Eastern District of Virginia in Alexandria for a business email compromise scheme that ran from February 2016 to July 2021 and caused more than $5 million in losses. The conspirators sent victim businesses phishing emails spoofed to look like they came from trusted vendors or banks; once an employee opened the malicious attachment, malware gave the group remote access to internal systems and email accounts, which they used to redirect wire transfers to accounts they controlled. Umeti was convicted at trial and sentenced to 10 years in prison, while Okwonna pleaded guilty and was sentenced to 5 years and 3 months; both were ordered to pay restitution totaling nearly $5 million. The FBI's Washington Field Office led the investigation with assistance from Kenyan authorities, underscoring how BEC schemes rely on international reach specifically to complicate any single country's ability to trace the fraud back to its source.`,
+    categorySlug: 'business-email-compromise',
+    alertLevel: 'high',
+    sources: ['U.S. Attorney\'s Office for the Eastern District of Virginia', 'FBI Washington Field Office'],
+    sourceUrl: 'https://regtechtimes.com/ebuka-raphael-umeti-business-email-compromise/',
+    country: 'US',
+    state: 'VA',
+    isHistorical: false,
+});
+
+UsTZ.push({
+    name: 'Richmond Pain Doctor\'s $5.2 Million Ozone-Injection Health Care Fraud (Dr. Jawad Bhatti)',
+    slug: 'virginia-richmond-bhatti-ozone-injection-healthcare-fraud',
+    description: `Dr. Jawad Bhatti, who ran the Healing Hands of Virginia pain clinic in Richmond's Jahnke neighborhood, was charged with 26 federal counts after allegedly importing ozone-gas devices from Germany and Hong Kong that were never FDA-approved for use in the United States, then injecting ozone — sometimes mixed with lidocaine — into patients, employees, and family members starting in 2019; some patients reported the injections as the worst pain they had ever experienced, with side effects including seizures and temporary vision loss. To collect payment, prosecutors allege he billed Medicare and Medicaid by falsely coding the ozone injections as legitimate nerve-block procedures, submitting more than $5.2 million in fraudulent claims, and in some cases asked patients to pay cash directly rather than have the service billed to insurance at all. A federal judge rejected an initial plea agreement as too lenient given the scale of the fraud and the harm to patients; Bhatti ultimately pleaded guilty in February 2026 to a single count of using a misbranded drug. The case illustrates how a real medical license and a real clinic address can mask a billing scheme entirely disconnected from the treatment patients actually think they're receiving.`,
+    categorySlug: 'healthcare-fraud',
+    alertLevel: 'medium',
+    sources: ['U.S. Attorney\'s Office for the Eastern District of Virginia', 'WRIC'],
+    sourceUrl: 'https://ground.news/article/doctor-faces-215-charges-faces-8-years-in-prison',
+    country: 'US',
+    state: 'VA',
+    isHistorical: false,
+});

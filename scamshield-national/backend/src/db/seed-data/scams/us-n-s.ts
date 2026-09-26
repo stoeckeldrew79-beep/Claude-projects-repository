@@ -9923,3 +9923,42 @@ UsNS.push({
     state: 'RI',
     isHistorical: true,
 });
+
+UsNS.push({
+    name: 'AI Voice-Cloning and Chatbot-Enabled Scam Surge in Nebraska',
+    slug: 'nebraska-ai-voice-cloning-scam-surge',
+    description: `Nebraska Public Media reported that Nebraskans lost $42.5 million to fraud in 2024 — triple the losses reported four years earlier — with state officials attributing part of the rise to artificial intelligence. Lt. Monty Lovelace of the Nebraska State Patrol's Technical Crimes Unit and Better Business Bureau VP Josh Planos describe AI voice-cloning as "very, very effective" at pressuring victims into crypto and other schemes, while chatbots let scammers mass-produce convincing scripts at a scale not possible before. The report ties concrete local losses to the broader trend, including a Fremont man's $936 Facebook-ad loss and Broken Bow Public Schools' $1.8 million phishing loss, as illustrations of the AI-driven surge across the state.`,
+    categorySlug: 'ai-deepfake-scams',
+    alertLevel: 'medium',
+    sources: ['Nebraska State Patrol', 'Better Business Bureau', 'Nebraska Public Media'],
+    sourceUrl: 'https://nebraskapublicmedia.org/en/news/news-articles/nebraskans-are-losing-more-money-to-scams-those-who-track-them-suggest-ai-plays-a-role/',
+    country: 'US',
+    state: 'NE',
+    isHistorical: false,
+});
+
+UsNS.push({
+    name: 'Omaha Timeshare Exit-Scam Debt Spiral (Royalty Exit Solutions)',
+    slug: 'nebraska-omaha-royalty-exit-solutions-timeshare-scam',
+    description: `An Omaha timeshare owner, Pam Moreno, hired California-based Royalty Exit Solutions to get her out of a timeshare contract, and the company directed her to take out a nearly $17,000 line of credit — which it kept in full while doing little to no actual exit work. She was then referred to a second firm, MXM Legal, which claimed to have negotiated a settlement before ceasing operations altogether. Better Business Bureau vice president Josh Planos said this pattern — collecting payment upfront, then letting communication drop off with little to show for it — is a hallmark of the timeshare-exit-scam industry nationwide. Moreno's credit was significantly damaged by the debt she took on to pay the company, and she now advises timeshare owners to contact their resort directly rather than hiring a third-party exit company.`,
+    categorySlug: 'timeshare-scams',
+    alertLevel: 'medium',
+    sources: ['Better Business Bureau', 'WOWT'],
+    sourceUrl: 'https://www.wowt.com/2026/04/16/omaha-timeshare-owner-sinks-into-more-debt-after-hiring-exit-company/',
+    country: 'US',
+    state: 'NE',
+    isHistorical: false,
+});
+
+UsNS.push({
+    name: 'Broken Bow Public Schools $1.8 Million Construction-Vendor Phishing Scheme',
+    slug: 'nebraska-broken-bow-schools-construction-phishing-bec',
+    description: `In spring 2025, rural Nebraska's Broken Bow Public Schools received a phishing email spoofing a trusted vendor with fraudulent payment instructions tied to an ongoing $26.5 million construction project, and wired $1.8 million to the scammers before the fraud was discovered. The FBI, U.S. Secret Service, and Nebraska State Patrol investigated and recovered roughly $700,000 of the stolen funds; the district publicly acknowledged its wire-transfer safeguards were not in place beforehand and has since implemented new verification protocols for any vendor payment-instruction change. The case is a reminder that a school district managing a large capital project is exactly the kind of one-off, high-dollar payment target that business-email-compromise schemes are built to exploit.`,
+    categorySlug: 'business-email-compromise',
+    alertLevel: 'high',
+    sources: ['FBI', 'U.S. Secret Service', 'Nebraska State Patrol', 'KLKN'],
+    sourceUrl: 'https://www.klkntv.com/nebraska-school-district-loses-1-8-million-in-sophisticated-phishing-scam/',
+    country: 'US',
+    state: 'NE',
+    isHistorical: false,
+});
