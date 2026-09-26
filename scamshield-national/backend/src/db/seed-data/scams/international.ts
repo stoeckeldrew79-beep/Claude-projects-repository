@@ -20810,6 +20810,30 @@ International.push(
     country: 'HU',
     isHistorical: false,
   },
+  {
+    name: 'Batumi Fake Property-Collateral Loan Fraud Ring',
+    slug: 'georgia-country-batumi-property-collateral-loan-fraud',
+    description: `In September 2025, Adjara police and Batumi city police arrested four members of an organized group accused of defrauding 16 victims out of a combined 461,306 Georgian lari, about $170,000. The group targeted people looking to secure loans, convincing them the group held the right to mortgage specific real estate and could temporarily transfer its use to the victim as collateral; after building trust and collecting payment, the suspects kept the money, and the underlying property rights turned out to be fraudulent. Prosecutors charged the four with large-scale fraud committed by an organized group, which carries up to 10 years in prison. Anyone offered "borrowed" collateral from a property they don't actually own should independently verify the property's registered owner through Georgia's public property registry before handing over any money.`,
+    categorySlug: 'mortgage-foreclosure-scams',
+    alertLevel: 'medium',
+    sources: ['Adjara Police', 'DFWatch (Democracy & Freedom Watch)'],
+    sourceUrl: 'https://dfwatch.net/police-in-georgia-bust-property-fraud-ring-in-batumi-64059/',
+    country: 'GE',
+    isHistorical: false,
+    firstRecorded: '2025-09-01',
+  },
+  {
+    name: 'National Bank of Georgia Phone Impersonation Card-Number Vishing Scam',
+    slug: 'georgia-country-nbg-phone-vishing-card-scam',
+    description: `On October 20, 2021, the National Bank of Georgia issued a public warning after receiving multiple same-day reports that unidentified callers were contacting citizens by phone claiming to represent the central bank, asking about recent card transactions, and in some cases asking victims to read out their full card number. The bank stated plainly that it "does not request client card data" over the phone and urged the public to verify any such call's legitimacy independently before sharing information, directing concerned citizens to its consumer hotline. The scam is a straightforward voice-phishing pattern distinct from the bank's other impersonation warnings (fake lotteries and messaging-app loan offers): a live caller asking a victim to simply read a card number aloud, with no fake website or link involved at all.`,
+    categorySlug: 'phishing',
+    alertLevel: 'medium',
+    sources: ['National Bank of Georgia (NBG)'],
+    sourceUrl: 'https://nbg.gov.ge/en/media/news/national-bank-of-georgia-issues-security-advise-for-clients',
+    country: 'GE',
+    isHistorical: false,
+    firstRecorded: '2021-10-20',
+  },
 );
 
 International.push({
