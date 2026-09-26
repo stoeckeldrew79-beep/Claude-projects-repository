@@ -20834,6 +20834,44 @@ International.push(
     isHistorical: false,
     firstRecorded: '2021-10-20',
   },
+  {
+    name: 'Fake Residential Stands "Land Baron" Fraud',
+    slug: 'zimbabwe-fake-residential-stands-land-baron-scam',
+    description:
+      'In June 2026, Gertrude Bariri appeared before a Harare magistrate accused, with co-suspect Revino Gwanzura, of running a bogus residential-stand allocation scheme between January 2024 and August 2025. Operating through a company called "Fanyakazi" while falsely trading on the name of a real housing firm, Enhanced Mortgaging and Housing (Private) Limited — whose actual director only discovered the fraud in March 2025 upon returning from illness — Bariri allegedly advertised non-existent stands and collected US$250 "allocation fees" from roughly 250 victims, totaling about US$250,000. Land fraud of this kind — forged title deeds, stands sold on land never approved for residential development, or the same plot sold to multiple buyers — is a well-documented, recurring problem targeting Zimbabwean home-seekers and diaspora buyers, and anyone approached about a residential stand should independently verify both the seller\'s identity and the land\'s actual zoning status with the relevant local authority before paying any fee.',
+    categorySlug: 'rental-housing',
+    alertLevel: 'medium',
+    sources: ['Newsday Zimbabwe'],
+    sourceUrl: 'https://www.zimbabwesituation.com/news/suspected-land-baron-in-us250k-scam/',
+    country: 'ZW',
+    isHistorical: false,
+    firstRecorded: '2024-01-01',
+  },
+  {
+    name: 'Fraudulent ZESA Prepaid Electricity Token Scheme',
+    slug: 'zimbabwe-zesa-fraudulent-token-scheme',
+    description:
+      'Zimbabwean police arrested Darlington Chiputura, an employee at ZESA Holdings\' Harare headquarters, and Joseph Wagusiwa of Kadoma, for a scheme in which Chiputura used his position to manipulate ZESA\'s prepaid-token generation system and produce electricity tokens outside the official, paid channel; Wagusiwa then sold these fraudulently generated tokens to members of the public, undercutting the utility\'s legitimate revenue. Wagusiwa was arrested in Kadoma after police set a trap, recovering a fraudulent token as evidence. Because the tokens function like real ones on a customer\'s meter, buyers had no easy way to know theirs came from an unauthorized backdoor rather than ZESA\'s official vending system — a pattern regulators and the utility have flagged repeatedly as informal "cheap token" sellers on social media undercut official prices. Anyone offered discounted prepaid electricity tokens outside ZESA\'s official vending points or app should treat the offer as likely fraudulent, since a legitimate token can only come from the utility\'s own authorized channels.',
+    categorySlug: 'utility-scams',
+    alertLevel: 'medium',
+    sources: ['Nehanda Radio'],
+    sourceUrl: 'https://nehandaradio.com/2021/02/07/fraudsters-generate-zesa-tokens/',
+    country: 'ZW',
+    isHistorical: false,
+  },
+  {
+    name: 'Fake "BeForward" Vehicle Import Agent Scam',
+    slug: 'zimbabwe-fake-beforward-vehicle-import-agent-scam',
+    description:
+      'Evans Dingilizwe Mbasopi ran a Harare operation, Siyaya Trading, out of Joina City that falsely held itself out as an authorized local partner of Be Forward, the real Japan-based used-vehicle export platform widely used by Zimbabweans to import cars. Between January and February 2023, Mbasopi took orders and payment from 17 buyers — promising delivery within eight weeks — collecting roughly US$100,000 total; he forwarded only part of the funds toward actual vehicle purchases in Japan and diverted the rest, leaving buyers without their vehicles or refunds. Zimbabwe Republic Police publicly appealed for information leading to Mbasopi\'s arrest after he went into hiding, and he remained at large as of the report. Anyone using a local "agent" to import a vehicle through an overseas platform like Be Forward should verify that agent\'s authorization directly with the platform itself, rather than trusting a storefront or business name alone, before wiring the full purchase price.',
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'medium',
+    sources: ['Zimbabwe Republic Police', 'ZimLive'],
+    sourceUrl: 'https://www.zimlive.com/police-hunt-fake-be-forward-agent-after-17-car-buyers-swindled-us100k/',
+    country: 'ZW',
+    isHistorical: false,
+    firstRecorded: '2023-01-01',
+  },
 );
 
 International.push({

@@ -10392,3 +10392,31 @@ UsGM.push({
     state: 'MI',
     isHistorical: false,
 });
+
+UsGM.push({
+    name: 'Iowa Company Vendor-Impersonation BEC ($800K Loss, Partial Forfeiture Recovery)',
+    slug: 'iowa-vendor-impersonation-bec-hazim-forfeiture',
+    description: `In 2022, an Iowa company was defrauded of more than $800,000 after criminals impersonating one of its real vendors sent fraudulent wire instructions. Federal investigators traced the stolen funds to a Wells Fargo account held by Manuel and Ibrahim Hazim, and a federal court in the Northern District of Iowa ordered forfeiture of $372,583.77 after the Hazims failed to prove they were innocent account owners; the U.S. Attorney's office announced the recovery on September 26, 2026, noting it took roughly four years to trace and claw back even a portion of the loss. The case is a reminder that even a successful federal forfeiture action rarely recovers a full BEC loss, let alone quickly — the only reliable defense is catching a fraudulent wire-instruction change before the money ever leaves, by verifying any vendor payment-detail update with a phone call to a number pulled from a prior, trusted invoice rather than the one in the new email.`,
+    categorySlug: 'business-email-compromise',
+    alertLevel: 'medium',
+    sources: ['U.S. Attorney\'s Office for the Northern District of Iowa'],
+    sourceUrl: 'https://www.kimt.com/news/feds-say-iowa-business-lost-800k-in-email-scam-375k-recovered/article_659d2bfe-5170-4bb1-935b-a2d0b3540a45.html',
+    country: 'US',
+    state: 'IA',
+    isHistorical: false,
+    firstRecorded: '2022-01-01',
+});
+
+UsGM.push({
+    name: "Iowa's Annuity/Insurance \"Fraud-Delay\" Law for Elder Financial Exploitation",
+    slug: 'iowa-house-file-2232-annuity-fraud-delay-law',
+    description: `Signed April 9, 2026 and effective July 1, 2026, Iowa House File 2232 lets life insurance and annuity companies temporarily pause a transaction when they suspect a senior is being financially exploited, extending a fraud-delay tool Iowa's securities industry has used since 2021. Insurance Commissioner Doug Ommen's office reports that under the securities-side version alone, examiners flagged and delayed 42 suspicious transactions in 2025 — and all 42 involved confirmed exploitation — preventing $2.59 million in losses and helping recover a further $1.13 million for Iowa victims. The Division cited AI-enabled impersonation, social-media fraud, and digital-asset schemes as the emerging threats driving the new law, which gives an insurer a legal basis to pause a suspicious annuity withdrawal or change long enough for a family member or investigator to intervene, rather than processing it immediately and leaving victims with no way to reverse the loss.`,
+    categorySlug: 'insurance-fraud',
+    alertLevel: 'medium',
+    sources: ['Iowa Insurance Division'],
+    sourceUrl: 'https://iid.iowa.gov/press-release/2026-06-15/new-iowa-law-empowers-insurance-industry-freeze-scams-protect-seniors-financial-exploitation',
+    country: 'US',
+    state: 'IA',
+    isHistorical: true,
+    firstRecorded: '2026-04-09',
+});

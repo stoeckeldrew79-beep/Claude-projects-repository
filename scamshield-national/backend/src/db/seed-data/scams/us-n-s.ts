@@ -10058,3 +10058,44 @@ UsNS.push({
     isHistorical: false,
     firstRecorded: '2025-07-02',
 });
+
+UsNS.push({
+    name: 'Henderson Doctor Charged in $95 Million Medicare Wound-Care Fraud Scheme',
+    slug: 'nevada-henderson-doctor-dubin-medicare-wound-care-fraud',
+    description: `A federal grand jury in the District of Nevada indicted Dr. Stephen Dubin, 74, of Henderson, on August 4, 2026, alleging he billed Medicare roughly $95 million, with about $54 million actually paid out, for medically unnecessary amniotic wound allografts applied to elderly and hospice patients. Prosecutors say Dubin took illegal kickbacks from allograft distributors, chose which product to apply based on which maximized his own profit rather than patient need, and falsified medical records to justify the treatments. He faces one count of conspiracy to commit health care fraud and five counts of health care fraud, each carrying up to 10 years in prison. The case is part of a broader wave of wound-care and allograft fraud prosecutions naming other Las Vegas-area defendants, underscoring how a single expensive-but-legitimate-sounding wound treatment can become a nationwide billing-fraud vehicle once distributors and providers are paid based on volume rather than patient outcomes.`,
+    categorySlug: 'healthcare-fraud',
+    alertLevel: 'medium',
+    sources: ['U.S. Department of Justice'],
+    sourceUrl: 'https://www.justice.gov/opa/pr/nevada-doctor-charged-95m-wound-care-fraud-medicare',
+    country: 'US',
+    state: 'NV',
+    isHistorical: false,
+    firstRecorded: '2026-08-04',
+});
+
+UsNS.push({
+    name: 'Transnational Syndicate Used 5,000 Stolen Driver\'s Licenses for Bank Account Takeovers',
+    slug: 'nevada-transnational-drivers-license-bank-fraud-syndicate',
+    description: `A federal grand jury in Las Vegas indicted Xui Jie "Johnny" Chen, 32, of Los Angeles; Jin Wei Chen, 41, of Flushing, New York; and Yue Yuan, 34, of China, for a scheme that obtained more than 5,000 genuine U.S. driver's licenses and used them, along with recruited accomplices, to take over victims' identities, withdraw funds from banks, and fraudulently obtain financing for luxury vehicles. The scheme spanned at least 14 states including Nevada, Arizona, Utah, Colorado, and Minnesota, and was investigated by Homeland Security Investigations' Las Vegas office alongside Las Vegas Metro Police and Nevada Gaming authorities. Defendants face conspiracy to commit bank fraud, carrying up to 30 years, plus multiple aggravated identity theft counts each carrying a mandatory consecutive 2-year sentence. Unlike phishing- or malware-based account takeovers, this syndicate relied on physically obtaining thousands of genuine, valid IDs, a reminder that a fraudster presenting a real, unaltered driver's license in a stolen name can pass identity checks that are only designed to catch a forged document.`,
+    categorySlug: 'account-takeover',
+    alertLevel: 'high',
+    sources: ['Homeland Security Investigations', 'Las Vegas Metropolitan Police Department', 'News 3 Las Vegas'],
+    sourceUrl: 'https://news3lv.com/news/local/three-accused-of-using-stolen-licenses-to-defraud-banks-in-14-states',
+    country: 'US',
+    state: 'NV',
+    isHistorical: false,
+});
+
+UsNS.push({
+    name: 'National Prevention Center Foreclosure "Rescue" Scheme',
+    slug: 'nevada-national-prevention-center-foreclosure-rescue-scheme',
+    description: `Nevada Attorney General Adam Laxalt announced the sentencing of Alicia Ruiz, 45, of Las Vegas, who operated a fraudulent foreclosure-rescue business called National Prevention Center from December 2011 to May 2013. Ruiz and co-defendants solicited struggling homeowners, promised to purchase their foreclosed homes and resell them back at current market value after collecting upfront fees, then simply failed to complete the purchases. Ruiz was convicted of two Category C felony theft counts, sentenced to 18-48 months in prison, and ordered to pay roughly $50,000 in restitution to five identified victims; her co-defendants had already pleaded guilty and been sentenced earlier in the case. Anyone facing foreclosure who is asked to pay an upfront fee for a company to "buy back" their home later should treat that request itself as a red flag, since a legitimate loan modification or short sale never requires paying a stranger to promise a future repurchase.`,
+    categorySlug: 'mortgage-foreclosure-scams',
+    alertLevel: 'medium',
+    sources: ['Nevada Attorney General\'s Office'],
+    sourceUrl: 'https://ag.nv.gov/News/PR/2017/Attorney_General_Laxalt_Announces_Sentencing_of_Las_Vegas_Woman_for_Foreclosure_Rescue_Scheme/',
+    country: 'US',
+    state: 'NV',
+    isHistorical: true,
+    firstRecorded: '2011-12-01',
+});

@@ -10536,3 +10536,31 @@ UsAF.push({
     country: 'US',
     state: 'ME',
 });
+
+UsAF.push({
+    name: 'Avon Investment Advisor\'s $3.3 Million ACH "Free-Riding" Fraud Indictment',
+    slug: 'connecticut-avon-komarow-ach-free-riding-fraud-indictment',
+    description: `A federal grand jury in New Haven indicted Andrew M. Komarow, 36, of Avon, Connecticut, on February 4, 2026, on 10 counts of wire fraud and 1 count of securities fraud. Prosecutors say that between October 2022 and February 2023, Komarow, an investment advisor and broker-dealer, initiated roughly $8.9 million in ACH transfers from his own bank accounts into newly opened brokerage accounts despite having insufficient funds, exploiting the days-long clearing delay to conduct high-risk short-term options trading before the transfers inevitably failed — a "free-riding" scheme that ultimately caused about $3.35 million in losses to three financial services companies. He pleaded not guilty and was released on a $50,000 bond. The case illustrates a fraud mechanism distinct from a typical investment scam: rather than lying to investors about where their money went, Komarow exploited the ordinary multi-day float between initiating a bank transfer and it actually clearing to trade with money he didn't yet have and might never actually deliver.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'medium',
+    sources: ['U.S. Attorney\'s Office for the District of Connecticut', 'Patch'],
+    sourceUrl: 'https://patch.com/connecticut/avon/avon-investment-advisor-charged-3-3m-fraud-scheme',
+    country: 'US',
+    state: 'CT',
+    isHistorical: false,
+    firstRecorded: '2026-02-04',
+});
+
+UsAF.push({
+    name: 'Scammers Impersonating Connecticut DCP Enforcement Employees via Spoofed Domain',
+    slug: 'connecticut-dcp-enforcement-employee-impersonation-phishing',
+    description: `The Connecticut Department of Consumer Protection issued a consumer alert on November 26, 2025 warning that scammers were sending emails impersonating actual DCP enforcement employees, asking recipients — both professional license holders and the general public — to provide signed documents. The emails come from a spoofed lookalike domain, "@ct.gov.frienditsolutions.com" rather than a genuine "@ct.gov" address, use intentionally vague language to entice clicks, cite incorrect DCP phone numbers and staff names, and include a "send me a file securely" link. DCP noted that U.S. consumers reported losing $789 million nationally to government-imposter scams the prior year, and urged anyone contacted this way to check the sender's actual domain carefully and verify any request directly with DCP using a phone number looked up independently rather than one in the email.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Connecticut Department of Consumer Protection'],
+    sourceUrl: 'https://portal.ct.gov/dcp/news-releases-from-the-department-of-consumer-protection/2025-news-releases/scammers-are-posing-as-dcp-enforcement-employees',
+    country: 'US',
+    state: 'CT',
+    isHistorical: false,
+    firstRecorded: '2025-11-26',
+});
