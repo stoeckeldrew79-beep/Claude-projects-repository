@@ -10564,3 +10564,29 @@ UsAF.push({
     isHistorical: false,
     firstRecorded: '2025-11-26',
 });
+
+UsAF.push({
+    name: "Arkansas DFA \"Tax Refund Approved\" Text and Email Phishing",
+    slug: "arkansas-dfa-tax-refund-approved-text-and-email-phishing",
+    description:
+      "Scammers posing as the Arkansas Department of Finance and Administration are sending texts and emails telling Arkansans their tax refund has been approved. The message includes a link and asks the recipient to enter bank account information so the refund can be deposited, but the link simply harvests banking credentials. The Arkansas Attorney General's Office confirms these messages do not come from DFA, and no government agency asks for bank account details by text or email to issue a refund. This is a separate scheme from the forged DFA paper letters that claim back taxes are owed. If you get one of these messages, do not click the link; use \"Report Junk\" on texts, delete the emails, and file a report with the FBI's Internet Crime Complaint Center.",
+    categorySlug: "tax-scams",
+    alertLevel: "high",
+    sources: ["Arkansas Attorney General's Office (Consumer Protection Division), Consumer Alert, October 23, 2025","Attorney General Tim Griffin"],
+    sourceUrl: "https://arkansasag.gov/news-release/consumer-alert-scammers-claiming-to-be-a-government-agency-target-arkansans-via-text-and-email/",
+    country: "US",
+    state: "AR",
+});
+
+UsAF.push({
+    name: "Arkansas Door-to-Door Home Improvement, Security, and Solar Sales Fraud",
+    slug: "arkansas-door-to-door-home-improvement-security-and-solar-sales-fraud",
+    description:
+      "As warm weather returns, door-to-door sellers canvass Arkansas neighborhoods pitching home improvement work, home security systems, and solar panel installations using high-pressure tactics and misleading claims about cost and contract terms. A common hook is \"free\" installation or free equipment, with the real cost buried in an expensive long-term contract the homeowner discovers later. Because crews often install equipment on the spot, homeowners wrongly assume the deal is final. Arkansas law gives consumers three days to cancel a home solicitation sale, and that cancellation right applies even if the equipment is already installed in your home. Ask for identification and the company name before letting anyone inside, take time to evaluate any offer, and report problems to the Arkansas Attorney General's consumer hotline at (800) 482-8982 or consumer@arkansasag.gov.",
+    categorySlug: "home-improvement-solar",
+    alertLevel: "medium",
+    sources: ["Arkansas Attorney General's Office, Consumer Alert, March 6, 2025","Attorney General Tim Griffin","Arkansas Home Solicitation Sales Act three-day cancellation right"],
+    sourceUrl: "https://arkansasag.gov/news-release/consumer-alert-attorney-general-griffin-warns-against-home-solicitation-scams/",
+    country: "US",
+    state: "AR",
+});
