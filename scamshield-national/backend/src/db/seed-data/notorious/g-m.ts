@@ -10936,3 +10936,18 @@ Azerbaijan detained Hajiyev in December 2015, and the Baku Court for Grave Crime
 The case is a study in how a "national champion" bank can be hollowed out from the inside by the very oversight mechanisms meant to prevent it: fictitious borrowers and fabricated collateral let Hajiyev dress up embezzlement as ordinary commercial lending for a decade and a half, precisely because the loans passed through the same approval chain — his own — that was supposed to catch them.`,
     sourceUrl: 'https://en.wikipedia.org/wiki/Jahangir_Hajiyev',
 });
+
+NotoriousGM.push({
+    title: 'Mehmet Gürhan and the Deniz Feneri Charity Fraud That Looted Turkish Donors Across Germany',
+    slug: 'mehmet-gurhan-deniz-feneri-charity-fraud-germany',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'charity-fraud', 'germany', 'historical', 'international'],
+    body: `Deniz Feneri e.V. — "Lighthouse," in Turkish — registered in Germany in the early 2000s as a charity soliciting donations from Germany's large Turkish immigrant community, using a namesake weekly television program broadcast on the Turkish-language channel Kanal 7 to solicit funds for humanitarian relief projects abroad. Over several years the charity collected more than 41 million euros from donors, many of them working-class Turkish-German families who believed their money was funding food aid, orphan sponsorships, and disaster relief in Turkey and beyond.
+
+German investigators found that only a small fraction of that money ever reached its stated purpose. An internal accountant later admitted the funds had been acquired under false pretenses and diverted to finance private businesses controlled by the charity's own operators; prosecutors alleged roughly 18 million euros of the total raised had been embezzled, and were never able to fully account for where all of the diverted money had gone.
+
+Frankfurt's regional high court tried the case and, in September 2008, convicted three of the charity's German-based operators. Mehmet Gürhan, the founder and head of the German branch, received the heaviest sentence — five years and ten months in prison — for embezzlement, while his successor at the organization, Mehmet Taşkın, was sentenced to two years and nine months, and a third defendant, Firdevs Ermiş, received one year and ten months. The court ordered the charity's remaining assets seized, with unclaimed donations ultimately redirected to the German Red Cross.
+
+The case had a political afterlife that outlasted the criminal verdicts: Turkish media and opposition politicians alleged that some of the diverted money had helped finance Kanal 7 and had reached figures and organizations close to Turkey's then-governing party, allegations that fueled years of politically charged coverage in Turkey even as domestic prosecutors there moved far more slowly — a parallel Turkish case was eventually transferred between courts and ended in a mix of acquittals and dropped charges in 2015, with no one in Turkey ultimately convicted. The gap between the swift German conviction and the inconclusive Turkish outcome is itself part of what makes Deniz Feneri instructive: a charity built around faith, national identity, and a trusted weekly broadcast proved just as exploitable as any investment pitch, and the same donors who gave generously because the appeal felt like giving to their own community were, for years, the ones least likely to ask hard questions about where the money actually went.`,
+    sourceUrl: 'https://en.wikipedia.org/wiki/Deniz_Feneri_Trials',
+});
