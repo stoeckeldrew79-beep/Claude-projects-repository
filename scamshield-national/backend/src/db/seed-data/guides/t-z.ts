@@ -2782,6 +2782,9 @@ GuidesTZ.push({
   slug: 'military-identity-photo-impersonation-guide',
   author: 'ScamShield Editorial',
   tags: ['guide', 'military-identity-theft', 'photo-impersonation', 'romance-scam-impersonation', 'stolen-photos'],
+  // representative photo — replace with an exact match if found
+  coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Female_using_a_smartphone_to_take_photographs.jpg?width=1200',
+  coverImageCredit: 'Photo: Kuba Bożanowski (CC BY 2.0)',
   sourceUrl: 'https://www.dvidshub.net/news/324108/cid-warns-army-community-about-social-media-impersonation-soldier-accounts',
   body: `Every year, the U.S. Army's Criminal Investigation Division (CID) hears from a population that rarely gets consumer-protection attention: real service members — officers, enlisted troops, DoD contractors, and civilians alike — who discover a stranger has built an entire fake identity around their name and photos. It usually starts the same way. A scammer scrapes public images from an official unit page, a promotion announcement, a deployment photo, or a personal social media profile, then opens a dating-app or social-media account under a near-identical name. CID's Computer Crime Investigative Unit has documented scammers registering accounts that look correct at a glance but substitute characters — a zero standing in for the letter "O," for instance — so the fake account survives a casual search of the real person's name, sometimes pairing it with a fabricated Common Access Card image bearing an incorrect pay grade. From there the stolen identity is put to work: romance scams that profess love to a stranger and later ask for "emergency leave" fees or a special communications device, below-market vehicle or property "sales" that lean on a fake deployment story to explain the urgency, and advance-fee schemes promising a large transfer in exchange for a small upfront payment.
 
