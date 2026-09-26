@@ -10298,6 +10298,9 @@ NotoriousAF.push({
     slug: 'benjamin-sisti-jonathan-googel-colonial-realty-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical', 'real-estate-fraud'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Hartford_Connecticut_Skyline.JPG?width=1200',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Benjamin Sisti and Jonathan Googel were childhood friends from West Hartford who built Colonial Realty Company from a small local real estate outfit in 1966 into one of the largest real estate syndication firms in the Northeast. By the late 1980s, Colonial had organized roughly eighty limited partnerships that together controlled close to $2 billion in real estate, mostly apartment complexes and commercial properties across Connecticut, and had recruited thousands of middle-class investors — many of them first-time real estate investors drawn in by Colonial's aggressive local marketing and its founders' civic prominence.
 
 The fraud combined several classic techniques layered on top of a genuine, if wildly overleveraged, real estate business. As the Connecticut real estate market began to soften in the late 1980s, Sisti, Googel, and chief financial officer Frank Shuch concealed the partnerships' deteriorating finances from investors and continued selling new limited-partnership units — collecting fresh investor cash — even after they knew the underlying properties could not support their debt and that collapse was likely. Prosecutors also found that Colonial's principals bribed public officials, including the mayor of Waterbury, Connecticut, to steer municipal pension-fund money into Colonial partnerships, and that as bankruptcy loomed, Sisti and Googel secretly transferred millions of dollars in company and personal assets to out-of-state relatives specifically to keep that money out of creditors' and investors' reach.
@@ -10315,6 +10318,10 @@ NotoriousAF.push({
     slug: 'edwin-mcbirney-sunbelt-savings-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical', 'savings-and-loan-crisis'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Dallas_skyline_bridge.jpg?width=1200',
+    coverImageCredit: 'Photo: Eazy.visions (CC BY-SA 4.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Edwin T. McBirney III took over Texas-based Sunbelt Savings in the early 1980s, just as federal deregulation freed savings and loans to move far beyond conservative home-mortgage lending. McBirney turned Sunbelt into one of the most aggressive commercial-lending thrifts of the era, financing speculative real estate and business deals with a looseness that earned the institution the nickname "Gunbelt Savings" inside the industry — and earned McBirney himself the nickname "Fast Eddie" for a lifestyle that became a running symbol of 1980s S&L excess.
 
 The excess was not just personal branding; it was, regulators later found, fraud. McBirney treated Sunbelt as a personal expense account, flying favored clients, employees, and friends on gambling junkets to Las Vegas and staging lavish company parties — federal investigators cited roughly $1.3 million spent on Halloween and Christmas events alone, including imported lion and antelope meat — while Sunbelt's loan book filled with deals that had little chance of being repaid. Sunbelt Savings failed in August 1988, and the FDIC ultimately put the cost to taxpayers at approximately $1.2 billion, one of the larger single failures of the nationwide savings-and-loan crisis.
@@ -10332,6 +10339,10 @@ NotoriousAF.push({
     slug: 'david-bermingham-natwest-three-enron-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'international', 'securities-fraud', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Skyline_of_Uptown_Houston.jpg?width=1200',
+    coverImageCredit: 'Photo: Bill Jacobus (CC BY 2.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Giles Darby, David Bermingham, and Gary Mulgrew were mid-level bankers at Greenwich NatWest in 2000, working on National Westminster Bank's dealings with Enron. NatWest held a stake in Swap Sub, a Cayman Islands special-purpose entity Enron CFO Andrew Fastow had created, ostensibly to hedge Enron's investment in Rhythms NetConnections. The three bankers realized Swap Sub's stake had become far more valuable than NatWest's own risk managers appreciated.
 
 When the trio proposed capturing that value for their employer, Fastow instead offered to buy NatWest's stake outright for a lowball $1 million — and separately, through his colleague Michael Kopper, quietly let the three bankers acquire a personal financial interest in the buying entity, Southampton, L.P. That entity flipped the stake to Enron for $20 million within months, and Darby, Bermingham, and Mulgrew invested a total of $250,000 to buy in and split roughly $7.3 million of the resulting profit, all while still drawing NatWest salaries and never disclosing to their employer that they held a stake on the other side of a deal they were supposed to be negotiating for the bank.
@@ -10349,6 +10360,10 @@ NotoriousAF.push({
     slug: 'brian-chisick-first-alliance-mortgage-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/20140809-0079_Irvine.JPG?width=1200',
+    coverImageCredit: 'Photo: Nandaro (CC BY-SA 4.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Brian Chisick founded First Alliance Mortgage Company in Orange County, California, in the early 1970s and built it, over three decades, into one of the country's largest "subprime" home-equity lenders — a company that specialized in refinancing homes for borrowers with poor credit, marketing aggressively through telemarketing and direct mail, and eventually writing loans in eighteen states and the District of Columbia. Many of its customers were older homeowners with substantial equity but limited financial sophistication, exactly the profile predatory lenders later became notorious for targeting during the 2000s subprime boom — except First Alliance was doing it a decade earlier, in plain sight, and was already the subject of state and federal enforcement action before most Americans had heard the word "subprime."
 
 The fraud wasn't hidden in fake paperwork; it was built into the sales process itself. First Alliance trained loan officers to run a scripted, roughly 45-minute in-home presentation employees called "the Track," designed to walk a borrower through a stack of loan documents fast enough, and with enough reassuring patter, that they wouldn't absorb what they were signing. Investigators and later a federal jury found that the company routinely misrepresented origination fees that actually ran 10 to 25 percent of the loan amount — several times the industry norm — by describing them as a form of "prepaid finance charge" that sounded refundable, and separately concealed how much monthly payments on adjustable-rate loans would jump once the introductory rate expired. The company also failed to provide legally mandated Truth in Lending Act disclosure booklets that would have let borrowers do their own math before signing.

@@ -10886,6 +10886,10 @@ NotoriousGM.push({
     slug: 'mark-hotchin-hanover-finance-collapse',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'international', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Auckland_CBD_skyline_and_harbour.jpg?width=1200',
+    coverImageCredit: 'Photo: Allan Grey (CC BY-SA 2.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Mark Hotchin built his fortune in New Zealand property development before joining forces with business partner Eric Watson in 1999 to buy Elders Finance, the seed that grew into Hanover Group. Through acquisitions and consolidation, the pair turned it into New Zealand's third-largest finance company, with roughly $650 million in assets at its 2007 peak — a scale that made both men fixtures on regional rich lists, with Forbes ranking them among Australia and New Zealand's 40 wealthiest people.
 
 Hanover raised its lending capital directly from tens of thousands of ordinary retail investors, who bought debentures marketed as a straightforward, better-yielding alternative to a bank term deposit. The money didn't sit in conservative instruments — it was funneled heavily into high-risk property development lending, a sector that had performed well through the mid-2000s boom but carried concentration risk the prospectus disclosures did not make clear to the retirees and savers buying in.
