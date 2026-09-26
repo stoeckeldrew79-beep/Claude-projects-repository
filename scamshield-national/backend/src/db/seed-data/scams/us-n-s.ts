@@ -9731,3 +9731,41 @@ UsNS.push({
     state: 'OH',
     firstRecorded: '2026-09-24',
 });
+
+UsNS.push({
+    name: 'New Hampshire SNAP/EBT "Restricted Benefits" Phishing Scam',
+    slug: 'new-hampshire-snap-ebt-restricted-benefits-phishing-scam',
+    description: `In November 2025, New Hampshire Attorney General John M. Formella and Department of Health and Human Services Commissioner Lori A. Weaver warned of a phishing scam impersonating DHHS and falsely telling SNAP recipients that their EBT card will be "restricted" and benefits withheld unless they verify their Social Security number, date of birth, PIN, or EBT card number over the phone, by text, or by email. Reports surfaced the week of November 19, 2025 from SNAP beneficiaries in the Concord and Rochester areas, with callers using spoofed numbers, including toll-free numbers, to look legitimate. "These scams aim to take advantage of people when they may be feeling most vulnerable, and that's unacceptable," Formella said, while Weaver warned that "scammers often try and create a false sense of urgency." DHHS confirmed it never "restricts" or "holds" SNAP benefits and never requests this information by phone, text, or email, and urged anyone contacted this way to hang up and call 1-844-ASK-DHHS to report it rather than verifying any detail.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'medium',
+    sources: ['New Hampshire Department of Justice', 'New Hampshire Department of Health and Human Services', 'InDepthNH.org'],
+    sourceUrl: 'https://indepthnh.org/2025/11/19/ag-phishing-scam-targeting-snap-participants/',
+    country: 'US',
+    state: 'NH',
+    firstRecorded: '2025-11-19',
+});
+
+UsNS.push({
+    name: 'Finstate Investment LLC Fake Crypto Trading Platform Fraud',
+    slug: 'new-hampshire-finstate-investment-fake-crypto-trading-fraud',
+    description: `A retired New Hampshire resident was contacted through Facebook and steered into investing roughly $3,526 in cryptocurrency through Finstate Investment LLC, which gave the investor login access to a dashboard showing the balance climbing to $60,762 by April 11, 2024 while promising to trade the funds and return the proceeds minus a 15% commission. The New Hampshire Bureau of Securities Regulation's cease-and-desist order alleges the investor's money was instead routed to Binance — an exchange not available to U.S. investors — and never actually traded, and that the promised April 20, 2024 payout never arrived, leaving the investor unable to withdraw any of the displayed balance. The Bureau's petition sought an immediate halt to Finstate's activity in New Hampshire, restitution, fines, and a permanent bar from the state's securities industry. The case is a reminder that a login screen showing steadily rising account gains proves nothing on its own — a broker's registration and an exchange's actual availability to U.S. investors should be verified independently through the Bureau of Securities Regulation and FINRA's BrokerCheck before money changes hands.`,
+    categorySlug: 'cryptocurrency-scams',
+    alertLevel: 'medium',
+    sources: ['New Hampshire Bureau of Securities Regulation', 'Nashua Ink Link'],
+    sourceUrl: 'https://nashua.inklink.news/secretary-of-state-files-cease-and-desist-against-crypto-company-after-nh-investor-files-complaint/',
+    country: 'US',
+    state: 'NH',
+});
+
+UsNS.push({
+    name: 'New Hampshire "Producer of Record" Health Insurance Enrollment Fraud',
+    slug: 'new-hampshire-producer-of-record-health-insurance-fraud',
+    description: `The New Hampshire Insurance Department issued a bulletin (Docket #INS 25-038-AB) on June 5, 2025 after a rise in consumer complaints about health insurance applications submitted under a "producer of record" who had never actually spoken with the consumer or played any role in selling the policy. Investigators traced the practice to misuse of the National Producer Number "override" function built into Enhanced Direct Enrollment marketplace platforms, which lets an agent submit an application under a different, insurer-appointed producer's NPN so that producer collects the commission despite having no contact with the person actually being enrolled — leaving consumers unsure who to call about their own coverage and vulnerable to being switched into a plan they never chose. Deputy Insurance Commissioner Keith Nyhan said "ethical standards are not optional, they are essential to protecting consumers," and the bulletin warns that a producer who falsely designates themselves as producer of record, under RSA 402-J:12, I(h), faces fines, license suspension, or revocation. New Hampshire consumers who did not personally deal with the agent listed on their health plan, or who were enrolled or switched into coverage they never requested, can report the mismatch to the Insurance Department's Consumer Services line.`,
+    categorySlug: 'medicare-health-plans',
+    alertLevel: 'medium',
+    sources: ['New Hampshire Insurance Department', 'NAIFA New Hampshire'],
+    sourceUrl: 'https://nh.naifa.org/blog/nhid-issues-bulletin',
+    country: 'US',
+    state: 'NH',
+    firstRecorded: '2025-06-05',
+});
