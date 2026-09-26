@@ -9884,3 +9884,42 @@ UsNS.push({
     state: 'NH',
     firstRecorded: '2025-06-05',
 });
+
+UsNS.push({
+    name: 'Town of Bristol Business-Email-Compromise Money-Laundering Scheme (Alec Tahir Baker)',
+    slug: 'rhode-island-bristol-bec-baker-money-laundering-scheme',
+    description: `In January 2023, conspirators used phishing and spoofed-vendor emails to breach the Town of Bristol, Rhode Island's computer network, diverting $310,500 in municipal funds into an account controlled by Alec Tahir Baker, 61, of Corona, California. Baker personally received more than $7.6 million as part of a wider scheme that defrauded companies, individuals, and the town of nearly $9 million in total. Baker pleaded guilty on December 10, 2025 to conspiracy to commit money laundering, with sentencing set for February 24, 2026. The case is a reminder that a municipality's own finance staff are prime BEC targets: any vendor-payment change request arriving only by email should be verified by phone using a number pulled from the vendor's own prior invoices, not one supplied in the request itself.`,
+    categorySlug: 'business-email-compromise',
+    alertLevel: 'high',
+    sources: ['U.S. Attorney\'s Office for the District of Rhode Island', 'ABC6 (WLNE)'],
+    sourceUrl: 'https://turnto10.com/news/local/man-pleads-guilty-9-million-money-laundering-scheme-targeting-town-bristol-emails-court-documents-vendors-computer-networks-december-10-2025',
+    country: 'US',
+    state: 'RI',
+    isHistorical: false,
+});
+
+UsNS.push({
+    name: 'Smart Green Solar Deceptive Door-to-Door Sales Lawsuit',
+    slug: 'rhode-island-smart-green-solar-deceptive-sales-lawsuit',
+    description: `Rhode Island Attorney General Peter Neronha sued Smart Green Solar LLC and CEO Jasjit Gotra, amending the complaint in November 2023 to add more executives, over deceptive door-to-door solar sales tactics — falsely guaranteeing customers the full 30% federal Residential Clean Energy Tax Credit as a "down payment" from the government, then steering them into loans that balloon by 133% if that 30% isn't paid within 18 months, on top of installation defects including roof leaks. The AG's Consumer Protection Unit logged 107 solar-related complaints in 2023, more than double the 48 logged in 2022. Homeowners considering a solar deal are advised to have any tax-credit claim verified independently rather than treating a door-to-door salesperson's promise as a government guarantee, and to get the full loan-escalation terms in writing before signing.`,
+    categorySlug: 'home-improvement-solar',
+    alertLevel: 'medium',
+    sources: ['Rhode Island Office of the Attorney General', 'WJAR (Turn to 10)'],
+    sourceUrl: 'https://turnto10.com/i-team/rhode-island-attorney-generals-office-solar-panel-companies-investigation-consumer-complaints-installation-roof-leaks-tax-breaks-electricity-electric-bills-contractors-industry-regulation',
+    country: 'US',
+    state: 'RI',
+    isHistorical: false,
+});
+
+UsNS.push({
+    name: 'RI Department of Labor and Training Insider Unemployment Fraud (Ambulai Sheku)',
+    slug: 'rhode-island-dlt-insider-unemployment-fraud-sheku',
+    description: `Ambulai R. Sheku, of Providence, a former Senior Employment Interviewer at the Rhode Island Department of Labor and Training, abused his own authorized system access between June 2009 and February 2015 to change legitimate beneficiaries' mailing addresses, remove payment "stops," and approve ineligible claims, diverting more than $508,691 in unemployment insurance benefits to himself and conspirators. He was sentenced to 21 months in federal prison and ordered to pay $486,466 in restitution. Unlike the card-skimming fraud that drains a benefits account from the outside, this was an inside job by an employee with the authority to alter the state's own benefit records directly — a reminder that agencies need audit trails on address and payment-status changes made by their own staff, not just fraud controls aimed at outside actors.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'medium',
+    sources: ['U.S. Attorney\'s Office for the District of Rhode Island', 'ABC6 (WLNE)'],
+    sourceUrl: 'https://turnto10.com/news/local/former-dlt-worker-sentenced-in-500k-unemployment-insurance-fraud-scheme',
+    country: 'US',
+    state: 'RI',
+    isHistorical: true,
+});

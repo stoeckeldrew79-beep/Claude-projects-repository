@@ -10275,3 +10275,55 @@ UsGM.push({
     state: 'ND',
     firstRecorded: '2009-12-08',
 });
+
+UsGM.push({
+    name: 'Georgia DDS Forged Check Fraud Ring',
+    slug: 'georgia-dds-forged-check-fraud-ring',
+    description: `Georgia Attorney General Chris Carr announced on March 5, 2026 that four defendants — Ashanti Asberry, 26, of Lawrenceville; Aieriana Turner, 25, of Columbus; Nakesha Bryant, 40, of Richland; and Daria Martin, 25, of Bremen — had been indicted after the AG's White Collar and Cyber Crime Unit, working with the Georgia Department of Driver Services, found they had forged checks purporting to come from DDS and deposited them into their own personal bank accounts, despite having no employment or business relationship with the agency. Investigators tied the scheme, spread across cases in four Georgia counties between August 2025 and February 2026, to $53,616.02 in fraudulent deposits; Turner faces two counts each of theft by taking and forgery, and the other three defendants face one count each. The case is a reminder that forged-instrument fraud increasingly targets state agencies directly rather than individual consumers, and that a bank's own fraud-detection review of an unusual government-agency check is often what first catches this kind of scheme.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Georgia Attorney General\'s Office'],
+    sourceUrl: 'https://law.georgia.gov/press-releases/2026-03-05/carr-four-indicted-53k-fraud-targeting-georgia-department-driver-services',
+    country: 'US',
+    state: 'GA',
+    isHistorical: false,
+});
+
+UsGM.push({
+    name: 'XUSD "Asset-Backed" Crypto Investment Fraud (South Georgia)',
+    slug: 'georgia-xusd-crypto-investment-fraud-south-georgia',
+    description: `The South Georgia Judicial Circuit District Attorney's Office, along with the Baker County and Decatur County Sheriff's Offices, announced on March 3, 2026 that at least 22 identified victims across South Georgia had invested in a purported "asset-backed" cryptocurrency called XUSD, which promoters promised would launch within a month of January 2025 and then "immediately double in value" — a token that never materialized on any market. Victims collectively invested millions of dollars, and investigators believe there could be hundreds more victims across South Georgia, North Florida, and beyond; authorities set up a dedicated tip line for additional victims to come forward. Unlike a simple pump-and-dump traded on an exchange, this was a fabricated-stablecoin scheme built entirely on direct solicitation, underscoring that a coin's promised backing or fixed value means nothing without independent, verifiable proof it actually trades anywhere.`,
+    categorySlug: 'cryptocurrency-scams',
+    alertLevel: 'high',
+    sources: ['South Georgia Judicial Circuit District Attorney\'s Office', 'WALB'],
+    sourceUrl: 'https://www.walb.com/2026/03/03/nearly-two-dozen-people-across-south-ga-fall-victim-cryptocurrency-financial-fraud-investing-millions-dollars/',
+    country: 'US',
+    state: 'GA',
+    isHistorical: false,
+});
+
+UsGM.push({
+    name: 'Honolulu Fake QR-Code Parking Meter Sticker Scam',
+    slug: 'hawaii-honolulu-fake-qr-code-parking-meter-scam',
+    description: `In April 2023, Honolulu's Department of Transportation Services found roughly 200 counterfeit QR-code stickers pasted directly over the legitimate codes on the city's app-payment digital parking meters, concentrated in Waikiki and Kaka'ako. Scanning a fake sticker sent drivers to a phishing site rather than the real payment app, so instead of paying the city, drivers entered their card details straight to the people running the scam; nearby businesses reported customers unable to pay and reverting to coins while the fraudulent stickers were removed. Honolulu Police investigated and urged anyone who saw meters being tampered with by people without visible city identification to call 911, and reminded drivers to check that a meter's QR code matches the official "Park Smarter" branding before scanning.`,
+    categorySlug: 'qr-code-scams',
+    alertLevel: 'medium',
+    sources: ['Honolulu Department of Transportation Services', 'KITV'],
+    sourceUrl: 'https://www.kitv.com/news/crime/around-200-fake-honolulu-parking-stickers-found-on-meters-in-honolulu/article_34d51aec-d51b-11ed-8ba8-bf0a0acc01a7.html',
+    country: 'US',
+    state: 'HI',
+    isHistorical: false,
+});
+
+UsGM.push({
+    name: 'Wellness Pharmacy Medicare Billing Fraud (Henry Quan)',
+    slug: 'hawaii-honolulu-wellness-pharmacy-medicare-billing-fraud',
+    description: `As part of the Justice Department's 2026 National Health Care Fraud Takedown announced in June 2026, Henry Quan, 54, a registered pharmacist in Honolulu who controlled Wellness Pharmacy, was charged by criminal complaint with health care fraud for billing Medicare for high-cost prescription drugs — including the dry-eye medication Restasis — that were never actually dispensed to patients, causing a loss of at least $1.5 million. Prosecutors allege the pharmacy billed for medications it did not have on hand in sufficient supply to have genuinely filled the prescriptions claimed. The case is part of a broader nationwide health-care and opioid-fraud enforcement sweep and a reminder that Medicare beneficiaries should regularly check their own claims summary for prescriptions billed in their name that they never picked up.`,
+    categorySlug: 'medicare-health-plans',
+    alertLevel: 'medium',
+    sources: ['U.S. Department of Justice', 'Hawaii News Now'],
+    sourceUrl: 'https://www.hawaiinewsnow.com/2026/06/24/two-hawaii-charged-nationwide-health-care-fraud-opioid-crackdown/',
+    country: 'US',
+    state: 'HI',
+    isHistorical: false,
+});

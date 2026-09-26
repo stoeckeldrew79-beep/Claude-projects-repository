@@ -18088,6 +18088,38 @@ International.push(
     isHistorical: true,
     firstRecorded: '2021-04-01',
   },
+  {
+    name: 'Fake E-Commerce Store Impersonation Scam',
+    slug: 'sa-fake-ecommerce-store-impersonation-scam',
+    description: `Saudi Arabia's Ministry of Commerce documented a wave of fraudulent e-commerce websites impersonating trusted retailers and exploiting the country's own government branding to lure shoppers, renewing its warning to the public on April 1, 2021 after its monitoring teams uncovered 184 fraudulent links spread across dozens of fake stores, on top of a Chinese-operated storefront network it had already blocked. The fake sites typically use random, throwaway web addresses, are reachable only by email rather than a phone number or physical address, advertise almost exclusively through Twitter, Snapchat, and TikTok promotions, and display Arabic text and Saudi riyal pricing alongside cloned product photos and discounts steeper than the same items sell for on legitimate international sites — details designed to look local and trustworthy rather than like an anonymous overseas storefront. The scale of the risk was illustrated when Saudi real-estate trainer Naif Al-Jaweeni lost SR26,000 ($6,932) in just eight minutes after responding to a fraudulent email impersonating Saudi Post, tracing the loss back to a Danish-registered site called "Kiosk Bien"; after he went public with his story, other Saudis contacted him reporting a combined SR60,000 in similar losses from the same pattern. The ministry advises shoppers to copy any online store's commercial registration number and check it against the Ministry of Commerce's own database before paying, to avoid stores promoted only through social media ads with no verifiable storefront, and to report suspected fraud through the mci.gov.sa/C-app, the 1900 hotline, or the ministry's official website rather than attempting to resolve it directly with the seller.`,
+    categorySlug: 'online-shopping-scams',
+    sources: ['Ministry of Commerce (Saudi Arabia)', 'Arab News'],
+    sourceUrl: 'https://www.arabnews.com/node/1835416/saudi-arabia',
+    country: 'SA',
+    isHistorical: true,
+    firstRecorded: '2021-04-01',
+  },
+  {
+    name: 'Unlicensed Forex "Quick Profit" Trading Scam',
+    slug: 'sa-unlicensed-forex-quick-profit-trading-scam',
+    description: `Saudi Arabia's Standing Committee for Awareness and Warning of Unlicensed Forex Activity — a joint body drawing on the Capital Market Authority, the Ministry of Interior, the Ministry of Information, the Ministry of Commerce, and the Saudi Central Bank (SAMA) — issued a public alert on July 15, 2020 describing how unlicensed forex and digital-currency trading operators build false legitimacy before taking victims' money. The committee found operators misusing the logos of real government agencies and private companies, fabricating statements falsely attributed to government officials and public figures, planting fake news items showing officials appearing to "endorse" registration, copying the branding of real newspapers and commercial websites, and buying social-media promotions and influencer endorsements — all to make an unlicensed trading scheme look government-approved before ever asking for money. Once a victim clicked through, they were led to a page collecting personal and financial information under the promise of "quick financial gains," a pattern regulators say has helped drain more than SR38 billion (roughly $10.13 billion) from Saudi investors over five years, with operators offering credit facilities and leverage advertised as high as 700 percent before liquidating client funds and disappearing; in one case highlighted by authorities, a lawyer paid SR10,000 after being promised a 30 percent profit and later discovered the platform was fraudulent. The committee urges the public to invest only through entities licensed and supervised by CMA or SAMA, to treat any promise of outsized, fast returns as a warning sign rather than an opportunity, and to report suspicious investment solicitations to the relevant regulator instead of engaging with the offer.`,
+    categorySlug: 'investment-fraud',
+    sources: ['Saudi Central Bank (SAMA)', 'Capital Market Authority (Saudi Arabia)', 'Arab News'],
+    sourceUrl: 'https://www.sama.gov.sa/en-US/MediaCenter/News/pages/news-590.aspx',
+    country: 'SA',
+    isHistorical: true,
+    firstRecorded: '2020-07-15',
+  },
+  {
+    name: 'Fake "Digital Identity" Business Data-Harvesting Platforms',
+    slug: 'sa-fake-digital-identity-business-data-harvesting-scam',
+    description: `Saudi Arabia's Ministry of Commerce warned business owners on August 8, 2026 about a rising wave of unverified websites and platforms marketing themselves as official "digital identity preservation" services for commercial establishments, cautioning that a platform's use of a government-style logo or name is, on its own, no proof it has any real government connection. The fraudulent platforms solicit and consolidate an establishment's full commercial and financial profile in one place — commercial registration numbers, tax identification numbers, national address details, contact information, bank account and IBAN numbers, and supporting documents and attachments — data that, once pooled outside any regulated channel, the ministry said leaves businesses exposed to "misuse... or sharing it with third parties" whenever the platform's legal status and data-handling practices can't actually be verified. The ministry stressed that its own legitimate services are accessed only through verified official government channels, and it urged businesses to confirm both the identity of any entity requesting their data and the specific legal basis it claims for collecting and processing that data before uploading anything, to never hand over passwords, verification codes, or banking credentials to such a platform regardless of how official it looks, and to decline any request for more data than a stated service genuinely requires. Businesses that encounter one of these platforms are directed to report it through the ministry's official channels, including the unified 1900 number, rather than continuing to interact with it.`,
+    categorySlug: 'identity-theft',
+    sources: ['Ministry of Commerce (Saudi Arabia)', 'Ajel'],
+    sourceUrl: 'https://ajel.sa/local/a47gxlspw',
+    country: 'SA',
+    firstRecorded: '2026-08-08',
+  },
 );
 
 International.push(
@@ -18319,6 +18351,42 @@ International.push(
     country: 'BG',
     isHistorical: true,
     firstRecorded: '2014-10-01',
+  },
+);
+
+International.push(
+  {
+    name: 'Bulgaria Binary Options and CFD Call-Center Fraud Ring',
+    slug: 'bulgaria-binary-options-investment-fraud-ring',
+    description: `In May 2021, Bulgarian authorities coordinated by Eurojust with counterparts in Germany, North Macedonia, Spain, Poland, Sweden, and Israel raided 21 premises — call centers, offices, and residences — across Sofia, Mezdra, and Varna, dismantling a call-center operation accused of defrauding investors of roughly €30 million through fraudulent binary options and CFD trading platforms. Investigators seized 68 computer systems, 43 storage devices, and 19 mobile phones, and detained five people, including the alleged Israeli ringleader, who was caught trying to flee Bulgaria as the raids began. Victims were cold-called by staff posing as brokers and pressured into depositing funds on unlicensed platforms designed to show fabricated gains that could never actually be withdrawn. The scale of the coordinated takedown — spanning six countries and a single Bulgaria-based operation — illustrates how binary options fraud rings deliberately locate call centers away from their victims' home countries specifically to frustrate any one national regulator from acting alone.`,
+    categorySlug: 'investment-fraud',
+    sources: ['Eurojust', 'Finance Magnates'],
+    sourceUrl: 'https://www.financemagnates.com/binary-options/bulgaria-raids-operations-of-e30-million-binary-options-fraud/',
+    country: 'BG',
+    isHistorical: true,
+    firstRecorded: '2021-05-01',
+  },
+  {
+    name: 'UBB Bank-Employee Impersonation Vishing Scam',
+    slug: 'bulgaria-bank-employee-vishing-scam',
+    description: `United Bulgarian Bank (UBB), one of Bulgaria's largest banks, issued a formal customer warning after fraudsters began cold-calling its clients while claiming to be UBB staff who had detected "unauthorized access" to their online or mobile banking. Callers pressure victims to "confirm" fake transactions, pitch bogus cyber-fraud insurance, or push fake security apps, all to harvest usernames, passwords, one-time verification codes, and card details, or to talk victims into wiring money directly to the fraudsters. UBB's alert states explicitly that the bank "never requires provision of such data over the phone or by email," and Bulgarian police have since reported a continuing surge of this same impersonation-vishing pattern targeting elderly account holders nationwide. Anyone who receives an unsolicited call from someone claiming to work at their bank should hang up and call back using the number printed on their own card or statement, never a number the caller provides.`,
+    categorySlug: 'phishing',
+    sources: ['United Bulgarian Bank (UBB)', 'Novinite'],
+    sourceUrl: 'https://www.ubb.bg/en/news/view/preduprejdenie-za-nov-vid-telefonna-izmama',
+    country: 'BG',
+    isHistorical: false,
+    firstRecorded: '2021-10-25',
+  },
+  {
+    name: '"Help the Police" Cash-Handover Phone Scam',
+    slug: 'bulgaria-police-impersonation-cash-scam',
+    description: `A recurring Bulgarian phone-fraud pattern in which callers falsely identify themselves as police officers, tell the victim a "criminal gang" is targeting their bank account, and ask the victim to help "catch the fraudsters" by withdrawing their own savings and leaving the cash at designated points around the city. In one documented case, a 73-year-old pensioner in Sofia was persuaded by callers posing as officers to hand over 100,000 Bulgarian lev by depositing it at several locations along Tsar Boris III Boulevard; Bulgaria's Ministry of Interior subsequently issued a public warning urging citizens never to give money to strangers under any circumstances, regardless of who the caller claims to be. Sofia police's fraud unit continues to report dozens of these police-impersonation calls targeting elderly residents each year, sometimes using courier "mules" to physically collect the cash rather than a bank transfer. Real police never ask a crime victim to withdraw and hand over their own savings as part of an "investigation."`,
+    categorySlug: 'government-impersonation',
+    sources: ['Bulgarian Ministry of Interior (МВР)', 'Novinite'],
+    sourceUrl: 'https://www.novinite.com/articles/184267/73-year-old+Man+gave+BGN+100+000+to+Telephone+Scammers+in+Sofia',
+    country: 'BG',
+    isHistorical: false,
+    firstRecorded: '2017-10-14',
   },
 );
 
@@ -20683,38 +20751,6 @@ International.push(
     sourceUrl: 'https://www.comoresinfos.net/escroquerie-a-grande-echelle-la-sonelec-alerte-sur-les-agissements-dibrahim-abdallah-le-faussaire-de-confiance/',
     country: 'KM',
   },
-  {
-    name: 'Fake E-Commerce Store Impersonation Scam',
-    slug: 'sa-fake-ecommerce-store-impersonation-scam',
-    description: `Saudi Arabia's Ministry of Commerce documented a wave of fraudulent e-commerce websites impersonating trusted retailers and exploiting the country's own government branding to lure shoppers, renewing its warning to the public on April 1, 2021 after its monitoring teams uncovered 184 fraudulent links spread across dozens of fake stores, on top of a Chinese-operated storefront network it had already blocked. The fake sites typically use random, throwaway web addresses, are reachable only by email rather than a phone number or physical address, advertise almost exclusively through Twitter, Snapchat, and TikTok promotions, and display Arabic text and Saudi riyal pricing alongside cloned product photos and discounts steeper than the same items sell for on legitimate international sites — details designed to look local and trustworthy rather than like an anonymous overseas storefront. The scale of the risk was illustrated when Saudi real-estate trainer Naif Al-Jaweeni lost SR26,000 ($6,932) in just eight minutes after responding to a fraudulent email impersonating Saudi Post, tracing the loss back to a Danish-registered site called "Kiosk Bien"; after he went public with his story, other Saudis contacted him reporting a combined SR60,000 in similar losses from the same pattern. The ministry advises shoppers to copy any online store's commercial registration number and check it against the Ministry of Commerce's own database before paying, to avoid stores promoted only through social media ads with no verifiable storefront, and to report suspected fraud through the mci.gov.sa/C-app, the 1900 hotline, or the ministry's official website rather than attempting to resolve it directly with the seller.`,
-    categorySlug: 'online-shopping-scams',
-    sources: ['Ministry of Commerce (Saudi Arabia)', 'Arab News'],
-    sourceUrl: 'https://www.arabnews.com/node/1835416/saudi-arabia',
-    country: 'SA',
-    isHistorical: true,
-    firstRecorded: '2021-04-01',
-  },
-  {
-    name: 'Unlicensed Forex "Quick Profit" Trading Scam',
-    slug: 'sa-unlicensed-forex-quick-profit-trading-scam',
-    description: `Saudi Arabia's Standing Committee for Awareness and Warning of Unlicensed Forex Activity — a joint body drawing on the Capital Market Authority, the Ministry of Interior, the Ministry of Information, the Ministry of Commerce, and the Saudi Central Bank (SAMA) — issued a public alert on July 15, 2020 describing how unlicensed forex and digital-currency trading operators build false legitimacy before taking victims' money. The committee found operators misusing the logos of real government agencies and private companies, fabricating statements falsely attributed to government officials and public figures, planting fake news items showing officials appearing to "endorse" registration, copying the branding of real newspapers and commercial websites, and buying social-media promotions and influencer endorsements — all to make an unlicensed trading scheme look government-approved before ever asking for money. Once a victim clicked through, they were led to a page collecting personal and financial information under the promise of "quick financial gains," a pattern regulators say has helped drain more than SR38 billion (roughly $10.13 billion) from Saudi investors over five years, with operators offering credit facilities and leverage advertised as high as 700 percent before liquidating client funds and disappearing; in one case highlighted by authorities, a lawyer paid SR10,000 after being promised a 30 percent profit and later discovered the platform was fraudulent. The committee urges the public to invest only through entities licensed and supervised by CMA or SAMA, to treat any promise of outsized, fast returns as a warning sign rather than an opportunity, and to report suspicious investment solicitations to the relevant regulator instead of engaging with the offer.`,
-    categorySlug: 'investment-fraud',
-    sources: ['Saudi Central Bank (SAMA)', 'Capital Market Authority (Saudi Arabia)', 'Arab News'],
-    sourceUrl: 'https://www.sama.gov.sa/en-US/MediaCenter/News/pages/news-590.aspx',
-    country: 'SA',
-    isHistorical: true,
-    firstRecorded: '2020-07-15',
-  },
-  {
-    name: 'Fake "Digital Identity" Business Data-Harvesting Platforms',
-    slug: 'sa-fake-digital-identity-business-data-harvesting-scam',
-    description: `Saudi Arabia's Ministry of Commerce warned business owners on August 8, 2026 about a rising wave of unverified websites and platforms marketing themselves as official "digital identity preservation" services for commercial establishments, cautioning that a platform's use of a government-style logo or name is, on its own, no proof it has any real government connection. The fraudulent platforms solicit and consolidate an establishment's full commercial and financial profile in one place — commercial registration numbers, tax identification numbers, national address details, contact information, bank account and IBAN numbers, and supporting documents and attachments — data that, once pooled outside any regulated channel, the ministry said leaves businesses exposed to "misuse... or sharing it with third parties" whenever the platform's legal status and data-handling practices can't actually be verified. The ministry stressed that its own legitimate services are accessed only through verified official government channels, and it urged businesses to confirm both the identity of any entity requesting their data and the specific legal basis it claims for collecting and processing that data before uploading anything, to never hand over passwords, verification codes, or banking credentials to such a platform regardless of how official it looks, and to decline any request for more data than a stated service genuinely requires. Businesses that encounter one of these platforms are directed to report it through the ministry's official channels, including the unified 1900 number, rather than continuing to interact with it.`,
-    categorySlug: 'identity-theft',
-    sources: ['Ministry of Commerce (Saudi Arabia)', 'Ajel'],
-    sourceUrl: 'https://ajel.sa/local/a47gxlspw',
-    country: 'SA',
-    firstRecorded: '2026-08-08',
-  },
 );
 
 International.push({
@@ -22145,6 +22181,181 @@ International.push({
 });
 
 International.push({
+  name: 'Fake QR-Code "Quishing" Scam on Parking Meters',
+  slug: 'belgium-fake-qr-code-parking-meter-quishing-scam',
+  description: `Belgian police forces across the country — from Brussels to Bruges, Ghent, Ostend, and Ypres — have repeatedly warned of "quishing": fraudsters sticking a counterfeit QR-code sticker directly over the genuine one on a public parking meter, so a driver paying for parking is instead routed to a lookalike payment page that harvests card numbers and banking credentials. VRT NWS reported that on June 24, 2026, an alert parking attendant in Ypres discovered fake QR-code stickers less than a week old on the town's meters, timed, the mayor suggested, to catch visitors in town for the Ypres Rally who wouldn't recognize the normal payment process; a near-identical sticker turned up the same week in Ostend, and Brussels and Bruges police have logged similar clusters — one in Bruges spanning 17 separate machines — since late 2024. Victims who scan the fake code are typically asked to "pay" an inflated fee (one flagged page demanded €10, well above the local rate) by entering full card details on a page built to mimic the real parking operator's site. Anyone who has scanned and paid through such a code is advised to block their card immediately via Card Stop and file a police report, to check a code before trusting it (feeling for a stuck-on sticker's raised edge, or verifying the resulting web address), and to report suspicious codes to suspect@safeonweb.be.`,
+  categorySlug: 'qr-code-scams',
+  sources: ['VRT NWS', 'Local Police (Ypres, Bruges, Brussels, Ghent, Ostend)', 'Safeonweb'],
+  sourceUrl: 'https://www.vrt.be/vrtnws/nl/2026/06/24/valse-qr-codes-op-parkeerautomaten-ieper/',
+  country: 'BE',
+});
+
+International.push({
+  name: 'FSMA-Flagged "AI Investment" Trading Platform Fraud',
+  slug: 'belgium-fsma-ai-investment-platform-fraud',
+  description: `Belgium's Financial Services and Markets Authority (FSMA) warned on May 15, 2025 of a growing wave of fraudulent online trading platforms that market themselves specifically around artificial intelligence, promising an "AI-driven algorithm" can turn a deposit as small as €250 into fast, outsized profits. Victims are recruited through fake celebrity-endorsed ads, unsolicited WhatsApp, SMS or Telegram messages, or slick "AI investment" websites; once they deposit funds, the platform's dashboard displays fabricated running profits while the operators call repeatedly, dangle limited-time bonuses, and pressure the victim into depositing progressively larger sums. When a victim tries to withdraw money, the platform invents a fee, tax, or verification charge that must be paid first, and ultimately disappears with everything deposited; the FSMA's alert named 29 such platforms then circulating, including AIO Markets, Megacix, DaxFinances, and clones impersonating real firms such as Interactive Brokers. The FSMA, which maintains a public blacklist of platforms confirmed to be operating unlawfully in Belgium, advises checking any such platform against that list before depositing anything, stopping all further payments and contacting one's bank immediately if money has already been sent, and watching for a second-wave "asset recovery" scam that targets the same victims again by promising, for an upfront fee, to get the lost funds back.`,
+  categorySlug: 'investment-fraud',
+  sources: ['FSMA (Financial Services and Markets Authority)'],
+  sourceUrl: 'https://www.fsma.be/en/warnings/invest-ai-and-become-rich-250-euros-beware-fraud',
+  country: 'BE',
+});
+
+International.push({
+  name: 'Home-Repair "Hersteldiensten" Bait-and-Switch Overcharge Fraud',
+  slug: 'belgium-home-repair-service-overcharge-fraud',
+  description: `FOD Economie (Belgium's federal economy ministry) reported on August 14, 2026 that complaints about fraudulent home-repair services — plumbers, electricians, heating technicians, and roofers hired urgently after a burst pipe, electrical fault, or storm damage — had nearly doubled year over year, from 1,068 reports in 2024 to 2,031 in 2025, with a further 1,134 logged in just the first half of 2026. The pattern: a "technician" reachable through an ad or cold call quotes an attractively low callout price, such as €150, over the phone, then, once on site and the immediate problem exposed, presents a wildly inflated final bill — commonly €900 to €1,200 or more — for supposedly necessary extra work, banking on the homeowner's urgency and reluctance to argue mid-repair. FOD Economie nearly tripled its inspections in 2025 (280, up from 93 in 2024), which turned up 1,276 violations, and has published and blocked 77 fraudulent repair-service websites, redirecting visitors to a warning page. The ministry's advice is to always get a full written estimate — covering labor, parts, and travel costs — before work begins, to be wary of unusually low initial quotes, to compare several providers rather than accept the first one available, to never sign a blank form or pay in full on the spot, and to report suspected fraud through the ConsumerConnect service.`,
+  categorySlug: 'home-improvement-solar',
+  sources: ['FOD Economie (Belgian Federal Public Service Economy)'],
+  sourceUrl: 'https://news.economie.fgov.be/269011-meldingen-over-hersteldiensten-blijven-stijgen',
+  country: 'BE',
+});
+
+International.push({
+  name: 'Fake Superintendencia Financiera Loan and Credit Card Phone Scam',
+  slug: 'colombia-sfc-impersonation-loan-phone-scam',
+  description: `On September 10, 2026, Colombia's Superintendencia Financiera (SFC) issued a public alert after criminals began cold-calling consumers while posing as SFC officials, using the regulator's name to build instant credibility before pitching a credit card, loan, or other financial product the agency does not actually offer. The SFC stated plainly that it does not offer, process, or manage any credit or savings product itself, and warned that no legitimate lender requires a borrower to deposit, wire, or hand over money before a loan is disbursed. Consumers who get such a call are told never to share account numbers, passwords, or balances, and to be suspicious of any loan promising fast approval with minimal paperwork. The SFC directs anyone targeted to verify a caller's identity through its own official channels rather than trusting the call.`,
+  categorySlug: 'government-impersonation',
+  alertLevel: 'medium',
+  sources: ['Superintendencia Financiera de Colombia (SFC)', 'Semana', 'HSB Noticias'],
+  sourceUrl: 'https://www.superfinanciera.gov.co/publicaciones/10116250/alerta-no-se-deje-enganar-la-superintendencia-financiera-no-ofrece-tarjetas-de-credito-creditos-o-cualquier-otro-producto-o-servicio-financiero/',
+  country: 'CO',
+  firstRecorded: '2026-09-10',
+});
+
+International.push({
+  name: 'Amor y Amistad Fake Online Gift Store Scams',
+  slug: 'colombia-amor-y-amistad-fake-online-store-scam',
+  description: `Colombia's national police cyber unit (DIJIN's Centro Cibernético Policial) issued a public alert on September 19, 2026 — the country's Amor y Amistad ("Love and Friendship") holiday — warning that fraud rings ramp up fake online stores each year to cash in on gift-buying for the occasion. Scammers advertise flowers, surprise breakfasts, perfumes, farmhouse rentals, and travel packages at steep 50–70% discounts through social media posts and text-message links, collect payment upfront, and vanish without delivering anything; police describe the rings as organized networks that split roles among people who build the ads, run the fraudulent sites, and manage the bank accounts receiving the money. In the same briefing, police said they had identified more than 3,600 victims of digital fraud nationwide in 2026 and had recovered roughly 4.8 billion pesos in cryptocurrency tied to fraud cases over the prior year. The alert urges shoppers to type a retailer's web address in directly rather than clicking a link from an unknown number, to be wary of any seller pushing the conversation off-platform onto WhatsApp or Telegram, and to report suspected fraud via the CAI Virtual platform or the police WhatsApp line at 323 273 3411.`,
+  categorySlug: 'online-shopping-scams',
+  alertLevel: 'medium',
+  sources: ['Policía Nacional de Colombia (Centro Cibernético Policial / DIJIN)', 'El País (Cali)', 'Infobae Colombia'],
+  sourceUrl: 'https://www.elpais.com.co/colombia/mas-de-3600-victimas-de-estafa-han-sido-identificadas-en-2026-asi-operan-los-delincuentes-en-amor-y-amistad-1853.html',
+  country: 'CO',
+  firstRecorded: '2026-09-19',
+});
+
+International.push({
+  name: 'Virtual "Gota a Gota" Predatory Loan App Extortion',
+  slug: 'colombia-gota-a-gota-virtual-loan-app-scam',
+  description: `Colombia's Superintendencia Financiera (SFC) maintains a standing consumer alert about "gota a gota virtual" — unlicensed lending apps and web platforms advertised through social media, text messages, and app-store listings that promise fast, low-document loans. To get the loan, an applicant must first accept broad terms that grant the app access to their phone's contacts, photos, and stored data; the SFC warns some operators then use that harvested information to pressure early repayment, charge interest far above what any regulated lender could legally impose, or, in the worst cases, message the borrower's own contacts and circulate their photos to coerce payment. Because many of these apps are run from outside Colombia, the SFC says it often lacks jurisdiction to act directly and instead refers victims to the Fiscalía General de la Nación, the Policía Nacional, or the Superintendencia de Industria y Comercio (SIC). The SFC recommends checking an app's user reviews and ratings before installing it and confirming with the SIC whether a lending platform is legally authorized before downloading it or granting it any permissions.`,
+  categorySlug: 'identity-theft',
+  alertLevel: 'high',
+  sources: ['Superintendencia Financiera de Colombia (SFC)'],
+  sourceUrl: 'https://www.superfinanciera.gov.co/publicaciones/10115253/no-caiga-en-el-gota-a-gota-virtual/',
+  country: 'CO',
+});
+
+International.push({
+  name: 'Luxembourg Fake Supermarket Contest Hacked-Account OTP Theft',
+  slug: 'luxembourg-fake-contest-hacked-account-otp-theft',
+  description: `The Grand Ducal Police warned on January 26, 2026 of scammers who take over a victim's friend's Facebook account and use it to message other contacts on Messenger, inviting them to a "contest" supposedly run by a well-known retailer such as Cactus or Delhaize with a large cash prize to be split among winners. The conversation moves to WhatsApp, the victim fills out a form with personal data, and is then told a six-digit code will arrive by text to "confirm their winnings" — but sharing that code actually hands the scammer access to the victim's phone and online banking. To keep victims compliant, fraudsters show fake gift certificates or doctored bank statements appearing to show money already transferred, while pressuring them to act fast. Never share a verification code you receive by SMS with anyone, and treat any prize offer arriving through a friend's account — even a real one — as a hacked account until you confirm it with that friend by phone.`,
+  categorySlug: 'account-takeover',
+  alertLevel: 'high',
+  sources: ['Police Grand-Ducale (Grand Ducal Police), Luxembourg'],
+  sourceUrl: 'https://police.public.lu/fr/actualites/2026/01/semaine-05/escroquerie-faux-jeux-concours.html',
+  country: 'LU',
+  firstRecorded: '2026-01-26',
+});
+
+International.push({
+  name: 'Luxembourg Doorstep Roof and Yard-Work Fraud',
+  slug: 'luxembourg-doorstep-roof-yard-work-fraud',
+  description: `The Grand Ducal Police warned on September 24, 2026 about unsolicited workers turning up unannounced at private homes offering roof repair, facade or plastering work, or paving, then pressuring the resident to accept and pay immediately after a cursory inspection. On September 21, two men offered roof repairs at a home on Rue de Hamm in Bonneweg, examined the roof, then pressured the resident to pay on the spot before leaving when the homeowner refused; on September 23, similar workers carried out paving on private property in Rambrouch, and when police inspected the site afterward they found the completed work was deficient and the workers' paperwork and permits irregular. Be wary of any unsolicited door-to-door offer for roof, facade, or paving work, never agree to pay before independently verifying who you're dealing with, and call the police at the first sign something is off rather than after money has changed hands.`,
+  categorySlug: 'home-improvement-solar',
+  alertLevel: 'medium',
+  sources: ['Police Grand-Ducale (Grand Ducal Police), Luxembourg'],
+  sourceUrl: 'https://police.public.lu/fr/actualites/2026/09/semaine-40/arnaque-offres-frauduleuses-travaux.html',
+  country: 'LU',
+  firstRecorded: '2026-09-21',
+});
+
+International.push({
+  name: 'Luxembourg Fake Police Traffic-Fine SMS Scam',
+  slug: 'luxembourg-fake-police-traffic-fine-sms-scam',
+  description: `The Grand Ducal Police has repeatedly warned — most recently in an alert dated June 3, 2026 — that fraudulent text messages, some sent from Philippine phone numbers with the sender display name spoofed to read "Police Grand-Ducale," falsely notify recipients of a traffic violation and press them to pay an "avertissement taxé" (fixed penalty) right away. The police state plainly that genuine fine notices in Luxembourg are always sent by post, never by SMS or email, and caution that even a text appearing to come from a Luxembourg number proves nothing, since scammers can spoof caller ID to display any number they choose. If you receive such a message, do not click any link or pay anything under pressure; instead contact the police directly through official channels to check, and warn older relatives, who the police note are a particular target.`,
+  categorySlug: 'phishing',
+  alertLevel: 'medium',
+  sources: ['Police Grand-Ducale (Grand Ducal Police), Luxembourg', 'Chronicle.lu'],
+  sourceUrl: 'https://www.chronicle.lu/category/luxembourg/61563-police-warn-of-fake-fine-payment-requests-by-sms',
+  country: 'LU',
+  firstRecorded: '2026-06-03',
+});
+
+International.push({
+  name: 'Luxembourg LuxTrust Migration Phishing Scam',
+  slug: 'luxembourg-luxtrust-migration-phishing',
+  description: `BEE SECURE, Luxembourg's government-backed cybersecurity and consumer-safety body, warned on October 10, 2024 of a rise in fraud attempts exploiting the mandatory migration from LuxTrust's physical authentication tokens to the LuxTrust Mobile app, a deadline that took effect January 1, 2025. Scammers contact residents by email, SMS, phone, or a combination of the three, posing as LuxTrust representatives and asking the victim to "confirm" or hand over their LuxTrust login credentials to complete the switch — access that then lets the fraudster impersonate the victim to reach bank accounts and other services tied to Luxembourg's national digital-identity system. BEE SECURE states plainly that LuxTrust will never ask for these credentials by email, SMS, or phone, and that any migration should only be completed directly through the official luxtrust.com site or by calling LuxTrust's own verified number. Anyone who has already shared credentials is urged to contact their bank and LuxTrust immediately, file a police report, and call the free BEE SECURE Helpline.`,
+  categorySlug: 'phishing',
+  alertLevel: 'medium',
+  sources: ['BEE SECURE (Luxembourg government cybersecurity and consumer-safety service)'],
+  sourceUrl: 'https://www.bee-secure.lu/fr/news/augmentation-des-signalements-descroqueries-liees-a-luxtrust/',
+  country: 'LU',
+  firstRecorded: '2024-10-10',
+});
+
+International.push({
+  name: 'Luxembourg Fake CIRCL/LHC Tech-Support Phone Scam',
+  slug: 'luxembourg-fake-circl-lhc-tech-support-scam',
+  description: `The BEE SECURE Helpline warned on March 17, 2023 of callers using masked or spoofed numbers who claim to be from CIRCL (Computer Incident Response Center Luxembourg) or LHC (Luxembourg House of Cybersecurity) — Luxembourg's own national cybersecurity bodies — telling the victim their computer is riddled with viruses or system errors. The caller then talks the victim into installing remote-access software such as TeamViewer to supposedly "clean" the machine, which instead hands the scammer direct control to demand payment, push subscriptions, harvest banking credentials and one-time codes, or plant malware. BEE SECURE describes it as social engineering that borrows the credibility of Luxembourg's real incident-response agencies, and advises anyone who receives such a call to hang up, never install remote-access software at a cold caller's direction, and — if already compromised — disconnect from the internet, back up data externally, reset the machine, and change all saved passwords before calling the BEE SECURE Helpline or CIRCL directly.`,
+  categorySlug: 'tech-support-scams',
+  alertLevel: 'medium',
+  sources: ['BEE SECURE Helpline, Luxembourg'],
+  sourceUrl: 'https://www.bee-secure.lu/fr/news/larnaque-du-moment-attention-aux-soi-disant-appels-telephoniques-du-circl-et-lhc/',
+  country: 'LU',
+  firstRecorded: '2023-03-17',
+});
+
+International.push({
+  name: 'Caritas Luxembourg €61 Million "CEO Fraud" (Fraude au Président)',
+  slug: 'luxembourg-caritas-ceo-fraud',
+  description: `Caritas Luxembourg, one of the Grand Duchy's largest charities, filed a criminal complaint in July 2024 after discovering it had lost roughly €61 million to a "fraude au président" (CEO fraud) scheme, in which a fraudster impersonating a senior figure at the organization pressured a staff member into bypassing normal authorization procedures to approve what looked like legitimate payments. The Luxembourg public prosecutor's office confirmed in an August 2024 communiqué that the case fits the classic CEO-fraud pattern — a caller or emailer posing as a company leader demanding an urgent, confidential transfer — and investigators traced roughly 8,200 rapid bank transactions moving the stolen funds through accounts abroad, primarily in Spain, with organized cross-border involvement suspected; the person initially suspected of orchestrating the fraud was later determined to have herself been a victim of the impersonation. Luxembourg's financial regulator, the CSSF, separately fined the state-owned bank Spuerkeess nearly €5 million in 2025 over anti-money-laundering control failures tied to the case. The case is one of the largest CEO-fraud losses ever disclosed by a nonprofit, and Luxembourg authorities cite it as a reminder that any request to rush a transfer in secret, from someone claiming executive authority, should be independently verified through a separately obtained contact before any money moves.`,
+  categorySlug: 'business-email-compromise',
+  alertLevel: 'high',
+  sources: ['Parquet de Luxembourg (Luxembourg Public Prosecutor\'s Office)', 'Delano News'],
+  sourceUrl: 'https://justice.public.lu/fr/actualites/2024/08/communique-pl-affaire-caritas-ceo-fraud.html',
+  country: 'LU',
+  isHistorical: true,
+  firstRecorded: '2024-07-19',
+});
+
+International.push({
+  name: 'Slovak "New Number" WhatsApp Family Emergency Scam',
+  slug: 'slovakia-new-number-whatsapp-family-emergency-scam',
+  description: `An SMS arrives claiming to be from the recipient's child using a new number after breaking their phone, moving the conversation to WhatsApp where the "child" asks the parent to urgently pay a bill or transfer money because they can't access their own banking app, sometimes later asking for a photo of the parent's payment card. The Police Force of the Slovak Republic publicly warned in November 2025 that the scheme deliberately targets parental fear and pushes victims to act before verifying anything, urging recipients to call their child back on the original saved number rather than the new one. Slovenská sporiteľňa separately documented the broader "fake family" fraud category rocketing from roughly €13,000 in attempted losses in 2023 to €39,710 in 2024 — a roughly 3,000% year-on-year rise — and €436,222 identified in just January-February 2025, with average per-victim losses of about €1,400.`,
+  categorySlug: 'family-emergency-scams',
+  alertLevel: 'medium',
+  sources: ['Police Force of the Slovak Republic (Policajný zbor SR)', 'Pravda.sk', 'Slovenská sporiteľňa'],
+  sourceUrl: 'https://www.pravda.sk/uzitocna/spotrebitel/clanok/774290-policia-informuje-pozor-na-novu-vlnu-podvodov-cez-spravy-mozete-prist-o-mnozstvo-penazi',
+  country: 'SK',
+  firstRecorded: '2025-11-11',
+});
+
+International.push({
+  name: 'Bratislava Fake QR-Code Sticker Parking-Meter Scam',
+  slug: 'slovakia-bratislava-fake-qr-code-parking-meter-scam',
+  description: `Fraudsters stuck fake QR-code stickers directly over the genuine codes on Bratislava parking meters — documented at the Riazanská/Hálková intersection, on Heydukova, and on Kamenné námestie — so that a driver scanning what looks like the normal payment code is instead redirected to a fraudulent payment page. Bratislava city hall recorded about 10 instances of swapped stickers across the city's roughly 200 meters. Municipal police communications chief Peter Borko said crews inspect terminals regularly but scammers can reapply fake stickers after removal, city hall spokesperson Peter Bubla noted the genuine on-meter QR code only displays payment information and never links straight to a payment gateway, and National Bank of Slovakia spokesperson Peter Majer advised checking any QR-linked website for a misspelled or unusual domain before entering payment details.`,
+  categorySlug: 'qr-code-scams',
+  alertLevel: 'medium',
+  sources: ['Správy STVR', 'Magistrát hlavného mesta SR Bratislavy', 'Národná banka Slovenska (NBS)'],
+  sourceUrl: 'https://spravy.stvr.sk/2025/04/pozor-na-falosne-qr-kody-na-parkomatoch-podvodnici-v-bratislave-zneuzivaju-ludsku-nevsimavost/',
+  country: 'SK',
+  firstRecorded: '2025-04-30',
+});
+
+International.push({
+  name: 'Bazoš.sk Fake-Buyer Courier-Link Phishing Scam',
+  slug: 'slovakia-bazos-fake-buyer-courier-phishing-scam',
+  description: `On the popular Slovak classifieds site Bazoš.sk, a "buyer" contacts a seller in chat expressing urgent interest and offering to pay immediately — but instead of a real bank transfer, sends a link to a convincing fake payment or courier-service page that asks the seller to enter their payment card details to "receive" the money, draining the card instead. Slovak banks VÚB and Tatra banka, quoted via the SITA news agency, advise sellers who fall for it to contact their bank immediately and file a police report, since each reported case helps banks flag the receiving account, and police recommend treating any buyer who refuses phone contact, rushes the deal, or asks for card details as a red flag rather than a legitimate purchase.`,
+  categorySlug: 'online-shopping-scams',
+  alertLevel: 'medium',
+  sources: ['SITA', 'VÚB banka', 'Tatra banka', 'Polícia Slovenskej republiky'],
+  sourceUrl: 'https://sita.sk/podvody-pri-nakupoch-na-online-bazaroch-nahlaste-banke-aj-policii/',
+  country: 'SK',
+  isHistorical: true,
+  firstRecorded: '2023-04-19',
+});
+
+International.push({
     name: "Tonga Police Warning: \"Anthony Heich\" Facebook Romance Scam Using Forged Documents",
     slug: "anthony-heich-facebook-romance-scam-forged-documents",
     description:
@@ -22265,107 +22476,6 @@ International.push({
 });
 
 International.push({
-  name: 'Fake QR-Code "Quishing" Scam on Parking Meters',
-  slug: 'belgium-fake-qr-code-parking-meter-quishing-scam',
-  description: `Belgian police forces across the country — from Brussels to Bruges, Ghent, Ostend, and Ypres — have repeatedly warned of "quishing": fraudsters sticking a counterfeit QR-code sticker directly over the genuine one on a public parking meter, so a driver paying for parking is instead routed to a lookalike payment page that harvests card numbers and banking credentials. VRT NWS reported that on June 24, 2026, an alert parking attendant in Ypres discovered fake QR-code stickers less than a week old on the town's meters, timed, the mayor suggested, to catch visitors in town for the Ypres Rally who wouldn't recognize the normal payment process; a near-identical sticker turned up the same week in Ostend, and Brussels and Bruges police have logged similar clusters — one in Bruges spanning 17 separate machines — since late 2024. Victims who scan the fake code are typically asked to "pay" an inflated fee (one flagged page demanded €10, well above the local rate) by entering full card details on a page built to mimic the real parking operator's site. Anyone who has scanned and paid through such a code is advised to block their card immediately via Card Stop and file a police report, to check a code before trusting it (feeling for a stuck-on sticker's raised edge, or verifying the resulting web address), and to report suspicious codes to suspect@safeonweb.be.`,
-  categorySlug: 'qr-code-scams',
-  sources: ['VRT NWS', 'Local Police (Ypres, Bruges, Brussels, Ghent, Ostend)', 'Safeonweb'],
-  sourceUrl: 'https://www.vrt.be/vrtnws/nl/2026/06/24/valse-qr-codes-op-parkeerautomaten-ieper/',
-  country: 'BE',
-});
-
-International.push({
-  name: 'FSMA-Flagged "AI Investment" Trading Platform Fraud',
-  slug: 'belgium-fsma-ai-investment-platform-fraud',
-  description: `Belgium's Financial Services and Markets Authority (FSMA) warned on May 15, 2025 of a growing wave of fraudulent online trading platforms that market themselves specifically around artificial intelligence, promising an "AI-driven algorithm" can turn a deposit as small as €250 into fast, outsized profits. Victims are recruited through fake celebrity-endorsed ads, unsolicited WhatsApp, SMS or Telegram messages, or slick "AI investment" websites; once they deposit funds, the platform's dashboard displays fabricated running profits while the operators call repeatedly, dangle limited-time bonuses, and pressure the victim into depositing progressively larger sums. When a victim tries to withdraw money, the platform invents a fee, tax, or verification charge that must be paid first, and ultimately disappears with everything deposited; the FSMA's alert named 29 such platforms then circulating, including AIO Markets, Megacix, DaxFinances, and clones impersonating real firms such as Interactive Brokers. The FSMA, which maintains a public blacklist of platforms confirmed to be operating unlawfully in Belgium, advises checking any such platform against that list before depositing anything, stopping all further payments and contacting one's bank immediately if money has already been sent, and watching for a second-wave "asset recovery" scam that targets the same victims again by promising, for an upfront fee, to get the lost funds back.`,
-  categorySlug: 'investment-fraud',
-  sources: ['FSMA (Financial Services and Markets Authority)'],
-  sourceUrl: 'https://www.fsma.be/en/warnings/invest-ai-and-become-rich-250-euros-beware-fraud',
-  country: 'BE',
-});
-
-International.push({
-  name: 'Home-Repair "Hersteldiensten" Bait-and-Switch Overcharge Fraud',
-  slug: 'belgium-home-repair-service-overcharge-fraud',
-  description: `FOD Economie (Belgium's federal economy ministry) reported on August 14, 2026 that complaints about fraudulent home-repair services — plumbers, electricians, heating technicians, and roofers hired urgently after a burst pipe, electrical fault, or storm damage — had nearly doubled year over year, from 1,068 reports in 2024 to 2,031 in 2025, with a further 1,134 logged in just the first half of 2026. The pattern: a "technician" reachable through an ad or cold call quotes an attractively low callout price, such as €150, over the phone, then, once on site and the immediate problem exposed, presents a wildly inflated final bill — commonly €900 to €1,200 or more — for supposedly necessary extra work, banking on the homeowner's urgency and reluctance to argue mid-repair. FOD Economie nearly tripled its inspections in 2025 (280, up from 93 in 2024), which turned up 1,276 violations, and has published and blocked 77 fraudulent repair-service websites, redirecting visitors to a warning page. The ministry's advice is to always get a full written estimate — covering labor, parts, and travel costs — before work begins, to be wary of unusually low initial quotes, to compare several providers rather than accept the first one available, to never sign a blank form or pay in full on the spot, and to report suspected fraud through the ConsumerConnect service.`,
-  categorySlug: 'home-improvement-solar',
-  sources: ['FOD Economie (Belgian Federal Public Service Economy)'],
-  sourceUrl: 'https://news.economie.fgov.be/269011-meldingen-over-hersteldiensten-blijven-stijgen',
-  country: 'BE',
-});
-
-International.push({
-  name: 'Fake Superintendencia Financiera Loan and Credit Card Phone Scam',
-  slug: 'colombia-sfc-impersonation-loan-phone-scam',
-  description: `On September 10, 2026, Colombia's Superintendencia Financiera (SFC) issued a public alert after criminals began cold-calling consumers while posing as SFC officials, using the regulator's name to build instant credibility before pitching a credit card, loan, or other financial product the agency does not actually offer. The SFC stated plainly that it does not offer, process, or manage any credit or savings product itself, and warned that no legitimate lender requires a borrower to deposit, wire, or hand over money before a loan is disbursed. Consumers who get such a call are told never to share account numbers, passwords, or balances, and to be suspicious of any loan promising fast approval with minimal paperwork. The SFC directs anyone targeted to verify a caller's identity through its own official channels rather than trusting the call.`,
-  categorySlug: 'government-impersonation',
-  alertLevel: 'medium',
-  sources: ['Superintendencia Financiera de Colombia (SFC)', 'Semana', 'HSB Noticias'],
-  sourceUrl: 'https://www.superfinanciera.gov.co/publicaciones/10116250/alerta-no-se-deje-enganar-la-superintendencia-financiera-no-ofrece-tarjetas-de-credito-creditos-o-cualquier-otro-producto-o-servicio-financiero/',
-  country: 'CO',
-  firstRecorded: '2026-09-10',
-});
-
-International.push({
-  name: 'Amor y Amistad Fake Online Gift Store Scams',
-  slug: 'colombia-amor-y-amistad-fake-online-store-scam',
-  description: `Colombia's national police cyber unit (DIJIN's Centro Cibernético Policial) issued a public alert on September 19, 2026 — the country's Amor y Amistad ("Love and Friendship") holiday — warning that fraud rings ramp up fake online stores each year to cash in on gift-buying for the occasion. Scammers advertise flowers, surprise breakfasts, perfumes, farmhouse rentals, and travel packages at steep 50–70% discounts through social media posts and text-message links, collect payment upfront, and vanish without delivering anything; police describe the rings as organized networks that split roles among people who build the ads, run the fraudulent sites, and manage the bank accounts receiving the money. In the same briefing, police said they had identified more than 3,600 victims of digital fraud nationwide in 2026 and had recovered roughly 4.8 billion pesos in cryptocurrency tied to fraud cases over the prior year. The alert urges shoppers to type a retailer's web address in directly rather than clicking a link from an unknown number, to be wary of any seller pushing the conversation off-platform onto WhatsApp or Telegram, and to report suspected fraud via the CAI Virtual platform or the police WhatsApp line at 323 273 3411.`,
-  categorySlug: 'online-shopping-scams',
-  alertLevel: 'medium',
-  sources: ['Policía Nacional de Colombia (Centro Cibernético Policial / DIJIN)', 'El País (Cali)', 'Infobae Colombia'],
-  sourceUrl: 'https://www.elpais.com.co/colombia/mas-de-3600-victimas-de-estafa-han-sido-identificadas-en-2026-asi-operan-los-delincuentes-en-amor-y-amistad-1853.html',
-  country: 'CO',
-  firstRecorded: '2026-09-19',
-});
-
-International.push({
-  name: 'Virtual "Gota a Gota" Predatory Loan App Extortion',
-  slug: 'colombia-gota-a-gota-virtual-loan-app-scam',
-  description: `Colombia's Superintendencia Financiera (SFC) maintains a standing consumer alert about "gota a gota virtual" — unlicensed lending apps and web platforms advertised through social media, text messages, and app-store listings that promise fast, low-document loans. To get the loan, an applicant must first accept broad terms that grant the app access to their phone's contacts, photos, and stored data; the SFC warns some operators then use that harvested information to pressure early repayment, charge interest far above what any regulated lender could legally impose, or, in the worst cases, message the borrower's own contacts and circulate their photos to coerce payment. Because many of these apps are run from outside Colombia, the SFC says it often lacks jurisdiction to act directly and instead refers victims to the Fiscalía General de la Nación, the Policía Nacional, or the Superintendencia de Industria y Comercio (SIC). The SFC recommends checking an app's user reviews and ratings before installing it and confirming with the SIC whether a lending platform is legally authorized before downloading it or granting it any permissions.`,
-  categorySlug: 'identity-theft',
-  alertLevel: 'high',
-  sources: ['Superintendencia Financiera de Colombia (SFC)'],
-  sourceUrl: 'https://www.superfinanciera.gov.co/publicaciones/10115253/no-caiga-en-el-gota-a-gota-virtual/',
-  country: 'CO',
-});
-
-International.push({
-  name: 'Luxembourg Fake Supermarket Contest Hacked-Account OTP Theft',
-  slug: 'luxembourg-fake-contest-hacked-account-otp-theft',
-  description: `The Grand Ducal Police warned on January 26, 2026 of scammers who take over a victim's friend's Facebook account and use it to message other contacts on Messenger, inviting them to a "contest" supposedly run by a well-known retailer such as Cactus or Delhaize with a large cash prize to be split among winners. The conversation moves to WhatsApp, the victim fills out a form with personal data, and is then told a six-digit code will arrive by text to "confirm their winnings" — but sharing that code actually hands the scammer access to the victim's phone and online banking. To keep victims compliant, fraudsters show fake gift certificates or doctored bank statements appearing to show money already transferred, while pressuring them to act fast. Never share a verification code you receive by SMS with anyone, and treat any prize offer arriving through a friend's account — even a real one — as a hacked account until you confirm it with that friend by phone.`,
-  categorySlug: 'account-takeover',
-  alertLevel: 'high',
-  sources: ['Police Grand-Ducale (Grand Ducal Police), Luxembourg'],
-  sourceUrl: 'https://police.public.lu/fr/actualites/2026/01/semaine-05/escroquerie-faux-jeux-concours.html',
-  country: 'LU',
-  firstRecorded: '2026-01-26',
-});
-
-International.push({
-  name: 'Luxembourg Doorstep Roof and Yard-Work Fraud',
-  slug: 'luxembourg-doorstep-roof-yard-work-fraud',
-  description: `The Grand Ducal Police warned on September 24, 2026 about unsolicited workers turning up unannounced at private homes offering roof repair, facade or plastering work, or paving, then pressuring the resident to accept and pay immediately after a cursory inspection. On September 21, two men offered roof repairs at a home on Rue de Hamm in Bonneweg, examined the roof, then pressured the resident to pay on the spot before leaving when the homeowner refused; on September 23, similar workers carried out paving on private property in Rambrouch, and when police inspected the site afterward they found the completed work was deficient and the workers' paperwork and permits irregular. Be wary of any unsolicited door-to-door offer for roof, facade, or paving work, never agree to pay before independently verifying who you're dealing with, and call the police at the first sign something is off rather than after money has changed hands.`,
-  categorySlug: 'home-improvement-solar',
-  alertLevel: 'medium',
-  sources: ['Police Grand-Ducale (Grand Ducal Police), Luxembourg'],
-  sourceUrl: 'https://police.public.lu/fr/actualites/2026/09/semaine-40/arnaque-offres-frauduleuses-travaux.html',
-  country: 'LU',
-  firstRecorded: '2026-09-21',
-});
-
-International.push({
-  name: 'Luxembourg Fake Police Traffic-Fine SMS Scam',
-  slug: 'luxembourg-fake-police-traffic-fine-sms-scam',
-  description: `The Grand Ducal Police has repeatedly warned — most recently in an alert dated June 3, 2026 — that fraudulent text messages, some sent from Philippine phone numbers with the sender display name spoofed to read "Police Grand-Ducale," falsely notify recipients of a traffic violation and press them to pay an "avertissement taxé" (fixed penalty) right away. The police state plainly that genuine fine notices in Luxembourg are always sent by post, never by SMS or email, and caution that even a text appearing to come from a Luxembourg number proves nothing, since scammers can spoof caller ID to display any number they choose. If you receive such a message, do not click any link or pay anything under pressure; instead contact the police directly through official channels to check, and warn older relatives, who the police note are a particular target.`,
-  categorySlug: 'phishing',
-  alertLevel: 'medium',
-  sources: ['Police Grand-Ducale (Grand Ducal Police), Luxembourg', 'Chronicle.lu'],
-  sourceUrl: 'https://www.chronicle.lu/category/luxembourg/61563-police-warn-of-fake-fine-payment-requests-by-sms',
-  country: 'LU',
-  firstRecorded: '2026-06-03',
-});
-
-International.push({
     name: "Fake HoT Prepaid Top-Up Website",
     slug: "fake-hot-prepaid-top-up-website",
     description:
@@ -22435,78 +22545,4 @@ International.push({
     sources: ["Policija (Slovenian Police), General Police Directorate"],
     sourceUrl: "https://www.policija.si/medijsko-sredisce/sporocila-za-javnost/sporocila-za-javnost-gpue/116054-pojav-laznih-elektronskih-sporocil-v-imenu-financne-uprave-rs-opozorilo-uporabnikom",
     country: "SI",
-});
-
-International.push({
-  name: 'Luxembourg LuxTrust Migration Phishing Scam',
-  slug: 'luxembourg-luxtrust-migration-phishing',
-  description: `BEE SECURE, Luxembourg's government-backed cybersecurity and consumer-safety body, warned on October 10, 2024 of a rise in fraud attempts exploiting the mandatory migration from LuxTrust's physical authentication tokens to the LuxTrust Mobile app, a deadline that took effect January 1, 2025. Scammers contact residents by email, SMS, phone, or a combination of the three, posing as LuxTrust representatives and asking the victim to "confirm" or hand over their LuxTrust login credentials to complete the switch — access that then lets the fraudster impersonate the victim to reach bank accounts and other services tied to Luxembourg's national digital-identity system. BEE SECURE states plainly that LuxTrust will never ask for these credentials by email, SMS, or phone, and that any migration should only be completed directly through the official luxtrust.com site or by calling LuxTrust's own verified number. Anyone who has already shared credentials is urged to contact their bank and LuxTrust immediately, file a police report, and call the free BEE SECURE Helpline.`,
-  categorySlug: 'phishing',
-  alertLevel: 'medium',
-  sources: ['BEE SECURE (Luxembourg government cybersecurity and consumer-safety service)'],
-  sourceUrl: 'https://www.bee-secure.lu/fr/news/augmentation-des-signalements-descroqueries-liees-a-luxtrust/',
-  country: 'LU',
-  firstRecorded: '2024-10-10',
-});
-
-International.push({
-  name: 'Luxembourg Fake CIRCL/LHC Tech-Support Phone Scam',
-  slug: 'luxembourg-fake-circl-lhc-tech-support-scam',
-  description: `The BEE SECURE Helpline warned on March 17, 2023 of callers using masked or spoofed numbers who claim to be from CIRCL (Computer Incident Response Center Luxembourg) or LHC (Luxembourg House of Cybersecurity) — Luxembourg's own national cybersecurity bodies — telling the victim their computer is riddled with viruses or system errors. The caller then talks the victim into installing remote-access software such as TeamViewer to supposedly "clean" the machine, which instead hands the scammer direct control to demand payment, push subscriptions, harvest banking credentials and one-time codes, or plant malware. BEE SECURE describes it as social engineering that borrows the credibility of Luxembourg's real incident-response agencies, and advises anyone who receives such a call to hang up, never install remote-access software at a cold caller's direction, and — if already compromised — disconnect from the internet, back up data externally, reset the machine, and change all saved passwords before calling the BEE SECURE Helpline or CIRCL directly.`,
-  categorySlug: 'tech-support-scams',
-  alertLevel: 'medium',
-  sources: ['BEE SECURE Helpline, Luxembourg'],
-  sourceUrl: 'https://www.bee-secure.lu/fr/news/larnaque-du-moment-attention-aux-soi-disant-appels-telephoniques-du-circl-et-lhc/',
-  country: 'LU',
-  firstRecorded: '2023-03-17',
-});
-
-International.push({
-  name: 'Caritas Luxembourg €61 Million "CEO Fraud" (Fraude au Président)',
-  slug: 'luxembourg-caritas-ceo-fraud',
-  description: `Caritas Luxembourg, one of the Grand Duchy's largest charities, filed a criminal complaint in July 2024 after discovering it had lost roughly €61 million to a "fraude au président" (CEO fraud) scheme, in which a fraudster impersonating a senior figure at the organization pressured a staff member into bypassing normal authorization procedures to approve what looked like legitimate payments. The Luxembourg public prosecutor's office confirmed in an August 2024 communiqué that the case fits the classic CEO-fraud pattern — a caller or emailer posing as a company leader demanding an urgent, confidential transfer — and investigators traced roughly 8,200 rapid bank transactions moving the stolen funds through accounts abroad, primarily in Spain, with organized cross-border involvement suspected; the person initially suspected of orchestrating the fraud was later determined to have herself been a victim of the impersonation. Luxembourg's financial regulator, the CSSF, separately fined the state-owned bank Spuerkeess nearly €5 million in 2025 over anti-money-laundering control failures tied to the case. The case is one of the largest CEO-fraud losses ever disclosed by a nonprofit, and Luxembourg authorities cite it as a reminder that any request to rush a transfer in secret, from someone claiming executive authority, should be independently verified through a separately obtained contact before any money moves.`,
-  categorySlug: 'business-email-compromise',
-  alertLevel: 'high',
-  sources: ['Parquet de Luxembourg (Luxembourg Public Prosecutor\'s Office)', 'Delano News'],
-  sourceUrl: 'https://justice.public.lu/fr/actualites/2024/08/communique-pl-affaire-caritas-ceo-fraud.html',
-  country: 'LU',
-  isHistorical: true,
-  firstRecorded: '2024-07-19',
-});
-
-International.push({
-  name: 'Slovak "New Number" WhatsApp Family Emergency Scam',
-  slug: 'slovakia-new-number-whatsapp-family-emergency-scam',
-  description: `An SMS arrives claiming to be from the recipient's child using a new number after breaking their phone, moving the conversation to WhatsApp where the "child" asks the parent to urgently pay a bill or transfer money because they can't access their own banking app, sometimes later asking for a photo of the parent's payment card. The Police Force of the Slovak Republic publicly warned in November 2025 that the scheme deliberately targets parental fear and pushes victims to act before verifying anything, urging recipients to call their child back on the original saved number rather than the new one. Slovenská sporiteľňa separately documented the broader "fake family" fraud category rocketing from roughly €13,000 in attempted losses in 2023 to €39,710 in 2024 — a roughly 3,000% year-on-year rise — and €436,222 identified in just January-February 2025, with average per-victim losses of about €1,400.`,
-  categorySlug: 'family-emergency-scams',
-  alertLevel: 'medium',
-  sources: ['Police Force of the Slovak Republic (Policajný zbor SR)', 'Pravda.sk', 'Slovenská sporiteľňa'],
-  sourceUrl: 'https://www.pravda.sk/uzitocna/spotrebitel/clanok/774290-policia-informuje-pozor-na-novu-vlnu-podvodov-cez-spravy-mozete-prist-o-mnozstvo-penazi',
-  country: 'SK',
-  firstRecorded: '2025-11-11',
-});
-
-International.push({
-  name: 'Bratislava Fake QR-Code Sticker Parking-Meter Scam',
-  slug: 'slovakia-bratislava-fake-qr-code-parking-meter-scam',
-  description: `Fraudsters stuck fake QR-code stickers directly over the genuine codes on Bratislava parking meters — documented at the Riazanská/Hálková intersection, on Heydukova, and on Kamenné námestie — so that a driver scanning what looks like the normal payment code is instead redirected to a fraudulent payment page. Bratislava city hall recorded about 10 instances of swapped stickers across the city's roughly 200 meters. Municipal police communications chief Peter Borko said crews inspect terminals regularly but scammers can reapply fake stickers after removal, city hall spokesperson Peter Bubla noted the genuine on-meter QR code only displays payment information and never links straight to a payment gateway, and National Bank of Slovakia spokesperson Peter Majer advised checking any QR-linked website for a misspelled or unusual domain before entering payment details.`,
-  categorySlug: 'qr-code-scams',
-  alertLevel: 'medium',
-  sources: ['Správy STVR', 'Magistrát hlavného mesta SR Bratislavy', 'Národná banka Slovenska (NBS)'],
-  sourceUrl: 'https://spravy.stvr.sk/2025/04/pozor-na-falosne-qr-kody-na-parkomatoch-podvodnici-v-bratislave-zneuzivaju-ludsku-nevsimavost/',
-  country: 'SK',
-  firstRecorded: '2025-04-30',
-});
-
-International.push({
-  name: 'Bazoš.sk Fake-Buyer Courier-Link Phishing Scam',
-  slug: 'slovakia-bazos-fake-buyer-courier-phishing-scam',
-  description: `On the popular Slovak classifieds site Bazoš.sk, a "buyer" contacts a seller in chat expressing urgent interest and offering to pay immediately — but instead of a real bank transfer, sends a link to a convincing fake payment or courier-service page that asks the seller to enter their payment card details to "receive" the money, draining the card instead. Slovak banks VÚB and Tatra banka, quoted via the SITA news agency, advise sellers who fall for it to contact their bank immediately and file a police report, since each reported case helps banks flag the receiving account, and police recommend treating any buyer who refuses phone contact, rushes the deal, or asks for card details as a red flag rather than a legitimate purchase.`,
-  categorySlug: 'online-shopping-scams',
-  alertLevel: 'medium',
-  sources: ['SITA', 'VÚB banka', 'Tatra banka', 'Polícia Slovenskej republiky'],
-  sourceUrl: 'https://sita.sk/podvody-pri-nakupoch-na-online-bazaroch-nahlaste-banke-aj-policii/',
-  country: 'SK',
-  isHistorical: true,
-  firstRecorded: '2023-04-19',
 });
