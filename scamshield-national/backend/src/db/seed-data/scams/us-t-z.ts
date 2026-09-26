@@ -5844,3 +5844,17 @@ UsTZ.push({
     isHistorical: true,
     firstRecorded: '2023-12-01',
 });
+
+UsTZ.push({
+    name: 'Center Point Volunteer Fire Department Venmo Impersonation Scam',
+    slug: 'texas-center-point-vfd-venmo-impersonation-scam',
+    description: `After catastrophic July 4, 2025 flash flooding on the Guadalupe River destroyed much of its station, the Center Point Volunteer Fire Department (Kerr County, Texas) set up an official Venmo account ("cpvfdtx") to collect relief donations — and within about a day, several fraudulent lookalike Venmo accounts appeared, using the department's logo and usernames with added letters, dashes, or underscores to trick donors into sending money to scammers instead. Venmo froze the impostor accounts after the fraud was flagged, and Texas Attorney General Ken Paxton's office opened an investigation, with Paxton stating: "It is sick and disgusting that people would use the tragedy of the devastating floods to enrich themselves by deceiving well-meaning people trying to help." This is a distinct mechanism from other Texas Hill Country flood-fraud entries already in this database — not a personal GoFundMe scam or government/FEMA impersonation, but real-time payment-app impersonation of a specific, verifiable local charity/first-responder organization during active disaster response. Anyone donating to a disaster-relief fundraiser should verify the exact, verified account handle directly through the organization's own official social media post or website before sending money, rather than searching for it independently within the payment app.`,
+    categorySlug: 'charity-scams',
+    alertLevel: 'high',
+    sources: ['Texas Attorney General\'s Office', 'American Banker'],
+    sourceUrl: 'https://www.kbtx.com/2025/07/18/ag-ken-paxton-announces-investigation-into-fraudulent-charity-scams-after-texas-flooding/',
+    country: 'US',
+    state: 'TX',
+    isHistorical: true,
+    firstRecorded: '2025-07-04',
+});

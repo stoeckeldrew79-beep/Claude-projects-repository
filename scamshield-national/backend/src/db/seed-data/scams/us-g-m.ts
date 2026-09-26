@@ -10420,3 +10420,44 @@ UsGM.push({
     isHistorical: true,
     firstRecorded: '2026-04-09',
 });
+
+UsGM.push({
+    name: 'Hurricane Helene Gas-Station Price-Gouging Settlements (Georgia)',
+    slug: 'georgia-hurricane-helene-gas-station-price-gouging-settlements',
+    description: `Georgia Attorney General Chris Carr's office received at least 287 complaints of Hurricane Helene-related price gouging in fall 2024, and on September 19, 2025 announced settlements with two gas stations accused of overcharging for fuel during the declared state of emergency: Smile Grocery (formerly Pope's Grocery) in Augusta paid $10,000, and Fast Break II (Dhruv 1995 LLC) in Vidalia paid $7,255. Both businesses agreed not to sell goods above their pre-emergency prices unless the increase reflected their own actual cost increases. Carr said: "When you're impacted by a major storm, you shouldn't have to worry about being scammed by businesses that are trying to exploit the crisis." Anyone who suspects price gouging during a declared Georgia emergency can file a complaint with the Attorney General's Consumer Protection Division.`,
+    categorySlug: 'home-improvement-solar',
+    alertLevel: 'medium',
+    sources: ['Georgia Attorney General Consumer Protection Division'],
+    sourceUrl: 'https://consumer.georgia.gov/press-releases/2025-09-19/carr-penalizes-hurricane-helene-price-gougers-augusta-and-vidalia',
+    country: 'US',
+    state: 'GA',
+    isHistorical: true,
+    firstRecorded: '2024-09-26',
+});
+
+UsGM.push({
+    name: '$HAWK Memecoin Insider Pump-and-Dump ("Hawk Tuah" Token)',
+    slug: 'hawk-tuah-hawk-memecoin-pump-and-dump',
+    description: `The $HAWK memecoin, launched December 4, 2024 and built around social-media personality Haliey Welch ("Hawk Tuah Girl"), surged from a $16.69 million market cap to roughly $491 million within hours before crashing more than 90% almost immediately, wiping out retail buyers while insiders cashed out. Seventeen investors filed a federal securities-fraud class action (Albouni et al. v. Schultz et al., No. 1:24-cv-08650, E.D.N.Y.) on December 19, 2024, naming Web3 launchpad overHere Limited, its founder Clinton So, the Tuah the Moon Foundation, and promoter Alex Larson Schultz, alleging the token was sold and advertised as an unregistered security in violation of the Securities Exchange Act of 1934. An amended complaint alleges Welch personally made more than $325,000 from the launch; she has said she voluntarily spoke with the FBI and SEC and was told she was not a target. The case illustrates a distinct memecoin mechanic from ordinary "rug pulls" — an instant insider pump-then-dump within hours of a celebrity-branded launch, before retail buyers can meaningfully react, followed by a federal unregistered-securities lawsuit rather than a criminal fraud case.`,
+    categorySlug: 'cryptocurrency-scams',
+    alertLevel: 'high',
+    sources: ['U.S. District Court for the Eastern District of New York', 'ClassAction.org'],
+    sourceUrl: 'https://www.classaction.org/news/hawk-tuah-memecoin-investors-file-lawsuit-over-alleged-sale-of-unregistered-securities',
+    country: 'US',
+    isHistorical: true,
+    firstRecorded: '2024-12-04',
+});
+
+UsGM.push({
+    name: 'Bank of Guam Real-Time 2FA-Bypass Phishing Kit Campaign',
+    slug: 'bank-of-guam-2fa-bypass-phishing-kit-campaign',
+    description: `Cyber-threat intelligence firm WMC Global published an analysis on October 30, 2020 of a phishing kit found in active use that impersonated Bank of Guam's real online-banking login page across at least eleven live URLs on domains such as eastcomeswest[.]icu and growmygreen[.]icu. Unlike a simple credential-harvesting page, the kit ran victims through three stages — a fake login screen that captured username and password, a second page that asked for the one-time "Secure Access Code" sent to the victim's phone, and a third page that re-requested email and password under an account-recovery pretext — so the operator could manually log into the real Bank of Guam account with the stolen one-time code before its short validity window expired. WMC Global traced the phishing kit's credential drop-off email to an actor who had reused the same kit across 74 separate phishing campaigns on unique domains since January 2020, running the identical template against several other regional banks (FirstBank, CIBC, FirstCaribbean International Bank, Bank of the Bahamas) and simply re-branding it with each target's own look. This is a materially different mechanism from Guam's already-documented Bank of Guam vishing/phishing case (a May 2024 spoofed-caller-ID phone-and-email scheme asking customers to "verify" account details): here, credentials and the live 2FA code were captured through a cloned banking website in real time, meaning even a customer who correctly used two-factor authentication could still be drained if they typed the code into the fake site instead of the real one.`,
+    categorySlug: 'phishing',
+    alertLevel: 'medium',
+    sources: ['WMC Global'],
+    sourceUrl: 'https://www.wmcglobal.com/blog/bank-of-guam-phishing-campaign-analysis',
+    country: 'US',
+    state: 'GU',
+    isHistorical: true,
+    firstRecorded: '2020-08-01',
+});
