@@ -22691,3 +22691,36 @@ International.push({
     sourceUrl: "https://www.csb.gov.bn/reminder-regarding-counterfeit-notes-and-financial-scams",
     country: "BN",
 });
+
+International.push({
+  name: 'Fraudulent "Financial Analyst Supervisor" ID Cards Impersonating Central Bank, FIUTT, and Police Fraud Unit',
+  slug: 'tt-fake-financial-analyst-supervisor-id-card-scam',
+  description: `The Financial Intelligence Unit of Trinidad and Tobago (FIUTT) issued a public warning, reported by the Trinidad Express on June 8, 2026, after individuals were found presenting fraudulent identification cards bearing the logos of the Central Bank of Trinidad and Tobago (CBTT), the FIUTT, and the Financial Investigations Branch (FIB) of the Trinidad and Tobago Police Service. The fake cards falsely identify their holders as "Financial Analyst Supervisors" representing all three agencies, lending an appearance of official authority to whatever business, inquiry, or request the bearer then makes. The FIUTT stated plainly that "neither the FIUTT, the CBTT nor the FIB issues identification cards of this nature," stressed that none of the three agencies charges fees or requests payments from individuals or businesses as part of their operations, and warned that anyone holding such a card has no authority to conduct business or represent any of the named agencies. The public was urged to verify any claimed FIUTT, CBTT, or FIB affiliation directly through those agencies' official channels before engaging, and to report sightings of the cards or interactions with people using them to the police, the FIUTT, or the Central Bank.`,
+  categorySlug: 'government-impersonation',
+  alertLevel: 'medium',
+  sources: ['Financial Intelligence Unit of Trinidad and Tobago (FIUTT)', 'Trinidad Express'],
+  sourceUrl: 'https://trinidadexpress.com/news/local/fraudsters-posing-as-financial-investigators-says-fiutt/article_668547a1-8623-45b7-844f-ff0585f46786.html',
+  country: 'TT',
+});
+
+International.push({
+  name: 'Fraudulent-Cheque Scheme Targeting High-Value Business Purchases',
+  slug: 'tt-fraudulent-cheque-high-value-purchase-scam',
+  description: `The Trinidad and Tobago Police Service (TTPS) Fraud Squad issued a public advisory on July 24, 2026, reported by TTT News, warning businesses, retailers, and service providers about a scheme using counterfeit, altered, forged, or stolen cheques to obtain high-value goods and services. Fraudsters typically call or WhatsApp a business requesting a quotation for a large order, then present a fraudulent cheque — or even just a screenshot claiming payment has cleared — while pressuring staff to release the goods or services immediately by citing an emergency or tight deadline, often arranging third-party pickup before the cheque is discovered to be worthless. The Fraud Squad flagged warning signs including orders placed through informal channels, a customer who insists on taking possession before the cheque clears, a cheque that looks altered or damaged, a name mismatch between the cheque and the ID presented, and orders timed for a Friday afternoon or the days before a public holiday when bank clearance is delayed. A separate TTPS Fraud Squad report covering January–July 2026 tied the sharp rise in fraud losses — over TT$167 million despite a 32.7% drop in the number of reports — in part to this increase in fraudulent-cheque cases, and police advised businesses plainly to "never release goods or provide services until a cheque has fully cleared and funds have been confirmed."`,
+  categorySlug: 'fake-check-overpayment',
+  alertLevel: 'high',
+  sources: ['Trinidad and Tobago Police Service (TTPS) Fraud Squad', 'TTT News'],
+  sourceUrl: 'https://www.ttt.live/ttps-warns-businesses-of-fraudulent-cheque-scheme-targeting-high-value-purchases/',
+  country: 'TT',
+});
+
+International.push({
+  name: '"Forever Wealth Project" Unregistered Online Investment Scheme',
+  slug: 'tt-forever-wealth-project-investment-scam',
+  description: `The Trinidad and Tobago Securities and Exchange Commission (TTSEC) issued a public advisory on March 19, 2026 warning about an unregistered online investment scheme called the Forever Wealth Project, promoted through the TikTok account @foreverwealthproject and a matching Telegram channel. The promoter solicits contributions from the public with promises to trade the funds on contributors' behalf, claiming "unusually high returns in a short period of time" scaled to the size of each contribution. TTSEC noted that the promoter behind @foreverwealthproject "bears a facial profile and appearance similar to an individual previously associated with promoting" Trillions Systems Limited ("Trillions"), an entity already the subject of an earlier TTSEC public advisory — indicating the same operator appears to have resurfaced under a new brand after already being publicly flagged once. The Commission confirmed that neither the Forever Wealth Project nor Trillions Systems is registered under Trinidad and Tobago's Securities Act, said the scheme "may pose significant risk to investors," and urged the public to verify registration status with TTSEC before contributing money to any social-media-promoted trading scheme.`,
+  categorySlug: 'investment-fraud',
+  alertLevel: 'high',
+  sources: ['Trinidad and Tobago Securities and Exchange Commission (TTSEC)'],
+  sourceUrl: 'https://www.ttsec.org.tt/public-advisory-forever-wealth-project/',
+  country: 'TT',
+});
