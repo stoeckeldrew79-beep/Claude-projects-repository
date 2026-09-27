@@ -10604,3 +10604,27 @@ UsAF.push({
     isHistorical: true,
     firstRecorded: '2021-02-23',
 });
+
+UsAF.push({
+    name: "Brushing Scam: Unordered Packages Used to Post Fake Reviews",
+    slug: "brushing-scam-unordered-packages-fake-reviews",
+    description:
+      "A package you never ordered shows up at your door with no bill and no sender information, often containing something cheap like jewelry, seeds, or a phone accessory. A third-party marketplace seller obtained your name and address, opened or linked an account using your identity, and shipped the item so the platform would register a real delivery and let them post a glowing 'verified purchase' review that boosts their product ranking. You are not charged, but the delivery confirms your personal data is circulating and is being used on an account you do not control. A newer version includes a QR code inviting you to 'find out who sent this,' which leads to a page built to steal your login credentials or install malware. Do not scan any QR code that arrives in an unexpected package, check your marketplace and bank accounts for activity you did not authorize, change passwords on any account tied to that address, and report the package to the retailer and to the FTC at ReportFraud.ftc.gov.",
+    categorySlug: "package-delivery-scams",
+    alertLevel: "medium",
+    sources: ["Federal Trade Commission consumer alert, 20 August 2026"],
+    sourceUrl: "https://consumer.ftc.gov/consumer-alerts/2026/08/unexpected-package-you-got-could-be-brushing-scam",
+    country: "US",
+});
+
+UsAF.push({
+    name: "Fake IC3 and FBI Agents Offering to Recover Money You Already Lost",
+    slug: "fake-ic3-fbi-fund-recovery-impersonation",
+    description:
+      "Criminals are posing as staff of the FBI's Internet Crime Complaint Center (IC3) and contacting people who have already been defrauded, promising to recover their stolen money. The approach comes through social media direct messages, email, and online forums where fraud victims gather, which is not how IC3 actually operates, since it does not reach out to people this way. The impersonator says a complaint has been located or that seized funds are waiting, then asks for identity documents, bank account details, or an up-front fee or 'tax' to release the money. Deepfaked video and images of supposed agents have been used to make the contact look convincing, so a fraud victim ends up losing money twice. Never send money or personal information to anyone who contacts you claiming they can recover your losses, verify any such claim only through ic3.gov directly, and report the impersonation attempt to IC3.",
+    categorySlug: "government-impersonation",
+    alertLevel: "high",
+    sources: ["FBI Internet Crime Complaint Center (IC3) Public Service Announcement, 20 July 2026"],
+    sourceUrl: "https://www.ic3.gov/PSA/2026/PSA260720",
+    country: "US",
+});
