@@ -22549,3 +22549,38 @@ International.push({
   isHistorical: true,
   firstRecorded: '2023-04-19',
 });
+
+International.push({
+  name: 'Bhutan Fake Rental Listing Scam',
+  slug: 'bhutan-fake-rental-listing-scam',
+  description: `The Royal Bhutan Police arrested Sonam Dhendup, 38, of Sarpang in April 2025 for running a nationwide fake rental listing scam under multiple aliases, including Sonam Wangchuk, Sonam Dorji, and Sonam Wangdi. Posing as a landlord or property agent on Facebook, he advertised nonexistent or already-unavailable 1BHK and 2BHK apartments using photos and videos of vacant houses, then persuaded renters contacted via Messenger or WhatsApp to wire a security deposit — typically half to two months' rent — as a "booking advance" before ever seeing the unit in person. Thimphu police alone logged 43 such complaints in 2024 totaling Nu 418,400 (only Nu 62,000 recovered), plus 12 more complaints in early 2025 totaling Nu 145,200, with similar reports surfacing in Dagana, Phuentsholing, and Tsirang. Investigators found Dhendup cashed out proceeds through other Bhutanese residents' bank accounts, paying them a commission to receive and forward the money, and police urge renters to never send a deposit before physically verifying a property.`,
+  categorySlug: 'rental-housing',
+  alertLevel: 'medium',
+  sources: ['The Bhutanese', 'Royal Bhutan Police (RBP)'],
+  sourceUrl: 'https://thebhutanese.bt/38-year-old-arrested-for-rental-scam-with-dozens-of-victims-across-dzongkhags/',
+  country: 'BT',
+  firstRecorded: '2025-04-05',
+});
+
+International.push({
+  name: 'Bhutan Fake "TikTok Shop" Task-Based Job Scam',
+  slug: 'bhutan-fake-tiktok-shop-task-job-scam',
+  description: `Bhutan's Competition and Consumer Affairs Authority (CCAA) and the Department of Law and Order investigated an online scam impersonating "TikTok Shop" after victims lost over Nu 600,000 combined. The scheme opens with a part-time job ad on Facebook or Instagram; interested applicants are moved into WhatsApp or Telegram groups, asked for personal details, then given an "invitation code" to register on a fake e-commerce-style dashboard. Participants are told to deposit money to unlock "tasks" — mainly clicking on displayed products — and some were allowed small early withdrawals to build trust before being cut off entirely: CCAA logged individual losses of Nu 28,000 and Nu 50,000, while a separate case referred to the Department of Law and Order involved a loss of more than Nu 550,000. CCAA found no legitimate connection to the real TikTok Shop e-commerce feature and traced victim deposits through multiple Bhutanese bank accounts, which authorities have since frozen.`,
+  categorySlug: 'job-task-scams',
+  alertLevel: 'high',
+  sources: ['Bhutan Broadcasting Service (BBS)', 'Competition and Consumer Affairs Authority (CCAA)'],
+  sourceUrl: 'https://www.bbs.bt/241976/',
+  country: 'BT',
+});
+
+International.push({
+  name: 'Bhutan "Tallwin Life Plan" Ponzi Scheme',
+  slug: 'bhutan-tallwin-life-ponzi-scheme',
+  description: `The Royal Monetary Authority (RMA) of Bhutan first warned the public about the "Tallwin Life Plan" on October 27, 2022, and had to re-notify on November 18, 2022 after Bhutanese kept joining, formally branding it an illegal, unlicensed Ponzi scheme under investigation for money laundering. Spread through WeChat and Telegram groups mainly in rural pockets — Bumthang, Chukha, Paro, Sarpang, Trongsa, Wangdue Phodrang, Trashigang, and Mongar — promoters told recruits to pay a Nu 2,700 entry fee and recruit four more investors, promising a payout of Nu 400,000 within 15 months to those who recruited, versus Nu 120,000 to those who didn't. The RMA's Financial Intelligence Department froze bank accounts belonging to promoters, and group leaders estimated roughly 100,000 Bhutanese had joined at its peak — the classic Ponzi pattern of small early payouts building trust, then nothing once recruitment dried up.`,
+  categorySlug: 'ponzi-pyramid-schemes',
+  alertLevel: 'high',
+  sources: ['Business Bhutan', 'Bhutan Broadcasting Service (BBS)', 'Royal Monetary Authority (RMA) of Bhutan'],
+  sourceUrl: 'https://businessbhutan.bt/tallwin-life-plan-scheme-becoming-rampant/',
+  country: 'BT',
+  firstRecorded: '2022-10-27',
+});
