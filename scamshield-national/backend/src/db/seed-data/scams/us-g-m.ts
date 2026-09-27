@@ -10812,3 +10812,45 @@ UsGM.push({
     isHistorical: false,
     firstRecorded: '2024-11-05',
 });
+
+UsGM.push({
+    name: 'Guam Fake Landlord Rental Deposit Scam (Sandra Mesa)',
+    slug: 'guam-mesa-fake-landlord-rental-deposit-scam',
+    description: `In April 2023, Sandra Ann Mesa told a Guam woman she was acting on behalf of a landlord who had an apartment unit available, quoting rent of $450 a month including power and water plus a $450 security deposit, and said she would collect the money on the landlord's behalf and make the rental arrangements. The victim paid Mesa three installments of roughly $300 each — on April 23, around May 4, and May 17, 2023, totaling $900 — after which the actual property owner told investigators he had never authorized Mesa to act for him and that the units in question were government-funded housing, not hers to lease out. Mesa was separately accused of depositing two fraudulent checks, for $4,975 and $3,950, at a Tamuning bank in October and November 2023, which she said she received through a Craigslist "job" that required her to buy gift certificates — a detail investigators treated as her acting as an unwitting or complicit money mule in a related fake-check scheme. She was charged with two counts of forgery, theft, attempted theft, and theft by deception. The case illustrates a scam pattern distinct from Guam's existing online-shopping and used-car-deposit entries: a person with no legal authority over a property collects rent deposits by claiming to represent the real landlord, leaving renters out money for a unit that was never actually available to them.`,
+    categorySlug: 'rental-housing',
+    alertLevel: 'medium',
+    sources: ['Pacific Daily News / Postguam.com'],
+    sourceUrl: 'https://www.postguam.com/news/local/woman-allegedly-forged-checks-at-bank-scammed-money-from-victim/article_5c1fdf7e-1660-11ef-9f57-ab05d1d0c83a.html',
+    country: 'US',
+    state: 'GU',
+    isHistorical: true,
+    firstRecorded: '2023-04-01',
+});
+
+UsGM.push({
+    name: 'University of Guam Financial Aid Office Data Breach',
+    slug: 'university-of-guam-financial-aid-data-breach',
+    description: `On March 27, 2018, the University of Guam's Financial Aid Office mistakenly sent an email with attached files to 196 unintended recipients, exposing the protected personal information — names, student ID numbers, Social Security numbers, and financial aid award amounts — of 154 students who had received direct loans or Pell grants for the Spring 2018 semester. The university stated it deleted the emails and documents from its systems, notified all affected students, and said that "at this time, there is no indication that anyone has suffered identity theft," while still advising every affected student to place a 90-day fraud alert with one of the three national credit bureaus (Equifax, Experian, or TransUnion), since doing so with any one bureau automatically notifies the other two. UOG also required the 196 people who received the misdirected email to complete a destruction confirmation form, warning that possessing this kind of personal identifying information without authorization violates Guam Code Annotated Title 9, Section 46.80. The university set up a dedicated call center and email address for affected students with questions. The incident is a reminder that identity-theft risk doesn't only come from an outside hacker or phishing attack — an institution's own internal email error can expose the same category of Social Security-number-linked data, and anyone notified of such a breach should treat the fraud-alert and credit-monitoring steps as seriously as they would after a criminal intrusion.`,
+    categorySlug: 'data-breach-scams',
+    alertLevel: 'low',
+    sources: ['University of Guam'],
+    sourceUrl: 'https://www.uog.edu/fraudprotection/index.php',
+    country: 'US',
+    state: 'GU',
+    isHistorical: true,
+    firstRecorded: '2018-03-27',
+});
+
+UsGM.push({
+    name: 'University of Guam Fake "Free Online Courses" Social Media Scam',
+    slug: 'university-of-guam-fake-social-media-course-scam',
+    description: `Starting around April 2024, a fraudulent social media account calling itself "latest news 01" ran ads and posts impersonating the University of Guam's official Facebook and Instagram presence, advertising "free courses" at UOG in what the university said appeared to be an attempt to defraud users or steal their personal information. The scam relied on the appearance of an official university channel to lend it credibility, rather than any single financial mechanism, so the actual payoff for the scammer — a data-harvesting form, a paid "enrollment" step, or something else — likely varied by ad. After community members flagged the fake ads to the university, UOG issued a cease-and-desist letter, reported the account and posts to the social media platforms for takedown, and publicly warned residents to look closely at the account name and the source of any link before clicking, since a convincing university logo or name in a post or ad is not proof it came from an official UOG channel. UOG asked anyone who spots a suspicious post claiming to be from the university to report it directly to UOG's own official Facebook page via direct message rather than engaging with the suspect account.`,
+    categorySlug: 'phishing',
+    alertLevel: 'low',
+    sources: ['KUAM News', 'University of Guam'],
+    sourceUrl: 'https://www.kuam.com/story/50693714/university-of-guam-scam-alert-beware-of-social-media-scams-offering-online-courses',
+    country: 'US',
+    state: 'GU',
+    isHistorical: true,
+    firstRecorded: '2024-04-21',
+});

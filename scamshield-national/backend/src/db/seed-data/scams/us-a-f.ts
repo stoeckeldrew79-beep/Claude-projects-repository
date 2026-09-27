@@ -10701,3 +10701,55 @@ UsAF.push({
     isHistorical: true,
     firstRecorded: '2015-11-01',
 });
+
+UsAF.push({
+    name: 'American Samoa Warned of AI-Generated Fake E-Commerce and Phishing Scam Surge',
+    slug: 'american-samoa-ai-fake-ecommerce-phishing-scam-surge',
+    description: `Samoa News, reporting from Pago Pago on September 1, 2026, warned American Samoa residents of a regional surge in AI-generated online scams, citing a United Nations Office on Drugs and Crime (UNODC) assessment that identifies Pacific Island communities, including American Samoa, as targets for scam operators who stole an estimated $150 to $194 billion across the region in the preceding year. The assessment describes how generative AI now lets scam operators produce highly convincing fake e-commerce websites that mimic legitimate retail brands, deceptive social-media pop-up ads, and phishing emails and text messages that impersonate trusted companies and government agencies — content that is markedly harder for an average consumer to distinguish from the real thing than in prior years. As one illustration of the trend's local scale in the Pacific region, cybersecurity firm Norton reported detecting more than 90,000 "e-shop" scam attempts in New Zealand over a single 30-day period, an 87 percent surge in online shopping fraud there. Norton's guidance, aimed at Pacific households including American Samoa, urged family and community dialogue as the strongest defense: parents should set ground rules before giving children internet-connected devices, households should install protective software that blocks malicious sites, and families should keep an ongoing conversation going about online safety across generations, since older residents are frequently targeted separately from younger, more device-fluent family members.`,
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'high',
+    sources: ['Samoa News', 'United Nations Office on Drugs and Crime (UNODC)', 'Norton'],
+    sourceUrl: 'https://www.samoanews.com/regional/pacific-communities-urged-guard-against-surging-online-scams',
+    country: 'US',
+    state: 'AS',
+    isHistorical: false,
+});
+
+UsAF.push({
+    name: 'FBI Birmingham Report: Alabama Teens Lost $52,000 to Sextortion and Online Scams in 2025',
+    slug: 'alabama-fbi-birmingham-teen-sextortion-cybercrime-report-2025',
+    description: `The FBI's Birmingham Field Office reported in April 2026 that Alabama children age 17 and under lost more than $52,000 to online scammers in 2025, part of a broader statewide total exceeding $167 million in losses reported to the FBI's Internet Crime Complaint Center (IC3) that year. FBI Special Agent David Fitzgibbons said Alabama youth are increasingly targeted through phishing, investment fraud, and sextortion, describing predators who groom teens online before threatening to expose explicit images or engaging in ongoing cyberbullying and extortion demands for payment. FBI Special Agent Christina Wessel separately flagged a related pattern in which scammers, including those contacting teens under the guise of helping them "grow" a cryptocurrency investment, pressure victims into paying a supposed fee or fine before any promised payout is released. Victims most often send money through gift cards, peer-to-peer payment apps such as Venmo and Cash App, or debit and credit cards, and 2025 marked the first year IC3 separately tracked AI-related scam losses, which totaled $893 million nationally across roughly 22,000 reported incidents. The FBI recommends that parents talk with teens about sextortion before it happens, reassure a targeted teen they will not be in trouble for coming forward, never pay a demand, preserve any threatening messages as evidence, and report incidents to the FBI's Birmingham Field Office, local law enforcement, or the National Center for Missing & Exploited Children's CyberTipline.`,
+    categorySlug: 'sextortion',
+    alertLevel: 'high',
+    sources: ['FBI Birmingham Field Office', 'FBI Internet Crime Complaint Center (IC3)', 'WBRC (Birmingham)'],
+    sourceUrl: 'https://www.wbrc.com/2026/04/15/alabama-cyber-crime-report-teens-lost-52000-scammers-2025/',
+    country: 'US',
+    state: 'AL',
+    isHistorical: false,
+});
+
+UsAF.push({
+    name: 'Alabama Ophthalmology Associates Data Breach and Class-Action Settlement',
+    slug: 'alabama-ophthalmology-associates-data-breach-settlement',
+    description: `Alabama Ophthalmology Associates, a Birmingham-area eye-care provider, discovered on January 30, 2025 that an unauthorized party had accessed its network between January 22 and January 30, 2025, exposing files containing patients' names, dates of birth, Social Security numbers, medical record numbers, treatment information, medical history, and health insurance details for 131,576 individuals. The practice began mailing notification letters to affected patients in April 2025, and the resulting class-action lawsuits were consolidated as In re Alabama Ophthalmology Associates, P.C., Data Breach Litigation in Jefferson County Circuit Court, where a proposed settlement — with the practice denying wrongdoing but agreeing to resolve the litigation — offers affected individuals two years of medical data monitoring and identity theft protection services, plus a cash option of either documented unreimbursed losses up to $5,000 per person or a pro rata payment of roughly $60 per class member. Under the settlement schedule, the deadline to object to or exclude oneself is June 5, 2026, the claims-submission deadline is June 25, 2026, and a final fairness hearing is set for July 6, 2026. Anyone who received a notification letter from Alabama Ophthalmology Associates about this breach should watch for signs of medical or financial identity theft — such as unfamiliar insurance claims or collection notices for care never received — and should file a claim before the deadline to receive the settlement's monitoring services or cash payment.`,
+    categorySlug: 'data-breach-scams',
+    alertLevel: 'medium',
+    sources: ['HIPAA Journal'],
+    sourceUrl: 'https://www.hipaajournal.com/alabama-ophthalmology-associates-data-breach-settlement/',
+    country: 'US',
+    state: 'AL',
+    isHistorical: false,
+});
+
+UsAF.push({
+    name: 'Business Email Compromise Scheme Defrauding an Alabama Company ($2.7 Million, Four-State Marable Case)',
+    slug: 'alabama-marable-business-email-compromise-four-state-scheme',
+    description: `Timothy Scott Marable, 50, of Lake Placid, Florida, was charged by federal prosecutors in Montgomery, Alabama with two counts of wire fraud for his role as a money mule in a business email compromise scheme that, from November 2019 through August 2020, defrauded companies located in Alabama, Idaho, Ohio, and Texas after their compromised or spoofed vendor email accounts were used to send fraudulent invoices with altered banking instructions. Prosecutors said Marable received more than $2.7 million in fraudulent wire transfers into bank accounts he controlled, then distributed the funds by writing checks and wiring money onward at the direction of a co-conspirator he communicated with over an online instant-messaging platform. On August 1, 2023, a federal judge sentenced Marable to 12 months in prison and ordered him to pay $2,701,746.50 in restitution to the defrauded businesses. The case illustrates how business email compromise schemes rely on money mules with legitimate-looking U.S. bank accounts to receive and quickly move stolen funds before a victim company's bank can claw back a fraudulent wire; any business that receives a last-minute email changing a vendor's payment or banking details should verify the change by phone using a previously known number, not one supplied in the email, before sending payment.`,
+    categorySlug: 'business-email-compromise',
+    sources: ["U.S. Attorney's Office, Middle District of Alabama", 'SecurityWeek'],
+    sourceUrl: 'https://www.securityweek.com/crackdown-bec-schemes-100-arrested-europe-man-charged-us/',
+    country: 'US',
+    state: 'AL',
+    isHistorical: true,
+    firstRecorded: '2019-11-01',
+});
