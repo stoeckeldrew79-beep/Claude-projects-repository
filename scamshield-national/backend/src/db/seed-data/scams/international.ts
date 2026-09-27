@@ -22822,3 +22822,42 @@ International.push({
   sourceUrl: 'https://www.baiduri.com.bn/personal/learn/online-safety/are-younger-people-more-easily-scammed',
   country: 'BN',
 });
+
+International.push({
+  name: 'FACC "Fake President" CEO Fraud Against Austrian Aerospace Firm',
+  slug: 'austria-facc-fake-president-ceo-fraud',
+  description: `In January 2016, an employee of FACC AG — an Austrian aerospace-parts manufacturer supplying Boeing and Airbus — wired roughly €50 million (about $56 million), nearly 10% of the company's annual revenue, after receiving emailed instructions that appeared to come from CEO Walter Stephan, whose writing style and email account criminals had studied after breaching the company's systems. The fraud, a classic "fake president"/"CEO fraud" business-email-compromise scheme, traced part of the money to accounts in Slovakia and Asia before the company caught the error; FACC's supervisory board subsequently fired both Stephan, after 17 years in the role, and the CFO who authorized the transfer, and the company posted a €41.9 million net loss for the 2015/16 fiscal year after recovering only €10.9 million. Austrian and Chinese authorities later froze €10.8 million of the stolen funds in China; after nearly nine years of international legal proceedings, that sum was finally returned to FACC in late March 2025, per the company's own press release.`,
+  categorySlug: 'business-email-compromise',
+  alertLevel: 'high',
+  sources: ['FACC AG (company press release)', 'The Local Austria', 'SecurityWeek'],
+  sourceUrl: 'https://www.thelocal.at/20160525/austrian-firm-fires-ceo-after-50-million-cyber-scam',
+  country: 'AT',
+  isHistorical: true,
+  firstRecorded: '2016-01-01',
+});
+
+International.push({
+  name: 'Kufstein Romance Scam — Tyrol Woman Loses Over €350,000',
+  slug: 'austria-kufstein-romance-scam-350000-euro',
+  description: `A 57-year-old woman from the Kufstein district in Tyrol lost more than €350,000 between 2021 and 2025 to romance scammers she met via Facebook dating platforms, who successively posed as a U.S. soldier deployed in Afghanistan and later as an actor from a well-known American crime series — despite years of professed love, the two never met her in person. The fraudsters repeatedly extracted money using fabricated crises (alleged customs problems, alleged imprisonment, family emergencies), and after her own savings and loans ran out, a family member sold their house and property to keep funding the "relationship." The case initially drew police scrutiny of the victim herself: in 2024 she was investigated for suspected money laundering over the suspicious outbound transfers, and after Austria's "Task Force Sozialleistungsbetrug" (Social Benefits Fraud Task Force) found a further €170,000+ in transfers, months of investigation concluded she was a victim of fraud, not a perpetrator.`,
+  categorySlug: 'romance-scams',
+  alertLevel: 'high',
+  sources: ['ORF Tirol', 'VOL.AT', 'Salzburger Nachrichten (SN.at)'],
+  sourceUrl: 'https://tirol.orf.at/stories/3351410/',
+  country: 'AT',
+  isHistorical: false,
+  firstRecorded: '2021-01-01',
+});
+
+International.push({
+  name: 'Fake Vienna Apartment Listings Used to Steal Rental Deposits',
+  slug: 'austria-vienna-fake-rental-listing-deposit-fraud',
+  description: `Watchlist Internet documented a scheme, reported by profil in June 2023, in which fraudsters copy real Airbnb apartment photos and post them as long-term rental listings on Vienna property sites, posing as real-estate agents or landlords based abroad. At in-person or video viewings, victims are pressured into signing on the spot with a fabricated rental contract and asked to wire a deposit plus a "furnishing fee" before receiving keys; once payment lands, the "agent" disappears and the apartment turns out never to have been available for rent. Three documented Vienna victims lost between roughly €3,000 and €8,000 each before Watchlist Internet project lead Thorsten Behrens flagged the pattern publicly, advising renters to independently verify any agency by phone and reverse-image-search listing photos before signing anything.`,
+  categorySlug: 'rental-housing',
+  alertLevel: 'medium',
+  sources: ['Watchlist Internet', 'profil'],
+  sourceUrl: 'https://www.profil.at/wirtschaft/kaution-ueberwiesen-wohnung-weg-neue-betrugsmasche-in-wien/402505038',
+  country: 'AT',
+  isHistorical: false,
+  firstRecorded: '2023-06-01',
+});
