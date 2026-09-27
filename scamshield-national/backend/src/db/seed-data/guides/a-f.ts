@@ -7633,9 +7633,8 @@ If you or a family member took Chantix for smoking cessation between late 2015 a
     author: "ScamShield Editorial",
     tags: ["guide", "dr-squatch-natural-labeling-settlement"],
     sourceUrl: "https://www.classaction.org/news/9m-dr.-squatch-settlement-ends-lawsuit-over-alleged-synthetic-ingredients-in-natural-personal-care-products",
-    // representative photo — replace with an exact match if found
-    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Bar_of_Castile_soap.jpg?width=1200",
-    coverImageCredit: "Photo: Surv1v4l1st, CC BY-SA 3.0, via Wikimedia Commons — representative bar soap, not an actual Dr. Squatch product",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Natural_Soap_Bars_(46363900951).jpg?width=1200",
+    coverImageCredit: "Photo: Tony Webster, CC BY 2.0, via Wikimedia Commons — real Dr. Squatch bar soaps (Pine Tar, Gold Moss Scrub) on display",
     coverImagePosition: 50,
     body: `Dr. Squatch built a men's personal-care brand largely around the pitch that its bar soaps, shampoos, conditioners, deodorants, and toothpaste were "natural" alternatives to mass-market drugstore products loaded with synthetic chemicals. A class-action lawsuit, Guzman et al. v. Dr. Squatch, LLC (Case No. 25STCV03523), filed in Los Angeles County Superior Court, alleged that claim didn't hold up: that a range of Dr. Squatch products marketed and labeled as "natural" actually contained synthetic ingredients, making the labeling false and misleading to consumers who paid a premium specifically to avoid exactly that kind of ingredient. Dr. Squatch denies the allegations and maintains its products were properly labeled, but agreed to a $9 million settlement rather than continue litigating, with a final approval hearing scheduled for March 2, 2027.
 
@@ -8575,8 +8574,8 @@ GuidesAF.push(
     author: 'ScamShield Editorial',
     tags: ['guide', 'ftc-pbm-insulin-settlements'],
     sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2026/07/ftc-secures-major-settlement-caremark-resolving-antitrust-case-against-second-drug-middleman',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Human_insulin_100IU-ml_vial_white_background.jpg?width=1200',
-    coverImageCredit: 'Photo: Wesalius (CC BY 4.0)',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Express_Scripts_(8681557549).jpg?width=1200',
+    coverImageCredit: 'Photo: Paul Sableman, CC BY 2.0, via Wikimedia Commons — an Express Scripts facility, one of the two PBMs named in this settlement',
     coverImagePosition: 50,
     // representative photo — replace with an exact match if found
     body: `On September 20, 2024, the Federal Trade Commission filed an administrative complaint against the three companies that sit, largely unseen by patients, between every drug manufacturer and every insured person's pharmacy counter in America: Caremark Rx (an affiliate of CVS Health), Express Scripts (an affiliate of Cigna, also known as ESI), and Optum Rx (an affiliate of UnitedHealth Group), along with each company's affiliated rebate-aggregating group purchasing organization — Zinc Health Services, Ascent Health Services, and Emisar Pharma Services, respectively. Together, the FTC said, these three pharmacy benefit managers, or PBMs, administer roughly 80% of all prescriptions filled in the United States, making them the single most powerful — and least visible — layer in the entire prescription-drug supply chain. The complaint's focus was narrow but consequential: how that "Big Three" administer insulin.
@@ -9383,6 +9382,9 @@ GuidesAF.push({
     author: `ScamShield Editorial`,
     tags: [`guide`, `deepfake-video-call-romance-scam`],
     sourceUrl: `https://www.aarp.org/podcasts/the-perfect-scam/ai-powered-romance-scam.html`,
+    coverImage: `https://commons.wikimedia.org/wiki/Special:FilePath/Webcam_On_Laptop.JPG?width=1200`,
+    coverImageCredit: `Photo: Sushiflinger, CC BY-SA 3.0, via Wikimedia Commons`,
+    coverImagePosition: 50,
     body: `For years, the standard advice for spotting a romance scam was simple: if the person on the other end of a dating app conversation won't do a live, unscheduled video call, that refusal is itself the red flag. That advice is now catching up to a harder reality. In a case AARP's "The Perfect Scam" podcast documented, a Port Richey, Florida man named David built an online relationship with a woman calling herself "Bonnie." Their first video call ran a genuine 20 minutes and looked completely ordinary. But as the relationship deepened and she began asking for money tied to a supposed overseas business contract, later video "calls" quietly became one-way clips sent over WhatsApp, always accompanied by the same excuse — a bad internet connection — before shifting mostly to text. David eventually wired roughly $30,000 in cash and cryptocurrency, routed in part through Nigeria, and a further $48,000 in unauthorized charges turned up on his home equity line of credit. When he brought the videos to the local sheriff's office, investigators told him they appeared to be AI-generated, though — as is often the case with this kind of fraud — there was no way to confirm that with certainty after the fact.
 
 What makes this version of the con effective is that it doesn't try to fake an entire ongoing relationship on camera — it only has to pass the verification moment once. A single live-feeling call, or a handful of realistic-looking clips, is often enough to satisfy the exact test a cautious person has been told to apply, after which the scammer can retreat to lower-effort channels like chat or voice notes without raising further suspicion. The FBI's Internet Crime Complaint Center warned in a July 2026 public service announcement that criminals now "generate videos for private communications to 'prove' the online contact is with a 'real person,'" adding that "AI-generated content has advanced to the point that it is often difficult to identify" even for people looking for it.
