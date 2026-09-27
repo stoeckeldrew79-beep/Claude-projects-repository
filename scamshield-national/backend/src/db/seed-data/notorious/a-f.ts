@@ -10517,6 +10517,10 @@ NotoriousAF.push({
     title: 'The European Kings Club and the Swiss Ponzi Scheme Investors Refused to Believe Was Fake',
     slug: 'european-kings-club-ponzi-scheme',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Altdorf,_general_view,_Uri,_Switzerland-LCCN2001703059.jpg?width=1200',
+    coverImageCredit: 'Photo: Detroit Publishing Co., 1905 (public domain) — Altdorf, capital of Uri, the central-Swiss canton where the scheme recruited most heavily',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'ponzi-scheme', 'international', 'historical', 'switzerland'],
     body: `Between 1991 and 1994, three German nationals — Damara Bertges, her husband Harald Bertges, and Hans Günther Spachtholz — ran what became Western Europe's largest Ponzi scheme, the European Kings Club (EKC). The "investment" was a paper certificate called a "letter," priced at 1,400 Swiss francs, that promised a 70 percent return over a year: twelve monthly payments of 200 francs. There was no underlying business, trading strategy, or asset behind the letters — only the promise that new buyers' money would fund the old ones' payouts, dressed up with the trappings of an exclusive members' club.
 
@@ -10532,6 +10536,10 @@ NotoriousAF.push({
     title: "Amado Yáñez and the Oceanografía Fraud That Cost Citigroup's Banamex $475 Million",
     slug: 'amado-yanez-oceanografia-banamex-fraud',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Torre_Ejecutiva_Pemex_CDMX.jpg?width=1200',
+    coverImageCredit: 'Photo: Gobierno CDMX (CC0) — Pemex\'s Mexico City headquarters tower, the state oil company whose invoices Oceanografía forged',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'international'],
     body: `Amado Yáñez Osuna founded and, for two decades, ran Oceanografía, a Mexican oil-services contractor that supplied vessels and equipment to Pemex, the state oil company, eventually building it into one of Pemex's largest private contractors. Yáñez controlled roughly 76-80% of the company himself, and Oceanografía's dependence on a steady stream of Pemex contracts made it, in effect, a bet on one client's continued business — a bet Yáñez apparently decided to hedge by manufacturing paperwork that didn't reflect reality.
 
@@ -10547,6 +10555,10 @@ NotoriousAF.push({
     title: 'Arjuna Mahendran and the Sri Lankan Bond Auction That Drained a National Pension Fund',
     slug: 'arjuna-mahendran-sri-lanka-central-bank-bond-scandal',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Central_Bank_of_Sri_Lanka_Building.jpg?width=1200',
+    coverImageCredit: 'Photo: Amithasundar (CC BY-SA 3.0) — the Central Bank of Sri Lanka building in Colombo, which Mahendran governed at the time of the auction',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'international'],
     body: `In January 2015, Sri Lanka's newly elected government appointed Arjuna Mahendran — a Singaporean citizen of Sri Lankan Tamil descent with no prior central-banking career in the country — as Governor of the Central Bank of Sri Lanka (CBSL). His son-in-law, Arjun Aloysius, owned Perpetual Treasuries Limited (PTL), one of a small number of "primary dealers" licensed to bid directly in the CBSL's own government bond auctions — a family connection that put Mahendran in a position to influence exactly the market his relative's firm traded in.
 
