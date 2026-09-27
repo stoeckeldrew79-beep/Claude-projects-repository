@@ -10026,3 +10026,45 @@ UsNS.push({
     state: 'PA',
     isHistorical: false,
 });
+
+UsNS.push({
+    name: 'Middlesex County "Swapstar Capital" Ponzi Scheme',
+    slug: 'new-jersey-middlesex-county-swapstar-capital-ponzi-scheme',
+    description: `New Jersey Attorney General Matthew Platkin announced that a state grand jury indicted Swapnil Rege, 50, and Reema Rege, 48, of Monmouth Junction, for defrauding investors of roughly $2.28 million between January 2020 and August 2022 through their firm Swapstar Capital LLC. The couple promised guaranteed annual returns of 21 to 80 percent from securities trading without disclosing that Swapnil had been barred by the SEC since July 2019, then paid roughly $1.4 million in fake "returns" to keep victims investing while diverting funds to a mansion purchase and personal credit-card debts. Swapnil faces securities fraud, investment adviser fraud, theft by deception, and first-degree money laundering charges; Reema faces securities fraud, investment adviser fraud, and theft by deception. The indictment was announced April 24, 2025.`,
+    categorySlug: 'ponzi-pyramid-schemes',
+    alertLevel: 'high',
+    sources: ['New Jersey Office of the Attorney General'],
+    sourceUrl: 'https://www.njoag.gov/middlesex-county-couple-indicted-in-alleged-multimillion-dollar-ponzi-scheme/',
+    country: 'US',
+    state: 'NJ',
+    isHistorical: false,
+    firstRecorded: '2025-04-24',
+});
+
+UsNS.push({
+    name: '"Operation Safe House" and "Operation Safe Move" Unlicensed Contractor and Mover Sting',
+    slug: 'new-jersey-operation-safe-house-safe-move-unlicensed-contractor-mover-sting',
+    description: `In October 2025, New Jersey's Division of Consumer Affairs ran two undercover stings: "Operation Safe House" in Manchester Township, where investigators posed as homeowners seeking renovation estimates for roofing, siding, fencing, and other projects, and "Operation Safe Move" in Hamilton Township with the State Police Mobile Safe Freight Unit, where investigators posed as customers hiring movers. The operations cited 18 home improvement contractor businesses for soliciting work without active state registration ($2,500 per violation, $45,000 total), and 11 moving companies for operating without required licensure ($5,000 per violation, $55,000 total), while State Police safety inspections of the moving trucks turned up 45 separate motor vehicle violations. Attorney General Matthew Platkin warned that unlicensed operators "pose a risk to consumers through potential poor service quality, property damage, and a lack of legal recourse," and urged residents to verify a mover's license at MyMoversNJ.gov and a contractor's registration through the state's own lookup tool before hiring either.`,
+    categorySlug: 'home-improvement-solar',
+    alertLevel: 'medium',
+    sources: ['New Jersey Office of the Attorney General', 'New Jersey Division of Consumer Affairs'],
+    sourceUrl: 'https://www.njoag.gov/division-of-consumer-affairs-undercover-enforcement-operations-result-in-notices-of-violations-against-18-unregistered-home-improvement-contractor-businesses-and-11-unlicensed-moving-companies/',
+    country: 'US',
+    state: 'NJ',
+    isHistorical: false,
+    firstRecorded: '2025-10-15',
+});
+
+UsNS.push({
+    name: 'Regional Cancer Care Associates Data Breach and Deceased-Patient Notification Error',
+    slug: 'new-jersey-regional-cancer-care-associates-data-breach-settlement',
+    description: `Regional Cancer Care Associates LLC (RCCA), headquartered in Hackensack with roughly 30 locations across New Jersey, Connecticut, and Maryland, suffered a phishing-driven email breach between April and June 2019 that exposed patients' Social Security numbers, driver's license numbers, financial account numbers, and payment card data. The breach-notification process itself then compounded the harm: in July 2019, a third-party vendor mistakenly mailed notification letters to 13,047 patients' next-of-kin instead of the patients themselves, improperly disclosing those patients' cancer diagnoses to family members without consent. The New Jersey Attorney General's Division of Consumer Affairs settled its investigation for $425,000 — covering 80,333 of the 105,200 total affected consumers who were New Jersey residents — requiring RCCA to hire a Chief Information Security Officer, build a formal incident-response plan, and undergo independent third-party security assessments going forward.`,
+    categorySlug: 'data-breach-scams',
+    alertLevel: 'medium',
+    sources: ['New Jersey Office of the Attorney General'],
+    sourceUrl: 'https://www.njoag.gov/new-jersey-health-care-providers-will-adopt-new-security-measures-and-pay-425000-to-settle-investigation-into-two-data-breaches/',
+    country: 'US',
+    state: 'NJ',
+    isHistorical: true,
+    firstRecorded: '2019-04-01',
+});
