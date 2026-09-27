@@ -5834,3 +5834,30 @@ UsTZ.push({
     isHistorical: true,
     firstRecorded: '2025-07-04',
 });
+
+UsTZ.push({
+    name: 'Vermont Judiciary Fraudulent Court-Fee Text/Social Media Scam',
+    slug: 'vermont-judiciary-fraudulent-court-text-scam',
+    description: `On April 28, 2026, the Vermont Judiciary publicly warned that scammers were sending text messages and social media posts falsely claiming to be from Vermont courts, telling recipients they had missed a court appearance or owed unpaid fees or fines and threatening an arrest warrant, license suspension, or wage garnishment unless they clicked a link or paid immediately. The Judiciary stated flatly that it "does not communicate with parties to a court action via text messages or social media posts," and, together with the Vermont Attorney General's Consumer Assistance Program, urged recipients not to click any link or reply, but instead to verify any notice by contacting their local court directly through the "Find a Court" directory at vermontjudiciary.org or by emailing informationcenter@vtcourts.gov. A similar wave of court-impersonation texts was reported spreading in neighboring New Hampshire around the same time — distinct from this database's existing "Vermont Jury-Duty Warrant Phone Scam" entry, which is a live phone call specifically about missed jury duty, not a text/social-media message about court fees or fines generally.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Vermont Judiciary', 'WCAX'],
+    sourceUrl: 'https://www.vtcourts.gov/news/vermont-judiciary-warns-public-court-related-text-message-scam',
+    country: 'US',
+    state: 'VT',
+    firstRecorded: '2026-04-28',
+});
+
+UsTZ.push({
+    name: 'Shaftsbury Man\'s Multistate Hay and Maple Syrup Advance-Payment Fraud',
+    slug: 'vermont-blackmer-hay-maple-syrup-fraud',
+    description: `Richard Blackmer, formerly of Shaftsbury, Vermont, ran a decade-long scheme in which he took orders and upfront payment for hay, maple syrup, maple-sugaring equipment, farm equipment, and collectible model cars from roughly 98 victims across Vermont and at least a dozen other states, then failed to deliver — offering excuses ranging from truck breakdowns to a fabricated claim that he'd had heart surgery and died. Between 2013 and his 2024 sentencing he took in roughly $500,000 from customers while delivering only about $250,000 worth of goods, racking up dozens of fraud-related charges before pleading guilty to felony false pretenses. On January 12, 2024, Bennington Superior Court Judge Kerry McDonald-Cady sentenced him to five-to-ten years in prison, calling his conduct "the work of a professional con artist, taking advantage of individuals, small business owners and farmers," with 42 victims formally seeking $147,000 in restitution. Nothing else in this database's Vermont coverage touches agricultural or farm-product advance-payment fraud — a reminder that a familiar-sounding, folksy product pitch (real maple syrup, real hay) offers no more protection against an advance-payment scam than any other online purchase.`,
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'medium',
+    sources: ['VTDigger'],
+    sourceUrl: 'https://vtdigger.org/2024/01/12/judge-sentences-professional-con-artist-to-5-to-10-year-prison-term/',
+    country: 'US',
+    state: 'VT',
+    isHistorical: true,
+    firstRecorded: '2013-01-01',
+});
