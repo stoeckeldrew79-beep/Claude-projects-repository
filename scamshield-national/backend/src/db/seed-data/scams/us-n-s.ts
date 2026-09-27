@@ -10166,3 +10166,45 @@ UsNS.push({
     isHistorical: true,
     firstRecorded: '2023-09-11',
 });
+
+UsNS.push({
+    name: 'FBI Albuquerque Cryptocurrency Scam Loss Surge',
+    slug: 'new-mexico-fbi-cryptocurrency-scam-loss-surge',
+    description: `In 2023, New Mexicans reported losing more than $11.4 million to cryptocurrency scams, making it the state's costliest online-fraud category for the year and displacing business email compromise, which had topped the prior year's losses, according to the FBI's Albuquerque Field Office. Special Agent in Charge Raul Bujanda said reported losses "have continued to go up in all areas," with investment fraud and romance/confidence scams rounding out the top loss categories and adults 60 and older reporting the highest victimization rates. The FBI Albuquerque office urged residents to report losses immediately through IC3.gov or by phone, since fast reporting improves the odds that a wire transfer can still be frozen or clawed back.`,
+    categorySlug: 'cryptocurrency-scams',
+    alertLevel: 'high',
+    sources: ['FBI Albuquerque Field Office', 'KRQE'],
+    sourceUrl: 'https://www.krqe.com/news/new-mexico/albuquerque-fbi-online-scam-reports-on-the-rise-in-2023-and-how-to-avoid-them/amp/',
+    country: 'US',
+    state: 'NM',
+    isHistorical: false,
+    firstRecorded: '2024-01-01',
+});
+
+UsNS.push({
+    name: 'Albuquerque Car Dealership Arson Insurance Fraud (Matthew Walker)',
+    slug: 'new-mexico-walker-dealership-arson-insurance-fraud',
+    description: `In late 2019, Albuquerque resident Matthew Walker allegedly set fire to his own car while it sat at a local dealership for repairs, after his insurer had declined to cover the vehicle's damage — the blaze also destroyed three other vehicles on the lot. Investigators placed Walker at the scene using cell-phone location data pinging his phone in the dealership's parking lot at the time of the fire, combined with surveillance video that captured him fleeing moments after the explosion; he gave investigators conflicting accounts of his whereabouts that day before ending the interrogation. He was charged with arson and filing a fraudulent insurance claim, facing up to eight years in prison if convicted.`,
+    categorySlug: 'insurance-fraud',
+    alertLevel: 'low',
+    sources: ['KRQE'],
+    sourceUrl: 'https://www.krqe.com/news/crime/albuquerque-man-charged-with-arson-after-car-set-on-fire-at-local-dealership/amp/',
+    country: 'US',
+    state: 'NM',
+    isHistorical: true,
+    firstRecorded: '2019-12-01',
+});
+
+UsNS.push({
+    name: 'New Mexico MVD Text Message Threat and Payment-Demand Scam',
+    slug: 'new-mexico-mvd-text-message-scam',
+    description: `Starting by mid-2025, New Mexicans began receiving fraudulent text messages falsely claiming to be from the Motor Vehicle Division or other local government agencies, threatening license suspension, warrants, or other penalties unless the recipient clicked an embedded link or replied with personal or financial information. On June 13, 2025, MVD publicly warned that many of the messages originate from international phone numbers and stated flatly that "the MVD does not contact customers via text, email, or phone call to issue threats or demand payment" — the agency communicates only through official letterhead mail. The New Mexico Taxation and Revenue Department, which oversees MVD, urged recipients to delete the texts, report them to their carrier, and verify any claimed notice by contacting MVD directly through its official website (mvd.newmexico.gov) or phone line rather than any number or link in the text itself.`,
+    categorySlug: 'phishing',
+    alertLevel: 'medium',
+    sources: ['New Mexico Taxation and Revenue Department', 'New Mexico Motor Vehicle Division'],
+    sourceUrl: 'https://biz.nm.gov/newsroom/press-release-nm-mvd-warns-against-continuing-scams-and-fraud-100001904',
+    country: 'US',
+    state: 'NM',
+    isHistorical: false,
+    firstRecorded: '2025-06-13',
+});
