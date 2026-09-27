@@ -7502,6 +7502,10 @@ NotoriousNS.push({
   title: 'The Sklarek Brothers: The Berlin Invoice Fraud That Brought Down a Mayor',
   slug: 'sklarek-brothers-berlin-municipal-fraud-scandal',
   author: 'ScamShield Editorial',
+  coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Unter_den_Linden_from_the_Castle_Bridge,_Berlin,_Germany-LCCN2002713621.jpg?width=1200',
+  coverImageCredit: 'Photo: Library of Congress, Photochrom Print Collection (Public Domain) — Unter den Linden, central Berlin',
+  coverImagePosition: 50,
+  // representative photo — replace with a portrait if found
   tags: ['notorious', 'notorious-scammer', 'international', 'historical'],
   body: `Leo, Max, and Willy Sklarek were three Jewish brothers running a clothing wholesale business in Weimar-era Berlin, in the years after Germany's defeat in the First World War. Their firm had a longstanding relationship with the city government: since the war, Berlin's municipal administration had relied on the Sklareks' company to supply and distribute clothing for city employees, and in 1926 the brothers bought outright the distribution company that handled that business, giving them still tighter control over one of the city's steadiest sources of institutional revenue.
 

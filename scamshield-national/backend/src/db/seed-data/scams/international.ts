@@ -20872,6 +20872,17 @@ International.push(
     isHistorical: false,
     firstRecorded: '2023-01-01',
   },
+  {
+    name: "AI-Generated Fake Transfer Receipt Scam (Wave Money)",
+    slug: "myanmar-wave-money-ai-fake-transfer-receipt-scam",
+    description:
+      "Wave Money, one of Myanmar's largest mobile-money operators, warned that fraudsters are using AI image-generation tools to forge convincing money-transfer receipts and payment screenshots, showing these to sellers and payees as false proof a payment has already gone through in order to obtain goods, services, or refunds without ever actually sending money. Wave Money said the most effective way to avoid falling for a fake transfer is to check the real transaction history and account balance directly in the Wave Money app rather than trusting a screenshot handed over by the other party, and noted that some AI-generated fakes carry a visible watermark or logo that scammers crop out specifically to evade detection. Eleven Media Group, which reported the warning, cited the Bangkok Post's own reporting that the same AI-forged-receipt technique has surfaced among fraud networks operating along the Thai-Myanmar border, suggesting the tactic is spreading beyond a single country's mobile-money platform. The scam is distinct from Myanmar's existing bank-employee-impersonation phishing pattern, since it targets the seller or payee side of a transaction rather than the account holder, and requires no stolen credentials at all — just a convincing enough fake image to get goods released before the missing payment is discovered.",
+    categorySlug: "fake-check-overpayment",
+    alertLevel: "medium",
+    sources: ["Eleven Media Group","Wave Money"],
+    sourceUrl: "https://elevenmyanmar.com/news/wave-money-warns-users-of-ai-generated-fake-transfer-receipts",
+    country: "MM",
+  },
 );
 
 International.push({

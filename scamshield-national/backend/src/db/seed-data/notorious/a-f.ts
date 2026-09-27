@@ -10091,6 +10091,9 @@ NotoriousAF.push({
     title: 'Baldwin-United: The Piano Maker Whose Annuity Empire Became a $9 Billion Collapse',
     slug: 'baldwin-united-morley-thompson-annuity-collapse',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Cincinnati-Baldwin_Piano_Company_(OHPTC)_(2015-01-30_10.45.07_by_Ohio_Redevelopment_Projects_-_ODSA).jpg?width=1200',
+    coverImageCredit: 'Photo: Ohio Redevelopment Projects–ODSA (CC BY 2.0) — the former Baldwin Piano Company building in Cincinnati',
+    coverImagePosition: 50,
     tags: ['notorious', 'notorious-scammer', 'historical', 'accounting-fraud', 'insurance-fraud'],
     body: `Baldwin-United Corporation began life as the Baldwin Piano Company, a century-old Cincinnati instrument maker. After merging with United Corp. in 1977, it transformed itself under CEO Morley P. Thompson into a sprawling financial-services conglomerate that by the early 1980s owned more than 200 subsidiaries — savings and loans, insurance carriers, and investment firms including MGIC Investment Corporation. By 1982 the original piano business generated just 3 percent of the company's $3.6 billion in annual revenue; the rest came from a financial empire built almost entirely on debt.
 
@@ -10457,6 +10460,10 @@ NotoriousAF.push({
     title: 'John Bairstow and the Queens Moat Houses Fraud That Hid £1 Billion in Losses Behind Fake Hotel Profits',
     slug: 'john-bairstow-queens-moat-houses-accounting-fraud',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Moat_house_Hotel_-_Harrogate.jpg?width=1200',
+    coverImageCredit: 'Photo: John, via Flickr (CC BY 2.0) — a Moat House hotel in Harrogate, the UK brand Queens Moat Houses once operated',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['accounting-fraud', 'international', 'historical', 'corporate-governance'],
     body: `John Bairstow founded Queens Moat Houses in the early 1970s and built it, over two decades, into the United Kingdom's third-largest hotel operator by 1991 — behind only Forte and Mount Charlotte — with around 190 hotels and a peak market value of roughly £900 million. Bairstow ran the company as chairman and dominated a board that a later court would describe as filled with directors of modest ability, including deputy chairman Martin Marcus and finance director Alan Porter.
 
@@ -10489,6 +10496,10 @@ NotoriousAF.push({
     title: 'Maia Santos Deguito and the $81 Million Bangladesh Bank Heist That Vanished Into Manila\'s Casinos',
     slug: 'maia-santos-deguito-bangladesh-bank-heist-rcbc',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Resorts_World_Manila.JPG?width=1200',
+    coverImageCredit: 'Photo: Elmer B. Domingo (CC BY-SA 3.0) — a Manila casino complex, representative of the venues used to launder the stolen funds',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'money-laundering', 'philippines', 'international', 'bank-fraud', 'cybercrime'],
     body: `On February 4, 2016, hackers — later attributed by U.S. investigators to North Korea's state-sponsored Lazarus Group — used credentials stolen from Bangladesh Bank's own computers to issue 35 fraudulent SWIFT payment instructions worth a combined $951 million, drawn against the central bank's account at the Federal Reserve Bank of New York. Most of the requests were flagged for manual review and blocked, and a misspelled beneficiary name ("Fandation" instead of "Foundation") on a $20 million transfer to Sri Lanka triggered a bank's suspicion and got that money frozen and later fully recovered. But five instructions worth $101 million slipped through, including $81 million routed to the Philippines — the largest cyber-enabled bank heist ever carried out at the time.
 
