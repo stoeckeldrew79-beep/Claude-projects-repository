@@ -10124,3 +10124,45 @@ UsNS.push({
     isHistorical: false,
     firstRecorded: '2026-05-21',
 });
+
+UsNS.push({
+    name: 'Bad Bunny Concert Fake Ticket Resale Scam',
+    slug: 'puerto-rico-bad-bunny-fake-ticket-resale-scam',
+    description: `Puerto Rico police opened fraud investigations after sellers posted fake ticket listings on social media for Bad Bunny's 2025 "No Me Quiero Ir de Aquí" residency at the Coliseo de Puerto Rico, collecting payment via the ATH Móvil mobile-payment app and then sending buyers counterfeit or nonexistent tickets. In one case handled by the San Juan Tourist Precinct, a 24-year-old woman from Cataño paid $500 via ATH Móvil for two tickets that turned out to be fake, and an 18-year-old victim lost $170 the same way. The pattern recurred during Bad Bunny's August 2026 stadium shows at Estadio Hiram Bithorn, where police confirmed at least three more victims paid $200-$500 via ATH Móvil for tickets never delivered, amid VIP tickets originally sold for $100 reappearing on resale sites for over $6,000.`,
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'medium',
+    sources: ['Metro Puerto Rico', 'El Vocero'],
+    sourceUrl: 'https://www.metro.pr/noticias/2025/08/02/continua-la-denuncia-de-fraude-en-la-reventa-de-boletos-falsos-para-residencia-de-bad-bunny/',
+    country: 'US',
+    state: 'PR',
+    isHistorical: false,
+    firstRecorded: '2025-08-02',
+});
+
+UsNS.push({
+    name: 'DACO Microsoft-Impersonation Phishing Email Scam',
+    slug: 'puerto-rico-daco-microsoft-impersonation-phishing-scam',
+    description: `On January 27, 2026, Puerto Rico's Department of Consumer Affairs (DACO) issued an alert after its Fraud Scheme Detection Unit found an email phishing campaign using counterfeit Microsoft logos to impersonate account-security notices for Microsoft, Office, and Xbox accounts. The emails claim a problem with the recipient's "Microsoft account and payment details" and push a link to "verify and update payment data," harvesting credit card numbers, postal addresses, and birth dates; DACO traced one message to the sender address ij@agrobiosmart.com rather than any Microsoft domain. DACO Secretary Hiram Torres Montalvo called it "one of the most sophisticated schemes" the unit had detected and warned that clicking the link alone can expose a victim's device to the scammers.`,
+    categorySlug: 'phishing',
+    alertLevel: 'medium',
+    sources: ['Puerto Rico Department of Consumer Affairs (DACO)', 'Primera Hora'],
+    sourceUrl: 'https://www.primerahora.com/noticias/policia-tribunales/notas/daco-detecta-sofisticado-esquema-de-fraude-con-logos-de-microsoft/',
+    country: 'US',
+    state: 'PR',
+    isHistorical: false,
+    firstRecorded: '2026-01-27',
+});
+
+UsNS.push({
+    name: 'DACO Banco Popular Impersonation Phishing Email Scam',
+    slug: 'puerto-rico-daco-banco-popular-phishing-scam',
+    description: `On September 11, 2023, DACO warned consumers about a phishing campaign impersonating Banco Popular de Puerto Rico, using the bank's logo in emails that falsely claimed an irregular electronic transfer had occurred on the recipient's account and pushed a link demanding the victim log in to "resolve" it. Then-interim DACO Secretary Lisoannette González Ruíz described the emails as "fairly sophisticated" mimicry of Banco Popular's branding, and DACO identified one fraudulent sender address, robert@markmanins.com, unconnected to the bank. DACO urged recipients not to click links in unsolicited bank emails and instead to verify any account issue by logging into Banco Popular's own app or site, or calling the number on the back of their card.`,
+    categorySlug: 'phishing',
+    alertLevel: 'medium',
+    sources: ['Puerto Rico Department of Consumer Affairs (DACO)', 'WIPR'],
+    sourceUrl: 'https://wipr.pr/daco-alerta-de-fraudes-electronicos-vinculados-a-banco-en-puerto-rico/',
+    country: 'US',
+    state: 'PR',
+    isHistorical: true,
+    firstRecorded: '2023-09-11',
+});
