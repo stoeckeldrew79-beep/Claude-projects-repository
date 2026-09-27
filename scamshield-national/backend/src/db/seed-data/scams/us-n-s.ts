@@ -10000,3 +10000,29 @@ UsNS.push({
     isHistorical: true,
     firstRecorded: '2020-09-17',
 });
+
+UsNS.push({
+    name: 'Pennsylvania Turnpike Toll Smishing Scam',
+    slug: 'pennsylvania-turnpike-toll-smishing-scam',
+    description: `The Pennsylvania Turnpike Commission issued a consumer alert published March 4, 2026 warning that fraudulent texts claiming to be from "PA Turnpike Toll Services" tell recipients they have an unpaid toll balance and must pay immediately via a link, threatening added late fees. The Commission states plainly that it does not text E-ZPass or Toll By Plate customers about balances, and that while its legitimate collection partners (Harris & Harris, TSI) may text about seriously overdue balances, those messages always identify the company by name and never ask a customer to send money via a link or a payment app like Zelle or Venmo. Warning signs cited include unsecured links with odd characters, an 11-digit sender number, and urgent threatening language; anyone who receives such a text is urged to verify any toll balance directly by calling PA Turnpike customer service at 877-736-6727 rather than clicking the link.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Pennsylvania Turnpike Commission'],
+    sourceUrl: 'https://www.paturnpike.com/news/pa-turnpike-blog/details/blog/2026/03/06/protecting-yourself-and-your-finances-from-tolling-smishing-scams',
+    country: 'US',
+    state: 'PA',
+    isHistorical: false,
+});
+
+UsNS.push({
+    name: 'Gettysburg Borough Fake QR Code Parking Meter Scam',
+    slug: 'gettysburg-fake-qr-code-parking-meter-scam',
+    description: `Gettysburg Borough (Adams County, Pennsylvania) officials first warned on November 15, 2024, and again in mid-2025, that scammers were placing fraudulent QR code stickers on parking meters and inside the borough's parking garage. Scanning the codes redirects victims to a fake site mimicking the borough's legitimate Pay-By-Phone parking app; payments entered there don't actually begin a real parking session in Gettysburg Borough, and the money goes straight to the scammer instead. The borough confirmed at least one prior fraud victim and caught a suspect on camera placing codes during a later incident, and the same tactic separately hit parking meters in Stroudsburg, Monroe County, described by officials as affecting municipalities throughout eastern Pennsylvania. Residents are advised never to use a QR code posted on or near a parking meter — Gettysburg Borough does not use them — and to pay only through the borough's own verified Pay-By-Phone app or a meter's physical coin/card slot, reporting any suspicious sticker to local police.`,
+    categorySlug: 'qr-code-scams',
+    alertLevel: 'medium',
+    sources: ['Gettysburg Borough', 'Gettysburg Connection', 'Local21News'],
+    sourceUrl: 'https://gettysburgconnection.org/gettysburg-reports-qr-code-parking-scam/',
+    country: 'US',
+    state: 'PA',
+    isHistorical: false,
+});
