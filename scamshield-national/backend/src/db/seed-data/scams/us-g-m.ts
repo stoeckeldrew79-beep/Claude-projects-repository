@@ -10461,3 +10461,122 @@ UsGM.push({
     isHistorical: true,
     firstRecorded: '2020-08-01',
 });
+
+UsGM.push({
+    name: 'ComEd Bitcoin ATM Disconnection Threat Scam',
+    slug: 'comed-bitcoin-atm-disconnection-threat-scam',
+    description: `Scammers impersonating ComEd call or text Illinois customers claiming their electricity will be shut off within hours unless a "past-due bill" is paid immediately, then direct victims to a nearby bitcoin ATM to insert cash and route it to the scammer's cryptocurrency wallet. Illinois Attorney General Kwame Raoul issued a formal consumer alert on August 18, 2021 warning that ComEd never disconnects service over the phone and never accepts cryptocurrency, gift cards, or wire transfers as payment; ComEd has repeatedly renewed the same warning during high-demand periods since. A 2025 change in Illinois law now lets crypto-kiosk customers seek a refund if they report a scam to the ATM operator within 30 days and file a police report within 60 days, though bitcoin sent through an ATM is otherwise irreversible.`,
+    categorySlug: 'utility-scams',
+    alertLevel: 'medium',
+    sources: ['Illinois Attorney General\'s Office'],
+    sourceUrl: 'https://illinoisattorneygeneral.gov/News-Room/2021-Press-Release-Archive/202108-18%20CONSUMER%20ALERT%20URGES%20ILLINOIS%20RESIDENTS%20TO%20BE%20AWARE%20OF%20COMED%20SCAM%20INVOLVING%20CRYPTOCURRENCY%20PAYMENTS%20.pdf',
+    country: 'US',
+    state: 'IL',
+    isHistorical: false,
+});
+
+UsGM.push({
+    name: 'Illinois Link (SNAP/EBT) Card Skimming Crisis',
+    slug: 'illinois-link-ebt-card-skimming-crisis',
+    description: `Criminals plant skimming devices on point-of-sale terminals at Illinois retailers to copy Link (SNAP/EBT) card numbers and PINs, clone the cards, and drain benefits before recipients can spend them — a risk worsened because Illinois Link cards, unlike most debit cards, still carry no EMV chip. Illinois households lost nearly $21 million to roughly 124,000 fraudulent transactions across more than 38,000 households between October 2022 and December 2024, with $12.5 million of that total ($57 percent of all losses tracked) taken in 2024 alone as the fraud accelerated; nationally, USDA data show losses exceeding $220 million through September 30, 2024. Illinois has so far declined to add chip technology to Link cards, but the state plans to join a USDA mobile-wallet pilot allowing benefits to be added to a phone for tap-to-pay use, which would sidestep the physical-skimming vulnerability entirely.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'high',
+    sources: ['CBS News Chicago'],
+    sourceUrl: 'https://www.cbsnews.com/chicago/news/illinois-snap-benefits-fraud-ebt-card-money-stolen/',
+    country: 'US',
+    state: 'IL',
+    isHistorical: false,
+});
+
+UsGM.push({
+    name: 'Round Lake Online Puppy Sale Fraud (Mondum Hycenth)',
+    slug: 'round-lake-online-puppy-sale-fraud-mondum-hycenth',
+    description: `Mondum Hycenth, 41, of Round Lake, Illinois, ran online ads for puppies that didn't exist, collecting payment through money-transfer services at retail stores and using falsified identification and forged signatures to withdraw the funds untraceably. Illinois Attorney General Kwame Raoul charged Hycenth in January 2024 with theft, wire fraud, seven counts of burglary, and seven counts of forgery, and victims who paid never received a puppy or a refund. Hycenth pleaded not guilty at arraignment but changed his plea in late June 2024, pleading guilty to a single reduced count of theft between $500 and $10,000 in exchange for the remaining charges being dismissed, and was sentenced to 24 months of probation with 30 days of electronic monitoring.`,
+    categorySlug: 'pet-sales-scams',
+    alertLevel: 'medium',
+    sources: ['Illinois Attorney General\'s Office', 'Lake & McHenry County Scanner'],
+    sourceUrl: 'https://illinoisattorneygeneral.gov/news/story/attorney-general-raoul-charges-lake-county-man-over-online-puppy-scam',
+    country: 'US',
+    state: 'IL',
+    isHistorical: true,
+    firstRecorded: '2024-01-24',
+});
+
+UsGM.push({
+    name: 'BBB Acadiana Fake Puppy Breeder Wire Scam',
+    slug: 'bbb-acadiana-fake-puppy-breeder-wire-scam',
+    description: `A scammer posing online as a dog breeder in Eunice, Louisiana took an initial deposit from a buyer in the Acadiana region, then invented a string of new emergencies — vet bills, shipping problems — to extract further payments before disappearing without ever delivering a dog. The Better Business Bureau of Acadiana traced the operation to someone actually based in Cherry Creek, Idaho, far from the Louisiana address advertised; the victim lost a few thousand dollars, and the BBB warns the pattern isn't limited to any one breed and is likely underreported since embarrassed victims often don't file a report.`,
+    categorySlug: 'pet-sales-scams',
+    alertLevel: 'medium',
+    sources: ['Better Business Bureau of Acadiana'],
+    sourceUrl: 'https://999ktdy.com/how-louisiana-residents-can-avoid-the-heartbreak-of-puppy-scams/',
+    country: 'US',
+    state: 'LA',
+    isHistorical: false,
+});
+
+UsGM.push({
+    name: 'Denham Springs Facebook Fake Mobile Home Sale Scam',
+    slug: 'denham-springs-facebook-fake-mobile-home-sale-scam',
+    description: `Scammers built a fake mobile-home dealership website with an automated chat feature and ran Facebook ads for steeply discounted manufactured homes, using photos stolen from legitimate retailers around the country and even the street address of a real, unrelated mobile-home park in Denham Springs, Louisiana, to appear legitimate. The Better Business Bureau warned in June 2025 that buyers who paid the requested deposit received no home and could not recover their money, and that the fake dealer — unlike real ones — was never registered with the Louisiana State Fire Marshal's office; BBB representative Carmen Million urged buyers to physically see and touch any mobile home before paying. The scheme has since been reported to the FBI.`,
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'high',
+    sources: ['Better Business Bureau', 'WAFB'],
+    sourceUrl: 'https://www.wafb.com/2025/06/24/bbb-warns-rental-home-scam-facebook/',
+    country: 'US',
+    state: 'LA',
+    isHistorical: true,
+    firstRecorded: '2025-06-24',
+});
+
+UsGM.push({
+    name: 'Fake Louisiana Lottery Prize Notice with Counterfeit Check',
+    slug: 'fake-louisiana-lottery-prize-notice-counterfeit-check',
+    description: `Victims received official-looking prize letters illegally bearing the National Association of State and Provincial Lotteries' logo and familiar retail brand names, along with a counterfeit Bank of America check for $4,800 described as a "partial" prize payment, and were told to deposit the check and immediately wire back a $2,800 "processing fee" within 24 hours — before the bank could flag the check as fake, leaving them liable for the full amount once it bounced. The Louisiana Lottery Corporation issued a public warning confirming it never requires winners to pay any fee, tax, or commission up front to claim a real prize, and that the prize money in these letters never actually arrives.`,
+    categorySlug: 'lottery-sweepstakes-scams',
+    sources: ['Louisiana Lottery Corporation'],
+    sourceUrl: 'https://louisianalottery.com/louisiana-lottery-warns-players-of-a-new-lottery-scam/',
+    country: 'US',
+    state: 'LA',
+    isHistorical: true,
+    firstRecorded: '2016-04-25',
+});
+
+UsGM.push({
+    name: 'Wyandotte County "Missed Jury Duty" Arrest-Warrant Impersonation Scam',
+    slug: 'kansas-wyandotte-county-jury-duty-arrest-scam',
+    description: `The Wyandotte County Sheriff's Office and Wyandotte County District Court warned in July 2026 that scammers are calling residents while using the actual names of real sheriff's deputies and court employees, falsely claiming the person missed jury duty and now faces an arrest warrant, then demanding immediate payment to avoid being taken into custody. Chief Judge Robert Burns said the calls "can sound convincing" because callers sometimes already have the target's personal information, making the threat feel more believable. Officials stressed that neither agency will ever call to threaten arrest or demand money over the phone, echoing a similar warning the U.S. District Court for the District of Kansas issued in 2023 about callers directing victims to buy gift cards or mail cash to addresses tied to real employees' names.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Wyandotte County Sheriff\'s Office', 'Wyandotte County District Court', 'KCTV5'],
+    sourceUrl: 'https://www.kctv5.com/2026/07/15/warning-jury-duty-scam-includes-threatening-calls-that-include-personal-info/',
+    country: 'US',
+    state: 'KS',
+    isHistorical: false,
+});
+
+UsGM.push({
+    name: 'Kansas Department of Labor Unemployment-Claim Text Phishing Scam',
+    slug: 'kansas-department-of-labor-unemployment-text-phishing-scam',
+    description: `The Kansas Department of Labor has repeatedly warned that fraudulent text messages are going out to unemployment claimants reading "We noticed an error in your unemployment claim," with a link urging the recipient to "review" it. KDOL says it never asks for a claimant's full Social Security number by text or email, and tells anyone who clicked a link to log into GetKansasBenefits.gov directly rather than through the text, verify their login credentials and bank details on file haven't been changed, update their password, and report the message to KDOL.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'medium',
+    sources: ['Kansas Department of Labor', 'KSHB'],
+    sourceUrl: 'https://www.kshb.com/news/local-news/kdol-warns-of-text-message-phishing-scam',
+    country: 'US',
+    state: 'KS',
+    isHistorical: false,
+});
+
+UsGM.push({
+    name: 'Wichita Telegram Job-Interview Fake-Check Scam',
+    slug: 'kansas-wichita-telegram-job-interview-fake-check-scam',
+    description: `A Wichita man job-hunting was contacted by text and "interviewed" entirely over Telegram, with the fake recruiter citing pandemic-era remote hiring practices to justify never meeting in person or over video. He was sent a fraudulent $4,500 check, told to deposit it and use part of the funds to buy "work equipment," then wired $2,000 back to the scammer — and was asked for another $2,000 before his bank finally flagged the original check as counterfeit, leaving him owing the bank for the funds he had already sent. BBB Kansas state director Denise Groene told FOX4 Kansas City that victims are typically already out the money by the time a forged check is caught, since banks are required to make deposited funds available to the account holder before verification with the issuing bank completes.`,
+    categorySlug: 'employment-scams',
+    alertLevel: 'medium',
+    sources: ['Better Business Bureau of Kansas', 'FOX4 Kansas City'],
+    sourceUrl: 'https://fox4kc.com/news/kansas-news/kansas-man-looking-for-job-finds-costly-trouble-instead/',
+    country: 'US',
+    state: 'KS',
+    isHistorical: false,
+});
