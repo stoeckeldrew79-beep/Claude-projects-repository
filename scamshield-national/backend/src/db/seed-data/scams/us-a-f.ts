@@ -10590,3 +10590,17 @@ UsAF.push({
     country: "US",
     state: "AR",
 });
+
+UsAF.push({
+    name: 'American Samoa Emergency Price-Gouging on Essential Goods',
+    slug: 'american-samoa-emergency-price-gouging-essential-goods',
+    description: `During two separate declared states of emergency, retailers across American Samoa raised prices on basic goods well beyond the territory's price-gouging law limit. In February 2021, Vice Speaker Fetu Fetui Jr. called for an investigation after Fagaloa-area stores raised chicken from $9 to $15 a case and water from $4.25 to $6.50 a case during a COVID-19 emergency declaration, though the Attorney General's office said no formal complaints had been filed yet. A year later, in February 2022, the pattern recurred across Fagatogo, Pago Pago, Aua, Nu'uuli, and Tafuna: bottled water rose from $6.99 to $7.99 a case in one week, chicken from $17.99 to $19.99 in three days, wheat bread from $3.25 to $3.75, and milk from $17.90 to $19.95. American Samoa's price-gouging law caps post-emergency price increases at 10% unless a business can prove its own supplier costs actually rose, with violations carrying civil fines up to $1,000 each, possible license revocation, or prosecution as a Class A misdemeanor. Consumers are advised to keep receipts documenting pre- and post-emergency prices and report suspected violations to the Department of Public Safety.`,
+    categorySlug: 'home-improvement-solar',
+    alertLevel: 'low',
+    sources: ['Samoa News'],
+    sourceUrl: 'https://www.samoanews.com/local-news/instances-alleged-price-gouging-multiply-across-territory',
+    country: 'US',
+    state: 'AS',
+    isHistorical: true,
+    firstRecorded: '2021-02-23',
+});
