@@ -5885,3 +5885,31 @@ UsTZ.push({
     isHistorical: true,
     firstRecorded: '2013-01-01',
 });
+
+UsTZ.push({
+    name: "St. John Man's 201 Fraudulent USPS Insurance Claims Scheme (Shaquan Brodie)",
+    slug: 'virgin-islands-brodie-usps-insurance-claims-fraud',
+    description: `Shaquan Brodie, a 21-year-old former resident of St. John, pleaded guilty in U.S. District Court for the Virgin Islands in April 2018 to filing fraudulent insurance claims against the U.S. Postal Service, admitting he submitted 201 separate claims falsely telling USPS that mailed items had been lost, damaged, or stolen. The claims sought in excess of $47,000, and the Postal Service had already paid out $14,221 before its Office of Inspector General spotted the pattern and referred the case for prosecution by Assistant U.S. Attorney Everard Potter. Magistrate Judge Ruth Miller was set to sentence Brodie at a later hearing. The case shows how a steady drip of small false loss/damage claims against a shipper's insurance program can add up to a five-figure fraud loss long before anyone flags the pattern.`,
+    categorySlug: 'insurance-fraud',
+    alertLevel: 'low',
+    sources: ['Virgin Islands Daily News', 'USPS Office of Inspector General'],
+    sourceUrl: 'https://www.virginislandsdailynews.com/news/former-st-john-man-pleads-guilty-to-defrauding-u-s-postal-service/article_144f4a76-c86b-539a-b80b-e197311abf40.html',
+    country: 'US',
+    state: 'VI',
+    isHistorical: true,
+    firstRecorded: '2016-02-01',
+});
+
+UsTZ.push({
+    name: 'St. Croix Stolen Identity Tax Refund Fraud Ring (Jacinta Gussie)',
+    slug: 'virgin-islands-gussie-stolen-identity-tax-refund-fraud',
+    description: `Jacinta Gussie, 59, of St. Croix, was convicted by a federal jury on June 15, 2021 — the tenth defendant convicted in a multi-year Virgin Islands identity-theft tax-fraud ring — of conspiracy to defraud the United States, four counts of theft of government money, and two counts of aggravated identity theft. From January 2011 to July 2012, Gussie and her co-defendants used victims' stolen names, Social Security numbers, and dates of birth to file falsified federal tax returns, directing more than $400,000 in fraudulent refunds to accounts the group controlled; $44,561.11 of the falsely claimed refunds were deposited into Gussie's own bank accounts. Federal District Judge Wilma A. Lewis sentenced Gussie on November 12, 2021 to 3.75 years (45 months) in prison and ordered her to pay $44,561.11 in restitution to the IRS. The case is a reminder that a modest cache of stolen basic identifiers — name, SSN, date of birth, nothing more exotic — is enough to convert into a sustained stolen-identity-refund-fraud operation, and that a victim's own return can be hijacked years before they discover it, typically only when their real return is rejected as a duplicate.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'low',
+    sources: ['St. Thomas Source', 'Internal Revenue Service'],
+    sourceUrl: 'https://stthomassource.com/content/2021/11/15/virgin-islands-woman-convicted-by-jury-in-tax-fraud-scheme-sentenced-to-45-months-of-incarceration-ordered-to-pay-restitution-to-i-r-s/',
+    country: 'US',
+    state: 'VI',
+    isHistorical: true,
+    firstRecorded: '2011-01-01',
+});

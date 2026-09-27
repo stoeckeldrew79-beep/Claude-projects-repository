@@ -22900,3 +22900,42 @@ International.push({
   isHistorical: false,
   firstRecorded: '2020-06-09',
 });
+
+International.push({
+  name: 'Barbados Revenue Authority "Pryx" Data Breach',
+  slug: 'barbados-revenue-authority-pryx-data-breach',
+  description: `In late September 2024, a threat actor using the alias "Pryx" breached a Barbados Revenue Authority (BRA) server and began offering roughly 230 gigabytes of stolen government data for sale on a Russian-language hacking forum — full names, passport and national ID numbers, driver's license numbers and images, vehicle registration and insurance documents, and other records, some with US and UK addresses. The BRA publicly disclosed on October 1, 2024 that vehicle registration application data was circulating online and took its Vehicle Registration Portal offline while investigating with police and the Data Commissioner; the attacker disputed the government's limited account of the breach and, after threatening to leak everything unless paid a ransom by month's end, posted a 1 GB sample of the stolen files on October 18, 2024. BRA spokeswoman Carolyn Williams-Gayle said stakeholder security remained the Authority's top priority and urged the public to monitor accounts for unusual activity and report suspicious contact to its Data Privacy Officer.`,
+  categorySlug: 'data-breach-scams',
+  alertLevel: 'high',
+  sources: ['Barbados Today', 'ISSA Barbados Chapter', 'DataBreaches.Net'],
+  sourceUrl: 'https://barbadostoday.bb/2024/10/02/hackers-claim-access-to-bras-admin-portal/',
+  country: 'BB',
+  isHistorical: true,
+  firstRecorded: '2024-09-29',
+});
+
+International.push({
+  name: 'Fake Barbados Revenue Authority Tax Refund Phishing Emails',
+  slug: 'barbados-revenue-authority-fake-tax-refund-phishing-email',
+  description: `Since at least September 2023, the Barbados Revenue Authority (BRA) has had to repeatedly warn the public about phishing emails sent in its name promising a tax refund. The first widely reported wave, flagged by the BRA and covered on September 16, 2023, carried the subject line "Important TAMIS Information Needed To Complete Your Refund" and used a return address that did not belong to the Authority to try to extract sensitive personal and financial information usable for identity theft or a fraudulent refund claim. A similar wave resurfaced in May 2026 under the subject "Official Notification Regarding Your Tax Account," this time displaying a fake BRA logo. In both cases the Authority stressed it never requests personal or financial information by email, text, or phone, and told taxpayers to delete the messages, avoid clicking any links, and verify anything claiming to be from BRA only through its own published channels.`,
+  categorySlug: 'tax-scams',
+  alertLevel: 'high',
+  sources: ['Caribbean Broadcasting Corporation (CBC)', 'Barbados Revenue Authority', 'The Bajan Reporter'],
+  sourceUrl: 'https://www.cbc.bb/news/local-news/bra-warns-of-phising-email-scam/',
+  country: 'BB',
+  isHistorical: false,
+  firstRecorded: '2023-09-16',
+});
+
+International.push({
+  name: 'Fake Barbados Revenue Authority Traffic Violation Fine Text Scam',
+  slug: 'barbados-revenue-authority-fake-traffic-violation-text-scam',
+  description: `On June 1, 2026, the Barbados Revenue Authority (BRA) warned the public about fraudulent text messages sent in its name headed "Traffic Violation Fine Overdue Notice," which falsely claimed "video surveillance evidence exists" of a violation and pushed recipients to click an embedded link to either pay or appeal the fine. The message borrowed a government authority's name to manufacture urgency around a fabricated legal penalty — a distinct vector from the Central Bank and police impersonation scams already documented for Barbados, using a tax/traffic-fine hook instead of a banking or criminal-investigation one. The BRA told the public not to click any links, not to respond to or share information with the sender, to delete the message immediately, and to verify any BRA communication only through the Authority's own official channels.`,
+  categorySlug: 'government-impersonation',
+  alertLevel: 'high',
+  sources: ['Barbados Revenue Authority'],
+  sourceUrl: 'https://bra.gov.bb/News/Announcements/Scam-Alert-Traffic-Violation-Text',
+  country: 'BB',
+  isHistorical: false,
+  firstRecorded: '2026-06-01',
+});
