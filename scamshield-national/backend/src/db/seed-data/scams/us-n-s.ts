@@ -10209,3 +10209,45 @@ UsNS.push({
     isHistorical: true,
     firstRecorded: '2019-04-01',
 });
+
+UsNS.push({
+    name: "Mandan Accountant's $304,000 Nonprofit Client Embezzlement (Andrea Jo Bonness)",
+    slug: 'north-dakota-mandan-bonness-nonprofit-embezzlement',
+    description: `Andrea Jo Bonness, 56, of Mandan, North Dakota, pleaded guilty in federal court on September 15, 2026 to wire fraud after fraudulently accessing the bank accounts of nonprofit clients she served as an accountant providing payroll and charitable-gaming audit services. Between April 2025 and February 2026 she transferred roughly $304,070.40 of client funds to her own personal bank account, using the money to fund online gambling. The case was investigated by the FBI and U.S. Postal Inspection Service, with sentencing scheduled for January 14, 2027 before a U.S. District Judge in Bismarck.`,
+    categorySlug: 'account-takeover',
+    alertLevel: 'high',
+    sources: ['KFYR-TV', "U.S. Attorney's Office, District of North Dakota"],
+    sourceUrl: 'https://www.kfyrtv.com/2026/09/15/mandan-woman-pleads-guilty-stealing-304-thousand-non-profit/',
+    country: 'US',
+    state: 'ND',
+    isHistorical: false,
+    firstRecorded: '2025-04-01',
+});
+
+UsNS.push({
+    name: 'Fargo "Fraudulent Amazon Order" Federal-Agent Impersonation Scam',
+    slug: 'north-dakota-fargo-amazon-order-federal-agent-impersonation-scam',
+    description: `A 62-year-old Fargo man received a call in March 2022 about a disputed $1,500 Amazon order; when he said he hadn't made it, the callers posed as federal agents, claimed his identity had been used fraudulently, and told him to wire his bank funds to a California account to "protect" them during a fake investigation. He contacted the North Dakota Attorney General's Consumer Protection Division immediately after wiring the money, and a fraud investigator placed a hold on the receiving bank account before the scammers could withdraw it; after several months of coordination with the bank, the full $47,000 was recovered and returned to the victim. Attorney General Drew Wrigley's office put it plainly: "If you get a phone call and are instructed to send money — for any reason — hang up immediately."`,
+    categorySlug: 'tech-support-scams',
+    alertLevel: 'high',
+    sources: ["North Dakota Attorney General's Office"],
+    sourceUrl: 'https://attorneygeneral.nd.gov/attorney-generals-office-recovers-scam-victims-money/',
+    country: 'US',
+    state: 'ND',
+    isHistorical: true,
+    firstRecorded: '2022-03-01',
+});
+
+UsNS.push({
+    name: "Nigerian Fraudster's $198,000 North Dakota Law Firm Wire Fraud Scheme (Christopher Agbaje)",
+    slug: 'north-dakota-agbaje-law-firm-wire-fraud-scheme',
+    description: `Christopher Ndubuisi Agbaje, a Nigerian national extradited from the United Kingdom in February 2024, was sentenced on September 11, 2024 by a U.S. District Judge in Bismarck to 142 months in federal prison for money laundering and aiding and abetting wire and mail fraud. Between November 2020 and January 2021, Agbaje and co-conspirators impersonated the president of a Florida company, fabricated a legal dispute with a Bismarck business, and used the ruse to establish a fraudulent attorney-client relationship with a North Dakota law firm, defrauding it of approximately $198,337 (a Florida law firm was defrauded of an additional $195,500 in the same scheme).`,
+    categorySlug: 'business-email-compromise',
+    alertLevel: 'high',
+    sources: ['Grand Forks Herald / InForum'],
+    sourceUrl: 'https://www.grandforksherald.com/news/bismarck/nigerian-man-sentenced-for-scamming-north-dakota-law-firm-out-of-nearly-200-000',
+    country: 'US',
+    state: 'ND',
+    isHistorical: true,
+    firstRecorded: '2020-11-01',
+});

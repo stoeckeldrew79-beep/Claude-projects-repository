@@ -10742,3 +10742,45 @@ UsGM.push({
     isHistorical: true,
     firstRecorded: '2023-06-28',
 });
+
+UsGM.push({
+    name: 'St. Louis "Gold Bar" Tech-Support Courier Ring',
+    slug: 'missouri-st-louis-gold-bar-tech-support-scam',
+    description: `Five people — Dariona Lambert, Zhamoniq Stevens, Chintankumar Parekh, Mehul Darji, and Sital Singh — ran a nationwide scheme in which callers posed as tech-support or bank representatives, telling elderly victims their accounts had been compromised and had to be converted into gold bars for "safekeeping," which couriers then collected in person. An 82-year-old St. Louis woman lost about $250,000 in gold when Lambert was caught picking it up at her home on May 1, 2024; prosecutors say the overseas scammers behind the ring netted roughly $9.3 million from victims across at least ten states. All five pleaded guilty to conspiracy to commit wire fraud; in March 2026, U.S. District Court in the Eastern District of Missouri sentenced Lambert to two years in prison and Singh to four years plus $6.6 million in restitution to victims.`,
+    categorySlug: 'tech-support-scams',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office for the Eastern District of Missouri", 'FBI', 'KTTN', 'Hoodline'],
+    sourceUrl: 'https://www.kttn.com/five-charged-in-alleged-8m-tech-scam-targeting-elderly-victims-across-ten-states/',
+    country: 'US',
+    state: 'MO',
+    isHistorical: true,
+    firstRecorded: '2024-05-01',
+});
+
+UsGM.push({
+    name: 'Defiance Cash-Courier in a $5 Million Grandparent Scam (Chaman Balbuena)',
+    slug: 'missouri-defiance-balbuena-grandparent-scam-courier',
+    description: `Chaman Samael Silverio Balbuena, 31, of Defiance, Missouri, was charged in August 2025 as a cash "runner" in a Dominican Republic call-center operation using the classic grandparent-scam script — an "opener" posing as a panicked grandchild claiming a car accident, followed by a fake "attorney" demanding fees — to steal at least $5 million from more than 400 elderly victims nationwide. Balbuena's own accounts collected roughly $350,000 from at least 25 victims via rideshare-driver cash pickups, which he then helped route to the Dominican Republic; he was one of 13 people charged with conspiracy to commit mail and wire fraud and money laundering. The Better Business Bureau of Greater St. Louis separately warned Missourians about the same scheme after a Naylor, Missouri resident lost $125 to it.`,
+    categorySlug: 'grandparent-scams',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office for the District of Massachusetts", 'KCUR', 'BBB of Greater St. Louis'],
+    sourceUrl: 'https://www.kcur.org/news/2025-08-13/missouri-man-charged-in-grandparent-scam-that-sent-5-million-to-dominican-republic',
+    country: 'US',
+    state: 'MO',
+    isHistorical: true,
+    firstRecorded: '2022-11-01',
+});
+
+UsGM.push({
+    name: '"Taxed Rite" St. Louis Tax Preparer Refund Fraud (Latasha Frison)',
+    slug: 'missouri-taxed-rite-frison-tax-preparer-fraud',
+    description: `Latasha L. Frison, who ran a downtown St. Louis tax-prep business under names including "Taxed Rite," was convicted on July 1, 2026 on 16 federal counts after filing more than 680 individual income tax returns between 2021 and 2024, all but two claiming refunds — averaging over $14,000 against a roughly $3,400 national average — inflated with fabricated small-business income and bogus Schedule C, COVID-19, and fuel-tax-credit claims. Clients testified they had no idea Frison had falsified their returns, which generated refunds they weren't entitled to and exposed them to IRS liability. She faces up to three years in prison per count at sentencing scheduled for September 30, 2026, and was taken into custody following the verdict.`,
+    categorySlug: 'tax-scams',
+    alertLevel: 'medium',
+    sources: ['Internal Revenue Service - Criminal Investigation', "U.S. Attorney's Office for the Eastern District of Missouri"],
+    sourceUrl: 'https://www.irs.gov/compliance/criminal-investigation/former-st-louis-tax-preparer-convicted-of-16-counts-related-to-false-tax-returns',
+    country: 'US',
+    state: 'MO',
+    isHistorical: true,
+    firstRecorded: '2021-01-01',
+});
