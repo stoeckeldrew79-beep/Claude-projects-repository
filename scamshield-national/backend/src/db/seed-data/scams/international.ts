@@ -22584,3 +22584,25 @@ International.push({
   country: 'BT',
   firstRecorded: '2022-10-27',
 });
+
+International.push({
+  name: 'Brunei Methanol Company Job Recruitment Impersonation Fraud',
+  slug: 'brunei-methanol-recruitment-impersonation',
+  description: `Brunei Methanol Company Sendirian Berhad (BMC), a real Brunei industrial employer, has had to issue a public notice warning that unauthorized individuals have been impersonating its recruiters over email and WhatsApp, sending fake job offers to jobseekers under the company's name. BMC states plainly that it never requests money transfers at any stage of recruitment — not for processing, immigration documents, insurance, or any other purported fee — and that genuine openings are posted only via registered local newspapers, the Brunei Government's Job Centre, and its own official site and email domain (@brunei-methanol.com). The notice directs anyone contacted by a suspicious "recruiter" to verify against those official channels and report attempts directly to the company.`,
+  categorySlug: 'employment-scams',
+  alertLevel: 'medium',
+  sources: ['Brunei Methanol Company Sendirian Berhad (BMC)'],
+  sourceUrl: 'https://www.brunei-methanol.com/post/public-notice-job-recruitment-fraud',
+  country: 'BN',
+});
+
+International.push({
+  name: 'Brunei Instagram Account Takeover Scam',
+  slug: 'brunei-instagram-account-takeover',
+  description: `Baiduri Bank's consumer online-safety guidance describes a sharp rise, since late 2021, in Instagram account-takeover scams affecting Brunei users: attackers breach an account and immediately change its linked email and password, locking out the real owner. The hijacked account is then used to demand a ransom from the original owner to restore access, resold on the dark web — Baiduri cites Digital Shadows' figure of roughly $45 per hacked Instagram account — or turned into a distribution point for cryptocurrency scam promotions and phishing DM links sent out to the victim's own followers, spreading the fraud through a trusted social graph rather than a stranger's cold outreach. Baiduri's guidance flags younger users, who tend to update passwords less often, as particularly exposed, and recommends a strong, unique password plus two-factor authentication as the core defense.`,
+  categorySlug: 'account-takeover',
+  alertLevel: 'medium',
+  sources: ['Baiduri Bank'],
+  sourceUrl: 'https://www.baiduri.com.bn/personal/learn/online-safety/are-younger-people-more-easily-scammed',
+  country: 'BN',
+});
