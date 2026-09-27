@@ -9958,3 +9958,45 @@ UsNS.push({
     isHistorical: true,
     firstRecorded: '2011-12-01',
 });
+
+UsNS.push({
+    name: 'Southern Oregon University $1.9 Million Business Email Compromise',
+    slug: 'oregon-southern-oregon-university-bec-scam',
+    description: `In late April 2017, Southern Oregon University in Ashland wired $1.9 million intended for its contractor, Andersen Construction, which was building the university's McNeal Pavilion and Student Recreation Center, after receiving a spoofed email impersonating the contractor and directing payment to a different bank account. The fraud surfaced three business days later when Andersen Construction told SOU it had never received the funds; the university publicly confirmed the loss on June 8, 2017 and said the FBI was investigating, though it declined to detail how its vendor-banking verification process was bypassed. The case is a reminder that any request to change a longstanding vendor's payment bank details should be verified by a phone call to a number pulled from a prior, trusted invoice rather than the one in the new email, regardless of how official the request looks.`,
+    categorySlug: 'business-email-compromise',
+    alertLevel: 'medium',
+    sources: ['KVAL'],
+    sourceUrl: 'https://kval.com/news/local/southern-oregon-university-loses-19-million-in-email-scam',
+    country: 'US',
+    state: 'OR',
+    isHistorical: true,
+    firstRecorded: '2017-06-08',
+});
+
+UsNS.push({
+    name: '"Amelia Cotton Quilt Company" Fake Salem, Oregon Online Retailer',
+    slug: 'oregon-amelia-cotton-quilt-company-fake-retailer-scam',
+    description: `During the 2018 holiday season, Facebook ads for "Amelia Cotton Quilt Company" — listing a Salem, Oregon address that turned out to be a private residence, with no registration on file with the Oregon Secretary of State — drove hundreds of nationwide complaints to the Better Business Bureau from shoppers who paid through sites like AmeliaCotton10.com and never received their quilts. BBB Northwest + Pacific gave the operation an "F" rating and traced numerous other storefronts, including "Weirdo Stuff," "Kathleen Quilt," and "Cotton Blanket," and a later site, sleepious.co, back to the same scheme, which used the fabricated Oregon address purely to appear legitimate to out-of-state shoppers who had no way to verify it themselves.`,
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'medium',
+    sources: ['Better Business Bureau Northwest + Pacific', 'KTVZ'],
+    sourceUrl: 'https://ktvz.com/news/2018/12/18/bbb-no-comfort-in-fake-salem-co-s-quilt-scheme/',
+    country: 'US',
+    state: 'OR',
+    isHistorical: true,
+    firstRecorded: '2018-12-18',
+});
+
+UsNS.push({
+    name: '2020 Labor Day Wildfire Unlicensed Rebuild-Contractor Scam',
+    slug: 'oregon-wildfire-rebuild-unlicensed-contractor-scam',
+    description: `After Oregon's catastrophic Labor Day 2020 wildfires, the state's Construction Contractors Board warned that unlicensed contractors were going door-to-door in burned areas like Coos Bay claiming to have "extra materials left over" from other jobs and offering discounted rebuilds — a pitch CCB enforcement program manager Stan Jessup called "a first class indicator you don't want to do business with that person whatsoever." CCB Administrator Chris Huntington said it's "unfortunately quite common after disasters for consumers to be taken advantage of by unscrupulous individuals," and the board urged wildfire survivors to verify a contractor's license and complaint history before paying a large deposit or agreeing to cash-only, high-pressure door-to-door offers.`,
+    categorySlug: 'home-improvement-solar',
+    alertLevel: 'medium',
+    sources: ['Oregon Construction Contractors Board', 'NBC16'],
+    sourceUrl: 'https://content.govdelivery.com/accounts/ORCCB/bulletins/2a293de',
+    country: 'US',
+    state: 'OR',
+    isHistorical: true,
+    firstRecorded: '2020-09-17',
+});
