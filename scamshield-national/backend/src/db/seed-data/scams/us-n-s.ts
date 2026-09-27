@@ -10251,3 +10251,17 @@ UsNS.push({
     isHistorical: true,
     firstRecorded: '2020-11-01',
 });
+
+UsNS.push({
+    name: 'CNMI Government Email Systems Cyberattack',
+    slug: 'northern-mariana-islands-government-email-cyberattack',
+    description: `On May 21, 2026, the CNMI Department of Finance's Office of Information Technology (OIT) announced it was responding to a cyberattack affecting government email accounts on the cnmi.gov and dof.gov.mp domains, leaving some CNMI government employees locked out of their accounts. OIT said it had begun "systemwide security protocols and corrective actions" to restore full functionality and did not disclose the attack type, threat actor, or whether any account content had been accessed. Affected employees were directed to file a help-desk ticket or call OIT directly, and — because a compromised government email domain is often used as a launchpad for follow-on phishing against employees and the public — OIT reminded all government users not to click suspicious links, open attachments from unknown senders, or respond to unexpected requests for passwords or personal information.`,
+    categorySlug: 'data-breach-scams',
+    alertLevel: 'medium',
+    sources: ['Commonwealth of the Northern Mariana Islands Department of Finance', 'Marianas Variety News & Views'],
+    sourceUrl: 'https://www.mvariety.com/news/local/local-news-office-of-information-technology-responding-to-recent-cyber-attack-on-government-email-accounts/article_79718241-2662-4471-bbd2-ca1c0493164e.html',
+    country: 'US',
+    state: 'MP',
+    isHistorical: false,
+    firstRecorded: '2026-05-21',
+});
