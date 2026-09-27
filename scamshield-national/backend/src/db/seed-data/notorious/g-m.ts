@@ -10813,6 +10813,10 @@ NotoriousGM.push({
     title: 'Larisa Markus, Georgy Bedzhamov, and the $2.3 Billion Hole They Blew in Vneshprombank',
     slug: 'larisa-markus-georgy-bedzhamov-vneshprombank-fraud',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Moscow_skyline_(8706053157).jpg?width=1200',
+    coverImageCredit: 'Photo: Pavel Kazachkov (CC BY 2.0) — the Moscow skyline; Vneshprombank operated from the Russian capital',
+    coverImagePosition: 45,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'international', 'banking-fraud'],
     body: `Larisa Markus spent nearly a decade as president of Vneshprombank (VPB), a mid-sized Moscow institution known for its celebrity and elite clientele, while her brother Georgy Bedzhamov held the title of vice-president and functioned, prosecutors later said, as the bank's de facto co-owner and controller. Starting around May 2009, the two allegedly built what Russian investigators described as an organized criminal group inside the bank's own management, using VPB's balance sheet as a personal source of funds rather than a regulated deposit-taking institution. The mechanism had several parts: the bank issued non-repayable loans, backed by fabricated documentation, to 286 shell companies with no real prospect or intention of repaying them; it entered loan agreements in the names of real VPB customers who had no idea their identities were being used; it diverted funds directly out of genuine depositors' accounts; and it made fictitious credits to accounts controlled by the conspirators themselves.
 
