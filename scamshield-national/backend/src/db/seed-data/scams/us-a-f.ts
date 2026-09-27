@@ -7277,18 +7277,6 @@ UsAF.push({
 });
 
 UsAF.push({
-    name: 'Alaska Motor Home Rental Reservation Cancellation Fraud (Peter Harkovitch)',
-    slug: 'alaska-motor-home-rental-reservation-cancellation-fraud',
-    description: `Peter Harkovitch owned and ran Alaska Motor Home Inc., an Anchorage RV rental company, which abruptly announced in June 2024 that it was going out of business in the middle of Alaska's peak summer tourism season — telling the state it would neither honor nor refund the reservations travelers had already booked and paid deposits on. The Alaska Department of Law's Consumer Protection Unit sued, and in the course of the case found that Harkovitch had also forged a customer's signature to win a credit card chargeback dispute over a $7,500 charge he had made to her card without authorization, and had repeatedly violated the terms of a consent judgment that had already resolved a prior 2019 lawsuit the state brought against him and the same business. Acting Alaska Attorney General Cori Mills announced on August 13, 2026 that the state had obtained a judgment ordering Harkovitch to pay $183,000 in civil penalties plus $50,409.86 in restitution to the customers who lost deposits or were never repaid, and permanently banning him from owning any business in Alaska until he satisfies the Superior Court at Anchorage that a future business would operate legally and that its proceeds would go toward paying off his restitution debt. "Unscrupulous businesses have no place in the State of Alaska," Mills said. "And nobody's dream of an Alaskan vacation should be turned into a nightmare." Harkovitch is currently incarcerated in Florida after pleading guilty to aggravated battery and battery of a law enforcement officer there. Travelers booking an RV, cabin, or tour package for an Alaska trip are advised to pay deposits by credit card rather than debit, wire transfer, or check whenever possible — since a credit card issuer can reverse a charge for services never delivered — and to check a rental company's standing with the Alaska Department of Law's Consumer Protection Unit before paying, particularly for a company that has been sued by the state before.`,
-    categorySlug: 'travel-vacation-scams',
-    alertLevel: 'medium',
-    sources: ['Alaska Department of Law, Consumer Protection Unit'],
-    sourceUrl: 'https://law.alaska.gov/press/releases/2026/081326-Harkovitch.html',
-    country: 'US',
-    state: 'AK',
-});
-
-UsAF.push({
     name: 'Florida Roof Specialists Insurance-Deductible-Only Roofing Scheme',
     slug: 'florida-roof-specialists-insurance-deductible-scheme',
     description: `Jacksonville-based Florida Roof Specialists and its president, Jeremy S. Rogero, used door-to-door and home-solicitation sales pitches to promise Florida homeowners that a new roof would cost them nothing beyond their insurance deductible, with the company handling the insurance claim directly. According to the Florida Attorney General's Office, which sued the company and Rogero in September 2025 after fielding more than 130 consumer complaints, homeowners who agreed were later billed thousands of dollars beyond what their insurer paid, and those who didn't or couldn't pay had liens placed against their homes — at least 75 properties by the state's count — followed by lawsuits; the company had filed more than 250 such suits against its own customers. The Attorney General's Office called the resulting liens "frivolous" and "baseless" and, in March 2026, asked a court to halt the company's pending collection lawsuits while the state's own case proceeded, alleging the pattern of deceptive sales pitches, undisclosed extra charges, and retaliatory liens violated the Florida Deceptive and Unfair Trade Practices Act. The lawsuit seeks to bar Rogero and Florida Roof Specialists from doing any further roofing business in Florida, to void the disputed liens and underlying contracts, and to secure restitution for affected homeowners. Florida homeowners approached with a "your roof costs nothing but the deductible" pitch are advised to get a fully itemized, written estimate before signing anything, to stay directly involved in their own insurance claim rather than letting a contractor negotiate it unsupervised, and to check a contractor's license and complaint history with the Florida Department of Business and Professional Regulation and the Attorney General's Office before signing a contract that hands the contractor control of the insurance payout.`,
@@ -10356,4 +10344,73 @@ UsAF.push({
     state: 'AS',
     isHistorical: true,
     firstRecorded: '2021-02-23',
+});
+
+UsAF.push({
+    name: 'GPO Fake Job Offer Letters Used for DC Apartment Fraud (Tisha Lee)',
+    slug: 'dc-gpo-fake-job-offer-letters-apartment-fraud-tisha-lee',
+    description: `Tisha Lee, 38, a Maryland resident and contract employee in the U.S. Government Publishing Office's Human Capital section, pleaded guilty on June 16, 2026 in DC Superior Court to second-degree fraud for sending at least 10 fake employment offer letters on GPO letterhead — claiming salaries of roughly $85,500 to $207,500 — to people trying to rent DC apartments, then personally confirming the fake offers when landlords called to verify employment, in exchange for payment from the scheme's beneficiaries. At least one recipient used a fraudulent letter to secure a lease in Southwest DC. She faces up to 3 years in prison and a $12,500 fine, with sentencing set for October 19, 2026. The case was investigated by the DC Fraud Cell, Homeland Security Investigations, and the GPO Office of Inspector General.`,
+    categorySlug: 'rental-housing',
+    alertLevel: 'medium',
+    sources: ["U.S. Attorney's Office for the District of Columbia", 'Congress Heights on the Rise'],
+    sourceUrl: 'https://www.justice.gov/usao-dc/pr/maryland-resident-pleads-guilty-dc-apartment-fraud-using-fake-government-job-offers',
+    country: 'US',
+    state: 'DC',
+    isHistorical: false,
+    firstRecorded: '2026-06-16',
+});
+
+UsAF.push({
+    name: 'Empowerment Justice Center Nonprofit Grant Fraud (Allyson Abrams)',
+    slug: 'dc-empowerment-justice-center-abrams-grant-fraud',
+    description: `DC Attorney General Brian Schwalb sued nonprofit founder Allyson Abrams on August 31, 2026, alleging she misappropriated more than $125,000 in DC government grant funds paid to Empowerment Justice Center and Empowerment Liberation Cathedral — the two nonprofits she founded — to provide addiction treatment and counseling. The suit alleges Abrams withdrew cash and moved funds to herself, her spouse, and her own real-estate entities, and submitted falsified invoices backed by fake checks to justify reimbursement, on top of roughly $475,000 the two organizations were paid in grants from 2019-2025. "Nonprofit leaders cannot treat their organizations like personal slush funds," Schwalb said, seeking to force Abrams to repay the District.`,
+    categorySlug: 'charity-scams',
+    alertLevel: 'medium',
+    sources: ['Office of the DC Attorney General (Brian Schwalb)'],
+    sourceUrl: 'https://oag.dc.gov/release/attorney-general-schwalb-sues-nonprofit-founder',
+    country: 'US',
+    state: 'DC',
+    isHistorical: false,
+    firstRecorded: '2026-08-31',
+});
+
+UsAF.push({
+    name: 'Alaska Ranks Highest Nationally for Online Puppy Scam Losses',
+    slug: 'alaska-highest-puppy-scam-per-capita-losses',
+    description: `Alaska has the highest per-capita rate of online puppy-scam reports of any state, at 4.2 reports per 100,000 residents, and the highest average dollar loss per scam nationally, at $3,249, according to data reported by Alaska's News Source (KTVF) in August 2024. The scam follows a familiar pattern — a fake online ad offers a purebred puppy at an attractive price, the buyer wires a deposit or full payment, and the "seller" then invents additional fees for shipping crates or veterinary costs before disappearing without ever producing an animal. Nationally, average losses per victim rose from $965 in 2019 to $1,293 in 2024, with at least one reported loss reaching $60,000.`,
+    categorySlug: 'pet-sales-scams',
+    alertLevel: 'medium',
+    sources: ["Alaska's News Source (KTVF)"],
+    sourceUrl: 'https://www.webcenterfairbanks.com/2024/08/29/fraudulent-puppy-advertisements-rack-up-victims-alaska/',
+    country: 'US',
+    state: 'AK',
+    isHistorical: false,
+    firstRecorded: '2024-08-29',
+});
+
+UsAF.push({
+    name: 'Storm-Chaser Roofing Contractor Fraud After Alaska Winter Storms',
+    slug: 'alaska-storm-chaser-roofing-contractor-fraud',
+    description: `After a record 49 inches of snow fell on Juneau over three weeks in January 2026 — collapsing at least one roof and sinking nine boats — Alaska's News Source and the Better Business Bureau warned homeowners about "stormchaser" contractors who flood into Alaska communities after major snow and wind events (including the January 2025 windstorms). BBB spokesperson Cameron Nakashima said these contractors "collect all this money up front in a big lump sum payment" and then do little or none of the promised work, with median home-improvement scam losses of $1,500-$2,000. A 30-year roofing veteran, Michelle Holland, added that after a storm "a third of the roofing contractors or roofing licenses that you can find are brand spanking new," naming tactics such as painting over old shingles instead of replacing them, demanding same-day lump-sum payment, and selling materials at nearly triple the normal price.`,
+    categorySlug: 'home-improvement-solar',
+    alertLevel: 'medium',
+    sources: ["Alaska's News Source (KTUU)", 'Better Business Bureau'],
+    sourceUrl: 'https://www.alaskasnewssource.com/2026/01/12/after-storm-avoiding-roof-scams-bad-contractors/',
+    country: 'US',
+    state: 'AK',
+    isHistorical: false,
+    firstRecorded: '2026-01-12',
+});
+
+UsAF.push({
+    name: 'Anchorage Police Department Online Rental Listing Scam Warning',
+    slug: 'alaska-anchorage-online-rental-listing-scam-warning',
+    description: `The Anchorage Police Department warned in 2025 that fraudsters are posing online as landlords or property managers, collecting security deposits, application fees, or first month's rent for rental units that don't exist, are already occupied, or that the poster doesn't actually control — then going silent once payment is sent. APD said it had already logged roughly a dozen rental-scam reports that year, consistent with a national pattern the FTC has tied to about $65 million in reported losses since 2020, with roughly half of scam listings originating on Facebook. Police listed red flags including below-market rent, no credit check requested, pressure to decide immediately, and refusal to allow an in-person showing, advising renters to never put money down on a property they haven't seen in person.`,
+    categorySlug: 'rental-housing',
+    alertLevel: 'medium',
+    sources: ['Anchorage Police Department'],
+    sourceUrl: 'https://www.anchoragepolice.com/news/rental-scam-warning',
+    country: 'US',
+    state: 'AK',
+    isHistorical: false,
 });
