@@ -9398,6 +9398,10 @@ GuidesAF.push({
   title: 'The Bar Passcode Theft Ring: How Watching You Type Your PIN Can Empty Your Bank Accounts in Minutes',
   slug: 'iphone-passcode-theft-ring-bar-scam-guide',
   author: 'ScamShield Editorial',
+  coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Hennepin_County_District_Court_-_Government_Center_-_Downtown_Minneapolis,_Minnesota.jpg?width=1200',
+  coverImageCredit: 'Photo: Tony Webster (CC BY 2.0) — the Hennepin County Government Center, whose Attorney\'s Office prosecuted the ring described here',
+  coverImagePosition: 50,
+  // representative photo — replace with an exact match if found
   tags: ['guide', 'iphone-passcode-theft-scam', 'phone-theft-ring'],
   sourceUrl: 'https://www.hennepinattorney.org/en/news/news/2022/September/phone-theft-ring-9-20-2022',
   body: `It starts as an ordinary night out. Someone at a crowded bar taps you on the shoulder, friendly, and asks to be "added" on a social media app — could you just unlock your phone? Or maybe no one asks at all: someone nearby has already watched you tap in your passcode to check the time, and minutes later your phone is gone from your hand or your table. Either way, the thief now has the one thing that matters more than the device itself: your passcode. Within minutes, before you've even finished asking the bartender if anyone saw who took it, your Apple ID password has been changed, Find My has been switched off, and money is already moving out of your bank, Venmo, Cash App, and crypto accounts.
