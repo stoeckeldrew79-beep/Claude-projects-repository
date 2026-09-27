@@ -10547,3 +10547,86 @@ UsGM.push({
     isHistorical: true,
     firstRecorded: '2020-04-01',
 });
+
+UsGM.push({
+    name: 'Toomsuba DME Medicare Kickback Fraud (Willie De Gibbs)',
+    slug: 'mississippi-toomsuba-de-gibbs-dme-medicare-kickback-fraud',
+    description: `Willie De Gibbs, 53, of Toomsuba, Mississippi, owned three durable-medical-equipment supply companies outright and secretly controlled four more through straw owners, using all seven to submit more than $19 million in fraudulent Medicare claims for orthotic braces that beneficiaries never requested or needed. Gibbs paid kickbacks to obtain fabricated doctors' orders to support the phony claims. He pleaded guilty to conspiracy to commit health care fraud on November 20, 2025, in a case investigated by the FBI's Jackson Field Office and HHS-OIG, and is scheduled for sentencing on February 25, 2026, facing up to 10 years in federal prison.`,
+    categorySlug: 'healthcare-fraud',
+    alertLevel: 'medium',
+    sources: ['U.S. Department of Justice'],
+    sourceUrl: 'https://www.justice.gov/opa/pr/mississippi-businessman-pleads-guilty-19m-health-care-fraud-conspiracy',
+    country: 'US',
+    state: 'MS',
+    isHistorical: false,
+    firstRecorded: '2025-11-20',
+});
+
+UsGM.push({
+    name: 'Barry May Mississippi Pig-Butchering Romance Scam',
+    slug: 'mississippi-barry-may-pig-butchering-romance-scam',
+    description: `Barry May, a 62-year-old retired insurance adjuster in Mississippi, was contacted on Facebook by a woman calling herself "Anna," who claimed to be an Asian woman living on New York's Fifth Avenue and sent explicit photos while building a months-long romantic relationship. Anna told May her aunt was holding $3 million that could only be released if he "invested" it in cryptocurrency with her, so May liquidated his 401(k) and sold property, wiring her more than $500,000 — his entire life savings — to a fake trading platform showing fabricated account gains. An FBI agent called him before he could take out a loan to send more, telling him most of the money was unrecoverable; he was left with about $10,000 and said he now struggles to afford medicine for his disabled daughter.`,
+    categorySlug: 'romance-scams',
+    alertLevel: 'high',
+    sources: ['NBC News'],
+    sourceUrl: 'https://www.nbcnews.com/news/crime-courts/pig-butchering-scams-rise-fbi-moves-stop-bleeding-rcna137009',
+    country: 'US',
+    state: 'MS',
+    isHistorical: true,
+});
+
+UsGM.push({
+    name: 'Lucedale Caregiver Elder Financial Exploitation (Chastity Baker)',
+    slug: 'mississippi-lucedale-caregiver-elder-financial-exploitation',
+    description: `Chastity Baker, 46, a professional caregiver in Lucedale, Mississippi (George County), was arrested August 12, 2026 after allegedly using credit card information she obtained through her caregiving relationship with an elderly man in her care to make more than $2,000 in unauthorized purchases. George County Sheriff Mitchell Mixon said "we take allegations of financial exploitation seriously, especially when they involve vulnerable members of our community"; Baker was released on a $25,000 commercial bond, and the sheriff's office said the investigation was ongoing with the possibility of additional charges.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'medium',
+    sources: ['George County Sheriff\'s Office', 'WDAM'],
+    sourceUrl: 'https://www.wdam.com/2026/08/12/lucedale-caregiver-arrested-defrauding-senior-her-care-officials-say/',
+    country: 'US',
+    state: 'MS',
+    isHistorical: false,
+    firstRecorded: '2026-08-12',
+});
+
+UsGM.push({
+    name: 'Guam Overseas Housing Allowance Military Fraud (Rodney M. Kidd)',
+    slug: 'guam-oha-military-housing-allowance-fraud-kidd',
+    description: `In August 2015, a federal jury in the U.S. District Court of Guam convicted Rodney M. Kidd, a then-29-year-old Air Force staff sergeant at Andersen Air Force Base, of theft of government property, fraudulent claim against the United States, and false statement to a federal agency. Prosecutors showed Kidd and a fellow airman secretly arranged with their landlord to pay far less than the $4,400 combined monthly rent they reported to the Defense Finance and Accounting Service (DFAS), backing the inflated figure with a false "dual lease" and pocketing $35,136.60 in tax-free Overseas Housing Allowance and utility reimbursements they weren't entitled to. U.S. Attorney Alicia Limtiaco's office called it the 20th successful OHA-fraud prosecution by her office in three and a half years, part of a recurring pattern of similar Andersen-AFB cases.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'low',
+    sources: ['Pacific Daily News (postguam.com)'],
+    sourceUrl: 'https://www.postguam.com/news/local/former-airman-found-guilty-in-housing-fraud/article_69d84d3d-6d35-5849-99de-14227e9d4f95.html',
+    country: 'US',
+    state: 'GU',
+    isHistorical: true,
+    firstRecorded: '2015-08-05',
+});
+
+UsGM.push({
+    name: 'Guam Notary Forged Business-Transfer Fraud (Bernadette Cacayan)',
+    slug: 'guam-cacayan-notary-forged-business-transfer-fraud',
+    description: `In August 2018, Guam Police Department officers arrested notary public Bernadette Cacayan, 49, on two felony counts of forgery and notary misconduct after a Guam businessman discovered several of his business holdings had been transferred into his daughter's name while he was off-island, without his knowledge. Court documents allege Cacayan notarized the transfer documents even though the businessman and his wife were never present, and that her own notary ledger entries for the date in question didn't match the document she claimed to have notarized that same day — corroborating the victim's claim that his signature had been forged. The case is a reminder that a notarized document is only as trustworthy as the notary who stamped it: business owners who travel off-island should periodically check their own property and business filings with Guam's Department of Revenue and Taxation for any transfer they didn't personally authorize.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'medium',
+    sources: ['Pacific Daily News (postguam.com)'],
+    sourceUrl: 'https://www.postguam.com/news/local/notary-public-accused-of-forgery-misconduct/article_d1db82c6-9c64-11e8-8aa2-6f8ca1b84f21.html',
+    country: 'US',
+    state: 'GU',
+    isHistorical: true,
+    firstRecorded: '2018-08-11',
+});
+
+UsGM.push({
+    name: 'Post-Typhoon Mawar Electrician Price-Gouging Scheme',
+    slug: 'guam-typhoon-mawar-electrician-price-gouging',
+    description: `After Super Typhoon Mawar knocked out power across Guam in May 2023, Governor Lou Leon Guerrero wrote to Attorney General Douglas Moylan in June 2023 that her office had received "numerous reports" that electricians repairing and certifying storm-damaged "weatherheads" — the mandatory pre-reconnection inspection Guam Power Authority requires before restoring service to a damaged home — were "charging two to three times the rate that existed prior to Typhoon Mawar." Moylan's office confirmed nine formal price-gouging complaints tied to the storm before the governor's letter was sent. The mechanism is narrow but effective: GPA won't restore power until a licensed master electrician certifies the weatherhead repair, so powerless customers had little practical choice but to pay whatever a contractor demanded — a different sub-pattern from this database's existing generic post-typhoon advisory, which covers contractor and utility-impersonation fraud broadly rather than this specific, GPA-mandated certification bottleneck.`,
+    categorySlug: 'home-improvement-solar',
+    alertLevel: 'medium',
+    sources: ['Pacific Daily News (postguam.com)', 'Office of the Governor of Guam'],
+    sourceUrl: 'https://www.postguam.com/news/local/adelup-alleges-price-gouging-by-electricians/article_3e823118-13c0-11ee-910b-4f8bfdeff4f7.html',
+    country: 'US',
+    state: 'GU',
+    isHistorical: true,
+    firstRecorded: '2023-06-28',
+});
