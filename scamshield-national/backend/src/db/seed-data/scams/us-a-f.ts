@@ -10414,3 +10414,17 @@ UsAF.push({
     state: 'AK',
     isHistorical: false,
 });
+
+UsAF.push({
+    name: 'Facing Change Lewiston MaineCare Interpreter Fraud Scheme',
+    slug: 'maine-facing-change-lewiston-mainecare-interpreter-fraud',
+    description: `From November 2015 to May 2018, Nancy Ludwig — owner of Facing Change, a Lewiston mental-health and substance-abuse counseling agency — conspired with interpreters Abdirashid Ahmed, 41, and Garat Osman, 35, both of Lewiston, to bill MaineCare for counseling and interpreter services that were not rendered as billed, and in 2016 the group altered clients' diagnoses to schizophrenia to keep the fraudulent billing eligible for reimbursement; when auditors began investigating, the conspirators manufactured false records to conceal the scheme. A federal judge sentenced Ahmed on July 16, 2021 to two years in prison plus three years of supervised release and $1,863,264.83 in restitution, while Osman received three years of probation and $544,097.78 in restitution; Ludwig was sentenced separately. The case, investigated jointly by the FBI, HHS-OIG, and the Maine Attorney General's Office, defrauded MaineCare of more than $1.8 million.`,
+    categorySlug: 'healthcare-fraud',
+    alertLevel: 'medium',
+    sources: ["U.S. Attorney's Office, District of Maine", 'Sun Journal'],
+    sourceUrl: 'https://www.sunjournal.com/2021/07/17/lewiston-men-sentenced-in-health-care-fraud-scheme/',
+    country: 'US',
+    state: 'ME',
+    isHistorical: true,
+    firstRecorded: '2015-11-01',
+});
