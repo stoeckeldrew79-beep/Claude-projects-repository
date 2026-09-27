@@ -10580,3 +10580,82 @@ UsGM.push({
     state: 'KS',
     isHistorical: false,
 });
+
+UsGM.push({
+    name: 'Indianapolis "For-Sale-as-Rental" Opendoor Bait-and-Switch Rental Scam',
+    slug: 'indianapolis-opendoor-for-sale-as-rental-scam',
+    description: `A scammer contacted an Indianapolis mother through a Facebook listing for a home that was actually for sale through Opendoor, then told her it was available to rent instead, directed her to use the legitimate Opendoor self-tour app to view the house so the pitch would look credible, and had her complete a "rental application" and send a $1,100 deposit through Chime before disappearing. An Opendoor broker and a Better Business Bureau spokesperson both confirmed the home was never actually for rent, and warned that scammers are increasingly getting victims physically inside a property — using real for-sale listing infrastructure — to make a fake rental offer seem legitimate; Opendoor said it posts signage stating its homes aren't available for lease, though the victim reported not seeing one. Renters are advised to verify a landlord's identity and ownership before paying anything, always view a property in person as a renter rather than relying solely on a sale-listing self-tour app, and never send a deposit through a payment app to someone who avoids meeting in person.`,
+    categorySlug: 'rental-housing',
+    alertLevel: 'medium',
+    sources: ['WISH-TV', 'Better Business Bureau'],
+    sourceUrl: 'https://www.wishtv.com/news/local-news/instant-heartbreak-indy-mom-loses-1k-to-rental-scam-with-new-twist/',
+    country: 'US',
+    state: 'IN',
+    isHistorical: false,
+});
+
+UsGM.push({
+    name: 'Skyvolk Inc. Gary, Indiana Unsolicited-Merchandise Recurring-Charge Scheme',
+    slug: 'indiana-skyvolk-unsolicited-merchandise-recurring-charges',
+    description: `The Better Business Bureau Serving Northern Indiana issued a July 7, 2026 warning about a Gary, Indiana-based operation — identified as Skyvolk, Inc., doing business under multiple names including Bombonds, Fasanime, Glorenda, Luxarise, and Moringa x Beevenom — after consumers in 18 states reported receiving unsolicited merchandise, including weight-loss supplements, they never knowingly ordered, paired with recurring or duplicate charges on their cards that were difficult to trace back to any single company. BBB Serving Northern Indiana President and CEO Jan Diaz said what made the reports concerning was "a combination of unexpected shipments, recurring charges and difficulty identifying who was behind" the transactions, and the BBB coordinated with the U.S. Postal Inspection Service, which has intercepted nearly 5 million suspicious packages using new screening technology since October 2025. Consumers are advised to monitor bank and card statements closely, dispute any unrecognized or recurring charge immediately, keep shipping labels and packaging as evidence, and report incidents to BBB Scam Tracker — federal law lets recipients keep unsolicited merchandise without any obligation to pay for it.`,
+    categorySlug: 'subscription-traps',
+    alertLevel: 'medium',
+    sources: ['Better Business Bureau Serving Northern Indiana'],
+    sourceUrl: 'https://www.fwbusiness.com/news/article_2132a5f3-7651-46e1-b64b-8d5ad7013b01.html',
+    country: 'US',
+    state: 'IN',
+    isHistorical: false,
+});
+
+UsGM.push({
+    name: 'Southern District of Indiana Expert-Witness "Contempt of Court" Phone Scam',
+    slug: 'southern-district-indiana-expert-witness-contempt-phone-scam',
+    description: `The U.S. District Court for the Southern District of Indiana issued a January 22, 2025 public warning about scammers who spoof real government and court phone numbers and use the actual names of real judges and law-enforcement officials to call professionals — particularly attorneys and healthcare providers — falsely claiming they failed to appear as a scheduled expert witness and have been held in contempt of court. Callers then threaten immediate arrest unless a "fine" is paid on the spot, demanding payment via cash reload cards, cryptocurrency, payment apps, gift cards, or wire transfer. The court's own advisory states plainly: "Real courts and real law enforcement officers will never call someone and demand a payment for any reason," and instructs anyone who receives such a call to hang up immediately without providing any personal or financial information and report it to the FBI's Internet Crime Complaint Center (IC3) or the FTC.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['U.S. District Court for the Southern District of Indiana'],
+    sourceUrl: 'https://www.insd.uscourts.gov/news/court-warns-scam-phone-calls-0',
+    country: 'US',
+    state: 'IN',
+    isHistorical: false,
+});
+
+UsGM.push({
+    name: 'Mass Save Heat Pump Rebate Fraud (MWD Heating & Air Conditioning)',
+    slug: 'mass-save-heat-pump-rebate-fraud',
+    description: `Five Massachusetts utilities that administer the ratepayer-funded Mass Save energy-efficiency program filed a civil suit in Plymouth Superior Court against Rockland HVAC contractor Mark Dyszczyk and his company, MWD Heating & Air Conditioning, alleging he fraudulently collected nearly $8 million in rebates for heat pumps that were never installed, installed improperly, or quietly removed after passing inspection. In one documented instance, MWD applied for a $61,875 rebate for nine heating units at a Brockton liquor store that an April inspection confirmed were installed, only for an inspector to return two weeks later and find five of the nine units had already been removed. The utilities found less than 10 percent of the company's work at 220 inspected project sites actually met program specifications and suspended MWD in May 2024, but the suit alleges Dyszczyk and his wife then created or operated six other companies to keep filing for Mass Save payments under different names after the suspension. Anyone hiring a contractor for a rebate-eligible energy upgrade should independently verify the contractor's current standing with the Mass Save program before signing, and should personally confirm — ideally with photos and a follow-up inspection of their own — that any rebated equipment remains installed rather than trusting the contractor's paperwork alone.`,
+    categorySlug: 'home-improvement-solar',
+    alertLevel: 'high',
+    sources: ['The Boston Globe'],
+    sourceUrl: 'https://www.bostonglobe.com/2026/09/22/metro/mass-save-fraud-contractor-8-million/',
+    country: 'US',
+    state: 'MA',
+    isHistorical: false,
+});
+
+UsGM.push({
+    name: 'Boston-Area Fake Apartment Listing Scam',
+    slug: 'boston-apartment-rental-listing-scam',
+    description: `Fraudsters copy real Boston-area rental photos — sometimes hijacking an actual landlord's own listing and swapping in their own contact information — and repost them on Facebook Marketplace and Craigslist at below-market rent to create urgency, then collect a deposit or first month's rent by wire before vanishing. Documented victims include a MassLandlords executive who found his own unit re-listed with stolen photos, and a North End/Revere landlord whose $2,500-$2,700 units were undercut by fake $1,400-$1,500 listings advertising the very same addresses. FBI Boston's white-collar crime unit has flagged the pattern as a recurring scam especially common during the region's peak rental season, and the City of Boston's Office of Consumer Affairs and Licensing warns renters to search any listed address in the city's own property database to confirm who actually owns it, and to always view an apartment in person, before paying any deposit.`,
+    categorySlug: 'rental-housing',
+    alertLevel: 'medium',
+    sources: ['City of Boston Office of Consumer Affairs and Licensing', 'WGBH'],
+    sourceUrl: 'https://www.boston.gov/departments/consumer-affairs-and-licensing/apartment-scams',
+    country: 'US',
+    state: 'MA',
+    isHistorical: false,
+});
+
+UsGM.push({
+    name: 'Massachusetts "Home Photo" Sextortion Email Scam',
+    slug: 'massachusetts-home-photo-sextortion-scam',
+    description: `A wave of sextortion emails hit multiple Massachusetts towns, including Westwood and Concord, claiming the sender had hacked the recipient's computer and obtained compromising material, and — in a twist on the standard extortion-email template — included a photo of the recipient's own home or a nearby local landmark, apparently pulled from a source like Google Street View, to fake personal surveillance and make the threat feel credible. Westwood Police logged reports from residents on four separate days within a single week in September 2020, with a payment demand of roughly $2,000 in bitcoin in three of the four reports; Concord Police separately warned of the same roughly $2,000 bitcoin demand months earlier. The scam emails often cited an old, previously breached password in the subject line for false legitimacy, but recipients had almost never actually been hacked at all — the "proof" was just a geographically plausible photo, not evidence of any real access to the recipient's device or accounts.`,
+    categorySlug: 'sextortion',
+    alertLevel: 'medium',
+    sources: ['Westwood Police Department', 'Concord Police Department'],
+    sourceUrl: 'https://westwoodminute.town.news/g/westwood-ma/n/273105/email-phishing-scam-uses-photos-homes-local-spots-claim-personal-knowledge',
+    country: 'US',
+    state: 'MA',
+    isHistorical: true,
+    firstRecorded: '2020-04-01',
+});
