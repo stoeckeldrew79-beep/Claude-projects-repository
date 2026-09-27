@@ -10960,6 +10960,10 @@ NotoriousGM.push({
     title: 'The Göttinger Gruppe and the Billion-Euro Retirement Scheme No Court Would Call a Ponzi',
     slug: 'goettinger-gruppe-securenta-retirement-fraud',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Gotingen.JPG?width=1200',
+    coverImageCredit: 'Photo: MALNO84 (CC BY-SA 3.0) — Hiroshimaplatz in Göttingen, the university town where Securenta/Göttinger Gruppe was founded',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'ponzi-scheme', 'international', 'historical', 'germany'],
     body: `In 1986, a group of five shareholders led by Erwin Zacharias founded Securenta AG in the university town of Göttingen, West Germany, selling what it called "atypical silent partnerships" — a legal, tax-advantaged form of German corporate investment — as a retirement savings product for ordinary wage earners. By 1992 Securenta had grown into a sprawling holding structure, the Göttinger Gruppe, that eventually encompassed its own bank (Securenta Bank AG, acquired 1990) and its own life insurer (Gutingia Lebensversicherung AG, founded 1993). Its flagship product, marketed under the name "SecuRente," promised ordinary savers a share of company profits in exchange for bearing a share of company risk — pitched, in the group's own advertising, as a tax-saving retirement plan built for the average person rather than the wealthy.
 
