@@ -20883,6 +20883,36 @@ International.push(
     sourceUrl: "https://elevenmyanmar.com/news/wave-money-warns-users-of-ai-generated-fake-transfer-receipts",
     country: "MM",
   },
+  {
+    name: 'Central Bank of The Bahamas Deepfake Investment Impersonation Alert',
+    slug: 'bahamas-central-bank-deepfake-investment-scam',
+    description: `On October 2, 2025, the Central Bank of The Bahamas issued a public alert warning that scammers are using deepfake technology — fabricated videos, audio recordings, and images — to impersonate the Central Bank, other financial institutions, and well-known individuals, presenting the fakes as legitimate announcements, investment opportunities, or urgent appeals. The manipulated content is spread through social media and unverified platforms and is used to direct victims to fraudulent sites or requests for personal information, payments, or fund transfers. The Bank stated that official notices are issued only through its verified website and official communication channels, that it does not solicit funds, investments, or personal details by phone, social media, or unverified online platforms, and that its only direct investment products are Bahamas Registered Stock, Bahamas Savings Bonds, and Treasury Bills obtained through official channels. The public was urged to verify the authenticity of any such message or video before taking action and to report suspicious content to the Royal Bahamas Police Force and the relevant social media platform.`,
+    categorySlug: 'ai-deepfake-scams',
+    alertLevel: 'high',
+    sources: ['Central Bank of The Bahamas'],
+    sourceUrl: 'https://www.centralbankbahamas.com/news/scams-and-frauds/public-notice-scam-alert-deepfake-investment-opportunity',
+    country: 'BS',
+  },
+  {
+    name: 'Fake Central Bank of The Bahamas Job Advertisement Scam',
+    slug: 'bahamas-central-bank-fake-job-advertisement-scam',
+    description: `On August 6, 2025, the Central Bank of The Bahamas issued a public notice warning that a fraudulent job advertisement claiming to offer employment with the Bank was circulating on social media and messaging apps. The Bank stated directly that it "is not currently advertising for the position(s) mentioned in the fake advertisement" and said it was working with relevant authorities on the matter. It advised anyone who saw the posting not to engage with it or share personal information, and to verify any genuine Central Bank job listing only through its official website or its verified LinkedIn, Instagram, and Facebook accounts.`,
+    categorySlug: 'employment-scams',
+    alertLevel: 'medium',
+    sources: ['Central Bank of The Bahamas'],
+    sourceUrl: 'https://www.centralbankbahamas.com/news/scams-and-frauds/public-notice-scam-alert-fake-job-advertisement',
+    country: 'BS',
+  },
+  {
+    name: '"Money Makers Club" Unlicensed Crypto Trading-Signal Scheme',
+    slug: 'bahamas-money-makers-club-crypto-pyramid-scheme',
+    description: `In Public Notice No. 5 of 2026 (19 February 2026), the Securities Commission of The Bahamas warned that Money Makers Club — previously flagged under its earlier name, Incomemaxx Financial Enrollment Investment, in Public Notice No. 3 of 2025 — is active on Instagram, Facebook, and Telegram, and now runs its own website fronted by a self-described "Trading Advisor" using the name Marquita Thomas. It solicits a minimum $150 cryptocurrency deposit in return for a promised $1,500 withdrawal per deposit, and separately sells two $250-a-month packages — a "Gold Queen Scanner" and a "Community Unlimited Plan" — offering gold (XAUUSD) trading alerts and live trading sessions. The Commission confirmed that neither the entity nor its agents are registered or licensed under the Securities Industry Act 2024, the Investment Funds Act 2019, the Financial and Corporate Service Providers Act 2020, or the Digital Assets and Registered Exchanges Act 2024, and said its activity has the hallmarks of an unlawful "Financial Scheme" — a category that includes Ponzi and pyramid schemes and carries risk of both financial loss and criminal prosecution. The Commission urged the public to check any investment offer against its online registrant-licensee search before sending money.`,
+    categorySlug: 'ponzi-pyramid-schemes',
+    alertLevel: 'high',
+    sources: ['Securities Commission of The Bahamas'],
+    sourceUrl: 'https://scb.gov.bs/wp-content/uploads/2026/02/Public-Notice-5-of-2026-Money-Makers-Club-final.pdf',
+    country: 'BS',
+  },
 );
 
 International.push({
