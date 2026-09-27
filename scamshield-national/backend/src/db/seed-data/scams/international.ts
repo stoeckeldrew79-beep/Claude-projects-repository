@@ -22645,3 +22645,42 @@ International.push({
   isHistorical: false,
   firstRecorded: '2023-06-01',
 });
+
+International.push({
+  name: 'Bobar Banka Collapse and Insider Loan Fraud',
+  slug: 'bosnia-herzegovina-bobar-banka-collapse',
+  description: `Bobar banka in Bijeljina, Republika Srpska, owned by businessman and RS parliamentarian Gavrilo Bobar, collapsed in 2014 after regulators found roughly 145.7 million KM in deposits — much of it public money from ministries, courts, public enterprises, and the Employment Bureau — had been funneled into uncollateralized loans to companies inside Bobar's own business group. Bobar was shot dead in an unsolved killing weeks before the bank's license was pulled. The Deposit Insurance Agency compensated more than 21,000 depositors up to the insured 50,000 KM threshold, but larger claims, including from public institutions, went into liquidation proceedings with no automatic recovery. In March 2017 prosecutors indicted 16 people, including former Banking Agency of Republika Srpska director Slavica Injac, on organized-crime and abuse-of-office charges tied to 122.5 million KM in alleged damages; by 2023-2024 every defendant had been acquitted or received no punishment, with Injac's acquittal upheld by the RS Supreme Court in May 2024.`,
+  categorySlug: 'investment-fraud',
+  alertLevel: 'high',
+  sources: ['Prijedor24', 'Oslobođenje'],
+  sourceUrl: 'https://prijedor24.com/propast-dvije-banke-vise-od-300-miliona-km-nestalo-depoziti-propali-niko-nije-odgovarao/',
+  country: 'BA',
+  isHistorical: true,
+  firstRecorded: '2014-01-01',
+});
+
+International.push({
+  name: 'Operation Pandora: Bosnia-Based Debt-Collection Fraud Call Centers',
+  slug: 'bosnia-herzegovina-operation-pandora-debt-collection-call-centers',
+  description: `On April 18, 2024, in a raid codenamed "Operation Pandora," German state police (Baden-Württemberg LKA) with Europol and counterparts in Albania, Bosnia and Herzegovina, Kosovo, and Lebanon dismantled 12 fraud call centers and arrested 21 people. Fake debt-collection calls were run predominantly out of Bosnia and Herzegovina, while other participating countries specialized in fake-police, investment, romance, and prepaid-card fraud variants of the same broader network. Investigators recorded more than 1.3 million intercepted conversations and over 28,000 scam calls in a single 48-hour monitoring window, crediting timely intervention with stopping roughly 80% of an estimated €10 million in attempted losses; about €1 million in cash and assets was seized.`,
+  categorySlug: 'legal-debt-collection',
+  alertLevel: 'high',
+  sources: ['Sarajevo Times', 'Europol'],
+  sourceUrl: 'https://sarajevotimes.com/operation-pandora-shuts-down-12-phone-fraud-call-centres/',
+  country: 'BA',
+  isHistorical: true,
+  firstRecorded: '2024-04-18',
+});
+
+International.push({
+  name: 'ShipGRATIS.ba Fake Free-Shipping Webshop Non-Delivery Scam',
+  slug: 'bosnia-herzegovina-shipgratis-fake-webshop-scam',
+  description: `Beginning around 2020, the platform ShipGRATIS.ba marketed itself as a Wish-style marketplace with no shipping fees, requiring advance bank transfer since its suppliers were said to be based in China, Hong Kong, and Singapore. Buyers who paid received automated order confirmations and tracking numbers, but goods never arrived; follow-up messages got only automated replies, and complaints posted to the platform's Facebook page were deleted. Bosnian outlet Akta.ba documented the pattern (with a separate wave of roughly 468 complaints against the same operator's Czech-market site) and identified the domain's Czech parent, Ateli, s.r.o. of Plzeň, and its Bosnian sub-distributor holding the receiving bank account, CEEEC BH d.o.o. of Bijeljina, whose director subsequently denied wrongdoing to the outlet.`,
+  categorySlug: 'online-shopping-scams',
+  alertLevel: 'medium',
+  sources: ['Akta.ba'],
+  sourceUrl: 'https://www.akta.ba/vijesti/bih/119057/kupci-upozoravaju-na-pomolu-nova-prevara-online-kupovine',
+  country: 'BA',
+  isHistorical: false,
+  firstRecorded: '2020-06-09',
+});
