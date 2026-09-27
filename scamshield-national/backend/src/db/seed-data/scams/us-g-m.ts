@@ -10672,3 +10672,31 @@ UsGM.push({
     isHistorical: true,
     firstRecorded: '2021-01-01',
 });
+
+UsGM.push({
+    name: 'Gateway Community Services MaineCare Billing Fraud Investigation',
+    slug: 'maine-gateway-community-services-mainecare-billing-fraud',
+    description: `Gateway Community Services, a Portland-based MaineCare (Maine Medicaid) provider founded in 2015, has been the subject of three separate state audits — completed in 2018, 2024, and late 2025 — that together found more than $1 million in overbilling, including charges for interpreter services not covered by MaineCare and visits lacking proper documentation. A former Gateway billing employee laid off in April 2025 came forward as a whistleblower alleging falsified billing records, and on December 23, 2025 Maine's Department of Health and Human Services suspended MaineCare payments to Gateway over "credible allegations of fraud," referring the case to the Attorney General's Office for investigation; the company's attorney said Gateway was unaware of what prompted the escalation and denied fraudulent activity.`,
+    categorySlug: 'healthcare-fraud',
+    alertLevel: 'medium',
+    sources: ['Maine Public', 'Maine Morning Star', 'WGME'],
+    sourceUrl: 'https://www.mainepublic.org/politics/2025-12-23/state-suspends-mainecare-payments-to-portland-provider-over-suspected-fraud',
+    country: 'US',
+    state: 'ME',
+    isHistorical: false,
+    firstRecorded: '2025-12-23',
+});
+
+UsGM.push({
+    name: 'Hannaford / Ahold Delhaize Data Breach',
+    slug: 'maine-hannaford-ahold-delhaize-data-breach',
+    description: `A ransomware attack on Hannaford's parent company, Ahold Delhaize USA, compromised data on November 5-6, 2024, affecting more than 95,000 Maine residents among roughly 2.2 million people company-wide, mostly current and former employees. Exposed data included names, home and email addresses, birth dates, phone numbers, Social Security numbers, passport and driver's license numbers, banking and investment account numbers, and health-insurance and workers'-compensation information; no customer credit card numbers were involved. A ransomware gang claimed responsibility in April 2025, and Ahold Delhaize did not formally notify the Maine Attorney General until June 27, 2025 — nearly eight months after the breach — while offering two years of free credit monitoring and identity-protection services to those affected.`,
+    categorySlug: 'data-breach-scams',
+    alertLevel: 'high',
+    sources: ['Portland Press Herald', "Maine Attorney General's Office"],
+    sourceUrl: 'https://www.pressherald.com/2025/06/27/hannaford-data-breach-affected-more-than-95000-mainers/',
+    country: 'US',
+    state: 'ME',
+    isHistorical: false,
+    firstRecorded: '2024-11-05',
+});
