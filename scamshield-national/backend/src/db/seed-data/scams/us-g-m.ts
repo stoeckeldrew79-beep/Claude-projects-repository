@@ -10858,3 +10858,15 @@ UsGM.push({
     state: 'MD',
     isHistorical: false,
 });
+
+UsGM.push({
+    name: 'Minnesota Unemployment Insurance Imposter Claim Fraud',
+    slug: 'minnesota-unemployment-insurance-imposter-claim-fraud',
+    description: `Using personal information obtained through data breaches, phishing, or physical theft, criminals file a fraudulent unemployment insurance claim in a Minnesotan's name with the state's Unemployment Insurance program, run by the Department of Employment and Economic Development (DEED). As the department puts it, "When a fraudster obtains your private information, they sometimes use it to create an imposter unemployment insurance account in your name." Victims often only learn of the fraud when they receive an unexpected notice about an unemployment account they never opened. DEED says that once it identifies a likely imposter account it will "review the account right away and, if needed, take steps to ensure that the imposter can no longer access the account," and that a genuine identity-theft victim is not on the hook for the stolen funds: "No, if you were a victim of identity theft you will not have to pay back the money." Minnesotans who spot a suspicious account are directed to report it through the state's online fraud form, file a report with the National Center for Disaster Fraud and local police, and place a fraud alert with the credit bureaus.`,
+    categorySlug: 'public-benefits-fraud',
+    sources: ['Minnesota Unemployment Insurance (DEED)'],
+    sourceUrl: 'https://www.uimn.org/applicants/needtoknow/fraud/ui-fraud.jsp',
+    country: 'US',
+    state: 'MN',
+    isHistorical: false,
+});
