@@ -3439,6 +3439,34 @@ UsTZ.push({
 });
 
 UsTZ.push({
+    name: 'Virgin Islands VIPD Caller-ID Spoofed Social Security Gift-Card Scam',
+    slug: 'virgin-islands-vipd-spoofed-caller-id-social-security-giftcard-scam',
+    description: `Callers spoofed the Virgin Islands Police Department's own St. Thomas phone number (340-774-2211) so it appeared on caller ID, then posed as VIPD officers — often with foreign accents — telling victims their Social Security number had been compromised or linked to a crime and that they must pay a fine immediately to avoid arrest. Victims were instructed to pay in retail gift cards worth thousands of dollars. VIPD stated plainly that its employees "would never threaten you with arrest" or demand payment "by retail gift card, cash, wire transfer, internet currency, or prepaid debit card," and urged anyone who received such a call to hang up and report it to the Social Security Administration or local police rather than to any number the caller provided.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Virgin Islands Police Department'],
+    sourceUrl: 'https://viconsortium.com/vi-community_center/virgin-islands-perpetrators-using-vipd-in-attempt-steal-social-security-information-from-unsuspecting-victims',
+    country: 'US',
+    state: 'VI',
+    isHistorical: true,
+    firstRecorded: '2020-12-11',
+});
+
+UsTZ.push({
+    name: 'Virgin Islands Lomack/Germfree Vendor-Impersonation BEC Fraud',
+    slug: 'virgin-islands-lomack-germfree-vendor-impersonation-bec-fraud',
+    description: `Kadrion Lomack impersonated an employee of Germfree, a company under contract with the V.I. Department of Health to provide laboratory and cleanroom manufacturing services, and emailed the department requesting that outstanding payments legitimately owed to Germfree be redirected to a new Citibank account he controlled. The scheme succeeded in diverting $412,190 in government funds before VIPD's Economic Crimes Unit — whose investigation began March 25, 2025 — tracked him to Illinois, where he was apprehended on March 6, 2026 and extradited back to the territory on March 23, 2026 to face charges including obtaining money by false pretense, grand larceny, participating in fraud on creditors, fraudulent claims upon the government, and unauthorized access to a computer for a fraudulent purpose. Any government agency or business that receives a vendor's request to change payment or banking details should independently verify it by calling the vendor at a number already on file, never one provided in the email itself, before redirecting any payment.`,
+    categorySlug: 'business-email-compromise',
+    alertLevel: 'high',
+    sources: ['Virgin Islands Police Department'],
+    sourceUrl: 'https://vipd.vi.gov/news/kadrion-lomack-extradited-to-face-fraud-charges/',
+    country: 'US',
+    state: 'VI',
+    isHistorical: true,
+    firstRecorded: '2025-03-25',
+});
+
+UsTZ.push({
     name: 'Fake Vinyl Record Storefront Scam',
     slug: 'vinyl-record-fake-storefront-scam',
     description: `As vinyl sales have kept climbing for nearly two decades running, a wave of fake record shops has followed the money straight into collectors' Instagram and Facebook feeds. The pitch is a polished-looking storefront advertising hard-to-find pressings, colored-vinyl variants, or brand-new box sets — sometimes major-label releases like a Rolling Stones or Beatles set — at prices well below what any legitimate retailer or pressing plant charges, paired with professional product photography lifted from real stores. A buyer who orders is often given a fake tracking number to keep them from disputing the charge too early, then finds the "shop" unreachable once the shipping window passes — email goes unanswered, the contact form bounces, and eventually the entire website disappears and reappears days later under a new name. The Better Business Bureau has logged reports of the same pattern under different storefront names; in one filed report, a Kentucky collector who ordered records after seeing a Facebook ad for a shop called Ithered Vinyl Records lost $80 when the order never arrived and the "business" turned out to have no verifiable history anywhere online. Because record collecting runs on scarcity and hype around limited pressings, the community itself has become a frontline defense — collectors on forums like Discogs and Reddit's vinyl communities actively compile and share lists of newly registered scam storefronts as they appear, often within days of the first complaints. The BBB recommends checking how recently a seller's domain was registered before buying, searching the store's name alongside the words "scam" or "complaint," looking for a real street address and working contact information rather than only a form, and paying by credit card — which allows a chargeback — rather than a debit card, payment app, or gift card, since a listing with no verifiable seller history and a price far under market value is the clearest sign the "record shop" behind it doesn't actually exist.`,
