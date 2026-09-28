@@ -10558,3 +10558,38 @@ UsAF.push({
     isHistorical: true,
     firstRecorded: '2019-11-01',
 });
+
+UsAF.push({
+    name: 'Lt. Governor Aitofele Sunia and Senator Tini Lam Yuen School Furniture Bid-Splitting Bribery Scheme',
+    slug: 'american-samoa-sunia-lam-yuen-school-furniture-bid-splitting-bribery',
+    description: `In September 2007, a federal grand jury indicted American Samoa's sitting Lieutenant Governor, Aitofele T.F. Sunia, then 64, and territorial Senator Tini Lam Yuen, then 56, on six counts including conspiracy, fraud and bribery concerning programs receiving federal funds, and obstruction of an agency proceeding. Prosecutors alleged that from 2001 through 2004, the two men used companies they controlled, along with a third company, to supply school furniture to American Samoa's public schools while splitting what was actually one large procurement — worth more than $775,000 over roughly three years — into dozens of separate invoices, each kept just under the $10,000 threshold that would otherwise have triggered the territory's mandatory competitive-bidding requirements. Sunia surrendered to FBI agents in Pago Pago and was flown to Honolulu to face the charges; Lam Yuen, on the U.S. mainland at the time, was arrested separately. Each faced up to 10 years in prison and $250,000 in fines on the fraud and bribery counts.
+
+The indictment followed two related convictions in the same school-procurement scheme: former ASDOE Chief Procurement Officer Fa'au Seumanutafa was sentenced in October 2005 to eight months in prison and $80,000 restitution, and former Education Director Kerisiano Sili Sataua was sentenced the same month to 30 months and $61,000 restitution. The case against Sunia and Lam Yuen themselves proved harder to resolve: after pretrial motions dismissed several of the six counts, the prosecution ended in a mistrial on February 23, 2010, after jurors failed to reach a unanimous verdict.
+
+The scheme is a textbook example of bid-splitting: breaking one large purchase into a string of invoices that each fall under a spending threshold specifically to dodge the competitive-bidding and oversight rules that threshold exists to trigger. It's a fraud pattern that can show up anywhere a government or institutional purchasing limit creates an incentive to disguise scale — a pattern of suspiciously many small, same-vendor invoices just under a reporting threshold is worth flagging to a procurement office's inspector general.`,
+    categorySlug: 'public-benefits-fraud',
+    sources: ["U.S. Department of Justice"],
+    sourceUrl: 'https://www.justice.gov/archive/opa/pr/2007/September/07_crm_698.html',
+    country: 'US',
+    state: 'AS',
+    isHistorical: true,
+    firstRecorded: '2001-01-01',
+});
+
+UsAF.push({
+    name: 'Tautua Mo Oe (TMO) Cash-Register "Wrong Sale" Skimming Embezzlement (Malia One and Inosiaolouaiga Pauga)',
+    slug: 'american-samoa-tmo-cashier-register-skimming-embezzlement',
+    description: `Between January and September 2018, two cashiers at Tautua Mo Oe (TMO) Inc., a private retailer in American Samoa, independently exploited their store's point-of-sale system to steal from their own registers. Malia One, working in TMO's wholesale department, repeatedly pressed the register's "RC" (return/cancel, or "wrong sale") key to falsely mark a completed sale as voided, then pocketed the cash instead of logging it as a refund — a method that let her take $37,431.77 over roughly nine months without an obvious cash-drawer shortfall. Co-worker Inosiaolouaiga Pauga, a TMO cashier since February 2018, used a different trick: she mismatched daily sales reports against invoice dates and reused old invoice numbers to make pocketed customer payments look already recorded, taking $33,381.35 before she was caught.
+
+The two women's combined theft of more than $70,000 surfaced through an internal audit and was prosecuted in the American Samoa High Court. Each pleaded guilty to an amended charge of conspiracy to commit stealing, a class D felony, and was sentenced to five years' imprisonment with the sentence suspended in favor of five years' probation, a $2,000 fine, and full restitution of the amount she had taken. At sentencing, One told the court, "You gave me the trust and faith to perform my duties faithfully and honestly; however, I failed to do my part."
+
+Register "no-sale" or "wrong sale" keys exist so a cashier can correct an honest mistake, but they're also one of the best-documented internal-theft vectors in retail: an employee can use them to make a completed cash sale disappear from the log entirely. Small businesses can catch a pattern of frequent same-employee "wrong sale" voids well before it runs into the tens of thousands of dollars by regularly auditing register override logs against receipts and cash counts.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'low',
+    sources: ['Samoa News'],
+    sourceUrl: 'https://samoanews.com/local-news/sentence-handed-down-former-tmo-cashiers-who-stole-over-70k',
+    country: 'US',
+    state: 'AS',
+    isHistorical: true,
+    firstRecorded: '2018-01-01',
+});
