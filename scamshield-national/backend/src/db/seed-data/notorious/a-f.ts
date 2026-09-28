@@ -9398,24 +9398,6 @@ Burzynski's decades-long survival as a licensed physician despite sustained regu
 });
 
 NotoriousAF.push({
-    title: 'David Bullen and the National Australia Bank Forex Scandal That Cost a CEO His Job',
-    slug: 'david-bullen-national-australia-bank-forex-scandal',
-    author: 'ScamShield Editorial',
-    tags: ['notorious', 'notorious-scammer', 'international', 'historical'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/NAB_building_in_Melbourne.jpg?width=1200',
-    coverImageCredit: 'NAB\'s Melbourne headquarters. The currency options desk hid its losses until the board found them. Photo: Aaroncrick (CC BY-SA 3.0)',
-    coverImagePosition: 45,
-    body: `David Bullen worked the Foreign Currency Options desk at National Australia Bank, one of the country's largest lenders, alongside three colleagues — Luke Duffy, the desk's head, Vincent Ficarra, and Gianni Gray. Between October 2003 and January 2004, as genuine trading positions on the desk moved against them, the four traders began entering fictitious offsetting trades into the bank's systems rather than reporting the real losses, a mechanism that let the desk's reported results keep looking profitable while the true exposure quietly grew underneath the fabricated numbers.
-
-The bank disclosed the problem publicly on January 13, 2004, and the scale of what had been hidden kept expanding as investigators dug in: NAB ultimately reported losses of up to A$360 million tied to the unauthorized and fictitious trading, one of the largest trading-fraud losses at an Australian bank to that point. The fallout reached well past the trading floor. Chief executive Frank Cicutto resigned on February 2, 2004, followed two weeks later by chairman Charles Allen, and the Australian Prudential Regulation Authority published a formal report that March documenting serious failures in the bank's risk-management and compliance culture — failures that had let four traders manufacture fictitious trades for months without the bank's own systems catching it.
-
-The Australian Securities and Investments Commission pursued criminal charges against all four traders for dishonestly using their positions to gain an advantage, in breach of the Corporations Act. Duffy pleaded guilty and was sentenced in mid-2005 to 29 months in prison. Gray pleaded guilty and was sentenced in March 2006 to 16 months. Bullen and Ficarra, who contested more of the case, were convicted on 18 and 13 charges respectively of systematically and deliberately entering into transactions they knew to be dishonest; Bullen received 44 months with a minimum of 30 to serve, and Ficarra 28 months with a minimum of 15.
-
-The NAB case is a reminder that a trading desk's reported numbers are only as reliable as the controls checking them against reality, and that four people acting in concert, entering fictitious trades to paper over real losses, can keep a fabrication running for months inside a bank with sophisticated risk systems if no one outside the desk is independently verifying the underlying positions. It's also a reminder of how far the damage from a concealed trading loss travels beyond the traders themselves: a CEO and a chairman who had nothing to do with the fictitious trades still lost their jobs over a compliance culture that let the problem go undetected on their watch.`,
-    sourceUrl: 'https://www.brightlaw.com.au/nab-2004-foreign-currency-case-study/',
-});
-
-NotoriousAF.push({
     title: 'Neil Bush and the $1 Billion Silverado Savings and Loan Collapse',
     slug: 'neil-bush-silverado-savings-loan-collapse',
     author: 'ScamShield Editorial',
@@ -10623,4 +10605,21 @@ Janmohamed died of a sudden cardiac arrest on September 15, 2015, at age 56. Wit
 
 The criminal case against surviving co-conspirators dragged on for years, complicated at points by the unavailability of witnesses based in the United States, and depositors were repaid only gradually and partially as the bank was wound down. Imperial Bank's collapse illustrates a recurring failure mode in mid-sized banking systems: a single long-tenured insider with informal, unchallenged authority over a bank's cash movements, operating for more than a decade inside a regulatory system that either couldn't or wouldn't catch it — and whose death, rather than a whistleblower or an audit, is what finally forced the fraud into the open.`,
     sourceUrl: 'https://nation.africa/kenya/news/how-imperial-s-founders-siphoned-billions-from-banks-1142070',
+});
+
+NotoriousAF.push({
+    title: 'Franklin Jurado and the $36 Million "Kennedyification" of Cali Cartel Cash',
+    slug: 'franklin-jurado-cali-cartel-money-laundering',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'international', 'money-laundering', 'historical'],
+    body: `José Franklin Jurado-Rodríguez didn't fit the profile of a cartel operative. Colombian-born, he studied economics at Harvard in the late 1970s and went on to work as a research associate at both Harvard's Kennedy School of Government and Harvard Law School — credentials he later put to work not managing legitimate portfolios but laundering cocaine profits for José Santacruz Londoño, one of the top figures in Colombia's Cali cartel. Between roughly 1987 and 1990, Jurado moved an estimated $36 million in U.S. drug proceeds through the international banking system, using techniques closer to a graduate finance seminar than a criminal underworld.
+
+His method, which he reportedly called "Kennedyification" — an allusion to how the Kennedy family's Prohibition-era bootlegging fortune had, over a generation, become simply "old money" — involved smuggling cash out of the United States into Panamanian banks, then wiring it through more than 100 accounts at 68 banks across nine countries: Austria, Denmark, England, France, Germany, Hungary, Italy, Luxembourg, and Monaco. Funds were first parked in accounts under the names of Santacruz's relatives and mistresses or fabricated European-sounding identities, then shifted into accounts held by local residents, then folded into ordinary local business accounts, and finally invested in legitimate-looking companies and property — each layer designed to put more distance between the money and its origin.
+
+What ultimately caught Jurado wasn't a financial regulator or a wiretap targeting the cartel — it was a neighbor's noise complaint. The constant hum of a money-counting machine running inside his Luxembourg house drew a call to local police, who opened a wiretap investigation in April 1990 and arrested him two months later. A Luxembourg court convicted him in 1992 under the country's 1989 anti-money-laundering statute, sentencing him to four and a half years in prison and roughly $150,000 in fines — reportedly the first major conviction under that law.
+
+Jurado was later extradited to the United States to face a separate federal indictment out of Brooklyn. In 1996, he pleaded guilty in U.S. federal court and was sentenced to seven and a half years in prison, with the $36 million he'd laundered ordered forfeited; a co-defendant, Edgar Alberto Garcia-Montilla, received ten years. Santacruz Londoño, the cartel boss whose money Jurado had spent three years disguising, was shot dead by Colombian police just months before Jurado's U.S. sentencing.
+
+Jurado's case remains a textbook illustration of the "layering" stage of money laundering — the deliberate multiplication of transactions and jurisdictions meant to make tracing dirty money prohibitively difficult even for sophisticated investigators. It's also a reminder that even an elaborate scheme built by an Ivy League-trained economist, spanning nine countries and over a hundred bank accounts, can unravel over something as mundane as an appliance's noise level: the most carefully engineered financial camouflage still has to survive contact with an ordinary, physical life.`,
+    sourceUrl: 'https://www.upi.com/Archives/1996/06/28/Cali-money-launderers-sentenced-in-NY/9841835934400/',
 });
