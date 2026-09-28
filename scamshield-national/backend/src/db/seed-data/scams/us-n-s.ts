@@ -10236,3 +10236,37 @@ UsNS.push({
     isHistorical: false,
     firstRecorded: '2025-06-13',
 });
+
+UsNS.push({
+    name: 'Post-Typhoon Sinlaku FEMA Impersonation and Contractor Fraud Alert (CNMI)',
+    slug: 'northern-mariana-islands-typhoon-sinlaku-fema-contractor-fraud-alert',
+    description: `Super Typhoon Sinlaku, an unusually early-season storm that intensified to Category 4-5 strength, struck the Commonwealth of the Northern Mariana Islands in mid-April 2026, tearing roofs from homes, damaging structures across Saipan and Tinian, and knocking out power and communications territory-wide. President Trump approved a major disaster declaration (FEMA-4910-DR-MP) for the CNMI on April 23, 2026, authorizing FEMA Individual Assistance for Saipan, Tinian, Rota, and the Northern Islands.
+
+As FEMA registration and inspections began, Marianas Variety published a public-service alert on April 27, 2026 reinforcing FEMA's own guidance for the territory: applying for FEMA assistance is free, FEMA inspectors never charge fees, all FEMA staff and inspectors carry official photo ID badges, residents should not share personal information with unknown individuals claiming to be inspectors or officials, residents should use only licensed contractors for repair work, and any suspected fraud should be reported immediately. The warning reflects a pattern seen after other Pacific disasters in the region — FEMA issued a nearly identical alert to Guam residents after Typhoon Mawar in 2023 — of scammers posing as FEMA, utility, or law-enforcement officials to "inspect" storm-damaged property or demand payment before assistance is provided, and unlicensed, itinerant contractors going door-to-door demanding cash upfront for "fast-track" debris removal or repairs that are never completed.
+
+CNMI residents applying for Sinlaku disaster assistance should verify any inspector's identity against their FEMA registration number, confirm a contractor's license before paying anything, and never provide banking information over the phone or to a door-to-door caller — and should report suspected fraud to FEMA's Disaster Fraud hotline rather than assume a badge or a clipboard makes a visitor legitimate.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Marianas Variety', 'FEMA'],
+    sourceUrl: 'https://www.mvariety.com/news/local/beware-of-scams-after-typhoon-sinlaku/article_69e005d1-0e26-5cc7-bbeb-f1167f7857df.html',
+    country: 'US',
+    state: 'MP',
+    firstRecorded: '2026-04-27',
+});
+
+UsNS.push({
+    name: 'Typhoon Sinlaku Relief-Ice Price-Gouging Investigation (CNMI)',
+    slug: 'northern-mariana-islands-typhoon-sinlaku-price-gouging-investigation',
+    description: `Ahead of Super Typhoon Sinlaku's landfall, CNMI Governor David M. Apatang signed an executive order on April 11, 2026 freezing prices on all goods, services, and housing rentals — including apartments and condominiums — under the Commonwealth Disaster Price Freeze Act (4 CMC §§ 5141-5144), making it illegal for any business or landlord to raise prices for the duration of the emergency declaration. The freeze is the same legal tool the CNMI has invoked after nearly every major typhoon to hit the territory going back to at least 2018's Typhoon Yutu.
+
+At a May 6, 2026 press conference marking the opening of a Survivor Recovery Center, a reporter asked Governor Apatang about reports that individuals or businesses were buying bagged relief ice and reselling it by the cup for $4. "I heard about that, and I'm going to ask the AG to look into that," Apatang said. "That falls under price gouging, and they should investigate that issue." He added, "I put out advice to the public right after the typhoon about price gouging — that it's illegal, that it's against the law. Businesses need to adhere to the law. Don't cheat our people. Don't take advantage of the disaster." In the weeks following the storm, CNMI residents took to social media in large numbers to complain about prices they considered gouging and to question whether the Attorney General's office was actively enforcing the freeze; as of the report, the AG's office had not issued a public statement on the reported violations.
+
+The pattern is a recognizable one for CNMI residents after any declared typhoon emergency: with supply chains disrupted and certain goods — ice, generators, fuel, bottled water, building materials — suddenly scarce, some vendors mark up prices well beyond what the law allows, betting that displaced, distracted residents won't report it. Residents who see a price they believe violates an active price-freeze order can report it in writing to the CNMI Office of the Attorney General's Consumer Counsel Division.`,
+    categorySlug: 'home-improvement-solar',
+    alertLevel: 'medium',
+    sources: ['Marianas Variety'],
+    sourceUrl: 'https://www.mvariety.com/news/local/apatang-warns-against-price-gouging/article_b9cd8d08-6e38-5a85-8a84-cf8fa0566328.html',
+    country: 'US',
+    state: 'MP',
+    firstRecorded: '2026-04-11',
+});
