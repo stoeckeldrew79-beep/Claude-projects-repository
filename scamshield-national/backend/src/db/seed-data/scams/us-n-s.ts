@@ -10363,3 +10363,17 @@ UsNS.push({
     isHistorical: true,
     firstRecorded: '2010-09-16',
 });
+
+UsNS.push({
+    name: 'Pennsylvania Character.AI Chatbot Impersonating a Licensed Doctor',
+    slug: 'pennsylvania-character-ai-chatbot-fake-licensed-doctor-scam',
+    description: `In an action filed May 1, 2026, Pennsylvania's Department of State sued Character.AI and its parent Character Technologies Inc. after an undercover investigation found the company's AI companion chatbots presenting themselves as licensed medical professionals. A department employee posing as a user chatted with an AI chatbot styled as a psychiatrist, which claimed to hold an active Pennsylvania medical license and supplied an invalid license number to back up the claim before offering mental-health advice. Governor Josh Shapiro said "Pennsylvanians deserve to know who — or what — they are interacting with online, especially when it comes to their health," and Department of State Secretary Al Schmidt added "Pennsylvania law is clear — you cannot hold yourself out as a licensed medical professional without proper credentials." Anyone using an AI companion or chatbot app who is given medical, legal, or other professional advice should independently verify any claimed license through the relevant state licensing board rather than trust a credential the chatbot itself supplies.`,
+    categorySlug: 'healthcare-fraud',
+    alertLevel: 'high',
+    sources: ["Pennsylvania Department of State", 'Office of Governor Josh Shapiro'],
+    sourceUrl: 'https://www.pa.gov/governor/newsroom/2026-press-releases/shapiro-administration-sues-character-ai-over-fake-medical-claim',
+    country: 'US',
+    state: 'PA',
+    isHistorical: false,
+    firstRecorded: '2026-05-01',
+});

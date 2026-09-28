@@ -9485,6 +9485,17 @@ The individual case sits inside a much larger enforcement problem: after the 202
     country: "MM",
   },
   {
+    name: "AI-Generated Fake Transfer Receipt Scam (Wave Money)",
+    slug: "myanmar-wave-money-ai-fake-transfer-receipt-scam",
+    description:
+      "Wave Money, one of Myanmar's largest mobile-money operators, warned that fraudsters are using AI image-generation tools to forge convincing money-transfer receipts and payment screenshots, showing these to sellers and payees as false proof a payment has already gone through in order to obtain goods, services, or refunds without ever actually sending money. Wave Money said the most effective way to avoid falling for a fake transfer is to check the real transaction history and account balance directly in the Wave Money app rather than trusting a screenshot handed over by the other party, and noted that some AI-generated fakes carry a visible watermark or logo that scammers crop out specifically to evade detection. Eleven Media Group, which reported the warning, cited the Bangkok Post's own reporting that the same AI-forged-receipt technique has surfaced among fraud networks operating along the Thai-Myanmar border, suggesting the tactic is spreading beyond a single country's mobile-money platform. The scam is distinct from Myanmar's existing bank-employee-impersonation phishing pattern, since it targets the seller or payee side of a transaction rather than the account holder, and requires no stolen credentials at all — just a convincing enough fake image to get goods released before the missing payment is discovered.",
+    categorySlug: "fake-check-overpayment",
+    alertLevel: "medium",
+    sources: ["Eleven Media Group","Wave Money"],
+    sourceUrl: "https://elevenmyanmar.com/news/wave-money-warns-users-of-ai-generated-fake-transfer-receipts",
+    country: "MM",
+  },
+  {
     name: 'Fake Mobile-Tower "SMS Blaster" Bank Phishing Scam',
     slug: 'kazakhstan-sms-blaster-fake-base-station-phishing',
     description: `In April 2026, Kazakhstani police announced the first known regional takedown of an "SMS blaster" fraud ring, detaining four suspects who had driven a vehicle rigged with a fake mobile base station through crowded markets and shopping centers. The device impersonated a legitimate cell tower, generating a signal strong enough to force nearby phones within roughly a 300-meter radius onto a less secure connection, which let the criminals blast up to 100,000 text messages an hour directly to bystanders' phones while bypassing the fraud filters mobile carriers normally apply to network traffic. The messages impersonated the mobile operator Beeline and Halyk Bank, one of Kazakhstan's largest banks, offering victims a "bonus exchange" and a link to claim it; anyone who tapped through was taken to a convincing phishing site that asked for a bank card number, its CVV code, and the one-time SMS verification code needed to authorize a transaction — everything a criminal needs to immediately drain the account. Investigators described the case as the first of its kind uncovered anywhere in the CIS, and it surfaced against a backdrop of nationwide totals showing phishing already accounts for roughly a quarter of all fraud offenses in Kazakhstan, with authorities blocking nearly 85 million fraudulent phone calls in 2025 alone. Kazakhstan's Financial Monitoring Agency urges the public to remember that banks and telecom operators never request card numbers, CVV codes, or SMS verification codes through a text message or a link, and that an unusually strong or unfamiliar network prompt on a phone in a crowded public place can itself be a sign of exactly this kind of attack.`,
@@ -10523,6 +10534,36 @@ International.push(
     alertLevel: 'high',
     sources: ['The Tribune (Bahamas)', 'Royal Bahamas Police Force'],
     sourceUrl: 'https://www.tribune242.com/news/2025/sep/10/scores-fall-victim-to-phishing-scammers/',
+    country: 'BS',
+  },
+  {
+    name: 'Central Bank of The Bahamas Deepfake Investment Impersonation Alert',
+    slug: 'bahamas-central-bank-deepfake-investment-scam',
+    description: `On October 2, 2025, the Central Bank of The Bahamas issued a public alert warning that scammers are using deepfake technology — fabricated videos, audio recordings, and images — to impersonate the Central Bank, other financial institutions, and well-known individuals, presenting the fakes as legitimate announcements, investment opportunities, or urgent appeals. The manipulated content is spread through social media and unverified platforms and is used to direct victims to fraudulent sites or requests for personal information, payments, or fund transfers. The Bank stated that official notices are issued only through its verified website and official communication channels, that it does not solicit funds, investments, or personal details by phone, social media, or unverified online platforms, and that its only direct investment products are Bahamas Registered Stock, Bahamas Savings Bonds, and Treasury Bills obtained through official channels. The public was urged to verify the authenticity of any such message or video before taking action and to report suspicious content to the Royal Bahamas Police Force and the relevant social media platform.`,
+    categorySlug: 'ai-deepfake-scams',
+    alertLevel: 'high',
+    sources: ['Central Bank of The Bahamas'],
+    sourceUrl: 'https://www.centralbankbahamas.com/news/scams-and-frauds/public-notice-scam-alert-deepfake-investment-opportunity',
+    country: 'BS',
+  },
+  {
+    name: 'Fake Central Bank of The Bahamas Job Advertisement Scam',
+    slug: 'bahamas-central-bank-fake-job-advertisement-scam',
+    description: `On August 6, 2025, the Central Bank of The Bahamas issued a public notice warning that a fraudulent job advertisement claiming to offer employment with the Bank was circulating on social media and messaging apps. The Bank stated directly that it "is not currently advertising for the position(s) mentioned in the fake advertisement" and said it was working with relevant authorities on the matter. It advised anyone who saw the posting not to engage with it or share personal information, and to verify any genuine Central Bank job listing only through its official website or its verified LinkedIn, Instagram, and Facebook accounts.`,
+    categorySlug: 'employment-scams',
+    alertLevel: 'medium',
+    sources: ['Central Bank of The Bahamas'],
+    sourceUrl: 'https://www.centralbankbahamas.com/news/scams-and-frauds/public-notice-scam-alert-fake-job-advertisement',
+    country: 'BS',
+  },
+  {
+    name: '"Money Makers Club" Unlicensed Crypto Trading-Signal Scheme',
+    slug: 'bahamas-money-makers-club-crypto-pyramid-scheme',
+    description: `In Public Notice No. 5 of 2026 (19 February 2026), the Securities Commission of The Bahamas warned that Money Makers Club — previously flagged under its earlier name, Incomemaxx Financial Enrollment Investment, in Public Notice No. 3 of 2025 — is active on Instagram, Facebook, and Telegram, and now runs its own website fronted by a self-described "Trading Advisor" using the name Marquita Thomas. It solicits a minimum $150 cryptocurrency deposit in return for a promised $1,500 withdrawal per deposit, and separately sells two $250-a-month packages — a "Gold Queen Scanner" and a "Community Unlimited Plan" — offering gold (XAUUSD) trading alerts and live trading sessions. The Commission confirmed that neither the entity nor its agents are registered or licensed under the Securities Industry Act 2024, the Investment Funds Act 2019, the Financial and Corporate Service Providers Act 2020, or the Digital Assets and Registered Exchanges Act 2024, and said its activity has the hallmarks of an unlawful "Financial Scheme" — a category that includes Ponzi and pyramid schemes and carries risk of both financial loss and criminal prosecution. The Commission urged the public to check any investment offer against its online registrant-licensee search before sending money.`,
+    categorySlug: 'ponzi-pyramid-schemes',
+    alertLevel: 'high',
+    sources: ['Securities Commission of The Bahamas'],
+    sourceUrl: 'https://scb.gov.bs/wp-content/uploads/2026/02/Public-Notice-5-of-2026-Money-Makers-Club-final.pdf',
     country: 'BS',
   },
 );
@@ -12844,58 +12885,6 @@ International.push(
   },
 );
 
-International.push(
-  {
-    name: 'US Virgin Islands Deepfake Investment Scam Ads on Meta',
-    slug: 'us-virgin-islands-deepfake-investment-scam-ads-meta',
-    description: `U.S. Virgin Islands Attorney General Gordon C. Rhea issued an investor alert on April 8, 2026 warning residents about a surge of fraudulent investment schemes circulating on Meta platforms — Facebook, Instagram, and WhatsApp. The alert describes fraudsters using AI-generated "deepfake" video and images of celebrities, without their permission, to lure victims into fake trading platforms, alongside "pump and dump" schemes that hype low-priced stocks or cryptocurrencies before selling out at inflated prices, and confidence schemes that build a personal relationship before directing the target to a bogus investment site. Victims are often pushed toward cryptocurrency ATMs or told to send funds directly to a private crypto wallet, both of which make the money essentially unrecoverable once sent. Attorney General Rhea urged residents to independently verify any investment opportunity — and the identity of anyone promoting it — before committing money, and to report suspected scams to the V.I. Department of Justice's Special Investigations Division or to the Department of Licensing and Consumer Affairs (DLCA) rather than acting on pressure from an online ad or unsolicited message.`,
-    categorySlug: 'ai-deepfake-scams',
-    alertLevel: 'high',
-    sources: ['U.S. Virgin Islands Department of Justice', 'Office of the Attorney General of the Virgin Islands'],
-    sourceUrl: 'https://usvidoj.com/attorney-general-gordon-c-rhea-warns-residents-of-investment-scams-on-meta-platforms/',
-    country: 'VI',
-  },
-  {
-    name: 'US Virgin Islands Meta Fraudulent Advertising Lawsuit',
-    slug: 'us-virgin-islands-meta-fraudulent-advertising-lawsuit',
-    description: `The U.S. Virgin Islands Department of Justice filed a lawsuit on December 29, 2025 in the Superior Court of the Virgin Islands accusing Meta Platforms, Instagram, and Facebook Holdings of knowingly profiting from fraudulent advertising that targets Virgin Islands consumers alongside separate claims about harm to children. The complaint alleges Meta's own internal projections estimated roughly 10% of its 2025 revenue — about $16 billion — would come from ads for scams and banned goods, that the company charged fraudsters higher rates to keep running these ads, and that Meta's platforms accounted for roughly one-third of all successful scams reported in the United States. Attorney General Gordon C. Rhea said the territory was joining dozens of other state attorneys general already suing Meta, while going further by seeking to hold the company accountable for "knowingly facilitating, failing to address, and richly profiting from widespread fraud on its platforms." The filing underscores why residents who encounter investment, romance, or shopping scam ads on Facebook or Instagram should not assume the platform has already screened out fraudulent advertisers, and should report suspicious ads to the V.I. Department of Justice in addition to Meta itself.`,
-    categorySlug: 'investment-fraud',
-    alertLevel: 'medium',
-    sources: ['U.S. Virgin Islands Department of Justice', 'U.S. News & World Report'],
-    sourceUrl: 'https://usvidoj.com/v-i-attorney-general-files-lawsuit-against-meta-to-protect-children-and-combat-widespread-online-fraud/',
-    country: 'VI',
-  },
-  {
-    name: 'US Virgin Islands DLCA Fraudulent Fee Collection Scheme',
-    slug: 'us-virgin-islands-dlca-fraudulent-fee-collection-scheme',
-    description: `The V.I. Department of Licensing and Consumer Affairs (DLCA) warned businesses in August 2026 after receiving reports of one or more individuals falsely posing as DLCA officials and approaching businesses in person to collect licensing fees, penalties, or other payments, including during purported inspections. DLCA Commissioner Nathalie Hodge stressed that department employees never collect cash, checks, credit card information, or other payment on-site while visiting a business — all fees must be paid through an official DLCA office or another payment method the department has authorized in advance. DLCA said it was working with law enforcement to investigate the reports and urged any business approached by someone demanding payment on the department's behalf to decline, ask for identification, avoid further engagement, and report the encounter immediately so investigators can identify those responsible before more businesses are targeted. Reports can be made to DLCA at (340) 727-7226 on St. Croix or (340) 771-7226 on St. Thomas.`,
-    categorySlug: 'government-impersonation',
-    alertLevel: 'medium',
-    sources: ['Virgin Islands Department of Licensing and Consumer Affairs (DLCA)', 'St. Thomas Source', 'St. John Source'],
-    sourceUrl: 'https://stthomassource.com/content/2026/08/07/dlca-warns-businesses-of-fraudulent-fee-collection-scheme/',
-    country: 'VI',
-  },
-  {
-    name: 'US Virgin Islands VIPD Traffic Violation Text Message Scam',
-    slug: 'us-virgin-islands-vipd-traffic-violation-text-message-scam',
-    description: `The Virgin Islands Police Department (VIPD) issued a public warning in late August 2026 about fraudulent text messages circulating territory-wide that falsely claim the recipient has an outstanding traffic violation and must pay a fine online, typically by following a link included in the message. VIPD confirmed the messages "are not connected to the department or any legitimate government agency in the U.S. Virgin Islands" and that neither VIPD nor the territory's judicial branch sends payment-demand texts of this kind. Anyone who receives one is urged not to click any link, not to reply, and not to enter personal or financial information, and to delete the message immediately. Residents who receive the text or have questions can contact VIPD at (340) 778-2211 on St. Croix, (340) 774-2211 on St. Thomas and St. John, or the VIPD Communications Department at (340) 514-8006.`,
-    categorySlug: 'phishing',
-    alertLevel: 'medium',
-    sources: ['Virgin Islands Police Department (VIPD)', 'St. John Source', 'Virgin Islands News Online'],
-    sourceUrl: 'https://www.virginislandsnewsonline.com/en/news/usvi-vipd-warns-of-traffic-fine-text-targeting-vi-residents-/',
-    country: 'VI',
-  },
-  {
-    name: 'US Virgin Islands VIPD Wireless Account Verification Code Scam',
-    slug: 'us-virgin-islands-vipd-wireless-verification-code-scam',
-    description: `The Virgin Islands Police Department warned in July 2026 about a telephone scam targeting USVI wireless customers in which callers impersonate a phone carrier's customer service or security department. During the call, the scammer triggers a legitimate one-time verification code to be sent to the victim's phone and then talks the victim into reading that code back over the line. Once obtained, the code lets the scammer bypass the account's security, make unauthorized changes, transfer the victim's phone number to a device they control, and access stored personal information — steps that can enable further identity theft or financial fraud. VIPD reminded residents that legitimate wireless company representatives will never ask a customer to read back a one-time verification code, password, or PIN over the phone, and that anyone who has shared a code should contact their wireless provider immediately to secure the account. Questions can be directed to the VIPD Economic Crimes Unit at (340) 774-3942, ext. 5618.`,
-    categorySlug: 'account-takeover',
-    alertLevel: 'high',
-    sources: ['Virgin Islands Police Department (VIPD)', 'St. John Source'],
-    sourceUrl: 'https://stjohnsource.com/2026/07/13/telephone-scam-targets-usvi-wireless-customers-vipd-warns/',
-    country: 'VI',
-  },
-);
 
 International.push(
   {
@@ -17212,6 +17201,41 @@ International.push(
     sourceUrl: 'https://www.blesk.cz/clanek/regiony-praha-praha-krimi/847539/vydaval-se-za-synovce-a-seniory-okradl-o-zlato-prisli-o-4-8-milionu.html',
     country: 'CZ',
   },
+  {
+    name: 'Fake "Absentee Landlord Abroad" Rental Deposit Scam',
+    slug: 'czech-republic-absentee-landlord-rental-deposit-scam',
+    description: `The Police of the Czech Republic warn of a nationwide pattern in which fraudsters post real apartment-rental photos, lifted from other listings, under a fake ad, then pose as an owner who "inherited the flat" and now works or lives abroad, communicating with prospective tenants in broken English. Victims are told to wire two months' rent in advance via a money-transfer service to a foreign account before ever viewing the unit, on the promise that keys will be couriered within two days along with a money-back guarantee if anything is wrong — once the payment is sent, the "landlord" goes silent. Police cite a Zlín regional cluster of six such reports with individual losses of roughly 9,000 to 15,000 Czech crowns, and advise checking the Land Registry (katastr nemovitostí) for the true owner of a property before paying anything toward it.`,
+    categorySlug: 'rental-housing',
+    alertLevel: 'medium',
+    sources: ['Police of the Czech Republic (Policie ČR)'],
+    sourceUrl: 'https://archiv.policie.gov.cz/clanek/varovani-pred-podvodnymi-pronajmy-bytu.aspx',
+    country: 'CZ',
+    isHistorical: false,
+  },
+  {
+    name: 'Metropolitní Spořitelní Družstvo Savings-Cooperative Embezzlement Collapse',
+    slug: 'czech-republic-msd-savings-cooperative-collapse',
+    description: `Metropolitní spořitelní družstvo (MSD) was the Czech Republic's largest cooperative credit union, holding roughly 12 to 13.4 billion Czech crowns from about 14,000 depositors who believed their savings were safely deposited at above-market interest rates. Starting around 2010, board members funneled loans worth hundreds of millions of crowns to unverified shell ventures and diverted at least 1.25 billion crowns to anonymous Hong Kong companies rather than genuine borrowers. The Czech National Bank revoked MSD's license on December 18, 2013 for systemic risk-management failures, the cooperative was declared bankrupt days later, 17 to 20 people including three board members were criminally charged, and the country's Deposit Insurance Fund ultimately paid out several billion crowns in depositor compensation — one of the largest consumer-facing financial frauds in modern Czech history, and a reminder that a "cooperative" structure paying above-market interest is not itself a guarantee of safety without independent verification of who actually controls the money.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'high',
+    sources: ['Czech National Bank (ČNB)'],
+    sourceUrl: 'https://www.cnb.cz/cs/casto-kladene-dotazy/Metropolitni-sporitelni-druzstvo-otazky-a-odpovedi/',
+    country: 'CZ',
+    isHistorical: true,
+    firstRecorded: '2013-12-18',
+  },
+  {
+    name: 'Fake "Easy Income" Video-Rating Job Scam with VIP Deposit Trap',
+    slug: 'czech-republic-video-rating-job-vip-deposit-scam',
+    description: `The Police of the Czech Republic documented a scheme, in a warning published June 26, 2024, that advertises easy part-time work rating videos: rate five videos for 125 Czech crowns, with promises of earning 3,000 to 5,000 crowns a day, contact routed through WhatsApp or Telegram links. After a small real payout builds trust, victims are pushed into a "VIP zone" that requires cash deposits to unlock supposedly bigger payouts, structured to look withdrawable at any time. In the case police cited, a 48-year-old woman from Jičín received 700 crowns after rating videos, then deposited 315,000 crowns across four transactions before the organizers demanded another 200,000 crowns and offered an 80,000-crown "loan" — at which point she grew suspicious and reported it; the case is being investigated as fraud carrying up to five years' imprisonment. Anyone offered an "easy income" job that later asks them to deposit their own money to unlock earnings should treat that request itself as proof the job was never real.`,
+    categorySlug: 'job-task-scams',
+    alertLevel: 'high',
+    sources: ['Police of the Czech Republic (Policie ČR)'],
+    sourceUrl: 'https://archiv.policie.gov.cz/clanek/novy-internetovy-podvod-laka-na-snadny-vydelek.aspx',
+    country: 'CZ',
+    isHistorical: false,
+    firstRecorded: '2024-06-26',
+  },
 );
 
 International.push(
@@ -19672,6 +19696,30 @@ International.push(
     country: 'GE',
     firstRecorded: '2023-05-10',
   },
+  {
+    name: 'Batumi Fake Property-Collateral Loan Fraud Ring',
+    slug: 'georgia-country-batumi-property-collateral-loan-fraud',
+    description: `In September 2025, Adjara police and Batumi city police arrested four members of an organized group accused of defrauding 16 victims out of a combined 461,306 Georgian lari, about $170,000. The group targeted people looking to secure loans, convincing them the group held the right to mortgage specific real estate and could temporarily transfer its use to the victim as collateral; after building trust and collecting payment, the suspects kept the money, and the underlying property rights turned out to be fraudulent. Prosecutors charged the four with large-scale fraud committed by an organized group, which carries up to 10 years in prison. Anyone offered "borrowed" collateral from a property they don't actually own should independently verify the property's registered owner through Georgia's public property registry before handing over any money.`,
+    categorySlug: 'mortgage-foreclosure-scams',
+    alertLevel: 'medium',
+    sources: ['Adjara Police', 'DFWatch (Democracy & Freedom Watch)'],
+    sourceUrl: 'https://dfwatch.net/police-in-georgia-bust-property-fraud-ring-in-batumi-64059/',
+    country: 'GE',
+    isHistorical: false,
+    firstRecorded: '2025-09-01',
+  },
+  {
+    name: 'National Bank of Georgia Phone Impersonation Card-Number Vishing Scam',
+    slug: 'georgia-country-nbg-phone-vishing-card-scam',
+    description: `On October 20, 2021, the National Bank of Georgia issued a public warning after receiving multiple same-day reports that unidentified callers were contacting citizens by phone claiming to represent the central bank, asking about recent card transactions, and in some cases asking victims to read out their full card number. The bank stated plainly that it "does not request client card data" over the phone and urged the public to verify any such call's legitimacy independently before sharing information, directing concerned citizens to its consumer hotline. The scam is a straightforward voice-phishing pattern distinct from the bank's other impersonation warnings (fake lotteries and messaging-app loan offers): a live caller asking a victim to simply read a card number aloud, with no fake website or link involved at all.`,
+    categorySlug: 'phishing',
+    alertLevel: 'medium',
+    sources: ['National Bank of Georgia (NBG)'],
+    sourceUrl: 'https://nbg.gov.ge/en/media/news/national-bank-of-georgia-issues-security-advise-for-clients',
+    country: 'GE',
+    isHistorical: false,
+    firstRecorded: '2021-10-20',
+  },
 );
 
 International.push(
@@ -20534,6 +20582,30 @@ International.push(
     country: 'HU',
     firstRecorded: '2026-02-25',
   },
+  {
+    name: 'Fake "Kazakh Bride" Dating-App Romance Scam',
+    slug: 'hungary-kazakh-dating-romance-scam',
+    description:
+      'Hungary\'s national police (Rendőrség), through its Matrix crime-prevention project, warned of a recurring romance-scam pattern using fake dating-app profiles posing as attractive women from Kazakhstan seeking to relocate to Hungary, built with photos and falsified documents taken from real people. In one case police documented, a 57-year-old man from Pápa carried on a months-long online relationship with such a profile; once trust was established, the "match" said she lacked money for a plane ticket and visa processing, and the victim wired escalating sums — ultimately more than 2 million forints — before realizing he had been defrauded. Regional media separately reported a related local case in which a man was blackmailed with a manipulated intimate photo after sending it to an online dating contact. Police advise never transferring money or intimate images to an online-only contact, and preserving all chat logs as evidence if victimized.',
+    categorySlug: 'romance-scams',
+    alertLevel: 'medium',
+    sources: ['Hungarian Police (police.hu) — Matrix project'],
+    sourceUrl: 'https://www.police.hu/hu/hirek-es-informaciok/legfrissebb-hireink/matrix-projekt/ujra-tamadnak-a-romantikus-csalok',
+    country: 'HU',
+    isHistorical: false,
+  },
+  {
+    name: 'SHEIN-Branded "Product Review" Task Scam SMS Wave',
+    slug: 'hungary-shein-task-scam-sms',
+    description:
+      'Hungary\'s National Consumer Protection Authority warned of unsolicited SMS messages impersonating the retailer SHEIN and offering "easy online work" such as writing product reviews for pay. The scheme pays out small amounts on the first few completed tasks to build trust, then shifts to demanding upfront payments — described to victims as fees, timing penalties, or "level advancement" costs — before supposedly higher-paying tasks unlock or a withdrawal is released. The authority states the promised final payout never actually arrives and the advance payments are simply lost, and advises consumers not to reply to such messages, share personal data, or trust any "too easy" income offer.',
+    categorySlug: 'job-task-scams',
+    alertLevel: 'medium',
+    sources: ['Nemzeti Kereskedelmi és Fogyasztóvédelmi Hatóság (National Consumer Protection Authority)'],
+    sourceUrl: 'https://nkfh.gov.hu/hirek/uj-online-csalasi-modszer-munkat-igero-sms-ekre-figyelmeztetuenk',
+    country: 'HU',
+    isHistorical: false,
+  },
 );
 
 International.push(
@@ -20697,6 +20769,44 @@ International.push(
     country: 'ZW',
   },
   {
+    name: 'Fake Residential Stands "Land Baron" Fraud',
+    slug: 'zimbabwe-fake-residential-stands-land-baron-scam',
+    description:
+      'In June 2026, Gertrude Bariri appeared before a Harare magistrate accused, with co-suspect Revino Gwanzura, of running a bogus residential-stand allocation scheme between January 2024 and August 2025. Operating through a company called "Fanyakazi" while falsely trading on the name of a real housing firm, Enhanced Mortgaging and Housing (Private) Limited — whose actual director only discovered the fraud in March 2025 upon returning from illness — Bariri allegedly advertised non-existent stands and collected US$250 "allocation fees" from roughly 250 victims, totaling about US$250,000. Land fraud of this kind — forged title deeds, stands sold on land never approved for residential development, or the same plot sold to multiple buyers — is a well-documented, recurring problem targeting Zimbabwean home-seekers and diaspora buyers, and anyone approached about a residential stand should independently verify both the seller\'s identity and the land\'s actual zoning status with the relevant local authority before paying any fee.',
+    categorySlug: 'rental-housing',
+    alertLevel: 'medium',
+    sources: ['Newsday Zimbabwe'],
+    sourceUrl: 'https://www.zimbabwesituation.com/news/suspected-land-baron-in-us250k-scam/',
+    country: 'ZW',
+    isHistorical: false,
+    firstRecorded: '2024-01-01',
+  },
+  {
+    name: 'Fraudulent ZESA Prepaid Electricity Token Scheme',
+    slug: 'zimbabwe-zesa-fraudulent-token-scheme',
+    description:
+      'Zimbabwean police arrested Darlington Chiputura, an employee at ZESA Holdings\' Harare headquarters, and Joseph Wagusiwa of Kadoma, for a scheme in which Chiputura used his position to manipulate ZESA\'s prepaid-token generation system and produce electricity tokens outside the official, paid channel; Wagusiwa then sold these fraudulently generated tokens to members of the public, undercutting the utility\'s legitimate revenue. Wagusiwa was arrested in Kadoma after police set a trap, recovering a fraudulent token as evidence. Because the tokens function like real ones on a customer\'s meter, buyers had no easy way to know theirs came from an unauthorized backdoor rather than ZESA\'s official vending system — a pattern regulators and the utility have flagged repeatedly as informal "cheap token" sellers on social media undercut official prices. Anyone offered discounted prepaid electricity tokens outside ZESA\'s official vending points or app should treat the offer as likely fraudulent, since a legitimate token can only come from the utility\'s own authorized channels.',
+    categorySlug: 'utility-scams',
+    alertLevel: 'medium',
+    sources: ['Nehanda Radio'],
+    sourceUrl: 'https://nehandaradio.com/2021/02/07/fraudsters-generate-zesa-tokens/',
+    country: 'ZW',
+    isHistorical: false,
+  },
+  {
+    name: 'Fake "BeForward" Vehicle Import Agent Scam',
+    slug: 'zimbabwe-fake-beforward-vehicle-import-agent-scam',
+    description:
+      'Evans Dingilizwe Mbasopi ran a Harare operation, Siyaya Trading, out of Joina City that falsely held itself out as an authorized local partner of Be Forward, the real Japan-based used-vehicle export platform widely used by Zimbabweans to import cars. Between January and February 2023, Mbasopi took orders and payment from 17 buyers — promising delivery within eight weeks — collecting roughly US$100,000 total; he forwarded only part of the funds toward actual vehicle purchases in Japan and diverted the rest, leaving buyers without their vehicles or refunds. Zimbabwe Republic Police publicly appealed for information leading to Mbasopi\'s arrest after he went into hiding, and he remained at large as of the report. Anyone using a local "agent" to import a vehicle through an overseas platform like Be Forward should verify that agent\'s authorization directly with the platform itself, rather than trusting a storefront or business name alone, before wiring the full purchase price.',
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'medium',
+    sources: ['Zimbabwe Republic Police', 'ZimLive'],
+    sourceUrl: 'https://www.zimlive.com/police-hunt-fake-be-forward-agent-after-17-car-buyers-swindled-us100k/',
+    country: 'ZW',
+    isHistorical: false,
+    firstRecorded: '2023-01-01',
+  },
+  {
     name: 'Fake UNICEF South Sudan Job Recruitment Scam',
     slug: 'fake-unicef-jobs-south-sudan',
     description:
@@ -20750,168 +20860,6 @@ International.push(
     sources: ['Comores Infos', 'SONELEC (Société Nationale d\'Électricité)'],
     sourceUrl: 'https://www.comoresinfos.net/escroquerie-a-grande-echelle-la-sonelec-alerte-sur-les-agissements-dibrahim-abdallah-le-faussaire-de-confiance/',
     country: 'KM',
-  },
-  {
-    name: 'Fake "Absentee Landlord Abroad" Rental Deposit Scam',
-    slug: 'czech-republic-absentee-landlord-rental-deposit-scam',
-    description: `The Police of the Czech Republic warn of a nationwide pattern in which fraudsters post real apartment-rental photos, lifted from other listings, under a fake ad, then pose as an owner who "inherited the flat" and now works or lives abroad, communicating with prospective tenants in broken English. Victims are told to wire two months' rent in advance via a money-transfer service to a foreign account before ever viewing the unit, on the promise that keys will be couriered within two days along with a money-back guarantee if anything is wrong — once the payment is sent, the "landlord" goes silent. Police cite a Zlín regional cluster of six such reports with individual losses of roughly 9,000 to 15,000 Czech crowns, and advise checking the Land Registry (katastr nemovitostí) for the true owner of a property before paying anything toward it.`,
-    categorySlug: 'rental-housing',
-    alertLevel: 'medium',
-    sources: ['Police of the Czech Republic (Policie ČR)'],
-    sourceUrl: 'https://archiv.policie.gov.cz/clanek/varovani-pred-podvodnymi-pronajmy-bytu.aspx',
-    country: 'CZ',
-    isHistorical: false,
-  },
-  {
-    name: 'Metropolitní Spořitelní Družstvo Savings-Cooperative Embezzlement Collapse',
-    slug: 'czech-republic-msd-savings-cooperative-collapse',
-    description: `Metropolitní spořitelní družstvo (MSD) was the Czech Republic's largest cooperative credit union, holding roughly 12 to 13.4 billion Czech crowns from about 14,000 depositors who believed their savings were safely deposited at above-market interest rates. Starting around 2010, board members funneled loans worth hundreds of millions of crowns to unverified shell ventures and diverted at least 1.25 billion crowns to anonymous Hong Kong companies rather than genuine borrowers. The Czech National Bank revoked MSD's license on December 18, 2013 for systemic risk-management failures, the cooperative was declared bankrupt days later, 17 to 20 people including three board members were criminally charged, and the country's Deposit Insurance Fund ultimately paid out several billion crowns in depositor compensation — one of the largest consumer-facing financial frauds in modern Czech history, and a reminder that a "cooperative" structure paying above-market interest is not itself a guarantee of safety without independent verification of who actually controls the money.`,
-    categorySlug: 'investment-fraud',
-    alertLevel: 'high',
-    sources: ['Czech National Bank (ČNB)'],
-    sourceUrl: 'https://www.cnb.cz/cs/casto-kladene-dotazy/Metropolitni-sporitelni-druzstvo-otazky-a-odpovedi/',
-    country: 'CZ',
-    isHistorical: true,
-    firstRecorded: '2013-12-18',
-  },
-  {
-    name: 'Fake "Easy Income" Video-Rating Job Scam with VIP Deposit Trap',
-    slug: 'czech-republic-video-rating-job-vip-deposit-scam',
-    description: `The Police of the Czech Republic documented a scheme, in a warning published June 26, 2024, that advertises easy part-time work rating videos: rate five videos for 125 Czech crowns, with promises of earning 3,000 to 5,000 crowns a day, contact routed through WhatsApp or Telegram links. After a small real payout builds trust, victims are pushed into a "VIP zone" that requires cash deposits to unlock supposedly bigger payouts, structured to look withdrawable at any time. In the case police cited, a 48-year-old woman from Jičín received 700 crowns after rating videos, then deposited 315,000 crowns across four transactions before the organizers demanded another 200,000 crowns and offered an 80,000-crown "loan" — at which point she grew suspicious and reported it; the case is being investigated as fraud carrying up to five years' imprisonment. Anyone offered an "easy income" job that later asks them to deposit their own money to unlock earnings should treat that request itself as proof the job was never real.`,
-    categorySlug: 'job-task-scams',
-    alertLevel: 'high',
-    sources: ['Police of the Czech Republic (Policie ČR)'],
-    sourceUrl: 'https://archiv.policie.gov.cz/clanek/novy-internetovy-podvod-laka-na-snadny-vydelek.aspx',
-    country: 'CZ',
-    isHistorical: false,
-    firstRecorded: '2024-06-26',
-  },
-  {
-    name: 'Fake "Kazakh Bride" Dating-App Romance Scam',
-    slug: 'hungary-kazakh-dating-romance-scam',
-    description:
-      'Hungary\'s national police (Rendőrség), through its Matrix crime-prevention project, warned of a recurring romance-scam pattern using fake dating-app profiles posing as attractive women from Kazakhstan seeking to relocate to Hungary, built with photos and falsified documents taken from real people. In one case police documented, a 57-year-old man from Pápa carried on a months-long online relationship with such a profile; once trust was established, the "match" said she lacked money for a plane ticket and visa processing, and the victim wired escalating sums — ultimately more than 2 million forints — before realizing he had been defrauded. Regional media separately reported a related local case in which a man was blackmailed with a manipulated intimate photo after sending it to an online dating contact. Police advise never transferring money or intimate images to an online-only contact, and preserving all chat logs as evidence if victimized.',
-    categorySlug: 'romance-scams',
-    alertLevel: 'medium',
-    sources: ['Hungarian Police (police.hu) — Matrix project'],
-    sourceUrl: 'https://www.police.hu/hu/hirek-es-informaciok/legfrissebb-hireink/matrix-projekt/ujra-tamadnak-a-romantikus-csalok',
-    country: 'HU',
-    isHistorical: false,
-  },
-  {
-    name: 'SHEIN-Branded "Product Review" Task Scam SMS Wave',
-    slug: 'hungary-shein-task-scam-sms',
-    description:
-      'Hungary\'s National Consumer Protection Authority warned of unsolicited SMS messages impersonating the retailer SHEIN and offering "easy online work" such as writing product reviews for pay. The scheme pays out small amounts on the first few completed tasks to build trust, then shifts to demanding upfront payments — described to victims as fees, timing penalties, or "level advancement" costs — before supposedly higher-paying tasks unlock or a withdrawal is released. The authority states the promised final payout never actually arrives and the advance payments are simply lost, and advises consumers not to reply to such messages, share personal data, or trust any "too easy" income offer.',
-    categorySlug: 'job-task-scams',
-    alertLevel: 'medium',
-    sources: ['Nemzeti Kereskedelmi és Fogyasztóvédelmi Hatóság (National Consumer Protection Authority)'],
-    sourceUrl: 'https://nkfh.gov.hu/hirek/uj-online-csalasi-modszer-munkat-igero-sms-ekre-figyelmeztetuenk',
-    country: 'HU',
-    isHistorical: false,
-  },
-  {
-    name: 'Batumi Fake Property-Collateral Loan Fraud Ring',
-    slug: 'georgia-country-batumi-property-collateral-loan-fraud',
-    description: `In September 2025, Adjara police and Batumi city police arrested four members of an organized group accused of defrauding 16 victims out of a combined 461,306 Georgian lari, about $170,000. The group targeted people looking to secure loans, convincing them the group held the right to mortgage specific real estate and could temporarily transfer its use to the victim as collateral; after building trust and collecting payment, the suspects kept the money, and the underlying property rights turned out to be fraudulent. Prosecutors charged the four with large-scale fraud committed by an organized group, which carries up to 10 years in prison. Anyone offered "borrowed" collateral from a property they don't actually own should independently verify the property's registered owner through Georgia's public property registry before handing over any money.`,
-    categorySlug: 'mortgage-foreclosure-scams',
-    alertLevel: 'medium',
-    sources: ['Adjara Police', 'DFWatch (Democracy & Freedom Watch)'],
-    sourceUrl: 'https://dfwatch.net/police-in-georgia-bust-property-fraud-ring-in-batumi-64059/',
-    country: 'GE',
-    isHistorical: false,
-    firstRecorded: '2025-09-01',
-  },
-  {
-    name: 'National Bank of Georgia Phone Impersonation Card-Number Vishing Scam',
-    slug: 'georgia-country-nbg-phone-vishing-card-scam',
-    description: `On October 20, 2021, the National Bank of Georgia issued a public warning after receiving multiple same-day reports that unidentified callers were contacting citizens by phone claiming to represent the central bank, asking about recent card transactions, and in some cases asking victims to read out their full card number. The bank stated plainly that it "does not request client card data" over the phone and urged the public to verify any such call's legitimacy independently before sharing information, directing concerned citizens to its consumer hotline. The scam is a straightforward voice-phishing pattern distinct from the bank's other impersonation warnings (fake lotteries and messaging-app loan offers): a live caller asking a victim to simply read a card number aloud, with no fake website or link involved at all.`,
-    categorySlug: 'phishing',
-    alertLevel: 'medium',
-    sources: ['National Bank of Georgia (NBG)'],
-    sourceUrl: 'https://nbg.gov.ge/en/media/news/national-bank-of-georgia-issues-security-advise-for-clients',
-    country: 'GE',
-    isHistorical: false,
-    firstRecorded: '2021-10-20',
-  },
-  {
-    name: 'Fake Residential Stands "Land Baron" Fraud',
-    slug: 'zimbabwe-fake-residential-stands-land-baron-scam',
-    description:
-      'In June 2026, Gertrude Bariri appeared before a Harare magistrate accused, with co-suspect Revino Gwanzura, of running a bogus residential-stand allocation scheme between January 2024 and August 2025. Operating through a company called "Fanyakazi" while falsely trading on the name of a real housing firm, Enhanced Mortgaging and Housing (Private) Limited — whose actual director only discovered the fraud in March 2025 upon returning from illness — Bariri allegedly advertised non-existent stands and collected US$250 "allocation fees" from roughly 250 victims, totaling about US$250,000. Land fraud of this kind — forged title deeds, stands sold on land never approved for residential development, or the same plot sold to multiple buyers — is a well-documented, recurring problem targeting Zimbabwean home-seekers and diaspora buyers, and anyone approached about a residential stand should independently verify both the seller\'s identity and the land\'s actual zoning status with the relevant local authority before paying any fee.',
-    categorySlug: 'rental-housing',
-    alertLevel: 'medium',
-    sources: ['Newsday Zimbabwe'],
-    sourceUrl: 'https://www.zimbabwesituation.com/news/suspected-land-baron-in-us250k-scam/',
-    country: 'ZW',
-    isHistorical: false,
-    firstRecorded: '2024-01-01',
-  },
-  {
-    name: 'Fraudulent ZESA Prepaid Electricity Token Scheme',
-    slug: 'zimbabwe-zesa-fraudulent-token-scheme',
-    description:
-      'Zimbabwean police arrested Darlington Chiputura, an employee at ZESA Holdings\' Harare headquarters, and Joseph Wagusiwa of Kadoma, for a scheme in which Chiputura used his position to manipulate ZESA\'s prepaid-token generation system and produce electricity tokens outside the official, paid channel; Wagusiwa then sold these fraudulently generated tokens to members of the public, undercutting the utility\'s legitimate revenue. Wagusiwa was arrested in Kadoma after police set a trap, recovering a fraudulent token as evidence. Because the tokens function like real ones on a customer\'s meter, buyers had no easy way to know theirs came from an unauthorized backdoor rather than ZESA\'s official vending system — a pattern regulators and the utility have flagged repeatedly as informal "cheap token" sellers on social media undercut official prices. Anyone offered discounted prepaid electricity tokens outside ZESA\'s official vending points or app should treat the offer as likely fraudulent, since a legitimate token can only come from the utility\'s own authorized channels.',
-    categorySlug: 'utility-scams',
-    alertLevel: 'medium',
-    sources: ['Nehanda Radio'],
-    sourceUrl: 'https://nehandaradio.com/2021/02/07/fraudsters-generate-zesa-tokens/',
-    country: 'ZW',
-    isHistorical: false,
-  },
-  {
-    name: 'Fake "BeForward" Vehicle Import Agent Scam',
-    slug: 'zimbabwe-fake-beforward-vehicle-import-agent-scam',
-    description:
-      'Evans Dingilizwe Mbasopi ran a Harare operation, Siyaya Trading, out of Joina City that falsely held itself out as an authorized local partner of Be Forward, the real Japan-based used-vehicle export platform widely used by Zimbabweans to import cars. Between January and February 2023, Mbasopi took orders and payment from 17 buyers — promising delivery within eight weeks — collecting roughly US$100,000 total; he forwarded only part of the funds toward actual vehicle purchases in Japan and diverted the rest, leaving buyers without their vehicles or refunds. Zimbabwe Republic Police publicly appealed for information leading to Mbasopi\'s arrest after he went into hiding, and he remained at large as of the report. Anyone using a local "agent" to import a vehicle through an overseas platform like Be Forward should verify that agent\'s authorization directly with the platform itself, rather than trusting a storefront or business name alone, before wiring the full purchase price.',
-    categorySlug: 'online-shopping-scams',
-    alertLevel: 'medium',
-    sources: ['Zimbabwe Republic Police', 'ZimLive'],
-    sourceUrl: 'https://www.zimlive.com/police-hunt-fake-be-forward-agent-after-17-car-buyers-swindled-us100k/',
-    country: 'ZW',
-    isHistorical: false,
-    firstRecorded: '2023-01-01',
-  },
-  {
-    name: "AI-Generated Fake Transfer Receipt Scam (Wave Money)",
-    slug: "myanmar-wave-money-ai-fake-transfer-receipt-scam",
-    description:
-      "Wave Money, one of Myanmar's largest mobile-money operators, warned that fraudsters are using AI image-generation tools to forge convincing money-transfer receipts and payment screenshots, showing these to sellers and payees as false proof a payment has already gone through in order to obtain goods, services, or refunds without ever actually sending money. Wave Money said the most effective way to avoid falling for a fake transfer is to check the real transaction history and account balance directly in the Wave Money app rather than trusting a screenshot handed over by the other party, and noted that some AI-generated fakes carry a visible watermark or logo that scammers crop out specifically to evade detection. Eleven Media Group, which reported the warning, cited the Bangkok Post's own reporting that the same AI-forged-receipt technique has surfaced among fraud networks operating along the Thai-Myanmar border, suggesting the tactic is spreading beyond a single country's mobile-money platform. The scam is distinct from Myanmar's existing bank-employee-impersonation phishing pattern, since it targets the seller or payee side of a transaction rather than the account holder, and requires no stolen credentials at all — just a convincing enough fake image to get goods released before the missing payment is discovered.",
-    categorySlug: "fake-check-overpayment",
-    alertLevel: "medium",
-    sources: ["Eleven Media Group","Wave Money"],
-    sourceUrl: "https://elevenmyanmar.com/news/wave-money-warns-users-of-ai-generated-fake-transfer-receipts",
-    country: "MM",
-  },
-  {
-    name: 'Central Bank of The Bahamas Deepfake Investment Impersonation Alert',
-    slug: 'bahamas-central-bank-deepfake-investment-scam',
-    description: `On October 2, 2025, the Central Bank of The Bahamas issued a public alert warning that scammers are using deepfake technology — fabricated videos, audio recordings, and images — to impersonate the Central Bank, other financial institutions, and well-known individuals, presenting the fakes as legitimate announcements, investment opportunities, or urgent appeals. The manipulated content is spread through social media and unverified platforms and is used to direct victims to fraudulent sites or requests for personal information, payments, or fund transfers. The Bank stated that official notices are issued only through its verified website and official communication channels, that it does not solicit funds, investments, or personal details by phone, social media, or unverified online platforms, and that its only direct investment products are Bahamas Registered Stock, Bahamas Savings Bonds, and Treasury Bills obtained through official channels. The public was urged to verify the authenticity of any such message or video before taking action and to report suspicious content to the Royal Bahamas Police Force and the relevant social media platform.`,
-    categorySlug: 'ai-deepfake-scams',
-    alertLevel: 'high',
-    sources: ['Central Bank of The Bahamas'],
-    sourceUrl: 'https://www.centralbankbahamas.com/news/scams-and-frauds/public-notice-scam-alert-deepfake-investment-opportunity',
-    country: 'BS',
-  },
-  {
-    name: 'Fake Central Bank of The Bahamas Job Advertisement Scam',
-    slug: 'bahamas-central-bank-fake-job-advertisement-scam',
-    description: `On August 6, 2025, the Central Bank of The Bahamas issued a public notice warning that a fraudulent job advertisement claiming to offer employment with the Bank was circulating on social media and messaging apps. The Bank stated directly that it "is not currently advertising for the position(s) mentioned in the fake advertisement" and said it was working with relevant authorities on the matter. It advised anyone who saw the posting not to engage with it or share personal information, and to verify any genuine Central Bank job listing only through its official website or its verified LinkedIn, Instagram, and Facebook accounts.`,
-    categorySlug: 'employment-scams',
-    alertLevel: 'medium',
-    sources: ['Central Bank of The Bahamas'],
-    sourceUrl: 'https://www.centralbankbahamas.com/news/scams-and-frauds/public-notice-scam-alert-fake-job-advertisement',
-    country: 'BS',
-  },
-  {
-    name: '"Money Makers Club" Unlicensed Crypto Trading-Signal Scheme',
-    slug: 'bahamas-money-makers-club-crypto-pyramid-scheme',
-    description: `In Public Notice No. 5 of 2026 (19 February 2026), the Securities Commission of The Bahamas warned that Money Makers Club — previously flagged under its earlier name, Incomemaxx Financial Enrollment Investment, in Public Notice No. 3 of 2025 — is active on Instagram, Facebook, and Telegram, and now runs its own website fronted by a self-described "Trading Advisor" using the name Marquita Thomas. It solicits a minimum $150 cryptocurrency deposit in return for a promised $1,500 withdrawal per deposit, and separately sells two $250-a-month packages — a "Gold Queen Scanner" and a "Community Unlimited Plan" — offering gold (XAUUSD) trading alerts and live trading sessions. The Commission confirmed that neither the entity nor its agents are registered or licensed under the Securities Industry Act 2024, the Investment Funds Act 2019, the Financial and Corporate Service Providers Act 2020, or the Digital Assets and Registered Exchanges Act 2024, and said its activity has the hallmarks of an unlawful "Financial Scheme" — a category that includes Ponzi and pyramid schemes and carries risk of both financial loss and criminal prosecution. The Commission urged the public to check any investment offer against its online registrant-licensee search before sending money.`,
-    categorySlug: 'ponzi-pyramid-schemes',
-    alertLevel: 'high',
-    sources: ['Securities Commission of The Bahamas'],
-    sourceUrl: 'https://scb.gov.bs/wp-content/uploads/2026/02/Public-Notice-5-of-2026-Money-Makers-Club-final.pdf',
-    country: 'BS',
   },
 );
 
@@ -20985,6 +20933,28 @@ International.push({
 });
 
 International.push({
+  name: 'Jamaican Romance Scam Combined with Fake Lottery Winnings Targeting an Elderly Arizona Widow',
+  slug: 'jamaica-romance-lottery-scheme-arizona-widow',
+  description: `Between December 2015 and January 2019, Jamaican national Sherwayne Benjamin Bellinfantie ("Ice Man") and co-conspirators deceived an 85-year-old Vail, Arizona resident into believing she was in a romantic relationship, before falsely telling her she had won a lottery prize and a vehicle and pressuring her to send money to cover supposed taxes and processing fees. The victim lost more than $400,000. A federal grand jury in Tucson indicted Bellinfantie in March 2022 on charges of conspiracy to commit wire fraud and conspiracy to commit money laundering, and he was arrested in Jamaica on a U.S. extradition warrant on July 3, 2023. This differs from other lottery-fraud patterns by combining a sustained romantic-manipulation hook with the fee-based lottery scheme rather than relying on the prize claim alone — a reminder that a real romantic partner will never ask for money to "release" a prize you supposedly won together.`,
+  categorySlug: 'romance-scams',
+  alertLevel: 'high',
+  sources: ['Arizona Daily Independent'],
+  sourceUrl: 'https://arizonadailyindependent.com/2025/06/23/jamaican-extradited-for-role-in-romance-scheme-targeting-elderly-arizonan/',
+  country: 'JM',
+});
+
+International.push({
+  name: 'Unlicensed Overseas Employment Agency Defrauds Jamaican Job Seekers',
+  slug: 'jamaica-fake-overseas-employment-agency-scam',
+  description: `Between August and October 2025, Horace Haughton (52, operating under the aliases "Dr. Perez" and "Dr. Maddison") and associate Sharlene Edwards ran an employment agency that was not licensed to operate in Jamaica, recruiting more than 200 applicants and collecting fees totaling more than JM$7 million under the promise of securing overseas jobs that never materialized. The Jamaica Constabulary Force's Fraud Squad arrested Edwards in November 2025 and, using the "Jamaica Eye" camera network, arrested Haughton on January 6, 2026. Haughton was charged with conspiracy to defraud, engaging in transactions involving criminal property, two counts of receiving stolen property, obtaining money by false pretence, operating an employment agency without a license, and unlawfully making available a device or data for the commission of an offence. Unlike scams that target victims abroad, this scheme defrauded Jamaican residents domestically seeking legitimate overseas work — a reminder to verify any employment agency's license before paying a recruitment fee.`,
+  categorySlug: 'employment-scams',
+  alertLevel: 'medium',
+  sources: ['Jamaica Constabulary Force'],
+  sourceUrl: 'https://jcf.gov.jm/man-wanted-for-multimillion-dollar-overseas-employment-scam-arrested-with-the-aid-of-jamaica-eye/',
+  country: 'JM',
+});
+
+International.push({
   name: 'AI Deepfake Investment Scheme Using Fabricated Prime Minister Endorsements (Stable Rowdex)',
   slug: 'tt-ai-deepfake-investment-scheme-stable-rowdex',
   description: `The Trinidad and Tobago Securities and Exchange Commission (TTSEC) issued a public advisory on March 5, 2026 warning that a fraudulent online investment operation running under the aliases Stable Rowdex, Stable Capital, and Futurix Capital was soliciting Trinidad and Tobago residents into an "AI-related" investment opportunity. To manufacture credibility, the operators circulated AI-generated videos, fabricated newspaper articles, and doctored images purporting to show endorsements from the Prime Minister of Trinidad and Tobago and other prominent local figures, including economist Dr. Ronald Ramkissoon and Mr. Wendell Mottley. TTSEC confirmed none of the entities are registered to conduct securities business in Trinidad and Tobago and warned the public that fabricated "proof" of high-profile backing is an evolving tactic being used to make bogus platforms look legitimate before they solicit deposits. The Commission urged consumers to check its investor register before sending any money and never to trust a video or image "endorsement" of an investment scheme at face value, since a real public figure's genuine backing of a specific investment platform is something that can be verified directly with that person or their office, not something that should be taken on faith from a shared video alone.`,
@@ -21017,6 +20987,39 @@ International.push({
   country: 'TT',
   isHistorical: true,
   firstRecorded: '2018-12-01',
+});
+
+International.push({
+  name: 'Fraudulent "Financial Analyst Supervisor" ID Cards Impersonating Central Bank, FIUTT, and Police Fraud Unit',
+  slug: 'tt-fake-financial-analyst-supervisor-id-card-scam',
+  description: `The Financial Intelligence Unit of Trinidad and Tobago (FIUTT) issued a public warning, reported by the Trinidad Express on June 8, 2026, after individuals were found presenting fraudulent identification cards bearing the logos of the Central Bank of Trinidad and Tobago (CBTT), the FIUTT, and the Financial Investigations Branch (FIB) of the Trinidad and Tobago Police Service. The fake cards falsely identify their holders as "Financial Analyst Supervisors" representing all three agencies, lending an appearance of official authority to whatever business, inquiry, or request the bearer then makes. The FIUTT stated plainly that "neither the FIUTT, the CBTT nor the FIB issues identification cards of this nature," stressed that none of the three agencies charges fees or requests payments from individuals or businesses as part of their operations, and warned that anyone holding such a card has no authority to conduct business or represent any of the named agencies. The public was urged to verify any claimed FIUTT, CBTT, or FIB affiliation directly through those agencies' official channels before engaging, and to report sightings of the cards or interactions with people using them to the police, the FIUTT, or the Central Bank.`,
+  categorySlug: 'government-impersonation',
+  alertLevel: 'medium',
+  sources: ['Financial Intelligence Unit of Trinidad and Tobago (FIUTT)', 'Trinidad Express'],
+  sourceUrl: 'https://trinidadexpress.com/news/local/fraudsters-posing-as-financial-investigators-says-fiutt/article_668547a1-8623-45b7-844f-ff0585f46786.html',
+  country: 'TT',
+});
+
+International.push({
+  name: 'Fraudulent-Cheque Scheme Targeting High-Value Business Purchases',
+  slug: 'tt-fraudulent-cheque-high-value-purchase-scam',
+  description: `The Trinidad and Tobago Police Service (TTPS) Fraud Squad issued a public advisory on July 24, 2026, reported by TTT News, warning businesses, retailers, and service providers about a scheme using counterfeit, altered, forged, or stolen cheques to obtain high-value goods and services. Fraudsters typically call or WhatsApp a business requesting a quotation for a large order, then present a fraudulent cheque — or even just a screenshot claiming payment has cleared — while pressuring staff to release the goods or services immediately by citing an emergency or tight deadline, often arranging third-party pickup before the cheque is discovered to be worthless. The Fraud Squad flagged warning signs including orders placed through informal channels, a customer who insists on taking possession before the cheque clears, a cheque that looks altered or damaged, a name mismatch between the cheque and the ID presented, and orders timed for a Friday afternoon or the days before a public holiday when bank clearance is delayed. A separate TTPS Fraud Squad report covering January–July 2026 tied the sharp rise in fraud losses — over TT$167 million despite a 32.7% drop in the number of reports — in part to this increase in fraudulent-cheque cases, and police advised businesses plainly to "never release goods or provide services until a cheque has fully cleared and funds have been confirmed."`,
+  categorySlug: 'fake-check-overpayment',
+  alertLevel: 'high',
+  sources: ['Trinidad and Tobago Police Service (TTPS) Fraud Squad', 'TTT News'],
+  sourceUrl: 'https://www.ttt.live/ttps-warns-businesses-of-fraudulent-cheque-scheme-targeting-high-value-purchases/',
+  country: 'TT',
+});
+
+International.push({
+  name: '"Forever Wealth Project" Unregistered Online Investment Scheme',
+  slug: 'tt-forever-wealth-project-investment-scam',
+  description: `The Trinidad and Tobago Securities and Exchange Commission (TTSEC) issued a public advisory on March 19, 2026 warning about an unregistered online investment scheme called the Forever Wealth Project, promoted through the TikTok account @foreverwealthproject and a matching Telegram channel. The promoter solicits contributions from the public with promises to trade the funds on contributors' behalf, claiming "unusually high returns in a short period of time" scaled to the size of each contribution. TTSEC noted that the promoter behind @foreverwealthproject "bears a facial profile and appearance similar to an individual previously associated with promoting" Trillions Systems Limited ("Trillions"), an entity already the subject of an earlier TTSEC public advisory — indicating the same operator appears to have resurfaced under a new brand after already being publicly flagged once. The Commission confirmed that neither the Forever Wealth Project nor Trillions Systems is registered under Trinidad and Tobago's Securities Act, said the scheme "may pose significant risk to investors," and urged the public to verify registration status with TTSEC before contributing money to any social-media-promoted trading scheme.`,
+  categorySlug: 'investment-fraud',
+  alertLevel: 'high',
+  sources: ['Trinidad and Tobago Securities and Exchange Commission (TTSEC)'],
+  sourceUrl: 'https://www.ttsec.org.tt/public-advisory-forever-wealth-project/',
+  country: 'TT',
 });
 
 International.push({
@@ -21073,6 +21076,39 @@ International.push({
   alertLevel: 'critical',
   sources: ['Al Jazeera', 'The Diplomat', 'USIP (United States Institute of Peace)'],
   sourceUrl: 'https://www.aljazeera.com/news/longform/2024/7/29/under-siege-in-myanmars-cyber-scam-capital',
+  country: 'MM',
+});
+
+International.push({
+  name: 'Fake Foreign Suitor "Gift Package" Advance-Fee Romance Scam',
+  slug: 'myanmar-fake-foreign-suitor-package-release-scam',
+  description: `A fraudster built a fake Facebook friendship with a Myanmar victim, claiming to be a "Korean American" who had served as a peacekeeper in Syria and had gold bars and US dollars to send as a gift, with delivery supposedly delayed by COVID-19-era restrictions. The victim was told to pay a US$1,250 fee to "release" the package, then was pressured into sending roughly another US$5,000 before contact was cut off. Myanmar police investigating the pattern found 51 such cases nationwide in 2020 alone, arrested a Nigerian national described as leading the operation along with a Myanmar woman accomplice, and seized 57 Myanmar bank accounts that had been bought from low-income account holders specifically to receive victims' payments.`,
+  categorySlug: 'romance-scams',
+  alertLevel: 'high',
+  sources: ["Myanmar Ministry of Information"],
+  sourceUrl: 'https://www.moi.gov.mm/moi:eng/article/17021',
+  country: 'MM',
+});
+
+International.push({
+  name: 'Counterfeit Microfinance and Lending Facebook Page Advance-Fee Scam',
+  slug: 'myanmar-fake-microfinance-lending-facebook-advance-fee-scam',
+  description: `Fraudsters create counterfeit Facebook pages that copy the exact name and logo of real Myanmar microfinance companies, gold and jewelry shops, or banks to advertise loans. Victims who apply are told to make an upfront "registration" payment, then are hit with further demands described as fees for documents and forms, before the operator blocks all contact and disappears with the money — leaving victims with no loan and no way to recover what they paid.`,
+  categorySlug: 'debt-relief-scams',
+  alertLevel: 'medium',
+  sources: ["Myanmar Ministry of Information"],
+  sourceUrl: 'https://www.moi.gov.mm/moi:eng/article/17021',
+  country: 'MM',
+});
+
+International.push({
+  name: 'Fake Online Shop "Too-Good" Discount Advance-Payment Scam',
+  slug: 'myanmar-fake-online-shop-advance-payment-scam',
+  description: `The American Chamber of Commerce in Myanmar, working with the US ICT Council for Myanmar and RICE Communications, warned during Myanmar Cybersecurity Month 2024 about fake Facebook Pages and personal accounts posing as online shops. The pages advertise unrealistically steep discounts or giveaways, often timed to the Thadingyut holiday shopping period, then pressure buyers into transferring payment in advance by falsely claiming stock is limited — buyers who pay never receive the goods. The same fake-shop operators also send phishing links asking victims to log in with real account credentials or submit bank card details under the guise of completing a purchase.`,
+  categorySlug: 'online-shopping-scams',
+  alertLevel: 'medium',
+  sources: ['American Chamber of Commerce in Myanmar (AMCHAM)'],
+  sourceUrl: 'https://amchammyanmar.com/news/online-scam-awareness-mcm2024',
   country: 'MM',
 });
 
@@ -22518,6 +22554,180 @@ International.push({
 });
 
 International.push({
+  name: 'Bhutan Fake Rental Listing Scam',
+  slug: 'bhutan-fake-rental-listing-scam',
+  description: `The Royal Bhutan Police arrested Sonam Dhendup, 38, of Sarpang in April 2025 for running a nationwide fake rental listing scam under multiple aliases, including Sonam Wangchuk, Sonam Dorji, and Sonam Wangdi. Posing as a landlord or property agent on Facebook, he advertised nonexistent or already-unavailable 1BHK and 2BHK apartments using photos and videos of vacant houses, then persuaded renters contacted via Messenger or WhatsApp to wire a security deposit — typically half to two months' rent — as a "booking advance" before ever seeing the unit in person. Thimphu police alone logged 43 such complaints in 2024 totaling Nu 418,400 (only Nu 62,000 recovered), plus 12 more complaints in early 2025 totaling Nu 145,200, with similar reports surfacing in Dagana, Phuentsholing, and Tsirang. Investigators found Dhendup cashed out proceeds through other Bhutanese residents' bank accounts, paying them a commission to receive and forward the money, and police urge renters to never send a deposit before physically verifying a property.`,
+  categorySlug: 'rental-housing',
+  alertLevel: 'medium',
+  sources: ['The Bhutanese', 'Royal Bhutan Police (RBP)'],
+  sourceUrl: 'https://thebhutanese.bt/38-year-old-arrested-for-rental-scam-with-dozens-of-victims-across-dzongkhags/',
+  country: 'BT',
+  firstRecorded: '2025-04-05',
+});
+
+International.push({
+  name: 'Bhutan Fake "TikTok Shop" Task-Based Job Scam',
+  slug: 'bhutan-fake-tiktok-shop-task-job-scam',
+  description: `Bhutan's Competition and Consumer Affairs Authority (CCAA) and the Department of Law and Order investigated an online scam impersonating "TikTok Shop" after victims lost over Nu 600,000 combined. The scheme opens with a part-time job ad on Facebook or Instagram; interested applicants are moved into WhatsApp or Telegram groups, asked for personal details, then given an "invitation code" to register on a fake e-commerce-style dashboard. Participants are told to deposit money to unlock "tasks" — mainly clicking on displayed products — and some were allowed small early withdrawals to build trust before being cut off entirely: CCAA logged individual losses of Nu 28,000 and Nu 50,000, while a separate case referred to the Department of Law and Order involved a loss of more than Nu 550,000. CCAA found no legitimate connection to the real TikTok Shop e-commerce feature and traced victim deposits through multiple Bhutanese bank accounts, which authorities have since frozen.`,
+  categorySlug: 'job-task-scams',
+  alertLevel: 'high',
+  sources: ['Bhutan Broadcasting Service (BBS)', 'Competition and Consumer Affairs Authority (CCAA)'],
+  sourceUrl: 'https://www.bbs.bt/241976/',
+  country: 'BT',
+});
+
+International.push({
+  name: 'Bhutan "Tallwin Life Plan" Ponzi Scheme',
+  slug: 'bhutan-tallwin-life-ponzi-scheme',
+  description: `The Royal Monetary Authority (RMA) of Bhutan first warned the public about the "Tallwin Life Plan" on October 27, 2022, and had to re-notify on November 18, 2022 after Bhutanese kept joining, formally branding it an illegal, unlicensed Ponzi scheme under investigation for money laundering. Spread through WeChat and Telegram groups mainly in rural pockets — Bumthang, Chukha, Paro, Sarpang, Trongsa, Wangdue Phodrang, Trashigang, and Mongar — promoters told recruits to pay a Nu 2,700 entry fee and recruit four more investors, promising a payout of Nu 400,000 within 15 months to those who recruited, versus Nu 120,000 to those who didn't. The RMA's Financial Intelligence Department froze bank accounts belonging to promoters, and group leaders estimated roughly 100,000 Bhutanese had joined at its peak — the classic Ponzi pattern of small early payouts building trust, then nothing once recruitment dried up.`,
+  categorySlug: 'ponzi-pyramid-schemes',
+  alertLevel: 'high',
+  sources: ['Business Bhutan', 'Bhutan Broadcasting Service (BBS)', 'Royal Monetary Authority (RMA) of Bhutan'],
+  sourceUrl: 'https://businessbhutan.bt/tallwin-life-plan-scheme-becoming-rampant/',
+  country: 'BT',
+  firstRecorded: '2022-10-27',
+});
+
+International.push({
+  name: 'Brunei Methanol Company Job Recruitment Impersonation Fraud',
+  slug: 'brunei-methanol-recruitment-impersonation',
+  description: `Brunei Methanol Company Sendirian Berhad (BMC), a real Brunei industrial employer, has had to issue a public notice warning that unauthorized individuals have been impersonating its recruiters over email and WhatsApp, sending fake job offers to jobseekers under the company's name. BMC states plainly that it never requests money transfers at any stage of recruitment — not for processing, immigration documents, insurance, or any other purported fee — and that genuine openings are posted only via registered local newspapers, the Brunei Government's Job Centre, and its own official site and email domain (@brunei-methanol.com). The notice directs anyone contacted by a suspicious "recruiter" to verify against those official channels and report attempts directly to the company.`,
+  categorySlug: 'employment-scams',
+  alertLevel: 'medium',
+  sources: ['Brunei Methanol Company Sendirian Berhad (BMC)'],
+  sourceUrl: 'https://www.brunei-methanol.com/post/public-notice-job-recruitment-fraud',
+  country: 'BN',
+});
+
+International.push({
+  name: 'Brunei Instagram Account Takeover Scam',
+  slug: 'brunei-instagram-account-takeover',
+  description: `Baiduri Bank's consumer online-safety guidance describes a sharp rise, since late 2021, in Instagram account-takeover scams affecting Brunei users: attackers breach an account and immediately change its linked email and password, locking out the real owner. The hijacked account is then used to demand a ransom from the original owner to restore access, resold on the dark web — Baiduri cites Digital Shadows' figure of roughly $45 per hacked Instagram account — or turned into a distribution point for cryptocurrency scam promotions and phishing DM links sent out to the victim's own followers, spreading the fraud through a trusted social graph rather than a stranger's cold outreach. Baiduri's guidance flags younger users, who tend to update passwords less often, as particularly exposed, and recommends a strong, unique password plus two-factor authentication as the core defense.`,
+  categorySlug: 'account-takeover',
+  alertLevel: 'medium',
+  sources: ['Baiduri Bank'],
+  sourceUrl: 'https://www.baiduri.com.bn/personal/learn/online-safety/are-younger-people-more-easily-scammed',
+  country: 'BN',
+});
+
+International.push({
+  name: 'FACC "Fake President" CEO Fraud Against Austrian Aerospace Firm',
+  slug: 'austria-facc-fake-president-ceo-fraud',
+  description: `In January 2016, an employee of FACC AG — an Austrian aerospace-parts manufacturer supplying Boeing and Airbus — wired roughly €50 million (about $56 million), nearly 10% of the company's annual revenue, after receiving emailed instructions that appeared to come from CEO Walter Stephan, whose writing style and email account criminals had studied after breaching the company's systems. The fraud, a classic "fake president"/"CEO fraud" business-email-compromise scheme, traced part of the money to accounts in Slovakia and Asia before the company caught the error; FACC's supervisory board subsequently fired both Stephan, after 17 years in the role, and the CFO who authorized the transfer, and the company posted a €41.9 million net loss for the 2015/16 fiscal year after recovering only €10.9 million. Austrian and Chinese authorities later froze €10.8 million of the stolen funds in China; after nearly nine years of international legal proceedings, that sum was finally returned to FACC in late March 2025, per the company's own press release.`,
+  categorySlug: 'business-email-compromise',
+  alertLevel: 'high',
+  sources: ['FACC AG (company press release)', 'The Local Austria', 'SecurityWeek'],
+  sourceUrl: 'https://www.thelocal.at/20160525/austrian-firm-fires-ceo-after-50-million-cyber-scam',
+  country: 'AT',
+  isHistorical: true,
+  firstRecorded: '2016-01-01',
+});
+
+International.push({
+  name: 'Kufstein Romance Scam — Tyrol Woman Loses Over €350,000',
+  slug: 'austria-kufstein-romance-scam-350000-euro',
+  description: `A 57-year-old woman from the Kufstein district in Tyrol lost more than €350,000 between 2021 and 2025 to romance scammers she met via Facebook dating platforms, who successively posed as a U.S. soldier deployed in Afghanistan and later as an actor from a well-known American crime series — despite years of professed love, the two never met her in person. The fraudsters repeatedly extracted money using fabricated crises (alleged customs problems, alleged imprisonment, family emergencies), and after her own savings and loans ran out, a family member sold their house and property to keep funding the "relationship." The case initially drew police scrutiny of the victim herself: in 2024 she was investigated for suspected money laundering over the suspicious outbound transfers, and after Austria's "Task Force Sozialleistungsbetrug" (Social Benefits Fraud Task Force) found a further €170,000+ in transfers, months of investigation concluded she was a victim of fraud, not a perpetrator.`,
+  categorySlug: 'romance-scams',
+  alertLevel: 'high',
+  sources: ['ORF Tirol', 'VOL.AT', 'Salzburger Nachrichten (SN.at)'],
+  sourceUrl: 'https://tirol.orf.at/stories/3351410/',
+  country: 'AT',
+  isHistorical: false,
+  firstRecorded: '2021-01-01',
+});
+
+International.push({
+  name: 'Fake Vienna Apartment Listings Used to Steal Rental Deposits',
+  slug: 'austria-vienna-fake-rental-listing-deposit-fraud',
+  description: `Watchlist Internet documented a scheme, reported by profil in June 2023, in which fraudsters copy real Airbnb apartment photos and post them as long-term rental listings on Vienna property sites, posing as real-estate agents or landlords based abroad. At in-person or video viewings, victims are pressured into signing on the spot with a fabricated rental contract and asked to wire a deposit plus a "furnishing fee" before receiving keys; once payment lands, the "agent" disappears and the apartment turns out never to have been available for rent. Three documented Vienna victims lost between roughly €3,000 and €8,000 each before Watchlist Internet project lead Thorsten Behrens flagged the pattern publicly, advising renters to independently verify any agency by phone and reverse-image-search listing photos before signing anything.`,
+  categorySlug: 'rental-housing',
+  alertLevel: 'medium',
+  sources: ['Watchlist Internet', 'profil'],
+  sourceUrl: 'https://www.profil.at/wirtschaft/kaution-ueberwiesen-wohnung-weg-neue-betrugsmasche-in-wien/402505038',
+  country: 'AT',
+  isHistorical: false,
+  firstRecorded: '2023-06-01',
+});
+
+International.push({
+  name: 'Bobar Banka Collapse and Insider Loan Fraud',
+  slug: 'bosnia-herzegovina-bobar-banka-collapse',
+  description: `Bobar banka in Bijeljina, Republika Srpska, owned by businessman and RS parliamentarian Gavrilo Bobar, collapsed in 2014 after regulators found roughly 145.7 million KM in deposits — much of it public money from ministries, courts, public enterprises, and the Employment Bureau — had been funneled into uncollateralized loans to companies inside Bobar's own business group. Bobar was shot dead in an unsolved killing weeks before the bank's license was pulled. The Deposit Insurance Agency compensated more than 21,000 depositors up to the insured 50,000 KM threshold, but larger claims, including from public institutions, went into liquidation proceedings with no automatic recovery. In March 2017 prosecutors indicted 16 people, including former Banking Agency of Republika Srpska director Slavica Injac, on organized-crime and abuse-of-office charges tied to 122.5 million KM in alleged damages; by 2023-2024 every defendant had been acquitted or received no punishment, with Injac's acquittal upheld by the RS Supreme Court in May 2024.`,
+  categorySlug: 'investment-fraud',
+  alertLevel: 'high',
+  sources: ['Prijedor24', 'Oslobođenje'],
+  sourceUrl: 'https://prijedor24.com/propast-dvije-banke-vise-od-300-miliona-km-nestalo-depoziti-propali-niko-nije-odgovarao/',
+  country: 'BA',
+  isHistorical: true,
+  firstRecorded: '2014-01-01',
+});
+
+International.push({
+  name: 'Operation Pandora: Bosnia-Based Debt-Collection Fraud Call Centers',
+  slug: 'bosnia-herzegovina-operation-pandora-debt-collection-call-centers',
+  description: `On April 18, 2024, in a raid codenamed "Operation Pandora," German state police (Baden-Württemberg LKA) with Europol and counterparts in Albania, Bosnia and Herzegovina, Kosovo, and Lebanon dismantled 12 fraud call centers and arrested 21 people. Fake debt-collection calls were run predominantly out of Bosnia and Herzegovina, while other participating countries specialized in fake-police, investment, romance, and prepaid-card fraud variants of the same broader network. Investigators recorded more than 1.3 million intercepted conversations and over 28,000 scam calls in a single 48-hour monitoring window, crediting timely intervention with stopping roughly 80% of an estimated €10 million in attempted losses; about €1 million in cash and assets was seized.`,
+  categorySlug: 'legal-debt-collection',
+  alertLevel: 'high',
+  sources: ['Sarajevo Times', 'Europol'],
+  sourceUrl: 'https://sarajevotimes.com/operation-pandora-shuts-down-12-phone-fraud-call-centres/',
+  country: 'BA',
+  isHistorical: true,
+  firstRecorded: '2024-04-18',
+});
+
+International.push({
+  name: 'ShipGRATIS.ba Fake Free-Shipping Webshop Non-Delivery Scam',
+  slug: 'bosnia-herzegovina-shipgratis-fake-webshop-scam',
+  description: `Beginning around 2020, the platform ShipGRATIS.ba marketed itself as a Wish-style marketplace with no shipping fees, requiring advance bank transfer since its suppliers were said to be based in China, Hong Kong, and Singapore. Buyers who paid received automated order confirmations and tracking numbers, but goods never arrived; follow-up messages got only automated replies, and complaints posted to the platform's Facebook page were deleted. Bosnian outlet Akta.ba documented the pattern (with a separate wave of roughly 468 complaints against the same operator's Czech-market site) and identified the domain's Czech parent, Ateli, s.r.o. of Plzeň, and its Bosnian sub-distributor holding the receiving bank account, CEEEC BH d.o.o. of Bijeljina, whose director subsequently denied wrongdoing to the outlet.`,
+  categorySlug: 'online-shopping-scams',
+  alertLevel: 'medium',
+  sources: ['Akta.ba'],
+  sourceUrl: 'https://www.akta.ba/vijesti/bih/119057/kupci-upozoravaju-na-pomolu-nova-prevara-online-kupovine',
+  country: 'BA',
+  isHistorical: false,
+  firstRecorded: '2020-06-09',
+});
+
+International.push({
+  name: 'Barbados Revenue Authority "Pryx" Data Breach',
+  slug: 'barbados-revenue-authority-pryx-data-breach',
+  description: `In late September 2024, a threat actor using the alias "Pryx" breached a Barbados Revenue Authority (BRA) server and began offering roughly 230 gigabytes of stolen government data for sale on a Russian-language hacking forum — full names, passport and national ID numbers, driver's license numbers and images, vehicle registration and insurance documents, and other records, some with US and UK addresses. The BRA publicly disclosed on October 1, 2024 that vehicle registration application data was circulating online and took its Vehicle Registration Portal offline while investigating with police and the Data Commissioner; the attacker disputed the government's limited account of the breach and, after threatening to leak everything unless paid a ransom by month's end, posted a 1 GB sample of the stolen files on October 18, 2024. BRA spokeswoman Carolyn Williams-Gayle said stakeholder security remained the Authority's top priority and urged the public to monitor accounts for unusual activity and report suspicious contact to its Data Privacy Officer.`,
+  categorySlug: 'data-breach-scams',
+  alertLevel: 'high',
+  sources: ['Barbados Today', 'ISSA Barbados Chapter', 'DataBreaches.Net'],
+  sourceUrl: 'https://barbadostoday.bb/2024/10/02/hackers-claim-access-to-bras-admin-portal/',
+  country: 'BB',
+  isHistorical: true,
+  firstRecorded: '2024-09-29',
+});
+
+International.push({
+  name: 'Fake Barbados Revenue Authority Tax Refund Phishing Emails',
+  slug: 'barbados-revenue-authority-fake-tax-refund-phishing-email',
+  description: `Since at least September 2023, the Barbados Revenue Authority (BRA) has had to repeatedly warn the public about phishing emails sent in its name promising a tax refund. The first widely reported wave, flagged by the BRA and covered on September 16, 2023, carried the subject line "Important TAMIS Information Needed To Complete Your Refund" and used a return address that did not belong to the Authority to try to extract sensitive personal and financial information usable for identity theft or a fraudulent refund claim. A similar wave resurfaced in May 2026 under the subject "Official Notification Regarding Your Tax Account," this time displaying a fake BRA logo. In both cases the Authority stressed it never requests personal or financial information by email, text, or phone, and told taxpayers to delete the messages, avoid clicking any links, and verify anything claiming to be from BRA only through its own published channels.`,
+  categorySlug: 'tax-scams',
+  alertLevel: 'high',
+  sources: ['Caribbean Broadcasting Corporation (CBC)', 'Barbados Revenue Authority', 'The Bajan Reporter'],
+  sourceUrl: 'https://www.cbc.bb/news/local-news/bra-warns-of-phising-email-scam/',
+  country: 'BB',
+  isHistorical: false,
+  firstRecorded: '2023-09-16',
+});
+
+International.push({
+  name: 'Fake Barbados Revenue Authority Traffic Violation Fine Text Scam',
+  slug: 'barbados-revenue-authority-fake-traffic-violation-text-scam',
+  description: `On June 1, 2026, the Barbados Revenue Authority (BRA) warned the public about fraudulent text messages sent in its name headed "Traffic Violation Fine Overdue Notice," which falsely claimed "video surveillance evidence exists" of a violation and pushed recipients to click an embedded link to either pay or appeal the fine. The message borrowed a government authority's name to manufacture urgency around a fabricated legal penalty — a distinct vector from the Central Bank and police impersonation scams already documented for Barbados, using a tax/traffic-fine hook instead of a banking or criminal-investigation one. The BRA told the public not to click any links, not to respond to or share information with the sender, to delete the message immediately, and to verify any BRA communication only through the Authority's own official channels.`,
+  categorySlug: 'government-impersonation',
+  alertLevel: 'high',
+  sources: ['Barbados Revenue Authority'],
+  sourceUrl: 'https://bra.gov.bb/News/Announcements/Scam-Alert-Traffic-Violation-Text',
+  country: 'BB',
+  isHistorical: false,
+  firstRecorded: '2026-06-01',
+});
+
+International.push({
     name: "Tonga Police Warning: \"Anthony Heich\" Facebook Romance Scam Using Forged Documents",
     slug: "anthony-heich-facebook-romance-scam-forged-documents",
     description:
@@ -22731,233 +22941,4 @@ International.push({
     sources: ["Brunei Darussalam Central Bank (BDCB) and Cyber Security Brunei (CSB) — joint reminder regarding counterfeit notes and financial scams"],
     sourceUrl: "https://www.csb.gov.bn/reminder-regarding-counterfeit-notes-and-financial-scams",
     country: "BN",
-});
-
-International.push({
-  name: 'Fraudulent "Financial Analyst Supervisor" ID Cards Impersonating Central Bank, FIUTT, and Police Fraud Unit',
-  slug: 'tt-fake-financial-analyst-supervisor-id-card-scam',
-  description: `The Financial Intelligence Unit of Trinidad and Tobago (FIUTT) issued a public warning, reported by the Trinidad Express on June 8, 2026, after individuals were found presenting fraudulent identification cards bearing the logos of the Central Bank of Trinidad and Tobago (CBTT), the FIUTT, and the Financial Investigations Branch (FIB) of the Trinidad and Tobago Police Service. The fake cards falsely identify their holders as "Financial Analyst Supervisors" representing all three agencies, lending an appearance of official authority to whatever business, inquiry, or request the bearer then makes. The FIUTT stated plainly that "neither the FIUTT, the CBTT nor the FIB issues identification cards of this nature," stressed that none of the three agencies charges fees or requests payments from individuals or businesses as part of their operations, and warned that anyone holding such a card has no authority to conduct business or represent any of the named agencies. The public was urged to verify any claimed FIUTT, CBTT, or FIB affiliation directly through those agencies' official channels before engaging, and to report sightings of the cards or interactions with people using them to the police, the FIUTT, or the Central Bank.`,
-  categorySlug: 'government-impersonation',
-  alertLevel: 'medium',
-  sources: ['Financial Intelligence Unit of Trinidad and Tobago (FIUTT)', 'Trinidad Express'],
-  sourceUrl: 'https://trinidadexpress.com/news/local/fraudsters-posing-as-financial-investigators-says-fiutt/article_668547a1-8623-45b7-844f-ff0585f46786.html',
-  country: 'TT',
-});
-
-International.push({
-  name: 'Fraudulent-Cheque Scheme Targeting High-Value Business Purchases',
-  slug: 'tt-fraudulent-cheque-high-value-purchase-scam',
-  description: `The Trinidad and Tobago Police Service (TTPS) Fraud Squad issued a public advisory on July 24, 2026, reported by TTT News, warning businesses, retailers, and service providers about a scheme using counterfeit, altered, forged, or stolen cheques to obtain high-value goods and services. Fraudsters typically call or WhatsApp a business requesting a quotation for a large order, then present a fraudulent cheque — or even just a screenshot claiming payment has cleared — while pressuring staff to release the goods or services immediately by citing an emergency or tight deadline, often arranging third-party pickup before the cheque is discovered to be worthless. The Fraud Squad flagged warning signs including orders placed through informal channels, a customer who insists on taking possession before the cheque clears, a cheque that looks altered or damaged, a name mismatch between the cheque and the ID presented, and orders timed for a Friday afternoon or the days before a public holiday when bank clearance is delayed. A separate TTPS Fraud Squad report covering January–July 2026 tied the sharp rise in fraud losses — over TT$167 million despite a 32.7% drop in the number of reports — in part to this increase in fraudulent-cheque cases, and police advised businesses plainly to "never release goods or provide services until a cheque has fully cleared and funds have been confirmed."`,
-  categorySlug: 'fake-check-overpayment',
-  alertLevel: 'high',
-  sources: ['Trinidad and Tobago Police Service (TTPS) Fraud Squad', 'TTT News'],
-  sourceUrl: 'https://www.ttt.live/ttps-warns-businesses-of-fraudulent-cheque-scheme-targeting-high-value-purchases/',
-  country: 'TT',
-});
-
-International.push({
-  name: '"Forever Wealth Project" Unregistered Online Investment Scheme',
-  slug: 'tt-forever-wealth-project-investment-scam',
-  description: `The Trinidad and Tobago Securities and Exchange Commission (TTSEC) issued a public advisory on March 19, 2026 warning about an unregistered online investment scheme called the Forever Wealth Project, promoted through the TikTok account @foreverwealthproject and a matching Telegram channel. The promoter solicits contributions from the public with promises to trade the funds on contributors' behalf, claiming "unusually high returns in a short period of time" scaled to the size of each contribution. TTSEC noted that the promoter behind @foreverwealthproject "bears a facial profile and appearance similar to an individual previously associated with promoting" Trillions Systems Limited ("Trillions"), an entity already the subject of an earlier TTSEC public advisory — indicating the same operator appears to have resurfaced under a new brand after already being publicly flagged once. The Commission confirmed that neither the Forever Wealth Project nor Trillions Systems is registered under Trinidad and Tobago's Securities Act, said the scheme "may pose significant risk to investors," and urged the public to verify registration status with TTSEC before contributing money to any social-media-promoted trading scheme.`,
-  categorySlug: 'investment-fraud',
-  alertLevel: 'high',
-  sources: ['Trinidad and Tobago Securities and Exchange Commission (TTSEC)'],
-  sourceUrl: 'https://www.ttsec.org.tt/public-advisory-forever-wealth-project/',
-  country: 'TT',
-});
-
-International.push({
-  name: 'Bhutan Fake Rental Listing Scam',
-  slug: 'bhutan-fake-rental-listing-scam',
-  description: `The Royal Bhutan Police arrested Sonam Dhendup, 38, of Sarpang in April 2025 for running a nationwide fake rental listing scam under multiple aliases, including Sonam Wangchuk, Sonam Dorji, and Sonam Wangdi. Posing as a landlord or property agent on Facebook, he advertised nonexistent or already-unavailable 1BHK and 2BHK apartments using photos and videos of vacant houses, then persuaded renters contacted via Messenger or WhatsApp to wire a security deposit — typically half to two months' rent — as a "booking advance" before ever seeing the unit in person. Thimphu police alone logged 43 such complaints in 2024 totaling Nu 418,400 (only Nu 62,000 recovered), plus 12 more complaints in early 2025 totaling Nu 145,200, with similar reports surfacing in Dagana, Phuentsholing, and Tsirang. Investigators found Dhendup cashed out proceeds through other Bhutanese residents' bank accounts, paying them a commission to receive and forward the money, and police urge renters to never send a deposit before physically verifying a property.`,
-  categorySlug: 'rental-housing',
-  alertLevel: 'medium',
-  sources: ['The Bhutanese', 'Royal Bhutan Police (RBP)'],
-  sourceUrl: 'https://thebhutanese.bt/38-year-old-arrested-for-rental-scam-with-dozens-of-victims-across-dzongkhags/',
-  country: 'BT',
-  firstRecorded: '2025-04-05',
-});
-
-International.push({
-  name: 'Bhutan Fake "TikTok Shop" Task-Based Job Scam',
-  slug: 'bhutan-fake-tiktok-shop-task-job-scam',
-  description: `Bhutan's Competition and Consumer Affairs Authority (CCAA) and the Department of Law and Order investigated an online scam impersonating "TikTok Shop" after victims lost over Nu 600,000 combined. The scheme opens with a part-time job ad on Facebook or Instagram; interested applicants are moved into WhatsApp or Telegram groups, asked for personal details, then given an "invitation code" to register on a fake e-commerce-style dashboard. Participants are told to deposit money to unlock "tasks" — mainly clicking on displayed products — and some were allowed small early withdrawals to build trust before being cut off entirely: CCAA logged individual losses of Nu 28,000 and Nu 50,000, while a separate case referred to the Department of Law and Order involved a loss of more than Nu 550,000. CCAA found no legitimate connection to the real TikTok Shop e-commerce feature and traced victim deposits through multiple Bhutanese bank accounts, which authorities have since frozen.`,
-  categorySlug: 'job-task-scams',
-  alertLevel: 'high',
-  sources: ['Bhutan Broadcasting Service (BBS)', 'Competition and Consumer Affairs Authority (CCAA)'],
-  sourceUrl: 'https://www.bbs.bt/241976/',
-  country: 'BT',
-});
-
-International.push({
-  name: 'Bhutan "Tallwin Life Plan" Ponzi Scheme',
-  slug: 'bhutan-tallwin-life-ponzi-scheme',
-  description: `The Royal Monetary Authority (RMA) of Bhutan first warned the public about the "Tallwin Life Plan" on October 27, 2022, and had to re-notify on November 18, 2022 after Bhutanese kept joining, formally branding it an illegal, unlicensed Ponzi scheme under investigation for money laundering. Spread through WeChat and Telegram groups mainly in rural pockets — Bumthang, Chukha, Paro, Sarpang, Trongsa, Wangdue Phodrang, Trashigang, and Mongar — promoters told recruits to pay a Nu 2,700 entry fee and recruit four more investors, promising a payout of Nu 400,000 within 15 months to those who recruited, versus Nu 120,000 to those who didn't. The RMA's Financial Intelligence Department froze bank accounts belonging to promoters, and group leaders estimated roughly 100,000 Bhutanese had joined at its peak — the classic Ponzi pattern of small early payouts building trust, then nothing once recruitment dried up.`,
-  categorySlug: 'ponzi-pyramid-schemes',
-  alertLevel: 'high',
-  sources: ['Business Bhutan', 'Bhutan Broadcasting Service (BBS)', 'Royal Monetary Authority (RMA) of Bhutan'],
-  sourceUrl: 'https://businessbhutan.bt/tallwin-life-plan-scheme-becoming-rampant/',
-  country: 'BT',
-  firstRecorded: '2022-10-27',
-});
-
-International.push({
-  name: 'Brunei Methanol Company Job Recruitment Impersonation Fraud',
-  slug: 'brunei-methanol-recruitment-impersonation',
-  description: `Brunei Methanol Company Sendirian Berhad (BMC), a real Brunei industrial employer, has had to issue a public notice warning that unauthorized individuals have been impersonating its recruiters over email and WhatsApp, sending fake job offers to jobseekers under the company's name. BMC states plainly that it never requests money transfers at any stage of recruitment — not for processing, immigration documents, insurance, or any other purported fee — and that genuine openings are posted only via registered local newspapers, the Brunei Government's Job Centre, and its own official site and email domain (@brunei-methanol.com). The notice directs anyone contacted by a suspicious "recruiter" to verify against those official channels and report attempts directly to the company.`,
-  categorySlug: 'employment-scams',
-  alertLevel: 'medium',
-  sources: ['Brunei Methanol Company Sendirian Berhad (BMC)'],
-  sourceUrl: 'https://www.brunei-methanol.com/post/public-notice-job-recruitment-fraud',
-  country: 'BN',
-});
-
-International.push({
-  name: 'Brunei Instagram Account Takeover Scam',
-  slug: 'brunei-instagram-account-takeover',
-  description: `Baiduri Bank's consumer online-safety guidance describes a sharp rise, since late 2021, in Instagram account-takeover scams affecting Brunei users: attackers breach an account and immediately change its linked email and password, locking out the real owner. The hijacked account is then used to demand a ransom from the original owner to restore access, resold on the dark web — Baiduri cites Digital Shadows' figure of roughly $45 per hacked Instagram account — or turned into a distribution point for cryptocurrency scam promotions and phishing DM links sent out to the victim's own followers, spreading the fraud through a trusted social graph rather than a stranger's cold outreach. Baiduri's guidance flags younger users, who tend to update passwords less often, as particularly exposed, and recommends a strong, unique password plus two-factor authentication as the core defense.`,
-  categorySlug: 'account-takeover',
-  alertLevel: 'medium',
-  sources: ['Baiduri Bank'],
-  sourceUrl: 'https://www.baiduri.com.bn/personal/learn/online-safety/are-younger-people-more-easily-scammed',
-  country: 'BN',
-});
-
-International.push({
-  name: 'FACC "Fake President" CEO Fraud Against Austrian Aerospace Firm',
-  slug: 'austria-facc-fake-president-ceo-fraud',
-  description: `In January 2016, an employee of FACC AG — an Austrian aerospace-parts manufacturer supplying Boeing and Airbus — wired roughly €50 million (about $56 million), nearly 10% of the company's annual revenue, after receiving emailed instructions that appeared to come from CEO Walter Stephan, whose writing style and email account criminals had studied after breaching the company's systems. The fraud, a classic "fake president"/"CEO fraud" business-email-compromise scheme, traced part of the money to accounts in Slovakia and Asia before the company caught the error; FACC's supervisory board subsequently fired both Stephan, after 17 years in the role, and the CFO who authorized the transfer, and the company posted a €41.9 million net loss for the 2015/16 fiscal year after recovering only €10.9 million. Austrian and Chinese authorities later froze €10.8 million of the stolen funds in China; after nearly nine years of international legal proceedings, that sum was finally returned to FACC in late March 2025, per the company's own press release.`,
-  categorySlug: 'business-email-compromise',
-  alertLevel: 'high',
-  sources: ['FACC AG (company press release)', 'The Local Austria', 'SecurityWeek'],
-  sourceUrl: 'https://www.thelocal.at/20160525/austrian-firm-fires-ceo-after-50-million-cyber-scam',
-  country: 'AT',
-  isHistorical: true,
-  firstRecorded: '2016-01-01',
-});
-
-International.push({
-  name: 'Kufstein Romance Scam — Tyrol Woman Loses Over €350,000',
-  slug: 'austria-kufstein-romance-scam-350000-euro',
-  description: `A 57-year-old woman from the Kufstein district in Tyrol lost more than €350,000 between 2021 and 2025 to romance scammers she met via Facebook dating platforms, who successively posed as a U.S. soldier deployed in Afghanistan and later as an actor from a well-known American crime series — despite years of professed love, the two never met her in person. The fraudsters repeatedly extracted money using fabricated crises (alleged customs problems, alleged imprisonment, family emergencies), and after her own savings and loans ran out, a family member sold their house and property to keep funding the "relationship." The case initially drew police scrutiny of the victim herself: in 2024 she was investigated for suspected money laundering over the suspicious outbound transfers, and after Austria's "Task Force Sozialleistungsbetrug" (Social Benefits Fraud Task Force) found a further €170,000+ in transfers, months of investigation concluded she was a victim of fraud, not a perpetrator.`,
-  categorySlug: 'romance-scams',
-  alertLevel: 'high',
-  sources: ['ORF Tirol', 'VOL.AT', 'Salzburger Nachrichten (SN.at)'],
-  sourceUrl: 'https://tirol.orf.at/stories/3351410/',
-  country: 'AT',
-  isHistorical: false,
-  firstRecorded: '2021-01-01',
-});
-
-International.push({
-  name: 'Fake Vienna Apartment Listings Used to Steal Rental Deposits',
-  slug: 'austria-vienna-fake-rental-listing-deposit-fraud',
-  description: `Watchlist Internet documented a scheme, reported by profil in June 2023, in which fraudsters copy real Airbnb apartment photos and post them as long-term rental listings on Vienna property sites, posing as real-estate agents or landlords based abroad. At in-person or video viewings, victims are pressured into signing on the spot with a fabricated rental contract and asked to wire a deposit plus a "furnishing fee" before receiving keys; once payment lands, the "agent" disappears and the apartment turns out never to have been available for rent. Three documented Vienna victims lost between roughly €3,000 and €8,000 each before Watchlist Internet project lead Thorsten Behrens flagged the pattern publicly, advising renters to independently verify any agency by phone and reverse-image-search listing photos before signing anything.`,
-  categorySlug: 'rental-housing',
-  alertLevel: 'medium',
-  sources: ['Watchlist Internet', 'profil'],
-  sourceUrl: 'https://www.profil.at/wirtschaft/kaution-ueberwiesen-wohnung-weg-neue-betrugsmasche-in-wien/402505038',
-  country: 'AT',
-  isHistorical: false,
-  firstRecorded: '2023-06-01',
-});
-
-International.push({
-  name: 'Bobar Banka Collapse and Insider Loan Fraud',
-  slug: 'bosnia-herzegovina-bobar-banka-collapse',
-  description: `Bobar banka in Bijeljina, Republika Srpska, owned by businessman and RS parliamentarian Gavrilo Bobar, collapsed in 2014 after regulators found roughly 145.7 million KM in deposits — much of it public money from ministries, courts, public enterprises, and the Employment Bureau — had been funneled into uncollateralized loans to companies inside Bobar's own business group. Bobar was shot dead in an unsolved killing weeks before the bank's license was pulled. The Deposit Insurance Agency compensated more than 21,000 depositors up to the insured 50,000 KM threshold, but larger claims, including from public institutions, went into liquidation proceedings with no automatic recovery. In March 2017 prosecutors indicted 16 people, including former Banking Agency of Republika Srpska director Slavica Injac, on organized-crime and abuse-of-office charges tied to 122.5 million KM in alleged damages; by 2023-2024 every defendant had been acquitted or received no punishment, with Injac's acquittal upheld by the RS Supreme Court in May 2024.`,
-  categorySlug: 'investment-fraud',
-  alertLevel: 'high',
-  sources: ['Prijedor24', 'Oslobođenje'],
-  sourceUrl: 'https://prijedor24.com/propast-dvije-banke-vise-od-300-miliona-km-nestalo-depoziti-propali-niko-nije-odgovarao/',
-  country: 'BA',
-  isHistorical: true,
-  firstRecorded: '2014-01-01',
-});
-
-International.push({
-  name: 'Operation Pandora: Bosnia-Based Debt-Collection Fraud Call Centers',
-  slug: 'bosnia-herzegovina-operation-pandora-debt-collection-call-centers',
-  description: `On April 18, 2024, in a raid codenamed "Operation Pandora," German state police (Baden-Württemberg LKA) with Europol and counterparts in Albania, Bosnia and Herzegovina, Kosovo, and Lebanon dismantled 12 fraud call centers and arrested 21 people. Fake debt-collection calls were run predominantly out of Bosnia and Herzegovina, while other participating countries specialized in fake-police, investment, romance, and prepaid-card fraud variants of the same broader network. Investigators recorded more than 1.3 million intercepted conversations and over 28,000 scam calls in a single 48-hour monitoring window, crediting timely intervention with stopping roughly 80% of an estimated €10 million in attempted losses; about €1 million in cash and assets was seized.`,
-  categorySlug: 'legal-debt-collection',
-  alertLevel: 'high',
-  sources: ['Sarajevo Times', 'Europol'],
-  sourceUrl: 'https://sarajevotimes.com/operation-pandora-shuts-down-12-phone-fraud-call-centres/',
-  country: 'BA',
-  isHistorical: true,
-  firstRecorded: '2024-04-18',
-});
-
-International.push({
-  name: 'ShipGRATIS.ba Fake Free-Shipping Webshop Non-Delivery Scam',
-  slug: 'bosnia-herzegovina-shipgratis-fake-webshop-scam',
-  description: `Beginning around 2020, the platform ShipGRATIS.ba marketed itself as a Wish-style marketplace with no shipping fees, requiring advance bank transfer since its suppliers were said to be based in China, Hong Kong, and Singapore. Buyers who paid received automated order confirmations and tracking numbers, but goods never arrived; follow-up messages got only automated replies, and complaints posted to the platform's Facebook page were deleted. Bosnian outlet Akta.ba documented the pattern (with a separate wave of roughly 468 complaints against the same operator's Czech-market site) and identified the domain's Czech parent, Ateli, s.r.o. of Plzeň, and its Bosnian sub-distributor holding the receiving bank account, CEEEC BH d.o.o. of Bijeljina, whose director subsequently denied wrongdoing to the outlet.`,
-  categorySlug: 'online-shopping-scams',
-  alertLevel: 'medium',
-  sources: ['Akta.ba'],
-  sourceUrl: 'https://www.akta.ba/vijesti/bih/119057/kupci-upozoravaju-na-pomolu-nova-prevara-online-kupovine',
-  country: 'BA',
-  isHistorical: false,
-  firstRecorded: '2020-06-09',
-});
-
-International.push({
-  name: 'Barbados Revenue Authority "Pryx" Data Breach',
-  slug: 'barbados-revenue-authority-pryx-data-breach',
-  description: `In late September 2024, a threat actor using the alias "Pryx" breached a Barbados Revenue Authority (BRA) server and began offering roughly 230 gigabytes of stolen government data for sale on a Russian-language hacking forum — full names, passport and national ID numbers, driver's license numbers and images, vehicle registration and insurance documents, and other records, some with US and UK addresses. The BRA publicly disclosed on October 1, 2024 that vehicle registration application data was circulating online and took its Vehicle Registration Portal offline while investigating with police and the Data Commissioner; the attacker disputed the government's limited account of the breach and, after threatening to leak everything unless paid a ransom by month's end, posted a 1 GB sample of the stolen files on October 18, 2024. BRA spokeswoman Carolyn Williams-Gayle said stakeholder security remained the Authority's top priority and urged the public to monitor accounts for unusual activity and report suspicious contact to its Data Privacy Officer.`,
-  categorySlug: 'data-breach-scams',
-  alertLevel: 'high',
-  sources: ['Barbados Today', 'ISSA Barbados Chapter', 'DataBreaches.Net'],
-  sourceUrl: 'https://barbadostoday.bb/2024/10/02/hackers-claim-access-to-bras-admin-portal/',
-  country: 'BB',
-  isHistorical: true,
-  firstRecorded: '2024-09-29',
-});
-
-International.push({
-  name: 'Fake Barbados Revenue Authority Tax Refund Phishing Emails',
-  slug: 'barbados-revenue-authority-fake-tax-refund-phishing-email',
-  description: `Since at least September 2023, the Barbados Revenue Authority (BRA) has had to repeatedly warn the public about phishing emails sent in its name promising a tax refund. The first widely reported wave, flagged by the BRA and covered on September 16, 2023, carried the subject line "Important TAMIS Information Needed To Complete Your Refund" and used a return address that did not belong to the Authority to try to extract sensitive personal and financial information usable for identity theft or a fraudulent refund claim. A similar wave resurfaced in May 2026 under the subject "Official Notification Regarding Your Tax Account," this time displaying a fake BRA logo. In both cases the Authority stressed it never requests personal or financial information by email, text, or phone, and told taxpayers to delete the messages, avoid clicking any links, and verify anything claiming to be from BRA only through its own published channels.`,
-  categorySlug: 'tax-scams',
-  alertLevel: 'high',
-  sources: ['Caribbean Broadcasting Corporation (CBC)', 'Barbados Revenue Authority', 'The Bajan Reporter'],
-  sourceUrl: 'https://www.cbc.bb/news/local-news/bra-warns-of-phising-email-scam/',
-  country: 'BB',
-  isHistorical: false,
-  firstRecorded: '2023-09-16',
-});
-
-International.push({
-  name: 'Fake Barbados Revenue Authority Traffic Violation Fine Text Scam',
-  slug: 'barbados-revenue-authority-fake-traffic-violation-text-scam',
-  description: `On June 1, 2026, the Barbados Revenue Authority (BRA) warned the public about fraudulent text messages sent in its name headed "Traffic Violation Fine Overdue Notice," which falsely claimed "video surveillance evidence exists" of a violation and pushed recipients to click an embedded link to either pay or appeal the fine. The message borrowed a government authority's name to manufacture urgency around a fabricated legal penalty — a distinct vector from the Central Bank and police impersonation scams already documented for Barbados, using a tax/traffic-fine hook instead of a banking or criminal-investigation one. The BRA told the public not to click any links, not to respond to or share information with the sender, to delete the message immediately, and to verify any BRA communication only through the Authority's own official channels.`,
-  categorySlug: 'government-impersonation',
-  alertLevel: 'high',
-  sources: ['Barbados Revenue Authority'],
-  sourceUrl: 'https://bra.gov.bb/News/Announcements/Scam-Alert-Traffic-Violation-Text',
-  country: 'BB',
-  isHistorical: false,
-  firstRecorded: '2026-06-01',
-});
-
-International.push({
-  name: 'Jamaican Romance Scam Combined with Fake Lottery Winnings Targeting an Elderly Arizona Widow',
-  slug: 'jamaica-romance-lottery-scheme-arizona-widow',
-  description: `Between December 2015 and January 2019, Jamaican national Sherwayne Benjamin Bellinfantie ("Ice Man") and co-conspirators deceived an 85-year-old Vail, Arizona resident into believing she was in a romantic relationship, before falsely telling her she had won a lottery prize and a vehicle and pressuring her to send money to cover supposed taxes and processing fees. The victim lost more than $400,000. A federal grand jury in Tucson indicted Bellinfantie in March 2022 on charges of conspiracy to commit wire fraud and conspiracy to commit money laundering, and he was arrested in Jamaica on a U.S. extradition warrant on July 3, 2023. This differs from other lottery-fraud patterns by combining a sustained romantic-manipulation hook with the fee-based lottery scheme rather than relying on the prize claim alone — a reminder that a real romantic partner will never ask for money to "release" a prize you supposedly won together.`,
-  categorySlug: 'romance-scams',
-  alertLevel: 'high',
-  sources: ['Arizona Daily Independent'],
-  sourceUrl: 'https://arizonadailyindependent.com/2025/06/23/jamaican-extradited-for-role-in-romance-scheme-targeting-elderly-arizonan/',
-  country: 'JM',
-});
-
-International.push({
-  name: 'Unlicensed Overseas Employment Agency Defrauds Jamaican Job Seekers',
-  slug: 'jamaica-fake-overseas-employment-agency-scam',
-  description: `Between August and October 2025, Horace Haughton (52, operating under the aliases "Dr. Perez" and "Dr. Maddison") and associate Sharlene Edwards ran an employment agency that was not licensed to operate in Jamaica, recruiting more than 200 applicants and collecting fees totaling more than JM$7 million under the promise of securing overseas jobs that never materialized. The Jamaica Constabulary Force's Fraud Squad arrested Edwards in November 2025 and, using the "Jamaica Eye" camera network, arrested Haughton on January 6, 2026. Haughton was charged with conspiracy to defraud, engaging in transactions involving criminal property, two counts of receiving stolen property, obtaining money by false pretence, operating an employment agency without a license, and unlawfully making available a device or data for the commission of an offence. Unlike scams that target victims abroad, this scheme defrauded Jamaican residents domestically seeking legitimate overseas work — a reminder to verify any employment agency's license before paying a recruitment fee.`,
-  categorySlug: 'employment-scams',
-  alertLevel: 'medium',
-  sources: ['Jamaica Constabulary Force'],
-  sourceUrl: 'https://jcf.gov.jm/man-wanted-for-multimillion-dollar-overseas-employment-scam-arrested-with-the-aid-of-jamaica-eye/',
-  country: 'JM',
 });
