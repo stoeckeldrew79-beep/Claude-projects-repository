@@ -5982,3 +5982,29 @@ The case shows how an executive director's day-to-day control over both an organ
     state: 'WI',
     firstRecorded: '2022-06-13',
 });
+
+UsTZ.push({
+    name: 'Washington DOL/WSDOT Unpaid Ticket and Toll Payment Text Scam',
+    slug: 'washington-dol-wsdot-unpaid-ticket-toll-text-scam',
+    description: `Consumers across Washington receive text messages and emails impersonating the Washington State Department of Licensing or Department of Transportation, claiming an unpaid traffic ticket or toll fee and demanding immediate payment through a link in the message. The messages create urgency by threatening account termination or arrest for nonpayment, and the Washington Attorney General's Office has found that many originate from spoofed phone numbers, with scammers frequently operating out of foreign countries and using phone systems that bounce calls to various locations within and outside the United States to disguise their actual origin, making them difficult to prosecute. Recipients are urged not to click any links or reply, and instead to verify any supposed ticket or toll balance by contacting the Department of Licensing or WSDOT directly through the numbers listed on their official websites.`,
+    categorySlug: 'phishing',
+    sources: ['Washington State Attorney General\'s Office'],
+    sourceUrl: 'https://www.atg.wa.gov/news/news-releases/consumer-alert-scams-target-licensed-drivers-washington',
+    country: 'US',
+    state: 'WA',
+    isHistorical: false,
+    firstRecorded: '2026-03-30',
+});
+
+UsTZ.push({
+    name: 'Washington Virtual Currency Kiosk (Bitcoin ATM) Scam',
+    slug: 'washington-dfi-virtual-currency-kiosk-scam',
+    description: `Scammers who have already built a Washington resident's trust — posing as a romantic interest, a fake investment adviser, a computer help-desk technician, a law-enforcement or government official, or a utility company threatening disconnection — instruct the victim to feed cash into a virtual currency kiosk ("Bitcoin ATM") found in convenience stores, gas stations, and malls, then send the resulting cryptocurrency to a wallet the scammer controls. The Washington State Department of Financial Institutions warns that "once money or virtual currency has been sent and it is received by the scammer, the money or virtual currency is gone," and urges consumers to never send money or virtual currency to someone they have not met in person, verifying any organization's legitimacy through its published customer-service number before paying anything at a kiosk.`,
+    categorySlug: 'cryptocurrency-scams',
+    sources: ['Washington State Department of Financial Institutions'],
+    sourceUrl: 'https://dfi.wa.gov/consumer/alerts/avoiding-virtual-currency-kiosk-and-bitcoin-atm-scams',
+    country: 'US',
+    state: 'WA',
+    isHistorical: false,
+    firstRecorded: '2024-01-09',
+});
