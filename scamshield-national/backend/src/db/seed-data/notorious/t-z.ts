@@ -3381,6 +3381,9 @@ Todorić himself fled to London in November 2017 as Croatian prosecutors opened 
 
 Agrokor's near-collapse is a reminder of what leveraged, related-party growth can hide inside a company that never had to answer to public shareholders or the disclosure rules that come with a stock listing: a nine-figure gap between reported profit and real loss went unnoticed by dozens of lending banks for years, and it took the threat of tens of thousands of lost jobs across four countries — not a routine audit — to finally force Agrokor's real numbers into the open.`,
     sourceUrl: 'https://balkaninsight.com/2018/11/07/ivica-todoric-extradited-to-croatia-11-07-2018/',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Cibona_Tower.jpg?width=1200',
+    coverImageCredit: 'Photo: Marko Maras (CC BY 2.0) — Cibona Tower, Zagreb, Agrokor\'s headquarters under Todorić',
+    coverImagePosition: 50,
 });
 
 NotoriousTZ.push({
@@ -3398,6 +3401,9 @@ Zonin was charged with criminal conspiracy, false accounting, stock manipulation
 
 The Vicenza case is a reminder that a bank's own shares can be the easiest security in the world to manipulate when no outside market prices them: because BPVi's stock never traded on a public exchange, its own committee could set — and its own lending arm could artificially support — a price with no independent check on whether real buyers actually wanted it at that level, letting a hidden, near-billion-euro house of cards stand for years before an external inspection, not the bank's own shareholders or auditors, finally brought it down.`,
     sourceUrl: 'https://www.ansa.it/english/news/business/2021/03/19/ex-bpvi-chief-zonin-gets-6-12-yrs_2ee1d9e0-4538-428f-935e-b85507cab47a.html',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Vicenza_51_(8187090475).jpg?width=1200',
+    coverImageCredit: 'Photo: Alain Rouiller (CC BY-SA 2.0) — Palazzo Thiene, Vicenza, headquarters of Banca Popolare di Vicenza until 2018',
+    coverImagePosition: 50,
 });
 
 NotoriousTZ.push({
@@ -3455,4 +3461,7 @@ The fallout was immediate and severe. Vesttoo filed for Chapter 11 bankruptcy pr
 
 Vesttoo's collapse is a reminder that even a company built around verification technology can be undone by the most basic failure of all: nobody independently confirmed with the issuing banks that the instruments underlying billions of dollars in deals actually existed until a routine drawdown request forced the question. A "letter of credit" is only as good as the issuing bank's own confirmation of it, and for years, none of Vesttoo's insurance-industry counterparties appear to have demanded that confirmation directly.`,
     sourceUrl: 'https://www.insurancejournal.com/news/national/2025/08/15/835909.htm',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Tel_Aviv_Panorama.jpg?width=1200',
+    coverImageCredit: 'Photo: RaphaelQS, Wikimedia Commons (CC BY-SA 4.0) — Tel Aviv, home of Vesttoo\'s insurtech headquarters',
+    coverImagePosition: 50,
 });

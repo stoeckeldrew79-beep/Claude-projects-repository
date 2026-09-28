@@ -7684,4 +7684,7 @@ Farnood and Ferozi were convicted in Afghan courts in 2013 and initially sentenc
 
 The Kabul Bank collapse illustrates how a systemically important bank can be captured almost entirely by insiders when the people meant to oversee it are the same people benefiting from the fraud, and political connections insulate the scheme from real scrutiny until a liquidity crunch forces the truth into the open. It also shows how thin the line can be between a criminal justice system's formal verdict and its real-world consequences: a sentence tripled on appeal for being too lenient still ended, for both men, in outcomes — a prison death and a release under disputed circumstances — that left the vast majority of $900 million in stolen depositor and donor money never meaningfully recovered.`,
     sourceUrl: 'https://www.rferl.org/a/kabul-bank-fraud-report/24783476.html',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Kabul_Bank_Jalalabad.jpg?width=1200',
+    coverImageCredit: 'Photo: U.S. Army (Charles K. Stadtlander/IMCOM), public domain — a Kabul Bank branch in Jalalabad, Afghanistan',
+    coverImagePosition: 50,
 });
