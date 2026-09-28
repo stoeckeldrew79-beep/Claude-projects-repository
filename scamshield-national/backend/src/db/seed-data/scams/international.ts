@@ -22939,3 +22939,25 @@ International.push({
   isHistorical: false,
   firstRecorded: '2026-06-01',
 });
+
+International.push({
+  name: 'Jamaican Romance Scam Combined with Fake Lottery Winnings Targeting an Elderly Arizona Widow',
+  slug: 'jamaica-romance-lottery-scheme-arizona-widow',
+  description: `Between December 2015 and January 2019, Jamaican national Sherwayne Benjamin Bellinfantie ("Ice Man") and co-conspirators deceived an 85-year-old Vail, Arizona resident into believing she was in a romantic relationship, before falsely telling her she had won a lottery prize and a vehicle and pressuring her to send money to cover supposed taxes and processing fees. The victim lost more than $400,000. A federal grand jury in Tucson indicted Bellinfantie in March 2022 on charges of conspiracy to commit wire fraud and conspiracy to commit money laundering, and he was arrested in Jamaica on a U.S. extradition warrant on July 3, 2023. This differs from other lottery-fraud patterns by combining a sustained romantic-manipulation hook with the fee-based lottery scheme rather than relying on the prize claim alone — a reminder that a real romantic partner will never ask for money to "release" a prize you supposedly won together.`,
+  categorySlug: 'romance-scams',
+  alertLevel: 'high',
+  sources: ['Arizona Daily Independent'],
+  sourceUrl: 'https://arizonadailyindependent.com/2025/06/23/jamaican-extradited-for-role-in-romance-scheme-targeting-elderly-arizonan/',
+  country: 'JM',
+});
+
+International.push({
+  name: 'Unlicensed Overseas Employment Agency Defrauds Jamaican Job Seekers',
+  slug: 'jamaica-fake-overseas-employment-agency-scam',
+  description: `Between August and October 2025, Horace Haughton (52, operating under the aliases "Dr. Perez" and "Dr. Maddison") and associate Sharlene Edwards ran an employment agency that was not licensed to operate in Jamaica, recruiting more than 200 applicants and collecting fees totaling more than JM$7 million under the promise of securing overseas jobs that never materialized. The Jamaica Constabulary Force's Fraud Squad arrested Edwards in November 2025 and, using the "Jamaica Eye" camera network, arrested Haughton on January 6, 2026. Haughton was charged with conspiracy to defraud, engaging in transactions involving criminal property, two counts of receiving stolen property, obtaining money by false pretence, operating an employment agency without a license, and unlawfully making available a device or data for the commission of an offence. Unlike scams that target victims abroad, this scheme defrauded Jamaican residents domestically seeking legitimate overseas work — a reminder to verify any employment agency's license before paying a recruitment fee.`,
+  categorySlug: 'employment-scams',
+  alertLevel: 'medium',
+  sources: ['Jamaica Constabulary Force'],
+  sourceUrl: 'https://jcf.gov.jm/man-wanted-for-multimillion-dollar-overseas-employment-scam-arrested-with-the-aid-of-jamaica-eye/',
+  country: 'JM',
+});
