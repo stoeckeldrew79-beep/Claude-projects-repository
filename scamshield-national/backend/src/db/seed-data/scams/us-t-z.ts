@@ -6008,3 +6008,81 @@ UsTZ.push({
     isHistorical: false,
     firstRecorded: '2024-01-09',
 });
+
+UsTZ.push({
+    name: 'Nashville Metro Police Fake Rental Listing Deposit Scam',
+    slug: 'tennessee-nashville-rental-deposit-scam',
+    description: `In June 2026, the Metro Nashville Police Department warned residents about an ongoing rental scam that had already affected about 200 people in the city. Scammers post fake rental listings on Facebook Marketplace and similar sites, often using real photos and descriptions of properties they don't own or control, and pose as a landlord or property manager to collect a deposit from prospective renters before the unit is ever shown or a lease is signed. Police urge anyone renting a property to view it in person and meet the landlord before paying anything, and to be suspicious of a landlord who is always "out of town" and insists on a wire transfer or gift card.`,
+    categorySlug: 'rental-housing',
+    sources: ['Metro Nashville Police Department'],
+    sourceUrl: 'https://www.wsmv.com/2026/06/16/nashville-police-warning-scam-involving-housing-renting-deposits-thats-already-affected-about-200-residents/',
+    country: 'US',
+    state: 'TN',
+    isHistorical: false,
+    firstRecorded: '2026-06-16',
+});
+
+UsTZ.push({
+    name: 'Fake Tennessee Department of Revenue Overdue-Taxes Letter Scam',
+    slug: 'tennessee-department-of-revenue-fake-tax-letter-scam',
+    description: `In August 2025, the Tennessee Department of Revenue warned residents about fraudulent letters, made to look like official notices, claiming the recipient owes overdue back taxes and instructing them to call a specific phone number to settle the debt. The department confirmed no such letters come from its office and urged anyone who receives one to throw it away rather than call the number or send payment or personal information, and to verify any tax notice directly with the department by emailing revenue.support@tn.gov or calling 615-253-0600.`,
+    categorySlug: 'tax-scams',
+    sources: ['Tennessee Department of Revenue'],
+    sourceUrl: 'https://www.nbc39.com/news/crime/tennessee-warns-residents-of-new-tax-scam-targeting-unsuspecting-taxpayers/article_e3c2e8e3-3939-49cb-8bf0-f7ca5a26b24e.html',
+    country: 'US',
+    state: 'TN',
+    isHistorical: false,
+    firstRecorded: '2025-08-29',
+});
+
+UsTZ.push({
+    name: 'Tennessee Holiday Puppy Scam',
+    slug: 'tennessee-middle-tn-holiday-puppy-scam',
+    description: `In December 2025, the Better Business Bureau warned Tennessee and Kentucky residents of a seasonal spike in online puppy scams, in which fraudulent sellers post fake websites or listings with appealing puppy photos, claim the animal is available for immediate adoption or shipping, and pressure buyers with claims of high demand or limited-time holiday discounts. Buyers who pay — often through hard-to-trace methods, and sometimes for additional fake fees like temperature-controlled crate shipping or "puppy insurance" — never receive an animal, and the seller becomes unreachable. The BBB advises insisting on a live video call with the actual puppy before paying, reverse-image-searching listing photos, and avoiding gift cards or cryptocurrency as payment.`,
+    categorySlug: 'pet-sales-scams',
+    sources: ['Better Business Bureau'],
+    sourceUrl: 'https://www.wsmv.com/2025/12/04/safety-alert-puppy-scams-rise-during-holiday-season-tennessee-kentucky/',
+    country: 'US',
+    state: 'TN',
+    isHistorical: false,
+    firstRecorded: '2025-12-04',
+});
+
+UsTZ.push({
+    name: 'Wyoming COVID-Era Unemployment Insurance Identity Theft Fraud Ring',
+    slug: 'wyoming-covid-unemployment-identity-theft-fraud-ring',
+    description: `Beginning in early May 2020, an organized fraud ring used stolen personal information — Social Security numbers and other identity data compiled elsewhere — to file more than 2,000 fraudulent Unemployment Insurance claims with the Wyoming Department of Workforce Services over roughly two months, exploiting the surge in pandemic-era claims processing to slip fake filings past normal review. At the scheme's peak, DWS was identifying about 200 fraudulent claims a day, prompting the agency to work with the U.S. Secret Service, the Department of Criminal Investigation, and other federal law enforcement to trace and halt the filings. Because the stolen data used to file the claims often carried outdated addresses, many Wyoming victims first learned their identity had been used only when a 1099-G tax form or DWS notice arrived for unemployment benefits they never applied for and never received. Wyomingites who receive such a notice despite never filing a claim are urged to contact DWS's Benefit Payment Control Unit at 307-235-3236 and file an identity theft report with the FTC.`,
+    categorySlug: 'identity-theft',
+    sources: ['Wyoming Department of Workforce Services'],
+    sourceUrl: 'https://county10.com/dws-warns-about-fraudulent-use-of-personal-information/',
+    country: 'US',
+    state: 'WY',
+    isHistorical: true,
+    firstRecorded: '2020-05-01',
+});
+
+UsTZ.push({
+    name: 'Town of Jackson Fake "Town Council" Phishing Email Scam',
+    slug: 'wyoming-jackson-town-council-phishing-scam',
+    description: `In May 2024 the Town of Jackson, Wyoming issued a public warning after residents began reporting phishing emails impersonating the Jackson Town Council — sent from a "noreply" address and referencing fabricated "Business Operations and Code Violations" — designed to pressure recipients into sharing personal information. Town communications director Susan Scarlata confirmed the messages were spam, not real town correspondence, noting that genuine day-to-day communication from the town never arrives from a "noreply" address or purports to be from the Town Council itself. The alert cited FBI data showing Wyoming ranked sixth in the nation for fraud victims per capita among residents 60 and older, with 209 elderly Wyomingites losing more than $5 million to fraud in 2022. Residents who receive a similar email are urged never to click a link or reply, and instead to verify it by contacting the town through a phone number or channel they already know is legitimate.`,
+    categorySlug: 'government-impersonation',
+    sources: ['Town of Jackson, Wyoming'],
+    sourceUrl: 'https://www.jhnewsandguide.com/news/cops_courts/local/town-warns-of-phishing-as-scammers-target-wyoming-elderly/article_495f20f2-12f0-11ef-828d-9f0aa53f34e8.html',
+    country: 'US',
+    state: 'WY',
+    isHistorical: false,
+    firstRecorded: '2024-05-18',
+});
+
+UsTZ.push({
+    name: 'Cheyenne Frontier Days Fake Food Truck Vendor Permit Scam',
+    slug: 'wyoming-cheyenne-frontier-days-food-truck-permit-scam',
+    description: `In February 2025 the Cheyenne Police Department warned Wyoming food truck vendors about an email scam offering fraudulent vendor permits for Cheyenne Frontier Days (CFD), the state's largest annual rodeo and festival. The emails came from someone identifying himself as "Michael Francis" and claiming to represent Fun Biz Concessions, CFD's actual official food concessionaire, attaching a permit application and asking vendors to pay a fee via Venmo or PayPal. Police confirmed the sender has no affiliation with CFD or Fun Biz Concessions and that the permit is fake; because peer-to-peer payment apps offer little to no recourse once money is sent to a stranger, vendors who paid had no practical way to recover the funds. Cheyenne police asked any vendor who receives one of these emails to report it to dispatch at 307-637-6525 and to verify any vendor opportunity directly with CFD or Fun Biz Concessions before paying a fee or submitting an application.`,
+    categorySlug: 'employment-scams',
+    sources: ['Cheyenne Police Department'],
+    sourceUrl: 'https://kgab.com/crime-cheyenne-wy-police-frontier-days-cfd-fake-food-truck-permits-vendors-email-scam-fraudulent-permit-application-michael-francis-fun-biz-concessions/',
+    country: 'US',
+    state: 'WY',
+    isHistorical: false,
+    firstRecorded: '2025-02-28',
+});
