@@ -22999,3 +22999,40 @@ International.push({
   isHistorical: false,
   firstRecorded: '2024-04-24',
 });
+
+International.push({
+  name: 'NBS-Warned Fake "Pošta Srbije" Customs-Fee SMS Phishing Scam',
+  slug: 'serbia-posta-srbije-customs-fee-sms-phishing-scam',
+  description: `The National Bank of Serbia (NBS) issued a public warning, published January 7, 2024, about fraudulent SMS messages impersonating JP Pošta Srbije (the Post of Serbia) that ask recipients to pay a small postal or customs fee, typically around 30 dinars, to release a package. The messages link to a fake website that closely copies the real Pošta Srbije site and logo, prompting victims to enter their payment card number and expiration date, then the one-time password (OTP) sent by their own bank to "complete" the tiny payment — entering that OTP lets fraudsters either withdraw funds directly or enroll the victim's card in a mobile wallet such as Apple Pay for further unauthorized use. NBS reported that, following complaints, six banks operating in Serbia had put additional protective measures in place and reimbursed 288 affected customers a combined roughly 17.2 million dinars. NBS advises citizens to check for a secure connection before entering data, to treat SMS messages about a package fee from an unknown number as suspicious, and to never share a one-time password with anyone, since no bank or delivery service will ever ask for it to release a package.`,
+  categorySlug: 'package-delivery-scams',
+  alertLevel: 'high',
+  sources: ['Narodna banka Srbije (NBS)'],
+  sourceUrl: 'https://www.nbs.rs/sr/scripts/showcontent/index.html?id=19458&konverzija=no',
+  country: 'RS',
+  isHistorical: false,
+  firstRecorded: '2024-01-07',
+});
+
+International.push({
+  name: 'MUP-Warned Fake Court and Prosecutor Threat Email Scam',
+  slug: 'serbia-fake-court-prosecutor-threat-email-scam',
+  description: `Serbia's Ministry of Interior (MUP) issued a public warning, dated January 24, 2026, about email fraud in which senders falsely present themselves as courts, public prosecutors, or other state bodies of the Republic of Serbia. The emails use pressure and intimidation, citing an alleged criminal charge or an IP address supposedly tied to the recipient, along with an unrealistic short response deadline, and warn of legal sanctions if the recipient does not immediately reply, share personal data, click an embedded link, or open an attachment. MUP identified several tell-tale signs: aggressive intimidation, unrealistic deadlines, grammatical and terminology errors inconsistent with genuine legal correspondence, and institution names that are imprecise or don't match any real Serbian state body. MUP states that state organs of the Republic of Serbia do not communicate with citizens this way and do not demand urgent responses through informal electronic messages, advising recipients not to reply, click links, or share data, and to verify any claimed legal matter only through the named court or institution's official, publicly listed contact channels.`,
+  categorySlug: 'government-impersonation',
+  sources: ['Ministarstvo unutrašnjih poslova Republike Srbije (MUP)'],
+  sourceUrl: 'https://www.mup.gov.rs/wps/portal/sr/aktuelno/saopstenja/a67f0967-1363-4884-af0d-800535b60bd0/!ut/p/z1/fczRCoIwFIDhh-l6nKNzx3kpSYNqFO0i240ckdkoppj0_PkEXf7w8YOHFnzibxx5jVPi99YPT92lspQZzE-6qA9YW1R4dRJNQ-A-S3dz3e7Ma4Ij-P962-WL3dsR_MzrU8QUJmiZyoAVlSKTJEWhdSE44CA0opKqJ-wHhPll7j8UCfhx/',
+  country: 'RS',
+  isHistorical: false,
+  firstRecorded: '2026-01-24',
+});
+
+International.push({
+  name: 'Europol-Dismantled Belgrade-Sofia Call-Center Binary Options and CFD Investment Fraud',
+  slug: 'serbia-belgrade-sofia-callcenter-binary-options-investment-fraud',
+  description: `On April 2, 2020, police in Serbia and Bulgaria, coordinated by Europol and Eurojust with support from Austrian and German authorities, dismantled a cross-border call-center operation running a large-scale investment fraud out of Belgrade and Sofia. Call-center agents cold-contacted victims with offers to invest in binary options and contracts for difference (CFDs) on online trading platforms, starting with a small initial deposit of around 250 euros, then used social-engineering pressure to push victims into repeatedly larger "investments" in trading products, including forex, that never actually existed. Austria reported roughly 850 victims who lost a combined 2.2 million euros, and Germany reported hundreds of victims with losses of about 10 million euros, with the Austrian Criminal Police Office estimating total worldwide losses across the network at around 80 million euros. The joint action resulted in nine arrests — five in Serbia and four in Bulgaria, including two alleged network leaders detained in Sofia — and the seizure of five properties in Serbia, 2.5 million euros from a German bank account, and electronic equipment, with roughly 30 additional bank accounts placed under surveillance. Any unsolicited cold call or online ad offering guaranteed returns on binary options, CFDs, or forex trading — especially one that starts with a modest deposit and escalates to pressure for much larger transfers — should be treated as a likely fraud, regardless of how legitimate the trading platform's website appears.`,
+  categorySlug: 'investment-fraud',
+  sources: ['Europol', 'The Sofia Globe'],
+  sourceUrl: 'https://sofiaglobe.com/2020/04/07/europol-major-investment-fraud-gang-busted-in-bulgaria-and-serbia/',
+  country: 'RS',
+  isHistorical: true,
+  firstRecorded: '2020-04-02',
+});

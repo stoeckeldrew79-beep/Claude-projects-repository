@@ -10931,3 +10931,42 @@ UsGM.push({
     state: 'HI',
     isHistorical: false,
 });
+
+UsGM.push({
+    name: 'Maryland MVA/District Court "Unpaid Parking Fine" Text Scam',
+    slug: 'maryland-mva-district-court-parking-fine-text-scam',
+    description: `The Maryland Judiciary warned residents on February 10, 2026 about smishing texts falsely claiming to be from the Maryland Motor Vehicle Administration, titled "Notice of Default – Unpaid Parking Fine," which tell the recipient they have an unresponded parking ticket linked to their vehicle and must report in person to the Baltimore City District Court at 1400 E. North Avenue by 9 a.m. the following morning, threatening fines, license suspension, court enforcement, and "a poor social security number record." The scam borrows legitimacy by impersonating two real Maryland agencies at once — the MVA and the District Court — and includes a fraudulent MVA-branded link. The Judiciary stated these texts and any variations are a scam, that recipients should not click the link or provide payment or personal information, and urged anyone contacted to verify any claimed court matter directly and report the message to the Attorney General's Consumer Protection Division at 410-528-8662 or 888-743-0023.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Maryland Judiciary'],
+    sourceUrl: 'https://www.courts.state.md.us/media/news/2026/pr20260210a',
+    country: 'US',
+    state: 'MD',
+    isHistorical: false,
+    firstRecorded: '2026-02-10',
+});
+
+UsGM.push({
+    name: 'BGE "Immediate Disconnection" Phone and Robocall Scam',
+    slug: 'maryland-bge-immediate-disconnection-phone-scam',
+    description: `Scammers call Baltimore Gas and Electric customers using spoofed caller ID that displays BGE's real phone number, or robocalls prompting the recipient to "press 1" to discuss a bill, then falsely claim the account is severely past due and service will be cut off within the hour unless payment is made immediately — some versions instead claim a meter must be replaced right away. Callers direct victims to buy a prepaid debit card and read off its number, or to send payment via Cash App, Zelle, Bitcoin, or Green Dot. BGE reported receiving nearly 1,500 complaints about this pattern, with customers reporting combined losses of more than $25,000, and states it never makes a single urgent disconnection call, never asks for information it already has on file, and never solicits payment through those methods — genuinely past-due customers receive multiple written notices, not one urgent call. BGE directs anyone who receives a suspicious call to hang up and verify by calling 1-800-685-0123.`,
+    categorySlug: 'utility-scams',
+    sources: ['BGE', 'CBS News Baltimore'],
+    sourceUrl: 'https://www.cbsnews.com/baltimore/news/bge-warns-of-utility-scammers-targeting-customers-receives-1500-complaints',
+    country: 'US',
+    state: 'MD',
+    isHistorical: false,
+    firstRecorded: '2020-09-29',
+});
+
+UsGM.push({
+    name: 'Ocean City Craigslist Vacation Rental Scam',
+    slug: 'maryland-ocean-city-craigslist-vacation-rental-scam',
+    description: `Scammers post fake Ocean City, Maryland vacation-rental listings — often lifting real photos and descriptions from legitimate listings — mainly on Craigslist, then collect payment for a unit they have no right to rent. In one documented case, a Pasadena, Maryland couple lost over $1,300 to a listing under the name "John and Cheryl Miller Rentals" for a week at a Sandpiper Dunes unit that turned out to be a full-time resident's actual home. The Ocean City Police Department has received 94 reports of rental fraud since 2011, and the Better Business Bureau serving Greater Maryland found that 86 percent of the cases it reviewed originated on Craigslist. The BBB advises renters to be wary of prices well below comparable units, to book through a licensed agent or reputable site, to reverse-image-search listing photos, and to pay by credit card rather than wire transfer or prepaid card so a fraudulent charge can be disputed.`,
+    categorySlug: 'rental-housing',
+    sources: ['Ocean City Police Department', 'Better Business Bureau', 'WMAR-2 News'],
+    sourceUrl: 'https://www.wmar2news.com/business/consumer/pasadena-couple-loses-1300_-in-ocean-city-rental-scam',
+    country: 'US',
+    state: 'MD',
+    isHistorical: false,
+});
