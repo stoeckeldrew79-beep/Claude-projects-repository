@@ -5955,3 +5955,54 @@ UsTZ.push({
     isHistorical: true,
     firstRecorded: '2025-03-25',
 });
+
+UsTZ.push({
+    name: 'Wisconsin DFI Order Against OrionCapital.live / AIPCapitalMarkets.com Crypto "Copy Trading" Scheme',
+    slug: 'wisconsin-dfi-orioncapital-aipcapitalmarkets-copy-trading-fraud',
+    description: `On December 18, 2025, the Wisconsin Department of Financial Institutions' Division of Securities issued a Summary Order to Cease and Desist (DFI Case No. S-251344 (EX)) against OrionCapital.live, its successor site AIPCapitalMarkets.com, and four respondents: Paul Thomas and Jeremiah Miracle Ogbo, both located in Nigeria, and two likely aliases, "Mitchell Maddison" and "Tener Genek" — the order notes Genek is probably a fictitious identity spoofing a real Greek copy trader of a similar name. The order describes how a Wisconsin investor identified only as "Investor CG" was approached in a Facebook group for "Dual-Income, No Kids" couples by "Maddison," who introduced CG to "Genek," a supposed expert cryptocurrency trader offering to let others "copy trade" his strategies.
+
+Beginning in January 2025, CG opened an account on OrionCapital.live; the platform migrated to AIPCapitalMarkets.com in March 2025, which claimed more than 480,000 users and $8 million in monthly trade volume with unnamed "globally renowned banking partners." After a small test withdrawal succeeded, CG invested $24,961.39 between February and June 2025. The platform then showed his balance had grown to over $767,000; to withdraw the supposed profits on July 10, 2025, he was told to pay a $48,484.54 "trading fee" and received nothing back. In total, CG made 16 cryptocurrency transactions totaling $73,445.93 between February 8 and July 10, 2025. DFI investigators traced the funds through several exchanges into an unhosted wallet commingled with other victims' funds, and identified 31 affiliated scam domains. The order found none of the respondents were registered to sell securities or offer investment advice in Wisconsin and that their conduct violated the state's anti-fraud and registration statutes.
+
+The case illustrates a distinct recruitment pattern from a typical romance scam: the victim is drawn in through an affinity Facebook group built around a shared lifestyle label, not a fabricated romantic relationship, before being handed off to a fake "expert trader" persona. Wisconsin investors can verify whether anyone offering to manage their money is actually registered with the state at the DFI's public license lookup before sending a cryptocurrency deposit to any "copy trading" platform.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'high',
+    sources: ['Wisconsin Department of Financial Institutions, Division of Securities'],
+    sourceUrl: 'https://dfi.wi.gov/Documents/Securities/RegistrationOfProfessionals/EnforcementAdministrativeOrders/2025/20251218OrionCapital.pdf',
+    country: 'US',
+    state: 'WI',
+    firstRecorded: '2025-02-08',
+});
+
+UsTZ.push({
+    name: 'Wisconsin DATCP/OCI "Health Insurance vs. Discount Plan" Open-Enrollment Scam Alert',
+    slug: 'wisconsin-datcp-oci-health-insurance-discount-plan-scam-alert',
+    description: `On October 23, 2025, the Wisconsin Department of Agriculture, Trade and Consumer Protection (DATCP) and the Office of the Commissioner of Insurance (OCI) issued a joint consumer alert timed to Medicare open enrollment and the run-up to the November 1 ACA marketplace open enrollment period, warning that scammers were placing unsolicited calls and texts impersonating a consumer's existing insurer, another health provider, or a government agency to sell counterfeit insurance or "medical discount plans" and harvest personal and financial data.
+
+The agencies laid out specific red flags Wisconsin consumers were encountering: callers claiming they "already have" the victim's information and just need "verification," pressure to commit before reviewing any written plan materials, vague descriptions of what is and isn't covered, plans structured to look like insurance while avoiding the word "insurance" — including ones marketed as "short-term," "limited duration," or "health-sharing ministry" products — and promises of implausibly steep discounts. DATCP explained that legitimate medical discount plans, which charge a monthly fee for reduced provider rates, are not insurance and are frequently misrepresented by dishonest telemarketers as full replacements for coverage, leaving victims uninsured and financially exposed when they actually need care.
+
+Consumers were directed to verify any agent or insurer's Wisconsin license at oci.wi.gov's lookup tool, confirm marketplace options at WisCovered.com, and report suspected scams to DATCP's Consumer Protection Hotline. The alert is a reminder that open enrollment's compressed deadlines are exactly what makes "act now or lose this rate" pressure tactics effective — a caller who already sounds like they work for a familiar company doesn't need much more to get a rushed decision out of someone trying to lock in coverage before a deadline passes.`,
+    categorySlug: 'insurance-fraud',
+    alertLevel: 'medium',
+    sources: ['Wisconsin Department of Agriculture, Trade and Consumer Protection (DATCP)', 'Wisconsin Office of the Commissioner of Insurance (OCI)'],
+    sourceUrl: 'https://datcp.wi.gov/Pages/News_Media/20251023KnowTheDifferenceHealthInsuranceVsDiscountPlansAndScams.aspx',
+    country: 'US',
+    state: 'WI',
+    firstRecorded: '2025-10-23',
+});
+
+UsTZ.push({
+    name: 'Ronald McDonald House Charities of Marshfield Executive Director Embezzlement (Iilee Pederson)',
+    slug: 'wisconsin-marshfield-ronald-mcdonald-house-pederson-embezzlement',
+    description: `Iilee Pederson, 39, served as executive director of Ronald McDonald House Charities of Marshfield, a Wisconsin nonprofit that houses families of hospitalized children. Between June 13, 2022 and June 12, 2024, investigators say Pederson transferred money out of the charity's checking account into her personal PayPal account and then into her own bank account, redacting bank statements and transaction records before presenting them to the charity's board so the shortfall wouldn't be noticed.
+
+Wood County detectives identified the unauthorized PayPal transfers on June 24, 2024; Pederson resigned two days later, and a July 18, 2024 search warrant confirmed roughly $120,000 had been taken. She was charged with 11 felony counts including money laundering, fraud, and theft in a business setting, and was released on a $50,000 signature bond with a full no-contact order barring her from the charity. Pederson pleaded not guilty at a hearing in late 2025, with further proceedings scheduled into 2026. Wood County District Attorney Jonathan Barnett described the investigation as "rather lengthy and ongoing, mostly because of the amount of money that's involved," given the need to trace funds across multiple accounts; the charity recovered $100,000 of the loss through its insurance carrier.
+
+The case shows how an executive director's day-to-day control over both an organization's bank account and the records the board reviews can let a diversion continue for two years before anyone outside catches it — a risk any small nonprofit can reduce by having a second, independent person reconcile bank statements directly with the institution rather than relying on records the same person who controls the account also prepares.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'low',
+    sources: ['WSAW-TV', 'Wood County District Attorney\'s Office'],
+    sourceUrl: 'https://www.wsaw.com/2025/11/10/marshfield-woman-accused-stealing-nearly-120k-prominent-charity-appear-court/',
+    country: 'US',
+    state: 'WI',
+    firstRecorded: '2022-06-13',
+});
