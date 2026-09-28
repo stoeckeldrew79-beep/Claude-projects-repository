@@ -10870,3 +10870,42 @@ UsGM.push({
     state: 'MN',
     isHistorical: false,
 });
+
+UsGM.push({
+    name: 'Oklahoma Post-Storm Contractor Fraud Warning',
+    slug: 'oklahoma-post-storm-contractor-fraud',
+    description: `Following severe storm damage, the Oklahoma Attorney General's Office warns that unlicensed "storm chaser" contractors travel through affected neighborhoods offering fast repairs, often demanding a large upfront payment before doing any work and then disappearing, doing substandard work, or pressuring homeowners to sign over their insurance claim. The office urges residents to verify a contractor's license and insurance before signing anything, get multiple written estimates, avoid paying the full cost upfront, and report suspected fraud to the Attorney General's Consumer Protection Unit at 1-833-681-1895.`,
+    categorySlug: 'home-improvement-solar',
+    sources: ['Oklahoma Attorney General\'s Office'],
+    sourceUrl: 'https://www.oag.ok.gov/storm-chasers',
+    country: 'US',
+    state: 'OK',
+    isHistorical: false,
+    firstRecorded: '2025-03-04',
+});
+
+UsGM.push({
+    name: 'Oklahoma State Treasurer Unclaimed Property Phone Scam',
+    slug: 'oklahoma-state-treasurer-unclaimed-property-phone-scam',
+    description: `Scammers call Oklahomans claiming to be from the State Treasurer's office and say the person has unclaimed property waiting for them, then ask for a fee, a bank account number, or a Social Security number to "release" the funds. The Oklahoma State Treasurer's Office says it never asks for payment to release unclaimed property — the average claim is worth about $1,200 and claiming it through the real state program is always free — and directs residents to verify and file any claim only through its own official website, never through a caller's link or phone number.`,
+    categorySlug: 'government-impersonation',
+    sources: ['Oklahoma State Treasurer\'s Office'],
+    sourceUrl: 'https://www.ok.gov/treasurer/Unclaimed_Property/index.html',
+    country: 'US',
+    state: 'OK',
+    isHistorical: false,
+    firstRecorded: '2024-03-28',
+});
+
+UsGM.push({
+    name: 'Oklahoma Corporation Commission "Defective Meter" Recall Scam Calls',
+    slug: 'oklahoma-corporation-commission-defective-meter-recall-scam',
+    description: `Callers spoofing caller ID to appear as a utility company or the Oklahoma Corporation Commission tell Oklahoma residents their gas or electric meter has been recalled as defective and that they must pay a fee or provide payment information immediately to avoid having service shut off. The Oklahoma Corporation Commission confirms it does not call consumers about meter recalls or service disconnection and never demands payment by phone, and urges anyone who gets such a call to hang up and contact their utility company directly using the number printed on a past bill, or call the Commission at 405-521-2211 to verify.`,
+    categorySlug: 'government-impersonation',
+    sources: ['Oklahoma Corporation Commission'],
+    sourceUrl: 'https://www.ktul.com/news/local-news/oklahoma-corporation-commission-warns-of-defective-meter-scam-calls',
+    country: 'US',
+    state: 'OK',
+    isHistorical: false,
+    firstRecorded: '2023-04-12',
+});
