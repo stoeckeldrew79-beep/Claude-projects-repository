@@ -4363,6 +4363,20 @@ UsTZ.push({
 });
 
 UsTZ.push({
+    name: 'Cancer Fund of America Sham Charity Fraud',
+    slug: 'tennessee-cancer-fund-of-america-charity-fraud',
+    description: `Cancer Fund of America, headquartered at 2901 Breezewood Lane in Knoxville, Tennessee, was one of four affiliated charities the FTC, all 50 state attorneys general, and the District of Columbia charged in May 2015 with bilking more than $187 million from donors between 2008 and 2012 under the pretense of helping cancer patients with pain medication, transportation to chemotherapy, and hospice care. In 2013 alone the Knoxville-based charity raised $86.8 million through telemarketing solicitors but spent only about $868,000 of it — roughly 1 percent — on direct aid, with the remainder going to fundraisers and to founder James Reynolds Sr., along with his ex-wife, son, and other family and friends who ran the affiliated charities. Reynolds agreed to a settlement dissolving Cancer Fund of America and permanently banning him from future charity work. Before donating, verify a charity's actual program spending — through a state charity registry, the IRS Tax Exempt Organization Search, or a rating service like Charity Navigator — rather than trusting a compelling telemarketing pitch alone.`,
+    categorySlug: 'charity-scams',
+    alertLevel: 'medium',
+    sources: ['Federal Trade Commission', 'WTVC NewsChannel 9'],
+    sourceUrl: 'https://newschannel9.com/news/local/americas-2nd-worst-charity-based-in-knoxville-agrees-to-shut-down',
+    country: 'US',
+    state: 'TN',
+    isHistorical: true,
+    firstRecorded: '2015-05-19',
+});
+
+UsTZ.push({
     name: 'Charlotte, Vermont Man\'s $1 Million Fake Ledger Support Crypto Theft (Gene Duckett)',
     slug: 'vermont-charlotte-duckett-fake-ledger-support-crypto-theft',
     description: `Gene Duckett, of Charlotte, Vermont, got a call one Friday night in March 2025 from a man who identified himself as "Benjamin" and said he was calling from Ledger, the company that makes the hardware wallet Duckett used to store his cryptocurrency, warning that his funds were in danger of being stolen. The caller walked Duckett through a "security" process built entirely around trust: first providing him a code, then having a second caller reference that same code back to him minutes later to prove they were legitimate, which made Duckett comfortable enough to follow a link to a website and type in his 24-word recovery seed phrase to "secure" his wallet. A third caller then phoned to say something had "gone wrong," and when Duckett checked his XRP Ledger wallet himself, every bit of it was gone — a loss he later put at $1,038,000. "It was $1,038,000. That's how much it was worth. It is a lot of money," Duckett said. A cybersecurity expert who reviewed the case, Eithan Raviv of Lionsgate Network, noted that Ledger has disclosed at least two data breaches over the years that exposed customer contact information, which is the most likely way scammers obtained Duckett's name and phone number in the first place and could reference his real hardware wallet by name to sound credible. Ledger states flatly that it will never call customers by phone and will never, under any circumstances, ask for a 24-word recovery phrase; anyone who gets an unsolicited call, even one referencing accurate account details or a "verification code" the caller already seems to know, should hang up and contact the wallet maker only through the contact information on its own official website, and should remember that no legitimate crypto company or wallet update ever requires typing a recovery seed phrase into any web page.`,
