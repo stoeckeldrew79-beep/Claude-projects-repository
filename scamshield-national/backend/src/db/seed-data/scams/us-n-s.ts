@@ -10126,6 +10126,20 @@ UsNS.push({
 });
 
 UsNS.push({
+    name: 'SSN Prefix "586" Territorial Identity Theft Ring',
+    slug: 'northern-mariana-islands-586-ssn-identity-theft-ring',
+    description: `A criminal enterprise obtained and sold Social Security cards bearing the prefix "586" — a block the U.S. government issued to foreign nationals, usually from China, employed in American territories including Guam, Saipan (CNMI), and American Samoa. Buyers were escorted to various U.S. states to fraudulently obtain driver's licenses and other identity documents using these stolen identities, then added as authorized users on existing credit card accounts to artificially inflate credit scores into the 700-800 range, enabling large-scale credit card and bank fraud. Of the 53 people arrested in a September 16, 2010 coordinated takedown, four were later sentenced: Yoon-Hee Park to 54 months with $423,367 in restitution, Byung Jang to 48 months with $295,215 in restitution, Kyung-Ki Kim to 11 months with $74,864.65 in restitution, and Sung-Rok Joh to six months plus six months' home confinement with $79,333 in restitution. The case illustrates an identity-theft exposure specific to CNMI: the territory's own SSN-issuance block for its guest-worker population became raw material for a nationwide identity-fraud and credit-fraud operation.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'medium',
+    sources: ['U.S. Immigration and Customs Enforcement (ICE)'],
+    sourceUrl: 'https://www.ice.gov/news/releases/4-members-large-scale-identity-theft-ring-sentenced',
+    country: 'US',
+    state: 'MP',
+    isHistorical: true,
+    firstRecorded: '2010-09-16',
+});
+
+UsNS.push({
     name: 'Bad Bunny Concert Fake Ticket Resale Scam',
     slug: 'puerto-rico-bad-bunny-fake-ticket-resale-scam',
     description: `Puerto Rico police opened fraud investigations after sellers posted fake ticket listings on social media for Bad Bunny's 2025 "No Me Quiero Ir de Aquí" residency at the Coliseo de Puerto Rico, collecting payment via the ATH Móvil mobile-payment app and then sending buyers counterfeit or nonexistent tickets. In one case handled by the San Juan Tourist Precinct, a 24-year-old woman from Cataño paid $500 via ATH Móvil for two tickets that turned out to be fake, and an 18-year-old victim lost $170 the same way. The pattern recurred during Bad Bunny's August 2026 stadium shows at Estadio Hiram Bithorn, where police confirmed at least three more victims paid $200-$500 via ATH Móvil for tickets never delivered, amid VIP tickets originally sold for $100 reappearing on resale sites for over $6,000.`,
