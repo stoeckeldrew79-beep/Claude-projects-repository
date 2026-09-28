@@ -10450,3 +10450,16 @@ UsNS.push({
     isHistorical: false,
     firstRecorded: '2022-09-01',
 });
+
+UsNS.push({
+    name: 'New Hampshire Bankruptcy Filer Attorney-Impersonation Wire Scam',
+    slug: 'new-hampshire-bankruptcy-filer-attorney-impersonation-scam',
+    description: `Scammers mine publicly available New Hampshire bankruptcy court filings to identify people who have recently filed for bankruptcy, then call them using spoofed caller ID that displays the filer's actual attorney's name or law office, often late in the evening or outside business hours when the real attorney can't be reached to confirm. The caller, posing as the attorney, the attorney's partner, or law office staff, tells the filer a debt must be paid immediately and instructs them to wire money right away. New Hampshire Attorney General Joseph Foster issued a fraud alert on October 19, 2015 about the scheme, warning bankruptcy filers never to wire funds in response to such a call and to instead contact their actual attorney directly, using a number they already have, rather than one the caller provides.`,
+    categorySlug: 'legal-debt-collection',
+    sources: ['New Hampshire Department of Justice'],
+    sourceUrl: 'https://www.nhb.uscourts.gov/news/new-hampshire-attorney-general-issues-fraud-alert-related-bankruptcy-filers',
+    country: 'US',
+    state: 'NH',
+    isHistorical: true,
+    firstRecorded: '2015-10-19',
+});

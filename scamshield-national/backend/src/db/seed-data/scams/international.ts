@@ -23036,3 +23036,39 @@ International.push({
   isHistorical: true,
   firstRecorded: '2020-04-02',
 });
+
+International.push({
+  name: 'Fake Sonangol Mass Recruitment Scam',
+  slug: 'angola-fake-sonangol-mass-recruitment-scam',
+  description: `Angola's state oil company Sonangol issued a public statement on January 22, 2024 denouncing posts circulating on social media that falsely announced a "massive" personnel recruitment drive under its name. Sonangol stated plainly that it has no mass recruitment process underway and that legitimate recruitment does not occur through social media, warning that the fake postings were designed to extract immediate financial gain from applicants and to harvest personal data for later misuse. The company urged the public to disregard any Sonangol recruitment announcement not published through its own official channels, noting that its name — one of the most recognized in Angola — is routinely borrowed by fraudsters because of the credibility and hope it carries for jobseekers in a country with high unemployment.`,
+  categorySlug: 'employment-scams',
+  sources: ['Sonangol E.P.'],
+  sourceUrl: 'https://www.sonangol.co.ao/sonangol-desmente-recrutamento-de-pessoal-posto-a-circular-nas-redes-sociais/',
+  country: 'AO',
+  isHistorical: false,
+  firstRecorded: '2024-01-22',
+});
+
+International.push({
+  name: 'Fake Sonangol Investment Fund Scam',
+  slug: 'angola-fake-sonangol-investment-fund-scam',
+  description: `Sonangol issued a public denial on October 9, 2024 after fraudsters circulated fabricated news claiming its president had announced a new investment fund open to public participation for a fee. To lend the claim credibility, the scammers produced forged documents mimicking Jornal de Angola, the country's main state newspaper, and used them to solicit personal and banking data from would-be investors. Sonangol stated flatly that no investment fund creation was announced, said the false reports appeared timed to confuse the public about its own real, ongoing 2023-2028 bond offering, and referred the matter to police for investigation.`,
+  categorySlug: 'investment-fraud',
+  sources: ['Sonangol E.P.'],
+  sourceUrl: 'https://www.sonangol.co.ao/sonangol-desmente-burladores-que-insinuam-lancamento-de-fundo-de-investimento/',
+  country: 'AO',
+  isHistorical: false,
+  firstRecorded: '2024-10-09',
+});
+
+International.push({
+  name: 'BNA Ponzi, Pyramid, and Multilevel-Marketing Investment Alert',
+  slug: 'angola-bna-ponzi-pyramid-mlm-investment-alert',
+  description: `Angola's central bank, the Banco Nacional de Angola (BNA), issued formal guidance to financial institutions on February 8, 2022 after receiving a wave of consumer complaints about supposed investment opportunities promising abnormally high, fast returns on money deposited into accounts at licensed Angolan banks. BNA outlined the pattern's warning signs — outsized profit promises with no real product or service, commission-based recruitment, lavish promotional events with success "testimonials," and operators with no verifiable physical office — and directed every supervised bank to refuse transactions suspected of funding a Ponzi, pyramid, or multilevel-marketing scheme, notify the affected customer in writing, and report the matter to judicial authorities, a system-wide directive covering the entire banking sector rather than a single case.`,
+  categorySlug: 'ponzi-pyramid-schemes',
+  sources: ['Banco Nacional de Angola (BNA)', 'Novo Jornal'],
+  sourceUrl: 'https://novojornal.co.ao/economia/interior/bna-institui-condutapara-evitar-esquemas-fraudulentos-de-investimento-com-promessas-de-lucrofacil-depois-de-receber-varias-denuncias-106745.html',
+  country: 'AO',
+  isHistorical: false,
+  firstRecorded: '2022-02-08',
+});
