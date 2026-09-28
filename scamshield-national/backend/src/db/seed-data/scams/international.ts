@@ -12885,58 +12885,6 @@ International.push(
   },
 );
 
-International.push(
-  {
-    name: 'US Virgin Islands Deepfake Investment Scam Ads on Meta',
-    slug: 'us-virgin-islands-deepfake-investment-scam-ads-meta',
-    description: `U.S. Virgin Islands Attorney General Gordon C. Rhea issued an investor alert on April 8, 2026 warning residents about a surge of fraudulent investment schemes circulating on Meta platforms — Facebook, Instagram, and WhatsApp. The alert describes fraudsters using AI-generated "deepfake" video and images of celebrities, without their permission, to lure victims into fake trading platforms, alongside "pump and dump" schemes that hype low-priced stocks or cryptocurrencies before selling out at inflated prices, and confidence schemes that build a personal relationship before directing the target to a bogus investment site. Victims are often pushed toward cryptocurrency ATMs or told to send funds directly to a private crypto wallet, both of which make the money essentially unrecoverable once sent. Attorney General Rhea urged residents to independently verify any investment opportunity — and the identity of anyone promoting it — before committing money, and to report suspected scams to the V.I. Department of Justice's Special Investigations Division or to the Department of Licensing and Consumer Affairs (DLCA) rather than acting on pressure from an online ad or unsolicited message.`,
-    categorySlug: 'ai-deepfake-scams',
-    alertLevel: 'high',
-    sources: ['U.S. Virgin Islands Department of Justice', 'Office of the Attorney General of the Virgin Islands'],
-    sourceUrl: 'https://usvidoj.com/attorney-general-gordon-c-rhea-warns-residents-of-investment-scams-on-meta-platforms/',
-    country: 'VI',
-  },
-  {
-    name: 'US Virgin Islands Meta Fraudulent Advertising Lawsuit',
-    slug: 'us-virgin-islands-meta-fraudulent-advertising-lawsuit',
-    description: `The U.S. Virgin Islands Department of Justice filed a lawsuit on December 29, 2025 in the Superior Court of the Virgin Islands accusing Meta Platforms, Instagram, and Facebook Holdings of knowingly profiting from fraudulent advertising that targets Virgin Islands consumers alongside separate claims about harm to children. The complaint alleges Meta's own internal projections estimated roughly 10% of its 2025 revenue — about $16 billion — would come from ads for scams and banned goods, that the company charged fraudsters higher rates to keep running these ads, and that Meta's platforms accounted for roughly one-third of all successful scams reported in the United States. Attorney General Gordon C. Rhea said the territory was joining dozens of other state attorneys general already suing Meta, while going further by seeking to hold the company accountable for "knowingly facilitating, failing to address, and richly profiting from widespread fraud on its platforms." The filing underscores why residents who encounter investment, romance, or shopping scam ads on Facebook or Instagram should not assume the platform has already screened out fraudulent advertisers, and should report suspicious ads to the V.I. Department of Justice in addition to Meta itself.`,
-    categorySlug: 'investment-fraud',
-    alertLevel: 'medium',
-    sources: ['U.S. Virgin Islands Department of Justice', 'U.S. News & World Report'],
-    sourceUrl: 'https://usvidoj.com/v-i-attorney-general-files-lawsuit-against-meta-to-protect-children-and-combat-widespread-online-fraud/',
-    country: 'VI',
-  },
-  {
-    name: 'US Virgin Islands DLCA Fraudulent Fee Collection Scheme',
-    slug: 'us-virgin-islands-dlca-fraudulent-fee-collection-scheme',
-    description: `The V.I. Department of Licensing and Consumer Affairs (DLCA) warned businesses in August 2026 after receiving reports of one or more individuals falsely posing as DLCA officials and approaching businesses in person to collect licensing fees, penalties, or other payments, including during purported inspections. DLCA Commissioner Nathalie Hodge stressed that department employees never collect cash, checks, credit card information, or other payment on-site while visiting a business — all fees must be paid through an official DLCA office or another payment method the department has authorized in advance. DLCA said it was working with law enforcement to investigate the reports and urged any business approached by someone demanding payment on the department's behalf to decline, ask for identification, avoid further engagement, and report the encounter immediately so investigators can identify those responsible before more businesses are targeted. Reports can be made to DLCA at (340) 727-7226 on St. Croix or (340) 771-7226 on St. Thomas.`,
-    categorySlug: 'government-impersonation',
-    alertLevel: 'medium',
-    sources: ['Virgin Islands Department of Licensing and Consumer Affairs (DLCA)', 'St. Thomas Source', 'St. John Source'],
-    sourceUrl: 'https://stthomassource.com/content/2026/08/07/dlca-warns-businesses-of-fraudulent-fee-collection-scheme/',
-    country: 'VI',
-  },
-  {
-    name: 'US Virgin Islands VIPD Traffic Violation Text Message Scam',
-    slug: 'us-virgin-islands-vipd-traffic-violation-text-message-scam',
-    description: `The Virgin Islands Police Department (VIPD) issued a public warning in late August 2026 about fraudulent text messages circulating territory-wide that falsely claim the recipient has an outstanding traffic violation and must pay a fine online, typically by following a link included in the message. VIPD confirmed the messages "are not connected to the department or any legitimate government agency in the U.S. Virgin Islands" and that neither VIPD nor the territory's judicial branch sends payment-demand texts of this kind. Anyone who receives one is urged not to click any link, not to reply, and not to enter personal or financial information, and to delete the message immediately. Residents who receive the text or have questions can contact VIPD at (340) 778-2211 on St. Croix, (340) 774-2211 on St. Thomas and St. John, or the VIPD Communications Department at (340) 514-8006.`,
-    categorySlug: 'phishing',
-    alertLevel: 'medium',
-    sources: ['Virgin Islands Police Department (VIPD)', 'St. John Source', 'Virgin Islands News Online'],
-    sourceUrl: 'https://www.virginislandsnewsonline.com/en/news/usvi-vipd-warns-of-traffic-fine-text-targeting-vi-residents-/',
-    country: 'VI',
-  },
-  {
-    name: 'US Virgin Islands VIPD Wireless Account Verification Code Scam',
-    slug: 'us-virgin-islands-vipd-wireless-verification-code-scam',
-    description: `The Virgin Islands Police Department warned in July 2026 about a telephone scam targeting USVI wireless customers in which callers impersonate a phone carrier's customer service or security department. During the call, the scammer triggers a legitimate one-time verification code to be sent to the victim's phone and then talks the victim into reading that code back over the line. Once obtained, the code lets the scammer bypass the account's security, make unauthorized changes, transfer the victim's phone number to a device they control, and access stored personal information — steps that can enable further identity theft or financial fraud. VIPD reminded residents that legitimate wireless company representatives will never ask a customer to read back a one-time verification code, password, or PIN over the phone, and that anyone who has shared a code should contact their wireless provider immediately to secure the account. Questions can be directed to the VIPD Economic Crimes Unit at (340) 774-3942, ext. 5618.`,
-    categorySlug: 'account-takeover',
-    alertLevel: 'high',
-    sources: ['Virgin Islands Police Department (VIPD)', 'St. John Source'],
-    sourceUrl: 'https://stjohnsource.com/2026/07/13/telephone-scam-targets-usvi-wireless-customers-vipd-warns/',
-    country: 'VI',
-  },
-);
 
 International.push(
   {
@@ -21128,6 +21076,39 @@ International.push({
   alertLevel: 'critical',
   sources: ['Al Jazeera', 'The Diplomat', 'USIP (United States Institute of Peace)'],
   sourceUrl: 'https://www.aljazeera.com/news/longform/2024/7/29/under-siege-in-myanmars-cyber-scam-capital',
+  country: 'MM',
+});
+
+International.push({
+  name: 'Fake Foreign Suitor "Gift Package" Advance-Fee Romance Scam',
+  slug: 'myanmar-fake-foreign-suitor-package-release-scam',
+  description: `A fraudster built a fake Facebook friendship with a Myanmar victim, claiming to be a "Korean American" who had served as a peacekeeper in Syria and had gold bars and US dollars to send as a gift, with delivery supposedly delayed by COVID-19-era restrictions. The victim was told to pay a US$1,250 fee to "release" the package, then was pressured into sending roughly another US$5,000 before contact was cut off. Myanmar police investigating the pattern found 51 such cases nationwide in 2020 alone, arrested a Nigerian national described as leading the operation along with a Myanmar woman accomplice, and seized 57 Myanmar bank accounts that had been bought from low-income account holders specifically to receive victims' payments.`,
+  categorySlug: 'romance-scams',
+  alertLevel: 'high',
+  sources: ["Myanmar Ministry of Information"],
+  sourceUrl: 'https://www.moi.gov.mm/moi:eng/article/17021',
+  country: 'MM',
+});
+
+International.push({
+  name: 'Counterfeit Microfinance and Lending Facebook Page Advance-Fee Scam',
+  slug: 'myanmar-fake-microfinance-lending-facebook-advance-fee-scam',
+  description: `Fraudsters create counterfeit Facebook pages that copy the exact name and logo of real Myanmar microfinance companies, gold and jewelry shops, or banks to advertise loans. Victims who apply are told to make an upfront "registration" payment, then are hit with further demands described as fees for documents and forms, before the operator blocks all contact and disappears with the money — leaving victims with no loan and no way to recover what they paid.`,
+  categorySlug: 'debt-relief-scams',
+  alertLevel: 'medium',
+  sources: ["Myanmar Ministry of Information"],
+  sourceUrl: 'https://www.moi.gov.mm/moi:eng/article/17021',
+  country: 'MM',
+});
+
+International.push({
+  name: 'Fake Online Shop "Too-Good" Discount Advance-Payment Scam',
+  slug: 'myanmar-fake-online-shop-advance-payment-scam',
+  description: `The American Chamber of Commerce in Myanmar, working with the US ICT Council for Myanmar and RICE Communications, warned during Myanmar Cybersecurity Month 2024 about fake Facebook Pages and personal accounts posing as online shops. The pages advertise unrealistically steep discounts or giveaways, often timed to the Thadingyut holiday shopping period, then pressure buyers into transferring payment in advance by falsely claiming stock is limited — buyers who pay never receive the goods. The same fake-shop operators also send phishing links asking victims to log in with real account credentials or submit bank card details under the guise of completing a purchase.`,
+  categorySlug: 'online-shopping-scams',
+  alertLevel: 'medium',
+  sources: ['American Chamber of Commerce in Myanmar (AMCHAM)'],
+  sourceUrl: 'https://amchammyanmar.com/news/online-scam-awareness-mcm2024',
   country: 'MM',
 });
 
