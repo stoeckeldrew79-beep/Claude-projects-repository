@@ -14302,6 +14302,25 @@ International.push(
 
 International.push(
   {
+    name: 'NCEL Bank Agent Employee Embezzles NZD 40,000 From Niue Village Church Account',
+    slug: 'niue-ncel-bank-employee-church-embezzlement',
+    description: `A case documented in the Asia/Pacific Group on Money Laundering's October 2025 Mutual Evaluation Report of Niue describes how a village church in Niue reported to Niue Police that funds were missing from its bank account. After Niue Commercial Enterprises Limited (NCEL) — the government-owned company that acts as the sole local agent for Niue's only bank and its only money-transfer service — voluntarily shared account and transaction records, police determined that an NCEL employee had been diverting funds from the church's account into a personal account, fraudulently transferring NZD 40,000 (roughly USD 24,000) before traveling to Australia and spending the proceeds there.
+
+Niue Police prosecuted the case in 2020. The employee pleaded guilty and was sentenced to community service, with the court also recording a conviction, ordering restitution, and prohibiting travel outside Niue for two years; as of the report's assessment period, the defendant was still repaying the stolen funds under a payment plan managed by Niue's Department of Justice.
+
+The same evaluation report notes that Niue's tiny population — roughly 1,700 people — passes nearly all of its household finances through this single bank agent and single money-transfer point, meaning a single compromised employee has outsized reach across the whole community's finances. The report separately notes Niue Police have received no formal reports of residents falling victim to online scams, describing this instead as a growing vulnerability given how much of the island's financial activity runs through one office.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'low',
+    sources: ['Asia/Pacific Group on Money Laundering (APG) Mutual Evaluation Report of Niue, October 2025'],
+    sourceUrl: 'https://www.apgml.org/sites/default/files/2025-10/Niue%20MER%202025%20-%20Published%20version.pdf',
+    country: 'NU',
+    isHistorical: true,
+    firstRecorded: '2020-01-01',
+  },
+);
+
+International.push(
+  {
     name: 'WorldBuy Fake Crypto Trading App Collapse',
     slug: 'mauritania-worldbuy-crypto-trading-app-collapse',
     description: `Mauritanian outlets Cridem and Radiodiffusion Mauritanie Internationale reported that a mobile application called WorldBuy, along with a related platform known as VCT, drew in large numbers of young Mauritanians during 2024 by promising rapid, outsized returns on cryptocurrency trading. The operators encouraged users to open multiple accounts and keep depositing funds, telling them that additional accounts and larger deposits would generate bigger profits. Reporting described the schemes as deliberately targeting people of modest income, with individual victims said to have lost sums as high as 900,000 Mauritanian ouguiya and total losses across victims estimated in the hundreds of millions of old ouguiya. On May 13, 2024, WorldBuy abruptly stopped allowing withdrawals, the app disappeared from download platforms, and its Nouakchott office was found closed with staff gone, leaving depositors unable to recover their money. Victims organized in WhatsApp groups to seek legal recourse and publicly accused banks and mobile payment services of having facilitated the transfers without adequate warning, while also criticizing the state for a lack of consumer protection against the scheme. No arrests or prosecutions of the operators were reported at the time of the coverage.`,
