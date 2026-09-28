@@ -22856,3 +22856,39 @@ International.push({
   isHistorical: false,
   firstRecorded: '2022-02-08',
 });
+
+International.push({
+  name: 'Albania Bank & Postal-Service Impersonation Phishing Campaign',
+  slug: 'albania-bank-postal-impersonation-phishing',
+  description: `Albania's National Cyber Security Authority (AKSK) has warned of an ongoing wave of SMS messages and emails that impersonate banks, the Albanian Postal Service, and other institutions, claiming a parcel needs a payment or address confirmation, that a bank account has been blocked or shows unusual activity, or that a service faces imminent suspension. The messages carry a link to a convincing fake page designed to harvest passwords, one-time verification (OTP) codes, PINs, and bank card details. AKSK issued its public warning on July 10, 2026, stressing that one careless click can be enough to compromise personal data, and urged citizens to verify any such notice only through the institution's own official website or channel, never to disclose an OTP, PIN, or card number in response to an unsolicited link, and to report suspected phishing attempts to both AKSK and the bank or agency being impersonated.`,
+  categorySlug: 'phishing',
+  sources: ['National Cyber Security Authority (AKSK)'],
+  sourceUrl: 'https://albaniandailynews.com/news/cybersecurity-authority-warns-of-phishing-campaigns-impersonating-banks-and-postal-service',
+  country: 'AL',
+  isHistorical: false,
+  firstRecorded: '2026-07-10',
+});
+
+International.push({
+  name: 'NetherexPro Unlicensed Cryptocurrency Investment Platform',
+  slug: 'albania-netherexpro-unlicensed-crypto-platform',
+  description: `Albania's Financial Supervisory Authority (AMF) publicly warned investors on June 18, 2025 that NetherexPro, an online platform soliciting Albanian residents to trade Bitcoin and other digital assets, is not licensed, registered, or recognized by the Authority. Under Albania's capital-markets and distributed-ledger-technology laws, no company may offer or promote investment services involving securities, digital tokens, or virtual currencies inside the country without prior AMF licensing or registration — a requirement NetherexPro does not meet. AMF stated that any investment through such a platform can result in the loss of all invested money in an irreversible manner, since the Authority has no power to protect investors' interests once money moves into an unlicensed, unregistered entity. Anyone approached about a cryptocurrency or securities investment operating in Albania is advised to check the company against AMF's official Register of Licensees before sending any money.`,
+  categorySlug: 'cryptocurrency-scams',
+  sources: ['Autoriteti i Mbikëqyrjes Financiare (AMF)'],
+  sourceUrl: 'https://www.voxnews.al/aktualitet/mund-te-humbni-te-gjitha-parate-amf-paralajmeron-per-platformen-e-pal-i94344',
+  country: 'AL',
+  isHistorical: false,
+  firstRecorded: '2025-06-18',
+});
+
+International.push({
+  name: 'Tirana Fake Real-Estate Agent Apartment-Purchase Fraud',
+  slug: 'albania-tirana-fake-real-estate-agent-fraud',
+  description: `Albanian police say a Tirana couple, Elvis Ramca, 39, and Veriana Ziu, 34, posed as real-estate agents and collected large sums from citizens by promising to purchase apartments on their behalf, then handed victims forged bank payment slips to convince them the funds had genuinely been deposited. The pair allegedly used those same falsified documents against construction companies as well, presenting them as proof of payment to get sales contracts signed for apartments the victims never actually paid for through legitimate channels. The State Police's Economic and Financial Crime Investigation Unit, working with special operational forces in an operation codenamed "Fake Agents," arrested the pair and referred the case to the Tirana Prosecutor's Office, announced January 31, 2026. Anyone hiring an agent to purchase or reserve property in Albania is advised to verify a deposit directly with the receiving bank or construction company, never relying on a payment slip the agent hands over, and to confirm ownership and payment status directly with the developer or the State Cadastre Agency before treating any purchase as finalized.`,
+  categorySlug: 'rental-housing',
+  sources: ['Albanian State Police'],
+  sourceUrl: 'https://albaniandailynews.com/news/fake-real-estate-agents-arrested-in-tirana-fraud-scheme',
+  country: 'AL',
+  isHistorical: false,
+  firstRecorded: '2026-01-31',
+});
