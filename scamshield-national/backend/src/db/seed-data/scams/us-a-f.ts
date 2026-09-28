@@ -1325,6 +1325,26 @@ export const UsAF: SeedScam[] = [
     sourceUrl: 'https://www.ic3.gov/PSA/2011/PSA110510.pdf',
   },
 {
+    name: 'Fake Delivery-Platform "Support" Account-Takeover Scam',
+    slug: 'fake-delivery-platform-support-account-takeover-scam',
+    description:
+      'Unlike scams targeting job seekers, this one targets existing gig delivery drivers and restaurant partners on platforms like DoorDash and Uber Eats. Scammers impersonate the platform\'s own support staff, claiming to be shipping a free tablet or printer, or citing an order problem or refund owed, then ask the driver or restaurant to "verify" their phone, email, login, or bank account. The actual target is an email or text verification code; sharing it lets the scammer take over the account directly and redirect earnings. Never share a verification code with someone you did not contact first, and confirm any "support" request only through the platform\'s own app.',
+    categorySlug: 'job-task-scams',
+    alertLevel: 'medium',
+    sources: ['Federal Trade Commission (FTC)'],
+    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2023/07/scammers-impersonate-delivery-service-support-rip-drivers-restaurants',
+  },
+{
+    name: 'FBI Warning: Fake Job Ads Recruiting Into Forced Labor at Overseas Scam Compounds',
+    slug: 'fbi-fake-job-ads-forced-labor-scam-compounds',
+    description:
+      'Criminal networks post false job ads on social media and employment sites — for tech support, call-center, or beauty-technician roles offering unusually high pay and paid travel — to lure recruits, including Americans, to compounds overseas, mainly in Southeast Asia. Once recruits arrive, traffickers confiscate passports and travel documents, use threats and violence, and manufacture inflated "debts" that trap victims, in some cases forcing them to run cryptocurrency-investment fraud schemes against others. The FBI\'s red flags include unusually high salaries for vague work and a job location that shifts once recruitment is already underway; anyone considering an overseas job offer should research the employer thoroughly, tell family the specific employer and location before traveling, schedule regular check-ins, and enroll in the State Department\'s Smart Traveler Enrollment Program (STEP).',
+    categorySlug: 'job-task-scams',
+    alertLevel: 'high',
+    sources: ['FBI Internet Crime Complaint Center (IC3)'],
+    sourceUrl: 'https://www.ic3.gov/PSA/2023/PSA230522',
+  },
+{
     name: 'Fake Employer Equipment Reimbursement Check Scam',
     slug: 'fake-employer-equipment-reimbursement-check-scam',
     description:
@@ -10040,6 +10060,43 @@ UsAF.push({
     sourceUrl: 'https://insurance.arkansas.gov/news/2024/mar/29/scam-alert-scammers-are-billing-for-unneeded-urinary-catheters/',
     country: 'US',
     state: 'AR',
+});
+
+UsAF.push({
+    name: 'Arkansas Fake Rental Listing Scam Using Stolen Realtor Photos',
+    slug: 'arkansas-fake-rental-listing-stolen-realtor-photos-scam',
+    description: `Scammers copied a licensed North Little Rock realtor's active for-sale listing photos and reposted the home on Facebook Marketplace as a rental, backing it up with a forged property-tax record and a faked photo of the homeowner's passport. A renter identified only as "Krys," working to bring a newborn home from the NICU, ran a background check that "checked out," then paid a deposit and first month's rent via Cash App — losing about $1,300 — before a Google search revealed the house was actually listed for sale, not for rent, through agent Sarah Beth Lowe of The Janet Jones Company. Lowe had already alerted the Arkansas Attorney General's office after other victims contacted her about the fake listing, and then-AG Leslie Rutledge issued a public consumer alert urging renters to research a landlord or rental company online, view a property in person, and never pay a deposit by cash, wire transfer, gift card, or cryptocurrency.`,
+    categorySlug: 'rental-housing',
+    alertLevel: 'medium',
+    sources: ['KATV', "Arkansas Attorney General's Office"],
+    sourceUrl: 'https://katv.com/community/7-on-your-side/ag-r-warns-of-scammers-using-realtors-listings-to-advertise-rental-homes',
+    country: 'US',
+    state: 'AR',
+});
+
+UsAF.push({
+    name: 'Arkansas "Family Emergency" Grandparent Scam Warning',
+    slug: 'arkansas-favorite-grandchild-family-emergency-scam',
+    description: `The Arkansas Attorney General's Office warns seniors about the "family emergency scam," in which an elderly Arkansan receives a call from someone posing as a grandchild or a grandchild's friend claiming to be in an accident, under arrest, or in some other sudden danger, and pressing for money to be wired immediately — often to a location outside the United States. This is general educational guidance from the AG's official "Seniors — Common Scams" resource rather than a single reported incident, and the office's advice is to ask the caller questions only the real grandchild could answer and to independently call the grandchild or another relative to confirm any claimed emergency before wiring any money.`,
+    categorySlug: 'grandparent-scams',
+    alertLevel: 'medium',
+    sources: ["Arkansas Attorney General's Office"],
+    sourceUrl: 'https://arkansasag.gov/divisions/public-protection/seniors/common-scams/',
+    country: 'US',
+    state: 'AR',
+});
+
+UsAF.push({
+    name: 'AI Deepfake Voice and Video Scams Rising in Arkansas',
+    slug: 'arkansas-ai-deepfake-voice-video-scam-warning',
+    description: `Arkansas law enforcement and cybersecurity experts report a rapid increase in scams using AI-generated deepfake video, image, and voice content, part of a nationwide surge of more than 22,000 reports of AI-generated or manipulated content in the prior year. Cybersecurity engineer Chris Wright and University of Arkansas at Little Rock cybersecurity professor Dr. Philip Huff warned that real-time deepfake tools can now convincingly clone a specific person's voice and regional speech patterns — enough to make a fabricated message sound like it genuinely came from someone the recipient knows — and that the technology is evolving faster than laws and detection can keep pace. Experts advise never relying on a voice, video, or text message alone when someone requests money or personal information, and instead confirming the request by calling that person back at a number already known to be legitimate.`,
+    categorySlug: 'ai-deepfake-scams',
+    alertLevel: 'medium',
+    sources: ['KATV'],
+    sourceUrl: 'https://katv.com/news/local/deepfake-scams-are-growing-more-sophisticated-arkansas-cybersecurity-experts-warn',
+    country: 'US',
+    state: 'AR',
+    firstRecorded: '2026-09-07',
 });
 
 UsAF.push({
