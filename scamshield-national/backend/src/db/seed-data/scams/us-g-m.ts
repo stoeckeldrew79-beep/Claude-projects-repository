@@ -32,6 +32,17 @@ export const UsGM: SeedScam[] = [
     sourceUrl: 'https://consumer.ftc.gov/articles/job-scams',
   },
 {
+    name: "Houston Duo's DoorDash Dasher Account-Takeover Wage-Theft Scheme",
+    slug: 'houston-doordash-dasher-account-takeover-wage-theft',
+    description:
+      'Federal prosecutors charged Houston residents Evan Edwards and Oluwatobi Otukelu, indicted September 17, 2024, with calling DoorDash\'s own driver-support line while posing as locked-out Dashers, using stolen personal data — phone numbers, dates of birth, and driver\'s license numbers obtained from co-conspirators — to pass identity checks, and submitting their own photos once DoorDash added selfie verification, then redirecting the real drivers\' wages to accounts they controlled. Otukelu admitted the scheme stole more than $743,000 from at least 138 Dasher victims across at least six states; DoorDash said it had "zero tolerance for fraud" and reimbursed affected drivers. Unlike a phishing link, the attack vector here was the platform\'s own customer-support channel — a reminder that gig workers should be alert to unexpected account-lockout messages and verify any support interaction only through the platform\'s official app or website.',
+    categorySlug: 'job-task-scams',
+    alertLevel: 'high',
+    sources: ['404 Media', 'U.S. Attorney\'s Office, Northern District of California'],
+    sourceUrl: 'https://www.404media.co/men-stole-over-1-million-from-doordash-delivery-drivers-by-impersonating-them-to-customer-service/',
+    country: 'US',
+  },
+{
     name: 'Marketplace Overpayment Scam',
     slug: 'marketplace-overpayment-scam',
     description:
