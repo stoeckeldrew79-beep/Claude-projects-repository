@@ -3415,6 +3415,9 @@ Xiao's case did not reach a public verdict for more than five years. In August 2
 
 Xiao's empire is a rare, fully-documented case study in how disguised cross-ownership can let one person quietly assemble systemic financial risk: by hiding his stakes behind nominee "white gloves," he was able to direct licensed banks, insurers, and trust companies to lend to his own shell companies for over a decade before any regulator could see the full picture, and the eventual unwind required Beijing to nationalize three separate banks rather than simply prosecute one man. It is also a reminder that political protection, however extensive — cultivated here through two decades of bribes — has limits in an authoritarian system: the same state machinery that once let Tomorrow Holding operate unchecked was also the one that could reach into a Hong Kong hotel room and end it.`,
     sourceUrl: 'https://www.scmp.com/business/banking-finance/article/3189498/tomorrow-groups-xiao-jianhua-sentenced-13-years-prison',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Four_Seasons_Hotel_Hong_Kong_viewed_from_IFC_Mall.jpg?width=1200',
+    coverImageCredit: 'Photo: Ceeseven (CC BY-SA 4.0) — the Four Seasons Hotel Hong Kong, where Xiao was taken from his suite in January 2017',
+    coverImagePosition: 50,
 });
 
 NotoriousTZ.push({
@@ -3432,4 +3435,7 @@ The fallout took over a decade to resolve. ASIC filed 19 separate civil actions 
 
 Westpoint's collapse remains one of the clearest illustrations of how a commission structure can corrupt financial advice long before any fraud charge is filed: at roughly five times the ordinary commission rate, planners recommending Westpoint's mezzanine notes had a direct financial stake in not explaining to clients that "mezzanine" meant unsecured and last-in-line, and years of hindsight suggest many never did. The near-total collapse of the criminal case against Carey — undone by the regulator's own disclosure failure rather than any finding that the underlying conduct was legitimate — is a separate lesson: even a well-documented $388 million collapse can end with its central figure facing only fines and a lost license, if the prosecution's own process breaks down first.`,
     sourceUrl: 'https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2010-releases/10-274ad-asic-secures-sixth-westpoint-settlement/',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Perth_CBD_skyline,_Western_Australia,_2022,_02.jpg?width=1200',
+    coverImageCredit: 'Photo: Kgbo (CC BY-SA 4.0) — Perth, where Westpoint Group was based',
+    coverImagePosition: 50,
 });
