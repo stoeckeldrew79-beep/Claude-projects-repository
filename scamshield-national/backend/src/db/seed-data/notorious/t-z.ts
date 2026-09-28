@@ -3439,3 +3439,20 @@ Westpoint's collapse remains one of the clearest illustrations of how a commissi
     coverImageCredit: 'Photo: Kgbo (CC BY-SA 4.0) — Perth, where Westpoint Group was based',
     coverImagePosition: 50,
 });
+
+NotoriousTZ.push({
+    title: 'Vesttoo and the Billions in Fake Letters of Credit That Broke a Reinsurance Startup',
+    slug: 'vesttoo-fake-letters-of-credit-collapse',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'international', 'insurance-fraud', 'israel'],
+    body: `Vesttoo was an Israeli insurtech startup that had, by 2023, reached a peak valuation of roughly $1 billion by pitching a genuinely novel idea: using artificial intelligence and blockchain technology to match insurers seeking reinsurance with institutional capital markets investors, cutting out much of the traditional reinsurance industry's overhead. Central to the pitch was that the investor side of every deal was backed by letters of credit (LOCs) — bank-issued guarantees that, in theory, made the arrangement as safe as the issuing bank itself. Vesttoo told its insurance-company clients and investors that these LOCs came from major, reputable banks, giving the whole structure the appearance of conventional, bulletproof financial infrastructure.
+
+That appearance collapsed in July 2023, when a counterparty attempted to draw down on one of the letters of credit backing a deal and discovered that the issuing bank had no record of it ever existing. The letter was fabricated. Vesttoo's own subsequent investigation, followed by an external probe led by risk-consulting firm Kroll, found that the problem wasn't an isolated incident: billions of dollars in letters of credit across Vesttoo's book — reported variously in the $2.35 billion to $4 billion range depending on the source and date of the estimate — turned out to be fraudulent, backed by no real bank commitment at all.
+
+Responsibility centered on Vesttoo's own senior leadership. Co-CEO Yaniv Bertele and chief capital officer Alon Lifshitz were first placed on forced leave as the scale of the fake LOCs became clear, and were later formally fired following the Kroll investigation's findings. The investigation also implicated other individuals in the scheme, including Udi Ginati and Josh Rurka, and pointed to the involvement of a former employee of China Construction Bank (Asia) in helping fabricate documentation designed to withstand the routine verification checks counterparties would ordinarily perform on a bank-issued instrument.
+
+The fallout was immediate and severe. Vesttoo filed for Chapter 11 bankruptcy protection in Delaware on August 14–15, 2023, just weeks after the fraud came to light, as the insurers and reinsurance clients who had relied on the fabricated letters of credit were left exposed to reinsurance arrangements that had never actually been backed by the capital they were promised. A company that had marketed itself as replacing old-fashioned reinsurance risk with the certainty of AI-vetted, bank-guaranteed capital instead demonstrated that the entire structure depended on nobody checking the letters of credit against the issuing banks' own records until it was already too late.
+
+Vesttoo's collapse is a reminder that even a company built around verification technology can be undone by the most basic failure of all: nobody independently confirmed with the issuing banks that the instruments underlying billions of dollars in deals actually existed until a routine drawdown request forced the question. A "letter of credit" is only as good as the issuing bank's own confirmation of it, and for years, none of Vesttoo's insurance-industry counterparties appear to have demanded that confirmation directly.`,
+    sourceUrl: 'https://www.insurancejournal.com/news/national/2025/08/15/835909.htm',
+});
