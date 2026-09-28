@@ -5110,7 +5110,7 @@ GuidesNS.push({
   slug: `power-of-attorney-financial-abuse-guide`,
   author: `ScamShield Editorial`,
   tags: [`guide`, `power-of-attorney-abuse`, `elder-financial-exploitation`],
-  sourceUrl: `https://www.consumerfinance.gov/consumer-tools/managing-someone-elses-money/`,
+  sourceUrl: `https://files.consumerfinance.gov/f/documents/cfpb_preventing-elder-financial-abuse_friends-family-guide.pdf`,
   coverImage: `https://commons.wikimedia.org/wiki/Special:FilePath/Legal_Contract_%26_Signature_-_Warm_Tones.jpg?width=1200`,
   coverImageCredit: `Photo: Blogtrepreneur (CC BY 2.0)`,
   coverImagePosition: 50,
