@@ -7664,4 +7664,7 @@ Vizard agreed not to contest the civil case on the understanding that ASIC would
 
 The Vizard case is a study in how insider trading can slip past a criminal courtroom even when a civil court finds it proven and dishonest: his verbal, undocumented instructions to his own investment company left no email or memo for prosecutors to build a case on, and it was that absence of a paper trail — not any real doubt about what happened — that kept the matter civil rather than criminal. It's also a reminder of how mundane "inside information" can be: none of the three companies Vizard traded ahead of had anything to do with Telstra's core business, but his seat on its board let him profit from all three simply by knowing which deal was about to be announced.`,
     sourceUrl: 'https://www.abc.net.au/news/2005-07-28/vizard-fined-390000-banned-from-boards/2068542',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Melbourne_city_skyline_from_the_perspective_of_Port_Melbourne.jpg?width=1200',
+    coverImageCredit: 'Photo: Wanderingchina (CC BY 4.0) — Melbourne, where Vizard built his television career',
+    coverImagePosition: 50,
 });
