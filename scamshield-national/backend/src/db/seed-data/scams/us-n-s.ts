@@ -10270,3 +10270,42 @@ The pattern is a recognizable one for CNMI residents after any declared typhoon 
     state: 'MP',
     firstRecorded: '2026-04-11',
 });
+
+UsNS.push({
+    name: 'Ohio Utility Disconnection Threat and Prepaid Card Scam',
+    slug: 'ohio-utility-disconnection-prepaid-card-scam',
+    description: `The Office of the Ohio Consumers' Counsel warns that scammers call, text, or show up in person posing as representatives of Ohio electric, gas, or water utilities, falsely claiming a customer's service will be shut off within hours unless an immediate payment is made on a prepaid debit card or gift card. Related versions of the scam include callers offering fake rate discounts or refunds that require verifying personal or account information first, and impostors posing as door-to-door utility workers who demand a fee before performing supposed repairs or meter work. The OCC notes that scammers often use caller-ID spoofing so a call appears to come from the real utility, and advises hanging up and contacting the utility directly using the number printed on a past bill — real Ohio utilities send advance written disconnection notices and never demand instant payment by prepaid card.`,
+    categorySlug: 'utility-scams',
+    sources: ['Office of the Ohio Consumers\' Counsel'],
+    sourceUrl: 'https://www.occ.ohio.gov/factsheet/how-avoid-utility-related-scams-and-fraud',
+    country: 'US',
+    state: 'OH',
+    isHistorical: false,
+});
+
+UsNS.push({
+    name: 'Ohio SNAP EBT Card Skimming Fraud',
+    slug: 'ohio-snap-ebt-card-skimming-fraud',
+    description: `The Ohio Department of Job and Family Services (ODJFS) warned on December 19, 2024 of an uptick in SNAP benefit theft, particularly in Cuyahoga County, where criminals place fraudulent skimming devices over point-of-sale card readers to steal EBT card numbers and PINs when recipients swipe. ODJFS Director Matt Damschroder urged recipients to use the state's ConnectEBT app's "Lock Everywhere" feature, set a unique PIN and change it monthly, examine card readers for tampering before use, and never share a card number or PIN, since ODJFS will never ask for either. From October 1, 2022 through December 1, 2024, ODJFS had issued $12.6 million in reimbursements to 25,400 Ohioans whose SNAP benefits were stolen this way, though the federal program authorizing that replacement-benefits reimbursement was set to end in December 2024.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'high',
+    sources: ['Ohio Department of Job and Family Services'],
+    sourceUrl: 'https://dam.assets.ohio.gov/image/upload/jfs.ohio.gov/RELEASES/December2024SNAPFraudRelease.pdf',
+    country: 'US',
+    state: 'OH',
+    isHistorical: false,
+    firstRecorded: '2024-12-19',
+});
+
+UsNS.push({
+    name: 'Sham Ohio UCC Filing Fee Mailer Scam',
+    slug: 'ohio-sham-ucc-filing-fee-mailer-scam',
+    description: `Ohio Secretary of State Frank LaRose warned businesses about a deceptive mailer, styled to look like an official government notice, offering to "obtain and mail a hard copy of your Ohio UCC Financing Statement Form" for a $90 fee — the same document any business can download and print for free directly from the state's own ucc.ohiosos.gov portal. LaRose's office said the mailers have no connection to the Ohio Secretary of State's office or any government entity, and referred the matter to the Ohio Attorney General's consumer protection division for investigation. Ohio businesses were advised to verify any filing-fee solicitation directly with the Secretary of State's office at business@OhioSoS.gov or 877-767-3453 before paying, since routine business filings obtained directly from the state are cheap or free.`,
+    categorySlug: 'government-impersonation',
+    sources: ['Ohio Secretary of State', 'Times Leader'],
+    sourceUrl: 'https://www.timesleaderonline.com/news/local-news/2022/09/larose-issues-warning-about-a-sham-mailer-targeting-ohio-businesses/',
+    country: 'US',
+    state: 'OH',
+    isHistorical: false,
+    firstRecorded: '2022-09-01',
+});
