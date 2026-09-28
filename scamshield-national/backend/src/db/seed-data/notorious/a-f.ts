@@ -10609,3 +10609,18 @@ Chey's case is a study in how little two separate criminal fraud convictions, a 
     coverImageCredit: 'Photo: Laurie Nevay (CC BY-SA 2.0) — Seoul, home of SK Group’s headquarters',
     coverImagePosition: 50,
 });
+
+NotoriousAF.push({
+    title: 'Abdulmalek Janmohamed and the KSh 34 Billion Looting of Imperial Bank Kenya',
+    slug: 'imperial-bank-kenya-janmohamed-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'international', 'kenya'],
+    body: `Imperial Bank Limited was a mid-sized, well-regarded Kenyan commercial bank whose group managing director, Abdulmalek Janmohamed, had run its day-to-day operations for years with almost no effective board oversight. Between 2002 and 2015, Janmohamed used that unchecked authority to divert depositor funds out of the bank through a scheme that left even his own board blindsided until after his death.
+
+According to reporting on the case, Janmohamed directed that more than KSh 34 billion be transferred out of the bank to more than 20 related clients and entities in a fraudulent scheme that bypassed the bank's normal loan and credit-approval controls. The bank's books were falsified to conceal the resulting hole from auditors and from the Central Bank of Kenya (CBK).
+
+Janmohamed died of a sudden cardiac arrest on September 15, 2015, at age 56. Within days, acting managing director Naeem Shah and deputy managing director James Kaburu disclosed the scheme to the rest of the board, which then approached the CBK. On October 13, 2015, the Central Bank of Kenya placed Imperial Bank under receivership with the Kenya Deposit Insurance Corporation, freezing depositors out of their accounts for years while the extent of the fraud was untangled.
+
+The criminal case against surviving co-conspirators dragged on for years, complicated at points by the unavailability of witnesses based in the United States, and depositors were repaid only gradually and partially as the bank was wound down. Imperial Bank's collapse illustrates a recurring failure mode in mid-sized banking systems: a single long-tenured insider with informal, unchallenged authority over a bank's cash movements, operating for more than a decade inside a regulatory system that either couldn't or wouldn't catch it — and whose death, rather than a whistleblower or an audit, is what finally forced the fraud into the open.`,
+    sourceUrl: 'https://nation.africa/kenya/news/how-imperial-s-founders-siphoned-billions-from-banks-1142070',
+});
