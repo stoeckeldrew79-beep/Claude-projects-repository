@@ -3465,3 +3465,18 @@ Vesttoo's collapse is a reminder that even a company built around verification t
     coverImageCredit: 'Photo: RaphaelQS, Wikimedia Commons (CC BY-SA 4.0) — Tel Aviv, home of Vesttoo\'s insurtech headquarters',
     coverImagePosition: 50,
 });
+
+NotoriousTZ.push({
+    title: 'Victor Posner and the Inflated Land Donation That Became a Federal Tax Fraud Conviction',
+    slug: 'victor-posner-charitable-donation-tax-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'tax-fraud', 'historical'],
+    body: `Victor Posner was a Miami-based financier and corporate raider who, through a web of holding companies, controlled Royal Crown Cola, Arby's, Sharon Steel Corporation, and a string of other businesses, and was at various points described as the highest-paid executive in America. In the late 1970s, Posner donated 22 acres of land to Miami Christian College and claimed a charitable tax deduction based on the property's appraised value. Federal prosecutors alleged the appraisal was deliberately inflated, and that the deduction cheated the Internal Revenue Service out of more than $1 million.
+
+The case dragged on for nearly eight years, including an earlier conviction that was overturned due to jury irregularities. On September 29, 1987, Posner pleaded no contest to a revised set of charges: one count of conspiracy, four counts of tax evasion, and five counts of filing false federal income tax returns. The plea avoided the risk of further trials but left sentencing, and the question of what consequence a man of Posner's wealth would actually face, to U.S. District Judge Eugene P. Spellman.
+
+On February 12, 1988, Spellman handed down a sentence built around an unusual condition rather than prison time: five years of probation, the maximum $75,000 fine, and a requirement that Posner personally spend at least $3 million and roughly 20 hours a week — about 5,000 hours in total — on homeless-assistance work in South Florida, including one day a week working five hours directly at a Miami shelter. Separately, Posner also had to pay back taxes, interest, and civil penalties the IRS estimated at $4.2 million, on top of the criminal fine.
+
+Posner's sentence became a widely cited example of how differently white-collar tax fraud could be punished compared to other crimes of similar financial scale: instead of a prison term, a wealthy defendant was ordered to fund and personally perform charitable labor, a resolution critics saw as letting money substitute for accountability even as it forced Posner into direct, sustained contact with the population his case had, in a roundabout way, been about exploiting a charitable-giving system meant to help. The case remains a reference point for how flexible federal sentencing could be in tax-fraud cases built around inflated appraisals rather than a more straightforward theft of funds.`,
+    sourceUrl: 'https://www.upi.com/Archives/1988/02/12/A-federal-judge-Friday-sentenced-Victor-Posner-to-five/4207571640400/',
+});
