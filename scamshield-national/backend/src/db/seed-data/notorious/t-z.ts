@@ -3480,3 +3480,18 @@ On February 12, 1988, Spellman handed down a sentence built around an unusual co
 Posner's sentence became a widely cited example of how differently white-collar tax fraud could be punished compared to other crimes of similar financial scale: instead of a prison term, a wealthy defendant was ordered to fund and personally perform charitable labor, a resolution critics saw as letting money substitute for accountability even as it forced Posner into direct, sustained contact with the population his case had, in a roundabout way, been about exploiting a charitable-giving system meant to help. The case remains a reference point for how flexible federal sentencing could be in tax-fraud cases built around inflated appraisals rather than a more straightforward theft of funds.`,
     sourceUrl: 'https://www.upi.com/Archives/1988/02/12/A-federal-judge-Friday-sentenced-Victor-Posner-to-five/4207571640400/',
 });
+
+NotoriousTZ.push({
+    title: 'Wegelin & Co.: The 271-Year-Old Swiss Bank That Pleaded Guilty and Ceased to Exist',
+    slug: 'wegelin-co-swiss-bank-tax-evasion-collapse',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'tax-fraud', 'international', 'historical'],
+    body: `Wegelin & Co., founded in 1741, was Switzerland's oldest private bank when U.S. prosecutors came after it. As UBS came under U.S. investigation for helping Americans evade taxes in the mid-2000s, Wegelin deliberately recruited UBS's fleeing American clients, marketing the fact that it had no branches or correspondent presence in the United States as a shield against U.S. law enforcement — a pitch built explicitly around staying beyond America's legal reach.
+
+Managing partner Otto Bruderer later admitted the bank conspired from roughly 2002 through 2010 to help U.S. taxpayers hide more than $1.2 billion in undeclared assets from the IRS through numbered and pseudonymous Swiss accounts, filing false U.S. tax returns on their behalf. On January 3, 2013, Wegelin pleaded guilty in Manhattan federal court, before U.S. District Judge Jed S. Rakoff, to one count of conspiracy to evade taxes, file false federal returns, and defraud the IRS — the first time a foreign bank had ever been criminally indicted by the United States for facilitating tax evasion, and the first guilty plea by a foreign bank on tax charges of this kind.
+
+The financial reckoning came to roughly $74 million in total: $20 million in restitution to the IRS, a $22.05 million fine, and $15.8 million in forfeited fees from the undeclared accounts, on top of $16.2 million already forfeited in April 2012 from the bank's U.S. correspondent account. Having built its American client business around having no U.S. branch network to begin with, Wegelin had nothing left to fall back on once its name was permanently tied to a federal criminal conviction — the 271-year-old institution wound down and ceased operating.
+
+Wegelin's collapse is a reminder that a bank's marketing pitch can become the very evidence that destroys it: the same "no U.S. presence" selling point that made the bank attractive to Americans trying to hide money also meant it had no ongoing U.S. business relationships to leverage or bargain with once federal prosecutors came calling, leaving guilty plea and closure as the only paths available once the scheme was exposed.`,
+    sourceUrl: 'https://www.justice.gov/archive/usao/nys/pressreleases/January13/WegelinPleaPR.php',
+});
