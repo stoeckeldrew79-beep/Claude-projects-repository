@@ -5913,3 +5913,17 @@ UsTZ.push({
     isHistorical: true,
     firstRecorded: '2011-01-01',
 });
+
+UsTZ.push({
+    name: 'Cancer Fund of America Sham Charity Fraud',
+    slug: 'tennessee-cancer-fund-of-america-charity-fraud',
+    description: `Cancer Fund of America, headquartered at 2901 Breezewood Lane in Knoxville, Tennessee, was one of four affiliated charities the FTC, all 50 state attorneys general, and the District of Columbia charged in May 2015 with bilking more than $187 million from donors between 2008 and 2012 under the pretense of helping cancer patients with pain medication, transportation to chemotherapy, and hospice care. In 2013 alone the Knoxville-based charity raised $86.8 million through telemarketing solicitors but spent only about $868,000 of it — roughly 1 percent — on direct aid, with the remainder going to fundraisers and to founder James Reynolds Sr., along with his ex-wife, son, and other family and friends who ran the affiliated charities. Reynolds agreed to a settlement dissolving Cancer Fund of America and permanently banning him from future charity work. Before donating, verify a charity's actual program spending — through a state charity registry, the IRS Tax Exempt Organization Search, or a rating service like Charity Navigator — rather than trusting a compelling telemarketing pitch alone.`,
+    categorySlug: 'charity-scams',
+    alertLevel: 'medium',
+    sources: ['Federal Trade Commission', 'WTVC NewsChannel 9'],
+    sourceUrl: 'https://newschannel9.com/news/local/americas-2nd-worst-charity-based-in-knoxville-agrees-to-shut-down',
+    country: 'US',
+    state: 'TN',
+    isHistorical: true,
+    firstRecorded: '2015-05-19',
+});

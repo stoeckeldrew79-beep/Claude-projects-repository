@@ -5739,6 +5739,27 @@ export const UsAF: SeedScam[] = [
     alertLevel: 'medium',
     sources: ['FinCEN', 'U.S. Department of the Treasury'],
     sourceUrl: 'https://www.fincen.gov/system/files/2024-12/Alert-FinCEN-Scams-FINAL508.pdf',
+  },
+{
+    name: 'AI Voice-Cloned Mortgage Lender Impersonation Targeting Homebuyers\' Closing Funds',
+    slug: 'ai-voice-clone-mortgage-lender-homebuyer-closing-fraud',
+    description:
+      'Unlike a scammer impersonating a seller or title officer to redirect an escrow company\'s outgoing payoff wire, this variation targets the buyer directly: fraudsters combine a spoofed email, a spoofed caller ID matching the buyer\'s real mortgage lender, and an AI-cloned voice that sounds like the actual lender the buyer has worked with for weeks, convincing the buyer to wire their own closing funds to an account controlled by the scammer before the money ever reaches escrow. A West Michigan couple lost $66,000 this way, discovering the fraud only when the title company called on closing day to confirm the funds had never arrived; as of the case being reported in September 2026, the money had not been recovered. The FBI\'s 2025 Internet Crime Report found AI-related fraud complaints topped $893 million and real estate wire fraud losses exceeded $275 million, up 58.5% year over year. Before wiring any closing funds, call your lender back using a number independently looked up — never one provided by the caller or in the email — to verbally confirm wiring instructions.',
+    categorySlug: 'ai-deepfake-scams',
+    alertLevel: 'high',
+    sources: ['FBI Internet Crime Report (2025)'],
+    sourceUrl: 'https://www.aol.com/articles/heard-sounded-mortgage-professionals-voice-161326000.html',
+    state: 'MI',
+  },
+{
+    name: 'AI Chatbot Impersonation of Social Security Beneficiaries to Divert Direct Deposits',
+    slug: 'ssa-ai-chatbot-voice-impersonation-direct-deposit-diversion',
+    description:
+      'The Social Security Administration\'s Office of Inspector General warns that criminals are using AI chatbots and AI-generated voices — in some cases paired with a real SSA employee\'s name to appear legitimate — to impersonate actual Social Security beneficiaries on calls to the agency\'s own customer-service staff, using personal data bought from the dark web to pass identity checks, then redirecting the beneficiary\'s monthly payment to a bank account the criminals control. SSA OIG Chief Strategy Officer Chad Bungard described this "deepfake technology that can realistically mimic human voices and images" as actively fueling attempts "to change direct-deposit information, spoof identities and impersonate trusted institutions," citing a Deloitte estimate that generative AI could be responsible for roughly $40 billion in fraud by 2027. Unlike scams that impersonate a family member or official to deceive a victim, this scheme impersonates the victim\'s own identity to a federal agency\'s call center. Beneficiaries should regularly check their My Social Security online account for any unexpected direct-deposit change and report suspected fraud to the SSA OIG at oig.ssa.gov.',
+    categorySlug: 'ai-deepfake-scams',
+    alertLevel: 'high',
+    sources: ['Social Security Administration Office of Inspector General', 'Nextgov/FCW'],
+    sourceUrl: 'https://www.nextgov.com/artificial-intelligence/2026/09/ai-changing-game-fraud-threats-and-prevention-efforts-ssa-oig-official-says/416033/',
   },];
 
 UsAF.push({
