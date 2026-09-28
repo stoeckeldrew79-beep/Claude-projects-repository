@@ -5186,6 +5186,10 @@ GuidesNS.push({
   slug: `sewer-service-debt-collection-default-judgment-guide`,
   author: `ScamShield Editorial`,
   tags: [`guide`, `sewer-service`, `debt-collection-lawsuit-abuse`],
+  coverImage: `https://commons.wikimedia.org/wiki/Special:FilePath/New_York_State_Supreme_Courthouse_60_Centre_Street_from_southwest.jpg?width=1200`,
+  coverImageCredit: `Photo: Beyond My Ken (CC BY-SA 4.0) — the New York County courthouse, whose civil courts were central to the Sykes v. Mel S. Harris sewer-service case`,
+  coverImagePosition: 50,
+  // representative photo — replace with an exact match if found
   sourceUrl: `https://www.ftc.gov/sites/default/files/documents/reports/federal-trade-commission-bureau-consumer-protection-staff-report-repairing-broken-system-protecting/debtcollectionreport.pdf`,
   body: `A debt buyer or collection law firm files a real lawsuit over a real (often old and resold) debt, and under the law a defendant has to be personally handed the summons and complaint, or served some other way courts recognize, before a case can move forward. In a "sewer service" scheme, that step never actually happens — the process server can't find the person, doesn't bother trying, or simply never goes to the address at all — and then signs and files a sworn affidavit of service stating, falsely, that delivery was completed. Courts generally treat a signed affidavit as reliable proof on its face, so with no answer ever filed by a defendant who was never told a case existed, the court has little choice but to enter a default judgment for the plaintiff, unopposed and often within weeks.
 

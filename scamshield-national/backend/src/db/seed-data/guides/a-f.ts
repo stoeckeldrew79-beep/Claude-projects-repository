@@ -9420,6 +9420,10 @@ GuidesAF.push({
   slug: 'deepfake-identity-verification-fraud-guide',
   author: 'ScamShield Editorial',
   tags: ['guide', 'deepfake-identity-verification-fraud'],
+  coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Biometric_Facial_Recognition_at_Houston_International_Airport_(26902931678).jpg?width=1200',
+  coverImageCredit: 'Photo: Donna Burton / U.S. Customs and Border Protection (Public Domain)',
+  coverImagePosition: 50,
+  // representative photo — replace with an exact match if found
   sourceUrl: 'https://www.fincen.gov/system/files/shared/FinCEN-Alert-DeepFakes-Alert508FINAL.pdf',
   body: `Opening a bank account, a credit card, or a loan online usually means uploading a photo of your driver's license or passport and then taking a quick "liveness check" — a selfie or a short video where you're asked to blink, turn your head, or read a number aloud, so the institution can confirm a real, living person matches the ID. Criminals have found a way around both halves of that check at once: generative AI tools can alter or fabricate the ID image itself, and a deepfake video — or a pre-recorded clip fed through a third-party webcam plugin instead of a live camera feed — can stand in for the "live" person the system is trying to verify. Once the fake package passes, the account isn't opened in the criminal's name; it's opened using a real victim's stolen Social Security number and photo, or a "synthetic identity" that blends a real SSN with a fabricated name and date of birth.
 
