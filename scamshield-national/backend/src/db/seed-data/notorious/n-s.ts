@@ -7668,3 +7668,20 @@ The Vizard case is a study in how insider trading can slip past a criminal court
     coverImageCredit: 'Photo: Wanderingchina (CC BY 4.0) — Melbourne, where Vizard built his television career',
     coverImagePosition: 50,
 });
+
+NotoriousNS.push({
+    title: 'Sherkhan Farnood, Khalilullah Ferozi, and the $900 Million Collapse of Kabul Bank',
+    slug: 'kabul-bank-farnood-ferozi-collapse',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'international', 'banking-fraud', 'afghanistan'],
+    body: `Kabul Bank opened in 2004 as Afghanistan's first private bank of the post-Taliban era, founded by chess champion and carpet trader Sherkhan Farnood together with Khalilullah Ferozi. Within a few years it had become the country's largest bank by deposits, the institution the Afghan government itself used to pay the salaries of soldiers, police and teachers across the country — a position of trust that made it, in effect, critical financial infrastructure for a state still being rebuilt after decades of war.
+
+Behind that public-facing role, Farnood and Ferozi were running the bank as a personal piggy bank. Auditors and investigators later found that a small circle of insiders — roughly 19 individuals and their associated companies, including politically connected shareholders tied to the family of then-president Hamid Karzai and First Vice President Mohammed Qasim Fahim — received the overwhelming majority of the bank's loans, many of them undocumented, uncollateralized, and never intended to be repaid. Farnood was found to have personally misappropriated roughly $278 million and Ferozi roughly $530 million, funneling depositors' money into luxury villas in Dubai, including properties along the man-made Palm Jumeirah, and other overseas real estate held through shell companies, while ordinary Afghan depositors and the bank's regulators were told nothing was wrong.
+
+The scheme unraveled in 2010 when a liquidity crisis triggered a bank run, forcing Afghanistan's central bank to intervene and eventually place Kabul Bank into conservatorship. The resulting hole in the bank's books came to roughly $900 million — a sum equivalent to a significant share of Afghanistan's entire annual economic output at the time — and international donors, who were then bankrolling much of the Afghan state, demanded a real accounting before continuing to fund a government whose banking system had just been gutted from the inside by its own founders.
+
+Farnood and Ferozi were convicted in Afghan courts in 2013 and initially sentenced to five years each — a term so widely seen as disproportionate to the scale of the fraud that an appeals court trebled both sentences to 15 years. Neither man served the full term under ordinary conditions: Farnood died of a heart attack in Bagram prison in 2018, and Ferozi was released to house arrest in August 2019, citing health grounds — a release critics, including anti-corruption advocate Sarah Chayes, argued had less to do with genuine medical necessity than with allegations that a roughly $30 million payment helped secure it, an allegation that was never independently confirmed. Recovery of the missing money remained minimal years after the collapse, leaving Afghan taxpayers and international donors to absorb most of the loss.
+
+The Kabul Bank collapse illustrates how a systemically important bank can be captured almost entirely by insiders when the people meant to oversee it are the same people benefiting from the fraud, and political connections insulate the scheme from real scrutiny until a liquidity crunch forces the truth into the open. It also shows how thin the line can be between a criminal justice system's formal verdict and its real-world consequences: a sentence tripled on appeal for being too lenient still ended, for both men, in outcomes — a prison death and a release under disputed circumstances — that left the vast majority of $900 million in stolen depositor and donor money never meaningfully recovered.`,
+    sourceUrl: 'https://www.rferl.org/a/kabul-bank-fraud-report/24783476.html',
+});
