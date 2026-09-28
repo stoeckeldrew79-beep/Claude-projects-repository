@@ -22745,3 +22745,41 @@ International.push({
   isHistorical: false,
   firstRecorded: '2026-06-01',
 });
+
+International.push({
+  name: 'Costa Rica "Secuestro Virtual" (Virtual Kidnapping) Extortion Scheme',
+  slug: 'costa-rica-virtual-kidnapping-extortion',
+  description: `Criminals in Costa Rica lure a victim to an isolated meeting point under the pretext of hiring a service — construction, transport, or a sales appointment. Once there, the victim receives a call falsely claiming they are under surveillance and cannot leave, while accomplices simultaneously call the victim's family claiming a kidnapping has occurred and demanding an urgent bank transfer for their release. No one is actually being held; the entire scheme runs on the two simultaneous phone calls and the panic they manufacture in both the isolated victim and the frightened family. The Organismo de Investigación Judicial (OIJ) recorded at least 41 reported cases between January and May 2026, with the highest monthly total in March and cases concentrated in San José, Cartago, and Alajuela provinces, including the cantons of Pérez Zeledón, Santa Ana, and Mora.`,
+  categorySlug: 'family-emergency-scams',
+  alertLevel: 'high',
+  sources: ['Organismo de Investigación Judicial (OIJ)', 'La Nación'],
+  sourceUrl: 'https://www.nacion.com/sucesos/oij-alerta-por-aumento-de-secuestros-virtuales-asi/DYBZNKGNVBAH3NPAT5U5FJGUUA/story/',
+  country: 'CR',
+  isHistorical: false,
+});
+
+International.push({
+  name: 'Fake MEIC Impersonation Phishing Targeting Costa Rican Small Businesses',
+  slug: 'costa-rica-meic-impersonation-phishing',
+  description: `Callers and WhatsApp messages impersonating Costa Rica's Ministerio de Economía, Industria y Comercio (MEIC) tell small-business owners they must "update" their Pyme Registry entry or renew a digital signature, then ask for banking credentials, passwords, or a click on an external link to "complete" the procedure — some versions invoke the names of real MEIC staff to appear more credible. MEIC has publicly stated it never places calls requesting banking data, passwords, or financial information, does not ask businesses to access external links for digital-signature processes or Pyme Registry services, and does not generate digital signatures directly, urging business owners to verify any such request only through the ministry's own official channels.`,
+  categorySlug: 'government-impersonation',
+  alertLevel: 'medium',
+  sources: ['Ministerio de Economía, Industria y Comercio (MEIC)', 'Delfino.cr'],
+  sourceUrl: 'https://delfino.cr/2026/04/meic-alerta-sobre-posibles-estafas-a-nombre-de-la-institucion-y-llama-a-extremar-precauciones',
+  country: 'CR',
+  isHistorical: false,
+  firstRecorded: '2026-04-23',
+});
+
+International.push({
+  name: 'Fake SUGEF-Backed Loan Companies Advance-Fee Fraud',
+  slug: 'costa-rica-sugef-impersonation-loan-fraud',
+  description: `Unlicensed outfits operating under names such as "Bancatica Cooperativa Cafsa" and "Tzion Bankia LLC. SC" advertise loans in Costa Rica with unusually low interest rates, long terms, and no collateral or credit check, while misusing the name and official logo of SUGEF (the Superintendencia General de Entidades Financieras, Costa Rica's financial regulator) and forging documents with impersonated SUGEF employee signatures to appear officially authorized. Applicants are told to pay an upfront fee before the loan is disbursed, but the loan never materializes. SUGEF has publicly clarified that it does not itself manage credit, charge commissions for loan processing, accept deposits, participate in investor meetings about fund applications, or endorse client contracts, and that any entity invoking its name to justify such requests is acting outside its supervisory scope.`,
+  categorySlug: 'government-impersonation',
+  alertLevel: 'high',
+  sources: ['Superintendencia General de Entidades Financieras (SUGEF)', 'Estrategia y Negocios'],
+  sourceUrl: 'https://www.revistaeyn.com/finanzas/autoridades-alertan-de-ofrecimientos-de-creditos-fraudulentos-en-costa-rica-IE18859331',
+  country: 'CR',
+  isHistorical: false,
+  firstRecorded: '2024-04-24',
+});
