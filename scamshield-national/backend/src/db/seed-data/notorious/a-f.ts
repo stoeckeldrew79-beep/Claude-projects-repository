@@ -10585,6 +10585,9 @@ Accountability proved harder to pin down than the money-laundering findings them
 
 ABLV remains one of the clearest examples of how quickly an entire bank can collapse once its business model is exposed as fraud enablement rather than banking: a single US financial-intelligence notice, with no criminal indictment attached, wiped out Latvia's third-largest lender within two weeks — faster than most criminal fraud prosecutions even reach trial. It is also a reminder of the gap that can open between institutional consequences and individual ones: the bank itself was effectively erased, but the two men who built and owned it were never criminally charged over the conduct FinCEN described, spending the years afterward in civil courts arguing procedure rather than facing prosecutors.`,
     sourceUrl: 'https://www.fincen.gov/news/news-releases/fincen-names-ablv-bank-latvia-institution-primary-money-laundering-concern-and',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Riga_Skyline_Panorama,_Latvia_-_Diliff.jpg?width=1200',
+    coverImageCredit: 'Photo: DAVID ILIFF (CC BY-SA 3.0 / GFDL) — Riga, where ABLV Bank was headquartered',
+    coverImagePosition: 50,
 });
 
 NotoriousAF.push({
@@ -10602,4 +10605,7 @@ Chey did not serve the full term. On August 13, 2015, President Park Geun-hye gr
 
 Chey's case is a study in how little two separate criminal fraud convictions, a decade apart, can ultimately cost a chaebol chairman: a suspended sentence and a pardon the first time, a shortened sentence and another pardon the second, and continued leadership of SK Group throughout — he remains its chairman today. Each pardon was justified publicly in terms of the company's, and the country's, economic interests rather than the underlying conduct, which is precisely the pattern critics of Korea's recurring chaebol pardons have pointed to for years: real convictions, on real fraud, that rarely translate into real time served.`,
     sourceUrl: 'https://www.koreaherald.com/article/3651682',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Skyline_view_from_Seoul_City_(South_Korea).jpg?width=1200',
+    coverImageCredit: 'Photo: Laurie Nevay (CC BY-SA 2.0) — Seoul, home of SK Group’s headquarters',
+    coverImagePosition: 50,
 });
