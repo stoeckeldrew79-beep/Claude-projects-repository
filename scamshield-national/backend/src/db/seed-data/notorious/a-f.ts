@@ -10623,3 +10623,18 @@ Jurado was later extradited to the United States to face a separate federal indi
 Jurado's case remains a textbook illustration of the "layering" stage of money laundering — the deliberate multiplication of transactions and jurisdictions meant to make tracing dirty money prohibitively difficult even for sophisticated investigators. It's also a reminder that even an elaborate scheme built by an Ivy League-trained economist, spanning nine countries and over a hundred bank accounts, can unravel over something as mundane as an appliance's noise level: the most carefully engineered financial camouflage still has to survive contact with an ordinary, physical life.`,
     sourceUrl: 'https://www.upi.com/Archives/1996/06/28/Cali-money-launderers-sentenced-in-NY/9841835934400/',
 });
+
+NotoriousAF.push({
+    title: "Bradley Birkenfeld: The Convicted UBS Banker Who Became the World's Best-Paid Whistleblower",
+    slug: 'bradley-birkenfeld-ubs-tax-evasion-whistleblower',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'tax-fraud', 'international', 'historical'],
+    body: `Bradley Birkenfeld worked as a private banker for UBS, Switzerland's largest bank, helping wealthy American clients hide assets offshore from the IRS. From roughly 2001 to 2006, he worked with Liechtenstein-based associate Mario Staggl to help an American billionaire real estate developer conceal about $200 million in assets across Switzerland and Liechtenstein, evading roughly $7.2 million in U.S. taxes — one thread of a far larger UBS operation that, at its peak, held an estimated $20 billion in undeclared U.S. client assets and generated the bank roughly $200 million a year in revenue.
+
+Birkenfeld pleaded guilty on June 19, 2008, to one count of conspiracy to defraud the United States. But before he was sentenced, he had already approached the IRS and the Department of Justice as a whistleblower, laying out in detail how UBS bankers systematically traveled to the U.S. to help wealthy Americans set up secret Swiss accounts specifically to evade taxes. That disclosure directly led to UBS's February 2009 deferred prosecution agreement — a $780 million fine and the disclosure of thousands of previously secret client names — and ultimately to more than $5 billion recovered from over 33,000 U.S. taxpayers who came forward through subsequent voluntary-disclosure programs.
+
+None of that cooperation erased Birkenfeld's own role in the scheme. In August 2009 he was sentenced to 40 months in federal prison and served roughly two and a half years. Then, on September 11, 2012, the IRS Whistleblower Office paid him $104 million — at the time the largest individual whistleblower award the agency had ever issued — under a program that rewards people who expose major tax fraud with a cut of what the government recovers.
+
+Birkenfeld's case is a rare one in this collection: he is both the fraudster and the source who ultimately unwound the fraud, having served federal prison time for the same underlying scheme that made him a multimillionaire once it was exposed. It illustrates a genuine tension inside whistleblower-incentive programs — the very inside knowledge that makes someone a uniquely valuable informant often comes from having personally helped build the fraud in the first place, and the law has to decide how much of that person's own culpability a reward for coming forward can outweigh.`,
+    sourceUrl: 'https://www.justice.gov/archive/tax/txdv08550.htm',
+});
